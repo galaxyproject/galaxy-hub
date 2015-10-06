@@ -1,0 +1,56 @@
+doctype html
+
+head( lang="en" )
+    block title
+        title=title
+    meta( charset="utf-8" )
+    meta( http-equiv="X-UA-Compatible" content="IE=edge" )
+    meta( name="viewport" content="width=device-width, initial-scale=1" )
+    meta( name="description" content="" )
+    meta( name="author" content="" )
+
+    link( rel="stylesheet" type="text/css" href="/styles/styles.css" )
+    link( rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=EB+Garamond" )
+
+    script( src="http://localhost:35729/livereload.js" )
+    script( src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.7.0/fullcalendar.min.js")
+
+body
+
+    div#edit_page
+        a( href="https://github.com/dannon/test-galaxy-wiki/blob/master/src/#{orig_path}" ) Edit this page on GitHub!
+    header#logonav: div.container: div.row
+        div.col-sm-4.text-center: div.logo
+            a( href="http://galaxyproject.org/" ) The Galaxy Project: Online bioinformatics analysis for everyone
+        div.col-sm-8: a( href="/" )
+            h1
+                div Community Wiki
+                small documenting all things Galaxy
+
+    //- Static navbar
+    nav#topnavbar( class="navbar navbar-default navbar-static-top" role="navigation" )
+        div.container: div.row
+            div.col-md-12
+                div.navbar-header
+                    button( type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" )
+                        span.sr-only Toggle navigation
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                div.navbar-collapse.collapse
+                    ul.nav.navbar-nav
+                        each val in menu
+                            li
+                                a( href="/#{val.toLowerCase()}/" ) #{val}
+
+    block section
+        section.section-content
+            block content
+                div.container !{ contents }
+
+    block footer
+        footer: div.container: div.row: div.col-md-12
+            p The Galaxy Project is supported in part by NSF, NHGRI, The Huck Institutes of the Life Sciences, The Institute for CyberScience at Penn State, and Johns Hopkins University.
+
+    script( src="/js/jquery.min.js" )
+    script( src="/js/bootstrap.min.js" )

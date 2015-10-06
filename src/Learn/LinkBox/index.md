@@ -1,0 +1,16 @@
+<div class='linkbox'>
+**[/Learn](/Learn)**
+----
+[Histories](/Histories)<br />
+[Screencasts](/Learn/Screencasts)<br />
+[FAQ](/Learn/FAQ)<br />
+[Interval Ops](/Learn/IntervalOperations)<br />
+[Datasets](/Learn/ManagingDatasets)<br />
+[Pages](/Learn/GalaxyPages)<br />
+[Share](/Learn/Share)<br />
+[FTP Upload](/FTPUpload)<br />
+[Accounts](/Learn/UserAccounts)<br />
+[/Support](/Support)<br />
+[Security](/Learn/SecurityFeatures)<br />
+[Search](http://galaxyproject.org/search/usegalaxy)
+</div>

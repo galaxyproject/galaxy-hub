@@ -1,0 +1,884 @@
+variant_id	anno_id	gene	transcript	is_exonic	is_coding	is_splicing	is_lof	exon	codon_change	aa_change	aa_length	biotype	impact	impact_so	impact_severity	polyphen_pred	polyphen_score	sift_pred	sift_score
+1	1	POLRMT	ENST00000590336	1	1	0	0	4	atC/atT	p.Ile92Ile/c.276C>T	141	protein_coding	synonymous_variant	synonymous_variant	LOW	None	None	None	None
+1	2	POLRMT	ENST00000588649	1	1	0	0	19	atC/atT	p.Ile1179Ile/c.3537C>T	1230	protein_coding	synonymous_variant	synonymous_variant	LOW	None	None	None	None
+1	3	POLRMT	ENST00000588649	0	0	0	0	15		c.3537G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+1	4	POLRMT	ENST00000588649	0	0	0	0	21		c.3537G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+1	5	POLRMT	ENST00000588649	0	0	0	0	16		c.3537G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+1	6	POLRMT	ENST00000588649	0	0	0	0	20		c.3537G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+1	7	POLRMT	ENST00000588649	0	0	0	0	13		c.3537G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+1	8	POLRMT	ENST00000588649	0	0	0	0	12		c.3537G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+1	9	POLRMT	ENST00000588649	0	0	0	0	14		c.3537G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+1	10	POLRMT	ENST00000588649	0	0	0	0	17		c.3537G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+1	11	POLRMT	ENST00000588649	0	0	0	0	18		c.3537G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+1	12	POLRMT	ENST00000588649	0	0	0	0	10		c.3537G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+1	13	POLRMT	ENST00000588649	0	0	0	0	19		c.3537G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+1	14	POLRMT	ENST00000588649	0	0	0	0	11		c.3537G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+1	15	POLRMT	ENST00000588649	0	0	0	0	19		c.3537G>A	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+1	16	AC005559.2	ENST00000591847	0	0	0	0		455		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+1	17	POLRMT	ENST00000586384	0	0	0	0		3986		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+1	18	HCN2	ENST00000251287	0	0	0	0		455		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+1	19	POLRMT	ENST00000590709	0	0	0	0		4921		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+1	20	POLRMT	ENST00000592633	0	0	0	0	2		n.254C>T	None	retained_intron	non_coding_exon_variant	non_coding_exon_variant	LOW	None	None	None	None
+1	21	POLRMT	ENST00000589961	0	0	0	0	1		n.189C>T	None	retained_intron	non_coding_exon_variant	non_coding_exon_variant	LOW	None	None	None	None
+1	22	POLRMT	ENST00000587057	0	0	0	0	2		n.1020C>T	None	retained_intron	non_coding_exon_variant	non_coding_exon_variant	LOW	None	None	None	None
+2	1	POLRMT	ENST00000588649	1	1	0	0	18	caC/caT	p.His1156His/c.3468C>T	1230	protein_coding	synonymous_variant	synonymous_variant	LOW	None	None	None	None
+2	2	POLRMT	ENST00000590336	1	1	0	0	3	caC/caT	p.His69His/c.207C>T	141	protein_coding	synonymous_variant	synonymous_variant	LOW	None	None	None	None
+2	3	POLRMT	ENST00000588649	0	0	0	0	15		c.3468G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+2	4	POLRMT	ENST00000588649	0	0	0	0	21		c.3468G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+2	5	POLRMT	ENST00000588649	0	0	0	0	16		c.3468G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+2	6	POLRMT	ENST00000588649	0	0	0	0	20		c.3468G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+2	7	POLRMT	ENST00000588649	0	0	0	0	13		c.3468G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+2	8	POLRMT	ENST00000588649	0	0	0	0	12		c.3468G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+2	9	POLRMT	ENST00000588649	0	0	0	0	14		c.3468G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+2	10	POLRMT	ENST00000588649	0	0	0	0	17		c.3468G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+2	11	POLRMT	ENST00000588649	0	0	0	0	18		c.3468G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+2	12	POLRMT	ENST00000588649	0	0	0	0	10		c.3468G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+2	13	POLRMT	ENST00000588649	0	0	0	0	19		c.3468G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+2	14	POLRMT	ENST00000588649	0	0	0	0	11		c.3468G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+2	15	POLRMT	ENST00000588649	0	0	0	0	18		c.3468G>A	1230	protein_coding	sequence_feature[beta_strand]	sequence_feature[beta_strand]	LOW	None	None	None	None
+2	16	AC005559.2	ENST00000591847	0	0	0	0		645		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+2	17	POLRMT	ENST00000589961	0	0	0	0		2		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+2	18	POLRMT	ENST00000586384	0	0	0	0		3796		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+2	19	HCN2	ENST00000251287	0	0	0	0		645		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+2	20	POLRMT	ENST00000590709	0	0	0	0		4731		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+2	21	POLRMT	ENST00000587057	0	0	0	0	2		n.830C>T	None	retained_intron	non_coding_exon_variant	non_coding_exon_variant	LOW	None	None	None	None
+2	22	POLRMT	ENST00000592633	0	0	0	0	1		n.185C>T	None	retained_intron	non_coding_exon_variant	non_coding_exon_variant	LOW	None	None	None	None
+3	1	POLRMT	ENST00000588649	0	0	0	0	15		c.3423A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+3	2	POLRMT	ENST00000588649	0	0	0	0	21		c.3423A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+3	3	POLRMT	ENST00000588649	0	0	0	0	16		c.3423A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+3	4	POLRMT	ENST00000588649	0	0	0	0	20		c.3423A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+3	5	POLRMT	ENST00000588649	0	0	0	0	13		c.3423A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+3	6	POLRMT	ENST00000588649	0	0	0	0	12		c.3423A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+3	7	POLRMT	ENST00000588649	0	0	0	0	14		c.3423A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+3	8	POLRMT	ENST00000588649	0	0	0	0	17		c.3423A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+3	9	POLRMT	ENST00000588649	0	0	0	0	18		c.3423A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+3	10	POLRMT	ENST00000588649	0	0	0	0	10		c.3423A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+3	11	POLRMT	ENST00000588649	0	0	0	0	19		c.3423A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+3	12	POLRMT	ENST00000588649	0	0	0	0	11		c.3423A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+3	13	POLRMT	ENST00000588649	0	0	0	0	17		c.3423A>C	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+3	14	POLRMT	ENST00000588649	0	0	0	0	18		c.3423A>C	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+3	15	AC005559.2	ENST00000591847	0	0	0	0		800		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+3	16	POLRMT	ENST00000589961	0	0	0	0		157		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+3	17	POLRMT	ENST00000586384	0	0	0	0		3641		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+3	18	HCN2	ENST00000251287	0	0	0	0		800		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+3	19	POLRMT	ENST00000590709	0	0	0	0		4576		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+3	20	POLRMT	ENST00000588649	0	0	0	0	17		c.3423-110T>G	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+3	21	POLRMT	ENST00000590336	0	0	0	0	2		c.141-89T>G	141	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+3	22	POLRMT	ENST00000587057	0	0	0	0	2		n.675T>G	None	retained_intron	non_coding_exon_variant	non_coding_exon_variant	LOW	None	None	None	None
+3	23	POLRMT	ENST00000592633	0	0	0	0	1		n.30T>G	None	retained_intron	non_coding_exon_variant	non_coding_exon_variant	LOW	None	None	None	None
+4	1	POLRMT	ENST00000588649	0	0	0	0	15		c.3423A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+4	2	POLRMT	ENST00000588649	0	0	0	0	21		c.3423A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+4	3	POLRMT	ENST00000588649	0	0	0	0	16		c.3423A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+4	4	POLRMT	ENST00000588649	0	0	0	0	20		c.3423A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+4	5	POLRMT	ENST00000588649	0	0	0	0	13		c.3423A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+4	6	POLRMT	ENST00000588649	0	0	0	0	12		c.3423A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+4	7	POLRMT	ENST00000588649	0	0	0	0	14		c.3423A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+4	8	POLRMT	ENST00000588649	0	0	0	0	17		c.3423A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+4	9	POLRMT	ENST00000588649	0	0	0	0	18		c.3423A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+4	10	POLRMT	ENST00000588649	0	0	0	0	10		c.3423A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+4	11	POLRMT	ENST00000588649	0	0	0	0	19		c.3423A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+4	12	POLRMT	ENST00000588649	0	0	0	0	11		c.3423A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+4	13	POLRMT	ENST00000588649	0	0	0	0	17		c.3423A>G	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+4	14	POLRMT	ENST00000588649	0	0	0	0	18		c.3423A>G	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+4	15	AC005559.2	ENST00000591847	0	0	0	0		1000		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+4	16	POLRMT	ENST00000589961	0	0	0	0		357		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+4	17	POLRMT	ENST00000592633	0	0	0	0		171		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+4	18	POLRMT	ENST00000586384	0	0	0	0		3441		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+4	19	HCN2	ENST00000251287	0	0	0	0		1000		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+4	20	POLRMT	ENST00000590709	0	0	0	0		4376		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+4	21	POLRMT	ENST00000588649	0	0	0	0	17		c.3423-310T>C	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+4	22	POLRMT	ENST00000590336	0	0	0	0	2		c.141-289T>C	141	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+4	23	POLRMT	ENST00000587057	0	0	0	0	2		n.475T>C	None	retained_intron	non_coding_exon_variant	non_coding_exon_variant	LOW	None	None	None	None
+5	1	POLRMT	ENST00000588649	0	0	0	0	15		c.3423T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+5	2	POLRMT	ENST00000588649	0	0	0	0	21		c.3423T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+5	3	POLRMT	ENST00000588649	0	0	0	0	16		c.3423T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+5	4	POLRMT	ENST00000588649	0	0	0	0	20		c.3423T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+5	5	POLRMT	ENST00000588649	0	0	0	0	13		c.3423T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+5	6	POLRMT	ENST00000588649	0	0	0	0	12		c.3423T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+5	7	POLRMT	ENST00000588649	0	0	0	0	14		c.3423T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+5	8	POLRMT	ENST00000588649	0	0	0	0	17		c.3423T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+5	9	POLRMT	ENST00000588649	0	0	0	0	18		c.3423T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+5	10	POLRMT	ENST00000588649	0	0	0	0	10		c.3423T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+5	11	POLRMT	ENST00000588649	0	0	0	0	19		c.3423T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+5	12	POLRMT	ENST00000588649	0	0	0	0	11		c.3423T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+5	13	POLRMT	ENST00000588649	0	0	0	0	17		c.3423T>G	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+5	14	POLRMT	ENST00000588649	0	0	0	0	18		c.3423T>G	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+5	15	AC005559.2	ENST00000591847	0	0	0	0		1269		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+5	16	POLRMT	ENST00000589961	0	0	0	0		626		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+5	17	POLRMT	ENST00000592633	0	0	0	0		440		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+5	18	POLRMT	ENST00000586384	0	0	0	0		3172		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+5	19	HCN2	ENST00000251287	0	0	0	0		1269		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+5	20	POLRMT	ENST00000590709	0	0	0	0		4107		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+5	21	POLRMT	ENST00000588649	0	0	0	0	17		c.3422+60A>C	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+5	22	POLRMT	ENST00000590336	0	0	0	0	2		c.140+60A>C	141	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+5	23	POLRMT	ENST00000587057	0	0	0	0	2		n.206A>C	None	retained_intron	non_coding_exon_variant	non_coding_exon_variant	LOW	None	None	None	None
+6	1	POLRMT	ENST00000588649	0	0	0	0	15		c.3268T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+6	2	POLRMT	ENST00000588649	0	0	0	0	21		c.3268T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+6	3	POLRMT	ENST00000588649	0	0	0	0	16		c.3268T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+6	4	POLRMT	ENST00000588649	0	0	0	0	20		c.3268T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+6	5	POLRMT	ENST00000588649	0	0	0	0	13		c.3268T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+6	6	POLRMT	ENST00000588649	0	0	0	0	12		c.3268T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+6	7	POLRMT	ENST00000588649	0	0	0	0	14		c.3268T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+6	8	POLRMT	ENST00000588649	0	0	0	0	17		c.3268T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+6	9	POLRMT	ENST00000588649	0	0	0	0	18		c.3268T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+6	10	POLRMT	ENST00000588649	0	0	0	0	10		c.3268T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+6	11	POLRMT	ENST00000588649	0	0	0	0	19		c.3268T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+6	12	POLRMT	ENST00000588649	0	0	0	0	11		c.3268T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+6	13	AC005559.2	ENST00000591847	0	0	0	0		1692		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+6	14	POLRMT	ENST00000589961	0	0	0	0		1049		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+6	15	POLRMT	ENST00000592633	0	0	0	0		863		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+6	16	LLNLR-299G3.1	ENST00000607288	0	0	0	0		4668		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+6	17	POLRMT	ENST00000590336	0	0	0	0		105		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+6	18	POLRMT	ENST00000587057	0	0	0	0		100		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+6	19	POLRMT	ENST00000586384	0	0	0	0		2749		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+6	20	HCN2	ENST00000251287	0	0	0	0		1692		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+6	21	POLRMT	ENST00000590709	0	0	0	0		3684		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+6	22	POLRMT	ENST00000590573	0	0	0	0		4610		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+6	23	POLRMT	ENST00000588649	0	0	0	0	15		c.3268-91A>G	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+7	1	POLRMT	ENST00000588649	0	0	0	0	15		c.3268G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+7	2	POLRMT	ENST00000588649	0	0	0	0	21		c.3268G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+7	3	POLRMT	ENST00000588649	0	0	0	0	16		c.3268G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+7	4	POLRMT	ENST00000588649	0	0	0	0	20		c.3268G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+7	5	POLRMT	ENST00000588649	0	0	0	0	13		c.3268G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+7	6	POLRMT	ENST00000588649	0	0	0	0	12		c.3268G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+7	7	POLRMT	ENST00000588649	0	0	0	0	14		c.3268G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+7	8	POLRMT	ENST00000588649	0	0	0	0	17		c.3268G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+7	9	POLRMT	ENST00000588649	0	0	0	0	18		c.3268G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+7	10	POLRMT	ENST00000588649	0	0	0	0	10		c.3268G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+7	11	POLRMT	ENST00000588649	0	0	0	0	19		c.3268G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+7	12	POLRMT	ENST00000588649	0	0	0	0	11		c.3268G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+7	13	AC005559.2	ENST00000591847	0	0	0	0		1695		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+7	14	POLRMT	ENST00000589961	0	0	0	0		1052		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+7	15	POLRMT	ENST00000592633	0	0	0	0		866		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+7	16	LLNLR-299G3.1	ENST00000607288	0	0	0	0		4665		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+7	17	POLRMT	ENST00000590336	0	0	0	0		108		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+7	18	POLRMT	ENST00000587057	0	0	0	0		103		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+7	19	POLRMT	ENST00000586384	0	0	0	0		2746		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+7	20	HCN2	ENST00000251287	0	0	0	0		1695		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+7	21	POLRMT	ENST00000590709	0	0	0	0		3681		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+7	22	POLRMT	ENST00000590573	0	0	0	0		4607		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+7	23	POLRMT	ENST00000588649	0	0	0	0	15		c.3268-94C>T	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+8	1	POLRMT	ENST00000588649	0	0	0	0	15		c.3268T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+8	2	POLRMT	ENST00000588649	0	0	0	0	21		c.3268T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+8	3	POLRMT	ENST00000588649	0	0	0	0	16		c.3268T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+8	4	POLRMT	ENST00000588649	0	0	0	0	20		c.3268T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+8	5	POLRMT	ENST00000588649	0	0	0	0	13		c.3268T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+8	6	POLRMT	ENST00000588649	0	0	0	0	12		c.3268T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+8	7	POLRMT	ENST00000588649	0	0	0	0	14		c.3268T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+8	8	POLRMT	ENST00000588649	0	0	0	0	17		c.3268T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+8	9	POLRMT	ENST00000588649	0	0	0	0	18		c.3268T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+8	10	POLRMT	ENST00000588649	0	0	0	0	10		c.3268T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+8	11	POLRMT	ENST00000588649	0	0	0	0	19		c.3268T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+8	12	POLRMT	ENST00000588649	0	0	0	0	11		c.3268T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+8	13	AC005559.2	ENST00000591847	0	0	0	0		1752		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+8	14	POLRMT	ENST00000589961	0	0	0	0		1109		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+8	15	POLRMT	ENST00000592633	0	0	0	0		923		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+8	16	LLNLR-299G3.1	ENST00000607288	0	0	0	0		4608		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+8	17	POLRMT	ENST00000590336	0	0	0	0		165		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+8	18	POLRMT	ENST00000587057	0	0	0	0		160		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+8	19	POLRMT	ENST00000586384	0	0	0	0		2689		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+8	20	HCN2	ENST00000251287	0	0	0	0		1752		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+8	21	POLRMT	ENST00000590709	0	0	0	0		3624		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+8	22	POLRMT	ENST00000590573	0	0	0	0		4550		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+8	23	POLRMT	ENST00000588649	0	0	0	0	15		c.3267+86A>C	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+9	1	POLRMT	ENST00000588649	1	1	0	0	15	ccC/ccG	p.Pro1081Pro/c.3243C>G	1230	protein_coding	synonymous_variant	synonymous_variant	LOW	None	None	None	None
+9	2	POLRMT	ENST00000588649	0	0	0	0	15		c.3243G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+9	3	POLRMT	ENST00000588649	0	0	0	0	21		c.3243G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+9	4	POLRMT	ENST00000588649	0	0	0	0	16		c.3243G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+9	5	POLRMT	ENST00000588649	0	0	0	0	20		c.3243G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+9	6	POLRMT	ENST00000588649	0	0	0	0	13		c.3243G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+9	7	POLRMT	ENST00000588649	0	0	0	0	12		c.3243G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+9	8	POLRMT	ENST00000588649	0	0	0	0	14		c.3243G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+9	9	POLRMT	ENST00000588649	0	0	0	0	17		c.3243G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+9	10	POLRMT	ENST00000588649	0	0	0	0	18		c.3243G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+9	11	POLRMT	ENST00000588649	0	0	0	0	10		c.3243G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+9	12	POLRMT	ENST00000588649	0	0	0	0	19		c.3243G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+9	13	POLRMT	ENST00000588649	0	0	0	0	11		c.3243G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+9	14	AC005559.2	ENST00000591847	0	0	0	0		1862		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+9	15	POLRMT	ENST00000589961	0	0	0	0		1219		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+9	16	POLRMT	ENST00000592633	0	0	0	0		1033		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+9	17	LLNLR-299G3.1	ENST00000607288	0	0	0	0		4498		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+9	18	POLRMT	ENST00000590336	0	0	0	0		275		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+9	19	POLRMT	ENST00000587057	0	0	0	0		270		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+9	20	POLRMT	ENST00000586384	0	0	0	0		2579		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+9	21	HCN2	ENST00000251287	0	0	0	0		1862		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+9	22	POLRMT	ENST00000590709	0	0	0	0		3514		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+9	23	POLRMT	ENST00000590573	0	0	0	0		4440		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+10	1	POLRMT	ENST00000588649	0	0	0	0	15		c.3154G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+10	2	POLRMT	ENST00000588649	0	0	0	0	21		c.3154G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+10	3	POLRMT	ENST00000588649	0	0	0	0	16		c.3154G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+10	4	POLRMT	ENST00000588649	0	0	0	0	20		c.3154G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+10	5	POLRMT	ENST00000588649	0	0	0	0	13		c.3154G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+10	6	POLRMT	ENST00000588649	0	0	0	0	12		c.3154G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+10	7	POLRMT	ENST00000588649	0	0	0	0	14		c.3154G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+10	8	POLRMT	ENST00000588649	0	0	0	0	17		c.3154G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+10	9	POLRMT	ENST00000588649	0	0	0	0	18		c.3154G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+10	10	POLRMT	ENST00000588649	0	0	0	0	10		c.3154G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+10	11	POLRMT	ENST00000588649	0	0	0	0	19		c.3154G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+10	12	POLRMT	ENST00000588649	0	0	0	0	11		c.3154G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+10	13	POLRMT	ENST00000588649	0	0	0	0	15		c.3154G>A	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+10	14	POLRMT	ENST00000588649	0	0	0	0	14		c.3154G>A	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+10	15	AC005559.2	ENST00000591847	0	0	0	0		1980		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+10	16	POLRMT	ENST00000589961	0	0	0	0		1337		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+10	17	POLRMT	ENST00000592633	0	0	0	0		1151		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+10	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		4380		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+10	19	POLRMT	ENST00000590336	0	0	0	0		393		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+10	20	POLRMT	ENST00000587057	0	0	0	0		388		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+10	21	POLRMT	ENST00000586384	0	0	0	0		2461		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+10	22	HCN2	ENST00000251287	0	0	0	0		1980		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+10	23	POLRMT	ENST00000590709	0	0	0	0		3396		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+10	24	POLRMT	ENST00000590573	0	0	0	0		4322		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+10	25	POLRMT	ENST00000588649	0	0	0	0	14		c.3154-29C>T	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+11	1	POLRMT	ENST00000588649	0	0	0	0	15		c.3067A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+11	2	POLRMT	ENST00000588649	0	0	0	0	21		c.3067A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+11	3	POLRMT	ENST00000588649	0	0	0	0	16		c.3067A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+11	4	POLRMT	ENST00000588649	0	0	0	0	20		c.3067A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+11	5	POLRMT	ENST00000588649	0	0	0	0	13		c.3067A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+11	6	POLRMT	ENST00000588649	0	0	0	0	12		c.3067A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+11	7	POLRMT	ENST00000588649	0	0	0	0	14		c.3067A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+11	8	POLRMT	ENST00000588649	0	0	0	0	17		c.3067A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+11	9	POLRMT	ENST00000588649	0	0	0	0	18		c.3067A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+11	10	POLRMT	ENST00000588649	0	0	0	0	10		c.3067A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+11	11	POLRMT	ENST00000588649	0	0	0	0	19		c.3067A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+11	12	POLRMT	ENST00000588649	0	0	0	0	11		c.3067A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+11	13	POLRMT	ENST00000588649	0	0	0	0	13		c.3067A>G	1230	protein_coding	sequence_feature[turn]	sequence_feature[turn]	LOW	None	None	None	None
+11	14	POLRMT	ENST00000588649	0	0	0	0	14		c.3067A>G	1230	protein_coding	sequence_feature[turn]	sequence_feature[turn]	LOW	None	None	None	None
+11	15	AC005559.2	ENST00000591847	0	0	0	0		2249		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+11	16	POLRMT	ENST00000589961	0	0	0	0		1606		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+11	17	POLRMT	ENST00000592633	0	0	0	0		1420		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+11	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		4111		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+11	19	POLRMT	ENST00000590336	0	0	0	0		662		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+11	20	POLRMT	ENST00000587057	0	0	0	0		657		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+11	21	POLRMT	ENST00000586384	0	0	0	0		2192		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+11	22	HCN2	ENST00000251287	0	0	0	0		2249		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+11	23	POLRMT	ENST00000590709	0	0	0	0		3127		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+11	24	POLRMT	ENST00000590573	0	0	0	0		4053		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+11	25	POLRMT	ENST00000588649	0	0	0	0	13		c.3067-112T>C	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+12	1	POLRMT	ENST00000588649	0	0	0	0	15		c.3067T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+12	2	POLRMT	ENST00000588649	0	0	0	0	21		c.3067T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+12	3	POLRMT	ENST00000588649	0	0	0	0	16		c.3067T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+12	4	POLRMT	ENST00000588649	0	0	0	0	20		c.3067T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+12	5	POLRMT	ENST00000588649	0	0	0	0	13		c.3067T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+12	6	POLRMT	ENST00000588649	0	0	0	0	12		c.3067T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+12	7	POLRMT	ENST00000588649	0	0	0	0	14		c.3067T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+12	8	POLRMT	ENST00000588649	0	0	0	0	17		c.3067T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+12	9	POLRMT	ENST00000588649	0	0	0	0	18		c.3067T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+12	10	POLRMT	ENST00000588649	0	0	0	0	10		c.3067T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+12	11	POLRMT	ENST00000588649	0	0	0	0	19		c.3067T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+12	12	POLRMT	ENST00000588649	0	0	0	0	11		c.3067T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+12	13	POLRMT	ENST00000588649	0	0	0	0	13		c.3067T>G	1230	protein_coding	sequence_feature[turn]	sequence_feature[turn]	LOW	None	None	None	None
+12	14	POLRMT	ENST00000588649	0	0	0	0	14		c.3067T>G	1230	protein_coding	sequence_feature[turn]	sequence_feature[turn]	LOW	None	None	None	None
+12	15	AC005559.2	ENST00000591847	0	0	0	0		2415		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+12	16	POLRMT	ENST00000589961	0	0	0	0		1772		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+12	17	POLRMT	ENST00000592633	0	0	0	0		1586		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+12	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		3945		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+12	19	POLRMT	ENST00000590336	0	0	0	0		828		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+12	20	POLRMT	ENST00000587057	0	0	0	0		823		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+12	21	POLRMT	ENST00000586384	0	0	0	0		2026		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+12	22	HCN2	ENST00000251287	0	0	0	0		2415		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+12	23	POLRMT	ENST00000590709	0	0	0	0		2961		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+12	24	POLRMT	ENST00000590573	0	0	0	0		3887		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+12	25	POLRMT	ENST00000588649	0	0	0	0	13		c.3066+12A>C	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+13	1	POLRMT	ENST00000588649	0	0	1	0	12		c.2887C>G	1230	protein_coding	splice_region_variant	splice_region_variant	MED	None	None	None	None
+13	2	POLRMT	ENST00000588649	0	0	0	0	15		c.2887G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+13	3	POLRMT	ENST00000588649	0	0	0	0	21		c.2887G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+13	4	POLRMT	ENST00000588649	0	0	0	0	16		c.2887G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+13	5	POLRMT	ENST00000588649	0	0	0	0	20		c.2887G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+13	6	POLRMT	ENST00000588649	0	0	0	0	13		c.2887G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+13	7	POLRMT	ENST00000588649	0	0	0	0	12		c.2887G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+13	8	POLRMT	ENST00000588649	0	0	0	0	14		c.2887G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+13	9	POLRMT	ENST00000588649	0	0	0	0	17		c.2887G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+13	10	POLRMT	ENST00000588649	0	0	0	0	18		c.2887G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+13	11	POLRMT	ENST00000588649	0	0	0	0	10		c.2887G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+13	12	POLRMT	ENST00000588649	0	0	0	0	19		c.2887G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+13	13	POLRMT	ENST00000588649	0	0	0	0	11		c.2887G>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+13	14	POLRMT	ENST00000588649	0	0	0	0	13		c.2887G>C	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+13	15	POLRMT	ENST00000588649	0	0	0	0	12		c.2887G>C	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+13	16	AC005559.2	ENST00000591847	0	0	0	0		2613		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+13	17	POLRMT	ENST00000589961	0	0	0	0		1970		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+13	18	POLRMT	ENST00000592633	0	0	0	0		1784		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+13	19	LLNLR-299G3.1	ENST00000607288	0	0	0	0		3747		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+13	20	POLRMT	ENST00000590336	0	0	0	0		1026		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+13	21	POLRMT	ENST00000587057	0	0	0	0		1021		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+13	22	POLRMT	ENST00000586384	0	0	0	0		1828		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+13	23	HCN2	ENST00000251287	0	0	0	0		2613		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+13	24	POLRMT	ENST00000590709	0	0	0	0		2763		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+13	25	POLRMT	ENST00000590573	0	0	0	0		3689		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+13	26	POLRMT	ENST00000588630	0	0	0	0		4953		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+13	27	POLRMT	ENST00000588649	0	0	0	0	12		c.2887-7C>G	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+14	1	POLRMT	ENST00000588649	0	0	0	0	15		c.2887T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+14	2	POLRMT	ENST00000588649	0	0	0	0	21		c.2887T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+14	3	POLRMT	ENST00000588649	0	0	0	0	16		c.2887T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+14	4	POLRMT	ENST00000588649	0	0	0	0	20		c.2887T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+14	5	POLRMT	ENST00000588649	0	0	0	0	13		c.2887T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+14	6	POLRMT	ENST00000588649	0	0	0	0	12		c.2887T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+14	7	POLRMT	ENST00000588649	0	0	0	0	14		c.2887T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+14	8	POLRMT	ENST00000588649	0	0	0	0	17		c.2887T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+14	9	POLRMT	ENST00000588649	0	0	0	0	18		c.2887T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+14	10	POLRMT	ENST00000588649	0	0	0	0	10		c.2887T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+14	11	POLRMT	ENST00000588649	0	0	0	0	19		c.2887T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+14	12	POLRMT	ENST00000588649	0	0	0	0	11		c.2887T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+14	13	POLRMT	ENST00000588649	0	0	0	0	13		c.2887T>C	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+14	14	POLRMT	ENST00000588649	0	0	0	0	12		c.2887T>C	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+14	15	AC005559.2	ENST00000591847	0	0	0	0		2754		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+14	16	POLRMT	ENST00000589961	0	0	0	0		2111		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+14	17	POLRMT	ENST00000592633	0	0	0	0		1925		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+14	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		3606		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+14	19	POLRMT	ENST00000590336	0	0	0	0		1167		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+14	20	POLRMT	ENST00000587057	0	0	0	0		1162		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+14	21	POLRMT	ENST00000586384	0	0	0	0		1687		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+14	22	HCN2	ENST00000251287	0	0	0	0		2754		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+14	23	POLRMT	ENST00000590709	0	0	0	0		2622		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+14	24	POLRMT	ENST00000590573	0	0	0	0		3548		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+14	25	POLRMT	ENST00000588630	0	0	0	0		4812		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+14	26	POLRMT	ENST00000588649	0	0	0	0	12		c.2886+45A>G	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+15	1	POLRMT	ENST00000588649	1	1	0	0	12	gAg/gGg	p.Glu947Gly/c.2840A>G	1230	protein_coding	missense_variant	missense_variant	MED	None	None	None	None
+15	2	POLRMT	ENST00000588649	0	0	0	0	15		c.2840T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+15	3	POLRMT	ENST00000588649	0	0	0	0	21		c.2840T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+15	4	POLRMT	ENST00000588649	0	0	0	0	16		c.2840T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+15	5	POLRMT	ENST00000588649	0	0	0	0	20		c.2840T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+15	6	POLRMT	ENST00000588649	0	0	0	0	13		c.2840T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+15	7	POLRMT	ENST00000588649	0	0	0	0	12		c.2840T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+15	8	POLRMT	ENST00000588649	0	0	0	0	14		c.2840T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+15	9	POLRMT	ENST00000588649	0	0	0	0	17		c.2840T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+15	10	POLRMT	ENST00000588649	0	0	0	0	18		c.2840T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+15	11	POLRMT	ENST00000588649	0	0	0	0	10		c.2840T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+15	12	POLRMT	ENST00000588649	0	0	0	0	19		c.2840T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+15	13	POLRMT	ENST00000588649	0	0	0	0	11		c.2840T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+15	14	AC005559.2	ENST00000591847	0	0	0	0		2845		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+15	15	POLRMT	ENST00000589961	0	0	0	0		2202		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+15	16	POLRMT	ENST00000592633	0	0	0	0		2016		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+15	17	LLNLR-299G3.1	ENST00000607288	0	0	0	0		3515		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+15	18	POLRMT	ENST00000590336	0	0	0	0		1258		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+15	19	POLRMT	ENST00000587057	0	0	0	0		1253		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+15	20	POLRMT	ENST00000586384	0	0	0	0		1596		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+15	21	HCN2	ENST00000251287	0	0	0	0		2845		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+15	22	POLRMT	ENST00000590709	0	0	0	0		2531		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+15	23	POLRMT	ENST00000590573	0	0	0	0		3457		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+15	24	POLRMT	ENST00000588630	0	0	0	0		4721		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+16	1	POLRMT	ENST00000588649	1	1	0	0	12	gcT/gcA	p.Ala933Ala/c.2799T>A	1230	protein_coding	synonymous_variant	synonymous_variant	LOW	None	None	None	None
+16	2	POLRMT	ENST00000588649	0	0	0	0	15		c.2799A>T	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+16	3	POLRMT	ENST00000588649	0	0	0	0	21		c.2799A>T	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+16	4	POLRMT	ENST00000588649	0	0	0	0	16		c.2799A>T	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+16	5	POLRMT	ENST00000588649	0	0	0	0	20		c.2799A>T	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+16	6	POLRMT	ENST00000588649	0	0	0	0	13		c.2799A>T	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+16	7	POLRMT	ENST00000588649	0	0	0	0	12		c.2799A>T	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+16	8	POLRMT	ENST00000588649	0	0	0	0	14		c.2799A>T	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+16	9	POLRMT	ENST00000588649	0	0	0	0	17		c.2799A>T	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+16	10	POLRMT	ENST00000588649	0	0	0	0	18		c.2799A>T	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+16	11	POLRMT	ENST00000588649	0	0	0	0	10		c.2799A>T	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+16	12	POLRMT	ENST00000588649	0	0	0	0	19		c.2799A>T	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+16	13	POLRMT	ENST00000588649	0	0	0	0	11		c.2799A>T	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+16	14	POLRMT	ENST00000588649	0	0	0	0	12		c.2799A>T	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+16	15	AC005559.2	ENST00000591847	0	0	0	0		2886		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+16	16	POLRMT	ENST00000589961	0	0	0	0		2243		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+16	17	POLRMT	ENST00000592633	0	0	0	0		2057		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+16	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		3474		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+16	19	POLRMT	ENST00000590336	0	0	0	0		1299		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+16	20	POLRMT	ENST00000587057	0	0	0	0		1294		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+16	21	POLRMT	ENST00000586384	0	0	0	0		1555		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+16	22	HCN2	ENST00000251287	0	0	0	0		2886		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+16	23	POLRMT	ENST00000590709	0	0	0	0		2490		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+16	24	POLRMT	ENST00000590573	0	0	0	0		3416		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+16	25	POLRMT	ENST00000588630	0	0	0	0		4680		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+17	1	POLRMT	ENST00000588649	0	0	0	0	15		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+17	2	POLRMT	ENST00000588649	0	0	0	0	21		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+17	3	POLRMT	ENST00000588649	0	0	0	0	16		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+17	4	POLRMT	ENST00000588649	0	0	0	0	20		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+17	5	POLRMT	ENST00000588649	0	0	0	0	13		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+17	6	POLRMT	ENST00000588649	0	0	0	0	12		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+17	7	POLRMT	ENST00000588649	0	0	0	0	14		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+17	8	POLRMT	ENST00000588649	0	0	0	0	17		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+17	9	POLRMT	ENST00000588649	0	0	0	0	18		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+17	10	POLRMT	ENST00000588649	0	0	0	0	10		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+17	11	POLRMT	ENST00000588649	0	0	0	0	19		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+17	12	POLRMT	ENST00000588649	0	0	0	0	11		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+17	13	POLRMT	ENST00000588649	0	0	0	0	12		c.2764A>C	1230	protein_coding	sequence_feature[beta_strand]	sequence_feature[beta_strand]	LOW	None	None	None	None
+17	14	POLRMT	ENST00000588649	0	0	0	0	11		c.2764A>C	1230	protein_coding	sequence_feature[beta_strand]	sequence_feature[beta_strand]	LOW	None	None	None	None
+17	15	AC005559.2	ENST00000591847	0	0	0	0		3042		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+17	16	POLRMT	ENST00000589961	0	0	0	0		2399		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+17	17	POLRMT	ENST00000592633	0	0	0	0		2213		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+17	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		3318		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+17	19	POLRMT	ENST00000590336	0	0	0	0		1455		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+17	20	POLRMT	ENST00000587057	0	0	0	0		1450		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+17	21	POLRMT	ENST00000586384	0	0	0	0		1399		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+17	22	HCN2	ENST00000251287	0	0	0	0		3042		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+17	23	POLRMT	ENST00000590709	0	0	0	0		2334		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+17	24	POLRMT	ENST00000590573	0	0	0	0		3260		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+17	25	POLRMT	ENST00000588630	0	0	0	0		4524		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+17	26	POLRMT	ENST00000588649	0	0	0	0	11		c.2764-121T>G	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+18	1	POLRMT	ENST00000588649	0	0	0	0	15		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+18	2	POLRMT	ENST00000588649	0	0	0	0	21		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+18	3	POLRMT	ENST00000588649	0	0	0	0	16		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+18	4	POLRMT	ENST00000588649	0	0	0	0	20		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+18	5	POLRMT	ENST00000588649	0	0	0	0	13		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+18	6	POLRMT	ENST00000588649	0	0	0	0	12		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+18	7	POLRMT	ENST00000588649	0	0	0	0	14		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+18	8	POLRMT	ENST00000588649	0	0	0	0	17		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+18	9	POLRMT	ENST00000588649	0	0	0	0	18		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+18	10	POLRMT	ENST00000588649	0	0	0	0	10		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+18	11	POLRMT	ENST00000588649	0	0	0	0	19		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+18	12	POLRMT	ENST00000588649	0	0	0	0	11		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+18	13	POLRMT	ENST00000588649	0	0	0	0	12		c.2764A>C	1230	protein_coding	sequence_feature[beta_strand]	sequence_feature[beta_strand]	LOW	None	None	None	None
+18	14	POLRMT	ENST00000588649	0	0	0	0	11		c.2764A>C	1230	protein_coding	sequence_feature[beta_strand]	sequence_feature[beta_strand]	LOW	None	None	None	None
+18	15	AC005559.2	ENST00000591847	0	0	0	0		3051		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+18	16	POLRMT	ENST00000589961	0	0	0	0		2408		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+18	17	POLRMT	ENST00000592633	0	0	0	0		2222		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+18	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		3309		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+18	19	POLRMT	ENST00000590336	0	0	0	0		1464		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+18	20	POLRMT	ENST00000587057	0	0	0	0		1459		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+18	21	POLRMT	ENST00000586384	0	0	0	0		1390		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+18	22	HCN2	ENST00000251287	0	0	0	0		3051		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+18	23	POLRMT	ENST00000590709	0	0	0	0		2325		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+18	24	POLRMT	ENST00000590573	0	0	0	0		3251		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+18	25	POLRMT	ENST00000588630	0	0	0	0		4515		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+18	26	POLRMT	ENST00000588649	0	0	0	0	11		c.2764-130T>G	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+19	1	POLRMT	ENST00000588649	0	0	0	0	15		c.2764T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+19	2	POLRMT	ENST00000588649	0	0	0	0	21		c.2764T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+19	3	POLRMT	ENST00000588649	0	0	0	0	16		c.2764T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+19	4	POLRMT	ENST00000588649	0	0	0	0	20		c.2764T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+19	5	POLRMT	ENST00000588649	0	0	0	0	13		c.2764T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+19	6	POLRMT	ENST00000588649	0	0	0	0	12		c.2764T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+19	7	POLRMT	ENST00000588649	0	0	0	0	14		c.2764T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+19	8	POLRMT	ENST00000588649	0	0	0	0	17		c.2764T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+19	9	POLRMT	ENST00000588649	0	0	0	0	18		c.2764T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+19	10	POLRMT	ENST00000588649	0	0	0	0	10		c.2764T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+19	11	POLRMT	ENST00000588649	0	0	0	0	19		c.2764T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+19	12	POLRMT	ENST00000588649	0	0	0	0	11		c.2764T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+19	13	POLRMT	ENST00000588649	0	0	0	0	12		c.2764T>C	1230	protein_coding	sequence_feature[beta_strand]	sequence_feature[beta_strand]	LOW	None	None	None	None
+19	14	POLRMT	ENST00000588649	0	0	0	0	11		c.2764T>C	1230	protein_coding	sequence_feature[beta_strand]	sequence_feature[beta_strand]	LOW	None	None	None	None
+19	15	AC005559.2	ENST00000591847	0	0	0	0		3055		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+19	16	POLRMT	ENST00000589961	0	0	0	0		2412		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+19	17	POLRMT	ENST00000592633	0	0	0	0		2226		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+19	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		3305		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+19	19	POLRMT	ENST00000590336	0	0	0	0		1468		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+19	20	POLRMT	ENST00000587057	0	0	0	0		1463		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+19	21	POLRMT	ENST00000586384	0	0	0	0		1386		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+19	22	HCN2	ENST00000251287	0	0	0	0		3055		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+19	23	POLRMT	ENST00000590709	0	0	0	0		2321		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+19	24	POLRMT	ENST00000590573	0	0	0	0		3247		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+19	25	POLRMT	ENST00000588630	0	0	0	0		4511		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+19	26	POLRMT	ENST00000588649	0	0	0	0	11		c.2764-134A>G	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+20	1	POLRMT	ENST00000588649	0	0	0	0	15		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+20	2	POLRMT	ENST00000588649	0	0	0	0	21		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+20	3	POLRMT	ENST00000588649	0	0	0	0	16		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+20	4	POLRMT	ENST00000588649	0	0	0	0	20		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+20	5	POLRMT	ENST00000588649	0	0	0	0	13		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+20	6	POLRMT	ENST00000588649	0	0	0	0	12		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+20	7	POLRMT	ENST00000588649	0	0	0	0	14		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+20	8	POLRMT	ENST00000588649	0	0	0	0	17		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+20	9	POLRMT	ENST00000588649	0	0	0	0	18		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+20	10	POLRMT	ENST00000588649	0	0	0	0	10		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+20	11	POLRMT	ENST00000588649	0	0	0	0	19		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+20	12	POLRMT	ENST00000588649	0	0	0	0	11		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+20	13	POLRMT	ENST00000588649	0	0	0	0	12		c.2764A>C	1230	protein_coding	sequence_feature[beta_strand]	sequence_feature[beta_strand]	LOW	None	None	None	None
+20	14	POLRMT	ENST00000588649	0	0	0	0	11		c.2764A>C	1230	protein_coding	sequence_feature[beta_strand]	sequence_feature[beta_strand]	LOW	None	None	None	None
+20	15	AC005559.2	ENST00000591847	0	0	0	0		3069		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+20	16	POLRMT	ENST00000589961	0	0	0	0		2426		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+20	17	POLRMT	ENST00000592633	0	0	0	0		2240		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+20	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		3291		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+20	19	POLRMT	ENST00000590336	0	0	0	0		1482		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+20	20	POLRMT	ENST00000587057	0	0	0	0		1477		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+20	21	POLRMT	ENST00000586384	0	0	0	0		1372		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+20	22	HCN2	ENST00000251287	0	0	0	0		3069		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+20	23	POLRMT	ENST00000590709	0	0	0	0		2307		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+20	24	POLRMT	ENST00000590573	0	0	0	0		3233		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+20	25	POLRMT	ENST00000588630	0	0	0	0		4497		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+20	26	POLRMT	ENST00000588649	0	0	0	0	11		c.2763+137T>G	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+21	1	POLRMT	ENST00000588649	0	0	0	0	15		c.2764C>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+21	2	POLRMT	ENST00000588649	0	0	0	0	21		c.2764C>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+21	3	POLRMT	ENST00000588649	0	0	0	0	16		c.2764C>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+21	4	POLRMT	ENST00000588649	0	0	0	0	20		c.2764C>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+21	5	POLRMT	ENST00000588649	0	0	0	0	13		c.2764C>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+21	6	POLRMT	ENST00000588649	0	0	0	0	12		c.2764C>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+21	7	POLRMT	ENST00000588649	0	0	0	0	14		c.2764C>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+21	8	POLRMT	ENST00000588649	0	0	0	0	17		c.2764C>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+21	9	POLRMT	ENST00000588649	0	0	0	0	18		c.2764C>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+21	10	POLRMT	ENST00000588649	0	0	0	0	10		c.2764C>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+21	11	POLRMT	ENST00000588649	0	0	0	0	19		c.2764C>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+21	12	POLRMT	ENST00000588649	0	0	0	0	11		c.2764C>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+21	13	POLRMT	ENST00000588649	0	0	0	0	12		c.2764C>A	1230	protein_coding	sequence_feature[beta_strand]	sequence_feature[beta_strand]	LOW	None	None	None	None
+21	14	POLRMT	ENST00000588649	0	0	0	0	11		c.2764C>A	1230	protein_coding	sequence_feature[beta_strand]	sequence_feature[beta_strand]	LOW	None	None	None	None
+21	15	AC005559.2	ENST00000591847	0	0	0	0		3140		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+21	16	POLRMT	ENST00000589961	0	0	0	0		2497		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+21	17	POLRMT	ENST00000592633	0	0	0	0		2311		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+21	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		3220		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+21	19	POLRMT	ENST00000590336	0	0	0	0		1553		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+21	20	POLRMT	ENST00000587057	0	0	0	0		1548		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+21	21	POLRMT	ENST00000586384	0	0	0	0		1301		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+21	22	HCN2	ENST00000251287	0	0	0	0		3140		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+21	23	POLRMT	ENST00000590709	0	0	0	0		2236		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+21	24	POLRMT	ENST00000590573	0	0	0	0		3162		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+21	25	POLRMT	ENST00000588630	0	0	0	0		4426		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+21	26	POLRMT	ENST00000588649	0	0	0	0	11		c.2763+66G>T	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+22	1	POLRMT	ENST00000588649	0	0	0	0	15		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+22	2	POLRMT	ENST00000588649	0	0	0	0	21		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+22	3	POLRMT	ENST00000588649	0	0	0	0	16		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+22	4	POLRMT	ENST00000588649	0	0	0	0	20		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+22	5	POLRMT	ENST00000588649	0	0	0	0	13		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+22	6	POLRMT	ENST00000588649	0	0	0	0	12		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+22	7	POLRMT	ENST00000588649	0	0	0	0	14		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+22	8	POLRMT	ENST00000588649	0	0	0	0	17		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+22	9	POLRMT	ENST00000588649	0	0	0	0	18		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+22	10	POLRMT	ENST00000588649	0	0	0	0	10		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+22	11	POLRMT	ENST00000588649	0	0	0	0	19		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+22	12	POLRMT	ENST00000588649	0	0	0	0	11		c.2764A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+22	13	POLRMT	ENST00000588649	0	0	0	0	12		c.2764A>C	1230	protein_coding	sequence_feature[beta_strand]	sequence_feature[beta_strand]	LOW	None	None	None	None
+22	14	POLRMT	ENST00000588649	0	0	0	0	11		c.2764A>C	1230	protein_coding	sequence_feature[beta_strand]	sequence_feature[beta_strand]	LOW	None	None	None	None
+22	15	AC005559.2	ENST00000591847	0	0	0	0		3156		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+22	16	POLRMT	ENST00000589961	0	0	0	0		2513		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+22	17	POLRMT	ENST00000592633	0	0	0	0		2327		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+22	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		3204		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+22	19	POLRMT	ENST00000590336	0	0	0	0		1569		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+22	20	POLRMT	ENST00000587057	0	0	0	0		1564		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+22	21	POLRMT	ENST00000586384	0	0	0	0		1285		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+22	22	HCN2	ENST00000251287	0	0	0	0		3156		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+22	23	POLRMT	ENST00000590709	0	0	0	0		2220		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+22	24	POLRMT	ENST00000590573	0	0	0	0		3146		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+22	25	POLRMT	ENST00000588630	0	0	0	0		4410		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+22	26	POLRMT	ENST00000588649	0	0	0	0	11		c.2763+50T>G	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+23	1	POLRMT	ENST00000588649	1	1	0	0	11	cAc/cCc	p.His916Pro/c.2747A>C	1230	protein_coding	missense_variant	missense_variant	MED	None	None	None	None
+23	2	POLRMT	ENST00000588649	0	0	0	0	15		c.2747T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+23	3	POLRMT	ENST00000588649	0	0	0	0	21		c.2747T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+23	4	POLRMT	ENST00000588649	0	0	0	0	16		c.2747T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+23	5	POLRMT	ENST00000588649	0	0	0	0	20		c.2747T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+23	6	POLRMT	ENST00000588649	0	0	0	0	13		c.2747T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+23	7	POLRMT	ENST00000588649	0	0	0	0	12		c.2747T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+23	8	POLRMT	ENST00000588649	0	0	0	0	14		c.2747T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+23	9	POLRMT	ENST00000588649	0	0	0	0	17		c.2747T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+23	10	POLRMT	ENST00000588649	0	0	0	0	18		c.2747T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+23	11	POLRMT	ENST00000588649	0	0	0	0	10		c.2747T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+23	12	POLRMT	ENST00000588649	0	0	0	0	19		c.2747T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+23	13	POLRMT	ENST00000588649	0	0	0	0	11		c.2747T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+23	14	AC005559.2	ENST00000591847	0	0	0	0		3222		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+23	15	POLRMT	ENST00000589961	0	0	0	0		2579		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+23	16	POLRMT	ENST00000592633	0	0	0	0		2393		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+23	17	LLNLR-299G3.1	ENST00000607288	0	0	0	0		3138		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+23	18	POLRMT	ENST00000590336	0	0	0	0		1635		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+23	19	POLRMT	ENST00000587057	0	0	0	0		1630		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+23	20	POLRMT	ENST00000586384	0	0	0	0		1219		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+23	21	HCN2	ENST00000251287	0	0	0	0		3222		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+23	22	POLRMT	ENST00000590709	0	0	0	0		2154		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+23	23	POLRMT	ENST00000590573	0	0	0	0		3080		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+23	24	POLRMT	ENST00000588630	0	0	0	0		4344		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+24	1	POLRMT	ENST00000588649	1	1	0	0	11	gTg/gGg	p.Val905Gly/c.2714T>G	1230	protein_coding	missense_variant	missense_variant	MED	None	None	None	None
+24	2	POLRMT	ENST00000588649	0	0	0	0	15		c.2714A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+24	3	POLRMT	ENST00000588649	0	0	0	0	21		c.2714A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+24	4	POLRMT	ENST00000588649	0	0	0	0	16		c.2714A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+24	5	POLRMT	ENST00000588649	0	0	0	0	20		c.2714A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+24	6	POLRMT	ENST00000588649	0	0	0	0	13		c.2714A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+24	7	POLRMT	ENST00000588649	0	0	0	0	12		c.2714A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+24	8	POLRMT	ENST00000588649	0	0	0	0	14		c.2714A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+24	9	POLRMT	ENST00000588649	0	0	0	0	17		c.2714A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+24	10	POLRMT	ENST00000588649	0	0	0	0	18		c.2714A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+24	11	POLRMT	ENST00000588649	0	0	0	0	10		c.2714A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+24	12	POLRMT	ENST00000588649	0	0	0	0	19		c.2714A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+24	13	POLRMT	ENST00000588649	0	0	0	0	11		c.2714A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+24	14	POLRMT	ENST00000588649	0	0	0	0	11		c.2714A>C	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+24	15	AC005559.2	ENST00000591847	0	0	0	0		3255		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+24	16	POLRMT	ENST00000589961	0	0	0	0		2612		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+24	17	POLRMT	ENST00000592633	0	0	0	0		2426		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+24	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		3105		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+24	19	POLRMT	ENST00000590336	0	0	0	0		1668		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+24	20	POLRMT	ENST00000587057	0	0	0	0		1663		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+24	21	POLRMT	ENST00000586384	0	0	0	0		1186		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+24	22	HCN2	ENST00000251287	0	0	0	0		3255		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+24	23	POLRMT	ENST00000590709	0	0	0	0		2121		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+24	24	POLRMT	ENST00000590573	0	0	0	0		3047		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+24	25	POLRMT	ENST00000588630	0	0	0	0		4311		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+25	1	POLRMT	ENST00000588649	1	1	0	0	11	gAg/gGg	p.Glu900Gly/c.2699A>G	1230	protein_coding	missense_variant	missense_variant	MED	None	None	None	None
+25	2	POLRMT	ENST00000588649	0	0	0	0	15		c.2699T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+25	3	POLRMT	ENST00000588649	0	0	0	0	21		c.2699T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+25	4	POLRMT	ENST00000588649	0	0	0	0	16		c.2699T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+25	5	POLRMT	ENST00000588649	0	0	0	0	20		c.2699T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+25	6	POLRMT	ENST00000588649	0	0	0	0	13		c.2699T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+25	7	POLRMT	ENST00000588649	0	0	0	0	12		c.2699T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+25	8	POLRMT	ENST00000588649	0	0	0	0	14		c.2699T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+25	9	POLRMT	ENST00000588649	0	0	0	0	17		c.2699T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+25	10	POLRMT	ENST00000588649	0	0	0	0	18		c.2699T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+25	11	POLRMT	ENST00000588649	0	0	0	0	10		c.2699T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+25	12	POLRMT	ENST00000588649	0	0	0	0	19		c.2699T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+25	13	POLRMT	ENST00000588649	0	0	0	0	11		c.2699T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+25	14	POLRMT	ENST00000588649	0	0	0	0	11		c.2699T>C	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+25	15	AC005559.2	ENST00000591847	0	0	0	0		3270		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+25	16	POLRMT	ENST00000589961	0	0	0	0		2627		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+25	17	POLRMT	ENST00000592633	0	0	0	0		2441		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+25	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		3090		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+25	19	POLRMT	ENST00000590336	0	0	0	0		1683		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+25	20	POLRMT	ENST00000587057	0	0	0	0		1678		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+25	21	POLRMT	ENST00000586384	0	0	0	0		1171		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+25	22	HCN2	ENST00000251287	0	0	0	0		3270		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+25	23	POLRMT	ENST00000590709	0	0	0	0		2106		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+25	24	POLRMT	ENST00000590573	0	0	0	0		3032		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+25	25	POLRMT	ENST00000588630	0	0	0	0		4296		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+26	1	POLRMT	ENST00000588649	1	1	0	0	11	Tgg/Ggg	p.Trp892Gly/c.2674T>G	1230	protein_coding	missense_variant	missense_variant	MED	None	None	None	None
+26	2	POLRMT	ENST00000588649	0	0	0	0	15		c.2674A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+26	3	POLRMT	ENST00000588649	0	0	0	0	21		c.2674A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+26	4	POLRMT	ENST00000588649	0	0	0	0	16		c.2674A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+26	5	POLRMT	ENST00000588649	0	0	0	0	20		c.2674A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+26	6	POLRMT	ENST00000588649	0	0	0	0	13		c.2674A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+26	7	POLRMT	ENST00000588649	0	0	0	0	12		c.2674A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+26	8	POLRMT	ENST00000588649	0	0	0	0	14		c.2674A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+26	9	POLRMT	ENST00000588649	0	0	0	0	17		c.2674A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+26	10	POLRMT	ENST00000588649	0	0	0	0	18		c.2674A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+26	11	POLRMT	ENST00000588649	0	0	0	0	10		c.2674A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+26	12	POLRMT	ENST00000588649	0	0	0	0	19		c.2674A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+26	13	POLRMT	ENST00000588649	0	0	0	0	11		c.2674A>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+26	14	POLRMT	ENST00000588649	0	0	0	0	11		c.2674A>C	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+26	15	AC005559.2	ENST00000591847	0	0	0	0		3295		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+26	16	POLRMT	ENST00000589961	0	0	0	0		2652		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+26	17	POLRMT	ENST00000592633	0	0	0	0		2466		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+26	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		3065		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+26	19	POLRMT	ENST00000590336	0	0	0	0		1708		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+26	20	POLRMT	ENST00000587057	0	0	0	0		1703		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+26	21	POLRMT	ENST00000586384	0	0	0	0		1146		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+26	22	HCN2	ENST00000251287	0	0	0	0		3295		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+26	23	POLRMT	ENST00000590709	0	0	0	0		2081		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+26	24	POLRMT	ENST00000590573	0	0	0	0		3007		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+26	25	POLRMT	ENST00000588630	0	0	0	0		4271		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+27	1	POLRMT	ENST00000588649	1	1	0	0	11	gAa/gGa	p.Glu890Gly/c.2669A>G	1230	protein_coding	missense_variant	missense_variant	MED	None	None	None	None
+27	2	POLRMT	ENST00000588649	0	0	0	0	15		c.2669T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+27	3	POLRMT	ENST00000588649	0	0	0	0	21		c.2669T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+27	4	POLRMT	ENST00000588649	0	0	0	0	16		c.2669T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+27	5	POLRMT	ENST00000588649	0	0	0	0	20		c.2669T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+27	6	POLRMT	ENST00000588649	0	0	0	0	13		c.2669T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+27	7	POLRMT	ENST00000588649	0	0	0	0	12		c.2669T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+27	8	POLRMT	ENST00000588649	0	0	0	0	14		c.2669T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+27	9	POLRMT	ENST00000588649	0	0	0	0	17		c.2669T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+27	10	POLRMT	ENST00000588649	0	0	0	0	18		c.2669T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+27	11	POLRMT	ENST00000588649	0	0	0	0	10		c.2669T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+27	12	POLRMT	ENST00000588649	0	0	0	0	19		c.2669T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+27	13	POLRMT	ENST00000588649	0	0	0	0	11		c.2669T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+27	14	POLRMT	ENST00000588649	0	0	0	0	11		c.2669T>C	1230	protein_coding	sequence_feature[beta_strand]	sequence_feature[beta_strand]	LOW	None	None	None	None
+27	15	AC005559.2	ENST00000591847	0	0	0	0		3300		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+27	16	POLRMT	ENST00000589961	0	0	0	0		2657		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+27	17	POLRMT	ENST00000592633	0	0	0	0		2471		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+27	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		3060		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+27	19	POLRMT	ENST00000590336	0	0	0	0		1713		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+27	20	POLRMT	ENST00000587057	0	0	0	0		1708		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+27	21	POLRMT	ENST00000586384	0	0	0	0		1141		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+27	22	HCN2	ENST00000251287	0	0	0	0		3300		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+27	23	POLRMT	ENST00000590709	0	0	0	0		2076		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+27	24	POLRMT	ENST00000590573	0	0	0	0		3002		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+27	25	POLRMT	ENST00000588630	0	0	0	0		4266		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+28	1	POLRMT	ENST00000588649	0	0	0	0	15		c.2641A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+28	2	POLRMT	ENST00000588649	0	0	0	0	21		c.2641A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+28	3	POLRMT	ENST00000588649	0	0	0	0	16		c.2641A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+28	4	POLRMT	ENST00000588649	0	0	0	0	20		c.2641A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+28	5	POLRMT	ENST00000588649	0	0	0	0	13		c.2641A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+28	6	POLRMT	ENST00000588649	0	0	0	0	12		c.2641A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+28	7	POLRMT	ENST00000588649	0	0	0	0	14		c.2641A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+28	8	POLRMT	ENST00000588649	0	0	0	0	17		c.2641A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+28	9	POLRMT	ENST00000588649	0	0	0	0	18		c.2641A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+28	10	POLRMT	ENST00000588649	0	0	0	0	10		c.2641A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+28	11	POLRMT	ENST00000588649	0	0	0	0	19		c.2641A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+28	12	POLRMT	ENST00000588649	0	0	0	0	11		c.2641A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+28	13	AC005559.2	ENST00000591847	0	0	0	0		3569		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+28	14	POLRMT	ENST00000589961	0	0	0	0		2926		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+28	15	POLRMT	ENST00000592633	0	0	0	0		2740		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+28	16	LLNLR-299G3.1	ENST00000607288	0	0	0	0		2791		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+28	17	POLRMT	ENST00000590336	0	0	0	0		1982		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+28	18	POLRMT	ENST00000587057	0	0	0	0		1977		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+28	19	POLRMT	ENST00000586384	0	0	0	0		872		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+28	20	HCN2	ENST00000251287	0	0	0	0		3569		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+28	21	POLRMT	ENST00000590709	0	0	0	0		1807		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+28	22	POLRMT	ENST00000590573	0	0	0	0		2733		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+28	23	POLRMT	ENST00000588630	0	0	0	0		3997		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+28	24	POLRMT	ENST00000588649	0	0	0	0	10		c.2641-241T>C	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+29	1	POLRMT	ENST00000588649	0	0	0	0	15		c.2641G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+29	2	POLRMT	ENST00000588649	0	0	0	0	21		c.2641G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+29	3	POLRMT	ENST00000588649	0	0	0	0	16		c.2641G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+29	4	POLRMT	ENST00000588649	0	0	0	0	20		c.2641G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+29	5	POLRMT	ENST00000588649	0	0	0	0	13		c.2641G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+29	6	POLRMT	ENST00000588649	0	0	0	0	12		c.2641G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+29	7	POLRMT	ENST00000588649	0	0	0	0	14		c.2641G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+29	8	POLRMT	ENST00000588649	0	0	0	0	17		c.2641G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+29	9	POLRMT	ENST00000588649	0	0	0	0	18		c.2641G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+29	10	POLRMT	ENST00000588649	0	0	0	0	10		c.2641G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+29	11	POLRMT	ENST00000588649	0	0	0	0	19		c.2641G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+29	12	POLRMT	ENST00000588649	0	0	0	0	11		c.2641G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+29	13	AC005559.2	ENST00000591847	0	0	0	0		3648		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+29	14	POLRMT	ENST00000589961	0	0	0	0		3005		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+29	15	POLRMT	ENST00000592633	0	0	0	0		2819		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+29	16	LLNLR-299G3.1	ENST00000607288	0	0	0	0		2712		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+29	17	POLRMT	ENST00000590336	0	0	0	0		2061		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+29	18	POLRMT	ENST00000587057	0	0	0	0		2056		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+29	19	POLRMT	ENST00000586384	0	0	0	0		793		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+29	20	HCN2	ENST00000251287	0	0	0	0		3648		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+29	21	POLRMT	ENST00000590709	0	0	0	0		1728		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+29	22	POLRMT	ENST00000590573	0	0	0	0		2654		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+29	23	POLRMT	ENST00000588630	0	0	0	0		3918		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+29	24	POLRMT	ENST00000588649	0	0	0	0	10		c.2640+251C>T	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+30	1	POLRMT	ENST00000588649	0	0	0	0	15		c.2641_2702delGGCGCCAGGGGAGGGGGAGGGGAGGAGGAAGACGGGCAGGGGGCGCGGGGGCGCCGGGGGAG	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+30	2	POLRMT	ENST00000588649	0	0	0	0	21		c.2641_2702delGGCGCCAGGGGAGGGGGAGGGGAGGAGGAAGACGGGCAGGGGGCGCGGGGGCGCCGGGGGAG	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+30	3	POLRMT	ENST00000588649	0	0	0	0	16		c.2641_2702delGGCGCCAGGGGAGGGGGAGGGGAGGAGGAAGACGGGCAGGGGGCGCGGGGGCGCCGGGGGAG	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+30	4	POLRMT	ENST00000588649	0	0	0	0	20		c.2641_2702delGGCGCCAGGGGAGGGGGAGGGGAGGAGGAAGACGGGCAGGGGGCGCGGGGGCGCCGGGGGAG	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+30	5	POLRMT	ENST00000588649	0	0	0	0	13		c.2641_2702delGGCGCCAGGGGAGGGGGAGGGGAGGAGGAAGACGGGCAGGGGGCGCGGGGGCGCCGGGGGAG	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+30	6	POLRMT	ENST00000588649	0	0	0	0	12		c.2641_2702delGGCGCCAGGGGAGGGGGAGGGGAGGAGGAAGACGGGCAGGGGGCGCGGGGGCGCCGGGGGAG	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+30	7	POLRMT	ENST00000588649	0	0	0	0	14		c.2641_2702delGGCGCCAGGGGAGGGGGAGGGGAGGAGGAAGACGGGCAGGGGGCGCGGGGGCGCCGGGGGAG	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+30	8	POLRMT	ENST00000588649	0	0	0	0	17		c.2641_2702delGGCGCCAGGGGAGGGGGAGGGGAGGAGGAAGACGGGCAGGGGGCGCGGGGGCGCCGGGGGAG	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+30	9	POLRMT	ENST00000588649	0	0	0	0	18		c.2641_2702delGGCGCCAGGGGAGGGGGAGGGGAGGAGGAAGACGGGCAGGGGGCGCGGGGGCGCCGGGGGAG	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+30	10	POLRMT	ENST00000588649	0	0	0	0	10		c.2641_2702delGGCGCCAGGGGAGGGGGAGGGGAGGAGGAAGACGGGCAGGGGGCGCGGGGGCGCCGGGGGAG	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+30	11	POLRMT	ENST00000588649	0	0	0	0	19		c.2641_2702delGGCGCCAGGGGAGGGGGAGGGGAGGAGGAAGACGGGCAGGGGGCGCGGGGGCGCCGGGGGAG	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+30	12	POLRMT	ENST00000588649	0	0	0	0	11		c.2641_2702delGGCGCCAGGGGAGGGGGAGGGGAGGAGGAAGACGGGCAGGGGGCGCGGGGGCGCCGGGGGAG	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+30	13	AC005559.2	ENST00000591847	0	0	0	0		3768		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+30	14	POLRMT	ENST00000589961	0	0	0	0		3125		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+30	15	POLRMT	ENST00000592633	0	0	0	0		2939		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+30	16	LLNLR-299G3.1	ENST00000607288	0	0	0	0		2592		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+30	17	POLRMT	ENST00000590336	0	0	0	0		2181		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+30	18	POLRMT	ENST00000587057	0	0	0	0		2176		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+30	19	POLRMT	ENST00000586384	0	0	0	0		673		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+30	20	HCN2	ENST00000251287	0	0	0	0		3768		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+30	21	POLRMT	ENST00000590709	0	0	0	0		1608		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+30	22	POLRMT	ENST00000590573	0	0	0	0		2534		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+30	23	POLRMT	ENST00000588630	0	0	0	0		3798		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+30	24	POLRMT	ENST00000588649	0	0	0	0	10		c.2640+70_2640+131delCTCCCCCGGCGCCCCCGCGCCCCCTGCCCGTCTTCCTCCTCCCCTCCCCCTCCCCTGGCGCC	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+31	1	POLRMT	ENST00000588649	0	0	0	0	15		c.2641_2661delGCCGGGGGAGGGCGCGGGGGT	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+31	2	POLRMT	ENST00000588649	0	0	0	0	21		c.2641_2661delGCCGGGGGAGGGCGCGGGGGT	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+31	3	POLRMT	ENST00000588649	0	0	0	0	16		c.2641_2661delGCCGGGGGAGGGCGCGGGGGT	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+31	4	POLRMT	ENST00000588649	0	0	0	0	20		c.2641_2661delGCCGGGGGAGGGCGCGGGGGT	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+31	5	POLRMT	ENST00000588649	0	0	0	0	13		c.2641_2661delGCCGGGGGAGGGCGCGGGGGT	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+31	6	POLRMT	ENST00000588649	0	0	0	0	12		c.2641_2661delGCCGGGGGAGGGCGCGGGGGT	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+31	7	POLRMT	ENST00000588649	0	0	0	0	14		c.2641_2661delGCCGGGGGAGGGCGCGGGGGT	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+31	8	POLRMT	ENST00000588649	0	0	0	0	17		c.2641_2661delGCCGGGGGAGGGCGCGGGGGT	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+31	9	POLRMT	ENST00000588649	0	0	0	0	18		c.2641_2661delGCCGGGGGAGGGCGCGGGGGT	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+31	10	POLRMT	ENST00000588649	0	0	0	0	10		c.2641_2661delGCCGGGGGAGGGCGCGGGGGT	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+31	11	POLRMT	ENST00000588649	0	0	0	0	19		c.2641_2661delGCCGGGGGAGGGCGCGGGGGT	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+31	12	POLRMT	ENST00000588649	0	0	0	0	11		c.2641_2661delGCCGGGGGAGGGCGCGGGGGT	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+31	13	AC005559.2	ENST00000591847	0	0	0	0		3841		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+31	14	POLRMT	ENST00000589961	0	0	0	0		3198		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+31	15	POLRMT	ENST00000592633	0	0	0	0		3012		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+31	16	LLNLR-299G3.1	ENST00000607288	0	0	0	0		2519		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+31	17	POLRMT	ENST00000590336	0	0	0	0		2254		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+31	18	POLRMT	ENST00000587057	0	0	0	0		2249		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+31	19	POLRMT	ENST00000586384	0	0	0	0		600		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+31	20	HCN2	ENST00000251287	0	0	0	0		3841		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+31	21	POLRMT	ENST00000590709	0	0	0	0		1535		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+31	22	POLRMT	ENST00000590573	0	0	0	0		2461		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+31	23	POLRMT	ENST00000588630	0	0	0	0		3725		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+31	24	POLRMT	ENST00000588649	0	0	0	0	10		c.2640+38_2640+58delACCCCCGCGCCCTCCCCCGGC	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+32	1	POLRMT	ENST00000588649	0	0	0	0	15		c.2641T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+32	2	POLRMT	ENST00000588649	0	0	0	0	21		c.2641T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+32	3	POLRMT	ENST00000588649	0	0	0	0	16		c.2641T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+32	4	POLRMT	ENST00000588649	0	0	0	0	20		c.2641T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+32	5	POLRMT	ENST00000588649	0	0	0	0	13		c.2641T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+32	6	POLRMT	ENST00000588649	0	0	0	0	12		c.2641T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+32	7	POLRMT	ENST00000588649	0	0	0	0	14		c.2641T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+32	8	POLRMT	ENST00000588649	0	0	0	0	17		c.2641T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+32	9	POLRMT	ENST00000588649	0	0	0	0	18		c.2641T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+32	10	POLRMT	ENST00000588649	0	0	0	0	10		c.2641T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+32	11	POLRMT	ENST00000588649	0	0	0	0	19		c.2641T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+32	12	POLRMT	ENST00000588649	0	0	0	0	11		c.2641T>C	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+32	13	AC005559.2	ENST00000591847	0	0	0	0		3861		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+32	14	POLRMT	ENST00000589961	0	0	0	0		3218		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+32	15	POLRMT	ENST00000592633	0	0	0	0		3032		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+32	16	LLNLR-299G3.1	ENST00000607288	0	0	0	0		2499		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+32	17	POLRMT	ENST00000590336	0	0	0	0		2274		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+32	18	POLRMT	ENST00000587057	0	0	0	0		2269		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+32	19	POLRMT	ENST00000586384	0	0	0	0		580		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+32	20	HCN2	ENST00000251287	0	0	0	0		3861		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+32	21	POLRMT	ENST00000590709	0	0	0	0		1515		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+32	22	POLRMT	ENST00000590573	0	0	0	0		2441		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+32	23	POLRMT	ENST00000588630	0	0	0	0		3705		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+32	24	POLRMT	ENST00000588649	0	0	0	0	10		c.2640+38A>G	1230	protein_coding	intron_variant	intron_variant	LOW	None	None	None	None
+33	1	POLRMT	ENST00000588649	1	1	0	0	10	Ttg/Ctg	p.Leu879Leu/c.2635T>C	1230	protein_coding	synonymous_variant	synonymous_variant	LOW	None	None	None	None
+33	2	POLRMT	ENST00000588649	0	0	0	0	15		c.2635A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+33	3	POLRMT	ENST00000588649	0	0	0	0	21		c.2635A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+33	4	POLRMT	ENST00000588649	0	0	0	0	16		c.2635A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+33	5	POLRMT	ENST00000588649	0	0	0	0	20		c.2635A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+33	6	POLRMT	ENST00000588649	0	0	0	0	13		c.2635A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+33	7	POLRMT	ENST00000588649	0	0	0	0	12		c.2635A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+33	8	POLRMT	ENST00000588649	0	0	0	0	14		c.2635A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+33	9	POLRMT	ENST00000588649	0	0	0	0	17		c.2635A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+33	10	POLRMT	ENST00000588649	0	0	0	0	18		c.2635A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+33	11	POLRMT	ENST00000588649	0	0	0	0	10		c.2635A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+33	12	POLRMT	ENST00000588649	0	0	0	0	19		c.2635A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+33	13	POLRMT	ENST00000588649	0	0	0	0	11		c.2635A>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+33	14	POLRMT	ENST00000588649	0	0	0	0	10		c.2635A>G	1230	protein_coding	sequence_feature[turn]	sequence_feature[turn]	LOW	None	None	None	None
+33	15	AC005559.2	ENST00000591847	0	0	0	0		3904		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+33	16	POLRMT	ENST00000589961	0	0	0	0		3261		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+33	17	POLRMT	ENST00000592633	0	0	0	0		3075		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+33	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		2456		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+33	19	POLRMT	ENST00000590336	0	0	0	0		2317		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+33	20	POLRMT	ENST00000587057	0	0	0	0		2312		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+33	21	POLRMT	ENST00000586384	0	0	0	0		537		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+33	22	HCN2	ENST00000251287	0	0	0	0		3904		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+33	23	POLRMT	ENST00000590709	0	0	0	0		1472		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+33	24	POLRMT	ENST00000590573	0	0	0	0		2398		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+33	25	POLRMT	ENST00000588630	0	0	0	0		3662		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+34	1	POLRMT	ENST00000588649	1	1	0	0	10	gaC/gaT	p.Asp876Asp/c.2628C>T	1230	protein_coding	synonymous_variant	synonymous_variant	LOW	None	None	None	None
+34	2	POLRMT	ENST00000588649	0	0	0	0	15		c.2628G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+34	3	POLRMT	ENST00000588649	0	0	0	0	21		c.2628G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+34	4	POLRMT	ENST00000588649	0	0	0	0	16		c.2628G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+34	5	POLRMT	ENST00000588649	0	0	0	0	20		c.2628G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+34	6	POLRMT	ENST00000588649	0	0	0	0	13		c.2628G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+34	7	POLRMT	ENST00000588649	0	0	0	0	12		c.2628G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+34	8	POLRMT	ENST00000588649	0	0	0	0	14		c.2628G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+34	9	POLRMT	ENST00000588649	0	0	0	0	17		c.2628G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+34	10	POLRMT	ENST00000588649	0	0	0	0	18		c.2628G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+34	11	POLRMT	ENST00000588649	0	0	0	0	10		c.2628G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+34	12	POLRMT	ENST00000588649	0	0	0	0	19		c.2628G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+34	13	POLRMT	ENST00000588649	0	0	0	0	11		c.2628G>A	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+34	14	POLRMT	ENST00000588649	0	0	0	0	10		c.2628G>A	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+34	15	AC005559.2	ENST00000591847	0	0	0	0		3911		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+34	16	POLRMT	ENST00000589961	0	0	0	0		3268		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+34	17	POLRMT	ENST00000592633	0	0	0	0		3082		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+34	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		2449		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+34	19	POLRMT	ENST00000590336	0	0	0	0		2324		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+34	20	POLRMT	ENST00000587057	0	0	0	0		2319		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+34	21	POLRMT	ENST00000586384	0	0	0	0		530		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+34	22	HCN2	ENST00000251287	0	0	0	0		3911		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+34	23	POLRMT	ENST00000590709	0	0	0	0		1465		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+34	24	POLRMT	ENST00000590573	0	0	0	0		2391		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+34	25	POLRMT	ENST00000588630	0	0	0	0		3655		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+35	1	POLRMT	ENST00000588649	1	1	0	0	10	tAc/tCc	p.Tyr807Ser/c.2420A>C	1230	protein_coding	missense_variant	missense_variant	MED	None	None	None	None
+35	2	POLRMT	ENST00000588649	0	0	0	0	15		c.2420T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+35	3	POLRMT	ENST00000588649	0	0	0	0	21		c.2420T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+35	4	POLRMT	ENST00000588649	0	0	0	0	16		c.2420T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+35	5	POLRMT	ENST00000588649	0	0	0	0	20		c.2420T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+35	6	POLRMT	ENST00000588649	0	0	0	0	13		c.2420T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+35	7	POLRMT	ENST00000588649	0	0	0	0	12		c.2420T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+35	8	POLRMT	ENST00000588649	0	0	0	0	14		c.2420T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+35	9	POLRMT	ENST00000588649	0	0	0	0	17		c.2420T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+35	10	POLRMT	ENST00000588649	0	0	0	0	18		c.2420T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+35	11	POLRMT	ENST00000588649	0	0	0	0	10		c.2420T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+35	12	POLRMT	ENST00000588649	0	0	0	0	19		c.2420T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+35	13	POLRMT	ENST00000588649	0	0	0	0	11		c.2420T>G	1230	protein_coding	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	sequence_feature[region_of_interest:Mediates_interaction_with_TEFM]	LOW	None	None	None	None
+35	14	POLRMT	ENST00000588649	0	0	0	0	10		c.2420T>G	1230	protein_coding	sequence_feature[beta_strand]	sequence_feature[beta_strand]	LOW	None	None	None	None
+35	15	AC005559.2	ENST00000591847	0	0	0	0		4119		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+35	16	POLRMT	ENST00000589961	0	0	0	0		3476		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+35	17	POLRMT	ENST00000592633	0	0	0	0		3290		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+35	18	LLNLR-299G3.1	ENST00000607288	0	0	0	0		2241		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+35	19	POLRMT	ENST00000590336	0	0	0	0		2532		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+35	20	POLRMT	ENST00000587057	0	0	0	0		2527		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+35	21	POLRMT	ENST00000586384	0	0	0	0		322		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+35	22	HCN2	ENST00000251287	0	0	0	0		4119		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+35	23	POLRMT	ENST00000590709	0	0	0	0		1257		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+35	24	POLRMT	ENST00000590573	0	0	0	0		2183		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+35	25	POLRMT	ENST00000588630	0	0	0	0		3447		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+36	1	POLRMT	ENST00000588649	1	1	0	0	10	caA/caC	p.Gln701His/c.2103A>C	1230	protein_coding	missense_variant	missense_variant	MED	None	None	None	None
+36	2	POLRMT	ENST00000588649	0	0	0	0	10		c.2103T>G	1230	protein_coding	sequence_feature[helix]	sequence_feature[helix]	LOW	None	None	None	None
+36	3	AC005559.2	ENST00000591847	0	0	0	0		4436		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+36	4	POLRMT	ENST00000589961	0	0	0	0		3793		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+36	5	POLRMT	ENST00000592633	0	0	0	0		3607		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+36	6	LLNLR-299G3.1	ENST00000607288	0	0	0	0		1924		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+36	7	POLRMT	ENST00000590336	0	0	0	0		2849		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+36	8	POLRMT	ENST00000587057	0	0	0	0		2844		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+36	9	POLRMT	ENST00000586384	0	0	0	0		5		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+36	10	HCN2	ENST00000251287	0	0	0	0		4436		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+36	11	POLRMT	ENST00000590709	0	0	0	0		940		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+36	12	POLRMT	ENST00000590573	0	0	0	0		1866		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+36	13	POLRMT	ENST00000588630	0	0	0	0		3130		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+37	1	POLRMT	ENST00000588649	1	1	0	0	10	gcT/gcC	p.Ala662Ala/c.1986T>C	1230	protein_coding	synonymous_variant	synonymous_variant	LOW	None	None	None	None
+37	2	POLRMT	ENST00000588649	0	0	0	0	10		c.1986A>G	1230	protein_coding	sequence_feature[beta_strand]	sequence_feature[beta_strand]	LOW	None	None	None	None
+37	3	AC005559.2	ENST00000591847	0	0	0	0		4553		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+37	4	POLRMT	ENST00000589961	0	0	0	0		3910		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+37	5	POLRMT	ENST00000592633	0	0	0	0		3724		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+37	6	LLNLR-299G3.1	ENST00000607288	0	0	0	0		1807		None	antisense	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+37	7	POLRMT	ENST00000590336	0	0	0	0		2966		141	protein_coding	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+37	8	POLRMT	ENST00000587057	0	0	0	0		2961		None	retained_intron	upstream_gene_variant	upstream_gene_variant	LOW	None	None	None	None
+37	9	HCN2	ENST00000251287	0	0	0	0		4553		889	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+37	10	POLRMT	ENST00000590709	0	0	0	0		823		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+37	11	POLRMT	ENST00000590573	0	0	0	0		1749		347	protein_coding	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+37	12	POLRMT	ENST00000588630	0	0	0	0		3013		None	retained_intron	downstream_gene_variant	downstream_gene_variant	LOW	None	None	None	None
+37	13	POLRMT	ENST00000586384	0	0	0	0	6		n.1214T>C	None	retained_intron	non_coding_exon_variant	non_coding_exon_variant	LOW	None	None	None	None

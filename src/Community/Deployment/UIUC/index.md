@@ -1,0 +1,63 @@
+<div class='center'>
+<a href='http://galaxy.illinois.edu'><img src='/uclogo_horz_bold.png' alt='University of Illinois Urbana-Champaign'  /></a>
+</div>
+
+<div class="title">UIUC-Galaxy</div>
+
+
+
+<div class='deploymentbox'>
+ Deployment:: **[UIUC-Galaxy](/Community/Deployment/UIUC)**
+ Domain:: General Galaxy deployment
+ Owners:: [HPCBio](http://hpcbio.illinois.edu) and [CNRG](http://www.igb.illinois.edu/facilities-services/computer-network)
+ Audience:: UI campuses
+ User Base:: Hundreds, give or take
+ Server Topology:: Mixed-mode cluster
+ Compute:: Lots, and evolving like mad
+ Memory:: Nodes of 16GB, 24GB, 96GB, 312GB, 1TB, 2TB (SGI UV) 
+ Storage:: GPFS
+ Disk Size:: ~0.8 PB
+ User Management:: LDAP, local users only
+</div>
+
+A first-run general deployment of Galaxy at University of Illinois at Urbana-Champaign
+
+## Domain
+
+Everything.
+
+## Community
+
+University of Illinois researchers, some outside researchers.
+
+## Compute Infrastructure
+
+This sections describes the compute architecture of your deployment.
+
+### Compute
+
+### Storage
+
+### Network
+
+## User Management
+
+### Authentication and Billing
+
+### Quotas
+
+## Customizations
+
+Local tool shed.
+
+## Limitations and Challenges
+
+### Configuration and Setup
+
+### Maintaining and Meeting Needs
+
+## Links
+
+
+
+CategoryDeployment

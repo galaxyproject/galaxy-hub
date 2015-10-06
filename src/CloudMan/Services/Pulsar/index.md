@@ -1,0 +1,3 @@
+[Galaxy Pulsar](https://pulsar.readthedocs.org/) is a standalone light-weight server that can be deployed on dedicated or cloud resources; it provides a method for handling remote Galaxy job execution, ensuring the requisite provenance information is exchanged. In the context of !CloudMan, it can be used for cloud bursting by acting as a target end-point for a remote Galaxy instance. See [this presentation](http://www.slideshare.net/afgane/enabling-cloud-bursting-for-life-sciences-within-galaxy) for more details.
+
+Pulsar service can be started from the !CloudMan Admin page by clicking on the *Start* button next to the service name. once running, it is available from remote destinations on port 8914.
