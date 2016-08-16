@@ -1,28 +1,25 @@
 Source for the Galaxy Community Website. Static site built using
 [metalsmith][1]. Build process is defined in `build.coffee`.
 
-To start fresh, clone and run:
+To start fresh and build the website (into the 'build' directory), you can run:
 
 ```
-npm install -g coffee-script
-npm install
-bower install
-coffee build.coffee
+make build
 ```
 
-This will build the site into the directory `build`
 
 To serve the site locally on port 8000, run:
 
 ```
-coffee build.coffee --serve
+make serve
 ```
 
 
-If you'd like to livereload, which has a few issues (duplicate entries in some headers)
+If you'd like to livereload, which has a few issues (duplicate entries in some
+headers due to collection handling), but can be handy nonetheless:
 
 ```
-coffee build.coffee --watch
+make watch
 ```
 
 [1]: http://www.metalsmith.io/
