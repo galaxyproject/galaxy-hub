@@ -30,6 +30,7 @@
     "metalsmith-uglify": "^1.0.1",
     "metalsmith-watch": "^1.0.0",
     "minimist": "^1.1.1",
-    "moment": "^2.10.0"
+    "moment": "^2.10.0",
+    "coffee-script":"^1.10.0"
   }
 }
