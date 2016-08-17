@@ -1,5 +1,4 @@
 
-#language en
 <div class='right'><a href='http://goeckslab.org/people/'><img src='/GalaxyTeam/Remi.jpg' /></a></div>
 # REMI MARENCO
 

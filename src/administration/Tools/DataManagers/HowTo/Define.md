@@ -1,5 +1,4 @@
 
-#language en
 # Defining Data Managers
 This page describes how to define a Data Manager.
 

@@ -1,5 +1,4 @@
 
-#language en
 <div class='right'> ![](/pic.jpg) </div>
 
 # Radhika Khetani

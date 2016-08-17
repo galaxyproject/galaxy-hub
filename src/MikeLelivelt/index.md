@@ -1,5 +1,4 @@
 
-#language en
 
 <div class='right'><a href='http://lifetech.com'><img src='/pic.png' alt='' width="125" /></a></div>
 

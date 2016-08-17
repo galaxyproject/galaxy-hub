@@ -1,5 +1,4 @@
 
-#language en
 # Eric Rasche
 
 Email: [esr@tamu.edu](esr@tamu.edu) [rasche.eric@gmail.com](rasche.eric@gmail.com)

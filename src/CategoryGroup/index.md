@@ -1,5 +1,4 @@
 
-#language en
 
 This wiki has supports [groups of users](/HelpOnGroups).
 

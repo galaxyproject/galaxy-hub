@@ -1,5 +1,4 @@
 
-#language en
 <div class='right'>![](/GalaxyTeam/carl.jpg)</div>
 
 # Carl Eberherd

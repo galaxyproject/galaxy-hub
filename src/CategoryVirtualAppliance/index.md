@@ -1,5 +1,4 @@
 
-#language en
 
 All the [virtual appliance pages](/VirtualAppliances) in this wiki.
 

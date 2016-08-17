@@ -1,5 +1,4 @@
 
-#language en
 <div class='right'>![](/davebouvierflag200.jpeg)</div>
 
 # Dave Bouvier

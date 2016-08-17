@@ -1,5 +1,4 @@
 
-#language en
 # Ross Lazarus
 
 Email: [GG ross.lazarus AT gmail DOT com MMM ](GG ross.lazarus AT gmail DOT com MMM )

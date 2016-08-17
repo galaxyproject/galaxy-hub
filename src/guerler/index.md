@@ -1,5 +1,4 @@
 
-#language en
 <div class='right'>![](/GalaxyTeam/guerler.jpg)</div>
 # Aysam Guerler
 

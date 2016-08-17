@@ -1,5 +1,4 @@
 
-#language en
 INCLUDE(/Admin/LinkBox)
 
 # What are Data Managers?

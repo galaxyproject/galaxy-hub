@@ -1,5 +1,4 @@
 
-#language en
 <div class='right'>![](/GalaxyTeam/nate.jpg)</div>
 
 # Nate Coraor

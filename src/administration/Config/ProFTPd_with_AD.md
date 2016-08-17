@@ -1,5 +1,4 @@
 
-#language en
 <div class="title">Setting up ProFTPd for galaxy uploads in an Active Directory environment</div>
 * You want to enable FTP file uploads?
 * You are happy and able to use ProFTPd?
