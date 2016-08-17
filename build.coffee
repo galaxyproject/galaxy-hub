@@ -80,7 +80,9 @@ if argv['watch']
         host: "0.0.0.0"
 
 if argv['check']
-    ms.use require('metalsmith-broken-link-checker')()
+    ms.use require('metalsmith-broken-link-checker')
+        allowRedirects: true
+        warn: true
 
 
 ms.build (e) ->
