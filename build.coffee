@@ -79,6 +79,10 @@ if argv['watch']
         port: 8080
         host: "0.0.0.0"
 
+if argv['check']
+    ms.use require('metalsmith-broken-link-checker')()
+
+
 ms.build (e) ->
     if e
         throw e

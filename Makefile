@@ -15,3 +15,6 @@ serve: npm-deps bower ## Serve locally for testing.
 
 watch: npm-deps bower ## Serve locally for testing.
 	./node_modules/coffee-script/bin/coffee build.coffee --watch
+
+check: npm-deps bower ## Serve locally for testing.
+	./node_modules/coffee-script/bin/coffee build.coffee --check
