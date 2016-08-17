@@ -4,7 +4,7 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
  
 ## Core Team
 
-<div class='left'><div class='center'><a href='/EnisAfgan/'><img src='/EnisAfgan.jpg' alt='Enis Afgan' height="150" /></a><br /> 
+<div class='left'><div class='center'><a href='/EnisAfgan/'><img src='EnisAfgan.jpg' alt='Enis Afgan' height="150" /></a><br /> 
 [Enis Afgan](/EnisAfgan) <br /> 
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
@@ -16,7 +16,7 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 [Dan Blankenberg](/Dan) <br />
 [Penn State](http://www.bx.psu.edu)
 </div>
-<div class='left'><div class='center'><a href='/DaveBouvier/'><img src='/davebouvierflag.jpg' alt='Dave Bouvier' height="150" /></a><br />
+<div class='left'><div class='center'><a href='/DaveBouvier/'><img src='davebouvierflag.jpg' alt='Dave Bouvier' height="150" /></a><br />
 [Dave Bouvier](/DaveBouvier) <br />
 [Penn State](http://www.bx.psu.edu)
 </div>
@@ -26,7 +26,7 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='left'><div class='center'>
-<a href='/JohnChilton/'><img src='/JohnChiltonSmaller.jpg' alt='John Chilton' height="150" /></a><br />
+<a href='/JohnChilton/'><img src='JohnChiltonSmaller.jpg' alt='John Chilton' height="150" /></a><br />
 [John Chilton](/JohnChilton)<br />
 [Penn State](http://www.bx.psu.edu)
 </div>
@@ -41,7 +41,7 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='left'><div class='center'>
-![Carl Eberhard](/carl.jpg)<br />
+![Carl Eberhard](carl.jpg)<br />
 Carl Eberhard <br />
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
@@ -51,12 +51,12 @@ Carl Eberhard <br />
 [George Washington University](http://www.gwu.edu) 
 </div>
 <div class='left'><div class='center'>
-&nbsp;&nbsp;&nbsp;<a href='/guerler/'><img src='/guerler.jpg' alt='Aysam Guerler' height="150" /></a>&nbsp;&nbsp;&nbsp;<br /> 
+&nbsp;&nbsp;&nbsp;<a href='/guerler/'><img src='guerler.jpg' alt='Aysam Guerler' height="150" /></a>&nbsp;&nbsp;&nbsp;<br /> 
 [Aysam Guerler](/guerler)<br />
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
 <div class='left'><div class='center'>
-<a href='/JenniferJackson/'><img src='/jenhjackson.png' alt='Jen Jackson' height="150" /></a><br />
+<a href='/JenniferJackson/'><img src='jenhjackson.png' alt='Jen Jackson' height="150" /></a><br />
 [Jennifer Hillman Jackson](/JenniferJackson)<br />
 [Penn State](http://www.bx.psu.edu)
 </div>
@@ -95,7 +95,7 @@ Carl Eberhard <br />
 ## Contributors with Commit Access
 
 <div class='left'><div class='center'>
-![Björn Grüning](/bjoern.jpeg)<br />
+![Björn Grüning](bjoern.jpeg)<br />
 [Björn Grüning](https://github.com/bgruening)<br />
 [Uni Freiburg](http://www.uni-freiburg.de/)
 </div>
@@ -107,13 +107,13 @@ Carl Eberhard <br />
 </div>
 
 <div class='left'><div class='center'>
-![Nicola Soranzo](/nicola.jpeg)<br />
+![Nicola Soranzo](nicola.jpeg)<br />
 [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo)<br />
 [TGAC](http://www.tgac.ac.uk/)
 </div>
 
 <div class='left'><div class='center'>
-![Marius van den Beek](/marius.jpeg)<br />
+![Marius van den Beek](marius.jpeg)<br />
 [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek)<br />
 [IBPS UPMC](http://www.ibps.upmc.fr/)
 </div>
@@ -123,22 +123,22 @@ Carl Eberhard <br />
 ## Other Current Contributors
 
 <div class='left'><div class='center'>
-![Peter Cock](/peter.jpg)<br />
+![Peter Cock](peter.jpg)<br />
 [Peter Cock](http://www.hutton.ac.uk/staff/peter-cock)<br />
 [TJHI](http://www.hutton.ac.uk/)
 </div>
 <div class='left'><div class='center'>
-![Kyle Ellrott](/kyle.jpg)<br />
+![Kyle Ellrott](kyle.jpg)<br />
 [Kyle Ellrott](http://www.soe.ucsc.edu/people/kellrott)<br />
 [UCSC](http://www.ucsc.edu/)
 </div>
 <div class='left'><div class='center'>
-![Brad Chapman](/brad.jpg)<br />
+![Brad Chapman](brad.jpg)<br />
 [Brad Chapman](http://bcbio.wordpress.com/about/)<br />
 [HSPH](http://www.hsph.harvard.edu//)
 </div>
 <div class='left'><div class='center'>
-![Nuwan Goonasekera](/nuwan.jpg)<br />
+![Nuwan Goonasekera](nuwan.jpg)<br />
 [Nuwan Goonasekera](https://www.linkedin.com/in/nuwangoonasekera)<br />
 [VeRSI](http://versi.edu.au)
 </div>
@@ -147,7 +147,7 @@ Carl Eberhard <br />
 [Greg von Kuster](/greg_vonkuster)
 </div>
 <div class='left'><div class='center'>
-![Yousef Kowsar](/yousef.jpg)<br />
+![Yousef Kowsar](yousef.jpg)<br />
 [Yousef Kowsar](https://www.linkedin.com/pub/yousef-kowsar/21/213/9a6)<br />
 [VLSCI](http://http://www.vlsci.org.au/)
 </div>
