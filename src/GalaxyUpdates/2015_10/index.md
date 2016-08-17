@@ -9,7 +9,7 @@
 
 </div>
 
-<div class='left'><a href='/GalaxyUpdates.md'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
+<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
 Welcome to the October 2015 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the October News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
 
@@ -91,7 +91,7 @@ The new papers were tagged with:
 # Events
 ## October GalaxyAdmins Meetup
 
-<div class='right'><a href='/Community/GalaxyAdmins/Meetups/2015_10_15.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup October 15' width="175" /></a><br /><br />
+<div class='right'><a href='/Community/GalaxyAdmins/Meetups/2015_10_15/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup October 15' width="175" /></a><br /><br />
 <a href='http://www.analome.com/'><img src='/Images/Logos/Analome.png' alt='Analome' width="175" /></a>
 </div>
 
@@ -105,7 +105,7 @@ Hope to see you there.
 ----
 
 <div class='left'><br />
-<a href='/Events/GCC2016.md'><img src='/Events/GCC2016/GCC2016TrainingLogo400.png' alt='GCC2016 Training' width="150" /></a><br />
+<a href='/Events/GCC2016/'><img src='/Events/GCC2016/GCC2016TrainingLogo400.png' alt='GCC2016 Training' width="150" /></a><br />
 <table>
   <tr>
     <th> &nbsp; <a href='http://bit.ly/gcc2016tdnom'>Nominate a topic</a> &nbsp; </th>
@@ -125,9 +125,9 @@ day will have multiple tracks, with each track featuring several sessions throug
 * [Topics nominated for GCC2014](http://bit.ly/1s6NtMN)
 * [Topics nominated for GCC2013](http://bit.ly/1i2j1gN)
 * The [Galaxy Events page](/Events), which lists what training the community is offering outside of GCCs.
-* Topics that have already been [nominated for GCC2016](/Events/GCC2016/Training.md#nominated-topics)
+* Topics that have already been [nominated for GCC2016](/Events/GCC2016/Training/#nominated-topics)
 
-Nominated topics will be [published as they come in](/Events/GCC2016/Training.md#nominated-topics).  **Topic nomination closes Friday, October, 16.**.  Topics will be compiled into a uniform list by the GCC2016 Organizing Committee, and topics will be voted on by the Galaxy Community from October 26 through November 6.
+Nominated topics will be [published as they come in](/Events/GCC2016/Training/#nominated-topics).  **Topic nomination closes Friday, October, 16.**.  Topics will be compiled into a uniform list by the GCC2016 Organizing Committee, and topics will be voted on by the Galaxy Community from October 26 through November 6.
 
 Topics will then be selected and scheduled based on topic interest, and the organisers' ability to confirm instructors for each session.  Some very popular sessions may be scheduled more than once. The final schedule will be posted before registration opens.
 
@@ -137,7 +137,7 @@ Topics will then be selected and scheduled based on topic interest, and the orga
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='/GCC2011.md'><img src='/Events/GCC2011Logo400.png' alt='' width="120" /></a>&nbsp;&nbsp; <a href='/Events/GCC2012.md'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' width="85" /></a>&nbsp;&nbsp;&nbsp; <a href='/Events/GCC2013.md'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="100px" /></a>&nbsp;&nbsp;&nbsp; <a href='/Events/GCC2014.md'><img src='/Images/Logos/GCC2014LogoWide200.png' alt='GCC2014, June 30-July2' width="130" /></a>&nbsp;&nbsp;&nbsp; <a href='http://gcc2015.tsl.ac.uk/'><img src='/Images/Logos/GCC2015LogoWide600.png' alt='2015 Galaxy Community Conference (GCC2015)' width="100" /></a> &nbsp;&nbsp; <a href='http://galaxyproject.org/GCC2016'><img src='/Events/GCC2016/GCC2016LogoFull_big.png' alt='2016 Galaxy Community Conference (GCC2016)' width="110px" /></a> </td>
+    <td style=" text-align: center; border: none"> <a href='/GCC2011/'><img src='/Events/GCC2011Logo400.png' alt='' width="120" /></a>&nbsp;&nbsp; <a href='/Events/GCC2012/'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' width="85" /></a>&nbsp;&nbsp;&nbsp; <a href='/Events/GCC2013/'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="100px" /></a>&nbsp;&nbsp;&nbsp; <a href='/Events/GCC2014/'><img src='/Images/Logos/GCC2014LogoWide200.png' alt='GCC2014, June 30-July2' width="130" /></a>&nbsp;&nbsp;&nbsp; <a href='http://gcc2015.tsl.ac.uk/'><img src='/Images/Logos/GCC2015LogoWide600.png' alt='2015 Galaxy Community Conference (GCC2015)' width="100" /></a> &nbsp;&nbsp; <a href='http://galaxyproject.org/GCC2016'><img src='/Events/GCC2016/GCC2016LogoFull_big.png' alt='2016 Galaxy Community Conference (GCC2016)' width="110px" /></a> </td>
   </tr>
   <tr>
     <td colspan=6 style=" text-align: center; border: none"> <div class='solid'><div class='red'> <span style="font-size: larger;"> </strong>GCC2017 needs a host!<strong><br /></span> <span style="font-size: smaller;">(and a logo)</span> </td>
@@ -162,7 +162,7 @@ Hoping to work with you in 2017!
 
 ## IUC Tools & Collections Hackathon Report
 
-<div class='right'><a href='/News/IUCCollectionsCodefest.md'><img src='/Images/Icons/DatasetCollectionIconInForm.png' alt='' width="150" /></a>
+<div class='right'><a href='/News/IUCCollectionsCodefest/'><img src='/Images/Icons/DatasetCollectionIconInForm.png' alt='' width="150" /></a>
 </div>
 
 A [Galaxy tool developers to hack on dataset collections](/News/IUCCollectionsCodefest) hackathon was held on September 17<sup>th</sup> and 18<sup>th</sup>.
@@ -186,7 +186,7 @@ There are [upcoming events](/Events) in 4 countries on 4 continents.  See the [G
 
 <div class='center'> 
 <a href='https://cnrsformation.cnrs.fr/stage.php?stage=15274&axe=77'><img src='/Images/Logos/CGFB_bioinformatics.png' alt='Analyse avancée de séquences' height="80" /></a>
-<a href='/Community/GalaxyAdmins/Meetups/2015_10_15.md'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='October Galaxy Admins Meetup' height="70" /></a>
+<a href='/Community/GalaxyAdmins/Meetups/2015_10_15/'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='October Galaxy Admins Meetup' height="70" /></a>
 <a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-4/'><img src='/Images/Logos/QFABLogo.png' alt='Workshop: Extended RNA-Seq analysis' height="80" /></a>
 <a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'><img src='/Images/Logos/PRABILogo.png' alt='Analyse de données RNA-seq sous l’environnement Galaxy' height="70" /></a>
 <a href='http://bit.ly/1NuRJ07'><img src='/Images/Logos/GalaxyIFB.png' alt='Galaxy Day 2015' height="70" /></a>
@@ -219,9 +219,9 @@ There are [upcoming events](/Events) in 4 countries on 4 continents.  See the [G
   </tr>
   <tr>
     <th> October 15 </th>
-    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2015_10_15.md'>October Galaxy Admins Meetup</a></em> </td>
+    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2015_10_15/'>October Galaxy Admins Meetup</a></em> </td>
     <td> INCLUDE(/Events/Badges/World) <em>Online</em> </td>
-    <td> <a href='https://www.linkedin.com/in/davidkovalic'>David Kovalic</a>, <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a>, <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='https://www.linkedin.com/in/davidkovalic'>David Kovalic</a>, <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a>, <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 28-29 </th>
@@ -233,7 +233,7 @@ There are [upcoming events](/Events) in 4 countries on 4 continents.  See the [G
     <th> October 28 - November 3 </th>
     <td> <em><a href='http://meetings.cshl.edu/courses.aspx?course=c-ecg&year=15'>Computational & Comparative Genomics Course</a></em> </td>
     <td> INCLUDE(/Events/Badges/NorthAmerica) Cold Spring Harbor Laboratory, New York, United States </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -243,7 +243,7 @@ There are [upcoming events](/Events) in 4 countries on 4 continents.  See the [G
     <th rowspan=2> November 3 </th>
     <td> <em><a href='http://www.festivalofgenomicscalifornia.com/workshops/galaxy-for-the-analysis-of-very-large-biomedical-data/'>Galaxy for the Analysis of Very Large Biomedical Data Workshop</a></em> </td>
     <td rowspan=2> INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.festivalofgenomicscalifornia.com/'>Festival of Genomics California</a>, San Mateo, California, United States </td>
-    <td> INCLUDE(/Teach/GTN/Badge16)  <a href='/anton.md'>Anton Nekrutenko</a>, <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> INCLUDE(/Teach/GTN/Badge16)  <a href='/anton/'>Anton Nekrutenko</a>, <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.festivalofgenomicscalifornia.com/workshops/single-cell-sequencing-analysis-visualisation-of-copy-number-variations/'>Single-Cell Sequencing: Analysis & Visualization of Copy Number Variations Workshop</a></em> </td>
@@ -253,13 +253,13 @@ There are [upcoming events](/Events) in 4 countries on 4 continents.  See the [G
     <th> November 15-16 </th>
     <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'>Analyse de données RNA-seq sous l’environnement Galaxy</a></em> </td>
     <td> INCLUDE(/Events/Badges/Europe) <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy--prabi-project'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy--prabi-project'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
   </tr>
   <tr>
     <th> November 17-18 </th>
     <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'>Analyse de données RNA-seq sous l’environnement Galaxy</a></em> </td>
     <td> INCLUDE(/Events/Badges/Europe) <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy--prabi-project'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy--prabi-project'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
   </tr>
   <tr>
     <th> November 19 </th>
@@ -282,8 +282,8 @@ There are [upcoming events](/Events) in 4 countries on 4 continents.  See the [G
 
 <table>
   <tr>
-    <td style=" border: none"> <a href='/Teach/Trainers.md'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
-    <td style=" border: none"> <span style="font-size: smaller;"> <a href='/Teach/Trainers.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none"> <a href='/Teach/Trainers/'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
+    <td style=" border: none"> <span style="font-size: smaller;"> <a href='/Teach/Trainers/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
@@ -292,7 +292,7 @@ There are [upcoming events](/Events) in 4 countries on 4 continents.  See the [G
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring.md'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -359,7 +359,7 @@ If you think we should (or should not) offer this training at GCC2016, please [g
 <a href='http://mygoblet.org/about-us/goblet-events/goblet-agm-2015-cape-town'><img src='/Images/Logos/GobletLogo.png' alt='2015 GOBLET Meeting' height="100" /></a>
 </div>
 
-[GTN](/Teach/GTN) became a member of the [Global Organisation for Bioinformatics & Training (GOBLET)](http://mygoblet.org) [earlier this year](/News/GTNJoinsGOBLET).  The [2015 GOBLET Meeting](http://mygoblet.org/about-us/goblet-events/goblet-agm-2015-cape-town) will be held 18-20 November, in Cape Town, South Africa.  Fourie Joubert of the [Centre for Bioinformatics and Computational Biology](/Teach/Trainers.md#the-centre-for-bioinformatics-and-computational-biology) at the University of Pretoria will be representing GTN at GOBLET 2015.  
+[GTN](/Teach/GTN) became a member of the [Global Organisation for Bioinformatics & Training (GOBLET)](http://mygoblet.org) [earlier this year](/News/GTNJoinsGOBLET).  The [2015 GOBLET Meeting](http://mygoblet.org/about-us/goblet-events/goblet-agm-2015-cape-town) will be held 18-20 November, in Cape Town, South Africa.  Fourie Joubert of the [Centre for Bioinformatics and Computational Biology](/Teach/Trainers/#the-centre-for-bioinformatics-and-computational-biology) at the University of Pretoria will be representing GTN at GOBLET 2015.  
 
 If you have anything you'd like to have discussed at the meeting, then please [join this conversation](http://bit.ly/1iM6T5r).
 
@@ -367,9 +367,9 @@ If you have anything you'd like to have discussed at the meeting, then please [j
 
 # Galaxy Developer Code of Conduct
 
-The Galaxy Project now has a [Developer Code of Conduct](https://github.com/galaxyproject/galaxy/blob/6edaf458e89b3db7115c65f0242b781df7c77faa/CODE_OF_CONDUCT.md#galaxy-project-code-of-conduct).
+The Galaxy Project now has a [Developer Code of Conduct](https://github.com/galaxyproject/galaxy/blob/6edaf458e89b3db7115c65f0242b781df7c77faa/CODE_OF_CONDUCT/#galaxy-project-code-of-conduct).
 
-From the [introduction](https://github.com/galaxyproject/galaxy/blob/6edaf458e89b3db7115c65f0242b781df7c77faa/CODE_OF_CONDUCT.md#galaxy-project-code-of-conduct):
+From the [introduction](https://github.com/galaxyproject/galaxy/blob/6edaf458e89b3db7115c65f0242b781df7c77faa/CODE_OF_CONDUCT/#galaxy-project-code-of-conduct):
  This code of conduct outlines our expectations for participants within the Galaxy community, as well as steps to reporting unacceptable behavior. We are committed to providing a welcoming and inspiring community for all and expect our code of conduct to be honored. Anyone who violates this code of conduct may be banned from the community.
 
 The Code of Conduct includes
@@ -397,7 +397,7 @@ Thanks to everyone who helped put these together.
 
 ## Mid 2015 Galaxy CloudMan Release
 
-<div class='right'><a href='/CloudMan.md'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
+<div class='right'><a href='/CloudMan/'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
 
 **We just released an update to Galaxy !CloudMan.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
 
@@ -436,7 +436,7 @@ Three security vulnerabilities were announced and patched in August.  The Galaxy
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
  
  **CloudMan **
-   The [most recent edition of CloudMan](/GalaxyUpdates/2014_09.md#august-2014-cloudman-release) was released in August.
+   The [most recent edition of CloudMan](/GalaxyUpdates/2014_09/#august-2014-cloudman-release) was released in August.
 
  **blend4j v0.1.2**
    [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and !BioCloudCentral.
@@ -449,14 +449,14 @@ Three security vulnerabilities were announced and patched in August.  The Galaxy
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Teach.md'><img src='/Images/GalaxyLogos/GTNLogo300.png' alt='Galaxy Training Network' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Logs.md'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Deployments.md'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%"> <a href='/Teach/'><img src='/Images/GalaxyLogos/GTNLogo300.png' alt='Galaxy Training Network' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Logs/'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Deployments/'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong>Share your <a href='/Teach/Resources.md#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers.md#add-a-trainer'>experience</a> <em>now</em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Logs.md#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs.md#add-a-log-page'>now</a></em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Deployments.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments.md#add-your-galaxy-deployment'>now</a></em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none"> </strong>Share your <a href='/Teach/Resources/#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers/#add-a-trainer'>experience</a> <em>now</em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Logs/#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs/#add-a-log-page'>now</a></em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Deployments/#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments/#add-your-galaxy-deployment'>now</a></em> <strong> </td>
   </tr>
 </table>
 
@@ -464,7 +464,7 @@ Three security vulnerabilities were announced and patched in August.  The Galaxy
 
 1 new **[Galaxy Training Network member](/Teach/Trainers)** was added in September:
 
-* **[The Centre for Bioinformatics and Computational Biology, University of Pretoria](/Teach/Trainers.md#the-centre-for-bioinformatics-and-computational-biology)**
+* **[The Centre for Bioinformatics and Computational Biology, University of Pretoria](/Teach/Trainers/#the-centre-for-bioinformatics-and-computational-biology)**
     The Centre offers training in general usage, analysing and comparing protein and nucleic acid sequences, annotating genomes, gene expression patterns, investigating molecular structures, and simulating metabolic pathways.  Please welcome the first GTN member in Africa.  *(Now we just need Antartica.)*
 
 ----

@@ -5,7 +5,7 @@ INCLUDE(/Events/GCC2013/Header)
 INCLUDE(/Events/GCC2013/LinkBox)
 INCLUDE(/Events/GCC2013/BoF/LinkBox)
 
-<div class='left'><a href='/Events/GCC2013/BoF.md'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
+<div class='left'><a href='/Events/GCC2013/BoF/'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
 
 This page describes the **Tool Developers** [Birds of a Feather](/Events/GCC2013/BoF) meetup being held at [GCC2013](/Events/GCC2013).
 
@@ -20,7 +20,7 @@ Potential topics could include;
 
 ## When and Where
 
-The [time and location](/Events/GCC2013/BoF.md#bof-schedule) for this BoF will be Monday evening in the escape Pub. We will try to be in the pub early (Just after 5pm) to grab a quiet corner.
+The [time and location](/Events/GCC2013/BoF/#bof-schedule) for this BoF will be Monday evening in the escape Pub. We will try to be in the pub early (Just after 5pm) to grab a quiet corner.
 
 ## Who is Participating
 
@@ -41,14 +41,14 @@ If you are interested, please add your name below and/or send an email to the [g
 
 ## Other Tool and Tool Shed Content at GCC2013
 
-* "[Introduction to Tool and Data Source Configuration](/Events/GCC2013/TrainingDay.md#introduction_to_tool_and_data_source_configuration)" [Training Day](/Events/GCC2013/TrainingDay) session
-* "[Advanced Tool and Data Source Configuration"](/Events/GCC2013/TrainingDay.md#advanced-tool-and-data-source-configuration) [Training Day](/Events/GCC2013/TrainingDay) session
-* "[Galaxy Tool Shed](/Events/GCC2013/TrainingDay.md#galaxy-tool-shed)" [Training Day](/Events/GCC2013/TrainingDay) session
-* "[Reproducible research and the 90/10 rule: Improving the ratio of light script to dark script matter in your Galaxy](/Events/GCC2013/Abstracts.md#reproducible-research-and-the-9010-rule-improving-the-ratio-of-light-script-to-dark-script-matter-in-your-galaxy)" talk
-* "[Enhancing the Galaxy Tool Shed](/Events/GCC2013/Abstracts.md#enhancing-the-galaxy-tool-shed)" talk
-* "[A Galaxy of learning: Bioinformatics tutorials based on Galaxy](/Events/GCC2013/Abstracts.md#a-galaxy-of-learning-bioinformatics-tutorials-based-on-galaxy)" talk
-* "[Managing Galaxy's Built-in Data](/Events/GCC2013/Abstracts.md#managing-galaxys-built-in-data)" talk
-* "[Galaxy-P: Beyond Proteomics](/Events/GCC2013/Abstracts.md#galaxy-p-beyond-proteomics)" talk
+* "[Introduction to Tool and Data Source Configuration](/Events/GCC2013/TrainingDay/#introduction_to_tool_and_data_source_configuration)" [Training Day](/Events/GCC2013/TrainingDay) session
+* "[Advanced Tool and Data Source Configuration"](/Events/GCC2013/TrainingDay/#advanced-tool-and-data-source-configuration) [Training Day](/Events/GCC2013/TrainingDay) session
+* "[Galaxy Tool Shed](/Events/GCC2013/TrainingDay/#galaxy-tool-shed)" [Training Day](/Events/GCC2013/TrainingDay) session
+* "[Reproducible research and the 90/10 rule: Improving the ratio of light script to dark script matter in your Galaxy](/Events/GCC2013/Abstracts/#reproducible-research-and-the-9010-rule-improving-the-ratio-of-light-script-to-dark-script-matter-in-your-galaxy)" talk
+* "[Enhancing the Galaxy Tool Shed](/Events/GCC2013/Abstracts/#enhancing-the-galaxy-tool-shed)" talk
+* "[A Galaxy of learning: Bioinformatics tutorials based on Galaxy](/Events/GCC2013/Abstracts/#a-galaxy-of-learning-bioinformatics-tutorials-based-on-galaxy)" talk
+* "[Managing Galaxy's Built-in Data](/Events/GCC2013/Abstracts/#managing-galaxys-built-in-data)" talk
+* "[Galaxy-P: Beyond Proteomics](/Events/GCC2013/Abstracts/#galaxy-p-beyond-proteomics)" talk
 
 ## Questions?
 

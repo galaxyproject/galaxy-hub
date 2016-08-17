@@ -176,10 +176,10 @@ Some tools or job destinations have stricter job concurrency limits than the ove
 "Increased memory tools" refers to a set of tools that are granted additional memory over the 8 GB default.
 
 <br /><br />
-If you job that failed for any reason, or a reason due to resources was given (job exceeded memory or run-time quotas), see this wiki and related sections for help: [/Support.md#error_from_tools](/Support.md#error_from_tools)
+If you job that failed for any reason, or a reason due to resources was given (job exceeded memory or run-time quotas), see this wiki and related sections for help: [/Support/#error_from_tools](/Support/#error_from_tools)
 
 ## More about job execution
-Your actual number of concurrent jobs may be less at any particular time, or certain job types may run quicker than others, as the different job queues are shared among all users, some job types run on busies queues, and resources are distributed evenly. Unsure about job status? [Read more here...](/Support.md#dataset_status_and_how_jobs_execute)
+Your actual number of concurrent jobs may be less at any particular time, or certain job types may run quicker than others, as the different job queues are shared among all users, some job types run on busies queues, and resources are distributed evenly. Unsure about job status? [Read more here...](/Support/#dataset_status_and_how_jobs_execute)
 
 <br /> **[Terms and Conditions](https://usegalaxy.org/static/terms.html)**: *Attempts to subvert these limits by creating multiple accounts or through any other method may result in termination of all associated accounts.*
 
@@ -208,13 +208,13 @@ To gain access to the server again, no user action is needed. When your existing
 
 ### My job ended with a failure due to memory or execution time
 #### Description and Solutions
-Please see the [Support](/Support.md#error_from_tools) wiki for help in determining if this is the case and possible solutions.
+Please see the [Support](/Support/#error_from_tools) wiki for help in determining if this is the case and possible solutions.
 
 ## Developers and Administrators
 New Admin features have been added and more are planned for in the near term. Details explained in: [Disk Quotas](/Admin/Disk Quotas). Feedback about the implementation of quota management is welcomed at the [mailing list](/MailingLists) galaxy-dev@bx.psu.edu .
 
 ## Quotas at the Galaxy Test public instance
-See [Test](/Test.md#quotas).
+See [Test](/Test/#quotas).
 
 ## Quota Implementation
 Data quotas were implemented on the Main instance in mid-October 2011.

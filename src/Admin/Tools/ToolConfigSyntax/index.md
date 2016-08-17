@@ -2149,7 +2149,7 @@ Then whenever the user selects the "`interval`"" option from the select list, th
 ----
 
 ### <discover_datasets> tag set
-See [Multiple Output Files#Number_of_Output_datasets_cannot_be_determined_until_tool_run](../Multiple Output Files.md#number_of_output_datasets_cannot_be_determined_until_tool_run) for tips to use multiple datasets including discovered datasets.
+See [Multiple Output Files#Number_of_Output_datasets_cannot_be_determined_until_tool_run](../Multiple Output Files/#number_of_output_datasets_cannot_be_determined_until_tool_run) for tips to use multiple datasets including discovered datasets.
 This tag set is optionally contained within the `<data>` tag set.
 
 Code examples can be found at:
@@ -2547,7 +2547,7 @@ See [~/tools/extract/phastOdds/phastOdds_tool.xml](https://github.com/galaxyproj
 ----
 
 ### <requirement> tag set
-This tag set is contained within the `<requirements>` tag set.  Third party programs or modules that the tool depends upon (and which are not distributed with Galaxy) are included in this tag set.  The intention is that when Galaxy starts it can check whether the required programs or modules are available, and if not this tool will not be loaded. The Galaxy Tool Shed uses *package* requirements as part of the dependency management, see [Tool Shed dependency management](/ToolShedToolFeatures.md#automatic_third-party_tool_dependency_installation_and_compilation_with_installed_repositories).
+This tag set is contained within the `<requirements>` tag set.  Third party programs or modules that the tool depends upon (and which are not distributed with Galaxy) are included in this tag set.  The intention is that when Galaxy starts it can check whether the required programs or modules are available, and if not this tool will not be loaded. The Galaxy Tool Shed uses *package* requirements as part of the dependency management, see [Tool Shed dependency management](/ToolShedToolFeatures/#automatic_third-party_tool_dependency_installation_and_compilation_with_installed_repositories).
 
 <table>
   <tr>
@@ -2574,12 +2574,12 @@ This tag set is contained within the `<requirements>` tag set.  Third party prog
 </table>
 
 
-<span style="font-size: smaller;">Note: Earlier versions of this page also listed 'python-module' and 'binary' as possible values for the 'type' attribute, but the current version of Galaxy appears to just ignore those requirement types. See [Tool Shed dependency management](/ToolShedToolFeatures.md#automatic_third-party_tool_dependency_installation_and_compilation_with_installed_repositories) on how to add such dependencies.</span>
+<span style="font-size: smaller;">Note: Earlier versions of this page also listed 'python-module' and 'binary' as possible values for the 'type' attribute, but the current version of Galaxy appears to just ignore those requirement types. See [Tool Shed dependency management](/ToolShedToolFeatures/#automatic_third-party_tool_dependency_installation_and_compilation_with_installed_repositories) on how to add such dependencies.</span>
 
 #### Example
 
 
-This example shows a tool that requires the samtools 0.0.18 package via the Tool Shed (see [Tool Shed dependency management](/ToolShedToolFeatures.md#automatic_third-party_tool_dependency_installation_and_compilation_with_installed_repositories)).
+This example shows a tool that requires the samtools 0.0.18 package via the Tool Shed (see [Tool Shed dependency management](/ToolShedToolFeatures/#automatic_third-party_tool_dependency_installation_and_compilation_with_installed_repositories)).
 
 ```
 #!highlight xml

@@ -11,7 +11,7 @@
     <td colspan=3 style=" border: none; text-align: center; vertical-align: middle"> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle"> <a href='http://umd.edu/'><img src='/Images/Logos/UMarylandLogoLong349.gif.md' alt='University of Maryland' width="300" /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle"> <a href='http://umd.edu/'><img src='/Images/Logos/UMarylandLogoLong349.gif/' alt='University of Maryland' width="300" /></a> </td>
   </tr>
 </table>
 

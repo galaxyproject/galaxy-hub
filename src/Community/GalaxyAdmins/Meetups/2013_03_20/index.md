@@ -1,4 +1,4 @@
-<div class='center'><a href='/Community/GalaxyAdmins.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> 
+<div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> 
 <div class="title">2013/03/20 Web Meetup<br /><br />[NBIC Galaxy](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/)
 </div></div>
 
@@ -17,7 +17,7 @@ INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em><a href='http://galaxy.nbic.nl/'>NBIC Galaxy</a> at <a href='https://www.surfsara.nl/'>SURFsara's HPC cloud</a></em><div class='indent'><<MailTo(hailiang DOT mei AT nbic DOT nl, Hailiang (Leon) Mei)>><br /><a href='ATTACHMENT_URL20130320Andromeda.pdf'>Slides</a></div><em>Galaxy Project Update</em><div class='indent'><a href='/Dan.md'>Dan Blankenberg</a><br /><a href='ATTACHMENT_URL20130320GalaxyUpdate.pdf'>Slides</a></div> </td>
+    <td> <em><a href='http://galaxy.nbic.nl/'>NBIC Galaxy</a> at <a href='https://www.surfsara.nl/'>SURFsara's HPC cloud</a></em><div class='indent'><<MailTo(hailiang DOT mei AT nbic DOT nl, Hailiang (Leon) Mei)>><br /><a href='ATTACHMENT_URL20130320Andromeda.pdf'>Slides</a></div><em>Galaxy Project Update</em><div class='indent'><a href='/Dan/'>Dan Blankenberg</a><br /><a href='ATTACHMENT_URL20130320GalaxyUpdate.pdf'>Slides</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>

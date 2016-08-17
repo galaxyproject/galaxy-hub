@@ -39,7 +39,7 @@ Cloud Virtual Machines (VMs) are typically transient in nature. This means that 
 
 ![](http://i.imgur.com/m9s9h6T.png)
 
-On Jetstream, you can stop a VM without deleting it. This will preserve any data and configuration changes you have made to your server while it was running. When you want to use the server again, just *Start* it and wait for it to come back up. While a VM is stopped, no SUs are being used. To stop a VM, click the *Stop* button. If Galaxy jobs fail after you have Started the server, [reboot the server](/Cloud/Jetstream/FAQ.md#how_do_i_restart_my_jetstream_galaxy_server3f).
+On Jetstream, you can stop a VM without deleting it. This will preserve any data and configuration changes you have made to your server while it was running. When you want to use the server again, just *Start* it and wait for it to come back up. While a VM is stopped, no SUs are being used. To stop a VM, click the *Stop* button. If Galaxy jobs fail after you have Started the server, [reboot the server](/Cloud/Jetstream/FAQ/#how_do_i_restart_my_jetstream_galaxy_server3f).
 
 ![](http://i.imgur.com/VCRTUS2.png) ![](http://i.imgur.com/KL6LqsZ.png)
 

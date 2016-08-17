@@ -201,7 +201,7 @@ This option describes Galaxy servers that are created for teaching purposes.
 
 </div>
 
-<div class='right'><a href='/CloudMan.md'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="150" /></a></div>
+<div class='right'><a href='/CloudMan/'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="150" /></a></div>
 
 CloudMan software abstracts much of the details of different [/Cloud](/Cloud) infrastructures and provides a uniform graphical interface for managing cloud-based servers.  
 

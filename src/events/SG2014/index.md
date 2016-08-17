@@ -20,16 +20,16 @@ Registration is now closed. Please contact [Hans-Rudolf Hotz](/HansrudolfHotz) o
   <tr>
     <th> September 30<sup>th</sup>, Tuesday </th>
     <td rowspan=2 style=" text-align: left;"> <a href='http://www.bau.unibe.ch/plaene/hgexwiunis.htm'>Universität Bern</a>, Bern, Switzerland </td>
-    <td> </strong><a href='/Events/Switzerland2014/trainingday.md'>Galaxy Demo / Training Day</a><strong> </td>
+    <td> </strong><a href='/Events/Switzerland2014/trainingday/'>Galaxy Demo / Training Day</a><strong> </td>
   </tr>
   <tr>
     <th> October 1<sup>st</sup>, Wednesday </th>
-    <td> </strong><a href='/Events/Switzerland2014.md'>2nd Swiss Galaxy Workshop</a><strong> </td>
+    <td> </strong><a href='/Events/Switzerland2014/'>2nd Swiss Galaxy Workshop</a><strong> </td>
   </tr>
   <tr>
     <th> October 2<sup>nd</sup>, Thursday </th>
     <td> Freiburg, Germany </td>
-    <td> </strong><a href='/Events/Germany2014.md'>1st German Galaxy Developer workshop</a><strong> </td>
+    <td> </strong><a href='/Events/Germany2014/'>1st German Galaxy Developer workshop</a><strong> </td>
   </tr>
 </table>
 

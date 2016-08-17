@@ -8,7 +8,7 @@ We are tremendously pleased (and more than a little relieved) to announce that *
 
 You can also sign up for [conference housing](http://gcc2015.tsl.ac.uk/logistics/#Lodging) during (and only during) registration.
 
-We apologize profusely for the delay in opening registration, and we thank you for your patience and faith.  We promise the conference will again [be spectacular](/GalaxyProject/Statistics.md#events).
+We apologize profusely for the delay in opening registration, and we thank you for your patience and faith.  We promise the conference will again [be spectacular](/GalaxyProject/Statistics/#events).
 
 [Dave Clements](/DaveClements) and [Martin Page](http://www.tsl.ac.uk/staff/martin-page/), on behalf of the [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/).
 

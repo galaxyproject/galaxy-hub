@@ -111,7 +111,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Flyer
 
-<div class='right'><a href='/attachment:TGACGalaxy2013.pdf.md'><img src='/TGACGalaxy2013Thumb.png' alt='' width="100" /></a></div>
+<div class='right'><a href='/attachment:TGACGalaxy2013.pdf/'><img src='/TGACGalaxy2013Thumb.png' alt='' width="100" /></a></div>
 Please distribute to any groups that might be interested.  You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Seminar on 12 April

@@ -9,7 +9,7 @@
 
 </div>
 
-<div class='left'><a href='/GalaxyUpdates.md'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
+<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
 Welcome to the February 2016 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. 
 
@@ -181,7 +181,7 @@ There are [many upcoming events](/Events) in the next few months.  See the [Gala
 <a href='https://mod2016.com/'><img src='/Images/Logos/MontpellierOmicsDays.png' alt='Initiation à l’environnement UNIX et à la plateforme GALAXY' height=70" /></a> &nbsp;
 <a href='http://www.agbt.org/meetings/agbt-general-meeting/'><img src='/Images/Logos/AGBTLogo.jpg' alt='BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)' height="65" /></a> &nbsp;
 <a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'><img src='/Images/Logos/SupAgroMontpelierLogoGreen.jpg' alt='Analyse bioinformatique de séquences sous Galaxy' /></a> &nbsp;
-<a href='/Community/GalaxyAdmins/Meetups/2016_02_18.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='18 February GalaxyAdmins Web Meetup' height="56" /></a> &nbsp;
+<a href='/Community/GalaxyAdmins/Meetups/2016_02_18/'><img src='/Images/Logos/GalaxyAdmins.png' alt='18 February GalaxyAdmins Web Meetup' height="56" /></a> &nbsp;
 <a href='https://conf.abrf.org/the-galaxy-platform'><img src='/Images/Logos/ABRFLogoSquareSmall.png' alt='(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics' height="70" /></a>
 </div>
 
@@ -212,15 +212,15 @@ There are [many upcoming events](/Events) in the next few months.  See the [Gala
   </tr>
   <tr>
     <th> February 18 </th>
-    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2016_02_18.md'>GalaxyAdmins Web Meetup</a></em> </td>
-    <td> INCLUDE(/Events/Badges/World) <em><a href='/Community/GalaxyAdmins/Meetups/2016_02_18.md'>Online</a></em> </td>
-    <td> <a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='/nate.md'>Nate Coraor</a>,<a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a>, <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2016_02_18/'>GalaxyAdmins Web Meetup</a></em> </td>
+    <td> INCLUDE(/Events/Badges/World) <em><a href='/Community/GalaxyAdmins/Meetups/2016_02_18/'>Online</a></em> </td>
+    <td> <a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='/nate/'>Nate Coraor</a>,<a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a>, <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 20-23 </th>
     <td> <em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a></em> </td>
     <td> INCLUDE(/Events/Badges/NorthAmerica)  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/DaveClements.md'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
+    <td> INCLUDE(/Teach/GTN/Badge16) <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/DaveClements/'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -230,7 +230,7 @@ There are [many upcoming events](/Events) in the next few months.  See the [Gala
     <th> March 7-8 </th>
     <td> </strong><a href='https://github.com/galaxyproject/tools-iuc/issues/422'>IUC Contribution Fest - RADSeq Tools and Workflows</a><strong> </td>
     <td> INCLUDE(/Events/Badges/World) <em>Online</em> </td>
-    <td> <a href='/IUC.md'>/IUC.md</a> </td>
+    <td> <a href='/IUC/'>/IUC/</a> </td>
   </tr>
   <tr>
     <th> March 15 </th>
@@ -275,8 +275,8 @@ There are [many upcoming events](/Events) in the next few months.  See the [Gala
 
 <table>
   <tr>
-    <td style=" border: none"> <a href='/Teach/Trainers.md'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
-    <td style=" border: none"> <span style="font-size: smaller;"> <a href='/Teach/Trainers.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none"> <a href='/Teach/Trainers/'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
+    <td style=" border: none"> <span style="font-size: smaller;"> <a href='/Teach/Trainers/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
@@ -285,7 +285,7 @@ There are [many upcoming events](/Events) in the next few months.  See the [Gala
 ----
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring.md'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -432,7 +432,7 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 
 
-<div class='right'><a href='/CloudMan.md'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="150" /></a></div>
+<div class='right'><a href='/CloudMan/'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="150" /></a></div>
 
 **CloudMan 15.12**
 
@@ -493,14 +493,14 @@ The 0.6.x release includes these changes:
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Teach.md'><img src='/Images/GalaxyLogos/GTNLogo300.png' alt='Galaxy Training Network' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Logs.md'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Deployments.md'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%"> <a href='/Teach/'><img src='/Images/GalaxyLogos/GTNLogo300.png' alt='Galaxy Training Network' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Logs/'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Deployments/'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong>Share your <a href='/Teach/Resources.md#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers.md#add-a-trainer'>experience</a> <em>now</em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Logs.md#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs.md#add-a-log-page'>now</a></em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Deployments.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments.md#add-your-galaxy-deployment'>now</a></em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none"> </strong>Share your <a href='/Teach/Resources/#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers/#add-a-trainer'>experience</a> <em>now</em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Logs/#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs/#add-a-log-page'>now</a></em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Deployments/#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments/#add-your-galaxy-deployment'>now</a></em> <strong> </td>
   </tr>
 </table>
 

@@ -8,8 +8,8 @@
 * The **[Intergalactic Utilities Commission](http://wiki.g2.bx.psu.edu/ReviewingToolShedRepositories)** will soon begin reviewing repositories in the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)** (better repos, better tools)
 * **[Tool Shed](http://toolshed.g2.bx.psu.edu/)** **"best practice"** advice: [a single tool or a suite of tools per repository?](http://wiki.galaxyproject.org/AToolOrASuitePerRepository)
 * **[Tophat](http://tophat.cbcb.umd.edu/)**, **[Tophat2](http://tophat.cbcb.umd.edu/manual.html)**, and **[Cuffdiff](http://cufflinks.cbcb.umd.edu/manual.html#cuffdiff)** **updated** to accept gene annotations in **[GFF3](http://wiki.galaxyproject.org/Learn/Datatypes#GFF3)** format.
-* Multiple **enhancements** to the **[API](/DevNewsBriefs/2012_11_14.md#api)** targeting user and history actions.
-* Plus **updates to** **[CloudLaunch](http://usegalaxy.org/cloud)**, new **[Security Fixes](/DevNewsBriefs/2012_11_14.md#security_fixes)**, and several usability enhancements for **Datasets**, **Datatypes**, **Tools**, and **Tool Shed** functions.
+* Multiple **enhancements** to the **[API](/DevNewsBriefs/2012_11_14/#api)** targeting user and history actions.
+* Plus **updates to** **[CloudLaunch](http://usegalaxy.org/cloud)**, new **[Security Fixes](/DevNewsBriefs/2012_11_14/#security_fixes)**, and several usability enhancements for **Datasets**, **Datatypes**, **Tools**, and **Tool Shed** functions.
 
 **[http://getgalaxy.org](http://getgalaxy.org)**
 

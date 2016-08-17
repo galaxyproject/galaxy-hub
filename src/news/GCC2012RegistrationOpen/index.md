@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[GCC2012 Registration is Open](/News/GCC2012RegistrationOpen)</div>
 
-<div class='right'><a href='/Events/GCC2012/Register.md'><img src='/Events/GCC2012/GCC2012LogoWide400.png' alt='GCC2012 Registration is Open!' width="350" /></a><br /><br /><a href='/Events/GCC2012/TrainingDay.md'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='GCC2012 Training Day: July 25' align="right" /></a></div>
+<div class='right'><a href='/Events/GCC2012/Register/'><img src='/Events/GCC2012/GCC2012LogoWide400.png' alt='GCC2012 Registration is Open!' width="350" /></a><br /><br /><a href='/Events/GCC2012/TrainingDay/'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='GCC2012 Training Day: July 25' align="right" /></a></div>
 
 We are pleased to announce that [early registration](/Events/GCC2012/Register) for the [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) is now open.  GCC2012 will be held July 25-27, at the [UIC Forum](http://www.uic.edu/depts/uicforum/), in Chicago, Illinois.  The conference will feature [two full days](/Events/GCC2012/Program ) of presentations, discussions, lightning talks, and breakouts.  We have also added a new [full day of training](/Events/GCC2012/TrainingDay) this year, featuring 3 parallel tracks with four workshops each, covering seven different topics.
 
@@ -16,7 +16,7 @@ This event will help you with integrating, analyzing, and sharing the diverse an
 
 [Registration](/Events/GCC2012/Register) is very affordable this year, especially for post-docs and students. You can can save an additional 40% by registering on or before June 11.  
 
-Conference [lodging](/Events/GCC2012/Logistics.md#lodging) can also be booked.  Low-cost rooms have been reserved [on the UIC campus](/Events/GCC2012/Logistics.md#james-stuckel-towers).  You can also stay at the [official conference hotel](/Events/GCC2012/Logistics.md#crowne-plaza-chicago-metro-downtown), at a substantial discount arranged for conference attendees.  There are a limited rooms available in both, and you are encouraged to [register early](/Events/GCC2012/Register), if you would like to stay in either.
+Conference [lodging](/Events/GCC2012/Logistics/#lodging) can also be booked.  Low-cost rooms have been reserved [on the UIC campus](/Events/GCC2012/Logistics/#james-stuckel-towers).  You can also stay at the [official conference hotel](/Events/GCC2012/Logistics/#crowne-plaza-chicago-metro-downtown), at a substantial discount arranged for conference attendees.  There are a limited rooms available in both, and you are encouraged to [register early](/Events/GCC2012/Register), if you would like to stay in either.
 
 Finally, [abstract submission](/Events/GCC2012/Abstracts) is also open, from now through April 16.  [Abstracts](/Events/GCC2012/Abstracts) on any topic of interest to the Galaxy community are strongly encouraged.  See the [Abstracts](/Events/GCC2012/Abstracts) page for details.
 

@@ -21,23 +21,23 @@ The conference logos are available in several sizes.
     <th> Download Links </th>
   </tr>
   <tr>
-    <th> <a href='../Program.md'>Conference, Wide</a> </th>
+    <th> <a href='../Program/'>Conference, Wide</a> </th>
     <td style=" text-align: center;"> <a href='ATTACHMENT_URLImages/Logos/GCC2014LogoWide200.png'>200px</a>, <a href='ATTACHMENT_URLImages/Logos/GCC2014LogoWide400.png'>400px</a>, <a href='ATTACHMENT_URLImages/Logos/GCC2014LogoWide600.png'>600px</a>, <a href='ATTACHMENT_URLImages/Logos/GCC2014LogoWideBig.png'>Full</a> </td>
   </tr>
   <tr>
-    <th> <a href='../Program.md'>Conference, Tall</a> </th>
+    <th> <a href='../Program/'>Conference, Tall</a> </th>
     <td style=" text-align: center;"> <a href='ATTACHMENT_URLImages/Logos/GCC2014LogoTall200.png'>200px</a>, <a href='ATTACHMENT_URLImages/Logos/GCC2014LogoTall400.png'>400px</a>, <a href='ATTACHMENT_URLImages/Logos/GCC2014LogoWideBig.png'>Full</a> </td>
   </tr>
   <tr>
-    <th> <a href='../TrainingDay.md'>Training Day</a> </th>
+    <th> <a href='../TrainingDay/'>Training Day</a> </th>
     <td style=" text-align: center;"> <a href='ATTACHMENT_URLImages/Logos/GCC2014TDLogo150.png'>150px</a>, <a href='ATTACHMENT_URLImages/Logos/GCC2014TDLogo300.png'>300px</a>, <a href='ATTACHMENT_URLImages/Logos/GCC2014TDLogoBig.png'>Full</a> </td>
   </tr>
   <tr>
-    <th> <a href='../BoFs.md'>BoFs</a> </th>
+    <th> <a href='../BoFs/'>BoFs</a> </th>
     <td style=" text-align: center;"> <a href='ATTACHMENT_URLImages/Logos/GCC2014BoFLogo200.png'>200px</a>, <a href='ATTACHMENT_URLImages/Logos/GCC2014BoFLogo300.png'>300px</a>, <a href='ATTACHMENT_URLImages/Logos/GCC2014BoFLogoBig.png'>Full</a> </td>
   </tr>
   <tr>
-    <th> <a href='../Hackathon.md'>Hackathon</a> </th>
+    <th> <a href='../Hackathon/'>Hackathon</a> </th>
     <td style=" text-align: center;"> <a href='ATTACHMENT_URLImages/Logos/GCC2014HackLogo200.png'>200px</a>, <a href='ATTACHMENT_URLImages/Logos/GCC2014HackLogo300.png'>300px</a>, <a href='ATTACHMENT_URLImages/Logos/GCC2014HackLogoBig.png'>Full</a> </td>
   </tr>
 </table>

@@ -49,7 +49,7 @@ Sponsorships are available at four different levels.
   <tr>
     <td style=" border: none text-align: center;"> <a href='http://www.emc.com/isilon'><img src='/Images/Logos/EMCIsilonLogo.jpg' alt='EMC Isilon' width="340" /></a> </td>
     <td style=" border: none; width: 10% text-align: center;"> </td>
-    <td style=" border: none text-align: center;"> <a href='http://bioteam.net/'><img src='/Images/Logos/BioTeamLogo154.gif.md' alt='BioTeam' width="200" /></a> </td>
+    <td style=" border: none text-align: center;"> <a href='http://bioteam.net/'><img src='/Images/Logos/BioTeamLogo154.gif/' alt='BioTeam' width="200" /></a> </td>
   </tr>
 </table>
 

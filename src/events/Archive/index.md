@@ -9,39 +9,39 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
 <div class='center'>
 <a href='https://pag.confex.com/pag/xxiii/webprogram/Session2641.html'><img src='/Images/Logos/PAGLogo114.png' alt='Galaxy @ Plant and Animal Genome (PAG 2015)' height="80" /></a>
 <a href='http://www.vibconferences.be/event/revolutionizing-next-generation-sequencing-tools-and-technologies'><img src='/Images/Logos/VIBLogoBig.jpg' alt='Revolutionizing Next-Generation Sequencing: Tools and Technologies' height="75" /></a> &nbsp;
-<a href='/Events/Meetups/Baltimore/2015-01-22.md'><img src='/Events/Meetups/Baltimore/GalaxyBaltimoreMeetupLogo400.png' alt='January 22 Galaxy Baltimore Meetup' height="56" /></a> &nbsp;
+<a href='/Events/Meetups/Baltimore/2015-01-22/'><img src='/Events/Meetups/Baltimore/GalaxyBaltimoreMeetupLogo400.png' alt='January 22 Galaxy Baltimore Meetup' height="56" /></a> &nbsp;
 <a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'><img src='/Images/Logos/SupAgroMontpelierLogoGreen.jpg' alt='Analyse bioinformatique de séquences sous Galaxy' height="60" /></a> &nbsp;
-<a href='/Community/GalaxyAdmins/Meetups/2015_02_19.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='19 February GalaxyAdmins Web Meetup' height="56" /></a> &nbsp;
-<a href='/Events/Meetups/Baltimore/2015-02-18.md'><img src='/Events/Meetups/Baltimore/GalaxyBaltimoreMeetupLogo400.png' alt='February 18 Galaxy Baltimore Meetup' height="56" /></a> &nbsp;
+<a href='/Community/GalaxyAdmins/Meetups/2015_02_19/'><img src='/Images/Logos/GalaxyAdmins.png' alt='19 February GalaxyAdmins Web Meetup' height="56" /></a> &nbsp;
+<a href='/Events/Meetups/Baltimore/2015-02-18/'><img src='/Events/Meetups/Baltimore/GalaxyBaltimoreMeetupLogo400.png' alt='February 18 Galaxy Baltimore Meetup' height="56" /></a> &nbsp;
 <a href='http://www3.i-med.ac.at/genepi/media/2015-26-06-AFGAN-seminar-announcement.pdf'><img src='/Images/Logos/MedicalUniversityInnsbruck.jpg' alt='Democratizing the ability to analyze genomic data' height="80" /></a>
 <a href='http://www.bioplatforms.com.au/training/314-variant-detection-feb-2015'><img src='/Images/Logos/USydneyLogo300.jpg' alt='Variant Detection Using Galaxy' height="60" /></a>
 <a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/FREE-Workshop-Bioinformatics-Methods-in-Genomics'><img src='/Images/Logos/IRBLogo300.jpg' alt='Ruđer Bošković Institute (RBI)' height="70" /></a>
-<a href='/attachment:Documents/Flyers/DéveloppementEtIntégrationDApplicationsSousGalaxy.pdf.md'><img src='/Images/Logos/IFBSmallTransLogo.png' alt='Développement et intégration d’applications sous Galaxy' height="66" /></a>
-<a href='/Events/Meetups/PSU/2015-03.md'><img src='/Events/Meetups/PSU/PSUMeetupLogo600.png' alt='Galaxy Meetups @ Penn State' height="60" /></a> &nbsp;
+<a href='/attachment:Documents/Flyers/DéveloppementEtIntégrationDApplicationsSousGalaxy.pdf/'><img src='/Images/Logos/IFBSmallTransLogo.png' alt='Développement et intégration d’applications sous Galaxy' height="66" /></a>
+<a href='/Events/Meetups/PSU/2015-03/'><img src='/Events/Meetups/PSU/PSUMeetupLogo600.png' alt='Galaxy Meetups @ Penn State' height="60" /></a> &nbsp;
 <a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy-4/'><img src='/Images/Logos/PerkinsInstitute.png' alt='Workshop: Variant detection using Galaxy' height="65" /></a>
 <a href='https://www.e-biogenouest.org/events/details/45/'><img src='/Images/Logos/eBiogenouestLogo.png' alt='Fourth GUGGO meeting' height="80" /></a> &nbsp;
 <a href='http://training.bioinformatics.ucdavis.edu/2015/01/12/rna-seq-and-chip-seq-analysis-with-galaxy/'><img src='/Images/Logos/UCDavisGenomeCenter.png' alt='RNA-Seq and ChIP-Seq Analysis with Galaxy' height="50" /></a> &nbsp;
-<a href='/Community/GalaxyAdmins/Meetups/2015_04_16.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='16 April GalaxyAdmins Web Meetup' height="56" /></a> &nbsp;
+<a href='/Community/GalaxyAdmins/Meetups/2015_04_16/'><img src='/Images/Logos/GalaxyAdmins.png' alt='16 April GalaxyAdmins Web Meetup' height="56" /></a> &nbsp;
 <a href='http://go4bioinformatics.genouest.org/initiation-a-la-plateforme-web-danalyse-de-donnees-galaxy-lanalyse-de-donnees-biologiques-pour-tous/'><img src='/Images/Logos/eBiogenouestLogo.png' alt='Initiation à la plateforme web GALAXY' height="80" /></a> &nbsp;
 <a href='http://www.qfab.org/events/upcoming/'><img src='/Images/Logos/QFABLogo.png' alt='QFAB Workshops' height="80" /></a>
 <a href='http://www.bio-itworldexpo.com/'><img src='/Images/Logos/Bio-ITWorld2015.jpg' alt='Bio-IT World 2015' height="60" /></a>
-<a href='/Events/Tokyo2015.md'><img src='/Events/Tokyo2015/WST2015.png' alt='Galaxy Workshop Tokyo 2015' height="80" /></a>
+<a href='/Events/Tokyo2015/'><img src='/Events/Tokyo2015/WST2015.png' alt='Galaxy Workshop Tokyo 2015' height="80" /></a>
 <a href='http://bioinformatics.ca/workshops/2015/high-throughput-biology-sequence-networks-2015'><img src='/Images/Logos/BioinformaticsCA_NYC.jpg' alt='High-throughput Biology: From Sequence to Networks 2015' height="70" /></a>
 <a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy-3/'><img src='/Images/Logos/QFABLogo.png' alt='QFAB Workshop: Variant detection using Galaxy' height="80" /></a>
 <a href='http://genomecenter.ucdavis.edu/2015/04/28/getting-bioinformatics-done-with-galaxy-a-free-bgi-uc-davis-workshop-taught-by-bioinformatics-core/'><img src='/Images/Logos/UCDavisGenomeCenter.png' alt='Getting Bioinformatics Done with Galaxy' height="50" /></a> &nbsp;
-<a href='/Events/Meetups/PSU/2015-05.md'><img src='/Events/Meetups/PSU/PSUMeetupLogo600.png' alt='Galaxy Meetups @ Penn State' height="64" /></a> &nbsp;
+<a href='/Events/Meetups/PSU/2015-05/'><img src='/Events/Meetups/PSU/PSUMeetupLogo600.png' alt='Galaxy Meetups @ Penn State' height="64" /></a> &nbsp;
 <a href='http://www.mipro.hr/MIPRO2015.DCVIS/ELink.aspx'><img src='/Images/Logos/MIPRO2015Logo.png' alt='MIPRO 2015' height="90" /></a> &nbsp;
-<a href='/Events/PSUMedicine2015.md'><img src='/Images/Logos/PSUMedicine.png' alt='Penn State University College of Medicine' height="70" /></a>
-<a href='/Events/ASMS2015.md'><img src='/Images/Logos/ASMSLogo.png' alt='63rd ASMS Conference on Mass Spectrometry and Allied Topics' height="80" /></a>
+<a href='/Events/PSUMedicine2015/'><img src='/Images/Logos/PSUMedicine.png' alt='Penn State University College of Medicine' height="70" /></a>
+<a href='/Events/ASMS2015/'><img src='/Images/Logos/ASMSLogo.png' alt='63rd ASMS Conference on Mass Spectrometry and Allied Topics' height="80" /></a>
 <a href='http://migale.jouy.inra.fr/?q=formations'><img src='/Images/Logos/MIGALELogo.png' alt='Cycle "Bioinformatique par la pratique" 2015' height="70" /></a> 
 <a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-2/'><img src='/Images/Logos/QFABLogo.png' alt='Workshop: RNA-Seq analysis using Galaxy' height="80" /></a> &nbsp;
-<a href='/Community/GalaxyAdmins/Meetups/2015_06_18.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='18 June GalaxyAdmins Web Meetup' height="56" /></a> &nbsp;
+<a href='/Community/GalaxyAdmins/Meetups/2015_06_18/'><img src='/Images/Logos/GalaxyAdmins.png' alt='18 June GalaxyAdmins Web Meetup' height="56" /></a> &nbsp;
 <a href='https://www.rcpa.edu.au/Events/Event-Details/2015/June/SCourse-Medical-Genetics-and-Genetic-Pathology'><img src='/Images/Logos/RCPALogo.jpg' alt='Short Course in Medical Genetics and Genetic Pathology 2015' height="60" /></a>
 <a href='http://go4bioinformatics.genouest.org/initiation-a-la-plateforme-web-danalyse-de-donnees-galaxy-lanalyse-de-donnees-biologiques-pour-tous/'><img src='/Images/Logos/eBiogenouestLogo.png' alt='Initiation à la plateforme web GALAXY' height="80" /></a> &nbsp;
 &nbsp;&nbsp; <a href='http://gcc2015.tsl.ac.uk/'><img src='/Images/Logos/GCC2015LogoSimple300.png' alt='2015 Galaxy Community Conference (GCC2015)' height="90" /></a> &nbsp;&nbsp;
-<a href='/Events/ISMB2015.md'><img src='/Images/Logos/BOSC_logo.png' alt='BOSC 2015' height="80" /></a>&nbsp;
-<a href='/Events/ISMB2015.md'><img src='/Images/Logos/ISMB-ECCB_2015_Logo.jpg' alt='ISMB ECCB 2015' height="90" /></a>
-<a href='/Community/GalaxyAdmins/Meetups/2015_08_20.md'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='20 August GalaxyAdmins Web Meetup' height="56" /></a> &nbsp;
+<a href='/Events/ISMB2015/'><img src='/Images/Logos/BOSC_logo.png' alt='BOSC 2015' height="80" /></a>&nbsp;
+<a href='/Events/ISMB2015/'><img src='/Images/Logos/ISMB-ECCB_2015_Logo.jpg' alt='ISMB ECCB 2015' height="90" /></a>
+<a href='/Community/GalaxyAdmins/Meetups/2015_08_20/'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='20 August GalaxyAdmins Web Meetup' height="56" /></a> &nbsp;
 <a href='http://escience2015.mnm-team.org/?page_id=463'><img src='/Images/Logos/eScience2015.png' alt='Scaling Up Bioinformatics Workflows with Dynamic Job Expansion: A Case Study Using Galaxy and Makeflow @ IEEE eScience 2015' height="65" /></a> &nbsp;
 <a href='http://biosb.nl/education/course-portfolio/rna-seq/'><img src='/Images/Logos/BioSBResearchSchool.png' alt='RNA-seq data analysis NGS Course' height="80" /></a>
 <a href='http://go4bioinformatics.genouest.org/initiation-a-la-plateforme-web-danalyse-de-donnees-galaxy-lanalyse-de-donnees-biologiques-pour-tous/'><img src='/Images/Logos/eBiogenouestLogo.png' alt='Initiation à la plateforme web GALAXY' height="80" /></a> &nbsp;
@@ -51,7 +51,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
 <a href='https://peerj.com/preprints/1350.pdf#page=33'><img src='/Images/Logos/GCB_2015.png' alt='TRAPLINE: An Integrated Galaxy Pipeline for RNAseq Data Processing, Evaluation and Prediction' height="80" /></a>
 <a href='http://biosb.nl/events/course-next-generation-sequencing-ngs-data-analysis-2015/'><img src='/Images/Logos/UMCGWithText.jpg' alt='Next generation sequencing (NGS) data analysis' height=80 /></a>
 <a href='https://cnrsformation.cnrs.fr/stage.php?stage=15274&axe=77'><img src='/Images/Logos/CGFB_bioinformatics.png' alt='Analyse avancée de séquences' height="80" /></a>
-<a href='/Community/GalaxyAdmins/Meetups/2015_10_15.md'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='October Galaxy Admins Meetup' height="70" /></a>
+<a href='/Community/GalaxyAdmins/Meetups/2015_10_15/'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='October Galaxy Admins Meetup' height="70" /></a>
 <a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-4/'><img src='/Images/Logos/QFABLogo.png' alt='Workshop: Extended RNA-Seq analysis' height="80" /></a>
 <a href='http://meetings.cshl.edu/meetings.aspx?meet=INFO&year=15'><img src='/Images/Logos/CSHLLogo.jpg' alt='6 Galaxy related posters @ Genome Informatics 2015' height="70" /></a>&nbsp;&nbsp;
 <a href='http://www.festivalofgenomicscalifornia.com/'><img src='/Images/Logos/FestivalOfGenomicsCaliforniaLogo.png' alt='3 Workshop: Galaxy for the Analysis of Very Large Biomedical Data; Common Workflow Language on Galaxy, Part of Portable Bioinformatics; Single-Cell Sequencing: Analysis & Visualization of Copy Number Variations' height="60" /></a> &nbsp;&nbsp;
@@ -94,7 +94,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> November 30 - December 1 </th>
     <td> <a href='https://github.com/galaxyproject/tools-iuc/issues/299'>IUC Contribution Fest - Metagenomics Tools and Workflows</a> </td>
     <td> INCLUDE(/Events/Badges/World) <em>Online</em> </td>
-    <td> <a href='/IUC.md'>/IUC.md</a>, <a href='/JohnChilton.md'>John Chilton</a> </td>
+    <td> <a href='/IUC/'>/IUC/</a>, <a href='/JohnChilton/'>John Chilton</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -131,21 +131,21 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> November 17-18 </th>
     <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'>Analyse de données RNA-seq sous l’environnement Galaxy</a></em> </td>
     <td> INCLUDE(/Events/Badges/Europe) <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy--prabi-project'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy--prabi-project'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> November 15-16 </th>
     <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'>Analyse de données RNA-seq sous l’environnement Galaxy</a></em> </td>
     <td> INCLUDE(/Events/Badges/Europe) <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy--prabi-project'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy--prabi-project'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> November 12-13 </th>
     <td> <em><a href='http://dx.doi.org/10.6084/m9.figshare.1597671'>Engaging Biologists with Big Data Using Interactive Genome Annotation</a></em> </td>
     <td> <a href='https://datascience.nih.gov/bd2k/events/NOV2015-AllHands'>BD2K All-Hands Grantee Meeting</a>, Bethesda, Maryland, United States </td>
-    <td> <a href='/JeremyGoecks.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
     <td> <a href='http://dx.doi.org/10.6084/m9.figshare.1597671'>Poster</a> </td>
   </tr>
   <tr>
@@ -171,12 +171,12 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th rowspan=3> November 3 </th>
     <td> <em><a href='http://www.festivalofgenomicscalifornia.com/workshops/galaxy-for-the-analysis-of-very-large-biomedical-data/'>Galaxy for the Analysis of Very Large Biomedical Data Workshop</a></em> </td>
     <td rowspan=3> INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.festivalofgenomicscalifornia.com/'>Festival of Genomics California</a>, San Mateo, California, United States </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/Dan.md'>Dan Blankenberg</a>, <a href='/JohnChilton.md'>John Chilton</a> </td>
+    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/Dan/'>Dan Blankenberg</a>, <a href='/JohnChilton/'>John Chilton</a> </td>
     <td> </td>
   </tr>
   <tr>
     <td> <em>Common Workflow Language on Galaxy</em><div class='indent'>Part of <em><a href='http://bit.ly/1POcrKL'>Portable Bioinformatics Workshop</a></em> </td>
-    <td> <a href='/JohnChilton.md'>John Chilton</a> </td>
+    <td> <a href='/JohnChilton/'>John Chilton</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -188,7 +188,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> October 28 - November 3 </th>
     <td> <em><a href='http://meetings.cshl.edu/courses.aspx?course=c-ecg&year=15'>Computational & Comparative Genomics Course</a></em> </td>
     <td> INCLUDE(/Events/Badges/NorthAmerica) Cold Spring Harbor Laboratory, New York, United States </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/JamesTaylor/'>James Taylor</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -204,17 +204,17 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <td> <em>Poster 55: From the ground to the cloud in just minutes—Building a customized Galaxy analysis server using only a web browser</em> </td>
-    <td> <a href='/Dan.md'>Dan Blankenberg</a> </td>
+    <td> <a href='/Dan/'>Dan Blankenberg</a> </td>
     <td> </td>
   </tr>
   <tr>
     <td> <em>Poster 59: Galaxy Tool World Progression—Happier developers, happier users</em> </td>
-    <td> <a href='/Marten.md'>Martin Cech</a> </td>
+    <td> <a href='/Marten/'>Martin Cech</a> </td>
     <td> <a href='http://f1000research.com/posters/4-1183'>Poster</a> </td>
   </tr>
   <tr>
     <td> <em>Poster 63: Building more expressive Galaxy workflows</em> </td>
-    <td> <a href='/JohnChilton.md'>John Chilton</a> </td>
+    <td> <a href='/JohnChilton/'>John Chilton</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -234,7 +234,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <td> <em>Poster 195: Galaxy Methylation Toolkit as a Galaxy flavor</em> </td>
-    <td> <a href='/NiteshTuraga.md'>Nitesh Turaga</a> </td>
+    <td> <a href='/NiteshTuraga/'>Nitesh Turaga</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Posters/2015_GI_Turaga_Flavors.pdf'>Poster</a> </td>
   </tr>
   <tr>
@@ -260,10 +260,10 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> October 15 </th>
-    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2015_10_15.md'>October Galaxy Admins Meetup</a></em> </td>
+    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2015_10_15/'>October Galaxy Admins Meetup</a></em> </td>
     <td> INCLUDE(/Events/Badges/World) <em>Online</em> </td>
-    <td> <a href='https://www.linkedin.com/in/davidkovalic'>David Kovalic</a>, <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a>, <a href='/DaveClements.md'>Dave Clements</a> </td>
-    <td> <a href='/Community/GalaxyAdmins/Meetups/2015_10_15.md'>Video, Slides</a> </td>
+    <td> <a href='https://www.linkedin.com/in/davidkovalic'>David Kovalic</a>, <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a>, <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/Community/GalaxyAdmins/Meetups/2015_10_15/'>Video, Slides</a> </td>
   </tr>
   <tr>
     <th> October 14 </th>
@@ -376,7 +376,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> September 17-18 </th>
-    <td> <strong><a href='/News/ToolsCollectionsHack.md'>Remote Hackathon for Tools and Dataset Collections</a></strong> </td>
+    <td> <strong><a href='/News/ToolsCollectionsHack/'>Remote Hackathon for Tools and Dataset Collections</a></strong> </td>
     <td> INCLUDE(/Events/Badges/World) <em>Online</em> </td>
     <td> <a href="mailto:galaxy-iuc@lists.galaxyproject.org">IUC</a> </td>
     <td> </td>
@@ -385,7 +385,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> September 17-18 </th>
     <td> <em>Utilizing the Galaxy Analysis Framework at Core Facilities</em> </td>
     <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='http://wacd.abrf.org/'>Western Association of Core Directors (WACD) Annual Meeting</a>, Portland, Oregon, United States </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2015_WACD_GalaxyInCores.pdf'>Slides</a>, <a href='ATTACHMENT_URLDocuments/Presentations/2015_WACD_GalaxyInCoresWNotes.pdf'>Slides with notes</a> </td>
   </tr>
   <tr>
@@ -406,14 +406,14 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> September 9 </th>
     <td> <em><a href='http://go4bioinformatics.genouest.org/initiation-a-la-plateforme-web-danalyse-de-donnees-galaxy-lanalyse-de-donnees-biologiques-pour-tous/'>Initiation à la plateforme web GALAXY</a></em> </td>
     <td> INCLUDE(/Events/Badges/Europe) <a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud, Yvan Le Bras</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud, Yvan Le Bras</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> September 7-9 </th>
     <td> <em><a href='http://biosb.nl/education/course-portfolio/rna-seq/'>RNA-seq data analysis NGS Course</a></em> </td>
     <td> INCLUDE(/Events/Badges/Europe) Leiden University Medical Center, The Netherlands </td>
-    <td> <div class='right'> <a href='/Teach/Trainers.md#lumc-erasmusmc-dtl-learning-programme'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:education@biosb.nl">BioSB Education</a> </td>
+    <td> <div class='right'> <a href='/Teach/Trainers/#lumc-erasmusmc-dtl-learning-programme'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:education@biosb.nl">BioSB Education</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -429,10 +429,10 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> August 20 </th>
-    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2015_08_20.md'>Genomic data management at Canada's National Microbiology Laboratory with IRIDA and Galaxy</a></em> </td>
-    <td> INCLUDE(/Events/Badges/World) <a href='/Community/GalaxyAdmins/Meetups/2015_08_20.md'>August 2015 GalaxyAdmins Web Meetup</a>, <em>Online</em> </td>
-    <td> <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a>, <a href='https://github.com/apetkau'>Aaron Petkau</a> </td>
-    <td> <a href='/Community/GalaxyAdmins/Meetups/2015_08_20.md'>Slides, Video</a> </td>
+    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2015_08_20/'>Genomic data management at Canada's National Microbiology Laboratory with IRIDA and Galaxy</a></em> </td>
+    <td> INCLUDE(/Events/Badges/World) <a href='/Community/GalaxyAdmins/Meetups/2015_08_20/'>August 2015 GalaxyAdmins Web Meetup</a>, <em>Online</em> </td>
+    <td> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a>, <a href='https://github.com/apetkau'>Aaron Petkau</a> </td>
+    <td> <a href='/Community/GalaxyAdmins/Meetups/2015_08_20/'>Slides, Video</a> </td>
   </tr>
   <tr>
     <th> August 10 </th>
@@ -454,16 +454,16 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> July 10-14 </th>
-    <td> <strong><a href='/Events/ISMB2015.md'>BOSC 2015 & ISMB/ECCB 2015</a></strong> <div class='indent'>10+ Galaxy related talks, posters, panel discussions, ...</div> </td>
+    <td> <strong><a href='/Events/ISMB2015/'>BOSC 2015 & ISMB/ECCB 2015</a></strong> <div class='indent'>10+ Galaxy related talks, posters, panel discussions, ...</div> </td>
     <td> INCLUDE(/Events/Badges/Europe) Dublin, Ireland </td>
-    <td> <a href='/Events/ISMB2015.md'>See presenters</a> </td>
-    <td> <a href='/Events/ISMB2015.md'>Slides</a> </td>
+    <td> <a href='/Events/ISMB2015/'>See presenters</a> </td>
+    <td> <a href='/Events/ISMB2015/'>Slides</a> </td>
   </tr>
   <tr>
     <th> July 6-10 </th>
     <td> <em><a href='http://bioinformatics.org.au/ws15/wp-content/uploads/ws14/sites/9/2015/02/Galaxy-Workshop-Information-Sheet.pdf'>An Introduction to Galaxy with the Genomics Virtual Lab: workshop</a></em> </td>
     <td> INCLUDE(/Events/Badges/Australia)<a href='http://bioinformatics.org.au/ws15/registration/'>Winter School in Mathematical and Computational Biology</a>, University of Queensland, Brisbane, Queensland, Australia </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#qfab-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#qfab-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -565,29 +565,29 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   <tr>
     <th> June 25 </th>
     <td> <em><a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-de-type-rad-par-le-pipeline-stacks-sous-la-plateforme-web-danalyse-de-donnees-galaxy/'>Initiation à l'analyse de données de type RAD par le pipeline STACKS sous Galaxy</a></em> </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/Icons/Europe40.png' alt='' /></a></div>Lille, France </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div><a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras, Anthony Bretaudeau, Cyril Monjeaud</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/Icons/Europe40.png' alt='' /></a></div>Lille, France </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div><a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras, Anthony Bretaudeau, Cyril Monjeaud</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> June 22 </th>
     <td> <em><a href='https://www.rcpa.edu.au/getattachment/c46ec998-c4cc-4d22-9a00-13dd463167e0/attachment.aspx'>Massively parallel sequence data analysis workshop (introduction to Galaxy framework for variant calling)</a></em> </td>
     <td> INCLUDE(/Events/Badges/Australia) Part of <a href='https://www.rcpa.edu.au/Events/Event-Details/2015/June/SCourse-Medical-Genetics-and-Genetic-Pathology'>Short Course in Medical Genetics and Genetic Pathology 2015</a>, Sydney, Australia </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/RossLazarus.md'>Ross Lazarus</a>, <a href='https://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> </td>
+    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/RossLazarus/'>Ross Lazarus</a>, <a href='https://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> June 22 </th>
     <td> <em><a href='http://go4bioinformatics.genouest.org/initiation-a-la-plateforme-web-danalyse-de-donnees-galaxy-lanalyse-de-donnees-biologiques-pour-tous/'>Initiation à la plateforme web GALAXY</a></em> </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/Icons/Europe40.png' alt='' /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Angers, France</a> </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras, Cyril Monjeaud</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/Icons/Europe40.png' alt='' /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Angers, France</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras, Cyril Monjeaud</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> June 22 </th>
     <td> <em><a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-rnaseq-sous-galaxy/'>Introduction à l'analyse de données RNAseq sous Galaxy</a></em> </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/Icons/Europe40.png' alt='' /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Angers, France</a> </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div><a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras, Cyril Monjeaud</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/Icons/Europe40.png' alt='' /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Angers, France</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div><a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras, Cyril Monjeaud</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -599,10 +599,10 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> June 18 </th>
-    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2015_06_18.md'>Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester</a></em> </td>
-    <td> INCLUDE(/Events/Badges/World) <a href='/Community/GalaxyAdmins/Meetups/2015_06_18.md'>June 2015 GalaxyAdmins Web Meetup</a>, <em>Online</em> </td>
-    <td> <a href='http://galacticengineer.blogspot.co.uk/'>Peter Briggs</a>, <a href='/JohnChilton.md'>John Chilton</a>, <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a> </td>
-    <td> <a href='/Community/GalaxyAdmins/Meetups/2015_06_18.md'>Slides</a> </td>
+    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2015_06_18/'>Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester</a></em> </td>
+    <td> INCLUDE(/Events/Badges/World) <a href='/Community/GalaxyAdmins/Meetups/2015_06_18/'>June 2015 GalaxyAdmins Web Meetup</a>, <em>Online</em> </td>
+    <td> <a href='http://galacticengineer.blogspot.co.uk/'>Peter Briggs</a>, <a href='/JohnChilton/'>John Chilton</a>, <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> </td>
+    <td> <a href='/Community/GalaxyAdmins/Meetups/2015_06_18/'>Slides</a> </td>
   </tr>
   <tr>
     <th> June 16 </th>
@@ -615,42 +615,42 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> June 11-12 </th>
     <td> <em><a href='http://www.training.cam.ac.uk/event/1429597'>Introduction to Galaxy: RNA-seq and ChIP-seq data analysis Workshop</a></em>  </td>
     <td> INCLUDE(/Events/Badges/Europe) <a href='http://www.cam.ac.uk/'>University of Cambridge</a>, Cambridge, United Kingdom </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/DaveClements/'>Dave Clements</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2015_Cambridge.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th> June 10-11 </th>
     <td> <em><a href='http://bioinformatics.ca/workshops/2015/informatics-high-throughput-sequencing-data-2015'>Informatics on High-throughput Sequencing Data</a></em> </td>
     <td> INCLUDE(/Events/Badges/NorthAmerica) Toronto, Ontario, Canada </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#bioinformaticsca'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#bioinformaticsca'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
     <td> <a href='http://bioinformatics.ca/htseq2015module7.pdf'>Slides</a>, <a href='http://bioinformatics.ca/htseq2015module7.mp4'>Video</a> </td>
   </tr>
   <tr>
     <th> June 8-9 </th>
-    <td> <em><a href='/Events/Glasgow2015.md'>Introduction to Galaxy Workshop</a></em> <div class='indent'>Workshop is full, but there is a waiting list</div> </td>
+    <td> <em><a href='/Events/Glasgow2015/'>Introduction to Galaxy Workshop</a></em> <div class='indent'>Workshop is full, but there is a waiting list</div> </td>
     <td> INCLUDE(/Events/Badges/Europe) <a href='http://www.gla.ac.uk/'>University of Glasgow</a>, Glasgow, United Kingdom </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/DaveClements.md'>Dave Clements</a> </td>
-    <td> <a href='/Events/Glasgow2015.md#slides'>Slides</a> </td>
+    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/Events/Glasgow2015/#slides'>Slides</a> </td>
   </tr>
   <tr>
     <th> June 6-9 </th>
     <td> <em><a href='https://www.eshg.org/684.0.html'>WS02: NGS Variant Analysis with Galaxy</a></em> </td>
     <td> INCLUDE(/Events/Badges/Europe) <a href='https://www.eshg.org/eshg2015.0.html'>ESHG 2015</a>, Glasgow, United Kingdom </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/DaveClements/'>Dave Clements</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/ESHG_2015_Variant.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th> June 4 </th>
     <td> <em>Analysis Reproducibility</em> </td>
     <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='http://wals.od.nih.gov/reproducibility/'>Reproducibility of Data Collection and Analysis: Modern Technologies in Genome Technology: Potentials and Pitfalls</a>, NIH, Bethesda, Maryland, United States </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
     <td> <a href='https://speakerdeck.com/jxtx/reproducibility-of-data-collection-and-analysis-modern-technologies-in-genome-technology-potentials-and-pitfalls'>Slides</a>, <a href='http://videocast.nih.gov/summary.asp?Live=16381'>Video (Chapter 8)</a> </td>
   </tr>
   <tr>
     <th> May 31 - June 4 </th>
-    <td> <strong><a href='/Events/ASMS2015.md'>63rd ASMS Conference on Mass Spectrometry and Allied Topics</a></strong><div class='indent'><a href='/Events/ASMS2015.md'>At least 4 talks and 5 posters</a></div> </td>
+    <td> <strong><a href='/Events/ASMS2015/'>63rd ASMS Conference on Mass Spectrometry and Allied Topics</a></strong><div class='indent'><a href='/Events/ASMS2015/'>At least 4 talks and 5 posters</a></div> </td>
     <td> INCLUDE(/Events/Badges/NorthAmerica) St. Louis, Missouri, United States </td>
-    <td> <a href='/Events/ASMS2015.md'>Speaker List</a> </td>
+    <td> <a href='/Events/ASMS2015/'>Speaker List</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -674,7 +674,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> June 3 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-2/'>Workshop: RNA-Seq analysis using Galaxy</a></em> </td>
     <td> INCLUDE(/Events/Badges/Australia) <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#qfab-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#qfab-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -690,7 +690,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <td> <em><a href='http://www.mipro.hr/MIPRO2015.DCVIS/ELink.aspx'>Building and provisioning computational cluster environments on academic and commercial clouds</a></em> </td>
-    <td> <a href='/EnisAfgan.md'>Enis Afgan</a> </td>
+    <td> <a href='/EnisAfgan/'>Enis Afgan</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Papers/2015_Afgan_Building_and_Provisioning.pdf'>Paper</a> </td>
   </tr>
   <tr>
@@ -709,9 +709,9 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> May 27 </th>
-    <td> <em><a href='/Events/PSUMedicine2015.md'>Introduction to Galaxy for Next Generation Sequencing Analysis</a></em> </td>
+    <td> <em><a href='/Events/PSUMedicine2015/'>Introduction to Galaxy for Next Generation Sequencing Analysis</a></em> </td>
     <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.pennstatehershey.org/'>Penn State College of Medicine</a>, Hershey, Pennsylvania, United States </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy_project'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/anton.md'>Anton Nekrutenko</a>, <a href="mailto:jcurry@hmc.psu.edu">Jill Curry</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy_project'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/anton/'>Anton Nekrutenko</a>, <a href="mailto:jcurry@hmc.psu.edu">Jill Curry</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -723,16 +723,16 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> May 15 </th>
-    <td> <em><a href='/Events/Meetups/PSU/2015-05.md'>RNA-Seq Galaxy Workshop</a></em> </td>
-    <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='/Events/Meetups/PSU/2015-05.md#where'>Penn State University</a>, State College, Pennsylvania, United States </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/Marten.md'>Martin Cech</a>, <a href='/anton.md'>Anton Nekrutenko</a> </td>
+    <td> <em><a href='/Events/Meetups/PSU/2015-05/'>RNA-Seq Galaxy Workshop</a></em> </td>
+    <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='/Events/Meetups/PSU/2015-05/#where'>Penn State University</a>, State College, Pennsylvania, United States </td>
+    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/Marten/'>Martin Cech</a>, <a href='/anton/'>Anton Nekrutenko</a> </td>
     <td> <a href='https://speakerdeck.com/nekrut/structure-workshop'>Slides</a> </td>
   </tr>
   <tr>
     <th> May 13 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy-3/'>Workshop: Variant detection using Galaxy</a></em> </td>
     <td> INCLUDE(/Events/Badges/Australia) <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#qfab-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#qfab-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -757,7 +757,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   <tr>
     <th> May 7 </th>
     <td> <em><a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy-session-2//'>Intégration d’outils dans la plateforme web Galaxy</a></em> </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/Icons/Europe40.png' alt='' /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/Icons/Europe40.png' alt='' /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
     <td> <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud, Yvan Le Bras</a> </td>
     <td> </td>
   </tr>
@@ -765,7 +765,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> April 27 - May 3 </th>
     <td> <em><a href='http://bioinformatics.ca/workshops/2015/high-throughput-biology-sequence-networks-2015'>High-throughput Biology: From Sequence to Networks 2015</a></em> </td>
     <td> INCLUDE(/Events/Badges/NorthAmerica) New York City, New York, United States </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#bioinformaticsca'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#bioinformaticsca'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
     <td> <a href='http://bioinformatics.ca/htbiology2015module1.pdf'>Slides</a>, <a href='http://bioinformatics.ca/htbiology2015module7.mp4'>Video</a> </td>
   </tr>
   <tr>
@@ -774,10 +774,10 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> April 28 </th>
-    <td> <em><a href='/Events/Tokyo2015.md'>Galaxy Workshop Tokyo 2015</a></em> </td>
+    <td> <em><a href='/Events/Tokyo2015/'>Galaxy Workshop Tokyo 2015</a></em> </td>
     <td> INCLUDE(/Events/Badges/Asia) <a href='http://www.rcast.u-tokyo.ac.jp/index_en.html'>RCAST, The University of Tokyo</a>, Japan </td>
     <td> <a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2015#Contact'>Ryota Yamanaka</a> </td>
-    <td> <a href='/Events/Tokyo2015.md'>Slides</a> </td>
+    <td> <a href='/Events/Tokyo2015/'>Slides</a> </td>
   </tr>
   <tr>
     <th> April 28 </th>
@@ -821,22 +821,22 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> April 20-21 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-2/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
     <td> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#qfab-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#qfab-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> April 17-18 </th>
     <td> <em><a href='https://speakerdeck.com/nekrut/galaxy-keynote-at-lsu'>Building data analysis ecosystem in life sciences with Galaxy</a></em> </td>
     <td> <a href='http://lbrn.lsu.edu/events/bioinformatics-conference/'>The 3rd Annual LA Conference on Computational Biology & Bioinformatics</a>, <a href='http://www.lsu.edu/'>Louisiana State University</a>, Baton Rouge, Louisiana, United States </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a> </td>
     <td> <a href='https://speakerdeck.com/nekrut/galaxy-keynote-at-lsu'>Slides</a> </td>
   </tr>
   <tr>
     <th> April 16 </th>
-    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2015_04_16.md'>GalaxyAdmins April 2015 Meetup</a></em> </td>
+    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2015_04_16/'>GalaxyAdmins April 2015 Meetup</a></em> </td>
     <td> <em>Online</em> </td>
-    <td> <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a>, <a href='/DaveClements.md'>Dave Clements</a>, Carrie Ganote, <a href='/guerler.md'>Aysam Guerler</a> </td>
-    <td> <a href='/Community/GalaxyAdmins/Meetups/2015_04_16.md'>Slides, video</a> </td>
+    <td> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a>, <a href='/DaveClements/'>Dave Clements</a>, Carrie Ganote, <a href='/guerler/'>Aysam Guerler</a> </td>
+    <td> <a href='/Community/GalaxyAdmins/Meetups/2015_04_16/'>Slides, video</a> </td>
   </tr>
   <tr>
     <th> April 14-15 </th>
@@ -849,14 +849,14 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> April 8 </th>
     <td> <em><a href='http://go4bioinformatics.genouest.org/initiation-a-la-plateforme-web-danalyse-de-donnees-galaxy-lanalyse-de-donnees-biologiques-pour-tous/'>Initiation à la plateforme web GALAXY</a></em> </td>
     <td> <a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud, Yvan Le Bras</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud, Yvan Le Bras</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> April 7 </th>
     <td> <em><a href='https://www.e-biogenouest.org/events/details/45//'>5th GUGGO meeting</a></em> </td>
     <td> <a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy_user_group_grand_ouest_28guggo29'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud, Yvan Le Bras</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy_user_group_grand_ouest_28guggo29'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud, Yvan Le Bras</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -868,9 +868,9 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> April 1 </th>
-    <td> <em><a href='/Events/StanfordWorkshop/2015-04-01.md'>Workshop: NGS Analysis and Workflows using Galaxy</a></em> </td>
+    <td> <em><a href='/Events/StanfordWorkshop/2015-04-01/'>Workshop: NGS Analysis and Workflows using Galaxy</a></em> </td>
     <td> <a href='http://scgpm.stanford.edu/'>Stanford Center for Genomics & Personalized Medicine, Stanford University, Palo Alto, CA, United States</a> </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) </div> <a href='http://gbsc.stanford.edu/gbscteam.html'>Ramesh V Nair</a>, <a href='http://scgpm.stanford.edu/staff.html'>Somalee Datta</a>, <a href='/JenniferJackson.md'>Jennifer Jackson</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
+    <td> INCLUDE(/Teach/GTN/Badge16) </div> <a href='http://gbsc.stanford.edu/gbscteam.html'>Ramesh V Nair</a>, <a href='http://scgpm.stanford.edu/staff.html'>Somalee Datta</a>, <a href='/JenniferJackson/'>Jennifer Jackson</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -886,7 +886,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <td> <em>Use of Genomics Visualization Methods within Galaxy Platform</em> </td>
-    <td> <a href='/guerler.md'>Aysam Guerler</a> </td>
+    <td> <a href='/guerler/'>Aysam Guerler</a> </td>
     <td> <a href='https://wiki.galaxyproject.org/Documents/Presentations?action=AttachFile&do=view&target=2015-guerler-abrf.pdf'>slides</a> </td>
   </tr>
   <tr>
@@ -919,7 +919,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> March 23 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy-4/'>Workshop: Variant detection using Galaxy</a></em> </td>
     <td rowspan=2> <a href='http://www.perkins.org.au/'>Harry Perkins Institute of Medical Research</a>, Nedlands, Western Australia </td>
-    <td rowspan=2> <div class='right'><a href='/Teach/Trainers.md#qfab-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
+    <td rowspan=2> <div class='right'><a href='/Teach/Trainers/#qfab-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -931,14 +931,14 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> March 23 </th>
     <td> <em><a href='https://speakerdeck.com/jxtx/giga2-galaxy-a-collaborative-platform-for-accessible-transparent-and-reproducible-genomics'>The Galaxy Project</a></em> </td>
     <td> <a href='http://www.en.palaeontologie.geowissenschaften.uni-muenchen.de/gigaii/index.html'>Global Invertebrate Genomics Alliance (GIGA) II Workshop</a>, Münich, Germany </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
     <td> <a href='https://speakerdeck.com/jxtx/giga2-galaxy-a-collaborative-platform-for-accessible-transparent-and-reproducible-genomics'>Slides</a> </td>
   </tr>
   <tr>
     <th> March 17 </th>
-    <td> <em><a href='/Events/Meetups/PSU/2015-03.md'>Using Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/Events/Meetups/PSU/2015-03/'>Using Galaxy Workshop</a></em> </td>
     <td> Penn State University, State College, Pennsylvania, United States </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/Marten.md'>Martin Cech</a>, <a href='/anton.md'>Anton Nekrutenko</a> </td>
+    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/Marten/'>Martin Cech</a>, <a href='/anton/'>Anton Nekrutenko</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -959,14 +959,14 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> March 2-3 </th>
     <td> <em><a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/FREE-Workshop-Bioinformatics-Methods-in-Genomics'>Workshop on Bioinformatics Methods in Genomics</a></em> </td>
     <td> <a href='http://www.irb.hr/eng'>RBI</a>, Zagreb, Croatia </td>
-    <td> INCLUDE(/Teach/GTN/Badge16)</div> <a href='/EnisAfgan.md'>Enis Afgan</a> </td>
+    <td> INCLUDE(/Teach/GTN/Badge16)</div> <a href='/EnisAfgan/'>Enis Afgan</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> March 2 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy/'>RNA-Seq analysis using Galaxy</a></em> </td>
     <td> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#qfab-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#qfab-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -975,9 +975,9 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> February 27 </th>
-    <td> <em><a href='/Events/NorthwesternU2015.md'>Introduction to Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/Events/NorthwesternU2015/'>Introduction to Galaxy Workshop</a></em> </td>
     <td> <a href='http://northwestern.edu/'>Northwestern University</a>, Chicago, Illinois, United States </td>
-    <td> INCLUDE(/Teach/GTN/Badge16)  <a href='/DaveClements.md'>Dave Clements</a>, <a href='https://www.facilities.research.northwestern.edu/directory/matt-schipma'>Matt Schipma</a> </td>
+    <td> INCLUDE(/Teach/GTN/Badge16)  <a href='/DaveClements/'>Dave Clements</a>, <a href='https://www.facilities.research.northwestern.edu/directory/matt-schipma'>Matt Schipma</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2015NorthwesternUWorkshop.pdf'>Slides</a> </td>
   </tr>
   <tr>
@@ -991,35 +991,35 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> February 27 </th>
     <td> <em><a href='http://www.bioplatforms.com.au/training/314-variant-detection-feb-2015'>Variant Detection Using Galaxy</a></em> </td>
     <td> University of Sydney, Sydney, Australia </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#qfab-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a>, <a href="mailto:kchamp@bioplatforms.com">Katherine Champ</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#qfab-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a>, <a href="mailto:kchamp@bioplatforms.com">Katherine Champ</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> February 23-27 </th>
     <td> <em><a href='https://www.ie-freiburg.mpg.de/2017995/Bioinformatics_Galaxy_course'>Bioinformatics Galaxy Course</a></em> </td>
     <td> University of Frieburg, Frieburg, Germany </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#freiburger-galaxy-project'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/BjoernGruening.md'>Björn Grüning</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#freiburger-galaxy-project'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/BjoernGruening/'>Björn Grüning</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> February 26 </th>
     <td> <em><a href='http://www3.i-med.ac.at/genepi/media/2015-26-06-AFGAN-seminar-announcement.pdf'>Democratizing the ability to analyze genomic data</a></em> </td>
     <td> <a href='http://www3.i-med.ac.at/genepi/'>Medical University of Innsbruck, Innsbruck, Austria</a> </td>
-    <td> <a href='/EnisAfgan.md'>Enis Afgan</a> </td>
+    <td> <a href='/EnisAfgan/'>Enis Afgan</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> February 24 </th>
     <td> <em><a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy-session-2//'>Intégration d’outils dans la plateforme web Galaxy</a></em> </td>
     <td> <a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud, Yvan Le Bras</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud, Yvan Le Bras</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th rowspan=3> February 16-20 </th>
     <td> <em>Accessible and Reproducible Large-Scale Analysis with Galaxy</em> </td>
     <td rowspan=1> <a href='http://www.triconference.com/Sequencing-Analysis/'>Genome and Transcriptome Analysis</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
     <td> <a href='https://speakerdeck.com/jxtx/molecular-medicine-tri-con-2015'>Slides</a> </td>
   </tr>
   <tr>
@@ -1035,16 +1035,16 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> February 19 </th>
-    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2015_02_19.md'>February 2015 GalaxyAdmins Web Meetup</a></em> </td>
+    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2015_02_19/'>February 2015 GalaxyAdmins Web Meetup</a></em> </td>
     <td> <em>Online</em> </td>
-    <td> <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a>, <a href='/DaveClements.md'>Dave Clements</a> </td>
-    <td> <a href='/Community/GalaxyAdmins/Meetups/2015_02_19.md'>Slides, Video</a> </td>
+    <td> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a>, <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/Community/GalaxyAdmins/Meetups/2015_02_19/'>Slides, Video</a> </td>
   </tr>
   <tr>
     <th> February 18 </th>
-    <td> <em><a href='/Events/Meetups/Baltimore/2015-02-18.md'>Baltimore Area Galaxy Meetup</a></em> </td>
-    <td> <a href='/Events/Meetups/Baltimore/2015-02-18.md#where'>Baltimore, Maryland, United States</a> </td>
-    <td> <a href='/EnisAfgan.md'>Enis Afgan</a>, <a href='/NiteshTuraga.md'>Nitesh Turaga</a> </td>
+    <td> <em><a href='/Events/Meetups/Baltimore/2015-02-18/'>Baltimore Area Galaxy Meetup</a></em> </td>
+    <td> <a href='/Events/Meetups/Baltimore/2015-02-18/#where'>Baltimore, Maryland, United States</a> </td>
+    <td> <a href='/EnisAfgan/'>Enis Afgan</a>, <a href='/NiteshTuraga/'>Nitesh Turaga</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/BaltimoreMeetup201502.pdf'>Slides</a> </td>
   </tr>
   <tr>
@@ -1065,7 +1065,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> February 6 </th>
     <td> <em><a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-rnaseq-sous-galaxy/'>Introduction à l'analyse de données RNAseq sous Galaxy</a></em> </td>
     <td> <a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div><a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div><a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -1081,9 +1081,9 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> January 22 </th>
-    <td> <em><a href='/Events/Meetups/Baltimore/2015-01-22.md'>Baltimore Area Galaxy Meetup</a></em><div class='indent'>This meetup is now <em>full</em>.</div>  </td>
-    <td> <a href='/Events/Meetups/Baltimore/2015-01-22.md#where'>Baltimore, Maryland, United States</a> </td>
-    <td> <a href='/EnisAfgan.md'>Enis Afgan</a>, <a href='/NiteshTuraga.md'>Nitesh Turaga</a> </td>
+    <td> <em><a href='/Events/Meetups/Baltimore/2015-01-22/'>Baltimore Area Galaxy Meetup</a></em><div class='indent'>This meetup is now <em>full</em>.</div>  </td>
+    <td> <a href='/Events/Meetups/Baltimore/2015-01-22/#where'>Baltimore, Maryland, United States</a> </td>
+    <td> <a href='/EnisAfgan/'>Enis Afgan</a>, <a href='/NiteshTuraga/'>Nitesh Turaga</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/BaltimoreMeetup201501.pdf'>Slides</a> </td>
   </tr>
   <tr>
@@ -1097,14 +1097,14 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> January 15-16 </th>
     <td> <em>Accessible and Reproducible Genomics at Scale with Galaxy</em> </td>
     <td> <a href='http://www.vibconferences.be/event/revolutionizing-next-generation-sequencing-tools-and-technologies'>Revolutionizing Next-Generation Sequencing: Tools and Technologies</a>, Leuven, Belgium </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> January 10-14 </th>
     <td> <em>Galaxy for SNP and Variant Data Analysis</em> </td>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXIII (PAG2015)</a>, San Diego, California, United States </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2015_PAG_Variant.pdf'>Slides</a> </td>
   </tr>
 </table>
@@ -1112,8 +1112,8 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
 
 <table>
   <tr>
-    <td style=" border: none"> <a href='/Teach/Trainers.md'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
-    <td style=" border: none"> <span style="font-size: smaller;"> <a href='/Teach/Trainers.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none"> <a href='/Teach/Trainers/'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
+    <td style=" border: none"> <span style="font-size: smaller;"> <a href='/Teach/Trainers/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
@@ -1122,41 +1122,41 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
 # 2014
 
 <div class='center'> 
-<a href='/Events/PAG_GMOD_2014.md'><img src='/Images/Logos/PAGLogo114.png' alt='Galaxy @ Plant and Animal Genome (PAG 2014)' height="80" /></a>
+<a href='/Events/PAG_GMOD_2014/'><img src='/Images/Logos/PAGLogo114.png' alt='Galaxy @ Plant and Animal Genome (PAG 2014)' height="80" /></a>
 <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'><img src='/Images/Logos/GMOD2014.png' alt='2014 GMOD Meeting' height="70" /></a> &nbsp;
 <a href='http://www.ebi.ac.uk/training/course/mosquito2014'><img src='/Images/Logos/EMBL-EBILogo317.jpg' alt='Mosquito Informatics' width="170" /></a>&nbsp;
 <a href='http://www.supagro.fr/web/pages/?idl=19&page=498&id_page=2666'><img src='/Images/Logos/SupAgroMontpelierLogo.jpg' alt='Analyse Bioinformatique de séquences pour l'amélioration des plantes' height="60" /></a>
 <a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'><img src='/Images/Logos/PRABILogo.png' alt='RNA-Seq & ChIP-Seq analysis course using Galaxy' height="60" /></a>
 <a href='http://www.nowgen.org.uk/facilities/events/event.php?id=63'><img src='/Images/Logos/nowgenLogo180.png' alt='Introduction to NGS Bioinformatics' height="45" /></a> &nbsp;
-<a href='/gmod:GMOD_Malaysia_2014.md'><img src='/Images/Logos/GMODMalaysia120.png' alt='GMOD Malaysia 2014' height="60" /></a>&nbsp;
+<a href='/gmod:GMOD_Malaysia_2014/'><img src='/Images/Logos/GMODMalaysia120.png' alt='GMOD Malaysia 2014' height="60" /></a>&nbsp;
 <a href='https://wiki.ctmmtrait.nl/display/WP4/TraIT+Hackathon'><img src='/Images/Logos/TraITLogoSmall.png' alt='CTMM TraIT Hackathon' height="60" /></a>
-<a href='/Events/GAW2014.md'><img src='/Images/Logos/GAW2014-200.png' alt='Register now for Galaxy Australasia Workshop (GAW 2014)' height="60" /></a> &nbsp;
+<a href='/Events/GAW2014/'><img src='/Images/Logos/GAW2014-200.png' alt='Register now for Galaxy Australasia Workshop (GAW 2014)' height="60" /></a> &nbsp;
 <a href='http://globusworld.org/'><img src='/Images/Logos/GlobusWorld2014Logo.png' alt='GlobusWorld 2014' height="60" /></a> &nbsp;
-<a href='/Events/BioITWorld2014.md'><img src='/Images/Logos/BioITWorld2014Logo.png' alt='Bio-IT World 2014' /></a> &nbsp;
-<a href='/Events/UKMay2014.md'><img src='/Images/Logos/UKMay2014Tour.png' alt='' height="80" /></a>&nbsp;
-<a href='/gmod:GMOD_Online_Training_2014.md'><img src='/Images/Logos/GMODOnlineTraining2014.png' alt='GMOD Online Training' height="80" /></a> &nbsp;
+<a href='/Events/BioITWorld2014/'><img src='/Images/Logos/BioITWorld2014Logo.png' alt='Bio-IT World 2014' /></a> &nbsp;
+<a href='/Events/UKMay2014/'><img src='/Images/Logos/UKMay2014Tour.png' alt='' height="80" /></a>&nbsp;
+<a href='/gmod:GMOD_Online_Training_2014/'><img src='/Images/Logos/GMODOnlineTraining2014.png' alt='GMOD Online Training' height="80" /></a> &nbsp;
 <a href='http://www.mipro.hr/'><img src='/Images/Logos/mipro2014Logo.png' alt='MIPRO 2014' height="70" /></a> &nbsp;
 <a href='http://www.embnet.org/agm/2014/embnet_tutorial'><img src='/Images/Logos/PRABILogo.png' alt='' height="60" /></a>
 <a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'><img src='/Images/Logos/CanadianBioinfWorkshopsLog.png' alt='Informatics on High Throughput Sequencing Data Workshop' height=80 /></a>&nbsp;
-<a href='/Events/ASMS2014.md'><img src='/Images/Logos/ASMSLogo.png' alt='62nd ASMS Conference on Mass Spectrometry and Allied Topics' height="80" /></a>
+<a href='/Events/ASMS2014/'><img src='/Images/Logos/ASMSLogo.png' alt='62nd ASMS Conference on Mass Spectrometry and Allied Topics' height="80" /></a>
 <a href='http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/'><img src='/Images/Logos/UCDavisGenomeCenterLogo.jpg' alt='Using Galaxy for Analysis of High Throughput Sequence Data @ UC Davis Bioinformatics Core' height="80" /></a> &nbsp;
 <a href='http://www.bioinformatica.crs4.it/next_generation_sequencing_course_with_galaxy_june_2014'><img src='/Images/Logos/CRS4Logo.jpg' alt='Analisi dati Next Generation Sequencing in Galaxy' width="130" /></a> &nbsp;
 <a href='http://abims.sb-roscoff.fr/formation'><img src='/Images/Logos/ABiMSLogo.png' alt='ABiMS' height="50" /></a>
-<a href='/Events/GCC2014/Hackathon.md'><img src='/Images/Logos/GCC2014HackLogoSquare.png' alt='GCC2014 Hackathon' height="80" /></a>&nbsp;
-<a href='/Events/GCC2014/TrainingDay.md'><img src='/Images/Logos/GCC2014TrainingDayLogoSquare.png' alt='GCC2014 Training Day' height="75" /></a>&nbsp;
-<a href='/Events/GCC2014.md'><img src='/Images/Logos/GCC2014LogoWide200.png' alt='GCC2014, June 30-July2' height="75" /></a>&nbsp;
-<a href='/Events/ISMB2014.md'><img src='/Images/Logos/BOSC_logo.png' alt='BOSC 2014' height="75" /></a>&nbsp;&nbsp;&nbsp;
-<a href='/Events/ISMB2014.md'><img src='/Images/Logos/ISMB2014LogoRound.png' alt='ISMB 2014' height="75" /></a> &nbsp; 
+<a href='/Events/GCC2014/Hackathon/'><img src='/Images/Logos/GCC2014HackLogoSquare.png' alt='GCC2014 Hackathon' height="80" /></a>&nbsp;
+<a href='/Events/GCC2014/TrainingDay/'><img src='/Images/Logos/GCC2014TrainingDayLogoSquare.png' alt='GCC2014 Training Day' height="75" /></a>&nbsp;
+<a href='/Events/GCC2014/'><img src='/Images/Logos/GCC2014LogoWide200.png' alt='GCC2014, June 30-July2' height="75" /></a>&nbsp;
+<a href='/Events/ISMB2014/'><img src='/Images/Logos/BOSC_logo.png' alt='BOSC 2014' height="75" /></a>&nbsp;&nbsp;&nbsp;
+<a href='/Events/ISMB2014/'><img src='/Images/Logos/ISMB2014LogoRound.png' alt='ISMB 2014' height="75" /></a> &nbsp; 
 <a href='http://www.qfab.org/events/upcoming/'><img src='/Images/Logos/QFABLogo.png' alt='QFAB Workshops' height="80" /></a>
-<a href='/Events/SaoPaulo2014.md'><img src='/Images/Logos/USP.gif.md' alt='DNA Sequence Bioinformatics Analysis with the Galaxy Platform' height="80" /></a>
-<a href='/Events/ECCB2014.md'><img src='/Images/Logos/ECCB2014Logo.png' alt='Galaxy at ECCB' height="80" /></a>
+<a href='/Events/SaoPaulo2014/'><img src='/Images/Logos/USP.gif/' alt='DNA Sequence Bioinformatics Analysis with the Galaxy Platform' height="80" /></a>
+<a href='/Events/ECCB2014/'><img src='/Images/Logos/ECCB2014Logo.png' alt='Galaxy at ECCB' height="80" /></a>
 <a href='http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo'><img src='/Images/Logos/eBiogenouestLogo.png' alt='Fourth GUGGO meeting' height="80" /></a> &nbsp;
 <a href='http://australianbioinformatics.net/great-gigascience-galaxy-wkshp'><img src='/Images/Logos/ABNLogoWText200.jpg' alt='Australian Bioinformatics Network' height="50" /></a> &nbsp;
 <a href='http://www.bioinformatica.crs4.it/next_generation_sequencing_course_with_galaxy_september_2014'><img src='/Images/Logos/CRS4Logo.jpg' alt='Analisi dati Next Generation Sequencing in Galaxy' width="130" /></a> &nbsp;
 <a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/CIR-Interactive-Workshop-Introduction-to-bioinformatics-analysis-with-Galaxy-application'><img src='/Images/Logos/IRBLogo300.jpg' alt='CIR Interactive Workshop - Introduction to bioinformatics analysis with Galaxy application' height="70" /></a> &nbsp;
-<a href='/Events/SG2014.md'><img src='/Images/Logos/SG2014Logo400.png' alt='2014 Swiss German Galaxy Tour' height="90" /></a>
+<a href='/Events/SG2014/'><img src='/Images/Logos/SG2014Logo400.png' alt='2014 Swiss German Galaxy Tour' height="90" /></a>
 <a href='http://wiki.data.dtls.nl/index.php/DTL_Programmers_Meeting'><img src='/Images/Logos/DTLLogo150.png' alt='iReport - A tool to create flexible, scalable Galaxy tool interface, presented at the DTL Programmers Meeting' height="90" /></a>
-<a href='http://galaxy4bioinformatics.sb-roscoff.fr/'><img src='/Images/Logos/SB-RoscoffBig.JPG.md' alt='Des bonnes pratiques d'intégration d'outils sous Galaxy' height="60" /></a> &nbsp;
+<a href='http://galaxy4bioinformatics.sb-roscoff.fr/'><img src='/Images/Logos/SB-RoscoffBig.JPG/' alt='Des bonnes pratiques d'intégration d'outils sous Galaxy' height="60" /></a> &nbsp;
 [{{attachment:Images/Logos/GenoToulLogo.png|Galaxy Training Days|height="60"}}|Galaxy training days](http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62) &nbsp;
 <a href='http://web.ornl.gov/sci/knowledgediscovery/CloudComputing/PDAC-SC14/'><img src='/Images/Logos/SC14.png' alt='Deciphering Big Data Stacks: An Overview of Big Data Tools, Workshop on Big Data Analytics: Challenges, and Opportunities (BDAC-14)]], Supercomputing 2014' width="150" /></a> 
 <a href='http://www.bioinformatica.crs4.it/next_generation_sequencing_course_with_galaxy_november_2014'><img src='/Images/Logos/CRS4Logo.jpg' alt='Analisi dati Next Generation Sequencing in Galaxy' width="140" /></a> &nbsp;
@@ -1164,7 +1164,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
 <a href='http://sciencegateways.org/upcoming-events/gce14/'><img src='/Images/Logos/SC14.png' alt='Galaxy Cluster to Cloud - Genomics at Scale, at GCE: The 9th Gateway Computing Environments Workshop, part of Supercomputing 2014 (SC14)' width="150" /></a> 
 <a href='http://www.prabi.fr/spip.php?article215'><img src='/Images/Logos/PRABILogo.png' alt='RNA-Seq & ChIP-Seq analysis course using Galaxy' height="60" /></a>&nbsp;
 <a href='http://www.ifb-galaxy.org/GALAXYDAYS2014.html'><img src='/Images/Logos/GalaxyIFB.png' alt='Galaxy Day' width="140" /></a>&nbsp;
-<a href='/Events/VSU2014.md'><img src='/Images/Logos/VSULogo.jpg' alt='Intro to Galaxy Workshop at Virginia State University' height="70" /></a>
+<a href='/Events/VSU2014/'><img src='/Images/Logos/VSULogo.jpg' alt='Intro to Galaxy Workshop at Virginia State University' height="70" /></a>
 <a href='https://training.bioinformatics.ucdavis.edu/2014/10/10/rna-seq-and-chip-seq-analysis-with-galaxy-december-16-19-2014/'><img src='/Images/Logos/UCDavisGenomeCenter.png' alt='RNA-Seq and ChIP-Seq Analysis with Galaxy, UC Davis Bioinformatics Core' height="50" /></a>
 </div>
 
@@ -1192,15 +1192,15 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> December 16-19 </th>
     <td> <em><a href='https://training.bioinformatics.ucdavis.edu/2014/10/10/rna-seq-and-chip-seq-analysis-with-galaxy-december-16-19-2014/'>RNA-Seq and ChIP-Seq Analysis with Galaxy</a></em> </td>
     <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='http://training.bioinformatics.ucdavis.edu/'>UC Davis</a>, California, United States </td>
-    <td> <a href='/Teach/Resource/UCDavisRNAChIPWorkshop.md'>Complete Workshop</a> </td>
+    <td> <a href='/Teach/Resource/UCDavisRNAChIPWorkshop/'>Complete Workshop</a> </td>
     <td> <a href="mailto:bioinformatics DOT core AT ucdavis DOT edu">UC Davis Bioinformatics Training</a> </td>
   </tr>
   <tr>
     <th> December 12 </th>
-    <td> <em><a href='/Events/VSU2014.md'>Introduction to Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/Events/VSU2014/'>Introduction to Galaxy Workshop</a></em> </td>
     <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='http://vsu.edu/'>Virginia State University</a>, Petersburg, Virginia, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/201412VSUWorkshop.pdf'>Slides</a> </td>
-    <td> <a href='http://sest.vsu.edu/biology/Faculty/harris.html'>Glenn Harris</a>, <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='http://sest.vsu.edu/biology/Faculty/harris.html'>Glenn Harris</a>, <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> December 9-11 </th>
@@ -1264,7 +1264,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <em>Galaxy Cluster to Cloud - Genomics at Scale</em> </td>
     <td rowspan=4> <a href='http://sciencegateways.org/upcoming-events/gce14/'>GCE: The 9th Gateway Computing Environments Workshop</a>, <a href='http://sc14.supercomputing.org/'>Supercomputing 2014 (SC14)</a>, New Orleans, Louisiana, United States </td>
     <td> <a href='http://bit.ly/1zOfkR3'>Paper</a> </td>
-    <td> <a href='/EnisAfgan.md'>Enis Afgan</a> </td>
+    <td> <a href='/EnisAfgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <td> <em>FACE-IT: A Science Gateway for Food Security Research</em> </td>
@@ -1314,7 +1314,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <em>Deciphering Big Data Stacks: An Overview of Big Data Tools</em> </td>
     <td> <a href='http://web.ornl.gov/sci/knowledgediscovery/CloudComputing/PDAC-SC14/'>Workshop on Big Data Analytics: Challenges, and Opportunities (BDAC-14)</a>, <a href='http://sc14.supercomputing.org/'>Supercomputing 2014 (SC14)</a>, New Orleans, Louisiana, United States </td>
     <td> </td>
-    <td> <a href='/EnisAfgan.md'>Enis Afgan</a> </td>
+    <td> <a href='/EnisAfgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> November 12 </th>
@@ -1328,15 +1328,15 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <em>Rapidly bringing software to biologists with Galaxy and Docker</em> </td>
     <td rowspan=4> <a href='http://meetings.cshl.edu/meetings/2014/data14.shtml'>Biological Data Science</a>, Cold Spring Harbor Laboratory, New York, United States </td>
     <td> <a href='http://bit.ly/biodata14gx'>Slides</a>, <a href='ATTACHMENT_URLDocuments/Presentations/2014_Chilton_BioDataDocker.pdf'>PDF</a> </td>
-    <td> <a href='/JohnChilton.md'>John Chilton</a> </td>
+    <td> <a href='/JohnChilton/'>John Chilton</a> </td>
   </tr>
   <tr>
     <td> <em>Adventures in scaling Galaxy</em> </td>
     <td> <a href='https://speakerdeck.com/jxtx/adventures-in-scaling-galaxy-at-biological-data-science-2014'>Slides</a>, <a href='ATTACHMENT_URLDocuments/Presentations/2014_Taylor_BioData_Scaling.pdf'>PDF</a> </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
-    <td> P22: <em>PIPE-CLIP: A comprehensive online tool for CLIP-seq data analysis</em><div class='indent'>(See <a href='/PublicGalaxyServers.md#qbrc-galaxy-and-pipe-clip'>PIPE-CLIP</a>)</div> </td>
+    <td> P22: <em>PIPE-CLIP: A comprehensive online tool for CLIP-seq data analysis</em><div class='indent'>(See <a href='/PublicGalaxyServers/#qbrc-galaxy-and-pipe-clip'>PIPE-CLIP</a>)</div> </td>
     <td> </td>
     <td> <a href='http://qbrc.swmed.edu/portfolio/beibei-chenpostdoctoral-researcher/'>Beibei Chen</a> </td>
   </tr>
@@ -1409,7 +1409,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <em>Galaxy: Accessible and Reproducible Data Analysis for Bench Scientists</em> </td>
     <td> <a href='http://ie2.uoregon.edu/seminars'>Institute of Ecology and Evolution</a>, University of Oregon, Eugene, Oregon, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2014_UOregonIE2.pdf'>Slides</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th rowspan=3> October 18-22 </th>
@@ -1433,7 +1433,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <em><a href='ATTACHMENT_URLDocuments/Presentations/201410_TaylorIDIESSymposium.pdf'>Accessible, Transparent, And Reproducible Genomics With Galaxy</a></em> </td>
     <td> <a href='http://idies.jhu.edu/agenda-2014-idies-annual-symposium'>IDIES Annual Symposium</a>, Johns Hopkins University, Baltimore, Maryland, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/201410_TaylorIDIESSymposium.pdf'>Slides</a> </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 14 </th>
@@ -1485,18 +1485,18 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
-    <td> <a href='/Events/Switzerland2014/trainingday.md'>Galaxy Training and Demo Day</a> </td>
-    <td rowspan=3> <strong><a href='/Events/SG2014.md'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
-    <td> <a href='/Events/Switzerland2014/trainingday.md'>Slides</a> </td>
-    <td rowspan=3> <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a> and <a href='/BjoernGruening.md'>Bjoern Gruening</a> </td>
+    <td> <a href='/Events/Switzerland2014/trainingday/'>Galaxy Training and Demo Day</a> </td>
+    <td rowspan=3> <strong><a href='/Events/SG2014/'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
+    <td> <a href='/Events/Switzerland2014/trainingday/'>Slides</a> </td>
+    <td rowspan=3> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> and <a href='/BjoernGruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/Events/Switzerland2014.md'>(second Swiss) Galaxy Workshop</a></em> </td>
-    <td> <a href='/Events/Switzerland2014.md'>Slides</a> </td>
+    <td> <em><a href='/Events/Switzerland2014/'>(second Swiss) Galaxy Workshop</a></em> </td>
+    <td> <a href='/Events/Switzerland2014/'>Slides</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/Events/Germany2014.md'>German Galaxy Developers Day</a></em> </td>
-    <td> <a href='/Events/Germany2014.md'>Slides</a> </td>
+    <td> <em><a href='/Events/Germany2014/'>German Galaxy Developers Day</a></em> </td>
+    <td> <a href='/Events/Germany2014/'>Slides</a> </td>
   </tr>
   <tr>
     <th> September 30 </th>
@@ -1531,7 +1531,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <em><a href='https://galaxy-at-stanford-2014-q3.eventbrite.com'>Galaxy Workshop including "Using Galaxy: RNA-seq"</a></em> </td>
     <td> Stanford University, Palo Alto, CA, US </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/20140923_Jackson_Stanford.pdf'>Slides</a> </td>
-    <td> <a href='https://www.eventbrite.com/e/galaxy-workshop-at-stanford-tickets-13038411239#lightbox_contact'>Organizers</a>, <a href='/JenniferJackson.md'>Jennifer Hillman-Jackson</a> </td>
+    <td> <a href='https://www.eventbrite.com/e/galaxy-workshop-at-stanford-tickets-13038411239#lightbox_contact'>Organizers</a>, <a href='/JenniferJackson/'>Jennifer Hillman-Jackson</a> </td>
   </tr>
   <tr>
     <th> September 22-23 </th>
@@ -1566,7 +1566,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <a href='https://speakerdeck.com/jxtx/talk-for-xsede-day-at-johns-hopkins'>Galaxy: Data intensive biology for everyone</a> </td>
     <td> <a href='https://www.xsede.org/johns-hopkins-visit'>Johns Hopkins XSEDE Day</a>, Baltimore, Maryland, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2014_TaylorXSEDEDay.pdf'>Slides</a> </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> September 11 </th>
@@ -1577,10 +1577,10 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> September 6-10 </th>
-    <td> <a href='/Events/ECCB2014.md'>At least one tutorial, a panel of European Public Galaxy Instances, and 5 posters</a> </td>
-    <td> <strong><a href='/Events/ECCB2014.md'>European Conference on Computational Biology (ECCB'14)</a></strong>, Strasbourg, France </td>
-    <td> <a href='/Events/ECCB2014.md'>Presentations</a> </td>
-    <td> <a href='/Events/ECCB2014.md'>Presenters</a> </td>
+    <td> <a href='/Events/ECCB2014/'>At least one tutorial, a panel of European Public Galaxy Instances, and 5 posters</a> </td>
+    <td> <strong><a href='/Events/ECCB2014/'>European Conference on Computational Biology (ECCB'14)</a></strong>, Strasbourg, France </td>
+    <td> <a href='/Events/ECCB2014/'>Presentations</a> </td>
+    <td> <a href='/Events/ECCB2014/'>Presenters</a> </td>
   </tr>
   <tr>
     <th colspan=5> </th>
@@ -1604,7 +1604,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <em><a href='http://www.nextgenerationdx.com/NextGeneration_Content.aspx?id=136605'>Creating and Using Tumor Genome Profiles with Galaxy</a></em> </td>
     <td> Next Generation Dx Summit, Washington, DC, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2014_GoecksCreatingUsingTumorGeomeProfiles.pdf'>Slides</a> </td>
-    <td> <a href='/JeremyGoecks.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> August 15 </th>
@@ -1618,10 +1618,10 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> July 28 - August 1 </th>
-    <td> <em><a href='/Events/SaoPaulo2014.md'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a></em> </td>
+    <td> <em><a href='/Events/SaoPaulo2014/'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a></em> </td>
     <td> <a href='http://usp.br/'>University of São Paulo (USP)</a>, São Paulo, Brazil </td>
-    <td> <a href='/Events/SaoPaulo2014.md'>Slides</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/Events/SaoPaulo2014/'>Slides</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> July 18 </th>
@@ -1639,10 +1639,10 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> July 11-15 </th>
-    <td> <strong><a href='/Events/ISMB2014.md'>ISMB and BOSC 2014</a></strong><div class='indent'>At least six talks and five posters</div> </td>
+    <td> <strong><a href='/Events/ISMB2014/'>ISMB and BOSC 2014</a></strong><div class='indent'>At least six talks and five posters</div> </td>
     <td> Boston, Massachusetts, United States </td>
-    <td> <a href='/Events/ISMB2014.md'>|Links</a> </td>
-    <td> See <a href='/Events/ISMB2014.md'>presenter list</a> </td>
+    <td> <a href='/Events/ISMB2014/'>|Links</a> </td>
+    <td> See <a href='/Events/ISMB2014/'>presenter list</a> </td>
   </tr>
   <tr>
     <th> July 10 </th>
@@ -1663,16 +1663,16 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> June 28-30 </th>
-    <td> <a href='/Events/GCC2014/Hackathon.md'>Galaxy Hackathon</a> </td>
+    <td> <a href='/Events/GCC2014/Hackathon/'>Galaxy Hackathon</a> </td>
     <td rowspan=2> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
     <td> </td>
-    <td> <a href='/Events/GCC2014/Organizers.md'>Organizers</a> </td>
+    <td> <a href='/Events/GCC2014/Organizers/'>Organizers</a> </td>
   </tr>
   <tr>
     <th> June 30 -<br />July 2 </th>
-    <td> <strong><a href='/Events/GCC2014.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
-    <td> <a href='/Events/GCC2014/Program.md'>Slides</a> </td>
-    <td> <a href='/Events/GCC2014/Organizers.md'>Organizers</a> </td>
+    <td> <strong><a href='/Events/GCC2014/'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
+    <td> <a href='/Events/GCC2014/Program/'>Slides</a> </td>
+    <td> <a href='/Events/GCC2014/Organizers/'>Organizers</a> </td>
   </tr>
   <tr>
     <th> June 23-24 </th>
@@ -1704,10 +1704,10 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> June 15-19 </th>
-    <td> <strong><a href='/Events/ASMS2014.md'>62nd ASMS Conference on Mass Spectrometry and Allied Topics</a></strong><div class='indent'>Including at least 9 workshops, talks and posters</div> </td>
+    <td> <strong><a href='/Events/ASMS2014/'>62nd ASMS Conference on Mass Spectrometry and Allied Topics</a></strong><div class='indent'>Including at least 9 workshops, talks and posters</div> </td>
     <td> Baltimore, Maryland, United States </td>
     <td> </td>
-    <td> See <a href='/Events/ASMS2014.md'>presenter list</a> </td>
+    <td> See <a href='/Events/ASMS2014/'>presenter list</a> </td>
   </tr>
   <tr>
     <th> June 16 </th>
@@ -1774,7 +1774,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <em>Installing Galaxy Workshop</em><div class='indent'><div class='red'>Application deadline: April 28</div> </td>
     <td> <a href='http://gmod.org/wiki/GMOD_Online_Training_2014'>GMOD Online Training</a> </td>
     <td> </td>
-    <td> <a href='/CarlEberhard.md'>Carl Eberhard</a>, <a href='http://gmod.org/wiki/User:Girlwithglasses'>Amelia Ireland</a> </td>
+    <td> <a href='/CarlEberhard/'>Carl Eberhard</a>, <a href='http://gmod.org/wiki/User:Girlwithglasses'>Amelia Ireland</a> </td>
   </tr>
   <tr>
     <th rowspan=3> May 19-21 </th>
@@ -1819,18 +1819,18 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em>Analysis Reproducibility in Data (and Software) Dependent Research<em> </td>
     <td> NIH BD2K Workshop on Discovering, Citing, Tracking Biomedical Software, Bethesda, Maryland, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2014NIH_BD2K_AnalysisReproducibility.pdf'>Slides</a>, <a href='http://videocast.nih.gov/summary.asp?Live=14171'>Video (starting at 19 minutes)</a> </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> May 13 </th>
-    <td> </em><a href='/Events/UKMay2014/IGMMWorkshop.md'>Galaxy Workshop</a><em> </td>
+    <td> </em><a href='/Events/UKMay2014/IGMMWorkshop/'>Galaxy Workshop</a><em> </td>
     <td> <a href='http://www.igmm.ac.uk/'>Institute of Genetics and Molecular Medicine (IGMM)</a>, Edinburgh, UK </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/201405HGMM_Workshop.pdf'>Sides</a></td>
-    <td rowspan=5> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td rowspan=5> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th rowspan=2> May 12 </th>
-    <td> </em><a href='/Events/UKMay2014/UEdinburgh.md'>Galaxy Workshop</a><em> </td>
+    <td> </em><a href='/Events/UKMay2014/UEdinburgh/'>Galaxy Workshop</a><em> </td>
     <td> <a href='http://www.ed.ac.uk/'>University of Edinburgh</a>, Edinburgh, UK </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/201405UEDINBURGHWorkshop.pdf'>Galaxy Sides</a>, <a href='ATTACHMENT_URLDocuments/Presentations/201405EdinburghGenomics.pdf'>Edinburgh Genomics Sides</a> </td>
   </tr>
@@ -1841,7 +1841,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> May 9 </th>
-    <td> </em><a href='/Events/UKMay2014/TGACWorkshop.md'>Introduction to Galaxy Workshop</a><em> </td>
+    <td> </em><a href='/Events/UKMay2014/TGACWorkshop/'>Introduction to Galaxy Workshop</a><em> </td>
     <td> <a href='http://www.tgac.ac.uk/'>The Genome Analysis Centre (TGAC)</a>, Norwich, United Kingdom </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/201405TGACWorkshop.pdf'>Slides</a> </td>
   </tr>
@@ -1856,10 +1856,10 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th rowspan=1> April 29 -<br />May 1 </th>
-    <td rowspan=1> <strong><a href='/Events/BioITWorld2014.md'>Three tutorials and at least five talks</a></strong> </td>
-    <td rowspan=1> <strong><a href='/Events/BioITWorld2014.md'>BioIT World</a></strong><br />Boston, Massachusetts, United States </td>
-    <td> <a href='/Events/BioITWorld2014.md'>Slides</a> </td>
-    <td> <a href='/Events/BioITWorld2014.md'>See tutorial and talk list</a> </td>
+    <td rowspan=1> <strong><a href='/Events/BioITWorld2014/'>Three tutorials and at least five talks</a></strong> </td>
+    <td rowspan=1> <strong><a href='/Events/BioITWorld2014/'>BioIT World</a></strong><br />Boston, Massachusetts, United States </td>
+    <td> <a href='/Events/BioITWorld2014/'>Slides</a> </td>
+    <td> <a href='/Events/BioITWorld2014/'>See tutorial and talk list</a> </td>
   </tr>
   <tr>
     <th rowspan=3> April 15-17 </th>
@@ -1933,14 +1933,14 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em>Galaxy toolset for Drosophila genomics<em><div class='indent'>and one-on-one help in the Flybase Demonstrations Room</div> </td>
     <td> <a href='http://www.genetics-gsa.org/drosophila/2014/'>Drosophila Research Conference</a>, San Diego, California, United States </td>
     <td> </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a>, <a href='/JenniferJackson.md'>Jen Jackson</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a>, <a href='/JenniferJackson/'>Jen Jackson</a> </td>
   </tr>
   <tr>
     <th> March 24-25 </th>
-    <td> <strong><a href='/Events/GAW2014.md'>Galaxy Australasia Workshop 2014 (GAW2014)</a></strong> </td>
+    <td> <strong><a href='/Events/GAW2014/'>Galaxy Australasia Workshop 2014 (GAW2014)</a></strong> </td>
     <td> Melbourne, Australia </td>
-    <td> <a href='/Events/GAW2014.md'>Slides</a> </td>
-    <td> <a href='/Events/GAW2014.md#organisers'>Organisers</a> </td>
+    <td> <a href='/Events/GAW2014/'>Slides</a> </td>
+    <td> <a href='/Events/GAW2014/#organisers'>Organisers</a> </td>
   </tr>
   <tr>
     <th> March 17-19 </th>
@@ -1951,10 +1951,10 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> March 7 </th>
-    <td> <a href='/Events/UGA2014.md'>Galaxy Workshop</a> </td>
+    <td> <a href='/Events/UGA2014/'>Galaxy Workshop</a> </td>
     <td> <a href='http://uga.edu'>University of Georgia</a>, Athens, Georgia, United States </td>
-    <td> <a href='/Events/UGA2014.md#slides'>Slides</a> </td>
-    <td> <a href='/CarlEberhard.md'>Carl Eberhard</a>, <a href='/DaveClements.md'>Dave Clements</a>, <a href='/DannonBaker.md'>Dannon Baker</a>, <a href='http://plantbio.uga.edu/directory/raj-ayyampalayam'>Raj Ayyampalayam</a> </td>
+    <td> <a href='/Events/UGA2014/#slides'>Slides</a> </td>
+    <td> <a href='/CarlEberhard/'>Carl Eberhard</a>, <a href='/DaveClements/'>Dave Clements</a>, <a href='/DannonBaker/'>Dannon Baker</a>, <a href='http://plantbio.uga.edu/directory/raj-ayyampalayam'>Raj Ayyampalayam</a> </td>
   </tr>
   <tr>
     <th colspan=5> </th>
@@ -1964,7 +1964,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <a href='http://gmod.org/wiki/GMOD_Malaysia_2014'>GMOD Malaysia 2014</a> </td>
     <td> Kuala Lumpur, Malaysia </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2014GMODMalaysiaSlides.pdf'>Slides</a> </td>
-    <td> <a href='http://gmod.org/wiki/User:Girlwithglasses'>Amelia Ireland</a>, <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='http://gmod.org/wiki/User:Girlwithglasses'>Amelia Ireland</a>, <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 27 </th>
@@ -1985,7 +1985,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <a href='http://www.agbt.org/'>Advances in Genome Biology and Technology (AGBT)</a> </td>
     <td> Marco Island, Florida, United States </td>
     <td> </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a>, <a href='/JamesTaylor.md'>JamesTaylor</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a>, <a href='/JamesTaylor/'>JamesTaylor</a> </td>
   </tr>
   <tr>
     <th> February 10-14 </th>
@@ -2042,22 +2042,22 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'>2014 GMOD Meeting</a> </td>
     <td> San Diego, California, United States </td>
     <td> <a href='https://wiki.galaxyproject.org/Events/PAG_GMOD_2014#Galaxy at GMOD'>Links</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th rowspan=3> January 11-15 </th>
     <td> </em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2298.html'>Galaxy for NGS Data Analysis: A Hands-on Computer Demo</a><em> </td>
-    <td rowspan=3> <strong><a href='/Events/PAG_GMOD_2014.md'>Plant and Animal Genome XXII (PAG 2014)</a></strong>, San Diego, California, United States </td>
-    <td rowspan=3> <a href='/Events/PAG_GMOD_2014.md'>Links</a> </td>
-    <td rowspan=1> <a href='/DaveClements.md'>Dave Clements</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
+    <td rowspan=3> <strong><a href='/Events/PAG_GMOD_2014/'>Plant and Animal Genome XXII (PAG 2014)</a></strong>, San Diego, California, United States </td>
+    <td rowspan=3> <a href='/Events/PAG_GMOD_2014/'>Links</a> </td>
+    <td rowspan=1> <a href='/DaveClements/'>Dave Clements</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
   </tr>
   <tr>
     <td> </em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>Galaxy Cloudman: A Gentle Introduction to Data Analysis on the Cloud</a><em><div class='indent'>Part of the <a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>GMOD Workshop</a></div> </td>
-    <td rowspan=1> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td rowspan=1> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
-    <td> </em>Plus <a href='/Events/PAG_GMOD_2014.md'>3 more talks and 4 posters</a><em> </td>
-    <td> See <a href='/Events/PAG_GMOD_2014.md'>list</a> </td>
+    <td> </em>Plus <a href='/Events/PAG_GMOD_2014/'>3 more talks and 4 posters</a><em> </td>
+    <td> See <a href='/Events/PAG_GMOD_2014/'>list</a> </td>
   </tr>
 </table>
 
@@ -2070,21 +2070,21 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
 <a href='http://bit.ly/UFefFx'><img src='/Images/Logos/UCDavisGenomeCenterLogo.jpg' alt='Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core' height="70" /></a>
 <a href='http://conf.abrf.org/'><img src='/Images/Logos/ABRF2013LogoSquare300.png' alt='ABRF 2013' height="80" /></a>
 <a href='http://www.qfab.org/events/upcoming/'><img src='/Images/Logos/QFABLogo.png' alt='QFAB Workshops' height="80" /></a>
-<a href='/gmod:April_2013_GMOD_Meeting.md'><img src='/Images/Logos/GMOD2013Logo240.png' alt='GMOD 2013' height="80" /></a>
+<a href='/gmod:April_2013_GMOD_Meeting/'><img src='/Images/Logos/GMOD2013Logo240.png' alt='GMOD 2013' height="80" /></a>
 <a href='http://www.ebi.ac.uk/biocuration2013/content/workshop-descriptions'><img src='/Images/Logos/ISBLogoWAcronym223.png' alt='Biocuration 2013' height="70" /></a>
-<a href='/Events/MissouriWorkshopTour2013.md'><img src='/Images/Logos/MissouriGalaxyWorkshopTour2013.png' alt='Missouri Galaxy Workshop Tour 2013' height="70px" /></a>
+<a href='/Events/MissouriWorkshopTour2013/'><img src='/Images/Logos/MissouriGalaxyWorkshopTour2013.png' alt='Missouri Galaxy Workshop Tour 2013' height="70px" /></a>
 <a href='http://www.iscb.org/glbio2013'><img src='/Images/Logos/GLBioLogo.png' alt='Great Lakes Bioinformatics Conference (GLBIO) 2013' height="50" /></a>
-<a href='/Community/GalaxyAdmins/Meetups/.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins Meetups' height="70" /></a>
+<a href='/Community/GalaxyAdmins/Meetups//'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins Meetups' height="70" /></a>
 <a href='http://bit.ly/WiNGS2013'><img src='/Images/Logos/WINGS.png' alt='Workshop in Next-Generation Sequence Analysis and Metabolomics' height=90 /></a>
 <a href='http://www.bio-itworldasia.com/'><img src='/Images/Logos/BioITWorldAsia2013.png' alt='Bio-IT World Asia 2013' height=70 /></a>
 <a href='http://bit.ly/VyBEcS'><img src='/Images/Logos/CanadianBioinfWorkshopsLog.png' alt='Informatics on High Throughput Sequencing Data Workshop' height=100 /></a>&nbsp;
 <a href='https://www.eshg.org/sunday2013.0.html#W1'><img src='/Images/Logos/ESHG2013Narrow.png' alt='Galaxy Workshop @ ESHG' height="80px" /></a>
-<a href='/Events/ASMS2013.md'><img src='/Images/Logos/ASMS2013LogoClipped.png' alt='61st ASMS Conference' height="80px" /></a>&nbsp;
+<a href='/Events/ASMS2013/'><img src='/Images/Logos/ASMS2013LogoClipped.png' alt='61st ASMS Conference' height="80px" /></a>&nbsp;
 <a href='http://sdcsb.ucsd.edu/rna-seq-analysis-workshop/'><img src='/Images/Logos/SDCSBLogo.png' alt='RNA-Seq Analysis Workshop' height=80" /></a>&nbsp;
-<a href='/Events/GCC2013.md'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="135px" /></a>
-<a href='/Events/RTWorkshopTour2013.md'><img src='/Images/Logos/RTGalaxyWorkshopTour2013-300.png' alt='' width="140px" /></a>
-<a href='/Events/ISMB2013.md'><img src='/Images/Logos/BOSC_logo.png' alt='BOSC 2013' width="100" /></a> &nbsp;
-<a href='/Events/ISMB2013.md'><img src='/Images/Logos/ISMB2013Logo205.png' alt='ISMB/ECCB 2013' width="60" /></a> &nbsp;
+<a href='/Events/GCC2013/'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="135px" /></a>
+<a href='/Events/RTWorkshopTour2013/'><img src='/Images/Logos/RTGalaxyWorkshopTour2013-300.png' alt='' width="140px" /></a>
+<a href='/Events/ISMB2013/'><img src='/Images/Logos/BOSC_logo.png' alt='BOSC 2013' width="100" /></a> &nbsp;
+<a href='/Events/ISMB2013/'><img src='/Images/Logos/ISMB2013Logo205.png' alt='ISMB/ECCB 2013' width="60" /></a> &nbsp;
 <a href='https://www.xsede.org/web/xsede13'><img src='/Images/Logos/XSEDESmall.png' alt='XSEDE13' width="160" /></a>
 <a href='https://www.rd-alliance.org/future-events'><img src='/Images/Logos/RDALogo.png' alt='RDA Second Plenary Meeting' height="70" /></a>
 <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'><img src='/Images/Logos/RCPALogo.jpg' alt='The Genomic Bioinformatics Workshop' height="60" /></a> &nbsp;
@@ -2093,7 +2093,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
 <a href='http://bit.ly/153avr8'><img src='/Images/Logos/OrioneNGSCourse.png' alt='Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica' height="65" /></a> &nbsp;
 <a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src='/Images/Logos/GenoToulLogo.png' alt='Galaxy Training Days' height="60" /></a> &nbsp;
 <a href='http://amataconference.com.au/2013/conference-program/pre-conference-workshops/'><img src='/Images/Logos/AMATA2013LogoName.png' alt='AMATA early career researcher workshop' height=80" /></a>
-<a href='/Events/SAWorkshopTour2013.md'><img src='/Images/Logos/SAGalaxyWorkshopTour2013Wide.png' alt='2013 South Africa Galaxy Workshop Tour' height="65" /></a> &nbsp;
+<a href='/Events/SAWorkshopTour2013/'><img src='/Images/Logos/SAGalaxyWorkshopTour2013Wide.png' alt='2013 South Africa Galaxy Workshop Tour' height="65" /></a> &nbsp;
 <a href='http://conference.eresearch.edu.au/eres2013/workshops-2013/'><img src='/Images/Logos/eResearchAustralAsiaSmall.png' alt='eResearch Australasia 2013' height="60" /></a>
 <a href='http://www.ashg.org/2013meeting/'><img src='/Images/Logos/ASH2013.png' alt='ASHG 2013' height="60" /></a>
 <a href='http://www.icg-8.org/'><img src='/Images/Logos/ICG-8Logo.jpg' alt='The 8th International Conference on Genomics (ICG-8)' /></a>
@@ -2157,7 +2157,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='https://wiki.nci.nih.gov/display/CBIITSpeakers/2013/11/14/December+11%3A+Dr.+Jeremy+Goecks%2C+Using+Galaxy+to+Understand+Cancer+Genomes'>Using Galaxy to Understand Cancer Genomics</a><em> </td>
     <td> <a href='http://www.cancer.gov/aboutnci/ncishadygrove'>National Cancer Institute</a>, Rockville, Maryland, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2014_Goecks_NCI.pdf'>Slides</a>, <a href='https://www.youtube.com/watch?v=lD9exmWAoj8&ebc=ANyPxKriBVDQ6ri43bBOqQp0V-qGsjxCaXZTxAUBWsE1aGFSTq7tvE3AfFp4GK9xeU_5QVTTxdUE'>Video</a> </td>
-    <td> <a href='/JeremyGoecks.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> December 9 </th>
@@ -2182,7 +2182,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <th> December 4 </th>
     <td> </em><a href='http://www.ifb-galaxy.org/4dec2013.html'>Galaxy Day</a><em><div class='indent'><div class='red'>Les inscriptions au Galaxy Day sont closes</div> </td>
     <td> Paris (Institut Curie), France </td>
-    <td> <a href='/News/GalaxyDay2013Report.md'>Meeting Report</a>, <a href='http://wiki.sb-roscoff.fr/ifb/index.php/Accueil'>Slides</a> </td>
+    <td> <a href='/News/GalaxyDay2013Report/'>Meeting Report</a>, <a href='http://wiki.sb-roscoff.fr/ifb/index.php/Accueil'>Slides</a> </td>
     <td> <a href="mailto:ifb DOT galaxy AT sb DASH roscoff DOT fr">Organisateurs</a> </td>
   </tr>
   <tr>
@@ -2206,10 +2206,10 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> November 20 </th>
-    <td> </em><a href='/Community/GalaxyAdmins/Meetups/2013_11_20.md'>November GalaxyAdmins Meetup</a><em> </td>
-    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_11_20.md'>Online</a> </td>
-    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_11_20.md'>Slides, Screencast</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a>, Srinivas Maddhi, <a href='/nate.md'>Nate Coraor</a> </td>
+    <td> </em><a href='/Community/GalaxyAdmins/Meetups/2013_11_20/'>November GalaxyAdmins Meetup</a><em> </td>
+    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_11_20/'>Online</a> </td>
+    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_11_20/'>Slides, Screencast</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a>, Srinivas Maddhi, <a href='/nate/'>Nate Coraor</a> </td>
   </tr>
   <tr>
     <th> November 19 </th>
@@ -2237,7 +2237,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='http://meetings.cshl.edu/courses/2013/c-ecg13.shtml'>Computational and Comparative Genomics Course</a><em><div class='indent'><div class='red'>Application Deadline: July 15, 2013</div> </td>
     <td> <a href='http://cshl.edu'>Cold Spring Harbor Laboratory</a>, New York, United States </td>
     <td> </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> November 6-8 </th>
@@ -2265,7 +2265,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='https://usegalaxy.org/u/galaxyproject/p/galaxy-101-ngs-variant'>Galaxy 101 NGS: Introduction to Polymorphism Detection via Variant Analysis</a><em> <br /> <a href='http://courses.soe.ucsc.edu/courses/bme110'>Guest Lecture BME110</a> </td>
     <td> <a href='http://www.ucsc.edu'>University of California, Santa Cruz</a>, United States </td>
     <td> Live demo & discussion <br /> <a href='https://usegalaxy.org/u/usinggalaxy/h/ucsc-bme110-20131106-actual'>ucsc-bme110-20131106-actual</a> </td>
-    <td> <a href='/JenniferJackson.md'>Jennifer Jackson</a> </td>
+    <td> <a href='/JenniferJackson/'>Jennifer Jackson</a> </td>
   </tr>
   <tr>
     <th> November 2-6 </th>
@@ -2293,27 +2293,27 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em>Wrangling Galaxy’s reference data<em> </td>
     <td rowspan=6> <strong><a href='http://meetings.cshl.edu/meetings/2013/info13.shtml'>Genome Informatics</a></strong>, Cold Spring Harbor Laboratory, New York, United States </td>
     <td> </td>
-    <td> <a href='/Dan.md'>Dan Blankenberg</a> </td>
+    <td> <a href='/Dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <td> </em>Improving reproducibility using automated testing frameworks<em> </td>
     <td> </td>
-    <td> <a href='/DaveBouvier.md'>Dave Bouvier</a> </td>
+    <td> <a href='/DaveBouvier/'>Dave Bouvier</a> </td>
   </tr>
   <tr>
     <td> </em>Galaxy's long-term sustainability—Deployment to the XSEDE system<em> </td>
     <td> </td>
-    <td> <a href='/nate.md'>Nate Coraor</a> </td>
+    <td> <a href='/nate/'>Nate Coraor</a> </td>
   </tr>
   <tr>
     <td> </em>Understanding cancer genomes using Galaxy<em> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/GI2013_GoecksUnderstandingCancer.pdf'>Poster</a> </td>
-    <td> <a href='/JeremyGoecks.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
-    <td> </em>Finding missing analysis tools with Galaxy <a href='/Tool Shed.md'>ToolShed</a>—A case of mitochondrial RNA modification<em> </td>
+    <td> </em>Finding missing analysis tools with Galaxy <a href='/Tool Shed/'>ToolShed</a>—A case of mitochondrial RNA modification<em> </td>
     <td> </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <td> </em>Bioinformatics tutorials using Galaxy<em> </td>
@@ -2342,7 +2342,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   <tr>
     <td> </em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#high'>High Throughput Data Analysis and Visualization with Galaxy</a><em> <div class='indent'><div class='red'>This workshop is sold out.</div></td>
     <td> </em><a href='https://usegalaxy.org/u/galaxyproject/p/galaxy-101-ngs-variant'>Polymorphism Detection and Visualization</a><em> </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a>, <a href='/JenniferJackson.md'>Jennifer Jackson</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a>, <a href='/JenniferJackson/'>Jennifer Jackson</a> </td>
   </tr>
   <tr>
     <td> </em><a href='http://www.ashg.org/2013meeting/abstracts/fulltext/f130122946.htm'>Poster 1633T: Globus Genomics: Enabling high-throughput analysis and management of NGS data for neurodevelopmental disorders</a><em> </td>
@@ -2366,10 +2366,10 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> October 21-25 </th>
-    <td> </em><a href='/Events/UCapeTown2013.md'>NGS Data Analysis and Galaxy Workshop</a><em> <div class='indent'>University of Cape Town</div> </td>
-    <td rowspan=1> <a href='/Events/SAWorkshopTour2013.md'>2013 South Africa Galaxy Workshop Tour</a> </td>
-    <td> <a href='/Events/UCapeTown2013.md'>Slides</a> </td>
-    <td rowspan=1> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> </em><a href='/Events/UCapeTown2013/'>NGS Data Analysis and Galaxy Workshop</a><em> <div class='indent'>University of Cape Town</div> </td>
+    <td rowspan=1> <a href='/Events/SAWorkshopTour2013/'>2013 South Africa Galaxy Workshop Tour</a> </td>
+    <td> <a href='/Events/UCapeTown2013/'>Slides</a> </td>
+    <td rowspan=1> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th rowspan=6> October 20-25 </th>
@@ -2415,14 +2415,14 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='http://bioteam.net/slipstream/galaxy-edition/galaxy-training/'>Analyzing NGS Data with Galaxy</a><em> </td>
     <td> <a href='http://www.dana-farber.org/'>Dana-Farber Cancer Institute</a>, Boston, Massachusetts, United States </td>
     <td> </em><a href='https://usegalaxy.org/u/galaxyproject/p/galaxy-101-ngs-variant'>Galaxy 101 NGS: Introduction to Polymorphism Detection</a><em>, </em><a href='ATTACHMENT_URLDocuments/Presentations/2013BioTeamManagingLocal.pdf'>Managing a Local Galaxy Instance</a><em> </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a>, <a href='/JenniferJackson.md'>Jennifer Jackson</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a>, <a href='/JenniferJackson/'>Jennifer Jackson</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
   </tr>
   <tr>
     <th> October 14-18 </th>
-    <td> </em><a href='/Events/UPretoria2013.md'>NGS Data Analysis and Galaxy Workshop</a><em> <div class='indent'>University of Pretoria</div> </td>
-    <td rowspan=1> <a href='/Events/SAWorkshopTour2013.md'>2013 South Africa Galaxy Workshop Tour</a> </td>
-    <td> <a href='/Events/UPretoria2013.md'>Slides</a> </td>
-    <td rowspan=1> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> </em><a href='/Events/UPretoria2013/'>NGS Data Analysis and Galaxy Workshop</a><em> <div class='indent'>University of Pretoria</div> </td>
+    <td rowspan=1> <a href='/Events/SAWorkshopTour2013/'>2013 South Africa Galaxy Workshop Tour</a> </td>
+    <td> <a href='/Events/UPretoria2013/'>Slides</a> </td>
+    <td rowspan=1> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 13-16 </th>
@@ -2450,19 +2450,19 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>Next-Generation Sequencing Data Interpretation: Enhancing Reproducibility and Accessibility</a><em></td>
     <td rowspan=2> <a href='http://www.gtcbio.com/conference/ngseurope-overview'>NGS & Bioinformatics Summit Europe</a>, Berlin, Germany </td>
     <td> </td>
-    <td> <a href='/anton.md'>Anton Nektutenko</a> </td>
+    <td> <a href='/anton/'>Anton Nektutenko</a> </td>
   </tr>
   <tr>
     <td> </em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>Using Galaxy to Provide a NGS Analysis Platform</a> <em> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/HRHOTZ_final_public_20131007.pdf'>Slides</a> </td>
-    <td> <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a> </td>
+    <td> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> October 4 </th>
     <td> </em>Galaxy Ecosystem & UCSC<em> <br /> <a href='http://courses.soe.ucsc.edu/courses/bme110'>Guest Lecture BME110</a>  </td>
     <td> <a href='http://www.ucsc.edu'>University of California, Santa Cruz</a>, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/20131004_UCSC_GalaxyEco.pdf'>Slides</a> & Live Demo </td>
-    <td> <a href='/JenniferJackson.md'>Jennifer Jackson</a> </td>
+    <td> <a href='/JenniferJackson/'>Jennifer Jackson</a> </td>
   </tr>
   <tr>
     <th> October 3 </th>
@@ -2483,7 +2483,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='http://www.beyond-the-genome.com/program/'>Galaxy as a platform for High-throughput Genomics</a><em> </td>
     <td rowspan=2> <strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a></strong>, San Francisco, California, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Prese3ntations/2013_goecks-beyond-the-genome.pdf'>Slides</a> </td>
-    <td> <a href='/JeremyGoecks.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <td> </em><a href='http://www.beyond-the-genome.com/program/'>Development of a genomic region database and analysis tool for the Galaxy platform</a><em> </td>
@@ -2495,14 +2495,14 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em>Analysis of Genomic Sequence Data With Galaxy<em>, part of the </em><a href='http://individualizingmedicineconference.mayo.edu/schedule/'>Cancer Care</a><em> session </td>
     <td> <a href='http://individualizingmedicineconference.mayo.edu/'>Individualizing Medicine Conference</a>, <a href='http://mayo.eduy/'>Mayo Clinic</a>, Rochester, Minnesota, United States </td>
     <td> </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> September&nbsp;28 - October&nbsp;1 </th>
     <td> </em>Galaxy Workshop<em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
     <td> </td>
-    <td> <a href='/RossLazarus.md'>Ross Lazarus</a>, <a href='/Dan.md'>Dan Blankenberg</a> </td>
+    <td> <a href='/RossLazarus/'>Ross Lazarus</a>, <a href='/Dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> September 27 </th>
@@ -2569,29 +2569,29 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> July 19-23 </th>
-    <td> <strong><a href='/Events/ISMB2013.md'>ISMB/ECCB, BOSC and MS SIG 2013</a></strong><div class='indent'>Talks, posters and workshops.  Lots of them.</div> </td>
+    <td> <strong><a href='/Events/ISMB2013/'>ISMB/ECCB, BOSC and MS SIG 2013</a></strong><div class='indent'>Talks, posters and workshops.  Lots of them.</div> </td>
     <td> Berlin, Germany </td>
-    <td> <a href='/Events/ISMB2013.md'>Slides</a> </td>
+    <td> <a href='/Events/ISMB2013/'>Slides</a> </td>
     <td> <a href="mailto:outreach AT galaxyproject DOT org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
     <th rowspan=4> July 18-23 </th>
-    <td> </em><a href='/Events/NIEHS2013.md'>Introduction to Galaxy Workshop</a><em><div class='indent'>National Institute of Environmental Health Sciences (NIEHS)</div> </td>
-    <td rowspan=4> <a href='/Events/RTWorkshopTour2013.md'>2013 Research Triangle Workshop Tour</a>, North Carolina, United States </td>
-    <td> <a href='/Events/NIEHS2013.md#slides'>Slides</a> </td>
-    <td rowspan=4> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> </em><a href='/Events/NIEHS2013/'>Introduction to Galaxy Workshop</a><em><div class='indent'>National Institute of Environmental Health Sciences (NIEHS)</div> </td>
+    <td rowspan=4> <a href='/Events/RTWorkshopTour2013/'>2013 Research Triangle Workshop Tour</a>, North Carolina, United States </td>
+    <td> <a href='/Events/NIEHS2013/#slides'>Slides</a> </td>
+    <td rowspan=4> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='/Events/UNC2013.md'>Introduction to Galaxy Workshop</a><em> <div class='indent'>University of North Carolina, Chapel Hill</div> </td>
-    <td> <a href='/Events/UNC2013.md'>Slides</a> </td>
+    <td> </em><a href='/Events/UNC2013/'>Introduction to Galaxy Workshop</a><em> <div class='indent'>University of North Carolina, Chapel Hill</div> </td>
+    <td> <a href='/Events/UNC2013/'>Slides</a> </td>
   </tr>
   <tr>
     <td> </em><a href='http://bit.ly/ZFVLG1'>Galaxy Installation Tutorial</a><em> <div class='indent'><strong><a href='http://bit.ly/ZFVLG1'>2013 GMOD Summer School</a></strong></div> </td>
     <td> </td>
   </tr>
   <tr>
-    <td> </em><a href='/Events/NCSU2013.md'>Introduction to Galaxy Workshop</a><em> <div class='indent'> North Carolina State University</div> </td>
-    <td> <a href='/Events/NCSU2013.md#slides'>Slides</a> </td>
+    <td> </em><a href='/Events/NCSU2013/'>Introduction to Galaxy Workshop</a><em> <div class='indent'> North Carolina State University</div> </td>
+    <td> <a href='/Events/NCSU2013/#slides'>Slides</a> </td>
   </tr>
   <tr>
     <th> July 4 </th>
@@ -2614,24 +2614,24 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> <strong></em><a href='/Events/GCC2013.md'>2013 Galaxy Community Conference (GCC2013)</a></strong><em> </td>
+    <td> <strong></em><a href='/Events/GCC2013/'>2013 Galaxy Community Conference (GCC2013)</a></strong><em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> </td>
-    <td> <a href='/Events/GCC2013/Organizers.md'>Organizers</a> </td>
+    <td> <a href='/Events/GCC2013/Organizers/'>Organizers</a> </td>
   </tr>
   <tr>
     <th> June 25-28 </th>
     <td> </em><a href='http://www.clinicalgenomeconference.com/TCGC_content.aspx?id=123666'>Galaxy in a Clinical Setting: Architecture and Storage Implications</a><em> </td>
     <td> <a href='http://www.clinicalgenomeconference.com/'>The Clinical Genome Conference</a>, San Francisco, California, United States </td>
     <td> </td>
-    <td> <a href='/SanjayJoshi.md'>Sanjay Joshi</a> </td>
+    <td> <a href='/SanjayJoshi/'>Sanjay Joshi</a> </td>
   </tr>
   <tr>
     <th> June 20-22 </th>
     <td> </em><a href='http://www.fged.org/conferences/upcoming-conference/workshops-and-tutorials-1/'>W1: Next-generation sequencing data analysis with GenomeSpace and Galaxy</a><em> </td>
     <td> <a href='http://www.fged.org/conferences/upcoming-conference2/'>FGED Conference</a>, Seattle, Washington </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2013FGEDWorkshop.pdf'>Slides</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> June 21 </th>
@@ -2664,21 +2664,21 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <a href='http://www.cdb.riken.jp/deepseq2013/index.html'>Genomics and Epigenomics with Deep Sequencing, the 24th CDB Meeting</a> </td>
     <td> RIKEN, CDB, Kobe, Japan </td>
     <td> </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> June 9-13 </th>
-    <td> <strong><a href='/Events/ASMS2013.md'>61st ASMS Conference on Mass Spectrometry and Allied Topics</a></strong><div class='indent'>Includes at least 1 workshop and 9 posters either about or utilizing Galaxy</div> </td>
+    <td> <strong><a href='/Events/ASMS2013/'>61st ASMS Conference on Mass Spectrometry and Allied Topics</a></strong><div class='indent'>Includes at least 1 workshop and 9 posters either about or utilizing Galaxy</div> </td>
     <td> Minneapolis, Minnesota, United States </td>
-    <td> <a href='/Events/ASMS2013.md'>/Events/ASMS2013.md</a> </td>
-    <td> <a href='/JohnChilton.md'>John Chilton</a> </td>
+    <td> <a href='/Events/ASMS2013/'>/Events/ASMS2013/</a> </td>
+    <td> <a href='/JohnChilton/'>John Chilton</a> </td>
   </tr>
   <tr>
     <th> June 8-11 </th>
     <td> </em><a href='https://www.eshg.org/sunday2013.0.html#W1'>WS08: Biomedical Data Analysis with Galaxy Workshop</a><em> </td>
     <td> <strong><a href='https://www.eshg.org/eshg2013.0.html'>European Human Genetics Conference (ESHG2013)</a></strong>, Paris, France </td>
     <td> </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a>, <a href='/EnisAfgan.md'>Enis Afgan</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a>, <a href='/EnisAfgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 6-7 </th>
@@ -2757,36 +2757,36 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em>Galaxy Workflows for Bioinformatics Analysis,<em> and <br /></em>Workshop 1A – Galaxy Workflows for Bioinformatics Analysis<em> </td>
     <td> <a href='http://bit.ly/WiNGS2013'>Workshop in Next-Generation Sequence Analysis and Metabolomics (WiNGS)</a>, UNC-Charlotte, North Carolina, United States </td>
     <td> </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> May 15 </th>
-    <td> </em><a href='/Community/GalaxyAdmins/Meetups/2013_05_15.md'>GalaxyAdmins May 2013 Meetup</a><em> </td>
-    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_05_15.md'>GalaxyAdmins web meetup</a> </td>
-    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_05_15.md'>Slides, screencast</a> </td>
-    <td> Andrew Warren, Srinivas Maddhi, <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> </em><a href='/Community/GalaxyAdmins/Meetups/2013_05_15/'>GalaxyAdmins May 2013 Meetup</a><em> </td>
+    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_05_15/'>GalaxyAdmins web meetup</a> </td>
+    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_05_15/'>Slides, screencast</a> </td>
+    <td> Andrew Warren, Srinivas Maddhi, <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 14-16 </th>
     <td> Tutorial: </em><a href='http://bit.ly/147E07d'>Exploring and Enabling Biomedical Data Analysis with Galaxy</a><em> </td>
     <td> <a href='http://www.iscb.org/glbio2013'>Great Lakes Bioinformatics Conference (GLBIO) 2013</a>, Pittsburgh, Pennsylvania, United States </td>
     <td> </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th rowspan=3> April 29 - May 2 </th>
-    <td rowspan=3 style=" text-align: left;"> </em><a href='/Events/MissouriWorkshopTour2013.md'>Introduction to Galaxy Workshops</a><em><div class='indent'> <a href='/Events/MissouriWorkshopTour2013.md'>2013 Galaxy Workshop Tour</a></div> </td>
-    <td> <a href='/Events/WashU2013.md'>Washington University in St. Louis</a></td>
-    <td> <a href='/Events/WashU2013.md#links'>Slides</a> </td>
-    <td rowspan=3> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td rowspan=3 style=" text-align: left;"> </em><a href='/Events/MissouriWorkshopTour2013/'>Introduction to Galaxy Workshops</a><em><div class='indent'> <a href='/Events/MissouriWorkshopTour2013/'>2013 Galaxy Workshop Tour</a></div> </td>
+    <td> <a href='/Events/WashU2013/'>Washington University in St. Louis</a></td>
+    <td> <a href='/Events/WashU2013/#links'>Slides</a> </td>
+    <td rowspan=3> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
-    <td> <a href='/Events/SLU2013.md'>Saint Louis University</a> </td>
-    <td> <a href='/Events/SLU2013.md#slides'>Slides</a> </td>
+    <td> <a href='/Events/SLU2013/'>Saint Louis University</a> </td>
+    <td> <a href='/Events/SLU2013/#slides'>Slides</a> </td>
   </tr>
   <tr>
-    <td> <a href='/Events/Missouri2013.md'>University of Missouri Columbia</a> </td>
-    <td> <a href='/Events/Missouri2013.md#slides'>Slides</a> </td>
+    <td> <a href='/Events/Missouri2013/'>University of Missouri Columbia</a> </td>
+    <td> <a href='/Events/Missouri2013/#slides'>Slides</a> </td>
   </tr>
   <tr>
     <th> April 22-26 </th>
@@ -2800,18 +2800,18 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='ATTACHMENT_URLDocuments/Presentations/Reed2013.pdf'>Next generation sequencing data interpretation: enhancing reproducibility and accessibility</a><em> </td>
     <td> <a href='http://www.reed.edu/'>Reed College</a>, Portland, Oregon, United States </td>
     <td> </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> April 12 </th>
     <td> </em><a href='http://www.tgac.ac.uk/tgac-science-symposia-2013/about-dave-clements/'>Transparent, accessible, reproducible analysis with Galaxy</a><em> </td>
     <td rowspan=2> <a href='http://www.tgac.ac.uk/galaxy-workshop/'>The Genome Analysis Centre (TGAC)</a>, Norwich, United Kingdom </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2013TGACTalk.pdf'>Slides</a> </td>
-    <td rowspan=2> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td rowspan=2> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> April 11 </th>
-    <td> </em><a href='/Events/TGAC2013.md'>Introduction to Galaxy Workshop</a><em> </td>
+    <td> </em><a href='/Events/TGAC2013/'>Introduction to Galaxy Workshop</a><em> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2013TGACWorkshop.pdf'>Slides</a> </td>
   </tr>
   <tr>
@@ -2844,7 +2844,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='http://www.ebi.ac.uk/biocuration2013/content/workshop-descriptions'>GO Galaxy Workshop</a><em> </td>
     <td> <a href='http://www.ebi.ac.uk/biocuration2013/home'>Biocuration 2013</a>, Cambridge, United Kingdom </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2013BiocurationGalaxyIntro.pdf'>Galaxy Intro slides</a>, <a href='ATTACHMENT_URLDocuments/Presentations/2013BiocurationGOGalxy.pdf'>GO Galaxy Slides</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a>, <a href='http://www.berkeleybop.org/person/chris-mungall'>Chris Mungall</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a>, <a href='http://www.berkeleybop.org/person/chris-mungall'>Chris Mungall</a> </td>
   </tr>
   <tr>
     <th> April 7-8 </th>
@@ -2858,15 +2858,15 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='ATTACHMENT_URLDocuments/Presentations/GMOD2013_GalaxyProjectUpdate.pdf'>Galaxy Project Update</a><em> </td>
     <td rowspan=3> <a href='http://gmod.org/wiki/April 2013 GMOD Meeting'>2013 GMOD Meeting</a>, Cambridge, United Kingdom, immediately prior to <a href='http://www.ebi.ac.uk/biocuration2013/'>Biocuration 2013</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/GMOD2013_GalaxyProjectUpdate.pdf'>Slides</a> </td>
-    <td rowspan=3> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td rowspan=3> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <td> </em><a href='ATTACHMENT_URLDocuments/Presentations/GMOD2013_Commmunity.pdf'>Community Building and Support</a><em> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/GMOD2013_Commmunity.pdf'>Slides</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='/CloudMan/AWS/GettingStarted.md'>Installing Galaxy on the Cloud Workshop</a><em> </td>
-    <td> <a href='/CloudMan/AWS/GettingStarted.md'>Tutorial</a> </td>
+    <td> </em><a href='/CloudMan/AWS/GettingStarted/'>Installing Galaxy on the Cloud Workshop</a><em> </td>
+    <td> <a href='/CloudMan/AWS/GettingStarted/'>Tutorial</a> </td>
   </tr>
   <tr>
     <th> March 26-28 </th>
@@ -2891,9 +2891,9 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> March 20 </th>
-    <td> </em><a href='/Community/GalaxyAdmins/Meetups/2013_03_20.md'>NBIC Galaxy at SURFsara's HPC cloud</a><em> </td>
-    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_03_20.md'>GalaxyAdmins web meetup</a> </td>
-    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_03_20.md'>Slides, Screencast</a> </td>
+    <td> </em><a href='/Community/GalaxyAdmins/Meetups/2013_03_20/'>NBIC Galaxy at SURFsara's HPC cloud</a><em> </td>
+    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_03_20/'>GalaxyAdmins web meetup</a> </td>
+    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_03_20/'>Slides, Screencast</a> </td>
     <td> <<MailTo(hailiang DOT mei AT nbic DOT nl, Hailiang (Leon) Mei)>>,<a href="mailto:david.van.enckevort@nbic.nl">David van Enckevort</a> </td>
   </tr>
   <tr>
@@ -2913,7 +2913,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em>Galaxy Feature Update<em> <br /> <a href='http://genome.ucsc.edu'>UCSC Genome Browser Staff</a> </td>
     <td> <a href='http://www.ucsc.edu'>University of California, Santa Cruz</a>, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/20130313_UCSC_GalaxyUpdate.pdf'>Slides</a> & Live Demo </td>
-    <td> <a href='/JenniferJackson.md'>Jennifer Jackson</a> </td>
+    <td> <a href='/JenniferJackson/'>Jennifer Jackson</a> </td>
   </tr>
   <tr>
     <th> March 8 </th>
@@ -2924,24 +2924,24 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> March 5 </th>
-    <td> </em><a href='/Events/Caltech2013.md'>Galaxy for Biologists</a><em> </td>
+    <td> </em><a href='/Events/Caltech2013/'>Galaxy for Biologists</a><em> </td>
     <td> Caltech, Pasadena, California, United States </td>
-    <td> <a href='/Events/Caltech2013.md'>Slides</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/Events/Caltech2013/'>Slides</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> March 2-5 </th>
     <td> </em><a href='ATTACHMENT_URLDocuments/Presentations/201203ABRFSatellite.pdf'>Accessible, Transparent and Reproducible Analysis With Galaxy</a><em>, part of <div class='indent'><a href='http://conf.abrf.org/index.cfm/page/satellite_workshops/SW1.htm'>SW1: Application of NGS Platforms for Whole Transcriptome and Genome Analysis</a></div> </em><a href='ATTACHMENT_URLDocuments/Presentations/201203ABRFGalaxyForCoreFacilities.pdf'>Galaxy for Core Facilities</a><em>, part of <div class='indent'>"<a href='http://conf.abrf.org/index.cfm/page/2013ConfProg/Genomics_Track.htm'>W6: Community Resource Solutions to Analyzing Large Genomic Data Sets</a>"</div> </td>
     <td> <strong><a href='http://conf.abrf.org/'>ABRF 2013</a></strong><br />Palm Springs, California, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/201203ABRFSatellite.pdf'>SW1 Workshop slides</a>, <a href='ATTACHMENT_URLDocuments/Presentations/201203ABRFGalaxyForCoreFacilities.pdf'>W6 Workshop slides</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 4 & 5 </th>
-    <td> </em><a href='/Events/JohnsHopkins2013.md'>Introduction to Galaxy Workshop</a><em> </td>
+    <td> </em><a href='/Events/JohnsHopkins2013/'>Introduction to Galaxy Workshop</a><em> </td>
     <td> Johns Hopkins University, Baltimore, Maryland, United States </td>
-    <td> <a href='/Events/JohnsHopkins2013.md#slides'>Slides</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a>, <a href='http://epigenetics.jhu.edu/?section=personnelPages&personID=26'>Mo Heydarian</a> </td>
+    <td> <a href='/Events/JohnsHopkins2013/#slides'>Slides</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a>, <a href='http://epigenetics.jhu.edu/?section=personnelPages&personID=26'>Mo Heydarian</a> </td>
   </tr>
   <tr>
     <th> February 4 </th>
@@ -2955,7 +2955,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='https://lca2013.linux.org.au/wiki/Miniconfs/OpenStack#Enabling_Compute_Clusters_atop_OpenStack'>Enabling Compute Clusters atop OpenStack</a><em> </td>
     <td> <a href='https://lca2013.linux.org.au/wiki/Miniconfs/OpenStack'>OpenStack MiniConf, Linux Conf AU, Canberra, Australia</a> </td>
     <td> </td>
-    <td> <a href='/EnisAfgan.md'>Enis Afgan</a> </td>
+    <td> <a href='/EnisAfgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> January 14-18 </th>
@@ -2966,17 +2966,17 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> January 16 </th>
-    <td> </em><a href='/Community/GalaxyAdmins/Meetups/2013_01_16.md'>Deploying Production Galaxy Environments on OpenStack with CloudBioLinux and CloudMan</a><em> </td>
-    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_01_16.md'>January GalaxyAdmins Web Meetup</a> </td>
+    <td> </em><a href='/Community/GalaxyAdmins/Meetups/2013_01_16/'>Deploying Production Galaxy Environments on OpenStack with CloudBioLinux and CloudMan</a><em> </td>
+    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_01_16/'>January GalaxyAdmins Web Meetup</a> </td>
     <td> <a href='http://bitly.com/prodcloudman-slides'>Slides</a><br /> <a href='http://bitly.com/prodcloudman'>Related Documentation</a><br /> <a href='https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262341808106_1358350669920'>Video</a> </td>
-    <td> <a href='https://www.msi.umn.edu/users/chilton'>John Chilton</a>, Srinivas Maddhi, <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='https://www.msi.umn.edu/users/chilton'>John Chilton</a>, Srinivas Maddhi, <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 12-16 </th>
     <td> </em><a href='https://pag.confex.com/pag/xxi/webprogram/Paper7241.html'>Galaxy Update 2013</a><em> </td>
     <td> Part of the <a href='https://pag.confex.com/pag/xxi/webprogram/Session1537.html'>GMOD Workshop</a> at <strong><a href='http://www.intlpag.org/'>Plant and Animal Genome (PAG 2013)</a></strong>, San Diego, California, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2013_PAG-Galaxy-Update.pdf'>Slides</a> & Live Demo </td>
-    <td> <a href='/JenniferJackson.md'>Jennifer Jackson</a> </td>
+    <td> <a href='/JenniferJackson/'>Jennifer Jackson</a> </td>
   </tr>
 </table>
 
@@ -2985,14 +2985,14 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
 # 2012
 
 <div class='center'>
-<a href='http://evomics.org/workshops/workshop-on-genomics/2012-genomics-cesky-krumlov/'><img src='/Images/Photos/CeskyKrumlov.jpg' alt='Workshop on Genomics' height="90" /></a>&nbsp;&nbsp;<a href='/Events/PAG2012.md'><img src='/Images/Logos/PAGLogo114.png' alt='Plant and Animal Genome (PAG 2012)' height="90" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.nowgen.org.uk/facilities/events/event.php?id=30'><img src='/Images/Logos/nowgenLogo180.png' alt='Reproducible workflows for next generation sequencing analysis' /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html'><img src='/Images/Logos/DDBJLogo.png' alt='DDBJ' /></a>&nbsp;&nbsp;
-<a href='/gmod:April 2012 GMOD Meeting.md'><img src='/Images/Logos/GMODApril2012Logo.png' alt='April 2012 GMOD Meeting' height=100 /></a>&nbsp;&nbsp; 
-<a href='/Events/GalaxyTourDeFrance2012.md'><img src='/Images/Logos/GalaxyTourDeFranceLogo400.png' alt='Galaxy Tour de France 2012' height="100" /></a> &nbsp; 
-<a href='http://bioinformatics.ca/workshops/2012/informatics-high-throughput-sequencing-data'><img src='/Images/Logos/CanadianBioinfWorkshopsLog.png' alt='Informatics on High Throughput Sequencing Data Workshop' height=100 /></a> <a href='http://www.lifl.fr/~touzet/PPF/galaxy12.html'><img src='/Images/Logos/LilleStack.png' alt='Galaxy: un environnement d'analyses bioinformatiques' height="100" /></a> <a href='http://www.cbib.u-bordeaux2.fr/fr/content/atelier-galaxy-5-et-6-juillet'><img src='/Images/Logos/CGFB_LOGO.png' alt='Atelier Galaxy' height="60" /></a>   <a href='/Events/ISMB2012.md'><img src='/Images/Logos/ISMB2012.jpg' alt='ISMB 2012' height="100" /></a>   <a href='/Events/GCC2012.md'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="100" /></a> 
+<a href='http://evomics.org/workshops/workshop-on-genomics/2012-genomics-cesky-krumlov/'><img src='/Images/Photos/CeskyKrumlov.jpg' alt='Workshop on Genomics' height="90" /></a>&nbsp;&nbsp;<a href='/Events/PAG2012/'><img src='/Images/Logos/PAGLogo114.png' alt='Plant and Animal Genome (PAG 2012)' height="90" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.nowgen.org.uk/facilities/events/event.php?id=30'><img src='/Images/Logos/nowgenLogo180.png' alt='Reproducible workflows for next generation sequencing analysis' /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html'><img src='/Images/Logos/DDBJLogo.png' alt='DDBJ' /></a>&nbsp;&nbsp;
+<a href='/gmod:April 2012 GMOD Meeting/'><img src='/Images/Logos/GMODApril2012Logo.png' alt='April 2012 GMOD Meeting' height=100 /></a>&nbsp;&nbsp; 
+<a href='/Events/GalaxyTourDeFrance2012/'><img src='/Images/Logos/GalaxyTourDeFranceLogo400.png' alt='Galaxy Tour de France 2012' height="100" /></a> &nbsp; 
+<a href='http://bioinformatics.ca/workshops/2012/informatics-high-throughput-sequencing-data'><img src='/Images/Logos/CanadianBioinfWorkshopsLog.png' alt='Informatics on High Throughput Sequencing Data Workshop' height=100 /></a> <a href='http://www.lifl.fr/~touzet/PPF/galaxy12.html'><img src='/Images/Logos/LilleStack.png' alt='Galaxy: un environnement d'analyses bioinformatiques' height="100" /></a> <a href='http://www.cbib.u-bordeaux2.fr/fr/content/atelier-galaxy-5-et-6-juillet'><img src='/Images/Logos/CGFB_LOGO.png' alt='Atelier Galaxy' height="60" /></a>   <a href='/Events/ISMB2012/'><img src='/Images/Logos/ISMB2012.jpg' alt='ISMB 2012' height="100" /></a>   <a href='/Events/GCC2012/'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="100" /></a> 
 <a href='http://www.medicine.uiowa.edu/humangenetics/bioinformaticscourse/'><img src='/Images/Logos/UIowaLogo.jpg' alt='Bioinformatics Short Course: Mutation Detection Using Massively Parallel Sequencing: From Data Generation to Variant Annotation' height="75" /></a>  
-<a href='/gmod:2012 GMOD Summer School.md'><img src='/Images/Logos/2012GMODSummerSchool200.png' alt='2012 GMOD Summer School' height="98" /></a>   
+<a href='/gmod:2012 GMOD Summer School/'><img src='/Images/Logos/2012GMODSummerSchool200.png' alt='2012 GMOD Summer School' height="98" /></a>   
 <a href='http://genetics.cmc-uct.co.za/'><img src='/Images/Logos/SASBCB_SAGS.png' alt='South African Genetics and Bioinformatics Society Conference' height="100" /></a>
-<a href='/Events/Switzerland2012.md'><img src='/Images/Logos/2012SwissGalaxyWorkshop-400.png' alt='Swiss Galaxy Day' height="90" /></a>
+<a href='/Events/Switzerland2012/'><img src='/Images/Logos/2012SwissGalaxyWorkshop-400.png' alt='Swiss Galaxy Day' height="90" /></a>
 <a href='http://www.psc.edu/index.php/escience-2012-workshop'><img src='/Images/Logos/EScience2012Logo.png' alt='Extending High-Performance Computing Beyond its Traditional User Communities Workshop' height="100" /></a>&nbsp;
 <a href='http://www.ashg.org/2012meeting/pages/workshops.shtml'><img src='/Images/Logos/ASHG2012Logo.png' alt='ASHG 2012' height="100" /></a>&nbsp;
 </div>
@@ -3017,7 +3017,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='http://fasta.bioch.virginia.edu/cshl/'>Computaional & Comparative Genomics Course</a><em><div class='indent'>This was rescheduled due to hurricane Sandy</div> </td>
     <td> <a href='http://www.cshl.edu/'>Cold Spring Harbor Laboratory</a>, New York, United States </td>
     <td> </td>
-    <td> <a href='http://www.cs.virginia.edu/brochure/profs/pearson.html'>William Pearson</a>, <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='http://www.cs.virginia.edu/brochure/profs/pearson.html'>William Pearson</a>, <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> November 28 </th>
@@ -3038,13 +3038,13 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em>Analyzing NGS data in a Bioinformatics Core Facility<em> </td>
     <td> <a href='http://www.nextgenerationsequencing-congress.com/'>Next Generation Sequencing Congress 2012</a>, London Heathrow, United Kingdom </td>
     <td> </td>
-    <td> <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a> </td>
+    <td> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> November 14 </th>
-    <td> </em><a href='/Community/GalaxyAdmins/Meetups/2012_11_14.md'>Deploying Galaxy on a Shared-Node Cluster at UAB</a><em> </td>
-    <td> <a href='/Community/GalaxyAdmins/Meetups/2012_11_14.md'>Galaxy Admins November Web Meetup</a> </td>
-    <td> <a href='/Community/GalaxyAdmins/Meetups/2012_11_14.md'>Slides, screencast</a> </td>
+    <td> </em><a href='/Community/GalaxyAdmins/Meetups/2012_11_14/'>Deploying Galaxy on a Shared-Node Cluster at UAB</a><em> </td>
+    <td> <a href='/Community/GalaxyAdmins/Meetups/2012_11_14/'>Galaxy Admins November Web Meetup</a> </td>
+    <td> <a href='/Community/GalaxyAdmins/Meetups/2012_11_14/'>Slides, screencast</a> </td>
     <td> Curtis Hendrickson, Srinivas Maddhi </td>
   </tr>
   <tr>
@@ -3052,7 +3052,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#9'>Galaxy 101: Data Integration, Analysis and Sharing</a><em> </td>
     <td rowspan=2 style=" text-align:center"> <strong><a href='http://www.ashg.org/2012meeting/'>American Society of Human Genetics (ASHG)</a></strong>, San Francisco, California, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/20121108_ASHG_Galaxy101.pdf'>Slides</a> <br /> <a href='https://main.g2.bx.psu.edu/u/aun1/p/galaxy101'>Tutorial</a> </td>
-    <td rowspan=2 style=" text-align:center"> <a href='/JeremyGoecks.md'>Jeremy Goecks</a>, <a href='/JenniferJackson.md'>Jennifer Jackson</a> </td>
+    <td rowspan=2 style=" text-align:center"> <a href='/JeremyGoecks/'>Jeremy Goecks</a>, <a href='/JenniferJackson/'>Jennifer Jackson</a> </td>
   </tr>
   <tr>
     <td> </em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#12'>Working with High-Throughput Data and Data Visualization</a><em> </td>
@@ -3084,14 +3084,14 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em>Galaxy 101<em> and </em>RNA-seq Analysis and Visualization<em></td>
     <td style=" text-align:center"> <a href='http://qb3.berkeley.edu/qb3/cgrl '>QB3 - Computational Genomics Resource Laboratory</a>, <a href='http://www.berkeley.edu/'>Univ of California Berkeley</a></td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/20121107_Berkeley_Galaxy101.pdf'>Slides</a> <br /> Tutorials: <a href='https://main.g2.bx.psu.edu/u/aun1/p/galaxy101'>Galaxy101</a>, <a href='https://main.g2.bx.psu.edu/u/jeremy/p/galaxy-rna-seq-analysis-exercise'>RNA-seq</a></td>
-    <td style=" text-align:center"> <a href='/JeremyGoecks.md'>Jeremy Goecks</a>, <a href='/JenniferJackson.md'>Jennifer Jackson</a> </td>
+    <td style=" text-align:center"> <a href='/JeremyGoecks/'>Jeremy Goecks</a>, <a href='/JenniferJackson/'>Jennifer Jackson</a> </td>
   </tr>
   <tr>
     <th> October 28 - November 2 </th>
     <td> </em><a href='http://conference.eresearch.edu.au/eres2012/workshops/'>Genomic Virtual Laboratory Workshop</a><em> </td>
     <td> <a href='http://conference.eresearch.edu.au/'>eResearch Australasia</a>, Sydney, Australia </td>
     <td> </td>
-    <td> <a href='/EnisAfgan.md'>Enis Afgan</a> </td>
+    <td> <a href='/EnisAfgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> October 21-24 </th>
@@ -3105,28 +3105,28 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='http://meetings.cshl.edu/courses/c-seqtech12.shtml'>Advanced Sequencing Technologies and Applications Course</a><em> </td>
     <td> <a href='http://www.cshl.edu/'>Cold Spring Harbor Laboratory</a>, New York, United States </td>
     <td> </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> October 22 </th>
-    <td> </em><a href='/Events/Purdue2012.md'>Introduction to Galaxy Workshop</a><em> </td>
+    <td> </em><a href='/Events/Purdue2012/'>Introduction to Galaxy Workshop</a><em> </td>
     <td> <a href='http://purdue.edu'>Purdue University</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2012_Purdue.pdf'>Slides</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 19 </th>
-    <td> </em><a href='/Events/IndianaU2012.md#seminar-transparent-accessible-reproducible-biological-analysis-with-galaxy'>Transparent, Accessible, Reproducible Biological Analysis with Galaxy</a><em> </td>
+    <td> </em><a href='/Events/IndianaU2012/#seminar-transparent-accessible-reproducible-biological-analysis-with-galaxy'>Transparent, Accessible, Reproducible Biological Analysis with Galaxy</a><em> </td>
     <td> <a href='http://indiana.edu'>Indiana University</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2012_IndianaU.pdf'>Slides</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 16-17 </th>
-    <td> </em><a href='/Events/UIUC2012.md'>Introduction to Galaxy Workshop</a><em> </td>
+    <td> </em><a href='/Events/UIUC2012/'>Introduction to Galaxy Workshop</a><em> </td>
     <td> <a href='http://illinois.edu'>University of Illinois at Urbana-Champaign</a> </td>
-    <td> <a href='/Events/UIUC2012.md#links'>Slides</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/Events/UIUC2012/#links'>Slides</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 15-17 </th>
@@ -3154,21 +3154,21 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='http://www.psc.edu/index.php/escience-2012-workshop'>Lessons from Galaxy, a Web-based Platform for High-throughput Genomic Analyses</a><em> </td>
     <td> <a href='http://www.psc.edu/index.php/escience-2012-workshop'>Extending High-Performance Computing Beyond its Traditional User Communities Workshop</a>, part of <strong><a href='http://www.ci.uchicago.edu/escience2012/'>8th IEEE International Conference on eScience (eScience 2012)</a></strong>, Chicago Illinois, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2012_GoecksLeesonsLearned.pdf'>Slides</a> </td>
-    <td> <a href='/JeremyGoecks.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> October 3 </th>
-    <td> </em><a href='/Events/Switzerland2012.md'>(first Swiss) Galaxy Workshop</a><em> </td>
+    <td> </em><a href='/Events/Switzerland2012/'>(first Swiss) Galaxy Workshop</a><em> </td>
     <td> <strong><a href='https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3'>SyBIT Tech Day</a></strong>, Bern, Switzerland </td>
-    <td> <a href='/Events/Switzerland2012.md'>Links</a> </td>
-    <td> <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a> </td>
+    <td> <a href='/Events/Switzerland2012/'>Links</a> </td>
+    <td> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> September 27-29 </th>
     <td> </em><a href='http://www.beyond-the-genome.com/'>Informatics Workshop</a><em> </td>
     <td> <strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2012</a></strong>, <a href='http://www.amiando.com/2012-beyond-the-genome.html?page=661875'>Harvard Medical School</a>, Boston, Massachusetts </td>
     <td> </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> September 18-20 </th>
@@ -3196,7 +3196,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='http://genetics.cmc-uct.co.za/'>Transparent, accessible, reproducible analysis with Galaxy</a><em> </td>
     <td rowspan=2> <strong><a href='http://genetics.cmc-uct.co.za/'>South African Genetics & Bioinformatics Society Conference</a></strong><br /> University of Stellenbosch, Stellenbosch, South Africa </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2012_SouthAfrica.pdf'>Slides</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <td> </em><a href='http://genetics.cmc-uct.co.za/'>Assembling a cassava transcriptome using Galaxy on a high performance computing cluster</a><em> </td>
@@ -3208,14 +3208,14 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='http://gaggle.systemsbiology.net/workshop2012/'>Systems Bioinformatics Workshop</a><em> </td>
     <td> <a href='https://www.systemsbiology.org/'>Institute for Systems Biology</a><br /> Seattle, Washington, United States </td>
     <td> </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> September 3-4 </th>
     <td rowspan=2 style=" text-align:left"> </em><a href='http://genetics.cmc-uct.co.za/?page_id=79'>Galaxy Workshop</a><em> </td>
     <td> <a href='http://web.up.ac.za/default.asp?ipkCategoryID=17741'>University of Pretoria</a>, Pretoria, South Africa </td>
     <td rowspan=2 style=" text-align:center"> <a href='ATTACHMENT_URLDocuments/Presentations/2012_Stellenbosch.pdf'>Slides</a> </td>
-    <td rowspan=2> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td rowspan=2> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> September 6-7 </th>
@@ -3226,7 +3226,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='http://gmod.org/wiki/2012 GMOD Summer School'>http://gmod.org/wiki/2012 GMOD Summer School</a><em></td>
     <td> <a href='http://nescent.org'>US National Evolutionary Synthesis Center (NESCent)</a>, Durham, North Carolina, United States </td>
     <td> <a href='http://gmod.org/wiki/Galaxy_Tutorial_2012'>Tutorial</a></td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 1-3 </th>
@@ -3237,10 +3237,10 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> <strong></em><a href='/Events/GCC2012.md'>2012 Galaxy Community Conference</a></strong><em> </td>
+    <td> <strong></em><a href='/Events/GCC2012/'>2012 Galaxy Community Conference</a></strong><em> </td>
     <td> <a href='http://uic.edu'>University of Illinois Chicago</a>, United States </td>
-    <td> <a href='/Events/GCC2012.md'>Program</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/Events/GCC2012/'>Program</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> July 24-27 </th>
@@ -3258,9 +3258,9 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th rowspan=1 style=" text-align:center"> July 13-17 </th>
-    <td> <strong></em><a href='/Events/ISMB2012.md'>ISMB 2012 and BOSC 2012</a></strong><em><div class='indent'><a href='/Events/ISMB2012.md'>Eight presentations, one Codefest, thirteen posters, and counting</a> </td>
+    <td> <strong></em><a href='/Events/ISMB2012/'>ISMB 2012 and BOSC 2012</a></strong><em><div class='indent'><a href='/Events/ISMB2012/'>Eight presentations, one Codefest, thirteen posters, and counting</a> </td>
     <td> Long Beach, California, United States </td>
-    <td> <a href='/Events/ISMB2012.md'>Galaxy @ ISMB, BOSC</a> </td>
+    <td> <a href='/Events/ISMB2012/'>Galaxy @ ISMB, BOSC</a> </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
@@ -3268,7 +3268,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='http://www.cbib.u-bordeaux2.fr/fr/content/atelier-galaxy-5-et-6-juillet'>Atelier Galaxy</a> <em> </td>
     <td> <a href='http://www.cgfb.u-bordeaux2.fr/fr/contact-plan-d-acces'>Le Centre de Génomique Fonctionnelle Bordeaux</a> </td>
     <td> </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> June 26 </th>
@@ -3289,7 +3289,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='http://www.bio-itworldasia.com/cla'>Dynamically Scalable, Accessible Analysis with Galaxy Cloud</a><em> </td>
     <td> <strong><a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a></strong>, Singapore </td>
     <td> </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> May 30 - June 2 </th>
@@ -3300,10 +3300,10 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> May 28 - June 1 </th>
-    <td> <strong></em><a href='/Events/GalaxyTourDeFrance2012.md'>Galaxy Tour de France 2012</a></strong><em> </td>
+    <td> <strong></em><a href='/Events/GalaxyTourDeFrance2012/'>Galaxy Tour de France 2012</a></strong><em> </td>
     <td> <a href='#itinerary'>Perpignan</a>, <a href='#itinerary'>Montpellier</a>, <a href='#itinerary'>Lyon</a>, <a href='#itinerary'>Paris</a> </td>
     <td> </td>
-    <td> <a href='/nate.md'>Nate Coraor</a>, <a href='/anton.md'>Anton Nekrutenko</a>, JamesTaylor </td>
+    <td> <a href='/nate/'>Nate Coraor</a>, <a href='/anton/'>Anton Nekrutenko</a>, JamesTaylor </td>
   </tr>
   <tr>
     <th> May 23-25 </th>
@@ -3317,7 +3317,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em>Expression Dynamics of Human XBP1 Revealed using an Integrative Approach (and Galaxy)<em>, talk, </td>
     <td rowspan=2 style=" text-align:center"> <strong><a href='http://cci.uncc.edu/wings'>WiNGS, The Workshop in Next-Generation Sequence Analysis!</a></strong>, UNC Charlotte, North Carolina, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2012_WINGS_WorkflowsAndMoreWithGalaxy.pdf'>Slides</a> </td>
-    <td rowspan=2 style=" text-align:center"> <a href='/JeremyGoecks.md'>Jeremy Goecks</a> </td>
+    <td rowspan=2 style=" text-align:center"> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <td> </em>Workflows and Galaxy<em>, workshop </td>
@@ -3335,7 +3335,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em>Staying on top of evolving best practices with Galaxy<em>, Poster </td>
     <td rowspan=3 style=" text-align:center"> <strong><a href='http://meetings.cshl.edu/meetings/genome12.shtml'>The Biology of Genomes</a></strong>, Cold Spring Harbor Laboratory, New York, United States </td>
     <td> </td>
-    <td> <a href='/Dan.md'>Dan Blankenberg</a> </td>
+    <td> <a href='/Dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <td> </em><a href='http://gmod.org/wiki/|GMOD'>http://gmod.org/wiki/|GMOD</a> in the Cloud<em> </td>
@@ -3345,7 +3345,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   <tr>
     <td> </em>Integrative venomics reveals different infection strategies for parasitic wasps<em>, poster </td>
     <td> </td>
-    <td> <a href='/JeremyGoecks.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> April 29- May 1 </th>
@@ -3375,28 +3375,28 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
   </tr>
   <tr>
     <th> April 20 </th>
-    <td> </em><a href='/Events/IowaState2012.md'>Introduction to Galaxy</a><em> </td>
+    <td> </em><a href='/Events/IowaState2012/'>Introduction to Galaxy</a><em> </td>
     <td> <a href='http://iastate.edu/'>Iowa State University</a> </td>
     <td> <a href='#slides'>Slides</a> </td>
     <td> DaveClements </td>
   </tr>
   <tr>
     <th> April 19 </th>
-    <td> </em><a href='/Events/Uiowa2012.md'>Introduction to Galaxy</a><em> </td>
+    <td> </em><a href='/Events/Uiowa2012/'>Introduction to Galaxy</a><em> </td>
     <td> <a href='http://uiowa.edu/'>University of Iowa</a> </td>
     <td> <a href='#slides'>Slides</a> </td>
     <td> DaveClements, Ann Black-Ziegelbein </td>
   </tr>
   <tr>
     <th> April 12-13 </th>
-    <td> </em><a href='/Events/JohnsHopkins2012.md'>Introduction to Galaxy</a><em> </td>
+    <td> </em><a href='/Events/JohnsHopkins2012/'>Introduction to Galaxy</a><em> </td>
     <td> <a href='http://jhmi.edu/'>Johns Hopkins University</a> </td>
     <td> <a href='#slides'>Slides</a> </td>
     <td> DaveClements </td>
   </tr>
   <tr>
     <th> April 11 </th>
-    <td> </em><a href='/Events/UMaryland2012.md'>Introduction to Galaxy</a><em> </td>
+    <td> </em><a href='/Events/UMaryland2012/'>Introduction to Galaxy</a><em> </td>
     <td> <a href='http://umd.edu/'>University of Maryland</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2012_UMarylandWorkshop.pdf'>Slides</a> </td>
     <td> DaveClements </td>
@@ -3406,7 +3406,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <strong><a href='http://gmod.org/wiki/April 2012 GMOD Meeting'>http://gmod.org/wiki/April 2012 GMOD Meeting</a></strong><br />Including a <a href='http://gmod.org/wiki/April 2012 GMOD Meeting'>Galaxy Workshop</a> on evening of April 5 </td>
     <td> Washington DC, immediately following <a href='http://pir.georgetown.edu/biocuration2012/'>Biocuration 2012</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2012GMODGalaxyUpdate.pdf'>Project Update</a>, <a href='ATTACHMENT_URLDocuments/Presentations/2012GMODGalaxyCloudmanWorkshop.pdf'>CloudMan Workshop</a>, <a href='ATTACHMENT_URLDocuments/Presentations/2012GMODCommunityLightning.pdf'>Community Building lightning talk</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> April 4-5 </th>
@@ -3434,14 +3434,14 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <strong><a href='http://evomics.org/workshops/workshop-on-genomics/2012-genomics-cesky-krumlov/'>2012 Workshop on Genomics</a></strong><br />Features Galaxy and much more.<br /> </td>
     <td> Český Krumlov, Czech Republic </td>
     <td> </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> January 14-18 </th>
-    <td> <strong><a href='http://pag.confex.com/pag/xx/webprogram/Paper2350.html'>Galaxy Session</a> @ <a href='http://pag.confex.com/pag/xx/webprogram/Session1123.html'>GMOD Workshop</a></strong>, <br /><strong><a href='http://pag.confex.com/pag/xx/webprogram/Paper4623.html'>The Galaxy Platform: Running Analyses in the Cloud</a> @ <a href='http://pag.confex.com/pag/xx/webprogram/Session1139.html'>Cloud Computing Session</a></strong><br />... Plus <a href='/Events/PAG2012.md'>at least 4 more talks and posters</a> </td>
-    <td> <a href='/Events/PAG2012.md'>PAG 2012</a>, San Diego, California, United States </td>
-    <td> <a href='/Events/PAG2012.md'>All talks</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a><br />Dannon Baker </td>
+    <td> <strong><a href='http://pag.confex.com/pag/xx/webprogram/Paper2350.html'>Galaxy Session</a> @ <a href='http://pag.confex.com/pag/xx/webprogram/Session1123.html'>GMOD Workshop</a></strong>, <br /><strong><a href='http://pag.confex.com/pag/xx/webprogram/Paper4623.html'>The Galaxy Platform: Running Analyses in the Cloud</a> @ <a href='http://pag.confex.com/pag/xx/webprogram/Session1139.html'>Cloud Computing Session</a></strong><br />... Plus <a href='/Events/PAG2012/'>at least 4 more talks and posters</a> </td>
+    <td> <a href='/Events/PAG2012/'>PAG 2012</a>, San Diego, California, United States </td>
+    <td> <a href='/Events/PAG2012/'>All talks</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a><br />Dannon Baker </td>
   </tr>
   <tr>
     <th> January 17 </th>
@@ -3475,28 +3475,28 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <a href='http://www.nextgenerationsequencing-congress.com/'>Using Galaxy to provide an NGS Analysis Platform</a><br />as part of the </em>Data Analysis, Management and Storage Strategies<em> Session </td>
     <td> <a href='http://www.nextgenerationsequencing-congress.com/'>Next Generation Sequencing Congress 2011</a>, London, United Kingdom </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011NGSConHotz.pdf'>Slides</a> </td>
-    <td> <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a> </td>
+    <td> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> November 9-15 </th>
     <td> <a href='http://meetings.cshl.edu/courses/c-ecg11.shtml'>Compuational & Comparative Genomics Course</a><br />Features Galaxy and much more. </td>
     <td> Cold Spring Harbor Laboratory, New York, United States </td>
     <td> </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> November 8-21 </th>
     <td> <a href='http://meetings.cshl.edu/courses/c-seqtech11.shtml'>Advanced Sequencing Technologies & Applications Course</a><br />Features Galaxy and much more. </td>
     <td> Cold Spring Harbor Laboratory, New York, United States </td>
     <td> </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> November 2-5 </th>
     <td> <a href='http://meetings.cshl.edu/meetings/info11.shtml'>Best practices for variant discovery through Galaxy: Oscillating evolution within dual coding genes</a> </td>
     <td> <a href='http://meetings.cshl.edu/meetings/info11.shtml'>Genome Informatics 2011</a>, Cold Spring Harbor, New York, United States </td>
     <td> </td>
-    <td> <a href='/Dan.md'>Dan Blankenberg</a> </td>
+    <td> <a href='/Dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> October 27 </th>
@@ -3510,35 +3510,35 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> Exploit your Data: Galaxy and the GMOD Tool Suite</em><br /> This workshop will both cover Galaxy and provide an overview of the GMOD tool suite. </td>
     <td> University of Tasmania, Hobart, Australia </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011UTasmania.pdf'>Slides</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 23-24 </th>
     <td> <em><a href='http://www.biovis.net/papers_abstracts/papers/111.html'>The Galaxy Track Browser: Transforming the Genome Browser from Visualization Tool to Analysis Tool</a></em> </td>
     <td> <a href='http://www.biovis.net/'>BioVis 2011</a>, Providence, Rhode Island, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011BioVizTrackster.pdf'>Slides</a> </td>
-    <td> <a href='/JeremyGoecks.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> October 12-14 </th>
     <td> <em><a href='http://gmod.org/wiki/October_2011_GMOD_Meeting'>Galaxy Update</a> and <a href='http://gmod.org/wiki/October_2011_GMOD_Meeting#Galaxy_Workshop'>Galaxy Workshop</a></em><br />The workshop will cover an introduction to Galaxy, including analyzing data with tools and visualizations, using Galaxy in the cloud, and running your own instance and adding new tools.  </td>
     <td> <a href='http://gmod.org/wiki/October_2011_GMOD_Meeting'>October 2011 GMOD Meeting</a>, Ontario Institute for Cancer Research (OICR), Toronto, Canada </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011GMODOctTalk.pdf'>Talk slides</a>, <a href='ATTACHMENT_URLDocuments/Presentations/2011GMODOctWorkshop.pdf'>Workshop slides</a>  </td>
-    <td> <a href='/Dan.md'>Dan Blankenberg</a> </td>
+    <td> <a href='/Dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> October 9-12 </th>
     <td> <em><a href='http://www.amata.org.au/index.php/2011-conference/workshops'>Exploit your Data: Galaxy and the GMOD Tool Suite</a></em><br /> This workshop will both cover Galaxy and provide an overview of the GMOD tool suite.  This workshop is sponsored by <a href='http://www.csiro.au/'>CSIRO</a> and <a href='http://www.amata.org.au/'>AMATA</a>. </td>
     <td> <a href='http://www.amata.org.au/index.php/2011-conference'>AMATA 2011</a>, Canberra, Australia </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011AMATA.pdf'>Slides</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 3-7 </th>
     <td> <em><a href='http://evomics.org/workshops/workshop-on-genomics/2011-genomics-smithsonian-institution/'>Workshop on Genomics</a></em><br />Includes the half-day <em><a href='http://evomics.org/workshops/workshop-on-genomics/2011-genomics-smithsonian-institution/'>Galaxy: Introduction and Introductory Laboratory</a></em> session</td>
     <td> <a href='http://evomics.org/workshops/workshop-on-genomics/2011-genomics-smithsonian-institution/'>Smithsonian Institution</a>, Washington, DC, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/20112011OctWorkshopOnGenomics.pdf'>Slides</a> </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> September 22 </th>
@@ -3559,14 +3559,14 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='http://www.amiando.com/2011-beyond-the-genome.html?page=639196'>Transparent, accessible, reproducible analysis with Galaxy</a><em> </td>
     <td> <a href='http://www.amiando.com/2011-beyond-the-genome.html?page=639195'>Genome Informatics Workshop @ Beyond the Genome 2011</a>, Washington DC, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011BeyondTheGenome.pdf'>Slides</a>  </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> September 19 </th>
     <td> </em>Galaxy for high-throughput NGS analysis<em> </td>
     <td> <a href='http://www.miptec.ch'>MipTec</a>, <a href='http://www.miptec.ch/fileadmin/files/2011/miptec2011/documents/user_group_meetings_pdf/NGS%20Symposium%20Part%201%20neu.pdf'>Next Generation Sequencing for Research and Clinical Genomics User Group</a>, Basel, Switzerland </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011MipTec.pdf'>Slides</a>  </td>
-    <td> <a href='/Dan.md'>Dan Blankenberg</a> </td>
+    <td> <a href='/Dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> September 12-20 </th>
@@ -3580,35 +3580,35 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> </em><a href='http://docs.uabgrid.uab.edu/wiki/2011'>Galaxy: A Web-based Platform for Accessible, Reproducible, and Transparent High-throughput Biology</a><em> and </em><a href='http://docs.uabgrid.uab.edu/wiki/2011_Galaxy_Workshop'>Galaxy Workshop</a><em> </td>
     <td> <a href='http://docs.uabgrid.uab.edu/wiki/2011'>UAB Research Computing Day</a>, Birmingham, Alabama, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011UABTalk.pdf'>Talk slides</a> </td>
-    <td> <a href='/JeremyGoecks.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> July 10-23 </th>
     <td> <strong><a href='http://www.molecularevolution.org/workshops/WCG#wcgna'>Workshop on Comparative Genomics North America</a></strong><br />Includes a day long Galaxy session</td>
     <td> Fort Collins, Colorado, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011JulyCompGenomics.pdf'>Slides</a> </td>
-    <td> <a href='/Dan.md'>Dan Blankenberg</a> </td>
+    <td> <a href='/Dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> July 17-22 </th>
     <td> <strong><a href='https://www.teragrid.org/web/tg11/program/schedule'>Accessible, Transparent, Reproducible Data Analysis with Galaxy</a></strong><br /><a href='https://www.teragrid.org/web/tg11'>TeraGrid'11</a> </td>
     <td> Salt Lake City, Utah, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011TeraGrid.pdf'>Slides</a> </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> July 15-19 </th>
-    <td> <strong><a href='/Events/ISMB-ECCB-BOSC 2011.md'>BOSC, 3DSIG, and ISMB / ECCB 2011</a></strong><br />Including over 15 talks, workshops and posters related to Galaxy. </td>
+    <td> <strong><a href='/Events/ISMB-ECCB-BOSC 2011/'>BOSC, 3DSIG, and ISMB / ECCB 2011</a></strong><br />Including over 15 talks, workshops and posters related to Galaxy. </td>
     <td> Vienna, Austria </td>
-    <td> <a href='/Events/ISMB-ECCB-BOSC 2011.md'>Slides</a> </td>
+    <td> <a href='/Events/ISMB-ECCB-BOSC 2011/'>Slides</a> </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
     <th> June 23-24 </th>
-    <td> <strong><a href='/News/Galaxy Workshops @ USC June 23-24.md'>Galaxy Workshops @ USC</a></strong> </td>
+    <td> <strong><a href='/News/Galaxy Workshops @ USC June 23-24/'>Galaxy Workshops @ USC</a></strong> </td>
     <td> Los Angeles, California, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011USC.pdf'>Intro talk slides</a>, <a href='ATTACHMENT_URLDocuments/Presentations/2011USC-2.pdf'>NGS analyses slides</a>, <a href='ATTACHMENT_URLDocuments/Presentations/2011USCResearch.pdf'>ISI seminar slides</a>  </td>
-    <td> <a href='/JeremyGoecks.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> June 22 </th>
@@ -3622,20 +3622,20 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <strong><a href='http://www.k-state.edu/agc/symp2011'>Arthropod Genomics Symposium</a></strong><br />Genome Project 101 Workshop </td>
     <td> Kansas City, Missouri, United States </td>
     <td> <a href='http://gmod.org/wiki/Arthropod_Genomics_2011/Genome_Project_101_Workshop'>Workshop page</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 28-31 </th>
     <td> <strong><a href='https://www.eshg.org/eshg2011.0.html'>European Human Genetics Conference 2011 (ESHG)</a></strong><br />Galaxy Workshop </td>
     <td> Amsterdam, the Netherlands </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011ESHG.pdf'>Slides</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 25-26 </th>
-    <td> <strong><a href='/GCC2011.md'>2011 Galaxy Community Conference</a></strong><br />Two full days of Galaxy </td>
+    <td> <strong><a href='/GCC2011/'>2011 Galaxy Community Conference</a></strong><br />Two full days of Galaxy </td>
     <td> Lunteren, the Netherlands </td>
-    <td> <a href='/Events/GCC2011.md'>Slides, videos</a> </td>
+    <td> <a href='/Events/GCC2011/'>Slides, videos</a> </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
@@ -3643,56 +3643,56 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <strong>Using Galaxy Workshop</strong> </td>
     <td> University of Manchester, United Kingdom </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011Manchester.pdf'>Slides</a> </td>
-    <td> <a href='/Dan.md'>Dan Blankenberg</a> </td>
+    <td> <a href='/Dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> April 13-14 </th>
     <td> <strong><a href='https://wiki.nbic.nl/index.php/NBIC_Galaxy_Hackathon_project'>NBIC Galaxy Hackathon</a></strong> </td>
     <td> Belgium/Netherlands </td>
     <td> </td>
-    <td> <a href='/Community/NBIC.md'>NBIC</a> </td>
+    <td> <a href='/Community/NBIC/'>NBIC</a> </td>
   </tr>
   <tr>
     <th> April 12-14 </th>
     <td> <strong><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=101298'>Dynamically Scalable, Accessible Analysis for High-Throughput Sequence Data</a></strong><br /><a href='http://www.bio-itworldexpo.com/'>BioIT World</a> </td>
     <td> Boston, Massachusetts, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011Bio-ITWorldCloud.pdf'>Slides</a> </td>
-    <td> <a href='/EnisAfgan.md'>Enis Afgan</a> </td>
+    <td> <a href='/EnisAfgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> March 5-12 </th>
     <td> <strong><a href='http://gmod.org/wiki/GMOD_Americas_2011'>GMOD Americas 2011</a></strong><br />Talk and course session</td>
     <td> Durham, North Carolina, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011MarchGMOD.pdf'>Slides</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 19-22 </th>
     <td> <strong><a href='http://conf.abrf.org/'>Galaxy Next Generation Sequencing Functionality from Sample Tracking to SNP Calling</a></strong><br />ABRF 2011 </td>
     <td> San Antonio, Texas, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011ABRF.pdf'>Slides</a> </td>
-    <td> <a href='/greg_vonkuster.md'>Greg von Kuster</a> </td>
+    <td> <a href='/greg_vonkuster/'>Greg von Kuster</a> </td>
   </tr>
   <tr>
     <th> February 2-5 </th>
     <td> <strong><a href='http://agbt.org/'>Management and Analysis of Second and Third Generation Sequencing Data with Galaxy</a></strong><br /><a href='http://agbt.org/'>AGBT 2011</a> </td>
     <td> Marco Island, Florida, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011AGBT.pdf'>Slides</a> </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a>, <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a>, <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> January 15-19 </th>
     <td> <strong><a href='http://www.intl-pag.org/19/19-gmod.html#Galaxy'>Galaxy: Analyze, Visualize, Communicate</a></strong><br /><a href='http://www.intl-pag.org/'>Plant and Animal Genome XIX (PAG 2011)</a> </td>
     <td> San Diego, California, United States </td>
     <td> <a href='http://gmod.org/mediawiki/images/a/ad/Pag_2011_galaxy_talk.pdf'>Slides</a> </td>
-    <td> <a href='/Dan.md'>Dan Blankenberg</a> </td>
+    <td> <a href='/Dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> January 9-21 </th>
     <td> <strong><a href='http://www.molecularevolution.org/workshops/WCG'>Workshop on Comparative Genomics, Europe</a></strong><br />Includes sessions on Galaxy </td>
     <td> Český Krumlov, Czech Republic </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2011JanComparativeGenomics.pdf'>Slides</a> </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a> </td>
   </tr>
 </table>
 
@@ -3733,7 +3733,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <a href='http://genomebiology.com/2010/11/S1/P2'>The elastic analysis with galaxy on the cloud</a> </td>
     <td> Beyond the Genome, Boston, Massachusetts </td>
     <td> </td>
-    <td> <a href='/EnisAfgan.md'>Enis Afgan</a> </td>
+    <td> <a href='/EnisAfgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> July 9-13 </th>
@@ -3747,11 +3747,11 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <strong>Deploying Galaxy on the Cloud</strong> <a href='http://www.open-bio.org/wiki/BOSC_2010'>BOSC 2010</a> </td>
     <td> Boston, Massachusetts, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/BOSC2010Cloud.pdf'>Slides|&do=get</a> </td>
-    <td> <a href='/EnisAfgan.md'>Enis Afgan</a> </td>
+    <td> <a href='/EnisAfgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> May 15-16 </th>
-    <td> <strong><a href='/Events/GDC2010.md'>Galaxy Developer Conference 2010</a></strong> </td>
+    <td> <strong><a href='/Events/GDC2010/'>Galaxy Developer Conference 2010</a></strong> </td>
     <td> Cold Spring Harbor, New York, United States </td>
     <td> </td>
     <td> </td>
@@ -3761,7 +3761,7 @@ Listing of Galaxy events from previous years. See the main [/Events](/Events) pa
     <td> <strong>Animal Genomics with Galaxy: Analyze, Publish, and Visualize</strong><br /><a href='http://www.intl-pag.org/'>Plant and Animal Genome XVIII (PAG 2010)</a> </td>
     <td> San Diego, California, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/PAG2010Galaxy.pdf'>Slides|&do=get</a> </td>
-    <td> <a href='/Dan.md'>Dan Blankenberg</a> </td>
+    <td> <a href='/Dan/'>Dan Blankenberg</a> </td>
   </tr>
 </table>
 

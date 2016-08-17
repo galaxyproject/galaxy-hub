@@ -14,7 +14,7 @@ INCLUDE(/Events/GCC2013/LinkBox)
 
 
 
-<div class='right'><a href='/Events/GCC2013/TrainingDay.md'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='Training Day' width="200" /></a></div>
+<div class='right'><a href='/Events/GCC2013/TrainingDay/'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='Training Day' width="200" /></a></div>
 
 
 

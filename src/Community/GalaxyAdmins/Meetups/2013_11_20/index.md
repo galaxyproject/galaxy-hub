@@ -1,4 +1,4 @@
-<div class='center'><a href='/Community/GalaxyAdmins.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> 
+<div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> 
 <div class="title">2013/11/20 Web Meetup<br /><br />GCC2013 Followup
 </div></div>
 
@@ -19,7 +19,7 @@ INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em>GalaxyAdmins: <a href='/Events/GCC2013/BoF/GalaxyAdmins.md'>GCC2013 Followup</a></em><div class='indent'><a href='/DaveClements.md'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/nate.md'>Nate Coraor</a></div> </td>
+    <td> <em>GalaxyAdmins: <a href='/Events/GCC2013/BoF/GalaxyAdmins/'>GCC2013 Followup</a></em><div class='indent'><a href='/DaveClements/'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/nate/'>Nate Coraor</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -54,7 +54,7 @@ What do people think of this approach?  The use of *boxes* on the right side is 
 
 ### Mailing Lists / Forums
 
-Decided against creating a separate GalaxyAdmins mailing list.  See [BoF page](/Events/GCC2013/BoF/GalaxyAdmins.md#mailing-lists--forums) for details.
+Decided against creating a separate GalaxyAdmins mailing list.  See [BoF page](/Events/GCC2013/BoF/GalaxyAdmins/#mailing-lists--forums) for details.
 
 ### Meetups
 

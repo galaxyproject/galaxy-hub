@@ -2,7 +2,7 @@
 
 <div class='right'>TABLE_OF_CONTENTS</div>
 
-<div class='left'><a href='/GalaxyUpdates.md'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the September 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -136,7 +136,7 @@ Help guide Galaxy's 2014 training efforts by taking the [Galaxy Training Survey]
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring.md'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 * [Bioinformatics post available at University of Exeter](http://bit.ly/1cuX9b9) 
@@ -160,7 +160,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src='/Images/Logos/GennoToulLogo.png' alt='Galaxy Training Days' height="60" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif.md' /></a></div> See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 <br />
 
@@ -181,29 +181,29 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
     <th> September&nbsp;28 - October&nbsp;1 </th>
     <td> </em>Galaxy Workshop<em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
-    <td> <a href='/RossLazarus.md'>Ross Lazarus</a>, <a href='/Dan.md'>Dan Blankenberg</a> </td>
+    <td> <a href='/RossLazarus/'>Ross Lazarus</a>, <a href='/Dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> September 30 - October 2 </th>
     <td> </em>TBA<em>, part of the </em><a href='http://individualizingmedicineconference.mayo.edu/schedule/'>Cancer Care</a><em> session </td>
     <td> <a href='http://individualizingmedicineconference.mayo.edu/'>Individualizing Medicine Conference</a>, <a href='http://mayo.eduy/'>Mayo Clinic</a>, Rochester, Minnesota, United States </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 1-3 </th>
     <td> </em><a href='http://www.beyond-the-genome.com/program/'>Galaxy</a><em> </td>
     <td> </strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a><strong>,San Francisco, California, United States </td>
-    <td> <a href='/JeremyGoecks.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th rowspan=2> October 7-8 </th>
     <td> </em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>TBD</a><em></td>
     <td rowspan=2> <a href='http://www.gtcbio.com/conference/ngseurope-overview'>NGS & Bioinformatics Summit Europe</a>, Berlin, Germany </td>
-    <td> <a href='/anton.md'>Anton Nektutenko</a> </td>
+    <td> <a href='/anton/'>Anton Nektutenko</a> </td>
   </tr>
   <tr>
     <td> </em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>Using Galaxy to Provide a NGS Analysis Platform</a> <em> </td>
-    <td> <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a> </td>
+    <td> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> October 8-11 </th>
@@ -225,19 +225,19 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
   </tr>
   <tr>
     <td> </em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#high'>High Throughput Data Analysis and Visualization with Galaxy</a>' </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a>, <a href='/JenniferJackson.md'>Jennifer Jackson</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a>, <a href='/JenniferJackson/'>Jennifer Jackson</a> </td>
   </tr>
   <tr>
     <th> January 11-15 </th>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXII (PAG 2014)</a> </td>
     <td> San Diego, California, United States </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 16-17 </th>
     <td> <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'>2014 GMOD Meeting</a> </td>
     <td> San Diego, California, United States </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
 </table>
 
@@ -269,7 +269,7 @@ upgrade: $ hg pull
 ```
 
 
-<div class='right'><a href='/CloudMan.md'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
+<div class='right'><a href='/CloudMan/'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
 
 ## CloudMan Release
 

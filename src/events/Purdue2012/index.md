@@ -103,7 +103,7 @@ All work will be done in a web browser and we will use the computer workstations
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the Purdue University [Bioinformatics Core](https://www.bioinformatics.purdue.edu/), [Cyber Center](http://www.purdue.edu/discoverypark/cyber/) and [Discovery Park](http://www.purdue.edu/discoverypark/).
 
 ## Links
-<div class='right'><a href='/attachment:PurdueGalaxyWorkshopFlier.pdf.md'><img src='/PurdueGalaxyWorkshopFlierThumb.png' alt='Please distribute' height="220px" /></a></div>
+<div class='right'><a href='/attachment:PurdueGalaxyWorkshopFlier.pdf/'><img src='/PurdueGalaxyWorkshopFlierThumb.png' alt='Please distribute' height="220px" /></a></div>
 
 * [Flier](ATTACHMENT_URLPurdueGalaxyWorkshopFlier.pdf) - please print / post / distribute
 * [Slides](ATTACHMENT_URLDocuments/Presentations/2012_Purdue.pdf)

@@ -9,7 +9,7 @@
 
 </div>
 
-<div class='left'><a href='/GalaxyUpdates.md'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
+<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
 Welcome to the March 2016 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. 
 
@@ -79,7 +79,7 @@ See the [full announcement](/News/GCC2016Scholarships) for details.
 
 ## Sponsors
 
-<div class='left'><br /><a href='http://bioteam.net/'><img src='/Images/Logos/BioTeamLogo154.gif.md' alt='BioTeam' width="130" /></a></div>
+<div class='left'><br /><a href='http://bioteam.net/'><img src='/Images/Logos/BioTeamLogo154.gif/' alt='BioTeam' width="130" /></a></div>
 
 We are pleased to announce that **[BioTeam](http://bioteam.net)** will again be a [sponsor](https://gcc2016.iu.edu/sponsors) for this annual event.  !BioTeam is a professional services and products company at the intersection of science and information technology. !BioTeam solves analytics, big data and scientific computing challenges for organizations by mapping the right technologies to their unique scientific needs. !BioTeam has a well-established history of providing forward-thinking solutions to the Life Sciences.   
 
@@ -196,7 +196,7 @@ We will do our best to coordinate and make this hackathon a nice and productive 
 ## GMOD Meeting, June 30 - July 1
 
 <div class='right'>
-<a href='/gmod:Jun_2016_GMOD_Meeting.md'><img src='/Images/Logos/GMODLogo.png' alt='2016 GMOD meeting' width="160" /></a>
+<a href='/gmod:Jun_2016_GMOD_Meeting/'><img src='/Images/Logos/GMODLogo.png' alt='2016 GMOD meeting' width="160" /></a>
 </div>
 
 The [2016 GMOD meeting](http://gmod.org/wiki/Jun_2016_GMOD_Meeting) will be held **immediately following GCC2016 and in the same venue as GCC2016**.  [http://gmod.org/wiki/|GMOD](http://gmod.org/wiki/|GMOD) is a consortium of open-source software project, including Galaxy, that address common challenges with biological data.  Other projects in the GMOD consortium include 
@@ -220,7 +220,7 @@ Between now and 13 March, would-be student participants will start to discuss ap
 Please let Robin know if you have any questions about GSoC.
 
 <div class='right'><br />
-<a href='/Community/GalaxyAdmins/Meetups/2016_02_18.md'><img src='/Images/NewsGraphics/AnsibleWheels.png' alt='February 2016 GalaxyAdmins meetup are now available' width="150" /></a>
+<a href='/Community/GalaxyAdmins/Meetups/2016_02_18/'><img src='/Images/NewsGraphics/AnsibleWheels.png' alt='February 2016 GalaxyAdmins meetup are now available' width="150" /></a>
 </div>
 
 ## February GalaxyAdmins Slides & Video
@@ -251,7 +251,7 @@ There are [many upcoming events](/Events) in the next few months.  See the [Gala
     <th> March 7-8 </th>
     <td> </strong><a href='https://github.com/galaxyproject/tools-iuc/issues/422'>IUC Contribution Fest - RADSeq Tools and Workflows</a><strong> </td>
     <td> INCLUDE(/Events/Badges/World) <em>Online</em> </td>
-    <td> <a href='/IUC.md'>/IUC.md</a> </td>
+    <td> <a href='/IUC/'>/IUC/</a> </td>
   </tr>
   <tr>
     <th> March 15 </th>
@@ -274,8 +274,8 @@ There are [many upcoming events](/Events) in the next few months.  See the [Gala
   <tr>
     <th> March 29 </th>
     <td> <em><a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-rnaseq-sous-galaxy/'>Introduction à l'analyse de données RNAseq sous Galaxy</a></em> </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/Icons/Europe40.png' alt='' /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
-    <td> <div class='right'><a href='/Teach/Trainers.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div><a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/Icons/Europe40.png' alt='' /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
+    <td> <div class='right'><a href='/Teach/Trainers/#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div><a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -354,8 +354,8 @@ There are [many upcoming events](/Events) in the next few months.  See the [Gala
 
 <table>
   <tr>
-    <td style=" border: none"> <a href='/Teach/Trainers.md'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
-    <td style=" border: none"> <span style="font-size: smaller;"> <a href='/Teach/Trainers.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none"> <a href='/Teach/Trainers/'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
+    <td style=" border: none"> <span style="font-size: smaller;"> <a href='/Teach/Trainers/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
@@ -474,7 +474,7 @@ Workflows may now run other workflows as a single abstract step in the parent wo
     <td style=" vertical-align: top; border: none"> <span style="font-size: larger;"> !BitBucket </span> <br /><br /></strong>Upgrade<strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.01</code> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none"> See the <a href='/Admin/GetGalaxy.md'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
+    <td colspan=3 style=" border: none"> See the <a href='/Admin/GetGalaxy/'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
   </tr>
 </table>
 
@@ -522,7 +522,7 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 
 
-<div class='right'><a href='/CloudMan.md'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="150" /></a></div>
+<div class='right'><a href='/CloudMan/'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="150" /></a></div>
 
 **CloudMan 15.12**
 
@@ -598,14 +598,14 @@ The 0.6.x release includes these changes:
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Teach.md'><img src='/Images/GalaxyLogos/GTNLogo300.png' alt='Galaxy Training Network' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Logs.md'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Deployments.md'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%"> <a href='/Teach/'><img src='/Images/GalaxyLogos/GTNLogo300.png' alt='Galaxy Training Network' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Logs/'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Deployments/'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong>Share your <a href='/Teach/Resources.md#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers.md#add-a-trainer'>experience</a> <em>now</em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Logs.md#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs.md#add-a-log-page'>now</a></em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Deployments.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments.md#add-your-galaxy-deployment'>now</a></em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none"> </strong>Share your <a href='/Teach/Resources/#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers/#add-a-trainer'>experience</a> <em>now</em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Logs/#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs/#add-a-log-page'>now</a></em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Deployments/#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments/#add-your-galaxy-deployment'>now</a></em> <strong> </td>
   </tr>
 </table>
 

@@ -72,7 +72,7 @@
 ### Source
 
 ### Bug Fixes
-<div class='left'><a href='/Support.md'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
+<div class='left'><a href='/Support/'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
 
 * testone, does something
 * testtwo, does something else

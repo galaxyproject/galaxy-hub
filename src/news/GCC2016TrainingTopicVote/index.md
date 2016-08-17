@@ -1,7 +1,7 @@
 <div class='newsItemHeader'>[GCC2016 Training Topic Vote!](/News/GCC2016TrainingTopicVote)</div>
 
 <div class='right'>
-<a href='/Events/GCC2016/Training.md'><img src='/Events/GCC2016/GCC2016TrainingLogo400.png' alt='GCC2016 Training' width="170" /></a><br />
+<a href='/Events/GCC2016/Training/'><img src='/Events/GCC2016/GCC2016TrainingLogo400.png' alt='GCC2016 Training' width="170" /></a><br />
 <table>
   <tr>
     <th> &nbsp;&nbsp; <a href='http://bit.ly/gcc2016vote'>Vote now!</a> &nbsp;&nbsp; </th>

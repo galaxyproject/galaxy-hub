@@ -1,6 +1,6 @@
 ### Check your Python version
 
-Galaxy's core functionality is compatible with **Python** versions **2.6** and **2.7**. (Version 2.5 support was last included in the [April 1, 2013 Distribution](/DevNewsBriefs/2013_04_01.md#python_25_support_ending_soon)). Before reporting bugs, please ensure that `python --version` reports one of these two versions. If this is not the case, a simple solution is to manipulate your shell's `$PATH` variable to place the correct version first. This can be done for only Python by creating a new directory at the front of `$PATH` and creating a symbolic link to python in that directory: 
+Galaxy's core functionality is compatible with **Python** versions **2.6** and **2.7**. (Version 2.5 support was last included in the [April 1, 2013 Distribution](/DevNewsBriefs/2013_04_01/#python_25_support_ending_soon)). Before reporting bugs, please ensure that `python --version` reports one of these two versions. If this is not the case, a simple solution is to manipulate your shell's `$PATH` variable to place the correct version first. This can be done for only Python by creating a new directory at the front of `$PATH` and creating a symbolic link to python in that directory: 
 
 ```
 #!highlight sh

@@ -65,7 +65,7 @@ Public parking is available at the [Oslo Innovation Centre (Forskningsparken)](h
 
 Oslo has 3 international airports,  
 
-<div class='right'><a href='http://www.osl.no/'><img src='/OsloAirportLogo.gif.md' alt='Oslo Airport Gardermoen (OSL)' width="100" /></a><br />
+<div class='right'><a href='http://www.osl.no/'><img src='/OsloAirportLogo.gif/' alt='Oslo Airport Gardermoen (OSL)' width="100" /></a><br />
 <a href='http://www.flytoget.no/'><img src='/FlyToGetLogo.png' alt='Airport Express Train (Flytoget)' width="100" /></a><br />
 <a href='http://www.nsb.no/airport-by-train/airport-by-train-article38282-4405.html'><img src='/NSBLogo.png' alt='Norwegian State Railways (NSB)' width="100" /></a>
 </div>

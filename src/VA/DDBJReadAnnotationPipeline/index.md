@@ -8,7 +8,7 @@
 
 <div class='dictbox'>
  Appliance:: **[DDBJ Read Annotation Pipeline](/VA/DDBJReadAnnotationPipeline)**
- Technology:: **[VM](/VirtualAppliances.md#virtual-machine-images)**
+ Technology:: **[VM](/VirtualAppliances/#virtual-machine-images)**
  Domains:: **Reference genome mapping, *de novo* assembly, and structural and functional annotations** 
  Description:: !VirtualBox VM created in 2015 so that "Researchers may utilize the virtual machine image for users’ sensitive datasets such as human personal genomic sequences."
  Owners:: DDBJ Read Annotation Pipeline, Development team

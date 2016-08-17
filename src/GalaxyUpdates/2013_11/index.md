@@ -2,7 +2,7 @@
 
 <div class='right'>TABLE_OF_CONTENTS</div>
 
-<div class='left'><a href='/GalaxyUpdates.md'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the November 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -28,7 +28,7 @@ A [Visual Manual](http://intersci.ss.uci.edu/wiki/index.php/Visual_Manual) is av
 
 ## BioCiphers Lab Galaxy
 
-The [BioCiphers Lab Galaxy](http://avispa.biociphers.org/) provides a user friendly interface for analysis tools developed by the [BioCiphers Lab](http://biociphers.org/) at the University of Pennsylvania.  This includes the AVISPA alternative splicing prediction and analysis tool.  See Barash, *et al.,* "[AVISPA: a web tool for the prediction and analysis of alternative splicing](http://genomebiology.com/2013/14/10/R114)" *[Genome Biology](http://genomebiology.com/)* 2013, 14:R114.  BCL Galaxy offers [email support](/Public Galaxy Servers.md#biociphers-lab-galaxy).  It is open to anyone from an educational organization.
+The [BioCiphers Lab Galaxy](http://avispa.biociphers.org/) provides a user friendly interface for analysis tools developed by the [BioCiphers Lab](http://biociphers.org/) at the University of Pennsylvania.  This includes the AVISPA alternative splicing prediction and analysis tool.  See Barash, *et al.,* "[AVISPA: a web tool for the prediction and analysis of alternative splicing](http://genomebiology.com/2013/14/10/R114)" *[Genome Biology](http://genomebiology.com/)* 2013, 14:R114.  BCL Galaxy offers [email support](/Public Galaxy Servers/#biociphers-lab-galaxy).  It is open to anyone from an educational organization.
 
 <br />
 # New Papers
@@ -130,7 +130,7 @@ If you care about reproducible research, then take a look.
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring.md'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -148,7 +148,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-<div class='right'><a href='/Events/GCC2014.md'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="130" /></a></div>
+<div class='right'><a href='/Events/GCC2014/'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="130" /></a></div>
 
 The [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
@@ -172,7 +172,7 @@ Sponsored and organized by [URGI](http://urgi.versailles.inra.fr/), [GenoToul](h
 <a href='http://migale.jouy.inra.fr/'><img src='/Images/Logos/MIGALELogo.png' alt='MIGALE' width="120" /></a>
 <a href='http://metabohub.fr/'><img src='/Images/Logos/MetaboHubLogo.jpg' alt='PFEM' width="120" /></a>
 <a href='http://southgreen.cirad.fr/'><img src='/Images/Logos/SouthGreenLogo.png' alt='SouthGreen' width="120" /></a>
-<a href='http://curie.fr/'><img src='/Images/Logos/CurieLogo.gif.md' alt='Institut Curie' width="80" /></a>
+<a href='http://curie.fr/'><img src='/Images/Logos/CurieLogo.gif/' alt='Institut Curie' width="80" /></a>
 <a href='http://abims.sb-roscoff.fr/'><img src='/Images/Logos/ABiMSLogo.png' alt='ABiMS' width="70" /></a>
 </div>
 
@@ -187,7 +187,7 @@ The [next offering of UC Davis Bioinformatics Bootcamps](https://training.bioinf
 
 These focused one-day courses are for researchers looking to get up to speed quickly on the latest technologies and techniques in bioinformatics. Students will work on their own laptops and have continued access to software and example data used in the exercises through a [public Amazon Web Services virtual machine](http://bioinformatics.ucdavis.edu/software/). The first three bootcamps will use the Galaxy platform, and the final bootcamp will use both Galaxy and the command-line. The Alignment and Assembly bootcamps (Dec. 11th & 12th) require you to know Galaxy, so if you are unfamiliar with Galaxy, you should also take the Introduction bootcamp on Dec. 10th.
 
-<div class='right'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src='/Images/Logos/UCDavisLogoSmall.gif.md' alt='UC Davis'  /></a></div>
+<div class='right'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src='/Images/Logos/UCDavisLogoSmall.gif/' alt='UC Davis'  /></a></div>
 
    **Tuesday, December 10:**
       **[Introduction to Next-Generation Sequence Analysis with Galaxy](http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-introduction-to-next-generation-sequence-analysis-with-galaxy-december-10-2013/)**
@@ -205,7 +205,7 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif.md' /></a></div> There is a lot going on in the next three months. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> There is a lot going on in the next three months. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
@@ -213,7 +213,7 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
 <a href='http://www.qfab.org/events/upcoming/'><img src='/Images/Logos/QFABLogo.png' alt='QFAB Workshops' height="80" /></a>
 <a href='http://bit.ly/16tBdIZ'><img src='/Images/Logos/DDBJLogoSmall.png' alt='NGS解析Galaxy特集とDDBJ' height="60" /></a>
 <a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src='/Images/Logos/GenoToulLogo.png' alt='Galaxy Training Days' height="60" /></a> &nbsp;
-<a href='/Community/GalaxyAdmins/Meetups/2013_11_20.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins Meetups' height="55" /></a>
+<a href='/Community/GalaxyAdmins/Meetups/2013_11_20/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins Meetups' height="55" /></a>
 <a href='http://www.ifb-galaxy.org/4dec2013.html'><img src='/Images/Logos/GalaxyIFB.png' alt='Galaxy Day' height="55" /></a>
 </div>
 
@@ -262,9 +262,9 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
   </tr>
   <tr>
     <th> November 20 </th>
-    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2013_11_20.md'>November GalaxyAdmins Meetup</a></em> </td>
-    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_11_20.md'>Online</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a>, Srinivas Maddhi </td>
+    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2013_11_20/'>November GalaxyAdmins Meetup</a></em> </td>
+    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_11_20/'>Online</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a>, Srinivas Maddhi </td>
   </tr>
   <tr>
     <th> November 22 </th>
@@ -309,25 +309,25 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
     <th> January 11-15 </th>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXII (PAG 2014)</a> </td>
     <td> San Diego, California, United States </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 16-17 </th>
     <td> <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'>2014 GMOD Meeting</a> </td>
     <td> San Diego, California, United States </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>
     <td> <a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a> </td>
     <td> <a href='http://www.mipro.hr/CallForPapers/tabid/176/language/en-US/Default.aspx'>MIPRO 2014</a>, Opatija, Croatia </td>
-    <td> <a href='/EnisAfgan.md'>Enis Afgan</a> </td>
+    <td> <a href='/EnisAfgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 30 - July 2 </th>
-    <td> </strong><a href='/Events/GCC2014.md'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
+    <td> </strong><a href='/Events/GCC2014/'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
     <td> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
-    <td> <a href='/Events/GCC2014/Organizers.md'>Organizers</a> </td>
+    <td> <a href='/Events/GCC2014/Organizers/'>Organizers</a> </td>
   </tr>
 </table>
 

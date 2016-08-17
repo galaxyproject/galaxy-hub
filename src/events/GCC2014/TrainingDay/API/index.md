@@ -5,7 +5,7 @@ INCLUDE(/Events/GCC2014/Header)
 
 INCLUDE(/Events/GCC2014/LinkBox)
 
-<div class='right'> <a href='/Events/GCC2014/TrainingDay.md'><img src='/Images/Logos/GCC2014TrainingDayLogoSquare.png' alt='GCC2014 Training Day' width="100" /></a></div>
+<div class='right'> <a href='/Events/GCC2014/TrainingDay/'><img src='/Images/Logos/GCC2014TrainingDayLogoSquare.png' alt='GCC2014 Training Day' width="100" /></a></div>
 
 
 [Slides](ATTACHMENT_URLThe Galaxy API (GCC2014 TD API).pdf)

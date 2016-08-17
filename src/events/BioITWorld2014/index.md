@@ -19,7 +19,7 @@ Galaxy will have a significant presence at the [Bio-IT World Conference](http://
     <th rowspan=3> Tuesday<br />April 29 </th>
     <td rowspan=1> 8:00-11:30 </td>
     <td> </em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135146'>W4: Analyzing NGS Data in Galaxy</a><em> </td>
-    <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, <a href='/nate.md'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, Tristan Lubinski </td>
+    <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, <a href='/nate/'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, Tristan Lubinski </td>
     <td> </td>
   </tr>
   <tr>
@@ -30,8 +30,8 @@ Galaxy will have a significant presence at the [Bio-IT World Conference](http://
   </tr>
   <tr>
     <td> </em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135152'>W14: Running a Local Galaxy Instance</a><em> </td>
-    <td> <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, <a href='/nate.md'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, Tristan Lubinski, <a href='http://www.sgi.com/solutions/genomics'>James Reaney</a> </td>
-    <td> <a href='/Events/BioITWorld2014/W14.md'>Tutorial script</a> </td>
+    <td> <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, <a href='/nate/'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, Tristan Lubinski, <a href='http://www.sgi.com/solutions/genomics'>James Reaney</a> </td>
+    <td> <a href='/Events/BioITWorld2014/W14/'>Tutorial script</a> </td>
   </tr>
   <tr>
     <th rowspan=2> Wednesday<br />April 30 </th>
@@ -62,7 +62,7 @@ Galaxy will have a significant presence at the [Bio-IT World Conference](http://
   <tr>
     <td> 2:30-3:00 </td>
     <td> </em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Web-Based Visualization and Visual Analysis for High-Throughput Genomics with Galaxy</a><em> </td>
-    <td> <a href='/JeremyGoecks.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2014BioITGoecks.pdf'>Slides</a> </td>
   </tr>
 </table>

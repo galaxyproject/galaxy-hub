@@ -30,7 +30,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *Links:*
   * **[Andromeda server](http://galaxy.nbic.nl/)**
   * Andromeda was the featured topic at the [March 2013 GalaxyAdmins Meetup](/Community/GalaxyAdmins/Meetups/2013_03_20).  Includes [slides](ATTACHMENT_URLCommunity/GalaxyAdmins/Meetups/2013_03_20/20130320Andromeda.pdf) and [video](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262344508128_1363788090133).
-  * [GCC2013](/Events/GCC2013) [Poster](/Events/GCC2013/Abstracts/Posters.md#p22-andromeda-nbic-galaxy-at-surfsaras-hpc-cloud) and [Lightning talk](/Events/GCC2013/Lightning.md#andromeda-nbic-galaxy-at-surfsaras-hpc-cloud): *Andromeda: NBIC Galaxy at Surfsara's HPC cloud* 
+  * [GCC2013](/Events/GCC2013) [Poster](/Events/GCC2013/Abstracts/Posters/#p22-andromeda-nbic-galaxy-at-surfsaras-hpc-cloud) and [Lightning talk](/Events/GCC2013/Lightning/#andromeda-nbic-galaxy-at-surfsaras-hpc-cloud): *Andromeda: NBIC Galaxy at Surfsara's HPC cloud* 
 
 * *Domain/Purpose:*
   * This is a fully populated Galaxy instance. 
@@ -171,7 +171,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *User Support:*
   * [galaxy@prabi user list](http://listes.univ-lyon1.fr/sympa/info/galaxy-user) (in French) 
   * Email support: [galaxy DASH support AT listes DOT univ-lyon1 DOT fr](galaxy DASH support AT listes DOT univ-lyon1 DOT fr) 
-  * We also provide galaxy [training courses](/Teach/Trainers.md#galaxy_40_prabi_project) for RNA-seq and ChIP-seq data analysis.
+  * We also provide galaxy [training courses](/Teach/Trainers/#galaxy_40_prabi_project) for RNA-seq and ChIP-seq data analysis.
 * *Quotas:* 
   * Disk space is limited to 100 MB for unregistered users, registered users are free to use up to 50 GB.
   * Users from the FRBioenvis and LECA teams are free to use up to 250 GB disk space.
@@ -690,7 +690,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Domain/Purpose:* 
   * A Galaxy based web server for microbiology. [Orione](http://orione.crs4.it/) includes all post mapping or assembling steps from scaffolding to complete annotation pipelines.
 * *Comments:*
-  * From the [GCC2013](/Events/GCC2013) poster "[Engaging Galaxy in Microbiology](/Events/GCC2013/Abstracts/Posters.md#p7-engaging-galaxy-in-microbiology)"
+  * From the [GCC2013](/Events/GCC2013) poster "[Engaging Galaxy in Microbiology](/Events/GCC2013/Abstracts/Posters/#p7-engaging-galaxy-in-microbiology)"
       We started on selecting the relevant software in the microbiology area, developing then all the necessary tools to integrate them into the Galaxy ecosystem. In addition to that, we made available several specialized workflows covering major applications such as bacterial resequencing, de novo assembly, scaffolding, bacterial RNA-seq, gene annotation and metagenomics. Orione provides additional capabilities to perform integrative, reproducible and transparent bioinformatic data analysis in microbiology thus expanding the constellation of specialized Galaxy based web servers as [Nebula](#nebula), [Cistrome](#cistrome) and several others.
 * *User Support:*
   * [galaxyadmin AT crs4 DOT it](email)
@@ -1121,7 +1121,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## CTMM-TraIT Demo Galaxy
 
-<div class='right'><div class='solid'><a href='/CTMM-TraIT Demo Galaxy.md'><img src='/CTMM-TraIT.png' alt='CTMM-TraIT Demo Galaxy' width="300" /></a></div>
+<div class='right'><div class='solid'><a href='/CTMM-TraIT Demo Galaxy/'><img src='/CTMM-TraIT.png' alt='CTMM-TraIT Demo Galaxy' width="300" /></a></div>
 
 * *Links:*
   * [CTMM-TraIT Demo Galaxy](http://galaxy-demo.ctmm-trait.nl/)
@@ -1149,7 +1149,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
   * [deepTools home page at GitHub](http://deeptools.github.io/)
   * Fidel Ramírez, Devon P Ryan, Björn Grüning, Vivek Bhardwaj, Fabian Kilpert, Andreas S Richter, Steffen Heyne, Friederike Dündar and Thomas Manke, [deepTools2: a next generation web server for deep-sequencing data analysis](http://nar.oxfordjournals.org/content/early/2016/04/12/nar.gkw257.long), *Nucl. Acids Res.* (2016) doi: 10.1093/nar/gkw257
   * Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, and Thomas Manke. [deepTools: a flexible platform for exploring deep-sequencing data](http://nar.oxfordjournals.org/cgi/content/abstract/gku365) *Nucl. Acids Res.* first published online May 5, 2014 doi:10.1093/nar/gku365
-  * *[deepTools: a flexible platform for exploring deep-sequencing data](/Events/GCC2014/Abstracts/Talks.md#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/Events/GCC2014)
+  * *[deepTools: a flexible platform for exploring deep-sequencing data](/Events/GCC2014/Abstracts/Talks/#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/Events/GCC2014)
   * [deepTools deployment description](/Community/Deployment/deepTools)
 * *Domain/Purpose:* 
   * deepTools is a suite of user-friendly tools for the visualization, quality control and normalization of data from high-throughput DNA sequencing experiments.
@@ -1474,7 +1474,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## OPPL Galaxy
 
-<div class='right'><div class='solid'><a href='/ http://biordf.org:8983/.md'><img src='/PublicGalaxyServers/OPPLSchematic.png' alt='OPPL Galaxy' width="300" /></a></div>
+<div class='right'><div class='solid'><a href='/ http://biordf.org:8983//'><img src='/PublicGalaxyServers/OPPLSchematic.png' alt='OPPL Galaxy' width="300" /></a></div>
 
 * *Link:*
   * [OPPL Galaxy](http://biordf.org:8983/)

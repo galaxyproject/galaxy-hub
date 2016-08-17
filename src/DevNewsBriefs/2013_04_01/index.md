@@ -281,9 +281,9 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 ## GCC2013
 
-<div class='left'><a href='/Events/GCC2013.md'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="150" /></a></div> 
+<div class='left'><a href='/Events/GCC2013/'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="150" /></a></div> 
 
-<div class='right'><a href='/Events/GCC2013/TrainingDay.md'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div> 
+<div class='right'><a href='/Events/GCC2013/TrainingDay/'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div> 
 <br />
 <br />
 <br />

@@ -8,12 +8,12 @@ In South Africa?  A [Galaxy Workshop Tour](/Events) is happening in October at t
 
 <table>
   <tr>
-    <td style=" text-align: center; width: 280px; border: none;"> <a href='/Events/UPretoria2013.md'><img src='/Images/Logos/UPretoriaWide.png' alt='University of Pretoria' width="250" /></a> </td>
-    <td style=" text-align: center; width: 300px; border: none;"> <a href='/Events/UCapeTown2013.md'><img src='/Images/Logos/UCapeTownWide.jpg' alt='University of Cape Town' width="280" /></a> </td>
+    <td style=" text-align: center; width: 280px; border: none;"> <a href='/Events/UPretoria2013/'><img src='/Images/Logos/UPretoriaWide.png' alt='University of Pretoria' width="250" /></a> </td>
+    <td style=" text-align: center; width: 300px; border: none;"> <a href='/Events/UCapeTown2013/'><img src='/Images/Logos/UCapeTownWide.jpg' alt='University of Cape Town' width="280" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none"> </strong><a href='/Events/UPretoria2013.md'>14-18 October</a><strong> </td>
-    <td style=" text-align: center; border: none"> </strong><a href='/Events/UCapeTown2013.md'>21-25 October</a><strong> </td>
+    <td style=" text-align: center; border: none"> </strong><a href='/Events/UPretoria2013/'>14-18 October</a><strong> </td>
+    <td style=" text-align: center; border: none"> </strong><a href='/Events/UCapeTown2013/'>21-25 October</a><strong> </td>
   </tr>
 </table>
 

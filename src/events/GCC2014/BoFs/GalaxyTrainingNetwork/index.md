@@ -14,7 +14,7 @@ INCLUDE(/Events/GCC2014/Header)
 
 INCLUDE(/Events/GCC2014/LinkBox)
 
-<div class='left'><a href='/Events/GCC2014/BoFs.md'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
+<div class='left'><a href='/Events/GCC2014/BoFs/'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
 
 This page describes the **[Galaxy Training Network](/Teach/GTN)** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/Events/GCC2014).
 
@@ -78,7 +78,7 @@ Anyone interested in using Galaxy for bioinformatics and related learning and te
 
 ## GTN Resources Directory
 
-<div class='right'><a href='/Teach/GTN.md'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="300" /></a></div>
+<div class='right'><a href='/Teach/GTN/'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="300" /></a></div>
 
 [This has been created](/Teach/Resources).  
 

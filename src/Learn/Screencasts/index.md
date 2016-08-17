@@ -29,12 +29,12 @@ Watch some of our screencasts at **[Galaxy Project on YouTube](http://www.youtub
   <tr>
     <td> </strong><a href='http://vimeo.com/galaxyproject/upload'>Get Data: Upload File</a><strong> <br /> browse, url, paste, <a href='http://screencast.g2.bx.psu.edu/quickie_17_ftp_upload/flow.html'>ftp</a> </td>
     <td> </strong><a href='http://vimeo.com/galaxyproject/learning'>Learning Resources</a><strong> <br /> self-serve help </td>
-    <td> </strong><a href='http://vimeo.com/galaxyproject/managehistories'>Managing Histories</a><strong> <br /> saved histories, <a href='/Main.md'>disk quotas</a> </td>
+    <td> </strong><a href='http://vimeo.com/galaxyproject/managehistories'>Managing Histories</a><strong> <br /> saved histories, <a href='/Main/'>disk quotas</a> </td>
   </tr>
   <tr>
-    <td> </strong><a href='http://screencast.g2.bx.psu.edu/quickie_17_ftp_upload/flow.html'>Using FTP</a><strong> <br /> step-by-step, <a href='/FTPUpload.md'> wiki</a> </td>
+    <td> </strong><a href='http://screencast.g2.bx.psu.edu/quickie_17_ftp_upload/flow.html'>Using FTP</a><strong> <br /> step-by-step, <a href='/FTPUpload/'> wiki</a> </td>
     <td> </strong><a href='http://vimeo.com/galaxyproject/fastqprep'>FASTQ Prep Illumina</a><strong> <br /> jobs, FASTQ Groomer, <br /> edit attributes, FastQC </td>
-    <td> </strong><a href='http://vimeo.com/galaxyproject/customgenome'>Custom Genomes</a><strong> <br /> format, how to load, <br /> <a href='/Learn/CustomGenomes.md'>read more on wiki...</a></td>
+    <td> </strong><a href='http://vimeo.com/galaxyproject/customgenome'>Custom Genomes</a><strong> <br /> format, how to load, <br /> <a href='/Learn/CustomGenomes/'>read more on wiki...</a></td>
   </tr>
 </table>
 

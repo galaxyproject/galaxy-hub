@@ -2,7 +2,7 @@
 
 
 <div class='bottomBoxNews'>
-<div class='bottomBoxSectionHeader'>[Galaxy News](/News) <a href='http://feed43.com/galaxynews.xml'><img src='/Images/Icons/RSSIcon16x16.gif.md' /></a>
+<div class='bottomBoxSectionHeader'>[Galaxy News](/News) <a href='http://feed43.com/galaxynews.xml'><img src='/Images/Icons/RSSIcon16x16.gif/' /></a>
 </div>
 [June 2016 Galactic News](/News/2016_06GalaxyUpdate)<br />
 [Galaxy CloudMan Release (v 16.05)](/News/1605_GalaxyCloudManRelease)<br />
@@ -16,7 +16,7 @@
 ----
 <div class='bottomBoxSectionHeader'>[Upcoming Events](/Events)</div>
 <div class='center'>
-<a href='/Community/GalaxyAdmins/Meetups/2016_06_16.md'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='16 June GalaxyAdmins Web Meetup' height="60" /></a>
+<a href='/Community/GalaxyAdmins/Meetups/2016_06_16/'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='16 June GalaxyAdmins Web Meetup' height="60" /></a>
 <a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Jun16.html'><img src='/Images/Logos/GlasgowPolyomics.jpg' alt='Introduction to Galaxy Workshop' height="80" /></a>
 <a href='http://gmod.org/wiki/Jun_2016_GMOD_Meeting'><img src='/Images/Logos/GMOD2016.png' alt='GMOD Meeting' height="80" /></a>
 </div>

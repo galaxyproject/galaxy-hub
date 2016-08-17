@@ -8,7 +8,7 @@
 
 <div class='dictbox'>
  Appliance:: **[Immunoglobulin Galaxy](/VA/ImmunoglobulinGalaxy)**
- Technology:: **[VM](/VirtualAppliances.md#virtual-machine-images)**
+ Technology:: **[VM](/VirtualAppliances/#virtual-machine-images)**
  Domains:: **immunoglobulin** 
  Description:: a set of tools for easy detection and quantitation of immunoglobulin heavy chain alternative transcripts. 
  Owners:: [d.vanzessen@erasmusmc.nl](David van Zessen), [Erasmus Medical](http://www.erasmusmc.nl/?lang=en) Center

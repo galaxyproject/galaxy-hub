@@ -79,7 +79,7 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=18AEC6'>Galaxy for NGS Data Analysis: A Hands-on Workshop</a> </td>
     <td> Workshops<div class='indent'>California Room</div> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2014PAGNGSAnalysisWorkshop.pdf'>Slides1</a>, <a href='ATTACHMENT_URLDocuments/Presentations/2014PAGRunningALocalGalaxy.pdf'>Slides2</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a>, Anushka Brownley </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a>, Anushka Brownley </td>
   </tr>
   <tr>
     <th colspan=6> </th>
@@ -96,7 +96,7 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
     <td style=" text-align: center;"> 11:50-12:30 </td>
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=1FAC'>Galaxy CloudMan: A Gentle Introduction to Data Analysis on the Cloud</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2014PAGCloudManTalk.pdf'>Slides</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
 </table>
 
@@ -118,7 +118,7 @@ The [GMOD 2014](http://gmod.org/wiki/Jan_2014_GMOD_Meeting) meeting schedule has
     <th> Thursday<br />January 16 </th>
     <td> Galaxy Project Update </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2014GMODGalaxyUpdae.pdf'>Slides</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> Friday<br />January 17 </th>

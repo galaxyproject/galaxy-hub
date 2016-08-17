@@ -60,4 +60,4 @@ Default user management
 
 ## Links
 * [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de)
-* [Server description](/PublicGalaxyServers.md#zbit-bioinformatics-toolbox) in the [list of publicly accessible Galaxy servers](/PublicGalaxyServers) 
+* [Server description](/PublicGalaxyServers/#zbit-bioinformatics-toolbox) in the [list of publicly accessible Galaxy servers](/PublicGalaxyServers) 

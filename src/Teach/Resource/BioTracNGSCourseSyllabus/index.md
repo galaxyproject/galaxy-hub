@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://www.biotrac.com/'><img src='/BioTracLogo.gif.md' alt='Bio-Trac'  /></a>
+<a href='http://www.biotrac.com/'><img src='/BioTracLogo.gif/' alt='Bio-Trac'  /></a>
 </div>
 
 <div class="title">[Biotrac Next Generation Sequencing Course Syllabus](http://www.biotrac.com/pages/Tracs/Trac45.html)</div>

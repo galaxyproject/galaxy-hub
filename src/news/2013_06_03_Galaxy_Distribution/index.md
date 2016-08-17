@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[June 3, 2013 Galaxy Distribution](/News/2013_06_03_Galaxy_Distribution)</div>
 <div class='right'>
-<a href='/DevNewsBriefs/2013_06_01.md'><img src='/Images/NewsGraphics/2013_06_03_scatterplot-1.png' alt='scatterplot' width=400 /></a></div>
+<a href='/DevNewsBriefs/2013_06_01/'><img src='/Images/NewsGraphics/2013_06_03_scatterplot-1.png' alt='scatterplot' width=400 /></a></div>
 **Complete [News Brief](/DevNewsBriefs/2013_06_03)**
 <br />
 <br />

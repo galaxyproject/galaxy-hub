@@ -32,17 +32,17 @@ Galaxy has a significant presence at [ISMB 2016](http://www.iscb.org/ismb2016) a
   </tr>
   <tr>
     <th> 11:57 </th>
-    <td> <em>Planemo – A Scientific Workflow SDK </em> <div class='indent'><a href='/JohnChilton.md'>John Chilton</a></div> </td>
+    <td> <em>Planemo – A Scientific Workflow SDK </em> <div class='indent'><a href='/JohnChilton/'>John Chilton</a></div> </td>
     <td> </td>
   </tr>
   <tr>
     <th> 12:04 </th>
-    <td> <em>Sample Size Does Matter: Scaling Up Analysis in Galaxy with Metagenomics</em> <div class='indent'><a href='/Dan.md'>Daniel Blankenberg</a></div> </td>
+    <td> <em>Sample Size Does Matter: Scaling Up Analysis in Galaxy with Metagenomics</em> <div class='indent'><a href='/Dan/'>Daniel Blankenberg</a></div> </td>
     <td> </td>
   </tr>
   <tr>
     <th> 16:00 </th>
-    <td> <em><a href='https://www.open-bio.org/wiki/BOSC_2016_Panel'>Panel: Growing and sustaining open source communities</a></em> <div class='indent'><a href='/JohnChilton.md'>John Chilton</a></div> </td>
+    <td> <em><a href='https://www.open-bio.org/wiki/BOSC_2016_Panel'>Panel: Growing and sustaining open source communities</a></em> <div class='indent'><a href='/JohnChilton/'>John Chilton</a></div> </td>
     <td> </td>
   </tr>
   <tr>

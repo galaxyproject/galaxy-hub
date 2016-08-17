@@ -1,4 +1,4 @@
-<div class='center'><a href='/Community/GalaxyAdmins.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
+<div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
 
 INCLUDE(../../LinkBox)
 

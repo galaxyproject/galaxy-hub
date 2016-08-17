@@ -2,9 +2,9 @@
 
 <div class='right'>![Galaxy IRC Channel](/Images/Icons/ChatBalloons.png)</div>
 
-We would like to change the logging policy for the [#galaxyproject IRC channel](/GetInvolved.md#irc-channel):
+We would like to change the logging policy for the [#galaxyproject IRC channel](/GetInvolved/#irc-channel):
 
-  **Starting later this fall, the [#galaxyproject IRC channel](/GetInvolved.md#irc-channel) will be logged online in a format that can be searched.**
+  **Starting later this fall, the [#galaxyproject IRC channel](/GetInvolved/#irc-channel) will be logged online in a format that can be searched.**
 
 Currently, this channel is not logged anywhere.  This change will only be made if the community agrees that a searchable online log would be an improvement.  **If you have thoughts or comments on this proposal, then please post them to [this Biostar thread](https://biostar.usegalaxy.org/p/8804/).**  In two weeks' time (around September 17, 2014), we'll summarize the discussion and publish a decision. 
 

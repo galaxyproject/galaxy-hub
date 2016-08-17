@@ -37,7 +37,7 @@ As mentioned above, the Galaxy Project uses [Trello](http://bit.ly/gxytrello) fo
   </tr>
   <tr>
     <th> Testing </th>
-    <td> Bug is fixed and the fix is deployed at <a href='/Test.md'>/Test.md</a>. Please test if you can. </td>
+    <td> Bug is fixed and the fix is deployed at <a href='/Test/'>/Test/</a>. Please test if you can. </td>
   </tr>
   <tr>
     <th> Complete and in central </th>
@@ -45,7 +45,7 @@ As mentioned above, the Galaxy Project uses [Trello](http://bit.ly/gxytrello) fo
   </tr>
   <tr>
     <th> In stable branch </th>
-    <td> The bug is probably already fixed on the <a href='/Main.md'>/Main.md</a> instance of Galaxy, committed in galaxy-central repository (branch <code>stable</code>) and is waiting for the next release to be included in <a href='https://wiki.galaxyproject.org/Develop/Bitbucket'>galaxy-dist</a>. </td>
+    <td> The bug is probably already fixed on the <a href='/Main/'>/Main/</a> instance of Galaxy, committed in galaxy-central repository (branch <code>stable</code>) and is waiting for the next release to be included in <a href='https://wiki.galaxyproject.org/Develop/Bitbucket'>galaxy-dist</a>. </td>
   </tr>
 </table>
 
@@ -56,7 +56,7 @@ Tool shed has its own board at [Tool Shed Issue Board](https://trello.com/b/vHqp
 
 ## Security issues
 
-Serious security problems should not be reported via Trello - please responsibly disclose these as explained in https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING.md .
+Serious security problems should not be reported via Trello - please responsibly disclose these as explained in https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING/ .
 
 <div class='right'><br />[{{attachment:FilterCardsButton.png|Search for Issues|width="135"}}|&do=get,target="_blank"](ATTACHMENT_URLFilterCardsButton.png)</div>
 

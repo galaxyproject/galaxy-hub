@@ -55,7 +55,7 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='Sponsorships.md'><img src='/Events/GCC2013/Sponsorships/PlatinumBanner.png' alt='Platinum Sponsor' width="80%" /></a> </td>
+    <td style=" text-align: center; border: none"> <a href='Sponsorships/'><img src='/Events/GCC2013/Sponsorships/PlatinumBanner.png' alt='Platinum Sponsor' width="80%" /></a> </td>
   </tr>
   <tr>
     <td style=" text-align: center; border: none"> <a href='http://www.lifetechnologies.com/'><img src='/Images/Logos/IonTorrentLogo340.png' alt='Ion Torrent by Life Technologies' width="320" /></a> </td>
@@ -66,12 +66,12 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <table>
   <tr>
-    <td colspan=3 style=" text-align: center; border: none"> <a href='Sponsorships.md'><img src='/Events/GCC2013/Sponsorships/GoldBanner.png' alt='Gold Sponsors' width="80%" /></a> </td>
+    <td colspan=3 style=" text-align: center; border: none"> <a href='Sponsorships/'><img src='/Events/GCC2013/Sponsorships/GoldBanner.png' alt='Gold Sponsors' width="80%" /></a> </td>
   </tr>
   <tr>
     <td style=" border: none text-align: center;"> <a href='http://www.emc.com/isilon'><img src='/Images/Logos/EMCIsilonLogo.jpg' alt='EMC Isilon' width="340" /></a> </td>
     <td style=" border: none; width: 10% text-align: center;"> </td>
-    <td style=" border: none text-align: center;"> <a href='http://bioteam.net/'><img src='/Images/Logos/BioTeamLogo154.gif.md' alt='BioTeam' width="200" /></a> </td>
+    <td style=" border: none text-align: center;"> <a href='http://bioteam.net/'><img src='/Images/Logos/BioTeamLogo154.gif/' alt='BioTeam' width="200" /></a> </td>
   </tr>
 </table>
 
@@ -79,8 +79,8 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 <br /><br />
 <table>
   <tr>
-    <td style=" border: none text-align: center;"> <a href='Sponsorships.md'><img src='/Events/GCC2013/Sponsorships/SilverBanner.png' alt='Silver Sponsor' width="95%" /></a> </td>
-    <td colspan=2 style=" border: none text-align: center;"> <a href='Sponsorships.md'><img src='/Events/GCC2013/Sponsorships/BronzeBanner.png' alt='Bronze Sponsors' width="95%" /></a> </td>
+    <td style=" border: none text-align: center;"> <a href='Sponsorships/'><img src='/Events/GCC2013/Sponsorships/SilverBanner.png' alt='Silver Sponsor' width="95%" /></a> </td>
+    <td colspan=2 style=" border: none text-align: center;"> <a href='Sponsorships/'><img src='/Events/GCC2013/Sponsorships/BronzeBanner.png' alt='Bronze Sponsors' width="95%" /></a> </td>
   </tr>
   <tr>
     <td style=" text-align: center; border: none"> <a href='http://www.gigasciencejournal.com/'><img src='/Images/Logos/GigaScienceLogo250.png' alt='GigaScience Journal' width="40%" /></a> </td>
@@ -94,7 +94,7 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 <table>
   <tr>
     <td> </td>
-    <td style=" border: none text-align: center;"> <a href='Sponsorships.md'><img src='/Events/GCC2013/Sponsorships/OtherBanner.png' alt='Other Sponsors' width="80%" /></a> </td>
+    <td style=" border: none text-align: center;"> <a href='Sponsorships/'><img src='/Events/GCC2013/Sponsorships/OtherBanner.png' alt='Other Sponsors' width="80%" /></a> </td>
   </tr>
   <tr>
     <td> </td>
@@ -106,7 +106,7 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='Sponsorships.md'><img src='/Events/GCC2013/Sponsorships/HostsBanner.png' alt='Hosts and Funding Agencies' width="80%" /></a> </td>
+    <td style=" text-align: center; border: none"> <a href='Sponsorships/'><img src='/Events/GCC2013/Sponsorships/HostsBanner.png' alt='Hosts and Funding Agencies' width="80%" /></a> </td>
   </tr>
 </table>
 

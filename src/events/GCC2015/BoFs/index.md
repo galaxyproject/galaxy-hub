@@ -20,7 +20,7 @@ To plan a Birds of a Feather meetup:
 1. Once the BoF wiki page exists
   1. Notify [outreach AT galaxyproject DOT org](Galaxy Outreach).  Outreach will tweet it and highlight it in communication with attendees.
   1. Tweet it (use the hashtag #usegalaxy).
-  1. If you want, you can also [create a Galaxy News Item](/News.md#add-a-news-item) about the BoF (or again, send the text to [outreach AT galaxyproject DOT org](Galaxy Outreach).
+  1. If you want, you can also [create a Galaxy News Item](/News/#add-a-news-item) about the BoF (or again, send the text to [outreach AT galaxyproject DOT org](Galaxy Outreach).
 
 ### Submit Your BoF Description
 

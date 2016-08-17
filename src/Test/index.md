@@ -225,7 +225,7 @@ Any jobs queued after the limit of 4 has been met will remain in the status "wai
 
 #### Data
 
-Reduce the amount of data in your account. Start with removing any Histories that are no longer needed on the **Options &rarr; Saved Histories** form and the option **Delete Permanently**. More information about data is covered on the [Managing Datasets](/Learn/Managing Datasets.md#actions) wiki.
+Reduce the amount of data in your account. Start with removing any Histories that are no longer needed on the **Options &rarr; Saved Histories** form and the option **Delete Permanently**. More information about data is covered on the [Managing Datasets](/Learn/Managing Datasets/#actions) wiki.
 
 #### Jobs
 To gain access to the test server again, no user action is needed. When your existing jobs complete and number less than 4, new jobs will be added to the queue to execute (maximum of 4 concurrent).
@@ -242,4 +242,4 @@ New Admin features have been added and more are planned for in the near term. De
 
 ## Quotas at the Galaxy Main public instance
 
-See [Main](/Main.md#quotas).
+See [Main](/Main/#quotas).

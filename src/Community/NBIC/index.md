@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://www.nbic.nl/'><img src='/Images/Logos/NBICLogoLogoWithText.PNG.md' alt='NBIC' width="400" /></a>
+<a href='http://www.nbic.nl/'><img src='/Images/Logos/NBICLogoLogoWithText.PNG/' alt='NBIC' width="400" /></a>
 </div>
 
 The [Netherlands Bioinformatics Centre (NBIC)](http://www/nbic.nl) is power user and developer of Galaxy related tools.  NBIC was the host and co-sponsor of [/GCC2011](/GCC2011).  NBIC also sponsored a Galaxy Hackathon in the spring of 2011.
@@ -24,7 +24,7 @@ The [Netherlands Bioinformatics Centre (NBIC)](http://www/nbic.nl) is power user
   </tr>
   <tr>
     <td rowspan=3> 2011/05 </td>
-    <td rowspan=3> <a href='/GCC2011.md'>/GCC2011.md</a> </td>
+    <td rowspan=3> <a href='/GCC2011/'>/GCC2011/</a> </td>
     <td> <em>National Collaborative Platform for Genomics and Proteomics Data Analysis</em> </td>
     <td> Hailiang Mei, NBIC </td>
     <td> <a href='ATTACHMENT_URLGCC2011/NationalCollaborativePlatformForGenomicsAndProteomicsDataAnalysis.pdf'>PDF|&do=get</a>, <a href='http://vimeo.com/24869172'>Watch</a> </td>

@@ -1,7 +1,7 @@
 <div class='newsItemHeader'>[Nov 04, 2013 Galaxy Distribution](/News/2013_11_04_Galaxy_Distribution)</div>
 
 <div class='right'>
-<a href='/http:usegalaxy.org.md'><img src='/Images/NewsGraphics/2013_11_04_usegalaxy.org.jpg' alt='usegalaxy.org' width=300 /></a><br />**usegalaxy.org**</div>
+<a href='/http:usegalaxy.org/'><img src='/Images/NewsGraphics/2013_11_04_usegalaxy.org.jpg' alt='usegalaxy.org' width=300 /></a><br />**usegalaxy.org**</div>
 **Complete [News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2013_11_04)**
 <br />
 <br />

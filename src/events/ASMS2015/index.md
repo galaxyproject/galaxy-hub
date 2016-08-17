@@ -113,7 +113,7 @@ Ample time will be offered for questions from attendees and discussion. Presente
 
 <div class='right'>
 <br />
-<a href='/attachment:ASMS2015GalaxyPFlyer.pdf.md'><img src='/ASMS2015GalaxyPFlyerThumb.png' alt='Galaxy-P at ASMS 2015' /></a>
+<a href='/attachment:ASMS2015GalaxyPFlyer.pdf/'><img src='/ASMS2015GalaxyPFlyerThumb.png' alt='Galaxy-P at ASMS 2015' /></a>
 </div>
 
 ## Flyer

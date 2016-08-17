@@ -25,9 +25,9 @@ Register for both the [GCC2014 main meeting](../Program) and the [Training Day](
 
 <table>
   <tr>
-    <td rowspan=4 style=" border: none"> <br /> <a href='../TrainingDay.md'><img src='/Images/Logos/GCC2014TDLogoSmall.png' alt='Training Day' width="108" /></a> </td>
+    <td rowspan=4 style=" border: none"> <br /> <a href='../TrainingDay/'><img src='/Images/Logos/GCC2014TDLogoSmall.png' alt='Training Day' width="108" /></a> </td>
     <td rowspan=4 style=" border: none"> </strong>+<strong> </td>
-    <td rowspan=4 style=" text-align: center; border: none"> <br /><a href='../Program.md'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='Main Meeting' width="100" /></a> </td>
+    <td rowspan=4 style=" text-align: center; border: none"> <br /><a href='../Program/'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='Main Meeting' width="100" /></a> </td>
     <td rowspan=4 style=" border: none;"> &nbsp;&nbsp;&nbsp;&nbsp; </td>
     <td style=" border: none;"> </td>
     <th style=" color: #000"> Before/on May 23 </th>
@@ -65,7 +65,7 @@ You can, however, still register for the [Training Day](../TrainingDay) + Main M
 
 <table>
   <tr>
-    <td rowspan=4 style=" border: none"> <br /> <a href='../TrainingDay.md'><img src='/Images/Logos/GCC2014TDLogoSmall.png' alt='Training Day' width="105" /></a> </td>
+    <td rowspan=4 style=" border: none"> <br /> <a href='../TrainingDay/'><img src='/Images/Logos/GCC2014TDLogoSmall.png' alt='Training Day' width="105" /></a> </td>
     <td rowspan=4 style=" border: none"> </strong>&nbsp;<strong> </td>
     <td rowspan=4 style=" text-align: center; border: none; width: 108px"> </td>
     <td rowspan=4 style=" border: none;"> &nbsp;&nbsp;&nbsp;&nbsp; </td>
@@ -103,7 +103,7 @@ Interested in only the conference?  Conference-only registration includes admiss
   <tr>
     <td rowspan=4 style=" border: none; width: 110px"> <br /> &nbsp; </td>
     <td rowspan=4 style=" border: none"> </strong>&nbsp;<strong> </td>
-    <td rowspan=4 style=" text-align: center; border: none"> <br /><a href='../Program.md'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='Main Meeting' width="100" /></a> </td>
+    <td rowspan=4 style=" text-align: center; border: none"> <br /><a href='../Program/'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='Main Meeting' width="100" /></a> </td>
     <td rowspan=4 style=" border: none;"> &nbsp;&nbsp;&nbsp;&nbsp; </td>
     <td style=" border: none;"> </td>
     <th style=" color: #000"> Before/on May 23 </th>
@@ -141,23 +141,23 @@ Interested in only the conference?  Conference-only registration includes admiss
   </tr>
   <tr style="background-color: #ddf" >
     <td> February 14 </td>
-    <td> <a href='/Events/GCC2014/Register.md'>Early registration</a> opens </td>
+    <td> <a href='/Events/GCC2014/Register/'>Early registration</a> opens </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> May 23</td>
-    <td> <a href='/Events/GCC2014/Register.md'>Early registration</a> </strong>closed<strong> </td>
+    <td> <a href='/Events/GCC2014/Register/'>Early registration</a> </strong>closed<strong> </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> May 23 </td>
-    <td> <a href='/Events/GCC2014/Register.md'>First cancellation</a> deadline, 100% refund minus processing fees </td>
+    <td> <a href='/Events/GCC2014/Register/'>First cancellation</a> deadline, 100% refund minus processing fees </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> June 6 </td>
-    <td> <a href='/Events/GCC2014/Register.md'>Regular Registration</a> </strong>closed<strong> </td>
+    <td> <a href='/Events/GCC2014/Register/'>Regular Registration</a> </strong>closed<strong> </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> June 6 </td>
-    <td> <a href='/Events/GCC2014/Register.md'>Final cancellation</a> deadline, 50% refund minus processing fees </td>
+    <td> <a href='/Events/GCC2014/Register/'>Final cancellation</a> deadline, 50% refund minus processing fees </td>
   </tr>
 </table>
 

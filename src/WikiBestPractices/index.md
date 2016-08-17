@@ -54,7 +54,7 @@ Discussion is shown as regular text.
 <div class='bestpractice'>
 1. Use *Generous Capitalization* instead of *Parsimonious capitalization.*
 1. Use *!CamelCase* page names.
-1. Use of !MoinMoin [redirect](/HelpOnProcessingInstructions.md#a23redirect)s for page name synonyms, and !CamelCase equivalents is encouraged.
+1. Use of !MoinMoin [redirect](/HelpOnProcessingInstructions/#a23redirect)s for page name synonyms, and !CamelCase equivalents is encouraged.
 </div>
 
 *!CamelCase* page nemaes are strongly preferred as *Separate Word* page titles lead to awkward URLs with lots of embedded %20's (URL-escaped spaces).  You get

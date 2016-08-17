@@ -8,7 +8,7 @@
 
 <div class='dictbox'>
  Appliance:: **[ballaxy](/VA/ballaxyDocker)**
- Technology:: **[Docker](/VirtualAppliances.md#docker-containers)**
+ Technology:: **[Docker](/VirtualAppliances/#docker-containers)**
  Domains:: **computer aided drug design, molecular modelling** 
  Description:: Contains the [BALL (Biochemical Algorithms Library) Project tools](http://www.ball-project.org/), i.e. computer aided drug design and molecular modelling based on protein and ligand structure data.
  Owners:: [Hans-Peter Lenhof Lab](http://www.bioinf.uni-sb.de/HPL), Saarland University; [Oliver Kohlbacher Lab](http://www-bs.informatik.uni-tuebingen.de), University of Tübingen; [Andreas Hildebrandt Lab](http://bio.informatik.uni-mainz.de/members/andreas.hildebrandt), University of Mainz

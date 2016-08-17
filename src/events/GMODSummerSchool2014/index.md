@@ -78,7 +78,7 @@ $ python --version
 Python 2.7.6
 ```
 
-(See also [How to check your Python version](/Admin/GetGalaxy.md#check_your_python_version)).
+(See also [How to check your Python version](/Admin/GetGalaxy/#check_your_python_version)).
 
 Galaxy is best downloaded using the Mercurial distibuted source management system:
 * [http://mercurial.selenic.com/](http://mercurial.selenic.com/)
@@ -94,7 +94,7 @@ This is free software; see the source for copying conditions. There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE
 ```
 
-See also [Using APT to get Mercurial](/Events/BioITWorld2014/W14.md#clone_28download29_galaxy) for an example of
+See also [Using APT to get Mercurial](/Events/BioITWorld2014/W14/#clone_28download29_galaxy) for an example of
 installing mercurial via APT (a unix package manager).
 
 1. **As the galaxy user**, create the directory where you'd want to install Galaxy on your server (in this example, a
@@ -144,9 +144,9 @@ Mercurial, we can easily 'pull' changes, fixes, and updates from `bitbucket.org`
 
 More advanced users may also consider installing Galaxy in a virtual environment with `virtualenv`. This will create a
 clean slate for your python dependencies and paths (including `$PYTHONPATH`). For more information see:
-[Use a clean environment](/Admin/Config/Performance/ProductionServer.md#use_a_clean_environment)
+[Use a clean environment](/Admin/Config/Performance/ProductionServer/#use_a_clean_environment)
 and:
-[Create a Python virtual environment](/Events/BioITWorld2014/W14.md#create_a_python_virtual_environment)
+[Create a Python virtual environment](/Events/BioITWorld2014/W14/#create_a_python_virtual_environment)
 
 
 
@@ -203,7 +203,7 @@ PostgreSQL can be installed with a package manager. Installing, starting, and co
 of this tutorial but more information can be found at:
 [their admin documentation page](http://www.postgresql.org/docs/9.3/static/admin.html)
 and a quick command line example here:
-[Install and configure PostgreSQL](/Events/BioITWorld2014/W14.md#install_and_configure_postgresql)
+[Install and configure PostgreSQL](/Events/BioITWorld2014/W14/#install_and_configure_postgresql)
 
 Let's create a postgres user named galaxy for our system galaxy user:
 1. Log out of the galaxy user and back into your sudo/admin user role by pressing `Ctrl-d`.
@@ -237,7 +237,7 @@ database_connection = postgresql:///galaxydb?host=/var/run/postgresql
 
 
 Some important points and suggestions for setting up a Galaxy server with a full database can be found here:
-[Use a clean environment](/Admin/Config/Performance/ProductionServer.md#use_a_clean_environment)
+[Use a clean environment](/Admin/Config/Performance/ProductionServer/#use_a_clean_environment)
 
 
 <br />
@@ -265,7 +265,7 @@ Disable the debugging and development settings:
 ```
 
 
-See the [Production Server Help](/Admin/Config/Performance/ProductionServer.md#disable_the_developer_settings)
+See the [Production Server Help](/Admin/Config/Performance/ProductionServer/#disable_the_developer_settings)
 for why you'd want to change these.
 
 If you run into problems, you can turn any of these back on and they will provide more information and may help with the
@@ -305,7 +305,7 @@ port = 8081
 
 NOTE: for our example we'll keep the port number at 8081. To provide a clean url without a port number, the best option
 is probably to start using a proxy server:
-[Using a proxy server](/Admin/Config/Performance/ProductionServer.md#using_a_proxy_server)
+[Using a proxy server](/Admin/Config/Performance/ProductionServer/#using_a_proxy_server)
 
 Change the listening address to `0.0.0.0` and uncomment:
 ```ini
@@ -420,7 +420,7 @@ Galaxy does not delete or clear the log file between starts and stops and it app
 end of the file. That means that you're able to scan it for past information as well.
 
 This also means that the file can grow quickly. To 'rotate' your log files, see:
-[Rotating log files](/Admin/Config/Performance/ProductionServer.md#rotate_log_files).
+[Rotating log files](/Admin/Config/Performance/ProductionServer/#rotate_log_files).
 
 It can be useful (for this tutorial or anytime you're configuring your server) when running in daemon mode to open a new
 terminal window or tab and 'follow the tail' of your log file:
@@ -591,7 +591,7 @@ created from there.
 
 [Galaxy main tool shed](http://toolshed.g2.bx.psu.edu/)
 [Galaxy test tool shed](http://testtoolshed.g2.bx.psu.edu/)
-[Public tool sheds](/PublicGalaxyServers.md#public_toolsheds)
+[Public tool sheds](/PublicGalaxyServers/#public_toolsheds)
 See also the comprehensive documentation on Tool Sheds here: [ToolShed](/ToolShed);
 
 
@@ -637,7 +637,7 @@ None. You may need to enable third-party cookies in your browser.', you'll need 
 duration of this workshop).
 
 To enable 3rd-party cookies in Firefox or Chrome, see:
-[enabling 3rd-party cookies](/Events/BioITWorld2014/W14.md#install_a_tool_from_the_tool_shed)
+[enabling 3rd-party cookies](/Events/BioITWorld2014/W14/#install_a_tool_from_the_tool_shed)
 
 
 Let's check that it was installed and is now available:

@@ -669,7 +669,7 @@ These trainers don't travel, but their workshops are open to researchers outside
 
 ### University of Minnesota Minnesota Supercomputing Institute Research Informatics Solutions
 
-<div class='right'><a href='https://www.msi.umn.edu/about/staff/riss'><img src='/Images/Logos/UofM_D2D.gif.md' alt='University of Minnesota Minnesota Supercomputing Institute Research Informatics Solutions' width="300" /></a></div>
+<div class='right'><a href='https://www.msi.umn.edu/about/staff/riss'><img src='/Images/Logos/UofM_D2D.gif/' alt='University of Minnesota Minnesota Supercomputing Institute Research Informatics Solutions' width="300" /></a></div>
  
 * *Description:*
   * [RIS](https://www.msi.umn.edu/about/staff/riss) is a group of experienced bioinformatics experts within the Supercomputing Institute at the University of Minnesota.

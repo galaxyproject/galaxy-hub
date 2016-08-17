@@ -2,14 +2,14 @@
 
 <div class='right'>TABLE_OF_CONTENTS</div>
 
-<div class='left'><a href='/GalaxyUpdates.md'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the July 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 The *Galaxy Update* is going out a few days early this month because the usual release date is during [GCC2014](/Events/GCC2014).  
 
 # Events
-<div class='left'><br /><a href='/Events/GCC2014.md'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="120" /></a></div>
+<div class='left'><br /><a href='/Events/GCC2014/'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="120" /></a></div>
 
 ## GCC2014: June 30 - July 2, Baltimore
 
@@ -22,8 +22,8 @@ Fifteen [Training sessions on 12 topics](/Events/GCC2014/TrainingDay), several [
 ## Galaxy @ ISBMB and BOSC 2014
 
 <div class='right'>
-<a href='/Events/ISMB2014.md'><img src='/Images/Logos/BOSC_logo.png' alt='BOSC 2014' height="65" /></a>&nbsp;&nbsp;&nbsp;
-<a href='/Events/ISMB2014.md'><img src='/Images/Logos/ISMB2014LogoRound.png' alt='ISMB 2014' height="85" /></a>
+<a href='/Events/ISMB2014/'><img src='/Images/Logos/BOSC_logo.png' alt='BOSC 2014' height="65" /></a>&nbsp;&nbsp;&nbsp;
+<a href='/Events/ISMB2014/'><img src='/Images/Logos/ISMB2014LogoRound.png' alt='ISMB 2014' height="85" /></a>
 </div>
 
 There will be at least six talks and five posters related to Galaxy at [ISMB and BOSC 2014](/Events/ISMB2014) this year.  Talks include
@@ -37,7 +37,7 @@ There will be at least six talks and five posters related to Galaxy at [ISMB and
   
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif.md' /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> 
 
 Over the rest of the summer there are other [Galaxy related events](/Events) in Leiden, Sydney, Brisbane, São Paulo, and Rio de Janeiro. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -55,14 +55,14 @@ Over the rest of the summer there are other [Galaxy related events](/Events) in 
   </tr>
   <tr>
     <th> June 28-30 </th>
-    <td> <a href='/Events/GCC2014/Hackathon.md'>Galaxy Hackathon</a> </td>
+    <td> <a href='/Events/GCC2014/Hackathon/'>Galaxy Hackathon</a> </td>
     <td rowspan=2> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
-    <td> <a href='/Events/GCC2014/Organizers.md'>Organizers</a> </td>
+    <td> <a href='/Events/GCC2014/Organizers/'>Organizers</a> </td>
   </tr>
   <tr>
     <th> June 30 -<br />July 2 </th>
-    <td> </strong><a href='/Events/GCC2014.md'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
-    <td> <a href='/Events/GCC2014/Organizers.md'>Organizers</a> </td>
+    <td> </strong><a href='/Events/GCC2014/'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
+    <td> <a href='/Events/GCC2014/Organizers/'>Organizers</a> </td>
   </tr>
   <tr>
     <th> July 7-9 </th>
@@ -78,9 +78,9 @@ Over the rest of the summer there are other [Galaxy related events](/Events) in 
   </tr>
   <tr>
     <th> July 11-15 </th>
-    <td> </strong><a href='/Events/ISMB2014.md'>ISMB and BOSC 2014</a><strong><div class='indent'>At least six talks and five posters</div> </td>
+    <td> </strong><a href='/Events/ISMB2014/'>ISMB and BOSC 2014</a><strong><div class='indent'>At least six talks and five posters</div> </td>
     <td> Boston, Massachussetts, United States </td>
-    <td> See <a href='/Events/ISMB2014.md'>presenter list</a> </td>
+    <td> See <a href='/Events/ISMB2014/'>presenter list</a> </td>
   </tr>
   <tr>
     <th> July 18 </th>
@@ -90,9 +90,9 @@ Over the rest of the summer there are other [Galaxy related events](/Events) in 
   </tr>
   <tr>
     <th> July 28 - August 1 </th>
-    <td> <em><a href='/Events/SaoPaulo2014.md'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a></em> </td>
+    <td> <em><a href='/Events/SaoPaulo2014/'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a></em> </td>
     <td> <a href='http://usp.br/'>University of São Paulo (USP)</a>, São Paulo, Brazil </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 25-27 </th>
@@ -114,16 +114,16 @@ Over the rest of the summer there are other [Galaxy related events](/Events) in 
   </tr>
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
-    <td> <a href='/Events/Switzerland2014/trainingday.md'>Galaxy Training and Demo Day</a> </td>
+    <td> <a href='/Events/Switzerland2014/trainingday/'>Galaxy Training and Demo Day</a> </td>
     <td> Bern (Switzerland) </td>
-    <td rowspan=3> <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a> and <a href='/BjoernGruening.md'>Bjoern Gruening</a> </td>
+    <td rowspan=3> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> and <a href='/BjoernGruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/Events/Switzerland2014.md'>(second Swiss) Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/Events/Switzerland2014/'>(second Swiss) Galaxy Workshop</a></em> </td>
     <td> SyBIT Tech Day, Bern (Switzerland) </td>
   </tr>
   <tr>
-    <td> <em><a href='/Events/Germany2014.md'>German Galaxy Developers Day</a></em> </td>
+    <td> <em><a href='/Events/Germany2014/'>German Galaxy Developers Day</a></em> </td>
     <td> Freiburg (Germany) </td>
   </tr>
 </table>
@@ -200,7 +200,7 @@ The new papers were tagged in many different areas:
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring.md'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -244,7 +244,7 @@ One new [public Galaxy server](/PublicGalaxyServers) was added to the published 
 
 ## June 2, 2014 Galaxy Distribution
 
-<div class='right'> <a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2014_06_02_dataset-collections-crop.png' alt='Dataset Collections Workflow Detail' width="400" /></a> <br /> *example dataset collection workflow ([credits](/DevNewsBriefs/2014_06_02.md#dataset_collections))* </div>
+<div class='right'> <a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2014_06_02_dataset-collections-crop.png' alt='Dataset Collections Workflow Detail' width="400" /></a> <br /> *example dataset collection workflow ([credits](/DevNewsBriefs/2014_06_02/#dataset_collections))* </div>
 
 <br />
 **[News Brief](/DevNewsBriefs/2014_06_02)** **Highlights:**
@@ -260,7 +260,7 @@ One new [public Galaxy server](/PublicGalaxyServers) was added to the published 
 <table>
   <tr>
     <td rowspan=3 style=" border: none"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none"> </strong><a href='/Admin/GetGalaxy.md'>getgalaxy.org</a><strong> </td>
+    <td colspan=2 style=" border: none"> </strong><a href='/Admin/GetGalaxy/'>getgalaxy.org</a><strong> </td>
   </tr>
   <tr>
     <td style=" border: none"> </strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a><strong> </td>
@@ -303,13 +303,13 @@ The most recent version of CloudMan was [released in January 2014](/News/CloudMa
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/Community/Logs.md'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a></div>
-<div class='right'><a href='/Community/Deployments.md'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/Community/Logs/'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a></div>
+<div class='right'><a href='/Community/Deployments/'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/Community/Logs.md#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs.md#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/Community/Deployments.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments.md#add-your-galaxy-deployment'>now</a></em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/Community/Logs/#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs/#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/Community/Deployments/#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments/#add-your-galaxy-deployment'>now</a></em> </td>
   </tr>
 </table>
 

@@ -8,9 +8,9 @@ To be included in the library a publication needs to reference or mention Galaxy
 
 Here's a review of those first 2500 papers.
 
-<span style="font-size: larger;">**[The Tags](/CiteULike.md#citeulike-tags)**</span>
+<span style="font-size: larger;">**[The Tags](/CiteULike/#citeulike-tags)**</span>
 
-Each paper is reviewed and one or more tags are added to it.  The initial set featured 9 tags.  This wasn't quite enough, and 8 more were added in 2013, bringing the [total to 17](/CiteULike.md#citeulike-tags).  (Papers from 2012 were back-curated with the new tags, but not before that.)  The numbers for each tag in each year for the first 2500 papers are below.
+Each paper is reviewed and one or more tags are added to it.  The initial set featured 9 tags.  This wasn't quite enough, and 8 more were added in 2013, bringing the [total to 17](/CiteULike/#citeulike-tags).  (Papers from 2012 were back-curated with the new tags, but not before that.)  The numbers for each tag in each year for the first 2500 papers are below.
 
 <table>
   <tr>
@@ -372,7 +372,7 @@ Finally, the total number of papers per year continues to increase, and we expec
 
 <br />
 
-We will continue to report new papers in the [monthly Galaxy newsletters](/GalaxyUpdates).  New [tags](/CiteULike.md#citeulike-tags) may also show up as the project and community evolve.
+We will continue to report new papers in the [monthly Galaxy newsletters](/GalaxyUpdates).  New [tags](/CiteULike/#citeulike-tags) may also show up as the project and community evolve.
 
 In the meantime, I expect the next 2500 papers will be published in considerably less than time than the first 2500.  I'm looking forward to all that research
 

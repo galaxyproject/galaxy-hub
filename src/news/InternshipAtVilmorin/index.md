@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[Internship @ Vilmorin & Co](/News/InternshipAtVilmorin)</div>
 
-<div class='right'><a href='http://www.vilmorin.info/'><img src='/Images/Logos/VilmorinLogo.gif.md' alt='Vilmorin & Co.'  /></a></div>
+<div class='right'><a href='http://www.vilmorin.info/'><img src='/Images/Logos/VilmorinLogo.gif/' alt='Vilmorin & Co.'  /></a></div>
 
 **Duration: 4-6 months**<br />
 **Subject: Integration and optimization of tools for SNP data analysis**

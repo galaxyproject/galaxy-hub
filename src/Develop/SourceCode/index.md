@@ -17,7 +17,7 @@ The technical details regarding the transition can be found on the [the GitHub t
 
 [https://github.com/galaxyproject/galaxy/](https://github.com/galaxyproject/galaxy/) is the source repository.
 
-If you have created piece of code for Galaxy that you would like to share with the community, please follow the instructions contained in https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING.md .
+If you have created piece of code for Galaxy that you would like to share with the community, please follow the instructions contained in https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING/ .
 
 For commits made prior to the switch to git, you can find the former HG commit IDs via git notes. Assuming you have set the [canonical Galaxy GitHub repository](https://github.com/galaxyproject/galaxy/) as the remote `upstream`, it is done like so (if you cloned directly from the canonical source rather than your own !GitHub fork, the remote would be `origin`):
 

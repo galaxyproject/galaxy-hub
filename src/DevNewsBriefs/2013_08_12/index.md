@@ -249,10 +249,10 @@ Details: Only Galaxy instances with `allow_user_impersonation = True` set in the
 **[/News](/News)**, ***[August 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_08)***
 
 ## GCC 2013 Wrap-up
-**[GCC2013 Report](/GalaxyUpdates/2013_08.md#gcc2013-report):** Meeting summaries, and links to videos, talks, posters, and Training Day materials.
+**[GCC2013 Report](/GalaxyUpdates/2013_08/#gcc2013-report):** Meeting summaries, and links to videos, talks, posters, and Training Day materials.
 <br />
 ## New Way to "Use Galaxy"
-**[Galaxy Edition of SlipStream:](/GalaxyUpdates/2013_08.md#slipstream-appliance-galaxy-edition-announced) ***Galaxy*** is now available as an appliance.
+**[Galaxy Edition of SlipStream:](/GalaxyUpdates/2013_08/#slipstream-appliance-galaxy-edition-announced) ***Galaxy*** is now available as an appliance.
 <br />
 <br />
 ----

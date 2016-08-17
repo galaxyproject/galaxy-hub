@@ -11,8 +11,8 @@ In the source Distribution:
 * [https://github.com/galaxyproject/galaxy/tree/master//scripts/api/example_watch_folder.py](https://github.com/galaxyproject/galaxy/tree/master//scripts/api/example_watch_folder.py)
 
 In this wiki:
-* [2010/07/16 News Brief](/DevNewsBriefs/2010_07_16.md#initial-implementation-of-the-galaxy-web-api), initial implementation described
-* [2011/08/30 News Brief](/DevNewsBriefs/2011_08_30.md#api), update
+* [2010/07/16 News Brief](/DevNewsBriefs/2010_07_16/#initial-implementation-of-the-galaxy-web-api), initial implementation described
+* [2011/08/30 News Brief](/DevNewsBriefs/2011_08_30/#api), update
 * [GCC2011 Galaxy Deployment and API presentation](/Events/GCC2011)
 * [Sample Tracking API](/Admin/Sample Tracking/Next Gen)
 * [GCC2011 Workflows and API Breakout Group](/Events/GCC2011/Workflows and API)

@@ -11,5 +11,5 @@ TABLE_OF_CONTENTS
 However, right now it's empty.  Until we get something more here, see
 
 * [Learning Galaxy Hub Pages](/Learn)
-  * especially the [Other Tutorials](/Learn.md#other-tutorials) list
-* [Past Events list](/Events.md#past-events) and [Events Archive](/Events/Archive), many of which include slides, exercises and other workshop material.
+  * especially the [Other Tutorials](/Learn/#other-tutorials) list
+* [Past Events list](/Events/#past-events) and [Events Archive](/Events/Archive), many of which include slides, exercises and other workshop material.

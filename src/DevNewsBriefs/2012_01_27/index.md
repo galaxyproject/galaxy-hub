@@ -66,10 +66,10 @@
   * Reset all metadata on all changeset revisions of a tool shed repsoitory whenever a new change set is introduced. This will result in a more standardized set of valid changeset revisions that can be installed.
   * Fix for generating workflow metadata and viewing workflows in tool shed repositories.
   * Fix for searching for workflows in the tool shed.
-* [Deactivating and uninstalling tool shed repositories installed into a local Galaxy instance](/Tool Shed.md#deactivating_and_uninstalling_tool_shed_repositories_installed_into_a_local_galaxy_instance)
+* [Deactivating and uninstalling tool shed repositories installed into a local Galaxy instance](/Tool Shed/#deactivating_and_uninstalling_tool_shed_repositories_installed_into_a_local_galaxy_instance)
 
 ## Bug Fixes
-<div class='right'><a href='/Support.md'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
+<div class='right'><a href='/Support/'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
 * Python 2.5 support was broken in the last stable release, this has been fixed 
 * A broken unit test under 2.5 will not be fixed until the next release, however - this can safely be ignored.
 * A fix to not use math.isnan because it is not compatible with python 2.5 has been made.

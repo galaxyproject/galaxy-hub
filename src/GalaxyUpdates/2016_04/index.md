@@ -9,7 +9,7 @@
 
 </div>
 
-<div class='left'><a href='/GalaxyUpdates.md'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
+<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
 Welcome to the April 2016 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. 
 
@@ -145,7 +145,7 @@ There are [many upcoming events](/Events) in the next few months.  See the [Gala
 
 <div class='center'> 
 <a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src='/Images/Logos/deNBILogo.png' alt='Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies' height="50" /></a> &nbsp;
-<a href='/Community/GalaxyAdmins/Meetups/2016_04_21.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='21 April GalaxyAdmins Web Meetup' height="56" /></a> &nbsp;
+<a href='/Community/GalaxyAdmins/Meetups/2016_04_21/'><img src='/Images/Logos/GalaxyAdmins.png' alt='21 April GalaxyAdmins Web Meetup' height="56" /></a> &nbsp;
 <a href='http://icmexico2016.soibio.org/product/icwmexico2016-galaxy-workshop/'><img src='/Images/Logos/SolBio2016.png' alt='Workshop on Galaxy: Practical Course' height="60" /></a> &nbsp;
 <a href='https://biotexcel.com/event/ngs-2016-glasgow/#tab3'><img src='/Images/Logos/GlasgowPolyomics.jpg' alt='NGS Bioinformatics Data Analysis Workshop' height="90" /></a>
 <a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2016'><img src='/Images/Logos/GalaxyWorkshopTokyo2016.png' alt='Galaxy Workshop Tokyo 2016' height="80" /></a>
@@ -168,13 +168,13 @@ There are [many upcoming events](/Events) in the next few months.  See the [Gala
     <th> April 6-7 </th>
     <td> </strong><em><a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'>Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies</a><strong></em> </td>
     <td> INCLUDE(/Events/Badges/Europe) <a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'>Galaxy DevOps Workshop 2016</a>, <a href='https://drive.google.com/file/d/0B2xSE9muunQPQ1E1Q3UwMVBTR1k'>Heidelberg</a>, Germany </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/BjoernGruening.md'>Björn Grüning</a> </td>
+    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/BjoernGruening/'>Björn Grüning</a> </td>
   </tr>
   <tr>
     <th> April 21 </th>
-    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2016_04_21.md'>GalaxyAdmins Web Meetup</a></em> </td>
-    <td> INCLUDE(/Events/Badges/World) <em><a href='/Community/GalaxyAdmins/Meetups/2016_04_21.md'>Online</a></em> </td>
-    <td> <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a>, <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2016_04_21/'>GalaxyAdmins Web Meetup</a></em> </td>
+    <td> INCLUDE(/Events/Badges/World) <em><a href='/Community/GalaxyAdmins/Meetups/2016_04_21/'>Online</a></em> </td>
+    <td> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a>, <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> April 22-26 </th>
@@ -192,7 +192,7 @@ There are [many upcoming events](/Events) in the next few months.  See the [Gala
     <th> April 28 </th>
     <td> <em><a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2016'>Galaxy Workshop Tokyo 2016</a></em> </td>
     <td> INCLUDE(/Events/Badges/Asia) <a href='http://www.rcast.u-tokyo.ac.jp/index_ja.html'>RCAST, The University of Tokyo</a>, Japan </td>
-    <td> <a href="mailto:t DOT ohta AT dbcls.rois.ac.jp">Tazro Ohta</a>, <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href="mailto:t DOT ohta AT dbcls.rois.ac.jp">Tazro Ohta</a>, <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -261,8 +261,8 @@ There are [many upcoming events](/Events) in the next few months.  See the [Gala
 
 <table>
   <tr>
-    <td style=" border: none"> <a href='/Teach/Trainers.md'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
-    <td style=" border: none"> <span style="font-size: smaller;"> <a href='/Teach/Trainers.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none"> <a href='/Teach/Trainers/'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
+    <td style=" border: none"> <span style="font-size: smaller;"> <a href='/Teach/Trainers/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
@@ -414,14 +414,14 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Teach.md'><img src='/Images/GalaxyLogos/GTNLogo300.png' alt='Galaxy Training Network' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Logs.md'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Deployments.md'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%"> <a href='/Teach/'><img src='/Images/GalaxyLogos/GTNLogo300.png' alt='Galaxy Training Network' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Logs/'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Deployments/'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong>Share your <a href='/Teach/Resources.md#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers.md#add-a-trainer'>experience</a> <em>now</em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Logs.md#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs.md#add-a-log-page'>now</a></em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Deployments.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments.md#add-your-galaxy-deployment'>now</a></em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none"> </strong>Share your <a href='/Teach/Resources/#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers/#add-a-trainer'>experience</a> <em>now</em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Logs/#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs/#add-a-log-page'>now</a></em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Deployments/#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments/#add-your-galaxy-deployment'>now</a></em> <strong> </td>
   </tr>
 </table>
 
@@ -432,8 +432,8 @@ Two new [Community Log entries](/Community/Logs) were added in March
 * **[Setting up Galaxy with TORQUE on AWS](/Community/Log/2016/TorqueOnAWS)** by [Alex Kanterakis](https://gist.github.com/kantale)
 
 As were two and two new [training organizations](/Teach/Trainers).
-* **[EMBL-ABR](/Teach/Trainers.md#embl-abr)** is a distributed national research infrastructure providing bioinformatics support to life science researchers in Australia. 
-* **[GenoToul bioinformatics platform, Sigenae, NED (GenPhySE) and TWB](/Teach/Trainers.md#genotoul-bioinformatics-platform-sigenae-ned-genphyse-and-twb)** offers a [catalog of training sessions](http://bioinfo.genotoul.fr/index.php?id=10) on Galaxy.
+* **[EMBL-ABR](/Teach/Trainers/#embl-abr)** is a distributed national research infrastructure providing bioinformatics support to life science researchers in Australia. 
+* **[GenoToul bioinformatics platform, Sigenae, NED (GenPhySE) and TWB](/Teach/Trainers/#genotoul-bioinformatics-platform-sigenae-ned-genphyse-and-twb)** offers a [catalog of training sessions](http://bioinfo.genotoul.fr/index.php?id=10) on Galaxy.
 
 ----
 
@@ -456,7 +456,7 @@ See the [release history](http://planemo.readthedocs.org/en/latest/history.html#
 
 ## CloudMan 16.03
 
-<div class='right'><a href='/CloudMan.md'><img src='/Images/GalaxyLogos/cloudman-logo.jpg' alt='CloudMan' width="180" /></a></div>
+<div class='right'><a href='/CloudMan/'><img src='/Images/GalaxyLogos/cloudman-logo.jpg' alt='CloudMan' width="180" /></a></div>
 
 **We just released an update to Galaxy !CloudMan on AWS.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
 
@@ -580,6 +580,6 @@ The [/IUC](/IUC) is [seeking comments and contributions to this effort](https://
 * From [Bjöern Grüening](/BjoernGruening): 
   * Cheminformatics datatypes were added to Galaxy with [this pull request](https://github.com/galaxyproject/galaxy/pull/1941). Expect new ChemicalToolBox development soon!
   * [deepTools](https://deeptools.github.io/) visualization, QC, and data normalization tools are now available on [usegalaxy.org](https://usegalaxy.org). Thanks to [Devon Ryan](https://twitter.com/dpryan79) and https://twitter.com/fidel_ramirez|Fidel Ramirez]]
-  * Galaxy Tours, a new interactive way to learn Galaxy, were announced in the [February News](/GalaxyUpdates/2016_02.md#new-tutorials--and-tours).  We now have an [official repository to collect community tours](https://github.com/galaxyproject/galaxy-tours).
+  * Galaxy Tours, a new interactive way to learn Galaxy, were announced in the [February News](/GalaxyUpdates/2016_02/#new-tutorials--and-tours).  We now have an [official repository to collect community tours](https://github.com/galaxyproject/galaxy-tours).
 * From Yvan Le Bras:
   * My [first Galaxy Interactive Tour attempt](https://www.youtube.com/watch?v=msm-EDZcB5A&feature=youtu.be) for RADseq data analysis based on a RNAseq, using Björn Grüning's template.

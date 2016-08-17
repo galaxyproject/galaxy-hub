@@ -6,9 +6,9 @@ There are different registration levels, depending on your career stage and your
 <table>
   <tr>
     <td style=" border: none;"> </td>
-    <th style=" width: 35%"> <a href='/Events/GCC2012/Program.md'>Conference Only</a> </th>
+    <th style=" width: 35%"> <a href='/Events/GCC2012/Program/'>Conference Only</a> </th>
     <td style=" border: none;"> </td>
-    <th style=" width: 35%"> <a href='/Events/GCC2012/Program.md'>Conference</a> + <br /><a href='/Events/GCC2012/Program.md'>Training Day</a> </th>
+    <th style=" width: 35%"> <a href='/Events/GCC2012/Program/'>Conference</a> + <br /><a href='/Events/GCC2012/Program/'>Training Day</a> </th>
   </tr>
   <tr>
     <td style=" border: none;"> </td>
@@ -58,10 +58,10 @@ There are different registration levels, depending on your career stage and your
 
 ### Lodging
 
-You may also arrange your [lodging](/Events/GCC2012/Logistics.md#lodging) when registering.  There are two official lodging options:
+You may also arrange your [lodging](/Events/GCC2012/Logistics/#lodging) when registering.  There are two official lodging options:
 
 * On the [UIC Campus at James Stuckel Towers](http://www.housing.uic.edu/halls/jst/index.php). This option must be booked at the same time as you register.  <<span(red)>>**The James Stuckel Towers are now sold out.**<<span>>
-* At the [Crowne Plaza Chicago Metro Downtown](/Events/GCC2012/Logistics.md#crowne-plaza-chicago-metro-downtown).  This option ends July 23, or when rooms fill up.
+* At the [Crowne Plaza Chicago Metro Downtown](/Events/GCC2012/Logistics/#crowne-plaza-chicago-metro-downtown).  This option ends July 23, or when rooms fill up.
 
 There are a limited number of rooms in each.  You are encouraged to register/reserve early.
 

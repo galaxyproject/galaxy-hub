@@ -3,7 +3,7 @@ INCLUDE(/Events/GCC2013/Header)
 <div class="title">GCC2013 Training Day</div>
 
 INCLUDE(/Events/GCC2013/LinkBox)
-<div class='right'><a href='/Events/GCC2013/TrainingDay.md'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='Training Day' width="200" /></a></div>
+<div class='right'><a href='/Events/GCC2013/TrainingDay/'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='Training Day' width="200" /></a></div>
 
 # Advanced Tool and Data Source Configuration
 

@@ -1,4 +1,4 @@
-<div class='center'><a href='/Community/GalaxyAdmins.md'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='GalaxyAdmins' width="220" /></a> 
+<div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='GalaxyAdmins' width="220" /></a> 
 <div class="title">2016/08/18 Web Meetup<br /><br />
 
 </div></div>
@@ -18,7 +18,7 @@ INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em>TBA</em> (<a href='ATTACHMENT_URLDocuments/Presentations/201608_Admins_und.pdf'>Slides</a>)<div class='indent'> <a href='https://engineering.nd.edu/profiles/colivia'>Olivia Choudhury</a>, <a href='https://engineering.nd.edu/profiles/nhazekamp'>Nick Hazekamp</a>, <a href='https://www3.nd.edu/~semrich/'>Scott Emrich</a>; <a href='http://www.nd.edu/'>University of Notre Dame</a> </div> <em>TBA</em> (<a href='ATTACHMENT_URLDocuments/Presentations/201608_Admins_.pdf'>Slides</a>)<div class='indent'><a href='/GalaxyTeam.md'>Galaxy Team member</a></div> </td>
+    <td> <em>TBA</em> (<a href='ATTACHMENT_URLDocuments/Presentations/201608_Admins_und.pdf'>Slides</a>)<div class='indent'> <a href='https://engineering.nd.edu/profiles/colivia'>Olivia Choudhury</a>, <a href='https://engineering.nd.edu/profiles/nhazekamp'>Nick Hazekamp</a>, <a href='https://www3.nd.edu/~semrich/'>Scott Emrich</a>; <a href='http://www.nd.edu/'>University of Notre Dame</a> </div> <em>TBA</em> (<a href='ATTACHMENT_URLDocuments/Presentations/201608_Admins_.pdf'>Slides</a>)<div class='indent'><a href='/GalaxyTeam/'>Galaxy Team member</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>

@@ -13,7 +13,7 @@
 * [Learn](http://wiki.galaxyproject.org/Learn)
 * [Teach](http://wiki.galaxyproject.org/Teach)
 * [Vimeo](http://vimeo.com/galaxyproject)
-* [GalaxyProject.org](http://wiki.galaxyproject.org) &rarr; Execute a [Custom search](/Support.md#custom_searches) through all project content
+* [GalaxyProject.org](http://wiki.galaxyproject.org) &rarr; Execute a [Custom search](/Support/#custom_searches) through all project content
 * [Galaxy Project Workshop 2015](https://wiki.galaxyproject.org/Teach/Resource/GalaxyProjectWorkshop2015)
 * [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks)
 * [Known Issues](https://github.com/jennaj/support-known-issues/wiki)
@@ -62,9 +62,9 @@ We want to create a space where researchers using Galaxy can come together and s
 ## Mailing Lists
 Galaxy has one public mailing lists for questions, one private mailing list for bug reports, and one announcement mailing list. Please do not post questions through the **[Galaxy Issue Board](/Issues)**; these will only be redirected. Manage subscriptions and learn more about these list at the **[Mailing Lists](/MailingLists)** home page. See also:
 <div class='right'>![](/Images/Logos/MailmanLogoSmall.png)</div>
-* [Error from tools: Sending in a specific-use bug report](/Support.md#error_from_tools)
-* [Starting a technical tool, local, cloud instance, or development thread](/Support.md#starting_a_technical_tool2c_local2fcloud_instance2c_or_development_thread)
-* [Reporting/vetting a software bug](/Support.md#reporting_a_software_bug)
+* [Error from tools: Sending in a specific-use bug report](/Support/#error_from_tools)
+* [Starting a technical tool, local, cloud instance, or development thread](/Support/#starting_a_technical_tool2c_local2fcloud_instance2c_or_development_thread)
+* [Reporting/vetting a software bug](/Support/#reporting_a_software_bug)
 
 Note: The galaxy-user mailing list has been retired. Galaxy scientific user and tool help has moved to **[Galaxy Biostar](/Support/Biostar)**. 
 

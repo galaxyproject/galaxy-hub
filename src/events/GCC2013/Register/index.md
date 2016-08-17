@@ -8,7 +8,7 @@ INCLUDE(/Events/GCC2013/LinkBox)
 
 Our goal is to have registration be downright affordable, and to make early registration *outrageously* affordable for students and postdocs, with combined *on-time* registration ([Training Day](/Events/GCC2013/TrainingDay) + main meeting) starting at ~ €165.  Registering now also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.
 
-<div class='left'><a href='../TrainingDay.md'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='Training Day' height="60" /></a></div>
+<div class='left'><a href='../TrainingDay/'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='Training Day' height="60" /></a></div>
 
 **If you are attending the [Training Day](../TrainingDay), you are encouraged to review the [schedule and topics](../TrainingDay) before registering.** You will select the topics you will attend as part of registration.
 
@@ -22,9 +22,9 @@ You will receive an email confirming your registration within 3 business days.  
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='../Program.md'><img src='/Images/Logos/GCC2013Logo200.png' alt='Main Meeting' height="80" /></a> </td>
+    <td style=" text-align: center; border: none"> <a href='../Program/'><img src='/Images/Logos/GCC2013Logo200.png' alt='Main Meeting' height="80" /></a> </td>
     <td style=" border: none"> </strong>+<strong> </td>
-    <td style=" border: none"> <a href='../TrainingDay.md'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='Training Day' height="60" /></a> </td>
+    <td style=" border: none"> <a href='../TrainingDay/'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='Training Day' height="60" /></a> </td>
   </tr>
 </table>
 
@@ -63,7 +63,7 @@ You will receive an email confirming your registration within 3 business days.  
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='../Program.md'><img src='/Images/Logos/GCC2013Logo200.png' alt='Main Meeting' height="80" /></a> </td>
+    <td style=" text-align: center; border: none"> <a href='../Program/'><img src='/Images/Logos/GCC2013Logo200.png' alt='Main Meeting' height="80" /></a> </td>
   </tr>
 </table>
 
@@ -102,7 +102,7 @@ Interested in only the conference?  [Conference-only registration](http://bit.ly
 
 <table>
   <tr>
-    <td style=" border: none"> <a href='../Program.md'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='Training Day' height="60" /></a> </td>
+    <td style=" border: none"> <a href='../Program/'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='Training Day' height="60" /></a> </td>
   </tr>
 </table>
 
@@ -146,27 +146,27 @@ Interested in the [Training Day](../TrainingDay), but not the main meeting itsel
   </tr>
   <tr style="background-color: #ddf" >
     <td> 22 February </td>
-    <td> <a href='/Events/GCC2013/Register.md'>Early registration</a> opened </td>
+    <td> <a href='/Events/GCC2013/Register/'>Early registration</a> opened </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> 24 May </td>
-    <td> <a href='/Events/GCC2013/Register.md'>Early registration</a> </strong>closed<strong> </td>
+    <td> <a href='/Events/GCC2013/Register/'>Early registration</a> </strong>closed<strong> </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> 24 May </td>
-    <td> <a href='/Events/GCC2013/Register.md'>First cancellation</a> deadline, 100% refund minus processing fees </td>
+    <td> <a href='/Events/GCC2013/Register/'>First cancellation</a> deadline, 100% refund minus processing fees </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> 7 June </td>
-    <td> <a href='/Events/GCC2013/Register.md'>Final cancellation</a> deadline,  50% refund minus processing fees </td>
+    <td> <a href='/Events/GCC2013/Register/'>Final cancellation</a> deadline,  50% refund minus processing fees </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> 14 June </td>
-    <td> <a href='/Events/GCC2013/Register.md'>Regular Registration</a> </strong>closed<strong> </td>
+    <td> <a href='/Events/GCC2013/Register/'>Regular Registration</a> </strong>closed<strong> </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> 26 June </td>
-    <td> <a href='/Events/GCC2013/Register.md'>Late registration</a> </strong>closed<strong> </td>
+    <td> <a href='/Events/GCC2013/Register/'>Late registration</a> </strong>closed<strong> </td>
   </tr>
 </table>
 

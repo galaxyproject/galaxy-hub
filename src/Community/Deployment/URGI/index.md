@@ -60,11 +60,11 @@ Instance deployed on virtual machine.
 
 ### Maintaining and Meeting Needs
 
-[DevOps software techniques](/Events/GCC2013/Abstracts/Talks.md#devops-ignition-to-reach-galaxy-continuous-integration) implementation are used.
+[DevOps software techniques](/Events/GCC2013/Abstracts/Talks/#devops-ignition-to-reach-galaxy-continuous-integration) implementation are used.
 
 ## Links
 
-* [Description of server](/PublicGalaxyServers.md#inra-urgi) in [list of publicly accessible Galaxy Servers](/PublicGalaxyServers)
-* [DevOps Ignition to reach Galaxy continuous integration](/Events/GCC2013/Abstracts/Talks.md#devops-ignition-to-reach-galaxy-continuous-integration) talk at [GCC2013](/Events/GCC2013)
+* [Description of server](/PublicGalaxyServers/#inra-urgi) in [list of publicly accessible Galaxy Servers](/PublicGalaxyServers)
+* [DevOps Ignition to reach Galaxy continuous integration](/Events/GCC2013/Abstracts/Talks/#devops-ignition-to-reach-galaxy-continuous-integration) talk at [GCC2013](/Events/GCC2013)
 
 CategoryDeployment

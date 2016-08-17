@@ -14,7 +14,7 @@ These pages describes the Galaxy Training Network, and everything else related t
 
 The **[Training Resources Directory](/Teach/Resources)** is a catalog of training resources for Galaxy.  *Training resources* include tutorials, slides, virtual machines, and entire workshop packages that can be used to teach with Galaxy.
 
-There is also an [easy way to add new resources](/Teach/Resources.md#add-a-training-resource) to the directory.
+There is also an [easy way to add new resources](/Teach/Resources/#add-a-training-resource) to the directory.
 
 
 <div class='right'><br /> <a href='http://bit.ly/gxytrnmap'><img src='/Teach/GalaxyTrainingMapThumb.png' alt='Galaxy Training Network: Trainer Locations Map' width="250" /></a> </div>

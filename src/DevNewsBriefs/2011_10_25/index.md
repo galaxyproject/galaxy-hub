@@ -14,7 +14,7 @@
 
 ## News
 
-<div class='left'><a href='/GalaxyIsHiring.md'><img src='/Images/Icons/PointingFinger.png' alt='pointing-finger' width="30px" /></a></div>
+<div class='left'><a href='/GalaxyIsHiring/'><img src='/Images/Icons/PointingFinger.png' alt='pointing-finger' width="30px" /></a></div>
 * Keep current on all things Galaxy at our [/News](/News) and [/Events](/Events) wikis.
 * Galaxy is still [hiring](/GalaxyIsHiring)!
 
@@ -57,9 +57,9 @@
 
 ### Galaxy Tool Shed
 <div class='left'><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='toolshed' width="100px" /></a></div>
-* [Search repositories for valid tools by any combination of id, name or version](/Tool Shed.md#search_repositories_for_valid_tools_by_any_combination_of_id2c_name_or_version).
-* [Automatic installation of Galaxy tool shed repository tools into a local Galaxy instance](/Tool Shed.md#automatic_installation_of_galaxy_tool_shed_repository_tools_into_a_local_galaxy_instance).
-* [Getting updates for tool shed repositories installed in a local Galaxy instance](/Tool Shed.md#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance).
+* [Search repositories for valid tools by any combination of id, name or version](/Tool Shed/#search_repositories_for_valid_tools_by_any_combination_of_id2c_name_or_version).
+* [Automatic installation of Galaxy tool shed repository tools into a local Galaxy instance](/Tool Shed/#automatic_installation_of_galaxy_tool_shed_repository_tools_into_a_local_galaxy_instance).
+* [Getting updates for tool shed repositories installed in a local Galaxy instance](/Tool Shed/#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance).
 * Fixes for displaying file names that include spaces when browsing repository contents.
 
 ## Updated & Improved
@@ -76,7 +76,7 @@
 * Update the *Text Manipulation -> Select random lines from a file* tool:
   * does two passes through input file: first pass determines line offsets/count, offsets are randomly removed, second pass writes out lines by seeking to remaining offsets. 
   * the random seed can now be optionally specified. 
-* New assertion-based tests for tool test outputs from John Chilton.  For usage, see the example in the [Tool Config Syntax](/Admin/Tools/ToolConfigSyntax.md#a3ctest3e_tag_set) documentation.
+* New assertion-based tests for tool test outputs from John Chilton.  For usage, see the example in the [Tool Config Syntax](/Admin/Tools/ToolConfigSyntax/#a3ctest3e_tag_set) documentation.
 
 ### Quotas and Data Management
 
@@ -113,7 +113,7 @@
 * "Galaxy ls" from `Simon McGowan` added to the `galaxy-dist/contrib/` directory allows users at sites where Galaxy users match system users to get a list of filesystem paths to their Galaxy data (see the in-file Perl documentation for usage)
 
 ### Bug Fixes
-<div class='right'><a href='/Support.md'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
+<div class='right'><a href='/Support/'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
 
 * Tasked jobs will now inherit the parent job's user information correctly.
 * Remove unspecified build validators from Cuffdiff wrapperfixes [https://bitbucket.org/galaxy/galaxy-central/issue/631](https://bitbucket.org/galaxy/galaxy-central/issue/631).

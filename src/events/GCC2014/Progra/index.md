@@ -10,13 +10,13 @@ INCLUDE(/Events/GCC2014/LinkBox)
 <div class='right'>**[Program (PDF)](ATTACHMENT_URLGCC2014Program.pdf)** &nbsp; </div>
 </div>
 
-The [2014 Galaxy Community Conference](../) will start with a [Training Day](../TrainingDay) on June 30, followed by two full days of accepted talks, keynotes, [lightning talks](../Lightning), [poster sessions](/Events/GCC2014/Abstracts.md#poster-abstracts), [birds-of-a-feather sessions](../BoFs), and networking time.
+The [2014 Galaxy Community Conference](../) will start with a [Training Day](../TrainingDay) on June 30, followed by two full days of accepted talks, keynotes, [lightning talks](../Lightning), [poster sessions](/Events/GCC2014/Abstracts/#poster-abstracts), [birds-of-a-feather sessions](../BoFs), and networking time.
 
 As in past years, talks will cover a wide range of biology, bioinformatics, and informatics.  Talks will be grouped and scheduled in sessions focusing on particular topics.
 
 <br /><br />
 
-<div class='left'><br /><a href='/Events/GCC2014/TrainingDay.md'><img src='/Images/Logos/GCC2014TDLogoSmall.png' alt='GCC2014 Training Day' width="125" /></a></div>
+<div class='left'><br /><a href='/Events/GCC2014/TrainingDay/'><img src='/Images/Logos/GCC2014TDLogoSmall.png' alt='GCC2014 Training Day' width="125" /></a></div>
 
 # Day 0: Training Day, June 30
 

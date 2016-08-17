@@ -10,7 +10,7 @@ This is the *hub page* for information about how to teach bioinformatics using G
 
 The **[Training Resources Directory](/Teach/Resources)** is a catalog of training resources for Galaxy.  Training resources include tutorials, slides, virtual machines, and entire workshop packages that can be used to teach with Galaxy.
 
-There is also an [easy way to add new resources](/Teach/Resources.md#add-a-training-resource) to the directory.
+There is also an [easy way to add new resources](/Teach/Resources/#add-a-training-resource) to the directory.
 
 ## Trainer Directory
 

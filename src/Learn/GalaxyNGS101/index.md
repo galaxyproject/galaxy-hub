@@ -12,7 +12,7 @@ This section contains quick explanations and important references for major sequ
 
 ![454](/Images/Images/NGS101/454.jpeg)
 <a href='https://vimeo.com/121286060'><img src='/Images/Images/NGS101/video.png' alt='454 Screencast' height="20" /></a> 
-<a href='/attachment:Images/Images/NGS101/NGS101-454.pdf.md'><img src='/Images/Images/NGS101/pdf.png' alt='Slides' height="20" /></a>
+<a href='/attachment:Images/Images/NGS101/NGS101-454.pdf/'><img src='/Images/Images/NGS101/pdf.png' alt='Slides' height="20" /></a>
 
 **Publications:**
 * [Description of 454 process - Margulies et al. (2005)](http://www.nature.com/nature/journal/v437/n7057/pdf/nature03959.pdf)
@@ -23,7 +23,7 @@ This section contains quick explanations and important references for major sequ
 
 ![Illumina](/Images/Images/NGS101/illumina.png)
 <a href='https://vimeo.com/121178846'><img src='/Images/Images/NGS101/video.png' alt='Illumina Screencast' height="20" /></a> 
-<a href='/attachment:Images/Images/NGS101/NGS101-Illumina.pdf.md'><img src='/Images/Images/NGS101/pdf.png' alt='Slides' height="20" /></a>
+<a href='/attachment:Images/Images/NGS101/NGS101-Illumina.pdf/'><img src='/Images/Images/NGS101/pdf.png' alt='Slides' height="20" /></a>
 
 **Publications:**
 * [Human genome sequencing on Illumina - Bentley et al. (2008)](http://www.nature.com/nature/journal/v456/n7218/pdf/nature07517.pdf)
@@ -33,7 +33,7 @@ This section contains quick explanations and important references for major sequ
 
 ![Ion](/Images/Images/NGS101/ion.jpeg)
 <a href='https://vimeo.com/121289100'><img src='/Images/Images/NGS101/video.png' alt='IonTorrent Screencast' height="20" /></a> 
-<a href='/attachment:Images/Images/NGS101/NGS101-Ion.pdf.md'><img src='/Images/Images/NGS101/pdf.png' alt='Slides' height="20" /></a>
+<a href='/attachment:Images/Images/NGS101/NGS101-Ion.pdf/'><img src='/Images/Images/NGS101/pdf.png' alt='Slides' height="20" /></a>
 
 **Publications:**
 * [Semiconmductor non-optical sequencing - Rothberg et al. (2011)](http://www.nature.com/nature/journal/v475/n7356/full/nature10242.html)
@@ -42,7 +42,7 @@ This section contains quick explanations and important references for major sequ
 
 ![PacBio](/Images/Images/NGS101/pacBio.jpeg)
 <a href='https://vimeo.com/121267426'><img src='/Images/Images/NGS101/video.png' alt='PacBio Screencast' height="20" /></a> 
-<a href='/attachment:Images/Images/NGS101/NGS101-PacBio.pdf.md'><img src='/Images/Images/NGS101/pdf.png' alt='Slides' height="20" /></a>
+<a href='/attachment:Images/Images/NGS101/NGS101-PacBio.pdf/'><img src='/Images/Images/NGS101/pdf.png' alt='Slides' height="20" /></a>
 
 **Publications:**
 * [Single Molecule Analaysis at High Concentration - Levene et al. (2003)](http://www.sciencemag.org/content/299/5607/682.full.pdf)

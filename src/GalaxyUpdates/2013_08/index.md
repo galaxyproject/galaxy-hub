@@ -2,19 +2,19 @@
 
 <div class='right'>TABLE_OF_CONTENTS</div>
 
-<div class='left'><a href='/GalaxyUpdates.md'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the August 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
-<div class='center'><a href='/Events/GCC2013.md'><img src='/Images/Logos/GCC2013Logo400.png' alt='2013 Galaxy Community Conference (GCC2013)' width="300" /></a> </div>
+<div class='center'><a href='/Events/GCC2013/'><img src='/Images/Logos/GCC2013Logo400.png' alt='2013 Galaxy Community Conference (GCC2013)' width="300" /></a> </div>
 
 # GCC2013 Report
 
-The [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013) was held a month ago in Oslo Norway, at the [University of Oslo](http://uio.no).  [Video of all accepted talks](/Events/GCC2013/Program.md#day-1-main-meeting-1-july), the [slides for most accepted](/Events/GCC2013/Program.md#day-1-main-meeting-1-july) and [lightning talks](/Events/GCC2013/Lightning), [handouts and slides for all Training Day sessions](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay), and [most posters](/Events/GCC2013/Abstracts.md#poster-abstracts) are now available online.
+The [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013) was held a month ago in Oslo Norway, at the [University of Oslo](http://uio.no).  [Video of all accepted talks](/Events/GCC2013/Program/#day-1-main-meeting-1-july), the [slides for most accepted](/Events/GCC2013/Program/#day-1-main-meeting-1-july) and [lightning talks](/Events/GCC2013/Lightning), [handouts and slides for all Training Day sessions](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay), and [most posters](/Events/GCC2013/Abstracts/#poster-abstracts) are now available online.
 
-GCC2013 was, by all accounts, a tremendous success.  This was the largest GCC ever held, and featured [poster sessions](/Events/GCC2013/Abstracts.md#poster-abstracts) and [Birds of a Feather gatherings](/Events/GCC2013/BoF) for the first time.  The evening [gatherings at the pub](/Events/GCC2013/Program.md#escape-to-the-pub) and the conference dinner at the historic Sporten venue, high above Oslo, also proved quite popular.
+GCC2013 was, by all accounts, a tremendous success.  This was the largest GCC ever held, and featured [poster sessions](/Events/GCC2013/Abstracts/#poster-abstracts) and [Birds of a Feather gatherings](/Events/GCC2013/BoF) for the first time.  The evening [gatherings at the pub](/Events/GCC2013/Program/#escape-to-the-pub) and the conference dinner at the historic Sporten venue, high above Oslo, also proved quite popular.
 
 In addition to the videos and presentation materials, there are also several meeting reports in a wide variety of presentation styles:
 
@@ -132,7 +132,7 @@ Many thanks to Ira Cooke and [John Chilton](/JohnChilton) for suggesting this an
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring.md'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 * The Netherlands Institute of Ecology (NIOO-KNAW) [Bioinformatician opening](http://bit.ly/15nT1nB) 
@@ -173,7 +173,7 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
 <a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src='/Images/Logos/GennoToulLogo.png' alt='Galaxy Training Days' height="60" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif.md' /></a></div> See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 <br />
 
@@ -194,29 +194,29 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
     <th> September&nbsp;28 - October&nbsp;1 </th>
     <td> </em>Galaxy Workshop<em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
-    <td> <a href='/JenniferJackson.md'>Jennifer Jackson</a>, <a href='/RossLazarus.md'>Ross Lazarus</a> </td>
+    <td> <a href='/JenniferJackson/'>Jennifer Jackson</a>, <a href='/RossLazarus/'>Ross Lazarus</a> </td>
   </tr>
   <tr>
     <th> September 30 - October 2 </th>
     <td> </em>TBA<em>, part of the </em><a href='http://individualizingmedicineconference.mayo.edu/schedule/'>Cancer Care</a><em> session </td>
     <td> <a href='http://individualizingmedicineconference.mayo.edu/'>Individualizing Medicine Conference</a>, <a href='http://mayo.eduy/'>Mayo Clinic</a>, Rochester, Minnesota, United States </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 1-3 </th>
     <td> </em><a href='http://www.beyond-the-genome.com/program/'>Galaxy</a><em> </td>
     <td> </strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a><strong>,San Francisco, California, United States </td>
-    <td> <a href='/JeremyGoecks.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th rowspan=2> October 7-8 </th>
     <td> </em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>TBD</a><em></td>
     <td rowspan=2> <a href='http://www.gtcbio.com/conference/ngseurope-overview'>NGS & Bioinformatics Summit Europe</a> </td>
-    <td> <a href='/anton.md'>Anton Nektutenko</a> </td>
+    <td> <a href='/anton/'>Anton Nektutenko</a> </td>
   </tr>
   <tr>
     <td> </em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>Using Galaxy to Provide a NGS Analysis Platform</a> <em> </td>
-    <td> <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a> </td>
+    <td> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> October 8-11 </th>
@@ -234,7 +234,7 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
     <th> October 22-26 </th>
     <td> </em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#high'>High Throughput Data Analysis and Visualization with Galaxy</a><em> </td>
     <td> <a href='http://www.ashg.org/2013meeting/'>ASHG 2013</a>, Boston, Massachusetts, United States </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a>, <a href='/JenniferJackson.md'>Jennifer Jackson</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a>, <a href='/JenniferJackson/'>Jennifer Jackson</a> </td>
   </tr>
 </table>
 
@@ -246,7 +246,7 @@ The most recent official distribution was on [June 3, 2013](/DevNewsBriefs/2013_
 
 ## CloudMan Release
 
-<div class='right'><a href='/CloudMan.md'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
+<div class='right'><a href='/CloudMan/'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
 
 A new version of [/CloudMan](/CloudMan) was [released in July](/News/CloudManRelease).
 
@@ -265,7 +265,7 @@ Any new cluster will automatically start using this version of CloudMan. Existin
 * Added optional [Loggly](http://loggly.com/) based off-site logging support
 * Added tags to all resources utilized by CloudMan
 
-For more details on the new features, see the the [CHANGELOG](https://bitbucket.org/galaxy/cloudman/src/tip/CHANGELOG.md?at=default) and for even more details see, *all [291 commit messages](https://bitbucket.org/galaxy/cloudman/commits/all?search=35baec1%3A8bbae3f) from 7 contributors*.
+For more details on the new features, see the the [CHANGELOG](https://bitbucket.org/galaxy/cloudman/src/tip/CHANGELOG/?at=default) and for even more details see, *all [291 commit messages](https://bitbucket.org/galaxy/cloudman/commits/all?search=35baec1%3A8bbae3f) from 7 contributors*.
 
 <br />
 

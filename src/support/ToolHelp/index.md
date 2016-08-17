@@ -12,13 +12,13 @@ Back to [/Support](/Support)
 * Links to [Galaxy Biostar](https://biostar.usegalaxy.org/) prior Q&A, tutorials, and form to ask new questions
 <br />
 <br />
-<a href='/Support/Biostar.md'><img src='/Images/Logos/GalaxyBiostar.png' alt='Galaxy Biostar' width="200" /></a><br />***How to use Galaxy Biostar***
+<a href='/Support/Biostar/'><img src='/Images/Logos/GalaxyBiostar.png' alt='Galaxy Biostar' width="200" /></a><br />***How to use Galaxy Biostar***
 <br />
 <br />
 Many tools include also include "most common" default parameter settings that can be customized along with "full parameter" choices (for those tools having advanced options available). On all tool forms, look in the upper top right middle pane corner for the [Biostar](https://biostar.usegalaxy.org/) links. Scroll down on the tool form to locate information about expected inputs/outputs, expanded definitions, sample data, example use cases, and graphics.
 <br />
 <br />
-Our [Custom Tools](/Support.md#custom_searches) will locate help across Galaxy's resources, including tutorials for common analysis on [usegalaxy.org](http://usegalaxy.org) (Main) found in [Shared Data](https://usegalaxy.org/page/list_published).
+Our [Custom Tools](/Support/#custom_searches) will locate help across Galaxy's resources, including tutorials for common analysis on [usegalaxy.org](http://usegalaxy.org) (Main) found in [Shared Data](https://usegalaxy.org/page/list_published).
 <br />
 <br />
 <a href='http://galaxyproject.org/search/web'><img src='/Images/Logos/GalaxyWebSearch.png' alt='Galaxy Web Search' width="170" /></a>

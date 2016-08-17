@@ -30,7 +30,7 @@ So having figured triple quotes for long strings, I reran the program:
 
 ## Code Syntax Highlighting
 
-You can also [highlight the syntax of all sorts of different code](/HelpOnParsers.md#highlight-parser). To do this, use `hightlight`. For example to highlight Python code: 
+You can also [highlight the syntax of all sorts of different code](/HelpOnParsers/#highlight-parser). To do this, use `hightlight`. For example to highlight Python code: 
 ```{
 ```python
 class FooBar:

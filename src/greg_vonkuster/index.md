@@ -26,7 +26,7 @@ Greg has been involved at some level in virtually every aspect of Galaxy.  He in
 Greg wrote the specifications and is the architect and developer of the following Galaxy features and components.
 
 * The first biomedical appStore: [the Galaxy Tool Shed](/Tool Shed)
-* [Enabling the simultaneous use of multiple versions of the same tool in a Galaxy instance](/Tool Shed.md#galaxy_tool_versions)
+* [Enabling the simultaneous use of multiple versions of the same tool in a Galaxy instance](/Tool Shed/#galaxy_tool_versions)
 * [The demo sequencer, demonstrating Galaxy integration with a PacBio instrument](http://screencast.g2.bx.psu.edu/pacBio-demo/)
 * [Galaxy reports](/DevNewsBriefs/2010 06_08)
 

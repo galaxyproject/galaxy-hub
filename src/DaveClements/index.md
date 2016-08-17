@@ -122,9 +122,9 @@ My pre-bioinformatics career included
   </tr>
   <tr>
     <th> January 21, 22 </th>
-    <td> <em><a href='/Events/ISMMS2016.md'>Introduction to Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/Events/ISMMS2016/'>Introduction to Galaxy Workshop</a></em> </td>
     <td> <a href='http://icahn.mssm.edu/'>Icahn School of Medicine at Mt. Sinai</a>, New York, New York, United States </td>
-    <td> <a href='/Events/ISMMS2016.md#slides'>Slides</a> </td>
+    <td> <a href='/Events/ISMMS2016/#slides'>Slides</a> </td>
   </tr>
   <tr>
     <th> January 13 </th>
@@ -165,9 +165,9 @@ My pre-bioinformatics career included
   </tr>
   <tr>
     <th> June 8-9 </th>
-    <td> <em><a href='/Events/Glasgow2015.md'>Introduction to Galaxy Workshop</a></em> <div class='indent'>Workshop is full, but there is a waiting list</div> </td>
+    <td> <em><a href='/Events/Glasgow2015/'>Introduction to Galaxy Workshop</a></em> <div class='indent'>Workshop is full, but there is a waiting list</div> </td>
     <td> <a href='http://www.gla.ac.uk/'>University of Glasgow</a>, Glasgow, United Kingdom </td>
-    <td> <a href='/Events/Glasgow2015.md#slides'>Slides</a> </td>
+    <td> <a href='/Events/Glasgow2015/#slides'>Slides</a> </td>
   </tr>
   <tr>
     <th> June 6 </th>
@@ -177,7 +177,7 @@ My pre-bioinformatics career included
   </tr>
   <tr>
     <th> February 27 </th>
-    <td> <a href='/Events/NorthwesternU2015.md'>Introduction to Galaxy</a> </td>
+    <td> <a href='/Events/NorthwesternU2015/'>Introduction to Galaxy</a> </td>
     <td> <a href='http://northwestern.edu/'>Northwestern University</a>, Chicago, Illinois, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2015NorthwesternUWorkshop.pdf'>Slides</a> </td>
   </tr>
@@ -201,7 +201,7 @@ My pre-bioinformatics career included
   </tr>
   <tr>
     <th> December 12 </th>
-    <td> <em><a href='/Events/VSU2014.md'>Introduction to Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/Events/VSU2014/'>Introduction to Galaxy Workshop</a></em> </td>
     <td> <a href='http://vsu.edu/'>Virginia State University</a>, Petersburg, Virginia, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/201412VSUWorkshop.pdf'>Slides</a> </td>
   </tr>
@@ -213,25 +213,25 @@ My pre-bioinformatics career included
   </tr>
   <tr>
     <th> July 28 - August 1 </th>
-    <td> <em><a href='/Events/SaoPaulo2014.md'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a></em> </td>
+    <td> <em><a href='/Events/SaoPaulo2014/'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a></em> </td>
     <td> <a href='http://usp.br/'>University of São Paulo (USP)</a>, São Paulo, Brazil </td>
-    <td> <a href='/Events/SaoPaulo2014.md'>Slides</a> </td>
+    <td> <a href='/Events/SaoPaulo2014/'>Slides</a> </td>
   </tr>
   <tr>
     <th> June 30 - July 2 </th>
-    <td> <em><a href='/Events/GCC2014/Abstracts/Posters.md#p26-galaxy-training-network'>P26: Galaxy Training Network</a></em><div class='indent'><em>with <a href='http://www.tgac.ac.uk/training-outreach/vicky-schneider/'>Vicky Schneider</a>, <a href='http://bioinformatics.ucdavis.edu/contact-us/'>Nikhil Joshi</a>, <a href='http://bioinformatics.ucdavis.edu/contact-us/'>Joseph Fass</a><sup>4</sup>, <a href='http://bioinformatics.ucdavis.edu/contact-us/'>Monica Britton</a>, <a href='http://www.msi.unimelb.edu.au/people/andrew-lonie/'>Andrew Lonie</a>, <a href='http://www.vlsci.org.au/researcher/sgladman'>Simon Gladman</a>, <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a></em></div> </td>
-    <td> <a href='/Events/GCC2014.md'>2014 Galaxy Community Conference (GCC2014)</a>, Baltimore, Maryland, United States </td>
+    <td> <em><a href='/Events/GCC2014/Abstracts/Posters/#p26-galaxy-training-network'>P26: Galaxy Training Network</a></em><div class='indent'><em>with <a href='http://www.tgac.ac.uk/training-outreach/vicky-schneider/'>Vicky Schneider</a>, <a href='http://bioinformatics.ucdavis.edu/contact-us/'>Nikhil Joshi</a>, <a href='http://bioinformatics.ucdavis.edu/contact-us/'>Joseph Fass</a><sup>4</sup>, <a href='http://bioinformatics.ucdavis.edu/contact-us/'>Monica Britton</a>, <a href='http://www.msi.unimelb.edu.au/people/andrew-lonie/'>Andrew Lonie</a>, <a href='http://www.vlsci.org.au/researcher/sgladman'>Simon Gladman</a>, <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a></em></div> </td>
+    <td> <a href='/Events/GCC2014/'>2014 Galaxy Community Conference (GCC2014)</a>, Baltimore, Maryland, United States </td>
     <td> <a href='ATTACHMENT_URLDocuments/Posters/GCC2014/P26Clements.pdf'>Poster</a> </td>
   </tr>
   <tr>
     <th> May 13 </th>
-    <td> <em><a href='/Events/UKMay2014/IGMMWorkshop.md'>Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/Events/UKMay2014/IGMMWorkshop/'>Galaxy Workshop</a></em> </td>
     <td> <a href='http://www.igmm.ac.uk/'>Institute of Genetics and Molecular Medicine (IGMM)</a>, Edinburgh, UK </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/201405HGMM_Workshop.pdf'>Sides</a> </td>
   </tr>
   <tr>
     <th rowspan=2> May 12 </th>
-    <td> <em><a href='/Events/UKMay2014/UEdinburgh.md'>Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/Events/UKMay2014/UEdinburgh/'>Galaxy Workshop</a></em> </td>
     <td> <a href='http://www.ed.ac.uk/'>University of Edinburgh</a>, Edinburgh, UK </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/201405UEDINBURGHWorkshop.pdf'>Galaxy Sides</a>, <a href='ATTACHMENT_URLDocuments/Presentations/201405EdinburghGenomics.pdf'>Edinburgh Genomics Sides</a> </td>
   </tr>
@@ -242,7 +242,7 @@ My pre-bioinformatics career included
   </tr>
   <tr>
     <th> May 9 </th>
-    <td> <em><a href='/Events/UKMay2014/TGACWorkshop.md'>Introduction to Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/Events/UKMay2014/TGACWorkshop/'>Introduction to Galaxy Workshop</a></em> </td>
     <td> <a href='http://www.tgac.ac.uk/'>The Genome Analysis Centre (TGAC)</a>, Norwich, United Kingdom </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/201405TGACWorkshop.pdf'>Slides</a> </td>
   </tr>
@@ -254,9 +254,9 @@ My pre-bioinformatics career included
   </tr>
   <tr>
     <th> March 7 </th>
-    <td> <em><a href='/Events/UGA2014.md'>Galaxy Workshop</a></em> <div class='indent'>with  <a href='/CarlEberhard.md'>Carl Eberhard</a>, <a href='/DannonBaker.md'>Dannon Baker</a>, <a href='http://plantbio.uga.edu/directory/raj-ayyampalayam'>Raj Ayyampalayam</a> </td>
+    <td> <em><a href='/Events/UGA2014/'>Galaxy Workshop</a></em> <div class='indent'>with  <a href='/CarlEberhard/'>Carl Eberhard</a>, <a href='/DannonBaker/'>Dannon Baker</a>, <a href='http://plantbio.uga.edu/directory/raj-ayyampalayam'>Raj Ayyampalayam</a> </td>
     <td> <a href='http://uga.edu'>University of Georgia</a>, Athens, Georgia, United States </td>
-    <td> <a href='/Events/UGA2014.md#slides'>Slides</a> </td>
+    <td> <a href='/Events/UGA2014/#slides'>Slides</a> </td>
   </tr>
   <tr>
     <th> February 26-28 </th>
@@ -295,33 +295,33 @@ My pre-bioinformatics career included
   </tr>
   <tr>
     <th> October 21-25 </th>
-    <td> <em><a href='/Events/UCapeTown2013.md'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Cape Town</div> </td>
-    <td rowspan=1> <a href='/Events/SAWorkshopTour2013.md'>2013 South Africa Galaxy Workshop Tour</a> </td>
-    <td> <a href='/Events/UCapeTown2013.md'>Slides</a> </td>
+    <td> <em><a href='/Events/UCapeTown2013/'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Cape Town</div> </td>
+    <td rowspan=1> <a href='/Events/SAWorkshopTour2013/'>2013 South Africa Galaxy Workshop Tour</a> </td>
+    <td> <a href='/Events/UCapeTown2013/'>Slides</a> </td>
   </tr>
   <tr>
     <th> October 14-18 </th>
-    <td> <em><a href='/Events/UPretoria2013.md'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Pretoria</div> </td>
-    <td rowspan=1> <a href='/Events/SAWorkshopTour2013.md'>2013 South Africa Galaxy Workshop Tour</a> </td>
-    <td> <a href='/Events/UPretoria2013.md'>Slides</a> </td>
+    <td> <em><a href='/Events/UPretoria2013/'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Pretoria</div> </td>
+    <td rowspan=1> <a href='/Events/SAWorkshopTour2013/'>2013 South Africa Galaxy Workshop Tour</a> </td>
+    <td> <a href='/Events/UPretoria2013/'>Slides</a> </td>
   </tr>
   <tr>
     <th rowspan=4> July 18-23 </th>
-    <td> <em><a href='/Events/NIEHS2013.md'>Introduction to Galaxy Workshop</a></em><div class='indent'>National Institute of Environmental Health Sciences (NIEHS)</div> </td>
-    <td rowspan=4> <a href='/Events/RTWorkshopTour2013.md'>2013 Research Triangle Workshop Tour</a>, North Carolina, United States </td>
-    <td> <a href='/Events/NIEHS2013.md#slides'>Slides</a> </td>
+    <td> <em><a href='/Events/NIEHS2013/'>Introduction to Galaxy Workshop</a></em><div class='indent'>National Institute of Environmental Health Sciences (NIEHS)</div> </td>
+    <td rowspan=4> <a href='/Events/RTWorkshopTour2013/'>2013 Research Triangle Workshop Tour</a>, North Carolina, United States </td>
+    <td> <a href='/Events/NIEHS2013/#slides'>Slides</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/Events/UNC2013.md'>Introduction to Galaxy Workshop</a></em> <div class='indent'>University of North Carolina, Chapel Hill</div> </td>
-    <td> <a href='/Events/UNC2013.md'>Slides</a> </td>
+    <td> <em><a href='/Events/UNC2013/'>Introduction to Galaxy Workshop</a></em> <div class='indent'>University of North Carolina, Chapel Hill</div> </td>
+    <td> <a href='/Events/UNC2013/'>Slides</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://bit.ly/ZFVLG1'>Galaxy Installation Tutorial</a></em> <div class='indent'><strong><a href='http://bit.ly/ZFVLG1'>2013 GMOD Summer School</a></strong></div> </td>
     <td> </td>
   </tr>
   <tr>
-    <td> <em><a href='/Events/NCSU2013.md'>Introduction to Galaxy Workshop</a></em> <div class='indent'> North Carolina State University</div> </td>
-    <td> <a href='/Events/NCSU2013.md#slides'>Slides</a> </td>
+    <td> <em><a href='/Events/NCSU2013/'>Introduction to Galaxy Workshop</a></em> <div class='indent'> North Carolina State University</div> </td>
+    <td> <a href='/Events/NCSU2013/#slides'>Slides</a> </td>
   </tr>
   <tr>
     <th> June 20-22 </th>
@@ -331,17 +331,17 @@ My pre-bioinformatics career included
   </tr>
   <tr>
     <th rowspan=3> April 29 - May 2 </th>
-    <td rowspan=3 style=" text-align: left;"> <em><a href='/Events/MissouriWorkshopTour2013.md'>Introduction to Galaxy Workshops</a></em><div class='indent'> <a href='/Events/MissouriWorkshopTour2013.md'>2013 Galaxy Workshop Tour</a></div> </td>
-    <td> <a href='/Events/WashU2013.md'>Washington University in St. Louis</a></td>
-    <td> <a href='/Events/WashU2013.md#links'>Slides</a> </td>
+    <td rowspan=3 style=" text-align: left;"> <em><a href='/Events/MissouriWorkshopTour2013/'>Introduction to Galaxy Workshops</a></em><div class='indent'> <a href='/Events/MissouriWorkshopTour2013/'>2013 Galaxy Workshop Tour</a></div> </td>
+    <td> <a href='/Events/WashU2013/'>Washington University in St. Louis</a></td>
+    <td> <a href='/Events/WashU2013/#links'>Slides</a> </td>
   </tr>
   <tr>
-    <td> <a href='/Events/SLU2013.md'>Saint Louis University</a> </td>
-    <td> <a href='/Events/SLU2013.md#slides'>Slides</a> </td>
+    <td> <a href='/Events/SLU2013/'>Saint Louis University</a> </td>
+    <td> <a href='/Events/SLU2013/#slides'>Slides</a> </td>
   </tr>
   <tr>
-    <td> <a href='/Events/Missouri2013.md'>University of Missouri Columbia</a> </td>
-    <td> <a href='/Events/Missouri2013.md#slides'>Slides</a> </td>
+    <td> <a href='/Events/Missouri2013/'>University of Missouri Columbia</a> </td>
+    <td> <a href='/Events/Missouri2013/#slides'>Slides</a> </td>
   </tr>
   <tr>
     <th> April 12 </th>
@@ -351,7 +351,7 @@ My pre-bioinformatics career included
   </tr>
   <tr>
     <th> April 11 </th>
-    <td> <em><a href='/Events/TGAC2013.md'>Introduction to Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/Events/TGAC2013/'>Introduction to Galaxy Workshop</a></em> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2013TGACWorkshop.pdf'>Slides</a> </td>
   </tr>
   <tr>
@@ -371,14 +371,14 @@ My pre-bioinformatics career included
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/GMOD2013_Commmunity.pdf'>Slides</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/CloudMan/AWS/GettingStarted.md'>Installing Galaxy on the Cloud Workshop</a></em> </td>
-    <td> <a href='/CloudMan/AWS/GettingStarted.md'>Tutorial</a> </td>
+    <td> <em><a href='/CloudMan/AWS/GettingStarted/'>Installing Galaxy on the Cloud Workshop</a></em> </td>
+    <td> <a href='/CloudMan/AWS/GettingStarted/'>Tutorial</a> </td>
   </tr>
   <tr>
     <th> March 5 </th>
-    <td> <em><a href='/Events/Caltech2013.md'>Galaxy for Biologists</a></em> </td>
+    <td> <em><a href='/Events/Caltech2013/'>Galaxy for Biologists</a></em> </td>
     <td> Caltech, Pasadena, California, United States </td>
-    <td> <a href='/Events/Caltech2013.md'>Slides</a> </td>
+    <td> <a href='/Events/Caltech2013/'>Slides</a> </td>
   </tr>
   <tr>
     <th> March 2-5 </th>
@@ -388,9 +388,9 @@ My pre-bioinformatics career included
   </tr>
   <tr>
     <th> Febrary 4 & 5 </th>
-    <td> <em><a href='/Events/JohnsHopkins2013.md'>Introduction to Galaxy Workshop</a></em>, with <a href='http://epigenetics.jhu.edu/?section=personnelPages&personID=26'>Mo Heydarian</a> </td>
+    <td> <em><a href='/Events/JohnsHopkins2013/'>Introduction to Galaxy Workshop</a></em>, with <a href='http://epigenetics.jhu.edu/?section=personnelPages&personID=26'>Mo Heydarian</a> </td>
     <td> Johns Hopkins University, Baltimore, Maryland, United States </td>
-    <td> <a href='/Events/JohnsHopkins2013.md#slides'>Slides</a> </td>
+    <td> <a href='/Events/JohnsHopkins2013/#slides'>Slides</a> </td>
   </tr>
 </table>
 
@@ -398,7 +398,7 @@ My pre-bioinformatics career included
 ### 2012
 
 * *[Introduction to Galaxy Workshop](/Events/Purdue2012)* at [Purdue University](http://purdue.edu), October 2012
-* *[Transparent, Accessible, Reproducible Biological Analysis with Galaxy](/Events/IndianaU2012.md#seminar-transparent-accessible-reproducible-biological-analysis-with-galaxy)* at [Indiana University](http://indiana.edu), October 2012
+* *[Transparent, Accessible, Reproducible Biological Analysis with Galaxy](/Events/IndianaU2012/#seminar-transparent-accessible-reproducible-biological-analysis-with-galaxy)* at [Indiana University](http://indiana.edu), October 2012
 * *[Introduction to Galaxy Workshop](/Events/UIUC2012)* at [University of Illinois at Urbana-Champaign](http://illinois.edu), October 2012
 * *[Transparent, accessible, reproducible analysis with Galaxy](http://genetics.cmc-uct.co.za/)* at the [South African Genetics & Bioinformatics Society Conference](http://genetics.cmc-uct.co.za/), Stellenbosch University, South Africa, September 2012
 * *[Galaxy Workshop](http://genetics.cmc-uct.co.za/?page_id=79)* at the [University of Pretoria](http://web.up.ac.za/default.asp?ipkCategoryID=17741) and [Stellenbosch University](http://www.sun.ac.za/), South Africa, September 2012

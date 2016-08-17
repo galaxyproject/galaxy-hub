@@ -3,7 +3,7 @@ INCLUDE(/Events/GCC2013/Header)
 <div class="title">GCC2013 Training Day</div>
 
 INCLUDE(/Events/GCC2013/LinkBox)
-<div class='right'><a href='/Events/GCC2013/TrainingDay.md'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='Training Day' width="200" /></a></div>
+<div class='right'><a href='/Events/GCC2013/TrainingDay/'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='Training Day' width="200" /></a></div>
 
 # Introduction to tools and data sources
 
@@ -170,7 +170,7 @@ Why is this a good thing?
 
 ## 1:10 – 1:20pm Hello_sanitizer
 
-Sometimes you will need to control the characters allowed in a text parameter - for example to prevent the user from supplying a space or other potentially annoying character. The [sanitizer tag set](/Admin/Tools/ToolConfigSyntax.md#sanitizer-tag-set) allows excluding specific characters. The format requires an initial definition of acceptable characters and individual ones can be added with the add tag.
+Sometimes you will need to control the characters allowed in a text parameter - for example to prevent the user from supplying a space or other potentially annoying character. The [sanitizer tag set](/Admin/Tools/ToolConfigSyntax/#sanitizer-tag-set) allows excluding specific characters. The format requires an initial definition of acceptable characters and individual ones can be added with the add tag.
 
 ```xml
 <tool id="hello" name="hello" version="0.03">
@@ -203,7 +203,7 @@ Reload, test etc.
 
 ## 1:20 – 1:30pm Hello_file
 
-So far, the tool does not accept any input files from the user's history. These require a **[data](/Admin/Tools/ToolConfigSyntax.md#typedata)** parameter specifying the template name for the input file and a data type (optionally a comma delimited list for multiple acceptable datatypes) which will be used to filter the user's current history so you can restrict the drop down choice list to the datatypes your tool needs - excluding other potentially unacceptable data formats to make it harder for the user to choose an incompatible datatype. 
+So far, the tool does not accept any input files from the user's history. These require a **[data](/Admin/Tools/ToolConfigSyntax/#typedata)** parameter specifying the template name for the input file and a data type (optionally a comma delimited list for multiple acceptable datatypes) which will be used to filter the user's current history so you can restrict the drop down choice list to the datatypes your tool needs - excluding other potentially unacceptable data formats to make it harder for the user to choose an incompatible datatype. 
 
 Before we can implement that, we need to first make a suitable input file in the current history. A plain text file containing a few words of text is all you need. There are lots of ways of doing this, but the simplest way is to simply paste or write some text into the URL box of the **Get data &rarr; Upload File** tool, then set the file format to **txt** and press execute. A new text file containing whatever you typed will appear in your history after a few moments.
 

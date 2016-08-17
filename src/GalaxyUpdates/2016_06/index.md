@@ -9,7 +9,7 @@
 
 </div>
 
-<div class='left'><a href='/GalaxyUpdates.md'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
+<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
 Welcome to the June 2016 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. 
 
@@ -95,7 +95,7 @@ Please welcome the **[Bloomington Life Sciences Partnership (BLSP)](http://bloom
 <div class='left'><a href='https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/'><img src='/Images/Logos/UCDavisGenomeCenter_Bioinf.png' alt='Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data' width="200" /></a>
 </div>
 
-The [UC Davis Bioinformatics Training Program](http://training.bioinformatics.ucdavis.edu/), a [GTN member](/Teach/Trainers.md#uc-davis-genome-centers-bioinformatics-core-facility), will be presenting the workshop **[Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data](https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/)** on June 13-17, at UC Davis in Davis, California, United States.  
+The [UC Davis Bioinformatics Training Program](http://training.bioinformatics.ucdavis.edu/), a [GTN member](/Teach/Trainers/#uc-davis-genome-centers-bioinformatics-core-facility), will be presenting the workshop **[Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data](https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/)** on June 13-17, at UC Davis in Davis, California, United States.  
 
 This workshop will include a rich collection of lectures and hands-on sessions, covering both theory and tools. We will explore the basics of high throughput sequencing technologies, focusing on Illumina data for hands-on exercises. Participants will explore software and protocols, create and modify workflows, and diagnose/treat problematic data, utilizing computing power of the Amazon Cloud.
 
@@ -104,7 +104,7 @@ This workshop will include a rich collection of lectures and hands-on sessions, 
 ## GalaxyAdmins June Meetups
 
 <div class='right'>
-<a href='/Community/GalaxyAdmins/Meetups/2016_06_16.md'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='16 June GalaxyAdmins Web Meetup' height="60" /></a>
+<a href='/Community/GalaxyAdmins/Meetups/2016_06_16/'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='16 June GalaxyAdmins Web Meetup' height="60" /></a>
 </div>
 
 There will be two [GalaxyAdmins](/Community/GalaxyAdmins) [meetups](/Community/GalaxyAdmins/Meetups) in June:
@@ -118,10 +118,10 @@ There will be two [GalaxyAdmins](/Community/GalaxyAdmins) [meetups](/Community/G
 There are [a plentitude of Galaxy related events coming up](/Events). Here's what's coming up over the summer:
 
 <div class='center'> 
-<a href='/Events/ASMS2016.md'><img src='/Images/Logos/ASMSLogo.png' alt='64th ASMS Conference on Mass Spectrometry and Allied Topics' height="80" /></a>
+<a href='/Events/ASMS2016/'><img src='/Images/Logos/ASMSLogo.png' alt='64th ASMS Conference on Mass Spectrometry and Allied Topics' height="80" /></a>
 <a href='https://www.vlsci.org.au/events/new-round-workshops-announced'><img src='/Images/Logos/VLSCILogo.png' alt='GVL and Galaxy Workshops' height="80" /></a>
 <a href='http://bioinformatics.ca/workshops/2016/informatics-high-throughput-sequencing-data-2016'><img src='/Images/Logos/CanadianBioinfWorkshopsLog.png' alt='Informatics on High-throughput Sequencing Data Workshop' height=80 /></a>
-<a href='/Community/GalaxyAdmins/Meetups/2016_06_16.md'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='16 June GalaxyAdmins Web Meetup' height="60" /></a>
+<a href='/Community/GalaxyAdmins/Meetups/2016_06_16/'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='16 June GalaxyAdmins Web Meetup' height="60" /></a>
 <a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Jun16.html'><img src='/Images/Logos/GlasgowPolyomics.jpg' alt='Introduction to Galaxy Workshop' height="80" /></a>
 &nbsp;&nbsp;&nbsp; 
 <a href='https://gcc2016.iu.edu/index.php'><img src='/Images/Logos/GCC2016LogoSquareBig.png' alt='2016 Galaxy Community Conference (GCC2016)' width="120" /></a>
@@ -136,9 +136,9 @@ There are [a plentitude of Galaxy related events coming up](/Events). Here's wha
   </tr>
   <tr>
     <th> June 5-9 </th>
-    <td> <em><a href='/Events/ASMS2016.md'>64th ASMS Conference on Mass Spectrometry and Allied Topics</a></em> </td>
+    <td> <em><a href='/Events/ASMS2016/'>64th ASMS Conference on Mass Spectrometry and Allied Topics</a></em> </td>
     <td> INCLUDE(/Events/Badges/NorthAmerica) San Antonio, Texas, United States </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/Events/ASMS2016.md'>Presenters</a> </td>
+    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/Events/ASMS2016/'>Presenters</a> </td>
   </tr>
   <tr>
     <th> June 7 </th>
@@ -172,9 +172,9 @@ There are [a plentitude of Galaxy related events coming up](/Events). Here's wha
   </tr>
   <tr>
     <th> June 16 </th>
-    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2016_06_16.md'>Galaxy in Production at the University of Minnesota</a></em> </td>
-    <td> INCLUDE(/Events/Badges/World) <a href='/Community/GalaxyAdmins/Meetups/2016_06_16.md'>GalaxyAdmins Web Meetup</a>, <em><a href='/Community/GalaxyAdmins/Meetups/2016_06_16.md'>Online</a></em> </td>
-    <td> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a>, <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a>, <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a>, <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2016_06_16/'>Galaxy in Production at the University of Minnesota</a></em> </td>
+    <td> INCLUDE(/Events/Badges/World) <a href='/Community/GalaxyAdmins/Meetups/2016_06_16/'>GalaxyAdmins Web Meetup</a>, <em><a href='/Community/GalaxyAdmins/Meetups/2016_06_16/'>Online</a></em> </td>
+    <td> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a>, <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a>, <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a>, <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> June 20 </th>
@@ -211,21 +211,21 @@ There are [a plentitude of Galaxy related events coming up](/Events). Here's wha
   </tr>
   <tr>
     <th> July 8-9 </th>
-    <td> <em><a href='/Events/ISMB2016.md'>BOSC 2016</a></em> </td>
+    <td> <em><a href='/Events/ISMB2016/'>BOSC 2016</a></em> </td>
     <td> INCLUDE(/Events/Badges/NorthAmerica)  <a href='http://www.iscb.org/ismb2016'>ISMB 2016</a>, Orlando, Florida, United States </td>
-    <td> See <a href='/Events/ISMB2016.md'>presenters</a> </td>
+    <td> See <a href='/Events/ISMB2016/'>presenters</a> </td>
   </tr>
   <tr>
     <th> July 8-12 </th>
-    <td> <em><a href='/Events/ISMB2016.md'>ISMB 2016</a></em> </td>
+    <td> <em><a href='/Events/ISMB2016/'>ISMB 2016</a></em> </td>
     <td> INCLUDE(/Events/Badges/NorthAmerica)  Orlando, Florida, United States </td>
-    <td> See <a href='/Events/ISMB2016.md'>presenters</a> </td>
+    <td> See <a href='/Events/ISMB2016/'>presenters</a> </td>
   </tr>
   <tr>
     <th> July 13-17 </th>
     <td> <em><a href='http://www.genetics-gsa.org/genetics/2016/cgi-bin/tagc16soe.pl#Sat'>An Introduction to Using Galaxy for Genetic Data Analysis</a></em> </td>
     <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.genetics2016.org/index.htm'>The Allied Genetics Conference 2016 (TAGC)</a>, Orlando, Florida, United States </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> July 15 </th>
@@ -235,9 +235,9 @@ There are [a plentitude of Galaxy related events coming up](/Events). Here's wha
   </tr>
   <tr>
     <th> July 21 </th>
-    <td> <em><a href='/Events/Cornell2016.md'>Introduction to Galaxy</a></em> </td>
+    <td> <em><a href='/Events/Cornell2016/'>Introduction to Galaxy</a></em> </td>
     <td> INCLUDE(/Events/Badges/NorthAmerica) Cornell University, Ithaca, New York, United States </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef"> </td>
@@ -246,7 +246,7 @@ There are [a plentitude of Galaxy related events coming up](/Events). Here's wha
     <th> August 1-4 </th>
     <td> <em><a href='http://icbo.cgrb.oregonstate.edu/node/41'>Integrating Ontological and Genomic Analysis with Galaxy Workshop</a></em> </td>
     <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='http://icbo.cgrb.oregonstate.edu/'>ICBO 2016</a>, Corvallis, Oregon, United States </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 12 </th>
@@ -265,8 +265,8 @@ There are [a plentitude of Galaxy related events coming up](/Events). Here's wha
 
 <table>
   <tr>
-    <td style=" border: none"> <a href='/Teach/Trainers.md'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
-    <td style=" border: none"> <span style="font-size: smaller;"> <a href='/Teach/Trainers.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none"> <a href='/Teach/Trainers/'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
+    <td style=" border: none"> <span style="font-size: smaller;"> <a href='/Teach/Trainers/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
@@ -389,14 +389,14 @@ No [new publicly accessible Galaxy servers](/PublicGalaxyServers) were added to 
 <div class='center'>
 <a href='https://launch.genome.edu.au/launch'><img src='/PublicGalaxyServers/GenomicsVirtualLab300.png' alt='GVL' width="80" /></a> &nbsp; <a href='https://galaxy.plgrid.pl'><img src='/SemiPublicGalaxyServers/PL-Grid_Logo.png' alt='PL-Grid Galaxy' width="80" /></a><br />
 <a href='https://www.genap.ca/'><img src='/SemiPublicGalaxyServers/GenAP_Logo_Trans_250.png' alt='GenAP' width="120" /></a><br />
-<a href='/SemiPublicGalaxyServers.md#australian-access-federation-aaf'><img src='/SemiPublicGalaxyServers/AAF_Logo_wide.png' alt='AAF on GVL' width="200" /></a>
+<a href='/SemiPublicGalaxyServers/#australian-access-federation-aaf'><img src='/SemiPublicGalaxyServers/AAF_Logo_wide.png' alt='AAF on GVL' width="200" /></a>
 </div></div>
 
 ## New Semi-Public Galaxy Servers Directory
 
 The [Semi-Public Galaxy Servers Directory](/SemiPublicGalaxyServers) lists Galaxy servers that aren't [fully publicly accessible](/PublicGalaxyServers), but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
 
-Servers are classified by whom they are accessible to.  This can be based on [research domain](/SemiPublicGalaxyServers.md#domain-based), [Geography Based|geography (regional or national)](/SemiPublicGalaxyServers), or by [membership in a multi-organization association](/SemiPublicGalaxyServers.md#association-based) that provides Galaxy Servers. 
+Servers are classified by whom they are accessible to.  This can be based on [research domain](/SemiPublicGalaxyServers/#domain-based), [Geography Based|geography (regional or national)](/SemiPublicGalaxyServers), or by [membership in a multi-organization association](/SemiPublicGalaxyServers/#association-based) that provides Galaxy Servers. 
 
 **To add your semi-public Galaxy server to this list**, please either just add it (hey, *it's a wiki*), or [describe the server here](https://docs.google.com/forms/d/14i8FNHB7pwXrXmhvUkxXTh2VKQ-2BKsnMubXsCZadjs/viewform) and we'll post it this directory.
 
@@ -404,14 +404,14 @@ Servers are classified by whom they are accessible to.  This can be based on [re
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Teach.md'><img src='/Images/GalaxyLogos/GTNLogo300.png' alt='Galaxy Training Network' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Logs.md'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Deployments.md'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%"> <a href='/Teach/'><img src='/Images/GalaxyLogos/GTNLogo300.png' alt='Galaxy Training Network' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Logs/'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Deployments/'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong>Share your <a href='/Teach/Resources.md#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers.md#add-a-trainer'>experience</a> <em>now</em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Logs.md#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs.md#add-a-log-page'>now</a></em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Deployments.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments.md#add-your-galaxy-deployment'>now</a></em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none"> </strong>Share your <a href='/Teach/Resources/#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers/#add-a-trainer'>experience</a> <em>now</em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Logs/#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs/#add-a-log-page'>now</a></em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Deployments/#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments/#add-your-galaxy-deployment'>now</a></em> <strong> </td>
   </tr>
 </table>
 
@@ -419,7 +419,7 @@ Servers are classified by whom they are accessible to.  This can be based on [re
 
 One new training organization joined the [Galaxy Training Network](/Teach/GTN):
 
-* [Geneclat Technologies](/Teach/Trainers.md#geneclat-technologies) is based in Bengaluru, Karnataka, India, and is available globally (and "ready to travel!") 
+* [Geneclat Technologies](/Teach/Trainers/#geneclat-technologies) is based in Bengaluru, Karnataka, India, and is available globally (and "ready to travel!") 
 
 ## New Commercial Support Directory
 
@@ -461,7 +461,7 @@ Galaxy now detects and supports many molecular datatypes. See [PR 1941](https://
     <td style=" vertical-align: top; border: none"> <span style="font-size: larger;"> !BitBucket </span> <br /><br /></strong>Upgrade<strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.04</code> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none"> See the <a href='/Admin/GetGalaxy.md'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
+    <td colspan=3 style=" border: none"> See the <a href='/Admin/GetGalaxy/'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
   </tr>
 </table>
 
@@ -473,7 +473,7 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 ## CloudMan 16.04
 
-<div class='right'><a href='/CloudMan.md'><img src='/Images/GalaxyLogos/cloudman-logo.jpg' alt='CloudMan' width="300" /></a></div>
+<div class='right'><a href='/CloudMan/'><img src='/Images/GalaxyLogos/cloudman-logo.jpg' alt='CloudMan' width="300" /></a></div>
 
 **We just released an update to Galaxy !CloudMan on AWS.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
 

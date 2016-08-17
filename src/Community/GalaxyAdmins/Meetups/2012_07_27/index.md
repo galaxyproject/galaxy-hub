@@ -1,6 +1,6 @@
 <div class='center'>
-<a href='/Community/GalaxyAdmins.md'><img src='/Images/Logos/GalaxyAdmins.png' /></a> &nbsp;&nbsp;&nbsp;
-<a href='/Events/GCC2012.md'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='GCC2012' height="120" /></a>
+<a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' /></a> &nbsp;&nbsp;&nbsp;
+<a href='/Events/GCC2012/'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='GCC2012' height="120" /></a>
 </div>
 
 INCLUDE(../LinkBox)

@@ -1,18 +1,18 @@
 <div class='newsItemHeader'>[June 2013 Galaxy Update](/News/2013_06GalaxyUpdate)</div>
 
-<div class='right'><a href='/GalaxyUpdates/2013_06.md'><img src='/Images/Logos/GalaxyUpdate200.png' alt='June 2013 Galaxy Update' width=150 /></a></div>
+<div class='right'><a href='/GalaxyUpdates/2013_06/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='June 2013 Galaxy Update' width=150 /></a></div>
 
 The [June 2013 Galaxy Update is now available](/GalaxyUpdates/2013_06). 
 
 **Highlights:**
-* **[Register](/Events/GCC2013/Register) for [GCC2013](/GalaxyUpdates/2013_06.md#gcc2013) by ~~7 June~~ 14 June to avoid late registration rates**
-* [Two new public servers](/GalaxyUpdates/2013_06.md#new-public-servers) ODoSE and CBiB
-* [39 new papers](/GalaxyUpdates/2013_06.md#new-papers)
-* [Open Positions](/GalaxyUpdates/2013_06.md#whos-hiring) at four different institutions
-* [Other Upcoming Events](/GalaxyUpdates/2013_06.md#other-upcoming-events)
-* [Duplicate Accounts on Main](/GalaxyUpdates/2013_06.md#duplicate-accounts-on-main)
-* [Tool Shed Contributions](/GalaxyUpdates/2013_06.md#tool-shed-contributions)
-* [Other News](/GalaxyUpdates/2013_06.md#other-news)
+* **[Register](/Events/GCC2013/Register) for [GCC2013](/GalaxyUpdates/2013_06/#gcc2013) by ~~7 June~~ 14 June to avoid late registration rates**
+* [Two new public servers](/GalaxyUpdates/2013_06/#new-public-servers) ODoSE and CBiB
+* [39 new papers](/GalaxyUpdates/2013_06/#new-papers)
+* [Open Positions](/GalaxyUpdates/2013_06/#whos-hiring) at four different institutions
+* [Other Upcoming Events](/GalaxyUpdates/2013_06/#other-upcoming-events)
+* [Duplicate Accounts on Main](/GalaxyUpdates/2013_06/#duplicate-accounts-on-main)
+* [Tool Shed Contributions](/GalaxyUpdates/2013_06/#tool-shed-contributions)
+* [Other News](/GalaxyUpdates/2013_06/#other-news)
 
 If you have anything you would like to see in the July *[Galaxy Update](/GalaxyUpdates)*, please let us know.
 

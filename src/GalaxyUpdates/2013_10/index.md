@@ -2,7 +2,7 @@
 
 <div class='right'>TABLE_OF_CONTENTS</div>
 
-<div class='left'><a href='/GalaxyUpdates.md'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the October 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -47,7 +47,7 @@ A [tutorial on using the web server](http://kmersvm.beerlab.org/tutorial/) and a
 
 See *[A quality control system for profiles obtained by ChIP sequencing](http://nar.oxfordjournals.org/content/early/2013/09/14/nar.gkt829)* by Mendoza-Parra, *et al.*, in *Nucl. Acids Res.* (2013)
 
-The server is hosted by the [Gronemeyer lab](http://igbmc.fr/research/department/2/team/21/) and [email support](/PublicGalaxyServers.md#ngs-qc-generator) is available.  You must have an account to use the server; anyone can create an account. "Due to storage space constraints, uploaded datasets into the Galaxy instance may not be available for more than 24hours, thus we strongly suggest users to download their processed files as early as possible."
+The server is hosted by the [Gronemeyer lab](http://igbmc.fr/research/department/2/team/21/) and [email support](/PublicGalaxyServers/#ngs-qc-generator) is available.  You must have an account to use the server; anyone can create an account. "Due to storage space constraints, uploaded datasets into the Galaxy instance may not be available for more than 24hours, thus we strongly suggest users to download their processed files as early as possible."
 
 ## USP-FCFRP
 
@@ -141,7 +141,7 @@ And the Galaxy Project now has it's own [CITATION file](https://bitbucket.org/ga
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring.md'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 * [Statistical Genomics Postdoc](/News/StatisticalGenomicsPostDocPennState) opening in the Makova lab at Penn State
@@ -159,7 +159,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif.md' /></a></div> There is a lot going on in the next three months, *with half of it happening in the Southern Hemisphere.*  Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> There is a lot going on in the next three months, *with half of it happening in the Southern Hemisphere.*  Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='left'>
 <br />
@@ -186,7 +186,7 @@ In the next 3 months there are no less than 13 talks and workshops at at least 5
     <th> September&nbsp;28 - October&nbsp;1 </th>
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
-    <td> <a href='/RossLazarus.md'>Ross Lazarus</a>, <a href='/Dan.md'>Dan Blankenberg</a> </td>
+    <td> <a href='/RossLazarus/'>Ross Lazarus</a>, <a href='/Dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> October 13-16 </th>
@@ -265,7 +265,7 @@ And don't worry, you won't have to travel to Australia during its spring just to
 <a href='http://www.beyond-the-genome.com/program/'><img src='/Images/Logos/BeyondTheGenome2013.png' alt='Beyond the Genome' height="60" /></a> &nbsp;
 <a href='http://bit.ly/153avr8'><img src='/Images/Logos/OrioneNGSCourse.png' alt='Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica' height="65" /></a> &nbsp;
 <a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src='/Images/Logos/GennoToulLogo.png' alt='Galaxy Training Days' height="60" /></a>
-<a href='/Events/SAWorkshopTour2013.md'><img src='/Images/Logos/SAGalaxyWorkshopTour2013Wide.png' alt='2013 South Africa Galaxy Workshop Tour' height="65" /></a>
+<a href='/Events/SAWorkshopTour2013/'><img src='/Images/Logos/SAGalaxyWorkshopTour2013Wide.png' alt='2013 South Africa Galaxy Workshop Tour' height="65" /></a>
 </div>
 
 <table>
@@ -279,13 +279,13 @@ And don't worry, you won't have to travel to Australia during its spring just to
     <th> September 30 - October 2 </th>
     <td> <em>Analysis of Genomic Sequence Data With Galaxy</em>, part of the <em><a href='http://individualizingmedicineconference.mayo.edu/schedule/'>Cancer Care</a></em> session </td>
     <td> <a href='http://individualizingmedicineconference.mayo.edu/'>Individualizing Medicine Conference</a>, <a href='http://mayo.eduy/'>Mayo Clinic</a>, Rochester, Minnesota, United States </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th rowspan=2> October 1-3 </th>
     <td> <em><a href='http://www.beyond-the-genome.com/program/'>Galaxy as a platform for High-throughput Genomics</a></em> </td>
     <td rowspan=2> </strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a><strong>, San Francisco, California, United States </td>
-    <td> <a href='/JeremyGoecks.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.beyond-the-genome.com/program/'>Development of a genomic region database and analysis tool for the Galaxy platform</a></em> </td>
@@ -295,11 +295,11 @@ And don't worry, you won't have to travel to Australia during its spring just to
     <th rowspan=2> October 7-8 </th>
     <td> <em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>Next-Generation Sequencing Data Interpretation: Enhancing Reproducibility and Accessibility</a></em></td>
     <td rowspan=2> <a href='http://www.gtcbio.com/conference/ngseurope-overview'>NGS & Bioinformatics Summit Europe</a>, Berlin, Germany </td>
-    <td> <a href='/anton.md'>Anton Nektutenko</a> </td>
+    <td> <a href='/anton/'>Anton Nektutenko</a> </td>
   </tr>
   <tr>
     <td> <em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>Using Galaxy to Provide a NGS Analysis Platform</a> </em> </td>
-    <td> <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a> </td>
+    <td> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> October 8-11 </th>
@@ -315,19 +315,19 @@ And don't worry, you won't have to travel to Australia during its spring just to
   </tr>
   <tr>
     <th> October 14-18 </th>
-    <td> <em><a href='/Events/UPretoria2013.md'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Pretoria</div> </td>
-    <td rowspan=2> <a href='/Events/SAWorkshopTour2013.md'>2013 South Africa Galaxy Workshop Tour</a><div class='indent'><div class='red'>Application deadline is 17 September</div> </td>
-    <td rowspan=2> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <em><a href='/Events/UPretoria2013/'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Pretoria</div> </td>
+    <td rowspan=2> <a href='/Events/SAWorkshopTour2013/'>2013 South Africa Galaxy Workshop Tour</a><div class='indent'><div class='red'>Application deadline is 17 September</div> </td>
+    <td rowspan=2> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 21-25 </th>
-    <td> <em><a href='/Events/UCapeTown2013.md'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Cape Town</div> </td>
+    <td> <em><a href='/Events/UCapeTown2013/'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Cape Town</div> </td>
   </tr>
   <tr>
     <th> October 22 </th>
     <td> <em><a href='http://bioteam.net/slipstream/galaxy-edition/galaxy-training/'>Analyzing NGS Data with Galaxy</a></em> </td>
     <td> <a href='http://www.dana-farber.org/'>Dana-Farber Cancer Institute</a>, Boston, Massachusetts, United States </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a>, <a href='/JenniferJackson.md'>Jennifer Jackson</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a>, <a href='/JenniferJackson/'>Jennifer Jackson</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
   </tr>
   <tr>
     <th rowspan=5> October 22-26 </th>
@@ -337,7 +337,7 @@ And don't worry, you won't have to travel to Australia during its spring just to
   </tr>
   <tr>
     <td> <em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#high'>High Throughput Data Analysis and Visualization with Galaxy</a></em> <div class='indent'><div class='red'>This workshop is sold out.</div> </td>
-    <td> <a href='/anton.md'>Anton Nekrutenko</a>, <a href='/JenniferJackson.md'>Jennifer Jackson</a> </td>
+    <td> <a href='/anton/'>Anton Nekrutenko</a>, <a href='/JenniferJackson/'>Jennifer Jackson</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.ashg.org/2013meeting/abstracts/fulltext/f130122946.htm'>Poster 1633T: Globus Genomics: Enabling high-throughput analysis and management of NGS data for neurodevelopmental disorders</a></em> </td>
@@ -365,19 +365,19 @@ And don't worry, you won't have to travel to Australia during its spring just to
     <th> November 6-12 </th>
     <td> <em><a href='http://meetings.cshl.edu/courses/2013/c-ecg13.shtml'>Computational and Comparative Genomics Course</a></em><div class='indent'><div class='red'>Application Deadline: July 15, 2013</div> </td>
     <td> <a href='http://cshl.edu'>Cold Spring Harbor Laboratory</a>, New York, United States </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> January 11-15 </th>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXII (PAG 2014)</a> </td>
     <td> San Diego, California, United States </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 16-17 </th>
     <td> <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'>2014 GMOD Meeting</a> </td>
     <td> San Diego, California, United States </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
 </table>
 
@@ -397,7 +397,7 @@ Two other resources (at least) became available in September:
 
 * Course Materials for the [2013 UC Davis Bioinformatics Short Course](http://bit.ly/16rAUkf): This course featured 5 great days of lecture and hands-on exercises.  *And,* an Amazon Web Services AMI that includes all tools and data used in the course, is also available. 
 
-See the [list of other tutorials](/Learn.md#other-tutorials) on the [Learn hub page](/Learn) for more.
+See the [list of other tutorials](/Learn/#other-tutorials) on the [Learn hub page](/Learn) for more.
 <br />
 
 # Galaxy Distributions

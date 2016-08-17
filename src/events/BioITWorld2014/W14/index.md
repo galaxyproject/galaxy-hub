@@ -455,7 +455,7 @@ admin_users = nate@bx.psu.edu
 
 Explanations of these options:
 
-* `database_connection = postgresql:///galaxy?host=/var/run/postgresql` - Use a PostgreSQL database via a local UNIX domain socket (the socket is in `/var/run/postgresql`). [documentation](/Admin/Config/Performance/ProductionServer.md#switching_to_a_database_server)
+* `database_connection = postgresql:///galaxy?host=/var/run/postgresql` - Use a PostgreSQL database via a local UNIX domain socket (the socket is in `/var/run/postgresql`). [documentation](/Admin/Config/Performance/ProductionServer/#switching_to_a_database_server)
 * `database_engine_option_server_side_cursors = True` - Keep large SQL query results on the PostgreSQL server, rather the transferring the entire result set to the Galaxy processes.
 * `database_engine_option_strategy = threadlocal` - Only use one database connection per thread
 * `tool_dependency_dir = /home/galaxy/tool_deps` - The directory that will house tool dependencies
@@ -473,7 +473,7 @@ Explanations of these options:
 Honorable mentions for features we won't use today but that are common in big setups:
 
 * `ftp_upload_dir` and `ftp_upload_site` - Allow users to upload data to the server using FTP
-* `use_remote_user` and `remote_user_maildomain` - Use your institution's existing authentication system to log in to Galaxy. [Apache documentation](/Admin/Config/ExternalUserDatbases) or [nginx documentation](/Admin/Config/nginxProxy.md#external_user_authentication)
+* `use_remote_user` and `remote_user_maildomain` - Use your institution's existing authentication system to log in to Galaxy. [Apache documentation](/Admin/Config/ExternalUserDatbases) or [nginx documentation](/Admin/Config/nginxProxy/#external_user_authentication)
 * `allow_user_impersonation` - Users configured as administrators (with `admin_users`) can "become" other users to view Galaxy exactly as the impersonated user does. Useful for providing support.
 * `library_import_dir` - Administrators can directly import datasets from this directory on the server to Data Libraries.  This includes an option that allows an effective "symlink" to the data, rather than copying it in to Galaxy's `file_path` directory. [documentation](/Admin/DataLibraries/UploadingLibraryFiles)
 * `user_library_import_dir` - Non-administrators can directly import datasets from this directory on this server to Data Libraries from which they have been given write permission. [documentation](/Admin/DataLibraries/UploadingLibraryFiles)

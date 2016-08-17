@@ -5,7 +5,7 @@ INCLUDE(/Events/GCC2013/Header)
 INCLUDE(/Events/GCC2013/LinkBox)
 INCLUDE(/Events/GCC2013/BoF/LinkBox)
 
-<div class='left'><a href='/Events/GCC2013/BoF.md'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
+<div class='left'><a href='/Events/GCC2013/BoF/'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
 
 This page describes the **Proteomics BoF** [Birds of a Feather](/Events/GCC2013/BoF) meetup being held at [GCC2013](/Events/GCC2013).
 
@@ -17,7 +17,7 @@ If the attendees are more or exclusively current developers using Galaxy for pro
 
 ## When and Where
 
-The Proteomics BoF has been  [tentatively scheduled](/Events/GCC2013/BoF.md#bof-schedule) for lunch on tuesday in the cantina
+The Proteomics BoF has been  [tentatively scheduled](/Events/GCC2013/BoF/#bof-schedule) for lunch on tuesday in the cantina
 
 ## Who is Participating
 

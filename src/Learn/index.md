@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://usegalaxy.org/galaxy101'><img src='/Galaxy101Page.png' alt='Galaxy 101' height="160" /></a>&nbsp;&nbsp; <a href='Screencasts.md'><img src='/ScreencastsThumb.png' alt='Screencasts' height="160" /></a>&nbsp;&nbsp; <a href='#shared-pages-histories--workflows'><img src='/SharedHistoriesThumb.png' alt='Shared Pages, Histories, & Workflows' height="160" /></a>
+<a href='http://usegalaxy.org/galaxy101'><img src='/Galaxy101Page.png' alt='Galaxy 101' height="160" /></a>&nbsp;&nbsp; <a href='Screencasts/'><img src='/ScreencastsThumb.png' alt='Screencasts' height="160" /></a>&nbsp;&nbsp; <a href='#shared-pages-histories--workflows'><img src='/SharedHistoriesThumb.png' alt='Shared Pages, Histories, & Workflows' height="160" /></a>
 </div>
 
 <div class="title">Learn Galaxy</div>
@@ -99,7 +99,7 @@ In the meantime, for some tools there is also additional information available o
 * [Uploading and Analyzing Genotype Data in Plink Format](Uploading and Analyzing Genotype Data in Plink Format)
 
 ## Visualization
-<div class='right'> <a href='Visualization.md'><img src='/viz/histogram.png' alt='Visualization' width="300" /></a></div>
+<div class='right'> <a href='Visualization/'><img src='/viz/histogram.png' alt='Visualization' width="300" /></a></div>
 Galaxy incorporates a [track browser](Visualization). This can be used to visualize genomic data within Galaxy in a tightly integrated way. The browser also currently supports (and aims to support maximally) *visual analytics*, where visualization is used iteratively to provide feedback on analysis.  See [Visualization](Visualization) for more. Additionally, Galaxy enables you to create bar diagrams, pie charts, scatter plots and other visualizations using the Charts plugin. See [Galaxy Charts](Visualization/Charts) for more. Finally, custom visualizations developed by the user community are available [here](Visualization/Custom).
 
 INCLUDE(/Support/LinkBox)

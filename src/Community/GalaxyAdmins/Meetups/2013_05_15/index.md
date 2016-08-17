@@ -1,4 +1,4 @@
-<div class='center'><a href='/Community/GalaxyAdmins.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> 
+<div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> 
 <div class="title">2013/05/15 Web Meetup<br /><br />[Galaxy](http://rnaseq.pathogenportal.org/) at [Pathogen Portal](http://pathogenportal.org)
 </div></div>
 
@@ -19,7 +19,7 @@ INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em><a href='http://rnaseq.pathogenportal.org/'>Galaxy</a> at <a href='http://pathogenportal.org'>Pathogen Portal</a></em><div class='indent'>Andrew Warren, <a href='https://www.vbi.vt.edu/'>Virginia Bioinformatics Institute</a>, Virginia Tech </div><em>Galaxy Project Update</em><div class='indent'><a href='/DannonBaker.md'>Dannon Baker</a></div> </td>
+    <td> <em><a href='http://rnaseq.pathogenportal.org/'>Galaxy</a> at <a href='http://pathogenportal.org'>Pathogen Portal</a></em><div class='indent'>Andrew Warren, <a href='https://www.vbi.vt.edu/'>Virginia Bioinformatics Institute</a>, Virginia Tech </div><em>Galaxy Project Update</em><div class='indent'><a href='/DannonBaker/'>Dannon Baker</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>

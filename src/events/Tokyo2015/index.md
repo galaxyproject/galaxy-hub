@@ -87,7 +87,7 @@ The preparation hands-on is optional. To attend this hands-on, please bring your
   <tr>
     <th style=" background: #eee"> 13:25-13:30</th>
     <td style=" text-align: left"> </strong>Message from Galaxy Team<strong></td>
-    <td style=" text-align: left"> <a href='/DaveClements.md'>Dave Clements</a> (Johns Hopkins University)</td>
+    <td style=" text-align: left"> <a href='/DaveClements/'>Dave Clements</a> (Johns Hopkins University)</td>
     <td style=" text-align: center;"> -</td>
     <td style=" text-align: center;"> <a href='ATTACHMENT_URLDocuments/Presentations/2015_TokyoWorkshop_Clements.pdf'>pdf</a> </td>
     <td style=" text-align: center;"> <a href='https://www.youtube.com/watch?v=0et9a7UATlM&index=4&list=PL0uaKHgcG00YHACvSNK2R4xeFRKHVsxk8'>video</a></td>

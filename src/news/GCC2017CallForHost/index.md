@@ -2,8 +2,8 @@
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='/GCC2011.md'><img src='/Events/GCC2011Logo400.png' alt='' width="200" /></a>&nbsp;&nbsp; <br /><br /><a href='/Events/GCC2012.md'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' width="190" /></a>&nbsp;&nbsp;&nbsp; </td>
-    <td style=" text-align: center; border: none"> <a href='/Events/GCC2014.md'><img src='/Images/Logos/GCC2014LogoWide200.png' alt='GCC2014, June 30-July2' width="220" /></a>&nbsp;&nbsp;&nbsp;<br /><br /> <a href='/Events/GCC2013.md'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="220px" /></a>&nbsp;&nbsp;&nbsp;  </td>
+    <td style=" text-align: center; border: none"> <a href='/GCC2011/'><img src='/Events/GCC2011Logo400.png' alt='' width="200" /></a>&nbsp;&nbsp; <br /><br /><a href='/Events/GCC2012/'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' width="190" /></a>&nbsp;&nbsp;&nbsp; </td>
+    <td style=" text-align: center; border: none"> <a href='/Events/GCC2014/'><img src='/Images/Logos/GCC2014LogoWide200.png' alt='GCC2014, June 30-July2' width="220" /></a>&nbsp;&nbsp;&nbsp;<br /><br /> <a href='/Events/GCC2013/'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="220px" /></a>&nbsp;&nbsp;&nbsp;  </td>
     <td style=" text-align: center; border: none"> <a href='http://gcc2015.tsl.ac.uk/'><img src='/Images/Logos/GCC2015LogoWide600.png' alt='2015 Galaxy Community Conference (GCC2015)' width="200" /></a><br /><br /><a href='http://galaxyproject.org/GCC2016'><img src='/Events/GCC2016/GCC2016LogoFull_big.png' alt='2016 Galaxy Community Conference (GCC2016)' width="220px" /></a> </td>
   </tr>
   <tr>

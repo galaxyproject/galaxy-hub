@@ -54,6 +54,6 @@ General Genomics Researchers
 ## Links
 
 * [kmer-SVM server](http://kmersvm.beerlab.org/)
-* [kmer-svm](/PublicGalaxyServers.md#kmer-svm) server description on [list of public Galaxy Servers](/PublicGalaxyServers)
+* [kmer-svm](/PublicGalaxyServers/#kmer-svm) server description on [list of public Galaxy Servers](/PublicGalaxyServers)
 
 CategoryDeployment

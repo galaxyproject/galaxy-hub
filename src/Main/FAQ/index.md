@@ -17,7 +17,7 @@ See this email thread:
 
 ## Are there quotas on Main?
 
-Yes.  See [Quotas](/Main.md#quotas).
+Yes.  See [Quotas](/Main/#quotas).
 
 ## Using Galaxy for Transcriptome Analysis
 

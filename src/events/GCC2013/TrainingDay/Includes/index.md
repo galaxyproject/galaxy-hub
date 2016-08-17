@@ -19,9 +19,9 @@ This page is not meant to be viewed on its own. Rather, it contains sections tha
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td> <<sup> #ffffcc> '''[[../#Galaxy Code and Storage Architecture|Galaxy Code and Storage Architecture]]''' <<div(indent)>>[[JamesTaylor|James Taylor]], [[nate|Nate Coraor]]<<div>> ||<</sup> #DDffcc> </strong><a href='../.md#statistical-genome-analysis-with-galaxy'>Statistical Genome Analysis with Galaxy</a><strong> <div class='indent'><a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/index.html'>Geir Kjetil Sandve</a>, <a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9830'>Sveinung Gundersen</a></div></td>
-    <td> <<sup> #ffffcc> '''[[../#Installing and Maintaining a Local Galaxy Server|Installing and Maintaining a Local Galaxy Server]]''' <<div(indent)>>[[http://folk.uio.no/georgios|George Magklaras]], [[http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html|Katerina Michalickova]], [[http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html|Nikolay Vazov]]<<div>>||<</sup> #cceeff> </strong><a href='../.md#introduction-to-galaxy-and-the-galaxy-ecosystem'>Introduction to Galaxy and the Galaxy Ecosystem</a><strong> <div class='indent'><a href='/anton.md'>Anton Nekrutenko</a>, <a href='/JenniferJackson.md'>Jennifer Hillman-Jackson</a></div></td>
-    <td> <^ #cceeff> </strong><a href='../.md#running-galaxy-on-the-cloud'>Running Galaxy on the Cloud</a><strong> <div class='indent'><a href='/EnisAfgan.md'>Enis Afgan</a>, <a href='/DannonBaker.md'>Dannon Baker</a> </div></td>
+    <td> <<sup> #ffffcc> '''[[../#Galaxy Code and Storage Architecture|Galaxy Code and Storage Architecture]]''' <<div(indent)>>[[JamesTaylor|James Taylor]], [[nate|Nate Coraor]]<<div>> ||<</sup> #DDffcc> </strong><a href='..//#statistical-genome-analysis-with-galaxy'>Statistical Genome Analysis with Galaxy</a><strong> <div class='indent'><a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/index.html'>Geir Kjetil Sandve</a>, <a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9830'>Sveinung Gundersen</a></div></td>
+    <td> <<sup> #ffffcc> '''[[../#Installing and Maintaining a Local Galaxy Server|Installing and Maintaining a Local Galaxy Server]]''' <<div(indent)>>[[http://folk.uio.no/georgios|George Magklaras]], [[http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html|Katerina Michalickova]], [[http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html|Nikolay Vazov]]<<div>>||<</sup> #cceeff> </strong><a href='..//#introduction-to-galaxy-and-the-galaxy-ecosystem'>Introduction to Galaxy and the Galaxy Ecosystem</a><strong> <div class='indent'><a href='/anton/'>Anton Nekrutenko</a>, <a href='/JenniferJackson/'>Jennifer Hillman-Jackson</a></div></td>
+    <td> <^ #cceeff> </strong><a href='..//#running-galaxy-on-the-cloud'>Running Galaxy on the Cloud</a><strong> <div class='indent'><a href='/EnisAfgan/'>Enis Afgan</a>, <a href='/DannonBaker/'>Dannon Baker</a> </div></td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
@@ -29,9 +29,9 @@ This page is not meant to be viewed on its own. Rather, it contains sections tha
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30 </th>
-    <td> <<sup> #ffffcc> '''[[../#The Galaxy API|The Galaxy API]]''' <<div(indent)>>[[nate|Nate Coraor]], [[CarlEberhard|Carl Eberhard]]<<div>> ||<</sup> #ffffcc> </strong><a href='../.md#introduction-to-tool-and-data-source-configuration'>Introduction to Tool and Data Source Configuration</a><strong> <div class='indent'><a href='/Dan.md'>Dan Blankenberg</a>, <a href='/fubar.md'>Ross Lazarus</a></div> </td>
-    <td> <<sup> #ddffcc> '''[[../#RNA-Seq Analysis with Galaxy|RNA-Seq Analysis with Galaxy]]''' <<div(indent)>>[[http://www.lgtc.nl/about_us/lgtc_team.php|Jeroen F.J. Laros]], [[http://bow.web.id/|Wibowo Arindrarto]], [[http://ngs.nbic.nl/|Leon Mei]] <<div>> ||<</sup> #DDffcc> </strong><a href='../.md#statistical-genome-analysis-with-galaxy'>Statistical Genome Analysis with Galaxy</a><strong> <div class='indent'><a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/index.html'>Geir Kjetil Sandve</a>, <a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9830'>Sveinung Gundersen</a></div> </td>
-    <td> <^ #cceeff> </strong><a href='../.md#running-galaxy-on-the-cloud'>Running Galaxy on the Cloud</a><strong> <div class='indent'><a href='/EnisAfgan.md'>Enis Afgan</a>, <a href='/DannonBaker.md'>Dannon Baker</a></div> </td>
+    <td> <<sup> #ffffcc> '''[[../#The Galaxy API|The Galaxy API]]''' <<div(indent)>>[[nate|Nate Coraor]], [[CarlEberhard|Carl Eberhard]]<<div>> ||<</sup> #ffffcc> </strong><a href='..//#introduction-to-tool-and-data-source-configuration'>Introduction to Tool and Data Source Configuration</a><strong> <div class='indent'><a href='/Dan/'>Dan Blankenberg</a>, <a href='/fubar/'>Ross Lazarus</a></div> </td>
+    <td> <<sup> #ddffcc> '''[[../#RNA-Seq Analysis with Galaxy|RNA-Seq Analysis with Galaxy]]''' <<div(indent)>>[[http://www.lgtc.nl/about_us/lgtc_team.php|Jeroen F.J. Laros]], [[http://bow.web.id/|Wibowo Arindrarto]], [[http://ngs.nbic.nl/|Leon Mei]] <<div>> ||<</sup> #DDffcc> </strong><a href='..//#statistical-genome-analysis-with-galaxy'>Statistical Genome Analysis with Galaxy</a><strong> <div class='indent'><a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/index.html'>Geir Kjetil Sandve</a>, <a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9830'>Sveinung Gundersen</a></div> </td>
+    <td> <^ #cceeff> </strong><a href='..//#running-galaxy-on-the-cloud'>Running Galaxy on the Cloud</a><strong> <div class='indent'><a href='/EnisAfgan/'>Enis Afgan</a>, <a href='/DannonBaker/'>Dannon Baker</a></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 14:30 </th>
@@ -39,9 +39,9 @@ This page is not meant to be viewed on its own. Rather, it contains sections tha
   </tr>
   <tr>
     <th style=" text-align: right;"> 15:00 </th>
-    <td> <<sup> #ffffcc> '''[[../#Advanced Tool and Data Source Configuration|Advanced Tool and Data Source Configuration]]''' <<div(indent)>>[[fubar|Ross Lazarus]], [[Dan|Dan Blankenberg]] <<div>> ||<</sup> #ffffcc> </strong><a href='../.md#galaxy-tool-shed'>Galaxy Tool Shed</a><strong> <div class='indent'><a href='/greg_vonkuster.md'>Greg Von Kuster</a>, <a href='/DaveBouvier.md'>Dave Bouvier</a> </div> </td>
-    <td> <<sup> #ddffcc> '''[[../#Variant and SNP Analysis with Galaxy|Variant and SNP Analysis with Galaxy]]''' <<div(indent)>>[[http://bioinformatics.bc.edu/marthlab/Erik_Garrison|Erik Garrison]], [[anton|Anton Nekrutenko]] <<div>> ||<</sup> #ddffcc> </strong><a href='../.md#rna-seq-analysis-with-galaxy'>RNA-Seq Analysis with Galaxy</a><strong> <div class='indent'><a href='http://www.lgtc.nl/about_us/lgtc_team.php'>Jeroen F.J. Laros</a>, <a href='http://bow.web.id/'>Wibowo Arindrarto</a>, <a href='http://ngs.nbic.nl/'>Leon Mei</a> </div></td>
-    <td> <^ #DDffcc> </strong><a href='../.md#chip-seq-analysis-with-galaxy'>ChIP-Seq Analysis with Galaxy</a><strong> <div class='indent'><a href='http://u900.curie.fr/en/profile/alban-lermine-00587'>Alban Lermine</a>, <a href='https://sites.google.com/site/valentinaboeva/'>Valentina Boeva</a> </div> </td>
+    <td> <<sup> #ffffcc> '''[[../#Advanced Tool and Data Source Configuration|Advanced Tool and Data Source Configuration]]''' <<div(indent)>>[[fubar|Ross Lazarus]], [[Dan|Dan Blankenberg]] <<div>> ||<</sup> #ffffcc> </strong><a href='..//#galaxy-tool-shed'>Galaxy Tool Shed</a><strong> <div class='indent'><a href='/greg_vonkuster/'>Greg Von Kuster</a>, <a href='/DaveBouvier/'>Dave Bouvier</a> </div> </td>
+    <td> <<sup> #ddffcc> '''[[../#Variant and SNP Analysis with Galaxy|Variant and SNP Analysis with Galaxy]]''' <<div(indent)>>[[http://bioinformatics.bc.edu/marthlab/Erik_Garrison|Erik Garrison]], [[anton|Anton Nekrutenko]] <<div>> ||<</sup> #ddffcc> </strong><a href='..//#rna-seq-analysis-with-galaxy'>RNA-Seq Analysis with Galaxy</a><strong> <div class='indent'><a href='http://www.lgtc.nl/about_us/lgtc_team.php'>Jeroen F.J. Laros</a>, <a href='http://bow.web.id/'>Wibowo Arindrarto</a>, <a href='http://ngs.nbic.nl/'>Leon Mei</a> </div></td>
+    <td> <^ #DDffcc> </strong><a href='..//#chip-seq-analysis-with-galaxy'>ChIP-Seq Analysis with Galaxy</a><strong> <div class='indent'><a href='http://u900.curie.fr/en/profile/alban-lermine-00587'>Alban Lermine</a>, <a href='https://sites.google.com/site/valentinaboeva/'>Valentina Boeva</a> </div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 17:00</th>
@@ -77,15 +77,15 @@ END_INCLUDE
 END_INCLUDE
 
 # VM
-* The [virtual machine image](/Events/GCC2013/TrainingDay/VMs.md#2-download-needed-vms-on-your-laptop) for this workshop.
+* The [virtual machine image](/Events/GCC2013/TrainingDay/VMs/#2-download-needed-vms-on-your-laptop) for this workshop.
 END_INCLUDE
 
 # VM_BASIC
-* The [virtual machine image](/Events/GCC2013/TrainingDay/VMs.md#2-download-needed-vms-on-your-laptop) (download from [Norway](ftp://ftp.no.embnet.org/galaxy/images/BasicWorkshop.ova) or [US](http://depot.galaxyproject.org/BasicWorkshop.ova)) for this workshop.
+* The [virtual machine image](/Events/GCC2013/TrainingDay/VMs/#2-download-needed-vms-on-your-laptop) (download from [Norway](ftp://ftp.no.embnet.org/galaxy/images/BasicWorkshop.ova) or [US](http://depot.galaxyproject.org/BasicWorkshop.ova)) for this workshop.
 END_INCLUDE
 
 # VM_ADVANCED
-* The [virtual machine image](/Events/GCC2013/TrainingDay/VMs.md#2-download-needed-vms-on-your-laptop) (download from [US](http://depot.galaxyproject.org/GCC2013-AdvWorkshops.ova)) for this workshop.
+* The [virtual machine image](/Events/GCC2013/TrainingDay/VMs/#2-download-needed-vms-on-your-laptop) (download from [US](http://depot.galaxyproject.org/GCC2013-AdvWorkshops.ova)) for this workshop.
 END_INCLUDE
 
 # SSH
@@ -101,12 +101,12 @@ END_INCLUDE
 END_INCLUDE
 
 # INTRO
-* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](../.md#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
+* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](..//#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
 END_INCLUDE
 
 # QC
-* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](../.md#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
-* General knowledge of NGS quality control issues and tools, or attendance at the "[NGS Quality Control with Galaxy](../.md#ngs-quality-control-with-galaxy)" session. 
+* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](..//#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
+* General knowledge of NGS quality control issues and tools, or attendance at the "[NGS Quality Control with Galaxy](..//#ngs-quality-control-with-galaxy)" session. 
 END_INCLUDE
 
 # ROOT ACCESS
@@ -122,7 +122,7 @@ END_INCLUDE
 END_INCLUDE
 
 # TOOL BASICS
-* Basic understanding of the process for developing a simple Galaxy tool as well as Galaxy data types, or attendance at [Introduction to Tool and Data Sources Configureation](../.md#introduction-to-tool-and-data-source-configuration).
+* Basic understanding of the process for developing a simple Galaxy tool as well as Galaxy data types, or attendance at [Introduction to Tool and Data Sources Configureation](..//#introduction-to-tool-and-data-source-configuration).
 END_INCLUDE
 
 # SCRIPTING

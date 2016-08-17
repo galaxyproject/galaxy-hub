@@ -215,7 +215,7 @@ galaxy:handler1: started
 
 If using only one web process, you can proxy as per the normal instructions for a [/Admin/Config/Performance/ProductionServer](/Admin/Config/Performance/ProductionServer).  Otherwise, you'll need to set up load balancing.
 
-If you have specified a separate job runner and you want to use the "Manage jobs" interface as administrator you also have to define a proxy for the job runner as shown [below](/Admin/Config/Performance/Scaling.md#manage-jobs).
+If you have specified a separate job runner and you want to use the "Manage jobs" interface as administrator you also have to define a proxy for the job runner as shown [below](/Admin/Config/Performance/Scaling/#manage-jobs).
 
 ### Apache
 

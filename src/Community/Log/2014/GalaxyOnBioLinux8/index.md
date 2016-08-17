@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://environmentalomics.org/bio-linux-galaxy/'><img src='/Images/Logos/EOS.gif.md' alt='NERC Environmental 'Omics Synthesis Centre' /></a>
+<a href='http://environmentalomics.org/bio-linux-galaxy/'><img src='/Images/Logos/EOS.gif/' alt='NERC Environmental 'Omics Synthesis Centre' /></a>
 </div>
 
 <div class="title">2014/09: Overview of Galaxy on Bio-Linux 8</div>

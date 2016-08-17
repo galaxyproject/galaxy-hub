@@ -1,4 +1,4 @@
-<div class='center'><a href='/Community/GalaxyAdmins.md'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='GalaxyAdmins' width="220" /></a> 
+<div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='GalaxyAdmins' width="220" /></a> 
 <div class="title">2016/06/16 Web Meetup<br /><br />
 
 </div></div>
@@ -18,7 +18,7 @@ INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em>Galaxy in Production at the University of Minnesota</em> (<a href='ATTACHMENT_URLDocuments/Presentations/201606_Admins_umn.pdf'>Slides</a>)<div class='indent'> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a> and <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a> of the <a href='https://www.msi.umn.edu/'>Minnesota Supercomputing Institute</a> </div> <em><a href='https://github.com/galaxyproject/galaxy/pull/2455'>Galaxy Radio Telescope</a></em> (<a href='https://github.com/erasche/presentations/blob/master/2016_06_galaxyadmins/talk.pdf'>Slides</a>)<div class='indent'><a href='/EricRasche.md'>Eric Rasche</a></div> </td>
+    <td> <em>Galaxy in Production at the University of Minnesota</em> (<a href='ATTACHMENT_URLDocuments/Presentations/201606_Admins_umn.pdf'>Slides</a>)<div class='indent'> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a> and <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a> of the <a href='https://www.msi.umn.edu/'>Minnesota Supercomputing Institute</a> </div> <em><a href='https://github.com/galaxyproject/galaxy/pull/2455'>Galaxy Radio Telescope</a></em> (<a href='https://github.com/erasche/presentations/blob/master/2016_06_galaxyadmins/talk.pdf'>Slides</a>)<div class='indent'><a href='/EricRasche/'>Eric Rasche</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>

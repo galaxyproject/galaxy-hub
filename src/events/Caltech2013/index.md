@@ -92,7 +92,7 @@ This informal discussion will introduce Galaxy for developers.  We will discuss 
 </div>
 
 ## Links
-<div class='right'><a href='/attachment:CaltechGalaxyDay.pdf.md'><img src='/CaltechGalaxyDayThumb.png' alt='Download flier' /></a></div>
+<div class='right'><a href='/attachment:CaltechGalaxyDay.pdf/'><img src='/CaltechGalaxyDayThumb.png' alt='Download flier' /></a></div>
 
 * Please help get the word out by distributing [this flyer](ATTACHMENT_URLCaltechGalaxyDay.pdf) in your department.
 

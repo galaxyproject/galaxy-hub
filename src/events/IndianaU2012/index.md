@@ -124,7 +124,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 
 ## Links
-<div class='right'><a href='/attachment:IndianaUGalaxyWorkshop.pdf.md'><img src='/IndianaUGalaxyWorkshopThumb.png' alt='Download flier' /></a></div>
+<div class='right'><a href='/attachment:IndianaUGalaxyWorkshop.pdf/'><img src='/IndianaUGalaxyWorkshopThumb.png' alt='Download flier' /></a></div>
 
 * Please help get the word out by distributing [this flyer](ATTACHMENT_URLIndianaUGalaxyWorkshop.pdf) in your department.
 * Please take a minute to give us [your feedback on the workshops](/Feedback Link).

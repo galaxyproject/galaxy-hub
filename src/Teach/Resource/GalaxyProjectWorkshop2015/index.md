@@ -45,7 +45,7 @@ Differential Expression using Tuxedo pipeline: Known vs Novel splice variants
 
 Review the source tutorial overview under [/Teach](/Teach) named *[/Teach/Resource/GVL-RNA-SeqTutorial](/Teach/Resource/GVL-RNA-SeqTutorial)*. This summary points to the full exercise created by the *[Genomics Virtual Lab (GVL)](https://docs.google.com/document/pub?id=1KbTiBHtvHLfPRZ39AY3uriazrINA8TJzgjjwn1zPP7Y)*
 
-Wikis: [/Support.md#tools_on_the_main_server_rna-seq](/Support.md#tools_on_the_main_server_rna-seq) and several others under [/Learn.md#other_tutorials](/Learn.md#other_tutorials)
+Wikis: [/Support/#tools_on_the_main_server_rna-seq](/Support/#tools_on_the_main_server_rna-seq) and several others under [/Learn/#other_tutorials](/Learn/#other_tutorials)
 
 ## Known Protocol
 
@@ -286,7 +286,7 @@ Wikis: [/Histories](/Histories) and [/Learn/ManagingDatasets](/Learn/ManagingDat
 
 ## Importing
 
-Wikis: [/Support.md#loading_data](/Support.md#loading_data)
+Wikis: [/Support/#loading_data](/Support/#loading_data)
 
 ### Upload
 
@@ -340,7 +340,7 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/import](https://usegal
     * very long descriptions that will likely cause problems if used as a *Custom Reference Genome*
     * we will correct this in the sub-topic *Custom Genomes*
 1. Homework:
-  1. use the pasted BED dataset with the tool *Extract Genomic DNA* to retrieve genomic sequence in fasta format for the specified interval. Example with a custom genome (use built-in for this job):[/Support.md#tools_on_the_main_server_extract_dna](/Support.md#tools_on_the_main_server_extract_dna)
+  1. use the pasted BED dataset with the tool *Extract Genomic DNA* to retrieve genomic sequence in fasta format for the specified interval. Example with a custom genome (use built-in for this job):[/Support/#tools_on_the_main_server_extract_dna](/Support/#tools_on_the_main_server_extract_dna)
 
 
 ### External Sources
@@ -410,7 +410,7 @@ Wiki: [/Learn/Share](/Learn/Share)
 
 ## FASTQ Dataset Prep & Troubleshooting
 
-Wiki: [/Support.md#fastq_datatype_qa](/Support.md#fastq_datatype_qa)
+Wiki: [/Support/#fastq_datatype_qa](/Support/#fastq_datatype_qa)
 
 1. History menu *Saved Histories*
 1. History menu *Copy Dataset* 
@@ -432,12 +432,12 @@ BONUS as time allows
 
 ## Custom Genomes
  
-Wikis: [/Support.md#custom_reference_genome](/Support.md#custom_reference_genome) and [/Learn/CustomGenomes](/Learn/CustomGenomes)
+Wikis: [/Support/#custom_reference_genome](/Support/#custom_reference_genome) and [/Learn/CustomGenomes](/Learn/CustomGenomes)
 
 1. History menu *Saved Histories*
 1. History menu *Copy Dataset* 
   * from ‘’Import’’ check the *!H1N1.fasta* dataset into a new History named *Custom*
-1. using methods from the wiki in the [/Learn/CustomGenomes.md#troubleshooting](/Learn/CustomGenomes.md#troubleshooting) section, reformat the dataset
+1. using methods from the wiki in the [/Learn/CustomGenomes/#troubleshooting](/Learn/CustomGenomes/#troubleshooting) section, reformat the dataset
   * fasta datasets should be correctly formatted to specification *before* beginning any analysis
 1. Troubleshooting #3 *Extra spaces*
 1. Troubleshooting #6 *Remove description from identifier line*
@@ -445,9 +445,9 @@ Wikis: [/Support.md#custom_reference_genome](/Support.md#custom_reference_genome
 1. Homework:
   1. create a workflow that includes all steps and use it whenever a new fasta dataset is loaded for use as a *Custom Genome*
   1. copy the ‘’fastqsanger’’ datasets from the History named ‘’Fastq’’ and map to this genome
-  1. follow the instruction in the wiki [/Learn/CustomGenomes.md#custom_builds](/Learn/CustomGenomes.md#custom_builds) to promote the *Custom Genome* to a *Custom Build*
+  1. follow the instruction in the wiki [/Learn/CustomGenomes/#custom_builds](/Learn/CustomGenomes/#custom_builds) to promote the *Custom Genome* to a *Custom Build*
     * assign the new build *database* to all related datasets
-    * *database* assignment is needed to visualize in Trackster using wiki guide [/Learn/Visualization.md#custom_builds](/Learn/Visualization.md#custom_builds)
+    * *database* assignment is needed to visualize in Trackster using wiki guide [/Learn/Visualization/#custom_builds](/Learn/Visualization/#custom_builds)
 
 <br /><br />
 

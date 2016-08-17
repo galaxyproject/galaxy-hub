@@ -158,7 +158,7 @@ If you are brand new to programming mailing lists please read
 
 ## Mailing List Traffic
 
-We have a significant amount of mailing list traffic. See the [Galaxy Project Statistics](/GalaxyProject/Statistics.md#traffic) page for more information.
+We have a significant amount of mailing list traffic. See the [Galaxy Project Statistics](/GalaxyProject/Statistics/#traffic) page for more information.
 
 
 ## See Also

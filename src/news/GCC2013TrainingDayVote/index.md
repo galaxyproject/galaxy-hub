@@ -1,9 +1,9 @@
 <div class='newsItemHeader'>[GCC2013 Training Day Topics: Vote!](/News/GCC2013TrainingDayVote)</div>
 
-<div class='right'><a href='/Events/GCC2013/TrainingDay.md'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' /></a><br />
-<div class='right'><a href='/Events/GCC2013.md'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="180" /></a> </div></div>
+<div class='right'><a href='/Events/GCC2013/TrainingDay/'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' /></a><br />
+<div class='right'><a href='/Events/GCC2013/'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="180" /></a> </div></div>
 
-A [list of possible topics](/Events/GCC2013/TrainingDay.md#topics) for the [GCC2013 Training Day](/Events/GCC2013/TrainingDay) is now available.  Please take a few minutes to [review these possibilities](/Events/GCC2013/TrainingDay.md#topics) and then [vote for your favorite three topics](http://bit.ly/gcc2013tdpoll).*
+A [list of possible topics](/Events/GCC2013/TrainingDay/#topics) for the [GCC2013 Training Day](/Events/GCC2013/TrainingDay) is now available.  Please take a few minutes to [review these possibilities](/Events/GCC2013/TrainingDay/#topics) and then [vote for your favorite three topics](http://bit.ly/gcc2013tdpoll).*
 
 Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.  
 

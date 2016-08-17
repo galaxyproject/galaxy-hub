@@ -20,7 +20,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
     <th rowspan=2> 19 July </th>
     <td> <a href='http://igenomed2.stanford.edu/Proteomics2013_mssig/'>Mass Spectrometry SIG (MS-SIG)</a> </td>
     <td> 11:30-11:45 </td>
-    <td> <em>Innovative, Reproducible MS-based Proteomic Informatics in the Cloud for Emerging Applications with Galaxy-P and <a href='http://cloudbiolinux.org/'>CloudBioLinux</a></em>, <a href='/JohnChilton.md'>John Chilton</a> </td>
+    <td> <em>Innovative, Reproducible MS-based Proteomic Informatics in the Cloud for Emerging Applications with Galaxy-P and <a href='http://cloudbiolinux.org/'>CloudBioLinux</a></em>, <a href='/JohnChilton/'>John Chilton</a> </td>
     <td> <a href='http://prezi.com/t2qs0nsjjxbe/ms-sig-2013-galaxy-p-and-cloudbiolinux/'>Prezi</a> </td>
   </tr>
   <tr>
@@ -33,7 +33,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
     <th rowspan=7> 20 July </th>
     <td rowspan=7> <a href='http://www.open-bio.org/wiki/BOSC_2013'>BOSC</a> </td>
     <td> 10-45-11:10 </td>
-    <td> <em><a href='http://bioblend.readthedocs.org/en/latest/'>BioBlend</a> - Enabling Pipeline Dreams</em>, <a href='/EnisAfgan.md'>Enis Afgan</a> </td>
+    <td> <em><a href='http://bioblend.readthedocs.org/en/latest/'>BioBlend</a> - Enabling Pipeline Dreams</em>, <a href='/EnisAfgan/'>Enis Afgan</a> </td>
     <td> <a href='https://s3.amazonaws.com/usecloudman/BOSC2013_BioBlend.pdf'>Slides</a> </td>
   </tr>
   <tr>
@@ -43,7 +43,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
   </tr>
   <tr>
     <td> 13:30-13:45 </td>
-    <td> <em>Towards Enabling Big Data and Federated Computing in the Cloud</em>, <a href='/EnisAfgan.md'>Enis Afgan</a> </td>
+    <td> <em>Towards Enabling Big Data and Federated Computing in the Cloud</em>, <a href='/EnisAfgan/'>Enis Afgan</a> </td>
     <td> <a href='https://s3.amazonaws.com/usecloudman/BOSC2013_CloudMan_for_Big_Data.pdf'>Slides</a> </td>
   </tr>
   <tr>
@@ -53,7 +53,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
   </tr>
   <tr>
     <td> 14:15-14:30 </td>
-    <td> <em>Open Source Configuration of Bioinformatics Infrastructure</em>, <a href='/JohnChilton.md'>John Chilton</a> </td>
+    <td> <em>Open Source Configuration of Bioinformatics Infrastructure</em>, <a href='/JohnChilton/'>John Chilton</a> </td>
     <td> <a href='http://prezi.com/-6pt2bwiswad/open-source-configuration-of-bioinformatics-infrastructure/'>Prezi</a>, <a href='http://www.open-bio.org/bosc2013/day2/BOSC2013_Infrastructure_-_John_Chilton.pdf'>Slides</a>, <a href='http://www.youtube.com/watch?v=WoiNyaFVOeE'>Video</a> </td>
   </tr>
   <tr>
@@ -63,14 +63,14 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
   </tr>
   <tr>
     <td> 16:25-16:40 </td>
-    <td> <em>Understanding Cancer Genomes Using Galaxy</em>, <a href='/JeremyGoecks.md'>Jeremy Goecks</a><div class='indent'>This will also be presented as poster 19.</div> </td>
+    <td> <em>Understanding Cancer Genomes Using Galaxy</em>, <a href='/JeremyGoecks/'>Jeremy Goecks</a><div class='indent'>This will also be presented as poster 19.</div> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2013BOSCGoecks_UnderstandingCancerGenomes.pdf'>Slides</a>, <a href='http://www.flickr.com/photos/97823772@N02/9367536447/'>Graphic</a>, <a href='http://www.youtube.com/watch?v=zoSYCLycpMk'>Video</a> </td>
   </tr>
   <tr>
     <th> 21 July </th>
     <td> ISMB/ECCB Technology Track </td>
     <td> 14:10-14:35 </td>
-    <td> TT09: <em>Understanding Cancer Genomes Using Galaxy,</em> <a href='/JeremyGoecks.md'>Jeremy Goecks</a> </td>
+    <td> TT09: <em>Understanding Cancer Genomes Using Galaxy,</em> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2013ISMBGoecks_UnderstandingCancerGenomes.pdf'>Slides</a> </td>
   </tr>
   <tr>
@@ -99,14 +99,14 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
     <td> </td>
   </tr>
   <tr>
-    <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php?cat=O#O097'>O097: An Integrated Systems Biology Platform for Complete Proteogenomic Analysis</a></em>, <a href='/JohnChilton.md'>John Chilton</a> </td>
+    <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php?cat=O#O097'>O097: An Integrated Systems Biology Platform for Complete Proteogenomic Analysis</a></em>, <a href='/JohnChilton/'>John Chilton</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Posters/2013ISMBProteoGenomicsChilton.pdf'>Poster</a> </td>
   </tr>
   <tr>
     <th rowspan=6> 23 July </th>
     <td> <a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php'>ISMB/ECCB Workshop</a> </td>
     <td> 10:30-12:25 </td>
-    <td> <em>Bioconductor and Galaxy: examples of successful bioinformatics networks</em>, Wolfgang Huber and <a href='/JeremyGoecks.md'>Jeremy Goecks</a>; part of  <a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php#WK05'>The “How To Guide” for Establishing a Successful Bioinformatics Network</a> </td>
+    <td> <em>Bioconductor and Galaxy: examples of successful bioinformatics networks</em>, Wolfgang Huber and <a href='/JeremyGoecks/'>Jeremy Goecks</a>; part of  <a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php#WK05'>The “How To Guide” for Establishing a Successful Bioinformatics Network</a> </td>
     <td> <a href='ATTACHMENT_URLDocuments/Presentations/2013ISMBGoecks_BioinformaticsNetworks.pdf'>Slides</a> </td>
   </tr>
   <tr>
@@ -130,7 +130,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
   <tr>
     <td> <a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php'>ISMB/ECCB Workshop</a> </td>
     <td> 14:10-16:05 </td>
-    <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php#WK06'>Integrated Visualization and Computing for Biomedical Research</a></em>, <a href='http://gehlenborg.com/'>Nils Gehlenborg</a>, <a href='/JeremyGoecks.md'>Jeremy Goecks</a> </td>
+    <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php#WK06'>Integrated Visualization and Computing for Biomedical Research</a></em>, <a href='http://gehlenborg.com/'>Nils Gehlenborg</a>, <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
     <td> </td>
   </tr>
 </table>

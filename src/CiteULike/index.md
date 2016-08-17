@@ -25,7 +25,7 @@ CiteULike makes extensive use of *[tags](http://www.citeulike.org/group/16008/ta
   </tr>
   <tr>
     <th> <a href='http://www.citeulike.org/group/16008/tag/usecloud'>usemain</a>* </th>
-    <td> <div class='indent'>A <a href='http://www.citeulike.org/group/16008/tag/methods'>methods</a> paper that uses the <a href='/Main.md'>/Main.md</a> Galaxy server.</div> </td>
+    <td> <div class='indent'>A <a href='http://www.citeulike.org/group/16008/tag/methods'>methods</a> paper that uses the <a href='/Main/'>/Main/</a> Galaxy server.</div> </td>
   </tr>
   <tr>
     <th> <a href='http://www.citeulike.org/group/16008/tag/uselocal'>uselocal</a>* </th>
@@ -33,7 +33,7 @@ CiteULike makes extensive use of *[tags](http://www.citeulike.org/group/16008/ta
   </tr>
   <tr>
     <th> <a href='http://www.citeulike.org/group/16008/tag/usecloud'>usepublic</a>* </th>
-    <td> <div class='indent'>A <a href='http://www.citeulike.org/group/16008/tag/methods'>methods</a> paper that uses a <a href='/PublicGalaxyServers.md'>Public Galaxy Server</a></div> </td>
+    <td> <div class='indent'>A <a href='http://www.citeulike.org/group/16008/tag/methods'>methods</a> paper that uses a <a href='/PublicGalaxyServers/'>Public Galaxy Server</a></div> </td>
   </tr>
   <tr>
     <th> <a href='http://www.citeulike.org/group/16008/tag/usecloud'>usecloud</a>* </th>
@@ -45,7 +45,7 @@ CiteULike makes extensive use of *[tags](http://www.citeulike.org/group/16008/ta
   </tr>
   <tr>
     <th> <a href='http://www.citeulike.org/group/16008/tag/isgalaxy'>isgalaxy</a> </th>
-    <td> Papers that are <em>about</em> other installations of Galaxy. (See also the <a href='/PublicGalaxyServers.md'>Public Galaxy Servers</a> list.) </td>
+    <td> Papers that are <em>about</em> other installations of Galaxy. (See also the <a href='/PublicGalaxyServers/'>Public Galaxy Servers</a> list.) </td>
   </tr>
   <tr>
     <th> <a href='http://www.citeulike.org/group/16008/tag/tools'>tools</a> </th>
@@ -77,7 +77,7 @@ CiteULike makes extensive use of *[tags](http://www.citeulike.org/group/16008/ta
   </tr>
   <tr>
     <th> <a href='http://www.citeulike.org/group/16008/tag/refpublic'>refpublic</a>* </th>
-    <td> Paper references a <a href='/PublicGalaxyServers.md'>Public Galaxy Server</a> (other than <a href='/Main.md'>/Main.md</a>). </td>
+    <td> Paper references a <a href='/PublicGalaxyServers/'>Public Galaxy Server</a> (other than <a href='/Main/'>/Main/</a>). </td>
   </tr>
   <tr>
     <th> <a href='http://www.citeulike.org/group/16008/tag/visualization'>visualization</a>* </th>

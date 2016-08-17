@@ -18,13 +18,13 @@
 [Bioinformaticist @ Johns Hopkins APL](/News/JHUAPLBioinformaticist)<br />
 [February 2016 Galactic News](/News/2016_02GalaxyUpdate)<br />
 ----
-[News Feed](http://feed43.com/galaxynews.xml) <a href='http://feed43.com/galaxynews.xml'><img src='/Images/Icons/RSSIcon16x16.gif.md' alt='Galaxy News RSS Feed' height="12" /></a><br />
+[News Feed](http://feed43.com/galaxynews.xml) <a href='http://feed43.com/galaxynews.xml'><img src='/Images/Icons/RSSIcon16x16.gif/' alt='Galaxy News RSS Feed' height="12" /></a><br />
 [News Archive](/News/Archive)
 </div>
 
 This page contains announcements of interest to the Galaxy Community. These can include items from the Galaxy Team or the Galaxy community and can address anything that is of wide interest to the community. 
 
-The Galaxy News is also available as an [RSS feed](http://feed43.com/galaxynews.xml) <a href='http://feed43.com/galaxynews.xml'><img src='/Images/Icons/RSSIcon16x16.gif.md' /></a>. 
+The Galaxy News is also available as an [RSS feed](http://feed43.com/galaxynews.xml) <a href='http://feed43.com/galaxynews.xml'><img src='/Images/Icons/RSSIcon16x16.gif/' /></a>. 
 
 *See **[Add a News Item](#add_a_news_item)** below for how to get an item on this page and the RSS feed.*
 Older news items are available in the Galaxy [News Archive](/News/Archive).

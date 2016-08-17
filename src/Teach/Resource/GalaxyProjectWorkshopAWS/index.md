@@ -1,7 +1,7 @@
 <span style="font-size: larger;"> Hey! This Is Under Construction! </span>
 
 <div class='center'>
-<br /><a href='/CloudMan.md'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' height="75" /></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' height="75" /></a><br /><br /></div>
+<br /><a href='/CloudMan/'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' height="75" /></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' height="75" /></a><br /><br /></div>
 
 <div class="title">Galaxy Project Workshop CloudMan on AWS Share</div>
 

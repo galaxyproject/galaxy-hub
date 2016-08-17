@@ -247,7 +247,7 @@ In this talk, we’ll very briefly describe our Galaxy Hackathon goals and provi
 
 ### More Options, Less Time: Streamlining Access to Reference Datasets
 
-<div class='right'><a href='/Dan.md'><img src='/GalaxyTeam/dan.jpg' alt='Dan Blenkenberg' width="120" /></a></div>
+<div class='right'><a href='/Dan/'><img src='/GalaxyTeam/dan.jpg' alt='Dan Blenkenberg' width="120" /></a></div>
 
 **[Daniel Blankenberg](/Dan)<sup>1</sup>** and the [Galaxy Team](/GalaxyTeam)<sup>2</sup>
 
@@ -266,7 +266,7 @@ Here, we describe a new set of resources that aim to rectify this situation. The
 
 ### Building More Powerful Galaxy Workflows with Dataset Collections
 
-<div class='right'><a href='/JohnChilton.md'><img src='/GalaxyTeam/JohnChiltonSmaller.jpg' alt='John Chilton' width="120" /></a></div>
+<div class='right'><a href='/JohnChilton/'><img src='/GalaxyTeam/JohnChiltonSmaller.jpg' alt='John Chilton' width="120" /></a></div>
 
 **[John Chilton](/JohnChilton)<sup>1</sup>** and the [Galaxy Team](/GalaxyTeam)
 
@@ -301,7 +301,7 @@ Dataset collections are a powerful new feature that greatly enhance the expressi
 
 ### Lab Specimen Tracking with Galaxy
 
-<div class='right'><a href='/Marten.md'><img src='/GalaxyTeam/marten.jpg' alt='Martin Čech' width="120" /></a></div>
+<div class='right'><a href='/Marten/'><img src='/GalaxyTeam/marten.jpg' alt='Martin Čech' width="120" /></a></div>
 
 **[Martin Čech](/Marten)<sup>1</sup>**, [Pavel Švéda](http://www.linkedin.com/in/pavelsveda)<sup>1</sup>, [Ondřej Fabián](https://www.linkedin.com/pub/ondrej-fabian/33/6a5/1b8)<sup>1</sup> and the [Galaxy Team](/GalaxyTeam)
 

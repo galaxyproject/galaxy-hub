@@ -11,13 +11,13 @@ INCLUDE(/Learn/LinkBox)
 [Back to Advanced Workflow](/Learn/AdvancedWorkflow)
 
 ## 3 Top Workflow Edits
-**[3 Most Useful Edits](/Learn/AdvancedWorkflow/BasicEditing.md#a3_most_useful_edits)** are:
+**[3 Most Useful Edits](/Learn/AdvancedWorkflow/BasicEditing/#a3_most_useful_edits)** are:
  *
  *
  *
 
 ## What you will learn
-Using an example where the **[3 Most Useful Edits](/Learn/AdvancedWorkflow/BasicEditing.md#a3_most_useful_edits)** are used to customize a workflow, and where one of them is required for correct execution, and existing Workflow will be edited. 
+Using an example where the **[3 Most Useful Edits](/Learn/AdvancedWorkflow/BasicEditing/#a3_most_useful_edits)** are used to customize a workflow, and where one of them is required for correct execution, and existing Workflow will be edited. 
 
 ## Why is this needed?
 The output from some tools may be too general to be accepted as input by other tools. Reassigning the attribute **datatype** for certain tools can often then permit that tool's *output* to be acceptable *input* for the next tool. The content is already present. The datatype and associated metadata instruct tools how to use it.
@@ -138,7 +138,7 @@ There is a third possibility, but this only applies when the workflow has been e
 
 <br />
 ## How do I know the workflow is really running?
-The datasets for the workflow will be in the history panel. These jobs run just like every other job. Some may run right away, others may queue. More about how datasets execute is in this wiki: **[Dataset status and how jobs execute](/Support.md#dataset_status_and_how_jobs_execute)**
+The datasets for the workflow will be in the history panel. These jobs run just like every other job. Some may run right away, others may queue. More about how datasets execute is in this wiki: **[Dataset status and how jobs execute](/Support/#dataset_status_and_how_jobs_execute)**
 
 <br />
 ## I want to customize my workflow further

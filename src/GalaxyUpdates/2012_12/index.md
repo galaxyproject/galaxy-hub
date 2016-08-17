@@ -2,7 +2,7 @@
 
 <div class="title">December 2012 Galaxy Update</div>
 
-<div class='left'><a href='/GalaxyUpdates.md'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the December 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -87,13 +87,13 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 <div class='center'>
 <a href='https://pag.confex.com/pag/xxi/webprogram/Paper7241.html'><img src='/Images/Logos/PAGLogo114.png' alt='Plant and Animal Genome (PAG 2013)' height="80" /></a>
-<a href='/Community/GalaxyAdmins/Meetups/2013_01_16.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='January Galaxy Admins Web Meetup' height="70" /></a>
+<a href='/Community/GalaxyAdmins/Meetups/2013_01_16/'><img src='/Images/Logos/GalaxyAdmins.png' alt='January Galaxy Admins Web Meetup' height="70" /></a>
 <a href='http://conf.abrf.org/'><img src='/Images/Logos/ABRF2013LogoSquare300.png' alt='ABRF 2013' height="80" /></a>
-<a href='/Events/GCC2013.md'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="135px" /></a>
+<a href='/Events/GCC2013/'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="135px" /></a>
 </div>
 
 <br />
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif.md' /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> 
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
@@ -110,13 +110,13 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> January 12-16 </th>
     <td> </em><a href='https://pag.confex.com/pag/xxi/webprogram/Paper7241.html'>Galaxy</a><em> </td>
     <td> Part of the <a href='https://pag.confex.com/pag/xxi/webprogram/Session1537.html'>GMOD Workshop</a> at </strong><a href='http://www.intlpag.org/'>Plant and Animal Genome (PAG 2013)</a><strong>, San Diego, California, United States </td>
-    <td> <a href='/JenniferJackson.md'>Jennifer Jackson</a> </td>
+    <td> <a href='/JenniferJackson/'>Jennifer Jackson</a> </td>
   </tr>
   <tr>
     <th> January 16 </th>
-    <td> </em><a href='/Community/GalaxyAdmins/Meetups/2013_01_16.md'>Deploying Production Galaxy Environments on OpenStack with CloudBioLinux and CloudMan</a><em> </td>
-    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_01_16.md'>January GalaxyAdmins Web Meetup</a> </td>
-    <td> <a href='https://www.msi.umn.edu/users/chilton'>John Chilton</a>, Srinivas Maddhi, <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> </em><a href='/Community/GalaxyAdmins/Meetups/2013_01_16/'>Deploying Production Galaxy Environments on OpenStack with CloudBioLinux and CloudMan</a><em> </td>
+    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_01_16/'>January GalaxyAdmins Web Meetup</a> </td>
+    <td> <a href='https://www.msi.umn.edu/users/chilton'>John Chilton</a>, Srinivas Maddhi, <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 14-18 </th>
@@ -134,23 +134,23 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> March 2-5 </th>
     <td> </em><a href='http://conf.abrf.org/index.cfm/page/satellite_workshops.htm'>SW1: Application of NGS Platforms for Whole Transcriptome and Genome Analysis</a><em> and <br /></em><a href='http://conf.abrf.org/index.cfm/page/index/2013ConfProg.htm'>W6: Community Resource Solutions to Analyzing Large Genomic Data Sets</a><em> </td>
     <td> </strong><a href='http://conf.abrf.org/'>ABRF 2013</a><strong><br />Palm Springs, California, United States </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> April 5-6 </th>
     <td> </em><a href='http://gmod.org/wiki/April 2013 GMOD Meeting'>2013 GMOD Meeting</a><em> </td>
     <td> Cambridge, United Kingdom, immediately prior to <a href='http://www.ebi.ac.uk/biocuration2013/'>Biocuration 2013</a> </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> April 7-10 </th>
     <td> </em><a href='http://wiki.geneontology.org/index.php/GO_Galaxy_Workshop_at_Biocuration_2013'>GO Galaxy Workshop</a><em> </td>
     <td> <a href='http://www.ebi.ac.uk/biocuration2013/home'>Biocuration 2013</a>,  Cambridge, United Kingdom </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a>, <a href='http://www.berkeleybop.org/person/suzanna-lewis'>Suzanna Lewis</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a>, <a href='http://www.berkeleybop.org/person/suzanna-lewis'>Suzanna Lewis</a> </td>
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> </strong></em><a href='/Events/GCC2013.md'>2013 Galaxy Community Conference (GCC2013)</a><strong><em> </td>
+    <td> </strong></em><a href='/Events/GCC2013/'>2013 Galaxy Community Conference (GCC2013)</a><strong><em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -188,8 +188,8 @@ This documentation is a work in program and should make incremental improvements
 * The **[Intergalactic Utilities Commission](http://wiki.g2.bx.psu.edu/ReviewingToolShedRepositories)** will soon begin reviewing repositories in the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)** (better repos, better tools)
 * **[Tool Shed](http://toolshed.g2.bx.psu.edu/)** **"best practice"** advice: [a single tool or a suite of tools per repository?](http://wiki.galaxyproject.org/AToolOrASuitePerRepository)
 * **[Tophat](http://tophat.cbcb.umd.edu/)**, **[Tophat2](http://tophat.cbcb.umd.edu/manual.html)**, and **[Cuffdiff](http://cufflinks.cbcb.umd.edu/manual.html#cuffdiff)** **updated** to accept gene annotations in **[GFF3](http://wiki.galaxyproject.org/Learn/Datatypes#GFF3)** format.
-* Multiple **enhancements** to the **[API](/DevNewsBriefs/2012_11_14.md#api)** targeting user and history actions.
-* Plus **updates to** **[CloudLaunch](http://usegalaxy.org/cloud)**, new **[Security Fixes](/DevNewsBriefs/2012_11_14.md#security_fixes)**, and several usability enhancements for **Datasets**, **Datatypes**, **Tools**, and **Tool Shed** functions.
+* Multiple **enhancements** to the **[API](/DevNewsBriefs/2012_11_14/#api)** targeting user and history actions.
+* Plus **updates to** **[CloudLaunch](http://usegalaxy.org/cloud)**, new **[Security Fixes](/DevNewsBriefs/2012_11_14/#security_fixes)**, and several usability enhancements for **Datasets**, **Datatypes**, **Tools**, and **Tool Shed** functions.
 
 ```
 new:     $ hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist
@@ -238,8 +238,8 @@ Several new repositories were added to, and existing repositories updated in the
 
 ## Other News
 
-<div class='right'><a href='/Events/GCC2013/Promotion.md'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="175px" /></a><br />
-<a href='/Events/GCC2013/TrainingDay.md'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="175px" /></a>
+<div class='right'><a href='/Events/GCC2013/Promotion/'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="175px" /></a><br />
+<a href='/Events/GCC2013/TrainingDay/'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="175px" /></a>
 </div>
 
 * [GCC2013](/Events/GCC2013) is coming.  Help [get the word out](/Events/GCC2013/Promotion)!

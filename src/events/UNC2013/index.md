@@ -93,7 +93,7 @@ No programming or Linux command line experience is required.
 
 ## Support
 
-<div class='left'><a href='/Events/RTWorkshopTour2013.md'><img src='/Images/Logos/RTGalaxyWorkshopTour2013-300.png' alt='2013 Research Triangle Galaxy Workshop Tour' width="170px" /></a></div>
+<div class='left'><a href='/Events/RTWorkshopTour2013/'><img src='/Images/Logos/RTGalaxyWorkshopTour2013-300.png' alt='2013 Research Triangle Galaxy Workshop Tour' width="170px" /></a></div>
  
 <div class='right'><a href='http://hsl.lib.unc.edu'><img src='/Images/Logos/UNCHSLLogo.png' alt='UNC Health Sciences Library' height="50" /></a> <a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' width="130px" /></a></div>
 

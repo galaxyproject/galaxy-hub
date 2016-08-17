@@ -148,7 +148,7 @@ is the exclusive Peta level Hackathon sponsor </span>
 </div>
 
 <br /><br />
-There are still several *Giga-level* sponsorships available.  If you are interested in sponsoring this event, please [contact the organizers](/Events/GCC2014/Organizers.md#hackathon-committee).
+There are still several *Giga-level* sponsorships available.  If you are interested in sponsoring this event, please [contact the organizers](/Events/GCC2014/Organizers/#hackathon-committee).
 
 <br /><br />
 
@@ -158,7 +158,7 @@ Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitt
 
 # Is this part of GCC2014?
 
-Mostly yes, but, there is a separate registration process, and a separate [organizing committee](/Events/GCC2014/Organizers.md#hackathon-committee).  
+Mostly yes, but, there is a separate registration process, and a separate [organizing committee](/Events/GCC2014/Organizers/#hackathon-committee).  
 
 
 INCLUDE(/Events/GCC2014/Footer)

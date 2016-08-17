@@ -15,7 +15,7 @@
 
 <br />
 # GCC2012
-<div class='center'><a href='/Events/GCC2012.md'><img src='/Events/GCC2012/GCC2012LogoWide400.png' alt='2012 Galaxy Community Conference' height="100" /></a> &nbsp; <a href='/Events/GCC2012/TrainingDay.md'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' height="100" /></a></div>
+<div class='center'><a href='/Events/GCC2012/'><img src='/Events/GCC2012/GCC2012LogoWide400.png' alt='2012 Galaxy Community Conference' height="100" /></a> &nbsp; <a href='/Events/GCC2012/TrainingDay/'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' height="100" /></a></div>
 
 The [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) is a few short days away. Late registration is still open.
 
@@ -24,7 +24,7 @@ The [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) is a few short
 The tool **Human Genome Variation -> [Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** has moved from the Galaxy distribution to the Galaxy Main **[/Tool Shed](/Tool Shed)**.
 
 ```FreeBayes```
- is a high-performance, flexible, and open-source Bayesian genetic variant detector. It operates on [BAM](/Datatypes.md#bam) alignment files, which are produced by most contemporary short-read aligners.
+ is a high-performance, flexible, and open-source Bayesian genetic variant detector. It operates on [BAM](/Datatypes/#bam) alignment files, which are produced by most contemporary short-read aligners.
 
 <br />
 # EMBOSS Update
@@ -47,7 +47,7 @@ And a global status of all indexes for all genomes in progress:
 # Simplified install of 3rd-party Dependencies
 Automatic third-party tool dependency installation and compilation with installed repositories
 
-Tool shed repository owners can define information in their repositories that enable third party tool dependencies to be automatically installed along with the repository for those repositories that contain tools that require the dependencies.  The process for enabling this is the inclusion of a simple xml file named tool_dependencies.xml in the repository. [Read more…](/Tool Shed.md#automatic_third-party_tool_dependency_installation_and_compilation_with_installed_repositories)
+Tool shed repository owners can define information in their repositories that enable third party tool dependencies to be automatically installed along with the repository for those repositories that contain tools that require the dependencies.  The process for enabling this is the inclusion of a simple xml file named tool_dependencies.xml in the repository. [Read more…](/Tool Shed/#automatic_third-party_tool_dependency_installation_and_compilation_with_installed_repositories)
 
 <br />
 # Improved Error Handling
@@ -86,7 +86,7 @@ Several changes made in in determining errors from tool exit codes and output.  
 
 <br />
 # Bug Fixes
-<div class='right'><a href='/Support.md'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
+<div class='right'><a href='/Support/'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
 * Support Unvalidated values when exporting histories
 
 <br />
@@ -96,7 +96,7 @@ Several changes made in in determining errors from tool exit codes and output.  
 The new RGalaxy package in Bioconductor. [Read more …](/News/RGalaxyWrapRFunctionsAsTools)
 <br />
 ## GalaxyCzars
-<div class='right'><a href='/Community/GalaxyCzars.md'><img src='/Images/Logos/GalaxyCzars.png' alt='GalaxyCzars' width="150" /></a></div>
+<div class='right'><a href='/Community/GalaxyCzars/'><img src='/Images/Logos/GalaxyCzars.png' alt='GalaxyCzars' width="150" /></a></div>
 The [GalaxyCzars group](/Community/GalaxyCzars) was launched and had its [first meetup on July 9](/Community/GalaxyCzars/Meetups/2012_07_09).  !GalaxyCzars is a group of people that manage large local Galaxy installations.  See the [meeting writeup](/Community/GalaxyCzars/Meetups/2012_07_09) for links to slides and a screencast. The !GalaxyCzars will have a breakout at [GCC2012](/Events/GCC2012), and the next conference call will follow in September.
 <br />
 ## Galaxy is Hiring!

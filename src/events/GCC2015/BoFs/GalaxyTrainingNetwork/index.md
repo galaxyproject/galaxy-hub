@@ -11,8 +11,8 @@ INCLUDE(/Events/GCC2015/Header)
  Contact:: [Dave Clements](/DaveClements), [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie)
 </div>
 
-<div class='left'><a href='/Events/GCC2015/BoFs.md'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a><br /><br />
-<a href='/Teach.md'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="160" /></a>
+<div class='left'><a href='/Events/GCC2015/BoFs/'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a><br /><br />
+<a href='/Teach/'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="160" /></a>
 </div>
 
 The **[Galaxy Training Network (GTN)](/Teach/GTN)** will have an in-person [Birds of a Feather](/Events/GCC2015/BoFs) meetup at the [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/), held in Norwich, UK, 4-8 July, 2015.

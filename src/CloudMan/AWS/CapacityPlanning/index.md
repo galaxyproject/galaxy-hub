@@ -2,7 +2,7 @@ INCLUDE(/CloudMan/Header)
 
 <table>
   <tr>
-    <td style=" border: none"> <div class="title">Galaxy CloudMan <a href='/CloudMan.md'>CapacityPlanning|Capacity Planning</a> for Amazon Web Services</div> </td>
+    <td style=" border: none"> <div class="title">Galaxy CloudMan <a href='/CloudMan/'>CapacityPlanning|Capacity Planning</a> for Amazon Web Services</div> </td>
     <td style=" border: none"> <a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='http://aws.amazon.com/' /></a> </td>
   </tr>
 </table>
@@ -68,7 +68,7 @@ Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use
     <th> </th>
     <th> </th>
     <th> </th>
-    <th style=" text-align:center"> Recommended for <a href='/CloudMan/CapacityPlanning.md#usage-scenarios'>Usage Scenarios</a> </th>
+    <th style=" text-align:center"> Recommended for <a href='/CloudMan/CapacityPlanning/#usage-scenarios'>Usage Scenarios</a> </th>
     <th rowspan=3 style=" text-align:center"> Comments </th>
   </tr>
   <tr>
@@ -146,7 +146,7 @@ Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use
     <td> </td>
     <td style=" class="green" "> <strong>Y</strong> </td>
     <td> </td>
-    <td> The <a href='/GalaxyTeam.md'>Galaxy Team</a> uses this head node in workshops that run !TopHat.  It can support ~30 concurrent !TopHat jobs without significant slowdown, whereas the Double Extra Large option gets bogged down. </td>
+    <td> The <a href='/GalaxyTeam/'>Galaxy Team</a> uses this head node in workshops that run !TopHat.  It can support ~30 concurrent !TopHat jobs without significant slowdown, whereas the Double Extra Large option gets bogged down. </td>
   </tr>
   <tr>
     <th rowspan=2> Com-<br />pute </th>

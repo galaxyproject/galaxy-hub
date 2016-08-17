@@ -1,8 +1,8 @@
 <div class='newsItemHeader'>[Galaxy Tour de France 2012](/News/GalaxyTourDeFrance2012)</div>
 
-<div class='right'><a href='/Events/GalaxyTourDeFrance2012.md'><img src='/Images/Logos/GalaxyTourDeFranceMap.png' alt='Galaxy Tour de France 2012' height="200" /></a></div>
+<div class='right'><a href='/Events/GalaxyTourDeFrance2012/'><img src='/Images/Logos/GalaxyTourDeFranceMap.png' alt='Galaxy Tour de France 2012' height="200" /></a></div>
 
-We are pleased to announce the **[Galaxy Tour de France 2012](/Events/GalaxyTourDeFrance2012)**, a series of workshops being held across France the week of 28 May through June 1.  The Tour will make stops in [Perpignan, Lyon and Paris](/Events/GalaxyTourDeFrance2012.md#itinerary).  Each day will feature a *[Galaxy for Biologists](/Events/GalaxyTourDeFrance2012)* workshop in the morning, and a *[Galaxy for Developers](/Events/GalaxyTourDeFrance2012)* workshop in the afternoon.  All workshops will be taught by [/Galaxy Team](/Galaxy Team) members [Nate Coroar](/nate), [Anton Nekrutenko](/anton) and [James Taylor](/JamesTaylor).
+We are pleased to announce the **[Galaxy Tour de France 2012](/Events/GalaxyTourDeFrance2012)**, a series of workshops being held across France the week of 28 May through June 1.  The Tour will make stops in [Perpignan, Lyon and Paris](/Events/GalaxyTourDeFrance2012/#itinerary).  Each day will feature a *[Galaxy for Biologists](/Events/GalaxyTourDeFrance2012)* workshop in the morning, and a *[Galaxy for Developers](/Events/GalaxyTourDeFrance2012)* workshop in the afternoon.  All workshops will be taught by [/Galaxy Team](/Galaxy Team) members [Nate Coroar](/nate), [Anton Nekrutenko](/anton) and [James Taylor](/JamesTaylor).
 
 Workshop registration is free, but space at each venue is limited.  You are encouraged to reserve your spot as soon as possible.
  

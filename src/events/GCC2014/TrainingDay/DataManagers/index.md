@@ -5,9 +5,9 @@ INCLUDE(/Events/GCC2014/Header)
 
 INCLUDE(/Events/GCC2014/LinkBox)
 
-<div class='right'> <a href='/Events/GCC2014/TrainingDay.md'><img src='/Images/Logos/GCC2014TrainingDayLogoSquare.png' alt='GCC2014 Training Day' width="100" /></a></div>
+<div class='right'> <a href='/Events/GCC2014/TrainingDay/'><img src='/Images/Logos/GCC2014TrainingDayLogoSquare.png' alt='GCC2014 Training Day' width="100" /></a></div>
 
-This is the workshop page for the **[Tool Development from bright idea to toolshed - Data Managers](/Events/GCC2014/TrainingDay.md#tool-development-from-bright-idea-to-toolshed---data-managers)** Training Day session at GCC2014.
+This is the workshop page for the **[Tool Development from bright idea to toolshed - Data Managers](/Events/GCC2014/TrainingDay/#tool-development-from-bright-idea-to-toolshed---data-managers)** Training Day session at GCC2014.
 
 This workshop is offered on June 30, from 3:30 through 6pm, in Room 304 of Charles Commons.
 

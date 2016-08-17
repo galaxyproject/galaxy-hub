@@ -2,7 +2,7 @@
 
 <div class='right'>TABLE_OF_CONTENTS</div>
 
-<div class='left'><a href='/GalaxyUpdates.md'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the June 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -22,23 +22,23 @@ Many thanks to the [LAboratory of Post-Transcriptional control and bioInformatic
 
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <a href='/Events/GCC2012/Register.md'>Early registration ends June 11!</a> &nbsp;&nbsp;</th>
+    <th> &nbsp;&nbsp; <a href='/Events/GCC2012/Register/'>Early registration ends June 11!</a> &nbsp;&nbsp;</th>
   </tr>
 </table>
 
 
-<div class='right'><a href='/Events/GCC2012.md'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="140" /></a></div>
+<div class='right'><a href='/Events/GCC2012/'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="140" /></a></div>
 
 * The [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) will be held July 25-27, in Chicago.  
 * Three new topics have been added to the [GCC2012 Training Day](/Events/GCC2012/TrainingDay):
-  1. [RNA-Seq Analysis with Galaxy](/Events/GCC2012/TrainingDay.md#ws9)
-  2. [Variant and SNP Analysis with Galaxy](/Events/GCC2012/TrainingDay.md#ws8)
-  3. [Galaxy Code Architecture](/Events/GCC2012/TrainingDay.md#ws4)
+  1. [RNA-Seq Analysis with Galaxy](/Events/GCC2012/TrainingDay/#ws9)
+  2. [Variant and SNP Analysis with Galaxy](/Events/GCC2012/TrainingDay/#ws8)
+  3. [Galaxy Code Architecture](/Events/GCC2012/TrainingDay/#ws4)
 * The [GCC2012 Training Day](/Events/GCC2012/TrainingDay)
   1. Has less capacity than the 2 days of the [main meeting](/Events/GCC2012/Program), and 
   2. So far, everyone who has [registered](/Events/GCC2012/Register) for the main meeting has also registered for the Training Day.
-* Cheap rooms in the [James Stuckel Towers](/Events/GCC2012/Logistics.md#james-stuckel-towers) on the UIC campus (and adjacent to the [conference venue](/Events/GCC2012/Logistics.md#venue)) are going fast.
-* A [draft schedule](/Events/GCC2012/Program) for all 3 days of the conference has been published. This includes [12 Training Day sessions](/Events/GCC2012/TrainingDay) on [10 different topics](/Events/GCC2012/TrainingDay.md#workshops), and over 25 presentations by Galaxy Community and Galaxy Team members.
+* Cheap rooms in the [James Stuckel Towers](/Events/GCC2012/Logistics/#james-stuckel-towers) on the UIC campus (and adjacent to the [conference venue](/Events/GCC2012/Logistics/#venue)) are going fast.
+* A [draft schedule](/Events/GCC2012/Program) for all 3 days of the conference has been published. This includes [12 Training Day sessions](/Events/GCC2012/TrainingDay) on [10 different topics](/Events/GCC2012/TrainingDay/#workshops), and over 25 presentations by Galaxy Community and Galaxy Team members.
 
 ## New Papers
 
@@ -104,12 +104,12 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='http://bioinformatics.ca/workshops/high_throughput'><img src='/Images/Logos/CanadianBioinfWorkshopsLog.png' alt='Informatics on High Throughput Sequencing Data Workshop' height=100 /></a> <a href='http://www.lifl.fr/~touzet/PPF/galaxy12.html'><img src='/Images/Logos/LilleStack.png' alt='Galaxy: un environnement d'analyses bioinformatiques' height="100" /></a> <a href='/Events/ISMB2012.md'><img src='/Images/Logos/ISMB2012.jpg' alt='ISMB 2012' height=100 /></a>&nbsp;&nbsp; <a href='/Events/GCC2012.md'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="100" /></a>
+<a href='http://bioinformatics.ca/workshops/high_throughput'><img src='/Images/Logos/CanadianBioinfWorkshopsLog.png' alt='Informatics on High Throughput Sequencing Data Workshop' height=100 /></a> <a href='http://www.lifl.fr/~touzet/PPF/galaxy12.html'><img src='/Images/Logos/LilleStack.png' alt='Galaxy: un environnement d'analyses bioinformatiques' height="100" /></a> <a href='/Events/ISMB2012/'><img src='/Images/Logos/ISMB2012.jpg' alt='ISMB 2012' height=100 /></a>&nbsp;&nbsp; <a href='/Events/GCC2012/'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="100" /></a>
 </div>
 
 ### Deadlines
 
-<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src='/Images/Icons/CalendarIcon.gif.md' /></a></div> 
+<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> 
 
 There are June application and early registration deadlines for [GCC2012](/Events/GCC2012/Register), [ISMB 2012](/Events/ISMB2012), !SciPy, and the Winter School in Mathematical and Computational Biology, and an abstract deadline for ASHG 2012.  It's also a big month for conferences and courses, including Arthropod Genomics, Bio-IT World Asia ([James Taylor](/JamesTaylor) will be speaking), SocBIN, [Next-gen sequencing in evolutionary biology](https://academy.nescent.org/wiki/Next-gen_sequencing) Course at NESCent (Sergei Kosakovsky-Pond will cover Galaxy), [Informatics on High Throughput Sequencing Data Workshop](http://www.bioinformatics.ca/workshops/high_throughput) (Francis Ouellette will cover Galaxy), Copenhagenomics, SMBE 2012, and, ESHG 2012, *to name just a few.*
 
@@ -128,7 +128,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
     <th> June 6-8 </th>
     <td> <em><a href='http://www.bio-itworldasia.com/cla'>Dynamically Scalable, Accessible Analysis with Galaxy Cloud</a></em> </td>
     <td> </strong><a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a><strong>, Singapore </td>
-    <td> <a href='/JamesTaylor.md'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> June 11-12 </th>
@@ -156,15 +156,15 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
   </tr>
   <tr>
     <th rowspan=1> July 13-17 </th>
-    <td> <em><a href='/Events/ISMB2012.md'>ISMB 2012 and BOSC 2012</a></em><div class='indent'><a href='/Events/ISMB2012.md'>Five presentaitons, one SIG, one Codefest, and counting</a><div class='red'><em>Early registration ends June 1</em></div></div> </td>
+    <td> <em><a href='/Events/ISMB2012/'>ISMB 2012 and BOSC 2012</a></em><div class='indent'><a href='/Events/ISMB2012/'>Five presentaitons, one SIG, one Codefest, and counting</a><div class='red'><em>Early registration ends June 1</em></div></div> </td>
     <td rowspan=1> Long Beach, California, United States </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> </strong><em><a href='/Events/GCC2012.md'>2012 Galaxy Community Conference</a><strong></em><div class='indent'><div class='red'><em><a href='/Events/GCC2012/Register.md'>Early registration</a> ends June 11.</div> </td>
+    <td> </strong><em><a href='/Events/GCC2012/'>2012 Galaxy Community Conference</a><strong></em><div class='indent'><div class='red'><em><a href='/Events/GCC2012/Register/'>Early registration</a> ends June 11.</div> </td>
     <td> <a href='http://uic.edu'>University of Illinois Chicago</a>, United States </td>
-    <td> <a href='/DaveClements.md'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
   </tr>
 </table>
 
@@ -184,9 +184,9 @@ were created, and the `mira_asssembler`, `seq_select_by_id`, and `java_genomics_
 A new Galaxy distribution was [released on May 11, 2012](/DevNewsBriefs/2012_05_11).  
 
 **Some Highlights:**
-<div class='right'><a href='/Learn/Visualization.md'><img src='/Images/NewsGraphics/2012_05_11_gatk-workflow.png' alt='gatk-workflow' width="180px" /></a></div>
+<div class='right'><a href='/Learn/Visualization/'><img src='/Images/NewsGraphics/2012_05_11_gatk-workflow.png' alt='gatk-workflow' width="180px" /></a></div>
 * **Emboss** tools and datatypes __have now moved from the ***Galaxy distribution** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)</u>**.
-* [Tool Integration Tests](/Tool Shed.md#using_galaxy27s_functional_test_framework_to_test_tools_installed_into_your_local_galaxy_instance), [Custom Tool Panel Configuration](/Tool Shed.md#managing_the_layout_of_your_galaxy_tool_panel), and [Configurable Tool Output Locations](/Admin/Tools/Multiple Output Files).
+* [Tool Integration Tests](/Tool Shed/#using_galaxy27s_functional_test_framework_to_test_tools_installed_into_your_local_galaxy_instance), [Custom Tool Panel Configuration](/Tool Shed/#managing_the_layout_of_your_galaxy_tool_panel), and [Configurable Tool Output Locations](/Admin/Tools/Multiple Output Files).
 * Improved [Multiprocess Job Handling](/Admin/Config/Performance/Scaling) and [Enhanced OpenID Support](http://openid.net/).
 * **[GATK](http://www.broadinstitute.org/gsa/wiki) version 1.4**, **[FreeBayes](http://github.com/ekg/freebayes)**, Updated **Megablast** using **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/Blast.cgi)**, **[Trinity](http://trinityrnaseq.sourceforge.net)**, **[WormBase 2](http://www.wormbase.org)**, and **[IGB](http://bioviz.org/igb/index.html)** external display.
 * **[Trackster](/Learn/Visualization)** upgrades include strand coloring, interval datatype support, and tabix indexing (fast!!).

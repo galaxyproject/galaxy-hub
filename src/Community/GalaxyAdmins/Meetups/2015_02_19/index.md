@@ -1,4 +1,4 @@
-<div class='center'><a href='/Community/GalaxyAdmins.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> 
+<div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> 
 <div class="title">2015/02/19 Web Meetup<br /><br />
 
 </div></div>
@@ -20,11 +20,11 @@ INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em><a href='/Community/GalaxyAdmins.md'>GalaxyAdmins</a> direction</em>  (<a href='ATTACHMENT_URLGalaxy_admins_20150219.hrh.pdf'>slides</a>)<div class='indent'><a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a> </div><em><a href='/News/2014Questionnaire.md'>Results from the 2014 Galaxy Community Questionnaires</a></em> (<a href='ATTACHMENT_URL2014QuestionnaireSlides.pdf'>Slides</a>)<div class='indent'><a href='/DaveClements.md'>Dave Clements</a> </div><em>Galaxy Project Update: Gravity</em> <div class='indent'><a href='/nate.md'>Nate Coraor</a></div> </td>
+    <td> <em><a href='/Community/GalaxyAdmins/'>GalaxyAdmins</a> direction</em>  (<a href='ATTACHMENT_URLGalaxy_admins_20150219.hrh.pdf'>slides</a>)<div class='indent'><a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> </div><em><a href='/News/2014Questionnaire/'>Results from the 2014 Galaxy Community Questionnaires</a></em> (<a href='ATTACHMENT_URL2014QuestionnaireSlides.pdf'>Slides</a>)<div class='indent'><a href='/DaveClements/'>Dave Clements</a> </div><em>Galaxy Project Update: Gravity</em> <div class='indent'><a href='/nate/'>Nate Coraor</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
-    <td> <a href='https://connect.johnshopkins.edu/p9oss8nhzqe/'>Screencast</a> <div class='indent'>Room will open 15 minutes before meetup</div> <a href='/Community/GalaxyAdmins/Surveys/2014.md'>Admin Questionnaire Results</a><div class='indent'>Summarizes responses about deployment</div></td>
+    <td> <a href='https://connect.johnshopkins.edu/p9oss8nhzqe/'>Screencast</a> <div class='indent'>Room will open 15 minutes before meetup</div> <a href='/Community/GalaxyAdmins/Surveys/2014/'>Admin Questionnaire Results</a><div class='indent'>Summarizes responses about deployment</div></td>
   </tr>
 </table>
 

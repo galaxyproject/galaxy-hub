@@ -125,7 +125,7 @@ There is a third possibility, but this only applies when the workflow has been e
 
 <br />
 ## How do I know the workflow is really running?
-The datasets for the workflow will be in the history panel. These jobs run just like every other job. Some may run right away, others may queue. More about how datasets execute is in this wiki: **[Dataset status and how jobs execute](/Support.md#dataset_status_and_how_jobs_execute)**
+The datasets for the workflow will be in the history panel. These jobs run just like every other job. Some may run right away, others may queue. More about how datasets execute is in this wiki: **[Dataset status and how jobs execute](/Support/#dataset_status_and_how_jobs_execute)**
 
 <br />
 ## I want to customize my workflow further

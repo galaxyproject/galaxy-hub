@@ -151,27 +151,27 @@ This wiki supports InterWiki links.  In addition to the standard InterWiki links
 <table>
   <tr>
     <td> <code>main:</code> </td>
-    <td> Link to <a href='/Main.md'>/Main.md</a>'s <a href='https://usegalaxy.org/|landing page'>https://usegalaxy.org/|landing page</a>. </td>
+    <td> Link to <a href='/Main/'>/Main/</a>'s <a href='https://usegalaxy.org/|landing page'>https://usegalaxy.org/|landing page</a>. </td>
   </tr>
   <tr>
     <td> <code>Data_Libraries:</code> </td>
-    <td> | Link to <a href='/Main.md'>/Main.md</a>'s <a href='https://usegalaxy.org/library/|Data Library list'>https://usegalaxy.org/library/|Data Library list</a>. </td>
+    <td> | Link to <a href='/Main/'>/Main/</a>'s <a href='https://usegalaxy.org/library/|Data Library list'>https://usegalaxy.org/library/|Data Library list</a>. </td>
   </tr>
   <tr>
     <td> <code>Published_Histories:</code> </td>
-    <td> | Link to <a href='/Main.md'>/Main.md</a>'s <a href='https://usegalaxy.org/history/list_published|Published Histories list'>https://usegalaxy.org/history/list_published|Published Histories list</a> </td>
+    <td> | Link to <a href='/Main/'>/Main/</a>'s <a href='https://usegalaxy.org/history/list_published|Published Histories list'>https://usegalaxy.org/history/list_published|Published Histories list</a> </td>
   </tr>
   <tr>
     <td> <code>Published_Workflows:</code> </td>
-    <td> | Link to <a href='/Main.md'>/Main.md</a>'s <a href='https://usegalaxy.org/workflow/list_published|Published Workflows list'>https://usegalaxy.org/workflow/list_published|Published Workflows list</a> </td>
+    <td> | Link to <a href='/Main/'>/Main/</a>'s <a href='https://usegalaxy.org/workflow/list_published|Published Workflows list'>https://usegalaxy.org/workflow/list_published|Published Workflows list</a> </td>
   </tr>
   <tr>
     <td> <code>Published_Visualizations:</code> </td>
-    <td> | Link to <a href='/Main.md'>/Main.md</a>'s <a href='https://usegalaxy.org/visualization/list_published|Published Visualizations list'>https://usegalaxy.org/visualization/list_published|Published Visualizations list</a> </td>
+    <td> | Link to <a href='/Main/'>/Main/</a>'s <a href='https://usegalaxy.org/visualization/list_published|Published Visualizations list'>https://usegalaxy.org/visualization/list_published|Published Visualizations list</a> </td>
   </tr>
   <tr>
     <td> <code>Published_Pages:</code> </td>
-    <td> | Link to <a href='/Main.md'>/Main.md</a>'s <a href='https://usegalaxy.org/page/list_published|Published Pages list'>https://usegalaxy.org/page/list_published|Published Pages list</a> </td>
+    <td> | Link to <a href='/Main/'>/Main/</a>'s <a href='https://usegalaxy.org/page/list_published|Published Pages list'>https://usegalaxy.org/page/list_published|Published Pages list</a> </td>
   </tr>
 </table>
 
@@ -185,7 +185,7 @@ This wiki supports InterWiki links.  In addition to the standard InterWiki links
   </tr>
   <tr>
     <td> <code>toolshedview:</code> </td>
-    <td> Link to a page in the Galaxy <a href='/Tool Shed.md'>/Tool Shed.md</a>, usually a repository </td>
+    <td> Link to a page in the Galaxy <a href='/Tool Shed/'>/Tool Shed/</a>, usually a repository </td>
   </tr>
   <tr>
     <td> <code>pmid:1234567</code> </td>

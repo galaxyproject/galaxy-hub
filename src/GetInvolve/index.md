@@ -5,7 +5,7 @@
 *Galaxy* is an open source project.  What makes an open source project work is the community that supports it.  There are numerous ways for people to *get involved* with Galaxy.
 
 # Mailing Lists
-<div class='left'><a href='/MailingLists.md'><img src='/Images/Logos/MailmanLogoSmall.png' alt='Galaxy Mailing Lists' width="64" /></a></div> Galaxy has *thousands* of users around the world, all using Galaxy in different and often novel ways.  When these users have a question or a topic to discuss, they post it to a [Galaxy Mailing List](/MailingLists) (following [/Support](/Support) guidelines), where the whole community can respond.  You can contribute by posting your own questions, solutions, and experience.
+<div class='left'><a href='/MailingLists/'><img src='/Images/Logos/MailmanLogoSmall.png' alt='Galaxy Mailing Lists' width="64" /></a></div> Galaxy has *thousands* of users around the world, all using Galaxy in different and often novel ways.  When these users have a question or a topic to discuss, they post it to a [Galaxy Mailing List](/MailingLists) (following [/Support](/Support) guidelines), where the whole community can respond.  You can contribute by posting your own questions, solutions, and experience.
 
 # IRC Channel
 
@@ -13,7 +13,7 @@ INCLUDE(/Support/IRC)
 
 # Develop Tools and Tool Definitions
 
-<div class='right'><a href='/Tool Shed.md'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Tool Shed' width="170" /></a></div>
+<div class='right'><a href='/Tool Shed/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Tool Shed' width="170" /></a></div>
 There are thousands of useful bioinformatics tools in existence and the Galaxy [/Main](/Main) server (and the [Galaxy Team](/GalaxyTeam)) cannot possibly support all of them.  Only tools that are widely useful in many areas of biomedical research (and meet several other criteria) are available on Main.
 
 The Galaxy [/Tool Shed](/Tool Shed) is a means to make other tools available for use within local and cloud-based Galaxy instances.  You can create tool wrappers (usually a simple file encapsulating how Galaxy should treat the underlying software tool) in order to define tools within Galaxy.  In order to share your tool with everyone, you can upload any given wrapper to the [/Tool Shed](/Tool Shed) where it can be downloaded and installed into any Galaxy instance worldwide. To get you started we prepared this [Adding tool tutorial](/Admin/Tools/Add Tool Tutorial) for you.
@@ -26,7 +26,7 @@ You can help other users by [sharing or publishing your Galaxy histories, workfl
 
 You can also go a step further and document your analysis using [Galaxy Pages](/Learn/GalaxyPages).  These are online documents which are tightly integrated with your Galaxy objects - they provide a written explanation of your analysis.
 
-<div class='right'><br /><a href='/Issues.md'><img src='/Images/Logos/TrelloLogo300.png' alt='Galaxy Issue Board @ Trello' width="140" /></a></div>
+<div class='right'><br /><a href='/Issues/'><img src='/Images/Logos/TrelloLogo300.png' alt='Galaxy Issue Board @ Trello' width="140" /></a></div>
 
 # Report, Comment on and Vote on Issues and Features Requests
 
@@ -64,6 +64,6 @@ Galaxy has a presence at many [/Events](/Events) throughout the year.  This incl
 # Outreach
 
 <div class='left'>
-<a href='/Outreach.md'><img src='/Outreach/Powered by Galaxy/PoweredByGalaxy120.png' alt='Powered by Galaxy' /></a>
+<a href='/Outreach/'><img src='/Outreach/Powered by Galaxy/PoweredByGalaxy120.png' alt='Powered by Galaxy' /></a>
 </div>
 You can also help by spreading the word about Galaxy.  There are [numerous ways to do this](/Outreach).

@@ -45,7 +45,7 @@ Sponsorships are available at four different levels.
 
 <table>
   <tr>
-    <td style=" border: none text-align: center;"> <a href='http://bioteam.net/slipstream/galaxy-edition/'><img src='/Images/Logos/BioTeamLogo154.gif.md' alt='BioTeam' width="200" /></a> </td>
+    <td style=" border: none text-align: center;"> <a href='http://bioteam.net/slipstream/galaxy-edition/'><img src='/Images/Logos/BioTeamLogo154.gif/' alt='BioTeam' width="200" /></a> </td>
     <td style=" border: none; width: 5% text-align: center;"> </td>
     <td style=" border: none text-align: center;"> <a href='http://www.emc.com/isilon'><img src='/Images/Logos/EMCIsilonLogo.jpg' alt='EMC Isilon' width="340" /></a> </td>
     <td style=" border: none; width: 5% text-align: center;"> </td>
@@ -135,7 +135,7 @@ Please [contact the organizers](/Events/GCC2014/Organizers) to make inquiries ab
 
 <br />
 <a href='http://biolchem.bs.jhmi.edu/'><img src='/Images/Logos/JohnsHopkinsBioChem.png' alt='Biological Chemistry @ Johns Hopkins'  /></a> &nbsp; 
-<a href='http://jhu.edu'><img src='/Images/Logos/JohnsHopkinsLogoLarge.gif.md' alt='Johns Hopkins University' height="100" /></a><br /><br />
+<a href='http://jhu.edu'><img src='/Images/Logos/JohnsHopkinsLogoLarge.gif/' alt='Johns Hopkins University' height="100" /></a><br /><br />
 <a href='http://epigenetics.jhu.edu/'><img src='/Images/Logos/JohnHopkinsEpigenetics.jpg' alt='Center for Epigenetics' /></a>
 </div>
 

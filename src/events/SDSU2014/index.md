@@ -2,7 +2,7 @@
   <tr>
     <td style=" border: none; text-align: center; vertical-align: middle"> <br /><a href='http://sdsu.edu/'><img src='/Images/Logos/SDSULogo.jpg' alt='San Diego State University' height="150" /></a> </td>
     <td style=" border: none; width: 5%"> </td>
-    <td style=" border: none;"> <div class="title">Galaxy Workshops</div></strong>January 15, 2015<br /><br />9:00-11:00: Introductory<br />&nbsp;1:30-&nbsp;3:30: Advanced<strong><br /><br />Instructor: <a href='/DaveClements.md'>Dave Clements</a><br />Location TBD<br /><a href='http://sdsu.edu/'>San Diego State University</a><br />San Diego, California, United States </td>
+    <td style=" border: none;"> <div class="title">Galaxy Workshops</div></strong>January 15, 2015<br /><br />9:00-11:00: Introductory<br />&nbsp;1:30-&nbsp;3:30: Advanced<strong><br /><br />Instructor: <a href='/DaveClements/'>Dave Clements</a><br />Location TBD<br /><a href='http://sdsu.edu/'>San Diego State University</a><br />San Diego, California, United States </td>
   </tr>
 </table>
 

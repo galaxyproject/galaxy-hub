@@ -11,7 +11,7 @@
 # Communicate
 * [/Support](/Support) &bull; [Biostar](https://biostar.usegalaxy.org/)
 * [/Events](/Events) &bull; [Mailing Lists](/MailingLists) 
-* [/News](/News) <a href='http://feed43.com/galaxynews.xml'><img src='/Images/Icons/RSSIcon16x16.gif.md' alt='Galaxy News RSS Feed' height="12" /></a> &bull; [Twitter](https://twitter.com/galaxyproject)
+* [/News](/News) <a href='http://feed43.com/galaxynews.xml'><img src='/Images/Icons/RSSIcon16x16.gif/' alt='Galaxy News RSS Feed' height="12" /></a> &bull; [Twitter](https://twitter.com/galaxyproject)
 
 # Deploy Galaxy
 * [Get Galaxy](/Admin/GetGalaxy) &bull; [/Cloud](/Cloud)
@@ -31,7 +31,7 @@
 
 # Wiki
 * [Help](/Wiki Help) &bull; [All Pages](/TitleIndex)
-* [Recent Changes](/RecentChanges) <a href='http://wiki.galaxyproject.org/RecentChanges?action=rss_rc'><img src='/Images/Icons/RSSIcon16x16.gif.md' alt='Galaxy wiki recent changes RSS Feed' height="12" /></a>
+* [Recent Changes](/RecentChanges) <a href='http://wiki.galaxyproject.org/RecentChanges?action=rss_rc'><img src='/Images/Icons/RSSIcon16x16.gif/' alt='Galaxy wiki recent changes RSS Feed' height="12" /></a>
 * [Search](/FindPage) &bull; [/Create Page](/Create Page)
 
 <div class='center'>

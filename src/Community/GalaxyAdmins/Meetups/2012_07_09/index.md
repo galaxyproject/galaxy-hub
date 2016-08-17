@@ -1,4 +1,4 @@
-<div class='center'><a href='/Community/GalaxyAdmins.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
+<div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
 
 INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
@@ -24,7 +24,7 @@ TABLE_OF_CONTENTS
 
 ## Logistics
 
-<div class='right'><a href='/Community/GalaxyAdmins.md'><img src='/Images/Logos/GalaxyCzars.png' alt='GalaxyCzars' width="150" /></a></div>
+<div class='right'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyCzars.png' alt='GalaxyCzars' width="150" /></a></div>
 
 ### Generic Call Agenda
 

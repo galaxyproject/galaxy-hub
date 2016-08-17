@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[GCC2012 Abstract Submission is Open](/News/GCC2012AbstractSubmissionOpen)</div>
 
-<div class='right'><a href='/Events/GCC2012/Abstracts.md'><img src='/Events/GCC2012/GCC2012Logo200.png' /></a></div>
+<div class='right'><a href='/Events/GCC2012/Abstracts/'><img src='/Events/GCC2012/GCC2012Logo200.png' /></a></div>
 
 [Abstracts](/Events/GCC2012/Abstracts) are now being accepted for oral presentations at the [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012).  Submissions on any topics of interest to the Galaxy community are encouraged. Areas of interest include, but are not limited to:
 

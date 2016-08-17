@@ -81,14 +81,14 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
   * Do not allow public user names to be changed within the tool shed if the user has created a tool shed repository.
   * Don't allow repository names to be changed if the repository has been cloned at least 1 time.
 * More new tool shed features documented in the following new Galaxy wiki sections:
-  * [Including proprietary data types that subclass from Galaxy data types in the distribution](/Tool Shed.md#including_proprietary_data_types_that_subclass_from_galaxy_data_types_in_the_distribution)
-  * [Including proprietary data types that use class modules contained in your repository](/Tool Shed.md#including_proprietary_data_types_that_use_class_modules_contained_in_your_repository)
-  * [Including datatype converters and display applications](/Tool Shed.md#including_datatype_converters_and_display_applications)
-  * [Automatic installation of Galaxy tool shed repository data types into a local Galaxy instance](/Tool Shed.md#automatic_installation_of_galaxy_tool_shed_repository_data_types_into_a_local_galaxy_instance)
-  * [Getting updates for tool shed repositories installed in a local Galaxy instance](/Tool Shed.md#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance)
-  * [Migrating tools from the Galaxy distribution to the Galaxy main tool shed](/Tool Shed.md#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)
-  * [Configuring your Galaxy server to automatically install tools eliminated from the Galaxy distribution](/Tool Shed.md#configuring_your_galaxy_server_to_automatically_install_tools_eliminated_from_the_galaxy_distribution)
-  * [Use case: automatically install the Emboss tools and datatypes into a local Galaxy instance](/Tool Shed.md#use_case_automatically_install_the_emboss_tools_and_datatypes_into_a_local_galaxy_instance)
+  * [Including proprietary data types that subclass from Galaxy data types in the distribution](/Tool Shed/#including_proprietary_data_types_that_subclass_from_galaxy_data_types_in_the_distribution)
+  * [Including proprietary data types that use class modules contained in your repository](/Tool Shed/#including_proprietary_data_types_that_use_class_modules_contained_in_your_repository)
+  * [Including datatype converters and display applications](/Tool Shed/#including_datatype_converters_and_display_applications)
+  * [Automatic installation of Galaxy tool shed repository data types into a local Galaxy instance](/Tool Shed/#automatic_installation_of_galaxy_tool_shed_repository_data_types_into_a_local_galaxy_instance)
+  * [Getting updates for tool shed repositories installed in a local Galaxy instance](/Tool Shed/#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance)
+  * [Migrating tools from the Galaxy distribution to the Galaxy main tool shed](/Tool Shed/#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)
+  * [Configuring your Galaxy server to automatically install tools eliminated from the Galaxy distribution](/Tool Shed/#configuring_your_galaxy_server_to_automatically_install_tools_eliminated_from_the_galaxy_distribution)
+  * [Use case: automatically install the Emboss tools and datatypes into a local Galaxy instance](/Tool Shed/#use_case_automatically_install_the_emboss_tools_and_datatypes_into_a_local_galaxy_instance)
 
 ## Tool Shed Contributions
 * New in the [Tool Shed](http://toolshed.g2.bx.psu.edu/):
@@ -103,7 +103,7 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
   * `fastq_paired_unpaired, mira-assembler` - by Peter Cock
 
 ## Bug Fixes
-<div class='right'><a href='/Support.md'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
+<div class='right'><a href='/Support/'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
 * Support display of extra files/composite types in published items. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/628](https://bitbucket.org/galaxy/galaxy-central/issue/628)
 * Standardize code and error messages on 'public name' rather than 'username'
 * When exporting a history archive, use user dataset names rather than Galaxy dataset names. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/680](https://bitbucket.org/galaxy/galaxy-central/issue/680)

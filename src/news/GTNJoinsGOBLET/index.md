@@ -1,7 +1,7 @@
 <div class='newsItemHeader'>[GTN Joints GOBLET](/News/GTNJoinsGOBLET)</div>
 
 <div class='right'>
-<a href='/Teach.md'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' height="120" /></a>
+<a href='/Teach/'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' height="120" /></a>
 <a href='http://mygoblet.org'><img src='/Images/Logos/GobletLogo.png' alt='Global Organisation for Bioinformatics Learning, Education & Training (GOBLET)' height="120" /></a>
 </div>
 

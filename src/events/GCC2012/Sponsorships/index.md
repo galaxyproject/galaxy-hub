@@ -16,7 +16,7 @@ Sponsorships are available at four different levels.
     <td style=" border: none"> <a href='http://www.lifetechnologies.com/'><img src='/IonTorrentLogo340.png' alt='Ion Torrent'  /></a> </td>
     <td style=" border: none"> </td>
     <td style=" border: none"> </td>
-    <td style=" border: none; text-align: center"> </strong><a href='http://www.lifetechnologies.com/'>Ion Torrent</a><strong><br /><br />GCC Representatives: <br /><a href='/MikeLelivelt.md'>Mike Lelivelt</a> &bull; <a href='/MattDyer.md'>Matt Dyer</a><br />Mike Hunsicker &bull; Eric Hilligoss </td>
+    <td style=" border: none; text-align: center"> </strong><a href='http://www.lifetechnologies.com/'>Ion Torrent</a><strong><br /><br />GCC Representatives: <br /><a href='/MikeLelivelt/'>Mike Lelivelt</a> &bull; <a href='/MattDyer/'>Matt Dyer</a><br />Mike Hunsicker &bull; Eric Hilligoss </td>
   </tr>
 </table>
 
@@ -29,7 +29,7 @@ Sponsorships are available at four different levels.
     <td style=" border: none"> <a href='http://www.emc.com/isilon'><img src='/EMCLogo260.png' alt='EMC Isilon' width="250" /></a> </td>
     <td style=" border: none"> </td>
     <td style=" border: none"> </td>
-    <td style=" border: none; text-align: center"> </strong><a href='http://www.emc.com/isilon'>EMC Isilon</a><strong><br /><br />GCC Representatives: <br /><a href='/SanjayJoshi.md'>Sanjay Joshi</a> &bull; Alpesh Shah<br />Scott Wilson &bull; Kristine Swander </td>
+    <td style=" border: none; text-align: center"> </strong><a href='http://www.emc.com/isilon'>EMC Isilon</a><strong><br /><br />GCC Representatives: <br /><a href='/SanjayJoshi/'>Sanjay Joshi</a> &bull; Alpesh Shah<br />Scott Wilson &bull; Kristine Swander </td>
   </tr>
 </table>
 
@@ -49,7 +49,7 @@ Sponsorships are available at four different levels.
   </tr>
   <tr>
     <td style=" text-align: center; border: none;"> <a href='http://www.igb.uiuc.edu/'><img src='/UIUC_IGB280.png' alt='The Institute for Genomic Biology' width=260 /></a> </td>
-    <td style=" border: none; text-align: center;"> <a href='/RadhikaKhetani.md'>Radhika Khetani</a> </td>
+    <td style=" border: none; text-align: center;"> <a href='/RadhikaKhetani/'>Radhika Khetani</a> </td>
   </tr>
   <tr>
     <td style=" text-align: center; border: none"> <a href='http://www.biotech.uiuc.edu/'><img src='/UIUC_RJC_Biotech_Center280.png' alt='Roy J. Carver Biotechnology Center' width=260 /></a> </td>
@@ -98,5 +98,5 @@ The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject
 * Data producers
 * Power bioinformatics users
 
-The [feedback](/Events/GCC2011.md#feedback) we received on the [2011 meeting](/Events/GCC2011) was excellent.  You can expect the 2012 meeting to be as well received and organized as the previous event.
+The [feedback](/Events/GCC2011/#feedback) we received on the [2011 meeting](/Events/GCC2011) was excellent.  You can expect the 2012 meeting to be as well received and organized as the previous event.
 1

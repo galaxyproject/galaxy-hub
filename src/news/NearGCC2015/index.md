@@ -57,7 +57,7 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is b
   <tr>
     <td colspan=4 style=" text-align: left; background-color: #ffc;"> <strong>&larr; <a href='http://gcc2015.tsl.ac.uk/'>GCC2015</a></strong><br /> <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, Norwich, UK </td>
     <td rowspan=2> </td>
-    <td colspan=2 rowspan=2 style=" text-align: left; background-color: #edf;"> <div class='right'><strong>&rarr;</strong></div> <strong><a href='/Events/ISMB2015.md'>ISMB/ECCB 2015</a></strong><br /> Dublin, Ireland, Early Registration Deadline: 5 June<br /><strong><a href='/Events/ISMB2015.md'>The Bioinformatics Open Source Conference (BOSC 2015)</a></strong><br /> <strong><a href='http://www.biovis.net/'>BioVis 2015</a></strong> </td>
+    <td colspan=2 rowspan=2 style=" text-align: left; background-color: #edf;"> <div class='right'><strong>&rarr;</strong></div> <strong><a href='/Events/ISMB2015/'>ISMB/ECCB 2015</a></strong><br /> Dublin, Ireland, Early Registration Deadline: 5 June<br /><strong><a href='/Events/ISMB2015/'>The Bioinformatics Open Source Conference (BOSC 2015)</a></strong><br /> <strong><a href='http://www.biovis.net/'>BioVis 2015</a></strong> </td>
   </tr>
   <tr>
     <td style=" background-color: #ffc;"> <strong>&larr; <a href='http://gcc2015.tsl.ac.uk/Hackathon/'>Coding</a> & <a href='http://gcc2015.tsl.ac.uk/data-hackathon/'>Data Wrangling</a> Hackathons</strong><br /> <a href='http://www.tgac.ac.uk/'>TGAC</a> </td>
@@ -84,7 +84,7 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is b
     <td style=" background-color: #ddd"> <em>18 July</em> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" background-color: #edf;"> <strong>&larr; <a href='/Events/ISMB2015.md'>ISMB/ECCB 2015</a></strong><br /> Dublin, Ireland </td>
+    <td colspan=3 style=" background-color: #edf;"> <strong>&larr; <a href='/Events/ISMB2015/'>ISMB/ECCB 2015</a></strong><br /> Dublin, Ireland </td>
     <td colspan=4> </td>
   </tr>
   <tr>

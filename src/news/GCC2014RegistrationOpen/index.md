@@ -1,7 +1,7 @@
 <div class='newsItemHeader'>[Open! GCC2014 Registration & Abstracts](/News/GCC2014RegistrationOpen)</div>
 
-<div class='left'><a href='/Events/GCC2014.md'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014' height="180" /></a></div>
-<div class='right'><a href='/Events/GCC2014/TrainingDay.md'><img src='/Images/Logos/GCC2014TDLogo150.png' alt='GCC2014 Training Day' height="150" /></a></div>
+<div class='left'><a href='/Events/GCC2014/'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014' height="180" /></a></div>
+<div class='right'><a href='/Events/GCC2014/TrainingDay/'><img src='/Images/Logos/GCC2014TDLogo150.png' alt='GCC2014 Training Day' height="150" /></a></div>
 
 **We are pleased to announce that [Early Registration](/Events/GCC2014/Register) and [Talk and Poster Abstract Submission](/Events/GCC2014/Abstracts) are now open for the [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014).**
 

@@ -2,9 +2,9 @@
 
 [Register](/Events/GCC2013/Register) for [GCC2013](/Events/GCC2013) by 14 June and avoid the *100%* late surcharges.  Registration is still a bargain with combined registration ([Training Day](/Events/GCC2013/TrainingDay) + [main meeting](/Events/GCC2013/Program)) starting at ~ €165 for post-docs and students (that just €55 per day). **[Register now](/Events/GCC2013/Register)** to assure your spot in the [Training Day workshops](/Events/GCC2013/TrainingDay) you want to attend.  Once a Training Day session becomes full, it will be closed to new registrations. 
 
-<div class='right'><a href='/Events/GCC2013.md'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='GCC2013 Training Day' width="170px" /></a><br />
-<a href='/Events/GCC2013.md'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='GCC2013 Birds of a Feather Sessions' width="170px" /></a></div>
-<div class='left'><a href='/Events/GCC2013.md'><img src='/Images/Logos/GCC2013Logo400.png' alt='GCC2013' width="200px" /></a></div>
+<div class='right'><a href='/Events/GCC2013/'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='GCC2013 Training Day' width="170px" /></a><br />
+<a href='/Events/GCC2013/'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='GCC2013 Birds of a Feather Sessions' width="170px" /></a></div>
+<div class='left'><a href='/Events/GCC2013/'><img src='/Images/Logos/GCC2013Logo400.png' alt='GCC2013' width="200px" /></a></div>
 
 [GCC2013](/Events/GCC2013) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, and lightning talks, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/Events/GCC2013/TrainingDay) with in-depth topic coverage of twelve different topics in 15 sessions across 5 tracks.
 

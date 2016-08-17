@@ -15,7 +15,7 @@ By default, Galaxy:
 * Runs all tools locally.  Moving to a [cluster](/Admin/Config/Performance/Cluster) will greatly increase capacity.
 * Runs in a single process, which is a performance problem in [CPython](http://en.wikipedia.org/wiki/CPython).
 
-Galaxy ships with this default configuration to ensure the simplest, most error-proof configuration possible when doing basic development.  As you'll soon see, the goal is to remove as much work as possible from the Galaxy process, since doing so will greatly speed up the performance of its remaining duties.  This is due to the Python Global Interpreter Lock (GIL), which is explained in detail in the [Advanced Configuration](/Admin/Config/Performance/ProductionServer.md#advanced-configuration) section.
+Galaxy ships with this default configuration to ensure the simplest, most error-proof configuration possible when doing basic development.  As you'll soon see, the goal is to remove as much work as possible from the Galaxy process, since doing so will greatly speed up the performance of its remaining duties.  This is due to the Python Global Interpreter Lock (GIL), which is explained in detail in the [Advanced Configuration](/Admin/Config/Performance/ProductionServer/#advanced-configuration) section.
 
 ## Groundwork for scalability
 
@@ -107,7 +107,7 @@ If you are using [MySQL](http://dev.mysql.com/) with [MyISAM](http://dev.mysql.c
 
 Galaxy contains a standalone web server and can serve all of its content directly to clients.  However, some tasks (such as serving static content) can be offloaded to a dedicated server that handles these tasks more efficiently.  A proxy server also allows you to authenticate users externally using any method supported by the proxy (for example, Kerberos or <<nwwl(LDAP)>>), instruct browsers to cache content, and compress outbound data. Also, Galaxy's built-in web server does not support byte-range requests (required for many external display applications), but this functionality can be offloaded to a proxy server.  In addition to freeing the GIL, compression and caching will reduce page load times.
 
-Downloading and uploading data can also be moved to the proxy server.  This is explained in the [Make the proxy handle uploads and downloads](/Admin/Config/Performance/ProductionServer.md#make-the-proxy-handle-uploads-and-downloads) section below.
+Downloading and uploading data can also be moved to the proxy server.  This is explained in the [Make the proxy handle uploads and downloads](/Admin/Config/Performance/ProductionServer/#make-the-proxy-handle-uploads-and-downloads) section below.
 
 Virtually any server that proxies <<nwwl(HTTP)>> should work, although we provide configuration examples for:
 

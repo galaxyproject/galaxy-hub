@@ -92,7 +92,7 @@ Then launch the workflow by clicking on the name.
 
 Too many steps displayed by default in the history after running a workflow "tool"? Consider hiding the intermediate steps. How many to display/hide depends on what is important to access or visualize in the history as an active dataset. Often just the last step is wanted as a result. 
 
-Start by entering the **Workflow Editor** for the target workflow, then follow these instructions:  **[Basic Editing, Hidden Datasets](/Learn/AdvancedWorkflow/BasicEditing.md#hidden_datasets)**
+Start by entering the **Workflow Editor** for the target workflow, then follow these instructions:  **[Basic Editing, Hidden Datasets](/Learn/AdvancedWorkflow/BasicEditing/#hidden_datasets)**
 
 Not sure how to access or use the editor? That same wiki has all the help you need to get started.
 

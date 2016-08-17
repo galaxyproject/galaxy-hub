@@ -1,7 +1,7 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle"> <a href='http://bti.cornell.edu/'><img src='/Images/Logos/BTILogo.png' alt='Boyce Thompson Institute' width="263" /></a> &nbsp;&nbsp; <a href='http://cornell.edu/'><img src='/Images/Logos/CornellLogoSmall.gif.md' alt='Cornell University' width="263" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle"> <a href='http://bti.cornell.edu/'><img src='/Images/Logos/BTILogo.png' alt='Boyce Thompson Institute' width="263" /></a> &nbsp;&nbsp; <a href='http://cornell.edu/'><img src='/Images/Logos/CornellLogoSmall.gif/' alt='Cornell University' width="263" /></a> </td>
   </tr>
 </table>
 

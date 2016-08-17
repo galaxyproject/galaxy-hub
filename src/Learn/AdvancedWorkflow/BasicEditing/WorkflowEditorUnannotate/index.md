@@ -12,7 +12,7 @@ INCLUDE(/Learn/LinkBox)
 An example view of the workflow editor without annotation. 
 <br />
 <br />
-The same view with annotated is here along with full descriptions: **[Basic Workflow Editing: Editor Layout](/Learn/AdvancedWorkflow/BasicEditing.md#editor_layout)**
+The same view with annotated is here along with full descriptions: **[Basic Workflow Editing: Editor Layout](/Learn/AdvancedWorkflow/BasicEditing/#editor_layout)**
 <br />
 <br />
 ![workflow editor view unannotated](/Images/Learn/workflow_editor_overview_plain.png)

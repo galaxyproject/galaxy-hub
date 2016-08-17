@@ -2,7 +2,7 @@
   <tr>
     <td style=" border: none; text-align: center; vertical-align: middle"> <br /><a href='http://vsu.edu/'><img src='/Images/Logos/VSULogo.jpg' alt='Virginia State University' width="300" /></a> </td>
     <td style=" border: none; width: 5%"> </td>
-    <td style=" border: none;"> <div class="title">Introduction to Galaxy</div></strong>December 12, 2014, 10:00-3:00<strong><br /><br />Instructor: <a href='/DaveClements.md'>Dave Clements</a><br /><a href='http://bit.ly/1wQ5A9l'>VSU Engineering Building</a>, Room 205<br /><a href='http://vsu.edu/'>Virginia State University</a><br />Petersburg, Virginia, United States </td>
+    <td style=" border: none;"> <div class="title">Introduction to Galaxy</div></strong>December 12, 2014, 10:00-3:00<strong><br /><br />Instructor: <a href='/DaveClements/'>Dave Clements</a><br /><a href='http://bit.ly/1wQ5A9l'>VSU Engineering Building</a>, Room 205<br /><a href='http://vsu.edu/'>Virginia State University</a><br />Petersburg, Virginia, United States </td>
   </tr>
 </table>
 

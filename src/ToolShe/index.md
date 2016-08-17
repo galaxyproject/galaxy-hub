@@ -1,5 +1,5 @@
 INCLUDE(/Admin/Tools/LinkBox)
-<div class='right'> <a href='/ToolShed.md'><img src='/Images/Logos/ToolShed.jpg' alt='Tool Shed logo' height="110px" /></a> 
+<div class='right'> <a href='/ToolShed/'><img src='/Images/Logos/ToolShed.jpg' alt='Tool Shed logo' height="110px" /></a> 
 </div>
 
 # The Galaxy Tool Shed

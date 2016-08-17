@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[May 2013 GalaxyAdmins Meetup](/News/2013_05GalaxyAdmins)</div>
 
-<div class='right'><a href='/Community/GalaxyAdmins/Meetups/2013_05_15.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='May 2013 GalaxyAdmins Meetup' width="160" /></a><br />
+<div class='right'><a href='/Community/GalaxyAdmins/Meetups/2013_05_15/'><img src='/Images/Logos/GalaxyAdmins.png' alt='May 2013 GalaxyAdmins Meetup' width="160" /></a><br />
 <a href='http://rnaseq.pathogenportal.org/'><img src='/Community/GalaxyAdmins/Meetups/2013_05_15/PathogenPortalGalaxyLandingPage.png' alt='Pathogen Portal Galaxy' width="160" /></a></div>
 
 
@@ -21,7 +21,7 @@ Andrew Warren of the [Cyberinfrastructure Division](http://www.vbi.vt.edu/facult
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em><a href='http://rnaseq.pathogenportal.org/'>Galaxy</a> at <a href='http://pathogenportal.org'>Pathogen Portal</a></em><div class='indent'>Andrew Warren, <a href='https://www.vbi.vt.edu/'>Virginia Bioinformatics Institute</a>, Virginia Tech </div><em>Galaxy Project Update</em><div class='indent'><a href='/DannonBaker.md'>Dannon Baker</a></div> </td>
+    <td> <em><a href='http://rnaseq.pathogenportal.org/'>Galaxy</a> at <a href='http://pathogenportal.org'>Pathogen Portal</a></em><div class='indent'>Andrew Warren, <a href='https://www.vbi.vt.edu/'>Virginia Bioinformatics Institute</a>, Virginia Tech </div><em>Galaxy Project Update</em><div class='indent'><a href='/DannonBaker/'>Dannon Baker</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>

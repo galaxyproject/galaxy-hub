@@ -1,12 +1,12 @@
-<div class='center'><a href='http://genomebiology.com/2010/11/8/R86'><img src='/GenomeBiologyColver20108.gif.md' alt='Genome Biology' height="125" /></a> 
-<a href='http://onlinelibrary.wiley.com/doi/10.1002/0471142727.mb1910s89/abstract'><img src='/CurrentProtocolsInMolBioCover.gif.md' alt='Current Protocols in Molecular Biology' height="125" /></a> 
-<a href='http://genome.cshlp.org/content/15/10/1451.long'><img src='/GenomeResearchCover200510.gif.md' alt='Genome Research' height="125" /></a>
-<a href='http://bit.ly/VMUz7p'><img src='/NatureBiotechnologyCover201211.gif.md' alt='Nature Biotechnology' height="125" /></a>
-<a href='http://bit.ly/11AuV4O'><img src='/BioinformaticsCover.gif.md' alt='Bioinformatics' height="125" /></a>
-<a href='http://onlinelibrary.wiley.com/doi/10.1002/0471250953.bi1502s39/abstract'><img src='/CurrentProtocolsInBioinformaticsCover.gif.md' alt='Current Protocols in Bioinformatics' height="125" /></a>
-<a href='http://dx.doi.org/10.1136/amiajnl-2013-002059'><img src='/JAMIACover.gif.md' alt='Journal of the American Medical Informatics Association (JAMIA)' height="125" /></a>
-<a href='http://onlinelibrary.wiley.com/doi/10.1002/cam4.360/full'><img src='/CancerMedicine.gif.md' alt='Cancer Medicine' height="125" /></a>
-<a href='http://www.nature.com/nbt/journal/v33/n2/full/nbt.3134.html'><img src='/NatureBiotech201502Cover.gif.md' alt='Nature Biotechnology' height="125" /></a>
+<div class='center'><a href='http://genomebiology.com/2010/11/8/R86'><img src='/GenomeBiologyColver20108.gif/' alt='Genome Biology' height="125" /></a> 
+<a href='http://onlinelibrary.wiley.com/doi/10.1002/0471142727.mb1910s89/abstract'><img src='/CurrentProtocolsInMolBioCover.gif/' alt='Current Protocols in Molecular Biology' height="125" /></a> 
+<a href='http://genome.cshlp.org/content/15/10/1451.long'><img src='/GenomeResearchCover200510.gif/' alt='Genome Research' height="125" /></a>
+<a href='http://bit.ly/VMUz7p'><img src='/NatureBiotechnologyCover201211.gif/' alt='Nature Biotechnology' height="125" /></a>
+<a href='http://bit.ly/11AuV4O'><img src='/BioinformaticsCover.gif/' alt='Bioinformatics' height="125" /></a>
+<a href='http://onlinelibrary.wiley.com/doi/10.1002/0471250953.bi1502s39/abstract'><img src='/CurrentProtocolsInBioinformaticsCover.gif/' alt='Current Protocols in Bioinformatics' height="125" /></a>
+<a href='http://dx.doi.org/10.1136/amiajnl-2013-002059'><img src='/JAMIACover.gif/' alt='Journal of the American Medical Informatics Association (JAMIA)' height="125" /></a>
+<a href='http://onlinelibrary.wiley.com/doi/10.1002/cam4.360/full'><img src='/CancerMedicine.gif/' alt='Cancer Medicine' height="125" /></a>
+<a href='http://www.nature.com/nbt/journal/v33/n2/full/nbt.3134.html'><img src='/NatureBiotech201502Cover.gif/' alt='Nature Biotechnology' height="125" /></a>
 </div>
 
 
@@ -211,7 +211,7 @@ If you want to include a general Galaxy URL, we encourage you to use one of thes
 
 ## Citations
 
-See the [Citations section](/GalaxyProject/Statistics.md#publications--citations) of the [project statistics page](/GalaxyProject/Statistics) for a summary of citations of project papers.
+See the [Citations section](/GalaxyProject/Statistics/#publications--citations) of the [project statistics page](/GalaxyProject/Statistics) for a summary of citations of project papers.
 
 ## CiteULike
 

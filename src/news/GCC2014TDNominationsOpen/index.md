@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[Nominate 2014 Training Day Topics](/News/GCC2014TDNominationsOpen)</div>
 
-<div class='right'><a href='/Events/GCC2014/TrainingDay.md'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014 Training Day' width="150" /></a></div>
+<div class='right'><a href='/Events/GCC2014/TrainingDay/'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014 Training Day' width="150" /></a></div>
 
 <table>
   <tr>

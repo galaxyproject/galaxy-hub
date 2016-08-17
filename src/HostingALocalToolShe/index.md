@@ -1,4 +1,4 @@
-<div class='right'> <a href='/ToolShed.md'><img src='/Images/Logos/ToolShed.jpg' alt='Tool Shed logo' height="110px" /></a> INCLUDE(/ToolShed/LinkBox) </div>
+<div class='right'> <a href='/ToolShed/'><img src='/Images/Logos/ToolShed.jpg' alt='Tool Shed logo' height="110px" /></a> INCLUDE(/ToolShed/LinkBox) </div>
 
 # Hosting a Public Tool Shed for sharing Galaxy Utilities
 

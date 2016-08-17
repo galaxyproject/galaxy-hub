@@ -2,7 +2,7 @@
 
 <div class='right'>TABLE_OF_CONTENTS</div>
 
-<div class='left'><a href='/GalaxyUpdates.md'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the September 2014 *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -36,10 +36,10 @@ There are a wealth of Galaxy related events in Europe this fall. Events include 
 These events are a great way to meet other Galaxy users and developers and learn and share best practices. If you're in Europe and are interested in learning more about Galaxy and/or the community, then please give these a look.
 
 <div class='center'> 
-<a href='/Events/ECCB2014.md'><img src='/Images/Logos/ECCB2014Logo.png' alt='Galaxy at ECCB' height="80" /></a>
+<a href='/Events/ECCB2014/'><img src='/Images/Logos/ECCB2014Logo.png' alt='Galaxy at ECCB' height="80" /></a>
 <a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'><img src='/Images/Logos/eBiogenouestLogo.png' alt='Tools integration on Galaxy' height="80" /></a> &nbsp;
 <a href='http://www.bioinformatica.crs4.it/training'><img src='/Images/Logos/CRS4Logo.jpg' alt='Analisi dati Next Generation Sequencing con Galaxy' width="130" /></a> &nbsp;
-<a href='/Events/SG2014.md'><img src='/Images/Logos/SG2014Logo400.png' alt='2014 Swiss German Galaxy Tour' height="90" /></a>
+<a href='/Events/SG2014/'><img src='/Images/Logos/SG2014Logo400.png' alt='2014 Swiss German Galaxy Tour' height="90" /></a>
 </div>
 
 <table>
@@ -51,9 +51,9 @@ These events are a great way to meet other Galaxy users and developers and learn
   </tr>
   <tr>
     <th> September 6-10 </th>
-    <td> <a href='/Events/ECCB2014.md'>At least one tutorial, a panel of European Public Galaxy Instances, and 5 posters</a> </td>
-    <td> </strong><a href='/Events/ECCB2014.md'>European Conference on Computational Biology (ECCB'14)</a><strong>, Strasbourg, France </td>
-    <td> <a href='/Events/ECCB2014.md'>Presenters</a> </td>
+    <td> <a href='/Events/ECCB2014/'>At least one tutorial, a panel of European Public Galaxy Instances, and 5 posters</a> </td>
+    <td> </strong><a href='/Events/ECCB2014/'>European Conference on Computational Biology (ECCB'14)</a><strong>, Strasbourg, France </td>
+    <td> <a href='/Events/ECCB2014/'>Presenters</a> </td>
   </tr>
   <tr>
     <th> September 11 </th>
@@ -93,15 +93,15 @@ These events are a great way to meet other Galaxy users and developers and learn
   </tr>
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
-    <td> <a href='/Events/Switzerland2014/trainingday.md'>Galaxy Training and Demo Day</a> </td>
-    <td rowspan=3> </strong><a href='/Events/SG2014.md'>2014 Swiss-German Galaxy Tour</a><strong> with events in </strong>Bern, Switzerland<strong> and </strong>Freiburg, Germany<strong> </td>
-    <td rowspan=3> <a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a> and <a href='/BjoernGruening.md'>Bjoern Gruening</a> </td>
+    <td> <a href='/Events/Switzerland2014/trainingday/'>Galaxy Training and Demo Day</a> </td>
+    <td rowspan=3> </strong><a href='/Events/SG2014/'>2014 Swiss-German Galaxy Tour</a><strong> with events in </strong>Bern, Switzerland<strong> and </strong>Freiburg, Germany<strong> </td>
+    <td rowspan=3> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> and <a href='/BjoernGruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/Events/Switzerland2014.md'>(second Swiss) Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/Events/Switzerland2014/'>(second Swiss) Galaxy Workshop</a></em> </td>
   </tr>
   <tr>
-    <td> <em><a href='/Events/Germany2014.md'>German Galaxy Developers Day</a></em> </td>
+    <td> <em><a href='/Events/Germany2014/'>German Galaxy Developers Day</a></em> </td>
   </tr>
   <tr>
     <th> October 6 - 24 </th>
@@ -122,7 +122,7 @@ These events are a great way to meet other Galaxy users and developers and learn
 
 ## The Great GigaScience and Galaxy Workshop
 
-<div class='right'><a href='http://www.gigasciencejournal.com/'><img src='/Images/Logos/GigaScienceLogo.gif.md' alt='GigaScience Journal' width="200" /></a><br />
+<div class='right'><a href='http://www.gigasciencejournal.com/'><img src='/Images/Logos/GigaScienceLogo.gif/' alt='GigaScience Journal' width="200" /></a><br />
 <a href='http://www.vlsci.org.au/'><img src='/Images/Logos/VLSCILogo.png' alt='VLSCI' width="200" /></a><br />
 <a href='http://australianbioinformatics.net/'><img src='/Images/Logos/ABNLogoWText200.jpg' alt='Australian Bioinformatics Network' width="200" /></a>
 </div>
@@ -146,7 +146,7 @@ See the [event page](http://australianbioinformatics.net/great-gigascience-galax
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif.md' /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> 
 
 And don't worry, Europe does not have a complete lock on upcoming Galaxy related events.  There is also things going on in North America, and a few more in Australia too.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -260,7 +260,7 @@ The new papers were tagged in many different areas:
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring.md'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -322,7 +322,7 @@ August was an eventful month for releases.  New versions of [Galaxy](#august-11-
 
 ## August 2014 CloudMan Release
 
-<div class='right'><a href='/CloudMan.md'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
+<div class='right'><a href='/CloudMan/'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
 
 This is mostly an incremental bug fix release with the following summary of changes:
 
@@ -419,13 +419,13 @@ Eric & Björn
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/Community/Logs.md'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a></div>
-<div class='right'><a href='/Community/Deployments.md'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/Community/Logs/'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a></div>
+<div class='right'><a href='/Community/Deployments/'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/Community/Logs.md#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs.md#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/Community/Deployments.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments.md#add-your-galaxy-deployment'>now</a></em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/Community/Logs/#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs/#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/Community/Deployments/#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments/#add-your-galaxy-deployment'>now</a></em> </td>
   </tr>
 </table>
 

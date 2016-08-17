@@ -4,7 +4,7 @@ INCLUDE(/Events/GCC2014/LinkBox)
 
 The 2014 Galaxy Community Conference (GCC2014) was held at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States, from June 30 through July 2, 2014
 
-Galaxy Community Conferences are an opportunity to participate in [presentations](/Events/GCC2014/Abstracts.md#talk-abstracts), discussions, [poster sessions](/Events/GCC2014/Abstracts.md#poster-abstracts), [lightning talks](/Events/GCC2014/Lightning) and [birds-of-a-feather gatherings](/Events/GCC2014/BoFs), all about high-throughput biology and the tools that support it.  
+Galaxy Community Conferences are an opportunity to participate in [presentations](/Events/GCC2014/Abstracts/#talk-abstracts), discussions, [poster sessions](/Events/GCC2014/Abstracts/#poster-abstracts), [lightning talks](/Events/GCC2014/Lightning) and [birds-of-a-feather gatherings](/Events/GCC2014/BoFs), all about high-throughput biology and the tools that support it.  
 
 The conference also included a [Training Day](/Events/GCC2014/TrainingDay) offering in-depth topic coverage, across several concurrent sessions.  
 
@@ -68,7 +68,7 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='SponsorExhibit.md'><img src='/Events/GCC2013/Sponsorships/PlatinumBanner.png' alt='Platinum Sponsor' /></a> </td>
+    <td style=" text-align: center; border: none"> <a href='SponsorExhibit/'><img src='/Events/GCC2013/Sponsorships/PlatinumBanner.png' alt='Platinum Sponsor' /></a> </td>
   </tr>
   <tr>
     <td style=" text-align: center; border: none"> <a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'><img src='/Images/Logos/IonTorrentLogo340.png' alt='Ion Torrent by Life Technologies' width="320" /></a> </td>
@@ -79,10 +79,10 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <table>
   <tr>
-    <td colspan=5 style=" text-align: center; border: none"> <a href='SponsorExhibit.md'><img src='/Events/GCC2013/Sponsorships/GoldBanner.png' alt='Gold Sponsors'  /></a> </td>
+    <td colspan=5 style=" text-align: center; border: none"> <a href='SponsorExhibit/'><img src='/Events/GCC2013/Sponsorships/GoldBanner.png' alt='Gold Sponsors'  /></a> </td>
   </tr>
   <tr>
-    <td style=" border: none text-align: center;"> <a href='http://bioteam.net/slipstream/galaxy-edition/'><img src='/Images/Logos/BioTeamLogo154.gif.md' alt='BioTeam' width="200" /></a> </td>
+    <td style=" border: none text-align: center;"> <a href='http://bioteam.net/slipstream/galaxy-edition/'><img src='/Images/Logos/BioTeamLogo154.gif/' alt='BioTeam' width="200" /></a> </td>
     <td style=" border: none; width: 5% text-align: center;"> </td>
     <td style=" border: none text-align: center;"> <a href='http://www.emc.com/isilon'><img src='/Images/Logos/EMCIsilonLogo.jpg' alt='EMC Isilon' width="340" /></a> </td>
     <td style=" border: none; width: 5% text-align: center;"> </td>
@@ -95,7 +95,7 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='SponsorExhibit.md'><img src='/Events/GCC2013/Sponsorships/SilverBanner.png' alt='Silver Sponsors'  /></a> </td>
+    <td style=" text-align: center; border: none"> <a href='SponsorExhibit/'><img src='/Events/GCC2013/Sponsorships/SilverBanner.png' alt='Silver Sponsors'  /></a> </td>
   </tr>
 </table>
 
@@ -120,7 +120,7 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <table>
   <tr>
-    <td colspan=3 style=" text-align: center; border: none"> <a href='SponsorExhibit.md'><img src='/Events/GCC2013/Sponsorships/BronzeBanner.png' alt='Bronze Sponsors'  /></a> </td>
+    <td colspan=3 style=" text-align: center; border: none"> <a href='SponsorExhibit/'><img src='/Events/GCC2013/Sponsorships/BronzeBanner.png' alt='Bronze Sponsors'  /></a> </td>
   </tr>
   <tr>
     <td colspan=3 style=" text-align: center; border: none"> </td>
@@ -134,7 +134,7 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <table>
   <tr>
-    <td style=" border: none text-align: center;"> <a href='SponsorExhibit.md'><img src='/Events/GCC2013/Sponsorships/OtherBanner.png' alt='Other Sponsors'  /></a> </td>
+    <td style=" border: none text-align: center;"> <a href='SponsorExhibit/'><img src='/Events/GCC2013/Sponsorships/OtherBanner.png' alt='Other Sponsors'  /></a> </td>
   </tr>
 </table>
 
@@ -149,11 +149,11 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <br />
 <a href='http://biolchem.bs.jhmi.edu/'><img src='/Images/Logos/JohnsHopkinsBioChem.png' alt='Biological Chemistry @ Johns Hopkins'  /></a> &nbsp; 
-<a href='http://jhu.edu'><img src='/Images/Logos/JohnsHopkinsLogoLarge.gif.md' alt='Johns Hopkins University' height="100" /></a><br /><br />
+<a href='http://jhu.edu'><img src='/Images/Logos/JohnsHopkinsLogoLarge.gif/' alt='Johns Hopkins University' height="100" /></a><br /><br />
 <a href='http://epigenetics.jhu.edu/'><img src='/Images/Logos/JohnHopkinsEpigenetics.jpg' alt='Center for Epigenetics' /></a>
 </div>
 <br />
 
-*Interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Become a [meeting sponsor](SponsorExhibit) or [exhibitor](SponsorExhibit.md#exhibitor).*
+*Interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Become a [meeting sponsor](SponsorExhibit) or [exhibitor](SponsorExhibit/#exhibitor).*
 
 INCLUDE(/Events/GCC2014/Footer)

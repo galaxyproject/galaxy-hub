@@ -85,7 +85,7 @@ No programming or Linux command line experience is required.
 ## Support
 
 <div class='right'><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a></div>
-<div class='left'><a href='/Events/MissouriWorkshopTour2013.md'><img src='/Images/Logos/MissouriGalaxyWorkshopTour2013.png' alt='2013 Missouri Galaxy Workshop Tour' height="75" /></a></div>
+<div class='left'><a href='/Events/MissouriWorkshopTour2013/'><img src='/Images/Logos/MissouriGalaxyWorkshopTour2013.png' alt='2013 Missouri Galaxy Workshop Tour' height="75" /></a></div>
 
 This workshop is generously supported by an **[AWS in Education](http://aws.amazon.com/education/)** grant award, and **[University of Missouri Informatics Institute](http://muii.missouri.edu/)**.  
 
@@ -97,7 +97,7 @@ This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/Events/Missou
 
 ## Flyer
 
-<div class='right'><a href='/attachment:UMissouritGalaxy2013.pdf.md'><img src='/UMissouriGalaxy2013Thumb.png' alt=''  /></a></div>
+<div class='right'><a href='/attachment:UMissouritGalaxy2013.pdf/'><img src='/UMissouriGalaxy2013Thumb.png' alt=''  /></a></div>
 Please distribute to groups at the University of Missouri that might be interested. You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?

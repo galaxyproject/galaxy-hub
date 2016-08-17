@@ -6,8 +6,8 @@ INCLUDE(/Events/GCC2013/LinkBox)
 INCLUDE(/Events/GCC2013/BoF/LinkBox)
 INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
-<div class='left'><a href='/Events/GCC2013/BoF.md'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a><br />
-<a href='/Community/GalaxyAdmins.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' width="160" /></a></div>
+<div class='left'><a href='/Events/GCC2013/BoF/'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a><br />
+<a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' width="160" /></a></div>
 
 This page describes the **[GalaxyAdmins](/Community/GalaxyAdmins)** [Birds of a Feather](/Events/GCC2013/BoF) meetup being held at [GCC2013](/Events/GCC2013).
 
@@ -17,8 +17,8 @@ GCC2013 coincides with the one year anniversary of GalaxyAdmins starting up and 
 
 We plan to continue, and perhaps finish, that discussion at GCC2013, at this BoF session.  That discussion and what we decide will be posted on the [GalaxyAdmins Future page](/Community/GalaxyAdmins/Future).  However, the current talking points are:
 
-* [Goal and Activities](/Community/GalaxyAdmins/Future.md#galaxyadmins-goals-and-activities)
-* [Leadership](/Community/GalaxyAdmins/Future.md#leadership) 
+* [Goal and Activities](/Community/GalaxyAdmins/Future/#galaxyadmins-goals-and-activities)
+* [Leadership](/Community/GalaxyAdmins/Future/#leadership) 
 
 ## When and Where
 
@@ -29,7 +29,7 @@ We plan to continue, and perhaps finish, that discussion at GCC2013, at this BoF
 </table>
 
 
-The [tentative time and location](/Events/GCC2013/BoF.md#bof-schedule) is Tuesday lunchtime in the cantina. Collect your lunch and then carry it up to the Cantina's balcony/mezzanine room reached from the staircase inside the cantina near the entrance.
+The [tentative time and location](/Events/GCC2013/BoF/#bof-schedule) is Tuesday lunchtime in the cantina. Collect your lunch and then carry it up to the Cantina's balcony/mezzanine room reached from the staircase inside the cantina near the entrance.
 
 ## Who is Participating
 

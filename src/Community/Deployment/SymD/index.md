@@ -40,6 +40,6 @@ From "[SymD webserver: a platform for detecting internally symmetric protein str
 * [Instructions](http://symd.nci.nih.gov/static/Interface_help/Interface_help.html)
 * [Example Run](http://symd.nci.nih.gov/static/example_run/GalaxySymD.html)
 * [taic@mail.nih.gov](Email support)
-* [Public Galaxy Server list entry](/PublicGalaxyServers.md#symd)
+* [Public Galaxy Server list entry](/PublicGalaxyServers/#symd)
 
 CategoryDeployment

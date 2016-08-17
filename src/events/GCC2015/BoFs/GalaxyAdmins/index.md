@@ -11,9 +11,9 @@ INCLUDE(/Events/GCC2015/Header)
  Contact:: [Hans-Rudolf Hotz](/HansrudolfHotz), [Dave Clements](/DaveClements)
 </div>
 
-<div class='left'><a href='/Events/GCC2015/BoFs.md'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a>
+<div class='left'><a href='/Events/GCC2015/BoFs/'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a>
 <br />
-<a href='/Community/GalaxyAdmins.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' width="160" /></a></div>
+<a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' width="160" /></a></div>
 
 [GalaxyAdmins](/Community/GalaxyAdmins) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/Community/GalaxyAdmins/Meetups) and at events like [GCC2015](http://gcc2015.tsl.ac.uk/), where a lot of us happen to be.
 

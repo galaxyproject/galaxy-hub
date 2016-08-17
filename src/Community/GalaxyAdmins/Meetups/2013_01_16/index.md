@@ -1,4 +1,4 @@
-<div class='center'><a href='/Community/GalaxyAdmins.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> <div class="title">2013/01/16 Web Meetup<br /><br />Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan</div></div>
+<div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> <div class="title">2013/01/16 Web Meetup<br /><br />Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan</div></div>
 
 <br />
 
@@ -23,7 +23,7 @@ The January 2013 [GalaxyAdmins Meetup](../) was held Wednesday, January 16, 2013
   </tr>
   <tr>
     <th> Presenter </th>
-    <td> <a href='https://www.msi.umn.edu/users/chilton'>John Chilton</a>, <a href='https://www.msi.umn.edu/'>Minnesota Supercomputing Institute</a><br /><a href='/greg_vonkuster.md'>Greg Von Kuster</a>, <a href='http://psu.edu/'>Penn State University</a>  </td>
+    <td> <a href='https://www.msi.umn.edu/users/chilton'>John Chilton</a>, <a href='https://www.msi.umn.edu/'>Minnesota Supercomputing Institute</a><br /><a href='/greg_vonkuster/'>Greg Von Kuster</a>, <a href='http://psu.edu/'>Penn State University</a>  </td>
   </tr>
   <tr>
     <th> Links </th>

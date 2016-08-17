@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[19 February GalaxyAdmins Meetup](/News/201502GalaxyAdmins)</div>
 
-<div class='left'><a href='/Community/GalaxyAdmins/Meetups/2015_02_19.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup February 19' width="150" /></a></div>
+<div class='left'><a href='/Community/GalaxyAdmins/Meetups/2015_02_19/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup February 19' width="150" /></a></div>
 
 The first [GalaxyAdmins](/Community/GalaxyAdmins) [meetup of 2015](/Community/GalaxyAdmins/Meetups/2015_02_19) will happen online [on Thursday, 19 February|target="_blank"](http://bit.ly/1yZJSkN).  [GalaxyAdmins](/Community/GalaxyAdmins) is a special interest group for Galaxy community members who are responsible for Galaxy installations.
 

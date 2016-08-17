@@ -28,7 +28,7 @@ upgrade: $ hg pull
 ```
 
 
-*To receive email updates about [Galaxy Distributions and News Briefs](/DevNewsBriefs), be sure to subscribe to the [Galaxy-Announce mailing list](/MailingLists.md#the_lists), a low-volume list dedicated to [News Items](/News) and priority messages from the Galaxy [community](/Community) and [project core team](/Galaxy Project).* 
+*To receive email updates about [Galaxy Distributions and News Briefs](/DevNewsBriefs), be sure to subscribe to the [Galaxy-Announce mailing list](/MailingLists/#the_lists), a low-volume list dedicated to [News Items](/News) and priority messages from the Galaxy [community](/Community) and [project core team](/Galaxy Project).* 
 
 Thanks for using Galaxy,
 

@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[Galaxy Training in Boston](/News/Boston2013)</div>
 
-<div class='right'><a href='http://bioteam.net/slipstream/galaxy-edition/galaxy-training/'><img src='/Images/Logos/BioTeamLogo154.gif.md' alt='Analyzing NGS Data with Galaxy' width="120" /></a></div>
+<div class='right'><a href='http://bioteam.net/slipstream/galaxy-edition/galaxy-training/'><img src='/Images/Logos/BioTeamLogo154.gif/' alt='Analyzing NGS Data with Galaxy' width="120" /></a></div>
 
 **Free Training Event in Boston: *Analyzing NGS Data with Galaxy***
 

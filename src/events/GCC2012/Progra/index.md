@@ -19,8 +19,8 @@ The [2012 Galaxy Community Conference](../) included two full days of accepted t
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='/Events/GCC2012/TrainingDay.md'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' width="180" /></a> </td>
-    <td style=" border: none;"> The <a href='../.md'>2012 Galaxy Community Conference</a> was preceded by a <em><a href='/Events/GCC2012/TrainingDay.md'>Training Day</a></em>, featuring 3 parallel tracks, each featuring four, 90 minutes workshops and covering 10 different topics.  </td>
+    <td style=" border: none;"> <a href='/Events/GCC2012/TrainingDay/'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' width="180" /></a> </td>
+    <td style=" border: none;"> The <a href='..//'>2012 Galaxy Community Conference</a> was preceded by a <em><a href='/Events/GCC2012/TrainingDay/'>Training Day</a></em>, featuring 3 parallel tracks, each featuring four, 90 minutes workshops and covering 10 different topics.  </td>
   </tr>
 </table>
 

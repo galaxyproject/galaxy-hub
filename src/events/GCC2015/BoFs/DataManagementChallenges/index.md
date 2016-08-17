@@ -12,7 +12,7 @@ INCLUDE(/Events/GCC2015/Header)
  Contact:: [langhorst@neb DOT com](Brad Langhorst)
 </div>
 
-<div class='left'><a href='/Events/GCC2015/BoFs.md'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a></div>
+<div class='left'><a href='/Events/GCC2015/BoFs/'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a></div>
 
 This page describes the **Data management challenges for larger galaxy installations** [Birds of a Feather](/Events/GCC2015/BoFs) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 

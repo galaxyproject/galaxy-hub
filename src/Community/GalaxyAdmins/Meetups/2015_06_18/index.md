@@ -1,4 +1,4 @@
-<div class='center'><a href='/Community/GalaxyAdmins.md'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> 
+<div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> 
 <div class="title">2015/06/18 Web Meetup<br /><br />
 
 </div></div>
@@ -20,7 +20,7 @@ INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <strong><em>Galactic Engineering:</strong> Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester</em> <div class='indent'><a href='http://galacticengineer.blogspot.co.uk/'>Peter Briggs</a>, <a href='http://www.manchester.ac.uk/'>University of Manchester</a> </div> <em>Galaxy Project Update: Planemo</em> <div class='indent'> <a href='/JohnChilton.md'>John Chilton</a></div> <em><a href='http://gcc2015.tsl.ac.uk/'>GCC2015</a> !GalaxyAdmins Meetup</em> <div class='indent'><a href='/HansrudolfHotz.md'>Hans-Rudolf Hotz</a></div>  </td>
+    <td> <strong><em>Galactic Engineering:</strong> Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester</em> <div class='indent'><a href='http://galacticengineer.blogspot.co.uk/'>Peter Briggs</a>, <a href='http://www.manchester.ac.uk/'>University of Manchester</a> </div> <em>Galaxy Project Update: Planemo</em> <div class='indent'> <a href='/JohnChilton/'>John Chilton</a></div> <em><a href='http://gcc2015.tsl.ac.uk/'>GCC2015</a> !GalaxyAdmins Meetup</em> <div class='indent'><a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a></div>  </td>
   </tr>
   <tr>
     <th> Links </th>

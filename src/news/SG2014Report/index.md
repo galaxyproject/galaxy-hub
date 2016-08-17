@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[Swiss German Galaxy Tour 2014](/News/SG2014Report)</div>
 
-<div class='right'><a href='/Events/SG2014.md'><img src='/Images/Logos/SG2014Logo400.png' alt='Swiss-German Galaxy Tour 2014' width="180" /></a></div>
+<div class='right'><a href='/Events/SG2014/'><img src='/Images/Logos/SG2014Logo400.png' alt='Swiss-German Galaxy Tour 2014' width="180" /></a></div>
 
 
 After the big success of the [first Swiss Galaxy Workshop two years ago](/Events/Switzerland2012), we decided to [organize a similar event](/Events/SG2014) again this fall. This time, we added a [training day](/Events/Switzerland2014/trainingday) prior to the [workshop](/Events/Switzerland2014), and a [developer day](/Events/Germany2014) after the workshop. The first two days were held in Bern (Switzerland), and the third in Freiburg (Germany). Hence we called the whole event: "[Swiss German Galaxy Tour 2014](/Events/SG2014)".

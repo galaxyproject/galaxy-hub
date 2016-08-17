@@ -23,11 +23,11 @@ Registration is free, but space is limited on both days. We recommend you regist
   <tr>
     <th> October 20<sup>th</sup>, Thursday </th>
     <td rowspan=2 style=" text-align: left;"> <a href='http://www.uni-freiburg.de/universitaet-en/kontakt-und-wegweiser/lageplaene/engineering'>Technische Fakultät, Albert-Ludwigs-Universität, Freiburg, Germany</a> </td>
-    <td> <a href='/Events/Switzerland2016.md'>3rd Swiss Galaxy Workshop</a> </td>
+    <td> <a href='/Events/Switzerland2016/'>3rd Swiss Galaxy Workshop</a> </td>
   </tr>
   <tr>
     <th> October 21<sup>st</sup>, Friday </th>
-    <td> <a href='/Events/Germany2016.md'>2nd German Galaxy Developer workshop</a> </td>
+    <td> <a href='/Events/Germany2016/'>2nd German Galaxy Developer workshop</a> </td>
   </tr>
 </table>
 

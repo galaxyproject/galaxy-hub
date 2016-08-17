@@ -104,6 +104,6 @@ Available in the [GalaxEast Toolshed](http://toolshed.galaxeast.fr/).
 * [GalaxEast Server](http://www.galaxeast.fr)
 * [GalaxEast poster](ATTACHMENT_URLDocuments/Posters/2014ECCB_GalaxEast.pdf) from [ECCB'14](/Events/ECCB2014)
 * [GalaxEast Toolshed](http://toolshed.galaxeast.fr/)
-* [GalaxEast entry](/PublicGalaxyServers.md#galaxeast) in [Public Galaxy Servers list](/PublicGalaxyServers)
+* [GalaxEast entry](/PublicGalaxyServers/#galaxeast) in [Public Galaxy Servers list](/PublicGalaxyServers)
 
 CategoryDeployment

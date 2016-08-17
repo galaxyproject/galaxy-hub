@@ -41,7 +41,7 @@ The following are some steps to guide you through contributing to the Galaxy cor
   * [Best Practices](/Develop/BestPractices)
   * [Testing Galaxy](/Admin/RunningTests)
   * [Source Code Documentation](/Develop/SourceDoc)
-* Pick a [smaller issue](https://trello.com/c/eFdPIdIB) from Galaxy's [Trello board](http://bit.ly/gxytrello) and try to work on it. If you get stuck - please do not hesitate to stop by Galaxy's [/GetInvolved.md#irc_channelirc](/GetInvolved.md#irc_channelirc) channel and ask for help.
+* Pick a [smaller issue](https://trello.com/c/eFdPIdIB) from Galaxy's [Trello board](http://bit.ly/gxytrello) and try to work on it. If you get stuck - please do not hesitate to stop by Galaxy's [/GetInvolved/#irc_channelirc](/GetInvolved/#irc_channelirc) channel and ask for help.
 
 ## Contributing to the Extended Galaxy Ecosystem
 
