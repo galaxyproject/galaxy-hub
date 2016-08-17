@@ -39,14 +39,29 @@ body
                         span.icon-bar
                 div.navbar-collapse.collapse
                     ul.nav.navbar-nav
-                        each val in menu
+                        each val in menu.navbar
                             li
-                                a( href="/#{val.toLowerCase()}/" ) #{val}
+                                a( href="/#{val.link}/" ) #{val.title}
 
-    block section
-        section.section-content
-            block content
-                div.container !{ contents }
+    div.container: div.row
+        div.col-md-9
+            block section
+                section.section-content
+                    block content
+                        div !{ contents }
+
+        div.col-md-3
+            ul#sidebar.navbar.nav.navbar-default
+                each section in menu.sidenav
+                    li
+                        h4 #{section.title}
+                        ul.nav
+                            each val in section.links
+                                li
+                                    if val.link.substring(0,4) == "http"
+                                        a( href="#{val.link}" ) #{val.title}
+                                    else
+                                        a( href="/#{val.link}/" ) #{val.title}
 
     block footer
         footer: div.container: div.row: div.col-md-12

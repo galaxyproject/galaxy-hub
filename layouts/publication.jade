@@ -2,28 +2,27 @@ extends layout.jade
 
 block content
     <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-    div.container
-        if doi
-            div( data-badge-type="medium-donut" data-doi=doi data-hide-no-mentions="true" class="altmetric-embed pull-right" )
-        h1 #{title}. 
-        p
-            - helpers._.each( people.citation_names, function( name ) { authors = authors.replace( name, "<b>" + name + "</b>" ) } );
-            div !{authors}.
-            div 
-                if journal
-                    i #{journal}. 
-                if date
-                    | #{helpers.moment(date).format("MMMM YYYY")}; 
-                if volume
-                    strong #{volume}
-                if number
-                    | #{"("+number+")"}
-                if pages
-                    | :#{pages}
-            if links
-                div
-                    | Links: 
-                    each link, name in links
-                        a( href!=link )=name 
+    if doi
+        div( data-badge-type="medium-donut" data-doi=doi data-hide-no-mentions="true" class="altmetric-embed pull-right" )
+    h1 #{title}. 
+    p
+        - helpers._.each( people.citation_names, function( name ) { authors = authors.replace( name, "<b>" + name + "</b>" ) } );
+        div !{authors}.
+        div 
+            if journal
+                i #{journal}. 
+            if date
+                | #{helpers.moment(date).format("MMMM YYYY")}; 
+            if volume
+                strong #{volume}
+            if number
+                | #{"("+number+")"}
+            if pages
+                | :#{pages}
+        if links
+            div
+                | Links: 
+                each link, name in links
+                    a( href!=link )=name 
 
-        | !{contents}
+    | !{contents}

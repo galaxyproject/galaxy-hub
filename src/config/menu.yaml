@@ -1,6 +1,67 @@
-- News
-- Events
-- UsingGalaxy
-- Support
-- Administration
-- Tutorials
+# This file describes the menu layout
+---
+navbar:
+    - News:
+      title: News
+      link: News
+    - Events:
+      title: Events
+      link: Events
+    - Using Galaxy:
+      title: Using Galaxy
+      link: UsingGalaxy
+    - Support:
+      title: Support
+      link: Support
+    - Administration:
+      title: Administration
+      link: Administration
+    - Tutorials:
+      title: Support
+      link: Support
+sidenav:
+    - Use Galaxy:
+      title: Use Galaxy
+      links:
+          - Servers:
+            title: Servers
+            link: PublicGalaxyServers
+          - Learn:
+            title: Learn
+            link: Learn
+          - Main:
+            title: Main
+            link: Main
+          - Choices:
+            title: Choices
+            link: BigPicture/Choices
+    - Communicate:
+      title: Communicate
+      links:
+          - Support:
+            title: Support
+            link: Support
+          - Biostar:
+            title: Biostar
+            link: https://biostar.usegalaxy.org
+          - Events:
+            title: Events
+            link: Events
+    - Deploy:
+      title: Deploy Galaxy
+      links:
+          - BeyondThisIsIncomplete:
+            title: BeyondThisIsIncomplete
+            link: Events
+    - Contribute:
+      title: Contribute
+      links:
+          - Events:
+            title: Events
+            link: Events
+    - Galaxy Project:
+      title: Galaxy Project
+      links:
+          - Events:
+            title: Events
+            link: Events

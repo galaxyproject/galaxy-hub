@@ -3,18 +3,16 @@ extends layout.jade
 
 block content
 
-    div.container 
-        div.row !{ contents }
+    div.row !{ contents }
 
-    div.container
-        each item in news
-            p.row
-                a( href=item.link ) #{item.title} 
-                if item.tease
-                    br
-                    | !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}       
+    each item in news
+        p.row
+            a( href=item.link ) #{item.title} 
+            if item.tease
                 br
-                small 
-                    if item.author
-                        | Posted by #{item.author} on 
-                    | #{helpers.moment(item.date).format("MMMM Do YYYY")}
+                | !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}       
+            br
+            small 
+                if item.author
+                    | Posted by #{item.author} on 
+                | #{helpers.moment(item.date).format("MMMM Do YYYY")}

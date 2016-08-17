@@ -2,23 +2,22 @@ extends layout.jade
 
 block content
     <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-    div.container
-        each item in publications
-            div.post.row
-                if item.doi
-                    div( data-badge-type="donut" data-doi=item.doi data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed pull-right" )
-                if item.authors
-                    - var authors = item.authors
-                    - helpers._.each( people.citation_names, function( name ) { authors = authors.replace( name, "<b>" + name + "</b>" ) } );
-                    | !{authors}. 
-                a( href=item.link ) #{item.title}. 
-                if item.journal
-                    i #{item.journal}. 
-                    if item.date
-                        | #{helpers.moment(item.date).format("MMMM YYYY")}; 
-                    if item.volume
-                        strong #{item.volume}
-                    if item.number
-                        | #{"("+item.number+")"}
-                    if item.pages
-                        | :#{item.pages}
+    each item in publications
+        div.post.row
+            if item.doi
+                div( data-badge-type="donut" data-doi=item.doi data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed pull-right" )
+            if item.authors
+                - var authors = item.authors
+                - helpers._.each( people.citation_names, function( name ) { authors = authors.replace( name, "<b>" + name + "</b>" ) } );
+                | !{authors}. 
+            a( href=item.link ) #{item.title}. 
+            if item.journal
+                i #{item.journal}. 
+                if item.date
+                    | #{helpers.moment(item.date).format("MMMM YYYY")}; 
+                if item.volume
+                    strong #{item.volume}
+                if item.number
+                    | #{"("+item.number+")"}
+                if item.pages
+                    | :#{item.pages}
