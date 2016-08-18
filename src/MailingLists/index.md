@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 <div class="title">Galaxy Mailing Lists</div>
 INCLUDE(/Support/LinkBox)
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 Mailing lists play a vital role in the Galaxy community:
 1. They are a key part of [Galaxy's overall support efforts](/Support).

@@ -1,4 +1,6 @@
-<div class='right'>TABLE_OF_CONTENTS(2)</div>
+---
+autotoc: true
+---
 <br />
 <div class="title">December, 2014 Galaxy Tool Shed Contributions</div>
 <br />

@@ -1,8 +1,10 @@
+---
+autotoc: true
+---
 <div class="title">Notices about [/Main](/Main)</div>
  
 Dated notices about known usage issues and solutions specifically for Galaxy's [free public server](/Main). For the most current status notices as they are initially posted, please follow us at Twitter: [https://twitter.com/galaxyproject](https://twitter.com/galaxyproject) ([Galaxy on Twitter](/GalaxyOnTwitter)).
 
-TABLE_OF_CONTENTS
 
 <br />
 ## March 20th 2014 TACC Corral filesystem resolution

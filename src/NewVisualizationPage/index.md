@@ -1,5 +1,7 @@
+---
+autotoc: true
+---
 <div class="title">Visualization in Galaxy</div>
-TABLE_OF_CONTENTS
 
 ### Genome Browser (aka Trackster)
 

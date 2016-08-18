@@ -1,10 +1,12 @@
+---
+autotoc: true
+---
 <div class='center'>![](/Images/Logos/GalaxyAdmins.png)</div>
 
 <div class="title">GalaxyAdmins Future Directions</div>
 
 INCLUDE(../LinkBox)
 
-TABLE_OF_CONTENTS
 
 First, some background history, and then a list of open questions.
 

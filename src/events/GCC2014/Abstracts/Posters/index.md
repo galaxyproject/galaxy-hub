@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2014/Header)
 
 INCLUDE(/Events/GCC2014/LinkBox)
@@ -17,7 +20,6 @@ There will be two poster sessions:
 Poster dimensions are a maximum of 48" x 48" (122cm x 122cm).
 
 
-TABLE_OF_CONTENTS
 
 <br /><br />
 

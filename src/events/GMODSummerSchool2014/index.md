@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 <div class="title">GMOD Summer School 2014: Installing Galaxy</div>
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 This page was created in May, 2014 for the 'Installing Galaxy' workshop, part of the
 [GMOD Summer School Program for 2014](http://gmod.org/wiki/GMOD_Online_Training_2014) and in cooperation with

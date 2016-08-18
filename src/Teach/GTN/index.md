@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Teach/Header)
 
 <div class="title">Galaxy Training Network</div>
@@ -8,7 +11,6 @@ The *[Galaxy Training Network (GTN)](/Teach/GTN)* is a network of people and gro
 
 These pages describes the Galaxy Training Network, and everything else related to teaching Galaxy or teaching Bioinformatics with Galaxy:
 
-<div class='left'><br />TABLE_OF_CONTENTS</div>
 
 ## Training Resources Directory
 

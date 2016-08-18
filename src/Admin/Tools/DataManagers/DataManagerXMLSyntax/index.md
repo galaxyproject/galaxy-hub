@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 # Galaxy Data Manager XML File
 ----
 
@@ -12,7 +15,6 @@ Pay attention to the following when creating a new Data Manager:
 
 A Galaxy Data Manager's config file consists of a subset of the following XML tag sets - each of these is described in detail in the following sections.
 
-TABLE_OF_CONTENTS
 
 ## Details of XML tag sets
 ----

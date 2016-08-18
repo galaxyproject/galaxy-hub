@@ -1,4 +1,6 @@
-<div class='right'>TABLE_OF_CONTENTS</div>
+---
+autotoc: true
+---
 
 *Galaxy Updates* feature news of interest to the Galaxy community.  They come out approximately monthly, and complement the *[Galaxy Development News Briefs](/DevNewsBriefs)*, which accompany Galaxy releases and are aimed at those developing and deploying Galaxy.  *Galaxy Updates* are more general, and are geared towards all of the Galaxy community.
 

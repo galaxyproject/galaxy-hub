@@ -1,5 +1,7 @@
+---
+autotoc: true
+---
 <div class="title">January 20, 2012 Galaxy Development News Brief</div>
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 ## Get Galaxy
 

@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 <div class='center'>
 <a href='http://australianbioinformatics.net/gaw-2014'><img src='/Images/Logos/GAW2014-400.png' alt='Galaxy Australasia Workshop 2014 (GAW2014)'  /></a>
 
@@ -6,7 +9,6 @@
 
 <div class="title">Galaxy Australasia Workshop 2014 (GAW 2014)</div>
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 **The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](http://australianbioinformatics.net/gaw-2014) was held in Melbourne, Australia on 24 and 25th March 2014.** 
 

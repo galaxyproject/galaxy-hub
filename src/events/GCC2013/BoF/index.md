@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2013/Header)
 
 <div class="title">Birds of a Feather (BoF) Flock Together at GCC2013</div>
@@ -17,7 +20,6 @@ BoF meetups are encouraged throughout GCC2013.  We particularly want to encourag
 
 See the [list of scheduled BoFs](#bof-schedule) below.
 
-TABLE_OF_CONTENTS(2)
 
 ## Planned BoFs
 

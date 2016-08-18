@@ -1,8 +1,10 @@
+---
+autotoc: true
+---
 INCLUDE(/CloudMan/Header)
 
 <div class="title">Getting Started with Galaxy on the Cloud</div>
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 This getting started is for non-technical users who are interested in creating their own *Galaxy on the Cloud*. By following this getting started, you’ll learn fundamental process of starting your own cloud cluster with Galaxy. It takes about 10 minutes to complete.
 

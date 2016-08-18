@@ -1,7 +1,9 @@
+---
+autotoc: true
+---
 INCLUDE(/Learn/LinkBox)
 
 # Tutorial: Basic Editing
-<div class='right'>TABLE_OF_CONTENTS(3)</div>
 
 # **** IN PROGRESS DO NOT USE ****
 

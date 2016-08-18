@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 <div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
 
 INCLUDE(../../LinkBox)
@@ -8,7 +11,6 @@ The [GalaxyAdmins group (formerly GalaxyCzars)](/Community/GalaxyAdmins) was sta
 
 The original responses, minus name, institution and email are **[also available](ATTACHMENT_URLGalaxyCzarsSurveySpring2012.xls)**.
 
-TABLE_OF_CONTENTS
 
 # Big Picture
 

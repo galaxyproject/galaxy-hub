@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(../../../PageHeader)
 
 <div class="title">Galaxy End Users</div>
@@ -5,7 +8,6 @@ INCLUDE(../../../PageHeader)
 **A [GCC22012](/Events/GCC2012) [Breakout Session](/Events/GCC2012/Program/Breakouts)**
 
 INCLUDE(../../../LinkBox)
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 # Participants
 

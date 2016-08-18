@@ -1,7 +1,9 @@
+---
+autotoc: true
+---
 <div class="title">Galaxy Screencasts and Demos</div>
 
 INCLUDE(/Learn/LinkBox)
-<div class='left'>TABLE_OF_CONTENTS</div>
 
 Screencasts are one of several ways to **[learn](/Learn)** how to use Galaxy.  These video tutorials cover many aspects of Galaxy, from simple tasks like uploading data, to complex analysis.
 

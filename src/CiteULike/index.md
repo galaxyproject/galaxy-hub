@@ -1,7 +1,9 @@
+---
+autotoc: true
+---
 <div class='center'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src='/Images/Logos/CiteULikeLogo.png' alt='Galaxy at CiteULike Social Bookmarking Service' /></a>
 </div>
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 ## Galaxy and CiteULike 101
 
 The Galaxy project uses the [CiteULike](http://citeulike.org) social bookmarking service to organize papers that are about, use, or reference Galaxy.

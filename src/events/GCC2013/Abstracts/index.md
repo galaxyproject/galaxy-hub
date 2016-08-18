@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2013/Header)
 
 <br /><br />
@@ -6,7 +9,6 @@ INCLUDE(/Events/GCC2013/Header)
 
 INCLUDE(/Events/GCC2013/LinkBox)
 
-TABLE_OF_CONTENTS(1)
 
 <br /><br />
 

@@ -1,9 +1,11 @@
+---
+autotoc: true
+---
 <div class="title">April 2016 Galaxy News</div>
 
 <div class='right'>
 <table>
   <tr>
-    <td style=" border: none; width: 28em"> TABLE_OF_CONTENTS </td>
   </tr>
 </table>
 

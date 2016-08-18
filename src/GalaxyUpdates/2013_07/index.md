@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 <div class="title">July 2013 Galaxy Update</div>
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 <div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 

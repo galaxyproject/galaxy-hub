@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Admin/LinkBox)
 INCLUDE(/Admin/Config/Performance/LinkBox)
 <div class="title">Galaxy Job Configuration</div>
@@ -8,7 +11,6 @@ This document is a reference for the job configuration file.  [Detailed document
 
 **The most up-to-date details of advanced job configuration features can be found in the [sample job_conf.xml](https://bitbucket.org/galaxy/galaxy-central/src/tip/config/job_conf.xml.sample_advanced) found in the Galaxy distribution.**
 
-TABLE_OF_CONTENTS(3)
 
 # Galaxy Configuration
 

@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 <div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Main Tool Shed' height="174" /></a> </div>
 
-TABLE_OF_CONTENTS
 
 # Including installation information or 3rd-party tool dependency licensing information in your repository
 

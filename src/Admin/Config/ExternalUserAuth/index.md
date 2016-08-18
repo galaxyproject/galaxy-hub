@@ -1,4 +1,6 @@
-TABLE_OF_CONTENTS(3)
+---
+autotoc: true
+---
 
 ## External user authentication
 

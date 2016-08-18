@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Admin/Config/Performance/LinkBox)
 <div class="title">Running Galaxy in a production environment</div>
 
@@ -5,7 +8,6 @@ The [basic installation instructions](/Admin/GetGalaxy) are suitable for develop
 
 You may also want to consult the [Building Scalable Galaxy slides](ATTACHMENT_URLEvents/GDC2010/GDC2010_building_scalable.pdf) from the [2010 Galaxy Developers Conference](/Events/GDC2010) at <<nwwl(CSHL)>> (upon which this page is based).
 
-TABLE_OF_CONTENTS
 ## Why bother?
 
 By default, Galaxy:

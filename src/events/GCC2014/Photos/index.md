@@ -1,10 +1,12 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2014/Header)
 
 INCLUDE(/Events/GCC2014/LinkBox)
 
 If you have some you would like to have posted here, please send them to [outreach AT galaxyproject DOT org](Galaxy Outreach).  To see a larger version of any picture, right click it.
 
-TABLE_OF_CONTENTS
 
 
 # Hackathon

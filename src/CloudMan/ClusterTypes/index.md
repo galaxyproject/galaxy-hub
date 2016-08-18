@@ -1,7 +1,9 @@
+---
+autotoc: true
+---
 <div class='center'>![CloudMan](/Images/Logos/CloudManWideBlackLogo.png)</div>
 
 <br />
-<div class='right'>TABLE_OF_CONTENTS</div>
 A !CloudMan cluster can be used for different scenarios, including a comprehensive bioinformatics workbench for a lab, a platform for doing hands-on classroom training or for tool development and testing. In response, a number of !CloudMan cluster configuration types exist for you to choose from, depending on what you would like to use the cluster for, as captured in the following screenshots. Note that you choose the cluster type only once (in either the Cloud Launch application or !CloudMan itself) and it's done when you first create your cluster.
 
 <div class='center'>

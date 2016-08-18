@@ -1,4 +1,6 @@
-<div class='right'>TABLE_OF_CONTENTS</div>
+---
+autotoc: true
+---
 
 <div class="title">January 2013 Galaxy Update</div>
 

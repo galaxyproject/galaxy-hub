@@ -1,9 +1,11 @@
+---
+autotoc: true
+---
 <div class="title">Dave Clements</div>
 
 <div class='right'>
 <table>
   <tr>
-    <td style=" border: none; width: 20em;"> TABLE_OF_CONTENTS </td>
   </tr>
 </table>
 

@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 Galaxy is driven and supported by its user and developer communities.  This page attempts to bring together everything loosely related to community into one place.
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 # Membership
 

@@ -1,5 +1,7 @@
+---
+autotoc: true
+---
 <div class="title">[DataProviders](/DataProvider) Cookbook</div>
-<div class='left'>TABLE_OF_CONTENTS</div>
 
 This is a collection of examples outlining both using and creating [/DataProviders](/DataProviders).
 

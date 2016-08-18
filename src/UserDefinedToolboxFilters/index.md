@@ -1,4 +1,6 @@
-TABLE_OF_CONTENTS
+---
+autotoc: true
+---
 
 # User Defined Toolbox Filters
 

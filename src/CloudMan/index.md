@@ -1,8 +1,11 @@
+---
+autotoc: true
+---
 <div class='center'>![CloudMan](/Images/GalaxyLogos/cloudman-logo.jpg)</div>
 
 <br />
 
-<div class='left'>TABLE_OF_CONTENTS</div> INCLUDE(LinkBox)
+INCLUDE(LinkBox)
 
 There are several choices for using Galaxy.  This page describes using Galaxy on a *[cloud infrastructure](https://www.tcnp3.com/home/cloud-technology/what-is-cloud-computing-infographic/)* using CloudMan (see below). For other options, see [Choices](/BigPicture/Choices) and [/Cloud](/Cloud).
 

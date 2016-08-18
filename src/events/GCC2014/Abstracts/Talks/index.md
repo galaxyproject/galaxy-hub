@@ -1,10 +1,12 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2014/Header)
 
 INCLUDE(/Events/GCC2014/LinkBox)
 
 # Talk Abstracts
 
-TABLE_OF_CONTENTS
 
 ## Session 1, Tuesday, July 1, 9:15-10:30
 

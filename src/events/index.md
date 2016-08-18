@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 <div class="title">Galaxy Event Horizon</div>
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 Events with Galaxy-related content are listed here.
 

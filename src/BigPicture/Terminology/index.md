@@ -1,7 +1,9 @@
+---
+autotoc: true
+---
 <div class="title">Galaxy Terminology</div>
 INCLUDE(/Under Construction)
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 New to Galaxy?  Trying to figure out the difference between a *workflow* and a *history?*  This page attempts to be a glossary of Galaxy terminology.
 
 ### Dataset

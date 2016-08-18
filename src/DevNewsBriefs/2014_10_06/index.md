@@ -1,4 +1,6 @@
-<div class='right'>TABLE_OF_CONTENTS(2)</div>
+---
+autotoc: true
+---
 
 [All News Briefs](/DevNewsBriefs)
 <br />

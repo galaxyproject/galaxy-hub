@@ -1,7 +1,9 @@
+---
+autotoc: true
+---
 INCLUDE(/Admin/Tools/LinkBox)
 <div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Main Tool Shed' height="174" /></a> </div>
 
-TABLE_OF_CONTENTS
 
 # The Intergalactic Utilities Commission
 

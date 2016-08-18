@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Under Construction)
 INCLUDE(../LinkBox)
 
@@ -33,7 +36,6 @@ The web interface is less suitable for things like
 
 The Galaxy API addresses these and other situations by exposing Galaxy internals through an additional interface, known as an *Applications Programming Interface*, or *API*.  
 
-TABLE_OF_CONTENTS
 
 # Enabling the API
 

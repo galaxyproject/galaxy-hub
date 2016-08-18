@@ -1,10 +1,12 @@
+---
+autotoc: true
+---
 <div class='center'>![80+ Public Galaxy Servers](/PublicGalaxyServers/80PlusSlide.png)</div>
 
 
 <div class='right'>
 <table>
   <tr>
-    <td style=" border: none; width: 22em"> TABLE_OF_CONTENTS</td>
   </tr>
 </table>
 

@@ -1,10 +1,12 @@
+---
+autotoc: true
+---
 INCLUDE(/Learn/LinkBox)
 INCLUDE(/FAQs/LinkBox)
 <div class="title">[Frequently Asked Questions](/FAQs) for Using Galaxy</div>
 
 Questions that apply to using most Galaxy instances.  See [/Main/FAQ](/Main/FAQ) for questions that are specifically about using [/Main](/Main), Galaxy's free public server.  See [/Admin/FAQ](/Admin/FAQ) for questions about [administering](/Admin) Galaxy.
 
-TABLE_OF_CONTENTS
 
 ## Datasets, Histories, and Disk Usage
 What are the disk usage quotas when using Galaxy?

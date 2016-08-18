@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 <div class='center'>
 
 <a href='http://www.asms.org/conferences/annual-conference'><img src='/Images/Logos/ASMS2013.jpg' alt='61st ASMS Conference on Mass Spectrometry and Allied Topics' /></a>
@@ -7,7 +10,6 @@
 
 Galaxy is going to have a good presence (one workshop and many posters) at the [61st ASMS Conference on Mass Spectrometry and Allied Topics](http://www.asms.org/conferences/annual-conference).
 
-TABLE_OF_CONTENTS
 
 ## Workshop: The Galaxy Framework as a Solution for MS-based Informatics
 

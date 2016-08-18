@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2014/Header)
 
 <br /><br />
@@ -9,7 +12,6 @@ INCLUDE(/Events/GCC2014/Header)
 Details on conference location, lodging options and transportation.
 
 INCLUDE(/Events/GCC2014/LinkBox)
-TABLE_OF_CONTENTS
 
 <div class='right'>
 <table>

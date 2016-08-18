@@ -1,10 +1,12 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2013/Header)
 
 <div class="title">Program</div>
 
 INCLUDE(/Events/GCC2013/LinkBox)
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 The [2013 Galaxy Community Conference](../) will start with a [Training Day](../TrainingDay) on 30 June, followed by two full days of accepted talks, keynotes, [lightning talks](../Lightning), [poster sessions](/Events/GCC2013/Abstracts/#poster-abstracts), [birds-of-a-feather sessions](../BoF), and networking time.
 

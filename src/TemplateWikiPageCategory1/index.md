@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 ## Put The Page Title Here Starting At A Level Two Header
 
-<div class='right'>TABLE_OF_CONTENTS(3)</div>
 
 ## Short Label
 

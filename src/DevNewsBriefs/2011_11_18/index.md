@@ -1,5 +1,7 @@
+---
+autotoc: true
+---
 # November 18, 2011 Galaxy Development News Brief
-<div class='right'>TABLE_OF_CONTENTS(3)</div>
 
 ## Get Galaxy
 

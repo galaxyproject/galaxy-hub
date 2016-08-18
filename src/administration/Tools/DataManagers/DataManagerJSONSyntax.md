@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 
 
 # Data Manager JSON Syntax
@@ -6,7 +9,6 @@ Data Manager Tools are required to use JSON to communicate the new Tool Data Tab
 
 ----
 
-TABLE_OF_CONTENTS
 
 ----
 

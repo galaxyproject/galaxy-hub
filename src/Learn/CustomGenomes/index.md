@@ -1,7 +1,9 @@
+---
+autotoc: true
+---
 <div class="title">Custom Genomes</div>
 
 INCLUDE(/Learn/LinkBox)
-<div class='right'>TABLE_OF_CONTENTS(2)</div>
 
 # What is a "Custom Reference Genome" ?
 

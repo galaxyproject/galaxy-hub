@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2013/Header)
 
 <div class="title">Poster Abstracts</div>
@@ -6,7 +9,6 @@ INCLUDE(/Events/GCC2013/LinkBox)
 
 ## Abstracts
 
-TABLE_OF_CONTENTS
 
 **Odd numbered abstracts will be presented on Monday, 1 July from 14:55 to 16:10.
 

@@ -1,9 +1,11 @@
+---
+autotoc: true
+---
 <div class="title">It's a new year in the Galaxy!</div>
 
 <div class='right'>
 <table>
   <tr>
-    <td style=" border: none; width: 28em"> TABLE_OF_CONTENTS </td>
   </tr>
 </table>
 

@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Admin/Config/Performance/LinkBox)
 <div class="title">Running Galaxy Tools on a Cluster</div>
 Galaxy is designed to run jobs on your local system by default, but it can be configured to run jobs on a cluster.  The front-end Galaxy application runs on a single server as usual, but tools are run on cluster nodes instead.
@@ -6,7 +9,6 @@ This documentation applies to Galaxy release_2013.04.01 and newer. For older Gal
 
 A [general reference for the job configuration file](/Admin/Config/Jobs) is also available.
 
-TABLE_OF_CONTENTS(2)
 
 # Distributed Resources Managers
 

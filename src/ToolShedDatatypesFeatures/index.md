@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 <div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Main Tool Shed' height="174" /></a> </div>
 
-TABLE_OF_CONTENTS
 
 # Including custom data types that subclass from Galaxy data types in the distribution
 If your repository includes tools that require data types that are not defined in the Galaxy distribution, you can include the required data types in the repository along with your tools, or you can create a separate repository to contain them. The repository must include a file named **datatypes_conf.xml**, which is modeled after the file named **datatypes_conf.xml.sample** in the Galaxy distribution. This section describes support for including data types that subclass from data types in the Galaxy distribution. Refer to the next section for details about data types that use your own custom class modules included in your repository.

@@ -1,4 +1,6 @@
-<div class='right'>TABLE_OF_CONTENTS</div>
+---
+autotoc: true
+---
 This wiki is implemented using the [MoinMoin](http://moinmo.in/) wiki software.  MoinMoin is a mature, full-featured and widely used wiki package.  It is also by far the most popular wiki package written in Python, the Galaxy ecosystem's language of choice.
 
 A wiki is a web site that is meant to be both easy to read, and *easy to update*.  The goal of this wiki is to document all things Galaxy, and to encourage as much contribution from the Galaxy community as possible.  This wiki allows users to create logins and edit and add content.

@@ -1,8 +1,10 @@
+---
+autotoc: true
+---
 <div class="title">Troubleshooting Galaxy on Jetstream</div>
 
 INCLUDE(/Cloud/Jetstream/LinkBox)
 
-<div class='left'>TABLE_OF_CONTENTS</div>
 
 ----
 

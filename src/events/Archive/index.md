@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 <div class="title">Beyond the [Galaxy Event Horizon](/Events)</div>
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 Listing of Galaxy events from previous years. See the main [/Events](/Events) page for current and recent events.
 

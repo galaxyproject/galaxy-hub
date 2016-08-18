@@ -1,10 +1,12 @@
+---
+autotoc: true
+---
 <div class='center'>
 <a href='http://usegalaxy.org'><img src='/Images/Logos/UseGalaxy.orgLogo600.png' alt='usegalaxy.org (Main)' width="400" /></a>
  
 <div class="title">Public Galaxy Main Instance ([usegalaxy.org](https://usegalaxy.org))</div>
 </div>
 
-<div class='right'>TABLE_OF_CONTENTS</div> <div class='left'><a href='https://usegalaxy.org/'><img src='/Images/Screenshots/GalaxyMainHome.png' alt='Galaxy Main Server' width="200" /></a></div>
 
 The Galaxy **Main** instance is available as a free public service at [UseGalaxy.org](https://usegalaxy.org/). This is the Galaxy Project's production [Galaxy instance](http://usegalaxy.org/). Main is where Galaxy's data and tools are functionality integrated and ready to use. Main is useful for sharing/publishing data and methods with colleagues for routine analysis or with the larger scientific community for publications and supplemental material. **[/Test](/Test)** is also free and public, but is considered a beta site.
 

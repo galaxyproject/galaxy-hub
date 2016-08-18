@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 <div class="title">Support</div>
 ***Galaxy*** has many options for getting and giving help. 
 <br />
@@ -10,7 +13,6 @@ If you have help to offer other Galaxy users, *please dive right in* and reply t
 <br />
 Galaxy is a [community](/Community) of scientists and developers working together to make great science happen! Communication, feedback, and contributions are *important*.
 
-<div class='left'>TABLE_OF_CONTENTS(3)</div>
 <div class='right'>INCLUDE(/Support/LinkBox)</div>
 <div class='right'>
 <br />

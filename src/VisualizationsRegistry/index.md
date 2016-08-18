@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 # The Visualizations Registry
 
-</div>TABLE_OF_CONTENTS</div>
 
 The visualizations registry and plugin framework provides an easy way to create new, custom visualizations for almost
 any data.

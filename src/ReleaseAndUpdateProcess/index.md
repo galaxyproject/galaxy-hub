@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 <div class="title">Galaxy Release and Update Process</div>
 
-TABLE_OF_CONTENTS
 
 # Release Process
 

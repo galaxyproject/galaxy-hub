@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2012/PageHeader)
 
 INCLUDE(/Under Construction)
@@ -5,7 +8,6 @@ INCLUDE(/Under Construction)
 <div class="title">Program</div>
 
 INCLUDE(../LinkBox)
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 The [2012 Galaxy Community Conference](../) included two full days of accepted talks, [lightning talks](../LightningTalks), breakout sessions, and networking time.  The conference was preceded by a full day of training sessions that cover 10 topics over four 90 minute sessions.
 

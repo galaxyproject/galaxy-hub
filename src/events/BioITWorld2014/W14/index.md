@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 <div class="title">Workshop 14: Running a Local Galaxy Instance</div>
 [Adam Kraut](http://bioteam.net/company-leadership/), [Nate Coraor](/nate), [Anushka Brownley](http://bioteam.net/company-leadership/), Tristan Lubinski, [James Reaney](http://www.sgi.com/solutions/genomics)
 
@@ -6,7 +9,6 @@
 
 This page covers the follow-along steps of the workshop. Other material from the workshop may be found on  [/Events/BioITWorld2014](/Events/BioITWorld2014) or [the Bio-IT World Expo workshop details page](http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135152).
 
-TABLE_OF_CONTENTS
 
 For this workshop we will be using virtual machines on an SGI UV system at Penn State (provided by workshop sponsor SGI). You will need an SSH client (`ssh` in Terminal on OS X and Linux, or e.g. [PuTTY](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) on Windows). Login details for the virtual machines are:
 

@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Teach/Header)
 
 <div class="title">Galaxy Training: Resources</div>
@@ -6,7 +9,6 @@ INCLUDE(/Teach/LinkBox)
 
 There are many resources available that are helpful for teaching Galaxy.  This page attempts to summarize them in one location.  This page links to workshop materials for different topics.  That material can be in this wiki, inside Galaxy instances, or anywhere on the web.
 
-TABLE_OF_CONTENTS
 
 # Training Resources
 

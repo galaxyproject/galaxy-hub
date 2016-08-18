@@ -1,5 +1,7 @@
+---
+autotoc: true
+---
 <div class='right'>
-TABLE_OF_CONTENTS
 </div>
 
 ## See Also

@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 
 
-TABLE_OF_CONTENTS
 
 # Writing Data Manager Tests
 

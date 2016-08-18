@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2013/Header)
 
 <div class="title">Logistics</div>
@@ -6,7 +9,6 @@ INCLUDE(/Events/GCC2013/LinkBox)
 
 Details on conference location, lodging options, and transportation.
 
-TABLE_OF_CONTENTS
 
 # Venue
 

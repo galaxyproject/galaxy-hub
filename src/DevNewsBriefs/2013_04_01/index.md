@@ -1,4 +1,6 @@
-<div class='right'>TABLE_OF_CONTENTS(1)</div>
+---
+autotoc: true
+---
 
 ```wiki red/solid/light
 Due to a security vulnerability, administrators are strongly encouraged to upgrade to the [April 8, 2013 Security Release](/News/2013_04_08_Galaxy_Security_Release), which is was not included in the original April 1, 2013 distribution.```

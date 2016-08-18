@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2014/Header)
 <br /><br />
 
@@ -14,7 +17,6 @@ INCLUDE(/Events/GCC2014/LinkBox)
 
 This this follow-along page assumes you have already installed and started a [Training Day VM](https://wiki.galaxyproject.org/Events/GCC2014/TrainingDay/VMs) - please do this before arriving.
 
-TABLE_OF_CONTENTS
 
 **This tool assumes you are using Firefox bundled with the VM.** Galaxy is compatible with all modern versions of Firefox, Chrome, Safari, and Internet Explorer. However, for the purposes of this tutorial it will help us when assisting people encountering problems if they are only using Firefox.
 

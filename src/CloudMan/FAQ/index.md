@@ -1,7 +1,9 @@
+---
+autotoc: true
+---
 <div class="title">Frequently Asked Questions for !CloudMan</div>
 See [/Learn/FAQ](/Learn/FAQ) for questions about using any Galaxy instance and [/CloudMan](/CloudMan) page for general information about !CloudMan.  
 
-TABLE_OF_CONTENTS
 
 ----
 

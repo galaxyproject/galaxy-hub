@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2014/Header)
 
 <br /><br />
@@ -17,7 +20,6 @@ A hackathon is an intense event at which a group of developers with different ba
 Hackathons are driven by participants.  Participants propose and coalesce around a set of core goals early on the first day, and then spend the rest of their time working towards those goals.  
 
 <br /><br />
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 # Who Should Attend?
 

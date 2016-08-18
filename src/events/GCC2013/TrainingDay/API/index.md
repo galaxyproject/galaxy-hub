@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 
 
 
@@ -49,7 +52,6 @@ while building an example script.
 
 
 <br />
-</div>TABLE_OF_CONTENTS</div>
 
 
 

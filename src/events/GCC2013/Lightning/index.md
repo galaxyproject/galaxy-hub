@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2013/Header)
 
 <div class="title">Lightning Talks</div>
@@ -12,7 +15,6 @@ If you wish to give a lightning talk, please send an abstract to [gcc2013-sci AT
 
 The slides for all lightning talks will be made available on the this page, and the talks may be videotaped and posted here as well.
 
-TABLE_OF_CONTENTS
 
 ## Lightning Talks
 

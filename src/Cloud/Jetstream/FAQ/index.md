@@ -1,9 +1,11 @@
+---
+autotoc: true
+---
 <div class="title">Frequently Asked Questions for Galaxy on Jetstream</div>
 See [/Learn/FAQ](/Learn/FAQ) for questions about using any Galaxy instance.  
 
 INCLUDE(/Cloud/Jetstream/LinkBox)
 
-<div class='left'>TABLE_OF_CONTENTS</div>
 
 ----
 

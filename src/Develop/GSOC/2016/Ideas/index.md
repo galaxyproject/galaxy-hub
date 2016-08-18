@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 
 
 Target improvements for 2016 (in part lesson learned from apply and great feedback from Nicole Deflaux and colleagues at Google Genomics.
@@ -22,7 +25,6 @@ Target improvements for 2016 (in part lesson learned from apply and great feedba
 
 The page contains project ideas for potential [Google Summer of Code 2016](https://developers.google.com/open-source/soc) interns - more information on Galaxy and the GSOC 2016 can be found [here](/Develop/GSOC/2016).
 
-TABLE_OF_CONTENTS
 
 ## Your Original Proposal
 

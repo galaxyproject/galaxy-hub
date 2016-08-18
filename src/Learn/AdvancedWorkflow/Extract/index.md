@@ -1,5 +1,7 @@
+---
+autotoc: true
+---
 # Extract Workflow from a History
-<div class='right'>TABLE_OF_CONTENTS(3)</div>
 
 <br />
 [Back to Advanced Workflow](/Learn/AdvancedWorkflow)

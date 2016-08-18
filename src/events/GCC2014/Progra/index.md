@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2014/Header)
 
 <br /><br />
@@ -6,7 +9,6 @@ INCLUDE(/Events/GCC2014/Header)
 <div class="title">GCC2014 Program</div>
 
 INCLUDE(/Events/GCC2014/LinkBox)
-<div class='right'>TABLE_OF_CONTENTS<br />
 <div class='right'>**[Program (PDF)](ATTACHMENT_URLGCC2014Program.pdf)** &nbsp; </div>
 </div>
 

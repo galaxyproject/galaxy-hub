@@ -1,8 +1,10 @@
+---
+autotoc: true
+---
 INCLUDE(/Teach/Header)
 
 <div class="title">Computing Platforms for Teaching with Galaxy</div>
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 INCLUDE(/Teach/LinkBox)
 

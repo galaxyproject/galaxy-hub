@@ -1,4 +1,6 @@
-<div class='right'>TABLE_OF_CONTENTS</div>
+---
+autotoc: true
+---
 
 <div class="title">Commercial Galaxy Support</div>
 

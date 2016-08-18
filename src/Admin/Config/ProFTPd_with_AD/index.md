@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 
 <div class="title">Setting up ProFTPd for galaxy uploads in an Active Directory environment</div>
 * You want to enable FTP file uploads?
@@ -6,7 +9,6 @@
 * You want Galaxy to actually find the uploaded files?
 Yes, Yes, Yes and Of_Course?  Read on..
 
-TABLE_OF_CONTENTS
 
 ## Some background
 Galaxy grew up serving the entire internet and cannot assume a username is unique so it uses email-addresses as its user-names.

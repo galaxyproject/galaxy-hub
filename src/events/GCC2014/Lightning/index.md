@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2014/Header)
 
 <br /><br />
@@ -16,7 +19,6 @@ The slides for all lightning talks will be made available on the this page, and 
 
 # Talks
 
-TABLE_OF_CONTENTS
 
 ## Accepted Talks, Session 4, Tuesday, July 1
 

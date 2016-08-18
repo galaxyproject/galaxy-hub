@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2012/PageHeader)
 
 INCLUDE(../LinkBox)
@@ -6,7 +9,6 @@ INCLUDE(../LinkBox)
 
 Abstracts for talks that were presented at the [GCC2012 main sessions](../Program).  See [Training Day](/Events/GCC2012/TrainingDay) for training abstracts.
 
-TABLE_OF_CONTENTS
 
 <br /><br />
 # Session 1

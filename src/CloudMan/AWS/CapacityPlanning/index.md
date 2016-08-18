@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/CloudMan/Header)
 
 <table>
@@ -10,7 +13,7 @@ INCLUDE(/CloudMan/Header)
 
 This page offers advice on how much cloud infrastructure you will need to [run your Galaxy instance on Amazon Web Services (AWS)](/CloudMan/AWS).  See the [general capacity planning page](/CloudMan/CapacityPlanning) for advice that applies across different cloud infrastructures.
 
-<div class='right'>TABLE_OF_CONTENTS</div> INCLUDE(/CloudMan/AWS/LinkBox)
+INCLUDE(/CloudMan/AWS/LinkBox)
 
 
 # Amazon Web Services

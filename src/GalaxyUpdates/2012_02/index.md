@@ -1,9 +1,11 @@
+---
+autotoc: true
+---
 <div class='center'>**Looking for the [March 2012 Galaxy Update](/GalaxyUpdates/2012_03)?  Click [here](/GalaxyUpdates/2012_03).**<br />Sorry about the bad link in the email announcement!  [Dave C](/DaveClements)</div>
 
 
 <div class="title">February 2012 Galaxy Update</div>
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 <div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 

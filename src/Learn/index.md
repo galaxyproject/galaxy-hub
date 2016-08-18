@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 <div class='center'>
 <a href='http://usegalaxy.org/galaxy101'><img src='/Galaxy101Page.png' alt='Galaxy 101' height="160" /></a>&nbsp;&nbsp; <a href='Screencasts/'><img src='/ScreencastsThumb.png' alt='Screencasts' height="160" /></a>&nbsp;&nbsp; <a href='#shared-pages-histories--workflows'><img src='/SharedHistoriesThumb.png' alt='Shared Pages, Histories, & Workflows' height="160" /></a>
 </div>
@@ -5,7 +8,6 @@
 <div class="title">Learn Galaxy</div>
 
 INCLUDE(/Learn/LinkBox)
-<div class='left'>TABLE_OF_CONTENTS</div>
 
 There are many approaches to learning how to *use* Galaxy.  The most popular is probably to just dive in and use it.  Galaxy is simple enough to use that you can do many analyses just by exploring the interface.  However, you may miss much of the power this way. 
 

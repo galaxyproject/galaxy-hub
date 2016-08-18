@@ -1,4 +1,6 @@
-<div class='right'>TABLE_OF_CONTENTS(1)</div>
+---
+autotoc: true
+---
 
 <div class="title">February 8, 2013 Galaxy News Brief</div>
 

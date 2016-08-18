@@ -1,7 +1,9 @@
+---
+autotoc: true
+---
 <div class="title">Histories</div>
 
 INCLUDE(/Learn/LinkBox)
-<div class='left'>TABLE_OF_CONTENTS</div>
 
 When data is uploaded from your computer or analysis is done on existing data using Galaxy, each output from those steps
 generates a dataset. These datasets (and the output datasets from later analysis on them) are stored by Galaxy in

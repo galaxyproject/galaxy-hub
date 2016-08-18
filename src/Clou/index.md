@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 <div class="title">Galaxy on the Cloud</div>
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 Researchers' compute requirements vary widely over time and formerly required either buying and maintaining compute resources (with most of it idle, most of the time), or reserving time and a fixed amount of compute resources on institutional clusters.
 

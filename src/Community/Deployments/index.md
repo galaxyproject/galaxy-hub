@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 <div class="title">Galaxy Deployment Catalog</div>
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 <div class='left'>![Galaxy Deployment Catalog](/Images/Logos/GalaxyDeploymentCatalog200.png)</div> 
 

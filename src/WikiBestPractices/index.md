@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 <div class="title">Wiki Best Practices</div>
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 The Galaxy Wiki editorial policies and best practices are defined here. Consistent use of these policies and practices will hopefully lead to a more consistent and readable web site.
 

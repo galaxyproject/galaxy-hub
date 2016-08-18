@@ -1,7 +1,9 @@
+---
+autotoc: true
+---
 <div class="title">Galaxy on Jetstream</div>
 INCLUDE(LinkBox)
 
-<div class='right'>TABLE_OF_CONTENTS</div> 
 
 Want your own Galaxy server, for free? You can easily create Galaxy servers on the [NSF Jetstream cloud](http://jetstream-cloud.org/). Each server comes preconfigured with hundreds of tools and commonly used reference datasets. It only takes a couple of minutes to start one. Once running, you can use it or change it up any way you like.
 

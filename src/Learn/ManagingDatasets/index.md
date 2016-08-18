@@ -1,8 +1,10 @@
+---
+autotoc: true
+---
 
 <div class="title">Managing Datasets in Galaxy</div>
 
 INCLUDE(/Learn/LinkBox)
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 ***Datasets*** are the inputs and outputs of each step in an analysis project in Galaxy. Datasets are associated with at least one History, which can be labeled, manipulated, and shared with anyone, whether they have a Galaxy account or not. **Watch the *["Datasets" video](http://vimeo.com/galaxyproject/datasets1)***
 

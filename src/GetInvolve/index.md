@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 <div class="title">Get Involved!</div>
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 *Galaxy* is an open source project.  What makes an open source project work is the community that supports it.  There are numerous ways for people to *get involved* with Galaxy.
 

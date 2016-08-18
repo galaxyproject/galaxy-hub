@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2014/Header)
 
 <br /><br />
@@ -6,7 +9,6 @@ INCLUDE(/Events/GCC2014/Header)
 
 INCLUDE(/Events/GCC2014/LinkBox)
 
-TABLE_OF_CONTENTS(1)
 <br /><br />
 
 See the [GCC2014 Program](/Events/GCC2014/Program) for the complete schedule.

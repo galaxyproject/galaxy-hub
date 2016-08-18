@@ -1,10 +1,12 @@
+---
+autotoc: true
+---
 INCLUDE(/Admin/LinkBox) 
 INCLUDE(/FAQs/LinkBox)
 
 <div class="title">Frequently Asked Questions for Galaxy Administration</div>
 See [/Learn/FAQ](/Learn/FAQ) for questions about using any Galaxy instance, and [/Main/FAQ](/Main/FAQ) for questions specifically about using Galaxy's free public server [/Main](/Main).
 
-TABLE_OF_CONTENTS
 
 ----
 

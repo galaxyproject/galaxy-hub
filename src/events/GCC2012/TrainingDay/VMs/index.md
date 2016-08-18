@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 <div class='right'><a href='..//'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' /></a></div>
 
 If you are planning on attending any of these [GCC2012](/Events/GCC2012) [Training Day](/Events/GCC2012/TrainingDay) workshops, then you will need shell admin access to a system with Galaxy and/or a Galaxy Tool Shed already installed and running.
@@ -6,7 +9,6 @@ If you are planning on attending any of these [GCC2012](/Events/GCC2012) [Traini
 * [WS6: Galaxy API](..//#ws6)
 * [WS7: Galaxy Tool Shed](..//#ws7)
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 If you are attending this workshop
 

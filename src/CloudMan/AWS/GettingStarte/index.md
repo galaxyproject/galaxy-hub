@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/CloudMan/Header)
 
 ## This is an old and currently outdated guide only kept for historical reasons. Do not use the instructions on this page. Use the new getting started guide available here: https://wiki.galaxyproject.org/CloudMan/GettingStarted
@@ -9,7 +12,6 @@ INCLUDE(/CloudMan/AWS/LinkBox)
 
 This page provides a step-by-step instructions on how to start your own instance of Galaxy on [Amazon Web Services (AWS)](http://aws.amazon.com/) [Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2/). More general information and instructions about Galaxy CloudMan can be found [here](/CloudMan). 
 
-TABLE_OF_CONTENTS
 
 ## Screencast
 [Here's a screencast](http://screencast.g2.bx.psu.edu/cloud/) that walks through the process of setting up your own Galaxy cloud cluster. Note, the screencast skips one step, detailed setting up of the Inbound TCP rules. See "Inbound Rules" below.

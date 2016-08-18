@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 <div class="title">Support</div>
 <br />
 **What's New?** Watch **[GXYcast1](https://vimeo.com/120839821)**
@@ -18,7 +21,6 @@
 * [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks)
 * [Known Issues](https://github.com/jennaj/support-known-issues/wiki)
 
-<div class='left'>TABLE_OF_CONTENTS(3)</div>
 <div class='right'>INCLUDE(/Support/LinkBox)</div>
 <div class='right'>
 <br />

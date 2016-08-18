@@ -1,10 +1,12 @@
+---
+autotoc: true
+---
 ****WARNING**: this template may have WEIRD content**
 
 <div class='center'>![template](/Images/Icons/UnderConstruction.gif)</div>
 
 # Month DD, 20YY Galaxy Development News Brief
 
-<div class='right'>TABLE_OF_CONTENTS(3)</div>
 
 ## Get Galaxy
 

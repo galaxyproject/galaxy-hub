@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Teach/Header)
 
 <div class="title">Teaching with Galaxy: Best Practices</div>
@@ -7,7 +10,6 @@ INCLUDE(/Teach/LinkBox)
 This page will distill some best practices for teaching with Galaxy, in both workshop and classroom situations.
 
 
-TABLE_OF_CONTENTS
 
 ## Use the Best Compute Platform
 

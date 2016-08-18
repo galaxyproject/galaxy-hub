@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Teach/Header)
 
 <div class="title">Teaching with Galaxy: Materials</div>
@@ -6,7 +9,6 @@ INCLUDE(/Teach/LinkBox)
 
 This page links to workshop materials for different topics.  That material can be in this wiki, inside Galaxy instances, or anywhere on the web.
 
-TABLE_OF_CONTENTS
 
 However, right now it's empty.  Until we get something more here, see
 

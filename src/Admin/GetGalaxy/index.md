@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 # Galaxy Download and Installation
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 In addition to using the [public Galaxy server](http://usegalaxy.org/) (a.k.a. [/Main](/Main)), you can install your own instance of Galaxy (what this page is about), or create a [cloud-based instance of Galaxy](/Cloud).  Another option is to use one of the ever-increasing number of [public Galaxies](/PublicGalaxyServers) hosted by other organizations.
 

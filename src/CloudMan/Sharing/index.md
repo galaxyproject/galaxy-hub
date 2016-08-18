@@ -1,7 +1,9 @@
+---
+autotoc: true
+---
 INCLUDE(/CloudMan/Header)
 
 # Sharing CloudMan clusters
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 You can customize any cluster you launch with your own datasets, configurations, Galaxy tools, or genomic reference data. After you complete your changes, you can keep it private, you can share with a specified list of AWS cloud accounts, or make it public so the community can use it. Once shared, users whom you have granted the permissions can create clones of your cluster. A cluster derived from a shared cluster lives under the cloud account of the user that created the clone and is managed by that user. Your original cluster remains entirely under your control.
 

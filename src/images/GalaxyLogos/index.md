@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 INCLUDE(/Images/LinkBox)
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 <div class="title">Galaxy Project Logos</div>
 

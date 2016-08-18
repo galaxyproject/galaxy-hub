@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Admin/Tools/LinkBox)
 ## Galaxy Tool XML File
 
@@ -14,7 +17,6 @@ Pay attention to the following when creating a new tool:
 
 A Galaxy tool's config file consists of a subset of the following XML tag sets - each of these is described in detail in the following sections.
 
-TABLE_OF_CONTENTS(3)
 
 ## Details of XML tag sets
 ----

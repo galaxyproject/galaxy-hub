@@ -1,5 +1,7 @@
+---
+autotoc: true
+---
 # Basic Workflow Editing
-<div class='right'>TABLE_OF_CONTENTS(3)</div>
 
 <br />
 [Back to Advanced Workflow](/Learn/AdvancedWorkflow)

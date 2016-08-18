@@ -1,10 +1,12 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2013/Header)
 
 INCLUDE(/Events/GCC2013/LinkBox)
 
 # Talk Abstracts
 
-TABLE_OF_CONTENTS
 
 ## 1 July: Session 1: Reproducible science 
 

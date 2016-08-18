@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 INCLUDE(/Teach/Header)
 
 <div class="title">Galaxy Trainer Directory</div>
@@ -11,7 +14,6 @@ The *Galaxy Trainer Directory* is a service of the [Galaxy Training Network](/Te
 If you offer Galaxy Training and want to be listed in this directory then see the **[Add a Trainer](#add-a-trainer)** section below.
 <br /><br />
 
-TABLE_OF_CONTENTS
 
 # Trainers
 

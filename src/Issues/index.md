@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 <div class="title"> Galaxy Issue Reporting and Feature Requests</div>
 INCLUDE(/Support/LinkBox)
 INCLUDE(/Develop/LinkBox)
@@ -5,7 +8,6 @@ INCLUDE(/Develop/LinkBox)
 <table>
   <tr>
     <td style=" border: none; width: 60%;"> <div class='center'><a href='http://bit.ly/gxytrello'><img src='/Images/Logos/TrelloLogo300.png' alt='Galaxy Issue Board @ Trello' width="200" /></a></div><br /><br /> The Galaxy Project uses <a href='http://bit.ly/gxytrello'>Trello</a> for issue tracking and for gathering awesome ideas including feature requests from community and future development visions.  The <a href='http://bit.ly/gxytrello'>Galaxy Trello Board</a> supports <a href='http://galaxyproject.org/trello'>card creation</a>, <a href='#add-a-comment'>commenting</a>, and <a href='#vote'>voting</a> on cards. All votes affect prioritization of cards: <em>the more votes the card gets the more probable for it to be implemented</em>. </td>
-    <td style=" border: none"> TABLE_OF_CONTENTS </td>
   </tr>
 </table>
 

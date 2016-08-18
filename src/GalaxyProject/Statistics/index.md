@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 This page contains statistics about the [Galaxy Project](/GalaxyProject).  This page is updated every January and July, or whenever the project has a grant due, or whenever an advisory board meeting is set to occur.
 
-TABLE_OF_CONTENTS
 
 # Community Support Channels
 

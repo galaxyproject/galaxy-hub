@@ -1,4 +1,6 @@
-<div class='right'>TABLE_OF_CONTENTS</div> 
+---
+autotoc: true
+---
 
 The Galaxy application is the flagship service within !CloudMan. Usage and general configuration information for the Galaxy application is available throughout this wiki. This page focuses on service features available within !CloudMan as they affect the Galaxy application.
 

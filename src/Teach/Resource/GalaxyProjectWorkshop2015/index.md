@@ -1,6 +1,8 @@
+---
+autotoc: true
+---
 <div class="title"> Galaxy Project Workshop 2015 </div>
 
-<div class='right'>TABLE_OF_CONTENTS(2)</div>
 # The Galaxy Ecosystem
 
 **[http://galaxyproject.org](http://galaxyproject.org)**

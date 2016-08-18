@@ -1,5 +1,7 @@
+---
+autotoc: true
+---
 <br />
-</div>TABLE_OF_CONTENTS</div>
 
 
 ## Configuration

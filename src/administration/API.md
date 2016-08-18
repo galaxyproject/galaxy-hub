@@ -1,10 +1,12 @@
+---
+autotoc: true
+---
 INCLUDE(../LinkBox)
 
 INCLUDE(/Under Construction)
 
 Galaxy has an [Applications Programming Interface (API)](/Learn/API) that enables access to Galaxy from scripts.  This page describes the [administrative](/Admin) aspects of the API.  See [/Learn/API](/Learn/API) for information on using the [Galaxy API](/Learn/API).
 
-TABLE_OF_CONTENTS
 
 # Scripts
 

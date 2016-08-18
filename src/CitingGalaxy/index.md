@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 <div class='center'><a href='http://genomebiology.com/2010/11/8/R86'><img src='/GenomeBiologyColver20108.gif/' alt='Genome Biology' height="125" /></a> 
 <a href='http://onlinelibrary.wiley.com/doi/10.1002/0471142727.mb1910s89/abstract'><img src='/CurrentProtocolsInMolBioCover.gif/' alt='Current Protocols in Molecular Biology' height="125" /></a> 
 <a href='http://genome.cshlp.org/content/15/10/1451.long'><img src='/GenomeResearchCover200510.gif/' alt='Genome Research' height="125" /></a>
@@ -12,7 +15,6 @@
 
 <div class="title">Citing Galaxy</div>
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 Please cite Galaxy in any research that uses or extends Galaxy.  Please cite the [primary publication](#primary-publication) for project wide citations.  There are also several [publications on more specific topics](#citing-specific-galaxy-components--features) that should be referenced when appropriate.  Finally, there is a [list of Galaxy Project publications by year](#galaxy-project-publications-by-year).
 

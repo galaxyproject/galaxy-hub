@@ -1,8 +1,10 @@
+---
+autotoc: true
+---
 <span style="font-size: larger;"> Hey!  This page is under construction! </span>
 
 <div class="title">Virtual Appliances</div>
 
-<div class='right'>TABLE_OF_CONTENTS</div>
 
 One of the [many ways that Galaxy is available](/BigPicture/Choices) is in *virtual appliances* that already have Galaxy installed and configured on them - these may take the form of *cloud images*, more traditional *virtual machine images*, or *docker containers*.  Running a pre-configured Galaxy virtual appliance saves on installation and configuration work, and enables you to get up and running with Galaxy very quickly.
 

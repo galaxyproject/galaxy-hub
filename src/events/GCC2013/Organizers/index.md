@@ -1,10 +1,12 @@
+---
+autotoc: true
+---
 INCLUDE(/Events/GCC2013/Header)
 
 <div class="title">Organizers</div>
 
 INCLUDE(/Events/GCC2013/LinkBox)
 
-TABLE_OF_CONTENTS
 
 ## Organizing Committee
 

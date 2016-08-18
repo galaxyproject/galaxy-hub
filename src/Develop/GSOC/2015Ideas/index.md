@@ -1,3 +1,6 @@
+---
+autotoc: true
+---
 
 
 
@@ -9,7 +12,6 @@ Data intensive biology for everyone! Galaxy is an open source, web-based platfor
 
 The page contains project ideas for potential [Google Summer of Code 2015](https://developers.google.com/open-source/soc) interns - more information on Galaxy and the GSOC 2015 can be found [here](/Develop/GSOC/2015).
 
-TABLE_OF_CONTENTS
 
 ## Your Original Proposal
 
