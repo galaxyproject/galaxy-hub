@@ -1,5 +1,13 @@
 doctype html
 
+mixin renderToc(items)
+    ul.toc
+        each toc_item in items
+            li
+                a( href="##{toc_item.id}" ) #{toc_item.text}
+                if toc_item.children.length > 0
+                    +renderToc(toc_item.children)
+
 head( lang="en" )
     block title
         title=title
@@ -60,9 +68,10 @@ body
                     block content
                         div !{ contents }
 
-        div.col-md-3
-            ul#sidebar.navbar.nav.navbar-default
-                li Page Level TOC HERE
+        if toc
+            div.col-md-3
+                div#sidebar.navbar.nav.navbar-default
+                    +renderToc(toc)
 
     block footer
         footer: div.container: div.row: div.col-md-12

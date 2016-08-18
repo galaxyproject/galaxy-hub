@@ -17,6 +17,7 @@
     "marked": "^0.3.3",
     "metalsmith": "^1.5.0",
     "metalsmith-alias": "0.0.2",
+    "metalsmith-autotoc": "^0.1.2",
     "metalsmith-broken-link-checker": "^0.1.10",
     "metalsmith-collections": "^0.7.0",
     "metalsmith-filepath": "^1.0.1",

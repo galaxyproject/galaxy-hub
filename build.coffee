@@ -1,8 +1,6 @@
 # Build with Metalsmith
 metalsmith = require('metalsmith')
 
-
-
 # Plugin for Bower support
 bower = (files, metalsmith, done) ->
     bower_files = require( 'bower-files' )()
@@ -47,6 +45,8 @@ ms = metalsmith(__dirname)
     .use link_to_orig_path
     .use require('metalsmith-markdown')
         gfm: true
+    .use require('metalsmith-autotoc')
+        selector: "h2, h3, h4"
     .use require('metalsmith-path')()
     .use require('metalsmith-alias')()
     .use require('metalsmith-filepath')
@@ -83,7 +83,6 @@ if argv['check']
     ms.use require('metalsmith-broken-link-checker')
         allowRedirects: true
         warn: true
-
 
 ms.build (e) ->
     if e
