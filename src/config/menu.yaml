@@ -49,6 +49,21 @@
 - Contribute:
   title: Contribute
   links:
-      - Contribute:
-        title: Contribute
-        link: Contribute
+      - Develop:
+        title: Develop
+        link: Develop
+      - Tools:
+        title: Tools
+        link: Tools
+      - Issues & Requests:
+        title: Issues & Requests
+        link: Issues
+      - Logs:
+        title: Logs
+        link: Community/Logs
+      - Deployments:
+        title: Deployments
+        link: Community/Deployments
+      - Teach:
+        title: Teach
+        link: Teach
