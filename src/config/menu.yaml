@@ -43,9 +43,21 @@
 - Deploy:
   title: Deploy Galaxy
   links:
-      - Administration:
+      - Get Galaxy:
+        title: Get Galaxy
+        link: Admin/GetGalaxy
+      - Cloud:
+        title: Cloud
+        link: Cloud
+      - Admin:
         title: Admin
         link: Admin
+      - Tool Config:
+        title: Tool Config
+        link: Admin/Tools/ToolConfigSyntax
+      - Tool Shed:
+        title: Tool Shed
+        link: ToolShed
 - Contribute:
   title: Contribute
   links:
