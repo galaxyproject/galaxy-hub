@@ -1,9 +1,10 @@
 ---
 autotoc: true
 ---
-INCLUDE(/CloudMan/Header)
+PLACEHOLDER_INCLUDE(/CloudMan/Header)
 
 # Sharing CloudMan clusters
+<div class='right'></div>
 
 You can customize any cluster you launch with your own datasets, configurations, Galaxy tools, or genomic reference data. After you complete your changes, you can keep it private, you can share with a specified list of AWS cloud accounts, or make it public so the community can use it. Once shared, users whom you have granted the permissions can create clones of your cluster. A cluster derived from a shared cluster lives under the cloud account of the user that created the clone and is managed by that user. Your original cluster remains entirely under your control.
 
@@ -67,7 +68,37 @@ Below is a list of !CloudMan clusters that have been shared publicly. Feel free 
     <td> Contact info (URL, email)</td>
   </tr>
   <tr>
-    <td style=" width: 65%"> cm-[hash]</td>
+    <td style=" width: 65%;"> cm-d276b27d9c82cfd56c5bf3cdead0fa0b/shared/2016-06-23--00-36/</td>
+    <td> nturaga@gmail.com </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> <rowstyle="background-color: #EEE; font-weight: bold;" style="text-align: left;">Description</td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td style=" text-align: left;"> A 16.05 Galaxy !CloudMan instances created as a demo for GCC2016. Sample data and sample workflow have been uploaded and published. </td>
+  </tr>
+  <tr>
+    <td colspan=3 style=" background-color: #eef;"> </td>
+  </tr>
+  <tr>
+    <td style=" width: 65%;"> cm-f166fb7533ab13b2df095e86d20c7ba1/shared/2016-07-07--19-03/</td>
+    <td> jen@galaxyproject.org </td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td> <rowstyle="background-color: #EEE; font-weight: bold;" style="text-align: left;">Description</td>
+  </tr>
+  <tr>
+    <td> </td>
+    <td style=" text-align: left;"> This is a share of the GCC2016 Data Hack cluster (https://gcc16.sched.org/event/5YRH/data-hackathon), from after the conference. </td>
+  </tr>
+  <tr>
+    <td colspan=3 style=" background-color: #eef;"> </td>
+  </tr>
+  <tr>
+    <td style=" width: 65%;"> cm-[hash]</td>
     <td> sample@email.edu </td>
   </tr>
   <tr>
@@ -79,7 +110,7 @@ Below is a list of !CloudMan clusters that have been shared publicly. Feel free 
     <td style=" text-align: left;"> Brief share description; usage instructions.</td>
   </tr>
   <tr>
-    <td colspan=3 style=" background-color: #eef"> </td>
+    <td colspan=3 style=" background-color: #eef;"> </td>
   </tr>
 </table>
 

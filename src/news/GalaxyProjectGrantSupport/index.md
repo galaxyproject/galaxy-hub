@@ -21,6 +21,6 @@ Many thanks,
 
 [James Taylor](/JamesTaylor) and [Anton Nekrutenko](/anton), on behalf of the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2015-01-07T23:22:40Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-01-07T23:22:40Z)</div>
 
 CategoryNews

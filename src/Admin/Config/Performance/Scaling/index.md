@@ -1,8 +1,10 @@
 ---
 autotoc: true
+pagetitle: Scaling and Load Balancing
 ---
-<div class="title">Scaling and Load Balancing</div>
-INCLUDE(/Admin/Config/Performance/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
+<div class='left'></div>
 The Galaxy framework is written in Python and makes extensive use of threads.  However, one of the drawbacks of Python is the [Global Interpreter Lock](http://docs.python.org/c-api/init.html#thread-state-and-the-global-interpreter-lock), which prevents more than one thread from being on CPU at a time.  Because of this, having a multi-core system will not improve the Galaxy framework's performance out of the box since Galaxy can use (at most) one core at a time.  However, Galaxy can easily run in multiple separate processes, which solves this problem.  For a more thorough explanation of this problem and why you will almost surely want to switch to the load balanced configuration if running for more than a small handful of users, see the [/Admin/Config/Performance/ProductionServer](/Admin/Config/Performance/ProductionServer) page.
 
 Just to be clear: increasing the values of `threadpool_workers` in `galaxy.ini` or the number of plugin workers in `job_conf.xml` will not make you Galaxy server much more responsive.  The key to scaling Galaxy is the ability to run *multiple* Galaxy servers which co-operatively work on the same database.
@@ -217,7 +219,7 @@ galaxy:handler1: started
 
 If using only one web process, you can proxy as per the normal instructions for a [/Admin/Config/Performance/ProductionServer](/Admin/Config/Performance/ProductionServer).  Otherwise, you'll need to set up load balancing.
 
-If you have specified a separate job runner and you want to use the "Manage jobs" interface as administrator you also have to define a proxy for the job runner as shown [below](/Admin/Config/Performance/Scaling/#manage-jobs).
+If you have specified a separate job runner and you want to use the "Manage jobs" interface as administrator you also have to define a proxy for the job runner as shown [below](/Admin/Config/Performance/Scaling#manage-jobs).
 
 ### Apache
 

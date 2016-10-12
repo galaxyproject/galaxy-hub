@@ -1,13 +1,15 @@
 ---
 autotoc: true
+pagetitle: Teaching with Galaxy, :,  Best Practices
 ---
-INCLUDE(/Teach/Header)
+PLACEHOLDER_INCLUDE(/Teach/Header)
 
-<div class="title">Teaching with Galaxy: Best Practices</div>
 
-INCLUDE(/Teach/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Teach/LinkBox)
 
 This page will distill some best practices for teaching with Galaxy, in both workshop and classroom situations.
+
 
 
 

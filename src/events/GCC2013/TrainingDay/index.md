@@ -1,8 +1,11 @@
-INCLUDE(/Events/GCC2013/Header)
+---
+pagetitle: GCC2013 Training Day
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 
-<div class="title">GCC2013 Training Day</div>
 
-INCLUDE(/Events/GCC2013/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
 
 <div class='left'>![Training Day](/Images/Logos/GCC2013TrainingDayLogo300.png)</div>
 

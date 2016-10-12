@@ -1,6 +1,9 @@
-INCLUDE(/Events/GCC2014/Header)
+---
+pagetitle: Using Galaxy, ', s Web Interface
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
-<div class="title">Using Galaxy's Web Interface</div>
+
 
 
 <div class='dictbox'>
@@ -12,9 +15,9 @@ INCLUDE(/Events/GCC2014/Header)
  Contact:: [Jennifer Hillman-Jackson](/JenniferJackson) & Karen Reddy
 </div>
 
-INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
-<div class='left'><a href='/Events/GCC2014/BoFs/'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="120" /></a></div>
+<div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="120" /></a></div>
 
 This page describes the **Using Galaxy's Web Interface** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/Events/GCC2014).
 

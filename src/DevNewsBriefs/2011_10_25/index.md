@@ -3,6 +3,7 @@ autotoc: true
 ---
 # October 25, 2011 Galaxy Development News Brief
 
+<div class='right'></div>
 
 ## Get Galaxy
 
@@ -16,7 +17,7 @@ autotoc: true
 
 ## News
 
-<div class='left'><a href='/GalaxyIsHiring/'><img src='/Images/Icons/PointingFinger.png' alt='pointing-finger' width="30px" /></a></div>
+<div class='left'><a href='/GalaxyIsHiring'><img src='/Images/Icons/PointingFinger.png' alt='pointing-finger' width="30px" /></a></div>
 * Keep current on all things Galaxy at our [/News](/News) and [/Events](/Events) wikis.
 * Galaxy is still [hiring](/GalaxyIsHiring)!
 
@@ -30,9 +31,9 @@ autotoc: true
   * [Disk Quotas](/Admin/Disk Quotas) wiki has administrative information on how Galaxy's disk space accounting works, how to keep it up to date, and how to enable and manage quotas
   * Twitter [#galaxyproject](http://twitter.com/#galaxyproject).
   * [Galaxy News](/News) Items and RSS feed.
-----
+---
 <a href='http://galaxyproject.org/wiki/News'><img src='/Images/NewsGraphics/2011_10_25_newsitem-quotas.png' alt='width="600px"' /></a>
-----
+---
 
 
 ### User Interface (UI)
@@ -59,9 +60,9 @@ autotoc: true
 
 ### Galaxy Tool Shed
 <div class='left'><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='toolshed' width="100px" /></a></div>
-* [Search repositories for valid tools by any combination of id, name or version](/Tool Shed/#search_repositories_for_valid_tools_by_any_combination_of_id2c_name_or_version).
-* [Automatic installation of Galaxy tool shed repository tools into a local Galaxy instance](/Tool Shed/#automatic_installation_of_galaxy_tool_shed_repository_tools_into_a_local_galaxy_instance).
-* [Getting updates for tool shed repositories installed in a local Galaxy instance](/Tool Shed/#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance).
+* [Search repositories for valid tools by any combination of id, name or version](/Tool Shed#search_repositories_for_valid_tools_by_any_combination_of_id2c_name_or_version).
+* [Automatic installation of Galaxy tool shed repository tools into a local Galaxy instance](/Tool Shed#automatic_installation_of_galaxy_tool_shed_repository_tools_into_a_local_galaxy_instance).
+* [Getting updates for tool shed repositories installed in a local Galaxy instance](/Tool Shed#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance).
 * Fixes for displaying file names that include spaces when browsing repository contents.
 
 ## Updated & Improved
@@ -78,7 +79,7 @@ autotoc: true
 * Update the *Text Manipulation -> Select random lines from a file* tool:
   * does two passes through input file: first pass determines line offsets/count, offsets are randomly removed, second pass writes out lines by seeking to remaining offsets. 
   * the random seed can now be optionally specified. 
-* New assertion-based tests for tool test outputs from John Chilton.  For usage, see the example in the [Tool Config Syntax](/Admin/Tools/ToolConfigSyntax/#a3ctest3e_tag_set) documentation.
+* New assertion-based tests for tool test outputs from John Chilton.  For usage, see the example in the [Tool Config Syntax](/Admin/Tools/ToolConfigSyntax#a3ctest3e_tag_set) documentation.
 
 ### Quotas and Data Management
 
@@ -115,7 +116,7 @@ autotoc: true
 * "Galaxy ls" from `Simon McGowan` added to the `galaxy-dist/contrib/` directory allows users at sites where Galaxy users match system users to get a list of filesystem paths to their Galaxy data (see the in-file Perl documentation for usage)
 
 ### Bug Fixes
-<div class='right'><a href='/Support/'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
+<div class='right'><a href='/Support'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
 
 * Tasked jobs will now inherit the parent job's user information correctly.
 * Remove unspecified build validators from Cuffdiff wrapperfixes [https://bitbucket.org/galaxy/galaxy-central/issue/631](https://bitbucket.org/galaxy/galaxy-central/issue/631).
@@ -128,7 +129,7 @@ autotoc: true
 * The DRMAA job runner incorrectly included '#-S /bin/bash' in the job template.  This is SGE-specific and should be placed in ~/.sge_request if needed at your site.
 
 
-----
+---
 
 ## About Galaxy
 [GalaxyProject.org](http://galaxyproject.org)
@@ -138,4 +139,4 @@ The [GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/) is
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
 Join us at Twitter [#galaxyproject](http://twitter.com/#galaxyproject)!
-----
+---

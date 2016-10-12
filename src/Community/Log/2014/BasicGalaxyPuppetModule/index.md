@@ -1,4 +1,7 @@
-<div class="title">2014/03: Basic Galaxy Puppet Module</div>
+---
+pagetitle: 2014, /, 03, :,  Basic Galaxy Puppet Module
+---
+
 
 <div class='logbox'>
  Topic:: **[Basic Galaxy Puppet Module](/Community/Log/2014/BasicGalaxyPuppetModule)

@@ -2,4 +2,4 @@ Pages that describe a [Galaxy deployment](/Community/Deployments).
 
 **List of pages in this category:**
 
-<<FullSearchCached(CategoryDeployment)>>
+PLACEHOLDER_FULL_SEARCH_CACHE(CategoryDeployment)

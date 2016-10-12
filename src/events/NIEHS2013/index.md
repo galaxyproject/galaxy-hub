@@ -1,12 +1,12 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle"> <a href='http://niehs.nih.gov/'><img src='/Images/Logos/NIEHSLogoWideTrans.png' alt='NIEHS' width="400px" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://niehs.nih.gov/'><img src='/Images/Logos/NIEHSLogoWideTrans.png' alt='NIEHS' width="400px" /></a> </td>
   </tr>
 </table>
 
 
-<div class="title">Galaxy<br />July 18, 2013</div>
+<div class='title'>Galaxy<br />July 18, 2013</div>
 
 **Instructor: [Dave Clements](/DaveClements)
 
@@ -93,7 +93,7 @@ No programming or Linux command line experience is required.
 
 ## Support
 
-<div class='left'><a href='/Events/RTWorkshopTour2013/'><img src='/Images/Logos/RTGalaxyWorkshopTour2013-300.png' alt='2013 Research Triangle Galaxy Workshop Tour' width="170px" /></a></div>
+<div class='left'><a href='/Events/RTWorkshopTour2013'><img src='/Images/Logos/RTGalaxyWorkshopTour2013-300.png' alt='2013 Research Triangle Galaxy Workshop Tour' width="170px" /></a></div>
 
 <div class='right'><a href='http://niehs.nih.gov/'><img src='/Images/Logos/NIEHSLogoWideTrans.png' alt='NIEHS' width="240px" /></a><br /><br />
 <div class='right'><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a></div>

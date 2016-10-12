@@ -1,8 +1,11 @@
+---
+pagetitle: GalaxyAtUIowa
+---
 <div class='center'>
 <a href='http://medicine.uiowa.edu/humangenetics/'><img src='/Images/Logos/UIowaLogo.jpg' alt='GalaxyAtUIowa' width=200 /></a>
 </div>
 
-<div class="title">GalaxyAtUIowa</div>
+
 
 <div class='deploymentbox'>
 

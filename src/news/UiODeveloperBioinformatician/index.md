@@ -12,6 +12,6 @@ The position includes the development and management of services aimed at life s
 <div class='center'><a href='http://uio.easycruit.com/vacancy/1347839/69316?iso=no'><img src='/Images/Logos/UiOLogo.png' alt='Opening for a developer / bioinformatician' width="300" /></a></div>
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2015-03-02T08:56:34Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-03-02T08:56:34Z)</div>
 
 CategoryNews

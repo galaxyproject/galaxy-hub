@@ -1,3 +1,6 @@
+---
+pagetitle: Galaxy , @,  Caltech, :,  March 5, ,,  2013
+---
 <div class='center'>
 
 <table>
@@ -6,7 +9,7 @@
   </tr>
 </table>
 
-<div class="title">Galaxy @ Caltech: March 5, 2013</div>
+
 </div>
 
 **Galaxy** is an open, web-based platform for *accessible, reproducible*, and *transparent* computational biomedical research.
@@ -92,7 +95,7 @@ This informal discussion will introduce Galaxy for developers.  We will discuss 
 </div>
 
 ## Links
-<div class='right'><a href='/attachment:CaltechGalaxyDay.pdf/'><img src='/CaltechGalaxyDayThumb.png' alt='Download flier' /></a></div>
+<div class='right'><a href='/attachment:CaltechGalaxyDay.pdf'><img src='/CaltechGalaxyDayThumb.png' alt='Download flier' /></a></div>
 
 * Please help get the word out by distributing [this flyer](ATTACHMENT_URLCaltechGalaxyDay.pdf) in your department.
 

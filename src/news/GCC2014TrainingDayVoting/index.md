@@ -1,16 +1,16 @@
 <div class='newsItemHeader'>[GCC2014 Training Day Topics: Vote!](/News/GCC2014TrainingDayVoting)</div>
 
-<div class='right'><a href='/Events/GCC2014/TrainingDay/'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014 Training Day' width="150" /></a></div>
+<div class='right'><a href='/Events/GCC2014/TrainingDay'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014 Training Day' width="150" /></a></div>
 
 What topics should be offered at the [GCC2014 Training Day](/Events/GCC2014/TrainingDay)?
 
-[Topics](/Events/GCC2014/TrainingDay) for the [GCC2014 Training Day](/Events/GCC2014/TrainingDay) are selected by you, the Galaxy Community.  For GCC2014 there are [19 nominated topics](/Events/GCC2014/TrainingDay/#nominated-topics) to pick from.  Your votes will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters. 
+[Topics](/Events/GCC2014/TrainingDay) for the [GCC2014 Training Day](/Events/GCC2014/TrainingDay) are selected by you, the Galaxy Community.  For GCC2014 there are [19 nominated topics](/Events/GCC2014/TrainingDay#nominated-topics) to pick from.  Your votes will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters. 
 
 **Topic voting closes January 17.** The Training Day schedule, including instructors, will be published before early registration opens on February 10.
 
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <a href='/Events/GCC2014/TrainingDay/'>Vote now!</a> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <a href='/Events/GCC2014/TrainingDay'>Vote now!</a> &nbsp;&nbsp; </th>
   </tr>
 </table>
 
@@ -26,6 +26,6 @@ Thanks,
 
 The [GCC2014 Organizing Committee](/Events/GCC2014/Organizers)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2014-01-07T00:37:33Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-01-07T00:37:33Z)</div>
 
 CategoryNews

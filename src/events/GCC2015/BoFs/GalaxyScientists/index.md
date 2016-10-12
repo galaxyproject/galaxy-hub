@@ -1,6 +1,9 @@
-INCLUDE(/Events/GCC2015/Header)
+---
+pagetitle: GalaxyScientists
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 
-<div class="title">GalaxyScientists</div>
+
 
 
 <div class='dictbox'>
@@ -12,7 +15,7 @@ INCLUDE(/Events/GCC2015/Header)
  Contact:: [/JenniferJackson](/JenniferJackson) & see [BoF](https://wiki.galaxyproject.org/Events/GCC2015/BoFs/GalaxyScientists) wiki
 </div>
 
-<div class='left'><a href='/Events/GCC2015/BoFs/'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a></div>
+<div class='left'><a href='/Events/GCC2015/BoFs'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a></div>
 
 This page describes the **!GalaxyScientists** [Birds of a Feather](/Events/GCC2015/BoFs) Meetup held at [GCC2015](http://gcc2015.tsl.ac.uk/). Don't worry if you don't know what this group is .. the BoF is intended to define and create it! 
 
@@ -30,7 +33,7 @@ In addition, if you joined in on this year's [Data Wrangling Hackathon](http://g
 
 ## When and Where
 
-The [time and location](/Events/GCC2015/BoFs/#bof-schedule) for this BoF is Tuesday, July 7th, over lunch at 12:30pm in the Franklin Room, JICCC
+The [time and location](/Events/GCC2015/BoFs#bof-schedule) for this BoF is Tuesday, July 7th, over lunch at 12:30pm in the Franklin Room, JICCC
 
 
 ## Who is Participating

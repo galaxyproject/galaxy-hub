@@ -85,7 +85,7 @@ Note that, for `datatype` testing:
 * datatypes are checked against the datatype registry of your Galaxy installation
 
 
-----
+---
 ## Data Sources and to_params: How to define outgoing links to your visualization
 
 Each `data_source` can define zero or more `to_param` elements. Each `to_param` will add one key/value pair
@@ -134,7 +134,7 @@ assignment:
 
 
 
-----
+---
 ## Params: How to parse an incoming link for your template
 When the link generated from the `data_source` is used, **resources listed in `params` are parsed from the query string
 and sent to the template**. 'Resources' can be considered any data that needs to be parsed or converted from a string

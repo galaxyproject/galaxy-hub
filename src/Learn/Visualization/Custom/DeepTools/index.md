@@ -1,4 +1,7 @@
-<div class="title">deepTools</div>
+---
+pagetitle: deepTools
+---
+
 
 
 

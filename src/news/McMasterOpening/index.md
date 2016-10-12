@@ -10,6 +10,6 @@ From the [job announcement on EvolDir](http://bit.ly/11WryeP):
 
 See the [full announcement](http://bit.ly/11WryeP) for details.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2014-12-05T02:29:24Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-12-05T02:29:24Z)</div>
 
 CategoryNews

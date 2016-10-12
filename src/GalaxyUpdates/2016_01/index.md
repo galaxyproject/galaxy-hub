@@ -1,17 +1,19 @@
 ---
 autotoc: true
+pagetitle: It, ', s a new year in the Galaxy, !
 ---
-<div class="title">It's a new year in the Galaxy!</div>
+
 
 <div class='right'>
 <table>
   <tr>
+    <td style=" border: none; width: 28em;">  </td>
   </tr>
 </table>
 
 </div>
 
-<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
+<div class='left'><a href='/GalaxyUpdates'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
 Welcome to the January 2016 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. 
 
@@ -46,13 +48,13 @@ The new papers were tagged with:
   <tr>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=4 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
   </tr>
@@ -97,7 +99,7 @@ The new papers were tagged with:
 </table>
 
 
-----
+---
 
 # Events
 
@@ -144,8 +146,8 @@ There are two event reports, See the [one by Björn Grüning](https://gist.githu
 There are [many upcoming events](/Events) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='center'> 
-<a href='/Events/ASU2016/'><img src='/Images/Logos/ASUBioKIC_600.png' alt='Biodiversity Knowledge Integration Center' height="60" /></a>&nbsp;
-<a href='/Events/PAG2016/'><img src='/Images/Logos/PAGLogo300.png' alt='Galaxy @ Plant and Animal Genome (PAG 2016)' height="90" /></a> &nbsp;
+<a href='/Events/ASU2016'><img src='/Images/Logos/ASUBioKIC_600.png' alt='Biodiversity Knowledge Integration Center' height="60" /></a>&nbsp;
+<a href='/Events/PAG2016'><img src='/Images/Logos/PAGLogo300.png' alt='Galaxy @ Plant and Animal Genome (PAG 2016)' height="90" /></a> &nbsp;
 <a href='http://www.festivalofgenomicslondon.com/an-introduction-to-clinical-bioinformatics/'><img src='/Images/Logos/FoG_London.jpg' alt='An introduction to clinical bioinformatics' height=70" /></a>
 <a href='http://www.drylab.nl/teaching-and-trainings/trait-vumc-course-on-galaxy/'><img src='/Images/Logos/CTMM-TraITLogoSmall.png' alt='NGS Data Analysis in Galaxy (CTMM-TraIT course)' height="90" /></a>
 </div>
@@ -159,92 +161,92 @@ There are [many upcoming events](/Events) in the next few months.  See the [Gala
   </tr>
   <tr>
     <th> January 8 </th>
-    <td> <em><a href='/Events/ASU2016/'>Introduction to Galaxy Workshop</a></em> </td>
-    <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='http://asu.edu/'>Arizona State University</a>, Tempe, Arizona, United States </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='https://sols.asu.edu/people/nico-franz'>Nico Franz</a>, <a href='https://sols.asu.edu/people/melissa-wilson-sayres'>Melissa A. Wilson Sayres</a>, <a href='/anton/'>Anton Nekrutenko</a> </td>
+    <td> </em><a href='/Events/ASU2016'>Introduction to Galaxy Workshop</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) <a href='http://asu.edu/'>Arizona State University</a>, Tempe, Arizona, United States </td>
+    <td> PLACEHOLDER_INCLUDE(/Teach/GTN/Badge16) <a href='https://sols.asu.edu/people/nico-franz'>Nico Franz</a>, <a href='https://sols.asu.edu/people/melissa-wilson-sayres'>Melissa A. Wilson Sayres</a>, <a href='/anton'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> January 8, 15 </th>
-    <td> <em><a href='http://www.vib.be/en/training/research-training/courses/Pages/Introduction-to-NGS-data-analysis.aspx'>Introduction to NGS data analysis</a></em> </td>
-    <td> INCLUDE(/Events/Badges/Europe) <a href='http://www.vib.be/'>VIB</a>, Leuven, Belgium </td>
+    <td> </em><a href='http://www.vib.be/en/training/research-training/courses/Pages/Introduction-to-NGS-data-analysis.aspx'>Introduction to NGS data analysis</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) <a href='http://www.vib.be/'>VIB</a>, Leuven, Belgium </td>
     <td> <a href='http://www.vib.be/whoiswho/Pages/Janick-Mathys.aspx?lang=en'>Janick Mathys</a> </td>
   </tr>
   <tr>
     <th> January 9-13 </th>
-    <td> </strong><a href='/Events/PAG2016/'>Plant and Animal Genome (PAG XXIV)</a><strong> </td>
-    <td> INCLUDE(/Events/Badges/NorthAmerica) San Diego, California, United States </td>
-    <td> See <a href='/Events/PAG2016/'>presenters</a> </td>
+    <td> </strong><a href='/Events/PAG2016'>Plant and Animal Genome (PAG XXIV)</a><strong> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) San Diego, California, United States </td>
+    <td> See <a href='/Events/PAG2016'>presenters</a> </td>
   </tr>
   <tr>
     <th> January 19 </th>
-    <td> <em><a href='http://www.festivalofgenomicslondon.com/an-introduction-to-clinical-bioinformatics/'>An introduction to clinical bioinformatics</a></em> </td>
-    <td> INCLUDE(/Events/Badges/Europe) <a href='http://www.festivalofgenomicslondon.com/'>Festival of Genomics London</a>, London, United Kingdom </td>
+    <td> </em><a href='http://www.festivalofgenomicslondon.com/an-introduction-to-clinical-bioinformatics/'>An introduction to clinical bioinformatics</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) <a href='http://www.festivalofgenomicslondon.com/'>Festival of Genomics London</a>, London, United Kingdom </td>
     <td> <a href='http://www.festivalofgenomicslondon.com/speaker/ang-davies/'>Ang Davies</a> </td>
   </tr>
   <tr>
     <th> January 19 </th>
-    <td> <em><a href='http://www.drylab.nl/teaching-and-trainings/trait-vumc-course-on-galaxy/'>NGS Data Analysis in Galaxy (CTMM-TraIT course)</a></em> </td>
+    <td> </em><a href='http://www.drylab.nl/teaching-and-trainings/trait-vumc-course-on-galaxy/'>NGS Data Analysis in Galaxy (CTMM-TraIT course)</a><em> </td>
     <td> VU University Medical Center Amsterdam, The Netherlands </td>
     <td> <a href='https://scholar.google.com/citations?user=BJ7bjCEAAAAJ&hl=en'>Christian Rausch</a>, Youri Hoogstrate, <a href='https://www.linkedin.com/in/ritaazevedo'>Rita Azevedo</a> </td>
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef"> </td>
+    <td colspan=3 style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> February 11 </th>
-    <td> <em><a href='http://bioteam.net/bioteam-appliance/galaxy-edition/'>BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)</a></em> </td>
-    <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.agbt.org/meetings/agbt-general-meeting/'>AGBT</a>, Orlando, Florida, United States </td>
+    <td> </em><a href='http://bioteam.net/bioteam-appliance/galaxy-edition/'>BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.agbt.org/meetings/agbt-general-meeting/'>AGBT</a>, Orlando, Florida, United States </td>
     <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a></td>
   </tr>
   <tr>
     <th> February 15-19 </th>
-    <td> <em><a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a></em> </td>
-    <td> INCLUDE(/Events/Badges/Europe) <a href='https://www.supagro.fr/web/index.php'>Montpellier SupAgro</a>, Montpellier, France </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='https://www.supagro.fr/web/pages/contact.php?id=139'>Yolande Olivier</a>, <a href='https://www.supagro.fr/web/pages/contact.php?id=102'>Dominique Alhinc</a> </td>
+    <td> </em><a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) <a href='https://www.supagro.fr/web/index.php'>Montpellier SupAgro</a>, Montpellier, France </td>
+    <td> PLACEHOLDER_INCLUDE(/Teach/GTN/Badge16) <a href='https://www.supagro.fr/web/pages/contact.php?id=139'>Yolande Olivier</a>, <a href='https://www.supagro.fr/web/pages/contact.php?id=102'>Dominique Alhinc</a> </td>
   </tr>
   <tr>
     <th> February 20-23 </th>
-    <td> <em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a></em> </td>
-    <td> INCLUDE(/Events/Badges/NorthAmerica)  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/DaveClements/'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
+    <td> </em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica)  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
+    <td> PLACEHOLDER_INCLUDE(/Teach/GTN/Badge16) <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/DaveClements'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef"> </td>
+    <td colspan=3 style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> March 7-8 </th>
     <td> </strong><a href='https://github.com/galaxyproject/tools-iuc/issues/422'>IUC Contribution Fest - RADSeq Tools and Workflows</a><strong> </td>
-    <td> INCLUDE(/Events/Badges/World) <em>Online</em> </td>
-    <td> <a href='/IUC/'>/IUC/</a> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/World) </em>Online<em> </td>
+    <td> <a href='/IUC'>/IUC</a> </td>
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef"> </td>
+    <td colspan=3 style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> June 25-29 </th>
-    <td> </strong><em><a href='/Events/GCC2016/'>2016 Galaxy Community Conference (GCC2016)</a><strong></em> </td>
-    <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
-    <td> INCLUDE(/Teach/GTN/Badge16)  <a href='/Events/GCC2016/Organizers/'>Organizers</a> </td>
+    <td> </strong></em><a href='/Events/GCC2016'>2016 Galaxy Community Conference (GCC2016)</a><strong><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
+    <td> PLACEHOLDER_INCLUDE(/Teach/GTN/Badge16)  <a href='/Events/GCC2016/Organizers'>Organizers</a> </td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td style=" border: none"> <a href='/Teach/Trainers/'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
-    <td style=" border: none"> <span style="font-size: smaller;"> <a href='/Teach/Trainers/'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none;"> <a href='/Teach/Trainers'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
+    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/Teach/Trainers'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
 
-----
+---
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -260,15 +262,15 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <br />
 
-----
+---
 
 # New Public Galaxy Servers
 
-[Two new publicly accessible Galaxy servers](/PublicGalaxyServers) were added in December.  And, while not a new server, the *server formerly known as MIRPIPE* is now the greatly expanded [MPI-HLR Bioinformatics Server](/PublicGalaxyServers/#mpi-hlr-bioinformatics-server).
+[Two new publicly accessible Galaxy servers](/PublicGalaxyServers) were added in December.  And, while not a new server, the *server formerly known as MIRPIPE* is now the greatly expanded [MPI-HLR Bioinformatics Server](/PublicGalaxyServers#mpi-hlr-bioinformatics-server).
 
 ## Dintor
 
-<div class='right'><div class='solid'><a href='http://dintor.eurac.edu/'><img src='/PublicGalaxyServers/Dintor.png' alt='Dintor: Data Integrator Tool Suite'  /></a></div>
+<div class='right solid'><a href='http://dintor.eurac.edu/'><img src='/PublicGalaxyServers/Dintor.png' alt='Dintor: Data Integrator Tool Suite'  /></a></div>
 
 * *Link:*
   * [Dintor: Data Integrator Tool Suite](http://dintor.eurac.edu/)
@@ -290,7 +292,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## Erasmus MC
 
-<div class='right'><div class='solid'><a href='https://bioinf-galaxian.erasmusmc.nl/galaxy/'><img src='/PublicGalaxyServers/ErasmusMCBioinf300.png' alt='Erasmus MC Bioinformatics Galaxy Server'  /></a></div>
+<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/galaxy/'><img src='/PublicGalaxyServers/ErasmusMCBioinf300.png' alt='Erasmus MC Bioinformatics Galaxy Server'  /></a></div>
 
 * *Link:*
   * [Erasmus MC Bioinformatics Galaxy Server](https://bioinf-galaxian.erasmusmc.nl/galaxy/)
@@ -304,7 +306,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
   * "This Galaxy instance may be used without registration, but guests' histories are deleted nightly. To request an account, please [a.stubbs@erasmusmc.nl](contact) the Bioinformatics department."
 * *Sponsor(s):*
   * [Erasmus Medical Center department of Bioinformatics](http://bioinformatics.erasmusmc.nl/)
-----
+---
 
 
 # Releases
@@ -349,7 +351,7 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 It is also quite popular and has been downloaded from !PyPi almost 4000 times since it was created on December 20.
 
 
-<div class='right'><a href='/CloudMan/'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="150" /></a></div>
+<div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="150" /></a></div>
 
 ## CloudMan 15.12
 
@@ -404,27 +406,27 @@ The 0.6.x release includes these changes:
    [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and !BioCloudCentral.
 
 
-----
+---
 
 
 # Galaxy Community Hubs
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Teach/'><img src='/Images/GalaxyLogos/GTNLogo300.png' alt='Galaxy Training Network' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Logs/'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Deployments/'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Teach'><img src='/Images/GalaxyLogos/GTNLogo300.png' alt='Galaxy Training Network' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong>Share your <a href='/Teach/Resources/#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers/#add-a-trainer'>experience</a> <em>now</em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Logs/#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs/#add-a-log-page'>now</a></em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Deployments/#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments/#add-your-galaxy-deployment'>now</a></em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/Teach/Resources#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/Community/Logs#add-a-log-page'>Share your experience</a> </em><a href='/Community/Logs#add-a-log-page'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/Community/Deployments#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/Community/Deployments#add-your-galaxy-deployment'>now</a><em> <strong> </td>
   </tr>
 </table>
 
 <br />
 
-----
+---
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
 
 # ToolShed Contributions
@@ -432,7 +434,7 @@ The 0.6.x release includes these changes:
 See [list of tools contributed in December](/ToolShed/Contributions/2015_12).
 
 
-----
+---
 
 # Other News
 

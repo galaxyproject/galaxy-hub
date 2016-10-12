@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='Powered by Galaxy/'><img src='Powered by Galaxy/PoweredByGalaxy617.png' alt='Powered by Galaxy' width="300" /></a>
+<a href='Powered by Galaxy'><img src='Powered by Galaxy/PoweredByGalaxy617.png' alt='Powered by Galaxy' width="300" /></a>
 </div>
 <br /><br />
 There are a number of resources available to help connect researchers and developers with Galaxy.  Broadening Galaxy's reach serves several interrelated purposes:
@@ -15,25 +15,25 @@ There are a number of resources available to help connect researchers and develo
 
 ### Powered by Galaxy
 <div class='left'>
-<a href='Powered by Galaxy/'><img src='Powered by Galaxy/PoweredByGalaxy120.png' alt='Powered by Galaxy' /></a>
+<a href='Powered by Galaxy'><img src='Powered by Galaxy/PoweredByGalaxy120.png' alt='Powered by Galaxy' /></a>
 </div>
 *"Powered by Galaxy"* icons are [available in a number of different resolutions](/Outreach/Powered by Galaxy) for inclusion on web sites, in talks, and on posters and other printed material.  This is an easy way to let people know just how widely used (and useful) Galaxy is.
 
 ## Logos and Images
 
-<div class='right'><a href='/Images/GalaxyLogos/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Logos' height="50" /></a></div>
+<div class='right'><a href='/Images/GalaxyLogos'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Logos' height="50" /></a></div>
 
 The [Images/GalaxyLogos page](/Images/GalaxyLogos) lists current Galaxy Project logos.  The [/Images](/Images) hierarchy (of which [Images/GalaxyLogos](/Images/GalaxyLogos) is a part) also lists many related [logos](/Images/Logos), [icons](/Images/Icons) and [screenshots](/Images/Screenshots) that can be included in your presentations and posters.
 
 ## Speakers
 <div class='left'>![](/GalaxySpeaker.jpg)</div>
-<div class='right'><div class='solid'>
+<div class='right solid'>
 <table>
   <tr>
-    <td style=" border: none; width: 170px"> <a href='http://aws.amazon.com/education'><img src='/Images/Logos/AWSLogo.png' alt='Hands-on workshops are generously sponsored by an AWS in Education training grant' /></a> </td>
+    <td style=" border: none; width: 170px;"> <a href='http://aws.amazon.com/education'><img src='/Images/Logos/AWSLogo.png' alt='Hands-on workshops are generously sponsored by an AWS in Education training grant' /></a> </td>
   </tr>
   <tr>
-    <td style=" border: none; width: 170px"> Hands-on workshops are generously supported by an <a href='http://aws.amazon.com/education'>AWS in Education teaching grant award</a>. </td>
+    <td style=" border: none; width: 170px;"> Hands-on workshops are generously supported by an <a href='http://aws.amazon.com/education'>AWS in Education teaching grant award</a>. </td>
   </tr>
 </table>
 

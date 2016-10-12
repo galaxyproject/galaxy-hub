@@ -1,4 +1,7 @@
-<div class="title">Galaxy Test Instance</div>
+---
+pagetitle: Galaxy Test Instance
+---
+
 
 The Galaxy **Test** instance is available at https://test.galaxyproject.org/. Test is the Beta site for the Galaxy *[/Main](/Main)* instance.  Main is the primary free public [Galaxy instance](http://usegalaxy.org/). *Test* is also free and public, and is a testbed where tools and framework functions are functionally and experimentally reviewed.
 
@@ -81,7 +84,7 @@ Our goal with the Stampede resubmission system is to provide a balance to Galaxy
 
 If you know (due to previous runs of the tool using similar inputs and parameters) that your job will reach the walltime on the local cluster, you should directly submit it to Stampede to avoid the time wasted running to walltime on the Galaxy cluster.
 
-<<Anchor(Stampede)>>
+PLACEHOLDER_ANCHOR(Stampede)
 ## Direct job execution on Stampede
 
 Tools in the previous section can also be manually submitted directly to Stampede. This is a good idea if you know (or strongly suspect) that a tool will exceed the walltime on the local cluster. On the form for these tools, a **Job Resource Parameters** parameter is available that, if selected, will display a **Compute Resources** selection parameter. The options for this parameter are:
@@ -140,7 +143,7 @@ As with tools that run on Stampede, on the form for these tools, a **Job Resourc
 </table>
 
 
-<<Anchor(Quotas)>>
+PLACEHOLDER_ANCHOR(Quotas)
 ## User data and job quotas
 
 <table>
@@ -216,7 +219,7 @@ Test server user interface:
 ### How will I know if my quota has been exceeded?
 
 #### Data
-A <<span(red)>>red message<<span>> indicating that the user data quota has been exceeded will be displayed at the top of the left history pane. Any new jobs queued will remain in the status "waiting to run" (colored gray) until the data size is within the quota limits.
+A <div class='red'>red message</span> indicating that the user data quota has been exceeded will be displayed at the top of the left history pane. Any new jobs queued will remain in the status "waiting to run" (colored gray) until the data size is within the quota limits.
 
 #### Jobs
 Any jobs queued after the limit of 4 has been met will remain in the status "waiting to run" (colored grey) until job quota is met.
@@ -225,7 +228,7 @@ Any jobs queued after the limit of 4 has been met will remain in the status "wai
 
 #### Data
 
-Reduce the amount of data in your account. Start with removing any Histories that are no longer needed on the **Options &rarr; Saved Histories** form and the option **Delete Permanently**. More information about data is covered on the [Managing Datasets](/Learn/Managing Datasets/#actions) wiki.
+Reduce the amount of data in your account. Start with removing any Histories that are no longer needed on the **Options &rarr; Saved Histories** form and the option **Delete Permanently**. More information about data is covered on the [Managing Datasets](/Learn/Managing Datasets#actions) wiki.
 
 #### Jobs
 To gain access to the test server again, no user action is needed. When your existing jobs complete and number less than 4, new jobs will be added to the queue to execute (maximum of 4 concurrent).
@@ -242,4 +245,4 @@ New Admin features have been added and more are planned for in the near term. De
 
 ## Quotas at the Galaxy Main public instance
 
-See [Main](/Main/#quotas).
+See [Main](/Main#quotas).

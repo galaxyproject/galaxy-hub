@@ -1,11 +1,12 @@
 ---
 autotoc: true
 ---
-INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 
-INCLUDE(/Events/GCC2013/LinkBox)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
 
 # Talk Abstracts
+
 
 
 ## 1 July: Session 1: Reproducible science 
@@ -37,7 +38,7 @@ Victoria is an assistant professor of [Statistics](http://www.stat.columbia.edu/
 
 ### Reproducible research and the 90/10 rule: Improving the ratio of light script to dark script matter in your Galaxy
 
-<div class='right'><a href='/RossLazarus/'><img src='/GalaxyTeam/ross.jpg' alt='' width="120" /></a></div>
+<div class='right'><a href='/RossLazarus'><img src='/GalaxyTeam/ross.jpg' alt='' width="120" /></a></div>
 
 **[Ross Lazarus](/RossLazarus)<sup>1</sup>**, Antony Kaspi<sup>1</sup>, Mark Ziemann<sup>1</sup> and The [Galaxy Team](/GalaxyTeam) <sup>2</sup>.
 
@@ -364,7 +365,7 @@ In this talk, we will present Globus Genomics which is a robust, scalable, and f
 
 ### Galaxy-P: Beyond Proteomics
 
-<div class='right'><a href='/JohnChilton/'><img src='/JohnChilton.jpg' alt='' width="100" /></a></div>
+<div class='right'><a href='/JohnChilton'><img src='/JohnChilton.jpg' alt='' width="100" /></a></div>
 
 **[John Chilton](/JohnChilton)**<sup>1</sup>, James Johnson<sup>1</sup>, Getiria Onsongo<sup>1</sup>, Ebbing de Jong<sup>1</sup>, Pratik Jagtap<sup>1</sup>, Timothy Griffin<sup>2</sup>
 
@@ -426,7 +427,7 @@ We will present an overview of the requirements to move Galaxy into the Clinical
 
 ### Enhancing the Galaxy Tool Shed
 
-<div class='right'><a href='/Dan/'><img src='/GalaxyTeam/greg.jpg' alt='Greg Von Kuster' width="120" /></a></div>
+<div class='right'><a href='/Dan'><img src='/GalaxyTeam/greg.jpg' alt='Greg Von Kuster' width="120" /></a></div>
 
 **[Greg von Kuster](/greg_vonkuster)**, [Daniel Blankenberg](/Dan)
  Penn State / Galaxy Team
@@ -447,7 +448,7 @@ To ensure the quality of the Tool Shed and the available contributed Utilities, 
 
 ### How to Create Your Own Web-based, Interactive Visualizations for Galaxy
 
-<div class='right'><a href='/CarlEberhard/'><img src='/GalaxyTeam/carl.jpg' alt='' width="120" /></a></div>
+<div class='right'><a href='/CarlEberhard'><img src='/GalaxyTeam/carl.jpg' alt='' width="120" /></a></div>
 
 **[Carl Eberhard](/CarlEberhard)**<sup>1</sup>, [Jeremy Goecks](/JeremyGoecks)<sup>1</sup>, [The Galaxy Team](/GalaxyTeam)<sup>1,2</sup>, [Anton Nekrutenko](/anton)<sup>2</sup>, and [James Taylor](/JamesTaylor)<sup>1</sup>
 
@@ -464,7 +465,7 @@ In this talk, we describe how to create your own visualization for Galaxy. We pr
 
 ### Managing Galaxy's Built-in Data
 
-<div class='right'><a href='/Dan/'><img src='/GalaxyTeam/dan.jpg' alt='' width="120" /></a></div>
+<div class='right'><a href='/Dan'><img src='/GalaxyTeam/dan.jpg' alt='' width="120" /></a></div>
 
 **[Daniel Blankenberg](/Dan)**
 
@@ -482,7 +483,7 @@ Data Managers can be defined locally or installed automatically from a Tool Shed
 
 ### Contributing to Galaxy
 
-<div class='right'><a href='/DannonBaker/'><img src='/GalaxyTeam/dannon.jpg' alt='' width="120" /></a></div>
+<div class='right'><a href='/DannonBaker'><img src='/GalaxyTeam/dannon.jpg' alt='' width="120" /></a></div>
 
 **[Dannon Baker](/DannonBaker)**<sup>1</sup>, [Nate Coraor](/nate)<sup>2</sup>, [John Chilton](/JohnChilton)<sup>3</sup> 
 

@@ -1,13 +1,15 @@
 ---
 autotoc: true
+pagetitle: Frequently Asked Questions for Galaxy on Jetstream
 ---
-<div class="title">Frequently Asked Questions for Galaxy on Jetstream</div>
+
 See [/Learn/FAQ](/Learn/FAQ) for questions about using any Galaxy instance.  
 
-INCLUDE(/Cloud/Jetstream/LinkBox)
+PLACEHOLDER_INCLUDE(/Cloud/Jetstream/LinkBox)
 
+<div class='left'></div>
 
-----
+---
 
 ## How do I restart my Jetstream Galaxy server?
 Galaxy server can be restarted from the Jetstream's web interface, Atmosphere. Do so by selecting the server you wish to restart, click the *Reboot* button and choose *Hard Reboot* option on the popup that shows up. The server will typically take a couple of minutes to reboot with Galaxy automatically starting up.
@@ -16,7 +18,7 @@ Galaxy server can be restarted from the Jetstream's web interface, Atmosphere. D
 
 ![](http://i.imgur.com/2hUQCiD.png)
 
-----
+---
 
 ## Where are Galaxy's log files?
 Log files are available for problem diagnosis. Each launched server will have their respective logs in the same locations, which are as follows:

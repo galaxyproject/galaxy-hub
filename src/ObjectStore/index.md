@@ -33,6 +33,11 @@ Configuration is trivial via the Galaxy config file. See the object_store option
 #os_is_secure = False
 #os_conn_path = /
 
+# If using 'azure_blob' object store, you must specify the following:
+#azure_account_name = <your storage account name>
+#azure_account_key = <your storage account's access key (ending in ==)>
+#azure_container_name = <the name of the blob container in your storage account>
+
 # Reduced redundancy can be used only with the 's3' object store
 #os_use_reduced_redundancy = False
 

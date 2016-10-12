@@ -10,6 +10,6 @@ The hired postdocs can exploit the Galaxy framework to ensure accessibility, int
 
 [Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2014-05-27T20:10:15Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-05-27T20:10:15Z)</div>
 
 CategoryNews

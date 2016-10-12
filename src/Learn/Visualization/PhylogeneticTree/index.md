@@ -1,12 +1,14 @@
 ---
 autotoc: true
+pagetitle: Phyloviz, :,  Interactive Phylogenetic Tree Visualizer for Galaxy
 ---
-<div class="title">Phyloviz: Interactive Phylogenetic Tree Visualizer for Galaxy</div>
+
 Phyloviz is an interactive phylogenetic tree visualizer built for Galaxy to give its users a more effective way to access, manipulate, analyze and present data of phylogenetic tree data on galaxy. 
 
 Currently, the project is in its beta-stage and is ready to be deployed to galaxy-central for testing. 
 
-----
+
+---
 ### Video Tutorial:
 Here's a short 4.5 mins video tutorial to get you started. Link: http://www.youtube.com/watch?v=NhQO7hjuW8o&feature=youtu.be For more information, you can read the detailed guide below. 
 
@@ -20,7 +22,7 @@ Here's a short 4.5 mins video tutorial to get you started. Link: http://www.yout
 
 Phyloviz supports a number of user interaction features to help you present, analyze and share the visualization. 
 
-----
+---
 
 ### Features
 
@@ -47,7 +49,7 @@ Any visualization you create/view, or any changes you made to the tree within (e
 
 Alright, that’s the end of the tutorial! Enjoy Phyloviz and let me know how it goes. 
 
-----
+---
 
 ### Trouble-shooting:
 * **Sniffing Newick**:  Due to the looseness of the newick format, Galaxy will not be able to sniff and identify this format automatically. Hence you will have to choose the Newick file format during upload. In the case that the icon does not appear, you can manually by clicking the pencil icon on the top left corner of the history item box > Goto Data type and change the name.

@@ -1,14 +1,17 @@
+---
+pagetitle: [Immunoglobulin Galaxy VM](http://bioinformatics.erasmusmc.nl/wiki/index.php/Immunoglobulin_Galaxy)
+---
 <div class='center'>
 <a href='http://bioinformatics.erasmusmc.nl/wiki/index.php/Immunoglobulin_Galaxy'><img src='/Images/Logos/ERasmusBioinformatics.jpg' alt='Erasmus Center for Bioinformatics' height="200" /></a>
 </div>
 
-<div class="title">[Immunoglobulin Galaxy VM](http://bioinformatics.erasmusmc.nl/wiki/index.php/Immunoglobulin_Galaxy)</div>
+
 
 
 
 <div class='dictbox'>
  Appliance:: **[Immunoglobulin Galaxy](/VA/ImmunoglobulinGalaxy)**
- Technology:: **[VM](/VirtualAppliances/#virtual-machine-images)**
+ Technology:: **[VM](/VirtualAppliances#virtual-machine-images)**
  Domains:: **immunoglobulin** 
  Description:: a set of tools for easy detection and quantitation of immunoglobulin heavy chain alternative transcripts. 
  Owners:: [d.vanzessen@erasmusmc.nl](David van Zessen), [Erasmus Medical](http://www.erasmusmc.nl/?lang=en) Center

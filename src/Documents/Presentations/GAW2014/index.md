@@ -1,3 +1,3 @@
 Presentations given at [GAW2014](/Events/GAW2014).
 
-<<AttachList>>
+PLACEHOLDER_ATTACH_LIST

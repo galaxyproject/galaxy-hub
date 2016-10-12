@@ -1,8 +1,10 @@
 ---
 autotoc: true
+pagetitle: June and July 2015 Tool Shed Contributions
 ---
-<div class="title">June and July 2015 Tool Shed Contributions</div>
 
+
+<div class='right'></div>
 
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=200 /></a></div>
 Tools contributed to the Galaxy Project Tool Shed in June and July 2015.

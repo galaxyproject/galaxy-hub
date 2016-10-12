@@ -1,8 +1,11 @@
+---
+pagetitle: [Galaxy Freiburg Hands-On Training](https://github.com/bgruening/training-material)
+---
 <div class='center'>
 <a href='https://github.com/bgruening/training-material'><img src='/Freiburg-Galaxy-Team.png' alt='Freiburg-Galaxy-Team' height="100" /></a>
 </div>
 
-<div class="title">[Galaxy Freiburg Hands-On Training](https://github.com/bgruening/training-material)</div>
+
 
 
 
@@ -10,7 +13,7 @@
  Resource:: **[Galaxy Freiburg Hands-On Training](/Teach/Resource/FreiburgHandsOnTraining)**
  Types:: Tutorial, Dataset
  Domains:: **RNA-Seq, ChIP-Seq, Genome Annotation, MethylC-Seq, Exom-Seq** 
- Owners:: [Contributors](https://github.com/bgruening/training-material/blob/master/CONTRIBUTORS)
+ Owners:: [Contributors](https://github.com/bgruening/training-material/blob/master/CONTRIBUTORS.md)
  Formats:: Document, Github repo, Slides
  Date:: 2016/04
 </div>

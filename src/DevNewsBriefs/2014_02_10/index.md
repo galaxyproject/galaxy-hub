@@ -1,39 +1,41 @@
 ---
 autotoc: true
+pagetitle: February 10, ,,  2014 Galaxy Distribution News Brief
 ---
+<div class='right'></div>
 
 [All News Briefs](/DevNewsBriefs)
 <br />
 [Distribution Summary 2014_02_10](/News/2014_02_10_Galaxy_Distribution)
 
 <br />
-<div class="title">February 10, 2014 Galaxy Distribution News Brief</div>
+
 
 <br />
 # Get Galaxy
 <table>
   <tr>
-    <td rowspan=3 style=" border: none"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>new</strong>: </td>
-    <td style=" border: none"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
+    <td style=" border: none;"> <strong>new</strong>: </td>
+    <td style=" border: none;"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>upgrade</strong>: </td>
-    <td style=" border: none"> <code>$ hg pull </code> <br /> <code>$ hg update release_2014.02.10 </code> </td>
+    <td style=" border: none;"> <strong>upgrade</strong>: </td>
+    <td style=" border: none;"> <code>$ hg pull </code> <br /> <code>$ hg update release_2014.02.10 </code> </td>
   </tr>
 </table>
 
@@ -257,7 +259,7 @@ Also see above: [New Tool Migrations](#new-tool-migrations)
 1. *[January 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014_01)*
 1. *[December 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_12)*
 
-----
+---
 <br />
 # About
 **[GalaxyProject.org](http://galaxyproject.org)**

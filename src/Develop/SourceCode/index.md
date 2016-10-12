@@ -1,4 +1,4 @@
-INCLUDE(/Develop/LinkBox)
+PLACEHOLDER_INCLUDE(/Develop/LinkBox)
 # The source code of Galaxy
 
 Galaxy is an open source software under [AFL 3.0](/Admin/License) license.
@@ -7,9 +7,7 @@ The source code is publicly available and hosted at !GitHub. If you need help ge
 
 Galaxy recently transitioned development from [Bitbucket](https://bitbucket.org/galaxy/galaxy-central/) to [GitHub](https://github.com/galaxyproject/galaxy).
 
-**Galaxy deployers** can continue to pull Galaxy from the [Bitbucket galaxy-dist repository](https://bitbucket.org/galaxy/galaxy-dist/). Alternatively, deployers can switch to the `master` branch in !GitHub.
-
-**Galaxy developers** should use !GitHub.
+**Galaxy deployers and developers** should now use !GitHub.
 
 The technical details regarding the transition can be found on the [the GitHub transition Trello card](https://trello.com/c/iiSBweRQ).
 
@@ -17,7 +15,7 @@ The technical details regarding the transition can be found on the [the GitHub t
 
 [https://github.com/galaxyproject/galaxy/](https://github.com/galaxyproject/galaxy/) is the source repository.
 
-If you have created piece of code for Galaxy that you would like to share with the community, please follow the instructions contained in https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING/ .
+If you have created piece of code for Galaxy that you would like to share with the community, please follow the instructions contained in https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING.md .
 
 For commits made prior to the switch to git, you can find the former HG commit IDs via git notes. Assuming you have set the [canonical Galaxy GitHub repository](https://github.com/galaxyproject/galaxy/) as the remote `upstream`, it is done like so (if you cloned directly from the canonical source rather than your own !GitHub fork, the remote would be `origin`):
 
@@ -73,29 +71,6 @@ And receive updates
 #!highlight sh
 % git checkout dev
 % git pull
-```
-
-
-## Bitbucket
-
-We maintain two main repositories for different purposes:
-
-### galaxy-central
-
-[Central](https://bitbucket.org/galaxy/galaxy-central ) was formerly the main development repository. It remains as a buffer for the git to hg conversion process, to ensure that nothing broken is inadvertently pushed to galaxy-dist.
-
-### galaxy-dist
-[Dist](https://bitbucket.org/galaxy/galaxy-dist ) is the distribution repository that is updated every release. In between releases, there are critical bugfixes applied to the stable branch.
-
-### Branches
-
-You can get the current stable code with:
-
-```
-#!highlight sh
-% hg clone https://bitbucket.org/galaxy/galaxy-dist/
-% cd galaxy-dist
-% hg update stable
 ```
 
 

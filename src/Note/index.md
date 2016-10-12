@@ -1,8 +1,9 @@
 
+#language en
 
 # List of Galaxy Notes
 
-<<FullSearchCached(category:Note)>>
+PLACEHOLDER_FULL_SEARCH_CACHE(category:Note)
 
-----
+---
 CategoryCategory

@@ -28,13 +28,13 @@ upgrade: $ hg pull
 ```
 
 
-*To receive email updates about [Galaxy Distributions and News Briefs](/DevNewsBriefs), be sure to subscribe to the [Galaxy-Announce mailing list](/MailingLists/#the_lists), a low-volume list dedicated to [News Items](/News) and priority messages from the Galaxy [community](/Community) and [project core team](/Galaxy Project).* 
+*To receive email updates about [Galaxy Distributions and News Briefs](/DevNewsBriefs), be sure to subscribe to the [Galaxy-Announce mailing list](/MailingLists#the_lists), a low-volume list dedicated to [News Items](/News) and priority messages from the Galaxy [community](/Community) and [project core team](/Galaxy Project).* 
 
 Thanks for using Galaxy,
 
 [The Galaxy Team](/GalaxyTeam)
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-02-09T01:15:37Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-02-09T01:15:37Z)</div>
 
 CategoryNews

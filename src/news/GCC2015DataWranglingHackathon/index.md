@@ -12,6 +12,6 @@ Questions, Feedback, or Hack idea? **[Post here](https://biostar.usegalaxy.org/p
 
 [Jennifer Hillman Jackson](/JenniferJackson) and the [Data Wrangling Hackathon Organising Committee](http://gcc2015.tsl.ac.uk/organisers/#Data_Wrangling_Hackathon_Committee)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2015-05-08T16:06:45Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-05-08T16:06:45Z)</div>
 
 CategoryNews

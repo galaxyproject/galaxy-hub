@@ -1,4 +1,4 @@
-INCLUDE(/Admin/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/LinkBox)
 
 Hub page for [administering](/Admin) data libraries in Galaxy.
 

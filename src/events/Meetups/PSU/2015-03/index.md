@@ -1,6 +1,9 @@
+---
+pagetitle: March 2015 Penn State Using Galaxy Workshop
+---
 <div class='center'>![Galaxy Meetup @ Penn State](/Events/Meetups/PSU/PSUMeetupLogo600.png)</div>
 
-<div class="title">March 2015 Penn State Using Galaxy Workshop</div>
+
 
 Hey Everyone,
 

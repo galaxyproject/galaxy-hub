@@ -1,2 +1,2 @@
-INCLUDE(/Develop/LinkBox)
-INCLUDE(/Develop/ResourcesAPI)
+PLACEHOLDER_INCLUDE(/Develop/LinkBox)
+PLACEHOLDER_INCLUDE(/Develop/ResourcesAPI)

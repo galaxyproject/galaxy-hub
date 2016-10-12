@@ -1,4 +1,4 @@
-INCLUDE(/Documents/LinkBox)
+PLACEHOLDER_INCLUDE(/Documents/LinkBox)
 
 Common place to attach presentations in the [/Documents](/Documents) hierarchy.
 
@@ -9,6 +9,6 @@ Also see these subdirectories for specific events:
 
 ## Presentations
 
-<<Action(AttachFile, Attach a new file.)>>
+PLACEHOLDER_ACTION(AttachFile,Attach a new file.)
 
-<<AttachList>>
+PLACEHOLDER_ATTACH_LIST

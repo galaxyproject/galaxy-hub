@@ -2,14 +2,14 @@
 
 <table>
   <tr>
-    <td style=" text-align: center; width: 280px; border: none;"> <a href='/Events/UPretoria2013/'><img src='/Images/Logos/UPretoriaWide.png' alt='University of Pretoria' width="240" /></a> </td>
-    <td style=" text-align: center; width: 300px; border: none;"> <a href='/Events/UCapeTown2013/'><img src='/Images/Logos/UCapeTownWide.jpg' alt='University of Cape Town' width="280" /></a> </td>
+    <td style=" text-align: center; width: 280px; border: none;"> <a href='/Events/UPretoria2013'><img src='/Images/Logos/UPretoriaWide.png' alt='University of Pretoria' width="240" /></a> </td>
+    <td style=" text-align: center; width: 300px; border: none;"> <a href='/Events/UCapeTown2013'><img src='/Images/Logos/UCapeTownWide.jpg' alt='University of Cape Town' width="280" /></a> </td>
   </tr>
 </table>
 
 
 <div class='right'><div class='right'>
-<a href='/Events/SAWorkshopTour2013/'><img src='/Images/Logos/SAGalaxyWorkshopTour2013Wide.png' alt='2013 South Africa Galaxy Workshop Tour' width="176" /></a></div><br />
+<a href='/Events/SAWorkshopTour2013'><img src='/Images/Logos/SAGalaxyWorkshopTour2013Wide.png' alt='2013 South Africa Galaxy Workshop Tour' width="176" /></a></div><br />
 <div class='right'><a href='http://www.acgt.co.za/'><img src='/Images/Logos/ACGTLogoSmall.png' alt='African Centre for Gene Technologies'  /></a></div>
 </div>
 
@@ -25,6 +25,6 @@ If you are interested, then please apply by 17 September!
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-09-09T23:12:00Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-09-09T23:12:00Z)</div>
 
 CategoryNews

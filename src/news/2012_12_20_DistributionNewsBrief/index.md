@@ -30,6 +30,6 @@ upgrade: $ hg pull -u -r 36ad8aa7b922
 
 ***[The Galaxy Team](/Galaxy Team)***
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2012-12-21T01:10:43Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-12-21T01:10:43Z)</div>
 
 CategoryNews

@@ -9,8 +9,8 @@ Common place to store supplemental graphics used for tutorials and quickies, suc
 * [NewsGraphics](/Images/NewsGraphics) are used in communications, such as [Galaxy Development News Briefs](/DevNewsBriefs). May have a date stamp.
 * [Learn](/Images/Learn) - Graphics are generally UI screenshots used in [/Support](/Support) and [/Learn](/Learn) wikis.
 
-<<Action(AttachFile, Attach a new file)>>
+PLACEHOLDER_ACTION(AttachFile,Attach a new file)
 
 ## Screencast Frame
 
-<<AttachList>>
+PLACEHOLDER_ATTACH_LIST

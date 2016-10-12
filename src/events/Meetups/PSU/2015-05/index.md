@@ -1,8 +1,11 @@
+---
+pagetitle: May 2015 Penn State RNA, -, Seq Galaxy Workshop
+---
 <div class='center'>![Galaxy Meetup @ Penn State](/Events/Meetups/PSU/PSUMeetupLogo600.png)</div>
 
-<div class="title">May 2015 Penn State RNA-Seq Galaxy Workshop</div>
 
-<div class='red'><div class='center'> <span style="font-size: larger;">This workshop is now full.  [But you can get on the waiting list](https://docs.google.com/forms/d/1TQMAVcpkbznhS25B7i3t9V5-ow4YAVzwclon1N6lRS8/viewform).</span>
+
+<div class='red center'> <span style="font-size: larger;">This workshop is now full.  [But you can get on the waiting list](https://docs.google.com/forms/d/1TQMAVcpkbznhS25B7i3t9V5-ow4YAVzwclon1N6lRS8/viewform).</span>
 </div>
 
 <br />

@@ -1,13 +1,15 @@
 ---
 autotoc: true
+pagetitle: Running Galaxy Tools on a Cluster
 ---
-INCLUDE(/Admin/Config/Performance/LinkBox)
-<div class="title">Running Galaxy Tools on a Cluster</div>
+PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
+
 Galaxy is designed to run jobs on your local system by default, but it can be configured to run jobs on a cluster.  The front-end Galaxy application runs on a single server as usual, but tools are run on cluster nodes instead.
 
 This documentation applies to Galaxy release_2013.04.01 and newer. For older Galaxy releases, use the [legacy documentation](/Admin/Config/Performance/Cluster/Legacy).
 
 A [general reference for the job configuration file](/Admin/Config/Jobs) is also available.
+
 
 
 # Distributed Resources Managers
@@ -42,7 +44,7 @@ Galaxy (with the exception of the [Pulsar](#pulsar) runner) currently requires a
 For example, if Galaxy is installed like so:
 
 ```console
-galaxy_user@galaxy_server% hg clone https://bitbucket.org/galaxy/galaxy-dist/ /clusterfs/galaxy/galaxy-dist
+galaxy_user@galaxy_server% git clone https://github.com/galaxyproject/galaxy.git /clusterfs/galaxy/galaxy-app
 ```
 
 
@@ -53,7 +55,7 @@ galaxy_user@galaxy_server% qsub -I
 qsub: waiting for job 1234.torque.server to start
 qsub: job 1234.torque.server ready
 
-galaxy_user@node1% cd /clusterfs/galaxy/galaxy-dist
+galaxy_user@node1% cd /clusterfs/galaxy/galaxy-app
 galaxy_user@node1%
 ```
 
@@ -155,7 +157,7 @@ Runs jobs via the [TORQUE Resource Manager](http://www.adaptivecomputing.com/pro
 Galaxy uses the [pbs_python](https://oss.trac.surfsara.nl/pbs_python/) module to interface with TORQUE.  pbs_python must be compiled against your TORQUE installation, so it cannot be provided with Galaxy.  However, we provide all the necessary automation to compile it, via Galaxy's egg scrambler ([more about Galaxy's Python eggs](/Admin/Config/Eggs)):
 
 ```console
-galaxy_user@galaxy_server% cd /clusterfs/galaxy/galaxy-dist
+galaxy_user@galaxy_server% cd /clusterfs/galaxy/galaxy-app
 galaxy_user@galaxy_server% LIBTORQUE_DIR=/path/to/libtorque python scripts/scramble.py -e pbs_python
 ```
 
@@ -171,7 +173,7 @@ pbs_python = 4.4.0
 
 Then scramble as normal:
 ```console
-galaxy_user@galaxy_server% cd /clusterfs/galaxy/galaxy-dist
+galaxy_user@galaxy_server% cd /clusterfs/galaxy/galaxy-app
 galaxy_user@galaxy_server% LIBTORQUE_DIR=/path/to/libtorque python scripts/scramble.py -e pbs_python
 ```
 
@@ -231,7 +233,7 @@ Runs jobs via a command-line/shell interface. The CLI runner itself takes plugin
 * Shell: For interacting with different shell types. Plugins for rsh, ssh, and gsi-ssh are provided.
 * Job: For interacting with a DRM via the DRM's command-line interface. A plugin for Torque is provided
 
-If you are interested in developing additional plugins, see `galaxy-dist/lib/galaxy/jobs/runners/cli_*` for examples.
+If you are interested in developing additional plugins, see `galaxy-app/lib/galaxy/jobs/runners/cli_*` for examples.
 
 ### Parameters and Configuration
 
@@ -409,7 +411,7 @@ You'll need to ensure that all datasets are stored on the filesystem such that t
 
 The directory specified in `new_file_path` in the Galaxy config should be world-writable, cluster-accessible (via the same absolute path) and have its sticky bit (+t) set. This directory should also be cleaned regularly using a script or program as is appropriate for your site, since temporary files created here may not always be cleaned up under certain conditions.
 
-The `outputs_to_working_directory` option in the Galaxy config **must** be set to `True`. This ensures that a tool/job's outputs are written to the temporary working directory, which (when using the real user system) is owned by the real user who submitted the job. If left set to the default (`False`), the tool will attempt to write directly to the directory specified in `file_path` (by default, `galaxy-dist/database/files/`), which must be owned by the Galaxy user (and thus will not be writable by the real user).
+The `outputs_to_working_directory` option in the Galaxy config **must** be set to `True`. This ensures that a tool/job's outputs are written to the temporary working directory, which (when using the real user system) is owned by the real user who submitted the job. If left set to the default (`False`), the tool will attempt to write directly to the directory specified in `file_path` (by default, `galaxy-app/database/files/`), which must be owned by the Galaxy user (and thus will not be writable by the real user).
 
 Once these are set, you must set the `drmaa_external_*` settings in the Galaxy config and configure `sudo(8)` to allow them to be run.  A sudo config using the `drmaa_external_*` scripts set in the sample `universe_wsgi.ini` (`config/galaxy.ini`) would be:
 

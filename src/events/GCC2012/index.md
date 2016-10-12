@@ -1,6 +1,6 @@
-INCLUDE(/Events/GCC2012/PageHeader)
+PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 
-INCLUDE(LinkBox)
+PLACEHOLDER_INCLUDE(LinkBox)
 
 **The 2012 Galaxy Community Conference (GCC2012) was held July 25-27 at the [UIC Forum](http://www.uicforum.uic.edu/) at [University of Illinois Chicago](http://uic.edu/).**
 <br /><br />
@@ -66,4 +66,4 @@ We would like to thank our sponsors for their generous support of the 2012 Galax
 </table>
 
 
-INCLUDE(Ask the Organizers)
+PLACEHOLDER_INCLUDE(Ask the Organizers)

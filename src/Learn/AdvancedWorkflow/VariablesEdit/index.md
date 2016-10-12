@@ -1,4 +1,4 @@
-INCLUDE(/Learn/LinkBox)
+PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 # Workflow Variables
 
 
@@ -48,4 +48,4 @@ When you run a tool, the result will be new boxes on the 'History' panel with na
 
 
 ## Source
-[https://bitbucket.org/galaxy/galaxy-central/src/87bf6a0324f3182ccf16ad18b662f80272f187bc/lib/galaxy/jobs/actions/post.py?at=default#cl-135](https://bitbucket.org/galaxy/galaxy-central/src/87bf6a0324f3182ccf16ad18b662f80272f187bc/lib/galaxy/jobs/actions/post.py?at=default#cl-135)
+[https://github.com/galaxyproject/galaxy/blob/dev/lib/galaxy/jobs/actions/post.py](https://github.com/galaxyproject/galaxy/blob/dev/lib/galaxy/jobs/actions/post.py)

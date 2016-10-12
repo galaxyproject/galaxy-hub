@@ -1,6 +1,9 @@
-INCLUDE(/Events/GCC2015/Header)
+---
+pagetitle: !, DataHack Roundup
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 
-<div class="title">!DataHack Roundup</div>
+
 
 
 <div class='dictbox'>
@@ -12,7 +15,7 @@ INCLUDE(/Events/GCC2015/Header)
  Contact:: [kreddy4@jhmi.edu](Karen Reddy)
 </div>
 
-<div class='left'><a href='/Events/GCC2015/BoFs/'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a></div>
+<div class='left'><a href='/Events/GCC2015/BoFs'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a></div>
 
 This page describes the **!DataHack roundup** [Birds of a Feather](/Events/GCC2015/BoFs) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 

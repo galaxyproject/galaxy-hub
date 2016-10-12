@@ -27,12 +27,12 @@ Galaxy now detects and supports many molecular datatypes. See [PR 1941](https://
 
 <table>
   <tr>
-    <td style=" border: none"> <span style="font-size: larger;"> Github </span> <br /><br /><strong>New</strong><br /><code>% git clone -b master https://github.com/galaxyproject/galaxy.git</code><br /><br />U<strong>pdate to latest stable release</strong><br /><code>% git checkout master && git pull --ff-only origin master</code><br /><br /><strong>Update to exact version</strong><br /><code>% git checkout v16.04</code> </td>
-    <td style=" vertical-align: top; border: none; width: 10%"> </td>
-    <td style=" vertical-align: top; border: none"> <span style="font-size: larger;"> !BitBucket </span> <br /><br /><strong>Upgrade</strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.04</code> </td>
+    <td style=" border: none;"> <span style="font-size: larger;"> Github </span> <br /><br /><strong>New</strong><br /><code>% git clone -b master https://github.com/galaxyproject/galaxy.git</code><br /><br />U<strong>pdate to latest stable release</strong><br /><code>% git checkout master && git pull --ff-only origin master</code><br /><br /><strong>Update to exact version</strong><br /><code>% git checkout v16.04</code> </td>
+    <td style=" vertical-align: top; border: none; width: 10%;"> </td>
+    <td style=" vertical-align: top; border: none;"> <span style="font-size: larger;"> !BitBucket </span> <br /><br /><strong>Upgrade</strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.04</code> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none"> See the <a href='/Admin/GetGalaxy/'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
+    <td colspan=3 style=" border: none;"> See the <a href='/Admin/GetGalaxy'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
   </tr>
 </table>
 
@@ -41,6 +41,6 @@ Galaxy now detects and supports many molecular datatypes. See [PR 1941](https://
 ***Thanks for using Galaxy!***
 
 <br />
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2016-05-18T18:20:35Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-05-18T18:20:35Z)</div>
 
 CategoryNews

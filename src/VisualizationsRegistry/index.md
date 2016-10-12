@@ -4,6 +4,7 @@ autotoc: true
 # The Visualizations Registry
 
 
+
 The visualizations registry and plugin framework provides an easy way to create new, custom visualizations for almost
 any data.
 
@@ -54,7 +55,7 @@ When testing to see if your new plugin has been loaded, it's useful to look for 
 are output around them.
 
 
-----
+---
 ## Configuring your visualization plugin in the `visualization_plugins_directory`
 
 The second step to creating a new visualization plugin is to create the directories and (initial) files that the plugin
@@ -98,7 +99,7 @@ config/plugins/visualizations/
 We'll cover each of these elements.
 
 
-----
+---
 ## The visualization configuration file
 
 The configuration file in your visualization's `config` directory allows you a number of options to control how and
@@ -246,7 +247,7 @@ Then, within `sam.mako`, we can access the ORM model of the `HistoryDatasetAssoc
 For more information on visualization configuration options see [/VisualizationsRegistry/Configuration](/VisualizationsRegistry/Configuration).
 
 
-----
+---
 ## Creating the code and markup for your visualization
 
 The code for your visualization begins with a Mako template file.
@@ -329,7 +330,7 @@ static directory:
 For more information on template or static code files see [/VisualizationsRegistry/Code](/VisualizationsRegistry/Code).
 
 
-----
+---
 ## Further examples
 
 For more examples on how the visualizations registry can be used see [/VisualizationsRegistry/Cookbook](/VisualizationsRegistry/Cookbook).

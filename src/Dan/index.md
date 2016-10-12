@@ -1,4 +1,5 @@
 
+#language en
 <div class='right'> ![GalaxyTeam/dan.jpg](/GalaxyTeam/dan.jpg) </div>
 
 # Dan Blankenberg
@@ -39,5 +40,5 @@ Working closely with other members of the Galaxy team, Dan has played a signific
 
 
 
-----
+---
 CategoryHomepage

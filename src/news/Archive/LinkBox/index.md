@@ -1,5 +1,5 @@
 <div class='linkbox'>**News Archive**
-----
+---
 [2016 Archive](/News/Archive/2016)<br />
 [2015 Archive](/News/Archive/2015)<br />
 [2014 Archive](/News/Archive/2014)<br />

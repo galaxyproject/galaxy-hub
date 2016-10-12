@@ -1,8 +1,10 @@
 ---
 autotoc: true
+pagetitle: December, ,,  2014 Galaxy Tool Shed Contributions
 ---
+<div class='right'></div>
 <br />
-<div class="title">December, 2014 Galaxy Tool Shed Contributions</div>
+
 <br />
 # About the Tool Shed
 [http://usegalaxy.org/toolshed](http://usegalaxy.org/toolshed) <br />

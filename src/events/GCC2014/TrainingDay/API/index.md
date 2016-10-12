@@ -1,11 +1,14 @@
-INCLUDE(/Events/GCC2014/Header)
+---
+pagetitle: Galaxy Automation, :,  Using the API
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 <br /><br />
 
-<div class="title">Galaxy Automation: Using the API</div>
 
-INCLUDE(/Events/GCC2014/LinkBox)
 
-<div class='right'> <a href='/Events/GCC2014/TrainingDay/'><img src='/Images/Logos/GCC2014TrainingDayLogoSquare.png' alt='GCC2014 Training Day' width="100" /></a></div>
+PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+
+<div class='right'> <a href='/Events/GCC2014/TrainingDay'><img src='/Images/Logos/GCC2014TrainingDayLogoSquare.png' alt='GCC2014 Training Day' width="100" /></a></div>
 
 
 [Slides](ATTACHMENT_URLThe Galaxy API (GCC2014 TD API).pdf)

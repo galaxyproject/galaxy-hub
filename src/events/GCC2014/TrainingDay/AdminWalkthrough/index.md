@@ -1,14 +1,15 @@
 ---
 autotoc: true
+pagetitle: Tutorial, :,  Galaxy Installation and Administration
 ---
-INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 <br /><br />
 
-<div class="title">Tutorial: Galaxy Installation and Administration</div>
 
-INCLUDE(/Events/GCC2014/LinkBox)
 
-<div class='right'> <a href='/Events/GCC2014/TrainingDay/'><img src='/Images/Logos/GCC2014TrainingDayLogoSquare.png' alt='GCC2014 Training Day' width="100" /></a></div>
+PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+
+<div class='right'> <a href='/Events/GCC2014/TrainingDay'><img src='/Images/Logos/GCC2014TrainingDayLogoSquare.png' alt='GCC2014 Training Day' width="100" /></a></div>
 
 [Nate Coraor](/nate) and [John Chilton](/JohnChilton)
 
@@ -16,6 +17,7 @@ INCLUDE(/Events/GCC2014/LinkBox)
 ![](https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png) #usegalaxy
 
 This this follow-along page assumes you have already installed and started a [Training Day VM](https://wiki.galaxyproject.org/Events/GCC2014/TrainingDay/VMs) - please do this before arriving.
+
 
 
 **This tool assumes you are using Firefox bundled with the VM.** Galaxy is compatible with all modern versions of Firefox, Chrome, Safari, and Internet Explorer. However, for the purposes of this tutorial it will help us when assisting people encountering problems if they are only using Firefox.
@@ -166,7 +168,7 @@ serving on 127.0.0.1:8080 view at http://127.0.0.1:8080
 * [Tutorial on installing tools from the Tool Shed](/Admin/Tools/AddToolFromToolShedTutorial)
 * [Current tools/ directory](https://bitbucket.org/galaxy/galaxy-central/src/3b42725359224832317a066d95dff596f93ab33f/tools?at=stable)
 * [Tool Shed hub page](/ToolShed)
-* [Tool Shed tour](/ToolShedTour)
+* [Tool Shed tour](/ToolShed/Tour)
 * [Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)
 
 ## Managing local data
@@ -350,7 +352,7 @@ allow_library_path_paste = True
 
 Explanations of these options:
 
-* `database_connection = postgresql:///gxprod?host=/var/run/postgresql` - Use a PostgreSQL database via a local UNIX domain socket (the socket is in `/var/run/postgresql`). [documentation](/Admin/Config/Performance/ProductionServer/#switching_to_a_database_server)
+* `database_connection = postgresql:///gxprod?host=/var/run/postgresql` - Use a PostgreSQL database via a local UNIX domain socket (the socket is in `/var/run/postgresql`). [documentation](/Admin/Config/Performance/ProductionServer#switching_to_a_database_server)
 * `database_engine_option_server_side_cursors = True` - Keep large SQL query results on the PostgreSQL server, rather the transferring the entire result set to the Galaxy processes.
 * `tool_dependency_dir = /home/gxprod/tool_deps` - The directory that will house tool dependencies
 * `static_enabled = False` - Static content will be served by the proxy server
@@ -369,7 +371,7 @@ Explanations of these options:
 Honorable mentions for features we won't use today but that are common in big setups:
 
 * `ftp_upload_dir` and `ftp_upload_site` - Allow users to upload data to the server using FTP
-* `use_remote_user` and `remote_user_maildomain` - Use your institution's existing authentication system to log in to Galaxy. [Apache documentation](/Admin/Config/ExternalUserDatbases) or [nginx documentation](/Admin/Config/nginxProxy/#external_user_authentication)
+* `use_remote_user` and `remote_user_maildomain` - Use your institution's existing authentication system to log in to Galaxy. [Apache documentation](/Admin/Config/ExternalUserDatbases) or [nginx documentation](/Admin/Config/nginxProxy#external_user_authentication)
 * `allow_user_impersonation` - Users configured as administrators (with `admin_users`) can "become" other users to view Galaxy exactly as the impersonated user does. Useful for providing support.
 * `user_library_import_dir` - Non-administrators can directly import datasets from this directory on this server to Data Libraries from which they have been given write permission. [documentation](/Admin/DataLibraries/UploadingLibraryFiles)
 * `object_store_config_file` - Configure Galaxy's "object storage" layer to store data in multiple filesystems, Amazon S3, iRODS, etc.
@@ -652,8 +654,8 @@ http {
             upload_store /home/gxprod/uploads;
             upload_store_access user:rw;
             upload_pass_form_field "";
-            upload_set_form_field "</u>${upload_field_name}<u>is_composite" "true";
-            upload_set_form_field "</u>${upload_field_name}<u>keys" "name path";
+            upload_set_form_field "<u>${upload_field_name}</u>is_composite" "true";
+            upload_set_form_field "<u>${upload_field_name}</u>keys" "name path";
             upload_set_form_field "${upload_field_name}_name" "$upload_file_name";
             upload_set_form_field "${upload_field_name}_path" "$upload_tmp_path";
             upload_pass_args on;

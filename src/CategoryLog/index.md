@@ -2,4 +2,4 @@ Pages that are [Galaxy Log Pages](/Community/Logs).
 
 **List of pages in this category:**
 
-<<FullSearchCached(CategoryLog)>>
+PLACEHOLDER_FULL_SEARCH_CACHE(CategoryLog)

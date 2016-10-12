@@ -18,6 +18,6 @@ Please add your organization to the above list.  You can do this by either:
 
 You can create a wiki page for your organization.  Pick a markup language for the page (see [MoinMoin help](/HelpOnFormatting) and [Creole help](/HelpOnCreoleSyntax)), enter your organization name in the appropriate box, and click the **Create** button.  
 Create a community page for your organization
-<<NewPage(Community/Template, "Create using MoinMoin syntax", Community)>>  or <<NewPage(Community/TemplateCreole, "Create using Creole syntax", Community)>>  
+PLACEHOLDER_NEW_PAGE(Community/Template, "Create using MoinMoin syntax", Community)>>  or <<NewPage(Community/TemplateCreole, "Create using Creole syntax", Community)  
 
 Edit and save the page.  Once you have created your organization's community page, edit this page and add a link to it in the above list.

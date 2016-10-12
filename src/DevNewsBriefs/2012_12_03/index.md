@@ -1,24 +1,26 @@
 ---
 autotoc: true
+pagetitle: December 03, ,,  2012 Galaxy Development News Brief
 ---
+<div class='right'></div>
 
-<div class="title">December 03, 2012 Galaxy Development News Brief</div>
+
 
 <br />
 # Get Galaxy
 
 <table>
   <tr>
-    <td rowspan=3 style=" border: none"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td colspan=2 style=" border: none;"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>new</strong>: </td>
-    <td style=" border: none"> <code> $ hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist </code> </td>
+    <td style=" border: none;"> <strong>new</strong>: </td>
+    <td style=" border: none;"> <code> $ hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist </code> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>upgrade</strong>: </td>
-    <td style=" border: none"> <code> $ hg pull -u -r f364d992270c </code> </td>
+    <td style=" border: none;"> <strong>upgrade</strong>: </td>
+    <td style=" border: none;"> <code> $ hg pull -u -r f364d992270c </code> </td>
   </tr>
 </table>
 
@@ -177,7 +179,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 
 [/News](/News), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_12)***
 
-<div class='right'><a href='/Events/GCC2013/TrainingDay/'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="175px" /></a></div>
+<div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="175px" /></a></div>
 
 * [Training Day Topic Nominations](/Events/GCC2013/TrainingDay) for [GCC2013](/Events/GCC2013) will open in December.  Start thinking of ideas now!
 * Slides and Screencast from [November GalaxyAdmins Meetup](/Community/GalaxyAdmins/Meetups/2012_11_14) are online.  The next [GalaxyAdmins Meetup](/Community/GalaxyAdmins/Meetups) will be on [January 16](/Community/GalaxyAdmins/Meetups/2013_01_16) and feature [John Chilton](/JohnChilton) discussing "Deploying Galaxy on !OpenStack with !CloudBioLinux & CloudMan"
@@ -185,7 +187,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 * [Batch Workflow starting using the Galaxy API : Practical Example by Geert Vandeweyer](http://bit.ly/TjTj6X)
 
 <br />
-----
+---
 <br />
 # About Galaxy
 **[GalaxyProject.org](http://galaxyproject.org)**

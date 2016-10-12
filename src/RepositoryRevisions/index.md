@@ -4,6 +4,7 @@ autotoc: true
 <div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Main Tool Shed' height="174" /></a> </div>
 
 
+
 # Adding additional change sets to the initial change set in a repository
 
 For this discussion we'll assume we have created our favorite repository named **filter**, and added a single change set that includes version 1.1.0 of the tool.  Here is a view of the current repository change log.  Notice the grey highlighted phrase: **Repository metadata is associated with this change set.**  Before we go further in our discussion about adding additional change sets, let's discuss repository metadata.

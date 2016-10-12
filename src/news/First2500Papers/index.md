@@ -8,9 +8,9 @@ To be included in the library a publication needs to reference or mention Galaxy
 
 Here's a review of those first 2500 papers.
 
-<span style="font-size: larger;">**[The Tags](/CiteULike/#citeulike-tags)**</span>
+<span style="font-size: larger;">**[The Tags](/CiteULike#citeulike-tags)**</span>
 
-Each paper is reviewed and one or more tags are added to it.  The initial set featured 9 tags.  This wasn't quite enough, and 8 more were added in 2013, bringing the [total to 17](/CiteULike/#citeulike-tags).  (Papers from 2012 were back-curated with the new tags, but not before that.)  The numbers for each tag in each year for the first 2500 papers are below.
+Each paper is reviewed and one or more tags are added to it.  The initial set featured 9 tags.  This wasn't quite enough, and 8 more were added in 2013, bringing the [total to 17](/CiteULike#citeulike-tags).  (Papers from 2012 were back-curated with the new tags, but not before that.)  The numbers for each tag in each year for the first 2500 papers are below.
 
 <table>
   <tr>
@@ -34,13 +34,13 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td> </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 2 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 15 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 26 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 50 </td>
-    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff"> 92 </td>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 196 </td>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 260 </td>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 325 </td>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 258 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 26 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 50 </td>
+    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 92 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 196 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 260 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 325 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 258 </td>
     <td style=" text-align: right;"> <strong>1224</strong> </td>
   </tr>
   <tr>
@@ -50,12 +50,12 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right; background-color: #9fc5e8;"> 7 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 11 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 18 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 36 </td>
-    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff"> 68 </td>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 127 </td>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 151 </td>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 205 </td>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 121 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 36 </td>
+    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 68 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 127 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 151 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 205 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 121 </td>
     <td style=" text-align: right;"> <strong>748</strong> </td>
   </tr>
   <tr>
@@ -68,9 +68,9 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td> </td>
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 3 </td>
-    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff"> 89 </td>
-    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff"> 95 </td>
-    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff"> 64 </td>
+    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 89 </td>
+    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 95 </td>
+    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 64 </td>
     <td style=" text-align: right;"> <strong>253</strong> </td>
   </tr>
   <tr>
@@ -82,10 +82,10 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right; background-color: #cfe2f3;"> 3 </td>
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 8 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 28 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 36 </td>
-    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff"> 67 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 37 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 28 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 36 </td>
+    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 67 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 37 </td>
     <td style=" text-align: right;"> <strong>180</strong> </td>
   </tr>
   <tr>
@@ -99,8 +99,8 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td> </td>
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 15 </td>
-    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff"> 57 </td>
-    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff"> 77 </td>
+    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 57 </td>
+    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 77 </td>
     <td style=" text-align: right;"> <strong>150</strong> </td>
   </tr>
   <tr>
@@ -113,9 +113,9 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right; background-color: #cfe2f3;"> 5 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 16 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 15 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 26 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 45 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 24 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 26 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 45 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 24 </td>
     <td style=" text-align: right;"> <strong>135</strong> </td>
   </tr>
   <tr>
@@ -128,9 +128,9 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td> </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 2 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 13 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 22 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 38 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 24 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 22 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 38 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 24 </td>
     <td style=" text-align: right;"> <strong>100</strong> </td>
   </tr>
   <tr>
@@ -143,9 +143,9 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td> </td>
     <td> </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 2 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 28 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 41 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 27 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 28 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 41 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 27 </td>
     <td style=" text-align: right;"> <strong>98</strong> </td>
   </tr>
   <tr>
@@ -158,8 +158,8 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 7 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 13 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 21 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 24 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 21 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 24 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 17 </td>
     <td style=" text-align: right;"> <strong>84</strong> </td>
   </tr>
@@ -174,8 +174,8 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td> </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 8 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 8 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 38 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 21 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 38 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 21 </td>
     <td style=" text-align: right;"> <strong>77</strong> </td>
   </tr>
   <tr>
@@ -189,8 +189,8 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td> </td>
     <td> </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 10 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 28 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 26 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 28 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 26 </td>
     <td style=" text-align: right;"> <strong>64</strong> </td>
   </tr>
   <tr>
@@ -204,7 +204,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
     <td style=" text-align: right; background-color: #9fc5e8;"> 6 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 7 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 8 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 24 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 24 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 12 </td>
     <td style=" text-align: right;"> <strong>57</strong> </td>
   </tr>
@@ -372,12 +372,12 @@ Finally, the total number of papers per year continues to increase, and we expec
 
 <br />
 
-We will continue to report new papers in the [monthly Galaxy newsletters](/GalaxyUpdates).  New [tags](/CiteULike/#citeulike-tags) may also show up as the project and community evolve.
+We will continue to report new papers in the [monthly Galaxy newsletters](/GalaxyUpdates).  New [tags](/CiteULike#citeulike-tags) may also show up as the project and community evolve.
 
 In the meantime, I expect the next 2500 papers will be published in considerably less than time than the first 2500.  I'm looking forward to all that research
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2015-08-12T22:39:55Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-08-12T22:39:55Z)</div>
 
 CategoryNews

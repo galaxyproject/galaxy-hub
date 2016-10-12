@@ -12,13 +12,13 @@
 * **Collection Creators** - New widgets have been added that allow much more flexibility when creating simple dataset pair and list collections.
 
 ## Get Galaxy
-INCLUDE(/Admin/GetGalaxy/Short)
+PLACEHOLDER_INCLUDE(/Admin/GetGalaxy/Short)
 
 
 
 *Thanks for using Galaxy!* <br />
 [The Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2015-05-11T16:14:40Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-05-11T16:14:40Z)</div>
 
 CategoryNews

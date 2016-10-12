@@ -1,13 +1,15 @@
 ---
 autotoc: true
+pagetitle: Abstract submission is now closed
 ---
-INCLUDE(/Events/GCC2012/PageHeader)
+PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 
-INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(../LinkBox)
 
-<div class="title">Abstracts</div>
+
 
 Abstracts for talks that were presented at the [GCC2012 main sessions](../Program).  See [Training Day](/Events/GCC2012/TrainingDay) for training abstracts.
+
 
 
 <br /><br />
@@ -468,10 +470,10 @@ Big changes have been going on in how tools are packaged with the distribution. 
 
 <br />
 
-<div class="title">Submissions</div>
+
 
 <div class='center'>
-<div class="title">Abstract submission is now closed</div>
+
 </div>
 
 The [deadline for abstracts was April 16](/Events/GCC2012/Key Dates).
@@ -487,4 +489,4 @@ Oral presentations will be approximately 15-20 minutes long, including time for 
 1. **Make any slides freely available on this web site, no later than August 15, 2012.**
 1. **Have your talk be videotaped and have that videotape be publicly accessible on the web.**<br />(Note: We may or may not have sufficient funds to record talks.)
 
-INCLUDE(../Ask the Organizers)
+PLACEHOLDER_INCLUDE(../Ask the Organizers)

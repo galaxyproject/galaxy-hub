@@ -1,12 +1,14 @@
 ---
 autotoc: true
+pagetitle: Computing Platforms for Teaching with Galaxy
 ---
-INCLUDE(/Teach/Header)
-
-<div class="title">Computing Platforms for Teaching with Galaxy</div>
+PLACEHOLDER_INCLUDE(/Teach/Header)
 
 
-INCLUDE(/Teach/LinkBox)
+
+<div class='right'></div>
+
+PLACEHOLDER_INCLUDE(/Teach/LinkBox)
 
 Just as [there are many platform choices for using Galaxy](/BigPicture/Choices), there are many platform choices for training with Galaxy.  This page discusses the different options and plusses and minuses of each.  Options [are summarized below](#the-bottom-line-which-platform-to-use).
 
@@ -59,17 +61,17 @@ It depends on what you are teaching, and what you have access to.
 <table>
   <tr>
     <th rowspan=5 style=" text-align: center;"> Teaching </th>
-    <td rowspan=5 style=" border: none"> </td>
+    <td rowspan=5 style=" border: none;"> </td>
     <th colspan=11 style=" text-align: center;"> Platform </th>
   </tr>
   <tr>
-    <td colspan=11 style=" border: none text-align: center;"> </td>
+    <td colspan=11 style=" border: none; text-align: center;"> </td>
   </tr>
   <tr class="th" >
     <th colspan=3 style=" text-align: center;"> <a href='#pre-existing-servers'>Pre-existing</a> </th>
-    <th> <|3 style="border: none" #FFFFFF> </th>
+    <th rowspan=3 style=" border: none; background-color: #FFFFFF;"> </th>
     <th colspan=3 style=" text-align: center;"> <a href='#cloud-based-galaxy-servers'>Cloud-Based</a> </th>
-    <th> <|3 style="border: none" #FFFFFF> </th>
+    <th rowspan=3 style=" border: none; background-color: #FFFFFF;"> </th>
     <th colspan=2 rowspan=2 style=" text-align: center;"> <a href='#laptop-based-galaxy-servers'>Laptop-Based</a> </th>
   </tr>
   <tr class="th" >
@@ -86,45 +88,45 @@ It depends on what you are teaching, and what you have access to.
     <th style=" text-align: center;"> <a href='#virtual-machine-images'>Using VM Image</a> </th>
   </tr>
   <tr>
-    <td colspan=13 style=" border: none"> </td>
+    <td colspan=13 style=" border: none;"> </td>
   </tr>
   <tr>
     <th> Using Galaxy for Light analysis </th>
-    <td style=" border: none"> </td>
-    <td style=" background-color: #cccccc; color: #888888 text-align: center;"> No </td>
-    <td> <: #ffff88> <a href='#local-galaxy-servers'>Maybe</a> </td>
-    <td> <: #ffff88> <a href='#public-galaxy-servers'>Maybe</a> </td>
+    <td style=" border: none;"> </td>
+    <td style=" background-color: #cccccc; color: #888888; text-align: center;"> No </td>
+    <td style=" text-align: center; background-color: #ffff88;"> <a href='#local-galaxy-servers'>Maybe</a> </td>
+    <td style=" text-align: center; background-color: #ffff88;"> <a href='#public-galaxy-servers'>Maybe</a> </td>
     <td rowspan=3> </td>
-    <td> <: #88ff88> <a href='#shared-servers-on-the-cloud'>Yes</a> </td>
-    <td> <: #88ff88> <a href='#personal-servers-with-cloudman'>Yes</a> </td>
-    <td style=" background-color: #cccccc; color: #888888 text-align: center;"> No </td>
+    <td style=" text-align: center; background-color: #88ff88;"> <a href='#shared-servers-on-the-cloud'>Yes</a> </td>
+    <td style=" text-align: center; background-color: #88ff88;"> <a href='#personal-servers-with-cloudman'>Yes</a> </td>
+    <td style=" background-color: #cccccc; color: #888888; text-align: center;"> No </td>
     <td rowspan=3> </td>
-    <td style=" background-color: #cccccc; color: #888888 text-align: center;"> No </td>
-    <td> <: #88ff88> <a href='#virtual-machine-images'>Yes</a> </td>
+    <td style=" background-color: #cccccc; color: #888888; text-align: center;"> No </td>
+    <td style=" text-align: center; background-color: #88ff88;"> <a href='#virtual-machine-images'>Yes</a> </td>
   </tr>
   <tr>
     <th> Using Galaxy for Heavy analysis </th>
-    <td style=" border: none"> </td>
-    <td style=" background-color: #cccccc; color: #888888 text-align: center;"> No </td>
-    <td> <: #ffff88> <a href='#local-galaxy-servers'>Maybe</a> </td>
-    <td> <: #ffff88> <a href='#public-galaxy-servers'>Maybe</a> </td>
-    <td> <: #88ff88> <a href='#shared-servers-on-the-cloud'>Yes</a> </td>
-    <td> <: #88ff88> <a href='#personal-servers-with-cloudman'>Yes</a> </td>
-    <td style=" background-color: #cccccc; color: #888888 text-align: center;"> No </td>
-    <td style=" background-color: #cccccc; color: #888888 text-align: center;"> No </td>
-    <td style=" background-color: #cccccc; color: #888888 text-align: center;"> No </td>
+    <td style=" border: none;"> </td>
+    <td style=" background-color: #cccccc; color: #888888; text-align: center;"> No </td>
+    <td style=" text-align: center; background-color: #ffff88;"> <a href='#local-galaxy-servers'>Maybe</a> </td>
+    <td style=" text-align: center; background-color: #ffff88;"> <a href='#public-galaxy-servers'>Maybe</a> </td>
+    <td style=" text-align: center; background-color: #88ff88;"> <a href='#shared-servers-on-the-cloud'>Yes</a> </td>
+    <td style=" text-align: center; background-color: #88ff88;"> <a href='#personal-servers-with-cloudman'>Yes</a> </td>
+    <td style=" background-color: #cccccc; color: #888888; text-align: center;"> No </td>
+    <td style=" background-color: #cccccc; color: #888888; text-align: center;"> No </td>
+    <td style=" background-color: #cccccc; color: #888888; text-align: center;"> No </td>
   </tr>
   <tr>
     <th> Installing & Administering Galaxy </th>
-    <td style=" border: none"> </td>
-    <td style=" background-color: #cccccc; color: #888888 text-align: center;"> No </td>
-    <td style=" background-color: #cccccc; color: #888888 text-align: center;"> No </td>
-    <td style=" background-color: #cccccc; color: #888888 text-align: center;"> No </td>
-    <td style=" background-color: #cccccc; color: #888888 text-align: center;"> No </td>
-    <td> <#88ff88 :> <a href='#personal-servers-with-cloudman'>Yes</a> </td>
-    <td> <#88ff88 :> <a href='#from-the-command-line-using-an-ami'>Yes</a> </td>
-    <td> <: #ffff88> <a href='#using-the-laptops-os'>Maybe</a> </td>
-    <td> <#88ff88 :> <a href='#virtual-machine-images'>Yes</a> </td>
+    <td style=" border: none;"> </td>
+    <td style=" background-color: #cccccc; color: #888888; text-align: center;"> No </td>
+    <td style=" background-color: #cccccc; color: #888888; text-align: center;"> No </td>
+    <td style=" background-color: #cccccc; color: #888888; text-align: center;"> No </td>
+    <td style=" background-color: #cccccc; color: #888888; text-align: center;"> No </td>
+    <td style=" background-color: #88ff88 ; text-align: center;"> <a href='#personal-servers-with-cloudman'>Yes</a> </td>
+    <td style=" background-color: #88ff88 ; text-align: center;"> <a href='#from-the-command-line-using-an-ami'>Yes</a> </td>
+    <td style=" text-align: center; background-color: #ffff88;"> <a href='#using-the-laptops-os'>Maybe</a> </td>
+    <td style=" background-color: #88ff88 ; text-align: center;"> <a href='#virtual-machine-images'>Yes</a> </td>
   </tr>
 </table>
 
@@ -141,9 +143,9 @@ There are many Galaxy servers that already exist.  Some of them may be useful fo
     <th colspan=3> Appropriate for teaching </th>
   </tr>
   <tr>
-    <td style=" background-color: #cccccc; color: #888888"> Light Use </td>
-    <td style=" background-color: #cccccc; color: #888888"> Heavy Use </td>
-    <td style=" background-color: #cccccc; color: #888888"> Admin </td>
+    <td style=" background-color: #cccccc; color: #888888;"> Light Use </td>
+    <td style=" background-color: #cccccc; color: #888888;"> Heavy Use </td>
+    <td style=" background-color: #cccccc; color: #888888;"> Admin </td>
   </tr>
 </table>
 
@@ -163,7 +165,7 @@ There are many Galaxy servers that already exist.  Some of them may be useful fo
   <tr>
     <td style=" background-color: #ffff88;"> <a href='#teaching-use'>Light Use</a> </td>
     <td style=" background-color: #ffff88;"> <a href='#teaching-use'>Heavy Use</a> </td>
-    <td style=" background-color: #cccccc; color: #888888"> Admin </td>
+    <td style=" background-color: #cccccc; color: #888888;"> Admin </td>
   </tr>
 </table>
 
@@ -183,7 +185,7 @@ However, a class full of people all doing, say, assembly will stress any server 
   <tr>
     <td style=" background-color: #ffff88;"> <a href='#teaching-use'>Light Use</a> </td>
     <td style=" background-color: #ffff88;"> <a href='#teaching-use'>Heavy Use</a> </td>
-    <td style=" background-color: #cccccc; color: #888888"> Admin </td>
+    <td style=" background-color: #cccccc; color: #888888;"> Admin </td>
   </tr>
 </table>
 
@@ -203,7 +205,7 @@ This option describes Galaxy servers that are created for teaching purposes.
 
 </div>
 
-<div class='right'><a href='/CloudMan/'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="150" /></a></div>
+<div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="150" /></a></div>
 
 CloudMan software abstracts much of the details of different [/Cloud](/Cloud) infrastructures and provides a uniform graphical interface for managing cloud-based servers.  
 
@@ -225,7 +227,7 @@ If you are considering using a cloud-based platform, then you are encouraged to 
   <tr>
     <td style=" background-color: #88ff88;"> <a href='#teaching-use'>Light Use</a> </td>
     <td style=" background-color: #88ff88;"> <a href='#teaching-use'>Heavy Use</a> </td>
-    <td style=" background-color: #cccccc; color: #888888"> Admin </td>
+    <td style=" background-color: #cccccc; color: #888888;"> Admin </td>
   </tr>
 </table>
 
@@ -263,15 +265,15 @@ Participants can set up their own CloudMan-based Galaxy server.  This can be don
     <th colspan=3> Appropriate for teaching </th>
   </tr>
   <tr>
-    <td style=" background-color: #cccccc; color: #888888"> Light Use </td>
-    <td style=" background-color: #cccccc; color: #888888"> Heavy Use </td>
+    <td style=" background-color: #cccccc; color: #888888;"> Light Use </td>
+    <td style=" background-color: #cccccc; color: #888888;"> Heavy Use </td>
     <td style=" background-color: #88ff88;"> <a href='#teaching-admin'>Admin</a> </td>
   </tr>
 </table>
 
 </div>
 
-*Amazon Machine Images (AMIs)* are a type of virtual machine image (see below) that runs on the Amazon Web Services infrastructure.  Using an AMI to [teach Galaxy installation and management](#teaching-admin) is a great option, and you can determine how much has already been done on the image, from a bare-bones Linux install to an image with the Galaxy source already cloned from Bitbucket.
+*Amazon Machine Images (AMIs)* are a type of virtual machine image (see below) that runs on the Amazon Web Services infrastructure.  Using an AMI to [teach Galaxy installation and management](#teaching-admin) is a great option, and you can determine how much has already been done on the image, from a bare-bones Linux install to an image with the Galaxy source already cloned from !GitHub.
 
 ## Laptop-Based Galaxy Servers
 
@@ -285,8 +287,8 @@ Another option is to have students install and run their own Galaxy servers on t
     <th colspan=3> Appropriate for teaching </th>
   </tr>
   <tr>
-    <td style=" background-color: #cccccc; color: #888888"> Light Use </td>
-    <td style=" background-color: #cccccc; color: #888888"> Heavy Use </td>
+    <td style=" background-color: #cccccc; color: #888888;"> Light Use </td>
+    <td style=" background-color: #cccccc; color: #888888;"> Heavy Use </td>
     <td style=" background-color: #ffff88;"> <a href='#teaching-admin'>Admin</a> </td>
   </tr>
 </table>
@@ -304,7 +306,7 @@ If the laptop uses MacOS or Linux as it's operating system then it is possible t
   </tr>
   <tr>
     <td style=" background-color: #88ff88;"> <a href='#teaching-use'>Light Use</a> </td>
-    <td style=" background-color: #cccccc; color: #888888"> Heavy Use </td>
+    <td style=" background-color: #cccccc; color: #888888;"> Heavy Use </td>
     <td style=" background-color: #88ff88;"> <a href='#teaching-admin'>Admin</a> </td>
   </tr>
 </table>

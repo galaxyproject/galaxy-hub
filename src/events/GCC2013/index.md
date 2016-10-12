@@ -1,6 +1,6 @@
-INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 
-INCLUDE(/Events/GCC2013/LinkBox)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
 
 The **2013 Galaxy Community Conference (GCC2013)** was held at the University of Oslo in Oslo Norway, from 30 June through 2 July.
 
@@ -55,10 +55,10 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='Sponsorships/'><img src='/Events/GCC2013/Sponsorships/PlatinumBanner.png' alt='Platinum Sponsor' width="80%" /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='Sponsorships'><img src='/Events/GCC2013/Sponsorships/PlatinumBanner.png' alt='Platinum Sponsor' width="80%" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='http://www.lifetechnologies.com/'><img src='/Images/Logos/IonTorrentLogo340.png' alt='Ion Torrent by Life Technologies' width="320" /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.lifetechnologies.com/'><img src='/Images/Logos/IonTorrentLogo340.png' alt='Ion Torrent by Life Technologies' width="320" /></a> </td>
   </tr>
 </table>
 
@@ -66,12 +66,12 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <table>
   <tr>
-    <td colspan=3 style=" text-align: center; border: none"> <a href='Sponsorships/'><img src='/Events/GCC2013/Sponsorships/GoldBanner.png' alt='Gold Sponsors' width="80%" /></a> </td>
+    <td colspan=3 style=" text-align: center; border: none;"> <a href='Sponsorships'><img src='/Events/GCC2013/Sponsorships/GoldBanner.png' alt='Gold Sponsors' width="80%" /></a> </td>
   </tr>
   <tr>
-    <td style=" border: none text-align: center;"> <a href='http://www.emc.com/isilon'><img src='/Images/Logos/EMCIsilonLogo.jpg' alt='EMC Isilon' width="340" /></a> </td>
-    <td style=" border: none; width: 10% text-align: center;"> </td>
-    <td style=" border: none text-align: center;"> <a href='http://bioteam.net/'><img src='/Images/Logos/BioTeamLogo154.gif/' alt='BioTeam' width="200" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://www.emc.com/isilon'><img src='/Images/Logos/EMCIsilonLogo.jpg' alt='EMC Isilon' width="340" /></a> </td>
+    <td style=" border: none; width: 10%; text-align: center;"> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://bioteam.net/'><img src='/Images/Logos/BioTeamLogo154.gif' alt='BioTeam' width="200" /></a> </td>
   </tr>
 </table>
 
@@ -79,13 +79,13 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 <br /><br />
 <table>
   <tr>
-    <td style=" border: none text-align: center;"> <a href='Sponsorships/'><img src='/Events/GCC2013/Sponsorships/SilverBanner.png' alt='Silver Sponsor' width="95%" /></a> </td>
-    <td colspan=2 style=" border: none text-align: center;"> <a href='Sponsorships/'><img src='/Events/GCC2013/Sponsorships/BronzeBanner.png' alt='Bronze Sponsors' width="95%" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='Sponsorships'><img src='/Events/GCC2013/Sponsorships/SilverBanner.png' alt='Silver Sponsor' width="95%" /></a> </td>
+    <td colspan=2 style=" border: none; text-align: center;"> <a href='Sponsorships'><img src='/Events/GCC2013/Sponsorships/BronzeBanner.png' alt='Bronze Sponsors' width="95%" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='http://www.gigasciencejournal.com/'><img src='/Images/Logos/GigaScienceLogo250.png' alt='GigaScience Journal' width="40%" /></a> </td>
-    <td style=" border: none text-align: center;"> <a href='http://www.illumina.com/'><img src='/Images/Logos/IlluminaLogo250.png' alt='Illumina' width="160" /></a> </td>
-    <td style=" border: none text-align: center;"> <a href='http://globus.org/genomics'><img src='/Images/Logos/GlobusGenomics.png' alt='Globus Genomics' width="150" /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.gigasciencejournal.com/'><img src='/Images/Logos/GigaScienceLogo250.png' alt='GigaScience Journal' width="40%" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://www.illumina.com/'><img src='/Images/Logos/IlluminaLogo250.png' alt='Illumina' width="160" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://globus.org/genomics'><img src='/Images/Logos/GlobusGenomics.png' alt='Globus Genomics' width="150" /></a> </td>
   </tr>
 </table>
 
@@ -94,11 +94,11 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 <table>
   <tr>
     <td> </td>
-    <td style=" border: none text-align: center;"> <a href='Sponsorships/'><img src='/Events/GCC2013/Sponsorships/OtherBanner.png' alt='Other Sponsors' width="80%" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='Sponsorships'><img src='/Events/GCC2013/Sponsorships/OtherBanner.png' alt='Other Sponsors' width="80%" /></a> </td>
   </tr>
   <tr>
     <td> </td>
-    <td style=" text-align: center; border: none"> <a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo400.png' alt='Amazon Web Services' width="50%" /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo400.png' alt='Amazon Web Services' width="50%" /></a> </td>
   </tr>
 </table>
 
@@ -106,20 +106,20 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='Sponsorships/'><img src='/Events/GCC2013/Sponsorships/HostsBanner.png' alt='Hosts and Funding Agencies' width="80%" /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='Sponsorships'><img src='/Events/GCC2013/Sponsorships/HostsBanner.png' alt='Hosts and Funding Agencies' width="80%" /></a> </td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='http://www.uio.no/english/research/interfaculty-research-areas/mls/'><img src='/Images/Logos/MLSUiOLogo.png' alt='Molecular Life Science at the University of Oslo' height=120 /></a> </td>
-    <td style=" text-align: center; border: none"> &nbsp;&nbsp; <a href='http://www.forskningsradet.no/english/'><img src='/Images/Logos/ResearchCouncilNorway500.png' alt='The Research Council of Norway' width="400" /></a> </td>
-    <td style=" text-align: center; border: none"> &nbsp;&nbsp; <a href='http://www.bioinfo.no/about/'><img src='/Images/Logos/FUGE.png' alt='Functional Genomics' height=120 /></a> &nbsp;&nbsp; </td>
-    <td style=" text-align: center; border: none"> <a href='http://www.elixir-europe.org/'><img src='/Images/Logos/ElixirNoTextLogo.png' alt='Elixer' height=120 /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.uio.no/english/research/interfaculty-research-areas/mls/'><img src='/Images/Logos/MLSUiOLogo.png' alt='Molecular Life Science at the University of Oslo' height=120 /></a> </td>
+    <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://www.forskningsradet.no/english/'><img src='/Images/Logos/ResearchCouncilNorway500.png' alt='The Research Council of Norway' width="400" /></a> </td>
+    <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://www.bioinfo.no/about/'><img src='/Images/Logos/FUGE.png' alt='Functional Genomics' height=120 /></a> &nbsp;&nbsp; </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.elixir-europe.org/'><img src='/Images/Logos/ElixirNoTextLogo.png' alt='Elixer' height=120 /></a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" border: none text-align: center;"> <a href='http://uio.no/'><img src='/Images/Logos/UiOLogo.png' alt='University of Oslo'  /></a> </td>
+    <td colspan=4 style=" border: none; text-align: center;"> <a href='http://uio.no/'><img src='/Images/Logos/UiOLogo.png' alt='University of Oslo'  /></a> </td>
   </tr>
 </table>
 
@@ -128,4 +128,4 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 *Interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Become a [meeting sponsor](Sponsorships).*
 
-INCLUDE(/Events/GCC2013/Footer)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Footer)

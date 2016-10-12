@@ -3,6 +3,16 @@
 Return to [/Support](/Support)
 
 ## Reference Genome Contents
+
+```
+
+To learn quickly what the identifiers are in any BAM dataset, do the following:
+
+1. Run BAM-to-SAM on the aligned data outputting just the SAM header. The chromosomes will be listed in the header. Compare these chromosome identifiers between the chromosome (aka "Chrom") field in all other inputs: VCF, GTF, GFF(3), BED, Interval, etc.
+
+```
+
+
 ```
 
 To learn what the identifiers are for any UCSC database, do one of the following:
@@ -15,10 +25,10 @@ To learn what the identifiers are for any UCSC database, do one of the following
 
 
 ## Adjusting Identifiers
-This method will be successful for many Ensembl -> UCSC adjustments, but not all. Confirm that all chromosomes will match after the "chr" is added. If any will not convert with this method, then associated lines will be omitted from the analysis (by some tools) and trigger warnings or errors with others. If all will not convert, then either an alternate input file or a Custom Reference Genome with Ensemble-based chromosome identifiers used.
+This method will be successful for many Ensembl -> UCSC adjustments, but not all. Confirm that all chromosomes will match after the "chr" is added. If any will not convert with this method, then associated lines will be omitted from the analysis (by some tools) and trigger warnings or errors with others. If all will not convert, then either an alternate input file or a [Custom Reference Genome](/Support#custom_reference_genome) with *Ensembl-based chromosome identifiers* should be used for the analysis instead.
 
 ```
-Example: A BED formatted file with Ensembl-based chromosome identifiers to be used with a a tool that makes use of a locally-cashed UCSC-sourced reference genome. The underlying reference genome is otherwise identical.
+Example: A BED formatted file with Ensembl-based chromosome identifiers to be used with a tool that makes use of a locally-cashed UCSC-sourced reference genome. The underlying reference genome is otherwise identical.
 
 Add a "chr" to the chromosome name, so that "N" becomes "chrN".
 

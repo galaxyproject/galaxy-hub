@@ -1,10 +1,12 @@
 ---
 autotoc: true
+pagetitle: September 2014 Galaxy Update
 ---
-<div class="title">September 2014 Galaxy Update</div>
 
 
-<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='right'></div>
+
+<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the September 2014 *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -38,10 +40,10 @@ There are a wealth of Galaxy related events in Europe this fall. Events include 
 These events are a great way to meet other Galaxy users and developers and learn and share best practices. If you're in Europe and are interested in learning more about Galaxy and/or the community, then please give these a look.
 
 <div class='center'> 
-<a href='/Events/ECCB2014/'><img src='/Images/Logos/ECCB2014Logo.png' alt='Galaxy at ECCB' height="80" /></a>
+<a href='/Events/ECCB2014'><img src='/Images/Logos/ECCB2014Logo.png' alt='Galaxy at ECCB' height="80" /></a>
 <a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'><img src='/Images/Logos/eBiogenouestLogo.png' alt='Tools integration on Galaxy' height="80" /></a> &nbsp;
 <a href='http://www.bioinformatica.crs4.it/training'><img src='/Images/Logos/CRS4Logo.jpg' alt='Analisi dati Next Generation Sequencing con Galaxy' width="130" /></a> &nbsp;
-<a href='/Events/SG2014/'><img src='/Images/Logos/SG2014Logo400.png' alt='2014 Swiss German Galaxy Tour' height="90" /></a>
+<a href='/Events/SG2014'><img src='/Images/Logos/SG2014Logo400.png' alt='2014 Swiss German Galaxy Tour' height="90" /></a>
 </div>
 
 <table>
@@ -53,67 +55,67 @@ These events are a great way to meet other Galaxy users and developers and learn
   </tr>
   <tr>
     <th> September 6-10 </th>
-    <td> <a href='/Events/ECCB2014/'>At least one tutorial, a panel of European Public Galaxy Instances, and 5 posters</a> </td>
-    <td> </strong><a href='/Events/ECCB2014/'>European Conference on Computational Biology (ECCB'14)</a><strong>, Strasbourg, France </td>
-    <td> <a href='/Events/ECCB2014/'>Presenters</a> </td>
+    <td> <a href='/Events/ECCB2014'>At least one tutorial, a panel of European Public Galaxy Instances, and 5 posters</a> </td>
+    <td> </strong><a href='/Events/ECCB2014'>European Conference on Computational Biology (ECCB'14)</a><strong>, Strasbourg, France </td>
+    <td> <a href='/Events/ECCB2014'>Presenters</a> </td>
   </tr>
   <tr>
     <th> September 11 </th>
-    <td> <em><a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'>Tools integration on Galaxy</a></em><div class='indent'>This event is full.</div> </td>
+    <td> </em><a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'>Tools integration on Galaxy</a><em><div class='indent'>This event is full.</div> </td>
     <td> <a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest</a>, Rennes, France </td>
     <td> <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud</a>, <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
   </tr>
   <tr>
     <th> September 15 </th>
-    <td> <em><a href='http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo'>Fourth GUGGO meeting</a></em> </td>
+    <td> </em><a href='http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo'>Fourth GUGGO meeting</a><em> </td>
     <td> <a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest</a>, Rennes, France </td>
     <td> <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud</a>, <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
   </tr>
   <tr>
     <th> September 23-25 </th>
-    <td> <em><a href='http://www.bioinformatica.crs4.it/next_generation_sequencing_course_with_galaxy_september_2014'>Analisi dati Next Generation Sequencing con Galaxy</a></em> </td>
+    <td> </em><a href='http://www.bioinformatica.crs4.it/next_generation_sequencing_course_with_galaxy_september_2014'>Analisi dati Next Generation Sequencing con Galaxy</a><em> </td>
     <td> Cagliari, Italy </td>
     <td> <a href="mailto:ngs-courses@crs4.it">CRS4</a> </td>
   </tr>
   <tr>
     <th> September 24 </th>
-    <td> <em><a href='http://training.csx.cam.ac.uk/event/1222231'>Introduction to Galaxy - Data Manipulation and Visualisation</a></em> </td>
+    <td> </em><a href='http://training.csx.cam.ac.uk/event/1222231'>Introduction to Galaxy - Data Manipulation and Visualisation</a><em> </td>
     <td> University of Cambridge, United Kingdom </td>
     <td> Anne Pajon, Jing Su </td>
   </tr>
   <tr>
     <th> September 25 </th>
-    <td> <em><a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-de-type-rad-par-le-pipeline-stacks-sous-la-plateforme-web-danalyse-de-donnees-galaxy/'>RADseq analysis using STACKS on Galaxy</a></em> </td>
+    <td> </em><a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-de-type-rad-par-le-pipeline-stacks-sous-la-plateforme-web-danalyse-de-donnees-galaxy/'>RADseq analysis using STACKS on Galaxy</a><em> </td>
     <td> <a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest</a>, Rennes, France </td>
     <td> <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a>, <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud</a> </td>
   </tr>
   <tr>
     <th> September 30 </th>
-    <td> <em><a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/CIR-Interactive-Workshop-Introduction-to-bioinformatics-analysis-with-Galaxy-application'>CIR Interactive Workshop - Introduction to bioinformatics analysis with Galaxy application</a></em> </td>
+    <td> </em><a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/CIR-Interactive-Workshop-Introduction-to-bioinformatics-analysis-with-Galaxy-application'>CIR Interactive Workshop - Introduction to bioinformatics analysis with Galaxy application</a><em> </td>
     <td> RBI, Zagreb, Croatia </td>
     <td> <a href='https://wiki.galaxyproject.org/EnisAfgan'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
-    <td> <a href='/Events/Switzerland2014/trainingday/'>Galaxy Training and Demo Day</a> </td>
-    <td rowspan=3> </strong><a href='/Events/SG2014/'>2014 Swiss-German Galaxy Tour</a><strong> with events in </strong>Bern, Switzerland<strong> and </strong>Freiburg, Germany<strong> </td>
-    <td rowspan=3> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> and <a href='/BjoernGruening/'>Bjoern Gruening</a> </td>
+    <td> <a href='/Events/Switzerland2014/trainingday'>Galaxy Training and Demo Day</a> </td>
+    <td rowspan=3> </strong><a href='/Events/SG2014'>2014 Swiss-German Galaxy Tour</a><strong> with events in </strong>Bern, Switzerland<strong> and </strong>Freiburg, Germany<strong> </td>
+    <td rowspan=3> <a href='/HansrudolfHotz'>Hans-Rudolf Hotz</a> and <a href='/BjoernGruening'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/Events/Switzerland2014/'>(second Swiss) Galaxy Workshop</a></em> </td>
+    <td> </em><a href='/Events/Switzerland2014'>(second Swiss) Galaxy Workshop</a><em> </td>
   </tr>
   <tr>
-    <td> <em><a href='/Events/Germany2014/'>German Galaxy Developers Day</a></em> </td>
+    <td> </em><a href='/Events/Germany2014'>German Galaxy Developers Day</a><em> </td>
   </tr>
   <tr>
     <th> October 6 - 24 </th>
-    <td> <em><a href='http://wiki.uio.no/projects/clsi/index.php/INF-BIOX121_H14'>Intensive course in High Throughput Sequencing technologies and bioinformatics analysis</a></em> </td>
+    <td> </em><a href='http://wiki.uio.no/projects/clsi/index.php/INF-BIOX121_H14'>Intensive course in High Throughput Sequencing technologies and bioinformatics analysis</a><em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:lex.nederbragt AT ibv.uio.no">Lex Nederbragt</a>, <a href="mailto:karin.lagesen AT medisin.uio.no">Karin Lagesen</a> </td>
   </tr>
   <tr>
     <th> November 26-28 </th>
-    <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a></em> </td>
+    <td> </em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a><em> </td>
     <td> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
     <td> <a href="mailto:navratil AT prabi DOT fr">Navratil V</a>., <a href="mailto:oger AT prabi DOT fr">Oger C.</a>, <a href="mailto:veber AT prabi DOT fr">Veber P.</a>, <a href="mailto:deschamps AT prabi DOT fr">Deschamps C.</a>, <a href="mailto:perriere AT prabi DOT fr">Perriere G.</a> </td>
   </tr>
@@ -124,7 +126,7 @@ These events are a great way to meet other Galaxy users and developers and learn
 
 ## The Great GigaScience and Galaxy Workshop
 
-<div class='right'><a href='http://www.gigasciencejournal.com/'><img src='/Images/Logos/GigaScienceLogo.gif/' alt='GigaScience Journal' width="200" /></a><br />
+<div class='right'><a href='http://www.gigasciencejournal.com/'><img src='/Images/Logos/GigaScienceLogo.gif' alt='GigaScience Journal' width="200" /></a><br />
 <a href='http://www.vlsci.org.au/'><img src='/Images/Logos/VLSCILogo.png' alt='VLSCI' width="200" /></a><br />
 <a href='http://australianbioinformatics.net/'><img src='/Images/Logos/ABNLogoWText200.jpg' alt='Australian Bioinformatics Network' width="200" /></a>
 </div>
@@ -148,7 +150,7 @@ See the [event page](http://australianbioinformatics.net/great-gigascience-galax
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
 
 And don't worry, Europe does not have a complete lock on upcoming Galaxy related events.  There is also things going on in North America, and a few more in Australia too.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -167,19 +169,19 @@ And don't worry, Europe does not have a complete lock on upcoming Galaxy related
   </tr>
   <tr>
     <th rowspan=3> November 2-5 </th>
-    <td> <em><a href='https://www.acsmeetings.org/tours-workshops#Intro to'>Introduction to Bioinformatics Analysis with Galaxy Workshop</a></em> </td>
+    <td> </em><a href='https://www.acsmeetings.org/tours-workshops#Intro to'>Introduction to Bioinformatics Analysis with Galaxy Workshop</a><em> </td>
     <td rowspan=3> </strong><a href='https://www.acsmeetings.org/home'>ASA, CSSA, and SSSA International Annual Meeting</a><strong>, Long Beach, California, United States </td>
     <td rowspan=3> <a href="mailto:outreach AT galaxyproject DOT org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='https://www.acsmeetings.org/tours-workshops#SNP'>SNP/Variant Analysis with Galaxy Workshop</a></em> </td>
+    <td> </em><a href='https://www.acsmeetings.org/tours-workshops#SNP'>SNP/Variant Analysis with Galaxy Workshop</a><em> </td>
   </tr>
   <tr>
-    <td> <em><a href='https://www.acsmeetings.org/tours-workshops#A Gentle Intro'>A Gentle Introduction to Cloud Computing: Setting up your own Galaxy Server Workshop</a></em> </td>
+    <td> </em><a href='https://www.acsmeetings.org/tours-workshops#A Gentle Intro'>A Gentle Introduction to Cloud Computing: Setting up your own Galaxy Server Workshop</a><em> </td>
   </tr>
   <tr>
     <th> November 19-20 </th>
-    <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-1920-november-brisbane/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
+    <td> </em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-1920-november-brisbane/'>Workshop: Extended RNA-Seq analysis</a><em> </td>
     <td> The University of Queensland, Brisbane, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
@@ -209,13 +211,13 @@ The new papers were tagged in many different areas:
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -262,7 +264,7 @@ The new papers were tagged in many different areas:
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -297,34 +299,34 @@ August was an eventful month for releases.  New versions of [Galaxy](#august-11-
 <br /><br />
 <table>
   <tr>
-    <td rowspan=3 style=" border: none"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none"> </strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a><strong> </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td colspan=2 style=" border: none;"> </strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a><strong> </td>
   </tr>
   <tr>
-    <td style=" border: none"> </strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a><strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a><strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> </strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a><strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a><strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> </strong>new<strong>: </td>
-    <td style=" border: none"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
+    <td style=" border: none;"> </strong>new<strong>: </td>
+    <td style=" border: none;"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
   </tr>
   <tr>
-    <td style=" border: none"> </strong>upgrade<strong>: </td>
-    <td style=" border: none"> <code>$ hg pull </code> <br /> <code>$ hg update latest_2014.08.11</code> </td>
+    <td style=" border: none;"> </strong>upgrade<strong>: </td>
+    <td style=" border: none;"> <code>$ hg pull </code> <br /> <code>$ hg update latest_2014.08.11</code> </td>
   </tr>
 </table>
 
 
 ## August 2014 CloudMan Release
 
-<div class='right'><a href='/CloudMan/'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
+<div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
 
 This is mostly an incremental bug fix release with the following summary of changes:
 
@@ -348,7 +350,7 @@ CloudMan offers an easy way to get a personal and completely functional instance
 
 ## BioBlend 0.5.1 Release
 
-[BioBlend version 0.5.1](https://pypi.python.org/pypi/bioblend/0.5.1) was released on August 19.  From the [CHANGELOG](https://github.com/afgane/bioblend/blob/master/CHANGELOG):
+[BioBlend version 0.5.1](https://pypi.python.org/pypi/bioblend/0.5.1) was released on August 19.  From the [CHANGELOG](https://github.com/afgane/bioblend/blob/master/CHANGELOG.md):
 
 * Fixed url joining problem described in [issue #82](https://github.com/afgane/bioblend/issues/82)
 * Enabled [Travis Continuous Integration](https://travis-ci.org/) testing
@@ -366,7 +368,7 @@ CloudMan offers an easy way to get a personal and completely functional instance
 
 ## blend4j 0.1.1 Release
 
-[blend4j version 0.1.1](http://search.maven.org/#artifactdetails%7Ccom.github.jmchilton.blend4j%7Cblend4j%7C0.1.1%7Cjar) was released on August 27th. Some key features from the [CHANGELOG](https://github.com/jmchilton/blend4j/blob/master/CHANGELOG):
+[blend4j version 0.1.1](http://search.maven.org/#artifactdetails%7Ccom.github.jmchilton.blend4j%7Cblend4j%7C0.1.1%7Cjar) was released on August 27th. Some key features from the [CHANGELOG](https://github.com/jmchilton/blend4j/blob/master/CHANGELOG.md):
 
 * Dataset collection support by Aaron Petkau. Among other things the [histories client](http://jmchilton.github.io/blend4j/apidocs/com/github/jmchilton/blend4j/galaxy/HistoriesClient.html)
   can now [create](http://jmchilton.github.io/blend4j/apidocs/com/github/jmchilton/blend4j/galaxy/HistoriesClient.html#createDatasetCollection(java.lang.String%2C%20com.github.jmchilton.blend4j.galaxy.beans.collection.request.CollectionDescription)) and [return](http://jmchilton.github.io/blend4j/apidocs/com/github/jmchilton/blend4j/galaxy/HistoriesClient.html#showDatasetCollection(java.lang.String%2C%20java.lang.String)) information about collections and the [workflows client](http://jmchilton.github.io/blend4j/apidocs/com/github/jmchilton/blend4j/galaxy/WorkflowsClient.html) can [specify](http://jmchilton.github.io/blend4j/apidocs/com/github/jmchilton/blend4j/galaxy/beans/WorkflowInputs.InputSourceType.html) dataset collections as inputs.
@@ -421,13 +423,13 @@ Eric & Björn
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/Community/Logs/'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a></div>
-<div class='right'><a href='/Community/Deployments/'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a></div>
+<div class='right'><a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/Community/Logs/#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs/#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/Community/Deployments/#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments/#add-your-galaxy-deployment'>now</a></em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/Community/Logs#add-a-log-page'>Share your experience</a> </em><a href='/Community/Logs#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/Community/Deployments#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/Community/Deployments#add-your-galaxy-deployment'>now</a><em> </td>
   </tr>
 </table>
 

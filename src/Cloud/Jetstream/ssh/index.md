@@ -1,8 +1,9 @@
 ---
 autotoc: true
 ---
-INCLUDE(/Cloud/Jetstream/LinkBox)
+PLACEHOLDER_INCLUDE(/Cloud/Jetstream/LinkBox)
 
+<div class='right'></div>
 
 ## ssh access
 Some tasks on the Galaxy server (e.g., configuration changes) require you to connect to the VM using a command line shell. This can easily be done from within your browser by opening the VM details page and clicking the *Open Web Shell* button. 

@@ -2,7 +2,7 @@
 
 **Bioinformatics scientist/engineer for RNA bioinformatics and next-generation sequencing Berlin**
 
-The [MDC Berlin-Buch](https://www/c-berlin.de/) is a member of the [Helmholtz Association of National Research Centers](http://www.helmholtz.de/), and its focus is biomedical research in the areas of Cardiovascular and Metabolic diseases, Cancer and Function and Dysfunction of Nervous System. The [Berlin Institute for Medical Systems Biology (BIMSB)](https://www/c-berlin.de/40549075/de/bimsb) expands and adds systems biology approaches to major questions of gene regulatory function.
+The [MDC Berlin-Buch](https://www.mdc-berlin.de/) is a member of the [Helmholtz Association of National Research Centers](http://www.helmholtz.de/), and its focus is biomedical research in the areas of Cardiovascular and Metabolic diseases, Cancer and Function and Dysfunction of Nervous System. The [Berlin Institute for Medical Systems Biology (BIMSB)](https://www.mdc-berlin.de/40549075/de/bimsb) expands and adds systems biology approaches to major questions of gene regulatory function.
 
 As a bioinformatics scientist/engineer you will be a member of the Scientific Bioinformatics Platform @BIMSB and report to the head of the platform, Dr. Altuna Akalin. You will be responsible for method and database development for genomics data sets relating to RNA biology and projects of the [German Network of Bioinformatics (de.NBI)](https://www.systembiologie.de/de/foerderung/national/nbi). You will be interacting and collaborating with BIMSB research groups as well as national collaboration partners.  **The projects will be using Galaxy framework for tool development and data integration.**
 
@@ -11,10 +11,10 @@ Applicants should have PhD degree or equivalent practical experience in research
 Please contact [altuna.akalin@mdc DASH berlin.de](Altuna Akalin) for further details.
 
 <div class='center'>
-<a href='https://www/c-berlin.de/'><img src='/Images/Logos/MCDBerlinBuch.gif/' alt='MDC Berlin-Buch' width="300" /></a>
-<a href='http://www.helmholtz.de/'><img src='/Images/Logos/HelmholtzAssoc.gif/' alt='Helmholtz Association of National Research Centers' /></a>
+<a href='https://www.mdc-berlin.de/'><img src='/Images/Logos/MCDBerlinBuch.gif' alt='MDC Berlin-Buch' width="300" /></a>
+<a href='http://www.helmholtz.de/'><img src='/Images/Logos/HelmholtzAssoc.gif' alt='Helmholtz Association of National Research Centers' /></a>
 </div>
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2015-01-17T00:38:35Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-01-17T00:38:35Z)</div>
 
 CategoryNews

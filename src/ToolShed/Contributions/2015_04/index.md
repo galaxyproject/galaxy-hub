@@ -1,4 +1,7 @@
-<div class="title">April 2015 Tool Shed Contributions</div>
+---
+pagetitle: April 2015 Tool Shed Contributions
+---
+
 
 Tools contributed to the Galaxy Project Tool Shed in April 2015.
 

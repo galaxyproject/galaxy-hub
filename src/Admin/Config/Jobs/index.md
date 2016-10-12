@@ -1,15 +1,17 @@
 ---
 autotoc: true
+pagetitle: Galaxy Job Configuration
 ---
-INCLUDE(/Admin/LinkBox)
-INCLUDE(/Admin/Config/Performance/LinkBox)
-<div class="title">Galaxy Job Configuration</div>
+PLACEHOLDER_INCLUDE(/Admin/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
+
 
 By default, jobs in Galaxy are run locally on the server on which the Galaxy application was started.  Many options are available for running Galaxy jobs on other systems, including clusters and other remote resources.
 
 This document is a reference for the job configuration file.  [Detailed documentation](/Admin/Config/Performance/Cluster) is provided for configuring Galaxy to work with a variety of Distributed Resource Managers (DRMs) such as TORQUE, Grid Engine, LSF, and HTCondor.  Additionally, a wide range of infrastructure decisions and configuration changes should be made when running Galaxy as a production service, as one is likely doing if using a cluster.  It is highly recommended that the [production server documentation](/Admin/Config/Performance/ProductionServer) and [cluster configuration documentation](/Admin/Config/Performance/Cluster) be read before making changes to the job configuration.
 
 **The most up-to-date details of advanced job configuration features can be found in the [sample job_conf.xml](https://bitbucket.org/galaxy/galaxy-central/src/tip/config/job_conf.xml.sample_advanced) found in the Galaxy distribution.**
+
 
 
 # Galaxy Configuration
@@ -445,7 +447,24 @@ The *content* of the `<param id="source">` tag is the component that created the
 
 ### Dynamic Destination Mapping
 
-Galaxy has very sophisticated job configuration options that allow different tools to be submitted to queuing systems with various parameters and in most cases this is sufficient. However, sometimes it is necessary to have job execution parameters be determined at runtime based on factors such as the job inputs, user submitting the job, cluster status, etc...  In these cases the dynamic job destination mechanism allows the deployer to describe how the job should be executed using python functions.
+Galaxy has very sophisticated job configuration options that allow different tools to be submitted to queuing systems with various parameters and in most cases this is sufficient. However, sometimes it is necessary to have job execution parameters be determined at runtime based on factors such as the job inputs, user submitting the job, cluster status, etc...  In these cases the dynamic job destination mechanism allows the deployer to describe how the job should be executed using python functions. There are various flavors of dynamic destinations to handle these scenarios.
+
+The two most generic and useful dynamic destination types are `python` and `dtd`. The `python` type allows arbitrary Python functions to define destinations for jobs, while the DTD method (introduced in Galaxy 16.07) defines rules for routing in a YAML file.
+
+#### Dynamic Destination Mapping (DTD method)
+
+DTD is a special dynamic job destination type that builds up rules given a YAML-based DSL - see `config/tool_destinations.yml.sample` (on [Github](https://github.com/galaxyproject/galaxy/blob/dev/config/tool_destinations.yml.sample)) for a syntax description, examples, and a description of how to validate and debug this file.
+
+To define and use rules, copy this sample file to `config/tool_destinations.yml` and add your rules. Anything routed with a `dynamic` runner of type `dtd` will then use this file (such as the destination defined with the following XML block in `job_conf.xml`).
+
+```xml
+    <destination id="dtd_destination" runner="dynamic">
+      <param id="type">dtd</param>
+    </destination>
+```
+
+
+#### Dynamic Destination Mapping (Python method)
 
 The simplest way to get started with dynamic job destinations is to first create a dynamic job destination in `job_conf.xml`'s `<destinations>` section:
 
@@ -573,7 +592,7 @@ In this case, you would need to define a function named `blast_dest` in your pyt
 
 As a natural extension to this, a dynamic job runner can be used as the default destination. The below examples demonstrate this and other features such as returning mapping failure messages to your users and defaulting back to existing static destinations defined in `job_conf.xml`.
 
-#### Additional Dynamic Job Destination Examples
+##### Additional Dynamic Job Destination Examples
 
 The following example assumes the existence of a job destination with ids `short_pbs` and `long_pbs` and that a default dynamic job runner has been defined as follows in `job_conf.xml`:
 
@@ -630,7 +649,8 @@ def dev_only(user_email):
 
 
 There is an additional page on [Access Control](/Admin/Config/Access Control) for those interested.
-### Additional Tricks
+
+##### Additional Tricks
 
 If one would like to tweak existing static job destinations in just one or two parameters, the following idiom can be used to fetch static JobDestination objects from Galaxy in these rule methods - `dest = app.job_config.get_destination( id_or_tag )`.
 

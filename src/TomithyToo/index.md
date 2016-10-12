@@ -1,4 +1,5 @@
 
+#language en
 # On Web Controllers and Data Classes| By Tomithy
 This document discusses the web controllers and data classes of Galaxy. It aims to give you a brief idea on how the Galaxy software is structured and what are the possible entry points should you want to extend Galaxy. These ideas are what I have gleaned of tweaking the codes and working on the PhyloViz Project
 
@@ -25,7 +26,7 @@ Galaxy uses the Model-View-Controller software architecture.
 
 
 
-----
+---
 
 ## 2 Data
 ### 2.1 Design Notes
@@ -45,7 +46,7 @@ Galaxy uses the Model-View-Controller software architecture.
 
 
 
-----
+---
 
 ## 3 Web Controllers
 ### 3.1 Design Notes
@@ -54,7 +55,7 @@ Galaxy uses the Model-View-Controller software architecture.
 * Decorators of note: @web.expose (for it to be called via http), @web.json (to output returned data via pure json; otherwise the data will be marked-up with some html), @web.require_login(require user to be logged in to access the page) definitions can be found in lib/galaxy/web/framework/<u>init__.py
 * Controllers usually return a page, and here we will do *return trans.fill_template( "the_page_template.mako", some_context_variable_you_want_to_print = some_data )* to compile a .mako template at runtime and return the page to the user.
 
-----
+---
 
 ## 4 Dev Tips
 * If you think that there is some "magic" going on, you can force the program to throw Exception and see the call stack. Also, check the __init__.py as there tends to be alot of code inside.
@@ -62,5 +63,5 @@ Galaxy uses the Model-View-Controller software architecture.
 
 
 
-----
+---
 CategoryHomepage

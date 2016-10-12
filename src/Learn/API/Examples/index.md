@@ -1,6 +1,6 @@
 ## Example: Execute a Workflow
 
-From [https://github.com/galaxyproject/galaxy/tree/master//scripts/api/workflow_execute.py](https://github.com/galaxyproject/galaxy/tree/master//scripts/api/workflow_execute.py) in the distribution
+From [/scripts/api/workflow_execute.py](https://github.com/galaxyproject/galaxy/blob/dev/scripts/api/workflow_execute.py) in the distribution
 
 ```python
 #!/usr/bin/env python
@@ -31,14 +31,14 @@ def main():
         sys.exit(1)
     submit( sys.argv[1], sys.argv[2], data )
 
-if __name__ == '</u>main__':
+if __name__ == '<u>main__':
     main()
 ```
 
 
 ## Example: Watch a Folder
 
-From [https://github.com/galaxyproject/galaxy/tree/master//scripts/api/example_watch_folder.py](https://github.com/galaxyproject/galaxy/tree/master//scripts/api/example_watch_folder.py) in the distribution.
+From [/scripts/api/example_watch_folder.py](https://github.com/galaxyproject/galaxy/blob/dev/scripts/api/example_watch_folder.py) in the distribution.
 
 ```python
 #!/usr/bin/env python
@@ -116,7 +116,7 @@ def main(api_key, api_url, in_folder, out_folder, data_library, workflow):
                             shutil.move(fullpath, os.path.join(out_folder, fname))
         time.sleep(10)
 
-if __name__ == '<u>main__':
+if __name__ == '</u>main__':
     try:
         api_key = sys.argv[1]
         api_url = sys.argv[2]

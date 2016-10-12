@@ -1,11 +1,13 @@
 ---
 autotoc: true
+pagetitle: [Frequently Asked Questions](/FAQs),  for Using Galaxy
 ---
-INCLUDE(/Learn/LinkBox)
-INCLUDE(/FAQs/LinkBox)
-<div class="title">[Frequently Asked Questions](/FAQs) for Using Galaxy</div>
+PLACEHOLDER_INCLUDE(/Learn/LinkBox)
+PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
+
 
 Questions that apply to using most Galaxy instances.  See [/Main/FAQ](/Main/FAQ) for questions that are specifically about using [/Main](/Main), Galaxy's free public server.  See [/Admin/FAQ](/Admin/FAQ) for questions about [administering](/Admin) Galaxy.
+
 
 
 ## Datasets, Histories, and Disk Usage

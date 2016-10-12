@@ -1,8 +1,10 @@
 ---
 autotoc: true
+pagetitle: Galaxy Mailing Lists
 ---
-<div class="title">Galaxy Mailing Lists</div>
-INCLUDE(/Support/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Support/LinkBox)
+<div class='right'></div>
 
 Mailing lists play a vital role in the Galaxy community:
 1. They are a key part of [Galaxy's overall support efforts](/Support).
@@ -16,7 +18,7 @@ Mailing lists play a vital role in the Galaxy community:
 
 ## The lists
 
-INCLUDE(/MailingListDetail)
+PLACEHOLDER_INCLUDE(/MailingListDetail)
 
 <div class='right'><a href='http://galaxyproject.org/search/mailinglists/'><img src='/Images/Logos/GalaxyMailingListSearch.png' alt='Search all' width="150" /></a></div>
 
@@ -160,7 +162,7 @@ If you are brand new to programming mailing lists please read
 
 ## Mailing List Traffic
 
-We have a significant amount of mailing list traffic. See the [Galaxy Project Statistics](/GalaxyProject/Statistics/#traffic) page for more information.
+We have a significant amount of mailing list traffic. See the [Galaxy Project Statistics](/GalaxyProject/Statistics#traffic) page for more information.
 
 
 ## See Also

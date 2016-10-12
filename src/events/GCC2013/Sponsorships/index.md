@@ -1,8 +1,11 @@
-INCLUDE(/Events/GCC2013/Header)
+---
+pagetitle: Sponsorships
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 
-<div class="title">Sponsorships</div>
 
-INCLUDE(/Events/GCC2013/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
 
 Is your organization interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Becoming a [2013 Galaxy Community Conference](../) Sponsor is an excellent way to raise your organization's visibility in this active and engaged community.
 
@@ -47,9 +50,9 @@ Sponsorships are available at four different levels.
 
 <table>
   <tr>
-    <td style=" border: none text-align: center;"> <a href='http://www.emc.com/isilon'><img src='/Images/Logos/EMCIsilonLogo.jpg' alt='EMC Isilon' width="340" /></a> </td>
-    <td style=" border: none; width: 10% text-align: center;"> </td>
-    <td style=" border: none text-align: center;"> <a href='http://bioteam.net/'><img src='/Images/Logos/BioTeamLogo154.gif/' alt='BioTeam' width="200" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://www.emc.com/isilon'><img src='/Images/Logos/EMCIsilonLogo.jpg' alt='EMC Isilon' width="340" /></a> </td>
+    <td style=" border: none; width: 10%; text-align: center;"> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://bioteam.net/'><img src='/Images/Logos/BioTeamLogo154.gif' alt='BioTeam' width="200" /></a> </td>
   </tr>
 </table>
 
@@ -90,9 +93,9 @@ Sponsorships are available at four different levels.
 
 <table>
   <tr>
-    <td style=" border: none text-align: center;"> <a href='http://www.illumina.com/'><img src='/Images/Logos/IlluminaLogo250.png' alt='Illumina' width="200" /></a> </td>
-    <td style=" border: none; width: 10% text-align: center;"> </td>
-    <td style=" border: none text-align: center;"> <a href='http://globus.org/genomics'><img src='/Images/Logos/GlobusGenomics.png' alt='Globus Genomics' width="200" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://www.illumina.com/'><img src='/Images/Logos/IlluminaLogo250.png' alt='Illumina' width="200" /></a> </td>
+    <td style=" border: none; width: 10%; text-align: center;"> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://globus.org/genomics'><img src='/Images/Logos/GlobusGenomics.png' alt='Globus Genomics' width="200" /></a> </td>
   </tr>
 </table>
 
@@ -118,13 +121,13 @@ Sponsorships are available at four different levels.
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='http://www.uio.no/english/research/interfaculty-research-areas/mls/'><img src='/Images/Logos/MLSUiOLogo.png' alt='Molecular Life Science at the University of Oslo' height=120 /></a> </td>
-    <td style=" text-align: center; border: none"> &nbsp;&nbsp; <a href='http://www.forskningsradet.no/english/'><img src='/Images/Logos/ResearchCouncilNorway500.png' alt='The Research Council of Norway' width="400" /></a> </td>
-    <td style=" text-align: center; border: none"> &nbsp;&nbsp; <a href='http://www.bioinfo.no/about/'><img src='/Images/Logos/FUGE.png' alt='Functional Genomics' height=120 /></a> &nbsp;&nbsp; </td>
-    <td style=" text-align: center; border: none"> <a href='http://www.elixir-europe.org/'><img src='/Images/Logos/ElixirNoTextLogo.png' alt='Elixer' height=120 /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.uio.no/english/research/interfaculty-research-areas/mls/'><img src='/Images/Logos/MLSUiOLogo.png' alt='Molecular Life Science at the University of Oslo' height=120 /></a> </td>
+    <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://www.forskningsradet.no/english/'><img src='/Images/Logos/ResearchCouncilNorway500.png' alt='The Research Council of Norway' width="400" /></a> </td>
+    <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://www.bioinfo.no/about/'><img src='/Images/Logos/FUGE.png' alt='Functional Genomics' height=120 /></a> &nbsp;&nbsp; </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.elixir-europe.org/'><img src='/Images/Logos/ElixirNoTextLogo.png' alt='Elixer' height=120 /></a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" border: none text-align: center;"> <a href='http://uio.no/'><img src='/Images/Logos/UiOLogo.png' alt='University of Oslo'  /></a> </td>
+    <td colspan=4 style=" border: none; text-align: center;"> <a href='http://uio.no/'><img src='/Images/Logos/UiOLogo.png' alt='University of Oslo'  /></a> </td>
   </tr>
 </table>
 
@@ -133,4 +136,4 @@ Sponsorships are available at four different levels.
 
 
 
-INCLUDE(/Events/GCC2013/Footer)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Footer)

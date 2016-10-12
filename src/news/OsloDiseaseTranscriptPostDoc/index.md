@@ -8,6 +8,6 @@ The salary is good and there are good future career opportunities. Further detai
 
 <div class='center'><a href='http://uio.easycruit.com/vacancy/1566797/64290?iso=no'><img src='/Images/Logos/UiOLogo.png' alt='Postdoc position on methods for transcriptome analysis of disease-specific cells in Oslo' width="300" /></a></div>
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2016-02-01T01:57:22Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-02-01T01:57:22Z)</div>
 
 CategoryNews

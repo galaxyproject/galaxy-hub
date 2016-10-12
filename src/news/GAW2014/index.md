@@ -2,7 +2,7 @@
 
 **The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](/Events/GAW2014) will be held in Melbourne, Australia on 24 and 25th March 2014.** 
 
-<div class='right'><a href='/Events/GAW2014/'><img src='/Events/GAW2014/MCC.png' alt='Galaxy Australasia Workshop 2014' /></a></div>
+<div class='right'><a href='/Events/GAW2014'><img src='/Events/GAW2014/MCC.png' alt='Galaxy Australasia Workshop 2014' /></a></div>
 
 The [Galaxy Australasia Workshop](/Events/GAW2014) is a great opportunity for you to participate in two full days of presentations, discussions, poster sessions, keynotes and lightning talks, all about ways of using Galaxy for high-throughput biology, imaging and other scientific applications. The workshop will also include Training Sessions taught by Galaxy developers and master users.  GAW 2014 will run 24 and 25th March, immediately preceding [Computational and Simulation Sciences and eResearch](http://wp.csiro.au/css/) in Melbourne.
 
@@ -40,8 +40,8 @@ Submissions should clearly state whether they are for: poster or oral presentati
 
 Looking forward to seeing you all in Melbourne!
 
-[GAW 2014 Organising Committee](/Events/GAW2014/#organising-committee)
+[GAW 2014 Organising Committee](/Events/GAW2014#organising-committee)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2014-01-17T19:05:44Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-01-17T19:05:44Z)</div>
 
 CategoryNews

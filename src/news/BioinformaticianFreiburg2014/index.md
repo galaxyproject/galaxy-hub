@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[Bioinformaticians, Freiburg](/News/BioinformaticianFreiburg2014)</div>
 
-----
+---
 
 <div class='right'><a href='http://www.ie-freiburg.mpg.de/jobs'><img src='/Images/Logos/MaxPlanckIIE.png' alt='Max Planck Institute of Immunobiology and Epigenetics' /></a></div>
 
@@ -15,7 +15,7 @@ Most of the above tasks are executed within the context of our Galaxy platform t
 
 See the [full job posting](ATTACHMENT_URLFreiburgJobPosting.pdf) for further details. 
 
-----
+---
 
 <div class='right'><a href='http://www.bioinf.uni-freiburg.de//?en'><img src='/Images/Logos/bioinf_uni_freiburg.png' alt='Bioinformatics Uni-Freiburg' width="100" /></a></div>
 
@@ -48,6 +48,6 @@ around the corner and excellent research facilities all over the city.
 
 Please contact [Bjoern Gruening](/BjoernGruening) for further details.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2014-10-30T15:19:38Z)>>, updated on <<Date(2014-11-25T18:38:10Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-10-30T15:19:38Z)>>, updated on <<Date(2014-11-25T18:38:10Z)</div>
 
 CategoryNews

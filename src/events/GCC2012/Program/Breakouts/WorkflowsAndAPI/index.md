@@ -1,13 +1,14 @@
 ---
 autotoc: true
+pagetitle: Galaxy API and Extending it, ;,  Workflow Enhancements
 ---
-INCLUDE(../../../PageHeader)
+PLACEHOLDER_INCLUDE(../../../PageHeader)
 
-<div class="title">Galaxy API and Extending it; Workflow Enhancements</div>
+
 
 **A [GCC22012](/Events/GCC2012) [Breakout Session](/Events/GCC2012/Program/Breakouts)**
 
-INCLUDE(../../../LinkBox)
+PLACEHOLDER_INCLUDE(../../../LinkBox) <div class='right'></div>
 
 # Participants
 * Clare Sloggett

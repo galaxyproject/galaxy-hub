@@ -1,4 +1,5 @@
 
+#language en
 <div class='right'>![](/GalaxyTeam/guru.jpg)</div>
 # Guru Ananda
 
@@ -13,5 +14,5 @@ Guru is a graduate student in Bioinformatics and Genomics at [Penn State Univers
 </table>
 
 
-----
+---
 CategoryHomepage

@@ -1,6 +1,6 @@
 <div class='linkbox'>
 **[/Admin](/Admin)**
-----
+---
 [Get Galaxy](/Admin/GetGalaxy)<br />
 [Config|](/Admin/Config)<br />
 [Tools](/Admin/Tools)<br />

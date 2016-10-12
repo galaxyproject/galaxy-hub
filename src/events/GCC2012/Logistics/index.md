@@ -1,10 +1,13 @@
-INCLUDE(/Events/GCC2012/PageHeader)
+---
+pagetitle: Logistics
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 
-INCLUDE(/Under Construction)
+PLACEHOLDER_INCLUDE(/Under Construction)
 
-<div class="title">Logistics</div>
 
-INCLUDE(../LinkBox)
+
+PLACEHOLDER_INCLUDE(../LinkBox)
 
 Details on conference [location](#venue), [lodging](#lodging), and [transportation](#getting-there) are listed here.
 
@@ -14,9 +17,9 @@ The [2012 Galaxy Community Conference](/Events/GCC2012) was held at the [UIC For
 
 <table>
   <tr>
-    <td style=" border: none"> <a href='http://www.uicforum.uic.edu/'><img src='/UICForumExteriorThumb.jpg' alt='UIC Forum' height="100" /></a> </td>
-    <td style=" border: none"> &nbsp;&nbsp; </td>
-    <td style=" border: none"> <a href='http://www.uicforum.uic.edu/'>UIC Forum</a><br />725 W Roosevelt Rd.<br />Chicago‚ IL 60608<br />Phone (312) 413-9875 </td>
+    <td style=" border: none;"> <a href='http://www.uicforum.uic.edu/'><img src='/UICForumExteriorThumb.jpg' alt='UIC Forum' height="100" /></a> </td>
+    <td style=" border: none;"> &nbsp;&nbsp; </td>
+    <td style=" border: none;"> <a href='http://www.uicforum.uic.edu/'>UIC Forum</a><br />725 W Roosevelt Rd.<br />Chicago‚ IL 60608<br />Phone (312) 413-9875 </td>
   </tr>
 </table>
 
@@ -29,7 +32,7 @@ There were blocks of rooms available at both a [nearby hotel](http://www.crownep
 
 <table>
   <tr>
-    <td style=" class="red" "> </strong>The James Stukel Towers are now <em>sold out<strong></em>. </td>
+    <td style=" class="red" "> </strong>The James Stukel Towers are now </em>sold out<strong><em>. </td>
   </tr>
 </table>
 
@@ -96,4 +99,4 @@ The conference dinner was on July 25. The cost is included in registration. Gues
 
 If you need a visa to travel to the United States for the conference, please contact [outreach@galaxyproject.org?subject=GCC%202012%20Visa](Galaxy Outreach) **as soon as possible.**
 
-INCLUDE(../Ask the Organizers)
+PLACEHOLDER_INCLUDE(../Ask the Organizers)

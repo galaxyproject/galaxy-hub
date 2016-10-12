@@ -1,4 +1,4 @@
-INCLUDE(/CloudMan/AWS/LinkBox)
+PLACEHOLDER_INCLUDE(/CloudMan/AWS/LinkBox)
 
 Information specific to running CloudMan under [Amazon Web Services (AWS)](http://aws.amazon.com).
 

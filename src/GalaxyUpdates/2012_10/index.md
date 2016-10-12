@@ -1,10 +1,12 @@
 ---
 autotoc: true
+pagetitle: October 2012 Galaxy Update
 ---
+<div class='right'></div>
 
-<div class="title">October 2012 Galaxy Update</div>
 
-<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+
+<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the October 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -87,14 +89,14 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='/Events/Switzerland2012/'><img src='/Images/Logos/2012SwissGalaxyWorkshop-400.png' alt='Swiss Galaxy Day' height="90" /></a>
+<a href='/Events/Switzerland2012'><img src='/Images/Logos/2012SwissGalaxyWorkshop-400.png' alt='Swiss Galaxy Day' height="90" /></a>
 <a href='http://www.psc.edu/index.php/escience-2012-workshop'><img src='/Images/Logos/EScience2012Logo.png' alt='Extending High-Performance Computing Beyond its Traditional User Communities Workshop' height="100" /></a>&nbsp;
 <a href='http://www.ashg.org/2012meeting/pages/workshops.shtml'><img src='/Images/Logos/ASHG2012Logo.png' alt='ASHG 2012' height="100" /></a>
 </div>
 
 ### Deadlines
 
-<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> 
+<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
 
 There are October application, poster, and paper deadlines for 
 * [Rocky 2012](http://www.iscb.org/rocky2012) (deadline October 4)
@@ -118,64 +120,64 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> October 3 </th>
-    <td> </em><a href='/Events/Switzerland2012/'>(first Swiss) Galaxy Workshop</a><em> </td>
+    <td> <em><a href='/Events/Switzerland2012'>(first Swiss) Galaxy Workshop</a></em> </td>
     <td> </strong><a href='https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3'>SyBIT Tech Day</a><strong>, Bern, Switzerland </td>
-    <td> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> </td>
+    <td> <a href='/HansrudolfHotz'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> October 8-12 </th>
-    <td> </em><a href='http://www.psc.edu/index.php/escience-2012-workshop'>Lessons from Galaxy, a Web-based Platform for High-throughput Genomic Analyses</a><em> </td>
+    <td> <em><a href='http://www.psc.edu/index.php/escience-2012-workshop'>Lessons from Galaxy, a Web-based Platform for High-throughput Genomic Analyses</a></em> </td>
     <td> <a href='http://www.psc.edu/index.php/escience-2012-workshop'>Extending High-Performance Computing Beyond its Traditional User Communities Workshop</a>, part of </strong><a href='http://www.ci.uchicago.edu/escience2012/'>8th IEEE International Conference on eScience (eScience 2012)</a><strong>, Chicago Illinois, United States </td>
-    <td> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
+    <td> <a href='/JeremyGoecks'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> October 9-11 </th>
-    <td> </em><a href='http://www.bio-itworldexpoeurope.com/Bio-It_Europe_Content.aspx?id=116078&libID=116026'>Tavaxy: A Workflow System with Taverna and Galaxy Capabilities and Cloud Computing Support</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpoeurope.com/Bio-It_Europe_Content.aspx?id=116078&libID=116026'>Tavaxy: A Workflow System with Taverna and Galaxy Capabilities and Cloud Computing Support</a></em> </td>
     <td> <a href='http://www.bio-itworldexpoeurope.com/'>Bio-IT World Europe</a>, Vienna, Austria </td>
     <td> Mohamed Abouelhoda </td>
   </tr>
   <tr>
     <th> October 15-17 </th>
-    <td> </em><a href='http://www.nbic.nl/education/course-overview/coursedetails/advanced-ngs-course-rna-seq-data-analysis/'>Advanced NGS Course: RNA-seq data analysis</a><em> </td>
+    <td> <em><a href='http://www.nbic.nl/education/course-overview/coursedetails/advanced-ngs-course-rna-seq-data-analysis/'>Advanced NGS Course: RNA-seq data analysis</a></em> </td>
     <td> Amsterdam Medical Centre (AMC), The Netherlands </td>
     <td> <a href='http://www.nbic.nl/about-nbic/nbic-faculty/details/patrick-koks/'>Patrick Koks</a> </td>
   </tr>
   <tr>
     <th> October 18-30  </th>
-    <td> </em><a href='http://meetings.cshl.edu/courses/c-seqtech12.shtml'>Advanced Sequencing Technologies and Applications Course</a><em> </td>
+    <td> <em><a href='http://meetings.cshl.edu/courses/c-seqtech12.shtml'>Advanced Sequencing Technologies and Applications Course</a></em> </td>
     <td> <a href='http://www.cshl.edu/'>Cold Spring Harbor Laboratory</a>, New York, United States </td>
-    <td> <a href='/anton/'>Anton Nekrutenko</a> </td>
+    <td> <a href='/anton'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> October 31 - November 6  </th>
-    <td> </em><a href='http://meetings.cshl.edu/courses/c-ecg12.shtml'>Computaional & Comparative Genomics Course</a><em> </td>
+    <td> <em><a href='http://meetings.cshl.edu/courses/c-ecg12.shtml'>Computaional & Comparative Genomics Course</a></em> </td>
     <td> <a href='http://www.cshl.edu/'>Cold Spring Harbor Laboratory</a>, New York, United States </td>
-    <td> <a href='http://www.cs.virginia.edu/brochure/profs/pearson.html'>William Pearson</a>, <a href='/JamesTaylor/'>James Taylor</a> </td>
+    <td> <a href='http://www.cs.virginia.edu/brochure/profs/pearson.html'>William Pearson</a>, <a href='/JamesTaylor'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 28 - November 2 </th>
-    <td> </em><a href='http://conference.eresearch.edu.au/eres2012/workshops/'>Genomic Virtual Laboratory Workshop</a><em> </td>
+    <td> <em><a href='http://conference.eresearch.edu.au/eres2012/workshops/'>Genomic Virtual Laboratory Workshop</a></em> </td>
     <td> <a href='http://conference.eresearch.edu.au/'>eResearch Australasia</a>, Sydney, Australia </td>
-    <td> <a href='/EnisAfgan/'>Enis Afgan</a> </td>
+    <td> <a href='/EnisAfgan'>Enis Afgan</a> </td>
   </tr>
   <tr>
-    <th rowspan=2 style=" text-align:center"> November 6-10 </th>
-    <td> </em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#9'>Galaxy 101: Data Integration, Analysis and Sharing</a><em> </td>
-    <td rowspan=2 style=" text-align:center"> </strong><a href='http://www.ashg.org/2012meeting/'>American Society of Human Genetics (ASHG)</a><strong>, San Francisco, California, United States </td>
-    <td rowspan=2 style=" text-align:center"> <a href='/JenniferJackson/'>Jennifer Jackson</a>, <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
+    <th rowspan=2 style=" text-align:center;"> November 6-10 </th>
+    <td> <em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#9'>Galaxy 101: Data Integration, Analysis and Sharing</a></em> </td>
+    <td rowspan=2 style=" text-align:center;"> </strong><a href='http://www.ashg.org/2012meeting/'>American Society of Human Genetics (ASHG)</a><strong>, San Francisco, California, United States </td>
+    <td rowspan=2 style=" text-align:center;"> <a href='/JenniferJackson'>Jennifer Jackson</a>, <a href='/JeremyGoecks'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#12'>Working with High-Throughput Data and Data Visualization</a><em> </td>
+    <td> <em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#12'>Working with High-Throughput Data and Data Visualization</a></em> </td>
   </tr>
   <tr>
     <th> November 12-14 </th>
-    <td> </em><a href='http://meetings.cshl.edu/courses/tgac12.shtml'>The Genome Access Course</a><em> </td>
+    <td> <em><a href='http://meetings.cshl.edu/courses/tgac12.shtml'>The Genome Access Course</a></em> </td>
     <td> Cold Spring Harbor Laboratory, New York, United States </td>
     <td> Assaf Gordon </td>
   </tr>
   <tr>
     <th> November 13-15 </th>
-    <td> </em><a href='http://www.fc3bio.fr/formations:bio_info:form-bif14'>Analyse des données RNA-seq et ChIP-seq (séquençage haut-débit), à l'aide d'outils orientés vers un public de biologistes</a><em> </td>
+    <td> <em><a href='http://www.fc3bio.fr/formations:bio_info:form-bif14'>Analyse des données RNA-seq et ChIP-seq (séquençage haut-débit), à l'aide d'outils orientés vers un public de biologistes</a></em> </td>
     <td> <a href='http://www.prabi.fr/'>PRABI (Pôle Rhône-Alpes de Bioinformatique)</a>, Doua de l'Université Claude Bernard - Lyon, Lyon, France </td>
     <td> Guy Perrière </td>
   </tr>
@@ -184,7 +186,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> </strong></em><a href='/Events/GCC2013/'>2013 Galaxy Community Conference (GCC2013)</a><strong><em> </td>
+    <td> </strong><em><a href='/Events/GCC2013'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -206,19 +208,19 @@ There were [two new Galaxy distributions](/DevNewsBriefs) in September:
 ### September 20, 2012
 
 [Highlights](/DevNewsBriefs/2012_09_20)
-* A new **[Galaxy tool](/DevNewsBriefs/2012_09_20/#galaxy_tool_factory)** that writes other new Galaxy tools? The **[Tool Factory](http://www.youtube.com/watch?v=Nzzc9zHZJjE)** is in the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) (`toolfactory`). Try it **now**
-* **[Learn](/DevNewsBriefs/2012_09_20/#multiple_tool_versions)** how to display multiple versions of a tool in the **Galaxy** tool panel. 
-* **[CloudLaunch Overhaul](/DevNewsBriefs/2012_09_20/#cloudlaunch_overhaul)** includes **[Boto 2.5.2](http://boto.cloudhackers.com)** and simplified instance selection and key generation.
-* Release also includes more **[Tool Shed](/DevNewsBriefs/2012_09_20/#tool-shed)** updates, **[Framework](/DevNewsBriefs/2012_09_20/#framework)** and **[API](/DevNewsBriefs/2012_09_20/#api)** updates, plus **[Security](/DevNewsBriefs/2012_09_20/#security_fixes)** and **[Bug](/DevNewsBriefs/2012_09_20/#bug_fixes)** fixes.
+* A new **[Galaxy tool](/DevNewsBriefs/2012_09_20#galaxy_tool_factory)** that writes other new Galaxy tools? The **[Tool Factory](http://www.youtube.com/watch?v=Nzzc9zHZJjE)** is in the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) (`toolfactory`). Try it **now**
+* **[Learn](/DevNewsBriefs/2012_09_20#multiple_tool_versions)** how to display multiple versions of a tool in the **Galaxy** tool panel. 
+* **[CloudLaunch Overhaul](/DevNewsBriefs/2012_09_20#cloudlaunch_overhaul)** includes **[Boto 2.5.2](http://boto.cloudhackers.com)** and simplified instance selection and key generation.
+* Release also includes more **[Tool Shed](/DevNewsBriefs/2012_09_20#tool-shed)** updates, **[Framework](/DevNewsBriefs/2012_09_20#framework)** and **[API](/DevNewsBriefs/2012_09_20#api)** updates, plus **[Security](/DevNewsBriefs/2012_09_20#security_fixes)** and **[Bug](/DevNewsBriefs/2012_09_20#bug_fixes)** fixes.
 
 ### September 7, 2012
 [Highlights](/DevNewsBriefs/2012_09_07):
 * **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/)** has moved from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/).*
 * **Tool Shed** is now running **[Mercurial version 2.2.3](http://mercurial.selenic.com/)**. Many updates and refinements including UI/metadata changes - read the full report!
 * Streamline local setup with the **[Reference Genome rsync Server](/Admin/Data Integration)**: same builds and indexes as on the public **Galaxy [/Main](/Main)** instance.
-* More updates to **[Output and Error Handling](/Admin/Tools/ToolConfigSyntax/#a3cstdio3e2c_3cregex3e2c_and_3cexit_code3e_tag_sets)** including updated documentation and enhancements to exit code checks.
-* **[TopHat2](http://tophat.cbcb.umd.edu/manual.html) / [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml)** latest support includes *Tophat2* fusions output, *Bowtie2* sorted [BAMs](/Learn/Datatypes/#bam), and a new [RNA-seq Tutorial](http://main.g2.bx.psu.edu/u/jeremy/p/galaxy-rna-seq-analysis-exercise).
-* **Trackster** updates include improved support for **[bigWig](http://genome.ucsc.edu/goldenPath/help/bigWig.html)** / **[bigBed](http://genome.ucsc.edu/goldenPath/help/bigBed.html)**, new support for **[bedGraph](http://genome.ucsc.edu/goldenPath/help/bedgraph.html)**, and a new search feature for **[GFF](/Learn/Datatypes/#gff)** / **[GTF](/Learn/Datatypes/#gtf)** / **[BED](/Learn/Datatypes/#bed)** datasets.
+* More updates to **[Output and Error Handling](/Admin/Tools/ToolConfigSyntax#a3cstdio3e2c_3cregex3e2c_and_3cexit_code3e_tag_sets)** including updated documentation and enhancements to exit code checks.
+* **[TopHat2](http://tophat.cbcb.umd.edu/manual.html) / [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml)** latest support includes *Tophat2* fusions output, *Bowtie2* sorted [BAMs](/Learn/Datatypes#bam), and a new [RNA-seq Tutorial](http://main.g2.bx.psu.edu/u/jeremy/p/galaxy-rna-seq-analysis-exercise).
+* **Trackster** updates include improved support for **[bigWig](http://genome.ucsc.edu/goldenPath/help/bigWig.html)** / **[bigBed](http://genome.ucsc.edu/goldenPath/help/bigBed.html)**, new support for **[bedGraph](http://genome.ucsc.edu/goldenPath/help/bedgraph.html)**, and a new search feature for **[GFF](/Learn/Datatypes#gff)** / **[GTF](/Learn/Datatypes#gtf)** / **[BED](/Learn/Datatypes#bed)** datasets.
 * Plus many other **Workflow**, **API**, **Source**, **UI** features and a summary of recent ***[Galaxy Update](/GalaxyUpdates)*** highlights.
 
 ## Other News

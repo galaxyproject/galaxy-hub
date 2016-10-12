@@ -1,4 +1,7 @@
-<div class="title">LEfSe</div>
+---
+pagetitle: LEfSe
+---
+
 
 
 
@@ -21,9 +24,7 @@ We provide support for LEfSe users. Please join our Google group designated spec
 
 ## Overview
 
-![LEfSe](https://bitbucket.org/afrahshafquat/hututorials/raw/59fcfddf65d918d9ba681aba85eb6d4efa28b4dd/lefse_overview.png)
-
-![LEfSe](https://bitbucket.org/afrahshafquat/hututorials/raw/616c55863ff1b86e2298b9538b02e40411742ea6/lefse/hmp_aerobiosis_small.cladogram.png)
+See [LEfSe wiki](https://bitbucket.org/biobakery/biobakery/wiki/lefse)
 
 ## Links
 

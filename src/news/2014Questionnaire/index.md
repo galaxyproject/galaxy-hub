@@ -14,6 +14,6 @@ Let your voice be heard!
 
 [The Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2014-09-30T07:01:50Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-09-30T07:01:50Z)</div>
 
 CategoryNews

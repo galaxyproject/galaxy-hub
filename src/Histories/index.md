@@ -1,15 +1,17 @@
 ---
 autotoc: true
+pagetitle: Histories
 ---
-<div class="title">Histories</div>
 
-INCLUDE(/Learn/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Learn/LinkBox)
+<div class='left'></div>
 
 When data is uploaded from your computer or analysis is done on existing data using Galaxy, each output from those steps
 generates a dataset. These datasets (and the output datasets from later analysis on them) are stored by Galaxy in
 **Histories**.
 
-----
+---
 
 ## The Current History
 All users have one 'current' history, which can be thought of as **a workspace or a current working directory** in
@@ -49,7 +51,7 @@ The history options button opens the history options menu which allows you to pe
 The 'view all histories' button sends you to the interface for
 [managing multiple histories](#managing_multiple_histories).
 
-----
+---
 
 ## History Information
 Histories also store information apart from the datasets they contain. They can be named/re-named, tagged, and
@@ -110,7 +112,7 @@ datasets and brought that total below the quota.
 
 
 
-----
+---
 
 ## History Panel Datasets
 Datasets in the history panel show the state of the job that has generated or will generate the data.
@@ -158,7 +160,7 @@ You can click the dataset name and the view will expand to show more details:
 is not deleted. Otherwise, you may only see a shorter message describing the dataset's state (e.g. 'this dataset
 is waiting to run')
 
-----
+---
 
 ## Managing Datasets Individually
 
@@ -196,7 +198,7 @@ datasets you've marked as deleted. Often deleted datasets and histories are purg
 (e.g. datasets that have been marked as deleted for 90 days or more). Check with the administrators of your instance to
 find out the policy used.
 
-----
+---
 
 ## Managing Multiple Datasets Easily
 
@@ -276,7 +278,7 @@ and b) hg19 reference BAM files whose names contain "Output":
   selected.
 1. You can now perform some action on those two sets of datasets.
 
-----
+---
 
 ## Dataset Collections
 When you have multiple datasets that will be sent through the same analysis it can often be useful to place those
@@ -326,7 +328,7 @@ the order of the collection. Click the help text at the top of the interface to 
 ![](/list-pairs.png)
 
 
-----
+---
 
 ## Managing Multiple Histories
 

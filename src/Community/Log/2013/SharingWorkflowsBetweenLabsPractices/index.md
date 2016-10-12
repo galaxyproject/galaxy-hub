@@ -1,4 +1,7 @@
-<div class="title">2013/10: Sharing workflows between servers: Practices</div>
+---
+pagetitle: 2013, /, 10, :,  Sharing workflows between servers, :,  Practices
+---
+
 
 
 

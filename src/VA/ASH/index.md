@@ -1,14 +1,17 @@
+---
+pagetitle: [Automated Selection of Hotspots (ASH) VM](http://bioinformatics.erasmusmc.nl/wiki/index.php/Automated_Selection_of_Hotspots)
+---
 <div class='center'>
 <a href='http://bioinformatics.erasmusmc.nl/wiki/index.php/Automated_Selection_of_Hotspots'><img src='/Images/Logos/ERasmusBioinformatics.jpg' alt='Erasmus Center for Bioinformatics' height="200" /></a>
 </div>
 
-<div class="title">[Automated Selection of Hotspots (ASH) VM](http://bioinformatics.erasmusmc.nl/wiki/index.php/Automated_Selection_of_Hotspots)</div>
+
 
 
 
 <div class='dictbox'>
  Appliance:: **[Automated Selection of Hotspots (ASH)](/VA/ASH)**
- Technology:: **[VM](/VirtualAppliances/#virtual-machine-images)**
+ Technology:: **[VM](/VirtualAppliances#virtual-machine-images)**
  Domains:: **hotspot detection** 
  Description:: automated detection quantitative ranking of hotspots to support histopathologists in selecting the ‘hottest’ hotspot areas in adrenocortical carcinoma.
  Owners:: [d.vanzessen@erasmusmc.nl](David van Zessen), [Erasmus Medical](http://www.erasmusmc.nl/?lang=en) Center

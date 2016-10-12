@@ -1,6 +1,9 @@
+---
+pagetitle: Galaxy , @,  PAG 2012
+---
 <div class='center'><a href='http://www.intlpag.org/'><img src='/PAG2012.png' alt='Galaxy @ Plant and Animal Genome (PAG 2012)' /></a></div>
 
-<div class="title">Galaxy @ PAG 2012</div>
+
 
 Galaxy had a strong presence at [Plant and Animal Genome XX (PAG 2012)](http://www.intlpag.org/), January 14-18 in San Diego, California:
 
@@ -35,7 +38,7 @@ Galaxy had a strong presence at [Plant and Animal Genome XX (PAG 2012)](http://w
   </tr>
   <tr>
     <td style=" text-align: center;"> 3:00-4:30 </td>
-    <td> <a href='http://pag.confex.com/pag/xx/webprogram/Paper2789.html'>P87: GMOD in the Cloud</a> (<a href='ATTACHMENT_URLDocuments/Posters/2012PAGGMODInTheCloud.pdf'>PDF</a>) </td>
+    <td> <a href='http://pag.confex.com/pag/xx/webprogram/Paper2789.html'>P87: GMOD in the Cloud</a> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2012PAGGMODInTheCloud.pdf'>PDF</a>) </td>
     <td> Poster Session<br />Odd Numbers </td>
     <td> <a href='http://gmod.org/wiki/User:Scott'>Scott Cain</a> </td>
   </tr>
@@ -45,14 +48,14 @@ Galaxy had a strong presence at [Plant and Animal Genome XX (PAG 2012)](http://w
   <tr>
     <th rowspan=2> Wednesday<br />January 18 </th>
     <td style=" text-align: center;"> 10:30-11:30 </td>
-    <td> <a href='http://pag.confex.com/pag/xx/webprogram/Paper2350.html'>Galaxy</a> (slides: <a href='ATTACHMENT_URLDocuments/Presentations/2012PAGGalaxy.pdf'>PDF</a>) </td>
+    <td> <a href='http://pag.confex.com/pag/xx/webprogram/Paper2350.html'>Galaxy</a> (slides: <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012PAGGalaxy.pdf'>PDF</a>) </td>
     <td> <a href='http://pag.confex.com/pag/xx/webprogram/Session1123.html'>GMOD Workshop</a> </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> 11:35-11:50 </td>
     <td> <a href='http://pag.confex.com/pag/xx/webprogram/Paper3329.html'>MAPHiTS: an efficient workflow for SNP detection</a> </td>
-    <td> <a href='http://pag.confex.com/pag/xx/webprogram/Session1127.html'>Computer Demo</a> (<a href='ATTACHMENT_URLDocuments/Presentations/2012PAGMAPHiTS.pdf'>PDF</a>, <a href='ATTACHMENT_URLDocuments/Videos/2012PAGMAPHiTS.m4v'>video</a>)</td>
+    <td> <a href='http://pag.confex.com/pag/xx/webprogram/Session1127.html'>Computer Demo</a> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012PAGMAPHiTS.pdf'>PDF</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Videos/2012PAGMAPHiTS.m4v'>video</a>)</td>
     <td> Marc Bras </td>
   </tr>
 </table>

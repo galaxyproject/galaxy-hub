@@ -1,3 +1,4 @@
+#acl VettedEditorGroup:read,write,revert All:read
 <div class='center'>
 #### Contribute
 </div>

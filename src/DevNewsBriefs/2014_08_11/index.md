@@ -1,39 +1,41 @@
 ---
 autotoc: true
+pagetitle: August 11, ,,  2014 Galaxy Distribution News Brief
 ---
+<div class='right'></div>
 
 [All News Briefs](/DevNewsBriefs)
 <br />
 [Distribution Summary 2014_08_11](/News/2014_08_11_Galaxy_Distribution)
 
 <div class='left'><a href='http://getgalaxy.org'><img src='/Images/Logos/GetGalaxyOrg.png' alt=' ' width=175 /></a></div>
-<div class="title">August 11, 2014 Galaxy Distribution News Brief</div>
+
 <br />
 <br />
 <br />
 <table>
   <tr>
-    <td rowspan=3 style=" border: none"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>new</strong>: </td>
-    <td style=" border: none"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
+    <td style=" border: none;"> <strong>new</strong>: </td>
+    <td style=" border: none;"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>upgrade</strong>: </td>
-    <td style=" border: none"> <code>$ hg pull </code> <br /> <code>$ hg update latest_2014.08.11</code> </td>
+    <td style=" border: none;"> <strong>upgrade</strong>: </td>
+    <td style=" border: none;"> <code>$ hg pull </code> <br /> <code>$ hg update latest_2014.08.11</code> </td>
   </tr>
 </table>
 
@@ -132,7 +134,7 @@ Docker integration provides even greater security with [Pulsar](https://github.c
 
 # Gossip
 1. Did you read above that LWR was officially renamed to PULSAR ? We don’t normally tag our own, but there’s a rumor his initials are *John Chilton*, or was it [Natefoo](https://en.wikipedia.org/wiki/Interstellar_communication)?
-1. Galaxy CHARTS were a big wow! on [Twitter](https://twitter.com/galaxyproject), and we thank you for that, but they didn’t make the last News Brief. Get caught up and make sure you don’t miss the full color **[Charts Wiki](https://wiki.galaxyproject.org/Learn/Visualization/Charts)** <<span(red)>>this<<span()>> <<span(blue)>>time<<span()>> <<span(green)>>around<<span()>> !
+1. Galaxy CHARTS were a big wow! on [Twitter](https://twitter.com/galaxyproject), and we thank you for that, but they didn’t make the last News Brief. Get caught up and make sure you don’t miss the full color **[Charts Wiki](https://wiki.galaxyproject.org/Learn/Visualization/Charts)** <div class='red'>this</span> <div class='blue'>time</span> <div class='green'>around</span> !
 1. Docker, Docker, [DOCKER](https://www.docker.com) .. chant (er, VOTE) in [Trello](https://wiki.galaxyproject.org/Issues) and you shall likely receive.
 1. Psss… we migrated a few tools off Main, but they’re enjoying good company in the Toolshed until you need them. Find your favorite `SOLiD` mapping tools there: [BWA](https://toolshed.g2.bx.psu.edu/view/devteam/bwa_wrappers) & [Bowtie](https://toolshed.g2.bx.psu.edu/view/devteam/bowtie_color_wrappers)
 1. And we heard that there is quite a bit of deploy and config going on over at the [Galaxy Biostars](http://biostar.usegalaxy.org) forum. From where oh where will the advice come from next? Claiming one’s account is tricky - first you need to log into your [Main](http://usegalaxy.org) account, next find a tool form, and then finally click a button in the upper right corner. [Jump in…](https://wiki.galaxyproject.org/Support/Biostar)

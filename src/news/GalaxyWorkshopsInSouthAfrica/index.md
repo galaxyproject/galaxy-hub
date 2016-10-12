@@ -2,16 +2,16 @@
 <div class='right'>
 <table>
   <tr>
-    <td style=" text-align: center; border: none"> <img src='/SouthAfricaFlag.png' alt='' width="150" /> </td>
+    <td style=" text-align: center; border: none;"> <img src='/SouthAfricaFlag.png' alt='' width="150" /> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='http://www.up.ac.za/'><img src='/Images/Logos/UPretoriaWide.png' alt='University of Pretoria' width="200" /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.up.ac.za/'><img src='/Images/Logos/UPretoriaWide.png' alt='University of Pretoria' width="200" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='http://www.sun.ac.za/'><img src='/Images/Logos/StellenboschUWide.png' alt='Stellenbosch University'  /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.sun.ac.za/'><img src='/Images/Logos/StellenboschUWide.png' alt='Stellenbosch University'  /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='http://genetics.cmc-uct.co.za/'><img src='/Images/Logos/SASBCB_SAGS.png' alt='outh African Genetics & Bioinformatics Society Joint Conference'  /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://genetics.cmc-uct.co.za/'><img src='/Images/Logos/SASBCB_SAGS.png' alt='outh African Genetics & Bioinformatics Society Joint Conference'  /></a> </td>
   </tr>
 </table>
 
@@ -35,6 +35,6 @@ In addition, there will be a keynote talk on Galaxy at the [South African Geneti
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2012-06-28T20:47:26Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-06-28T20:47:26Z)</div>
 
 CategoryNews

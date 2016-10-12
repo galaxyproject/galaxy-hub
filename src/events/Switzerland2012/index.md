@@ -1,8 +1,11 @@
+---
+pagetitle:  Swiss Galaxy Workshop, ,,  Wednesday, ,,  October 3rd, ,,  Bern 
+---
 <div class='center'>
 
 ![Swiss Galaxy Workshop, Wednesday, October 3rd, Bern](/Images/Logos/2012SwissGalaxyWorkshop-400.png) <br /><br /> </div>
 
-<div class="title"> Swiss Galaxy Workshop, Wednesday, October 3rd, Bern </div>
+
 
 ## Audience
 This workshop is aimed at Galaxy administrators and users alike. We also welcome participants who are using workflow management systems other than Galaxy and tool developers who are looking for such systems to offer their tools to a wider audience.

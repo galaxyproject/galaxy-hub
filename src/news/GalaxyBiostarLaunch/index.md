@@ -33,6 +33,6 @@ We hope you will like the change and look forward to any feedback you may have.
 
 [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2014-04-23T18:55:56Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-04-23T18:55:56Z)</div>
 
 CategoryNews

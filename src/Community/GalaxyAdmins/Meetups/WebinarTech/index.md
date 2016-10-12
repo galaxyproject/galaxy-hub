@@ -1,6 +1,6 @@
-<div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
+<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
 
-INCLUDE(../../LinkBox)
+PLACEHOLDER_INCLUDE(../../LinkBox)
 
 The [GalaxyAdmins](../../) group uses the University of Iowa's Blackboard Collaborate (Ellumiate Live!) web conference system for it's [conference call meetups](../).  
 
@@ -23,15 +23,15 @@ Talking works like a walkie-talkie ... you have to select "Talk" (see capture be
 
 ## Java Web Start on Mac OS X
 
-<div class='right'><div class='solid'>
+<div class='right solid'>
 <table>
   <tr>
-    <td style=" border: none"> <img src='/Images/Logos/AppleLogo.jpg' alt='' height="50" /> +<img src='/Images/Logos/JavaLogo.png' alt='' height="50" /> </td>
-    <td style=" border:none"> = <img src='/Images/Icons/Frown.jpg' alt='' width="50" /> </td>
+    <td style=" border: none;"> <img src='/Images/Logos/AppleLogo.jpg' alt='' height="50" /> +<img src='/Images/Logos/JavaLogo.png' alt='' height="50" /> </td>
+    <td style=" border:none;"> = <img src='/Images/Icons/Frown.jpg' alt='' width="50" /> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <img src='/Images/Logos/AppleLogo.jpg' alt='' height="50" /> + <img src='/Images/Logos/JavaLogo.png' alt='' height="50" /> + <img src='/Images/Icons/PointingFinger.png' alt='You' width="50" /> </td>
-    <td style=" border:none"> = <img src='/Images/Icons/Smile.png' alt='' width="50" /> </td>
+    <td style=" border: none;"> <img src='/Images/Logos/AppleLogo.jpg' alt='' height="50" /> + <img src='/Images/Logos/JavaLogo.png' alt='' height="50" /> + <img src='/Images/Icons/PointingFinger.png' alt='You' width="50" /> </td>
+    <td style=" border:none;"> = <img src='/Images/Icons/Smile.png' alt='' width="50" /> </td>
   </tr>
 </table>
 

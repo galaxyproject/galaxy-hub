@@ -54,7 +54,7 @@ Here's my desk setup:
 ##### Front-end
 * node_modules/webpack/bin/webpack.js --progress --colors --watch
 * node_modules/grunt-cli/bin/grunt watch --develop
-* (More details [here](https://github.com/galaxyproject/galaxy/blob/dev/client/README))
+* (More details [here](https://github.com/galaxyproject/galaxy/blob/dev/client/README.md))
 
 ##### Keep learning
 Read HackerNews / Python subreddit + Programming subreddit

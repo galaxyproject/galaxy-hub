@@ -1,9 +1,12 @@
-INCLUDE(/Events/GCC2013/Header)
+---
+pagetitle: GCC2013 Training Day
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 
-<div class="title">GCC2013 Training Day</div>
 
-INCLUDE(/Events/GCC2013/LinkBox)
-<div class='right'><a href='/Events/GCC2013/TrainingDay/'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='Training Day' width="200" /></a></div>
+
+PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
+<div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='Training Day' width="200" /></a></div>
 
 # Introduction to tools and data sources
 
@@ -170,7 +173,7 @@ Why is this a good thing?
 
 ## 1:10 – 1:20pm Hello_sanitizer
 
-Sometimes you will need to control the characters allowed in a text parameter - for example to prevent the user from supplying a space or other potentially annoying character. The [sanitizer tag set](/Admin/Tools/ToolConfigSyntax/#sanitizer-tag-set) allows excluding specific characters. The format requires an initial definition of acceptable characters and individual ones can be added with the add tag.
+Sometimes you will need to control the characters allowed in a text parameter - for example to prevent the user from supplying a space or other potentially annoying character. The [sanitizer tag set](/Admin/Tools/ToolConfigSyntax#sanitizer-tag-set) allows excluding specific characters. The format requires an initial definition of acceptable characters and individual ones can be added with the add tag.
 
 ```xml
 <tool id="hello" name="hello" version="0.03">
@@ -203,7 +206,7 @@ Reload, test etc.
 
 ## 1:20 – 1:30pm Hello_file
 
-So far, the tool does not accept any input files from the user's history. These require a **[data](/Admin/Tools/ToolConfigSyntax/#typedata)** parameter specifying the template name for the input file and a data type (optionally a comma delimited list for multiple acceptable datatypes) which will be used to filter the user's current history so you can restrict the drop down choice list to the datatypes your tool needs - excluding other potentially unacceptable data formats to make it harder for the user to choose an incompatible datatype. 
+So far, the tool does not accept any input files from the user's history. These require a **[data](/Admin/Tools/ToolConfigSyntax#typedata)** parameter specifying the template name for the input file and a data type (optionally a comma delimited list for multiple acceptable datatypes) which will be used to filter the user's current history so you can restrict the drop down choice list to the datatypes your tool needs - excluding other potentially unacceptable data formats to make it harder for the user to choose an incompatible datatype. 
 
 Before we can implement that, we need to first make a suitable input file in the current history. A plain text file containing a few words of text is all you need. There are lots of ways of doing this, but the simplest way is to simply paste or write some text into the URL box of the **Get data &rarr; Upload File** tool, then set the file format to **txt** and press execute. A new text file containing whatever you typed will appear in your history after a few moments.
 
@@ -257,7 +260,7 @@ The contents should look like:
 ```xml
 <tool name="Hello" id="hello_datasource" tool_type="data_source">
     <description>datasource</description>
-    <command interpreter="python">data_source.py $output $<u>app__.config.output_size_limit</command>
+    <command interpreter="python">data_source.py $output $</u>app__.config.output_size_limit</command>
     <inputs action=" http://localhost:8051/datasource_simple_example.html" check_values="false" method="get"> 
         <display>go to Hello Datasource Example $GALAXY_URL</display>
     </inputs>
@@ -348,4 +351,4 @@ grep sanitizer tools
 
 1. If you figure something out that was not sufficiently clear (or worse, completely wrong!) in the tool syntax documentation, please contribute it! Send your suggested clarifications to the galaxy-dev list and we'll make sure it gets added. We need all the help we can get to make the documentation better so every little bit you can provide will help the whole community.
 
-INCLUDE(/Events/GCC2013/Footer)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Footer)

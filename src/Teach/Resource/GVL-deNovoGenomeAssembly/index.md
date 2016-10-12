@@ -1,8 +1,11 @@
+---
+pagetitle: GVL De Novo Genome Assembly , (, Small Genome, )
+---
 <div class='center'>
 <a href='https://docs.google.com/document/pub?id=1N3AB9ptISUu4zULqe1kXpVF0BDyGb5f5yzxWSJd_WNM'><img src='/PublicGalaxyServers/GenomicsVirtualLab300.png' alt='RNAseq Differential Gene Expression Advanced tutorial' height="200" /></a>
 </div>
 
-<div class="title">GVL De Novo Genome Assembly (Small Genome)</div>
+
 
 
 

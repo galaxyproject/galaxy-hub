@@ -1,10 +1,12 @@
 ---
 autotoc: true
+pagetitle: Building Galaxy , !, CloudMan components
 ---
-INCLUDE(/CloudMan/Header)
+PLACEHOLDER_INCLUDE(/CloudMan/Header)
 
-<div class="title">Building Galaxy !CloudMan components</div>
 
+
+<div class='right'></div>
 
 Launching a default version of [CloudMan](http://usecloudman.org/) and [Galaxy on the Cloud](/CloudMan) is a pretty straightforward process. [The underlying system](http://onlinelibrary.wiley.com/doi/10.1002/cpe.1836/full), however, is more complex and consists of a number of components. This page describes the steps required to build your own version of the components and deploy the system. You may want to do this if you are deploying the system on your own Cloud. If you would just like to have a custom version of the existing system on AWS, perhaps [cluster sharing & cloning](/CloudMan/Sharing) can help?
 
@@ -16,7 +18,7 @@ The process of building your own instance of the system is time consuming (altho
 
 The process of building the system consists of a number of steps. Each step creates a component that, when joined together, compose the complete system. To have a functional *Galaxy on the Cloud* system, it is required to have all the components in place; using !CloudMan alone requires only the machine image and an S3 bucket (or a Swift container). The overall process of building the components has been automated via an [Ansible](http://www.ansible.com/) playbook: [galaxy-cloudman-playbook](https://github.com/galaxyproject/galaxy-cloudman-playbook). 
 
-----
+---
 
 ## Prerequisites
 
@@ -72,10 +74,11 @@ cluster_templates:
 
 At this point, we are ready to launch an instance of the complete system!
 
-----
+---
 
 ## Additional resources
 Over time, the community has developed a few more documents and resources that can help with setting up the system and these are aggregated here:
-* John Chilton's [CloudMan bootstrap](https://github.com/jmchilton/cloudman_openstack_bootstrap)
-* [CloudMan flavor](https://github.com/chapmanb/cloudbiolinux/blob/master/deploy/cloudman) in [CloudBioLinux](http://cloudbiolinux.org/)
+* [Genomics Virtual Lab](https://github.com/gvlproject/gvl.ansible.playbook) ⟶ Build a complete genomics workbench with more applications than Galaxy
+* John Chilton's [CloudMan bootstrap](https://github.com/jmchilton/cloudman_openstack_bootstrap) (outdated)
+* [CloudMan flavor](https://github.com/chapmanb/cloudbiolinux/blob/master/deploy/cloudman.md) in [CloudBioLinux](http://cloudbiolinux.org/) (outdated)
  

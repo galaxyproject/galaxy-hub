@@ -1,7 +1,11 @@
 ---
 autotoc: true
 ---
+#acl WikiAdminGroup:read,write,revert All:read
+PLACEHOLDER_INCLUDE(/Learn/LinkBox)
+
 # Workflows as Custom Tools
+<div class='right'></div>
 
 <br />
 [Back to Advanced Workflow](/Learn/AdvancedWorkflow)
@@ -20,7 +24,7 @@ Customizing a workflow so that only one or some of the jobs included are active 
 
 Hide intermediate workflow steps using the **workflow editor**. 
 
-----
+---
 ## Tutorial: Promote a Workflow with Hidden Steps
 
 Step-by-step instructions for promoting a workflow and hiding intermediate steps.
@@ -94,7 +98,7 @@ Then launch the workflow by clicking on the name.
 
 Too many steps displayed by default in the history after running a workflow "tool"? Consider hiding the intermediate steps. How many to display/hide depends on what is important to access or visualize in the history as an active dataset. Often just the last step is wanted as a result. 
 
-Start by entering the **Workflow Editor** for the target workflow, then follow these instructions:  **[Basic Editing, Hidden Datasets](/Learn/AdvancedWorkflow/BasicEditing/#hidden_datasets)**
+Start by entering the **Workflow Editor** for the target workflow, then follow these instructions:  **[Basic Editing, Hidden Datasets](/Learn/AdvancedWorkflow/BasicEditing#hidden_datasets)**
 
 Not sure how to access or use the editor? That same wiki has all the help you need to get started.
 

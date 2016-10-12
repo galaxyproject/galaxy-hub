@@ -1,7 +1,9 @@
 ---
 autotoc: true
+pagetitle: Galaxy Release and Update Process
 ---
-<div class="title">Galaxy Release and Update Process</div>
+
+
 
 
 # Release Process

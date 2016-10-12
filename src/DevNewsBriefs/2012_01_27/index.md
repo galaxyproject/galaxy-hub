@@ -1,7 +1,9 @@
 ---
 autotoc: true
+pagetitle: January 27, ,,  2012 Galaxy Development News Brief
 ---
-<div class="title">January 27, 2012 Galaxy Development News Brief</div>
+
+<div class='right'></div>
 
 ## Get Galaxy
 
@@ -13,7 +15,7 @@ autotoc: true
 
 * **upgrade**: `% hg pull -u -r 26920e20157f`
 
-----
+---
 
 
 ## Run Cluster Jobs as the Real User
@@ -27,7 +29,7 @@ autotoc: true
 * Thank-you John Duddy for contributing the code for this feature that helps makes Galaxy customization even easier!
 
 ## Job Management
-* **[DRMAA](http://www.drmaa.org/)** runner: <<nwwl(DrmCommunicationException)>> will no longer cause a job to fail.  Instead, the job will return to the monitored job queue and be checked again.
+* **[DRMAA](http://www.drmaa.org/)** runner: !DrmCommunicationException will no longer cause a job to fail.  Instead, the job will return to the monitored job queue and be checked again.
 * Use temporary files instead of pipes for local job execution - prevents tools from hanging when they write large amounts of data to STDOUT/STDERR.
 
 ## Tools
@@ -68,19 +70,19 @@ autotoc: true
   * Reset all metadata on all changeset revisions of a tool shed repsoitory whenever a new change set is introduced. This will result in a more standardized set of valid changeset revisions that can be installed.
   * Fix for generating workflow metadata and viewing workflows in tool shed repositories.
   * Fix for searching for workflows in the tool shed.
-* [Deactivating and uninstalling tool shed repositories installed into a local Galaxy instance](/Tool Shed/#deactivating_and_uninstalling_tool_shed_repositories_installed_into_a_local_galaxy_instance)
+* [Deactivating and uninstalling tool shed repositories installed into a local Galaxy instance](/Tool Shed#deactivating_and_uninstalling_tool_shed_repositories_installed_into_a_local_galaxy_instance)
 
 ## Bug Fixes
-<div class='right'><a href='/Support/'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
+<div class='right'><a href='/Support'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
 * Python 2.5 support was broken in the last stable release, this has been fixed 
 * A broken unit test under 2.5 will not be fixed until the next release, however - this can safely be ignored.
 * A fix to not use math.isnan because it is not compatible with python 2.5 has been made.
 * Fix for setting up column assignments for dynamic options with respect to tool data tables when the index file is missing causing tools to fail to load.
-* Have **[GOPs Concatenate](/Learn/Interval Operations)** tool always respect the provided strand column. Fixes issue seen when providing intervals with a chrom/start/stop in column 5 and strand was not set.
+* Have **[GOPs Concatenate](/Learn/IntervalOperations)** tool always respect the provided strand column. Fixes issue seen when providing intervals with a chrom/start/stop in column 5 and strand was not set.
 * On edit attributes page, make the info field a text area. Fixes lost new line characters in field when changing name.
 * The Object Store unit test that was failing in the last stable release has been fixed.
 
-----
+---
 
 ## About Galaxy
 **[GalaxyProject.org](http://galaxyproject.org)**
@@ -90,5 +92,5 @@ The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)*
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
 Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)**
-----
-</div> Jennifer Jackson, [Galaxy Team](/GalaxyTeam). Posted to [/DevNewsBriefs](/DevNewsBriefs) on <<Date(2012-01-27T01:02:28Z)>></div>
+---
+Jennifer Jackson, [Galaxy Team](/GalaxyTeam). Posted to [/DevNewsBriefs](/DevNewsBriefs) on PLACEHOLDER_DATE(2012-01-27T01:02:28Z)

@@ -1,23 +1,25 @@
 ---
 autotoc: true
+pagetitle: Lightning Talks
 ---
-INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
 <br /><br />
 
-<div class="title">Lightning Talks</div>
 
-INCLUDE(/Events/GCC2014/LinkBox)
 
-Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Tuesday](/Events/GCC2014/Program/#day-1-main-meeting) and [Session 8 on Wednesday](/Events/GCC2014/Program/#day-2-main-meeting).
+PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+
+Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Tuesday](/Events/GCC2014/Program#day-1-main-meeting) and [Session 8 on Wednesday](/Events/GCC2014/Program#day-2-main-meeting).
 
 If you wish to give a lightning talk, please send a title and short abstract to [gcc2014-sci AT groups DOT galaxyproject DOT org](GCC2014 Scientific Committee), either 
-* any time before the start of [Session 2](../Program/#day-1-main-meeting-july-1) (to be considered for Tuesday or Wednesday slots), or 
-* before [Session 6](../Program/#day-2-main-meeting-july-2) (to be considered for Wednesday only).  
+* any time before the start of [Session 2](../Program#day-1-main-meeting-july-1) (to be considered for Tuesday or Wednesday slots), or 
+* before [Session 6](../Program#day-2-main-meeting-july-2) (to be considered for Wednesday only).  
 
 The slides for all lightning talks will be made available on the this page, and the talks may be videotaped and posted here as well.
 
 # Talks
+
 
 
 ## Accepted Talks, Session 4, Tuesday, July 1
@@ -246,4 +248,4 @@ Proposals will be solicited during the meeting.  If you wish to give a lightning
 
 A proposal consists, of a title, and a short description of the topic. 
 
-INCLUDE(/Events/GCC2014/Footer)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Footer)

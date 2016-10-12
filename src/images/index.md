@@ -1,4 +1,4 @@
-INCLUDE(/Images/LinkBox)
+PLACEHOLDER_INCLUDE(/Images/LinkBox)
 
 Common place to store images that are likely to be shared across pages.
 

@@ -1,9 +1,12 @@
-INCLUDE(/Events/GCC2013/Header)
+---
+pagetitle: GCC2013 Training Day
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 
-<div class="title">GCC2013 Training Day</div>
 
-INCLUDE(/Events/GCC2013/LinkBox)
-<div class='right'><a href='/Events/GCC2013/TrainingDay/'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='Training Day' width="200" /></a></div>
+
+PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
+<div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='Training Day' width="200" /></a></div>
 
 # Advanced Tool and Data Source Configuration
 
@@ -95,7 +98,7 @@ def advanced():
 	outf.write('\n')
 	outf.close
 
-if __name__ == "<u>main__":
+if __name__ == "</u>main__":
 	advanced()
 ```
 
@@ -730,7 +733,7 @@ gatk_macros.xml:
             -p '--read_filter "${read_filter.read_filter_type.read_filter_type_selector}"
             ###raise Exception( str( dir( $read_filter ) ) )
             #for $name, $param in $read_filter.read_filter_type.iteritems():
-                #if $name not in [ "</u>current_case__", "read_filter_type_selector" ]:
+                #if $name not in [ "<u>current_case__", "read_filter_type_selector" ]:
                     #if hasattr( $param.input, 'truevalue' ):
                         ${param}
                     #else:
@@ -1047,4 +1050,4 @@ Some suggestions for exploration (http://wiki.galaxyproject.org/Admin/Tools/Tool
 ## 17:00 session ends
 
 
-INCLUDE(/Events/GCC2013/Footer)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Footer)

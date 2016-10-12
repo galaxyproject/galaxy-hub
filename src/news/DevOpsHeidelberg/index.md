@@ -22,6 +22,6 @@ For more information please see the [workshop page](https://goo.gl/8dNSdy).
 
 [Björn Grüning](/BjoernGruening)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2016-03-17T20:21:12Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-03-17T20:21:12Z)</div>
 
 CategoryNews

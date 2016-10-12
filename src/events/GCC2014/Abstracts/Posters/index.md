@@ -1,9 +1,9 @@
 ---
 autotoc: true
 ---
-INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
-INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 ## Poster Abstracts
 
@@ -18,6 +18,7 @@ There will be two poster sessions:
    *Even* numbered posters will be presented during poster session 2.
 
 Poster dimensions are a maximum of 48" x 48" (122cm x 122cm).
+
 
 
 

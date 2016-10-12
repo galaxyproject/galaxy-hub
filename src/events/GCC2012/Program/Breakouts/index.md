@@ -2,19 +2,19 @@ Breakouts are informal, open discussion sessions where participants interested i
 
 <table>
   <tr>
-    <td> </strong><a href='/Community/GalaxyAdmins/Meetups/2012_07_27/'>GalaxyCzars</a><strong><br /> Ann Black-Ziegelbein </td>
+    <td> </strong><a href='/Community/GalaxyAdmins/Meetups/2012_07_27'>GalaxyCzars</a><strong><br /> Ann Black-Ziegelbein </td>
   </tr>
   <tr>
-    <td> </strong><a href='AutomationStrategies/'>Automation Strategies for Data, Tools, & Config</a><strong><br /> Brad Chapman, <a href='/JohnChilton/'>John Chilton</a>, <a href='/EnisAfgan/'>Enis Afgan</a>, <a href='/DaveBouvier/'>Dave Bouvier</a> and <a href='/JenniferJackson/'>Jen Jackson</a> </td>
+    <td> </strong><a href='AutomationStrategies'>Automation Strategies for Data, Tools, & Config</a><strong><br /> Brad Chapman, <a href='/JohnChilton'>John Chilton</a>, <a href='/EnisAfgan'>Enis Afgan</a>, <a href='/DaveBouvier'>Dave Bouvier</a> and <a href='/JenniferJackson'>Jen Jackson</a> </td>
   </tr>
   <tr>
-    <td> </strong><a href='BioinformaticsTraining/'>Bioinformatics Training and Teaching with Galaxy</a><strong><br /><a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> </strong><a href='BioinformaticsTraining'>Bioinformatics Training and Teaching with Galaxy</a><strong><br /><a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
-    <td> </strong><a href='WorkflowsAndAPI/'>Galaxy API and Extending it; Workflow Enhancements</a><strong><br />Clare Sloggett, Scott !McManus </td>
+    <td> </strong><a href='WorkflowsAndAPI'>Galaxy API and Extending it; Workflow Enhancements</a><strong><br />Clare Sloggett, Scott !McManus </td>
   </tr>
   <tr>
-    <td> </strong><a href='EndUsers/'>Galaxy End User Group</a><strong> <br /> Jane Dorweiler </td>
+    <td> </strong><a href='EndUsers'>Galaxy End User Group</a><strong> <br /> Jane Dorweiler </td>
   </tr>
 </table>
 

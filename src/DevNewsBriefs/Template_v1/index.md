@@ -7,6 +7,7 @@ autotoc: true
 
 # Month DD, 20YY Galaxy Development News Brief
 
+<div class='right'></div>
 
 ## Get Galaxy
 
@@ -74,7 +75,7 @@ autotoc: true
 ### Source
 
 ### Bug Fixes
-<div class='left'><a href='/Support/'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
+<div class='left'><a href='/Support'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
 
 * testone, does something
 * testtwo, does something else
@@ -82,7 +83,7 @@ autotoc: true
 
 
 
-----
+---
 
 ### About Galaxy
 
@@ -103,4 +104,4 @@ The [GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam) is 
 [http://twitter.com/#!/search/galaxyproject](http://twitter.com/#!/search/galaxyproject) 
 
 
-----
+---

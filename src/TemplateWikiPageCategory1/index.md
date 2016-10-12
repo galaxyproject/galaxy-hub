@@ -1,8 +1,11 @@
 ---
 autotoc: true
 ---
+#acl VettedEditorGroup:read,write,revert All:read
+
 ## Put The Page Title Here Starting At A Level Two Header
 
+<div class='right'></div>
 
 ## Short Label
 

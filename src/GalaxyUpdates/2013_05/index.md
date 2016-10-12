@@ -1,10 +1,12 @@
 ---
 autotoc: true
+pagetitle: May 2013 Galaxy Update
 ---
-<div class="title">May 2013 Galaxy Update</div>
 
 
-<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='right'></div>
+
+<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the May 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -60,7 +62,7 @@ There are now over [950 papers in the Galaxy CiteULike Group](http://www.citeuli
 
 ## Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -74,11 +76,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## GCC2013
 
-<div class='center'><a href='/Events/GCC2013/'><img src='/Images/Logos/GCC2013Logo400.png' alt='2013 Galaxy Community Conference (GCC2013)' width="300" /></a> </div>
+<div class='center'><a href='/Events/GCC2013'><img src='/Images/Logos/GCC2013Logo400.png' alt='2013 Galaxy Community Conference (GCC2013)' width="300" /></a> </div>
 
 <table>
   <tr>
-    <th> &nbsp;&nbsp; </strong><a href='/Events/GCC2013/Register/'>Early registration</a> closes 24 May.<strong> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; </strong><a href='/Events/GCC2013/Register'>Early registration</a> closes 24 May.<strong> &nbsp;&nbsp; </th>
   </tr>
 </table>
 
@@ -87,7 +89,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 The [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013) will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).
 
-<div class='right'><a href='/Events/GCC2013/TrainingDay/'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
+<div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
 
 [GCC2013](/Events/GCC2013) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/Events/GCC2013/TrainingDay) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
 
@@ -95,7 +97,7 @@ The [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013) will be held 3
 
 ### Birds of a Feather Sessions
 
-<div class='left'><a href='/Events/GCC2013/BoF/'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="180" /></a></div>
+<div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="180" /></a></div>
 
 Past Galaxy Community Conferences have been *the* event for networking in the Galaxy: There is no better place to meet and learn from others doing high-throughput biology.  GCC2013 will extend this tradition by including *[Birds of a Feather (BoF)](/Events/GCC2013/BoF)* meetups at the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  If you have something you want to meet about, please start or join a [GCC2013 BoF](/Events/GCC2013/BoF).
 
@@ -112,13 +114,13 @@ There are still several [sponsorships](/Events/GCC2013/Sponsorships) still avail
 
 <div class='center'>
 <a href='http://www.iscb.org/glbio2013'><img src='/Images/Logos/GLBioLogo.png' alt='Great Lakes Bioinformatics Conference (GLBIO) 2013' height="50" /></a>
-<a href='/Community/GalaxyAdmins/Meetups/2013_05_15/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins May 2013 Meetup' height="70" /></a>
+<a href='/Community/GalaxyAdmins/Meetups/2013_05_15'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins May 2013 Meetup' height="70" /></a>
 <a href='http://bit.ly/WiNGS2013'><img src='/Images/Logos/WINGS.png' alt='Workshop in Next-Generation Sequence Analysis and Metabolomics' height=90 /></a>
 
-<a href='/Events/GCC2013/'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="135px" /></a>
+<a href='/Events/GCC2013'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="135px" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 ### Events
@@ -132,90 +134,90 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> May 14-16 </th>
-    <td> Tutorial: </em>Exploring and Enabling Biomedical Data Analysis with Galaxy<em> </td>
+    <td> Tutorial: <em>Exploring and Enabling Biomedical Data Analysis with Galaxy</em> </td>
     <td> <a href='http://www.iscb.org/glbio2013'>Great Lakes Bioinformatics Conference (GLBIO) 2013</a>, Pittsburgh, Pennsylvania, United States </td>
-    <td> <a href='/anton/'>Anton Nekrutenko</a> </td>
+    <td> <a href='/anton'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> May 15 </th>
-    <td> </em><a href='/Community/GalaxyAdmins/Meetups/2013_05_15/'>GalaxyAdmins May 2013 Meetup</a><em> </td>
-    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_05_15/'>GalaxyAdmins web meetup</a> </td>
-    <td> Srinivas Maddhi, <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2013_05_15'>GalaxyAdmins May 2013 Meetup</a></em> </td>
+    <td> <a href='/Community/GalaxyAdmins/Meetups/2013_05_15'>GalaxyAdmins web meetup</a> </td>
+    <td> Srinivas Maddhi, <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 16-17 </th>
-    <td> </em>Galaxy Workflows for Bioinformatics Analysis,<em> and <br /></em>Workshop 1A – Galaxy Workflows for Bioinformatics Analysis<em> </td>
+    <td> <em>Galaxy Workflows for Bioinformatics Analysis,</em> and <br /><em>Workshop 1A – Galaxy Workflows for Bioinformatics Analysis</em> </td>
     <td> <a href='http://bit.ly/WiNGS2013'>Workshop in Next-Generation Sequence Analysis and Metabolomics (WiNGS)</a>, UNC-Charlotte, North Carolina, United States </td>
-    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> May 24<br />June 19 </th>
-    <td> </em><a href='http://bit.ly/17JDpcb'>Introduction to Galaxy</a><em> </td>
+    <td> <em><a href='http://bit.ly/17JDpcb'>Introduction to Galaxy</a></em> </td>
     <td rowspan=1> <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a> Davis, California, United States </td>
     <td> <a href="mailto:najoshi AT ucdavis DOT edu">Nikhil Joshi</a> </td>
   </tr>
   <tr>
     <th rowspan=3> May 28-31 </th>
-    <td> </em><a href='http://www.bio-itworldasia.com/cla/'>A Genomics Virtual Lab for Cancer Research</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldasia.com/cla/'>A Genomics Virtual Lab for Cancer Research</a></em> </td>
     <td rowspan=3> <a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a>, Singapore </td>
     <td> Dominique Gorse </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldasia.com/Bio-It_Asia_Content.aspx?id=123563'>Next-Gen Sequencing Analysis Using GigaGalaxy</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldasia.com/Bio-It_Asia_Content.aspx?id=123563'>Next-Gen Sequencing Analysis Using GigaGalaxy</a></em> </td>
     <td> Tin-Lap Lee </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldasia.com/Bio-It_Asia_Content.aspx?id=123563'>Open Source and Web-Based Analysis of NGS Data Using Galaxy at the Center for Research Informatics University of Chicago</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldasia.com/Bio-It_Asia_Content.aspx?id=123563'>Open Source and Web-Based Analysis of NGS Data Using Galaxy at the Center for Research Informatics University of Chicago</a></em> </td>
     <td> Jorge Andrade </td>
   </tr>
   <tr>
     <th> May 31<br />June 20 </th>
-    <td> </em><a href='http://bit.ly/ZJXOZL'>Introduction to RNAseq</a><em> </td>
+    <td> <em><a href='http://bit.ly/ZJXOZL'>Introduction to RNAseq</a></em> </td>
     <td rowspan=1> <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a> Davis, California, United States </td>
     <td> <a href="mailto:najoshi AT ucdavis DOT edu">Nikhil Joshi</a> </td>
   </tr>
   <tr>
     <th> June 6-7 </th>
-    <td> </em><a href='http://bit.ly/VyBEcS'>Informatics on High Throughput Sequencing Data Workshop</a><em> </td>
+    <td> <em><a href='http://bit.ly/VyBEcS'>Informatics on High Throughput Sequencing Data Workshop</a></em> </td>
     <td> Toronto, Ontario, Cananda </td>
     <td> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette </a> </td>
   </tr>
   <tr>
     <th> June 8-11 </th>
-    <td> </em><a href='https://www.eshg.org/sunday2013.0.html#W1'>WS08: Biomedical Data Analysis with Galaxy</a><em> </td>
+    <td> <em><a href='https://www.eshg.org/sunday2013.0.html#W1'>WS08: Biomedical Data Analysis with Galaxy</a></em> </td>
     <td> Workshop at <a href='https://www.eshg.org/eshg2013.0.html'>European Human Genetics Conference (ESHG2013)</a>, Paris, France </td>
-    <td> <a href='/anton/'>Anton Nekrutenko</a>, <a href='/EnisAfgan/'>Enis Afgan</a> </td>
+    <td> <a href='/anton'>Anton Nekrutenko</a>, <a href='/EnisAfgan'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 9-13 </th>
-    <td> </strong><a href='/Events/ASMS2013/'>61st ASMS Conference on Mass Spectrometry and Allied Topics</a><strong><div class='indent'>Includes at least 1 workshop and 9 posters either about or utilizing Galaxy</div> </td>
+    <td> </strong><a href='/Events/ASMS2013'>61st ASMS Conference on Mass Spectrometry and Allied Topics</a><strong><div class='indent'>Includes at least 1 workshop and 9 posters either about or utilizing Galaxy</div> </td>
     <td> Minneapolis, Minnesota, United States </td>
-    <td> <a href='/JohnChilton/'>John Chilton</a> </td>
+    <td> <a href='/JohnChilton'>John Chilton</a> </td>
   </tr>
   <tr>
     <th> June 13-14 </th>
     <td> <a href='http://www.cdb.riken.jp/deepseq2013/index.html'>Genomics and Epigenomics with Deep Sequencing, the 24th CDB Meeting</a> </td>
     <td> RIKEN, CDB, Kobe, Japan </td>
-    <td> <a href='/anton/'>Anton Nekrutenko</a> </td>
+    <td> <a href='/anton'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> June 20-22 </th>
-    <td> </em><a href='http://www.fged.org/conferences/upcoming-conference/workshops-and-tutorials-1/'>W1: Next-generation sequencing data analysis with GenomeSpace and Galaxy</a><em> </td>
+    <td> <em><a href='http://www.fged.org/conferences/upcoming-conference/workshops-and-tutorials-1/'>W1: Next-generation sequencing data analysis with GenomeSpace and Galaxy</a></em> </td>
     <td> <a href='http://www.fged.org/conferences/upcoming-conference2/'>FGED Conference</a>, Seattle, Washington </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> </strong></em><a href='/Events/GCC2013/'>2013 Galaxy Community Conference (GCC2013)</a><strong><em> </td>
+    <td> </strong><em><a href='/Events/GCC2013'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
-    <td> <a href='/Events/GCC2013/Organizers/'>Organizers</a> </td>
+    <td> <a href='/Events/GCC2013/Organizers'>Organizers</a> </td>
   </tr>
 </table>
 
 
 ## GalaxyAdmins
 
-<div class='right'><a href='/Community/GalaxyAdmins//'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' height="50" /></a></div>
+<div class='right'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' height="50" /></a></div>
 
 The next [GalaxyAdmins Meetup will be May 15](/Community/GalaxyAdmins/Meetups/2013_05_15) at 10 am central US time.  Watch your email for details.
 

@@ -1,8 +1,11 @@
+---
+pagetitle: Idaho State University
+---
 <div class='center'>
-<a href='http://www.isu.edu/bios/MRCF/'><img src='/IdahoStateULogo.JPG/' alt='Idaho State University Molecular Research Core Facility (MRCF)' width="300" /></a>
+<a href='http://www.isu.edu/bios/MRCF/'><img src='/IdahoStateULogo.JPG' alt='Idaho State University Molecular Research Core Facility (MRCF)' width="300" /></a>
 </div>
 
-<div class="title">Idaho State University</div>
+
 
 <div class='deploymentbox'>
  Deployment:: **[Idaho State University MRCF](/Community/Deployment/IdahoStateUniversity)**

@@ -25,6 +25,6 @@ Thanks,
 
 The [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2015-01-19T07:34:50Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-01-19T07:34:50Z)</div>
 
 CategoryNews

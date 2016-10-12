@@ -1,26 +1,28 @@
 ---
 autotoc: true
+pagetitle: Semi, -, Public Galaxy Services
 ---
 <div class='right'>
 <table>
   <tr>
+    <td style=" border: none; width: 22em;"> </td>
   </tr>
 </table>
 
 </div>
-<div class="title">Semi-Public Galaxy Servers</div>
+
 
 Galaxy Servers are available in all sorts of flavors:  This page lists Galaxy servers that aren't [fully publicly accessible](/PublicGalaxyServers), but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
 
 Servers are classified here by whom they are accessible to.  This can be based on research domain, geography (regional or national), or by membership in a multi-organization association that provides Galaxy Servers. 
 
-**To add your semi-public Galaxy server to this list**, please either just add it (hey, *it's a wiki*), or [describe the server here](https://docs.google.com/forms/d/14i8FNHB7pwXrXmhvUkxXTh2VKQ-2BKsnMubXsCZadjs/viewform) and we'll post it this directory.
+**To add your semi-public Galaxy server to this list**, please either just add it (hey, *it's a wiki*), or **[describe the server here](https://docs.google.com/forms/d/14i8FNHB7pwXrXmhvUkxXTh2VKQ-2BKsnMubXsCZadjs/viewform)** and we'll post it in this directory.
 
 # Geography Based
 
 ## Australia: Genomics Virtual Lab (GVL)
 
-<div class='right'><div class='solid'><a href='https://launch.genome.edu.au/launch'><img src='/PublicGalaxyServers/GenomicsVirtualLab300.png' alt='GVL' height="200" /></a></div>
+<div class='right solid'><a href='https://launch.genome.edu.au/launch'><img src='/PublicGalaxyServers/GenomicsVirtualLab300.png' alt='GVL' height="200" /></a></div>
 
 * *Links:*
   * **[Genomics Virtual Lab](https://launch.genome.edu.au/launch)**
@@ -42,7 +44,7 @@ Servers are classified here by whom they are accessible to.  This can be based o
 
 ## Canada: GenAP
 
-<div class='right'><div class='solid'><a href='https://www.genap.ca/'><img src='/SemiPublicGalaxyServers/GenAP_Logo_Trans_250.png' alt='GenAP' height="200" /></a></div>
+<div class='right solid'><a href='https://www.genap.ca/'><img src='/SemiPublicGalaxyServers/GenAP_Logo_Trans_250.png' alt='GenAP' height="200" /></a></div>
 
 * *Links:*
   * **[GenAP](https://www.genap.ca/)**
@@ -65,7 +67,7 @@ Servers are classified here by whom they are accessible to.  This can be based o
 
 ## Norway: NeLS
 
-<div class='right'><div class='solid'><a href='https://nels.bioinfo.no'><img src='https://galaxy-ntnu.bioinfo.no/www/NeLS_logo_300x100.png' alt='NeLS Portal'  /></a></div>
+<div class='right solid'><a href='https://nels.bioinfo.no'><img src='https://galaxy-ntnu.bioinfo.no/www/NeLS_logo_300x100.png' alt='NeLS Portal'  /></a></div>
 
 * *Links:*
   * **[NeLS Galaxy server at UiO](https://galaxy-uio.bioinfo.no)**
@@ -100,7 +102,7 @@ Servers are classified here by whom they are accessible to.  This can be based o
 
 ## Poland: PL-Grid
 
-<div class='right'><div class='solid'><a href='https://galaxy.plgrid.pl'><img src='/SemiPublicGalaxyServers/PL-Grid_Logo.png' alt='PL-Grid Galaxy'  /></a></div>
+<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src='/SemiPublicGalaxyServers/PL-Grid_Logo.png' alt='PL-Grid Galaxy'  /></a></div>
 
 * *Links:*
   * **[PL-Grid Galaxy Server](https://galaxy.plgrid.pl)**
@@ -117,6 +119,27 @@ Servers are classified here by whom they are accessible to.  This can be based o
   * Every PL-Grid user applies for negotiable grants for resources such as cpu power, storage etc.
 * *Sponsor(s):*
   * [PL-Grid NG](http://www.plgrid.pl/en/projects/ng) and [ACC CYFRONET AGH](http://www.cyfronet.krakow.pl/en/4421,main.html)
+
+
+## United States: Jetstream
+
+<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src='/Images/Logos/JetstreamRectClipped.jpg' alt='Jetstream' width="280" /></a></div>
+
+* *Links:*
+  * **[Galaxy on Jetstream](/Cloud/Jetstream)**
+* *Eligibility:*
+  * [Jetstream](http://jetstream-cloud.org/) is part of [XSEDE](https://www.xsede.org/), a "collection of integrated advanced digital resources and services" and is funded by NSF.  You need to be eligible for an [XSEDE allocation](https://portal.xsede.org/allocation-policies) to use Jetstream, which means must be based at a U.S. institution. And although XSEDE is NSF-funded, "projects need not be supported by NSF grants" to receive an allocation.
+* *Comments:*
+  * Jetstream enables researchers to launch, use, and shutdown their own Galaxy servers that have been pre-configured similar to the [Main Galaxy server](https://usegalaxy.org/). If you want to further customize your launched server you can [become an administrator](/Cloud/Jetstream/ssh#adding_galaxy_admin_user) and even [access the server from the shell](/Cloud/Jetstream/ssh).
+* *User Support:*
+  * See the [Galaxy on Jetstream documentation](/Cloud/Jetstream)
+  * [FAQ](/Cloud/Jetstream/FAQ)
+* *Quotas:* 
+  * Limits are determined by the size of your allocation and the size of the instances you launch.
+* *Sponsor(s):*
+  * [The National Science Foundation (NSF)](http://www.nsf.gov/)
+  * [Jetstream](http://jetstream-cloud.org/) is based at [Indiana University](https://www.iu.edu/) and Jetstream resources are hosted by Indiana University and the [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/).
+
 
 # Domain Based
 

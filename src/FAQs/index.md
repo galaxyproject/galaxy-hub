@@ -1,5 +1,8 @@
-INCLUDE(LinkBox)
-<div class="title">Frequently asked questions (FAQs) about Galaxy</div>
+---
+pagetitle: Frequently asked questions , (, FAQs, ),  about Galaxy
+---
+PLACEHOLDER_INCLUDE(LinkBox)
+
 
 * [/Main/FAQ](/Main/FAQ) - Questions about Galaxy's free public server, [/Main](/Main).
 * [/Learn/FAQ](/Learn/FAQ) - Questions about *[using](/Learn)* [any Galaxy instance](/BigPicture/Choices).

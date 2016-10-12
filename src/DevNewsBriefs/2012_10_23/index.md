@@ -1,25 +1,27 @@
 ---
 autotoc: true
+pagetitle: October 23, ,,  2012 Galaxy Development News Brief
 ---
+<div class='right'></div>
 
-<div class="title">October 23, 2012 Galaxy Development News Brief</div>
+
 
 <br />
 # Get Galaxy
-*** Upgrade NOW for an Important [Security Fix](/DevNewsBriefs/2012_10_23/#compute_tool_security_fix) ***
+*** Upgrade NOW for an Important [Security Fix](/DevNewsBriefs/2012_10_23#compute_tool_security_fix) ***
 
 <table>
   <tr>
-    <td rowspan=3 style=" border: none"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td colspan=2 style=" border: none;"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>new</strong>: </td>
-    <td style=" border: none"> <code> $ hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist </code> </td>
+    <td style=" border: none;"> <strong>new</strong>: </td>
+    <td style=" border: none;"> <code> $ hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist </code> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>upgrade</strong>: </td>
-    <td style=" border: none"> <code> $ hg pull -u -r 12fcd068b12e </code> </td>
+    <td style=" border: none;"> <strong>upgrade</strong>: </td>
+    <td style=" border: none;"> <code> $ hg pull -u -r 12fcd068b12e </code> </td>
   </tr>
 </table>
 
@@ -32,13 +34,13 @@ Administrators are always encouraged to install the latest release not only to i
 
 We also intend to learn from recent actions in these areas that fell short of a best effort. The security corrections and priority of the changes to the `Compute` tool in the prior distribution lacked the details and urgency notice it deserved. The move from *Bitbucket* to *[Trello](/Issues)* for community collaboration in issue reporting also lacked the information and timely documentation that would have made the transition processes smoother. Both are covered in more detail in this News Brief. Our goals are to provide a remedy for the immediate issues and to create a successful communications and collaborations model for the future. We value your feedback - please let us know how we are doing as the new tools are put into practice.  
 
-1. **[Compute Tool Security Fix](/DevNewsBriefs/2012_10_23/#compute_tool_security_fix)**
-2. **[New Trello Issue Board](/DevNewsBriefs/2012_10_23/#new_trello_issue_board)**
+1. **[Compute Tool Security Fix](/DevNewsBriefs/2012_10_23#compute_tool_security_fix)**
+2. **[New Trello Issue Board](/DevNewsBriefs/2012_10_23#new_trello_issue_board)**
 
 <br />
 # Compute Tool Security Fix
 
-***This distribution and the previous distribution, [October 5, 2012](/DevNewsBriefs/2012_10_05/#security_fixes), fix a significant security hole in Galaxy's "Compute" tool. Upgrade or patch NOW. ***
+***This distribution and the previous distribution, [October 5, 2012](/DevNewsBriefs/2012_10_05#security_fixes), fix a significant security hole in Galaxy's "Compute" tool. Upgrade or patch NOW. ***
 
 The **Compute** columns tool allowed arbitrary execution of python code entered into the input text field by a user.  It has been modified to only allow safe operators and functions.  Administrators are strongly urged to apply this update for security purposes, or to manually apply/patch these changesets:
 ```
@@ -212,7 +214,7 @@ Detail view of center panel:
 [/News](/News), *[October 2012 Galaxy Update](/GalaxyUpdates/2012_10)*
 
 <br />
-----
+---
 <br />
 # About Galaxy
 **[GalaxyProject.org](http://galaxyproject.org)**

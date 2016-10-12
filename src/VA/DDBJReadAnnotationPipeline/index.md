@@ -1,14 +1,17 @@
+---
+pagetitle: [DDBJ Read Annotation Pipeline](https://p.ddbj.nig.ac.jp/pipeline/Login.do)
+---
 <div class='center'>
 <a href='https://p.ddbj.nig.ac.jp/pipeline/Login.do'><img src='/DDBJ-RAP-Banner.png' alt='DDBJ Read Annotation Pipeline'  /></a>
 </div>
 
-<div class="title">[DDBJ Read Annotation Pipeline](https://p.ddbj.nig.ac.jp/pipeline/Login.do)</div>
+
 
 
 
 <div class='dictbox'>
  Appliance:: **[DDBJ Read Annotation Pipeline](/VA/DDBJReadAnnotationPipeline)**
- Technology:: **[VM](/VirtualAppliances/#virtual-machine-images)**
+ Technology:: **[VM](/VirtualAppliances#virtual-machine-images)**
  Domains:: **Reference genome mapping, *de novo* assembly, and structural and functional annotations** 
  Description:: !VirtualBox VM created in 2015 so that "Researchers may utilize the virtual machine image for users’ sensitive datasets such as human personal genomic sequences."
  Owners:: DDBJ Read Annotation Pipeline, Development team

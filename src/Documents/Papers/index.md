@@ -1,9 +1,9 @@
-INCLUDE(/Documents/LinkBox)
+PLACEHOLDER_INCLUDE(/Documents/LinkBox)
 
 Common place to attach papers in the [/Documents](/Documents) hierarchy.
 
 ## Papers
 
-<<Action(AttachFile, Attach a new file.)>>
+PLACEHOLDER_ACTION(AttachFile,Attach a new file.)
 
-<<AttachList>>
+PLACEHOLDER_ATTACH_LIST

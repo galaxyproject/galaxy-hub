@@ -1,8 +1,10 @@
 ---
 autotoc: true
+pagetitle: May 11, ,,  2012 Galaxy Development News Brief
 ---
+<div class='right'></div>
 
-<div class="title">May 11, 2012 Galaxy Development News Brief</div>
+
 
 <br />
 # Get Galaxy
@@ -38,11 +40,11 @@ After installation, the tools should be displayed in your Galaxy tool panel in p
 
 We *highly recommend* that you read the following sections of the Galaxy tool shed wiki (if you have not already done so) to get all of the details about how this process works.
 
-**[Migrating tools from the Galaxy distribution to the Galaxy Main tool shed](/Tool Shed/#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)**
+**[Migrating tools from the Galaxy distribution to the Galaxy Main tool shed](/Tool Shed#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)**
 
 <br />
 # New Tool Integration Testing
-Use Galaxy's functional test framework to test tools installed into your local Galaxy instance from Tool Shed repositories that contain tools with defined functional tests.  For tests to work, the repository must include a directory named test-data somewhere in its file system hierarchy, and all functional test input and output datasets must be included in this directory. [Read more...](/Tool Shed/#using_galaxy27s_functional_test_framework_to_test_tools_installed_into_your_local_galaxy_instance)
+Use Galaxy's functional test framework to test tools installed into your local Galaxy instance from Tool Shed repositories that contain tools with defined functional tests.  For tests to work, the repository must include a directory named test-data somewhere in its file system hierarchy, and all functional test input and output datasets must be included in this directory. [Read more...](/Tool Shed#using_galaxy27s_functional_test_framework_to_test_tools_installed_into_your_local_galaxy_instance)
 
 <br />
 # Updates to Tool Panel Configuration
@@ -54,7 +56,7 @@ For example:
 
 
 Managing the layout of your Galaxy tool panel is easier!
-New tool panel items manually added to a tool panel configuration file will now be inserted into an existing integrated_tool_panel.xml file in the proper location. [Read more...](/Tool Shed/#managing_the_layout_of_your_galaxy_tool_panel)
+New tool panel items manually added to a tool panel configuration file will now be inserted into an existing integrated_tool_panel.xml file in the proper location. [Read more...](/Tool Shed#managing_the_layout_of_your_galaxy_tool_panel)
 
 <br />
 # Multiprocess Job Handling
@@ -70,7 +72,7 @@ Abstract **[OpenID](http://openid.net/)** providers to be defined outside of the
 
 <br />
 # New Configurable Tool Output Location
-Tools using the process described at '[/Admin/Tools/Multiple Output Files](/Admin/Tools/Multiple Output Files)' to write multiple output files to the temporary directory defined as new_file_path may now write to the job working directory instead.  This can have a performance benefit if there are a lot of files in the directory set in `new_file_path`.  A configuration option, `collect_output_from` has been added that controls where Galaxy will look for these outputs.  By default, it will look in both places since many of the tools in the Galaxy distribution use `new_file_path`.
+Tools using the process described at '[/Admin/Tools/MultipleOutputFiles](/Admin/Tools/MultipleOutputFiles)' to write multiple output files to the temporary directory defined as new_file_path may now write to the job working directory instead.  This can have a performance benefit if there are a lot of files in the directory set in `new_file_path`.  A configuration option, `collect_output_from` has been added that controls where Galaxy will look for these outputs.  By default, it will look in both places since many of the tools in the Galaxy distribution use `new_file_path`.
 
 <br />
 # Tools
@@ -80,13 +82,13 @@ Tools using the process described at '[/Admin/Tools/Multiple Output Files](/Admi
     * Compiled from [v1.4-18-g80a4ce0](http://github.com/broadgsa/gatk)
     * *Genome Analysis Toolkit (beta) tool group includes*: Depth of Coverage on BAM files; Print Reads from BAM files; Realigner Target; Creator for use in local realignment; Indel Realigner - perform local realignment; Count Covariates on BAM files; Table Recalibration on BAM files; Analyze Covariates - draw plots; Unified Genotyper SNP and indel caller; Variant Annotator; Variant Filtration on VCF files; Select Variants from VCF files; Variant Recalibrator; Apply Variant Recalibration; Validate Variants; Eval Variants; Combine Variants.
   * Additional tool documentation developing over next few months. For now, refer to [GATK tool author help](http://www.broadinstitute.org/gsa/wiki).
-</div><a href='/Learn/'><img src='/Images/NewsGraphics/2012_05_11_gatk-workflow.png' alt='gatk-workflow' width="800px" /></a></div>
+</div><a href='/Learn'><img src='/Images/NewsGraphics/2012_05_11_gatk-workflow.png' alt='gatk-workflow' width="800px" /></a></div>
 * **NGS: Variant Detection**
   * Added **[FreeBayes](http://github.com/ekg/freebayes)** latest version (a46483351fd0196637614121868fb5c386612b55)
     * Requires **[SAM Tools](http://samtools.sourceforge.net/), version 0.1.16-0.1.18** *strongly recommended*
 * **NGS: Mapping**
   * Correction made for **[BWA](http://bio-bwa.sourceforge.net/) -R** option.
-  * Updated **Megablast** now uses <<nwwl(NCBI)>> <<nwwl(BLAST)>>+ (changeset [0b5cb60e4810](https://bitbucket.org/galaxy/galaxy-central/changeset/0b5cb60e4810#chg-tools/metag_tools/megablast_wrapper.xml))
+  * Updated **Megablast** now uses NCBI BLAST+ (changeset [0b5cb60e4810](https://bitbucket.org/galaxy/galaxy-central/changeset/0b5cb60e4810#chg-tools/metag_tools/megablast_wrapper.xml))
     * **[BLASTN](http://blast.ncbi.nlm.nih.gov/Blast.cgi) version 2.2.25**
     * Simplified indexing. Obtain from [NCBI](ftp://ftp.ncbi.nlm.nih.gov/blast/db/) or use [formatdb](ftp://ftp.ncbi.nih.gov/blast/documents/formatdb.html) to create your own. [Read more...](/Admin/NGS Local Setup)
   * Updated **Parse blast XML output**
@@ -114,7 +116,7 @@ Tools using the process described at '[/Admin/Tools/Multiple Output Files](/Admi
 * **Features**
   * The tool shed's upload process will automatically eliminate undesired directories (.svn, .git, .hg, .cvs) and file (hgrc, .jhg_archival.txt, .DS_Store) from the archive before committing the contents to the repository.  This provides for a more pristine environment for those that install the repository locally.
   * You can now browse your invalid tools in the tool shed, and clicking on an invalid tools will display information about why it is invalid.  The definition of a valid tool in the tool shed has always been restricted to the tool properly loading in a Galaxy instance and that no required dependent files are missing.  If a tool is not valid, it will not be returned in a search and it cannot be automatically installed (unless it belongs to a repository containing other valid tools).  Only valid tools should be shared in the tool shed or its value will diminish over time.   Tool developers should browse their invalid tools and make corrections to them if necessary.
-  * Reminder to include tool dependency installation instructions or licensing information in your repository ([wiki](/Tool Shed/#including_tool_dependency_installation_instructions_or_licensing_information_in_your_repository)). Tool dependency installation instructions or licensing information should be included in your repository in a file named one of (case is ignored) `readme, readme.txt, read_me, read_me.txt`.  When a user installs a single repository into their local Galaxy instance, the contents of the file will be displayed on the tool panel section selection page.  Care must be taken when including instructions or other information in `README` files to ensure the content is clear and correct.
+  * Reminder to include tool dependency installation instructions or licensing information in your repository ([wiki](/Tool Shed#including_tool_dependency_installation_instructions_or_licensing_information_in_your_repository)). Tool dependency installation instructions or licensing information should be included in your repository in a file named one of (case is ignored) `readme, readme.txt, read_me, read_me.txt`.  When a user installs a single repository into their local Galaxy instance, the contents of the file will be displayed on the tool panel section selection page.  Care must be taken when including instructions or other information in `README` files to ensure the content is clear and correct.
 * **Updates:**
   * Mercurial eggs have been introduced to handle all tool shed mercurial-related features, so mercurial package installation is no longer necessary to use your local Galaxy instance in combination with any Galaxy tool shed.  However, you're still required to install mercurial in order to clone any of the Galaxy / Galaxy tool shed source code repositories ( galaxy-central, galaxy-dist, etc ) and get source code updates for them using mercurial.
   * Invalid tools are now displayed in the "Preview tools and inspect metadata by tool version" section when viewing or managing the repository.
@@ -169,8 +171,8 @@ Tools using the process described at '[/Admin/Tools/Multiple Output Files](/Admi
 
 <br />
 # Bug Fixes
-<div class='right'><a href='/Support/'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
-* `fasta_to_len` conversion now uses only the first word in the description line from input [FASTA](/Learn/Datatypes/#fasta) datasets to create the *identifier name* for sequences. This is standards compliant and used by default for automatic conversion.
+<div class='right'><a href='/Support'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
+* `fasta_to_len` conversion now uses only the first word in the description line from input [FASTA](/Learn/Datatypes#fasta) datasets to create the *identifier name* for sequences. This is standards compliant and used by default for automatic conversion.
 * Add necessary space after threads option in [Cuffmerge](http://cufflinks.cbcb.umd.edu/).
 * The dataset cleanup scripts will no longer error out if database_connection is not explicitly set in the Galaxy config file. Addresses mailing list questions:
   * [galaxy-user] Cleanup script error - guess_dialect_for_url
@@ -195,21 +197,21 @@ Tools using the process described at '[/Admin/Tools/Multiple Output Files](/Admi
 [/News](/News), *[May 2012 Galaxy Update](/GalaxyUpdates/2012_05)*
 
 ## GCC2012 Update
-<div class='right'><a href='/Events/GCC2012/'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="100" /></a></div>
+<div class='right'><a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="100" /></a></div>
 
 The [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) will be held July 25-27, in Chicago. The conference will feature two full days of presentations and discussions, and a [whole day of training](/Events/GCC2012/TrainingDay) has been added this year.
 
 **Early [registration is now open](/Events/GCC2012/Register) and will close June 11.**  Early registration is very affordable, especially for post-docs and students.
 
 ### Training Day: Help Set the Agenda
-<div class='right'><a href='/Events/GCC2012/TrainingDay/'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' width="130" /></a></div>
+<div class='right'><a href='/Events/GCC2012/TrainingDay'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' width="130" /></a></div>
 
 The [GCC2012 Training Day](/Events/GCC2012/TrainingDay) needs your help! Training Day offers 90 minute training sessions in three parallel tracks throughout the day for a total of 12 sessions. We need your input on how to best allocate those sessions to topics. Please **[take a few minutes to indicate your top choices](https://docs.google.com/spreadsheet/viewform?formkey=dHBIRVB6cEhpTWpGN1pXSjhGdGR0aVE6MQ#gid=0)** for what you would like to see covered on the GCC2012 Training Day. 
 
 <br />
 <br />
 <br />
-----
+---
 <br />
 <br />
 # About Galaxy

@@ -1,7 +1,7 @@
 <div class='red'>
 This page is not meant to be viewed on its own. Rather, it contains sections that are displayed on the [GCC2016 Training](../) page
 </div>
-----
+---
 
 # TOPICS
 
@@ -128,7 +128,7 @@ END_INCLUDE
 END_INCLUDE
 
 # BASIC TOOL DEV
-* Basic understanding of Galaxy from a tool developer point of view or attendance at the [Writing and Publishing Galaxy Tools](/Events/GCC2016/Training/#writing-and-publishing-galaxy-tools) workshop. 
+* Basic understanding of Galaxy from a tool developer point of view or attendance at the [Writing and Publishing Galaxy Tools](/Events/GCC2016/Training#writing-and-publishing-galaxy-tools) workshop. 
 END_INCLUDE
 
 # BASIC DEV
@@ -152,7 +152,7 @@ END_INCLUDE
 END_INCLUDE
 
 # CHIP QC
-* Ideally participants will already be familiar with [general NGS quality control](/Events/GCC2016/Training/#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy) and read mapping, since those won't be covered.
+* Ideally participants will already be familiar with [general NGS quality control](/Events/GCC2016/Training#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy) and read mapping, since those won't be covered.
 END_INCLUDE
 
 # TRAINING INTEREST
@@ -160,11 +160,11 @@ END_INCLUDE
 END_INCLUDE
 
 # BASIC TOOLS
-* Basic Knowledge of Galaxy Tools, or attendance at the [Writing and Publishing Galaxy Tools](/Events/GCC2016/Training/#writing-and-publishing-galaxy-tools) session.
+* Basic Knowledge of Galaxy Tools, or attendance at the [Writing and Publishing Galaxy Tools](/Events/GCC2016/Training#writing-and-publishing-galaxy-tools) session.
 END_INCLUDE
 
 # GALAXY IE
-* Basic understanding of Galaxy IE, or attendance at the [Introduction to Galaxy Interactive Environments](/Events/GCC2016/Training/#introduction-to-galaxy-interactive-environments) session.
+* Basic understanding of Galaxy IE, or attendance at the [Introduction to Galaxy Interactive Environments](/Events/GCC2016/Training#introduction-to-galaxy-interactive-environments) session.
 END_INCLUDE
 
 # GENERAL DOCKER

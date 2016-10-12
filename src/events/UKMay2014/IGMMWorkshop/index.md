@@ -1,6 +1,6 @@
 <div class='center'>
 <a href='http://www.igmm.ac.uk/'><img src='/Images/Logos/IGMMLogo.jpg' alt='Institute of Genetics and Molecular Medicine' height="150" /></a>
-<div class="title">Introduction to Galaxy<br />13 May 2014</div>
+<div class='title'>Introduction to Galaxy<br />13 May 2014</div>
 
 **
 9:00-16:30<br />
@@ -76,7 +76,7 @@ This is a hands-on workshop being held an IGMM computer lab.  The workshop will 
 
 <div class='right'>
 <br /><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a><br /><br />
-<a href='/Events/UKMay2014/'><img src='/Images/Logos/UKMay2014Tour.png' alt='May 2014 Galaxy UK Tour' width="160px" /></a>
+<a href='/Events/UKMay2014'><img src='/Images/Logos/UKMay2014Tour.png' alt='May 2014 Galaxy UK Tour' width="160px" /></a>
 </div>
 
 ## Support

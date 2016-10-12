@@ -1,12 +1,14 @@
 ---
 autotoc: true
+pagetitle: Troubleshooting Galaxy on Jetstream
 ---
-<div class="title">Troubleshooting Galaxy on Jetstream</div>
-
-INCLUDE(/Cloud/Jetstream/LinkBox)
 
 
-----
+PLACEHOLDER_INCLUDE(/Cloud/Jetstream/LinkBox)
+
+<div class='left'></div>
+
+---
 
 ## Galaxy does not run jobs
 There could be many reasons so if the following method does not help, please [|contact us](https://biostar.usegalaxy.org/).

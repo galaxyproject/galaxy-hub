@@ -1,18 +1,19 @@
 ---
 autotoc: true
 ---
-<div class='right'><a href='..//'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' /></a></div>
+<div class='right'><a href='../'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' /></a></div>
 
 If you are planning on attending any of these [GCC2012](/Events/GCC2012) [Training Day](/Events/GCC2012/TrainingDay) workshops, then you will need shell admin access to a system with Galaxy and/or a Galaxy Tool Shed already installed and running.
 
-* [WS1: Integrating Tools & Data Sources](..//#ws1)
-* [WS6: Galaxy API](..//#ws6)
-* [WS7: Galaxy Tool Shed](..//#ws7)
+* [WS1: Integrating Tools & Data Sources](../#ws1)
+* [WS6: Galaxy API](../#ws6)
+* [WS7: Galaxy Tool Shed](../#ws7)
 
+<div class='right'></div>
 
 If you are attending this workshop
 
-* [WS5: Installing Your Own Galaxy](..//#ws5)
+* [WS5: Installing Your Own Galaxy](../#ws5)
 
 you will need shell admin access to a system that has Galaxy's prerequisites installed, but not Galaxy itself.
 
@@ -47,7 +48,7 @@ These VMs will be available for download in the days just before the conference.
 ### VM Without a Running Galaxy
 This VM is for:
 
-* [WS5: Installing Your Own Galaxy](..//#ws5)
+* [WS5: Installing Your Own Galaxy](../#ws5)
 
 This image will have all prerequisites for Galaxy, but not a running Galaxy instance.
 
@@ -57,9 +58,9 @@ This image will have all prerequisites for Galaxy, but not a running Galaxy inst
 
 This VM image is for these workshops
 
-* [WS1: Integrating Tools & Data Sources](..//#ws1)
-* [WS6: Galaxy API](..//#ws6)
-* [WS7: Galaxy Tool Shed](..//#ws7)
+* [WS1: Integrating Tools & Data Sources](../#ws1)
+* [WS6: Galaxy API](../#ws6)
+* [WS7: Galaxy Tool Shed](../#ws7)
 
 This image will have a configured and running Galaxy instance.
 
@@ -70,32 +71,32 @@ This image will have a configured and running Galaxy instance.
 <div class='right'><div class='solid'>
 <table>
   <tr>
-    <td style=" text-align: center; border: none"> </strong>Screenshots<strong> </td>
+    <td style=" text-align: center; border: none;"> </strong>Screenshots<strong> </td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='ATTACHMENT_URLApplianceImport.png'>{{attachment:ApplianceImport.png|Appliance Import Settings Window; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.3. Appliance Import </td>
+    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLApplianceImport.png'>{{attachment:ApplianceImport.png|Appliance Import Settings Window; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.3. Appliance Import </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='ATTACHMENT_URLImportedVM.png'>{{attachment:ImportedVM.png|VM successfully imported; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.4. VM Imported </td>
+    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLImportedVM.png'>{{attachment:ImportedVM.png|VM successfully imported; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.4. VM Imported </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='ATTACHMENT_URLVMSettings.png'>{{attachment:VMSettings.png|VM settings; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.5.1 VM settings </td>
+    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLVMSettings.png'>{{attachment:VMSettings.png|VM settings; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.5.1 VM settings </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='ATTACHMENT_URLPortForwarding.png'>{{attachment:PortForwarding.png|Port forwarding rules; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.5.3 Port forwarding rules </td>
+    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLPortForwarding.png'>{{attachment:PortForwarding.png|Port forwarding rules; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.5.3 Port forwarding rules </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='ATTACHMENT_URLMouseInfo.png'>{{attachment:MouseInfo.png|Mouse Pointer info window; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.1. An info screens </td>
+    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLMouseInfo.png'>{{attachment:MouseInfo.png|Mouse Pointer info window; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.1. An info screens </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='ATTACHMENT_URLUserList.png'>{{attachment:UserList.png|List of defined users; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.2. Defined users </td>
+    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLUserList.png'>{{attachment:UserList.png|List of defined users; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.2. Defined users </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none"> <a href='ATTACHMENT_URLXFCEDesktop.png'>{{attachment:XFCEDesktop.png|The XFCE Desktop; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.3. The XFCE Desktop </td>
+    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLXFCEDesktop.png'>{{attachment:XFCEDesktop.png|The XFCE Desktop; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.3. The XFCE Desktop </td>
   </tr>
 </table>
 

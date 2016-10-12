@@ -1,21 +1,33 @@
 ---
 autotoc: true
+pagetitle: Galaxy Trainer Directory
 ---
-INCLUDE(/Teach/Header)
+PLACEHOLDER_INCLUDE(/Teach/Header)
 
-<div class="title">Galaxy Trainer Directory</div>
 
-INCLUDE(/Teach/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Teach/LinkBox)
 
 <div class='left'> <a href='http://bit.ly/gxytrnmap'><img src='/Teach/GalaxyTrainingMapThumb.png' alt='Galaxy Training Network: Trainer Locations Map' width="220" /></a> <div class='center'> [Find trainers near you in the](http://bit.ly/gxytrnmap)<br />[Galaxy Training Network](http://bit.ly/gxytrnmap)</div></div>
 
 The *Galaxy Trainer Directory* is a service of the [Galaxy Training Network](/Teach/GTN) which aims to make it easy to share and find [Galaxy training resources](/Teach/Resources).  This directory lists individuals and groups that do Galaxy training.  The contacts listed here are willing to present Galaxy at meetings and workshops.  The directory includes particular areas of expertise and how far the instructors are willing to travel.
 
 If you offer Galaxy Training and want to be listed in this directory then see the **[Add a Trainer](#add-a-trainer)** section below.
-<br /><br />
 
+<br />
 
 # Trainers
+
+Trainers are grouped by their *reach*.  That is, by how far they are willing to travel and who they are eligible to teach.  
+* **[Global](#global):** around the world
+* **[Continental](#continental):** across their continent 
+* **[Regional](#regional):** Willing to travel beyond their local area, but not across their continent
+* **[Local](#local):** These trainers don't travel, but their workshops are open to researchers outside their institution.
+* **[Institution](#institution):** Trainers that can only teach to researchers that are affiliated with their institution.
+
+
+
+
 
 ## Global
 
@@ -131,7 +143,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
   * [usegalaxyp.org](http://usegalaxyp.org/) - the project's public web server
   * [Webinar on using ProteinPilot for database search](http://z.umn.edu/ppingp) within Galaxy-P.
   * [pjagtap AT umn DOT edu](Pratik Jagtap)
-  * <<MailTo(tgriffin  AT umn DOT edu, Timothy Griffin (PI))>>
+  * [tgriffin  AT umn DOT edu](Timothy Griffin, PI)
 
 ### Geneclat Technologies
 
@@ -577,6 +589,24 @@ Trainers that are potentially willing to travel, roughly within their home conti
 
 These trainers don't travel, but their workshops are open to researchers outside their institution.
 
+### Earlham Institute
+
+<div class='right'><a href='http://earlham.ac.uk/scientific-training'><img src='/Images/Logos/EarlhamInstituteBig.png' alt='Earlham Institute' width="180" /></a></div>
+ 
+* *Description:*
+  * The [Earlham Institute](http://earlham.ac.uk/)'s [Scientific Training](http://earlham.ac.uk/scientific-training) team work with content experts from EI and across the world to create hands-on training courses and workshops in cutting edge genomics, bioinformatics and high-performance computing.
+
+* *Domains:*  
+  * General usage and many specialisations
+
+* *Reach*
+  * Workshops are held in Norwich, United Kingdom, and are open to all researchers and students.
+
+* *Links & Contact*
+  * [EI Scientific Training](http://earlham.ac.uk/scientific-training)
+  * E-mail contact [training AT earlham DOT ac DOT uk](training AT earlham DOT ac DOT uk)
+
+
 ### Texas A&M University/Center for Phage Technology
 
 <div class='right'><a href='https://cpt.tamu.edu/'><img src='/Images/Logos/TAMULogo.png' alt='Texas A&M University/Center for Phage Technology' width="150" /></a></div>
@@ -597,23 +627,6 @@ These trainers don't travel, but their workshops are open to researchers outside
   * [CPT Public Galaxy](http://cpt.tamu.edu/galaxy-public/)
   * [Eric Rasche](/EricRasche) (CPT Staff)
   * [esr@tamu.edu](esr@tamu.edu) 
-
-### TGAC: The Genome Analysis Centre
-
-<div class='right'><a href='http://www.tgac.ac.uk/training-programme/'><img src='/Images/Logos/TGACLogo.png' alt='The Genome Analysis Centre' width="150" /></a></div>
- 
-* *Description:*
-  * [TGAC's](http://www.tgac.ac.uk/) [Scientific Training & Skills Programme](http://www.tgac.ac.uk/training-programme/) offers high quality training in genome analysis, bioinformatics and more. The programme relies on the strong involvement of TGAC research and support staff as well as several external faculty members from Norwich Research Park partners and other national and international collaborators.
-
-* *Domains:*  
-  * General usage and many specialisations
-
-* *Reach*
-  * Workshops are held in Norwich, United Kingdom, and are open to all researchers and students.
-
-* *Links & Contact*
-  * [TGAC Scientific Training & Skills Programme](http://www.tgac.ac.uk/training-programme/)
-  * E-mail contact [training AT tgac DOT ac DOT uk](training AT tgac DOT ac DOT uk)
 
 
 ### UC Davis Genome Center's Bioinformatics Core Facility
@@ -671,7 +684,7 @@ These trainers don't travel, but their workshops are open to researchers outside
 
 ### University of Minnesota Minnesota Supercomputing Institute Research Informatics Solutions
 
-<div class='right'><a href='https://www.msi.umn.edu/about/staff/riss'><img src='/Images/Logos/UofM_D2D.gif/' alt='University of Minnesota Minnesota Supercomputing Institute Research Informatics Solutions' width="300" /></a></div>
+<div class='right'><a href='https://www.msi.umn.edu/about/staff/riss'><img src='/Images/Logos/UofM_D2D.gif' alt='University of Minnesota Minnesota Supercomputing Institute Research Informatics Solutions' width="300" /></a></div>
  
 * *Description:*
   * [RIS](https://www.msi.umn.edu/about/staff/riss) is a group of experienced bioinformatics experts within the Supercomputing Institute at the University of Minnesota.

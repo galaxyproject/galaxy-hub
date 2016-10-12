@@ -1,8 +1,11 @@
+---
+pagetitle: [UC Davis RNA-Seq and ChIP-Seq Analysis with Galaxy Workshop](http://training.bioinformatics.ucdavis.edu/docs/2014/12/december-2014-workshop/)
+---
 <div class='center'>
 <a href='http://bioinformatics.ucdavis.edu/'><img src='/Images/Logos/UCDavisGenomeCenter.png' alt='UC Davis Bioinformatics Core' height="100" /></a>
 </div>
 
-<div class="title">[UC Davis RNA-Seq and ChIP-Seq Analysis with Galaxy Workshop](http://training.bioinformatics.ucdavis.edu/docs/2014/12/december-2014-workshop/)</div>
+
 
 
 

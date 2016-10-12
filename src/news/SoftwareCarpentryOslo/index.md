@@ -17,6 +17,6 @@ Visit the [Boot Camp Page](http://software-carpentry.org/bootcamps/2013-07-oslo.
 
 [Lex Nederbragt](http://www.mn.uio.no/cees/english/people/technical/alexajo/)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-05-31T16:32:58Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-05-31T16:32:58Z)</div>
 
 CategoryNews

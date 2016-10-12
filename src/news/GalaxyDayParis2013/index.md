@@ -23,7 +23,7 @@ Les membres du [Groupe Galaxy IFB](http://www.ifb-galaxy.org/index.html),
 <a href='http://migale.jouy.inra.fr/'><img src='/Images/Logos/MIGALELogo.png' alt='MIGALE' width="120" /></a>
 <a href='http://metabohub.fr/'><img src='/Images/Logos/MetaboHubLogo.jpg' alt='PFEM' width="120" /></a>
 <a href='http://southgreen.cirad.fr/'><img src='/Images/Logos/SouthGreenLogo.png' alt='SouthGreen' width="120" /></a>
-<a href='http://curie.fr/'><img src='/Images/Logos/CurieLogo.gif/' alt='Institut Curie' width="80" /></a>
+<a href='http://curie.fr/'><img src='/Images/Logos/CurieLogo.gif' alt='Institut Curie' width="80" /></a>
 <a href='http://abims.sb-roscoff.fr/'><img src='/Images/Logos/ABiMSLogo.png' alt='ABiMS' width="70" /></a>
 </div>
 
@@ -43,6 +43,6 @@ The [IFB Galaxy group](http://www.ifb-galaxy.org/index.html),
 
 [URGI](http://urgi.versailles.inra.fr/), [GenoToul](http://bioinfo.genotoul.fr/), [MIGALE](http://migale.jouy.inra.fr/), [PFEM](http://metabohub.fr/), [SouthGreen](http://southgreen.cirad.fr/), [Institut Curie](http://curie.fr/), [ABiMS](http://abims.sb-roscoff.fr/)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-10-02T21:36:24Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-10-02T21:36:24Z)</div>
 
 CategoryNews

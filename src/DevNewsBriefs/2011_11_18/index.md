@@ -2,6 +2,7 @@
 autotoc: true
 ---
 # November 18, 2011 Galaxy Development News Brief
+<div class='right'></div>
 
 ## Get Galaxy
 
@@ -15,13 +16,13 @@ autotoc: true
 
 ## News & Events
 
-<div class='left'><a href='/GalaxyIsHiring/'><img src='/Images/Icons/PointingFinger.png' alt='pointing-finger' width="30px" /></a></div>
+<div class='left'><a href='/GalaxyIsHiring'><img src='/Images/Icons/PointingFinger.png' alt='pointing-finger' width="30px" /></a></div>
 * Keep current on all things Galaxy at our [/News](/News) and [/Events](/Events) wikis.
 * Galaxy is still [hiring](/GalaxyIsHiring)!
 
 ### GCC 2012 is Scheduled!
 
-<div class='right'><a href='/Events/GCC2012/'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='GCC 2012' width="180" /></a></div>
+<div class='right'><a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='GCC 2012' width="180" /></a></div>
 
 **We are pleased to announce that the [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) has been scheduled for July 25-27 in Chicago, Illinois, United States.**  
 
@@ -41,18 +42,18 @@ Please reserve July 25-27 on your calendars!
 * Galaxy will have presentations at [PAG 2012 (January, San Diego)](/Events/PAG2012) on using Galaxy, both on [/Main](/Main) and in the [Cloud](/CloudMan)
 * There are also [events](/Events) at the [University of Manchester](http://www.nowgen.org.uk/facilities/events/event.php?id=30) and [DDBJ](http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html#DDBJ) in January.
 
-----
+---
 ## What's New
 
 ### Tool Shed: Enabling Workflow Sharing
 
 Galaxy tool sheds play a beneficial role in enabling sharing of exported Galaxy workflows between different Galaxy instances. 
 
-* **[Finding workflows in tool shed repositories](/Tool Shed/#enabling_workflow_sharing_finding_workflows_in_tool_shed_repositories)**
+* **[Finding workflows in tool shed repositories](/Tool Shed#enabling_workflow_sharing_finding_workflows_in_tool_shed_repositories)**
     The Search section of the left tool shed menu panel now includes an option labeled "Search for workflows"
-* **[Importing a workflow from an installed tool shed repository](/Tool Shed/#enabling_workflow_sharing_importing_a_workflow_from_an_installed_tool_shed_repository)** 
+* **[Importing a workflow from an installed tool shed repository](/Tool Shed#enabling_workflow_sharing_importing_a_workflow_from_an_installed_tool_shed_repository)** 
     A pop-up menu associated with a browsed Tool Shed workflow name will now provide the ability to import the workflow into your local Galaxy instance
-* **[Importing a workflow via a URL](/Tool Shed/#enabling_workflow_sharing_importing_a_workflow_via_a_url)** 
+* **[Importing a workflow via a URL](/Tool Shed#enabling_workflow_sharing_importing_a_workflow_via_a_url)** 
     If your Galaxy instance is missing any of the tools an imported workflow requires, a message is now displayed that includes links to all accessible tool sheds enabling you to search the tool sheds for the missing tools
 
 ### Using Tool Sheds
@@ -143,7 +144,7 @@ There are two Tool Sheds supported by the core Galaxy team:
 * Security: changing your password now invalidates all other Galaxy sessions (other than the one in which the password was changed
 
 ### Bug Fixes
-<div class='right'><a href='/Support/'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
+<div class='right'><a href='/Support'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
 
 * Grid fixes: (a) make operation buttons work after refresh and (b) show message each time
 * Force absolute path when creating temporary directory used when importing histories. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/667](https://bitbucket.org/galaxy/galaxy-central/issue/667)
@@ -157,7 +158,7 @@ There are two Tool Sheds supported by the core Galaxy team:
 * No longer try to overwrite the input datasets when "uploading" a library dataset from a server directory or filesystem paths and using the "Link to files" option with outputs_to_working_directory = True
 
 
-----
+---
 
 ## About Galaxy
 [GalaxyProject.org](http://galaxyproject.org)
@@ -167,4 +168,4 @@ The [GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/) is
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
 Join us at Twitter [#galaxyproject](http://twitter.com/#galaxyproject)!
-----
+---

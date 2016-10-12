@@ -36,6 +36,6 @@ upgrade: $ hg pull
 
 [The Galaxy Team](/Galaxy Team)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-04-02T02:21:49Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-04-02T02:21:49Z)</div>
 
 CategoryNews

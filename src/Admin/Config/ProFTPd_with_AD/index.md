@@ -1,13 +1,16 @@
 ---
 autotoc: true
+pagetitle: Setting up ProFTPd for galaxy uploads in an Active Directory environment
 ---
 
-<div class="title">Setting up ProFTPd for galaxy uploads in an Active Directory environment</div>
+#language en
+
 * You want to enable FTP file uploads?
 * You are happy and able to use ProFTPd?
 * You want to authenticate off Active Directory?
 * You want Galaxy to actually find the uploaded files?
 Yes, Yes, Yes and Of_Course?  Read on..
+
 
 
 ## Some background

@@ -1,6 +1,9 @@
+---
+pagetitle: 2015, /, 02, :,  , [FTP upload to Galaxy using ProFTPd and PBKDF2](http://galacticengineer.blogspot.co.uk/2015/02/ftp-upload-to-galaxy-using-proftpd-and.html)
+---
 <div class='center'>![Galaxy Engineer Blog from Peter Briggs at the University of Manchester](/Images/Logos/UManchesterLogo.jpg)</div>
 
-<div class="title">2015/02: [FTP upload to Galaxy using ProFTPd and PBKDF2](http://galacticengineer.blogspot.co.uk/2015/02/ftp-upload-to-galaxy-using-proftpd-and.html)</div>
+
 
 
 

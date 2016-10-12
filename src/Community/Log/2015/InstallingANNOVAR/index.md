@@ -1,6 +1,9 @@
+---
+pagetitle: [2015/03: Installing ANNOVAR in Galaxy](http://galacticengineer.blogspot.co.uk/2015/03/installing-annovar-in-galaxy.html)
+---
 <div class='center'>![Galaxy Engineer Blog from Peter Briggs at the University of Manchester](/Images/Logos/UManchesterLogo.jpg)</div>
 
-<div class="title">[2015/03: Installing ANNOVAR in Galaxy](http://galacticengineer.blogspot.co.uk/2015/03/installing-annovar-in-galaxy.html)</div>
+
 
 
 

@@ -13,27 +13,27 @@
 <br /><br />
 <table>
   <tr>
-    <td rowspan=3 style=" border: none"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>new</strong>: </td>
-    <td style=" border: none"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
+    <td style=" border: none;"> <strong>new</strong>: </td>
+    <td style=" border: none;"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>upgrade</strong>: </td>
-    <td style=" border: none"> <code>$ hg pull </code> <br /> <code>$ hg update latest_2014.10.06</code> </td>
+    <td style=" border: none;"> <strong>upgrade</strong>: </td>
+    <td style=" border: none;"> <code>$ hg pull </code> <br /> <code>$ hg update latest_2014.10.06</code> </td>
   </tr>
 </table>
 
@@ -42,6 +42,6 @@
 *Thanks for using Galaxy!* <br />
 [The Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2014-10-06T14:44:41Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-10-06T14:44:41Z)</div>
 
 CategoryNews

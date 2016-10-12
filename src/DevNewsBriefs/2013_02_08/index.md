@@ -1,35 +1,37 @@
 ---
 autotoc: true
+pagetitle: February 8, ,,  2013 Galaxy News Brief
 ---
+<div class='right'></div>
 
-<div class="title">February 8, 2013 Galaxy News Brief</div>
+
 
 <br />
 # Get Galaxy
 *Please note new* **upgrade** *syntax*
 <table>
   <tr>
-    <td rowspan=3 style=" border: none"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td colspan=2 style=" border: none;"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>new</strong>: </td>
-    <td style=" border: none"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
+    <td style=" border: none;"> <strong>new</strong>: </td>
+    <td style=" border: none;"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>upgrade</strong>: </td>
-    <td style=" border: none"> <code>$ hg pull </code> <br /> <code>$ hg update release_2013.02.08 </code> </td>
+    <td style=" border: none;"> <strong>upgrade</strong>: </td>
+    <td style=" border: none;"> <code>$ hg pull </code> <br /> <code>$ hg update release_2013.02.08 </code> </td>
   </tr>
 </table>
 
@@ -214,18 +216,18 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 ## GCC2013
 
-<div class='right'><a href='/Events/GCC2013/'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="150" /></a> <br />
-<a href='/Events/GCC2013/TrainingDay/'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
+<div class='right'><a href='/Events/GCC2013'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="150" /></a> <br />
+<a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
 
 ### Training Day Topic Voting Closes 11 February
 
-If you might attend the [GCC2013 Training Day](/Events/GCC2013/TrainingDay) then please [review the possible topics](/Events/GCC2013/TrainingDay/#topics) and then [vote for your top 3 choices](http://bit.ly/gcc2013tdpoll).  Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.
+If you might attend the [GCC2013 Training Day](/Events/GCC2013/TrainingDay) then please [review the possible topics](/Events/GCC2013/TrainingDay#topics) and then [vote for your top 3 choices](http://bit.ly/gcc2013tdpoll).  Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.
 
 ### Registration, Talk & Poster Submission Opens 22 February
 
 [Early Registration](/Events/GCC2013/Register), and [talk and poster abstract submission](/Events/GCC2013/Abstracts) all [open 22 February](/Events/GCC2013/KeyDates).  Watch the mailing lists and this wiki for details.
 
-----
+---
 <br />
 # About Galaxy
 **[GalaxyProject.org](http://galaxyproject.org)**

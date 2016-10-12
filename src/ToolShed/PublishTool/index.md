@@ -1,4 +1,4 @@
-INCLUDE(/Admin/Tools/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
 # How to Publish Your Tool in the Galaxy Tool Shed
 
 # Quick Start

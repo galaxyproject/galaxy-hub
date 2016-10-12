@@ -1,6 +1,6 @@
-INCLUDE(/Admin/LinkBox)
-INCLUDE(/Develop/LinkBox)
-INCLUDE(/Admin/Tools/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/LinkBox)
+PLACEHOLDER_INCLUDE(/Develop/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
 # Galaxy Tools
 A hub page for [administration](/Admin) of computational tools within Galaxy framework.
 
@@ -25,7 +25,7 @@ It is a very good idea to write functional test for your tool so you can validat
 Later, when your tool is working within your Galaxy, you may want to share the tool with the huge Galaxy community. In order to do that you need to migrate your tool to the Tool Shed (Galaxy's appstore). To learn how to do so please see [How to Create and Populate Repository](/CreateAndPopulateARepository) in the Tool Shed wiki.
 
 ## Tool dependencies
-Some of the tools included in the distribution require dependencies that Galaxy cannot provide. Plese see a page dedicated to [Tool Dependencies](ToolDependencies) to learn which tools are affected and how to resolve it. As of March 2014 Galaxy is in the middle of migrating tools from the distribution to the [Tool Shed](/ToolShed) which means that the list of these dependencies is shortening. The details about tool migrations are available at the [migration page](/MigratingToolsFromGalaxyDistribution).
+Some of the tools included in the distribution require dependencies that Galaxy cannot provide. Plese see a page dedicated to [Tool Dependencies](ToolDependencies) to learn which tools are affected and how to resolve it. As of March 2014 Galaxy is in the middle of migrating tools from the distribution to the [Tool Shed](/ToolShed) which means that the list of these dependencies is shortening. The details about tool migrations are available at the [migration page](/ToolShed/MigratingToolsFromGalaxyDistribution).
 
 
 * [Create Executable](Create Executable)
@@ -33,5 +33,5 @@ Some of the tools included in the distribution require dependencies that Galaxy 
 * [Data Managers](DataManagers)
 * [Data Tables](Data Tables)
 * [External Display Application Tutorial](External Display Applications Tutorial)
-* [Multiple Output Files](Multiple Output Files)
+* [Multiple Output Files](MultipleOutputFiles)
  

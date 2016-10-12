@@ -1,13 +1,15 @@
 ---
 autotoc: true
+pagetitle: 2012, /, 07, /, 09 Conference Call
 ---
-<div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
+<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
 
-INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
-<div class="title">2012/07/09 Conference Call</div>
+
 
 The group's [first conference call](http://dev.list.galaxyproject.org/Galaxy-Czars-Doodle-pool-for-first-Teleconference-tt4655444.html#a4655472) was held on Monday July 9, at 9am Central US time.  There were 27 connections to the call, some with multiple people on the connection.  The call was run by Ann Black-Ziegelbein of the University of Iowa.  Ann was also the main presenter.
+
 
 
 
@@ -26,7 +28,7 @@ The group's [first conference call](http://dev.list.galaxyproject.org/Galaxy-Cza
 
 ## Logistics
 
-<div class='right'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyCzars.png' alt='GalaxyCzars' width="150" /></a></div>
+<div class='right'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyCzars.png' alt='GalaxyCzars' width="150" /></a></div>
 
 ### Generic Call Agenda
 
@@ -86,8 +88,8 @@ Iowa addresses the "give them enough rope" conundrum* by providing well tested a
 
 <table>
   <tr>
-    <td style=" border: none vertical-align: top;"> <sup>*</sup> </td>
-    <td style=" border: none"> A major focus of Galaxy is to empower researchers by giving them access to bioinformatic tools.  However, running tools with default settings will often not give very meaningful results.  Thus, Iowa's approach gives users a more gentle introduction to tools before setting them loose.  This works at Iowa because they do have a number of analyses that are run over and over, but on different samples. </td>
+    <td style=" border: none; vertical-align: top;"> <sup>*</sup> </td>
+    <td style=" border: none;"> A major focus of Galaxy is to empower researchers by giving them access to bioinformatic tools.  However, running tools with default settings will often not give very meaningful results.  Thus, Iowa's approach gives users a more gentle introduction to tools before setting them loose.  This works at Iowa because they do have a number of analyses that are run over and over, but on different samples. </td>
   </tr>
 </table>
 

@@ -1,4 +1,7 @@
-<div class="title">Video Viz</div>
+---
+pagetitle: Video Viz
+---
+
 
 <div class='center'>
 ![VideoViz Plugin in Galaxy](/VizPluginVideoScreenshot.png)

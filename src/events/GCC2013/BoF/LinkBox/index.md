@@ -1,6 +1,6 @@
 <div class='linkbox'>
 **[BoFs](/Events/GCC2013/BoF)**
-----
+---
 [GalaxyAdmins](../GalaxyAdmins)<br />
 [Proteomics](../Proteomics)<br />
 [Tool Developers](../ToolDevelopers)<br />

@@ -1,8 +1,11 @@
-INCLUDE(/Events/SG2014/Header)
+---
+pagetitle:  2nd Swiss Galaxy Workshop, ,,  Wednesday, ,,  October 1st, ,,  Bern 
+---
+PLACEHOLDER_INCLUDE(/Events/SG2014/Header)
 
-<div class="title"> 2nd Swiss Galaxy Workshop, Wednesday, October 1st, Bern </div>
 
-INCLUDE(/Events/SG2014/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Events/SG2014/LinkBox)
 
 After the big success of the [first Swiss Galaxy Workshop two years ago](/Events/Switzerland2012), we are going to organize a similar event again in fall 2014.
 

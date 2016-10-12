@@ -10,6 +10,6 @@ For details, see
 
 Greg Minevich and [Dan Blankenberg](/Dan)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2012-10-15T15:54:39Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-10-15T15:54:39Z)</div>
 
 CategoryNews

@@ -1,10 +1,12 @@
 ---
 autotoc: true
+pagetitle: December 2014 Galaxy Update
 ---
-<div class="title">December 2014 Galaxy Update</div>
 
 
-<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='right'></div>
+
+<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the December 2014 *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -30,13 +32,13 @@ The [French IFB Galaxy Working Group](http://www.ifb-galaxy.org/index.html):
 <a href='http://migale.jouy.inra.fr/'><img src='/Images/Logos/MIGALELogo.png' alt='MIGALE' width="120" /></a> &nbsp;
 <a href='http://metabohub.fr/'><img src='/Images/Logos/MetaboHubLogo.jpg' alt='PFEM' width="120" /></a> &nbsp;
 <a href='http://southgreen.cirad.fr/'><img src='/Images/Logos/SouthGreenLogo.png' alt='SouthGreen' width="120" /></a>
-<a href='http://curie.fr/'><img src='/Images/Logos/CurieLogo.gif/' alt='Institut Curie' width="80" /></a> &nbsp;
+<a href='http://curie.fr/'><img src='/Images/Logos/CurieLogo.gif' alt='Institut Curie' width="80" /></a> &nbsp;
 <a href='http://abims.sb-roscoff.fr/'><img src='/Images/Logos/ABiMSLogo.png' alt='ABiMS' width="70" /></a>
 </div>
 
 ## Intro to Galaxy Workshop, Dec 12, Virginia State U
 
-<div class='left'><a href='/Events/VSU2014/'><img src='/Images/Logos/VSULogo.jpg' alt='Virginia State University' width="125" /></a></div>
+<div class='left'><a href='/Events/VSU2014'><img src='/Images/Logos/VSULogo.jpg' alt='Virginia State University' width="125" /></a></div>
 
 If you are anywhere close to Richmond, Virginia and you want to attend an [Introduction to Galaxy Workshop](/Events/VSU2014), then you are in luck. Thanks to sponsorship from the [College of Natural and Health Sciences](http://www.cnhs.vsu.edu/index.php) at [Virginia State University](http://vsu.edu/), the workshop is free and open to all researchers and students.  The [workshop](/Events/VSU2014) is split into morning and afternoon sessions.  No knowledge of programming or command line interfaces is required.
 
@@ -66,12 +68,12 @@ Please start giving some thought to what topics you would like to see covered at
 
 <div class='center'> 
 <a href='http://www.ifb-galaxy.org/GALAXYDAYS2014.html'><img src='/Images/Logos/GalaxyIFB.png' alt='Galaxy Day' width="140" /></a>&nbsp;
-<a href='/Events/VSU2014/'><img src='/Images/Logos/VSULogo.jpg' alt='Intro to Galaxy Workshop at Virginia State University' height="70" /></a>
+<a href='/Events/VSU2014'><img src='/Images/Logos/VSULogo.jpg' alt='Intro to Galaxy Workshop at Virginia State University' height="70" /></a>
 <a href='https://pag.confex.com/pag/xxiii/webprogram/Session2641.html'><img src='/Images/Logos/PAGLogo114.png' alt='Galaxy @ Plant and Animal Genome (PAG 2015)' height="80" /></a>
 <a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'><img src='/Images/Logos/SupAgroMontpelierLogo.jpg' alt='Analyse bioinformatique de séquences sous Galaxy' height="60" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div>
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div>
 
 There are [upcoming events](/Events) on two continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -84,31 +86,31 @@ There are [upcoming events](/Events) on two continents.  See the [Galaxy Events 
   </tr>
   <tr>
     <th> December 3 </th>
-    <td> <em><a href='http://www.ifb-galaxy.org/GALAXYDAYS2014.html'>Galaxy Day</a></em> </td>
+    <td> </em><a href='http://www.ifb-galaxy.org/GALAXYDAYS2014.html'>Galaxy Day</a><em> </td>
     <td> Institut Curie, Paris, France </td>
     <td> <a href="mailto:ifb DOT galaxy AT sb DASH roscoff DOT fr">IFB Galaxy</a> </td>
   </tr>
   <tr>
     <th> December 5-8 </th>
-    <td> <em><a href='http://manuals.bioinformatics.ucr.edu/workshops'>Next Generation Data Analysis Workshop</a></em> </td>
+    <td> </em><a href='http://manuals.bioinformatics.ucr.edu/workshops'>Next Generation Data Analysis Workshop</a><em> </td>
     <td> UC Riverside, Riverside, California, United States </td>
     <td> <a href="mailto:rkaundal AT ucr DOT edu">Rakesh Kaundal</a> </td>
   </tr>
   <tr>
     <th> December 9-11 </th>
-    <td> <em><a href='http://www.pf-bird.univ-nantes.fr/85361781/0/fiche___pagelibre/&RH=1357829686766'>Microarray data analysis on Galaxy</a></em> </td>
+    <td> </em><a href='http://www.pf-bird.univ-nantes.fr/85361781/0/fiche___pagelibre/&RH=1357829686766'>Microarray data analysis on Galaxy</a><em> </td>
     <td> <a href='http://www.pf-bird.univ-nantes.fr/'>BIRD IFB core facility</a> Nantes University/INSERM, Nantes, France </td>
     <td> <a href="mailto:raluca DOT teusan AT inserm DOT fr">Raluca Teusan</a>, Audrey Bihouée, Edouard Hirchaud</td>
   </tr>
   <tr>
     <th> December 12 </th>
-    <td> <em><a href='/Events/VSU2014/'>Introduction to Galaxy Workshop</a></em> </td>
+    <td> </em><a href='/Events/VSU2014'>Introduction to Galaxy Workshop</a><em> </td>
     <td> <a href='http://vsu.edu/'>Virginia State University</a>, Petersburg, Virginia, United States </td>
-    <td> <a href='http://sest.vsu.edu/biology/Faculty/harris.html'>Glenn Harris</a>, <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='http://sest.vsu.edu/biology/Faculty/harris.html'>Glenn Harris</a>, <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> December 16-19 </th>
-    <td> <em><a href='https://training.bioinformatics.ucdavis.edu/2014/10/10/rna-seq-and-chip-seq-analysis-with-galaxy-december-16-19-2014/'>RNA-Seq and ChIP-Seq Analysis with Galaxy</a></em> </td>
+    <td> </em><a href='https://training.bioinformatics.ucdavis.edu/2014/10/10/rna-seq-and-chip-seq-analysis-with-galaxy-december-16-19-2014/'>RNA-Seq and ChIP-Seq Analysis with Galaxy</a><em> </td>
     <td> <a href='http://training.bioinformatics.ucdavis.edu/'>UC Davis</a>, California, United States </td>
     <td> <a href="mailto:bioinformatics DOT core AT ucdavis DOT edu">UC Davis Bioinformatics Training</a> </td>
   </tr>
@@ -117,29 +119,29 @@ There are [upcoming events](/Events) on two continents.  See the [Galaxy Events 
   </tr>
   <tr>
     <th> January 10-14 </th>
-    <td> <em>Galaxy for SNP and Variant Data Analysis</em> </td>
+    <td> </em>Galaxy for SNP and Variant Data Analysis<em> </td>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXIII (PAG2014)</a>, San Diego, California, United States </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 9-13 </th>
-    <td> <em><a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a></em> </td>
+    <td> </em><a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a><em> </td>
     <td> Montpellier, France </td>
     <td> <a href="mailto:jean-francois.dufayard@cirad.fr">J.F. Dufayard</a> </td>
   </tr>
   <tr>
     <th rowspan=3> February 16-18 </th>
-    <td> <em>Accessible and Reproducible Large-Scale Analysis with Galaxy</em> </td>
+    <td> </em>Accessible and Reproducible Large-Scale Analysis with Galaxy<em> </td>
     <td rowspan=1> <a href='http://www.triconference.com/Sequencing-Analysis/'>Genome and Transcriptome Analysis</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
-    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor'>James Taylor</a> </td>
   </tr>
   <tr>
-    <td> <em>Large-Scale NGS data Analysis on Amazon Web Services Using Globus Genomic</em> </td>
+    <td> </em>Large-Scale NGS data Analysis on Amazon Web Services Using Globus Genomic<em> </td>
     <td rowspan=2> <a href='http://www.triconference.com/Integration-Analysis-Visualization/'>Genomics & Sequencing Data Integration, Analysis and Visualization</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
     <td> <a href='http://www.ci.anl.gov/profile/250'>Ravi Madduri</a> </td>
   </tr>
   <tr>
-    <td> <em>iReport: An Integrative “omics” Reporting and Visualisation Platform</em> </td>
+    <td> </em>iReport: An Integrative “omics” Reporting and Visualisation Platform<em> </td>
     <td> Andrew Stubbs </td>
   </tr>
   <tr>
@@ -174,13 +176,13 @@ The new papers covered these topics:
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -227,7 +229,7 @@ The new papers covered these topics:
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -256,7 +258,7 @@ The [Galaxy-Training mailing list](https://lists.galaxyproject.org/listinfo/gala
 
 If you are at all interested in Galaxy Training then you are encouraged to [join the list](https://lists.galaxyproject.org/listinfo/galaxy-training). Messages to this list are [publicly archived](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/) and will be included in the [Galaxy search engines](http://galaxyproject.org/search/web/) as well.
 
-<div class='right'><a href='/Teach/'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="200" /></a></div>
+<div class='right'><a href='/Teach'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="200" /></a></div>
 
 *And please welcome the latest member of the Galaxy Training Network:*
 
@@ -270,7 +272,7 @@ Two new [public Galaxy servers](/PublicGalaxyServers) were announced in November
 
 ## Pitagora-Galaxy
 
-<div class='right'><div class='solid'><a href='http://try.pitagora-galaxy.org/galaxy/'><img src='/PublicGalaxyServers/Pitagora.png' alt='Pitagora-Galaxy' width="300" /></a></div>
+<div class='right solid'><a href='http://try.pitagora-galaxy.org/galaxy/'><img src='/PublicGalaxyServers/Pitagora.png' alt='Pitagora-Galaxy' width="300" /></a></div>
 
 * *Links:*
   * [Pitagora-Galaxy Server](http://try.pitagora-galaxy.org/galaxy/)
@@ -297,7 +299,7 @@ Two new [public Galaxy servers](/PublicGalaxyServers) were announced in November
 
 ## PIA
 
-<div class='right'><div class='solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/pia/'><img src='/PublicGalaxyServers/PiaImage.jpg' alt='PIA' /></a></div>
+<div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/pia/'><img src='/PublicGalaxyServers/PiaImage.jpg' alt='PIA' /></a></div>
 
 * *Links:*
   * [PIA Galaxy](http://galaxy-dev.cnsi.ucsb.edu/pia/)
@@ -316,13 +318,13 @@ Two new [public Galaxy servers](/PublicGalaxyServers) were announced in November
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/Community/Logs/'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a></div>
-<div class='right'><a href='/Community/Deployments/'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a></div>
+<div class='right'><a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/Community/Logs/#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs/#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/Community/Deployments/#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments/#add-your-galaxy-deployment'>now</a></em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/Community/Logs#add-a-log-page'>Share your experience</a> </em><a href='/Community/Logs#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/Community/Deployments#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/Community/Deployments#add-your-galaxy-deployment'>now</a><em> </td>
   </tr>
 </table>
 
@@ -337,7 +339,7 @@ The *[Community Log Board](/Community/Logs)* and  *[Deployment Catalog](/Communi
 
 [BioBlend v0.5.2 was released in October](/News/BioBlendV0.5.2).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  
 
-New versions of [Galaxy](/GalaxyUpdates/2014_09/#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09/#august-2014-cloudman-release), and [blend4j](/GalaxyUpdates/2014_09/#blend4j-011-release) were all released in August.
+New versions of [Galaxy](/GalaxyUpdates/2014_09#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/GalaxyUpdates/2014_09#blend4j-011-release) were all released in August.
 
 Look for a new Galaxy distribution soon.
 

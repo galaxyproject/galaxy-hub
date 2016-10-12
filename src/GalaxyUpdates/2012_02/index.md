@@ -1,13 +1,15 @@
 ---
 autotoc: true
+pagetitle: February 2012 Galaxy Update
 ---
 <div class='center'>**Looking for the [March 2012 Galaxy Update](/GalaxyUpdates/2012_03)?  Click [here](/GalaxyUpdates/2012_03).**<br />Sorry about the bad link in the email announcement!  [Dave C](/DaveClements)</div>
 
 
-<div class="title">February 2012 Galaxy Update</div>
 
 
-<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='right'></div>
+
+<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the inaugural edition of *[Galaxy Update](/GalaxyUpdates)*, a (mostly) monthly summary of what is going on in the Galaxy community.  Galaxy Updates will complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -37,13 +39,13 @@ Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, r
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll include it in next month's update.
 
 <div class='right'>
-<a href='/gmod:April 2012 GMOD Meeting/'><img src='/Images/Logos/GMODApril2012Logo.png' alt='April 2012 GMOD Meeting' height=100 /></a>&nbsp;&nbsp; <a href='http://www.iscb.org/ismb2012'><img src='/Images/Logos/ISMB2012.jpg' alt='ISMB 2012' height=105 /></a>&nbsp;&nbsp; <a href='/Events/GCC2012/'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="100" /></a>
+<a href='/gmod:April 2012 GMOD Meeting'><img src='/Images/Logos/GMODApril2012Logo.png' alt='April 2012 GMOD Meeting' height=100 /></a>&nbsp;&nbsp; <a href='http://www.iscb.org/ismb2012'><img src='/Images/Logos/ISMB2012.jpg' alt='ISMB 2012' height=105 /></a>&nbsp;&nbsp; <a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="100" /></a>
 </div>
 
 ## Upcoming Events and Deadlines
 
 ### Deadlines
-<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> 
+<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
 
 There are upcoming deadlines for ISMB 2012 (workshops), DILS (abstracts), PSB (sessions), VizBI (posters), and a Bio-Linux Course (application).  See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com) for details on these and other events.
 
@@ -62,7 +64,7 @@ Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/Events
     <th> April 5-6 </th>
     <td> </strong><a href='http://gmod.org/wiki/April 2012 GMOD Meeting'>April 2012 GMOD Meeting</a><strong> </td>
     <td> Washington DC, immediately following <a href='http://pir.georgetown.edu/biocuration2012/'>Biocuration 2012</a> </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> July 13-17 </th>
@@ -72,9 +74,9 @@ Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/Events
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> </strong><a href='/Events/GCC2012/'>2012 Galaxy Community Conference</a><strong> </td>
+    <td> </strong><a href='/Events/GCC2012'>2012 Galaxy Community Conference</a><strong> </td>
     <td> Chicago, Illinois, United States </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
 </table>
 

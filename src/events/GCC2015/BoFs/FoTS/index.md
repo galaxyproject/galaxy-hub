@@ -1,6 +1,9 @@
-INCLUDE(/Events/GCC2015/Header)
+---
+pagetitle: Friends of the Tool Shed
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 
-<div class="title">Friends of the Tool Shed</div>
+
 
 
 <div class='dictbox'>
@@ -12,7 +15,7 @@ INCLUDE(/Events/GCC2015/Header)
  Contact:: [Martin Cech](/Marten)
 </div>
 
-<div class='left'><a href='/Events/GCC2015/BoFs/'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a></div>
+<div class='left'><a href='/Events/GCC2015/BoFs'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a></div>
 
 This page describes the **Friends of the Tool Shed** [Birds of a Feather](/Events/GCC2015/BoFs) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 

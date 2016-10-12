@@ -1,10 +1,12 @@
 ---
 autotoc: true
+pagetitle: Virtual Appliances
 ---
 <span style="font-size: larger;"> Hey!  This page is under construction! </span>
 
-<div class="title">Virtual Appliances</div>
 
+
+<div class='right'></div>
 
 One of the [many ways that Galaxy is available](/BigPicture/Choices) is in *virtual appliances* that already have Galaxy installed and configured on them - these may take the form of *cloud images*, more traditional *virtual machine images*, or *docker containers*.  Running a pre-configured Galaxy virtual appliance saves on installation and configuration work, and enables you to get up and running with Galaxy very quickly.
 
@@ -36,7 +38,7 @@ Some virtual appliances are packaged for [VirtualBox](http://virtualbox.org) - a
 
 This lists all known available Galaxy virtual appliances.  The goal is to make it easy for the Galaxy community to find and deploy them, thus benefiting from the (generous!) work of others.
 
-<<DictColumns(pagename=VA, names="Appliance, Technology, Domains, Description, Owners, Date Created/Updated", sort="Date Created/Updated", title="Hide", hide="Hide")>>
+PLACEHOLDER_DICT_COLUMNS(pagename=VA, names="Appliance, Technology, Domains, Description, Owners, Date Created/Updated", sort="Date Created/Updated", title="Hide", hide="Hide")
 
 
 # Add a Virtual Appliance
@@ -63,7 +65,7 @@ To add a virtual appliance to this directory, create a wiki page describing the 
 1. [Login|&action=login](/VirtualAppliances) to the wiki. If you don't have an account, you'll need to [create one|&action=newaccount](/Community/Deployments).
 1. Pick a good descriptive, !CamelCase name for the appliance.  This will become part of the URL for the page describing the appliance.  *Avoid embedded spaces as they make lousy URLs.*
 1. Type the !CamelCase name in box below and hit the "Create" button.
-    . <<NewPage(VirtualAppliances/VATemplate, "Create a virtual appliance description page", VA)>>
+    . PLACEHOLDER_NEW_PAGE(VirtualAppliances/VATemplate, "Create a virtual appliance description page", VA)
 1. A template for the new page will appear.  Replace the template text with details about the appliance.
 1. Save, review, and edit the page until you are happy with it.
 1. Return to this page, and review how the resource appears in this listing.

@@ -2,6 +2,7 @@
 autotoc: true
 ---
 
+
 ## External user authentication
 
 By default, Galaxy manages its own users.  However, it may be more useful at your site to tie into a local authentication system.  Galaxy does not do this itself - it delegates this responsibility to the upstream proxy server (e.g., Apache or Nginx).  The authentication module (basic authentication, mod_auth_kerb, mod_authn_ldap, mod_auth_cas, Cosign, etc.) is responsible for providing a username, which we will pass through the proxy to Galaxy as `$REMOTE_USER`.
@@ -80,7 +81,7 @@ Users are automatically created in the Galaxy database if the external auth meth
 
 ### mod_authnz_ldap
 
-The Apache `mod_authnz_ldap` module does not set `$REMOTE_USER` like other auth modules.  The following alternate configuration should allow you to use any <<nwwl(LDAP)>> attribute as the username to set in `$REMOTE_USER`:
+The Apache `mod_authnz_ldap` module does not set `$REMOTE_USER` like other auth modules.  The following alternate configuration should allow you to use any LDAP attribute as the username to set in `$REMOTE_USER`:
 
 ```
 #!highlight apache
@@ -101,7 +102,7 @@ The Apache `mod_authnz_ldap` module does not set `$REMOTE_USER` like other auth 
 ```
 
 
-The `AuthLDAPURL` and variable in which the username is set will vary and is dependent entirely upon the schema/design of your <<nwwl(LDAP)>> database.  If your <<nwwl(LDAP)>> server is Windows (Active Directory), you may need to use the `%{AUTHENTICATE_sAMAccountName} ` variable.
+The `AuthLDAPURL` and variable in which the username is set will vary and is dependent entirely upon the schema/design of your LDAP database.  If your LDAP server is Windows (Active Directory), you may need to use the `%{AUTHENTICATE_sAMAccountName} ` variable.
 
 Note the S/E after substituted variables, transcluded from the [Apache mod_headers](https://httpd.apache.org/docs/2.2/mod/mod_headers.html) documentation:
 

@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[BioBlend Paper in Bioinformatics](/News/BioBlendPaper)</div>
 
-<div class='right'><a href='http://bit.ly/11AuV4O'><img src='/CitingGalaxy/BioinformaticsCover.gif/' alt='Bioinformatics' height="125" /></a></div>
+<div class='right'><a href='http://bit.ly/11AuV4O'><img src='/CitingGalaxy/BioinformaticsCover.gif' alt='Bioinformatics' height="125" /></a></div>
 
 A new paper, "[BioBlend: automating pipeline analyses within Galaxy and CloudMan](http://bit.ly/11AuV4O)," by Clare Sloggett, Nuwan Goonasekera and [Enis Afgan|Enis Afgan](/EnisAfgan) has just been published in *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)*. !BioBlend is 
 
@@ -13,6 +13,6 @@ Documentation is [available at ReadTheDocs](http://bioblend.readthedocs.org/).  
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-05-02T11:48:32Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-05-02T11:48:32Z)</div>
 
 CategoryNews

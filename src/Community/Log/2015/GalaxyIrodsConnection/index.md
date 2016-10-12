@@ -2,7 +2,7 @@
 <a href='https://urgi.versailles.inra.fr/content/download/5169/39254/file/galaxy_irods.pdf'><img src='/Images/Logos/iRODSLogo.png' alt='Testing connexion between Galaxy and iRODS' height="60" /></a>
 </div>
 
-<div class="title">
+<div class='title'>
 2015/12: [Testing connexion between Galaxy and iRODS](https://urgi.versailles.inra.fr/content/download/5169/39254/file/galaxy_irods.pdf)
 </div>
 

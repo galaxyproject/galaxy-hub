@@ -5,7 +5,7 @@
 <a href='http://www.roslin.ed.ac.uk/'><img src='/Images/Logos/RoslinLogo.jpg' alt='Roslin Institute' height="100" /></a> 
 &nbsp; 
 <a href='http://www.ed.ac.uk/'><img src='/Images/Logos/UEdinburghSquareLogo.png' alt='University of Edinburgh' height="100" /></a> 
-<div class="title">Introduction to Galaxy<br />12 May 2014</div>
+<div class='title'>Introduction to Galaxy<br />12 May 2014</div>
 
 **
 9:00-13:00<br />
@@ -71,7 +71,7 @@ Anyone affiliated with the University of Edinburgh can participate in this works
 
 <div class='right'>
 <br /><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a><br /><br />
-<a href='/Events/UKMay2014/'><img src='/Images/Logos/UKMay2014Tour.png' alt='May 2014 Galaxy UK Tour' width="160px" /></a>
+<a href='/Events/UKMay2014'><img src='/Images/Logos/UKMay2014Tour.png' alt='May 2014 Galaxy UK Tour' width="160px" /></a>
 </div>
 
 ## Support

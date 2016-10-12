@@ -1,8 +1,11 @@
+---
+pagetitle: Galaxy, -, Admins
+---
 <div class='center'>![](/Images/GalaxyLogos/GalaxyAdmins.png)</div>
 
-INCLUDE(LinkBox)
+PLACEHOLDER_INCLUDE(LinkBox)
 
-<div class="title">Galaxy-Admins</div>
+
 
 *Galaxy-Admins* is a discussion group for Galaxy community members who are responsible for large Galaxy installations.  
 

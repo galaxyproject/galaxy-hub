@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[Mid 2015 Galaxy CloudMan release](/News/Mid2015_GalaxyCloudManRelease)</div>
 
-<div class='right'><a href='/CloudMan/'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
+<div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
 
 **We just released an update to Galaxy !CloudMan.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
 
@@ -12,8 +12,8 @@ This is the most complete update of the Galaxy on the Cloud platform to date wit
 * !CloudMan: Creating cluster shares is now fast (~30 seconds vs. hours)
 * Created a wealth of new documentation, including a description of the all new automated method for building private/custom instances https://wiki.galaxyproject.org/CloudMan/Building
 
-See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG) for a more complete set of changes or just give it a try: see the all new [Getting Started](https://wiki.galaxyproject.org/CloudMan/GettingStarted) documentation. 
+See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes or just give it a try: see the all new [Getting Started](https://wiki.galaxyproject.org/CloudMan/GettingStarted) documentation. 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2015-09-03T13:42:43Z)>> </div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-09-03T13:42:43Z) </div>
 
 CategoryNews

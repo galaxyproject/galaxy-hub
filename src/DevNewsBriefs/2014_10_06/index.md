@@ -1,39 +1,41 @@
 ---
 autotoc: true
+pagetitle: October 06, ,,  2014 Galaxy Distribution News Brief
 ---
+<div class='right'></div>
 
 [All News Briefs](/DevNewsBriefs)
 <br />
 [Distribution Summary 2014_10_06](/News/2014_10_06_Galaxy_Distribution)
 
 <div class='left'><a href='http://getgalaxy.org'><img src='/Images/Logos/GetGalaxyOrg.png' alt=' ' width=175 /></a></div>
-<div class="title">October 06, 2014 Galaxy Distribution News Brief</div>
+
 <br />
 <br />
 <br />
 <table>
   <tr>
-    <td rowspan=3 style=" border: none"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>new</strong>: </td>
-    <td style=" border: none"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
+    <td style=" border: none;"> <strong>new</strong>: </td>
+    <td style=" border: none;"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>upgrade</strong>: </td>
-    <td style=" border: none"> <code>$ hg pull </code> <br /> <code>$ hg update latest_2014.10.06</code> </td>
+    <td style=" border: none;"> <strong>upgrade</strong>: </td>
+    <td style=" border: none;"> <code>$ hg pull </code> <br /> <code>$ hg update latest_2014.10.06</code> </td>
   </tr>
 </table>
 
@@ -92,7 +94,7 @@ Several enhancements and improvements have been made to facilitate easier viewin
 1. Build sites admin files are now configurable to fully support display application functionality. [YPxlmedb](https://trello.com/c/YPxlmedb)
 1. The `tool_shed_repositories.py` Tool Shed repo install 
 1. Security enhancement that will permit the blocking of remote access if the user is not an admin.  Thank you to James Johnson. Review the pull request and ticket for details. [PR#468](https://bitbucket.org/galaxy/galaxy-central/pull-request/468/) [qbmqjhor](https://trello.com/c/qbmqjhor)
-1. Admin jobs page now includes more information about recently run jobs. Useful for getting a global view of jobs and for reviewing jobs that are not tracked in the UI history (such as history import/export jobs).  Thanks to Kyle Ellrott. [PR#466](https://bitbucket.org/galaxy/galaxy-central/pull-request/466/) [PR#467](https://bitbucket.org/galaxy/galaxy-central/pull-request/467/) <<add 466 ticket here>> [fjXBjXti](https://trello.com/c/fjXBjXti)
+1. Admin jobs page now includes more information about recently run jobs. Useful for getting a global view of jobs and for reviewing jobs that are not tracked in the UI history (such as history import/export jobs).  Thanks to Kyle Ellrott. [PR#466](https://bitbucket.org/galaxy/galaxy-central/pull-request/466/) [PR#467](https://bitbucket.org/galaxy/galaxy-central/pull-request/467/) (add 466 ticket here) [fjXBjXti](https://trello.com/c/fjXBjXti)
 1. Added support for Illumina 1.8+ fastq headers to `tools/fastq/fastq_paired_end_joiner`. Thanks to Simone Leo. [PR#281](https://bitbucket.org/galaxy/galaxy-central/pull-request/281/)[PR#177](https://bitbucket.org/galaxy/galaxy-central/pull-request/177/) [YjjFv3Rv](https://trello.com/c/YjjFv3Rv) 
 1. Updated wiki documentation for admin activities related to [data integration](http://wiki.galaxyproject.org/Admin/DataIntegration). [FinBeDet](https://trello.com/c/FinBeDet)
 1. Function ‘migration 104’ was using a ‘Session()’ object and this conflicted with `threadlocal` configuration. Fix removed `threadlocal` from `universe_wsgi.ini.sample`, the root cause of ‘103 is not 105' migration errors seen lately. [PR#439](https://bitbucket.org/galaxy/galaxy-central/pull-request/439/) [EVVA5mmZ](https://trello.com/c/EVVA5mmZ)

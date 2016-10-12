@@ -2,7 +2,7 @@
 autotoc: true
 ---
 # Galaxy Data Manager XML File
-----
+---
 
 The XML File for a Galaxy Data Manager, generally referred to as the "data manager config file", serves a number of purposes.  It defines the availability of Data Managers to a Galaxy instance. It does this by specifying the id of the Data Manager and the Data Manager tool that is associated with it. It also contains a listing of the Tool Data Tables that can be added to by the Data Manager. It also specifies how to manipulate the raw column values provided by the Data Manager Tool and under what directory structure to place the finalized data values. 
 
@@ -16,12 +16,13 @@ Pay attention to the following when creating a new Data Manager:
 A Galaxy Data Manager's config file consists of a subset of the following XML tag sets - each of these is described in detail in the following sections.
 
 
+
 ## Details of XML tag sets
-----
+---
 ### <data_managers> tag set
 The outer-most tag set. It contains no attributes. Any number of <data_manager> tags can be included within it.
 
-----
+---
 
 ### <data_manager> tag set
 
@@ -43,7 +44,7 @@ The following is an example that contains all of the attributes described above.
 
 <br />
 
-----
+---
 
 ### <data_table> tag set
 
@@ -63,7 +64,7 @@ The following is an example that contains all of the attributes described above.
 
 <br />
 
-----
+---
 
 ### <output> tag set
 
@@ -79,7 +80,7 @@ The following is an example that contains all of the attributes described above.
 
 <br />
 
-----
+---
 
 ### <column> tag set
 
@@ -100,7 +101,7 @@ The following is an example that contains all of the attributes described above.
 
 <br />
 
-----
+---
 
 ### <move> tag set
 
@@ -121,7 +122,7 @@ The following is an example that contains all of the attributes described above.
 
 <br />
 
-----
+---
 
 ### <source> tag set
 
@@ -142,7 +143,7 @@ The following is an example that contains the most common usage, where the value
 
 <br />
 
-----
+---
 
 ### <target> tag set
 
@@ -163,7 +164,7 @@ The following is an example that contains a common usage, where a target value i
 
 <br />
 
-----
+---
 
 ### <value_translation> tag set
 
@@ -185,7 +186,7 @@ The following is an example that contains a common usage, where a value is const
 
 <br />
 
-----
+---
 
 # Bringing it all Together, an example
 
@@ -233,6 +234,6 @@ The result is:
 and the "sacCer2.2bit" file has been moved into the location specified by path.
 
 
-----
+---
 
 [/Admin/Tools/DataManagers](/Admin/Tools/DataManagers)

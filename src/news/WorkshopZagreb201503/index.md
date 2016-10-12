@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none"> <span style="font-size: larger;"> <a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/FREE-Workshop-Bioinformatics-Methods-in-Genomics'>Workshop</a><br /><a href='http://www.irb.hr/eng'>RBI</a>, Zagreb, Croatia<br />2-3 March 2015 </span></td>
+    <td style=" text-align: center; border: none;"> <span style="font-size: larger;"> <a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/FREE-Workshop-Bioinformatics-Methods-in-Genomics'>Workshop</a><br /><a href='http://www.irb.hr/eng'>RBI</a>, Zagreb, Croatia<br />2-3 March 2015 </span></td>
   </tr>
 </table>
 
@@ -24,6 +24,6 @@ Participants will get a broad overview of topics covering multiple facets of bio
 
 [Registration](https://www.eventbrite.com/e/bioinformatics-methods-in-genomics-free-lectures-and-workshop-tickets-15726413125?ref=ecount) is now open, and is *free*.  You may register for the different parts of the event separately.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2015-02-13T21:11:47Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-02-13T21:11:47Z)</div>
 
 CategoryNews

@@ -1,12 +1,12 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle"> <a href='http://www.tgac.ac.uk/introduction-to-galaxy/'><img src='/Images/Logos/TGACLogo.png' alt='The Genome Analysis Centre'  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.tgac.ac.uk/introduction-to-galaxy/'><img src='/Images/Logos/TGACLogo.png' alt='The Genome Analysis Centre'  /></a> </td>
   </tr>
 </table>
 
 
-<div class="title">Introduction to Galaxy<br />9 May 2014</div>
+<div class='title'>Introduction to Galaxy<br />9 May 2014</div>
 
 **Instructor: [Dave Clements](/DaveClements)
 
@@ -41,7 +41,7 @@ No programming or Linux command line experience is required.
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:30 </th>
-    <td> </strong>Registration<strong><div class='indent'>Registration and <em>coffee</em></div> </td>
+    <td> </strong>Registration<strong><div class='indent'>Registration and </em>coffee<em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
@@ -97,7 +97,7 @@ No programming or Linux command line experience is required.
 
 <div class='right'>
 <br /><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a><br /><br />
-<a href='/Events/UKMay2014/'><img src='/Images/Logos/UKMay2014Tour.png' alt='May 2014 Galaxy UK Tour' width="160px" /></a>
+<a href='/Events/UKMay2014'><img src='/Images/Logos/UKMay2014Tour.png' alt='May 2014 Galaxy UK Tour' width="160px" /></a>
 </div>
 
 ## Support

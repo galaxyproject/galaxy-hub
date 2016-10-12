@@ -35,6 +35,6 @@ We hope you all will enjoy the outcome of this Codefest and hope to see you at o
 
 [Your IUC](/IUC)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2015-09-29T21:20:49Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-09-29T21:20:49Z)</div>
 
 CategoryNews

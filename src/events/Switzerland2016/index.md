@@ -1,19 +1,42 @@
-INCLUDE(/Events/SG2016/Header)
+---
+pagetitle:  3rd Swiss Galaxy Workshop, ,,  Thursday, ,,  October 20th, ,,  Freiburg , (, Germany, ),  
+---
+PLACEHOLDER_INCLUDE(/Events/SG2016/Header)
 
-<div class="title"> 3rd Swiss Galaxy Workshop, Thursday, October 20th, Freiburg (Germany) </div>
 
-INCLUDE(/Events/SG2016/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Events/SG2016/LinkBox)
 
 After the big success of the [first Swiss Galaxy Workshop](/Events/Switzerland2012) and the [second Swiss Galaxy Workshop](/Events/Switzerland2014), we are going to organize a similar event again in fall 2016.
 
 
 ## Topic of the Workshop
 
-This year, the workshop is aimed at Galaxy administrators and will collocate with the Oktober meetup of the  [Galaxy-Admins discussion group](/Community/GalaxyAdmins). Similar to the regular Galaxy-Admins web-meetups, we intend to have a mixture of presentations about the use of the Galaxy framework and informations about the latest developments. We encourage presentations about your success stories using Galaxy as well as the problems you have encountered. Please indicate a preliminary title on the [registration page]().
+This year, the workshop is aimed at Galaxy administrators and will collocate with the Oktober meetup of the  [Galaxy-Admins discussion group](/Community/GalaxyAdmins). Similar to the regular Galaxy-Admins web-meetups, we intend to have a mixture of presentations about the use of the Galaxy framework and informations about the latest developments. We encourage presentations about your success stories using Galaxy as well as the problems you have encountered. Please indicate a preliminary title on the [registration page](https://docs.google.com/forms/d/1mRO4uNXQd8jL1I9JNiQ4xd0fnrZKlQPQSORgJCpDeqg).
 
-##### Speakers List
+## Speakers and Topics
 
-...will be populated
+ [Dannon Baker](/DannonBaker) 
+   State of the Galaxy Project - priorities, plans, and community
+
+ Andreas Tille
+   Debian Med - Debian for medicine and life sciences
+ Wolfgang Maier 
+   !CosmicNotes - Documenting your work in Galaxy
+ Nikolay Vazov 
+   Customizing Galaxy for Large Institutions
+ Devon Ryan 
+   deepTools and HiCExplorer
+ Nicola Soranzo 
+   News from the [/IUC](/IUC) and the Galaxy tool ecosystem
+ [Björn Grüning](/BjoernGruening)
+   Fixing Bioinformatic Infrastructure
+ [Hans-Rudolf Hotz](/HansrudolfHotz) 
+   Moving an old Galaxy server to new hardware
+ Bérénice Batut 
+   [Galaxy Training Network](/Teach/GTN) - rebooted
+
+(These will be slotted into the schedule soon.)
 
 ## Preliminary Schedule
 
@@ -32,10 +55,9 @@ This year, the workshop is aimed at Galaxy administrators and will collocate wit
 | 17:01 - 17:15 |  ...going to the pub  | 
 
 
-
 ## Location / Registration
 
-The workshop will be held at the Universität of Freiburg in Germany (see the [main page](/Events/SG2016) for details). Registration is free, and you can sign-up [here]().
+The workshop will be held at the Universität of Freiburg in Germany (see the [main page](/Events/SG2016) for details). Registration is free, and you can sign-up [here](https://docs.google.com/forms/d/1mRO4uNXQd8jL1I9JNiQ4xd0fnrZKlQPQSORgJCpDeqg).
 
 ## Questions?
 Contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/BjoernGruening)

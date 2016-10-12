@@ -1,6 +1,6 @@
 <div class='linkbox'>
 **[GCC2015](http://gcc2015.tsl.ac.uk/)**<br />
-----
+---
 [Register](http://gcc2015.tsl.ac.uk/registration/)<br />
 [Schedule](http://gcc2015.tsl.ac.uk/programme)<br />
 [Training](http://gcc2015.tsl.ac.uk/training-day)<br />

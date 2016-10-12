@@ -1,32 +1,34 @@
 ---
 autotoc: true
+pagetitle: December 20, ,,  2012 Galaxy Development News Brief
 ---
+<div class='right'></div>
 
-<div class="title">December 20, 2012 Galaxy Development News Brief</div>
+
 
 <br />
 # Get Galaxy
 
 <table>
   <tr>
-    <td rowspan=3 style=" border: none"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td colspan=2 style=" border: none;"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>new</strong>: </td>
-    <td style=" border: none"> <code>$ hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist </code> </td>
+    <td style=" border: none;"> <strong>new</strong>: </td>
+    <td style=" border: none;"> <code>$ hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist </code> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>upgrade</strong>: </td>
-    <td style=" border: none"> <code>$ hg pull -u -r 36ad8aa7b922 </code> </td>
+    <td style=" border: none;"> <strong>upgrade</strong>: </td>
+    <td style=" border: none;"> <code>$ hg pull -u -r 36ad8aa7b922 </code> </td>
   </tr>
 </table>
 
@@ -160,7 +162,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 [/News](/News), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_12)***
 
-<div class='left'><a href='/Events/GCC2013/TrainingDay/'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="175px" /></a></div>
+<div class='left'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="175px" /></a></div>
 <br />
 **[GCC2013 Training Day Topic Nominations](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay) are now open** through ***[January 11th](http://wiki.galaxyproject.org/Events/GCC2013/KeyDates)***.  
 <br />
@@ -170,7 +172,7 @@ Get a word in now.
 <br />
 <br />
 <br />
-----
+---
 <br />
 # About Galaxy
 **[GalaxyProject.org](http://galaxyproject.org)**

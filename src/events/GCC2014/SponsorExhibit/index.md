@@ -1,8 +1,11 @@
-INCLUDE(/Events/GCC2014/Header)
+---
+pagetitle: Sponsorships and Exhibitors
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
-<div class="title">Sponsorships and Exhibitors</div>
 
-INCLUDE(/Events/GCC2014/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 Is your organization interested in being a prominent part of one of the fastest growing communities in bioinformatics? Becoming a [2014 Galaxy Community Conference](../) Sponsor or Exhibitor is an excellent way to raise your organization's visibility in this active and engaged community.
 
@@ -45,11 +48,11 @@ Sponsorships are available at four different levels.
 
 <table>
   <tr>
-    <td style=" border: none text-align: center;"> <a href='http://bioteam.net/slipstream/galaxy-edition/'><img src='/Images/Logos/BioTeamLogo154.gif/' alt='BioTeam' width="200" /></a> </td>
-    <td style=" border: none; width: 5% text-align: center;"> </td>
-    <td style=" border: none text-align: center;"> <a href='http://www.emc.com/isilon'><img src='/Images/Logos/EMCIsilonLogo.jpg' alt='EMC Isilon' width="340" /></a> </td>
-    <td style=" border: none; width: 5% text-align: center;"> </td>
-    <td style=" border: none text-align: center;"> <a href='http://www.sgi.com/solutions/genomics/'><img src='/Images/Logos/SGILogo400.jpg' alt='SGI' width="210" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://bioteam.net/slipstream/galaxy-edition/'><img src='/Images/Logos/BioTeamLogo154.gif' alt='BioTeam' width="200" /></a> </td>
+    <td style=" border: none; width: 5%; text-align: center;"> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://www.emc.com/isilon'><img src='/Images/Logos/EMCIsilonLogo.jpg' alt='EMC Isilon' width="340" /></a> </td>
+    <td style=" border: none; width: 5%; text-align: center;"> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://www.sgi.com/solutions/genomics/'><img src='/Images/Logos/SGILogo400.jpg' alt='SGI' width="210" /></a> </td>
   </tr>
 </table>
 
@@ -72,17 +75,17 @@ Sponsorships are available at four different levels.
 
 <table>
   <tr>
-    <td colspan=2 style=" border: none text-align: center;"> <a href='http://globus.org/genomics'><img src='/Images/Logos/GlobusGenomics.png' alt='Globus Genomics' width="180" /></a> </td>
+    <td colspan=2 style=" border: none; text-align: center;"> <a href='http://globus.org/genomics'><img src='/Images/Logos/GlobusGenomics.png' alt='Globus Genomics' width="180" /></a> </td>
     <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td colspan=3 style=" border: none text-align: center;"> <a href='http://www.gigasciencejournal.com/'><img src='/Images/Logos/GigaScienceLogo250.png' alt='GigaScience Journal' width="160" /></a> <br /> <a href='http://www.biomedcentral.com/'><img src='/Images/Logos/BMCLogo200.png' alt='BioMed Central, The Open Access Publisher' width="160" /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center;"> <a href='http://www.gigasciencejournal.com/'><img src='/Images/Logos/GigaScienceLogo250.png' alt='GigaScience Journal' width="160" /></a> <br /> <a href='http://www.biomedcentral.com/'><img src='/Images/Logos/BMCLogo200.png' alt='BioMed Central, The Open Access Publisher' width="160" /></a> </td>
     <td style=" border: none; width: 5%; text-align: center;"> </td>
     <td style=" border: none; text-align: center;"> <a href='http://www.abgenomica.com/'><img src='/Cloud/ABgenomicaLogo.jpg' alt='ABgenomica'  /></a> </td>
   </tr>
   <tr>
     <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td colspan=3 style=" border: none text-align: center;"> <br /> <a href='http://genomeweb.com'><img src='/Images/Logos/GenomeWebSmall.png' alt='GenomeWeb' width="180" /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center;"> <br /> <a href='http://genomeweb.com'><img src='/Images/Logos/GenomeWebSmall.png' alt='GenomeWeb' width="180" /></a> </td>
     <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td colspan=3 style=" border: none text-align: left;"> <br /><a href='http://www.penguincomputing.com/'><img src='/Images/Logos/PenguinComputing.png' alt='Penguin Computing' width="170" /></a> </td>
+    <td colspan=3 style=" border: none; text-align: left;"> <br /><a href='http://www.penguincomputing.com/'><img src='/Images/Logos/PenguinComputing.png' alt='Penguin Computing' width="170" /></a> </td>
   </tr>
 </table>
 
@@ -135,7 +138,7 @@ Please [contact the organizers](/Events/GCC2014/Organizers) to make inquiries ab
 
 <br />
 <a href='http://biolchem.bs.jhmi.edu/'><img src='/Images/Logos/JohnsHopkinsBioChem.png' alt='Biological Chemistry @ Johns Hopkins'  /></a> &nbsp; 
-<a href='http://jhu.edu'><img src='/Images/Logos/JohnsHopkinsLogoLarge.gif/' alt='Johns Hopkins University' height="100" /></a><br /><br />
+<a href='http://jhu.edu'><img src='/Images/Logos/JohnsHopkinsLogoLarge.gif' alt='Johns Hopkins University' height="100" /></a><br /><br />
 <a href='http://epigenetics.jhu.edu/'><img src='/Images/Logos/JohnHopkinsEpigenetics.jpg' alt='Center for Epigenetics' /></a>
 </div>
 
@@ -151,4 +154,4 @@ Your organization can also be an exhibitor at [GCC2014](/Events/GCC2014).  Exhib
 </div>
 <br /><br />
 
-INCLUDE(/Events/GCC2013/Footer)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Footer)

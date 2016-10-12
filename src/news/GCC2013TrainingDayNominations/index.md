@@ -1,7 +1,7 @@
 <div class='newsItemHeader'>[Nominate GCC2013 Training Topics](/News/GCC2013TrainingDayNominations)</div>
 
-<div class='right'><a href='/Events/GCC2013/TrainingDay/'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' /></a><br />
-<a href='/Events/GCC2013/'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' /></a> </div>
+<div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' /></a><br />
+<a href='/Events/GCC2013'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' /></a> </div>
 
 [Nominations are now open](http://bit.ly/gcc2013nom) for [Training Day topics](/Events/GCC2013/TrainingDay) for the [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013). 
 
@@ -11,8 +11,8 @@ Any topic of interest to the Galaxy Community can be [nominated](http://bit.ly/g
 
 Topic nomination closes 11 January.
 
-[GCC2013 Organizing Committee](/Events/GCC2013/Organizers/#organizing-committee)
+[GCC2013 Organizing Committee](/Events/GCC2013/Organizers#organizing-committee)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2012-12-03T20:33:44Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-12-03T20:33:44Z)</div>
 
 CategoryNews

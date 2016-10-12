@@ -1,14 +1,17 @@
+---
+pagetitle: [UC Davis Bioinformatics Core Training Galaxy](/Teach/Resource/UCDavisCoreAMI)
+---
 <div class='center'>
-<a href='/Teach/Resource/UCDavisCoreAMI/'><img src='/Images/Logos/UCDavisGenomeCenter.png' alt='UC Davis Bioinformatics Core Training Galaxy' width="350" /></a>
+<a href='/Teach/Resource/UCDavisCoreAMI'><img src='/Images/Logos/UCDavisGenomeCenter.png' alt='UC Davis Bioinformatics Core Training Galaxy' width="350" /></a>
 </div>
 
-<div class="title">[UC Davis Bioinformatics Core Training Galaxy](/Teach/Resource/UCDavisCoreAMI)</div>
+
 
 
 
 <div class='dictbox'>
  Appliance:: **[UC Davis Bioinformatics Core Training Galaxy](/VA/UCDavisTraining)**
- Technology:: **[AMI](/VirtualAppliances/#cloud-images)**
+ Technology:: **[AMI](/VirtualAppliances#cloud-images)**
  Domains:: **Training** 
  Description:: Includes all needed tools and datasets for a weeklong workshop.
  Owners:: [UC Davis Bioinformatics Core](http://bioinformatics.ucdavis.edu/)

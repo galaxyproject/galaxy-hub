@@ -1,4 +1,7 @@
-<div class="title">May 2015 Tool Shed Contributions</div>
+---
+pagetitle: May 2015 Tool Shed Contributions
+---
+
 
 Tools contributed to the Galaxy Project Tool Shed in May 2015.
 
@@ -72,7 +75,7 @@ fasta and fastq output
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [package_bowtie_2_2_5](https://toolshed.g2.bx.psu.edu/view/iuc/package_bowtie_2_2_5):  Contains a tool dependency definition that downloads and compiles version 2.2.5 of the Bowtie package Contains a tool dependency definition that downloads and compiles version 2.2.5 of the Bowtie package
   * [package_tophat_2_0_14](https://toolshed.g2.bx.psu.edu/view/iuc/package_tophat_2_0_14):  Contains a tool dependency definition that downloads and compiles version 2.0.14 of TopHat2. TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.
-  * [package_augustus_3_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_augustus_3_1):  Contains a tool dependency definition that downloads and compiles version 3.1 of Augustus AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and Oliver Keller.  It can be used as an ab initio program, which means it bases its prediction purely on the sequence. AUGUSTUS may also incorporate hints on the gene structure coming from extrinsic sources such as EST, MS/MS, protein alignments and synthenic genomic alignments.<<BR><br />http://bioinf.uni-greifswald.de/augustus/
+  * [package_augustus_3_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_augustus_3_1):  Contains a tool dependency definition that downloads and compiles version 3.1 of Augustus AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and Oliver Keller.  It can be used as an ab initio program, which means it bases its prediction purely on the sequence. AUGUSTUS may also incorporate hints on the gene structure coming from extrinsic sources such as EST, MS/MS, protein alignments and synthenic genomic alignments.<br /><br />http://bioinf.uni-greifswald.de/augustus/
 
 
 * *From [geert-vandeweyer](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer):*

@@ -1,12 +1,14 @@
 ---
 autotoc: true
+pagetitle: Public Galaxy Main Instance , (, [usegalaxy.org](https://usegalaxy.org), )
 ---
 <div class='center'>
 <a href='http://usegalaxy.org'><img src='/Images/Logos/UseGalaxy.orgLogo600.png' alt='usegalaxy.org (Main)' width="400" /></a>
  
-<div class="title">Public Galaxy Main Instance ([usegalaxy.org](https://usegalaxy.org))</div>
+
 </div>
 
+<div class='right'></div> <div class='left'><a href='https://usegalaxy.org/'><img src='/Images/Screenshots/GalaxyMainHome.png' alt='Galaxy Main Server' width="200" /></a></div>
 
 The Galaxy **Main** instance is available as a free public service at [UseGalaxy.org](https://usegalaxy.org/). This is the Galaxy Project's production [Galaxy instance](http://usegalaxy.org/). Main is where Galaxy's data and tools are functionality integrated and ready to use. Main is useful for sharing/publishing data and methods with colleagues for routine analysis or with the larger scientific community for publications and supplemental material. **[/Test](/Test)** is also free and public, but is considered a beta site.
 
@@ -97,7 +99,7 @@ Our goal with the Stampede resubmission system is to provide a balance to Galaxy
 
 If you know (due to previous runs of the tool using similar inputs and parameters) that your job will reach the walltime on the local cluster, you should directly submit it to Stampede to avoid the time wasted running to walltime on the Galaxy cluster.
 
-<<Anchor(Stampede)>>
+PLACEHOLDER_ANCHOR(Stampede)
 ## Direct job execution on Stampede
 
 Tools in the previous section can also be manually submitted directly to Stampede. This is a good idea if you know (or strongly suspect) that a tool will exceed the walltime on the local cluster. On the form for these tools, a **Job Resource Parameters** parameter is available that, if selected, will display a **Compute Resources** selection parameter. The options for this parameter are:
@@ -126,7 +128,7 @@ Tools in the previous section can also be manually submitted directly to Stamped
 </table>
 
 
-<<Anchor(Quotas)>>
+PLACEHOLDER_ANCHOR(Quotas)
 ## User data and job quotas
 [Main Quota Announcement](/News/Galaxy Main public instance: data and job quotas)
 <table>
@@ -178,10 +180,10 @@ Some tools or job destinations have stricter job concurrency limits than the ove
 "Increased memory tools" refers to a set of tools that are granted additional memory over the 8 GB default.
 
 <br /><br />
-If you job that failed for any reason, or a reason due to resources was given (job exceeded memory or run-time quotas), see this wiki and related sections for help: [/Support/#error_from_tools](/Support/#error_from_tools)
+If you job that failed for any reason, or a reason due to resources was given (job exceeded memory or run-time quotas), see this wiki and related sections for help: [/Support#error_from_tools](/Support#error_from_tools)
 
 ## More about job execution
-Your actual number of concurrent jobs may be less at any particular time, or certain job types may run quicker than others, as the different job queues are shared among all users, some job types run on busies queues, and resources are distributed evenly. Unsure about job status? [Read more here...](/Support/#dataset_status_and_how_jobs_execute)
+Your actual number of concurrent jobs may be less at any particular time, or certain job types may run quicker than others, as the different job queues are shared among all users, some job types run on busies queues, and resources are distributed evenly. Unsure about job status? [Read more here...](/Support#dataset_status_and_how_jobs_execute)
 
 <br /> **[Terms and Conditions](https://usegalaxy.org/static/terms.html)**: *Attempts to subvert these limits by creating multiple accounts or through any other method may result in termination of all associated accounts.*
 
@@ -196,7 +198,7 @@ Exceeding quotas will prevent new jobs from running, but Galaxy users can monito
 ## User Account Quotas
 ### How will I know if my quota has been exceeded?
 #### Data
-A <<span(red)>>red message<<span>> indicating that the user data quota has been exceeded will be displayed at the top of the left history pane. Any new jobs queued will remain in the status "paused" (colored light blue) until the data size is within the quota limits.
+A <div class='red'>red message</span> indicating that the user data quota has been exceeded will be displayed at the top of the left history pane. Any new jobs queued will remain in the status "paused" (colored light blue) until the data size is within the quota limits.
 
 #### Jobs
 Any jobs queued after the limit of 8 has been met will remain in the status "paused" (colored light blue) until job quota is met.
@@ -210,13 +212,13 @@ To gain access to the server again, no user action is needed. When your existing
 
 ### My job ended with a failure due to memory or execution time
 #### Description and Solutions
-Please see the [Support](/Support/#error_from_tools) wiki for help in determining if this is the case and possible solutions.
+Please see the [Support](/Support#error_from_tools) wiki for help in determining if this is the case and possible solutions.
 
 ## Developers and Administrators
 New Admin features have been added and more are planned for in the near term. Details explained in: [Disk Quotas](/Admin/Disk Quotas). Feedback about the implementation of quota management is welcomed at the [mailing list](/MailingLists) galaxy-dev@bx.psu.edu .
 
 ## Quotas at the Galaxy Test public instance
-See [Test](/Test/#quotas).
+See [Test](/Test#quotas).
 
 ## Quota Implementation
 Data quotas were implemented on the Main instance in mid-October 2011.

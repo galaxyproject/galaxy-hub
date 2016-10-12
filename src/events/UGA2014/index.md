@@ -1,12 +1,12 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle"> <a href='http://www.uga.edu/'><img src='/Images/Logos/UGALogoBig.gif/' alt='University of Georgia' width="500" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.uga.edu/'><img src='/Images/Logos/UGALogoBig.gif' alt='University of Georgia' width="500" /></a> </td>
   </tr>
 </table>
 
 
-<div class="title">Introduction to Galaxy<br />March 7, 2014</div>
+<div class='title'>Introduction to Galaxy<br />March 7, 2014</div>
 
 **Instructors<br />[Carl Eberhard](/CarlEberhard), [Dave Clements](/DaveClements), [Dannon Baker](/DannonBaker), and [Raj Ayyampalayam](http://plantbio.uga.edu/directory/raj-ayyampalayam)<br />[Johns Hopkins University](http://www.jhu.edu/) & [University of Georgia](http://www.uga.edu/)
 

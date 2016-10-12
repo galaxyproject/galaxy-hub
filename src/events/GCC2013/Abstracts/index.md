@@ -1,13 +1,15 @@
 ---
 autotoc: true
+pagetitle: Abstracts
 ---
-INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 
 <br /><br />
 
-<div class="title">Abstracts</div>
 
-INCLUDE(/Events/GCC2013/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
+
 
 
 <br /><br />

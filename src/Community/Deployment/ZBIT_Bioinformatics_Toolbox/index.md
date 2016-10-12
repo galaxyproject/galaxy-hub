@@ -1,8 +1,11 @@
+---
+pagetitle: ZBIT Bioinformatics Toolbox
+---
 <div class='center'>
 <a href='http://webservices.cs.uni.tuebingen.de/'><img src='/webservices_logo_compact_border.png' alt='ZBIT Bioinformatics Toolbox' height="100" /></a>
 </div>
 
-<div class="title">ZBIT Bioinformatics Toolbox</div>
+
 
 
 
@@ -60,4 +63,4 @@ Default user management
 
 ## Links
 * [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de)
-* [Server description](/PublicGalaxyServers/#zbit-bioinformatics-toolbox) in the [list of publicly accessible Galaxy servers](/PublicGalaxyServers) 
+* [Server description](/PublicGalaxyServers#zbit-bioinformatics-toolbox) in the [list of publicly accessible Galaxy servers](/PublicGalaxyServers) 

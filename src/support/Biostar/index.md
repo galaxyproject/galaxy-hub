@@ -1,7 +1,10 @@
+---
+pagetitle: Galaxy Biostars
+---
 <div class='center'><a href='https://biostar.usegalaxy.org/'><img src='/Images/Logos/GalaxyBiostar.png' alt='Galaxy Biostar'  /></a></div>
 
 
-<div class="title">Galaxy Biostars</div>
+
 
 As a result of joint efforts of the [Galaxy Team](/GalaxyTeam) and the [Biostars Team](https://github.com/ialbert/biostar-central/graphs/contributors) a new support platform emerged for the Galaxy community to use: 
 

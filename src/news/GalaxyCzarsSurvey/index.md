@@ -15,6 +15,6 @@ The resulting community, now dubbed [GalaxyCzars](/Community/GalaxyCzars), welco
 
 [Dave Clements](/DaveClements) (channeling Ann Black-Ziegelbein)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2012-05-07T20:14:33Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-05-07T20:14:33Z)</div>
 
 CategoryNews

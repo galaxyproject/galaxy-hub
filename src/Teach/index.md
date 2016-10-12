@@ -1,8 +1,11 @@
-INCLUDE(/Teach/Header)
+---
+pagetitle: Galaxy Teaching Hub
+---
+PLACEHOLDER_INCLUDE(/Teach/Header)
 
-<div class="title">Galaxy Teaching Hub</div>
 
-INCLUDE(/Teach/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Teach/LinkBox)
 
 This is the *hub page* for information about how to teach bioinformatics using Galaxy, and Galaxy itself.  If you are interested in Galaxy training there are [resources](/Teach/Resources), [trainers](/Teach/Trainers), [compute platform advice](/Teach/ComputingPlatforms), [best practices](/Teach/BestPractices), and the [Galaxy Training Network](/Teach/GTN) are here to help.
 
@@ -10,7 +13,7 @@ This is the *hub page* for information about how to teach bioinformatics using G
 
 The **[Training Resources Directory](/Teach/Resources)** is a catalog of training resources for Galaxy.  Training resources include tutorials, slides, virtual machines, and entire workshop packages that can be used to teach with Galaxy.
 
-There is also an [easy way to add new resources](/Teach/Resources/#add-a-training-resource) to the directory.
+There is also an [easy way to add new resources](/Teach/Resources#add-a-training-resource) to the directory.
 
 ## Trainer Directory
 

@@ -2,15 +2,17 @@
 autotoc: true
 ---
 
+#language en
 
 # Data Manager JSON Syntax
 
 Data Manager Tools are required to use JSON to communicate the new Tool Data Table values back to the Data Manager. JSON can also optionally be used to provide the input parameter values to the Data Manager Tool, but this is not required.
 
-----
+---
 
 
-----
+
+---
 
 # Returning Values to the Data Manager
 
@@ -105,5 +107,5 @@ To simplify this process, Data Manager Tools will automatically have their param
 
 
 
-----
+---
 [/Admin/Tools/DataManagers](/Admin/Tools/DataManagers)

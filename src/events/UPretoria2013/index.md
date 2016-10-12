@@ -1,12 +1,15 @@
+---
+pagetitle: NGS Data Analysis and Galaxy Workshop
+---
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle"> <a href='http://www.acgt.co.za/'><img src='/Images/Logos/ACGT_UPretoriaWide.png' alt='The African Centre for Gene Technologies at the University of Pretoria' width="500" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.acgt.co.za/'><img src='/Images/Logos/ACGT_UPretoriaWide.png' alt='The African Centre for Gene Technologies at the University of Pretoria' width="500" /></a> </td>
   </tr>
 </table>
 
 
-<div class="title">NGS Data Analysis and Galaxy Workshop</div>
+
 
 **Instructors: [Dave Clements](/DaveClements), [Burger van Jaarsveld](https://www.linkedin.com/pub/burger-van-jaarsveld/4a/561/566), [Fourie Joubert](http://science.up.ac.za/html/fourie_joubert.html)
 

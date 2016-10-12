@@ -1,53 +1,54 @@
-INCLUDE(/Events/GCC2012/PageHeader)
+#acl +VettedEditorGroup:read,write +All:read
+PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 
-INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(../LinkBox)
 There are different registration levels, depending on your career stage and your organization's for-profit status, and how early you register.  Our goal has been to make this an *absurdly affordable* conference for students and postdocs, and *downright affordable* for everyone else. 
 
 <table>
   <tr>
     <td style=" border: none;"> </td>
-    <th style=" width: 35%"> <a href='/Events/GCC2012/Program/'>Conference Only</a> </th>
+    <th style=" width: 35%;"> <a href='/Events/GCC2012/Program'>Conference Only</a> </th>
     <td style=" border: none;"> </td>
-    <th style=" width: 35%"> <a href='/Events/GCC2012/Program/'>Conference</a> + <br /><a href='/Events/GCC2012/Program/'>Training Day</a> </th>
+    <th style=" width: 35%;"> <a href='/Events/GCC2012/Program'>Conference</a> + <br /><a href='/Events/GCC2012/Program'>Training Day</a> </th>
   </tr>
   <tr>
     <td style=" border: none;"> </td>
-    <th style=" color: #ccccff"> Before/on<br />June 11 </th>
-    <th style=" color: #ccccff"> Before/on<br />July 18 </th>
+    <th style=" color: #ccccff;"> Before/on<br />June 11 </th>
+    <th style=" color: #ccccff;"> Before/on<br />July 18 </th>
     <th> After<br />July&nbsp;18 </th>
     <td style=" border: none;"> &nbsp; </td>
-    <th style=" color: #ccccff"> Before/on<br />June 11 </th>
-    <th style=" color: #ccccff"> Before/on<br />July 18 </th>
+    <th style=" color: #ccccff;"> Before/on<br />June 11 </th>
+    <th style=" color: #ccccff;"> Before/on<br />July 18 </th>
     <th> After<br />July&nbsp;18 </th>
   </tr>
   <tr>
     <th> Student/Post-doc </th>
-    <td style=" text-align: right; color: #cccccc"> $95 </td>
-    <td style=" text-align: right; color: #cccccc"> $135 </td>
+    <td style=" text-align: right; color: #cccccc;"> $95 </td>
+    <td style=" text-align: right; color: #cccccc;"> $135 </td>
     <td style=" text-align: right;"> $270 </td>
     <td> </td>
-    <td style=" text-align: right; color: #cccccc"> $130 </td>
-    <td style=" text-align: right; color: #cccccc"> $185 </td>
+    <td style=" text-align: right; color: #cccccc;"> $130 </td>
+    <td style=" text-align: right; color: #cccccc;"> $185 </td>
     <td style=" text-align: right;"> $370 </td>
   </tr>
   <tr>
     <th> Other Non-Profit </th>
-    <td style=" text-align: right; color: #cccccc"> $145 </td>
-    <td style=" text-align: right; color: #cccccc"> $195 </td>
+    <td style=" text-align: right; color: #cccccc;"> $145 </td>
+    <td style=" text-align: right; color: #cccccc;"> $195 </td>
     <td style=" text-align: right;"> $400 </td>
     <td> </td>
-    <td style=" text-align: right; color: #cccccc"> $195 </td>
-    <td style=" text-align: right; color: #cccccc"> $265 </td>
+    <td style=" text-align: right; color: #cccccc;"> $195 </td>
+    <td style=" text-align: right; color: #cccccc;"> $265 </td>
     <td style=" text-align: right;"> $540 </td>
   </tr>
   <tr>
     <th> Industry         </th>
-    <td style=" text-align: right; color: #cccccc"> $195 </td>
-    <td style=" text-align: right; color: #cccccc"> $275 </td>
+    <td style=" text-align: right; color: #cccccc;"> $195 </td>
+    <td style=" text-align: right; color: #cccccc;"> $275 </td>
     <td style=" text-align: right;"> $550 </td>
     <td> </td>
-    <td style=" text-align: right; color: #cccccc"> $270 </td>
-    <td style=" text-align: right; color: #cccccc"> $375 </td>
+    <td style=" text-align: right; color: #cccccc;"> $270 </td>
+    <td style=" text-align: right; color: #cccccc;"> $375 </td>
     <td style=" text-align: right;"> $750 </td>
   </tr>
 </table>
@@ -58,10 +59,10 @@ There are different registration levels, depending on your career stage and your
 
 ### Lodging
 
-You may also arrange your [lodging](/Events/GCC2012/Logistics/#lodging) when registering.  There are two official lodging options:
+You may also arrange your [lodging](/Events/GCC2012/Logistics#lodging) when registering.  There are two official lodging options:
 
-* On the [UIC Campus at James Stuckel Towers](http://www.housing.uic.edu/halls/jst/index.php). This option must be booked at the same time as you register.  <<span(red)>>**The James Stuckel Towers are now sold out.**<<span>>
-* At the [Crowne Plaza Chicago Metro Downtown](/Events/GCC2012/Logistics/#crowne-plaza-chicago-metro-downtown).  This option ends July 23, or when rooms fill up.
+* On the [UIC Campus at James Stuckel Towers](http://www.housing.uic.edu/halls/jst/index.php). This option must be booked at the same time as you register.  <div class='red'>**The James Stuckel Towers are now sold out.**</span>
+* At the [Crowne Plaza Chicago Metro Downtown](/Events/GCC2012/Logistics#crowne-plaza-chicago-metro-downtown).  This option ends July 23, or when rooms fill up.
 
 There are a limited number of rooms in each.  You are encouraged to register/reserve early.
 
@@ -84,4 +85,4 @@ If you need a visa to travel to the United States for the conference, please fol
 
 Please contact [outreach@galaxyproject.org?subject=GCC%202012%20Visa](Galaxy Outreach) if you have any questions or special requests.
 
-INCLUDE(../Ask the Organizers)
+PLACEHOLDER_INCLUDE(../Ask the Organizers)

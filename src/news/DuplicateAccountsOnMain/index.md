@@ -17,6 +17,6 @@ Thanks,
 
 [The Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-05-15T17:07:12Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-05-15T17:07:12Z)</div>
 
 CategoryNews

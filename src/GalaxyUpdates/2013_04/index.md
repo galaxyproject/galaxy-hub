@@ -1,10 +1,12 @@
 ---
 autotoc: true
+pagetitle: April 2013 Galaxy Update
 ---
-<div class="title">April 2013 Galaxy Update</div>
 
 
-<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='right'></div>
+
+<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the April 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -87,24 +89,24 @@ Second several new tags were added, most of them attached to papers with the `me
 
 <table>
   <tr>
-    <td style=" text-align: right; border: none"> <code>usemain</code>: </td>
-    <td style=" text-align: left; border: none"> Analysis run on <a href='/Main/'>/Main/</a> </td>
+    <td style=" text-align: right; border: none;"> <code>usemain</code>: </td>
+    <td style=" text-align: left; border: none;"> Analysis run on <a href='/Main'>/Main</a> </td>
   </tr>
   <tr>
-    <td style=" text-align: right; border: none"> <code>usepublic</code>: </td>
-    <td style=" text-align: left; border: none"> Analysis run on <a href='/PublicGalaxyServers/'>other public Galaxy servers</a> </td>
+    <td style=" text-align: right; border: none;"> <code>usepublic</code>: </td>
+    <td style=" text-align: left; border: none;"> Analysis run on <a href='/PublicGalaxyServers'>other public Galaxy servers</a> </td>
   </tr>
   <tr>
-    <td style=" text-align: right; border: none"> <code>useprivate</code>: </td>
-    <td style=" text-align: left; border: none"> Analysis run on private Galaxy servers </td>
+    <td style=" text-align: right; border: none;"> <code>useprivate</code>: </td>
+    <td style=" text-align: left; border: none;"> Analysis run on private Galaxy servers </td>
   </tr>
   <tr>
-    <td style=" text-align: right; border: none"> <code>usecloud</code>: </td>
-    <td style=" text-align: left; border: none"> Analysis run on cloud based Galaxy servers </td>
+    <td style=" text-align: right; border: none;"> <code>usecloud</code>: </td>
+    <td style=" text-align: left; border: none;"> Analysis run on cloud based Galaxy servers </td>
   </tr>
   <tr>
-    <td style=" text-align: right; border: none"> <code>cloud</code>: </td>
-    <td style=" text-align: left; border: none"> Papers that emphasize or are about cloud deployments </td>
+    <td style=" text-align: right; border: none;"> <code>cloud</code>: </td>
+    <td style=" text-align: left; border: none;"> Papers that emphasize or are about cloud deployments </td>
   </tr>
 </table>
 
@@ -125,7 +127,7 @@ There are now over [900 papers in the Galaxy CiteULike Group](http://www.citeuli
 
 ## Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -140,11 +142,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## GCC2013
 
-<div class='center'><a href='/Events/GCC2013/'><img src='/Images/Logos/GCC2013Logo400.png' alt='2013 Galaxy Community Conference (GCC2013)' width="300" /></a> </div>
+<div class='center'><a href='/Events/GCC2013'><img src='/Images/Logos/GCC2013Logo400.png' alt='2013 Galaxy Community Conference (GCC2013)' width="300" /></a> </div>
 
 <table>
   <tr>
-    <th> &nbsp;&nbsp; </strong>The deadline for <a href='/Events/GCC2013/Abstracts/'>submitting oral presentation abstracts</a> is 12 April.<strong> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; </strong>The deadline for <a href='/Events/GCC2013/Abstracts'>submitting oral presentation abstracts</a> is 12 April.<strong> &nbsp;&nbsp; </th>
   </tr>
 </table>
 
@@ -159,7 +161,7 @@ The [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013) will be held 3
 
 **[Early registration](/Events/GCC2013/Register) and [paper and poster abstract submission](/Events/GCC2013/Abstracts) are open.** 
 
-<div class='right'><a href='/Events/GCC2013/TrainingDay/'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
+<div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
 
 **[Register early](/Events/GCC2013/Register)** and *save up to 75% off regular registration costs.*  Early registration is very affordable, with combined registration ([Training Day](/Events/GCC2013/TrainingDay) + main meeting) starting at ~ €95 for post-docs and students.  Registering early also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Early registration closes 24 May.
 
@@ -173,8 +175,8 @@ There are still several [sponsorships](/Events/GCC2013/Sponsorships) still avail
 ## Galaxy at GMOD 2013, Biocuration 2013 and TGAC
 
 <div class='right'><a href='http://www.ebi.ac.uk/biocuration2013/content/workshop-descriptions'><img src='/Images/Logos/ISBLogoWAcronym223.png' alt='Biocuration 2013' height="60" /></a><br />
-<a href='/Events/TGAC2013/'><img src='/Images/Logos/TGACLogo.png' alt='Introduction to Galaxy Workshop @ TGAC' height="40" /></a></div>
-<div class='right'> <a href='/gmod:April_2013_GMOD_Meeting/'><img src='/Images/Logos/GMOD2013Logo240.png' alt='GMOD 2013' height="80" /></a></div>
+<a href='/Events/TGAC2013'><img src='/Images/Logos/TGACLogo.png' alt='Introduction to Galaxy Workshop @ TGAC' height="40" /></a></div>
+<div class='right'> <a href='/gmod:April_2013_GMOD_Meeting'><img src='/Images/Logos/GMOD2013Logo240.png' alt='GMOD 2013' height="80" /></a></div>
 
 Galaxy will [have a presence](/News/GalaxyGMODBiocuration2013) at both the [GMOD 2013](http://gmod.org/wiki/April 2013 GMOD Meeting) and [Biocuration 2013](http://www.ebi.ac.uk/biocuration2013/home).  Both are being held in Cambridge, UK in early April.  If you are interested in either community, then it would be great to see you there.
 
@@ -185,7 +187,7 @@ There is also a [Galaxy Workshop](/Events/TGAC2013) at [The Genome Analysis Cent
 <div class='center'>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 ### Events
@@ -199,9 +201,9 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> April 5-6 </th>
-    <td> </em><a href='http://gmod.org/wiki/April 2013 GMOD Meeting'>2013 GMOD Meeting</a><em> </td>
+    <td> <em><a href='http://gmod.org/wiki/April 2013 GMOD Meeting'>2013 GMOD Meeting</a></em> </td>
     <td> Cambridge, United Kingdom, immediately prior to <a href='http://www.ebi.ac.uk/biocuration2013/'>Biocuration 2013</a> </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> April 7-8 </th>
@@ -211,97 +213,97 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> April 7-10 </th>
-    <td> </em><a href='http://www.ebi.ac.uk/biocuration2013/content/workshop-descriptions'>GO Galaxy Workshop</a><em> </td>
+    <td> <em><a href='http://www.ebi.ac.uk/biocuration2013/content/workshop-descriptions'>GO Galaxy Workshop</a></em> </td>
     <td> <a href='http://www.ebi.ac.uk/biocuration2013/home'>Biocuration 2013</a>, Cambridge, United Kingdom </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a>, <a href='http://www.berkeleybop.org/person/suzanna-lewis'>Suzanna Lewis</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a>, <a href='http://www.berkeleybop.org/person/suzanna-lewis'>Suzanna Lewis</a> </td>
   </tr>
   <tr>
     <th rowspan=2> April 9-11 </th>
-    <td> Workshop: </em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=110781'>Integrated Research Data Management for Next Gen Sequencing Analysis Using Galaxy and Globus Online Software-as-a-Service</a><em> </td>
+    <td> Workshop: <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=110781'>Integrated Research Data Management for Next Gen Sequencing Analysis Using Galaxy and Globus Online Software-as-a-Service</a></em> </td>
     <td rowspan=2> <a href='http://www.bio-itworldexpo.com'>BioIT World</a>, Boston, Massachusetts, United States </td>
     <td> <a href='http://www.mcs.anl.gov/about/people_detail.php?id=347'>Ravi K. Madduri</a>, Alex R. Paciorkowski, Vas Vasiliadis </td>
   </tr>
   <tr>
-    <td> Talk: </em><a href='http://www.bio-itworldexpo.com/Cloud-Computing-Boston/'>Integrated Research Data management and Analysis in NGS using Globus Online, Galaxy and Amazon Web Services</a><em> </td>
+    <td> Talk: <em><a href='http://www.bio-itworldexpo.com/Cloud-Computing-Boston/'>Integrated Research Data management and Analysis in NGS using Globus Online, Galaxy and Amazon Web Services</a></em> </td>
     <td> <a href='http://www.mcs.anl.gov/about/people_detail.php?id=347'>Ravi K. Madduri</a> </td>
   </tr>
   <tr>
     <th> April 10 </th>
-    <td> </em><a href='http://bit.ly/13EwL9j'>Introduction to Galaxy Boot Camp</a><em> </td>
+    <td> <em><a href='http://bit.ly/13EwL9j'>Introduction to Galaxy Boot Camp</a></em> </td>
     <td rowspan=2> <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a> Davis, California, United States </td>
     <td> <a href="mailto:najoshi AT ucdavis DOT edu">Nikhil Joshi</a> </td>
   </tr>
   <tr>
     <th> April 11 </th>
-    <td> </em><a href='http://bit.ly/WIu9QH'>Introduction to RNASeq Boot Camp</a><em>  </td>
+    <td> <em><a href='http://bit.ly/WIu9QH'>Introduction to RNASeq Boot Camp</a></em>  </td>
     <td> <a href="mailto:najoshi AT ucdavis DOT edu">Nikhil Joshi</a> </td>
   </tr>
   <tr>
     <th> April 11 </th>
-    <td> <a href='/Events/TGAC2013/'>Introduction to Galaxy Workshop</a> </td>
+    <td> <a href='/Events/TGAC2013'>Introduction to Galaxy Workshop</a> </td>
     <td> <a href='http://www.tgac.ac.uk/galaxy-workshop/'>The Genome Analysis Centre</a>, Norwich, United Kingdom </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 14-16 </th>
-    <td> Tutorial: </em>Exploring and Enabling Biomedical Data Analysis with Galaxy<em> </td>
+    <td> Tutorial: <em>Exploring and Enabling Biomedical Data Analysis with Galaxy</em> </td>
     <td> <a href='http://www.iscb.org/glbio2013'>Great Lakes Bioinformatics Conference (GLBIO) 2013</a>, Pittsburgh, Pennsylvania, United States </td>
-    <td> <a href='/anton/'>Anton Nekrutenko</a> </td>
+    <td> <a href='/anton'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> May 16-17 </th>
-    <td> </em>Galaxy Workflows for Bioinformatics Analysis,<em> and <br /></em>Workshop 1A – Galaxy Workflows for Bioinformatics Analysis<em> </td>
+    <td> <em>Galaxy Workflows for Bioinformatics Analysis,</em> and <br /><em>Workshop 1A – Galaxy Workflows for Bioinformatics Analysis</em> </td>
     <td> <a href='http://bit.ly/WiNGS2013'>Workshop in Next-Generation Sequence Analysis and Metabolomics (WiNGS)</a>, UNC-Charlotte, North Carolina, United States </td>
-    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor'>James Taylor</a> </td>
   </tr>
   <tr>
     <th rowspan=3> May 28-31 </th>
-    <td> </em><a href='http://www.bio-itworldasia.com/cla/'>A Genomics Virtual Lab for Cancer Research</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldasia.com/cla/'>A Genomics Virtual Lab for Cancer Research</a></em> </td>
     <td rowspan=3> <a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a>, Singapore </td>
     <td> Dominique Gorse </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldasia.com/Bio-It_Asia_Content.aspx?id=123563'>Next-Gen Sequencing Analysis Using GigaGalaxy</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldasia.com/Bio-It_Asia_Content.aspx?id=123563'>Next-Gen Sequencing Analysis Using GigaGalaxy</a></em> </td>
     <td> Tin-Lap Lee </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldasia.com/Bio-It_Asia_Content.aspx?id=123563'>Open Source and Web-Based Analysis of NGS Data Using Galaxy at the Center for Research Informatics University of Chicago</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldasia.com/Bio-It_Asia_Content.aspx?id=123563'>Open Source and Web-Based Analysis of NGS Data Using Galaxy at the Center for Research Informatics University of Chicago</a></em> </td>
     <td> Jorge Andrade </td>
   </tr>
   <tr>
     <th> June 6-7 </th>
-    <td> </em><a href='http://bit.ly/VyBEcS'>Informatics on High Throughput Sequencing Data Workshop</a><em> </td>
+    <td> <em><a href='http://bit.ly/VyBEcS'>Informatics on High Throughput Sequencing Data Workshop</a></em> </td>
     <td> Toronto, Ontario, Cananda </td>
     <td> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette </a> </td>
   </tr>
   <tr>
     <th> June 8-11 </th>
-    <td> </em><a href='https://www.eshg.org/sunday2013.0.html#W1'>WS08: Biomedical Data Analysis with Galaxy</a><em> </td>
+    <td> <em><a href='https://www.eshg.org/sunday2013.0.html#W1'>WS08: Biomedical Data Analysis with Galaxy</a></em> </td>
     <td> Workshop at <a href='https://www.eshg.org/eshg2013.0.html'>European Human Genetics Conference (ESHG2013)</a>, Paris, France </td>
-    <td> <a href='/anton/'>Anton Nekrutenko</a>, <a href='/EnisAfgan/'>Enis Afgan</a> </td>
+    <td> <a href='/anton'>Anton Nekrutenko</a>, <a href='/EnisAfgan'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 13-14 </th>
     <td> <a href='http://www.cdb.riken.jp/deepseq2013/index.html'>Genomics and Epigenomics with Deep Sequencing, the 24th CDB Meeting</a> </td>
     <td> RIKEN, CDB, Kobe, Japan </td>
-    <td> <a href='/anton/'>Anton Nekrutenko</a> </td>
+    <td> <a href='/anton'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> </strong></em><a href='/Events/GCC2013/'>2013 Galaxy Community Conference (GCC2013)</a><strong><em> </td>
+    <td> </strong><em><a href='/Events/GCC2013'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
-    <td> <a href='/Events/GCC2013/Organizers/'>Organizers</a> </td>
+    <td> <a href='/Events/GCC2013/Organizers'>Organizers</a> </td>
   </tr>
 </table>
 
 
 ## GalaxyAdmins
 
-<div class='right'><a href='/Community/GalaxyAdmins//'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' height="50" /></a></div>
+<div class='right'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' height="50" /></a></div>
 
 ### March 2013 Meetup
 
-Slides and the screencast from the [March GalaxyAdmins Meetup](/Community/GalaxyAdmins/Meetups/2013_03_20) are [now available](/Community/GalaxyAdmins/Meetups/2013_03_20)  <<MailTo(hailiang DOT mei AT nbic DOT nl, Hailiang (Leon) Mei)>> spoke on *[NBIC Galaxy deployment](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).*  [NBIC Galaxy (Andromeda)](http://galaxy.nbic.nl/) was migrated to a HPC cloud hosted by Surfsara in September 2012. Leon discussed the setup of this HPC cloud and the architecture of NBIC Galaxy and shared their experiences installing the NBIC Galaxy using the Cloudman scripts. The presentation finished with a list of issues and our possible future plans. [Dan Blankenberg](/Dan) also discussed the new Galaxy release process, and the upcoming Data Manager enhancements.
+Slides and the screencast from the [March GalaxyAdmins Meetup](/Community/GalaxyAdmins/Meetups/2013_03_20) are [now available](/Community/GalaxyAdmins/Meetups/2013_03_20)  [hailiang DOT mei AT nbic DOT nl](Hailiang "Leon" Mei) spoke on *[NBIC Galaxy deployment](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).*  [NBIC Galaxy (Andromeda)](http://galaxy.nbic.nl/) was migrated to a HPC cloud hosted by Surfsara in September 2012. Leon discussed the setup of this HPC cloud and the architecture of NBIC Galaxy and shared their experiences installing the NBIC Galaxy using the Cloudman scripts. The presentation finished with a list of issues and our possible future plans. [Dan Blankenberg](/Dan) also discussed the new Galaxy release process, and the upcoming Data Manager enhancements.
 
 
 ### GalaxyAdmins Future Directions
@@ -323,11 +325,11 @@ Once the discussion settles, we will [summarize the discussion](http://bit.ly/11
 
 **[April 1, 2013 Distribution](/DevNewsBriefs/2013_04_01)**
 
-* [Job running configuration changes and refactoring of job runner plugins](/DevNewsBriefs/2013_04_01/#job_running_configuration_changes)
-* [Required reset of the metadata on your installed tool shed repositories](/DevNewsBriefs/2013_04_01/#required_metadata_reset) plus [Changes required to your environment if you are hosting a local Tool Shed](/DevNewsBriefs/2013_04_01/#local_tool_shed_file_changes)
-* [Basic Data Manager Functionality now present](/DevNewsBriefs/2013_04_01/#data)
-* [Tool Shed](/DevNewsBriefs/2013_04_01/#tool_shed), [Trackster](/DevNewsBriefs/2013_04_01/#trackster), [Cloudman](/DevNewsBriefs/2013_04_01/#cloudman), [Workflows](/DevNewsBriefs/2013_04_01/#workflows), [UI](/DevNewsBriefs/2013_04_01/#ui), [Admin](/DevNewsBriefs/2013_04_01/#admin), and [ new Pull Request](/DevNewsBriefs/2013_04_01/#source) updates.
-* New [bug fixes and improvements](/DevNewsBriefs/2013_04_01/#bug_fixes_and_related_enhancements).
+* [Job running configuration changes and refactoring of job runner plugins](/DevNewsBriefs/2013_04_01#job_running_configuration_changes)
+* [Required reset of the metadata on your installed tool shed repositories](/DevNewsBriefs/2013_04_01#required_metadata_reset) plus [Changes required to your environment if you are hosting a local Tool Shed](/DevNewsBriefs/2013_04_01#local_tool_shed_file_changes)
+* [Basic Data Manager Functionality now present](/DevNewsBriefs/2013_04_01#data)
+* [Tool Shed](/DevNewsBriefs/2013_04_01#tool_shed), [Trackster](/DevNewsBriefs/2013_04_01#trackster), [Cloudman](/DevNewsBriefs/2013_04_01#cloudman), [Workflows](/DevNewsBriefs/2013_04_01#workflows), [UI](/DevNewsBriefs/2013_04_01#ui), [Admin](/DevNewsBriefs/2013_04_01#admin), and [ new Pull Request](/DevNewsBriefs/2013_04_01#source) updates.
+* New [bug fixes and improvements](/DevNewsBriefs/2013_04_01#bug_fixes_and_related_enhancements).
 
 ## Tool Shed Contributions
 

@@ -2,6 +2,6 @@
 
 ## Presentations
 
-<<Action(AttachFile, Attach a new file.)>>
+PLACEHOLDER_ACTION(AttachFile,Attach a new file.)
 
-<<AttachList>>
+PLACEHOLDER_ATTACH_LIST

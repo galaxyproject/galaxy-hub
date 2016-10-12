@@ -6,6 +6,6 @@
 
 *This outage will only affect the Galaxy Project public servers.  [Public Galaxy servers](/PublicGalaxyServers) run by other groups will be unaffected by this outage.*
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2014-09-13T01:29:18Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-09-13T01:29:18Z)</div>
 
 CategoryNews

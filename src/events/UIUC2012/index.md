@@ -5,7 +5,7 @@
 
 <a href='http://hpcbio.illinois.edu/'><img src='/Images/Logos/UIUC_HPCBio.png' alt='High-Performance Biological Computing' /></a> &nbsp;&nbsp; <a href='http://www.ncsa.illinois.edu/'><img src='/Images/Logos/NCSALogo220.png' alt='NCSA' width="200px" /></a>
 
-<div class="title">Introduction to Galaxy<br />October 16-17, 2012</div>
+<div class='title'>Introduction to Galaxy<br />October 16-17, 2012</div>
 
 **Instructors: [Dave Clements](/DaveClements)** with **Christopher Fields**
 

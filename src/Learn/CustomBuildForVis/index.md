@@ -1,3 +1,6 @@
-<div class="title">Custom Build for Visualization</div>
+---
+pagetitle: Custom Build for Visualization
+---
 
-INCLUDE(/Under Construction)
+
+PLACEHOLDER_INCLUDE(/Under Construction)

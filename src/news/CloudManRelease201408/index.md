@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[August 2014 CloudMan Release](/News/CloudManRelease201408)</div>
 
-<div class='right'><a href='/CloudMan/'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
+<div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
 
 **We just released an update to Galaxy CloudMan**. CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
@@ -26,6 +26,6 @@ Enjoy and please let us know what you think,
 
 [Enis](/EnisAfgan) & [Dannon](/DannonBaker) & [The Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2014-08-08T11:18:24Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-08-08T11:18:24Z)</div>
 
 CategoryNews

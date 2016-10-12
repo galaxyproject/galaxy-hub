@@ -1,8 +1,9 @@
 ---
 autotoc: true
 ---
-INCLUDE(/Learn/LinkBox)
+PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 # Creating Workflows and Advanced Workflow Options
+<div class='right'></div>
 ## A workflow is ..
 * ** .. a series of tools and dataset actions that run in sequence as a batch operation.**
 * Workflows can be generated quickly from the analysis already completed in a history.

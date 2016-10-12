@@ -12,8 +12,6 @@ For the content contained in the div you can:
 ```
 Supported:
     <div class='red'>some text contained in a span with css class red</div>
-    <<div(css_class=red)>>same as above</div>
-    <<div(id=foobar)>>some text in a span with id foobar</div>
 ```
 
 
@@ -65,4 +63,4 @@ See docstring.
 # Bugs
 Unknown. :)
 
--- [http://moinmo.in/JimWight](http://moinmo.in/JimWight) <<Date(2011-04-19T16:38:10+0100)>>
+-- [http://moinmo.in/JimWight](http://moinmo.in/JimWight) PLACEHOLDER_DATE(2011-04-19T16:38:10+0100)

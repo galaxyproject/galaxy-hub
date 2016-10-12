@@ -1,4 +1,4 @@
-INCLUDE(/Learn/LinkBox)
+PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 ## What are Galaxy Pages?
 
 Galaxy Pages are the main way for communicating your Galaxy analyses so that other people can easily view, reproduce, or extend your analyses. Pages represent a step towards the next generation of online publication or publication supplement.  [Here is an example Page for a published NGS metagenomics analysis](http://main.g2.bx.psu.edu/u/aun1/p/windshield-splatter).

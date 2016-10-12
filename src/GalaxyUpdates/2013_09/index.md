@@ -1,10 +1,12 @@
 ---
 autotoc: true
+pagetitle: September 2013 Galaxy Update
 ---
-<div class="title">September 2013 Galaxy Update</div>
 
 
-<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='right'></div>
+
+<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the September 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -17,7 +19,7 @@ A record *five new servers* joined [the list of over 40 publicly accessible Gala
 
 ## Galaxy-P
 
-<div class='left'><div class='solid'><a href='https://usegalaxyp.org/'><img src='/PublicGalaxyServers/GetGalaxyPHomePage.png' alt='Galaxy-P' width="200" /></a></div>
+<div class='left solid'><a href='https://usegalaxyp.org/'><img src='/PublicGalaxyServers/GetGalaxyPHomePage.png' alt='Galaxy-P' width="200" /></a></div>
 
 [Galaxy-P](https://usegalaxyp.org/) is a multiple 'omics' data analysis platform with particular emphasis on mass spectrometry based proteomics. Galaxy-P is developed at the [University of Minnesota](http://umn.edu/), deployed at the [Minnesota Supercomputing Institute](http://msi.umn.edu/).  Pending imminent hardware upgrades, usegalaxyp.org is running with fairly limited computational resources and on disk that is not backed up. Galaxy-P is under active development - things will break and things will change, so your patience is requested.
 
@@ -25,7 +27,7 @@ You can also [install your own copy of Galaxy-P](http://getgalaxyp.org/), either
 
 ## GWIS
 
-<div class='right'><div class='solid'><a href='http://bioinformatics.research.nicta.com.au/software/gwis/'><img src='/PublicGalaxyServers/GWISPosterTop.png' alt='GWIS' width="200" /></a></div>
+<div class='right solid'><a href='http://bioinformatics.research.nicta.com.au/software/gwis/'><img src='/PublicGalaxyServers/GWISPosterTop.png' alt='GWIS' width="200" /></a></div>
 
 [NICTA Bioinformatics](http://bioinformatics.research.nicta.com.au/)' [Genome-wide Interaction Search (GWIS)](http://bioinformatics.research.nicta.com.au/software/gwis/) for multivariate GWAS analysis cuts the computational time for analyzing all pairs of SNP interactions in genome-wide association studies (GWAS) from months to minutes on commodity computers.  Any non-commercial user can request an account [gwis AT nicta DOT com DOT au](via email).
 
@@ -35,7 +37,7 @@ See
 
 ## Martin Luther University Halle-Wittenberg
 
-<div class='right'><div class='solid'><a href='http://galaxy.informatik.uni-halle.de'><img src='/Images/Logos/MartinLutherU.png' alt='Martin Luther University Halle-Wittenberg' width="200px" /></a></div>
+<div class='right solid'><a href='http://galaxy.informatik.uni-halle.de'><img src='/Images/Logos/MartinLutherU.png' alt='Martin Luther University Halle-Wittenberg' width="200px" /></a></div>
 
 [Martin Luther University Halle-Wittenberg](http://galaxy.informatik.uni-halle.de)'s Galaxy server provides implementations of tools developed by the groups of [Bioinformatics and Pattern Recognition](http://informatik.uni-halle.de/arbeitsgruppen/mustererkennung/?lang=en) and/or [Bioinformatics](http://informatik.uni-halle.de/arbeitsgruppen/bioinformatik/?lang=en) in collaboration with internal and external partners. 
 * CRISPRer is a tool for genome-wide selection and assessment of CRISPR/Cas protospacers.
@@ -46,7 +48,7 @@ See
 
 ## MBAC Metabiome Portal
 
-<div class='left'><div class='solid'><a href='http://mbac.gmu.edu:8080/'><img src='/PublicGalaxyServers/MBACPortalLandingPage.png' alt='MBAC Metabiome Portal' width="200px" /></a></div>
+<div class='left solid'><a href='http://mbac.gmu.edu:8080/'><img src='/PublicGalaxyServers/MBACPortalLandingPage.png' alt='MBAC Metabiome Portal' width="200px" /></a></div>
 
 The [MBAC Metabiome Portal](http://mbac.gmu.edu/mbac/display_detail.php?tb=research&id=11) is a flexible and customizable webserver that simplifies control, usage, access, and analysis of microbiome, metabolome, and immunome data (the Metabiome).  The Portal uses a relational database management system and distributed analytical resources and includes several tools such as sequence clustering, filtering sequencing artifacts, taxonomic analysis, and functional annotation. 
 
@@ -54,7 +56,7 @@ Users access the MBAC Metabiome Portal through a Galaxy based web browser to per
 
 ## ZBIT Bioinformatics Toolbox
 
-<div class='right'><div class='solid'><a href='http://webservices.cs.uni-tuebingen.de/'><img src='/PublicGalaxyServers/ZBITHomePage.png' alt='ZBIT Bioinformatics Toolbox' width="200" /></a></div>
+<div class='right solid'><a href='http://webservices.cs.uni-tuebingen.de/'><img src='/PublicGalaxyServers/ZBITHomePage.png' alt='ZBIT Bioinformatics Toolbox' width="200" /></a></div>
 
 The [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de/) enables public access to these bioinformatics tools developed at [Department of Cognitive Systems](http://www.cogsys.cs.uni-tuebingen.de/) at the [University of Tübingen](http://www.uni-tuebingen.de/) of our bioinformatics tools.
 * [TFpredict](http://www.cogsys.cs.uni-tuebingen.de/software/TFpredict/welcome_e.html): Identification and structural characterization of transcription factors
@@ -71,10 +73,10 @@ The [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de/) enabl
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=6 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=6 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=6 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=6 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -138,7 +140,7 @@ Help guide Galaxy's 2014 training efforts by taking the [Galaxy Training Survey]
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 * [Bioinformatics post available at University of Exeter](http://bit.ly/1cuX9b9) 
@@ -162,7 +164,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src='/Images/Logos/GennoToulLogo.png' alt='Galaxy Training Days' height="60" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 <br />
 
@@ -175,71 +177,71 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
   </tr>
   <tr>
     <th> September 9-11 </th>
-    <td> </em><a href='https://training.bioinformatics.ucdavis.edu/2013/07/02/the-2013-rna-seq-workshop/'>RNA-Seq Workshop: From Pipette to P-value!</a><em> </td>
+    <td> <em><a href='https://training.bioinformatics.ucdavis.edu/2013/07/02/the-2013-rna-seq-workshop/'>RNA-Seq Workshop: From Pipette to P-value!</a></em> </td>
     <td> <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a> Davis, California, United States </td>
     <td> <a href="mailto:ucdbio AT gmail DOT com">Email</a> </td>
   </tr>
   <tr>
     <th> September&nbsp;28 - October&nbsp;1 </th>
-    <td> </em>Galaxy Workshop<em> </td>
+    <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
-    <td> <a href='/RossLazarus/'>Ross Lazarus</a>, <a href='/Dan/'>Dan Blankenberg</a> </td>
+    <td> <a href='/RossLazarus'>Ross Lazarus</a>, <a href='/Dan'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> September 30 - October 2 </th>
-    <td> </em>TBA<em>, part of the </em><a href='http://individualizingmedicineconference.mayo.edu/schedule/'>Cancer Care</a><em> session </td>
+    <td> <em>TBA</em>, part of the <em><a href='http://individualizingmedicineconference.mayo.edu/schedule/'>Cancer Care</a></em> session </td>
     <td> <a href='http://individualizingmedicineconference.mayo.edu/'>Individualizing Medicine Conference</a>, <a href='http://mayo.eduy/'>Mayo Clinic</a>, Rochester, Minnesota, United States </td>
-    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 1-3 </th>
-    <td> </em><a href='http://www.beyond-the-genome.com/program/'>Galaxy</a><em> </td>
+    <td> <em><a href='http://www.beyond-the-genome.com/program/'>Galaxy</a></em> </td>
     <td> </strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a><strong>,San Francisco, California, United States </td>
-    <td> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
+    <td> <a href='/JeremyGoecks'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th rowspan=2> October 7-8 </th>
-    <td> </em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>TBD</a><em></td>
+    <td> <em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>TBD</a></em></td>
     <td rowspan=2> <a href='http://www.gtcbio.com/conference/ngseurope-overview'>NGS & Bioinformatics Summit Europe</a>, Berlin, Germany </td>
-    <td> <a href='/anton/'>Anton Nektutenko</a> </td>
+    <td> <a href='/anton'>Anton Nektutenko</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>Using Galaxy to Provide a NGS Analysis Platform</a> <em> </td>
-    <td> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> </td>
+    <td> <em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>Using Galaxy to Provide a NGS Analysis Platform</a> </em> </td>
+    <td> <a href='/HansrudolfHotz'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> October 8-11 </th>
-    <td> </em><a href='http://bit.ly/153avr8'>Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica</a><em> </td>
+    <td> <em><a href='http://bit.ly/153avr8'>Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica</a></em> </td>
     <td> <a href='http://www.bioinformatica.crs4.it/'>CRS4, Loc. Pixinamanna, Pula CA, Italy</a> </td>
     <td> <a href="mailto:paolo DOT uva AT crs4 DOT it">Paolo Uva</a> </td>
   </tr>
   <tr>
     <th> October 9-11 </th>
-    <td> </em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'>Galaxy Training Days</a><em> </td>
+    <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'>Galaxy Training Days</a></em> </td>
     <td> <a href='http://bioinfo.genotoul.fr/'>GenoToul bioinformatics facility</a>, INRA, Toulouse Auzeville, France </td>
     <td> <a href="mailto:sarah DOT maman AT toulouse AT inra AT fr">Sarah Maman</a> </td>
   </tr>
   <tr>
     <th rowspan=2> October 22-26 </th>
-    <td> </em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#intro'>Introduction to Integrative Analysis with GenomeSpace</a><em> </td>
+    <td> <em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#intro'>Introduction to Integrative Analysis with GenomeSpace</a></em> </td>
     <td rowspan=2> </strong><a href='http://www.ashg.org/2013meeting/'>ASHG 2013</a><strong>, Boston, Massachusetts, United States </td>
     <td> <a href='http://www.broadinstitute.org/science/programs/cancer/icbp/integrated-team-0'>Michael Reich</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#high'>High Throughput Data Analysis and Visualization with Galaxy</a>' </td>
-    <td> <a href='/anton/'>Anton Nekrutenko</a>, <a href='/JenniferJackson/'>Jennifer Jackson</a> </td>
+    <td> <em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#high'>High Throughput Data Analysis and Visualization with Galaxy</a>' </td>
+    <td> <a href='/anton'>Anton Nekrutenko</a>, <a href='/JenniferJackson'>Jennifer Jackson</a> </td>
   </tr>
   <tr>
     <th> January 11-15 </th>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXII (PAG 2014)</a> </td>
     <td> San Diego, California, United States </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 16-17 </th>
     <td> <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'>2014 GMOD Meeting</a> </td>
     <td> San Diego, California, United States </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
 </table>
 
@@ -271,7 +273,7 @@ upgrade: $ hg pull
 ```
 
 
-<div class='right'><a href='/CloudMan/'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
+<div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
 
 ## CloudMan Release
 

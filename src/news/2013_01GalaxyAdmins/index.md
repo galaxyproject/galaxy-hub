@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[January 2013 GalaxyAdmins](/News/2013_01GalaxyAdmins)</div>
 
-<div class='right'><a href='/Community/GalaxyAdmins/Meetups/2013_01_16/'><img src='/Images/Logos/GalaxyAdmins.png' alt='January 2013 GalaxyAdmins Meetup' width="160" /></a> </div>
+<div class='right'><a href='/Community/GalaxyAdmins/Meetups/2013_01_16'><img src='/Images/Logos/GalaxyAdmins.png' alt='January 2013 GalaxyAdmins Meetup' width="160" /></a> </div>
 
 The [next meeting](/Community/GalaxyAdmins/Meetups/2013_01_16) of the [GalaxyAdmins Group](/Community/GalaxyAdmins) will be held on [January 16, 2013, at 10 AM Central US time](/Community/GalaxyAdmins/Meetups/2013_01_16).  
 
@@ -17,7 +17,7 @@ The [next meeting](/Community/GalaxyAdmins/Meetups/2013_01_16) of the [GalaxyAdm
   </tr>
   <tr>
     <th> Presentation </th>
-    <td> <em>Deploying Production Galaxy Environments on <a href='http://www.openstack.org/'>OpenStack</a> with <a href='http://cloudbiolinux.org/'>CloudBioLinux</a> and CloudMan</em> </td>
+    <td> </em>Deploying Production Galaxy Environments on <a href='http://www.openstack.org/'>OpenStack</a> with <a href='http://cloudbiolinux.org/'>CloudBioLinux</a> and CloudMan<em> </td>
   </tr>
   <tr>
     <th> Presenter </th>
@@ -38,6 +38,6 @@ We use the [Blackboard Collaborate Web Conferencing system](/Community/GalaxyAdm
 
 Srinivas Maddhi
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-01-07T20:00:34Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-01-07T20:00:34Z)</div>
 
 CategoryNews

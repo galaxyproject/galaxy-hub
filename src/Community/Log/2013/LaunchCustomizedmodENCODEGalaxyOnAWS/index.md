@@ -1,4 +1,7 @@
-<div class="title">2013/01: Launch a customized modENCODE Galaxy on Amazon Web Services</div>
+---
+pagetitle: 2013, /, 01, :,  Launch a customized modENCODE Galaxy on Amazon Web Services
+---
+
 
 <div class='logbox'>
  Topic:: **[Launch a customized modENCODE Galaxy on Amazon Web Services](/Community/Log/2013/LaunchCustomizedmodENCODEGalaxyOnAWS)**

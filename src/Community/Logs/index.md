@@ -3,6 +3,7 @@ autotoc: true
 ---
 <div class='center'>![Galaxy Community Log Board](/Images/Logos/LogBoardWText200.png)</div>
 
+<div class='right'></div>
 
 The *Galaxy Community Log Board* is a place to share how you addressed a particular task in your Galaxy deployment.  Log entries describe specific solutions to particular tasks, such as the details of what steps were taken to deploy Galaxy on particular platforms, or with particular software. It's an easy way to help others (and learn from others) by sharing what you've already done.
 

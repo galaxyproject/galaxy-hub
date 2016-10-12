@@ -9,6 +9,6 @@ The positions are embedded within the !HyperBrowser environment, which includes 
 
 <div class='center'>![width="200"](/Images/Logos/UiOLogo.png)</div>
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2015-03-30T17:22:48Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-03-30T17:22:48Z)</div>
 
 CategoryNews

@@ -1,4 +1,5 @@
 
+#language en
 # Hans-Rudolf Hotz
 
 [Friedrich Miescher Institute for Biomedical Research](http://www.fmi.ch/) <br />
@@ -10,5 +11,5 @@ Email: [hrh AT SPAMFREE fmi DOT ch](hrh AT SPAMFREE fmi DOT ch)
 
 ...
 
-----
+---
 CategoryHomepage

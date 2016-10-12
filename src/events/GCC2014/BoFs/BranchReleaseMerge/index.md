@@ -1,6 +1,9 @@
-INCLUDE(/Events/GCC2014/Header)
+---
+pagetitle: Doing the Branch, ,,  Release, ,,  and Merge Waltz
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
-<div class="title">Doing the Branch, Release, and Merge Waltz</div>
+
 
 
 <div class='dictbox'>
@@ -12,9 +15,9 @@ INCLUDE(/Events/GCC2014/Header)
  Contact:: [Nikolay Aleksandrov Vazov](http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html)
 </div>
 
-INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
-<div class='left'><a href='/Events/GCC2014/BoFs/'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
+<div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
 
 This page describes the **Doing the Branch, Release, and Merge Waltz** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/Events/GCC2014).
 

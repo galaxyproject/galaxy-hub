@@ -1,8 +1,11 @@
-INCLUDE(/Events/GCC2012/PageHeader)
+---
+pagetitle: [GCC2012](/Events/GCC2012),  Photos
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 
-INCLUDE(LinkBox)
+PLACEHOLDER_INCLUDE(LinkBox)
 
-<div class="title">[GCC2012](/Events/GCC2012) Photos</div>
+
 
 If you have some you would like to have posted here, please send them to outreach@galaxyproject.org.
 

@@ -1,5 +1,5 @@
 # Uploading Files to a Data Library
-----
+---
 
 ### Options for Uploading Files from the Admin Perspective
 

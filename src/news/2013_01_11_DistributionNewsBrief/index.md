@@ -31,6 +31,6 @@ upgrade: $ hg pull -u -r a4113cc1cb5e
 
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-01-11T21:24:44Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-01-11T21:24:44Z)</div>
 
 CategoryNews

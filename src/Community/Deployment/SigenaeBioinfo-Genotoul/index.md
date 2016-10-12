@@ -1,8 +1,11 @@
+---
+pagetitle: Sigenae Bioinfo, -, Genotoul
+---
 <div class='center'>
 <a href='http://bioinfo.genotoul.fr/'><img src='/Images/Logos/GenoToulLogo.png' alt='GenoToul Bioinfo'  /></a>
 </div>
 
-<div class="title">Sigenae Bioinfo-Genotoul</div>
+
 
 
 

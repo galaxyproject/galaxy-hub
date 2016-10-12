@@ -4,6 +4,7 @@ autotoc: true
 <div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Main Tool Shed' height="174" /></a> </div>
 
 
+
 # The Tool Shed API
 
 The RESTful Tool Shed API currently provides the following features.  These API features will be enhanced over time.

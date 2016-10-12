@@ -1,4 +1,7 @@
-<div class="title">2013/12: Tool Integration Short Tutorial</div>
+---
+pagetitle: 2013, /, 12, :,  Tool Integration Short Tutorial
+---
+
 
 
 

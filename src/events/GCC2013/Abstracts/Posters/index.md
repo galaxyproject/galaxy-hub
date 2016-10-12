@@ -1,13 +1,15 @@
 ---
 autotoc: true
+pagetitle: Poster Abstracts
 ---
-INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 
-<div class="title">Poster Abstracts</div>
 
-INCLUDE(/Events/GCC2013/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
 
 ## Abstracts
+
 
 
 **Odd numbered abstracts will be presented on Monday, 1 July from 14:55 to 16:10.
@@ -117,7 +119,7 @@ The emergence of Next generation sequencing (NGS) technology ensued production o
 
 [DOI: 10.6084/m9.figshare.713512](http://dx.doi.org/10.6084/m9.figshare.713512), *[PDF](ATTACHMENT_URLDocuments/Posters/GCC2013/GigaGalaxyEdmunds.pdf), [PPTX](ATTACHMENT_URLDocuments/Posters/GCC2013/GigaGalaxyEdmunds.pptx)*
 
-Today's next generation sequencing (NGS) experiments generate substantially more data and are more broadly applicable to previous high-throughput genomic assays. Despite the plummeting costs of sequencing, downstream data processing and analysis create financial and bioinformatics challenges for many biomedical scientists. It is therefore important to make NGS data interpretation as accessible as data generation. [GigaGalaxy (http://galaxy.cbiit.cuhk.edu.hk)](http://galaxy.cbiit.cuhk.edu.hk) represents a NGS data interpretation solution towards the big sequencing data challenge. We have ported the popular Short Oligonucleotide Analysis Package (http://soap.genomics.org.cn) as well as supporting tools such as Contiguator2 (http://contiguator.sourceforge.net) into the Galaxy framework, to provide seamless NGS mapping, de novo assembly, NGS data format conversion and sequence alignment visualization. Our vision is to create an open publication, review and analysis environment by integrating !GigaGalaxy into the publication platform at !GigaScience and its !GigaDB database that links to more than 17 Tetrabytes of genomic data. We have begun this effort by re-implementing the data procedures described by [Luo et al., (!GigaScience 1: 18, 2012)](http://www.gigasciencejournal.com/content/1/1/18) as Galaxy workflows so that they can be shared in a manner which can be visualized and executed in !GigaGalaxy. We hope to revolutionize the publication model with the aim of executable publications, where data analyses can be reproduced and reused. 
+Today's next generation sequencing (NGS) experiments generate substantially more data and are more broadly applicable to previous high-throughput genomic assays. Despite the plummeting costs of sequencing, downstream data processing and analysis create financial and bioinformatics challenges for many biomedical scientists. It is therefore important to make NGS data interpretation as accessible as data generation. [GigaGalaxy (http://gigagalaxy.net/)](http://gigagalaxy.net/) represents a NGS data interpretation solution towards the big sequencing data challenge. We have ported the popular Short Oligonucleotide Analysis Package (http://soap.genomics.org.cn) as well as supporting tools such as Contiguator2 (http://contiguator.sourceforge.net) into the Galaxy framework, to provide seamless NGS mapping, de novo assembly, NGS data format conversion and sequence alignment visualization. Our vision is to create an open publication, review and analysis environment by integrating !GigaGalaxy into the publication platform at !GigaScience and its !GigaDB database that links to more than 17 Tetrabytes of genomic data. We have begun this effort by re-implementing the data procedures described by [Luo et al., (!GigaScience 1: 18, 2012)](http://www.gigasciencejournal.com/content/1/1/18) as Galaxy workflows so that they can be shared in a manner which can be visualized and executed in !GigaGalaxy. We hope to revolutionize the publication model with the aim of executable publications, where data analyses can be reproduced and reused. 
 
 <br />
 

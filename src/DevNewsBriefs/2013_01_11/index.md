@@ -1,32 +1,34 @@
 ---
 autotoc: true
+pagetitle: January 11, ,,  2013 Galaxy Development News Brief
 ---
+<div class='right'></div>
 
-<div class="title">January 11, 2013 Galaxy Development News Brief</div>
+
 
 <br />
 # Get Galaxy
 
 <table>
   <tr>
-    <td rowspan=3 style=" border: none"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td colspan=2 style=" border: none;"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>new</strong>: </td>
-    <td style=" border: none"> <code>$ hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist </code> </td>
+    <td style=" border: none;"> <strong>new</strong>: </td>
+    <td style=" border: none;"> <code>$ hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist </code> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>upgrade</strong>: </td>
-    <td style=" border: none"> <code>$ hg pull -u -r a4113cc1cb5e </code> </td>
+    <td style=" border: none;"> <strong>upgrade</strong>: </td>
+    <td style=" border: none;"> <code>$ hg pull -u -r a4113cc1cb5e </code> </td>
   </tr>
 </table>
 
@@ -131,7 +133,7 @@ Although there are no specific known security fixes in this distribution, all Ga
   * [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) will cover "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and [CloudMan](http://usegalaxy.org/cloud)"
 
 
-----
+---
 <br />
 # About Galaxy
 **[GalaxyProject.org](http://galaxyproject.org)**

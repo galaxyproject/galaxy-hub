@@ -1,15 +1,16 @@
 ---
 autotoc: true
+pagetitle: Hackathon
 ---
-INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
 <br /><br />
 
 <div class='left'>![GCC2014 Hackathon](/Images/Logos/GCC2014HackLogo200.png)</div>
 
-INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
-<div class="title">Hackathon</div>
+
 
 There will be a Galaxy Hackathon at Johns Hopkins immediately preceding - and in some part overlapping with - GCC2014.  
 
@@ -20,6 +21,7 @@ A hackathon is an intense event at which a group of developers with different ba
 Hackathons are driven by participants.  Participants propose and coalesce around a set of core goals early on the first day, and then spend the rest of their time working towards those goals.  
 
 <br /><br />
+<div class='right'></div>
 
 # Who Should Attend?
 
@@ -150,7 +152,7 @@ is the exclusive Peta level Hackathon sponsor </span>
 </div>
 
 <br /><br />
-There are still several *Giga-level* sponsorships available.  If you are interested in sponsoring this event, please [contact the organizers](/Events/GCC2014/Organizers/#hackathon-committee).
+There are still several *Giga-level* sponsorships available.  If you are interested in sponsoring this event, please [contact the organizers](/Events/GCC2014/Organizers#hackathon-committee).
 
 <br /><br />
 
@@ -160,7 +162,7 @@ Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitt
 
 # Is this part of GCC2014?
 
-Mostly yes, but, there is a separate registration process, and a separate [organizing committee](/Events/GCC2014/Organizers/#hackathon-committee).  
+Mostly yes, but, there is a separate registration process, and a separate [organizing committee](/Events/GCC2014/Organizers#hackathon-committee).  
 
 
-INCLUDE(/Events/GCC2014/Footer)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Footer)

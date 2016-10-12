@@ -16,6 +16,6 @@ Additional details, including workarounds for those who are unable or unwilling 
 
 [The Galaxy Team](/Galaxy Team)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-04-08T16:47:57Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-04-08T16:47:57Z)</div>
 
 CategoryNews

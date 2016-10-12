@@ -24,6 +24,6 @@ We continue to seek other sponsors as well and [offer a wide range of sponsorshi
 
 The [gcc2016-exec@lists.galaxyproject.org](GCC2016 Exec)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2015-12-18T17:25:45Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-12-18T17:25:45Z)</div>
 
 CategoryNews

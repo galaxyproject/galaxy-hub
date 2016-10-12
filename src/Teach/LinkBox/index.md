@@ -1,6 +1,6 @@
 <div class='linkbox'>
 **[/Teach](/Teach)**
-----
+---
 [Resources](/Teach/Resources)<br />
 [Trainers](/Teach/Trainers)<br />
 [Platforms](/Teach/ComputingPlatforms)<br />

@@ -33,6 +33,6 @@
 * [MPI EVA: High-throughput sequencing of ancient and modern DNA samples](ATTACHMENT_URLGDC2010_lightning_MPI_EVA.pdf) - Martin Kircher
 * [Enabling Galaxy to access web services (accessing external resources with point and click)](ATTACHMENT_URLGDC2010_lightning_Enabling_Galaxy_to_Access_Web_Services.pdf) - Jessica Kissinger
 * [Galaxy Internationalization (i18n) and Localization (L10n)](ATTACHMENT_URLGDC2010_lightning_Internationalization_and_Localization.pdf) - Mitsuteru Nakao
-* [Mercurial for Galaxy Admins](ATTACHMENT_URLGDC2010_lightning_Mercurial_for_Galaxy_Admins.pdf) - <<nwwl(Ry4an)>> Brase
+* [Mercurial for Galaxy Admins](ATTACHMENT_URLGDC2010_lightning_Mercurial_for_Galaxy_Admins.pdf) - Ry4an Brase
 * [Composite Datatypes in Galaxy](ATTACHMENT_URLGDC2010_lightning_CompositeDatatypes.pdf) - Ross Lazarus
 * [Useful and Usable](ATTACHMENT_URLGDC2010_lightning_Useful_and_Usable.pdf) - Assaf Gordon

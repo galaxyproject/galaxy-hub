@@ -1,4 +1,4 @@
-INCLUDE(/Documents/LinkBox)
+PLACEHOLDER_INCLUDE(/Documents/LinkBox)
 
 Common page structure for attached documents that are likely to be linked to from more than one page.  See also [/Images](/Images).
 
@@ -9,6 +9,6 @@ Common page structure for attached documents that are likely to be linked to fro
 * [Videos](Videos)
 
 ## Other Documents
-<<Action(AttachFile, Attach a file to this page.)>>
+PLACEHOLDER_ACTION(AttachFile,Attach a file to this page.)
 
-<<AttachList>>
+PLACEHOLDER_ATTACH_LIST

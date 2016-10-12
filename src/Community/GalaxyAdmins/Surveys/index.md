@@ -1,6 +1,6 @@
-<div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
+<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
 
-INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(../LinkBox)
 
 Two surveys of the Galaxy developer/deployer/administrator community have been done:
 

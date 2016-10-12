@@ -9,6 +9,6 @@ Thanks,
 [Dave Clements](/DaveClements)<br />
 Galaxy Training and Outreach
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-08-05T17:26:37Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-08-05T17:26:37Z)</div>
 
 CategoryNews

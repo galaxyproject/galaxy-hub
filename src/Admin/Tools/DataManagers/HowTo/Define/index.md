@@ -2,13 +2,15 @@
 autotoc: true
 ---
 
+#language en
 # Defining Data Managers
 This page describes how to define a Data Manager.
 
-----
+---
 
 
-----
+
+---
 
 # Data Manager Components
 
@@ -24,7 +26,7 @@ A Data Manager Tool is a special class of [Galaxy Tool](/Admin/Tools/Adding Tool
 
 The primary difference between a standard Galaxy Tool and a Data Manager Tool is that the primary output dataset of a Data Manager Tool **must** be a file containing a JSON description of the new entries to add to a Tool Data Table. The on-disk content to be referenced by the Data Manager Tool, if any, is stored within the *extra_files_path* of the output dataset created by the tool.
 
-----
+---
 
 # Data Manager Server Configuration Options
 In your "[galaxy.ini](https://github.com/galaxyproject/galaxy/blob/dev/config/galaxy.ini.sample)" file these settings exist in the `[app:main]` section:
@@ -418,5 +420,5 @@ sacCer2	sacCer2	S. cerevisiae June 2008 (SGD/sacCer2) (sacCer2)	/Users/dan/galax
 ```
 
 
-----
+---
 [/Admin/Tools/DataManagers](/Admin/Tools/DataManagers)

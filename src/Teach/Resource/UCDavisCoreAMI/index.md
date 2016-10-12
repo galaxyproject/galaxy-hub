@@ -1,8 +1,11 @@
+---
+pagetitle: [UC Davis Bioinformatics Core Galaxy AMI](http://bioinformatics.ucdavis.edu/software/)
+---
 <div class='center'>
 <a href='http://bioinformatics.ucdavis.edu/'><img src='/Images/Logos/UCDavisGenomeCenter.png' alt='UC Davis Bioinformatics Core' height="100" /></a>
 </div>
 
-<div class="title">[UC Davis Bioinformatics Core Galaxy AMI](http://bioinformatics.ucdavis.edu/software/)</div>
+
 
 <div class='deploymentbox'>
  Resource:: **[UC Davis Bioinformatics Core Galaxy AMI](/Teach/Resource/UCDavisCoreAMI)**

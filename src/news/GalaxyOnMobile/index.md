@@ -15,6 +15,6 @@ A [user manual](https://github.com/Tarostar/QMLGalaxyPortal/raw/master/GalaxyPor
 Galaxy Portal is provided free of charge.
 <br /><br />
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2016-02-02T00:31:14Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-02-02T00:31:14Z)</div>
 
 CategoryNews

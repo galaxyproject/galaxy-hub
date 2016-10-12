@@ -1,8 +1,11 @@
+---
+pagetitle: UIUC, -, Galaxy
+---
 <div class='center'>
 <a href='http://galaxy.illinois.edu'><img src='/uclogo_horz_bold.png' alt='University of Illinois Urbana-Champaign'  /></a>
 </div>
 
-<div class="title">UIUC-Galaxy</div>
+
 
 
 

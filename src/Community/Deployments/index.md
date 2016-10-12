@@ -1,8 +1,10 @@
 ---
 autotoc: true
+pagetitle: Galaxy Deployment Catalog
 ---
-<div class="title">Galaxy Deployment Catalog</div>
 
+
+<div class='right'></div>
 
 <div class='left'>![Galaxy Deployment Catalog](/Images/Logos/GalaxyDeploymentCatalog200.png)</div> 
 
@@ -17,11 +19,11 @@ There are also several other sources of information about deployments.  These ei
 
 # Deployments: User and Domain Information
 
-<<DictColumns(pagename=Community/Deployment, names="Deployment, Domain, Owners, User Base, Audience", sort="Deployment", title="Hide", hide="Hide")>>
+PLACEHOLDER_DICT_COLUMNS(pagename=Community/Deployment, names="Deployment, Domain, Owners, User Base, Audience", sort="Deployment", title="Hide", hide="Hide")
 
 # Deployments: Implementation
 
-<<DictColumns(pagename=Community/Deployment, names="Deployment, Owners, Server Topology, Compute, Memory, Storage, Disk Space, User Management", sort="Deployment", title="Hide", hide="Hide")>>
+PLACEHOLDER_DICT_COLUMNS(pagename=Community/Deployment, names="Deployment, Owners, Server Topology, Compute, Memory, Storage, Disk Space, User Management", sort="Deployment", title="Hide", hide="Hide")
 
 # Add Your Galaxy Deployment
 
@@ -39,7 +41,7 @@ Have a Galaxy deployment?  The larger Galaxy community would love to learn about
 1. [Login|&action=login](/Community/Deployments) to the wiki. If you don't have an account, you'll need to [create one|&action=newaccount](/Community/Deployments).
 1. Pick a good descriptive, !CamelCase name for your deployment.  This will become part of the URL for the page describing your deployment.  Avoid embedded spaces as they make lousy URLs.
 1. Type the !CamelCase name in box below and hit the "Create" button.
-    . <<NewPage(Community/Deployments/DeploymentTemplate, "Create a deployment description page", Community/Deployment)>>
+    . PLACEHOLDER_NEW_PAGE(Community/Deployments/DeploymentTemplate, "Create a deployment description page", Community/Deployment)
 1. A template for the new page will appear.  Replace the template text with a description of your installation.
 1. Save, review, and edit the page until you are happy with it.
 1. Return to this page, and admire how your deployment is now included in the listings.

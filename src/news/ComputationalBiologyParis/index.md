@@ -32,6 +32,6 @@ Application: Send CV, cover letter and two references to [christophe DOT antonie
  
 Christophe Antoniewski
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-09-09T21:30:57Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-09-09T21:30:57Z)</div>
 
 CategoryNews

@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[GCC2014: Save These Dates!](/News/GCC2014SaveTheseDates)</div>
 
-<div class='right'><a href='/Events/GCC2014/'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="130" /></a></div>
+<div class='right'><a href='/Events/GCC2014'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="130" /></a></div>
 
 The [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
@@ -8,6 +8,6 @@ Galaxy Community Conferences are an opportunity to participate in presentations,
 
 [GCC2014 Organizing Committee](/Events/GCC2014/Organizers)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-10-02T22:04:55Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-10-02T22:04:55Z)</div>
 
 CategoryNews

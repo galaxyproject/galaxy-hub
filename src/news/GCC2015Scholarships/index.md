@@ -22,6 +22,6 @@ Please do let us know if you have any questions, and we hope to see you at [GCC2
 
 [community-fund@lists.galaxyproject.org](Galaxy Community Fund Board)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2015-04-21T17:18:07Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-04-21T17:18:07Z)</div>
 
 CategoryNews

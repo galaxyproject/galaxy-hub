@@ -1,23 +1,25 @@
 ---
 autotoc: true
+pagetitle: Running Galaxy in a production environment
 ---
-INCLUDE(/Admin/Config/Performance/LinkBox)
-<div class="title">Running Galaxy in a production environment</div>
+PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
+
 
 The [basic installation instructions](/Admin/GetGalaxy) are suitable for development by a single user, but when setting up Galaxy for a multi-user production environment, there are some additional steps that should be taken for the best performance.
 
-You may also want to consult the [Building Scalable Galaxy slides](ATTACHMENT_URLEvents/GDC2010/GDC2010_building_scalable.pdf) from the [2010 Galaxy Developers Conference](/Events/GDC2010) at <<nwwl(CSHL)>> (upon which this page is based).
+You may also want to consult the [Building Scalable Galaxy slides](ATTACHMENT_URLEvents/GDC2010/GDC2010_building_scalable.pdf) from the [2010 Galaxy Developers Conference](/Events/GDC2010) at CSHL (upon which this page is based).
+
 
 ## Why bother?
 
 By default, Galaxy:
 
-* Uses [SQLite](http://www.sqlite.org/) (a serverless database), so you don't have to run/configure a database server for quick or basic development.  However, <<nwwl(SQLite)>> does not handle concurrency.
-* Uses a built-in <<nwwl(HTTP)>> server, written in Python.  Much of the work performed by this server can be moved to [nginx](/Admin/Config/nginxProxy) or Apache, which will increase performance.
+* Uses [SQLite](http://www.sqlite.org/) (a serverless database), so you don't have to run/configure a database server for quick or basic development.  However, SQLite does not handle concurrency.
+* Uses a built-in HTTP server, written in Python.  Much of the work performed by this server can be moved to [nginx](/Admin/Config/nginxProxy) or Apache, which will increase performance.
 * Runs all tools locally.  Moving to a [cluster](/Admin/Config/Performance/Cluster) will greatly increase capacity.
 * Runs in a single process, which is a performance problem in [CPython](http://en.wikipedia.org/wiki/CPython).
 
-Galaxy ships with this default configuration to ensure the simplest, most error-proof configuration possible when doing basic development.  As you'll soon see, the goal is to remove as much work as possible from the Galaxy process, since doing so will greatly speed up the performance of its remaining duties.  This is due to the Python Global Interpreter Lock (GIL), which is explained in detail in the [Advanced Configuration](/Admin/Config/Performance/ProductionServer/#advanced-configuration) section.
+Galaxy ships with this default configuration to ensure the simplest, most error-proof configuration possible when doing basic development.  As you'll soon see, the goal is to remove as much work as possible from the Galaxy process, since doing so will greatly speed up the performance of its remaining duties.  This is due to the Python Global Interpreter Lock (GIL), which is explained in detail in the [Advanced Configuration](/Admin/Config/Performance/ProductionServer#advanced-configuration) section.
 
 ## Groundwork for scalability
 
@@ -25,11 +27,11 @@ Galaxy ships with this default configuration to ensure the simplest, most error-
 
 Many of the following instructions are best practices for any production application.
 
-* Create a **NON-<<nwwl(ROOT)>>** user called galaxy.  Running as an existing user will cause problems down the line when you want to grant or restrict access to data.
+* Create a **NON-ROOT** user called galaxy.  Running as an existing user will cause problems down the line when you want to grant or restrict access to data.
 * Start with a fresh checkout of Galaxy, don't try to convert one previously used for development.  Download and install it in the galaxy user home directory.
 * Galaxy should be a managed system service (like Apache, mail servers, database servers, *etc.*) run by the galaxy user.  Init scripts, OS X launchd definitions and Solaris SMF manifests are provided in the `contrib/` directory of the distribution.  You can also use the `--daemon` and `--stop-daemon` arguments to `run.sh` to start and stop by hand, but still run detached.  When running as a daemon the server's output log will be written to `paster.log` instead of the terminal, unless instructed otherwise with the `--log-file` argument.
 * Give Galaxy its own database user and database to prevent Galaxy's schema from conflicting with other tables in your database.  Also, restrict Galaxy's database user so it only has access to its own database.
-* Make sure Galaxy is using a clean Python interpreter.  Conflicts in $<<nwwl(PYTHONPATH)>> or the interpreter's `site-packages/` directory could cause problems.  Galaxy manages its own dependencies for the framework, so you do not need to worry about these.  The easiest way to do this is with a [virtualenv](http://pypi.python.org/pypi/virtualenv):<br /><br />
+* Make sure Galaxy is using a clean Python interpreter.  Conflicts in $PYTHONPATH or the interpreter's `site-packages/` directory could cause problems.  Galaxy manages its own dependencies for the framework, so you do not need to worry about these.  The easiest way to do this is with a [virtualenv](http://pypi.python.org/pypi/virtualenv):<br /><br />
     ```
 nate@weyerbacher% wget http://bitbucket.org/ianb/virtualenv/raw/tip/virtualenv.py
 --11:18:05--  http://bitbucket.org/ianb/virtualenv/raw/tip/virtualenv.py
@@ -52,7 +54,7 @@ nate@weyerbacher% cd galaxy-dist
 nate@weyerbacher% sh run.sh
 ```
 
-* Galaxy can be housed in a cluster/network filesystem (it's been tested with NFS and <<nwwl(GPFS)>>), and you'll want to do this if you'll be running it on a [cluster](/Admin/Config/Performance/Cluster).
+* Galaxy can be housed in a cluster/network filesystem (it's been tested with NFS and GPFS), and you'll want to do this if you'll be running it on a [cluster](/Admin/Config/Performance/Cluster).
 
 ## Basic configuration
 
@@ -71,15 +73,15 @@ During deployment, you may run into problems with failed jobs.  By default, Gala
 
 ### Switching to a database server
 
-The most important recommendation is to switch to an actual database server.  By default, Galaxy will use [SQLite](http://www.sqlite.org/), which is a serverless simple file database engine.  Since it's serverless, all of the database processing occurs in the Galaxy process itself.  This has two downsides: it occupies the aforementioned GIL (meaning that the process is not free to do other tasks), and it is not nearly as efficient as a dedicated database server.  There are other drawbacks, too.  When load increases with multiple users, the risk of transactional locks also increases.  Locks will cause (among other things) timeouts and job errors.  If you start with <<nwwl(SQLite)>> and then later realize a need for a database server, you'll need to migrate your database or start over.  Galaxy does not provide an internal method to migrate data from <<nwwl(SQLite)>>, and although free conversion tools are available on the web, this process is non-trivial.
+The most important recommendation is to switch to an actual database server.  By default, Galaxy will use [SQLite](http://www.sqlite.org/), which is a serverless simple file database engine.  Since it's serverless, all of the database processing occurs in the Galaxy process itself.  This has two downsides: it occupies the aforementioned GIL (meaning that the process is not free to do other tasks), and it is not nearly as efficient as a dedicated database server.  There are other drawbacks, too.  When load increases with multiple users, the risk of transactional locks also increases.  Locks will cause (among other things) timeouts and job errors.  If you start with SQLite and then later realize a need for a database server, you'll need to migrate your database or start over.  Galaxy does not provide an internal method to migrate data from SQLite, and although free conversion tools are available on the web, this process is non-trivial.
 
 <div class='right'>[{{Images/Logos/PostgreSQLLogo160.png|PostgreSQL}}](http://www.postgresql.org/)</div>
 
-For this reason, Galaxy also supports [PostgreSQL](http://www.postgresql.org/) and [MySQL](http://dev.mysql.com/). *<<nwwl(PostgreSQL)>> is much preferred since we've found it works better with our DB abstraction layer, [SQLAlchemy](http://www.sqlalchemy.org).*
+For this reason, Galaxy also supports [PostgreSQL](http://www.postgresql.org/) and [MySQL](http://dev.mysql.com/). *PostgreSQL is much preferred since we've found it works better with our DB abstraction layer, [SQLAlchemy](http://www.sqlalchemy.org).*
 
 To use an external database, you'll need to set one up.  That process is outside the scope of this document, but is usually simple.  For example, on Debian and Redhat-based Linuxes, one may already be installed.  If not, it should be an `apt-get install` or `yum install` away.  On Mac OS X, there are installers available from the [PostgreSQL](http://www.postgresql.org) website.
 
-Once installed, create a new database user and new database which the new user is the owner of.  No further setup is required, since Galaxy manages its own schema.  If you are using a <<nwwl(UNIX)>> socket to connect the application to the database (this is the standard case if Galaxy and the database are on the same system), you'll want to name the database user the same as the system user under which you run the Galaxy process.
+Once installed, create a new database user and new database which the new user is the owner of.  No further setup is required, since Galaxy manages its own schema.  If you are using a UNIX socket to connect the application to the database (this is the standard case if Galaxy and the database are on the same system), you'll want to name the database user the same as the system user under which you run the Galaxy process.
 
 To configure Galaxy, set `database_connection` in Galaxy's config file, `config/galaxy.ini`.  The syntax for a database URL is explained in the [SQLAlchemy documentation](http://sqlalchemy.readthedocs.org/en/rel_0_5/dbengine.html).
 
@@ -101,7 +103,7 @@ mysql:///mydatabase?unix_socket=/var/run/mysqld/mysqld.sock
 
 For more hints on available options for the database URL, see the [SQLAlchemy documentation](http://www.sqlalchemy.org/docs/05/dbengine.html#dbengine_establishing).
 
-If you are using [MySQL](http://dev.mysql.com/) and encounter the "<<nwwl(MySQL)>> server has gone away" error, please note the `database_engine_option_pool_recycle` option in `config/galaxy.ini`.  If this does not solve your problem, see [this post](http://gmod.827538.n3.nabble.com/template/NamlServlet.jtp?macro=print_post&node=2354941) on the Galaxy Development [mailing list](/MailingLists).
+If you are using [MySQL](http://dev.mysql.com/) and encounter the "MySQL server has gone away" error, please note the `database_engine_option_pool_recycle` option in `config/galaxy.ini`.  If this does not solve your problem, see [this post](http://gmod.827538.n3.nabble.com/template/NamlServlet.jtp?macro=print_post&node=2354941) on the Galaxy Development [mailing list](/MailingLists).
 
 If you are using [MySQL](http://dev.mysql.com/) please make sure the database output is in UTF-8, otherwise you may encounter python TypeErrors.
 
@@ -109,18 +111,18 @@ If you are using [MySQL](http://dev.mysql.com/) with [MyISAM](http://dev.mysql.c
 
 ### Using a proxy server
 
-Galaxy contains a standalone web server and can serve all of its content directly to clients.  However, some tasks (such as serving static content) can be offloaded to a dedicated server that handles these tasks more efficiently.  A proxy server also allows you to authenticate users externally using any method supported by the proxy (for example, Kerberos or <<nwwl(LDAP)>>), instruct browsers to cache content, and compress outbound data. Also, Galaxy's built-in web server does not support byte-range requests (required for many external display applications), but this functionality can be offloaded to a proxy server.  In addition to freeing the GIL, compression and caching will reduce page load times.
+Galaxy contains a standalone web server and can serve all of its content directly to clients.  However, some tasks (such as serving static content) can be offloaded to a dedicated server that handles these tasks more efficiently.  A proxy server also allows you to authenticate users externally using any method supported by the proxy (for example, Kerberos or LDAP), instruct browsers to cache content, and compress outbound data. Also, Galaxy's built-in web server does not support byte-range requests (required for many external display applications), but this functionality can be offloaded to a proxy server.  In addition to freeing the GIL, compression and caching will reduce page load times.
 
-Downloading and uploading data can also be moved to the proxy server.  This is explained in the [Make the proxy handle uploads and downloads](/Admin/Config/Performance/ProductionServer/#make-the-proxy-handle-uploads-and-downloads) section below.
+Downloading and uploading data can also be moved to the proxy server.  This is explained in the [Make the proxy handle uploads and downloads](/Admin/Config/Performance/ProductionServer#make-the-proxy-handle-uploads-and-downloads) section below.
 
-Virtually any server that proxies <<nwwl(HTTP)>> should work, although we provide configuration examples for:
+Virtually any server that proxies HTTP should work, although we provide configuration examples for:
 
 * [Apache](/Admin/Config/ApacheProxy), and
 * [nginx](/Admin/Config/nginxProxy), a high performance reverse proxy, used by our public Galaxy sites
 
 ### Using a compute cluster
 
-Galaxy is a framework that runs command-line tools, and if properly configured, can run these tools on a compute [cluster](/Admin/Config/Performance/Cluster).  Without a cluster, you'll be limited to the number of cores in your server, minus those needed to run Galaxy itself.  Galaxy currently supports <<nwwl(TORQUE)>> PBS, PBS Pro, Platform LSF, and Sun Grid Engine clusters, and does not require a dedicated or special cluster configuration.  Tools can even run on heterogeneous cluster nodes (differing operating systems), as long as any dependencies necessary to run the tool are available on that platform.
+Galaxy is a framework that runs command-line tools, and if properly configured, can run these tools on a compute [cluster](/Admin/Config/Performance/Cluster).  Without a cluster, you'll be limited to the number of cores in your server, minus those needed to run Galaxy itself.  Galaxy currently supports TORQUE PBS, PBS Pro, Platform LSF, and Sun Grid Engine clusters, and does not require a dedicated or special cluster configuration.  Tools can even run on heterogeneous cluster nodes (differing operating systems), as long as any dependencies necessary to run the tool are available on that platform.
 
 Using a cluster will also net you a fringe benefit: When running tools locally, they are child processes of the Galaxy server.  This means that if you restart the server, you lose contact with those jobs, and they must be restarted.  However on the cluster, if the Galaxy server restarts, the jobs will continue to run and finish.  Once the Galaxy job manager starts up, it'll resume tracking and finishing jobs as if nothing had happened.
 

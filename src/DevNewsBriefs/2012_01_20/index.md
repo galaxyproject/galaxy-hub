@@ -1,7 +1,9 @@
 ---
 autotoc: true
+pagetitle: January 20, ,,  2012 Galaxy Development News Brief
 ---
-<div class="title">January 20, 2012 Galaxy Development News Brief</div>
+
+<div class='right'></div>
 
 ## Get Galaxy
 
@@ -71,7 +73,7 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 * Eliminate all references and support for datatype indexers since they have never been used - datatype converters do the same thing.
 * Security: sanitize output anytime a raw text/html dataset is served via dataset/display.
 * Security: sanitizer also now removes javascript content from sanitized anchors, and correctly prevents a whitespace loophole.
-* <<nwwl(ObjectStore)>>: Variable multiple outputs (collect_primary_datasets) and components that use collect_child_datasets tuned for new process.
+* !ObjectStore: Variable multiple outputs (collect_primary_datasets) and components that use collect_child_datasets tuned for new process.
 
 ## Tool Shed
 * New features:
@@ -83,14 +85,14 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
   * Do not allow public user names to be changed within the tool shed if the user has created a tool shed repository.
   * Don't allow repository names to be changed if the repository has been cloned at least 1 time.
 * More new tool shed features documented in the following new Galaxy wiki sections:
-  * [Including proprietary data types that subclass from Galaxy data types in the distribution](/Tool Shed/#including_proprietary_data_types_that_subclass_from_galaxy_data_types_in_the_distribution)
-  * [Including proprietary data types that use class modules contained in your repository](/Tool Shed/#including_proprietary_data_types_that_use_class_modules_contained_in_your_repository)
-  * [Including datatype converters and display applications](/Tool Shed/#including_datatype_converters_and_display_applications)
-  * [Automatic installation of Galaxy tool shed repository data types into a local Galaxy instance](/Tool Shed/#automatic_installation_of_galaxy_tool_shed_repository_data_types_into_a_local_galaxy_instance)
-  * [Getting updates for tool shed repositories installed in a local Galaxy instance](/Tool Shed/#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance)
-  * [Migrating tools from the Galaxy distribution to the Galaxy main tool shed](/Tool Shed/#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)
-  * [Configuring your Galaxy server to automatically install tools eliminated from the Galaxy distribution](/Tool Shed/#configuring_your_galaxy_server_to_automatically_install_tools_eliminated_from_the_galaxy_distribution)
-  * [Use case: automatically install the Emboss tools and datatypes into a local Galaxy instance](/Tool Shed/#use_case_automatically_install_the_emboss_tools_and_datatypes_into_a_local_galaxy_instance)
+  * [Including proprietary data types that subclass from Galaxy data types in the distribution](/Tool Shed#including_proprietary_data_types_that_subclass_from_galaxy_data_types_in_the_distribution)
+  * [Including proprietary data types that use class modules contained in your repository](/Tool Shed#including_proprietary_data_types_that_use_class_modules_contained_in_your_repository)
+  * [Including datatype converters and display applications](/Tool Shed#including_datatype_converters_and_display_applications)
+  * [Automatic installation of Galaxy tool shed repository data types into a local Galaxy instance](/Tool Shed#automatic_installation_of_galaxy_tool_shed_repository_data_types_into_a_local_galaxy_instance)
+  * [Getting updates for tool shed repositories installed in a local Galaxy instance](/Tool Shed#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance)
+  * [Migrating tools from the Galaxy distribution to the Galaxy main tool shed](/Tool Shed#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)
+  * [Configuring your Galaxy server to automatically install tools eliminated from the Galaxy distribution](/Tool Shed#configuring_your_galaxy_server_to_automatically_install_tools_eliminated_from_the_galaxy_distribution)
+  * [Use case: automatically install the Emboss tools and datatypes into a local Galaxy instance](/Tool Shed#use_case_automatically_install_the_emboss_tools_and_datatypes_into_a_local_galaxy_instance)
 
 ## Tool Shed Contributions
 * New in the [Tool Shed](http://toolshed.g2.bx.psu.edu/):
@@ -101,11 +103,11 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
   * `ncbo_services` - by Mikel Egaña Aranguren
   * `repeat_masker, trna_prediction, glimmer3, glimmer_hmm` - by Björn Grüning
 * Updated:
-  * `ssr_marker_design` - by John <<nwwl(McCallum)>>
+  * `ssr_marker_design` - by John !McCallum
   * `fastq_paired_unpaired, mira-assembler` - by Peter Cock
 
 ## Bug Fixes
-<div class='right'><a href='/Support/'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
+<div class='right'><a href='/Support'><img src='/Images/Icons/bug.png' alt='bugs' width="20" /></a></div> 
 * Support display of extra files/composite types in published items. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/628](https://bitbucket.org/galaxy/galaxy-central/issue/628)
 * Standardize code and error messages on 'public name' rather than 'username'
 * When exporting a history archive, use user dataset names rather than Galaxy dataset names. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/680](https://bitbucket.org/galaxy/galaxy-central/issue/680)
@@ -114,12 +116,12 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 * UCSC BAM display will now pass the pairEndsByName attribute. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/455](https://bitbucket.org/galaxy/galaxy-central/issue/455)
 * Allow tools with zero inputs. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/463](https://bitbucket.org/galaxy/galaxy-central/issue/463)
 * Allow not specifying a value attribute for an optional tool parameter. Partially fixes [https://bitbucket.org/galaxy/galaxy-central/issue/661](https://bitbucket.org/galaxy/galaxy-central/issue/661)
-* Add __non_zero__ method to <<nwwl(ToolParameterValueWrappers)>>. Allows boolean checks directly on wrapped parameter values. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/661](https://bitbucket.org/galaxy/galaxy-central/issue/661)
+* Add __non_zero__ method to !ToolParameterValueWrappers. Allows boolean checks directly on wrapped parameter values. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/661](https://bitbucket.org/galaxy/galaxy-central/issue/661)
 * Display application configuration not supported in Automatic Installation. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/695](https://bitbucket.org/galaxy/galaxy-central/issue/695)
 * Data types configuration not supported in Automatic Installation. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/696](https://bitbucket.org/galaxy/galaxy-central/issue/696)
 * Fix for browsing libraries in IE.  Previously json2 wasn't being loaded, which is needed in IE for jstorage to work.
 
-----
+---
 
 ## About Galaxy
 **[GalaxyProject.org](http://galaxyproject.org)**
@@ -129,4 +131,4 @@ The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)*
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
 Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)**
-----
+---

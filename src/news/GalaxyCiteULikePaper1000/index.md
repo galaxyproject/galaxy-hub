@@ -13,61 +13,61 @@ Each paper in the group is tagged to indicate how it is related to Galaxy.  The 
 <table>
   <tr>
     <th> # </th>
-    <th style=" width: 20%"> Tag </th>
-    <td style=" border: none; width: 10%"> </td>
+    <th style=" width: 20%;"> Tag </th>
+    <td style=" border: none; width: 10%;"> </td>
     <th> # </th>
-    <th style=" width: 20%"> Tag </th>
-    <td style=" border: none; width: 10%"> </td>
+    <th style=" width: 20%;"> Tag </th>
+    <td style=" border: none; width: 10%;"> </td>
     <th> # </th>
-    <th style=" width: 20%"> Tag </th>
+    <th style=" width: 20%;"> Tag </th>
   </tr>
   <tr>
     <td style=" text-align: right;"> 502 </td>
     <td> <a href='http://www.citeulike.org/group/16008/tag/methods'>methods</a> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
     <td style=" text-align: right;"> 33 </td>
     <td> <a href='http://www.citeulike.org/group/16008/tag/unknown'>unknown</a> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
     <td style=" text-align: right;"> 15 </td>
     <td> <a href='http://www.citeulike.org/group/16008/tag/reproducibility'>reproducibility</a> </td>
   </tr>
   <tr>
     <td style=" text-align: right;"> 325 </td>
     <td> <a href='http://www.citeulike.org/group/16008/tag/workbench'>workbench</a> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
     <td style=" text-align: right;"> 29 </td>
     <td> <a href='http://www.citeulike.org/group/16008/tag/shared'>shared</a> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
     <td style=" text-align: right;"> 9 </td>
     <td> <a href='http://www.citeulike.org/group/16008/tag/uselocal'>uselocal</a>* </td>
   </tr>
   <tr>
     <td style=" text-align: right;"> 49 </td>
     <td> <a href='http://www.citeulike.org/group/16008/tag/isgalaxy'>isgalaxy</a> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
     <td style=" text-align: right;"> 24 </td>
     <td> <a href='http://www.citeulike.org/group/16008/tag/project'>project</a> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
     <td style=" text-align: right;"> 7 </td>
     <td> <a href='http://www.citeulike.org/group/16008/tag/other'>other</a> </td>
   </tr>
   <tr>
     <td style=" text-align: right;"> 46 </td>
     <td> <a href='http://www.citeulike.org/group/16008/tag/tools'>tools</a> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
     <td style=" text-align: right;"> 23 </td>
     <td> <a href='http://www.citeulike.org/group/16008/tag/howto'>howto</a> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
     <td style=" text-align: right;"> 6 </td>
     <td> <a href='http://www.citeulike.org/group/16008/tag/usepublic'>usepublic</a>* </td>
   </tr>
   <tr>
     <td style=" text-align: right;"> 38 </td>
     <td> <a href='http://www.citeulike.org/group/16008/tag/usemain'>usemain</a>* </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
     <td style=" text-align: right;"> 18 </td>
     <td> <a href='http://www.citeulike.org/group/16008/tag/cloud'>cloud</a>* </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
     <td style=" text-align: right;"> 1 </td>
     <td> <a href='http://www.citeulike.org/group/16008/tag/usecloud'>usecloud</a>* </td>
   </tr>
@@ -81,6 +81,6 @@ The Galaxy CiteULike group was launched 18 months ago.  It continues to grow *ra
 [Dave Clements](/DaveClements)
 
 <span style="font-size: smaller;"> * These tags were added in 2013 and very few papers before 2013 have been back-curated with them.  All the tags are explained on the [/CiteULike](/CiteULike) page. </span>
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-06-06T19:29:30Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-06-06T19:29:30Z)</div>
 
 CategoryNews

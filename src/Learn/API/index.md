@@ -1,21 +1,21 @@
 ---
 autotoc: true
+pagetitle: Galaxy Application Programming Interface , (, API, )
 ---
-INCLUDE(/Under Construction)
-INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(../LinkBox)
 
 The most current information about using the API can be found here: [/Develop/API](/Develop/API)
 
 Some other API documentation spread around that may get you through the day:
 
 In the source Distribution:
-* [https://github.com/galaxyproject/galaxy/tree/master//scripts/api/README](https://github.com/galaxyproject/galaxy/tree/master//scripts/api/README)
-* [https://github.com/galaxyproject/galaxy/tree/master//scripts/api/workflow_execute.py](https://github.com/galaxyproject/galaxy/tree/master//scripts/api/workflow_execute.py)
-* [https://github.com/galaxyproject/galaxy/tree/master//scripts/api/example_watch_folder.py](https://github.com/galaxyproject/galaxy/tree/master//scripts/api/example_watch_folder.py)
+* [scripts/api/README](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/README)
+* [scripts/api/workflow_execute.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/workflow_execute.py)
+* [scripts/api/example_watch_folder.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/example_watch_folder.py)
 
 In this wiki:
-* [2010/07/16 News Brief](/DevNewsBriefs/2010_07_16/#initial-implementation-of-the-galaxy-web-api), initial implementation described
-* [2011/08/30 News Brief](/DevNewsBriefs/2011_08_30/#api), update
+* [2010/07/16 News Brief](/DevNewsBriefs/2010_07_16#initial-implementation-of-the-galaxy-web-api), initial implementation described
+* [2011/08/30 News Brief](/DevNewsBriefs/2011_08_30#api), update
 * [GCC2011 Galaxy Deployment and API presentation](/Events/GCC2011)
 * [Sample Tracking API](/Admin/Sample Tracking/Next Gen)
 * [GCC2011 Workflows and API Breakout Group](/Events/GCC2011/Workflows and API)
@@ -23,9 +23,9 @@ In this wiki:
 External:
 * The [Bioblend](http://bioblend.readthedocs.org/en/latest/) package provides an easy way to start using the Galaxy API by providing a set of Python bindings, developed by Galaxy developer [Enis Afgan](/EnisAfgan)
 
-----
+---
 
-<div class="title">Galaxy Application Programming Interface (API)</div>
+
 
 In addition to being accessible through a [web interface](/Learn), Galaxy can now also be accessed programmatically, through shell scripts and other programs.  The web interface is appropriate for things like exploratory analysis, visualization, construction of workflows, and rerunning workflows on new datasets.
 
@@ -37,28 +37,29 @@ The web interface is less suitable for things like
 The Galaxy API addresses these and other situations by exposing Galaxy internals through an additional interface, known as an *Applications Programming Interface*, or *API*.  
 
 
+
 # Enabling the API
 
 To use the API, you must first generate an *API Key* for the account you want to access Galaxy from.  Using the web interface, login as that user, and then:
 
 <table>
   <tr>
-    <td> <em>Navigate</em> to </strong>User &rarr; API Keys<strong>: </td>
+    <td> </em>Navigate<em> to </strong>User &rarr; API Keys<strong>: </td>
     <td> <img src='/Admin/API/UserPullDownAPIKeys.png' /> </td>
   </tr>
   <tr>
-    <td> <em>Click</em> on </strong>Generate a new key now<strong>: </td>
+    <td> </em>Click<em> on </strong>Generate a new key now<strong>: </td>
     <td> <img src='/Admin/API/GenerateNewAPIKey.png' /> </td>
   </tr>
   <tr>
-    <td> And your new API key will be set:<br /><br /><em>Copy</em> the key to your clipboard.  You will need it in the next steps. </td>
+    <td> And your new API key will be set:<br /><br /></em>Copy<em> the key to your clipboard.  You will need it in the next steps. </td>
     <td> <img src='/Admin/API/NewKeyGenerated.png' /> </td>
   </tr>
 </table>
 
 
 **Please pay attention to the note:**
-<div class='red'><div class='border'>
+<div class='red border'>
  Please note that **this key acts as an alternate means to access your account, and should be treated with the same care as your login password.** 
 </div>
 
@@ -92,14 +93,14 @@ You can retrieve your API key by sending [baseauth](http://en.wikipedia.org/wiki
 
 ## HTTP Methods, common.py Routines, and Standalone Scripts
 
-HTTP methods correspond to operations in Galaxy.  Operations are implemented as standalone scripts (in [https://github.com/galaxyproject/galaxy/tree/master/scripts/api/](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/)) and as routines in [https://github.com/galaxyproject/galaxy/tree/master//scripts/api/common.py](https://github.com/galaxyproject/galaxy/tree/master//scripts/api/common.py).
+HTTP methods correspond to operations in Galaxy.  Operations are implemented as standalone scripts (in [scripts/api/](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/)) and as routines in [scripts/api/common.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/common.py).
 
-| HTTP Method |  [common.py](https://github.com/galaxyproject/galaxy/tree/master//scripts/api/common.py) Routine  |  [Standalone](https://github.com/galaxyproject/galaxy/tree/master//scripts/api/)  | 
-| ----------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- | 
-| GET    |  display()  |  [display.py](https://github.com/galaxyproject/galaxy/tree/master//scripts/api/display.py)  | 
-| PUT    |  update()   |  [update.py](https://github.com/galaxyproject/galaxy/tree/master//scripts/api/update.py)  | 
-| POST   |  submit()   |  [create.py](https://github.com/galaxyproject/galaxy/tree/master//scripts/api/create.py)  | 
-| DELETE |  delete()   |  [delete.py](https://github.com/galaxyproject/galaxy/tree/master//scripts/api/delete.py)  | 
+| HTTP Method |  [common.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/common.py) Routine  |  [Standalone](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/)  | 
+| ----------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | 
+| GET    |  display()  |  [display.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/display.py)  | 
+| PUT    |  update()   |  [update.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/update.py)  | 
+| POST   |  submit()   |  [create.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/create.py)  | 
+| DELETE |  delete()   |  [delete.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/delete.py)  | 
 
 ## Modules
 
@@ -180,7 +181,7 @@ def main():
         print 'usage: %s key url workflow_id history step=src=dataset_id' % os.path.basename(sys.argv[0])
         sys.exit(1)
 
-if __name__ == '<u>main__':
+if __name__ == '</u>main__':
     main()
 ```
 

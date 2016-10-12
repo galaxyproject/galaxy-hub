@@ -1,5 +1,5 @@
-INCLUDE(/Admin/Tools/LinkBox)
-<div class='right'> <a href='/ToolShed/'><img src='/Images/Logos/ToolShed.jpg' alt='Tool Shed logo' height="110px" /></a> 
+PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
+<div class='right'> <a href='/ToolShed'><img src='/Images/Logos/ToolShed.jpg' alt='Tool Shed logo' height="110px" /></a> 
 </div>
 
 # The Galaxy Tool Shed
@@ -7,7 +7,7 @@ INCLUDE(/Admin/Tools/LinkBox)
 It runs at [http://toolshed.g2.bx.psu.edu](http://toolshed.g2.bx.psu.edu) and serves as an appstore to all Galaxies worldwide. It is a free service that hosts repositories containing [Galaxy Tools](/Admin/Tools), [Galaxy Data Managers](/Admin/Tools/DataManagers), custom [Galaxy Datatypes](/Admin/Datatypes), and exported [Galaxy Workflows](/Learn/AdvancedWorkflow).
 
 ## Introduction
-Tool Shed allows Galaxy administrators to install thousands of freely available Galaxy utilities into their instances. It also manages external tool dependencies and tool updates, making their life easier. Moreover, it allows tool developers to easily share, update, and manage their tools across all Galaxies. See the full [Tool Shed Tour](/ToolShedTour).
+Tool Shed allows Galaxy administrators to install thousands of freely available Galaxy utilities into their instances. It also manages external tool dependencies and tool updates, making their life easier. Moreover, it allows tool developers to easily share, update, and manage their tools across all Galaxies. See the full [Tool Shed Tour](/ToolShed/Tour).
 
 ### Common Terminology
 * *wrapper* or *tool definition file* - The XML file that describes to Galaxy how the underlying software works, thus allowing Galaxy to execute the software in the right way.

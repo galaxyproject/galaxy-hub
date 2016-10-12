@@ -72,4 +72,4 @@ The list of available directories containing the other data referenced by locati
 * snpeff
 * taxonomy
 
-----
+---

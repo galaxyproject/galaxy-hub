@@ -1,6 +1,6 @@
 <div class='linkbox'>
 **[/Learn](/Learn)**
-----
+---
 [Histories](/Histories)<br />
 [Screencasts](/Learn/Screencasts)<br />
 [FAQ](/Learn/FAQ)<br />

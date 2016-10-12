@@ -1,5 +1,5 @@
 <div class='center'>
-<div class="title">Introduction to Galaxy<br />February 4 + February 5 2013</div>
+<div class='title'>Introduction to Galaxy<br />February 4 + February 5 2013</div>
 
 **Workshops for the Johns Hopkins community
 
@@ -11,12 +11,12 @@ Rangos 490<br />
 
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle"> <a href='http://biolchem.bs.jhmi.edu/'><img src='/Images/Logos/JohnsHopkinsBioChem.png' alt='Biological Chemistry @ Johns Hopkins'  /></a><br /><strong><a href='http://biolchem.bs.jhmi.edu/bcmb/Pages/faculty/faculty_detail.aspx?FID=343'>Reddy</a> and <a href='http://biolchem.bs.jhmi.edu/bcmb/Pages/faculty/faculty_detail.aspx?FID=82'>Sollner-Webb</a> Labs</strong> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle; width: 10%"> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://biolchem.bs.jhmi.edu/'><img src='/Images/Logos/JohnsHopkinsBioChem.png' alt='Biological Chemistry @ Johns Hopkins'  /></a><br /><strong><a href='http://biolchem.bs.jhmi.edu/bcmb/Pages/faculty/faculty_detail.aspx?FID=343'>Reddy</a> and <a href='http://biolchem.bs.jhmi.edu/bcmb/Pages/faculty/faculty_detail.aspx?FID=82'>Sollner-Webb</a> Labs</strong> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle; width: 10%;"> </td>
     <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://ccb.jhu.edu/'><img src='/Images/Logos/JohnsHopkinsCCB.png' alt='Center for Computational Biology' height="100" /></a><br /><strong><a href='http://bioinformatics.igm.jhmi.edu/salzberg/Salzberg/Salzberg_Lab_Home.html'>Salzberg Lab</a></strong> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle"> <a href='http://jhmi.edu/'><img src='/Images/Logos/JohnsHopkins.png' alt='Johns Hopkins'  /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://jhmi.edu/'><img src='/Images/Logos/JohnsHopkins.png' alt='Johns Hopkins'  /></a> </td>
   </tr>
 </table>
 
@@ -110,7 +110,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Flyer
 
-<div class='right'><a href='/attachment:JohnsHopkinsGalaxy2013.pdf/'><img src='/JohnsHopkinsGalaxy2013Thumb.png' alt=''  /></a></div>
+<div class='right'><a href='/attachment:JohnsHopkinsGalaxy2013.pdf'><img src='/JohnsHopkinsGalaxy2013Thumb.png' alt=''  /></a></div>
 Please distribute to parts of Johns Hopkins that might be interested.  You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?

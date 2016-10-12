@@ -7,6 +7,6 @@ We have an [opening for a Bioinformatics Analyst](https://jobs.virginia.edu/appl
 [Stephen Turner](http://www.stephenturner.us/)<br />
 Director
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2012-02-24T20:45:01Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-02-24T20:45:01Z)</div>
 
 CategoryNews

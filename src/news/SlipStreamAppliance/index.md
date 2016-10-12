@@ -13,6 +13,6 @@ To learn more about the !SlipStream Appliance: Galaxy Edition, please visit [www
 Anushka Brownley<br />
 Product Manager, [BioTeam](http://bioteam.net)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-07-01T08:44:31Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-07-01T08:44:31Z)</div>
 
 CategoryNews

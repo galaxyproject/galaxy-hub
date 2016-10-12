@@ -1,8 +1,11 @@
-INCLUDE(/Events/SG2014/Header)
+---
+pagetitle:  Galaxy Demo , /,  Training Day, ,,  Tuesday, ,,  September 30th, ,,  Bern 
+---
+PLACEHOLDER_INCLUDE(/Events/SG2014/Header)
 
-<div class="title"> Galaxy Demo / Training Day, Tuesday, September 30th, Bern </div>
 
-INCLUDE(/Events/SG2014/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Events/SG2014/LinkBox)
 
 ## Content
 

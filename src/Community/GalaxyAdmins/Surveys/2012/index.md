@@ -1,15 +1,16 @@
 ---
 autotoc: true
 ---
-<div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
+<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
 
-INCLUDE(../../LinkBox)
+PLACEHOLDER_INCLUDE(../../LinkBox)
 
 The [GalaxyAdmins group (formerly GalaxyCzars)](/Community/GalaxyAdmins) was started in April 2012.  As part of that launch, an online survey was [sent out in May](/News/GalaxyCzarsSurvey).  This page summarizes and categorizes the responses to that survey.  There were 31 total responses.
 
 *Note: Answers have been put into various categories, depending on content.  Some answers covered multiple areas and have been split up.  If you disagree with the categorization of a particular answer, please feel free to move it elsewhere.  This is a wiki, after all.*
 
 The original responses, minus name, institution and email are **[also available](ATTACHMENT_URLGalaxyCzarsSurveySpring2012.xls)**.
+
 
 
 # Big Picture
@@ -389,7 +390,7 @@ The original responses, minus name, institution and email are **[also available]
 1. Would be good to know best practices for setting up a server and how people have solved a few of the maintenance issues.
 1. A good talk on how we can set up and share our tools that we create too would be nice. I know there is the galaxy toolshed but hardly any one is using it and quite a bit of it is just junk.
 1. Learn more indepth concepts of Galaxy and tips/tricks for streamlining operations management.  I understand it is hard to document everything - but maybe a quick 1 hour discussion would help.
-1. Perhaps first, what attract users to Galaxy, and what repels them? E.g. if they don't like using FTP upload, what are other options? If they don't find their ways in the menu's, should we change descriptions to our own experience. It is really important to get these issues known first, otherwise users won't use Galaxy, and we don't have to set up Galaxies.<<BR><br />And next, best practices of sysadmins that host 'big' galaxies. Perhaps ""if you could restart setting up Galaxy, what would you definitely not do again, and what would you do that you didn't do".
+1. Perhaps first, what attract users to Galaxy, and what repels them? E.g. if they don't like using FTP upload, what are other options? If they don't find their ways in the menu's, should we change descriptions to our own experience. It is really important to get these issues known first, otherwise users won't use Galaxy, and we don't have to set up Galaxies.<br /><br />And next, best practices of sysadmins that host 'big' galaxies. Perhaps ""if you could restart setting up Galaxy, what would you definitely not do again, and what would you do that you didn't do".
 1. For developers to discuss specific Galaxy set-up e.g. using different clusters, clouds, external-visualisation tools, parallel processing techniques, proxy etc, custom code, datatypes etc that differ from the main Galaxy distribution.
 1. Discuss use of hardware to support Galaxy.
 1. Share methods of marketing Galaxy to users and offering training.

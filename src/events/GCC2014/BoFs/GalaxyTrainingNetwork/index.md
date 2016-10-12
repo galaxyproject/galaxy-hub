@@ -1,6 +1,9 @@
-INCLUDE(/Events/GCC2014/Header)
+---
+pagetitle: Galaxy Training Network
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
-<div class="title">Galaxy Training Network</div>
+
 
 
 <div class='dictbox'>
@@ -12,9 +15,9 @@ INCLUDE(/Events/GCC2014/Header)
  Contact:: [simon DOT gladman AT monash DOT edu](Simon Gladman), [alonie AT unimelb DOT edu DOT au](Andrew Lonie), [Teaching hub page](/Teach)
 </div>
 
-INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
-<div class='left'><a href='/Events/GCC2014/BoFs/'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
+<div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
 
 This page describes the **[Galaxy Training Network](/Teach/GTN)** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/Events/GCC2014).
 
@@ -78,7 +81,7 @@ Anyone interested in using Galaxy for bioinformatics and related learning and te
 
 ## GTN Resources Directory
 
-<div class='right'><a href='/Teach/GTN/'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="300" /></a></div>
+<div class='right'><a href='/Teach/GTN'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="300" /></a></div>
 
 [This has been created](/Teach/Resources).  
 

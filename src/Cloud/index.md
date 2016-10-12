@@ -1,8 +1,10 @@
 ---
 autotoc: true
+pagetitle: Galaxy on the Cloud
 ---
-<div class="title">Galaxy on the Cloud</div>
 
+
+<div class='right'></div>
 
 Researchers' compute requirements vary widely over time and formerly required either buying and maintaining compute resources (with most of it idle, most of the time), or reserving time and a fixed amount of compute resources on institutional clusters.
 
@@ -13,7 +15,7 @@ Cloud infrastructures are just [one of the many ways that Galaxy is available](/
 
 ## CloudMan
 
-<div class='left'><a href='/CloudMan/'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="250" /></a></div>
+<div class='left'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="250" /></a></div>
 
 CloudMan is a software package that abstracts the interface to cloud infrastructure, allowing users to take advantage of the power of cloud infrastructure without having to learn much of the underlying details of any particular infrastructure.  CloudMan supports elastic, dynamic resource scaling and works with Galaxy out of the box.  It is also integrated with [CloudBioLinux](http://cloudbiolinux.org/).  CloudMan works with multiple cloud infrastructures including [Amazon Web Services](http://aws.amazon.com), [OpenStack](http://www.openstack.org/), and [OpenNebula](http://opennebula.org).
 

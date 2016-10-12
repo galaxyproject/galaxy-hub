@@ -116,13 +116,13 @@
   </tr>
   <tr>
     <td> download_by_url</td>
-    <td> A valid URL that will download a specific package name and version.  Only works properly if it is the first action. If applicable, the target file will be saved locally under the name defined in the <strong>target_filename</strong> attribute. If the remote file is an archive (Zip or Tar), it will be deflated, and the current execution directory will be changed if needed to the deflated subdirectory for the following actions. Note that in the case of Tar files, the name of the downloaded file must match the name of the deflated directory. Additionally a sha256sum may be provided which will be checked on the package installation process to ensure integrity of your download. </td>
+    <td> A valid URL that will download a specific package name and version.  Only works properly if it is the first action. If applicable, the target file will be saved locally under the name defined in the <strong>target_filename</strong> attribute. If the remote file is an archive (Zip or Tar), it will be deflated, and the current execution directory will be changed if needed to the deflated subdirectory for the following actions. Note that in the case of Tar files, the name of the downloaded file must match the name of the deflated directory. Additionally a <strong>sha256sum</strong> attribute should be provided which will be checked to ensure integrity of your download. </td>
     <td> &lt;action type="download_by_url" sha256sum="abad61823..." &gt; d<code>ftp://emboss.open-bio.org/pub/EMBOSS/old/5.0.0/EMBOSS-5.0.0.tar.gz</code>&lt;/action&gt;, &lt;action type="download_by_url" target_filename="lastz-distrib-1.02.00.tar.gz"&gt;<code>http://www.bx.psu.edu/miller_lab/dist/lastz-1.02.00.tar.gz</code>&lt;/action&gt;</td>
     <td> release_2013.01.13 or earlier</td>
   </tr>
   <tr>
     <td> download_file</td>
-    <td> Download a single file to the current working directory.  If applicable, the target file will be saved locally under the name defined in the <strong>target_filename</strong> attribute.</td>
+    <td> Download a single file to the current working directory.  If applicable, the target file will be saved locally under the name defined in the <strong>target_filename</strong> attribute. Additionally a <strong>sha256sum</strong> attribute should be provided which will be checked to ensure integrity of your download.</td>
     <td> &lt;action type="download_file"&gt;<code>http://effectors.org/download/version/TTSS_GUI-1.0.1.jar</code>&lt;/action&gt;</td>
     <td> release_2013.06.03</td>
   </tr>
@@ -170,7 +170,7 @@
   </tr>
   <tr>
     <td> setup_r_environment</td>
-    <td> <a href='/SetUpREnvironment/'>Set up an R environment.</a></td>
+    <td> <a href='/SetUpREnvironment'>Set up an R environment.</a></td>
     <td> &lt;action type="setup_r_environment"&gt;&lt;repository name="package_r_3_0_1" owner="bgruening"&gt;&lt;package name="R" version="3.0.1" /&gt;&lt;/repository&gt;&lt;package&gt;<code>https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18BiocGenerics_0.6.0.tar.gz6</code>&lt;/package&gt;&lt;/action&gt;</td>
     <td> release_2013.11.04</td>
   </tr>

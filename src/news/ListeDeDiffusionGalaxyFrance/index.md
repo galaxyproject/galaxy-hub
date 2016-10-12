@@ -32,6 +32,6 @@ Alban Lermine
 
 ([Translate](http://translate.google.com/translate?u=http%3A%2F%2Fwiki.g2.bx.psu.edu%2FNews%2FListeDeDiffusionGalaxyFrance))
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2012-08-28T04:39:49Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-08-28T04:39:49Z)</div>
 
 CategoryNews

@@ -1,20 +1,22 @@
 ---
 autotoc: true
+pagetitle: Citing Galaxy
 ---
-<div class='center'><a href='http://genomebiology.com/2010/11/8/R86'><img src='/GenomeBiologyColver20108.gif/' alt='Genome Biology' height="125" /></a> 
-<a href='http://onlinelibrary.wiley.com/doi/10.1002/0471142727.mb1910s89/abstract'><img src='/CurrentProtocolsInMolBioCover.gif/' alt='Current Protocols in Molecular Biology' height="125" /></a> 
-<a href='http://genome.cshlp.org/content/15/10/1451.long'><img src='/GenomeResearchCover200510.gif/' alt='Genome Research' height="125" /></a>
-<a href='http://bit.ly/VMUz7p'><img src='/NatureBiotechnologyCover201211.gif/' alt='Nature Biotechnology' height="125" /></a>
-<a href='http://bit.ly/11AuV4O'><img src='/BioinformaticsCover.gif/' alt='Bioinformatics' height="125" /></a>
-<a href='http://onlinelibrary.wiley.com/doi/10.1002/0471250953.bi1502s39/abstract'><img src='/CurrentProtocolsInBioinformaticsCover.gif/' alt='Current Protocols in Bioinformatics' height="125" /></a>
-<a href='http://dx.doi.org/10.1136/amiajnl-2013-002059'><img src='/JAMIACover.gif/' alt='Journal of the American Medical Informatics Association (JAMIA)' height="125" /></a>
-<a href='http://onlinelibrary.wiley.com/doi/10.1002/cam4.360/full'><img src='/CancerMedicine.gif/' alt='Cancer Medicine' height="125" /></a>
-<a href='http://www.nature.com/nbt/journal/v33/n2/full/nbt.3134.html'><img src='/NatureBiotech201502Cover.gif/' alt='Nature Biotechnology' height="125" /></a>
+<div class='center'><a href='http://genomebiology.com/2010/11/8/R86'><img src='/GenomeBiologyColver20108.gif' alt='Genome Biology' height="125" /></a> 
+<a href='http://onlinelibrary.wiley.com/doi/10.1002/0471142727.mb1910s89/abstract'><img src='/CurrentProtocolsInMolBioCover.gif' alt='Current Protocols in Molecular Biology' height="125" /></a> 
+<a href='http://genome.cshlp.org/content/15/10/1451.long'><img src='/GenomeResearchCover200510.gif' alt='Genome Research' height="125" /></a>
+<a href='http://bit.ly/VMUz7p'><img src='/NatureBiotechnologyCover201211.gif' alt='Nature Biotechnology' height="125" /></a>
+<a href='http://bit.ly/11AuV4O'><img src='/BioinformaticsCover.gif' alt='Bioinformatics' height="125" /></a>
+<a href='http://onlinelibrary.wiley.com/doi/10.1002/0471250953.bi1502s39/abstract'><img src='/CurrentProtocolsInBioinformaticsCover.gif' alt='Current Protocols in Bioinformatics' height="125" /></a>
+<a href='http://dx.doi.org/10.1136/amiajnl-2013-002059'><img src='/JAMIACover.gif' alt='Journal of the American Medical Informatics Association (JAMIA)' height="125" /></a>
+<a href='http://onlinelibrary.wiley.com/doi/10.1002/cam4.360/full'><img src='/CancerMedicine.gif' alt='Cancer Medicine' height="125" /></a>
+<a href='http://www.nature.com/nbt/journal/v33/n2/full/nbt.3134.html'><img src='/NatureBiotech201502Cover.gif' alt='Nature Biotechnology' height="125" /></a>
 </div>
 
 
-<div class="title">Citing Galaxy</div>
 
+
+<div class='right'></div>
 
 Please cite Galaxy in any research that uses or extends Galaxy.  Please cite the [primary publication](#primary-publication) for project wide citations.  There are also several [publications on more specific topics](#citing-specific-galaxy-components--features) that should be referenced when appropriate.  Finally, there is a [list of Galaxy Project publications by year](#galaxy-project-publications-by-year).
 
@@ -26,7 +28,7 @@ If you *used* Galaxy in your methods, we also request that you specify which ins
 
 If you use or extend Galaxy in your published work, please cite this publication:
 
- [Enis Afgan](/EnisAfgan), [Dannon Baker](/DannonBaker), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Daniel Blankenberg](/Dan), [Dave Bouvier](/DaveBouvier), [Martin Čech](/Marten), [John Chilton](/JohnChilton), [Dave Clements](/DaveClements), [Nate Coraor](/nate), [Carl Eberhard](/CarlEberhard), [Björn Grüning](/BjoernGruening), [Aysam Guerler](/guerler), [Jennifer Hillman-Jackson](/JenniferJackson), [Greg Von Kuster](/greg_vonkuster), [Eric Rasche](https://github.com/erasche), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Nitesh Turaga](/NiteshTuraga), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton), and [Jeremy Goecks](/JeremyGoecks). [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](http://nar.oxfordjournals.org/content/early/2016/05/02/nar.gkw343.long).  *Nucleic Acids Research* (2016) doi: 10.1093/nar/gkw343 
+ [Enis Afgan](/EnisAfgan), [Dannon Baker](/DannonBaker), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Daniel Blankenberg](/Dan), [Dave Bouvier](/DaveBouvier), [Martin Čech](/Marten), [John Chilton](/JohnChilton), [Dave Clements](/DaveClements), [Nate Coraor](/nate), [Carl Eberhard](/CarlEberhard), [Björn Grüning](/BjoernGruening), [Aysam Guerler](/guerler), [Jennifer Hillman-Jackson](/JenniferJackson), [Greg Von Kuster](/greg_vonkuster), [Eric Rasche](https://github.com/erasche), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Nitesh Turaga](/NiteshTuraga), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton), and [Jeremy Goecks](/JeremyGoecks). [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](http://nar.oxfordjournals.org/content/44/W1/W3.full).  *Nucleic Acids Research* (2016) doi: 10.1093/nar/gkw343 
  
 This and other references are also [available in GitHub](https://github.com/galaxyproject/galaxy/blob/dev/CITATION) as a [CITATION file](http://software-carpentry.org/blog/2013/09/introducing-citation-files.html). 
 
@@ -46,6 +48,10 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 
  [Daniel Blankenberg](/Dan), James E. Johnson, The [Galaxy Team](/GalaxyTeam), [James Taylor](/JamesTaylor) and [Anton Nekrutenko](/anton), "[Wrangling Galaxy's Reference Data](http://bioinformatics.oxfordjournals.org/content/early/2014/02/27/bioinformatics.btu119.abstract)," in *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (2014) doi: 10.1093/bioinformatics/btu119
 
+### Interactive Environments
+
+ [Björn Grüning](/BjoernGruening), [Eric Rasche](/EricRasche), Boris Rebolledo-Jaramillo, [Carl Eberhard](/CarlEberhard), Torsten Houwaart, [John Chilton](/JohnChilton), [Nate Coroar](/nate), Rolf Backofen, [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton). [Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter](http://dx.doi.org/10.1101/075457), *bioRxiv*, 2016 DOI: 10.1101/075457 
+
 ### Reproducibility
 
  Geir Kjetil Sandve, [Anton Nekrutenko](/anton), [James Taylor](/JamesTaylor), Eivind Hovig, "[Ten Simple Rules for Reproducible Computational Research](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285)," in *[PLoS Computational Biology](http://www.ploscompbiol.org/)* 9(10): e1003285. doi:10.1371/journal.pcbi.1003285
@@ -64,15 +70,23 @@ Papers about or using Galaxy with [core team members](/GalaxyTeam) as authors.
 
 ### 2016
 
+1. [Björn Grüning](/BjoernGruening), [Eric Rasche](/EricRasche), Boris Rebolledo-Jaramillo, [Carl Eberhard](/CarlEberhard), Torsten Houwaart, [John Chilton](/JohnChilton), [Nate Coroar](/nate), Rolf Backofen, [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton). [Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter](http://dx.doi.org/10.1101/075457), *bioRxiv*, 2016 DOI: 10.1101/075457 
+
+1. Nicholas Stoler, Barbara Arbeithuber, Wilfried Guiblet, Kateryna D. Makova, [Anton Nekrutenko](/anton). [Streamlined analysis of duplex sequencing data with Du Novo](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1039-4), *Genome Biology*, 201617:180 DOI: 10.1186/s13059-016-1039-4
+
 1. [Enis Afgan](/EnisAfgan), Andrew Lonie, [JamesTaylor](/JamesTaylor), Karolj Skala, Nuwan Goonasekera. [Architectural Models for Deploying and Running Virtual Laboratories in the Cloud](http://docs.mipro-proceedings.com/dcvis/dcvis_22_3774.pdf), [mipro Proceedings](http://docs.mipro-proceedings.com/proceedings/mipro_2016_proceedings.pdf), ISSN 1847-3938
  
-1. [Enis Afgan](/EnisAfgan), [Dannon Baker](/DannonBaker), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Daniel Blankenberg](/Dan), [Dave Bouvier](/DaveBouvier), [Martin Čech](/Marten), [John Chilton](/JohnChilton), [Dave Clements](/DaveClements), [Nate Coraor](/nate), [Carl Eberhard](/CarlEberhard), [Björn Grüning](/BjoernGruening), [Aysam Guerler](/guerler), [Jennifer Hillman-Jackson](/JenniferJackson), [Greg Von Kuster](/greg_vonkuster), [Eric Rasche](https://github.com/erasche), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Nitesh Turaga](/NiteshTuraga), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton), and [Jeremy Goecks](/JeremyGoecks). [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](http://nar.oxfordjournals.org/content/early/2016/05/02/nar.gkw343.long).  *Nucleic Acids Research* (2016) doi: 10.1093/nar/gkw343 
+1. [Enis Afgan](/EnisAfgan), [Dannon Baker](/DannonBaker), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Daniel Blankenberg](/Dan), [Dave Bouvier](/DaveBouvier), [Martin Čech](/Marten), [John Chilton](/JohnChilton), [Dave Clements](/DaveClements), [Nate Coraor](/nate), [Carl Eberhard](/CarlEberhard), [Björn Grüning](/BjoernGruening), [Aysam Guerler](/guerler), [Jennifer Hillman-Jackson](/JenniferJackson), [Greg Von Kuster](/greg_vonkuster), [Eric Rasche](https://github.com/erasche), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Nitesh Turaga](/NiteshTuraga), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton), and [Jeremy Goecks](/JeremyGoecks). [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](http://nar.oxfordjournals.org/content/44/W1/W3.full).  *Nucleic Acids Research* (2016) doi: 10.1093/nar/gkw343 
  
+1. Kun Qu, Sara Garamszegi, Felix Wu, Helga Thorvaldsdottir, Ted Liefeld, Marco Ocana, Borges-Rivera, Diego Borges-Rivera, Pochet, Nathalie Pochet, James T. Robinson, Barry Demchak, Tim Hull, Gil Ben-Artzi, [Daniel Blankenberg](/Dan), Galt P. Barber, Brian T. Lee, Robert M. Kuhn, [Anton Nekrutenko](/anton), Eran Segal, Trey Ideker, Michael Reich, Aviv Regev, Howard Y. Chang, Jill P. Mesirov. [Integrative genomic analysis by interoperation of bioinformatics tools in GenomeSpace](http://www.nature.com/nmeth/journal/v13/n3/full/nmeth.3732.html). *Nature Methods*, Volume: 13  Issue: 3  Pages: 245-+ DOI: 10.1038/NMETH.3732
+
 1. Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/Marten), and Geir Kjetil Sandve. "[Galaxy Portal: Interacting with the Galaxy platform through mobile devices](http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw042.abstract)." *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
 
 
 ### 2015
  
+1. Lukas Forer, [Enis Afgan](/EnisAfgan), Hansi Weissensteiner, Davor Davidovic, Gunther Specht, Florian Kronenberg, Sebastian Schonherr. [Cloudflow - A framework for MapReduce pipeline development in Biomedical Research](https://figshare.com/articles/Cloudflow_A_Framework_for_MapReduce_Pipeline_Development_in_Biomedical_Research/1424739), [Information and Communication Technology, Electronics and Microelectronics (MIPRO), 2015 38th International Convention on](http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7153596), ISBN: 978-953-233-085-4
+
 1. [Enis Afgan](/EnisAfgan), Clare Sloggett, Nuwan Goonasekera, Igor Makunin, Derek Benson, Mark Crowe, Simon Gladman, Yousef Kowsar, Michael Pheasant, Ron Horst, Andrew Lonie, "[Genomics Virtual Laboratory: A Practical Bioinformatics Workbench for the Cloud](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140829)," *PLoS ONE* 10(10): e0140829. doi:10.1371/journal.pone.0140829 
 
 1. Peter J. A. Cock, [John M. Chilton](/JohnChilton), [Björn Grüning](/BjoernGruening), James E. Johnson, and [Nicola Soranzo](/NicolaSoranzo), "[NCBI BLAST+ integrated into Galaxy](http://www.gigasciencejournal.com/content/4/1/39)," *!GigaScience* 2015, 4:39  doi:10.1186/s13742-015-0080-7 
@@ -213,7 +227,7 @@ If you want to include a general Galaxy URL, we encourage you to use one of thes
 
 ## Citations
 
-See the [Citations section](/GalaxyProject/Statistics/#publications--citations) of the [project statistics page](/GalaxyProject/Statistics) for a summary of citations of project papers.
+See the [Citations section](/GalaxyProject/Statistics#publications--citations) of the [project statistics page](/GalaxyProject/Statistics) for a summary of citations of project papers.
 
 ## CiteULike
 

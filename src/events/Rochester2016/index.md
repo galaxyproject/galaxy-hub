@@ -1,15 +1,15 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle"> <a href='https://www.rochester.edu/'><img src='/Images/Logos/URochester.png' alt='University of Rochester'  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='https://www.rochester.edu/'><img src='/Images/Logos/URochester.png' alt='University of Rochester'  /></a> </td>
   </tr>
 </table>
 
 
-<div class="title">Introduction to Galaxy<br />9:00-5:00, July 19-20, 2016</div>
+<div class='title'>Introduction to Galaxy<br />9:00-5:00, July 19-20, 2016</div>
 
-**Location: TBD<br />
-[University of Rochester](https://www.rochester.edu/)
+**[Kathryn W. Nesbit Classroom #2](https://www.urmc.rochester.edu/libraries/miner/teaching_and_learning/classrooms.cfm), [Edward G. Miner Library](https://www.urmc.rochester.edu/libraries/miner/index.cfm)<br />
+[University of Rochester Medical Center](https://www.urmc.rochester.edu/)
 
 Instructor: [Dave Clements](/DaveClements)
 **
@@ -18,7 +18,12 @@ Instructor: [Dave Clements](/DaveClements)
 
 ## Registration
 
-[Registration](https://docs.google.com/forms/d/13j3dVkcpHbd2p0nWghnYeOrd4iQkXhRCGnLXCZpvp-k/viewform) is free and open to any member of the University of Rochester community. Space is available on a first-come, first served basis. **[Register now](/Link To Registration).**
+[Registration](https://www.urmc.rochester.edu/libraries/miner/teaching_and_learning/classes/) is free and open to any member of the University of Rochester community. Space is available on a first-come, first served basis. 
+<br />
+
+<div class='center'>
+** <span style="font-size: larger;">[Register now](https://www.urmc.rochester.edu/libraries/miner/teaching_and_learning/classes/).** </span>
+</div>
 
 ## Audience
 Are you a life scientist who needs to do complex analysis on large datasets?
@@ -58,7 +63,7 @@ No programming or Linux command line experience is required.
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:20 </th>
-    <td style=" text-align: center;"> </strong>Lunch<strong> (on your own) </td>
+    <td style=" text-align: center;"> </strong>Lunch<strong> (catered) </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 1:20 </th>
@@ -92,7 +97,7 @@ No programming or Linux command line experience is required.
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:20 </th>
-    <td> </strong>RNA-Seq Example Part III<strong><div class='indent'>Splice Junction Identification </div> </td>
+    <td> </strong>RNA-Seq Example Part III<strong><div class='indent'> Differential expression </div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:45 </th>
@@ -100,15 +105,15 @@ No programming or Linux command line experience is required.
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
-    <td> </strong>RNA-Seq Example Part IV<strong><div class='indent'> Differential expression </div> </td>
+    <td> </strong>RNA-Seq Example Part IV<strong><div class='indent'> Enrichment analysis, and using Galaxy to compare tools</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:20 </th>
-    <td style=" text-align: center;"> </strong>Lunch<strong> (on your own) </td>
+    <td style=" text-align: center;"> </strong>Lunch<strong> (catered) </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 1:20 </th>
-    <td> </strong>RNA-Seq Example Part V<strong><div class='indent'> Enrichment analysis, and using Galaxy to compare tools</div> </td>
+    <td> </strong>RNA-Seq Example Part V<strong><div class='indent'> Splice Junction Identification</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:50 </th>
@@ -131,15 +136,28 @@ No programming or Linux command line experience is required.
 <div class='center'><br />
 <a href='http://www.circ.rochester.edu/'><img src='/Images/Logos/Rochester_CIRC.png' alt='Center for Integrated Research Computing (CIRC)' width="220" /></a> &nbsp;&nbsp;
 <a href='https://www.urmc.rochester.edu/libraries/miner/index.cfm'><img src='/Images/Logos/Rochester_MinerLibrary.png' alt='Edward G. Miner Library' width="300" /></a> &nbsp;&nbsp;
+<a href='https://www.urmc.rochester.edu/research/for-researchers/shared-resource-laboratories-facilities/laboratories/Rochester-Genomics-Center/'><img src='/Images/Logos/URochesterMC.png' alt='The UR Genomics Research Center (GRC)' width="220" /></a> &nbsp;&nbsp;
+<a href='https://www.urmc.rochester.edu/smd/it/research/research-data-integration-and-analytics-rdia.aspx'><img src='/Images/Logos/URochesterSOMAD.jpg' alt='UR Research Data Integration and Analytics (RDIA)' width="200" /></a> &nbsp;
 <a href='https://www.rochester.edu/'><img src='/Images/Logos/URochester.png' alt='University of Rochester' width="220" /></a> &nbsp;&nbsp;
 <a href='http://www.nih.gov/'><img src='/Images/Logos/NIHwithTagline.png' alt='National Institutes of Health (NIH)' width="220" /></a>
 </div><br />
 
-This workshop is generously supported by the [Center for Integrated Research Computing (CIRC)](http://www.circ.rochester.edu/), the [Edward G. Miner Library](https://www.urmc.rochester.edu/libraries/miner/index.cfm), the [University of Rochester](https://www.rochester.edu/), and the [National Institutes of Health (NIH)](http://www.nih.gov/).
+This workshop is generously supported by **
+* [Center for Integrated Research Computing (CIRC)](http://www.circ.rochester.edu/) 
+* [UR Genomics Research Center (GRC)](https://www.urmc.rochester.edu/research/for-researchers/shared-resource-laboratories-facilities/laboratories/Rochester-Genomics-Center/) 
+* [Edward G. Miner Library](https://www.urmc.rochester.edu/libraries/miner/index.cfm) 
+* [UR Research Data Integration and Analytics (RDIA)](https://www.urmc.rochester.edu/smd/it/research/research-data-integration-and-analytics-rdia.aspx)
+* [University of Rochester](https://www.rochester.edu/)
+* [National Institutes of Health (NIH)](http://www.nih.gov/)
+**
+
+## Flier
+
+Please post / distribute the [workshop flier](ATTACHMENT_URLRochester2016Workshop.pdf) to anyone who might be interested.
 
 ## Slides
 
-* [Slides](ATTACHMENT_URLDocuments/Presentations/20160CornellWorkshop.pdf)
+* **[Slides](ATTACHMENT_URLDocuments/Presentations/20160RochesterWorkshop.pdf)**
 
 ## Feedback
 
@@ -147,4 +165,4 @@ We will ask for it!
 
 ## Questions?
 
-Contact [outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [John Ashton](https://www.urmc.rochester.edu/people/26567020-john-m-ashton) or [Dave Clements](/DaveClements).

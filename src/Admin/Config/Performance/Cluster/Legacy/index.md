@@ -1,8 +1,9 @@
 ---
 autotoc: true
+pagetitle: Running Galaxy Tools on a Cluster
 ---
-INCLUDE(/Admin/Config/Performance/LinkBox)
-<div class="title">Running Galaxy Tools on a Cluster</div>
+PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
+
 Galaxy is designed to run jobs on your local system by default, but it can be configured to run jobs on a cluster. The front-end Galaxy application runs on a single server as usual, but tools are run on cluster nodes instead.
 
 
@@ -20,17 +21,18 @@ This documentation applies to old Galaxy releases.  For the April 1, 2013 (tag `
 
 
 
+
 ## Cluster Resources Managers
 
 
 
 
-<div class='left'><a href='http://www.drmaa.org'><img src='/Images/Logos/DRMAALogo200.png' alt='DRMAA' /></a></div>Galaxy is known to work with [TORQUE PBS](http://www.clusterresources.com/pages/products/torque-resource-manager.php), [Sun Grid Engine](http://gridengine.sunsource.net/), [Platform LSF](http://www.platform.com/workload-management/high-performance-computing), [PBS Pro](http://www.pbsworks.com/Product.aspx?id=1) and there's work in progress for [SLURM](https://computing.llnl.gov/linux/slurm/) (see this [blog post](http://mdahlo.blogspot.com/2011/06/galaxy-on-uppmax.html)). However, since Galaxy uses the [Distributed Resource Management Application API](http://www.drmaa.org), it should work with [any distributed resource manager (DRM) which implements the DRMAA](http://www.drmaa.org/implementations.php). Galaxy interfaces with these systems via [drmaa-python](http://code.google.com/p/drmaa-python/), although for legacy reasons, [pbs_python](https://subtrac.sara.nl/oss/pbs_python) can be used for <<nwwl(TORQUE)>>. If you successfully run Galaxy with another DRM, please let us know via an email to the [galaxy-dev mailing list](/MailingLists).
+<div class='left'><a href='http://www.drmaa.org'><img src='/Images/Logos/DRMAALogo200.png' alt='DRMAA' /></a></div>Galaxy is known to work with [TORQUE PBS](http://www.clusterresources.com/pages/products/torque-resource-manager.php), [Sun Grid Engine](http://gridengine.sunsource.net/), [Platform LSF](http://www.platform.com/workload-management/high-performance-computing), [PBS Pro](http://www.pbsworks.com/Product.aspx?id=1) and there's work in progress for [SLURM](https://computing.llnl.gov/linux/slurm/) (see this [blog post](http://mdahlo.blogspot.com/2011/06/galaxy-on-uppmax.html)). However, since Galaxy uses the [Distributed Resource Management Application API](http://www.drmaa.org), it should work with [any distributed resource manager (DRM) which implements the DRMAA](http://www.drmaa.org/implementations.php). Galaxy interfaces with these systems via [drmaa-python](http://code.google.com/p/drmaa-python/), although for legacy reasons, [pbs_python](https://subtrac.sara.nl/oss/pbs_python) can be used for TORQUE. If you successfully run Galaxy with another DRM, please let us know via an email to the [galaxy-dev mailing list](/MailingLists).
 
 
 
 
-Galaxy contributor John Chilton has also written [Pulsar](/Admin/Config/Pulsar) which does not require an existing cluster or a shared filesystem and can also run jobs on Windows hosts. Please see the <<nwwl(README)>> included with Pulsar for instructions on how to set it up.
+Galaxy contributor John Chilton has also written [Pulsar](/Admin/Config/Pulsar) which does not require an existing cluster or a shared filesystem and can also run jobs on Windows hosts. Please see the README included with Pulsar for instructions on how to set it up.
 
 
 
@@ -45,7 +47,7 @@ Installing and configuring your cluster hardware and management software is outs
 
 
 
-The drmaa egg is provided by Galaxy, but you must tell it where your resource manager's <<nwwl(DRMAA)>> library is located, and this is done with the `$DRMAA_LIBRARY_PATH` environment variable:
+The drmaa egg is provided by Galaxy, but you must tell it where your resource manager's DRMAA library is located, and this is done with the `$DRMAA_LIBRARY_PATH` environment variable:
 
 
 
@@ -59,7 +61,7 @@ The drmaa egg is provided by Galaxy, but you must tell it where your resource ma
 
 
 
-**Important note on using the drmaa runner with <<nwwl(TORQUE)>>**: The drmaa egg and runner can be used with <<nwwl(TORQUE)>>, but you should not use the `libdrmaa.so` that is bundled with the <<nwwl(TORQUE)>> client, since using this library will result in a segmentation fault when the drmaa runner attempts to write the job template, and any native job runner options will not be passed to the DRM.  Instead, you should compile the [pbs-drmaa](http://apps.man.poznan.pl/trac/pbs-drmaa/wiki) library and use this as the value for `DRMAA_LIBRARY_PATH` instead.  Thanks to Oleksandr Moskalenko for debugging this problem and finding the solution.
+**Important note on using the drmaa runner with TORQUE**: The drmaa egg and runner can be used with TORQUE, but you should not use the `libdrmaa.so` that is bundled with the TORQUE client, since using this library will result in a segmentation fault when the drmaa runner attempts to write the job template, and any native job runner options will not be passed to the DRM.  Instead, you should compile the [pbs-drmaa](http://apps.man.poznan.pl/trac/pbs-drmaa/wiki) library and use this as the value for `DRMAA_LIBRARY_PATH` instead.  Thanks to Oleksandr Moskalenko for debugging this problem and finding the solution.
 
 
 
@@ -69,7 +71,7 @@ The drmaa egg is provided by Galaxy, but you must tell it where your resource ma
 
 
 
-pbs_python is dependent upon <<nwwl(TORQUE)>> and is not provided by Galaxy. You must "scramble" it yourself (for more information on Galaxy's Python Egg dependencies, see the [Eggs](/Admin/Config/Eggs) page). Fortunately, this process should be simple:
+pbs_python is dependent upon TORQUE and is not provided by Galaxy. You must "scramble" it yourself (for more information on Galaxy's Python Egg dependencies, see the [Eggs](/Admin/Config/Eggs) page). Fortunately, this process should be simple:
 
 
 
@@ -93,7 +95,7 @@ Galaxy supports two different methods of cluster deployment:
 
 
 * **Unified:** The copy of Galaxy on the application server is the same copy as the one on the cluster nodes. The most common method to do this would be to put Galaxy in NFS somewhere that is accessible by the application server and the cluster nodes. We'll refer to this as the *unified* method.
-* **Staged:** The copy of Galaxy on the application server is NOT the same copy as the one on the cluster nodes. For example, Galaxy is put in local disk space on all the systems. This is a more complex configuration but can reduce stress on an NFS server for certain types of jobs. We'll refer to this as the *staged* method. Using the staged method is not recommended unless your tools are writing so much that it's causing problems with your NFS server. This process is fairly complex and assumes an intermediate level of *nix sysadmin knowledge. The staged method is currently only supported with <<nwwl(TORQUE)>>.  *Please note that the Staged Method is not in active use or development, and while we may be able to fix bugs that arise in this method due to changes in the way jobs run, not much time will be invested in maintaining it.*
+* **Staged:** The copy of Galaxy on the application server is NOT the same copy as the one on the cluster nodes. For example, Galaxy is put in local disk space on all the systems. This is a more complex configuration but can reduce stress on an NFS server for certain types of jobs. We'll refer to this as the *staged* method. Using the staged method is not recommended unless your tools are writing so much that it's causing problems with your NFS server. This process is fairly complex and assumes an intermediate level of *nix sysadmin knowledge. The staged method is currently only supported with TORQUE.  *Please note that the Staged Method is not in active use or development, and while we may be able to fix bugs that arise in this method due to changes in the way jobs run, not much time will be invested in maintaining it.*
 
 
 
@@ -143,7 +145,7 @@ node1%
 
 
 
-One should also check that the job manager can accept jobs from the `galaxy` user.  This is typically not an issue unless the `galaxy` user lacks a shell login (not uncommon with secure server configurations); this may be an assigned shell of `/bin/false` (Debian/Ubuntu) or `/bin/nologin` (Fedora/<<nwwl(RedHat)>>).  A default shell login is typically required for job submission with [TORQUE/PBS](http://www.clusterresources.com/pages/products/torque-resource-manager.php); this can be set using `usermod`:
+One should also check that the job manager can accept jobs from the `galaxy` user.  This is typically not an issue unless the `galaxy` user lacks a shell login (not uncommon with secure server configurations); this may be an assigned shell of `/bin/false` (Debian/Ubuntu) or `/bin/nologin` (Fedora/RedHat).  A default shell login is typically required for job submission with [TORQUE/PBS](http://www.clusterresources.com/pages/products/torque-resource-manager.php); this can be set using `usermod`:
 
 
 
@@ -189,12 +191,12 @@ You may also find that you need to disable attribute caching in your filesystem.
 
 
 
-This method makes use of PBS' stage-in/stage-out capabilities to copy the job's input datasets to the node and output datasets back from the node before and after the job runs. HOW these are staged is configured in <<nwwl(TORQUE)>>. By default, it uses rcp, but we suggest using scp. Information on how to configure staging is available in the [TORQUE Administrator Manual](http://www.clusterresources.com/wiki/doku.php?id=torque:torque_wiki). Ensure that both stage-in and stage-out works from your application server before proceeding.
+This method makes use of PBS' stage-in/stage-out capabilities to copy the job's input datasets to the node and output datasets back from the node before and after the job runs. HOW these are staged is configured in TORQUE. By default, it uses rcp, but we suggest using scp. Information on how to configure staging is available in the [TORQUE Administrator Manual](http://www.clusterresources.com/wiki/doku.php?id=torque:torque_wiki). Ensure that both stage-in and stage-out works from your application server before proceeding.
 
 
 
 
-TIP: To use scp, you'll need to make sure that the galaxy user can scp/ssh from <<nwwl(EACH)>> cluster node to the application server with no password or host key prompts! This usually means logging in to each node and initiating an ssh connection back to the application server to accept the host key (or pre-distributing the galaxy user's ~/.ssh/known_hosts file).
+TIP: To use scp, you'll need to make sure that the galaxy user can scp/ssh from EACH cluster node to the application server with no password or host key prompts! This usually means logging in to each node and initiating an ssh connection back to the application server to accept the host key (or pre-distributing the galaxy user's ~/.ssh/known_hosts file).
 
 
 
@@ -389,8 +391,8 @@ In the Galaxy config (universe_wsgi.ini), the desired job runner is specified wi
   * **pbs:///** - Use the default queue on the default PBS server.
   * **pbs:///galaxy** - Use the 'galaxy' queue on the default PBS server.
   * **pbs://torque2.example.edu/** - Use the default queue on the torque2.example.edu PBS server.
-  * **pbs:///bignodes/-l nodes=1:ppn=8,mem=32gb/** - Use the 'bignodes' queue and require 8 <<nwwl(CPUs)>> on one node and 32GB of memory. Separate multiple PBS flag options with spaces.
-* **drmaa://[native_options]/** - The <<nwwl(DRMAA)>> runner. Arguments are any DRM-specific options, and are optional:
+  * **pbs:///bignodes/-l nodes=1:ppn=8,mem=32gb/** - Use the 'bignodes' queue and require 8 CPUs on one node and 32GB of memory. Separate multiple PBS flag options with spaces.
+* **drmaa://[native_options]/** - The DRMAA runner. Arguments are any DRM-specific options, and are optional:
   * **drmaa:///** - Use the environment defaults for RM-specific attributes like queue and project.
   * **drmaa://-P bignodes -R y -pe threads 8/** - Use the 'bignodes' project and reserve a node with 8 cores for the tool. Separate multiple DRM flag options with spaces.
 
@@ -417,7 +419,7 @@ The config file has a section titled [galaxy:tool_runners], which is where you m
 
 
 
-* If the **start_job_runners** option is not set in universe_wsgi.ini, the local job runner will <<nwwl(ALWAYS)>> be used, regardless of whether or not the tool has an override specified.
+* If the **start_job_runners** option is not set in universe_wsgi.ini, the local job runner will ALWAYS be used, regardless of whether or not the tool has an override specified.
 * If the **start_job_runners** option IS set, then the [galaxy:tool_runners] section is consulted. If there's no override for the tool, then the URL specified in **default_cluster_job_runner** is what will be used to run the job.
 
 
@@ -477,7 +479,7 @@ Since this is a complex problem, the current solution does have some caveats:
 
 
 * All of the datasets stored in Galaxy will have to be readable on the underlying filesystem by all Galaxy users. Said users need not have direct access to any systems which mount these filesystems, only the ability to run jobs on clusters that mount them. But I expect that in most environments, users will have the ability to submit jobs to these clusters or log in to these clusters outside of Galaxy, so this will be a security concern to evaluate for most environments.
-  * *Technical details* - Since Galaxy maintains dataset sharing internally and all files are owned by the Galaxy user, when running jobs only under a single user, permissions can be set such that only the Galaxy user can read all datasets. Since the dataset may be shared by multiple users, it is not suitable to simply change ownership of inputs before a job runs (what if another user tried to use the same dataset as an input during this time?). This could possibly be solved if Galaxy had tight control over extended <<nwwl(ACLs)>> on the file, but since many different ACL schemes exist, Galaxy would need a module for each scheme to be supported.
+  * *Technical details* - Since Galaxy maintains dataset sharing internally and all files are owned by the Galaxy user, when running jobs only under a single user, permissions can be set such that only the Galaxy user can read all datasets. Since the dataset may be shared by multiple users, it is not suitable to simply change ownership of inputs before a job runs (what if another user tried to use the same dataset as an input during this time?). This could possibly be solved if Galaxy had tight control over extended ACLs on the file, but since many different ACL schemes exist, Galaxy would need a module for each scheme to be supported.
 * The real user system works by changing ownership of the job's working directory to the system user matching the Galaxy user's email address (with the @domain stripped off) prior to running the job, and back to the Galaxy user once the job has completed. It does this by executing a site-customizable script via [sudo](http://www.gratisoft.us/sudo/). The script accepts a path and does nothing to ensure that this path is a Galaxy working directory. So anyone who has access to the Galaxy user could use this script and sudo to change the ownership of any file or directory. Patches to tighten this are welcome.
 
 
@@ -488,7 +490,7 @@ Since this is a complex problem, the current solution does have some caveats:
 
 
 
-You'll need to ensure that all datasets are stored on the filesystem such that they are readable by all users that will use Galaxy: either made readable by a group, or world-readable. If using a group, set your `umask(1)` to **027** or for world-readable, use **022** Setting umask assumes your underlying filesystem uses <<nwwl(POSIX)>> permissions, so if this is not the case, your environment changes may be different.
+You'll need to ensure that all datasets are stored on the filesystem such that they are readable by all users that will use Galaxy: either made readable by a group, or world-readable. If using a group, set your `umask(1)` to **027** or for world-readable, use **022** Setting umask assumes your underlying filesystem uses POSIX permissions, so if this is not the case, your environment changes may be different.
 
 
 

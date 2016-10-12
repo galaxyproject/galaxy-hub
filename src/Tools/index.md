@@ -1,4 +1,4 @@
-INCLUDE(/Admin/Tools/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
 # Tools in Galaxy
 Every Galaxy is much defined by its tools. You can either use them as a user, install them as an admin or you contribute to the community by writing tools or preparing them for use with Galaxy as a tool developer.
 

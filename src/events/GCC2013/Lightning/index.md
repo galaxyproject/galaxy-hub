@@ -1,19 +1,21 @@
 ---
 autotoc: true
+pagetitle: Lightning Talks
 ---
-INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 
-<div class="title">Lightning Talks</div>
 
-INCLUDE(/Events/GCC2013/LinkBox)
 
-Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Monday](/Events/GCC2013/Program/#day-1-main-meeting-1-july) (moderated by [Ross Lazarus](/RossLazarus)) and [Session 8 on Tuesday](/Events/GCC2013/Program/#day-2-main-meeting-2-july) (moderated by [Hans-Rudolf Hotz](/HansrudolfHotz)).  **No more than half the lightning talk slots will be allocated before the meeting.**
+PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
+
+Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Monday](/Events/GCC2013/Program#day-1-main-meeting-1-july) (moderated by [Ross Lazarus](/RossLazarus)) and [Session 8 on Tuesday](/Events/GCC2013/Program#day-2-main-meeting-2-july) (moderated by [Hans-Rudolf Hotz](/HansrudolfHotz)).  **No more than half the lightning talk slots will be allocated before the meeting.**
 
 If you wish to give a lightning talk, please send an abstract to [gcc2013-sci AT galaxyproject DOT org](GCC2013 Scientific Committee), either 
-* any time before the start of [Session 2](../Program/#day-1-main-meeting-1-july) (to be considered for Monday or Tuesday slots), or 
-* before [Session 6](../Program/#day-2-main-meeting-2-july) (to be considered for Tuesday only).  
+* any time before the start of [Session 2](../Program#day-1-main-meeting-1-july) (to be considered for Monday or Tuesday slots), or 
+* before [Session 6](../Program#day-2-main-meeting-2-july) (to be considered for Tuesday only).  
 
 The slides for all lightning talks will be made available on the this page, and the talks may be videotaped and posted here as well.
+
 
 
 ## Lightning Talks
@@ -22,7 +24,7 @@ There are two lightning talk sessions, one on each day of the [main meeting](/Ev
 
 ### Day 1: Monday 1 July
 
-During [Session 4](/Events/GCC2013/Program/#day-1-main-meeting-1-july), moderated by [Ross Lazarus](/RossLazarus).
+During [Session 4](/Events/GCC2013/Program#day-1-main-meeting-1-july), moderated by [Ross Lazarus](/RossLazarus).
 
 #### Medilaxy: A Galaxy Platform For Medical Image Analysis
 
@@ -163,7 +165,7 @@ A quick overview of the Galaxy source code organization. This can be useful for 
 
 ### Day 2: Tuesday 2 July
 
-During [Session 8](/Events/GCC2013/Program/#day-2-main-meeting-2-july), moderated by [Hans-Rudolf Hotz](/HansrudolfHotz).
+During [Session 8](/Events/GCC2013/Program#day-2-main-meeting-2-july), moderated by [Hans-Rudolf Hotz](/HansrudolfHotz).
 
 #### How to set up a Galaxy service you can count upon
 
@@ -380,4 +382,4 @@ From [Ross Lazarus](/RossLazarus), *Benevolent Lightning Session Moderator for L
 * You are advised not to read your acknowledgements out loud. It's a lightning talk for heaven's sake. 
 
 
-INCLUDE(/Events/GCC2013/Footer)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Footer)

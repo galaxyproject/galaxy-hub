@@ -1,4 +1,5 @@
 
+#language en
 # Eric Rasche
 
 Email: [esr@tamu.edu](esr@tamu.edu) [rasche.eric@gmail.com](rasche.eric@gmail.com)
@@ -12,5 +13,5 @@ My work projects inlucde:
 * Tools for bacteriophage analysis and automated annotation
 * Automating the conversion of tools for use in Galaxy
 
-----
+---
 CategoryHomepage

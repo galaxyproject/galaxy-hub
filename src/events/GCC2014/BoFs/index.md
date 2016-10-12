@@ -1,10 +1,13 @@
-INCLUDE(/Events/GCC2014/Header)
+---
+pagetitle: Birds of a Feather , (, BoF, ),  Flock Together at GCC2014
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
 <br /><br />
 
-INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
-<div class="title">Birds of a Feather (BoF) Flock Together at GCC2014</div>
+
 
 <div class='left'>![](/Images/Logos/GCC2014_BoF_LogoSquare.png)</div>
 
@@ -15,7 +18,7 @@ BoF meetups are encouraged throughout GCC2014.  We particularly want to encourag
 
 ## GCC2014 BoFs
 
-<<DictColumns(pagename=Events/GCC2014/BoFs, names="BoF, Summary, Audience, Contact", sort="BoF", title="Hide", hide="Hide")>>
+PLACEHOLDER_DICT_COLUMNS(pagename=Events/GCC2014/BoFs, names="BoF, Summary, Audience, Contact", sort="BoF", title="Hide", hide="Hide")
 
 
 ## BoF Support
@@ -27,4 +30,4 @@ The conference *enables and encourages* !BoFs by
 * Promote !BoFs to all conference participants, over and over, both before and during the conference ~~until everyone actually grows feathers~~.
 * Coordinate and reserve rooms for !BoFs, and allocate time in the schedule for them too.
 
-INCLUDE(/Events/GCC2014/Footer)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Footer)

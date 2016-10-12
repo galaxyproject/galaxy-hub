@@ -1,11 +1,13 @@
 ---
 autotoc: true
+pagetitle: Organizers
 ---
-INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 
-<div class="title">Organizers</div>
 
-INCLUDE(/Events/GCC2013/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
+
 
 
 ## Organizing Committee
@@ -40,4 +42,4 @@ The Scientific Committee can be reached at [gcc2013 DASH sci AT galaxyproject DO
  **[James Taylor](/JamesTaylor)**, Committee Chair
    [Emory University](http://emory.edu)
 
-INCLUDE(/Events/GCC2013/Footer)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Footer)

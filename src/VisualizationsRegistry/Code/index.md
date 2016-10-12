@@ -72,7 +72,7 @@ Interactivity can be used via python or !JavaScript as well:
   embedded into another web page.
 
 
-----
+---
 ## Data: the Datasets API and DataProviders
 The primary purpose of Galaxy visualizations is the visual analysis of the data inside the files of our Galaxy datasets.
 The datasets API and DataProviders allow you to efficiently query whole files or parts of files (sequentially or by
@@ -127,7 +127,7 @@ including:
 * Running tools and workflows from your visualization with the tools and workflows API
 
 
-----
+---
 ## Troubleshooting
 
 If you're successfully calling your visualization's page and (from the javascript console) you're seeing **404s when

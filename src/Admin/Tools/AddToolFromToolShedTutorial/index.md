@@ -1,8 +1,11 @@
-INCLUDE(/Admin/LinkBox)
-INCLUDE(/Admin/Tools/LinkBox)
+---
+pagetitle: Installing Tools into Galaxy from Tool Shed
+---
+PLACEHOLDER_INCLUDE(/Admin/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
 
-<div class="title">Installing Tools into Galaxy from Tool Shed</div>
-This page describes the simple and uncomplicated installation of a tool into Galaxy. The process has to be completed by an administrator through the [Admin Interface](/Admin/Interface). For more advanced examples and additional description, please see [our guide to installing repositories to Galaxy](/InstallingRepositoriesToGalaxy).
+
+This page describes the simple and uncomplicated installation of a tool into Galaxy. The process has to be completed by an administrator through the [Admin Interface](/Admin/Interface). For more advanced examples and additional description, please see [our guide to installing repositories to Galaxy](/ToolShed/InstallingRepositoriesToGalaxy).
 If the tool you need does not exist in the Tool Shed you can add it to your Galaxy instance manually. Please see the [Add Tool Tutorial](/Admin/Tools/AddToolTutorial).
 **For scripted installation of tools using the API please see the bottom of this page.**
 
@@ -12,7 +15,7 @@ If the tool you need does not exist in the Tool Shed you can add it to your Gala
 * use the Tool Shed search or browse at https://toolshed.g2.bx.psu.edu/
 * use the experimental search at http://toolshed.tools/
 
-## 0. (optional) Connect Your Galaxy to a custom Tool Shed
+## 1. (optional) Connect Your Galaxy to a Tool Shed
 
 Galaxy is by default connected to the Main Tool Shed. However you can optionally connect to other custom Tool Sheds by modifying the `config/tool_sheds_conf.xml` file in the Galaxy directory. There are many Tool Sheds worldwide but the Galaxy Team maintains two: Main Tool Shed ([http://toolshed.g2.bx.psu.edu/](http://toolshed.g2.bx.psu.edu/)) and Test Tool Shed ([http://testtoolshed.g2.bx.psu.edu/](http://testtoolshed.g2.bx.psu.edu/)). By default, the Main Tool Shed configuration is already present and we recommend using it.
 
@@ -25,41 +28,6 @@ You can add as many Tool Sheds as you want to the configuration file.
 </tool_sheds>
 ```
 
-
-## 1. Set the Directory for Tool Dependencies
-
-You need to set the directory where the downloaded tool dependencies will be located.  You can set the path by uncommenting and setting the value of `tool_dependency_dir` in the Galaxy config file `galaxy.ini`.
-
-For example, if you create a directory named `path/to/galaxy/dependency_dir`, your Galaxy config would look like the following:
-```
-tool_dependency_dir = path/to/galaxy/dependency_dir
-```
-
-Restart Galaxy after you modify the config file in order for changes to take effect.
-
-### 1a. (optional) Create and activate tool shed conf file.
-
-Galaxy needs to know where to list the installed tools. Copy config/tool_sheds_conf.xml.sample to config/tool_sheds_conf.xml
-
-Uncomment the Galaxy config line to use this file to list new tools.
-```
-tool_sheds_config_file = config/tool_sheds_conf.xml
-```
-
-
-As well as the line which tells galaxy where to find info on tools
-```
-tool_config_file = config/tool_conf.xml,config/shed_tool_conf.xml
-```
-
-or if you have not created config/tool_conf.xml 
-```
-tool_config_file = config/tool_conf.xml.sample,config/shed_tool_conf.xml
-```
-
-
-
-Restart Galaxy after you modify the config file in order for changes to take effect.
 
 ## 2. Open the Tool Shed
 

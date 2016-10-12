@@ -1,7 +1,10 @@
+---
+pagetitle: Introduction to Galaxy for Next Generation Sequencing Analysis
+---
 <div class='center'>
 <a href='http://www.pennstatehershey.org/web/college'><img src='/Images/Logos/PSUMedicine.png' alt='Penn State University College of Medicine' width="400" /></a>
 
-<div class="title">Introduction to Galaxy for Next Generation Sequencing Analysis</div>
+
 
 **May 27, 2015, 10:00-4:00**<br />
 Instructor: [Anton Nekrutenko](/anton), Penn State University<br /><br />
@@ -67,7 +70,7 @@ The workshop is being held at the [University Fitness and Conference Center](htt
 
 This is a very much a hands-on workshop.  To fully participate, attendees need to bring a wi-fi enabled laptop with either the [Firefox](https://www.mozilla.org/en-US/firefox/new/) or [Google Chrome](http://www.google.com/chrome) web browser installed.
 
-<div class='right'><div class='center'>
+<div class='right center'>
 <br /><br />
 <a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a>
 </div>

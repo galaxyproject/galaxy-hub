@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[January 2014 CloudMan Release](/News/CloudManRelease201401)</div>
 
-<div class='right'><a href='/CloudMan/'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
+<div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
 
 **We just released an update to Galaxy CloudMan.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
@@ -26,12 +26,12 @@
 * Generalize support for finding ``libc`` on newer Ubuntu platforms. Allows CloudMan to run on Ubuntu 13.04 and tries to be future compatible with new minor releases of `libc` (thanks Brad Chapman).
 * Numerous fixes, see commit log for details.
 
-For more details on the new features, see the the [CHANGELOG](https://bitbucket.org/galaxy/cloudman/src/tip/CHANGELOG/?at=default) and for even more details see, *all [103 commit messages](https://bitbucket.org/galaxy/cloudman/commits/all?search=a6bf542%3Acc55ca9) from 4 contributors*.
+For more details on the new features, see the the [CHANGELOG](https://bitbucket.org/galaxy/cloudman/src/tip/CHANGELOG.md?at=default) and for even more details see, *all [103 commit messages](https://bitbucket.org/galaxy/cloudman/commits/all?search=a6bf542%3Acc55ca9) from 4 contributors*.
 
 Enjoy and please let us know what you think,
 
 [Enis Afgan](/EnisAfgan) and [Dannon Baker](/DannonBaker)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2014-01-07T17:50:19Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-01-07T17:50:19Z)</div>
 
 CategoryNews

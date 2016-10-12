@@ -1,8 +1,11 @@
-INCLUDE(/Events/GCC2012/PageHeader)
+---
+pagetitle: Automation strategies for Data, ,,  Tools, ,,  , &,  Config
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 
-INCLUDE(/Events/GCC2012/LinkBox)
+PLACEHOLDER_INCLUDE(/Events/GCC2012/LinkBox)
 
-<div class="title">Automation strategies for Data, Tools, & Config</div>
+
 
 A proposed [Breakout Session](../) for [GCC2012](/Events/GCC2012), organized by Brad Chapman, [John Chilton](/JohnChilton), [Enis Afgan](/EnisAfgan), [Dave Bouvier](/DaveBouvier) and [Jen Jackson](/JenniferJackson)
 

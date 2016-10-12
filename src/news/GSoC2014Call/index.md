@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[Google Summer of Code Proposals](/News/GSoC2014Call)</div>
 
-<div class='right'><a href='/gmod:GSoC/'><img src='/Images/Logos/GSoC2014Logo.png' alt='Google Summer of Code 2014' width="200" /></a></div>
+<div class='right'><a href='/gmod:GSoC'><img src='/Images/Logos/GSoC2014Logo.png' alt='Google Summer of Code 2014' width="200" /></a></div>
 
 The Galaxy Project will be applying for [Google Summer of Code 2014](http://www.google-melange.com/gsoc/homepage/google/gsoc2014) as part of the [Genome Informatics Group](http://gmod.org/wiki/GSoC).  We are looking for project proposals to include in the group's submission to Google.  Please submit your proposals by January 31.  
 
@@ -13,6 +13,6 @@ If your interests lean more towards toolkits, I would like to point out that the
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2014-01-18T21:39:51Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-01-18T21:39:51Z)</div>
 
 CategoryNews

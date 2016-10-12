@@ -1,4 +1,4 @@
-INCLUDE(/News/Archive/LinkBox)
+PLACEHOLDER_INCLUDE(/News/Archive/LinkBox)
 
 # News Item Archive
 

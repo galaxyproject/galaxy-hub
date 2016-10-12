@@ -1,8 +1,11 @@
-INCLUDE(/Events/SG2014/Header)
+---
+pagetitle:  1st German Galaxy Developer workshop, ,,  Thursday, ,,  October 2nd, ,,  Freiburg 
+---
+PLACEHOLDER_INCLUDE(/Events/SG2014/Header)
 
-INCLUDE(/Events/SG2014/LinkBox)
+PLACEHOLDER_INCLUDE(/Events/SG2014/LinkBox)
 
-<div class="title"> 1st German Galaxy Developer workshop, Thursday, October 2nd, Freiburg </div>
+
 
 In addition to the [2nd Swiss Galaxy Workshop](/Events/Switzerland2014), we will organize a Galaxy Developer Workshop in Freiburg.
 

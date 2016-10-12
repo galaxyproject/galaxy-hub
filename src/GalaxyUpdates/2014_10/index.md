@@ -1,10 +1,12 @@
 ---
 autotoc: true
+pagetitle: October 2014 Galaxy Update
 ---
-<div class="title">October 2014 Galaxy Update</div>
 
 
-<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='right'></div>
+
+<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the October 2014 *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -33,7 +35,7 @@ Thanks to everyone who participated in the decision, and [those at GCC2014 who s
 
 # Events
 
-<div class='left'><br /><a href='/Events/ECCB2014/'><img src='/Images/Logos/ECCB2014Logo.png' alt='Galaxy at ECCB'14 / JOBIM' height="75" /></a></div>
+<div class='left'><br /><a href='/Events/ECCB2014'><img src='/Images/Logos/ECCB2014Logo.png' alt='Galaxy at ECCB'14 / JOBIM' height="75" /></a></div>
 
 ## Galaxy at ECCB'14
 
@@ -43,14 +45,14 @@ Galaxy had a strong presence at [ECCB'14](/Events/ECCB2014).  Galaxy was feature
 ## Other Events
 
 <div class='center'> 
-<a href='/Events/SG2014/'><img src='/Images/Logos/SG2014Logo400.png' alt='2014 Swiss German Galaxy Tour' height="90" /></a>
+<a href='/Events/SG2014'><img src='/Images/Logos/SG2014Logo400.png' alt='2014 Swiss German Galaxy Tour' height="90" /></a>
 <a href='http://www.qfab.org/events/upcoming/'><img src='/Images/Logos/QFABLogo.png' alt='QFAB Workshops' height="80" /></a>
 <a href='http://wiki.data.dtls.nl/index.php/DTL_Programmers_Meeting'><img src='/Images/Logos/DTLLogo150.png' alt='iReport - A tool to create flexible, scalable Galaxy tool interface, presented at the DTL Programmers Meeting' height="90" /></a>
-<a href='http://galaxy4bioinformatics.sb-roscoff.fr/'><img src='/Images/Logos/SB-RoscoffBig.JPG/' alt='Des bonnes pratiques d'intégration d'outils sous Galaxy' height="60" /></a> &nbsp;
+<a href='http://galaxy4bioinformatics.sb-roscoff.fr/'><img src='/Images/Logos/SB-RoscoffBig.JPG' alt='Des bonnes pratiques d'intégration d'outils sous Galaxy' height="60" /></a> &nbsp;
 [{{attachment:Images/Logos/GenoToulLogo.png|Galaxy Training Days|height="60"}}|Galaxy training days](http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62) &nbsp;
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
 
 There are [upcoming events](/Events) in Switzerland, Germany, Australia, Norway, France, Italy, and the United States.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -63,31 +65,31 @@ There are [upcoming events](/Events) in Switzerland, Germany, Australia, Norway,
   </tr>
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
-    <td> <a href='/Events/Switzerland2014/trainingday/'>Galaxy Training and Demo Day</a> </td>
-    <td rowspan=3> </strong><a href='/Events/SG2014/'>2014 Swiss-German Galaxy Tour</a><strong> with events in </strong>Bern, Switzerland<strong> and </strong>Freiburg, Germany<strong> </td>
-    <td rowspan=3> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> and <a href='/BjoernGruening/'>Bjoern Gruening</a> </td>
+    <td> <a href='/Events/Switzerland2014/trainingday'>Galaxy Training and Demo Day</a> </td>
+    <td rowspan=3> </strong><a href='/Events/SG2014'>2014 Swiss-German Galaxy Tour</a><strong> with events in </strong>Bern, Switzerland<strong> and </strong>Freiburg, Germany<strong> </td>
+    <td rowspan=3> <a href='/HansrudolfHotz'>Hans-Rudolf Hotz</a> and <a href='/BjoernGruening'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/Events/Switzerland2014/'>(second Swiss) Galaxy Workshop</a></em> </td>
+    <td> </em><a href='/Events/Switzerland2014'>(second Swiss) Galaxy Workshop</a><em> </td>
   </tr>
   <tr>
-    <td> <em><a href='/Events/Germany2014/'>German Galaxy Developers Day</a></em> </td>
+    <td> </em><a href='/Events/Germany2014'>German Galaxy Developers Day</a><em> </td>
   </tr>
   <tr>
     <th> October 1 </th>
-    <td> <em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-brisbane-01-october-brisbane/'>Workshop: RNA-Seq analysis using Galaxy</a></em> </td>
+    <td> </em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-brisbane-01-october-brisbane/'>Workshop: RNA-Seq analysis using Galaxy</a><em> </td>
     <td> The University of Queensland, Brisbane, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> October 6 - 24 </th>
-    <td> <em><a href='http://wiki.uio.no/projects/clsi/index.php/INF-BIOX121_H14'>Intensive course in High Throughput Sequencing technologies and bioinformatics analysis</a></em> </td>
+    <td> </em><a href='http://wiki.uio.no/projects/clsi/index.php/INF-BIOX121_H14'>Intensive course in High Throughput Sequencing technologies and bioinformatics analysis</a><em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:lex.nederbragt AT ibv.uio.no">Lex Nederbragt</a>, <a href="mailto:karin.lagesen AT medisin.uio.no">Karin Lagesen</a> </td>
   </tr>
   <tr>
     <th> October 10 </th>
-    <td> <em>iReport - A tool to create flexible, scalable Galaxy tool interface</em> </td>
+    <td> </em>iReport - A tool to create flexible, scalable Galaxy tool interface<em> </td>
     <td> <a href='http://wiki.data.dtls.nl/index.php/DTL_Programmers_Meeting'>DTL Programmers Meeting</a>, <a href='http://www.surffoundation.nl/'>SURF Foundation</a>, <a href='http://bit.ly/1r1L5VF'>Utrecht</a>, The Netherlands </td>
     <td> Saskia Hiltemann </td>
   </tr>
@@ -99,31 +101,31 @@ There are [upcoming events](/Events) in Switzerland, Germany, Australia, Norway,
   </tr>
   <tr>
     <th> November 3-5 </th>
-    <td> <em><a href='http://galaxy4bioinformatics.sb-roscoff.fr/'>Des bonnes pratiques d'intégration d'outils sous Galaxy</a></em> </td>
+    <td> </em><a href='http://galaxy4bioinformatics.sb-roscoff.fr/'>Des bonnes pratiques d'intégration d'outils sous Galaxy</a><em> </td>
     <td> <a href='http://www.sb-roscoff.fr/'>Station Biologique de Roscoff</a>, France </td>
     <td> <a href="mailto:christophe.caron@sb-roscoff.fr">Christophe Caron</a> </td>
   </tr>
   <tr>
     <th> November 3-6 </th>
-    <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'>Galaxy training days</a></em> </td>
+    <td> </em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'>Galaxy training days</a><em> </td>
     <td> <a href='http://bioinfo.genotoul.fr/index.php?id=4#c93'>INRA de Toulouse Midi-Pyrénées</a>, France </td>
     <td> <a href='http://bioinfo.genotoul.fr/index.php?id=74'>GenoToul Bioinformatics Team</a> </td>
   </tr>
   <tr>
     <th> November 18-20 </th>
-    <td> <em><a href='http://www.bioinformatica.crs4.it/training'>Analisi dati Next Generation Sequencing con Galaxy</a></em> </td>
+    <td> </em><a href='http://www.bioinformatica.crs4.it/training'>Analisi dati Next Generation Sequencing con Galaxy</a><em> </td>
     <td> Cagliari, Italy </td>
     <td> <a href="mailto:ngs-courses@crs4.it">CRS4</a> </td>
   </tr>
   <tr>
     <th> November 19-20 </th>
-    <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-1920-november-brisbane/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
+    <td> </em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-1920-november-brisbane/'>Workshop: Extended RNA-Seq analysis</a><em> </td>
     <td> The University of Queensland, Brisbane, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> November 26-28 </th>
-    <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a></em> </td>
+    <td> </em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a><em> </td>
     <td> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
     <td> <a href="mailto:navratil AT prabi DOT fr">Navratil V</a>., <a href="mailto:oger AT prabi DOT fr">Oger C.</a>, <a href="mailto:veber AT prabi DOT fr">Veber P.</a>, <a href="mailto:deschamps AT prabi DOT fr">Deschamps C.</a>, <a href="mailto:perriere AT prabi DOT fr">Perriere G.</a> </td>
   </tr>
@@ -161,13 +163,13 @@ The new papers were tagged in many different areas:
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -214,7 +216,7 @@ The new papers were tagged in many different areas:
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -236,7 +238,7 @@ Two new [public Galaxy server](/PublicGalaxyServers) was added to the published 
 
 ## GalaxEast
 
-<div class='right'><div class='solid'><a href='http://www.galaxeast.fr'><img src='/PublicGalaxyServers/GalaxEast.png' alt='GalaxEast'  /></a></div>
+<div class='right solid'><a href='http://www.galaxeast.fr'><img src='/PublicGalaxyServers/GalaxEast.png' alt='GalaxEast'  /></a></div>
 
 [GalaxEast](http://www.galaxeast.fr) aims at providing a large range of bioinformatics tools for the analysis of various types of Omics data. It supports reproducible computational research by providing an environment for performing and recording bioinformatics analyses.
 
@@ -251,7 +253,7 @@ See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data
 
 ## MIRPIPE
 
-<div class='right'><div class='solid'><a href='https://bioinformatics.mpi-bn.mpg.de/'><img src='/PublicGalaxyServers/MIRPIPEHomePage.png' alt='MIRPIPE - the miRNA identification pipeline' width="300" /></a></div>
+<div class='right solid'><a href='https://bioinformatics.mpi-bn.mpg.de/'><img src='/PublicGalaxyServers/MIRPIPEHomePage.png' alt='MIRPIPE - the miRNA identification pipeline' width="300" /></a></div>
 
 [MIRPIPE](https://bioinformatics.mpi-bn.mpg.de/) focuses on quantification of microRNA based on smallRNA sequencing reads.  From the home page:
  In opposition to present algorithms that generally rely on genomic data to identify miRNAs, MIRPIPE focuses on niche model organisms that lack such information. Among the MIRPIPE features are automatic trimming and adapter removal of raw RNA-Seq reads originating from various sequencing instruments, clustering of isomiRs, and quantification of detected miRNAs by homology search versus public or user uploaded reference databases.
@@ -260,23 +262,23 @@ See "[MIRPIPE – quantification of microRNAs in niche model organisms](http://b
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/Community/Logs/'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a></div>
-<div class='right'><a href='/Community/Deployments/'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a></div>
+<div class='right'><a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/Community/Logs/#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs/#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/Community/Deployments/#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments/#add-your-galaxy-deployment'>now</a></em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/Community/Logs#add-a-log-page'>Share your experience</a> </em><a href='/Community/Logs#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/Community/Deployments#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/Community/Deployments#add-your-galaxy-deployment'>now</a><em> </td>
   </tr>
 </table>
 
 <br /><br />
 
 <div class='left'><br />
-<a href='/Community/Log/2014/GalaxyOnBioLinux8/'><img src='/Images/Logos/EOS.gif/' alt='Overview of Galaxy on Bio-Linux 8' width="100" /></a>
+<a href='/Community/Log/2014/GalaxyOnBioLinux8'><img src='/Images/Logos/EOS.gif' alt='Overview of Galaxy on Bio-Linux 8' width="100" /></a>
 </div>
 
-The [deployment details](/Community/Deployment/GalaxEast) for the [GalaxEast public server](/PublicGalaxyServers/#galaxeast) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/Community/Logs).
+The [deployment details](/Community/Deployment/GalaxEast) for the [GalaxEast public server](/PublicGalaxyServers#galaxeast) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/Community/Logs).
 
 The *[Deployment Catalog](/Community/Deployments)* and *[Community Log Board](/Community/Logs)* *[Galaxy community hubs](/Community)* were launched in 2013.  If you have a [Galaxy deployment](/Community/Deployments), or [experience](/Community/Logs) you want to share then please publish them **this month.**
 
@@ -284,7 +286,7 @@ The *[Deployment Catalog](/Community/Deployments)* and *[Community Log Board](/C
 
 # New Releases
 
-New versions of [Galaxy](/GalaxyUpdates/2014_09/#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09/#august-2014-cloudman-release), [BioBlend](/GalaxyUpdates/2014_09/#bioblend-051-release), and [blend4j](/GalaxyUpdates/2014_09/#blend4j-011-release) were all released in August.  And so was [Galaxy IPython](/GalaxyUpdates/2014_09/#galaxy-ipython) too.
+New versions of [Galaxy](/GalaxyUpdates/2014_09#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), [BioBlend](/GalaxyUpdates/2014_09#bioblend-051-release), and [blend4j](/GalaxyUpdates/2014_09#blend4j-011-release) were all released in August.  And so was [Galaxy IPython](/GalaxyUpdates/2014_09#galaxy-ipython) too.
 
 Look for a new Galaxy distribution in October.
 
@@ -391,7 +393,7 @@ In no particular order:
 # Other News
 
 * [Why the three biggest positive contributions to reproducible research are the iPython Notebook, knitr, and Galaxy](http://bit.ly/1rqHVJW) on the [Simply Statistics blog](http://simplystatistics.org/)
-* Updated [wiki page about dynamically discovering output datasets at runtime](/Admin/Tools/Multiple Output Files/#number-of-output-datasets-cannot-be-determined-until-tool-run). 
+* Updated [wiki page about dynamically discovering output datasets at runtime](/Admin/Tools/MultipleOutputFiles#number-of-output-datasets-cannot-be-determined-until-tool-run). 
 * The [Ansible playbook used to update usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook) is available in !GitHub.
 * New [GVL Galaxy Release](https://genome.edu.au/wiki/GVL): Metagenomics Tutorial tools, MACS2, BLAST, MEME, hg38, rn6, and Trinity.
 * [Galaxy Community UK](http://galaxy-community.org.uk/) launches at Twitter channel: [@GalaxyUKFriends](https://twitter.com/GalaxyUKFriends)

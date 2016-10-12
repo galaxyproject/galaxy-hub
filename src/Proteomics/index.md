@@ -1,7 +1,8 @@
 
+#language en
 # Proteomics
 
-INCLUDE(LinkBox)
+PLACEHOLDER_INCLUDE(LinkBox)
 
 This is a landing page for finding out information about Galaxy-based proteomics efforts. Please check our ongoing planning and documentation of potential proteomics, mass spec, and multi-omics Galaxy [use cases](/Proteomics/UseCases).
 
@@ -23,11 +24,11 @@ This is a landing page for finding out information about Galaxy-based proteomics
 
 ### Other Links
 
-BitBucket: 
-* [Galaxy-P](https://bitbucket.org/galaxyp)
-* [Ira Cooke](https://bitbucket.org/iracooke)
-* [John Chilton](https://bitbucket.org/jmchilton)
+!GitHub: 
+* [Galaxy-P](https://github.com/galaxyproteomics/)
+* [Ira Cooke](https://github.com/iracooke/)
+* [John Chilton](https://github.com/jmchilton)
 
 ...
-----
+---
 CategoryHomepage

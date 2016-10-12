@@ -1,8 +1,8 @@
-<div class="title">
+<div class='title'>
 <table>
   <tr>
-    <td style=" border: none"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'><img src='/Images/Logos/ASMSLogo.png' alt='62nd ASMS Conference on Mass Spectrometry and Allied Topics' /></a> </td>
-    <td style=" border: none"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'>62nd ASMS Conference on Mass Spectrometry and Allied Topics</a><br /><br /> Baltimore Maryland, United States<br /><br />June 15 - 19, 2014 </td>
+    <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'><img src='/Images/Logos/ASMSLogo.png' alt='62nd ASMS Conference on Mass Spectrometry and Allied Topics' /></a> </td>
+    <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'>62nd ASMS Conference on Mass Spectrometry and Allied Topics</a><br /><br /> Baltimore Maryland, United States<br /><br />June 15 - 19, 2014 </td>
   </tr>
 </table>
 
@@ -22,54 +22,54 @@ Galaxy will again have a strong presence at the 2014 ASMS meeting.  This year it
     <th rowspan=5> Monday </th>
     <td style=" text-align: center;"> 9:10am - 9:30am </td>
     <td> Ballroom III </td>
-    <td> <strong>Novel Galaxy Workflows Combining RNA-seq and Proteomic MS/MS Reveal New Insights into Non-Model Organisms</strong> <div class='indent'></em>Conrad Bessant, Queen Mary University of London<em></div> </td>
+    <td> <strong>Novel Galaxy Workflows Combining RNA-seq and Proteomic MS/MS Reveal New Insights into Non-Model Organisms</strong> <div class='indent'><em>Conrad Bessant, Queen Mary University of London</em></div> </td>
     <td> </td>
   </tr>
   <tr>
     <td rowspan=3 style=" text-align: center;"> 10:30am - 1:00pm </td>
     <td rowspan=3 style=" text-align: left;"> Exhibit Hall C-G </td>
-    <td> <strong>MP 033: Community-based Development and Evaluation of Biological Mass Spectrometry Software via the Galaxy Tool Shed</strong> <div class='indent'></em>Bart Gottschalk, Minnesota Supercomputing Institute<em></div> </td>
-    <td> <a href='ATTACHMENT_URLDocuments/Posters/2014_ASMS_Gottschalk_MP33.pdf'>Poster</a> </td>
+    <td> <strong>MP 033: Community-based Development and Evaluation of Biological Mass Spectrometry Software via the Galaxy Tool Shed</strong> <div class='indent'><em>Bart Gottschalk, Minnesota Supercomputing Institute</em></div> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2014_ASMS_Gottschalk_MP33.pdf'>Poster</a> </td>
   </tr>
   <tr>
-    <td> <strong>MP 049: Characterizing molecular mechanisms of mammalian hibernation via non-model organism quantitative proteogenomics</strong> <div class='indent'></em>Katie Vermillion, University of Minnesota-Duluth, Duluth, MN<em></div> </td>
+    <td> <strong>MP 049: Characterizing molecular mechanisms of mammalian hibernation via non-model organism quantitative proteogenomics</strong> <div class='indent'><em>Katie Vermillion, University of Minnesota-Duluth, Duluth, MN</em></div> </td>
     <td> </td>
   </tr>
   <tr>
-    <td> <strong>MP 429: Large-Scale Quantitative Proteomic/Metaproteomic Platform Discovers Target Pathways and Promising Biomarkers of COPD-associated Lung Cancer</strong><div class='indent'></em>Brian Sandri, University of Minnesota, Minneapolis, MN<em></div> </td>
+    <td> <strong>MP 429: Large-Scale Quantitative Proteomic/Metaproteomic Platform Discovers Target Pathways and Promising Biomarkers of COPD-associated Lung Cancer</strong><div class='indent'><em>Brian Sandri, University of Minnesota, Minneapolis, MN</em></div> </td>
     <td> </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> 4:10pm - 4:30pm </td>
     <td> Ballroom III </td>
-    <td> <strong>Public sharing of complex MS-based qualitative and quantitative proteomic data analysis workflows: adding value to big data repositories</strong><div class='indent'></em>Tim Griffin, University of Minnesota<em></div> </td>
-    <td> <a href='ATTACHMENT_URLDocuments/Presentations/2014_ASMS_Griffin_PublicSharing.pdf'>Slides</a> </td>
+    <td> <strong>Public sharing of complex MS-based qualitative and quantitative proteomic data analysis workflows: adding value to big data repositories</strong><div class='indent'><em>Tim Griffin, University of Minnesota</em></div> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2014_ASMS_Griffin_PublicSharing.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th rowspan=2> Tuesday </th>
     <td style=" text-align: center;"> 10:30am - 1:00pm </td>
     <td rowspan=2 style=" text-align: left;"> Exhibit Hall C-G </td>
-    <td> <strong>TP 077: Identifying Novel Peptide Sequence Variants from High Throughput RNA-Seq Data Via Flexible Proteomic Database Generation using the Galaxy Framework</strong> <div class='indent'></em>James Johnson, Minnesota Supercomputing Institute<em></div> </td>
+    <td> <strong>TP 077: Identifying Novel Peptide Sequence Variants from High Throughput RNA-Seq Data Via Flexible Proteomic Database Generation using the Galaxy Framework</strong> <div class='indent'><em>James Johnson, Minnesota Supercomputing Institute</em></div> </td>
     <td> </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> 12:00-pm - 2:30pm </td>
-    <td> <strong>TP 078: Towards a Novel Unprecedentedly Comprehensive Protein Identification Strategy, Mass Spectrometry and Ribosome Profiling: The Perfect Match</strong> <div class='indent'></em>Gerben Menschaert, Ghent University, Ghent, Belgium<em></div> </td>
+    <td> <strong>TP 078: Towards a Novel Unprecedentedly Comprehensive Protein Identification Strategy, Mass Spectrometry and Ribosome Profiling: The Perfect Match</strong> <div class='indent'><em>Gerben Menschaert, Ghent University, Ghent, Belgium</em></div> </td>
     <td> </td>
   </tr>
   <tr>
     <th> Wednesday </th>
     <td style=" text-align: center;"> 5:45pm - 7:00pm </td>
     <td> Room 339-340 </td>
-    <td> <strong>Workshop 7: The Galaxy Framework for Biological MS Informatics: Practical Tips for Software Developers and Users </strong><div class='indent'></em>Tim Griffin (presiding), University of Minnesota, Minneapolis, MN<br />See <a href='#workshop-7-the-galaxy-framework-for-biological-ms-informatics-practical-tips-for-software-developers-and-users'>below</a> for more information<em></div> </td>
+    <td> <strong>Workshop 7: The Galaxy Framework for Biological MS Informatics: Practical Tips for Software Developers and Users </strong><div class='indent'><em>Tim Griffin (presiding), University of Minnesota, Minneapolis, MN<br />See <a href='#workshop-7-the-galaxy-framework-for-biological-ms-informatics-practical-tips-for-software-developers-and-users'>below</a> for more information</em></div> </td>
     <td> </td>
   </tr>
   <tr>
     <th> Thursday </th>
     <td style=" text-align: center;"> 12:00pm - 2:30pm </td>
     <td> Exhibit Hall C-G </td>
-    <td> <strong>ThP 044: Flexible, Accessible and Reproducible Workflows for Tandem Proteogenomic and Metaproteomic Analysis using the Galaxy-P Platform</strong> <div class='indent'></em>Pratik Jagtap, Center for Mass Spectrometry, St. Paul, MN<em></div> </td>
-    <td> <a href='ATTACHMENT_URLDocuments/Posters/2014_ASMS_Jagtap_ThP44.pdf'>Poster</a> </td>
+    <td> <strong>ThP 044: Flexible, Accessible and Reproducible Workflows for Tandem Proteogenomic and Metaproteomic Analysis using the Galaxy-P Platform</strong> <div class='indent'><em>Pratik Jagtap, Center for Mass Spectrometry, St. Paul, MN</em></div> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2014_ASMS_Jagtap_ThP44.pdf'>Poster</a> </td>
   </tr>
 </table>
 

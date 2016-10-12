@@ -15,6 +15,6 @@ Thanks
 
 Ira Cooke
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-07-31T17:18:38Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-07-31T17:18:38Z)</div>
 
 CategoryNews

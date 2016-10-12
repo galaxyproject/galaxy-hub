@@ -6,7 +6,7 @@
 
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the [January 2016 (v16.01) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.01_announce.html).
 
-**Galaxy administrators should also be aware of the<<span(red)>> security announcements <<span>>linked to below.**
+**Galaxy administrators should also be aware of the<div class='red'> security announcements </span>linked to below.**
 
 <span style="font-size: larger;"> **Highlights** </span>
 
@@ -27,12 +27,12 @@ Workflows may now run other workflows as a single abstract step in the parent wo
 
 <table>
   <tr>
-    <td style=" border: none"> <span style="font-size: larger;"> Github </span> <br /><br /><strong>New</strong><br /><code>% git clone -b master https://github.com/galaxyproject/galaxy.git</code><br /><br />U<strong>pdate to latest stable release</strong><br /><code>% git checkout master && pull --ff-only origin master</code><br /><br /><strong>Update to exact version</strong><br /><code>% git checkout v16.01</code> </td>
-    <td style=" vertical-align: top; border: none; width: 10%"> </td>
-    <td style=" vertical-align: top; border: none"> <span style="font-size: larger;"> !BitBucket </span> <br /><br /><strong>Upgrade</strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.01</code> </td>
+    <td style=" border: none;"> <span style="font-size: larger;"> Github </span> <br /><br /><strong>New</strong><br /><code>% git clone -b master https://github.com/galaxyproject/galaxy.git</code><br /><br />U<strong>pdate to latest stable release</strong><br /><code>% git checkout master && pull --ff-only origin master</code><br /><br /><strong>Update to exact version</strong><br /><code>% git checkout v16.01</code> </td>
+    <td style=" vertical-align: top; border: none; width: 10%;"> </td>
+    <td style=" vertical-align: top; border: none;"> <span style="font-size: larger;"> !BitBucket </span> <br /><br /><strong>Upgrade</strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.01</code> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none"> See the <a href='/Admin/GetGalaxy/'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
+    <td colspan=3 style=" border: none;"> See the <a href='/Admin/GetGalaxy'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
   </tr>
 </table>
 
@@ -61,6 +61,6 @@ Multiple security vulnerabilities were recently discovered in the Tool Shed that
 <br /><br />
 
 </div></div>
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2016-02-24T22:48:55Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-02-24T22:48:55Z)</div>
 
 CategoryNews

@@ -1,4 +1,4 @@
-INCLUDE(/Images/LinkBox)
+PLACEHOLDER_INCLUDE(/Images/LinkBox)
 
 Common place to store logos.  Logos are for specific institutions, events or software. Icons are generic images like calendars, arrow, "New!" balloons and so on. 
 
@@ -10,8 +10,8 @@ Common place to store logos.  Logos are for specific institutions, events or sof
 * [ScreencastFrame](/Images/ScreencastFrame) - Supplemental graphics used for tutorials and quickies.
 * [Learn](/Images/Learn) - Graphics are generally UI screenshots used in [/Support](/Support) and [/Learn](/Learn) wikis.
 
-<<Action(AttachFile, Attach a new file)>>
+PLACEHOLDER_ACTION(AttachFile,Attach a new file)
 
 ## Logos
 
-<<AttachList>>
+PLACEHOLDER_ATTACH_LIST

@@ -1,17 +1,19 @@
 ---
 autotoc: true
+pagetitle: February 2016 Galaxy News
 ---
-<div class="title">February 2016 Galaxy News</div>
+
 
 <div class='right'>
 <table>
   <tr>
+    <td style=" border: none; width: 28em;">  </td>
   </tr>
 </table>
 
 </div>
 
-<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
+<div class='left'><a href='/GalaxyUpdates'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
 Welcome to the February 2016 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. 
 
@@ -82,7 +84,7 @@ Also, please welcome **[Globus Genomics](https://www.globus.org/genomics)** as a
 <br />
 We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the [gcc2016-exec@lists.galaxyproject.org](GCC2016 Exec) for more information.
 
-----
+---
 
 # New Papers
 
@@ -118,13 +120,13 @@ The new papers were tagged with:
   <tr>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
   </tr>
@@ -171,7 +173,7 @@ The new papers were tagged with:
 </table>
 
 
-----
+---
 
 # Events
 
@@ -183,7 +185,7 @@ There are [many upcoming events](/Events) in the next few months.  See the [Gala
 <a href='https://mod2016.com/'><img src='/Images/Logos/MontpellierOmicsDays.png' alt='Initiation à l’environnement UNIX et à la plateforme GALAXY' height=70" /></a> &nbsp;
 <a href='http://www.agbt.org/meetings/agbt-general-meeting/'><img src='/Images/Logos/AGBTLogo.jpg' alt='BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)' height="65" /></a> &nbsp;
 <a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'><img src='/Images/Logos/SupAgroMontpelierLogoGreen.jpg' alt='Analyse bioinformatique de séquences sous Galaxy' /></a> &nbsp;
-<a href='/Community/GalaxyAdmins/Meetups/2016_02_18/'><img src='/Images/Logos/GalaxyAdmins.png' alt='18 February GalaxyAdmins Web Meetup' height="56" /></a> &nbsp;
+<a href='/Community/GalaxyAdmins/Meetups/2016_02_18'><img src='/Images/Logos/GalaxyAdmins.png' alt='18 February GalaxyAdmins Web Meetup' height="56" /></a> &nbsp;
 <a href='https://conf.abrf.org/the-galaxy-platform'><img src='/Images/Logos/ABRFLogoSquareSmall.png' alt='(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics' height="70" /></a>
 </div>
 
@@ -196,98 +198,98 @@ There are [many upcoming events](/Events) in the next few months.  See the [Gala
   </tr>
   <tr>
     <th> February 8-9 </th>
-    <td> <em><a href='https://mod2016.com/'>Initiation à l’environnement UNIX et à la plateforme GALAXY</a></em> </td>
-    <td> INCLUDE(/Events/Badges/Europe) <a href='https://mod2016.com/'>Montpellier OMICS Days 2016</a>, Montpellier, France </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
+    <td> </em><a href='https://mod2016.com/'>Initiation à l’environnement UNIX et à la plateforme GALAXY</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) <a href='https://mod2016.com/'>Montpellier OMICS Days 2016</a>, Montpellier, France </td>
+    <td> PLACEHOLDER_INCLUDE(/Teach/GTN/Badge16) <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
   </tr>
   <tr>
     <th> February 11 </th>
-    <td> <em><a href='http://bioteam.net/bioteam-appliance/galaxy-edition/'>BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)</a></em> </td>
-    <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.agbt.org/meetings/agbt-general-meeting/'>AGBT</a>, Orlando, Florida, United States </td>
+    <td> </em><a href='http://bioteam.net/bioteam-appliance/galaxy-edition/'>BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.agbt.org/meetings/agbt-general-meeting/'>AGBT</a>, Orlando, Florida, United States </td>
     <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a></td>
   </tr>
   <tr>
     <th> February 15-19 </th>
-    <td> <em><a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a></em> </td>
-    <td> INCLUDE(/Events/Badges/Europe) <a href='https://www.supagro.fr/web/index.php'>Montpellier SupAgro</a>, Montpellier, France </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='https://www.supagro.fr/web/pages/contact.php?id=139'>Yolande Olivier</a>, <a href='https://www.supagro.fr/web/pages/contact.php?id=102'>Dominique Alhinc</a> </td>
+    <td> </em><a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) <a href='https://www.supagro.fr/web/index.php'>Montpellier SupAgro</a>, Montpellier, France </td>
+    <td> PLACEHOLDER_INCLUDE(/Teach/GTN/Badge16) <a href='https://www.supagro.fr/web/pages/contact.php?id=139'>Yolande Olivier</a>, <a href='https://www.supagro.fr/web/pages/contact.php?id=102'>Dominique Alhinc</a> </td>
   </tr>
   <tr>
     <th> February 18 </th>
-    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2016_02_18/'>GalaxyAdmins Web Meetup</a></em> </td>
-    <td> INCLUDE(/Events/Badges/World) <em><a href='/Community/GalaxyAdmins/Meetups/2016_02_18/'>Online</a></em> </td>
-    <td> <a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='/nate/'>Nate Coraor</a>,<a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a>, <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> </em><a href='/Community/GalaxyAdmins/Meetups/2016_02_18'>GalaxyAdmins Web Meetup</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/World) </em><a href='/Community/GalaxyAdmins/Meetups/2016_02_18'>Online</a><em> </td>
+    <td> <a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='/nate'>Nate Coraor</a>,<a href='/HansrudolfHotz'>Hans-Rudolf Hotz</a>, <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 20-23 </th>
-    <td> <em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a></em> </td>
-    <td> INCLUDE(/Events/Badges/NorthAmerica)  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/DaveClements/'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
+    <td> </em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica)  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
+    <td> PLACEHOLDER_INCLUDE(/Teach/GTN/Badge16) <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/DaveClements'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef"> </td>
+    <td colspan=3 style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> March 7-8 </th>
     <td> </strong><a href='https://github.com/galaxyproject/tools-iuc/issues/422'>IUC Contribution Fest - RADSeq Tools and Workflows</a><strong> </td>
-    <td> INCLUDE(/Events/Badges/World) <em>Online</em> </td>
-    <td> <a href='/IUC/'>/IUC/</a> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/World) </em>Online<em> </td>
+    <td> <a href='/IUC'>/IUC</a> </td>
   </tr>
   <tr>
     <th> March 15 </th>
-    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module17-15mars.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
-    <td> INCLUDE(/Events/Badges/Europe) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
+    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module17-15mars.pdf'>Initiation à l’utilisation de Galaxy</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
     <td> <a href="mailto:formation.migale AT jouy.inra.fr">Formation Migale</a> </td>
   </tr>
   <tr>
     <th> March 16 </th>
-    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module8bis.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></em> </td>
-    <td> INCLUDE(/Events/Badges/Europe) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
+    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module8bis.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
     <td> <a href="mailto:formation.migale AT jouy.inra.fr">Formation Migale</a> </td>
   </tr>
   <tr>
     <th> March 17 </th>
-    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module18bis.pdf'>Traitement bioinformatique des données RNA-Seq sous Galaxy</a></em> </td>
-    <td> INCLUDE(/Events/Badges/Europe) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
+    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module18bis.pdf'>Traitement bioinformatique des données RNA-Seq sous Galaxy</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
     <td> <a href="mailto:formation.migale AT jouy.inra.fr">Formation Migale</a> </td>
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef"> </td>
+    <td colspan=3 style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> April 6 </th>
-    <td> <em><a href='http://www.bio-itworldexpo.com/data-visualization/'>Approaches for the Integration of Visual and Computational Analysis of Biomedical Data</a></em> </td>
-    <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.bio-itworldexpo.com/'>BioIT World 2016</a>, Boston, Massachusetts, United States </td>
+    <td> </em><a href='http://www.bio-itworldexpo.com/data-visualization/'>Approaches for the Integration of Visual and Computational Analysis of Biomedical Data</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.bio-itworldexpo.com/'>BioIT World 2016</a>, Boston, Massachusetts, United States </td>
     <td> Nils Gehlenborg </td>
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef"> </td>
+    <td colspan=3 style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> June 25-29 </th>
-    <td> </strong><em><a href='https://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a><strong></em> </td>
-    <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
-    <td> INCLUDE(/Teach/GTN/Badge16)  <a href='https://gcc2016.iu.edu/organizers'>Organizers</a> </td>
+    <td> </strong></em><a href='https://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a><strong><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
+    <td> PLACEHOLDER_INCLUDE(/Teach/GTN/Badge16)  <a href='https://gcc2016.iu.edu/organizers'>Organizers</a> </td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td style=" border: none"> <a href='/Teach/Trainers/'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
-    <td style=" border: none"> <span style="font-size: smaller;"> <a href='/Teach/Trainers/'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none;"> <a href='/Teach/Trainers'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
+    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/Teach/Trainers'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
 
 
-----
+---
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -301,7 +303,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <br />
 
----- 
+---
 
 
 # New Tutorials ... and Tours!
@@ -346,7 +348,7 @@ Interactive tours are a way to walk through Galaxy, following a set of steps to 
 
 
 <br />
-----
+---
 
 # Galaxy on Windows and OS X using Kitematic
 
@@ -363,7 +365,7 @@ Want to try a pre-configured Galaxy instance on your Mac OS X or Windows machine
 1. Search for "galaxy" and select one of the relevant Galaxy options. This searches Docker Hub, a repository for Docker containers.  "bgruening/galaxy-stable" will launch the latest generic Galaxy instance. 
 1. Once the instance has started, click on the web preview pane, and voilà, you have a running Galaxy instance.
 
-----
+---
 
 # New Public Galaxy Servers
 
@@ -371,7 +373,7 @@ Want to try a pre-configured Galaxy instance on your Mac OS X or Windows machine
 
 ## LAPPS Grid
 
-<div class='right'><div class='solid'><a href='http://galaxy.lappsgrid.org/'><img src='/PublicGalaxyServers/LAPPSGrid.png' alt='LAPPS Grid Galaxy Workflow Engine'  /></a></div>
+<div class='right solid'><a href='http://galaxy.lappsgrid.org/'><img src='/PublicGalaxyServers/LAPPSGrid.png' alt='LAPPS Grid Galaxy Workflow Engine'  /></a></div>
 * *Links:*
   * [LAPPS Grid Galaxy Workflow Engine](http://galaxy.lappsgrid.org/), part of the [Languarge Application Grid](http://www.lappsgrid.org/)
 
@@ -434,7 +436,7 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 
 
-<div class='right'><a href='/CloudMan/'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="150" /></a></div>
+<div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="150" /></a></div>
 
 **CloudMan 15.12**
 
@@ -488,27 +490,27 @@ The 0.6.x release includes these changes:
    [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and !BioCloudCentral.
 
 
-----
+---
 
 
 # Galaxy Community Hubs
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Teach/'><img src='/Images/GalaxyLogos/GTNLogo300.png' alt='Galaxy Training Network' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Logs/'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Deployments/'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Teach'><img src='/Images/GalaxyLogos/GTNLogo300.png' alt='Galaxy Training Network' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong>Share your <a href='/Teach/Resources/#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers/#add-a-trainer'>experience</a> <em>now</em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Logs/#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs/#add-a-log-page'>now</a></em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Deployments/#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments/#add-your-galaxy-deployment'>now</a></em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/Teach/Resources#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/Community/Logs#add-a-log-page'>Share your experience</a> </em><a href='/Community/Logs#add-a-log-page'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/Community/Deployments#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/Community/Deployments#add-your-galaxy-deployment'>now</a><em> <strong> </td>
   </tr>
 </table>
 
 <br />
 
-----
+---
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
 
 # ToolShed Contributions
@@ -516,7 +518,7 @@ The 0.6.x release includes these changes:
 See [list of tools contributed in January](/ToolShed/Contributions/2016_01).
 
 
-----
+---
 
 # Other News
  

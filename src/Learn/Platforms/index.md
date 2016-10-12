@@ -1,9 +1,10 @@
 ---
 autotoc: true
 ---
-INCLUDE(/Learn/LinkBox)
+PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 
 Help on using Galaxy that is specific to particular browsers, operating systems, and/or hardware.  This includes specific tricks and workarounds, as well as known issues.
+
 
 
 # Browsers

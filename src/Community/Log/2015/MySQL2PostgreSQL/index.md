@@ -1,4 +1,7 @@
-<div class="title">2015/07: Moving from MySQL to PostgreSQL</div>
+---
+pagetitle: 2015, /, 07, :,  Moving from MySQL to PostgreSQL
+---
+
 
 
 

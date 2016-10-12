@@ -22,11 +22,11 @@ The [French IFB Galaxy Working Group](http://www.ifb-galaxy.org/index.html):
 <a href='http://migale.jouy.inra.fr/'><img src='/Images/Logos/MIGALELogo.png' alt='MIGALE' width="120" /></a> &nbsp;
 <a href='http://metabohub.fr/'><img src='/Images/Logos/MetaboHubLogo.jpg' alt='PFEM' width="120" /></a> &nbsp;
 <a href='http://southgreen.cirad.fr/'><img src='/Images/Logos/SouthGreenLogo.png' alt='SouthGreen' width="120" /></a>
-<a href='http://curie.fr/'><img src='/Images/Logos/CurieLogo.gif/' alt='Institut Curie' width="80" /></a> &nbsp;
+<a href='http://curie.fr/'><img src='/Images/Logos/CurieLogo.gif' alt='Institut Curie' width="80" /></a> &nbsp;
 <a href='http://abims.sb-roscoff.fr/'><img src='/Images/Logos/ABiMSLogo.png' alt='ABiMS' width="70" /></a>
 </div>
 
 <br />
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2014-10-15T16:36:05Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-10-15T16:36:05Z)</div>
 
 CategoryNews

@@ -19,7 +19,7 @@ Currently, data providers are only available for the file contents of a dataset.
 For more examples than are on this page, see [/DataProviders/Cookbook](/DataProviders/Cookbook).
 
 
-----
+---
 ## How to get data using DataProviders
 
 Currently, there are two entry points to data providers for datasets:
@@ -166,7 +166,7 @@ For interval datatypes:
 Other providers can be found within the datatype class definitions for datatypes included in Galaxy.
 
 
-----
+---
 ## How to filter and format data using DataProviders
 
 Although still a work in progress, you can use several aspects of existing data providers to easily filter data both
@@ -206,10 +206,10 @@ xhr.done( function( response ){
 (Note: the double slash escaping of '\\b' which allows us to send the regex with a proper, final '\b' and not the
 ascii bell character)
 
-For more filters, see: [Filtering using calculations](/DataProviders/Cookbook/#no2c_i_want_to_filter_my_data_using_a_calculation_-_not_regex)
+For more filters, see: [Filtering using calculations](/DataProviders/Cookbook#no2c_i_want_to_filter_my_data_using_a_calculation_-_not_regex)
 in the cookbook.
 
-----
+---
 ## How to define a new DataProvider
 
 Since data providers are nothing more than fancy python generators, there are three ways to create a new data provider:
@@ -291,7 +291,7 @@ in addition to existing settings.
 For more examples than are on this page, see [/DataProviders/Cookbook](/DataProviders/Cookbook).
 
 ```wiki comment
-----
+---
 ## Troubleshooting
 
 #### Errors

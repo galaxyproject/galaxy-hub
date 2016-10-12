@@ -1,13 +1,15 @@
 ---
 autotoc: true
+pagetitle: Logistics
 ---
-INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 
-<div class="title">Logistics</div>
 
-INCLUDE(/Events/GCC2013/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
 
 Details on conference location, lodging options, and transportation.
+
 
 
 # Venue
@@ -67,7 +69,7 @@ Public parking is available at the [Oslo Innovation Centre (Forskningsparken)](h
 
 Oslo has 3 international airports,  
 
-<div class='right'><a href='http://www.osl.no/'><img src='/OsloAirportLogo.gif/' alt='Oslo Airport Gardermoen (OSL)' width="100" /></a><br />
+<div class='right'><a href='http://www.osl.no/'><img src='/OsloAirportLogo.gif' alt='Oslo Airport Gardermoen (OSL)' width="100" /></a><br />
 <a href='http://www.flytoget.no/'><img src='/FlyToGetLogo.png' alt='Airport Express Train (Flytoget)' width="100" /></a><br />
 <a href='http://www.nsb.no/airport-by-train/airport-by-train-article38282-4405.html'><img src='/NSBLogo.png' alt='Norwegian State Railways (NSB)' width="100" /></a>
 </div>
@@ -202,4 +204,4 @@ The conference does not have an official conference hotel.  However, our hosts h
 
 If you have heard rumors of a very high price level in Norway, all we can say is that, well, the burgers are cheaper in Norway than in Venezuela ([The Economists Big Mac index](http://www.economist.com/content/big-mac-index)). And if you wonder why there is a tax-free just after landing in Oslo, you can check out the prices of [Norwegian beer](http://www.osloby.no/article728719_2.ece#.UaM7MNcVR2Q) (in Norwegian, but prices range from €5-12 depending on venue). On a more serious note, you will meet the Norwegian price level already when leaving the airport - the 19 minute train ride from the airport to Oslo centre with the "[Airport express train](http://www.flytoget.no/)" costs NOK 170 (~ €22). If there are suited departures, you may save some money by instead travelling with the train company "[NSB](http://www.nsb.no/airport-by-train/airport-by-train-article38282-4405.html)", which only takes a few minutes more and consts about half (NOK 90, ~ €12).
 
-INCLUDE(/Events/GCC2013/Footer)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Footer)

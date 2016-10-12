@@ -4,6 +4,7 @@ autotoc: true
 This page contains statistics about the [Galaxy Project](/GalaxyProject).  This page is updated every January and July, or whenever the project has a grant due, or whenever an advisory board meeting is set to occur.
 
 
+
 # Community Support Channels
 
 ## Galaxy BioStar
@@ -55,6 +56,12 @@ Active here means "visited", as defined by Biostar.
     <td style=" text-align: right;"> 2135 </td>
     <td style=" text-align: right;"> 3834 </td>
   </tr>
+  <tr>
+    <th> 2016/08/15 </th>
+    <td style=" text-align: right;"> 1027 </td>
+    <td style=" text-align: right;"> 2327 </td>
+    <td style=" text-align: right;"> 3979 </td>
+  </tr>
 </table>
 
 
@@ -97,6 +104,12 @@ Active here means "visited", as defined by Biostar.
     <td style=" text-align: right;"> 806 </td>
     <td style=" text-align: right;"> 1618 </td>
   </tr>
+  <tr>
+    <th> 2016/08/15 </th>
+    <td style=" text-align: right;"> 388 </td>
+    <td style=" text-align: right;"> 1018 </td>
+    <td style=" text-align: right;"> 1670 </td>
+  </tr>
 </table>
 
 
@@ -105,7 +118,7 @@ Active here means "visited", as defined by Biostar.
 <table>
   <tr class="th" >
     <th> Date    </th>
-    <th> Posts </th>
+    <th> Posts  </th>
     <th> Threads </th>
     <th> Questions </th>
     <th> Answers </th>
@@ -157,6 +170,15 @@ Active here means "visited", as defined by Biostar.
     <td style=" text-align: right;"> 5284 </td>
     <td style=" text-align: right;"> 7909 </td>
   </tr>
+  <tr>
+    <th> 2016/08/15 </th>
+    <td style=" text-align: right;"> 18823 </td>
+    <td style=" text-align: right;"> 5935 </td>
+    <td style=" text-align: right;"> 5826 </td>
+    <td style=" text-align: right;"> 6463 </td>
+    <td style=" text-align: right;"> 6425 </td>
+    <td style=" text-align: right;"> 9731 </td>
+  </tr>
 </table>
 
 
@@ -178,9 +200,9 @@ Membership in and traffic on Galaxy's [/Mailing Lists](/Mailing Lists) has seen 
 <table>
   <tr>
     <th rowspan=2> Date </th>
-    <td rowspan=13 style=" border: none; width: 5%"> </td>
+    <td rowspan=14 style=" border: none; width: 5%;"> </td>
     <th colspan=4> General lists </th>
-    <td rowspan=13 style=" border: none; width: 5%"> </td>
+    <td rowspan=14 style=" border: none; width: 5%;"> </td>
     <th colspan=4> Group Lists </th>
   </tr>
   <tr>
@@ -314,7 +336,19 @@ Membership in and traffic on Galaxy's [/Mailing Lists](/Mailing Lists) has seen 
     <td style=" text-align: right;"> 27 </td>
     <td style=" text-align: right;"> 63 </td>
   </tr>
+  <tr>
+    <th> 2016/08 </th>
+    <td style=" text-align: right;"> </td>
+    <td style=" text-align: right;"> 1064 </td>
+    <td style=" text-align: right;"> 7535 </td>
+    <td style=" text-align: right;"> 8599 </td>
+    <td style=" text-align: right;"> 238 </td>
+    <td style=" text-align: right;"> 67 </td>
+    <td style=" text-align: right;"> 33 </td>
+    <td style=" text-align: right;"> 78 </td>
+  </tr>
 </table>
+
 
 
 * Membership when Galaxy-User retirement was announced and the Galaxy Biostar forum went live.
@@ -341,7 +375,7 @@ Galaxy-Announce is omitted here as it is a moderated, announcement-only list. *N
     <th> UK </th>
     <th> Training </th>
     <th> Total </th>
-    <td rowspan=5 style=" border: none"> </td>
+    <td rowspan=5 style=" border: none;"> </td>
   </tr>
   <tr>
     <th> 2008 </th>
@@ -423,9 +457,20 @@ Galaxy-Announce is omitted here as it is a moderated, announcement-only list. *N
     <td style=" text-align: right;"> 54 </td>
     <td style=" text-align: right;"> 2427 </td>
   </tr>
+  <tr>
+    <th> 2016* </th>
+    <td style=" text-align: right;"> 1170 </td>
+    <td style=" text-align: right;"> - </td>
+    <td style=" text-align: right;"> 12 </td>
+    <td style=" text-align: right;"> 4 </td>
+    <td style=" text-align: right;"> 0 </td>
+    <td style=" text-align: right;"> 25 </td>
+    <td style=" text-align: right;"> 1211 </td>
+  </tr>
 </table>
 
 
+* Through July 2016.
 
 <br />
 <table>
@@ -501,6 +546,10 @@ Most [local installations of Galaxy](/Admin/GetGalaxy) are private.  However, so
     <th> 2016/01 </th>
     <td style=" text-align: right;"> 84 </td>
   </tr>
+  <tr>
+    <th> 2016/08 </th>
+    <td style=" text-align: right;"> 85 </td>
+  </tr>
 </table>
 
 
@@ -508,7 +557,7 @@ Most [local installations of Galaxy](/Admin/GetGalaxy) are private.  However, so
 
 A Galaxy [/CiteULike](/CiteULike) group was started in late 2011.  It lists all the publications that are about, reference, or mention Galaxy that we know about.  We started keeping track of this statistic partway through 2011, so it is an undercount for that year and previous years.  For years after 2011, it is likely to be more accurate, but it is still approximate and likely to be an undercount.
 
-As of January 2016 these are the tags on papers in the Galaxy CiteULike Group:
+As of August 2016 these are the tags on papers in the Galaxy CiteULike Group:
 
 <table>
   <tr>
@@ -525,8 +574,8 @@ As of January 2016 these are the tags on papers in the Galaxy CiteULike Group:
     <th> Tools </th>
     <th> Is-<br />Galaxy </th>
     <th> Use-<br />Local </th>
-    <th> Cloud </th>
     <th> Ref-<br />Public </th>
+    <th> Cloud </th>
     <th> Other </th>
     <th> Shared </th>
     <th> Repro-<br />ducibility </th>
@@ -587,8 +636,8 @@ As of January 2016 these are the tags on papers in the Galaxy CiteULike Group:
     <td> </td>
     <td> </td>
     <td> </td>
-    <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
     <td> </td>
+    <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
     <td> </td>
     <td> </td>
     <td> </td>
@@ -602,7 +651,7 @@ As of January 2016 these are the tags on papers in the Galaxy CiteULike Group:
   <tr>
     <th> 2008 </th>
     <td style=" text-align: right; background-color: #6fa8dc;"> 15 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 11 </td>
+    <td style=" text-align: right; background-color: #6fa8dc;"> 12 </td>
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
     <td> </td>
     <td> </td>
@@ -618,11 +667,11 @@ As of January 2016 these are the tags on papers in the Galaxy CiteULike Group:
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
     <td> </td>
-    <td style=" text-align: right;"> 31 </td>
+    <td style=" text-align: right;"> 32 </td>
   </tr>
   <tr>
     <th> 2009 </th>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 26 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 26 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 18 </td>
     <td> </td>
     <td> </td>
@@ -643,8 +692,8 @@ As of January 2016 these are the tags on papers in the Galaxy CiteULike Group:
   </tr>
   <tr>
     <th> 2010 </th>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 50 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 36 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 50 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 36 </td>
     <td> </td>
     <td> </td>
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
@@ -664,15 +713,15 @@ As of January 2016 these are the tags on papers in the Galaxy CiteULike Group:
   </tr>
   <tr>
     <th> 2011 </th>
-    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff"> 92 </td>
-    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff"> 69 </td>
+    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 92 </td>
+    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 69 </td>
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
     <td> </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 8 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 16 </td>
     <td> </td>
-    <td style=" text-align: right; background-color: #cfe2f3;"> 3 </td>
     <td> </td>
+    <td style=" text-align: right; background-color: #cfe2f3;"> 3 </td>
     <td> </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 7 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 6 </td>
@@ -685,15 +734,15 @@ As of January 2016 these are the tags on papers in the Galaxy CiteULike Group:
   </tr>
   <tr>
     <th> 2012 </th>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 197 </td>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 128 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 197 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 128 </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 3 </td>
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 28 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 28 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 15 </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 2 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 13 </td>
     <td> </td>
+    <td style=" text-align: right; background-color: #6fa8dc;"> 13 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 8 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 13 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 7 </td>
@@ -706,108 +755,108 @@ As of January 2016 these are the tags on papers in the Galaxy CiteULike Group:
   </tr>
   <tr>
     <th> 2013 </th>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 261 </td>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 149 </td>
-    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff"> 90 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 15 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 36 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 26 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 28 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 23 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 261 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 150 </td>
+    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 91 </td>
+    <td style=" text-align: right; background-color: #6fa8dc;"> 16 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 36 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 26 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 27 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 10 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 23 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 9 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 21 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 22 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 8 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 13 </td>
-    <td style=" text-align: right; background-color: #9fc5e8;"> 6 </td>
+    <td style=" text-align: right; background-color: #9fc5e8;"> 7 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 6 </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 3 </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 2 </td>
-    <td style=" text-align: right;"> 496 </td>
+    <td style=" text-align: right;"> 498 </td>
   </tr>
   <tr>
     <th> 2014 </th>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 327 </td>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 224 </td>
-    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff"> 96 </td>
-    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff"> 59 </td>
-    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff"> 68 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 47 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 41 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 41 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 29 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 40 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 23 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 25 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 328 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 223 </td>
+    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 96 </td>
+    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 59 </td>
+    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 67 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 47 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 42 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 29 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 41 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 40 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 23 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 25 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 8 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 11 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 7 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 8 </td>
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
-    <td style=" text-align: right;"> 734 </td>
+    <td style=" text-align: right;"> 733 </td>
   </tr>
   <tr>
     <th> 2015 </th>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 462 </td>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 215 </td>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 113 </td>
-    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff"> 137 </td>
-    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff"> 65 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 46 </td>
-    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff"> 56 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 43 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 50 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 31 </td>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 23 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 464 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 213 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 114 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 138 </td>
+    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 66 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 46 </td>
+    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 56 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 48 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 43 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 31 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 23 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 20 </td>
     <td style=" text-align: right; background-color: #6fa8dc;"> 15 </td>
-    <td style=" text-align: right; background-color: #9fc5e8;"> 8 </td>
+    <td style=" text-align: right; background-color: #9fc5e8;"> 7 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 10 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 6 </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 2 </td>
-    <td style=" text-align: right;"> 887 </td>
+    <td style=" text-align: right;"> 884 </td>
   </tr>
   <tr>
     <th> 2016 </th>
-    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff"> 31 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 17 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 288 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 108 </td>
+    <td style=" text-align: right; background-color: #2d65b6; color: #ffffff;"> 68 </td>
+    <td style=" text-align: right; background-color: #1d45a6; color: #ffffff;"> 101 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 33 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 26 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 36 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 50 </td>
     <td style=" text-align: right; background-color: #9fc5e8;"> 9 </td>
-    <td style=" text-align: right; background-color: #6fa8dc;"> 11 </td>
+    <td style=" text-align: right; background-color: #3d85c6; color: #ffffff;"> 21 </td>
+    <td style=" text-align: right; background-color: #9fc5e8;"> 8 </td>
+    <td style=" text-align: right; background-color: #6fa8dc;"> 18 </td>
+    <td style=" text-align: right; background-color: #cfe2f3;"> 5 </td>
+    <td style=" text-align: right; background-color: #6fa8dc;"> 13 </td>
+    <td style=" text-align: right; background-color: #cfe2f3;"> 2 </td>
     <td style=" text-align: right; background-color: #cfe2f3;"> 5 </td>
     <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
-    <td style=" text-align: right; background-color: #cfe2f3;"> 4 </td>
-    <td style=" text-align: right; background-color: #dddddd;"> 1 </td>
-    <td style=" text-align: right; background-color: #9fc5e8;"> 6 </td>
-    <td style=" text-align: right; background-color: #cfe2f3;"> 4 </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td style=" text-align: right; background-color: #cfe2f3;"> 4 </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td style=" text-align: right;"> 62 </td>
+    <td style=" text-align: right;"> 528 </td>
   </tr>
   <tr>
     <th> Total </th>
-    <th style=" text-align: right;"> 1463 </th>
-    <th style=" text-align: right;"> 878 </th>
-    <th style=" text-align: right;"> 313 </th>
-    <th style=" text-align: right;"> 223 </th>
-    <th style=" text-align: right;"> 214 </th>
-    <th style=" text-align: right;"> 160 </th>
-    <th style=" text-align: right;"> 131 </th>
-    <th style=" text-align: right;"> 125 </th>
-    <th style=" text-align: right;"> 95 </th>
-    <th style=" text-align: right;"> 94 </th>
-    <th style=" text-align: right;"> 89 </th>
-    <th style=" text-align: right;"> 66 </th>
-    <th style=" text-align: right;"> 63 </th>
-    <th style=" text-align: right;"> 52 </th>
-    <th style=" text-align: right;"> 48 </th>
-    <th style=" text-align: right;"> 21 </th>
-    <th style=" text-align: right;"> 5  </th>
-    <th style=" text-align: right;"> 2987 </th>
+    <th style=" text-align: right;"> 1723 </th>
+    <th style=" text-align: right;"> 968 </th>
+    <th style=" text-align: right;"> 374 </th>
+    <th style=" text-align: right;"> 315 </th>
+    <th style=" text-align: right;"> 242 </th>
+    <th style=" text-align: right;"> 185 </th>
+    <th style=" text-align: right;"> 163 </th>
+    <th style=" text-align: right;"> 137 </th>
+    <th style=" text-align: right;"> 133 </th>
+    <th style=" text-align: right;"> 111 </th>
+    <th style=" text-align: right;"> 98 </th>
+    <th style=" text-align: right;"> 84 </th>
+    <th style=" text-align: right;"> 68 </th>
+    <th style=" text-align: right;"> 61 </th>
+    <th style=" text-align: right;"> 50 </th>
+    <th style=" text-align: right;"> 26 </th>
+    <th style=" text-align: right;"> 6  </th>
+    <th style=" text-align: right;"> 3452 </th>
   </tr>
 </table>
 
@@ -816,7 +865,7 @@ As of January 2016 these are the tags on papers in the Galaxy CiteULike Group:
 <div class='center'>
 <a href='https://docs.google.com/spreadsheets/d/1KpEdoBFxgc7ILCXTNRtJdrswADM8qHrXUgn-_dGR5z4/pubchart?oid=2103350890&format=interactive'><img src='/PublicationPerYearGraphCumulative.png' alt='Publications over time, cumulative' width="700" /></a>
 <a href='https://docs.google.com/spreadsheets/d/1KpEdoBFxgc7ILCXTNRtJdrswADM8qHrXUgn-_dGR5z4/pubchart?oid=1984173771&format=interactive'><img src='/PublicationPerYearGraph.png' alt='Publications in each year' width="700" /></a> 
-![Publications with each tag, per year](/PublicationTagsPerYearGraph.png) 
+<a href='https://docs.google.com/spreadsheets/d/1KpEdoBFxgc7ILCXTNRtJdrswADM8qHrXUgn-_dGR5z4/pubchart?oid=1132187329&format=interactive'><img src='/PublicationTagsPerYearGraph.png' alt='Publications with each tag, per year' width="700" /></a> 
 <a href='https://docs.google.com/spreadsheets/d/1KpEdoBFxgc7ILCXTNRtJdrswADM8qHrXUgn-_dGR5z4/pubchart?oid=1734775598&format=interactive'><img src='/PublicationTagsPerYearSansMethodsWorkbench.png' alt='Publications with each tag, per year; without methods and workbench tags' width="700" /></a>
 </div>
 
@@ -840,13 +889,19 @@ From the [Open HUB commits summary page](https://www.openhub.net/p/galaxybx/comm
     <th> Date    </th>
     <th> Past 30 days </th>
     <th> past 12 months </th>
-    <th> Ever </th>
+    <th> Ever     </th>
   </tr>
   <tr>
     <th> 2016/02/02 </th>
     <td style=" text-align: right;"> 184 </td>
-    <td style=" text-align: right;"> 7854 </td>
+    <td style=" text-align: right;"> 7854        </td>
     <td style=" text-align: right;"> 28216 </td>
+  </tr>
+  <tr>
+    <th> 2016/08/16 </th>
+    <td style=" text-align: right;"> 149 </td>
+    <td style=" text-align: right;"> 7189        </td>
+    <td style=" text-align: right;"> 32193 </td>
   </tr>
 </table>
 
@@ -861,7 +916,7 @@ From the [Open HUB committers summary page](https://www.openhub.net/p/galaxybx/c
     <th> Date    </th>
     <th> Past 30 days </th>
     <th> past 12 months </th>
-    <th> Ever </th>
+    <th> Ever   </th>
   </tr>
   <tr>
     <th> 2016/02/02 </th>
@@ -869,7 +924,14 @@ From the [Open HUB committers summary page](https://www.openhub.net/p/galaxybx/c
     <td style=" text-align: right;"> 120 </td>
     <td style=" text-align: right;"> 218 </td>
   </tr>
+  <tr>
+    <th> 2016/08/16 </th>
+    <td style=" text-align: right;"> 19 </td>
+    <td style=" text-align: right;"> 102 </td>
+    <td style=" text-align: right;"> 244 </td>
+  </tr>
 </table>
+
 
 
 ## Galaxy Clones
@@ -897,6 +959,11 @@ The [Galaxy repo on GitHub](https://github.com/galaxyproject/galaxy) is what peo
     <td style=" text-align: right;"> 2978 </td>
     <td style=" text-align: right;"> 414 </td>
   </tr>
+  <tr>
+    <th> 2016/08/16 </th>
+    <td style=" text-align: right;"> 3408 </td>
+    <td style=" text-align: right;"> 339 </td>
+  </tr>
 </table>
 
 
@@ -910,7 +977,7 @@ The [Galaxy Project Tool Shed](http://toolshed.g2.bx.psu.edu/) contains contribu
 <table>
   <tr>
     <th> Date </th>
-    <td rowspan=7 style=" border: none"> </td>
+    <td rowspan=8 style=" border: none;"> </td>
     <th> Repos </th>
     <th> Unique Owners </th>
     <th> Valid Tools </th>
@@ -918,13 +985,13 @@ The [Galaxy Project Tool Shed](http://toolshed.g2.bx.psu.edu/) contains contribu
     <th> Exported workflows </th>
     <th> Datatypes </th>
     <th> Total Clones </th>
-    <td rowspan=7 style=" border: none"> </td>
+    <td rowspan=8 style=" border: none;"> </td>
     <th> Deprecated Repos </th>
     <th> Deleted Repos </th>
     <th> Invalid Versions of Tools </th>
   </tr>
   <tr>
-    <td colspan=11 style=" border: none"> </td>
+    <td colspan=11 style=" border: none;"> </td>
   </tr>
   <tr>
     <th> 2014/07 </th>
@@ -979,7 +1046,7 @@ The [Galaxy Project Tool Shed](http://toolshed.g2.bx.psu.edu/) contains contribu
     <td style=" text-align: right;"> 119 </td>
   </tr>
   <tr>
-    <th> 2016/27 </th>
+    <th> 2016/02 </th>
     <td style=" text-align: right;"> 2093 </td>
     <td style=" text-align: right;"> 380 </td>
     <td style=" text-align: right;"> 3676 </td>
@@ -990,6 +1057,19 @@ The [Galaxy Project Tool Shed](http://toolshed.g2.bx.psu.edu/) contains contribu
     <td style=" text-align: right;"> 356 </td>
     <td style=" text-align: right;"> 16 </td>
     <td style=" text-align: right;"> 118 </td>
+  </tr>
+  <tr>
+    <th> 2016/08 </th>
+    <td style=" text-align: right;"> 2582 </td>
+    <td style=" text-align: right;"> 438 </td>
+    <td style=" text-align: right;"> 4167 </td>
+    <td style=" text-align: right;"> 6508 </td>
+    <td style=" text-align: right;"> 238 </td>
+    <td style=" text-align: right;"> 622 </td>
+    <td style=" text-align: right;"> 1,203,518 </td>
+    <td style=" text-align: right;"> 408 </td>
+    <td style=" text-align: right;"> 16 </td>
+    <td style=" text-align: right;"> 121 </td>
   </tr>
 </table>
 
@@ -1014,7 +1094,8 @@ The Galaxy project started to [use Twitter](/GalaxyOnTwitter) on a regular basis
 | [GCC2013](/Events/GCC2013) |  Oslo, Norway  |  219  | 
 | [GCC2014](/Events/GCC2014) |  Baltimore, Maryland, United States  |  214  | 
 | [GCC2015](http://gcc2015.tsl.ac.uk/) |  Norwich, United Kingdom  |  230  | 
-| [GCC2016](/Events/GCC2016) |  Bloomington, Indiana, United States  |  ?  | 
+| [GCC2016](/Events/GCC2016) |  Bloomington, Indiana, United States  |  206  | 
+| [GCC2017](https://gcc2017.sciencesconf.org/) |  Montpellier, France  |  ?  | 
 
 ## Galaxy Community Conference Feedback
 

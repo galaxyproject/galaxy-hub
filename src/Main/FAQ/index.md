@@ -1,11 +1,13 @@
 ---
 autotoc: true
+pagetitle: Frequently Asked Questions about , [/Main](/Main)
 ---
-INCLUDE(/FAQs/LinkBox)
+PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
 
-<div class="title">Frequently Asked Questions about [/Main](/Main)</div>
+
  
 Questions specifically about Galaxy's [free public server](/Main).  See [/Learn/FAQ](/Learn/FAQ) for questions that apply to any Galaxy instance.
+
 
  
 ## How do I get support?
@@ -19,7 +21,7 @@ See this email thread:
 
 ## Are there quotas on Main?
 
-Yes.  See [Quotas](/Main/#quotas).
+Yes.  See [Quotas](/Main#quotas).
 
 ## Using Galaxy for Transcriptome Analysis
 

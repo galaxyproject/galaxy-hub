@@ -13,6 +13,6 @@
 
 [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2015-02-25T05:36:02Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-02-25T05:36:02Z)</div>
 
 CategoryNews

@@ -1,6 +1,9 @@
+---
+pagetitle: [CHB Harvard Exome-Seq Workshop](http://scriptogr.am/ohofmann/exome-seq)
+---
 <div class='center'><a href='http://scriptogr.am/ohofmann/about'><img src='/Images/Logos/CHBHarvard.png' alt='Center for Health Bioinformatics Galaxy Tutorials'  /></a></div>
 
-<div class="title">[CHB Harvard Exome-Seq Workshop](http://scriptogr.am/ohofmann/exome-seq)</div>
+
 
 
 

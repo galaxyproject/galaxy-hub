@@ -1,26 +1,30 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle"> <a href='http://bti.cornell.edu/'><img src='/Images/Logos/BTILogo.png' alt='Boyce Thompson Institute' width="263" /></a> &nbsp;&nbsp; <a href='http://cornell.edu/'><img src='/Images/Logos/CornellLogoSmall.gif/' alt='Cornell University' width="263" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://bti.cornell.edu/'><img src='/Images/Logos/BTILogo.png' alt='Boyce Thompson Institute' width="263" /></a> &nbsp;&nbsp; <a href='http://cornell.edu/'><img src='/Images/Logos/CornellLogoSmall.gif' alt='Cornell University' width="263" /></a> </td>
   </tr>
 </table>
 
 
-<div class="title">Introduction to Galaxy<br />July 21, 2016</div>
+<div class='title'>Introduction to Galaxy<br />July 21, 2016</div>
 
 **Instructor: [Dave Clements](/DaveClements)
 
 9:00-5:00<br /><br />
 Location <br />
-[CIT Computer Classroom and Lab (Room 112)](https://mannlib.cornell.edu/rooms-labs/classrooms-labs/cit-computer-lab), Mann library<br />
+[Room B30A](https://mannlib.cornell.edu/rooms-labs/classrooms-labs/b30a-computer-lab), Mann library<br />
 Cornell University
 **
-
 </div>
 
 ## Registration
 
-[Registration](https://docs.google.com/forms/d/13j3dVkcpHbd2p0nWghnYeOrd4iQkXhRCGnLXCZpvp-k/viewform) is free and open to any member of the Boyce Thompson Institute and the Cornell research community. Space is available on a first-come, first served basis. Registration is now open.  **[Register now](https://docs.google.com/forms/d/13j3dVkcpHbd2p0nWghnYeOrd4iQkXhRCGnLXCZpvp-k/viewform).**
+<div class='center'>
+**This workshop is now full.  However, you can still [get on the waiting list](https://docs.google.com/forms/d/13j3dVkcpHbd2p0nWghnYeOrd4iQkXhRCGnLXCZpvp-k/viewform).**
+</div><br />
+
+
+Registration is free and open to any member of the Boyce Thompson Institute and the Cornell research community. Space is available on a first-come, first served basis.
 
 ## Audience
 Are you a life scientist who needs to do complex analysis on large datasets?
@@ -98,7 +102,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Feedback
 
-We will ask for it!
+* **[Please!](http://bit.ly/btigxy_feedback)**
 
 ## Questions?
 

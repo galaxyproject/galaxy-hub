@@ -1,6 +1,6 @@
 <div class='linkbox'>
 **[GCC 2012](../)**
-----
+---
 [Program](../Program)<br />
 [Logistics](../Logistics)<br />
 [Abstracts](../Abstracts)<br />

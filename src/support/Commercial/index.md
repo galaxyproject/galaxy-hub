@@ -1,8 +1,10 @@
 ---
 autotoc: true
+pagetitle: Commercial Galaxy Support
 ---
+<div class='right'></div>
 
-<div class="title">Commercial Galaxy Support</div>
+
 
 Galaxy [servers](/BigPicture/Choices) and [support](/Support) are available in a wide variety of different ways, including commercial solutions. This lists the commercial providers that we are aware of
 
@@ -40,7 +42,7 @@ With [Noor Biotechnologies](http://noorbiotech.com/), you can make sense of your
 
 The [BioTeam Appliance Galaxy Edition](http://www.bioteam.net/products/galaxy-appliance/) is 
 
-<div class='right'><a href='http://www.bioteam.net/products/galaxy-appliance/'><img src='/Images/Logos/BioTeamLogo154.gif/' alt='BioTeam Appliance Galaxy Edition' /></a></div>
+<div class='right'><a href='http://www.bioteam.net/products/galaxy-appliance/'><img src='/Images/Logos/BioTeamLogo154.gif' alt='BioTeam Appliance Galaxy Edition' /></a></div>
 
  a push-button solution that let’s researchers get up and running quickly with Galaxy.  The Galaxy Appliance comes preinstalled with a production instance of Galaxy, bioinformatics tools, and reference datasets. This powerful system is specifically configured for computationally intensive scientific workloads. Most importantly, the Galaxy Appliance is an open system so researchers and can install whatever tools they need and use the server as their own high-performance informatics infrastructure outside of Galaxy. [BioTeam](http://www.bioteam.net/) provides ongoing support for the Galaxy Appliance, enabling researchers to minimize their IT burden. The Galaxy Appliance is used by researchers around the world for metagenomic, ChIP-Seq, RNA-Seq analysis and more.
 
@@ -49,7 +51,7 @@ The [BioTeam Appliance Galaxy Edition](http://www.bioteam.net/products/galaxy-ap
 <div class='right'><a href='http://openstack.org'><img src='/Images/Logos/OpenStackLogo.png' alt='OpenStack' width="130" /></a>
 </div>
 
-[/CloudMan](/CloudMan) and [Globus Genomics](/Cloud/#globus-genomics) are two ways to deploy your own Galaxy server using [Amazon Web Services](http://aws.amazon.com). CloudMan can also run on any cloud provider that supports the [OpenStack](http://openstack.org) or [OpenNebula](http://opennebula.org) cloud management protocols.  This covers the vast majority of commercial cloud providers.
+[/CloudMan](/CloudMan) and [Globus Genomics](/Cloud#globus-genomics) are two ways to deploy your own Galaxy server using [Amazon Web Services](http://aws.amazon.com). CloudMan can also run on any cloud provider that supports the [OpenStack](http://openstack.org) or [OpenNebula](http://opennebula.org) cloud management protocols.  This covers the vast majority of commercial cloud providers.
 
 See the Galaxy [/Cloud](/Cloud) page for more.
 
@@ -77,11 +79,11 @@ Users can easily use Galaxy using g-Cluster based on cloud computing.
 
 Training on how to use Galaxy is offered by several companies around the world:
 
-* **[Geneclat Technologies](/Teach/Trainers/#geneclat-technologies)**
+* **[Geneclat Technologies](/Teach/Trainers#geneclat-technologies)**
   * Based in Bengaluru, Karnataka, India, and is available globally (and "ready to travel!") 
 
-* **[Noor Biotechnologies Ltd.](/Teach/Trainers/#noor-biotechnologies-ltd)**
+* **[Noor Biotechnologies Ltd.](/Teach/Trainers#noor-biotechnologies-ltd)**
   * Based in Malaysia and Saudi Arabia. We are available to train around the world.
 
-* **[OpenHelix](/Teach/Trainers/#openhelix)**
+* **[OpenHelix](/Teach/Trainers#openhelix)**
   * Based in North America, but available Globally and via webinar.

@@ -1,10 +1,12 @@
 ---
 autotoc: true
+pagetitle: April 2014 Galaxy Update
 ---
-<div class="title">April 2014 Galaxy Update</div>
 
 
-<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='right'></div>
+
+<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the April 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -30,13 +32,13 @@ The new papers covered:
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -87,7 +89,7 @@ The new papers covered:
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-<div class='right'><a href='/Events/GCC2014/'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="150" /></a></div>
+<div class='right'><a href='/Events/GCC2014'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="150" /></a></div>
 
 The [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
@@ -106,7 +108,7 @@ Accepted talks and selected posters from GCC2014 are also eligible for considera
 
 ### Registration is Open
 
-[Early registration is now open](/Events/GCC2014/Register). *Early registration saves more than 70% on registration costs, and [Training Day](/Events/GCC2014/TrainingDay) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/Events/GCC2014/Logistics/#lodging), a very affordable housing option in the same building as the conference.
+[Early registration is now open](/Events/GCC2014/Register). *Early registration saves more than 70% on registration costs, and [Training Day](/Events/GCC2014/TrainingDay) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/Events/GCC2014/Logistics#lodging), a very affordable housing option in the same building as the conference.
 
 *[Training Day](/Events/GCC2014/TrainingDay)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There are 5 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 15 sessions and over 37 hours of workshop material.*
 
@@ -116,20 +118,20 @@ There are still [Silver and Bronze sponsorships](/Events/GCC2014/SponsorExhibit)
 
 ### Exhibitors
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorExhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/Events/GCC2014/Organizers) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorExhibit#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/Events/GCC2014/Organizers) if your organization would like to have an exhibit space at GCC2014. 
 
 ## Globus World 2014
 
 <div class='right'><a href='http://www.globusworld.org/'><img src='/Images/Logos/GlobusGenomics.png' alt='Globus World 2014' width="180" /></a></div>
 
-**[GlobusWorld](http://www.globusworld.org/)** is this year’s biggest gathering of all things [Globus](https://www.globus.org/).  !GlobusWorld 2014 features a features a *Using Globus Genomics to Accelerate Analysis Tutorial*, and a full half day on [Globus Genomics](/Cloud/#globus-genomics) in the main meeting, including a keynote by Nancy Cox and these accepted talks:
+**[GlobusWorld](http://www.globusworld.org/)** is this year’s biggest gathering of all things [Globus](https://www.globus.org/).  !GlobusWorld 2014 features a features a *Using Globus Genomics to Accelerate Analysis Tutorial*, and a full half day on [Globus Genomics](/Cloud#globus-genomics) in the main meeting, including a keynote by Nancy Cox and these accepted talks:
 
 * *Globus Genomics: Enabling high-throughput cloud-based analysis and management of NGS data for Translational Genomics research at Georgetown*, by Yuriy Gusev,
 * *Improving next-generation sequencing variants identification in cancer genes using Globus Genomics*, by Toshio Yoshimatsu
 * *Globus Genomics: A Medical Center's Bioinformatics Core Perspective*, by Anoop Mayampurath
 * *Building a Low-budget Public Resource for Large-scale Proteomic Analyses*, by Rama Raghavan
 
-[Globus Genomics](/Cloud/#globus-genomics) is a Globus and Galaxy based platform for genomic analysis.  [GlobusWorld](http://www.globusworld.org/) is being held April 15-17, in Chicago.    And, [GCC2014](/Events/GCC2014) is a Silver Sponsor of [GlobusWorld](http://www.globusworld.org/).
+[Globus Genomics](/Cloud#globus-genomics) is a Globus and Galaxy based platform for genomic analysis.  [GlobusWorld](http://www.globusworld.org/) is being held April 15-17, in Chicago.    And, [GCC2014](/Events/GCC2014) is a Silver Sponsor of [GlobusWorld](http://www.globusworld.org/).
 
 ## UC Davis 2014 Bioinformatics Workshop
 
@@ -147,7 +149,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorE
 * Hardware and software considerations
 * Cloud Computing
 
-<div class='right'><a href='https://training.bioinformatics.ucdavis.edu/'><img src='/Images/Logos/UCDavisLogoSmall.gif/' alt='UC Davis'  /></a></div>
+<div class='right'><a href='https://training.bioinformatics.ucdavis.edu/'><img src='/Images/Logos/UCDavisLogoSmall.gif' alt='UC Davis'  /></a></div>
 
 The workshop will include a rich collection of lectures and hands-on sessions, covering both theory and tools. We will cover the basics of several high throughput sequencing technologies, but will focus on Illumina and !PacBio data for hands-on exercises. Participants will explore software and protocols, create and modify workflows, and diagnose/treat problematic data. Workshop exercises will be performed using the popular Galaxy platform (http://usegalaxy.org) on the [Amazon Cloud](http://aws.amazon.com/) which allows for powerful web-based data analyses. There are no prerequisites other than basic familiarity with genomic concepts.
 
@@ -155,7 +157,7 @@ A similar workshop, [using command line interfaces to perform the analysis](http
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> There are several other [events of interest](/Events) in the next few months. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> There are several other [events of interest](/Events) in the next few months. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
@@ -163,7 +165,7 @@ A similar workshop, [using command line interfaces to perform the analysis](http
 <a href='http://globusworld.org/'><img src='/Events/GlobusWorld2014Logo.png' alt='GlobusWorld 2014' height="60" /></a> &nbsp;
 <a href='http://www.bio-itworldexpo.com/'><img src='/Images/Logos/BioITWorld2014Logo.png' alt='Bio-IT World 2014' /></a> &nbsp;
 <a href='http://www.tgac.ac.uk/SeqAhead_Scientific_Meeting_and_Management_Committee_Meeting/'><img src='/Images/Logos/TGACLogo.png' alt='NGS Data after the Gold Rush' height="50" /></a>&nbsp;
-<a href='/Events/GCC2014/'><img src='/Images/Logos/GCC2014LogoWide200.png' alt='GCC2014 early registration and abstract submission are now open' width="150" /></a>&nbsp;</div>
+<a href='/Events/GCC2014'><img src='/Images/Logos/GCC2014LogoWide200.png' alt='GCC2014 early registration and abstract submission are now open' width="150" /></a>&nbsp;</div>
 
 <table>
   <tr class="th" >
@@ -174,89 +176,89 @@ A similar workshop, [using command line interfaces to perform the analysis](http
   </tr>
   <tr>
     <th> April 8-9 </th>
-    <td> <em><a href='https://www.aanmelder.nl/nbic2014/wiki/parallel%20session%20m%3a%20infrastructrure%2c%20data%20%26%20technology#.Uytixq1dXfA'>Building a scalable Galaxy cluster for biomedical research in The Netherlands</a></em> </td>
+    <td> </em><a href='https://www.aanmelder.nl/nbic2014/wiki/parallel%20session%20m%3a%20infrastructrure%2c%20data%20%26%20technology#.Uytixq1dXfA'>Building a scalable Galaxy cluster for biomedical research in The Netherlands</a><em> </td>
     <td> <a href='http://www.aanmelder.nl/nbic2014'>Netherlands Bioinformatics Conference (NBIC2014)</a>, Lunteren, The Netherlands </td>
     <td> <a href='http://nl.linkedin.com/in/djvanenckevort'>David van Enckevort</a>, <a href='http://nl.linkedin.com/in/anthonypotappel'>Anthony Potappel</a> </td>
   </tr>
   <tr>
     <th> April 15-17 </th>
-    <td> <em>Biosciences/Genomics Program</em> </td>
+    <td> </em>Biosciences/Genomics Program<em> </td>
     <td> <a href='http://globusworld.org/'>GlobusWorld</a>, Chicago, Illinois, United States </td>
-    <td> <a href="mailto:outreach AT globus DOT org">Globus Outreach</a>, <a href='/JohnChilton/'>John Chilton</a> </td>
+    <td> <a href="mailto:outreach AT globus DOT org">Globus Outreach</a>, <a href='/JohnChilton'>John Chilton</a> </td>
   </tr>
   <tr>
     <th rowspan=6> April 29 -<br />May 1 </th>
-    <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=121423'>W1: Integrated Research Data Management for Next Gen Sequencing Analysis Using Galaxy and Globus Online Software-as-a-Service</a></em> </td>
+    <td> </em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=121423'>W1: Integrated Research Data Management for Next Gen Sequencing Analysis Using Galaxy and Globus Online Software-as-a-Service</a><em> </td>
     <td rowspan=6> <a href='http://www.bio-itworldexpo.com/'>BioIT World</a> </td>
     <td> <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a>, <a href='https://www.urmc.rochester.edu/people/21779848-alex-r-paciorkowski'>Alex Paciorkowski</a>, <a href='http://www.ci.uchicago.edu/profile/328'>Vas Vasiliadis</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135146'>W4: Analyzing NGS Data in Galaxy</a></em> </td>
-    <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, <a href='/nate/'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, Tristan Lubinski </td>
+    <td> </em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135146'>W4: Analyzing NGS Data in Galaxy</a><em> </td>
+    <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, <a href='/nate'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, Tristan Lubinski </td>
   </tr>
   <tr>
-    <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135152'>W14: Running a Local Galaxy Instance</a></em> </td>
-    <td> <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, <a href='/nate/'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, Tristan Lubinski, James Reaney </td>
+    <td> </em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135152'>W14: Running a Local Galaxy Instance</a><em> </td>
+    <td> <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, <a href='/nate'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, Tristan Lubinski, James Reaney </td>
   </tr>
   <tr>
-    <td> <em><a href='http://www.bio-itworldexpo.com/Next-Gen-Sequencing-Informatics/'>Globus Genomics: An End-to-End NGS Analysis Service on the Cloud for Researchers and Core Labs</a></em> </td>
+    <td> </em><a href='http://www.bio-itworldexpo.com/Next-Gen-Sequencing-Informatics/'>Globus Genomics: An End-to-End NGS Analysis Service on the Cloud for Researchers and Core Labs</a><em> </td>
     <td> <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Integrated Analysis and Visualization of Large-Scale Biological Data with the Refinery Platform</a></em> </td>
+    <td> </em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Integrated Analysis and Visualization of Large-Scale Biological Data with the Refinery Platform</a><em> </td>
     <td> <a href='http://gehlenborg.com/'>Nils Gehlenborg</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Web-Based Visualization and Visual Analysis for High-Throughput Genomics with Galaxy</a></em> </td>
-    <td> <a href='/JeremyGoecks/'>Jeremy Goecks</a> </td>
+    <td> </em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Web-Based Visualization and Visual Analysis for High-Throughput Genomics with Galaxy</a><em> </td>
+    <td> <a href='/JeremyGoecks'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> May 6-7 </th>
-    <td> <em>Scaling Galaxy for Big Data</em> </td>
+    <td> </em>Scaling Galaxy for Big Data<em> </td>
     <td> <a href='http://www.tgac.ac.uk/SeqAhead_Scientific_Meeting_and_Management_Committee_Meeting/'>NGS Data after the Gold Rush</a>, <a href='http://www.tgac.ac.uk/'>TGAC</a>, Norwich, United Kingdom </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 9 </th>
-    <td> <em>Galaxy Workshop</em> </td>
+    <td> </em>Galaxy Workshop<em> </td>
     <td> <a href='http://www.tgac.ac.uk/'>The Genome Analysis Centre (TGAC)</a>, Norwich, United Kingdom </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>
-    <td> <em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a></em> </td>
+    <td> </em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a><em> </td>
     <td> <a href='http://www.mipro.hr/CallForPapers/tabid/176/language/en-US/Default.aspx'>MIPRO 2014</a>, Opatija, Croatia </td>
-    <td> <a href='/EnisAfgan/'>Enis Afgan</a> </td>
+    <td> <a href='/EnisAfgan'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 9-10 </th>
-    <td> <em><a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'>Informatics on High Throughput Sequencing Data Workshop</a></em> </td>
+    <td> </em><a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'>Informatics on High Throughput Sequencing Data Workshop</a><em> </td>
     <td> Toronto, Canada </td>
     <td> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
   </tr>
   <tr>
     <th> June 16-20 </th>
-    <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/'>Using Galaxy for Analysis of High Throughput Sequence Data</a></em> </td>
+    <td> </em><a href='http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/'>Using Galaxy for Analysis of High Throughput Sequence Data</a><em> </td>
     <td> <a href='http://training.bioinformatics.ucdavis.edu/'>UC Davis</a>, California, United States </td>
     <td> <a href="mailto:training DOT ucdbio AT gmail DOT com">UC Davis Bioinformatics Training</a> </td>
   </tr>
   <tr>
     <th> June 28-30 </th>
-    <td> <a href='/Events/GCC2014/Hackathon/'>Galaxy Hackathon</a> </td>
+    <td> <a href='/Events/GCC2014/Hackathon'>Galaxy Hackathon</a> </td>
     <td rowspan=2> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
-    <td> <a href='/Events/GCC2014/Organizers/'>Organizers</a> </td>
+    <td> <a href='/Events/GCC2014/Organizers'>Organizers</a> </td>
   </tr>
   <tr>
     <th> June&nbsp;30&nbsp;-<br />July 2 </th>
-    <td> </strong><a href='/Events/GCC2014/'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
-    <td> <a href='/Events/GCC2014/Organizers/'>Organizers</a> </td>
+    <td> </strong><a href='/Events/GCC2014'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
+    <td> <a href='/Events/GCC2014/Organizers'>Organizers</a> </td>
   </tr>
 </table>
 
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -273,7 +275,7 @@ Three [public Galaxy servers](/PublicGalaxyServers) were added to the published 
 
 ## Biomina
 
-<div class='right'><div class='solid'><a href='http://biominavm-galaxy.biomina.be/galaxy/'><img src='/PublicGalaxyServers/Biomina300.png' alt='Biomina Galaxy'  /></a></div>
+<div class='right solid'><a href='http://biominavm-galaxy.biomina.be/galaxy/'><img src='/PublicGalaxyServers/Biomina300.png' alt='Biomina Galaxy'  /></a></div>
 
 * *Link:*
     [Biomina Galaxy](http://biominavm-galaxy.biomina.be/galaxy/)
@@ -294,7 +296,7 @@ Three [public Galaxy servers](/PublicGalaxyServers) were added to the published 
 
 ## Image Analysis and Processing Toolkit
 
-<div class='right'><div class='solid'><a href='http://cloudimaging.net.au/'><img src='/PublicGalaxyServers/ImageAnalysisToolkit.png' alt='Image Analysis and Processing ToolKit'  /></a></div>
+<div class='right solid'><a href='http://cloudimaging.net.au/'><img src='/PublicGalaxyServers/ImageAnalysisToolkit.png' alt='Image Analysis and Processing ToolKit'  /></a></div>
 * *Links:*
   * [Image Analysis and Processing Toolkit Server](http://cloudimaging.net.au/)
   * [Project blog](http://cloudimaging.blogspot.com.au/)
@@ -312,7 +314,7 @@ Three [public Galaxy servers](/PublicGalaxyServers) were added to the published 
 
 ## Osiris
 
-<div class='right'><div class='solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/osiris/'><img src='/PublicGalaxyServers/OsirisLogo.jpg' alt='Osiris' /></a></div>
+<div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/osiris/'><img src='/PublicGalaxyServers/OsirisLogo.jpg' alt='Osiris' /></a></div>
 
 * *Links:*
   * [Osiris Galaxy](http://galaxy-dev.cnsi.ucsb.edu/osiris/)
@@ -339,13 +341,13 @@ The most recent version of CloudMan was [released in January 2014](/News/CloudMa
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/Community/Logs/'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a></div>
-<div class='right'><a href='/Community/Deployments/'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a></div>
+<div class='right'><a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/Community/Logs/#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs/#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/Community/Deployments/#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments/#add-your-galaxy-deployment'>now</a></em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/Community/Logs#add-a-log-page'>Share your experience</a> </em><a href='/Community/Logs#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/Community/Deployments#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/Community/Deployments#add-your-galaxy-deployment'>now</a><em> </td>
   </tr>
 </table>
 

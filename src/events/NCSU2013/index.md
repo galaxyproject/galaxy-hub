@@ -1,12 +1,12 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle"> <a href='http://www.ncsu.edu/'><img src='/Images/Logos/NCSULogoWideRed.png' alt='North Carolina State University' width="400px" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.ncsu.edu/'><img src='/Images/Logos/NCSULogoWideRed.png' alt='North Carolina State University' width="400px" /></a> </td>
   </tr>
 </table>
 
 
-<div class="title">Introduction to Galaxy<br />July 22, 2013</div>
+<div class='title'>Introduction to Galaxy<br />July 22, 2013</div>
 
 **Instructor: [Dave Clements](/DaveClements)
 
@@ -92,7 +92,7 @@ No programming or Linux command line experience is required.
 
 ## Support
 
-<div class='left'><a href='/Events/RTWorkshopTour2013/'><img src='/Images/Logos/RTGalaxyWorkshopTour2013-300.png' alt='2013 Research Triangle Galaxy Workshop Tour' width="170px" /></a></div>
+<div class='left'><a href='/Events/RTWorkshopTour2013'><img src='/Images/Logos/RTGalaxyWorkshopTour2013-300.png' alt='2013 Research Triangle Galaxy Workshop Tour' width="170px" /></a></div>
 
 <div class='right'><a href='http://cals.ncsu.edu/genetics/index.php'><img src='/Images/Logos/NCSUGeneticsLogo148.png' alt='NCSU Department of Genetics'  /></a> <a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' width="130px" /></a></div>
 
@@ -104,7 +104,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Flyer
 
-<div class='right'><a href='/attachment:NCSUGalaxy2013.pdf/'><img src='/NCSUGalaxy2013Thumb.png' alt='' width="100" /></a></div>
+<div class='right'><a href='/attachment:NCSUGalaxy2013.pdf'><img src='/NCSUGalaxy2013Thumb.png' alt='' width="100" /></a></div>
 Please distribute to any groups that might be interested.  You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?

@@ -1,6 +1,9 @@
+---
+pagetitle: Careers with the Galaxy Project, :,  Software Engineers and Postdoctoral Researchers
+---
 <div class='center'>![Galaxy wants YOU, damnit](/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png)</div>
 
-<div class="title">Careers with the Galaxy Project: Software Engineers and Postdoctoral Researchers</div>
+
 
 <div class='right'> 
 <a href='http://www.johnshopkins.edu/'><img src='/Images/Logos/JohnsHopkins.png' alt='Johns Hopkins University' width="160" /></a><br /><br />
@@ -28,7 +31,7 @@ We have a wide variety of active projects, current areas of expertise sought inc
 <div class='right'>
 <table>
   <tr>
-    <td style=" background-color: #4C5163"> <a href='/DevNewsBriefs/2012_10_23/#visualization_framework'>{{attachment:Images/NewsGraphics/2012_10_23_scatterplot-fullscreen.png|scatterplot visualization|width="180"}}|target="_blank"</a> <br />  <a href='/DevNewsBriefs/2012_09_07/#user-interface-ui'>{{attachment:Images/NewsGraphics/2012_09_07_interactive-phylo-tree.png|interactive phylogenetic tree|width="180"}}|target="_blank"</a> <br />  <a href='/DevNewsBriefs/2012_01_27/#galaxy-track-browser-gtb'>{{attachment:Images/NewsGraphics/2012_01_27_multi-track-filtering.png|dynamic track filtering|width="180"}}|target="_blank"</a> <br />  <a href='/DevNewsBriefs/2012_07_20/#admin_genome_indexing'>{{attachment:Images/NewsGraphics/2012_07_20_main-page.png|reference genome index status|width="180"}}|target="_blank"</a> <br />  <a href='/DevNewsBriefs/2012_03_12/#galaxy-track-browser-gtb'>{{attachment:Images/NewsGraphics/2012_03_12_trackster-encode.png|ENCODE data in Trackster|width="180"}}|target="_blank"</a> <br />  <a href='/DevNewsBriefs/2012_05_11/#tools'>{{attachment:Images/NewsGraphics/2012_05_11_gatk-workflow.png|GATK Workflow visualization|width="180"}}|target="_blank"</a> </td>
+    <td style=" background-color: #4C5163;"> <a href='/DevNewsBriefs/2012_10_23#visualization_framework'>{{attachment:Images/NewsGraphics/2012_10_23_scatterplot-fullscreen.png|scatterplot visualization|width="180"}}|target="_blank"</a> <br />  <a href='/DevNewsBriefs/2012_09_07#user-interface-ui'>{{attachment:Images/NewsGraphics/2012_09_07_interactive-phylo-tree.png|interactive phylogenetic tree|width="180"}}|target="_blank"</a> <br />  <a href='/DevNewsBriefs/2012_01_27#galaxy-track-browser-gtb'>{{attachment:Images/NewsGraphics/2012_01_27_multi-track-filtering.png|dynamic track filtering|width="180"}}|target="_blank"</a> <br />  <a href='/DevNewsBriefs/2012_07_20#admin_genome_indexing'>{{attachment:Images/NewsGraphics/2012_07_20_main-page.png|reference genome index status|width="180"}}|target="_blank"</a> <br />  <a href='/DevNewsBriefs/2012_03_12#galaxy-track-browser-gtb'>{{attachment:Images/NewsGraphics/2012_03_12_trackster-encode.png|ENCODE data in Trackster|width="180"}}|target="_blank"</a> <br />  <a href='/DevNewsBriefs/2012_05_11#tools'>{{attachment:Images/NewsGraphics/2012_05_11_gatk-workflow.png|GATK Workflow visualization|width="180"}}|target="_blank"</a> </td>
   </tr>
 </table>
 

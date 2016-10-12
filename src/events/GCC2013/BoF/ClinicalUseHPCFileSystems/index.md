@@ -1,11 +1,14 @@
-INCLUDE(/Events/GCC2013/Header)
+---
+pagetitle: Galaxy Clinical Use Survey , /,  Filesystems and HPC
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 
-<div class="title">Galaxy Clinical Use Survey / Filesystems and HPC</div>
 
-INCLUDE(/Events/GCC2013/LinkBox)
-INCLUDE(/Events/GCC2013/BoF/LinkBox)
 
-<div class='left'><a href='/Events/GCC2013/BoF/'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
+PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/BoF/LinkBox)
+
+<div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
 
 This page describes the **Galaxy Clinical Use Survey / Filesystems and HPC** [Birds of a Feather](/Events/GCC2013/BoF) meetup being held at [GCC2013](/Events/GCC2013).
 
@@ -15,7 +18,7 @@ We had a general discussion regarding a “reference platform” for Galaxy and 
 
 ## When and Where
 
-We [time and location](/Events/GCC2013/BoF/#bof-schedule) will meet on Tuesday over lunch in the Cantina.
+We [time and location](/Events/GCC2013/BoF#bof-schedule) will meet on Tuesday over lunch in the Cantina.
 
 ## Who is Participating
 

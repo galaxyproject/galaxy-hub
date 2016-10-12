@@ -1,6 +1,6 @@
-INCLUDE(/CloudMan/Header)
+PLACEHOLDER_INCLUDE(/CloudMan/Header)
 
-INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(../LinkBox)
 
 ### CloudMan User Data Fields
 [CloudMan](/CloudMan) supports the notion of User Data when instantiating an instance. User Data allows individual instances of CloudMan to be customized for a given user. Some of the User Data fields are required while others allow further customization of one's instance. This page describes the available User Data fields. User Data is specified at the time of instance request in [YAML format](http://en.wikipedia.org/wiki/YAML), for example:
@@ -44,5 +44,5 @@ secret_key: <YOUR AWS SECRET KEY>
 | `reconfigure_nginx` |  If *configure_multiple_galaxy_processes* is enabled, CloudMan will attempt to rewrite the nginx configuration to load balance web traffic over port 80 accross the various web processes. This rewriting can be disabled by setting this property to *False*  | 
 | `nginx_conf_contents` |  This option can be a URL to or the base64 encoding of a nginx configuration file to replace the one built into the machine image immediately before CloudMan starts nginx.  | 
 | `use_object_store` |  To enable features like restarting a cluster, share strings, etc... CloudMan will write various configuration files out to S3 (or equivalent object store for other Cloud platforms). This behvaior can be disabled by setting this property to *False*. This is an advanced option and disabling these interactions will break certain CloudMan functionality. Defaults to *True*.  | 
-| `galaxy_universe_*` |  If *galaxy_conf_dir* is set, any property in Galaxy's config/galaxy.ini app:main section may be overwritten by setting a user data field of this form. For instance, to require logins one could set the user data property *galaxy_universe_require_login* to *true*. See Galaxy's [universe_wsgi.ini.sample](https://bitbucket.org/galaxy/galaxy-central/src/tip/universe_wsgi.ini.sample) file for documentation on the available properties.  | 
+| `galaxy_universe_*` |  If *galaxy_conf_dir* is set, any property in Galaxy's config/galaxy.ini app:main section may be overwritten by setting a user data field of this form. For instance, to require logins one could set the user data property *galaxy_universe_require_login* to *true*. See Galaxy's [galaxy.ini.sample](https://github.com/galaxyproject/galaxy/blob/dev/config/galaxy.ini.sample) file for documentation on the available properties.  | 
 | `galaxy_tool_runner_*` |  If *galaxy_conf_dir* is set, Galaxy tool runners can be specified via user data fields of this form.  | 

@@ -1,7 +1,7 @@
 <div class='newsItemHeader'>[GTN Joints GOBLET](/News/GTNJoinsGOBLET)</div>
 
 <div class='right'>
-<a href='/Teach/'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' height="120" /></a>
+<a href='/Teach'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' height="120" /></a>
 <a href='http://mygoblet.org'><img src='/Images/Logos/GobletLogo.png' alt='Global Organisation for Bioinformatics Learning, Education & Training (GOBLET)' height="120" /></a>
 </div>
 
@@ -23,6 +23,6 @@ Many thanks to these GTN members for making this happen, and to the GOBLET Execu
 
 [Dave Clements](/DaveClements), on behalf of the [Galaxy Training Network](/Teach/Trainers)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2015-03-09T16:53:35Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-03-09T16:53:35Z)</div>
 
 CategoryNews

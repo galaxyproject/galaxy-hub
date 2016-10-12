@@ -1,20 +1,21 @@
 ---
 autotoc: true
 ---
-<div class='center'>![CloudMan](/Images/Logos/CloudManWideBlackLogo.png)</div>
+PLACEHOLDER_INCLUDE(/CloudMan/Header)
 
 <br />
+<div class='right'></div>
 A !CloudMan cluster can be used for different scenarios, including a comprehensive bioinformatics workbench for a lab, a platform for doing hands-on classroom training or for tool development and testing. In response, a number of !CloudMan cluster configuration types exist for you to choose from, depending on what you would like to use the cluster for, as captured in the following screenshots. Note that you choose the cluster type only once (in either the Cloud Launch application or !CloudMan itself) and it's done when you first create your cluster.
 
 <div class='center'>
 <table>
   <tr>
-    <td style=" border-width: 0"> <strong>Cloud Launch application</strong></td>
-    <td style=" border-width: 0"> <strong>!CloudMan application</strong></td>
+    <td style=" border-width: 0;"> <strong>Cloud Launch application</strong></td>
+    <td style=" border-width: 0;"> <strong>!CloudMan application</strong></td>
   </tr>
   <tr>
-    <td style=" border-width: 0"> <img src='http://i.imgur.com/IBJoLLc.png' alt='' width=400 /></td>
-    <td style=" border-width: 0"> <img src='http://i.imgur.com/aBEEnuL.png?1' alt='' width=400 /></td>
+    <td style=" border-width: 0;"> <img src='http://i.imgur.com/IBJoLLc.png' alt='' width=400 /></td>
+    <td style=" border-width: 0;"> <img src='http://i.imgur.com/aBEEnuL.png?1' alt='' width=400 /></td>
   </tr>
 </table>
 
@@ -25,7 +26,7 @@ A !CloudMan cluster can be used for different scenarios, including a comprehensi
   <tr class="th" >
     <th style=" width: 7em;"> Option </th>
     <th> Option type description </th>
-    <th style=" width: 37%;"> Default <a href='/CloudMan/Services/'>services</a> started </th>
+    <th style=" width: 37%;"> Default <a href='/CloudMan/Services'>services</a> started </th>
   </tr>
   <tr>
     <th> Cluster only </th>
@@ -34,16 +35,16 @@ A !CloudMan cluster can be used for different scenarios, including a comprehensi
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef"> </td>
+    <td colspan=3 style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> Cluster with Galaxy </th>
     <td> This cluster type will configure all the same functionality as the <em>Cluster only</em> type with the addition of the Galaxy application ecosystem. Namely, this cluster type will automatically configure the Galaxy application in <a href='https://wiki.galaxyproject.org/Admin/Config/Performance/ProductionServer'>production mode</a> and supply the necessary cloud infrastructure for processing the tasks. The Galaxy application comes preconfigured with hundreds of bioinformatics tools (for the complete list, see <a href='https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/shed_tool_list.yaml'>this file</a>) and hundreds of gigabytes of genomic reference data. </td>
-    <td> • Post Start Script (PSS)<br />• Galaxy application<br />• Galaxy Reports web app<br />• Nginx web server<br />• NodeJS Proxy for <a href='/Admin/IEs/'>Interactive Environments</a><br />• PostgreSQL database<br />• ProFTPd FTP server<br />• Slurm job manager (node daemon and controller)<br />• Supervisor</td>
+    <td> • Post Start Script (PSS)<br />• Galaxy application<br />• Galaxy Reports web app<br />• Nginx web server<br />• NodeJS Proxy for <a href='/Admin/IEs'>Interactive Environments</a><br />• PostgreSQL database<br />• ProFTPd FTP server<br />• Slurm job manager (node daemon and controller)<br />• Supervisor</td>
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef"> </td>
+    <td colspan=3 style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> Cloned cluster <br />(available within !CloudMan only)</th>
@@ -52,7 +53,7 @@ A !CloudMan cluster can be used for different scenarios, including a comprehensi
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef"> </td>
+    <td colspan=3 style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> Do not set cluster type now</th>
@@ -75,7 +76,7 @@ When launching a new cluster, you need to decide what type of storage would you 
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef"> </td>
+    <td colspan=3 style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> Transient instance storage</th>

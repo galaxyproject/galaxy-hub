@@ -4,6 +4,6 @@ Text of note goes here.  Avoid section headings.  Notes have a standard format t
 
 @NAME@ (optional)
 
-<div class='noteItemFooter'>Posted to [Galaxy Notes](/Notes) on <<Date(2012-08-15T00:12:48Z)>></div>
+<div class='noteItemFooter'>Posted to [Galaxy Notes](/Notes) on PLACEHOLDER_DATE(2012-08-15T00:12:48Z)</div>
 
 CategoryNotes

@@ -1,10 +1,12 @@
 ---
 autotoc: true
+pagetitle: January 2015 Galaxy Update
 ---
-<div class="title">January 2015 Galaxy Update</div>
 
 
-<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='right'></div>
+
+<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the January *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -31,13 +33,13 @@ The new papers covered these topics:
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -121,12 +123,12 @@ Please let the GCC2015 Organising Committee ([gcc2015-org AT lists DOT galaxypro
 
 <div class='center'> 
 <a href='https://pag.confex.com/pag/xxiii/webprogram/Session2641.html'><img src='/Images/Logos/PAGLogo114.png' alt='Galaxy @ Plant and Animal Genome (PAG 2015)' height="80" /></a>
-<a href='/Events/SDSU2014/'><img src='/Images/Logos/SDSULogo.jpg' alt='Galaxy Workshops @ San Diego State University' height="80" /></a> &nbsp;
+<a href='/Events/SDSU2014'><img src='/Images/Logos/SDSULogo.jpg' alt='Galaxy Workshops @ San Diego State University' height="80" /></a> &nbsp;
 <a href='http://www.vibconferences.be/event/revolutionizing-next-generation-sequencing-tools-and-technologies'><img src='/Images/Logos/VIBLogoBig.jpg' alt='Revolutionizing Next-Generation Sequencing: Tools and Technologies' height="75" /></a> &nbsp;
 <a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'><img src='/Images/Logos/SupAgroMontpelierLogo.jpg' alt='Analyse bioinformatique de séquences sous Galaxy' height="60" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div>
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div>
 
 There are [upcoming events](/Events) on two continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -139,54 +141,54 @@ There are [upcoming events](/Events) on two continents.  See the [Galaxy Events 
   </tr>
   <tr>
     <th> January 10-14 </th>
-    <td> <em>Galaxy for SNP and Variant Data Analysis</em> </td>
+    <td> </em>Galaxy for SNP and Variant Data Analysis<em> </td>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXIII (PAG2014)</a>, San Diego, California, United States </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 15 </th>
-    <td> <em><a href='/Events/SDSU2014/'>Galaxy Workshops</a></em> </td>
+    <td> </em><a href='/Events/SDSU2014'>Galaxy Workshops</a><em> </td>
     <td> <a href='http://sdsu.edu/'>San Diego State University</a>, San Diego, California, United States </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 15-16 </th>
-    <td> <em>Accessible and Reproducible Genomics at Scale with Galaxy</em> </td>
+    <td> </em>Accessible and Reproducible Genomics at Scale with Galaxy<em> </td>
     <td> <a href='http://www.vibconferences.be/event/revolutionizing-next-generation-sequencing-tools-and-technologies'>Revolutionizing Next-Generation Sequencing: Tools and Technologies</a>, Leuven, Belgium </td>
-    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> January 19-20 </th>
-    <td> <em>NGS pipelines with Galaxy</em> </td>
+    <td> </em>NGS pipelines with Galaxy<em> </td>
     <td> <a href='http://www.uppnex.se/events/eInfraMPS2015'>e-Infrastructures for Massively Parallel Sequencing</a>, <a href='http://www.scilifelab.se/'>SciLifeLab</a>, Uppsala, Sweden </td>
     <td> <a href='http://www.crs4.it/crs4/peopledetails/people/148/Luca_Pireddu'>Luca Pireddu</a> </td>
   </tr>
   <tr>
     <th> February 9-13 </th>
-    <td> <em><a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a></em> </td>
+    <td> </em><a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a><em> </td>
     <td> Montpellier, France </td>
     <td> <a href="mailto:jean-francois.dufayard@cirad.fr">J.F. Dufayard</a> </td>
   </tr>
   <tr>
     <th rowspan=3> February 16-18 </th>
-    <td> <em>Accessible and Reproducible Large-Scale Analysis with Galaxy</em> </td>
+    <td> </em>Accessible and Reproducible Large-Scale Analysis with Galaxy<em> </td>
     <td rowspan=1> <a href='http://www.triconference.com/Sequencing-Analysis/'>Genome and Transcriptome Analysis</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
-    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor'>James Taylor</a> </td>
   </tr>
   <tr>
-    <td> <em>Large-Scale NGS data Analysis on Amazon Web Services Using Globus Genomic</em> </td>
+    <td> </em>Large-Scale NGS data Analysis on Amazon Web Services Using Globus Genomic<em> </td>
     <td rowspan=2> <a href='http://www.triconference.com/Integration-Analysis-Visualization/'>Genomics & Sequencing Data Integration, Analysis and Visualization</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
     <td> <a href='http://www.ci.anl.gov/profile/250'>Ravi Madduri</a> </td>
   </tr>
   <tr>
-    <td> <em>iReport: An Integrative “omics” Reporting and Visualisation Platform</em> </td>
+    <td> </em>iReport: An Integrative “omics” Reporting and Visualisation Platform<em> </td>
     <td> Andrew Stubbs </td>
   </tr>
   <tr>
     <th> May 25-29 </th>
     <td> <a href='http://www.mipro.hr/MIPRO2015.DCVIS/ELink.aspx'>MIPRO</a> </td>
     <td> Opatija, Croatia </td>
-    <td> <a href='/EnisAfgan/'>Enis Afgan</a> </td>
+    <td> <a href='/EnisAfgan'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> July 6-8 </th>
@@ -199,7 +201,7 @@ There are [upcoming events](/Events) on two continents.  See the [Galaxy Events 
 
 # GalaxyAdmins is back!
 
-<div class='right'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins is back!' width="150" /></a></div>
+<div class='right'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins is back!' width="150" /></a></div>
 
 *We just don't know exactly when, yet ...*
 
@@ -221,7 +223,7 @@ The likely presentation for the January meetup will be a summary of the Galaxy C
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -241,7 +243,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## MetaNET
 
-<div class='right'><div class='solid'><a href='http://metanet.osdd.net/'><img src='/PublicGalaxyServers/MetaNETLogo200.png' alt='MetaNET'  /></a></div>
+<div class='right solid'><a href='http://metanet.osdd.net/'><img src='/PublicGalaxyServers/MetaNETLogo200.png' alt='MetaNET'  /></a></div>
 * *Links:*
   * [MetaNET server](http://metanet.osdd.net/)
   * [MetaNET - a web-accessible interactive platform for biological metabolic network analysis](http://dx.doi.org/10.1186/s12918-014-0130-2), by Pankaj Narang, Shawez Khan, Anmol J. Hemrom, Andrew M. Lynn, *BMC Systems Biology,* Vol. 8, No. 1. (5 December 2014), doi:10.1186/s12918-014-0130-2
@@ -259,7 +261,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## VectorBase Galaxy
 
-<div class='right'><div class='solid'><a href='http://galaxy.vectorbase.org:8080/'><img src='/Images/Logos/VectorBaseLogoWithText.png' alt='VectorBase Galaxy' width=300 /></a></div>
+<div class='right solid'><a href='http://galaxy.vectorbase.org:8080/'><img src='/Images/Logos/VectorBaseLogoWithText.png' alt='VectorBase Galaxy' width=300 /></a></div>
 
 * *Link:*
   * [Vectorbase Galaxy](http://galaxy.vectorbase.org:8080/)
@@ -279,14 +281,14 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <div class='solid'>
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Teach/'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Logs/'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Deployments/'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Teach'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong>Share your <a href='/Teach/Resources/#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers/#add-a-trainer'>experience</a> <em>now</em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Logs/#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs/#add-a-log-page'>now</a></em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Deployments/#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments/#add-your-galaxy-deployment'>now</a></em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/Teach/Resources#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/Community/Logs#add-a-log-page'>Share your experience</a> </em><a href='/Community/Logs#add-a-log-page'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/Community/Deployments#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/Community/Deployments#add-your-galaxy-deployment'>now</a><em> <strong> </td>
   </tr>
 </table>
 
@@ -305,7 +307,7 @@ Several new [Training Resources](/Teach/Resources) were added in December:
 
 [BioBlend v0.5.2 was released in October](/News/BioBlendV0.5.2).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  
 
-New versions of [Galaxy](/GalaxyUpdates/2014_09/#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09/#august-2014-cloudman-release), and [blend4j](/GalaxyUpdates/2014_09/#blend4j-011-release) were all released in August.
+New versions of [Galaxy](/GalaxyUpdates/2014_09#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/GalaxyUpdates/2014_09#blend4j-011-release) were all released in August.
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
 
@@ -392,8 +394,8 @@ In no particular order:
   * [package_r_3_1_2](https://toolshed.g2.bx.psu.edu/view/iuc/package_r_3_1_2):  Contains a tool dependency definition that downloads and compiles version 3.0.3 of the the R package.
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
   * [package_bowtie_2_2_4](https://toolshed.g2.bx.psu.edu/view/devteam/package_bowtie_2_2_4): tool dependency definition that downloads and compiles version 2.2.4 of the Bowtie package Contains a tool dependency definition that downloads and compiles version 2.2.4 of the Bowtie package
-  * [package_cufflinks_2_2_1](https://toolshed.g2.bx.psu.edu/view/devteam/package_cufflinks_2_2_1): tool dependency definition that downloads and compiles version 2.2.1 of the cufflinks RNA-Seq suite. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/DefiningRepositoryDependencies/#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
-  * [package_picard_1_126_0](https://toolshed.g2.bx.psu.edu/view/devteam/package_picard_1_126_0): tool dependency definition that downloads and compiles version 1.126.0 of the Picard package. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/DefiningRepositoryDependencies/#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
+  * [package_cufflinks_2_2_1](https://toolshed.g2.bx.psu.edu/view/devteam/package_cufflinks_2_2_1): tool dependency definition that downloads and compiles version 2.2.1 of the cufflinks RNA-Seq suite. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/DefiningRepositoryDependencies#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
+  * [package_picard_1_126_0](https://toolshed.g2.bx.psu.edu/view/devteam/package_picard_1_126_0): tool dependency definition that downloads and compiles version 1.126.0 of the Picard package. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/DefiningRepositoryDependencies#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
   * [package_freebayes_0_9_18_0059bdf](https://toolshed.g2.bx.psu.edu/view/devteam/package_freebayes_0_9_18_0059bdf): tool dependency definition that downloads and compiles version 0.9.18 of !FreeBayes. Program: freebayes (Bayesian haplotype-based polymorphism discovery and genotyping.)  Version: 0.9.18 (0059bdf)
 
 * *From [mrvollger](https://toolshed.g2.bx.psu.edu/view/mrvollger):*

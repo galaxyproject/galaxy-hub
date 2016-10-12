@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[March 2013 GalaxyAdmins Meetup](/News/2013_03GalaxyAdmins)</div>
 
-<div class='right'><a href='/Community/GalaxyAdmins/Meetups/2013_03_20/'><img src='/Images/Logos/GalaxyAdmins.png' alt='March 2013 GalaxyAdmins Meetup' width="160" /></a> </div>
+<div class='right'><a href='/Community/GalaxyAdmins/Meetups/2013_03_20'><img src='/Images/Logos/GalaxyAdmins.png' alt='March 2013 GalaxyAdmins Meetup' width="160" /></a> </div>
 
 The [next meeting](/Community/GalaxyAdmins/Meetups/2013_03_20) of the [GalaxyAdmins Group](/Community/GalaxyAdmins) will be held on [March 20, 2013, at 10 AM Central US time](/Community/GalaxyAdmins/Meetups/2013_03_20). 
 
@@ -17,15 +17,15 @@ The [next meeting](/Community/GalaxyAdmins/Meetups/2013_03_20) of the [GalaxyAdm
   </tr>
   <tr>
     <th> Presentation </th>
-    <td> <em><a href='http://galaxy.nbic.nl/'>NBIC Galaxy</a> at <a href='https://www.surfsara.nl/'>SURFsara's HPC cloud</a></em>  </td>
+    <td> </em><a href='http://galaxy.nbic.nl/'>NBIC Galaxy</a> at <a href='https://www.surfsara.nl/'>SURFsara's HPC cloud</a><em>  </td>
   </tr>
   <tr>
     <th> Presenters </th>
-    <td> <<MailTo(hailiang DOT mei AT nbic DOT nl, Hailiang (Leon) Mei)>><br />There will also be a <em>Galaxy Project Update</em> from <a href='/Dan/'>Dan Blankenberg</a> of the <a href='/GalaxyTeam/'>Galaxy Team</a> </td>
+    <td> <a href="mailto:hailiang DOT mei AT nbic DOT nl">Hailiang "Leon" Mei</a><br />There will also be a </em>Galaxy Project Update<em> from <a href='/Dan'>Dan Blankenberg</a> of the <a href='/GalaxyTeam'>Galaxy Team</a> </td>
   </tr>
   <tr>
     <th> Links </th>
-    <td> <em><a href='https://globalcampus.uiowa.edu:443/join_meeting.html?meetingId=1262344508128'>Join Meetup</a>, <a href='https://globalcampus.uiowa.edu:443/build_calendar.event?meetingId=1262344508128'>Meetup Invite</a></em> </td>
+    <td> </em><a href='https://globalcampus.uiowa.edu:443/join_meeting.html?meetingId=1262344508128'>Join Meetup</a>, <a href='https://globalcampus.uiowa.edu:443/build_calendar.event?meetingId=1262344508128'>Meetup Invite</a><em> </td>
   </tr>
 </table>
 
@@ -38,6 +38,6 @@ We use the [Blackboard Collaborate Web Conferencing system](/Community/GalaxyAdm
 
 Srinivas Maddhi
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-03-12T15:59:31Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-03-12T15:59:31Z)</div>
 
 CategoryNews

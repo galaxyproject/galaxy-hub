@@ -1,4 +1,5 @@
 
+#language en
 <div class='right'>![](/GalaxyTeam/EnisAfgan.jpg)</div>
 
 # Enis Afgan
@@ -22,5 +23,5 @@ Overall, my research interests lay in the area of distributed computing accessib
 </table>
 
 
-----
+---
 CategoryHomepage

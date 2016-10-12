@@ -1,13 +1,15 @@
 ---
 autotoc: true
+pagetitle: Workshop 14, :,  Running a Local Galaxy Instance
 ---
-<div class="title">Workshop 14: Running a Local Galaxy Instance</div>
+
 [Adam Kraut](http://bioteam.net/company-leadership/), [Nate Coraor](/nate), [Anushka Brownley](http://bioteam.net/company-leadership/), Tristan Lubinski, [James Reaney](http://www.sgi.com/solutions/genomics)
 
 <br />
 ![](https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png) #usegalaxy #BioIT2014
 
 This page covers the follow-along steps of the workshop. Other material from the workshop may be found on  [/Events/BioITWorld2014](/Events/BioITWorld2014) or [the Bio-IT World Expo workshop details page](http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135152).
+
 
 
 For this workshop we will be using virtual machines on an SGI UV system at Penn State (provided by workshop sponsor SGI). You will need an SSH client (`ssh` in Terminal on OS X and Linux, or e.g. [PuTTY](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) on Windows). Login details for the virtual machines are:
@@ -274,7 +276,7 @@ Reload the Galaxy interface if your 3rd party cookies were not previously enable
 * [Tutorial on installing tools from the Tool Shed](/Admin/Tools/AddToolFromToolShedTutorial)
 * [Current tools/ directory](https://bitbucket.org/galaxy/galaxy-central/src/3b42725359224832317a066d95dff596f93ab33f/tools?at=stable)
 * [Tool Shed hub page](/ToolShed)
-* [Tool Shed tour](/ToolShedTour)
+* [Tool Shed tour](/ToolShed/Tour)
 * [Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)
 
 ## Managing local data
@@ -457,7 +459,7 @@ admin_users = nate@bx.psu.edu
 
 Explanations of these options:
 
-* `database_connection = postgresql:///galaxy?host=/var/run/postgresql` - Use a PostgreSQL database via a local UNIX domain socket (the socket is in `/var/run/postgresql`). [documentation](/Admin/Config/Performance/ProductionServer/#switching_to_a_database_server)
+* `database_connection = postgresql:///galaxy?host=/var/run/postgresql` - Use a PostgreSQL database via a local UNIX domain socket (the socket is in `/var/run/postgresql`). [documentation](/Admin/Config/Performance/ProductionServer#switching_to_a_database_server)
 * `database_engine_option_server_side_cursors = True` - Keep large SQL query results on the PostgreSQL server, rather the transferring the entire result set to the Galaxy processes.
 * `database_engine_option_strategy = threadlocal` - Only use one database connection per thread
 * `tool_dependency_dir = /home/galaxy/tool_deps` - The directory that will house tool dependencies
@@ -475,7 +477,7 @@ Explanations of these options:
 Honorable mentions for features we won't use today but that are common in big setups:
 
 * `ftp_upload_dir` and `ftp_upload_site` - Allow users to upload data to the server using FTP
-* `use_remote_user` and `remote_user_maildomain` - Use your institution's existing authentication system to log in to Galaxy. [Apache documentation](/Admin/Config/ExternalUserDatbases) or [nginx documentation](/Admin/Config/nginxProxy/#external_user_authentication)
+* `use_remote_user` and `remote_user_maildomain` - Use your institution's existing authentication system to log in to Galaxy. [Apache documentation](/Admin/Config/ExternalUserDatbases) or [nginx documentation](/Admin/Config/nginxProxy#external_user_authentication)
 * `allow_user_impersonation` - Users configured as administrators (with `admin_users`) can "become" other users to view Galaxy exactly as the impersonated user does. Useful for providing support.
 * `library_import_dir` - Administrators can directly import datasets from this directory on the server to Data Libraries.  This includes an option that allows an effective "symlink" to the data, rather than copying it in to Galaxy's `file_path` directory. [documentation](/Admin/DataLibraries/UploadingLibraryFiles)
 * `user_library_import_dir` - Non-administrators can directly import datasets from this directory on this server to Data Libraries from which they have been given write permission. [documentation](/Admin/DataLibraries/UploadingLibraryFiles)
@@ -703,8 +705,8 @@ server {
         upload_store /home/galaxy/uploads;
         upload_store_access user:rw;
         upload_pass_form_field "";
-        upload_set_form_field "</u>${upload_field_name}<u>is_composite" "true";
-        upload_set_form_field "</u>${upload_field_name}<u>keys" "name path";
+        upload_set_form_field "<u>${upload_field_name}</u>is_composite" "true";
+        upload_set_form_field "<u>${upload_field_name}</u>keys" "name path";
         upload_set_form_field "${upload_field_name}_name" "$upload_file_name";
         upload_set_form_field "${upload_field_name}_path" "$upload_tmp_path";
         upload_pass_args on;

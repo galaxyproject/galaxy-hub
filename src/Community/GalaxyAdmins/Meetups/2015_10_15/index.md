@@ -1,16 +1,16 @@
-<div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='GalaxyAdmins' width="220" /></a> 
-<div class="title">2015/10/15 Web Meetup<br /><br />
+<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='GalaxyAdmins' width="220" /></a> 
+<div class='title'>2015/10/15 Web Meetup<br /><br />
 
 </div></div>
 
-INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 <table>
   <tr>
     <th> Date </th>
     <td> 15 October 2015 </td>
-    <td rowspan=4 style=" border: none"> </td>
-    <td rowspan=4 style=" border: none"> </td>
+    <td rowspan=4 style=" border: none;"> </td>
+    <td rowspan=4 style=" border: none;"> </td>
   </tr>
   <tr>
     <th> Time </th>
@@ -22,7 +22,7 @@ INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Links </th>
-    <td> <a href='https://connect.johnshopkins.edu/p5b2674yauc/'>Video</a>, <a href='ATTACHMENT_URLDocuments/Presentations/GalaxyAdmins201510_GalaxyAtAnalome.pdf'>Galaxy @ Analome Slides</a>, <a href='ATTACHMENT_URLDocuments/Presentations/GalaxyAdmins201510_WikiReplacement.pdf'>Wiki Replacement Slides</a> </td>
+    <td> <a href='https://connect.johnshopkins.edu/p5b2674yauc/'>Video</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GalaxyAdmins201510_GalaxyAtAnalome.pdf'>Galaxy @ Analome Slides</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GalaxyAdmins201510_WikiReplacement.pdf'>Wiki Replacement Slides</a> </td>
   </tr>
 </table>
 

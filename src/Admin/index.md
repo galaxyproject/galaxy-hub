@@ -1,6 +1,6 @@
-INCLUDE(/Admin/LinkBox)
-INCLUDE(/Develop/LinkBox)
-INCLUDE(/FAQs/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/LinkBox)
+PLACEHOLDER_INCLUDE(/Develop/LinkBox)
+PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
 
 # Galaxy Administration
 This is the hub page for the section of this wiki on how to deploy and administer your own copy of Galaxy.

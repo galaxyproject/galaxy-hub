@@ -1,4 +1,5 @@
 
+#language en
 
 <div class='right'>![Family School](http://www.family.4j.lane.edu/FamilySchool/Splash_files/fs-logo.gif)</div>
 
@@ -27,5 +28,5 @@ I am a 4th grader at [Family School](http://www.family.4j.lane.edu/FamilySchool/
 
 
 
-----
+---
 CategoryHomepage

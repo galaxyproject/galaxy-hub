@@ -1,10 +1,12 @@
 ---
 autotoc: true
+pagetitle: Galaxy Project Logos
 ---
-INCLUDE(/Images/LinkBox)
+PLACEHOLDER_INCLUDE(/Images/LinkBox)
+
+<div class='right'></div>
 
 
-<div class="title">Galaxy Project Logos</div>
 
 These are current official Galaxy Project logos, using the current version of the Galaxy Logo created by [Petr Kadlec](http://puradesign.cz/en).
 
@@ -35,6 +37,12 @@ Galaxy Project Logos have been provided to the Galaxy community for community bu
     ![](http://i.imgur.com/EBcrp64.png)
 
 # Component Logos
+
+## blend4php
+
+* White background, 500x102 pixels
+    <a href='/attachment:blend4phpLogo.png'><img src='/blend4phpLogo.png' alt=''  /></a>
+
 
 ## CloudMan
 
@@ -126,8 +134,8 @@ Galaxy Project Logos have been provided to the Galaxy community for community bu
 
 # Full List
 
-<<Action(AttachFile, Attach a new file)>>
+PLACEHOLDER_ACTION(AttachFile,Attach a new file)
 
 An alphabetical list of all logos on this page.  If you want to create an HTML link to an image copy the *get* link for that image.
 
-<<AttachList>>
+PLACEHOLDER_ATTACH_LIST

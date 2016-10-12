@@ -1,11 +1,12 @@
 ---
 autotoc: true
 ---
-INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(../LinkBox)
 
-INCLUDE(/Under Construction)
+PLACEHOLDER_INCLUDE(/Under Construction)
 
 Galaxy has an [Applications Programming Interface (API)](/Learn/API) that enables access to Galaxy from scripts.  This page describes the [administrative](/Admin) aspects of the API.  See [/Learn/API](/Learn/API) for information on using the [Galaxy API](/Learn/API).
+
 
 
 # Scripts
@@ -32,7 +33,7 @@ library_import_dir = /path/to/some/directory
 
 In the directory you specified for `library_import_dir`, **create some subdirectories, and put (or symlink) files to import into Galaxy into those subdirectories.**
 
-&rarr; Need more explanation of above **bold** statement.  Are these the scripts from [https://github.com/galaxyproject/galaxy/tree/master//scripts/api/](https://github.com/galaxyproject/galaxy/tree/master//scripts/api/)?  What are the subdirectories to create?
+&rarr; Need more explanation of above **bold** statement.  Are these the scripts from [scripts/api/](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/)?  What are the subdirectories to create?
 
 ## Generate the Admin Account API Key
 
@@ -55,7 +56,7 @@ In Galaxy, create an account that matches the address you put in `admin_users`, 
 
 
 **Please pay attention to the note:**
-<div class='red'><div class='border'>
+<div class='red border'>
  Please note that **this key acts as an alternate means to access your account, and should be treated with the same care as your login password.** 
 </div>
 
@@ -169,8 +170,8 @@ The request and response format should be considered alpha and are subject to ch
 
 ## Example Configurations
 
-* [https://github.com/galaxyproject/galaxy/tree/master/scripts/api/sample_configurations/sample_tracking/request_form.xml](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/sample_configurations/sample_tracking/request_form.xml)
-* [https://github.com/galaxyproject/galaxy/tree/master/scripts/api/sample_configurations/sample_tracking/request_type.xml](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/sample_configurations/sample_tracking/request_type.xml)
-* [https://github.com/galaxyproject/galaxy/tree/master/scripts/api/sample_configurations/sample_tracking/sample_form.xml](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/sample_configurations/sample_tracking/sample_form.xml)
+* [api/sample_configurations/sample_tracking/request_form.xml](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/sample_configurations/sample_tracking/request_form.xml)
+* [api/sample_configurations/sample_tracking/request_type.xml](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/sample_configurations/sample_tracking/request_type.xml)
+* [api/sample_configurations/sample_tracking/sample_form.xml](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/sample_configurations/sample_tracking/sample_form.xml)
 
 Explain the format, how these are created.

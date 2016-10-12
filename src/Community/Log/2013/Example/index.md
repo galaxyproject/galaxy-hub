@@ -1,4 +1,7 @@
-<div class="title">2013/11: VelvetG error on CloudMan Instance: cannot find 'cov_cutoff'</div>
+---
+pagetitle: 2013, /, 11, :,  VelvetG error on CloudMan Instance, :,  cannot find , ', cov_cutoff, '
+---
+
 
 
 

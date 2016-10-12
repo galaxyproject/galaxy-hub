@@ -13,6 +13,6 @@ The *yellow banner on **Main** and **Test** will provide updates* (when the serv
 *Thanks for using Galaxy!!*
 
 [Galaxy Team](/GalaxyTeam)
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-03-07T18:33:46Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-03-07T18:33:46Z)</div>
 
 CategoryNews

@@ -8,12 +8,8 @@ Common place to store graphic used for [/Support](/Support) and [/Learn](/Learn)
 * [NewsGraphics](/Images/NewsGraphics) are used in communications, such as [Galaxy Development News Briefs](/DevNewsBriefs). May have a date stamp.
 * [ScreencastFrame](/Images/ScreencastFrame) - Supplemental graphics used for tutorials and quickies.
 
-<<Action(AttachFile, Attach a new file)>>
+PLACEHOLDER_ACTION(AttachFile,Attach a new file)
 
 ## Learn Graphics
 
-<<AttachList>>
-
-Below is a list of thumbnails.  <<span(red)>>Clicking on the images causes an exception, so please don't do that.<<span>>
-
-<<arnica(album=False,album_link_page=False,show_date=False,show_text=True,show_album_title=False)>>
+PLACEHOLDER_ATTACH_LIST

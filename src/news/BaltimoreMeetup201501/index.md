@@ -2,7 +2,7 @@
 
 Hey Everyone,
 
-<div class='right'><a href='/Events/Meetups/Baltimore/2015-01-22/'><img src='/Events/Meetups/Baltimore/GalaxyBaltimoreMeetupLogo400.png' alt='Galaxy Baltimore Meetups' width="170" /></a></div>
+<div class='right'><a href='/Events/Meetups/Baltimore/2015-01-22'><img src='/Events/Meetups/Baltimore/GalaxyBaltimoreMeetupLogo400.png' alt='Galaxy Baltimore Meetups' width="170" /></a></div>
 
 We are looking forward to kicking off our first Galaxy Project Meetup! We will [meet on January 22](/Events/Meetups/Baltimore/2015-01-22) at one of the Galaxy project hubs - the Department of Biology of Johns Hopkins University for a general introduction to Galaxy in the form of a social gathering. This will be an informal meeting open to anyone interested in data analysis, tools, computer infrastructure, programming, ...
 
@@ -16,6 +16,6 @@ Thanks,
 
 [Enis Afgan](/EnisAfgan) and [Nitesh Turaga](/NiteshTuraga), of the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2015-01-07T23:03:21Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-01-07T23:03:21Z)</div>
 
 CategoryNews

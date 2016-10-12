@@ -1,39 +1,41 @@
 ---
 autotoc: true
+pagetitle: June 3, ,,  2013 Galaxy Distribution News Brief
 ---
+<div class='right'></div>
 
 [All News Briefs](/DevNewsBriefs)
 
 <br />
 
-<div class="title">June 3, 2013 Galaxy Distribution News Brief</div>
+
 
 <br />
 # Get Galaxy
 *Please note new* **upgrade** *syntax*
 <table>
   <tr>
-    <td rowspan=3 style=" border: none"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>new</strong>: </td>
-    <td style=" border: none"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
+    <td style=" border: none;"> <strong>new</strong>: </td>
+    <td style=" border: none;"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>upgrade</strong>: </td>
-    <td style=" border: none"> <code>$ hg pull </code> <br /> <code>$ hg update release_2013.06.03 </code> </td>
+    <td style=" border: none;"> <strong>upgrade</strong>: </td>
+    <td style=" border: none;"> <code>$ hg pull </code> <br /> <code>$ hg update release_2013.06.03 </code> </td>
   </tr>
 </table>
 
@@ -196,7 +198,7 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 # Scatterplot
 1. Enhancements to handlers, display, and data input parsing. https://trello.com/c/5jk3k7Td
 
-<a href='/DevNewsBriefs/2013_06_03/'><img src='/Images/NewsGraphics/2013_06_03_scatterplot-1.png' alt='scatterplot' width=500 /></a>
+<a href='/DevNewsBriefs/2013_06_03'><img src='/Images/NewsGraphics/2013_06_03_scatterplot-1.png' alt='scatterplot' width=500 /></a>
 
 <br />
 # Trackster
@@ -237,9 +239,9 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 1. Upgraded `SQLAlchemy`. https://trello.com/c/Q6kBeByD
 1. Error Logging with `Sentry`. https://trello.com/c/Yc1LXXTR
 
-<a href='/DevNewsBriefs/2013_06_03/'><img src='/Images/NewsGraphics/2013_06_03_sentry-1.png' alt='sentry-1' width=600 /></a>
+<a href='/DevNewsBriefs/2013_06_03'><img src='/Images/NewsGraphics/2013_06_03_sentry-1.png' alt='sentry-1' width=600 /></a>
 
-<a href='/DevNewsBriefs/2013_06_03/'><img src='/Images/NewsGraphics/2013_06_03_sentry-2.png' alt='sentry-2' width=500 /></a>
+<a href='/DevNewsBriefs/2013_06_03'><img src='/Images/NewsGraphics/2013_06_03_sentry-2.png' alt='sentry-2' width=500 /></a>
 
 <br />
 # Pull Requests Merged
@@ -281,7 +283,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # GCC2013
 
-<div class='left'><a href='/Events/GCC2013/'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="150" /></a></div> 
+<div class='left'><a href='/Events/GCC2013'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="150" /></a></div> 
 
 <br />
 <br />
@@ -289,7 +291,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 <br />
 <br />
-----
+---
 <br />
 # About
 **[GalaxyProject.org](http://galaxyproject.org)**

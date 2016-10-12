@@ -1,17 +1,20 @@
+---
+pagetitle: Introduction to Galaxy
+---
 <div class='center'>
-<div class="title">Introduction to Galaxy</div>
+
 
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle"> <a href='http://www.cbmg.umd.edu/'><img src='/Images/Logos/UMarylandBioLogo.png' alt='Department of Cell Biology and Molecular Genetics'  /></a> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle; width: 10%"> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.cbmg.umd.edu/'><img src='/Images/Logos/UMarylandBioLogo.png' alt='Department of Cell Biology and Molecular Genetics'  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle; width: 10%;"> </td>
     <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.cbcb.umd.edu/'><img src='/Images/Logos/CBCBLogo.png' alt='Center for Bioinformatics & Computational Biology' width="300" /></a> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle"> </td>
+    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle"> <a href='http://umd.edu/'><img src='/Images/Logos/UMarylandLogoLong349.gif/' alt='University of Maryland' width="300" /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://umd.edu/'><img src='/Images/Logos/UMarylandLogoLong349.gif' alt='University of Maryland' width="300" /></a> </td>
   </tr>
 </table>
 
@@ -54,7 +57,7 @@ No programming or Linux command line experience is required.
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:50 </th>
-    <td> <strong>Visualization & Visual Analytics in Galaxy</strong><div class='indent'>Learn to use Galaxy's built-in visualization capabilities.  We'll also demonstrate Galaxy's <em>visual analytics</em> support, using the tight coupling of visualization and analyses to iteratively guide analysis.</div> </td>
+    <td> <strong>Visualization & Visual Analytics in Galaxy</strong><div class='indent'>Learn to use Galaxy's built-in visualization capabilities.  We'll also demonstrate Galaxy's </em>visual analytics<em> support, using the tight coupling of visualization and analyses to iteratively guide analysis.</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:15 </th>

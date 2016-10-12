@@ -1,6 +1,9 @@
-INCLUDE(/Events/GCC2014/Header)
+---
+pagetitle: Using Galaxy with Heterogeneous and Remote Resources
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
-<div class="title">Using Galaxy with Heterogeneous and Remote Resources</div>
+
 
 <div class='dictbox'>
  BoF:: **[Using Galaxy with Heterogeneous and Remote Resources](/Events/GCC2014/BoFs/Heterogeneous)**
@@ -11,9 +14,9 @@ INCLUDE(/Events/GCC2014/Header)
  Contact:: [blood AT psc DOT edu](Philip Blood), [John Chilton](/JohnChilton), [Nate Coraor](/nate), Carrie Ganote
 </div>
 
-INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
-<div class='left'><a href='/Events/GCC2014/BoFs/'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
+<div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
 
 This page describes the **Using Galaxy with Heterogeneous and Remote Resources** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/Events/GCC2014).
 

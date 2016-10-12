@@ -1,6 +1,11 @@
+---
+pagetitle: Galaxy Releases
+---
+#acl WikiAdminGroup:read,write,revert All:read
+
 <div class='left'><a href='http://getgalaxy.org'><img src='/Images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png' alt='GalaxyProject' width="300" /></a></div>
 
-<div class="title">Galaxy Releases</div>
+
 <br />
 **Galaxy Release Notes** describe how to **[Get Galaxy](http://getgalaxy.org)** and What's New.
 <br /><br />

@@ -17,6 +17,6 @@ The release notes have a new home at **[Read the Docs](http://galaxy.readthedocs
 *Thanks for using Galaxy!* <br />
 [The Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2015-05-14T20:25:09Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-05-14T20:25:09Z)</div>
 
 CategoryNews

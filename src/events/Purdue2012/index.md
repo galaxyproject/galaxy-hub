@@ -1,12 +1,12 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle"> <a href='http://purdue.edu/'><img src='/Images/Logos/Purdue.jpg' alt='Purdue University' width="220px" /></a> &nbsp; <a href='https://www.bioinformatics.purdue.edu/'><img src='/Images/Logos/PurdueDiscoveryPark.jpg' alt='Purdue University Bioinformatics Core, Cyber Center and Discovery Park'  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://purdue.edu/'><img src='/Images/Logos/Purdue.jpg' alt='Purdue University' width="220px" /></a> &nbsp; <a href='https://www.bioinformatics.purdue.edu/'><img src='/Images/Logos/PurdueDiscoveryPark.jpg' alt='Purdue University Bioinformatics Core, Cyber Center and Discovery Park'  /></a> </td>
   </tr>
 </table>
 
 
-<div class="title">Introduction to Galaxy<br />October 22, 2012</div>
+<div class='title'>Introduction to Galaxy<br />October 22, 2012</div>
 
 **Instructor: [Dave Clements](/DaveClements)
 
@@ -103,7 +103,7 @@ All work will be done in a web browser and we will use the computer workstations
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the Purdue University [Bioinformatics Core](https://www.bioinformatics.purdue.edu/), [Cyber Center](http://www.purdue.edu/discoverypark/cyber/) and [Discovery Park](http://www.purdue.edu/discoverypark/).
 
 ## Links
-<div class='right'><a href='/attachment:PurdueGalaxyWorkshopFlier.pdf/'><img src='/PurdueGalaxyWorkshopFlierThumb.png' alt='Please distribute' height="220px" /></a></div>
+<div class='right'><a href='/attachment:PurdueGalaxyWorkshopFlier.pdf'><img src='/PurdueGalaxyWorkshopFlierThumb.png' alt='Please distribute' height="220px" /></a></div>
 
 * [Flier](ATTACHMENT_URLPurdueGalaxyWorkshopFlier.pdf) - please print / post / distribute
 * [Slides](ATTACHMENT_URLDocuments/Presentations/2012_Purdue.pdf)

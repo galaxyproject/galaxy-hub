@@ -1,17 +1,19 @@
 ---
 autotoc: true
+pagetitle: The September 2015 Galactic News, !
 ---
-<div class="title">The September 2015 Galactic News!</div>
+
 
 <div class='right'>
 <table>
   <tr>
+    <td style=" border: none; width: 28em;">  </td>
   </tr>
 </table>
 
 </div>
 
-<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
+<div class='left'><a href='/GalaxyUpdates'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
 Welcome to the September 2015 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the September News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
 
@@ -47,13 +49,13 @@ The new papers were tagged with:
   <tr>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
-    <td rowspan=4 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th style=" width: 19%;"> Tag </th>
   </tr>
@@ -99,13 +101,13 @@ The new papers were tagged with:
 
 
 
-<div class='right'><a href='/News/First2500Papers/'><img src='/First2500Grid.png' alt='First 2500 papers by tag and year' width="150" /></a></div>
+<div class='right'><a href='/News/First2500Papers'><img src='/First2500Grid.png' alt='First 2500 papers by tag and year' width="150" /></a></div>
  
 # Galaxy's First 2500 Publications
 
-And in case you missed it, we [reached 2500 publications](/News/First2500Papers) in the [Galaxy CiteULike Library](http://bit.ly/gxyCiteULike).  [This writeup](/News/First2500Papers) analyzes the papers by [CiteULike tag](/CiteULike/#citeulike_tags) and journal, across the past 11 years, and identifies some trends.  Of those 2500 papers, less than 2% have a [Galaxy Team member](/GalaxyTeam) as a coauthor.  
+And in case you missed it, we [reached 2500 publications](/News/First2500Papers) in the [Galaxy CiteULike Library](http://bit.ly/gxyCiteULike).  [This writeup](/News/First2500Papers) analyzes the papers by [CiteULike tag](/CiteULike#citeulike_tags) and journal, across the past 11 years, and identifies some trends.  Of those 2500 papers, less than 2% have a [Galaxy Team member](/GalaxyTeam) as a coauthor.  
 
-----
+---
 
 # IUC Tools & Collections Hackathon
 
@@ -133,21 +135,21 @@ Galaxy IUC
 
 If you want to know what events are happening in the Galaxy Community, the goto place has always been the [Galaxy Events page](/Events).  This lists any upcoming events we know about that feature Galaxy content.  This events list provides dates, locations, and contact information for each event.
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' alt='Galaxy Calendar' /></a></div>
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' alt='Galaxy Calendar' /></a></div>
 
 There has also been the complementary *[Galaxy Events Google Calendar](http://bit.ly/gxycal)* which listed events of interest to the community, whether or not they featured significant Galaxy content.  **To make this calendar more useful, we have split it in to two:**
 
- **[Galaxy Events Google Calendar](http://bit.ly/gxycal)** <a href='http://bit.ly/gxycalrss'><img src='/Images/Icons/RSSIcon16x16.gif/' alt='Galaxy Calendar RSS Feed' /></a>
+ **[Galaxy Events Google Calendar](http://bit.ly/gxycal)** <a href='http://bit.ly/gxycalrss'><img src='/Images/Icons/RSSIcon16x16.gif' alt='Galaxy Calendar RSS Feed' /></a>
    This calendar now lists *only* events that feature Galaxy content.  Pretty much, if it's on the [Events page](/Events), it's also in this calendar.<br />
 
- **[Galaxy Other Events Google Calendar](http://bit.ly/gxyothercal)**  <a href='http://bit.ly/gxyothercalrss'><img src='/Images/Icons/RSSIcon16x16.gif/' alt='Galaxy Calendar RSS Feed' /></a> 
+ **[Galaxy Other Events Google Calendar](http://bit.ly/gxyothercal)**  <a href='http://bit.ly/gxyothercalrss'><img src='/Images/Icons/RSSIcon16x16.gif' alt='Galaxy Calendar RSS Feed' /></a> 
    This lists additional events and deadlines that are relevant to the Galaxy Community, but that are not known to feature significant Galaxy content. 
 
-This split allows us to present Galaxy events in a much sparser calendar, that is more useful for setting reminders and publishing Galaxy events. And we will continue to link to past Galaxy events (and presentations, videos, examples, ...) from the  *[Events Archive](/Events/#past-events)*.
+This split allows us to present Galaxy events in a much sparser calendar, that is more useful for setting reminders and publishing Galaxy events. And we will continue to link to past Galaxy events (and presentations, videos, examples, ...) from the  *[Events Archive](/Events#past-events)*.
 
 # August GalaxyAdmins Slides and Video
 
-<div class='right'><a href='/Community/GalaxyAdmins/Meetups/2015_08_20/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup August 20' width="175" /></a><br /><br />
+<div class='right'><a href='/Community/GalaxyAdmins/Meetups/2015_08_20'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup August 20' width="175" /></a><br /><br />
 <a href='http://www.irida.ca/'><img src='/Images/Logos/IRIDA.png' alt='IRIDA' width="175" /></a>
 </div>
 
@@ -163,7 +165,7 @@ In case you missed it, [slides and video are now available online](/Community/Ga
 <div class='center'> 
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div>
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div>
 
 There are [upcoming events](/Events) in five countries on three continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -184,108 +186,108 @@ There are [upcoming events](/Events) in five countries on three continents.  See
   </tr>
   <tr>
     <th> September 2 </th>
-    <td> <em><a href='http://ccl.cse.nd.edu/research/papers/scaling-escience-2015.pdf'>Scaling Up Bioinformatics Workflows with Dynamic Job Expansion: A Case Study Using Galaxy and Makeflow</a></em> </td>
-    <td> INCLUDE(/Events/Badges/Europe) <a href='http://escience2015.mnm-team.org/'>IEEE eScience 2015</a>, Munich, Germany </td>
+    <td> </em><a href='http://ccl.cse.nd.edu/research/papers/scaling-escience-2015.pdf'>Scaling Up Bioinformatics Workflows with Dynamic Job Expansion: A Case Study Using Galaxy and Makeflow</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) <a href='http://escience2015.mnm-team.org/'>IEEE eScience 2015</a>, Munich, Germany </td>
     <td> <a href='http://www3.nd.edu/~nhazekam/'>Nicholas Hazekamp</a> </td>
   </tr>
   <tr>
     <th> September 2-3 </th>
-    <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-3/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
-    <td> INCLUDE(/Events/Badges/Australia) <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
-    <td> <div class='right'><a href='/Teach/Trainers/#qfab-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
+    <td> </em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-3/'>Workshop: Extended RNA-Seq analysis</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Australia) <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
+    <td> <div class='right'><a href='/Teach/Trainers#qfab-bioinformatics'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> September 7-9 </th>
-    <td> <em><a href='http://biosb.nl/education/course-portfolio/rna-seq/'>RNA-seq data analysis NGS Course</a></em> </td>
-    <td> INCLUDE(/Events/Badges/Europe) Leiden University Medical Center, The Netherlands </td>
-    <td> <div class='right'> <a href='/Teach/Trainers/#lumc-erasmusmc-dtl-learning-programme'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:education@biosb.nl">BioSB Education</a> </td>
+    <td> </em><a href='http://biosb.nl/education/course-portfolio/rna-seq/'>RNA-seq data analysis NGS Course</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) Leiden University Medical Center, The Netherlands </td>
+    <td> <div class='right'> <a href='/Teach/Trainers#lumc-erasmusmc-dtl-learning-programme'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:education@biosb.nl">BioSB Education</a> </td>
   </tr>
   <tr>
     <th> September 14-18 </th>
-    <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2015/01/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-september-14-18-2015/'>Using Galaxy for Analysis of High Throughput Sequence Data</a></em> </td>
-    <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a>, Davis, California, United States </td>
+    <td> </em><a href='http://training.bioinformatics.ucdavis.edu/2015/01/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-september-14-18-2015/'>Using Galaxy for Analysis of High Throughput Sequence Data</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a>, Davis, California, United States </td>
     <td> <div class='right'><a href='http://bit.ly/gxytrnUCDavis'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:bioinformatics.core@ucdavis.edu">UC Davis Bioinformatics</a> </td>
   </tr>
   <tr>
     <th> September 15 </th>
-    <td> <em><a href='https://hubzero.org/hubbub/speakers#yvan'>Towards accessible, reproducible, and transparent research in the life sciences: an innovative open source VRE approach in Western France</a></em> </td>
-    <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='https://hubzero.org/hubbub/2015'>HUBbub 2015</a>, Indianapolis, Indiana, United States </td>
+    <td> </em><a href='https://hubzero.org/hubbub/speakers#yvan'>Towards accessible, reproducible, and transparent research in the life sciences: an innovative open source VRE approach in Western France</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) <a href='https://hubzero.org/hubbub/2015'>HUBbub 2015</a>, Indianapolis, Indiana, United States </td>
     <td> <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
   </tr>
   <tr>
     <th> September 17-18 </th>
-    <td> <a href='/News/ToolsCollectionsHack/'>Remote Hackathon for Tools and Dataset Collections</a> </td>
-    <td> INCLUDE(/Events/Badges/World) <em>Online</em> </td>
+    <td> <a href='/News/ToolsCollectionsHack'>Remote Hackathon for Tools and Dataset Collections</a> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/World) </em>Online<em> </td>
     <td> <a href="mailto:galaxy-iuc@lists.galaxyproject.org">IUC</a> </td>
   </tr>
   <tr>
     <th> September 21-23 </th>
     <td> <a href='https://www.regonline.com/builder/site/Default.aspx?EventID=1692764'>JHU-DaSH: Data Science Hackathon</a> </td>
-    <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='https://www.regonline.com/builder/site/tab2.aspx?EventID=1692764'>Baltimore</a>, Maryland, United States </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) <a href='https://www.regonline.com/builder/site/tab2.aspx?EventID=1692764'>Baltimore</a>, Maryland, United States </td>
     <td> <a href="mailto:jhuDaSH@jhu.edu">Email</a> </td>
   </tr>
   <tr>
     <th> September 21-25 </th>
-    <td> <em><a href='http://workflow4metabolomics.org/training/W4Mcourse2015'>Traitement des données métabolomiques sous Galaxy</a></em> </td>
-    <td> INCLUDE(/Events/Badges/Europe) Station Biologique de Roscoff, France </td>
+    <td> </em><a href='http://workflow4metabolomics.org/training/W4Mcourse2015'>Traitement des données métabolomiques sous Galaxy</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) Station Biologique de Roscoff, France </td>
     <td> <div class='right'><a href='http://bit.ly/gxytrnGUGGO'><img src='/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:w4mcourse2015.organisation@sb-roscoff.fr">W4M Course Organisers</a> </td>
   </tr>
   <tr>
     <th> September 28 </th>
-    <td> <em><a href='http://www.emgs-us.org/AM2015/agendamon.asp'>Mutational Analysis with Random DNA Identifiers (MARDI), a High-Fidelity NGS Approach That Simultaneously Identifies Gene Marker Mutations from Heterogeneous Mutant Cell Populations</a></em> </td>
-    <td> INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.emgs-us.org/AM2015/index.asp'>Environmental Mutagenesis and Genomics Society (EMGS)</a>, New Orleans, Loisiana, United States </td>
+    <td> </em><a href='http://www.emgs-us.org/AM2015/agendamon.asp'>Mutational Analysis with Random DNA Identifiers (MARDI), a High-Fidelity NGS Approach That Simultaneously Identifies Gene Marker Mutations from Heterogeneous Mutant Cell Populations</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.emgs-us.org/AM2015/index.asp'>Environmental Mutagenesis and Genomics Society (EMGS)</a>, New Orleans, Loisiana, United States </td>
     <td> Javier Revollo </td>
   </tr>
   <tr>
     <th> </th>
-    <td colspan=3 style=" background-color: #eef"> </td>
+    <td colspan=3 style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> October<br />12-14 </th>
-    <td> <em><a href='https://cnrsformation.cnrs.fr/stage.php?stage=15274&axe=77'>Analyse avancée de séquences</a></em> </td>
-    <td> INCLUDE(/Events/Badges/Europe) <a href='http://www.cbib.u-bordeaux2.fr/content/bienvenue-au-centre-de-bioinformatique-de-bordeaux'>Bordeaux Bioinformatics Center</a>, University Bordeaux Segalen, France </td>
+    <td> </em><a href='https://cnrsformation.cnrs.fr/stage.php?stage=15274&axe=77'>Analyse avancée de séquences</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) <a href='http://www.cbib.u-bordeaux2.fr/content/bienvenue-au-centre-de-bioinformatique-de-bordeaux'>Bordeaux Bioinformatics Center</a>, University Bordeaux Segalen, France </td>
     <td> <a href="mailto:cfe.contact@cnrs.fr">Email</a> </td>
   </tr>
   <tr>
     <th> october 15 </th>
-    <td> <em><a href='/Community/GalaxyAdmins/Meetups/2015_10_15/'>October Galaxy Admins Meetup</a></em> </td>
-    <td> INCLUDE(/Events/Badges/World) <em>Online</em> </td>
-    <td> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a>, <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> </em><a href='/Community/GalaxyAdmins/Meetups/2015_10_15'>October Galaxy Admins Meetup</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/World) </em>Online<em> </td>
+    <td> <a href='/HansrudolfHotz'>Hans-Rudolf Hotz</a>, <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 19 </th>
-    <td> <em><a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy-2/'>Workshop: Variant detection using Galaxy</a></em> </td>
-    <td> INCLUDE(/Events/Badges/Australia) <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
+    <td> </em><a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy-2/'>Workshop: Variant detection using Galaxy</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Australia) <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
+    <td> PLACEHOLDER_INCLUDE(/Teach/GTN/Badge16) <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> October 28-29 </th>
-    <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-4/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
-    <td> INCLUDE(/Events/Badges/Australia) <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
+    <td> </em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-4/'>Workshop: Extended RNA-Seq analysis</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Australia) <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
+    <td> PLACEHOLDER_INCLUDE(/Teach/GTN/Badge16) <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> October 28 - November 3 </th>
-    <td> <em><a href='http://meetings.cshl.edu/courses.aspx?course=c-ecg&year=15'>Computational & Comparative Genomics Course</a></em> </td>
-    <td> INCLUDE(/Events/Badges/NorthAmerica) Cold Spring Harbor Laboratory, New York, United States </td>
-    <td> INCLUDE(/Teach/GTN/Badge16) <a href='/JamesTaylor/'>James Taylor</a> </td>
+    <td> </em><a href='http://meetings.cshl.edu/courses.aspx?course=c-ecg&year=15'>Computational & Comparative Genomics Course</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) Cold Spring Harbor Laboratory, New York, United States </td>
+    <td> PLACEHOLDER_INCLUDE(/Teach/GTN/Badge16) <a href='/JamesTaylor'>James Taylor</a> </td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td style=" border: none"> <a href='/Teach/Trainers/'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
-    <td style=" border: none"> <span style="font-size: smaller;"> <a href='/Teach/Trainers/'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none;"> <a href='/Teach/Trainers'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
+    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/Teach/Trainers'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
 
-----
+---
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -297,7 +299,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <br />
 
-----
+---
 
 # New Public Galaxy Servers
 
@@ -308,7 +310,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <div class='right'>
 <div class='solid'><a href='http://galaxy.workflow4metabolomics.org/'><img src='/PublicGalaxyServers/Workflow4metabolomics.png' alt='Workflow4metabolomics Galaxy server' width=300 /></a></div>
 <br />
-<div class='right'><div class='solid'>[{{attachment:PublicGalaxyServers/Workflow4MetabolomicsSponsors.png|Workflow4Metabolomics Sponsors|width="200"}}|&do=get,target="sponsorgraph"](ATTACHMENT_URLPublicGalaxyServers/Workflow4MetabolomicsSponsors.png)
+<div class='right solid'>[{{attachment:PublicGalaxyServers/Workflow4MetabolomicsSponsors.png|Workflow4Metabolomics Sponsors|width="200"}}|&do=get,target="sponsorgraph"](ATTACHMENT_URLPublicGalaxyServers/Workflow4MetabolomicsSponsors.png)
 <br /><div class='center'>*Sponsors*</div> 
 </div></div>
 
@@ -331,7 +333,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## EpiToolKit
 
-<div class='right'><div class='solid'><a href='http://www.epitoolkit.de/'><img src='/PublicGalaxyServers/EpiToolKit_moleculepeptide.png' alt='EpiToolKit Galaxy Server' height="200" /></a></div>
+<div class='right solid'><a href='http://www.epitoolkit.de/'><img src='/PublicGalaxyServers/EpiToolKit_moleculepeptide.png' alt='EpiToolKit Galaxy Server' height="200" /></a></div>
 
 * *Link:*
   * [EpiToolKit Galaxy](http://www.epitoolkit.de/)
@@ -350,7 +352,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <br />
 
 
-----
+---
 
 # Releases
 
@@ -381,27 +383,27 @@ Two security vulnerabilities were recently discovered in Galaxy, and a third in 
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
  
  **CloudMan **
-   The [most recent edition of CloudMan](/GalaxyUpdates/2014_09/#august-2014-cloudman-release) was released in August.
+   The [most recent edition of CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release) was released in August.
 
  **blend4j v0.1.2**
    [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and !BioCloudCentral.
 
 
-----
+---
 
 
 # Galaxy Community Hubs
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Teach/'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Logs/'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%"> <a href='/Community/Deployments/'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Teach'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong>Share your <a href='/Teach/Resources/#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers/#add-a-trainer'>experience</a> <em>now</em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Logs/#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs/#add-a-log-page'>now</a></em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none"> </strong><a href='/Community/Deployments/#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments/#add-your-galaxy-deployment'>now</a></em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/Teach/Resources#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/Community/Logs#add-a-log-page'>Share your experience</a> </em><a href='/Community/Logs#add-a-log-page'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/Community/Deployments#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/Community/Deployments#add-your-galaxy-deployment'>now</a><em> <strong> </td>
   </tr>
 </table>
 
@@ -409,10 +411,10 @@ Two security vulnerabilities were recently discovered in Galaxy, and a third in 
 
 One new new **[Galaxy Training Network member](/Teach/Trainers)** was added in August:
 
-* **[University of Bradford, School of Medical Sciences, Krzysztof Poterlowicz](/Teach/Trainers/#university-of-bradford-school-of-medical-sciences-krzysztof-poterlowicz)**
+* **[University of Bradford, School of Medical Sciences, Krzysztof Poterlowicz](/Teach/Trainers#university-of-bradford-school-of-medical-sciences-krzysztof-poterlowicz)**
     Krzysztof offers training in Assembly, RNAseq, ChIPseq, Hi-C, DNase-Seq, and Pathway enrichment.
 
-----
+---
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
 
 # ToolShed Contributions

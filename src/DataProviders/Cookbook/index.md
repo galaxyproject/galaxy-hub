@@ -1,12 +1,14 @@
 ---
 autotoc: true
+pagetitle: [DataProviders](/DataProvider),  Cookbook
 ---
-<div class="title">[DataProviders](/DataProvider) Cookbook</div>
+
+<div class='left'></div>
 
 This is a collection of examples outlining both using and creating [/DataProviders](/DataProviders).
 
 ## Using existing providers
-----
+---
 #### I want to paginate my incoming data
 
 You want to look at sets (or pages) of data points from your dataset 1000 at a time and have an easy way
@@ -39,7 +41,7 @@ Notes on limit and offset:
 * Offsets past the total number of lines/data in your dataset will return an empty list/generator (no errors)
 
 
-----
+---
 #### I want to filter my data
 
 You want to only use data that contains the string 'exon' in the third column of your dataset data.
@@ -73,7 +75,7 @@ Notes on `regex_list`:
   problems.
 
 
-----
+---
 #### No, I want to filter my data using a calculation - not regex
 
 You can pass column-based filters into any dataprovider that is derived from `ColumnDataProvider` including
@@ -153,14 +155,14 @@ Note that this pattern does not play well with limit and offset.
 
 
 
-----
+---
 #### I want to sort my data using a DataProvider
 
 Unfortunately, this is currently un-implemented. You can still however use the installed sort tool to sort the data
 into a new dataset before-hand or sort after the data have been provided in your client, script, or template.
 
 
-----
+---
 #### My data has comment lines that don't start with '#'
 
 Many of the default behaviors of (text-based) DataProviders are configurable:
@@ -173,14 +175,14 @@ Many of the default behaviors of (text-based) DataProviders are configurable:
   `strip_newlines` to `True`.
 
 
-----
+---
 #### I want to use some data in a visualization template using python
 
 Most of the examples that use python both here and in [/DataProviders](/DataProviders) should be good starting points for
 visualizations in python.
 
 
-----
+---
 #### I want to use some data in a visualization template using !JavaScript
 
 You want to get the data into javascript for use with a graphing library or some other javascript technology. There
@@ -226,7 +228,7 @@ jQuery's ajax framework - you can use whatever your comfortable with):
 
 
 
-----
+---
 ## Defining new providers
 
 If you have a new datatype to add to Galaxy or you need functionality that none of the existing providers can give,
@@ -238,7 +240,7 @@ There are several ways to define new providers:
 * Create a new provider class.
 
 
-----
+---
 #### I want an easy way to define a provider for a new format
 
 You have a new format with key/value pairs that:
@@ -279,7 +281,7 @@ for pair in provide_columns_for_my_format( hda ):
 
 
 
-----
+---
 #### I want to add my provider to a datatype
 
 You now want to add `provide_columns_for_my_format` to your new datatype `MyFormat`. In it's datatype class definition
@@ -317,7 +319,7 @@ start, end, and chrom values from various datatypes even though they may appear 
 
 
 
-----
+---
 #### None of the existing providers do what I want - but I'd still like to keep it simple
 
 Another way of creating a new provider from existing providers is to compose one from the others.
@@ -341,7 +343,7 @@ When a fully formatted, filtered, and parsed datum is yielded from `dataprovider
 `dataprovider2` where it can be further formatted, filtered, or parsed.
 
 
-----
+---
 #### I want to define a new DataProvider class
 
 This is the most powerful but complex ways to create a new data provider.
@@ -352,7 +354,7 @@ you'll be working with a data format where each datum is contained on a line, yo
 MAF format), you may want to start with the !BlockDataProvider.
 
 
-----
+---
 #### I want the options my provider uses available over the API
 
 Settings:

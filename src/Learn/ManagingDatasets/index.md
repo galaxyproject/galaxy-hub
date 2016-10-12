@@ -1,10 +1,12 @@
 ---
 autotoc: true
+pagetitle: Managing Datasets in Galaxy
 ---
 
-<div class="title">Managing Datasets in Galaxy</div>
 
-INCLUDE(/Learn/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Learn/LinkBox)
+<div class='right'></div>
 
 ***Datasets*** are the inputs and outputs of each step in an analysis project in Galaxy. Datasets are associated with at least one History, which can be labeled, manipulated, and shared with anyone, whether they have a Galaxy account or not. **Watch the *["Datasets" video](http://vimeo.com/galaxyproject/datasets1)***
 
@@ -56,7 +58,7 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
 * The format of a dataset is ideally defined by the assigned **[datatype](/Learn/Datatypes)** attribute. Deviations in input dataset format are the first variable to examine when a tool (job) fails. Many of the tools in the "Text Manipulation" tool group can be used to both examine and correct a dataset's format to bring it into alignment with the assigned [datatype](/Learn/Datatypes) attribute specification.
 * To initially **assign** a dataset's [datatype](/Learn/Datatypes) attribute, the uploaded/imported file can be specified with some import tools or be named with the appropriate file extension. To specify, modify or correct a dataset's [datatype](/Learn/Datatypes) attribute after upload, click on the "pencil" icon ![](/Images/Icons/pencil.png) in the right corner of the dataset's box to reach the "Edit Attributes" form. Use the "Change data type" section of the form to make changes and click on *Save*. Galaxy will modify the [datatype](/Learn/Datatypes) and metadata.
 * To **transform** a dataset format (original &rarr; new [datatype](/Learn/Datatypes) attribute), use one of the many tools in the *Convert Formats* group.
-* ***TIP*** The quickest way to locate tools that manipulate specific formats is to use the Tool Search (top of left Galaxy Tool panel, *gear icon* menu). For example, type in  *[M-A-F](/Learn/Datatypes/#maf)* to locate tools in the tool group *Convert Formats* that transform to/from Multiple Alignment Format.
+* ***TIP*** The quickest way to locate tools that manipulate specific formats is to use the Tool Search (top of left Galaxy Tool panel, *gear icon* menu). For example, type in  *[M-A-F](/Learn/Datatypes#maf)* to locate tools in the tool group *Convert Formats* that transform to/from Multiple Alignment Format.
 
 # Visualize
 * For many [datatypes](/Learn/Datatypes), clicking on the **eye icon** ![](/Images/Icons/eye.png) for "Display data in browser" will display the contents or a preview of the contents in as unformatted text in the center pane (exceptions include compressed [datatypes](/Learn/Datatypes) such as BAM).
@@ -141,4 +143,4 @@ Advanced Options:
   * `tag`: the text or partial text of any applied you to the dataset(s)
 * The field name specifiers can be applied more than once. For example, to find datasets that have both the 'paper1' and '2nd paper' tags (as opposed to those that have *one or the other*), use `tag=paper1 tag="2nd paper"`.
 
-----
+---

@@ -1,6 +1,8 @@
-<div class='right'><<div(table-of-contents)>><div class='center'>
+#acl +wikiAdminGroup:read,write,delete,revert,admin All:read
+
+<div class='right'><div class='table-of-contents'><div class='center'>
 # Notes
-<<RSSReader("http://feed43.com/galaxynotesheadlines.xml", includeStyle=False)>>
+PLACEHOLDER_RSSREADER("http://feed43.com/galaxynotesheadlines.xml", includeStyle=False)
 </div></div></div>
 
 

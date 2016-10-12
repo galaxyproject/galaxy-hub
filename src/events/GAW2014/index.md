@@ -1,5 +1,6 @@
 ---
 autotoc: true
+pagetitle: Galaxy Australasia Workshop 2014 , (, GAW 2014, )
 ---
 <div class='center'>
 <a href='http://australianbioinformatics.net/gaw-2014'><img src='/Images/Logos/GAW2014-400.png' alt='Galaxy Australasia Workshop 2014 (GAW2014)'  /></a>
@@ -7,8 +8,9 @@ autotoc: true
 <span style="font-size: larger;"> **[24-25 March, Melbourne](http://australianbioinformatics.net/gaw-2014)** </span>
 </div>
 
-<div class="title">Galaxy Australasia Workshop 2014 (GAW 2014)</div>
 
+
+<div class='right'></div>
 
 **The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](http://australianbioinformatics.net/gaw-2014) was held in Melbourne, Australia on 24 and 25th March 2014.** 
 
@@ -38,16 +40,16 @@ GAW 2014 also included poster session and keynote speakers.
 
 <table>
   <tr>
-    <th style=" width: 15%"> Time </th>
+    <th style=" width: 15%;"> Time </th>
     <th> Title </th>
   </tr>
   <tr>
     <th> 10:00-10:10 </th>
-    <td style=" text-align: center;"> <strong>Welcome. Logistics, </em>etc.</strong><em><br />Organising Committee </td>
+    <td style=" text-align: center;"> <strong>Welcome. Logistics, <em>etc.</strong></em><br />Organising Committee </td>
   </tr>
   <tr>
     <th> 10:10-10:35 </th>
-    <td style=" text-align: center;"> <strong>Keynote: Reproducible complex analyses as a scientific commodity: Why Galaxy matters</strong><br /><a href='/fubar/'>Ross Lazarus</a>  <a href='ATTACHMENT_URLDocuments/Presentations/GAW2014/ross_repro_research.pdf'>(download pdf slides)</a> </td>
+    <td style=" text-align: center;"> <strong>Keynote: Reproducible complex analyses as a scientific commodity: Why Galaxy matters</strong><br /><a href='/fubar'>Ross Lazarus</a>  <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GAW2014/ross_repro_research.pdf'>(download pdf slides)</a> </td>
   </tr>
   <tr>
     <th> 10:35-11:00 </th>
@@ -59,7 +61,7 @@ GAW 2014 also included poster session and keynote speakers.
   </tr>
   <tr>
     <th> 11:30-13:00 </th>
-    <td style=" text-align: center;"> <strong>Galaxy 101 - a tutorial</strong><br /><a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> <a href='ATTACHMENT_URLmcrowe_galaxy_intro.pdf'>(download pdf slides)|&do=get</a></td>
+    <td style=" text-align: center;"> <strong>Galaxy 101 - a tutorial</strong><br /><a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> <a href='PLACEHOLDER_ATTACHMENT_URLmcrowe_galaxy_intro.pdf'>(download pdf slides)|&do=get</a></td>
   </tr>
   <tr>
     <th> 13:00-13:50 </th>
@@ -71,11 +73,11 @@ GAW 2014 also included poster session and keynote speakers.
   </tr>
   <tr>
     <th> 14:05-14:40 </th>
-    <td style=" text-align: center;"> <strong>Galaxy in the wild: Galaxy Architecture and Supporting Production Level Genomics</strong><br /><a href='/nate/'>Nate Coraor</a> (<a href='ATTACHMENT_URLDocuments/Presentations/GAW2014/coraor_architecture_production.pdf'>download PDF slides</a>) </td>
+    <td style=" text-align: center;"> <strong>Galaxy in the wild: Galaxy Architecture and Supporting Production Level Genomics</strong><br /><a href='/nate'>Nate Coraor</a> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GAW2014/coraor_architecture_production.pdf'>download PDF slides</a>) </td>
   </tr>
   <tr>
     <th> 14:40-15:20 </th>
-    <td style=" text-align: center;"> <strong>Introduction to the Tool Shed: Tight dependency control for reproducible analysis</strong> <br /><a href='/fubar/'>Ross Lazarus</a>  <a href='ATTACHMENT_URLDocuments/Presentations/GAW2014/ross_tool_shed_intro.pdf'>(download pdf slides)</a> </td>
+    <td style=" text-align: center;"> <strong>Introduction to the Tool Shed: Tight dependency control for reproducible analysis</strong> <br /><a href='/fubar'>Ross Lazarus</a>  <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GAW2014/ross_tool_shed_intro.pdf'>(download pdf slides)</a> </td>
   </tr>
   <tr>
     <th> 15:20-15:50 </th>
@@ -83,11 +85,11 @@ GAW 2014 also included poster session and keynote speakers.
   </tr>
   <tr>
     <th> 15:50-16:20 </th>
-    <td style=" text-align: center;"> <strong>CloudMan Project</strong><br /> <a href='/EnisAfgan/'>Enis Afgan</a> <a href='ATTACHMENT_URLDocuments/Presentations/GAW2014/AfganCloudMan.pdf'>(download pdf slides)</a> </td>
+    <td style=" text-align: center;"> <strong>CloudMan Project</strong><br /> <a href='/EnisAfgan'>Enis Afgan</a> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GAW2014/AfganCloudMan.pdf'>(download pdf slides)</a> </td>
   </tr>
   <tr>
     <th> 16:20-17:00 </th>
-    <td style=" text-align: center;"> <strong>Setting up and administering Galaxy - panel discussion</strong> <br /><a href='http://www.hpsc.csiro.au/contact/steve_mcmahon.shtml'>Stephen McMahon</a>, <a href='/nate/'>Nate Coraor</a>, <a href='/EnisAfgan/'>Enis Afgan</a> </td>
+    <td style=" text-align: center;"> <strong>Setting up and administering Galaxy - panel discussion</strong> <br /><a href='http://www.hpsc.csiro.au/contact/steve_mcmahon.shtml'>Stephen McMahon</a>, <a href='/nate'>Nate Coraor</a>, <a href='/EnisAfgan'>Enis Afgan</a> </td>
   </tr>
 </table>
 
@@ -101,13 +103,13 @@ Posters to be displayed throughout the day:
     <th> Poster </th>
   </tr>
   <tr>
-    <td style=" text-align: center;"> <strong>Microbial Community Analysis of Indonesia Tempeh Employing Metagenome Galaxy</strong><br /><a href='http://id.linkedin.com/in/yulandi'>Adi Yulandi</a>, Faculty of Biotechnology <a href='http://www.atmajaya.ac.id/'>Atma Jaya Catholic University of Indonesia</a> <a href='ATTACHMENT_URLDocuments/Presentations/GAW2014/YulandiMicrobialCommunity.pdf'>(download pdf poster)</a> </td>
+    <td style=" text-align: center;"> <strong>Microbial Community Analysis of Indonesia Tempeh Employing Metagenome Galaxy</strong><br /><a href='http://id.linkedin.com/in/yulandi'>Adi Yulandi</a>, Faculty of Biotechnology <a href='http://www.atmajaya.ac.id/'>Atma Jaya Catholic University of Indonesia</a> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GAW2014/YulandiMicrobialCommunity.pdf'>(download pdf poster)</a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center;"> <strong>Training with the <a href='https://genome.edu.au/wiki/GVL'>GVL</a></strong><br /><a href='http://www.vlsci.org.au/researcher/sgladman'>Simon Gladman</a>, <a href='http://www.vlsci.org.au/'>VLSCI</a> - LSCC <a href='ATTACHMENT_URLDocuments/Presentations/GAW2014/GladmanTrainingGVLPoster.pdf'>(download pdf poster)</a> </td>
+    <td style=" text-align: center;"> <strong>Training with the <a href='https://genome.edu.au/wiki/GVL'>GVL</a></strong><br /><a href='http://www.vlsci.org.au/researcher/sgladman'>Simon Gladman</a>, <a href='http://www.vlsci.org.au/'>VLSCI</a> - LSCC <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GAW2014/GladmanTrainingGVLPoster.pdf'>(download pdf poster)</a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center;"> <strong>Cloud-based Image Analysis and Processing Toolbox</strong><br /><a href='http://www.csiro.au/Organisation-Structure/Divisions/Computational-Informatics/Bednarz-Tomasz.aspx'>Tomasz Bednarz</a>, <a href='http://csiro.au/'>CSIRO</a> <a href='ATTACHMENT_URLDocuments/Presentations/GAW2014/BednarzImageAnalysisToolkit.pdf'>(download pdf poster)</a> </td>
+    <td style=" text-align: center;"> <strong>Cloud-based Image Analysis and Processing Toolbox</strong><br /><a href='http://www.csiro.au/Organisation-Structure/Divisions/Computational-Informatics/Bednarz-Tomasz.aspx'>Tomasz Bednarz</a>, <a href='http://csiro.au/'>CSIRO</a> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GAW2014/BednarzImageAnalysisToolkit.pdf'>(download pdf poster)</a> </td>
   </tr>
 </table>
 
@@ -117,16 +119,16 @@ Posters to be displayed throughout the day:
 
 <table>
   <tr>
-    <th style=" width: 18%"> Time </th>
+    <th style=" width: 18%;"> Time </th>
     <th> Title </th>
   </tr>
   <tr>
     <th> 09:00-09:10 </th>
-    <td style=" text-align: center;"> <strong>Welcome. Logistics, </em>etc.</strong><em><br />Organising Committee </td>
+    <td style=" text-align: center;"> <strong>Welcome. Logistics, <em>etc.</strong></em><br />Organising Committee </td>
   </tr>
   <tr>
     <th> 09:10-09:50 </th>
-    <td style=" text-align: center;"> <strong>Keynote: Galaxy - past, present and future</strong><br /><a href='/nate/'>Nate Coraor</a>  (<a href='ATTACHMENT_URLDocuments/Presentations/GAW2014/coraor_past_present_future.pdf'>download PDF slides</a>) </td>
+    <td style=" text-align: center;"> <strong>Keynote: Galaxy - past, present and future</strong><br /><a href='/nate'>Nate Coraor</a>  (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GAW2014/coraor_past_present_future.pdf'>download PDF slides</a>) </td>
   </tr>
   <tr>
     <th> 9:50-10:30 </th>
@@ -134,11 +136,11 @@ Posters to be displayed throughout the day:
   </tr>
   <tr>
     <th> 9:50 </th>
-    <td style=" text-align: center;"> </em>Using Galaxy for Proteogenomics<em><br /><a href='http://www.latrobe.edu.au/scitecheng/about/staff/profile?uname=ICooke'>Ira Cooke</a> (<a href='ATTACHMENT_URLDocuments/Presentations/GAW2014/Cooke_Proteogenomics.pdf'>download PDF slides</a>) </td>
+    <td style=" text-align: center;"> <em>Using Galaxy for Proteogenomics</em><br /><a href='http://www.latrobe.edu.au/scitecheng/about/staff/profile?uname=ICooke'>Ira Cooke</a> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GAW2014/Cooke_Proteogenomics.pdf'>download PDF slides</a>) </td>
   </tr>
   <tr>
     <th> 10:10 </th>
-    <td style=" text-align: center;"> </em>shRNA-seq analysis in Galaxy<em><br /><a href='http://bioinf.wehi.edu.au/folders/mritchie/'>Matthew Ritchie</a> (<a href='ATTACHMENT_URLDocuments/Presentations/GAW2014/Ritchie_shRNA-Seq.pdf'>download PDF slides</a>) </td>
+    <td style=" text-align: center;"> <em>shRNA-seq analysis in Galaxy</em><br /><a href='http://bioinf.wehi.edu.au/folders/mritchie/'>Matthew Ritchie</a> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GAW2014/Ritchie_shRNA-Seq.pdf'>download PDF slides</a>) </td>
   </tr>
   <tr>
     <th> 10:30-11:00 </th>
@@ -150,19 +152,19 @@ Posters to be displayed throughout the day:
   </tr>
   <tr>
     <th> 11:00 </th>
-    <td style=" text-align: center;"> </em>The Australian Genomics Virtual Lab<em><br /><a href='http://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> <a href='ATTACHMENT_URLGAW2014ALonie.pdf'>(download pdf slides)|&do=get</a> </td>
+    <td style=" text-align: center;"> <em>The Australian Genomics Virtual Lab</em><br /><a href='http://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> <a href='PLACEHOLDER_ATTACHMENT_URLGAW2014ALonie.pdf'>(download pdf slides)|&do=get</a> </td>
   </tr>
   <tr>
     <th> 11:30 </th>
-    <td style=" text-align: center;"> </em>Building a Galaxy user community for a fully supported Galaxy service<em><br /><a href='http://au.linkedin.com/pub/annette-mcgrath/b/884/473'>Annette McGrath</a> (<a href='ATTACHMENT_URLDocuments/Presentations/GAW2014/McGrathBuildingUserCommunity.pdf'>download PDF slides</a>) </td>
+    <td style=" text-align: center;"> <em>Building a Galaxy user community for a fully supported Galaxy service</em><br /><a href='http://au.linkedin.com/pub/annette-mcgrath/b/884/473'>Annette McGrath</a> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GAW2014/McGrathBuildingUserCommunity.pdf'>download PDF slides</a>) </td>
   </tr>
   <tr>
     <th> 11:50 </th>
-    <td style=" text-align: center;"> </em>Galaxy with GenomeSpace<em><br /><a href='http://www.vlsci.org.au/researcher/ykowsar'>Yousef Kowsar</a> </td>
+    <td style=" text-align: center;"> <em>Galaxy with GenomeSpace</em><br /><a href='http://www.vlsci.org.au/researcher/ykowsar'>Yousef Kowsar</a> </td>
   </tr>
   <tr>
     <th> 12:10 </th>
-    <td style=" text-align: center;"> </em>Using Galaxy cloud servers for command-line analyses<em><br /><a href='http://www.vlsci.org.au/researcher/csloggett'>Clare Sloggett</a> (<a href='ATTACHMENT_URLDocuments/Presentations/GAW2014/SloggettCommandLine.pdf'>download PDF slides</a>) </td>
+    <td style=" text-align: center;"> <em>Using Galaxy cloud servers for command-line analyses</em><br /><a href='http://www.vlsci.org.au/researcher/csloggett'>Clare Sloggett</a> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GAW2014/SloggettCommandLine.pdf'>download PDF slides</a>) </td>
   </tr>
   <tr>
     <th> 12:30-13:30 </th>
@@ -174,19 +176,19 @@ Posters to be displayed throughout the day:
   </tr>
   <tr>
     <th> 13:30 </th>
-    <td style=" text-align: center;"> </em>Cellular Imaging tools on NeCTAR cloud<em><br /><a href='http://au.linkedin.com/pub/yulia-arzhaeva/20/491/688'>Yulia Arzhaeva</a> <a href='ATTACHMENT_URLDocuments/Presentations/GAW2014/Arzhaeva_CellularImaging.pdf'>(download pdf slides)</a></td>
+    <td style=" text-align: center;"> <em>Cellular Imaging tools on NeCTAR cloud</em><br /><a href='http://au.linkedin.com/pub/yulia-arzhaeva/20/491/688'>Yulia Arzhaeva</a> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GAW2014/Arzhaeva_CellularImaging.pdf'>(download pdf slides)</a></td>
   </tr>
   <tr>
     <th> 13:50 </th>
-    <td style=" text-align: center;"> </em>Secure Cloud Data Storage for Galaxy Workflows<em><br /> <a href='http://www.ict.csiro.au/staff/carsten.friedrich/'>Carsten Friedrich</a> <a href='ATTACHMENT_URLFriedrichSecureCloud.pdf'>(download pdf slides)|&do=get</a> </td>
+    <td style=" text-align: center;"> <em>Secure Cloud Data Storage for Galaxy Workflows</em><br /> <a href='http://www.ict.csiro.au/staff/carsten.friedrich/'>Carsten Friedrich</a> <a href='PLACEHOLDER_ATTACHMENT_URLFriedrichSecureCloud.pdf'>(download pdf slides)|&do=get</a> </td>
   </tr>
   <tr>
     <th> 14:10 </th>
-    <td style=" text-align: center;"> </em><a href='http://csiro.au/'>CSIRO</a> in house tools and dealing with Big data<em><br /> <a href='http://www.mendeley.com/profiles/moncuquet-philippe/'>Philippe Moncuquet</a> <a href='ATTACHMENT_URLDocuments/Presentations/GAW2014/MoncuquetCSIROInHouse.pdf'>(download pdf slides)</a> </td>
+    <td style=" text-align: center;"> <em><a href='http://csiro.au/'>CSIRO</a> in house tools and dealing with Big data</em><br /> <a href='http://www.mendeley.com/profiles/moncuquet-philippe/'>Philippe Moncuquet</a> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GAW2014/MoncuquetCSIROInHouse.pdf'>(download pdf slides)</a> </td>
   </tr>
   <tr>
     <th> 14:30 </th>
-    <td style=" text-align: center;"> </em>Galaxy service at <a href='http://csiro.au/'>CSIRO</a><em><br /><a href='http://www.hpsc.csiro.au/contact/steve_mcmahon.shtml'>Stephen McMahon</a> <a href='ATTACHMENT_URLDocuments/Presentations/GAW2014/McMahonCSIROGalaxyService.pdf'>(download pdf slides)</a> </td>
+    <td style=" text-align: center;"> <em>Galaxy service at <a href='http://csiro.au/'>CSIRO</a></em><br /><a href='http://www.hpsc.csiro.au/contact/steve_mcmahon.shtml'>Stephen McMahon</a> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GAW2014/McMahonCSIROGalaxyService.pdf'>(download pdf slides)</a> </td>
   </tr>
   <tr>
     <th> 14:50-15:30 </th>
@@ -198,11 +200,11 @@ Posters to be displayed throughout the day:
   </tr>
   <tr>
     <th> 15:30 </th>
-    <td style=" text-align: center;"> </em>Building, Launching and Maintaining Galaxy on the <a href='https://www.nectar.org.au/research-cloud'>Australian Research Cloud</a><em><br /><a href='https://www.yammer.com/australianbioinformaticsnetwork/users/rhorst-guest#/Threads/fromUser?type=from_user&feedId=1506414565'>Ron Horst</a> <a href='ATTACHMENT_URLGAW2014RonHorst.pdf'>(download pdf slides)|&do=get</a></td>
+    <td style=" text-align: center;"> <em>Building, Launching and Maintaining Galaxy on the <a href='https://www.nectar.org.au/research-cloud'>Australian Research Cloud</a></em><br /><a href='https://www.yammer.com/australianbioinformaticsnetwork/users/rhorst-guest#/Threads/fromUser?type=from_user&feedId=1506414565'>Ron Horst</a> <a href='PLACEHOLDER_ATTACHMENT_URLGAW2014RonHorst.pdf'>(download pdf slides)|&do=get</a></td>
   </tr>
   <tr>
     <th> 15:50 </th>
-    <td style=" text-align: center;"> </em>Scaling the <a href='https://genome.edu.au/wiki/GVL'>GVL</a>: Empirical Evaluation of Galaxy Scalability Characteristics<em><br /><a href='http://www.vlsci.org.au/researcher/ngoonasekera'>Nuwan Goonasekera</a> <a href='ATTACHMENT_URLNuwan Scaling the GVL.pdf'>(download pdf slides)|&do=get</a></td>
+    <td style=" text-align: center;"> <em>Scaling the <a href='https://genome.edu.au/wiki/GVL'>GVL</a>: Empirical Evaluation of Galaxy Scalability Characteristics</em><br /><a href='http://www.vlsci.org.au/researcher/ngoonasekera'>Nuwan Goonasekera</a> <a href='PLACEHOLDER_ATTACHMENT_URLNuwan Scaling the GVL.pdf'>(download pdf slides)|&do=get</a></td>
   </tr>
   <tr>
     <th> 16:10-17:00 </th>
@@ -245,8 +247,8 @@ Help get the word out about GAW 2014.
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='ATTACHMENT_URLGAW2014Flier.pdf'>{{attachment:GAW2014FlierThumb.png}}|&do=get</a> </td>
-    <td style=" border: none;"> Please print, post and distribute <a href='ATTACHMENT_URLGAW2014Flier.pdf'>the conference flier|&do=get</a><br />at your organization, and or events.  </td>
+    <td style=" border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLGAW2014Flier.pdf'>{{attachment:GAW2014FlierThumb.png}}|&do=get</a> </td>
+    <td style=" border: none;"> Please print, post and distribute <a href='PLACEHOLDER_ATTACHMENT_URLGAW2014Flier.pdf'>the conference flier|&do=get</a><br />at your organization, and or events.  </td>
   </tr>
 </table>
 
@@ -268,7 +270,7 @@ Please use [#gaw2014](http://twitter.com/#!/search/%23gaw2014) as the [Twitter h
 
 The first Galaxy Australasia Workshop was held on Monday 24th and Tuesday 25th March. Conference venues and catering were provided by [CSIRO](http://csiro.au/) (Australia's national science agency) so attendance was *free*.
 
-**Day 1** was held at the [Monash Biomedical Imaging](http://www.mbi.monash.edu.au/) Auditorium at [Monash University](http://www.monash.edu.au/), with approximately 40 attendees.  The large auditorium did make the audience seem small, and perhaps the distance of the venue from the Melbourne CBD discouraged those few who had registered but did not attend.
+**Day 1** was held at the [Monash Biomedical Imaging](http://www.mbi.monash.edu.au/) Auditorium at [Monash University](http://www.monash.edu.au/).  The large auditorium did make the audience seem small, and perhaps the distance of the venue from the Melbourne CBD discouraged those few who had registered but did not attend.
 
 *[Ross Lazarus](/fubar)* ([Baker IDI/Galaxy](https://www.bakeridi.edu.au/)) opened in his usual entertaining manner and told us [Why Galaxy matters: Reproducible complex analyses as a scientific commodity](ATTACHMENT_URLDocuments/Presentations/GAW2014/ross_repro_research.pdf).
 
@@ -286,11 +288,11 @@ The rest of the afternoon consisted of some more presentations and then a *panel
 
 The day closed amidst  the usual scrum of organising taxis and public transport to return to accommodation and the evening’s ad hoc social events.
 
-<div class='right'><a href='http://www.atmajaya.ac.id/'><img src='/Images/Logos/AtmaJayaSmall.gif/' alt='Atma Jaya Catholic University of Indonesia' width="150" /></a></div>
+<div class='right'><a href='http://www.atmajaya.ac.id/'><img src='/Images/Logos/AtmaJayaSmall.gif' alt='Atma Jaya Catholic University of Indonesia' width="150" /></a></div>
 
-**[ Three posters](/Events/GAW2014/#posters-)** were displayed, including "[Microbial Community Analysis of Indonesia Tempeh Employing Metagenome Galaxy](ATTACHMENT_URLDocuments/Presentations/GAW2014/YulandiMicrobialCommunity.pdf)"  which was brought to us by some enthusiasts all the way from Indonesia.
+**[ Three posters](/Events/GAW2014#posters-)** were displayed, including "[Microbial Community Analysis of Indonesia Tempeh Employing Metagenome Galaxy](ATTACHMENT_URLDocuments/Presentations/GAW2014/YulandiMicrobialCommunity.pdf)"  which was brought to us by some enthusiasts all the way from Indonesia.
 
-**Day 2** was held in the [Melbourne Convention Centre](http://mcec.com.au/), alongside CSIRO’s [Computational and Simulation Sciences and eResearch conference.](http://wp.csiro.au/css/ )  A little more than 40 attended, with proximity to the larger conference helping boost our numbers.
+**Day 2** was held in the [Melbourne Convention Centre](http://mcec.com.au/), alongside CSIRO’s [Computational and Simulation Sciences and eResearch conference.](http://wp.csiro.au/css/ )  
 
 *[Nate Coraor](/nate)*, our special guest from the Galaxy Project, entertained us with a look at [working versions of Galaxy from the past, and updated us on Galaxy in the present and coming in the future](ATTACHMENT_URLDocuments/Presentations/GAW2014/coraor_past_present_future.pdf).
 

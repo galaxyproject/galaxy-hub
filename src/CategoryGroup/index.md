@@ -1,10 +1,11 @@
 
+#language en
 
 This wiki has supports [groups of users](/HelpOnGroups).
 
 **List of pages in this category:**
 
-<<FullSearchCached(CategoryGroup)>>
+PLACEHOLDER_FULL_SEARCH_CACHE(CategoryGroup)
 
-----
+---
 CategoryCategory

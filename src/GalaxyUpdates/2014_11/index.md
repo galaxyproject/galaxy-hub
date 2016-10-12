@@ -1,10 +1,12 @@
 ---
 autotoc: true
+pagetitle: November 2014 Galaxy Update
 ---
-<div class="title">November 2014 Galaxy Update</div>
 
 
-<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='right'></div>
+
+<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the November 2014 *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -22,11 +24,11 @@ This was [proposed](/News/IRCPublicLogProposal) and then [discussed, and approve
 
 # Galaxy Training Network
 
-<div class='left'><a href='/Teach/'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="200" /></a></div>
+<div class='left'><a href='/Teach'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="200" /></a></div>
 
 The *[Galaxy Training Network (GTN)](/Teach/GTN)* was [launched October 16](/News/GalaxyTrainingNetwork) with 16 charter member organizations.  The GTN is a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  The GTN aims to make it easy to find [Galaxy trainers](/Teach/Trainers), and to share and discover the wealth of training resources available for Galaxy.  This includes [training materials](/Teach/Resources), a [trainer directory](/Teach/Trainers), [best practices](/Teach/BestPractices), and [guidance on computing platforms](/Teach/ComputingPlatforms) for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
 
-If you teach with Galaxy, then please consider adding [your organization](/Teach/Trainers/#add-a-trainer), [materials](/Teach/Resources/#add-a-training-resource), and [best practices](/Teach/BestPractices). Since the GTN launched two weeks ago, 4 new organizations have joined:
+If you teach with Galaxy, then please consider adding [your organization](/Teach/Trainers#add-a-trainer), [materials](/Teach/Resources#add-a-training-resource), and [best practices](/Teach/BestPractices). Since the GTN launched two weeks ago, 4 new organizations have joined:
 
 * [Alberta Children's Hospital Research Institute](http://bit.ly/gxytrnACHRI), Calgary, Canada
 * [Memorial Sloan Kettering Cancer Center, Rätsch Laboratory](http://bit.ly/gxytrnRaetsch), New York City, United States
@@ -56,13 +58,13 @@ The [French IFB Galaxy Working Group](http://www.ifb-galaxy.org/index.html):
 <a href='http://migale.jouy.inra.fr/'><img src='/Images/Logos/MIGALELogo.png' alt='MIGALE' width="120" /></a> &nbsp;
 <a href='http://metabohub.fr/'><img src='/Images/Logos/MetaboHubLogo.jpg' alt='PFEM' width="120" /></a> &nbsp;
 <a href='http://southgreen.cirad.fr/'><img src='/Images/Logos/SouthGreenLogo.png' alt='SouthGreen' width="120" /></a>
-<a href='http://curie.fr/'><img src='/Images/Logos/CurieLogo.gif/' alt='Institut Curie' width="80" /></a> &nbsp;
+<a href='http://curie.fr/'><img src='/Images/Logos/CurieLogo.gif' alt='Institut Curie' width="80" /></a> &nbsp;
 <a href='http://abims.sb-roscoff.fr/'><img src='/Images/Logos/ABiMSLogo.png' alt='ABiMS' width="70" /></a>
 </div>
 
 ## Swiss German Galaxy Tour 2014 Report
 
-<div class='right'><a href='/Events/SG2014/'><img src='/Images/Logos/SG2014Logo400.png' alt='Swiss-German Galaxy Tour 2014' width="120" /></a></div>
+<div class='right'><a href='/Events/SG2014'><img src='/Images/Logos/SG2014Logo400.png' alt='Swiss-German Galaxy Tour 2014' width="120" /></a></div>
 
 After the big success of the [first Swiss Galaxy Workshop two years ago](/Events/Switzerland2012), we decided to [organize a similar event](/Events/SG2014) again this fall. This time, we added a [training day](/Events/Switzerland2014/trainingday) prior to the [workshop](/Events/Switzerland2014), and a [developer day](/Events/Germany2014) after the workshop. The first two days were held in Bern (Switzerland), and the third in Freiburg (Germany). Hence we called the whole event: "[Swiss German Galaxy Tour 2014](/Events/SG2014)".  
 
@@ -82,14 +84,14 @@ The *[Tools integration on Galaxy Workshop](http://go4bioinformatics.genouest.or
 ## Other Events
 
 <div class='center'> 
-<a href='http://galaxy4bioinformatics.sb-roscoff.fr/'><img src='/Images/Logos/SB-RoscoffBig.JPG/' alt='Des bonnes pratiques d'intégration d'outils sous Galaxy' height="60" /></a> &nbsp;
+<a href='http://galaxy4bioinformatics.sb-roscoff.fr/'><img src='/Images/Logos/SB-RoscoffBig.JPG' alt='Des bonnes pratiques d'intégration d'outils sous Galaxy' height="60" /></a> &nbsp;
 [{{attachment:Images/Logos/GenoToulLogo.png|Galaxy Training Days|height="60"}}|Galaxy training days](http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62) &nbsp;
 <a href='http://www.bioinformatica.crs4.it/next_generation_sequencing_course_with_galaxy_november_2014'><img src='/Images/Logos/CRS4Logo.jpg' alt='Analisi dati Next Generation Sequencing in Galaxy' width="130" /></a> &nbsp;
 <a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-1920-november-brisbane/'><img src='/Images/Logos/QFABLogo.png' alt='Workshop: Extended RNA-Seq analysis' height="80" /></a>
 <a href='http://www.prabi.fr/spip.php?article215'><img src='/Images/Logos/PRABILogo.png' alt='RNA-Seq & ChIP-Seq analysis course using Galaxy' height="60" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
 
 There are [upcoming events](/Events) in France, Germany, Australia, Italy, and the United States.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -102,83 +104,83 @@ There are [upcoming events](/Events) in France, Germany, Australia, Italy, and t
   </tr>
   <tr>
     <th> November 3-5 </th>
-    <td> <em><a href='http://galaxy4bioinformatics.sb-roscoff.fr/'>Des bonnes pratiques d'intégration d'outils sous Galaxy</a></em><div class='indent'>Workshop full, but you can get on the waiting list</div> </td>
+    <td> </em><a href='http://galaxy4bioinformatics.sb-roscoff.fr/'>Des bonnes pratiques d'intégration d'outils sous Galaxy</a><em><div class='indent'>Workshop full, but you can get on the waiting list</div> </td>
     <td> <a href='http://www.sb-roscoff.fr/'>Station Biologique de Roscoff</a>, France </td>
     <td> <a href="mailto:christophe.caron@sb-roscoff.fr">Christophe Caron</a> </td>
   </tr>
   <tr>
     <th> November 3-5 </th>
-    <td> <em><a href='http://www.helmholtz-muenchen.de/en/agv/research/research-groups/viral-latency/index.html'>Galaxy NGS Training in the Group of Prof. Dr. Bettina Kempkes</a></em><div class='indent'>Workshop full, but you can get on the waiting list</div> </td>
+    <td> </em><a href='http://www.helmholtz-muenchen.de/en/agv/research/research-groups/viral-latency/index.html'>Galaxy NGS Training in the Group of Prof. Dr. Bettina Kempkes</a><em><div class='indent'>Workshop full, but you can get on the waiting list</div> </td>
     <td> Helmholtz Zentrum München, Germany </td>
     <td> <a href="mailto:bjoern.gruening@gmail.com">Björn Grüning</a> </td>
   </tr>
   <tr>
     <th> November 3-6 </th>
-    <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'>Galaxy training days</a></em><div class='indent'>Workshop full, but you can get on the waiting list</div> </td>
+    <td> </em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'>Galaxy training days</a><em><div class='indent'>Workshop full, but you can get on the waiting list</div> </td>
     <td> <a href='http://bioinfo.genotoul.fr/index.php?id=4#c93'>INRA de Toulouse Midi-Pyrénées</a>, France </td>
     <td> <a href='http://bioinfo.genotoul.fr/index.php?id=74'>GenoToul Bioinformatics Team</a> </td>
   </tr>
   <tr>
     <th rowspan=2> November 5-8 </th>
-    <td> <em>Rapidly bringing software to biologists with Galaxy and Docker</em> </td>
+    <td> </em>Rapidly bringing software to biologists with Galaxy and Docker<em> </td>
     <td rowspan=2> <a href='http://meetings.cshl.edu/meetings/2014/data14.shtml'>Biological Data Science</a>, Cold Spring Harbor Laboratory, New York, United States </td>
-    <td> <a href='/JohnChilton/'>John Chilton</a> </td>
+    <td> <a href='/JohnChilton'>John Chilton</a> </td>
   </tr>
   <tr>
-    <td> <em>Building Galaxy Japan community</em> <div class='indent'> (See <a href='http://www.pitagora-galaxy.org/'>Pitagora Galaxy</a>)</td>
+    <td> </em>Building Galaxy Japan community<em> <div class='indent'> (See <a href='http://www.pitagora-galaxy.org/'>Pitagora Galaxy</a>)</td>
     <td> Ryota Yamanaka </td>
   </tr>
   <tr>
     <th> November 16 </th>
-    <td> <em>Deciphering Big Data Stacks: An Overview of Big Data Tools</em> </td>
+    <td> </em>Deciphering Big Data Stacks: An Overview of Big Data Tools<em> </td>
     <td> <a href='http://web.ornl.gov/sci/knowledgediscovery/CloudComputing/PDAC-SC14/'>Workshop on Big Data Analytics: Challenges, and Opportunities (BDAC-14)</a>, <a href='http://sc14.supercomputing.org/'>Supercomputing 2014 (SC14)</a>, New Orleans, Louisiana, United States </td>
-    <td> <a href='/EnisAfgan/'>Enis Afgan</a> </td>
+    <td> <a href='/EnisAfgan'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> November 18-20 </th>
-    <td> <em><a href='http://www.bioinformatica.crs4.it/training'>Analisi dati Next Generation Sequencing con Galaxy</a></em> </td>
+    <td> </em><a href='http://www.bioinformatica.crs4.it/training'>Analisi dati Next Generation Sequencing con Galaxy</a><em> </td>
     <td> Cagliari, Italy </td>
     <td> <a href="mailto:ngs-courses@crs4.it">CRS4</a> </td>
   </tr>
   <tr>
     <th> November 19-20 </th>
-    <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-1920-november-brisbane/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
+    <td> </em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-1920-november-brisbane/'>Workshop: Extended RNA-Seq analysis</a><em> </td>
     <td> The University of Queensland, Brisbane, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> November 21 </th>
-    <td> <em>Galaxy Cluster to Cloud - Genomics at Scale</em> </td>
+    <td> </em>Galaxy Cluster to Cloud - Genomics at Scale<em> </td>
     <td> <a href='http://sciencegateways.org/upcoming-events/gce14/'>GCE: The 9th Gateway Computing Environments Workshop</a>, <a href='http://sc14.supercomputing.org/'>Supercomputing 2014 (SC14)</a>, New Orleans, Louisiana, United States </td>
-    <td> <a href='/EnisAfgan/'>Enis Afgan</a> </td>
+    <td> <a href='/EnisAfgan'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> November 26-28 </th>
-    <td> <em><a href='http://www.prabi.fr/spip.php?article215'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a></em> </td>
+    <td> </em><a href='http://www.prabi.fr/spip.php?article215'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a><em> </td>
     <td> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
     <td> <a href="mailto:navratil AT prabi DOT fr">Navratil V</a>., <a href="mailto:oger AT prabi DOT fr">Oger C.</a>, <a href="mailto:veber AT prabi DOT fr">Veber P.</a>, <a href="mailto:deschamps AT prabi DOT fr">Deschamps C.</a>, <a href="mailto:perriere AT prabi DOT fr">Perriere G.</a> </td>
   </tr>
   <tr>
     <th> December 2-3 </th>
-    <td> <em><a href='http://bit.ly/ZWVjM1'>Galaxy Day</a></em> </td>
+    <td> </em><a href='http://bit.ly/ZWVjM1'>Galaxy Day</a><em> </td>
     <td> Institut Curie, Paris, France </td>
     <td> <a href="mailto:ifb DOT galaxy AT sb DASH roscoff DOT fr">IFB Galaxy</a> </td>
   </tr>
   <tr>
     <th> December 5-8 </th>
-    <td> <em><a href='http://manuals.bioinformatics.ucr.edu/workshops'>Next Generation Data Analysis Workshop</a></em> </td>
+    <td> </em><a href='http://manuals.bioinformatics.ucr.edu/workshops'>Next Generation Data Analysis Workshop</a><em> </td>
     <td> UC Riverside, Riverside, California, United States </td>
     <td> <a href="mailto:rkaundal AT ucr DOT edu">Rakesh Kaundal</a> </td>
   </tr>
   <tr>
     <th> December 9-11 </th>
-    <td> <em><a href='http://www.pf-bird.univ-nantes.fr/85361781/0/fiche___pagelibre/&RH=1357829686766'>Microarray data analysis on Galaxy</a></em> </td>
+    <td> </em><a href='http://www.pf-bird.univ-nantes.fr/85361781/0/fiche___pagelibre/&RH=1357829686766'>Microarray data analysis on Galaxy</a><em> </td>
     <td> <a href='http://www.pf-bird.univ-nantes.fr/'>BIRD IFB core facility</a> Nantes University/INSERM, Nantes, France </td>
     <td> <a href="mailto:raluca DOT teusan AT inserm DOT fr">Raluca Teusan</a>, Audrey Bihouée, Edouard Hirchaud</td>
   </tr>
   <tr>
     <th> December 16-19 </th>
-    <td> <em><a href='https://training.bioinformatics.ucdavis.edu/2014/10/10/rna-seq-and-chip-seq-analysis-with-galaxy-december-16-19-2014/'>RNA-Seq and ChIP-Seq Analysis with Galaxy</a></em> </td>
+    <td> </em><a href='https://training.bioinformatics.ucdavis.edu/2014/10/10/rna-seq-and-chip-seq-analysis-with-galaxy-december-16-19-2014/'>RNA-Seq and ChIP-Seq Analysis with Galaxy</a><em> </td>
     <td> <a href='http://training.bioinformatics.ucdavis.edu/'>UC Davis</a>, California, United States </td>
     <td> <a href="mailto:bioinformatics DOT core AT ucdavis DOT edu">UC Davis Bioinformatics Training</a> </td>
   </tr>
@@ -187,21 +189,21 @@ There are [upcoming events](/Events) in France, Germany, Australia, Italy, and t
   </tr>
   <tr>
     <th> January 10-14 </th>
-    <td> <em>Galaxy for SNP and Variant Data Analysis</em> </td>
+    <td> </em>Galaxy for SNP and Variant Data Analysis<em> </td>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXIII (PAG2014)</a>, San Diego, California, United States </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 9-13 </th>
-    <td> <em><a href='http://bit.ly/1q2L2cv'>Analyse bioinformatique de séquences sous Galaxy</a></em> </td>
+    <td> </em><a href='http://bit.ly/1q2L2cv'>Analyse bioinformatique de séquences sous Galaxy</a><em> </td>
     <td> Montpellier, France </td>
     <td> <a href="mailto:jean-francois.dufayard@cirad.fr">J.F. Dufayard</a> </td>
   </tr>
   <tr>
     <th> February 16-18 </th>
-    <td> <em>Managing and Disseminating Tools and Data in Galaxy</em> </td>
+    <td> </em>Managing and Disseminating Tools and Data in Galaxy<em> </td>
     <td> <a href='http://www.triconference.com/Sequencing-Analysis/'>Genome and Transcriptome Analysis</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
-    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> July 6-8 </th>
@@ -230,13 +232,13 @@ The new papers were tagged in these areas:
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -283,13 +285,13 @@ The new papers were tagged in these areas:
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
 * [Bioinformatician](/News/BioinformaticianFreiburg2014), Max Planck Institute of Immunobiology and Epigenetics, Freiburg, Germany
 * [Research Specialist](http://bit.ly/13pqd0T), Michigan State University, United States
-* [Galaxy Workflow Developer](https://www.jic.ac.uk/training-careers/vacancies/2014/10/galaxy-workflow-developer/#), John Innes Centre, Norwich, United Kingdom.  <<span(red)>>Closes Nov 5.<<span>>
+* [Galaxy Workflow Developer](https://www.jic.ac.uk/training-careers/vacancies/2014/10/galaxy-workflow-developer/#), John Innes Centre, Norwich, United Kingdom.  <div class='red'>Closes Nov 5.</span>
 * [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
 * [Statistical Genomics Postdoc](/News/StatisticalGenomicsPostDocPennState) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
@@ -304,7 +306,7 @@ Two new [public Galaxy servers](/PublicGalaxyServers) were added to the publishe
 
 ## Majewski Lab Galaxy
 
-<div class='right'><div class='solid'><a href='http://genomequebec.mcgill.ca/exomeai'><img src='/PublicGalaxyServers/McGillGQIC.png' alt='Majewski Lab: ExomeAI' width="250px" /></a></div>
+<div class='right solid'><a href='http://genomequebec.mcgill.ca/exomeai'><img src='/PublicGalaxyServers/McGillGQIC.png' alt='Majewski Lab: ExomeAI' width="250px" /></a></div>
 
 The [Majewski Lab ExomeAI Server](http://genomequebec.mcgill.ca/exomeai) supports detection of recurrent allelic imbalance in tumors using whole exome sequencing data, using ExomeAI, a free web-based application for detection of recurrent AI/LOH segments in tumor samples. Support is provided in the [ExomeAI Manual](http://bioinformatics.oxfordjournals.org/content/suppl/2014/10/07/btu665.DC1/suppl_data.zip), and via [Javad DOT Nadaf AT gmail DOT com](email).  See Nadaf J, Majewski J, Fahiminiya S. (2014). [ExomeAI: Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing data](http://www.ncbi.nlm.nih.gov/pubmed/25297069). *Bioinformatics*. 2014 Oct 8.
 
@@ -312,7 +314,7 @@ The [Majewski Lab ExomeAI Server](http://genomequebec.mcgill.ca/exomeai) is supp
 
 ## OSDD Molecular Property Diagnostic Suite (MPDS)
 
-<div class='right'><div class='solid'><a href='http://mpds.osdd.net/'><img src='/PublicGalaxyServers/OSDD_MPDS.png' alt='Molecular Property Diagnostic Suite (MPDS)' width="200" /></a></div>
+<div class='right solid'><a href='http://mpds.osdd.net/'><img src='/PublicGalaxyServers/OSDD_MPDS.png' alt='Molecular Property Diagnostic Suite (MPDS)' width="200" /></a></div>
 
 The [OSDD Molecular Property Diagnostic Suite (MPDS)](http://mpds.osdd.net/) Galaxy servers is an OSDD Chemoinformatics Portal.  MPDS exposes a software toolset that rationally diagnoses (druggable) molecules.  MPDS 1.0 consists of six modules covering informatics (!DataBases, File format conversion), structure and analogue based drug design approaches (Property calculation, QSAR, Docking). [Support](http://mpds.osdd.net/galaxy/static/contact.htm) is available.
 
@@ -320,13 +322,13 @@ The [OSDD Molecular Property Diagnostic Suite (MPDS)](http://mpds.osdd.net/) Gal
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/Community/Logs/'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a></div>
-<div class='right'><a href='/Community/Deployments/'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a></div>
+<div class='right'><a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/Community/Logs/#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs/#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/Community/Deployments/#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments/#add-your-galaxy-deployment'>now</a></em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/Community/Logs#add-a-log-page'>Share your experience</a> </em><a href='/Community/Logs#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/Community/Deployments#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/Community/Deployments#add-your-galaxy-deployment'>now</a><em> </td>
   </tr>
 </table>
 
@@ -342,7 +344,7 @@ The *[Community Log Board](/Community/Logs)* and  *[Deployment Catalog](/Communi
 
 [BioBlend v0.5.2 was released in October](/News/BioBlendV0.5.2).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  
 
-New versions of [Galaxy](/GalaxyUpdates/2014_09/#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09/#august-2014-cloudman-release), and [blend4j](/GalaxyUpdates/2014_09/#blend4j-011-release) were all released in August.
+New versions of [Galaxy](/GalaxyUpdates/2014_09#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/GalaxyUpdates/2014_09#blend4j-011-release) were all released in August.
 
 Look for a new Galaxy distribution in November.
 

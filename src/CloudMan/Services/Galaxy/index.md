@@ -1,6 +1,7 @@
 ---
 autotoc: true
 ---
+<div class='right'></div> 
 
 The Galaxy application is the flagship service within !CloudMan. Usage and general configuration information for the Galaxy application is available throughout this wiki. This page focuses on service features available within !CloudMan as they affect the Galaxy application.
 
@@ -12,7 +13,7 @@ In order to become an Admin user on the !CloudMan instance, head to the !CloudMa
 ![](http://i.imgur.com/lMh7ahV.png)
 
 ### Changing Galaxy configuration files
-To ensure proper operation of the Galaxy application, !CloudMan manages many of the Galaxy configuration options (e.g., file paths). In the future, we plan on providing a method for a user to update some of those settings in a more interactive fashion but for the time being, those settings are coded within !CloudMan. If you need to permanently change those settings, it will be necessary to change *populate_galaxy_paths* method in [this file](https://github.com/galaxyproject/cloudman/blob/master/cm/util/galaxy_conf.py) and use your custom version of !CloudMan when starting your cluster. See [this page](/CloudMan/CustomizeGalaxyCloud/#using_custom_cloudman_application) for more details on how to do this.
+To ensure proper operation of the Galaxy application, !CloudMan manages many of the Galaxy configuration options (e.g., file paths). In the future, we plan on providing a method for a user to update some of those settings in a more interactive fashion but for the time being, those settings are coded within !CloudMan. If you need to permanently change those settings, it will be necessary to change *populate_galaxy_paths* method in [this file](https://github.com/galaxyproject/cloudman/blob/master/cm/util/galaxy_conf.py) and use your custom version of !CloudMan when starting your cluster. See [this page](/CloudMan/CustomizeGalaxyCloud#using_custom_cloudman_application) for more details on how to do this.
 
 If you need to change the configuration values on a running cluster, you can do so manually as well. Galaxy configuration files are stored in */mnt/galaxy/galaxy-app/config* and can be updated as desired. If you do this, you need to restart Galaxy by hand vs. using CloudMan Admin panel (because CloudMan will overwrite the config file). The following is a set of commands to use for restarting Galaxy manually:
 ```

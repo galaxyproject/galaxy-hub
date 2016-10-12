@@ -1,11 +1,14 @@
+---
+pagetitle: [GalaxyCzars](/Community/GalaxyAdmins),  , [GCC2012 Breakout Session](/Events/GCC2012)
+---
 <div class='center'>
-<a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' /></a> &nbsp;&nbsp;&nbsp;
-<a href='/Events/GCC2012/'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='GCC2012' height="120" /></a>
+<a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' /></a> &nbsp;&nbsp;&nbsp;
+<a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='GCC2012' height="120" /></a>
 </div>
 
-INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(../LinkBox)
 
-<div class="title">[GalaxyCzars](/Community/GalaxyAdmins) [GCC2012 Breakout Session](/Events/GCC2012)</div>
+
 
 Participants:
 * Alex Moskalenko

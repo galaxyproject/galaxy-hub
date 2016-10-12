@@ -4,6 +4,7 @@ autotoc: true
 <div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Main Tool Shed' height="174" /></a> </div>
 
 
+
 # Importing a workflow via a URL
 
 The Galaxy Tool Shed plays a beneficial role in enabling sharing of exported Galaxy workflows between different Galaxy instances. In the past, importing a workflow was functional only if all of the tools required by the workflow were available in the Galaxy instance into which it was being imported. Now workflows can be imported into Galaxy instances that are missing required tools. Let's take a look at what happens if we try importing one of the workflows available in the published paper titled **Dynamics of mitochondrial heteroplasmy in three families investigated via a repeatable re-sequencing study**, which is available [here](http://main.g2.bx.psu.edu/heteroplasmy). Clicking the **Workflow** link in the top Galaxy menu bar in our local Galaxy instance displays the following page which includes a feature labeled **Upload or import workflow**.

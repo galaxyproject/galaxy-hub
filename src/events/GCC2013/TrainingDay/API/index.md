@@ -2,21 +2,22 @@
 autotoc: true
 ---
 
+#language en
 
 
 
 
-INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 
 
 
 
-INCLUDE(/Events/GCC2013/LinkBox)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
 
 
 
 
-<div class='right'><a href='/Events/GCC2013/TrainingDay/'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='Training Day' width="200" /></a></div>
+<div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='Training Day' width="200" /></a></div>
 
 
 
@@ -52,6 +53,7 @@ while building an example script.
 
 
 <br />
+</div></div>
 
 
 
@@ -1495,7 +1497,7 @@ happens some amount of core changes need to take place to make this as easy and 
 
 
 
-INCLUDE(/Events/GCC2013/Footer)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Footer)
 
 
 

@@ -1,5 +1,5 @@
 # Security practices for Galaxy Tool Development
-INCLUDE(/Develop/LinkBox)
+PLACEHOLDER_INCLUDE(/Develop/LinkBox)
 If your tool is not taking in text inputs - its all numbers and select parameters, etc.... it is very likely secure. These sorts of vulnerabilities would usually come into play when users are allowed to pass free text and the tool or wrapper use this text in such a way that it can be broken out of the intended context (these are broadly characterized as code injection attacks). 95% of how these text parameters are going to be used is likely passing them as a command-line argument to another program. For this reason Galaxy preprocesses the text and sanitizes it so it cannot contain characters that would result in the text easily result in code injections.
 
 So for this reason - you are still probably fine unless you are "circumventing" this text preprocessing. For instance, Galaxy will

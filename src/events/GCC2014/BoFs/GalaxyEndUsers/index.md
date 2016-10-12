@@ -1,13 +1,16 @@
-INCLUDE(/Events/GCC2014/Header)
+---
+pagetitle: Galaxy End, -, Users
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
 <table>
   <tr>
-    <th> Thanks to all who came out and contributed to the "end user" BoF discussion this evening. It was a fruitful discussion that we begrudgingly ended early to allow the Charles Commons staff to clean/set-up the room for tomorrow. <em>Let's continue this discussion tomorrow during lunch in room 304 (7/1/2014 @ 12:15 PM), we can call it the "end user BoF 2.0"! </em> </th>
+    <th> Thanks to all who came out and contributed to the "end user" BoF discussion this evening. It was a fruitful discussion that we begrudgingly ended early to allow the Charles Commons staff to clean/set-up the room for tomorrow. </em>Let's continue this discussion tomorrow during lunch in room 304 (7/1/2014 @ 12:15 PM), we can call it the "end user BoF 2.0"! <em> </th>
   </tr>
 </table>
 
 
-<div class="title">Galaxy End-Users</div>
+
 
 <div class='dictbox'>
  BoF:: **[Galaxy End-Users](/Events/GCC2014/BoFs/GalaxyEndUsers)**
@@ -18,9 +21,9 @@ INCLUDE(/Events/GCC2014/Header)
  Contact:: [mheydar1 AT jhmi DOT edu](Mo Heydarian)
 </div>
 
-INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
-<div class='left'><a href='/Events/GCC2014/BoFs/'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
+<div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
  
 This page describes the **Galaxy End-Users** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/Events/GCC2014).
 

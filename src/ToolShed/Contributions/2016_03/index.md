@@ -1,6 +1,7 @@
 ---
 autotoc: true
 ---
+<div class='right'></div>
 
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=200 /></a></div>
 

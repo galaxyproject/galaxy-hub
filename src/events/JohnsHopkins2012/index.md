@@ -1,5 +1,5 @@
 <div class='center'>
-<div class="title">Introduction to Galaxy<br />April 12 + April 13</div>
+<div class='title'>Introduction to Galaxy<br />April 12 + April 13</div>
 
 **A workshop for the Johns Hopkins community
 
@@ -11,12 +11,12 @@ Instructor: [Dave Clements](/DaveClements)
 
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle"> <a href='http://biolchem.bs.jhmi.edu/'><img src='/Images/Logos/JohnsHopkinsBioChem.png' alt='Biological Chemistry @ Johns Hopkins'  /></a><br /><strong>Reddy and Sollner-Webb Labs</strong> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle; width: 10%"> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://biolchem.bs.jhmi.edu/'><img src='/Images/Logos/JohnsHopkinsBioChem.png' alt='Biological Chemistry @ Johns Hopkins'  /></a><br /><strong>Reddy and Sollner-Webb Labs</strong> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle; width: 10%;"> </td>
     <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.hopkinsmedicine.org/geneticmedicine/'><img src='/Images/Logos/JohnsHopkinsIGM.png' alt='McKusick-Nathans Institute of Genetic Medicine'  /></a><br /><strong>Salzberg Lab</strong> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle"> <a href='http://jhmi.edu/'><img src='/Images/Logos/JohnsHopkins.png' alt='Johns Hopkins'  /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://jhmi.edu/'><img src='/Images/Logos/JohnsHopkins.png' alt='Johns Hopkins'  /></a> </td>
   </tr>
 </table>
 
@@ -109,7 +109,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Flyer
 
-<div class='right'><a href='/attachment:JohnsHopkinsGalaxy2012.pdf/'><img src='/JohnsHopkinsGalaxy2012Thumb.png' alt=''  /></a></div>
+<div class='right'><a href='/attachment:JohnsHopkinsGalaxy2012.pdf'><img src='/JohnsHopkinsGalaxy2012Thumb.png' alt=''  /></a></div>
 Please distribute to parts of Johns Hopkins that might be interested.  You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?

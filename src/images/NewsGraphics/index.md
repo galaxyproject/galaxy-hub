@@ -1,4 +1,4 @@
-INCLUDE(/Images/LinkBox)
+PLACEHOLDER_INCLUDE(/Images/LinkBox)
 
 Common place to store supplemental graphics used in communications, such as [/News Briefs](/News Briefs). May have a date stamp.
 
@@ -10,12 +10,8 @@ Common place to store supplemental graphics used in communications, such as [/Ne
 * [ScreencastFrame](/Images/ScreencastFrame) - Supplemental graphics used for tutorials and quickies.
 * [Learn](/Images/Learn) - Graphics are generally UI screenshots used in [/Support](/Support) and [/Learn](/Learn) wikis.
 
-<<Action(AttachFile, Attach a new file)>>
+PLACEHOLDER_ACTION(AttachFile,Attach a new file)
 
 ## NewsGraphics
 
-<<AttachList>>
-
-Below is a list of thumbnails.  <<span(red)>>Clicking on the images causes an exception, so please don't do that.<<span>>
-
-<<arnica(album=False,album_link_page=False,show_date=False,show_text=True,show_album_title=False)>>
+PLACEHOLDER_ATTACH_LIST

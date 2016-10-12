@@ -1,17 +1,17 @@
-<div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> 
-<div class="title">2013/05/15 Web Meetup<br /><br />[Galaxy](http://rnaseq.pathogenportal.org/) at [Pathogen Portal](http://pathogenportal.org)
+<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> 
+<div class='title'>2013/05/15 Web Meetup<br /><br />[Galaxy](http://rnaseq.pathogenportal.org/) at [Pathogen Portal](http://pathogenportal.org)
 </div></div>
 
 <br />
 
-INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 <table>
   <tr>
     <th> Date </th>
     <td> May 15, 2013 </td>
-    <td rowspan=4 style=" border: none"> </td>
-    <td rowspan=4 style=" border: none"> </td>
+    <td rowspan=4 style=" border: none;"> </td>
+    <td rowspan=4 style=" border: none;"> </td>
   </tr>
   <tr>
     <th> Time </th>
@@ -19,11 +19,11 @@ INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em><a href='http://rnaseq.pathogenportal.org/'>Galaxy</a> at <a href='http://pathogenportal.org'>Pathogen Portal</a></em><div class='indent'>Andrew Warren, <a href='https://www.vbi.vt.edu/'>Virginia Bioinformatics Institute</a>, Virginia Tech </div><em>Galaxy Project Update</em><div class='indent'><a href='/DannonBaker/'>Dannon Baker</a></div> </td>
+    <td> <em><a href='http://rnaseq.pathogenportal.org/'>Galaxy</a> at <a href='http://pathogenportal.org'>Pathogen Portal</a></em><div class='indent'>Andrew Warren, <a href='https://www.vbi.vt.edu/'>Virginia Bioinformatics Institute</a>, Virginia Tech </div><em>Galaxy Project Update</em><div class='indent'><a href='/DannonBaker'>Dannon Baker</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
-    <td> <a href='https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262346908659_1368628622535'>Screencast</a>, <a href='ATTACHMENT_URL201305PathogenPortalSlides.pdf'>Slides</a> </td>
+    <td> <a href='https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262346908659_1368628622535'>Screencast</a>, <a href='PLACEHOLDER_ATTACHMENT_URL201305PathogenPortalSlides.pdf'>Slides</a> </td>
   </tr>
 </table>
 

@@ -1,6 +1,9 @@
-INCLUDE(/Events/GCC2014/Header)
+---
+pagetitle: GalaxyAdmins BoF
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
-<div class="title">GalaxyAdmins BoF</div>
+
 
 <div class='dictbox'>
  BoF:: **[GalaxyAdmins](/Events/GCC2014/BoFs/GalaxyAdmins)**
@@ -11,10 +14,10 @@ INCLUDE(/Events/GCC2014/Header)
  Contact:: [Dave Clements](/DaveClements)
 </div>
 
-INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
-<div class='left'><a href='/Events/GCC2014/BoFs/'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a><br /><br />
-<a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' width="100" /></a></div></div>
+<div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a><br /><br />
+<a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' width="100" /></a></div></div>
 
 This page describes the **GalaxyAdmins** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/Events/GCC2014).
 

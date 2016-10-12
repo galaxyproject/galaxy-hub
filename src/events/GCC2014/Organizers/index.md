@@ -1,8 +1,11 @@
-INCLUDE(/Events/GCC2014/Header)
+---
+pagetitle: Organizers
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
-<div class="title">Organizers</div>
 
-INCLUDE(/Events/GCC2014/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 ## Organizing Committee
 
@@ -51,4 +54,4 @@ The GCC2014 Hackathon Organizing Committee is responsible for making the [accomp
 
 The Hackathon Organizing Committee can [gcc2014 DASH hack DASH org AT groups DOT galaxyproject DOT org](be reached via email).
 
-INCLUDE(/Events/GCC2014/Footer)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Footer)

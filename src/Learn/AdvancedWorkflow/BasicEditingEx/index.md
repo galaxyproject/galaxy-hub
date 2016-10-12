@@ -1,9 +1,10 @@
 ---
 autotoc: true
 ---
-INCLUDE(/Learn/LinkBox)
+PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 
 # Tutorial: Basic Editing
+<div class='right'></div>
 
 # **** IN PROGRESS DO NOT USE ****
 
@@ -13,13 +14,13 @@ INCLUDE(/Learn/LinkBox)
 [Back to Advanced Workflow](/Learn/AdvancedWorkflow)
 
 ## 3 Top Workflow Edits
-**[3 Most Useful Edits](/Learn/AdvancedWorkflow/BasicEditing/#a3_most_useful_edits)** are:
+**[3 Most Useful Edits](/Learn/AdvancedWorkflow/BasicEditing#a3_most_useful_edits)** are:
  *
  *
  *
 
 ## What you will learn
-Using an example where the **[3 Most Useful Edits](/Learn/AdvancedWorkflow/BasicEditing/#a3_most_useful_edits)** are used to customize a workflow, and where one of them is required for correct execution, and existing Workflow will be edited. 
+Using an example where the **[3 Most Useful Edits](/Learn/AdvancedWorkflow/BasicEditing#a3_most_useful_edits)** are used to customize a workflow, and where one of them is required for correct execution, and existing Workflow will be edited. 
 
 ## Why is this needed?
 The output from some tools may be too general to be accepted as input by other tools. Reassigning the attribute **datatype** for certain tools can often then permit that tool's *output* to be acceptable *input* for the next tool. The content is already present. The datatype and associated metadata instruct tools how to use it.
@@ -128,8 +129,8 @@ It also lists **Workflows Shared with You** (if any). Under **Other Options** is
 1. Or, use the **History Menu -> Saved Histories** to bring up all of your saved histories to select the one with datasets you wish to run your own workflow on. Or, click on **History Menu -> Create New** and upload new datasets (and prep as needed, if data prep was not included in your workflow).
 1. Click on **Workflow** from the top menu bar to reach your *Saved Workflows*.
 1. For the workflow you just created, click on the workflow's button to bring up the workflow menu and choose run, it will look like this: <br /> ![workflow shared with you](/Images/Learn/workflow_menu_run.png)
-1. Now your workflow will appear in the middle analysis panel, with the active history in the right panel. **Select the inputs** from the available datasets in the history. Datasets that meet the "datatype" metadata criteria will be filled in by default, but these can be adjusted using each input pull-down menu as shown: <br /> <<workflow with input menu choices graphic>>
-1. Use default options for all other settings. Scroll down to the end of the middle panel and click on the **Run workflow** button. Once again, allow the request to process. Once confirmation that the workflow is launched, noted by the green box in the middle pane and the workflow datasets added to the history, you can proceed to other analysis while the jobs run. <br /> <<workflow with input menu choices graphic>>
+1. Now your workflow will appear in the middle analysis panel, with the active history in the right panel. **Select the inputs** from the available datasets in the history. Datasets that meet the "datatype" metadata criteria will be filled in by default, but these can be adjusted using each input pull-down menu as shown: <br /> (workflow with input menu choices graphic)
+1. Use default options for all other settings. Scroll down to the end of the middle panel and click on the **Run workflow** button. Once again, allow the request to process. Once confirmation that the workflow is launched, noted by the green box in the middle pane and the workflow datasets added to the history, you can proceed to other analysis while the jobs run. <br /> (workflow with input menu choices graphic)
 
 <br />
 ## Help! I don't see my workflow datasets
@@ -140,7 +141,7 @@ There is a third possibility, but this only applies when the workflow has been e
 
 <br />
 ## How do I know the workflow is really running?
-The datasets for the workflow will be in the history panel. These jobs run just like every other job. Some may run right away, others may queue. More about how datasets execute is in this wiki: **[Dataset status and how jobs execute](/Support/#dataset_status_and_how_jobs_execute)**
+The datasets for the workflow will be in the history panel. These jobs run just like every other job. Some may run right away, others may queue. More about how datasets execute is in this wiki: **[Dataset status and how jobs execute](/Support#dataset_status_and_how_jobs_execute)**
 
 <br />
 ## I want to customize my workflow further

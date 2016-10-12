@@ -1,16 +1,16 @@
-<div class='center'><a href='/Community/GalaxyAdmins/'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='GalaxyAdmins' width="220" /></a> 
-<div class="title">2016/06/16 Web Meetup<br /><br />
+<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='GalaxyAdmins' width="220" /></a> 
+<div class='title'>2016/06/16 Web Meetup<br /><br />
 
 </div></div>
 
-INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 <table>
   <tr>
     <th> Date </th>
     <td> 16 June 2016 </td>
-    <td rowspan=4 style=" border: none"> </td>
-    <td rowspan=4 style=" border: none"> </td>
+    <td rowspan=4 style=" border: none;"> </td>
+    <td rowspan=4 style=" border: none;"> </td>
   </tr>
   <tr>
     <th> Time </th>
@@ -18,11 +18,11 @@ INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em>Galaxy in Production at the University of Minnesota</em> (<a href='ATTACHMENT_URLDocuments/Presentations/201606_Admins_umn.pdf'>Slides</a>)<div class='indent'> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a> and <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a> of the <a href='https://www.msi.umn.edu/'>Minnesota Supercomputing Institute</a> </div> <em><a href='https://github.com/galaxyproject/galaxy/pull/2455'>Galaxy Radio Telescope</a></em> (<a href='https://github.com/erasche/presentations/blob/master/2016_06_galaxyadmins/talk.pdf'>Slides</a>)<div class='indent'><a href='/EricRasche/'>Eric Rasche</a></div> </td>
+    <td> <em>Galaxy in Production at the University of Minnesota</em> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201606_Admins_umn.pdf'>Slides</a>)<div class='indent'> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a> and <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a> of the <a href='https://www.msi.umn.edu/'>Minnesota Supercomputing Institute</a> </div> <em><a href='https://github.com/galaxyproject/galaxy/pull/2455'>Galaxy Radio Telescope</a></em> (<a href='https://github.com/erasche/presentations/blob/master/2016_06_galaxyadmins/talk.pdf'>Slides</a>)<div class='indent'><a href='/EricRasche'>Eric Rasche</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
-    <td> <strong><a href='https://connect.johnshopkins.edu/gxyadmins201606/'>Online conference room</a></strong> </td>
+    <td> Video will be published shortly </td>
   </tr>
 </table>
 
@@ -52,11 +52,20 @@ Galaxy Admins can sign in to the GRT, register their Galaxy servers, and get bac
 
 
 
+## MSI Login Screens
+
+And there was a question about MSI login screens during the presentation by Evan and JJ.  Here are two screenshots:
+
+<div class='center'>
+[{{attachment:MSILogin1.png|Login Screen 1; click to expand|width="500"}}|&do=get,target="_blank"](ATTACHMENT_URLMSILogin1.png)
+[{{attachment:MSILogin2.png|Login Screen 1; click to expand|width="500"}}|&do=get,target="_blank"](ATTACHMENT_URLMSILogin2.png)
+</div>
+
 ## Call Technology
 
 <div class='right'>![April 2015 GalaxyAdmina Meetup, Online Conference Room](/Images/Logos/AdobeConnectSquarish.jpg)</div>
 
-The  meetup's [online conference room](https://connect.johnshopkins.edu/gxyadmins201606/) will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
+The  meetup's online conference room will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 
 ### Instructions for Participants
 

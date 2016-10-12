@@ -17,6 +17,6 @@ We would like to thank [Wiley](http://wiley.com) for making both of these public
 
 [/Galaxy Team](/Galaxy Team)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2012-06-18T16:46:46Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-06-18T16:46:46Z)</div>
 
 CategoryNews

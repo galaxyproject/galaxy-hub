@@ -56,4 +56,4 @@ This feature is restricted to Tool Shed accounts that have the Tool Shed’s Rep
 
 This feature is available to all Tool Shed accounts, and creates and downloads a compressed archive (tar or zip) of the repository to a local file system.  Supported compression types are gzip and bzip2.
 
-[Advanced Repository Features](/Advanced Repository Features)
+[Advanced Repository Features](/ToolShed/AdvancedRepositoryFeatures)

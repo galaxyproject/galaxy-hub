@@ -1,5 +1,8 @@
-<div class='right'>INCLUDE(/Support/LinkBox)</div>
-<div class="title">Support: About Galaxy</div>
+---
+pagetitle: Support, :,  About Galaxy
+---
+<div class='right'>PLACEHOLDER_INCLUDE(/Support/LinkBox)</div>
+
 <div class='right'><a href='http://galaxyproject.org'><img src='/Images/Screenshots/GalaxyProjectOrg.png' alt='GalaxyProject.org' width="300" /></a></div>
 Back to [/Support](/Support)
 ## Galaxy is an open, web-based platform for data intensive biomedical research.

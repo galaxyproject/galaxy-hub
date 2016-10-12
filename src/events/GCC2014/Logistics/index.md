@@ -1,17 +1,19 @@
 ---
 autotoc: true
+pagetitle: Logistics
 ---
-INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
 <br /><br />
 
 <div class='center'><a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'><img src='/HopkinsSign.jpg' alt='Johns Hopkins Homewood Campus' width="300" /></a> &nbsp;&nbsp; <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'><img src='/HopkinsAiriel.jpg' alt='Johns Hopkins Homewood Campus' width="300" /></a> &nbsp;&nbsp; </div>
 
-<div class="title">Logistics</div>
+
 
 Details on conference location, lodging options and transportation.
 
-INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+
 
 <div class='right'>
 <table>
@@ -103,10 +105,10 @@ Rooms in Charles Commons can be reserved with either 3 night or 4 night packages
 
 <table>
   <tr>
-    <td style=" border: none"> </td>
-    <td rowspan=3 style=" border: none"> </td>
+    <td style=" border: none;"> </td>
+    <td rowspan=3 style=" border: none;"> </td>
     <th> 4 Night package<br /><span style="font-size: smaller;">Arrive Sunday June 29<br />Depart Thursday July 3</span>  </th>
-    <td rowspan=3 style=" border: none"> </td>
+    <td rowspan=3 style=" border: none;"> </td>
     <th> 3 Night package<br /><span style="font-size: smaller;">Arrive Monday June 30<br />Depart Thursday July 3</span> </th>
   </tr>
   <tr>
@@ -155,4 +157,4 @@ A [block of rooms have been reserved at the Inn at The Colonnade Baltimore](http
 * [125+ other attractions](http://baltimore.org/attractions/)
 * *Add your favorite here*
 
-INCLUDE(/Events/GCC2014/Footer)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Footer)

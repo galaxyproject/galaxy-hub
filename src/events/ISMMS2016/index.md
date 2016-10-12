@@ -1,12 +1,12 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle"> <a href='http://icahn.mssm.edu/'><img src='/Images/Logos/ISMMSLogo.jpg' alt='Icahn School of Medicine at Mount Sinai'  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://icahn.mssm.edu/'><img src='/Images/Logos/ISMMSLogo.jpg' alt='Icahn School of Medicine at Mount Sinai'  /></a> </td>
   </tr>
 </table>
 
 
-<div class="title">Introduction to Galaxy<br />January 21, 2016, and<br />January 22, 2016</div>
+<div class='title'>Introduction to Galaxy<br />January 21, 2016, and<br />January 22, 2016</div>
 
 **Instructor: [Dave Clements](/DaveClements)
 

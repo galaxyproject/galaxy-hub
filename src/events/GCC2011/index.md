@@ -117,7 +117,7 @@ We received feedback from 73 participants.
     <td> Below Average </td>
     <td> 1 </td>
     <td> 1% </td>
-    <td> This </em>might<em> have been a misclick.  The same person indicated above average organization and "Exceeded my expectations" for the meeting.  No criticism was provided. </td>
+    <td> This <em>might</em> have been a misclick.  The same person indicated above average organization and "Exceeded my expectations" for the meeting.  No criticism was provided. </td>
   </tr>
   <tr>
     <td> 0 </td>

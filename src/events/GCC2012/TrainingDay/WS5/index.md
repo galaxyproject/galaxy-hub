@@ -395,8 +395,8 @@ server {
 	location /_upload {
 		upload_store /home/galaxy/nginx_upload_store;
 		upload_pass_form_field "";
-		upload_set_form_field "<u>${upload_field_name}</u>is_composite" "true";
-		upload_set_form_field "<u>${upload_field_name}</u>keys" "name path";
+		upload_set_form_field "</u>${upload_field_name}<u>is_composite" "true";
+		upload_set_form_field "</u>${upload_field_name}<u>keys" "name path";
 		upload_set_form_field "${upload_field_name}_name" "$upload_file_name";
 		upload_set_form_field "${upload_field_name}_path" "$upload_tmp_path";
 		upload_pass_args on;

@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://www.nbic.nl/'><img src='/Images/Logos/NBICLogoLogoWithText.PNG/' alt='NBIC' width="400" /></a>
+<a href='http://www.nbic.nl/'><img src='/Images/Logos/NBICLogoLogoWithText.PNG' alt='NBIC' width="400" /></a>
 </div>
 
 The [Netherlands Bioinformatics Centre (NBIC)](http://www/nbic.nl) is power user and developer of Galaxy related tools.  NBIC was the host and co-sponsor of [/GCC2011](/GCC2011).  NBIC also sponsored a Galaxy Hackathon in the spring of 2011.
@@ -24,20 +24,20 @@ The [Netherlands Bioinformatics Centre (NBIC)](http://www/nbic.nl) is power user
   </tr>
   <tr>
     <td rowspan=3> 2011/05 </td>
-    <td rowspan=3> <a href='/GCC2011/'>/GCC2011/</a> </td>
+    <td rowspan=3> <a href='/GCC2011'>/GCC2011</a> </td>
     <td> <em>National Collaborative Platform for Genomics and Proteomics Data Analysis</em> </td>
     <td> Hailiang Mei, NBIC </td>
-    <td> <a href='ATTACHMENT_URLGCC2011/NationalCollaborativePlatformForGenomicsAndProteomicsDataAnalysis.pdf'>PDF|&do=get</a>, <a href='http://vimeo.com/24869172'>Watch</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URLGCC2011/NationalCollaborativePlatformForGenomicsAndProteomicsDataAnalysis.pdf'>PDF|&do=get</a>, <a href='http://vimeo.com/24869172'>Watch</a> </td>
   </tr>
   <tr>
     <td> <em>Enacting Taverna Workflows Through Galaxy</em> </td>
     <td> Konstantinos Karasavvas, NBIC </td>
-    <td> <a href='ATTACHMENT_URLGCC2011/EnactingTavernaWorkflowsThroughGalaxy.pdf'>PDF|&do=get</a>, <a href='http://vimeo.com/24876774'>Watch</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URLGCC2011/EnactingTavernaWorkflowsThroughGalaxy.pdf'>PDF|&do=get</a>, <a href='http://vimeo.com/24876774'>Watch</a> </td>
   </tr>
   <tr>
     <td> <em>NBIC Galaxy Hackathon Report</em> </td>
     <td> Freek de Bruijn, NBIC </td>
-    <td> <a href='ATTACHMENT_URLGCC2011/NBICGalaxyHackathonReport.pptx'>PowerPoint|&do=get</a>, <a href='ATTACHMENT_URLGCC2011/NBICGalaxyHackathonReport.pdf'>PDF|&do=get</a>, <a href='http://vimeo.com/24868815'>Watch (part of lightning talks</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URLGCC2011/NBICGalaxyHackathonReport.pptx'>PowerPoint|&do=get</a>, <a href='PLACEHOLDER_ATTACHMENT_URLGCC2011/NBICGalaxyHackathonReport.pdf'>PDF|&do=get</a>, <a href='http://vimeo.com/24868815'>Watch (part of lightning talks</a> </td>
   </tr>
 </table>
 

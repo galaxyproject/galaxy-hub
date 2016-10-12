@@ -1,5 +1,8 @@
-INCLUDE(/Develop/LinkBox)
-<div class="title"> Javascript Architecture and Development Practices</div>
+---
+pagetitle:  Javascript Architecture and Development Practices
+---
+PLACEHOLDER_INCLUDE(/Develop/LinkBox)
+
 
 # How to modify & build JS
 

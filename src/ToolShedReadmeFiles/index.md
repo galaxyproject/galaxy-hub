@@ -4,6 +4,7 @@ autotoc: true
 <div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Main Tool Shed' height="174" /></a> </div>
 
 
+
 # Including installation information or 3rd-party tool dependency licensing information in your repository
 
 Include important information like repository installation information or 3rd-party tool dependency licensing information in your repository in a file named one of the following (case is ignored):

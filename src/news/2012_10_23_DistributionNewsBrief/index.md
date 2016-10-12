@@ -24,6 +24,6 @@ upgrade: $ hg pull -u -r 12fcd068b12e
 [Jennifer Jackson](/JenniferJackson) & the [/Galaxy Team](/Galaxy Team)
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2012-10-24T11:08:09Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-10-24T11:08:09Z)</div>
 
 CategoryNews

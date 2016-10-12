@@ -1,7 +1,10 @@
-INCLUDE(/Admin/Tools/LinkBox)
-<div class="title">Galaxy Software Development Best Practices</div>
+---
+pagetitle: Galaxy Software Development Best Practices
+---
+PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
 
-INCLUDE(/Develop/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Develop/LinkBox)
 
 Lists software development best practices for the Galaxy Project. These are works in progress and practices vary in how broadly they have been applied.
 

@@ -80,7 +80,7 @@ However with inactive account the user won't be able to run jobs and warning mes
 ```
 
 ## Disposable email address filtering
-<<Anchor(disposable_email_filter)>>
+PLACEHOLDER_ANCHOR(disposable_email_filter)
 
 To prevent users from using disposable email addresses as a workaround for the email verification the domain blacklist can be turned on through the **blacklist_file** path parameter. Users that use disposable email domains defined at the file in this provided path will be refused registration.
 ```

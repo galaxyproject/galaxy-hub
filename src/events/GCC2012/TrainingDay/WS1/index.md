@@ -142,7 +142,7 @@ def __main__():
     else:
         print "No valid regions have been provided."
     
-if __name__ == "</u>main__": __main__()
+if __name__ == "<u>main__": __main__()
 
 ```
 

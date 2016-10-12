@@ -1,0 +1,7 @@
+PLACEHOLDER_INCLUDE(/Documents/LinkBox)
+
+Documents about the [Galaxy Project](/GalaxyProject).
+
+PLACEHOLDER_ACTION(AttachFile,Attach a file to this page.)
+
+PLACEHOLDER_ATTACH_LIST

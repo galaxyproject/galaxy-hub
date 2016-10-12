@@ -1,8 +1,11 @@
+---
+pagetitle: Galaxy server at the FMI
+---
 <div class='center'>
 <a href='http://www.fmi.ch'><img src='/YourOrgLogoOrImage.png' alt='Name of your organization' height="200" /></a>
 </div>
 
-<div class="title">Galaxy server at the FMI</div>
+
 
 
 

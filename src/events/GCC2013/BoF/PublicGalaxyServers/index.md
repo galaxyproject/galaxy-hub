@@ -1,11 +1,14 @@
-INCLUDE(/Events/GCC2013/Header)
+---
+pagetitle: Public Galaxy Servers BoF
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 
-<div class="title">Public Galaxy Servers BoF</div>
 
-INCLUDE(/Events/GCC2013/LinkBox)
-INCLUDE(/Events/GCC2013/BoF/LinkBox)
 
-<div class='left'><a href='/Events/GCC2013/BoF/'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
+PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
+PLACEHOLDER_INCLUDE(/Events/GCC2013/BoF/LinkBox)
+
+<div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
 
 This page describes the **Public Galaxy Servers** [Birds of a Feather](/Events/GCC2013/BoF) meetup being held at [GCC2013](/Events/GCC2013).
 
@@ -21,7 +24,7 @@ We'll cover topics that are relevant to public sites, including
 
 ## When and Where
 
-The [tentative time and location](/Events/GCC2013/BoF/#bof-schedule) for this BoF is Sunday evening, [at the Escape Pub](/Events/GCC2013/Program/#escape-to-the-pub).  The [Training Day](/Events/GCC2013/TrainingDay) ends at 17:00; lets start around 5:30pm.
+The [tentative time and location](/Events/GCC2013/BoF#bof-schedule) for this BoF is Sunday evening, [at the Escape Pub](/Events/GCC2013/Program#escape-to-the-pub).  The [Training Day](/Events/GCC2013/TrainingDay) ends at 17:00; lets start around 5:30pm.
 
 
 ## Who is Participating

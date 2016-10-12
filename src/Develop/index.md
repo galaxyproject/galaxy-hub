@@ -1,4 +1,4 @@
-INCLUDE(/Develop/LinkBox)
+PLACEHOLDER_INCLUDE(/Develop/LinkBox)
 
 ## Hub page for Galaxy development
 
@@ -14,9 +14,9 @@ Details on this transition can be found on the [Source Code](/Develop/SourceCode
 
 * [Source Code](/Develop/SourceCode) - Where is the source code and how to contribute.
 * [Source Documentation](SourceDoc) - Where you can find it; how you can update it.
-* [Contributing](https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING) - Describes how to contribute to the core galaxy project.
+* [Contributing](https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING.md) - Describes how to contribute to the core galaxy project.
 
-INCLUDE(/Develop/ResourcesAPI)
+PLACEHOLDER_INCLUDE(/Develop/ResourcesAPI)
 
 ### Code Practices
 * [Best Practices](BestPractices) - Best practices used in Galaxy software development.
@@ -25,16 +25,13 @@ INCLUDE(/Develop/ResourcesAPI)
 ### Graphics
 * [Graphics Documentation](/Develop/Graphics) - What graphical elements we use and their meaning.
 * [Visualization tutorial](/Develop/Visualizations) - How to write a custom visualization for Galaxy.
-INCLUDE(/Develop/ResourcesTools)
+PLACEHOLDER_INCLUDE(/Develop/ResourcesTools)
 
 ### Architecture
 * [Architecture](Architecture) - How is the app built.
 * [JavaScript Architecture](JSA) - What we use and how we implement client-side code.
 * [Data Model](/Admin/Internals/DataModel) - Underlying data model.
 * [Application Logging](/Admin/Internals/ApplicationLogging) - What and where does Galaxy log.
-
-### Bug hunting
-* [Galaxy Trello Board](/Issues) - for issue reporting and feature requests.
 
 ### Other resources
 * [Data Sources](/Admin/Internals/DataSources) - How to work with data sources.

@@ -1,17 +1,19 @@
 ---
 autotoc: true
+pagetitle: July 2014 Galaxy Update
 ---
-<div class="title">July 2014 Galaxy Update</div>
 
 
-<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='right'></div>
+
+<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the July 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 The *Galaxy Update* is going out a few days early this month because the usual release date is during [GCC2014](/Events/GCC2014).  
 
 # Events
-<div class='left'><br /><a href='/Events/GCC2014/'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="120" /></a></div>
+<div class='left'><br /><a href='/Events/GCC2014'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="120" /></a></div>
 
 ## GCC2014: June 30 - July 2, Baltimore
 
@@ -24,8 +26,8 @@ Fifteen [Training sessions on 12 topics](/Events/GCC2014/TrainingDay), several [
 ## Galaxy @ ISBMB and BOSC 2014
 
 <div class='right'>
-<a href='/Events/ISMB2014/'><img src='/Images/Logos/BOSC_logo.png' alt='BOSC 2014' height="65" /></a>&nbsp;&nbsp;&nbsp;
-<a href='/Events/ISMB2014/'><img src='/Images/Logos/ISMB2014LogoRound.png' alt='ISMB 2014' height="85" /></a>
+<a href='/Events/ISMB2014'><img src='/Images/Logos/BOSC_logo.png' alt='BOSC 2014' height="65" /></a>&nbsp;&nbsp;&nbsp;
+<a href='/Events/ISMB2014'><img src='/Images/Logos/ISMB2014LogoRound.png' alt='ISMB 2014' height="85" /></a>
 </div>
 
 There will be at least six talks and five posters related to Galaxy at [ISMB and BOSC 2014](/Events/ISMB2014) this year.  Talks include
@@ -39,7 +41,7 @@ There will be at least six talks and five posters related to Galaxy at [ISMB and
   
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
 
 Over the rest of the summer there are other [Galaxy related events](/Events) in Leiden, Sydney, Brisbane, São Paulo, and Rio de Janeiro. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -57,75 +59,75 @@ Over the rest of the summer there are other [Galaxy related events](/Events) in 
   </tr>
   <tr>
     <th> June 28-30 </th>
-    <td> <a href='/Events/GCC2014/Hackathon/'>Galaxy Hackathon</a> </td>
+    <td> <a href='/Events/GCC2014/Hackathon'>Galaxy Hackathon</a> </td>
     <td rowspan=2> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
-    <td> <a href='/Events/GCC2014/Organizers/'>Organizers</a> </td>
+    <td> <a href='/Events/GCC2014/Organizers'>Organizers</a> </td>
   </tr>
   <tr>
     <th> June 30 -<br />July 2 </th>
-    <td> </strong><a href='/Events/GCC2014/'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
-    <td> <a href='/Events/GCC2014/Organizers/'>Organizers</a> </td>
+    <td> </strong><a href='/Events/GCC2014'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
+    <td> <a href='/Events/GCC2014/Organizers'>Organizers</a> </td>
   </tr>
   <tr>
     <th> July 7-9 </th>
-    <td> <em><a href='http://biosb.nl/education/course-portfolio/rna-seq/'>NBIC/BioSB RNA- seq data analysis course</a></em> </td>
+    <td> </em><a href='http://biosb.nl/education/course-portfolio/rna-seq/'>NBIC/BioSB RNA- seq data analysis course</a><em> </td>
     <td> Leiden, the Netherlands </td>
     <td> <a href="mailto:education AT biosb DOT nl">NBIC/BioSB</a> </td>
   </tr>
   <tr>
     <th> July 10 </th>
-    <td> <em><a href='http://www.genetics.org.au/annual-meeting-2014/workshops/'>An Introduction to Galaxy with the Genomics Virtual Lab</a></em> </td>
+    <td> </em><a href='http://www.genetics.org.au/annual-meeting-2014/workshops/'>An Introduction to Galaxy with the Genomics Virtual Lab</a><em> </td>
     <td> <a href='http://www.genetics.org.au/annual-meeting-2014/'>Post-GSA 2014 Workshop</a>, Sydney, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> July 11-15 </th>
-    <td> </strong><a href='/Events/ISMB2014/'>ISMB and BOSC 2014</a><strong><div class='indent'>At least six talks and five posters</div> </td>
+    <td> </strong><a href='/Events/ISMB2014'>ISMB and BOSC 2014</a><strong><div class='indent'>At least six talks and five posters</div> </td>
     <td> Boston, Massachussetts, United States </td>
-    <td> See <a href='/Events/ISMB2014/'>presenter list</a> </td>
+    <td> See <a href='/Events/ISMB2014'>presenter list</a> </td>
   </tr>
   <tr>
     <th> July 18 </th>
-    <td> <em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-brisbane/'>Workshop: RNA-Seq analysis using Galaxy</a></em> </td>
+    <td> </em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-brisbane/'>Workshop: RNA-Seq analysis using Galaxy</a><em> </td>
     <td> Brisbane, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> July 28 - August 1 </th>
-    <td> <em><a href='/Events/SaoPaulo2014/'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a></em> </td>
+    <td> </em><a href='/Events/SaoPaulo2014'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a><em> </td>
     <td> <a href='http://usp.br/'>University of São Paulo (USP)</a>, São Paulo, Brazil </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 25-27 </th>
-    <td> <em>Análise e anotação funcional de seqüências NGS usando Stingray@Galaxy</em> </td>
+    <td> </em>Análise e anotação funcional de seqüências NGS usando Stingray@Galaxy<em> </td>
     <td> <a href='https://portal.fiocruz.br/'>Fiocruz</a>, Rio de Janeiro, Brasil </td>
     <td> <a href="mailto:bioinformatica@ioc.fiocruz.br">Plataforma de Bioinformática do IOC</a> </td>
   </tr>
   <tr>
     <th> September 6-10 </th>
-    <td> <em><a href='http://www.eccb14.org/program/tutorials/workflows'>T07 - Scientific Workflows for Analysing, Integrating and Scaling Bioinformatics Data: a Practical Introduction to Galaxy, Taverna and WS-PGRADE</a></em> </td>
+    <td> </em><a href='http://www.eccb14.org/program/tutorials/workflows'>T07 - Scientific Workflows for Analysing, Integrating and Scaling Bioinformatics Data: a Practical Introduction to Galaxy, Taverna and WS-PGRADE</a><em> </td>
     <td> <a href='http://www.eccb14.org/'>European Conference on Computational Biology (ECCB'14)</a>, Strasbourg, France </td>
     <td> <a href='http://wiki.data.dtls.nl/index.php/User:Leon_Mei'>Hailiang (Leon) Mei</a> </td>
   </tr>
   <tr>
     <th> September&nbsp;30 - October 2 </th>
-    <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a></em> </td>
+    <td> </em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a><em> </td>
     <td> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
     <td> <a href="mailto:navratil AT prabi DOT fr">Navratil V</a>., <a href="mailto:oger AT prabi DOT fr">Oger C.</a>, <a href="mailto:veber AT prabi DOT fr">Veber P.</a>, <a href="mailto:deschamps AT prabi DOT fr">Deschamps C.</a>, <a href="mailto:perriere AT prabi DOT fr">Perriere G.</a> </td>
   </tr>
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
-    <td> <a href='/Events/Switzerland2014/trainingday/'>Galaxy Training and Demo Day</a> </td>
+    <td> <a href='/Events/Switzerland2014/trainingday'>Galaxy Training and Demo Day</a> </td>
     <td> Bern (Switzerland) </td>
-    <td rowspan=3> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> and <a href='/BjoernGruening/'>Bjoern Gruening</a> </td>
+    <td rowspan=3> <a href='/HansrudolfHotz'>Hans-Rudolf Hotz</a> and <a href='/BjoernGruening'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/Events/Switzerland2014/'>(second Swiss) Galaxy Workshop</a></em> </td>
+    <td> </em><a href='/Events/Switzerland2014'>(second Swiss) Galaxy Workshop</a><em> </td>
     <td> SyBIT Tech Day, Bern (Switzerland) </td>
   </tr>
   <tr>
-    <td> <em><a href='/Events/Germany2014/'>German Galaxy Developers Day</a></em> </td>
+    <td> </em><a href='/Events/Germany2014'>German Galaxy Developers Day</a><em> </td>
     <td> Freiburg (Germany) </td>
   </tr>
 </table>
@@ -149,13 +151,13 @@ The new papers were tagged in many different areas:
   <tr>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=5 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=5 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
-    <td rowspan=4 style=" border: none"> &nbsp;&nbsp; </td>
+    <td rowspan=4 style=" border: none;"> &nbsp;&nbsp; </td>
     <th> # </th>
     <th> Tag </th>
   </tr>
@@ -202,7 +204,7 @@ The new papers were tagged in many different areas:
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring/'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -221,7 +223,7 @@ One new [public Galaxy server](/PublicGalaxyServers) was added to the published 
 
 ## GVL QLD
 
-<div class='right'><div class='solid'><a href='http://galaxy-qld.genome.edu.au/'><img src='/PublicGalaxyServers/GenomicsVirtualLab300.png' alt='Genomics Virtual Lab' height="220" /></a></div>
+<div class='right solid'><a href='http://galaxy-qld.genome.edu.au/'><img src='/PublicGalaxyServers/GenomicsVirtualLab300.png' alt='Genomics Virtual Lab' height="220" /></a></div>
 
 * *Link:*
     [Genomics Virtual Lab GVL-QLD](http://galaxy-qld.genome.edu.au/)
@@ -246,7 +248,7 @@ One new [public Galaxy server](/PublicGalaxyServers) was added to the published 
 
 ## June 2, 2014 Galaxy Distribution
 
-<div class='right'> <a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2014_06_02_dataset-collections-crop.png' alt='Dataset Collections Workflow Detail' width="400" /></a> <br /> *example dataset collection workflow ([credits](/DevNewsBriefs/2014_06_02/#dataset_collections))* </div>
+<div class='right'> <a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2014_06_02_dataset-collections-crop.png' alt='Dataset Collections Workflow Detail' width="400" /></a> <br /> *example dataset collection workflow ([credits](/DevNewsBriefs/2014_06_02#dataset_collections))* </div>
 
 <br />
 **[News Brief](/DevNewsBriefs/2014_06_02)** **Highlights:**
@@ -261,27 +263,27 @@ One new [public Galaxy server](/PublicGalaxyServers) was added to the published 
 
 <table>
   <tr>
-    <td rowspan=3 style=" border: none"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none"> </strong><a href='/Admin/GetGalaxy/'>getgalaxy.org</a><strong> </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td colspan=2 style=" border: none;"> </strong><a href='/Admin/GetGalaxy'>getgalaxy.org</a><strong> </td>
   </tr>
   <tr>
-    <td style=" border: none"> </strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a><strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a><strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> </strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a><strong> </td>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a><strong> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> </td>
+    <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none"> </strong>new<strong>: </td>
-    <td style=" border: none"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
+    <td style=" border: none;"> </strong>new<strong>: </td>
+    <td style=" border: none;"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
   </tr>
   <tr>
-    <td style=" border: none"> </strong>upgrade<strong>: </td>
-    <td style=" border: none"> <code>$ hg pull </code> <br /> <code>$ hg update latest_2014.06.02</code> </td>
+    <td style=" border: none;"> </strong>upgrade<strong>: </td>
+    <td style=" border: none;"> <code>$ hg pull </code> <br /> <code>$ hg update latest_2014.06.02</code> </td>
   </tr>
 </table>
 
@@ -305,13 +307,13 @@ The most recent version of CloudMan was [released in January 2014](/News/CloudMa
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/Community/Logs/'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a></div>
-<div class='right'><a href='/Community/Deployments/'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a></div>
+<div class='right'><a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/Community/Logs/#add-a-log-page'>Share your experience</a> <em><a href='/Community/Logs/#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/Community/Deployments/#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/Community/Deployments/#add-your-galaxy-deployment'>now</a></em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/Community/Logs#add-a-log-page'>Share your experience</a> </em><a href='/Community/Logs#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/Community/Deployments#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/Community/Deployments#add-your-galaxy-deployment'>now</a><em> </td>
   </tr>
 </table>
 

@@ -1,4 +1,4 @@
-INCLUDE(/CloudMan/LinkBox)
+PLACEHOLDER_INCLUDE(/CloudMan/LinkBox)
 
 Details on running [/CloudMan](/CloudMan) on !OpenStack-based cloud infrastructures. This is an active area of development for the [CloudMan Team](/CloudMan/Team).
 

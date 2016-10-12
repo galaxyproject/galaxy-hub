@@ -9,6 +9,6 @@ You will be joining an established dynamic group. We are part of the [Center for
 
 The starting date is flexible, with an earlier date preferred. This position is funded for one year from date of hire, with good possibility of refunding. Interested applicants should send a pdf with a CV, a statement of research interests, and contact information for three referees to [kmakova AT bx DOT psu DOT edu](Kateryna Makova), indicating postdoc in the subject line. Employment will require successful completion of background check(s) in accordance with University policies. Penn State is committed to affirmative action, equal opportunity, and the diversity of its workforce.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-09-09T21:11:59Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-09-09T21:11:59Z)</div>
 
 CategoryNews

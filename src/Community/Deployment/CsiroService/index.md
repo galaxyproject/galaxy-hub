@@ -1,8 +1,11 @@
+---
+pagetitle: CSIRO Galaxy Service
+---
 <div class='center'>
 <a href='http://www.csiro.au'><img src='/CsiroLogo.jpg' alt='CSIRO'  /></a>
 </div>
 
-<div class="title">CSIRO Galaxy Service</div>
+
 
 
 

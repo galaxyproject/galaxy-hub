@@ -2,6 +2,7 @@
 autotoc: true
 ---
 
+
 ## External user authentication
 
 By default, Galaxy manages its own users.  However, it may be more useful at your site to tie into a local authentication system.
@@ -77,3 +78,7 @@ params['usernameFromWhoami'] = username_from_whoami
 
 
 Launch Galaxy, and try to login :).
+
+### Switching from Nginx or Apache
+
+If you have been using [Nginx](/Admin/Config/NginxExternalUserAuth) or [Apache](/Admin/Config/ApacheExternalUserAuth) to handle the external authentication, you need to set external = 'f'  in the galaxy_user table for all existing users.

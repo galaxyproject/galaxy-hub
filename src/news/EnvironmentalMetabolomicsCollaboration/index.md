@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[Environmental Metabolomics + Galaxy](/News/EnvironmentalMetabolomicsCollaboration)</div>
 
-<div class='right'><a href='http://www.birmingham.ac.uk/schools/biosciences/'><img src='/Images/Logos/UBirminghamLogo.gif/' alt='University of Birmingham' height="40" /></a></div>
+<div class='right'><a href='http://www.birmingham.ac.uk/schools/biosciences/'><img src='/Images/Logos/UBirminghamLogo.gif' alt='University of Birmingham' height="40" /></a></div>
 
 A new [UK-China collaboration in environmental metabolomics](http://www.genomics.cn/en/news/show_news?nid=99510) between the [University of Birmingham](http://www.birmingham.ac.uk/), [BGI](http://www.genomics.cn/) and *[GigaScience](http://www.gigasciencejournal.com/)* has received funding from the UK’s [Natural Environment Research Council (NERC)](http://www.nerc.ac.uk).
 
@@ -17,6 +17,6 @@ See the [official announcement](http://www.genomics.cn/en/news/show_news?nid=995
 Peter Li<br />
 *[GigaScience](http://www.gigasciencejournal.com/)*
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2013-04-22T17:33:44Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-04-22T17:33:44Z)</div>
 
 CategoryNews

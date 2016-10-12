@@ -1,13 +1,15 @@
 ---
 autotoc: true
+pagetitle: Bioinformatics Training and Teaching with Galaxy
 ---
-INCLUDE(../../../PageHeader)
+PLACEHOLDER_INCLUDE(../../../PageHeader)
 
-<div class="title">Bioinformatics Training and Teaching with Galaxy</div>
+
 
 **A [GCC22012](/Events/GCC2012) [Breakout Session](/Events/GCC2012/Program/Breakouts)**
 
-INCLUDE(../../../LinkBox)
+PLACEHOLDER_INCLUDE(../../../LinkBox)
+<div class='right'></div>
 
 # Participants
 

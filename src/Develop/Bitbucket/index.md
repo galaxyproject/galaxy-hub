@@ -1,5 +1,8 @@
-INCLUDE(/Develop/LinkBox)
-<div class="title">Bitbucket repositories</div>
+---
+pagetitle: Bitbucket repositories
+---
+PLACEHOLDER_INCLUDE(/Develop/LinkBox)
+
 
 Galaxy Team maintains two main repositories of Galaxy for different purposes:
 

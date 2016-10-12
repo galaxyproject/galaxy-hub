@@ -1,5 +1,6 @@
 
-INCLUDE(/Admin/LinkBox)
+#language en
+PLACEHOLDER_INCLUDE(/Admin/LinkBox)
 
 # What are Data Managers?
 
@@ -13,7 +14,7 @@ For a video overview on Data Managers, see this [presentation from GCC2013](http
 
 # Tutorial
 
-The most up-to-date methods, including how to use Data Manager repositories in the [/ToolShed](/ToolShed): [/Events/GCC2014/TrainingDay/#tool_development_from_bright_idea_to_toolshed_-_data_managers](/Events/GCC2014/TrainingDay/#tool_development_from_bright_idea_to_toolshed_-_data_managers)
+The most up-to-date methods, including how to use Data Manager repositories in the [/ToolShed](/ToolShed): [/Events/GCC2014/TrainingDay#tool_development_from_bright_idea_to_toolshed_-_data_managers](/Events/GCC2014/TrainingDay#tool_development_from_bright_idea_to_toolshed_-_data_managers)
 
 # What Kind of Data is Supported
 
@@ -25,22 +26,22 @@ The Data Manager framework supports any kind of built-in ("pre-cached") data tha
 
 # List of pages in this category
 
-<<FullSearchCached(category:Admin/Tools/DataManagers)>>
-<<FullSearchCached(category:Admin/Tools/DataManagers/)>>
-<<FullSearchCached(category:Admin/Tools/DataManagers/DataManagerXMLSyntax)>>
-<<FullSearchCached(category:Admin/Tools/DataManagers/DataManagerXMLSyntax/)>>
-<<FullSearchCached(category:Admin/Tools/DataManagers/DataManagerJSONSyntax)>>
-<<FullSearchCached(category:Admin/Tools/DataManagers/DataManagerJSONSyntax/)>>
-<<FullSearchCached(category:Admin/Tools/DataManagers/API)>>
-<<FullSearchCached(category:Admin/Tools/DataManagers/API/)>>
-<<FullSearchCached(category:Admin/Tools/DataManagers/Testing)>>
-<<FullSearchCached(category:Admin/Tools/DataManagers/Testing/)>>
-<<FullSearchCached(category:Admin/Tools/DataManagers/HowTo)>>
+PLACEHOLDER_FULL_SEARCH_CACHE(category:Admin/Tools/DataManagers)
+PLACEHOLDER_FULL_SEARCH_CACHE(category:Admin/Tools/DataManagers/)
+PLACEHOLDER_FULL_SEARCH_CACHE(category:Admin/Tools/DataManagers/DataManagerXMLSyntax)
+PLACEHOLDER_FULL_SEARCH_CACHE(category:Admin/Tools/DataManagers/DataManagerXMLSyntax/)
+PLACEHOLDER_FULL_SEARCH_CACHE(category:Admin/Tools/DataManagers/DataManagerJSONSyntax)
+PLACEHOLDER_FULL_SEARCH_CACHE(category:Admin/Tools/DataManagers/DataManagerJSONSyntax/)
+PLACEHOLDER_FULL_SEARCH_CACHE(category:Admin/Tools/DataManagers/API)
+PLACEHOLDER_FULL_SEARCH_CACHE(category:Admin/Tools/DataManagers/API/)
+PLACEHOLDER_FULL_SEARCH_CACHE(category:Admin/Tools/DataManagers/Testing)
+PLACEHOLDER_FULL_SEARCH_CACHE(category:Admin/Tools/DataManagers/Testing/)
+PLACEHOLDER_FULL_SEARCH_CACHE(category:Admin/Tools/DataManagers/HowTo)
 
 # See also
 
 * [/Admin/Tools/Data Tables](/Admin/Tools/Data Tables)
 
-----
+---
 
 [/Admin/Tools/DataManagers](/Admin/Tools/DataManagers)

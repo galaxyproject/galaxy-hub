@@ -1,5 +1,8 @@
+---
+pagetitle: Galaxy Seminar and Workshops , @,  Indiana University Bloomington, :,  October 19, ,,  2012
+---
 <div class='center'>
-<div class="title">Galaxy Seminar and Workshops @ Indiana University Bloomington: October 19, 2012</div>
+
 </div>
 
 <table>
@@ -7,9 +10,9 @@
     <td colspan=3 style=" text-align: center; border: none;"> <a href='http://indiana.edu/'><img src='/Images/Logos/IndianaU720.png' alt='Indiana University' width="500" /></a> </td>
   </tr>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle; font-family: 'Times New Roman',Georgia,Serif; font-size: 200%; line-height: 120%"> <a href='http://ncgas.org/'><img src='/Images/Logos/NCGAS_Logo300.png' alt='National Center for Genome Analysis Support' /></a> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle; width: 10%"> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle"> <a href='http://cgb.indiana.edu/'><img src='/Images/Logos/CGBLogoText.png' alt='The Center for Genomics and Bioinformatics' width="280px" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle; font-family: 'Times New Roman',Georgia,Serif; font-size: 200%; line-height: 120%;"> <a href='http://ncgas.org/'><img src='/Images/Logos/NCGAS_Logo300.png' alt='National Center for Genome Analysis Support' /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle; width: 10%;"> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://cgb.indiana.edu/'><img src='/Images/Logos/CGBLogoText.png' alt='The Center for Genomics and Bioinformatics' width="280px" /></a> </td>
   </tr>
 </table>
 
@@ -77,7 +80,7 @@ This is a hands-on workshop.  **Please bring a wifi-enabled laptop with a curren
   </tr>
   <tr>
     <th style=" text-align: right;"> </th>
-    <td> <strong>NGS Quality Control</strong><div class='indent'></em>Time allowing,<em> we will do the first step, quality control, of an RNA-Seq example that participants can complete after the workshop.</div> </td>
+    <td> <strong>NGS Quality Control</strong><div class='indent'><em>Time allowing,</em> we will do the first step, quality control, of an RNA-Seq example that participants can complete after the workshop.</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 4:30 </th>
@@ -97,7 +100,7 @@ This is a hands-on workshop.  **Please bring a wifi-enabled laptop with a curren
 <div class='right'>
 <table>
   <tr>
-    <th style=" border: none"> &nbsp;&nbsp;<a href='http://bit.ly/QdCSb0'>Register Now</a>&nbsp;&nbsp; </th>
+    <th style=" border: none;"> &nbsp;&nbsp;<a href='http://bit.ly/QdCSb0'>Register Now</a>&nbsp;&nbsp; </th>
   </tr>
 </table>
 
@@ -124,7 +127,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 
 ## Links
-<div class='right'><a href='/attachment:IndianaUGalaxyWorkshop.pdf/'><img src='/IndianaUGalaxyWorkshopThumb.png' alt='Download flier' /></a></div>
+<div class='right'><a href='/attachment:IndianaUGalaxyWorkshop.pdf'><img src='/IndianaUGalaxyWorkshopThumb.png' alt='Download flier' /></a></div>
 
 * Please help get the word out by distributing [this flyer](ATTACHMENT_URLIndianaUGalaxyWorkshop.pdf) in your department.
 * Please take a minute to give us [your feedback on the workshops](/Feedback Link).

@@ -1,8 +1,11 @@
-INCLUDE(/Under Construction)
+---
+pagetitle: Galaxy Capacity Planning
+---
+PLACEHOLDER_INCLUDE(/Under Construction)
 
-INCLUDE(/Admin/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/LinkBox)
 
-<div class="title">Galaxy Capacity Planning</div>
+
 
 One of the recurring questions on the [Mailing Lists](/MailingLists) is
 

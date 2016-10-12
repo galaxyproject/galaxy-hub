@@ -1,24 +1,26 @@
 ---
 autotoc: true
+pagetitle: November 14, ,,  2012 Galaxy Development News Brief
 ---
+<div class='right'></div>
 
-<div class="title">November 14, 2012 Galaxy Development News Brief</div>
+
 
 <br />
 # Get Galaxy
 
 <table>
   <tr>
-    <td rowspan=3 style=" border: none"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td colspan=2 style=" border: none;"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>new</strong>: </td>
-    <td style=" border: none"> <code> $ hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist </code> </td>
+    <td style=" border: none;"> <strong>new</strong>: </td>
+    <td style=" border: none;"> <code> $ hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist </code> </td>
   </tr>
   <tr>
-    <td style=" border: none"> <strong>upgrade</strong>: </td>
-    <td style=" border: none"> <code> $ hg pull -u -r 5dcbbdfe1087 </code> </td>
+    <td style=" border: none;"> <strong>upgrade</strong>: </td>
+    <td style=" border: none;"> <code> $ hg pull -u -r 5dcbbdfe1087 </code> </td>
   </tr>
 </table>
 
@@ -148,7 +150,7 @@ Certain repository contents may occasionally become outdated, perhaps due to oth
 All Galaxy instance maintainers are *strongly encouraged* to run the latest release.
 
 1. Recent library browsing optimizations were retracted due to minor security vulnerability: a UI bug that allowed users to see listings of inaccessible datasets. Access was limited to viewing named dataset lists, no "peek" or "full" dataset viewing, download, coping, or any other privileges were granted. Once corrected, the library enhancements will be re-released in a future distribution.
-2. Prevent potential reflected XSS via *<<nwwl(MessageException)>>* (possible in the case of invalid/malicious id lookups, for instance).
+2. Prevent potential reflected XSS via *!MessageException* (possible in the case of invalid/malicious id lookups, for instance).
 3. Sanitize grid filters.
 
 <br />
@@ -182,7 +184,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org.
 
 <br />
-----
+---
 <br />
 # About Galaxy
 **[GalaxyProject.org](http://galaxyproject.org)**

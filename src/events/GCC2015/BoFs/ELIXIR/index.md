@@ -1,6 +1,9 @@
-INCLUDE(/Events/GCC2015/Header)
+---
+pagetitle: [ELIXIR-Galaxy Workshop](https://docs.google.com/document/d/1k_d9A4HDTcmjEhYW3FbVeEjcAkembhxupZZN3KQn0NA/edit#heading=h.8fvjaj9oq5oi)
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 
-<div class="title">[ELIXIR-Galaxy Workshop](https://docs.google.com/document/d/1k_d9A4HDTcmjEhYW3FbVeEjcAkembhxupZZN3KQn0NA/edit#heading=h.8fvjaj9oq5oi)</div>
+
 
 
 <div class='dictbox'>
@@ -12,7 +15,7 @@ INCLUDE(/Events/GCC2015/Header)
  Contact:: [Manuel Corpas, Frederik Coppens](https://docs.google.com/document/d/1k_d9A4HDTcmjEhYW3FbVeEjcAkembhxupZZN3KQn0NA/edit#heading=h.8fvjaj9oq5oi)
 </div>
 
-<div class='left'><a href='/Events/GCC2015/BoFs/'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a> <br />
+<div class='left'><a href='/Events/GCC2015/BoFs'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a> <br />
 <a href='https://docs.google.com/document/d/1k_d9A4HDTcmjEhYW3FbVeEjcAkembhxupZZN3KQn0NA/edit#heading=h.8fvjaj9oq5oi'><img src='/Images/Logos/ElixirNoTextLogo.png' alt='Elixer' width="160" /></a> &nbsp;&nbsp;&nbsp;
 </div>
 

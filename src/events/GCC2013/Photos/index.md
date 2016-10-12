@@ -1,8 +1,11 @@
-INCLUDE(/Events/GCC2013/Header)
+---
+pagetitle: Photos
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 
-<div class="title">Photos</div>
 
-INCLUDE(/Events/GCC2013/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
 
 If you have some you would like to have posted here, plase send them to [outreach AT galaxyproject DOT org](Galaxy Outreach).  To see a larger version of any picture, right click it.
 

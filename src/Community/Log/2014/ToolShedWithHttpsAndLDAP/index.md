@@ -1,4 +1,7 @@
-<div class="title">2014/06: Local Tool Shed with https and LDAP</div>
+---
+pagetitle: 2014, /, 06, :,  Local Tool Shed with https and LDAP
+---
+
 
 <div class='logbox'>
  Topic:: **[Setting up a secure tool shed with remote authentication requires some tweaks in order to allow Galaxy to communicate with the tool shed.](/Community/Log/2014/ToolShedWithHttpsAndLDAP)**

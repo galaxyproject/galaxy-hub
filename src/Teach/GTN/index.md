@@ -1,22 +1,24 @@
 ---
 autotoc: true
+pagetitle: Galaxy Training Network
 ---
-INCLUDE(/Teach/Header)
+PLACEHOLDER_INCLUDE(/Teach/Header)
 
-<div class="title">Galaxy Training Network</div>
 
-INCLUDE(/Teach/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Teach/LinkBox)
 
 The *[Galaxy Training Network (GTN)](/Teach/GTN)* is a network of people and groups that present Galaxy and Galaxy-based training around the world.  GTN helps researchers find online training material, and trainers in their geographic area, and helps advertise [training events](/Events) as well.
 
 These pages describes the Galaxy Training Network, and everything else related to teaching Galaxy or teaching Bioinformatics with Galaxy:
 
+<div class='left'><br /></div>
 
 ## Training Resources Directory
 
 The **[Training Resources Directory](/Teach/Resources)** is a catalog of training resources for Galaxy.  *Training resources* include tutorials, slides, virtual machines, and entire workshop packages that can be used to teach with Galaxy.
 
-There is also an [easy way to add new resources](/Teach/Resources/#add-a-training-resource) to the directory.
+There is also an [easy way to add new resources](/Teach/Resources#add-a-training-resource) to the directory.
 
 
 <div class='right'><br /> <a href='http://bit.ly/gxytrnmap'><img src='/Teach/GalaxyTrainingMapThumb.png' alt='Galaxy Training Network: Trainer Locations Map' width="250" /></a> </div>

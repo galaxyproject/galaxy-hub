@@ -1,4 +1,4 @@
-INCLUDE(/Images/LinkBox)
+PLACEHOLDER_INCLUDE(/Images/LinkBox)
 
 Common place to store photographs that don't belong elsewhere.
 
@@ -10,12 +10,8 @@ Common place to store photographs that don't belong elsewhere.
 * [NewsGraphics](/Images/NewsGraphics) are used in communications, such as [/News Briefs](/News Briefs). May have a date stamp.
 * [NotesGraphics](/Images/NotesGraphics) are used in [Galaxy Notes](/Notes) covering 'Using Galaxy' tips, tutorials, and best practice guides. These may have an index number or date stamp.
 
-<<Action(AttachFile, Attach a new file)>>
+PLACEHOLDER_ACTION(AttachFile,Attach a new file)
 
 ## Photos
 
-<<AttachList>>
-
-Below is a list of thumbnails.  <<span(red)>>Clicking on the images causes an exception, so please don't do that.<<span>>
-
-<<arnica(album=False,album_link_page=False,show_date=False,show_text=True,show_album_title=False)>>
+PLACEHOLDER_ATTACH_LIST

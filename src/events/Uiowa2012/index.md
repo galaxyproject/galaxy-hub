@@ -1,12 +1,14 @@
+---
+pagetitle: Introduction to Galaxy
+---
 <div class='center'>
-<div class="title">Introduction to Galaxy
-</div>
+
 
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle; font-family: 'Times New Roman',Georgia,Serif; font-size: 200%; line-height: 120%"> <a href='http://www.medicine.uiowa.edu/humangenetics'>Iowa Initiative</a><br /><a href='http://www.medicine.uiowa.edu/humangenetics'>in Human Genetics</a> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle; width: 10%"> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle"> <a href='http://iowa.edu/'><img src='/Images/Logos/UIowaLogo.jpg' alt='University of Iowa' width="200" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle; font-family: 'Times New Roman',Georgia,Serif; font-size: 200%; line-height: 120%;"> <a href='http://www.medicine.uiowa.edu/humangenetics'>Iowa Initiative</a><br /><a href='http://www.medicine.uiowa.edu/humangenetics'>in Human Genetics</a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle; width: 10%;"> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://iowa.edu/'><img src='/Images/Logos/UIowaLogo.jpg' alt='University of Iowa' width="200" /></a> </td>
   </tr>
 </table>
 
@@ -36,7 +38,7 @@ Registration is open to any member of the University of Iowa community. The work
 
 <table>
   <tr>
-    <th style=" border: none"> <a href='https://docs.google.com/spreadsheet/viewform?formkey=dDFBRlNudmZFbFlGaTdvTzE0SFNENnc6MQ'>Register Now</a></div> </th>
+    <th style=" border: none;"> <a href='https://docs.google.com/spreadsheet/viewform?formkey=dDFBRlNudmZFbFlGaTdvTzE0SFNENnc6MQ'>Register Now</a></div> </th>
   </tr>
 </table>
 
@@ -71,7 +73,7 @@ No programming or Linux command line experience is required.
   <tr>
     <th style=" text-align: right;"> 9:50 </th>
     <th style=" text-align: right;"> 2:50 </th>
-    <td> </strong>Visualization & Visual Analytics in Galaxy<strong><div class='indent'>Learn to use Galaxy's built-in visualization capabilities.  We'll also demonstrate Galaxy's <em>visual analytics</em> support, using the tight coupling of visualization and analyses to iteratively guide analysis.</div> </td>
+    <td> </strong>Visualization & Visual Analytics in Galaxy<strong><div class='indent'>Learn to use Galaxy's built-in visualization capabilities.  We'll also demonstrate Galaxy's </em>visual analytics<em> support, using the tight coupling of visualization and analyses to iteratively guide analysis.</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:15 </th>

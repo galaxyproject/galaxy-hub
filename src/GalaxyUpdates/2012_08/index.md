@@ -1,10 +1,12 @@
 ---
 autotoc: true
+pagetitle: August 2012 Galaxy Update
 ---
+<div class='right'></div>
 
-<div class="title">August 2012 Galaxy Update</div>
 
-<div class='left'><a href='/GalaxyUpdates/'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+
+<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
 Welcome to the August 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -61,7 +63,7 @@ These papers were among [29 papers added to the Galaxy CiteULike group](http://w
 
 ## GCC2012 & GCC2013
 
-<a href='/Events/GCC2012/'><img src='/Events/GCC2012/GCC2012LogoWide400.png' alt='2012 Galaxy Community Conference'  /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/Events/GCC2013/'><img src='/Events/GCC2013/GCC2013Logo600.png' alt='2013 Galaxy Community Conference' height="175" /></a>
+<a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012LogoWide400.png' alt='2012 Galaxy Community Conference'  /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/Events/GCC2013'><img src='/Events/GCC2013/GCC2013Logo600.png' alt='2013 Galaxy Community Conference' height="175" /></a>
 </div>
 
 <br />
@@ -71,7 +73,7 @@ The [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) was held July 
 * a [main program](/Events/GCC2012/Program) with 8 sessions, [27 talks](/Events/GCC2012/Abstracts), 
 * [10 lightning talks](/Events/GCC2012/LightningTalks) (and many more proposals)
 * [6 breakout sessions](/Events/GCC2012/Program/Breakouts),
-* Ion Torrent as the [Platinum Sponsor](/Events/GCC2012/#sponsors), EMC Isilon as the [Gold Sponsor](/Events/GCC2012/#sponsors), and an amazing [eight Host and Silver Sponsors](/Events/GCC2012/#sponsors).
+* Ion Torrent as the [Platinum Sponsor](/Events/GCC2012#sponsors), EMC Isilon as the [Gold Sponsor](/Events/GCC2012#sponsors), and an amazing [eight Host and Silver Sponsors](/Events/GCC2012#sponsors).
 * The conference dinner and reception, sponsored by Ion Torrent, from which many of us departed hoarse and/or hard of hearing.
 
 Slides for most talks are [already on the wiki](/Events/GCC2012/Program), and the rest will trickle in over the next week.  Videos of talks and workshops will be posted in about two weeks.  Finally, with over 200 registrations, this was for the third year running, the largest Galaxy conference yet.
@@ -97,14 +99,14 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 <div class='center'>
 <a href='http://www.medicine.uiowa.edu/humangenetics/bioinformaticscourse/'><img src='/Images/Logos/UIowaLogo.jpg' alt='Bioinformatics Short Course: Mutation Detection Using Massively Parallel Sequencing: From Data Generation to Variant Annotation' height="75" /></a>  
-<a href='/gmod:2012 GMOD Summer School/'><img src='/Images/Logos/2012GMODSummerSchool200.png' alt='2012 GMOD Summer School' height="98" /></a>   
+<a href='/gmod:2012 GMOD Summer School'><img src='/Images/Logos/2012GMODSummerSchool200.png' alt='2012 GMOD Summer School' height="98" /></a>   
 <a href='http://genetics.cmc-uct.co.za/'><img src='/Images/Logos/SASBCB_SAGS.png' alt='South African Genetics and Bioinformatics Society Conference' height="100" /></a>
-<a href='/Events/Switzerland2012/'><img src='/Images/Logos/2012SwissGalaxyWorkshop-400.png' alt='Swiss Galaxy Day' height="75" /></a>
+<a href='/Events/Switzerland2012'><img src='/Images/Logos/2012SwissGalaxyWorkshop-400.png' alt='Swiss Galaxy Day' height="75" /></a>
 </div>
 
 ### Deadlines
 
-<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src='/Images/Icons/CalendarIcon.gif/' /></a></div> 
+<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
 
 There are August application, poster, and paper deadlines for 
 * [Extending High-Performance Computing Beyond its Traditional User Communities](http://www.psc.edu/events/escience-2012-workshop/) (deadline August 6)
@@ -128,21 +130,21 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> August 1-3 </th>
-    <td> </em><a href='http://www.medicine.uiowa.edu/humangenetics/bioinformaticscourse/'>Bioinformatics Short Course: Mutation Detection Using Massively Parallel Sequencing: From Data Generation to Variant Annotation</a><em> </td>
+    <td> <em><a href='http://www.medicine.uiowa.edu/humangenetics/bioinformaticscourse/'>Bioinformatics Short Course: Mutation Detection Using Massively Parallel Sequencing: From Data Generation to Variant Annotation</a></em> </td>
     <td> University of Iowa, Iowa City, United States </td>
     <td> <a href="mailto:iihg AT uiowa DOT edu">Iowa Initiative in Human Genetics</a> </td>
   </tr>
   <tr>
     <th> August 25-29 </th>
-    <td> </em><a href='http://gmod.org/wiki/2012 GMOD Summer School'>http://gmod.org/wiki/2012 GMOD Summer School</a><em></td>
+    <td> <em><a href='http://gmod.org/wiki/2012 GMOD Summer School'>http://gmod.org/wiki/2012 GMOD Summer School</a></em></td>
     <td> <a href='http://nescent.org'>US National Evolutionary Synthesis Center (NESCent)</a>, Durham, North Carolina, United States </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> September 3-4 </th>
-    <td rowspan=2 style=" text-align:left"> </em><a href='http://genetics.cmc-uct.co.za/?page_id=79'>Galaxy Workshop</a><em> </td>
+    <td rowspan=2 style=" text-align:left;"> <em><a href='http://genetics.cmc-uct.co.za/?page_id=79'>Galaxy Workshop</a></em> </td>
     <td> <a href='http://web.up.ac.za/default.asp?ipkCategoryID=17741'>University of Pretoria</a>, Pretoria, South Africa </td>
-    <td rowspan=2 style=" text-align:center"> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td rowspan=2 style=" text-align:center;"> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> September 6-7 </th>
@@ -150,40 +152,40 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> September 10-11 </th>
-    <td> </em><a href='http://gaggle.systemsbiology.net/workshop2012/'>Systems Bioinformatics Workshop</a><em> </td>
+    <td> <em><a href='http://gaggle.systemsbiology.net/workshop2012/'>Systems Bioinformatics Workshop</a></em> </td>
     <td> <a href='https://www.systemsbiology.org/'>Institute for Systems Biology</a><br /> Seattle, Washington, United States </td>
-    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> September 10-12 </th>
-    <td> </em><a href='http://genetics.cmc-uct.co.za/'>Transparent, accessible, reproducible analysis with Galaxy</a><em> </td>
+    <td> <em><a href='http://genetics.cmc-uct.co.za/'>Transparent, accessible, reproducible analysis with Galaxy</a></em> </td>
     <td> </strong><a href='http://genetics.cmc-uct.co.za/'>South African Genetics & Bioinformatics Society Conference</a><strong><br /> University of Stellenbosch, Stellenbosch, South Africa </td>
-    <td> <a href='/DaveClements/'>Dave Clements</a> </td>
+    <td> <a href='/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> September 27-29 </th>
-    <td> </em><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2012</a><em> </td>
+    <td> <em><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2012</a></em> </td>
     <td> <a href='http://www.amiando.com/2012-beyond-the-genome.html?page=661875'>Harvard Medical School</a>, Boston, Massachusetts </td>
-    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 3 </th>
-    <td> </em><a href='/Events/Switzerland2012/'>(first Swiss) Galaxy Workshop</a><em> </td>
+    <td> <em><a href='/Events/Switzerland2012'>(first Swiss) Galaxy Workshop</a></em> </td>
     <td> </strong><a href='https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3'>SyBIT Tech Day</a><strong>, Bern, Switzerland </td>
-    <td> <a href='/HansrudolfHotz/'>Hans-Rudolf Hotz</a> </td>
+    <td> <a href='/HansrudolfHotz'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> October 8-12 </th>
-    <td> </em><a href='http://www.psc.edu/index.php/escience-2012-workshop'>Extending High-Performance Computing Beyond its Traditional User Communities Workshop</a><em> </td>
+    <td> <em><a href='http://www.psc.edu/index.php/escience-2012-workshop'>Extending High-Performance Computing Beyond its Traditional User Communities Workshop</a></em> </td>
     <td> </strong><a href='http://www.ci.uchicago.edu/escience2012/'>8th IEEE International Conference on eScience (eScience 2012)</a><strong>, Chicago Illinois, United States </td>
-    <td> <a href='/JamesTaylor/'>James Taylor</a> </td>
+    <td> <a href='/JamesTaylor'>James Taylor</a> </td>
   </tr>
 </table>
 
 
 ### Swiss Galaxy Day
 
-<div class='right'><a href='/Events/Switzerland2012/'><img src='/Images/Logos/2012SwissGalaxyWorkshop-400.png' alt='Swiss Galaxy Day' height="100" /></a></div>
+<div class='right'><a href='/Events/Switzerland2012'><img src='/Images/Logos/2012SwissGalaxyWorkshop-400.png' alt='Swiss Galaxy Day' height="100" /></a></div>
 
 The 1<sup>st</sup> [Swiss Galaxy Workshop](/Events/Switzerland2012) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
  

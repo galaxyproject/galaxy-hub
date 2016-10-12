@@ -1,17 +1,17 @@
 <div class='center'>
-<a href='http://www.uio.no/'><img src='/Images/Logos/UiOLogo.png' alt='University of Oslo' /></a><br /><br /> <a href='/Community/GalaxyAdmins/'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='GalaxyAdmins' width="220" /></a> 
-<div class="title">2016/04/21 [Web Meetup](https://connect.johnshopkins.edu/gxyadmins201604/)<br /><br />
+<a href='http://www.uio.no/'><img src='/Images/Logos/UiOLogo.png' alt='University of Oslo' /></a><br /><br /> <a href='/Community/GalaxyAdmins'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='GalaxyAdmins' width="220" /></a> 
+<div class='title'>2016/04/21 [Web Meetup](https://connect.johnshopkins.edu/gxyadmins201604/)<br /><br />
 
 </div></div>
 
-INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 <table>
   <tr>
     <th> Date </th>
     <td> 21 April 2016 </td>
-    <td rowspan=4 style=" border: none"> </td>
-    <td rowspan=4 style=" border: none"> </td>
+    <td rowspan=4 style=" border: none;"> </td>
+    <td rowspan=4 style=" border: none;"> </td>
   </tr>
   <tr>
     <th> Time </th>
@@ -19,7 +19,7 @@ INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <strong><a href='http://bioinformatics.oxfordjournals.org/content/early/2016/02/17/bioinformatics.btw042.full'>The Galaxy Portal: Accessing Galaxy from Mobile Devices</a></strong> (<a href='ATTACHMENT_URLDocuments/Presentations/201604_Admins_Portal.pdf'>Slides</a>)<div class='indent'> <a href='http://www.mn.uio.no/ifi/english/people/aca/ivargry/'>Ivar Grytten</a> and  <a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/'>Geir Kjetil Sandve</a>, <a href='http://www.uio.no/'>University of Oslo</a> </div> <strong><a href='http://planemo.readthedocs.org/en/latest/galaxy_changelog.html'>Tool Development Developments</a></strong> (<a href='ATTACHMENT_URLDocuments/Presentations/201604_Admins_Tools.pdf'>PDF</a>)<div class='indent'><a href='/JohnChilton/'>John Chilton</a>, <a href='http://psu.edu/'>Penn State University</a></div> </td>
+    <td> <strong><a href='http://bioinformatics.oxfordjournals.org/content/early/2016/02/17/bioinformatics.btw042.full'>The Galaxy Portal: Accessing Galaxy from Mobile Devices</a></strong> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201604_Admins_Portal.pdf'>Slides</a>)<div class='indent'> <a href='http://www.mn.uio.no/ifi/english/people/aca/ivargry/'>Ivar Grytten</a> and  <a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/'>Geir Kjetil Sandve</a>, <a href='http://www.uio.no/'>University of Oslo</a> </div> <strong><a href='http://planemo.readthedocs.org/en/latest/galaxy_changelog.html'>Tool Development Developments</a></strong> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201604_Admins_Tools.pdf'>PDF</a>)<div class='indent'><a href='/JohnChilton'>John Chilton</a>, <a href='http://psu.edu/'>Penn State University</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>

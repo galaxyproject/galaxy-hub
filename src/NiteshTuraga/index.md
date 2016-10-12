@@ -1,6 +1,1 @@
-
-# NITESH TURAGA
-
-Email: [nturaga1 AT SPAMFREE jhu DOT edu](nturaga1 AT SPAMFREE jhu DOT edu)
-
-Nitesh is a software engineer and an active member of the Galaxy project. Nitesh received his M.S. in Computational Biology from the Carnegie Mellon University. 
+Nitesh is a software engineer at the Galaxy Project. Galaxy project member. Email: nturaga1@jhu.edu Twitter: nitesh1989

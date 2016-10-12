@@ -1,13 +1,15 @@
 ---
 autotoc: true
+pagetitle:  Galaxy Issue Reporting and Feature Requests
 ---
-<div class="title"> Galaxy Issue Reporting and Feature Requests</div>
-INCLUDE(/Support/LinkBox)
-INCLUDE(/Develop/LinkBox)
+
+PLACEHOLDER_INCLUDE(/Support/LinkBox)
+PLACEHOLDER_INCLUDE(/Develop/LinkBox)
 
 <table>
   <tr>
     <td style=" border: none; width: 60%;"> <div class='center'><a href='http://bit.ly/gxytrello'><img src='/Images/Logos/TrelloLogo300.png' alt='Galaxy Issue Board @ Trello' width="200" /></a></div><br /><br /> The Galaxy Project uses <a href='http://bit.ly/gxytrello'>Trello</a> for issue tracking and for gathering awesome ideas including feature requests from community and future development visions.  The <a href='http://bit.ly/gxytrello'>Galaxy Trello Board</a> supports <a href='http://galaxyproject.org/trello'>card creation</a>, <a href='#add-a-comment'>commenting</a>, and <a href='#vote'>voting</a> on cards. All votes affect prioritization of cards: <em>the more votes the card gets the more probable for it to be implemented</em>. </td>
+    <td style=" border: none;">  </td>
   </tr>
 </table>
 
@@ -39,7 +41,7 @@ As mentioned above, the Galaxy Project uses [Trello](http://bit.ly/gxytrello) fo
   </tr>
   <tr>
     <th> Testing </th>
-    <td> Bug is fixed and the fix is deployed at <a href='/Test/'>/Test/</a>. Please test if you can. </td>
+    <td> Bug is fixed and the fix is deployed at <a href='/Test'>/Test</a>. Please test if you can. </td>
   </tr>
   <tr>
     <th> Complete and in central </th>
@@ -47,7 +49,7 @@ As mentioned above, the Galaxy Project uses [Trello](http://bit.ly/gxytrello) fo
   </tr>
   <tr>
     <th> In stable branch </th>
-    <td> The bug is probably already fixed on the <a href='/Main/'>/Main/</a> instance of Galaxy, committed in galaxy-central repository (branch <code>stable</code>) and is waiting for the next release to be included in <a href='https://wiki.galaxyproject.org/Develop/Bitbucket'>galaxy-dist</a>. </td>
+    <td> The bug is probably already fixed on the <a href='/Main'>/Main</a> instance of Galaxy, committed in galaxy-central repository (branch <code>stable</code>) and is waiting for the next release to be included in <a href='https://wiki.galaxyproject.org/Develop/Bitbucket'>galaxy-dist</a>. </td>
   </tr>
 </table>
 
@@ -58,7 +60,7 @@ Tool shed has its own board at [Tool Shed Issue Board](https://trello.com/b/vHqp
 
 ## Security issues
 
-Serious security problems should not be reported via Trello - please responsibly disclose these as explained in https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING/ .
+Serious security problems should not be reported via Trello - please responsibly disclose these as explained in https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING.md .
 
 <div class='right'><br />[{{attachment:FilterCardsButton.png|Search for Issues|width="135"}}|&do=get,target="_blank"](ATTACHMENT_URLFilterCardsButton.png)</div>
 

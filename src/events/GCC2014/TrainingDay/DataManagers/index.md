@@ -1,13 +1,16 @@
-INCLUDE(/Events/GCC2014/Header)
+---
+pagetitle: Tool Development from bright idea to toolshed , -,  Data Managers
+---
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 <br /><br />
 
-<div class="title">Tool Development from bright idea to toolshed - Data Managers</div>
 
-INCLUDE(/Events/GCC2014/LinkBox)
 
-<div class='right'> <a href='/Events/GCC2014/TrainingDay/'><img src='/Images/Logos/GCC2014TrainingDayLogoSquare.png' alt='GCC2014 Training Day' width="100" /></a></div>
+PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
-This is the workshop page for the **[Tool Development from bright idea to toolshed - Data Managers](/Events/GCC2014/TrainingDay/#tool-development-from-bright-idea-to-toolshed---data-managers)** Training Day session at GCC2014.
+<div class='right'> <a href='/Events/GCC2014/TrainingDay'><img src='/Images/Logos/GCC2014TrainingDayLogoSquare.png' alt='GCC2014 Training Day' width="100" /></a></div>
+
+This is the workshop page for the **[Tool Development from bright idea to toolshed - Data Managers](/Events/GCC2014/TrainingDay#tool-development-from-bright-idea-to-toolshed---data-managers)** Training Day session at GCC2014.
 
 This workshop is offered on June 30, from 3:30 through 6pm, in Room 304 of Charles Commons.
 
@@ -24,7 +27,7 @@ This session covers the tool and ToolShed requirements for using reference data 
 * https://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax
 * For a video overview on Data Managers, see this [presentation from GCC2013](http://vimeo.com/74265510).
 
-<<span(red)>><div class='dashed'>
+<div class='red'><div class='dashed'>
 ## Prerequisites
 * The virtual machine image for this workshop should be installed before you arrive. 
   * [How to VM](/Events/GCC2014/TrainingDay/VMs)
@@ -32,7 +35,7 @@ This session covers the tool and ToolShed requirements for using reference data 
 * A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.  
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop. 
 * Secure Shell (SSH) client software such as PuTTY for Windows, or the Terminal Application that comes with Mac OS. 
-</div><<span>>
+</div></span>
 
 ## 15:30-15:40 Introduction
 * Introduce presenters and circulating tutors
@@ -217,7 +220,7 @@ admin_users = jj@msi.umn.edu
 ## 16:10-16:30 Install a DataManager from the ToolShed
 * https://wiki.galaxyproject.org/Admin/Tools/DataManagers/HowTo/Define
 * configure your galaxy server to use Data Managers
-  * In your "[universe_wsgi.ini](https://github.com/galaxyproject/galaxy/tree/master/universe_wsgi.ini.sample)" file these settings exist in the `[app:main]` section:
+  * In your "universe_wsgi.ini" file these settings exist in the `[app:main]` section:
 ```python
 # Data manager configuration options
 enable_data_manager_user_view = True
@@ -564,7 +567,7 @@ import galaxy.datatypes.data
 from galaxy.datatypes.data import Text
 from galaxy.datatypes.metadata import MetadataElement
 
-log = logging.getLogger(</u>name__)
+log = logging.getLogger(<u>name__)
 
 class SnpEffDb( Text ):
     """Class describing a SnpEff genome build"""
@@ -574,7 +577,7 @@ class SnpEffDb( Text ):
     MetadataElement( name="annotation", default=[], desc="Annotation Names", readonly=True, visible=True, no_value=[], optional=True)
 
     def __init__( self, **kwd ):
-        Text.<u>init__( self, **kwd )
+        Text.</u>init__( self, **kwd )
 
     def set_meta( self, dataset, **kwd ):
         Text.set_meta(self, dataset, **kwd )
@@ -699,4 +702,4 @@ data_manager_snpeff/tool_dependencies.xml
     ```
 
 
-INCLUDE(/Events/GCC2014/Footer)
+PLACEHOLDER_INCLUDE(/Events/GCC2014/Footer)

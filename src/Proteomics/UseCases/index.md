@@ -25,59 +25,59 @@ Alternative and partial approaches should be listed as well. Most complete, gene
     <td> X! Tandem, OMSSA, mascot, ms-gf+ </td>
     <td style=" background-color: #00FF00;"> Auto-installs </td>
     <td> <a href='https://usegalaxyp.org'>Galaxy-P</a> (partial) </td>
-    <td> <a href='https://bitbucket.org/iracooke/protk'>BitBucket</a> </td>
+    <td> <a href='https://github.com/iracooke/protk'>GitHub</a> </td>
     <td style=" background-color: #00FF00;"> FOSS </td>
     <td> </td>
   </tr>
   <tr>
-    <td> PeptideShaker </td>
+    <td> !PeptideShaker </td>
     <td> X! Tandem and OMSSA </td>
-    <td> <#FFFF00> Source-only </td>
+    <td style=" background-color: #FFFF00;"> <a href='https://toolshed.g2.bx.psu.edu/view/galaxyp/'>Link</a> </td>
     <td> <a href='https://usegalaxyp.org'>Galaxy-P</a> </td>
-    <td> <a href='https://usegalaxyp.readthedocs.org/en/latest/sections/peptideshaker.html'>Galaxy-P User Guide</a>, <a href='https://bitbucket.org/galaxyp/galaxyp-toolshed-peptideshaker'>BitBucket</a> </td>
+    <td> <a href='https://usegalaxyp.readthedocs.org/en/latest/sections/peptideshaker.html'>Galaxy-P User Guide</a>, <a href='https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/peptideshaker'>GitHub</a> </td>
     <td style=" background-color: #00FF00;"> FOSS </td>
     <td> </td>
   </tr>
   <tr>
     <td> OpenMS </td>
-    <td> X! Tandem, OMSSA, MyriMatch  </td>
-    <td> <#FFFF00> Source-only </td>
+    <td> X! Tandem, OMSSA, !MyriMatch  </td>
+    <td style=" background-color: #FFFF00;"> <a href='https://toolshed.g2.bx.psu.edu/view/galaxyp/openms/'>Link</a> </td>
     <td> <a href='https://usegalaxyp.org'>Galaxy-P</a> </td>
-    <td> <a href='https://bitbucket.org/galaxyp/galaxyp-toolshed-openms'>BitBucket</a> </td>
+    <td> </td>
     <td style=" background-color: #00FF00;"> FOSS </td>
     <td> Results in idxml </td>
   </tr>
   <tr>
-    <td> MaxQuant </td>
-    <td> MaxQuant Andromeda </td>
-    <td> <#FFFF00> Source-only </td>
+    <td> !MaxQuant </td>
+    <td> !MaxQuant Andromeda </td>
+    <td style=" background-color: #FFFF00;"> <a href='https://toolshed.g2.bx.psu.edu/view/galaxyp/maxquant/'>Link</a> </td>
     <td> <a href='https://usegalaxyp.org'>Galaxy-P</a> </td>
-    <td> <a href='https://bitbucket.org/galaxyp/galaxyp-toolshed-maxquant'>BitBucket</a> </td>
+    <td> </td>
     <td style=" background-color: #FFFF00;"> Free </td>
     <td> Windows-only </td>
   </tr>
   <tr>
     <td> Scaffold </td>
     <td> X! Tandem, OMSSA (more possible, this is all that is tested) </td>
-    <td> <#FFFF00> Source-only </td>
+    <td style=" background-color: #FFFF00;"> <a href='https://toolshed.g2.bx.psu.edu/view/galaxyp/scaffold/'>Link</a> </td>
     <td> </td>
     <td> </td>
     <td style=" background-color: #FF0000;"> Commercial </td>
     <td> </td>
   </tr>
   <tr>
-    <td> ProteinPilot </td>
-    <td> ProteinPilot  </td>
-    <td> <#FFFF00> Source-only </td>
+    <td> !ProteinPilot </td>
+    <td> !ProteinPilot  </td>
+    <td style=" background-color: #FFFF00;"> <a href='https://toolshed.g2.bx.psu.edu/view/galaxyp/proteinpilot/'>Link</a> </td>
     <td> </td>
-    <td> <a href='https://bitbucket.org/galaxyp/galaxyp-toolshed-proteinpilot'>BitBucket</a> </td>
+    <td> </td>
     <td style=" background-color: #FF0000;"> Commercial </td>
     <td> Windows-only </td>
   </tr>
   <tr>
     <td> percolator  </td>
     <td> crux, ms-gf+  </td>
-    <td> <#FF0000> No, in <a href='https://bitbucket.org/glormph/adapt'>Adapt</a> </td>
+    <td style=" background-color: #FF0000;"> No, in <a href='https://bitbucket.org/glormph/adapt'>Adapt</a> </td>
     <td> </td>
     <td> </td>
     <td style=" background-color: #FF0000;"> Academic-only (newer crux is better) </td>
@@ -94,9 +94,9 @@ The [NBIC Galaxy server Andromeda](http://galaxy.nbic.nl/) features [msCompare](
 
 ### Quantification (Isobaric Labeling)
 
-The Galaxy-P OpenMS tool repository features tools for iTRAQ and TMT quantification. These are in early development, please contact John Chilton for more details.
+The Galaxy-P OpenMS tool repository features tools for iTRAQ and TMT quantification. These are in early development, please contact [John Chilton](/JohnChilton) for more details.
 
-Likewise, the tool shed contains tools for MaxQuant and ProteinPilot both tools are capable of Isobaric quantification - though MaxQuant works only with Thermo RAW files and ProteinPilot is a commercial tool. 
+Likewise, the tool shed contains tools for !MaxQuant and !ProteinPilot both tools are capable of Isobaric quantification - though !MaxQuant works only with Thermo RAW files and !ProteinPilot is a commercial tool. 
 
 ## Multi-omics Use Cases
 

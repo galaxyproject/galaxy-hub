@@ -1,9 +1,9 @@
 <div class='center'>
-<div class="title">Introduction to Galaxy<br />April 20</div>
+<div class='title'>Introduction to Galaxy<br />April 20</div>
 
 <table>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle"> <a href='http://iastate.edu/'><img src='/Images/Logos/IowaState.png' alt='Iowa State University'  /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://iastate.edu/'><img src='/Images/Logos/IowaState.png' alt='Iowa State University'  /></a> </td>
   </tr>
 </table>
 
@@ -64,7 +64,7 @@ The draft agenda is:
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:15 </th>
-    <td> <strong>Visualization & Visual Analytics in Galaxy</strong><div class='indent'>Learn to use Galaxy's built-in visualization capabilities.  We'll also demonstrate Galaxy's </em>visual analytics<em> support, using the tight coupling of visualization and analyses to iteratively guide analysis.</div> </td>
+    <td> <strong>Visualization & Visual Analytics in Galaxy</strong><div class='indent'>Learn to use Galaxy's built-in visualization capabilities.  We'll also demonstrate Galaxy's <em>visual analytics</em> support, using the tight coupling of visualization and analyses to iteratively guide analysis.</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:35 </th>
