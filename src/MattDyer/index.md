@@ -1,5 +1,4 @@
 
-#language en
 
 <div class='right'><a href='http://lifetech.com'><img src='/Events/GCC2012/Sponsorships/IonTorrentLogo320.png' alt='Ion Torrent' height="100" /></a></div>
 

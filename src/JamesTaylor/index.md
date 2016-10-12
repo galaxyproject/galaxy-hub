@@ -1,5 +1,4 @@
 
-#language en
 <div class='right'><a href='http://www.bio.jhu.edu/Faculty/Taylor/Default.html'><img src='/GalaxyTeam/james.jpg' /></a></div>
 
 # James Taylor

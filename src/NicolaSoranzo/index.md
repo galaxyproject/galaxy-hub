@@ -1,5 +1,4 @@
 
-#language en
 # Nicola Soranzo
 
 [Earlham Institute](http://earlham.ac.uk/)<br />

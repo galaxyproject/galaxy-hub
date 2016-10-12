@@ -1,5 +1,4 @@
 
-#language en
 <div class='right'><a href='/JenniferJackson'><img src='/jenhjackson.png' alt='Jen Jackson' width="200",height="150" /></a><br />
 [Jennifer Hillman Jackson](/JenniferJackson)<br />
 [Penn State](http://www.bx.psu.edu)</div>

@@ -1,5 +1,4 @@
 
-#language en
 <div class='right'><a href='/DelphineLariviere'><img src='/GalaxyTeam/DelphineLariviere.jpg' alt='DelphineLariviere' width="200",height="150" /></a>
 </div>
 

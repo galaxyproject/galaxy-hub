@@ -1,5 +1,4 @@
 
-#language en
 <div class='right'><a href='http://bmb.psu.edu/directory/aun1'><img src='/GalaxyTeam/anton.jpg' /></a></div>
 
 # Anton Nekrutenko

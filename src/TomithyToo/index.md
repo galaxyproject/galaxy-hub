@@ -1,5 +1,4 @@
 
-#language en
 # On Web Controllers and Data Classes| By Tomithy
 This document discusses the web controllers and data classes of Galaxy. It aims to give you a brief idea on how the Galaxy software is structured and what are the possible entry points should you want to extend Galaxy. These ideas are what I have gleaned of tweaking the codes and working on the PhyloViz Project
 

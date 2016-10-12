@@ -1,5 +1,4 @@
 
-#language en
 <div class='right'>![](/GalaxyTeam/Mo.jpg)</div>
 
 # Mo Heydarian

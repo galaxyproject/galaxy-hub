@@ -1,5 +1,4 @@
 
-#language en
 # Proteomics
 
 PLACEHOLDER_INCLUDE(LinkBox)

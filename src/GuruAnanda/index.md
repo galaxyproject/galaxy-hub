@@ -1,5 +1,4 @@
 
-#language en
 <div class='right'>![](/GalaxyTeam/guru.jpg)</div>
 # Guru Ananda
 

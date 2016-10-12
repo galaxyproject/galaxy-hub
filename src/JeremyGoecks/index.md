@@ -1,5 +1,4 @@
 
-#language en
 <div class='right'>![](/GalaxyTeam/jgoecks-banff-small.png)</div>
 
 # Jeremy Goecks

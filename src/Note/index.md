@@ -1,5 +1,4 @@
 
-#language en
 
 # List of Galaxy Notes
 

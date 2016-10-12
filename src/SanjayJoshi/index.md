@@ -1,5 +1,4 @@
 
-#language en
 
 <div class='right'> ![](/SanjayJoshi.png)<br /><a href='http://emc.com'><img src='/Events/GCC2012/Sponsorships/EMCLogo260.png' alt='EMC Isilon' width="120px" /></a></div>
 
