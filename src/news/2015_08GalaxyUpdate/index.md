@@ -1,3 +1,6 @@
+---
+date: 2015-07-31T07:35:33Z
+---
 <div class='newsItemHeader'>[August 2015 Galactic News](/News/2015_08GalaxyUpdate)</div>
 
 <div class='right'>
@@ -36,6 +39,5 @@ The **[August Galactic News](/GalaxyUpdates/2015_08)** is out.  It's been a busy
 </div>
 <br />
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-07-31T07:35:33Z) </div>
 
 CategoryNews

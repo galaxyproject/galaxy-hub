@@ -1,3 +1,6 @@
+---
+date: 2014-01-18T21:39:51Z
+---
 <div class='newsItemHeader'>[Google Summer of Code Proposals](/News/GSoC2014Call)</div>
 
 <div class='right'><a href='/gmod:GSoC'><img src='/Images/Logos/GSoC2014Logo.png' alt='Google Summer of Code 2014' width="200" /></a></div>
@@ -13,6 +16,5 @@ If your interests lean more towards toolkits, I would like to point out that the
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-01-18T21:39:51Z)</div>
 
 CategoryNews

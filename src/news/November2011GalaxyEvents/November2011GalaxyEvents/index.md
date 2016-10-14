@@ -1,3 +1,6 @@
+---
+date: 2011-10-31T21:09:26Z
+---
 <div class='newsItemHeader'>[November 2011 Galaxy Events](/News/November 2011 Galaxy Events)</div>
 
 <div class='right'>
@@ -57,6 +60,5 @@ There are several Galaxy related events going on at Cold Spring Harbor Laborator
 Thanks,<br />
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2011-10-31T21:09:26Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2012-07-11T21:29:13Z
+---
 <div class='newsItemHeader'>[GalaxyCzars: July Slides & Video](/News/GalaxyCzarsFirstCall)</div>
 
 <div class='right'><a href='/Community/GalaxyCzars/Meetups/2012_07_09'><img src='/Images/Logos/GalaxyCzars.png' alt='GalaxyCzars' width="150" /></a></div>
@@ -14,6 +17,5 @@ Many, many thanks to Ann Black-Ziegelbein for getting the group off to a great s
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-07-11T21:29:13Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2012-10-31T17:05:38Z
+---
 <div class='newsItemHeader'>[November 2012 Galaxy Update](/News/2012_11GalaxyUpdate)</div>
 
 <div class='right'><a href='/GalaxyUpdates/2012_11'><img src='/Images/Logos/GalaxyUpdate200.png' alt='November 2012 Galaxy Update' width=150 /></a></div>
@@ -18,6 +21,5 @@ If you have anything you would like to see in the December *[Galaxy Update](/Gal
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-10-31T17:05:38Z)</div>
 
 CategoryNews

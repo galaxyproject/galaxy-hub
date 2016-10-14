@@ -1,3 +1,6 @@
+---
+date: 2014-08-14T13:58:29Z
+---
 <div class='newsItemHeader'>[Galaxy-UK Community Launched](/News/GalaxyUKLaunched)</div>
 
 Dear UK Galaxy-devs,
@@ -28,6 +31,5 @@ The Galaxy-UK Team
 
 <div class='center'> <a href='http://galaxy-community.org.uk/'><img src='/GCUKisLive.png' alt='Galaxy-UK Community is Live!' width="40%" /></a> </div>
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-08-14T13:58:29Z)</div>
 
 CategoryNews

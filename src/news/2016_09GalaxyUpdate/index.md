@@ -1,3 +1,6 @@
+---
+date: 2016-09-06T05:06:14Z
+---
 <div class='newsItemHeader'>[September 2016 Galactic News](/News/2016_09GalaxyUpdate)</div>
 
 <div class='right'>
@@ -23,6 +26,5 @@ The **[September Galaxy News](/GalaxyUpdates/2016_09) is out:**
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-09-06T05:06:14Z)</div>
 
 CategoryNews

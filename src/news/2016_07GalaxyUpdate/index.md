@@ -1,3 +1,6 @@
+---
+date: 2016-07-06T03:44:28Z
+---
 <div class='newsItemHeader'>[July 2016 Galactic News](/News/2016_07GalaxyUpdate)</div>
 
 <div class='right'>
@@ -32,6 +35,5 @@ Hope to [see you in Montpellier](/GalaxyUpdates/2016_07#gcc2017-26-30-june-2017-
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-07-06T03:44:28Z)</div>
 
 CategoryNews

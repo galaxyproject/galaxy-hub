@@ -1,3 +1,6 @@
+---
+date: 2016-09-27T21:51:01Z
+---
 <div class='newsItemHeader'>[GCC2018 Call for Host Proposals](/News/GCC2018CallForHost)</div>
 
 <table>
@@ -45,6 +48,5 @@ Hoping to work with you in 2018!
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-09-27T21:51:01Z)</div>
 
 CategoryNews

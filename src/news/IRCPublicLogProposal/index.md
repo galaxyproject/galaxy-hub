@@ -1,3 +1,6 @@
+---
+date: 2014-09-02T19:19:45Z
+---
 <div class='newsItemHeader'>[Proposed IRC Channel Policy Change](/News/IRCPublicLogProposal)</div>
 
 <div class='right'>![Galaxy IRC Channel](/Images/Icons/ChatBalloons.png)</div>
@@ -27,6 +30,5 @@ The project's IRC channel came up at the [GalaxyAdmins BoF meetup](/Events/GCC20
 
 The [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-09-02T19:19:45Z)</div>
 
 CategoryNews

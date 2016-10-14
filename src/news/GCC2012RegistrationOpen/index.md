@@ -1,3 +1,6 @@
+---
+date: 2012-03-20T18:41:26Z
+---
 <div class='newsItemHeader'>[GCC2012 Registration is Open](/News/GCC2012RegistrationOpen)</div>
 
 <div class='right'><a href='/Events/GCC2012/Register'><img src='/Events/GCC2012/GCC2012LogoWide400.png' alt='GCC2012 Registration is Open!' width="350" /></a><br /><br /><a href='/Events/GCC2012/TrainingDay'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='GCC2012 Training Day: July 25' align="right" /></a></div>
@@ -24,6 +27,5 @@ Looking forward to seeing you in Chicago!
 
 [Dave Clements](/DaveClements) on behalf of the [GCC2012 Organizing Committee](/Events/GCC2012/Organizing Committee)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-03-20T18:41:26Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2013-12-31T23:16:52Z
+---
 <div class='newsItemHeader'>[January 2014 Galaxy Update](/News/2014_01GalaxyUpdate)</div>
 
 <div class='right'>
@@ -32,6 +35,5 @@ Best wishes to you and yours for a happy and spectacular 2014,
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-12-31T23:16:52Z) </div>
 
 CategoryNews

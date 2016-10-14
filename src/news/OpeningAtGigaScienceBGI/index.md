@@ -1,3 +1,6 @@
+---
+date: 2012-02-18T07:31:33Z
+---
 <div class='newsItemHeader'>[Opening @ GigaScience / BGI HK](/News/OpeningAtGigaScienceBGI)</div>
 
 <div class='right'><a href='http://hk.jobsdb.com/HK/EN/Search/JobAdSingleDetail?jobsIdList=100003001226128&sr=1'><img src='/Images/Logos/GigaScienceLogo.gif' alt='GigaScience Journal' width="160" /></a><br /><a href='http://hk.jobsdb.com/HK/EN/Search/JobAdSingleDetail?jobsIdList=100003001226128&sr=1'><img src='/Images/Logos/BGILogo.gif' alt='BGI Honk Kong' height="80" /></a></div>
@@ -9,6 +12,5 @@ See the job posting for more responsibilities, qualifications, and contact infor
 Scott Edmunds<br />
 Editor, [GigaScience](http://www.gigasciencejournal.com/)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-02-18T07:31:33Z)</div>
 
 CategoryNews

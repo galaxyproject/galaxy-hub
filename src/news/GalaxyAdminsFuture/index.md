@@ -1,3 +1,6 @@
+---
+date: 2013-04-01T15:57:34Z
+---
 <div class='newsItemHeader'>[GalaxyAdmins Future Directions](/News/GalaxyAdminsFuture)</div>
 
 <div class='right'><a href='/Community/GalaxyAdmins/Future'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins Future Directions' width="200" /></a></div>
@@ -12,6 +15,5 @@ These topics are currently being discussed in [/this email thread](/this email t
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-04-01T15:57:34Z)</div>
 
 CategoryNews

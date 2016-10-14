@@ -1,3 +1,6 @@
+---
+date: 2013-01-25T23:45:34Z
+---
 <div class='newsItemHeader'>[Galaxy Project Openings](/News/GalaxyProjectOpenings)</div>
 
 <div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Galaxy is Hiring' width="300" /></a></div>
@@ -10,6 +13,5 @@ As always, please let me, or [any of us](/GalaxyTeam), know if you have any ques
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-01-25T23:45:34Z)</div>
 
 CategoryNews

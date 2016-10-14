@@ -1,3 +1,6 @@
+---
+date: 2016-04-29T06:30:44Z
+---
 <div class='newsItemHeader'>[May 2016 Galactic News](/News/2016_05GalaxyUpdate)</div>
 
 <div class='right'>
@@ -30,6 +33,5 @@ Don't miss those deadlines, and [see you in June](https://gcc2016.iu.edu/),
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-04-29T06:30:44Z)</div>
 
 CategoryNews

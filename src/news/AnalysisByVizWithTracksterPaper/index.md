@@ -1,3 +1,6 @@
+---
+date: 2012-11-09T17:35:01Z
+---
 <div class='newsItemHeader'>[NGS Analysis by Viz. with Trackster](/News/AnalysisByVizWithTracksterPaper)</div>
 
 <div class='right'><a href='http://bit.ly/VMUz7p'><img src='/Images/NewsGraphics/NatBiotechCover201211.gif' alt='Nature Biotechnology' height="125" /></a></div>
@@ -6,6 +9,5 @@
 
 [The Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-11-09T17:35:01Z)</div>
 
 CategoryNews

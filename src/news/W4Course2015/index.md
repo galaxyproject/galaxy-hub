@@ -1,3 +1,6 @@
+---
+date: 2015-04-08T04:23:10Z
+---
 <div class='newsItemHeader'>[Worflow4Metabolomics 2015 Course](/News/W4Course2015)</div>
 
 <div class='right'>
@@ -9,6 +12,5 @@ The [Worflow4Metabolomics 2015 course (W4M course 2015)](http://workflow4metabol
 
 [Christophe Caron](https://fr.linkedin.com/pub/christophe-caron/48/a88/8)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-04-08T04:23:10Z)</div>
 
 CategoryNews

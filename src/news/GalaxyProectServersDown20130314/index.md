@@ -1,3 +1,6 @@
+---
+date: 2013-03-07T18:33:46Z
+---
 <div class='newsItemHeader'>[Main & Test ServerDowntime: 3/14](/News/GalaxyProectServersDown20130314)</div>
 
 The **Galaxy Public [Main Galaxy Server](/Main)** at **http://main.g2.bx.psu.edu** (*[usegalaxy.org](http://usegalaxy.org)*) and **[Test Galaxy Server](/Test)** at **http://test.g2.bx.psu.edu** will be **down on Thursday, March 14, while the team *relocates core hardware to a new server room.***
@@ -13,6 +16,5 @@ The *yellow banner on **Main** and **Test** will provide updates* (when the serv
 *Thanks for using Galaxy!!*
 
 [Galaxy Team](/GalaxyTeam)
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-03-07T18:33:46Z)</div>
 
 CategoryNews

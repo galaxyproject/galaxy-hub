@@ -1,3 +1,6 @@
+---
+date: 2013-04-04T21:49:50Z
+---
 <div class='newsItemHeader'>[GCC2013 & Galaxy GigaScience Series](/News/GigaScienceGalaxyCFP)</div>
 
 <div class='right'><a href='http://www.gigasciencejournal.com/'><img src='/Images/Logos/GigaScienceLogo250.png' alt='GigaScience Journal' width="200" /></a></div>
@@ -15,6 +18,5 @@ Executive Editor<br />
 *[GigaScience](http://www.gigasciencejournal.com/)*
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-04-04T21:49:50Z)>>, updated <<Date(2016-08-16T16:43:23Z)</div>
 
 CategoryNews

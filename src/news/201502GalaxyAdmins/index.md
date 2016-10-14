@@ -1,3 +1,6 @@
+---
+date: 2015-01-28T23:46:33Z
+---
 <div class='newsItemHeader'>[19 February GalaxyAdmins Meetup](/News/201502GalaxyAdmins)</div>
 
 <div class='left'><a href='/Community/GalaxyAdmins/Meetups/2015_02_19'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup February 19' width="150" /></a></div>
@@ -12,6 +15,5 @@ We are looking forward to starting this group again,
 
 [Hans-Rudolf Hotz](/HansrudolfHotz) and [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-01-28T23:46:33Z)</div>
 
 CategoryNews

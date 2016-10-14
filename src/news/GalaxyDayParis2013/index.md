@@ -1,3 +1,6 @@
+---
+date: 2013-10-02T21:36:24Z
+---
 <div class='newsItemHeader'>[Galaxy Day, 4 décembre à Paris](/News/GalaxyDayParis2013)</div>
 
 **Appel à contributions**
@@ -43,6 +46,5 @@ The [IFB Galaxy group](http://www.ifb-galaxy.org/index.html),
 
 [URGI](http://urgi.versailles.inra.fr/), [GenoToul](http://bioinfo.genotoul.fr/), [MIGALE](http://migale.jouy.inra.fr/), [PFEM](http://metabohub.fr/), [SouthGreen](http://southgreen.cirad.fr/), [Institut Curie](http://curie.fr/), [ABiMS](http://abims.sb-roscoff.fr/)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-10-02T21:36:24Z)</div>
 
 CategoryNews

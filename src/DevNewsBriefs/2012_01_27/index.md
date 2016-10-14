@@ -1,4 +1,5 @@
 ---
+date: 2012-01-27T01:02:28Z
 autotoc: true
 title: January 27, ,,  2012 Galaxy Development News Brief
 ---
@@ -93,4 +94,3 @@ The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)*
 
 Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)**
 ---
-Jennifer Jackson, [Galaxy Team](/GalaxyTeam). Posted to [/DevNewsBriefs](/DevNewsBriefs) on PLACEHOLDER_DATE(2012-01-27T01:02:28Z)

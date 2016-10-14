@@ -1,3 +1,6 @@
+---
+date: 2014-10-06T14:44:41Z
+---
 <div class='newsItemHeader'>[October 06, 2014 Galaxy Distribution](/News/2014_10_06_Galaxy_Distribution)</div>
 <div class='right'><a href='http://getgalaxy.org'><img src='/Images/Logos/GetGalaxyOrg.png' alt=' ' width=150 /></a></div>
 **[Complete News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2014_10_06)**
@@ -42,6 +45,5 @@
 *Thanks for using Galaxy!* <br />
 [The Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-10-06T14:44:41Z)</div>
 
 CategoryNews

@@ -1,4 +1,5 @@
 ---
+date: 2012-03-12T20:52:29Z
 autotoc: true
 title: March 12, ,,  2012 Galaxy Development News Brief
 ---
@@ -187,4 +188,3 @@ The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)*
 
 Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[/Galaxy on Twitter](/Galaxy on Twitter)**
 ---
-</div> Jennifer Jackson, [Galaxy Team](/GalaxyTeam). Posted to [/DevNewsBriefs](/DevNewsBriefs) on PLACEHOLDER_DATE(2012-03-12T20:52:29Z)</div>

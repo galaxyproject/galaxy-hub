@@ -1,3 +1,6 @@
+---
+date: 2014-05-30T07:28:54Z
+---
 <div class='newsItemHeader'>[June 2014 Galaxy News](/News/2014_06GalaxyUpdate)</div>
 
 <div class='right'>
@@ -24,6 +27,5 @@ And, in the past month there were:
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-05-30T07:28:54Z)</div>
 
 CategoryNews

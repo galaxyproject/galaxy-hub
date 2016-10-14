@@ -1,3 +1,6 @@
+---
+date: 2015-08-10T20:24:50Z
+---
 <div class='newsItemHeader'>[Tools + Dataset Collections Hackathon](/News/ToolsCollectionsHack)</div>
 
 Hello all,
@@ -41,6 +44,5 @@ also currently thinking September 17th and 18th.
 Thanks, <br />
 Galaxy IUC
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-08-10T20:24:50Z)</div>
 
 CategoryNews

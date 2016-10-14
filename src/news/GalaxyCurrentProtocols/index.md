@@ -1,3 +1,6 @@
+---
+date: 2012-06-18T16:46:46Z
+---
 <div class='newsItemHeader'>[Two New Current Protocols Papers](/News/GalaxyCurrentProtocols)</div>
 
 <div class='right'><a href='http://cda.currentprotocols.com/WileyCDA/CurPro3Category/L1-1000.html'><img src='/Images/Logos/CurrentProtocolsLogo.png' alt='Current Protocols in Bioinformatics' width="300" /></a></div>
@@ -17,6 +20,5 @@ We would like to thank [Wiley](http://wiley.com) for making both of these public
 
 [/Galaxy Team](/Galaxy Team)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-06-18T16:46:46Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2013-07-31T17:18:38Z
+---
 <div class='newsItemHeader'>[Galaxy Protoeomics Mailing List](/News/ProteomicsMailingList)</div>
 
 <div class='right'><a href='http://proteomics.list.galaxyproject.org/'><img src='/Images/Logos/MailmanLogoSmall.png' alt='Galaxy Proteomics Mailing List'  /></a></div>
@@ -15,6 +18,5 @@ Thanks
 
 Ira Cooke
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-07-31T17:18:38Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2011-08-29T20:31:49Z
+---
 <div class='newsItemHeader'>[Galaxy is Hiring](/News/Galaxy is Hiring)</div>
 
 The Galaxy project currently has open positions in both the [Penn State](/Community/Penn State) and [Emory](/Community/Emory University) groups.
@@ -28,6 +31,5 @@ We are seeking [software engineers](http://bx.mathcs.emory.edu/joining/sw/) with
 
 [Postdoctoral applicants](http://bx.mathcs.emory.edu/joining/postdocs/) should have expertise in Bioinformatics and Computational Biology and research interests that complement but extend the [lab's current interests](http://bx.mathcs.emory.edu/research/): The Galaxy project; distributed and high-performance computing for data intensive science; vertebrate functional genomics; and genomics and epigenomic mechanisms of gene regulation, the role of transcription factors and chromatin structure in global gene expression, development, and differentiation.  See the [announcement](http://bx.mathcs.emory.edu/joining/postdocs/) for full details.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2011-08-29T20:31:49Z)>>, updated <<Date(2015-10-09T16:43:42Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2014-09-03T21:34:58Z
+---
 <div class='newsItemHeader'>[Galaxy @ ASA/CSSA/SSSA 2014](/News/ASA_CSSA_SSSA_2014)</div>
 
 <table>
@@ -34,6 +37,5 @@ Please let us know if you have any questions, and we hope to see you there.
 
 Dave C
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-09-03T21:34:58Z)>>, updated <<Date(2014-09-23T17:14:31Z) </div>
 
 CategoryNews

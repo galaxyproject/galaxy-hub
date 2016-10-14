@@ -1,3 +1,6 @@
+---
+date: 2013-12-02T18:14:40Z
+---
 <div class='newsItemHeader'>[Nominate 2014 Training Day Topics](/News/GCC2014TDNominationsOpen)</div>
 
 <div class='right'><a href='/Events/GCC2014/TrainingDay'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014 Training Day' width="150" /></a></div>
@@ -20,6 +23,5 @@ Topics will then be selected and scheduled based on topic interest, and the orga
 
 [GCC2014 Organizing Committee](/Events/GCC2014/Organizers)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-12-02T18:14:40Z)</div>
 
 CategoryNews

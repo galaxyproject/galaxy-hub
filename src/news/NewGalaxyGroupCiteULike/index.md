@@ -1,3 +1,6 @@
+---
+date: 2011-12-14T18:50:11Z
+---
 <div class='newsItemHeader'>[New Galaxy Group @ CiteULike](/News/New Galaxy Group @ CiteULike)</div>
 
 <div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src='/Images/Logos/CiteULikeLogo.png' alt='Galaxy at CiteULike Social Bookmarking Service' width="200" /></a></div>
@@ -12,6 +15,5 @@ If you want to help other Galaxy users and sites find papers that are relevant t
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2011-12-14T18:50:11Z), updated 2011-12-15 </div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2011-07-13T07:20:18Z
+---
 <div class='newsItemHeader'>[Galaxy Events Page & Calendar](/News/Galaxy Events Page and Calendar)</div>
 
 The new Galaxy wiki includes a [Galaxy Events](/Events) page that lists any upcoming events (such as [ISMB/ECCB 2011](/Events/ISMB-ECCB-BOSC 2011) and the [Workshop on Comparative Genomics](http://www.molecularevolution.org/workshops/WCG#wcgna)) that have Galaxy related content.
@@ -13,6 +16,5 @@ If you know of events that either have significant Galaxy content, or are of int
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2011-07-13T07:20:18Z)</div>
 
 CategoryNews

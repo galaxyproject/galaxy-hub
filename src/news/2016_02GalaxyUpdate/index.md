@@ -1,3 +1,6 @@
+---
+date: 2016-02-02T01:11:46Z
+---
 <div class='newsItemHeader'>[February 2016 Galactic News](/News/2016_02GalaxyUpdate)</div>
 
 <div class='right'>
@@ -30,6 +33,5 @@ Happy February!
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-02-02T01:11:46Z) </div>
 
 CategoryNews

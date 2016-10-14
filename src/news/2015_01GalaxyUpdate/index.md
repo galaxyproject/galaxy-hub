@@ -1,3 +1,6 @@
+---
+date: 2015-01-05T17:15:40Z
+---
 <div class='newsItemHeader'>[January 2015 Galaxy Newsletter](/News/2015_01GalaxyUpdate)</div>
 
 <div class='right'>
@@ -21,6 +24,5 @@ Happy New Year from the Galaxy Project!
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-01-05T17:15:40Z) </div>
 
 CategoryNews

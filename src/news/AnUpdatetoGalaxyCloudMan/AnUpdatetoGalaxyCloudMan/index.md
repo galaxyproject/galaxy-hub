@@ -1,3 +1,6 @@
+---
+date: 2011-11-29T18:42:33Z
+---
 <div class='newsItemHeader'>[An Update to Galaxy Cloudman](/News/An Update to Galaxy CloudMan)</div>
 
 
@@ -13,6 +16,5 @@ The new version brings the following updates/features:
 
 [/EnisAfgan](/EnisAfgan)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2011-11-29T18:42:33Z)</div>
 
 CategoryNews

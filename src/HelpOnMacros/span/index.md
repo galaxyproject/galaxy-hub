@@ -1,3 +1,6 @@
+---
+date: 2011-04-19T16:38:10+0100
+---
 # span
 
 The span macro was downloaded from the [MoinMoin MacroMarket](http://moinmo.in/MacroMarket).  This page was copied and modified from the [span macro homepage](http://moinmo.in/MacroMarket/span).
@@ -25,4 +28,3 @@ See docstring.
 # Bugs
 Unknown. :)
 
--- [http://moinmo.in/JimWight](http://moinmo.in/JimWight) PLACEHOLDER_DATE(2011-04-19T16:38:10+0100)

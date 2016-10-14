@@ -1,3 +1,6 @@
+---
+date: 2014-11-03T16:51:18Z
+---
 <div class='newsItemHeader'>[November 2014 Galaxy Newsletter](/News/2014_11GalaxyUpdate)</div>
 
 <div class='right'>
@@ -20,6 +23,5 @@ A lot is happening in in the Galaxy in November, and a lot of good stuff happene
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-11-03T16:51:18Z) </div>
 
 CategoryNews

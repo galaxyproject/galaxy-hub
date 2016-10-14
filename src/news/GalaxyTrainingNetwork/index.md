@@ -1,3 +1,6 @@
+---
+date: 2014-10-16T16:28:02Z
+---
 <div class='newsItemHeader'>[Galaxy Training Network](/News/GalaxyTrainingNetwork)</div>
 
 <div class='right'><a href='/Teach'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="200" /></a></div>
@@ -10,6 +13,5 @@ Thanks,
 
 The [Galaxy Training Network (GTN)](/Teach/Trainers)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-10-16T16:28:02Z)</div>
 
 CategoryNews

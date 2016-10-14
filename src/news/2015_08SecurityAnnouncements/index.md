@@ -1,3 +1,6 @@
+---
+date: 2015-08-13T17:27:27Z
+---
 <div class='newsItemHeader'>[August 12, 2015 Galaxy Security Advisories](/News/2015_08SecurityAnnouncements)</div>
 
 Two security vulnerabilities were recently discovered in Galaxy, and a third in the Galaxy Tool Shed. Because of this, the Galaxy Committers have released a number of fixes which have been rolled in to affected versions of Galaxy dating back to the 14.10 release.
@@ -26,6 +29,5 @@ Because the Tool Shed is used to install software in Galaxy, if exploited, the i
 
 [See the announcement for full details and update instructions](https://lists.galaxyproject.org/pipermail/galaxy-announce/2015-August/000149.html)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-08-13T17:27:27Z)</div>
 
 CategoryNews

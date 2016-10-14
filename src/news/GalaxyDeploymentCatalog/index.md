@@ -1,3 +1,6 @@
+---
+date: 2013-12-04T18:34:39Z
+---
 <div class='newsItemHeader'>[Galaxy Deployment Catalog](/News/GalaxyDeploymentCatalog)</div>
 
 <div class='right'><a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' width="200" /></a></div> 
@@ -20,6 +23,5 @@ Thanks a bunch, and please let us know if you have any questions.
 
 [Dave Clements](/DaveClements) 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-12-04T18:34:39Z)</div>
 
 CategoryNews

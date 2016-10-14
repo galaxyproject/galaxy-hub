@@ -1,3 +1,6 @@
+---
+date: 2016-05-25T13:42:43Z
+---
 <div class='newsItemHeader'>[16.05 Galaxy CloudMan release](/News/1605_GalaxyCloudManRelease)</div>
 
 <div class='right'><a href='/CloudMan'><img src='/Images/GalaxyLogos/cloudman-logo.jpg' alt='CloudMan' width="300" /></a></div>
@@ -11,6 +14,5 @@ This is a minor update release with the following changes:
 
 See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-05-25T13:42:43Z) </div>
 
 CategoryNews

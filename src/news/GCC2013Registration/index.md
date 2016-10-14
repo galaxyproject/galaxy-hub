@@ -1,3 +1,6 @@
+---
+date: 2013-06-04T18:50:36Z
+---
 <div class='newsItemHeader'>[GCC2013 Registration Ends 14 June](/News/GCC2013Registration)</div>
 
 [Register](/Events/GCC2013/Register) for [GCC2013](/Events/GCC2013) by 14 June and avoid the *100%* late surcharges.  Registration is still a bargain with combined registration ([Training Day](/Events/GCC2013/TrainingDay) + [main meeting](/Events/GCC2013/Program)) starting at ~ €165 for post-docs and students (that just €55 per day). **[Register now](/Events/GCC2013/Register)** to assure your spot in the [Training Day workshops](/Events/GCC2013/TrainingDay) you want to attend.  Once a Training Day session becomes full, it will be closed to new registrations. 
@@ -16,7 +19,6 @@ If you are a biologist or bioinformatician performing or enabling high-throughpu
 
 PS: And please help [get the word out](/Events/GCC2013/Promotion)!
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-06-04T18:50:36Z)</div>
 
 
 

@@ -1,3 +1,6 @@
+---
+date: 2015-01-17T00:38:35Z
+---
 <div class='newsItemHeader'>[Bioinformatician, MDC Berlin-Buch](/News/MDCBerlinBuchOpening)</div>
 
 **Bioinformatics scientist/engineer for RNA bioinformatics and next-generation sequencing Berlin**
@@ -15,6 +18,5 @@ Please contact [altuna.akalin@mdc DASH berlin.de](Altuna Akalin) for further det
 <a href='http://www.helmholtz.de/'><img src='/Images/Logos/HelmholtzAssoc.gif' alt='Helmholtz Association of National Research Centers' /></a>
 </div>
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-01-17T00:38:35Z)</div>
 
 CategoryNews

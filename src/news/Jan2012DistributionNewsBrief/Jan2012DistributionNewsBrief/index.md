@@ -1,3 +1,6 @@
+---
+date: 2012-01-20T15:21:31Z
+---
 <div class='newsItemHeader'>[January 20, 2012 Distribution & News Brief](/News/Jan 2012 Distribution News Brief)</div>
 
 **Complete [News Brief](/DevNewsBriefs/2012_01_20)**
@@ -22,6 +25,5 @@ upgrade: % hg pull -u -r 63bc46cc73b7
 [Jennifer Jackson](/JenniferJackson)
 
 [/Galaxy Team](/Galaxy Team)
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-01-20T15:21:31Z)</div>
 
 CategoryNews

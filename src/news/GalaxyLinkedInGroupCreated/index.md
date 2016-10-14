@@ -1,3 +1,6 @@
+---
+date: 2013-03-18T21:06:21Z
+---
 <div class='newsItemHeader'>[Galaxy LinkedIn Group](/News/GalaxyLinkedInGroupCreated)</div>
 
 <div class='right'><a href='http://bit.ly/gxyLinkedIn'><img src='/Images/Logos/LinkedInLogo.png' alt='Galaxy Linked In Group' /></a></div>
@@ -10,6 +13,5 @@ If you are on !LinkedIn, please consider [joining the group](http://bit.ly/gxyLi
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-03-18T21:06:21Z)</div>
 
 CategoryNews

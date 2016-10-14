@@ -1,3 +1,6 @@
+---
+date: 2016-02-24T22:48:55Z
+---
 <div class='newsItemHeader'>[Jan 2016 Galaxy Release (v 16.01)](/News/2016_01_GalaxyRelease)</div>
 
 <div class='right'><a href='http://getgalaxy.org'><img src='/Images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png' alt='GalaxyProject' width="200" /></a></div>
@@ -61,6 +64,5 @@ Multiple security vulnerabilities were recently discovered in the Tool Shed that
 <br /><br />
 
 </div></div>
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-02-24T22:48:55Z)</div>
 
 CategoryNews

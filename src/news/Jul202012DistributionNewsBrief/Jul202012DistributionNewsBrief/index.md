@@ -1,3 +1,6 @@
+---
+date: 2012-07-21T06:28:04Z
+---
 <div class='newsItemHeader'>[July 20, 2012 Distribution & News Brief](/News/Jul202012 Distribution News Brief)</div>
 
 
@@ -25,6 +28,5 @@ upgrade: % hg pull -u -r ec29ce8e27a1
 
 [/Galaxy Team](/Galaxy Team)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-07-21T06:28:04Z)</div>
 
 CategoryNews

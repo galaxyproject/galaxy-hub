@@ -1,3 +1,6 @@
+---
+date: 2013-04-02T02:21:49Z
+---
 <div class='newsItemHeader'>[April 1, 2013 Galaxy Distribution](/News/2013_04_01_Galaxy_Distribution)</div>
 
 ```wiki red/solid/light
@@ -36,6 +39,5 @@ upgrade: $ hg pull
 
 [The Galaxy Team](/Galaxy Team)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-04-02T02:21:49Z)</div>
 
 CategoryNews

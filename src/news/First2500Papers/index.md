@@ -1,3 +1,6 @@
+---
+date: 2015-08-12T22:39:55Z
+---
 <div class='newsItemHeader'>[2500 Galaxy Papers & Counting](/News/First2500Papers)</div>
 
 <div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src='/Images/Logos/CiteULikeLogo.png' alt='Galaxy at CiteULike Social Bookmarking Service' width="200" /></a></div>
@@ -378,6 +381,5 @@ In the meantime, I expect the next 2500 papers will be published in considerably
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-08-12T22:39:55Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2012-02-13T19:55:16Z
+---
 <div class='newsItemHeader'>[GCC2012 Abstract Submission is Open](/News/GCC2012AbstractSubmissionOpen)</div>
 
 <div class='right'><a href='/Events/GCC2012/Abstracts'><img src='/Events/GCC2012/GCC2012Logo200.png' /></a></div>
@@ -17,6 +20,5 @@ GCC2012 is hosted by the [University of Illinois at Chicago](http://uic.edu/), t
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-02-13T19:55:16Z)</div>
 
 CategoryNews

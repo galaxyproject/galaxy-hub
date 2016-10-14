@@ -1,3 +1,6 @@
+---
+date: 2011-08-19T20:38:58Z
+---
 <div class='newsItemHeader'>[Powered by Galaxy](/News/Powered by Galaxy)</div>
 
 <div class='right'><a href='/Outreach/Powered by Galaxy'><img src='/Outreach/Powered by Galaxy/PoweredByGalaxy200.png' /></a></div>
@@ -12,6 +15,5 @@ This, along with [/Citing Galaxy](/Citing Galaxy), are two easy things that can 
 Thanks,
 
 [Dave Clements](/DaveClements)
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2011-08-19T20:38:58Z)</div>
 
 CategoryNews

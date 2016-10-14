@@ -1,3 +1,6 @@
+---
+date: 2015-03-16T19:12:21Z
+---
 <div class='newsItemHeader'>[March 2015 Galaxy Release (v 15.03)](/News/2015_03_GalaxyRelease)</div>
 
 <div class='right'><a href='http://getgalaxy.org'><img src='/Images/Logos/GetGalaxyOrg.png' alt='width=175' /></a></div>
@@ -52,6 +55,5 @@
 [The Galaxy Team](/GalaxyTeam)
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-03-16T19:12:21Z)</div>
 
 CategoryNews

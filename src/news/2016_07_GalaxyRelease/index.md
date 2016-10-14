@@ -1,3 +1,6 @@
+---
+date: 2016-08-25T20:17:40Z
+---
 <div class='newsItemHeader'>[July 2016 Galaxy Release (v 16.07)](/News/2016_07_GalaxyRelease)</div>
 
 <div class='right'><a href='http://getgalaxy.org'><img src='/Images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png' alt='GalaxyProject' width="200" /></a></div>
@@ -25,6 +28,5 @@ The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/do
 On behalf of the [Galaxy Core and Contributor team](https://wiki.galaxyproject.org/GalaxyTeam) (and community), ***Thanks for using Galaxy!***
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-08-25T20:17:40Z)</div>
 
 CategoryNews

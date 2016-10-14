@@ -1,3 +1,6 @@
+---
+date: 2011-09-28T20:14:54Z
+---
 <div class='newsItemHeader'>[October 2011 Galaxy Events](/News/October 2011 Galaxy Events)</div>
 
 <div class='right'>
@@ -43,6 +46,5 @@ There are (at least) three [Galaxy related events](/Events) going on next month 
 Thanks,<br />
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2011-09-28T20:14:54Z)</div>
 
 CategoryNews

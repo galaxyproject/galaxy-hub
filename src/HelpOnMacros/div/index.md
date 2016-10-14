@@ -1,3 +1,6 @@
+---
+date: 2011-04-19T16:38:10+0100
+---
 # div
 
 The div macro allows you to apply predefined CSS classes to HTML blocks in this wiki.  It is a modified copy of the [span macro](/HelpOnMacros/span).
@@ -63,4 +66,3 @@ See docstring.
 # Bugs
 Unknown. :)
 
--- [http://moinmo.in/JimWight](http://moinmo.in/JimWight) PLACEHOLDER_DATE(2011-04-19T16:38:10+0100)

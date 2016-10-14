@@ -1,3 +1,6 @@
+---
+date: 2016-04-07T14:00:36Z
+---
 <div class='newsItemHeader'>[Galaxy on Jetstream Cloud](/News/GalaxyOnJetstream)</div>
 
 <div class='right'>![](https://www.nsf.gov/news/mmg/media/images/jetstream_logo_f_fe60185c-962f-4c1f-99bf-e6ec82d54c21.jpg)</div>
@@ -17,5 +20,4 @@ After you have your XSEDE account and an active allocation:
 More documentation about the process can be found on Galaxy’s wiki: https://wiki.galaxyproject.org/Cloud/Jetstream
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-04-07T14:00:36Z)</div>
 CategoryNews

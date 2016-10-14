@@ -1,3 +1,6 @@
+---
+date: 2013-02-23T04:46:22Z
+---
 <div class='newsItemHeader'>[GCC2013 Abstract Submission & Registration](/News/GCC2013AbstractsAndRegistrationOpen)</div>
 
 <div class='center'><a href='/Events/GCC2013'><img src='/Images/Logos/GCC2013Logo400.png' alt='2013 Galaxy Community Conference (GCC2013)' width="300" /></a></div>
@@ -24,6 +27,5 @@ The [GCC2013 Organizing Committee](/Events/GCC2013/Organizers)
 
 PS: And please help us [get the word out](/Events/GCC2013/Promotion)!
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-02-23T04:46:22Z)</div>
 
 CategoryNews

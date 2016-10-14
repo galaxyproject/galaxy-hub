@@ -1,3 +1,6 @@
+---
+date: 2012-11-05T16:55:59Z
+---
 <div class='newsItemHeader'>[November 2012 GalaxyAdmins](/News/2012_11GalaxyAdmins)</div>
 
 <div class='right'><a href='/Community/GalaxyAdmins/Meetups/2012_11_14'><img src='/Images/Logos/GalaxyAdmins.png' alt='November 2012 GalaxyAdmins Meetup' width="160" /></a> </div>
@@ -34,6 +37,5 @@ The [next meeting](/Community/GalaxyAdmins/Meetups/2012_11_14) of the [GalaxyAdm
 
 Srinivas Maddhi
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-11-05T16:55:59Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2015-02-25T05:36:02Z
+---
 <div class='newsItemHeader'>[GCC2015 Abstract Submission Open](/News/GCC2015AbstractSubmissionOpen)</div>
 
 <div class='left'><a href='http://gcc2015.tsl.ac.uk/Abstracts'><img src='/Images/Logos/GCC2015AbstractsOpen.png' alt='GCC2015 Oral and Poster Presentation abstract submission is now open' width="200" /></a></div>
@@ -13,6 +16,5 @@
 
 [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-02-25T05:36:02Z)</div>
 
 CategoryNews

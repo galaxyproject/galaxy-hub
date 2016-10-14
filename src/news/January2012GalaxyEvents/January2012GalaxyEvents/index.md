@@ -1,3 +1,6 @@
+---
+date: 2011-12-08T21:04:52Z
+---
 <div class='newsItemHeader'>[January 2012 Galaxy Events](/News/January 2012 Galaxy Events)</div>
 
 <div class='right'>
@@ -54,6 +57,5 @@ And I apologize in advance if I messed up the translation of the [event at DDBJ]
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2011-12-08T21:04:52Z)</div>
 
 CategoryNews

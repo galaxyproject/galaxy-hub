@@ -1,3 +1,6 @@
+---
+date: 2016-06-01T15:21:45Z
+---
 <div class='newsItemHeader'>[June 2016 Galactic News](/News/2016_06GalaxyUpdate)</div>
 
 <div class='right'>
@@ -28,6 +31,5 @@ Hope to [see you in Bloomington](https://gcc2016.iu.edu/),
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-06-01T15:21:45Z)</div>
 
 CategoryNews

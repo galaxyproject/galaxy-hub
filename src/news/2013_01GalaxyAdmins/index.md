@@ -1,3 +1,6 @@
+---
+date: 2013-01-07T20:00:34Z
+---
 <div class='newsItemHeader'>[January 2013 GalaxyAdmins](/News/2013_01GalaxyAdmins)</div>
 
 <div class='right'><a href='/Community/GalaxyAdmins/Meetups/2013_01_16'><img src='/Images/Logos/GalaxyAdmins.png' alt='January 2013 GalaxyAdmins Meetup' width="160" /></a> </div>
@@ -38,6 +41,5 @@ We use the [Blackboard Collaborate Web Conferencing system](/Community/GalaxyAdm
 
 Srinivas Maddhi
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-01-07T20:00:34Z)</div>
 
 CategoryNews

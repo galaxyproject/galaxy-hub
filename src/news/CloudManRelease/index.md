@@ -1,3 +1,6 @@
+---
+date: 2013-07-08T22:16:57Z
+---
 <div class='newsItemHeader'>[New CloudMan Release](/News/CloudManRelease)</div>
 
 <div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
@@ -23,6 +26,5 @@ Enjoy and please let us know what you think,
 
 [Enis Afgan](/EnisAfgan)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-07-08T22:16:57Z)</div>
 
 CategoryNews

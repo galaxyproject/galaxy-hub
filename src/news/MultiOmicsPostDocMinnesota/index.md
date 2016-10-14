@@ -1,3 +1,6 @@
+---
+date: 2016-07-22T15:53:38Z
+---
 <div class='newsItemHeader'>[Multi-omics Postdoc Opening](/News/MultiOmicsPostDocMinnesota)</div>
 
 <div class='right'><div class='right'>
@@ -12,6 +15,5 @@ A Ph.D. in bioinformatics, computer science, analytical chemistry or closely rel
 
 Interested applicants can apply directly to [tgriffin@umn.edu](Dr. Tim Griffin).
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-07-22T15:53:38Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2015-10-01T05:31:10Z
+---
 <div class='newsItemHeader'>[October 2015 Galactic News](/News/2015_10GalaxyUpdate)</div>
 
 <div class='right'>
@@ -28,6 +31,5 @@ The **[October Galactic News](/GalaxyUpdates/2015_10)** is hot off the presses.
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-10-01T05:31:10Z) </div>
 
 CategoryNews

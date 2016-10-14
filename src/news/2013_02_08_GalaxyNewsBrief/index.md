@@ -1,3 +1,6 @@
+---
+date: 2013-02-09T01:15:37Z
+---
 <div class='newsItemHeader'>[Feb 8, 2013 Galaxy Distribution & News Brief](/News/2013_02_08_GalaxyNewsBrief)</div>
 
 **Complete [News Brief](/DevNewsBriefs/2013_02_08)**
@@ -35,6 +38,5 @@ Thanks for using Galaxy,
 [The Galaxy Team](/GalaxyTeam)
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-02-09T01:15:37Z)</div>
 
 CategoryNews

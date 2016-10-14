@@ -1,3 +1,6 @@
+---
+date: 2013-01-02T19:10:33Z
+---
 <div class='newsItemHeader'>[January 2013 Galaxy Update](/News/2013_01GalaxyUpdate)</div>
 
 <div class='right'><a href='/GalaxyUpdates/2013_01'><img src='/Images/Logos/GalaxyUpdate200.png' alt='January 2013 Galaxy Update' width=150 /></a></div>
@@ -19,6 +22,5 @@ If you have anything you would like to see in the Febrarury *[Galaxy Update](/Ga
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-01-02T19:10:33Z)</div>
 
 CategoryNews

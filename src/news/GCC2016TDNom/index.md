@@ -1,3 +1,6 @@
+---
+date: 2015-09-28T17:57:28Z
+---
 <div class='newsItemHeader'>[GCC2016 Training Day Topic Nominations](/News/GCC2016TDNom)</div>
 
 <table>
@@ -25,6 +28,5 @@ Topics will then be selected and scheduled based on topic interest, and the orga
 
 [GCC2016 Exec Committee](/Events/GCC2016/Organizers)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-09-28T17:57:28Z)</div>
 
 CategoryNews

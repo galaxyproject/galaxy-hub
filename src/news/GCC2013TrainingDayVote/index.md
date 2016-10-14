@@ -1,3 +1,6 @@
+---
+date: 2013-01-28T18:49:36Z
+---
 <div class='newsItemHeader'>[GCC2013 Training Day Topics: Vote!](/News/GCC2013TrainingDayVote)</div>
 
 <div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' /></a><br />
@@ -29,6 +32,5 @@ The [GCC2013 Organizing Committee](/Events/GCC2013/Organizers)
 </table>
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-01-28T18:49:36Z)</div>
 
 CategoryNews

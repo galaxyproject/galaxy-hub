@@ -1,3 +1,6 @@
+---
+date: 2016-10-03T15:10:48Z
+---
 <div class='newsItemHeader'>[October 2016 Galactic News](/News/2016_10GalaxyUpdate)</div>
 
 <div class='right'>
@@ -25,6 +28,5 @@ We hope to see you in Freiburg, Salt Lake, Melbourne, online, and around the wor
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-10-03T15:10:48Z)</div>
 
 CategoryNews

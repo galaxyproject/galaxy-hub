@@ -1,3 +1,6 @@
+---
+date: 2015-04-27T06:47:23Z
+---
 <div class='newsItemHeader'>[GCC2015 Registration is Open!](/News/GCC2015RegistrationOpen)</div>
 
 <div class='right'><a href='http://gcc2015.tsl.ac.uk/registration/'><img src='/Images/Logos/GCC2015LogoWide600.png' alt='GCC2015 Registration is open' width="220" /></a></div>
@@ -14,6 +17,5 @@ We apologize profusely for the delay in opening registration, and we thank you f
 
 PS: *And don't forget the [poster abstract](http://gcc2015.tsl.ac.uk/Abstracts) submission deadline is 1 May.* 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-04-27T06:47:23Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2015-02-13T21:11:47Z
+---
 <div class='newsItemHeader'>[Bioinformatics Methods in Genomics, Zagreb](/News/WorkshopZagreb201503)</div>
 
 <table>
@@ -24,6 +27,5 @@ Participants will get a broad overview of topics covering multiple facets of bio
 
 [Registration](https://www.eventbrite.com/e/bioinformatics-methods-in-genomics-free-lectures-and-workshop-tickets-15726413125?ref=ecount) is now open, and is *free*.  You may register for the different parts of the event separately.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-02-13T21:11:47Z)</div>
 
 CategoryNews

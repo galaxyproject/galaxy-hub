@@ -1,3 +1,6 @@
+---
+date: 2012-08-29T22:48:23Z
+---
 <div class='newsItemHeader'>[September 2012 Galaxy Update](/News/2012_09GalaxyUpdate)</div>
 
 <div class='right'><a href='/GalaxyUpdates/2012_09'><img src='/Images/Logos/GalaxyUpdate200.png' alt='September 2012 Galaxy Update' width=150 /></a></div>
@@ -19,6 +22,5 @@ If you have anything you would like to see in the October *[Galaxy Update](/Gala
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-08-29T22:48:23Z) </div>
 
 CategoryNews

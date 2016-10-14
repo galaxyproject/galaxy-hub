@@ -1,3 +1,6 @@
+---
+date: 2015-10-26T17:49:57Z
+---
 <div class='newsItemHeader'>[GCC2016 Training Topic Vote!](/News/GCC2016TrainingTopicVote)</div>
 
 <div class='right'>
@@ -30,6 +33,5 @@ Thanks,
 
 The [GCC2016 Exec](https://gcc2016.iu.edu/Oorganizers)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-10-26T17:49:57Z)</div>
 
 CategoryNews

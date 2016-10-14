@@ -1,3 +1,6 @@
+---
+date: 2014-12-09T18:13:54Z
+---
 <div class='newsItemHeader'>[GCC2015 Training Day Topic Nominations](/News/GCC2015TDNom)</div>
 
 <div class='right'><a href='http://gcc2015.tsl.ac.uk/training-day/'><img src='/Images/Logos/GCC2015LogoWide600.png' alt='GCC2015 Training Day' width="170" /></a></div>
@@ -18,6 +21,5 @@ Topics will then be selected and scheduled based on topic interest, and the orga
 
 [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-12-09T18:13:54Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2014-10-30T15:19:38Z
+---
 <div class='newsItemHeader'>[Bioinformaticians, Freiburg](/News/BioinformaticianFreiburg2014)</div>
 
 ---
@@ -48,6 +51,5 @@ around the corner and excellent research facilities all over the city.
 
 Please contact [Bjoern Gruening](/BjoernGruening) for further details.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-10-30T15:19:38Z)>>, updated on <<Date(2014-11-25T18:38:10Z)</div>
 
 CategoryNews

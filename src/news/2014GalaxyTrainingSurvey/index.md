@@ -1,3 +1,6 @@
+---
+date: 2013-08-05T17:26:37Z
+---
 <div class='newsItemHeader'>[2014 Galaxy Training Survey](/News/2014GalaxyTrainingSurvey)</div>
 
 <div class='right'><a href='http://bit.ly/gxy14training'><img src='/GalaxyTrainingSurvey.png' alt='Take the Galaxy training survey' width="350" /></a></div>
@@ -9,6 +12,5 @@ Thanks,
 [Dave Clements](/DaveClements)<br />
 Galaxy Training and Outreach
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-08-05T17:26:37Z)</div>
 
 CategoryNews

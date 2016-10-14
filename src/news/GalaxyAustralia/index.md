@@ -1,3 +1,6 @@
+---
+date: 2016-10-03T01:42:44Z
+---
 <div class='newsItemHeader'>[Galaxy Australia Community & GAMe 2017](/News/GalaxyAustralia)</div>
 
 <div class='right'> <a href='https://www.embl-abr.org.au/galaxyaustralia/'><img src='/Images/Logos/GalaxyAustralia.png' alt='Galaxy Australia Community' width="180" /></a>
@@ -35,6 +38,5 @@ We look forward to welcoming you to Melbourne. Remember to pack for our fabulous
 
 *[GAMe 2017 Organising Committee](https://www.embl-abr.org.au/game2017/organisers/)* (#game_2017)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-10-03T01:42:44Z)</div>
 
 CategoryNews

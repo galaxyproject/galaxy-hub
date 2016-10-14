@@ -1,3 +1,6 @@
+---
+date: 2016-08-23T19:53:32Z
+---
 <div class='newsItemHeader'>[Galaxy Admin Training, Nov 7-11](/News/GAT2016RegistrationOpen)</div>
 
 <div class='right solid center'>
@@ -34,6 +37,5 @@ We hope to see you in Salt Lake!
 
 The [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-08-23T19:53:32Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2014-10-31T20:51:39Z
+---
 <div class='newsItemHeader'>[Fall 2014 GUGGO Events Report](/News/GUGGOReportFall2014)</div>
 
 <div class='right'><a href='http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo'><img src='/Images/Logos/eBiogenouestLogo.png' alt='Galaxy User Group Grand Ouest (GUGGO)' width=200 /></a></div>
@@ -15,6 +18,5 @@ And [many more GUGGO resources](https://www.e-biogenouest.org/groups/guggo/resou
 [Cyril Monjeaud](https://www.e-biogenouest.org/members/1005)
 
 [Olivier Collin](https://www.e-biogenouest.org/members/1009)
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-10-31T20:51:39Z)</div>
 
 CategoryNews

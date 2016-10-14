@@ -1,3 +1,6 @@
+---
+date: 2012-06-13T18:25:22Z
+---
 <div class='newsItemHeader'>[New CloudMan Release](/News/NewCloudManRelease)</div>
 
 We just released an update to CloudMan. CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
@@ -22,6 +25,5 @@ This update comes as a result of 113 code changesets; for a complete list of cha
 
 Any new cluster will automatically start using this version of CloudMan. Existing clusters will be given an option to do an automatic update once the main interface page is refreshed.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-06-13T18:25:22Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2011-07-29T16:50:07Z
+---
 <div class='newsItemHeader'>[ISMB2011 Slides](/News/ISMB2011 Slides Now Available)</div>
 
 <div class='right'>[[<a href='/Events/ISMB-ECCB-BOSC 2011'><img src='/Images/Logos/BOSC_logo.png' alt='BOSC 2011' width="120" /></a>&nbsp;&nbsp;&nbsp;<a href='/Events/ISMB-ECCB-BOSC 2011'><img src='/Events/ISMB2011Logo80.png' alt='ISMB/ECCB 2011' /></a></div>
@@ -12,6 +15,5 @@ plus many more.
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2011-07-29T16:50:07Z)</div>
 
 CategoryNews

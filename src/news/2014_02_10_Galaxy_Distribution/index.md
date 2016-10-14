@@ -1,3 +1,6 @@
+---
+date: 2014-02-10T16:07:49Z
+---
 <div class='newsItemHeader'>[Feb 10, 2014 Galaxy Distribution](/News/2014_02_10_Galaxy_Distribution)</div>
 
 <div class='right'>
@@ -33,6 +36,5 @@ upgrade:   $ hg pull
 
 [The Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-02-10T16:07:49Z)</div>
 
 CategoryNews

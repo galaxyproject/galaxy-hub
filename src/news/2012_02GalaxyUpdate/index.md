@@ -1,3 +1,6 @@
+---
+date: 2012-01-31T19:24:34Z
+---
 <div class='newsItemHeader'>[February 2012 Galaxy Update](/News/2012_02GalaxyUpdate)</div>
 
 <div class='right'><a href='/GalaxyUpdates/2012_02'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
@@ -17,6 +20,5 @@ If you have anything you would like to see in the March *Galaxy Update*, please 
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-01-31T19:24:34Z)</div>
 
 CategoryNews

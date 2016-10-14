@@ -1,3 +1,6 @@
+---
+date: 2011-08-24T06:05:07Z
+---
 <div class='newsItemHeader'>[Updated GalaxyProject.org Site](/News/Updated GalaxyProject.org Site)</div>
 
 <div class='right'><a href='http://galaxyproject.org/'><img src='/Images/Screenshots/GalaxyProjectOrg.png' alt='GalaxyProject.org' /></a></div>
@@ -16,6 +19,5 @@ Thanks,
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2011-08-24T06:05:07Z)</div>
 
 CategoryNews

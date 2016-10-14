@@ -1,3 +1,6 @@
+---
+date: 2014-01-07T00:37:33Z
+---
 <div class='newsItemHeader'>[GCC2014 Training Day Topics: Vote!](/News/GCC2014TrainingDayVoting)</div>
 
 <div class='right'><a href='/Events/GCC2014/TrainingDay'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014 Training Day' width="150" /></a></div>
@@ -26,6 +29,5 @@ Thanks,
 
 The [GCC2014 Organizing Committee](/Events/GCC2014/Organizers)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-01-07T00:37:33Z)</div>
 
 CategoryNews

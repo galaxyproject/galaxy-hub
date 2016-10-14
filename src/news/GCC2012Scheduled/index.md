@@ -1,3 +1,6 @@
+---
+date: 2011-11-14T23:20:42Z
+---
 <div class='newsItemHeader'>[GCC 2012 is Scheduled!](/News/GCC2012 Scheduled)</div>
 
 <div class='right'><a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='GCC 2012' width="180" /></a></div>
@@ -12,6 +15,5 @@ Please reserve July 25-27 on your calendars!
 
 [Dave Clements](/DaveClements) and [Neil Bahroos](/NeilBahroos)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2011-11-14T23:20:42Z)</div>
 
 CategoryNews

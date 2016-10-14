@@ -1,3 +1,6 @@
+---
+date: 2011-08-22T17:06:09Z
+---
 <div class='newsItemHeader'>[Galaxy Public Servers Usage Quotas](/News/Galaxy Public Servers Usage Quotas)</div>
 
 User data and job [quota limits](/Test#quotas) are now implemented at the public [Galaxy Test instance](http://test.g2.bx.psu.edu):
@@ -39,6 +42,5 @@ While [no quotas](/Main#quotas) are currently implemented at the public Galaxy [
 
 If you find that you require additional resources, please consider alternative Galaxy options explained at [/Big Picture/Choices](/Big Picture/Choices).
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2011-08-22T17:06:09Z)</div>
 
 CategoryNews

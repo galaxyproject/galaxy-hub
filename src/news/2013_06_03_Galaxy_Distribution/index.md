@@ -1,3 +1,6 @@
+---
+date: 2013-06-03T21:16:46Z
+---
 <div class='newsItemHeader'>[June 3, 2013 Galaxy Distribution](/News/2013_06_03_Galaxy_Distribution)</div>
 <div class='right'>
 <a href='/DevNewsBriefs/2013_06_01'><img src='/Images/NewsGraphics/2013_06_03_scatterplot-1.png' alt='scatterplot' width=400 /></a></div>
@@ -33,6 +36,5 @@ upgrade: $ hg pull
 [The Galaxy Team](/Galaxy Team)
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-06-03T21:16:46Z)</div>
 
 CategoryNews

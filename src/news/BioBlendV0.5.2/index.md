@@ -1,3 +1,6 @@
+---
+date: 2014-10-17T16:05:05Z
+---
 <div class='newsItemHeader'>[BioBlend v0.5.2 Released](/News/BioBlendV0.5.2)</div>
 
 [BioBlend](https://github.com/afgane/bioblend) [v0.5.2](https://github.com/afgane/bioblend/blob/master/CHANGELOG.md) has been released.  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  (CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
@@ -22,6 +25,5 @@ Enjoy and please let us know what you think,
 
 [Enis](/EnisAfgan) & [John](/JohnChilton) & Simone Leo & Nicola Soranzo & [The Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-10-17T16:05:05Z)</div>
 
 CategoryNews

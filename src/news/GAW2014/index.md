@@ -1,3 +1,6 @@
+---
+date: 2014-01-17T19:05:44Z
+---
 <div class='newsItemHeader'>[Galaxy Australasia Workshop 2014](/News/GAW2014)</div>
 
 **The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](/Events/GAW2014) will be held in Melbourne, Australia on 24 and 25th March 2014.** 
@@ -42,6 +45,5 @@ Looking forward to seeing you all in Melbourne!
 
 [GAW 2014 Organising Committee](/Events/GAW2014#organising-committee)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-01-17T19:05:44Z)</div>
 
 CategoryNews

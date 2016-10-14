@@ -1,3 +1,6 @@
+---
+date: 2014-10-21T06:58:09Z
+---
 <div class='newsItemHeader'>[Swiss German Galaxy Tour 2014](/News/SG2014Report)</div>
 
 <div class='right'><a href='/Events/SG2014'><img src='/Images/Logos/SG2014Logo400.png' alt='Swiss-German Galaxy Tour 2014' width="180" /></a></div>
@@ -14,6 +17,5 @@ We would like to thank for the financial support we got from [SystemsX.ch](http:
 Running the event at two different places caused some logistical problems - some participants even learned about European geography. But the event was again a great success and we got a lot of great feedback. We are looking forward to the next Swiss German Galaxy Tour.
 
 [Björn](/BjoernGruening) and [Hans-Rudolf](/HansrudolfHotz)
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-10-21T06:58:09Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2014-12-01T08:58:11Z
+---
 <div class='newsItemHeader'>[December 2014 Galaxy Newsletter](/News/2014_12GalaxyUpdate)</div>
 
 <div class='right'>
@@ -18,6 +21,5 @@ As always there's a lot going on in the Galaxy this month.  "Like what?" you say
 
 [Dave Clements](/DaveClements) and the *crisp* [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-12-01T08:58:11Z) </div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2014-04-09T05:44:52Z
+---
 <div class='newsItemHeader'>[GAW2014 Conference Report](/News/GAW2014MeetingReport)</div>
 
 <div class='right'>
@@ -13,6 +16,5 @@ Cheers,
 
 [Ron Horst](https://www.yammer.com/australianbioinformaticsnetwork/users/rhorst-guest#/Threads/fromUser?type=from_user&feedId=1506414565)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-04-09T05:44:52Z)</div>
 
 CategoryNews

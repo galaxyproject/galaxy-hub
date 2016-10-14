@@ -1,3 +1,6 @@
+---
+date: 2011-06-11T05:20:39Z
+---
 <div class='newsItemHeader'>[Watch the GCC2011 Talks Online!](/News/Watch the GCC2011 Talks Online!)</div>
 
 <div class='right'><a href='/GCC2011'><img src='/Events/GCC2011LogoShort170.png' /></a></div>
@@ -7,6 +10,5 @@ We had several requests for this, and I would like to thank NBIC for making this
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2011-06-11T05:20:39Z)</div>
 
 CategoryNews

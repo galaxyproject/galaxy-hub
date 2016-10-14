@@ -1,3 +1,6 @@
+---
+date: 2015-03-02T16:23:57Z
+---
 <div class='newsItemHeader'>[The March 2015 Galaxy News](/News/2015_03GalaxyUpdate)</div>
 
 <div class='right'>
@@ -50,6 +53,5 @@ In addition, there is news on:
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-03-02T16:23:57Z) </div>
 
 CategoryNews

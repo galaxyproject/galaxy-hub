@@ -1,3 +1,6 @@
+---
+date: 2016-03-31T18:12:36Z
+---
 <div class='newsItemHeader'>[Galactic News! April Edition](/News/2016_04GalaxyUpdate)</div>
 
 <div class='right'>
@@ -42,6 +45,5 @@ Happy April,
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-03-31T18:12:36Z)</div>
 
 CategoryNews

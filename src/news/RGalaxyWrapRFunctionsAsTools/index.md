@@ -1,3 +1,6 @@
+---
+date: 2012-06-28T17:57:47Z
+---
 <div class='newsItemHeader'>[RGalaxy: Wrap R Functions as Tools](/News/RGalaxyWrapRFunctionsAsTools)</div>
 
 <div class='right'><a href='http://bioconductor.org/packages/2.11/bioc/html/RGalaxy.html'><img src='/Images/Logos/BioconductorLogo.gif' alt='RGalaxy Bioconductor Package' width="200" /></a></div>
@@ -20,6 +23,5 @@ Dan Tenenbaum<br />
 [Bioconductor Core Team](http://www.bioconductor.org/about/core-team/)<br />
 [Fred Hutchinson Cancer Research Center](http://www.fhcrc.org/)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-06-28T17:57:47Z)</div>
 
 CategoryNews

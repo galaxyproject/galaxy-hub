@@ -1,3 +1,6 @@
+---
+date: 2012-08-17T09:57:11Z
+---
 #acl +wikiAdminGroup:read,write,delete,revert,admin All:read
 
 <div class='noteItemHeader'>[Should we use spaces in title or not to have the best links](/Note/Ssmple How to do this cool thing)</div>
@@ -19,6 +22,5 @@ This page is of course just **brief** - 10 lines max. It should point to the pri
 
 [/JenniferJackson](/JenniferJackson)
 
-<div class='noteItemFooter'>Posted to [Galaxy Notes](/Notes) on PLACEHOLDER_DATE(2012-08-17T09:57:11Z)</div>
 
 CategoryNotes

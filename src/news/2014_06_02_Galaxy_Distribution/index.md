@@ -1,3 +1,6 @@
+---
+date: 2014-06-02T12:41:26Z
+---
 <div class='newsItemHeader'>[June 2, 2014 Galaxy Distribution](/News/2014_06_02_Galaxy_Distribution)</div>
 
 <div class='right'> <a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2014_06_02_dataset-collections-crop.png' alt='Dataset Collections Workflow Detail' width="400" /></a> <br /> *example dataset collection workflow ([credits](/DevNewsBriefs/2014_06_02#dataset_collections))* </div>
@@ -46,6 +49,5 @@
 
 [The Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-06-02T12:41:26Z)</div>
 
 CategoryNews

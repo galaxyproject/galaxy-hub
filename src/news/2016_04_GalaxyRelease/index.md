@@ -1,3 +1,6 @@
+---
+date: 2016-05-18T18:20:35Z
+---
 <div class='newsItemHeader'>[April 2016 Galaxy Release (v 16.04)](/News/2016_04_GalaxyRelease)</div>
 
 <div class='right'><a href='http://getgalaxy.org'><img src='/Images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png' alt='GalaxyProject' width="200" /></a></div>
@@ -41,6 +44,5 @@ Galaxy now detects and supports many molecular datatypes. See [PR 1941](https://
 ***Thanks for using Galaxy!***
 
 <br />
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-05-18T18:20:35Z)</div>
 
 CategoryNews

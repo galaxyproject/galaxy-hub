@@ -1,3 +1,6 @@
+---
+date: 2015-03-19T17:32:40Z
+---
 <div class='newsItemHeader'>[BioBlend v0.5.3 Released](/News/BioBlendV0.5.3)</div>
 
 <div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="200" /></a></div>
@@ -34,6 +37,5 @@ Enjoy and please let us know what you think,
 
 [Enis](/EnisAfgan) & [John](/JohnChilton) & [Nicola Soranzo](/NicolaSoranzo) & Simone Leo & [Eric Rasche](/EricRasche)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-03-19T17:32:40Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2014-08-11T19:01:10Z
+---
 <div class='newsItemHeader'>[August 11, 2014 Galaxy Distribution](/News/2014_08_11_Galaxy_Distribution)</div>
 <div class='left'><a href='http://getgalaxy.org'><img src='/Images/Logos/GetGalaxyOrg.png' alt=' ' width=150 /></a></div>
 <div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src='/Images/Logos/DockerInGalaxyAnnotated.png' alt=' ' width=280 /></a></div>
@@ -43,6 +46,5 @@
 
 [The Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-08-11T19:01:10Z)</div>
 
 CategoryNews

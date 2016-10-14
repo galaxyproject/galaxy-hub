@@ -1,3 +1,6 @@
+---
+date: 2015-08-20T22:22:34Z
+---
 <div class='newsItemHeader'>[Galaxy Google Calendars](/News/GalaxyGoogleCalendars)</div>
 
 If you want to know what events are happening in the Galaxy Community, the goto place has always been the [Galaxy Events page](/Events).  This lists any upcoming events we know about that feature Galaxy content.  This events list provides dates, locations, and contact information for each event.
@@ -18,6 +21,5 @@ And we will continue to link to past Galaxy events (and presentations, videos, e
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-08-20T22:22:34Z)</div>
 
 CategoryNews

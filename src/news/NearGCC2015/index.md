@@ -1,3 +1,6 @@
+---
+date: 2015-04-08T00:30:48Z
+---
 <div class='newsItemHeader'>[Events Aplenty Near GCC2015](/News/NearGCC2015)</div>
 
 Hello all,
@@ -106,6 +109,5 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is b
 </table>
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-04-08T00:30:48Z)>>, updated <<Date(2015-05-31T22:28:05Z) </div>
 
 CategoryNews

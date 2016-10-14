@@ -1,3 +1,6 @@
+---
+date: 2011-12-20T18:20:20Z
+---
 <div class='newsItemHeader'>[Custom Galaxy Search](/News/Custom Galaxy Search)</div>
 
 <div class='center'>
@@ -19,6 +22,5 @@ Thanks,
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2011-12-20T18:20:20Z)>>, updated <<Date(2016-08-11T22:15:23Z)</div>
 
 CategoryNews

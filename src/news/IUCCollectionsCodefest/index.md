@@ -1,3 +1,6 @@
+---
+date: 2015-09-29T21:20:49Z
+---
 <div class='newsItemHeader'>[First Online IUC Codefest](/News/IUCCollectionsCodefest)</div>
 
 <div class='right'><a href='https://github.com/galaxyproject/tools-iuc/issues/239'><img src='/Images/Icons/DatasetCollectionIconInForm.png' alt='' width="150" /></a>
@@ -35,6 +38,5 @@ We hope you all will enjoy the outcome of this Codefest and hope to see you at o
 
 [Your IUC](/IUC)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-09-29T21:20:49Z)</div>
 
 CategoryNews

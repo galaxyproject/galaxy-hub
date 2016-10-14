@@ -1,3 +1,6 @@
+---
+date: 2013-10-18T19:17:57Z
+---
 <div class='newsItemHeader'>[December Bioinformatics Boot Camps](/News/UCDavisBioinformaticsBootcamps)</div>
 
 **Registration is now open for [Bioinformatics Bootcamps in December](https://training.bioinformatics.ucdavis.edu/bootcamps/)!**
@@ -35,6 +38,5 @@ We hope to see you in December!
 
 [The UC Davis Bioinformatics Core Team](http://training.bioinformatics.ucdavis.edu)<br />
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-10-18T19:17:57Z)</div>
 
 CategoryNews

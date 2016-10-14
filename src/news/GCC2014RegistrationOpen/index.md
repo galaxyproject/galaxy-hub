@@ -1,3 +1,6 @@
+---
+date: 2014-02-14T20:52:36Z
+---
 <div class='newsItemHeader'>[Open! GCC2014 Registration & Abstracts](/News/GCC2014RegistrationOpen)</div>
 
 <div class='left'><a href='/Events/GCC2014'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014' height="180" /></a></div>
@@ -22,6 +25,5 @@ Thanks, and hope to see you in Baltimore!
 
 The [GCC2014 Organizing Committee](/Events/GCC2014/Organizers)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-02-14T20:52:36Z)</div>
 
 CategoryNews

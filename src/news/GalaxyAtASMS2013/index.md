@@ -1,3 +1,6 @@
+---
+date: 2013-04-19T16:47:40Z
+---
 <div class='newsItemHeader'>[Galaxy @ ASMS 2013](/News/GalaxyAtASMS2013)</div>
 
 <div class='right'><a href='/Events/ASMS2013'><img src='/Images/Logos/ASMS2013.jpg' alt='61st ASMS Conference on Mass Spectrometry and Allied Topics' width=200" /></a></div>
@@ -8,6 +11,5 @@ If you do research in proteomics than please consider attending.
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-04-19T16:47:40Z)</div>
 
 CategoryNews

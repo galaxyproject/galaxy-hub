@@ -1,3 +1,6 @@
+---
+date: 2013-05-15T17:07:12Z
+---
 <div class='newsItemHeader'>[Duplicate Accounts on Main](/News/DuplicateAccountsOnMain)</div>
 
 <div class='right'><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src='/Images/Logos/UseGalaxyOrgLogoShadow200.png' alt='Main's Terms of Use'  /></a><br /><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src='/Images/Logos/UseGalaxyOrgLogoShadow200.png' alt='Main's Terms of Use'  /></a></div>
@@ -17,6 +20,5 @@ Thanks,
 
 [The Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-05-15T17:07:12Z)</div>
 
 CategoryNews

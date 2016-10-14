@@ -1,3 +1,6 @@
+---
+date: 2014-08-29T11:43:55Z
+---
 <div class='newsItemHeader'>[September 2014 Galaxy News](/News/2014_09GalaxyUpdate)</div>
 
 <div class='right'>
@@ -24,6 +27,5 @@ Happy September,
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-08-29T11:43:55Z) </div>
 
 CategoryNews

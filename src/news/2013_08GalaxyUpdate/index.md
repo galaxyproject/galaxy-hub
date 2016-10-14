@@ -1,3 +1,6 @@
+---
+date: 2013-07-31T17:38:56Z
+---
 <div class='newsItemHeader'>[August 2013 Galaxy Update](/News/2013_08GalaxyUpdate)</div>
 
 <div class='right'><a href='/GalaxyUpdates/2013_08'><img src='/Images/Logos/GalaxyUpdate200.png' alt='August 2013 Galaxy Update' width=150 /></a></div>
@@ -21,6 +24,5 @@ If you have anything you would like to see in the next *[Galaxy Update](/GalaxyU
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-07-31T17:38:56Z) </div>
 
 CategoryNews

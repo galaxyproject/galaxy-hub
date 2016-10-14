@@ -1,3 +1,6 @@
+---
+date: 2016-01-04T21:11:00Z
+---
 <div class='newsItemHeader'>[January 2016 Galactic News](/News/2016_01GalaxyUpdate)</div>
 
 <div class='right'>
@@ -23,6 +26,5 @@ The **[January 2016 Galactic News](/GalaxyUpdates/2016_01)** is hot off the pres
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-01-04T21:11:00Z) </div>
 
 CategoryNews

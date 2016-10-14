@@ -1,3 +1,6 @@
+---
+date: 2011-10-25T16:28:54Z
+---
 <div class='newsItemHeader'>[Galaxy Main public instance: data and job quotas](/News/Galaxy Main public instance: data and job quotas)</div>
 
 <div class='right'><a href='http://usegalaxy.org/'><img src='/Images/Screenshots/GalaxyMainHome.png' alt='usegalaxy.org' width="200px" /></a></div>
@@ -26,6 +29,5 @@
 <br />
 For those users with current account disk usage over the quota limit, we will be implementing a step-down program over the next several weeks. Details for that program will be emailed to those users directly.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2011-10-25T16:28:54Z)</div>
 
 CategoryNews

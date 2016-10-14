@@ -1,3 +1,6 @@
+---
+date: 2011-12-02T18:30:03Z
+---
 <div class='newsItemHeader'>[New Galaxy-Announce Mailing List](/News/New Galaxy-Announce Mailing List)</div>
 <div class='right'>
 <a href='http://lists.bx.psu.edu/listinfo/galaxy-announce'><img src='/Images/Logos/MailmanLogoSmall.png' /></a>
@@ -15,6 +18,5 @@ To subscribe to the list please go to the [Galaxy-Announce Mailman page](http://
 See [/Mailing Lists](/Mailing Lists) for more information on this and other Galaxy mailing lists, including links to searchable archives of all Galaxy lists.
 
 [Dave Clements](/DaveClements)
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2011-12-02T18:30:03Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2012-12-03T20:33:44Z
+---
 <div class='newsItemHeader'>[Nominate GCC2013 Training Topics](/News/GCC2013TrainingDayNominations)</div>
 
 <div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' /></a><br />
@@ -13,6 +16,5 @@ Topic nomination closes 11 January.
 
 [GCC2013 Organizing Committee](/Events/GCC2013/Organizers#organizing-committee)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-12-03T20:33:44Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2015-05-11T16:14:40Z
+---
 <div class='newsItemHeader'>[May 2015 Galaxy Release (v 15.05)](/News/2015_53_GalaxyRelease)</div>
 
 <div class='right'><a href='http://getgalaxy.org'><img src='/Images/Logos/GetGalaxyOrg.png' alt='Get Galaxy!' width=175 /></a></div>
@@ -19,6 +22,5 @@ PLACEHOLDER_INCLUDE(/Admin/GetGalaxy/Short)
 *Thanks for using Galaxy!* <br />
 [The Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-05-11T16:14:40Z)</div>
 
 CategoryNews

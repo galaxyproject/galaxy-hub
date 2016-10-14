@@ -1,3 +1,6 @@
+---
+date: 2013-12-06T18:32:34Z
+---
 <div class='newsItemHeader'>[Galaxy Community Log Board](/News/CommunityLogBoard)</div>
 
 <div class='left'><a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' width="200" /></a></div>
@@ -18,6 +21,5 @@ The [Galaxy Community Log Board](/Community/Logs) describes how things can be do
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-12-06T18:32:34Z)</div>
 
 CategoryNews

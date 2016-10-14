@@ -1,3 +1,6 @@
+---
+date: 2012-04-25T16:20:23Z
+---
 <div class='newsItemHeader'>[Galaxy Tour de France 2012](/News/GalaxyTourDeFrance2012)</div>
 
 <div class='right'><a href='/Events/GalaxyTourDeFrance2012'><img src='/Images/Logos/GalaxyTourDeFranceMap.png' alt='Galaxy Tour de France 2012' height="200" /></a></div>
@@ -9,6 +12,5 @@ Workshop registration is free, but space at each venue is limited.  You are enco
 The Tour is generously sponsored and hosted by the [Laboratoire de Biologie Intégrative des Organismes Marins](http://biom.obs-banyuls.fr/fr/index.html), the [Laboratoire Biométrie et Biologie Evolutive](http://lbbe.univ-lyon1.fr/), and the [Inserm - Mines ParisTech - Institut Curie - Bioinformatics and Computational Systems Biology of Cancer](http://u900.curie.fr/).  Further support for the workshops is provided by an [Amazon Web Services (AWS) Education Grant](http://aws.amazon.com/education).
 
 [Dave Clements](/DaveClements)
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-04-25T16:20:23Z)</div>
 
 CategoryNews

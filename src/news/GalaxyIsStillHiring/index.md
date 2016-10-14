@@ -1,3 +1,6 @@
+---
+date: 2012-02-29T06:22:57Z
+---
 <div class='newsItemHeader'>[Galaxy is Still Hiring!](/News/GalaxyIsStillHiring)</div>
 
 Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, [is hiring](/GalaxyIsHiring).
@@ -23,6 +26,5 @@ The [Nekrutenko Lab](http://www.bx.psu.edu/~anton/) at the [Huck Institutes of L
 
 Please send your CV to [jobs AT galaxyproject DOT org](jobs AT galaxyproject DOT org).
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-02-29T06:22:57Z)</div>
 
 CategoryNews

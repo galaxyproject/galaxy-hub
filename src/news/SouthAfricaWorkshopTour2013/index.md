@@ -1,3 +1,6 @@
+---
+date: 2013-09-09T23:12:00Z
+---
 <div class='newsItemHeader'>[South Africa Workshop Tour 2013](/News/SouthAfricaWorkshopTour2013)</div>
 
 <table>
@@ -25,6 +28,5 @@ If you are interested, then please apply by 17 September!
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-09-09T23:12:00Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2016-01-13T21:11:18Z
+---
 <div class='newsItemHeader'>[Oct 2015 Galaxy Release (v 15.10)](/News/2015_10_GalaxyRelease)</div>
 
 <div class='right'><a href='http://getgalaxy.org'><img src='/Images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png' alt='GalaxyProject' width="200" /></a></div>
@@ -20,6 +23,5 @@
 *Thanks for using Galaxy!* <br />
 [The Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-01-13T21:11:18Z)</div>
 
 CategoryNews

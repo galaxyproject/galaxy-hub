@@ -1,3 +1,6 @@
+---
+date: 2012-06-28T20:47:26Z
+---
 <div class='newsItemHeader'>[Galaxy Workshops in South Africa](/News/GalaxyWorkshopsInSouthAfrica)</div>
 <div class='right'>
 <table>
@@ -35,6 +38,5 @@ In addition, there will be a keynote talk on Galaxy at the [South African Geneti
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-06-28T20:47:26Z)</div>
 
 CategoryNews

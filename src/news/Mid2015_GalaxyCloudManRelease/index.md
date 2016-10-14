@@ -1,3 +1,6 @@
+---
+date: 2015-09-03T13:42:43Z
+---
 <div class='newsItemHeader'>[Mid 2015 Galaxy CloudMan release](/News/Mid2015_GalaxyCloudManRelease)</div>
 
 <div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
@@ -14,6 +17,5 @@ This is the most complete update of the Galaxy on the Cloud platform to date wit
 
 See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes or just give it a try: see the all new [Getting Started](https://wiki.galaxyproject.org/CloudMan/GettingStarted) documentation. 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-09-03T13:42:43Z) </div>
 
 CategoryNews

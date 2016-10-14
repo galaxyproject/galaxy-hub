@@ -1,3 +1,6 @@
+---
+date: 2014-04-30T05:42:04Z
+---
 <div class='newsItemHeader'>[May 2014 Galaxy News](/News/2014_05GalaxyUpdate)</div>
 
 <div class='left'>
@@ -19,6 +22,5 @@ As always, there are [new papers](/GalaxyUpdates/2014_05#new-papers) (47 of them
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-04-30T05:42:04Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2014-04-23T18:55:56Z
+---
 <div class='newsItemHeader'>[Galaxy Biostar Launched](/News/GalaxyBiostarLaunch)</div>
 
 <div class='right'><a href='https://biostar.usegalaxy.org/'><img src='/Images/Logos/GalaxyBiostar.png' alt='Galaxy Biostar'  /></a></div>
@@ -33,6 +36,5 @@ We hope you will like the change and look forward to any feedback you may have.
 
 [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-04-23T18:55:56Z)</div>
 
 CategoryNews

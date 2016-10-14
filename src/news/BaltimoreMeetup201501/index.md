@@ -1,3 +1,6 @@
+---
+date: 2015-01-07T23:03:21Z
+---
 <div class='newsItemHeader'>[Baltimore Area Galaxy Meetup Jan 22](/News/BaltimoreMeetup201401)</div>
 
 Hey Everyone,
@@ -16,6 +19,5 @@ Thanks,
 
 [Enis Afgan](/EnisAfgan) and [Nitesh Turaga](/NiteshTuraga), of the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-01-07T23:03:21Z)</div>
 
 CategoryNews

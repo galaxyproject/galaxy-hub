@@ -1,3 +1,6 @@
+---
+date: 2014-04-18T04:18:23Z
+---
 <div class='newsItemHeader'>[Galaxy Hackathon at GCC2014](/News/GCC2014Hackathon)</div>
 
 <div class='right'><a href='/Events/GCC2014/Hackathon'><img src='/Images/Logos/GCC2014HackLogo200.png' alt='GCC2014 Hackathon' width="200" /></a></div>
@@ -16,6 +19,5 @@ We hope to see you in June, and can't wait to see what we can accomplish!
 
 -[Dannon Baker](/DannonBaker) on behalf of the [GCC2014 Hackathon Organizing Committee](/Events/GCC2014/Organizers#hackathon-committee)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-04-18T04:18:23Z)</div>
 
 CategoryNews

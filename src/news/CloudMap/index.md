@@ -1,3 +1,6 @@
+---
+date: 2012-10-15T15:54:39Z
+---
 <div class='newsItemHeader'>[CloudMap](/News/CloudMap)</div>
 
 <div class='right'><a href='http://www.genetics.org/content/early/2012/10/11/genetics.112.144204.1.abstract'><img src='/CloudMapFig6B.png' alt='' height="300px" /></a></div>
@@ -10,6 +13,5 @@ For details, see
 
 Greg Minevich and [Dan Blankenberg](/Dan)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-10-15T15:54:39Z)</div>
 
 CategoryNews

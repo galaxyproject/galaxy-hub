@@ -1,3 +1,6 @@
+---
+date: 2014-04-14T13:59:24Z
+---
 <div class='newsItemHeader'>[April 14, 2014 Galaxy Distribution](/News/2014_04_14_Galaxy_Distribution)</div>
 <div class='right'>
 <table>
@@ -50,6 +53,5 @@
 
 [The Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-04-14T13:59:24Z)</div>
 
 CategoryNews

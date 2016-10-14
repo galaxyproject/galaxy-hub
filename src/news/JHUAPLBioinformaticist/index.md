@@ -1,3 +1,6 @@
+---
+date: 2016-02-05T22:21:00Z
+---
 <div class='newsItemHeader'>[Bioinformaticist @ Johns Hopkins APL](/News/JHPAPLBioinformaticist)</div>
 
 <div class='right'><a href='https://jhuapl.taleo.net/careersection/2/jobdetail.ftl?job=11077'><img src='/Images/Logos/JHU_APL.png' alt='Bioinformaticist @ Johns Hopkins APL' /></a>
@@ -9,6 +12,5 @@ If you are a US citizen with Unix chops, programming experience, analysis skills
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2016-02-05T22:21:00Z)</div>
 
 CategoryNews

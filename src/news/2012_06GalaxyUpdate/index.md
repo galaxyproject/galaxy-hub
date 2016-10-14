@@ -1,3 +1,6 @@
+---
+date: 2012-06-01T17:14:17Z
+---
 <div class='newsItemHeader'>[June 2012 Galaxy Update](/News/2012_06GalaxyUpdate)</div>
 
 <div class='right'><a href='/GalaxyUpdates/2012_06'><img src='/Images/Logos/GalaxyUpdate200.png' alt='June 2012 Galaxy Update' width=150 /></a></div>
@@ -21,6 +24,5 @@ If you have anything you would like to see in the July *[Galaxy Update](/GalaxyU
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2012-06-01T17:14:17Z)</div>
 
 CategoryNews

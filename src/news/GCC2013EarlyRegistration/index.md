@@ -1,3 +1,6 @@
+---
+date: 2013-05-20T16:20:42Z
+---
 <div class='newsItemHeader'>[GCC2013 Early Registration Ends 24 May](/News/GCC2013EarlyRegistration)</div>
 
 Early registration saves *up to 75% off regular registration costs*, and is downright affordable, with combined registration ([Training Day](/Events/GCC2013/TrainingDay) + [main meeting](/Events/GCC2013/Program)) starting at ~ €95 for post-docs and students. Registering early also assures you a spot in the Training Day workshops you want to attend.  Once a Training Day session becomes full, it will be closed to new registrations.  Early registration closes 24 May. 
@@ -16,6 +19,5 @@ If you are a biologist or bioinformatician performing or enabling high-throughpu
 
 PS: And please help [get the word out](/Events/GCC2013/Promotion)!
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-05-20T16:20:42Z)</div>
 
 CategoryNews

@@ -1,3 +1,6 @@
+---
+date: 2015-03-09T16:53:35Z
+---
 <div class='newsItemHeader'>[GTN Joints GOBLET](/News/GTNJoinsGOBLET)</div>
 
 <div class='right'>
@@ -23,6 +26,5 @@ Many thanks to these GTN members for making this happen, and to the GOBLET Execu
 
 [Dave Clements](/DaveClements), on behalf of the [Galaxy Training Network](/Teach/Trainers)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2015-03-09T16:53:35Z)</div>
 
 CategoryNews

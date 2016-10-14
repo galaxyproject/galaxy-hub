@@ -1,3 +1,6 @@
+---
+date: 2011-06-17T04:44:06Z
+---
 <div class='newsItemHeader'>[Galaxy Workshops @ USC June 23-24](/News/Galaxy Workshops @ USC June 23-24)</div>
 
 <div class='right'>
@@ -16,6 +19,5 @@ There will be two Galaxy workshops at the University of Southern California (USC
   See the [USC ISI AI Seminar Page](http://ai.isi.edu/index.php?module=seminars/index&submodule=seminars/upcoming) for details on time and location.
     The recent reliance on computation in biology has created an informatics crisis for biomedical researchers: computational resources are often difficult to use, communicating techniques and experiments is challenging, and reproducibility is very limited. Galaxy is one approach for addressing these problems. [Galaxy](http://usegalaxy.org) is a popular Web-based platform for performing accessible, reproducible, and transparent genomics research. Galaxy provides a collaborative environment for performing complex analyses with automatic and unobtrusive provenance tracking; these features allow transparent sharing of both the precise computational details underlying an analysis and also intent, context, and narrative. Based on experiences with Galaxy, Jeremy will discuss some open problems that might be addressed using artificial intelligence methods and techniques.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2011-06-17T04:44:06Z)</div>
 
 CategoryNews

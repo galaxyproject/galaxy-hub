@@ -1,3 +1,6 @@
+---
+date: 2014-03-31T16:39:09Z
+---
 <div class='newsItemHeader'>[April 2014 Galaxy Update](/News/2014_04GalaxyUpdate)</div>
 
 <div class='right'>
@@ -24,6 +27,5 @@ If you have anything you would like to see in the next *[Galaxy Update](/GalaxyU
 
 [Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2014-03-31T16:39:09Z) </div>
 
 CategoryNews

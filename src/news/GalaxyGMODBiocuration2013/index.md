@@ -1,3 +1,6 @@
+---
+date: 2013-02-19T20:21:40Z
+---
 <div class='newsItemHeader'>[Galaxy, GMOD2013 & Biocuration 2013](/News/GalaxyGMODBiocuration2013)</div>
 
 <div class='left'><a href='/gmod:'><img src='/Images/Logos/GMODLogo.png' alt='GMOD Project' width="150" /></a></div>
@@ -16,6 +19,5 @@ Finally, [Biocuration 2013](http://www.ebi.ac.uk/biocuration2013/home) is immedi
 
 [Dave Clements](/DaveClements)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on PLACEHOLDER_DATE(2013-02-19T20:21:40Z)</div>
 
 CategoryNews
