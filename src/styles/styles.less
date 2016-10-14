@@ -108,3 +108,166 @@ footer {
 			color: @gray-dark;
 		}
 }
+
+/* Custom CSS for Galaxy wiki doc 
+   Most of this was initially copied from old wiki
+   https://wiki.galaxyproject.org/moin_static198/mandaring/style.custom.css
+
+   Classes should probably stay the same.
+   Setting for classes can change quite a bit.
+*/
+
+
+/* *******
+   Leftovers from MoinMoin.  Only used these because they were already in Moin. 
+ * *******/
+
+.red { background: #fcc; }
+.green { background: #cfc; }
+.blue { background: #ccf; }
+
+div.solid, div.dashed, div.dotted {
+    border: 2px solid #000;
+    padding: 0.5em;
+}
+div.solid { border-style: solid }
+div.dashed { border-style: dashed }
+div.dotted { border-style: dotted }
+div.light {
+    border-width: 1px;
+    border-color: gray;
+}
+
+
+/* *******
+   Custom styles for this site.
+ * *******/
+
+/* used to add a title to a page that appears like an H1, but is slightly larger and does not appear in TOC */
+div.title {
+    font-family: 'Hoefler Text','Georgia',serif;
+    font-weight: normal;
+    color: #023858;
+    font-size: 1.8em;
+    line-height: 1;
+    margin: 1em 0 0.5em 0;
+}
+
+/* right justified items */
+div.right {
+    float: right;
+    margin: 0 0 0.5em 0.5em;
+}
+
+/* right justified items */
+div.left {
+    float: left;
+    margin: 0 1.5em 1em 0;
+}
+
+div.indent {
+    margin-left: 2em;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+/* Link Boxes are like infobox's at wikipedia.  They are a list of links, in a box. */
+div.linkbox {
+    float: right;
+    margin: 0 0 0.5em 0.5em;
+    padding: 0 0.5em 0.5em 0.5em;
+    border: 1px solid gray;
+    background-color: #2C3143;
+    color: white;
+    font-size: 90%;
+    text-align: center;
+}
+
+div.linkbox hr {
+    padding: 0;
+    margin: 0.25em 0 0 0;
+    background-color: #fff;
+}
+
+div.linkbox p {
+    padding: 0;
+    margin: 0 0 0 0;
+}
+
+div.linkbox a:link {
+    color: white;
+}
+
+div.linkbox a:visited {
+    color: #d8d8d8;
+}
+
+
+
+/* CSS for News Items */
+div.newsItemHeader, div.noteItemHeader {
+    font-size: 140%;
+    margin-bottom: 1em;
+}
+div.newsItemHeader a, div.noteItemHeader a {
+    color: #273040;
+}
+div.newsItemFooter, div.noteItemFooter {
+    font-size: 90%;
+    font-style: italic;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Used on News page */
+div.newsItemList div.newsItemHeader, div.noteItemList div.noteItemHeader {
+    background-color: #eee; 
+    border: 1px solid #aaa; 
+    padding: 0.5em;
+    margin: 1em 0 0.7em 0;
+}
+    
+/* CSS for Deployment pages */
+div.dictbox, div.deploymentbox, div.logbox {
+    background-color: #36c;
+    float: right;
+    margin: 0 0 0.5em 0.5em;
+    padding: 0 0.5em 0.5em 0.5em;
+    border: 1px solid gray;
+    color: white;
+    font-size: 90%;
+    width: 25%;
+    line-height: 110%;
+}
+
+div.dictbox dt, div.deploymentbox dt, div.logbox dt {
+    margin-bottom: 0.2em;
+}
+div.dictbox dd, div.deploymentbox dd, div.logbox dd {
+    margin-left: 1em;
+}
+
+div.dictbox p, div.deploymentbox p, div.logbox p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+div.dictbox a:link, div.dictbox a:visited,
+div.deploymentbox a:link, div.deploymentbox a:visited, 
+div.logbox a:link, div.logbox a:visited {
+    color: #ccc;
+}
+
+div.linkbox a:visited {
+    color: #ddd;
+}
+
+
+
+
+
+
