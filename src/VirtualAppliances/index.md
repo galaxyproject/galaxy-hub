@@ -20,7 +20,7 @@ These virtual appliances are frequently used for training, or as tool demonstrat
 
 <div class='right'><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo400.png' alt='Amazon Web Services' width="200" /></a></div>
 
-[Amazon Web Services](http://aws.amozon.com)-based [Galaxy CloudMan instances](/CloudMan) use an *Amazon Machine Image (AMI)* (a type of VM specific to AWS) when creating Galaxy servers. Some appliances are available via AMIs.  Using Galaxy via AMIs will leverage Amazon's hardware resources and can potentially scale quite well. 
+[Amazon Web Services](http://aws.amazon.com)-based [Galaxy CloudMan instances](/CloudMan) use an *Amazon Machine Image (AMI)* (a type of VM specific to AWS) when creating Galaxy servers. Some appliances are available via AMIs.  Using Galaxy via AMIs will leverage Amazon's hardware resources and can potentially scale quite well. 
 
 <div class='left'><a href='https://www.virtualbox.org/wiki/Downloads'><img src='/Images/Logos/VirtualBox180.png' alt='Virtual Machine Images' width="100" /></a></div>
 
