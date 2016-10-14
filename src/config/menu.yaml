@@ -45,16 +45,16 @@
   links:
       - Get Galaxy:
         title: Get Galaxy
-        link: administration/GetGalaxy
+        link: Admin/GetGalaxy
       - Cloud:
         title: Cloud
         link: Cloud
       - Administration:
         title: Admin
-        link: administration
+        link: Admin
       - Tool Config:
         title: Tool Config
-        link: administration/Tools/ToolConfigSyntax
+        link: Admin/Tools/ToolConfigSyntax
       - Tool Shed:
         title: Tool Shed
         link: ToolShed
