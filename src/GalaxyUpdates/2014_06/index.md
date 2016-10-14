@@ -384,8 +384,8 @@ In no particular order:
 * *From [mb2013](http://toolshed.g2.bx.psu.edu/view/mb2013)*
   * [nepenthes_3dpca](http://toolshed.g2.bx.psu.edu/view/mb2013/nepenthes_3dpca): Tools for Principal Component Analysis
 
-* *From [jade](http://toolshed.g2.bx.psu.edu/view/jade/)*
-  * [abyss](http://toolshed.g2.bx.psu.edu/view/jade/abyss): abyss de novo assembler
+* *From [pug](http://toolshed.g2.bx.psu.edu/view/pug/)*
+  * [abyss](http://toolshed.g2.bx.psu.edu/view/pug/abyss): abyss de novo assembler
 
 * *From [fernando](http://toolshed.g2.bx.psu.edu/view/fernando/)*
   * [protein_funcional_analysis_similarities](http://toolshed.g2.bx.psu.edu/view/fernando/protein_funcional_analysis_similarities): Provides common characteristics among similar proteins.

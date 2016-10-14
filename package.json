@@ -12,7 +12,6 @@
     "bower": "^1.4.1",
     "bower-files": "^3.4.5",
     "coffee-script": "^1.10.0",
-    "jade": "^1.9.2",
     "lodash": "^3.6.0",
     "marked": "^0.3.3",
     "metalsmith": "^1.5.0",
@@ -22,8 +21,7 @@
     "metalsmith-collections": "^0.7.0",
     "metalsmith-filepath": "^1.0.1",
     "metalsmith-in-place": "^1.0.1",
-    "metalsmith-jade": "^0.0.4",
-    "metalsmith-layouts": "^1.0.0",
+    "metalsmith-layouts": "^1.6.5",
     "metalsmith-less": "^2.0.0",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-metadata": "^0.0.1",
@@ -33,6 +31,7 @@
     "metalsmith-uglify": "^1.0.1",
     "metalsmith-watch": "^1.0.0",
     "minimist": "^1.1.1",
-    "moment": "^2.10.0"
+    "moment": "^2.10.0",
+    "pug": "^2.0.0-beta6"
   }
 }

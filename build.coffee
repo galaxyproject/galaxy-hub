@@ -53,8 +53,8 @@ ms = metalsmith(__dirname)
         absolute: true
         permalinks: true
     .use require('metalsmith-layouts')
-        engine: "jade"
-        default: "default.jade",
+        engine: "pug"
+        default: "default.pug",
         pattern: "**/*.html"
         helpers:
             moment: require('moment')
