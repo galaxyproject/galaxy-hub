@@ -4,7 +4,7 @@ See the Planemo [documentation](http://planemo.readthedocs.org/en/latest/writing
 
 # GALAXY_SLOTS (for server admins)
 
-How you configure GALAXY_SLOTS depends on the cluster system being used. More about the subject on the [supported cluster systems page](/Admin/Config/Performance/Cluster).
+How you configure GALAXY_SLOTS depends on the cluster system being used. More about the subject on the [supported cluster systems page](../../../Admin/Config/Performance/Cluster).
 
 In all cases you need to include a parameter on your job_conf.xml that specifies the number of processes to be used for a given destination. If correctly defined your should see your GALAXY_SLOTS variable contain the specified value.
 

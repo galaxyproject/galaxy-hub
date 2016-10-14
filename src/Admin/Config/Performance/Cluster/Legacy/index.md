@@ -1,8 +1,8 @@
 ---
-autotoc: true
 title: Running Galaxy Tools on a Cluster
+autotoc: true
 ---
-PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
+PLACEHOLDER_INCLUDE(../../../../../Admin/Config/Performance/LinkBox)
 
 Galaxy is designed to run jobs on your local system by default, but it can be configured to run jobs on a cluster. The front-end Galaxy application runs on a single server as usual, but tools are run on cluster nodes instead.
 
@@ -10,7 +10,7 @@ Galaxy is designed to run jobs on your local system by default, but it can be co
 
 
 ```wiki red/solid/light
-This documentation applies to old Galaxy releases.  For the April 1, 2013 (tag `release_2013.04.01`) Galaxy release and newer, use the [current](/Admin/Config/Performance/Cluster) documentation.
+This documentation applies to old Galaxy releases.  For the April 1, 2013 (tag `release_2013.04.01`) Galaxy release and newer, use the [current](../../../../../Admin/Config/Performance/Cluster) documentation.
 ```
 
 
@@ -27,12 +27,12 @@ This documentation applies to old Galaxy releases.  For the April 1, 2013 (tag `
 
 
 
-<div class='left'><a href='http://www.drmaa.org'><img src='/Images/Logos/DRMAALogo200.png' alt='DRMAA' /></a></div>Galaxy is known to work with [TORQUE PBS](http://www.clusterresources.com/pages/products/torque-resource-manager.php), [Sun Grid Engine](http://gridengine.sunsource.net/), [Platform LSF](http://www.platform.com/workload-management/high-performance-computing), [PBS Pro](http://www.pbsworks.com/Product.aspx?id=1) and there's work in progress for [SLURM](https://computing.llnl.gov/linux/slurm/) (see this [blog post](http://mdahlo.blogspot.com/2011/06/galaxy-on-uppmax.html)). However, since Galaxy uses the [Distributed Resource Management Application API](http://www.drmaa.org), it should work with [any distributed resource manager (DRM) which implements the DRMAA](http://www.drmaa.org/implementations.php). Galaxy interfaces with these systems via [drmaa-python](http://code.google.com/p/drmaa-python/), although for legacy reasons, [pbs_python](https://subtrac.sara.nl/oss/pbs_python) can be used for TORQUE. If you successfully run Galaxy with another DRM, please let us know via an email to the [galaxy-dev mailing list](/MailingLists).
+<div class='left'><a href='http://www.drmaa.org'><img src="../../../../../Images/Logos/DRMAALogo200.png" alt="DRMAA" /></a></div>Galaxy is known to work with [TORQUE PBS](http://www.clusterresources.com/pages/products/torque-resource-manager.php), [Sun Grid Engine](http://gridengine.sunsource.net/), [Platform LSF](http://www.platform.com/workload-management/high-performance-computing), [PBS Pro](http://www.pbsworks.com/Product.aspx?id=1) and there's work in progress for [SLURM](https://computing.llnl.gov/linux/slurm/) (see this [blog post](http://mdahlo.blogspot.com/2011/06/galaxy-on-uppmax.html)). However, since Galaxy uses the [Distributed Resource Management Application API](http://www.drmaa.org), it should work with [any distributed resource manager (DRM) which implements the DRMAA](http://www.drmaa.org/implementations.php). Galaxy interfaces with these systems via [drmaa-python](http://code.google.com/p/drmaa-python/), although for legacy reasons, [pbs_python](https://subtrac.sara.nl/oss/pbs_python) can be used for TORQUE. If you successfully run Galaxy with another DRM, please let us know via an email to the [galaxy-dev mailing list](../../../../../MailingLists).
 
 
 
 
-Galaxy contributor John Chilton has also written [Pulsar](/Admin/Config/Pulsar) which does not require an existing cluster or a shared filesystem and can also run jobs on Windows hosts. Please see the README included with Pulsar for instructions on how to set it up.
+Galaxy contributor John Chilton has also written [Pulsar](../../../../../Admin/Config/Pulsar) which does not require an existing cluster or a shared filesystem and can also run jobs on Windows hosts. Please see the README included with Pulsar for instructions on how to set it up.
 
 
 
@@ -71,7 +71,7 @@ The drmaa egg is provided by Galaxy, but you must tell it where your resource ma
 
 
 
-pbs_python is dependent upon TORQUE and is not provided by Galaxy. You must "scramble" it yourself (for more information on Galaxy's Python Egg dependencies, see the [Eggs](/Admin/Config/Eggs) page). Fortunately, this process should be simple:
+pbs_python is dependent upon TORQUE and is not provided by Galaxy. You must "scramble" it yourself (for more information on Galaxy's Python Egg dependencies, see the [Eggs](../../../../../Admin/Config/Eggs) page). Fortunately, this process should be simple:
 
 
 
@@ -453,7 +453,7 @@ Or, if you want a tool to use a different DRM server or queue than the default s
 
 
 
-You can also control which job handler will be used via the similarly named [galaxy:tool_handlers] configuration section.  The synax on the left hand of the assignment (tool_id[params]) syntax is identical to the tool_runners options.  On the right hand of the assignment, you can specify which handler should be used to handle jobs for the specified tool/params.  More details about how to configure multiple job handlers can be found on the [/Admin/Config/Performance/Scaling](/Admin/Config/Performance/Scaling) page.
+You can also control which job handler will be used via the similarly named [galaxy:tool_handlers] configuration section.  The synax on the left hand of the assignment (tool_id[params]) syntax is identical to the tool_runners options.  On the right hand of the assignment, you can specify which handler should be used to handle jobs for the specified tool/params.  More details about how to configure multiple job handlers can be found on the [Admin/Config/Performance/Scaling](../../../../../Admin/Config/Performance/Scaling) page.
 
 
 
@@ -525,4 +525,4 @@ If your sudo config contains `Defaults    requiretty`, this option must be disab
 
 
 
-Some maintenance and support of this code will be provided via the usual [/Support](/Support) channels, but improvements and fixes would be greatly welcomed, as this is a complex feature which is not used by the Galaxy Development Team.
+Some maintenance and support of this code will be provided via the usual [Support](../../../../../Support) channels, but improvements and fixes would be greatly welcomed, as this is a complex feature which is not used by the Galaxy Development Team.
