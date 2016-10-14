@@ -1,3 +1,6 @@
+---
+date: 2011-08-30T22:27:39Z
+---
 # June 23, 2011 Galaxy Development News Brief
 
 ---
@@ -163,4 +166,3 @@ Join us at **Twitter**
 
 
 ---
--- JenniferJackson PLACEHOLDER_DATE_TIME(2011-08-30T22:27:39Z)
