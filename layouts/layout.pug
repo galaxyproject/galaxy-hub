@@ -55,9 +55,9 @@ body
                                             each val in entry.links
                                                 li
                                                     if val.link.substring(0,4) == "http"
-                                                        a( href="#{val.link}" ) #{val.title}
+                                                        a( href=val.link ) #{val.title}
                                                     else
-                                                       a( href="/#{val.link}/" ) #{val.title}
+                                                       a( href="/" + val.link + "/" ) #{val.title}
                                 else
                                     li: a( href="#") #{entry.title}
 
