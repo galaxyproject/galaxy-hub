@@ -1,5 +1,5 @@
 ---
-pagetitle: [RNAmapper](http://www.rnamapper.org/)
+title: [RNAmapper](http://www.rnamapper.org/)
 ---
 <div class='center'>
 <a href='http://www.rnamapper.org/'><img src='/RNAmapperLogo.png' alt='RNAmapper'  /></a>

@@ -1,5 +1,5 @@
 ---
-pagetitle: [GalaxyAdmins](/Community/GalaxyAdmins),  GCC2015 Meetup
+title: [GalaxyAdmins](/Community/GalaxyAdmins),  GCC2015 Meetup
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 

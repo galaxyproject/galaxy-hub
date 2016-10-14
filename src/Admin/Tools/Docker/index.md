@@ -1,5 +1,5 @@
 ---
-pagetitle: Docker Integration
+title: Docker Integration
 ---
 
 <div class='right'><a href='http://getgalaxy.org/'><img src='/Images/Logos/DockerInGalaxyAnnotated.png' alt=' ' width=300 /></a></div>

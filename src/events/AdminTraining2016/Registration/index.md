@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Admin Training Registration
+title: Galaxy Admin Training Registration
 ---
 PLACEHOLDER_INCLUDE(/Events/AdminTraining2016/Header)
 

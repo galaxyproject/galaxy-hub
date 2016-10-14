@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy, -, Admins
+title: Galaxy, -, Admins
 ---
 <div class='center'>![](/Images/GalaxyLogos/GalaxyAdmins.png)</div>
 

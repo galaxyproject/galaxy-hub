@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy NGS 101
+title: Galaxy NGS 101
 ---
 
 

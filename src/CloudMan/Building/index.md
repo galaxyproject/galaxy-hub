@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Building Galaxy , !, CloudMan components
+title: Building Galaxy , !, CloudMan components
 ---
 PLACEHOLDER_INCLUDE(/CloudMan/Header)
 

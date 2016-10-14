@@ -1,5 +1,5 @@
 ---
-pagetitle: South Africa Galaxy Workshop Tour 2013
+title: South Africa Galaxy Workshop Tour 2013
 ---
 <div class='center'>
 ![2013 South Africa Galaxy Workshop Tour](/Images/Logos/SAGalaxyWorkshopTour2013Wide.png)

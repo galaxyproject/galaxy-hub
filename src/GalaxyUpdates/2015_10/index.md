@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: The October 2015 Galactic News, !
+title: The October 2015 Galactic News, !
 ---
 
 

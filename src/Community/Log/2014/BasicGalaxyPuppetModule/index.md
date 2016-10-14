@@ -1,5 +1,5 @@
 ---
-pagetitle: 2014, /, 03, :,  Basic Galaxy Puppet Module
+title: 2014, /, 03, :,  Basic Galaxy Puppet Module
 ---
 
 

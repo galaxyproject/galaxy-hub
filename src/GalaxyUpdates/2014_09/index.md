@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: September 2014 Galaxy Update
+title: September 2014 Galaxy Update
 ---
 
 

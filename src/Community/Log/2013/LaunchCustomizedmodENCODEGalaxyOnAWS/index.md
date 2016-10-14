@@ -1,5 +1,5 @@
 ---
-pagetitle: 2013, /, 01, :,  Launch a customized modENCODE Galaxy on Amazon Web Services
+title: 2013, /, 01, :,  Launch a customized modENCODE Galaxy on Amazon Web Services
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-pagetitle: Training Day Virtual Machine Images
+title: Training Day Virtual Machine Images
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 <br /><br />

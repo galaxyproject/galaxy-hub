@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy Admin Training Logistics
+title: Galaxy Admin Training Logistics
 ---
 PLACEHOLDER_INCLUDE(/Events/AdminTraining2016/Header)
 

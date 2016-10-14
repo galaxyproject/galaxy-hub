@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Notices about , [/Main](/Main)
+title: Notices about , [/Main](/Main)
 ---
 
  

@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy Release and Update Process
+title: Galaxy Release and Update Process
 ---
 
 

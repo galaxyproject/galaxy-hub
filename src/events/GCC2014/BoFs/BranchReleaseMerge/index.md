@@ -1,5 +1,5 @@
 ---
-pagetitle: Doing the Branch, ,,  Release, ,,  and Merge Waltz
+title: Doing the Branch, ,,  Release, ,,  and Merge Waltz
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 

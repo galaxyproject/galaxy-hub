@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy API and Extending it, ;,  Workflow Enhancements
+title: Galaxy API and Extending it, ;,  Workflow Enhancements
 ---
 PLACEHOLDER_INCLUDE(../../../PageHeader)
 

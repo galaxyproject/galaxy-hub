@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Scaling and Load Balancing
+title: Scaling and Load Balancing
 ---
 
 PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)

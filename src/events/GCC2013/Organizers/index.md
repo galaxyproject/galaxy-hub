@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Organizers
+title: Organizers
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 

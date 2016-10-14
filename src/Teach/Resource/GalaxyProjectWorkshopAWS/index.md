@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Project Workshop CloudMan on AWS Share
+title: Galaxy Project Workshop CloudMan on AWS Share
 ---
 <span style="font-size: larger;"> Hey! This Is Under Construction! </span>
 

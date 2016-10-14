@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy on Twitter
+title: Galaxy on Twitter
 ---
 
 

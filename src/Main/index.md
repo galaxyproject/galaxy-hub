@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Public Galaxy Main Instance , (, [usegalaxy.org](https://usegalaxy.org), )
+title: Public Galaxy Main Instance , (, [usegalaxy.org](https://usegalaxy.org), )
 ---
 <div class='center'>
 <a href='http://usegalaxy.org'><img src='/Images/Logos/UseGalaxy.orgLogo600.png' alt='usegalaxy.org (Main)' width="400" /></a>

@@ -1,5 +1,5 @@
 ---
-pagetitle: !, DataHack Roundup
+title: !, DataHack Roundup
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 

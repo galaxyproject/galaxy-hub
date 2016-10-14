@@ -1,5 +1,5 @@
 ---
-pagetitle: May 2015 Penn State RNA, -, Seq Galaxy Workshop
+title: May 2015 Penn State RNA, -, Seq Galaxy Workshop
 ---
 <div class='center'>![Galaxy Meetup @ Penn State](/Events/Meetups/PSU/PSUMeetupLogo600.png)</div>
 

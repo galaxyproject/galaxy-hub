@@ -1,5 +1,5 @@
 ---
-pagetitle: Register
+title: Register
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 

@@ -1,5 +1,5 @@
 ---
-pagetitle: Introduction to Galaxy for Next Generation Sequencing Analysis
+title: Introduction to Galaxy for Next Generation Sequencing Analysis
 ---
 <div class='center'>
 <a href='http://www.pennstatehershey.org/web/college'><img src='/Images/Logos/PSUMedicine.png' alt='Penn State University College of Medicine' width="400" /></a>

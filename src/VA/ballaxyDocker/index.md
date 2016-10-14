@@ -1,5 +1,5 @@
 ---
-pagetitle: ballaxy
+title: ballaxy
 ---
 <div class='center'>
 <a href='http://www.ball-project.org/ballaxy'><img src='/PublicGalaxyServers/BallaxySlide.png' alt='ballaxy' height="200" /></a>

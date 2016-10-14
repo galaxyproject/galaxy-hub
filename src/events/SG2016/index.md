@@ -1,5 +1,5 @@
 ---
-pagetitle: Swiss German Galaxy Tour, /, Day 2016
+title: Swiss German Galaxy Tour, /, Day 2016
 ---
 PLACEHOLDER_INCLUDE(/Events/SG2016/Header)
 

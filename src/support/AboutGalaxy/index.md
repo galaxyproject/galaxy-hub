@@ -1,5 +1,5 @@
 ---
-pagetitle: Support, :,  About Galaxy
+title: Support, :,  About Galaxy
 ---
 <div class='right'>PLACEHOLDER_INCLUDE(/Support/LinkBox)</div>
 

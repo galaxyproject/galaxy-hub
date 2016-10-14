@@ -1,5 +1,5 @@
 ---
-pagetitle: Day 0, ,,  July 25
+title: Day 0, ,,  July 25
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 

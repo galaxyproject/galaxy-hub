@@ -1,5 +1,5 @@
 ---
-pagetitle: Friends of the Tool Shed
+title: Friends of the Tool Shed
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 

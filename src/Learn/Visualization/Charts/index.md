@@ -1,5 +1,5 @@
 ---
-pagetitle: Visualization with Charts
+title: Visualization with Charts
 ---
 
 

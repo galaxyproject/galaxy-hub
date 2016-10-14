@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy on the Cloud
+title: Galaxy on the Cloud
 ---
 
 

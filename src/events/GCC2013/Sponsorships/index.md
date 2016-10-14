@@ -1,5 +1,5 @@
 ---
-pagetitle: Sponsorships
+title: Sponsorships
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 

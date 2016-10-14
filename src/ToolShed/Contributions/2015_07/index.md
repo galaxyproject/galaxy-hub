@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: June and July 2015 Tool Shed Contributions
+title: June and July 2015 Tool Shed Contributions
 ---
 
 

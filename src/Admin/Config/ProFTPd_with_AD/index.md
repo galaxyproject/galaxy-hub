@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Setting up ProFTPd for galaxy uploads in an Active Directory environment
+title: Setting up ProFTPd for galaxy uploads in an Active Directory environment
 ---
 
 

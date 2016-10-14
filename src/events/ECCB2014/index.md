@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy at ECCB, ', 14
+title: Galaxy at ECCB, ', 14
 ---
 <div class='center'> 
 <a href='http://www.eccb14.org/'><img src='/Images/Logos/ECCB2014Logo.png' alt='Galaxy at ECCB'14 / JOBIM' height="120" /></a>

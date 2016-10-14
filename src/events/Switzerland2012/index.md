@@ -1,5 +1,5 @@
 ---
-pagetitle:  Swiss Galaxy Workshop, ,,  Wednesday, ,,  October 3rd, ,,  Bern 
+title:  Swiss Galaxy Workshop, ,,  Wednesday, ,,  October 3rd, ,,  Bern 
 ---
 <div class='center'>
 

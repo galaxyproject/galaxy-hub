@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: May 2012 Galaxy Update
+title: May 2012 Galaxy Update
 ---
 
 

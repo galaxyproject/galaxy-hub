@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: GCC2014 Program
+title: GCC2014 Program
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 

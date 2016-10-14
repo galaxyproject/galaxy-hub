@@ -1,5 +1,5 @@
 ---
-pagetitle: !, MetaPhlAn
+title: !, MetaPhlAn
 ---
 
 

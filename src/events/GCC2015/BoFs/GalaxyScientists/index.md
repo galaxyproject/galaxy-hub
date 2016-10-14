@@ -1,5 +1,5 @@
 ---
-pagetitle: GalaxyScientists
+title: GalaxyScientists
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 

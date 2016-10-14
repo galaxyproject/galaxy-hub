@@ -1,5 +1,5 @@
 ---
-pagetitle: [Galaxy Freiburg Hands-On Training](https://github.com/bgruening/training-material)
+title: [Galaxy Freiburg Hands-On Training](https://github.com/bgruening/training-material)
 ---
 <div class='center'>
 <a href='https://github.com/bgruening/training-material'><img src='/Freiburg-Galaxy-Team.png' alt='Freiburg-Galaxy-Team' height="100" /></a>

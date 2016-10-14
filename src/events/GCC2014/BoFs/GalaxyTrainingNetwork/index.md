@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Training Network
+title: Galaxy Training Network
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 

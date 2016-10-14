@@ -1,5 +1,5 @@
 ---
-pagetitle: Birds of a Feather , (, BoF, ),  Flock Together at , [GCC2015](http://gcc2015.tsl.ac.uk/)
+title: Birds of a Feather , (, BoF, ),  Flock Together at , [GCC2015](http://gcc2015.tsl.ac.uk/)
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 

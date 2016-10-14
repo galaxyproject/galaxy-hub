@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Publicly Accessible Galaxy Servers
+title: Publicly Accessible Galaxy Servers
 ---
 <div class='center'>![80+ Public Galaxy Servers](/PublicGalaxyServers/80PlusSlide.png)</div>
 

@@ -1,5 +1,5 @@
 ---
-pagetitle: Proteomics BoF
+title: Proteomics BoF
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 

@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Teaching Hub
+title: Galaxy Teaching Hub
 ---
 PLACEHOLDER_INCLUDE(/Teach/Header)
 

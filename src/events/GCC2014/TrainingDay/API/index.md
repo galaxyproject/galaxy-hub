@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Automation, :,  Using the API
+title: Galaxy Automation, :,  Using the API
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 <br /><br />

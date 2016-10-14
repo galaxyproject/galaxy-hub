@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Visualization in Galaxy
+title: Visualization in Galaxy
 ---
 
 

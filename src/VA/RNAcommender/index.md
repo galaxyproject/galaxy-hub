@@ -1,5 +1,5 @@
 ---
-pagetitle: RNAcommender
+title: RNAcommender
 ---
 <div class='center'>
 <a href='http://rnacommender.disi.unitn.it/'><img src='/RNAcommenderLogo.png' alt='RNAcommender' height="200" /></a>

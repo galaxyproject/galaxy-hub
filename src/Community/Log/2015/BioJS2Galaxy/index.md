@@ -1,5 +1,5 @@
 ---
-pagetitle: 2015, /, 07, :,  , [BioJS2Galaxy - A step by step guide](http://www.benjamenwhite.com/2015/07/biojs2galaxy-a-step-by-step-guide/)
+title: 2015, /, 07, :,  , [BioJS2Galaxy - A step by step guide](http://www.benjamenwhite.com/2015/07/biojs2galaxy-a-step-by-step-guide/)
 ---
 <div class='center'>
 <a href='http://www.benjamenwhite.com/2015/07/biojs2galaxy-a-step-by-step-guide/'><img src='/Images/Logos/BioJS.png' alt='BioJS2Galaxy - A step by step guide' width="150" /></a>

@@ -1,5 +1,5 @@
 ---
-pagetitle: deepTools
+title: deepTools
 ---
 
 

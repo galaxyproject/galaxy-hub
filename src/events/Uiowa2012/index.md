@@ -1,5 +1,5 @@
 ---
-pagetitle: Introduction to Galaxy
+title: Introduction to Galaxy
 ---
 <div class='center'>
 

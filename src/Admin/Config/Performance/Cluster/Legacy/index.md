@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Running Galaxy Tools on a Cluster
+title: Running Galaxy Tools on a Cluster
 ---
 PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
 

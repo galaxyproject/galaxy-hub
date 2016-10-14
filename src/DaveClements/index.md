@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Dave Clements
+title: Dave Clements
 ---
 
 

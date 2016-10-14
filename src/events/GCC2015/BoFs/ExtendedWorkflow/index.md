@@ -1,5 +1,5 @@
 ---
-pagetitle: Extended Workflows
+title: Extended Workflows
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 

@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: It, ', s a new year in the Galaxy, !
+title: It, ', s a new year in the Galaxy, !
 ---
 
 

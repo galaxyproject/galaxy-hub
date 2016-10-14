@@ -1,5 +1,5 @@
 ---
-pagetitle: [UC Davis Using Galaxy for Analysis of High Throughput Sequence Data Workshop](http://training.bioinformatics.ucdavis.edu/docs/2014/06/june-2014-workshop/)
+title: [UC Davis Using Galaxy for Analysis of High Throughput Sequence Data Workshop](http://training.bioinformatics.ucdavis.edu/docs/2014/06/june-2014-workshop/)
 ---
 <div class='center'>
 <a href='http://bioinformatics.ucdavis.edu/'><img src='/Images/Logos/UCDavisGenomeCenter.png' alt='UC Davis Bioinformatics Core' height="100" /></a>

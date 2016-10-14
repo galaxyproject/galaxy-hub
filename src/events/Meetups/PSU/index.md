@@ -1,5 +1,5 @@
 ---
-pagetitle: Home of Penn State Community Galaxy Project Meetups, !
+title: Home of Penn State Community Galaxy Project Meetups, !
 ---
 <div class='center'>![Galaxy Meetup @ Penn State](/Events/Meetups/PSU/PSUMeetupLogo600.png)</div>
 

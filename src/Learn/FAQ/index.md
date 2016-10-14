@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: [Frequently Asked Questions](/FAQs),  for Using Galaxy
+title: [Frequently Asked Questions](/FAQs),  for Using Galaxy
 ---
 PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 PLACEHOLDER_INCLUDE(/FAQs/LinkBox)

@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Histories
+title: Histories
 ---
 
 

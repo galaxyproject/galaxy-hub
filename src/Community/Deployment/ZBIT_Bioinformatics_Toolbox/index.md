@@ -1,5 +1,5 @@
 ---
-pagetitle: ZBIT Bioinformatics Toolbox
+title: ZBIT Bioinformatics Toolbox
 ---
 <div class='center'>
 <a href='http://webservices.cs.uni.tuebingen.de/'><img src='/webservices_logo_compact_border.png' alt='ZBIT Bioinformatics Toolbox' height="100" /></a>

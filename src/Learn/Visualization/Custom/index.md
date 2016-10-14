@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Custom Visualizations
+title: Galaxy Custom Visualizations
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Custom Genomes
+title: Custom Genomes
 ---
 
 

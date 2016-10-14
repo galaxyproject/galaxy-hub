@@ -1,5 +1,5 @@
 ---
-pagetitle: 2015, /, 06, :,  , [Exposing Galaxy reports via nginx in a production instance](http://galacticengineer.blogspot.co.uk/2015/06/exposing-galaxy-reports-via-nginx-in.html)
+title: 2015, /, 06, :,  , [Exposing Galaxy reports via nginx in a production instance](http://galacticengineer.blogspot.co.uk/2015/06/exposing-galaxy-reports-via-nginx-in.html)
 ---
 <div class='center'><a href='http://galacticengineer.blogspot.co.uk/'><img src='/Images/GalacticEngineerHeader.png' alt='Galaxy Engineer Blog from Peter Briggs at the University of Manchester' width="60%" /></a></div>
 

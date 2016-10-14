@@ -1,5 +1,5 @@
 ---
-pagetitle: [Galaxy Community UK (GCUK)](http://galaxy-community.org.uk/)
+title: [Galaxy Community UK (GCUK)](http://galaxy-community.org.uk/)
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 

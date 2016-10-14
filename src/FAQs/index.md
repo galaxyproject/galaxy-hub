@@ -1,5 +1,5 @@
 ---
-pagetitle: Frequently asked questions , (, FAQs, ),  about Galaxy
+title: Frequently asked questions , (, FAQs, ),  about Galaxy
 ---
 PLACEHOLDER_INCLUDE(LinkBox)
 

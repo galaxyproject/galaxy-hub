@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy on Jetstream
+title: Galaxy on Jetstream
 ---
 
 PLACEHOLDER_INCLUDE(LinkBox)

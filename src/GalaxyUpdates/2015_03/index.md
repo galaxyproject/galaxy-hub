@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: The March 2015 Galaxy News
+title: The March 2015 Galaxy News
 ---
 
 

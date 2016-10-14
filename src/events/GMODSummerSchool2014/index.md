@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: GMOD Summer School 2014, :,  Installing Galaxy
+title: GMOD Summer School 2014, :,  Installing Galaxy
 ---
 
 

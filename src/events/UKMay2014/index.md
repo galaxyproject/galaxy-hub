@@ -1,5 +1,5 @@
 ---
-pagetitle: United Kingdom May 2014 Galaxy Tour
+title: United Kingdom May 2014 Galaxy Tour
 ---
 <div class='center'>![](/Images/Logos/UKMay2014Tour.png)</div>
 

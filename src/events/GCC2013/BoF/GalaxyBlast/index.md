@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy wrappers for NCBI BLAST, +,  BoF
+title: Galaxy wrappers for NCBI BLAST, +,  BoF
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 

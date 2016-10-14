@@ -1,5 +1,5 @@
 ---
-pagetitle:  2nd Swiss Galaxy Workshop, ,,  Wednesday, ,,  October 1st, ,,  Bern 
+title:  2nd Swiss Galaxy Workshop, ,,  Wednesday, ,,  October 1st, ,,  Bern 
 ---
 PLACEHOLDER_INCLUDE(/Events/SG2014/Header)
 

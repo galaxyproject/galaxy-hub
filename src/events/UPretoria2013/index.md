@@ -1,5 +1,5 @@
 ---
-pagetitle: NGS Data Analysis and Galaxy Workshop
+title: NGS Data Analysis and Galaxy Workshop
 ---
 <div class='center'>
 <table>

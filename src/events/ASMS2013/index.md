@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: [61st ASMS Conference on Mass Spectrometry and Allied Topics](http://www.asms.org/conferences/annual-conference)
+title: [61st ASMS Conference on Mass Spectrometry and Allied Topics](http://www.asms.org/conferences/annual-conference)
 ---
 <div class='center'>
 

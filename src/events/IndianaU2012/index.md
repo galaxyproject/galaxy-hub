@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Seminar and Workshops , @,  Indiana University Bloomington, :,  October 19, ,,  2012
+title: Galaxy Seminar and Workshops , @,  Indiana University Bloomington, :,  October 19, ,,  2012
 ---
 <div class='center'>
 

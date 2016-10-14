@@ -1,5 +1,5 @@
 ---
-pagetitle: 2013, /, 10, :,  Using , [BioServices](http://pythonhosted.org/bioservices/index.html),  Python Library , [with Galaxy](http://pythonhosted.org/bioservices/applications.html#galaxy)
+title: 2013, /, 10, :,  Using , [BioServices](http://pythonhosted.org/bioservices/index.html),  Python Library , [with Galaxy](http://pythonhosted.org/bioservices/applications.html#galaxy)
 ---
 
 

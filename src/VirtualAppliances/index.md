@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Virtual Appliances
+title: Virtual Appliances
 ---
 <span style="font-size: larger;"> Hey!  This page is under construction! </span>
 

@@ -1,5 +1,5 @@
 ---
-pagetitle: [GCC2012](/Events/GCC2012),  Photos
+title: [GCC2012](/Events/GCC2012),  Photos
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 

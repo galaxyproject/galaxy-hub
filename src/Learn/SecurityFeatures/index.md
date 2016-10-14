@@ -1,5 +1,5 @@
 ---
-pagetitle: Data Security in Galaxy
+title: Data Security in Galaxy
 ---
 PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 

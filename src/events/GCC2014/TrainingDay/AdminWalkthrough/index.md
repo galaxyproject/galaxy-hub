@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Tutorial, :,  Galaxy Installation and Administration
+title: Tutorial, :,  Galaxy Installation and Administration
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 <br /><br />

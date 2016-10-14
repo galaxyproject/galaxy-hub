@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Test Instance
+title: Galaxy Test Instance
 ---
 
 

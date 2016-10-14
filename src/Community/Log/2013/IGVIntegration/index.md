@@ -1,5 +1,5 @@
 ---
-pagetitle: 2013, /, 10, :,  IGV Integration
+title: 2013, /, 10, :,  IGV Integration
 ---
 
 

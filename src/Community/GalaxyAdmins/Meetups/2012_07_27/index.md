@@ -1,5 +1,5 @@
 ---
-pagetitle: [GalaxyCzars](/Community/GalaxyAdmins),  , [GCC2012 Breakout Session](/Events/GCC2012)
+title: [GalaxyCzars](/Community/GalaxyAdmins),  , [GCC2012 Breakout Session](/Events/GCC2012)
 ---
 <div class='center'>
 <a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' /></a> &nbsp;&nbsp;&nbsp;

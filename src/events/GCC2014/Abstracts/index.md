@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Abstracts
+title: Abstracts
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 

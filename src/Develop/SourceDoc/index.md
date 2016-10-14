@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Source Code Documentation
+title: Galaxy Source Code Documentation
 ---
 
 

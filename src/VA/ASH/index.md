@@ -1,5 +1,5 @@
 ---
-pagetitle: [Automated Selection of Hotspots (ASH) VM](http://bioinformatics.erasmusmc.nl/wiki/index.php/Automated_Selection_of_Hotspots)
+title: [Automated Selection of Hotspots (ASH) VM](http://bioinformatics.erasmusmc.nl/wiki/index.php/Automated_Selection_of_Hotspots)
 ---
 <div class='center'>
 <a href='http://bioinformatics.erasmusmc.nl/wiki/index.php/Automated_Selection_of_Hotspots'><img src='/Images/Logos/ERasmusBioinformatics.jpg' alt='Erasmus Center for Bioinformatics' height="200" /></a>

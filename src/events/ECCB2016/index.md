@@ -1,5 +1,5 @@
 ---
-pagetitle:  Galaxy , @,  , [ECCB 2016](http://www.eccb2016.org/)
+title:  Galaxy , @,  , [ECCB 2016](http://www.eccb2016.org/)
 ---
 <div class='center'>
 

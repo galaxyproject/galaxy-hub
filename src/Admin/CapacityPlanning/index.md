@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Capacity Planning
+title: Galaxy Capacity Planning
 ---
 PLACEHOLDER_INCLUDE(/Under Construction)
 

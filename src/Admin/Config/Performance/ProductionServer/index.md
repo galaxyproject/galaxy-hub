@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Running Galaxy in a production environment
+title: Running Galaxy in a production environment
 ---
 PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
 

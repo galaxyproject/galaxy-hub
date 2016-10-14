@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Tour de France 2012
+title: Galaxy Tour de France 2012
 ---
 <div class='center'>![Galaxy Tour de France 2012](/Images/Logos/GalaxyTourDeFranceMap.png)</div>
 

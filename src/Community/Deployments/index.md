@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy Deployment Catalog
+title: Galaxy Deployment Catalog
 ---
 
 

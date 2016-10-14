@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Logistics
+title: Logistics
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 

@@ -1,5 +1,5 @@
 ---
-pagetitle: [DDBJ Read Annotation Pipeline](https://p.ddbj.nig.ac.jp/pipeline/Login.do)
+title: [DDBJ Read Annotation Pipeline](https://p.ddbj.nig.ac.jp/pipeline/Login.do)
 ---
 <div class='center'>
 <a href='https://p.ddbj.nig.ac.jp/pipeline/Login.do'><img src='/DDBJ-RAP-Banner.png' alt='DDBJ Read Annotation Pipeline'  /></a>

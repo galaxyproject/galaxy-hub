@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Learn Galaxy
+title: Learn Galaxy
 ---
 <div class='center'>
 <a href='http://usegalaxy.org/galaxy101'><img src='/Galaxy101Page.png' alt='Galaxy 101' height="160" /></a>&nbsp;&nbsp; <a href='Screencasts'><img src='/ScreencastsThumb.png' alt='Screencasts' height="160" /></a>&nbsp;&nbsp; <a href='#shared-pages-histories--workflows'><img src='/SharedHistoriesThumb.png' alt='Shared Pages, Histories, & Workflows' height="160" /></a>

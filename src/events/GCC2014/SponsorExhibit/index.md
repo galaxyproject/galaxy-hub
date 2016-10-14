@@ -1,5 +1,5 @@
 ---
-pagetitle: Sponsorships and Exhibitors
+title: Sponsorships and Exhibitors
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 

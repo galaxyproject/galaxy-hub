@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy Australasia Workshop 2014 , (, GAW 2014, )
+title: Galaxy Australasia Workshop 2014 , (, GAW 2014, )
 ---
 <div class='center'>
 <a href='http://australianbioinformatics.net/gaw-2014'><img src='/Images/Logos/GAW2014-400.png' alt='Galaxy Australasia Workshop 2014 (GAW2014)'  /></a>

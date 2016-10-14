@@ -1,5 +1,5 @@
 ---
-pagetitle: Jan 22, ,,  2015 Baltimore Area Galaxy Meetup , @,  Johns Hopkins
+title: Jan 22, ,,  2015 Baltimore Area Galaxy Meetup , @,  Johns Hopkins
 ---
 <div class='center'>![Galaxy Baltimore Meetups](../GalaxyBaltimoreMeetupLogo400.png)<br /><br />
 <span style="font-size: larger;"> We are full! </span>

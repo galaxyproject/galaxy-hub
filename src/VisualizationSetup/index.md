@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: How to Set Up Visualizations in a Galaxy Instance
+title: How to Set Up Visualizations in a Galaxy Instance
 ---
 
 

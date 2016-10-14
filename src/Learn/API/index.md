@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy Application Programming Interface , (, API, )
+title: Galaxy Application Programming Interface , (, API, )
 ---
 PLACEHOLDER_INCLUDE(../LinkBox)
 

@@ -1,5 +1,5 @@
 ---
-pagetitle: [GalaxyAdmins](/Community/GalaxyAdmins),  BoF
+title: [GalaxyAdmins](/Community/GalaxyAdmins),  BoF
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 

@@ -1,5 +1,5 @@
 ---
-pagetitle:  3rd Swiss Galaxy Workshop, ,,  Thursday, ,,  October 20th, ,,  Freiburg , (, Germany, ),  
+title:  3rd Swiss Galaxy Workshop, ,,  Thursday, ,,  October 20th, ,,  Freiburg , (, Germany, ),  
 ---
 PLACEHOLDER_INCLUDE(/Events/SG2016/Header)
 

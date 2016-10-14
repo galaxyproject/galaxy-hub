@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galactic December News, !
+title: Galactic December News, !
 ---
 
 

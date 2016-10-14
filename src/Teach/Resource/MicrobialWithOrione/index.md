@@ -1,5 +1,5 @@
 ---
-pagetitle: Microbial analysis with Orione
+title: Microbial analysis with Orione
 ---
 <div class='center'>
 <a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Orione-live-supplement'><img src='/PublicGalaxyServers/OrioneLogo.png' alt='Microbial analysis with Orione' height="200" /></a>

@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Training Network Meetup
+title: Galaxy Training Network Meetup
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 

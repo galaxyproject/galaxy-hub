@@ -1,5 +1,5 @@
 ---
-pagetitle: [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote)
+title: [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote)
 ---
 
 

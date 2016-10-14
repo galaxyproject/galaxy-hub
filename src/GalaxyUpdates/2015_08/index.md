@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: The August 2015 Galactic News, !
+title: The August 2015 Galactic News, !
 ---
 
 

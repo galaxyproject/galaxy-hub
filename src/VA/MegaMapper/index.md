@@ -1,5 +1,5 @@
 ---
-pagetitle: [MegaMapper](https://wiki.med.harvard.edu/SysBio/Megason/MegaMapper)
+title: [MegaMapper](https://wiki.med.harvard.edu/SysBio/Megason/MegaMapper)
 ---
 <div class='center'>
 <a href='http://linkToVirtApplOrOrg'><img src='/MegasonLabLogo.png' alt='MegaMapper'  /></a>

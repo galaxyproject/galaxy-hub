@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Abstract submission is now closed
+title: Abstract submission is now closed
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 

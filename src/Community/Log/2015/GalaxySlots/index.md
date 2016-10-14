@@ -1,5 +1,5 @@
 ---
-pagetitle: [2015/04: Using GALAXY_SLOTS with multithreaded Galaxy tools ](http://galacticengineer.blogspot.co.uk/2015/04/using-galaxyslots-for-multithreaded_22.html)
+title: [2015/04: Using GALAXY_SLOTS with multithreaded Galaxy tools ](http://galacticengineer.blogspot.co.uk/2015/04/using-galaxyslots-for-multithreaded_22.html)
 ---
 <div class='center'>![Galaxy Engineer Blog from Peter Briggs at the University of Manchester](/Images/Logos/UManchesterLogo.jpg)</div>
 

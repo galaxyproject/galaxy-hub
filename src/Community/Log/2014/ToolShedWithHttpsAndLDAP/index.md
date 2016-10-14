@@ -1,5 +1,5 @@
 ---
-pagetitle: 2014, /, 06, :,  Local Tool Shed with https and LDAP
+title: 2014, /, 06, :,  Local Tool Shed with https and LDAP
 ---
 
 

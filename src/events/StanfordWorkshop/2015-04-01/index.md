@@ -1,5 +1,5 @@
 ---
-pagetitle: April 1, ,,  2015 Galaxy Workshop at Stanford University
+title: April 1, ,,  2015 Galaxy Workshop at Stanford University
 ---
 <div class='center'>![Galaxy Meetup @ Penn State](/Events/Meetups/PSU/PSUMeetupLogo600.png)</div>
 

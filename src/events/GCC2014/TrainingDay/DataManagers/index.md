@@ -1,5 +1,5 @@
 ---
-pagetitle: Tool Development from bright idea to toolshed , -,  Data Managers
+title: Tool Development from bright idea to toolshed , -,  Data Managers
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 <br /><br />

@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy , @,  , [PAG 2014](http://www.intlpag.org/),  and , [GMOD 2014](http://gmod.org/wiki/Jan_2014_GMOD_Meeting)
+title: Galaxy , @,  , [PAG 2014](http://www.intlpag.org/),  and , [GMOD 2014](http://gmod.org/wiki/Jan_2014_GMOD_Meeting)
 ---
 <div class='center'><a href='http://www.intlpag.org/'><img src='/Images/Logos/PAGLogo300.png' alt='Galaxy @ Plant and Animal Genome (PAG 2014)' height="100" /></a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'><img src='/Images/Logos/GMOD2014.png' alt='2014 GMOD Meeting' height="90" /></a> 
 </div>

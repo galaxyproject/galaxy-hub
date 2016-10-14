@@ -1,5 +1,5 @@
 ---
-pagetitle: Careers with the Galaxy Project, :,  Software Engineers and Postdoctoral Researchers
+title: Careers with the Galaxy Project, :,  Software Engineers and Postdoctoral Researchers
 ---
 <div class='center'>![Galaxy wants YOU, damnit](/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png)</div>
 

@@ -1,5 +1,5 @@
 ---
-pagetitle: 2014, /, 01, :,  LDAP remoteUser Logout
+title: 2014, /, 01, :,  LDAP remoteUser Logout
 ---
 
 

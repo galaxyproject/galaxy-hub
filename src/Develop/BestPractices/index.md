@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Software Development Best Practices
+title: Galaxy Software Development Best Practices
 ---
 PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
 

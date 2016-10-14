@@ -1,5 +1,5 @@
 ---
-pagetitle: Video Viz
+title: Video Viz
 ---
 
 

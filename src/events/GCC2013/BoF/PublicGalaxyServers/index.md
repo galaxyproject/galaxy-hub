@@ -1,5 +1,5 @@
 ---
-pagetitle: Public Galaxy Servers BoF
+title: Public Galaxy Servers BoF
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 

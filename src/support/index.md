@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Support
+title: Support
 ---
 #acl WikiAdminGroup:read,write,revert All:read
 

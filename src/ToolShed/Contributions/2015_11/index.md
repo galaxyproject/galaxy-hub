@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: October, -, November 2015 Tool Shed Contributions
+title: October, -, November 2015 Tool Shed Contributions
 ---
 
 

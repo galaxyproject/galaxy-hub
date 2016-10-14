@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle:  Galaxy Project Workshop 2015 
+title:  Galaxy Project Workshop 2015 
 ---
 
 

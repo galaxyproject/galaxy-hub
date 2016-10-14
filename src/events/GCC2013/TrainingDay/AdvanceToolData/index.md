@@ -1,5 +1,5 @@
 ---
-pagetitle: GCC2013 Training Day
+title: GCC2013 Training Day
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 

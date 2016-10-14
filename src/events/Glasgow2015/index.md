@@ -1,5 +1,5 @@
 ---
-pagetitle: Introduction to Galaxy Workshop
+title: Introduction to Galaxy Workshop
 ---
 <div class='center'>
 <a href='http://www.polyomics.gla.ac.uk/'><img src='/Images/Logos/GlasgowPolyomics.jpg' alt='Glasgow Polyomics' height="140" /></a>

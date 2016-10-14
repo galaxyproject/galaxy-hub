@@ -1,5 +1,5 @@
 ---
-pagetitle: 2015, /, 10, :,  , [Galaxy Tool Generating Dataset Collections](http://web.science.mq.edu.au/~cassidy/wordpress/2015/10/21/galaxy-tool-generating-datasets/)
+title: 2015, /, 10, :,  , [Galaxy Tool Generating Dataset Collections](http://web.science.mq.edu.au/~cassidy/wordpress/2015/10/21/galaxy-tool-generating-datasets/)
 ---
 <div class='center'><a href='http://alveo.edu.au/'><img src='/Images/Logos/AlveoBig.png' alt='Alveo Project' width="150" /></a></div>
 

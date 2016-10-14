@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: The April 2015 Galactic News, !
+title: The April 2015 Galactic News, !
 ---
 
 

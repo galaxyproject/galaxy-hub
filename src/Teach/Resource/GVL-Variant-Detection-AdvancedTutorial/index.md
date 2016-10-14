@@ -1,5 +1,5 @@
 ---
-pagetitle: [GVL Variant Detection Advanced Tutorial](https://docs.google.com/document/pub?id=1CuKkKylVDb03tnN7RSWl5EUzleetn0ctjmvaidPKLxM)
+title: [GVL Variant Detection Advanced Tutorial](https://docs.google.com/document/pub?id=1CuKkKylVDb03tnN7RSWl5EUzleetn0ctjmvaidPKLxM)
 ---
 <div class='center'>
 <a href='https://docs.google.com/document/pub?id=1CuKkKylVDb03tnN7RSWl5EUzleetn0ctjmvaidPKLxM'><img src='/PublicGalaxyServers/GenomicsVirtualLab300.png' alt='Variant Detection Advanced Tutorial' height="200" /></a>

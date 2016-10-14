@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Frequently Asked Questions for Galaxy Administration
+title: Frequently Asked Questions for Galaxy Administration
 ---
 PLACEHOLDER_INCLUDE(/Admin/LinkBox) 
 PLACEHOLDER_INCLUDE(/FAQs/LinkBox)

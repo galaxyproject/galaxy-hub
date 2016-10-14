@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy Trainer Directory
+title: Galaxy Trainer Directory
 ---
 PLACEHOLDER_INCLUDE(/Teach/Header)
 

@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: 2012, /, 07, /, 09 Conference Call
+title: 2012, /, 07, /, 09 Conference Call
 ---
 <div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
 

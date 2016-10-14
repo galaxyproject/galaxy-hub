@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: August 2015 Tool Shed Contributions
+title: August 2015 Tool Shed Contributions
 ---
 
 

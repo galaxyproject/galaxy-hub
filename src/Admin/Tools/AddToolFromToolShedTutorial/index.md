@@ -1,5 +1,5 @@
 ---
-pagetitle: Installing Tools into Galaxy from Tool Shed
+title: Installing Tools into Galaxy from Tool Shed
 ---
 PLACEHOLDER_INCLUDE(/Admin/LinkBox)
 PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)

@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy Terminology
+title: Galaxy Terminology
 ---
 
 PLACEHOLDER_INCLUDE(/Under Construction)

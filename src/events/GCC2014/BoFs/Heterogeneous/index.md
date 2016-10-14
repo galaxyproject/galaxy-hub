@@ -1,5 +1,5 @@
 ---
-pagetitle: Using Galaxy with Heterogeneous and Remote Resources
+title: Using Galaxy with Heterogeneous and Remote Resources
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 

@@ -1,5 +1,5 @@
 ---
-pagetitle: Photos
+title: Photos
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 

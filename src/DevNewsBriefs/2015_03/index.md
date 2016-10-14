@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: March 2015 Galaxy Release , (, v 15, ., 03, )
+title: March 2015 Galaxy Release , (, v 15, ., 03, )
 ---
 <div class='right'></div>
 [All News Briefs](/DevNewsBriefs)

@@ -1,5 +1,5 @@
 ---
-pagetitle: Automation strategies for Data, ,,  Tools, ,,  , &,  Config
+title: Automation strategies for Data, ,,  Tools, ,,  , &,  Config
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 

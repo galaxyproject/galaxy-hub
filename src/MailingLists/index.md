@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy Mailing Lists
+title: Galaxy Mailing Lists
 ---
 
 PLACEHOLDER_INCLUDE(/Support/LinkBox)

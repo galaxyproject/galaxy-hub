@@ -1,5 +1,5 @@
 ---
-pagetitle: 2013, /, 05, :,  Creating a Galaxy tool for R scripts that output images and PDFs
+title: 2013, /, 05, :,  Creating a Galaxy tool for R scripts that output images and PDFs
 ---
 
 

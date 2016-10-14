@@ -1,5 +1,5 @@
 ---
-pagetitle: Log Entries for 2013
+title: Log Entries for 2013
 ---
 
 

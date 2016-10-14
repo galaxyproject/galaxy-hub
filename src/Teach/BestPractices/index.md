@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Teaching with Galaxy, :,  Best Practices
+title: Teaching with Galaxy, :,  Best Practices
 ---
 PLACEHOLDER_INCLUDE(/Teach/Header)
 

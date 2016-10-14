@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy Event Horizon
+title: Galaxy Event Horizon
 ---
 
 

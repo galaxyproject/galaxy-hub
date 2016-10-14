@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Commercial Galaxy Support
+title: Commercial Galaxy Support
 ---
 <div class='right'></div>
 

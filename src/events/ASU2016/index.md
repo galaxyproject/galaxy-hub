@@ -1,5 +1,5 @@
 ---
-pagetitle: Introduction to Galaxy Workshop
+title: Introduction to Galaxy Workshop
 ---
 <div class='center'>
 <a href='https://clas.asu.edu/biokic'><img src='/Images/Logos/ASUBioKIC_600.png' alt='Biodiversity Knowledge Integration Center' width="400" /></a>

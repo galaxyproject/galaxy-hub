@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Admin Training, :,  Advanced Topics
+title: Galaxy Admin Training, :,  Advanced Topics
 ---
 PLACEHOLDER_INCLUDE(/Events/AdminTraining2016/Header)
 

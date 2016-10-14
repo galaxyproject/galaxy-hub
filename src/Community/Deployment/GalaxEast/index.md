@@ -1,5 +1,5 @@
 ---
-pagetitle: [GalaxyEast](http://www.galaxeast.fr)
+title: [GalaxyEast](http://www.galaxeast.fr)
 ---
 <div class='center'>
 <a href='http://www.galaxeast.fr'><img src='/PublicGalaxyServers/GalaxEast.png' alt='GalaxEast' height="200" /></a>

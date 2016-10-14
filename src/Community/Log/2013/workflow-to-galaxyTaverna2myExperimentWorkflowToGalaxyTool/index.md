@@ -1,5 +1,5 @@
 ---
-pagetitle: 2013, /, 01, :,  Create Galaxy Tool from Taverna 2 Workflow
+title: 2013, /, 01, :,  Create Galaxy Tool from Taverna 2 Workflow
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-pagetitle: [deepTools](http://deeptools.ie-freiburg.mpg.de/)
+title: [deepTools](http://deeptools.ie-freiburg.mpg.de/)
 ---
 <div class='center'>
 <a href='http://deeptools.ie-freiburg.mpg.de/'><img src='/PublicGalaxyServers/deepTools.png' alt='deepTools' height="200" /></a>

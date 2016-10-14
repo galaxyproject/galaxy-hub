@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy Admin Training, :,  Basic Topics
+title: Galaxy Admin Training, :,  Basic Topics
 ---
 PLACEHOLDER_INCLUDE(/Events/AdminTraining2016/Header)
 

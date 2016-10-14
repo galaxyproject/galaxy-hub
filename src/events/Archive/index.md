@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Beyond the , [Galaxy Event Horizon](/Events)
+title: Beyond the , [Galaxy Event Horizon](/Events)
 ---
 
 

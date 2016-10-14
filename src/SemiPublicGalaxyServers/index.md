@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Semi, -, Public Galaxy Services
+title: Semi, -, Public Galaxy Services
 ---
 <div class='right'>
 <table>

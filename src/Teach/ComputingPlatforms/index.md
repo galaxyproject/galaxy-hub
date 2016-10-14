@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Computing Platforms for Teaching with Galaxy
+title: Computing Platforms for Teaching with Galaxy
 ---
 PLACEHOLDER_INCLUDE(/Teach/Header)
 

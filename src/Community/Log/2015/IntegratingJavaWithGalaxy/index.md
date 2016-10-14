@@ -1,5 +1,5 @@
 ---
-pagetitle: 2015, /, 02, :,  , [Integrating a Java Program in Galaxy](http://plindenbaum.blogspot.com/2015/02/integrating-java-program-in-usegalaxy.html)
+title: 2015, /, 02, :,  , [Integrating a Java Program in Galaxy](http://plindenbaum.blogspot.com/2015/02/integrating-java-program-in-usegalaxy.html)
 ---
 <div class='center'><a href='http://plindenbaum.blogspot.com/2015/02/integrating-java-program-in-usegalaxy.html'><img src='/Images/Logos/JavaLogoWide.png' alt='Integrating a Java Program in Galaxy' width="200" /></a></div>
 

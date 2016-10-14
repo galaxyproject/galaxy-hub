@@ -1,5 +1,5 @@
 ---
-pagetitle: Name of Deployment
+title: Name of Deployment
 ---
 <div class='center'>
 <a href='http://symd.nci.nih.gov/'><img src='/PublicGalaxyServers/SymD.png' alt='SymD @ National Cancer Institute' height="200" /></a>

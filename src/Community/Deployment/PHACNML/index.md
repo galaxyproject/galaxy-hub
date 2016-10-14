@@ -1,5 +1,5 @@
 ---
-pagetitle: PHAC NML Galaxy
+title: PHAC NML Galaxy
 ---
 <div class='center'>
 <a href='https://www.nml-lnm.gc.ca/index-eng.htm'><img src='/MapleLeaf.png' alt='Public Health Agency of Canada - National Microbiology Laboratory' height="200" /></a>

@@ -1,5 +1,5 @@
 ---
-pagetitle: 2013, /, 10, :,  Sharing workflows between servers, :,  Practices
+title: 2013, /, 10, :,  Sharing workflows between servers, :,  Practices
 ---
 
 

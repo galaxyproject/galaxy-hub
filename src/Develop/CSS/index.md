@@ -1,5 +1,5 @@
 ---
-pagetitle:  CSS Practices 
+title:  CSS Practices 
 ---
 PLACEHOLDER_INCLUDE(/Develop/LinkBox)
 

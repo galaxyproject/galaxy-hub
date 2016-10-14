@@ -1,5 +1,5 @@
 ---
-pagetitle: [GCC2012](/Events/GCC2012),  Organizing Committee
+title: [GCC2012](/Events/GCC2012),  Organizing Committee
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 

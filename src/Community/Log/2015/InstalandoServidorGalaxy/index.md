@@ -1,5 +1,5 @@
 ---
-pagetitle: 2015, /, 02, :,  , [Instalando um servidor do Galaxy Project](https://biscassi.wordpress.com/category/galaxy-project/)
+title: 2015, /, 02, :,  , [Instalando um servidor do Galaxy Project](https://biscassi.wordpress.com/category/galaxy-project/)
 ---
 
 

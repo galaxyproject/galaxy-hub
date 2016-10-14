@@ -1,5 +1,5 @@
 ---
-pagetitle: [UC Davis Bioinformatics Core Training Galaxy](/Teach/Resource/UCDavisCoreAMI)
+title: [UC Davis Bioinformatics Core Training Galaxy](/Teach/Resource/UCDavisCoreAMI)
 ---
 <div class='center'>
 <a href='/Teach/Resource/UCDavisCoreAMI'><img src='/Images/Logos/UCDavisGenomeCenter.png' alt='UC Davis Bioinformatics Core Training Galaxy' width="350" /></a>

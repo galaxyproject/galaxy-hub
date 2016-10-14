@@ -1,5 +1,5 @@
 ---
-pagetitle: Bitbucket repositories
+title: Bitbucket repositories
 ---
 PLACEHOLDER_INCLUDE(/Develop/LinkBox)
 

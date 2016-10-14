@@ -1,5 +1,5 @@
 ---
-pagetitle: Tool Developers BoF
+title: Tool Developers BoF
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 

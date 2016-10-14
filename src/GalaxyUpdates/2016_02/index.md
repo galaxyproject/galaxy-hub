@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: February 2016 Galaxy News
+title: February 2016 Galaxy News
 ---
 
 

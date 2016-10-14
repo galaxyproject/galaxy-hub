@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Getting Started with Galaxy on the Cloud
+title: Getting Started with Galaxy on the Cloud
 ---
 PLACEHOLDER_INCLUDE(/CloudMan/Header)
 

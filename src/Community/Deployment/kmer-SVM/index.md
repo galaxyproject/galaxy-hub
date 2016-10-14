@@ -1,5 +1,5 @@
 ---
-pagetitle: [kmer-SVM](http://kmersvm.beerlab.org/)
+title: [kmer-SVM](http://kmersvm.beerlab.org/)
 ---
 <div class='center'>
 <a href='http://kmersvm.beerlab.org/'><img src='/PublicGalaxyServers/kmer-SVM.png' alt='kmer-SVM'  /></a>

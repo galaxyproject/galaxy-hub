@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy Screencasts and Demos
+title: Galaxy Screencasts and Demos
 ---
 
 

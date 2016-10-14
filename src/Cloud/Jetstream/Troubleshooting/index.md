@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Troubleshooting Galaxy on Jetstream
+title: Troubleshooting Galaxy on Jetstream
 ---
 
 

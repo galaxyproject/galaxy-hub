@@ -1,5 +1,5 @@
 ---
-pagetitle: Key Dates
+title: Key Dates
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 

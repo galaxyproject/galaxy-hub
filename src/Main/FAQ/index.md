@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Frequently Asked Questions about , [/Main](/Main)
+title: Frequently Asked Questions about , [/Main](/Main)
 ---
 PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
 

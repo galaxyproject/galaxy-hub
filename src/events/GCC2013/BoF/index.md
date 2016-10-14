@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Birds of a Feather , (, BoF, ),  Flock Together at GCC2013
+title: Birds of a Feather , (, BoF, ),  Flock Together at GCC2013
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 

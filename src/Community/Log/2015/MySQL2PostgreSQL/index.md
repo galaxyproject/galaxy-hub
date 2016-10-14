@@ -1,5 +1,5 @@
 ---
-pagetitle: 2015, /, 07, :,  Moving from MySQL to PostgreSQL
+title: 2015, /, 07, :,  Moving from MySQL to PostgreSQL
 ---
 
 

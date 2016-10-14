@@ -1,5 +1,5 @@
 ---
-pagetitle:  Galaxy Demo , /,  Training Day, ,,  Tuesday, ,,  September 30th, ,,  Bern 
+title:  Galaxy Demo , /,  Training Day, ,,  Tuesday, ,,  September 30th, ,,  Bern 
 ---
 PLACEHOLDER_INCLUDE(/Events/SG2014/Header)
 

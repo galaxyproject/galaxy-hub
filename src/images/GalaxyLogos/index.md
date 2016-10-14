@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy Project Logos
+title: Galaxy Project Logos
 ---
 PLACEHOLDER_INCLUDE(/Images/LinkBox)
 

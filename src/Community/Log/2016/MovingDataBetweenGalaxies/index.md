@@ -1,5 +1,5 @@
 ---
-pagetitle: [2016/07: Moving data between Galaxy instances](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/)
+title: [2016/07: Moving data between Galaxy instances](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/)
 ---
 <div class='center'><a href='https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/'><img src='/QueenslandGVLBlogBanner.png' alt='Moving data between Galaxy instances' width="80%" /></a>
 </div>

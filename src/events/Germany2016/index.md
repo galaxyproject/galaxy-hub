@@ -1,5 +1,5 @@
 ---
-pagetitle:  2nd German Galaxy Developer workshop, ,,  Friday, ,,  October 21st, ,,  Freiburg 
+title:  2nd German Galaxy Developer workshop, ,,  Friday, ,,  October 21st, ,,  Freiburg 
 ---
 PLACEHOLDER_INCLUDE(/Events/SG2016/Header)
 

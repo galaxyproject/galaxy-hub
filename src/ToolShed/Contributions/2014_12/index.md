@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: December, ,,  2014 Galaxy Tool Shed Contributions
+title: December, ,,  2014 Galaxy Tool Shed Contributions
 ---
 <div class='right'></div>
 <br />

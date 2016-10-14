@@ -1,5 +1,5 @@
 ---
-pagetitle: Missouri Workshop Tour 2013
+title: Missouri Workshop Tour 2013
 ---
 <div class='center'>![](/Images/Logos/MissouriGalaxyWorkshopTour2013.png)</div>
 

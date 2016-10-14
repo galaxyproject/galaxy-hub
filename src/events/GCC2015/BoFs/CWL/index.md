@@ -1,5 +1,5 @@
 ---
-pagetitle: [Common Workflow Language](http://common-workflow-language.github.io)
+title: [Common Workflow Language](http://common-workflow-language.github.io)
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 

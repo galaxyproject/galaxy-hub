@@ -1,5 +1,5 @@
 ---
-pagetitle: GCC2013 Training Day Virtual Machines
+title: GCC2013 Training Day Virtual Machines
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 

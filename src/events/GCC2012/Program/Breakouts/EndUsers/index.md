@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy End Users
+title: Galaxy End Users
 ---
 PLACEHOLDER_INCLUDE(../../../PageHeader)
 

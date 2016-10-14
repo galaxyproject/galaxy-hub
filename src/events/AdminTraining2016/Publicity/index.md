@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Admin Training, :,  Help spread the word
+title: Galaxy Admin Training, :,  Help spread the word
 ---
 PLACEHOLDER_INCLUDE(/Events/AdminTraining2016/Header)
 

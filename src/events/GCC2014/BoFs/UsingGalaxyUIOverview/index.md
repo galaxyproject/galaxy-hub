@@ -1,5 +1,5 @@
 ---
-pagetitle: Using Galaxy, ', s Web Interface
+title: Using Galaxy, ', s Web Interface
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 

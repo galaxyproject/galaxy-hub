@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy End, -, Users
+title: Galaxy End, -, Users
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 

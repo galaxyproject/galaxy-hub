@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Phyloviz, :,  Interactive Phylogenetic Tree Visualizer for Galaxy
+title: Phyloviz, :,  Interactive Phylogenetic Tree Visualizer for Galaxy
 ---
 
 Phyloviz is an interactive phylogenetic tree visualizer built for Galaxy to give its users a more effective way to access, manipulate, analyze and present data of phylogenetic tree data on galaxy. 

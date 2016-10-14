@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: June 3, ,,  2013 Galaxy Distribution News Brief
+title: June 3, ,,  2013 Galaxy Distribution News Brief
 ---
 <div class='right'></div>
 

@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Hackathon
+title: Hackathon
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 

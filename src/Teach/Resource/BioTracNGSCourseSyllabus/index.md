@@ -1,5 +1,5 @@
 ---
-pagetitle: [Biotrac Next Generation Sequencing Course Syllabus](http://www.biotrac.com/pages/Tracs/Trac45.html)
+title: [Biotrac Next Generation Sequencing Course Syllabus](http://www.biotrac.com/pages/Tracs/Trac45.html)
 ---
 <div class='center'>
 <a href='http://www.biotrac.com/'><img src='/BioTracLogo.gif' alt='Bio-Trac'  /></a>

@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Releases
+title: Galaxy Releases
 ---
 #acl WikiAdminGroup:read,write,revert All:read
 

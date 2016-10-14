@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Get Involved, !
+title: Get Involved, !
 ---
 
 

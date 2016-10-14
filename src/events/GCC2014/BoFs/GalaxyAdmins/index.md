@@ -1,5 +1,5 @@
 ---
-pagetitle: GalaxyAdmins BoF
+title: GalaxyAdmins BoF
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 

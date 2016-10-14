@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Lightning Talks
+title: Lightning Talks
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 

@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galaxy Training Network
+title: Galaxy Training Network
 ---
 PLACEHOLDER_INCLUDE(/Teach/Header)
 

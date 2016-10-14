@@ -1,5 +1,5 @@
 ---
-pagetitle: Data Splitting and Parallelism
+title: Data Splitting and Parallelism
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 

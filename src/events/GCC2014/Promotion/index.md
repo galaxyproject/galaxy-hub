@@ -1,5 +1,5 @@
 ---
-pagetitle: Promotion and Outreach
+title: Promotion and Outreach
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 

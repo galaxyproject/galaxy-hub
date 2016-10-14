@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: [DataProviders](/DataProvider),  Cookbook
+title: [DataProviders](/DataProvider),  Cookbook
 ---
 
 <div class='left'></div>

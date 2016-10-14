@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle:  Galaxy Issue Reporting and Feature Requests
+title:  Galaxy Issue Reporting and Feature Requests
 ---
 
 PLACEHOLDER_INCLUDE(/Support/LinkBox)

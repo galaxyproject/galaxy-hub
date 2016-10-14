@@ -1,5 +1,5 @@
 ---
-pagetitle: [RNA Galaxy Workbench](https://github.com/bgruening/galaxy-rna-workbench-extra/blob/master/README.md)
+title: [RNA Galaxy Workbench](https://github.com/bgruening/galaxy-rna-workbench-extra/blob/master/README.md)
 ---
 <div class='center'>
 <a href='https://github.com/bgruening/galaxy-rna-workbench-extra/blob/master/README.md'><img src='/Images/Logos/de.NBI.png' alt='RNA Galaxy Workbench from theRNA Bioinformatic Center of the German Network for Bioinformatics Infrastructure' width="400" /></a>

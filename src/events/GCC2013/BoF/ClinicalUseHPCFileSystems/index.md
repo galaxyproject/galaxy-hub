@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Clinical Use Survey , /,  Filesystems and HPC
+title: Galaxy Clinical Use Survey , /,  Filesystems and HPC
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 

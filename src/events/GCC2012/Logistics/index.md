@@ -1,5 +1,5 @@
 ---
-pagetitle: Logistics
+title: Logistics
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 

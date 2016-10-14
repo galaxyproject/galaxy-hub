@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: September 07, ,,  2012 Galaxy Development News Brief
+title: September 07, ,,  2012 Galaxy Development News Brief
 ---
 <div class='right'></div>
 

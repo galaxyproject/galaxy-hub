@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Managing Datasets in Galaxy
+title: Managing Datasets in Galaxy
 ---
 
 

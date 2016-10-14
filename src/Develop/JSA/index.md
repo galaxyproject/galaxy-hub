@@ -1,5 +1,5 @@
 ---
-pagetitle:  Javascript Architecture and Development Practices
+title:  Javascript Architecture and Development Practices
 ---
 PLACEHOLDER_INCLUDE(/Develop/LinkBox)
 

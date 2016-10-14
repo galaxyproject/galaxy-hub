@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Professionals
+title: Galaxy Professionals
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 

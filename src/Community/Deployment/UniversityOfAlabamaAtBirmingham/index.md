@@ -1,5 +1,5 @@
 ---
-pagetitle: Name of Deployment
+title: Name of Deployment
 ---
 <div class='center'>
 <a href='http://uab.edu'><img src='/Images/Logos/UABLogo.png' alt='University of Alabama Birmingham'  /></a>

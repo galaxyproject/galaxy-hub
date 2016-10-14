@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: January 2013 Galaxy Update
+title: January 2013 Galaxy Update
 ---
 <div class='right'></div>
 

@@ -1,5 +1,5 @@
 ---
-pagetitle: 2016, /, 06, :,  , [Running Jobs Outside the Galaxy Docker Container](https://github.com/bgruening/docker-galaxy-stable/blob/dev/docs/Running_jobs_outside_of_the_container.md)
+title: 2016, /, 06, :,  , [Running Jobs Outside the Galaxy Docker Container](https://github.com/bgruening/docker-galaxy-stable/blob/dev/docs/Running_jobs_outside_of_the_container.md)
 ---
 
 

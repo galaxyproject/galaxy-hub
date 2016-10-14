@@ -1,5 +1,5 @@
 ---
-pagetitle: DNA Sequence Bioinformatics Analysis with the Galaxy Platform
+title: DNA Sequence Bioinformatics Analysis with the Galaxy Platform
 ---
 <div class='center'>
 <a href='http://www5.usp.br/'><img src='/Images/Logos/USP.gif' alt='Universidade de São Paulo'  /></a>

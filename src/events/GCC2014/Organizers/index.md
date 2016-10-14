@@ -1,5 +1,5 @@
 ---
-pagetitle: Organizers
+title: Organizers
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 

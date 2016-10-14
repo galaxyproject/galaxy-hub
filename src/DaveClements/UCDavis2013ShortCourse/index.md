@@ -1,5 +1,5 @@
 ---
-pagetitle: UC Davis 2013 Bioinformatics Short Course
+title: UC Davis 2013 Bioinformatics Short Course
 ---
 <div class='center'>
 <a href='http://training.bioinformatics.ucdavis.edu/docs/2013/09/short-course-2013/'><img src='/Images/Logos/UCDavisGenomeCenterLogo.jpg' alt='UC Davis Genome Center' /></a>

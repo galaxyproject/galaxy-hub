@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Poster Abstracts
+title: Poster Abstracts
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 

@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Wiki Best Practices
+title: Wiki Best Practices
 ---
 
 

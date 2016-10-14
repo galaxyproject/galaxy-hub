@@ -1,5 +1,5 @@
 ---
-pagetitle: 2013 Research Triangle Workshop Tour
+title: 2013 Research Triangle Workshop Tour
 ---
 <div class='center'>![](/Images/Logos/RTGalaxyWorkshopTour2013.png)</div>
 

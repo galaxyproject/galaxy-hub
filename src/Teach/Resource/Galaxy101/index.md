@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy 101
+title: Galaxy 101
 ---
 <div class='center'>
 <a href='https://usegalaxy.org/galaxy101'><img src='/Images/Logos/galaxyLogoTrimmed.png' alt='Galaxy 101' width="300" /></a>

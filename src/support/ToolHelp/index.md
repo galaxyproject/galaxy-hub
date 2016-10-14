@@ -1,5 +1,5 @@
 ---
-pagetitle: Support, :,  Resources for Using Tools
+title: Support, :,  Resources for Using Tools
 ---
 <div class='right'>PLACEHOLDER_INCLUDE(/Support/LinkBox)</div>
 

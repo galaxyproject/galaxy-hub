@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy , @,  PAG 2012
+title: Galaxy , @,  PAG 2012
 ---
 <div class='center'><a href='http://www.intlpag.org/'><img src='/PAG2012.png' alt='Galaxy @ Plant and Animal Genome (PAG 2012)' /></a></div>
 

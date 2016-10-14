@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Citing Galaxy
+title: Citing Galaxy
 ---
 <div class='center'><a href='http://genomebiology.com/2010/11/8/R86'><img src='/GenomeBiologyColver20108.gif' alt='Genome Biology' height="125" /></a> 
 <a href='http://onlinelibrary.wiley.com/doi/10.1002/0471142727.mb1910s89/abstract'><img src='/CurrentProtocolsInMolBioCover.gif' alt='Current Protocols in Molecular Biology' height="125" /></a> 

@@ -1,5 +1,5 @@
 ---
-pagetitle: Galaxy Biostars
+title: Galaxy Biostars
 ---
 <div class='center'><a href='https://biostar.usegalaxy.org/'><img src='/Images/Logos/GalaxyBiostar.png' alt='Galaxy Biostar'  /></a></div>
 

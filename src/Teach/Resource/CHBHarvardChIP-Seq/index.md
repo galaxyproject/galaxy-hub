@@ -1,5 +1,5 @@
 ---
-pagetitle: [CHB Harvard ChIP-Seq Workshop](http://hbc.github.io/ngs-workshops/courses/introduction-to-chip-seq/)
+title: [CHB Harvard ChIP-Seq Workshop](http://hbc.github.io/ngs-workshops/courses/introduction-to-chip-seq/)
 ---
 <div class='center'><a href='http://hbc.github.io/ngs-workshops/about/'><img src='/Images/Logos/CHBHarvard.png' alt='Center for Health Bioinformatics Galaxy Tutorials'  /></a></div>
 

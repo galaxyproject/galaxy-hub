@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Bioinformatics Training and Teaching with Galaxy
+title: Bioinformatics Training and Teaching with Galaxy
 ---
 PLACEHOLDER_INCLUDE(../../../PageHeader)
 

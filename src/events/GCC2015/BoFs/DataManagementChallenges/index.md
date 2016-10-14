@@ -1,5 +1,5 @@
 ---
-pagetitle: Data management challenges for larger Galaxy installations
+title: Data management challenges for larger Galaxy installations
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 

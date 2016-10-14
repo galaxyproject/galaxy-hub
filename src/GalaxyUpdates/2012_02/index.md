@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: February 2012 Galaxy Update
+title: February 2012 Galaxy Update
 ---
 <div class='center'>**Looking for the [March 2012 Galaxy Update](/GalaxyUpdates/2012_03)?  Click [here](/GalaxyUpdates/2012_03).**<br />Sorry about the bad link in the email announcement!  [Dave C](/DaveClements)</div>
 

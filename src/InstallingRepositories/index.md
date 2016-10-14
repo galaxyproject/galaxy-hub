@@ -1,5 +1,5 @@
 ---
-pagetitle: Installing Repositories
+title: Installing Repositories
 ---
 <div class='right'> <a href='/ToolShed'><img src='/Images/Logos/ToolShed.jpg' alt='Tool Shed logo' height="110px" /></a> PLACEHOLDER_INCLUDE(/ToolShed/LinkBox) </div>
 

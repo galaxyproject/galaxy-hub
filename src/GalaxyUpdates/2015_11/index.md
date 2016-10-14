@@ -1,6 +1,6 @@
 ---
 autotoc: true
-pagetitle: Galactic November News, !
+title: Galactic November News, !
 ---
 
 
