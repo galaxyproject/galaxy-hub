@@ -4,7 +4,6 @@ This page may be redundant with [Galaxy Project](../GalaxyProject).
 * [Terminology](Terminology) - Glossary of Galaxy related terminology.
 * [Citing Galaxy](../CitingGalaxy) - How to cite the Galaxy project in your publications.
 
-
 <div class='center'>
 <a href='http://galaxyproject.org/search'><img src="../Images/Logos/GalaxyWebSearch.png" alt="Search all Galaxy resources" width="120" /></a>
 

@@ -10,13 +10,13 @@
 3. [IUC](https://wiki.galaxyproject.org/IUC) member
 4. Galaxy tool developer (e.g. [bgruening/galaxytools](https://github.com/bgruening/galaxytools))
 
-
 [University of Freiburg](http://www.bioinf.uni-freiburg.de) <br />
 Albert-Ludwigs-Universität Freiburg <br />
 Georges-Köhler-Allee 106 <br />
 79110 Freiburg 
 
 ## Contact
+
 <table>
   <tr>
     <th> Email </th>

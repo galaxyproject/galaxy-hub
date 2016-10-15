@@ -27,7 +27,6 @@ Btown has a wide selection of dining options and prices. My recommendations are 
 * Little Tibet - good food, medium prices. A Bloomington institution.
 * Jankos - Bloomington institution. I don't recommend this place - prices are outrageous. Steakhouse, Americana. Seats 20.
 
-
 ## Bars
 
 * Nicks - Bloomington institution. Play Sink the Biz if you are brave. Great bar for hanging out and conversation, with nooks and crannies that aren't too loud. 
@@ -37,13 +36,10 @@ Btown has a wide selection of dining options and prices. My recommendations are 
 * Kilroys on Kirkwood and Kilroys Sports bar - loud, but can have good drink specials. Serve food. Seats 100. Cheap wings on Monday!
 * The Irish Lion - Decent Irish food and a good bar. Pub grub is reasonably priced and fancy items are also available. Seats 50.
 
-
 ## Wine
 
 * Butler Tasting Room - This is one of my favorite places - it's in a quaint building on Walnut just north of the railroad. It's "walkable" for the sturdy of constitution from campus.
 * Oliver Winery - The winery is just North of Bloomington and has a beautiful grounds. They close at 6 most nights, 8 on Saturday.
-
-
 
 ## Shops
 
@@ -51,7 +47,6 @@ Btown has a wide selection of dining options and prices. My recommendations are 
 * Vintage Phoenix - comic book shop on 6th St close to Walnut St.
 * Caveat Emptor - a fun bookshop which is pretty much a fixture in Bloomington.
 * Landlocked Music - if you need to take some vinyls home with you, peruse this store.
-
 
 ## Hiking
 

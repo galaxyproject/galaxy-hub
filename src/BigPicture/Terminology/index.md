@@ -17,7 +17,6 @@ Effectively managing datasets is important for general organization, collaborati
 See 
 * [Learn/Managing Datasets](../../Learn/Managing Datasets)
 
-
 ### Galaxy Objects
 
 ### History
@@ -29,7 +28,6 @@ A computer process responsible for starting and monitoring jobs, submitting jobs
 See 
 * [Admin/Config/Performance/Scaling](../../Admin/Config/Performance/Scaling)
 
-
 ### Main
 
 *Main* is the free public Galaxy instance available at [UseGalaxy.org](http://usegalaxy.org/) (or http://main.g2.bx.psu.edu). This is the primary [Galaxy instance](http://usegalaxy.org/). Main is where Galaxy's data and tools are functionality integrated and ready to use. Main is useful for sharing/publishing data and methods with colleagues for routine analysis or with the larger scientific community for publications and supplemental material. *[Test](../../Test)* is also free and public, but is considered a beta site. 
@@ -37,14 +35,12 @@ See
 See
 * [Main](../../Main)
 
-
 ### Page
 
 ### Publish
 
 See also 
 * [Share](#share)
-
 
 ### Query
 
@@ -59,11 +55,10 @@ See [Job runner](#job-runner)
 See also 
 * [Publish](#publish)
 
-
 ### Test
 
 See
 * [Test](../../Test)
 
-
 ### Workflow
+
