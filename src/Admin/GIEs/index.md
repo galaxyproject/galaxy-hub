@@ -1,11 +1,12 @@
 # Galaxy Interactive Environments (GIEs)
 
 <br />
----
+----
 **Update**
 * iPython for GIEs has been deprecated as of 16.04. Jupyter replaces it and will be fully incorporated into the upcoming 16.07 release. [Reference](https://biostar.usegalaxy.org/p/18683/#18686)
 * Please see the updated documentation at RTD: http://galaxy.readthedocs.io/en/master/admin/interactive_environments.html
----
+
+----
 
 <br />
 These are revolutionary components of Galaxy allowing users to do interactive data processing from within Galaxy. IEs are built as standard Galaxy visualization plugins, however they launch Docker containers and use some additional routing information to connect end users through the Galaxy server, to the Docker images.
@@ -14,6 +15,7 @@ There is currently one IE built into Galaxy:
 
 * [IPython](https://github.com/bgruening/galaxy-ipython/)
 * [RStudio](https://github.com/erasche/galaxy-rstudio/)
+
 
 And more on the way
 
@@ -24,6 +26,7 @@ To enable IE's in your Galaxy instance you need to do the following:
 * Copy `config/plugins/interactive_environments/ipython/config/ipython.ini.sample` over to `config/plugins/interactive_environments/ipython/config/ipython.ini`
 * Adjust the config file if needed, for example to set the docker command if Galaxy cannot run sudo-less docker with `docker` command.
 * Install the Galaxy IE proxy (you might need set this sym-link first:  *ln -s /usr/bin/nodejs /usr/bin/node* )
+
 
 ```
 $ cd lib/galaxy/web/proxy/js
@@ -37,6 +40,7 @@ If your IE shows up, but you get an error like: "Could not connect to a galaxy i
 * set 'host' to the IP address of your galaxy server in config/galaxy.ini (instead of 127.0.0.1)
 * set 'galaxy_url' to  <IP address>:8080 in the config file (i.e. ipython.ini)
 
+
 ## "Enterprise" Deployments
 
 There are some extra considerations with "enterprise" deployments like running docker on a dedicated machine, and having everything under a single /galaxy URL that users will be accessing your services at. 
@@ -45,7 +49,7 @@ There are some extra considerations with "enterprise" deployments like running d
 
 #### 15.07
 ##### Nginx
-See the [Nginx configuration page](/Admin/Config/nginxProxy#configuring_nginx_for_galaxy_interactive_environments_28150729) for more details about how to configure it for the GIEs
+See the [Nginx configuration page](../../Admin/Config/nginxProxy#configuring_nginx_for_galaxy_interactive_environments_28150729) for more details about how to configure it for the GIEs
 
 #### 15.10+
 

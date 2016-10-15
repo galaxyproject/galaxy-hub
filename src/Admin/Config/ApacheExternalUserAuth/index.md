@@ -13,8 +13,7 @@ In addition to the modules above, `mod_headers` must be enabled in the Apache co
 
 Basic authentication is configured as it is for any other protected portion of your site (other authentication modules are configured differently):
 
-```
-#!highlight apache
+```apache
 # Define the authentication method
 AuthType Basic
 AuthName Galaxy
@@ -25,8 +24,7 @@ Require valid-user
 
 The following options are used to take the `$REMOTE_USER` variable (set by basic authentication) and set it as a header in the proxied environment:
 
-```
-#!highlight apache
+```apache
 # Define Galaxy as a valid Proxy
 <Proxy http://localhost:8080>
     Order deny,allow
@@ -43,8 +41,7 @@ RequestHeader set REMOTE_USER %{RU}e
 
 These new directives should be placed in a `<Location>` block, depending on the directory from which you are serving Galaxy.  Your entire configuration will now look something like this:
 
-```
-#!highlight apache
+```apache
 # Define Galaxy as a valid Proxy
 <Proxy http://localhost:8080>
     Order deny,allow
@@ -83,8 +80,7 @@ Users are automatically created in the Galaxy database if the external auth meth
 
 The Apache `mod_authnz_ldap` module does not set `$REMOTE_USER` like other auth modules.  The following alternate configuration should allow you to use any LDAP attribute as the username to set in `$REMOTE_USER`:
 
-```
-#!highlight apache
+```apache
 # Define Galaxy as a valid Proxy
 <Proxy http://localhost:8080>
     Order deny,allow
@@ -123,8 +119,7 @@ Note the S/E after substituted variables, transcluded from the [Apache mod_heade
 
 If you are deploying kerberos, it is assumed you know the basics of configuring kerberos enabled webpages.
 
-```
-#!highlight apache
+```apache
 <Location "/galaxy/">
         AuthName "Galaxy"
         AuthType Kerberos
@@ -163,6 +158,7 @@ However, this is a common problem and many people have come up with varying qual
 * http://stackoverflow.com/questions/4163122/http-basic-authentication-log-out/
 * http://stackoverflow.com/questions/233507/how-to-log-out-user-from-web-site-using-basic-authentication
 * http://trac-hacks.org/wiki/TrueHttpLogoutPatch
+
 
 This was [discussed on the galaxy-dev mailing list](http://dev.list.galaxyproject.org/Remote-User-Logout-td4663150.html), and the solution provided by Tim Booth is detailed below. Please test this thoroughly before using it in your galaxy.
 

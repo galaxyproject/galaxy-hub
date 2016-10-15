@@ -3,17 +3,17 @@ autotoc: true
 ---
 ## Running Tests
 
-Galaxy is a large code base with many different test types. **Functional tests**' operate on a running Galaxy instance and include tests of various tools (see [/Admin/Tools/Writing Tests](/Admin/Tools/Writing Tests) for more information on writing tool tests). **Unit tests** are using to test individual Python components of the Galaxy framework in isolation. **Browser tests** run in a web browser and can be used to test !JavaScript components and the API.
+Galaxy is a large code base with many different test types. **Functional tests**' operate on a running Galaxy instance and include tests of various tools (see [Admin/Tools/Writing Tests](../../Admin/Tools/Writing Tests) for more information on writing tool tests). **Unit tests** are using to test individual Python components of the Galaxy framework in isolation. **Browser tests** run in a web browser and can be used to test !JavaScript components and the API.
 
 
 
-This page describes the tests available for a locally downloaded copy of Galaxy, the Galaxy Tool Shed offers a different, but related service - namely [automated tool tests](/ToolShed/AutomatedToolTests) for tools stored there.
+This page describes the tests available for a locally downloaded copy of Galaxy, the Galaxy Tool Shed offers a different, but related service - namely [automated tool tests](../../ToolShed/AutomatedToolTests) for tools stored there.
 
 ### Functional Tests
 
 Galaxy functional tests use the python twill module (a simple scripting language intended for programmatic or automated browsing of Web sites) in conjunction with nose (a test discovery module).
 
-Assuming Galaxy has been downloaded and installed (see [/Admin/Get Galaxy](/Admin/Get Galaxy)), the directory containing Galaxy also contains the shell script `run_tests.sh` (originally named `run_functional_tests.sh`).  This script automatically starts a Galaxy instance on the local machine for the sole purpose of running the tests.
+Assuming Galaxy has been downloaded and installed (see [Admin/Get Galaxy](../../Admin/Get Galaxy)), the directory containing Galaxy also contains the shell script `run_tests.sh` (originally named `run_functional_tests.sh`).  This script automatically starts a Galaxy instance on the local machine for the sole purpose of running the tests.
 
 The functional tests can be launched with the command:
 ```
@@ -78,7 +78,7 @@ export GALAXY_TEST_DB_TEMPLATE=https://github.com/jmchilton/galaxy-downloads/raw
 ```
 
 
-([John Chilton](/JohnChilton) was so kind to offer one, thanks John!)
+([John Chilton](../../JohnChilton) was so kind to offer one, thanks John!)
 
 ### Unit Tests
 

@@ -2,7 +2,7 @@
 autotoc: true
 ---
 # Galaxy Data Manager XML File
----
+----
 
 The XML File for a Galaxy Data Manager, generally referred to as the "data manager config file", serves a number of purposes.  It defines the availability of Data Managers to a Galaxy instance. It does this by specifying the id of the Data Manager and the Data Manager tool that is associated with it. It also contains a listing of the Tool Data Tables that can be added to by the Data Manager. It also specifies how to manipulate the raw column values provided by the Data Manager Tool and under what directory structure to place the finalized data values. 
 
@@ -13,16 +13,17 @@ Pay attention to the following when creating a new Data Manager:
 1. **Make sure you use an id that is unique within your Galaxy instance** - Galaxy can only load one Data Manager having an the same ID at a single time.
 1. **When completed, make your Data Manager available in a ToolShed and install it from there** - This will avoid any possible collisions due to non-unique IDs, as specialized name-spacing is utilized when Data Managers are installed from a ToolShed.
 
+
 A Galaxy Data Manager's config file consists of a subset of the following XML tag sets - each of these is described in detail in the following sections.
 
 
 
 ## Details of XML tag sets
----
+----
 ### <data_managers> tag set
 The outer-most tag set. It contains no attributes. Any number of <data_manager> tags can be included within it.
 
----
+----
 
 ### <data_manager> tag set
 
@@ -37,14 +38,13 @@ This tag defines a particular Data Manager. Any number of <data_table> tags can 
 #### Example
 
 The following is an example that contains all of the attributes described above.
-```
-#!highlight xml
+```xml
 <data_manager tool_file="data_manager/twobit_builder.xml" id="twobit_builder">
 ```
 
 <br />
 
----
+----
 
 ### <data_table> tag set
 
@@ -57,14 +57,13 @@ This tag defines a Tool Data Table to add entries to. Any number of <data_table>
 #### Example
 
 The following is an example that contains all of the attributes described above.
-```
-#!highlight xml
+```xml
 <data_table name="twobit">
 ```
 
 <br />
 
----
+----
 
 ### <output> tag set
 
@@ -73,14 +72,13 @@ This tag defines how to handle the output of the Data Manager Tool. It has no at
 #### Example
 
 The following is an example that contains all of the attributes described above.
-```
-#!highlight xml
+```xml
 <output>
 ```
 
 <br />
 
----
+----
 
 ### <column> tag set
 
@@ -94,14 +92,13 @@ This tag defines a particular Tool Data Table column that will be set. Any numbe
 #### Example
 
 The following is an example that contains all of the attributes described above.
-```
-#!highlight xml
+```xml
 <column name="path" output_ref="out_file" >
 ```
 
 <br />
 
----
+----
 
 ### <move> tag set
 
@@ -115,14 +112,13 @@ This tag defines how to handle moving files from within the Data Manager Tool ou
 #### Example
 
 The following is an example that contains all of the attributes described above.
-```
-#!highlight xml
+```xml
 <move type="file" relativize_symlinks="False">
 ```
 
 <br />
 
----
+----
 
 ### <source> tag set
 
@@ -136,14 +132,13 @@ This tag defines the source location within a <move> tag set. When not specified
 #### Example
 
 The following is an example that contains the most common usage, where the value provided by the Data Manager Tool, relative to the extra_files_path, is used as the source.
-```
-#!highlight xml
+```xml
 <source>${path}</source>
 ```
 
 <br />
 
----
+----
 
 ### <target> tag set
 
@@ -157,14 +152,13 @@ This tag defines the target location within a <move> tag set. When not specified
 #### Example
 
 The following is an example that contains a common usage, where a target value is constructed using several of the values provided by the Data Manager Tool, relative to the *galaxy_data_manager_data_path*, is used as the source.
-```
-#!highlight xml
+```xml
 <target base="${GALAXY_DATA_MANAGER_DATA_PATH}">${dbkey}/seq/${path}</target>
 ```
 
 <br />
 
----
+----
 
 ### <value_translation> tag set
 
@@ -178,15 +172,14 @@ This tag allows using templating to modify the value provided by the Data Manage
 #### Example
 
 The following is an example that contains a common usage, where a value is constructed using several of the values provided by the Data Manager Tool and that value is then turned into an absolute path.
-```
-#!highlight xml
+```xml
 <value_translation>${GALAXY_DATA_MANAGER_DATA_PATH}/${value}/seq/${path}</value_translation>
 <value_translation type="function">abspath</value_translation>
 ```
 
 <br />
 
----
+----
 
 # Bringing it all Together, an example
 
@@ -197,12 +190,11 @@ Assume that we have a Data Manager Tool that provides the following named values
 | value |  sacCer2  | 
 | path |  sacCer2.2bit  | 
 
-and creates an output named "out_file", with an extra_files_path containing a file 'sacCer2.2bit'. (The primary dataset file contains [JSON](/Admin/Tools/DataManagers/DataManagerJSONSyntax) that provides the above values)
+and creates an output named "out_file", with an extra_files_path containing a file 'sacCer2.2bit'. (The primary dataset file contains [JSON](../../../../Admin/Tools/DataManagers/DataManagerJSONSyntax) that provides the above values)
 
 and has a Data Manager configuration defined as:
 
-```
-#!highlight xml
+```xml
 <data_managers>
     <data_manager tool_file="data_manager/twobit_builder.xml" id="twobit_builder">
         <data_table name="twobit">
@@ -234,6 +226,6 @@ The result is:
 and the "sacCer2.2bit" file has been moved into the location specified by path.
 
 
----
+----
 
-[/Admin/Tools/DataManagers](/Admin/Tools/DataManagers)
+[Admin/Tools/DataManagers](../../../../Admin/Tools/DataManagers)

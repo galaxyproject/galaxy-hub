@@ -1,5 +1,5 @@
-PLACEHOLDER_INCLUDE(/Admin/LinkBox)
-PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
+PLACEHOLDER_INCLUDE(../../Admin/LinkBox)
+PLACEHOLDER_INCLUDE(../../Admin/Config/Performance/LinkBox)
 # Galaxy Configuration
 Hub page for Galaxy configuration.
 
@@ -12,21 +12,26 @@ Hub page for Galaxy configuration.
 * [Nginx Proxy](nginxProxy)
   * [Nginx External User Auth](NginxExternalUserAuth)
 
+
 ## Tools
 * [Tool Dependencies](ToolDependencies)
-* [Set up Visualizations](/Visualization Setup)
-* [Collecting Job Metrics](/Admin/Config/JobMetrics)
+* [Set up Visualizations](../../Visualization Setup)
+* [Collecting Job Metrics](../../Admin/Config/JobMetrics)
+
 
 ## External User Databases
-* [ Authentication with LDAP/AD](/Admin/Config/ExternalUserAuth)
+* [ Authentication with LDAP/AD](../../Admin/Config/ExternalUserAuth)
+
 
 ## FTP
 * [Upload via FTP](Upload via FTP)
 * [Setup ProFTPd with AD/LDAP auth](ProFTPd_with_AD)
 
+
 ## Other
 * [Eggs](Eggs)
-* [GenomeSpace](/Admin/Config/GenomeSpace)
+* [GenomeSpace](../../Admin/Config/GenomeSpace)
 * [User Information (Collecting information during registration)](User Information)
 * [Running on Windows](Windows)
 * [Access Control (ACLs)](Access Control)
+

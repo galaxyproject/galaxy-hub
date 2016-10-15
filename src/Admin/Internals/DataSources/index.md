@@ -17,29 +17,31 @@ Small example of both communication protocols:
 
 ## Adding a new DataSource
 
-!DataSources are configured as a special type of [tool](/Tools).
+!DataSources are configured as a special type of [tool](../../../Tools).
 
 Checklist for !DataSource tools:
 
-1. The [<tool> tag set](/Admin/Tools/ToolConfigSyntax#a3ctool3e_tag_set) has the attribute "tool_type" with the value "data_source"
-1. The [<command> tag set](/Admin/Tools/ToolConfigSyntax#a3ccommand3e_tag_set), inside the <tool> tag set, contains either "data_source.py" to use the built in sychronous/asynchronous single file downloader or a different command for custom downloading (multiple files, ...?). 
+1. The [<tool> tag set](../../../Admin/Tools/ToolConfigSyntax#a3ctool3e_tag_set) has the attribute "tool_type" with the value "data_source"
+1. The [<command> tag set](../../../Admin/Tools/ToolConfigSyntax#a3ccommand3e_tag_set), inside the <tool> tag set, contains either "data_source.py" to use the built in sychronous/asynchronous single file downloader or a different command for custom downloading (multiple files, ...?). 
   1. If using "data_source.py" then the first parameter passed should be the name of the data tag in the outputs tag set. Likely it is "$output".
   1. If using "data_source.py" then the second parameter passed is the maximum file size allowed by this Galaxy instance to quickly cancel a download that will fail later. This should be "$</u>app__.config.output_size_limit".
-1. The [<inputs>](/Admin/Tools/ToolConfigSyntax#a3cinputs3e_tag_set) tag set, inside the <tool> tag set, has three attributes defined: "action", "check_values", "method".
+1. The [<inputs>](../../../Admin/Tools/ToolConfigSyntax#a3cinputs3e_tag_set) tag set, inside the <tool> tag set, has three attributes defined: "action", "check_values", "method".
   1. The "action" attribute has the URL to redirect the Galaxy user to.
   1. The "method" attribute ...???
   1. The "check_values" attribute ...???
-1. If you want to translate between URL parameters sent by the remote web server back to Galaxy then a [<request_param_translation> tag set](/Admin/Tools/ToolConfigSyntax#a3crequest_param_translation3e_tag_set) should be defined inside the <tool> tag set.
-1. The [<outputs> tag set](/Admin/Tools/ToolConfigSyntax#a3coutputs3e_tag_set), inside the <tool> tag set, contains only one <data> tag if using the built-in "data_source.py" script.
+1. If you want to translate between URL parameters sent by the remote web server back to Galaxy then a [<request_param_translation> tag set](../../../Admin/Tools/ToolConfigSyntax#a3crequest_param_translation3e_tag_set) should be defined inside the <tool> tag set.
+1. The [<outputs> tag set](../../../Admin/Tools/ToolConfigSyntax#a3coutputs3e_tag_set), inside the <tool> tag set, contains only one <data> tag if using the built-in "data_source.py" script.
   1. The "format" attribute can be used to set the data format if it is of a fixed type.
   1. If using the built-in "data_source.py" script then the value of the "name" attribute must match the first parameter passed to "data_source.py" in the <command> tag set.
 1. Finally, the tag <options sanitize="False" refresh="True"/> should be inside the <tool> tag set.
+
 
 <uihints> and <display> are no longer used.
 
 Some example !DataSources:
 * https://github.com/galaxyproject/galaxy/blob/dev/tools/data_source/ucsc_tablebrowser.xml
 * https://github.com/erasche/galaxy-data_source-examples
+
 
 A custom downloader can be used for advanced interaction. Example: The GenomeSpace data_tools use a custom script to handle lots more than just multiple files: handles the GenomeSpace username+token transactions, and also attempts to make use of GenomeSpace's metadata, etc; all by interacting via the GenomeSpace API.
 
@@ -52,6 +54,7 @@ As data sources go we distinguish between **two** different data generation mode
 * The first approach characterizes services that stream data. These are sites that can generate data on "the fly" in response to a set of parameters. We'll call this approach the **synchronous** data generation.
 * The second methodology includes sites that first collect parameters then run a background process to generate results. Once finished the systems send a notification that the data is ready for download. We'll call this method **asynchronous** data generation.
 
+
 ### Synchronous data depositing
 
 The process is meant to proceed as follows:
@@ -60,6 +63,7 @@ The process is meant to proceed as follows:
 1. As the user navigates the external datasource, it behaves exactly as if it would if the request would have not originated from Galaxy
 1. At the point where the parameter submission would return data, the external datasource will have to instead post these parameters to the url that were sent in the `GALAXY_URL` parameter. Typically this would require that the *action* attribute of the form that generates data to be pointed to the value sent in the `GALAXY_URL` parameter.
 1. When Galaxy receives the parameters it will run a URL fetching process in the background that will **resubmit** the parameters to the datasource, and it will deposit the returned data in the user's account.
+
  
 
 ### Asynchronous data depositing
@@ -68,6 +72,7 @@ This process operates similarly to the synchronous one, the exception being that
 
 1. The same as steps 1. through 4. for the synchronous data depositing. For the step 4 above, Galaxy will create another parameter `GALAXY_URL` that will uniquely characterize the data that is returned. The result of the resubmission step of this step is a data entry that is *waiting* for the data source.
 1. When the data created by the datasource is ready the datasource will have to reconnect to the url specified in `GALAXY_URL` and submit via HTTP GET the `STATUS` and `URL` parameters. Galaxy will then make a background request to fetch the data stored at the location `URL`.
+
 
 **Inter-process communication** is performed via a very simple text outputs. Commands that have been executed correctly may write any kind of text messages. If the text ends with the word `OK` it will be considered a successful submission. Messages that do not end with `OK` will be treated as errors. There is no requirement on interpreting any of the messages; they primarily serve for informational/debugging purposes. 
 

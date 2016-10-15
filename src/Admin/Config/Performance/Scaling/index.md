@@ -1,6 +1,6 @@
 ---
-title: Scaling and Load Balancing
 autotoc: true
+title: Scaling and Load Balancing
 ---
 
 PLACEHOLDER_INCLUDE(../../../../Admin/Config/Performance/LinkBox)
@@ -13,9 +13,11 @@ A simple configuration:
 * 1 "job handler" process - responsible for starting and monitoring jobs, submitting jobs to a cluster (if configured), and for setting metadata (externally or internally).
 * 1 "web server" process - responsible for servicing web pages to users.
 
+
 An advanced configuration:
 * Multiple "job handler" processes.
 * Multiple "web server" processes, proxied through a load-balancing capable web server (e.g. nginx or apache).
+
 
 ### Web Server(s)
 
@@ -31,6 +33,7 @@ There are a few different ways you can run multiple web server processes:
   * Load balancing typically round-robin regardless of individual process load
   * No dynamic scaling
 
+
 **uWSGI:**
 * Pros:
   * Higher performance server than Paste
@@ -38,6 +41,7 @@ There are a few different ways you can run multiple web server processes:
   * Easier process management and Galaxy server restartability
 * Cons:
   * Requires uWSGI
+
 
 Using uWSGI for production servers is recommended by the Galaxy team.
 
@@ -108,8 +112,7 @@ Once started, a proxy server (typically Apache or nginx) must be configured to p
 
 In `galaxy.ini`, define one or more additional `[server:...]` sections:
 
-```
-#!highlight ini
+```ini
 [server:handler0]
 use = egg:Paste#http
 port = 8090
@@ -272,8 +275,7 @@ Be sure to consult the [nginx proxy documentation](../../../../Admin/Config/ngin
 
 To proxy with nginx, you'll simply need to add all of the web applications to the `upstream` section, [which already exists](../../../../Admin/Config/nginxProxy).  The relevant parts of the configuration would look like this:
 
-```
-#!highlight nginx
+```nginx
 http {
     upstream galaxy_app {
         server localhost:8080;

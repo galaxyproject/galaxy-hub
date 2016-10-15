@@ -3,11 +3,11 @@ autotoc: true
 title: Setting up ProFTPd for galaxy uploads in an Active Directory environment
 ---
 
-
 * You want to enable FTP file uploads?
 * You are happy and able to use ProFTPd?
 * You want to authenticate off Active Directory?
 * You want Galaxy to actually find the uploaded files?
+
 Yes, Yes, Yes and Of_Course?  Read on..
 
 
@@ -27,8 +27,7 @@ Galaxy exchanges no messages directly with the FTP server, if files are there, i
 Your Galaxy serves a single institution with an AD domain and you're already using it to authenticate users in the Galaxy web pages.
 
 So your  universe_wsgi.ini  file probably has lines like:
-```
-#!highlight bash
+```bash
  use_remote_user = True
  remote_user_maildomain = example.domain
  ftp_upload_dir = /galaxy/database/ftp
@@ -44,6 +43,7 @@ Line 3 tells Galaxy to look in  "/galaxy/database/ftp/<user>@example.domain"
 For this recipe to work will need at least these versions
 * proftpd            version 1.3.4
 * proftpd-mod-ldap   version 2.9.2   NOTE: Ubuntu-12.10 apt-get gives you version 2.9.0 which WILL NOT WORK!
+
 
 Go to :  http://horde.net/~jwm/software/mod_ldap/#current-release
 
@@ -170,6 +170,7 @@ Where ever it's getting the information mod_ldap is looking for:
 * uidNumber
 * gidNumber
 * homeDirectory
+
 
 ## Configuring ProFTPD with OpenLDAP
 

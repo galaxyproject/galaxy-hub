@@ -13,8 +13,7 @@ auth    required            pam_permit.so
 
 Next, your nginx.conf should be modified like so:
 
-```
-#!highlight nginx
+```nginx
 location / {
         auth_pam "Basic Auth Realm Name";
         auth_pam_service_name "nginx";
