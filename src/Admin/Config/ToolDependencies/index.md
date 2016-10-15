@@ -49,7 +49,6 @@ Individual tool configurations should contain `<requirement type="package">` tag
   * a `bin/` directory or
   * an `env.sh` file as described below
 
-
 For example, if the `<requirement>` is `<requirement type="package">bowtie</requirement>` and you have installed or plan to install version 0.12.7:
 
 ```sh

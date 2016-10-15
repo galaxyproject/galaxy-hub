@@ -1,6 +1,7 @@
 Per IUC email thread, the following libraries and packages have been suggested as base requirements for installing tool dependencies:
 
 ## REQUIRED
+
 * autoconf                 
 * automake
 * autotools 
@@ -21,6 +22,7 @@ Per IUC email thread, the following libraries and packages have been suggested a
 * Java (for tools that are using the JRE/JDK, currently the TS is not able to install Java for you)                
 
 ## WIP or Done
+
     
 * bison [ http://toolshed.g2.bx.psu.edu/view/iuc/package_bison_3_0 ]
 * coreutils [ http://toolshed.g2.bx.psu.edu/view/iuc/package_gnu_coreutils_8_21 ]      
@@ -57,6 +59,7 @@ Per IUC email thread, the following libraries and packages have been suggested a
 * liblzma-dev  -> xz utils is the successor, is that really needed?
 
 ## Volunteers ?
+
 * patch
 * gnuplot
 * pdfjam [Hard, it need a latex installation]                      
@@ -68,8 +71,6 @@ Per IUC email thread, the following libraries and packages have been suggested a
 * uuid                         
 * tcl-dev
 * swig                   
-
-
 
 [BG] = there are packages hosted under https://github.com/bgruening/galaxytools/ contributions welcome.
 
@@ -91,3 +92,4 @@ See an example here: https://github.com/bgruening/galaxytools/tree/master/test_r
 * liblocal-lib-perl            
 * libmodule-build-perl
 * libmodule-install-perl    
+

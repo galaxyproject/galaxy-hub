@@ -1,6 +1,6 @@
 ---
-title: Running Galaxy Tools on a Cluster
 autotoc: true
+title: Running Galaxy Tools on a Cluster
 ---
 PLACEHOLDER_INCLUDE(../../../../Admin/Config/Performance/LinkBox)
 
@@ -163,6 +163,7 @@ galaxy_user@galaxy_server% LIBTORQUE_DIR=/path/to/libtorque python scripts/scram
 
 
 #### Newer versions of TORQUE (>4.2)
+
 Galaxy is compatible with newer versions of TORQUE now that pbs_python has been updated to add support for TORQUE >= v4.2.  Scrambling the new version of pbs_python is accomplished simply by modifying eggs.ini to use the new version of pbs_python:
 
 ```ini
@@ -433,3 +434,4 @@ Some maintenance and support of this code will be provided via the usual [Suppor
 * **Oleksandr Moskalenko**, debugged a number of problems related to running jobs as the real user and using DRMAA with TORQUE. 
 * **Jaime Frey**, developer of the HTCondor job runner plugin.
 * **Ilya Chorny**, developer of the original "real user" job running code.
+

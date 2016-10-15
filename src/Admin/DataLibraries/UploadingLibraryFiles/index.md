@@ -1,4 +1,5 @@
 # Uploading Files to a Data Library
+
 ----
 
 ### Options for Uploading Files from the Admin Perspective
@@ -86,7 +87,6 @@ In this example:
 * `3.bed` is a relative symlink to `../../3.bed`, aka `/galaxy/3.bed`, which itself is a symlink to the real `3.bed`.
 * `4.bed` is a relative symlink which follows another symlink (`/galaxy/galaxy_symlink`) to the real `4.bed`.
 * `5.bed` is an absolute symlink in the same fashion as `4.bed`
-
 
 If the `link` server directory is selected in the "Server Directory" select list and the "Copy data into Galaxy?" 
 checkbox is checked, then the following files will be referenced by Galaxy:

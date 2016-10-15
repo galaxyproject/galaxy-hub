@@ -110,5 +110,4 @@ This was just a high level summary of what Galaxy can do; many usage scenarios m
 * Data deposit protocols for connecting to data repositories
 * **multi-page parameter selection** for tools that allow subsequent options to depend on previously selected ones
 
-
 We'll be adding documentation for these, in the meantime check the `tools` folder in the server directory containing **hundreds** of examples.

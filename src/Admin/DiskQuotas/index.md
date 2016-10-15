@@ -1,11 +1,13 @@
 PLACEHOLDER_INCLUDE(../../Admin/LinkBox)
 
 # Data management: accounting and disk quotas
+
 Before tackling quotas or disk accounting, it's important to understand that when data is copied in Galaxy it is never duplicated.  This means that importing a dataset from a Data Library, sharing datasets with another user, or making copies of your datasets within your own histories only creates new references to the original file.
 
 It's now possible for users to force datasets to be removed from disk, which was previously only done by cleanup scripts.  This is explained in detail at [Managing Datasets](../../Learn/Managing Datasets#actions).
 
 ## Disk Accounting
+
 Galaxy keeps track of how much data is used by each dataset, and makes this information available in a couple of ways.  The first is as a total amount of disk space used by the user.  The second is the amount of disk space used by a single history.  These numbers may not always agree, and here's why:
 
 The total amount of disk space used by a user is calculated by finding all *unique* datasets for which the user has an association (i.e. it's in a history) which are not in a library and which have not yet been purged.  The implications of this are:
@@ -14,14 +16,12 @@ The total amount of disk space used by a user is calculated by finding all *uniq
 * Datasets imported from a Data Library never count against a user's total disk usage
 * Datasets which have been deleted but not yet removed from disk still count against a user's total disk usage
 
-
 User disk usage is stored in a column in the galaxy_user table of the database and is updated whenever a user acquires new unique data or purges data.
 
 Likewise, the total amount of disk space used by a single history is calculated by finding all *unique* datasets for which the user has an association and which have not yet been purged.  Note the slightly different implications:
 
 * A dataset for which a user has multiple associations will be counted only once in each history in which it appears
 * Datasets imported from a Data Library do count in the history usage total
-
 
 History disk usage is calculated "on the fly" via a database query that sums the usage of all containing datasets.
 
@@ -32,8 +32,8 @@ There are two scripts in the Galaxy source which assist with managing disk accou
 * `galaxy-dist/scripts/set_dataset_sizes.py` - recalculate the disk usage of all datasets in the Galaxy instance, most useful if you had a Galaxy instance that predated the disk accounting code added in changeset 5700:70e2b1c95a69 on June 14, 2011
 * `galaxy-dist/scripts/set_user_disk_usage.py` - recalculate one or all users' disk usage, also useful if your Galaxy installation predates disk accounting, and also useful in cases where a user's usage seems to be incorrect (i.e. you've found a bug in disk accounting) and needs to be recalculated
 
-
 ## Quotas
+
 Users are assigned quotas are configured by creating Quota definitions and then associating these definitions with users or groups.  Quota definitions consist of a name, optional description, amount, and an operation (one of "=", "+", or "-").  Default quotas can be specified for both classes of users: unregistered and registered.
 
 The first step in managing quotas is to enable them by setting the following in `universe_wsgi.ini`:
@@ -51,7 +51,6 @@ Once enabled, you can create quotas in the [administration interface](../../Admi
 * `=` : The quota is exactly the amount specified
 * `+` : The amount specified will be added to the amounts of the user's other associated quota definitions
 * `-` : The amount specified will be subtracted from the amounts of the user's other associated quota definitions
-
 
 The logic used when determining a user's quota is the following:
 

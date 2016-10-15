@@ -93,7 +93,6 @@ Here we have a `MetadataElement`, accessible in methods with a `dataset` paramet
 * `set_peek( self, dataset, is_multi_byte=False )`
 * `set_meta( self, dataset, **kwd )`
 
-
 the `set_peek` function is used to determine the blurb of text that will appear to users above the preview (first 5 lines of the file, the file peek), informing them about metadata of a sequence. For genbank files, we're probably interested in how many genome/records are contained within a file. To do that, we need to count the number of times the word LOCUS appears as the first five characters of a line. We'll write a function named `_count_genbank_sequences`
 
 ```python

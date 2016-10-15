@@ -1,5 +1,4 @@
-
-<div class='right'>![](/GalaxyTeam/BjoernGruening.jpg)</div>
+<div class='right'>![](../GalaxyTeam/BjoernGruening.jpg)</div>
 
 
 # Björn Grüning
@@ -10,6 +9,7 @@
 2. [Galaxy Interactive Environments](https://wiki.galaxyproject.org/Admin/GIEs) (e.g. IPython in Galaxy)
 3. [IUC](https://wiki.galaxyproject.org/IUC) member
 4. Galaxy tool developer (e.g. [bgruening/galaxytools](https://github.com/bgruening/galaxytools))
+
 
 [University of Freiburg](http://www.bioinf.uni-freiburg.de) <br />
 Albert-Ludwigs-Universität Freiburg <br />
@@ -30,5 +30,5 @@ Georges-Köhler-Allee 106 <br />
 
 
 
----
+----
 CategoryHomepage

@@ -159,7 +159,6 @@ However, this is a common problem and many people have come up with varying qual
 * http://stackoverflow.com/questions/233507/how-to-log-out-user-from-web-site-using-basic-authentication
 * http://trac-hacks.org/wiki/TrueHttpLogoutPatch
 
-
 This was [discussed on the galaxy-dev mailing list](http://dev.list.galaxyproject.org/Remote-User-Logout-td4663150.html), and the solution provided by Tim Booth is detailed below. Please test this thoroughly before using it in your galaxy.
 
 ### Creating the Logout area
@@ -187,6 +186,7 @@ logout:$apr1$0eB1iURY$kwqa0c8tXksbjPQLYqr6s.
 
 
 ### Modifications to your universe_wsgi.ini
+
 You will probably need to add
 
 ```

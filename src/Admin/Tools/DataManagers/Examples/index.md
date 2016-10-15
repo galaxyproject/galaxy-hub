@@ -5,7 +5,6 @@
 1. [Download preformatted BlastDBs from NCBI (blastdb)](http://testtoolshed.g2.bx.psu.edu/view/blankenberg/data_manager_example_blastdb_ncbi_update_blastdb)
 1. [Build SAM Indexes from reference genomes (sam_fa_indices)](http://testtoolshed.g2.bx.psu.edu/view/blankenberg/data_manager_sam_fa_index_builder)
 
-
 ----
 
-[/Admin/Tools/DataManagers](/Admin/Tools/DataManagers)
+[Admin/Tools/DataManagers](../../../../Admin/Tools/DataManagers)

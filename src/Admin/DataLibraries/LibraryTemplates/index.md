@@ -1,4 +1,5 @@
 # Data Library Templates
+
 ----
 
 Data library templates provide a way to associate information (metadata) with the data library or it's contained folders and datasets.  A template
@@ -32,7 +33,6 @@ clicking the "Add field" button and setting the field type for each additional d
 * !TextArea - displays a text area
 * !TextField - displays a text field
 * !WorkflowField - displays a select list whose options are the current user's workflows
-
 
 ![](../../../DataLibraries/form_definition1.png)
 

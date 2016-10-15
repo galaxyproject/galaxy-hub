@@ -92,6 +92,7 @@ To run the Galaxy functional tests see [Running Tests](../../../Admin/RunningTes
 ### Output File Comparison Methods
 
 #### diff
+
 The default comparison method (*diff*) simply compares line by line in a file to check if the result of the test run of the tool matches the expected output specified in the `<output>` tag. A *lines_diff* attribute can be provided to allow the declared number of lines to differ between outputs. A 'change' in a line is equivalent to a count of 2 line differences: one line removed, one line added.
 
 ```

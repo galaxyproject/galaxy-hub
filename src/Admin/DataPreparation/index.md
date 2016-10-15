@@ -7,6 +7,7 @@ Tutorial: [Events/GCC2014/TrainingDay](../../Events/GCC2014/TrainingDay#tool_dev
 **NOTE: Be aware that that as of early 2014, builds are incorporated into the Galaxy schema in tables. [Data Managers](../../Admin/Tools/DataManagers) are recommended to index new genomes (these are found in the [ToolShed](../../ToolShed). *This wiki is considered legacy and provided as a reference.***
 
 # Builds list changes
+
 If you still choose to do this manually, follow the instructions at [Data Integration](../../Admin/DataIntegration) to start, (**impact**: more than just a builds.txt file is needed to establish a new reference genome), making certain that your server has the necessary changes/additions to the [Data Tables](../../Admin/Tools/Data Tables) model or use the alternate configuration file, then follow the guide here for the organization and execution of **data preparation** tasks in a local or cloud instance. 
 
 # Rsync data
@@ -51,26 +52,33 @@ For tools from the "Fastx Toolkit", go to the [http://hannonlab.cshl.edu/fastx_t
 Two other common dependencies are "rpy" (a Python library) and "R". Start with rpy first. Check if R was built with the `--enable-R-shlib` option if you run into problems (unlikely, this is default in pre-compiled binaries). Go to [http://rpy.sourceforge.net](http://rpy.sourceforge.net) and [http://www.r-project.org](http://www.r-project.org) for the current download and instructions. 
 
 #### Bowtie/Bowtie2 installation
+
 To install Bowtie and/or Bowtie2, go to the [http://bowtie-bio.sourceforge.net/index.shtml](http://bowtie-bio.sourceforge.net/index.shtml) or [http://sourceforge.net/projects/bowtie-bio/files/bowtie2](http://sourceforge.net/projects/bowtie-bio/files/bowtie2). Download (source or binary) and follow the instructions per tool. 
 
 #### BWA installation
+
 To install BWA, download the source from [http://bio-bwa.sourceforge.net](http://bio-bwa.sourceforge.net). To install, open the archive and run `make` in the new BWA directory. 
 
 #### LASTZ installation
+
 LASTZ is downloaded from [http://www.bx.psu.edu/miller_lab/dist](http://www.bx.psu.edu/miller_lab/dist) (e.g. `lastz-X.0n.m.tar.gz`). Installation help is at [http://www.bx.psu.edu/miller_lab/dist/README.lastz-X.0X.X0/README.lastz-X.0X.X0.html](http://www.bx.psu.edu/miller_lab/dist/README.lastz-X.0X.X0/README.lastz-X.0X.X0.html).
 
 #### Extract Genomic DNA installation
+
 The Extract tool is downloaded from [http://genome.ucsc.edu](http://genome.ucsc.edu). It uses the same reference index as LASTZ and the instructions for the data prep is merged below.
 
 #### Megablast installation
+
 Megablast in Galaxy was updated to use [NCBI BLAST+](http://blast.ncbi.nlm.nih.gov) (`BLASTN`) in April 2012 (changeset [0b5cb60e4810](https://bitbucket.org/galaxy/galaxy-central/changeset/0b5cb60e4810#chg-tools/metag_tools/megablast_wrapper.xml)). See [dependencies wiki](../../Admin/Tools/Tool Dependencies) for current version then [download blast+](http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download). Many data indexes are available directly at NCBI from [ftp://ftp.ncbi.nlm.nih.gov/blast/db/](ftp://ftp.ncbi.nlm.nih.gov/blast/db/)
 
 #### Picard/SRMA installation
+
 SRMA is a Java program that relies on Picard, a Java implementation of C Samtools. SRMA is available from the [Sourceforge SRMA project](https://sourceforge.net/projects/srma/files/). The SRMA jar file should be named `srma.jar` and placed in `$GALAXY_PATH/tool-data/shared/jars`. If you want to compile SRMA from source, you will also need to install Picard ([Sourceforge Picard project](http://sourceforge.net/projects/picard/files/)) and extract it into the lib directory of the SRMA directory. You can get more info on SRMA from [its wiki](http://sourceforge.net/apps/mediawiki/srma/index.php?title=Main_Page). 
 
 (Note that there also is a C version of SRMA, but the Galaxy team does not use it as of the last page edit.)
 
 ### NGS: SAM Tools
+
 SAM Tools is highly recommended, if not actually considered required, for every local instance running any other tools in the "NGS:" tool groups. SAM Tools is available at [http://samtools.sourceforge.net](http://samtools.sourceforge.net). To install: unpack the archive in a new `/samtools` directory and then run `make`.
 
 
@@ -82,7 +90,6 @@ There are three key steps:
 1. Obtain the data
 1. Index or prepare it
 1. Modify the associate .loc file (this tells Galaxy how to find/use it)
-
 
 ### Build Names
 
@@ -239,7 +246,6 @@ The index files that will be created for Bowtie are:
 * `index_basename.rev.1.ebwt`
 * `index_basename.rev.2.ebwt`
 
-
 The index files that will be creates for Bowtie2 are:
 * `index_basename.1.bt2`
 * `index_basename.2.bt2`
@@ -247,7 +253,6 @@ The index files that will be creates for Bowtie2 are:
 * `index_basename.4.bt2`
 * `index_basename.rev.1.bt2`
 * `index_basename.rev.2.bt2`
-
 
 #### Setting Up loc Files
 
@@ -261,8 +266,6 @@ The index files that will be creates for Bowtie2 are:
 * Remove any rows for databases that you no longer want to host if you are altering an existing .loc
 * You can make sure the file was created correctly by restarting the server and opening up the Bowtie/Bowtie2, Bowtie_color, or Tophat/Tophat2 tool, and checking the dropdown menu of genomes. These tools are found in the tool groups **NGS: Mapping** and **NGS: RNA Analysis**, unless you custom installed them elsewhere.
 * Test the new database(s) by running a few sequences that you expect to have hits with default parameters.
-
-
 
 ### BWA
 
@@ -283,13 +286,10 @@ The following index files will be created for the FASTA file `name.fasta`:
 * `reference_in.fasta.pac`
 * `reference_in.fasta.sa`
 
-
 Note: that if using BWA version earlier than 5.10, you will also see the following *reverse* index files:
 * `reference_in.fasta.rbwt`
 * `reference_in.fasta.rpac`
 * `reference_in.fasta.rsa`
-
-
 
 #### Setting Up loc File
 
@@ -304,8 +304,6 @@ Note: that if using BWA version earlier than 5.10, you will also see the followi
 * You can make sure the file was created correctly by restarting the server and opening up the BWA tool, and checking the dropdown menu of genomes.
 * Test the new database(s) by running a few sequences that you expect to have hits with default parameters.
 
-
-
 ### SAM Tools
 
 #### Generating Indices
@@ -318,7 +316,6 @@ No special options are needed.
 
 The following index files will be created for the FASTA file `name.fasta`:
 * `ref.fasta.fai`
-
 
 Place a relative symbolic link to the original FASTA file in the same location as the sam index (or the original file), making sure the original FASTA file can be read by the Galaxy user. The Galaxy team uses a symbolic link to both organize files (placing the FASTA in a distinct directory) and to reduce data duplication. Creating a structure like:
 
@@ -344,7 +341,6 @@ Place a relative symbolic link to the original FASTA file in the same location a
 * You can make sure the file was created correctly by restarting the server and a tool from the **SAM Tools** tool set. Input datasets should have a database assigned that corresponds to a database having a sam index.
 * Test the new database(s) by running a few datasets through tools. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](../../Learn/Managing Datasets#dataset_icons)). 
 
-
 ### LASTZ and EXTRACT Genomic DNA
 
 Have LASTZ installed in your `$PATH`, although it is not needed for creating indexes, you will need it for testing/using the tool.
@@ -356,7 +352,6 @@ Type tool at command prompt for more usage details.
 
 The following index files will be created for the FASTA file `name.fasta`:
 * `ref.2bit`
-
 
 The Galaxy team places the .2bit file in the same location as the original fasta FASTA file to stay organized, such as: 
 
@@ -379,8 +374,6 @@ The Galaxy team places the .2bit file in the same location as the original fasta
 * Restarting the server 
 * You can make sure the `lastz_seqs.loc` is correct by opening up the LASTZ tool, and checking the dropdown menu of genomes. Test the new database(s) by running a few sequences that you expect to have hits with default parameters.
 * You can make sure the `alignseq.loc` is correct by loading a simple [BED](../../Learn/Datatypes#bed) file of coordinates that you know will pull regions from the target genome as a dataset, assigning the database as the reference genome that you are testing, and running the tool. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](../../Learn/Managing Datasets#dataset_icons)). 
-
-
 
 ### Megablast
 
@@ -405,8 +398,6 @@ or
 * Remove any rows for databases that you no longer want to host
 * You can make sure the file was created correctly by restarting the server and opening up the Megablast page, where you should see the list of databases you added. 
 * Test the databases by running a few of the sequence from the same database against themselves through the UI (self-hits) with simple filtering set to "no" (-F F). (Load a few .fa sequences as a dataset -> run tool).
-
-
 
 ### SRMA
 

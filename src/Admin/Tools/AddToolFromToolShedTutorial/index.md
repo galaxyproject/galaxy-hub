@@ -15,7 +15,6 @@ If the tool you need does not exist in the Tool Shed you can add it to your Gala
 * use the Tool Shed search or browse at https://toolshed.g2.bx.psu.edu/
 * use the experimental search at http://toolshed.tools/
 
-
 ## 1. (optional) Connect Your Galaxy to a Tool Shed
 
 Galaxy is by default connected to the Main Tool Shed. However you can optionally connect to other custom Tool Sheds by modifying the `config/tool_sheds_conf.xml` file in the Galaxy directory. There are many Tool Sheds worldwide but the Galaxy Team maintains two: Main Tool Shed ([http://toolshed.g2.bx.psu.edu/](http://toolshed.g2.bx.psu.edu/)) and Test Tool Shed ([http://testtoolshed.g2.bx.psu.edu/](http://testtoolshed.g2.bx.psu.edu/)). By default, the Main Tool Shed configuration is already present and we recommend using it.
@@ -75,4 +74,5 @@ You can also check the states of all installed tools if you click `Manage instal
 ![](../../../Admin/Tools/AddToolFromToolShedTutorial/repo_status.png)
 
 # Automated Installation of Tools
+
 The same process as described above can be performed in an automated way using a set of scripts. This is particularly useful if you are trying to install a large number of tools. The required scripts are available as an [Ansible](http://www.ansible.com/home) playbook from [here](https://github.com/afgane/galaxy-tools-playbook). See that page for complete instructions.

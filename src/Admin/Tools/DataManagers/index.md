@@ -40,7 +40,6 @@ PLACEHOLDER_FULL_SEARCH_CACHED(category:Admin/Tools/DataManagers/HowTo)
 
 * [Admin/Tools/Data Tables](../../../Admin/Tools/Data Tables)
 
-
 ----
 
 [Admin/Tools/DataManagers](../../../Admin/Tools/DataManagers)

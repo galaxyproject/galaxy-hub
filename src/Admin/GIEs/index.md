@@ -16,7 +16,6 @@ There is currently one IE built into Galaxy:
 * [IPython](https://github.com/bgruening/galaxy-ipython/)
 * [RStudio](https://github.com/erasche/galaxy-rstudio/)
 
-
 And more on the way
 
 ## Setup IE's on your server
@@ -26,7 +25,6 @@ To enable IE's in your Galaxy instance you need to do the following:
 * Copy `config/plugins/interactive_environments/ipython/config/ipython.ini.sample` over to `config/plugins/interactive_environments/ipython/config/ipython.ini`
 * Adjust the config file if needed, for example to set the docker command if Galaxy cannot run sudo-less docker with `docker` command.
 * Install the Galaxy IE proxy (you might need set this sym-link first:  *ln -s /usr/bin/nodejs /usr/bin/node* )
-
 
 ```
 $ cd lib/galaxy/web/proxy/js
@@ -40,7 +38,6 @@ If your IE shows up, but you get an error like: "Could not connect to a galaxy i
 * set 'host' to the IP address of your galaxy server in config/galaxy.ini (instead of 127.0.0.1)
 * set 'galaxy_url' to  <IP address>:8080 in the config file (i.e. ipython.ini)
 
-
 ## "Enterprise" Deployments
 
 There are some extra considerations with "enterprise" deployments like running docker on a dedicated machine, and having everything under a single /galaxy URL that users will be accessing your services at. 
@@ -48,7 +45,9 @@ There are some extra considerations with "enterprise" deployments like running d
 ### Upstream Proxies
 
 #### 15.07
+
 ##### Nginx
+
 See the [Nginx configuration page](../../Admin/Config/nginxProxy#configuring_nginx_for_galaxy_interactive_environments_28150729) for more details about how to configure it for the GIEs
 
 #### 15.10+

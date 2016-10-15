@@ -21,7 +21,6 @@ You only need to download Galaxy if you plan to:
 * Develop [Galaxy tools](../../Admin/Tools/AddToolTutorial)
 * [Develop Galaxy](../../Develop) itself
 
-
 ## Requirements
 
 * UNIX/Linux or Mac OS X (although you can [try with Windows](../../Admin/Config/Windows))
@@ -30,11 +29,12 @@ You only need to download Galaxy if you plan to:
 * GNU Make, gcc to compile and install tool dependencies
 * Additional tool requirements as detailed in [Tool Dependencies](../../Admin/Tools/ToolDependencies)
 
-
 ## Get the Code
+
 Galaxy's source code is hosted in a [GitHub repository](https://github.com/galaxyproject/galaxy). Below are your basic options on how to obtain the source code so you can use Galaxy. For more information see [source code details](../../Develop/SourceCode).
 
 ### For Production or Single User
+
 If running a production Galaxy service or creating your own personal Galaxy server, you should use the latest release branch, which only receives stable code updates ([list of releases](https://docs.galaxyproject.org/en/master/releases/)).
 
 * If you do not have a Galaxy repository yet or you do not want to update the existing instance, run:
@@ -52,6 +52,7 @@ $ git checkout release_16.07 && git pull --ff-only origin release_16.07
 
 
 ### For Development
+
 If you are getting Galaxy for development, you want to use the default branch after cloning - `dev`. This is the branch that most pull requests should be made against, if you are contributing code back (unless you are fixing a bug in a Galaxy release). 
 
 ```sh
@@ -84,7 +85,9 @@ Upon restarting, Galaxy will bind to any available network interfaces instead of
 
 ----
 # What to do next
+
 ## Become an Admin
+
 In order to control your new Galaxy through the UI (installing tools, managing users, creating groups etc.) you have to become an [administrator](../../Admin/Interface). First register as a new user and then give the user admin privileges like this: 
 You add the Galaxy login ( email ) to the Galaxy configuration file (`config/galaxy.ini`). If the file does not exist you can copy it from the provided sample (`config/galaxy.ini.sample`). Note that you have to restart Galaxy after modifying the configuration for changes to take effect. [More help with an example how-to.](../../Admin/GetGalaxy#become_an_admin_example)
 
@@ -174,15 +177,11 @@ Restore the fresh backup if a database update was required, and then restart Gal
 
 * Offline start: The initial Galaxy run requires internet access to download the pre-built Python wheels of Galaxy's dependencies.
 
-
 * The basic Galaxy install is a single-user instance and is only accessible by the local user. As with many web-based applications, enable cookies in the web-browser used for full functionality.
-
 
 * A common practice when using any web browser is to stay current with software updates to maximize performance and security. If moving forward to [production server](../../Admin/Config/Performance/ProductionServer) with login enabled, please make sure you and your end-users are current.
 
-
 * Some tools shipped with Galaxy have dependencies that need to be satisfied manually. Please see details [here](../../Admin/Tools/ToolDependencies).
-
 
 # Help
 
@@ -192,13 +191,11 @@ Restore the fresh backup if a database update was required, and then restart Gal
   * If you don't have [Git](http://git-scm.com/) (and thus can't run the `git` command), you can download Galaxy in an archive instead: [zipped](https://github.com/galaxyproject/galaxy/archive/master.zip) or [tar/gzipped](https://github.com/galaxyproject/galaxy/archive/master.tar.gz).  
   * Be aware that this makes it more difficult to stay up to date in the future since there's no simple way to update your copy.
 
-
 ## Get Galaxy for Development
 
 * *Fork Galaxy in !GitHub*
   * If you're doing development or making changes to Galaxy, it's typically a good idea to fork Galaxy in !GitHub and update to/from your fork. 
   * This changes the process slightly, see the [GitHub fork documentation](https://help.github.com/articles/fork-a-repo/) for details.
-
 
 ## Become an Admin: Example
 
@@ -208,7 +205,6 @@ Follow these steps to edit `config/galaxy.ini.sample` for a brand new Galaxy.
 * Galaxy was installed Galaxy using Git. 
 * Galaxy was started at least once using "*sh run.sh*".
 * Galaxy is now stopped. [Help](../../Admin/GetGalaxy#shutting_down_galaxy)
-
 
 *Add yourself as an administrator while creating a `config/galaxy.ini` file*
 
@@ -248,13 +244,11 @@ Simplified instructions for users managing their own local Galaxy server. If you
   * From another terminal window, find all active processes with the command `ps`. The list of processes will each have a process ID (called PID). The target process will be named like "*python ./scripts/paster.py serve config/galaxy.ini.sample*". Stop it with the command ```kill PID```, where "PID" is the actual process ID number. 
   * If you kill only the process named "*sh run.sh*", this will result in conflicts and Galaxy will not restart. If you did this or are simply getting errors when trying to restart Galaxy, the solution is to kill the process "*python ./scripts/paster.py serve config/galaxy.ini.sample*" before restarting Galaxy again.
 
-
 ## Other Resources
 
 <div class='right'><a href='http://galaxyproject.org/search/getgalaxy'><img src="../../Images/Logos/GetGalaxySearch.png" alt="Galaxy administration, tool, and deployment search" width="170" /></a></div>
 
 * [Search all Galaxy administration resources](http://galaxyproject.org/search/getgalaxy)
-
 
 * [Galaxy KickStart Ansible playbook](https://github.com/ARTbio/GalaxyKickStart) : To deploy Galaxy on your local machine or the cloud using Ansible, you can use the playbook and follow the steps on the [docs](https://artbio.github.io/GalaxyKickStart/) for details.
 

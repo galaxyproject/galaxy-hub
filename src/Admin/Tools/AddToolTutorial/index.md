@@ -3,6 +3,7 @@ PLACEHOLDER_INCLUDE(../../../Develop/LinkBox)
 PLACEHOLDER_INCLUDE(../../../Admin/Tools/LinkBox)
 
 ## Adding custom tools to Galaxy
+
 Vast number of good and well-implemented tools for Galaxy is available through the [Galaxy ToolShed](../../../ToolShed) and you can freely install any of them into your Galaxy instance via the [admin interface](../../../Admin/Interface). Short tutorial to get you started is available [here](../../../Admin/Tools/AddToolFromToolShedTutorial).
 
 
@@ -108,6 +109,7 @@ At this point, start Galaxy by typing `sh run.sh` from within Galaxy's root dire
 Note the correspondence between elements of the `toolExample.xml` file (Step 2) and the interface elements shown above. The "Compute GC for" dropdown reads "no data has the proper type" because the history pane contains no data in the FASTA format (it is empty).
 
 ### 6. (optional) Upload your tool to the Tool Shed:
+
 If you want to easily share your tool with others upload it to the [Galaxy Tool Shed](../../../ToolShed). It allows others to install the tool into their Galaxies seamlessly via the [Admin interface](../../../Admin/Interface). If the tool is well written and tested it can even make it to the [Main Galaxy instance](../../../Main) or other [Public Galaxy Servers](../../../PublicGalaxyServers)!
 
 To get started with the sharing of your tool please see Tool Shed's [Get started](../../../ToolShedGetStarted).

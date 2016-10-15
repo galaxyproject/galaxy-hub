@@ -1,6 +1,6 @@
 ---
-title: Galaxy Job Configuration
 autotoc: true
+title: Galaxy Job Configuration
 ---
 PLACEHOLDER_INCLUDE(../../../Admin/LinkBox)
 PLACEHOLDER_INCLUDE(../../../Admin/Config/Performance/LinkBox)

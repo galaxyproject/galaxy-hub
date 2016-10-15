@@ -35,13 +35,11 @@ Checklist for !DataSource tools:
   1. If using the built-in "data_source.py" script then the value of the "name" attribute must match the first parameter passed to "data_source.py" in the <command> tag set.
 1. Finally, the tag <options sanitize="False" refresh="True"/> should be inside the <tool> tag set.
 
-
 <uihints> and <display> are no longer used.
 
 Some example !DataSources:
 * https://github.com/galaxyproject/galaxy/blob/dev/tools/data_source/ucsc_tablebrowser.xml
 * https://github.com/erasche/galaxy-data_source-examples
-
 
 A custom downloader can be used for advanced interaction. Example: The GenomeSpace data_tools use a custom script to handle lots more than just multiple files: handles the GenomeSpace username+token transactions, and also attempts to make use of GenomeSpace's metadata, etc; all by interacting via the GenomeSpace API.
 
@@ -53,7 +51,6 @@ As data sources go we distinguish between **two** different data generation mode
 
 * The first approach characterizes services that stream data. These are sites that can generate data on "the fly" in response to a set of parameters. We'll call this approach the **synchronous** data generation.
 * The second methodology includes sites that first collect parameters then run a background process to generate results. Once finished the systems send a notification that the data is ready for download. We'll call this method **asynchronous** data generation.
-
 
 ### Synchronous data depositing
 
@@ -72,7 +69,6 @@ This process operates similarly to the synchronous one, the exception being that
 
 1. The same as steps 1. through 4. for the synchronous data depositing. For the step 4 above, Galaxy will create another parameter `GALAXY_URL` that will uniquely characterize the data that is returned. The result of the resubmission step of this step is a data entry that is *waiting* for the data source.
 1. When the data created by the datasource is ready the datasource will have to reconnect to the url specified in `GALAXY_URL` and submit via HTTP GET the `STATUS` and `URL` parameters. Galaxy will then make a background request to fetch the data stored at the location `URL`.
-
 
 **Inter-process communication** is performed via a very simple text outputs. Commands that have been executed correctly may write any kind of text messages. If the text ends with the word `OK` it will be considered a successful submission. Messages that do not end with `OK` will be treated as errors. There is no requirement on interpreting any of the messages; they primarily serve for informational/debugging purposes. 
 

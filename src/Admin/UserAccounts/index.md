@@ -1,4 +1,5 @@
 # User Accounts Administration
+
 Galaxy admins have an option to turn on the email verification feature to force users to provide working email during the registration. You can also turn on the disposable email domains filter to disable registration for users using known disposable email provider. 
 
 How to set up this config is presented here.
@@ -6,6 +7,7 @@ How to set up this config is presented here.
 *Note: SQLite database is not supported with this feature. Please use PostgreSQL.*
 
 ## Account activation feature
+
 In the Galaxy config file **config/galaxy.ini** there is the user activation setting that you have to turn on.
 
 ```
@@ -59,6 +61,7 @@ Your Galaxy Team
 ```
 
 ### Changing email address
+
 If activated user changes email address in user settings his/her account will be deactivated. A new activation link will be sent and user is required to visit it to activate the account again.
 
 ### Grace period
@@ -80,6 +83,7 @@ However with inactive account the user won't be able to run jobs and warning mes
 ```
 
 ## Disposable email address filtering
+
 <a name="disposable_email_filter"></a>
 
 To prevent users from using disposable email addresses as a workaround for the email verification the domain blacklist can be turned on through the **blacklist_file** path parameter. Users that use disposable email domains defined at the file in this provided path will be refused registration.

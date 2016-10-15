@@ -1,4 +1,5 @@
 ## Adding MAFs to Galaxy
+
 Related to: 
 * [Admin/DataPreparation](../../Admin/DataPreparation) 
 * [Admin/DataIntegration](../../Admin/DataIntegration)
@@ -31,16 +32,15 @@ Once you have added MAFs, the Galaxy server must be reset (or tools reloaded) so
   * There are 5 required fields
 * Lines beginning with **#** are ignored
 
-
-
 ### Description of Fields
 
 #### First Field
+
 * Display Name, as seen by Users
   * i.e. `3-way multiZ (hg18,panTro2,rheMac2`
 
-
 #### Second Field
+
 * A unique ID for the MAFs
   * i.e. `3_WAY_MULTIZ_hg18`
   * Any combination of letters and/or numbers is acceptable
@@ -48,28 +48,26 @@ Once you have added MAFs, the Galaxy server must be reset (or tools reloaded) so
   * Make sure that the ID that you select is different than any other
     * If not, one of the datasets will be unknown to the tool
 
-
-
 #### Third Field
+
 * Comma-separated list of database builds which have been indexed.
   * i.e. `hg18,mm6,canFam1,panTro1`
 * If species name in MAF file differs from build ID:
   * build1[=name_in_file],build2[=name_in_file]
     * i.e. `hg18=human,mm6=mouse`
 
-
 #### Fourth Field
+
 * Comma-separated list of database builds which exist in the file.
   * i.e. `hg18,mm6,canFam1,panTro1`
 
-
 #### Fifth Field
+
 * Comma-separated list of full paths to the .MAF files
 * These files must be accessible to the Galaxy Server
 
-
-
 ### An Example Entry
+
 You want to add a set of MAFs with the following characteristics:
 * Has the description of "3-way multiZ (hg18,panTro2,rheMac2"
 * Decide upon and confirm that the UID "3_WAY_MULTIZ_hg18" has not been used
@@ -86,6 +84,7 @@ The entry would look like this:
 ## Some Questions/Answers
 
 ### Why doesn't my MAF set appear in my drop down menu?
+
 * You didn't reset the server or reload the tool
   * The server must be reset in order for the tool to be aware of its presence
 * You did not include all the required fields

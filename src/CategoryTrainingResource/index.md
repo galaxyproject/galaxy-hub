@@ -1,5 +1,5 @@
-Pages that describe a [Galaxy Teaching Resource](/Teach/Resources).
+Pages that describe a [Galaxy Teaching Resource](../Teach/Resources).
 
 **List of pages in this category:**
 
-PLACEHOLDER_FULL_SEARCH_CACHE(CategoryTrainingResource)
+PLACEHOLDER_FULL_SEARCH_CACHED(CategoryTrainingResource)

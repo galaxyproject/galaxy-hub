@@ -2,6 +2,7 @@
 autotoc: true
 ---
 # Galaxy Data Manager XML File
+
 ----
 
 The XML File for a Galaxy Data Manager, generally referred to as the "data manager config file", serves a number of purposes.  It defines the availability of Data Managers to a Galaxy instance. It does this by specifying the id of the Data Manager and the Data Manager tool that is associated with it. It also contains a listing of the Tool Data Tables that can be added to by the Data Manager. It also specifies how to manipulate the raw column values provided by the Data Manager Tool and under what directory structure to place the finalized data values. 
@@ -13,14 +14,15 @@ Pay attention to the following when creating a new Data Manager:
 1. **Make sure you use an id that is unique within your Galaxy instance** - Galaxy can only load one Data Manager having an the same ID at a single time.
 1. **When completed, make your Data Manager available in a ToolShed and install it from there** - This will avoid any possible collisions due to non-unique IDs, as specialized name-spacing is utilized when Data Managers are installed from a ToolShed.
 
-
 A Galaxy Data Manager's config file consists of a subset of the following XML tag sets - each of these is described in detail in the following sections.
 
 
 
 ## Details of XML tag sets
+
 ----
 ### <data_managers> tag set
+
 The outer-most tag set. It contains no attributes. Any number of <data_manager> tags can be included within it.
 
 ----

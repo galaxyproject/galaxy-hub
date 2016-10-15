@@ -1,9 +1,11 @@
 # Enabling upload to Galaxy via FTP
+
 To allow users to upload files to Galaxy via FTP, you'll need to configure Galaxy and install an FTP server. After everything is configured users will be able to upload their files through the FTP server and then select them for importing in the upload dialog in Galaxy.
 
 For help with uploading data via FTP on Galaxy [Main](../../../Main), please see this [tutorial](../../../FTPUpload).
 
 ## Install some FTP server
+
 Although there is no specific required server, we use [ProFTPD](http://proftpd.org/) for our [public site](http://usegalaxy.org/) since it supports all the things we'll need to be able to do, such as authenticating against the Galaxy database. We recommend you to use the same FTP server as the configurations we provide are targeting it. You can also browse the list of alternative FTP servers at http://en.wikipedia.org/wiki/List_of_FTP_server_software
 
 ## Configure Galaxy
@@ -47,7 +49,6 @@ Although any FTP server should work, our public site uses ProFTPD.  You'll need 
 * mod_sql
 * mod_sql_postgres or mod_sql_mysql
 * mod_sql_passwd
-
 
 We compile by hand using the following configure arguments (OpenSSL is prebuilt and statically linked), you should read the INSTALL file that come with the proftpd source distribution. At least you should consider if you need to use any of these options "install_user=<user> install_group=<group> ./configure --sysconfdir=/etc --localstatedir=/var":
 

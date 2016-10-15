@@ -1,6 +1,6 @@
 ---
-title: Running Galaxy in a production environment
 autotoc: true
+title: Running Galaxy in a production environment
 ---
 PLACEHOLDER_INCLUDE(../../../../Admin/Config/Performance/LinkBox)
 
@@ -33,6 +33,7 @@ Many of the following instructions are best practices for any production applica
 * Give Galaxy its own database user and database to prevent Galaxy's schema from conflicting with other tables in your database.  Also, restrict Galaxy's database user so it only has access to its own database.
 * Make sure Galaxy is using a clean Python interpreter.  Conflicts in $PYTHONPATH or the interpreter's `site-packages/` directory could cause problems.  Galaxy manages its own dependencies for the framework, so you do not need to worry about these.  The easiest way to do this is with a [virtualenv](http://pypi.python.org/pypi/virtualenv):<br /><br />
     ```
+
 nate@weyerbacher% wget http://bitbucket.org/ianb/virtualenv/raw/tip/virtualenv.py
 --11:18:05--  http://bitbucket.org/ianb/virtualenv/raw/tip/virtualenv.py
            => `virtualenv.py'
@@ -157,8 +158,6 @@ To get started with setting up local data, please see [Data Integration](https:/
 * Installed tool packages from the [Tool Shed](../../../../ToolShed) may also include location files.
 * Comments in location files explain the expected format.
 * Wikis linked from [Data Integration](https://wiki.galaxyproject.org/Admin/DataIntegration) explain how to obtain, create, or rysnc many common data and indexes. See an individual Tool Shed repository's documentation for more details.
-
-
 
 ### Enable upload via FTP
 

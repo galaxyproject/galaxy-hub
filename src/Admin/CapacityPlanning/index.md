@@ -22,5 +22,7 @@ Absolutely.  In fact, if your needs tend to be characterized by long periods of 
 See the [Cloud page](../../Cloud) for information on getting started with the cloud.
 
 ## See Also
+
 * [Cloud](../../Cloud) - Galaxy on the cloud options
 * [Public Galaxy Servers](../../Public Galaxy Servers) - a list of known, publicly accessible, Galaxy servers.
+

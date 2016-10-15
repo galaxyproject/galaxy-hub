@@ -7,7 +7,6 @@ This describes configuration of a proposed user interface addition to existing [
 * Organizing of samples via projects, with full transparency on status to researchers.
 * Full integration with the existing Galaxy analysis framework.
 
-
 See the [detailed overview](http://bcbio.wordpress.com/2011/01/11/next-generation-sequencing-information-management-and-analysis-system-for-galaxy/) and [Slides from GalaxyDev 2010](http://www.slideshare.net/chapmanb/nextgeneration-sequencing-request-management-system-in-galaxy) for more information. We welcome your feedback and thoughts.
 
 Once you follow the setup instructions below, the sample tracking system will be available from the top level menu of a logged in user as Lab -> Next gen sample submission.

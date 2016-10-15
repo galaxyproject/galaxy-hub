@@ -7,11 +7,9 @@ Hub Page for [Galaxy administration](../../Admin) training materials. See also t
 * [Galaxy Admin Tutorial|Galaxy Admin Tutorial](GalaxyAdminTutorial)
 * [ISMB2010 Galaxy Tutorial: Running Your Own](ISMB2010 Galaxy Tutorial: Running Your Own)
 
-
 ### Tutorials on Other Sites
 
 * [Cloud Computing for Bioinformatics](http://training.bioinformatics.ucdavis.edu/docs/2012/05/AWS/index.html) (using AWS, but not using CloudMan)
-
 
 ## See Also
 
