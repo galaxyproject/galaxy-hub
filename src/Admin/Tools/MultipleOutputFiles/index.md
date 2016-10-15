@@ -13,8 +13,7 @@ Tools which create more than one output file are common.  There are several diff
 
 Handling cases when tools create a static number of outputs is simple.  Simply include an <output> tag for each output desired within the tool XML file:
 
-```
-#!highlight xml
+```xml
 <tool id="example_tool" name="Multiple output" description="example">
     <command>example_tool.sh $input1 $tool_option1 $output1 $output2</command>
     <inputs>
@@ -34,8 +33,7 @@ Handling cases when tools create a static number of outputs is simple.  Simply i
 In cases when the number of output files varies, but can be determined based upon a user's parameter selection, the use of the filter tag can be used.  The text contents of the <filter> tag are **eval**ed and if the expression is True a dataset will be created as normal.  If the expression is False, the output dataset will not be created; instead a !NoneDataset object will be created and made available - when used on the command line the text **None** will appear instead of a file path. The local namespace of the filter has been populated with the tool parameters.
 
 
-```
-#!highlight xml
+```xml
 <tool id="example_tool" name="Multiple output" description="example">
     <command>example_tool.sh $input1 $tool_option1 $output1 $output2</command>
     <inputs>
@@ -84,8 +82,7 @@ example_tool.sh input1_FILE_PATH 2 output1_FILE_PATH output2_FILE_PATH
 
 The datatype of an output can be determined by conditional parameter settings as in  tools/filter/pasteWrapper.xml
 
-```
-#!highlight xml
+```xml
  <outputs>
    <data format="input" name="out_file1" metadata_source="input1">
      <change_format>
@@ -134,7 +131,7 @@ The application must create and write valid html to setup the page `$html_file` 
 The Galaxy Tool Factory includes code to gather all output files and create a page with links and clickable pdf thumbnail images which may be useful as a starting point - eg see https://bitbucket.org/fubar/rgalaxy/src/9932187787e592238c2c6fb514a39ff3a705a9af/tools/rgenetics/rgToolFactory.py?at=default
 
 ### Composite Datatypes
-Html is a subclass of composite datasets so new subclasses of composite can be used to implement even more specific structured outputs (as seen with Rgenetics) but this requires adding the new definition to Galaxy - whereas Html files require no extension of the core framework. For more information visit [CompositeDatatypes](/Admin/Datatypes/Composite Datatypes). 
+Html is a subclass of composite datasets so new subclasses of composite can be used to implement even more specific structured outputs (as seen with Rgenetics) but this requires adding the new definition to Galaxy - whereas Html files require no extension of the core framework. For more information visit [CompositeDatatypes](../../../Admin/Datatypes/Composite Datatypes). 
 
 ## Number of Output datasets cannot be determined until tool run
 
@@ -148,8 +145,7 @@ Examples:
 
 Consider a tool that creates a bunch of text files or bam files and writes them (with extension that matches the Galaxy datatype - e.g. `txt` or `bam` to the `split` sub-directory of the working directory. Such outputs can be discovered by adding the following block of XML to your tool description:
 
-```
-#!highlight xml
+```xml
     <outputs>
         <data format="txt" name="report">
 		<discover_datasets pattern="<u>designation_and_ext__" directory="split" visible="true" />
@@ -162,8 +158,7 @@ So for instance, if the tool creates 4 files (in addition to the report) such as
 
 If the tool doesn't create the files in `split` with extensions or does but with extensions that do not match Galaxy's datatypes - a slightly different pattern can be used and the extension/format can be statically specified:
 
-```
-#!highlight xml
+```xml
     <outputs>
         <data format="txt" name="report">
 		<discover_datasets pattern="</u>designation__" ext="tabular" directory="tables" visible="true" />
@@ -176,8 +171,7 @@ So in this example, if the tool creates 3 tabular files such as `tables/part1.ts
 
 It may not be desirable for the extension (`.tsv`) to appear in the `designation` this way. These patterns `__designation__` and  `__designation_and_ext__` are replaced with regular expressions that capture metadata from the file name using named groups. A tool author can explicitly define these regular expressions instead of using these shortcuts - for instance `__designation__` is just `(?P<designation>.*)` and `__designation_and_ext__` is `(?P<designation>.*)\.(?P<ext>[^\._]+)?`. So the above example can be modified as:
 
-```
-#!highlight xml
+```xml
     <outputs>
         <data format="txt" name="report">
 		<discover_datasets pattern="(?P&lt;designation&gt;.+)\.tsv" ext="tabular" directory="tables" visible="true" />
@@ -196,8 +190,7 @@ If no `discover_datasets` element is nested with a tool output - Galaxy will sti
 
 For instance consider the following output declaration:
 
-```
-#!highlight xml
+```xml
     <outputs>
         <data format="interval" name="output1" metadata_source="input1" />
     </outputs>
@@ -212,6 +205,7 @@ More information:
 * [Track medium term plans for discovered datasets](https://trello.com/c/Aq08H8A5)
 * [Original pull request for discovered dataset enhancements with implementation details](http://bit.ly/gxdiscovereddatasetpr)
 * [Implementation of output collection code in galaxy-central](https://github.com/galaxyproject/galaxy/blob/master/lib/galaxy/tools/parameters/output_collect.py)
+
 
 Legacy information:
 

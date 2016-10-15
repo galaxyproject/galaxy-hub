@@ -7,6 +7,7 @@ This describes configuration of a proposed user interface addition to existing [
 * Organizing of samples via projects, with full transparency on status to researchers.
 * Full integration with the existing Galaxy analysis framework.
 
+
 See the [detailed overview](http://bcbio.wordpress.com/2011/01/11/next-generation-sequencing-information-management-and-analysis-system-for-galaxy/) and [Slides from GalaxyDev 2010](http://www.slideshare.net/chapmanb/nextgeneration-sequencing-request-management-system-in-galaxy) for more information. We welcome your feedback and thoughts.
 
 Once you follow the setup instructions below, the sample tracking system will be available from the top level menu of a logged in user as Lab -> Next gen sample submission.
@@ -51,7 +52,7 @@ $ python scripts/nglims/add_ng_defaults.py universe_wsgi.ini
 ```
 
 
-7. Setup an administration user with the instructions on the standard [Galaxy Admin Interface](/Admin/Interface). Create a "sequencing" role with this admin user; see the [Galaxy security documentation for more details](/Learn/Security Features). Assign that role to any users who will be doing the sequencing work and should have full access to the sample management tools. Regular users -- customers submitting samples -- have access to a limited subset of capabilities.
+7. Setup an administration user with the instructions on the standard [Galaxy Admin Interface](../../../Admin/Interface). Create a "sequencing" role with this admin user; see the [Galaxy security documentation for more details](../../../Learn/Security Features). Assign that role to any users who will be doing the sequencing work and should have full access to the sample management tools. Regular users -- customers submitting samples -- have access to a limited subset of capabilities.
 
 8. For integrating Galaxy analysis scripts with the front-end, generate an API key for your user with "sequencing" permissions. First ensure that the API in enabled in your Galaxy universe_wsgi.ini configuration:
 
