@@ -3,7 +3,7 @@ autotoc: true
 title: Scaling and Load Balancing
 ---
 
-PLACEHOLDER_INCLUDE(../../../../Admin/Config/Performance/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
 <div class='left'></div>
 The Galaxy framework is written in Python and makes extensive use of threads.  However, one of the drawbacks of Python is the [Global Interpreter Lock](http://docs.python.org/c-api/init.html#thread-state-and-the-global-interpreter-lock), which prevents more than one thread from being on CPU at a time.  Because of this, having a multi-core system will not improve the Galaxy framework's performance out of the box since Galaxy can use (at most) one core at a time.  However, Galaxy can easily run in multiple separate processes, which solves this problem.  For a more thorough explanation of this problem and why you will almost surely want to switch to the load balanced configuration if running for more than a small handful of users, see the [Admin/Config/Performance/ProductionServer](../../../../Admin/Config/Performance/ProductionServer) page.
 

@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(../../../Admin/Tools/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
 ## Writing Tests
 
 Preparing test for your Galaxy tool is easy. In short you include a sample input file and asample output file. Then you specify the parameters that with the given tool and input should produce the desired output. 

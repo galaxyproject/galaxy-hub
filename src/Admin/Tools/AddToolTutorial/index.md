@@ -1,6 +1,6 @@
-PLACEHOLDER_INCLUDE(../../../Admin/LinkBox)
-PLACEHOLDER_INCLUDE(../../../Develop/LinkBox)
-PLACEHOLDER_INCLUDE(../../../Admin/Tools/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/LinkBox)
+PLACEHOLDER_INCLUDE(/Develop/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
 
 ## Adding custom tools to Galaxy
 
@@ -114,4 +114,4 @@ If you want to easily share your tool with others upload it to the [Galaxy Tool 
 
 To get started with the sharing of your tool please see Tool Shed's [Get started](../../../ToolShedGetStarted).
 
-PLACEHOLDER_INCLUDE(../../../Develop/ResourcesTools)
+PLACEHOLDER_INCLUDE(/Develop/ResourcesTools)

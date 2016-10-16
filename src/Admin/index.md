@@ -1,6 +1,6 @@
-PLACEHOLDER_INCLUDE(../Admin/LinkBox)
-PLACEHOLDER_INCLUDE(../Develop/LinkBox)
-PLACEHOLDER_INCLUDE(../FAQs/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/LinkBox)
+PLACEHOLDER_INCLUDE(/Develop/LinkBox)
+PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
 
 # Galaxy Administration
 

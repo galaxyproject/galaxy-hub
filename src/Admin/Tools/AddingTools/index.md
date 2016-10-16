@@ -1,6 +1,6 @@
-PLACEHOLDER_INCLUDE(../../../Admin/LinkBox)
-PLACEHOLDER_INCLUDE(../../../Develop/LinkBox)
-PLACEHOLDER_INCLUDE(../../../Admin/Tools/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/LinkBox)
+PLACEHOLDER_INCLUDE(/Develop/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
 # Tutorial for Creating a Histogram Tool
 
 See also the general [ tutorial for adding custom tools](../../../Admin/Tools/Add Tool Tutorial).

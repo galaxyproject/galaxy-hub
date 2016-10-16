@@ -3,7 +3,7 @@ autotoc: true
 title: Galaxy Terminology
 ---
 
-PLACEHOLDER_INCLUDE(../../Under Construction)
+PLACEHOLDER_INCLUDE(/UnderConstruction)
 
 <div class='right'></div>
 New to Galaxy?  Trying to figure out the difference between a *workflow* and a *history?*  This page attempts to be a glossary of Galaxy terminology.

@@ -1,8 +1,8 @@
 ---
 title: Installing Tools into Galaxy from Tool Shed
 ---
-PLACEHOLDER_INCLUDE(../../../Admin/LinkBox)
-PLACEHOLDER_INCLUDE(../../../Admin/Tools/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
 
 
 This page describes the simple and uncomplicated installation of a tool into Galaxy. The process has to be completed by an administrator through the [Admin Interface](../../../Admin/Interface). For more advanced examples and additional description, please see [our guide to installing repositories to Galaxy](../../../ToolShed/InstallingRepositoriesToGalaxy).

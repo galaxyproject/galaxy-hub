@@ -1,6 +1,6 @@
-PLACEHOLDER_INCLUDE(../../Admin/LinkBox)
-PLACEHOLDER_INCLUDE(../../Develop/LinkBox)
-PLACEHOLDER_INCLUDE(../../Admin/Tools/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/LinkBox)
+PLACEHOLDER_INCLUDE(/Develop/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
 # Galaxy Tools
 
 A hub page for [administration](../../Admin) of computational tools within Galaxy framework.

@@ -3,7 +3,7 @@ autotoc: true
 ---
 PLACEHOLDER_INCLUDE(/Admin/LinkBox)
 
-PLACEHOLDER_INCLUDE(../../Under Construction)
+PLACEHOLDER_INCLUDE(/UnderConstruction)
 
 Galaxy has an [Applications Programming Interface (API)](../../Learn/API) that enables access to Galaxy from scripts.  This page describes the [administrative](../../Admin) aspects of the API.  See [Learn/API](../../Learn/API) for information on using the [Galaxy API](../../Learn/API).
 

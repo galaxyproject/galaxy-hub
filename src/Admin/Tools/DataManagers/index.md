@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(../../../Admin/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/LinkBox)
 
 # What are Data Managers?
 

@@ -1,9 +1,9 @@
 ---
 title: Galaxy Capacity Planning
 ---
-PLACEHOLDER_INCLUDE(../../Under Construction)
+PLACEHOLDER_INCLUDE(/UnderConstruction)
 
-PLACEHOLDER_INCLUDE(../../Admin/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/LinkBox)
 
 
 

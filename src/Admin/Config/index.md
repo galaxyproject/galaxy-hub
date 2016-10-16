@@ -1,5 +1,5 @@
-PLACEHOLDER_INCLUDE(../../Admin/LinkBox)
-PLACEHOLDER_INCLUDE(../../Admin/Config/Performance/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
 # Galaxy Configuration
 
 Hub page for Galaxy configuration.
