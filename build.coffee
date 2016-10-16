@@ -28,8 +28,21 @@ clear_collections = (files, metalsmith, done) ->
         delete metadata.collections
     done()
 
+replacement_data = require("./src/includes.json")
+
+subs = (files, metalsmith, done) ->
+    # Quick hack to temporarily handle INCLUDE migration
+    for file, c of files
+        contents = files[file].contents.toString()
+        for z in replacement_data.subs
+            r = "PLACEHOLDER_INCLUDE("+z.search+")"
+            if contents.indexOf(r) != -1
+                contents = contents.replace(r, z.replace)
+        files[file].contents = contents
+    done()
+
 ms = metalsmith(__dirname)
-    #.use clear_collections
+    .use subs
     .use require('metalsmith-metadata')
         menu: "config/menu.yaml"
     .use require('metalsmith-collections')

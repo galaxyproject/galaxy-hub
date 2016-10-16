@@ -1,0 +1,252 @@
+{
+    "subs": [
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/GCC2015/Header"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/GCC2013/BoF/LinkBox"
+        }, 
+        {
+            "replace": "<div class='linkbox'>\n**[/Learn](/Learn)**\n---\n[Histories](/Histories)<br />\n[Screencasts](/Learn/Screencasts)<br />\n[FAQ](/Learn/FAQ)<br />\n[Interval Ops](/Learn/IntervalOperations)<br />\n[Datasets](/Learn/ManagingDatasets)<br />\n[Pages](/Learn/GalaxyPages)<br />\n[Share](/Learn/Share)<br />\n[FTP Upload](/FTPUpload)<br />\n[Accounts](/Learn/UserAccounts)<br />\n[/Support](/Support)<br />\n[Security](/Learn/SecurityFeatures)<br />\n[Search](http://galaxyproject.org/search/usegalaxy)\n</div>\n", 
+            "search": "../LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Learn/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/GCC2015/Footer"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Support/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/GCC2013/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/News/Archive/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/SG2016/Header"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/GCC2016/Header"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/DataLibraries/screen/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Develop/ResourcesAPI"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Under Construction"
+        }, 
+        {
+            "replace": "# Page is intended to be included in other pages, not viewed directly.  Note that this page is partially included in places.  THEREFORE, ONLY CHANGE THE **Current AMI:** and **Deprecated AMIs** lines if you also update the places that include this.\n**Current AMI:**\n* AMI: ami-b45e59de\n* Name: Galaxy-!CloudMan-1457720469 (active dates: 2016-03-24 -> present)\n\nNote that the current AMI represents the environment required to run !CloudMan (in the format of a machine image) and *the machine image release date does not represent the most recent update or version of either !CloudMan or Galaxy*. Versions of those tools can be seen (and automatically updated, with the Update button in the !CloudMan Admin page) once an instance has been instantiated (we are also looking into a more explicit form of making this information available).\n\n\n\nPLACEHOLDER_INCLUDE(/CloudMan/AWS/LinkBox)\n\n**Deprecated AMIs**\n* AMI: ami-d5246abf\n* Name: Galaxy-!CloudMan-1449500413 (active dates: 2015-12-18 -> 2016-03-24)\n* AMI: ami-d1c77fba\n* Name: Galaxy-!CloudMan-1440625733 (active dates: 2015-09-03 -> 2015-12-18)\n* AMI: ami-a7dbf6ce \n* Name: Galaxy !CloudMan 2.3 (active dates: 2014-01-07 -> 2015-09-03)\n* AMI: ami-118bfc78\n* Name: 861460482541/Galaxy !CloudMan 2.0\n* AMI: ami-da58aab3\n* Name: 861460482541/galaxy-cloudman-2011-03-22\n* AMI: ami-9a7485f3\n* Name: 861460482541/galaxy-cloudman-2010-01-12\n* AMI: ami-228a7e4b\n* Name: 115971652512/galaxy-cloudman-2010-10-08\n* AMI: ami-ed03ed84\n* Name: 115971652512/galaxy-2010-04-20_2\n\nNote, the AMI ami-561bc93f, 072133624695/galaxy-cloudman-2012-02-26 is from unknown origin, and not supported.\n", 
+            "search": "AWS/AMIs"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Develop/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/CloudMan/AWS/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Teach/GTN/Badge16"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/AdminTraining2016/Header"
+        }, 
+        {
+            "replace": "<div class='center'><div class='grey'>\n<a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012LogoWide800.png' alt='2012 Galaxy Community Conference (GCC2012), Chicago, Illinois, July 25-27, 2012' width=\"740\" /></a>\n</div></div>\n<br /><br />\n", 
+            "search": "../../../PageHeader"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Community/GalaxyAdmins/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/GCC2013/Header"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Admin/Config/Performance/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/GCC2014/Header"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Teach/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/Badges/Europe"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/GCC2016/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/SG2014/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Cloud/Jetstream/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/Badges/World"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Develop/ResourcesTools"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Support/IRC"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Admin/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/GCC2014/Footer"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/AdminTraining2016/LinkBox"
+        }, 
+        {
+            "replace": "<br />\n\n<div class='center'>Questions? Contact [outreach@galaxyproject.org](Galaxy Outreach)</div>\n", 
+            "search": "Footer"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/GCC2015/LinkBox"
+        }, 
+        {
+            "replace": "<div class='linkbox'>\n**[GCC 2012](../)**\n---\n[Program](../Program)<br />\n[Logistics](../Logistics)<br />\n[Abstracts](../Abstracts)<br />\n[Key Dates](../Key Dates)<br />\n[Register](../Register)<br />\n[Sponsors](../Sponsorships)<br />\n[Promotion](../Promotion)<br />\n[Organizers](../Organizing Committee)<br />\n</div>\n", 
+            "search": "../../../LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Datafiles/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/SG2014/Header"
+        }, 
+        {
+            "replace": "<br />\n\n<div class='center'>Questions? Contact [outreach@galaxyproject.org](Galaxy Outreach)</div>\n", 
+            "search": "../Footer"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Teach/Header"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/FAQs/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/GCC2012/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/ToolShed/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/CloudMan/Header"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Admin/GetGalaxy/Short"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/GCC2016/Footer"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/GCC2013/Footer"
+        }, 
+        {
+            "replace": "<div class='linkbox'>\n**[GalaxyAdmins](/Community/GalaxyAdmins)**<br />\n---\n[Meetups](/Community/GalaxyAdmins/Meetups)<br />\n[Future](/Community/GalaxyAdmins/Future)<br />\n[Surveys](/Community/GalaxyAdmins/Surveys)<br />\n</div>\n", 
+            "search": "../../LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/GCC2012/Ask the Organizers"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/CloudMan/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/Badges/NorthAmerica"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/Badges/Australia"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/SG2016/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/Badges/Asia"
+        }, 
+        {
+            "replace": "<div class='linkbox'>\n**[/Proteomics](/Proteomics)**\n---\n[Use Cases](/Proteomics/UseCases)<br />\n</div>\n", 
+            "search": "LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/GCC2012/PageHeader"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Admin/Tools/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Events/GCC2014/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Documents/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/Images/LinkBox"
+        }, 
+        {
+            "replace": "---\ntitle: Galaxy Community Hub\nlayout: homepage.pug\n---\n\nGalaxy is an open, web-based platform for accessible, reproducible, and\ntransparent computational biomedical research.\n\n- **Accessible:** Users without programming experience can easily specify\n  parameters and run tools and workflows.\n- **Reproducible:** Galaxy captures information so that any user can repeat and\n  understand a complete computational analysis.\n- **Transparent:** Users share and publish analyses via the web and create\n  Pages, interactive, web-based documents that describe a complete analysis.\n\n\nThis is the Galaxy Community Wiki. It describes all things Galaxy.\n", 
+            "search": "/MailingListDetail"
+        }
+    ]
+}
