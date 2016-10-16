@@ -1,4 +1,3 @@
-#acl VettedEditorGroup:read,write,revert All:read
 <div class='center'>
 #### Use Galaxy
 </div>

@@ -2,7 +2,6 @@
 autotoc: true
 title: Support
 ---
-#acl WikiAdminGroup:read,write,revert All:read
 
 <br />
 **What's New?** Watch **[GXYcast1](https://vimeo.com/120839821)**

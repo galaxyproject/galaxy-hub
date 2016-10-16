@@ -1,4 +1,3 @@
-#acl All:read
 
 The group that administers this wiki.
 

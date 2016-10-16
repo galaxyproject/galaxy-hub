@@ -1,4 +1,3 @@
-#acl +wikiAdminGroup:read,write,delete,revert,admin All:read
 
 <div class='right'><div class='table-of-contents'><div class='center'>
 # Notes

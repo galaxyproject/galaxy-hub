@@ -1,7 +1,6 @@
 ---
 autotoc: true
 ---
-#acl WikiAdminGroup:read,write,revert All:read
 PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 
 # Basic Workflow Editing

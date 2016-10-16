@@ -1,7 +1,6 @@
 ---
 date: 2012-08-17T09:57:11Z
 ---
-#acl +wikiAdminGroup:read,write,delete,revert,admin All:read
 
 <div class='noteItemHeader'>[Should we use spaces in title or not to have the best links](/Note/Ssmple How to do this cool thing)</div>
 

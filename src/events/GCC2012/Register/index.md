@@ -1,4 +1,3 @@
-#acl +VettedEditorGroup:read,write +All:read
 PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 
 PLACEHOLDER_INCLUDE(../LinkBox)

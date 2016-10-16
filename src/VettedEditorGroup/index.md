@@ -1,4 +1,3 @@
-#acl All:read
 List of wiki logins that have been vetted and no longer need to answer [TextChas](/HelpOnSpam) to edit pages.  If you want to get on this list, please send your wiki login to [outreach@galaxyproject.org](Galaxy Outreach).
 
 #### A-Ah

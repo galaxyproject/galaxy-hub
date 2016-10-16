@@ -2,7 +2,6 @@
 autotoc: true
 title: Support
 ---
-#acl WikiAdminGroup:read,write,revert All:read
 
 ***Galaxy*** has many options for getting and giving help. 
 <br />
