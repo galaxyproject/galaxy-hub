@@ -1,6 +1,6 @@
 PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 
-PLACEHOLDER_INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
 There are different registration levels, depending on your career stage and your organization's for-profit status, and how early you register.  Our goal has been to make this an *absurdly affordable* conference for students and postdocs, and *downright affordable* for everyone else. 
 
 <table>

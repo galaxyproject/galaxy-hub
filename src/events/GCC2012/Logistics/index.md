@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/Under Construction)
 
 
 
-PLACEHOLDER_INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
 
 Details on conference [location](#venue), [lodging](#lodging), and [transportation](#getting-there) are listed here.
 

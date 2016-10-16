@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions , (, FAQs, ),  about Galaxy
 ---
-PLACEHOLDER_INCLUDE(LinkBox)
+PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
 
 
 * [/Main/FAQ](/Main/FAQ) - Questions about Galaxy's free public server, [/Main](/Main).

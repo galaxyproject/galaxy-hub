@@ -1,6 +1,6 @@
 <div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
 
-PLACEHOLDER_INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 Two surveys of the Galaxy developer/deployer/administrator community have been done:
 

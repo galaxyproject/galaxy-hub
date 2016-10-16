@@ -1,7 +1,7 @@
 ---
 autotoc: true
 ---
-PLACEHOLDER_INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(/Admin/LinkBox)
 
 PLACEHOLDER_INCLUDE(/Under Construction)
 

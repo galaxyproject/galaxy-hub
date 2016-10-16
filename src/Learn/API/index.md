@@ -2,7 +2,7 @@
 autotoc: true
 title: Galaxy Application Programming Interface , (, API, )
 ---
-PLACEHOLDER_INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 
 The most current information about using the API can be found here: [/Develop/API](/Develop/API)
 

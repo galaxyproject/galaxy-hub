@@ -1,6 +1,6 @@
 <div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='GalaxyAdmins' width="250" /></a></div>
 
-PLACEHOLDER_INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 The [GalaxyAdmins](../) group has bi-monthly conference calls and irregular gatherings at various Galaxy-related events.
 

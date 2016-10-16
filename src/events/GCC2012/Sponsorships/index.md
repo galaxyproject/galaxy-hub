@@ -1,7 +1,7 @@
 PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 
 
-PLACEHOLDER_INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
 Is your organization interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Becoming a [2012 Galaxy Community Conference](../) Sponsor is an excellent way to raise your organization's visibility in this active and engaged community.
 
 

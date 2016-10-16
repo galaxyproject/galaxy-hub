@@ -1,7 +1,7 @@
 
 # Proteomics
 
-PLACEHOLDER_INCLUDE(LinkBox)
+PLACEHOLDER_INCLUDE(/Proteomics/LinkBox)
 
 This is a landing page for finding out information about Galaxy-based proteomics efforts. Please check our ongoing planning and documentation of potential proteomics, mass spec, and multi-omics Galaxy [use cases](/Proteomics/UseCases).
 

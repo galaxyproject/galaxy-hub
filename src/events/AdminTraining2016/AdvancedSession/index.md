@@ -3,7 +3,7 @@ title: Galaxy Admin Training, :,  Advanced Topics
 ---
 PLACEHOLDER_INCLUDE(/Events/AdminTraining2016/Header)
 
-PLACEHOLDER_INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(/events/AdminTraining2016/LinkBox)
 
 
 
@@ -269,4 +269,4 @@ The **advanced session will be held at the [Commanders House](http://www.univers
 
 We would like to thank the **[USTAR Center for Genetic Discovery (UCGD)](http://ucgd.genetics.utah.edu/)** for a grant to book this great venue for the advanced workshop.
 
-PLACEHOLDER_INCLUDE(../Footer)
+PLACEHOLDER_INCLUDE(/events/AdminTraining2016/Footer)

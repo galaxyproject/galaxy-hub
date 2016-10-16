@@ -2,13 +2,13 @@
 autotoc: true
 title: Bioinformatics Training and Teaching with Galaxy
 ---
-PLACEHOLDER_INCLUDE(../../../PageHeader)
+PLACEHOLDER_INCLUDE(/events/GCC2012/PageHeader)
 
 
 
 **A [GCC22012](/Events/GCC2012) [Breakout Session](/Events/GCC2012/Program/Breakouts)**
 
-PLACEHOLDER_INCLUDE(../../../LinkBox)
+PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
 <div class='right'></div>
 
 # Participants

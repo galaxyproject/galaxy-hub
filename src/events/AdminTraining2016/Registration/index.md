@@ -82,4 +82,4 @@ Registration is through [EventBrite](https://galaxyadmin2016.eventbrite.com).
 
 
 
-PLACEHOLDER_INCLUDE(../Footer)
+PLACEHOLDER_INCLUDE(/events/AdminTraining2016/Footer)

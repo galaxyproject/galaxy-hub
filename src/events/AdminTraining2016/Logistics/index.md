@@ -112,4 +112,4 @@ The **[Advanced Session](../AdvancedSession)** will be held at the [Commanders H
 
 We would like to thank the **[USTAR Center for Genetic Discovery (UCGD)](http://ucgd.genetics.utah.edu/)** for a grant to book this great venue for the advanced workshop.
 
-PLACEHOLDER_INCLUDE(../Footer)
+PLACEHOLDER_INCLUDE(/events/AdminTraining2016/Footer)

@@ -6,7 +6,7 @@ title: GalaxyAdmins Future Directions
 
 
 
-PLACEHOLDER_INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 
 

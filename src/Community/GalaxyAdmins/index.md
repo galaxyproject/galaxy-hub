@@ -3,7 +3,7 @@ title: Galaxy, -, Admins
 ---
 <div class='center'>![](/Images/GalaxyLogos/GalaxyAdmins.png)</div>
 
-PLACEHOLDER_INCLUDE(LinkBox)
+PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 
 

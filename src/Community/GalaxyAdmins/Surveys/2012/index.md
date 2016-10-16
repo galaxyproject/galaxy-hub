@@ -3,7 +3,7 @@ autotoc: true
 ---
 <div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
 
-PLACEHOLDER_INCLUDE(../../LinkBox)
+PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 The [GalaxyAdmins group (formerly GalaxyCzars)](/Community/GalaxyAdmins) was started in April 2012.  As part of that launch, an online survey was [sent out in May](/News/GalaxyCzarsSurvey).  This page summarizes and categorizes the responses to that survey.  There were 31 total responses.
 

@@ -3,7 +3,7 @@ autotoc: true
 title: Galaxy on Jetstream
 ---
 
-PLACEHOLDER_INCLUDE(LinkBox)
+PLACEHOLDER_INCLUDE(/Cloud/Jetstream/LinkBox)
 
 <div class='right'></div> 
 
