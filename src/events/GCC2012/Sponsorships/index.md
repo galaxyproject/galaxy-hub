@@ -86,7 +86,7 @@ Sponsorships are available at four different levels.
 
 If your organization is interested in participating in [GCC 2012](../) as a sponsor then please contact Dave Clements at [outreach@galaxyproject.org](outreach@galaxyproject.org).
 
-PLACEHOLDER_INCLUDE(../Ask the Organizers)
+PLACEHOLDER_INCLUDE(/events/GCC2012/AsktheOrganizers)
 
 ## About GCC 2012
 

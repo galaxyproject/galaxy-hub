@@ -3,7 +3,7 @@ title: [GCC2012](/Events/GCC2012),  Organizing Committee
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 
-PLACEHOLDER_INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
 
 
 
@@ -24,4 +24,4 @@ PLACEHOLDER_INCLUDE(../LinkBox)
  **[Bernard Santarsiero](http://www.uic.edu/labs/bds/bdslab/Welcome.html)**
    [University of Illinois at Chicago (UIC)](http://www/uic.edu/)<br /><br />
 
-PLACEHOLDER_INCLUDE(../Ask the Organizers)
+PLACEHOLDER_INCLUDE(/events/GCC2012/AsktheOrganizers)

@@ -3,7 +3,7 @@ title: Key Dates
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 
-PLACEHOLDER_INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
 
 <table>
   <tr class="th" >
@@ -75,4 +75,4 @@ PLACEHOLDER_INCLUDE(../LinkBox)
 
 
 
-PLACEHOLDER_INCLUDE(../Ask the Organizers)
+PLACEHOLDER_INCLUDE(/events/GCC2012/AsktheOrganizers)

@@ -6,9 +6,6 @@ title: [GalaxyCzars](/Community/GalaxyAdmins),  , [GCC2012 Breakout Session](/Ev
 <a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='GCC2012' height="120" /></a>
 </div>
 
-PLACEHOLDER_INCLUDE(../LinkBox)
-
-
 
 Participants:
 * Alex Moskalenko

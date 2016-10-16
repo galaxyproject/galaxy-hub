@@ -66,4 +66,4 @@ We would like to thank our sponsors for their generous support of the 2012 Galax
 </table>
 
 
-PLACEHOLDER_INCLUDE(Ask the Organizers)
+PLACEHOLDER_INCLUDE(/events/GCC2012/AsktheOrganizers)

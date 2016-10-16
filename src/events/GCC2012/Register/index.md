@@ -84,4 +84,4 @@ If you need a visa to travel to the United States for the conference, please fol
 
 Please contact [outreach@galaxyproject.org?subject=GCC%202012%20Visa](Galaxy Outreach) if you have any questions or special requests.
 
-PLACEHOLDER_INCLUDE(../Ask the Organizers)
+PLACEHOLDER_INCLUDE(/events/GCC2012/AsktheOrganizers)
