@@ -3,16 +3,17 @@ autotoc: true
 title: Setting up ProFTPd for galaxy uploads in an Active Directory environment
 ---
 
-
 * You want to enable FTP file uploads?
 * You are happy and able to use ProFTPd?
 * You want to authenticate off Active Directory?
 * You want Galaxy to actually find the uploaded files?
+
 Yes, Yes, Yes and Of_Course?  Read on..
 
 
 
 ## Some background
+
 Galaxy grew up serving the entire internet and cannot assume a username is unique so it uses email-addresses as its user-names.
 
 Once an  "ftp_upload_dir"  is configured, it assumes that any uploaded files are to be found in the directory  <ftp_upload_dir>/<email>
@@ -24,11 +25,11 @@ Galaxy checks every time you click Get Data : Upload File
 Galaxy exchanges no messages directly with the FTP server, if files are there, it shows them no matter how they got there.
 
 ## Assumptions
+
 Your Galaxy serves a single institution with an AD domain and you're already using it to authenticate users in the Galaxy web pages.
 
 So your  universe_wsgi.ini  file probably has lines like:
-```
-#!highlight bash
+```bash
  use_remote_user = True
  remote_user_maildomain = example.domain
  ftp_upload_dir = /galaxy/database/ftp
@@ -41,6 +42,7 @@ Line 2 means Galaxy is appending a fixed string  "@example.domain"  to ALL users
 Line 3 tells Galaxy to look in  "/galaxy/database/ftp/<user>@example.domain"
 
 ## Getting a version of ProFTPd that will actually do what it says it will
+
 For this recipe to work will need at least these versions
 * proftpd            version 1.3.4
 * proftpd-mod-ldap   version 2.9.2   NOTE: Ubuntu-12.10 apt-get gives you version 2.9.0 which WILL NOT WORK!
@@ -48,6 +50,7 @@ For this recipe to work will need at least these versions
 Go to :  http://horde.net/~jwm/software/mod_ldap/#current-release
 
 ## Discussion
+
 The functionality of defining where home dir is and creating it has just been moved from mod_ldap into proftpd itself.
 
 The extra functionality specifying it using a string containing %u is new to the internal proftpd.
@@ -68,6 +71,7 @@ LDAPGenerateHomedirPrefixNoUsername     on
 
 
 ## Configuring ProFTPd
+
 Here is a commented more complete file from  /etc/proftpd/proftpd.conf
 ```apache
 # Load LDAP module
@@ -164,6 +168,7 @@ AllowStoreRestart       on
 
 
 ## Discussion
+
 Where ever it's getting the information mod_ldap is looking for:
 * uid
 * gid

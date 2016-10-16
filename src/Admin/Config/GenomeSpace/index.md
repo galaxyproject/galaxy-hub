@@ -5,6 +5,7 @@ If you are customizing your own local Galaxy Instance to work with your own loca
 These directions indicate how to update Galaxy to make use of the server named *prod* in your GenomeSpace Server properties list.
 
 ## URLS
+
 First, create a list of the URLs you will need:
 
 <table>

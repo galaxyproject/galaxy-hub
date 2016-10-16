@@ -1,4 +1,4 @@
-Maintaining a Galaxy instance is important to do, something that cannot be understated. For security and bug fixes, it's recommended that you follow the [RSS feed](/News) or the [Mailing List](/MailingLists).
+Maintaining a Galaxy instance is important to do, something that cannot be understated. For security and bug fixes, it's recommended that you follow the [RSS feed](../../News) or the [Mailing List](../../MailingLists).
 
 ## General Update Procedures
 
@@ -16,3 +16,4 @@ Many admins update every 2-3 months, though update frequency largely depends on 
 1. run migration scripts (e.g. `sh ./scripts/migrate_tools/0011_tools.sh install_dependencies`)
 1. Update all Tool Shed tools and install new useful ones (find new one on News Brief and release notes from the last month)
 1. Write release notes and send to your user group
+

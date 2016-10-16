@@ -1,11 +1,12 @@
 # Galaxy Interactive Environments (GIEs)
 
 <br />
----
+----
 **Update**
 * iPython for GIEs has been deprecated as of 16.04. Jupyter replaces it and will be fully incorporated into the upcoming 16.07 release. [Reference](https://biostar.usegalaxy.org/p/18683/#18686)
 * Please see the updated documentation at RTD: http://galaxy.readthedocs.io/en/master/admin/interactive_environments.html
----
+
+----
 
 <br />
 These are revolutionary components of Galaxy allowing users to do interactive data processing from within Galaxy. IEs are built as standard Galaxy visualization plugins, however they launch Docker containers and use some additional routing information to connect end users through the Galaxy server, to the Docker images.
@@ -44,8 +45,10 @@ There are some extra considerations with "enterprise" deployments like running d
 ### Upstream Proxies
 
 #### 15.07
+
 ##### Nginx
-See the [Nginx configuration page](/Admin/Config/nginxProxy#configuring_nginx_for_galaxy_interactive_environments_28150729) for more details about how to configure it for the GIEs
+
+See the [Nginx configuration page](../../Admin/Config/nginxProxy#configuring_nginx_for_galaxy_interactive_environments_28150729) for more details about how to configure it for the GIEs
 
 #### 15.10+
 

@@ -3,11 +3,11 @@ title: [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote)
 ---
 
 
-<div class='right'>![Carrie Ganote](/Events/GCC2014/Abstracts/CarrieGanote.jpg)</div>
+<div class='right'>![Carrie Ganote](../Events/GCC2014/Abstracts/CarrieGanote.jpg)</div>
 
 Carrie Ganote is a Bioinformatics Analyst at the [National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/) in the [Pervasive Technology Institute](https://pti.iu.edu/) at [Indiana University Bloomington](http://www.iu.edu/).
 
-Carrie is active in the Galaxy community and is on the 2016 Galaxy Community Conference (GCC2016) Exec.  She was also an organizer of the GCC2015 Coding Hackathon, and spoke at [GCC2014](/Events/GCC2014), [GCC2015](http://gcc2015.tsl.ac.uk/), and presented at the [April 2015 GalaxyAdmins meetup](/Community/GalaxyAdmins/Meetups/2015_04_16) as well.
+Carrie is active in the Galaxy community and is on the 2016 Galaxy Community Conference (GCC2016) Exec.  She was also an organizer of the GCC2015 Coding Hackathon, and spoke at [GCC2014](../Events/GCC2014), [GCC2015](http://gcc2015.tsl.ac.uk/), and presented at the [April 2015 GalaxyAdmins meetup](../Community/GalaxyAdmins/Meetups/2015_04_16) as well.
 
 # Recommendations for GCC2016 Participants
 
@@ -41,7 +41,6 @@ Btown has a wide selection of dining options and prices. My recommendations are 
 * Butler Tasting Room - This is one of my favorite places - it's in a quaint building on Walnut just north of the railroad. It's "walkable" for the sturdy of constitution from campus.
 * Oliver Winery - The winery is just North of Bloomington and has a beautiful grounds. They close at 6 most nights, 8 on Saturday.
 
-
 ## Shops
 
 * Game Preserve - if you like board games and RPGs, this is for you. On the Bloomington Square.
@@ -56,3 +55,4 @@ I love to hike; my favorite places are Griffy Lake, the Deam Wilderness, and the
 * [Griffy](https://en.wikipedia.org/wiki/Griffy_Lake) is close to Bloomington and has nice trails and a tranquil lake to watch birds or fish.
 * [Deam Wilderness](https://en.wikipedia.org/wiki/Charles_C._Deam_Wilderness_Area) is about 45 minutes from campus, but a beautiful place for those who like to be lost in forests.
 * [Beanblossom Bottoms](https://sycamorelandtrust.org/beanblossom-bottoms) is a neat experience for seeing how much of Indiana existed before settlement - swamp and wetlands. The boardwalk keeps you up out of the water, but at this time of year you want some bug repellent.
+

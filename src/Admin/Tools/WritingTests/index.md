@@ -1,14 +1,13 @@
-PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
+PLACEHOLDER_INCLUDE(../../../Admin/Tools/LinkBox)
 ## Writing Tests
 
 Preparing test for your Galaxy tool is easy. In short you include a sample input file and asample output file. Then you specify the parameters that with the given tool and input should produce the desired output. 
 
 Everybody benefits from a good testing - the tool author ensures quality of tool, admins can easily separate good tools from bad tools and users use tools that are reliable. An examples below explains how to write a test. 
 
-Tests can be specified in the tool config file using `<tests>` and `test` tags (for more information see [ description of test configuration tags](/Admin/Tools/ToolConfigSyntax).  For example, the [cluster tool](https://github.com/galaxyproject/tools-devteam/blob/master/tool_collections/gops/cluster/cluster.xml) specifies the following tests:
+Tests can be specified in the tool config file using `<tests>` and `test` tags (for more information see [ description of test configuration tags](../../../Admin/Tools/ToolConfigSyntax).  For example, the [cluster tool](https://github.com/galaxyproject/tools-devteam/blob/master/tool_collections/gops/cluster/cluster.xml) specifies the following tests:
 
-```
-#!highlight xml
+```xml
   <tests>
     <test>
       <param name="input1" value="5.bed" />
@@ -44,8 +43,7 @@ Tests can be specified in the tool config file using `<tests>` and `test` tags (
 
 To explain what this means let's first take a look at the inputs and outputs of the [cluster tool](https://github.com/galaxyproject/tools-devteam/blob/master/tool_collections/gops/cluster/cluster.xml). It takes four inputs (`input1`, `distance`, `minregions`, and `returntype`) and produces a single `output`:
 
-```
-#!highlight xml
+```xml
   <inputs>
     <param format="interval" name="input1" type="data">
       <label>Cluster intervals of</label>
@@ -72,8 +70,7 @@ To explain what this means let's first take a look at the inputs and outputs of 
 
 Now let's take a look at the first test:
 
-```
-#!highlight xml
+```xml
     <test>
       <param name="input1" value="5.bed" />
       <param name="distance" value="1" />
@@ -86,15 +83,16 @@ Now let's take a look at the first test:
 
 All this does is specify parameters that will be used by test framework to run this test. For most input types, the value should be what would be entered by the user when running the tool through the web, with the exception of input and output. The input (`5.bed`) and output (`gops-cluster-1.bed`) files reside within the `~/test-data` directory. Once the test is executed the framework simply compares generated output with an example file (`gops-cluster-1.bed` in this case). If there are no differences - test is declared success. 
 
-To run the Galaxy functional tests see [Running Tests](/Admin/RunningTests).
+To run the Galaxy functional tests see [Running Tests](../../../Admin/RunningTests).
 
----
+----
 
 ## Advanced Test Settings
 
 ### Output File Comparison Methods
 
 #### diff
+
 The default comparison method (*diff*) simply compares line by line in a file to check if the result of the test run of the tool matches the expected output specified in the `<output>` tag. A *lines_diff* attribute can be provided to allow the declared number of lines to differ between outputs. A 'change' in a line is equivalent to a count of 2 line differences: one line removed, one line added.
 
 ```
@@ -145,7 +143,7 @@ Here four outputs are being tested; the first three files have no extra files, b
 ```
 
 
----
+----
 
 ## Beware of twill bug
 
@@ -220,7 +218,7 @@ Thanks,
 ```
  
 
----
+----
 
 ## Saving generated functional test output files
 

@@ -27,3 +27,4 @@ The Galaxy Report Tool will give you information on the following:
   * User disk usage
 * System
   * Disk space maintenance
+

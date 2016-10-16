@@ -3,9 +3,9 @@ autotoc: true
 ---
 PLACEHOLDER_INCLUDE(/Admin/LinkBox)
 
-PLACEHOLDER_INCLUDE(/Under Construction)
+PLACEHOLDER_INCLUDE(../../Under Construction)
 
-Galaxy has an [Applications Programming Interface (API)](/Learn/API) that enables access to Galaxy from scripts.  This page describes the [administrative](/Admin) aspects of the API.  See [/Learn/API](/Learn/API) for information on using the [Galaxy API](/Learn/API).
+Galaxy has an [Applications Programming Interface (API)](../../Learn/API) that enables access to Galaxy from scripts.  This page describes the [administrative](../../Admin) aspects of the API.  See [Learn/API](../../Learn/API) for information on using the [Galaxy API](../../Learn/API).
 
 
 
@@ -42,15 +42,15 @@ In Galaxy, create an account that matches the address you put in `admin_users`, 
 <table>
   <tr>
     <td> <em>Navigate</em> to <strong>User &rarr; API Keys</strong>: </td>
-    <td> <img src='/UserPullDownAPIKeys.png' /> </td>
+    <td> <img src="UserPullDownAPIKeys.png" /> </td>
   </tr>
   <tr>
     <td> <em>Click</em> on <strong>Generate a new key now</strong>: </td>
-    <td> <img src='/GenerateNewAPIKey.png' /> </td>
+    <td> <img src="GenerateNewAPIKey.png" /> </td>
   </tr>
   <tr>
     <td> And your new API key will be set:<br /><br /><em>Copy</em> the key to your clipboard.  You will need it in the next steps. </td>
-    <td> <img src='/NewKeyGenerated.png' /> </td>
+    <td> <img src="NewKeyGenerated.png" /> </td>
   </tr>
 </table>
 

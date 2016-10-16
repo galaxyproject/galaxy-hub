@@ -1,5 +1,4 @@
-
-<div class='right'>![](/GalaxyTeam/BjoernGruening.jpg)</div>
+<div class='right'>![](../GalaxyTeam/BjoernGruening.jpg)</div>
 
 
 # Björn Grüning
@@ -17,6 +16,7 @@ Georges-Köhler-Allee 106 <br />
 79110 Freiburg 
 
 ## Contact
+
 <table>
   <tr>
     <th> Email </th>
@@ -30,5 +30,5 @@ Georges-Köhler-Allee 106 <br />
 
 
 
----
+----
 CategoryHomepage

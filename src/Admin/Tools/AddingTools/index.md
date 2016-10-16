@@ -1,9 +1,9 @@
-PLACEHOLDER_INCLUDE(/Admin/LinkBox)
-PLACEHOLDER_INCLUDE(/Develop/LinkBox)
-PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
+PLACEHOLDER_INCLUDE(../../../Admin/LinkBox)
+PLACEHOLDER_INCLUDE(../../../Develop/LinkBox)
+PLACEHOLDER_INCLUDE(../../../Admin/Tools/LinkBox)
 # Tutorial for Creating a Histogram Tool
 
-See also the general [ tutorial for adding custom tools](/Admin/Tools/Add Tool Tutorial).
+See also the general [ tutorial for adding custom tools](../../../Admin/Tools/Add Tool Tutorial).
 
 ## Introduction
 
@@ -24,8 +24,7 @@ The actual calling sequence for the program may simpler or a lot more complicate
 
 To deploy this tool one needs to inform Galaxy about it. This is accomplished by listing it in the main tool configuration file called **tool_conf.xml** found in the main server directory. The contents of this file shown on the left will instruct Galaxy to generate the HTML shown on the right with the Statistics tab expanded:
 
-```
-#!highlight html
+```html
 <img src="http://www.bx.psu.edu/trac/local/tut_img1.png"align="right">
 ```
 
@@ -75,14 +74,14 @@ Each of the section tags corresponds to a section displayed by Galaxy. Within ea
  <help>
 This tool builds a simple histogram for a given data column using a specified number of bins:
 
----
+----
 
 **Syntax**
 
 - **Column to plot** is an integer. The first column is **1**
 - **Number of bins** is an integer between 1 and 99
 
----
+----
 
 **Example**
 
@@ -94,8 +93,7 @@ This tool builds a simple histogram for a given data column using a specified nu
 
 Here is the net result (displayed in the middle frame when the tool is clicked) of this configuration file. The example above is fairly complex since it also contains nicely formatted (but optional) help information that can be deployed with the tool.
 
-```
-#!highlight html
+```html
 <p align="center"><img src="http://www.bx.psu.edu/trac/local/tut_img2.png" align="center"></p>
 ```
 

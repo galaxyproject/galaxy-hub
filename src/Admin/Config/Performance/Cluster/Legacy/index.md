@@ -2,7 +2,7 @@
 autotoc: true
 title: Running Galaxy Tools on a Cluster
 ---
-PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
+PLACEHOLDER_INCLUDE(../../../../../Admin/Config/Performance/LinkBox)
 
 Galaxy is designed to run jobs on your local system by default, but it can be configured to run jobs on a cluster. The front-end Galaxy application runs on a single server as usual, but tools are run on cluster nodes instead.
 
@@ -10,7 +10,7 @@ Galaxy is designed to run jobs on your local system by default, but it can be co
 
 
 ```wiki red/solid/light
-This documentation applies to old Galaxy releases.  For the April 1, 2013 (tag `release_2013.04.01`) Galaxy release and newer, use the [current](/Admin/Config/Performance/Cluster) documentation.
+This documentation applies to old Galaxy releases.  For the April 1, 2013 (tag `release_2013.04.01`) Galaxy release and newer, use the [current](../../../../../Admin/Config/Performance/Cluster) documentation.
 ```
 
 
@@ -24,15 +24,12 @@ This documentation applies to old Galaxy releases.  For the April 1, 2013 (tag `
 
 ## Cluster Resources Managers
 
-
-
-
-<div class='left'><a href='http://www.drmaa.org'><img src='/Images/Logos/DRMAALogo200.png' alt='DRMAA' /></a></div>Galaxy is known to work with [TORQUE PBS](http://www.clusterresources.com/pages/products/torque-resource-manager.php), [Sun Grid Engine](http://gridengine.sunsource.net/), [Platform LSF](http://www.platform.com/workload-management/high-performance-computing), [PBS Pro](http://www.pbsworks.com/Product.aspx?id=1) and there's work in progress for [SLURM](https://computing.llnl.gov/linux/slurm/) (see this [blog post](http://mdahlo.blogspot.com/2011/06/galaxy-on-uppmax.html)). However, since Galaxy uses the [Distributed Resource Management Application API](http://www.drmaa.org), it should work with [any distributed resource manager (DRM) which implements the DRMAA](http://www.drmaa.org/implementations.php). Galaxy interfaces with these systems via [drmaa-python](http://code.google.com/p/drmaa-python/), although for legacy reasons, [pbs_python](https://subtrac.sara.nl/oss/pbs_python) can be used for TORQUE. If you successfully run Galaxy with another DRM, please let us know via an email to the [galaxy-dev mailing list](/MailingLists).
+<div class='left'><a href='http://www.drmaa.org'><img src="../../../../../Images/Logos/DRMAALogo200.png" alt="DRMAA" /></a></div>Galaxy is known to work with [TORQUE PBS](http://www.clusterresources.com/pages/products/torque-resource-manager.php), [Sun Grid Engine](http://gridengine.sunsource.net/), [Platform LSF](http://www.platform.com/workload-management/high-performance-computing), [PBS Pro](http://www.pbsworks.com/Product.aspx?id=1) and there's work in progress for [SLURM](https://computing.llnl.gov/linux/slurm/) (see this [blog post](http://mdahlo.blogspot.com/2011/06/galaxy-on-uppmax.html)). However, since Galaxy uses the [Distributed Resource Management Application API](http://www.drmaa.org), it should work with [any distributed resource manager (DRM) which implements the DRMAA](http://www.drmaa.org/implementations.php). Galaxy interfaces with these systems via [drmaa-python](http://code.google.com/p/drmaa-python/), although for legacy reasons, [pbs_python](https://subtrac.sara.nl/oss/pbs_python) can be used for TORQUE. If you successfully run Galaxy with another DRM, please let us know via an email to the [galaxy-dev mailing list](../../../../../MailingLists).
 
 
 
 
-Galaxy contributor John Chilton has also written [Pulsar](/Admin/Config/Pulsar) which does not require an existing cluster or a shared filesystem and can also run jobs on Windows hosts. Please see the README included with Pulsar for instructions on how to set it up.
+Galaxy contributor John Chilton has also written [Pulsar](../../../../../Admin/Config/Pulsar) which does not require an existing cluster or a shared filesystem and can also run jobs on Windows hosts. Please see the README included with Pulsar for instructions on how to set it up.
 
 
 
@@ -43,9 +40,6 @@ Installing and configuring your cluster hardware and management software is outs
 
 
 ### drmaa egg
-
-
-
 
 The drmaa egg is provided by Galaxy, but you must tell it where your resource manager's DRMAA library is located, and this is done with the `$DRMAA_LIBRARY_PATH` environment variable:
 
@@ -68,10 +62,7 @@ The drmaa egg is provided by Galaxy, but you must tell it where your resource ma
 
 ### pbs_python egg
 
-
-
-
-pbs_python is dependent upon TORQUE and is not provided by Galaxy. You must "scramble" it yourself (for more information on Galaxy's Python Egg dependencies, see the [Eggs](/Admin/Config/Eggs) page). Fortunately, this process should be simple:
+pbs_python is dependent upon TORQUE and is not provided by Galaxy. You must "scramble" it yourself (for more information on Galaxy's Python Egg dependencies, see the [Eggs](../../../../../Admin/Config/Eggs) page). Fortunately, this process should be simple:
 
 
 
@@ -86,9 +77,6 @@ LIBTORQUE_DIR=/path/to/libtorque python scripts/scramble.py -e pbs_python
 
 ## Preliminary Setup
 
-
-
-
 Galaxy supports two different methods of cluster deployment:
 
 
@@ -97,22 +85,12 @@ Galaxy supports two different methods of cluster deployment:
 * **Unified:** The copy of Galaxy on the application server is the same copy as the one on the cluster nodes. The most common method to do this would be to put Galaxy in NFS somewhere that is accessible by the application server and the cluster nodes. We'll refer to this as the *unified* method.
 * **Staged:** The copy of Galaxy on the application server is NOT the same copy as the one on the cluster nodes. For example, Galaxy is put in local disk space on all the systems. This is a more complex configuration but can reduce stress on an NFS server for certain types of jobs. We'll refer to this as the *staged* method. Using the staged method is not recommended unless your tools are writing so much that it's causing problems with your NFS server. This process is fairly complex and assumes an intermediate level of *nix sysadmin knowledge. The staged method is currently only supported with TORQUE.  *Please note that the Staged Method is not in active use or development, and while we may be able to fix bugs that arise in this method due to changes in the way jobs run, not much time will be invested in maintaining it.*
 
-
-
-
-
-
-
-
 For both methods, the path to Galaxy must be exactly the same on both the nodes and the application server. This is because absolute paths are used to refer to datasets when running the command on the cluster node. This is a limitation that should eventually be removed. Both methods are explained in further detail below.
 
 
 
 
 ### Unified Method
-
-
-
 
 For this method, you'll simply need to ensure that your Galaxy user can access the Galaxy directory on the cluster nodes and the application server. Remember that the path must be the same on both. For example, if I were to check out Galaxy to my home directory:
 
@@ -183,13 +161,7 @@ You may also find that you need to disable attribute caching in your filesystem.
 
 ### Staged Method
 
-
-
-
 #### Configure file staging
-
-
-
 
 This method makes use of PBS' stage-in/stage-out capabilities to copy the job's input datasets to the node and output datasets back from the node before and after the job runs. HOW these are staged is configured in TORQUE. By default, it uses rcp, but we suggest using scp. Information on how to configure staging is available in the [TORQUE Administrator Manual](http://www.clusterresources.com/wiki/doku.php?id=torque:torque_wiki). Ensure that both stage-in and stage-out works from your application server before proceeding.
 
@@ -232,9 +204,6 @@ galaxy_server%
 
 #### Copy Galaxy to your nodes
 
-
-
-
 This can be any number of ways, in whatever method is convenient for you. Here at Penn State, we use rsync to keep the copy of Galaxy on the node consistent with the copy on the application server. This is run every so often via cfengine to ensure that the copy on the nodes is up to date, but it could also be done more simply with cron. Here's our rsync invocation:
 
 
@@ -254,9 +223,6 @@ galaxy_dist is left off /var/opt intentionally - This copies the galaxy_dist dir
 
 
 #### Create a shared temporary directory
-
-
-
 
 Some tools make use of temporary files created on the server, but accessed on the nodes. For this, you'll need to make a directory (galaxy_dist/database/tmp by default) available everywhere - we do this with NFS. Rather than directly mount the tmp directory in place, it's acceptable (and usually simpler) to create a symbolic link to some other location. This way you can use an automounter to manage the mount for you.
 
@@ -309,9 +275,6 @@ Once set, comment/remove the local tool runner overrides from the bottom of `uni
 
 #### Create a file stage directory
 
-
-
-
 Because the datasets in Galaxy's galaxy_dist/database/files directory are stored in subdirectories, there's no way for PBS to stage them in unless the subdirectories already exist (which is not really possible)! We solve this problem by staging the datasets in and out of a different directory, and then symlink to those datasets from the galaxy_dist/database/files/ directory on the node. You'll need to pre-create this stage directory on all the nodes:
 
 
@@ -333,9 +296,6 @@ node2% exit
 
 ## Galaxy Configuration
 
-
-
-
 A number of options need to be configured in Galaxy's universe_wsgi.ini file to use the cluster:
 
 
@@ -343,9 +303,6 @@ A number of options need to be configured in Galaxy's universe_wsgi.ini file to 
 
 * **start_job_runners = pbs,drmaa** - A comma separated list of job runners to start in addition to the local runner. It's possible to have more than one cluster runner, although most sites will probably want to just set one. If no extra runners are started, all jobs are run on the Galaxy application server, regardless of what job_runner URL is specified in the [galaxy:tool_runners] section of the config file.
 * **default_cluster_job_runner = [ !pbs:/// | !drmaa:/// ]** - The URL of the job runner to use when a job runner for a tool is not explicitly defined. This is ignored if **start_job_runners** is not set.
-
-
-
 
 For the *unified* method, these are the only two options that should be set.
 
@@ -361,9 +318,6 @@ The **new_file_path** option in the config file is used to control where tempora
 * For SGE, in the user's ~/.sge_request, with the **-v** option.
 * In the file specified in the **environment_setup_file** option in the Galaxy config file.
 
-
-
-
 For the *staged* method, the following options must also be set:
 
 
@@ -373,13 +327,7 @@ For the *staged* method, the following options must also be set:
 * **pbs_stage_path = /tmp/galaxy_stage** - The directory on the cluster nodes where datasets will be staged in and out. This must exist before you try to run jobs.
 * **pbs_dataset_server = galaxy_server** - This is the hostname of the system where Galaxy's datasets are stored. This is probably the same as the application server, but here at Penn State, our datasets are housed on a separate fileserver and then mounted on the application server via NFS, so this option is necessary. Please note that if you have separate dataset fileserver, the full path to the datasets must again be the same as on the application server and cluster nodes. This is usually most easily acheived with symbolic links.
 
-
-
-
 ### The job runner URL
-
-
-
 
 In the Galaxy config (universe_wsgi.ini), the desired job runner is specified with a URL. The format depends on the runner:
 
@@ -396,9 +344,6 @@ In the Galaxy config (universe_wsgi.ini), the desired job runner is specified wi
   * **drmaa:///** - Use the environment defaults for RM-specific attributes like queue and project.
   * **drmaa://-P bignodes -R y -pe threads 8/** - Use the 'bignodes' project and reserve a node with 8 cores for the tool. Separate multiple DRM flag options with spaces.
 
-
-
-
 Please note that the **pbs_options** and **native_options** fields are considered to be a temporary solution and it is the intent of the Galaxy team to provide a more general interface to these fields in the future. However, no timeline has been set on development of a replacement (and this capability will not be removed before a replacement interface is developed).
 
 
@@ -406,13 +351,7 @@ Please note that the **pbs_options** and **native_options** fields are considere
 
 ## Tool Configuration
 
-
-
-
 ### Tool Runner Configuration
-
-
-
 
 The config file has a section titled [galaxy:tool_runners], which is where you may place any per-tool job runner overrides. If an override isn't specified, where the tool is run depends on whether or not you started any runners in addition to the local runner.
 
@@ -421,9 +360,6 @@ The config file has a section titled [galaxy:tool_runners], which is where you m
 
 * If the **start_job_runners** option is not set in universe_wsgi.ini, the local job runner will ALWAYS be used, regardless of whether or not the tool has an override specified.
 * If the **start_job_runners** option IS set, then the [galaxy:tool_runners] section is consulted. If there's no override for the tool, then the URL specified in **default_cluster_job_runner** is what will be used to run the job.
-
-
-
 
 If **start_job_runners** is set AND the tool has a [galaxy:tool_runners] entry, it will be consulted:
 
@@ -450,18 +386,12 @@ Or, if you want a tool to use a different DRM server or queue than the default s
 
 ### Tool Handler Configuration
 
-
-
-
-You can also control which job handler will be used via the similarly named [galaxy:tool_handlers] configuration section.  The synax on the left hand of the assignment (tool_id[params]) syntax is identical to the tool_runners options.  On the right hand of the assignment, you can specify which handler should be used to handle jobs for the specified tool/params.  More details about how to configure multiple job handlers can be found on the [/Admin/Config/Performance/Scaling](/Admin/Config/Performance/Scaling) page.
+You can also control which job handler will be used via the similarly named [galaxy:tool_handlers] configuration section.  The synax on the left hand of the assignment (tool_id[params]) syntax is identical to the tool_runners options.  On the right hand of the assignment, you can specify which handler should be used to handle jobs for the specified tool/params.  More details about how to configure multiple job handlers can be found on the [Admin/Config/Performance/Scaling](../../../../../Admin/Config/Performance/Scaling) page.
 
 
 
 
 ## Submitting Jobs as the Real User
-
-
-
 
 Galaxy runs as a process on your server under whatever user starts the server - usually an account created for the purpose of running Galaxy. Jobs will be submitted to your cluster(s) as this user. In environments where users in Galaxy are guaranteed to be users on the underlying system (i.e. Galaxy is configured to use external authentication), it may be desirable to submit jobs to the cluster as the user logged in to Galaxy rather than Galaxy's system user.
 
@@ -469,9 +399,6 @@ Galaxy runs as a process on your server under whatever user starts the server - 
 
 
 ### Caveats
-
-
-
 
 Since this is a complex problem, the current solution does have some caveats:
 
@@ -482,13 +409,7 @@ Since this is a complex problem, the current solution does have some caveats:
   * *Technical details* - Since Galaxy maintains dataset sharing internally and all files are owned by the Galaxy user, when running jobs only under a single user, permissions can be set such that only the Galaxy user can read all datasets. Since the dataset may be shared by multiple users, it is not suitable to simply change ownership of inputs before a job runs (what if another user tried to use the same dataset as an input during this time?). This could possibly be solved if Galaxy had tight control over extended ACLs on the file, but since many different ACL schemes exist, Galaxy would need a module for each scheme to be supported.
 * The real user system works by changing ownership of the job's working directory to the system user matching the Galaxy user's email address (with the @domain stripped off) prior to running the job, and back to the Galaxy user once the job has completed. It does this by executing a site-customizable script via [sudo](http://www.gratisoft.us/sudo/). The script accepts a path and does nothing to ensure that this path is a Galaxy working directory. So anyone who has access to the Galaxy user could use this script and sudo to change the ownership of any file or directory. Patches to tighten this are welcome.
 
-
-
-
 ### Configuration
-
-
-
 
 You'll need to ensure that all datasets are stored on the filesystem such that they are readable by all users that will use Galaxy: either made readable by a group, or world-readable. If using a group, set your `umask(1)` to **027** or for world-readable, use **022** Setting umask assumes your underlying filesystem uses POSIX permissions, so if this is not the case, your environment changes may be different.
 
@@ -525,4 +446,4 @@ If your sudo config contains `Defaults    requiretty`, this option must be disab
 
 
 
-Some maintenance and support of this code will be provided via the usual [/Support](/Support) channels, but improvements and fixes would be greatly welcomed, as this is a complex feature which is not used by the Galaxy Development Team.
+Some maintenance and support of this code will be provided via the usual [Support](../../../../../Support) channels, but improvements and fixes would be greatly welcomed, as this is a complex feature which is not used by the Galaxy Development Team.

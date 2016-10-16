@@ -1,6 +1,6 @@
-PLACEHOLDER_INCLUDE(/Admin/LinkBox)
+PLACEHOLDER_INCLUDE(../../Admin/LinkBox)
 
-Hub page for [administering](/Admin) data libraries in Galaxy.
+Hub page for [administering](../../Admin) data libraries in Galaxy.
 
 * [New Libraries](NewLibraries)
 * [Libraries](Libraries)
@@ -8,3 +8,4 @@ Hub page for [administering](/Admin) data libraries in Galaxy.
 * [Library Security](LibrarySecurity)
 * [Library Templates](LibraryTemplates)
 * [Uploading Library Files](UploadingLibraryFiles)
+

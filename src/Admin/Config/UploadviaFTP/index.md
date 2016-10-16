@@ -1,9 +1,11 @@
 # Enabling upload to Galaxy via FTP
+
 To allow users to upload files to Galaxy via FTP, you'll need to configure Galaxy and install an FTP server. After everything is configured users will be able to upload their files through the FTP server and then select them for importing in the upload dialog in Galaxy.
 
-For help with uploading data via FTP on Galaxy [/Main](/Main), please see this [tutorial](/FTPUpload).
+For help with uploading data via FTP on Galaxy [Main](../../../Main), please see this [tutorial](../../../FTPUpload).
 
 ## Install some FTP server
+
 Although there is no specific required server, we use [ProFTPD](http://proftpd.org/) for our [public site](http://usegalaxy.org/) since it supports all the things we'll need to be able to do, such as authenticating against the Galaxy database. We recommend you to use the same FTP server as the configurations we provide are targeting it. You can also browse the list of alternative FTP servers at http://en.wikipedia.org/wiki/List_of_FTP_server_software
 
 ## Configure Galaxy
@@ -16,8 +18,7 @@ In the config file, you'll also want to set `ftp_upload_site` to the hostname yo
 
 You'll need to grant a user access to read emails and passwords from the Galaxy database.  Although the user Galaxy connects with could be used, I prefer to use a least-privilege setup wherein a separate user is created for the FTP server which has permission to `SELECT` from the `galaxy_user` table and nothing else.  In postgres this is accomplished with:
 
-```
-#!highlight bash
+```bash
 postgres@dbserver% createuser -SDR galaxyftp
 postgres@dbserver% psql galaxydb
 Welcome to psql 8.X.Y, the PostgreSQL interactive terminal.
@@ -58,8 +59,7 @@ We compile by hand using the following configure arguments (OpenSSL is prebuilt 
 
 An example configuration follows, assuming `ftp_upload_dir = /home/nate/galaxy_dist/database/ftp` in the Galaxy config file:
 
-```
-#!highlight apacheconf
+```apacheconf
 
 # Basics, some site-specific
 ServerName                      "Public Galaxy FTP"
@@ -117,8 +117,7 @@ SQLAuthenticate                 users
 
 For PBKDF2 passwords, the following additions to `proftpd.conf` should work:
 
-```
-#!highlight apache
+```apache
 # Configuration that handles PBKDF2 encryption
 # Set up mod_sql to authenticate against the Galaxy database
 SQLAuthTypes                    PBKDF2
@@ -140,8 +139,7 @@ SQLNamedQuery                   GetUserSalt SELECT "(CASE WHEN SUBSTRING (passwo
 
 For SHA1 passwords, the following additions to `proftpd.conf` should work:
 
-```
-#!highlight apache
+```apache
 # Set up mod_sql/mod_sql_password - Galaxy passwords are stored as hex-encoded SHA1
 SQLAuthTypes                    SHA1
 SQLPasswordEncoding             hex
@@ -159,8 +157,7 @@ SQLNamedQuery                   LookupGalaxyUser SELECT "email,password,512,512,
 
 FTP protocol is **not** encrypted by default, thus any usernames and passwords are sent over clear text to Galaxy. You may wish to implement further security measures by forcing the FTP connection to use SSL/TLS or to allow users to send their files using SFTP (a completely different protocol than FTP - see http://www.proftpd.org/docs/contrib/mod_sftp.html). Here are some extra steps that you can use with ProFTPD.
 
-```
-#!highlight apache
+```apache
 <IfModule mod_sftp.c>
   # You must put this in a virtual host if you want it to listen on its own port. VHost != Apache Vhost.
   <VirtualHost IP_of_Galaxy> 

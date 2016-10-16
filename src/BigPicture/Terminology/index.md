@@ -3,7 +3,7 @@ autotoc: true
 title: Galaxy Terminology
 ---
 
-PLACEHOLDER_INCLUDE(/Under Construction)
+PLACEHOLDER_INCLUDE(../../Under Construction)
 
 <div class='right'></div>
 New to Galaxy?  Trying to figure out the difference between a *workflow* and a *history?*  This page attempts to be a glossary of Galaxy terminology.
@@ -15,7 +15,7 @@ New to Galaxy?  Trying to figure out the difference between a *workflow* and a *
 Effectively managing datasets is important for general organization, collaboration, and publishing and for staying within the quotas set by the [Main](#main), [Test](#test), and other host instances. 
 
 See 
-* [/Learn/Managing Datasets](/Learn/Managing Datasets)
+* [Learn/Managing Datasets](../../Learn/Managing Datasets)
 
 ### Galaxy Objects
 
@@ -26,14 +26,14 @@ See
 A computer process responsible for starting and monitoring jobs, submitting jobs to a cluster (if configured), and for setting metadata (externally or internally).
 
 See 
-* [/Admin/Config/Performance/Scaling](/Admin/Config/Performance/Scaling)
+* [Admin/Config/Performance/Scaling](../../Admin/Config/Performance/Scaling)
 
 ### Main
 
-*Main* is the free public Galaxy instance available at [UseGalaxy.org](http://usegalaxy.org/) (or http://main.g2.bx.psu.edu). This is the primary [Galaxy instance](http://usegalaxy.org/). Main is where Galaxy's data and tools are functionality integrated and ready to use. Main is useful for sharing/publishing data and methods with colleagues for routine analysis or with the larger scientific community for publications and supplemental material. *[/Test](/Test)* is also free and public, but is considered a beta site. 
+*Main* is the free public Galaxy instance available at [UseGalaxy.org](http://usegalaxy.org/) (or http://main.g2.bx.psu.edu). This is the primary [Galaxy instance](http://usegalaxy.org/). Main is where Galaxy's data and tools are functionality integrated and ready to use. Main is useful for sharing/publishing data and methods with colleagues for routine analysis or with the larger scientific community for publications and supplemental material. *[Test](../../Test)* is also free and public, but is considered a beta site. 
 
 See
-* [/Main](/Main)
+* [Main](../../Main)
 
 ### Page
 
@@ -58,6 +58,7 @@ See also
 ### Test
 
 See
-* [/Test](/Test)
+* [Test](../../Test)
 
 ### Workflow
+
