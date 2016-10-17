@@ -4,7 +4,7 @@
 
 PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
-<div class='center'>**Note:** Next [GalaxyAdmins](../../) Meetup: [January 16](../2013_01_16) <br /> John Chilton on Deploying Galaxy on !OpenStack with !CloudBioLinux & CloudMan</div>
+<div class='center'>**Note:** Next [GalaxyAdmins](../../) Meetup: [January 16](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) <br /> John Chilton on Deploying Galaxy on !OpenStack with !CloudBioLinux & CloudMan</div>
 
 <br />
 
@@ -42,4 +42,4 @@ We thank Ann profusely for her contributions, and Srinivas for taking this on.
 
 ## Call Technology
 
-We used the [University of Iowa's Blackboard system](../WebinarTech) for the call. Some care is needed to avoid getting feedback with participants without headphones. Therefore, *headphones are strongly encouraged.*
+We used the [University of Iowa's Blackboard system](/src/Community/GalaxyAdmins/Meetups/WebinarTech/index.md) for the call. Some care is needed to avoid getting feedback with participants without headphones. Therefore, *headphones are strongly encouraged.*

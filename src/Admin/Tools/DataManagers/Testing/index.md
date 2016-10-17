@@ -29,4 +29,4 @@ All Data Managers deposited within the ToolShed are tested using the the nightly
 
 ----
 
-[Admin/Tools/DataManagers](../../../../Admin/Tools/DataManagers)
+[Admin/Tools/DataManagers](/src/Admin/Tools/DataManagers/index.md)

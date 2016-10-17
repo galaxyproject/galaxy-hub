@@ -5,33 +5,33 @@ autotoc: true
 
 <div class='right'></div>
 
-In addition to using the [public Galaxy server](http://usegalaxy.org/) (a.k.a. [Main](../../Main)), you can install your own instance of Galaxy (what this page is about), or create a [cloud-based instance of Galaxy](../../Cloud).  Another option is to use one of the ever-increasing number of [public Galaxies](../../PublicGalaxyServers) hosted by other organizations.
+In addition to using the [public Galaxy server](http://usegalaxy.org/) (a.k.a. [Main](../../Main)), you can install your own instance of Galaxy (what this page is about), or create a [cloud-based instance of Galaxy](../../Cloud).  Another option is to use one of the ever-increasing number of [public Galaxies](/src/PublicGalaxyServers/index.md) hosted by other organizations.
 
-See [Big Picture: Choices](../../BigPicture/Choices) for help on deciding which of these options may be best for your situation.
+See [Big Picture: Choices](/src/BigPicture/Choices/index.md) for help on deciding which of these options may be best for your situation.
 
 ## Reasons to Install Your Own Galaxy
 
 You only need to download Galaxy if you plan to:
 
-* Run a local [production Galaxy](../../Admin/Config/Performance/ProductionServer) because you want to
-  * [install](../../Admin/Tools/AddToolTutorial) and use tools unavailable on [public Galaxies](../../PublicGalaxyServers)
+* Run a local [production Galaxy](/src/Admin/Config/Performance/ProductionServer/index.md) because you want to
+  * [install](../../Admin/Tools/AddToolTutorial) and use tools unavailable on [public Galaxies](/src/PublicGalaxyServers/index.md)
   * use sensitive data (e.g. clinical)
   * process large datasets that are too big for public Galaxies
-  * [plug-in](../../Admin/Internals/DataSources) new datasources
-* Develop [Galaxy tools](../../Admin/Tools/AddToolTutorial)
-* [Develop Galaxy](../../Develop) itself
+  * [plug-in](/src/Admin/Internals/DataSources/index.md) new datasources
+* Develop [Galaxy tools](/src/Admin/Tools/AddToolTutorial/index.md)
+* [Develop Galaxy](/src/Develop/index.md) itself
 
 ## Requirements
 
 * UNIX/Linux or Mac OS X (although you can [try with Windows](../../Admin/Config/Windows))
-* Python 2.7 ([details here](../../Admin/Python))
+* Python 2.7 ([details here](/src/Admin/Python/index.md))
 * Git (optional - see below)
 * GNU Make, gcc to compile and install tool dependencies
 * Additional tool requirements as detailed in [Tool Dependencies](../../Admin/Tools/ToolDependencies)
 
 ## Get the Code
 
-Galaxy's source code is hosted in a [GitHub repository](https://github.com/galaxyproject/galaxy). Below are your basic options on how to obtain the source code so you can use Galaxy. For more information see [source code details](../../Develop/SourceCode).
+Galaxy's source code is hosted in a [GitHub repository](https://github.com/galaxyproject/galaxy). Below are your basic options on how to obtain the source code so you can use Galaxy. For more information see [source code details](/src/Develop/SourceCode/index.md).
 
 ### For Production or Single User
 
@@ -89,7 +89,7 @@ Upon restarting, Galaxy will bind to any available network interfaces instead of
 ## Become an Admin
 
 In order to control your new Galaxy through the UI (installing tools, managing users, creating groups etc.) you have to become an [administrator](../../Admin/Interface). First register as a new user and then give the user admin privileges like this: 
-You add the Galaxy login ( email ) to the Galaxy configuration file (`config/galaxy.ini`). If the file does not exist you can copy it from the provided sample (`config/galaxy.ini.sample`). Note that you have to restart Galaxy after modifying the configuration for changes to take effect. [More help with an example how-to.](../../Admin/GetGalaxy#become_an_admin_example)
+You add the Galaxy login ( email ) to the Galaxy configuration file (`config/galaxy.ini`). If the file does not exist you can copy it from the provided sample (`config/galaxy.ini.sample`). Note that you have to restart Galaxy after modifying the configuration for changes to take effect. [More help with an example how-to.](/src/Admin/GetGalaxy/index.md#become_an_admin_example)
 
 ```
 # this should be a comma-separated list of valid Galaxy users
@@ -99,11 +99,11 @@ admin_users = user1@example.com,user2@example.com
 
 ## Install More Tools
 
-Your Galaxy came with the basic tools pre-installed. However, you probably want more. Installing tools to Galaxy is generally a very easy and pleasant experience. Please read [Installing tools into Galaxy from ToolShed](../../Admin/Tools/AddToolFromToolShedTutorial) to get started.
+Your Galaxy came with the basic tools pre-installed. However, you probably want more. Installing tools to Galaxy is generally a very easy and pleasant experience. Please read [Installing tools into Galaxy from ToolShed](/src/Admin/Tools/AddToolFromToolShedTutorial/index.md) to get started.
 
 ## Join the Mailing List
 
-The best way to keep up on new features and bug fixes, as well as discuss future features is to join the [Galaxy Developers mailing list](https://lists.galaxyproject.org/listinfo/galaxy-dev/).  See [Mailing Lists](../../MailingLists) for other options.
+The best way to keep up on new features and bug fixes, as well as discuss future features is to join the [Galaxy Developers mailing list](https://lists.galaxyproject.org/listinfo/galaxy-dev/).  See [Mailing Lists](/src/MailingLists/index.md) for other options.
 
 ## Keep your instance backed up
 
@@ -113,13 +113,13 @@ Like any other application, your Galaxy directory and your Galaxy database table
 
 The above instructions are intended for those wishing to develop Galaxy tools and the Galaxy itself.  To deploy a production-ready installation of Galaxy, some changes from the default configuration are highly recommended.  If nothing else, switching to PostgreSQL or MySQL (from the default SQLite) is heavily endorsed to prevent database locking issues that can arise with multiple users.
 
-Please see the [Running Galaxy in a production environment](../../Admin/Config/Performance/ProductionServer) page for more details.
+Please see the [Running Galaxy in a production environment](/src/Admin/Config/Performance/ProductionServer/index.md) page for more details.
 
 ## Keep your code up to date
 
 Galaxy development occurs [in GitHub](https://github.com/galaxyproject/galaxy/).  Changes are stabilized in the `release_YY.MM` branches and then merged to `master` for each `YY.MM.point` release.
 
-To be made aware of new Galaxy releases, please join the [Galaxy Developers mailing list](https://lists.galaxyproject.org/listinfo/galaxy-dev/).  Each release is accompanied by a [news brief](../../DevNewsBriefs).
+To be made aware of new Galaxy releases, please join the [Galaxy Developers mailing list](https://lists.galaxyproject.org/listinfo/galaxy-dev/).  Each release is accompanied by a [news brief](/src/DevNewsBriefs/index.md).
 
 At any time, you can check to see if a new stable release is available by using the `git log` command:
 
@@ -136,7 +136,7 @@ Date:   Mon Mar 9 22:26:54 2015 -0400
 ```
 
 
-If you see no output, you are up to date. If you see a list of commits, a new version is available.  We suggest checking the accompanying [news brief](../../DevNewsBriefs) first (if the release is to a newer major version of Galaxy), but you can also immediately pull the commits to your local Galaxy clone with:
+If you see no output, you are up to date. If you see a list of commits, a new version is available.  We suggest checking the accompanying [news brief](/src/DevNewsBriefs/index.md) first (if the release is to a newer major version of Galaxy), but you can also immediately pull the commits to your local Galaxy clone with:
 
 ```
 % git pull
@@ -144,11 +144,11 @@ If you see no output, you are up to date. If you see a list of commits, a new ve
 ```
 
 
-**Note**: After pulling changes, you will need to stop your Galaxy server and restart with the updated code.  This will interrupt any running jobs, unless you are using a cluster configuration.  For more information on how to make Galaxy restartable without interrupting users, see the [production server documentation](../../Admin/Config/Performance/ProductionServer).
+**Note**: After pulling changes, you will need to stop your Galaxy server and restart with the updated code.  This will interrupt any running jobs, unless you are using a cluster configuration.  For more information on how to make Galaxy restartable without interrupting users, see the [production server documentation](/src/Admin/Config/Performance/ProductionServer/index.md).
 
 **Note**: Occasionally, updated code includes structural changes to the Galaxy database tables.  The news brief will alert you if a release contains a database change.  After updating Galaxy, if you attempt to restart, Galaxy will refuse to load, and will output an error message indicating that your database is the wrong version.  The error message indicates that you should run backup your database and then run `sh manage_db.sh upgrade` - follow those instructions carefully - especially the part about backing up your database safely!  Database updates are carefully tested before release, but it is always wise to be able to back out if something goes wrong during an update.
 
-In the unlikely event that something goes wrong with updated code, you can return to an older release by guessing the release tag name from the [news brief](../../DevNewsBriefs) page and using the `git checkout` command.  For example, to return to the latest version of the January 2015 release, use:
+In the unlikely event that something goes wrong with updated code, you can return to an older release by guessing the release tag name from the [news brief](/src/DevNewsBriefs/index.md) page and using the `git checkout` command.  For example, to return to the latest version of the January 2015 release, use:
 
 ```sh
 % git checkout release_15.01
@@ -179,7 +179,7 @@ Restore the fresh backup if a database update was required, and then restart Gal
 
 * The basic Galaxy install is a single-user instance and is only accessible by the local user. As with many web-based applications, enable cookies in the web-browser used for full functionality.
 
-* A common practice when using any web browser is to stay current with software updates to maximize performance and security. If moving forward to [production server](../../Admin/Config/Performance/ProductionServer) with login enabled, please make sure you and your end-users are current.
+* A common practice when using any web browser is to stay current with software updates to maximize performance and security. If moving forward to [production server](/src/Admin/Config/Performance/ProductionServer/index.md) with login enabled, please make sure you and your end-users are current.
 
 * Some tools shipped with Galaxy have dependencies that need to be satisfied manually. Please see details [here](../../Admin/Tools/ToolDependencies).
 
@@ -204,7 +204,7 @@ Follow these steps to edit `config/galaxy.ini.sample` for a brand new Galaxy.
 *Prerequisites*
 * Galaxy was installed Galaxy using Git. 
 * Galaxy was started at least once using "*sh run.sh*".
-* Galaxy is now stopped. [Help](../../Admin/GetGalaxy#shutting_down_galaxy)
+* Galaxy is now stopped. [Help](/src/Admin/GetGalaxy/index.md#shutting_down_galaxy)
 
 *Add yourself as an administrator while creating a `config/galaxy.ini` file*
 

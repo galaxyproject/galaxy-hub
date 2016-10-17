@@ -12,4 +12,4 @@ See [galaxy-central/scripts/api/data_manager_example_execute.py ](https://bitbuc
 
 
 ----
-[Admin/Tools/DataManagers](../../../../Admin/Tools/DataManagers)
+[Admin/Tools/DataManagers](/src/Admin/Tools/DataManagers/index.md)

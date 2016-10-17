@@ -1,4 +1,4 @@
-Maintaining a Galaxy instance is important to do, something that cannot be understated. For security and bug fixes, it's recommended that you follow the [RSS feed](../../News) or the [Mailing List](../../MailingLists).
+Maintaining a Galaxy instance is important to do, something that cannot be understated. For security and bug fixes, it's recommended that you follow the [RSS feed](../../News) or the [Mailing List](/src/MailingLists/index.md).
 
 ## General Update Procedures
 

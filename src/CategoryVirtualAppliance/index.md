@@ -1,5 +1,5 @@
 
-All the [virtual appliance pages](../VirtualAppliances) in this wiki.
+All the [virtual appliance pages](/src/VirtualAppliances/index.md) in this wiki.
 
 **List of pages in this category:**
 

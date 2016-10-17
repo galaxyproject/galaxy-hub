@@ -2,7 +2,7 @@
 
 PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
-The [GalaxyAdmins](../) group has bi-monthly conference calls and irregular gatherings at various Galaxy-related events.
+The [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) group has bi-monthly conference calls and irregular gatherings at various Galaxy-related events.
 
 
 ## Meetups

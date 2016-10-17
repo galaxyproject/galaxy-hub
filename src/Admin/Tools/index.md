@@ -3,7 +3,7 @@ PLACEHOLDER_INCLUDE(/Develop/LinkBox)
 PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
 # Galaxy Tools
 
-A hub page for [administration](../../Admin) of computational tools within Galaxy framework.
+A hub page for [administration](/src/Admin/index.md) of computational tools within Galaxy framework.
 
 ## Intro
 
@@ -24,7 +24,7 @@ Please start with the [Add Custom Tool Tutorial](AddToolTutorial) to see what ne
 
 ### Testing your tool
 
-It is a very good idea to write functional test for your tool so you can validate its functionality automatically. To get you started please see tutorial for [Writing Tests](../../Admin/Tools/WritingTests).
+It is a very good idea to write functional test for your tool so you can validate its functionality automatically. To get you started please see tutorial for [Writing Tests](/src/Admin/Tools/WritingTests/index.md).
 
 ### Migrating custom tool to the Tool Shed
 
@@ -32,7 +32,7 @@ Later, when your tool is working within your Galaxy, you may want to share the t
 
 ## Tool dependencies
 
-Some of the tools included in the distribution require dependencies that Galaxy cannot provide. Plese see a page dedicated to [Tool Dependencies](ToolDependencies) to learn which tools are affected and how to resolve it. As of March 2014 Galaxy is in the middle of migrating tools from the distribution to the [Tool Shed](../../ToolShed) which means that the list of these dependencies is shortening. The details about tool migrations are available at the [migration page](../../ToolShed/MigratingToolsFromGalaxyDistribution).
+Some of the tools included in the distribution require dependencies that Galaxy cannot provide. Plese see a page dedicated to [Tool Dependencies](ToolDependencies) to learn which tools are affected and how to resolve it. As of March 2014 Galaxy is in the middle of migrating tools from the distribution to the [Tool Shed](../../ToolShed) which means that the list of these dependencies is shortening. The details about tool migrations are available at the [migration page](/src/ToolShed/MigratingToolsFromGalaxyDistribution/index.md).
 
 
 * [Create Executable](Create Executable)

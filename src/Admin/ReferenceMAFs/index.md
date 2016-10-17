@@ -1,7 +1,7 @@
 ## Adding MAFs to Galaxy
 
 Related to: 
-* [Admin/DataPreparation](../../Admin/DataPreparation) 
+* [Admin/DataPreparation](/src/Admin/DataPreparation/index.md) 
 * [Admin/DataIntegration](../../Admin/DataIntegration)
 
 ----

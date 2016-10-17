@@ -37,4 +37,4 @@ Special thanks to Alex Moskalenko for presenting!
 
 
 
-The next [conference call](../) will happen in November.   We are looking for January Volunteers! If you have a large Galaxy installation, please consider telling the group about it.
+The next [conference call](/src/Community/GalaxyAdmins/Meetups/index.md) will happen in November.   We are looking for January Volunteers! If you have a large Galaxy installation, please consider telling the group about it.

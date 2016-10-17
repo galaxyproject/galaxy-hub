@@ -1,4 +1,4 @@
-Pages that describe a [Galaxy deployment](../Community/Deployments).
+Pages that describe a [Galaxy deployment](/src/Community/Deployments/index.md).
 
 **List of pages in this category:**
 

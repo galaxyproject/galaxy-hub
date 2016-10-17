@@ -12,7 +12,7 @@ For a video overview on Data Managers, see this [presentation from GCC2013](http
 
 # Tutorial
 
-The most up-to-date methods, including how to use Data Manager repositories in the [ToolShed](../../../ToolShed): [Events/GCC2014/TrainingDay](../../../Events/GCC2014/TrainingDay#tool_development_from_bright_idea_to_toolshed_-_data_managers)
+The most up-to-date methods, including how to use Data Manager repositories in the [ToolShed](../../../ToolShed): [Events/GCC2014/TrainingDay](/src/Events/GCC2014/TrainingDay/index.md#tool_development_from_bright_idea_to_toolshed_-_data_managers)
 
 # What Kind of Data is Supported
 
@@ -42,4 +42,4 @@ PLACEHOLDER_FULL_SEARCH_CACHED(category:Admin/Tools/DataManagers/HowTo)
 
 ----
 
-[Admin/Tools/DataManagers](../../../Admin/Tools/DataManagers)
+[Admin/Tools/DataManagers](/src/Admin/Tools/DataManagers/index.md)

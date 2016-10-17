@@ -7,4 +7,4 @@
 
 ----
 
-[Admin/Tools/DataManagers](../../../../Admin/Tools/DataManagers)
+[Admin/Tools/DataManagers](/src/Admin/Tools/DataManagers/index.md)

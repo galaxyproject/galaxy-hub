@@ -7,7 +7,7 @@ autotoc: true
 
 By default, Galaxy manages its own users.  However, it may be more useful at your site to tie into a local authentication system.
 
-Galaxy does now do this by itself (Before we needed to use [Nginx](../../../Admin/Config/NginxExternalUserAuth) or [Apache](../../../Admin/Config/ApacheExternalUserAuth) to handle this).
+Galaxy does now do this by itself (Before we needed to use [Nginx](../../../Admin/Config/NginxExternalUserAuth) or [Apache](/src/Admin/Config/ApacheExternalUserAuth/index.md) to handle this).
 
 ### Activate authentication through LDAP
 
@@ -81,4 +81,4 @@ Launch Galaxy, and try to login :).
 
 ### Switching from Nginx or Apache
 
-If you have been using [Nginx](../../../Admin/Config/NginxExternalUserAuth) or [Apache](../../../Admin/Config/ApacheExternalUserAuth) to handle the external authentication, you need to set external = 'f'  in the galaxy_user table for all existing users.
+If you have been using [Nginx](../../../Admin/Config/NginxExternalUserAuth) or [Apache](/src/Admin/Config/ApacheExternalUserAuth/index.md) to handle the external authentication, you need to set external = 'f'  in the galaxy_user table for all existing users.

@@ -26,14 +26,14 @@ See
 A computer process responsible for starting and monitoring jobs, submitting jobs to a cluster (if configured), and for setting metadata (externally or internally).
 
 See 
-* [Admin/Config/Performance/Scaling](../../Admin/Config/Performance/Scaling)
+* [Admin/Config/Performance/Scaling](/src/Admin/Config/Performance/Scaling/index.md)
 
 ### Main
 
-*Main* is the free public Galaxy instance available at [UseGalaxy.org](http://usegalaxy.org/) (or http://main.g2.bx.psu.edu). This is the primary [Galaxy instance](http://usegalaxy.org/). Main is where Galaxy's data and tools are functionality integrated and ready to use. Main is useful for sharing/publishing data and methods with colleagues for routine analysis or with the larger scientific community for publications and supplemental material. *[Test](../../Test)* is also free and public, but is considered a beta site. 
+*Main* is the free public Galaxy instance available at [UseGalaxy.org](http://usegalaxy.org/) (or http://main.g2.bx.psu.edu). This is the primary [Galaxy instance](http://usegalaxy.org/). Main is where Galaxy's data and tools are functionality integrated and ready to use. Main is useful for sharing/publishing data and methods with colleagues for routine analysis or with the larger scientific community for publications and supplemental material. *[Test](/src/Test/index.md)* is also free and public, but is considered a beta site. 
 
 See
-* [Main](../../Main)
+* [Main](/src/Main/index.md)
 
 ### Page
 
@@ -58,7 +58,7 @@ See also
 ### Test
 
 See
-* [Test](../../Test)
+* [Test](/src/Test/index.md)
 
 ### Workflow
 

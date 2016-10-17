@@ -1,5 +1,5 @@
 <div class='red'>
-This page is not meant to be viewed on its own.  Rather, it contains sections that are displayed on the [GCC2012 Training Day](../) page
+This page is not meant to be viewed on its own.  Rather, it contains sections that are displayed on the [GCC2012 Training Day](/src/events/GCC2012/TrainingDay/index.md) page
 </div>
 ---
 
@@ -72,7 +72,7 @@ END_INCLUDE
 END_INCLUDE
 
 # WS2
-* A general knowledge of Galaxy, or attendance at [Workshop 2](../#ws2)
+* A general knowledge of Galaxy, or attendance at [Workshop 2](/src/events/GCC2012/TrainingDay/index.md#ws2)
 END_INCLUDE
 
 # WS5_VM
@@ -84,7 +84,7 @@ END_INCLUDE
   * Installed by you prior to the training day.
   * Setup by you during [Workshop 5](../#ws5) using the [virtual machine image for Workshop 5](/src/Events/GCC2012/TrainingDay/VMs/index.md#vm-without-a-running-galaxy).
   * Installed by you prior to arriving at the conference, using the [virtual machine image that has a running Galaxy](/src/Events/GCC2012/TrainingDay/VMs/index.md#vm-with-a-running-galaxy).
-  Your Galaxy instance will ideally be one you installed locally on a laptop.  If you use something other than a [conference-provided virtual machine (VM)](../VMs) instance, you'll be responsible for handling issues that are outside of Galaxy.
+  Your Galaxy instance will ideally be one you installed locally on a laptop.  If you use something other than a [conference-provided virtual machine (VM)](/src/events/GCC2012/TrainingDay/VMs/index.md) instance, you'll be responsible for handling issues that are outside of Galaxy.
 END_INCLUDE
 
 # ROOT ACCESS
@@ -97,7 +97,7 @@ END_INCLUDE
   * Setup by you during [Workshop 5](../#ws5) using the [virtual machine image for Workshop 5](/src/Events/GCC2012/TrainingDay/VMs/index.md#vm-without-a-running-galaxy).
   * Installed by you prior to arriving at the conference, using the [virtual machine image that has a running Galaxy](/src/Events/GCC2012/TrainingDay/VMs/index.md#vm-with-a-running-galaxy).
 
- **We strongly recommend that you use the [conference provided virtual machine image](/Events/GCC2012/TrainingDay/VMs#vm-with-a-running-galaxy) and have it installed and running before arriving at the conference.**  If you use something other than a [conference-provided virtual machine (VM)](../VMs) instance, you'll be responsible for handling issues that are outside of Galaxy.
+ **We strongly recommend that you use the [conference provided virtual machine image](/Events/GCC2012/TrainingDay/VMs#vm-with-a-running-galaxy) and have it installed and running before arriving at the conference.**  If you use something other than a [conference-provided virtual machine (VM)](/src/events/GCC2012/TrainingDay/VMs/index.md) instance, you'll be responsible for handling issues that are outside of Galaxy.
 END_INCLUDE
 
 # TOOL TO WRAP
@@ -105,7 +105,7 @@ END_INCLUDE
 END_INCLUDE
 
 # WS1
-* Basic understanding of the process for developing a simple Galaxy tool as well as Galaxy data types, or attendance at [Workshop 1](../#ws1).
+* Basic understanding of the process for developing a simple Galaxy tool as well as Galaxy data types, or attendance at [Workshop 1](/src/events/GCC2012/TrainingDay/index.md#ws1).
 END_INCLUDE
 
 # SCRIPTING

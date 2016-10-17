@@ -64,7 +64,7 @@ inherited for now to demonstrate how inheritance works.
 Let's add a new dataset to our data library.  From the data library information page displayed above, click the "Browse this data library"
 button in the upper right corner of the page and then click the "Add datasets" button in the upper right corner of the resulting page.  
 This will display the "Create new library datasets" page, which includes the inherited template fields.  Notice that the contents of the
-template fields are also inherited (these can be over-written).  See our [uploading files to a data library page](../../../Admin/DataLibraries/UploadingLibraryFiles) 
+template fields are also inherited (these can be over-written).  See our [uploading files to a data library page](/src/Admin/DataLibraries/UploadingLibraryFiles/index.md) 
 for more details about uploading files to a data library.
 
 ![](../../../DataLibraries/upload_dataset.png)

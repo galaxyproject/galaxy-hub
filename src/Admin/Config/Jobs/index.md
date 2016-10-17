@@ -8,7 +8,7 @@ PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
 
 By default, jobs in Galaxy are run locally on the server on which the Galaxy application was started.  Many options are available for running Galaxy jobs on other systems, including clusters and other remote resources.
 
-This document is a reference for the job configuration file.  [Detailed documentation](../../../Admin/Config/Performance/Cluster) is provided for configuring Galaxy to work with a variety of Distributed Resource Managers (DRMs) such as TORQUE, Grid Engine, LSF, and HTCondor.  Additionally, a wide range of infrastructure decisions and configuration changes should be made when running Galaxy as a production service, as one is likely doing if using a cluster.  It is highly recommended that the [production server documentation](../../../Admin/Config/Performance/ProductionServer) and [cluster configuration documentation](../../../Admin/Config/Performance/Cluster) be read before making changes to the job configuration.
+This document is a reference for the job configuration file.  [Detailed documentation](/src/Admin/Config/Performance/Cluster/index.md) is provided for configuring Galaxy to work with a variety of Distributed Resource Managers (DRMs) such as TORQUE, Grid Engine, LSF, and HTCondor.  Additionally, a wide range of infrastructure decisions and configuration changes should be made when running Galaxy as a production service, as one is likely doing if using a cluster.  It is highly recommended that the [production server documentation](../../../Admin/Config/Performance/ProductionServer) and [cluster configuration documentation](/src/Admin/Config/Performance/Cluster/index.md) be read before making changes to the job configuration.
 
 **The most up-to-date details of advanced job configuration features can be found in the [sample job_conf.xml](https://bitbucket.org/galaxy/galaxy-central/src/tip/config/job_conf.xml.sample_advanced) found in the Galaxy distribution.**
 
@@ -18,7 +18,7 @@ This document is a reference for the job configuration file.  [Detailed document
 
 Configuration of where to run jobs is performed in the `job_conf.xml` file in `galaxy-dist/config/`.  The path to the config file can be overridden by setting the value of `job_config_file` in `config/galaxy.ini`.  Sample configurations are provided at `galaxy-dist/config/job_conf.xml.sample_basic` and `galaxy-dist/config/job_conf.xml.sample_advanced`.  The job configuration file is not required - if it does not exist, a default configuration that runs jobs on the local system (with a maximum of 4 concurrent jobs) will be used.  `job_conf.xml.sample_basic` provides a configuration identical to the default configuration if no `job_conf.xml` exists.
 
-If you have used `config/galaxy.ini` to configure job runners, handlers, and per-tool runner/handler specifications in the past (e.g. [runner URLs](../../../Admin/Config/Performance/Cluster/Legacy)), that method is no longer supported.  However, Galaxy is fully backward-compatible with the old `config/galaxy.ini` config options and job runner URLs, meaning that if you upgrade to the April 1, 2013 release (or later) and do not modify your config files, your job running configuration will continue to work.
+If you have used `config/galaxy.ini` to configure job runners, handlers, and per-tool runner/handler specifications in the past (e.g. [runner URLs](/src/Admin/Config/Performance/Cluster/Legacy/index.md)), that method is no longer supported.  However, Galaxy is fully backward-compatible with the old `config/galaxy.ini` config options and job runner URLs, meaning that if you upgrade to the April 1, 2013 release (or later) and do not modify your config files, your job running configuration will continue to work.
 
 # job_conf.xml Syntax
 
@@ -112,7 +112,7 @@ The collection contains `<plugin>` elements.
 
 ## Job Handlers
 
-The `<handlers>` collection defines which Galaxy server processes (when [running multiple server processes](../../../Admin/Config/Performance/Scaling)) should be used for running jobs, and how to group those processes.  This replaces the former `job_manager`, `job_handlers` and `default_job_handlers` configuration parameters, as well as the `[galaxy:tool_handlers]` section.
+The `<handlers>` collection defines which Galaxy server processes (when [running multiple server processes](/src/Admin/Config/Performance/Scaling/index.md)) should be used for running jobs, and how to group those processes.  This replaces the former `job_manager`, `job_handlers` and `default_job_handlers` configuration parameters, as well as the `[galaxy:tool_handlers]` section.
 
 <table>
   <tr>
@@ -258,7 +258,7 @@ The collection contains `<destination>`s, which are can be collections or single
 </table>
 
 
-Destination collections may contain zero or more `<param>`s, which are passed to the destination's defined runner plugin and interpreted in a way native to that plugin. For details on the parameter specification, see the documentation on [Cluster configuration](../../../Admin/Config/Performance/Cluster).
+Destination collections may contain zero or more `<param>`s, which are passed to the destination's defined runner plugin and interpreted in a way native to that plugin. For details on the parameter specification, see the documentation on [Cluster configuration](/src/Admin/Config/Performance/Cluster/index.md).
 
 As of the June 2014 release, destinations may contain additional `env` elements to configure the environment for jobs on that resource. These each map to shell commands that will be injected to Galaxy's job script and executed on the destination resource.
 

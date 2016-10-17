@@ -1,5 +1,5 @@
 Describe Events/GCC2014/TrainingDay/Includes here.<div class='red'>
-This page is not meant to be viewed on its own. Rather, it contains sections that are displayed on the [GCC2014 Training Day](../) page
+This page is not meant to be viewed on its own. Rather, it contains sections that are displayed on the [GCC2014 Training Day](/src/events/GCC2014/TrainingDay/index.md) page
 </div>
 ---
 
@@ -117,15 +117,15 @@ END_INCLUDE
 END_INCLUDE
 
 # INTRO
-* A general knowledge of Galaxy (for example, you should be familiar with the material in [Galaxy 101](http://usegalaxy.org/galaxy101)), or attendance at the "[Raisins and Rabbit Turds: NGS Quality Control with Galaxy](../#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy)" session. 
+* A general knowledge of Galaxy (for example, you should be familiar with the material in [Galaxy 101](http://usegalaxy.org/galaxy101)), or attendance at the "[Raisins and Rabbit Turds: NGS Quality Control with Galaxy](/src/events/GCC2014/TrainingDay/index.md#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy)" session. 
 END_INCLUDE
 
 # QC
-* A general knowledge of Galaxy and NGS quality control issues and tools, or attendance at the "[Raisins and Rabbit Turds: NGS Quality Control with Galaxy](../#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy)" session.
+* A general knowledge of Galaxy and NGS quality control issues and tools, or attendance at the "[Raisins and Rabbit Turds: NGS Quality Control with Galaxy](/src/events/GCC2014/TrainingDay/index.md#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy)" session.
 END_INCLUDE
 
 # TUXEDO
-* Familiarity with the Tuxedo suite or attendance at the [RNA-Seq Analysis with Galaxy and the Tuxedo Suite](../#rna-seq-analysis-with-galaxy-and-the-tuxedo-suite) session
+* Familiarity with the Tuxedo suite or attendance at the [RNA-Seq Analysis with Galaxy and the Tuxedo Suite](/src/events/GCC2014/TrainingDay/index.md#rna-seq-analysis-with-galaxy-and-the-tuxedo-suite) session
 END_INCLUDE
 
 # SSH

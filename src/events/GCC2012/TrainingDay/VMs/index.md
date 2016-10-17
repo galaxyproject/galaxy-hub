@@ -5,15 +5,15 @@ autotoc: true
 
 If you are planning on attending any of these [GCC2012](/Events/GCC2012) [Training Day](/src/Events/GCC2012/TrainingDay/index.md) workshops, then you will need shell admin access to a system with Galaxy and/or a Galaxy Tool Shed already installed and running.
 
-* [WS1: Integrating Tools & Data Sources](../#ws1)
-* [WS6: Galaxy API](../#ws6)
-* [WS7: Galaxy Tool Shed](../#ws7)
+* [WS1: Integrating Tools & Data Sources](/src/events/GCC2012/TrainingDay/index.md#ws1)
+* [WS6: Galaxy API](/src/events/GCC2012/TrainingDay/index.md#ws6)
+* [WS7: Galaxy Tool Shed](/src/events/GCC2012/TrainingDay/index.md#ws7)
 
 <div class='right'></div>
 
 If you are attending this workshop
 
-* [WS5: Installing Your Own Galaxy](../#ws5)
+* [WS5: Installing Your Own Galaxy](/src/events/GCC2012/TrainingDay/index.md#ws5)
 
 you will need shell admin access to a system that has Galaxy's prerequisites installed, but not Galaxy itself.
 
@@ -48,7 +48,7 @@ These VMs will be available for download in the days just before the conference.
 ### VM Without a Running Galaxy
 This VM is for:
 
-* [WS5: Installing Your Own Galaxy](../#ws5)
+* [WS5: Installing Your Own Galaxy](/src/events/GCC2012/TrainingDay/index.md#ws5)
 
 This image will have all prerequisites for Galaxy, but not a running Galaxy instance.
 
@@ -58,9 +58,9 @@ This image will have all prerequisites for Galaxy, but not a running Galaxy inst
 
 This VM image is for these workshops
 
-* [WS1: Integrating Tools & Data Sources](../#ws1)
-* [WS6: Galaxy API](../#ws6)
-* [WS7: Galaxy Tool Shed](../#ws7)
+* [WS1: Integrating Tools & Data Sources](/src/events/GCC2012/TrainingDay/index.md#ws1)
+* [WS6: Galaxy API](/src/events/GCC2012/TrainingDay/index.md#ws6)
+* [WS7: Galaxy Tool Shed](/src/events/GCC2012/TrainingDay/index.md#ws7)
 
 This image will have a configured and running Galaxy instance.
 

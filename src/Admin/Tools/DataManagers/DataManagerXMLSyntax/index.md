@@ -192,7 +192,7 @@ Assume that we have a Data Manager Tool that provides the following named values
 | value |  sacCer2  | 
 | path |  sacCer2.2bit  | 
 
-and creates an output named "out_file", with an extra_files_path containing a file 'sacCer2.2bit'. (The primary dataset file contains [JSON](../../../../Admin/Tools/DataManagers/DataManagerJSONSyntax) that provides the above values)
+and creates an output named "out_file", with an extra_files_path containing a file 'sacCer2.2bit'. (The primary dataset file contains [JSON](/src/Admin/Tools/DataManagers/DataManagerJSONSyntax/index.md) that provides the above values)
 
 and has a Data Manager configuration defined as:
 
@@ -230,4 +230,4 @@ and the "sacCer2.2bit" file has been moved into the location specified by path.
 
 ----
 
-[Admin/Tools/DataManagers](../../../../Admin/Tools/DataManagers)
+[Admin/Tools/DataManagers](/src/Admin/Tools/DataManagers/index.md)

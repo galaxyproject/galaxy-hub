@@ -18,11 +18,11 @@ Hub page for Galaxy configuration.
 
 * [Tool Dependencies](ToolDependencies)
 * [Set up Visualizations](../../Visualization Setup)
-* [Collecting Job Metrics](../../Admin/Config/JobMetrics)
+* [Collecting Job Metrics](/src/Admin/Config/JobMetrics/index.md)
 
 ## External User Databases
 
-* [ Authentication with LDAP/AD](../../Admin/Config/ExternalUserAuth)
+* [ Authentication with LDAP/AD](/src/Admin/Config/ExternalUserAuth/index.md)
 
 ## FTP
 
@@ -32,7 +32,7 @@ Hub page for Galaxy configuration.
 ## Other
 
 * [Eggs](Eggs)
-* [GenomeSpace](../../Admin/Config/GenomeSpace)
+* [GenomeSpace](/src/Admin/Config/GenomeSpace/index.md)
 * [User Information (Collecting information during registration)](User Information)
 * [Running on Windows](Windows)
 * [Access Control (ACLs)](Access Control)

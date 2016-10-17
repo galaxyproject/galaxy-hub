@@ -1,10 +1,10 @@
 # Data Preparation
 
-**Please note that "built-in" or "cached" data can now be managed directly from within the Galaxy admin interface. For details, see [Data Managers](../../Admin/Tools/DataManagers).**
+**Please note that "built-in" or "cached" data can now be managed directly from within the Galaxy admin interface. For details, see [Data Managers](/src/Admin/Tools/DataManagers/index.md).**
 
-Tutorial: [Events/GCC2014/TrainingDay](../../Events/GCC2014/TrainingDay#tool_development_from_bright_idea_to_toolshed_-_data_managers)
+Tutorial: [Events/GCC2014/TrainingDay](/src/Events/GCC2014/TrainingDay/index.md#tool_development_from_bright_idea_to_toolshed_-_data_managers)
 
-**NOTE: Be aware that that as of early 2014, builds are incorporated into the Galaxy schema in tables. [Data Managers](../../Admin/Tools/DataManagers) are recommended to index new genomes (these are found in the [ToolShed](../../ToolShed). *This wiki is considered legacy and provided as a reference.***
+**NOTE: Be aware that that as of early 2014, builds are incorporated into the Galaxy schema in tables. [Data Managers](../../Admin/Tools/DataManagers) are recommended to index new genomes (these are found in the [ToolShed](/src/ToolShed/index.md). *This wiki is considered legacy and provided as a reference.***
 
 # Builds list changes
 
@@ -12,14 +12,14 @@ If you still choose to do this manually, follow the instructions at [Data Integr
 
 # Rsync data
 
-Using the Galaxy team's version of reference genomes and indexes can often be a good strategy for those working with both a local and the public **[Main](../../Main)** instance. More about our rsync server, the contents of the data snapshots, and what is published on the [usegalaxy.org](http://usegalaxy.org) public instance is at **[Usegalaxy.org Rsync](../../Admin/UseGalaxyRsync)**.
+Using the Galaxy team's version of reference genomes and indexes can often be a good strategy for those working with both a local and the public **[Main](../../Main)** instance. More about our rsync server, the contents of the data snapshots, and what is published on the [usegalaxy.org](http://usegalaxy.org) public instance is at **[Usegalaxy.org Rsync](/src/Admin/UseGalaxyRsync/index.md)**.
 
 ## What's in this wiki ?
 
 **This wiki shows you how to organize, index, and link in your local built-in data for the most commonly used tools.**
 Galaxy's web tool forms are each a web-accessible input wrapper that interacts with one or more underlying tools. Many require that reference data be indexed in a specific way as an one of the inputs, whether specifically selected on the form by the user or interpreted from the other input's metadata (specifically, the "database" attribute, or **dbkey**).
 
-Although a reference genome can be used from the history with most tools (see [Custom Genomes](../../Learn/CustomGenomes)), this is a resource intensive process, and local built-in indexes mean quicker job execution and reduced server load. 
+Although a reference genome can be used from the history with most tools (see [Custom Genomes](/src/Learn/CustomGenomes/index.md)), this is a resource intensive process, and local built-in indexes mean quicker job execution and reduced server load. 
 
 The link between a tool and built-in data is a configurable `".loc"` file. 
 
@@ -382,7 +382,7 @@ Megablast in Galaxy was updated to use [NCBI BLAST+](http://blast.ncbi.nlm.nih.g
 Get the indexes: download directly at NCBI from [ftp://ftp.ncbi.nlm.nih.gov/blast/db/](ftp://ftp.ncbi.nlm.nih.gov/blast/db/).
 Create your own, Usage: `formatdb -i <database>.fa -p F -n "<database>" -v 2000`
 
-The Galaxy [Main](../../Main) public instance uses htgs, wgs, and nt from NCBI.
+The Galaxy [Main](/src/Main/index.md) public instance uses htgs, wgs, and nt from NCBI.
 
 Put the data files in an organized hierarchy such as: 
  ` /galaxy-dist/tool-data/blast/<div>/<date>/<date_div>.* `

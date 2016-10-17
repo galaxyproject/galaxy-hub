@@ -8,7 +8,7 @@ There are a couple of primary use cases for Mercurial in Galaxy:
 1. To update the code, and either contribute it back to the mainline Galaxy code, or to keep your own local updates.
 
 ## Bitbucket
-Galaxy keeps it's source code in [../Bitbucket](../Bitbucket) ...
+Galaxy keeps it's source code in [../Bitbucket](/src/Develop/Bitbucket/index.md) ...
 
 ## Getting Mercurial
 New users are strongly recommended to go through the [Mercurial tutorial](http://mercurial.selenic.com/wiki/Tutorial), to install Mercurial and learn about the basic usage.

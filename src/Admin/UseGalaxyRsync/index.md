@@ -1,11 +1,11 @@
 ## Usegalaxy.org Data Rsync
 
 [Data Integration](../../Admin/DataIntegration)<br />
-[Data Preparation](../../Admin/DataPreparation)
+[Data Preparation](/src/Admin/DataPreparation/index.md)
 
 ## Obtaining Reference Genome Data by Rsync
 
-This page will describe how to rsync the same exact data that is used on the public [Main](../../Main) **Galaxy** instance at [http://usegalaxy.org](http://usegalaxy.org) for use with a **[local](../../Admin/GetGalaxy)** or **[cloud](../../Cloud)** **Galaxy** or an *external application*. The contents consist of reference genome sequence data, indexes used by tools, and the Galaxy-specific configuration files that make the data known to tools.
+This page will describe how to rsync the same exact data that is used on the public [Main](../../Main) **Galaxy** instance at [http://usegalaxy.org](http://usegalaxy.org) for use with a **[local](../../Admin/GetGalaxy)** or **[cloud](/src/Cloud/index.md)** **Galaxy** or an *external application*. The contents consist of reference genome sequence data, indexes used by tools, and the Galaxy-specific configuration files that make the data known to tools.
 
 
 Examples file formats:
@@ -41,7 +41,7 @@ $ rsync -avzP rsync://datacache.g2.bx.psu.edu/indexes/phiX .
 
 ## Organization and DBKEY
 
-Genomes are organized in directories by reference genome **dbkey**. If you are not sure of the **dbkey**, it can be found in the [Main](../../Main) user interface. This value is what is populated into the *"database"* attribute for a dataset. Or, it is the last value in parenthesis *(dbkey)* at the end of the full reference genome build name in two specific places: 
+Genomes are organized in directories by reference genome **dbkey**. If you are not sure of the **dbkey**, it can be found in the [Main](/src/Main/index.md) user interface. This value is what is populated into the *"database"* attribute for a dataset. Or, it is the last value in parenthesis *(dbkey)* at the end of the full reference genome build name in two specific places: 
 
 #### Example: dbkey 'Tcas_3.0'
 

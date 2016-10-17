@@ -13,7 +13,7 @@ Our goal is to have registration be downright affordable, and to make early regi
 
 <div class='left'><a href='../TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='Training Day' height="60" /></a></div>
 
-**If you are attending the [Training Day](../TrainingDay), you are encouraged to review the [schedule and topics](../TrainingDay) before registering.** You will select the topics you will attend as part of registration.
+**If you are attending the [Training Day](/src/events/GCC2013/TrainingDay/index.md), you are encouraged to review the [schedule and topics](/src/events/GCC2013/TrainingDay/index.md) before registering.** You will select the topics you will attend as part of registration.
 
 <br />
 
@@ -32,7 +32,7 @@ You will receive an email confirming your registration within 3 business days.  
 </table>
 
 
-[Register](http://bit.ly/gcc2013reg) for both the [GCC2013 main meeting](../Program) and the [Training Day](../TrainingDay) and save over 50% on Training Day registration.  This is by far the most affordable option, with early registration fees *starting at less than 235 NOK / €35 per day*.
+[Register](http://bit.ly/gcc2013reg) for both the [GCC2013 main meeting](../Program) and the [Training Day](/src/events/GCC2013/TrainingDay/index.md) and save over 50% on Training Day registration.  This is by far the most affordable option, with early registration fees *starting at less than 235 NOK / €35 per day*.
 
 <table>
   <tr>
@@ -174,6 +174,6 @@ Interested in the [Training Day](../TrainingDay), but not the main meeting itsel
 </table>
 
 
-See [Key Dates](../KeyDates) for a full timeline.
+See [Key Dates](/src/events/GCC2013/KeyDates/index.md) for a full timeline.
 
 PLACEHOLDER_INCLUDE(/Events/GCC2013/Footer)

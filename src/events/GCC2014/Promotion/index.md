@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 
 
-Please help get the word out about the [2014 Galaxy Community Conference (GCC2014)](../). 
+Please help get the word out about the [2014 Galaxy Community Conference (GCC2014)](/src/events/GCC2014/index.md). 
 
 # Graphics
 

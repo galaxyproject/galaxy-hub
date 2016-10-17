@@ -4,12 +4,12 @@ PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
 
 ## Adding custom tools to Galaxy
 
-Vast number of good and well-implemented tools for Galaxy is available through the [Galaxy ToolShed](../../../ToolShed) and you can freely install any of them into your Galaxy instance via the [admin interface](../../../Admin/Interface). Short tutorial to get you started is available [here](../../../Admin/Tools/AddToolFromToolShedTutorial).
+Vast number of good and well-implemented tools for Galaxy is available through the [Galaxy ToolShed](../../../ToolShed) and you can freely install any of them into your Galaxy instance via the [admin interface](../../../Admin/Interface). Short tutorial to get you started is available [here](/src/Admin/Tools/AddToolFromToolShedTutorial/index.md).
 
 
 If you did not find your favorite tool in the ToolShed you can always add it to your Galaxy manually (and later share in the Tool Shed with the rest of the world if you like). This article will help you with this creation of a custom tool in your Galaxy.
 
-See also the [Tutorial for Creating a Histogram Tool](../../../Admin/Tools/AddingTools).
+See also the [Tutorial for Creating a Histogram Tool](/src/Admin/Tools/AddingTools/index.md).
 
 ### 1. Write and test your tool outside Galaxy:
 
@@ -88,7 +88,7 @@ This tool computes GC content from a FASTA file.
 
 
 Note how this file specifies command line parameters, links them to input and output, and provides help information using the restructured text format. Once you are done, the `tools/myTools` directory will contain two files `toolExample.pl` and `toolExample.xml`.
-For basic and general tool definition file please see [Example Tool Definiton File](../../../Admin/Tools/ExampleXMLFile). Once you feel comfortable with the basics you can browse through the [full tool definition syntax](../../../Admin/Tools/ToolConfigSyntax).
+For basic and general tool definition file please see [Example Tool Definiton File](../../../Admin/Tools/ExampleXMLFile). Once you feel comfortable with the basics you can browse through the [full tool definition syntax](/src/Admin/Tools/ToolConfigSyntax/index.md).
 
 ### 4. Make Galaxy aware of the new tool:
 
@@ -110,7 +110,7 @@ Note the correspondence between elements of the `toolExample.xml` file (Step 2) 
 
 ### 6. (optional) Upload your tool to the Tool Shed:
 
-If you want to easily share your tool with others upload it to the [Galaxy Tool Shed](../../../ToolShed). It allows others to install the tool into their Galaxies seamlessly via the [Admin interface](../../../Admin/Interface). If the tool is well written and tested it can even make it to the [Main Galaxy instance](../../../Main) or other [Public Galaxy Servers](../../../PublicGalaxyServers)!
+If you want to easily share your tool with others upload it to the [Galaxy Tool Shed](../../../ToolShed). It allows others to install the tool into their Galaxies seamlessly via the [Admin interface](../../../Admin/Interface). If the tool is well written and tested it can even make it to the [Main Galaxy instance](../../../Main) or other [Public Galaxy Servers](/src/PublicGalaxyServers/index.md)!
 
 To get started with the sharing of your tool please see Tool Shed's [Get started](../../../ToolShedGetStarted).
 

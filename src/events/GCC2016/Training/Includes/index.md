@@ -1,5 +1,5 @@
 <div class='red'>
-This page is not meant to be viewed on its own. Rather, it contains sections that are displayed on the [GCC2016 Training](../) page
+This page is not meant to be viewed on its own. Rather, it contains sections that are displayed on the [GCC2016 Training](/src/events/GCC2016/Training) page
 </div>
 ---
 

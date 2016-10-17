@@ -6,9 +6,9 @@ PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
 
 Galaxy is designed to run jobs on your local system by default, but it can be configured to run jobs on a cluster.  The front-end Galaxy application runs on a single server as usual, but tools are run on cluster nodes instead.
 
-This documentation applies to Galaxy release_2013.04.01 and newer. For older Galaxy releases, use the [legacy documentation](../../../../Admin/Config/Performance/Cluster/Legacy).
+This documentation applies to Galaxy release_2013.04.01 and newer. For older Galaxy releases, use the [legacy documentation](/src/Admin/Config/Performance/Cluster/Legacy/index.md).
 
-A [general reference for the job configuration file](../../../../Admin/Config/Jobs) is also available.
+A [general reference for the job configuration file](/src/Admin/Config/Jobs/index.md) is also available.
 
 
 
@@ -25,7 +25,7 @@ Galaxy is known to work with:
 * [Slurm](http://slurm.schedmd.com/)
 * [Galaxy Pulsar](#pulsar) (formerly LWR)
 
-It should also work with [any other DRM](http://www.drmaa.org/implementations.php) which implements a [DRMAA](http://www.drmaa.org) interface.  If you successfully run Galaxy with a DRM not listed here, please let us know via an email to the [galaxy-dev mailing list](../../../../MailingLists).
+It should also work with [any other DRM](http://www.drmaa.org/implementations.php) which implements a [DRMAA](http://www.drmaa.org) interface.  If you successfully run Galaxy with a DRM not listed here, please let us know via an email to the [galaxy-dev mailing list](/src/MailingLists/index.md).
 
 If you do not already have a DRM, [Galaxy Pulsar](#pulsar) is available which does not require an existing cluster or a shared filesystem and can also run jobs on Windows hosts.
 
@@ -78,7 +78,7 @@ You may also find that attribute caching in your filesystem causes problems with
 
 # Runner Configuration
 
-**This documentation covers configuration of the various runner plugins, not how to distribute jobs to the various plugins.** Consult the [job configuration file documentation](../../../../Admin/Config/Jobs) for full details on the correct syntax, and for instructions on how to configure tools to actually use the runners explained below.
+**This documentation covers configuration of the various runner plugins, not how to distribute jobs to the various plugins.** Consult the [job configuration file documentation](/src/Admin/Config/Jobs/index.md) for full details on the correct syntax, and for instructions on how to configure tools to actually use the runners explained below.
 
 ## Local
 
@@ -109,7 +109,7 @@ For each destination using the local runner, it is possible to specify the numbe
 ```
 
 
-The value of *local_slots* is used to define [GALAXY_SLOTS](../../../../Admin/Config/GALAXY_SLOTS)
+The value of *local_slots* is used to define [GALAXY_SLOTS](/src/Admin/Config/GALAXY_SLOTS/index.md)
 
 ## DRMAA
 
@@ -203,7 +203,7 @@ Most options available to `qsub(1b)` and `pbs_submit(3b)` are supported.  Except
 ```
 
 
-The value of *ppn=* is used by PBS to define the environment variable $PBS_NCPUS which in turn is used by galaxy for [GALAXY_SLOTS](../../../../Admin/Config/GALAXY_SLOTS).
+The value of *ppn=* is used by PBS to define the environment variable $PBS_NCPUS which in turn is used by galaxy for [GALAXY_SLOTS](/src/Admin/Config/GALAXY_SLOTS/index.md).
 
 ## Condor
 
@@ -223,7 +223,7 @@ Galaxy will submit jobs to HTCondor as the "galaxy" user (or whatever user the G
 
 ## Pulsar
 
-Runs jobs via Galaxy [Pulsar](../../../../Admin/Config/Pulsar).  Pulsar does not require an existing cluster or a shared filesystem and can also run jobs on Windows hosts. It also has the ability to interface with all of the DRMs supported by Galaxy. Pulsar provides a much looser coupling between Galaxy job execution and the Galaxy server host than is possible with Galaxy's native job execution code.
+Runs jobs via Galaxy [Pulsar](/src/Admin/Config/Pulsar/index.md).  Pulsar does not require an existing cluster or a shared filesystem and can also run jobs on Windows hosts. It also has the ability to interface with all of the DRMs supported by Galaxy. Pulsar provides a much looser coupling between Galaxy job execution and the Galaxy server host than is possible with Galaxy's native job execution code.
 
 [Full documentation on setup and configuration](http://pulsar.readthedocs.org/) is available.
 
@@ -425,7 +425,7 @@ galaxy  ALL = (root) NOPASSWD: SETENV: /usr/bin/chown
 
 If your sudo config contains `Defaults    requiretty`, this option must be disabled.
 
-Some maintenance and support of this code will be provided via the usual [Support](../../../../Support) channels, but improvements and fixes would be greatly welcomed, as this is a complex feature which is not used by the Galaxy Development Team.
+Some maintenance and support of this code will be provided via the usual [Support](/src/Support/index.md) channels, but improvements and fixes would be greatly welcomed, as this is a complex feature which is not used by the Galaxy Development Team.
 
 
 # Contributors

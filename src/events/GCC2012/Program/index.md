@@ -11,7 +11,7 @@ PLACEHOLDER_INCLUDE(/UnderConstruction)
 PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
 <div class='right'></div>
 
-The [2012 Galaxy Community Conference](../) included two full days of accepted talks, [lightning talks](../LightningTalks), breakout sessions, and networking time.  The conference was preceded by a full day of training sessions that cover 10 topics over four 90 minute sessions.
+The [2012 Galaxy Community Conference](../) included two full days of accepted talks, [lightning talks](/src/events/GCC2012/LightningTalks/index.md), breakout sessions, and networking time.  The conference was preceded by a full day of training sessions that cover 10 topics over four 90 minute sessions.
 
 ### Summaries
 

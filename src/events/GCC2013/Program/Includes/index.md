@@ -1,4 +1,4 @@
-<div class='red'>This page is not intended to be viewed directly. Rather it contains several snippets of wiki markup that are then included on the [GCC2013 Program page](../) inside tables. Doing it this way makes the wiki markup much, much easier. </div>
+<div class='red'>This page is not intended to be viewed directly. Rather it contains several snippets of wiki markup that are then included on the [GCC2013 Program page](/src/events/GCC2013/Program/index.md) inside tables. Doing it this way makes the wiki markup much, much easier. </div>
 
 ---
 

@@ -83,7 +83,7 @@ Now let's take a look at the first test:
 
 All this does is specify parameters that will be used by test framework to run this test. For most input types, the value should be what would be entered by the user when running the tool through the web, with the exception of input and output. The input (`5.bed`) and output (`gops-cluster-1.bed`) files reside within the `~/test-data` directory. Once the test is executed the framework simply compares generated output with an example file (`gops-cluster-1.bed` in this case). If there are no differences - test is declared success. 
 
-To run the Galaxy functional tests see [Running Tests](../../../Admin/RunningTests).
+To run the Galaxy functional tests see [Running Tests](/src/Admin/RunningTests/index.md).
 
 ----
 

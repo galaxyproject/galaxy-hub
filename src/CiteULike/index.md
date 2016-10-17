@@ -97,7 +97,7 @@ CiteULike makes extensive use of *[tags](http://www.citeulike.org/group/16008/ta
 
 Every paper should have at least one tag (even if it is just "[other](http://www.citeulike.org/group/16008/tag/other)"), and papers can have more than one tag.
 
-You can also see papers listed in [approximate order of relevance to the Galaxy project](http://www.citeulike.org/group/16008/order/to_read,,).  See [Citing Galaxy](../CitingGalaxy) if you want to cite the Galaxy Project itself, 
+You can also see papers listed in [approximate order of relevance to the Galaxy project](http://www.citeulike.org/group/16008/order/to_read,,).  See [Citing Galaxy](/src/CitingGalaxy/index.md) if you want to cite the Galaxy Project itself, 
 
 ## Want to Help?
 

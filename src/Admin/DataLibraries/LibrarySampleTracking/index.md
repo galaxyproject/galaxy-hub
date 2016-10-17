@@ -151,11 +151,11 @@ And if Jill views her current history, she'll see that the analysis that resulte
 We've only scratched the surface of what can be done with Galaxy. Here are some pointers for learning more:
 
 * [More information about Galaxy data libraries](../../../Admin/DataLibraries/Libraries)
-* [You can build complicated tool configurations](../../../Admin/Tools/ToolConfigSyntax)
-* [Your Galaxy instance can run jobs on a cluster](../../../Admin/Config/Performance/Cluster)
-* [Your Galaxy can be more robust and scalable](../../../Admin/Config/Performance/ProductionServer)
+* [You can build complicated tool configurations](/src/Admin/Tools/ToolConfigSyntax/index.md)
+* [Your Galaxy instance can run jobs on a cluster](/src/Admin/Config/Performance/Cluster/index.md)
+* [Your Galaxy can be more robust and scalable](/src/Admin/Config/Performance/ProductionServer/index.md)
 * [You can make local genomes, alignments, and other data available to Galaxy](../../../Admin/Data Integration)
 * [You can customize what external applications are available for displaying datasets](../../../Admin/Tools/External Display Applications Tutorial)
 * [You can customize the datatypes for a Galaxy instance](../../../Admin/Datatypes/Adding Datatypes)
-* [You can instantiate Galaxy on the Amazon cloud](../../../CloudMan)
+* [You can instantiate Galaxy on the Amazon cloud](/src/CloudMan/index.md)
 

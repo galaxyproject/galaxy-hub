@@ -7,7 +7,7 @@ Galaxy is a large code base with many different test types. **Functional tests**
 
 
 
-This page describes the tests available for a locally downloaded copy of Galaxy, the Galaxy Tool Shed offers a different, but related service - namely [automated tool tests](../../ToolShed/AutomatedToolTests) for tools stored there.
+This page describes the tests available for a locally downloaded copy of Galaxy, the Galaxy Tool Shed offers a different, but related service - namely [automated tool tests](/src/ToolShed/AutomatedToolTests/index.md) for tools stored there.
 
 ### Functional Tests
 
@@ -78,7 +78,7 @@ export GALAXY_TEST_DB_TEMPLATE=https://github.com/jmchilton/galaxy-downloads/raw
 ```
 
 
-([John Chilton](../../JohnChilton) was so kind to offer one, thanks John!)
+([John Chilton](/src/JohnChilton/index.md) was so kind to offer one, thanks John!)
 
 ### Unit Tests
 

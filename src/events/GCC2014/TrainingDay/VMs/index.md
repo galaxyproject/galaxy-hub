@@ -12,7 +12,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 (*Already know about virtual machines?  Then skip the intro and go straight to [What do I ABSOLUTELY need to do before I arrive?](#what-do-i-absolutely-need-to-do-before-i-arrive)*)
 
-Many of the [ Galaxy Deployment and Development Workshops](../#galaxy-deployment-and-development-workshops) use *virtual machine images* created specifically for Training Day.
+Many of the [ Galaxy Deployment and Development Workshops](/src/events/GCC2014/TrainingDay/index.md#galaxy-deployment-and-development-workshops) use *virtual machine images* created specifically for Training Day.
 
 A virtual machine, or VM, enables you to run a another operating system on your computer, from within your existing operating system. For these workshops we will use VM images that are fully configured Linux instance on participants' laptops. This will allow you to switch between your native/host operating system (Windows, Mac OS, Linux) and the guest Linux operating system (where Galaxy is running), without having to shut either down.
 
@@ -44,9 +44,9 @@ The VM(s) to download depend on the workshops you are attending:
 | ----- | ------ | ------------ | 
 | [Galaxy on a Cluster - User and Project Management](../#galaxy-on-a-cluster---user-and-project-management) |  [Instructions](http://www.usit.uio.no/om/organisasjon/uav/itf/intern-doc/galaxy/virtualbox-installation.html) <br /> [Download VM (from Oslo)](http://folk.uio.no/nikolaiv/GCC2014-Users-Projects.ova)  |  Customized Galaxy instance for this workshop.<div class='indent'>User: baltimore2014<br />Password: !UsersProjects2014</div>  | 
 | [Galaxy Installation and Administration](../#galaxy-installation-and-administration) |  [Download VM (from PA)](http://depot.galaxyproject.org/GCC2014.ova)  |  Has Galaxy source code distribution and Galaxy prerequisites, and running Galaxy and Galaxy Tool Shed instances.<div class='indent'>User: galaxy<br />Password: galaxy  | 
-| [Galaxy Automation: Using the API](../#galaxy-automation-using-the-api) | 
-| [Tool Development from bright idea to ToolShed - designing a Galaxy Tool](../#tool-development-from-bright-idea-to-toolshed---designing-a-galaxy-tool) | 
-| [Tool Development from bright idea to ToolShed - Data Managers](../#tool-development-from-bright-idea-to-toolshed---data-managers) | 
+| [Galaxy Automation: Using the API](/src/events/GCC2014/TrainingDay/index.md#galaxy-automation-using-the-api) | 
+| [Tool Development from bright idea to ToolShed - designing a Galaxy Tool](/src/events/GCC2014/TrainingDay/index.md#tool-development-from-bright-idea-to-toolshed---designing-a-galaxy-tool) | 
+| [Tool Development from bright idea to ToolShed - Data Managers](/src/events/GCC2014/TrainingDay/index.md#tool-development-from-bright-idea-to-toolshed---data-managers) | 
 
 ## 3. Import the VM into VirtualBox
 

@@ -6,7 +6,7 @@ PLACEHOLDER_INCLUDE(/Admin/LinkBox)
 PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
 
 
-See [Learn/FAQ](../../Learn/FAQ) for questions about using any Galaxy instance, and [Main/FAQ](../../Main/FAQ) for questions specifically about using Galaxy's free public server [Main](../../Main).
+See [Learn/FAQ](../../Learn/FAQ) for questions about using any Galaxy instance, and [Main/FAQ](../../Main/FAQ) for questions specifically about using Galaxy's free public server [Main](/src/Main/index.md).
 
 
 
@@ -16,19 +16,19 @@ See [Learn/FAQ](../../Learn/FAQ) for questions about using any Galaxy instance, 
 
 **What are the licensing terms for Galaxy?**
 
-See [Copyrights and Licenses](../../Admin/License).
+See [Copyrights and Licenses](/src/Admin/License/index.md).
 
 ----
 
 ## Using Galaxy
 
-Galaxy can be used through a **free public [Main](../../Main) web service at [http://usegalaxy.org](http://usegalaxy.org)**, a **[Local](../../Admin/GetGalaxy) install**, or an **[Amazon Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2/) via [CloudMan](../../CloudMan)**. 
+Galaxy can be used through a **free public [Main](../../Main) web service at [http://usegalaxy.org](http://usegalaxy.org)**, a **[Local](../../Admin/GetGalaxy) install**, or an **[Amazon Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2/) via [CloudMan](/src/CloudMan/index.md)**. 
 
 Tools and workflows managed by the primary Galaxy team (but contributed by [community members](../../Community) worldwide) are served through the **[ Main ToolShed](../../Tool Shed)** and genome data/indexes through an **[rsync service](../../Admin/Data Integration)**.  
 
 *Which is **right** for you?*
-* Review the **[Big Picture](../../BigPicture/Choices)**
-* Explore **Community [Public Galaxy Servers](../../PublicGalaxyServers)**
+* Review the **[Big Picture](/src/BigPicture/Choices/index.md)**
+* Explore **Community [Public Galaxy Servers](/src/PublicGalaxyServers/index.md)**
 * Watch a screencast about **setting up a [EC2 Cloud](http://screencast.g2.bx.psu.edu//cloud/)**
 * Or, follow the ***galaxy-dev@bx.psu.edu* [mailing list](../../MailingLists)** to find out **[more...](http://galaxyproject.org)**
 
@@ -122,7 +122,7 @@ The following alignment tools available in Galaxy enable this:
 
 **I've read about GALAXY_SLOTS but I don't understand what it is and how it works?**
 
-[Follow this link for a detailed description](../../Admin/Config/GALAXY_SLOTS)
+[Follow this link for a detailed description](/src/Admin/Config/GALAXY_SLOTS/index.md)
 
 ----
 

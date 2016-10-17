@@ -1,5 +1,5 @@
 <div class='red'>
-This page is not meant to be viewed on its own. Rather, it contains sections that are displayed on the [GCC2013 Training Day](../) page
+This page is not meant to be viewed on its own. Rather, it contains sections that are displayed on the [GCC2013 Training Day](/src/events/GCC2013/TrainingDay/index.md) page
 </div>
 ---
 
@@ -107,12 +107,12 @@ END_INCLUDE
 END_INCLUDE
 
 # INTRO
-* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](../#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
+* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/src/events/GCC2013/TrainingDay/index.md#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
 END_INCLUDE
 
 # QC
-* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](../#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
-* General knowledge of NGS quality control issues and tools, or attendance at the "[NGS Quality Control with Galaxy](../#ngs-quality-control-with-galaxy)" session. 
+* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/src/events/GCC2013/TrainingDay/index.md#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
+* General knowledge of NGS quality control issues and tools, or attendance at the "[NGS Quality Control with Galaxy](/src/events/GCC2013/TrainingDay/index.md#ngs-quality-control-with-galaxy)" session. 
 END_INCLUDE
 
 # ROOT ACCESS
@@ -128,7 +128,7 @@ END_INCLUDE
 END_INCLUDE
 
 # TOOL BASICS
-* Basic understanding of the process for developing a simple Galaxy tool as well as Galaxy data types, or attendance at [Introduction to Tool and Data Sources Configureation](../#introduction-to-tool-and-data-source-configuration).
+* Basic understanding of the process for developing a simple Galaxy tool as well as Galaxy data types, or attendance at [Introduction to Tool and Data Sources Configureation](/src/events/GCC2013/TrainingDay/index.md#introduction-to-tool-and-data-source-configuration).
 END_INCLUDE
 
 # SCRIPTING

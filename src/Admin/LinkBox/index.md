@@ -1,16 +1,16 @@
 <div class='linkbox'>
-**[Admin](../../Admin)**
+**[Admin](/src/Admin/index.md)**
 ----
-[Get Galaxy](../../Admin/GetGalaxy)<br />
-[Config|](../../Admin/Config)<br />
-[Tools](../../Admin/Tools)<br />
-[Tool Shed](../../ToolShed)<br />
-[Data Libs](../../Admin/DataLibraries)<br />
-[Datatypes](../../Admin/Datatypes)<br />
-[Develop](../../Develop)<br />
-[Quotas](../../Admin/DiskQuotas)<br />
-[FAQ](../../Admin/FAQ)<br />
-[Tutorials](../../Admin/Training)<br />
-[CloudMan](../../CloudMan)<br />
+[Get Galaxy](/src/Admin/GetGalaxy/index.md)<br />
+[Config|](/src/Admin/Config/index.md)<br />
+[Tools](/src/Admin/Tools/index.md)<br />
+[Tool Shed](/src/ToolShed/index.md)<br />
+[Data Libs](/src/Admin/DataLibraries/index.md)<br />
+[Datatypes](/src/Admin/Datatypes/index.md)<br />
+[Develop](/src/Develop/index.md)<br />
+[Quotas](/src/Admin/DiskQuotas/index.md)<br />
+[FAQ](/src/Admin/FAQ/index.md)<br />
+[Tutorials](/src/Admin/Training/index.md)<br />
+[CloudMan](/src/CloudMan/index.md)<br />
 [Search](http://galaxyproject.org/search/getgalaxy)
 </div>

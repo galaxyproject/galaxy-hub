@@ -66,4 +66,4 @@ Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitt
 
 # Sponsorships
 
-Interested in sponsoring the meeting?  See [Sponsorships](../Sponsorships).
+Interested in sponsoring the meeting?  See [Sponsorships](/src/events/GCC2013/Sponsorships/index.md).

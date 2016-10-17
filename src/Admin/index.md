@@ -9,22 +9,22 @@ This is the hub page for the section of this wiki on how to deploy and administe
 ## Deploying
 
 * [Install own Galaxy](GetGalaxy)
-* [Install on the Cloud Infrastructure](../CloudMan)
-* [Maintaining an Instance](../Admin/Maintenance)
+* [Install on the Cloud Infrastructure](/src/CloudMan/index.md)
+* [Maintaining an Instance](/src/Admin/Maintenance/index.md)
 
 ## Configuration
 
 * [Tools](Tools)
-* [Tool Panel](../Admin/ToolPanel)
+* [Tool Panel](/src/Admin/ToolPanel/index.md)
 * [Administration Interface](../Admin/Interface)
 * [Subtopics in Configuration](Config)
-* [Installing tools](../Admin/Tools/AddToolFromToolShedTutorial)
+* [Installing tools](/src/Admin/Tools/AddToolFromToolShedTutorial/index.md)
 * [Data Libraries](DataLibraries)
 * [Datatypes](Datatypes)
 * [Sample Tracking](SampleTracking)
-* [Configuring Galaxy Home/Welcome Page](../Admin/GalaxyWelcomePage)
+* [Configuring Galaxy Home/Welcome Page](/src/Admin/GalaxyWelcomePage/index.md)
 * [Purge Histories and Datasets](../Admin/Config/Performance/Purge Histories and Datasets)
-* [Interactive Environments (IE)](../Admin/GIEs)
+* [Interactive Environments (IE)](/src/Admin/GIEs/index.md)
 
 ## Users
 
@@ -35,25 +35,25 @@ This is the hub page for the section of this wiki on how to deploy and administe
 ## Learning Resources
 
 * [FAQ](FAQ)
-* [Mailing Lists (galaxy-dev)](../MailingLists)
+* [Mailing Lists (galaxy-dev)](/src/MailingLists/index.md)
 * [Tutorials](Training)
 
 ## Development Resources
 
-* [Developer's hub](../Develop)
+* [Developer's hub](/src/Develop/index.md)
 
 ## Data Resources
 
 * [Admin/DataIntegration](../Admin/DataIntegration)
-* [Admin/DataPreparation](../Admin/DataPreparation)
-* [Admin/ReferenceMAFs](../Admin/ReferenceMAFs)
+* [Admin/DataPreparation](/src/Admin/DataPreparation/index.md)
+* [Admin/ReferenceMAFs](/src/Admin/ReferenceMAFs/index.md)
 
 ## Other
 
-* [License](../Admin/License)
-* [Running Tests](../Admin/RunningTests)
-* [Galaxy-Admins discussion group](../Community/GalaxyAdmins)
-* [Switching to Github from Bitbucket](../Admin/SwitchingToGithubFromBitbucket)
+* [License](/src/Admin/License/index.md)
+* [Running Tests](/src/Admin/RunningTests/index.md)
+* [Galaxy-Admins discussion group](/src/Community/GalaxyAdmins/index.md)
+* [Switching to Github from Bitbucket](/src/Admin/SwitchingToGithubFromBitbucket/index.md)
 
 <div class='center'>
 <a href='http://galaxyproject.org/search/getgalaxy'><img src="../Images/Logos/GetGalaxySearch.png" alt="Search all Galaxy administration resources" width="120" /></a>

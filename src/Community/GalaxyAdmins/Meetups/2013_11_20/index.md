@@ -73,7 +73,7 @@ Notes from the BoF:
 
 ## Call Technology
 
-We will use the [University of Iowa's Blackboard system](../WebinarTech) for the call. **Downloading and launching the required Java application takes a few minutes. Using a headphone with microphone to prevent audio feedback during the call is recommended.**
+We will use the [University of Iowa's Blackboard system](/src/Community/GalaxyAdmins/Meetups/WebinarTech/index.md) for the call. **Downloading and launching the required Java application takes a few minutes. Using a headphone with microphone to prevent audio feedback during the call is recommended.**
 
 <br />
 

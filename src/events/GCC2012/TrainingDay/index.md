@@ -9,7 +9,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 
 PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
 
-The [2012 Galaxy Community Conference](../) was preceded by a *Training Day*, featuring 3 parallel tracks, each featuring four, 90 minutes workshops and covering 10 different topics.
+The [2012 Galaxy Community Conference](/src/events/GCC2012/index.md) was preceded by a *Training Day*, featuring 3 parallel tracks, each featuring four, 90 minutes workshops and covering 10 different topics.
 
 # Registration
 

@@ -1,4 +1,4 @@
-Pages that describe a [Galaxy Teaching Resource](../Teach/Resources).
+Pages that describe a [Galaxy Teaching Resource](/src/Teach/Resources/index.md).
 
 **List of pages in this category:**
 

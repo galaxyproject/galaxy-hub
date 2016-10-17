@@ -51,4 +51,4 @@ The conference logo is available in 2 formats in several widths.
 
 # Sponsorships
 
-Interested in sponsoring the meeting?  See [Sponsorships](../Sponsorships).
+Interested in sponsoring the meeting?  See [Sponsorships](/src/events/GCC2012/Sponsorships/index.md).

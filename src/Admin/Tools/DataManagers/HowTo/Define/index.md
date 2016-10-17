@@ -428,4 +428,4 @@ sacCer2	sacCer2	S. cerevisiae June 2008 (SGD/sacCer2) (sacCer2)	/Users/dan/galax
 
 
 ----
-[Admin/Tools/DataManagers](../../../../../Admin/Tools/DataManagers)
+[Admin/Tools/DataManagers](/src/Admin/Tools/DataManagers/index.md)
