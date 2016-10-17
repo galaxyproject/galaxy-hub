@@ -335,7 +335,7 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
 * The framework for [Tools](/src/DevNewsBriefs/2013_11_04/index.md#tools), [Visualizations](/src/DevNewsBriefs/2013_11_04/index.md#visualizations), and the [Core](/src/DevNewsBriefs/2013_11_04/index.md#core) have been upgraded for performance and scalability. 
 * Come see! A whopping [26 pull requests incorporated](/src/DevNewsBriefs/2013_11_04/index.md#pull_requests_merged)!. Many thanks to our open source community!
 * Numerous [Tool Shed enhancements and upgrades](/src/DevNewsBriefs/2013_11_04/index.md#tool_shed): API, `READMEs`, Functional Tests, easier installs, and much much more.
-* Plus enhancements to [Workflows](/src/DevNewsBriefs/2013_11_04/index.md#workflows), [API](/src/DevNewsBriefs/2013_11_04/index.md#api), [CloudLaunch](/src/DevNewsBriefs/2013_11_04/index.md#cloudlaunch), [UI](/DevNewsBriefs/2013_11_04#ui), and [Bug Fixes](/src/DevNewsBriefs/2013_11_04/index.md#bug_fixes).
+* Plus enhancements to [Workflows](/src/DevNewsBriefs/2013_11_04/index.md#workflows), [API](/src/DevNewsBriefs/2013_11_04/index.md#api), [CloudLaunch](/src/DevNewsBriefs/2013_11_04/index.md#cloudlaunch), [UI](/src/DevNewsBriefs/2013_11_04/index.md#ui), and [Bug Fixes](/src/DevNewsBriefs/2013_11_04/index.md#bug_fixes).
 
 [http://getgalaxy.org](http://getgalaxy.org)
 

@@ -24,7 +24,7 @@ Some highlights from the **[June Galaxy News](/src/GalaxyUpdates/2016_06/index.m
 * [Open positions](/src/GalaxyUpdates/2016_06/index.md#whos-hiring) (5 of them)
 * New [Semi-Public Galaxy Servers Directory](/src/GalaxyUpdates/2016_06/index.md#new-semi-public-galaxy-servers-directory) and new [Commercial Support Directory](/src/GalaxyUpdates/2016_06/index.md#new-commercial-support-directory)
 * A new [Galaxy Trainer](/src/GalaxyUpdates/2016_06/index.md#galaxy-community-hubs) 
-* New [Releases](/src/GalaxyUpdates/2016_06/index.md#releases): [Galaxy v16.04](/src/GalaxyUpdates/2016_06/index.md#galaxy-v1604), [CloudMan 16.04](/src/GalaxyUpdates/2016_06/index.md#cloudman-1604), [Planemo](/GalaxyUpdates/2016_06#planemo-0250---0260), and [galaxy-lib](/src/GalaxyUpdates/2016_06/index.md#galaxy-lib-1671---1677).
+* New [Releases](/src/GalaxyUpdates/2016_06/index.md#releases): [Galaxy v16.04](/src/GalaxyUpdates/2016_06/index.md#galaxy-v1604), [CloudMan 16.04](/src/GalaxyUpdates/2016_06/index.md#cloudman-1604), [Planemo](/src/GalaxyUpdates/2016_06/index.md#planemo-0250---0260), and [galaxy-lib](/src/GalaxyUpdates/2016_06/index.md#galaxy-lib-1671---1677).
 * [April and May ToolShed Contributions](/src/GalaxyUpdates/2016_06/index.md#toolshed-contributions), and [other news](/src/GalaxyUpdates/2016_06/index.md#other-news) too.
 
 Hope to [see you in Bloomington](https://gcc2016.iu.edu/),

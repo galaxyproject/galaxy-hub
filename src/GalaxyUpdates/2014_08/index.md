@@ -20,7 +20,7 @@ The *Galaxy Update* is going out a few days early this month because the usual r
 
 **[2014 Galaxy Community Conference (GCC2014)](/src/Events/GCC2014/index.md)** was held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.  It was preceded by by the first ever [GCC Hackathon](/src/Events/GCC2014/Hackathon/index.md).
 
-Videos of and slides for [presentations](/src/Events/GCC2014/Abstracts/Talks/index.md) and [Lightning Talks](/src/Events/GCC2014/Lightning/index.md), PDFs of [Posters](/src/Events/GCC2014/Abstracts/Posters/index.md), material for [Training Day Sessions](/Events/GCC2014/TrainingDay), and writeups of [BoFs](/Events/GCC2014/BoFs) are now all online.  There are also several [meeting reports](/src/Events/GCC2014/index.md#meeting-reports) now available on the web.
+Videos of and slides for [presentations](/src/Events/GCC2014/Abstracts/Talks/index.md) and [Lightning Talks](/src/Events/GCC2014/Lightning/index.md), PDFs of [Posters](/src/Events/GCC2014/Abstracts/Posters/index.md), material for [Training Day Sessions](/src/Events/GCC2014/TrainingDay/index.md), and writeups of [BoFs](/src/Events/GCC2014/BoFs/index.md) are now all online.  There are also several [meeting reports](/src/Events/GCC2014/index.md#meeting-reports) now available on the web.
 
 Feedback has been very positive (see below for some of it), and we would like to thank absolutely everyone for making this such a successful meeting.
 <br /><br />

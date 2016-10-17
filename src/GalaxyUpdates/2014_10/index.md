@@ -286,7 +286,7 @@ The *[Deployment Catalog](/src/Community/Deployments/index.md)* and *[Community 
 
 # New Releases
 
-New versions of [Galaxy](/src/GalaxyUpdates/2014_09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release), [BioBlend](/src/GalaxyUpdates/2014_09/index.md#bioblend-051-release), and [blend4j](/GalaxyUpdates/2014_09#blend4j-011-release) were all released in August.  And so was [Galaxy IPython](/src/GalaxyUpdates/2014_09/index.md#galaxy-ipython) too.
+New versions of [Galaxy](/src/GalaxyUpdates/2014_09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release), [BioBlend](/src/GalaxyUpdates/2014_09/index.md#bioblend-051-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were all released in August.  And so was [Galaxy IPython](/src/GalaxyUpdates/2014_09/index.md#galaxy-ipython) too.
 
 Look for a new Galaxy distribution in October.
 

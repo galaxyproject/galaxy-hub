@@ -62,7 +62,7 @@ You can also update the [source code documentation](/src/Develop/SourceDoc/index
 
 # Events
 
-Galaxy has a presence at many [/Events](/src/Events/index.md) throughout the year.  This includes annual Galaxy meetings ([2014](/src/Events/GCC2014/index.md), [2013](/src/Events/GCC2013/index.md), [2012](/src/Events/GCC2012/index.md), [2011](/Events/GCC2011), [2010](/Events/GDC2010)); workshops, tutorials, and talks at [meetings, conferences, and courses](/src/Events/index.md); and special events like the [NBIC Galaxy Hackathon](https://wiki.nbic.nl/index.php/NBIC_Galaxy_Hackathon_project).  See [/Events](/src/Events/index.md) for a complete list and a link to Google Calendar.
+Galaxy has a presence at many [/Events](/src/Events/index.md) throughout the year.  This includes annual Galaxy meetings ([2014](/src/Events/GCC2014/index.md), [2013](/src/Events/GCC2013/index.md), [2012](/src/Events/GCC2012/index.md), [2011](/src/Events/GCC2011/index.md), [2010](/src/Events/GDC2010/index.md)); workshops, tutorials, and talks at [meetings, conferences, and courses](/src/Events/index.md); and special events like the [NBIC Galaxy Hackathon](https://wiki.nbic.nl/index.php/NBIC_Galaxy_Hackathon_project).  See [/Events](/src/Events/index.md) for a complete list and a link to Google Calendar.
 
 # Outreach
 

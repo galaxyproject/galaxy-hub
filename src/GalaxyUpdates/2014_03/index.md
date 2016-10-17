@@ -14,7 +14,7 @@ Welcome to the March 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a mont
 
 *54 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in Febrary. Some papers that may be particularly interesting to the Galaxy community:
 
-* [Dissemination of scientific software with Galaxy ToolShed](http://dx.doi.org/10.1186/gb4161), by [Blankenberg](/src/Dan/index.md), [Von Kuster](/src/greg_vonkuster/index.md), [Bouvier](/src/DaveBouvier/index.md), [Baker](/DannonBaker), [Afgan](/EnisAfgan), Stoler, the [Galaxy Team](/GalaxyTeam), [Taylor](/JamesTaylor) and [Nekrutenko](/src/anton/index.md), *Genome Biology,* Vol. 15, No. 2. (20 February 2014), 403, doi:10.1186/gb4161
+* [Dissemination of scientific software with Galaxy ToolShed](http://dx.doi.org/10.1186/gb4161), by [Blankenberg](/src/Dan/index.md), [Von Kuster](/src/greg_vonkuster/index.md), [Bouvier](/src/DaveBouvier/index.md), [Baker](/src/DannonBaker/index.md), [Afgan](/src/EnisAfgan/index.md), Stoler, the [Galaxy Team](/src/GalaxyTeam/index.md), [Taylor](/src/JamesTaylor/index.md) and [Nekrutenko](/src/anton/index.md), *Genome Biology,* Vol. 15, No. 2. (20 February 2014), 403, doi:10.1186/gb4161
 
 * [Binding Sites Analyser (BiSA): Software for Genomic Binding Sites Archiving and Overlap Analysis](http://dx.doi.org/10.1371/journal.pone.0087301), by Khushi, *et al.,* *PLoS ONE*, Vol. 9, No. 2. (12 February 2014), e87301, doi:10.1371/journal.pone.0087301
 

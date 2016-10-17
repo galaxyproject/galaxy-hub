@@ -450,7 +450,7 @@ To ensure the quality of the Tool Shed and the available contributed Utilities, 
 
 <div class='right'><a href='/CarlEberhard'><img src='/GalaxyTeam/carl.jpg' alt='' width="120" /></a></div>
 
-**[Carl Eberhard](/src/CarlEberhard/index.md)**<sup>1</sup>, [Jeremy Goecks](/src/JeremyGoecks/index.md)<sup>1</sup>, [The Galaxy Team](/src/GalaxyTeam/index.md)<sup>1,2</sup>, [Anton Nekrutenko](/anton)<sup>2</sup>, and [James Taylor](/src/JamesTaylor/index.md)<sup>1</sup>
+**[Carl Eberhard](/src/CarlEberhard/index.md)**<sup>1</sup>, [Jeremy Goecks](/src/JeremyGoecks/index.md)<sup>1</sup>, [The Galaxy Team](/src/GalaxyTeam/index.md)<sup>1,2</sup>, [Anton Nekrutenko](/src/anton/index.md)<sup>2</sup>, and [James Taylor](/src/JamesTaylor/index.md)<sup>1</sup>
 
  <sup>1</sup> Emory University<br />
  <sup>2</sup> Penn State University

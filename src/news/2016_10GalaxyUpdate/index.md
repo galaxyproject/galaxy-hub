@@ -22,7 +22,7 @@ The **[October Galaxy News](/src/GalaxyUpdates/2016_10/index.md)** is hot off th
   * *Registration and abstract submission are now open.* 
 * And of course, [other upcoming events](/src/GalaxyUpdates/2016_10/index.md#other-upcoming-events) too
 
-There are also [117 new publications](/src/GalaxyUpdates/2016_10/index.md#new-publications) (including six featured pubs), [four open positions](/src/GalaxyUpdates/2016_10/index.md#whos-hiring), [two new public Galaxy servers and one new semi-public Galaxy service](/src/GalaxyUpdates/2016_10/index.md#public-galaxy-server-news), [new releases of galaxy-lib & Planemo](/GalaxyUpdates/2016_10#releases), [new TooShed contributions](/GalaxyUpdates/2016_10#toolshed-contributions), and [other news](/src/GalaxyUpdates/2016_10/index.md#other-news) too.
+There are also [117 new publications](/src/GalaxyUpdates/2016_10/index.md#new-publications) (including six featured pubs), [four open positions](/src/GalaxyUpdates/2016_10/index.md#whos-hiring), [two new public Galaxy servers and one new semi-public Galaxy service](/src/GalaxyUpdates/2016_10/index.md#public-galaxy-server-news), [new releases of galaxy-lib & Planemo](/src/GalaxyUpdates/2016_10/index.md#releases), [new TooShed contributions](/src/GalaxyUpdates/2016_10/index.md#toolshed-contributions), and [other news](/src/GalaxyUpdates/2016_10/index.md#other-news) too.
 
 We hope to see you in Freiburg, Salt Lake, Melbourne, online, and around the world,
 

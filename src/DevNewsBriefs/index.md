@@ -10,7 +10,7 @@ title: Galaxy Releases
 <br /><br />
 See all release notes at **[Read the Docs](http://galaxy.readthedocs.org/en/master/releases/15.05_announce.html).**
 <br /><br /><br /><br />
-**[About Galaxy](/src/Support/AboutGalaxy/index.md)** • [Galaxy Project](/src/GalaxyProject/index.md) • [Administer](/src/Admin/index.md) • [/Issues](/Issues) • [Big Picture](/BigPicture) • [/Community](/Community) • [Get Galaxy](/Admin/GetGalaxy) • [/CloudMan](/CloudMan) • [Tool Shed](/ToolShed) • [/Develop](/Develop) • [Servers](/PublicGalaxyServers) • [/Learn](/Learn) • [/Support](/Support) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/News) • [Twitter](/GalaxyOnTwitter) • [/Events](/Events) • [/Teach](/Teach) • [Cite](/CitingGalaxy) • [Galaxy Team](/GalaxyTeam) • [Recent Release Notes](/DevNewsBriefs) • [Prior Release Note Archive](Archive)
+**[About Galaxy](/src/Support/AboutGalaxy/index.md)** • [Galaxy Project](/src/GalaxyProject/index.md) • [Administer](/src/Admin/index.md) • [/Issues](/src/Issues/index.md) • [Big Picture](/src/BigPicture/index.md) • [/Community](/src/Community/index.md) • [Get Galaxy](/src/Admin/GetGalaxy/index.md) • [/CloudMan](/src/CloudMan/index.md) • [Tool Shed](/src/ToolShed/index.md) • [/Develop](/src/Develop/index.md) • [Servers](/src/PublicGalaxyServers/index.md) • [/Learn](/src/Learn/index.md) • [/Support](/src/Support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/src/News/index.md) • [Twitter](/src/GalaxyOnTwitter/index.md) • [/Events](/src/Events/index.md) • [/Teach](/src/Teach/index.md) • [Cite](/src/CitingGalaxy/index.md) • [Galaxy Team](/src/GalaxyTeam/index.md) • [Recent Release Notes](/src/DevNewsBriefs/index.md) • [Prior Release Note Archive](Archive)
 <br /><br />
 <div class='newsItemList'>
  

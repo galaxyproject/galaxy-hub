@@ -83,7 +83,7 @@ If you have a Galaxy deployment then please [take a few minutes to describe your
 
 </div>
 
-The [Galaxy Events](/src/Events/index.md) for 2013 have been moved to the [Events Archive](/src/Events/Archive/index.md), where they can still be accessed.  There are 160 items in the 2013 Events list.  That count *goes well over 200 items* if you follow some links and include the 13 talks at [Galaxy Day](/src/News/GalaxyDay2013Report/index.md); and all the talks (25), posters (26), lightning talks (19) and Training Day Sessions (15) at [GCC2013](/Events/GCC2013); and the 20+ items [at ISMB 2013](/src/Events/ISMB2013/index.md); and ...  Furthermore, *at least 3/4 of those items were presented by people outside the core Galaxy Team.*  
+The [Galaxy Events](/src/Events/index.md) for 2013 have been moved to the [Events Archive](/src/Events/Archive/index.md), where they can still be accessed.  There are 160 items in the 2013 Events list.  That count *goes well over 200 items* if you follow some links and include the 13 talks at [Galaxy Day](/src/News/GalaxyDay2013Report/index.md); and all the talks (25), posters (26), lightning talks (19) and Training Day Sessions (15) at [GCC2013](/src/Events/GCC2013/index.md); and the 20+ items [at ISMB 2013](/src/Events/ISMB2013/index.md); and ...  Furthermore, *at least 3/4 of those items were presented by people outside the core Galaxy Team.*  
 
 While those numbers are just plain cool, the really useful bit is that there are slides, exercises, and videos for over 4/5 of those presentation.  If you have a question about Galaxy, chances are someone talked about it in 2013, *and that you can find their slides in the [Events Archive](/src/Events/Archive/index.md).*
 

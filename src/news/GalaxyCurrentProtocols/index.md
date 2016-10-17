@@ -8,7 +8,7 @@ date: 2012-06-18T16:46:46Z
 Two new Galaxy-related papers are now available in [Current Protocols in Bioinformatics](http://cda.currentprotocols.com/WileyCDA/CurPro3Category/L1-1000.html):
 
  **["Using Galaxy to Perform Large-Scale Interactive Data Analyses"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html)**
-  [Jennifer Hillman-Jackson](/src/JenniferJackson/index.md), [Dave Clements](/src/DaveClements/index.md), [Daniel Blankenberg](/src/Dan/index.md), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton), [/Galaxy Team](/Galaxy Team).<br />
+  [Jennifer Hillman-Jackson](/src/JenniferJackson/index.md), [Dave Clements](/src/DaveClements/index.md), [Daniel Blankenberg](/src/Dan/index.md), [James Taylor](/src/JamesTaylor/index.md), [Anton Nekrutenko](/src/anton/index.md), [/Galaxy Team](/Galaxy Team).<br />
   *[Current Protocols in Bioinformatics](http://cda.currentprotocols.com/WileyCDA/CurPro3Category/L1-1000.html)*. 2012 June: Unit 10.5.<br /><br />
  **["Using Cloud Computing Infrastructure with CloudBioLinux, CloudMan, and Galaxy"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1109.html)**
   [Enis Afgan](/src/EnisAfgan/index.md), Brad Chapman, Margita Jadan, Vedran Franke, [James Taylor](/src/JamesTaylor/index.md).<br />  
