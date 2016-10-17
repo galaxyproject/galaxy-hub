@@ -11,7 +11,7 @@ date: 2014-03-31T16:39:09Z
 
 Happy April everyone!  
 
-It's a busy time [in the Galaxy](/src/GalaxyUpdates/2014_04/index.md) and that is reflected in the [April 2014 Galaxy Update](/src/GalaxyUpdates/2014_04/index.md).  First, there were a [record 63 new papers](/GalaxyUpdates/2014_04#new-papers) in the past month, [six of which we have highlighted](/GalaxyUpdates/2014_04#new-papers) (also a record).  Three new [public Galaxy servers](/GalaxyUpdates/2014_04#new-public-servers), and one [Galaxy Community Log Board entry](/src/GalaxyUpdates/2014_04/index.md#galaxy-community-hubs) were also added in March.
+It's a busy time [in the Galaxy](/src/GalaxyUpdates/2014_04/index.md) and that is reflected in the [April 2014 Galaxy Update](/src/GalaxyUpdates/2014_04/index.md).  First, there were a [record 63 new papers](/src/GalaxyUpdates/2014_04/index.md#new-papers) in the past month, [six of which we have highlighted](/src/GalaxyUpdates/2014_04/index.md#new-papers) (also a record).  Three new [public Galaxy servers](/src/GalaxyUpdates/2014_04/index.md#new-public-servers), and one [Galaxy Community Log Board entry](/src/GalaxyUpdates/2014_04/index.md#galaxy-community-hubs) were also added in March.
 
 However, the big news this month is [Upcoming Events](/src/GalaxyUpdates/2014_04/index.md#events):
 

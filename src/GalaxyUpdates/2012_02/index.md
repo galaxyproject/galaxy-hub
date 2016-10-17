@@ -21,7 +21,7 @@ New papers of note for the Galaxy community:
 
 * Thomas Hentrich, Julia M. Schulze, Eldon Emberly, and Michael S. Kobor, "[CHROMATRA: a Galaxy tool for visualizing genome-wide chromatin signatures](http://bioinformatics.oxfordjournals.org/content/early/2012/01/10/bioinformatics.bts007.short)." *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* 
 
-* Jeremy Goecks, Kanwei Li, [Dave Clements](/src/DaveClements/index.md), The [Galaxy Team](/GalaxyTeam), James Taylor, "[The Galaxy Track Browser: Transforming the genome browser from visualization tool to analysis tool](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6094046)." *[Biological Data Visualization (BioVis), 2011 IEEE Symposium on](http://www.biovis.net/)*
+* Jeremy Goecks, Kanwei Li, [Dave Clements](/src/DaveClements/index.md), The [Galaxy Team](/src/GalaxyTeam/index.md), James Taylor, "[The Galaxy Track Browser: Transforming the genome browser from visualization tool to analysis tool](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6094046)." *[Biological Data Visualization (BioVis), 2011 IEEE Symposium on](http://www.biovis.net/)*
 
 Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, reference, or are about Galaxy.  
 

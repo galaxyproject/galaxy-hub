@@ -26,7 +26,7 @@ Get a dedicated server pre-configured with a fully operational Galaxy instance. 
 
 Your choices depends upon your needs.  Here are the options depending on what you need:
 
-| |  [Main](/src/Main/index.md)  |  [Local](../../Admin/GetGalaxy)  |  [Cloud](../../Cloud)  |  [Appliance](http://www.bioteam.net/slipstream/galaxy-edition)  |  [Other](/src/PublicGalaxyServers/index.md)  | 
+| |  [Main](/src/Main/index.md)  |  [Local](/src/Admin/GetGalaxy/index.md)  |  [Cloud](/src/Cloud/index.md)  |  [Appliance](http://www.bioteam.net/slipstream/galaxy-edition)  |  [Other](/src/PublicGalaxyServers/index.md)  | 
 | --- | ------------------- | ------------------------------- | --------------------- | -------------------------------------------------------------- | ----------------------------------- | 
 | Your data sets are moderately sized |  Yes  |  Yes  |  Yes  |  Yes  |  [?](../../Public Galaxy Servers)  | 
 | Your computational requirements are moderate |  Yes  |  Yes  |  Yes  |  Yes  |  [?](../../Public Galaxy Servers)  | 

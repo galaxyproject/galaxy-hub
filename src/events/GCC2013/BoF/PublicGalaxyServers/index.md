@@ -24,7 +24,7 @@ We'll cover topics that are relevant to public sites, including
 
 ## When and Where
 
-The [tentative time and location](/src/Events/GCC2013/BoF/index.md#bof-schedule) for this BoF is Sunday evening, [at the Escape Pub](/Events/GCC2013/Program#escape-to-the-pub).  The [Training Day](/src/Events/GCC2013/TrainingDay/index.md) ends at 17:00; lets start around 5:30pm.
+The [tentative time and location](/src/Events/GCC2013/BoF/index.md#bof-schedule) for this BoF is Sunday evening, [at the Escape Pub](/src/Events/GCC2013/Program/index.md#escape-to-the-pub).  The [Training Day](/src/Events/GCC2013/TrainingDay/index.md) ends at 17:00; lets start around 5:30pm.
 
 
 ## Who is Participating

@@ -102,7 +102,7 @@ And ...
 
 ## Ten Simple Rules for Reproducible Computational Research
 
-[Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/), [Anton Nekrutenko](/src/anton/index.md), [James Taylor](/JamesTaylor), and [Eivind Hovig](http://www.mn.uio.no/ifi/english/people/aca/ehovig/index.html)'s paper "[Ten Simple Rules for Reproducible Computational Research](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285)" was published in *[PLoS Computational Biology](http://www.ploscompbiol.org/)* in October.  
+[Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/), [Anton Nekrutenko](/src/anton/index.md), [James Taylor](/src/JamesTaylor/index.md), and [Eivind Hovig](http://www.mn.uio.no/ifi/english/people/aca/ehovig/index.html)'s paper "[Ten Simple Rules for Reproducible Computational Research](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285)" was published in *[PLoS Computational Biology](http://www.ploscompbiol.org/)* in October.  
 
 <div class='right'><a href='http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285'><img src='/Images/Logos/PlosCompBioLogo.png' alt='PLoS Computational Biology: Ten Simple Rules for Reproducible Computational Research' width="240" /></a></div>
 
@@ -341,7 +341,7 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
 
 <div class='right'><a href='https://lifeportal.uio.no/'><img src='/Images/Logos/LifeportalLeaf.jpg' alt='Lifeportal' /></a></div>
 
-The University of Oslo (UiO), the hosts of this year's [Galaxy Community Conference](/src/Events/GCC2013/index.md), launched [Lifeportal](https://lifeportal.uio.no/) in October.  While Lifeportal is *not* a [public Galaxy server](/PublicGalaxyServers), it is [available to all research institutions in Norway and their collaborators abroad](http://www.uio.no/english/services/it/research/hpc/lifeportal/start-using/).
+The University of Oslo (UiO), the hosts of this year's [Galaxy Community Conference](/src/Events/GCC2013/index.md), launched [Lifeportal](https://lifeportal.uio.no/) in October.  While Lifeportal is *not* a [public Galaxy server](/src/PublicGalaxyServers/index.md), it is [available to all research institutions in Norway and their collaborators abroad](http://www.uio.no/english/services/it/research/hpc/lifeportal/start-using/).
 
 From the [Lifeportal website](https://lifeportal.uio.no/):
  Lifeportal gives you easy access to the High Performance Computing cluster Abel at the University of Oslo. The Galaxy based Lifeportal has a continuously growing list of services, and among them the most widely used tools from the former Bioportal.

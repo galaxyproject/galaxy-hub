@@ -400,7 +400,7 @@ No [new publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) w
 
 The [Semi-Public Galaxy Servers Directory](/src/SemiPublicGalaxyServers/index.md) lists Galaxy servers that aren't [fully publicly accessible](/src/PublicGalaxyServers/index.md), but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
 
-Servers are classified by whom they are accessible to.  This can be based on [research domain](/src/SemiPublicGalaxyServers/index.md#domain-based), [Geography Based|geography (regional or national)](/SemiPublicGalaxyServers), or by [membership in a multi-organization association](/src/SemiPublicGalaxyServers/index.md#association-based) that provides Galaxy Servers. 
+Servers are classified by whom they are accessible to.  This can be based on [research domain](/src/SemiPublicGalaxyServers/index.md#domain-based), [Geography Based|geography (regional or national)](/src/SemiPublicGalaxyServers/index.md), or by [membership in a multi-organization association](/src/SemiPublicGalaxyServers/index.md#association-based) that provides Galaxy Servers. 
 
 **To add your semi-public Galaxy server to this list**, please either just add it (hey, *it's a wiki*), or [describe the server here](https://docs.google.com/forms/d/14i8FNHB7pwXrXmhvUkxXTh2VKQ-2BKsnMubXsCZadjs/viewform) and we'll post it this directory.
 

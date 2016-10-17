@@ -430,7 +430,7 @@ Some maintenance and support of this code will be provided via the usual [Suppor
 
 # Contributors
 
-* **[John Chilton](/src/JohnChilton/index.md)**, developer and maintainer of the [Pulsar](../../../../Admin/Config/Pulsar) and [dynamic](http://lists.bx.psu.edu/pipermail/galaxy-dev/2012-June/010080.html) job runners.
+* **[John Chilton](/src/JohnChilton/index.md)**, developer and maintainer of the [Pulsar](/src/Admin/Config/Pulsar/index.md) and [dynamic](http://lists.bx.psu.edu/pipermail/galaxy-dev/2012-June/010080.html) job runners.
 * **Oleksandr Moskalenko**, debugged a number of problems related to running jobs as the real user and using DRMAA with TORQUE. 
 * **Jaime Frey**, developer of the HTCondor job runner plugin.
 * **Ilya Chorny**, developer of the original "real user" job running code.

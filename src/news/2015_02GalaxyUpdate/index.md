@@ -15,7 +15,7 @@ date: 2015-01-30T00:30:15Z
   * *[GCC2015 Training Day Topic Voting Closes TODAY](/src/GalaxyUpdates/2015_02/index.md#training-day-topic-voting-closes-today)! [Vote NOW](http://bit.ly/gcc2015vote)*
   * *[GCC2015 Early Registration opens in February](/src/GalaxyUpdates/2015_02/index.md#early-registration-opens-in-february)*
   * [Sponsorships](/src/GalaxyUpdates/2015_02/index.md#sponsorships):
-    * Please welcome *[GenomeWeb](/src/GalaxyUpdates/2015_02/index.md#genomeweb)* and *[Globus Genomics](/GalaxyUpdates/2015_02#globus-genomics)* as GCC returning sponsors, and *[The Genome Analysis Centre (TGAC)](/src/GalaxyUpdates/2015_02/index.md#the-genome-analysis-centre-tgac)* as a first time sponsor.
+    * Please welcome *[GenomeWeb](/src/GalaxyUpdates/2015_02/index.md#genomeweb)* and *[Globus Genomics](/src/GalaxyUpdates/2015_02/index.md#globus-genomics)* as GCC returning sponsors, and *[The Genome Analysis Centre (TGAC)](/src/GalaxyUpdates/2015_02/index.md#the-genome-analysis-centre-tgac)* as a first time sponsor.
     * And [we are still seeking additional sponsors](/src/GalaxyUpdates/2015_02/index.md#call-for-sponsors)
 * [19 February GalaxyAdmins Meetup](/src/GalaxyUpdates/2015_02/index.md#19-february-galaxyadmins-meetup)
 * [Baltimore Area Galaxy Meetup Success](/src/GalaxyUpdates/2015_02/index.md#january-baltimore-area-galaxy-meetup-report) - and more to come

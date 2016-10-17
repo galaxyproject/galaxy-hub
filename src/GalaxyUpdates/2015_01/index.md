@@ -205,7 +205,7 @@ There are [upcoming events](/src/Events/index.md) on two continents.  See the [G
 
 *We just don't know exactly when, yet ...*
 
-Except for a [meetup at GCC2014](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md), the [GalaxyAdmins group](/Community/GalaxyAdmins) has been hiatus for a while.  Well, thanks to the efforts of [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) the GalaxyAdmins group *is back.*   Starting this month, we will resume our bi-monthly conference calls.  
+Except for a [meetup at GCC2014](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md), the [GalaxyAdmins group](/src/Community/GalaxyAdmins/index.md) has been hiatus for a while.  Well, thanks to the efforts of [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) the GalaxyAdmins group *is back.*   Starting this month, we will resume our bi-monthly conference calls.  
 
 *Galaxy-Admins* is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
 
@@ -307,7 +307,7 @@ Several new [Training Resources](/src/Teach/Resources/index.md) were added in De
 
 [BioBlend v0.5.2 was released in October](/src/News/BioBlendV0.5.2/index.md).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  
 
-New versions of [Galaxy](/src/GalaxyUpdates/2014_09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were all released in August.
+New versions of [Galaxy](/src/GalaxyUpdates/2014_09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were all released in August.
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
 

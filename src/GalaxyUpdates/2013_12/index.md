@@ -332,10 +332,10 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
 * A ***security vulnerability*** with filter tools trapped and fixed: **[Upgrade or Patch NOW](/src/DevNewsBriefs/2013_11_04/index.md#security_fix_now)**
 * Galaxy Tool Migration: [48 tools migrated to Tool Shed](http://wiki.galaxyproject.org/DevNewsBriefs/2013_11_04#New_Tool_Migrations) for a leaner distribution.
 * Improved [tools for administrators](/src/DevNewsBriefs/2013_11_04/index.md#admin) (email verification, reports).
-* The framework for [Tools](/src/DevNewsBriefs/2013_11_04/index.md#tools), [Visualizations](/DevNewsBriefs/2013_11_04#visualizations), and the [Core](/src/DevNewsBriefs/2013_11_04/index.md#core) have been upgraded for performance and scalability. 
+* The framework for [Tools](/src/DevNewsBriefs/2013_11_04/index.md#tools), [Visualizations](/src/DevNewsBriefs/2013_11_04/index.md#visualizations), and the [Core](/src/DevNewsBriefs/2013_11_04/index.md#core) have been upgraded for performance and scalability. 
 * Come see! A whopping [26 pull requests incorporated](/src/DevNewsBriefs/2013_11_04/index.md#pull_requests_merged)!. Many thanks to our open source community!
 * Numerous [Tool Shed enhancements and upgrades](/src/DevNewsBriefs/2013_11_04/index.md#tool_shed): API, `READMEs`, Functional Tests, easier installs, and much much more.
-* Plus enhancements to [Workflows](/src/DevNewsBriefs/2013_11_04/index.md#workflows), [API](/DevNewsBriefs/2013_11_04#api), [CloudLaunch](/DevNewsBriefs/2013_11_04#cloudlaunch), [UI](/DevNewsBriefs/2013_11_04#ui), and [Bug Fixes](/src/DevNewsBriefs/2013_11_04/index.md#bug_fixes).
+* Plus enhancements to [Workflows](/src/DevNewsBriefs/2013_11_04/index.md#workflows), [API](/src/DevNewsBriefs/2013_11_04/index.md#api), [CloudLaunch](/src/DevNewsBriefs/2013_11_04/index.md#cloudlaunch), [UI](/DevNewsBriefs/2013_11_04#ui), and [Bug Fixes](/src/DevNewsBriefs/2013_11_04/index.md#bug_fixes).
 
 [http://getgalaxy.org](http://getgalaxy.org)
 

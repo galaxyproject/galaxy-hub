@@ -4,7 +4,7 @@ PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
 
 # The Galaxy Tool Shed
 
-It runs at [http://toolshed.g2.bx.psu.edu](http://toolshed.g2.bx.psu.edu) and serves as an appstore to all Galaxies worldwide. It is a free service that hosts repositories containing [Galaxy Tools](/src/Admin/Tools/index.md), [Galaxy Data Managers](/Admin/Tools/DataManagers), custom [Galaxy Datatypes](/Admin/Datatypes), and exported [Galaxy Workflows](/src/Learn/AdvancedWorkflow/index.md).
+It runs at [http://toolshed.g2.bx.psu.edu](http://toolshed.g2.bx.psu.edu) and serves as an appstore to all Galaxies worldwide. It is a free service that hosts repositories containing [Galaxy Tools](/src/Admin/Tools/index.md), [Galaxy Data Managers](/src/Admin/Tools/DataManagers/index.md), custom [Galaxy Datatypes](/src/Admin/Datatypes/index.md), and exported [Galaxy Workflows](/src/Learn/AdvancedWorkflow/index.md).
 
 ## Introduction
 Tool Shed allows Galaxy administrators to install thousands of freely available Galaxy utilities into their instances. It also manages external tool dependencies and tool updates, making their life easier. Moreover, it allows tool developers to easily share, update, and manage their tools across all Galaxies. See the full [Tool Shed Tour](/src/ToolShed/Tour/index.md).

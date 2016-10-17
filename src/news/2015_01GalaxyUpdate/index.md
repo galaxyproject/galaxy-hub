@@ -17,7 +17,7 @@ Happy New Year from the Galaxy Project!
 * Other [upcoming events](/src/GalaxyUpdates/2015_01/index.md#other-events) on two continents
 * [Job openings at 7 organizations](/src/GalaxyUpdates/2015_01/index.md#whos-hiring)
 * **[GalaxyAdmins is back](/src/GalaxyUpdates/2015_01/index.md#galaxyadmins-is-back)!**  Please tell what times work best for the next meetup.
-* [Two new public servers](/src/GalaxyUpdates/2015_01/index.md#new-public-servers): [MetaNET](/GalaxyUpdates/2015_01#metanet) and [VectorBase](/src/GalaxyUpdates/2015_01/index.md#vectorbase-galaxy).
+* [Two new public servers](/src/GalaxyUpdates/2015_01/index.md#new-public-servers): [MetaNET](/src/GalaxyUpdates/2015_01/index.md#metanet) and [VectorBase](/src/GalaxyUpdates/2015_01/index.md#vectorbase-galaxy).
 * [Three new Galaxy Training Resources](/src/GalaxyUpdates/2015_01/index.md#galaxy-community-hubs)
 * [Over 30 new and updated ToolShed repositories from 12 contributors](/src/GalaxyUpdates/2014_12/index.md#toolshed-contributions)
 * And, [other news](/src/GalaxyUpdates/2014_12/index.md#other-news) too.

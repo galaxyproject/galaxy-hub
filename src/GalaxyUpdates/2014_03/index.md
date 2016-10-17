@@ -14,7 +14,7 @@ Welcome to the March 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a mont
 
 *54 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in Febrary. Some papers that may be particularly interesting to the Galaxy community:
 
-* [Dissemination of scientific software with Galaxy ToolShed](http://dx.doi.org/10.1186/gb4161), by [Blankenberg](/src/Dan/index.md), [Von Kuster](/greg_vonkuster), [Bouvier](/DaveBouvier), [Baker](/DannonBaker), [Afgan](/EnisAfgan), Stoler, the [Galaxy Team](/GalaxyTeam), [Taylor](/JamesTaylor) and [Nekrutenko](/src/anton/index.md), *Genome Biology,* Vol. 15, No. 2. (20 February 2014), 403, doi:10.1186/gb4161
+* [Dissemination of scientific software with Galaxy ToolShed](http://dx.doi.org/10.1186/gb4161), by [Blankenberg](/src/Dan/index.md), [Von Kuster](/src/greg_vonkuster/index.md), [Bouvier](/src/DaveBouvier/index.md), [Baker](/DannonBaker), [Afgan](/EnisAfgan), Stoler, the [Galaxy Team](/GalaxyTeam), [Taylor](/JamesTaylor) and [Nekrutenko](/src/anton/index.md), *Genome Biology,* Vol. 15, No. 2. (20 February 2014), 403, doi:10.1186/gb4161
 
 * [Binding Sites Analyser (BiSA): Software for Genomic Binding Sites Archiving and Overlap Analysis](http://dx.doi.org/10.1371/journal.pone.0087301), by Khushi, *et al.,* *PLoS ONE*, Vol. 9, No. 2. (12 February 2014), e87301, doi:10.1371/journal.pone.0087301
 
@@ -135,7 +135,7 @@ The [2014 Galaxy Community Conference (GCC2014)](/src/Events/GCC2014/index.md) w
 
 ### Registration is Open
 
-[Early registration is now open](/src/Events/GCC2014/Register/index.md). *Early registration saves more than 70% on registration costs, and [Training Day](/Events/GCC2014/TrainingDay) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/src/Events/GCC2014/Logistics/index.md#lodging), a very affordable housing option in the same building as the conference.
+[Early registration is now open](/src/Events/GCC2014/Register/index.md). *Early registration saves more than 70% on registration costs, and [Training Day](/src/Events/GCC2014/TrainingDay/index.md) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/src/Events/GCC2014/Logistics/index.md#lodging), a very affordable housing option in the same building as the conference.
 
 *[Training Day](/src/Events/GCC2014/TrainingDay/index.md)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There are 5 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 15 sessions and over 37 hours of workshop material.*
 
@@ -155,7 +155,7 @@ Accepted talks and selected posters from GCC2014 are also eligible for considera
 <a href='http://bio.maryland.gov/'><img src='/Images/Logos/BioMaryland400.png' alt='BioMaryland' width="200" /></a>
 </div>
 
-We are pleased to have [Amazon Web Services (AWS)](http://aws.amazon.com/) as the sponsor for the GCC [Training Day](/src/Events/GCC2014/TrainingDay/index.md) for the third year in a row.  Also please welcome [BioMaryland](http://bio.maryland.gov/) as a [Bronze Sponsor](/Events/GCC2014/SponsorExhibit) for [GCC2014](/src/Events/GCC2014/index.md).  !BioMaryland is new to the GCC.
+We are pleased to have [Amazon Web Services (AWS)](http://aws.amazon.com/) as the sponsor for the GCC [Training Day](/src/Events/GCC2014/TrainingDay/index.md) for the third year in a row.  Also please welcome [BioMaryland](http://bio.maryland.gov/) as a [Bronze Sponsor](/src/Events/GCC2014/SponsorExhibit/index.md) for [GCC2014](/src/Events/GCC2014/index.md).  !BioMaryland is new to the GCC.
 
 There are still [Silver and Bronze sponsorships](/src/Events/GCC2014/SponsorExhibit/index.md) available. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to help sponsor this event. 
 
@@ -308,7 +308,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/Spon
 
 # New Public Servers
 
-One new [public Galaxy server](/src/PublicGalaxyServers/index.md), [PGTB](/PublicGalaxyServers#galaxy-pgtb-virtual-biodiversity-lab) was added, and the [NELLY server](/src/PublicGalaxyServers/index.md#nelly) is back.
+One new [public Galaxy server](/src/PublicGalaxyServers/index.md), [PGTB](/src/PublicGalaxyServers/index.md#galaxy-pgtb-virtual-biodiversity-lab) was added, and the [NELLY server](/src/PublicGalaxyServers/index.md#nelly) is back.
 
 ## Galaxy PGTB (Virtual Biodiversity Lab)
 
@@ -377,7 +377,7 @@ upgrade:   $ hg pull
 
 <br /><br />
 
-The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/src/Community/index.md)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/src/Community/index.md)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
 
 # ToolShed Contributions
 

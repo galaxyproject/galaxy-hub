@@ -110,7 +110,7 @@ Note the correspondence between elements of the `toolExample.xml` file (Step 2) 
 
 ### 6. (optional) Upload your tool to the Tool Shed:
 
-If you want to easily share your tool with others upload it to the [Galaxy Tool Shed](/src/ToolShed/index.md). It allows others to install the tool into their Galaxies seamlessly via the [Admin interface](../../../Admin/Interface). If the tool is well written and tested it can even make it to the [Main Galaxy instance](../../../Main) or other [Public Galaxy Servers](/src/PublicGalaxyServers/index.md)!
+If you want to easily share your tool with others upload it to the [Galaxy Tool Shed](/src/ToolShed/index.md). It allows others to install the tool into their Galaxies seamlessly via the [Admin interface](../../../Admin/Interface). If the tool is well written and tested it can even make it to the [Main Galaxy instance](/src/Main/index.md) or other [Public Galaxy Servers](/src/PublicGalaxyServers/index.md)!
 
 To get started with the sharing of your tool please see Tool Shed's [Get started](../../../ToolShedGetStarted).
 

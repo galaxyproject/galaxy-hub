@@ -17,11 +17,11 @@ PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
 * Mo Heydarian
 * Karen Reddy
  * 
-* [Anton](/src/anton/index.md), [Dan](/Dan), Rémi, and [Jen](/JenniferJackson) from [Galaxy Team](/src/GalaxyTeam/index.md)
+* [Anton](/src/anton/index.md), [Dan](/src/Dan/index.md), Rémi, and [Jen](/src/JenniferJackson/index.md) from [Galaxy Team](/src/GalaxyTeam/index.md)
 
 # Notes
 
-These are a merged grouping of [Anton's](/src/anton/index.md), [Dan's](/Dan), and [Jen's](/src/JenniferJackson/index.md) notes from the breakout.  Please feel free to update, comment, correct or add in anything we didn't have a chance to address during our session.
+These are a merged grouping of [Anton's](/src/anton/index.md), [Dan's](/src/Dan/index.md), and [Jen's](/src/JenniferJackson/index.md) notes from the breakout.  Please feel free to update, comment, correct or add in anything we didn't have a chance to address during our session.
 
 
 ## Platforms

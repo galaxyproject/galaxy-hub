@@ -17,7 +17,7 @@ Find out [what's happening in the Galaxy](/src/GalaxyUpdates/2014_03/index.md). 
 * [Upcoming Events](/src/GalaxyUpdates/2014_03/index.md#events), including
   * [Galaxy Australasia Workshop 2014 (GAW 2014): 24-25 March](/src/GalaxyUpdates/2014_03/index.md#galaxy-australasia-workshop-2014-24-25-march)
   * [Globus World 2014](/src/GalaxyUpdates/2014_03/index.md#globus-world-2014), April 15-17
-  * [Registration](/src/GalaxyUpdates/2014_03/index.md#registration-is-open) and [abstract submission](/GalaxyUpdates/2014_03#abstract-submission-is-open) for the [2014 Galaxy Community Conference (GCC2014)](/src/GalaxyUpdates/2014_03/index.md#gcc2014-june-30---july-2-baltimore) are open
+  * [Registration](/src/GalaxyUpdates/2014_03/index.md#registration-is-open) and [abstract submission](/src/GalaxyUpdates/2014_03/index.md#abstract-submission-is-open) for the [2014 Galaxy Community Conference (GCC2014)](/src/GalaxyUpdates/2014_03/index.md#gcc2014-june-30---july-2-baltimore) are open
 * [One new and one returning public Galaxy server](/src/GalaxyUpdates/2014_03/index.md#new-public-servers)
 * [Feb 10, 2014 Galaxy Distribution](/src/GalaxyUpdates/2014_03/index.md#galaxy-distributions)
 * [Tool Shed Contributions](/src/GalaxyUpdates/2014_03/index.md#toolshed-contributions) 

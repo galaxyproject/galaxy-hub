@@ -332,14 +332,14 @@ Two new [public Galaxy servers](/src/PublicGalaxyServers/index.md) were announce
 
 **There were no new [Log Board](/src/Community/Logs/index.md) or [Deployment Catalog](/src/Community/Deployments/index.md) entries in November!**  Eek!  Please don't let this happen again!  
 
-The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/src/Community/index.md)* were launched last your.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
 
 
 # New Releases
 
 [BioBlend v0.5.2 was released in October](/src/News/BioBlendV0.5.2/index.md).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  
 
-New versions of [Galaxy](/src/GalaxyUpdates/2014_09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were all released in August.
+New versions of [Galaxy](/src/GalaxyUpdates/2014_09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were all released in August.
 
 Look for a new Galaxy distribution soon.
 

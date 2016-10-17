@@ -182,7 +182,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 <div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="175px" /></a></div>
 
 * [Training Day Topic Nominations](/src/Events/GCC2013/TrainingDay/index.md) for [GCC2013](/src/Events/GCC2013/index.md) will open in December.  Start thinking of ideas now!
-* Slides and Screencast from [November GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md) are online.  The next [GalaxyAdmins Meetup](/Community/GalaxyAdmins/Meetups) will be on [January 16](/Community/GalaxyAdmins/Meetups/2013_01_16) and feature [John Chilton](/src/JohnChilton/index.md) discussing "Deploying Galaxy on !OpenStack with !CloudBioLinux & CloudMan"
+* Slides and Screencast from [November GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md) are online.  The next [GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/index.md) will be on [January 16](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) and feature [John Chilton](/src/JohnChilton/index.md) discussing "Deploying Galaxy on !OpenStack with !CloudBioLinux & CloudMan"
 * [A short "Getting started with JGalaxy" document (with screenshots)](http://bit.ly/SkW2yU), by [John Chilton](/src/JohnChilton/index.md)
 * [Batch Workflow starting using the Galaxy API : Practical Example by Geert Vandeweyer](http://bit.ly/TjTj6X)
 

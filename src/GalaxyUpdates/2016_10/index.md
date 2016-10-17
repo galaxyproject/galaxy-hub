@@ -367,7 +367,7 @@ Some highlights from last month:
    Annette !McGrath, Steve !McMahon, Sean Li, Joel Ludbey, Tim Ho. *Journal of Grid Computing* (2016), pp. 1-11, doi:10.1007/s10723-016-9379-6
 
  **[Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter](http://biorxiv.org/content/early/2016/09/22/075457)**
-   [Björn Grüning](/src/BjoernGruening/index.md), [Eric Rasche](/EricRasche), Boris Rebolledo-Jaramillo, [Carl Eberhard](/CarlEberhard), Torsten Houwaart, [John Chilton](/JohnChilton), [Nathan Coraor](/nate), Rolf Backofen, [James Taylor](/JamesTaylor), [Anton Nekrutenko](/src/anton/index.md). *bioRxiv* (16 September 2016), 075457, doi:10.1101/075457
+   [Björn Grüning](/src/BjoernGruening/index.md), [Eric Rasche](/src/EricRasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/CarlEberhard/index.md), Torsten Houwaart, [John Chilton](/JohnChilton), [Nathan Coraor](/nate), Rolf Backofen, [James Taylor](/JamesTaylor), [Anton Nekrutenko](/src/anton/index.md). *bioRxiv* (16 September 2016), 075457, doi:10.1101/075457
 
  **[Genotyping of evolving prokaryotic populations](http://dx.doi.org/10.7287/peerj.preprints.2449v1)**
    Markus Zojer, Lisa N. Schuster, Frederik Schulz, Alexander Pfundner, Matthias Horn, Thomas Rattei. *PeerJ Preprints* (14 September 2016), doi:10.7287/peerj.preprints.2449v1

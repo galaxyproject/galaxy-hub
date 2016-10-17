@@ -18,7 +18,7 @@ December saw the launch of two *[Galaxy community hubs](/src/Community/index.md)
 
 <div class='left'><a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' width="200" /></a></div>
 
-The *[Galaxy Community Log Board](/src/Community/Logs/index.md)* is a place to share how you addressed a particular task in your Galaxy deployment.  Log entries describe specific solutions to particular tasks, such as the [details of what steps were taken to deploy Galaxy on particular platforms](/Community/Log/2013/URGIVirtualisation), or [specific stumbling blocks when configuring Galaxy](/Community/Log/2013/Example).  Solutions can be [described on this wiki](/Community/Log/2013/Example), or just [some metadata and a link to the description elsewhere](http://wiki.galaxyproject.org/Community/Log/2013/UsingBioServicesWithGalaxy).  Log entries are an easy way to help others (and learn from others) by sharing what you've already done.  If you have figured out or documented how to do something, then this is the ideal forum for sharing that information with the community.
+The *[Galaxy Community Log Board](/src/Community/Logs/index.md)* is a place to share how you addressed a particular task in your Galaxy deployment.  Log entries describe specific solutions to particular tasks, such as the [details of what steps were taken to deploy Galaxy on particular platforms](/src/Community/Log/2013/URGIVirtualisation/index.md), or [specific stumbling blocks when configuring Galaxy](/src/Community/Log/2013/Example/index.md).  Solutions can be [described on this wiki](/src/Community/Log/2013/Example/index.md), or just [some metadata and a link to the description elsewhere](http://wiki.galaxyproject.org/Community/Log/2013/UsingBioServicesWithGalaxy).  Log entries are an easy way to help others (and learn from others) by sharing what you've already done.  If you have figured out or documented how to do something, then this is the ideal forum for sharing that information with the community.
 
 <div class='left'>
 <table>
@@ -32,7 +32,7 @@ The *[Galaxy Community Log Board](/src/Community/Logs/index.md)* is a place to s
 
 </div>
 
-The [Galaxy Community Log Board](/src/Community/Logs/index.md) describes how things can be done, and it complements the (also [recently announced](/src/News/GalaxyDeploymentCatalog/index.md)) *[Galaxy Deployments Catalog](/Community/Deployments)*, which describes different Galaxy installations.  Both the [Log Board](/src/Community/Logs/index.md) and the [Deployments Catalog](/Community/Deployments) came out of discussions at the [GCC2013 GalaxyAdmins Birds-of-a-Feather gathering](/Events/GCC2013/BoF/GalaxyAdmins).  Thanks to everyone who attended that BoF and to everyone who taken the time to [log their experiences so far](/src/Community/Logs/index.md).
+The [Galaxy Community Log Board](/src/Community/Logs/index.md) describes how things can be done, and it complements the (also [recently announced](/src/News/GalaxyDeploymentCatalog/index.md)) *[Galaxy Deployments Catalog](/src/Community/Deployments/index.md)*, which describes different Galaxy installations.  Both the [Log Board](/src/Community/Logs/index.md) and the [Deployments Catalog](/src/Community/Deployments/index.md) came out of discussions at the [GCC2013 GalaxyAdmins Birds-of-a-Feather gathering](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md).  Thanks to everyone who attended that BoF and to everyone who taken the time to [log their experiences so far](/src/Community/Logs/index.md).
 
 ## Galaxy Deployment Catalog
 
@@ -83,7 +83,7 @@ If you have a Galaxy deployment then please [take a few minutes to describe your
 
 </div>
 
-The [Galaxy Events](/src/Events/index.md) for 2013 have been moved to the [Events Archive](/Events/Archive), where they can still be accessed.  There are 160 items in the 2013 Events list.  That count *goes well over 200 items* if you follow some links and include the 13 talks at [Galaxy Day](/News/GalaxyDay2013Report); and all the talks (25), posters (26), lightning talks (19) and Training Day Sessions (15) at [GCC2013](/Events/GCC2013); and the 20+ items [at ISMB 2013](/src/Events/ISMB2013/index.md); and ...  Furthermore, *at least 3/4 of those items were presented by people outside the core Galaxy Team.*  
+The [Galaxy Events](/src/Events/index.md) for 2013 have been moved to the [Events Archive](/src/Events/Archive/index.md), where they can still be accessed.  There are 160 items in the 2013 Events list.  That count *goes well over 200 items* if you follow some links and include the 13 talks at [Galaxy Day](/src/News/GalaxyDay2013Report/index.md); and all the talks (25), posters (26), lightning talks (19) and Training Day Sessions (15) at [GCC2013](/Events/GCC2013); and the 20+ items [at ISMB 2013](/src/Events/ISMB2013/index.md); and ...  Furthermore, *at least 3/4 of those items were presented by people outside the core Galaxy Team.*  
 
 While those numbers are just plain cool, the really useful bit is that there are slides, exercises, and videos for over 4/5 of those presentation.  If you have a question about Galaxy, chances are someone talked about it in 2013, *and that you can find their slides in the [Events Archive](/src/Events/Archive/index.md).*
 
@@ -379,6 +379,6 @@ The latest version of [/CloudMan](/src/CloudMan/index.md) was [released in July]
 # Other News
 
 * Take the [ABRF DNA Sequencing Research Group survey](http://svy.mk/1cclCfs) on nucleic acid quantification methods & best practices 
-* The first 30 minutes of the "[Galaxy Code and Storage Architecture](/src/Events/GCC2013/TrainingDay/index.md#galaxy-code-and-storage-architecture)" [GCC2013 Training Day](/Events/GCC2013/TrainingDay) session is now on  [Vimeo](https://vimeo.com/82179199) and [YouTube](http://youtu.be/kphYnONMOP8).  Thanks to [Samuel Lampa](http://saml.rilspace.org/blogs/samuel-lampa) for recording and making this available.
+* The first 30 minutes of the "[Galaxy Code and Storage Architecture](/src/Events/GCC2013/TrainingDay/index.md#galaxy-code-and-storage-architecture)" [GCC2013 Training Day](/src/Events/GCC2013/TrainingDay/index.md) session is now on  [Vimeo](https://vimeo.com/82179199) and [YouTube](http://youtu.be/kphYnONMOP8).  Thanks to [Samuel Lampa](http://saml.rilspace.org/blogs/samuel-lampa) for recording and making this available.
 * [http://gmod.org/wiki/|GMOD](http://gmod.org/wiki/|GMOD) is looking into running a GMOD workshop in Malaysia, February 26-28 -- please email help@gmod.org if you're interested in attending.
 * Aussie researchers can now launch their own Galaxy instance on Nectar. See the guide at the [Genome Virtual Lab](http://genome.edu.au/wiki/Get)

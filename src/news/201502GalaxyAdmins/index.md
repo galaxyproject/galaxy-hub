@@ -7,7 +7,7 @@ date: 2015-01-28T23:46:33Z
 
 The first [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) [meetup of 2015](/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md) will happen online [on Thursday, 19 February|target="_blank"](http://bit.ly/1yZJSkN).  [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.
 
-A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/src/News/2014Questionnaire/index.md) will be presented by [Dave Clements](/DaveClements), a *Galaxy Project Update* will be offered by a [Galaxy Team member](/GalaxyTeam), and   [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) will lead a short discussion on *!GalaxyAdmins direction*.
+A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/src/News/2014Questionnaire/index.md) will be presented by [Dave Clements](/src/DaveClements/index.md), a *Galaxy Project Update* will be offered by a [Galaxy Team member](/src/GalaxyTeam/index.md), and   [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) will lead a short discussion on *!GalaxyAdmins direction*.
 
 Thanks to everyone for letting us know what dates and times worked best for you.  This time and day of the week worked for a remarkable 91% of respondents.
 

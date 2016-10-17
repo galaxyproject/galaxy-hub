@@ -19,7 +19,7 @@ You have multiple options how to get your files into Galaxy thus making them dat
 
 <div class='right'>![Upload Modal Icon](/upload_icon.png)</div>
 * **Upload modal** - Interface within Galaxy that suits the best for uploading small files from disk or fetching data from other servers. You can reach it by clicking on its icon (right picture) in the tool panel. 
-* **FTP upload** - In case of large files (the upload modal has ~2GB browser limit) or unpredictable connection (support for pausing and resuming) you might want to use FTP. The Galaxy server you want to upload data to has to have an FTP service configured (both [/Main](/src/Main/index.md) and [/Test](/Test) instances do). See more details at [/FTPUpload](/FTPUpload).
+* **FTP upload** - In case of large files (the upload modal has ~2GB browser limit) or unpredictable connection (support for pausing and resuming) you might want to use FTP. The Galaxy server you want to upload data to has to have an FTP service configured (both [/Main](/src/Main/index.md) and [/Test](/src/Test/index.md) instances do). See more details at [/FTPUpload](/FTPUpload).
 
 # Dataset Icons & Text
 Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to get oriented with these functions using a variety of real datasets on **Galaxy's** public **[/Main](/src/Main/index.md)** server **[usegalaxy.org](http://usegalaxy.org)**.
@@ -80,7 +80,7 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
   * Options are:
   * *Clone all history items, including deleted items*
   * *Clone only items that are not deleted*
-* ***TIP*** One use of this option is to **quickly retain some datasets and permanently delete others** (to reduce disk use counted in user [quota](/Admin/Disk Quotas) on [/Main](/src/Main/index.md) or [/Test](/Test)). First, in the History pane, in the original history, delete individual datasets by clicking on the *X* delete icon ![](/src/Images/Icons/deleteX.png) if not to be **Cloned**, remember to delete **Hidden** datasets, (see below). Next, *Clone* the original History. Once complete, the cloned History will contain the datasets to be retained and the original History can be deleted permanently with *gear icon &rarr; Saved Histories*, select original History from the list, and clicking the button *Delete Permanently*.
+* ***TIP*** One use of this option is to **quickly retain some datasets and permanently delete others** (to reduce disk use counted in user [quota](/Admin/Disk Quotas) on [/Main](/src/Main/index.md) or [/Test](/src/Test/index.md)). First, in the History pane, in the original history, delete individual datasets by clicking on the *X* delete icon ![](/src/Images/Icons/deleteX.png) if not to be **Cloned**, remember to delete **Hidden** datasets, (see below). Next, *Clone* the original History. Once complete, the cloned History will contain the datasets to be retained and the original History can be deleted permanently with *gear icon &rarr; Saved Histories*, select original History from the list, and clicking the button *Delete Permanently*.
 
 # Hidden
 * Datasets may be hidden in the default History view as a Workflow option. If you have run a workflow with hidden datasets, choose "gear icon &rarr; Include Hidden Datasets or Unhide Hidden Datasets" or use the toogle at the top of the history panel (directly below the history name) to view them.

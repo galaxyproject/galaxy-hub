@@ -5,7 +5,7 @@ autotoc: true
 
 <div class='right'></div>
 
-In addition to using the [public Galaxy server](http://usegalaxy.org/) (a.k.a. [Main](/src/Main/index.md)), you can install your own instance of Galaxy (what this page is about), or create a [cloud-based instance of Galaxy](../../Cloud).  Another option is to use one of the ever-increasing number of [public Galaxies](/src/PublicGalaxyServers/index.md) hosted by other organizations.
+In addition to using the [public Galaxy server](http://usegalaxy.org/) (a.k.a. [Main](/src/Main/index.md)), you can install your own instance of Galaxy (what this page is about), or create a [cloud-based instance of Galaxy](/src/Cloud/index.md).  Another option is to use one of the ever-increasing number of [public Galaxies](/src/PublicGalaxyServers/index.md) hosted by other organizations.
 
 See [Big Picture: Choices](/src/BigPicture/Choices/index.md) for help on deciding which of these options may be best for your situation.
 

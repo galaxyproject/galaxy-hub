@@ -308,7 +308,7 @@ Slides and the screencast from the [March GalaxyAdmins Meetup](/src/Community/Ga
 
 ### GalaxyAdmins Future Directions
 
-The [GalaxyAdmins group](/src/Community/GalaxyAdmins/index.md) is coming up on it's one year anniversary (coinciding with [GCC2013](/Events/GCC2013)) and this is a good opportunity to discuss what the future of the group should be.  If you are interested, please [join the discussion on this email thread](http://bit.ly/11cECs9).
+The [GalaxyAdmins group](/src/Community/GalaxyAdmins/index.md) is coming up on it's one year anniversary (coinciding with [GCC2013](/src/Events/GCC2013/index.md)) and this is a good opportunity to discuss what the future of the group should be.  If you are interested, please [join the discussion on this email thread](http://bit.ly/11cECs9).
 
 Some starting topics for discussion are on the [GalaxyAdmins Future Directions page](/src/Community/GalaxyAdmins/Future/index.md).  These include
 
@@ -328,7 +328,7 @@ Once the discussion settles, we will [summarize the discussion](http://bit.ly/11
 * [Job running configuration changes and refactoring of job runner plugins](/src/DevNewsBriefs/2013_04_01/index.md#job_running_configuration_changes)
 * [Required reset of the metadata on your installed tool shed repositories](/src/DevNewsBriefs/2013_04_01/index.md#required_metadata_reset) plus [Changes required to your environment if you are hosting a local Tool Shed](/src/DevNewsBriefs/2013_04_01/index.md#local_tool_shed_file_changes)
 * [Basic Data Manager Functionality now present](/src/DevNewsBriefs/2013_04_01/index.md#data)
-* [Tool Shed](/src/DevNewsBriefs/2013_04_01/index.md#tool_shed), [Trackster](/DevNewsBriefs/2013_04_01#trackster), [Cloudman](/DevNewsBriefs/2013_04_01#cloudman), [Workflows](/DevNewsBriefs/2013_04_01#workflows), [UI](/DevNewsBriefs/2013_04_01#ui), [Admin](/DevNewsBriefs/2013_04_01#admin), and [ new Pull Request](/src/DevNewsBriefs/2013_04_01/index.md#source) updates.
+* [Tool Shed](/src/DevNewsBriefs/2013_04_01/index.md#tool_shed), [Trackster](/src/DevNewsBriefs/2013_04_01/index.md#trackster), [Cloudman](/src/DevNewsBriefs/2013_04_01/index.md#cloudman), [Workflows](/DevNewsBriefs/2013_04_01#workflows), [UI](/DevNewsBriefs/2013_04_01#ui), [Admin](/DevNewsBriefs/2013_04_01#admin), and [ new Pull Request](/src/DevNewsBriefs/2013_04_01/index.md#source) updates.
 * New [bug fixes and improvements](/src/DevNewsBriefs/2013_04_01/index.md#bug_fixes_and_related_enhancements).
 
 ## Tool Shed Contributions

@@ -52,7 +52,7 @@ The conference is still accepting [late abstract submissions](/src/Events/GCC201
 
 We are happy to have [Penguin Computing](http://www.penguincomputing.com/) as a GCC2014 Silver Sponsor. Penguin, like all [Platinum, Gold, and Silver Sponsors](/src/Events/GCC2014/SponsorExhibit/index.md) will have a table at GCC2104.
 
-There are still [Silver and Bronze sponsorships](/src/Events/GCC2014/SponsorExhibit/index.md) available for the [GCC2014](/Events/GCC2014) and Giga sponsorships for the [Hackathon](/Events/GCC2014/Hackathon). Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to help sponsor these events. 
+There are still [Silver and Bronze sponsorships](/src/Events/GCC2014/SponsorExhibit/index.md) available for the [GCC2014](/src/Events/GCC2014/index.md) and Giga sponsorships for the [Hackathon](/src/Events/GCC2014/Hackathon/index.md). Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to help sponsor these events. 
 
 In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/SponsorExhibit/index.md#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to have an exhibit space at GCC2014. 
 
@@ -62,7 +62,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/Spon
 
 The very first [Galaxy Project Hackathon](/src/Events/GCC2014/Hackathon/index.md) will take place at Johns Hopkins immediately preceding [GCC2014](/src/Events/GCC2014/index.md) from starting June 28th.
 
-Do you have a feature you've always wanted to implement?  Just want to hack on Galaxy (or CloudMan!) with other folks?  The [Galaxy Hackathon](/src/Events/GCC2014/Hackathon/index.md) will be a great opportunity to meet and work closely with other community and [Galaxy Team](/GalaxyTeam) members over the course of three days, culminating in some really great improvements and new features to show off at the [Galaxy Community Conference](/src/Events/GCC2014/index.md) afterward.
+Do you have a feature you've always wanted to implement?  Just want to hack on Galaxy (or CloudMan!) with other folks?  The [Galaxy Hackathon](/src/Events/GCC2014/Hackathon/index.md) will be a great opportunity to meet and work closely with other community and [Galaxy Team](/src/GalaxyTeam/index.md) members over the course of three days, culminating in some really great improvements and new features to show off at the [Galaxy Community Conference](/src/Events/GCC2014/index.md) afterward.
 
 Participation in the hackathon itself is completely free, but there's limited space so if you're interested and would like to participate please go ahead and book both your lodging and hackathon seat at [EventBrite](http://bit.ly/gcc2014hackreg).  **[Register now](http://bit.ly/gcc2014hackreg).  As of this writing there are only 11 spots left.**
 
@@ -325,7 +325,7 @@ The most recent version of CloudMan was [released in January 2014](/src/News/Clo
 One new [deployment description](/src/Community/Deployments/index.md) was added in May:
 * [deepTools](/src/Community/Deployment/deepTools/index.md)
 
-The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them.
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/src/Community/index.md)* were launched last your.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them.
 
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>

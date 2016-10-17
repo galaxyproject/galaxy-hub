@@ -110,7 +110,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
 
-Thanks to everyone who [nominated topics](/src/Events/GCC2013/TrainingDay/index.md#topics) for the [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013) [Training Day](/Events/GCC2013/TrainingDay).  These nominations were compiled into a ballot which **[you can vote on until 11 February](http://bit.ly/gcc2013tdpoll)**.  If you might attend the GCC2013 Training Day then please [review the possible topics](/src/Events/GCC2013/TrainingDay/index.md#topics) and then [vote for your top 3 choices](http://bit.ly/gcc2013tdpoll).  Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.
+Thanks to everyone who [nominated topics](/src/Events/GCC2013/TrainingDay/index.md#topics) for the [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/index.md) [Training Day](/src/Events/GCC2013/TrainingDay/index.md).  These nominations were compiled into a ballot which **[you can vote on until 11 February](http://bit.ly/gcc2013tdpoll)**.  If you might attend the GCC2013 Training Day then please [review the possible topics](/src/Events/GCC2013/TrainingDay/index.md#topics) and then [vote for your top 3 choices](http://bit.ly/gcc2013tdpoll).  Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.
 
 **About the [GCC2013 Training Day](/src/Events/GCC2013/TrainingDay/index.md):**
 
@@ -121,7 +121,7 @@ Once voting [closes on 11 February](/src/Events/GCC2013/KeyDates/index.md), we w
 
 ### Registration, Talk & Poster Submission Opens 22 February
 
-[Early Registration](/src/Events/GCC2013/Register/index.md), and [talk and poster abstract submission](/Events/GCC2013/Abstracts) all [open 22 February](/src/Events/GCC2013/KeyDates/index.md).  Watch the mailing lists and this wiki for details.
+[Early Registration](/src/Events/GCC2013/Register/index.md), and [talk and poster abstract submission](/src/Events/GCC2013/Abstracts/index.md) all [open 22 February](/src/Events/GCC2013/KeyDates/index.md).  Watch the mailing lists and this wiki for details.
 
 ### Sponsorships
 

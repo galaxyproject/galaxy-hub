@@ -82,7 +82,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ### Registration, Talk/Poster Submission Open
 
-**[Early registration](/src/Events/GCC2013/Register/index.md) and [paper and poster abstract submission](/Events/GCC2013/Abstracts) are now open for the [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013).**  GCC2013 will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).
+**[Early registration](/src/Events/GCC2013/Register/index.md) and [paper and poster abstract submission](/src/Events/GCC2013/Abstracts/index.md) are now open for the [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/index.md).**  GCC2013 will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).
 
 <div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
 

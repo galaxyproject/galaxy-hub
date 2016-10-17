@@ -363,7 +363,7 @@ If you think we should (or should not) offer this training at GCC2016, please [g
 <a href='http://mygoblet.org/about-us/goblet-events/goblet-agm-2015-cape-town'><img src='/Images/Logos/GobletLogo.png' alt='2015 GOBLET Meeting' height="100" /></a>
 </div>
 
-[GTN](/src/Teach/GTN/index.md) became a member of the [Global Organisation for Bioinformatics & Training (GOBLET)](http://mygoblet.org) [earlier this year](/News/GTNJoinsGOBLET).  The [2015 GOBLET Meeting](http://mygoblet.org/about-us/goblet-events/goblet-agm-2015-cape-town) will be held 18-20 November, in Cape Town, South Africa.  Fourie Joubert of the [Centre for Bioinformatics and Computational Biology](/src/Teach/Trainers/index.md#the-centre-for-bioinformatics-and-computational-biology) at the University of Pretoria will be representing GTN at GOBLET 2015.  
+[GTN](/src/Teach/GTN/index.md) became a member of the [Global Organisation for Bioinformatics & Training (GOBLET)](http://mygoblet.org) [earlier this year](/src/News/GTNJoinsGOBLET/index.md).  The [2015 GOBLET Meeting](http://mygoblet.org/about-us/goblet-events/goblet-agm-2015-cape-town) will be held 18-20 November, in Cape Town, South Africa.  Fourie Joubert of the [Centre for Bioinformatics and Computational Biology](/src/Teach/Trainers/index.md#the-centre-for-bioinformatics-and-computational-biology) at the University of Pretoria will be representing GTN at GOBLET 2015.  
 
 If you have anything you'd like to have discussed at the meeting, then please [join this conversation](http://bit.ly/1iM6T5r).
 
@@ -396,7 +396,7 @@ Thanks to everyone who helped put these together.
 **Release Highlights **
 * **Interactive Environments** - The interactive environments (IE) framework features several updates this release and Galaxy is now distributed with a new IE for RStudio implemented by [Eric Rasche](/src/EricRasche/index.md).
 * **Workflow Editor Enhancements** - The workflow editor has been significantly revamped - it now uses newer tool form components and allow construction of workflows with tools explicitly producing output collections.
-* **Policies for Committers and Pull Requests** - The process for adding committers to the project and fielding pull requests has been formalized and documented in the source code. Three new committers have been added to the project - [Björn Grüning](/src/BjoernGruening/index.md), [Nicola Soranzo](/NicolaSoranzo), and [Eric Rasche](/src/EricRasche/index.md).
+* **Policies for Committers and Pull Requests** - The process for adding committers to the project and fielding pull requests has been formalized and documented in the source code. Three new committers have been added to the project - [Björn Grüning](/src/BjoernGruening/index.md), [Nicola Soranzo](/src/NicolaSoranzo/index.md), and [Eric Rasche](/src/EricRasche/index.md).
 * And *[much more](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html)*
 
 ## Mid 2015 Galaxy CloudMan Release

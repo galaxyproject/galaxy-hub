@@ -347,7 +347,7 @@ An update to Galaxy CloudMan was released in January. CloudMan offers an easy wa
 
 # Galaxy Community Hubs
 
-The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/src/Community/index.md)* were launched in December.  January saw several additions:
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/src/Community/index.md)* were launched in December.  January saw several additions:
 
 **New [Galaxy Deployment Catalog](/src/Community/Deployments/index.md) entries:**
 * [CSIRO Galaxy Service](/src/Community/Deployment/CsiroService/index.md)
@@ -385,7 +385,7 @@ bringing the number of log entries to 12.
 
 # Galaxy is now at Johns Hopkins and GWU (and Penn State!)
 
-In case you haven't heard, the former [Emory University](http://emory.edu) contingent of the [Galaxy Team](/src/GalaxyTeam/index.md) went north this month to Baltimore - it's warmer there (at least this week), where [James Taylor](/JamesTaylor) is now an Associate Professor in the [Johns Hopkins](http://www.johnshopkins.edu/) [Biology](http://www.bio.jhu.edu/) and [Computer Science](http://www.cs.jhu.edu/) Departments.  [Jeremy Goecks](/JeremyGoecks), also formerly of the Emory University contingent is now an Assistant Professor of [Computational Biology](http://cbi.gwu.edu/) at [George Washington University](http://www.gwu.edu/) in the Washington DC area.
+In case you haven't heard, the former [Emory University](http://emory.edu) contingent of the [Galaxy Team](/src/GalaxyTeam/index.md) went north this month to Baltimore - it's warmer there (at least this week), where [James Taylor](/src/JamesTaylor/index.md) is now an Associate Professor in the [Johns Hopkins](http://www.johnshopkins.edu/) [Biology](http://www.bio.jhu.edu/) and [Computer Science](http://www.cs.jhu.edu/) Departments.  [Jeremy Goecks](/src/JeremyGoecks/index.md), also formerly of the Emory University contingent is now an Assistant Professor of [Computational Biology](http://cbi.gwu.edu/) at [George Washington University](http://www.gwu.edu/) in the Washington DC area.
 
 None of these moves should be particularly noticeable to the Galaxy community.  We didn't lose anyone in these transitions, and in fact we are [still hiring](/src/GalaxyIsHiring/index.md), but now at three universities instead of two.
 

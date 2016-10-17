@@ -14,13 +14,13 @@ Back to [/Support](/src/Support/index.md)
 
 There are many [Choices](/src/BigPicture/Choices/index.md) when you want to learn more **[about using Galaxy](/src/Support/AboutGalaxy/index.md)**!
 
-In addition to using the [public Galaxy server](http://usegalaxy.org), you can also install your [own instance of Galaxy](/src/Admin/GetGalaxy/index.md), or create an [instance of Galaxy on the cloud using CloudMan](/CloudMan) and explore all [/Cloud](/Cloud) resources.  Another option is to use one of the ever-increasing number of [/Public Galaxy Servers](/Public Galaxy Servers) hosted by other organizations. And if you or your lab is looking to run their own local instance that is "ready-to-go", learn more about the [Slipstream Appliance: Galaxy Edition](http://www.bioteam.net/slipstream/galaxy-edition).
+In addition to using the [public Galaxy server](http://usegalaxy.org), you can also install your [own instance of Galaxy](/src/Admin/GetGalaxy/index.md), or create an [instance of Galaxy on the cloud using CloudMan](/src/CloudMan/index.md) and explore all [/Cloud](/src/Cloud/index.md) resources.  Another option is to use one of the ever-increasing number of [/Public Galaxy Servers](/Public Galaxy Servers) hosted by other organizations. And if you or your lab is looking to run their own local instance that is "ready-to-go", learn more about the [Slipstream Appliance: Galaxy Edition](http://www.bioteam.net/slipstream/galaxy-edition).
 
 The GALAXY Framework at the highest level is a set of reusable software components. Learn more about [Galaxy's Architecture](/Admin/Internals/Implementation Info).
 
 <br />
 <div class='left'><a href='http://usegalaxy.org'><img src='/Images/Logos/GalaxyLogoHighRes.png' alt='UseGalaxy.org' width="200" /></a></div>
-[Galaxy Project](/src/GalaxyProject/index.md) • [Big Picture](/BigPicture) • [/Community](/Community) • [Get Galaxy](/Admin/GetGalaxy) • [/CloudMan](/CloudMan) • [Tool Shed](/ToolShed) • [/Develop](/Develop) • [News Briefs](/DevNewsBriefs) • [Servers](/PublicGalaxyServers) • [/Learn](/Learn) • [/Support](/Support) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/News) • [Twitter](/GalaxyOnTwitter) • [/Events](/Events) • [/Teach](/Teach) • [/Issues](/Issues) • [Cite](/CitingGalaxy) • [About Galaxy](/Support/AboutGalaxy) • [Galaxy Team](/src/GalaxyTeam/index.md)
+[Galaxy Project](/src/GalaxyProject/index.md) • [Big Picture](/src/BigPicture/index.md) • [/Community](/src/Community/index.md) • [Get Galaxy](/Admin/GetGalaxy) • [/CloudMan](/CloudMan) • [Tool Shed](/ToolShed) • [/Develop](/Develop) • [News Briefs](/DevNewsBriefs) • [Servers](/PublicGalaxyServers) • [/Learn](/Learn) • [/Support](/Support) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/News) • [Twitter](/GalaxyOnTwitter) • [/Events](/Events) • [/Teach](/Teach) • [/Issues](/Issues) • [Cite](/CitingGalaxy) • [About Galaxy](/Support/AboutGalaxy) • [Galaxy Team](/src/GalaxyTeam/index.md)
 <br />
 <br />
 <br />

@@ -332,7 +332,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 <a href='/Community/GalaxyAdmins'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='GalaxyAdmins' width="160" /></a> 
 </div>
 
-[Slides and video](/src/Community/GalaxyAdmins/Meetups/2016_04_21/index.md) from the [April 2016 GalaxyAdmins meetup are now available](/src/Community/GalaxyAdmins/Meetups/2016_04_21/index.md). [Ivar Grytten](http://www.mn.uio.no/ifi/english/people/aca/ivargry/) and  [Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/) from the [University of Oslo](http://www.uio.no/) discussed [The Galaxy Portal: Accessing Galaxy from Mobile Devices](http://bioinformatics.oxfordjournals.org/content/early/2016/02/17/bioinformatics.btw042.full) ([Slides](ATTACHMENT_URLDocuments/Presentations/201604_Admins_Portal.pdf)) and [John Chilton](/JohnChilton) covered [Tool Development Developments](http://planemo.readthedocs.org/en/latest/galaxy_changelog.html).
+[Slides and video](/src/Community/GalaxyAdmins/Meetups/2016_04_21/index.md) from the [April 2016 GalaxyAdmins meetup are now available](/src/Community/GalaxyAdmins/Meetups/2016_04_21/index.md). [Ivar Grytten](http://www.mn.uio.no/ifi/english/people/aca/ivargry/) and  [Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/) from the [University of Oslo](http://www.uio.no/) discussed [The Galaxy Portal: Accessing Galaxy from Mobile Devices](http://bioinformatics.oxfordjournals.org/content/early/2016/02/17/bioinformatics.btw042.full) ([Slides](ATTACHMENT_URLDocuments/Presentations/201604_Admins_Portal.pdf)) and [John Chilton](/src/JohnChilton/index.md) covered [Tool Development Developments](http://planemo.readthedocs.org/en/latest/galaxy_changelog.html).
 
 ## Conda Dependency Codefest Report
 
@@ -468,11 +468,11 @@ Variant calling is a complex field that was significantly propelled by advances 
 
 <div class='right'><a href='https://github.com/nekrut/galaxy/wiki/Reference-based-RNA-seq'><img src='/Images/Screenshots/AntonsRnaSeqTutorial1.png' alt='Reference based RNA seq' width="190" /></a></div>
 
-Much of Galaxy-related features described in this tutorial have been developed by [Björn Grüning](/src/BjoernGruening/index.md) ([@bgruening](https://github.com/bgruening)) and configured by [Dave Bouvier](/DaveBouvier) ([@davebx](https://github.com/davebx)).
+Much of Galaxy-related features described in this tutorial have been developed by [Björn Grüning](/src/BjoernGruening/index.md) ([@bgruening](https://github.com/bgruening)) and configured by [Dave Bouvier](/src/DaveBouvier/index.md) ([@davebx](https://github.com/davebx)).
 
 ## Reference based RNA seq
 
-**[This tutorial](https://github.com/nekrut/galaxy/wiki/Reference-based-RNA-seq)** is inspired by an [exceptional RNAseq course](http://chagall.med.cornell.edu/RNASEQcourse/) at the Weill Cornell Medical College compiled by Friederike Dündar, Luce Skrabanek, and Paul Zumbo and by tutorials produced by Björn Grüning (@bgruening) for Freiburg Galaxy instance. Much of Galaxy-related features described in this section have been developed by [Björn Grüning](/src/BjoernGruening/index.md) ([@bgruening](https://github.com/bgruening)) and configured by [Dave Bouvier](/DaveBouvier) ([@davebx](https://github.com/davebx)).
+**[This tutorial](https://github.com/nekrut/galaxy/wiki/Reference-based-RNA-seq)** is inspired by an [exceptional RNAseq course](http://chagall.med.cornell.edu/RNASEQcourse/) at the Weill Cornell Medical College compiled by Friederike Dündar, Luce Skrabanek, and Paul Zumbo and by tutorials produced by Björn Grüning (@bgruening) for Freiburg Galaxy instance. Much of Galaxy-related features described in this section have been developed by [Björn Grüning](/src/BjoernGruening/index.md) ([@bgruening](https://github.com/bgruening)) and configured by [Dave Bouvier](/src/DaveBouvier/index.md) ([@davebx](https://github.com/davebx)).
 
 ## Dataset Collections
 

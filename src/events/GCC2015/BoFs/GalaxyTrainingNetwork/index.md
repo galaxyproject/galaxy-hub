@@ -18,9 +18,9 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 <a href='/Teach'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="160" /></a>
 </div>
 
-The **[Galaxy Training Network (GTN)](/src/Teach/GTN/index.md)** will have an in-person [Birds of a Feather](/Events/GCC2015/BoFs) meetup at the [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/), held in Norwich, UK, 4-8 July, 2015.
+The **[Galaxy Training Network (GTN)](/src/Teach/GTN/index.md)** will have an in-person [Birds of a Feather](/src/Events/GCC2015/BoFs/index.md) meetup at the [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/), held in Norwich, UK, 4-8 July, 2015.
 
-GTN was unofficially launched at a [GCC2014 BoF meetup](/src/Events/GCC2014/BoFs/GalaxyTrainingNetwork/index.md) (and [officially launched in October](/News/GalaxyTrainingNetwork)).  GTN is a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  GTN makes it easy to find [Galaxy trainers](/Teach/Trainers), and to share and discover the wealth of training resources available for Galaxy.  This includes [training materials](/Teach/Resources), a [trainer directory](/Teach/Trainers),[best practices](/Teach/BestPractices), and [guidance on computing platforms](/src/Teach/ComputingPlatforms/index.md) for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
+GTN was unofficially launched at a [GCC2014 BoF meetup](/src/Events/GCC2014/BoFs/GalaxyTrainingNetwork/index.md) (and [officially launched in October](/src/News/GalaxyTrainingNetwork/index.md)).  GTN is a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  GTN makes it easy to find [Galaxy trainers](/src/Teach/Trainers/index.md), and to share and discover the wealth of training resources available for Galaxy.  This includes [training materials](/Teach/Resources), a [trainer directory](/src/Teach/Trainers/index.md),[best practices](/Teach/BestPractices), and [guidance on computing platforms](/src/Teach/ComputingPlatforms/index.md) for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
 
 If you teach with Galaxy, then please consider joining us at this BoF.
 

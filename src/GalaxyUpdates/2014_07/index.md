@@ -17,9 +17,9 @@ The *Galaxy Update* is going out a few days early this month because the usual r
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-**The [2014 Galaxy Community Conference (GCC2014)](/src/Events/GCC2014/index.md) starts on Monday, June 30, and runs through July 2,** at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.  The [program](/Events/GCC2014/Program) is online and all [titles and abstracts for accepted talks and posters](/src/Events/GCC2014/Abstracts/Talks/index.md) are now online.  
+**The [2014 Galaxy Community Conference (GCC2014)](/src/Events/GCC2014/index.md) starts on Monday, June 30, and runs through July 2,** at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.  The [program](/src/Events/GCC2014/Program/index.md) is online and all [titles and abstracts for accepted talks and posters](/src/Events/GCC2014/Abstracts/Talks/index.md) are now online.  
 
-Fifteen [Training sessions on 12 topics](/src/Events/GCC2014/TrainingDay/index.md), several [Birds of a Feather](/Events/GCC2014/BoFs), two lightning talk sessions, and the very first [Galaxy Project Hackathon](/src/Events/GCC2014/Hackathon/index.md) are also happening.
+Fifteen [Training sessions on 12 topics](/src/Events/GCC2014/TrainingDay/index.md), several [Birds of a Feather](/src/Events/GCC2014/BoFs/index.md), two lightning talk sessions, and the very first [Galaxy Project Hackathon](/src/Events/GCC2014/Hackathon/index.md) are also happening.
 
 <br />
 
@@ -322,7 +322,7 @@ The most recent version of CloudMan was [released in January 2014](/src/News/Clo
 One new [Log Board entry](/src/Community/Logs/index.md) was added in June:
 * [Local Tool Shed with https and LDAP](/src/Community/Log/2014/ToolShedWithHttpsAndLDAP/index.md)
 
-The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them.
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/src/Community/index.md)* were launched last your.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them.
 
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>

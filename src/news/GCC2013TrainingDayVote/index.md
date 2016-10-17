@@ -6,7 +6,7 @@ date: 2013-01-28T18:49:36Z
 <div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' /></a><br />
 <div class='right'><a href='/Events/GCC2013'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="180" /></a> </div></div>
 
-A [list of possible topics](/src/Events/GCC2013/TrainingDay/index.md#topics) for the [GCC2013 Training Day](/Events/GCC2013/TrainingDay) is now available.  Please take a few minutes to [review these possibilities](/src/Events/GCC2013/TrainingDay/index.md#topics) and then [vote for your favorite three topics](http://bit.ly/gcc2013tdpoll).*
+A [list of possible topics](/src/Events/GCC2013/TrainingDay/index.md#topics) for the [GCC2013 Training Day](/src/Events/GCC2013/TrainingDay/index.md) is now available.  Please take a few minutes to [review these possibilities](/src/Events/GCC2013/TrainingDay/index.md#topics) and then [vote for your favorite three topics](http://bit.ly/gcc2013tdpoll).*
 
 Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.  
 

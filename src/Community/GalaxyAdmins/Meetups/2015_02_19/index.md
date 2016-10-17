@@ -33,7 +33,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 # GalaxyAdmins is Back!
 
-Except for a [meetup at GCC2014](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md), the [GalaxyAdmins group](/src/Community/GalaxyAdmins/index.md) has been hiatus for a while.  Thanks to the efforts of [Hans-Rudolf Hotz](/HansrudolfHotz), the [GalaxyAdmins group](/src/Community/GalaxyAdmins/index.md) *is back.*  Starting in February 2015, we will resume our bi-monthly web meetups.  
+Except for a [meetup at GCC2014](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md), the [GalaxyAdmins group](/src/Community/GalaxyAdmins/index.md) has been hiatus for a while.  Thanks to the efforts of [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md), the [GalaxyAdmins group](/src/Community/GalaxyAdmins/index.md) *is back.*  Starting in February 2015, we will resume our bi-monthly web meetups.  
 
 *[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 

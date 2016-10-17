@@ -278,15 +278,15 @@ See "[MIRPIPE – quantification of microRNAs in niche model organisms](http://b
 <a href='/Community/Log/2014/GalaxyOnBioLinux8'><img src='/Images/Logos/EOS.gif' alt='Overview of Galaxy on Bio-Linux 8' width="100" /></a>
 </div>
 
-The [deployment details](/src/Community/Deployment/GalaxEast/index.md) for the [GalaxEast public server](/PublicGalaxyServers#galaxeast) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/src/Community/Logs/index.md).
+The [deployment details](/src/Community/Deployment/GalaxEast/index.md) for the [GalaxEast public server](/src/PublicGalaxyServers/index.md#galaxeast) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/src/Community/Logs/index.md).
 
-The *[Deployment Catalog](/src/Community/Deployments/index.md)* and *[Community Log Board](/src/Community/Logs/index.md)* *[Galaxy community hubs](/Community)* were launched in 2013.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
+The *[Deployment Catalog](/src/Community/Deployments/index.md)* and *[Community Log Board](/src/Community/Logs/index.md)* *[Galaxy community hubs](/src/Community/index.md)* were launched in 2013.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
 
 # New Releases
 
-New versions of [Galaxy](/src/GalaxyUpdates/2014_09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), [BioBlend](/GalaxyUpdates/2014_09#bioblend-051-release), and [blend4j](/GalaxyUpdates/2014_09#blend4j-011-release) were all released in August.  And so was [Galaxy IPython](/src/GalaxyUpdates/2014_09/index.md#galaxy-ipython) too.
+New versions of [Galaxy](/src/GalaxyUpdates/2014_09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release), [BioBlend](/src/GalaxyUpdates/2014_09/index.md#bioblend-051-release), and [blend4j](/GalaxyUpdates/2014_09#blend4j-011-release) were all released in August.  And so was [Galaxy IPython](/src/GalaxyUpdates/2014_09/index.md#galaxy-ipython) too.
 
 Look for a new Galaxy distribution in October.
 

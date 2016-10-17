@@ -1099,7 +1099,7 @@ The Galaxy project started to [use Twitter](/src/GalaxyOnTwitter/index.md) on a 
 
 ## Galaxy Community Conference Feedback
 
-Summary of feedback on 3 key questions from [GCC2011](/src/Events/GCC2011/index.md), [GCC2012](/Events/GCC2012), [GCC2013](/Events/GCC2013), [GCC2014](/Events/GCC2014), and [GCC2015](http://gcc2015.tsl.ac.uk/)
+Summary of feedback on 3 key questions from [GCC2011](/src/Events/GCC2011/index.md), [GCC2012](/src/Events/GCC2012/index.md), [GCC2013](/src/Events/GCC2013/index.md), [GCC2014](/Events/GCC2014), and [GCC2015](http://gcc2015.tsl.ac.uk/)
 
 <div class='center'>
 ![Would you recommend Galaxy events to others?](/GCCRecommendGraph.png)  ![How useful was the GCC?](/GCCUsefulGraph.png) ![How well run and organized was the GCC?](/GCCOrganized.png)

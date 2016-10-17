@@ -15,7 +15,7 @@ Some highlights from the **[May Galaxy News](/src/GalaxyUpdates/2016_05/index.md
   * **[Poster & Demo Abstracts: May 20](/src/GalaxyUpdates/2016_05/index.md#poster--demo-abstracts-may-20)**
   * **[Early Registration: May 20](/src/GalaxyUpdates/2016_05/index.md#early-registration-may-20)**
   * **[Scholarships: May 1](/src/GalaxyUpdates/2016_05/index.md#scholarships-may-1)**
-  * Please welcome returning GCC sponsors: **[GigaScience](/src/GalaxyUpdates/2016_05/index.md#gigascience)**, **[GenomeWeb](/GalaxyUpdates/2016_05#genomeweb)**, and **[EMC](/src/GalaxyUpdates/2016_05/index.md#emc)**.
+  * Please welcome returning GCC sponsors: **[GigaScience](/src/GalaxyUpdates/2016_05/index.md#gigascience)**, **[GenomeWeb](/src/GalaxyUpdates/2016_05/index.md#genomeweb)**, and **[EMC](/src/GalaxyUpdates/2016_05/index.md#emc)**.
 * [Other Upcoming Events](/src/GalaxyUpdates/2016_05/index.md#upcoming-events):
   * [Galaxy @ ASMS 2016](/src/GalaxyUpdates/2016_05/index.md#galaxy-at-asms-2016)
   * [Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data Workshop @ UC Davis](/src/GalaxyUpdates/2016_05/index.md#using-galaxy-for-analysis-of-rna-seq-and-chip-seq-data)
@@ -27,7 +27,7 @@ Some highlights from the **[May Galaxy News](/src/GalaxyUpdates/2016_05/index.md
 * [Open positions](/src/GalaxyUpdates/2016_05/index.md#whos-hiring) (6 of them)
 * New [MGEScan](/src/GalaxyUpdates/2016_05/index.md#mgescan) and [Koslicki Lab](/src/GalaxyUpdates/2016_05/index.md#koslicki-lab) public Galaxy servers
 * A new [Galaxy Community Hub](/src/GalaxyUpdates/2016_05/index.md#galaxy-community-hubs) training resource
-* New [Releases](/src/GalaxyUpdates/2016_05/index.md#releases): [Planemo](/GalaxyUpdates/2016_05#planemo-0242), and [galaxy-lib](/GalaxyUpdates/2016_05#galaxy-lib-1670) and [Pulsar](/src/GalaxyUpdates/2016_05/index.md#pulsar)
+* New [Releases](/src/GalaxyUpdates/2016_05/index.md#releases): [Planemo](/src/GalaxyUpdates/2016_05/index.md#planemo-0242), and [galaxy-lib](/src/GalaxyUpdates/2016_05/index.md#galaxy-lib-1670) and [Pulsar](/src/GalaxyUpdates/2016_05/index.md#pulsar)
 
 Don't miss those deadlines, and [see you in June](https://gcc2016.iu.edu/),
 

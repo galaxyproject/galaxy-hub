@@ -26,9 +26,9 @@ This was [proposed](/src/News/IRCPublicLogProposal/index.md) and then [discussed
 
 <div class='left'><a href='/Teach'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="200" /></a></div>
 
-The *[Galaxy Training Network (GTN)](/src/Teach/GTN/index.md)* was [launched October 16](/News/GalaxyTrainingNetwork) with 16 charter member organizations.  The GTN is a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  The GTN aims to make it easy to find [Galaxy trainers](/Teach/Trainers), and to share and discover the wealth of training resources available for Galaxy.  This includes [training materials](/Teach/Resources), a [trainer directory](/Teach/Trainers), [best practices](/Teach/BestPractices), and [guidance on computing platforms](/src/Teach/ComputingPlatforms/index.md) for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
+The *[Galaxy Training Network (GTN)](/src/Teach/GTN/index.md)* was [launched October 16](/src/News/GalaxyTrainingNetwork/index.md) with 16 charter member organizations.  The GTN is a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  The GTN aims to make it easy to find [Galaxy trainers](/src/Teach/Trainers/index.md), and to share and discover the wealth of training resources available for Galaxy.  This includes [training materials](/Teach/Resources), a [trainer directory](/src/Teach/Trainers/index.md), [best practices](/Teach/BestPractices), and [guidance on computing platforms](/src/Teach/ComputingPlatforms/index.md) for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
 
-If you teach with Galaxy, then please consider adding [your organization](/src/Teach/Trainers/index.md#add-a-trainer), [materials](/Teach/Resources#add-a-training-resource), and [best practices](/src/Teach/BestPractices/index.md). Since the GTN launched two weeks ago, 4 new organizations have joined:
+If you teach with Galaxy, then please consider adding [your organization](/src/Teach/Trainers/index.md#add-a-trainer), [materials](/src/Teach/Resources/index.md#add-a-training-resource), and [best practices](/src/Teach/BestPractices/index.md). Since the GTN launched two weeks ago, 4 new organizations have joined:
 
 * [Alberta Children's Hospital Research Institute](http://bit.ly/gxytrnACHRI), Calgary, Canada
 * [Memorial Sloan Kettering Cancer Center, Rätsch Laboratory](http://bit.ly/gxytrnRaetsch), New York City, United States
@@ -66,7 +66,7 @@ The [French IFB Galaxy Working Group](http://www.ifb-galaxy.org/index.html):
 
 <div class='right'><a href='/Events/SG2014'><img src='/Images/Logos/SG2014Logo400.png' alt='Swiss-German Galaxy Tour 2014' width="120" /></a></div>
 
-After the big success of the [first Swiss Galaxy Workshop two years ago](/src/Events/Switzerland2012/index.md), we decided to [organize a similar event](/src/Events/SG2014/index.md) again this fall. This time, we added a [training day](/Events/Switzerland2014/trainingday) prior to the [workshop](/Events/Switzerland2014), and a [developer day](/Events/Germany2014) after the workshop. The first two days were held in Bern (Switzerland), and the third in Freiburg (Germany). Hence we called the whole event: "[Swiss German Galaxy Tour 2014](/src/Events/SG2014/index.md)".  
+After the big success of the [first Swiss Galaxy Workshop two years ago](/src/Events/Switzerland2012/index.md), we decided to [organize a similar event](/src/Events/SG2014/index.md) again this fall. This time, we added a [training day](/src/Events/Switzerland2014/trainingday/index.md) prior to the [workshop](/src/Events/Switzerland2014/index.md), and a [developer day](/Events/Germany2014) after the workshop. The first two days were held in Bern (Switzerland), and the third in Freiburg (Germany). Hence we called the whole event: "[Swiss German Galaxy Tour 2014](/src/Events/SG2014/index.md)".  
 
 More than 40 people registered for the event, signing up for one, two or all three days, ...<br />
 *- [read more](/src/News/SG2014Report/index.md) -*
@@ -336,7 +336,7 @@ The [OSDD Molecular Property Diagnostic Suite (MPDS)](http://mpds.osdd.net/) Gal
 
 **There were no new [Log Board](/src/Community/Logs/index.md) or [Deployment Catalog](/src/Community/Deployments/index.md) entries in August!**  Eek!  Please don't let this happen again!  
 
-The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/src/Community/index.md)* were launched last your.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
 
@@ -344,7 +344,7 @@ The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Cata
 
 [BioBlend v0.5.2 was released in October](/src/News/BioBlendV0.5.2/index.md).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  
 
-New versions of [Galaxy](/src/GalaxyUpdates/2014_09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were all released in August.
+New versions of [Galaxy](/src/GalaxyUpdates/2014_09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were all released in August.
 
 Look for a new Galaxy distribution in November.
 

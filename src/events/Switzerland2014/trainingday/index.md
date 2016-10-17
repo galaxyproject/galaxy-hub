@@ -26,7 +26,7 @@ Topics covered:
 | Time |  Speaker  |  Title  |  Type  |  Slides  | 
 | ---- | -------- | ------ | ----- | ------- | 
 | 9:15 - 9:30 |  ARRIVAL  | 
-| 9:30 - 9:40 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/BjoernGruening) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |   |  [pdf](ATTACHMENT_URLwelcome_20140930.pdf)   | 
+| 9:30 - 9:40 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/src/BjoernGruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |   |  [pdf](ATTACHMENT_URLwelcome_20140930.pdf)   | 
 | 9:40 - 9:50 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/))  |  Galaxy Introduction  |  demo  |  [pdf](ATTACHMENT_URLintro_20140930.pdf)  | 
 | 9:50 - 10:30 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/))  |  datatypes, histories, datasets, tools, data sharing  |  hands-on  |   | 
 | 10:30 - 11:00 |  coffee Break  | 
@@ -37,7 +37,7 @@ Topics covered:
 | 14:40 - 15:00|  coffee Break  | 
 | 15:00 - 15:30 |  [Björn Grüning](/src/BjoernGruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/))  |  NGS-analaysis: a Chip-Seq example  |  hands-on  |   | 
 | 15:30 - 16:00 |  [Dannon Baker](/src/DannonBaker/index.md) ([Galaxy Project](http://galaxyproject.org))  |  visualizations    |  hands-on  |   | 
-| 16:00 - 16:01 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/BjoernGruening)  ([University of Freiburg](http://www.uni-freiburg.de/))  |  concluding remarks  |   |   | 
+| 16:00 - 16:01 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/src/BjoernGruening/index.md)  ([University of Freiburg](http://www.uni-freiburg.de/))  |  concluding remarks  |   |   | 
 | 16:01 - 16:15 |  DEPARTURE (....and going to the pub)  | 
 
 This schedule will most likely change. It will be adapted according to the progress we make during the day

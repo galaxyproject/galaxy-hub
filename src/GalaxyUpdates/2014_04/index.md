@@ -14,9 +14,9 @@ Welcome to the April 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a mont
 
 *63 papers* (a new monthly record) were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in March. Some papers that may be particularly interesting to the Galaxy community:
 
-* "[Wrangling Galaxy's Reference Data](http://dx.doi.org/10.1093/bioinformatics/btu119)," by [Daniel Blankenberg](/src/Dan/index.md), James E. Johnson, [James Taylor](/JamesTaylor), [Anton Nekrutenko](/src/anton/index.md); *Bioinformatics* (28 February 2014), doi:10.1093/bioinformatics/btu119
+* "[Wrangling Galaxy's Reference Data](http://dx.doi.org/10.1093/bioinformatics/btu119)," by [Daniel Blankenberg](/src/Dan/index.md), James E. Johnson, [James Taylor](/src/JamesTaylor/index.md), [Anton Nekrutenko](/src/anton/index.md); *Bioinformatics* (28 February 2014), doi:10.1093/bioinformatics/btu119
 
-* "[Controlling for contamination in re-sequencing studies with a reproducible web-based phylogenetic approach](http://www.biotechniques.com/BiotechniquesJournal/2014/March/Controlling-for-contamination-in-re-sequencing-studies-with-a-reproducible-web-based-phylogenetic-approach/biotechniques-350711.html)," Benjamin Dickins, Boris Rebolledo-Jaramillo, Marcia Shu-Wei S. Su, Ian M. Paul, [Daniel Blankenberg](/src/Dan/index.md), Nicholas Stoler, Kateryna D. Makova, [Anton Nekrutenko](/anton), *[BioTechniques](http://www.biotechniques.com/)*, Vol. 56, No. 3. (2014)
+* "[Controlling for contamination in re-sequencing studies with a reproducible web-based phylogenetic approach](http://www.biotechniques.com/BiotechniquesJournal/2014/March/Controlling-for-contamination-in-re-sequencing-studies-with-a-reproducible-web-based-phylogenetic-approach/biotechniques-350711.html)," Benjamin Dickins, Boris Rebolledo-Jaramillo, Marcia Shu-Wei S. Su, Ian M. Paul, [Daniel Blankenberg](/src/Dan/index.md), Nicholas Stoler, Kateryna D. Makova, [Anton Nekrutenko](/src/anton/index.md), *[BioTechniques](http://www.biotechniques.com/)*, Vol. 56, No. 3. (2014)
 
 * "[Orione, a web-based framework for NGS analysis in microbiology](http://dx.doi.org/10.1093/bioinformatics/btu135)," Gianmauro Cuccuru, Massimiliano Orsini, Andrea Pinna, Andrea Sbardellati, Nicola Soranzo, Antonella Travaglione, Paolo Uva, Gianluigi Zanetti, Giorgio Fotia, *Bioinformatics* (Oxford, England) (10 March 2014), doi:10.1093/bioinformatics/btu135
 
@@ -108,7 +108,7 @@ Accepted talks and selected posters from GCC2014 are also eligible for considera
 
 ### Registration is Open
 
-[Early registration is now open](/src/Events/GCC2014/Register/index.md). *Early registration saves more than 70% on registration costs, and [Training Day](/Events/GCC2014/TrainingDay) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/src/Events/GCC2014/Logistics/index.md#lodging), a very affordable housing option in the same building as the conference.
+[Early registration is now open](/src/Events/GCC2014/Register/index.md). *Early registration saves more than 70% on registration costs, and [Training Day](/src/Events/GCC2014/TrainingDay/index.md) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/src/Events/GCC2014/Logistics/index.md#lodging), a very affordable housing option in the same building as the conference.
 
 *[Training Day](/src/Events/GCC2014/TrainingDay/index.md)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There are 5 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 15 sessions and over 37 hours of workshop material.*
 
@@ -131,7 +131,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/Spon
 * *Globus Genomics: A Medical Center's Bioinformatics Core Perspective*, by Anoop Mayampurath
 * *Building a Low-budget Public Resource for Large-scale Proteomic Analyses*, by Rama Raghavan
 
-[Globus Genomics](/src/Cloud/index.md#globus-genomics) is a Globus and Galaxy based platform for genomic analysis.  [GlobusWorld](http://www.globusworld.org/) is being held April 15-17, in Chicago.    And, [GCC2014](/Events/GCC2014) is a Silver Sponsor of [GlobusWorld](http://www.globusworld.org/).
+[Globus Genomics](/src/Cloud/index.md#globus-genomics) is a Globus and Galaxy based platform for genomic analysis.  [GlobusWorld](http://www.globusworld.org/) is being held April 15-17, in Chicago.    And, [GCC2014](/src/Events/GCC2014/index.md) is a Silver Sponsor of [GlobusWorld](http://www.globusworld.org/).
 
 ## UC Davis 2014 Bioinformatics Workshop
 
@@ -353,7 +353,7 @@ The most recent version of CloudMan was [released in January 2014](/src/News/Clo
 
 <br /><br />
 
-The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/src/Community/index.md)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/src/Community/index.md)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
 
 There was one new [Community Log Board](/src/Community/Logs/index.md) entry in March:
 

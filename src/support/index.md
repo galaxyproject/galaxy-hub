@@ -44,7 +44,7 @@ The Big Picture: **[Galaxy NGS 101](/src/Learn/GalaxyNGS101/index.md)**
 
 ## Learning Hub
 
-See our [Learning](/src/Learn/index.md) hub for key coverage of Galaxy user interface concepts, data, and tools. Review "Shared Data &rarr; Published Pages" on the [/Main](/Main) server [usegalaxy.org](http://usegalaxy.org) for publication supplementals and tutorials. **Also see the section at the top of this wiki *End-User Support Resource Short List***.
+See our [Learning](/src/Learn/index.md) hub for key coverage of Galaxy user interface concepts, data, and tools. Review "Shared Data &rarr; Published Pages" on the [/Main](/src/Main/index.md) server [usegalaxy.org](http://usegalaxy.org) for publication supplementals and tutorials. **Also see the section at the top of this wiki *End-User Support Resource Short List***.
 
 ## Screencasts
 

@@ -518,12 +518,12 @@ Ran out of time to compile these.  Look for a double batch in December.
 
 * [Det'Rprok workflow](http://bit.ly/1aWNeVE) from [this paper](http://www.sciencedirect.com/science/article/pii/S1046202313002041) updated at !MyExperiment.
 
-* We decided not to have a [Data Carpentry](http://www.datacarpentry.org/) / [Software Carpentry](http://software-carpentry.org/) *Train the Trainer* event before [GCC2016](/src/Events/GCC2016).  However, we have [nominated a topic on Best Practices and Resources for Galaxy Training](/Events/GCC2016/Training#galactically-speaking-best-practices-and-resources-for-galaxy-training).  If that interests you then *[please vote](http://bit.ly/gcc2016vote) for it*.
+* We decided not to have a [Data Carpentry](http://www.datacarpentry.org/) / [Software Carpentry](http://software-carpentry.org/) *Train the Trainer* event before [GCC2016](/src/Events/GCC2016).  However, we have [nominated a topic on Best Practices and Resources for Galaxy Training](/src/Events/GCC2016/Training#galactically-speaking-best-practices-and-resources-for-galaxy-training).  If that interests you then *[please vote](http://bit.ly/gcc2016vote) for it*.
 
 ## Galaxy Codebase Reaches 20 000 Commits
 
 <a href='https://github.com/galaxyproject/galaxy'><img src='/Images/20000Commits.png' alt='Galaxy codebase' width="100%" /></a>
 
-In September [Galaxy turned 10 years old](/src/GalaxyUpdates/2015_10/index.md#galaxy-turns-10) by one important measure.  Another milestone was reached in October when the [Galaxy codebase](https://github.com/galaxyproject/galaxy) surpassed of 20000 commits. And appropriately (and if I can count), the 20,000th was a pull request commit from community member [Eric Rasche](/EricRasche) originally submitted by team member [Nate Coraor](/src/nate/index.md).
+In September [Galaxy turned 10 years old](/src/GalaxyUpdates/2015_10/index.md#galaxy-turns-10) by one important measure.  Another milestone was reached in October when the [Galaxy codebase](https://github.com/galaxyproject/galaxy) surpassed of 20000 commits. And appropriately (and if I can count), the 20,000th was a pull request commit from community member [Eric Rasche](/src/EricRasche/index.md) originally submitted by team member [Nate Coraor](/src/nate/index.md).
 
 Our thanks go to the community and the team alike.

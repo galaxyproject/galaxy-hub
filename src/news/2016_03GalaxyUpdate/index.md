@@ -20,7 +20,7 @@ The **[March 2016 Galactic News](/src/GalaxyUpdates/2016_03/index.md)** is hot o
 * [Twelve other upcoming events](/src/GalaxyUpdates/2016_03/index.md#upcoming-events)
 * [54 new publications, including 4 highlighted pubs](/src/GalaxyUpdates/2016_03/index.md#new-papers)
 * [New jobs](/src/GalaxyUpdates/2016_03/index.md#whos-hiring)
-* [New releases](/src/GalaxyUpdates/2016_03/index.md#releases), including the [new CloudBridge](/GalaxyUpdates/2016_03#cloudbridge-010) and two [important security announcements](/src/GalaxyUpdates/2016_03/index.md#security-announcements)
+* [New releases](/src/GalaxyUpdates/2016_03/index.md#releases), including the [new CloudBridge](/src/GalaxyUpdates/2016_03/index.md#cloudbridge-010) and two [important security announcements](/src/GalaxyUpdates/2016_03/index.md#security-announcements)
 * [Three new Galaxy servers](/src/GalaxyUpdates/2016_03/index.md#new-public-galaxy-servers)
 * [New ToolShed Contributions](/src/GalaxyUpdates/2016_03/index.md#toolshed-contributions)
 

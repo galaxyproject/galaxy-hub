@@ -59,7 +59,7 @@ These papers may be of interest to the Galaxy community:
 
 * ["Using Cloud Computing Infrastructure with CloudBioLinux, CloudMan, and Galaxy"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1109.html), by [Enis Afgan](/src/EnisAfgan/index.md), Brad Chapman, Margita Jadan, Vedran Franke, [James Taylor](/src/JamesTaylor/index.md), *Current Protocols in Bioinformatics*. 2012 June: Unit 11.9.
 
-* ["Using Galaxy to Perform Large-Scale Interactive Data Analyses"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html), by [Jennifer Hillman-Jackson](/src/JenniferJackson/index.md), [Dave Clements](/DaveClements), [Daniel Blankenberg](/Dan), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton), [Galaxy Team](/src/GalaxyTeam/index.md), *Current Protocols in Bioinformatics*. 2012 June: Unit 10.5.
+* ["Using Galaxy to Perform Large-Scale Interactive Data Analyses"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html), by [Jennifer Hillman-Jackson](/src/JenniferJackson/index.md), [Dave Clements](/src/DaveClements/index.md), [Daniel Blankenberg](/src/Dan/index.md), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton), [Galaxy Team](/src/GalaxyTeam/index.md), *Current Protocols in Bioinformatics*. 2012 June: Unit 10.5.
 
 These papers were among [31 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/GalaxyUpdates/index.md) (for a total of 348 papers in the last ~16 months).  The new papers are spread [across 8 categories](http://www.citeulike.org/group/16008/tags).
 
@@ -77,9 +77,9 @@ These papers were among [31 papers added to the Galaxy CiteULike group](http://w
 </div>
 
 <br />
-The [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) will be held July 25-27, in Chicago.  [Register by July 18](/Events/GCC2012/Register) to avoid paying late registration rates.  [Register well before July 18](/Events/GCC2012/Register), if you are planning on attending the [GCC2012 Training Day](/src/Events/GCC2012/TrainingDay/index.md).  Training Day has limited space and will likely sell out before the entire conference does.
+The [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) will be held July 25-27, in Chicago.  [Register by July 18](/src/Events/GCC2012/Register/index.md) to avoid paying late registration rates.  [Register well before July 18](/src/Events/GCC2012/Register/index.md), if you are planning on attending the [GCC2012 Training Day](/src/Events/GCC2012/TrainingDay/index.md).  Training Day has limited space and will likely sell out before the entire conference does.
 
-The [program for all 3 days is now available](/src/Events/GCC2012/Program/index.md). This includes [12 Training Day sessions](/Events/GCC2012/TrainingDay) on [10 different topics](/Events/GCC2012/TrainingDay#workshops), and over [25 presentations](/src/Events/GCC2012/Program/index.md#day-1-july-26-thursday) by Galaxy Community and Galaxy Team members.
+The [program for all 3 days is now available](/src/Events/GCC2012/Program/index.md). This includes [12 Training Day sessions](/src/Events/GCC2012/TrainingDay/index.md) on [10 different topics](/src/Events/GCC2012/TrainingDay/index.md#workshops), and over [25 presentations](/src/Events/GCC2012/Program/index.md#day-1-july-26-thursday) by Galaxy Community and Galaxy Team members.
 
 
 

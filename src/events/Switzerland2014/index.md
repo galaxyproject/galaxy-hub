@@ -33,7 +33,7 @@ Registration is now closed. Please contact [Hans-Rudolf Hotz](/src/HansrudolfHot
 | Time |  Speaker  |  Title  |  Slides  | 
 | ---- | -------- | ------ | ------- | 
 | 9:15 - 9:30 |  ARRIVAL  | 
-| 9:30 - 9:45 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/BjoernGruening) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |  [pdf](ATTACHMENT_URLwelcome_20141001.pdf)   | 
+| 9:30 - 9:45 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/src/BjoernGruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |  [pdf](ATTACHMENT_URLwelcome_20141001.pdf)   | 
 | 9:45 - 10:30 |  [Dannon Baker](/src/DannonBaker/index.md) ([Galaxy Project](http://galaxyproject.org))  |  Status of the Galaxy Project  |  [pdf](ATTACHMENT_URLSG2014T__State_of_the_Galaxy.pdf)   | 
 | 10:30 - 10:50 |  coffee Break  | 
 | 10:50 - 11:40 |  [Björn Grüning](/src/BjoernGruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/))  |  Galaxy: putting pieces together  |  [whiteboard](ATTACHMENT_URLBjoern_whiteboard.jpg) | 
@@ -46,7 +46,7 @@ Registration is now closed. Please contact [Hans-Rudolf Hotz](/src/HansrudolfHot
 | 15:00 - 15:30 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/))  |  Using Galaxy for NGS analysis in a collaborative environment  |  [pdf](ATTACHMENT_URLhrh_20141001.pdf)   | 
 | 15:30 - 15:45 |  Tim-Christoph Roloff ([FMI](http://www.fmi.ch/))  |  Genomics analysis at FMI  |  [pdf](ATTACHMENT_URLGalaxy_Workshop_Bern_2014_Tim_Roloff.pdf)  | 
 | 15:45 - 16:00 |  Torsten Houwaart ([University of Freiburg](http://www.uni-freiburg.de/))  |  RNA structure visualized in Galaxy  |  [pdf](ATTACHMENT_URLTorsten_Bern01.10.2014.pdf)  | 
-| 16:00 - 16:01 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/BjoernGruening)  ([University of Freiburg](http://www.uni-freiburg.de/))  |  concluding remarks  |   | 
+| 16:00 - 16:01 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/src/BjoernGruening/index.md)  ([University of Freiburg](http://www.uni-freiburg.de/))  |  concluding remarks  |   | 
 | 16:01 - 16:15 |  DEPARTURE (....and going to the pub)  | 
 
 

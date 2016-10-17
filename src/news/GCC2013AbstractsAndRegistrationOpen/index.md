@@ -5,7 +5,7 @@ date: 2013-02-23T04:46:22Z
 
 <div class='center'><a href='/Events/GCC2013'><img src='/Images/Logos/GCC2013Logo400.png' alt='2013 Galaxy Community Conference (GCC2013)' width="300" /></a></div>
 
-**We are pleased to announce that [early registration](/src/Events/GCC2013/Register/index.md) and [paper and poster abstract submission](/Events/GCC2013/Abstracts) are now open for the [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013).**  GCC2013 will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).
+**We are pleased to announce that [early registration](/src/Events/GCC2013/Register/index.md) and [paper and poster abstract submission](/src/Events/GCC2013/Abstracts/index.md) are now open for the [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/index.md).**  GCC2013 will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).
 
 [GCC2013](/src/Events/GCC2013/index.md) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/src/Events/GCC2013/TrainingDay/index.md) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
 

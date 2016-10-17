@@ -450,7 +450,7 @@ To ensure the quality of the Tool Shed and the available contributed Utilities, 
 
 <div class='right'><a href='/CarlEberhard'><img src='/GalaxyTeam/carl.jpg' alt='' width="120" /></a></div>
 
-**[Carl Eberhard](/src/CarlEberhard/index.md)**<sup>1</sup>, [Jeremy Goecks](/JeremyGoecks)<sup>1</sup>, [The Galaxy Team](/GalaxyTeam)<sup>1,2</sup>, [Anton Nekrutenko](/anton)<sup>2</sup>, and [James Taylor](/src/JamesTaylor/index.md)<sup>1</sup>
+**[Carl Eberhard](/src/CarlEberhard/index.md)**<sup>1</sup>, [Jeremy Goecks](/src/JeremyGoecks/index.md)<sup>1</sup>, [The Galaxy Team](/src/GalaxyTeam/index.md)<sup>1,2</sup>, [Anton Nekrutenko](/anton)<sup>2</sup>, and [James Taylor](/src/JamesTaylor/index.md)<sup>1</sup>
 
  <sup>1</sup> Emory University<br />
  <sup>2</sup> Penn State University
@@ -485,7 +485,7 @@ Data Managers can be defined locally or installed automatically from a Tool Shed
 
 <div class='right'><a href='/DannonBaker'><img src='/GalaxyTeam/dannon.jpg' alt='' width="120" /></a></div>
 
-**[Dannon Baker](/src/DannonBaker/index.md)**<sup>1</sup>, [Nate Coraor](/nate)<sup>2</sup>, [John Chilton](/src/JohnChilton/index.md)<sup>3</sup> 
+**[Dannon Baker](/src/DannonBaker/index.md)**<sup>1</sup>, [Nate Coraor](/src/nate/index.md)<sup>2</sup>, [John Chilton](/src/JohnChilton/index.md)<sup>3</sup> 
 
  <sup>1</sup> Emory University<br />
  <sup>2</sup> Penn State<br />

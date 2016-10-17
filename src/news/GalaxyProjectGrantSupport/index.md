@@ -22,7 +22,7 @@ Any other information you want to provide would be helpful. Not only will this s
 
 Many thanks,
 
-[James Taylor](/src/JamesTaylor/index.md) and [Anton Nekrutenko](/anton), on behalf of the [Galaxy Team](/src/GalaxyTeam/index.md)
+[James Taylor](/src/JamesTaylor/index.md) and [Anton Nekrutenko](/src/anton/index.md), on behalf of the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

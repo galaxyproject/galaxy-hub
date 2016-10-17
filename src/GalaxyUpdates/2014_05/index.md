@@ -121,7 +121,7 @@ The [2014 Galaxy Community Conference (GCC2014)](/src/Events/GCC2014/index.md) w
 
 ### Early Registration Closes May 23
 
-[Early registration closes the month](/src/Events/GCC2014/Register/index.md). *Early registration saves more than 70% on registration costs, and [Training Day](/Events/GCC2014/TrainingDay) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/src/Events/GCC2014/Logistics/index.md#lodging), a very affordable housing option in the same building as the conference.
+[Early registration closes the month](/src/Events/GCC2014/Register/index.md). *Early registration saves more than 70% on registration costs, and [Training Day](/src/Events/GCC2014/TrainingDay/index.md) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/src/Events/GCC2014/Logistics/index.md#lodging), a very affordable housing option in the same building as the conference.
 
 *[Training Day](/src/Events/GCC2014/TrainingDay/index.md)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There are 5 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 15 sessions and over 37 hours of workshop material.*
 
@@ -139,7 +139,7 @@ Steve's GCC2014 talk will be on "Transcriptomes and Exomes: Computational Challe
 
 The very first [Galaxy Project Hackathon](/src/Events/GCC2014/Hackathon/index.md) will be a three day event taking place at Johns Hopkins immediately preceding [GCC2014](/src/Events/GCC2014/index.md) from June 28th-30th.
 
-Do you have a feature you've always wanted to implement?  Just want to hack on Galaxy (or CloudMan!) with other folks?  The [Galaxy Hackathon](/src/Events/GCC2014/Hackathon/index.md) will be a great opportunity to meet and work closely with other community and [Galaxy Team](/GalaxyTeam) members over the course of three days, culminating in some really great improvements and new features to show off at the [Galaxy Community Conference](/src/Events/GCC2014/index.md) afterward.
+Do you have a feature you've always wanted to implement?  Just want to hack on Galaxy (or CloudMan!) with other folks?  The [Galaxy Hackathon](/src/Events/GCC2014/Hackathon/index.md) will be a great opportunity to meet and work closely with other community and [Galaxy Team](/src/GalaxyTeam/index.md) members over the course of three days, culminating in some really great improvements and new features to show off at the [Galaxy Community Conference](/src/Events/GCC2014/index.md) afterward.
 
 Participation in the hackathon itself is completely free, but there's limited space so if you're interested and would like to participate please go ahead and book both your lodging and hackathon seat at [EventBrite](http://bit.ly/gcc2014hackreg).
 
@@ -170,7 +170,7 @@ Look for a [more detailed draft program](/src/Events/GCC2014/Program/index.md) t
 
 We are happy to have the [Center for Epigenetics](http://epigenetics.jhu.edu/), and the [Department of Biological Chemistry](http://biolchem.bs.jhmi.edu/), both of Johns Hopkins University as GCC2014 Sponsors. 
 
-There are still [Silver and Bronze sponsorships](/src/Events/GCC2014/SponsorExhibit/index.md) available for the [GCC2014](/Events/GCC2014) and Giga sponsorships for the [Hackathon](/Events/GCC2014/Hackathon). Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to help sponsor these events. 
+There are still [Silver and Bronze sponsorships](/src/Events/GCC2014/SponsorExhibit/index.md) available for the [GCC2014](/src/Events/GCC2014/index.md) and Giga sponsorships for the [Hackathon](/src/Events/GCC2014/Hackathon/index.md). Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to help sponsor these events. 
 
 In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/SponsorExhibit/index.md#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to have an exhibit space at GCC2014. 
 
@@ -192,7 +192,7 @@ A [Galaxy Tour](/src/Events/UKMay2014/index.md) is happening in the United Kingd
 
 First, there will be a talk on *Scaling Galaxy for Big Data* at the [NGS Data after the Gold Rush](http://www.tgac.ac.uk/SeqAhead_Scientific_Meeting_and_Management_Committee_Meeting/) meeting, being held 6-7 May, at [The Genome Access Centre (TGAC)](http://www.tgac.ac.uk/) in Norwich.  This will be followed by a hands-on *[Introduction to Galaxy Workshop](/src/Events/UKMay2014/TGACWorkshop/index.md)* on 9 May, also at TGAC. 
 
-After that, there will be 3 events in Edinburgh the following week, starting on Monday with a hands on *[Introduction to Galaxy Workshop](/src/Events/UKMay2014/UEdinburgh/index.md)* at the [University of Edinburgh](http://www.ed.ac.uk/) in the morning and a *Galaxy Project Update* talk at the [5th Edinburgh Bioinformatics Meeting](http://www.bioinformatics.ed.ac.uk/events/5th-edinburgh-bioinformatics-meeting), in the afternoon, and also at the University.  Finally, on Tuesday 13 May, there will be a [all-day hands-on Galaxy Workshop](/Events/UKMay2014/IGMMWorkshop) at the [Institute of Genetics and Molecular Medicine (IGMM)](http://www.igmm.ac.uk/) at Western General Hospital.
+After that, there will be 3 events in Edinburgh the following week, starting on Monday with a hands on *[Introduction to Galaxy Workshop](/src/Events/UKMay2014/UEdinburgh/index.md)* at the [University of Edinburgh](http://www.ed.ac.uk/) in the morning and a *Galaxy Project Update* talk at the [5th Edinburgh Bioinformatics Meeting](http://www.bioinformatics.ed.ac.uk/events/5th-edinburgh-bioinformatics-meeting), in the afternoon, and also at the University.  Finally, on Tuesday 13 May, there will be a [all-day hands-on Galaxy Workshop](/src/Events/UKMay2014/IGMMWorkshop/index.md) at the [Institute of Genetics and Molecular Medicine (IGMM)](http://www.igmm.ac.uk/) at Western General Hospital.
 
 You must be affiliated with the University of Edinburgh or the IGMM to register for either of those workshops, but all other events are open to anyone.
 
@@ -479,7 +479,7 @@ The most recent version of CloudMan was [released in January 2014](/src/News/Clo
 
 <br /><br />
 
-The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/src/Community/index.md)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/src/Community/index.md)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
 
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>

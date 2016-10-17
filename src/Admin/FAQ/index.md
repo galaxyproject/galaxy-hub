@@ -6,7 +6,7 @@ PLACEHOLDER_INCLUDE(/Admin/LinkBox)
 PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
 
 
-See [Learn/FAQ](/src/Learn/FAQ/index.md) for questions about using any Galaxy instance, and [Main/FAQ](../../Main/FAQ) for questions specifically about using Galaxy's free public server [Main](/src/Main/index.md).
+See [Learn/FAQ](/src/Learn/FAQ/index.md) for questions about using any Galaxy instance, and [Main/FAQ](/src/Main/FAQ/index.md) for questions specifically about using Galaxy's free public server [Main](/src/Main/index.md).
 
 
 
@@ -22,7 +22,7 @@ See [Copyrights and Licenses](/src/Admin/License/index.md).
 
 ## Using Galaxy
 
-Galaxy can be used through a **free public [Main](/src/Main/index.md) web service at [http://usegalaxy.org](http://usegalaxy.org)**, a **[Local](../../Admin/GetGalaxy) install**, or an **[Amazon Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2/) via [CloudMan](/src/CloudMan/index.md)**. 
+Galaxy can be used through a **free public [Main](/src/Main/index.md) web service at [http://usegalaxy.org](http://usegalaxy.org)**, a **[Local](/src/Admin/GetGalaxy/index.md) install**, or an **[Amazon Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2/) via [CloudMan](/src/CloudMan/index.md)**. 
 
 Tools and workflows managed by the primary Galaxy team (but contributed by [community members](/src/Community/index.md) worldwide) are served through the **[ Main ToolShed](../../Tool Shed)** and genome data/indexes through an **[rsync service](../../Admin/Data Integration)**.  
 
@@ -129,4 +129,4 @@ The following alignment tools available in Galaxy enable this:
 ## Any other question
 
 <div class='left'><a href='http://galaxyproject.org/search/getgalaxy'><img src="../../Images/Logos/GetGalaxySearch.png" alt="Google Custom Search for information on deploying, administering and extending Galaxy" width="150" /></a></div>
-The [GetGalaxy Custom Search](http://galaxyproject.org/search/getgalaxy) searches all online Galaxy resources for information about installing, administering, extending and developing Galaxy.  This includes this wiki, the [Mailing Lists](/src/MailingLists/index.md), [Main](../../Main), the [Tool Shed](../../Tool Shed), and the [Galaxy source code](https://github.com/galaxyproject/galaxy).
+The [GetGalaxy Custom Search](http://galaxyproject.org/search/getgalaxy) searches all online Galaxy resources for information about installing, administering, extending and developing Galaxy.  This includes this wiki, the [Mailing Lists](/src/MailingLists/index.md), [Main](/src/Main/index.md), the [Tool Shed](../../Tool Shed), and the [Galaxy source code](https://github.com/galaxyproject/galaxy).

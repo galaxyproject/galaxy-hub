@@ -1,4 +1,4 @@
-Common place to store graphic used for [/Support](/src/Support/index.md) and [/Learn](/Learn) wiki documents used in this web site. [Learn](/src/Images/Learn/index.md) graphics are generally UI screenshots.
+Common place to store graphic used for [/Support](/src/Support/index.md) and [/Learn](/src/Learn/index.md) wiki documents used in this web site. [Learn](/src/Images/Learn/index.md) graphics are generally UI screenshots.
 
 ## Other image types
 * [/Images](/src/Images/index.md) (all)

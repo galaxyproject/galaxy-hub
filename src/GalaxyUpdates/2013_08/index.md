@@ -16,9 +16,9 @@ Welcome to the August 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a mon
 
 # GCC2013 Report
 
-The [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/index.md) was held a month ago in Oslo Norway, at the [University of Oslo](http://uio.no).  [Video of all accepted talks](/Events/GCC2013/Program#day-1-main-meeting-1-july), the [slides for most accepted](/Events/GCC2013/Program#day-1-main-meeting-1-july) and [lightning talks](/Events/GCC2013/Lightning), [handouts and slides for all Training Day sessions](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay), and [most posters](/src/Events/GCC2013/Abstracts/index.md#poster-abstracts) are now available online.
+The [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/index.md) was held a month ago in Oslo Norway, at the [University of Oslo](http://uio.no).  [Video of all accepted talks](/src/Events/GCC2013/Program/index.md#day-1-main-meeting-1-july), the [slides for most accepted](/src/Events/GCC2013/Program/index.md#day-1-main-meeting-1-july) and [lightning talks](/src/Events/GCC2013/Lightning/index.md), [handouts and slides for all Training Day sessions](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay), and [most posters](/src/Events/GCC2013/Abstracts/index.md#poster-abstracts) are now available online.
 
-GCC2013 was, by all accounts, a tremendous success.  This was the largest GCC ever held, and featured [poster sessions](/src/Events/GCC2013/Abstracts/index.md#poster-abstracts) and [Birds of a Feather gatherings](/Events/GCC2013/BoF) for the first time.  The evening [gatherings at the pub](/src/Events/GCC2013/Program/index.md#escape-to-the-pub) and the conference dinner at the historic Sporten venue, high above Oslo, also proved quite popular.
+GCC2013 was, by all accounts, a tremendous success.  This was the largest GCC ever held, and featured [poster sessions](/src/Events/GCC2013/Abstracts/index.md#poster-abstracts) and [Birds of a Feather gatherings](/src/Events/GCC2013/BoF/index.md) for the first time.  The evening [gatherings at the pub](/src/Events/GCC2013/Program/index.md#escape-to-the-pub) and the conference dinner at the historic Sporten venue, high above Oslo, also proved quite popular.
 
 In addition to the videos and presentation materials, there are also several meeting reports in a wide variety of presentation styles:
 
@@ -108,7 +108,7 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 
 47 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in July. These papers may be particularly interesting to the Galaxy community
-* "[A sustainable national gateway for biological computation](http://dx.doi.org/10.1145/2484762.2484817)" by [James Taylor](/src/JamesTaylor/index.md), [Anton Nekrutenko](/anton), [Nate Coraor](/src/nate/index.md), *et al.* In *Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery* (2013)
+* "[A sustainable national gateway for biological computation](http://dx.doi.org/10.1145/2484762.2484817)" by [James Taylor](/src/JamesTaylor/index.md), [Anton Nekrutenko](/src/anton/index.md), [Nate Coraor](/src/nate/index.md), *et al.* In *Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery* (2013)
 * "[Cloud-based uniform ChIP-Seq processing tools for modENCODE and ENCODE](http://dx.doi.org/10.1186/1471-2164-14-494)" by Quang Trinh, Fei Y. Jen, Ziru Zhou, *et al.*, *BMC Genomics,* Vol. 14, No. 1. (2013), 494
 * "[The Banana Genome Hub](http://dx.doi.org/10.1093/database/bat035)" by Droc, *et al.*, *Database*, Vol. 2013 (01 January 2013), 
 

@@ -18,7 +18,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 <br />
 <a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' width="160" /></a></div>
 
-[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/Community/GalaxyAdmins/Meetups) and at events like [GCC2015](http://gcc2015.tsl.ac.uk/), where a lot of us happen to be.
+[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/src/Community/GalaxyAdmins/Meetups/index.md) and at events like [GCC2015](http://gcc2015.tsl.ac.uk/), where a lot of us happen to be.
 
 GCC2015 will be the third in=person GalaxyAdmins meetup.  The GalaxyAdmins !BoFs at [GCC2013](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md) and [GCC2014](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md) were very well attended and resulted in several actions items, many of which have now been implemented.
 

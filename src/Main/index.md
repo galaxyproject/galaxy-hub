@@ -14,7 +14,7 @@ The Galaxy **Main** instance is available as a free public service at [UseGalaxy
 
 Anyone can use the public servers, with or without an account, but Galaxy [user accounts](/Learn/User Accounts) are simple to create (email, password, user name and go!). With an account, data quotas are increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages). Remember, Galaxy's **[Terms and Conditions](https://usegalaxy.org/static/terms.html)** specifically declare a "one-account per user" requirement.
 
-To understand if Main is the right Galaxy choice for your project, please see [Choices](/src/BigPicture/Choices/index.md) for a description of the different types of possible Galaxy instances. Galaxy is available to [install as a local instance](/Admin/GetGalaxy), to run [on the cloud](/CloudMan), to use at other [/Public Galaxy Servers](/Public Galaxy Servers), or preinstalled on your own Galaxy [appliance](http://www.bioteam.net/slipstream/galaxy-edition).
+To understand if Main is the right Galaxy choice for your project, please see [Choices](/src/BigPicture/Choices/index.md) for a description of the different types of possible Galaxy instances. Galaxy is available to [install as a local instance](/src/Admin/GetGalaxy/index.md), to run [on the cloud](/src/CloudMan/index.md), to use at other [/Public Galaxy Servers](/Public Galaxy Servers), or preinstalled on your own Galaxy [appliance](http://www.bioteam.net/slipstream/galaxy-edition).
 
 ## Information about Main
 

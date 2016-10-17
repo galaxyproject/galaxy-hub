@@ -6,7 +6,7 @@ The **2013 Galaxy Community Conference (GCC2013)** was held at the University of
 
 The Galaxy Community Conference is an opportunity to participate in [two full days](Program) of presentations, discussion, [poster sessions](Abstracts/Posters), keynotes, [lightning talks](Lightning) and [Birds of a Feather sessions](BoF), all about high-throughput biology and the tools that support it.  The conference also includes a [Training Day](TrainingDay) for the second year in a row, this year with more in-depth topic coverage, and more concurrent sessions.
 
-GCC2013 will continue the best of previous meetings (see [GCC2012](/src/events/GCC2012/index.md), [GCC2011](../GCC2011), [GDC2010](/src/events/GDC2010/index.md)), and also incorporate new features, such as poster sessions, keynote speakers, and *themes* that organize each day and session.
+GCC2013 will continue the best of previous meetings (see [GCC2012](/src/events/GCC2012/index.md), [GCC2011](/src/events/GCC2011/index.md), [GDC2010](/src/events/GDC2010/index.md)), and also incorporate new features, such as poster sessions, keynote speakers, and *themes* that organize each day and session.
 
 ## Meeting Reports
 

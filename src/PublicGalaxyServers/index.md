@@ -36,7 +36,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *Links:*
   * **[Andromeda server](http://galaxy.nbic.nl/)**
   * Andromeda was the featured topic at the [March 2013 GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md).  Includes [slides](ATTACHMENT_URLCommunity/GalaxyAdmins/Meetups/2013_03_20/20130320Andromeda.pdf) and [video](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262344508128_1363788090133).
-  * [GCC2013](/src/Events/GCC2013/index.md) [Poster](/Events/GCC2013/Abstracts/Posters#p22-andromeda-nbic-galaxy-at-surfsaras-hpc-cloud) and [Lightning talk](/src/Events/GCC2013/Lightning/index.md#andromeda-nbic-galaxy-at-surfsaras-hpc-cloud): *Andromeda: NBIC Galaxy at Surfsara's HPC cloud* 
+  * [GCC2013](/src/Events/GCC2013/index.md) [Poster](/src/Events/GCC2013/Abstracts/Posters/index.md#p22-andromeda-nbic-galaxy-at-surfsaras-hpc-cloud) and [Lightning talk](/src/Events/GCC2013/Lightning/index.md#andromeda-nbic-galaxy-at-surfsaras-hpc-cloud): *Andromeda: NBIC Galaxy at Surfsara's HPC cloud* 
 
 * *Domain/Purpose:*
   * This is a fully populated Galaxy instance. 

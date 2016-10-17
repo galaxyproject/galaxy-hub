@@ -36,7 +36,7 @@ And a lot of **new**
 * [Open positions](/src/GalaxyUpdates/2016_04/index.md#whos-hiring) (10 of them)
 * [Halogen Bonding](/src/GalaxyUpdates/2016_04/index.md#new-public-galaxy-servers) Galaxy server
 * [Galaxy Community Hub](/src/GalaxyUpdates/2016_04/index.md#galaxy-community-hubs) entries (4 of them)
-* [Releases](/src/GalaxyUpdates/2016_04/index.md#releases) ([Planemo](/GalaxyUpdates/2016_04#planemo-0240) and [CloudMan](/src/GalaxyUpdates/2016_04/index.md#cloudman-1603))
+* [Releases](/src/GalaxyUpdates/2016_04/index.md#releases) ([Planemo](/src/GalaxyUpdates/2016_04/index.md#planemo-0240) and [CloudMan](/src/GalaxyUpdates/2016_04/index.md#cloudman-1603))
 * [ToolShed Contributions](/src/GalaxyUpdates/2016_04/index.md#toolshed-contributions)
 
 And some [other news](/src/GalaxyUpdates/2016_04/index.md#other-news) too.

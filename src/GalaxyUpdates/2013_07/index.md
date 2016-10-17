@@ -130,7 +130,7 @@ This installation of Galaxy has been configured such that anonymous users can op
 
 A record 53 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in June. These papers may be particularly interesting to the Galaxy community
 
-* "[Web-based visual analysis for high-throughput genomics](http://dx.doi.org/10.1186/1471-2164-14-397)" by [Jeremy Goecks](/src/JeremyGoecks/index.md), [Carl Eberhard](/CarlEberhard), Tomithy Too, [Anton Nekrutenko](/anton), [James Taylor](/src/JamesTaylor/index.md), *BMC Genomics*, Vol. 14, No. 1. (2013), 397
+* "[Web-based visual analysis for high-throughput genomics](http://dx.doi.org/10.1186/1471-2164-14-397)" by [Jeremy Goecks](/src/JeremyGoecks/index.md), [Carl Eberhard](/src/CarlEberhard/index.md), Tomithy Too, [Anton Nekrutenko](/src/anton/index.md), [James Taylor](/src/JamesTaylor/index.md), *BMC Genomics*, Vol. 14, No. 1. (2013), 397
 * "[Detection of non-coding RNA in Bacteria and Archaea using the DETR’PROK Galaxy pipeline](http://dx.doi.org/10.1016/j.ymeth.2013.06.003)" by Claire Toffano-Nioche, Yufei Luo, Claire Kuchly, Claire Wallon, Delphine Steinbach, Matthias Zytnicki, Annick Jacq, Daniel Gautheret, *[Methods](http://www.sciencedirect.com/science/journal/10462023)* (June 2013)
 * "[Encore: Genetic Association Interaction Network Centrality Pipeline and Application to SLE Exome Data](http://dx.doi.org/10.1002/gepi.21739)" by Nicholas A. Davis, Caleb A. Lareau, Bill C. White, *et al.* *Genetic Epidemiology* (June 2013)
 * "[A review of Bioinformatics training applied to research in Molecular Medicine, Agriculture and Biodiversity in Costa Rica and Central America](http://dx.doi.org/10.1093/bib/bbt033)" by Allan Orozco, Jessica Morera, Sergio Jiménez, Ricardo Boza, *Briefings in Bioinformatics* (30 May 2013)
@@ -251,7 +251,7 @@ The [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/index.md) s
 
 <div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
 
-[GCC2013](/src/Events/GCC2013/index.md) is an opportunity to participate in [two full days](/Events/GCC2013/Program) of presentations, discussions, [poster sessions](/Events/GCC2013/Abstracts/Posters), [lightning talks](/Events/GCC2013/Lightning) and [Birds of a Feather sessions](/Events/GCC2013/BoF), all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/src/Events/GCC2013/TrainingDay/index.md) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.  The conference ends with a closing dinner (sponsored by Ion Torrent) at the historic venue *Sporten* high above Oslo.  (And for the two evenings before that, we have reserved a pub...)
+[GCC2013](/src/Events/GCC2013/index.md) is an opportunity to participate in [two full days](/src/Events/GCC2013/Program/index.md) of presentations, discussions, [poster sessions](/src/Events/GCC2013/Abstracts/Posters/index.md), [lightning talks](/Events/GCC2013/Lightning) and [Birds of a Feather sessions](/Events/GCC2013/BoF), all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/src/Events/GCC2013/TrainingDay/index.md) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.  The conference ends with a closing dinner (sponsored by Ion Torrent) at the historic venue *Sporten* high above Oslo.  (And for the two evenings before that, we have reserved a pub...)
 
 <br />
 
@@ -389,7 +389,7 @@ The most recent official distribution was on [June 3, 2013](/src/DevNewsBriefs/2
 
 * Visualization tool updates to [Scatterplot](/src/DevNewsBriefs/2013_06_03/index.md#scatterplot) and [Trackster](/src/DevNewsBriefs/2013_06_03/index.md#trackster).
 * Job distribution, error tracking/management, and reporting function improvements to [Admin](/src/DevNewsBriefs/2013_06_03/index.md#admin) & [Core](/src/DevNewsBriefs/2013_06_03/index.md#core). 
-* Multiple [Tool](/src/DevNewsBriefs/2013_06_03/index.md#tools) updates, [History and Dataset](/DevNewsBriefs/2013_06_03#histories) upgrades, and other related [UI](/src/DevNewsBriefs/2013_06_03/index.md#ui) enhancements.
+* Multiple [Tool](/src/DevNewsBriefs/2013_06_03/index.md#tools) updates, [History and Dataset](/src/DevNewsBriefs/2013_06_03/index.md#histories) upgrades, and other related [UI](/src/DevNewsBriefs/2013_06_03/index.md#ui) enhancements.
 * New features and fixes added to the [Tool Shed](/src/DevNewsBriefs/2013_06_03/index.md#tool_shed) and related components. 
 * [Python 2.5 Support officially ended](/src/DevNewsBriefs/2013_06_03/index.md#python_25_support_has_ended).
 * Plus newly [merged Pull Requests](/src/DevNewsBriefs/2013_06_03/index.md#pull_requests_merged) and links to tickets covering key [Bug Fixes](/src/DevNewsBriefs/2013_06_03/index.md#bug_fixes).

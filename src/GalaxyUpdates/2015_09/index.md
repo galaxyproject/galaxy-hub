@@ -105,7 +105,7 @@ The new papers were tagged with:
  
 # Galaxy's First 2500 Publications
 
-And in case you missed it, we [reached 2500 publications](/src/News/First2500Papers/index.md) in the [Galaxy CiteULike Library](http://bit.ly/gxyCiteULike).  [This writeup](/src/News/First2500Papers/index.md) analyzes the papers by [CiteULike tag](/CiteULike#citeulike_tags) and journal, across the past 11 years, and identifies some trends.  Of those 2500 papers, less than 2% have a [Galaxy Team member](/src/GalaxyTeam/index.md) as a coauthor.  
+And in case you missed it, we [reached 2500 publications](/src/News/First2500Papers/index.md) in the [Galaxy CiteULike Library](http://bit.ly/gxyCiteULike).  [This writeup](/src/News/First2500Papers/index.md) analyzes the papers by [CiteULike tag](/src/CiteULike/index.md#citeulike_tags) and journal, across the past 11 years, and identifies some trends.  Of those 2500 papers, less than 2% have a [Galaxy Team member](/src/GalaxyTeam/index.md) as a coauthor.  
 
 ---
 
@@ -157,7 +157,7 @@ The [next GalaxyAdmins meetup on August 20](/src/Community/GalaxyAdmins/Meetups/
 
 In case you missed it, [slides and video are now available online](/src/Community/GalaxyAdmins/Meetups/2015_08_20/index.md).
 
-[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  Our next meeting will be on [October 15](/Community/GalaxyAdmins/Meetups/2015_10_15) where [David Kovalic](https://www.linkedin.com/in/davidkovalic) of [Analome](http://analome.com) will present.  Hope to see you there.
+[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  Our next meeting will be on [October 15](/src/Community/GalaxyAdmins/Meetups/2015_10_15/index.md) where [David Kovalic](https://www.linkedin.com/in/davidkovalic) of [Analome](http://analome.com) will present.  Hope to see you there.
 
 
 # Upcoming Events

@@ -55,7 +55,7 @@ Welcome to the September 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/ind
 
 These papers may be of interest to the Galaxy community:
 
-* "[Next-generation sequencing data interpretation: enhancing reproducibility and accessibility](http://www.nature.com/nrg/journal/v13/n9/abs/nrg3305.html)", by [Nekrutenko](/src/anton/index.md) & [Taylor](/JamesTaylor), *[Nature Reviews Genetics](http://www.nature.com/nrg/index.html)*, 13, 667-672 (September 2012)
+* "[Next-generation sequencing data interpretation: enhancing reproducibility and accessibility](http://www.nature.com/nrg/journal/v13/n9/abs/nrg3305.html)", by [Nekrutenko](/src/anton/index.md) & [Taylor](/src/JamesTaylor/index.md), *[Nature Reviews Genetics](http://www.nature.com/nrg/index.html)*, 13, 667-672 (September 2012)
 
 * "[IBDsite: a Galaxy-interacting, integrative database for supporting Inflammatory Bowel Disease high throughput data analysis](http://dx.doi.org/10.1186/1471-2105-13-S14-S5)", by Merelli, Viti, Milanesi, *BMC Bioinformatics*, Vol. 13, No. Suppl 14. (2011), S5
 

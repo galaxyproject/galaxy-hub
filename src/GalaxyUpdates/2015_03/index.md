@@ -25,7 +25,7 @@ Welcome to the March 2015 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a summ
     Jorrit Boeke, [John M Chilton](/src/JohnChilton/index.md), Ira R Cooke, Peter L Horvatovich, Pratik D Jagtap, Lukas Käll, Janne Lehtiö, Pieter Lukasse, Perry D Moerland & Timothy J Griffin, *Nature Biotechnology*, Vol. 33, No. 2. (6 February 2015)
 
 * [Online Resources for Genomic Analysis Using High-Throughput Sequencing](http://dx.doi.org/10.1101/pdb.top083667)
-    [Daniel Blankenberg](/src/Dan/index.md), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/src/anton/index.md),  *Cold Spring Harbor Protocols* (05 February 2015), doi:10.1101/pdb.top083667
+    [Daniel Blankenberg](/src/Dan/index.md), [James Taylor](/src/JamesTaylor/index.md), [Anton Nekrutenko](/src/anton/index.md),  *Cold Spring Harbor Protocols* (05 February 2015), doi:10.1101/pdb.top083667
 
 * [Selected Approaches and Frameworks to Carry out Genomic Data Analysis on the Cloud](http://dx.doi.org/10.12694/scpe.v16i1.1058)
     Philip Church, Andrzej Goscinski, *Scalable Computing: Practice and Experience*, Vol. 16, No. 1. (07 February 2015), doi:10.12694/scpe.v16i1.1058
@@ -206,7 +206,7 @@ A hands-on, 4 day workshop on *[RNA-Seq and ChIP-Seq Analysis with Galaxy](http:
 
 ### Fall 2014 Questionnaire Summaries
 
-A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/src/News/2014Questionnaire/index.md) was presented by [Dave Clements](/DaveClements).  A [summary of the admin/devel questionnaire](/src/Community/GalaxyAdmins/Surveys/2014/index.md) is now available online.
+A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/src/News/2014Questionnaire/index.md) was presented by [Dave Clements](/src/DaveClements/index.md).  A [summary of the admin/devel questionnaire](/src/Community/GalaxyAdmins/Surveys/2014/index.md) is now available online.
 
 ### Gravity
 
@@ -414,14 +414,14 @@ More information available in [/Develop/SourceCode](/src/Develop/SourceCode/inde
 
 ## Galaxy 2015/01/13 Distribution
 
-The most recent Galaxy release was the [2015/01/13 distribution](/src/DevNewsBriefs/2015_01_13/index.md).  This addressed several *[critical security vulnerabilities](/DevNewsBriefs/2015_01_13#security)*, added [IPython integration](/DevNewsBriefs/2015_01_13#ipython_integration), and included a [Tool Form Upgrade for Beta Testing](/src/DevNewsBriefs/2015_01_13/index.md#tool_form_upgrade_28for_beta_testing29).
+The most recent Galaxy release was the [2015/01/13 distribution](/src/DevNewsBriefs/2015_01_13/index.md).  This addressed several *[critical security vulnerabilities](/src/DevNewsBriefs/2015_01_13/index.md#security)*, added [IPython integration](/src/DevNewsBriefs/2015_01_13/index.md#ipython_integration), and included a [Tool Form Upgrade for Beta Testing](/src/DevNewsBriefs/2015_01_13/index.md#tool_form_upgrade_28for_beta_testing29).
 
 ## Planemo 0.5.0
 
 There were several releases of [Planemo](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst#050-2015-02-22) in February. Among many other new features, it is now install-able from [PyPI](https://pypi.python.org/pypi/planemo) and contains a new command to assist in [bootstrapping new tools](http://planemo.readthedocs.org/en/latest/writing.html).
 
 ## BioBlend
-[BioBlend v0.5.2 was released in October](/src/News/BioBlendV0.5.2/index.md).  [BioBlend](https://github.com/galaxyproject/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  In January the [BioBlend source](https://github.com/galaxyproject/bioblend) was moved to the [galaxyproject Github account](https://github.com/galaxyproject).
+[BioBlend v0.5.2 was released in October](/src/News/BioBlendV0.5.2/index.md).  [BioBlend](https://github.com/galaxyproject/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  In January the [BioBlend source](https://github.com/galaxyproject/bioblend) was moved to the [galaxyproject Github account](https://github.com/galaxyproject).
 
 ## CloudMan and blend4j
 

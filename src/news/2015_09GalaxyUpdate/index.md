@@ -18,7 +18,7 @@ The **[September Galactic News](/src/GalaxyUpdates/2015_09/index.md)** is hot of
 * [Who's Hiring](/src/GalaxyUpdates/2015_09/index.md#whos-hiring)
 * [Two new public Galaxy servers](/src/GalaxyUpdates/2015_09/index.md#new-public-galaxy-servers):
   * [Workflow4Metabolomics](/src/GalaxyUpdates/2015_09/index.md#workflow4metabolomics) and [EpiToolKit](/src/GalaxyUpdates/2015_09/index.md#epitoolkit)
-* [Three security advisories](/src/GalaxyUpdates/2015_09/index.md#security-advisories), [Recent Releases](/GalaxyUpdates/2015_09#other-releases), and [ToolShed Contributions](/src/GalaxyUpdates/2015_09/index.md#toolshed-contributions)
+* [Three security advisories](/src/GalaxyUpdates/2015_09/index.md#security-advisories), [Recent Releases](/src/GalaxyUpdates/2015_09/index.md#other-releases), and [ToolShed Contributions](/src/GalaxyUpdates/2015_09/index.md#toolshed-contributions)
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 

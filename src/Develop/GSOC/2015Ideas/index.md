@@ -80,7 +80,7 @@ By making complex applications easier to deploy and doing so reproducibly, the o
 
 **Potentially Helpful Skills** Familiarity with cloud and/or cluster computing, familiarity with Galaxy, Docker, and/or Fig, bioinformatics knowledge
 
-**Possible Mentors** [John Chilton](/src/JohnChilton/index.md), [Björn Grüning](/BjoernGruening), [Dannon Baker](/src/DannonBaker/index.md)
+**Possible Mentors** [John Chilton](/src/JohnChilton/index.md), [Björn Grüning](/src/BjoernGruening/index.md), [Dannon Baker](/src/DannonBaker/index.md)
 
 ## Fostering Bioconductor Collaborations
 
@@ -127,7 +127,7 @@ Furthermore, since workflow annotations for Refinery are currently stored in gen
 
 ## Visualization Plugin for Proteomics
 
-Implement Galaxy [data providers](/src/DataProviders/index.md) and [visualization plugins](/VisualizationsRegistry) for viewing the results of [Mass spectrometry](http://en.wikipedia.org/wiki/Protein_mass_spectrometry) based protein and/or peptide identification experiments. One could either implement data providers for Galaxy's [proteomics datatypes](https://bitbucket.org/iracooke/proteomics-toolshed-datatypes) directly (though there are potentially performance bottlenecks with this approach) or build a Galaxy tool that merges mass spec and identification into an intermediary format such as [SQLite](http://www.sqlite.org/) ([example code that might drive this by Jim Johnson](https://gist.github.com/jmchilton/4164c07f3443e811982f)). On the visualization side - it would be great to replicate the functionality of interfaces such as [peptide-shaker](http://code.google.com/p/peptide-shaker/) but in browser - in particular providing a filterable table of Peptide-Spectrum-Matches with linked spectrum viewer for each hit. 
+Implement Galaxy [data providers](/src/DataProviders/index.md) and [visualization plugins](/src/VisualizationsRegistry/index.md) for viewing the results of [Mass spectrometry](http://en.wikipedia.org/wiki/Protein_mass_spectrometry) based protein and/or peptide identification experiments. One could either implement data providers for Galaxy's [proteomics datatypes](https://bitbucket.org/iracooke/proteomics-toolshed-datatypes) directly (though there are potentially performance bottlenecks with this approach) or build a Galaxy tool that merges mass spec and identification into an intermediary format such as [SQLite](http://www.sqlite.org/) ([example code that might drive this by Jim Johnson](https://gist.github.com/jmchilton/4164c07f3443e811982f)). On the visualization side - it would be great to replicate the functionality of interfaces such as [peptide-shaker](http://code.google.com/p/peptide-shaker/) but in browser - in particular providing a filterable table of Peptide-Spectrum-Matches with linked spectrum viewer for each hit. 
 
 **Expected Outcomes**
 
@@ -331,7 +331,7 @@ The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's hand
 
 * Integrate the authentication mechanism with [Globus Nexus](https://www.globus.org/platform/services). 
  
-**Possible Mentors** [Martin Cech](/src/Marten/index.md), [Enis Afgan](/EnisAfgan), [Nitesh Turaga](/src/NiteshTuraga/index.md)
+**Possible Mentors** [Martin Cech](/src/Marten/index.md), [Enis Afgan](/src/EnisAfgan/index.md), [Nitesh Turaga](/src/NiteshTuraga/index.md)
 
 **Required Skills** Python Programming
 

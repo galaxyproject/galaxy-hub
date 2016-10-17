@@ -26,7 +26,7 @@ Welcome to the February *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a summar
 * [Merging OpenLifeData with SADI services using Galaxy and Docker](http://www.biorxiv.org/content/biorxiv/early/2015/01/10/013615)
     Mikel E. Aranguren, *bioRxiv*
 * [NCBI BLAST+ integrated into Galaxy](http://www.biorxiv.org/content/early/2015/01/21/014043)
-    Peter J. A. Cock, [John M. Chilton](/src/JohnChilton/index.md), [Björn Grüning](/BjoernGruening), James E. Johnson, [Nicola Soranzo](/src/NicolaSoranzo/index.md), *bioRxiv*
+    Peter J. A. Cock, [John M. Chilton](/src/JohnChilton/index.md), [Björn Grüning](/src/BjoernGruening/index.md), James E. Johnson, [Nicola Soranzo](/src/NicolaSoranzo/index.md), *bioRxiv*
 * [SmileFinder: a resampling-based approach to evaluate signatures of selection from genome-wide sets of matching allele frequency data in two or more diploid populations](http://www.gigasciencejournal.com/content/4/1/1/abstract)
     Wilfried M Guiblet, Kai Zhao, Stephen J O'Brien, Steven E Massey, Alfred L Roca and Taras K Oleksyk, *[GigaScience](http://www.gigasciencejournal.com/)* 2015, 4:1<br />
     [Supplementary materials](http://gigagalaxy.net/u/gigascience/g/wguiblet2014) (as a Galaxy Page)
@@ -164,7 +164,7 @@ Please let the [organisers|GCC2015 Organising Committee](http://gcc2015.tsl.ac.u
 
 The first [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) [meetup of 2015](/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md) will happen online on Thursday, 19 February.  [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.
 
-A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/src/News/2014Questionnaire/index.md) will be presented by [Dave Clements](/DaveClements), a *Galaxy Project Update* will be offered by a [Galaxy Team member](/GalaxyTeam), and   [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) will lead a short discussion on *GalaxyAdmins direction*.
+A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/src/News/2014Questionnaire/index.md) will be presented by [Dave Clements](/src/DaveClements/index.md), a *Galaxy Project Update* will be offered by a [Galaxy Team member](/src/GalaxyTeam/index.md), and   [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) will lead a short discussion on *GalaxyAdmins direction*.
 
 Thanks to everyone for letting us know what dates and times worked best for you.  This time and day of the week worked for a remarkable 91% of respondents.
 
@@ -388,7 +388,7 @@ Several *critical* security vulnerabilities were recently discovered by Bartlomi
 
 **IPython Integration**
 
-Thanks to the awesome work of community members [Björn Grüning](/src/BjoernGruening/index.md) and [Eric Rasche](/EricRasche), [Galaxy now features integration with the popular IPython project](/DevNewsBriefs/2015_01_13#ipython_integration). The [Galaxy-IPython](https://github.com/bgruening/galaxy-ipython) project has been merged into Galaxy core and made into a generic plugin framework of interactive environments based on Docker. 
+Thanks to the awesome work of community members [Björn Grüning](/src/BjoernGruening/index.md) and [Eric Rasche](/src/EricRasche/index.md), [Galaxy now features integration with the popular IPython project](/src/DevNewsBriefs/2015_01_13/index.md#ipython_integration). The [Galaxy-IPython](https://github.com/bgruening/galaxy-ipython) project has been merged into Galaxy core and made into a generic plugin framework of interactive environments based on Docker. 
 
 ** Tool Form Upgrade (for Beta Testing) **
 
@@ -434,7 +434,7 @@ Version 0.2.0 of [Planemo](https://github.com/galaxyproject/planemo/blob/master/
 * Documentation fixes for tool linting command (thanks to [Nicola Soranzo](/src/NicolaSoranzo/index.md)).
 
 ## BioBlend
-[BioBlend v0.5.2 was released in October](/src/News/BioBlendV0.5.2/index.md).  [BioBlend](https://github.com/galaxyproject/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  In January the [BioBlend source](https://github.com/galaxyproject/bioblend) was moved to the [galaxyproject Github account](https://github.com/galaxyproject).
+[BioBlend v0.5.2 was released in October](/src/News/BioBlendV0.5.2/index.md).  [BioBlend](https://github.com/galaxyproject/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  In January the [BioBlend source](https://github.com/galaxyproject/bioblend) was moved to the [galaxyproject Github account](https://github.com/galaxyproject).
 
 ## CloudMan and blend4j
 

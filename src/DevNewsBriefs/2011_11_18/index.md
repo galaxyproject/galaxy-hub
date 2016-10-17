@@ -39,7 +39,7 @@ Please reserve July 25-27 on your calendars!
 * A one day [Galaxy Developer Workshop](http://evomics.org/workshops/galaxy-developer-workshop/) is being held in [Galaxy Developer Workshop](http://evomics.org/workshops/galaxy-developer-workshop/) in [Český Krumlov, Czech Republic](http://www.ckrumlov.info/php/)
   * Registration deadline is December 15, but you are encouraged to register early, so we can gauge demand.
   * This workshop is immediately following the [Workshop on Genomics](http://evomics.org/workshops/workshop-on-genomics/2012-genomics-cesky-krumlov/2012), which also features Galaxy content, and is still accepting applications.
-* Galaxy will have presentations at [PAG 2012 (January, San Diego)](/src/Events/PAG2012/index.md) on using Galaxy, both on [/Main](/Main) and in the [Cloud](/src/CloudMan/index.md)
+* Galaxy will have presentations at [PAG 2012 (January, San Diego)](/src/Events/PAG2012/index.md) on using Galaxy, both on [/Main](/src/Main/index.md) and in the [Cloud](/src/CloudMan/index.md)
 * There are also [events](/src/Events/index.md) at the [University of Manchester](http://www.nowgen.org.uk/facilities/events/event.php?id=30) and [DDBJ](http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html#DDBJ) in January.
 
 ---

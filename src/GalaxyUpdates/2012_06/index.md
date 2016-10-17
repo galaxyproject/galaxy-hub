@@ -42,7 +42,7 @@ Many thanks to the [LAboratory of Post-Transcriptional control and bioInformatic
   1. Has less capacity than the 2 days of the [main meeting](/src/Events/GCC2012/Program/index.md), and 
   2. So far, everyone who has [registered](/src/Events/GCC2012/Register/index.md) for the main meeting has also registered for the Training Day.
 * Cheap rooms in the [James Stuckel Towers](/src/Events/GCC2012/Logistics/index.md#james-stuckel-towers) on the UIC campus (and adjacent to the [conference venue](/src/Events/GCC2012/Logistics/index.md#venue)) are going fast.
-* A [draft schedule](/src/Events/GCC2012/Program/index.md) for all 3 days of the conference has been published. This includes [12 Training Day sessions](/Events/GCC2012/TrainingDay) on [10 different topics](/src/Events/GCC2012/TrainingDay/index.md#workshops), and over 25 presentations by Galaxy Community and Galaxy Team members.
+* A [draft schedule](/src/Events/GCC2012/Program/index.md) for all 3 days of the conference has been published. This includes [12 Training Day sessions](/src/Events/GCC2012/TrainingDay/index.md) on [10 different topics](/src/Events/GCC2012/TrainingDay/index.md#workshops), and over 25 presentations by Galaxy Community and Galaxy Team members.
 
 ## New Papers
 
@@ -115,7 +115,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 <div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
 
-There are June application and early registration deadlines for [GCC2012](/src/Events/GCC2012/Register/index.md), [ISMB 2012](/Events/ISMB2012), !SciPy, and the Winter School in Mathematical and Computational Biology, and an abstract deadline for ASHG 2012.  It's also a big month for conferences and courses, including Arthropod Genomics, Bio-IT World Asia ([James Taylor](/JamesTaylor) will be speaking), SocBIN, [Next-gen sequencing in evolutionary biology](https://academy.nescent.org/wiki/Next-gen_sequencing) Course at NESCent (Sergei Kosakovsky-Pond will cover Galaxy), [Informatics on High Throughput Sequencing Data Workshop](http://www.bioinformatics.ca/workshops/high_throughput) (Francis Ouellette will cover Galaxy), Copenhagenomics, SMBE 2012, and, ESHG 2012, *to name just a few.*
+There are June application and early registration deadlines for [GCC2012](/src/Events/GCC2012/Register/index.md), [ISMB 2012](/src/Events/ISMB2012/index.md), !SciPy, and the Winter School in Mathematical and Computational Biology, and an abstract deadline for ASHG 2012.  It's also a big month for conferences and courses, including Arthropod Genomics, Bio-IT World Asia ([James Taylor](/src/JamesTaylor/index.md) will be speaking), SocBIN, [Next-gen sequencing in evolutionary biology](https://academy.nescent.org/wiki/Next-gen_sequencing) Course at NESCent (Sergei Kosakovsky-Pond will cover Galaxy), [Informatics on High Throughput Sequencing Data Workshop](http://www.bioinformatics.ca/workshops/high_throughput) (Francis Ouellette will cover Galaxy), Copenhagenomics, SMBE 2012, and, ESHG 2012, *to name just a few.*
 
 See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com) for details on these and other events.
 

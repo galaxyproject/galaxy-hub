@@ -16,7 +16,7 @@ date: 2013-09-09T23:12:00Z
 <div class='right'><a href='http://www.acgt.co.za/'><img src='/Images/Logos/ACGTLogoSmall.png' alt='African Centre for Gene Technologies'  /></a></div>
 </div>
 
-A [South Africa Galaxy Workshop Tour](/src/Events/SAWorkshopTour2013/index.md) will visit [Pretoria on 14-18 October](/Events/UPretoria2013) and [Cape Town on 21-25 October](/src/Events/UCapeTown2013/index.md).  Each leg spans five days. The first four days cover using Galaxy and participants will learn how to integrate data, and perform simple and complex analysis within Galaxy. It will also cover data visualization and visual analytics, and how to share and reuse your bioinformatic analyses, all from within Galaxy.  The last day will cover deploying and running a Galaxy server.
+A [South Africa Galaxy Workshop Tour](/src/Events/SAWorkshopTour2013/index.md) will visit [Pretoria on 14-18 October](/src/Events/UPretoria2013/index.md) and [Cape Town on 21-25 October](/src/Events/UCapeTown2013/index.md).  Each leg spans five days. The first four days cover using Galaxy and participants will learn how to integrate data, and perform simple and complex analysis within Galaxy. It will also cover data visualization and visual analytics, and how to share and reuse your bioinformatic analyses, all from within Galaxy.  The last day will cover deploying and running a Galaxy server.
 
 The workshops are free and open to all researchers, *but admission is competitive and will be based on the strength of your application.* **Applications are due 17 September**.
 

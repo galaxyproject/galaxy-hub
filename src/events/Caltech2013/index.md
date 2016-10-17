@@ -89,7 +89,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 **[Dave Clements](/src/DaveClements/index.md)**<br />
 **Emory University**<br /><br />
 
-This informal discussion will introduce Galaxy for developers.  We will discuss any items of interest to attendees and answer questions relating to, for example, the Galaxy API, Galaxy Architecture, configuring Galaxy for a production environment, and anything else about Galaxy. This will be more informal than the *Galaxy for Biologists* workshop and will cover topics that are of most interest to attendees. [Dave Clements](/src/DaveClements/index.md) of the Galaxy Project will lead the workshop and we will be joined remotely by [Dannon Baker](/DannonBaker) and [Nate Coraor](/nate), two members of the [core Galaxy development team](/src/GalaxyTeam/index.md).
+This informal discussion will introduce Galaxy for developers.  We will discuss any items of interest to attendees and answer questions relating to, for example, the Galaxy API, Galaxy Architecture, configuring Galaxy for a production environment, and anything else about Galaxy. This will be more informal than the *Galaxy for Biologists* workshop and will cover topics that are of most interest to attendees. [Dave Clements](/src/DaveClements/index.md) of the Galaxy Project will lead the workshop and we will be joined remotely by [Dannon Baker](/src/DannonBaker/index.md) and [Nate Coraor](/src/nate/index.md), two members of the [core Galaxy development team](/src/GalaxyTeam/index.md).
 
 *This discussion is open to any member of the Caltech community. It is free, but space is limited and advanced registration is strongly encouraged.*
 </div>

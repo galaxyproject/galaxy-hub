@@ -21,7 +21,7 @@ A lot of cool stuff happened in the Galaxy in August, and even more cool stuff i
   * *The brand new* [Galaxy IPython](/src/GalaxyUpdates/2014_09/index.md#galaxy-ipython)
   * *And,* the [Galaxy-UK Community](/src/GalaxyUpdates/2014_09/index.md#galaxy-uk-community-launched) was launched too.
 
-And, as always, there are [new papers](/src/GalaxyUpdates/2014_09/index.md#new-papers), [new jobs](/GalaxyUpdates/2014_09#whos-hiring), and a double dose of [new ToolShed contributions](/src/GalaxyUpdates/2014_09/index.md#toolshed-contributions).
+And, as always, there are [new papers](/src/GalaxyUpdates/2014_09/index.md#new-papers), [new jobs](/src/GalaxyUpdates/2014_09/index.md#whos-hiring), and a double dose of [new ToolShed contributions](/src/GalaxyUpdates/2014_09/index.md#toolshed-contributions).
 
 Happy September,
 

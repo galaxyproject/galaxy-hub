@@ -51,7 +51,7 @@ The [BioTeam Appliance Galaxy Edition](http://www.bioteam.net/products/galaxy-ap
 <div class='right'><a href='http://openstack.org'><img src='/Images/Logos/OpenStackLogo.png' alt='OpenStack' width="130" /></a>
 </div>
 
-[/CloudMan](/src/CloudMan/index.md) and [Globus Genomics](/Cloud#globus-genomics) are two ways to deploy your own Galaxy server using [Amazon Web Services](http://aws.amazon.com). CloudMan can also run on any cloud provider that supports the [OpenStack](http://openstack.org) or [OpenNebula](http://opennebula.org) cloud management protocols.  This covers the vast majority of commercial cloud providers.
+[/CloudMan](/src/CloudMan/index.md) and [Globus Genomics](/src/Cloud/index.md#globus-genomics) are two ways to deploy your own Galaxy server using [Amazon Web Services](http://aws.amazon.com). CloudMan can also run on any cloud provider that supports the [OpenStack](http://openstack.org) or [OpenNebula](http://opennebula.org) cloud management protocols.  This covers the vast majority of commercial cloud providers.
 
 See the Galaxy [/Cloud](/src/Cloud/index.md) page for more.
 

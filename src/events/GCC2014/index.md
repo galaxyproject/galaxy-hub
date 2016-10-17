@@ -4,7 +4,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 The 2014 Galaxy Community Conference (GCC2014) was held at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States, from June 30 through July 2, 2014
 
-Galaxy Community Conferences are an opportunity to participate in [presentations](/src/Events/GCC2014/Abstracts/index.md#talk-abstracts), discussions, [poster sessions](/Events/GCC2014/Abstracts#poster-abstracts), [lightning talks](/Events/GCC2014/Lightning) and [birds-of-a-feather gatherings](/src/Events/GCC2014/BoFs/index.md), all about high-throughput biology and the tools that support it.  
+Galaxy Community Conferences are an opportunity to participate in [presentations](/src/Events/GCC2014/Abstracts/index.md#talk-abstracts), discussions, [poster sessions](/src/Events/GCC2014/Abstracts/index.md#poster-abstracts), [lightning talks](/src/Events/GCC2014/Lightning/index.md) and [birds-of-a-feather gatherings](/src/Events/GCC2014/BoFs/index.md), all about high-throughput biology and the tools that support it.  
 
 The conference also included a [Training Day](/src/Events/GCC2014/TrainingDay/index.md) offering in-depth topic coverage, across several concurrent sessions.  
 

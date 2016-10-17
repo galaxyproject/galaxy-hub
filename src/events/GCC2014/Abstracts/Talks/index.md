@@ -233,7 +233,7 @@ We present a Galaxy based web server for processing and visualizing deeply seque
 
 <div class='right'>![GCC2014 Hackathon Participants](/src/Images/Logos/GCC2014HackLogoSquare200.png)</div>
 
-**[Dannon Baker](/src/DannonBaker/index.md)<sup>1</sup>, [Brad Chapman](http://bcbio.wordpress.com/)<sup>2</sup>, [John Chilton](/JohnChilton)<sup>3</sup>, [Kyle Ellrott](http://www.soe.ucsc.edu/people/kellrott)<sup>4</sup>, and [GCC2014 Hackathon Participants](/src/Events/GCC2014/Hackathon/index.md)**
+**[Dannon Baker](/src/DannonBaker/index.md)<sup>1</sup>, [Brad Chapman](http://bcbio.wordpress.com/)<sup>2</sup>, [John Chilton](/src/JohnChilton/index.md)<sup>3</sup>, [Kyle Ellrott](http://www.soe.ucsc.edu/people/kellrott)<sup>4</sup>, and [GCC2014 Hackathon Participants](/src/Events/GCC2014/Hackathon/index.md)**
 
  <sup>1</sup> [Johns Hopkins University](http://jhu.edu/), Baltimore Maryland, United States<br />
  <sup>2</sup> [Harvard University](http://harvard.edu), Cambridge, Massachusetts, United States<br />

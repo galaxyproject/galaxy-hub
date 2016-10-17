@@ -28,7 +28,7 @@ Some highlights from the **[July Galaxy News](/src/GalaxyUpdates/2016_07/index.m
 * [Open positions](/src/GalaxyUpdates/2016_07/index.md#whos-hiring)
 * New [public](/src/GalaxyUpdates/2016_07/index.md#new-public-galaxy-servers) and [semi-public](/src/GalaxyUpdates/2016_07/index.md#semi-public-galaxy-servers) Galaxy servers
 * A new [community log board entry](/src/GalaxyUpdates/2016_07/index.md#galaxy-community-hubs)
-* New [Releases](/src/GalaxyUpdates/2016_07/index.md#releases): [blend4php](/GalaxyUpdates/2016_07#blend4php-01-alpha), [Planemo](/GalaxyUpdates/2016_07#planemo-0270), and [galaxy-lib](/src/GalaxyUpdates/2016_07/index.md#galaxy-lib-1678---1679)
+* New [Releases](/src/GalaxyUpdates/2016_07/index.md#releases): [blend4php](/src/GalaxyUpdates/2016_07/index.md#blend4php-01-alpha), [Planemo](/src/GalaxyUpdates/2016_07/index.md#planemo-0270), and [galaxy-lib](/src/GalaxyUpdates/2016_07/index.md#galaxy-lib-1678---1679)
 * And [other news](/src/GalaxyUpdates/2016_07/index.md#other-news) too.
 
 Hope to [see you in Montpellier](/src/GalaxyUpdates/2016_07/index.md#gcc2017-26-30-june-2017-montpellier-france)!

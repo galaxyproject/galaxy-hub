@@ -43,7 +43,7 @@ This year, the workshop is aimed at Galaxy administrators and will collocate wit
 | Time |  Speaker  |  Title  |  Slides  | 
 | ---- | -------- | ------ | ------- | 
 | 9:15 - 9:30 |  ARRIVAL  | 
-| 9:30 - 9:45 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/BjoernGruening) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |   | 
+| 9:30 - 9:45 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/src/BjoernGruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |   | 
 | 9:45 - 10:30 |  a member from the Core Development Team  |  Status of the Galaxy Project  |   | 
 | 10:30 - 11:00 |  coffee Break  | 
 | 11:00 - 12:00 |  individual presentations  |   |   | 
@@ -51,7 +51,7 @@ This year, the workshop is aimed at Galaxy administrators and will collocate wit
 | 13:30 - 15:00 |  individual presentations  |   |   | 
 | 15:00 - 15:30 |  coffee Break  | 
 | 15:30 - 17:00 |  individual presentations  |   |   | 
-| 17:00 - 17:01 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/BjoernGruening)  ([University of Freiburg](http://www.uni-freiburg.de/))  |  concluding remarks  |   | 
+| 17:00 - 17:01 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/src/BjoernGruening/index.md)  ([University of Freiburg](http://www.uni-freiburg.de/))  |  concluding remarks  |   | 
 | 17:01 - 17:15 |  ...going to the pub  | 
 
 
