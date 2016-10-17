@@ -1,12 +1,12 @@
 ---
 date: 2013-10-18T19:17:57Z
 ---
-<div class='newsItemHeader'>[December Bioinformatics Boot Camps](/News/UCDavisBioinformaticsBootcamps)</div>
+<div class='newsItemHeader'>[December Bioinformatics Boot Camps](/src/News/UCDavisBioinformaticsBootcamps/index.md)</div>
 
 **Registration is now open for [Bioinformatics Bootcamps in December](https://training.bioinformatics.ucdavis.edu/bootcamps/)!**
 
 <div class='left'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src='/Images/Logos/UCDavisGenomeCenterLogo.jpg' alt='Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core'  /></a><br />
-&nbsp;![Galaxy](/Images/Logos/galaxyLogoSymbol.png)</div>
+&nbsp;![Galaxy](/src/Images/Logos/galaxyLogoSymbol.png)</div>
 
 We’re excited to announce our [next offering of Bioinformatics Bootcamps](https://training.bioinformatics.ucdavis.edu/bootcamps/), which will be held on the [UC Davis](http://www.ucdavis.edu/) campus December 10-13.  
 

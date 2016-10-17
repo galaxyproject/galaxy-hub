@@ -169,4 +169,4 @@ This workshop is supported by [Glasgow Polyomics|height="100"}}](http://www.poly
 
 ## Questions?
 
-Contact [Amy Cattanach](http://www.gla.ac.uk/stafflist/?action=person&id=4cddece38a97) or [Dave Clements](/DaveClements).
+Contact [Amy Cattanach](http://www.gla.ac.uk/stafflist/?action=person&id=4cddece38a97) or [Dave Clements](/src/DaveClements/index.md).

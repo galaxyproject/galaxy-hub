@@ -1,7 +1,7 @@
 ---
 date: 2015-04-27T06:47:23Z
 ---
-<div class='newsItemHeader'>[GCC2015 Registration is Open!](/News/GCC2015RegistrationOpen)</div>
+<div class='newsItemHeader'>[GCC2015 Registration is Open!](/src/News/GCC2015RegistrationOpen/index.md)</div>
 
 <div class='right'><a href='http://gcc2015.tsl.ac.uk/registration/'><img src='/Images/Logos/GCC2015LogoWide600.png' alt='GCC2015 Registration is open' width="220" /></a></div>
 
@@ -11,7 +11,7 @@ We are tremendously pleased (and more than a little relieved) to announce that *
 
 You can also sign up for [conference housing](http://gcc2015.tsl.ac.uk/logistics/#Lodging) during (and only during) registration.
 
-We apologize profusely for the delay in opening registration, and we thank you for your patience and faith.  We promise the conference will again [be spectacular](/GalaxyProject/Statistics#events).
+We apologize profusely for the delay in opening registration, and we thank you for your patience and faith.  We promise the conference will again [be spectacular](/src/GalaxyProject/Statistics/index.md#events).
 
 [Dave Clements](/DaveClements) and [Martin Page](http://www.tsl.ac.uk/staff/martin-page/), on behalf of the [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/).
 

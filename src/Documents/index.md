@@ -1,6 +1,6 @@
 PLACEHOLDER_INCLUDE(/Documents/LinkBox)
 
-Common page structure for attached documents that are likely to be linked to from more than one page.  See also [/Images](/Images).
+Common page structure for attached documents that are likely to be linked to from more than one page.  See also [/Images](/src/Images/index.md).
 
 * [Galaxy Project Documents](Galaxy Project)
 * [Papers](Papers)

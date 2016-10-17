@@ -11,7 +11,7 @@
 **[Kathryn W. Nesbit Classroom #2](https://www.urmc.rochester.edu/libraries/miner/teaching_and_learning/classrooms.cfm), [Edward G. Miner Library](https://www.urmc.rochester.edu/libraries/miner/index.cfm)<br />
 [University of Rochester Medical Center](https://www.urmc.rochester.edu/)
 
-Instructor: [Dave Clements](/DaveClements)
+Instructor: [Dave Clements](/src/DaveClements/index.md)
 **
 
 </div>
@@ -165,4 +165,4 @@ We will ask for it!
 
 ## Questions?
 
-Contact [John Ashton](https://www.urmc.rochester.edu/people/26567020-john-m-ashton) or [Dave Clements](/DaveClements).
+Contact [John Ashton](https://www.urmc.rochester.edu/people/26567020-john-m-ashton) or [Dave Clements](/src/DaveClements/index.md).

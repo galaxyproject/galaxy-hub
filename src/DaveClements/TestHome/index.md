@@ -1,2 +1,2 @@
 
-Where I test revisions to the [/FrontPage](/FrontPage).
+Where I test revisions to the [/FrontPage](/src/FrontPage).

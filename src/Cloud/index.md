@@ -10,7 +10,7 @@ Researchers' compute requirements vary widely over time and formerly required ei
 
 The *cloud* provides another option for this situation that can be cost-effective and efficient.  Cloud infrastructures are elastic and dynamic.  You only allocate resource when you need them, and you are able to dynamically scale up and down your allocated resources as your needs change over time.  Furthermore, compute clouds are maintained by outside providers - you don't need to install your own hardware, or need to have access to a research compute cluster at your institution.
 
-Cloud infrastructures are just [one of the many ways that Galaxy is available](/BigPicture/Choices).
+Cloud infrastructures are just [one of the many ways that Galaxy is available](/src/BigPicture/Choices/index.md).
 
 
 ## CloudMan

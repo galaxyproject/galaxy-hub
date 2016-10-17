@@ -4,9 +4,9 @@ title: April 14, ,,  2014 Galaxy Distribution News Brief
 ---
 <div class='right'></div>
 
-[All News Briefs](/DevNewsBriefs)
+[All News Briefs](/src/DevNewsBriefs/index.md)
 <br />
-[Distribution Summary 2014_04_14](/News/2014_04_14_Galaxy_Distribution)
+[Distribution Summary 2014_04_14](/src/News/2014_04_14_Galaxy_Distribution/index.md)
 
 <br />
 
@@ -209,8 +209,8 @@ Thanks to our Galaxy community contributors!
 <br /><a href='http://usegalaxy.org'><img src='/Images/Logos/galaxyLogoTrimmed.png' alt='Galaxy' height="50" /></a><br />**usegalaxy.org**</div>
 
 # Project Updates
-1. [/News](/News)
-1. [/Events](/Events)
+1. [/News](/src/News/index.md)
+1. [/Events](/src/Events/index.md)
 1. [Videos on Vimeo](https://vimeo.com/galaxyproject)
 1. *[April 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014_04)*
 1. *[March 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014_03)*
@@ -225,6 +225,6 @@ The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of the
 
 The *[public Main instance](/Main)* of **Galaxy** at **[http://usegalaxy.org](http://usegalaxy.org)** utilizes infrastructure generously provided by the **[iPlant Collaborative](http://www.iplantcollaborative.org/)** at the **[Texas Advanced Computing Center](https://www.tacc.utexas.edu/)**, with support from the **[National Science Foundation](http://www.nsf.gov/)**.
 
-Follow us on **Twitter [@galaxyproject](http://twitter.com/galaxyproject)** or read our tweets at **[Galaxy on Twitter](/GalaxyOnTwitter)**
+Follow us on **Twitter [@galaxyproject](http://twitter.com/galaxyproject)** or read our tweets at **[Galaxy on Twitter](/src/GalaxyOnTwitter/index.md)**
 
 Have a suggestion? Please see **[Using the Galaxy Issue Board](http://wiki.galaxyproject.org/Issues)**, and be sure to up vote the issues important to YOU.

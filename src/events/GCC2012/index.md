@@ -29,7 +29,7 @@ GCC 2012 is also an opportunity to:
 
 ## About Galaxy
 
-[Galaxy](http://galaxyproject.org) makes it easy to perform analysis interactively through the web, on arbitrarily large datasets. With hundreds of tools there are few limits on what can be done. Now with NGS tools & workflows for short-read mapping, ChIP-seq, RNA-seq, metagenomics, and pileup analysis (including numerous Illumina-, SOLiD-, and 454-specific tools), trackster browser, collaborative pages, and support for Galaxy in the Cloud. Galaxy is distributed under the [Academic Free License](/Admin/License). 
+[Galaxy](http://galaxyproject.org) makes it easy to perform analysis interactively through the web, on arbitrarily large datasets. With hundreds of tools there are few limits on what can be done. Now with NGS tools & workflows for short-read mapping, ChIP-seq, RNA-seq, metagenomics, and pileup analysis (including numerous Illumina-, SOLiD-, and 454-specific tools), trackster browser, collaborative pages, and support for Galaxy in the Cloud. Galaxy is distributed under the [Academic Free License](/src/Admin/License/index.md). 
 
 
 ## Sponsors

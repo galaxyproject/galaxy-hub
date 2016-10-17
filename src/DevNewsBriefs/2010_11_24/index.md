@@ -190,7 +190,7 @@ time, especially for data libraries having potentially large menu.
 ### About Galaxy 
 **Galaxy** is supported in part by **NSF**, **NHGRI**, the **Huck Institutes of the Life Sciences**, and **The Institute for !CyberScience at Penn State**.
 
-[Core Team](/GalaxyTeam)
+[Core Team](/src/GalaxyTeam/index.md)
 
 [Use Galaxy!](http://usegalaxy.org)
 

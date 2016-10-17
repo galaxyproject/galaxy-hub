@@ -21,7 +21,7 @@ title: Introduction to Galaxy
 
 **A workshop for the University of Maryland community
 
-Instructor: [Dave Clements](/DaveClements)
+Instructor: [Dave Clements](/src/DaveClements/index.md)
 
 1:30-5:00pm, April 11<br />
 Bioscience Research Building, Room 1103**

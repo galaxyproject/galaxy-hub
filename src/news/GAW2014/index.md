@@ -1,9 +1,9 @@
 ---
 date: 2014-01-17T19:05:44Z
 ---
-<div class='newsItemHeader'>[Galaxy Australasia Workshop 2014](/News/GAW2014)</div>
+<div class='newsItemHeader'>[Galaxy Australasia Workshop 2014](/src/News/GAW2014/index.md)</div>
 
-**The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](/Events/GAW2014) will be held in Melbourne, Australia on 24 and 25th March 2014.** 
+**The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](/src/Events/GAW2014/index.md) will be held in Melbourne, Australia on 24 and 25th March 2014.** 
 
 <div class='right'><a href='/Events/GAW2014'><img src='/Events/GAW2014/MCC.png' alt='Galaxy Australasia Workshop 2014' /></a></div>
 
@@ -43,7 +43,7 @@ Submissions should clearly state whether they are for: poster or oral presentati
 
 Looking forward to seeing you all in Melbourne!
 
-[GAW 2014 Organising Committee](/Events/GAW2014#organising-committee)
+[GAW 2014 Organising Committee](/src/Events/GAW2014/index.md#organising-committee)
 
 
 CategoryNews

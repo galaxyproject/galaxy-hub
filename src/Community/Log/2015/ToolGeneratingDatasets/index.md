@@ -9,7 +9,7 @@ title: 2015, /, 10, :,  , [Galaxy Tool Generating Dataset Collections](http://we
 
 
 <div class='logbox'>
- Topic:: **[Galaxy Tool Generating Datasets](/Community/Log/2015/ToolGeneratingDatasets)**
+ Topic:: **[Galaxy Tool Generating Datasets](/src/Community/Log/2015/ToolGeneratingDatasets/index.md)**
  Date:: 2015/10/21
  Who:: [Steve Cassidy](http://web.science.mq.edu.au/~cassidy/wordpress/about-steve-cassidy/)
  Resolution:: [How to generate dataset collections from a Galaxy tool](http://web.science.mq.edu.au/~cassidy/wordpress/2015/10/21/galaxy-tool-generating-datasets/)

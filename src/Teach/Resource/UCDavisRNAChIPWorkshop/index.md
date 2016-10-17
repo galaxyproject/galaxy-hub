@@ -10,7 +10,7 @@ title: [UC Davis RNA-Seq and ChIP-Seq Analysis with Galaxy Workshop](http://trai
 
 
 <div class='deploymentbox'>
- Resource:: **[UC Davis RNA-Seq and ChIP-Seq Analysis with Galaxy Workshop](/Teach/Resource/UCDavisRNAChIPWorkshop)**
+ Resource:: **[UC Davis RNA-Seq and ChIP-Seq Analysis with Galaxy Workshop](/src/Teach/Resource/UCDavisRNAChIPWorkshop/index.md)**
  Types:: Tutorial, Datasets, AMI
  Domains:: **Quality Control, RNA-Seq, ChIP-Seq** 
  Owners:: [UC Davis Bioinformatics Core](http://bioinformatics.ucdavis.edu/)

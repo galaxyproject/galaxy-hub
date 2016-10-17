@@ -1,1 +1,1 @@
-<div class='right'>![Europe](/Images/Icons/Europe40.png)</div>
+<div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div>

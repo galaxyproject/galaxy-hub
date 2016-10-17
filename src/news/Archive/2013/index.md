@@ -1,82 +1,82 @@
 <div class='linkbox'>
 **2013 News Items**
 ---
-[2013 Galaxy Day Report](/News/GalaxyDay2013Report)<br />
-[Galaxy Community Log Board](/News/CommunityLogBoard)<br />
-[ Galaxy Deployment Catalog](/News/GalaxyDeploymentCatalog)<br />
-[Nominate 2014 Training Day Topics](/News/GCC2014TDNominationsOpen)<br />
-[December 2013 Galaxy Update](/News/2013_12GalaxyUpdate)<br />
+[2013 Galaxy Day Report](/src/News/GalaxyDay2013Report/index.md)<br />
+[Galaxy Community Log Board](/src/News/CommunityLogBoard/index.md)<br />
+[ Galaxy Deployment Catalog](/src/News/GalaxyDeploymentCatalog/index.md)<br />
+[Nominate 2014 Training Day Topics](/src/News/GCC2014TDNominationsOpen/index.md)<br />
+[December 2013 Galaxy Update](/src/News/2013_12GalaxyUpdate/index.md)<br />
 ---
-[Nov 04, 2013 Galaxy Distribution](/News/2013_11_04_Galaxy_Distribution)<br />
+[Nov 04, 2013 Galaxy Distribution](/src/News/2013_11_04_Galaxy_Distribution/index.md)<br />
 ---
-[November 2013 Galaxy Update](/News/2013_11GalaxyUpdate)<br />
-[December Bioinformatics Boot Camps](/News/UCDavisBioinformaticsBootcamps)<br />
-[GCC2014: Save These Dates!](/News/GCC2014SaveTheseDates)<br />
-[Galaxy Day, 4 décembre à Paris](/News/GalaxyDayParis2013)<br />
+[November 2013 Galaxy Update](/src/News/2013_11GalaxyUpdate/index.md)<br />
+[December Bioinformatics Boot Camps](/src/News/UCDavisBioinformaticsBootcamps/index.md)<br />
+[GCC2014: Save These Dates!](/src/News/GCC2014SaveTheseDates/index.md)<br />
+[Galaxy Day, 4 décembre à Paris](/src/News/GalaxyDayParis2013/index.md)<br />
 ---
-[October 2013 Galaxy Update](/News/2013_10GalaxyUpdate)<br />
-[Galaxy Training in Boston](/News/Boston2013)<br />
-[South Africa Workshop Tour 2013](/News/SouthAfricaWorkshopTour2013)<br />
-[Computational Biology Position, Paris](/News/ComputationalBiologyParis)<br />
-[Statistical Genomics Post-Doc](/News/StatisticalGenomicsPostDocPennState)<br />
+[October 2013 Galaxy Update](/src/News/2013_10GalaxyUpdate/index.md)<br />
+[Galaxy Training in Boston](/src/News/Boston2013/index.md)<br />
+[South Africa Workshop Tour 2013](/src/News/SouthAfricaWorkshopTour2013/index.md)<br />
+[Computational Biology Position, Paris](/src/News/ComputationalBiologyParis/index.md)<br />
+[Statistical Genomics Post-Doc](/src/News/StatisticalGenomicsPostDocPennState/index.md)<br />
 ---
-[September 2013 Galaxy Update](/News/2013_09GalaxyUpdate)<br />
-[Aug 12, 2013 Galaxy Distribution](/News/2013_08_12_Galaxy_Distribution)<br />
-[ 2014 Galaxy Training Survey](/News/2014GalaxyTrainingSurvey)<br />
+[September 2013 Galaxy Update](/src/News/2013_09GalaxyUpdate/index.md)<br />
+[Aug 12, 2013 Galaxy Distribution](/src/News/2013_08_12_Galaxy_Distribution/index.md)<br />
+[ 2014 Galaxy Training Survey](/src/News/2014GalaxyTrainingSurvey/index.md)<br />
 ---
-[August 2013 Galaxy Update](/News/2013_08GalaxyUpdate)<br />
-[Galaxy Protoeomics Mailing List](/News/ProteomicsMailingList)<br />
-[New CloudMan Release](/News/CloudManRelease)<br />
-[SlipStream Appliance: Galaxy Edition](/News/SlipStreamAppliance)<br />
+[August 2013 Galaxy Update](/src/News/2013_08GalaxyUpdate/index.md)<br />
+[Galaxy Protoeomics Mailing List](/src/News/ProteomicsMailingList/index.md)<br />
+[New CloudMan Release](/src/News/CloudManRelease/index.md)<br />
+[SlipStream Appliance: Galaxy Edition](/src/News/SlipStreamAppliance/index.md)<br />
 ---
-[July 2013 Galaxy Update](/News/2013_07GalaxyUpdate)<br />
-[1000th Galaxy CiteULike Paper](/News/GalaxyCiteULikePaper1000)<br />
-[GCC2013 Registration Ends 14 June](/News/GCC2013Registration)<br />
-[June 3, 2013 Galaxy Distribution](/News/2013_06_03_Galaxy_Distribution)<br />
+[July 2013 Galaxy Update](/src/News/2013_07GalaxyUpdate/index.md)<br />
+[1000th Galaxy CiteULike Paper](/src/News/GalaxyCiteULikePaper1000/index.md)<br />
+[GCC2013 Registration Ends 14 June](/src/News/GCC2013Registration/index.md)<br />
+[June 3, 2013 Galaxy Distribution](/src/News/2013_06_03_Galaxy_Distribution/index.md)<br />
 ---
-[June 2013 Galaxy Update](/News/2013_06GalaxyUpdate)<br />
-[Software Carpentry Boot Camp: Oslo](/News/SoftwareCarpentryOslo)<br />
-[GCC2013 Early Registration Ends 24 May](/News/GCC2013EarlyRegistration)<br />
-[Duplicate Accounts on Main](/News/DuplicateAccountsOnMain)<br />
-[May 2013 GalaxyAdmins Meetup](/News/2013_05GalaxyAdmins)<br />
-[May 2013 Galaxy Update](/News/2013_05GalaxyUpdate)<br />
-[BioBlend Paper in Bioinformatics](/News/BioBlendPaper)<br />
+[June 2013 Galaxy Update](/src/News/2013_06GalaxyUpdate/index.md)<br />
+[Software Carpentry Boot Camp: Oslo](/src/News/SoftwareCarpentryOslo/index.md)<br />
+[GCC2013 Early Registration Ends 24 May](/src/News/GCC2013EarlyRegistration/index.md)<br />
+[Duplicate Accounts on Main](/src/News/DuplicateAccountsOnMain/index.md)<br />
+[May 2013 GalaxyAdmins Meetup](/src/News/2013_05GalaxyAdmins/index.md)<br />
+[May 2013 Galaxy Update](/src/News/2013_05GalaxyUpdate/index.md)<br />
+[BioBlend Paper in Bioinformatics](/src/News/BioBlendPaper/index.md)<br />
 ---
-[Environmental Metabolomics + Galaxy](/News/EnvironmentalMetabolomicsCollaboration)<br />
-[Galaxy @ ASMS 2013](/News/GalaxyAtASMS2013)<br />
-[April 8, 2013 Galaxy Security Release](/News/2013_04_08_Galaxy_Security_Release)<br />
-[GCC2013 & Galaxy GigaScience Series](/News/GigaScienceGalaxyCFP)<br />
-[April 2013 Galaxy Update](/News/2013_04GalaxyUpdate)<br />
-[April 1, 2013 Galaxy Distribution](/News/2013_04_01_Galaxy_Distribution)<br />
+[Environmental Metabolomics + Galaxy](/src/News/EnvironmentalMetabolomicsCollaboration/index.md)<br />
+[Galaxy @ ASMS 2013](/src/News/GalaxyAtASMS2013/index.md)<br />
+[April 8, 2013 Galaxy Security Release](/src/News/2013_04_08_Galaxy_Security_Release/index.md)<br />
+[GCC2013 & Galaxy GigaScience Series](/src/News/GigaScienceGalaxyCFP/index.md)<br />
+[April 2013 Galaxy Update](/src/News/2013_04GalaxyUpdate/index.md)<br />
+[April 1, 2013 Galaxy Distribution](/src/News/2013_04_01_Galaxy_Distribution/index.md)<br />
 ---
-[Galaxy LinkedIn Group](/News/GalaxyLinkedInGroupCreated)<br />
-[March 2013 GalaxyAdmins Meetup](/News/2013_03GalaxyAdmins)<br />
-[Main & Test ServerDowntime: 3/14](/News/GalaxyProectServersDown20130314)<br />
-[March 2013 Galaxy Update](/News/2013_03GalaxyUpdate)<br />
+[Galaxy LinkedIn Group](/src/News/GalaxyLinkedInGroupCreated/index.md)<br />
+[March 2013 GalaxyAdmins Meetup](/src/News/2013_03GalaxyAdmins/index.md)<br />
+[Main & Test ServerDowntime: 3/14](/src/News/GalaxyProectServersDown20130314/index.md)<br />
+[March 2013 Galaxy Update](/src/News/2013_03GalaxyUpdate/index.md)<br />
 ---
-[GCC2013 Abstract Submission & Registration](/News/GCC2013AbstractsAndRegistrationOpen)<br />
-[Galaxy, GMOD2013 & Biocuration 2013](/News/GalaxyGMODBiocuration2013)<br />
-[Feb 8, 2013 Galaxy Distribution & News Brief](/News/2013_02_08_GalaxyNewsBrief)<br />
-[February 2013 Galaxy Update](/News/2013_02GalaxyUpdate)<br />
+[GCC2013 Abstract Submission & Registration](/src/News/GCC2013AbstractsAndRegistrationOpen/index.md)<br />
+[Galaxy, GMOD2013 & Biocuration 2013](/src/News/GalaxyGMODBiocuration2013/index.md)<br />
+[Feb 8, 2013 Galaxy Distribution & News Brief](/src/News/2013_02_08_GalaxyNewsBrief/index.md)<br />
+[February 2013 Galaxy Update](/src/News/2013_02GalaxyUpdate/index.md)<br />
 ---
-[GCC2013 Training Day Topics: Vote!](/News/GCC2013TrainingDayVote)<br />
-[Galaxy Project Openings](/News/GalaxyProjectOpenings)<br />
-[Jan 11, 2013 Distribution & News Brief](/News/2013_01_11_DistributionNewsBrief)<br />
-[January 2013 GalaxyAdmins](/News/2013_01GalaxyAdmins)<br />
-[ January 2013 Galaxy Update](/News/2013_01GalaxyUpdate)<br />
+[GCC2013 Training Day Topics: Vote!](/src/News/GCC2013TrainingDayVote/index.md)<br />
+[Galaxy Project Openings](/src/News/GalaxyProjectOpenings/index.md)<br />
+[Jan 11, 2013 Distribution & News Brief](/src/News/2013_01_11_DistributionNewsBrief/index.md)<br />
+[January 2013 GalaxyAdmins](/src/News/2013_01GalaxyAdmins/index.md)<br />
+[ January 2013 Galaxy Update](/src/News/2013_01GalaxyUpdate/index.md)<br />
 </div>
 PLACEHOLDER_INCLUDE(/News/Archive/LinkBox)
 
 # 2013 News Item Archive
 
-[News items](/News) that have were posted to the [Galaxy News page/feed](/News) in 2013.
+[News items](/src/News/index.md) that have were posted to the [Galaxy News page/feed](/src/News/index.md) in 2013.
 
 See also 
-* [/News](/News) - Current News
-* [Galaxy Updates](/GalaxyUpdates)
-* [Galaxy Development News Briefs](/DevNewsBriefs)
-* [Galaxy on Twitter](/GalaxyOnTwitter)
-* [Mailing Lists](/MailingLists)
+* [/News](/src/News/index.md) - Current News
+* [Galaxy Updates](/src/GalaxyUpdates/index.md)
+* [Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)
+* [Galaxy on Twitter](/src/GalaxyOnTwitter/index.md)
+* [Mailing Lists](/src/MailingLists/index.md)
 
 <div class='newsItemList'>
  

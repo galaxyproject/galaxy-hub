@@ -3,7 +3,7 @@ date: 2011-10-26T03:51:28Z
 ---
 <div class='newsItemHeader'>[October 25, 2011 Distribution & News Brief](/News/Oct 2011 Distribution News Brief)</div>
 
-**Complete [News Brief](/DevNewsBriefs/2011_10_25)**
+**Complete [News Brief](/src/DevNewsBriefs/2011_10_25/index.md)**
 
 **Highlights:**
 
@@ -23,7 +23,7 @@ upgrade: % hg pull -u -r 338ead4737ba
 
 **Thanks for using Galaxy!**
 
-[Jennifer Jackson](/JenniferJackson)
+[Jennifer Jackson](/src/JenniferJackson/index.md)
 
 [/Galaxy Team](/Galaxy Team)
 

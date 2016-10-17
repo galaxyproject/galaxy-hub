@@ -11,7 +11,7 @@ This, along with [/Citing Galaxy](/Citing Galaxy), are two easy things that can 
 
 Thanks,
 
-[Dave Clements](/DaveClements)
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2011-08-19T20:38:58Z)>></div>
+[Dave Clements](/src/DaveClements/index.md)
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on <<Date(2011-08-19T20:38:58Z)>></div>
 
 CategoryNews

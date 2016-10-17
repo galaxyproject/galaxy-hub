@@ -1,7 +1,7 @@
 ---
 date: 2014-09-30T07:01:50Z
 ---
-<div class='newsItemHeader'>[2014 Galaxy Questionnaires](/News/2014Questionnaire)</div>
+<div class='newsItemHeader'>[2014 Galaxy Questionnaires](/src/News/2014Questionnaire/index.md)</div>
 
 The Galaxy Project is preparing for our next grant cycle and we are seeking your feedback and comments on on all things Galaxy.  We have created two questionnaires, each focused on how you interact with Galaxy:
 **
@@ -15,7 +15,7 @@ Please take a few minutes and fill out whichever surveys apply to you.  The ques
 
 Let your voice be heard!
 
-[The Galaxy Team](/GalaxyTeam)
+[The Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

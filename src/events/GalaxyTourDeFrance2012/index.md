@@ -1,7 +1,7 @@
 ---
 title: Galaxy Tour de France 2012
 ---
-<div class='center'>![Galaxy Tour de France 2012](/Images/Logos/GalaxyTourDeFranceMap.png)</div>
+<div class='center'>![Galaxy Tour de France 2012](/src/Images/Logos/GalaxyTourDeFranceMap.png)</div>
 
 
 
@@ -96,7 +96,7 @@ If you attend both workshops and plan to eat in the area, there are many choices
 * Basic concepts: interface, histories, workflows
 * Analysis of NGS data: polymorphism discovery, ChIP-seq. RNA-seq
 * Using your own instance on the Cloud
-* Publishing supplemental results with [Galaxy Pages](/Learn/GalaxyPages)
+* Publishing supplemental results with [Galaxy Pages](/src/Learn/GalaxyPages/index.md)
 
 ## Galaxy for Developers
 
@@ -112,9 +112,9 @@ If you attend both workshops and plan to eat in the area, there are many choices
 
 <div class='right'><a href='/nate'><img src='/GalaxyTeam/nate.jpg' alt='Nate Coraor!' height="75" /></a> &nbsp; <a href='/nate'><img src='/GalaxyTeam/anton.jpg' alt='Anton Nekrutenko!' height="75" /></a> &nbsp; <a href='/nate'><img src='/GalaxyTeam/james.jpg' alt='James Taylor!' height="75" /></a></div> 
 
-* [Nate Coraor](/nate)
-* [Anton Nekrutenko](/anton)
-* [James Taylor](/JamesTaylor)
+* [Nate Coraor](/src/nate/index.md)
+* [Anton Nekrutenko](/src/anton/index.md)
+* [James Taylor](/src/JamesTaylor/index.md)
 
 ## Sponsors
 

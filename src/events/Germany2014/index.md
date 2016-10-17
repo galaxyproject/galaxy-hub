@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/Events/SG2014/LinkBox)
 
 
 
-In addition to the [2nd Swiss Galaxy Workshop](/Events/Switzerland2014), we will organize a Galaxy Developer Workshop in Freiburg.
+In addition to the [2nd Swiss Galaxy Workshop](/src/Events/Switzerland2014/index.md), we will organize a Galaxy Developer Workshop in Freiburg.
 
 ## Preliminary Schedule
 
@@ -36,4 +36,4 @@ We have created a [small map of places to find food and drinks](https://mapsengi
 
 
 ## Questions?
-Contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/BjoernGruening)
+Contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/src/BjoernGruening/index.md)

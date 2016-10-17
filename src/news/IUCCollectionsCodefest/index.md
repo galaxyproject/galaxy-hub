@@ -1,7 +1,7 @@
 ---
 date: 2015-09-29T21:20:49Z
 ---
-<div class='newsItemHeader'>[First Online IUC Codefest](/News/IUCCollectionsCodefest)</div>
+<div class='newsItemHeader'>[First Online IUC Codefest](/src/News/IUCCollectionsCodefest/index.md)</div>
 
 <div class='right'><a href='https://github.com/galaxyproject/tools-iuc/issues/239'><img src='/Images/Icons/DatasetCollectionIconInForm.png' alt='' width="150" /></a>
 </div>
@@ -17,7 +17,7 @@ which the IUC would like to repeat more often.
 A list of all awesome contributions from all participants is given below.
 
 Tools:
-* Swap all repeats to multiple='True' where appropriate by [Eric Rasche](/EricRasche) (@erasche)
+* Swap all repeats to multiple='True' where appropriate by [Eric Rasche](/src/EricRasche/index.md) (@erasche)
   * https://github.com/galaxyproject/tools-iuc/pull/276
   * https://github.com/bgruening/galaxytools/issues/246
   * https://github.com/galaxyproject/tools-devteam/issues/226
@@ -36,7 +36,7 @@ Tools:
 
 We hope you all will enjoy the outcome of this Codefest and hope to see you at our next Codefest, stay tuned.
 
-[Your IUC](/IUC)
+[Your IUC](/src/IUC/index.md)
 
 
 CategoryNews

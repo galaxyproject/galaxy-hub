@@ -49,7 +49,7 @@ Wait until "First Run" is finished and press "Continue":
 ![](http://i.imgur.com/ikOX0ah.png)
 ![](http://i.imgur.com/QsEiUs1.png)
 
-System is now ready and  [Cloudgene](/CloudMan/Services/Cloudgene) can be started (from the CloudMan Admin page):
+System is now ready and  [Cloudgene](/src/CloudMan/Services/Cloudgene/index.md) can be started (from the CloudMan Admin page):
 ![](http://i.imgur.com/SirnrWl.png)
 
 This is a default dashboard view for the Cloudera Manager. 

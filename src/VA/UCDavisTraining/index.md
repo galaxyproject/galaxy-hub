@@ -1,5 +1,5 @@
 ---
-title: [UC Davis Bioinformatics Core Training Galaxy](/Teach/Resource/UCDavisCoreAMI)
+title: [UC Davis Bioinformatics Core Training Galaxy](/src/Teach/Resource/UCDavisCoreAMI/index.md)
 ---
 <div class='center'>
 <a href='/Teach/Resource/UCDavisCoreAMI'><img src='/Images/Logos/UCDavisGenomeCenter.png' alt='UC Davis Bioinformatics Core Training Galaxy' width="350" /></a>
@@ -10,8 +10,8 @@ title: [UC Davis Bioinformatics Core Training Galaxy](/Teach/Resource/UCDavisCor
 
 
 <div class='dictbox'>
- Appliance:: **[UC Davis Bioinformatics Core Training Galaxy](/VA/UCDavisTraining)**
- Technology:: **[AMI](/VirtualAppliances#cloud-images)**
+ Appliance:: **[UC Davis Bioinformatics Core Training Galaxy](/src/VA/UCDavisTraining/index.md)**
+ Technology:: **[AMI](/src/VirtualAppliances/index.md#cloud-images)**
  Domains:: **Training** 
  Description:: Includes all needed tools and datasets for a weeklong workshop.
  Owners:: [UC Davis Bioinformatics Core](http://bioinformatics.ucdavis.edu/)
@@ -22,7 +22,7 @@ This AMI (**ami-ab010aee**)was created for the [RNA-Seq and ChIP-Seq Analysis wi
 
 ## Links
 
-* [UC Davis Bioinformatics Core Training Galaxy AMI](/Teach/Resource/UCDavisCoreAMI)
+* [UC Davis Bioinformatics Core Training Galaxy AMI](/src/Teach/Resource/UCDavisCoreAMI/index.md)
 * [Workshop Documentation](http://training.bioinformatics.ucdavis.edu/docs/2014/12/december-2014-workshop/)
 
 

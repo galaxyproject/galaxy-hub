@@ -14,6 +14,6 @@ This, along with [/Citing Galaxy](/Citing Galaxy), are two easy things that can 
 
 Thanks,
 
-[Dave Clements](/DaveClements)
+[Dave Clements](/src/DaveClements/index.md)
 
 CategoryNews

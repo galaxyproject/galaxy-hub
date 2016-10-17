@@ -9,7 +9,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
 
 *Save 55% off Training Day registration when you register for it and the meeting at the same time.* 
 
-Our goal is to have registration be downright affordable, and to make early registration *outrageously* affordable for students and postdocs, with combined *on-time* registration ([Training Day](/Events/GCC2013/TrainingDay) + main meeting) starting at ~ €165.  Registering now also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.
+Our goal is to have registration be downright affordable, and to make early registration *outrageously* affordable for students and postdocs, with combined *on-time* registration ([Training Day](/src/Events/GCC2013/TrainingDay/index.md) + main meeting) starting at ~ €165.  Registering now also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.
 
 <div class='left'><a href='../TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='Training Day' height="60" /></a></div>
 

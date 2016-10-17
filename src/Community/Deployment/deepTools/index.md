@@ -10,10 +10,10 @@ title: [deepTools](http://deeptools.ie-freiburg.mpg.de/)
 
 
 <div class='deploymentbox'>
- Deployment:: **[deepTools](/Community/Deployment/deepTools)**
+ Deployment:: **[deepTools](/src/Community/Deployment/deepTools/index.md)**
  Domain:: Tools for the visualization, quality control and normalization of data from high-throughput DNA sequencing experiments.
  Owners:: [Bioinformatics](http://www.ie-freiburg.mpg.de/bioinformaticsfac) and [Deep-Sequencing](http://www.ie-freiburg.mpg.de/deepfac) Units at the [Max Planck Institute for Immunobiology and Epigenetics](http://www3.ie-freiburg.mpg.de/).
- Audience:: [Publicly accessible](/PublicGalaxyServers). 
+ Audience:: [Publicly accessible](/src/PublicGalaxyServers/index.md). 
  User Base:: Unknown
  Server Topology:: Standalone server
  Compute:: 16 processors 
@@ -102,8 +102,8 @@ See [this NAR supplement](http://nar.oxfordjournals.org/content/suppl/2014/05/05
 
 ## Links
 
-* [deepTools entry](/PublicGalaxyServers#deeptools) in the [Public Galaxy Server list](/PublicGalaxyServers)
+* [deepTools entry](/PublicGalaxyServers#deeptools) in the [Public Galaxy Server list](/src/PublicGalaxyServers/index.md)
 * [deepTools home page at GitHub](http://deeptools.github.io/)
 * Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, and Thomas Manke. [deepTools: a flexible platform for exploring deep-sequencing data](http://nar.oxfordjournals.org/cgi/content/abstract/gku365) *Nucl. Acids Res.* first published online May 5, 2014 doi:10.1093/nar/gku365
-* *[deepTools: a flexible platform for exploring deep-sequencing data](/Events/GCC2014/Abstracts/Talks#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/Events/GCC2014)
+* *[deepTools: a flexible platform for exploring deep-sequencing data](/Events/GCC2014/Abstracts/Talks#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/src/Events/GCC2014/index.md)
 CategoryDeployment

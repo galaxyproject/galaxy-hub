@@ -1,7 +1,7 @@
 ---
 title: May 2015 Penn State RNA, -, Seq Galaxy Workshop
 ---
-<div class='center'>![Galaxy Meetup @ Penn State](/Events/Meetups/PSU/PSUMeetupLogo600.png)</div>
+<div class='center'>![Galaxy Meetup @ Penn State](/src/Events/Meetups/PSU/PSUMeetupLogo600.png)</div>
 
 
 
@@ -12,9 +12,9 @@ title: May 2015 Penn State RNA, -, Seq Galaxy Workshop
 Hey Everyone,
 
 This meeting is open to anyone interested in RNA-Seq analysis and biology workflows.
-[Anton Nekrutenko](/anton) of the [Galaxy team](/GalaxyTeam) will be delivering an introduction to RNA-Seq resources available at Galaxy from a practitioner's viewpoint. 
+[Anton Nekrutenko](/anton) of the [Galaxy team](/src/GalaxyTeam/index.md) will be delivering an introduction to RNA-Seq resources available at Galaxy from a practitioner's viewpoint. 
 
-[Galaxy Team members](/GalaxyTeam) will be available for any additional questions.
+[Galaxy Team members](/src/GalaxyTeam/index.md) will be available for any additional questions.
 
 Thanks and hope to see you there!
 

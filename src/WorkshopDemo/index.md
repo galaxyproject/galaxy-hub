@@ -1,6 +1,6 @@
 # Cloud Computing for the Microbiome Workshop Notes
 
-Comprehensive documentation can be found at [/CloudMan](/CloudMan).
+Comprehensive documentation can be found at [/CloudMan](/src/CloudMan/index.md).
 
 #### Quick start
 Start at [Galaxy Cloud Launch](https://main.g2.bx.psu.edu/cloudlaunch )
@@ -30,7 +30,7 @@ At this point, just wait a few seconds and you're ready to go when the "Access G
 
 Documentation covering Galaxy Data Libraries can be found at [/Admin/DataLibraries/Libraries](/Admin/DataLibraries/Libraries)
 
-Specific documentation covering options for uploading to be libraries can be found at [/Admin/DataLibraries/UploadingLibraryFiles](/Admin/DataLibraries/UploadingLibraryFiles)
+Specific documentation covering options for uploading to be libraries can be found at [/Admin/DataLibraries/UploadingLibraryFiles](/src/Admin/DataLibraries/UploadingLibraryFiles/index.md)
 
 This currently requires creating a volume from the AWS Console and mounting via the instance's shell (via ssh).
 

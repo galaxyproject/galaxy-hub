@@ -1,7 +1,7 @@
 ---
 date: 2014-02-10T16:07:49Z
 ---
-<div class='newsItemHeader'>[Feb 10, 2014 Galaxy Distribution](/News/2014_02_10_Galaxy_Distribution)</div>
+<div class='newsItemHeader'>[Feb 10, 2014 Galaxy Distribution](/src/News/2014_02_10_Galaxy_Distribution/index.md)</div>
 
 <div class='right'>
 <a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2014_02_10_trackster-css.png' alt='Trackster' width="400" /></a><br />*Trackster*</div>
@@ -34,7 +34,7 @@ upgrade:   $ hg pull
 
 *Thanks for using Galaxy!*
 
-[The Galaxy Team](/GalaxyTeam)
+[The Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

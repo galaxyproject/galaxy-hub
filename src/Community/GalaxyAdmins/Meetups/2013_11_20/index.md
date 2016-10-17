@@ -29,13 +29,13 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 
 <br />
-Dave and Srinivas will lead a discussion following up on the issues that were raised at the [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/Events/GCC2013/BoF/GalaxyAdmins).
+Dave and Srinivas will lead a discussion following up on the issues that were raised at the [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md).
 
 [Nate Coraor](/nate) will also discuss the recent move of [usegalaxy.org](http://usegalaxy.org) from Penn State to TACC.
 
 ## GCC2013 Followup
 
-The [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/Events/GCC2013/BoF/GalaxyAdmins) was well-attended and resulted in a number of suggestions for the group moving forward.  One of those suggestions was to spend the next call on followup, so that's what we are doing.
+The [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md) was well-attended and resulted in a number of suggestions for the group moving forward.  One of those suggestions was to spend the next call on followup, so that's what we are doing.
 
 ### Reference / Wiki
 
@@ -47,14 +47,14 @@ Action items from BoF:
 
 Draft implementations of the first two are in place:
 
-* [/Community/Deployments](/Community/Deployments) hub page
-* [/Community/Logs](/Community/Logs) hub page
+* [/Community/Deployments](/src/Community/Deployments/index.md) hub page
+* [/Community/Logs](/src/Community/Logs/index.md) hub page
 
 What do people think of this approach?  The use of *boxes* on the right side is used to create much more informative lists of deployments and logs on their hub pages, using the [http://moinmo.in/MacroMarket/DictColumns](http://moinmo.in/MacroMarket/DictColumns) macro.
 
 ### Mailing Lists / Forums
 
-Decided against creating a separate GalaxyAdmins mailing list.  See [BoF page](/Events/GCC2013/BoF/GalaxyAdmins#mailing-lists--forums) for details.
+Decided against creating a separate GalaxyAdmins mailing list.  See [BoF page](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md#mailing-lists--forums) for details.
 
 ### Meetups
 

@@ -1,7 +1,7 @@
 ---
 date: 2014-10-30T15:19:38Z
 ---
-<div class='newsItemHeader'>[Bioinformaticians, Freiburg](/News/BioinformaticianFreiburg2014)</div>
+<div class='newsItemHeader'>[Bioinformaticians, Freiburg](/src/News/BioinformaticianFreiburg2014/index.md)</div>
 
 ---
 
@@ -49,7 +49,7 @@ Our lab is located in Freiburg, a beautiful university city in the south
 west of Germany with the Black Forest, France and Switzerland just
 around the corner and excellent research facilities all over the city.
 
-Please contact [Bjoern Gruening](/BjoernGruening) for further details.
+Please contact [Bjoern Gruening](/src/BjoernGruening/index.md) for further details.
 
 
 CategoryNews

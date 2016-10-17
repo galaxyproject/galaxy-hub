@@ -77,7 +77,7 @@ There are three categories of repository dependencies which will be discussed in
   * `Turkey Dec. 2009 (TGC Turkey_2.01/melGal1)`
   * `X. tropicalis Nov. 2009 (JGI 4.2/xenTro3) (xenTro3)`
 2. #2 Additional genomes, indexes, and related datasets will continue to be published over the next several weeks and highlights will appear in subsequent News Briefs.
-3. #3 The genome "`Yeast (Saccharomyces cerevisiae): Saccharomyces_cerevisiae_S288C_SGD2010`" has been discovered to be mislabeled, representing the Apr. 2011 release from SGD (not Feb. 2010), which makes it identical to the "`sacCer3`" genome from UCSC. This genome will be redacted on the [/Main](/Main) server and users should migrate to using the "`sacCer3`" genome build as the alternative. Any chromosome naming issues associated with the `Saccharomyces_cerevisiae_S288C_SGD2010 build` (due to names of format "chr3" instead of the author published "chrIII") will also be resolved by migrating to this new, correct, reference genome build.
+3. #3 The genome "`Yeast (Saccharomyces cerevisiae): Saccharomyces_cerevisiae_S288C_SGD2010`" has been discovered to be mislabeled, representing the Apr. 2011 release from SGD (not Feb. 2010), which makes it identical to the "`sacCer3`" genome from UCSC. This genome will be redacted on the [/Main](/src/Main/index.md) server and users should migrate to using the "`sacCer3`" genome build as the alternative. Any chromosome naming issues associated with the `Saccharomyces_cerevisiae_S288C_SGD2010 build` (due to names of format "chr3" instead of the author published "chrIII") will also be resolved by migrating to this new, correct, reference genome build.
 
 <br />
 # Visualization

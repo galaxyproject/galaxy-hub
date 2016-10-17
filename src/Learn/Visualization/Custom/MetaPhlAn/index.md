@@ -6,7 +6,7 @@ title: !, MetaPhlAn
 
 
 <div class='deploymentbox'>
- Resource:: **[MetaPhlAn](/Learn/Visualization/Custom/MetaPhlAn)**
+ Resource:: **[MetaPhlAn](/src/Learn/Visualization/Custom/MetaPhlAn/index.md)**
  Type:: Public
  Domain:: NGS, Visualization
  Formats:: Sequence file (.fasta, .fastq, .tar.bz2 etc.)

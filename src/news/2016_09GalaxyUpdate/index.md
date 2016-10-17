@@ -1,30 +1,30 @@
 ---
 date: 2016-09-06T05:06:14Z
 ---
-<div class='newsItemHeader'>[September 2016 Galactic News](/News/2016_09GalaxyUpdate)</div>
+<div class='newsItemHeader'>[September 2016 Galactic News](/src/News/2016_09GalaxyUpdate/index.md)</div>
 
 <div class='right'>
 <a href='/GalaxyUpdates/2016_09'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=140 /></a><br /><br />
 <a href='/GalaxyUpdates/2016_09#galaxy-admin-training-november-7-11-salt-lake-city-utah'><img src='/Images/Logos/AdminTraining2016-500.png' alt='Galaxy Project Admin Training' width="140" /></a>
 </div>
 
-The **[September Galaxy News](/GalaxyUpdates/2016_09) is out:**
+The **[September Galaxy News](/src/GalaxyUpdates/2016_09/index.md) is out:**
 
-* **[Galaxy Admin Training early registration ends September 19](/GalaxyUpdates/2016_09#galaxy-admin-training-november-7-11-salt-lake-city-utah)**
-* **[Swiss-German Galaxy Days: 20-21 October](/GalaxyUpdates/2016_09#swiss-german-galaxy-days)** 
-* [Other Upcoming Events](/GalaxyUpdates/2016_09#other-upcoming-events)
-* [GCC2016 presentations and training are on the Galaxy F1000 channel](/GalaxyUpdates/2016_09#gcc2016-talks-posters-and-training-slides-are-on-the-f1000research-galaxy-channel)
-* [75 new Papers](/GalaxyUpdates/2016_09#new-papers)
-* [Open positions](/GalaxyUpdates/2016_09#whos-hiring)
-* [Two new public Galaxy servers](/GalaxyUpdates/2016_09#public-galaxy-server-news)
-* [RNAcommender](/GalaxyUpdates/2016_09#galaxy-community-hubs)
-* New [releases](/GalaxyUpdates/2016_09#releases):
-  * [Galaxy v16.07](/GalaxyUpdates/2016_09#galaxy-v1607)
-  * [CloudBridge](/GalaxyUpdates/2016_09#cloudbridge-011), [Planemo](/GalaxyUpdates/2016_09#planemo-0280---0291), [Pulsar](/GalaxyUpdates/2016_09#pulsar-071---072), [BioBlend](/GalaxyUpdates/2016_09#bioblend-080) and [galaxy-lib](/GalaxyUpdates/2016_09#galaxy-lib-16710---16100)
-* [TooShed Contributions](/GalaxyUpdates/2016_09#toolshed-contributions)
-* And [other news](/GalaxyUpdates/2016_09#other-news) too.
+* **[Galaxy Admin Training early registration ends September 19](/src/GalaxyUpdates/2016_09/index.md#galaxy-admin-training-november-7-11-salt-lake-city-utah)**
+* **[Swiss-German Galaxy Days: 20-21 October](/src/GalaxyUpdates/2016_09/index.md#swiss-german-galaxy-days)** 
+* [Other Upcoming Events](/src/GalaxyUpdates/2016_09/index.md#other-upcoming-events)
+* [GCC2016 presentations and training are on the Galaxy F1000 channel](/src/GalaxyUpdates/2016_09/index.md#gcc2016-talks-posters-and-training-slides-are-on-the-f1000research-galaxy-channel)
+* [75 new Papers](/src/GalaxyUpdates/2016_09/index.md#new-papers)
+* [Open positions](/src/GalaxyUpdates/2016_09/index.md#whos-hiring)
+* [Two new public Galaxy servers](/src/GalaxyUpdates/2016_09/index.md#public-galaxy-server-news)
+* [RNAcommender](/src/GalaxyUpdates/2016_09/index.md#galaxy-community-hubs)
+* New [releases](/src/GalaxyUpdates/2016_09/index.md#releases):
+  * [Galaxy v16.07](/src/GalaxyUpdates/2016_09/index.md#galaxy-v1607)
+  * [CloudBridge](/GalaxyUpdates/2016_09#cloudbridge-011), [Planemo](/GalaxyUpdates/2016_09#planemo-0280---0291), [Pulsar](/GalaxyUpdates/2016_09#pulsar-071---072), [BioBlend](/GalaxyUpdates/2016_09#bioblend-080) and [galaxy-lib](/src/GalaxyUpdates/2016_09/index.md#galaxy-lib-16710---16100)
+* [TooShed Contributions](/src/GalaxyUpdates/2016_09/index.md#toolshed-contributions)
+* And [other news](/src/GalaxyUpdates/2016_09/index.md#other-news) too.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
+[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

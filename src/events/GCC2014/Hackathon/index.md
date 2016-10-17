@@ -6,7 +6,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
 <br /><br />
 
-<div class='left'>![GCC2014 Hackathon](/Images/Logos/GCC2014HackLogo200.png)</div>
+<div class='left'>![GCC2014 Hackathon](/src/Images/Logos/GCC2014HackLogo200.png)</div>
 
 PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
@@ -49,7 +49,7 @@ Hackathons are self-organizing events and attempts to impose anything as detaile
 
 <div class='right'><br /><a href='http://gmod.org/wiki/GMOD_Evo_Hackathon'><img src='/HackLaptops.jpg' alt='Hacking at a NESCent/GMOD Hackathon' /></a></div>
 
-The hackathon is "officially" scheduled for three days, starting on Saturday, June 28.  The first two days will happen in the Taylor Lab at Johns Hopkins.  The last "official" day overlaps with the [Training Day](/Events/GCC2014/TrainingDay) and we haven't yet decided if that will happen in the Taylor Lab or at the conference venue.  Our hope is that hackathoners will be able to slip in out during this day.
+The hackathon is "officially" scheduled for three days, starting on Saturday, June 28.  The first two days will happen in the Taylor Lab at Johns Hopkins.  The last "official" day overlaps with the [Training Day](/src/Events/GCC2014/TrainingDay/index.md) and we haven't yet decided if that will happen in the Taylor Lab or at the conference venue.  Our hope is that hackathoners will be able to slip in out during this day.
 
 We keep putting *official* in quotes because our hope is that activity will continue throughout the conference *and afterward as well.*  If you have experience with hackathons you know that followup is often a challenge.  The project will do all it can to support followup efforts.  We very much want to make sure that the efforts from this hackathon make it into the code.
 
@@ -111,7 +111,7 @@ We'll meet at the Taylor Lab.
 
 ### Day 2: Monday, June 30
 
-We will meet at the Taylor Lab or at the conference venue.  The [GCC2014 Training Day](/Events/GCC2013/TrainingDay) starts today, and so do conference meals.  We aren't yet sure if there will be one place for participants to meet or if teams will be distributed around the venue.
+We will meet at the Taylor Lab or at the conference venue.  The [GCC2014 Training Day](/src/Events/GCC2013/TrainingDay/index.md) starts today, and so do conference meals.  We aren't yet sure if there will be one place for participants to meet or if teams will be distributed around the venue.
 
 There is **probably** no formal hackathon schedule for today other than a single evening meeting at which everyone presents their work so far.  During the day, teams will meet according to their own agreements and continue work.
 
@@ -152,17 +152,17 @@ is the exclusive Peta level Hackathon sponsor </span>
 </div>
 
 <br /><br />
-There are still several *Giga-level* sponsorships available.  If you are interested in sponsoring this event, please [contact the organizers](/Events/GCC2014/Organizers#hackathon-committee).
+There are still several *Giga-level* sponsorships available.  If you are interested in sponsoring this event, please [contact the organizers](/src/Events/GCC2014/Organizers/index.md#hackathon-committee).
 
 <br /><br />
 
 # Twitter Hashtag
 
-Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitter hashtag](/GalaxyOnTwitter) for the Hackathon, and anything else related to GCC2014.
+Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitter hashtag](/src/GalaxyOnTwitter/index.md) for the Hackathon, and anything else related to GCC2014.
 
 # Is this part of GCC2014?
 
-Mostly yes, but, there is a separate registration process, and a separate [organizing committee](/Events/GCC2014/Organizers#hackathon-committee).  
+Mostly yes, but, there is a separate registration process, and a separate [organizing committee](/src/Events/GCC2014/Organizers/index.md#hackathon-committee).  
 
 
 PLACEHOLDER_INCLUDE(/Events/GCC2014/Footer)

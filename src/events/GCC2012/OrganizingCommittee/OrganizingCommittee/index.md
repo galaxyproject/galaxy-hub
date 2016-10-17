@@ -1,5 +1,5 @@
 ---
-title: [GCC2012](/Events/GCC2012),  Organizing Committee
+title: [GCC2012](/src/Events/GCC2012/index.md),  Organizing Committee
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 
@@ -9,7 +9,7 @@ PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
 
  **Neil Bahroos**
    [University of Illinois at Chicago (UIC)](http://www/uic.edu/)<br /><br />
- **[Dave Clements](/DaveClements)**
+ **[Dave Clements](/src/DaveClements/index.md)**
    [Emory University](/Community/Emory University)<br /><br />
  **[Christopher Fields](http://www.bioperl.org/wiki/User:Cjfields)**
    [University of Illinois at Urbana-Champaign](http://www.illinois.edu/)<br /><br />

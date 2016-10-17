@@ -1,7 +1,7 @@
 ### Tool Development Resources
 
-* [A somewhat complete description](/Admin/Tools/ToolConfigSyntax) of tags used for in tool XML files.
-* A place to share your tools with the community: the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) - more information on [publishing tools to the ToolShed](/ToolShed).
+* [A somewhat complete description](/src/Admin/Tools/ToolConfigSyntax/index.md) of tags used for in tool XML files.
+* A place to share your tools with the community: the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) - more information on [publishing tools to the ToolShed](/src/ToolShed/index.md).
 * [Planemo|](https://planemo.readthedocs.org/en/latest/) a CLI tool to assist tool developer - easily lint, test, and preview your tools. ([Quick Start](https://planemo.readthedocs.org/en/latest/readme.html#quick-start), [Planemo on Github](https://github.com/galaxyproject/planemo))
 * [Tool Development Training Materials](https://github.com/Public-Health-Bioinformatics/galaxy-tool-tutorials) - from Hsiao lab, BC Public Health Microbiology & Reference Laboratory, BC Centre for Disease Control. 
   * [Tool Development Slides (PDF)](https://github.com/Public-Health-Bioinformatics/galaxy-tool-tutorials/blob/master/Galaxy%20Tool%20Development.pdf?raw=true)
@@ -10,9 +10,9 @@
 * [What to do](/Future/Job Failure When stderr) if Galaxy incorrectly reports that your tool failed to execute
 * [Best Practices](https://galaxy-iuc-standards.readthedocs.org/) for Tool Development
 * Discussions on [consuming](http://bit.ly/gcc2014workflows) and [producing](https://bitbucket.org/galaxy/galaxy-central/pull-request/634/allow-tools-to-explicitly-produce-dataset) collections of datasets in tools. 
-* [A discussion](/Admin/Tools/MultipleOutputFiles) on outputing multiple individual datasets
-* [Tips on writing secure tools](/Develop/SecurityToolTips).
-* [Managing tools](/Admin/Tools) from a Galaxy administrator perspective.
+* [A discussion](/src/Admin/Tools/MultipleOutputFiles/index.md) on outputing multiple individual datasets
+* [Tips on writing secure tools](/src/Develop/SecurityToolTips/index.md).
+* [Managing tools](/src/Admin/Tools/index.md) from a Galaxy administrator perspective.
 * Tool conversion and generation efforts:
   * A tool interface generator is maintained at [http://cli-mate.lumc.nl](http://cli-mate.lumc.nl). 
   * [gxargparse](https://github.com/erasche/gxargparse) - a drop in replacement of Python's argparse to generate Galaxy tools by Eric Rasche.

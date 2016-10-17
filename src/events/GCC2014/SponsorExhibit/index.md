@@ -13,7 +13,7 @@ If your organization is interested in participating in [GCC2014](../) as a spons
 
 ## About GCC2014
 
-The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering. GCC2014 will be the fifth annual meeting. Attendance has increased every year, and [GCC2012](/Events/GCC2012) and [GCC2013](/Events/GCC2013) both had over 200 registration each.  Participants are mainly:
+The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering. GCC2014 will be the fifth annual meeting. Attendance has increased every year, and [GCC2012](/Events/GCC2012) and [GCC2013](/src/Events/GCC2013/index.md) both had over 200 registration each.  Participants are mainly:
 * Sequencing core facility staff
 * Bioinformatics core staff
 * Bioinformatics tool and workflow developers
@@ -120,12 +120,12 @@ Sponsorships are available at four different levels.
 
 <div class='center'>
 <a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo1280.jpg' alt='Amazon Web Services' width="250" /></a><br />
-**[Training Day](/Events/GCC2014/TrainingDay) Sponsor**
+**[Training Day](/src/Events/GCC2014/TrainingDay/index.md) Sponsor**
 </div>
 <br />
 
 <div class='indent'>
-Please [contact the organizers](/Events/GCC2014/Organizers) to make inquiries about sponsoring other parts of this events.  Many additional opportunities exist, including 
+Please [contact the organizers](/src/Events/GCC2014/Organizers/index.md) to make inquiries about sponsoring other parts of this events.  Many additional opportunities exist, including 
 * Breaks
 * Notepads, pens
 * Wifi
@@ -144,7 +144,7 @@ Please [contact the organizers](/Events/GCC2014/Organizers) to make inquiries ab
 
 ## Exhibitors
 
-Your organization can also be an exhibitor at [GCC2014](/Events/GCC2014).  Exhibitor booths will be co-located with sponsor booths.  Exhibitor spaces are limited and you are encouraged to reserve your space early.
+Your organization can also be an exhibitor at [GCC2014](/src/Events/GCC2014/index.md).  Exhibitor booths will be co-located with sponsor booths.  Exhibitor spaces are limited and you are encouraged to reserve your space early.
 
 <div class='indent'>
 **Cost: $750 per exhibit space**

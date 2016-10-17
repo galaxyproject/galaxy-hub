@@ -97,19 +97,19 @@ END_INCLUDE
 END_INCLUDE
 
 # VM
-* The [virtual machine image](/Events/GCC2014/TrainingDay/VMs#2-download-needed-vms-on-your-laptop) for this workshop.
+* The [virtual machine image](/src/Events/GCC2014/TrainingDay/VMs/index.md#2-download-needed-vms-on-your-laptop) for this workshop.
 END_INCLUDE
 
 # VM_BASIC
-* The [virtual machine image](/Events/GCC2014/TrainingDay/VMs#2-download-needed-vms-on-your-laptop) for this workshop.
+* The [virtual machine image](/src/Events/GCC2014/TrainingDay/VMs/index.md#2-download-needed-vms-on-your-laptop) for this workshop.
 END_INCLUDE
 
 # VM_ADVANCED
-* The [virtual machine image](/Events/GCC2014/TrainingDay/VMs#2-download-needed-vms-on-your-laptop) for this workshop.
+* The [virtual machine image](/src/Events/GCC2014/TrainingDay/VMs/index.md#2-download-needed-vms-on-your-laptop) for this workshop.
 END_INCLUDE
 
 # VM_USER_PROJECT
-* The [virtual machine image](/Events/GCC2014/TrainingDay/VMs#2-download-needed-vms-on-your-laptop) for this workshop.
+* The [virtual machine image](/src/Events/GCC2014/TrainingDay/VMs/index.md#2-download-needed-vms-on-your-laptop) for this workshop.
 END_INCLUDE
 
 # NOVICE

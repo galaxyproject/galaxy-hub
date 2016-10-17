@@ -6,11 +6,11 @@ title: 2015, /, 07, :,  Moving from MySQL to PostgreSQL
 
 
 <div class='logbox'>
- Topic:: **[Moving from MySQL to PostgreSQL.](/Community/Log/2015/MySQL2PostgreSQL)**
+ Topic:: **[Moving from MySQL to PostgreSQL.](/src/Community/Log/2015/MySQL2PostgreSQL/index.md)**
  Date:: 2015/07/30
- Who:: [Hans-Rudolf Hotz](/HansrudolfHotz)
+ Who:: [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md)
  Resolution:: It is pretty simple, though you might hit some obstacles depending on how old your MySQL server is and how much you have manually interfered with the database.
- Deployment:: [Galaxy server at the FMI](/Community/Deployment/GalaxyAtFMI)
+ Deployment:: [Galaxy server at the FMI](/src/Community/Deployment/GalaxyAtFMI/index.md)
 </div>
 After running our Galaxy servers successfully with MySQL as the backend database server for several years, we decided to switch to the recommended PostgreSQL server.
 
@@ -208,7 +208,7 @@ I first tested the transition process with our development server. Although, we 
 
 As the final step, I had to change the database setting in the "galaxy.ini" (well, "universe_wsgi.ini" for our old instance) and "reports_wsgi.ini" files, and restart the server.
 
-I am sure there are better and easier ways to do this, but the process worked for me. Feel free to contact [me](/HansrudolfHotz), if you have any questions or want to do such a migration for your Galaxy server as well.
+I am sure there are better and easier ways to do this, but the process worked for me. Feel free to contact [me](/src/HansrudolfHotz/index.md), if you have any questions or want to do such a migration for your Galaxy server as well.
 
 
 

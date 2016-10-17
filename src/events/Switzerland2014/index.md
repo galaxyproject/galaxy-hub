@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/Events/SG2014/Header)
 
 PLACEHOLDER_INCLUDE(/Events/SG2014/LinkBox)
 
-After the big success of the [first Swiss Galaxy Workshop two years ago](/Events/Switzerland2012), we are going to organize a similar event again in fall 2014.
+After the big success of the [first Swiss Galaxy Workshop two years ago](/src/Events/Switzerland2012/index.md), we are going to organize a similar event again in fall 2014.
 
 
 ## Audience
@@ -20,13 +20,13 @@ The workshop is part of the [SyBIT Tech Day series](https://wiki.systemsx.ch/dis
 
 ## Extra Training Day and Developers Day
 
-Prior to the workshop, we run a [Galaxy training/demo Day](/Events/Switzerland2014/trainingday) on Tuesday September, 30th in Bern
+Prior to the workshop, we run a [Galaxy training/demo Day](/src/Events/Switzerland2014/trainingday/index.md) on Tuesday September, 30th in Bern
 
-Following the workshop, we organise a [Developers Day](/Events/Germany2014) on Thursday, October 2nd in Freiburg (Germany).
+Following the workshop, we organise a [Developers Day](/src/Events/Germany2014/index.md) on Thursday, October 2nd in Freiburg (Germany).
 
 ## Registration
 
-Registration is now closed. Please contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/BjoernGruening) if you want your name to be put on the waiting list. There is a good chance, we can still accommodate you. 
+Registration is now closed. Please contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/src/BjoernGruening/index.md) if you want your name to be put on the waiting list. There is a good chance, we can still accommodate you. 
 
 ## Preliminary Schedule
 
@@ -65,4 +65,4 @@ This workshop is generously supported by [SyBIT](https://wiki.systemsx.ch/displa
 
 
 ## Questions?
-Contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/BjoernGruening)
+Contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/src/BjoernGruening/index.md)

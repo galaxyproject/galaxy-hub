@@ -3,7 +3,7 @@ INCLUDE(/UnderConstruction)
 
 * Used in ***Using Galaxy to Perform Large-Scale Interactive Data Analysis: A live supplement*** June 2012 Update published in *Current Protocols in Bioinformatics* (pending release)
   * *Using Galaxy to Perform Large-Scale Interactive Data Analysis* - Publication, June 2012 *CPB*
-  * Complete Live Supplemental - Page, Galaxy [/Main](/Main)
+  * Complete Live Supplemental - Page, Galaxy [/Main](/src/Main/index.md)
   * Loading Data and Understanding Datatypes - Screencast, Protocol 2
   * Calling Peaks for ChIP-seq Data - Screencast, Protocol 3
 * Other

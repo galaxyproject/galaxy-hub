@@ -8,7 +8,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
 
 PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
 
-Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Monday](/Events/GCC2013/Program#day-1-main-meeting-1-july) (moderated by [Ross Lazarus](/RossLazarus)) and [Session 8 on Tuesday](/Events/GCC2013/Program#day-2-main-meeting-2-july) (moderated by [Hans-Rudolf Hotz](/HansrudolfHotz)).  **No more than half the lightning talk slots will be allocated before the meeting.**
+Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Monday](/Events/GCC2013/Program#day-1-main-meeting-1-july) (moderated by [Ross Lazarus](/RossLazarus)) and [Session 8 on Tuesday](/Events/GCC2013/Program#day-2-main-meeting-2-july) (moderated by [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md)).  **No more than half the lightning talk slots will be allocated before the meeting.**
 
 If you wish to give a lightning talk, please send an abstract to [gcc2013-sci AT galaxyproject DOT org](GCC2013 Scientific Committee), either 
 * any time before the start of [Session 2](../Program#day-1-main-meeting-1-july) (to be considered for Monday or Tuesday slots), or 
@@ -20,7 +20,7 @@ The slides for all lightning talks will be made available on the this page, and 
 
 ## Lightning Talks
 
-There are two lightning talk sessions, one on each day of the [main meeting](/Events/GCC2013/Program). 
+There are two lightning talk sessions, one on each day of the [main meeting](/src/Events/GCC2013/Program/index.md). 
 
 ### Day 1: Monday 1 July
 
@@ -165,7 +165,7 @@ A quick overview of the Galaxy source code organization. This can be useful for 
 
 ### Day 2: Tuesday 2 July
 
-During [Session 8](/Events/GCC2013/Program#day-2-main-meeting-2-july), moderated by [Hans-Rudolf Hotz](/HansrudolfHotz).
+During [Session 8](/Events/GCC2013/Program#day-2-main-meeting-2-july), moderated by [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md).
 
 #### How to set up a Galaxy service you can count upon
 
@@ -364,7 +364,7 @@ This is your opportunity to give an impassioned and enthralling talk about somet
 
 ## Slides
 
-* Your slides (as PDF or !PowerPoint) should be on the presentation computer before the session starts (talk to [Dave Clements](/DaveClements)) to minimize the risk of BYOD. 
+* Your slides (as PDF or !PowerPoint) should be on the presentation computer before the session starts (talk to [Dave Clements](/src/DaveClements/index.md)) to minimize the risk of BYOD. 
 * You can BYOD (your own computer or whatever) but you are advised not to. 
 * **If you do BYOD, we will start swapping out your device at 2 minutes left, rather than 1.**
 * Connection and fiddling time beyond the first minute comes out of your 5 minutes and ***is painful, for everyone.***  

@@ -1,7 +1,7 @@
 ---
 date: 2013-10-02T21:36:24Z
 ---
-<div class='newsItemHeader'>[Galaxy Day, 4 décembre à Paris](/News/GalaxyDayParis2013)</div>
+<div class='newsItemHeader'>[Galaxy Day, 4 décembre à Paris](/src/News/GalaxyDayParis2013/index.md)</div>
 
 **Appel à contributions**
 

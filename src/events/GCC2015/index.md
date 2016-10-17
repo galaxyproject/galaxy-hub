@@ -27,6 +27,6 @@ GCC2015 will be held 4-8<sup>th</sup> July, 2015, in Norwich, UK.  There are als
 * [OpenBio Codefest 2015](http://www.open-bio.org/wiki/Codefest_2015)
 * [ISMB / EECB 2015](http://www.iscb.org/ismbeccb2015) including [BOSC 2015](http://www.open-bio.org/wiki/BOSC_2015) and [BioVis 2015](http://www.biovis.net/)
 
-See the [Events Aplenty Near GCC2015](/News/NearGCC2015) news item for dates and deadlines.
+See the [Events Aplenty Near GCC2015](/src/News/NearGCC2015/index.md) news item for dates and deadlines.
 
 *See you in Norwich!*

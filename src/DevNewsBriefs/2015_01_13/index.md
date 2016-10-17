@@ -3,9 +3,9 @@ autotoc: true
 title: January 13, ,,  2015 Galaxy Distribution News Brief
 ---
 <div class='right'></div>
-[All News Briefs](/DevNewsBriefs)
+[All News Briefs](/src/DevNewsBriefs/index.md)
 <br />
-[Distribution Summary 2015_01_13](/News/2015_01_13_Galaxy_Distribution)
+[Distribution Summary 2015_01_13](/src/News/2015_01_13_Galaxy_Distribution/index.md)
 
 <div class='left'><a href='http://getgalaxy.org'><img src='/Images/Logos/GetGalaxyOrg.png' alt=' ' width=175 /></a></div>
 
@@ -156,14 +156,14 @@ Galaxy's tool form forces pages to reload entirely in response to many user inte
 1. Explore the latest [Galaxy Project](http://galaxyproject.org) news from our team that covers recent Events, Publications, New Tools, and much more in our monthly project reports published in our wiki under [Galaxy Updates](http://wiki.galaxyproject.org/GalaxyUpdates). 
 1. [Tool Shed Contributions](https://wiki.galaxyproject.org/ToolShed/Contributions). This is a brand-new area previously included directly in the *[Galaxy Updates](http://wiki.galaxyproject.org/GalaxyUpdates)* news letters. Watch as this area develops as we work to summarize new repository updates in a concise and organized format. Feedback about how you would like to see this evolve (including general interest) is welcome. We will be posting a comment/feedback post at [Galaxy Biostar](https://biostar.usegalaxy.org/) to provide an opportunity to for our community to discuss. A summary will be added to [Trello](https://wiki.galaxyproject.org/Issues) once feedback is gathered for review and action. (A link to that post will be updated and added right here in this wiki within the next week - is truly a *brand-new* endeavor to break this out as a distinct wiki resource!!).
 1. If you are new to Galaxy or wish to connect with our project more in 2015, these key links can help keep you updated about our activities and updates in real time (or at your own pace). Galaxy is a community project we would like to remind all about of the resources and venues available for news and support. Most reading our News Briefs are familiar with [Development](https://wiki.galaxyproject.org/Develop), [Cloud](https://wiki.galaxyproject.org/Cloud), [Local](https://wiki.galaxyproject.org/Admin/GetGalaxy), and other deployment resources such as [Admin](https://wiki.galaxyproject.org/Admin) plus [Tool](https://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax) and [Tool Repository](https://wiki.galaxyproject.org/ToolShed) documenation, but below is a short list of even more places to visit and get connected:
-  * [All News Reports](/News) and the [Hub for Distribution Details](/DevNewsBriefs)
+  * [All News Reports](/News) and the [Hub for Distribution Details](/src/DevNewsBriefs/index.md)
   * [Twitter](/GalaxyOnTwitter) (wiki summary) or follow us directly at [https://twitter.com/galaxyproject](https://twitter.com/galaxyproject)
   * [/Events](/Events), [/Learn](/Learn), [Galaxy Biostar](https://biostar.usegalaxy.org/), [Support Resources](/Support) with FAQ help, [Mailing list](/MailingLists) subscription and archvies, and [Vimeo tutorials](http://vimeo.com/galaxyproject)
-  * All know of [Public Galaxy Main](/Main), but have you reviewed the [Other Galaxy Public-hosted Servers](/PublicGalaxyServers) lately?
-  * [/Teach](/Teach) resources are an exciting, growing, and key area for expansion throughout 2015, check out what is new!
+  * All know of [Public Galaxy Main](/Main), but have you reviewed the [Other Galaxy Public-hosted Servers](/src/PublicGalaxyServers/index.md) lately?
+  * [/Teach](/src/Teach/index.md) resources are an exciting, growing, and key area for expansion throughout 2015, check out what is new!
   * Follow current development real-time and create, comment, and vote on active [Trello](https://trello.com/galaxyproject) tickets. As an open source project, we very much welcome community involvement. Not sure how to get involved or how to [create an account](https://trello.com/b/ijIE4lMx/welcome-board)? We have guidance available **[here...](https://wiki.galaxyproject.org/Issues)**, that includes a form to aid with quick ticket submission.
-  * [/Community](/Community) resources. Overview about how we value and seek your input. Have your voice heard and get involved!
-  * [Galaxy Project](/GalaxyProject) home page (hub for all resources, those listed above and more!)
+  * [/Community](/src/Community/index.md) resources. Overview about how we value and seek your input. Have your voice heard and get involved!
+  * [Galaxy Project](/src/GalaxyProject/index.md) home page (hub for all resources, those listed above and more!)
   * See our wiki's right side bar menu &rarr; for more links to areas of interest to you
   * Our wiki is absolutely open for community contributions and improvements. We have plans in place for documentation updates in the upcoming year, but we greatly value the knowledge and insight shared through this resource by all that have ideas to make it even better. Let's work together to expand this wiki to meet the needs of the upcoming year as our project matures, as new research/development areas come up, and as Galaxy grows and evolves with new features and enhancements! Create a wiki account and contact us at "outreach at galaxyproject dot org" to become a wiki editor. 
 
@@ -173,4 +173,4 @@ Galaxy's tool form forces pages to reload entirely in response to many user inte
 
 # About Galaxy
 <div class='left'><a href='http://usegalaxy.org'><img src='/Images/Logos/GalaxyLogoHighRes.png' alt='UseGalaxy.org' width="200" /></a></div>
-**[About Galaxy](/Support/AboutGalaxy)** • [Galaxy Project](/GalaxyProject) • [/Admin](/Admin) • [/Issues](/Issues) • [Big Picture](/BigPicture) • [/Community](/Community) • [Get Galaxy](/Admin/GetGalaxy) • [/CloudMan](/CloudMan) • [Tool Shed](/ToolShed) • [/Develop](/Develop) • [News Briefs](/DevNewsBriefs) • [Servers](/PublicGalaxyServers) • [/Learn](/Learn) • [/Support](/Support) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/News) • [Twitter](/GalaxyOnTwitter) • [/Events](/Events) • [/Teach](/Teach) • [Cite](/CitingGalaxy) • [Galaxy Team](/GalaxyTeam)
+**[About Galaxy](/Support/AboutGalaxy)** • [Galaxy Project](/GalaxyProject) • [/Admin](/Admin) • [/Issues](/Issues) • [Big Picture](/BigPicture) • [/Community](/Community) • [Get Galaxy](/Admin/GetGalaxy) • [/CloudMan](/CloudMan) • [Tool Shed](/ToolShed) • [/Develop](/Develop) • [News Briefs](/DevNewsBriefs) • [Servers](/PublicGalaxyServers) • [/Learn](/Learn) • [/Support](/Support) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/News) • [Twitter](/GalaxyOnTwitter) • [/Events](/Events) • [/Teach](/Teach) • [Cite](/CitingGalaxy) • [Galaxy Team](/src/GalaxyTeam/index.md)

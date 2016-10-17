@@ -8,7 +8,7 @@
 
 <div class='title'>Introduction to Galaxy<br />July 19, 2013</div>
 
-**Instructor: [Dave Clements](/DaveClements)
+**Instructor: [Dave Clements](/src/DaveClements/index.md)
 
 9:00-4:30<br />
 Health Sciences Library Biogen-Idec Classroom (#307)<br />
@@ -100,7 +100,7 @@ No programming or Linux command line experience is required.
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [UNC Health Sciences Library](http://hsl.lib.unc.edu).
 
 This course will be part of both the [UNC Health Sciences Library’s](http://hsl.lib.unc.edu) [Basic Bioinformatics Tools Workshop series](http://guides.lib.unc.edu/bioinformatics), and the 
-[2013 Research Triangle Galaxy Workshop Tour](/Events/RTWorkshopTour2013).
+[2013 Research Triangle Galaxy Workshop Tour](/src/Events/RTWorkshopTour2013/index.md).
 
 ## Slides
 

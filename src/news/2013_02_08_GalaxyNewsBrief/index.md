@@ -1,9 +1,9 @@
 ---
 date: 2013-02-09T01:15:37Z
 ---
-<div class='newsItemHeader'>[Feb 8, 2013 Galaxy Distribution & News Brief](/News/2013_02_08_GalaxyNewsBrief)</div>
+<div class='newsItemHeader'>[Feb 8, 2013 Galaxy Distribution & News Brief](/src/News/2013_02_08_GalaxyNewsBrief/index.md)</div>
 
-**Complete [News Brief](/DevNewsBriefs/2013_02_08)**
+**Complete [News Brief](/src/DevNewsBriefs/2013_02_08/index.md)**
 <div class='right'><a href='http://wiki.galaxyproject.org/Tool%20Shed'><img src='/Images/NewsGraphics/2013_02_6-confirm-dependency-installation-sm2.png' alt='width="200px"' /></a></div>
 **Highlights:**
 
@@ -35,7 +35,7 @@ upgrade: $ hg pull
 
 Thanks for using Galaxy,
 
-[The Galaxy Team](/GalaxyTeam)
+[The Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 

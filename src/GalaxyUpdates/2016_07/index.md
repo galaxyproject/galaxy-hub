@@ -15,7 +15,7 @@ title: July 2016 Galaxy News
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
-Welcome to the July 2016 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. 
+Welcome to the July 2016 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. 
 
 If you have anything to include in the next News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
 
@@ -26,7 +26,7 @@ If you have anything to include in the next News, please send it to [outreach AT
 <a href='https://gcc2016.iu.edu/'><img src='/Images/Logos/GCC2016LogoTallBig.png' alt='2016 Galaxy Community Conference' width="120" /></a>
 </div>
 
-And it was again a smashing success!  For the 5th year in a row we had over 200 participants signed up for GCC events, including [hackathons](https://gcc2016.iu.edu/hacks/index.php), [training](http://gcc16.sched.org/overview/type/D.x+Training+-+All), and [the two day meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All). The [meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All) featured [accepted presentations and keynotes](http://gcc16.sched.org/overview/type/E.1+Conference+-+Talks), [posters](http://gcc16.sched.org/overview/type/E.2+Conference+-+Posters), the new [Visualization Showcase and Software Demo sessions](http://gcc16.sched.org/overview/type/E.3+Conference+-+Demos), [lightning talks](http://gcc16.sched.org/overview/type/E.5+Conference+-+Lightning), and [birds-of-a-feather meetups](/Events/GCC2016/BoFs).
+And it was again a smashing success!  For the 5th year in a row we had over 200 participants signed up for GCC events, including [hackathons](https://gcc2016.iu.edu/hacks/index.php), [training](http://gcc16.sched.org/overview/type/D.x+Training+-+All), and [the two day meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All). The [meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All) featured [accepted presentations and keynotes](http://gcc16.sched.org/overview/type/E.1+Conference+-+Talks), [posters](http://gcc16.sched.org/overview/type/E.2+Conference+-+Posters), the new [Visualization Showcase and Software Demo sessions](http://gcc16.sched.org/overview/type/E.3+Conference+-+Demos), [lightning talks](http://gcc16.sched.org/overview/type/E.5+Conference+-+Lightning), and [birds-of-a-feather meetups](/src/Events/GCC2016/BoFs/index.md).
 
 [GCC2016](http://gcc2016.iu.edu/) was held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This was the 7th annual gathering of the Galaxy community.  
 
@@ -63,7 +63,7 @@ Registration is free, but space is limited on both days. We recommend you regist
 
 <div class='left'><a href='/Events/AdminTraining2016'><img src='/Images/Logos/AdminTraining2016-500.png' alt='Galaxy Project Admin Training' width=140" /></a></div>
 
-The first ever [Galaxy Project Admin Training workshop](/Events/AdminTraining2016) will be held November 7-11 in Salt Lake City Utah.  The workshop features a 2 day basics session followed by a 3 day advanced session. There is a separate registration for each session, and participants may sign up for one or both.  We are working with the Utah High Performance Computing Center at the University of Utah for cluster access during the advanced session.
+The first ever [Galaxy Project Admin Training workshop](/src/Events/AdminTraining2016/index.md) will be held November 7-11 in Salt Lake City Utah.  The workshop features a 2 day basics session followed by a 3 day advanced session. There is a separate registration for each session, and participants may sign up for one or both.  We are working with the Utah High Performance Computing Center at the University of Utah for cluster access during the advanced session.
 
 The introductory session will be at the Salt Lake City Library, and the advanced session will be on the University of Utah (the "U") campus.  Workshop housing is on the U as well.
 
@@ -94,13 +94,13 @@ The **[Galaxy Australasia Meeting (GAMe 2017)](http://www.embl-abr.org.au/GAMe20
      A two day meeting of the Galaxy !AustralAsian communities featuring accepted and invited talks, posters and panel discussions on best practices, data intensive research, and the computational infrastructure to support it.
   *6-9 February*
      **Admin Training**<br />
-     Four days of intense hands-on training on Galaxy Administration, based on the [Galaxy Admin Training](/Events/AdminTraining2016) offered in the US in November.
+     Four days of intense hands-on training on Galaxy Administration, based on the [Galaxy Admin Training](/src/Events/AdminTraining2016/index.md) offered in the US in November.
 
 Instructors and speakers will include experts from Australia and Asia, as well as members of the Galaxy Team.  Training sessions and instructors will be announced shortly.  Registration and abstract submission will open in August.  Watch this space.
 
 ## Other upcoming events
 
-There are [a plentitude of Galaxy related events coming up](/Events). Here's what's coming up over the next fe months:
+There are [a plentitude of Galaxy related events coming up](/src/Events/index.md). Here's what's coming up over the next fe months:
 
 <div class='center'> 
 <a href='/Events/ISMB2016'><img src='/Images/Logos/BOSC_logo.png' alt='BOSC 2015' width="120" /></a>
@@ -369,14 +369,14 @@ The new papers were tagged with:
 
 # Who's Hiring
 
-<div class='right'><br />![Please Help! Yes you!](/Images/GalaxyIsExpandingCloud.png)</div>
+<div class='right'><br />![Please Help! Yes you!](/src/Images/GalaxyIsExpandingCloud.png)</div>
 
 The Galaxy is expanding! Please help it grow.
 * [PhD student or postdoctoral researcher](http://www.uni-freiburg.de/verwaltung/stellenboerse/?erf=y&stellenid=9837&layout=v4), University of Freiburg, Freiburg, Germany.
 * [Postdoctoral Researcher: Forest Genomics Database and Software Developer](http://compgenomics.lab.uconn.edu/join/), University of Connecticut.  "... data sharing among partner databases through Galaxy modules."  <div class='red'>Deadline July 31.</span> 
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -385,7 +385,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-One [new publicly accessible Galaxy servers](/PublicGalaxyServers) was added to [the list](/PublicGalaxyServers) in June:
+One [new publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) was added to [the list](/src/PublicGalaxyServers/index.md) in June:
 
 ## Chemical Annotation Retrieval Toolkit (CART)
 
@@ -409,7 +409,7 @@ One [new publicly accessible Galaxy servers](/PublicGalaxyServers) was added to 
 
 # New Semi-Public Galaxy Servers
 
-And one [new set of Semi-Public Galaxy server](/SemiPublicGalaxyServers) was added in June.  Semi-public servers aren't [fully publicly accessible](/PublicGalaxyServers), but that are accessible to a larger group than just the host institution's members.  
+And one [new set of Semi-Public Galaxy server](/SemiPublicGalaxyServers) was added in June.  Semi-public servers aren't [fully publicly accessible](/src/PublicGalaxyServers/index.md), but that are accessible to a larger group than just the host institution's members.  
 
 ## Norway: NeLS
 
@@ -461,9 +461,9 @@ And one [new set of Semi-Public Galaxy server](/SemiPublicGalaxyServers) was add
 
 <br />
 
-One new [community log board entry](/Community/Logs) was added:
+One new [community log board entry](/src/Community/Logs/index.md) was added:
 
-* [Running jobs outside the Galaxy Docker container](/Community/Log/2016/RunningJobsOutsideContainer)
+* [Running jobs outside the Galaxy Docker container](/src/Community/Log/2016/RunningJobsOutsideContainer/index.md)
     by [Marius van den Beek](https://github.com/mvdbeek).
 
 ---

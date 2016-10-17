@@ -8,13 +8,13 @@ title: Galaxy NGS 101
 
 This page is designed to serve as a comprehensive resource describing manipulation and analysis of NGS data. While it is designed to highlight the utility of Galaxy it will also provide information that is broadly applicable and can be used for teaching of big data biology. It is accompanied by a collection of [screencasts](https://vimeo.com/channels/884356).
 
-![DifferentNGSTechniques](/Images/Images/NGS101/EncodeNatureGraphic.png)
+![DifferentNGSTechniques](/src/Images/Images/NGS101/EncodeNatureGraphic.png)
 
 ## Overview of NGS technologies
 
 This section contains quick explanations and important references for major sequencing technologies used today. It is regularly refreshed and kept up-to-date.
 
-![454](/Images/Images/NGS101/454.jpeg)
+![454](/src/Images/Images/NGS101/454.jpeg)
 <a href='https://vimeo.com/121286060'><img src='/Images/Images/NGS101/video.png' alt='454 Screencast' height="20" /></a> 
 <a href='/attachment:Images/Images/NGS101/NGS101-454.pdf'><img src='/Images/Images/NGS101/pdf.png' alt='Slides' height="20" /></a>
 
@@ -25,7 +25,7 @@ This section contains quick explanations and important references for major sequ
 * [Properties of 454 data - Balzer et al. (2010)](http://bioinformatics.oxfordjournals.org/content/26/18/i420.full.pdf+html)
 * [Errors in 454 data - Huse et al. (2007)](http://genomebiology.com/content/pdf/gb-2007-8-7-r143.pdf)
 
-![Illumina](/Images/Images/NGS101/illumina.png)
+![Illumina](/src/Images/Images/NGS101/illumina.png)
 <a href='https://vimeo.com/121178846'><img src='/Images/Images/NGS101/video.png' alt='Illumina Screencast' height="20" /></a> 
 <a href='/attachment:Images/Images/NGS101/NGS101-Illumina.pdf'><img src='/Images/Images/NGS101/pdf.png' alt='Slides' height="20" /></a>
 
@@ -35,7 +35,7 @@ This section contains quick explanations and important references for major sequ
 * [Data quality 1 - Minoche et al. (2011)](http://genomebiology.com/content/pdf/gb-2011-12-11-r112.pdf)
 * [Data quality 2 - Nakamura et al. (2010)](http://nar.oxfordjournals.org/content/39/13/e90.full-text-lowres.pdf)
 
-![Ion](/Images/Images/NGS101/ion.jpeg)
+![Ion](/src/Images/Images/NGS101/ion.jpeg)
 <a href='https://vimeo.com/121289100'><img src='/Images/Images/NGS101/video.png' alt='IonTorrent Screencast' height="20" /></a> 
 <a href='/attachment:Images/Images/NGS101/NGS101-Ion.pdf'><img src='/Images/Images/NGS101/pdf.png' alt='Slides' height="20" /></a>
 
@@ -44,7 +44,7 @@ This section contains quick explanations and important references for major sequ
 * [Ion Torrent, Illumina, PacBio comparison - Quail et al. (2011)](http://www.biomedcentral.com/content/pdf/1471-2164-13-341.pdf)
 * [Improving Ion Torrent Error Rates - Golar and Medvedev (2013)](http://bioinformatics.oxfordjournals.org/content/29/13/i344.full.pdf)  
 
-![PacBio](/Images/Images/NGS101/pacBio.jpeg)
+![PacBio](/src/Images/Images/NGS101/pacBio.jpeg)
 <a href='https://vimeo.com/121267426'><img src='/Images/Images/NGS101/video.png' alt='PacBio Screencast' height="20" /></a> 
 <a href='/attachment:Images/Images/NGS101/NGS101-PacBio.pdf'><img src='/Images/Images/NGS101/pdf.png' alt='Slides' height="20" /></a>
 
@@ -77,8 +77,8 @@ You can data in Galaxy using one of five ways:
 
 One of the first steps in the analysis of NGS data is seeing how good the data actually is. [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) is a fantastic tool allowing you to gauge the quality of fastq datasets (and deciding whether to blame or not to blame whoever has done sequencing for you). 
 
-<div class='right'><div class='center'><span style="font-size: smaller;">**B**. Hmmm...OK</span></div>![Bad fastq](/Images/Images/NGS101/fastqc-bad.png)<div class='center'><span style="font-size: smaller;">Position within read</span></div></div>
-<div class='right'><div class='center'><span style="font-size: smaller;">**A**. Excellent</span></div>![Good fastq](/Images/Images/NGS101/fastqc-good.png)<div class='center'><span style="font-size: smaller;">Position within read</span></div></div>
+<div class='right'><div class='center'><span style="font-size: smaller;">**B**. Hmmm...OK</span></div>![Bad fastq](/src/Images/Images/NGS101/fastqc-bad.png)<div class='center'><span style="font-size: smaller;">Position within read</span></div></div>
+<div class='right'><div class='center'><span style="font-size: smaller;">**A**. Excellent</span></div>![Good fastq](/src/Images/Images/NGS101/fastqc-good.png)<div class='center'><span style="font-size: smaller;">Position within read</span></div></div>
 
 Here you can see FastQC base quality reports (the tools gives you many other types of data) for two datasets: **A** and **B**. The **A** dataset has long reads (250 bp) and very good quality profile with no qualities dropping below phred value of 30. The **B** dataset is significantly worse with ends of the reads dipping below phred score of 20. The **B** reads may need to be trimmed for further processing. 
 
@@ -104,7 +104,7 @@ Mapping of NGS reads against reference sequences is one of the key steps of the 
 
 [Video NGS101-7](https://vimeo.com/123102338) | [Galaxy history](https://test.galaxyproject.org/u/anton/h/mapping-wbwa)
 
-<div class='right'><div class='center'><span style="font-size: smaller;">Mapping against pre-computed (cached) index</span></div>![Cached genome](/Images/Images/NGS101/cached-genome.png)</div>
+<div class='right'><div class='center'><span style="font-size: smaller;">Mapping against pre-computed (cached) index</span></div>![Cached genome](/src/Images/Images/NGS101/cached-genome.png)</div>
 
 Mappers usually compare reads against a reference sequence that has been transformed into a highly accessible data structure called genome index. Such indices should be generated before mapping begins. Galaxy instances typically store indices for a number of publicly available genome builds. For example, the image on the right shows indices for hg38 version of the human genome. You can see that there are actually three choices: (1) **hg38**, (2) **hg38 canonical** and (3) **hg38 canonical female**. The **hg38** contains all chromosomes as well as all unplaced contigs. The **hg38 canonical** does not contain unplaced sequences and only consists of chromosomes 1 through 22, X, Y, and mitochondria. The 
 **hg38 canonical female** contains everything from the canonical set with the exception of chromosome Y.  
@@ -112,7 +112,7 @@ Mappers usually compare reads against a reference sequence that has been transfo
 ### What if pre-computed index does not exist?
 [Video NGS101-8](https://vimeo.com/123108417) | [Galaxy history](https://test.galaxyproject.org/u/anton/h/my-genome)
 
-<div class='right'><div class='center'><span style="font-size: smaller;">Mapping against uploaded genome</span></div>![My genome](/Images/Images/NGS101/mygenome.png)</div>
+<div class='right'><div class='center'><span style="font-size: smaller;">Mapping against uploaded genome</span></div>![My genome](/src/Images/Images/NGS101/mygenome.png)</div>
 
 
 If Galaxy does not have a genome you need to map against, you can upload your genome sequence as a FASTA file and use it in the mapper directly as shown on the right ("Load reference genome" is set to **History**). In this case Galaxy will first create an index from this dataset and then run mapping analysis against it.
@@ -129,15 +129,15 @@ One of the key features of SAM/BAM format is the ability to label individual rea
 
 One of the best descriptions of BAM readgroups is on [GATK support site](http://gatkforums.broadinstitute.org/discussion/1317/collected-faqs-about-bam-files). We have gratefully stolen two tables describing the most important readgroup tags -- ID, SM, LB, and PL -- from GATK forum and provide them here.
 
-<div class='center'>![SAM/BAM Readgroups](/Images/Images/NGS101/rg-description.png)</div>
+<div class='center'>![SAM/BAM Readgroups](/src/Images/Images/NGS101/rg-description.png)</div>
 As further described in the GATK forum: "*A concrete example may be instructive. Suppose I have a trio of samples: MOM, DAD, and KID. Each has two DNA libraries prepared, one with 400 bp inserts and another with 200 bp inserts. Each of these libraries is run on two lanes of an Illumina machine, requiring 3 x 2 x 2 = 12 lanes of data. When the data come off the sequencer, I would create 12 bam files, with the following @RG fields in the header*":<br />
-<div class='center'>![Readgroup example](/Images/Images/NGS101/rg-example.png)</div>
+<div class='center'>![Readgroup example](/src/Images/Images/NGS101/rg-example.png)</div>
 
 The [following screencast](https://vimeo.com/123102338#t=1:40) shows how to add readgroups to a BAM dataset in Galaxy using Picard's [AddOrReplaceReadGroups](http://broadinstitute.github.io/picard/command-line-overview.html#AddOrReplaceReadGroups) tool.
 
 ### BAM manipulation
 
-<div class='right'><div class='center'><span style="font-size: smaller;">Filtering BAM with BAMtools in Galaxy</span></div>![SAM/BAM Readgroups](/Images/Images/NGS101/BAM-filter.png)</div>
+<div class='right'><div class='center'><span style="font-size: smaller;">Filtering BAM with BAMtools in Galaxy</span></div>![SAM/BAM Readgroups](/src/Images/Images/NGS101/BAM-filter.png)</div>
 [Video NGS101-9 = Tweaking BAM](https://vimeo.com/123113197) | [Galaxy history](https://test.galaxyproject.org/u/anton/h/bam-tweaking)
 
 We support four toolsets for processing of SAM/BAM datasets:
@@ -153,7 +153,7 @@ The [Screencast NGS101-9](https://vimeo.com/123113197) highlight de-duplication,
 
 ## Finding variants
 
-<div class='right'><div class='center'><span style="font-size: smaller;">Variant calling (Nielsen et al. 2011)</span></div>![Variant Calling](/Images/Images/NGS101/variant-calling.png)</div>
+<div class='right'><div class='center'><span style="font-size: smaller;">Variant calling (Nielsen et al. 2011)</span></div>![Variant Calling](/src/Images/Images/NGS101/variant-calling.png)</div>
 
 Because of the efforts such as [the 1000 Genomes Project](http://www.1000genomes.org/), variant calling is one of the most developed areas of NGS analysis. Still, if you are interested in reliable finding of genetic variants it pays to understand how these approaches work. Below we provide a sampler of key publications on the subject.
 
@@ -170,7 +170,7 @@ Because of the efforts such as [the 1000 Genomes Project](http://www.1000genomes
 <br />
 [Video NGS101-11 = Non-diploid variant calling with FreeBayes](https://vimeo.com/123449704) | [Galaxy history](https://test.galaxyproject.org/u/anton/h/nond-fb)
 
-<div class='right'><div class='center'><span style="font-size: smaller;">Mitochondrial variants</span></div>![Heteroplasmies](/Images/Images/NGS101/mt-alleles.png)</div>
+<div class='right'><div class='center'><span style="font-size: smaller;">Mitochondrial variants</span></div>![Heteroplasmies](/src/Images/Images/NGS101/mt-alleles.png)</div>
 
 The 1000 Genomes was focused on surveying the genetic diversity of humans - a diploid organism. Yet the majority of life on Earth is non-diploid and represented by prokaryotes, viruses and their derivatives such as our own mitochondria. In non-diploid organisms allele frequencies can range anywhere between 0 and 100% and there could be multiple (not just two) alleles per locus. The main challenge associated with non-diploid variant calling is the ability to distinguish between sequencing noise (abundant in all NGS platforms) and true low frequency variants. Some of the early attempts to do this well have been accomplished on human mitochondrial DNA although the same approaches will work equally good on viral and bacterial genomes:
 
@@ -183,7 +183,7 @@ The 1000 Genomes was focused on surveying the genetic diversity of humans - a di
 
 [Video NGS101-12 = Displaying multiple tracks in IGV](https://vimeo.com/123414437) 
 <br />
-<div class='right'><div class='center'><span style="font-size: smaller;">IGV displaying multiple tracks from Galaxy</span></div><div class='center'>![IGV](/Images/Images/NGS101/igv.png)</div></div>
+<div class='right'><div class='center'><span style="font-size: smaller;">IGV displaying multiple tracks from Galaxy</span></div><div class='center'>![IGV](/src/Images/Images/NGS101/igv.png)</div></div>
 
 Galaxy has a number of display applications allowing visualization of various datasets. IGV ([integrative genome viewer](https://www.broadinstitute.org/igv/)) is one of the most versatile applications for looking at positional genomic data. In Galaxy you can view Interval, BED, BAM, and VCF datasets in IGV. The [screencast](https://vimeo.com/123414437) shows how to do this.
 
@@ -197,11 +197,11 @@ Galaxy has a number of display applications allowing visualization of various da
 [Galaxy RNA-seq workshop slides](https://speakerdeck.com/nekrut/structure-workshop)<br />
 [Galaxy history containing the entire analysis](https://test.galaxyproject.org/u/anton/h/rna-seq-tophatcufflinks)
 
-<div class='right'><div class='center'><span style="font-size: smaller;">TopHat/Cufflinks workflow by Trapnell et al.</span></div><div class='center'>![CuffLinks workflow](/Images/Images/NGS101/rnaSeqWorkFlow.png)</div></div>
+<div class='right'><div class='center'><span style="font-size: smaller;">TopHat/Cufflinks workflow by Trapnell et al.</span></div><div class='center'>![CuffLinks workflow](/src/Images/Images/NGS101/rnaSeqWorkFlow.png)</div></div>
 
 There is a number of established strategies for performing RNA-seq analyses when the reference genome of an organism in question is available (for a recent comprehensive comparison see [an assement of spliced aligners](http://www.nature.com/nmeth/journal/v10/n12/full/nmeth.2722.html) and [an evaluation of transcript reconstruction methods](http://www.nature.com/nmeth/journal/v10/n12/full/nmeth.2714.html)).
 
-The public Galaxy instance at http://usegalaxy.org has been successfully employing [Tuxedo](http://salzberg-lab.org/software/) suite of tools for references-based RNA-seq originating from Computational Biology and Genomics Lab at Johns Hopkins. However, there are also great resources such as [Oqtans](http://oqtans.org/) developed at the Memorial Sloan-Kettering Cancer Center and [others](/PublicGalaxyServers). Below are some of the key publications on the reference-based RNA-seq:
+The public Galaxy instance at http://usegalaxy.org has been successfully employing [Tuxedo](http://salzberg-lab.org/software/) suite of tools for references-based RNA-seq originating from Computational Biology and Genomics Lab at Johns Hopkins. However, there are also great resources such as [Oqtans](http://oqtans.org/) developed at the Memorial Sloan-Kettering Cancer Center and [others](/src/PublicGalaxyServers/index.md). Below are some of the key publications on the reference-based RNA-seq:
 
 * [TopHat: discovering splice junctions with RNA-Seq - Trapnell et al. (2009)](http://bioinformatics.oxfordjournals.org/content/25/9/1105.short)
 * [Transcript assembly and quantification by RNA-Seq reveals unannotated transcripts and isoform switching during cell differentiation - Trapnell et al. (2010)](http://nature.com/nbt/journal/v28/n5/full/nbt.1621.html)
@@ -226,7 +226,7 @@ This analysis begins by uploading an annotation file from the [UCSC Table Browse
 
 [Video NGS101-15 = Reconstructing transcripts with CuffLinks](https://vimeo.com/channels/884356/128268401)<br />
 
-<div class='right'><div class='center'><span style="font-size: smaller;">Expression levels for five transcripts of<br />a gene in conditions 1 (blue) and 2 (brown)</span></div><div class='center'>![CuffDiff plot](/Images/Images/NGS101/cuffdiffPlot.png)</div></div>
+<div class='right'><div class='center'><span style="font-size: smaller;">Expression levels for five transcripts of<br />a gene in conditions 1 (blue) and 2 (brown)</span></div><div class='center'>![CuffDiff plot](/src/Images/Images/NGS101/cuffdiffPlot.png)</div></div>
 
 Reads mapped by !TopHat are then used as input to !CuffLinks - a tool that performs transcript reconstruction and quantification. This is done individually for every replicate (although because our data is bundled in collections this is a painless exercise). Once transcript reconstruction is finished we combine transcript model from all replicates and conditions into a single transcriptome using !CuffMerge. Finally, we perform differential expression analysis with !CuffDiff using the combined transcriptome and read mapping data. 
 

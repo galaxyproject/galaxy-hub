@@ -4,7 +4,7 @@ title: June 3, ,,  2013 Galaxy Distribution News Brief
 ---
 <div class='right'></div>
 
-[All News Briefs](/DevNewsBriefs)
+[All News Briefs](/src/DevNewsBriefs/index.md)
 
 <br />
 

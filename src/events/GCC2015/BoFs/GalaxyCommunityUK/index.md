@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 
 
 <div class='dictbox'>
- BoF:: [Galaxy Community UK BoF](/Events/GCC2015/BoFs/GalaxyCommunityUK)
+ BoF:: [Galaxy Community UK BoF](/src/Events/GCC2015/BoFs/GalaxyCommunityUK/index.md)
  Summary:: Meeting of the [Galaxy Community from the United Kingdom and Ireland](http://galaxy-community.org.uk/)
  Audience:: Galaxy Users/Devs/Admins from the British Isles and Ireland (and everybody else who's interested, we're called @GalaxyUKFriends after all).
  When:: Wednesday, 8th July. 18:00 (6pm)

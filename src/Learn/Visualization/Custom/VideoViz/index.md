@@ -10,7 +10,7 @@ title: Video Viz
 
 
 <div class='deploymentbox'>
- Resource:: **[VideoViz](/Learn/Visualization/Custom/VideoViz)**
+ Resource:: **[VideoViz](/src/Learn/Visualization/Custom/VideoViz/index.md)**
  Type:: Public
  Domain:: Imaging, Microscopy, other Video Data
  Formats:: Mp4

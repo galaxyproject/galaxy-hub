@@ -6,7 +6,7 @@ title: 2013, /, 10, :,  Sharing workflows between servers, :,  Practices
 
 
 <div class='logbox'>
- Topic:: **[Sharing workflows between servers](/Community/Log/2013/SharingWorkflowsBetweenLabsPractices)**
+ Topic:: **[Sharing workflows between servers](/src/Community/Log/2013/SharingWorkflowsBetweenLabsPractices/index.md)**
  Date:: 2013/10/23
  Who:: [Contributors](http://wiki.sb-roscoff.fr/ifb/index.php?title=Sharing_workflow_between_labs:_practices&action=history)
  Resolution:: [Documents process for sharing workflows, including wrapping necessary tools](http://wiki.sb-roscoff.fr/ifb/index.php/Sharing_workflow_between_labs:_practices)

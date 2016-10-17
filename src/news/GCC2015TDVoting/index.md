@@ -1,7 +1,7 @@
 ---
 date: 2015-01-19T07:34:50Z
 ---
-<div class='newsItemHeader'>[GCC2015 Training Day Vote!](/News/GCC2015TDVoting)</div>
+<div class='newsItemHeader'>[GCC2015 Training Day Vote!](/src/News/GCC2015TDVoting/index.md)</div>
 
 <table>
   <tr>

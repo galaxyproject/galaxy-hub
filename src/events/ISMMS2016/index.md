@@ -8,7 +8,7 @@
 
 <div class='title'>Introduction to Galaxy<br />January 21, 2016, and<br />January 22, 2016</div>
 
-**Instructor: [Dave Clements](/DaveClements)
+**Instructor: [Dave Clements](/src/DaveClements/index.md)
 
 9:00-5:00<br /><br />
 Location: Large Classroom (Thursday), Small Classroom (Friday)<br /> [Levy Library](http://icahn.mssm.edu/about-us/services-and-resources/levy-library) (11<sup>th</sup> floor)<br /> Annenberg Building. 1468 Madison Ave.<br />

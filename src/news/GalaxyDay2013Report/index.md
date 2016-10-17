@@ -1,7 +1,7 @@
 ---
 date: 2013-12-17T17:21:11Z
 ---
-<div class='newsItemHeader'>[2013 Galaxy Day Report](/News/GalaxyDay2013Report)</div>
+<div class='newsItemHeader'>[2013 Galaxy Day Report](/src/News/GalaxyDay2013Report/index.md)</div>
 
 <div class='right'><a href='http://wiki.sb-roscoff.fr/ifb/index.php/Accueil'><img src='/Images/Logos/GalaxyIFB.png' alt='Galaxy Day' /></a></div>
 

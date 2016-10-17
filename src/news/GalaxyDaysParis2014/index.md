@@ -1,7 +1,7 @@
 ---
 date: 2014-10-15T16:36:05Z
 ---
-<div class='newsItemHeader'>[Galaxy Days: 2-3 December, Paris](/News/GalaxyDaysParis2014)</div>
+<div class='newsItemHeader'>[Galaxy Days: 2-3 December, Paris](/src/News/GalaxyDaysParis2014/index.md)</div>
 
 The [French Working Group GALAXY-IFB (Institut Français de Bioinformatique)](http://www.ifb-galaxy.org/index.html) is organizing a second session around the Galaxy portal.
 

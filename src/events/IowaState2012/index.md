@@ -8,7 +8,7 @@
 </table>
 
 
-**Instructor: [Dave Clements](/DaveClements)
+**Instructor: [Dave Clements](/src/DaveClements/index.md)
 
 9am-5pm<br />
 [MBB](http://www.fpm.iastate.edu/maps/default.asp?zoom=2&xcenter=1471&ycenter=1605&xshow=1471&yshow=1605) [1340 (Computer Lab)](http://www.bb.iastate.edu/computing/1340Home.html)

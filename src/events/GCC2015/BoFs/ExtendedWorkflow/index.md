@@ -6,7 +6,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 
 
 <div class='dictbox'>
- BoF:: [Extended Workflows](/Events/GCC2015/BoFs/ExtendedWorkflow)
+ BoF:: [Extended Workflows](/src/Events/GCC2015/BoFs/ExtendedWorkflow/index.md)
  Summary:: This BoF is intended to extend the earlier training session on advanced workflows.
  Audience:: Those who attended the workflow training session and want to dig in more!  
  When:: Wednesday, 8 July, 12:30 (lunch)

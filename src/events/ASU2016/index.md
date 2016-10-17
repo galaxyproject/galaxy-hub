@@ -108,4 +108,4 @@ This workshop is supported by [Biodiversity Knowledge Integration Center (BioKIC
 
 ## Questions?
 
-Contact [Nico Franz](https://sols.asu.edu/people/nico-franz) or [Melissa A. Wilson Sayres](https://sols.asu.edu/people/melissa-wilson-sayres) at ASU, or [Anton Nekrutenko](/anton) of the Galaxy Project.
+Contact [Nico Franz](https://sols.asu.edu/people/nico-franz) or [Melissa A. Wilson Sayres](https://sols.asu.edu/people/melissa-wilson-sayres) at ASU, or [Anton Nekrutenko](/src/anton/index.md) of the Galaxy Project.

@@ -6,7 +6,7 @@ title: 2013, /, 02, :,  Provide download and indexing of genomes using Galaxy rs
 
 
 <div class='logbox'>
- Topic:: **[Genome download & indexing using Galaxy rsync servers](/Community/Log/2013/GenomeDownloadIndexingWithGalaxyRsyncServers)**
+ Topic:: **[Genome download & indexing using Galaxy rsync servers](/src/Community/Log/2013/GenomeDownloadIndexingWithGalaxyRsyncServers/index.md)**
  Date:: 2013/02/21
  Who:: [Brad Chapman](http://www.hsph.harvard.edu/brad-chapman/)
  Resolution:: Python script in [CloudBioLinux](https://github.com/chapmanb/cloudbiolinux).

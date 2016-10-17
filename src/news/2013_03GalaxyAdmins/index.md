@@ -1,11 +1,11 @@
 ---
 date: 2013-03-12T15:59:31Z
 ---
-<div class='newsItemHeader'>[March 2013 GalaxyAdmins Meetup](/News/2013_03GalaxyAdmins)</div>
+<div class='newsItemHeader'>[March 2013 GalaxyAdmins Meetup](/src/News/2013_03GalaxyAdmins/index.md)</div>
 
 <div class='right'><a href='/Community/GalaxyAdmins/Meetups/2013_03_20'><img src='/Images/Logos/GalaxyAdmins.png' alt='March 2013 GalaxyAdmins Meetup' width="160" /></a> </div>
 
-The [next meeting](/Community/GalaxyAdmins/Meetups/2013_03_20) of the [GalaxyAdmins Group](/Community/GalaxyAdmins) will be held on [March 20, 2013, at 10 AM Central US time](/Community/GalaxyAdmins/Meetups/2013_03_20). 
+The [next meeting](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md) of the [GalaxyAdmins Group](/Community/GalaxyAdmins) will be held on [March 20, 2013, at 10 AM Central US time](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md). 
 
 [NBIC Galaxy (Andromeda)](http://galaxy.nbic.nl/) was migrated to a HPC cloud hosted by Surfsara in September 2012. In this presentation, we will present the setup of this HPC cloud and the architecture of our NBIC Galaxy. We will also share our experience on the installation of the NBIC Galaxy using the CloudMan scripts. The presentation will finish with a list of issues and our possible future plans.
 
@@ -35,9 +35,9 @@ The [next meeting](/Community/GalaxyAdmins/Meetups/2013_03_20) of the [GalaxyAdm
 
 <br />
 
-We use the [Blackboard Collaborate Web Conferencing system](/Community/GalaxyAdmins/Meetups/WebinarTech) for the meetup. Downloading the required applets in advance and using a headphone with microphone to prevent audio feedback during the call is recommended.
+We use the [Blackboard Collaborate Web Conferencing system](/src/Community/GalaxyAdmins/Meetups/WebinarTech/index.md) for the meetup. Downloading the required applets in advance and using a headphone with microphone to prevent audio feedback during the call is recommended.
 
-[GalaxyAdmins](/Community/GalaxyAdmins) is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
+[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
 
 Srinivas Maddhi
 

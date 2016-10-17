@@ -17,7 +17,7 @@ title: January 20, ,,  2012 Galaxy Development News Brief
 
 
 ## News & Events
-* Make your plans!! **[GCC2012](/Events/GCC2012)**
+* Make your plans!! **[GCC2012](/src/Events/GCC2012/index.md)**
 * New [Galaxy Group @ CiteULike](/News/New Galaxy Group @ CiteULike)
 * Find it *now* with [Custom Galaxy Web Searches](/News/Custom Galaxy Search)
 * New low-volume mailing list: [Galaxy-Announce](/News/New Galaxy-Announce Mailing List)
@@ -29,13 +29,13 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 ## Tools
 * **[TopHat:](http://tophat.cbcb.umd.edu/)**
   * Wrapper accepts versions 1.3.1-1.4.0, with at least 1.3.3 recommended. 1.4.0 is preferred.
-  * Galaxy [/Main](/Main) is now running version 1.4.0.
+  * Galaxy [/Main](/src/Main/index.md) is now running version 1.4.0.
 * **[Cufflinks, CuffCompare, CuffDiff:](http://cufflinks.cbcb.umd.edu/)** 
   * Wrapper accepts versions 1.1.0-1.3.0. 1.3.0 is preferred.
-  * Galaxy [/Main](/Main) is now running version 1.3.0 for all Cuff* tools.
+  * Galaxy [/Main](/src/Main/index.md) is now running version 1.3.0 for all Cuff* tools.
 * **[SAMTools mpileup:](http://samtools.sourceforge.net/mpileup.shtml)**
   * Wrapper for use in local instances.
-  * Not available on Galaxy [/Main](/Main) at this time.
+  * Not available on Galaxy [/Main](/src/Main/index.md) at this time.
 * **[GenomeSpace](http://www.genomespace.org/)** import from file browser tool updated to use their newer API.
 * **[EBI ENA SRA](http://www.ebi.ac.uk/ena/)** tool contributed by Iain Cleland.
 * **[Picard](http://sourceforge.net/projects/picard/) Interval List to [BED6](http://genome.ucsc.edu/FAQ/FAQformat.html#format1)** converter added.

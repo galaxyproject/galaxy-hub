@@ -7,19 +7,19 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
 
 <div class='dictbox'>
- BoF:: **[Using Galaxy's Web Interface](/Events/GCC2014/BoFs/UsingGalaxyUIOverview)**
+ BoF:: **[Using Galaxy's Web Interface](/src/Events/GCC2014/BoFs/UsingGalaxyUIOverview/index.md)**
  Summary:: Curious about the Galaxy web interface and available functions? Want a refresher about objects and terminology? Or perhaps are interested in learning about how the latest features fit into the bigger usage picture when performing analysis? Come join us!
  Audience:: End Users and those interested in common Galaxy usage, including developers supporting scientific teams
  When:: Wednesday, July 2, 12:15 pm (lunch)
  Where:: East Room 304
- Contact:: [Jennifer Hillman-Jackson](/JenniferJackson) & Karen Reddy
+ Contact:: [Jennifer Hillman-Jackson](/src/JenniferJackson/index.md) & Karen Reddy
 </div>
 
 PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 <div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="120" /></a></div>
 
-This page describes the **Using Galaxy's Web Interface** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/Events/GCC2014).
+This page describes the **Using Galaxy's Web Interface** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
 
 ## Description
 

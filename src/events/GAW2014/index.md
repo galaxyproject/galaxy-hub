@@ -260,7 +260,7 @@ The conference logo is available in [200 pixel|&do=get](ATTACHMENT_URLImages/Log
 
 ### Twitter Hashtag
 
-Please use [#gaw2014](http://twitter.com/#!/search/%23gaw2014) as the [Twitter hashtag](/GalaxyOnTwitter) for the meeting.
+Please use [#gaw2014](http://twitter.com/#!/search/%23gaw2014) as the [Twitter hashtag](/src/GalaxyOnTwitter/index.md) for the meeting.
 
 
 

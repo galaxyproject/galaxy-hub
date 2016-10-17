@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/Events/SG2016/LinkBox)
 
 
 
-On the second day of the [Swiss German Galaxy Days 2016](/Events/SG2016), we will organize a Galaxy Developer Day in Freiburg.
+On the second day of the [Swiss German Galaxy Days 2016](/src/Events/SG2016/index.md), we will organize a Galaxy Developer Day in Freiburg.
 
 
 ## Location
@@ -34,4 +34,4 @@ Please let us know what you are interesting in.
 
 
 ## Questions?
-Contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/BjoernGruening)
+Contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/src/BjoernGruening/index.md)

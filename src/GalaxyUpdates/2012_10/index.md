@@ -8,7 +8,7 @@ title: October 2012 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the October 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the October 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -58,7 +58,7 @@ Welcome to the October 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a mont
 
 These papers may be of interest to the Galaxy community:
 
-* [Turning pipe dreams into reality](http://dx.doi.org/10.1186/gb4039) by  Peter Li, [Jeremy Goecks](/JeremyGoecks), Tin L. Lee, *Genome Biology*, Vol. 13, No. 8. (2012), 318.
+* [Turning pipe dreams into reality](http://dx.doi.org/10.1186/gb4039) by  Peter Li, [Jeremy Goecks](/src/JeremyGoecks/index.md), Tin L. Lee, *Genome Biology*, Vol. 13, No. 8. (2012), 318.
 
 * [Some Phenotype Association Tools in Galaxy: Looking for Disease SNPs in a Full Genome](http://dx.doi.org/10.1002/0471250953.bi1502s39), by Belinda M. Giardine, Cathy Riemer, Richard Burhans, Aakrosh Ratan, Webb Miller; in *Current Protocols in Bioinformatics* 39:15.2.1-15.2.27
 
@@ -74,17 +74,17 @@ These papers were among [35 papers added to the Galaxy CiteULike group](http://w
 
 The [CUHK-BGI Innovation Institution of Trans-Omics (CBIIT)](http://www.cuhk.edu.hk/cbiit/) has now made its [Galaxy server](http://galaxy.cbiit.cuhk.edu.hk/) publicly available.  The CBIIT Galaxy Server has the standard Galaxy tool set plus SOAPdenovo and SOAPsnp for *de novo* assembly and SNP calling.  
 
-The [CBIIT Galaxy Server](http://galaxy.cbiit.cuhk.edu.hk/) joins the 20+ other publicly accessible servers on [Public Galaxy Servers list](/PublicGalaxyServers).
+The [CBIIT Galaxy Server](http://galaxy.cbiit.cuhk.edu.hk/) joins the 20+ other publicly accessible servers on [Public Galaxy Servers list](/src/PublicGalaxyServers/index.md).
 
 ## Who's Hiring
 
-<div class='right'>![Please Help!  Yes you!](/Images/Icons/PointingFinger.png)</div>
+<div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
 The Galaxy is expanding!  Please help it grow.
 
-* The [Galaxy Project is hiring](/GalaxyIsHiring) post-docs @ Penn State and Emory
+* The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs @ Penn State and Emory
 * [offre CDD INRA Versailles](http://bit.ly/TKoV9h) - developpement chaine de traitements !RnaSeq sous Galaxy - France Genomique
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -203,25 +203,25 @@ Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2
 
 ## New Distributions
 
-There were [two new Galaxy distributions](/DevNewsBriefs) in September:
+There were [two new Galaxy distributions](/src/DevNewsBriefs/index.md) in September:
 
 ### September 20, 2012
 
-[Highlights](/DevNewsBriefs/2012_09_20)
+[Highlights](/src/DevNewsBriefs/2012_09_20/index.md)
 * A new **[Galaxy tool](/DevNewsBriefs/2012_09_20#galaxy_tool_factory)** that writes other new Galaxy tools? The **[Tool Factory](http://www.youtube.com/watch?v=Nzzc9zHZJjE)** is in the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) (`toolfactory`). Try it **now**
-* **[Learn](/DevNewsBriefs/2012_09_20#multiple_tool_versions)** how to display multiple versions of a tool in the **Galaxy** tool panel. 
+* **[Learn](/src/DevNewsBriefs/2012_09_20/index.md#multiple_tool_versions)** how to display multiple versions of a tool in the **Galaxy** tool panel. 
 * **[CloudLaunch Overhaul](/DevNewsBriefs/2012_09_20#cloudlaunch_overhaul)** includes **[Boto 2.5.2](http://boto.cloudhackers.com)** and simplified instance selection and key generation.
-* Release also includes more **[Tool Shed](/DevNewsBriefs/2012_09_20#tool-shed)** updates, **[Framework](/DevNewsBriefs/2012_09_20#framework)** and **[API](/DevNewsBriefs/2012_09_20#api)** updates, plus **[Security](/DevNewsBriefs/2012_09_20#security_fixes)** and **[Bug](/DevNewsBriefs/2012_09_20#bug_fixes)** fixes.
+* Release also includes more **[Tool Shed](/DevNewsBriefs/2012_09_20#tool-shed)** updates, **[Framework](/DevNewsBriefs/2012_09_20#framework)** and **[API](/DevNewsBriefs/2012_09_20#api)** updates, plus **[Security](/DevNewsBriefs/2012_09_20#security_fixes)** and **[Bug](/src/DevNewsBriefs/2012_09_20/index.md#bug_fixes)** fixes.
 
 ### September 7, 2012
-[Highlights](/DevNewsBriefs/2012_09_07):
+[Highlights](/src/DevNewsBriefs/2012_09_07/index.md):
 * **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/)** has moved from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/).*
 * **Tool Shed** is now running **[Mercurial version 2.2.3](http://mercurial.selenic.com/)**. Many updates and refinements including UI/metadata changes - read the full report!
-* Streamline local setup with the **[Reference Genome rsync Server](/Admin/Data Integration)**: same builds and indexes as on the public **Galaxy [/Main](/Main)** instance.
-* More updates to **[Output and Error Handling](/Admin/Tools/ToolConfigSyntax#a3cstdio3e2c_3cregex3e2c_and_3cexit_code3e_tag_sets)** including updated documentation and enhancements to exit code checks.
+* Streamline local setup with the **[Reference Genome rsync Server](/Admin/Data Integration)**: same builds and indexes as on the public **Galaxy [/Main](/src/Main/index.md)** instance.
+* More updates to **[Output and Error Handling](/src/Admin/Tools/ToolConfigSyntax/index.md#a3cstdio3e2c_3cregex3e2c_and_3cexit_code3e_tag_sets)** including updated documentation and enhancements to exit code checks.
 * **[TopHat2](http://tophat.cbcb.umd.edu/manual.html) / [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml)** latest support includes *Tophat2* fusions output, *Bowtie2* sorted [BAMs](/Learn/Datatypes#bam), and a new [RNA-seq Tutorial](http://main.g2.bx.psu.edu/u/jeremy/p/galaxy-rna-seq-analysis-exercise).
 * **Trackster** updates include improved support for **[bigWig](http://genome.ucsc.edu/goldenPath/help/bigWig.html)** / **[bigBed](http://genome.ucsc.edu/goldenPath/help/bigBed.html)**, new support for **[bedGraph](http://genome.ucsc.edu/goldenPath/help/bedgraph.html)**, and a new search feature for **[GFF](/Learn/Datatypes#gff)** / **[GTF](/Learn/Datatypes#gtf)** / **[BED](/Learn/Datatypes#bed)** datasets.
-* Plus many other **Workflow**, **API**, **Source**, **UI** features and a summary of recent ***[Galaxy Update](/GalaxyUpdates)*** highlights.
+* Plus many other **Workflow**, **API**, **Source**, **UI** features and a summary of recent ***[Galaxy Update](/src/GalaxyUpdates/index.md)*** highlights.
 
 ## Other News
 

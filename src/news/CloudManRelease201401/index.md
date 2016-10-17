@@ -1,7 +1,7 @@
 ---
 date: 2014-01-07T17:50:19Z
 ---
-<div class='newsItemHeader'>[January 2014 CloudMan Release](/News/CloudManRelease201401)</div>
+<div class='newsItemHeader'>[January 2014 CloudMan Release](/src/News/CloudManRelease201401/index.md)</div>
 
 <div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
 
@@ -33,7 +33,7 @@ For more details on the new features, see the the [CHANGELOG](https://bitbucket.
 
 Enjoy and please let us know what you think,
 
-[Enis Afgan](/EnisAfgan) and [Dannon Baker](/DannonBaker)
+[Enis Afgan](/EnisAfgan) and [Dannon Baker](/src/DannonBaker/index.md)
 
 
 CategoryNews

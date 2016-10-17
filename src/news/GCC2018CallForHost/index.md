@@ -1,7 +1,7 @@
 ---
 date: 2016-09-27T21:51:01Z
 ---
-<div class='newsItemHeader'>[GCC2018 Call for Host Proposals](/News/GCC2018CallForHost)</div>
+<div class='newsItemHeader'>[GCC2018 Call for Host Proposals](/src/News/GCC2018CallForHost/index.md)</div>
 
 <table>
   <tr>
@@ -46,7 +46,7 @@ See the **[full call for host proposals](ATTACHMENT_URLDocuments/GCC2018CallForH
 
 Hoping to work with you in 2018!
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
+[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

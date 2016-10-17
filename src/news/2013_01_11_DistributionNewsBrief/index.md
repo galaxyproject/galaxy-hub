@@ -1,9 +1,9 @@
 ---
 date: 2013-01-11T21:24:44Z
 ---
-<div class='newsItemHeader'>[Jan 11, 2013 Distribution & News Brief](/News/2013_01_11_DistributionNewsBrief)</div>
+<div class='newsItemHeader'>[Jan 11, 2013 Distribution & News Brief](/src/News/2013_01_11_DistributionNewsBrief/index.md)</div>
 
-**Complete [News Brief](/DevNewsBriefs/2013_01_11)**
+**Complete [News Brief](/src/DevNewsBriefs/2013_01_11/index.md)**
 <div class='right'><a href='http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='width=200' /></a></div>
 **Highlights:**
 <br />

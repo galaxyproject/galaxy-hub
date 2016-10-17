@@ -1,13 +1,13 @@
 !CloudMan manages a set of applications that are referred to as *services*. Some of the services are user-facing applications (e.g., Galaxy) while others are dependencies for other services and are not used by end-users directly (e.g., NodeJSProxy). A complete list of services managed by !CloudMan is available on the !CloudMan Admin page; that page also allows you to control the state of those services. Below if a list of the available services; if additional information is available about a specific service, it is available by clicking on the service name:
-* [Post Start Script (PSS)](/CloudMan/Services/PSS) - a custom script provided via a URL that's run at the end of the server bootstrap process
-* [Cloudera Manager](/CloudMan/Services/ClouderaManager) - an service manager used to deploy Big Data services (e.g., Hadoop)
-* [Cloudgene](/CloudMan/Services/Cloudgene) - a graphical user interface application for Hadoop-based workflows
-* [Galaxy](/CloudMan/Services/Galaxy) - the flagship service with more information available throughout this wiki; the application is available at the instance root URL/IP
+* [Post Start Script (PSS)](/src/CloudMan/Services/PSS/index.md) - a custom script provided via a URL that's run at the end of the server bootstrap process
+* [Cloudera Manager](/src/CloudMan/Services/ClouderaManager/index.md) - an service manager used to deploy Big Data services (e.g., Hadoop)
+* [Cloudgene](/src/CloudMan/Services/Cloudgene/index.md) - a graphical user interface application for Hadoop-based workflows
+* [Galaxy](/src/CloudMan/Services/Galaxy/index.md) - the flagship service with more information available throughout this wiki; the application is available at the instance root URL/IP
 * Nginx - a proxy server used to serve static content and proxy URIs to local service ports
 * NodeJSProxy - a NodeJS proxy server used by the IPython Interactive Environment
 * Postgres - a dedicated, production-quality database used by Galaxy
 * ProFTPd - an FTP server used to upload large files into Galaxy
-* [Pulsar](/CloudMan/Services/Pulsar) - a remote job execution engine for Galaxy enabling cloud-bursting
+* [Pulsar](/src/CloudMan/Services/Pulsar/index.md) - a remote job execution engine for Galaxy enabling cloud-bursting
 * [Slurmctld](https://computing.llnl.gov/linux/slurm/slurmctld.html) - central management daemon for the Slurm job manager
 * [Slurmd](https://computing.llnl.gov/linux/slurm/slurmd.html) - compute node daemon for the Slurm job manager
 * Supervisor - [Supervisord](http://supervisord.org/) daemon used to manage select services (e.g., NodeJSProxy)

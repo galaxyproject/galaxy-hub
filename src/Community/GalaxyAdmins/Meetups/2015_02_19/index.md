@@ -33,13 +33,13 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 # GalaxyAdmins is Back!
 
-Except for a [meetup at GCC2014](/Events/GCC2014/BoFs/GalaxyAdmins), the [GalaxyAdmins group](/Community/GalaxyAdmins) has been hiatus for a while.  Thanks to the efforts of [Hans-Rudolf Hotz](/HansrudolfHotz), the [GalaxyAdmins group](/Community/GalaxyAdmins) *is back.*  Starting in February 2015, we will resume our bi-monthly web meetups.  
+Except for a [meetup at GCC2014](/Events/GCC2014/BoFs/GalaxyAdmins), the [GalaxyAdmins group](/src/Community/GalaxyAdmins/index.md) has been hiatus for a while.  Thanks to the efforts of [Hans-Rudolf Hotz](/HansrudolfHotz), the [GalaxyAdmins group](/src/Community/GalaxyAdmins/index.md) *is back.*  Starting in February 2015, we will resume our bi-monthly web meetups.  
 
-*[GalaxyAdmins](/Community/GalaxyAdmins)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
+*[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
 ## Fall 2014 Galaxy Community Questionnaires Summary
 
-The lead presentation will summarize the [Galaxy Community Questionnaires](/News/2014Questionnaire) that were run last fall.  The questionnaires covered both Galaxy usage and deployment.
+The lead presentation will summarize the [Galaxy Community Questionnaires](/src/News/2014Questionnaire/index.md) that were run last fall.  The questionnaires covered both Galaxy usage and deployment.
 
 ## Galaxy Project Update: Gravity
 

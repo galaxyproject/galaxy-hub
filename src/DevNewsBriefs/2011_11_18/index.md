@@ -17,29 +17,29 @@ autotoc: true
 ## News & Events
 
 <div class='left'><a href='/GalaxyIsHiring'><img src='/Images/Icons/PointingFinger.png' alt='pointing-finger' width="30px" /></a></div>
-* Keep current on all things Galaxy at our [/News](/News) and [/Events](/Events) wikis.
-* Galaxy is still [hiring](/GalaxyIsHiring)!
+* Keep current on all things Galaxy at our [/News](/News) and [/Events](/src/Events/index.md) wikis.
+* Galaxy is still [hiring](/src/GalaxyIsHiring/index.md)!
 
 ### GCC 2012 is Scheduled!
 
 <div class='right'><a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='GCC 2012' width="180" /></a></div>
 
-**We are pleased to announce that the [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) has been scheduled for July 25-27 in Chicago, Illinois, United States.**  
+**We are pleased to announce that the [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) has been scheduled for July 25-27 in Chicago, Illinois, United States.**  
 
-GCC2012 will be held at the [University of Illinois Chicago (UIC)](http://uic.edu/) campus in downtown Chicago.  See the [GCC2012 conference web page](/Events/GCC2012) for more, including [opportunities to sponsor](/Events/GCC2012/Sponsorships) this year's conference.
+GCC2012 will be held at the [University of Illinois Chicago (UIC)](http://uic.edu/) campus in downtown Chicago.  See the [GCC2012 conference web page](/Events/GCC2012) for more, including [opportunities to sponsor](/src/Events/GCC2012/Sponsorships/index.md) this year's conference.
 
 Some things will be the same as in previous years, but we are also using feedback from last year to guide the 2012 meeting.  We will again be seeking talks (full and lightning) from the community.  More information will be posted as it becomes available.
 
 Please reserve July 25-27 on your calendars!
 
-[Dave Clements](/DaveClements) and Neil Bahroos
+[Dave Clements](/src/DaveClements/index.md) and Neil Bahroos
 
 ### Upcoming Workshops and Presentations
 
 * A one day [Galaxy Developer Workshop](http://evomics.org/workshops/galaxy-developer-workshop/) is being held in [Galaxy Developer Workshop](http://evomics.org/workshops/galaxy-developer-workshop/) in [Český Krumlov, Czech Republic](http://www.ckrumlov.info/php/)
   * Registration deadline is December 15, but you are encouraged to register early, so we can gauge demand.
   * This workshop is immediately following the [Workshop on Genomics](http://evomics.org/workshops/workshop-on-genomics/2012-genomics-cesky-krumlov/2012), which also features Galaxy content, and is still accepting applications.
-* Galaxy will have presentations at [PAG 2012 (January, San Diego)](/Events/PAG2012) on using Galaxy, both on [/Main](/Main) and in the [Cloud](/CloudMan)
+* Galaxy will have presentations at [PAG 2012 (January, San Diego)](/Events/PAG2012) on using Galaxy, both on [/Main](/Main) and in the [Cloud](/src/CloudMan/index.md)
 * There are also [events](/Events) at the [University of Manchester](http://www.nowgen.org.uk/facilities/events/event.php?id=30) and [DDBJ](http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html#DDBJ) in January.
 
 ---
@@ -82,19 +82,19 @@ There are two Tool Sheds supported by the core Galaxy team:
 * **[FastQC:](http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc/)**
   * Wrapper updated to handle changes in HTML output from the most recent FastQC release 0.10.0 from [Babraham Bioinformatics](http://www.bioinformatics.bbsrc.ac.uk/)
   * If you see a broken FastQC html report in the UI, then an older version is being used. **[Upgrading FastQC to version 0.10.0](http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc/) is required**
-  * Galaxy [/Main](/Main) is running version 0.10.0
+  * Galaxy [/Main](/src/Main/index.md) is running version 0.10.0
 * **[Picard:](http://picard.sourceforge.net/)**
   * Wrapper updated to handle changes to command line parameters for `CollectInsertSizeMetrics.jar` in version 1.56
     * If you see an error message about an unrecognized parameter `"DEVIATIONS"` (related to Insertion size metrics), then an older version is being used. **[Upgrading Picard to version 1.56](http://sourceforge.net/projects/picard/files/) is required**
   * Update Picard tools to use `tool-data/shared/jars/picard/*` instead of `tool-data/shared/jars/*`
-  * Galaxy [/Main](/Main) is running version 1.56
+  * Galaxy [/Main](/src/Main/index.md) is running version 1.56
 * **[TopHat:](http://tophat.cbcb.umd.edu/)** 
   * Wrapper updated to support versions 1.3.*
   * If you see an error message about "tophat: option --max-insertion-length not recognized", then an older version is being used. **[Upgrading TopHat to at least version 1.3.1 (with 1.3.3 preferred)](http://tophat.cbcb.umd.edu/) is required** 
-  * Galaxy [/Main](/Main) is running version 1.3.3
+  * Galaxy [/Main](/src/Main/index.md) is running version 1.3.3
 * **[Cufflinks:](http://cufflinks.cbcb.umd.edu/)** 
   * Improved documentation for gene annotation dataset parameters
-  * Galaxy [/Main](/Main) is running version 1.0.3
+  * Galaxy [/Main](/src/Main/index.md) is running version 1.0.3
 * Upgraded tool **Convert Formats -> SFF converter** to use *[sff_extract](http://bioinf.comav.upv.es/sff_extract/download.html)* version 0.2.10
 * **[SAMTools:](http://samtools.sourceforge.net/)**
   * Handle SAMTools stderr messages causing an error state when using [FreeBayes](http://github.com/ekg/freebayes)

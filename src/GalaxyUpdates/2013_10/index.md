@@ -8,14 +8,14 @@ title: October 2013 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the October 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the October 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
 
 # New Public Servers
 
-*A record six new servers* joined [the list of over 40 publicly accessible Galaxy servers](/PublicGalaxyServers) in September.
+*A record six new servers* joined [the list of over 40 publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) in September.
 
 <div class='left'><br /><div class='solid'><a href='http://galaxy.csdb.cn:8000/'><img src='/PublicGalaxyServers/CNIC.DarwinTreeHome.png' alt='CNIC.DarwinTree' width="200" /></a></div></div>
 
@@ -51,7 +51,7 @@ A [tutorial on using the web server](http://kmersvm.beerlab.org/tutorial/) and a
 
 See *[A quality control system for profiles obtained by ChIP sequencing](http://nar.oxfordjournals.org/content/early/2013/09/14/nar.gkt829)* by Mendoza-Parra, *et al.*, in *Nucl. Acids Res.* (2013)
 
-The server is hosted by the [Gronemeyer lab](http://igbmc.fr/research/department/2/team/21/) and [email support](/PublicGalaxyServers#ngs-qc-generator) is available.  You must have an account to use the server; anyone can create an account. "Due to storage space constraints, uploaded datasets into the Galaxy instance may not be available for more than 24hours, thus we strongly suggest users to download their processed files as early as possible."
+The server is hosted by the [Gronemeyer lab](http://igbmc.fr/research/department/2/team/21/) and [email support](/src/PublicGalaxyServers/index.md#ngs-qc-generator) is available.  You must have an account to use the server; anyone can create an account. "Due to storage space constraints, uploaded datasets into the Galaxy instance may not be available for more than 24hours, thus we strongly suggest users to download their processed files as early as possible."
 
 ## USP-FCFRP
 
@@ -139,7 +139,7 @@ The [Laboratory of Biological Physics](http://fisbio.fcfrp.usp.br/), part of the
 
 * "[TALENoffer: genome-wide TALEN off-target prediction](http://dx.doi.org/10.1093/bioinformatics/btt501)" by Jan Grau, Jens Boch, Stefan Posch, *Bioinformatics* (30 August 2013), doi:10.1093/bioinformatics/btt501
 
-And the Galaxy Project now has it's own [CITATION file](https://bitbucket.org/galaxy/galaxy-central/src/tip/CITATION). [CITATION files](http://software-carpentry.org/blog/2013/09/introducing-citation-files.html) "tell readers how best to cite that software."  Also see the [Citing Galaxy](/CitingGalaxy) wiki page.
+And the Galaxy Project now has it's own [CITATION file](https://bitbucket.org/galaxy/galaxy-central/src/tip/CITATION). [CITATION files](http://software-carpentry.org/blog/2013/09/introducing-citation-files.html) "tell readers how best to cite that software."  Also see the [Citing Galaxy](/src/CitingGalaxy/index.md) wiki page.
 
 <br />
 
@@ -148,16 +148,16 @@ And the Galaxy Project now has it's own [CITATION file](https://bitbucket.org/ga
 <div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
-* [Statistical Genomics Postdoc](/News/StatisticalGenomicsPostDocPennState) opening in the Makova lab at Penn State
-* [Computational biology opening](/News/ComputationalBiologyParis) at University Pierre-et-Marie-Curie, Paris
+* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* [Computational biology opening](/src/News/ComputationalBiologyParis/index.md) at University Pierre-et-Marie-Curie, Paris
 * [M2 Développement et intégration d'outils pour la bioanalyse dans Galaxy](http://www.sfbi.fr/content/m2-d%C3%A9veloppement-et-int%C3%A9gration-doutils-pour-la-bioanalyse-dans-galaxy), Limagrain à Chappes (Puy-de-Dôme, Auvergne)
 * [Part time position at GenePeeks](http://bit.ly/18ExEfk) 
 * [Stage M2 Développement et intégration d'outils pour la bioanalyse dans Galaxy chez Vilmorin & Cie.](http://bit.ly/19AYF4e)
 * [PhD or postdoc position available](http://bit.ly/15Iz3nL) at [Laboratory of Computational Biology](http://med.kuleuven.be/lcb/), University of Leuven 
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**.
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**.
 * [Sr Bioinformatics Specialist, Tufts University](http://bit.ly/1bOLLBd), Boston MA.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -401,14 +401,14 @@ Two other resources (at least) became available in September:
 
 * Course Materials for the [2013 UC Davis Bioinformatics Short Course](http://bit.ly/16rAUkf): This course featured 5 great days of lecture and hands-on exercises.  *And,* an Amazon Web Services AMI that includes all tools and data used in the course, is also available. 
 
-See the [list of other tutorials](/Learn#other-tutorials) on the [Learn hub page](/Learn) for more.
+See the [list of other tutorials](/Learn#other-tutorials) on the [Learn hub page](/src/Learn/index.md) for more.
 <br />
 
 # Galaxy Distributions
 
-The most recent [Galaxy distribution was August 12](/DevNewsBriefs/2013_08_12).
+The most recent [Galaxy distribution was August 12](/src/DevNewsBriefs/2013_08_12/index.md).
 
-A new version of [/CloudMan](/CloudMan) was [released in July](/News/CloudManRelease).
+A new version of [/CloudMan](/CloudMan) was [released in July](/src/News/CloudManRelease/index.md).
 
 <br />
 

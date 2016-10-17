@@ -1,7 +1,7 @@
 ---
 date: 2012-12-21T01:10:43Z
 ---
-<div class='newsItemHeader'>[Dec 20, 2012 Distribution & News Brief](/News/2012_12_20_DistributionNewsBrief)</div>
+<div class='newsItemHeader'>[Dec 20, 2012 Distribution & News Brief](/src/News/2012_12_20_DistributionNewsBrief/index.md)</div>
 
 <div class='right'><a href='http://galaxyproject.org'><img src='/Images/NewsGraphics/2012_12_20_ngs-rna-analysis-toolsuite.png' alt='width="225"' /></a></div>
 

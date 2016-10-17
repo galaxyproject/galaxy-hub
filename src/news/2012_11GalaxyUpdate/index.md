@@ -1,25 +1,25 @@
 ---
 date: 2012-10-31T17:05:38Z
 ---
-<div class='newsItemHeader'>[November 2012 Galaxy Update](/News/2012_11GalaxyUpdate)</div>
+<div class='newsItemHeader'>[November 2012 Galaxy Update](/src/News/2012_11GalaxyUpdate/index.md)</div>
 
 <div class='right'><a href='/GalaxyUpdates/2012_11'><img src='/Images/Logos/GalaxyUpdate200.png' alt='November 2012 Galaxy Update' width=150 /></a></div>
 
-The [November 2012 Galaxy Update is now available](/GalaxyUpdates/2012_11). 
+The [November 2012 Galaxy Update is now available](/src/GalaxyUpdates/2012_11/index.md). 
 
 **Highlights:**
 
-* [44 new papers](/GalaxyUpdates/2012_11#new-papers), and *500 total papers in the Galaxy CiteULike group.*
-* [Galaxy's new issue reporting system](/GalaxyUpdates/2012_11#new-trello-issue-board)
-* [Upcoming Events and Deadlines](/GalaxyUpdates/2012_11#upcoming-events-and-deadlines)
-* [Open Positions](/GalaxyUpdates/2012_11#whos-hiring) at five different institutions
-* [Tool Shed Contributions](/GalaxyUpdates/2012_11#tool-shed-contributions)
-* [New Distributions](/GalaxyUpdates/2012_11#new-distributions)
-* [Other News](/GalaxyUpdates/2012_11#other-news)
+* [44 new papers](/src/GalaxyUpdates/2012_11/index.md#new-papers), and *500 total papers in the Galaxy CiteULike group.*
+* [Galaxy's new issue reporting system](/src/GalaxyUpdates/2012_11/index.md#new-trello-issue-board)
+* [Upcoming Events and Deadlines](/src/GalaxyUpdates/2012_11/index.md#upcoming-events-and-deadlines)
+* [Open Positions](/src/GalaxyUpdates/2012_11/index.md#whos-hiring) at five different institutions
+* [Tool Shed Contributions](/src/GalaxyUpdates/2012_11/index.md#tool-shed-contributions)
+* [New Distributions](/src/GalaxyUpdates/2012_11/index.md#new-distributions)
+* [Other News](/src/GalaxyUpdates/2012_11/index.md#other-news)
 
-If you have anything you would like to see in the December *[Galaxy Update](/GalaxyUpdates)*, please let us know.
+If you have anything you would like to see in the December *[Galaxy Update](/src/GalaxyUpdates/index.md)*, please let us know.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
+[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

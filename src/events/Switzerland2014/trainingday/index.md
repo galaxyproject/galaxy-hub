@@ -50,7 +50,7 @@ The training day will be held in the [UniS-Building (room: A -119) of the Univer
 ## Registration
 
 
-Registration is now closed. Please contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/BjoernGruening) if you want your name to be put on the waiting list. There is a good chance, we can still accommodate you. 
+Registration is now closed. Please contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/src/BjoernGruening/index.md) if you want your name to be put on the waiting list. There is a good chance, we can still accommodate you. 
 
 <br />
 

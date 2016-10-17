@@ -8,7 +8,7 @@ title: December 2014 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the December 2014 *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the December 2014 *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # Events
 
@@ -40,9 +40,9 @@ The [French IFB Galaxy Working Group](http://www.ifb-galaxy.org/index.html):
 
 <div class='left'><a href='/Events/VSU2014'><img src='/Images/Logos/VSULogo.jpg' alt='Virginia State University' width="125" /></a></div>
 
-If you are anywhere close to Richmond, Virginia and you want to attend an [Introduction to Galaxy Workshop](/Events/VSU2014), then you are in luck. Thanks to sponsorship from the [College of Natural and Health Sciences](http://www.cnhs.vsu.edu/index.php) at [Virginia State University](http://vsu.edu/), the workshop is free and open to all researchers and students.  The [workshop](/Events/VSU2014) is split into morning and afternoon sessions.  No knowledge of programming or command line interfaces is required.
+If you are anywhere close to Richmond, Virginia and you want to attend an [Introduction to Galaxy Workshop](/src/Events/VSU2014/index.md), then you are in luck. Thanks to sponsorship from the [College of Natural and Health Sciences](http://www.cnhs.vsu.edu/index.php) at [Virginia State University](http://vsu.edu/), the workshop is free and open to all researchers and students.  The [workshop](/src/Events/VSU2014/index.md) is split into morning and afternoon sessions.  No knowledge of programming or command line interfaces is required.
 
-However, space is limited, so you are encouraged to register ***[right now](/Events/VSU2014)***.
+However, space is limited, so you are encouraged to register ***[right now](/src/Events/VSU2014/index.md)***.
 
 ## GCC2015: 6-8 July, Norwich UK
 
@@ -237,15 +237,15 @@ The Galaxy is expanding! Please help it grow.
 * Searching for [bioinformaticians, post-docs, PhD students and software engineers](/News/BioinformaticianFreiburg2014) in Freiburg, Germany at [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs), and the [Bioinformatics Group at the University of Freiburg](http://www.bioinf.uni-freiburg.de//?en)
 * [Research Specialist](http://bit.ly/13pqd0T), Michigan State University, United States
 * [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
-* [Statistical Genomics Postdoc](/News/StatisticalGenomicsPostDocPennState) opening in the Makova lab at Penn State
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
+* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 # Mailing Lists Moved
 
-The [Galaxy mailing lists](/MailingLists) have been moved from the lists.bx.psu.edu domain to the lists.galaxyproject.org domain.  This transition should be largely transparent, but there are a few things to be aware of:
+The [Galaxy mailing lists](/src/MailingLists/index.md) have been moved from the lists.bx.psu.edu domain to the lists.galaxyproject.org domain.  This transition should be largely transparent, but there are a few things to be aware of:
 * List sender addresses and headers will change to reflect the updated domain: from bx.psu.edu to galaxyproject.org.  
 * Existing email filters you have set up may require adjustments.
 * Posts from lists.galaxyproject.org could be categorized as spam until you train your filtering method.
@@ -254,7 +254,7 @@ The prior bx.psu.edu list posting email addresses will continue to accept email,
 
 # New Galaxy-Training Mailing List
 
-The [Galaxy-Training mailing list](https://lists.galaxyproject.org/listinfo/galaxy-training) is for anything related to training with Galaxy and training about Galaxy.  Galaxy-Training is also the official mailing of the [Galaxy Training Network](/Teach/GTN), a [world-wide](/Teach/Trainers) group of training organizations that give Galaxy-based training.
+The [Galaxy-Training mailing list](https://lists.galaxyproject.org/listinfo/galaxy-training) is for anything related to training with Galaxy and training about Galaxy.  Galaxy-Training is also the official mailing of the [Galaxy Training Network](/Teach/GTN), a [world-wide](/src/Teach/Trainers/index.md) group of training organizations that give Galaxy-based training.
 
 If you are at all interested in Galaxy Training then you are encouraged to [join the list](https://lists.galaxyproject.org/listinfo/galaxy-training). Messages to this list are [publicly archived](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/) and will be included in the [Galaxy search engines](http://galaxyproject.org/search/web/) as well.
 
@@ -268,7 +268,7 @@ This brings total membership to [22 training organizations on 5 continents](http
 
 # New Public Servers
 
-Two new [public Galaxy servers](/PublicGalaxyServers) were announced in November:
+Two new [public Galaxy servers](/src/PublicGalaxyServers/index.md) were announced in November:
 
 ## Pitagora-Galaxy
 
@@ -330,16 +330,16 @@ Two new [public Galaxy servers](/PublicGalaxyServers) were announced in November
 
 <br /><br />
 
-**There were no new [Log Board](/Community/Logs) or [Deployment Catalog](/Community/Deployments) entries in November!**  Eek!  Please don't let this happen again!  
+**There were no new [Log Board](/Community/Logs) or [Deployment Catalog](/src/Community/Deployments/index.md) entries in November!**  Eek!  Please don't let this happen again!  
 
-The *[Community Log Board](/Community/Logs)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/Community/Deployments), or [experience](/Community/Logs) you want to share then please publish them **this month.**
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/Community/Deployments), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
 
 
 # New Releases
 
-[BioBlend v0.5.2 was released in October](/News/BioBlendV0.5.2).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  
+[BioBlend v0.5.2 was released in October](/News/BioBlendV0.5.2).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  
 
-New versions of [Galaxy](/GalaxyUpdates/2014_09#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/GalaxyUpdates/2014_09#blend4j-011-release) were all released in August.
+New versions of [Galaxy](/GalaxyUpdates/2014_09#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were all released in August.
 
 Look for a new Galaxy distribution soon.
 

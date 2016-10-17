@@ -8,7 +8,7 @@ title: July 2012 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the July 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the July 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -57,9 +57,9 @@ Welcome to the July 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly
 
 These papers may be of interest to the Galaxy community:
 
-* ["Using Cloud Computing Infrastructure with CloudBioLinux, CloudMan, and Galaxy"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1109.html), by [Enis Afgan](/EnisAfgan), Brad Chapman, Margita Jadan, Vedran Franke, [James Taylor](/JamesTaylor), *Current Protocols in Bioinformatics*. 2012 June: Unit 11.9.
+* ["Using Cloud Computing Infrastructure with CloudBioLinux, CloudMan, and Galaxy"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1109.html), by [Enis Afgan](/EnisAfgan), Brad Chapman, Margita Jadan, Vedran Franke, [James Taylor](/src/JamesTaylor/index.md), *Current Protocols in Bioinformatics*. 2012 June: Unit 11.9.
 
-* ["Using Galaxy to Perform Large-Scale Interactive Data Analyses"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html), by [Jennifer Hillman-Jackson](/JenniferJackson), [Dave Clements](/DaveClements), [Daniel Blankenberg](/Dan), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton), [Galaxy Team](/GalaxyTeam), *Current Protocols in Bioinformatics*. 2012 June: Unit 10.5.
+* ["Using Galaxy to Perform Large-Scale Interactive Data Analyses"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html), by [Jennifer Hillman-Jackson](/JenniferJackson), [Dave Clements](/DaveClements), [Daniel Blankenberg](/Dan), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton), [Galaxy Team](/src/GalaxyTeam/index.md), *Current Protocols in Bioinformatics*. 2012 June: Unit 10.5.
 
 These papers were among [31 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/GalaxyUpdates) (for a total of 348 papers in the last ~16 months).  The new papers are spread [across 8 categories](http://www.citeulike.org/group/16008/tags).
 
@@ -72,30 +72,30 @@ These papers were among [31 papers added to the Galaxy CiteULike group](http://w
 <a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012LogoWide600.png' alt='2012 Galaxy Community Conference'  /></a>
 
 <div class='blue'>
-**[Register by July 18!](/Events/GCC2012/Register)**
+**[Register by July 18!](/src/Events/GCC2012/Register/index.md)**
 </div>
 </div>
 
 <br />
-The [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) will be held July 25-27, in Chicago.  [Register by July 18](/Events/GCC2012/Register) to avoid paying late registration rates.  [Register well before July 18](/Events/GCC2012/Register), if you are planning on attending the [GCC2012 Training Day](/Events/GCC2012/TrainingDay).  Training Day has limited space and will likely sell out before the entire conference does.
+The [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) will be held July 25-27, in Chicago.  [Register by July 18](/Events/GCC2012/Register) to avoid paying late registration rates.  [Register well before July 18](/Events/GCC2012/Register), if you are planning on attending the [GCC2012 Training Day](/src/Events/GCC2012/TrainingDay/index.md).  Training Day has limited space and will likely sell out before the entire conference does.
 
-The [program for all 3 days is now available](/Events/GCC2012/Program). This includes [12 Training Day sessions](/Events/GCC2012/TrainingDay) on [10 different topics](/Events/GCC2012/TrainingDay#workshops), and over [25 presentations](/Events/GCC2012/Program#day-1-july-26-thursday) by Galaxy Community and Galaxy Team members.
+The [program for all 3 days is now available](/Events/GCC2012/Program). This includes [12 Training Day sessions](/Events/GCC2012/TrainingDay) on [10 different topics](/Events/GCC2012/TrainingDay#workshops), and over [25 presentations](/src/Events/GCC2012/Program/index.md#day-1-july-26-thursday) by Galaxy Community and Galaxy Team members.
 
 
 
 
 ## Who's Hiring
 
-<div class='right'>![Please Help!  Yes you!](/Images/Icons/PointingFinger.png)</div>
+<div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
 The Galaxy is expanding!  Please help it grow.
 
-* The [Galaxy Project is hiring](/GalaxyIsHiring) post-docs and software engineers @ Emory and Penn State.
+* The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs and software engineers @ Emory and Penn State.
 * [Bioinformatics Specialist opening in St. Paul, Minnesota](http://www.nature.com/naturejobs/science/jobs/268562-Bioinformatics-Specialist); Galaxy experience required. 
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
 * [Bioinformatics Analyst @ U Virginia](http://jobs.virginia.edu/applicants/Central?quickFind=66485)
 * [Bioinformaticians @ FDA](http://gmod.org/wiki/News/Bioinformaticians @ FDA)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -111,10 +111,10 @@ There are July (*and June 30!*) application and registration deadlines for
 * the [Galaxy Workshops in South Africa](/News/GalaxyWorkshopsInSouthAfrica) (deadline: **June 30**) and the [South African Genetics & Bioinformatics Society Conference](http://genetics.cmc-uct.co.za/) (deadline **July 1**)
 * [Systems Bioinformatics Workshop](http://gaggle.systemsbiology.net/workshop2012/) (deadline: **June 30**)
 * [GMOD Summer School](http://gmod.org/wiki/2012 GMOD Summer School) (deadline: **July 9**)
-* [GCC2012](/Events/GCC2012/Register) (deadline: **July 18**) 
+* [GCC2012](/src/Events/GCC2012/Register/index.md) (deadline: **July 18**) 
 * and eScience 2012, Beyond the Genome, !BioVis, ISCB-Asia, and the CSHL Advanced Sequencing Technologies and Applications, and Computational and Comparative Genomics courses.  
 
-It's also a big month for conferences including Evolution, [ISMB and BOSC 2012](/Events/ISMB2012), and of course [GCC2012](/Events/GCC2012).
+It's also a big month for conferences including Evolution, [ISMB and BOSC 2012](/Events/ISMB2012), and of course [GCC2012](/src/Events/GCC2012/index.md).
 
 See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com) for details on these and other events.
 
@@ -205,9 +205,9 @@ Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2
 
 ## New Distributions
 
-The most recent Galaxy distribution was [released on May 11, 2012](/DevNewsBriefs/2012_05_11).  
+The most recent Galaxy distribution was [released on May 11, 2012](/src/DevNewsBriefs/2012_05_11/index.md).  
 
-A new version of CloudMan was [Released in June](/News/NewCloudManRelease).
+A new version of CloudMan was [Released in June](/src/News/NewCloudManRelease/index.md).
 
 ## Other News
 
@@ -219,12 +219,12 @@ A new version of CloudMan was [Released in June](/News/NewCloudManRelease).
 1. Several new videos, screencasts, and tutorials were posted:
   * [OpenHelix Video Tip of the Week: Visualizing the Galaxy](http://blog.openhelix.eu/?p=12439)
   * [Using PhyloTastic Tools inside Galaxy](http://www.youtube.com/watch?v=kMME658xOu4&feature=youtu.be), by Rutger Vos
-  * [Getting Started with the CloudMan Platform Using BioCloudCentral](http://www.youtube.com/watch?v=AKu_CbbgEj0), by [Enis Afgan](/EnisAfgan)
+  * [Getting Started with the CloudMan Platform Using BioCloudCentral](http://www.youtube.com/watch?v=AKu_CbbgEj0), by [Enis Afgan](/src/EnisAfgan/index.md)
   * [Using Galaxy for NGS Analysis](http://chagall.med.cornell.edu/galaxy/), by [las2017 AT med DOT cornell DOT edu](Luce Skrabanek)
   * [RNA-Seq Course v1.0 documentation](http://training.bioinformatics.ucdavis.edu/docs/2012/05/RNA/index.html), by [UC Davis Bioinformatics Professional Training Program](http://training.bioinformatics.ucdavis.edu/) 
   * [Cloud Computing for Bioinformatics](http://training.bioinformatics.ucdavis.edu/docs/2012/05/AWS/index.html) (using AWS and Galaxy, but not using CloudMan), by [UC Davis Bioinformatics Professional Training Program](http://training.bioinformatics.ucdavis.edu/) 
   * [Genomic Resequencing Variant Detection and Interpretation in a Diagnostic Context Hands on workshop: Next generation sequence data analysis](https://humgenprojects.lumc.nl/trac/GAPSS3/wiki/resequencing), by [Hailiang (Leon) Mei](http://www.nbic.nl/about-nbic/nbic-faculty/details/hailiang-leon-mei/), [Jeroen Laros](http://www.liacs.nl/~jlaros/)
 
 
-1. Several new and updated genomes were added to [Galaxy Main](/Main) in June:
+1. Several new and updated genomes were added to [Galaxy Main](/src/Main/index.md) in June:
   * bosTau4, bosTau6, bosTauMd3, canFam2, ce10, gorGor3, mm9, mm10, panTro3, rn4,  

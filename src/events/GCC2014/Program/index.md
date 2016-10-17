@@ -24,9 +24,9 @@ As in past years, talks will cover a wide range of biology, bioinformatics, and 
 
 # Day 0: Training Day, June 30
 
-The [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014) will start on June 30 with a *[Training Day](/Events/GCC2014/TrainingDay)* featuring parallel tracks, each with several multiple-hour workshops.
+The [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014) will start on June 30 with a *[Training Day](/src/Events/GCC2014/TrainingDay/index.md)* featuring parallel tracks, each with several multiple-hour workshops.
 
-Topics were nominated and then voted on by the Galaxy Community.  There are 15 sessions covering 12 topics, offered in 5 parallel tracks.  Workshops are hands-on and participants will be strongly encouraged to bring a laptop and follow along.  Workshop content and prerequisites are described on the [Training Day page](/Events/GCC2014/TrainingDay).
+Topics were nominated and then voted on by the Galaxy Community.  There are 15 sessions covering 12 topics, offered in 5 parallel tracks.  Workshops are hands-on and participants will be strongly encouraged to bring a laptop and follow along.  Workshop content and prerequisites are described on the [Training Day page](/src/Events/GCC2014/TrainingDay/index.md).
 
 <br /><br />
 

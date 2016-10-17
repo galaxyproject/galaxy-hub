@@ -1,7 +1,7 @@
 ---
 date: 2014-01-18T21:39:51Z
 ---
-<div class='newsItemHeader'>[Google Summer of Code Proposals](/News/GSoC2014Call)</div>
+<div class='newsItemHeader'>[Google Summer of Code Proposals](/src/News/GSoC2014Call/index.md)</div>
 
 <div class='right'><a href='/gmod:GSoC'><img src='/Images/Logos/GSoC2014Logo.png' alt='Google Summer of Code 2014' width="200" /></a></div>
 
@@ -14,7 +14,7 @@ The Genome Informatics Group is organizing the joint efforts of Galaxy, [http://
 
 If your interests lean more towards toolkits, I would like to point out that the [Open Bioinformatics Foundation (OBF)](http://open-bio.org), the group behind the *Bio** toolkits (including [BioPython](http://biopython.org/)) and the [BOSC](http://www.open-bio.org/wiki/BOSC_2014) conferences, is also [looking for people to coordinate their proposal](http://lists.open-bio.org/pipermail/open-bio-l/2014-January/000922.html).
 
-[Dave Clements](/DaveClements)
+[Dave Clements](/src/DaveClements/index.md)
 
 
 CategoryNews

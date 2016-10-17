@@ -1,7 +1,7 @@
 ---
 date: 2012-08-28T04:39:49Z
 ---
-<div class='newsItemHeader'>[Liste de diffusion Galaxy France](/News/ListeDeDiffusionGalaxyFrance)</div>
+<div class='newsItemHeader'>[Liste de diffusion Galaxy France](/src/News/ListeDeDiffusionGalaxyFrance/index.md)</div>
 
 <div class='right'><a href='http://france.list.galaxyproject.org/'><img src='/Images/Logos/GalaxyFranceListSearch.png' alt=''  /></a></div>
 
@@ -21,7 +21,7 @@ Pour toutes les questions techniques (installation, développement d'outil) nous
 
 Pour vous aider dans votre utilisation de Galaxy, voici une liste de liens utiles (en plus de la présente liste):
 
-* [Wiki Galaxy officiel](/FrontPage)
+* [Wiki Galaxy officiel](/src/FrontPage)
 * [Serveur public principal](https://main.g2.bx.psu.edu/)
 * [Liste d'annonce](http://announce.list.galaxyproject.org/)
 * [Liste utilisateurs "simples" Galaxy](http://user.list.galaxyproject.org/)
@@ -29,7 +29,7 @@ Pour vous aider dans votre utilisation de Galaxy, voici une liste de liens utile
 
 A très bientôt sur la liste Galaxy France,
 
-Les administrateurs: Alban Lermine, Olivier Inizan, Rémi Marenco, [Dave Clements](/DaveClements) & [Jennifer Jackson](/JenniferJackson).
+Les administrateurs: Alban Lermine, Olivier Inizan, Rémi Marenco, [Dave Clements](/DaveClements) & [Jennifer Jackson](/src/JenniferJackson/index.md).
 
 Alban Lermine
 

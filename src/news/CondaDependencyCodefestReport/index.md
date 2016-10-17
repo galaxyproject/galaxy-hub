@@ -1,7 +1,7 @@
 ---
 date: 2016-04-07T01:04:32Z
 ---
-<div class='newsItemHeader'>[Conda Dependencies Codefest Report](/News/CondaDependencyCodefestReport)</div>
+<div class='newsItemHeader'>[Conda Dependencies Codefest Report](/src/News/CondaDependencyCodefestReport/index.md)</div>
 
 The [codefest](https://github.com/galaxyproject/tools-iuc/issues/700) started via hangouts at 10am EDT on Monday April 4, with around 8 participants. It was designed to be beginner friendly, which increased contribution from the community. 4 members of the galaxy community were [added as contributors](https://github.com/bioconda/bioconda-recipes/issues/1#issuecomment-205241333) to the [bioconda-recipe repository](https://github.com/bioconda/bioconda-recipes) as a result of this hackathon.
 
@@ -39,7 +39,7 @@ Infrastructure:
 
 Thanks to everyone who participated!
 
-[Rémi Marenco](/RemiMarenco). [Nitesh Turaga](/NiteshTuraga), and [Björn Grüning](/BjoernGruening)
+[Rémi Marenco](/RemiMarenco). [Nitesh Turaga](/NiteshTuraga), and [Björn Grüning](/src/BjoernGruening/index.md)
 
 
 CategoryNews

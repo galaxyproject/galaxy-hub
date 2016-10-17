@@ -8,7 +8,7 @@ PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
 
 
 
-Abstracts for talks that were presented at the [GCC2012 main sessions](../Program).  See [Training Day](/Events/GCC2012/TrainingDay) for training abstracts.
+Abstracts for talks that were presented at the [GCC2012 main sessions](../Program).  See [Training Day](/src/Events/GCC2012/TrainingDay/index.md) for training abstracts.
 
 
 
@@ -17,9 +17,9 @@ Abstracts for talks that were presented at the [GCC2012 main sessions](../Progra
 
 ## State of the Galaxy
 
-<div class='right'>![](/GalaxyTeam/anton.jpg)&nbsp;![](/GalaxyTeam/james.jpg)</div>
+<div class='right'>![](/GalaxyTeam/anton.jpg)&nbsp;![](/src/GalaxyTeam/james.jpg)</div>
 
-**[Anton Nekrutenko](/anton)<sup>1</sup> and [James Taylor](/JamesTaylor)<sup>2</sup>**
+**[Anton Nekrutenko](/anton)<sup>1</sup> and [James Taylor](/src/JamesTaylor/index.md)<sup>2</sup>**
 
  <sup>1</sup> [Penn State University](http://psu.edu/)<br />
  <sup>2</sup> [Emory University](http://emory.edu/)
@@ -157,7 +157,7 @@ Our web service, [Nebula](http://nebula.curie.fr/), was designed for biologists.
 
 ## Implications of a Galaxy Community Cloud in Clinical Genomics
 
-**[Sanjay Joshi](/SanjayJoshi)<sup>1</sup>**
+**[Sanjay Joshi](/src/SanjayJoshi/index.md)<sup>1</sup>**
 
  <sup>1</sup> Chief Technical Officer (CTO), [Life Sciences](http://www.isilon.com/industry/lifesciences), [EMC Isilon](http://emc.com/)
 
@@ -171,7 +171,7 @@ The intersection of the established Galaxy Research community with the requireme
 
 <div class='right'>![](/GalaxyTeam/EnisAfgan.jpg)</div>
 
-**[Enis Afgan](/EnisAfgan)<sup>1,2</sup>**
+**[Enis Afgan](/src/EnisAfgan/index.md)<sup>1,2</sup>**
 
  <sup>1</sup> [Ruđer Bošković Institute (RBI)](http://www.irb.hr/eng/)<br />
  <sup>2</sup> [Victoria Life Sciences Computation Initiative (VLSCI)](http://www.vlsci.org.au/), [University of Melbourne](http://www.unimelb.edu.au/)
@@ -182,7 +182,7 @@ An increasing number of small groups do not have simple access to needed bioinfo
 
 Through the context of CloudMan, this talk will focus on the components required to establish a national collaborative initiative that aims at connecting genome researchers with massive datasets, sophisticated analysis and visualization tools, and large-scale computational and storage infrastructure. The initiative is known as the Genomics Virtual Laboratory; it is designed to scale to multiple locations and arbitrary cluster sizes as well as be supported by comprehensive training courses, outreach programs, and end-user support.
 
-*Note: If you want hands-on experience with CloudMan, you are encouraged to attend the [Training Day session on CloudMan](/Events/GCC2012/TrainingDay).*
+*Note: If you want hands-on experience with CloudMan, you are encouraged to attend the [Training Day session on CloudMan](/src/Events/GCC2012/TrainingDay/index.md).*
 
 
 ## Keeping Track of Life Science Data
@@ -230,7 +230,7 @@ Contact: support@oqtans.org; ratschg@mskcc.org
 
 <div class='right'>![](/Minevich.jpg)</div>
 
-**Gregory Minevich<sup>1</sup>**, Danny Park<sup>1</sup>, Richard J. Poole<sup>1</sup>, [Daniel Blankenberg](/Dan)<sup>2</sup>, [Anton Nekrutenko](/anton)<sup>2</sup> and Oliver Hobert<sup>1</sup><br />
+**Gregory Minevich<sup>1</sup>**, Danny Park<sup>1</sup>, Richard J. Poole<sup>1</sup>, [Daniel Blankenberg](/Dan)<sup>2</sup>, [Anton Nekrutenko](/src/anton/index.md)<sup>2</sup> and Oliver Hobert<sup>1</sup><br />
 
  <sup>1</sup> Department of Biochemistry and Molecular Biophysics, Howard Hughes Medical Institute, Columbia University Medical Center, New York, NY, USA<br />
  <sup>2</sup> Center for Comparative Genomics and Bioinformatics, Penn State University, University Park, PA, USA<br />
@@ -296,7 +296,7 @@ As the cost of next generation sequencing decreases and the accessibility increa
 
 <div class='right'>![](/GalaxyTeam/jgoecks-banff-small.png)</div>
 
-**[Jeremy Goecks](/JeremyGoecks)<sup>1</sup>**
+**[Jeremy Goecks](/src/JeremyGoecks/index.md)<sup>1</sup>**
 
  <sup>1</sup> [Emory University](http://emory.edu/)
 
@@ -312,7 +312,7 @@ The Galaxy team is building a framework for Web-based visualization of next-gene
 
 <div class='right'>![](/MikeLelivelt/pic.png)</div>
 
-**[Mike Lelivelt](/MikeLelivelt)<sup>1</sup>**
+**[Mike Lelivelt](/src/MikeLelivelt/index.md)<sup>1</sup>**
 
  <sup>1</sup> Director of Bioinformatics and Software Products, [Ion Torrent](http://lifetech.com) 
 
@@ -326,7 +326,7 @@ Ion Torrent has pioneered an entirely new approach to sequencing that enables a 
 
 ## High level distributed processing pipelines with Galaxy
 
-**Brad Chapman<sup>1</sup>** ([bchapman@hsph.harvard.edu](bchapman@hsph.harvard.edu)), Shannan Ho Sui<sup>1</sup>, [Enis Afgan](/EnisAfgan)<sup>3</sup>, Ilya Sytchev<sup>2</sup>, Jason Evans<sup>1</sup>, Oliver Hofmann<sup>1</sup>, Winston Hide<sup>1</sup>
+**Brad Chapman<sup>1</sup>** ([bchapman@hsph.harvard.edu](bchapman@hsph.harvard.edu)), Shannan Ho Sui<sup>1</sup>, [Enis Afgan](/src/EnisAfgan/index.md)<sup>3</sup>, Ilya Sytchev<sup>2</sup>, Jason Evans<sup>1</sup>, Oliver Hofmann<sup>1</sup>, Winston Hide<sup>1</sup>
 
  <sup>1</sup> [Harvard School of Public Health](http://compbio.sph.harvard.edu/chb/)<br />
  <sup>2</sup> Center for Stem Cell Bioinformatics, Harvard Stem Cell Institute<br />
@@ -456,7 +456,7 @@ GenomeSpace is a software environment that provides a connection layer between b
 
 <div class='right'>![](/GalaxyTeam/greg.jpg)</div>
 
-**[Greg von Kuster](/greg_vonkuster)<sup>1</sup>**
+**[Greg von Kuster](/src/greg_vonkuster/index.md)<sup>1</sup>**
 
  <sup>1</sup> [Penn State University](http://psu.edu/)
 
@@ -466,7 +466,7 @@ Galaxy’s ease of use and rich feature set have made it a powerful enabler of b
 
 Big changes have been going on in how tools are packaged with the distribution.  This talk will focus on what's changed, and what you need to know about the Galaxy [/Tool Shed](/Tool Shed) to deploy your own Galaxy instance.
 
-*Note: If you want hands-on experience with the Galaxy [/Tool Shed](/Tool Shed), you are encouraged to attend the [Tool Shed Training Day session](/Events/GCC2012/TrainingDay).*
+*Note: If you want hands-on experience with the Galaxy [/Tool Shed](/Tool Shed), you are encouraged to attend the [Tool Shed Training Day session](/src/Events/GCC2012/TrainingDay/index.md).*
 
 <br />
 

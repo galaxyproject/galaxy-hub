@@ -7,7 +7,7 @@ title: Introduction to Galaxy for Next Generation Sequencing Analysis
 
 
 **May 27, 2015, 10:00-4:00**<br />
-Instructor: [Anton Nekrutenko](/anton), Penn State University<br /><br />
+Instructor: [Anton Nekrutenko](/src/anton/index.md), Penn State University<br /><br />
 Room 302C, [Conference Center](http://www.pennstatehershey.org/c/document_library/get_file?folderId=11516&name=DLFE-17612.pdf)<br />[Penn State Hershey](http://www.pennstatehershey.org/)<br />
 Hershey, Pennsylvania, United States
 </div>

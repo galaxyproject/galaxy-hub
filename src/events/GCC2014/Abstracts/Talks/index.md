@@ -70,7 +70,7 @@ iReport is available from the DTL toolshed ([toolshed.dtls.nl](http://toolshed.d
 
 ### Galaxy Deployment on Heterogenous Hardware
 
-<div class='right'>![Carrie Ganote](/Events/GCC2014/Abstracts/CarrieGanote.jpg)</div>
+<div class='right'>![Carrie Ganote](/src/Events/GCC2014/Abstracts/CarrieGanote.jpg)</div>
 
 **Carrie Ganote<sup>1</sup>,** Soichi Hayashi<sup>1</sup>
 
@@ -88,7 +88,7 @@ We present an instance of Galaxy at Indiana University, installed and maintained
 
 ### Connecting Galaxy to tools with alternative storage and compute models
 
-<div class='right'>![Brad Chapman](/Events/GCC2014/Abstracts/BradChapman.jpg)</div>
+<div class='right'>![Brad Chapman](/src/Events/GCC2014/Abstracts/BradChapman.jpg)</div>
 
 **Brad Chapman<sup>1</sup>,** Rory Kirchner<sup>1</sup>, Oliver Hofmann<sup>1</sup>, Winston Hide<sup>1</sup>
 
@@ -102,7 +102,7 @@ The community developed [bcbio-nextgen framework](https://github.com/chapmanb/bc
 
 ### A journal’s experiences of reproducing published data analyses using Galaxy
 
-<div class='right'>![Peter Li](/Events/GCC2014/Abstracts/PeterLi.jpg)</div>
+<div class='right'>![Peter Li](/src/Events/GCC2014/Abstracts/PeterLi.jpg)</div>
 
 **Peter Li<sup>1</sup>,** Huayan Gao<sup>2</sup>, Tin-Lap Lee<sup>2</sup> and Scott C. Edmunds<sup>1</sup>
 
@@ -137,9 +137,9 @@ As a trusted industry leader in designing and implementing effective scientific 
 
 ### State of the Galaxy
 
-<div class='right'>![](/GalaxyTeam/anton.jpg)&nbsp;![](/GalaxyTeam/james.jpg)</div>
+<div class='right'>![](/GalaxyTeam/anton.jpg)&nbsp;![](/src/GalaxyTeam/james.jpg)</div>
 
-**[Anton Nekrutenko](/anton)<sup>1</sup> and [James Taylor](/JamesTaylor)<sup>2</sup>**
+**[Anton Nekrutenko](/anton)<sup>1</sup> and [James Taylor](/src/JamesTaylor/index.md)<sup>2</sup>**
 
  <sup>1</sup> [Penn State University](http://psu.edu/)<br />
  <sup>2</sup> [Emory University](http://emory.edu/)
@@ -154,7 +154,7 @@ An overview of where the Galaxy Project is and where it is going.
 
 <div class='right'>![](/MikeLelivelt/pic.png)</div>
 
-**[Mike Lelivelt](/MikeLelivelt)**<sup>1</sup>
+**[Mike Lelivelt](/src/MikeLelivelt/index.md)**<sup>1</sup>
 
  <sup>1</sup> Director of Bioinformatics and Software Products, [Ion Torrent, part of Life Technologies](http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html)
 
@@ -168,15 +168,15 @@ An overview of where the Galaxy Project is and where it is going.
 
 ### The Galaxy Tool Shed: A Framework for Building Galaxy Tools
 
-<div class='right'>![Greg Von Kuster](/GalaxyTeam/greg.jpg)</div>
+<div class='right'>![Greg Von Kuster](/src/GalaxyTeam/greg.jpg)</div>
 
-**[Greg von Kuster](/greg_vonkuster)<sup>1</sup>** and the [Galaxy Team](/GalaxyTeam)
+**[Greg von Kuster](/greg_vonkuster)<sup>1</sup>** and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
  <sup>1</sup> [Penn State University](http://psu.edu/), State College, Pennsylvania, United States<br />
  
 **[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2014/VonKuster.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=555f1477-4676-425f-9701-ed70cee6d1ca)**
 
-The [Tool Shed](/ToolShed) has become an integral part of the process for building and deploying Galaxy tools and other utilities.  In addition to tools, the Tool Shed supports Galaxy Data Managers, custom data types and exported Galaxy workflows.  This list will be extended to support additional utilities when appropriate.  The Tool Shed provides the ability to define relationships between repositories, enabling complementary utilities to be installed together.
+The [Tool Shed](/src/ToolShed/index.md) has become an integral part of the process for building and deploying Galaxy tools and other utilities.  In addition to tools, the Tool Shed supports Galaxy Data Managers, custom data types and exported Galaxy workflows.  This list will be extended to support additional utilities when appropriate.  The Tool Shed provides the ability to define relationships between repositories, enabling complementary utilities to be installed together.
 
 The Tool Shed assures reproducibility within Galaxy when utilities are installed from the Tool Shed using the streamlined installation process between the two applications.  An underlying principle of this assurance is that all versions of utilities available in the Tool Shed will always be accessible to any Galaxy instance.  This principle implies that a select development path should be followed to produce repositories that are optimal for sharing.
 
@@ -231,9 +231,9 @@ We present a Galaxy based web server for processing and visualizing deeply seque
 
 ### The GCC2014 Hackathon
 
-<div class='right'>![GCC2014 Hackathon Participants](/Images/Logos/GCC2014HackLogoSquare200.png)</div>
+<div class='right'>![GCC2014 Hackathon Participants](/src/Images/Logos/GCC2014HackLogoSquare200.png)</div>
 
-**[Dannon Baker](/DannonBaker)<sup>1</sup>, [Brad Chapman](http://bcbio.wordpress.com/)<sup>2</sup>, [John Chilton](/JohnChilton)<sup>3</sup>, [Kyle Ellrott](http://www.soe.ucsc.edu/people/kellrott)<sup>4</sup>, and [GCC2014 Hackathon Participants](/Events/GCC2014/Hackathon)**
+**[Dannon Baker](/DannonBaker)<sup>1</sup>, [Brad Chapman](http://bcbio.wordpress.com/)<sup>2</sup>, [John Chilton](/JohnChilton)<sup>3</sup>, [Kyle Ellrott](http://www.soe.ucsc.edu/people/kellrott)<sup>4</sup>, and [GCC2014 Hackathon Participants](/src/Events/GCC2014/Hackathon/index.md)**
 
  <sup>1</sup> [Johns Hopkins University](http://jhu.edu/), Baltimore Maryland, United States<br />
  <sup>2</sup> [Harvard University](http://harvard.edu), Cambridge, Massachusetts, United States<br />
@@ -242,7 +242,7 @@ We present a Galaxy based web server for processing and visualizing deeply seque
 
 **[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2014/Hackathon.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1ed15c02-fc5e-4fd0-86e3-c15af143d34f)**
 
-This year for the three days before GCC we are hosting a [Galaxy Hackathon](/Events/GCC2014/Hackathon).  Hackathons are events at which a group of developers with different backgrounds and skills collaborate hands-on and face-to-face to try to solve problems affecting a particular community, and in this case the Galaxy community. Gathering a diverse set of people in a single room where they can focus on code free of all the distractions that are inevitable back at the office has proven to be a great mechanism for not only getting interesting things done in a short amount of time, but also for community building.  The hackathon goals include growing the Galaxy developer community and connecting existing developers who are interested in similar problems, giving them an in-person opportunity to code together and plan for future post-hackathon collaborations.
+This year for the three days before GCC we are hosting a [Galaxy Hackathon](/src/Events/GCC2014/Hackathon/index.md).  Hackathons are events at which a group of developers with different backgrounds and skills collaborate hands-on and face-to-face to try to solve problems affecting a particular community, and in this case the Galaxy community. Gathering a diverse set of people in a single room where they can focus on code free of all the distractions that are inevitable back at the office has proven to be a great mechanism for not only getting interesting things done in a short amount of time, but also for community building.  The hackathon goals include growing the Galaxy developer community and connecting existing developers who are interested in similar problems, giving them an in-person opportunity to code together and plan for future post-hackathon collaborations.
 
 In this talk, we’ll very briefly describe our Galaxy Hackathon goals and provide a general overview of progress made at the event.  Since hackathons are by definition community driven, most of the talk will showcase the efforts of and be presented by the self-organizing groups that form during the event.
 
@@ -252,7 +252,7 @@ In this talk, we’ll very briefly describe our Galaxy Hackathon goals and provi
 
 <div class='right'><a href='/Dan'><img src='/GalaxyTeam/dan.jpg' alt='Dan Blenkenberg' width="120" /></a></div>
 
-**[Daniel Blankenberg](/Dan)<sup>1</sup>** and the [Galaxy Team](/GalaxyTeam)<sup>2</sup>
+**[Daniel Blankenberg](/Dan)<sup>1</sup>** and the [Galaxy Team](/src/GalaxyTeam/index.md)<sup>2</sup>
 
  <sup>1</sup> [Penn State University](http://psu.edu), State College, Pennsylvania, United States<br />
  <sup>2</sup> [http://galaxyproject.org/](http://galaxyproject.org/)
@@ -271,7 +271,7 @@ Here, we describe a new set of resources that aim to rectify this situation. The
 
 <div class='right'><a href='/JohnChilton'><img src='/GalaxyTeam/JohnChiltonSmaller.jpg' alt='John Chilton' width="120" /></a></div>
 
-**[John Chilton](/JohnChilton)<sup>1</sup>** and the [Galaxy Team](/GalaxyTeam)
+**[John Chilton](/JohnChilton)<sup>1</sup>** and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
  <sup>1</sup> [Penn State University](http://psu.edu), State College, Pennsylvania, United States
 
@@ -306,7 +306,7 @@ Dataset collections are a powerful new feature that greatly enhance the expressi
 
 <div class='right'><a href='/Marten'><img src='/GalaxyTeam/marten.jpg' alt='Martin Čech' width="120" /></a></div>
 
-**[Martin Čech](/Marten)<sup>1</sup>**, [Pavel Švéda](http://www.linkedin.com/in/pavelsveda)<sup>1</sup>, [Ondřej Fabián](https://www.linkedin.com/pub/ondrej-fabian/33/6a5/1b8)<sup>1</sup> and the [Galaxy Team](/GalaxyTeam)
+**[Martin Čech](/Marten)<sup>1</sup>**, [Pavel Švéda](http://www.linkedin.com/in/pavelsveda)<sup>1</sup>, [Ondřej Fabián](https://www.linkedin.com/pub/ondrej-fabian/33/6a5/1b8)<sup>1</sup> and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
  <sup>1</sup> [Penn State University](http://psu.edu), State College, Pennsylvania, United States
 
@@ -332,7 +332,7 @@ In 2010, the Munich regional area successfully applied for a grant ('Leading-Edg
 
 Aiming for a structured, biomedical metadata-driven organization of clinical NGS data, an interconnected, user-friendly, modular, broad-ranged and self-hosted open source analysis platform turned out to be crucial. Or in a nutshell: a Galaxy instance. 
 
-This talk is about the experiences of nearly three years of getting from blank to a conceptual Galaxy-driven NGS infrastructure, dedicated to scientist or clinicians from basic research up to experimental molecular diagnostics within a university medical center’s environment. Topics will include experiences with core IT, faculty politics, project cooperations, software establishment etc. as well as derived Dos and Don’ts. Furthermore, some small software improvements will be presented, hopefully contributing back to the community. On top, we would like to draw connections to contents presented, discussed, improved since the last two GCC’s in [Chicago](/Events/GCC2012) and [Oslo](/Events/GCC2013) - and also may have been forgotten. Over time, we had the impression to face several of them, pretty glad not to be in a minority of one.
+This talk is about the experiences of nearly three years of getting from blank to a conceptual Galaxy-driven NGS infrastructure, dedicated to scientist or clinicians from basic research up to experimental molecular diagnostics within a university medical center’s environment. Topics will include experiences with core IT, faculty politics, project cooperations, software establishment etc. as well as derived Dos and Don’ts. Furthermore, some small software improvements will be presented, hopefully contributing back to the community. On top, we would like to draw connections to contents presented, discussed, improved since the last two GCC’s in [Chicago](/Events/GCC2012) and [Oslo](/src/Events/GCC2013/index.md) - and also may have been forgotten. Over time, we had the impression to face several of them, pretty glad not to be in a minority of one.
 
 <br />
 
@@ -364,7 +364,7 @@ Analyses in Galaxydx are organized by project and user, output files are owned b
 
 ### Using Galaxy and Globus to deliver Science as a Service
 
-<div class='right'>![Ravi Madduri](/Events/GCC2014/Abstracts/RaviMadduri.jpg)</div>
+<div class='right'>![Ravi Madduri](/src/Events/GCC2014/Abstracts/RaviMadduri.jpg)</div>
 
 **[Ravi K Madduri](http://www.mcs.anl.gov/person/ravi-madduri)<sup>1,2</sup>**, Paul Dave<sup>2</sup>, Alex Rodriguez<sup>2</sup>, Vassily Trubetskoy<sup>3</sup>, Dinanath Sulakhe<sup>2</sup>, Lea Davis<sup>3</sup>, Nancy Cox<sup>3</sup> and Ian Foster<sup>1,2</sup>
 
@@ -382,7 +382,7 @@ We will present our efforts on using Galaxy and [Globus](https://www.globus.org/
 
 ### SGI UV:  Harnessing the Big Brain Platform for Galaxy
 
-<div class='right'>![James Reaney](/Events/GCC2014/Abstracts/JamesReaney.png)</div>
+<div class='right'>![James Reaney](/src/Events/GCC2014/Abstracts/JamesReaney.png)</div>
 
 **[James Reaney](http://www.sgi.com/solutions/genomics/)<sup>1</sup>**
 

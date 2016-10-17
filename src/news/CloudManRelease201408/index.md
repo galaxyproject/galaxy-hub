@@ -1,7 +1,7 @@
 ---
 date: 2014-08-08T11:18:24Z
 ---
-<div class='newsItemHeader'>[August 2014 CloudMan Release](/News/CloudManRelease201408)</div>
+<div class='newsItemHeader'>[August 2014 CloudMan Release](/src/News/CloudManRelease201408/index.md)</div>
 
 <div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
 
@@ -27,7 +27,7 @@ For complete details on implemented changes, please see the [source code commits
 
 Enjoy and please let us know what you think,
 
-[Enis](/EnisAfgan) & [Dannon](/DannonBaker) & [The Galaxy Team](/GalaxyTeam)
+[Enis](/EnisAfgan) & [Dannon](/DannonBaker) & [The Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

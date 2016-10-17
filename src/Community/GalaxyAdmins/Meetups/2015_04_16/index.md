@@ -31,7 +31,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 <br />
 
-*[GalaxyAdmins](/Community/GalaxyAdmins)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
+*[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
 <div class='right'><br /><a href='http://ncgas.org/'><img src='/Images/Logos/NCGASLogoWide.jpg' alt='National Center for Genome Analysis Support (NCGAS)' width="250" /></a></div>
 
@@ -41,11 +41,11 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 ## Galaxy Project Update: Galaxy's new tool form support
 
-[Sam Guerler](/guerler) of the [Galaxy Team](/GalaxyTeam) will discuss recent work to update Galaxy's tool forms.
+[Sam Guerler](/guerler) of the [Galaxy Team](/src/GalaxyTeam/index.md) will discuss recent work to update Galaxy's tool forms.
 
 ## Call Technology
 
-<div class='right'>![April 2015 GalaxyAdmina Meetup, Online Conference Room](/Images/Logos/AdobeConnectSquarish.jpg)</div>
+<div class='right'>![April 2015 GalaxyAdmina Meetup, Online Conference Room](/src/Images/Logos/AdobeConnectSquarish.jpg)</div>
 
 The [meetup's online conference room](https://connect.johnshopkins.edu/galaxyadmins201504/) will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 

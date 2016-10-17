@@ -7,22 +7,22 @@ Galaxy is driven and supported by its user and developer communities.  This page
 
 # Membership
 
-Any organization, group, or individual who [uses](/Learn), [deploys](/Admin), or develops Galaxy is considered a part of the Galaxy community.  Community members are free to integrate their own tools and/or data into Galaxy.  Members within the Galaxy community are located all around the world.  Subgroups within the overall community may differ in size (small versus large) and/or degree of privacy (public versus private).  However, regardless of affiliation, Galaxy's primary mission is to contribute to research in a wide variety of fields across the tree of life.    
+Any organization, group, or individual who [uses](/Learn), [deploys](/src/Admin/index.md), or develops Galaxy is considered a part of the Galaxy community.  Community members are free to integrate their own tools and/or data into Galaxy.  Members within the Galaxy community are located all around the world.  Subgroups within the overall community may differ in size (small versus large) and/or degree of privacy (public versus private).  However, regardless of affiliation, Galaxy's primary mission is to contribute to research in a wide variety of fields across the tree of life.    
 
 In short, the Galaxy community includes anyone who works with Galaxy in any capacity.  We are wide open.
 
 # Special Interest Groups
 
- **[GalaxyAdmins](/Community/GalaxyAdmins):**
+ **[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md):**
 * People responsible for large Galaxy installations. 
 
- **[/Proteomics](/Proteomics):**
+ **[/Proteomics](/src/Proteomics/index.md):**
 * Proteomics Galaxy-based efforts.
 
- **[/IUC](/IUC):**
+ **[/IUC](/src/IUC/index.md):**
 * Intergalactic Utilities Commission (IUC) helps manage the Galaxy Toolshed
 
- **[Galaxy Training Network](/Teach/GTN)**
+ **[Galaxy Training Network](/src/Teach/GTN/index.md)**
 * Training about Galaxy and using Galaxy.  There is also [a mailing list](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/).
 
 # By Geography / Language
@@ -72,7 +72,7 @@ In short, the Galaxy community includes anyone who works with Galaxy in any capa
 
 ## Deployment Catalog
 
-Ever wonder how other sites deploy Galaxy?  Want to share how your Galaxy instance is deployed with others?  The [Galaxy Deployment Catalog](/Community/Deployments) describes deployments, both in summary and in detail.  Please [add your deployment](/Community/Deployments) today.
+Ever wonder how other sites deploy Galaxy?  Want to share how your Galaxy instance is deployed with others?  The [Galaxy Deployment Catalog](/src/Community/Deployments/index.md) describes deployments, both in summary and in detail.  Please [add your deployment](/src/Community/Deployments/index.md) today.
 
 
 ## Logs
@@ -86,12 +86,12 @@ Ever wonder how other sites deploy Galaxy?  Want to share how your Galaxy instan
 
 </div>
 
-Want to share how you addressed a particular challenge in your Galaxy deployment?  [Log entries](/Community/Logs) describe specific solutions to a wide variety of different issues within Galaxy. For example, one can use the logs to find details concerning what steps were taken to deploy Galaxy on particular platforms (or with particular software). It's an easy way to help others learn from what you've already done and avoid reinventing the wheel.
+Want to share how you addressed a particular challenge in your Galaxy deployment?  [Log entries](/src/Community/Logs/index.md) describe specific solutions to a wide variety of different issues within Galaxy. For example, one can use the logs to find details concerning what steps were taken to deploy Galaxy on particular platforms (or with particular software). It's an easy way to help others learn from what you've already done and avoid reinventing the wheel.
 
 
 ## Other Resources
 
-* [Tool Shed](/ToolShed) - Tool wrappers contributed by community members.
-* [/Events](/Events) - Events of interest to the community, including the annual Galaxy meetings.
+* [Tool Shed](/src/ToolShed/index.md) - Tool wrappers contributed by community members.
+* [/Events](/src/Events/index.md) - Events of interest to the community, including the annual Galaxy meetings.
 * [/Support](/Support) - How to get (and help with) support, including [Mailing Lists](/MailingLists) and [this wiki](/Wiki Help).
-* [Training and Outreach](/Outreach) - Find out how you can support the Galaxy community and get the word out about Galaxy.
+* [Training and Outreach](/src/Outreach/index.md) - Find out how you can support the Galaxy community and get the word out about Galaxy.

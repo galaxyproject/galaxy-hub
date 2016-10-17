@@ -4,9 +4,9 @@ title: June 2, ,,  2014 Galaxy Distribution News Brief
 ---
 <div class='right'></div>
 
-[All News Briefs](/DevNewsBriefs)
+[All News Briefs](/src/DevNewsBriefs/index.md)
 <br />
-[Distribution Summary 2014_06_02](/News/2014_06_02_Galaxy_Distribution)
+[Distribution Summary 2014_06_02](/src/News/2014_06_02_Galaxy_Distribution/index.md)
 
 <br />
 
@@ -56,7 +56,7 @@ If you have made local modifications to the `tool-data/shared/ucsc/ucsc_build_si
 # Dataset Collections
 Dataset Collections (Technology Preview): Galaxy's data model, API, tool and workflow subsystems have been updated to incorporate the concept of dataset collections. Outlined in these [1](https://trello.com/c/325AXIEr)[2](https://trello.com/c/CnPKZ9ZN) trello cards, dataset collections allow performing complex analyses over lists of dataset, paired datasets, lists of paired datasets, etc.... 
 
-We are calling these a technology preview in this release because there is currently no rich user interface for [creating](https://trello.com/c/pPwdRwPh) or [viewing](https://trello.com/c/PVdbbpQS) dataset collections and there are a number of [known issues](https://trello.com/c/nQmxOG60). Check out this [presentation](https://docs.google.com/presentation/d/1D4pbULfe3IbSRVF3xsWvp9GyAct4SNfHhufIp-ysxYA/edit?usp=sharing), scheduled to given at this year's [Galaxy Community Conference](/Events/GCC2014), for the most up to date information on dataset collections and example usages.
+We are calling these a technology preview in this release because there is currently no rich user interface for [creating](https://trello.com/c/pPwdRwPh) or [viewing](https://trello.com/c/PVdbbpQS) dataset collections and there are a number of [known issues](https://trello.com/c/nQmxOG60). Check out this [presentation](https://docs.google.com/presentation/d/1D4pbULfe3IbSRVF3xsWvp9GyAct4SNfHhufIp-ysxYA/edit?usp=sharing), scheduled to given at this year's [Galaxy Community Conference](/src/Events/GCC2014/index.md), for the most up to date information on dataset collections and example usages.
 
 </div><a href='http://imgur.com/FxVDt3Z'><img src='/Images/NewsGraphics/2014_06_02_dataset-collections_2.png' alt='dataset collections' width="900" /></a> <br /> The workflow image above (created by Philip Mabon) demonstrates the usage of dataset collections in the context of the [Core Phylogenomics SNP](https://github.com/apetkau/core-phylogenomics) pipeline created by Aaron Petkau, Gary Van Domselaar, Philip Mabon,
 and Lee Katz. </div>
@@ -67,7 +67,7 @@ You will now find merged pull requested incorporated directly into the News Brie
 
 <br />
 # Galaxy Biostar
-If you haven't claimed your account yet at *[Galaxy Biostar](/Support/Biostar)*, now is a good time. This is the last reminder that the galaxy-user@bx.psu.edu mailing list will be retired Friday, June 6th. https://trello.com/c/0nQ5tHG7
+If you haven't claimed your account yet at *[Galaxy Biostar](/src/Support/Biostar/index.md)*, now is a good time. This is the last reminder that the galaxy-user@bx.psu.edu mailing list will be retired Friday, June 6th. https://trello.com/c/0nQ5tHG7
 
 <br />
 # Data
@@ -209,8 +209,8 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/Support/Biostar)*,
 <br /><a href='http://usegalaxy.org'><img src='/Images/Logos/galaxyLogoTrimmed.png' alt='Galaxy' height="50" /></a><br />**usegalaxy.org**</div>
 
 # Project Updates
-1. [/News](/News)
-1. [/Events](/Events)
+1. [/News](/src/News/index.md)
+1. [/Events](/src/Events/index.md)
 1. *[May 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014_05)*
 1. *[June 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014_06)*
 ---
@@ -224,6 +224,6 @@ The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of the
 
 The *[public Main instance](/Main)* of **Galaxy** at **[http://usegalaxy.org](http://usegalaxy.org)** utilizes infrastructure generously provided by the **[iPlant Collaborative](http://www.iplantcollaborative.org/)** at the **[Texas Advanced Computing Center](https://www.tacc.utexas.edu/)**, with support from the **[National Science Foundation](http://www.nsf.gov/)**.
 
-Follow us on **Twitter [@galaxyproject](http://twitter.com/galaxyproject)** or read our tweets at **[Galaxy on Twitter](/GalaxyOnTwitter)**
+Follow us on **Twitter [@galaxyproject](http://twitter.com/galaxyproject)** or read our tweets at **[Galaxy on Twitter](/src/GalaxyOnTwitter/index.md)**
 
 Have a suggestion? Please see **[Using the Galaxy Issue Board](http://wiki.galaxyproject.org/Issues)**, and be sure to up vote the issues important to YOU.

@@ -252,5 +252,5 @@ END_INCLUDE
 <a href='http://www.flickr.com/photos/56091045@N08/5725700035/'><img src='/Events/GCC2013/EscapeBar.jpg' alt='Bar @ Escape' width="150" /></a>
 </div>
 
-The [Escape Pub](http://cyb.ifi.uio.no/kjeller/), in the Ole Johan Dahls House ([the conference venue](/Events/GCC2013/Logistics)), *has been reserved on Sunday and Monday evening until 21:00*.  It's normally a student pub, and has what are quite possibly the least expensive beverages in Oslo.  If you are looking for a place to relax (or a particularly convivial evening [Birds of a Feather session](/Events/GCC2013/BoF)), then please do drop in.  
+The [Escape Pub](http://cyb.ifi.uio.no/kjeller/), in the Ole Johan Dahls House ([the conference venue](/Events/GCC2013/Logistics)), *has been reserved on Sunday and Monday evening until 21:00*.  It's normally a student pub, and has what are quite possibly the least expensive beverages in Oslo.  If you are looking for a place to relax (or a particularly convivial evening [Birds of a Feather session](/src/Events/GCC2013/BoF/index.md)), then please do drop in.  
 END_INCLUDE

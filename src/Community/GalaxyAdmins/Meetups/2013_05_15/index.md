@@ -34,7 +34,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 Andrew Warren of the [Cyberinfrastructure Division](http://www.vbi.vt.edu/faculty/group_overview/Cyberinfrastructure_Division) of the [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) at Virginia Tech talked about their experience deploying Galaxy for [Pathogen Portal](http://pathogenportal.org), a highly customized Galaxy installation, and also about the group's objectives and future plans.
 
-[Dannon Baker](/DannonBaker) brought the group up to speed on what's happening in the Galaxy project.
+[Dannon Baker](/src/DannonBaker/index.md) brought the group up to speed on what's happening in the Galaxy project.
 
 <br /><br />
 

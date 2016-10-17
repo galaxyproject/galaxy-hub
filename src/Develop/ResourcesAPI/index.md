@@ -2,8 +2,8 @@
 
 * [The bioblend documentation](http://bioblend.readthedocs.org/en/latest/) is the most updated and best documented source of information on consuming the Galaxy API. [bioblend](https://github.com/galaxyproject/bioblend) is a Python library for interacting with Galaxy and CloudMan.
 * [API source code documentation](https://docs.galaxyproject.org/en/master/api_doc.html) - Documentation auto-generated for the API source code. The API source code itself can be found [here](https://github.com/galaxyproject/galaxy/tree/dev/lib/galaxy/webapps/galaxy/api) and is by its nature the most up-to-date and complete source of information.
-* [Galaxy API](/Learn/API) - Galaxy offers programming interface that can be used to automate usage of Galaxy. (Warning: information is incomplete and somewhat dated.)
-* [API description](/Admin/API) - Galaxy offers API that can be used to automate admin usage of Galaxy. (Warning: information is incomplete and somewhat dated.)
+* [Galaxy API](/src/Learn/API/index.md) - Galaxy offers programming interface that can be used to automate usage of Galaxy. (Warning: information is incomplete and somewhat dated.)
+* [API description](/src/Admin/API/index.md) - Galaxy offers API that can be used to automate admin usage of Galaxy. (Warning: information is incomplete and somewhat dated.)
 * [JavaDocs](http://jmchilton.github.io/blend4j/apidocs/) for [blend4j](https://github.com/jmchilton/blend4j) - a Java library for consuming the Galaxy API.
 * Example open source projects leveraging the Galaxy API.
   * [Refinery](https://github.com/parklab/refinery-platform) (builds and runs workflows using [bioblend](http://bioblend.readthedocs.org/en/latest/))

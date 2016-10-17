@@ -8,7 +8,7 @@ title: [UC Davis Bioinformatics Core Galaxy AMI](http://bioinformatics.ucdavis.e
 
 
 <div class='deploymentbox'>
- Resource:: **[UC Davis Bioinformatics Core Galaxy AMI](/Teach/Resource/UCDavisCoreAMI)**
+ Resource:: **[UC Davis Bioinformatics Core Galaxy AMI](/src/Teach/Resource/UCDavisCoreAMI/index.md)**
  Types:: AMI
  Domains:: **Genomics**
  Owners:: [UC Davis Bioinformatics Core](http://bioinformatics.ucdavis.edu/)
@@ -36,7 +36,7 @@ You can increase the size of your data partition by simply increasing the size o
 If you wish to use FTP to transfer files to your Galaxy instance, we have [instructions on how to use FileZilla](http://bioinformatics.ucdavis.edu/using-filezilla-to-transfer-files-to-galaxy-via-ftp/) to do so. FTP transfer is recommended for large files, however, you can use whatever FTP client you want.
 </div>
 
-The current AMI (**ami-ab010aee**) was created for the [RNA-Seq and ChIP-Seq Analysis with Galaxy Workshop](/Teach/Resource/UCDavisRNAChIPWorkshop) course offered at the UC Davis Bioinformatics core, December 16-19, 2014
+The current AMI (**ami-ab010aee**) was created for the [RNA-Seq and ChIP-Seq Analysis with Galaxy Workshop](/src/Teach/Resource/UCDavisRNAChIPWorkshop/index.md) course offered at the UC Davis Bioinformatics core, December 16-19, 2014
 
 ## You will need
 
@@ -53,7 +53,7 @@ The AMI includes all the example datasets used in the [Using Galaxy for Analysis
 ## Links
 
 * [Workshop Documentation](http://training.bioinformatics.ucdavis.edu/docs/2014/12/december-2014-workshop/)
-* [Workshop's resource page](/Teach/Resource/UCDavisCoreGalaxyCourse) on this wiki.
+* [Workshop's resource page](/src/Teach/Resource/UCDavisCoreGalaxyCourse/index.md) on this wiki.
 * [UC Davis Bioinformatics Core Software page](http://bioinformatics.ucdavis.edu/software/)
 * [Amazon Web Services](http://aws.amazon.com/)
 

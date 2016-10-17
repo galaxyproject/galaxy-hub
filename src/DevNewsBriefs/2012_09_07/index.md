@@ -29,7 +29,7 @@ Migration scripts will run upon Galaxy's first launch (after updating to this re
 
 <br />
 # Reference Genome rsync Server
-If you would like to obtain the same *reference genome builds and indexes* as available on the public **Galaxy [/Main](/Main)** instance, these can retrieved from the rsync server at:
+If you would like to obtain the same *reference genome builds and indexes* as available on the public **Galaxy [/Main](/src/Main/index.md)** instance, these can retrieved from the rsync server at:
 ```
 datacache.g2.bx.psu.edu
 ```
@@ -45,7 +45,7 @@ Genomes are organized in directories by the `dbkey`. If you are not sure of the 
 
 <br />
 # More Updates to Output and Error Handling
-As reported in the *[July 20th, 2012 News Brief](/DevNewsBriefs/2012_07_20)*, several changes have been made to the underlying code that determines run result state from tool exit codes and output. There are now additional enhancements to applying regular expressions and exit code checks. [Read more...](/Admin/Tools/ToolConfigSyntax#a3cstdio3e2c_3cregex3e2c_and_3cexit_code3e_tag_sets)
+As reported in the *[July 20th, 2012 News Brief](/DevNewsBriefs/2012_07_20)*, several changes have been made to the underlying code that determines run result state from tool exit codes and output. There are now additional enhancements to applying regular expressions and exit code checks. [Read more...](/src/Admin/Tools/ToolConfigSyntax/index.md#a3cstdio3e2c_3cregex3e2c_and_3cexit_code3e_tag_sets)
 
 <br />
 # Tools
@@ -58,7 +58,7 @@ As reported in the *[July 20th, 2012 News Brief](/DevNewsBriefs/2012_07_20)*, se
     * One benefit is that **BAM** results can be used as input to **[Cufflinks](http://cufflinks.cbcb.umd.edu/)** without an [intermediate sorting step](http://main.g2.bx.psu.edu/u/jeremy/p/transcriptome-analysis-faq#faq2).
     * *NOTE:* If you are using an older version of *Bowtie* or uploading your own results, sorting is still required before running *Cufflinks*, whether in [SAM](/Learn/Datatypes#sam) or [BAM](/Learn/Datatypes#bam) format.
 * *New*
-  * **[Galaxy RNA-seq Analysis Exercise](http://main.g2.bx.psu.edu/u/jeremy/p/galaxy-rna-seq-analysis-exercise)** on [/Main](/Main)
+  * **[Galaxy RNA-seq Analysis Exercise](http://main.g2.bx.psu.edu/u/jeremy/p/galaxy-rna-seq-analysis-exercise)** on [/Main](/src/Main/index.md)
     * Walks through sample protocol step-by-step using paired-end data, initial read QC through **[CuffDiff](http://cufflinks.cbcb.umd.edu/)** analysis
     * Includes **[iGenomes](http://tophat.cbcb.umd.edu/igenomes.html)** sourced **[reference annotation GTF](http://tophat.cbcb.umd.edu/igenomes.html)**, an answer key, and bonus resources 
 
@@ -73,7 +73,7 @@ As reported in the *[July 20th, 2012 News Brief](/DevNewsBriefs/2012_07_20)*, se
 
 <br />
 # Galaxy Track Browser (GTB)
-[Trackster](/Learn/Visualization)
+[Trackster](/src/Learn/Visualization/index.md)
 * *New*
   * Rewrite sampling code for **[bigWig](http://genome.ucsc.edu/goldenPath/help/bigWig.html)** / **[bigBed](http://genome.ucsc.edu/goldenPath/help/bigBed.html)**
 * *Enhancements*
@@ -157,7 +157,7 @@ Now the above entry still works, but the following entry is also ok (notice the 
 # Bug Fixes
 <div class='right'><a href='/Support'><img src='/Images/Icons/bug.png' alt='bugs' width=20 /></a></div> 
 * *General*
-  * Fix permissions problems on `stdout/stderr/errorcode` files when running jobs as the [real system user](/DevNewsBriefs/2012_01_27#run_cluster_jobs_as_the_real_user).
+  * Fix permissions problems on `stdout/stderr/errorcode` files when running jobs as the [real system user](/src/DevNewsBriefs/2012_01_27/index.md#run_cluster_jobs_as_the_real_user).
   * Galaxy will no longer try to modify permissions of [linked library uploads](/Admin/Data Libraries/Uploading Library Files).
   * Galaxy will honor `umask` when creating temporary library archives for download (solves permissions problems when sending via a proxy server).
   * Fix tabular display to serve raw when `preview == False`, which should resolve external display issues.
@@ -182,26 +182,26 @@ Now the above entry still works, but the following entry is also ok (notice the 
 
 <br />
 # Announcements
-[/News](/News), *[August](/GalaxyUpdates/2012_09)* and *[September](/GalaxyUpdates/2012_09)* *2012 Galaxy Updates*
+[/News](/News), *[August](/src/GalaxyUpdates/2012_09/index.md)* and *[September](/src/GalaxyUpdates/2012_09/index.md)* *2012 Galaxy Updates*
 
 <div class='right'><a href='/GalaxyUpdates/2012_09'><img src='/Images/Logos/GalaxyUpdate200.png' alt='September 2012 Galaxy Update' width=150 /></a></div>
 
 ## Highlights
 * ***Aug***
-  * [GCC2012 & GCC2013](/GalaxyUpdates/2012_08#gcc2012--gcc2013): slides and video
-  * [29 new papers](/GalaxyUpdates/2012_08#new-papers)
-  * [Tool Shed Contributions](/GalaxyUpdates/2012_08#tool-shed-contributions)
+  * [GCC2012 & GCC2013](/src/GalaxyUpdates/2012_08/index.md#gcc2012--gcc2013): slides and video
+  * [29 new papers](/src/GalaxyUpdates/2012_08/index.md#new-papers)
+  * [Tool Shed Contributions](/src/GalaxyUpdates/2012_08/index.md#tool-shed-contributions)
 * ***Sept***
-  * [41 new papers](/GalaxyUpdates/2012_09#new-papers)
-  * [3 new public Galaxy Servers](/GalaxyUpdates/2012_09#new-public-servers) 
-  * [Upcoming Events and Deadlines](/GalaxyUpdates/2012_09#upcoming-events-and-deadlines)
-  * [New Galaxy-France mailing list](/GalaxyUpdates/2012_09#new-galaxy-france-mailing-list)
-  * [Tool Shed Contributions](/GalaxyUpdates/2012_09#tool-shed-contributions)
+  * [41 new papers](/src/GalaxyUpdates/2012_09/index.md#new-papers)
+  * [3 new public Galaxy Servers](/src/GalaxyUpdates/2012_09/index.md#new-public-servers) 
+  * [Upcoming Events and Deadlines](/src/GalaxyUpdates/2012_09/index.md#upcoming-events-and-deadlines)
+  * [New Galaxy-France mailing list](/src/GalaxyUpdates/2012_09/index.md#new-galaxy-france-mailing-list)
+  * [Tool Shed Contributions](/src/GalaxyUpdates/2012_09/index.md#tool-shed-contributions)
 
 ## Swiss Galaxy Day
 <div class='right'><a href='/Events/Switzerland2012'><img src='/Images/Logos/2012SwissGalaxyWorkshop-400.png' alt='Swiss Galaxy Day' height="100" /></a></div>
 
-The 1<sup>st</sup> [Swiss Galaxy Workshop](/Events/Switzerland2012) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
+The 1<sup>st</sup> [Swiss Galaxy Workshop](/src/Events/Switzerland2012/index.md) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
  
 We would like to discuss the status of the Galaxy project, new developments, interface to other systems, extensions and best practice in reproducible research. 
  
@@ -209,12 +209,12 @@ The workshop is part of the SyBIT Tech Day series.
 
 <br />
 ## Who's Hiring
-<div class='right'>![Please Help!  Yes you!](/Images/Icons/PointingFinger.png)</div>
+<div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
 The Galaxy is expanding!  Please help it grow.
-* The [Galaxy Project is hiring](/GalaxyIsHiring) post-docs @ Penn State and Emory
+* The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs @ Penn State and Emory
 * [Bioinformatics & Integrative Genomics Specialist - Manager Bioinformatics Consulting Core](http://www.nature.com/naturejobs/science/jobs/275747-Bioinformatics-Integrative-Genomics-Specialist-Manager-Bioinformatics-Consulting-Core) @ Leuven, Belgium
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it the next [Galaxy Update](/GalaxyUpdates) and [News Brief](/DevNewsBriefs).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it the next [Galaxy Update](/GalaxyUpdates) and [News Brief](/src/DevNewsBriefs/index.md).
 <br />
 <br />
 ---

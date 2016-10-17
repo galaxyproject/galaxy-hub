@@ -102,7 +102,7 @@ The new papers were tagged with:
 The [next GalaxyAdmins meetup on October 15](/Community/GalaxyAdmins/Meetups/2015_10_15) will feature [David Kovalic](https://www.linkedin.com/in/davidkovalic) speaking on *Galaxy at [Analome](http://analome.com/) – Outreach, Opportunity and Challenges*:
  At Analome Galaxy has found another home and we like it for numerous reasons. In this talk we will present the multifaceted role Galaxy plays at Analome and how it supports ongoing bioinformatics projects while at the same time providing opportunities for social good. 
 
-[GalaxyAdmins](/Community/GalaxyAdmins) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
+[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
 
 Hope to see you there.
 
@@ -120,7 +120,7 @@ Hope to see you there.
 
 ## GCC2016 Call for Training Topic Nominations
 
-The [2016 Galaxy Community Conference (GCC2016)](/Events/GCC2016) features two full days of training on June 26-27.  Each 
+The [2016 Galaxy Community Conference (GCC2016)](/src/Events/GCC2016) features two full days of training on June 26-27.  Each 
 day will have multiple tracks, with each track featuring several sessions throughout the day.  GCC2016 will be held at [Indiana University](http://indiana.edu) in Bloomington, Indiana, United States.
 
 **[GCC2016 Training topics](/Events/GCC2016/Training) are [nominated by you](http://bit.ly/gcc2016tdnom), the Galaxy Community.** Please give some thought to what topics you would like to see offered, or that you would like to offer, and then [submit them as topic nominations](http://bit.ly/gcc2016tdnom).  Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic. If you are looking for ideas, see 
@@ -128,10 +128,10 @@ day will have multiple tracks, with each track featuring several sessions throug
 * [Topics nominated for GCC2015](http://bit.ly/gcc2015vote)
 * [Topics nominated for GCC2014](http://bit.ly/1s6NtMN)
 * [Topics nominated for GCC2013](http://bit.ly/1i2j1gN)
-* The [Galaxy Events page](/Events), which lists what training the community is offering outside of GCCs.
-* Topics that have already been [nominated for GCC2016](/Events/GCC2016/Training#nominated-topics)
+* The [Galaxy Events page](/src/Events/index.md), which lists what training the community is offering outside of GCCs.
+* Topics that have already been [nominated for GCC2016](/src/Events/GCC2016/Training#nominated-topics)
 
-Nominated topics will be [published as they come in](/Events/GCC2016/Training#nominated-topics).  **Topic nomination closes Friday, October, 16.**.  Topics will be compiled into a uniform list by the GCC2016 Organizing Committee, and topics will be voted on by the Galaxy Community from October 26 through November 6.
+Nominated topics will be [published as they come in](/src/Events/GCC2016/Training#nominated-topics).  **Topic nomination closes Friday, October, 16.**.  Topics will be compiled into a uniform list by the GCC2016 Organizing Committee, and topics will be voted on by the Galaxy Community from October 26 through November 6.
 
 Topics will then be selected and scheduled based on topic interest, and the organisers' ability to confirm instructors for each session.  Some very popular sessions may be scheduled more than once. The final schedule will be posted before registration opens.
 
@@ -160,7 +160,7 @@ See the **[full call for host proposals](ATTACHMENT_URLDocuments/GCC2016CallForH
 
 Hoping to work with you in 2017!
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
+[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 ---
 
@@ -169,11 +169,11 @@ Hoping to work with you in 2017!
 <div class='right'><a href='/News/IUCCollectionsCodefest'><img src='/Images/Icons/DatasetCollectionIconInForm.png' alt='' width="150" /></a>
 </div>
 
-A [Galaxy tool developers to hack on dataset collections](/News/IUCCollectionsCodefest) hackathon was held on September 17<sup>th</sup> and 18<sup>th</sup>.
+A [Galaxy tool developers to hack on dataset collections](/src/News/IUCCollectionsCodefest/index.md) hackathon was held on September 17<sup>th</sup> and 18<sup>th</sup>.
 
 Dataset collections enable !MapReduce style workflows in Galaxy and have come a long way over the last year+. Several groups are using dataset collections and newer tools to express workflows of various degrees of complexity that were not possible in Galaxy before.
 
-See the [full report](/News/IUCCollectionsCodefest) details.
+See the [full report](/src/News/IUCCollectionsCodefest/index.md) details.
 
 ---
 
@@ -303,9 +303,9 @@ The Galaxy is expanding! Please help it grow.
 * [Support engineer for Galaxy at the CIB in the Institut Pasteur](https://c3bi.pasteur.fr/cib-team-cdd-job-application/), Paris, France 
 
 * [Assistant Computational Scientist](http://bit.ly/1OLwPbW) at [VIB](http://www.vib.be/), Gent, Belgium 
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -313,7 +313,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[1 new publicly accessible Galaxy servers](/PublicGalaxyServers) was added in September, bringing the total dangerously close to 80.
+[1 new publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) was added in September, bringing the total dangerously close to 80.
 
 ## ABiMS Tools
 
@@ -351,9 +351,9 @@ There are two active discussions happening on the [Galaxy-Training mailing list]
 </div>
 <br />
 
-We are considering offering a [Software Carpentry](https://software-carpentry.org/) / [Data Carpentry](http://www.datacarpentry.org/) *Train the Trainer* workshop immediately before [GCC2016](/Events/GCC2016).  This workshop would run for two days, and accommodate 24 people.  
+We are considering offering a [Software Carpentry](https://software-carpentry.org/) / [Data Carpentry](http://www.datacarpentry.org/) *Train the Trainer* workshop immediately before [GCC2016](/src/Events/GCC2016).  This workshop would run for two days, and accommodate 24 people.  
 
-This idea came up at the [GCC2015 GTN BoF](/Events/GCC2015/BoFs/GalaxyTrainingNetwork).  Software and Data Carpentry (S/DC) teach scientists core essentials of programming and data management. Their model is to train and certify trainers, and then provide a common curriculum and teaching infrastructure that enables those trainers to teach scientists how to program and manage data well.
+This idea came up at the [GCC2015 GTN BoF](/src/Events/GCC2015/BoFs/GalaxyTrainingNetwork/index.md).  Software and Data Carpentry (S/DC) teach scientists core essentials of programming and data management. Their model is to train and certify trainers, and then provide a common curriculum and teaching infrastructure that enables those trainers to teach scientists how to program and manage data well.
 
 If you think we should (or should not) offer this training at GCC2016, please [galaxy-training@lists.galaxyproject.org](contribute) to the [discussion on the mailing list](http://bit.ly/1V9Dd3Q).
 
@@ -363,7 +363,7 @@ If you think we should (or should not) offer this training at GCC2016, please [g
 <a href='http://mygoblet.org/about-us/goblet-events/goblet-agm-2015-cape-town'><img src='/Images/Logos/GobletLogo.png' alt='2015 GOBLET Meeting' height="100" /></a>
 </div>
 
-[GTN](/Teach/GTN) became a member of the [Global Organisation for Bioinformatics & Training (GOBLET)](http://mygoblet.org) [earlier this year](/News/GTNJoinsGOBLET).  The [2015 GOBLET Meeting](http://mygoblet.org/about-us/goblet-events/goblet-agm-2015-cape-town) will be held 18-20 November, in Cape Town, South Africa.  Fourie Joubert of the [Centre for Bioinformatics and Computational Biology](/Teach/Trainers#the-centre-for-bioinformatics-and-computational-biology) at the University of Pretoria will be representing GTN at GOBLET 2015.  
+[GTN](/Teach/GTN) became a member of the [Global Organisation for Bioinformatics & Training (GOBLET)](http://mygoblet.org) [earlier this year](/News/GTNJoinsGOBLET).  The [2015 GOBLET Meeting](http://mygoblet.org/about-us/goblet-events/goblet-agm-2015-cape-town) will be held 18-20 November, in Cape Town, South Africa.  Fourie Joubert of the [Centre for Bioinformatics and Computational Biology](/src/Teach/Trainers/index.md#the-centre-for-bioinformatics-and-computational-biology) at the University of Pretoria will be representing GTN at GOBLET 2015.  
 
 If you have anything you'd like to have discussed at the meeting, then please [join this conversation](http://bit.ly/1iM6T5r).
 
@@ -394,9 +394,9 @@ Thanks to everyone who helped put these together.
 **[Release Notes v 15.07](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html)**
 
 **Release Highlights **
-* **Interactive Environments** - The interactive environments (IE) framework features several updates this release and Galaxy is now distributed with a new IE for RStudio implemented by [Eric Rasche](/EricRasche).
+* **Interactive Environments** - The interactive environments (IE) framework features several updates this release and Galaxy is now distributed with a new IE for RStudio implemented by [Eric Rasche](/src/EricRasche/index.md).
 * **Workflow Editor Enhancements** - The workflow editor has been significantly revamped - it now uses newer tool form components and allow construction of workflows with tools explicitly producing output collections.
-* **Policies for Committers and Pull Requests** - The process for adding committers to the project and fielding pull requests has been formalized and documented in the source code. Three new committers have been added to the project - [Björn Grüning](/BjoernGruening), [Nicola Soranzo](/NicolaSoranzo), and [Eric Rasche](/EricRasche).
+* **Policies for Committers and Pull Requests** - The process for adding committers to the project and fielding pull requests has been formalized and documented in the source code. Three new committers have been added to the project - [Björn Grüning](/BjoernGruening), [Nicola Soranzo](/NicolaSoranzo), and [Eric Rasche](/src/EricRasche/index.md).
 * And *[much more](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html)*
 
 ## Mid 2015 Galaxy CloudMan Release
@@ -411,9 +411,9 @@ This is the most complete update of the Galaxy on the Cloud platform to date wit
 * *Galaxy on the Cloud*: switched to a different Cloud Launch application, available at https://launch.usegalaxy.org/
 * *Galaxy on the Cloud*: Integrated Galaxy IPython Interactive Environments
 * !CloudMan: Creating cluster shares is now fast (~30 seconds vs. hours)
-* Created a wealth of new documentation, including [a description of the all new automated method for building private/custom instances](/CloudMan/Building). 
+* Created a wealth of new documentation, including [a description of the all new automated method for building private/custom instances](/src/CloudMan/Building/index.md). 
 
-See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes or just give it a try: see the all new [Getting Started](/CloudMan/GettingStarted) documentation. 
+See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes or just give it a try: see the all new [Getting Started](/src/CloudMan/GettingStarted/index.md) documentation. 
 
 ## Security Advisories
 
@@ -440,7 +440,7 @@ Three security vulnerabilities were announced and patched in August.  The Galaxy
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
  
  **CloudMan **
-   The [most recent edition of CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release) was released in August.
+   The [most recent edition of CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release) was released in August.
 
  **blend4j v0.1.2**
    [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and !BioCloudCentral.
@@ -466,9 +466,9 @@ Three security vulnerabilities were announced and patched in August.  The Galaxy
 
 <br />
 
-1 new **[Galaxy Training Network member](/Teach/Trainers)** was added in September:
+1 new **[Galaxy Training Network member](/src/Teach/Trainers/index.md)** was added in September:
 
-* **[The Centre for Bioinformatics and Computational Biology, University of Pretoria](/Teach/Trainers#the-centre-for-bioinformatics-and-computational-biology)**
+* **[The Centre for Bioinformatics and Computational Biology, University of Pretoria](/src/Teach/Trainers/index.md#the-centre-for-bioinformatics-and-computational-biology)**
     The Centre offers training in general usage, analysing and comparing protein and nucleic acid sequences, annotating genomes, gene expression patterns, investigating molecular structures, and simulating metabolic pathways.  Please welcome the first GTN member in Africa.  *(Now we just need Antartica.)*
 
 ---
@@ -476,7 +476,7 @@ Three security vulnerabilities were announced and patched in August.  The Galaxy
 
 # ToolShed Contributions
 
-See [list of tools contributed in September](/ToolShed/Contributions/2015_09).
+See [list of tools contributed in September](/src/ToolShed/Contributions/2015_09/index.md).
 
 ---
 
@@ -488,8 +488,8 @@ See [list of tools contributed in September](/ToolShed/Contributions/2015_09).
     Center for Open Science gives grant to [Titus Brown](https://twitter.com/ctitusbrown) and team to connect Galaxy Project and the [Open Science Framework](https://osf.io/). See the [full announcement](http://cos.io/pr/2015-09-24/).
 * From [Globus](https://www.globus.org/genomics):
     Love (or like!) Globus? Vote for us in the [HPCWire Readers' Choice Awards](http://www.hpcwire.com/2015-hpcwire-readers-choice-awards/) (#16 - Best Data-Intensive System) 
-* From [Björn Grüning](/BjoernGruening):
-    Brand new [Galaxy Interactive Environment documentation](/Admin/GIEs): Enterprise Deployments, Docker on a different host...
+* From [Björn Grüning](/src/BjoernGruening/index.md):
+    Brand new [Galaxy Interactive Environment documentation](/src/Admin/GIEs/index.md): Enterprise Deployments, Docker on a different host...
 * From [Keywan Hassani-Pak](https://twitter.com/KeywanHP):
     We encountered [a big problem using bwa-eXpress in Galaxy](https://github.com/Rothamsted/AppliedBioinformatics/wiki/Transcript-abundance-estimation-in-Galaxy) for transcript abundance estimation! 
 * From [Saket Choudhary](https://twitter.com/saketkc):
@@ -501,7 +501,7 @@ See [list of tools contributed in September](/ToolShed/Contributions/2015_09).
     [TRAPLINE: A standardized and automated pipeline for RNA sequencing data analysis and evaluation](https://usegalaxy.org/u/mwolfien/p/trapline---manual) 
 * From [GigaScience](https://twitter.com/GigaScience)
     Supporting Galaxy BLAST+ wrappers, archived at the point of publication hosted in GigaDB [dx.doi.org/10.5524/100149](http://gigadb.org/dataset/100149)
-* From [Björn Grüning](/BjoernGruening):
+* From [Björn Grüning](/src/BjoernGruening/index.md):
     [New Galaxy Docker images](https://github.com/bgruening/docker-galaxy-stable)! Enjoy all the new goodies!
 
 <div class='left'>

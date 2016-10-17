@@ -17,7 +17,7 @@ Watch the short **[Learn](http://vimeo.com/75940376)** video for a learning reso
 
 ## Galaxy 101
 
-New! Start here to learn more: **[Galaxy NGS 101](/Learn/GalaxyNGS101)**
+New! Start here to learn more: **[Galaxy NGS 101](/src/Learn/GalaxyNGS101/index.md)**
 
 The *[Galaxy 101](https://usegalaxy.org/galaxy101)* exercise and [screencast](Screencasts) will show you the ins and outs of using Galaxy. This includes loading data (from UCSC in this example), using genome builds, the tool interface, filtering, sorting, and combining datasets, generating statistics, and Galaxy's History,  Workflow and [sharing](Share) support.
 
@@ -82,10 +82,10 @@ Galaxy for many users is all about Datasets, the inputs and outputs of analysis 
 
 Learning the basics of how to manage datasets helps to focus analysis on the scientific aspects of a project, while minimizing problems and troubleshooting. Simply put, save time and verify format first! It's quick to do right in the existing history, so there's no programming required.
 
-* [Using Custom Genomes](/Learn/CustomGenomes) - Format, loading, troubleshooting, and tools.
-* [Managing Datasets](/Learn/ManagingDatasets) - Attributes, Copy, Clone, Delete and more.
+* [Using Custom Genomes](/src/Learn/CustomGenomes/index.md) - Format, loading, troubleshooting, and tools.
+* [Managing Datasets](/src/Learn/ManagingDatasets/index.md) - Attributes, Copy, Clone, Delete and more.
 * [Datatypes](/Learn/Datatypes) - Specifications for the datatypes used and produced by Galaxy's tools.
-* [/Main](/Main) and [/Test](/Test) Quotas - User account allocations for data and jobs. 
+* [/Main](/Main) and [/Test](/src/Test/index.md) Quotas - User account allocations for data and jobs. 
 * [Data management: accounting and disk quotas](/Admin/Disk Quotas) - Implementation details.
 * [/Admin/Datatypes](/Admin/Datatypes) & [/Admin/Data Integration](/Admin/Data Integration) - Instructions about adding new datasets (genomes) and datatypes to a local Galaxy instance
 
@@ -93,7 +93,7 @@ Learning the basics of how to manage datasets helps to focus analysis on the sci
 <div class='right'>![](/ToolsPanel.png)</div>
 Extensive help on how to use a particular tool in Galaxy is often included on the tool page itself, inside Galaxy.  To see this help, click on a tool in the left tool panel, and then scroll to the bottom of the center panel. Help includes parameter explanations, links to tool developers' help pages, and examples.
 <br /><br />
-The long term plan is also to have a [wiki page for each widely installed tool](/Tools) in Galaxy. These pages will hold supplementary information about both using the tools and setting them up. However, we haven't set that up yet.
+The long term plan is also to have a [wiki page for each widely installed tool](/src/Tools/index.md) in Galaxy. These pages will hold supplementary information about both using the tools and setting them up. However, we haven't set that up yet.
 
 In the meantime, for some tools there is also additional information available on this wiki:
 * [Interval Operations](Interval Operations) - Help on tools that operate on *genomic intervals*.
@@ -109,7 +109,7 @@ Galaxy incorporates a [track browser](Visualization). This can be used to visual
 PLACEHOLDER_INCLUDE(/Support/LinkBox)
 ## User Accounts
 <div class='right'>![](/UserDropDown.png)</div>
-Galaxy user accounts are simple to create (email, password, user name and go!). An account is not required to access the Galaxy public [/Main](/Main) or [/Test](/Test) instances, but if used, the data quota is increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages).
+Galaxy user accounts are simple to create (email, password, user name and go!). An account is not required to access the Galaxy public [/Main](/Main) or [/Test](/src/Test/index.md) instances, but if used, the data quota is increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages).
 
 * **[Accounts on Main](http://vimeo.com/galaxyproject/accounts)** - registration how-to video
 * [User Accounts](User Accounts)
@@ -118,9 +118,9 @@ Galaxy user accounts are simple to create (email, password, user name and go!). 
 
 
 ## Other
-* [Choices](/BigPicture/Choices) - The Galaxy [/Main](/Main) server is not your only choice for using Galaxy.
+* [Choices](/BigPicture/Choices) - The Galaxy [/Main](/src/Main/index.md) server is not your only choice for using Galaxy.
 * [Interactive Poster](Interactive Poster)
-* [/Admin](/Admin) - How to *administer* your own Galaxy instance
+* [/Admin](/src/Admin/index.md) - How to *administer* your own Galaxy instance
 
 <div class='center'>
 <a href='http://galaxyproject.org/search/usegalaxy'><img src='/Images/Logos/UseGalaxySearch.png' alt='Search all "using" Galaxy resources' width="120" /></a>

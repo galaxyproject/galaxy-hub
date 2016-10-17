@@ -1,14 +1,14 @@
 ---
 date: 2013-04-02T02:21:49Z
 ---
-<div class='newsItemHeader'>[April 1, 2013 Galaxy Distribution](/News/2013_04_01_Galaxy_Distribution)</div>
+<div class='newsItemHeader'>[April 1, 2013 Galaxy Distribution](/src/News/2013_04_01_Galaxy_Distribution/index.md)</div>
 
 ```wiki red/solid/light
-Due to a security vulnerability, administrators are strongly encouraged to upgrade to the [April 8, 2013 Security Release](/News/2013_04_08_Galaxy_Security_Release), which is was not included in the original April 1, 2013 distribution.```
+Due to a security vulnerability, administrators are strongly encouraged to upgrade to the [April 8, 2013 Security Release](/src/News/2013_04_08_Galaxy_Security_Release/index.md), which is was not included in the original April 1, 2013 distribution.```
 
 <br />
 
-**Complete [News Brief](/DevNewsBriefs/2013_04_01)**
+**Complete [News Brief](/src/DevNewsBriefs/2013_04_01/index.md)**
 <div class='right'><a href='http://galaxyproject.org'><img src='/Images/NewsGraphics/2013_04_01_granular-galaxy-utilities.png' alt='tool shed' width=350 /></a></div>
 **Highlights:**
 

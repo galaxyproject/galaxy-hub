@@ -22,7 +22,7 @@ Please cite Galaxy in any research that uses or extends Galaxy.  Please cite the
 
 ## Which Galaxy?
 
-If you *used* Galaxy in your methods, we also request that you specify which instance(s) of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of [other public Galaxy servers](/PublicGalaxyServers), a local install, or on a [cloud install](/Cloud)?
+If you *used* Galaxy in your methods, we also request that you specify which instance(s) of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of [other public Galaxy servers](/PublicGalaxyServers), a local install, or on a [cloud install](/src/Cloud/index.md)?
 
 ## Primary Publication
 
@@ -66,7 +66,7 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 
 ## Galaxy Project Publications by Year
 
-Papers about or using Galaxy with [core team members](/GalaxyTeam) as authors.
+Papers about or using Galaxy with [core team members](/src/GalaxyTeam/index.md) as authors.
 
 ### 2016
 
@@ -216,19 +216,19 @@ If you want to include a general Galaxy URL, we encourage you to use one of thes
  The project as a whole:
   http://galaxyproject.org/
 
- If you used the public galaxy server ("[/Main](/Main)") to do analysis:
+ If you used the public galaxy server ("[/Main](/src/Main/index.md)") to do analysis:
   http://usegalaxy.org/
 
  Direct people here for information on how to download and configure your own local installation:
   http://getgalaxy.org/
 
- Using or referring to any of the [public Galaxy server instances](/PublicGalaxyServers):
+ Using or referring to any of the [public Galaxy server instances](/src/PublicGalaxyServers/index.md):
   Please include the name, URL, and primary publication for the server.
 
 ## Citations
 
-See the [Citations section](/GalaxyProject/Statistics#publications--citations) of the [project statistics page](/GalaxyProject/Statistics) for a summary of citations of project papers.
+See the [Citations section](/GalaxyProject/Statistics#publications--citations) of the [project statistics page](/src/GalaxyProject/Statistics/index.md) for a summary of citations of project papers.
 
 ## CiteULike
 
-The Galaxy Project uses the [/CiteULike](/CiteULike) social bookmarking service to track all of the above papers, plus any paper that references Galaxy.  See the [/CiteULike](/CiteULike) page for more information.
+The Galaxy Project uses the [/CiteULike](/src/CiteULike/index.md) social bookmarking service to track all of the above papers, plus any paper that references Galaxy.  See the [/CiteULike](/src/CiteULike/index.md) page for more information.

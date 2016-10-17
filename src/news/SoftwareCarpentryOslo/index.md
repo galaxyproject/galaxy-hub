@@ -1,7 +1,7 @@
 ---
 date: 2013-05-31T16:32:58Z
 ---
-<div class='newsItemHeader'>[Software Carpentry Boot Camp: Oslo](/News/SoftwareCarpentryOslo)</div>
+<div class='newsItemHeader'>[Software Carpentry Boot Camp: Oslo](/src/News/SoftwareCarpentryOslo/index.md)</div>
 
 Directly following GCC2013, there is a unique possibility to attend a [two-day Software Carpentry Boot Camp at the University of Oslo](http://bit.ly/14EmcSA) (in a building close to where the GCC is held). [Software Carpentry Boot Camps](http://software-carpentry.org/bootcamps/) aim to to help scientists and engineers become more productive by teaching them basic computing skills like program design, version control, testing, and task automation. In this two-day boot camp, short tutorials will alternate with hands-on practical exercises.
 

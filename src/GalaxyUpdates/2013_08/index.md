@@ -8,7 +8,7 @@ title: August 2013 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the August 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the August 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -16,9 +16,9 @@ Welcome to the August 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary 
 
 # GCC2013 Report
 
-The [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013) was held a month ago in Oslo Norway, at the [University of Oslo](http://uio.no).  [Video of all accepted talks](/Events/GCC2013/Program#day-1-main-meeting-1-july), the [slides for most accepted](/Events/GCC2013/Program#day-1-main-meeting-1-july) and [lightning talks](/Events/GCC2013/Lightning), [handouts and slides for all Training Day sessions](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay), and [most posters](/Events/GCC2013/Abstracts#poster-abstracts) are now available online.
+The [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013) was held a month ago in Oslo Norway, at the [University of Oslo](http://uio.no).  [Video of all accepted talks](/Events/GCC2013/Program#day-1-main-meeting-1-july), the [slides for most accepted](/Events/GCC2013/Program#day-1-main-meeting-1-july) and [lightning talks](/Events/GCC2013/Lightning), [handouts and slides for all Training Day sessions](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay), and [most posters](/src/Events/GCC2013/Abstracts/index.md#poster-abstracts) are now available online.
 
-GCC2013 was, by all accounts, a tremendous success.  This was the largest GCC ever held, and featured [poster sessions](/Events/GCC2013/Abstracts#poster-abstracts) and [Birds of a Feather gatherings](/Events/GCC2013/BoF) for the first time.  The evening [gatherings at the pub](/Events/GCC2013/Program#escape-to-the-pub) and the conference dinner at the historic Sporten venue, high above Oslo, also proved quite popular.
+GCC2013 was, by all accounts, a tremendous success.  This was the largest GCC ever held, and featured [poster sessions](/Events/GCC2013/Abstracts#poster-abstracts) and [Birds of a Feather gatherings](/Events/GCC2013/BoF) for the first time.  The evening [gatherings at the pub](/src/Events/GCC2013/Program/index.md#escape-to-the-pub) and the conference dinner at the historic Sporten venue, high above Oslo, also proved quite popular.
 
 In addition to the videos and presentation materials, there are also several meeting reports in a wide variety of presentation styles:
 
@@ -27,13 +27,13 @@ In addition to the videos and presentation materials, there are also several mee
 * UiO Rector's Blog: [Reproduserbarhet i livsvitenskapene](http://bit.ly/12GQpvC) 
 * [Conference Tweets at ChirpStory](http://chirpstory.com/li/93570)
 * [Storify of conference Tweets](http://storify.com/search?q=GCC2013)
-* [Photos](/Events/GCC2013/Photos) from the meeting (please add your own)
+* [Photos](/src/Events/GCC2013/Photos/index.md) from the meeting (please add your own)
 
 <br />
 
 # New Public Servers
 
-Two new servers joined [the list of over 30 publicly accessible Galaxy servers](/PublicGalaxyServers) in July.
+Two new servers joined [the list of over 30 publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) in July.
 
 ## PredPharmTox
 
@@ -108,7 +108,7 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 
 47 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in July. These papers may be particularly interesting to the Galaxy community
-* "[A sustainable national gateway for biological computation](http://dx.doi.org/10.1145/2484762.2484817)" by [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton), [Nate Coraor](/nate), *et al.* In *Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery* (2013)
+* "[A sustainable national gateway for biological computation](http://dx.doi.org/10.1145/2484762.2484817)" by [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton), [Nate Coraor](/src/nate/index.md), *et al.* In *Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery* (2013)
 * "[Cloud-based uniform ChIP-Seq processing tools for modENCODE and ENCODE](http://dx.doi.org/10.1186/1471-2164-14-494)" by Quang Trinh, Fei Y. Jen, Ziru Zhou, *et al.*, *BMC Genomics,* Vol. 14, No. 1. (2013), 494
 * "[The Banana Genome Hub](http://dx.doi.org/10.1093/database/bat035)" by Droc, *et al.*, *Database*, Vol. 2013 (01 January 2013), 
 
@@ -126,11 +126,11 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 <div class='right'><a href='http://proteomics.list.galaxyproject.org/'><img src='/Images/Logos/MailmanLogoSmall.png' alt='Galaxy Proteomics Mailing List'  /></a></div>
 
-The Galaxy community now has a [mailing list dedicated to proteomics](http://proteomics.list.galaxyproject.org/). If you're using Galaxy to do proteomics, or if you are thinking of doing so then [please subscribe](https://lists.galaxyproject.org/listinfo/galaxy-proteomics).  In case you missed it, there is also a [proteomics wiki page](/Proteomics). 
+The Galaxy community now has a [mailing list dedicated to proteomics](http://proteomics.list.galaxyproject.org/). If you're using Galaxy to do proteomics, or if you are thinking of doing so then [please subscribe](https://lists.galaxyproject.org/listinfo/galaxy-proteomics).  In case you missed it, there is also a [proteomics wiki page](/src/Proteomics/index.md). 
 
-See [the complete list of mailing lists](/MailingLists) for more information on this and other Galaxy mailing lists, including links to searchable archives of all Galaxy lists.
+See [the complete list of mailing lists](/src/MailingLists/index.md) for more information on this and other Galaxy mailing lists, including links to searchable archives of all Galaxy lists.
 
-Many thanks to Ira Cooke and [John Chilton](/JohnChilton) for suggesting this and taking the lead in gathering the Galaxy Proteomics community.
+Many thanks to Ira Cooke and [John Chilton](/src/JohnChilton/index.md) for suggesting this and taking the lead in gathering the Galaxy Proteomics community.
 
 <br />
 
@@ -142,12 +142,12 @@ The Galaxy is expanding! Please help it grow.
 * The Netherlands Institute of Ecology (NIOO-KNAW) [Bioinformatician opening](http://bit.ly/15nT1nB) 
 * [PhD or postdoc position available](http://bit.ly/15Iz3nL) at [Laboratory of Computational Biology](http://med.kuleuven.be/lcb/), University of Leuven 
 * [Bioinformatics job vacancy at Rothamsted Research](http://www.rothamsted.ac.uk/Content-Section=Careers&Page=Vacancies.html#1272), UK.  Use Galaxy for delivery of data analysis resources; new tool integration, ... **Closing date 4th August.**
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**.
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**.
 * [Sr Bioinformatics Specialist, Tufts University](http://bit.ly/1bOLLBd), Boston MA.
 * [Senior Developer](http://www.nature.com/naturejobs/science/jobs/334107-senior-developer-stem-cell-bioinformatics-core), Stem Cell Bioinformatics Core, Sage Bionetworks, Seattle, WA, United States
 * [Bioinformatics Support Group Leader](http://bit.ly/VkRtrb) @ LSU
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -252,7 +252,7 @@ The most recent official distribution was on [June 3, 2013](/DevNewsBriefs/2013_
 
 <div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
 
-A new version of [/CloudMan](/CloudMan) was [released in July](/News/CloudManRelease).
+A new version of [/CloudMan](/CloudMan) was [released in July](/src/News/CloudManRelease/index.md).
 
 CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 

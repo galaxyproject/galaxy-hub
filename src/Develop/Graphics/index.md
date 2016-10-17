@@ -1,7 +1,7 @@
 # Galaxy Graphics
 
 ## Images
-For logos and other (mostly wiki-related) images please see [Images](/Images) page. 
+For logos and other (mostly wiki-related) images please see [Images](/src/Images/index.md) page. 
 
 ## Icons
 We use Font Awesome (FA) icons and they should carry the same or very similar meaning across the whole Galaxy. 

@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 
 
 <div class='dictbox'>
- BoF:: [Data management challenges for larger galaxy installations](/Events/GCC2015/BoFs/DataManagementChallenges)
+ BoF:: [Data management challenges for larger galaxy installations](/src/Events/GCC2015/BoFs/DataManagementChallenges/index.md)
  Summary:: Data management challenges for larger Galaxy installations.
  Audience:: People using Galaxy to process large numbers of files
  When:: Wednesday, 8 July, 12:30 (Lunch)
@@ -36,8 +36,8 @@ Wednesday, 8 July, 12:30 (Lunch), in the Franklin Room, JICCC
 If you are interested, please add your name below and/or send an email to [langhorst@neb DOT com](Brad Langhorst), **or just show up.**
 
 * Brad Langhorst
-* [Nate Coraor](/nate)
-* [Hans-Rudolf Hotz](/HansrudolfHotz)
+* [Nate Coraor](/src/nate/index.md)
+* [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md)
 * Next Name
 
 ## Questions?

@@ -18,19 +18,19 @@ autotoc: true
 ## News
 
 <div class='left'><a href='/GalaxyIsHiring'><img src='/Images/Icons/PointingFinger.png' alt='pointing-finger' width="30px" /></a></div>
-* Keep current on all things Galaxy at our [/News](/News) and [/Events](/Events) wikis.
-* Galaxy is still [hiring](/GalaxyIsHiring)!
+* Keep current on all things Galaxy at our [/News](/News) and [/Events](/src/Events/index.md) wikis.
+* Galaxy is still [hiring](/src/GalaxyIsHiring/index.md)!
 
 ## What's New
 
 ### Galaxy Main
 * Data and Job Quotas announced earlier today by email, Galaxy wiki, Twitter, and News Items/RSS feed.
-  * [Email](http://lists.bx.psu.edu/pipermail/galaxy-user/2011-October/003467.html) message from the team to galaxy-user and galaxy-dev [mailing lists](/MailingLists).
-  * [Main](/Main) wiki with limits, FAQ, and related links.
+  * [Email](http://lists.bx.psu.edu/pipermail/galaxy-user/2011-October/003467.html) message from the team to galaxy-user and galaxy-dev [mailing lists](/src/MailingLists/index.md).
+  * [Main](/src/Main/index.md) wiki with limits, FAQ, and related links.
   * [Managing Datasets](/Learn/Managing Datasets) wiki contains detailed help to organize, clone, copy, save, and delete unneeded data.
   * [Disk Quotas](/Admin/Disk Quotas) wiki has administrative information on how Galaxy's disk space accounting works, how to keep it up to date, and how to enable and manage quotas
   * Twitter [#galaxyproject](http://twitter.com/#galaxyproject).
-  * [Galaxy News](/News) Items and RSS feed.
+  * [Galaxy News](/src/News/index.md) Items and RSS feed.
 ---
 <a href='http://galaxyproject.org/wiki/News'><img src='/Images/NewsGraphics/2011_10_25_newsitem-quotas.png' alt='width="600px"' /></a>
 ---
@@ -79,7 +79,7 @@ autotoc: true
 * Update the *Text Manipulation -> Select random lines from a file* tool:
   * does two passes through input file: first pass determines line offsets/count, offsets are randomly removed, second pass writes out lines by seeking to remaining offsets. 
   * the random seed can now be optionally specified. 
-* New assertion-based tests for tool test outputs from John Chilton.  For usage, see the example in the [Tool Config Syntax](/Admin/Tools/ToolConfigSyntax#a3ctest3e_tag_set) documentation.
+* New assertion-based tests for tool test outputs from John Chilton.  For usage, see the example in the [Tool Config Syntax](/src/Admin/Tools/ToolConfigSyntax/index.md#a3ctest3e_tag_set) documentation.
 
 ### Quotas and Data Management
 

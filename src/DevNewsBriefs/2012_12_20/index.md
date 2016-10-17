@@ -95,11 +95,11 @@ It is important to note that *only the most **specific match** will be used if t
 
 **Bowtie2**
 <br />
-![Bowtie2](/Images/NewsGraphics/2012_12_20_ngs-mapping-bowtie2.png)
+![Bowtie2](/src/Images/NewsGraphics/2012_12_20_ngs-mapping-bowtie2.png)
 
 **RNA-Seq Tool Suite** with updated tools highlighted
 <br />
-![RNA-Seq](/Images/NewsGraphics/2012_12_20_ngs-rna-analysis-toolsuite.png)
+![RNA-Seq](/src/Images/NewsGraphics/2012_12_20_ngs-rna-analysis-toolsuite.png)
 
 <br />
 # Visualization

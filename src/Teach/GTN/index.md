@@ -8,7 +8,7 @@ PLACEHOLDER_INCLUDE(/Teach/Header)
 
 PLACEHOLDER_INCLUDE(/Teach/LinkBox)
 
-The *[Galaxy Training Network (GTN)](/Teach/GTN)* is a network of people and groups that present Galaxy and Galaxy-based training around the world.  GTN helps researchers find online training material, and trainers in their geographic area, and helps advertise [training events](/Events) as well.
+The *[Galaxy Training Network (GTN)](/Teach/GTN)* is a network of people and groups that present Galaxy and Galaxy-based training around the world.  GTN helps researchers find online training material, and trainers in their geographic area, and helps advertise [training events](/src/Events/index.md) as well.
 
 These pages describes the Galaxy Training Network, and everything else related to teaching Galaxy or teaching Bioinformatics with Galaxy:
 
@@ -16,24 +16,24 @@ These pages describes the Galaxy Training Network, and everything else related t
 
 ## Training Resources Directory
 
-The **[Training Resources Directory](/Teach/Resources)** is a catalog of training resources for Galaxy.  *Training resources* include tutorials, slides, virtual machines, and entire workshop packages that can be used to teach with Galaxy.
+The **[Training Resources Directory](/src/Teach/Resources/index.md)** is a catalog of training resources for Galaxy.  *Training resources* include tutorials, slides, virtual machines, and entire workshop packages that can be used to teach with Galaxy.
 
-There is also an [easy way to add new resources](/Teach/Resources#add-a-training-resource) to the directory.
+There is also an [easy way to add new resources](/src/Teach/Resources/index.md#add-a-training-resource) to the directory.
 
 
 <div class='right'><br /> <a href='http://bit.ly/gxytrnmap'><img src='/Teach/GalaxyTrainingMapThumb.png' alt='Galaxy Training Network: Trainer Locations Map' width="250" /></a> </div>
 
 ## Trainer Directory
 
-Looking for someone to teach bioinformatics and Galaxy at a workshop or your institution?  Perhaps you are someone who teaches Galaxy and would be interested in helping others teach it, or in teaching Galaxy to other groups?  The **[Galaxy Trainer Directory](/Teach/Trainers)** lists everyone who is interested in training in their region, or even around the world.  
+Looking for someone to teach bioinformatics and Galaxy at a workshop or your institution?  Perhaps you are someone who teaches Galaxy and would be interested in helping others teach it, or in teaching Galaxy to other groups?  The **[Galaxy Trainer Directory](/src/Teach/Trainers/index.md)** lists everyone who is interested in training in their region, or even around the world.  
 
 ## Compute Platform Advice
 
-Wondering what kind of platform you'll need for a successful training event?  See the **[Computing Platforms page](/Teach/ComputingPlatforms)** for advice of what works and does not work in different situations.
+Wondering what kind of platform you'll need for a successful training event?  See the **[Computing Platforms page](/src/Teach/ComputingPlatforms/index.md)** for advice of what works and does not work in different situations.
 
 ## Best Practices
 
-Learn from experienced trainers and share what you have learned on the **[Galaxy Training Best Practices page](/Teach/BestPractices)**.  
+Learn from experienced trainers and share what you have learned on the **[Galaxy Training Best Practices page](/src/Teach/BestPractices/index.md)**.  
 
 ## Mailing List
 
@@ -41,7 +41,7 @@ The [Galaxy-Training mailing list](http://galaxy-training-mailing-list-archive.3
 
 ## Events
 
-Want to know what training events are scheduled in the coming months?  Or publish your event on the list?  See the **[Galaxy Events page](/Events)** which lists all known upcoming Galaxy events, including many training events.
+Want to know what training events are scheduled in the coming months?  Or publish your event on the list?  See the **[Galaxy Events page](/src/Events/index.md)** which lists all known upcoming Galaxy events, including many training events.
 
 
 ## Interested?

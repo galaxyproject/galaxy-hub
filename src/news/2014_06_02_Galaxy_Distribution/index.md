@@ -1,9 +1,9 @@
 ---
 date: 2014-06-02T12:41:26Z
 ---
-<div class='newsItemHeader'>[June 2, 2014 Galaxy Distribution](/News/2014_06_02_Galaxy_Distribution)</div>
+<div class='newsItemHeader'>[June 2, 2014 Galaxy Distribution](/src/News/2014_06_02_Galaxy_Distribution/index.md)</div>
 
-<div class='right'> <a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2014_06_02_dataset-collections-crop.png' alt='Dataset Collections Workflow Detail' width="400" /></a> <br /> *example dataset collection workflow ([credits](/DevNewsBriefs/2014_06_02#dataset_collections))* </div>
+<div class='right'> <a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2014_06_02_dataset-collections-crop.png' alt='Dataset Collections Workflow Detail' width="400" /></a> <br /> *example dataset collection workflow ([credits](/src/DevNewsBriefs/2014_06_02/index.md#dataset_collections))* </div>
 
 <br />
 **[News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2014_06_02)** **Highlights:**
@@ -47,7 +47,7 @@ date: 2014-06-02T12:41:26Z
 <br />
 *Thanks for using Galaxy!*
 
-[The Galaxy Team](/GalaxyTeam)
+[The Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

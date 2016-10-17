@@ -94,7 +94,7 @@ The [NBIC Galaxy server Andromeda](http://galaxy.nbic.nl/) features [msCompare](
 
 ### Quantification (Isobaric Labeling)
 
-The Galaxy-P OpenMS tool repository features tools for iTRAQ and TMT quantification. These are in early development, please contact [John Chilton](/JohnChilton) for more details.
+The Galaxy-P OpenMS tool repository features tools for iTRAQ and TMT quantification. These are in early development, please contact [John Chilton](/src/JohnChilton/index.md) for more details.
 
 Likewise, the tool shed contains tools for !MaxQuant and !ProteinPilot both tools are capable of Isobaric quantification - though !MaxQuant works only with Thermo RAW files and !ProteinPilot is a commercial tool. 
 

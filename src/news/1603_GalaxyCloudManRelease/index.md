@@ -1,7 +1,7 @@
 ---
 date: 2016-03-24T13:42:43Z
 ---
-<div class='newsItemHeader'>[16.03 Galaxy CloudMan release](/News/1603_GalaxyCloudManRelease)</div>
+<div class='newsItemHeader'>[16.03 Galaxy CloudMan release](/src/News/1603_GalaxyCloudManRelease/index.md)</div>
 
 <div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
 

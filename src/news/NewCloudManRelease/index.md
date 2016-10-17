@@ -1,7 +1,7 @@
 ---
 date: 2012-06-13T18:25:22Z
 ---
-<div class='newsItemHeader'>[New CloudMan Release](/News/NewCloudManRelease)</div>
+<div class='newsItemHeader'>[New CloudMan Release](/src/News/NewCloudManRelease/index.md)</div>
 
 We just released an update to CloudMan. CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
@@ -16,7 +16,7 @@ Other notable enhancements and features:
 * Significantly enhanced the details pane for individual worker nodes on the main interface, adding support for terminating and restarting individual nodes
 * Added MPI and SMP parallel environments to SGE; do `qconf -spl` to see the list and `qsub -pe <pe_name> <slots>` to use it for your cluster jobs
 * Removal of data volumes now happens in parallel, shortening the cluster shutdown time 
-* Added worker_post_start_script_url and share_string user data options. See the [User Data wiki page](/CloudMan/UserData) for the complete list.
+* Added worker_post_start_script_url and share_string user data options. See the [User Data wiki page](/src/CloudMan/UserData/index.md) for the complete list.
 * Added a messaging framework to allow system information to easily and prominently be shown on the main interface. For example, if an instance was restarted in the wrong zone for its data volume - an explicit message will be shown indicating there was an error and what should be done.
 * Support for Ubuntu 12.04
 * Enhancements to logging by progressively reducing the frequency of log output as no user interaction takes place and also introduced log rotation

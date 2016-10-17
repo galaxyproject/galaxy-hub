@@ -8,13 +8,13 @@ title: April 2014 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the April 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the April 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # New Papers
 
 *63 papers* (a new monthly record) were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in March. Some papers that may be particularly interesting to the Galaxy community:
 
-* "[Wrangling Galaxy's Reference Data](http://dx.doi.org/10.1093/bioinformatics/btu119)," by [Daniel Blankenberg](/Dan), James E. Johnson, [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton); *Bioinformatics* (28 February 2014), doi:10.1093/bioinformatics/btu119
+* "[Wrangling Galaxy's Reference Data](http://dx.doi.org/10.1093/bioinformatics/btu119)," by [Daniel Blankenberg](/Dan), James E. Johnson, [James Taylor](/JamesTaylor), [Anton Nekrutenko](/src/anton/index.md); *Bioinformatics* (28 February 2014), doi:10.1093/bioinformatics/btu119
 
 * "[Controlling for contamination in re-sequencing studies with a reproducible web-based phylogenetic approach](http://www.biotechniques.com/BiotechniquesJournal/2014/March/Controlling-for-contamination-in-re-sequencing-studies-with-a-reproducible-web-based-phylogenetic-approach/biotechniques-350711.html)," Benjamin Dickins, Boris Rebolledo-Jaramillo, Marcia Shu-Wei S. Su, Ian M. Paul, [Daniel Blankenberg](/Dan), Nicholas Stoler, Kateryna D. Makova, [Anton Nekrutenko](/anton), *[BioTechniques](http://www.biotechniques.com/)*, Vol. 56, No. 3. (2014)
 
@@ -95,9 +95,9 @@ The [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014) will be held J
 
 ### Oral Presentation Abstract Submission Closes April 4
 
-**[Abstract submission for oral presentations closes April 4](/Events/GCC2014/Abstracts), which is this Friday.** Poster submission closes April 25. Poster authors will be notified of acceptance status within two weeks of submission, while presentation authors will be notified no later than May 2.  Please consider presenting your work. If you are dealing with big biological data, then this meeting wants to hear about it.
+**[Abstract submission for oral presentations closes April 4](/src/Events/GCC2014/Abstracts/index.md), which is this Friday.** Poster submission closes April 25. Poster authors will be notified of acceptance status within two weeks of submission, while presentation authors will be notified no later than May 2.  Please consider presenting your work. If you are dealing with big biological data, then this meeting wants to hear about it.
 
-<div class='center'> <span style="font-size: larger;"> **[Submit an abstract](/Events/GCC2014/Abstracts) *[now](/Events/GCC2014/Abstracts).*** </span> </div>
+<div class='center'> <span style="font-size: larger;"> **[Submit an abstract](/src/Events/GCC2014/Abstracts/index.md) *[now](/src/Events/GCC2014/Abstracts/index.md).*** </span> </div>
 
 <br />
 
@@ -108,23 +108,23 @@ Accepted talks and selected posters from GCC2014 are also eligible for considera
 
 ### Registration is Open
 
-[Early registration is now open](/Events/GCC2014/Register). *Early registration saves more than 70% on registration costs, and [Training Day](/Events/GCC2014/TrainingDay) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/Events/GCC2014/Logistics#lodging), a very affordable housing option in the same building as the conference.
+[Early registration is now open](/Events/GCC2014/Register). *Early registration saves more than 70% on registration costs, and [Training Day](/Events/GCC2014/TrainingDay) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/src/Events/GCC2014/Logistics/index.md#lodging), a very affordable housing option in the same building as the conference.
 
-*[Training Day](/Events/GCC2014/TrainingDay)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There are 5 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 15 sessions and over 37 hours of workshop material.*
+*[Training Day](/src/Events/GCC2014/TrainingDay/index.md)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There are 5 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 15 sessions and over 37 hours of workshop material.*
 
 ### Sponsorships
 
-There are still [Silver and Bronze sponsorships](/Events/GCC2014/SponsorExhibit) available. Please contact the [Organizers](/Events/GCC2014/Organizers) if your organization would like to help sponsor this event. 
+There are still [Silver and Bronze sponsorships](/Events/GCC2014/SponsorExhibit) available. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to help sponsor this event. 
 
 ### Exhibitors
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorExhibit#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/Events/GCC2014/Organizers) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorExhibit#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to have an exhibit space at GCC2014. 
 
 ## Globus World 2014
 
 <div class='right'><a href='http://www.globusworld.org/'><img src='/Images/Logos/GlobusGenomics.png' alt='Globus World 2014' width="180" /></a></div>
 
-**[GlobusWorld](http://www.globusworld.org/)** is this year’s biggest gathering of all things [Globus](https://www.globus.org/).  !GlobusWorld 2014 features a features a *Using Globus Genomics to Accelerate Analysis Tutorial*, and a full half day on [Globus Genomics](/Cloud#globus-genomics) in the main meeting, including a keynote by Nancy Cox and these accepted talks:
+**[GlobusWorld](http://www.globusworld.org/)** is this year’s biggest gathering of all things [Globus](https://www.globus.org/).  !GlobusWorld 2014 features a features a *Using Globus Genomics to Accelerate Analysis Tutorial*, and a full half day on [Globus Genomics](/src/Cloud/index.md#globus-genomics) in the main meeting, including a keynote by Nancy Cox and these accepted talks:
 
 * *Globus Genomics: Enabling high-throughput cloud-based analysis and management of NGS data for Translational Genomics research at Georgetown*, by Yuriy Gusev,
 * *Improving next-generation sequencing variants identification in cancer genes using Globus Genomics*, by Toshio Yoshimatsu
@@ -136,7 +136,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorE
 ## UC Davis 2014 Bioinformatics Workshop
 
 <div class='right'><a href='http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/'><img src='/Images/Logos/UCDavisGenomeCenterLogo.jpg' alt='Using Galaxy for Analysis of High Throughput Sequence Data Workshop'  /></a><br />
-&nbsp;![Galaxy](/Images/Logos/galaxyLogoSymbol.png)</div>
+&nbsp;![Galaxy](/src/Images/Logos/galaxyLogoSymbol.png)</div>
 
 **Registration is now open for the [Using Galaxy for Analysis of High Throughput Sequence Data Workshop](http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/)** being held at UC Davis, June 16-20, 2014 from 9-5 each day.  The workshop will cover modern high throughput sequencing technologies, applications, and ancillary topics, including:
 
@@ -262,16 +262,16 @@ A similar workshop, [using command line interfaces to perform the analysis](http
 
 The Galaxy is expanding! Please help it grow.
 
-* [Statistical Genomics Postdoc](/News/StatisticalGenomicsPostDocPennState) opening in the Makova lab at Penn State
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
+* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
 # New Public Servers
 
-Three [public Galaxy servers](/PublicGalaxyServers) were added to the published list in March:
+Three [public Galaxy servers](/src/PublicGalaxyServers/index.md) were added to the published list in March:
 
 ## Biomina
 
@@ -336,7 +336,7 @@ Three [public Galaxy servers](/PublicGalaxyServers) were added to the published 
 
 The most recent release of Galaxy was [February 10, 2014](http://wiki.galaxyproject.org/DevNewsBriefs/2014_02_10).
 
-The most recent version of CloudMan was [released in January 2014](/News/CloudManRelease201401).
+The most recent version of CloudMan was [released in January 2014](/src/News/CloudManRelease201401/index.md).
 
 
 # Galaxy Community Hubs
@@ -353,11 +353,11 @@ The most recent version of CloudMan was [released in January 2014](/News/CloudMa
 
 <br /><br />
 
-The *[Community Log Board](/Community/Logs)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/Community)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
+The *[Community Log Board](/Community/Logs)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/src/Community/index.md)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
 
-There was one new [Community Log Board](/Community/Logs) entry in March:
+There was one new [Community Log Board](/src/Community/Logs/index.md) entry in March:
 
-* [Basic Galaxy Puppet Module](/Community/Log/2014/BasicGalaxyPuppetModule) (work by Olivier Inizan, Mikael Loaec of INRA-URGI)
+* [Basic Galaxy Puppet Module](/src/Community/Log/2014/BasicGalaxyPuppetModule/index.md) (work by Olivier Inizan, Mikael Loaec of INRA-URGI)
 
 # ToolShed Contributions
 

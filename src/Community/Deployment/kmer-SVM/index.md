@@ -10,7 +10,7 @@ title: [kmer-SVM](http://kmersvm.beerlab.org/)
 
 
 <div class='deploymentbox'>
- Deployment:: **[kmer-SVM](/Community/Deployment/kmer-SVM)**
+ Deployment:: **[kmer-SVM](/src/Community/Deployment/kmer-SVM/index.md)**
  Domain:: Genomics, Sequence Analysis
  Owners:: [Michael Beer, Biomedical Engineering, Johns Hopkins University](http://beerlab.org )
  Audience:: General Genomics Researchers  
@@ -57,6 +57,6 @@ General Genomics Researchers
 ## Links
 
 * [kmer-SVM server](http://kmersvm.beerlab.org/)
-* [kmer-svm](/PublicGalaxyServers#kmer-svm) server description on [list of public Galaxy Servers](/PublicGalaxyServers)
+* [kmer-svm](/PublicGalaxyServers#kmer-svm) server description on [list of public Galaxy Servers](/src/PublicGalaxyServers/index.md)
 
 CategoryDeployment

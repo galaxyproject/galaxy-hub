@@ -1,7 +1,7 @@
 ---
 date: 2016-07-22T15:53:38Z
 ---
-<div class='newsItemHeader'>[Multi-omics Postdoc Opening](/News/MultiOmicsPostDocMinnesota)</div>
+<div class='newsItemHeader'>[Multi-omics Postdoc Opening](/src/News/MultiOmicsPostDocMinnesota/index.md)</div>
 
 <div class='right'><div class='right'>
 <a href='http://z.umn.edu/galaxypostdoc2016'><img src='/Images/Logos/GalaxyPLogo.png' alt='Galaxy-P' width="100" /></a></div><br />

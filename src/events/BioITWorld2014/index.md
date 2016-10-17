@@ -74,4 +74,4 @@ Galaxy will have a significant presence at the [Bio-IT World Conference](http://
 
 ## Flier
 
-Going to Bio-IT World?  Print out a copy of the [Galaxy @ BioIT World 2014 flier|&do=get](ATTACHMENT_URLGalaxyAtBioITWorld2014Flier.pdf).  Want to help get the word out about Galaxy?  The [flier's](ATTACHMENT_URLGalaxyAtBioITWorld2014Flier.pdf) back page has information on [GCC2014](/Events/GCC2014).  Print out a few copies and take them with you.
+Going to Bio-IT World?  Print out a copy of the [Galaxy @ BioIT World 2014 flier|&do=get](ATTACHMENT_URLGalaxyAtBioITWorld2014Flier.pdf).  Want to help get the word out about Galaxy?  The [flier's](ATTACHMENT_URLGalaxyAtBioITWorld2014Flier.pdf) back page has information on [GCC2014](/src/Events/GCC2014/index.md).  Print out a few copies and take them with you.

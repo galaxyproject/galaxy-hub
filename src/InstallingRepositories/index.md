@@ -5,26 +5,26 @@ title: Installing Repositories
 
 
 
-[Installing repositories into Galaxy](/ToolShed/InstallingRepositoriesToGalaxy)
+[Installing repositories into Galaxy](/src/ToolShed/InstallingRepositoriesToGalaxy/index.md)
 
-[Installing repositories that define simple repository dependency relationships](/InstallingSimpleRepositoryDependencies)
+[Installing repositories that define simple repository dependency relationships](/src/InstallingSimpleRepositoryDependencies/index.md)
 
-[Installing repositories that define complex repository dependency relationships](/InstallingComplexRepositoryDependencies)
+[Installing repositories that define complex repository dependency relationships](/src/InstallingComplexRepositoryDependencies/index.md)
 
-[Installing repositories that contain tools migrated from the Galaxy code distribution to the main Galaxy Tool Shed](/ToolShed/MigratingToolsFromGalaxyDistribution)
+[Installing repositories that contain tools migrated from the Galaxy code distribution to the main Galaxy Tool Shed](/src/ToolShed/MigratingToolsFromGalaxyDistribution/index.md)
 
 [Installing tool dependency packages along with Galaxy tools](/Installing tool dependency packages)
 
-[The Tool Shed provides tool version lineage information to Galaxy](/GalaxyToolVersionLineage)
+[The Tool Shed provides tool version lineage information to Galaxy](/src/GalaxyToolVersionLineage/index.md)
 
-[Managing your Galaxy tool panel](/GalaxyToolPanel)
+[Managing your Galaxy tool panel](/src/GalaxyToolPanel/index.md)
 
-[Getting updates for repositories installed into Galaxy](/UpdatingInstalledRepositories)
+[Getting updates for repositories installed into Galaxy](/src/UpdatingInstalledRepositories/index.md)
 
-[Resetting metadata on repositories installed into Galaxy](/ResettingMetadataForInstalledRepositories)
+[Resetting metadata on repositories installed into Galaxy](/src/ResettingMetadataForInstalledRepositories/index.md)
 
-[Executing Galaxy functional tests on tools contained in installed repositories](/TestingInstalledTools)
+[Executing Galaxy functional tests on tools contained in installed repositories](/src/TestingInstalledTools/index.md)
 
-[Deactivating or uninstalling installed repositories](/UninstallingRepositoriesFromGalaxy)
+[Deactivating or uninstalling installed repositories](/src/UninstallingRepositoriesFromGalaxy/index.md)
 
-[Repairing installed repositories](/RepairingInstalledRepositories)
+[Repairing installed repositories](/src/RepairingInstalledRepositories/index.md)

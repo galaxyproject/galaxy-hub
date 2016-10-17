@@ -1,7 +1,7 @@
 ---
 date: 2016-05-18T18:20:35Z
 ---
-<div class='newsItemHeader'>[April 2016 Galaxy Release (v 16.04)](/News/2016_04_GalaxyRelease)</div>
+<div class='newsItemHeader'>[April 2016 Galaxy Release (v 16.04)](/src/News/2016_04_GalaxyRelease/index.md)</div>
 
 <div class='right'><a href='http://getgalaxy.org'><img src='/Images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png' alt='GalaxyProject' width="200" /></a></div>
  

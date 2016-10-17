@@ -14,7 +14,7 @@ This two day introductory session will introduce participants to what you need t
 
 ## Prerequisites
 
-**Please review the prerequisites carefully before [registering](/Events/AdminTraining2016/Registration).**  If you arrive without meeting the prerequisites then the workshop will be a frustrating experience.
+**Please review the prerequisites carefully before [registering](/src/Events/AdminTraining2016/Registration/index.md).**  If you arrive without meeting the prerequisites then the workshop will be a frustrating experience.
 
 ### Comfortable with the Unix/Linux command line
 

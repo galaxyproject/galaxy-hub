@@ -1,7 +1,7 @@
 ---
 date: 2015-05-08T16:06:45Z
 ---
-<div class='newsItemHeader'>[Galaxy Data Wrangling Hackathon](/News/GCC2015DataWranglingHackathon)</div>
+<div class='newsItemHeader'>[Galaxy Data Wrangling Hackathon](/src/News/GCC2015DataWranglingHackathon/index.md)</div>
 
 <div class='center'><a href='http://gcc2015.tsl.ac.uk/data-hackathon/'><img src='/Images/Logos/GCC2015DataHack400.png' alt='Galaxy Data Wrangling Hackathon @ GCC2015' /></a>
 <br /><br />

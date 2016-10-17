@@ -15,7 +15,7 @@ title: February 2016 Galaxy News
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
-Welcome to the February 2016 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. 
+Welcome to the February 2016 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. 
 
 If you have anything to include in the next News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
 
@@ -112,7 +112,7 @@ We continue to seek other sponsors as well and [offer a wide range of sponsorshi
     Valentina Boeva, (23 Sep 2014)
 
 * [Galaxy Portal: Interacting with the Galaxy platform through mobile devices](http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw042.abstract)
-    Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/Marten), and Geir Kjetil Sandve, *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
+    Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/src/Marten/index.md), and Geir Kjetil Sandve, *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
 
 The new papers were tagged with:
 
@@ -296,10 +296,10 @@ The Galaxy is expanding! Please help it grow.
 * [Postdoc position on methods for transcriptome analysis of disease-specific cells](http://bit.ly/1PrQfVQ), University of Oslo
 * [Computational Biology post-doc](http://bit.ly/1J1WLla), IMI-eTRIKS consortium, CNRS-EISBM, Lyon France. Contribute "to the development of eTRIKS Galaxy tools and workflows for disease stratification and biomarker discovery from single and multiple omics datasets."
 * [Post-doc in Functional Genomics Of Obesity-Related Diseases](http://bit.ly/1QFyDHK), Inserm, Lille, France 
-* [Software Engineer](/News/SoftwareEngineerOHSU), Oregon Health Sciences University, Portland, Oregon, United States
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
+* [Software Engineer](/src/News/SoftwareEngineerOHSU/index.md), Oregon Health Sciences University, Portland, Oregon, United States
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -369,7 +369,7 @@ Want to try a pre-configured Galaxy instance on your Mac OS X or Windows machine
 
 # New Public Galaxy Servers
 
-[One new publicly accessible Galaxy servers](/PublicGalaxyServers) was added in January: LAPPS Grid, a Galaxy server for *natural language processing*.
+[One new publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) was added in January: LAPPS Grid, a Galaxy server for *natural language processing*.
 
 ## LAPPS Grid
 
@@ -515,19 +515,19 @@ The 0.6.x release includes these changes:
 
 # ToolShed Contributions
 
-See [list of tools contributed in January](/ToolShed/Contributions/2016_01).
+See [list of tools contributed in January](/src/ToolShed/Contributions/2016_01/index.md).
 
 
 ---
 
 # Other News
  
-* The [Project Statistics page](/GalaxyProject/Statistics) has had its semi-annual update.
+* The [Project Statistics page](/src/GalaxyProject/Statistics/index.md) has had its semi-annual update.
 
 ## Galaxy Goes Mobile!
 
 <div class='right'>
-![A history in Galaxy Portal](/Images/NewsGraphics/GalaxyPortalHistory.png)
+![A history in Galaxy Portal](/src/Images/NewsGraphics/GalaxyPortalHistory.png)
 </div>
 
 **Galaxy is now accessible from your [IOS](https://itunes.apple.com/us/app/galaxy-portal/id937158087?mt=8) and [Android](https://play.google.com/store/apps/details?id=no.uio.bmi.claus) devices.** The Galaxy Portal app is a quick and easy way to monitor the status of biomedical research on any Galaxy server. With this app you can set up a list of Galaxy connections and browse your analyses histories in a user-friendly format and take a peek at your data on the go.

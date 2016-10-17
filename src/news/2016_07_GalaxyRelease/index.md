@@ -1,7 +1,7 @@
 ---
 date: 2016-08-25T20:17:40Z
 ---
-<div class='newsItemHeader'>[July 2016 Galaxy Release (v 16.07)](/News/2016_07_GalaxyRelease)</div>
+<div class='newsItemHeader'>[July 2016 Galaxy Release (v 16.07)](/src/News/2016_07_GalaxyRelease/index.md)</div>
 
 <div class='right'><a href='http://getgalaxy.org'><img src='/Images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png' alt='GalaxyProject' width="200" /></a></div>
 

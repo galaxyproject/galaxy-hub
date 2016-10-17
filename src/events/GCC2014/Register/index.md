@@ -15,7 +15,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 **[Registration](https://housing6.res.jhu.edu/KxRegistration_Live/Galaxy2014) for GCC2014 is now open.**
 
-Our goal is to have [registration](https://housing6.res.jhu.edu/KxRegistration_Live/Galaxy2014) be downright affordable, and to make early registration *outrageously* affordable for students and postdocs.  Participants will be able to register for the entire event, just the [Training Day](/Events/GCC2014/TrainingDay), or just the [main meeting](/Events/GCC2014/Program).  There are different registration levels for students and postdocs, other non-profit researchers, and industry.
+Our goal is to have [registration](https://housing6.res.jhu.edu/KxRegistration_Live/Galaxy2014) be downright affordable, and to make early registration *outrageously* affordable for students and postdocs.  Participants will be able to register for the entire event, just the [Training Day](/Events/GCC2014/TrainingDay), or just the [main meeting](/src/Events/GCC2014/Program/index.md).  There are different registration levels for students and postdocs, other non-profit researchers, and industry.
 
 *If you are attending the [Training Day](../TrainingDay), you are encouraged to review the [schedule and topics](../TrainingDay) before registering.* You will select the topics you will attend as part of registration.  You are also encouraged to review the [lodging options](../Logistics) before registering as Charles Commons, the most affordable option, can only be booked during registration.
 

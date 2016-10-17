@@ -1,19 +1,19 @@
 <div class='linkbox'>
-**[/Support](/Support)**
+**[/Support](/src/Support/index.md)**
 ---
-[/Learn](/Learn)<br />
-[FAQ](/Learn/FAQ)<br />
-[Biostar](/Support/Biostar)<br />
+[/Learn](/src/Learn/index.md)<br />
+[FAQ](/src/Learn/FAQ/index.md)<br />
+[Biostar](/src/Support/Biostar/index.md)<br />
 [Videos](http://vimeo.com/galaxyproject)<br />
-[IRC](/Support/IRC)<br />
+[IRC](/src/Support/IRC/index.md)<br />
 [Tutorials](http://main.g2.bx.psu.edu/u/james/p/exercises)<br />
-[/News](/News)<br />
-[/Events](/Events)<br />
-[Get Galaxy!](/Admin/GetGalaxy)<br />
-[/Admin](/Admin)<br />
+[/News](/src/News/index.md)<br />
+[/Events](/src/Events/index.md)<br />
+[Get Galaxy!](/src/Admin/GetGalaxy/index.md)<br />
+[/Admin](/src/Admin/index.md)<br />
 [/Tool Shed](/Tool Shed)<br />
-[/CloudMan](/CloudMan)<br />
-[Citing Galaxy](/CitingGalaxy)<br />
-[Issue Board](/Issues)<br />
+[/CloudMan](/src/CloudMan/index.md)<br />
+[Citing Galaxy](/src/CitingGalaxy/index.md)<br />
+[Issue Board](/src/Issues/index.md)<br />
 [Search](http://galaxyproject.org/search/)
 </div>

@@ -63,7 +63,7 @@ When included in the Galaxy distribution, tools are defined by "id" and "version
 * Updated **[IGV](http://www.broadinstitute.org/igv/)** external display application, so that displays using vcf_bgzip will now maintain vcf headers
 
 # Galaxy Track Browser (GTB)
-**[Trackster](/Learn/Visualization)**
+**[Trackster](/src/Learn/Visualization/index.md)**
 * *New:*
   * Enable visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) peak tracks (see graphic below)
   * Dynamic filtering of read tracks using quality scores
@@ -120,10 +120,10 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
   * Allow setting library metadata when adding datasets from a history
 
 # CloudMan
-**[/CloudMan](/CloudMan)**
-* A larger tools volume (10GB vs old 2GB) is now the default for any new [/CloudMan](/CloudMan) cluster making it easier to customize your Galaxy Cloud instances
-* A [preliminary support for OpenNebula cloud type](http://bitbucket.org/galaxy/cloudman/src/tip/cm/clouds/opennebula.py) exists within [/CloudMan](/CloudMan) (thanks to Mattias de Hollander)
-* Please continue to use AMI **ami-da58aab3** for Galaxy Cloud clusters, as listed on [usegalaxy.org/cloud](/CloudMan). There is another AMI dated from Feb 26, 2012 that was not created by the Galaxy Team and is not supported by us. 
+**[/CloudMan](/src/CloudMan/index.md)**
+* A larger tools volume (10GB vs old 2GB) is now the default for any new [/CloudMan](/src/CloudMan/index.md) cluster making it easier to customize your Galaxy Cloud instances
+* A [preliminary support for OpenNebula cloud type](http://bitbucket.org/galaxy/cloudman/src/tip/cm/clouds/opennebula.py) exists within [/CloudMan](/src/CloudMan/index.md) (thanks to Mattias de Hollander)
+* Please continue to use AMI **ami-da58aab3** for Galaxy Cloud clusters, as listed on [usegalaxy.org/cloud](/src/CloudMan/index.md). There is another AMI dated from Feb 26, 2012 that was not created by the Galaxy Team and is not supported by us. 
 
 # Source
 **[galaxy-cental](http://bitbucket.org/galaxy/galaxy-central/src/)**,
@@ -152,30 +152,30 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
 * Various bug fixes for Object Store, with a particular focus on the Distributed Object Store
 
 # Announcements
-**[/News](/News)**
+**[/News](/src/News/index.md)**
 
-**March 2012** ***[Galaxy Update](/GalaxyUpdates/2012_03)***
+**March 2012** ***[Galaxy Update](/src/GalaxyUpdates/2012_03/index.md)***
 
 ## GCC2012 Update
 <div class='right'><a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="100" /></a><br /><br /><a href='/Events/GCC2012/TrainingDay'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' width="130" /></a></div>
-* The [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) will be held July 25-27, in Chicago. 
+* The [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) will be held July 25-27, in Chicago. 
 * The conference will feature two full days of presentations and discussions. 
 * [Abstract submission](/Events/GCC2012/Abstracts) will [close April 16](/Events/GCC2012/Key Dates). 
-* A [whole day of training](/Events/GCC2012/TrainingDay) has been added, and topics set:
-  * [Introduction to Galaxy](/Events/GCC2012/TrainingDay#ws2)
-  * [Installing Your Own Galaxy](/Events/GCC2012/TrainingDay#ws5)
-  * [Galaxy CloudMan](/Events/GCC2012/TrainingDay#ws3)
-  * [Integrating Tools & Data Sources](/Events/GCC2012/TrainingDay#ws1)
-  * [Galaxy API](/Events/GCC2012/TrainingDay#ws6)
-  * [Galaxy Tool Shed](/Events/GCC2012/TrainingDay#ws7)
-  * [Ion Torrent - Open Source Sequencing](/Events/GCC2012/TrainingDay#ws10)
-* Early [registration](/Events/GCC2012/Register) will open **any day now** and close June 11. 
+* A [whole day of training](/src/Events/GCC2012/TrainingDay/index.md) has been added, and topics set:
+  * [Introduction to Galaxy](/src/Events/GCC2012/TrainingDay/index.md#ws2)
+  * [Installing Your Own Galaxy](/src/Events/GCC2012/TrainingDay/index.md#ws5)
+  * [Galaxy CloudMan](/src/Events/GCC2012/TrainingDay/index.md#ws3)
+  * [Integrating Tools & Data Sources](/src/Events/GCC2012/TrainingDay/index.md#ws1)
+  * [Galaxy API](/src/Events/GCC2012/TrainingDay/index.md#ws6)
+  * [Galaxy Tool Shed](/src/Events/GCC2012/TrainingDay/index.md#ws7)
+  * [Ion Torrent - Open Source Sequencing](/src/Events/GCC2012/TrainingDay/index.md#ws10)
+* Early [registration](/src/Events/GCC2012/Register/index.md) will open **any day now** and close June 11. 
 
 ## Galaxy is Hiring!
-<div class='left'>![Galaxy wants YOU](/Images/Icons/PointingFinger.png)<div class='center'></div></div>
-**The [Galaxy Team](/GalaxyTeam) Wants You!**
+<div class='left'>![Galaxy wants YOU](/src/Images/Icons/PointingFinger.png)<div class='center'></div></div>
+**The [Galaxy Team](/src/GalaxyTeam/index.md) Wants You!**
 <br />
-Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/GalaxyIsHiring)
+Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/src/GalaxyIsHiring/index.md)
 
 ---
 

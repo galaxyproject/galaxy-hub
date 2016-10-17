@@ -98,5 +98,5 @@ The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject
 * Data producers
 * Power bioinformatics users
 
-The [feedback](/Events/GCC2011#feedback) we received on the [2011 meeting](/Events/GCC2011) was excellent.  You can expect the 2012 meeting to be as well received and organized as the previous event.
+The [feedback](/Events/GCC2011#feedback) we received on the [2011 meeting](/src/Events/GCC2011/index.md) was excellent.  You can expect the 2012 meeting to be as well received and organized as the previous event.
 1

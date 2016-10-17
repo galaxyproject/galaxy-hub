@@ -3,7 +3,7 @@ title: Support, :,  Resources for Using Tools
 ---
 <div class='right'>PLACEHOLDER_INCLUDE(/Support/LinkBox)</div>
 
-Back to [/Support](/Support)
+Back to [/Support](/src/Support/index.md)
 ## Galaxy has a simplified tool interface packed with usage details.
 <br />
 **Documentation is on the tool form itself** covering:
@@ -30,7 +30,7 @@ Our [Custom Tools](/Support#custom_searches) will locate help across Galaxy's re
 <a href='http://galaxyproject.org/search/usegalaxy'><img src='/Images/Logos/UseGalaxySearch.png' alt='Using Galaxy Web Search' width="170" /></a>
 <br />
 <br />
-Thank you for your for *Using Galaxy!* [Accessibility is our mission](/FrontPage) and we hope these resources help to further *everyone's* research goals.
+Thank you for your for *Using Galaxy!* [Accessibility is our mission](/src/FrontPage) and we hope these resources help to further *everyone's* research goals.
 <br />
 <br />
 [Galaxy team](https://wiki.galaxyproject.org/GalaxyTeam)

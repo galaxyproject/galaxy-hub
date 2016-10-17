@@ -1,7 +1,7 @@
 ---
 date: 2013-09-09T21:30:57Z
 ---
-<div class='newsItemHeader'>[Computational Biology Position, Paris](/News/ComputationalBiologyParis)</div>
+<div class='newsItemHeader'>[Computational Biology Position, Paris](/src/News/ComputationalBiologyParis/index.md)</div>
 
 <div class='right'><a href='http://drosophile.org/GEDlab/?page_id=760'><img src='/Images/Logos/DrosophileLogo.jpg' alt='Opening in Drosophila Genetics and Epigenetics' width="150" /></a></div>
 

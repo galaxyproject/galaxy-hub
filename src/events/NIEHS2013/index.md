@@ -8,7 +8,7 @@
 
 <div class='title'>Galaxy<br />July 18, 2013</div>
 
-**Instructor: [Dave Clements](/DaveClements)
+**Instructor: [Dave Clements](/src/DaveClements/index.md)
 
 9:00-5:00<br />
 NIEHS Rall Room 101/A262<br />
@@ -101,7 +101,7 @@ No programming or Linux command line experience is required.
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [National Institute of Environmental Health Sciences](http://niehs.nih.gov/).
 
-This workshop is also part of the [NIEHS](http://niehs.nih.gov/) *2013 Introduction to Biostatistics and Bioinformatics Summer Short Courses* series and the [2013 Research Triangle Galaxy Workshop Tour](/Events/RTWorkshopTour2013).
+This workshop is also part of the [NIEHS](http://niehs.nih.gov/) *2013 Introduction to Biostatistics and Bioinformatics Summer Short Courses* series and the [2013 Research Triangle Galaxy Workshop Tour](/src/Events/RTWorkshopTour2013/index.md).
 
 ## Slides
 

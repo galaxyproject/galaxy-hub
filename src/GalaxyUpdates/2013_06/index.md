@@ -8,13 +8,13 @@ title: June 2013 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the June 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the June 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
 ## New Public Servers
 
-[ODoSE](http://www.odose.nl/) and [CBiB Galaxy](http://services.cbib.u-bordeaux2.fr/galaxy/) joined [the list of over 30 publicly accessible Galaxy servers](/PublicGalaxyServers) in May.
+[ODoSE](http://www.odose.nl/) and [CBiB Galaxy](http://services.cbib.u-bordeaux2.fr/galaxy/) joined [the list of over 30 publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) in May.
 
 ### ODoSE
 
@@ -94,11 +94,11 @@ There are now almost [1000 papers in the Galaxy CiteULike Group](http://www.cite
 
 The Galaxy is expanding! Please help it grow.
 
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)!** at both Emory and Penn State.
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)!** at both Emory and Penn State.
 * [Senior Developer](http://www.nature.com/naturejobs/science/jobs/321283-Senior-Developer-Stem-Cell-Bioinformatics-Core), Stem Cell Bioinformatics Core, Sage Bionetworks, Seattle, WA, United States
 * [Bioinformatics Support Group Leader](http://bit.ly/VkRtrb) @ LSU
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 
 ## GCC2013
@@ -118,9 +118,9 @@ The [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013) will be held 3
 
 <div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
 
-[GCC2013](/Events/GCC2013) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/Events/GCC2013/TrainingDay) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
+[GCC2013](/Events/GCC2013) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/src/Events/GCC2013/TrainingDay/index.md) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
 
-**[Register by 14 June](/Events/GCC2013/Register)** and *and avoid the 100% fee increase for late registration.*  Registration is very affordable, with combined registration ([Training Day](/Events/GCC2013/TrainingDay) + main meeting) starting at ~ €165 for post-docs and students.  Registering now also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Note that you can still register after 14 June, it will just cost you much more.
+**[Register by 14 June](/Events/GCC2013/Register)** and *and avoid the 100% fee increase for late registration.*  Registration is very affordable, with combined registration ([Training Day](/src/Events/GCC2013/TrainingDay/index.md) + main meeting) starting at ~ €165 for post-docs and students.  Registering now also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Note that you can still register after 14 June, it will just cost you much more.
 
 <br />
 
@@ -130,7 +130,7 @@ The [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013) will be held 3
 
 <div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="180" /></a></div>
 
-Past Galaxy Community Conferences have been *the* event for networking in the Galaxy: There is no better place to meet and learn from others doing high-throughput biology.  GCC2013 extends this tradition by including *[Birds of a Feather (BoF)](/Events/GCC2013/BoF)* meetups at the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  If you have something in the list at right you want to meet about, or you have a whole new topic, then please join or start a [GCC2013 BoF](/Events/GCC2013/BoF).
+Past Galaxy Community Conferences have been *the* event for networking in the Galaxy: There is no better place to meet and learn from others doing high-throughput biology.  GCC2013 extends this tradition by including *[Birds of a Feather (BoF)](/src/Events/GCC2013/BoF/index.md)* meetups at the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  If you have something in the list at right you want to meet about, or you have a whole new topic, then please join or start a [GCC2013 BoF](/src/Events/GCC2013/BoF/index.md).
 
 <br />
 
@@ -138,9 +138,9 @@ Past Galaxy Community Conferences have been *the* event for networking in the Ga
 
 ### Sponsorships
 
-We are pleased to announce that [BioTeam](http://bioteam.net) is a [Gold Sponsor of GCC2013](/Events/GCC2013/Sponsorships). 
+We are pleased to announce that [BioTeam](http://bioteam.net) is a [Gold Sponsor of GCC2013](/src/Events/GCC2013/Sponsorships/index.md). 
 
-There are still [Silver and Bronze sponsorships](/Events/GCC2013/Sponsorships) available. Please contact the [Organizers](/Events/GCC2013/Organizers) if your organization would like to help sponsor this event. 
+There are still [Silver and Bronze sponsorships](/Events/GCC2013/Sponsorships) available. Please contact the [Organizers](/src/Events/GCC2013/Organizers/index.md) if your organization would like to help sponsor this event. 
 
 <br />
 
@@ -279,7 +279,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 <div class='right'><a href='/Community/GalaxyAdmins/Meetups/2013_05_15'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' height="50" /></a></div>
 
-The [May GalaxyAdmins Meetup](/Community/GalaxyAdmins/Meetups/2013_05_15) featured Andrew Warren of the [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) at Virginia Tech speaking on their Galaxy deployment *[RNA Rocket](http://rnaseq.pathogenportal.org/)* for [Pathogen Portal](http://pathogenportal.org). [Dannon Baker](/DannonBaker)also gave a Galaxy Project update.  Slides and a screencast are now available.
+The [May GalaxyAdmins Meetup](/Community/GalaxyAdmins/Meetups/2013_05_15) featured Andrew Warren of the [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) at Virginia Tech speaking on their Galaxy deployment *[RNA Rocket](http://rnaseq.pathogenportal.org/)* for [Pathogen Portal](http://pathogenportal.org). [Dannon Baker](/src/DannonBaker/index.md)also gave a Galaxy Project update.  Slides and a screencast are now available.
 
 <br />
 
@@ -287,7 +287,7 @@ The [May GalaxyAdmins Meetup](/Community/GalaxyAdmins/Meetups/2013_05_15) featur
 
 <div class='right'><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src='/Images/Logos/UseGalaxyOrgLogoShadow200.png' alt='Main's Terms of Use'  /></a><br /><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src='/Images/Logos/UseGalaxyOrgLogoShadow200.png' alt='Main's Terms of Use'  /></a></div>
 
-The [terms of use](https://main.g2.bx.psu.edu/static/terms.html) for the Galaxy Project's free Galaxy server, [http://usegalaxy.org](http://usegalaxy.org) (a.k.a. [/Main](/Main)) specify 
+The [terms of use](https://main.g2.bx.psu.edu/static/terms.html) for the Galaxy Project's free Galaxy server, [http://usegalaxy.org](http://usegalaxy.org) (a.k.a. [/Main](/src/Main/index.md)) specify 
 
 <div class='indent'>
 Your access to the Service is provided under the condition that you abide by any published quotas on data storage, job submissions, or any other limitations placed on the public Service. *Attempts to subvert these limits by creating multiple accounts or through any other method may result in termination of all associated accounts.*
@@ -300,7 +300,7 @@ If your account is suspended and you believe that you are not in violation of Ma
 
 ## Galaxy Distributions
 
-The most recent official distribution was on [April 1, 2013](/DevNewsBriefs/2013_04_01).  However, [a security update was released on April 8](/News/2013_04_08_Galaxy_Security_Release).  See [this news item](/News/2013_04_08_Galaxy_Security_Release) for details.  We are planning the next release for early June.
+The most recent official distribution was on [April 1, 2013](/DevNewsBriefs/2013_04_01).  However, [a security update was released on April 8](/src/News/2013_04_08_Galaxy_Security_Release/index.md).  See [this news item](/src/News/2013_04_08_Galaxy_Security_Release/index.md) for details.  We are planning the next release for early June.
 
 
 ## Tool Shed Contributions

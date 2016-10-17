@@ -10,7 +10,7 @@ title: PHAC NML Galaxy
 
 
 <div class='deploymentbox'>
- Deployment:: **[PHAC NML Galaxy](/Community/Deployment/PHACNML)**
+ Deployment:: **[PHAC NML Galaxy](/src/Community/Deployment/PHACNML/index.md)**
  Domain:: NGS analysis: Molecular Epidemiology, metagenomics, viral and bacterial genomics, custom tools.
  Owners:: [PHAC NML Bioinformatics Corefacility](https://www.nml-lnm.gc.ca/index-eng.htm)
  Audience:: Public Health Agency of Canada Scientists, international and local Collaborators and stakeholders

@@ -1,7 +1,7 @@
 <div class='linkbox'>
-**[/FAQs](/FAQs)**
+**[/FAQs](/src/FAQs/index.md)**
 ---
-[Main](/Main/FAQ)<br />
-[Admin](/Admin/FAQ)<br />
+[Main](/src/Main/FAQ/index.md)<br />
+[Admin](/src/Admin/FAQ/index.md)<br />
 [Search](http://galaxyproject.org/search/)
 </div>

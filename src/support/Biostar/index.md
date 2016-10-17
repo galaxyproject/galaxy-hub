@@ -23,9 +23,9 @@ Galaxy Biostars is a community forum-like platform for asking specific questions
 Galaxy Biostars is directly integrated into the [Galaxy](http://usegalaxy.org) user interface and is available right when help is wanted!
 
 #### Sharing Accounts
-<div class='left'>![Go to Galaxy Biostars](/Images/Screenshots/BiostarUserMenu.png)</div>
+<div class='left'>![Go to Galaxy Biostars](/src/Images/Screenshots/BiostarUserMenu.png)</div>
 
-Every user on the public [Main Galaxy](/Main) server can access Galaxy Biostar directly through the menu **Help &rarr; Galaxy Biostar**. 
+Every user on the public [Main Galaxy](/src/Main/index.md) server can access Galaxy Biostar directly through the menu **Help &rarr; Galaxy Biostar**. 
 <br />
 
 A Galaxy Biostars account will be created automatically on the first access and the user will be automatically logged in to it transparently while accessing it through [http://usegalaxy.org](http://usegalaxy.org) when also logged in.
@@ -38,7 +38,7 @@ If a user ever wants to log in to Galaxy Biostars directly, a password reset req
 
 Every tool page has two options to reach Galaxy Biostars in the top right corner, as shown on the picture.
 
-<div class='right'>![Tool query in Galaxy Biostars](/Images/Screenshots/BiostarToolMenu.png)</div>
+<div class='right'>![Tool query in Galaxy Biostars](/src/Images/Screenshots/BiostarToolMenu.png)</div>
 
 <br />
 
@@ -48,4 +48,4 @@ Every tool page has two options to reach Galaxy Biostars in the top right corner
 
 <br /><br /><br />
 
-The [Galaxy Biostars](https://biostar.usegalaxy.org/) forum's focus to *help people use Galaxy.* It is one of many options available for [Galaxy Support](/Support).
+The [Galaxy Biostars](https://biostar.usegalaxy.org/) forum's focus to *help people use Galaxy.* It is one of many options available for [Galaxy Support](/src/Support/index.md).

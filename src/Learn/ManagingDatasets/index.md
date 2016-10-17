@@ -10,9 +10,9 @@ PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 
 ***Datasets*** are the inputs and outputs of each step in an analysis project in Galaxy. Datasets are associated with at least one History, which can be labeled, manipulated, and shared with anyone, whether they have a Galaxy account or not. **Watch the *["Datasets" video](http://vimeo.com/galaxyproject/datasets1)***
 
-The tracking information associated with Datasets in a History represent an experimental record of the methods, parameters, and other inputs. These methods are easily extracted into **[Workflows](/Learn/AdvancedWorkflow)**, making an analysis pathway transparent, reproducible, and *reusable*.
+The tracking information associated with Datasets in a History represent an experimental record of the methods, parameters, and other inputs. These methods are easily extracted into **[Workflows](/src/Learn/AdvancedWorkflow/index.md)**, making an analysis pathway transparent, reproducible, and *reusable*.
 
-Effectively managing datasets is important for general organization, collaboration, publishing, and for staying within the quotas set by the [/Main](/Main), [/Test](/Test), and other host instances.
+Effectively managing datasets is important for general organization, collaboration, publishing, and for staying within the quotas set by the [/Main](/Main), [/Test](/src/Test/index.md), and other host instances.
 
 # Getting Datasets in Galaxy
 You have multiple options how to get your files into Galaxy thus making them datasets:
@@ -40,18 +40,18 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
   * Download
   * View Details
   * Run this job again ![](/Images/Icons/arrow-circle.png)
-  * Display in [trackster|Galaxy Track Browser (GTB)](/Learn/Visualization) (optional)
+  * Display in [trackster|Galaxy Track Browser (GTB)](/src/Learn/Visualization/index.md) (optional)
   * display at [UCSC](http://genome.ucsc.edu) main  (optional)
   * display at [Ensembl](http://www.ensembl.org) Current (optional)
 
 # Data size and disk Quotas
 * The size limit for a file loaded using [FTP](/FTPUpload) is 50G.
 * The size limit for a job's output is (unrelated to quotas):
-  * 50G on the [/Test](/Test) server
-  * 200G on the [/Main](/Main) server
+  * 50G on the [/Test](/src/Test/index.md) server
+  * 200G on the [/Main](/src/Main/index.md) server
 * The size limit for all data (quotas) on the Galaxy public servers is explained at:
-  * [/Test](/Test) server
-  * [/Main](/Main) server
+  * [/Test](/src/Test/index.md) server
+  * [/Main](/src/Main/index.md) server
 * Administrative instructions for [ disk quotas](/Admin/Disk Quotas)
 
 # Format
@@ -63,7 +63,7 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
 # Visualize
 * For many [datatypes](/Learn/Datatypes), clicking on the **eye icon** ![](/Images/Icons/eye.png) for "Display data in browser" will display the contents or a preview of the contents in as unformatted text in the center pane (exceptions include compressed [datatypes](/Learn/Datatypes) such as BAM).
 * Direct links to view a dataset within a browser may include:
-  * [Trackster "Galaxy Track Browser (GTB)"](/Learn/Visualization)
+  * [Trackster "Galaxy Track Browser (GTB)"](/src/Learn/Visualization/index.md)
   * [GeneTrack](http://atlas.bx.psu.edu/software/genetrack.html)
   * [UCSC](http://genome.ucsc.edu)
   * [Ensembl](http://www.ensembl.org)
@@ -80,7 +80,7 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
   * Options are:
   * *Clone all history items, including deleted items*
   * *Clone only items that are not deleted*
-* ***TIP*** One use of this option is to **quickly retain some datasets and permanently delete others** (to reduce disk use counted in user [quota](/Admin/Disk Quotas) on [/Main](/Main) or [/Test](/Test)). First, in the History pane, in the original history, delete individual datasets by clicking on the *X* delete icon ![](/Images/Icons/deleteX.png) if not to be **Cloned**, remember to delete **Hidden** datasets, (see below). Next, *Clone* the original History. Once complete, the cloned History will contain the datasets to be retained and the original History can be deleted permanently with *gear icon &rarr; Saved Histories*, select original History from the list, and clicking the button *Delete Permanently*.
+* ***TIP*** One use of this option is to **quickly retain some datasets and permanently delete others** (to reduce disk use counted in user [quota](/Admin/Disk Quotas) on [/Main](/Main) or [/Test](/Test)). First, in the History pane, in the original history, delete individual datasets by clicking on the *X* delete icon ![](/src/Images/Icons/deleteX.png) if not to be **Cloned**, remember to delete **Hidden** datasets, (see below). Next, *Clone* the original History. Once complete, the cloned History will contain the datasets to be retained and the original History can be deleted permanently with *gear icon &rarr; Saved Histories*, select original History from the list, and clicking the button *Delete Permanently*.
 
 # Hidden
 * Datasets may be hidden in the default History view as a Workflow option. If you have run a workflow with hidden datasets, choose "gear icon &rarr; Include Hidden Datasets or Unhide Hidden Datasets" or use the toogle at the top of the history panel (directly below the history name) to view them.
@@ -90,12 +90,12 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
 # Delete vs Delete Permanently
 * Deleting Datasets and Histories
   * **Watch how it works in the [Managing Histories](http://vimeo.com/galaxyproject/managehistories) video.**
-  * **Deleted** datasets and histories **can be recovered** by users as they are retained in Galaxy for a time period set by the instance administrator. For the Galaxy public instances [/Main](/Main) and [/Test](/Test), this is currently several months.
+  * **Deleted** datasets and histories **can be recovered** by users as they are retained in Galaxy for a time period set by the instance administrator. For the Galaxy public instances [/Main](/Main) and [/Test](/src/Test/index.md), this is currently several months.
   * **Permanently deleted** datasets and histories **cannot be recovered** by the user or administrator.
   * Deleted datsets can be undeleted or permanently deleted using from the History pane *gear icon &rarr; Include Deleted Datasets*, and then: *This dataset has been deleted. Click _here_ to undelete or _here_ to immediately remove it from disk.*
     * Check for hidden datasets and delete as needed (see section above *Hidden* for more details)
 * [Quotas](/Admin/Disk Quotas) for Datasets and Histories
-  * **Deleted** datasets and **deleted** histories containing datasets **are considered when calculating [quotas](/Admin/Disk Quotas)** on [/Main](/Main) or [/Test](/Test).
+  * **Deleted** datasets and **deleted** histories containing datasets **are considered when calculating [quotas](/Admin/Disk Quotas)** on [/Main](/Main) or [/Test](/src/Test/index.md).
   * **Permanently deleted** datasets and **permanently deleted** histories containing datasets **are not considered**.
   * Imported native **Data Library** datasets **are not considered**.
   * Datasets can be associated with one or more History, but are only considered once.

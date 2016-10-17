@@ -7,7 +7,7 @@ title: Galaxy Screencasts and Demos
 PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 <div class='left'></div>
 
-Screencasts are one of several ways to **[learn](/Learn)** how to use Galaxy.  These video tutorials cover many aspects of Galaxy, from simple tasks like uploading data, to complex analysis.
+Screencasts are one of several ways to **[learn](/src/Learn/index.md)** how to use Galaxy.  These video tutorials cover many aspects of Galaxy, from simple tasks like uploading data, to complex analysis.
 
 The current screencasts use a variety of technologies, including !QuickTime (you may need to download the [QuickTime player](http://www.apple.com/quicktime/download/)).
 

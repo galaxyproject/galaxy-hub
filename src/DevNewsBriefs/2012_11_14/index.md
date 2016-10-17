@@ -48,7 +48,7 @@ The **Galaxy Project** is now using the *[Sphinx](http://sphinx-doc.org/) Python
 Two versions of the documentation are available:
 
 * **[galaxy-dist.readthedocs.org](http://galaxy-dist.readthedocs.org)**
-    This documentation describes the code in the [most recent stable release](/DevNewsBriefs) of Galaxy ("galaxy-dist").
+    This documentation describes the code in the [most recent stable release](/src/DevNewsBriefs/index.md) of Galaxy ("galaxy-dist").
 
 * **[galaxy-central.readthedocs.org](http://galaxy-central.readthedocs.org)**
     This documentation describes what is currently in the main development branch ("galaxy-central") of Galaxy.  Code updates are automatically propagated from Galaxy's !BitBucket.org repository.  This should never be more than 15 minutes out of date.
@@ -171,7 +171,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 
 ### Find a great Galactic job!
 
-<div class='right'>![Please Help!  Yes you!](/Images/Icons/PointingFinger.png)</div>
+<div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
 
 * [Engineer position in bioinformatics: structural polymorphism analysis from NGS data](http://bit.ly/TEQvzd) @ [UMR de Génétique Végétale, INRA-Université Paris Sud-CNRS](http://moulon.inra.fr/index.php/fr/equipestransversales/atelier-de-bioinformatique)
 * [R/Bioconductor and Genomics Expert](http://bit.ly/T1QOZP) @ the [Friedrich Miescher Institute](http://www.fmi.ch/), affiliated with the University of Basel.
@@ -179,7 +179,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 * [Computational Biologist](http://bit.ly/R2ZJoW) @ the [Harvard Stem Cell Institute's (HSCI)](http://www.hsci.harvard.edu/)[Center for Stem Cell Bioinformatics](http://www.hsci.harvard.edu/research/center-stem-cell-bioinformatics)
 * [Bioinformatician/Statistician opening](http://bit.ly/X7Hl30) at EMBL Heidelberg, Germany  
 * [offre CDD INRA Versailles](http://bit.ly/TKoV9h) - developpement chaine de traitements !RnaSeq sous Galaxy - France Genomique
-* The [Galaxy Project is hiring](/GalaxyIsHiring) post-docs @ Penn State and Emory
+* The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs @ Penn State and Emory
 
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org.
 

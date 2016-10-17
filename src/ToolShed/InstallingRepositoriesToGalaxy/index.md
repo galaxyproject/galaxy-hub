@@ -1,5 +1,5 @@
 <div class='right'> 
-![Tool Shed logo](/Images/Logos/ToolShed.jpg)
+![Tool Shed logo](/src/Images/Logos/ToolShed.jpg)
 PLACEHOLDER_INCLUDE(/ToolShed/LinkBox)  
 </div>
 

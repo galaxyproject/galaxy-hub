@@ -1,5 +1,5 @@
 ---
-title: [Galaxy NGS 101](/Learn/GalaxyNGS101)
+title: [Galaxy NGS 101](/src/Learn/GalaxyNGS101/index.md)
 ---
 <div class='center'>
 <a href='https://vimeo.com/album/3456159'><img src='/Images/NGS101/NGS101PlaySlide.png' alt='Galaxy NGS 101 Videos' width="180" /></a>
@@ -10,7 +10,7 @@ title: [Galaxy NGS 101](/Learn/GalaxyNGS101)
 
 
 <div class='deploymentbox'>
- Resource:: **[Galaxy NGS 101](/Teach/Resource/GalaxyNGS101)**
+ Resource:: **[Galaxy NGS 101](/src/Teach/Resource/GalaxyNGS101/index.md)**
  Types:: Tutorial
  Domains:: **RNA-Seq, Variation, Quality Control** 
  Owners:: [Galaxy Project](http://galaxyproject.org)

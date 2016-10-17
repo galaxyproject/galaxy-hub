@@ -6,7 +6,7 @@
 
 **Director of Bioinformatics at [Ion Torrent Systems](http://lifetech.com)**
 
-Mike will be speaking about Ion Torrent at [GCC2012](/Events/GCC2012).
+Mike will be speaking about Ion Torrent at [GCC2012](/src/Events/GCC2012/index.md).
 
 See [Mikes's LinkedIn profile](http://www.linkedin.com/in/lelivelt) for more on his background.
 

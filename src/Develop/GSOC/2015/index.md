@@ -12,7 +12,7 @@ Galaxy has submitted an application to become a mentoring organization for Googl
 
 **Quick Links:**
 
-* [Galaxy-related Project ideas for GSOC 2015](/Develop/GSOC/2015Ideas)
+* [Galaxy-related Project ideas for GSOC 2015](/src/Develop/GSOC/2015Ideas/index.md)
 * [Google Summer of Code (GSOC)](https://developers.google.com/open-source/soc/)
 * [GSOC 2015 Timeline](http://www.google-melange.com/gsoc/events/google/gsoc2015)
 * [GSOC 2015 FAQ](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2015/help_page)
@@ -30,13 +30,13 @@ Galaxy has submitted an application to become a mentoring organization for Googl
 
 **Student Resources:**
 
-Interested in working with Galaxy for the GSoC? Check out the [Galaxy-related Project ideas for GSOC 2015](/Develop/GSOC/2015Ideas).
+Interested in working with Galaxy for the GSoC? Check out the [Galaxy-related Project ideas for GSOC 2015](/src/Develop/GSOC/2015Ideas/index.md).
 
 Students can begin submitting projects on March 16, 2015 - time to get working! The final deadline is hard and technical challenges may pop up - so please submit projects proposals as early as possible and then just make edits before the final deadline March 27, 2015 at 19:00 UTC.
 
 Resources
 
-* [Galaxy-related Project ideas for GSOC 2015](/Develop/GSOC/2015Ideas)
+* [Galaxy-related Project ideas for GSOC 2015](/src/Develop/GSOC/2015Ideas/index.md)
 * [Google Summer of Code 2015](http://www.google-melange.com/gsoc/homepage/google/gsoc2015)
 * [GSoC Student Handbook](http://en.flossmanuals.net/GSoCStudentGuide/)
 * [BioJS's How-to](https://rostlab.org/services/biojs/gsoc.html)

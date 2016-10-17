@@ -3,7 +3,7 @@
 
 **A workshop for the Johns Hopkins community
 
-Instructor: [Dave Clements](/DaveClements)
+Instructor: [Dave Clements](/src/DaveClements/index.md)
 
 9:00am-4:30pm<br />
 612 Physiology<br />

@@ -1,7 +1,7 @@
 ---
 date: 2012-12-18T17:00:21Z
 ---
-<div class='newsItemHeader'>[Galaxy Internships @ EMBL](/News/EMBLGalaxyInternships)</div>
+<div class='newsItemHeader'>[Galaxy Internships @ EMBL](/src/News/EMBLGalaxyInternships/index.md)</div>
 
 <div class='right'><a href='http://www.embl.de/aboutus/jobs/searchjobs/index.php?newlang=1&newms=sr&searchregion=641'><img src='/Images/Logos/EMBLLogo151.png' alt='2 internships @ EMBL' /></a></div>
 

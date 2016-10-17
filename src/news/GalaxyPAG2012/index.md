@@ -11,7 +11,7 @@ Dannon Baker and [Dave Clements](/DaveClements) from the [/Galaxy Team](/Galaxy 
 
 Hope to see you in San Diego,
 
-[Dave Clements](/DaveClements) and Dannon Baker<br />
+[Dave Clements](/src/DaveClements/index.md) and Dannon Baker<br />
 [/Galaxy Team](/Galaxy Team)
 
 

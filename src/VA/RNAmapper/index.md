@@ -10,7 +10,7 @@ title: [RNAmapper](http://www.rnamapper.org/)
 
 
 <div class='dictbox'>
- Appliance:: **[RNAmapper](/VA/RNAmapper)**
+ Appliance:: **[RNAmapper](/src/VA/RNAmapper/index.md)**
  Technology:: **[VM](http://www.rnamapper.org/Download-Setup), [AMI](http://www.rnamapper.org/Online-Setup)**
  Domains:: **Identify genome region linked to a mutation, and causal candidate mutations** 
  Description:: [RNAmapper](http://www.rnamapper.org/) uses RNA-seq data to identify both a region of the genome linked to a mutation as well as candidate mutations that may be causal for the phenotype of interest.

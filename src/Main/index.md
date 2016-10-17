@@ -10,7 +10,7 @@ title: Public Galaxy Main Instance , (, [usegalaxy.org](https://usegalaxy.org), 
 
 <div class='right'></div> <div class='left'><a href='https://usegalaxy.org/'><img src='/Images/Screenshots/GalaxyMainHome.png' alt='Galaxy Main Server' width="200" /></a></div>
 
-The Galaxy **Main** instance is available as a free public service at [UseGalaxy.org](https://usegalaxy.org/). This is the Galaxy Project's production [Galaxy instance](http://usegalaxy.org/). Main is where Galaxy's data and tools are functionality integrated and ready to use. Main is useful for sharing/publishing data and methods with colleagues for routine analysis or with the larger scientific community for publications and supplemental material. **[/Test](/Test)** is also free and public, but is considered a beta site.
+The Galaxy **Main** instance is available as a free public service at [UseGalaxy.org](https://usegalaxy.org/). This is the Galaxy Project's production [Galaxy instance](http://usegalaxy.org/). Main is where Galaxy's data and tools are functionality integrated and ready to use. Main is useful for sharing/publishing data and methods with colleagues for routine analysis or with the larger scientific community for publications and supplemental material. **[/Test](/src/Test/index.md)** is also free and public, but is considered a beta site.
 
 Anyone can use the public servers, with or without an account, but Galaxy [user accounts](/Learn/User Accounts) are simple to create (email, password, user name and go!). With an account, data quotas are increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages). Remember, Galaxy's **[Terms and Conditions](https://usegalaxy.org/static/terms.html)** specifically declare a "one-account per user" requirement.
 
@@ -21,17 +21,17 @@ To understand if Main is the right Galaxy choice for your project, please see [C
 The status page with the current state of the Main server is available at [http://status.galaxyproject.org/](http://status.galaxyproject.org/).
 
 
-The [/Learn](/Learn) pages include information on how to use Main and most other Galaxy instances. Also see:
+The [/Learn](/src/Learn/index.md) pages include information on how to use Main and most other Galaxy instances. Also see:
 
-* [Frequently Asked Questions](/Main/FAQ)
-* [Main Status Notices](/Main/Notices)
+* [Frequently Asked Questions](/src/Main/FAQ/index.md)
+* [Main Status Notices](/src/Main/Notices/index.md)
 * [Datasets](/Learn/Managing Datasets)
 * [Disk Quotas](/Admin/Disk Quotas)
-* [Data Libraries](/Main/DataLibraries)
+* [Data Libraries](/src/Main/DataLibraries/index.md)
 * [Datatypes](/Learn/Datatypes)
 * [Data Sources](/Learn/DataSources)
-* [MAF Analysis](/Main/MAFAnalysis)
-* [Tests Framework](/Main/TestsFramework)
+* [MAF Analysis](/src/Main/MAFAnalysis/index.md)
+* [Tests Framework](/src/Main/TestsFramework/index.md)
 
 ## Job resubmission to Stampede
 
@@ -180,10 +180,10 @@ Some tools or job destinations have stricter job concurrency limits than the ove
 "Increased memory tools" refers to a set of tools that are granted additional memory over the 8 GB default.
 
 <br /><br />
-If you job that failed for any reason, or a reason due to resources was given (job exceeded memory or run-time quotas), see this wiki and related sections for help: [/Support#error_from_tools](/Support#error_from_tools)
+If you job that failed for any reason, or a reason due to resources was given (job exceeded memory or run-time quotas), see this wiki and related sections for help: [/Support#error_from_tools](/src/Support/index.md#error_from_tools)
 
 ## More about job execution
-Your actual number of concurrent jobs may be less at any particular time, or certain job types may run quicker than others, as the different job queues are shared among all users, some job types run on busies queues, and resources are distributed evenly. Unsure about job status? [Read more here...](/Support#dataset_status_and_how_jobs_execute)
+Your actual number of concurrent jobs may be less at any particular time, or certain job types may run quicker than others, as the different job queues are shared among all users, some job types run on busies queues, and resources are distributed evenly. Unsure about job status? [Read more here...](/src/Support/index.md#dataset_status_and_how_jobs_execute)
 
 <br /> **[Terms and Conditions](https://usegalaxy.org/static/terms.html)**: *Attempts to subvert these limits by creating multiple accounts or through any other method may result in termination of all associated accounts.*
 
@@ -193,7 +193,7 @@ Exceeding quotas will prevent new jobs from running, but Galaxy users can monito
 1. Percent of quota limit used by a user account is noted in the top right corner of the Galaxy interface within a bar icon.
 1. Exact total user data size and quota limit is noted on the page: **User → Preferences** (top menu bar).
 1. Size of individual histories is listed on the page: **Options → Saved Histories** (left history pane's menu).
-1. Size of individual datasets can be found within a dataset's expanded box either written directly under the dataset's name and/or by viewing the dataset's **Details** (*click* on View Details icon ![History Info Icon](/Images/Icons/HistoryInfo.png) ).
+1. Size of individual datasets can be found within a dataset's expanded box either written directly under the dataset's name and/or by viewing the dataset's **Details** (*click* on View Details icon ![History Info Icon](/src/Images/Icons/HistoryInfo.png) ).
 
 ## User Account Quotas
 ### How will I know if my quota has been exceeded?
@@ -212,13 +212,13 @@ To gain access to the server again, no user action is needed. When your existing
 
 ### My job ended with a failure due to memory or execution time
 #### Description and Solutions
-Please see the [Support](/Support#error_from_tools) wiki for help in determining if this is the case and possible solutions.
+Please see the [Support](/src/Support/index.md#error_from_tools) wiki for help in determining if this is the case and possible solutions.
 
 ## Developers and Administrators
-New Admin features have been added and more are planned for in the near term. Details explained in: [Disk Quotas](/Admin/Disk Quotas). Feedback about the implementation of quota management is welcomed at the [mailing list](/MailingLists) galaxy-dev@bx.psu.edu .
+New Admin features have been added and more are planned for in the near term. Details explained in: [Disk Quotas](/Admin/Disk Quotas). Feedback about the implementation of quota management is welcomed at the [mailing list](/src/MailingLists/index.md) galaxy-dev@bx.psu.edu .
 
 ## Quotas at the Galaxy Test public instance
-See [Test](/Test#quotas).
+See [Test](/src/Test/index.md#quotas).
 
 ## Quota Implementation
 Data quotas were implemented on the Main instance in mid-October 2011.

@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 
 
 <div class='dictbox'>
- BoF:: [GalaxyScientists](/Events/GCC2015/BoFs/GalaxyScientists)
+ BoF:: [GalaxyScientists](/src/Events/GCC2015/BoFs/GalaxyScientists/index.md)
  Summary:: New Community Group? aka "!GalaxyUsers, !GalaxyAnalysts, "!GalaxyDataTypes"
  Audience:: Scientists using Galaxy interested in getting INVOLVED!
  When:: Tuesday, 7 July, 12:30 (Lunch)
@@ -33,7 +33,7 @@ In addition, if you joined in on this year's [Data Wrangling Hackathon](http://g
 
 ## When and Where
 
-The [time and location](/Events/GCC2015/BoFs#bof-schedule) for this BoF is Tuesday, July 7th, over lunch at 12:30pm in the Franklin Room, JICCC
+The [time and location](/src/Events/GCC2015/BoFs/index.md#bof-schedule) for this BoF is Tuesday, July 7th, over lunch at 12:30pm in the Franklin Room, JICCC
 
 
 ## Who is Participating
@@ -43,7 +43,7 @@ If you are interested, please add your name below.
 * [jen@galaxyproject.org](jen@galaxyproject.org), Jennifer Hillman-Jackson
 * [kreddy4@jhmi.edu](kreddy4@jhmi.edu), Karen Reddy
 * Mo Heydarian
-* [Dan Blankenberg](/Dan)
+* [Dan Blankenberg](/src/Dan/index.md)
 * Michael Sauria
 * Gergely Izrael (izi)
 * Christian Rausch
@@ -96,7 +96,7 @@ Add these before the BoF to aid in focusing our discussion. We'll create a [http
 
 The Galaxy Scientists Community represents Galaxy end-users and gives them a voice to interact with the core team. However, **the activities of the Galaxy Scientists Community shall not interfere with core team activities, priorities, and current user support, or feedback loops. **
 
-The Galaxy Scientists may or may not include support, training, faq projects (bundling of existing resources, creating new ones, all in a centralized location), **but should not interfere with [Galaxy Training Network](/Teach/GTN).**
+The Galaxy Scientists may or may not include support, training, faq projects (bundling of existing resources, creating new ones, all in a centralized location), **but should not interfere with [Galaxy Training Network](/src/Teach/GTN/index.md).**
 
 
 ### Action Items:

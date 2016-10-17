@@ -4,7 +4,7 @@
 
 # Delphine Lariviere
 
-[Galaxy Team](/GalaxyTeam)<br />
+[Galaxy Team](/src/GalaxyTeam/index.md)<br />
 [Nekrutenko Lab](http://nekrut.bx.psu.edu/), Penn State University, PA, US
 <br />
 

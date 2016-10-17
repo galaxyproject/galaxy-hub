@@ -6,7 +6,7 @@ title: DNA Sequence Bioinformatics Analysis with the Galaxy Platform
 
 
 
-**Instructors: [Dave Clements](/DaveClements), Robson Francisco de Souza, José Belizario
+**Instructors: [Dave Clements](/src/DaveClements/index.md), Robson Francisco de Souza, José Belizario
 
 28<sup>th</sup> July - 1<sup>st</sup> August 2014<br />
 9:00-17:00**  <br />

@@ -6,7 +6,7 @@ PLACEHOLDER_INCLUDE(/events/GCC2012/PageHeader)
 
 
 
-**A [GCC22012](/Events/GCC2012) [Breakout Session](/Events/GCC2012/Program/Breakouts)**
+**A [GCC22012](/Events/GCC2012) [Breakout Session](/src/Events/GCC2012/Program/Breakouts/index.md)**
 
 PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
 <div class='right'></div>
@@ -32,7 +32,7 @@ PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
 
 # Notes
 
-These notes are a rough first grouping of [Dave Clements'](/DaveClements) notes from the breakout.  Please feel free to update them.
+These notes are a rough first grouping of [Dave Clements'](/src/DaveClements/index.md) notes from the breakout.  Please feel free to update them.
 
 
 ## Platforms

@@ -8,14 +8,14 @@ title: September 2013 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the September 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the September 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
 
 # New Public Servers
 
-A record *five new servers* joined [the list of over 40 publicly accessible Galaxy servers](/PublicGalaxyServers) in August.
+A record *five new servers* joined [the list of over 40 publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) in August.
 
 ## Galaxy-P
 
@@ -33,7 +33,7 @@ You can also [install your own copy of Galaxy-P](http://getgalaxyp.org/), either
 
 See 
 * Benjamin Goudey, David Rawlinson, Qiao Wang, Fan Shi, Herman Ferra, Richard M Campbell, Linda Stern, Michael T Inouye, Cheng Soon Ong, Adam Kowalczyk (2013), "[GWIS – model-free, fast and exhaustive search for epistatic interactions in case-control GWAS](http://www.biomedcentral.com/1471-2164/14/S3/S10)", *BMC Genomics*, 14(Suppl 3):S10 
-* *[H37: GWIS: Online exhaustive bivariate GWAS in minutes](ATTACHMENT_URLDocuments/Presentations/2013ISMBRawlinsonGWIS.pdf)*, poster presented by David Rawlinson, *et al.* at [ISMB 2013](/Events/ISMB2013).
+* *[H37: GWIS: Online exhaustive bivariate GWAS in minutes](ATTACHMENT_URLDocuments/Presentations/2013ISMBRawlinsonGWIS.pdf)*, poster presented by David Rawlinson, *et al.* at [ISMB 2013](/src/Events/ISMB2013/index.md).
 
 ## Martin Luther University Halle-Wittenberg
 
@@ -145,11 +145,11 @@ Help guide Galaxy's 2014 training efforts by taking the [Galaxy Training Survey]
 The Galaxy is expanding! Please help it grow.
 * [Bioinformatics post available at University of Exeter](http://bit.ly/1cuX9b9) 
 * [PhD or postdoc position available](http://bit.ly/15Iz3nL) at [Laboratory of Computational Biology](http://med.kuleuven.be/lcb/), University of Leuven 
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**.
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**.
 * [Sr Bioinformatics Specialist, Tufts University](http://bit.ly/1bOLLBd), Boston MA.
 * [Senior Developer](http://www.nature.com/naturejobs/science/jobs/334107-senior-developer-stem-cell-bioinformatics-core), Stem Cell Bioinformatics Core, Sage Bionetworks, Seattle, WA, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -251,7 +251,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## Aug 12, 2013 Galaxy Distribution
 
-**[Highlights](/DevNewsBriefs/2013_08_12):**
+**[Highlights](/src/DevNewsBriefs/2013_08_12/index.md):**
 
 * Upgrades to **Data Manager** including improved installation actions
 * **Visualization** Framework tunings, plus updates to **Phyloviz**, **Scatterplot**, and **Trackster**
@@ -277,7 +277,7 @@ upgrade: $ hg pull
 
 ## CloudMan Release
 
-A new version of [/CloudMan](/CloudMan) was [released in July](/News/CloudManRelease).
+A new version of [/CloudMan](/CloudMan) was [released in July](/src/News/CloudManRelease/index.md).
 
 <br />
 
@@ -305,5 +305,5 @@ A new version of [/CloudMan](/CloudMan) was [released in July](/News/CloudManRel
 * TRON technologists have developed a [laboratory information management system (LIMS)](http://bit.ly/1d0XMqL) for a next-generation sequencing (NGS) laboratory within the existing Galaxy platform.  [Code and documentation are available for download](http://tron-mainz.de/tron-facilities/computational-medicine/galaxy-lims/).
 * [Saket Choudhary's Week 7+8 GSOC update](http://bit.ly/1bsoiaM): making Workflow's run page editable; enable user to change params at runtime
 * [galaxy-bootstrap](http://bit.ly/15u71MT) - a simple Java library and download, configure, and seed a Galaxy instance
-* New [/Cloud](/Cloud) hub page on wiki giving a high-level overview of the several Galaxy cloud-deployment options.
-* A new [Teaching with Galaxy](/Teach) hub page on the Galaxy wiki.  This is very much in a draft state but includes a fairly complete [Computing Platforms for Teaching](/Teach/ComputingPlatforms) page.
+* New [/Cloud](/src/Cloud/index.md) hub page on wiki giving a high-level overview of the several Galaxy cloud-deployment options.
+* A new [Teaching with Galaxy](/Teach) hub page on the Galaxy wiki.  This is very much in a draft state but includes a fairly complete [Computing Platforms for Teaching](/src/Teach/ComputingPlatforms/index.md) page.

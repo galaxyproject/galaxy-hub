@@ -10,7 +10,7 @@ title: Differential Expression with Tuxedo
 
 
 <div class='deploymentbox'>
- Resource:: **[Differential Expression with Tuxedo](/Teach/Resource/TuxedoDE)**
+ Resource:: **[Differential Expression with Tuxedo](/src/Teach/Resource/TuxedoDE/index.md)**
  Types:: Instructions
  Domains:: **RNA-Seq** 
  Owners:: [Cynthia Gibas](http://bioinformatics.uncc.edu/directory/gibas-cynthia)

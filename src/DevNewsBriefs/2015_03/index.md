@@ -3,9 +3,9 @@ autotoc: true
 title: March 2015 Galaxy Release , (, v 15, ., 03, )
 ---
 <div class='right'></div>
-[All News Briefs](/DevNewsBriefs)
+[All News Briefs](/src/DevNewsBriefs/index.md)
 <br />
-[Galaxy March Release Summary](/News/2015_03_GalaxyRelease)
+[Galaxy March Release Summary](/src/News/2015_03_GalaxyRelease/index.md)
 <br />
 
 <div class='left'><a href='http://getgalaxy.org'><img src='/Images/Logos/GetGalaxyOrg.png' alt=' ' width=175 /></a></div>
@@ -68,7 +68,7 @@ Thus, if you would like to upgrade to the 15.03 release and ensure you do not su
 # Tool Redesign
 Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolsehd) and many are ready for use on Galaxy [/Main](/Main). Older Workflows may contain tools that automatically map to the new tools or Workflows may need minor adjustments. [c6Lkejro](https://trello.com/c/c6Lkejro) 
 
-Be sure to check out the new [Galaxy NGS 101](/Learn/GalaxyNGS101) wiki (in progress). 
+Be sure to check out the new [Galaxy NGS 101](/src/Learn/GalaxyNGS101/index.md) wiki (in progress). 
 
 # Github
 
@@ -131,7 +131,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
   * Implementation of Dataset Collections »list of pairs«. Additional work is in-progress (see ticket). [8hEO00xj](https://trello.com/c/8hEO00xj)
   * Dataset Collections updated to permit »Drag & Drop« functionality (»copy datasets« is still an option). [Zmy8aiFP](https://trello.com/c/Zmy8aiFP)
 1. New [ZebrafishMine](http://www.zebrafishmine.org) Data Source tool. [u5OlE4kZ](https://trello.com/c/u5OlE4kZ)
-1. New datatypes. Thanks to [Björn Grüning](/BjoernGruening).
+1. New datatypes. Thanks to [Björn Grüning](/src/BjoernGruening/index.md).
   * Added [SnpEff](http://snpeff.sourceforge.net) datatypes. [accZ8KdI](https://trello.com/c/accZ8KdI)
   * Added `CompressedArchive` as a new datatype that does not uncompress during data upload. [1xtvpWil](https://trello.com/c/1xtvpWil)
   * Added Arff datatype. [fdVfagbS](https://trello.com/c/fdVfagbS)
@@ -191,18 +191,18 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Resolved processing naming conflicts with uWSGI and Control Queues. [ahDk0lx4](https://trello.com/c/ahDk0lx4)
 
 # News and Community
-* **[GCC 2015](http://gcc2015.tsl.ac.uk/)** has opened [Abstract Submissions](/News/GCC2015AbstractSubmissionOpen). 
+* **[GCC 2015](http://gcc2015.tsl.ac.uk/)** has opened [Abstract Submissions](/src/News/GCC2015AbstractSubmissionOpen/index.md). 
 * Two Hackathons are now scheduled to occur *before* and *during* GCC 2015. 
   * [GCC2015 Coding Hackathon](http://gcc2015.tsl.ac.uk/organisers/hackathon)
   * New! [GCC2015 Data Wrangling Hackathon](http://gcc2015.tsl.ac.uk/organisers/data-hackathon)
-* [All Galaxy News](/News) and the [Hub for Release News](/DevNewsBriefs)
+* [All Galaxy News](/News) and the [Hub for Release News](/src/DevNewsBriefs/index.md)
 * [Twitter](/GalaxyOnTwitter) (wiki summary) or follow us directly at [https://twitter.com/galaxyproject](https://twitter.com/galaxyproject)
 * [/Events](/Events), [/Learn](/Learn), [Galaxy Biostar](https://biostar.usegalaxy.org/), [Support Resources](/Support) with FAQ help, [Mailing list](/MailingLists) subscription and archvies, and [Vimeo tutorials](http://vimeo.com/galaxyproject)
-* All know of [Public Galaxy Main](/Main), but have you reviewed the [Other Galaxy Public-hosted Servers](/PublicGalaxyServers) lately?
-* [/Teach](/Teach) resources are an exciting, growing, and key area for expansion throughout 2015, check out what is new!
+* All know of [Public Galaxy Main](/Main), but have you reviewed the [Other Galaxy Public-hosted Servers](/src/PublicGalaxyServers/index.md) lately?
+* [/Teach](/src/Teach/index.md) resources are an exciting, growing, and key area for expansion throughout 2015, check out what is new!
 * Follow current development real-time and create, comment, and vote on active [Trello](https://trello.com/galaxyproject) tickets. As an open source project, we very much welcome community involvement. Not sure how to get involved or how to [create an account](https://trello.com/b/ijIE4lMx/welcome-board)? We have guidance available **[here...](https://wiki.galaxyproject.org/Issues)**, that includes a form to aid with quick ticket submission.
-* [/Community](/Community) resources. Overview about how we value and seek your input. Have your voice heard and get involved!
-* [Galaxy Project](/GalaxyProject) home page (hub for all resources, those listed above and more!)
+* [/Community](/src/Community/index.md) resources. Overview about how we value and seek your input. Have your voice heard and get involved!
+* [Galaxy Project](/src/GalaxyProject/index.md) home page (hub for all resources, those listed above and more!)
 * See our wiki's right side bar menu &rarr; for more links to areas of interest to you
 * Our wiki is absolutely open for community contributions and improvements.
 
@@ -218,4 +218,4 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 
 # About Galaxy
 <div class='left'><a href='http://usegalaxy.org'><img src='/Images/Logos/GalaxyLogoHighRes.png' alt='UseGalaxy.org' width="200" /></a></div>
-**[About Galaxy](/Support/AboutGalaxy)** • [Galaxy Project](/GalaxyProject) • [/Admin](/Admin) • [/Issues](/Issues) • [Big Picture](/BigPicture) • [/Community](/Community) • [Get Galaxy](/Admin/GetGalaxy) • [/CloudMan](/CloudMan) • [Tool Shed](/ToolShed) • [/Develop](/Develop) • [News Briefs](/DevNewsBriefs) • [Servers](/PublicGalaxyServers) • [/Learn](/Learn) • [/Support](/Support) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/News) • [Twitter](/GalaxyOnTwitter) • [/Events](/Events) • [/Teach](/Teach) • [Cite](/CitingGalaxy) • [Galaxy Team](/GalaxyTeam)
+**[About Galaxy](/Support/AboutGalaxy)** • [Galaxy Project](/GalaxyProject) • [/Admin](/Admin) • [/Issues](/Issues) • [Big Picture](/BigPicture) • [/Community](/Community) • [Get Galaxy](/Admin/GetGalaxy) • [/CloudMan](/CloudMan) • [Tool Shed](/ToolShed) • [/Develop](/Develop) • [News Briefs](/DevNewsBriefs) • [Servers](/PublicGalaxyServers) • [/Learn](/Learn) • [/Support](/Support) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/News) • [Twitter](/GalaxyOnTwitter) • [/Events](/Events) • [/Teach](/Teach) • [Cite](/CitingGalaxy) • [Galaxy Team](/src/GalaxyTeam/index.md)

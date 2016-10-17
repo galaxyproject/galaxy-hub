@@ -10,7 +10,7 @@ title: Microbial analysis with Orione
 
 
 <div class='deploymentbox'>
- Resource:: **[Microbial analysis with Orione](/Teach/Resource/MicrobialWithOrione)**
+ Resource:: **[Microbial analysis with Orione](/src/Teach/Resource/MicrobialWithOrione/index.md)**
  Types:: Tutorial
  Domains:: **Microbial Resequencing, RNA-Seq, Assembly, Metagenomics** 
  Owners:: Orione Team and [鈴木 治夫 (Haruo Suzuki)](http://vu.sfc.keio.ac.jp/faculty_profile/cgi/f_profile_e.cgi?id=615f78c3e152cfd5)

@@ -1,7 +1,7 @@
 ---
 date: 2013-07-08T22:16:57Z
 ---
-<div class='newsItemHeader'>[New CloudMan Release](/News/CloudManRelease)</div>
+<div class='newsItemHeader'>[New CloudMan Release](/src/News/CloudManRelease/index.md)</div>
 
 <div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
 
@@ -24,7 +24,7 @@ For more details on the new features, see the the [CHANGELOG](https://bitbucket.
 
 Enjoy and please let us know what you think,
 
-[Enis Afgan](/EnisAfgan)
+[Enis Afgan](/src/EnisAfgan/index.md)
 
 
 CategoryNews

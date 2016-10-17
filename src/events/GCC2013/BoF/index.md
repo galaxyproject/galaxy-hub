@@ -11,13 +11,13 @@ PLACEHOLDER_INCLUDE(/Events/GCC2013/BoF/LinkBox)
 
 <div class='left'>![](/Images/Logos/GCC2013BoFLogo.png)</div>
 
-Past Galaxy Community Conferences have been *the* event for networking in the Galaxy: There is no better place to meet and learn from others doing high-throughput biology.  GCC2013 will extend this tradition by including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing))* meetups at the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  Bof meetups are a natural combination of the informal meetups and the scheduled *[Breakout](/Events/GCC2012/Program/Breakouts)* sessions that were already happening at previous GCC's.
+Past Galaxy Community Conferences have been *the* event for networking in the Galaxy: There is no better place to meet and learn from others doing high-throughput biology.  GCC2013 will extend this tradition by including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing))* meetups at the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  Bof meetups are a natural combination of the informal meetups and the scheduled *[Breakout](/src/Events/GCC2012/Program/Breakouts/index.md)* sessions that were already happening at previous GCC's.
 
 !BoFs can range from preplanned and pre-announced to just pre-announced to completely spontaneous.  Pre-announcing a BoF has the advantage that conference participants can be notified of them ahead of time, and people can plan ahead to attend.
 
 BoF meetups are encouraged throughout GCC2013.  We particularly want to encourage !BoFs that flock 
-* during [lunch on any of the three days](/Events/GCC2013/Program), and
-* at [the Escape Pub](/Events/GCC2013/Program#escape-to-the-pub) after each of the first two days.
+* during [lunch on any of the three days](/src/Events/GCC2013/Program/index.md), and
+* at [the Escape Pub](/src/Events/GCC2013/Program/index.md#escape-to-the-pub) after each of the first two days.
 
 See the [list of scheduled BoFs](#bof-schedule) below.
 
@@ -31,7 +31,7 @@ This is a list of all the !BoFs that have been proposed for GCC2013.  See the [B
 * **[Galaxy Professionals (Birds of Prey)](GalaxyProfessionals)**
 * **[Proteomics](Proteomics)**
 * **[Tool Developers](ToolDevelopers)**
-* **[Public Galaxy Servers](/Events/GCC2013/BoF/PublicGalaxyServers)**
+* **[Public Galaxy Servers](/src/Events/GCC2013/BoF/PublicGalaxyServers/index.md)**
 * **[Galaxy wrappers for NCBI BLAST+ BoF](GalaxyBlast)**
 * **[Galaxy Clinical Use Survey and HPC Filesystems](ClinicalUseHPCFileSystems)**
 

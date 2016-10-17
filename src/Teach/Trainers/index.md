@@ -10,7 +10,7 @@ PLACEHOLDER_INCLUDE(/Teach/LinkBox)
 
 <div class='left'> <a href='http://bit.ly/gxytrnmap'><img src='/Teach/GalaxyTrainingMapThumb.png' alt='Galaxy Training Network: Trainer Locations Map' width="220" /></a> <div class='center'> [Find trainers near you in the](http://bit.ly/gxytrnmap)<br />[Galaxy Training Network](http://bit.ly/gxytrnmap)</div></div>
 
-The *Galaxy Trainer Directory* is a service of the [Galaxy Training Network](/Teach/GTN) which aims to make it easy to share and find [Galaxy training resources](/Teach/Resources).  This directory lists individuals and groups that do Galaxy training.  The contacts listed here are willing to present Galaxy at meetings and workshops.  The directory includes particular areas of expertise and how far the instructors are willing to travel.
+The *Galaxy Trainer Directory* is a service of the [Galaxy Training Network](/Teach/GTN) which aims to make it easy to share and find [Galaxy training resources](/src/Teach/Resources/index.md).  This directory lists individuals and groups that do Galaxy training.  The contacts listed here are willing to present Galaxy at meetings and workshops.  The directory includes particular areas of expertise and how far the instructors are willing to travel.
 
 If you offer Galaxy Training and want to be listed in this directory then see the **[Add a Trainer](#add-a-trainer)** section below.
 
@@ -79,7 +79,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 ### Freiburger Galaxy Project
 
-<div class='right'>![Galaxy Project](/Images/Logos/bioinf-fr-logo-blau.jpg)</div>
+<div class='right'>![Galaxy Project](/src/Images/Logos/bioinf-fr-logo-blau.jpg)</div>
 
 * *Description:*
   * The Freiburger Galaxy Project is led by Rolf Backofen from the University of Freiburg, Germany. The project is offerring Galaxy support and training for the University of Freiburg and beyond.  
@@ -98,15 +98,15 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
   * based in Freiburg (Germany), but used globally
 
 * *Links & Contact*
-  * [Bjoern Gruening](/BjoernGruening)
+  * [Bjoern Gruening](/src/BjoernGruening/index.md)
   * [galaxy AT informatik DOT uni-freiburg DOT org](galaxy AT informatik DOT uni-freiburg DOT org) 
 
 ### Galaxy Project
 
-<div class='right'>![Galaxy Project](/Images/GalaxyLogos/galaxy_project_logo_blue.png)</div>
+<div class='right'>![Galaxy Project](/src/Images/GalaxyLogos/galaxy_project_logo_blue.png)</div>
 
 * *Description:*
-  * The Galaxy Project does training at [events and institutions](/Events) around the world.  These cover the whole range of Galaxy related topics.  Please contact Galaxy Outreach if you are interested in hosting training.
+  * The Galaxy Project does training at [events and institutions](/src/Events/index.md) around the world.  These cover the whole range of Galaxy related topics.  Please contact Galaxy Outreach if you are interested in hosting training.
    
 * *Domains:*  
   * General usage; several specific types of analysis
@@ -114,16 +114,16 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
   * Tool Development for Galaxy, including tool wrapping practices and the Galaxy ToolShed
   * Installation and Administration
 
-* *[GTN Training Resources](/Teach/Resources):*
-  * [Galaxy 101](/Teach/Resource/Galaxy101)
-  * [Galaxy Events Archive](/Teach/Resource/GalaxyEventArchive) (this is a community effort)
+* *[GTN Training Resources](/src/Teach/Resources/index.md):*
+  * [Galaxy 101](/src/Teach/Resource/Galaxy101/index.md)
+  * [Galaxy Events Archive](/src/Teach/Resource/GalaxyEventArchive/index.md) (this is a community effort)
 
 * *Reach*
   * Global
-  * [Project members](/GalaxyTeam) are located in Pennsylvania, Maryland, Virginia, Georgia, California, and Oregon in the United States, and in Melbourne, Australia.
+  * [Project members](/src/GalaxyTeam/index.md) are located in Pennsylvania, Maryland, Virginia, Georgia, California, and Oregon in the United States, and in Melbourne, Australia.
 
 * *Links & Contact*
-  * [Galaxy Team](/GalaxyTeam)
+  * [Galaxy Team](/src/GalaxyTeam/index.md)
   * [Galaxy Outreach](/Outreach), [outreach AT galaxyproject DOT org](outreach AT galaxyproject DOT org) 
 
 ### GalaxyP Project
@@ -326,12 +326,12 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
   * Bacterial de novo genome assembly 
   * 16S Metagenomics
 
-* *[GTN Training Resources](/Teach/Resources):*
-  * [RNA-Seq Differential Gene Expression Introductory Tutorial](/Teach/Resource/GVL-RNA-SeqTutorial)
-  * [RNA-Seq Differential Gene Expression Advanced Tutorial](/Teach/Resource/GVL-RNASeq-AdvancedTutorial)
-  * [Variant Detection Introductory Tutorial](/Teach/Resource/GVL-Variant-Detection-IntroductoryTutorial)
-  * [Variant Detection Introductory Tutorial](/Teach/Resource/GVL-Variant-Detection-AdvancedTutorial)
-  * [de novo Genome Assembly (Small Genome)](/Teach/Resource/GVL-deNovoGenomeAssembly)
+* *[GTN Training Resources](/src/Teach/Resources/index.md):*
+  * [RNA-Seq Differential Gene Expression Introductory Tutorial](/src/Teach/Resource/GVL-RNA-SeqTutorial/index.md)
+  * [RNA-Seq Differential Gene Expression Advanced Tutorial](/src/Teach/Resource/GVL-RNASeq-AdvancedTutorial/index.md)
+  * [Variant Detection Introductory Tutorial](/src/Teach/Resource/GVL-Variant-Detection-IntroductoryTutorial/index.md)
+  * [Variant Detection Introductory Tutorial](/src/Teach/Resource/GVL-Variant-Detection-AdvancedTutorial/index.md)
+  * [de novo Genome Assembly (Small Genome)](/src/Teach/Resource/GVL-deNovoGenomeAssembly/index.md)
 
 * *Reach*
   * Australian-based, but used globally
@@ -463,7 +463,7 @@ Trainers that are potentially willing to travel, roughly within their home conti
 
 ### Galaxy @ PRABI Project
 
-<div class='right'>![Galaxy@prabi Project](/Images/Logos/PRABILogo.png)</div>
+<div class='right'>![Galaxy@prabi Project](/src/Images/Logos/PRABILogo.png)</div>
 
 * *Description:*
   * The galaxy@prabi project is led by Vincent Navratil from the [University of Lyon](http://www.univ-lyon1.fr/), France. The project is offerring Galaxy service, support and training for and with research teams working in the perimeter of the [PRABI](http://www.prabi.fr) core facility (Rhône Alpes Region, mainly Lyon and Grenoble) but also beyond the Alps montains.  
@@ -625,7 +625,7 @@ These trainers don't travel, but their workshops are open to researchers outside
 * *Links & Contact*
   * [TAMU Galaxy](http://galaxy.tamu.edu)
   * [CPT Public Galaxy](http://cpt.tamu.edu/galaxy-public/)
-  * [Eric Rasche](/EricRasche) (CPT Staff)
+  * [Eric Rasche](/src/EricRasche/index.md) (CPT Staff)
   * [esr@tamu.edu](esr@tamu.edu) 
 
 
@@ -645,9 +645,9 @@ These trainers don't travel, but their workshops are open to researchers outside
   * ChIP-Seq
   * miRNA-Seq
 
-* *[GTN Training Resources](/Teach/Resources):*
-  * [Galaxy Training AMI](/Teach/Resource/UCDavisCoreAMI)
-  * [Using Galaxy for Analysis of High Throughput Sequence Data Workshop](/Teach/Resource/UCDavisCoreGalaxyCourse)
+* *[GTN Training Resources](/src/Teach/Resources/index.md):*
+  * [Galaxy Training AMI](/src/Teach/Resource/UCDavisCoreAMI/index.md)
+  * [Using Galaxy for Analysis of High Throughput Sequence Data Workshop](/src/Teach/Resource/UCDavisCoreGalaxyCourse/index.md)
 
 * *Reach*
   * We teach on campus in Davis, California, USA - workshops are open to the public
@@ -719,12 +719,12 @@ Trainers that can only teach to researchers that are affiliated with their insti
   * ChIP-Seq 
   * Exome-Seq
 
-* *[GTN Training Resources](/Teach/Resources):*
-  * [ChIP-Seq Workshop](/Teach/Resource/CHBHarvardChIP-Seq)
-  * [Running your own Galaxy instance (in the cloud)](/Teach/Resource/CHBHarvardCloudMan)
-  * [Exome-Seq Workshop](/Teach/Resource/CHBHarvardExome-Seq)
-  * [Introduction to Galaxy](/Teach/Resource/CHBHarvardChIP-Seq)
-  * [RNA-Seq Workshop](/Teach/Resource/CHBHarvardRNA-Seq)
+* *[GTN Training Resources](/src/Teach/Resources/index.md):*
+  * [ChIP-Seq Workshop](/src/Teach/Resource/CHBHarvardChIP-Seq/index.md)
+  * [Running your own Galaxy instance (in the cloud)](/src/Teach/Resource/CHBHarvardCloudMan/index.md)
+  * [Exome-Seq Workshop](/src/Teach/Resource/CHBHarvardExome-Seq/index.md)
+  * [Introduction to Galaxy](/src/Teach/Resource/CHBHarvardChIP-Seq/index.md)
+  * [RNA-Seq Workshop](/src/Teach/Resource/CHBHarvardRNA-Seq/index.md)
 
 * *Reach*
   * Limited to Harvard researchers with specific affiliations.

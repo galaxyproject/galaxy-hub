@@ -2,7 +2,7 @@
 autotoc: true
 title: February 2012 Galaxy Update
 ---
-<div class='center'>**Looking for the [March 2012 Galaxy Update](/GalaxyUpdates/2012_03)?  Click [here](/GalaxyUpdates/2012_03).**<br />Sorry about the bad link in the email announcement!  [Dave C](/DaveClements)</div>
+<div class='center'>**Looking for the [March 2012 Galaxy Update](/GalaxyUpdates/2012_03)?  Click [here](/GalaxyUpdates/2012_03).**<br />Sorry about the bad link in the email announcement!  [Dave C](/src/DaveClements/index.md)</div>
 
 
 
@@ -11,7 +11,7 @@ title: February 2012 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the inaugural edition of *[Galaxy Update](/GalaxyUpdates)*, a (mostly) monthly summary of what is going on in the Galaxy community.  Galaxy Updates will complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the inaugural edition of *[Galaxy Update](/GalaxyUpdates)*, a (mostly) monthly summary of what is going on in the Galaxy community.  Galaxy Updates will complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Papers
 
@@ -49,7 +49,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll i
 
 There are upcoming deadlines for ISMB 2012 (workshops), DILS (abstracts), PSB (sessions), VizBI (posters), and a Bio-Linux Course (application).  See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com) for details on these and other events.
 
-Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) will open February 13.
+Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) will open February 13.
 
 ### Events
 
@@ -83,7 +83,7 @@ Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/Events
 
 ### GCC2012 Sponsors
 
-Plans for the [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) are coming along nicely.  It will be held July 25-27, in Chicago.  As in the past, the conference will feature two full days of presentations and discussions.  A whole day of training sessions has also been added this year.  
+Plans for the [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) are coming along nicely.  It will be held July 25-27, in Chicago.  As in the past, the conference will feature two full days of presentations and discussions.  A whole day of training sessions has also been added this year.  
 
 Also new in 2012 are conference sponsors.  We are very pleased to have welcomed these GCC2012 sponsors in the past month:
 
@@ -98,7 +98,7 @@ Also new in 2012 are conference sponsors.  We are very pleased to have welcomed 
   [The Institute for Genomic Biology at University of Illinois Urbana-Champaign](http://www.igb.uiuc.edu/)<br />
   [National Center for Supercomputing Applications (NCSA)](http://www.ncsa.illinois.edu/)
 
-There are still [Gold, Silver and Bronze level sponsorships](/Events/GCC2012/Sponsorships) available.  Look for more announcements in the coming months.
+There are still [Gold, Silver and Bronze level sponsorships](/src/Events/GCC2012/Sponsorships/index.md) available.  Look for more announcements in the coming months.
 
 ## New Distributions
 
@@ -106,8 +106,8 @@ There were [two Galaxy distributions](/DevNewsBriefs) in January, The latest on 
 
 * Important metadata and Python 2.5 support corrections
 * [SAMtools](http://samtools.sourceforge.net/) upgraded for version 0.1.18. [Mpileup](http://samtools.sourceforge.net/mpileup.shtml) added.
-* Dynamic filtering, easy color options, and quicker indexing enhance [Trackster](/Learn/Visualization)
-* Set up your Galaxy instance to [run cluster jobs as the real user](/Admin/Config/Performance/Cluster), not the Galaxy owner
+* Dynamic filtering, easy color options, and quicker indexing enhance [Trackster](/src/Learn/Visualization/index.md)
+* Set up your Galaxy instance to [run cluster jobs as the real user](/src/Admin/Config/Performance/Cluster/index.md), not the Galaxy owner
 * Improvements to metadata handling and searching in the [/Tool Shed](/Tool Shed)
 * Improved solutions for schema access, jobs management, & workflow imports and inputs.
 * New datatypes (Eland, XML), multiple tool enhancements, and bug fixes.

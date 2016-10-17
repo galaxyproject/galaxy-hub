@@ -1,7 +1,7 @@
 ---
 date: 2014-10-31T20:51:39Z
 ---
-<div class='newsItemHeader'>[Fall 2014 GUGGO Events Report](/News/GUGGOReportFall2014)</div>
+<div class='newsItemHeader'>[Fall 2014 GUGGO Events Report](/src/News/GUGGOReportFall2014/index.md)</div>
 
 <div class='right'><a href='http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo'><img src='/Images/Logos/eBiogenouestLogo.png' alt='Galaxy User Group Grand Ouest (GUGGO)' width=200 /></a></div>
 

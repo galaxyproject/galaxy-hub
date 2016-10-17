@@ -76,26 +76,26 @@ END_INCLUDE
 END_INCLUDE
 
 # WS5_VM
-* **You have the [conference provided virtual machine image for Workshop 5](/Events/GCC2012/TrainingDay/VMs#vm-without-a-running-galaxy) installed and running on your laptop, before arriving at the conference.**
+* **You have the [conference provided virtual machine image for Workshop 5](/src/Events/GCC2012/TrainingDay/VMs/index.md#vm-without-a-running-galaxy) installed and running on your laptop, before arriving at the conference.**
 END_INCLUDE
 
 # UBER ACCESS
 * *Root shell access* on a server Galaxy is running on, and *Admin user access* in Galaxy.  The Galaxy server instance can be:
   * Installed by you prior to the training day.
-  * Setup by you during [Workshop 5](../#ws5) using the [virtual machine image for Workshop 5](/Events/GCC2012/TrainingDay/VMs#vm-without-a-running-galaxy).
-  * Installed by you prior to arriving at the conference, using the [virtual machine image that has a running Galaxy](/Events/GCC2012/TrainingDay/VMs#vm-with-a-running-galaxy).
+  * Setup by you during [Workshop 5](../#ws5) using the [virtual machine image for Workshop 5](/src/Events/GCC2012/TrainingDay/VMs/index.md#vm-without-a-running-galaxy).
+  * Installed by you prior to arriving at the conference, using the [virtual machine image that has a running Galaxy](/src/Events/GCC2012/TrainingDay/VMs/index.md#vm-with-a-running-galaxy).
   Your Galaxy instance will ideally be one you installed locally on a laptop.  If you use something other than a [conference-provided virtual machine (VM)](../VMs) instance, you'll be responsible for handling issues that are outside of Galaxy.
 END_INCLUDE
 
 # ROOT ACCESS
-* Root access to a Galaxy server (your own, [the conference provided virtual machine image](/Events/GCC2012/TrainingDay/VMs#vm-with-a-running-galaxy) that you installed before arriving, or that you got installed  in [Workshop 5](../#ws5)).  **We strongly recommend that you use the [conference provided virtual machine image](/Events/GCC2012/TrainingDay/VMs#vm-with-a-running-galaxy) and have it installed and running before arriving at the conference.**
+* Root access to a Galaxy server (your own, [the conference provided virtual machine image](/src/Events/GCC2012/TrainingDay/VMs/index.md#vm-with-a-running-galaxy) that you installed before arriving, or that you got installed  in [Workshop 5](../#ws5)).  **We strongly recommend that you use the [conference provided virtual machine image](/src/Events/GCC2012/TrainingDay/VMs/index.md#vm-with-a-running-galaxy) and have it installed and running before arriving at the conference.**
 END_INCLUDE
 
 # ADMIN ACCESS
 * *Administrative* access to a Galaxy instance that was:
   * Installed by you prior to the training day.
-  * Setup by you during [Workshop 5](../#ws5) using the [virtual machine image for Workshop 5](/Events/GCC2012/TrainingDay/VMs#vm-without-a-running-galaxy).
-  * Installed by you prior to arriving at the conference, using the [virtual machine image that has a running Galaxy](/Events/GCC2012/TrainingDay/VMs#vm-with-a-running-galaxy).
+  * Setup by you during [Workshop 5](../#ws5) using the [virtual machine image for Workshop 5](/src/Events/GCC2012/TrainingDay/VMs/index.md#vm-without-a-running-galaxy).
+  * Installed by you prior to arriving at the conference, using the [virtual machine image that has a running Galaxy](/src/Events/GCC2012/TrainingDay/VMs/index.md#vm-with-a-running-galaxy).
 
  **We strongly recommend that you use the [conference provided virtual machine image](/Events/GCC2012/TrainingDay/VMs#vm-with-a-running-galaxy) and have it installed and running before arriving at the conference.**  If you use something other than a [conference-provided virtual machine (VM)](../VMs) instance, you'll be responsible for handling issues that are outside of Galaxy.
 END_INCLUDE

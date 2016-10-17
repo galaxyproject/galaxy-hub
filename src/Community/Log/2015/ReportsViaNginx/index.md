@@ -8,7 +8,7 @@ title: 2015, /, 06, :,  , [Exposing Galaxy reports via nginx in a production ins
 
 
 <div class='logbox'>
- Topic:: **[Exposing Galaxy reports via nginx in a production instance](/Community/Log/2015/ReportsViaNginx)**
+ Topic:: **[Exposing Galaxy reports via nginx in a production instance](/src/Community/Log/2015/ReportsViaNginx/index.md)**
  Date:: 2015/06/02
  Who:: [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)
  Resolution:: Outline how I've done this for our local Galaxy set up, which uses nginx.
@@ -21,7 +21,7 @@ From the [blog entry](http://galacticengineer.blogspot.co.uk/2015/06/exposing-ga
 
 Galaxy includes a report tool that is separate from the main process but which gives lots of potentially useful information about the usage of a Galaxy instance, for example the numbers of jobs that have been run each month, how much disk space each user is currently consuming and so on.
 
-However there doesn't appear to be much documentation about the report tool on the official Galaxy wiki: the most I could find was a rather sparse page at [https://wiki.galaxyproject.org/Admin/UsageReports](/Admin/UsageReports), which gives a very bare bones overview, and doesn't include any information on how it might be exposed in a secure manner in a production environment. Therefore in this post I outline how I've done this for our local Galaxy set up, which uses nginx; however I imagine it could be adapted to work with Apache instead.
+However there doesn't appear to be much documentation about the report tool on the official Galaxy wiki: the most I could find was a rather sparse page at [https://wiki.galaxyproject.org/Admin/UsageReports](/src/Admin/UsageReports/index.md), which gives a very bare bones overview, and doesn't include any information on how it might be exposed in a secure manner in a production environment. Therefore in this post I outline how I've done this for our local Galaxy set up, which uses nginx; however I imagine it could be adapted to work with Apache instead.
 </div>
 
 ## Links

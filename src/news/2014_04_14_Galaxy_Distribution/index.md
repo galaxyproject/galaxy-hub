@@ -1,7 +1,7 @@
 ---
 date: 2014-04-14T13:59:24Z
 ---
-<div class='newsItemHeader'>[April 14, 2014 Galaxy Distribution](/News/2014_04_14_Galaxy_Distribution)</div>
+<div class='newsItemHeader'>[April 14, 2014 Galaxy Distribution](/src/News/2014_04_14_Galaxy_Distribution/index.md)</div>
 <div class='right'>
 <table>
   <tr>
@@ -51,7 +51,7 @@ date: 2014-04-14T13:59:24Z
 <br />
 ***Thanks for using Galaxy!***
 
-[The Galaxy Team](/GalaxyTeam)
+[The Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

@@ -40,14 +40,14 @@ PLACEHOLDER_INCLUDE(/News/Archive/LinkBox)
 
 # 2011 News Item Archive
 
-[News items](/News) that have were posted to the  [Galaxy News page/feed](/News) in 2011.
+[News items](/src/News/index.md) that have were posted to the  [Galaxy News page/feed](/src/News/index.md) in 2011.
 
 See also 
-* [/News](/News) - current news items
-* [Galaxy Updates](/GalaxyUpdates)
-* [Galaxy Development News Briefs](/DevNewsBriefs)
-* [Galaxy on Twitter](/GalaxyOnTwitter)
-* [Mailing Lists](/MailingLists)
+* [/News](/src/News/index.md) - current news items
+* [Galaxy Updates](/src/GalaxyUpdates/index.md)
+* [Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)
+* [Galaxy on Twitter](/src/GalaxyOnTwitter/index.md)
+* [Mailing Lists](/src/MailingLists/index.md)
 
 <br /><br /><br /><br />
 

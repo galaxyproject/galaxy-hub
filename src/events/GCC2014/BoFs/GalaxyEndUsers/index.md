@@ -13,7 +13,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
 
 <div class='dictbox'>
- BoF:: **[Galaxy End-Users](/Events/GCC2014/BoFs/GalaxyEndUsers)**
+ BoF:: **[Galaxy End-Users](/src/Events/GCC2014/BoFs/GalaxyEndUsers/index.md)**
  Summary:: This session will serve as a platform for end-users to share experiences they feel will be useful or helpful to other end-users. 
  Audience:: End-users or developers interested in what end-users have to say.
  When:: Monday, June 30, 6:15pm<br /> and <br />Tuesday, July 1, 12:15pm
@@ -25,7 +25,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 <div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
  
-This page describes the **Galaxy End-Users** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/Events/GCC2014).
+This page describes the **Galaxy End-Users** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
 
 # Description
 
@@ -105,7 +105,7 @@ End-users of Galaxy who would like to share experiences (or listen to those of o
 * Anushka Brownley
 * Ben Busby
 * Brian Whalen
-* [Carl Eberhard](/CarlEberhard)
+* [Carl Eberhard](/src/CarlEberhard/index.md)
 * David Hoover
 * Dawei Lin
 * Edwin Smith
@@ -121,7 +121,7 @@ End-users of Galaxy who would like to share experiences (or listen to those of o
 * Maria Doyle
 * Marie Jacques Seignon
 * Mark Rose 
-* [Martin Cech](/Marten)
+* [Martin Cech](/src/Marten/index.md)
 * Michael R. Crusoe
 * Mo Heydarian
 * Morten Johansen

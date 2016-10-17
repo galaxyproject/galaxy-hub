@@ -1,5 +1,5 @@
 
-<div class='right'> ![GalaxyTeam/dan.jpg](/GalaxyTeam/dan.jpg) </div>
+<div class='right'> ![GalaxyTeam/dan.jpg](/src/GalaxyTeam/dan.jpg) </div>
 
 # Dan Blankenberg
 Daniel Blankenberg is currently a Post Doctoral researcher in the Nekrutenko lab at Penn State, working primarily on the Galaxy project. He is responsible for the architecting and actual coding of many of Galaxy’s key components. Dan has been working on Galaxy since its inception, even playing a role in the development of the now defunct Perl-based application described in Giardine, et al 2005. Learning a great deal from this early attempt, his focus remains on enabling accessible, reproducible and transparent research through the development of a generic framework, with a developmental goal of supporting the life sciences. Dan remains the longest running Galaxy core developer.

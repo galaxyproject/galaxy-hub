@@ -1,14 +1,14 @@
 ---
 title: March 2015 Penn State Using Galaxy Workshop
 ---
-<div class='center'>![Galaxy Meetup @ Penn State](/Events/Meetups/PSU/PSUMeetupLogo600.png)</div>
+<div class='center'>![Galaxy Meetup @ Penn State](/src/Events/Meetups/PSU/PSUMeetupLogo600.png)</div>
 
 
 
 Hey Everyone,
 
 This will be an informal meeting open to anyone interested in data analysis, genomic tools and biology workflows.
-[Anton Nekrutenko](/anton) of the [Galaxy team](/GalaxyTeam) will be delivering an introduction to the resources available to start using the Galaxy application from a practitioner's viewpoint. Multiple Galaxy Team members will be available for any additional questions.
+[Anton Nekrutenko](/anton) of the [Galaxy team](/src/GalaxyTeam/index.md) will be delivering an introduction to the resources available to start using the Galaxy application from a practitioner's viewpoint. Multiple Galaxy Team members will be available for any additional questions.
 
 Thanks and hope to see you there!
 

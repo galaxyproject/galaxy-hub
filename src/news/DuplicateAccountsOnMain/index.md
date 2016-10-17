@@ -1,11 +1,11 @@
 ---
 date: 2013-05-15T17:07:12Z
 ---
-<div class='newsItemHeader'>[Duplicate Accounts on Main](/News/DuplicateAccountsOnMain)</div>
+<div class='newsItemHeader'>[Duplicate Accounts on Main](/src/News/DuplicateAccountsOnMain/index.md)</div>
 
 <div class='right'><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src='/Images/Logos/UseGalaxyOrgLogoShadow200.png' alt='Main's Terms of Use'  /></a><br /><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src='/Images/Logos/UseGalaxyOrgLogoShadow200.png' alt='Main's Terms of Use'  /></a></div>
 
-The [terms of use](https://main.g2.bx.psu.edu/static/terms.html) for the Galaxy Project's free Galaxy server, [http://usegalaxy.org](http://usegalaxy.org) (a.k.a. [/Main](/Main)) specify 
+The [terms of use](https://main.g2.bx.psu.edu/static/terms.html) for the Galaxy Project's free Galaxy server, [http://usegalaxy.org](http://usegalaxy.org) (a.k.a. [/Main](/src/Main/index.md)) specify 
 
 <div class='indent'>
 Your access to the Service is provided under the condition that you abide by any published quotas on data storage, job submissions, or any other limitations placed on the public Service. *Attempts to subvert these limits by creating multiple accounts or through any other method may result in termination of all associated accounts.*
@@ -18,7 +18,7 @@ If your account is suspended and you believe that you are not in violation of Ma
 
 Thanks,
 
-[The Galaxy Team](/GalaxyTeam)
+[The Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

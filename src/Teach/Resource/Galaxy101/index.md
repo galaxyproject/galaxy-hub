@@ -10,10 +10,10 @@ title: Galaxy 101
 
 
 <div class='deploymentbox'>
- Resource:: **[Galaxy 101](/Teach/Resource/Galaxy101)**
+ Resource:: **[Galaxy 101](/src/Teach/Resource/Galaxy101/index.md)**
  Types:: Tutorial
  Domains:: **Basic Genomics**
- Owners:: [Anton Nekrutenko](/anton) and the Galaxy Project
+ Owners:: [Anton Nekrutenko](/src/anton/index.md) and the Galaxy Project
  Formats:: Galaxy Page  
  Date:: 2010/12
 </div>

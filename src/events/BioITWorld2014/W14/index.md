@@ -259,7 +259,7 @@ Reload the Galaxy interface if your 3rd party cookies were not previously enable
 
 <br />
 * Register an account that matches the address you set in `admin_users`
-* Follow the [tutorial on installing tools from the Tool Shed](/Admin/Tools/AddToolFromToolShedTutorial). In brief:
+* Follow the [tutorial on installing tools from the Tool Shed](/src/Admin/Tools/AddToolFromToolShedTutorial/index.md). In brief:
   * Click **Admin** from the masthead
   * Click **Search and browse tool sheds** from the left panel
   * Click the popup icon for **Galaxy main tool shed** and select **Search for valid tools**
@@ -271,12 +271,12 @@ Reload the Galaxy interface if your 3rd party cookies were not previously enable
 
 ### References
 
-* [Tools hub page](/Admin/Tools)
-* [Tutorial on adding custom tools](/Admin/Tools/AddToolTutorial)
-* [Tutorial on installing tools from the Tool Shed](/Admin/Tools/AddToolFromToolShedTutorial)
+* [Tools hub page](/src/Admin/Tools/index.md)
+* [Tutorial on adding custom tools](/src/Admin/Tools/AddToolTutorial/index.md)
+* [Tutorial on installing tools from the Tool Shed](/src/Admin/Tools/AddToolFromToolShedTutorial/index.md)
 * [Current tools/ directory](https://bitbucket.org/galaxy/galaxy-central/src/3b42725359224832317a066d95dff596f93ab33f/tools?at=stable)
-* [Tool Shed hub page](/ToolShed)
-* [Tool Shed tour](/ToolShed/Tour)
+* [Tool Shed hub page](/src/ToolShed/index.md)
+* [Tool Shed tour](/src/ToolShed/Tour/index.md)
 * [Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)
 
 ## Managing local data
@@ -326,13 +326,13 @@ Upon completion:
 
 ### References
 
-* [(Manual) index building](/Admin/DataPreparation)
+* [(Manual) index building](/src/Admin/DataPreparation/index.md)
 * [(Manual) data integration](/Admin/DataIntegration)
-* [Automated data management with Data Managers](/Admin/Tools/DataManagers)
+* [Automated data management with Data Managers](/src/Admin/Tools/DataManagers/index.md)
 
 # Setting up a Local Galaxy Tutorial (Part II)
 
-Documentation for the features used in this section can be found at [usegalaxy.org/production](https://usegalaxy.org/production) (forwards to [/Admin/Config/Performance/ProductionServer](/Admin/Config/Performance/ProductionServer))
+Documentation for the features used in this section can be found at [usegalaxy.org/production](https://usegalaxy.org/production) (forwards to [/Admin/Config/Performance/ProductionServer](/src/Admin/Config/Performance/ProductionServer/index.md))
 
 ## Install and configure PostgreSQL
 
@@ -459,7 +459,7 @@ admin_users = nate@bx.psu.edu
 
 Explanations of these options:
 
-* `database_connection = postgresql:///galaxy?host=/var/run/postgresql` - Use a PostgreSQL database via a local UNIX domain socket (the socket is in `/var/run/postgresql`). [documentation](/Admin/Config/Performance/ProductionServer#switching_to_a_database_server)
+* `database_connection = postgresql:///galaxy?host=/var/run/postgresql` - Use a PostgreSQL database via a local UNIX domain socket (the socket is in `/var/run/postgresql`). [documentation](/src/Admin/Config/Performance/ProductionServer/index.md#switching_to_a_database_server)
 * `database_engine_option_server_side_cursors = True` - Keep large SQL query results on the PostgreSQL server, rather the transferring the entire result set to the Galaxy processes.
 * `database_engine_option_strategy = threadlocal` - Only use one database connection per thread
 * `tool_dependency_dir = /home/galaxy/tool_deps` - The directory that will house tool dependencies
@@ -479,8 +479,8 @@ Honorable mentions for features we won't use today but that are common in big se
 * `ftp_upload_dir` and `ftp_upload_site` - Allow users to upload data to the server using FTP
 * `use_remote_user` and `remote_user_maildomain` - Use your institution's existing authentication system to log in to Galaxy. [Apache documentation](/Admin/Config/ExternalUserDatbases) or [nginx documentation](/Admin/Config/nginxProxy#external_user_authentication)
 * `allow_user_impersonation` - Users configured as administrators (with `admin_users`) can "become" other users to view Galaxy exactly as the impersonated user does. Useful for providing support.
-* `library_import_dir` - Administrators can directly import datasets from this directory on the server to Data Libraries.  This includes an option that allows an effective "symlink" to the data, rather than copying it in to Galaxy's `file_path` directory. [documentation](/Admin/DataLibraries/UploadingLibraryFiles)
-* `user_library_import_dir` - Non-administrators can directly import datasets from this directory on this server to Data Libraries from which they have been given write permission. [documentation](/Admin/DataLibraries/UploadingLibraryFiles)
+* `library_import_dir` - Administrators can directly import datasets from this directory on the server to Data Libraries.  This includes an option that allows an effective "symlink" to the data, rather than copying it in to Galaxy's `file_path` directory. [documentation](/src/Admin/DataLibraries/UploadingLibraryFiles/index.md)
+* `user_library_import_dir` - Non-administrators can directly import datasets from this directory on this server to Data Libraries from which they have been given write permission. [documentation](/src/Admin/DataLibraries/UploadingLibraryFiles/index.md)
 * `allow_library_path_paste` - Administrators can import datasets from anywhere on the server's filesystem(s) by entering their paths in to a text box
 * `object_store_config_file` - Configure Galaxy's "object storage" layer to store data in multiple filesystems, Amazon S3, iRODS, etc.
 * `error_email_to` (with `smtp_server`) - Allow users to send bug reports directly to you

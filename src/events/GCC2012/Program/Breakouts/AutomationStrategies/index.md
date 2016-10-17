@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2012/LinkBox)
 
 
 
-A proposed [Breakout Session](../) for [GCC2012](/Events/GCC2012), organized by Brad Chapman, [John Chilton](/JohnChilton), [Enis Afgan](/EnisAfgan), [Dave Bouvier](/DaveBouvier) and [Jen Jackson](/JenniferJackson)
+A proposed [Breakout Session](../) for [GCC2012](/Events/GCC2012), organized by Brad Chapman, [John Chilton](/JohnChilton), [Enis Afgan](/EnisAfgan), [Dave Bouvier](/DaveBouvier) and [Jen Jackson](/src/JenniferJackson/index.md)
 
 This involves turning the base Galaxy into a production machine: 
 * download of associated genomes and data files, 

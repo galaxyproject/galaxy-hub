@@ -4,9 +4,9 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 The 2014 Galaxy Community Conference (GCC2014) was held at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States, from June 30 through July 2, 2014
 
-Galaxy Community Conferences are an opportunity to participate in [presentations](/Events/GCC2014/Abstracts#talk-abstracts), discussions, [poster sessions](/Events/GCC2014/Abstracts#poster-abstracts), [lightning talks](/Events/GCC2014/Lightning) and [birds-of-a-feather gatherings](/Events/GCC2014/BoFs), all about high-throughput biology and the tools that support it.  
+Galaxy Community Conferences are an opportunity to participate in [presentations](/Events/GCC2014/Abstracts#talk-abstracts), discussions, [poster sessions](/Events/GCC2014/Abstracts#poster-abstracts), [lightning talks](/Events/GCC2014/Lightning) and [birds-of-a-feather gatherings](/src/Events/GCC2014/BoFs/index.md), all about high-throughput biology and the tools that support it.  
 
-The conference also included a [Training Day](/Events/GCC2014/TrainingDay) offering in-depth topic coverage, across several concurrent sessions.  
+The conference also included a [Training Day](/src/Events/GCC2014/TrainingDay/index.md) offering in-depth topic coverage, across several concurrent sessions.  
 
 <br />
 
@@ -62,7 +62,7 @@ Steve's GCC2014 talk will be on "Transcriptomes and Exomes: Computational Challe
 
 ## About Galaxy
 
-Galaxy makes it easy to perform analysis interactively through the web, on arbitrarily large datasets. With hundreds of tools there are few limits on what can be done. Now with NGS tools & workflows for short-read mapping, ChIP-seq, RNA-seq, metagenomics, and pileup analysis, trackster browser, collaborative pages, and support for Galaxy in the Cloud. Galaxy is distributed under the [Academic Free License](/Admin/License). 
+Galaxy makes it easy to perform analysis interactively through the web, on arbitrarily large datasets. With hundreds of tools there are few limits on what can be done. Now with NGS tools & workflows for short-read mapping, ChIP-seq, RNA-seq, metagenomics, and pileup analysis, trackster browser, collaborative pages, and support for Galaxy in the Cloud. Galaxy is distributed under the [Academic Free License](/src/Admin/License/index.md). 
 
 ## GCC2014 Sponsors
 
@@ -141,7 +141,7 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <div class='center'>
 <a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo1280.jpg' alt='Amazon Web Services' width="250" /></a><br />
-**[Training Day](/Events/GCC2014/TrainingDay) Sponsor**
+**[Training Day](/src/Events/GCC2014/TrainingDay/index.md) Sponsor**
 </div>
 <br />
 

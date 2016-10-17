@@ -10,7 +10,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 <div class='right'> <a href='/Events/GCC2014/TrainingDay'><img src='/Images/Logos/GCC2014TrainingDayLogoSquare.png' alt='GCC2014 Training Day' width="100" /></a></div>
 
-This is the workshop page for the **[Tool Development from bright idea to toolshed - Data Managers](/Events/GCC2014/TrainingDay#tool-development-from-bright-idea-to-toolshed---data-managers)** Training Day session at GCC2014.
+This is the workshop page for the **[Tool Development from bright idea to toolshed - Data Managers](/src/Events/GCC2014/TrainingDay/index.md#tool-development-from-bright-idea-to-toolshed---data-managers)** Training Day session at GCC2014.
 
 This workshop is offered on June 30, from 3:30 through 6pm, in Room 304 of Charles Commons.
 
@@ -30,7 +30,7 @@ This session covers the tool and ToolShed requirements for using reference data 
 <div class='red'><div class='dashed'>
 ## Prerequisites
 * The virtual machine image for this workshop should be installed before you arrive. 
-  * [How to VM](/Events/GCC2014/TrainingDay/VMs)
+  * [How to VM](/src/Events/GCC2014/TrainingDay/VMs/index.md)
   * [Direct Download](http://depot.galaxyproject.org/GCC2014.ova)
 * A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.  
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop. 
@@ -326,7 +326,7 @@ galaxy_data_manager_data_path = tool-data
 * did it work? 
   * *why not?*
 * add the missing bwa dependency
-  * see [/Admin/Config/ToolDependencies](/Admin/Config/ToolDependencies)
+  * see [/Admin/Config/ToolDependencies](/src/Admin/Config/ToolDependencies/index.md)
     1. `mkdir /home/galaxy/Desktop/Data_Managers/galaxy/tool_dependencies/bwa/0.5.9/bin`
     2. `mv /home/galaxy/Desktop/Data_Managers/galaxy/galaxy-central/tool-data/sacCer1/bwa_index/sacCer1/bwa /home/galaxy/Desktop/Data_Managers/galaxy/tool_dependencies/bwa/0.5.9/bin/`
 * rerun the Data Manager and confirm that it is working

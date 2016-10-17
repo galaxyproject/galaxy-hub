@@ -5,8 +5,8 @@ NBIC, the host and co-sponsor of the [2011 Galaxy Community Conference (GCC2011)
 
 We had several requests for this, and I would like to thank NBIC for making this happen.
 
-[Dave Clements](/DaveClements)
+[Dave Clements](/src/DaveClements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2011-06-11T05:20:39Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on <<Date(2011-06-11T05:20:39Z)>></div>
 
 CategoryNews

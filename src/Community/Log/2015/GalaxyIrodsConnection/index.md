@@ -9,7 +9,7 @@
 
 
 <div class='logbox'>
- Topic:: **[Testing connexion between Galaxy and iRODS](/Community/Log/2015/GalaxyIrodsConnection)**
+ Topic:: **[Testing connexion between Galaxy and iRODS](/src/Community/Log/2015/GalaxyIrodsConnection/index.md)**
  Date:: 2015/12/08
  Who:: Mikael Loaec, Olivier Inizan
  Resolution:: [Testing the connexion of Galaxy to iRODS object store](https://urgi.versailles.inra.fr/content/download/5169/39254/file/galaxy_irods.pdf)

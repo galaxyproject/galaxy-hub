@@ -11,14 +11,14 @@ PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 
 A reference genome contains the nucleotide sequence of the chromosomes, scaffolds, or contigs for a single species, representative of a specific genome build or release. 
 
-In [Galaxy](http://usegalaxy.org), a ** *custom* reference genome** is a [FASTA](/Learn/Datatypes#fasta) formatted [dataset](/Learn#datasets) that can be used in place of a ** *native* reference genome** with most tools. 
+In [Galaxy](http://usegalaxy.org), a ** *custom* reference genome** is a [FASTA](/Learn/Datatypes#fasta) formatted [dataset](/src/Learn/index.md#datasets) that can be used in place of a ** *native* reference genome** with most tools. 
 * **custom**: a dataset *from the history* loaded by users
-* **native**: *local* or *cached* by administrators (see [/Admin/DataPreparation](/Admin/DataPreparation))
+* **native**: *local* or *cached* by administrators (see [/Admin/DataPreparation](/src/Admin/DataPreparation/index.md))
 
 # Overview
 There are **three basic steps** to using a *Custom Reference Genome*:
 * obtain a **[FASTA](/Learn/Datatypes#fasta) copy of the target genome**
-* **[FTP](/FTPUpload) the genome to Galaxy** and load into a history as a [dataset](/Learn#datasets)
+* **[FTP](/FTPUpload) the genome to Galaxy** and load into a history as a [dataset](/src/Learn/index.md#datasets)
 * **set a tool form's options to use a custom reference genome from the history** and select the loaded genome
 <br />
 # Screencasts & Tutorials
@@ -40,7 +40,7 @@ There are **three basic steps** to using a *Custom Reference Genome*:
 * The dataset will need to be labeled as [FASTA](/Learn/Datatypes#fasta) after loaded (if not automatically assigned)
 <br />
 # Custom Builds
-Some tools and functions require that the ['database' attribute is assigned](/Support#tool_doesn27t_recognize_dataset) or that a Custom Reference Genome is set up as a *Custom Build* prior to use. Examples are the tool **Extract Genomic DNA**, certain **Picard** tools, and the function **Visualization**. 
+Some tools and functions require that the ['database' attribute is assigned](/src/Support/index.md#tool_doesn27t_recognize_dataset) or that a Custom Reference Genome is set up as a *Custom Build* prior to use. Examples are the tool **Extract Genomic DNA**, certain **Picard** tools, and the function **Visualization**. 
 
 Once created, a *Custom Build* is added to the list **Database/Build:** on the dataset 'Edit Attributes' and 'Upload File' tool forms and is available for 'Visualizations'. These can be assigned or used just like any other reference genome. 
 

@@ -8,14 +8,14 @@ title: June 2014 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the June 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the June 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # Galaxy-User Being Retired June 6
 
-<div class='center'><a href='https://biostar.usegalaxy.org/'><img src='/Images/Logos/GalaxyBiostar.png' alt='Galaxy Biostar'  /></a><br />Join the conversation! Learn how [here](/Support/Biostar).</div>
+<div class='center'><a href='https://biostar.usegalaxy.org/'><img src='/Images/Logos/GalaxyBiostar.png' alt='Galaxy Biostar'  /></a><br />Join the conversation! Learn how [here](/src/Support/Biostar/index.md).</div>
 <br />
 
-The *[Galaxy Biostar](https://biostar.usegalaxy.org)* online forum was launched April 23 as a replacement for the Galaxy-User [mailing list](/MailingLists).  
+The *[Galaxy Biostar](https://biostar.usegalaxy.org)* online forum was launched April 23 as a replacement for the Galaxy-User [mailing list](/src/MailingLists/index.md).  
 
 During the past 5 weeks, Galaxy Biostar has been wildly successful with over 125 active threads, *more than 5 times the number of active threads on Galaxy-user in the 5 weeks before the switch.*
 
@@ -34,15 +34,15 @@ Thanks for making Galaxy Biostar, and Galaxy-User before it, such a great resour
 
 ### Registration Closes June 6
 
-[Registration closes the month](/Events/GCC2014/Register). *Registering now saves 100% of late registration fees.  When you register you can also reserve [lodging at Charles Commons](/Events/GCC2014/Logistics#lodging), a very affordable housing option in the same building as the conference.*
+[Registration closes the month](/Events/GCC2014/Register). *Registering now saves 100% of late registration fees.  When you register you can also reserve [lodging at Charles Commons](/src/Events/GCC2014/Logistics/index.md#lodging), a very affordable housing option in the same building as the conference.*
 
-*[Training Day](/Events/GCC2014/TrainingDay)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There are 5 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 15 sessions and over 37 hours of workshop material.*
+*[Training Day](/src/Events/GCC2014/TrainingDay/index.md)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There are 5 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 15 sessions and over 37 hours of workshop material.*
 
 ### Abstracts and Program
 
-The [program](/Events/GCC2014/Program) has been published and all [titles and abstracts for accepted talks](/Events/GCC2014/Abstracts/Talks), are now online.  Accepted poster abstracts will posted within a week.
+The [program](/Events/GCC2014/Program) has been published and all [titles and abstracts for accepted talks](/src/Events/GCC2014/Abstracts/Talks/index.md), are now online.  Accepted poster abstracts will posted within a week.
 
-The conference is still accepting [late abstract submissions](/Events/GCC2014/Abstracts).  These will be considered as cancellations occur and space frees up (*and we have always had a few cancellations*).
+The conference is still accepting [late abstract submissions](/src/Events/GCC2014/Abstracts/index.md).  These will be considered as cancellations occur and space frees up (*and we have always had a few cancellations*).
 
 ### Sponsorships and Exhibitors
 
@@ -50,19 +50,19 @@ The conference is still accepting [late abstract submissions](/Events/GCC2014/Ab
 <a href='http://www.penguincomputing.com/'><img src='/Images/Logos/PenguinComputing.png' alt='Penguin Computing' width="170" /></a>
 </div>
 
-We are happy to have [Penguin Computing](http://www.penguincomputing.com/) as a GCC2014 Silver Sponsor. Penguin, like all [Platinum, Gold, and Silver Sponsors](/Events/GCC2014/SponsorExhibit) will have a table at GCC2104.
+We are happy to have [Penguin Computing](http://www.penguincomputing.com/) as a GCC2014 Silver Sponsor. Penguin, like all [Platinum, Gold, and Silver Sponsors](/src/Events/GCC2014/SponsorExhibit/index.md) will have a table at GCC2104.
 
-There are still [Silver and Bronze sponsorships](/Events/GCC2014/SponsorExhibit) available for the [GCC2014](/Events/GCC2014) and Giga sponsorships for the [Hackathon](/Events/GCC2014/Hackathon). Please contact the [Organizers](/Events/GCC2014/Organizers) if your organization would like to help sponsor these events. 
+There are still [Silver and Bronze sponsorships](/Events/GCC2014/SponsorExhibit) available for the [GCC2014](/Events/GCC2014) and Giga sponsorships for the [Hackathon](/Events/GCC2014/Hackathon). Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to help sponsor these events. 
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorExhibit#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/Events/GCC2014/Organizers) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorExhibit#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to have an exhibit space at GCC2014. 
 
 ### Galaxy Hackathon at GCC2014
 
 <div class='left'><a href='/Events/GCC2014/Hackathon'><img src='/Images/Logos/GCC2014HackLogoSquare.png' alt='GCC2014 Hackathon' width="150" /></a></div>
 
-The very first [Galaxy Project Hackathon](/Events/GCC2014/Hackathon) will take place at Johns Hopkins immediately preceding [GCC2014](/Events/GCC2014) from starting June 28th.
+The very first [Galaxy Project Hackathon](/Events/GCC2014/Hackathon) will take place at Johns Hopkins immediately preceding [GCC2014](/src/Events/GCC2014/index.md) from starting June 28th.
 
-Do you have a feature you've always wanted to implement?  Just want to hack on Galaxy (or CloudMan!) with other folks?  The [Galaxy Hackathon](/Events/GCC2014/Hackathon) will be a great opportunity to meet and work closely with other community and [Galaxy Team](/GalaxyTeam) members over the course of three days, culminating in some really great improvements and new features to show off at the [Galaxy Community Conference](/Events/GCC2014) afterward.
+Do you have a feature you've always wanted to implement?  Just want to hack on Galaxy (or CloudMan!) with other folks?  The [Galaxy Hackathon](/Events/GCC2014/Hackathon) will be a great opportunity to meet and work closely with other community and [Galaxy Team](/GalaxyTeam) members over the course of three days, culminating in some really great improvements and new features to show off at the [Galaxy Community Conference](/src/Events/GCC2014/index.md) afterward.
 
 Participation in the hackathon itself is completely free, but there's limited space so if you're interested and would like to participate please go ahead and book both your lodging and hackathon seat at [EventBrite](http://bit.ly/gcc2014hackreg).  **[Register now](http://bit.ly/gcc2014hackreg).  As of this writing there are only 11 spots left.**
 
@@ -194,7 +194,7 @@ There are [at least 13 other Galaxy related events](/Events) in the next two mon
 
 *49 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in May. Some papers that may be particularly interesting to the Galaxy community:
 
-* [Implementation of Cloud based Next Generation Sequencing data analysis in a clinical laboratory](http://dx.doi.org/10.1186/1756-0500-7-314), by Getiria Onsongo, Jesse Erdmann, Michael D Spears, [John Chilton](/JohnChilton), Kenneth B Beckman, Adam Hauge, Sophia Yohe, Matthew Schomaker, Matthew Bower, Kevin A T Silverstein and Bharat Thyagarajan, *BMC Research Notes*, Vol. 7, No. 1. (2014), 314, doi:10.1186/1756-0500-7-314
+* [Implementation of Cloud based Next Generation Sequencing data analysis in a clinical laboratory](http://dx.doi.org/10.1186/1756-0500-7-314), by Getiria Onsongo, Jesse Erdmann, Michael D Spears, [John Chilton](/src/JohnChilton/index.md), Kenneth B Beckman, Adam Hauge, Sophia Yohe, Matthew Schomaker, Matthew Bower, Kevin A T Silverstein and Bharat Thyagarajan, *BMC Research Notes*, Vol. 7, No. 1. (2014), 314, doi:10.1186/1756-0500-7-314
 
 * [deepTools: a flexible platform for exploring deep-sequencing data](http://dx.doi.org/10.1093/nar/gku365), by Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, Thomas Manke, *Nucleic Acids Research* (05 May 2014), gku365, doi:10.1093/nar/gku365
 
@@ -263,17 +263,17 @@ The new papers were tagged in many different areas:
 
 The Galaxy is expanding! Please help it grow.
 
-* [Two postdoc positions in integrative genomics](/News/PostDocsInOslo) available in Oslo, Norway
-* [Statistical Genomics Postdoc](/News/StatisticalGenomicsPostDocPennState) opening in the Makova lab at Penn State
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
+* [Two postdoc positions in integrative genomics](/src/News/PostDocsInOslo/index.md) available in Oslo, Norway
+* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
 # New Public Servers
 
-One new [public Galaxy servers](/PublicGalaxyServers) was added to the published list in May:
+One new [public Galaxy servers](/src/PublicGalaxyServers/index.md) was added to the published list in May:
 
 ## deepTools
 
@@ -283,8 +283,8 @@ One new [public Galaxy servers](/PublicGalaxyServers) was added to the published
   * [deepTools](http://deeptools.ie-freiburg.mpg.de/) server
   * [deepTools home page at GitHub](http://deeptools.github.io/)
   * Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, and Thomas Manke. [deepTools: a flexible platform for exploring deep-sequencing data](http://nar.oxfordjournals.org/cgi/content/abstract/gku365) *Nucl. Acids Res.* first published online May 5, 2014 doi:10.1093/nar/gku365
-  * *[deepTools: a flexible platform for exploring deep-sequencing data](/Events/GCC2014/Abstracts/Talks#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/Events/GCC2014)
-  * [deepTools deployment description](/Community/Deployment/deepTools)
+  * *[deepTools: a flexible platform for exploring deep-sequencing data](/Events/GCC2014/Abstracts/Talks#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/src/Events/GCC2014/index.md)
+  * [deepTools deployment description](/src/Community/Deployment/deepTools/index.md)
 * *Domain/Purpose:* 
     deepTools is a suite of user-friendly tools for the visualization, quality control and normalization of data from high-throughput DNA sequencing experiments.
 * *Comments:*
@@ -301,11 +301,11 @@ One new [public Galaxy servers](/PublicGalaxyServers) was added to the published
 
 # Galaxy Distributions
 
-The most recent [Galaxy Distribution was released on April 14, 2014](/DevNewsBriefs/2014_04_14).
+The most recent [Galaxy Distribution was released on April 14, 2014](/src/DevNewsBriefs/2014_04_14/index.md).
 
 [BioBlend 0.4.3](https://pypi.python.org/pypi/bioblend/0.4.3) was released on April 11, 2014.  
 
-The most recent version of CloudMan was [released in January 2014](/News/CloudManRelease201401).
+The most recent version of CloudMan was [released in January 2014](/src/News/CloudManRelease201401/index.md).
 
 
 # Galaxy Community Hubs
@@ -322,10 +322,10 @@ The most recent version of CloudMan was [released in January 2014](/News/CloudMa
 
 <br /><br />
 
-One new [deployment description](/Community/Deployments) was added in May:
-* [deepTools](/Community/Deployment/deepTools)
+One new [deployment description](/src/Community/Deployments/index.md) was added in May:
+* [deepTools](/src/Community/Deployment/deepTools/index.md)
 
-The *[Community Log Board](/Community/Logs)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/Community/Deployments), or [experience](/Community/Logs) you want to share then please publish them.
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/Community/Deployments), or [experience](/src/Community/Logs/index.md) you want to share then please publish them.
 
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
@@ -453,4 +453,4 @@ In no particular order:
 
 **Access to all [TACC](https://www.tacc.utexas.edu/)-based resources and services, including [usegalaxy.org](http://usegalaxy.org) and the [Galaxy Project Test Server](https://test.galaxyproject.org/), will be unavailable from 9 a.m. to 5 p.m., central US time, on Saturday, May ~~24~~ 31, 2014.** TACC staff will be performing an upgrade to the networking infrastructure. During this time, jobs will continue to run.
 
-During this time you are encouraged to use [any of the 60+ public Galaxy servers](/PublicGalaxyServers).
+During this time you are encouraged to use [any of the 60+ public Galaxy servers](/src/PublicGalaxyServers/index.md).

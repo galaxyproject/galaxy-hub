@@ -1,7 +1,7 @@
 ---
 date: 2012-10-15T15:54:39Z
 ---
-<div class='newsItemHeader'>[CloudMap](/News/CloudMap)</div>
+<div class='newsItemHeader'>[CloudMap](/src/News/CloudMap/index.md)</div>
 
 <div class='right'><a href='http://www.genetics.org/content/early/2012/10/11/genetics.112.144204.1.abstract'><img src='/CloudMapFig6B.png' alt='' height="300px" /></a></div>
 
@@ -11,7 +11,7 @@ For details, see
 * Gregory Minevich, Danny S. Park, [Daniel Blankenberg](/Dan), Richard J. Poole and Oliver Hobert1, "[CloudMap: A Cloud-based Pipeline for Analysis of Mutant Genome Sequences](http://www.genetics.org/content/early/2012/10/11/genetics.112.144204.1)." *[Genetics](http://www.genetics.org/)*. 2012 Oct 11; and
 * the [CloudMap Galaxy Page](http://usegalaxy.org/cloudmap)
 
-Greg Minevich and [Dan Blankenberg](/Dan)
+Greg Minevich and [Dan Blankenberg](/src/Dan/index.md)
 
 
 CategoryNews

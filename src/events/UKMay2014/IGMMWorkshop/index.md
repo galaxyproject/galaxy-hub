@@ -85,7 +85,7 @@ This workshop is generously supported by the [MRC Institute of Genetics and Mole
 
 ### Galaxy May 2014 UK Tour
 
-This workshop is part of the [May 2014 Galaxy UK Tour](/Events/UKMay2014), which features events in Norwich, as well as other events in Edinburgh.
+This workshop is part of the [May 2014 Galaxy UK Tour](/src/Events/UKMay2014/index.md), which features events in Norwich, as well as other events in Edinburgh.
 
 ## Slides
 

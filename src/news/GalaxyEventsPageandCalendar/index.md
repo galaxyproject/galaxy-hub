@@ -9,10 +9,10 @@ The page also contains a link to the new [Galaxy Events Google Calendar](https:/
 * [Computational & Comparative Genomics Course](http://meetings.cshl.edu/courses/c-ecg11.shtml) application (Friday)
 * [Advanced Sequencing Technologies & Applications Course](http://meetings.cshl.edu/courses/c-seqtech11.shtml) application (Friday)
 
-If you know of events that either have significant Galaxy content, or are of interest to the overall community, please send them to outreach@galaxyproject.org and they will be added to the [/Events](/Events) page and the calendar.
+If you know of events that either have significant Galaxy content, or are of interest to the overall community, please send them to outreach@galaxyproject.org and they will be added to the [/Events](/src/Events/index.md) page and the calendar.
 
-[Dave Clements](/DaveClements)
+[Dave Clements](/src/DaveClements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2011-07-13T07:20:18Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on <<Date(2011-07-13T07:20:18Z)>></div>
 
 CategoryNews

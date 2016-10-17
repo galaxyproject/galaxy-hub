@@ -11,13 +11,13 @@ PLACEHOLDER_INCLUDE(/Events/AdminTraining2016/Header)
 
 # Flier
 
-Please share this [one page flier](ATTACHMENT_URLGAT2016Flier.pdf) with any groups, departments, and individuals who might benefit from attending [Galaxy Admin Training 2016](/Events/AdminTraining2016).
+Please share this [one page flier](ATTACHMENT_URLGAT2016Flier.pdf) with any groups, departments, and individuals who might benefit from attending [Galaxy Admin Training 2016](/src/Events/AdminTraining2016/index.md).
 
 <br /><br /><br />
 
 # Slides
 
-Giving a talk to a group that might benefit from attending [Galaxy Admin Training 2016](/Events/AdminTraining2016)?  Please include a slide about the event in your presentation.
+Giving a talk to a group that might benefit from attending [Galaxy Admin Training 2016](/src/Events/AdminTraining2016/index.md)?  Please include a slide about the event in your presentation.
 
 <table>
   <tr>

@@ -15,7 +15,7 @@ title: It, ', s a new year in the Galaxy, !
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
-Welcome to the January 2016 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. 
+Welcome to the January 2016 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. 
 
 If you have anything to include in the next News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
 
@@ -253,12 +253,12 @@ The Galaxy is expanding! Please help it grow.
 * [Computational Biology post-doc](http://bit.ly/1J1WLla), IMI-eTRIKS consortium, CNRS-EISBM, Lyon France. Contribute "to the development of eTRIKS Galaxy tools and workflows for disease stratification and biomarker discovery from single and multiple omics datasets."
 * [Post-doc in Functional Genomics Of Obesity-Related Diseases](http://bit.ly/1QFyDHK), Inserm, Lille, France 
 * [Bioinformatician Post-doc at [[http://www.sb-roscoff.fr/|Station Biologique de Roscoff ](http://france.list.galaxyproject.org/Galaxy-france-Fwd-BBC-bioinformatics-Post-doc-position-for-2-years-td160.html) working on parasitic dinoflagellate genomics
-* [Software Engineer](/News/SoftwareEngineerOHSU), Oregon Health Sciences University, Portland, Oregon, United States
+* [Software Engineer](/src/News/SoftwareEngineerOHSU/index.md), Oregon Health Sciences University, Portland, Oregon, United States
 * [Software Developer / Bioinformatician](https://ig14.i-grasp.com/fe/tpl_embl01.asp?s=4A515F4E5A565B1A&jobid=54309,8734341283&key=64564906&c=342372129814&pagestamp=seqbdpnrnmbvdpxtgb), European Molecular Biology Laboratory (EMBL), Heidelberg, Germany
     *Extended until 10 January 2016.*
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -266,7 +266,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[Two new publicly accessible Galaxy servers](/PublicGalaxyServers) were added in December.  And, while not a new server, the *server formerly known as MIRPIPE* is now the greatly expanded [MPI-HLR Bioinformatics Server](/PublicGalaxyServers#mpi-hlr-bioinformatics-server).
+[Two new publicly accessible Galaxy servers](/PublicGalaxyServers) were added in December.  And, while not a new server, the *server formerly known as MIRPIPE* is now the greatly expanded [MPI-HLR Bioinformatics Server](/src/PublicGalaxyServers/index.md#mpi-hlr-bioinformatics-server).
 
 ## Dintor
 
@@ -431,7 +431,7 @@ The 0.6.x release includes these changes:
 
 # ToolShed Contributions
 
-See [list of tools contributed in December](/ToolShed/Contributions/2015_12).
+See [list of tools contributed in December](/src/ToolShed/Contributions/2015_12/index.md).
 
 
 ---

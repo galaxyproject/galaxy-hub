@@ -8,18 +8,18 @@ title: July 2014 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the July 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the July 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
-The *Galaxy Update* is going out a few days early this month because the usual release date is during [GCC2014](/Events/GCC2014).  
+The *Galaxy Update* is going out a few days early this month because the usual release date is during [GCC2014](/src/Events/GCC2014/index.md).  
 
 # Events
 <div class='left'><br /><a href='/Events/GCC2014'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="120" /></a></div>
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-**The [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014) starts on Monday, June 30, and runs through July 2,** at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.  The [program](/Events/GCC2014/Program) is online and all [titles and abstracts for accepted talks and posters](/Events/GCC2014/Abstracts/Talks) are now online.  
+**The [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014) starts on Monday, June 30, and runs through July 2,** at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.  The [program](/Events/GCC2014/Program) is online and all [titles and abstracts for accepted talks and posters](/src/Events/GCC2014/Abstracts/Talks/index.md) are now online.  
 
-Fifteen [Training sessions on 12 topics](/Events/GCC2014/TrainingDay), several [Birds of a Feather](/Events/GCC2014/BoFs), two lightning talk sessions, and the very first [Galaxy Project Hackathon](/Events/GCC2014/Hackathon) are also happening.
+Fifteen [Training sessions on 12 topics](/Events/GCC2014/TrainingDay), several [Birds of a Feather](/Events/GCC2014/BoFs), two lightning talk sessions, and the very first [Galaxy Project Hackathon](/src/Events/GCC2014/Hackathon/index.md) are also happening.
 
 <br />
 
@@ -30,14 +30,14 @@ Fifteen [Training sessions on 12 topics](/Events/GCC2014/TrainingDay), several [
 <a href='/Events/ISMB2014'><img src='/Images/Logos/ISMB2014LogoRound.png' alt='ISMB 2014' height="85" /></a>
 </div>
 
-There will be at least six talks and five posters related to Galaxy at [ISMB and BOSC 2014](/Events/ISMB2014) this year.  Talks include
+There will be at least six talks and five posters related to Galaxy at [ISMB and BOSC 2014](/src/Events/ISMB2014/index.md) this year.  Talks include
 
-* *Galaxy as an Extensible Job Execution Platform*, [John Chilton](/JohnChilton)
-* *Enhancing the Galaxy Experience through Community Involvement*, [Daniel Blankenberg](/Dan)
-* *[TT03: Interactive Visual Analysis with Galaxy Charts](http://www.iscb.org/uploaded/css/166/29988.pdf)*, [Sam Guerler](/guerler)
-* *[TT24: From the Ground to the Cloud in 25 minutes: Building a Customized Galaxy Analysis Server Using Only a Web Browser](http://www.iscb.org/uploaded/css/166/30137.pdf)*, [Daniel Blankenberg](/Dan)
+* *Galaxy as an Extensible Job Execution Platform*, [John Chilton](/src/JohnChilton/index.md)
+* *Enhancing the Galaxy Experience through Community Involvement*, [Daniel Blankenberg](/src/Dan/index.md)
+* *[TT03: Interactive Visual Analysis with Galaxy Charts](http://www.iscb.org/uploaded/css/166/29988.pdf)*, [Sam Guerler](/src/guerler/index.md)
+* *[TT24: From the Ground to the Cloud in 25 minutes: Building a Customized Galaxy Analysis Server Using Only a Web Browser](http://www.iscb.org/uploaded/css/166/30137.pdf)*, [Daniel Blankenberg](/src/Dan/index.md)
 * *[TT27: Bioinformatics and Computer Biology Systems design applied to Medical Molecular Nanobiotechnology](http://www.iscb.org/uploaded/css/166/30125.pdf)*, Allan Orozco
-* *[TT29: Scaling Galaxy: Preparing for Those Next Few Orders of Magnitude](http://www.iscb.org/uploaded/css/166/30134.pdf)*, [John Chilton](/JohnChilton)
+* *[TT29: Scaling Galaxy: Preparing for Those Next Few Orders of Magnitude](http://www.iscb.org/uploaded/css/166/30134.pdf)*, [John Chilton](/src/JohnChilton/index.md)
   
 ## Other Events
 
@@ -209,17 +209,17 @@ The new papers were tagged in many different areas:
 The Galaxy is expanding! Please help it grow.
 
 * [Experimental Officer in Bioinformatics](http://bit.ly/1uW1qIs), NERC Metabolomics Facility, University of Birmingham, UK 
-* [Two postdoc positions in integrative genomics](/News/PostDocsInOslo) available in Oslo, Norway
-* [Statistical Genomics Postdoc](/News/StatisticalGenomicsPostDocPennState) opening in the Makova lab at Penn State
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
+* [Two postdoc positions in integrative genomics](/src/News/PostDocsInOslo/index.md) available in Oslo, Norway
+* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
 # New Public Servers
 
-One new [public Galaxy server](/PublicGalaxyServers) was added to the published list in June:
+One new [public Galaxy server](/src/PublicGalaxyServers/index.md) was added to the published list in June:
 
 ## GVL QLD
 
@@ -248,10 +248,10 @@ One new [public Galaxy server](/PublicGalaxyServers) was added to the published 
 
 ## June 2, 2014 Galaxy Distribution
 
-<div class='right'> <a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2014_06_02_dataset-collections-crop.png' alt='Dataset Collections Workflow Detail' width="400" /></a> <br /> *example dataset collection workflow ([credits](/DevNewsBriefs/2014_06_02#dataset_collections))* </div>
+<div class='right'> <a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2014_06_02_dataset-collections-crop.png' alt='Dataset Collections Workflow Detail' width="400" /></a> <br /> *example dataset collection workflow ([credits](/src/DevNewsBriefs/2014_06_02/index.md#dataset_collections))* </div>
 
 <br />
-**[News Brief](/DevNewsBriefs/2014_06_02)** **Highlights:**
+**[News Brief](/src/DevNewsBriefs/2014_06_02/index.md)** **Highlights:**
 
 * Dataset Collections introduced
 * Changes to database build (dbkey) organization
@@ -302,7 +302,7 @@ A [corresponding version](http://gregvonkuster.org/galaxy-tool-shed-june-2-2014-
 
 [BioBlend 0.4.3](https://pypi.python.org/pypi/bioblend/0.4.3) was released on April 11, 2014.  
 
-The most recent version of CloudMan was [released in January 2014](/News/CloudManRelease201401).
+The most recent version of CloudMan was [released in January 2014](/src/News/CloudManRelease201401/index.md).
 
 
 # Galaxy Community Hubs
@@ -319,10 +319,10 @@ The most recent version of CloudMan was [released in January 2014](/News/CloudMa
 
 <br /><br />
 
-One new [Log Board entry](/Community/Logs) was added in June:
-* [Local Tool Shed with https and LDAP](/Community/Log/2014/ToolShedWithHttpsAndLDAP)
+One new [Log Board entry](/src/Community/Logs/index.md) was added in June:
+* [Local Tool Shed with https and LDAP](/src/Community/Log/2014/ToolShedWithHttpsAndLDAP/index.md)
 
-The *[Community Log Board](/Community/Logs)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/Community/Deployments), or [experience](/Community/Logs) you want to share then please publish them.
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/Community/Deployments), or [experience](/src/Community/Logs/index.md) you want to share then please publish them.
 
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>

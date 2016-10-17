@@ -1,7 +1,7 @@
 ---
 date: 2016-07-06T03:44:28Z
 ---
-<div class='newsItemHeader'>[July 2016 Galactic News](/News/2016_07GalaxyUpdate)</div>
+<div class='newsItemHeader'>[July 2016 Galactic News](/src/News/2016_07GalaxyUpdate/index.md)</div>
 
 <div class='right'>
 <a href='/GalaxyUpdates/2016_07#gcc2017-26-30-june-2017-montpellier-france'><img src='/Images/Logos/GCC2107.png' alt='GCC2017 Announced' width="200" /></a><br />
@@ -14,26 +14,26 @@ date: 2016-07-06T03:44:28Z
 <a href='/GalaxyUpdates/2016_07#galaxy-australasia-meeting-game-2017-3-9-february-melbourne'><img src='/Images/Logos/GAMeLogo200.png' alt='Galaxy Australasia Meeting (GAMe 2017)' width="140" /></a>
 </div>
 
-Some highlights from the **[July Galaxy News](/GalaxyUpdates/2016_07):**
+Some highlights from the **[July Galaxy News](/src/GalaxyUpdates/2016_07/index.md):**
 
-* [GCC2016 is done!](/GalaxyUpdates/2016_07#gcc2016-is-done) and slides and posters are now online (and video and training materials are coming)
+* [GCC2016 is done!](/src/GalaxyUpdates/2016_07/index.md#gcc2016-is-done) and slides and posters are now online (and video and training materials are coming)
 * And there is plenty more happening:
-  * **[GCC2017 Announced](/GalaxyUpdates/2016_07#gcc2017-26-30-june-2017-montpellier-france)!**
-  * [Swiss-German Galaxy Days](/GalaxyUpdates/2016_07#swiss-german-galaxy-days)
-  * [Galaxy Admin Training](/GalaxyUpdates/2016_07#galaxy-admin-training-november-7-11-salt-lake-city-utah) announced
-  * [European Galaxy Developer Knowledge Exchange](/GalaxyUpdates/2016_07#european-galaxy-developer-knowledge-exchange)
-  * [Galaxy AustralAsia Meeting (GAMe 2017)](/GalaxyUpdates/2016_07#galaxy-australasia-meeting-game-2017-3-9-february-melbourne) announced
-  * [Other Upcoming Events](/GalaxyUpdates/2016_07#upcoming-events)
-* [82 new Papers](/GalaxyUpdates/2016_07#new-papers)
-* [Open positions](/GalaxyUpdates/2016_07#whos-hiring)
-* New [public](/GalaxyUpdates/2016_07#new-public-galaxy-servers) and [semi-public](/GalaxyUpdates/2016_07#semi-public-galaxy-servers) Galaxy servers
-* A new [community log board entry](/GalaxyUpdates/2016_07#galaxy-community-hubs)
-* New [Releases](/GalaxyUpdates/2016_07#releases): [blend4php](/GalaxyUpdates/2016_07#blend4php-01-alpha), [Planemo](/GalaxyUpdates/2016_07#planemo-0270), and [galaxy-lib](/GalaxyUpdates/2016_07#galaxy-lib-1678---1679)
-* And [other news](/GalaxyUpdates/2016_07#other-news) too.
+  * **[GCC2017 Announced](/src/GalaxyUpdates/2016_07/index.md#gcc2017-26-30-june-2017-montpellier-france)!**
+  * [Swiss-German Galaxy Days](/src/GalaxyUpdates/2016_07/index.md#swiss-german-galaxy-days)
+  * [Galaxy Admin Training](/src/GalaxyUpdates/2016_07/index.md#galaxy-admin-training-november-7-11-salt-lake-city-utah) announced
+  * [European Galaxy Developer Knowledge Exchange](/src/GalaxyUpdates/2016_07/index.md#european-galaxy-developer-knowledge-exchange)
+  * [Galaxy AustralAsia Meeting (GAMe 2017)](/src/GalaxyUpdates/2016_07/index.md#galaxy-australasia-meeting-game-2017-3-9-february-melbourne) announced
+  * [Other Upcoming Events](/src/GalaxyUpdates/2016_07/index.md#upcoming-events)
+* [82 new Papers](/src/GalaxyUpdates/2016_07/index.md#new-papers)
+* [Open positions](/src/GalaxyUpdates/2016_07/index.md#whos-hiring)
+* New [public](/GalaxyUpdates/2016_07#new-public-galaxy-servers) and [semi-public](/src/GalaxyUpdates/2016_07/index.md#semi-public-galaxy-servers) Galaxy servers
+* A new [community log board entry](/src/GalaxyUpdates/2016_07/index.md#galaxy-community-hubs)
+* New [Releases](/GalaxyUpdates/2016_07#releases): [blend4php](/GalaxyUpdates/2016_07#blend4php-01-alpha), [Planemo](/GalaxyUpdates/2016_07#planemo-0270), and [galaxy-lib](/src/GalaxyUpdates/2016_07/index.md#galaxy-lib-1678---1679)
+* And [other news](/src/GalaxyUpdates/2016_07/index.md#other-news) too.
 
-Hope to [see you in Montpellier](/GalaxyUpdates/2016_07#gcc2017-26-30-june-2017-montpellier-france)!
+Hope to [see you in Montpellier](/src/GalaxyUpdates/2016_07/index.md#gcc2017-26-30-june-2017-montpellier-france)!
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
+[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

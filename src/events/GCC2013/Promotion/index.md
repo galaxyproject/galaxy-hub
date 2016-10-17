@@ -21,7 +21,7 @@ Please help get the word out about the [2013 Galaxy Community Conference (GCC201
 
 # Graphics
 
-<div class='right'>![](/Images/Logos/GCC2013Logo200.png)<br />![](/Images/Logos/GCC2013TrainingDayLogo200.png)</div>
+<div class='right'>![](/Images/Logos/GCC2013Logo200.png)<br />![](/src/Images/Logos/GCC2013TrainingDayLogo200.png)</div>
 
 The conference logos are available in several sizes.
 
@@ -61,7 +61,7 @@ The conference logos are available in several sizes.
 
 # Twitter Hashtag
 
-Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitter hashtag](/GalaxyOnTwitter) for the meeting.  The obvious choice of #gcc2013 is already well used by several other events.
+Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitter hashtag](/src/GalaxyOnTwitter/index.md) for the meeting.  The obvious choice of #gcc2013 is already well used by several other events.
 
 
 # Sponsorships

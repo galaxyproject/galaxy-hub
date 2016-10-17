@@ -8,7 +8,7 @@ title: October 23, ,,  2012 Galaxy Development News Brief
 
 <br />
 # Get Galaxy
-*** Upgrade NOW for an Important [Security Fix](/DevNewsBriefs/2012_10_23#compute_tool_security_fix) ***
+*** Upgrade NOW for an Important [Security Fix](/src/DevNewsBriefs/2012_10_23/index.md#compute_tool_security_fix) ***
 
 <table>
   <tr>
@@ -32,15 +32,15 @@ title: October 23, ,,  2012 Galaxy Development News Brief
 
 Administrators are always encouraged to install the latest release not only to incorporate new features, but to take advantage of the current set of security and bug fixes inherent in any project with a fast paced development cycle. This is even more strongly advised for those running public instances. The Galaxy team takes security very seriously and strives to quickly and clearly communicate when a security issue is identified. We have an amazing community that is instrumental in the discovery and resolution of problems when they are uncovered - and we want to thank them for their contributions and support. Galaxy is truly a team effort and transparency and information flow is our priority. 
 
-We also intend to learn from recent actions in these areas that fell short of a best effort. The security corrections and priority of the changes to the `Compute` tool in the prior distribution lacked the details and urgency notice it deserved. The move from *Bitbucket* to *[Trello](/Issues)* for community collaboration in issue reporting also lacked the information and timely documentation that would have made the transition processes smoother. Both are covered in more detail in this News Brief. Our goals are to provide a remedy for the immediate issues and to create a successful communications and collaborations model for the future. We value your feedback - please let us know how we are doing as the new tools are put into practice.  
+We also intend to learn from recent actions in these areas that fell short of a best effort. The security corrections and priority of the changes to the `Compute` tool in the prior distribution lacked the details and urgency notice it deserved. The move from *Bitbucket* to *[Trello](/src/Issues/index.md)* for community collaboration in issue reporting also lacked the information and timely documentation that would have made the transition processes smoother. Both are covered in more detail in this News Brief. Our goals are to provide a remedy for the immediate issues and to create a successful communications and collaborations model for the future. We value your feedback - please let us know how we are doing as the new tools are put into practice.  
 
-1. **[Compute Tool Security Fix](/DevNewsBriefs/2012_10_23#compute_tool_security_fix)**
-2. **[New Trello Issue Board](/DevNewsBriefs/2012_10_23#new_trello_issue_board)**
+1. **[Compute Tool Security Fix](/src/DevNewsBriefs/2012_10_23/index.md#compute_tool_security_fix)**
+2. **[New Trello Issue Board](/src/DevNewsBriefs/2012_10_23/index.md#new_trello_issue_board)**
 
 <br />
 # Compute Tool Security Fix
 
-***This distribution and the previous distribution, [October 5, 2012](/DevNewsBriefs/2012_10_05#security_fixes), fix a significant security hole in Galaxy's "Compute" tool. Upgrade or patch NOW. ***
+***This distribution and the previous distribution, [October 5, 2012](/src/DevNewsBriefs/2012_10_05/index.md#security_fixes), fix a significant security hole in Galaxy's "Compute" tool. Upgrade or patch NOW. ***
 
 The **Compute** columns tool allowed arbitrary execution of python code entered into the input text field by a user.  It has been modified to only allow safe operators and functions.  Administrators are strongly urged to apply this update for security purposes, or to manually apply/patch these changesets:
 ```
@@ -80,7 +80,7 @@ The Galaxy wiki and other related resources have now been updated to point to th
 
 **We recommend that you reset the metadata on your installed tool shed repositories when you upgrade your Galaxy instance to this revision!**
 
-When a tool shed repository is installed into your local Galaxy instance, metadata is generated for the repository as a part of the installation process and stored in the tool_shed_repository.metadatatable column in the Galaxy database.  This automatic process inspects the contents of the specific revision of the installed repository and generates and stores important information about it.  This metadata information is used by certain Galaxy features.  As new features are added to Galaxy or the tool shed, the process that generates this installed tool shed repository metadata within the Galaxy  instance may be enhanced to accommodate information about the new features. [Read more…](/ResettingMetadataForInstalledRepositories)
+When a tool shed repository is installed into your local Galaxy instance, metadata is generated for the repository as a part of the installation process and stored in the tool_shed_repository.metadatatable column in the Galaxy database.  This automatic process inspects the contents of the specific revision of the installed repository and generates and stores important information about it.  This metadata information is used by certain Galaxy features.  As new features are added to Galaxy or the tool shed, the process that generates this installed tool shed repository metadata within the Galaxy  instance may be enhanced to accommodate information about the new features. [Read more…](/src/ResettingMetadataForInstalledRepositories/index.md)
 
 1. #2 The Galaxy tool shed repository installation process has been enhanced to enable installation of repositories into a hierarchy of directories instead of a single level of directories.
 If your Galaxy instance includes currently installed tool shed repositories, we recommend that you reset the metadata on your installed repositories as described in the above item, as doing this will reset certain information about your repositories, including entries for tools in your shed-related tool panel config files (e.g., `shed_tool_conf.xml`, `migrated-tools_conf.cml`, etc ).
@@ -122,7 +122,7 @@ shed_tool_conf.xml            <toolbox tool_path="../shed_tools/galaxy_instance1
 4. Add **genomespace** tools to `tool_conf.xml.main`. 
   * Get Data -> [GenomeSpace](http://www.genomespace.org) import
   * Send Data -> [GenomeSpace](http://www.genomespace.org) export
-  * **[GenomeSpace](http://www.genomespace.org)** now also enabled on Galaxy [/Main](/Main).
+  * **[GenomeSpace](http://www.genomespace.org)** now also enabled on Galaxy [/Main](/src/Main/index.md).
 
 
 <br />
@@ -211,7 +211,7 @@ Detail view of center panel:
 <br />
 # Announcements
 
-[/News](/News), *[October 2012 Galaxy Update](/GalaxyUpdates/2012_10)*
+[/News](/News), *[October 2012 Galaxy Update](/src/GalaxyUpdates/2012_10/index.md)*
 
 <br />
 ---

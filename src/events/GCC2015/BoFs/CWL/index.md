@@ -6,7 +6,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 
 
 <div class='dictbox'>
- BoF:: [Common Workflow Language](/Events/GCC2015/BoFs/CWL)
+ BoF:: [Common Workflow Language](/src/Events/GCC2015/BoFs/CWL/index.md)
  Summary:: Talk with [CWL](http://common-workflow-language.github.io) founders & enthusiasts
  Audience:: Research software engineers, analysts, developers, and the like.
  When:: Wednesday, 8 July, 18:00 

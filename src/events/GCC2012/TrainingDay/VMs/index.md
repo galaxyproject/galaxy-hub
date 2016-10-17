@@ -3,7 +3,7 @@ autotoc: true
 ---
 <div class='right'><a href='../'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' /></a></div>
 
-If you are planning on attending any of these [GCC2012](/Events/GCC2012) [Training Day](/Events/GCC2012/TrainingDay) workshops, then you will need shell admin access to a system with Galaxy and/or a Galaxy Tool Shed already installed and running.
+If you are planning on attending any of these [GCC2012](/Events/GCC2012) [Training Day](/src/Events/GCC2012/TrainingDay/index.md) workshops, then you will need shell admin access to a system with Galaxy and/or a Galaxy Tool Shed already installed and running.
 
 * [WS1: Integrating Tools & Data Sources](../#ws1)
 * [WS6: Galaxy API](../#ws6)
@@ -28,7 +28,7 @@ Using a virtual machine ensures that you will be running with the same configura
 
 # What Do I Need to Do?
 
-You will need to do two things before [Training Day](../) starts.  These steps take some time, and require downloading large files, so please do not postpone this until you arrive.  Downloading files of this size at the [UIC Forum](/Events/GCC2012/Logistics) would be painfully slow, and would adversely affect your fellow students.
+You will need to do two things before [Training Day](../) starts.  These steps take some time, and require downloading large files, so please do not postpone this until you arrive.  Downloading files of this size at the [UIC Forum](/src/Events/GCC2012/Logistics/index.md) would be painfully slow, and would adversely affect your fellow students.
 
 So, **please do these steps before you arrive**.
 

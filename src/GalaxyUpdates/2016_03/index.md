@@ -15,7 +15,7 @@ title: March 2016 Galaxy News
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
-Welcome to the March 2016 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. 
+Welcome to the March 2016 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. 
 
 If you have anything to include in the next News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
 
@@ -78,7 +78,7 @@ We are pleased to offer [scholarships](https://docs.google.com/forms/d/1IbMoNcA6
 
 Scholarships cover [registration](http://gcc2016.iu.edu/registration) and [lodging](http://gcc2016.iu.edu/location) during the GCC Meeting, and for any Training or Hackathon events the applicant chooses to attend.  Scholarships do not cover travel or other expenses. **The application deadline is May 1 for members of historically underrepresented groups and March 20 for those from Low and Lower-Middle Income Economies.**
 
-See the [full announcement](/News/GCC2016Scholarships) for details.
+See the [full announcement](/src/News/GCC2016Scholarships/index.md) for details.
 
 
 ## Sponsors
@@ -229,7 +229,7 @@ Please let Robin know if you have any questions about GSoC.
 
 ## February GalaxyAdmins Slides & Video
 
-Slides and video from the [February 2016 GalaxyAdmins meetup are now available](/Community/GalaxyAdmins/Meetups/2016_02_18).
+Slides and video from the [February 2016 GalaxyAdmins meetup are now available](/src/Community/GalaxyAdmins/Meetups/2016_02_18/index.md).
 
 
 
@@ -368,16 +368,16 @@ There are [many upcoming events](/Events) in the next few months.  See the [Gala
 
 # Who's Hiring
 
-<div class='right'>![Please Help! Yes you!](/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png)</div>
+<div class='right'>![Please Help! Yes you!](/src/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png)</div>
 
 The Galaxy is expanding! Please help it grow.
 * [Bioinformatics Web Application Developer-Biology](http://bit.ly/1LQQ2qz), Washington University in St. Louis, Missouri, United States
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
 * [Postdoctoral Research Positions](http://bit.ly/1KYf1rg), Molecular and Cellular Biology Department at Baylor College of Medicine, Houston, Texas, United States 
-* [Bioinformaticist](/News/JHUAPLBioinformaticist), Johns Hopkins University Applied Physics Laboratory (APL)
-* [Software Engineer](/News/SoftwareEngineerOHSU), Oregon Health Sciences University, Portland, Oregon, United States
+* [Bioinformaticist](/src/News/JHUAPLBioinformaticist/index.md), Johns Hopkins University Applied Physics Laboratory (APL)
+* [Software Engineer](/src/News/SoftwareEngineerOHSU/index.md), Oregon Health Sciences University, Portland, Oregon, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -387,7 +387,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[Three new publicly accessible Galaxy servers](/PublicGalaxyServers) were listed in February:
+[Three new publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) were listed in February:
 
 ## BISTRO
 
@@ -620,7 +620,7 @@ The 0.6.x release includes these changes:
 
 # ToolShed Contributions
 
-See [list of tools contributed in February](/ToolShed/Contributions/2016_02).
+See [list of tools contributed in February](/src/ToolShed/Contributions/2016_02/index.md).
 
 
 ---

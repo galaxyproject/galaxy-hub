@@ -10,7 +10,7 @@ title: GVL De Novo Genome Assembly , (, Small Genome, )
 
 
 <div class='deploymentbox'>
- Resource:: **[GVL de Novo Genome Assembly (Small Genome)](/Teach/Resource/GVL-deNovoGenomeAssembly)**
+ Resource:: **[GVL de Novo Genome Assembly (Small Genome)](/src/Teach/Resource/GVL-deNovoGenomeAssembly/index.md)**
  Types:: Tutorial
  Domains:: **Assembly** 
  Owners:: [Genomics Virtual Lab](https://genome.edu.au/wiki/About) by [University of Queensland, ](http://www.uq.edu.au) [Victorian Life Sciences Computation Initiative, ](http://www.vlsci.org.au/) [Queensland Facility for Advanced Bioinformatics, ](http://www.qfab.org//) and [Garvan Institute](http://www.garvan.org.au/)
@@ -18,7 +18,7 @@ title: GVL De Novo Genome Assembly , (, Small Genome, )
  Date:: 2012/12 
 </div>
 
-This tutorial runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/PublicGalaxyServers) specifically for learning bioinformatics analysis.
+This tutorial runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/PublicGalaxyServers/index.md) specifically for learning bioinformatics analysis.
 
 In this tutorial we carry out de novo assembly of a microbial genome.
 

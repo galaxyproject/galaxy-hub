@@ -36,7 +36,7 @@ Curtis Hendrickson of the [University of Alabama Birmingham's Center for Clinica
 
 <br /><br />
 
-*We also bid farewell to [Ann Black-Ziegelbein of the University of Iowa](https://www.linkedin.com/pub/ann-blackziegelbein/a/166/117).*  Ann has been the driving force behind launching the [GalaxyAdmins|GalaxyAdmins](/Community) group and has guided it through its first (wildly successful!) 6 months of existence.  Ann is handing over the reigns to her fellow U Iowa colleague Srinivas Maddhi, whose day job is getting Iowa's Galaxy server into production.  
+*We also bid farewell to [Ann Black-Ziegelbein of the University of Iowa](https://www.linkedin.com/pub/ann-blackziegelbein/a/166/117).*  Ann has been the driving force behind launching the [GalaxyAdmins|GalaxyAdmins](/src/Community/index.md) group and has guided it through its first (wildly successful!) 6 months of existence.  Ann is handing over the reigns to her fellow U Iowa colleague Srinivas Maddhi, whose day job is getting Iowa's Galaxy server into production.  
 
 We thank Ann profusely for her contributions, and Srinivas for taking this on.
 

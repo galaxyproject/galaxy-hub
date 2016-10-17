@@ -1,13 +1,13 @@
 <div class='linkbox'>
-**[/Images](/Images)**
+**[/Images](/src/Images/index.md)**
 ---
-[Galaxy Logos](/Images/GalaxyLogos)<br />
-[Logos](/Images/Logos)<br />
-[Icons](/Images/Icons)<br />
-[News Graphics](/Images/NewsGraphics)<br />
-[Photos](/Images/Photos)<br />
-[Screenshots](/Images/Screenshots)<br />
+[Galaxy Logos](/src/Images/GalaxyLogos/index.md)<br />
+[Logos](/src/Images/Logos/index.md)<br />
+[Icons](/src/Images/Icons/index.md)<br />
+[News Graphics](/src/Images/NewsGraphics/index.md)<br />
+[Photos](/src/Images/Photos/index.md)<br />
+[Screenshots](/src/Images/Screenshots/index.md)<br />
 ---
-[/Documents](/Documents)<br />
-[/Datafiles](/Datafiles)<br />
+[/Documents](/src/Documents/index.md)<br />
+[/Datafiles](/src/Datafiles/index.md)<br />
 </div>

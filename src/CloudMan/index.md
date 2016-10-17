@@ -1,13 +1,13 @@
 ---
 autotoc: true
 ---
-<div class='center'>![CloudMan](/Images/GalaxyLogos/cloudman-logo.jpg)</div>
+<div class='center'>![CloudMan](/src/Images/GalaxyLogos/cloudman-logo.jpg)</div>
 
 <br />
 
 <div class='left'></div> PLACEHOLDER_INCLUDE(/CloudMan/LinkBox)
 
-There are several choices for using Galaxy.  This page describes using Galaxy on a *[cloud infrastructure](https://www.tcnp3.com/home/cloud-technology/what-is-cloud-computing-infographic/)* using CloudMan (see below). For other options, see [Choices](/BigPicture/Choices) and [/Cloud](/Cloud).
+There are several choices for using Galaxy.  This page describes using Galaxy on a *[cloud infrastructure](https://www.tcnp3.com/home/cloud-technology/what-is-cloud-computing-infographic/)* using CloudMan (see below). For other options, see [Choices](/BigPicture/Choices) and [/Cloud](/src/Cloud/index.md).
 
 ### About Galaxy on the Cloud
 With sporadic availability of data, individuals and labs may have a need to, over a period of time, process greatly variable amounts of data. Such variability in data volume imposes variable requirements on availability of compute resources used to process given data. Rather than having to purchase and maintain desired compute resources or having to wait a long time for data processing jobs to complete, the Galaxy Team has enabled Galaxy to be instantiated on cloud computing]] infrastructures, primarily [Amazon Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2/). An instance of Galaxy on the Cloud behaves just like a local instance of Galaxy except that it offers the benefits of cloud computing resource availability, scalability and [pay-as-you-go](http://en.wikipedia.org/wiki/Cloud_computing#Economics) resource ownership model. 
@@ -21,10 +21,10 @@ The following is a non-exhaustive list of scenarios when it is beneficial to use
 * Have variable or high requirements for compute or storage resources
 
 ### Getting started with Galaxy on the Cloud
-To start your own *Galaxy in the Cloud* cluster, see the [Getting Started](/CloudMan/GettingStarted) page. This page describes concepts and points to key features of using Galaxy on the Cloud.
+To start your own *Galaxy in the Cloud* cluster, see the [Getting Started](/src/CloudMan/GettingStarted/index.md) page. This page describes concepts and points to key features of using Galaxy on the Cloud.
 
 ### Determining the size of your cloud cluster
-Cloud computing allows your cloud cluster to be variable in size and capacity. See [this page](/CloudMan/CapacityPlanning) for some guidelines on how to decide what is right for you.
+Cloud computing allows your cloud cluster to be variable in size and capacity. See [this page](/src/CloudMan/CapacityPlanning/index.md) for some guidelines on how to decide what is right for you.
 
 ### Customizing your cloud cluster
 If you are interested in running your own version of Galaxy and/or tools on the cloud while utilizing all the automation and functionality provided by CloudMan, [this page](/CloudMan/CustomizeGalaxyCloud) explains how to do it.

@@ -1,13 +1,13 @@
 <div class='newsItemHeader'>[January 27, 2012 Distribution & News Brief](/News/Jan272012 Distribution News Brief)</div>
 
-**Complete [News Brief](/DevNewsBriefs/2012_01_27)**
+**Complete [News Brief](/src/DevNewsBriefs/2012_01_27/index.md)**
 
 **Highlights:**
 
 * Important metadata and Python 2.5 support corrections
 * [SAMtools](http://samtools.sourceforge.net/) upgraded for version 0.1.18. [Mpileup](http://samtools.sourceforge.net/mpileup.shtml) added.
-* Dynamic filtering, easy color options, and quicker indexing enhance [Trackster](/Learn/Visualization)
-* Set up your Galaxy instance to [run cluster jobs as the real user](/Admin/Config/Performance/Cluster), not the Galaxy owner
+* Dynamic filtering, easy color options, and quicker indexing enhance [Trackster](/src/Learn/Visualization/index.md)
+* Set up your Galaxy instance to [run cluster jobs as the real user](/src/Admin/Config/Performance/Cluster/index.md), not the Galaxy owner
 * Improvements to metadata handling and searching in the [/Tool Shed](/Tool Shed)
 * Improved solutions for schema access, jobs management, & workflow imports and inputs.
 * New datatypes (Eland, XML), multiple tool enhancements, and bug fixes.
@@ -22,11 +22,11 @@ upgrade: % hg pull -u -r 26920e20157f
 
 **Thanks for using Galaxy!**
 
-[Jennifer Jackson](/JenniferJackson)
+[Jennifer Jackson](/src/JenniferJackson/index.md)
 
 [/Galaxy Team](/Galaxy Team)
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2012-01-28T02:23:11Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on <<Date(2012-01-28T02:23:11Z)>></div>
 
 CategoryNews

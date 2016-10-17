@@ -6,7 +6,7 @@ title: 2015, /, 02, :,  , [Instalando um servidor do Galaxy Project](https://bis
 
 
 <div class='logbox'>
- Topic:: **[Instalando um servidor do Galaxy Project](/Community/Log/2015/InstalandoServidorGalaxy)**
+ Topic:: **[Instalando um servidor do Galaxy Project](/src/Community/Log/2015/InstalandoServidorGalaxy/index.md)**
  Date:: 2015/02/09
  Who:: [Léo Biscassi](https://biscassi.wordpress.com/quem-sou-eu/)
  Resolution:: [Portuguese Galaxy Documentation](https://biscassi.wordpress.com/category/galaxy-project/)

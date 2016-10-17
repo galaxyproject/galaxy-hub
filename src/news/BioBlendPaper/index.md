@@ -1,7 +1,7 @@
 ---
 date: 2013-05-02T11:48:32Z
 ---
-<div class='newsItemHeader'>[BioBlend Paper in Bioinformatics](/News/BioBlendPaper)</div>
+<div class='newsItemHeader'>[BioBlend Paper in Bioinformatics](/src/News/BioBlendPaper/index.md)</div>
 
 <div class='right'><a href='http://bit.ly/11AuV4O'><img src='/CitingGalaxy/BioinformaticsCover.gif' alt='Bioinformatics' height="125" /></a></div>
 
@@ -14,7 +14,7 @@ a unified API in a high-level language (python) that wraps the functionality of 
 
 Documentation is [available at ReadTheDocs](http://bioblend.readthedocs.org/).  !BioBlend can be installed with [PyPI](https://pypi.python.org/pypi), and the source code is at [GitHub](https://github.com/afgane/bioblend).
 
-[Dave Clements](/DaveClements)
+[Dave Clements](/src/DaveClements/index.md)
 
 
 CategoryNews

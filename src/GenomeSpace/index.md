@@ -59,4 +59,4 @@ enable_openid = True
 
 ### Customizing GenomeSpace
 
-See [/Admin/Config/GenomeSpace](/Admin/Config/GenomeSpace).
+See [/Admin/Config/GenomeSpace](/src/Admin/Config/GenomeSpace/index.md).

@@ -14,7 +14,7 @@ Description of Short Label - should be exactly what this has to do with the subj
 Then any of these potential areas or others. 
 
 This wiki is a good example of a simple, concept specific help page:
-[/Learn/CustomGenomes](/Learn/CustomGenomes)
+[/Learn/CustomGenomes](/src/Learn/CustomGenomes/index.md)
 
 ## Overview
 Good place to put in related wiki links, if part of a group.
@@ -46,9 +46,9 @@ If posted by Galaxy team, use [<Screencast>](/screencast/fake) link. Then title 
 If you are starting or editing a new wiki page and want to maximize the chance that it will be included correctly in a *Galaxy Note* and later in our new category system for organizing the wiki content (coming soon!) - please consider the following **wiki guidelines**:
 
 * follow the best practices on our **[/Wiki Help](/Wiki Help)** and use **Moin Moin**
-* start your page using the transition template: **[/TemplateWikiPageCategory1](/TemplateWikiPageCategory1)**
+* start your page using the transition template: **[/TemplateWikiPageCategory1](/src/TemplateWikiPageCategory1/index.md)**
 * *do not* use spaces in the wiki page name. *do* be specific. *do* use upper/lower case syntax.
-* put your images in the right place: **[/Images](/Images)**
+* put your images in the right place: **[/Images](/src/Images/index.md)**
 * ***write for a scientific audience*** - ask the question, is your content **Specific and Reproducible?**
   * includes comments/links to support any claims
   * uses proper tool names/versions and links to credit tool authors/publications
@@ -65,8 +65,8 @@ If you are starting or editing a new wiki page and want to maximize the chance t
 Space is good. Short is good. One topic = one wiki page.
 <br />
 
-Want to have your content considered for a *[Galaxy Note](/Notes)*? When your done, email us about it at *outreach at galaxyproject.org* with "Galaxy Note Idea" in the subject line.
-* **Important** - this is for **new note suggestions only**. If you have a question about **[Galaxy](/FrontPage)** or a ***Galaxy Note*** or associated content, continue to **send these to one of the [Mailing Lists](/MailingLists)** and just include a link to the Note or wiki.
+Want to have your content considered for a *[Galaxy Note](/src/Notes/index.md)*? When your done, email us about it at *outreach at galaxyproject.org* with "Galaxy Note Idea" in the subject line.
+* **Important** - this is for **new note suggestions only**. If you have a question about **[Galaxy](/FrontPage)** or a ***Galaxy Note*** or associated content, continue to **send these to one of the [Mailing Lists](/src/MailingLists/index.md)** and just include a link to the Note or wiki.
 <br />
 
 *Thanks for using Galaxy!*

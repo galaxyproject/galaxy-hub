@@ -11,7 +11,7 @@ PLACEHOLDER_INCLUDE(/CloudMan/Header)
 
 PLACEHOLDER_INCLUDE(/CloudMan/AWS/LinkBox)
 
-This page provides a step-by-step instructions on how to start your own instance of Galaxy on [Amazon Web Services (AWS)](http://aws.amazon.com/) [Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2/). More general information and instructions about Galaxy CloudMan can be found [here](/CloudMan). 
+This page provides a step-by-step instructions on how to start your own instance of Galaxy on [Amazon Web Services (AWS)](http://aws.amazon.com/) [Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2/). More general information and instructions about Galaxy CloudMan can be found [here](/src/CloudMan/index.md). 
 
 
 
@@ -107,7 +107,7 @@ All of these inbound rules are necessary for proper functioning of CloudMan and 
 
 ** This step is required every time a new cloud instance of Galaxy is desired.**
 
-CloudMan works in a master-worker fashion: the master is used to control all of the needed services as well as worker instances. Worker instances are needed to run analysis jobs submitted through Galaxy that runs on the master instance (for a more detailed description of running Galaxy in cluster environments, see the [cluster performance page](/Admin/Config/Performance/Cluster)). So, in order to start a Galaxy CloudMan cluster, we need to start a master instance. 
+CloudMan works in a master-worker fashion: the master is used to control all of the needed services as well as worker instances. Worker instances are needed to run analysis jobs submitted through Galaxy that runs on the master instance (for a more detailed description of running Galaxy in cluster environments, see the [cluster performance page](/src/Admin/Config/Performance/Cluster/index.md)). So, in order to start a Galaxy CloudMan cluster, we need to start a master instance. 
 
 1. Go to the [AWS Management Console for EC2|target="_blank"](https://console.aws.amazon.com/ec2/home) and click **Launch Instance**
 

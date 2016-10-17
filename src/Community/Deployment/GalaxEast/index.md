@@ -10,7 +10,7 @@ title: [GalaxyEast](http://www.galaxeast.fr)
 
 
 <div class='deploymentbox'>
- Deployment:: **[GalaxyEast](/Community/Deployment/GalaxEast)**
+ Deployment:: **[GalaxyEast](/src/Community/Deployment/GalaxEast/index.md)**
  Domain:: Integrative 'omics data analysis
  Owners:: [IGBMC](http://www.igbmc.fr/), [CNRS](http://www.cnrs.fr/), [Inserm](http://www.inserm.fr/), [Université Strasbourg](http://www.unistra.fr/)
  Audience:: Researchers working with 'omics data 
@@ -23,7 +23,7 @@ title: [GalaxyEast](http://www.galaxeast.fr)
  User Management:: Open to academic users
 </div>
 
-From *[J24: GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](ATTACHMENT_URLDocuments/Posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/Events/ECCB2014) by Stephanie Le Gras, Serge Uge, Matthieu Jung, Ludovic Roy, Valerie Cognat, Frederic Plewniak, Irwin Davidson and Julien Seiler:
+From *[J24: GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](ATTACHMENT_URLDocuments/Posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/Events/ECCB2014/index.md) by Stephanie Le Gras, Serge Uge, Matthieu Jung, Ludovic Roy, Valerie Cognat, Frederic Plewniak, Irwin Davidson and Julien Seiler:
 
 <div class='indent'>
 
@@ -47,7 +47,7 @@ Any academic researcher
 
 The compute infrastructure is described in 
 
- *[J24: GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](ATTACHMENT_URLDocuments/Posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/Events/ECCB2014) by Stephanie Le Gras, Serge Uge, Matthieu Jung, Ludovic Roy, Valerie Cognat, Frederic Plewniak, Irwin Davidson and Julien Seiler
+ *[J24: GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](ATTACHMENT_URLDocuments/Posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/Events/ECCB2014/index.md) by Stephanie Le Gras, Serge Uge, Matthieu Jung, Ludovic Roy, Valerie Cognat, Frederic Plewniak, Irwin Davidson and Julien Seiler
 
 
 ### Compute
@@ -105,8 +105,8 @@ Available in the [GalaxEast Toolshed](http://toolshed.galaxeast.fr/).
 ## Links
 
 * [GalaxEast Server](http://www.galaxeast.fr)
-* [GalaxEast poster](ATTACHMENT_URLDocuments/Posters/2014ECCB_GalaxEast.pdf) from [ECCB'14](/Events/ECCB2014)
+* [GalaxEast poster](ATTACHMENT_URLDocuments/Posters/2014ECCB_GalaxEast.pdf) from [ECCB'14](/src/Events/ECCB2014/index.md)
 * [GalaxEast Toolshed](http://toolshed.galaxeast.fr/)
-* [GalaxEast entry](/PublicGalaxyServers#galaxeast) in [Public Galaxy Servers list](/PublicGalaxyServers)
+* [GalaxEast entry](/PublicGalaxyServers#galaxeast) in [Public Galaxy Servers list](/src/PublicGalaxyServers/index.md)
 
 CategoryDeployment

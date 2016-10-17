@@ -3,7 +3,7 @@ title: Log Entries for 2015
 ---
 
 
-List of [Community Log](/Community/Logs) entries created in 2015.
+List of [Community Log](/src/Community/Logs/index.md) entries created in 2015.
 
 
 

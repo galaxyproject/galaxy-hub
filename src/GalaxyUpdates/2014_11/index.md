@@ -8,7 +8,7 @@ title: November 2014 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the November 2014 *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the November 2014 *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # Thanks!
 
@@ -26,9 +26,9 @@ This was [proposed](/News/IRCPublicLogProposal) and then [discussed, and approve
 
 <div class='left'><a href='/Teach'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="200" /></a></div>
 
-The *[Galaxy Training Network (GTN)](/Teach/GTN)* was [launched October 16](/News/GalaxyTrainingNetwork) with 16 charter member organizations.  The GTN is a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  The GTN aims to make it easy to find [Galaxy trainers](/Teach/Trainers), and to share and discover the wealth of training resources available for Galaxy.  This includes [training materials](/Teach/Resources), a [trainer directory](/Teach/Trainers), [best practices](/Teach/BestPractices), and [guidance on computing platforms](/Teach/ComputingPlatforms) for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
+The *[Galaxy Training Network (GTN)](/Teach/GTN)* was [launched October 16](/News/GalaxyTrainingNetwork) with 16 charter member organizations.  The GTN is a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  The GTN aims to make it easy to find [Galaxy trainers](/Teach/Trainers), and to share and discover the wealth of training resources available for Galaxy.  This includes [training materials](/Teach/Resources), a [trainer directory](/Teach/Trainers), [best practices](/Teach/BestPractices), and [guidance on computing platforms](/src/Teach/ComputingPlatforms/index.md) for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
 
-If you teach with Galaxy, then please consider adding [your organization](/Teach/Trainers#add-a-trainer), [materials](/Teach/Resources#add-a-training-resource), and [best practices](/Teach/BestPractices). Since the GTN launched two weeks ago, 4 new organizations have joined:
+If you teach with Galaxy, then please consider adding [your organization](/Teach/Trainers#add-a-trainer), [materials](/Teach/Resources#add-a-training-resource), and [best practices](/src/Teach/BestPractices/index.md). Since the GTN launched two weeks ago, 4 new organizations have joined:
 
 * [Alberta Children's Hospital Research Institute](http://bit.ly/gxytrnACHRI), Calgary, Canada
 * [Memorial Sloan Kettering Cancer Center, Rätsch Laboratory](http://bit.ly/gxytrnRaetsch), New York City, United States
@@ -66,10 +66,10 @@ The [French IFB Galaxy Working Group](http://www.ifb-galaxy.org/index.html):
 
 <div class='right'><a href='/Events/SG2014'><img src='/Images/Logos/SG2014Logo400.png' alt='Swiss-German Galaxy Tour 2014' width="120" /></a></div>
 
-After the big success of the [first Swiss Galaxy Workshop two years ago](/Events/Switzerland2012), we decided to [organize a similar event](/Events/SG2014) again this fall. This time, we added a [training day](/Events/Switzerland2014/trainingday) prior to the [workshop](/Events/Switzerland2014), and a [developer day](/Events/Germany2014) after the workshop. The first two days were held in Bern (Switzerland), and the third in Freiburg (Germany). Hence we called the whole event: "[Swiss German Galaxy Tour 2014](/Events/SG2014)".  
+After the big success of the [first Swiss Galaxy Workshop two years ago](/Events/Switzerland2012), we decided to [organize a similar event](/src/Events/SG2014/index.md) again this fall. This time, we added a [training day](/Events/Switzerland2014/trainingday) prior to the [workshop](/Events/Switzerland2014), and a [developer day](/Events/Germany2014) after the workshop. The first two days were held in Bern (Switzerland), and the third in Freiburg (Germany). Hence we called the whole event: "[Swiss German Galaxy Tour 2014](/src/Events/SG2014/index.md)".  
 
 More than 40 people registered for the event, signing up for one, two or all three days, ...<br />
-*- [read more](/News/SG2014Report) -*
+*- [read more](/src/News/SG2014Report/index.md) -*
 
 
 ## Fall 2014 GUGGO Events Report
@@ -79,7 +79,7 @@ More than 40 people registered for the event, signing up for one, two or all thr
 Three events were sponsored by the [Galaxy User Group Grand Ouest (GUGGO)](https://www.e-biogenouest.org/groups/guggo) in western France earlier this fall.  Summaries of all 3 events are now available online.
 
 The *[Tools integration on Galaxy Workshop](http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/)* was held 11 September. The [summary](https://www.e-biogenouest.org/resources/1312/about) includes ...<br />
-*- [read more](/News/GUGGOReportFall2014) -*
+*- [read more](/src/News/GUGGOReportFall2014/index.md) -*
 
 ## Other Events
 
@@ -289,20 +289,20 @@ The new papers were tagged in these areas:
 
 The Galaxy is expanding! Please help it grow.
 
-* [Bioinformatician](/News/BioinformaticianFreiburg2014), Max Planck Institute of Immunobiology and Epigenetics, Freiburg, Germany
+* [Bioinformatician](/src/News/BioinformaticianFreiburg2014/index.md), Max Planck Institute of Immunobiology and Epigenetics, Freiburg, Germany
 * [Research Specialist](http://bit.ly/13pqd0T), Michigan State University, United States
 * [Galaxy Workflow Developer](https://www.jic.ac.uk/training-careers/vacancies/2014/10/galaxy-workflow-developer/#), John Innes Centre, Norwich, United Kingdom.  <div class='red'>Closes Nov 5.</span>
 * [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
-* [Statistical Genomics Postdoc](/News/StatisticalGenomicsPostDocPennState) opening in the Makova lab at Penn State
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
+* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
 # New Public Servers
 
-Two new [public Galaxy servers](/PublicGalaxyServers) were added to the published list in October:
+Two new [public Galaxy servers](/src/PublicGalaxyServers/index.md) were added to the published list in October:
 
 ## Majewski Lab Galaxy
 
@@ -334,17 +334,17 @@ The [OSDD Molecular Property Diagnostic Suite (MPDS)](http://mpds.osdd.net/) Gal
 
 <br /><br />
 
-**There were no new [Log Board](/Community/Logs) or [Deployment Catalog](/Community/Deployments) entries in August!**  Eek!  Please don't let this happen again!  
+**There were no new [Log Board](/Community/Logs) or [Deployment Catalog](/src/Community/Deployments/index.md) entries in August!**  Eek!  Please don't let this happen again!  
 
-The *[Community Log Board](/Community/Logs)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/Community/Deployments), or [experience](/Community/Logs) you want to share then please publish them **this month.**
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/Community/Deployments), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
 
 # New Releases
 
-[BioBlend v0.5.2 was released in October](/News/BioBlendV0.5.2).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  
+[BioBlend v0.5.2 was released in October](/News/BioBlendV0.5.2).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  
 
-New versions of [Galaxy](/GalaxyUpdates/2014_09#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/GalaxyUpdates/2014_09#blend4j-011-release) were all released in August.
+New versions of [Galaxy](/GalaxyUpdates/2014_09#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were all released in August.
 
 Look for a new Galaxy distribution in November.
 

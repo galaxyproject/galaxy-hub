@@ -5,39 +5,39 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 ## Core Team
 
 <div class='left center'><a href='/EnisAfgan'><img src='/EnisAfgan.jpg' alt='Enis Afgan' height="150" /></a><br /> 
-[Enis Afgan](/EnisAfgan) <br /> 
+[Enis Afgan](/src/EnisAfgan/index.md) <br /> 
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
 <div class='left center'><a href='/DannonBaker'><img src='dannon.jpg' alt='Dannon Baker' height="150" /></a><br /> 
-[Dannon Baker](/DannonBaker) <br /> 
+[Dannon Baker](/src/DannonBaker/index.md) <br /> 
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
 <div class='left center'><a href='/Dan'><img src='dan.jpg' alt='Dan Blankenberg' height="150" /></a><br />
-[Dan Blankenberg](/Dan) <br />
+[Dan Blankenberg](/src/Dan/index.md) <br />
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='left center'><a href='/DaveBouvier'><img src='/davebouvierflag.jpg' alt='Dave Bouvier' height="150" /></a><br />
-[Dave Bouvier](/DaveBouvier) <br />
+[Dave Bouvier](/src/DaveBouvier/index.md) <br />
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='left center'>
 <a href='/Marten'><img src='marten.jpg' alt='Marten Cech' height="150" /></a><br /> 
-[Martin Cech](/Marten) <br /> 
+[Martin Cech](/src/Marten/index.md) <br /> 
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='left center'>
 <a href='/JohnChilton'><img src='/JohnChiltonSmaller.jpg' alt='John Chilton' height="150" /></a><br />
-[John Chilton](/JohnChilton)<br />
+[John Chilton](/src/JohnChilton/index.md)<br />
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='left center'>
 <a href='/DaveClements'><img src='Clements.jpg' alt='Dave Clements' height="150" /></a><br />
-[Dave Clements](/DaveClements)<br />
+[Dave Clements](/src/DaveClements/index.md)<br />
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
 <div class='left center'>
 <a href='/nate'><img src='nate.jpg' alt='Nate Coraor' height="150" /></a><br />
-[Nate Coraor](/nate)<br />
+[Nate Coraor](/src/nate/index.md)<br />
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='left center'>
@@ -47,41 +47,41 @@ Carl Eberhard <br />
 </div>
 <div class='left center'>
 <a href='/JeremyGoecks'><img src='jgoecks-banff-small.png' alt='Jeremy Goecks' height="150" /></a><br />
-[Jeremy Goecks](/JeremyGoecks)<br />
+[Jeremy Goecks](/src/JeremyGoecks/index.md)<br />
 [George Washington University](http://www.gwu.edu) 
 </div>
 <div class='left center'>
 &nbsp;&nbsp;&nbsp;<a href='/guerler'><img src='/guerler.jpg' alt='Aysam Guerler' height="150" /></a>&nbsp;&nbsp;&nbsp;<br /> 
-[Aysam Guerler](/guerler)<br />
+[Aysam Guerler](/src/guerler/index.md)<br />
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
 <div class='left center'>
 &nbsp;&nbsp;&nbsp;<a href='/MoHeydarian'><img src='/Mo.jpg' alt='Aysam Guerler' height="150" /></a>&nbsp;&nbsp;&nbsp;<br /> 
-[Mo Heydarian](/MoHeydarian)<br />
+[Mo Heydarian](/src/MoHeydarian/index.md)<br />
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
 <div class='left center'>
 <a href='/JenniferJackson'><img src='/jenhjackson.png' alt='Jen Jackson' height="150" /></a><br />
-[Jennifer Hillman Jackson](/JenniferJackson)<br />
+[Jennifer Hillman Jackson](/src/JenniferJackson/index.md)<br />
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='left center'>
 <a href='/DelphineLariviere'><img src='/DelphineLariviere.jpg' alt='DelphineLariviere' height="150" /></a><br />
-[Delphine Lariviere](/DelphineLariviere)<br />
+[Delphine Lariviere](/src/DelphineLariviere/index.md)<br />
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='left center'>
 <a href='/fubar'><img src='ross.jpg' alt='Ross Lazarus' height="150" /></a><br />
-[Ross Lazarus](/fubar)<br /><br />
+[Ross Lazarus](/src/fubar/index.md)<br /><br />
 </div>
 <div class='left center'>
 ![Rémi Marenco](Remi.jpg)<br />
-[Rémi Marenco](/RemiMarenco)<br />
+[Rémi Marenco](/src/RemiMarenco/index.md)<br />
 [George Washington University](http://www.gwu.edu) 
 </div>
 <div class='left center'>
 <a href='/anton'><img src='anton.jpg' alt='Anton Nekrutenko' height="150" /></a><br />
-[Anton Nekrutenko](/anton)<br />
+[Anton Nekrutenko](/src/anton/index.md)<br />
 [Penn State](http://www.bx.psu.edu) 
 </div>
 <div class='left center'>
@@ -91,12 +91,12 @@ Carl Eberhard <br />
 </div>
 <div class='left center'>
 <a href='/JamesTaylor'><img src='james.jpg' alt='James Taylor' height="150" /></a><br />
-[James Taylor](/JamesTaylor)<br />
+[James Taylor](/src/JamesTaylor/index.md)<br />
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
 <div class='left center'>
 <a href='/NiteshTuraga'><img src='nitesh.jpg' alt='Nitesh Turaga' height="150" /></a><br />
-[Nitesh Turaga](/NiteshTuraga)<br />
+[Nitesh Turaga](/src/NiteshTuraga/index.md)<br />
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
 
@@ -154,7 +154,7 @@ Carl Eberhard <br />
 </div>
 <div class='left center'>
 ![Greg von Kuster](greg.jpg)<br /> 
-[Greg von Kuster](/greg_vonkuster)
+[Greg von Kuster](/src/greg_vonkuster/index.md)
 </div>
 <div class='left center'>
 ![Yousef Kowsar](/yousef.jpg)<br />

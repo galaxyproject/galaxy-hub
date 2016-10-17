@@ -55,8 +55,8 @@ My pre-bioinformatics career included
 
 ## Publications
 
-* [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](http://nar.oxfordjournals.org/content/44/W1/W3.full). *Nucleic Acids Research* (2016) doi: 10.1093/nar/gkw343. [Enis Afgan](/EnisAfgan), [Dannon Baker](/DannonBaker), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Daniel Blankenberg](/Dan), [Dave Bouvier](/DaveBouvier), [Martin Čech](/Marten), [John Chilton](/JohnChilton), [Dave Clements](/DaveClements), [Nate Coraor](/nate), [Carl Eberhard](/CarlEberhard), [Björn Grüning](/BjoernGruening), [Aysam Guerler](/guerler), [Jennifer Hillman-Jackson](/JenniferJackson), [Greg Von Kuster](/greg_vonkuster), [Eric Rasche](https://github.com/erasche), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Nitesh Turaga](/NiteshTuraga), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton), and [Jeremy Goecks](/JeremyGoecks)
-* [Using Galaxy to Perform Large-Scale Interactive Data Analyses](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html), in  *Current Protocols in Bioinformatics*. 2012 June: Unit 10.5. [Jennifer Hillman-Jackson](/JenniferJackson), [Dave Clements](/DaveClements), [Daniel Blankenberg](/Dan), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton), [Galaxy Team](/GalaxyTeam)
+* [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](http://nar.oxfordjournals.org/content/44/W1/W3.full). *Nucleic Acids Research* (2016) doi: 10.1093/nar/gkw343. [Enis Afgan](/EnisAfgan), [Dannon Baker](/DannonBaker), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Daniel Blankenberg](/Dan), [Dave Bouvier](/DaveBouvier), [Martin Čech](/Marten), [John Chilton](/JohnChilton), [Dave Clements](/DaveClements), [Nate Coraor](/nate), [Carl Eberhard](/CarlEberhard), [Björn Grüning](/BjoernGruening), [Aysam Guerler](/guerler), [Jennifer Hillman-Jackson](/JenniferJackson), [Greg Von Kuster](/greg_vonkuster), [Eric Rasche](https://github.com/erasche), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Nitesh Turaga](/NiteshTuraga), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton), and [Jeremy Goecks](/src/JeremyGoecks/index.md)
+* [Using Galaxy to Perform Large-Scale Interactive Data Analyses](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html), in  *Current Protocols in Bioinformatics*. 2012 June: Unit 10.5. [Jennifer Hillman-Jackson](/JenniferJackson), [Dave Clements](/DaveClements), [Daniel Blankenberg](/Dan), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton), [Galaxy Team](/src/GalaxyTeam/index.md)
 * [The Chado Natural Diversity module: a new generic database schema for large-scale phenotyping and genotyping data](http://database.oxfordjournals.org/content/2011/bar051.full), in *[Database](http://database.oxfordjournals.org/)*, 2011; doi: 10.1093/database/bar051, Sook Jung; Naama Menda; Seth Redmond; Robert M. Buels; Maren Friesen; Yuri Bendana; Lacey-Anne Sanderson; Hilmar Lapp; Taein Lee; Bob !MacCallum; Kirstin E. Bett; Scott Cain; Dave Clements; Lukas A. Mueller; Dorrie Main
 * [Organization of the pronephric kidney revealed by large-scale gene expression mapping](http://genomebiology.com/2008/9/5/R84); in *[Genome Biology](http://genomebiology.com/2008/9/5/)*, 2008, 9:R84. Daniela Raciti, Luca Reggiani, Lars Geffers, Qiuhong Jiang, Francesca Bacchion, Astrid E Subrizi, Dave Clements, Christopher Tindal, Duncan R Davidson, Brigitte Kaissling, and André W Brändli
 * [A high-resolution anatomical ontology of the developing murine genitourinary tract](http://dx.doi.org/10.1016/j.modgep.2007.03.002); in *[Gene Expression Patterns](http://www.elsevier.com/locate/modgep)*, 7(6), pp. 680-699 (June 2007). Melissa H. Little, Jane Brennan, Kylie Georgas, Jamie A. Davies, Duncan R. Davidson, Richard A. Baldock, Annemiek Beverdam, John F. Bertram, Blanche Capel, Han Sheng Chiu, Dave Clements, Luise Cullen-!McEwen, Jean Fleming, Thierry Gilbert, Doris Herzlinger, Derek Houghton, Matt H. Kaufman, Elena Kleymenova, Peter A. Koopman, Alfor G. Lewis, Andrew P. !McMahon, Cathy L. Mendelsohn, Eleanor K. Mitchell, Bree A. Rumballe, Derina E. Sweeney, M. Todd Valerius, Gen Yamada, Yiya Yang and Jing Yu
@@ -74,22 +74,22 @@ My pre-bioinformatics career included
 
 * [2017 Galaxy Community Conference (GCC2017)](https://gcc2017.sciencesconf.org/), June 26-30, 2017, Montpellier, France
 * [Galaxy AustralAsia Meeting (GAMe 2017)](http://www.embl-abr.org.au/GAMe2017), February 3-9, 2017, Melbourne, Australia
-* [Galaxy Admin Training 2016](/Events/AdminTraining2016), November 7-11, 2016, Salt Lake City, Utah, United States
+* [Galaxy Admin Training 2016](/src/Events/AdminTraining2016/index.md), November 7-11, 2016, Salt Lake City, Utah, United States
 * [2016 Galaxy Community Conference (GCC2016)](https://gcc2016.iu.edu/index.php), June 25-29, 2016, Bloomington, Indiana, United States
 * [International Plant and Animal Genome XIV (PAGXIV)](http://www.intlpag.org/2016/), Computer Demonstration Track, January 9-13, 2016, San Diego, California, United States
 * [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/), Norwich, United Kingdom
 * [International Plant and Animal Genome XIII (PAGXIII)](http://www.intlpag.org/2015/), Computer Demonstration Track, January 10-14, 2015, San Diego, California, United States
-* [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014), June 30 - July 2, 2014, Baltimore, Maryland, United States
-  * [GalaxyAdmins Birds of a Feather Meetup](/Events/GCC2014/BoFs/GalaxyAdmins)
-* [May 2014 UK Galaxy Workshop Tour](/Events/UKMay2014), May 6-12, 2014, Norwich and Edinburgh, United Kingdom
-* [2013 Research Triangle Workshop Tour](/Events/RTWorkshopTour2013), May 18-22, 2013, Research Triangle Area, North Carolina, United States
-* [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013), June 30 - July 2, 2013, Oslo, Norway
-  * [GalaxyAdmins Birds of a Feather Meetup](/Events/GCC2013/BoF/GalaxyAdmins)
-  * [Public Galaxy Server Birds of a Feather Meetup](/Events/GCC2013/BoF/PublicGalaxyServers)
-* [Missouri Workshop Tour 2013](/Events/MissouriWorkshopTour2013), April 29 - May 2, 2013, St. Louis and Columbia, Missouri, United States
+* [2014 Galaxy Community Conference (GCC2014)](/src/Events/GCC2014/index.md), June 30 - July 2, 2014, Baltimore, Maryland, United States
+  * [GalaxyAdmins Birds of a Feather Meetup](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md)
+* [May 2014 UK Galaxy Workshop Tour](/src/Events/UKMay2014/index.md), May 6-12, 2014, Norwich and Edinburgh, United Kingdom
+* [2013 Research Triangle Workshop Tour](/src/Events/RTWorkshopTour2013/index.md), May 18-22, 2013, Research Triangle Area, North Carolina, United States
+* [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/index.md), June 30 - July 2, 2013, Oslo, Norway
+  * [GalaxyAdmins Birds of a Feather Meetup](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md)
+  * [Public Galaxy Server Birds of a Feather Meetup](/src/Events/GCC2013/BoF/PublicGalaxyServers/index.md)
+* [Missouri Workshop Tour 2013](/src/Events/MissouriWorkshopTour2013/index.md), April 29 - May 2, 2013, St. Louis and Columbia, Missouri, United States
 
-* [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012), July 25-27, Chicago, Illinois, United States
-  * [Bioinformatics Training and Teaching with Galaxy Breakout Session](/Events/GCC2012/Program/Breakouts/BioinformaticsTraining)
+* [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md), July 25-27, Chicago, Illinois, United States
+  * [Bioinformatics Training and Teaching with Galaxy Breakout Session](/src/Events/GCC2012/Program/Breakouts/BioinformaticsTraining/index.md)
 * [2011 Galaxy Community Conference (GCC2011)](http://galaxyproject.org/gcc2011/Home.html), May 25-26, 2011, Lunteren, The Netherlands
 * [GMOD Americas 2011](http://gmod.org/wiki/GMOD_Americas_2011), March 5-12, 2011, Durham, North Carolina, United States 
   * [GMOD Satellite Meetings](http://gmod.org/wiki/Satellite_Meetings_-_GMOD_Americas_2011), March 7
@@ -445,9 +445,9 @@ My pre-bioinformatics career included
 * *[Transparent, accessible, reproducible analysis with Galaxy](http://genetics.cmc-uct.co.za/)* at the [South African Genetics & Bioinformatics Society Conference](http://genetics.cmc-uct.co.za/), Stellenbosch University, South Africa, September 2012
 * *[Galaxy Workshop](http://genetics.cmc-uct.co.za/?page_id=79)* at the [University of Pretoria](http://web.up.ac.za/default.asp?ipkCategoryID=17741) and [Stellenbosch University](http://www.sun.ac.za/), South Africa, September 2012
 * *Galaxy Installation Workshop* at the [http://gmod.org/wiki/2012 GMOD Summer School](http://gmod.org/wiki/2012 GMOD Summer School),[US National Evolutionary Synthesis Center (NESCent)](http://nescent.org), Durham, North Carolina, United States  
-* *Introduction to Galaxy Workshops* at [University of Maryland College Park](/Events/UMaryland2012), [Johns Hopkins University](/Events/JohnsHopkins2012), [Univeristy of Iowa](/Events/Uiowa2012), and [Iowa State University](/Events/IowaState2012), April 2012
+* *Introduction to Galaxy Workshops* at [University of Maryland College Park](/Events/UMaryland2012), [Johns Hopkins University](/Events/JohnsHopkins2012), [Univeristy of Iowa](/Events/Uiowa2012), and [Iowa State University](/src/Events/IowaState2012/index.md), April 2012
 * *[CloudMan Workshop](ATTACHMENT_URLDocuments/Presentations/2012GMODGalaxyCloudmanWorkshop.pdf)*,  *[Galaxy Project Update](ATTACHMENT_URLDocuments/Presentations/2012GMODGalaxyUpdate.pdf)*, and  *[Community Building lightning talk](ATTACHMENT_URLDocuments/Presentations/2012GMODCommunityLightning.pdf)* at [April 2012 GMOD Meeting](http://gmod.org/wiki/April 2012 GMOD Meeting), Washington DC, United States, April 2012
-* *[Galaxy](ATTACHMENT_URLDocuments/Presentations/2012PAGGalaxy.pdf)* at [PAG 2012](/Events/PAG2012), San Diego, California, United States, January 2012<br />Intro to Galaxy; most of this talk was a live demo.
+* *[Galaxy](ATTACHMENT_URLDocuments/Presentations/2012PAGGalaxy.pdf)* at [PAG 2012](/src/Events/PAG2012/index.md), San Diego, California, United States, January 2012<br />Intro to Galaxy; most of this talk was a live demo.
 
 ### 2011
 

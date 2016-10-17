@@ -13,7 +13,7 @@ Please help get the word out about the [2014 Galaxy Community Conference (GCC201
 
 The conference logos are available in several sizes.
 
-<div class='left center'>![](/Images/Logos/GCC2014LogoTall200.png) &nbsp; ![](/Images/Logos/GCC2014TDLogo300.png)
+<div class='left center'>![](/Images/Logos/GCC2014LogoTall200.png) &nbsp; ![](/src/Images/Logos/GCC2014TDLogo300.png)
 ![](/Images/Logos/GCC2014BoFLogo200.png)
 ![](/Images/Logos/GCC2014HackLogo200.png)
 </div>
@@ -63,4 +63,4 @@ The GCC2014 Logo was designed by Mayela Lopez of [Mayela Lopez Designs](http://w
 
 # Twitter Hashtag
 
-Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitter hashtag](/GalaxyOnTwitter) for the meeting. The obvious choice of #gcc2014 is already well used by several other events.
+Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitter hashtag](/src/GalaxyOnTwitter/index.md) for the meeting. The obvious choice of #gcc2014 is already well used by several other events.

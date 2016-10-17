@@ -15,7 +15,7 @@ title: The May 2015 Galactic News, !
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the May 2015 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[These newsletters](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the May 2015 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[These newsletters](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 # New Papers
 
@@ -31,7 +31,7 @@ Welcome to the May 2015 *[Galactic News](/GalaxyUpdates)*, a summary of what is 
     Halfdan Rydbeck, Geir Kjetil K. Sandve, Egil Ferkingstad, Boris Simovski, Morten Rye, Eivind Hovig, *PloS one*, Vol. 10, No. 4. (2015)
 
 * [StructureFold: Genome-wide RNA secondary structure mapping and reconstruction in vivo](http://dx.doi.org/10.1093/bioinformatics/btv213)
-    Yin Tang, [Emil Bouvier](/DaveBouvier), Chun Kit Kwok, Yiliang Ding, [Anton Nekrutenko](/anton), Philip C. Bevilacqua, and Sarah M. Assmann, *Bioinformatics* (16 April 2015), btv213, doi:10.1093/bioinformatics/btv213
+    Yin Tang, [Emil Bouvier](/DaveBouvier), Chun Kit Kwok, Yiliang Ding, [Anton Nekrutenko](/src/anton/index.md), Philip C. Bevilacqua, and Sarah M. Assmann, *Bioinformatics* (16 April 2015), btv213, doi:10.1093/bioinformatics/btv213
 
 
 The new papers were tagged with:
@@ -130,7 +130,7 @@ On-time [poster abstract submission](http://gcc2015.tsl.ac.uk/Abstracts) **close
 
 The [community-fund@lists.galaxyproject.org](Galaxy Community Fund Board) is pleased to offer [registration](http://gcc2015.tsl.ac.uk/registration) and [lodging](http://gcc2015.tsl.ac.uk/logistics/#Lodging) scholarships for [GCC2015](http://gcc2015.tsl.ac.uk/) for students and post-docs who are based in the United States, and who are members of historically underrepresented groups in life science research.
 
-See the [full announcement](/News/GCC2015Scholarships) for further details. 
+See the [full announcement](/src/News/GCC2015Scholarships/index.md) for further details. 
 
 <div class='left'><br />
 <a href='http://gcc2015.tsl.ac.uk/keynote-speaker/'><img src='/Events/GCC2015/oliver_stegle.jpg' alt='Oliver Stegle will present the keynote address at GCC2015' width="100" /></a></div>
@@ -144,7 +144,7 @@ Dr Stegle is featured in a [Young Investigator Profile](https://www.genomeweb.co
 
 ### Other Events Near GCC2015
 
-Looking to extend your trip?  There are also **[at least 7 other events](/News/NearGCC2015)** going on in the British Isles in the week before and week after GCC2015, including events
+Looking to extend your trip?  There are also **[at least 7 other events](/src/News/NearGCC2015/index.md)** going on in the British Isles in the week before and week after GCC2015, including events
 
 <div class='right'><a href='/News/NearGCC2015'><img src='/News/NearGCC2015/MatrixSnap.png' alt='Events nearby GCC2015' width="150" /></a></div>
 
@@ -164,7 +164,7 @@ Looking to extend your trip?  There are also **[at least 7 other events](/News/N
 * [OpenBio Codefest 2015](http://www.open-bio.org/wiki/Codefest_2015)
 * [ISMB / EECB 2015](http://www.iscb.org/ismbeccb2015) including [BOSC 2015](http://www.open-bio.org/wiki/BOSC_2015) and [BioVis 2015](http://www.biovis.net/)
 
-See the [Events Aplenty Near GCC2015](/News/NearGCC2015) news item for dates and deadlines.
+See the [Events Aplenty Near GCC2015](/src/News/NearGCC2015/index.md) news item for dates and deadlines.
 
 ### GCC2015 Sponsorships
 
@@ -196,11 +196,11 @@ Please let the [organisers|GCC2015 Organising Committee](http://gcc2015.tsl.ac.u
 
 <div class='right'><a href='/Community/GalaxyAdmins/Meetups/2015_04_16'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup April 16' width="150" /></a></div>
 
-[Slides and video](/Community/GalaxyAdmins/Meetups/2015_04_16) from the [April GalaxyAdmins online meetup](/Community/GalaxyAdmins/Meetups/2015_04_16) are now available. [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote) from the [National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/) and [Pervasive Technology Institute](http://pti.iu.edu/) at [Indiana University](http://iu.edu/) presented her Galaxy work with [Trinity](http://trinityrnaseq.github.io/), IU Galaxy, and the [Open Science Grid](http://www.opensciencegrid.org/).  [Sam Guerler](/guerler) of the Galaxy Project talked about Galaxy'a new tool form support. 
+[Slides and video](/Community/GalaxyAdmins/Meetups/2015_04_16) from the [April GalaxyAdmins online meetup](/Community/GalaxyAdmins/Meetups/2015_04_16) are now available. [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote) from the [National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/) and [Pervasive Technology Institute](http://pti.iu.edu/) at [Indiana University](http://iu.edu/) presented her Galaxy work with [Trinity](http://trinityrnaseq.github.io/), IU Galaxy, and the [Open Science Grid](http://www.opensciencegrid.org/).  [Sam Guerler](/src/guerler/index.md) of the Galaxy Project talked about Galaxy'a new tool form support. 
 
 *Please join us for the [next GalaxyAdmins meetup on June 18](/Community/GalaxyAdmins/Meetups/2015_06_18)* when [Peter Briggs](http://galacticengineer.blogspot.co.uk/) of the [University of Manchester](http://www.manchester.ac.uk/) will speak on *Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester*.  GalaxyAdmins will also have an in-person meetup at GCC2015.
 
-[GalaxyAdmins](/Community/GalaxyAdmins) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
+[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
 
 ## Other Events
 
@@ -385,9 +385,9 @@ The Galaxy is expanding! Please help it grow.
 * [Software Developer / Bioinformatician](http://bit.ly/1HVpxk3) at EMBL, Heidelberg. Closes 25 May
 * [Computational Metabolomics Professor](https://psu.jobs/job/55363), Penn State University, Pennsylvania, United States
 * [Software Developer for the Refinery Team](https://jobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1118216&PartnerId=25240&SiteId=5341&type=mail&JobReqLang=1&recordstart=1&JobSiteId=5341&JobSiteInfo=1118216_5341&gqid=0), Boston, Massachusetts, United States
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -429,14 +429,14 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <br />
 
-One new [Community Log Board](/Community/Logs) entry was added in April:
+One new [Community Log Board](/src/Community/Logs/index.md) entry was added in April:
 
-* [Using GALAXY_SLOTS with multithreaded Galaxy tools ](/Community/Log/2015/GalaxySlots)
+* [Using GALAXY_SLOTS with multithreaded Galaxy tools ](/src/Community/Log/2015/GalaxySlots/index.md)
     by [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)
 
-And one new [Training Resource](/Teach/Resources):
+And one new [Training Resource](/src/Teach/Resources/index.md):
 
-* [Differential Expression with Tuxedo](/Teach/Resource/TuxedoDE) 
+* [Differential Expression with Tuxedo](/src/Teach/Resource/TuxedoDE/index.md) 
     by [Cynthia Gibas](http://bioinformatics.uncc.edu/directory/gibas-cynthia)
 
 ---
@@ -467,14 +467,14 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 ## Others
  **Galaxy v15.03**
-   The [most recent Galaxy release is V 15.03](/DevNewsBriefs/2015_03), released in March. 
+   The [most recent Galaxy release is V 15.03](/src/DevNewsBriefs/2015_03/index.md), released in March. 
 
  **CloudMan **
-   The [most recent edition of CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release) was released in August.
+   The [most recent edition of CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release) was released in August.
 
  **!BioBlend V0.5.3**
-   [BioBlend v0.3](/News/BioBlendV0.5.3) was also released in March.<br />
-   [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  (CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
+   [BioBlend v0.3](/src/News/BioBlendV0.5.3/index.md) was also released in March.<br />
+   [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  (CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
 
  **blend4j v0.1.2**
    [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and !BioCloudCentral.
@@ -495,4 +495,4 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 # ToolShed Contributions
 
-See [list of tools contributed in April](/ToolShed/Contributions/2015_04).
+See [list of tools contributed in April](/src/ToolShed/Contributions/2015_04/index.md).

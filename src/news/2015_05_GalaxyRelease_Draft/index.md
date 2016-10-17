@@ -20,7 +20,7 @@ PLACEHOLDER_INCLUDE(/Admin/GetGalaxy/Short)
 
 
 *Thanks for using Galaxy!* <br />
-[The Galaxy Team](/GalaxyTeam)
+[The Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

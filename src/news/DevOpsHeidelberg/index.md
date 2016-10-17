@@ -1,7 +1,7 @@
 ---
 date: 2016-03-17T20:21:12Z
 ---
-<div class='newsItemHeader'>[Galaxy DevOps Workshop - Heidelberg](/News/DevOpsHeidelberg)</div>
+<div class='newsItemHeader'>[Galaxy DevOps Workshop - Heidelberg](/src/News/DevOpsHeidelberg/index.md)</div>
 
 We would like to invite you to our **[Galaxy DevOps Workshop](https://goo.gl/8dNSdy)** in Heidelberg from 6-7 of April, organised by [de.NBI](https://www.denbi.de/) and [ELIXIR](https://www.elixir-europe.org/).
 
@@ -23,7 +23,7 @@ The workshop is intended for Bioinformaticians who want to
 
 For more information please see the [workshop page](https://goo.gl/8dNSdy).
 
-[Björn Grüning](/BjoernGruening)
+[Björn Grüning](/src/BjoernGruening/index.md)
 
 
 CategoryNews

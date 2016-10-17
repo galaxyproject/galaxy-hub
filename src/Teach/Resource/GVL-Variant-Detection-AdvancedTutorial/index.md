@@ -10,7 +10,7 @@ title: [GVL Variant Detection Advanced Tutorial](https://docs.google.com/documen
 
 
 <div class='deploymentbox'>
- Resource:: **[GVL Variant Detection Advanced Tutorial](/Teach/Resource/GVL-Variant-Detection-AdvancedTutorial)**
+ Resource:: **[GVL Variant Detection Advanced Tutorial](/src/Teach/Resource/GVL-Variant-Detection-AdvancedTutorial/index.md)**
  Types:: Tutorial
  Domains:: **Variation** 
  Owners:: [Genomics Virtual Lab](https://genome.edu.au/wiki/About) by [University of Queensland, ](http://www.uq.edu.au) [Victorian Life Sciences Computation Initiative, ](http://www.vlsci.org.au/) [Queensland Facility for Advanced Bioinformatics, ](http://www.qfab.org//) and [Garvan Institute](http://www.garvan.org.au/)
@@ -18,7 +18,7 @@ title: [GVL Variant Detection Advanced Tutorial](https://docs.google.com/documen
  Date:: 2013/06 
 </div>
 
-[|This tutorial](https://docs.google.com/document/pub?id=1CuKkKylVDb03tnN7RSWl5EUzleetn0ctjmvaidPKLxM) runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/PublicGalaxyServers) specifically for learning bioinformatics analysis.
+[|This tutorial](https://docs.google.com/document/pub?id=1CuKkKylVDb03tnN7RSWl5EUzleetn0ctjmvaidPKLxM) runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/PublicGalaxyServers/index.md) specifically for learning bioinformatics analysis.
 
 In this tutorial we compare the performance of three statistically-based variant detection tools:
 * SAMtools: Mpileup

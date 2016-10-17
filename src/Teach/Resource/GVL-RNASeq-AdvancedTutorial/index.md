@@ -10,7 +10,7 @@ title: GVL RNA, -, seq Differential Gene Expression Advanced Tutorial
 
 
 <div class='deploymentbox'>
- Resource:: **[GVL RNA-seq Differential Gene Expression Advanced Tutorial](/Teach/Resource/GVL-RNASeq-AdvancedTutorial)**
+ Resource:: **[GVL RNA-seq Differential Gene Expression Advanced Tutorial](/src/Teach/Resource/GVL-RNASeq-AdvancedTutorial/index.md)**
  Types:: Tutorial
  Domains:: **RNA-Seq** 
  Owners:: [Genomics Virtual Lab](https://genome.edu.au/wiki/About) by [University of Queensland, ](http://www.uq.edu.au) [Victorian Life Sciences Computation Initiative, ](http://www.vlsci.org.au/) [Queensland Facility for Advanced Bioinformatics, ](http://www.qfab.org//) and [Garvan Institute](http://www.garvan.org.au/)
@@ -18,7 +18,7 @@ title: GVL RNA, -, seq Differential Gene Expression Advanced Tutorial
  Date:: 2013/06 
 </div>
 
-This tutorial runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/PublicGalaxyServers) specifically for learning bioinformatics analysis.
+This tutorial runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/PublicGalaxyServers/index.md) specifically for learning bioinformatics analysis.
 
 In this tutorial we compare the performance of three statistically-based differential expression tools:
 * CuffDiff

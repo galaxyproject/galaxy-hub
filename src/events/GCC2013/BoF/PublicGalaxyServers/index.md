@@ -10,9 +10,9 @@ PLACEHOLDER_INCLUDE(/Events/GCC2013/BoF/LinkBox)
 
 <div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
 
-This page describes the **Public Galaxy Servers** [Birds of a Feather](/Events/GCC2013/BoF) meetup being held at [GCC2013](/Events/GCC2013).
+This page describes the **Public Galaxy Servers** [Birds of a Feather](/Events/GCC2013/BoF) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
 
-The BoF is for people who maintain, manage, or are otherwise responsible for [publicly accessible Galaxy servers](/PublicGalaxyServers).  By *publicly accessible*, we mean that anyone regardless of location or affiliation can do work on that Galaxy server.  (Servers can have quotas, require an account to be created, etc.)
+The BoF is for people who maintain, manage, or are otherwise responsible for [publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md).  By *publicly accessible*, we mean that anyone regardless of location or affiliation can do work on that Galaxy server.  (Servers can have quotas, require an account to be created, etc.)
 
 We'll cover topics that are relevant to public sites, including
 
@@ -24,15 +24,15 @@ We'll cover topics that are relevant to public sites, including
 
 ## When and Where
 
-The [tentative time and location](/Events/GCC2013/BoF#bof-schedule) for this BoF is Sunday evening, [at the Escape Pub](/Events/GCC2013/Program#escape-to-the-pub).  The [Training Day](/Events/GCC2013/TrainingDay) ends at 17:00; lets start around 5:30pm.
+The [tentative time and location](/Events/GCC2013/BoF#bof-schedule) for this BoF is Sunday evening, [at the Escape Pub](/Events/GCC2013/Program#escape-to-the-pub).  The [Training Day](/src/Events/GCC2013/TrainingDay/index.md) ends at 17:00; lets start around 5:30pm.
 
 
 ## Who is Participating
 
 If you are interested, please add your name below and/or send an email to [clements AT galaxyproject DOT org](Dave Clements).
 
-* [Dave Clements](/DaveClements), Galaxy Project
-* [Dorine Francheteau](/GalaxyTeam), Galaxy Project
+* [Dave Clements](/src/DaveClements/index.md), Galaxy Project
+* [Dorine Francheteau](/src/GalaxyTeam/index.md), Galaxy Project
 * Eric Kuyt, Central Veterinary Institute of Wageningen UR (CVI)
 * Jacqueline Lee, University of Calgary
 * Ron Horst, University of Queensland, Australia
@@ -45,7 +45,7 @@ If you are interested, please add your name below and/or send an email to [cleme
 
 ## Notes
 
-The nominal organizer of the BoF wanted this to be a discussion of issues that are specific to [publicly accessible Galaxy](/PublicGalaxyServers) servers (an admittedly hard thing to define - servers that are accessible to everyone at a large university aren't public *per se*, but they face almost all of the same issues.)
+The nominal organizer of the BoF wanted this to be a discussion of issues that are specific to [publicly accessible Galaxy](/src/PublicGalaxyServers/index.md) servers (an admittedly hard thing to define - servers that are accessible to everyone at a large university aren't public *per se*, but they face almost all of the same issues.)
 
 However the group had other plans and the session became about "Feature requests for things that really need to be addressed."
 

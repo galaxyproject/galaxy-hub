@@ -66,7 +66,7 @@ for class inheritance:
 
 
 2) **has_dataprovider**: testing if the attribute of a data_source/model has a specific
-[DataProvider](/DataProviders):
+[DataProvider](/src/DataProviders/index.md):
 ```xml
 <test type="has_dataprovider" test_attr="datatype">node-edge</test>
 ```
@@ -173,7 +173,7 @@ Besides the `param` attributes above, the following are also available:
   be parsed using `type` and sent to the template
 
 Any parameters defined in the `params` section of your config file are available here. In addition, other variables
-are available (see [/VisualizationsRegistry/Code](/VisualizationsRegistry/Code) for more info).
+are available (see [/VisualizationsRegistry/Code](/src/VisualizationsRegistry/Code/index.md) for more info).
 
 
 ## Other configuration options

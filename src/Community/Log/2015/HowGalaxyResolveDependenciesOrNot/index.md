@@ -1,14 +1,14 @@
 ---
 title: 2015, /, 10, :,  , [How Galaxy resolves dependencies (or not)](http://pvh.wp.sanbi.ac.za/2015/10/09/how-galaxy-resolves-dependencies-or-not/)
 ---
-<div class='center'>![South African National Bioinformatics Institute (SANBI)](/Images/Logos/SANBI_bioinf_logo.jpg)</div>
+<div class='center'>![South African National Bioinformatics Institute (SANBI)](/src/Images/Logos/SANBI_bioinf_logo.jpg)</div>
 
 
 
 
 
 <div class='logbox'>
- Topic:: **[How Galaxy resolves tool dependencies (or not)](/Community/Log/2015/HowGalaxyResolveDependenciesOrNot)**
+ Topic:: **[How Galaxy resolves tool dependencies (or not)](/src/Community/Log/2015/HowGalaxyResolveDependenciesOrNot/index.md)**
  Date:: 2015/10/09
  Who:: [Peter van Heusden](https://github.com/pvanheus/)
  Resolution:: Explanation of Galaxy's tool dependency definitions that specify how to source the actual packages that implement the tool’s commands.

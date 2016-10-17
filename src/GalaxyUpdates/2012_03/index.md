@@ -8,7 +8,7 @@ title: March 2012 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the March 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the March 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Papers
 
@@ -41,14 +41,14 @@ There were [28 papers added to the Galaxy CiteULike group](http://www.citeulike.
 
 
 ## Who's Hiring
-<div class='right'>![Please Help!  Yes you!](/Images/Icons/PointingFinger.png)</div>
+<div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
 The Galaxy is expanding!  Please help it grow.
 
-* The [Galaxy Project is hiring](/GalaxyIsHiring) post-docs and software engineers at Emory and Penn State.
-* [Bioinformatics Analyst @ U Virgina Bioinformatics Core](/News/BioinformaticsAnalystAtUVa)
-* [Bioinformatician / Sr. Database Developer @ GigaScience / BGI Hong Kong](/News/OpeningAtGigaScienceBGI)
+* The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs and software engineers at Emory and Penn State.
+* [Bioinformatics Analyst @ U Virgina Bioinformatics Core](/src/News/BioinformaticsAnalystAtUVa/index.md)
+* [Bioinformatician / Sr. Database Developer @ GigaScience / BGI Hong Kong](/src/News/OpeningAtGigaScienceBGI/index.md)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -122,24 +122,24 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 
 <div class='right'><a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="100" /></a><br /><br /><a href='/Events/GCC2012/TrainingDay'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' width="130" /></a></div>
 
-* The [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) will be held July 25-27, in Chicago.  
+* The [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) will be held July 25-27, in Chicago.  
 * The conference will feature two full days of presentations and discussions.  
 * [Abstract submission](/Events/GCC2012/Abstracts) opened February 13, and will [close April 16](/Events/GCC2012/Key Dates).  
-* A [whole day of training](/Events/GCC2012/TrainingDay) has been added, and topics set:
-  * [Introduction to Galaxy](/Events/GCC2012/TrainingDay#ws2)
-  * [Installing Your Own Galaxy](/Events/GCC2012/TrainingDay#ws5)
-  * [Galaxy CloudMan](/Events/GCC2012/TrainingDay#ws3)
-  * [Integrating Tools & Data Sources](/Events/GCC2012/TrainingDay#ws1)
-  * [Galaxy API](/Events/GCC2012/TrainingDay#ws6)
-  * [Galaxy Tool Shed](/Events/GCC2012/TrainingDay#ws7)
-  * [Ion Torrent - Open Source Sequencing](/Events/GCC2012/TrainingDay#ws10)
-* Early [registration](/Events/GCC2012/Register) will open **any day now** and close June 11. 
+* A [whole day of training](/src/Events/GCC2012/TrainingDay/index.md) has been added, and topics set:
+  * [Introduction to Galaxy](/src/Events/GCC2012/TrainingDay/index.md#ws2)
+  * [Installing Your Own Galaxy](/src/Events/GCC2012/TrainingDay/index.md#ws5)
+  * [Galaxy CloudMan](/src/Events/GCC2012/TrainingDay/index.md#ws3)
+  * [Integrating Tools & Data Sources](/src/Events/GCC2012/TrainingDay/index.md#ws1)
+  * [Galaxy API](/src/Events/GCC2012/TrainingDay/index.md#ws6)
+  * [Galaxy Tool Shed](/src/Events/GCC2012/TrainingDay/index.md#ws7)
+  * [Ion Torrent - Open Source Sequencing](/src/Events/GCC2012/TrainingDay/index.md#ws10)
+* Early [registration](/src/Events/GCC2012/Register/index.md) will open **any day now** and close June 11. 
 
 ## Tool Shed Contributions
 
 At least 8 new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) in February, including 
 * CREST (Clipping REveals STructure): maps somatic structural variation in cancer genomes
-* MACS 1.4 ChIP-Seq peak calling ([/Main](/Main) has 1.3)
+* MACS 1.4 ChIP-Seq peak calling ([/Main](/src/Main/index.md) has 1.3)
 * java_genomics_toolkit: NGS, especially WIG transformations (add/log/Z-score/etc) and visualization (KMeans/heatmaps)
 * mrFAST and mrsFAST: map Illumina short reads to reference assemblies; fast and memory-efficient 
 * mrCaNaVaR: Read depth analysis method to characterize segmental duplications & predict absolute copy numbers
@@ -151,6 +151,6 @@ At least 8 new repositories were added to the [Galaxy Tool Shed](http://toolshed
 * [Tutorial: Using the UCSC Genome Browser and Galaxy to study regulatory sequence evolution in Drosophila](http://bergmanlab.smith.man.ac.uk/?p=1248), by [Casey Berman](http://www.ls.manchester.ac.uk/people/profile/?personid=235)
 * [Notes on installing Galaxy](http://biocoders.net/2012/02/20/guest-post-notes-on-installing-galaxy/) by [Paul-Michael Agapow](http://biocoders.net/members/agapow/)
 
-**Galaxy-Announce now the default for new users on [/Main](/Main)**
+**Galaxy-Announce now the default for new users on [/Main](/src/Main/index.md)**
 
-Newly registered users on [/Main](/Main), the Galaxy project's public server, who check "Subscribe to a mailing list" at registration time, are now subscribed to the moderated and low-volume [Galaxy-Announce mailing list](/MailingLists), instead of the high-volume, and sometimes overwhelming [Galaxy-User](/MailingLists) list.  This change was also made in the Galaxy source.
+Newly registered users on [/Main](/Main), the Galaxy project's public server, who check "Subscribe to a mailing list" at registration time, are now subscribed to the moderated and low-volume [Galaxy-Announce mailing list](/src/MailingLists/index.md), instead of the high-volume, and sometimes overwhelming [Galaxy-User](/src/MailingLists/index.md) list.  This change was also made in the Galaxy source.

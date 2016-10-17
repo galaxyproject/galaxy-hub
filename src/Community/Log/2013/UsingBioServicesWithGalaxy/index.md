@@ -4,7 +4,7 @@ title: 2013, /, 10, :,  Using , [BioServices](http://pythonhosted.org/bioservice
 
 
 <div class='logbox'>
- Topic:: **[Using BioServices Python Library with Galaxy](/Community/Log/2013/UsingBioServicesWithGalaxy)**
+ Topic:: **[Using BioServices Python Library with Galaxy](/src/Community/Log/2013/UsingBioServicesWithGalaxy/index.md)**
  Date:: 2013/10/12
  Who:: [Thomas Cokelaer](http://www.ebi.ac.uk/about/people/thomas-cokelaer)
  Resolution:: Shows how to link !BioServices and Galaxy.

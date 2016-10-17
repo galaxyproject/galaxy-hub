@@ -140,7 +140,7 @@ All repositories dependencies and tool dependencies that are defined for each re
 <br />
 # Data
 
-1. **Megablast** indexes for the divisions `nt`, `htgs`, and `wgs` have been updated on the public [/Main](/Main) Galaxy server dated `28jan2013`.
+1. **Megablast** indexes for the divisions `nt`, `htgs`, and `wgs` have been updated on the public [/Main](/src/Main/index.md) Galaxy server dated `28jan2013`.
 2. **NGS Data Set-up** wiki updated and simplified. [View here...](http://wiki.galaxyproject.org/Admin/NGS Local Setup)
 3. **Rsync** server hosts download of the same `.loc` files used by the Galaxy team (to be used as additional examples, or starter files if you use our rsync reference genome data. [Read more...](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)
 
@@ -225,7 +225,7 @@ If you might attend the [GCC2013 Training Day](/Events/GCC2013/TrainingDay) then
 
 ### Registration, Talk & Poster Submission Opens 22 February
 
-[Early Registration](/Events/GCC2013/Register), and [talk and poster abstract submission](/Events/GCC2013/Abstracts) all [open 22 February](/Events/GCC2013/KeyDates).  Watch the mailing lists and this wiki for details.
+[Early Registration](/Events/GCC2013/Register), and [talk and poster abstract submission](/Events/GCC2013/Abstracts) all [open 22 February](/src/Events/GCC2013/KeyDates/index.md).  Watch the mailing lists and this wiki for details.
 
 ---
 <br />

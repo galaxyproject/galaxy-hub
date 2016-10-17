@@ -15,7 +15,7 @@ title: Galactic December News, !
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
-Welcome to the December 2015 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. 
+Welcome to the December 2015 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. 
 
 If you have anything to include in the next News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
 
@@ -24,7 +24,7 @@ If you have anything to include in the next News, please send it to [outreach AT
 **81** new papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in November. Highlights include:
 
 * [Genomics Virtual Laboratory: A Practical Bioinformatics Workbench for the Cloud](http://dx.doi.org/10.1371/journal.pone.0140829)
-    by [Enis Afgan](/EnisAfgan), Clare Sloggett, Nuwan Goonasekera *et al.*, *PloS One*, Vol. 10, No. 10. (2015)
+    by [Enis Afgan](/src/EnisAfgan/index.md), Clare Sloggett, Nuwan Goonasekera *et al.*, *PloS One*, Vol. 10, No. 10. (2015)
 
 * [Cost-Aware Cloud Provisioning](http://dx.doi.org/10.1109/escience.2015.67)
     by Ryan Chard, Kyle Chard, Kris Bubendorfer, Lukasz Lacinski, Ravi Madduri, Ian Foster, In e-Science (e-Science), 2015 IEEE 11th International Conference on (August 2015), pp. 136-144, doi:10.1109/escience.2015.67
@@ -239,12 +239,12 @@ The Galaxy is expanding! Please help it grow.
 
 * [intégration d'outils phylogénétiques dans Galaxy](http://bit.ly/1NYrSdI), [ANSES Ploufragan](https://www.anses.fr/en/node/50284), Unité de Génétique Virale et Biosécurité, France
 * [Computational Biologist / Bioinformatician](http://www.jobs.ac.uk/job/AMJ391/computational-biologist-bioinformatician/), [The Sainsbury Laboratory](http://www.tsl.ac.uk/), Norwich, UK.
-* [Software Engineer](/News/SoftwareEngineerOHSU), Oregon Health Sciences University, Portland, Oregon, United States
+* [Software Engineer](/src/News/SoftwareEngineerOHSU/index.md), Oregon Health Sciences University, Portland, Oregon, United States
 * [Software Developer / Bioinformatician](https://ig14.i-grasp.com/fe/tpl_embl01.asp?s=4A515F4E5A565B1A&jobid=54309,8734341283&key=64564906&c=342372129814&pagestamp=seqbdpnrnmbvdpxtgb), European Molecular Biology Laboratory (EMBL), Heidelberg, Germany
     Closes 13 December 2015.
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -252,7 +252,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[Two new publicly accessible Galaxy servers](/PublicGalaxyServers) were added in November, bringing the total precipitously close to 80.
+[Two new publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) were added in November, bringing the total precipitously close to 80.
 
 ## Galaxy Integrated Omics (GIO)
 
@@ -331,7 +331,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 <div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="150" /></a></div>
 
 <div class='indent'>
-   This is the most complete update of the Galaxy on the Cloud platform to date with all the cloud components being built from the ground up. See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a complete set of changes or just give it a try: see the all new [Getting Started](/CloudMan/GettingStarted) documentation. 
+   This is the most complete update of the Galaxy on the Cloud platform to date with all the cloud components being built from the ground up. See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a complete set of changes or just give it a try: see the all new [Getting Started](/src/CloudMan/GettingStarted/index.md) documentation. 
 </div>
 
  **Security Advisories**
@@ -378,7 +378,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 # ToolShed Contributions
 
-See [list of tools contributed in October and November](/ToolShed/Contributions/2015_11).
+See [list of tools contributed in October and November](/src/ToolShed/Contributions/2015_11/index.md).
 
 
 ---
@@ -396,6 +396,6 @@ See [list of tools contributed in October and November](/ToolShed/Contributions/
 * From [Björn Grüning](https://twitter.com/bjoerngruening):
     The [Galaxy Docker Image](https://github.com/bgruening/docker-galaxy-stable/tree/dev) has gained TravisCI testing. !BioBlend will test all functionality and tool installation. 
 * Updated documentation:
-  * [The source code of Galaxy](/Develop/SourceCode)
-  * [Galaxy Job Configuration](/Admin/Config/Jobs)
+  * [The source code of Galaxy](/src/Develop/SourceCode/index.md)
+  * [Galaxy Job Configuration](/src/Admin/Config/Jobs/index.md)
   * [Datatypes](/Learn/Datatypes)

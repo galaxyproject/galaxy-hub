@@ -8,7 +8,7 @@ title: April 2012 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the April 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the April 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Papers
 
@@ -46,16 +46,16 @@ These were among [28 papers added to the Galaxy CiteULike group](http://www.cite
 
 
 ## Who's Hiring
-<div class='right'>![Please Help!  Yes you!](/Images/Icons/PointingFinger.png)</div>
+<div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
 The Galaxy is expanding!  Please help it grow.
 
-* The [Galaxy Project is hiring](/GalaxyIsHiring) post-docs and software engineers at Emory and Penn State.
+* The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs and software engineers at Emory and Penn State.
 * [Computational Biologist, Harvard School of Public Health](http://www.iscb.org/index.php?option=com_content&view=article&id=380&Itemid=162&lqm_job_id=2910)
 * [Computational Genomics Specialists, Smithsonian Institution, Washington, DC](http://www.nature.com/naturejobs/science/jobs/249645-Computational-Genomics-Specialists)
 * [Bioinformatician @ U Edinburgh](http://www.jobs.ed.ac.uk/vacancies/index.cfm?fuseaction=vacancies.detail&vacancy_ref=3015457)
 * [Bioinformatics Analyst @ U Virginia](http://jobs.virginia.edu/applicants/Central?quickFind=66485)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -67,7 +67,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 <div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
 
-There are April application deadlines for EMBL-EBI Summer Bioinformatics School and Plant Bioinformatics Course; abstract deadlines for InCoB, DILS, BOSC, ISMB Tech Track, and [GCC2012](/Events/GCC2012/Abstracts); and an early registration deadline for BITS.
+There are April application deadlines for EMBL-EBI Summer Bioinformatics School and Plant Bioinformatics Course; abstract deadlines for InCoB, DILS, BOSC, ISMB Tech Track, and [GCC2012](/src/Events/GCC2012/Abstracts/index.md); and an early registration deadline for BITS.
 
 See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com) for details on these and other events.
 
@@ -141,15 +141,15 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 
 <div class='right'><a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="100" /></a><br /><br /><a href='/Events/GCC2012/TrainingDay'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' width="130" /></a></div>
 
-* The [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) will be held July 25-27, in Chicago.  
-* **The [abstract submission deadline is April 16](/Events/GCC2012/Abstracts).**
-* **[Early registration](/Events/GCC2012/Register) is now open.**
+* The [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) will be held July 25-27, in Chicago.  
+* **The [abstract submission deadline is April 16](/src/Events/GCC2012/Abstracts/index.md).**
+* **[Early registration](/src/Events/GCC2012/Register/index.md) is now open.**
 * The conference will feature two full days of presentations and discussions.  
-* A [whole day of training](/Events/GCC2012/TrainingDay) is also scheduled
+* A [whole day of training](/src/Events/GCC2012/TrainingDay/index.md) is also scheduled
 
 ## Tool Shed Contributions
 
-At least *15* new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) since the last [Galaxy Update](/GalaxyUpdates), including 
+At least *15* new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) since the last [Galaxy Update](/src/GalaxyUpdates/index.md), including 
 * EMBER: analysis technique for inferring the genes regulated by transcription factor. 
 * hmmer: hmmscan/hmmsearch as one tool, plus hmmpress
 * RNA SEQ by Expectation Maximization (RSEM).
@@ -168,7 +168,7 @@ At least *15* new repositories were added to the [Galaxy Tool Shed](http://tools
 
 ## New Distribution
 
-There has been one [Galaxy distribution](/DevNewsBriefs) in the past month.  The [most recent release (March 12)](/DevNewsBriefs/2012_03_12), includes these highlights:
+There has been one [Galaxy distribution](/DevNewsBriefs) in the past month.  The [most recent release (March 12)](/src/DevNewsBriefs/2012_03_12/index.md), includes these highlights:
 * **Emboss tools and datatypes** moving from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)* in the **NEXT release**. Read more about the upcoming **[tool migrations...](/Tool Shed#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)**
 * Galaxy tool [XML configuration](/Tool Shed#xml_configuration_files_used_to_populate_your_galaxy_tool_panel), managing [tool panel layout](/Tool Shed#managing_the_layout_of_your_galaxy_tool_panel), and Galaxy [tool versions](/Tool Shed#galaxy_tool_versions).
 * **RNA-Seq Tools:** Added **[CuffMerge](http://cufflinks.cbcb.umd.edu/)** version 1.0.0, Updated **[TopHat](http://tophat.cbcb.umd.edu/)** default parameters
@@ -183,11 +183,11 @@ There has been one [Galaxy distribution](/DevNewsBriefs) in the past month.  The
 * [Analyzing epigenome data in context of genome evolution and human diseases](http://www.springerlink.com/content/l2184206p7583v75/), by  Feuerbach, *et al.*
 * [Analyzing Complete Genomics masterVar File through Galaxy](http://media.completegenomics.com/documents/Galaxy_demo_PDF.pdf), by [Complete Genomics](http://www.completegenomics.com/recordings/) (only viewable in Adobe Reader)
 
-**HTTPS is now the default for [/Main](/Main)**
+**HTTPS is now the default for [/Main](/src/Main/index.md)**
 
-The Galaxy Project's public server ([usegalaxy.org](http://usegalaxy.org), "[/Main](/Main)") now uses HTTPS, the encrypted version of HTTP for all communication.
+The Galaxy Project's public server ([usegalaxy.org](http://usegalaxy.org), "[/Main](/src/Main/index.md)") now uses HTTPS, the encrypted version of HTTP for all communication.
 
-**New Style for [/Main](/Main)**
+**New Style for [/Main](/src/Main/index.md)**
 
 Have you noticed?  [usegalaxy.org](http://usegalaxy.org/) has a new style.
 

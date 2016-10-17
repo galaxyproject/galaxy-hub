@@ -1,7 +1,7 @@
 ---
 date: 2012-11-05T16:55:59Z
 ---
-<div class='newsItemHeader'>[November 2012 GalaxyAdmins](/News/2012_11GalaxyAdmins)</div>
+<div class='newsItemHeader'>[November 2012 GalaxyAdmins](/src/News/2012_11GalaxyAdmins/index.md)</div>
 
 <div class='right'><a href='/Community/GalaxyAdmins/Meetups/2012_11_14'><img src='/Images/Logos/GalaxyAdmins.png' alt='November 2012 GalaxyAdmins Meetup' width="160" /></a> </div>
 
@@ -33,7 +33,7 @@ The [next meeting](/Community/GalaxyAdmins/Meetups/2012_11_14) of the [GalaxyAdm
 
 <br />
 
-[GalaxyAdmins](/Community/GalaxyAdmins) is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
+[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
 
 Srinivas Maddhi
 

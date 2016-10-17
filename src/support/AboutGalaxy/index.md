@@ -4,15 +4,15 @@ title: Support, :,  About Galaxy
 <div class='right'>PLACEHOLDER_INCLUDE(/Support/LinkBox)</div>
 
 <div class='right'><a href='http://galaxyproject.org'><img src='/Images/Screenshots/GalaxyProjectOrg.png' alt='GalaxyProject.org' width="300" /></a></div>
-Back to [/Support](/Support)
+Back to [/Support](/src/Support/index.md)
 ## Galaxy is an open, web-based platform for data intensive biomedical research.
 <br />
-**[Galaxy](/FrontPage)**'s goal is to be *accessible*, *reproducible*, and *transparent*. 
+**[Galaxy](/src/FrontPage)**'s goal is to be *accessible*, *reproducible*, and *transparent*. 
 * **Accessible:** Users without programming experience can easily specify parameters and run tools and workflows.
 * **Reproducible:** Galaxy captures information so that any user can repeat and understand a complete computational analysis.
 * **Transparent:** Users share and publish analyses via the web and create Pages, interactive, web-based documents that describe a complete analysis.
 
-There are many [Choices](/BigPicture/Choices) when you want to learn more **[about using Galaxy](/Support/AboutGalaxy)**!
+There are many [Choices](/BigPicture/Choices) when you want to learn more **[about using Galaxy](/src/Support/AboutGalaxy/index.md)**!
 
 In addition to using the [public Galaxy server](http://usegalaxy.org), you can also install your [own instance of Galaxy](/Admin/GetGalaxy), or create an [instance of Galaxy on the cloud using CloudMan](/CloudMan) and explore all [/Cloud](/Cloud) resources.  Another option is to use one of the ever-increasing number of [/Public Galaxy Servers](/Public Galaxy Servers) hosted by other organizations. And if you or your lab is looking to run their own local instance that is "ready-to-go", learn more about the [Slipstream Appliance: Galaxy Edition](http://www.bioteam.net/slipstream/galaxy-edition).
 
@@ -20,7 +20,7 @@ The GALAXY Framework at the highest level is a set of reusable software componen
 
 <br />
 <div class='left'><a href='http://usegalaxy.org'><img src='/Images/Logos/GalaxyLogoHighRes.png' alt='UseGalaxy.org' width="200" /></a></div>
-[Galaxy Project](/GalaxyProject) • [Big Picture](/BigPicture) • [/Community](/Community) • [Get Galaxy](/Admin/GetGalaxy) • [/CloudMan](/CloudMan) • [Tool Shed](/ToolShed) • [/Develop](/Develop) • [News Briefs](/DevNewsBriefs) • [Servers](/PublicGalaxyServers) • [/Learn](/Learn) • [/Support](/Support) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/News) • [Twitter](/GalaxyOnTwitter) • [/Events](/Events) • [/Teach](/Teach) • [/Issues](/Issues) • [Cite](/CitingGalaxy) • [About Galaxy](/Support/AboutGalaxy) • [Galaxy Team](/GalaxyTeam)
+[Galaxy Project](/GalaxyProject) • [Big Picture](/BigPicture) • [/Community](/Community) • [Get Galaxy](/Admin/GetGalaxy) • [/CloudMan](/CloudMan) • [Tool Shed](/ToolShed) • [/Develop](/Develop) • [News Briefs](/DevNewsBriefs) • [Servers](/PublicGalaxyServers) • [/Learn](/Learn) • [/Support](/Support) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/News) • [Twitter](/GalaxyOnTwitter) • [/Events](/Events) • [/Teach](/Teach) • [/Issues](/Issues) • [Cite](/CitingGalaxy) • [About Galaxy](/Support/AboutGalaxy) • [Galaxy Team](/src/GalaxyTeam/index.md)
 <br />
 <br />
 <br />

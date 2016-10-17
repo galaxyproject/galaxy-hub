@@ -15,7 +15,7 @@ title: The June 2015 Galactic News, !
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the June 2015 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[These newsletters](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the June 2015 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[These newsletters](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 # New Papers
 
@@ -123,7 +123,7 @@ You can also submit [late oral presentation submissions](http://gcc2015.tsl.ac.u
 
 ### Other Events Near GCC2015
 
-Looking to extend your trip?  There are also **[at least 7 other events](/News/NearGCC2015)** going on in the British Isles in the week before and week after GCC2015, including events
+Looking to extend your trip?  There are also **[at least 7 other events](/src/News/NearGCC2015/index.md)** going on in the British Isles in the week before and week after GCC2015, including events
 
 <div class='right'><a href='/News/NearGCC2015'><img src='/News/NearGCC2015/MatrixSnap.png' alt='Events nearby GCC2015' width="150" /></a></div>
 
@@ -138,9 +138,9 @@ Looking to extend your trip?  There are also **[at least 7 other events](/News/N
 
  In Dublin
 * [OpenBio Codefest 2015](http://www.open-bio.org/wiki/Codefest_2015)
-* [ISMB / EECB 2015](http://www.iscb.org/ismbeccb2015) including [BOSC 2015](http://www.open-bio.org/wiki/BOSC_2015) and [BioVis 2015](http://www.biovis.net/) and [lots of Galaxy content](/Events/ISMB2015).
+* [ISMB / EECB 2015](http://www.iscb.org/ismbeccb2015) including [BOSC 2015](http://www.open-bio.org/wiki/BOSC_2015) and [BioVis 2015](http://www.biovis.net/) and [lots of Galaxy content](/src/Events/ISMB2015/index.md).
 
-See the [Events Aplenty Near GCC2015](/News/NearGCC2015) news item for dates and deadlines.
+See the [Events Aplenty Near GCC2015](/src/News/NearGCC2015/index.md) news item for dates and deadlines.
 
 <div class='right'>
 <br />
@@ -190,9 +190,9 @@ Please join us for the [next GalaxyAdmins meetup on June 18](/Community/GalaxyAd
 
  **Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester**
 
-GalaxyAdmins will also have an [in-person meetup at GCC2015](/Events/GCC2015/BoFs/GalaxyAdmins).
+GalaxyAdmins will also have an [in-person meetup at GCC2015](/src/Events/GCC2015/BoFs/GalaxyAdmins/index.md).
 
-[GalaxyAdmins](/Community/GalaxyAdmins) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
+[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
 
 ## Other Events
 
@@ -376,9 +376,9 @@ The Galaxy is expanding! Please help it grow.
 * [Post-Doc CDD-IR CEA-Institut de Génomique](http://bit.ly/1Pbd9gk), Evry, France 
     Application deadline extended to 2015/06/30
 * [Computational Metabolomics Professor](https://psu.jobs/job/55363), Penn State University, Pennsylvania, United States
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -386,7 +386,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-The [VirAmp](http://viramp.com/) server was added to the [list of public Galaxy servers](/PublicGalaxyServers) in May:
+The [VirAmp](http://viramp.com/) server was added to the [list of public Galaxy servers](/src/PublicGalaxyServers/index.md) in May:
 
 ## VirAmp
 
@@ -420,7 +420,7 @@ The [VirAmp](http://viramp.com/) server was added to the [list of public Galaxy 
 The release notes have a new home at **[Read the Docs](http://galaxy.readthedocs.org/en/master/releases/15.05_announce.html)**. We hope that you like the new format as much as we do!
 
 *Thanks for using Galaxy!* <br />
-[The Galaxy Team](/GalaxyTeam)
+[The Galaxy Team](/src/GalaxyTeam/index.md)
 
 ## Pulsar 0.5.0
 
@@ -445,11 +445,11 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 ## Others
  **CloudMan **
-   The [most recent edition of CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release) was released in August.
+   The [most recent edition of CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release) was released in August.
 
  **!BioBlend V0.5.3**
-   [BioBlend v0.3](/News/BioBlendV0.5.3) was also released in March.<br />
-   [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  (CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
+   [BioBlend v0.3](/src/News/BioBlendV0.5.3/index.md) was also released in March.<br />
+   [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  (CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
 
  **blend4j v0.1.2**
    [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and !BioCloudCentral.
@@ -470,4 +470,4 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 # ToolShed Contributions
 
-See [list of tools contributed in May](/ToolShed/Contributions/2015_05).
+See [list of tools contributed in May](/src/ToolShed/Contributions/2015_05/index.md).

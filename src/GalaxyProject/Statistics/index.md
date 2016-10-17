@@ -1,7 +1,7 @@
 ---
 autotoc: true
 ---
-This page contains statistics about the [Galaxy Project](/GalaxyProject).  This page is updated every January and July, or whenever the project has a grant due, or whenever an advisory board meeting is set to occur.
+This page contains statistics about the [Galaxy Project](/src/GalaxyProject/index.md).  This page is updated every January and July, or whenever the project has a grant due, or whenever an advisory board meeting is set to occur.
 
 
 
@@ -187,7 +187,7 @@ Active here means "visited", as defined by Biostar.
 Membership in and traffic on Galaxy's [/Mailing Lists](/Mailing Lists) has seen steady increase over time.  Several milestones have contributed to this and affected membership and posting.
 
 * 2011/12: Galaxy-Announce list launched.
-* 2012/02: Default mailing list for newly registered users on [usegalaxy.org](/Main) was switched from Galaxy-User to Galaxy-Announce in mid 2012/02. At the same time a link to the other lists was also added to the registration form.
+* 2012/02: Default mailing list for newly registered users on [usegalaxy.org](/src/Main/index.md) was switched from Galaxy-User to Galaxy-Announce in mid 2012/02. At the same time a link to the other lists was also added to the registration form.
 * 2012/08: Galaxy-France list launched.
 * 2013/06: Galaxy-Proteomics list launched.
 * 2014/04: Most of Galaxy-User traffic moved to the [Galaxy Biostar online forum](https://biostar.usegalaxy.org).
@@ -485,7 +485,7 @@ Galaxy-Announce is omitted here as it is a moderated, announcement-only list. *N
 
 ## Main Usage
 
-[/Main](/Main) is the Galaxy project's publicly available Galaxy server.
+[/Main](/src/Main/index.md) is the Galaxy project's publicly available Galaxy server.
 
 <a href='https://docs.google.com/spreadsheets/d/199EduADjqo5F-MS9eGUW1pPmzskuYyPv5PJAwEDAVcs/pubchart?oid=2&format=interactive'><img src='/MainUserJobPerMonth.png' alt='User Jobs on Usegalaxy.org per month' width="1000" /></a>
 
@@ -495,7 +495,7 @@ Galaxy-Announce is omitted here as it is a moderated, announcement-only list. *N
 
 ## Known Publicly Accessible Servers
 
-Most [local installations of Galaxy](/Admin/GetGalaxy) are private.  However, some are not and we do keep a list of known [Public Galaxy Servers](/PublicGalaxyServers).  These servers allow public access, although sometimes with restrictions.  This is not an absolute count, but it is a rough measure of the trend.
+Most [local installations of Galaxy](/Admin/GetGalaxy) are private.  However, some are not and we do keep a list of known [Public Galaxy Servers](/src/PublicGalaxyServers/index.md).  These servers allow public access, although sometimes with restrictions.  This is not an absolute count, but it is a rough measure of the trend.
 
 <table>
   <tr class="th" >
@@ -555,7 +555,7 @@ Most [local installations of Galaxy](/Admin/GetGalaxy) are private.  However, so
 
 # Publications / Citations
 
-A Galaxy [/CiteULike](/CiteULike) group was started in late 2011.  It lists all the publications that are about, reference, or mention Galaxy that we know about.  We started keeping track of this statistic partway through 2011, so it is an undercount for that year and previous years.  For years after 2011, it is likely to be more accurate, but it is still approximate and likely to be an undercount.
+A Galaxy [/CiteULike](/src/CiteULike/index.md) group was started in late 2011.  It lists all the publications that are about, reference, or mention Galaxy that we know about.  We started keeping track of this statistic partway through 2011, so it is an undercount for that year and previous years.  For years after 2011, it is likely to be more accurate, but it is still approximate and likely to be an undercount.
 
 As of August 2016 these are the tags on papers in the Galaxy CiteULike Group:
 
@@ -1076,7 +1076,7 @@ The [Galaxy Project Tool Shed](http://toolshed.g2.bx.psu.edu/) contains contribu
 
 # Twitter
 
-The Galaxy project started to [use Twitter](/GalaxyOnTwitter) on a regular basis in February 2011.  Since then, the number of followers has climbed steadily.
+The Galaxy project started to [use Twitter](/src/GalaxyOnTwitter/index.md) on a regular basis in February 2011.  Since then, the number of followers has climbed steadily.
 
 <div class='center'>
 <a href='https://docs.google.com/spreadsheets/d/1L3U_EyYanORYmVQmlCNZ6SQlmeGIpf85aPGwK0SzhZI/pubchart?oid=659865406&format=interactive'><img src='/TwitterFollowersOverTime.png' alt='Twitter followers over time'  /></a>
@@ -1088,13 +1088,13 @@ The Galaxy project started to [use Twitter](/GalaxyOnTwitter) on a regular basis
 
 | Event/Year |  Location  |  # Registered  | 
 | ---------- | --------- | ------------- | 
-| [GDC2010](/Events/GDC2010) |  Cold Spring Harbor, New York, United States  |  69  | 
-| [GCC2011](/Events/GCC2011) |  Lunteren, The Netherlands  |  148  | 
-| [GCC2012](/Events/GCC2012) |  Chicago, Illinois, United States  |  203  | 
-| [GCC2013](/Events/GCC2013) |  Oslo, Norway  |  219  | 
-| [GCC2014](/Events/GCC2014) |  Baltimore, Maryland, United States  |  214  | 
+| [GDC2010](/src/Events/GDC2010/index.md) |  Cold Spring Harbor, New York, United States  |  69  | 
+| [GCC2011](/src/Events/GCC2011/index.md) |  Lunteren, The Netherlands  |  148  | 
+| [GCC2012](/src/Events/GCC2012/index.md) |  Chicago, Illinois, United States  |  203  | 
+| [GCC2013](/src/Events/GCC2013/index.md) |  Oslo, Norway  |  219  | 
+| [GCC2014](/src/Events/GCC2014/index.md) |  Baltimore, Maryland, United States  |  214  | 
 | [GCC2015](http://gcc2015.tsl.ac.uk/) |  Norwich, United Kingdom  |  230  | 
-| [GCC2016](/Events/GCC2016) |  Bloomington, Indiana, United States  |  206  | 
+| [GCC2016](/src/Events/GCC2016) |  Bloomington, Indiana, United States  |  206  | 
 | [GCC2017](https://gcc2017.sciencesconf.org/) |  Montpellier, France  |  ?  | 
 
 ## Galaxy Community Conference Feedback
@@ -1123,4 +1123,4 @@ The Galaxy Project runs a lot of workshops.  Whenever possible we collect feedba
 ![Number of vetted Galaxy wiki editors over time ](/VettedWikiEditors.png)
 </div>
 
-This is an undercount of registered community members as not all logins can be verified.  The process of vetting was semi-automated on 2012/04/08, thanks to help from [/ToriR](/ToriR).
+This is an undercount of registered community members as not all logins can be verified.  The process of vetting was semi-automated on 2012/04/08, thanks to help from [/ToriR](/src/ToriR/index.md).

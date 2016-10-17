@@ -20,7 +20,7 @@ Log files are available for problem diagnosis. Each launched instance (master or
 | */mnt/galaxy/galaxy-app/main.log* |  This is the main Galaxy application log file. It is also available from the !CloudMan Admin page.  | 
 </div>
 Note that the !CloudMan application log file locations have changed with the Mid 2015 release; for the locations of log files on older instances, see [this page](http://cloudman.irb.hr/blog/2013/03/06/cloudman-startup-procedure/).<br />
-For log files of individual services running within the system, see the page specific to the [particular service](/CloudMan/Services). 
+For log files of individual services running within the system, see the page specific to the [particular service](/src/CloudMan/Services/index.md). 
 
 ### Connect to Galaxy database
 Your cloud cluster is configured with a PostgreSQL database for use by Galaxy. By default, the database is stored in `/mnt/galaxy/db` and is available on port 5930. To connect to the database, switch to the *galaxy* system user and connect to it with the following command: `psql -p 5930`

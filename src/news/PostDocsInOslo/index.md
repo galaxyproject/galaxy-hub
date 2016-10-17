@@ -1,7 +1,7 @@
 ---
 date: 2014-05-27T20:10:15Z
 ---
-<div class='newsItemHeader'>[Integrative Genomics PostDocs in Oslo](/News/PostDocsInOslo)</div>
+<div class='newsItemHeader'>[Integrative Genomics PostDocs in Oslo](/src/News/PostDocsInOslo/index.md)</div>
 
 <div class='center'><a href='http://uio.easycruit.com/vacancy/1192725/64145?iso=no'><img src='/Images/Logos/GenomicHyperBrowserWide.png' alt='Two postdoc positions' width="80%" /></a>
 </div>

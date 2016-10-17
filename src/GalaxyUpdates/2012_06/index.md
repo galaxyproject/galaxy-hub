@@ -8,7 +8,7 @@ title: June 2012 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the June 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the June 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Public Server: GWIPS-Viz
 
@@ -33,16 +33,16 @@ Many thanks to the [LAboratory of Post-Transcriptional control and bioInformatic
 
 <div class='right'><a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="140" /></a></div>
 
-* The [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) will be held July 25-27, in Chicago.  
-* Three new topics have been added to the [GCC2012 Training Day](/Events/GCC2012/TrainingDay):
-  1. [RNA-Seq Analysis with Galaxy](/Events/GCC2012/TrainingDay#ws9)
-  2. [Variant and SNP Analysis with Galaxy](/Events/GCC2012/TrainingDay#ws8)
-  3. [Galaxy Code Architecture](/Events/GCC2012/TrainingDay#ws4)
-* The [GCC2012 Training Day](/Events/GCC2012/TrainingDay)
-  1. Has less capacity than the 2 days of the [main meeting](/Events/GCC2012/Program), and 
-  2. So far, everyone who has [registered](/Events/GCC2012/Register) for the main meeting has also registered for the Training Day.
-* Cheap rooms in the [James Stuckel Towers](/Events/GCC2012/Logistics#james-stuckel-towers) on the UIC campus (and adjacent to the [conference venue](/Events/GCC2012/Logistics#venue)) are going fast.
-* A [draft schedule](/Events/GCC2012/Program) for all 3 days of the conference has been published. This includes [12 Training Day sessions](/Events/GCC2012/TrainingDay) on [10 different topics](/Events/GCC2012/TrainingDay#workshops), and over 25 presentations by Galaxy Community and Galaxy Team members.
+* The [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) will be held July 25-27, in Chicago.  
+* Three new topics have been added to the [GCC2012 Training Day](/src/Events/GCC2012/TrainingDay/index.md):
+  1. [RNA-Seq Analysis with Galaxy](/src/Events/GCC2012/TrainingDay/index.md#ws9)
+  2. [Variant and SNP Analysis with Galaxy](/src/Events/GCC2012/TrainingDay/index.md#ws8)
+  3. [Galaxy Code Architecture](/src/Events/GCC2012/TrainingDay/index.md#ws4)
+* The [GCC2012 Training Day](/src/Events/GCC2012/TrainingDay/index.md)
+  1. Has less capacity than the 2 days of the [main meeting](/src/Events/GCC2012/Program/index.md), and 
+  2. So far, everyone who has [registered](/src/Events/GCC2012/Register/index.md) for the main meeting has also registered for the Training Day.
+* Cheap rooms in the [James Stuckel Towers](/Events/GCC2012/Logistics#james-stuckel-towers) on the UIC campus (and adjacent to the [conference venue](/src/Events/GCC2012/Logistics/index.md#venue)) are going fast.
+* A [draft schedule](/Events/GCC2012/Program) for all 3 days of the conference has been published. This includes [12 Training Day sessions](/Events/GCC2012/TrainingDay) on [10 different topics](/src/Events/GCC2012/TrainingDay/index.md#workshops), and over 25 presentations by Galaxy Community and Galaxy Team members.
 
 ## New Papers
 
@@ -94,16 +94,16 @@ These papers may be of interest to the Galaxy community:
 These papers were among [32 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/GalaxyUpdates) (for a total of 317 papers in the last ~15 months).  The new papers were spread [across 7 categories](http://www.citeulike.org/group/16008/tags), including the new [tools category](http://www.citeulike.org/group/16008/tag/tools). 
 
 ## Who's Hiring
-<div class='right'>![Please Help!  Yes you!](/Images/Icons/PointingFinger.png)</div>
+<div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
 The Galaxy is expanding!  Please help it grow.
 
-* The [Galaxy Project is hiring](/GalaxyIsHiring) post-docs and software engineers @ Emory and Penn State.
+* The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs and software engineers @ Emory and Penn State.
 * [Post-Doctoral Fellowship in Computer Scienc in Oslo, Norway](http://www.nature.com/naturejobs/science/jobs/263749-Post-Doctoral-Fellowship-in-Computer-Science)
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
 * [Bioinformatics Analyst @ U Virginia](http://jobs.virginia.edu/applicants/Central?quickFind=66485)
 * [Bioinformaticians @ FDA](http://gmod.org/wiki/News/Bioinformaticians @ FDA)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -185,18 +185,18 @@ were created, and the `mira_asssembler`, `seq_select_by_id`, and `java_genomics_
 
 ## New Distribution
 
-A new Galaxy distribution was [released on May 11, 2012](/DevNewsBriefs/2012_05_11).  
+A new Galaxy distribution was [released on May 11, 2012](/src/DevNewsBriefs/2012_05_11/index.md).  
 
 **Some Highlights:**
 <div class='right'><a href='/Learn/Visualization'><img src='/Images/NewsGraphics/2012_05_11_gatk-workflow.png' alt='gatk-workflow' width="180px" /></a></div>
 * **Emboss** tools and datatypes __have now moved from the ***Galaxy distribution** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)<u>**.
-* [Tool Integration Tests](/Tool Shed#using_galaxy27s_functional_test_framework_to_test_tools_installed_into_your_local_galaxy_instance), [Custom Tool Panel Configuration](/Tool Shed#managing_the_layout_of_your_galaxy_tool_panel), and [Configurable Tool Output Locations](/Admin/Tools/MultipleOutputFiles).
+* [Tool Integration Tests](/Tool Shed#using_galaxy27s_functional_test_framework_to_test_tools_installed_into_your_local_galaxy_instance), [Custom Tool Panel Configuration](/Tool Shed#managing_the_layout_of_your_galaxy_tool_panel), and [Configurable Tool Output Locations](/src/Admin/Tools/MultipleOutputFiles/index.md).
 * Improved [Multiprocess Job Handling](/Admin/Config/Performance/Scaling) and [Enhanced OpenID Support](http://openid.net/).
 * **[GATK](http://www.broadinstitute.org/gsa/wiki) version 1.4**, **[FreeBayes](http://github.com/ekg/freebayes)**, Updated **Megablast** using **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/Blast.cgi)**, **[Trinity](http://trinityrnaseq.sourceforge.net)**, **[WormBase 2](http://www.wormbase.org)**, and **[IGB](http://bioviz.org/igb/index.html)** external display.
-* **[Trackster](/Learn/Visualization)** upgrades include strand coloring, interval datatype support, and tabix indexing (fast!!).
+* **[Trackster](/src/Learn/Visualization/index.md)** upgrades include strand coloring, interval datatype support, and tabix indexing (fast!!).
 * Updated **User Interface**, **Workflow-API** upgrades, and Custom **UCSC Display**.
 
 ## Other News
 * [GalaxyCzars](/Community/GalaxyCzars) a discussion group for Galaxy community members who are responsible for large Galaxy installations has been started.  Their first conference call will be this month.  
-  * Want to know how other sites are implementing their Galaxy installations?  See the [GalaxyCzars survey results](/Community/GalaxyAdmins/Surveys/2012).
-* *Galaxy [/Main](/Main) was down for a little over a day.* Watch the Galaxy [/News](/News) for an explanation.
+  * Want to know how other sites are implementing their Galaxy installations?  See the [GalaxyCzars survey results](/src/Community/GalaxyAdmins/Surveys/2012/index.md).
+* *Galaxy [/Main](/Main) was down for a little over a day.* Watch the Galaxy [/News](/src/News/index.md) for an explanation.

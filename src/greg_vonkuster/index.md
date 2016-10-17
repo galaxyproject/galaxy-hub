@@ -31,8 +31,8 @@ Greg wrote the specifications and is the architect and developer of the followin
 
 The following components have gone through several phases of development.  Greg was involved with others in the initial phase that resulted in a functional prototype.  He leveraged what was learned in building the prototype, and re-engineered the components, improving them to produce what currently exists.
 
-* [Galaxy Sample Tracking](/Admin/DataLibraries/LibrarySampleTracking)
-* [Galaxy Data Libraries](/Admin/DataLibraries)
+* [Galaxy Sample Tracking](/src/Admin/DataLibraries/LibrarySampleTracking/index.md)
+* [Galaxy Data Libraries](/src/Admin/DataLibraries/index.md)
 
 
 ---

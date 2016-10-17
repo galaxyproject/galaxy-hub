@@ -15,7 +15,7 @@ title: April 2016 Galaxy News
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
-Welcome to the April 2016 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. 
+Welcome to the April 2016 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. 
 
 If you have anything to include in the next News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
 
@@ -80,7 +80,7 @@ We are pleased to offer [scholarships](https://docs.google.com/forms/d/1IbMoNcA6
 
 Scholarships cover [registration](http://gcc2016.iu.edu/registration) and [lodging](http://gcc2016.iu.edu/location) during the GCC Meeting, and for any Training or Hackathon events the applicant chooses to attend.  Scholarships do not cover travel or other expenses. **The application deadline is May 1 for members of historically underrepresented groups.**
 
-See the [full announcement](/News/GCC2016Scholarships) for details.
+See the [full announcement](/src/News/GCC2016Scholarships/index.md) for details.
 
 
 ## Sponsors
@@ -360,7 +360,7 @@ The new papers were tagged with:
 
 # Who's Hiring
 
-<div class='right'><br />![Please Help! Yes you!](/Images/GalaxyIsExpandingCloud.png)</div>
+<div class='right'><br />![Please Help! Yes you!](/src/Images/GalaxyIsExpandingCloud.png)</div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -372,10 +372,10 @@ The Galaxy is expanding! Please help it grow.
 * [Bioinformatics Web Application Developer-Biology](https://jobs.wustl.edu/) (Job ID 32899), Washington University in St. Louis, Missouri, United States
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
 * [Postdoctoral Research Positions](https://chk.tbe.taleo.net/chk01/ats/careers/requisition.jsp?org=BCM&cws=42&rid=8453), Molecular and Cellular Biology Department at Baylor College of Medicine, Houston, Texas, United States 
-* [Bioinformaticist](/News/JHUAPLBioinformaticist), Johns Hopkins University Applied Physics Laboratory (APL)
-* [Software Engineer](/News/SoftwareEngineerOHSU), Oregon Health Sciences University, Portland, Oregon, United States
+* [Bioinformaticist](/src/News/JHUAPLBioinformaticist/index.md), Johns Hopkins University Applied Physics Laboratory (APL)
+* [Software Engineer](/src/News/SoftwareEngineerOHSU/index.md), Oregon Health Sciences University, Portland, Oregon, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -385,7 +385,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[1 new publicly accessible Galaxy server](/PublicGalaxyServers) was listed in March:
+[1 new publicly accessible Galaxy server](/src/PublicGalaxyServers/index.md) was listed in March:
 
 ## Halogen Bonding
 
@@ -431,12 +431,12 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <br />
 
-Two new [Community Log entries](/Community/Logs) were added in March
-* **[Testing connexion between Galaxy and iRODS](/Community/Log/2015/GalaxyIrodsConnection)** by Mikael Loaec and Olivier Inizan
+Two new [Community Log entries](/src/Community/Logs/index.md) were added in March
+* **[Testing connexion between Galaxy and iRODS](/src/Community/Log/2015/GalaxyIrodsConnection/index.md)** by Mikael Loaec and Olivier Inizan
 * **[Setting up Galaxy with TORQUE on AWS](/Community/Log/2016/TorqueOnAWS)** by [Alex Kanterakis](https://gist.github.com/kantale)
 
-As were two and two new [training organizations](/Teach/Trainers).
-* **[EMBL-ABR](/Teach/Trainers#embl-abr)** is a distributed national research infrastructure providing bioinformatics support to life science researchers in Australia. 
+As were two and two new [training organizations](/src/Teach/Trainers/index.md).
+* **[EMBL-ABR](/src/Teach/Trainers/index.md#embl-abr)** is a distributed national research infrastructure providing bioinformatics support to life science researchers in Australia. 
 * **[GenoToul bioinformatics platform, Sigenae, NED (GenPhySE) and TWB](/Teach/Trainers#genotoul-bioinformatics-platform-sigenae-ned-genphyse-and-twb)** offers a [catalog of training sessions](http://bioinfo.genotoul.fr/index.php?id=10) on Galaxy.
 
 ---
@@ -563,7 +563,7 @@ The 0.6.x release includes these changes:
 
 # ToolShed Contributions
 
-See [list of tools contributed in March](/ToolShed/Contributions/2016_03).
+See [list of tools contributed in March](/src/ToolShed/Contributions/2016_03/index.md).
 
 ## Automatic Testing of IUC Tools with Conda
 
@@ -581,7 +581,7 @@ The [/IUC](/IUC) is [seeking comments and contributions to this effort](https://
 
 * New and recently updated tools are now highlighted on usegalaxy.org.
 
-* From [Bjöern Grüening](/BjoernGruening): 
+* From [Bjöern Grüening](/src/BjoernGruening/index.md): 
   * Cheminformatics datatypes were added to Galaxy with [this pull request](https://github.com/galaxyproject/galaxy/pull/1941). Expect new ChemicalToolBox development soon!
   * [deepTools](https://deeptools.github.io/) visualization, QC, and data normalization tools are now available on [usegalaxy.org](https://usegalaxy.org). Thanks to [Devon Ryan](https://twitter.com/dpryan79) and https://twitter.com/fidel_ramirez|Fidel Ramirez]]
   * Galaxy Tours, a new interactive way to learn Galaxy, were announced in the [February News](/GalaxyUpdates/2016_02#new-tutorials--and-tours).  We now have an [official repository to collect community tours](https://github.com/galaxyproject/galaxy-tours).

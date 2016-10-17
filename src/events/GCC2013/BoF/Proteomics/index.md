@@ -10,7 +10,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2013/BoF/LinkBox)
 
 <div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
 
-This page describes the **Proteomics BoF** [Birds of a Feather](/Events/GCC2013/BoF) meetup being held at [GCC2013](/Events/GCC2013).
+This page describes the **Proteomics BoF** [Birds of a Feather](/Events/GCC2013/BoF) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
 
 Two potential directions this BoF could follow depending on who (if anyone) is interested in attending - this could take the form of an tutorial/advertisement session or more of a planning session.
 
@@ -20,7 +20,7 @@ If the attendees are more or exclusively current developers using Galaxy for pro
 
 ## When and Where
 
-The Proteomics BoF has been  [tentatively scheduled](/Events/GCC2013/BoF#bof-schedule) for lunch on tuesday in the cantina
+The Proteomics BoF has been  [tentatively scheduled](/src/Events/GCC2013/BoF/index.md#bof-schedule) for lunch on tuesday in the cantina
 
 ## Who is Participating
 
@@ -42,9 +42,9 @@ BoF participants introduced themselves and gave some statement about their inter
 ### Resources for Proteomics
 There was a strong feeling that Proteomics needed a presence on the Galaxy wiki. As a start to this John Chilton created two new pages;
 	
-A [landing page for Proteomics](/Proteomics)
+A [landing page for Proteomics](/src/Proteomics/index.md)
  
-A [ proteomics use cases](/Proteomics/UseCases) page to help tool developers focus their efforts and new users to learn about what tools exist and what common proteomics workflows are covered by galaxy.
+A [ proteomics use cases](/src/Proteomics/UseCases/index.md) page to help tool developers focus their efforts and new users to learn about what tools exist and what common proteomics workflows are covered by galaxy.
 
 Both users and tool developers were encouraged to use the [galaxy-proteomics mailing list](http://proteomics.list.galaxyproject.org/) for discussion.
 

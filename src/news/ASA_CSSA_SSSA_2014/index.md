@@ -1,7 +1,7 @@
 ---
 date: 2014-09-03T21:34:58Z
 ---
-<div class='newsItemHeader'>[Galaxy @ ASA/CSSA/SSSA 2014](/News/ASA_CSSA_SSSA_2014)</div>
+<div class='newsItemHeader'>[Galaxy @ ASA/CSSA/SSSA 2014](/src/News/ASA_CSSA_SSSA_2014/index.md)</div>
 
 <table>
   <tr>

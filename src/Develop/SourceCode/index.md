@@ -1,7 +1,7 @@
 PLACEHOLDER_INCLUDE(/Develop/LinkBox)
 # The source code of Galaxy
 
-Galaxy is an open source software under [AFL 3.0](/Admin/License) license.
+Galaxy is an open source software under [AFL 3.0](/src/Admin/License/index.md) license.
 
 The source code is publicly available and hosted at !GitHub. If you need help getting started, the [GitHub Git tutorial](https://try.github.io/) is a good places to start.
 

@@ -6,16 +6,16 @@ title: Galaxy Deployment Catalog
 
 <div class='right'></div>
 
-<div class='left'>![Galaxy Deployment Catalog](/Images/Logos/GalaxyDeploymentCatalog200.png)</div> 
+<div class='left'>![Galaxy Deployment Catalog](/src/Images/Logos/GalaxyDeploymentCatalog200.png)</div> 
 
 Welcome to the *Galaxy Deployment Catalog*. This catalog describes the details of how Galaxy is installed at different institutions.  Details include [infrastructure information](#deployments-implementation) as well as [user community and domain information](#deployments-user-and-domain-information) for each deployment.
 
-You are strongly encouraged to [add your local Galaxy deployment](#add-your-galaxy-deployment) to this catalog so that the [Galaxy Community](/Community) can benefit from your experience.
+You are strongly encouraged to [add your local Galaxy deployment](#add-your-galaxy-deployment) to this catalog so that the [Galaxy Community](/src/Community/index.md) can benefit from your experience.
 
 There are also several other sources of information about deployments.  These either aren't specifically about deployment details, or they aren't organized as usefully:
 
-* The [Public Galaxy Server List](/PublicGalaxyServers) describes servers that are publicly accessible.  The descriptions don't focus on implementation, but they do give an idea of what can be done and who to contact at each.
-* The results of [GalaxyAdmins questionnaires in 2012 and 2014](/Community/GalaxyAdmins/Surveys).  These are about deployment details.
+* The [Public Galaxy Server List](/src/PublicGalaxyServers/index.md) describes servers that are publicly accessible.  The descriptions don't focus on implementation, but they do give an idea of what can be done and who to contact at each.
+* The results of [GalaxyAdmins questionnaires in 2012 and 2014](/src/Community/GalaxyAdmins/Surveys/index.md).  These are about deployment details.
 
 # Deployments: User and Domain Information
 
@@ -38,7 +38,7 @@ There are two ways to add your deployment to this catalog.
 
 Have a Galaxy deployment?  The larger Galaxy community would love to learn about it.  To add a description of your Galaxy deployment to this page, you need to create a wiki page describing your Galaxy instance.  Here are the directions:
 
-1. [Login|&action=login](/Community/Deployments) to the wiki. If you don't have an account, you'll need to [create one|&action=newaccount](/Community/Deployments).
+1. [Login|&action=login](/src/Community/Deployments/index.md) to the wiki. If you don't have an account, you'll need to [create one|&action=newaccount](/src/Community/Deployments/index.md).
 1. Pick a good descriptive, !CamelCase name for your deployment.  This will become part of the URL for the page describing your deployment.  Avoid embedded spaces as they make lousy URLs.
 1. Type the !CamelCase name in box below and hit the "Create" button.
     . PLACEHOLDER_NEW_PAGE(Community/Deployments/DeploymentTemplate, "Create a deployment description page", Community/Deployment)

@@ -10,7 +10,7 @@ title: [UC Riverside NGS Tutorial](http://manuals.bioinformatics.ucr.edu/worksho
 
 
 <div class='deploymentbox'>
- Resource:: **[UC Riverside NGS Tutorial](/Teach/Resource/UCRiversideNGS)**
+ Resource:: **[UC Riverside NGS Tutorial](/src/Teach/Resource/UCRiversideNGS/index.md)**
  Types:: Tutorial, Datasets
  Domains:: **Variant Calling, RNA-Seq, Intro** 
  Owners:: Neerja Katiyar,  [Tyler Backman](http://facility.bioinformatics.ucr.edu/people/tyler-backman), [Rebecca Sun](http://facility.bioinformatics.ucr.edu/people/rebecca-sun), and [Thomas Girke](http://girke.bioinformatics.ucr.edu/), [UC Riverside](http://labs.bioinformatics.ucr.edu/)

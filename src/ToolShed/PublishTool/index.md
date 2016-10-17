@@ -16,7 +16,7 @@ The process for creating a Tool Shed account is the same as that in Galaxy, alth
 
 You have to login to the Tool Shed in order to create a repository. After logging in, the **Create new repository**, option can be used to create a new, empty Tool Shed repository. If your repository will contain tools and other Galaxy utilities, its type should be **Unrestricted**.  If your repository will contain only a recipe for installing a tool dependency package, its type should be **Tool dependency definition**.
 
-Further information about [TS repository](/ToolShed/Repository).
+Further information about [TS repository](/src/ToolShed/Repository/index.md).
 
 ## Uploading files to a repository
 

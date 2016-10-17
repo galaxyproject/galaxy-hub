@@ -9,7 +9,7 @@ PLACEHOLDER_INCLUDE(/events/AdminTraining2016/LinkBox)
 
 **November 8-11, University of Utah Campus**
 
-The three day advanced session will build on topics covered in the [basics section](/Events/AdminTraining2016/BasicsSession).  This session both extends those topics, such as tool definition, and adds new ones, such as working with compute clusters and heterogeneous resources. 
+The three day advanced session will build on topics covered in the [basics section](/src/Events/AdminTraining2016/BasicsSession/index.md).  This session both extends those topics, such as tool definition, and adds new ones, such as working with compute clusters and heterogeneous resources. 
 
 <div class='right'><a href='http://www.chpc.utah.edu'><img src='/Images/Logos/UtahCHPCLogo.png' alt='University of Utah Center for High Performance Computing (CHPC)' height="90" /></a>
 </div>
@@ -18,20 +18,20 @@ We will use compute resources from the [University of Utah Center for High Perfo
 
 ## Prerequisites
 
-**Please review the prerequisites carefully before [registering](/Events/AdminTraining2016/Registration).**  If you arrive without meeting the prerequisites then the workshop will be a frustrating experience.
+**Please review the prerequisites carefully before [registering](/src/Events/AdminTraining2016/Registration/index.md).**  If you arrive without meeting the prerequisites then the workshop will be a frustrating experience.
 
 <br />
 
-<span style="font-size: larger;"> 1. All prerequisites from the [Basic Topics workshop](/Events/AdminTraining2016/BasicsSession) </span>
+<span style="font-size: larger;"> 1. All prerequisites from the [Basic Topics workshop](/src/Events/AdminTraining2016/BasicsSession/index.md) </span>
 
 You need to have a solid grasp of the, Linux command line, a text editor, and Linux package management. 
 
 <br />
 
-<span style="font-size: larger;"> 2. Understanding of [material covered in the Basic Topics workshop](/Events/AdminTraining2016/BasicsSession#topics) </span>
+<span style="font-size: larger;"> 2. Understanding of [material covered in the Basic Topics workshop](/src/Events/AdminTraining2016/BasicsSession/index.md#topics) </span>
 
 You can get this by 
-1. Attending the [Basic Topics Workshop](/Events/AdminTraining2016/BasicsSession), or
+1. Attending the [Basic Topics Workshop](/src/Events/AdminTraining2016/BasicsSession/index.md), or
 1. Having actual experience with setting up and running your own Galaxy server.
 
 
@@ -43,7 +43,7 @@ You can get this by
 
 **Galaxy Architecture Session, Tuesday evening, November 7**
 
-The [basics section](/Events/AdminTraining2016/BasicsSession) will end on Tuesday evening with an overview of Galaxy's architecture.  All participants in the advanced session are also welcome to attend this session at the [Salt Lake City Library](/Events/AdminTraining2016/BasicsSession#venue).
+The [basics section](/Events/AdminTraining2016/BasicsSession) will end on Tuesday evening with an overview of Galaxy's architecture.  All participants in the advanced session are also welcome to attend this session at the [Salt Lake City Library](/src/Events/AdminTraining2016/BasicsSession/index.md#venue).
 
 <table>
   <tr class="th" >

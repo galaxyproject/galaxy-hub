@@ -1,7 +1,7 @@
 ---
 date: 2013-11-04T17:33:17Z
 ---
-<div class='newsItemHeader'>[Nov 04, 2013 Galaxy Distribution](/News/2013_11_04_Galaxy_Distribution)</div>
+<div class='newsItemHeader'>[Nov 04, 2013 Galaxy Distribution](/src/News/2013_11_04_Galaxy_Distribution/index.md)</div>
 
 <div class='right'>
 <a href='/http:usegalaxy.org'><img src='/Images/NewsGraphics/2013_11_04_usegalaxy.org.jpg' alt='usegalaxy.org' width=300 /></a><br />**usegalaxy.org**</div>

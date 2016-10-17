@@ -15,7 +15,7 @@ title: May 2016 Galaxy News
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
-Welcome to the May 2016 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. 
+Welcome to the May 2016 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. 
 
 If you have anything to include in the next News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
 
@@ -83,7 +83,7 @@ We are pleased to offer [scholarships](https://docs.google.com/forms/d/1IbMoNcA6
 
 Scholarships cover [registration](http://gcc2016.iu.edu/registration) and [lodging](http://gcc2016.iu.edu/location) during the GCC Meeting, and for any Training or Hackathon events the applicant chooses to attend.  Scholarships do not cover travel or other expenses. **The application deadline is May 1 for members of historically underrepresented groups.**
 
-See the [full announcement](/News/GCC2016Scholarships) for details.
+See the [full announcement](/src/News/GCC2016Scholarships/index.md) for details.
 
 ## Sponsors
 
@@ -122,7 +122,7 @@ Finally, we are delighted to have **[EMC](http://www.emergingtechsolutions.com/l
 
 ## Galaxy at ASMS 2016
 
-Galaxy will have a [strong presence](/Events/ASMS2016) at the [64th ASMS Conference on Mass Spectrometry and Allied Topics](http://www.asms.org/conferences/annual-conference/annual-conference-homepage), being held June 5-9 in San Antonio, Texas, United States. There will be [one workshop and one talk](/Events/ASMS2016) (both from the [GalaxyP Project](https://usegalaxyp.org/)), and [at least 7 posters](/Events/ASMS2016) on using Galaxy for proteomics.
+Galaxy will have a [strong presence](/src/Events/ASMS2016/index.md) at the [64th ASMS Conference on Mass Spectrometry and Allied Topics](http://www.asms.org/conferences/annual-conference/annual-conference-homepage), being held June 5-9 in San Antonio, Texas, United States. There will be [one workshop and one talk](/src/Events/ASMS2016/index.md) (both from the [GalaxyP Project](https://usegalaxyp.org/)), and [at least 7 posters](/src/Events/ASMS2016/index.md) on using Galaxy for proteomics.
 
 *If you are interested, **[register now](http://www.asms.org/conferences/annual-conference/registration) as early registration closes April 30.***
 
@@ -139,7 +139,7 @@ This workshop will include a rich collection of lectures and hands-on sessions, 
 
 ## May, June and July Events
 
-There are [a staggering 14 known Galaxy related events and presentations in May](/Events).  These are spread over 4 countries on 3 continents.  June and July are filling up too.
+There are [a staggering 14 known Galaxy related events and presentations in May](/src/Events/index.md).  These are spread over 4 countries on 3 continents.  June and July are filling up too.
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -339,7 +339,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 <div class='left'><a href='https://github.com/galaxyproject/tools-iuc/issues/700'><img src='/Images/Logos/Conda_480.png' alt='Conda Dependencies Codefest' width="160" /></a>
 </div>
 
-A [Conda Dependencies Dodefest](https://github.com/galaxyproject/tools-iuc/issues/700) was held on Monday April 4, and involved 8 participants.  It was designed to be beginner friendly, which increased contribution from the community. 4 members of the galaxy community were [added as contributors](https://github.com/bioconda/bioconda-recipes/issues/1#issuecomment-205241333) to the [bioconda-recipe repository](https://github.com/bioconda/bioconda-recipes) as a result of this hackathon.  The main aim of the codefest was to get community members familiar with the Conda-Galaxy integration, and to remove tools from testing blacklist. See the [full codefest report](/News/CondaDependencyCodefestReport) for details.
+A [Conda Dependencies Dodefest](https://github.com/galaxyproject/tools-iuc/issues/700) was held on Monday April 4, and involved 8 participants.  It was designed to be beginner friendly, which increased contribution from the community. 4 members of the galaxy community were [added as contributors](https://github.com/bioconda/bioconda-recipes/issues/1#issuecomment-205241333) to the [bioconda-recipe repository](https://github.com/bioconda/bioconda-recipes) as a result of this hackathon.  The main aim of the codefest was to get community members familiar with the Conda-Galaxy integration, and to remove tools from testing blacklist. See the [full codefest report](/src/News/CondaDependencyCodefestReport/index.md) for details.
 
 
 
@@ -363,7 +363,7 @@ After you have your XSEDE account and an active allocation:
 3. Follow the prompts on the screen to launch an instance
 4. In less than 5 minutes, you should have your own, fully configured Galaxy server
 
-More documentation about the process can be found [here](/Cloud/Jetstream).
+More documentation about the process can be found [here](/src/Cloud/Jetstream/index.md).
 
 # New Papers
 
@@ -460,7 +460,7 @@ The new papers were tagged with:
 
 <div class='left'><a href='https://github.com/nekrut/galaxy/wiki/Diploid-variant-calling'><img src='/Images/Screenshots/AntonsDiploidVariantTutorial1.png' alt='Diploid variant calling' width="190" /></a></div>
 
-There are two new comprehensive online tutorials from [Anton Nekrutenko](/anton):
+There are two new comprehensive online tutorials from [Anton Nekrutenko](/src/anton/index.md):
 
 ## Diploid variant calling
 
@@ -484,7 +484,7 @@ Dataset collections help analyzing multiple datasets in just a few clicks. This 
 
 # Who's Hiring
 
-<div class='right'><br />![Please Help! Yes you!](/Images/GalaxyIsExpandingCloud.png)</div>
+<div class='right'><br />![Please Help! Yes you!](/src/Images/GalaxyIsExpandingCloud.png)</div>
 
 The Galaxy is expanding! Please help it grow.
 * [Galaxy Administrator & Developer](http://www.uni-freiburg.de/verwaltung/stellenboerse/?erf=y&stellenid=9693&layout=v4), University of Freiburg, Freiburg, Germany.
@@ -492,9 +492,9 @@ The Galaxy is expanding! Please help it grow.
 * [Bioinformatics Web Application Developer-Biology](https://jobs.wustl.edu/) (Job ID 32899), Washington University in St. Louis, Missouri, United States
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
 * [Postdoctoral Research Positions](https://chk.tbe.taleo.net/chk01/ats/careers/requisition.jsp?org=BCM&cws=42&rid=8453), Molecular and Cellular Biology Department at Baylor College of Medicine, Houston, Texas, United States 
-* [Software Engineer](/News/SoftwareEngineerOHSU), Oregon Health Sciences University, Portland, Oregon, United States
+* [Software Engineer](/src/News/SoftwareEngineerOHSU/index.md), Oregon Health Sciences University, Portland, Oregon, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -503,7 +503,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-There are [two new publicly accessible Galaxy servers](/PublicGalaxyServers):
+There are [two new publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md):
 
 ## MGEScan
 
@@ -559,9 +559,9 @@ There are [two new publicly accessible Galaxy servers](/PublicGalaxyServers):
 
 <br />
 
-One new [training resource](/Teach/Resources) was added in April:
+One new [training resource](/src/Teach/Resources/index.md) was added in April:
 
-* [Freiburg hands-on training collection](/Teach/Resource/FreiburgHandsOnTraining).
+* [Freiburg hands-on training collection](/src/Teach/Resource/FreiburgHandsOnTraining/index.md).
 
 ---
 

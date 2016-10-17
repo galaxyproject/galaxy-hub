@@ -29,4 +29,4 @@ Clicking the **Search repositories** button will display a list of all tool shed
 
 # Related Pages
 
-* [Enabling workflow sharing](/ToolShedWorkflowSharing) - this document describes the tool shed enables sharing Galaxy workflows.
+* [Enabling workflow sharing](/src/ToolShedWorkflowSharing/index.md) - this document describes the tool shed enables sharing Galaxy workflows.

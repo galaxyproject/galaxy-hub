@@ -91,7 +91,7 @@ If you are driving to the meeting, see the [UIC Forum Parking and Directions](ht
 
 ## Meals
 
-A continental breakfast and lunch were provided on the [Training Day](/Events/GCC2012/TrainingDay), and [both days](/Events/GCC2012/Program) of the conference.
+A continental breakfast and lunch were provided on the [Training Day](/Events/GCC2012/TrainingDay), and [both days](/src/Events/GCC2012/Program/index.md) of the conference.
 
 The conference dinner was on July 25. The cost is included in registration. Guest dinner tickets may also be purchased when registering.
 

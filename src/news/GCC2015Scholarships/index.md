@@ -1,7 +1,7 @@
 ---
 date: 2015-04-21T17:18:07Z
 ---
-<div class='newsItemHeader'>[GCC2015 Scholarships](/News/GCC2015Scholarships)</div>
+<div class='newsItemHeader'>[GCC2015 Scholarships](/src/News/GCC2015Scholarships/index.md)</div>
 
 <div class='right'>
 <a href='http://bit.ly/gcc2015scholarship'><img src='/Images/Logos/GCC2015LogoWide600.png' alt='GCC2015 registration and lodging scholarships for US-based students and post-docs who and members of historically underrepresented groups' width="250" /></a></div>

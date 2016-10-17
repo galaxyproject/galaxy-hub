@@ -81,13 +81,13 @@ To search existing cards, *click* **Filter Cards** (on the right) and *enter* th
 1. <div class='right'><a href='http://galaxyproject.org/trello'><img src='/CreateIssue.png' alt='Create an issue' width="200" /></a></div> Finally, if you can't find the issue then go [to the Galaxy Trello card creation form](http://galaxyproject.org/trello), give the issue a descriptive, concise name, and please provide a **detailed description** of the issue.  [Mark](http://daringfireball.net/projects/markdown/basics/)[down](http://daringfireball.net/projects/markdown/basics/) is supported in the card description (but not the name).  *Click* **Submit Query** when you are done, and this will send your issue to the **Inbox** list in the  [Galaxy Trello Board](http://bit.ly/gxytrello) and we will handle it from there. :) By all means we appreciate your further involvement in the bug removal (you can provide comments, test possible fixes or even submit a [pull request](https://wiki.galaxyproject.org/Develop/Bitbucket) with a fix).
 
 #### What to include in a bug report
-1. Where you are using Galaxy ([/Main](/Main), local, or cloud instance). 
-1. Bug reports from [/Test](/Test) are generally not sent
+1. Where you are using Galaxy ([/Main](/src/Main/index.md), local, or cloud instance). 
+1. Bug reports from [/Test](/src/Test/index.md) are generally not sent
 1. If a local or cloud instance, the distribution or galaxy-central hg pull #
 1. The date/time the bug was detected
 1. Exact steps to reproduce the issue
 1. What troubleshooting steps (if any) you have tested out
-1. If you can reproduce on [/Main](/Main), you may be asked to send in a tool error report or share a history link. Use ***Options &rarr; Share or Publish***, generate the link, and email it directly back off-list. Note the problem dataset #'s. 
+1. If you can reproduce on [/Main](/src/Main/index.md), you may be asked to send in a tool error report or share a history link. Use ***Options &rarr; Share or Publish***, generate the link, and email it directly back off-list. Note the problem dataset #'s. 
 1. **IMPORTANT**: If data is involved, leave **all** of the related datasets in the analysis thread leading up to the bug in your history ***undeleted*** until we have responded to you. Use ***Options &rarr; Show Deleted Datasets*** and click dataset links to ***undelete*** to recover error datasets before reporting a bug if necessary. 
 
 

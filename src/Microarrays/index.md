@@ -1,4 +1,4 @@
-The [main Galaxy server](/Main) does not currently (2011/07) provide support for microarray data.  This page describes other options.
+The [main Galaxy server](/src/Main/index.md) does not currently (2011/07) provide support for microarray data.  This page describes other options.
 
 ## Public Galaxy Servers
 

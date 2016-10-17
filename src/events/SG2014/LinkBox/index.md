@@ -1,7 +1,7 @@
 <div class='linkbox'>
-**[SG2014 Tour](/Events/SG2014)**
+**[SG2014 Tour](/src/Events/SG2014/index.md)**
 ---
-[Demo / Training Day](/Events/Switzerland2014/trainingday)<br />
-[2nd Swiss Workshop](/Events/Switzerland2014)<br />
-[German Developer Day](/Events/Germany2014)<br />
+[Demo / Training Day](/src/Events/Switzerland2014/trainingday/index.md)<br />
+[2nd Swiss Workshop](/src/Events/Switzerland2014/index.md)<br />
+[German Developer Day](/src/Events/Germany2014/index.md)<br />
 </div>

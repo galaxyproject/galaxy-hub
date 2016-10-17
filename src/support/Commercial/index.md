@@ -6,7 +6,7 @@ title: Commercial Galaxy Support
 
 
 
-Galaxy [servers](/BigPicture/Choices) and [support](/Support) are available in a wide variety of different ways, including commercial solutions. This lists the commercial providers that we are aware of
+Galaxy [servers](/BigPicture/Choices) and [support](/src/Support/index.md) are available in a wide variety of different ways, including commercial solutions. This lists the commercial providers that we are aware of
 
 # Consulting
 
@@ -53,7 +53,7 @@ The [BioTeam Appliance Galaxy Edition](http://www.bioteam.net/products/galaxy-ap
 
 [/CloudMan](/CloudMan) and [Globus Genomics](/Cloud#globus-genomics) are two ways to deploy your own Galaxy server using [Amazon Web Services](http://aws.amazon.com). CloudMan can also run on any cloud provider that supports the [OpenStack](http://openstack.org) or [OpenNebula](http://opennebula.org) cloud management protocols.  This covers the vast majority of commercial cloud providers.
 
-See the Galaxy [/Cloud](/Cloud) page for more.
+See the Galaxy [/Cloud](/src/Cloud/index.md) page for more.
 
 ## Galaxy Specific Commercial Cloud Solutions
 
@@ -79,11 +79,11 @@ Users can easily use Galaxy using g-Cluster based on cloud computing.
 
 Training on how to use Galaxy is offered by several companies around the world:
 
-* **[Geneclat Technologies](/Teach/Trainers#geneclat-technologies)**
+* **[Geneclat Technologies](/src/Teach/Trainers/index.md#geneclat-technologies)**
   * Based in Bengaluru, Karnataka, India, and is available globally (and "ready to travel!") 
 
-* **[Noor Biotechnologies Ltd.](/Teach/Trainers#noor-biotechnologies-ltd)**
+* **[Noor Biotechnologies Ltd.](/src/Teach/Trainers/index.md#noor-biotechnologies-ltd)**
   * Based in Malaysia and Saudi Arabia. We are available to train around the world.
 
-* **[OpenHelix](/Teach/Trainers#openhelix)**
+* **[OpenHelix](/src/Teach/Trainers/index.md#openhelix)**
   * Based in North America, but available Globally and via webinar.

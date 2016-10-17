@@ -8,9 +8,9 @@ title: August 2014 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the august 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the august 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
-The *Galaxy Update* is going out a few days early this month because the usual release date is during [GCC2014](/Events/GCC2014).  
+The *Galaxy Update* is going out a few days early this month because the usual release date is during [GCC2014](/src/Events/GCC2014/index.md).  
 
 # Events
 
@@ -18,9 +18,9 @@ The *Galaxy Update* is going out a few days early this month because the usual r
 
 ## GCC2014 Report
 
-**[2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014)** was held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.  It was preceded by by the first ever [GCC Hackathon](/Events/GCC2014/Hackathon).
+**[2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014)** was held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.  It was preceded by by the first ever [GCC Hackathon](/src/Events/GCC2014/Hackathon/index.md).
 
-Videos of and slides for [presentations](/Events/GCC2014/Abstracts/Talks) and [Lightning Talks](/Events/GCC2014/Lightning), PDFs of [Posters](/Events/GCC2014/Abstracts/Posters), material for [Training Day Sessions](/Events/GCC2014/TrainingDay), and writeups of [BoFs](/Events/GCC2014/BoFs) are now all online.  There are also several [meeting reports](/Events/GCC2014#meeting-reports) now available on the web.
+Videos of and slides for [presentations](/Events/GCC2014/Abstracts/Talks) and [Lightning Talks](/Events/GCC2014/Lightning), PDFs of [Posters](/Events/GCC2014/Abstracts/Posters), material for [Training Day Sessions](/Events/GCC2014/TrainingDay), and writeups of [BoFs](/Events/GCC2014/BoFs) are now all online.  There are also several [meeting reports](/src/Events/GCC2014/index.md#meeting-reports) now available on the web.
 
 Feedback has been very positive (see below for some of it), and we would like to thank absolutely everyone for making this such a successful meeting.
 <br /><br />
@@ -121,7 +121,7 @@ Feedback has been very positive (see below for some of it), and we would like to
 
 We are pleased to announce that the **[2015 Galaxy Community Conference (GCC2015)](/Events/GCC2015)** will be held at [The Sainsbury Laboratory](http://www.tsl.ac.uk/) in historic [Norwich, United Kingdom](http://www.visitnorwich.co.uk/).  Norwich is a center of biological research and is home to [The Sainsbury Laboratory](http://www.tsl.ac.uk/), [The John Innes Centre](https://www.jic.ac.uk/), [The Genome Analysis Centre (TGAC)](http://www.tgac.ac.uk/), and [The University of East Anglia](http://www.uea.ac.uk/). 
 
-[GCC2015](/Events/GCC2015) will likely again feature a hackathon, copious training day sessions and topics, posters, birds-of-a-feather sessions, talks, lightning talks, the best darn networking opportunities, and the possible return of an onsite pub.    As at past GCC's we will again strive to keep registration costs low, and to offer affordable housing options.
+[GCC2015](/src/Events/GCC2015/index.md) will likely again feature a hackathon, copious training day sessions and topics, posters, birds-of-a-feather sessions, talks, lightning talks, the best darn networking opportunities, and the possible return of an onsite pub.    As at past GCC's we will again strive to keep registration costs low, and to offer affordable housing options.
 
 GCC2015 will be held 6-8<sup>th</sup> July, 2015, which is just before ISMB/ECCB 2015 in Dublin.  More details will be announced through Galaxy channels as we know them.
 
@@ -317,16 +317,16 @@ The Galaxy is expanding! Please help it grow.
 * [Galaxy Platform Development Officer](http://bit.ly/1wr7sBJ), The Genome Analysis Centre (TGAC), Norwich, United Kingdom.  **Closes 12 August.**
 * [Bioinformatician position](http://bit.ly/1nBPm0p) at [Xenbase](http://xenbase.org), University of Calgary.
 * [Experimental Officer in Bioinformatics](http://www.nature.com/naturejobs/science/jobs/437669-experimental-officer-in-bioinformatics), NERC Metabolomics Facility, University of Birmingham, UK 
-* [Statistical Genomics Postdoc](/News/StatisticalGenomicsPostDocPennState) opening in the Makova lab at Penn State
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
+* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
 # New Public Servers
 
-One new [public Galaxy server](/PublicGalaxyServers) was added to the published list in July:
+One new [public Galaxy server](/src/PublicGalaxyServers/index.md) was added to the published list in July:
 
 ## IM-PET
 
@@ -347,10 +347,10 @@ One new [public Galaxy server](/PublicGalaxyServers) was added to the published 
 
 # Galaxy Distributions
 
-* [June 2, 2014 Galaxy Distribution](/DevNewsBriefs/2014_06_02)
+* [June 2, 2014 Galaxy Distribution](/src/DevNewsBriefs/2014_06_02/index.md)
 * [Corresponding version](http://gregvonkuster.org/galaxy-tool-shed-june-2-2014-release/) of the ToolShed
 * [BioBlend 0.4.3](https://pypi.python.org/pypi/bioblend/0.4.3) was released on April 11, 2014.  
-* The most recent version of CloudMan was [released in January 2014](/News/CloudManRelease201401).
+* The most recent version of CloudMan was [released in January 2014](/src/News/CloudManRelease201401/index.md).
 
 ## Security Vulnerability
 
@@ -372,9 +372,9 @@ Because this vulnerability allows for arbitrary code execution, administrators a
 
 <br /><br />
 
-**There were no new [Log Board](/Community/Logs) or [Deployment Catalog](/Community/Deployments) entries in July!**  Eek!  Please don't let this happen again!  
+**There were no new [Log Board](/Community/Logs) or [Deployment Catalog](/src/Community/Deployments/index.md) entries in July!**  Eek!  Please don't let this happen again!  
 
-The *[Community Log Board](/Community/Logs)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/Community/Deployments), or [experience](/Community/Logs) you want to share then please publish them **this month.**
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/Community/Deployments), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
 
@@ -385,6 +385,6 @@ The *[Community Log Board](/Community/Logs)* and  *[Deployment Catalog](/Communi
 
 # Other News
 
-* Semi-annual update of the [Galaxy Project Statistics page](/GalaxyProject/Statistics).
+* Semi-annual update of the [Galaxy Project Statistics page](/src/GalaxyProject/Statistics/index.md).
 * New Galaxy training resource: [UCDavis Genome Center Bioinformatics Core June 2014 Workshop: Slides, exercises, datasets + an AMI](http://bit.ly/1tNsnmq)!
 * New [Expanded RNA-Seq Galaxy](http://bit.ly/1zFZM2R) and [Galaxy NGS 101: Synechocystis remix using a custom genome](http://genomeintelligence.org/?p=561) tutorials by [Cynthia Gibas](https://bioinformatics.uncc.edu/directory/gibas-cynthia) at [GenomeIntelligence](http://genomeintelligence.org/).

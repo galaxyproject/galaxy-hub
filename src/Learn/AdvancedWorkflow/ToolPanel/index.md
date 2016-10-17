@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 <div class='right'></div>
 
 <br />
-[Back to Advanced Workflow](/Learn/AdvancedWorkflow)
+[Back to Advanced Workflow](/src/Learn/AdvancedWorkflow/index.md)
 
 ## Promote a Workflow in the Tool Panel
 
@@ -36,14 +36,14 @@ Clicking on **All workflows** will display workflows *owned by you* or *shared w
 
 If you see workflows listed above **All workflows**, these have been ***promoted*** for quick access. Do not see any or want to add more? That is what this tutorial will explain how to do.
 
-<div class='indent'> ![workflows in the tool panel](/Images/Learn/workflow_tool_access_all_from_tool_panel.png) <br />*workflows in the **tool panel***</div>
+<div class='indent'> ![workflows in the tool panel](/src/Images/Learn/workflow_tool_access_all_from_tool_panel.png) <br />*workflows in the **tool panel***</div>
 
 
 ### Go to the Workflow Management View
 
 To edit a workflow or to manage where it is displayed, go the management view by clicking on **Workflows** in the top masthead from any page or by using the button at the right top of the **All workflows** list view.
 
-<div class='indent'> ![going to workflow management](/Images/Learn/workflow_tool_go_to_management_view.png) <br />*going to workflow **management***</div>
+<div class='indent'> ![going to workflow management](/src/Images/Learn/workflow_tool_go_to_management_view.png) <br />*going to workflow **management***</div>
 
 ### Navigating the Workflow Management View
 
@@ -57,7 +57,7 @@ To edit a workflow or to manage where it is displayed, go the management view by
 1. The **Create new workflow** function will launch a new blank canvas in the **Workflow Editor**.
 1. The **Upload or import workflow** function will load a workflow saved to a file or import a workflow through a link from another Galaxy server.
 
-<div class='indent'> ![workflow management view](/Images/Learn/workflow_tool_management_view.png) <br />*workflow **management view ***</div>
+<div class='indent'> ![workflow management view](/src/Images/Learn/workflow_tool_management_view.png) <br />*workflow **management view ***</div>
 
 ### Configure Your Workflow Menu
 
@@ -67,7 +67,7 @@ Starting on the **Workflow Management View** page, scroll to the bottom and clic
 
 The **Configure Workflow Menu** view lists each of the workflows owned by you or shared with you. The owner and number of steps are listed. Click on a checkbox under the **Show in Menu** column to promote a workflow it is displayed directly in the *Tool Panel*, just like a tool.
 
-<div class='indent'> ![workflow configure tool menu](/Images/Learn/workflow_tool_configure_tool_menu.png) <br />*workflow **configure tool menu***</div>
+<div class='indent'> ![workflow configure tool menu](/src/Images/Learn/workflow_tool_configure_tool_menu.png) <br />*workflow **configure tool menu***</div>
 
 <br />
 
@@ -79,25 +79,25 @@ Once finished, a green bar indicating that the workflow was successfully added t
 
 Click on **Analyze Data** to return to the **Analysis Home View** where the updated tool panel can be reviewed and the newly promoted workflow can be accessed directly.
 
-<div class='indent'> ![analysis home view](/Images/Learn/workflow_tool_go_to_analysis_home_view.png) <br />**analysis home view**</div>
+<div class='indent'> ![analysis home view](/src/Images/Learn/workflow_tool_go_to_analysis_home_view.png) <br />**analysis home view**</div>
 
 ### View and Run Promoted Workflows
 
 Review the updated Workflow section in the **Tool Panel** to confirm the promotion. 
 
-<div class='indent'> ![updated workflow section](/Images/Learn/workflow_tool_your_workflows_in_tool_panel.png) <br />*updated tool panel **workflow section***</div>
+<div class='indent'> ![updated workflow section](/src/Images/Learn/workflow_tool_your_workflows_in_tool_panel.png) <br />*updated tool panel **workflow section***</div>
 
 <br />
 
 Then launch the workflow by clicking on the name. 
 
-<div class='indent'> ![run a workflow from tool panel](/Images/Learn/workflow_tool_run_from_tool_panel.png) <br />***run a workflow** from **tool panel***</div>
+<div class='indent'> ![run a workflow from tool panel](/src/Images/Learn/workflow_tool_run_from_tool_panel.png) <br />***run a workflow** from **tool panel***</div>
 
 ### Editing to Hide Intermediate Steps
 
 Too many steps displayed by default in the history after running a workflow "tool"? Consider hiding the intermediate steps. How many to display/hide depends on what is important to access or visualize in the history as an active dataset. Often just the last step is wanted as a result. 
 
-Start by entering the **Workflow Editor** for the target workflow, then follow these instructions:  **[Basic Editing, Hidden Datasets](/Learn/AdvancedWorkflow/BasicEditing#hidden_datasets)**
+Start by entering the **Workflow Editor** for the target workflow, then follow these instructions:  **[Basic Editing, Hidden Datasets](/src/Learn/AdvancedWorkflow/BasicEditing/index.md#hidden_datasets)**
 
 Not sure how to access or use the editor? That same wiki has all the help you need to get started.
 

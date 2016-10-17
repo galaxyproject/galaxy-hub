@@ -14,6 +14,6 @@ This page links to workshop materials for different topics.  That material can b
 
 However, right now it's empty.  Until we get something more here, see
 
-* [Learning Galaxy Hub Pages](/Learn)
-  * especially the [Other Tutorials](/Learn#other-tutorials) list
-* [Past Events list](/Events#past-events) and [Events Archive](/Events/Archive), many of which include slides, exercises and other workshop material.
+* [Learning Galaxy Hub Pages](/src/Learn/index.md)
+  * especially the [Other Tutorials](/src/Learn/index.md#other-tutorials) list
+* [Past Events list](/Events#past-events) and [Events Archive](/src/Events/Archive/index.md), many of which include slides, exercises and other workshop material.

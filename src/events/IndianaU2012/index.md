@@ -35,7 +35,7 @@ There will be three Galaxy-related events on the Indiana University Bloomington 
 
 <div class='indent'>
 **1:30pm-2:30pm, October 19, Jordan Hall 065**<br />
-**[Dave Clements](/DaveClements)**<br />
+**[Dave Clements](/src/DaveClements/index.md)**<br />
 **Emory University**<br /><br />
 
 [Slides](ATTACHMENT_URLDocuments/Presentations/2012_IndianaU.pdf)
@@ -52,7 +52,7 @@ The talk is open to the public.  No advance registration is required.
 
 <div class='indent'>
 **3:00pm-4:30pm, October 19, Lindley 102**<br />
-**[Dave Clements](/DaveClements)**<br />
+**[Dave Clements](/src/DaveClements/index.md)**<br />
 **Emory University**<br /><br />
 
 [Slides](ATTACHMENT_URLDocuments/Presentations/2012IndianaUGalaxyForBiologists.pdf)
@@ -108,10 +108,10 @@ This is a hands-on workshop.  **Please bring a wifi-enabled laptop with a curren
 
 <div class='indent'>
 **9:30am-11:30am (note new time), October 19, PTI 015** in the [Cyberinfrastructure Building](http://it.iu.edu/cib/)<br />
-**[Dave Clements](/DaveClements)**<br />
+**[Dave Clements](/src/DaveClements/index.md)**<br />
 **Emory University**<br /><br />
 
-This workshop will introduce Galaxy for developers.  This includes covering the Galaxy API, Galaxy Architecture, configuring Galaxy for a production environment.  This will be more informal than the *Galaxy for Biologists* workshop and will cover topics that are of most interest to attendees.  [Dave Clements](/DaveClements) of the Galaxy Project will lead the workshop and we will be joined remotely by [Nate Coraor](/nate) and [Dannon Baker](/DannonBaker) of the Galaxy development team.
+This workshop will introduce Galaxy for developers.  This includes covering the Galaxy API, Galaxy Architecture, configuring Galaxy for a production environment.  This will be more informal than the *Galaxy for Biologists* workshop and will cover topics that are of most interest to attendees.  [Dave Clements](/DaveClements) of the Galaxy Project will lead the workshop and we will be joined remotely by [Nate Coraor](/nate) and [Dannon Baker](/src/DannonBaker/index.md) of the Galaxy development team.
 
 *Registration is open to any member of the Indiana University community. The workshop is free, but space is limited and advanced registration is required.*
 </div>

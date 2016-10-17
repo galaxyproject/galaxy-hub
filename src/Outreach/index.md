@@ -5,13 +5,13 @@
 There are a number of resources available to help connect researchers and developers with Galaxy.  Broadening Galaxy's reach serves several interrelated purposes:
 
 1. People can't use Galaxy unless they know about it.  It's a sinking feeling to get the results of your first run from the sequencing center and then not know how to exploit that data.  By spreading the word, we can make sure that researchers know about Galaxy and how it can help them with data analysis.
-1. Increased visibility leads to increased adoption of Galaxy, and that in turn leads to more people [contributing back to Galaxy](/GetInvolved).
+1. Increased visibility leads to increased adoption of Galaxy, and that in turn leads to more people [contributing back to Galaxy](/src/GetInvolved/index.md).
 1. Increased adoption and development help with funding.
 
 
 ## Citing Galaxy
 
-[Citing Galaxy](/CitingGalaxy) in your papers and presentations is an easy way to increase Galaxy's visibility and helps enormously with grants.  The Galaxy project and Galaxy users have published numerous papers on Galaxy and analyses that use Galaxy.  See [Citing Galaxy](/CitingGalaxy) for a partial list of papers and guidelines for citing Galaxy web sites.
+[Citing Galaxy](/src/CitingGalaxy/index.md) in your papers and presentations is an easy way to increase Galaxy's visibility and helps enormously with grants.  The Galaxy project and Galaxy users have published numerous papers on Galaxy and analyses that use Galaxy.  See [Citing Galaxy](/src/CitingGalaxy/index.md) for a partial list of papers and guidelines for citing Galaxy web sites.
 
 ### Powered by Galaxy
 <div class='left'>
@@ -23,7 +23,7 @@ There are a number of resources available to help connect researchers and develo
 
 <div class='right'><a href='/Images/GalaxyLogos'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Logos' height="50" /></a></div>
 
-The [Images/GalaxyLogos page](/Images/GalaxyLogos) lists current Galaxy Project logos.  The [/Images](/Images) hierarchy (of which [Images/GalaxyLogos](/Images/GalaxyLogos) is a part) also lists many related [logos](/Images/Logos), [icons](/Images/Icons) and [screenshots](/Images/Screenshots) that can be included in your presentations and posters.
+The [Images/GalaxyLogos page](/Images/GalaxyLogos) lists current Galaxy Project logos.  The [/Images](/Images) hierarchy (of which [Images/GalaxyLogos](/Images/GalaxyLogos) is a part) also lists many related [logos](/Images/Logos), [icons](/Images/Icons) and [screenshots](/src/Images/Screenshots/index.md) that can be included in your presentations and posters.
 
 ## Speakers
 <div class='left'>![](/GalaxySpeaker.jpg)</div>
@@ -39,7 +39,7 @@ The [Images/GalaxyLogos page](/Images/GalaxyLogos) lists current Galaxy Project 
 
 </div>
 
-Speakers are available to give presentations at your institution or event. These can be overview talks or cover specific details or research topics.  In terms of style, presentations can take the form of short talks, workshops with multiple speakers, or even highly interactive and hands-on tutorials.  See [/Events](/Events) for a list of recent and upcoming activity.
+Speakers are available to give presentations at your institution or event. These can be overview talks or cover specific details or research topics.  In terms of style, presentations can take the form of short talks, workshops with multiple speakers, or even highly interactive and hands-on tutorials.  See [/Events](/src/Events/index.md) for a list of recent and upcoming activity.
 
 Please contact outreach@galaxyproject.org if you are interested in arranging for a speaker to present at your institution or event. 
 
@@ -47,9 +47,9 @@ Please contact outreach@galaxyproject.org if you are interested in arranging for
 
 If you are giving a presentation or event with significant Galaxy related content, we can help you spread the word about it in a number of ways:
 
-* Announce it to the appropriate [Mailing Lists](/MailingLists).
-* Post it the [Galaxy News page and RSS feed](/News).
-* Add it to the Galaxy [/Events](/Events) page and Galaxy Calendar.
+* Announce it to the appropriate [Mailing Lists](/src/MailingLists/index.md).
+* Post it the [Galaxy News page and RSS feed](/src/News/index.md).
+* Add it to the Galaxy [/Events](/src/Events/index.md) page and Galaxy Calendar.
 
 If you are organizing or presenting at an event with significant Galaxy content, then we're happy to create both a wiki page and a flier for the event in order to highlight that content. See [/Events/ISMB-ECCB-BOSC 2011](/Events/ISMB-ECCB-BOSC 2011) for an example.
 

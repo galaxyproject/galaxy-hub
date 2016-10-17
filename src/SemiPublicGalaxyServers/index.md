@@ -12,7 +12,7 @@ title: Semi, -, Public Galaxy Services
 </div>
 
 
-Galaxy Servers are available in all sorts of flavors:  This page lists Galaxy servers that aren't [fully publicly accessible](/PublicGalaxyServers), but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
+Galaxy Servers are available in all sorts of flavors:  This page lists Galaxy servers that aren't [fully publicly accessible](/src/PublicGalaxyServers/index.md), but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
 
 Servers are classified here by whom they are accessible to.  This can be based on research domain, geography (regional or national), or by membership in a multi-organization association that provides Galaxy Servers. 
 
@@ -126,14 +126,14 @@ Servers are classified here by whom they are accessible to.  This can be based o
 <div class='right solid'><a href='https://galaxy.plgrid.pl'><img src='/Images/Logos/JetstreamRectClipped.jpg' alt='Jetstream' width="280" /></a></div>
 
 * *Links:*
-  * **[Galaxy on Jetstream](/Cloud/Jetstream)**
+  * **[Galaxy on Jetstream](/src/Cloud/Jetstream/index.md)**
 * *Eligibility:*
   * [Jetstream](http://jetstream-cloud.org/) is part of [XSEDE](https://www.xsede.org/), a "collection of integrated advanced digital resources and services" and is funded by NSF.  You need to be eligible for an [XSEDE allocation](https://portal.xsede.org/allocation-policies) to use Jetstream, which means must be based at a U.S. institution. And although XSEDE is NSF-funded, "projects need not be supported by NSF grants" to receive an allocation.
 * *Comments:*
-  * Jetstream enables researchers to launch, use, and shutdown their own Galaxy servers that have been pre-configured similar to the [Main Galaxy server](https://usegalaxy.org/). If you want to further customize your launched server you can [become an administrator](/Cloud/Jetstream/ssh#adding_galaxy_admin_user) and even [access the server from the shell](/Cloud/Jetstream/ssh).
+  * Jetstream enables researchers to launch, use, and shutdown their own Galaxy servers that have been pre-configured similar to the [Main Galaxy server](https://usegalaxy.org/). If you want to further customize your launched server you can [become an administrator](/Cloud/Jetstream/ssh#adding_galaxy_admin_user) and even [access the server from the shell](/src/Cloud/Jetstream/ssh/index.md).
 * *User Support:*
-  * See the [Galaxy on Jetstream documentation](/Cloud/Jetstream)
-  * [FAQ](/Cloud/Jetstream/FAQ)
+  * See the [Galaxy on Jetstream documentation](/src/Cloud/Jetstream/index.md)
+  * [FAQ](/src/Cloud/Jetstream/FAQ/index.md)
 * *Quotas:* 
   * Limits are determined by the size of your allocation and the size of the instances you launch.
 * *Sponsor(s):*

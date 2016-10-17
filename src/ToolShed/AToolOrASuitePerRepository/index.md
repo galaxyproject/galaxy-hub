@@ -23,14 +23,14 @@ Many tool developers in the Galaxy community question the best way to organize t
 
 # Related pages
 
-* [Tool shed features for Galaxy tools](/ToolShedToolFeatures) - the primary intent of the tool shed is for sharing Galaxy tools, workflows and other useful Galaxy utilities.  Galaxy tools are generally developed within a local Galaxy environment, proven to be functionally correct within that environment, and then uploaded to a tool shed for sharing.  With a couple of exceptions, tool features are defined within the Galaxy framework, and have nothing to do with the tool shed.  This document describes those exceptions.
+* [Tool shed features for Galaxy tools](/src/ToolShedToolFeatures/index.md) - the primary intent of the tool shed is for sharing Galaxy tools, workflows and other useful Galaxy utilities.  Galaxy tools are generally developed within a local Galaxy environment, proven to be functionally correct within that environment, and then uploaded to a tool shed for sharing.  With a couple of exceptions, tool features are defined within the Galaxy framework, and have nothing to do with the tool shed.  This document describes those exceptions.
 
-* [Including installation information or 3rd-party tool dependency licensing information in your repository](/ToolShedReadmeFiles) - this document provides the details for a simple feature of the tool shed that enables displaying the license information (or possibly other kinds of information) for tools included in a repository.
+* [Including installation information or 3rd-party tool dependency licensing information in your repository](/src/ToolShedReadmeFiles/index.md) - this document provides the details for a simple feature of the tool shed that enables displaying the license information (or possibly other kinds of information) for tools included in a repository.
 
-* [Tool shed features for Galaxy datatypes](/ToolShedDatatypesFeatures) - this document provides information for how to include your proprietary Galaxy datatypes (upon which your Galaxy tools depend) in a repository in the tool shed.
+* [Tool shed features for Galaxy datatypes](/src/ToolShedDatatypesFeatures/index.md) - this document provides information for how to include your proprietary Galaxy datatypes (upon which your Galaxy tools depend) in a repository in the tool shed.
 
-* [Defining repository dependencies](/DefiningRepositoryDependencies) - this document provides information about how to define dependencies [for a repository] on any number of additional, separate repositories.
+* [Defining repository dependencies](/src/DefiningRepositoryDependencies/index.md) - this document provides information about how to define dependencies [for a repository] on any number of additional, separate repositories.
 
-* [Including functional test for your tools](/TestingInstalledTools) - this document provides details for including input and output datasets in your repository for functional tests defined in tool config files included in the repository.
+* [Including functional test for your tools](/src/TestingInstalledTools/index.md) - this document provides details for including input and output datasets in your repository for functional tests defined in tool config files included in the repository.
 
-* [Enabling workflow sharing](/ToolShedWorkflowSharing) - this document describes how the tool shed enables sharing Galaxy workflows.
+* [Enabling workflow sharing](/src/ToolShedWorkflowSharing/index.md) - this document describes how the tool shed enables sharing Galaxy workflows.

@@ -1,7 +1,7 @@
 ---
 date: 2015-11-10T00:46:25Z
 ---
-<div class='newsItemHeader'>[Software Engineer, OHSU, Portland, OR](/News/SoftwareEngineerOHSU)</div>
+<div class='newsItemHeader'>[Software Engineer, OHSU, Portland, OR](/src/News/SoftwareEngineerOHSU/index.md)</div>
 
 [Software Engineering Position](http://bit.ly/1No20rs) at [Oregon Health and Science University](http://ohsu.edu). People interested in Galaxy and large scale workflow deployment are [encouraged to apply](http://bit.ly/1No20rs). The Computational Biology Program at Oregon Health and Science University (OHSU), Portland, Oregon is committed to leading the development of next-generation patient care through discoveries made by big data analytics, enabled by values of open access data, open source code, highly collaborative team science, and professional software engineering methodologies. 
 

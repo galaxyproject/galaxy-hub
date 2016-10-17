@@ -8,7 +8,7 @@ Galaxy data libraries provide a way to conveniently share Galaxy datasets within
 
 ### Introduction
 
-Data library can be described as a folder that contains datasets and other folders. It has to be created by an [/Admin](/Admin) user.
+Data library can be described as a folder that contains datasets and other folders. It has to be created by an [/Admin](/src/Admin/index.md) user.
 
 ### Note on administering DL
 When a data library is first created, it is considered "public" since it will be displayed in the "Data Libraries" view for any user, even 
@@ -36,6 +36,6 @@ approach allows for multiple users to use a single (possibly very large) dataset
 PLACEHOLDER_INCLUDE(/DataLibraries/screen/LinkBox)
 ### Library screens
 
-* [list of libraries](/DataLibraries/screen/ListOfLibraries)
-* [folder contents](/DataLibraries/screen/FolderContents)
+* [list of libraries](/src/DataLibraries/screen/ListOfLibraries/index.md)
+* [folder contents](/src/DataLibraries/screen/FolderContents/index.md)
 * [dataset detail](/DataLibraries/screen/DatasetDetail)

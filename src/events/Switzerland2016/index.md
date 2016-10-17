@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/Events/SG2016/Header)
 
 PLACEHOLDER_INCLUDE(/Events/SG2016/LinkBox)
 
-After the big success of the [first Swiss Galaxy Workshop](/Events/Switzerland2012) and the [second Swiss Galaxy Workshop](/Events/Switzerland2014), we are going to organize a similar event again in fall 2016.
+After the big success of the [first Swiss Galaxy Workshop](/Events/Switzerland2012) and the [second Swiss Galaxy Workshop](/src/Events/Switzerland2014/index.md), we are going to organize a similar event again in fall 2016.
 
 
 ## Topic of the Workshop
@@ -16,7 +16,7 @@ This year, the workshop is aimed at Galaxy administrators and will collocate wit
 
 ## Speakers and Topics
 
- [Dannon Baker](/DannonBaker) 
+ [Dannon Baker](/src/DannonBaker/index.md) 
    State of the Galaxy Project - priorities, plans, and community
 
  Andreas Tille
@@ -28,13 +28,13 @@ This year, the workshop is aimed at Galaxy administrators and will collocate wit
  Devon Ryan 
    deepTools and HiCExplorer
  Nicola Soranzo 
-   News from the [/IUC](/IUC) and the Galaxy tool ecosystem
- [Björn Grüning](/BjoernGruening)
+   News from the [/IUC](/src/IUC/index.md) and the Galaxy tool ecosystem
+ [Björn Grüning](/src/BjoernGruening/index.md)
    Fixing Bioinformatic Infrastructure
- [Hans-Rudolf Hotz](/HansrudolfHotz) 
+ [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) 
    Moving an old Galaxy server to new hardware
  Bérénice Batut 
-   [Galaxy Training Network](/Teach/GTN) - rebooted
+   [Galaxy Training Network](/src/Teach/GTN/index.md) - rebooted
 
 (These will be slotted into the schedule soon.)
 
@@ -60,4 +60,4 @@ This year, the workshop is aimed at Galaxy administrators and will collocate wit
 The workshop will be held at the Universität of Freiburg in Germany (see the [main page](/Events/SG2016) for details). Registration is free, and you can sign-up [here](https://docs.google.com/forms/d/1mRO4uNXQd8jL1I9JNiQ4xd0fnrZKlQPQSORgJCpDeqg).
 
 ## Questions?
-Contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/BjoernGruening)
+Contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/src/BjoernGruening/index.md)

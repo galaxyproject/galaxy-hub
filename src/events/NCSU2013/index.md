@@ -8,7 +8,7 @@
 
 <div class='title'>Introduction to Galaxy<br />July 22, 2013</div>
 
-**Instructor: [Dave Clements](/DaveClements)
+**Instructor: [Dave Clements](/src/DaveClements/index.md)
 
 9:00-4:45<br />
 [3503 Thomas Hall (The Stephens Room)](http://harvest.cals.ncsu.edu/caat/index.cfm?pageID=1331)<br />
@@ -96,7 +96,7 @@ No programming or Linux command line experience is required.
 
 <div class='right'><a href='http://cals.ncsu.edu/genetics/index.php'><img src='/Images/Logos/NCSUGeneticsLogo148.png' alt='NCSU Department of Genetics'  /></a> <a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' width="130px" /></a></div>
 
-This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [NCSU Department of Genetics](http://cals.ncsu.edu/genetics/index.php).  This workshop is part of the [2013 Research Triangle Galaxy Workshop Tour](/Events/RTWorkshopTour2013).
+This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [NCSU Department of Genetics](http://cals.ncsu.edu/genetics/index.php).  This workshop is part of the [2013 Research Triangle Galaxy Workshop Tour](/src/Events/RTWorkshopTour2013/index.md).
 
 ## Slides
 

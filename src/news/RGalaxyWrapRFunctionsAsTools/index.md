@@ -1,7 +1,7 @@
 ---
 date: 2012-06-28T17:57:47Z
 ---
-<div class='newsItemHeader'>[RGalaxy: Wrap R Functions as Tools](/News/RGalaxyWrapRFunctionsAsTools)</div>
+<div class='newsItemHeader'>[RGalaxy: Wrap R Functions as Tools](/src/News/RGalaxyWrapRFunctionsAsTools/index.md)</div>
 
 <div class='right'><a href='http://bioconductor.org/packages/2.11/bioc/html/RGalaxy.html'><img src='/Images/Logos/BioconductorLogo.gif' alt='RGalaxy Bioconductor Package' width="200" /></a></div>
 

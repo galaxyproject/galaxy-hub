@@ -44,7 +44,7 @@ With this method there will be some delay in creating the BoF page, and less con
 
 The BoF will be added to the wiki immediately. This requires a wiki account. 
 
-1. [Login|&action=login](/Events/GCC2015/BoFs) to the wiki. If you don't have an account, you'll need to [create one|&action=newaccount](/Events/GCC2015/BoFs).
+1. [Login|&action=login](/src/Events/GCC2015/BoFs/index.md) to the wiki. If you don't have an account, you'll need to [create one|&action=newaccount](/src/Events/GCC2015/BoFs/index.md).
 1. Pick a good descriptive, !CamelCase name for your BoF's wiki page.  This will become part of the URL for the page describing your BoF.  Avoid embedded spaces as they make lousy URLs.
 1. **Enter the !CamelCase name** in box below and hit the "Create" button.
     . PLACEHOLDER_NEW_PAGE(Events/GCC2015/BoF/BoFTemplate, "Create a Birds of a Feather wiki page", Events/GCC2015/BoFs)

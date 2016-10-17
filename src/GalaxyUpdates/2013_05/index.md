@@ -8,7 +8,7 @@ title: May 2013 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the May 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the May 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -54,7 +54,7 @@ Welcome to the May 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of 
 
 39 new papers were added to the Galaxy CiteULike Group in April, including:
 
-* [BioBlend: automating pipeline analyses within Galaxy and CloudMan](http://dx.doi.org/10.1093/bioinformatics/btt199), by Clare Sloggett, Nuwan Goonasekera, [Enis Afgan](/EnisAfgan), Bioinformatics (28 April 2013)
+* [BioBlend: automating pipeline analyses within Galaxy and CloudMan](http://dx.doi.org/10.1093/bioinformatics/btt199), by Clare Sloggett, Nuwan Goonasekera, [Enis Afgan](/src/EnisAfgan/index.md), Bioinformatics (28 April 2013)
 
 There are now over [950 papers in the Galaxy CiteULike Group](http://www.citeulike.org/group/16008/).
 
@@ -66,12 +66,12 @@ There are now over [950 papers in the Galaxy CiteULike Group](http://www.citeuli
 
 The Galaxy is expanding! Please help it grow.
 
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)!** at both Emory and Penn State.
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)!** at both Emory and Penn State.
 * [Senior Developer](http://www.nature.com/naturejobs/science/jobs/321283-Senior-Developer-Stem-Cell-Bioinformatics-Core), Stem Cell Bioinformatics Core, Sage Bionetworks, Seattle, WA, United States
 * Two openings @ LSU: [Bioinformatics Support Group Leader](http://bit.ly/VkRtrb) and [Post-doc/Res Assoc](http://bit.ly/12ipJHZ)
 * [Bioinformatics Trainer/Analyst](http://bit.ly/14xgrVK), [Morgridge Institute for Research](http://discovery.wisc.edu/morgridge/), Madison, Wisconsin, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 
 ## GCC2013
@@ -91,23 +91,23 @@ The [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013) will be held 3
 
 <div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
 
-[GCC2013](/Events/GCC2013) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/Events/GCC2013/TrainingDay) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
+[GCC2013](/Events/GCC2013) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/src/Events/GCC2013/TrainingDay/index.md) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
 
-**[Register early](/Events/GCC2013/Register)** and *save up to 75% off regular registration costs.*  Early registration is very affordable, with combined registration ([Training Day](/Events/GCC2013/TrainingDay) + main meeting) starting at ~ €95 for post-docs and students.  Registering early also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Early registration closes 24 May.
+**[Register early](/Events/GCC2013/Register)** and *save up to 75% off regular registration costs.*  Early registration is very affordable, with combined registration ([Training Day](/src/Events/GCC2013/TrainingDay/index.md) + main meeting) starting at ~ €95 for post-docs and students.  Registering early also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Early registration closes 24 May.
 
 ### Birds of a Feather Sessions
 
 <div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="180" /></a></div>
 
-Past Galaxy Community Conferences have been *the* event for networking in the Galaxy: There is no better place to meet and learn from others doing high-throughput biology.  GCC2013 will extend this tradition by including *[Birds of a Feather (BoF)](/Events/GCC2013/BoF)* meetups at the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  If you have something you want to meet about, please start or join a [GCC2013 BoF](/Events/GCC2013/BoF).
+Past Galaxy Community Conferences have been *the* event for networking in the Galaxy: There is no better place to meet and learn from others doing high-throughput biology.  GCC2013 will extend this tradition by including *[Birds of a Feather (BoF)](/src/Events/GCC2013/BoF/index.md)* meetups at the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  If you have something you want to meet about, please start or join a [GCC2013 BoF](/src/Events/GCC2013/BoF/index.md).
 
 ### Sponsorships
 
 <div class='right'><a href='http://bit.ly/11VvkxL'><img src='/Images/Logos/GlobusGenomics.png' alt='Globus Genomics' width="150" /></a></div>
 
-We are pleased to announce that [Globus Genomics](http://bit.ly/11VvkxL) is a [Bronze Sponsor of GCC2013](/Events/GCC2013/Sponsorships). 
+We are pleased to announce that [Globus Genomics](http://bit.ly/11VvkxL) is a [Bronze Sponsor of GCC2013](/src/Events/GCC2013/Sponsorships/index.md). 
 
-There are still several [sponsorships](/Events/GCC2013/Sponsorships) still available. Please contact the [Organizers](/Events/GCC2013/Organizers) if your organization would like to help sponsor this event. 
+There are still several [sponsorships](/Events/GCC2013/Sponsorships) still available. Please contact the [Organizers](/src/Events/GCC2013/Organizers/index.md) if your organization would like to help sponsor this event. 
 
 
 ## Other Upcoming Events
@@ -219,11 +219,11 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 <div class='right'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' height="50" /></a></div>
 
-The next [GalaxyAdmins Meetup will be May 15](/Community/GalaxyAdmins/Meetups/2013_05_15) at 10 am central US time.  Watch your email for details.
+The next [GalaxyAdmins Meetup will be May 15](/src/Community/GalaxyAdmins/Meetups/2013_05_15/index.md) at 10 am central US time.  Watch your email for details.
 
 ## Galaxy Distributions
 
-The most recent official distribution was on [April 1, 2013](/DevNewsBriefs/2013_04_01).  However, [a security update was released on April 8](/News/2013_04_08_Galaxy_Security_Release).  See [this news item](/News/2013_04_08_Galaxy_Security_Release) for details.
+The most recent official distribution was on [April 1, 2013](/DevNewsBriefs/2013_04_01).  However, [a security update was released on April 8](/src/News/2013_04_08_Galaxy_Security_Release/index.md).  See [this news item](/src/News/2013_04_08_Galaxy_Security_Release/index.md) for details.
 
 ## Tool Shed Contributions
 
@@ -236,6 +236,6 @@ The most recent official distribution was on [April 1, 2013](/DevNewsBriefs/2013
 
 * [Computation Institute Launches Sequencing Analysis Service](http://bit.ly/124cPKs)
 * The Tuxedo RNA-Seq analysis tool set (Bowtie, Tophat, Cufflinks, Cuffmerge, ...) now has a [user support forum](http://bit.ly/tuxedornaseq). 
-* [Environmental Metabolomics Collaboration](/News/EnvironmentalMetabolomicsCollaboration)
-* [Galaxy will be well-represented at ASMS](/News/GalaxyAtASMS2013)
+* [Environmental Metabolomics Collaboration](/src/News/EnvironmentalMetabolomicsCollaboration/index.md)
+* [Galaxy will be well-represented at ASMS](/src/News/GalaxyAtASMS2013/index.md)
 * [Ruby script for managing bundling of Galaxy tool repositories](http://bit.ly/YlMSW1) by Ira Cooke

@@ -10,7 +10,7 @@ title: Sigenae Bioinfo, -, Genotoul
 
 
 <div class='deploymentbox'>
- Deployment:: **[Sigenae Bioinfo-Genotoul](/Community/Deployment/SigenaeBioinfo-Genotoul)**
+ Deployment:: **[Sigenae Bioinfo-Genotoul](/src/Community/Deployment/SigenaeBioinfo-Genotoul/index.md)**
  Domain:: Genomics, esp. read alignment, SNP calling and annotation, RNA-Seq, and sRNAseq
  Owners:: [Sigenae Team](http://www.sigenae.org/), [GenoToul Bioinfo](http://bioinfo.genotoul.fr/)
  Audience:: bioinfo gentoul and INRA researchers and collaborators   

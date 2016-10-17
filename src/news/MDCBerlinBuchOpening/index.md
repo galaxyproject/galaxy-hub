@@ -1,7 +1,7 @@
 ---
 date: 2015-01-17T00:38:35Z
 ---
-<div class='newsItemHeader'>[Bioinformatician, MDC Berlin-Buch](/News/MDCBerlinBuchOpening)</div>
+<div class='newsItemHeader'>[Bioinformatician, MDC Berlin-Buch](/src/News/MDCBerlinBuchOpening/index.md)</div>
 
 **Bioinformatics scientist/engineer for RNA bioinformatics and next-generation sequencing Berlin**
 

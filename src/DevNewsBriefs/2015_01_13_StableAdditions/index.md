@@ -1,12 +1,12 @@
 # Updates added to the last Galaxy Distribution listed below
 These represent changes introduced after the initial release. May also be tracked in [Trello](https://trello.com/galaxyproject).<br />
 
-[back to all News Briefs](/DevNewsBriefs)
+[back to all News Briefs](/src/DevNewsBriefs/index.md)
 
 ## Review prior distribution
 
-* [January 13, 2015 Galaxy Distribution News Brief](/DevNewsBriefs/2015_01_13)
-* [January 13, 2015 Galaxy Distribution Summary](/News/2015_01_13_Galaxy_Distribution)
+* [January 13, 2015 Galaxy Distribution News Brief](/src/DevNewsBriefs/2015_01_13/index.md)
+* [January 13, 2015 Galaxy Distribution Summary](/src/News/2015_01_13_Galaxy_Distribution/index.md)
 
 
 ## New
@@ -41,5 +41,5 @@ These represent changes introduced after the initial release. May also be tracke
 
 
 <br /><br /><br />
-[back to all News Briefs](/DevNewsBriefs)
+[back to all News Briefs](/src/DevNewsBriefs/index.md)
 <br /><br />

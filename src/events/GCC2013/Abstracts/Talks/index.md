@@ -40,7 +40,7 @@ Victoria is an assistant professor of [Statistics](http://www.stat.columbia.edu/
 
 <div class='right'><a href='/RossLazarus'><img src='/GalaxyTeam/ross.jpg' alt='' width="120" /></a></div>
 
-**[Ross Lazarus](/RossLazarus)<sup>1</sup>**, Antony Kaspi<sup>1</sup>, Mark Ziemann<sup>1</sup> and The [Galaxy Team](/GalaxyTeam) <sup>2</sup>.
+**[Ross Lazarus](/RossLazarus)<sup>1</sup>**, Antony Kaspi<sup>1</sup>, Mark Ziemann<sup>1</sup> and The [Galaxy Team](/src/GalaxyTeam/index.md) <sup>2</sup>.
 
  <sup>1</sup> BakerIDI Heart and Diabetes Research Institute, 75 Commercial Rd, Melbourne, VIC 3004, Australia<br />
  <sup>2</sup> http://wiki.galaxyproject.org/GalaxyTeam
@@ -257,7 +257,7 @@ We show examples of spatial co-localization of chromatin states and fusion trans
  
 <div class='right'>![](/MikeLelivelt/pic.png)</div>
 
-**[Mike Lelivelt](/MikeLelivelt)<sup>1</sup>**
+**[Mike Lelivelt](/src/MikeLelivelt/index.md)<sup>1</sup>**
 
  <sup>1</sup> Director of Bioinformatics and Software Products, [Ion Torrent, part of Life Technologies](http://lifetech.com) 
 
@@ -269,9 +269,9 @@ Ion Torrent has invented the first device—a new semiconductor chip—capable o
 
 ### State of the Galaxy
 
-<div class='right'>![](/GalaxyTeam/anton.jpg)&nbsp;![](/GalaxyTeam/james.jpg)</div>
+<div class='right'>![](/GalaxyTeam/anton.jpg)&nbsp;![](/src/GalaxyTeam/james.jpg)</div>
 
-**[Anton Nekrutenko](/anton)<sup>1</sup> and [James Taylor](/JamesTaylor)<sup>2</sup>**
+**[Anton Nekrutenko](/anton)<sup>1</sup> and [James Taylor](/src/JamesTaylor/index.md)<sup>2</sup>**
 
  <sup>1</sup> [Penn State University](http://psu.edu/)<br />
  <sup>2</sup> [Emory University](http://emory.edu/)
@@ -284,7 +284,7 @@ An overview of where the Galaxy Project is and where it is going.
 
 ### BioBlend - automating bioinformatics with Galaxy and CloudMan
 
-**Clare Sloggett**<sup>1</sup>, [Nuwan Goonasekera](http://versi.edu.au/about-us/versi-team#Nuwan)<sup>1,2,4</sup>, [Enis Afgan](/EnisAfgan)<sup>1,3,4</sup>
+**Clare Sloggett**<sup>1</sup>, [Nuwan Goonasekera](http://versi.edu.au/about-us/versi-team#Nuwan)<sup>1,2,4</sup>, [Enis Afgan](/src/EnisAfgan/index.md)<sup>1,3,4</sup>
 
  <sup>1</sup> Victorian Life Sciences Computation Initiative (VLSCI), University of Melbourne<br />
  <sup>2</sup> Victorian eResearch Strategic Initiative (VeRSI), University of Melbourne, Melbourne, Australia<br />
@@ -367,7 +367,7 @@ In this talk, we will present Globus Genomics which is a robust, scalable, and f
 
 <div class='right'><a href='/JohnChilton'><img src='/JohnChilton.jpg' alt='' width="100" /></a></div>
 
-**[John Chilton](/JohnChilton)**<sup>1</sup>, James Johnson<sup>1</sup>, Getiria Onsongo<sup>1</sup>, Ebbing de Jong<sup>1</sup>, Pratik Jagtap<sup>1</sup>, Timothy Griffin<sup>2</sup>
+**[John Chilton](/src/JohnChilton/index.md)**<sup>1</sup>, James Johnson<sup>1</sup>, Getiria Onsongo<sup>1</sup>, Ebbing de Jong<sup>1</sup>, Pratik Jagtap<sup>1</sup>, Timothy Griffin<sup>2</sup>
 
  <sup>1</sup> University of Minnesota Supercomputing Institute, Minneapolis, Minnesota, USA<br />
  <sup>2</sup> University of Minnesota, Minneapolis, Minnesota, USA
@@ -407,9 +407,9 @@ The experience gave us new perspectives to improve our development and productio
 
 ### The Clinical Galaxy: A validated platform initiative
 
-<div class='right'>![SanjayJoshi](/SanjayJoshi/SanjayJoshi.png)</div>
+<div class='right'>![SanjayJoshi](/src/SanjayJoshi/SanjayJoshi.png)</div>
 
-**[Sanjay Joshi](/SanjayJoshi)**
+**[Sanjay Joshi](/src/SanjayJoshi/index.md)**
 
  Chief Technical Officer (CTO), [Life Sciences](http://www.isilon.com/industry/lifesciences). [EMC Isilon Storage Division](http://www.emc.com/isilon)
 
@@ -429,7 +429,7 @@ We will present an overview of the requirements to move Galaxy into the Clinical
 
 <div class='right'><a href='/Dan'><img src='/GalaxyTeam/greg.jpg' alt='Greg Von Kuster' width="120" /></a></div>
 
-**[Greg von Kuster](/greg_vonkuster)**, [Daniel Blankenberg](/Dan)
+**[Greg von Kuster](/greg_vonkuster)**, [Daniel Blankenberg](/src/Dan/index.md)
  Penn State / Galaxy Team
 
 *[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/VonKusterToolShed.pdf), [Vimeo](https://vimeo.com/74347850)*
@@ -450,14 +450,14 @@ To ensure the quality of the Tool Shed and the available contributed Utilities, 
 
 <div class='right'><a href='/CarlEberhard'><img src='/GalaxyTeam/carl.jpg' alt='' width="120" /></a></div>
 
-**[Carl Eberhard](/CarlEberhard)**<sup>1</sup>, [Jeremy Goecks](/JeremyGoecks)<sup>1</sup>, [The Galaxy Team](/GalaxyTeam)<sup>1,2</sup>, [Anton Nekrutenko](/anton)<sup>2</sup>, and [James Taylor](/JamesTaylor)<sup>1</sup>
+**[Carl Eberhard](/CarlEberhard)**<sup>1</sup>, [Jeremy Goecks](/JeremyGoecks)<sup>1</sup>, [The Galaxy Team](/GalaxyTeam)<sup>1,2</sup>, [Anton Nekrutenko](/anton)<sup>2</sup>, and [James Taylor](/src/JamesTaylor/index.md)<sup>1</sup>
 
  <sup>1</sup> Emory University<br />
  <sup>2</sup> Penn State University
 
 *[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/EberhardCreateViz.pdf), [Vimeo](https://vimeo.com/74330774)*
 
-Visualization plays an integral role in scientific investigation. Visualization is useful for viewing large amounts of data simultaneously, observing patterns and outliers amongst data, and communicating findings to others. To make visualization easier and more powerful in Galaxy, we have create a framework for integrating Web-based visualizations into Galaxy. Just as tools can be easily added to Galaxy, visualizations can now be added as well. Visualizations can be easily accessed via an icon in the history panel’s stored datasets. Galaxy visualizations have many advantages: (i) they can be made highly interactive and customizable; (ii) they require no software or data downloads, and (iii) they can be saved, shared via URL, and included in [Galaxy Pages](/Learn/GalaxyPages) — and shared/included visualization are fully interactive.
+Visualization plays an integral role in scientific investigation. Visualization is useful for viewing large amounts of data simultaneously, observing patterns and outliers amongst data, and communicating findings to others. To make visualization easier and more powerful in Galaxy, we have create a framework for integrating Web-based visualizations into Galaxy. Just as tools can be easily added to Galaxy, visualizations can now be added as well. Visualizations can be easily accessed via an icon in the history panel’s stored datasets. Galaxy visualizations have many advantages: (i) they can be made highly interactive and customizable; (ii) they require no software or data downloads, and (iii) they can be saved, shared via URL, and included in [Galaxy Pages](/src/Learn/GalaxyPages/index.md) — and shared/included visualization are fully interactive.
 
 In this talk, we describe how to create your own visualization for Galaxy. We provide an overview of how to query datasets in Galaxy for both aggregate data as well as individual data points and how to add a data provider for your own data type. Galaxy includes data providers for SAM/BAM, BED, Interval, GFF/GTF, VCF, !BedGraph, Wiggle, and !BigWig/BigBed. We also discuss Galaxy !JavaScript libraries that can be used to create Web-based visualizations. These libraries include support for creating and saving visualizations, for  querying and caching data from Galaxy datasets, and for working with Galaxy tools and genome data. Finally, we introduce an XML data format for configuring a visualization to work with Galaxy.
 
@@ -467,9 +467,9 @@ In this talk, we describe how to create your own visualization for Galaxy. We pr
 
 <div class='right'><a href='/Dan'><img src='/GalaxyTeam/dan.jpg' alt='' width="120" /></a></div>
 
-**[Daniel Blankenberg](/Dan)**
+**[Daniel Blankenberg](/src/Dan/index.md)**
 
- [Galaxy Team](/GalaxyTeam) and Penn State University
+ [Galaxy Team](/src/GalaxyTeam/index.md) and Penn State University
 
 *[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/BlankenbergBuiltInData.pdf), [Vimeo](https://vimeo.com/74265510)*
 
@@ -485,7 +485,7 @@ Data Managers can be defined locally or installed automatically from a Tool Shed
 
 <div class='right'><a href='/DannonBaker'><img src='/GalaxyTeam/dannon.jpg' alt='' width="120" /></a></div>
 
-**[Dannon Baker](/DannonBaker)**<sup>1</sup>, [Nate Coraor](/nate)<sup>2</sup>, [John Chilton](/JohnChilton)<sup>3</sup> 
+**[Dannon Baker](/DannonBaker)**<sup>1</sup>, [Nate Coraor](/nate)<sup>2</sup>, [John Chilton](/src/JohnChilton/index.md)<sup>3</sup> 
 
  <sup>1</sup> Emory University<br />
  <sup>2</sup> Penn State<br />

@@ -88,7 +88,7 @@ No programming or Linux command line experience is required.
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and [Saint Louis University Department of Biochemistry and Molecular Biology](http://biochemweb.slu.edu/).  
 
-This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/Events/MissouriWorkshopTour2013).
+This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/src/Events/MissouriWorkshopTour2013/index.md).
 
 ## Links
 

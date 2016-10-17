@@ -8,7 +8,7 @@ title: Idaho State University
 
 
 <div class='deploymentbox'>
- Deployment:: **[Idaho State University MRCF](/Community/Deployment/IdahoStateUniversity)**
+ Deployment:: **[Idaho State University MRCF](/src/Community/Deployment/IdahoStateUniversity/index.md)**
  Domain:: Bioinformatics, biology, next generation sequencing. Custom tools.
  Owners:: [Idaho State University Molecular Research Core Facility (MRCF)](http://www.isu.edu/bios/MRCF/)
  Audience:: Idaho State University and Molecular Research Core Facility (MRCF) customers. 

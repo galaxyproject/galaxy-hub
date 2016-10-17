@@ -1,18 +1,18 @@
 ---
 autotoc: true
-title: Frequently Asked Questions about , [/Main](/Main)
+title: Frequently Asked Questions about , [/Main](/src/Main/index.md)
 ---
 PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
 
 
  
-Questions specifically about Galaxy's [free public server](/Main).  See [/Learn/FAQ](/Learn/FAQ) for questions that apply to any Galaxy instance.
+Questions specifically about Galaxy's [free public server](/Main).  See [/Learn/FAQ](/src/Learn/FAQ/index.md) for questions that apply to any Galaxy instance.
 
 
  
 ## How do I get support?
 
-All sorts of ways.  See [/Support](/Support).
+All sorts of ways.  See [/Support](/src/Support/index.md).
 
 ## How do tools get on to Main?
 
@@ -21,7 +21,7 @@ See this email thread:
 
 ## Are there quotas on Main?
 
-Yes.  See [Quotas](/Main#quotas).
+Yes.  See [Quotas](/src/Main/index.md#quotas).
 
 ## Using Galaxy for Transcriptome Analysis
 

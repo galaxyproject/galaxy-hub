@@ -7,8 +7,8 @@ PLACEHOLDER_INCLUDE(/Support/LinkBox)
 <div class='right'></div>
 
 Mailing lists play a vital role in the Galaxy community:
-1. They are a key part of [Galaxy's overall support efforts](/Support).
-1. They complement the [Galaxy Biostar forum](/Support/Biostar), which is focused on questions about *using* Galaxy.
+1. They are a key part of [Galaxy's overall support efforts](/src/Support/index.md).
+1. They complement the [Galaxy Biostar forum](/src/Support/Biostar/index.md), which is focused on questions about *using* Galaxy.
 1. They are a place where the community *[can ask and answer](#posting-a-question)* questions.
 1. They are a place for the discussion of open issues and best practices.
 1. They are also a *[searchable treasure trove of knowledge about Galaxy](#searching)*.  
@@ -149,7 +149,7 @@ Once you have mastered Rule 1, you can refine your mailing list chops by applyin
  **[Rule 7. Proofread your post](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s8)**<br />
  **[Rule 8. Be courteous to other forum members](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s9)**<br />
  **[Rule 9. The archive of your discussion will be useful to others](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s10)**<br />
- **[Rule 10. Give back to the community](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s11)**<br />&nbsp;&nbsp;&nbsp;Help answer others' questions and [Get Involved](/GetInvolved)!
+ **[Rule 10. Give back to the community](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s11)**<br />&nbsp;&nbsp;&nbsp;Help answer others' questions and [Get Involved](/src/GetInvolved/index.md)!
 
 
 
@@ -162,14 +162,14 @@ If you are brand new to programming mailing lists please read
 
 ## Mailing List Traffic
 
-We have a significant amount of mailing list traffic. See the [Galaxy Project Statistics](/GalaxyProject/Statistics#traffic) page for more information.
+We have a significant amount of mailing list traffic. See the [Galaxy Project Statistics](/src/GalaxyProject/Statistics/index.md#traffic) page for more information.
 
 
 ## See Also
 
-* **[/Support](/Support)**
+* **[/Support](/src/Support/index.md)**
 * **[Custom Google Galaxy Web Search](http://galaxyproject.org/search/web)**
-* [Galaxy Issue Board](/Issues)
-* [Galaxy Development News Briefs](/DevNewsBriefs)
-* [/News](/News)
-* [Galaxy on Twitter](/GalaxyOnTwitter)
+* [Galaxy Issue Board](/src/Issues/index.md)
+* [Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)
+* [/News](/src/News/index.md)
+* [Galaxy on Twitter](/src/GalaxyOnTwitter/index.md)

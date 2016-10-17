@@ -250,7 +250,7 @@ Using this approach, research group members are fully responsible for deploying 
 
 ### P13: Argument Parsing Libraries for Automatic Galaxy XML Generation
 
-**[Eric Rasche](/EricRasche)<sup>1</sup>** and Dr. Ryland F. Young<sup>1</sup>
+**[Eric Rasche](/src/EricRasche/index.md)<sup>1</sup>** and Dr. Ryland F. Young<sup>1</sup>
 
  <sup>1</sup> [Center for Phage Technology](https://cpt.tamu.edu), Texas A&M University, College Station, TX
 
@@ -315,7 +315,7 @@ Here we introduce !BlockClust, an efficient approach to detect transcripts with 
 
 ### P17: A Galaxy-Based framework for online streaming data analytics in Heart Rate Variability Analysis
 
-<div class='right'>![Calogero Zarbo](/Events/GCC2013/Abstracts/Posters/CalogeroZarbo.jpg)</div>
+<div class='right'>![Calogero Zarbo](/src/Events/GCC2013/Abstracts/Posters/CalogeroZarbo.jpg)</div>
 
 **Calogero Zarbo<sup>1</sup>**, Andrea Bizzego<sup>1,2,3</sup>, Marco Mina<sup>1</sup>, Gianluca Esposito<sup>2,4</sup>, Cesare Furlanello<sup>1</sup>
 

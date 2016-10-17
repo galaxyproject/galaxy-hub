@@ -15,7 +15,7 @@ This page will distill some best practices for teaching with Galaxy, in both wor
 
 ## Use the Best Compute Platform
 
-The [Computing Platforms page](/Teach/ComputingPlatforms) includes many options, and recommendations, for computing backends to teach Galaxy with.
+The [Computing Platforms page](/src/Teach/ComputingPlatforms/index.md) includes many options, and recommendations, for computing backends to teach Galaxy with.
 
 ## Use Galaxy's Built-In Mechanisms
 
@@ -33,7 +33,7 @@ You can avoid training-time dependencies on external resources (that may be down
 
 ### Galaxy Pages
 
-*[Galaxy Pages](/Learn/GalaxyPages)* are an excellent mechanism for exercises and examples.  Pages can embed datasets, histories, workflows, and visualizations, and include verbal descriptions and images for describing the material.
+*[Galaxy Pages](/src/Learn/GalaxyPages/index.md)* are an excellent mechanism for exercises and examples.  Pages can embed datasets, histories, workflows, and visualizations, and include verbal descriptions and images for describing the material.
 
 *A significant drawback is they can't be exported from one Galaxy server and imported onto another.  Pages must be copied onto a new server manually.*
 

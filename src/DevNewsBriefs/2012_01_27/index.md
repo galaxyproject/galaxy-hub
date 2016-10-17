@@ -21,7 +21,7 @@ title: January 27, ,,  2012 Galaxy Development News Brief
 
 ## Run Cluster Jobs as the Real User
 * On systems where Galaxy users are guaranteed to match users on the system, it may be preferable to run jobs on the cluster as the system user matching the Galaxy user, rather than the system user under which Galaxy started.  
-* This method of job ownership is now possible.  To learn how to set it up and use it, please see the documentation at: [/Admin/Config/Performance/Cluster](/Admin/Config/Performance/Cluster)
+* This method of job ownership is now possible.  To learn how to set it up and use it, please see the documentation at: [/Admin/Config/Performance/Cluster](/src/Admin/Config/Performance/Cluster/index.md)
 * Thank-you Ilya Chorny for contributing the code for this very popular enhancement request!
 
 ## New "Create Schema" Function
@@ -41,7 +41,7 @@ title: January 27, ,,  2012 Galaxy Development News Brief
     * **flagstat** (existing) requires versions 0.1.16-0.1.18.
     * **[Mpileup](http://samtools.sourceforge.net/mpileup.shtml)** (new) requires versions 0.1.16-0.1.18.
     * **[Pileup](http://samtools.sourceforge.net/pileup.shtml)** (existing) requires versions 0.1.12-0.1.16, with 0.1.16 *strongly* preferred and tool dependency directory configuration (if upgrading other SAMtools to 0.1.18).
-  * Galaxy **[/Main](/Main)** is running SAMtools version 0.1.18 for all with the exception of Pileup version 0.1.16.
+  * Galaxy **[/Main](/src/Main/index.md)** is running SAMtools version 0.1.18 for all with the exception of Pileup version 0.1.16.
 * Updated **[TopHat](http://tophat.cbcb.umd.edu/)** tests for version 1.4.0.
 * Updated **[Cufflinks, CuffCompare, CuffDiff](http://cufflinks.cbcb.umd.edu/)** tests for version 1.3.0.
 * Better error reporting in **[Cufflinks](http://cufflinks.cbcb.umd.edu/)**.
@@ -50,7 +50,7 @@ title: January 27, ,,  2012 Galaxy Development News Brief
 * Properly set the temporary directory when using the **[Picard](http://picard.sourceforge.net/)** tools. Thank you John Chilton!
 
 ## Galaxy Track Browser (GTB)
-* **[Trackster](/Learn/Visualization)** Bug fixes: filter drawing bug, summary tree display, embedded visualizations.
+* **[Trackster](/src/Learn/Visualization/index.md)** Bug fixes: filter drawing bug, summary tree display, embedded visualizations.
 * Do not find valid chroms because this is computationally expensive and not currently used.
 * Provide icon to randomly set color in drawable configuration.
 ![](/Images/NewsGraphics/2012_01_27_random-color-chooser.png)
@@ -79,7 +79,7 @@ title: January 27, ,,  2012 Galaxy Development News Brief
 * A broken unit test under 2.5 will not be fixed until the next release, however - this can safely be ignored.
 * A fix to not use math.isnan because it is not compatible with python 2.5 has been made.
 * Fix for setting up column assignments for dynamic options with respect to tool data tables when the index file is missing causing tools to fail to load.
-* Have **[GOPs Concatenate](/Learn/IntervalOperations)** tool always respect the provided strand column. Fixes issue seen when providing intervals with a chrom/start/stop in column 5 and strand was not set.
+* Have **[GOPs Concatenate](/src/Learn/IntervalOperations/index.md)** tool always respect the provided strand column. Fixes issue seen when providing intervals with a chrom/start/stop in column 5 and strand was not set.
 * On edit attributes page, make the info field a text area. Fixes lost new line characters in field when changing name.
 * The Object Store unit test that was failing in the last stable release has been fixed.
 

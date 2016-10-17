@@ -10,7 +10,7 @@ title: [ChIP-Seq avec Galaxy](https://youtu.be/qgiH4h52HYc)
 
 
 <div class='deploymentbox'>
- Resource:: **[ChIP-Seq avec Galaxy](/Teach/Resource/ChIP-SeqAvecGalaxy)**
+ Resource:: **[ChIP-Seq avec Galaxy](/src/Teach/Resource/ChIP-SeqAvecGalaxy/index.md)**
  Types:: Tutorial
  Domains:: **ChIP-Seq** 
  Owners:: Jean-Charles Cadoret, Université Paris Diderot.

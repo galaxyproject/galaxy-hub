@@ -8,7 +8,7 @@ title: 2015, /, 02, :,  , [Integrating a Java Program in Galaxy](http://plindenb
 
 
 <div class='logbox'>
- Topic:: **[Integrating a Java Program in Galaxy](/Community/Log/2015/IntegratingJavaWithGalaxy)**
+ Topic:: **[Integrating a Java Program in Galaxy](/src/Community/Log/2015/IntegratingJavaWithGalaxy/index.md)**
  Date:: 2015/02/28
  Who:: [Pierre Lindenbaum](http://plindenbaum.blogspot.com/)
  Resolution:: Example showing how to [install a Java program as a tool in a Galaxy instance](http://plindenbaum.blogspot.com/2015/02/integrating-java-program-in-usegalaxy.html).

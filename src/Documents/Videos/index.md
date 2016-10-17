@@ -1,6 +1,6 @@
 PLACEHOLDER_INCLUDE(/Documents/LinkBox)
 
-Common place to attach videos in the [/Documents](/Documents) hierarchy.
+Common place to attach videos in the [/Documents](/src/Documents/index.md) hierarchy.
 
 ## Videos
 

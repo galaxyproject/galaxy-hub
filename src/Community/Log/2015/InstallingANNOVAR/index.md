@@ -1,14 +1,14 @@
 ---
 title: [2015/03: Installing ANNOVAR in Galaxy](http://galacticengineer.blogspot.co.uk/2015/03/installing-annovar-in-galaxy.html)
 ---
-<div class='center'>![Galaxy Engineer Blog from Peter Briggs at the University of Manchester](/Images/Logos/UManchesterLogo.jpg)</div>
+<div class='center'>![Galaxy Engineer Blog from Peter Briggs at the University of Manchester](/src/Images/Logos/UManchesterLogo.jpg)</div>
 
 
 
 
 
 <div class='logbox'>
- Topic:: **[Installing ANNOVAR in Galaxy](/Community/Log/2015/InstallingANNOVAR)**
+ Topic:: **[Installing ANNOVAR in Galaxy](/src/Community/Log/2015/InstallingANNOVAR/index.md)**
  Date:: 2015/03/18
  Who:: [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)
  Resolution:: A HOWTO for installing ANNOVAR in Galaxy.

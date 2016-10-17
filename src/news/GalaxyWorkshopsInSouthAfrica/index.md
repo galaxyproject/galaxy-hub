@@ -1,7 +1,7 @@
 ---
 date: 2012-06-28T20:47:26Z
 ---
-<div class='newsItemHeader'>[Galaxy Workshops in South Africa](/News/GalaxyWorkshopsInSouthAfrica)</div>
+<div class='newsItemHeader'>[Galaxy Workshops in South Africa](/src/News/GalaxyWorkshopsInSouthAfrica/index.md)</div>
 <div class='right'>
 <table>
   <tr>
@@ -36,7 +36,7 @@ In addition, there will be a keynote talk on Galaxy at the [South African Geneti
  **1 July**
   [Early registration deadline](http://genetics.cmc-uct.co.za/?page_id=7) for the [South African Genetics & Bioinformatics Society Joint Conference](http://genetics.cmc-uct.co.za/)
 
-[Dave Clements](/DaveClements)
+[Dave Clements](/src/DaveClements/index.md)
 
 
 CategoryNews

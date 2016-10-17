@@ -15,7 +15,7 @@ title: June 2016 Galaxy News
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
-Welcome to the June 2016 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. 
+Welcome to the June 2016 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. 
 
 If you have anything to include in the next News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
 
@@ -111,7 +111,7 @@ This workshop will include a rich collection of lectures and hands-on sessions, 
 <a href='/Community/GalaxyAdmins/Meetups/2016_06_16'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='16 June GalaxyAdmins Web Meetup' height="60" /></a>
 </div>
 
-There will be two [GalaxyAdmins](/Community/GalaxyAdmins) [meetups](/Community/GalaxyAdmins/Meetups) in June:
+There will be two [GalaxyAdmins](/Community/GalaxyAdmins) [meetups](/src/Community/GalaxyAdmins/Meetups/index.md) in June:
 
 1. **An [online meetup on June 16](/Community/GalaxyAdmins/Meetups/2016_06_16)** featuring   [Evan Bollig](https://www.msi.umn.edu/staff/evan) and [JJ Johnson](https://www.msi.umn.edu/staff/jj) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) speaking on *Galaxy in Production at the University of Minnesota*.  
 
@@ -119,7 +119,7 @@ There will be two [GalaxyAdmins](/Community/GalaxyAdmins) [meetups](/Community/G
 
 ## June, July, and August Events
 
-There are [a plentitude of Galaxy related events coming up](/Events). Here's what's coming up over the summer:
+There are [a plentitude of Galaxy related events coming up](/src/Events/index.md). Here's what's coming up over the summer:
 
 <div class='center'> 
 <a href='/Events/ASMS2016'><img src='/Images/Logos/ASMSLogo.png' alt='64th ASMS Conference on Mass Spectrometry and Allied Topics' height="80" /></a>
@@ -298,11 +298,11 @@ and ...
 
 ## The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update
 
-The [project and the developer community](/GalaxyTeam) has published a new paper, 
+The [project and the developer community](/src/GalaxyTeam/index.md) has published a new paper, 
 
   [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](http://dx.doi.org/10.1093/nar/gkw343), *Nucleic Acids Research* (2 May 2016), doi:10.1093/nar/gkw343
 
-that describes recent updates to the Galaxy platform in general and to the project's [usegalaxy.org Galaxy server](/Main) in particular.  Check it out.
+that describes recent updates to the Galaxy platform in general and to the project's [usegalaxy.org Galaxy server](/src/Main/index.md) in particular.  Check it out.
 
 ## Tagged Publications
 
@@ -369,7 +369,7 @@ The new papers were tagged with:
 
 # Who's Hiring
 
-<div class='right'><br />![Please Help! Yes you!](/Images/GalaxyIsExpandingCloud.png)</div>
+<div class='right'><br />![Please Help! Yes you!](/src/Images/GalaxyIsExpandingCloud.png)</div>
 
 The Galaxy is expanding! Please help it grow.
 * [Postdoctoral Researcher: Forest Genomics Database and Software Developer](http://compgenomics.lab.uconn.edu/join/), University of Connecticut.  "... data sharing among partner databases through Galaxy modules."  <div class='red'>Deadline June 10.</span> 
@@ -378,7 +378,7 @@ The Galaxy is expanding! Please help it grow.
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
 * [Postdoctoral Research Positions](https://chk.tbe.taleo.net/chk01/ats/careers/requisition.jsp?org=BCM&cws=42&rid=8453), Molecular and Cellular Biology Department at Baylor College of Medicine, Houston, Texas, United States 
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -387,7 +387,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-No [new publicly accessible Galaxy servers](/PublicGalaxyServers) were added to [the list](/PublicGalaxyServers) in May.  To make up for this sad state of affairs, we created the ...
+No [new publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) were added to [the list](/src/PublicGalaxyServers/index.md) in May.  To make up for this sad state of affairs, we created the ...
 
 <div class='right'><br />
 <div class='center'>
@@ -398,9 +398,9 @@ No [new publicly accessible Galaxy servers](/PublicGalaxyServers) were added to 
 
 ## New Semi-Public Galaxy Servers Directory
 
-The [Semi-Public Galaxy Servers Directory](/SemiPublicGalaxyServers) lists Galaxy servers that aren't [fully publicly accessible](/PublicGalaxyServers), but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
+The [Semi-Public Galaxy Servers Directory](/SemiPublicGalaxyServers) lists Galaxy servers that aren't [fully publicly accessible](/src/PublicGalaxyServers/index.md), but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
 
-Servers are classified by whom they are accessible to.  This can be based on [research domain](/SemiPublicGalaxyServers#domain-based), [Geography Based|geography (regional or national)](/SemiPublicGalaxyServers), or by [membership in a multi-organization association](/SemiPublicGalaxyServers#association-based) that provides Galaxy Servers. 
+Servers are classified by whom they are accessible to.  This can be based on [research domain](/SemiPublicGalaxyServers#domain-based), [Geography Based|geography (regional or national)](/SemiPublicGalaxyServers), or by [membership in a multi-organization association](/src/SemiPublicGalaxyServers/index.md#association-based) that provides Galaxy Servers. 
 
 **To add your semi-public Galaxy server to this list**, please either just add it (hey, *it's a wiki*), or [describe the server here](https://docs.google.com/forms/d/14i8FNHB7pwXrXmhvUkxXTh2VKQ-2BKsnMubXsCZadjs/viewform) and we'll post it this directory.
 
@@ -421,13 +421,13 @@ Servers are classified by whom they are accessible to.  This can be based on [re
 
 <br />
 
-One new training organization joined the [Galaxy Training Network](/Teach/GTN):
+One new training organization joined the [Galaxy Training Network](/src/Teach/GTN/index.md):
 
-* [Geneclat Technologies](/Teach/Trainers#geneclat-technologies) is based in Bengaluru, Karnataka, India, and is available globally (and "ready to travel!") 
+* [Geneclat Technologies](/src/Teach/Trainers/index.md#geneclat-technologies) is based in Bengaluru, Karnataka, India, and is available globally (and "ready to travel!") 
 
 ## New Commercial Support Directory
 
-Ever wanted commercial support for your Galaxy needs?  There is now a [Commercial Galaxy Support directory](/Support/Commercial) you can consult if you are looking to find service providers and consultants.  The initial list includes consultants, server providers, cloud providers, and commercial trainers.
+Ever wanted commercial support for your Galaxy needs?  There is now a [Commercial Galaxy Support directory](/src/Support/Commercial/index.md) you can consult if you are looking to find service providers and consultants.  The initial list includes consultants, server providers, cloud providers, and commercial trainers.
 
 Want to add your company to that list?  Send an email to [outreach AT galaxyproject.org](outreach AT galaxyproject.org).
 
@@ -569,9 +569,9 @@ Documentation can be found at [starforge.readthedocs.org](http://starforge.readt
 
 # ToolShed Contributions
 
-Please welcome [Anthony Brétaudeau](https://www6.rennes.inra.fr/igepp/Listes-des-personnes/B/Bretaudeau-Anthony) from [BIPAA](https://www6.rennes.inra.fr/igepp/L-IGEPP/Plateformes/Plateforme-bioinformatique-pour-les-arthropodes-des-agroecosystemes) at [INRA](https://www6.rennes.inra.fr/igepp/) to the [/IUC](/IUC).
+Please welcome [Anthony Brétaudeau](https://www6.rennes.inra.fr/igepp/Listes-des-personnes/B/Bretaudeau-Anthony) from [BIPAA](https://www6.rennes.inra.fr/igepp/L-IGEPP/Plateformes/Plateforme-bioinformatique-pour-les-arthropodes-des-agroecosystemes) at [INRA](https://www6.rennes.inra.fr/igepp/) to the [/IUC](/src/IUC/index.md).
 
-[ToolShed contributions for April and May](/ToolShed/Contributions/2016_05).
+[ToolShed contributions for April and May](/src/ToolShed/Contributions/2016_05/index.md).
 
 # Other News
 

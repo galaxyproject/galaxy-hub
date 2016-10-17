@@ -1,26 +1,26 @@
 ---
 date: 2016-08-23T19:53:32Z
 ---
-<div class='newsItemHeader'>[Galaxy Admin Training, Nov 7-11](/News/GAT2016RegistrationOpen)</div>
+<div class='newsItemHeader'>[Galaxy Admin Training, Nov 7-11](/src/News/GAT2016RegistrationOpen/index.md)</div>
 
 <div class='right solid center'>
 <a href='/Events/AdminTraining2016'><img src='/Images/Logos/AdminTraining2016-500.png' alt='Galaxy Project Admin Training' width=200" /></a><br />
-November 7-11, 2016<br />University of Utah<br />Salt Lake City, Utah<br />United States<br /><br /> [Registration is open](/Events/AdminTraining2016/Registration) 
+November 7-11, 2016<br />University of Utah<br />Salt Lake City, Utah<br />United States<br /><br /> [Registration is open](/src/Events/AdminTraining2016/Registration/index.md) 
 </div>
 
-**We are pleased to announce that registration for [Galaxy Admin Training 2016](/Events/AdminTraining2016) is now open.**
+**We are pleased to announce that registration for [Galaxy Admin Training 2016](/src/Events/AdminTraining2016/index.md) is now open.**
 
 [Galaxy Admin Training 2016](/Events/AdminTraining2016) is a weeklong event offering basic and advanced sessions.  It is being held in Salt Lake City, Utah, November 7-11, 2016, the week before [Supercomputing 16 (SC16)](http://sc16.supercomputing.org/) meets in Salt Lake.  
 
-**[Basics Session: November 7-8](/Events/AdminTraining2016/BasicsSession)**
+**[Basics Session: November 7-8](/src/Events/AdminTraining2016/BasicsSession/index.md)**
 
-This two day [basics session](/Events/AdminTraining2016/BasicsSession) will introduce participants to what you need to know to get a Galaxy server up and running on a standalone server. You'll also learn how to extend your Galaxy with your own tools and tools from the community, and how to define reference data in your server as well.
+This two day [basics session](/src/Events/AdminTraining2016/BasicsSession/index.md) will introduce participants to what you need to know to get a Galaxy server up and running on a standalone server. You'll also learn how to extend your Galaxy with your own tools and tools from the community, and how to define reference data in your server as well.
 
-**[Advanced Session: November 9-11](/Events/AdminTraining2016/AdvancedSession)**
+**[Advanced Session: November 9-11](/src/Events/AdminTraining2016/AdvancedSession/index.md)**
 
-The three day [advanced session](/Events/AdminTraining2016/AdvancedSession) will build on topics covered in the [basics section](/Events/AdminTraining2016/BasicsSession).  This session both extends those topics, such as tool definition, and adds new ones, such as working with compute clusters and heterogeneous resources. The goal of the advanced workshop is to enable Galaxy administrators to create robust, high-performance Galaxy instances that take full advantage of available tools and compute and storage resources.
+The three day [advanced session](/Events/AdminTraining2016/AdvancedSession) will build on topics covered in the [basics section](/src/Events/AdminTraining2016/BasicsSession/index.md).  This session both extends those topics, such as tool definition, and adds new ones, such as working with compute clusters and heterogeneous resources. The goal of the advanced workshop is to enable Galaxy administrators to create robust, high-performance Galaxy instances that take full advantage of available tools and compute and storage resources.
 
-[Register by September 19](/Events/AdminTraining2016/Registration) and save up to $130 off standard registration rates (and up to $250 if you work in industry).
+[Register by September 19](/src/Events/AdminTraining2016/Registration/index.md) and save up to $130 off standard registration rates (and up to $250 if you work in industry).
 
 <br />
 
@@ -35,7 +35,7 @@ Galaxy Admin Training 2016 is hosted by the [University of Utah Center for High 
 
 We hope to see you in Salt Lake!
 
-The [Galaxy Team](/GalaxyTeam)
+The [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

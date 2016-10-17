@@ -1,7 +1,7 @@
 ---
 date: 2015-08-10T20:24:50Z
 ---
-<div class='newsItemHeader'>[Tools + Dataset Collections Hackathon](/News/ToolsCollectionsHack)</div>
+<div class='newsItemHeader'>[Tools + Dataset Collections Hackathon](/src/News/ToolsCollectionsHack/index.md)</div>
 
 Hello all,
 

@@ -40,7 +40,7 @@ GCC2015 registrations reached an all-time high, and GC2015 featured more events 
   * [28 accepted and keynote talks](http://gcc2015.tsl.ac.uk/abstracts) (slides for most are online, videos are coming)
   * [34 posters](http://gcc2015.tsl.ac.uk/Posters/) (most are online)
   * [14 lightning talks](http://gcc2015.tsl.ac.uk/Lightning/) (slides for most are online, videos are coming)
-  * [10 Birds-of-a-feather meetups](/Events/GCC2015/BoFs) (writeups for most are available)
+  * [10 Birds-of-a-feather meetups](/src/Events/GCC2015/BoFs/index.md) (writeups for most are available)
 * There was a record amount of Twitter traffic at GCC2015.  Peter Cock has created several Storify pages that captured the stream:
   * [GCC2015 Hackathon & Training Days](https://storify.com/pjacock/galaxy-community-conference-gcc2015-hackathon)
   * [GCC2015 Galaxy Community Conference - Day One](https://storify.com/pjacock/gcc2015-galaxy-community-conference)
@@ -54,7 +54,7 @@ Which brings us to ...
 
 <div class='right'><a href='/Events/GCC2016'><img src='/Events/GCC2016/GCC2016LogoFull_big.png' alt='2016 Galaxy Community Conference' width="300" /></a></div>
 
-**We are pleased to announce that the [2016 Galaxy Community Conference (GCC2016)](/Events/GCC2016) will be held June 25-29 at Indiana University in Bloomington, Indiana, United States.**
+**We are pleased to announce that the [2016 Galaxy Community Conference (GCC2016)](/src/Events/GCC2016) will be held June 25-29 at Indiana University in Bloomington, Indiana, United States.**
 
 GCC2016 is the 7th annual gathering of the Galaxy community. The conference will include keynotes, accepted talks, poster sessions, birds-of-a-feather meetups, exhibitors, and plenty of networking opportunities. There will also be three days of pre-conference activities, including hackathons and training.  Mark your calendars now.  Registration will open in the fall.
 
@@ -73,7 +73,7 @@ Please join us for the [next GalaxyAdmins meetup on August 20](/Community/Galaxy
 
  *Genomic data management at [Canada's National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) with [IRIDA](http://www.irida.ca/) and Galaxy*
 
-[GalaxyAdmins](/Community/GalaxyAdmins) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
+[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
 
 
 <div class='left'><br /><a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Meetup_2015-07'><img src='/Images/Logos/PitagoraBoXLogo.png' alt='meetup on 23 July 2015' width="65" /></a>
@@ -93,7 +93,7 @@ The [Pitagora-Galaxy](http://www.pitagora-galaxy.org/) community in Japan had a 
 
 [BOSC 2015](http://www.open-bio.org/wiki/BOSC_2015) and [ISMB/ECCB 2015](http://www.iscb.org/ismbeccb2015) followed immediately after GCC2015 this year, and Galaxy again a significant presence at both.
 
-[Slides, posters and videos for most presentations](/Events/ISMB2015) are now available on the [Galaxy @ ISMB/ECCB and BOSC 2015 page](/Events/ISMB2015).
+[Slides, posters and videos for most presentations](/src/Events/ISMB2015/index.md) are now available on the [Galaxy @ ISMB/ECCB and BOSC 2015 page](/src/Events/ISMB2015/index.md).
 
 ## Other Events
 
@@ -215,9 +215,9 @@ There are [upcoming events](/Events) in four countries on three continents.  See
 
 * [Enabling Data-Intensive Biomedical Studies](http://bit.ly/leophd), Simone Leo
 
-* [Enabling cloud bursting for life sciences within Galaxy](http://bit.ly/1TRbuRl), [Afgan](/EnisAfgan) *et al.*
+* [Enabling cloud bursting for life sciences within Galaxy](http://bit.ly/1TRbuRl), [Afgan](/src/EnisAfgan/index.md) *et al.*
  
-* [Building and Provisioning Bioinformatics Environments on Public and Private Clouds](http://bit.ly/1gOtVYQ), [Afgan](/EnisAfgan) *et al.*
+* [Building and Provisioning Bioinformatics Environments on Public and Private Clouds](http://bit.ly/1gOtVYQ), [Afgan](/src/EnisAfgan/index.md) *et al.*
  
 * [LiSIs: An Online Scientific Workflow System for Virtual Screening](http://dx.doi.org/10.2174/1386207318666150305123341), Kannas, *et al.*
 
@@ -343,9 +343,9 @@ The Galaxy is expanding! Please help it grow.
 
 * [Assistant Computational Scientist](http://bit.ly/1OLwPbW) at [VIB](http://www.vib.be/), Gent, Belgium 
  * 
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -362,22 +362,22 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-July was a banner month, with the addition of [5 new publicly accessible Galaxy servers](/PublicGalaxyServers), bringing the list of public servers to *over 70*.
+July was a banner month, with the addition of [5 new publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md), bringing the list of public servers to *over 70*.
 
 1. **[AB-OpenLab FROG](http://ab-openlab.csir.res.in/frog/)**, from  [CSIR- GENESIS: Genomics and Informatics Solutions for Integrating Biology](http://crdd.osdd.net/genesis/genome.html)
-  * **F**inge**R**printing **O**ntology of **G**enomic variations: *FROG* fingerprints capture genomic variations at different levels.  See [the FROG server description](/PublicGalaxyServers#ab-openlab) for more.
+  * **F**inge**R**printing **O**ntology of **G**enomic variations: *FROG* fingerprints capture genomic variations at different levels.  See [the FROG server description](/src/PublicGalaxyServers/index.md#ab-openlab) for more.
 
 1. **[AGEseq Galaxy @ AspenDB](http://aspendb.uga.edu/ageseq)**, from the [Tsai Lab](http://aspendb.uga.edu/), [Warnell School of Forestry and Natural Resources](http://warnell.uga.edu/) and [Department of Genetics](http://www.genetics.uga.edu/), University of Georgia.
-  * AGEseq (Analysis of Genome Editing by Sequencing) compares amplicon sequences with expected target sequences and finds insertion/deletion sites in the amplicon sequences.  See [the AGEseq server description](/PublicGalaxyServers#ageseq--aspendb) for more.
+  * AGEseq (Analysis of Genome Editing by Sequencing) compares amplicon sequences with expected target sequences and finds insertion/deletion sites in the amplicon sequences.  See [the AGEseq server description](/src/PublicGalaxyServers/index.md#ageseq--aspendb) for more.
 
 1. **[BioMaS Galaxy](http://galaxy.cloud.ba.infn.it:8080/)** from the [Istituto Nazionale di Fisica Nucleare](http://www.infn.it/)
-  * Taxonomic studies of environmental microbial communities.  See [the server description](/PublicGalaxyServers#biomas-galaxy) for more.
+  * Taxonomic studies of environmental microbial communities.  See [the server description](/src/PublicGalaxyServers/index.md#biomas-galaxy) for more.
 
 1. **[MISSISSIPPI Server](http://mississippi.fr/)** from The ARTbio bioinformatics facility of the  [Institut de Biologie Paris Seine](http://www.ibps.upmc.fr/en) based at the [University Pierre & Marie Curie](http://www.upmc.fr/en/index.html).
-  * RNA and small RNA sequencing dataset analysis as well as for epigenetics or metagenomics studies.  See the [server descriptions](/PublicGalaxyServers#mississippi) for more.
+  * RNA and small RNA sequencing dataset analysis as well as for epigenetics or metagenomics studies.  See the [server descriptions](/src/PublicGalaxyServers/index.md#mississippi) for more.
 
 1. **[SIFTED](http://thebrain.bwh.harvard.edu/sifted.html)** from [Bulyk Lab](http://thebrain.bwh.harvard.edu/index.html), [Division of Genetics](http://genetics.bwh.harvard.edu/genetics/index.html) in the [Department of Medicine at Brigham & Women's Hospital](http://www.brighamandwomens.org/medicine/) and [Harvard Medical School](http://hms.harvard.edu/hms/home.asp)
-  * Specificity Inference For TAL-Effector Design (SIFTED) is a computational model for predicting the DNA-binding specificity of any Transcription activator-like effector (TALE) proteins.  See the [server description](/PublicGalaxyServers#sifted) for more.
+  * Specificity Inference For TAL-Effector Design (SIFTED) is a computational model for predicting the DNA-binding specificity of any Transcription activator-like effector (TALE) proteins.  See the [server description](/src/PublicGalaxyServers/index.md#sifted) for more.
 
 <br />
 
@@ -407,24 +407,24 @@ Galaxy now has a formal and open policy for managing the project source code - i
 
 <br />
 
-Three new **[Community Log Board](/Community/Logs)** entries were added in July:
+Three new **[Community Log Board](/src/Community/Logs/index.md)** entries were added in July:
 
-* **[Moving from MySQL to PostgreSQL](/Community/Log/2015/MySQL2PostgreSQL)**
-    by [Hans-Rudolf Hotz](/HansrudolfHotz)
+* **[Moving from MySQL to PostgreSQL](/src/Community/Log/2015/MySQL2PostgreSQL/index.md)**
+    by [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md)
 
-* **[BioJS2Galaxy – A step by step guide](/Community/Log/2015/BioJS2Galaxy)**
+* **[BioJS2Galaxy – A step by step guide](/src/Community/Log/2015/BioJS2Galaxy/index.md)**
     by [Benedikt Rauscher](https://twitter.com/bengrauscher) and [Benjamen White](http://www.benjamenwhite.com/2015)
 
-* **[Exposing Galaxy reports via nginx in a production instance](/Community/Log/2015/ReportsViaNginx)**
+* **[Exposing Galaxy reports via nginx in a production instance](/src/Community/Log/2015/ReportsViaNginx/index.md)**
     by [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)
 
-And the new [Galaxy NGS 101](https://wiki.galaxyproject.org/Learn/GalaxyNGS101) set of exercises, and the [Galaxy Coursera material](https://www.coursera.org/course/gengalaxy) were added to the **[Teaching Resources Directory](/Teach/Resources)**:
+And the new [Galaxy NGS 101](https://wiki.galaxyproject.org/Learn/GalaxyNGS101) set of exercises, and the [Galaxy Coursera material](https://www.coursera.org/course/gengalaxy) were added to the **[Teaching Resources Directory](/src/Teach/Resources/index.md)**:
 
-* **[Galaxy NGS 101](/Teach/Resource/GalaxyNGS101)**
-    by [Anton Nekrutenko](/anton)
+* **[Galaxy NGS 101](/src/Teach/Resource/GalaxyNGS101/index.md)**
+    by [Anton Nekrutenko](/src/anton/index.md)
 
-* **[Genomic Data Science with Galaxy on Coursera](/Teach/Resource/GenomicDataScienceGalaxyCoursera)**
-    by [James Taylor](/JamesTaylor)
+* **[Genomic Data Science with Galaxy on Coursera](/src/Teach/Resource/GenomicDataScienceGalaxyCoursera/index.md)**
+    by [James Taylor](/src/JamesTaylor/index.md)
 
 ---
 
@@ -434,7 +434,7 @@ And the new [Galaxy NGS 101](https://wiki.galaxyproject.org/Learn/GalaxyNGS101) 
 
 <div class='right'><a href='http://puradesign.cz/'><img src='/Images/Logos/puradesignlogo.png' alt='Pura Design' /></a></div>
 
-You may have noticed in the past two months that an [updated Galaxy logo](/Images/GalaxyLogos) has been slowly appearing on project web sites and presentations.  The new logo was created by [Petr Kadlec](http://puradesign.cz/en) of [Pura Design](http://puradesign.cz/en), and it slowly making its way into all Galaxy Project logos.  As this happens, they will be added to the [Images/GalaxyLogos page](/Images/GalaxyLogos).
+You may have noticed in the past two months that an [updated Galaxy logo](/src/Images/GalaxyLogos/index.md) has been slowly appearing on project web sites and presentations.  The new logo was created by [Petr Kadlec](http://puradesign.cz/en) of [Pura Design](http://puradesign.cz/en), and it slowly making its way into all Galaxy Project logos.  As this happens, they will be added to the [Images/GalaxyLogos page](/src/Images/GalaxyLogos/index.md).
 
 ---
 
@@ -493,7 +493,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
  
  **CloudMan **
-   The [most recent edition of CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release) was released in August.
+   The [most recent edition of CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release) was released in August.
 
  **blend4j v0.1.2**
    [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and !BioCloudCentral.
@@ -503,14 +503,14 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 # Other News
 
-* [Michael Crusoe](http://impactstory.org/MichaelRCrusoe) created a [checklist for Galaxy DataSource docs](/Admin/Internals/DataSources#adding-a-new-datasource) 
+* [Michael Crusoe](http://impactstory.org/MichaelRCrusoe) created a [checklist for Galaxy DataSource docs](/src/Admin/Internals/DataSources/index.md#adding-a-new-datasource) 
 * [Michael Crusoe](http://impactstory.org/MichaelRCrusoe) is also working on supporting the [Open Science Framework](https://osf.io/) as a [data source in Galaxy](https://osf.io/en2ak/).
 * The [main Galaxy Project repository on GitHub](https://github.com/galaxyproject/galaxy) has over 100 forks! Thank you very much for all the contributions!
 * [Samuel Lampa's](http://bionics.it/) created a blog post on [Workflow tool makers: Allow defining data flow, not just task dependencies](http://bionics.it/posts/workflows-dataflow-not-task-deps)
-* The semi-annual update of the [Galaxy Project Statistic page](/GalaxyProject/Statistics) is done.
+* The semi-annual update of the [Galaxy Project Statistic page](/src/GalaxyProject/Statistics/index.md) is done.
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
 
 # ToolShed Contributions
 
-See [list of tools contributed in June and July](/ToolShed/Contributions/2015_07).
+See [list of tools contributed in June and July](/src/ToolShed/Contributions/2015_07/index.md).

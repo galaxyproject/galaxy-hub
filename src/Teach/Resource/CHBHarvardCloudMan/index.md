@@ -8,7 +8,7 @@ title: [Running your own Galaxy instance (in the cloud)](http://hbc.github.io/ng
 
 
 <div class='deploymentbox'>
- Resource:: **[CHB Harvard Running your own Galaxy instance (in the cloud)](/Teach/Resource/CHBHarvardCloudMan)**
+ Resource:: **[CHB Harvard Running your own Galaxy instance (in the cloud)](/src/Teach/Resource/CHBHarvardCloudMan/index.md)**
  Types:: Tutorial
  Domains:: **Cloud** 
  Owners:: [Shannan Ho Sui, Oliver Hofmann, Radhika Khetani, Winston Hide](http://hsphbio.ghost.io/people/), [Center for Health Bioinformatics](http://compbio.sph.harvard.edu/chb/) at the [Harvard School of Public Health](http://www.hsph.harvard.edu/) 

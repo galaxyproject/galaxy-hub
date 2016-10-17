@@ -1,7 +1,7 @@
 ---
 date: 2015-04-08T04:23:10Z
 ---
-<div class='newsItemHeader'>[Worflow4Metabolomics 2015 Course](/News/W4Course2015)</div>
+<div class='newsItemHeader'>[Worflow4Metabolomics 2015 Course](/src/News/W4Course2015/index.md)</div>
 
 <div class='right'>
 <a href='http://workflow4metabolomics.org/training/W4Mcourse2015'><img src='/Images/Logos/IFBSmallTransLogo.png' alt='IFB' width="135" /></a><br />

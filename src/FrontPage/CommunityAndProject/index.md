@@ -3,8 +3,8 @@
 </div>
 Galaxy has a large and active user community and many ways to get involved.  
 
-* [/Community](/Community)
-* [/News](/News)
-* [/Events](/Events)
-* [/Support](/Support)
-* [Galaxy Project](/GalaxyProject)
+* [/Community](/src/Community/index.md)
+* [/News](/src/News/index.md)
+* [/Events](/src/Events/index.md)
+* [/Support](/src/Support/index.md)
+* [Galaxy Project](/src/GalaxyProject/index.md)

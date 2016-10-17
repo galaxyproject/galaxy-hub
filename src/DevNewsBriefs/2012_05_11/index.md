@@ -60,7 +60,7 @@ New tool panel items manually added to a tool panel configuration file will now 
 
 <br />
 # Multiprocess Job Handling
-Galaxy has previously been able to split into multiple processes to better spread the load of handling web traffic, but only one process could be used to handle job management.  Galaxy can now be split in to any number of web processes, and any number of job handlers.  A single job manager must be run to assign jobs to handlers. **If you've configured Galaxy with multiple processes as per the "Production Server" documentation, configuration changes will be necessary to use this new functionality.**  If you do not change your configuration, each web processes will manage its own jobs, which you almost certainly do not want. [Read more...](/Admin/Config/Performance/Scaling)
+Galaxy has previously been able to split into multiple processes to better spread the load of handling web traffic, but only one process could be used to handle job management.  Galaxy can now be split in to any number of web processes, and any number of job handlers.  A single job manager must be run to assign jobs to handlers. **If you've configured Galaxy with multiple processes as per the "Production Server" documentation, configuration changes will be necessary to use this new functionality.**  If you do not change your configuration, each web processes will manage its own jobs, which you almost certainly do not want. [Read more...](/src/Admin/Config/Performance/Scaling/index.md)
 
 <br />
 # UCSC Display Sites
@@ -72,7 +72,7 @@ Abstract **[OpenID](http://openid.net/)** providers to be defined outside of the
 
 <br />
 # New Configurable Tool Output Location
-Tools using the process described at '[/Admin/Tools/MultipleOutputFiles](/Admin/Tools/MultipleOutputFiles)' to write multiple output files to the temporary directory defined as new_file_path may now write to the job working directory instead.  This can have a performance benefit if there are a lot of files in the directory set in `new_file_path`.  A configuration option, `collect_output_from` has been added that controls where Galaxy will look for these outputs.  By default, it will look in both places since many of the tools in the Galaxy distribution use `new_file_path`.
+Tools using the process described at '[/Admin/Tools/MultipleOutputFiles](/src/Admin/Tools/MultipleOutputFiles/index.md)' to write multiple output files to the temporary directory defined as new_file_path may now write to the job working directory instead.  This can have a performance benefit if there are a lot of files in the directory set in `new_file_path`.  A configuration option, `collect_output_from` has been added that controls where Galaxy will look for these outputs.  By default, it will look in both places since many of the tools in the Galaxy distribution use `new_file_path`.
 
 <br />
 # Tools
@@ -126,7 +126,7 @@ Tools using the process described at '[/Admin/Tools/MultipleOutputFiles](/Admin/
 
 <br />
 # Galaxy Track Browser (GTB)
-[Trackster](/Learn/Visualization)
+[Trackster](/src/Learn/Visualization/index.md)
 * Enable resizing of all tracks.
 * Ensure reference track does not scroll.
 * Use hash as location in Trackster.
@@ -194,14 +194,14 @@ Tools using the process described at '[/Admin/Tools/MultipleOutputFiles](/Admin/
 
 <br />
 # Announcements
-[/News](/News), *[May 2012 Galaxy Update](/GalaxyUpdates/2012_05)*
+[/News](/News), *[May 2012 Galaxy Update](/src/GalaxyUpdates/2012_05/index.md)*
 
 ## GCC2012 Update
 <div class='right'><a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="100" /></a></div>
 
-The [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) will be held July 25-27, in Chicago. The conference will feature two full days of presentations and discussions, and a [whole day of training](/Events/GCC2012/TrainingDay) has been added this year.
+The [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) will be held July 25-27, in Chicago. The conference will feature two full days of presentations and discussions, and a [whole day of training](/src/Events/GCC2012/TrainingDay/index.md) has been added this year.
 
-**Early [registration is now open](/Events/GCC2012/Register) and will close June 11.**  Early registration is very affordable, especially for post-docs and students.
+**Early [registration is now open](/src/Events/GCC2012/Register/index.md) and will close June 11.**  Early registration is very affordable, especially for post-docs and students.
 
 ### Training Day: Help Set the Agenda
 <div class='right'><a href='/Events/GCC2012/TrainingDay'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' width="130" /></a></div>

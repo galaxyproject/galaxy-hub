@@ -8,9 +8,9 @@ Dannon Baker and [Dave Clements](/DaveClements) from the [/Galaxy Team](/Galaxy 
 
 Hope to see you in San Diego,
 
-[Dave Clements](/DaveClements) and Dannon Baker<br />
+[Dave Clements](/src/DaveClements/index.md) and Dannon Baker<br />
 [/Galaxy Team](/Galaxy Team)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2012-01-06T23:40:04Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on <<Date(2012-01-06T23:40:04Z)>></div>
 
 CategoryNews

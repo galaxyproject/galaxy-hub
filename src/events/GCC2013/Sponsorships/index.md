@@ -15,7 +15,7 @@ If your organization is interested in participating in [GCC2013](../) as a spons
 
 ## About GCC2013
 
-The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering.  GCC2013 will be the fourth annual meeting.  Attendance doubled between the first meeting in [2010 (Cold Spring Harbor Laboratories)](../../GDC2010) and [2011 (Lunteren, the Netherlands)](../../GCC2011), and increased by a third again in [2012](/Events/GCC2012) to over 200 registrations.  Participants mainly come from these groups:
+The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering.  GCC2013 will be the fourth annual meeting.  Attendance doubled between the first meeting in [2010 (Cold Spring Harbor Laboratories)](../../GDC2010) and [2011 (Lunteren, the Netherlands)](../../GCC2011), and increased by a third again in [2012](/src/Events/GCC2012/index.md) to over 200 registrations.  Participants mainly come from these groups:
 * Sequencing core facility staff
 * Bioinformatics core staff
 * Bioinformatics tool and workflow developers
@@ -112,7 +112,7 @@ Sponsorships are available at four different levels.
 <div class='center'>![](/OtherBanner.png)</div>
 
 <div class='center'><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo400.png' alt='Amazon Web Services' width="300" /></a><br />
-[Training Day Sponsor](/Events/GCC2013/TrainingDay)
+[Training Day Sponsor](/src/Events/GCC2013/TrainingDay/index.md)
 </div>
 
 <br /><br />

@@ -36,7 +36,7 @@ Before you can start using cloud resources, you need to get your API access cred
 ## Step 1: Start your cluster
 In this step, we will create a new cluster by launching a virtual server in the cloud.
 
-1. Head to the Cloud Launch application at [launch.usegalaxy.org/launch](https://launch.usegalaxy.org/launch) and fill the form with the required information. Here, use the access credentials created in the previous step (i.e., for the *access* and *secret key* fields). Give the cluster a name and protect access to it via a self-chosen password. You can also choose the type of cluster to configure here - see [this page](/CloudMan/ClusterTypes) for a description of the available options.
+1. Head to the Cloud Launch application at [launch.usegalaxy.org/launch](https://launch.usegalaxy.org/launch) and fill the form with the required information. Here, use the access credentials created in the previous step (i.e., for the *access* and *secret key* fields). Give the cluster a name and protect access to it via a self-chosen password. You can also choose the type of cluster to configure here - see [this page](/src/CloudMan/ClusterTypes/index.md) for a description of the available options.
 
 <div class='center'>
 <a href='http://i.imgur.com/zf9mzXf.png'><img src='http://i.imgur.com/zf9mzXf.png' alt='' width=250 /></a>
@@ -65,10 +65,10 @@ After the cluster has started, it will take a few more minutes for all the appli
 ---
 
 Depending on your interest, the documentation contains a wealth of information. Here are some places that might interest you:
-* [Capacity planning](/CloudMan/CapacityPlanning)
-* [Cluster applications and services](/CloudMan/Services)
-* [Sharing and publishing a cluster](/CloudMan/Sharing)
+* [Capacity planning](/src/CloudMan/CapacityPlanning/index.md)
+* [Cluster applications and services](/src/CloudMan/Services/index.md)
+* [Sharing and publishing a cluster](/src/CloudMan/Sharing/index.md)
 * [Customizing your cluster](/CloudMan/CustomizeGalaxyCloud)
-* [Troubleshooting](/CloudMan/Troubleshooting)
+* [Troubleshooting](/src/CloudMan/Troubleshooting/index.md)
 
-Getting started guide for the old *cloudlaunch interface* can be found [here](/CloudMan/GettingStarted/Pre201509).
+Getting started guide for the old *cloudlaunch interface* can be found [here](/src/CloudMan/GettingStarted/Pre201509/index.md).

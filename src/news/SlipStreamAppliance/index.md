@@ -1,7 +1,7 @@
 ---
 date: 2013-07-01T08:44:31Z
 ---
-<div class='newsItemHeader'>[SlipStream Appliance: Galaxy Edition](/News/SlipStreamAppliance)</div>
+<div class='newsItemHeader'>[SlipStream Appliance: Galaxy Edition](/src/News/SlipStreamAppliance/index.md)</div>
 
 <div class='center'><a href='http://www.bioteam.net/slipstream/galaxy-edition'><img src='/Images/Logos/SlipStreamApplianceLogo.png' alt='SlipStream Appliance - Galaxy Edition' width="300" /></a></div>
 

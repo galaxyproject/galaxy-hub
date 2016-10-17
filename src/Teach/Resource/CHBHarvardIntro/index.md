@@ -7,7 +7,7 @@ title: [CHB Harvard Introduction to Galaxy](http://hbc.github.io/ngs-workshops/c
 
 
 <div class='deploymentbox'>
- Resource:: **[CHB Harvard Introduction to Galaxy](/Teach/Resource/CHBHarvardIntro)**
+ Resource:: **[CHB Harvard Introduction to Galaxy](/src/Teach/Resource/CHBHarvardIntro/index.md)**
  Types:: Tutorial
  Domains:: **Genomics** 
  Owners:: [Shannan Ho Sui, Oliver Hofmann, Radhika Khetani, Winston Hide](http://hsphbio.ghost.io/people/), [Center for Health Bioinformatics](http://compbio.sph.harvard.edu/chb/) at the [Harvard School of Public Health](http://www.hsph.harvard.edu/) 

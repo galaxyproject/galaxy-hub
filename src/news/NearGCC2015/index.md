@@ -1,7 +1,7 @@
 ---
 date: 2015-04-08T00:30:48Z
 ---
-<div class='newsItemHeader'>[Events Aplenty Near GCC2015](/News/NearGCC2015)</div>
+<div class='newsItemHeader'>[Events Aplenty Near GCC2015](/src/News/NearGCC2015/index.md)</div>
 
 Hello all,
 

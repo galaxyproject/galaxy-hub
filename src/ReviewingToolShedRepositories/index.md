@@ -8,7 +8,7 @@ PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
 
 # The Intergalactic Utilities Commission
 
-The Galaxy community formed a commission to help improve the quality of published Galaxy utilities. More about the [/IUC](/IUC).
+The Galaxy community formed a commission to help improve the quality of published Galaxy utilities. More about the [/IUC](/src/IUC/index.md).
 
 # Granting authority to review a repository
 
@@ -60,7 +60,7 @@ Selecting the **View tool metadata**menu option in the above page displays the f
 
 ![](/view_tool_metadata.png)
 
-However, just because the tool config defines functional tests for the tool, the tests cannot be executed within the environment into which the repository will be installed unless the repository includes the input and output datasets defined within each `<test>` tag set defined in the tool config.  For tests to work, the repository must include a directory named **test-data** somewhere in its file system hierarchy, and all functional test input and output datasets must be included in this directory (see the [Including functional tests for your tools](/TestingInstalledTools) page of the tool shed wiki for all of the details about including working functional tests in your tool shed repository tools).
+However, just because the tool config defines functional tests for the tool, the tests cannot be executed within the environment into which the repository will be installed unless the repository includes the input and output datasets defined within each `<test>` tag set defined in the tool config.  For tests to work, the repository must include a directory named **test-data** somewhere in its file system hierarchy, and all functional test input and output datasets must be included in this directory (see the [Including functional tests for your tools](/src/TestingInstalledTools/index.md) page of the tool shed wiki for all of the details about including working functional tests in your tool shed repository tools).
 
 We'll select the **Browse repository tip files** option from the **Repository Actions** pop-up menu in the above page to make sure the required files exist in the repository.  Unfortunately we discover that, in this case, they do not exist.
 

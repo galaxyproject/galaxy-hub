@@ -1,11 +1,11 @@
 ---
 date: 2013-01-07T20:00:34Z
 ---
-<div class='newsItemHeader'>[January 2013 GalaxyAdmins](/News/2013_01GalaxyAdmins)</div>
+<div class='newsItemHeader'>[January 2013 GalaxyAdmins](/src/News/2013_01GalaxyAdmins/index.md)</div>
 
 <div class='right'><a href='/Community/GalaxyAdmins/Meetups/2013_01_16'><img src='/Images/Logos/GalaxyAdmins.png' alt='January 2013 GalaxyAdmins Meetup' width="160" /></a> </div>
 
-The [next meeting](/Community/GalaxyAdmins/Meetups/2013_01_16) of the [GalaxyAdmins Group](/Community/GalaxyAdmins) will be held on [January 16, 2013, at 10 AM Central US time](/Community/GalaxyAdmins/Meetups/2013_01_16).  
+The [next meeting](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) of the [GalaxyAdmins Group](/Community/GalaxyAdmins) will be held on [January 16, 2013, at 10 AM Central US time](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md).  
 
 [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) will cover "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan"
 
@@ -35,9 +35,9 @@ The [next meeting](/Community/GalaxyAdmins/Meetups/2013_01_16) of the [GalaxyAdm
 
 <br />
 
-We use the [Blackboard Collaborate Web Conferencing system](/Community/GalaxyAdmins/Meetups/WebinarTech) for the meetup. Downloading the required applets in advance and using a headphone with microphone to prevent audio feedback during the call is recommended.
+We use the [Blackboard Collaborate Web Conferencing system](/src/Community/GalaxyAdmins/Meetups/WebinarTech/index.md) for the meetup. Downloading the required applets in advance and using a headphone with microphone to prevent audio feedback during the call is recommended.
 
-[GalaxyAdmins](/Community/GalaxyAdmins) is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
+[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
 
 Srinivas Maddhi
 

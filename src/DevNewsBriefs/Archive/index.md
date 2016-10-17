@@ -1,6 +1,6 @@
 # Galaxy Distribution News Brief Archive
 
-*Galaxy Distribution News Briefs* describe new Galaxy releases, and what has happened in the code since the previous release.  Recent releases are summarized on the [Galaxy Distribution News Brief](/DevNewsBriefs) page. Older News Briefs are listed here. 
+*Galaxy Distribution News Briefs* describe new Galaxy releases, and what has happened in the code since the previous release.  Recent releases are summarized on the [Galaxy Distribution News Brief](/src/DevNewsBriefs/index.md) page. Older News Briefs are listed here. 
 
 **[getgalaxy.org](http://getgalaxy.org)**
 

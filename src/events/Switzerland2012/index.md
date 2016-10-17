@@ -3,7 +3,7 @@ title:  Swiss Galaxy Workshop, ,,  Wednesday, ,,  October 3rd, ,,  Bern
 ---
 <div class='center'>
 
-![Swiss Galaxy Workshop, Wednesday, October 3rd, Bern](/Images/Logos/2012SwissGalaxyWorkshop-400.png) <br /><br /> </div>
+![Swiss Galaxy Workshop, Wednesday, October 3rd, Bern](/src/Images/Logos/2012SwissGalaxyWorkshop-400.png) <br /><br /> </div>
 
 
 
@@ -59,10 +59,10 @@ This workshop is generously supported by [SyBIT](https://wiki.systemsx.ch/displa
 
 
 ## Registration
-The workshop is full, and registration is closed. Please contact [Hans-Rudolf Hotz](/HansrudolfHotz) in order to get informed in case places become available again.
+The workshop is full, and registration is closed. Please contact [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) in order to get informed in case places become available again.
 
 ## Links
 * [SyBIT Tech Day 2012 Oct 3](https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3)
 
 ## Questions?
-Contact [Hans-Rudolf Hotz](/HansrudolfHotz)
+Contact [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md)

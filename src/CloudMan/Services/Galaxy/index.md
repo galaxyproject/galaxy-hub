@@ -25,7 +25,7 @@ sh run.sh --pid-file=main.pid --log-file=main.log --daemon
 ```
 
 
-Additional Galaxy configuration options can be found on the [Galaxy Admin page](/Admin).
+Additional Galaxy configuration options can be found on the [Galaxy Admin page](/src/Admin/index.md).
 
 #### Adding a custom Tool Shed
 By default, !CloudMan is configured with the Main and Test Tool Sheds. If you would like to add another Tool Shed, it is necessary to edit file */mnt/galaxy/galaxy-app/config/tool_sheds_conf.xml* and restart Galaxy (via !CloudMan Admin). The newly added Tool Shed will become available on the *Galaxy Admin* -> *Search and browse tool sheds* page.

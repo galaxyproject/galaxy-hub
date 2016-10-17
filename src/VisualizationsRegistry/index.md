@@ -18,7 +18,7 @@ There are three main steps to creating a visualization:
 3. Creating the code and markup for your visualization
 
 (For more examples of on how the visualizations registry can be used than are on this page, see
-[/VisualizationsRegistry/Cookbook](/VisualizationsRegistry/Cookbook).
+[/VisualizationsRegistry/Cookbook](/src/VisualizationsRegistry/Cookbook/index.md).
 
 ## Enabling visualization plugins on your Galaxy installation
 
@@ -244,7 +244,7 @@ Then, within `sam.mako`, we can access the ORM model of the `HistoryDatasetAssoc
 ```
 
 
-For more information on visualization configuration options see [/VisualizationsRegistry/Configuration](/VisualizationsRegistry/Configuration).
+For more information on visualization configuration options see [/VisualizationsRegistry/Configuration](/src/VisualizationsRegistry/Configuration/index.md).
 
 
 ---
@@ -295,7 +295,7 @@ For our example, let's say we want to just print the mapping quality for each re
     </ul>
 ```
 
-These are explained more fully at [/DataProviders](/DataProviders).
+These are explained more fully at [/DataProviders](/src/DataProviders/index.md).
 
 
 #### Static files for your visualization
@@ -327,10 +327,10 @@ static directory:
 ```
 
 
-For more information on template or static code files see [/VisualizationsRegistry/Code](/VisualizationsRegistry/Code).
+For more information on template or static code files see [/VisualizationsRegistry/Code](/src/VisualizationsRegistry/Code/index.md).
 
 
 ---
 ## Further examples
 
-For more examples on how the visualizations registry can be used see [/VisualizationsRegistry/Cookbook](/VisualizationsRegistry/Cookbook).
+For more examples on how the visualizations registry can be used see [/VisualizationsRegistry/Cookbook](/src/VisualizationsRegistry/Cookbook/index.md).

@@ -6,7 +6,7 @@ title: 2016, /, 06, :,  , [Running Jobs Outside the Galaxy Docker Container](htt
 
 
 <div class='logbox'>
- Topic:: **[Running Jobs Outside the Galaxy Docker Container](/Community/Log/2016/RunningJobsOutsideContainer)**
+ Topic:: **[Running Jobs Outside the Galaxy Docker Container](/src/Community/Log/2016/RunningJobsOutsideContainer/index.md)**
  Date:: 2016/06/20
  Who:: [Marius van den Beek](https://github.com/mvdbeek)
  Resolution:: [Instructions on how to run jobs outside of the Galaxy Docker container](https://github.com/bgruening/docker-galaxy-stable/blob/dev/docs/Running_jobs_outside_of_the_container.md).

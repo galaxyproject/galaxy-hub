@@ -6,11 +6,11 @@ title: 2013, /, 04, :,  Virtualization at URGI
 
 
 <div class='logbox'>
- Topic:: **[Virtualization at URGI](/Community/Log/2013/URGIVirtualisation)**
+ Topic:: **[Virtualization at URGI](/src/Community/Log/2013/URGIVirtualisation/index.md)**
  Date:: 2013/04/10
  Who:: [Contributors](http://wiki.sb-roscoff.fr/ifb/index.php?title=Virtualisation&action=history)
  Resolution:: [Documents creation of virtual machine ISO image](http://wiki.sb-roscoff.fr/ifb/index.php/Virtualisation)
- Deployment:: [INRA-URGI](/PublicGalaxyServers#inra-urgi)
+ Deployment:: [INRA-URGI](/src/PublicGalaxyServers/index.md#inra-urgi)
 </div>
 
 Documents how to [create of virtual machine ISO image](http://wiki.sb-roscoff.fr/ifb/index.php/Virtualisation) for a Galaxy server through launching the server and setting up connections.

@@ -6,19 +6,19 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
 
 <div class='dictbox'>
- BoF:: **[Using Galaxy with Heterogeneous and Remote Resources](/Events/GCC2014/BoFs/Heterogeneous)**
+ BoF:: **[Using Galaxy with Heterogeneous and Remote Resources](/src/Events/GCC2014/BoFs/Heterogeneous/index.md)**
  Summary:: We'll summarize recent efforts to enable Galaxy Main to send jobs to remote HPC resources (XSEDE) and invite others to share related experiences and requirements.  We'll discuss a path to overcome challenges and better meet the needs of the research community. 
  Audience:: 
  When:: Tuesday, July 1, 5:45pm 
  Where:: Salon A
- Contact:: [blood AT psc DOT edu](Philip Blood), [John Chilton](/JohnChilton), [Nate Coraor](/nate), Carrie Ganote
+ Contact:: [blood AT psc DOT edu](Philip Blood), [John Chilton](/JohnChilton), [Nate Coraor](/src/nate/index.md), Carrie Ganote
 </div>
 
 PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 <div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
 
-This page describes the **Using Galaxy with Heterogeneous and Remote Resources** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/Events/GCC2014).
+This page describes the **Using Galaxy with Heterogeneous and Remote Resources** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
 
 ## Description
 
@@ -47,12 +47,12 @@ Anyone (users or admins) interested in leveraging remote or heterogeneous hardwa
 If you are interested, please add your name below and/or send an email to [your AT email DOT address](Your Name).
 
 * [blood AT psc DOT edu](Philip Blood)
-* [John Chilton](/JohnChilton)
-* [nate Coraor](/nate)
-* [ Eric Rasche](/EricRasche)
+* [John Chilton](/src/JohnChilton/index.md)
+* [nate Coraor](/src/nate/index.md)
+* [ Eric Rasche](/src/EricRasche/index.md)
 * Ben Busby
 * Aaron Gardner
-* [Dan Blankenberg](/Dan)
+* [Dan Blankenberg](/src/Dan/index.md)
 * [mcrusoe AT msu DOT edu](Michael R. Crusoe)
 * Cameron Smith
 * Carrie Ganote

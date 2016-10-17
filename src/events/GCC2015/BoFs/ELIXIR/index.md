@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 
 
 <div class='dictbox'>
- BoF:: [ELIXIR-Galaxy Workshop](/Events/GCC2015/BoFs/ELIXIR)
+ BoF:: [ELIXIR-Galaxy Workshop](/src/Events/GCC2015/BoFs/ELIXIR/index.md)
  Summary:: Discuss technical strategy across the ELIXIR pan-European bioinformatics infrastructure with regards the provision of Galaxy services and infrastructure
  Audience:: Any group using or planning to use Galaxy  
  When:: Tuesday, 7 July, 18:00

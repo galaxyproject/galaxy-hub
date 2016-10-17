@@ -1,7 +1,7 @@
 ---
 date: 2015-12-18T17:25:45Z
 ---
-<div class='newsItemHeader'>[GCC2016 is Online!](/News/GCC2016IsOnline)</div>
+<div class='newsItemHeader'>[GCC2016 is Online!](/src/News/GCC2016IsOnline/index.md)</div>
 
 <div class='right'>
 <a href='https://gcc2016.iu.edu/'><img src='https://gcc2016.iu.edu/img/gcc2016-logo.png' alt='2016 Galaxy Community Conference'  /></a>

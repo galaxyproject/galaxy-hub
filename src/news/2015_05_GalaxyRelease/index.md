@@ -1,7 +1,7 @@
 ---
 date: 2015-05-14T20:25:09Z
 ---
-<div class='newsItemHeader'>[May 2015 Galaxy Release (v 15.05)](/News/2015_05_GalaxyRelease)</div>
+<div class='newsItemHeader'>[May 2015 Galaxy Release (v 15.05)](/src/News/2015_05_GalaxyRelease/index.md)</div>
 
 <div class='right'><a href='http://getgalaxy.org'><img src='/Images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png' alt='GalaxyProject' width="200" /></a></div>
  
@@ -18,7 +18,7 @@ The release notes have a new home at **[Read the Docs](http://galaxy.readthedocs
 
 
 *Thanks for using Galaxy!* <br />
-[The Galaxy Team](/GalaxyTeam)
+[The Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

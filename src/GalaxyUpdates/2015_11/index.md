@@ -15,7 +15,7 @@ title: Galactic November News, !
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
-Welcome to the November 2015 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. 
+Welcome to the November 2015 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. 
 
 If you have anything to include in the next News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
 
@@ -24,7 +24,7 @@ If you have anything to include in the next News, please send it to [outreach AT
 **81** new papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in October. Highlights include:
 
 * **[Genomics Virtual Laboratory: A Practical Bioinformatics Workbench for the Cloud](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140829)**
-    [Enis Afgan](/EnisAfgan), Clare Sloggett, Nuwan Goonasekera, Igor Makunin, Derek Benson, Mark Crowe, Simon Gladman, Yousef Kowsar, Michael Pheasant, Ron Horst, Andrew Lonie, *PLoS ONE* October 26, 2015 DOI: 10.1371/journal.pone.0140829.<br />
+    [Enis Afgan](/src/EnisAfgan/index.md), Clare Sloggett, Nuwan Goonasekera, Igor Makunin, Derek Benson, Mark Crowe, Simon Gladman, Yousef Kowsar, Michael Pheasant, Ron Horst, Andrew Lonie, *PLoS ONE* October 26, 2015 DOI: 10.1371/journal.pone.0140829.<br />
     See also [Australian-made Genomics Virtual Laboratory: A Practical Bioinformatics Workbench for the Cloud, ...](https://www.vlsci.org.au/news/GVLnews2015).
 
 * **[Analyzing HT-SELEX data with the Galaxy Project tools - a web based bioinformatics platform for biomedical research](http://dx.doi.org/10.1016/j.ymeth.2015.10.008)**
@@ -124,7 +124,7 @@ The new papers were tagged with:
 
 Thanks to everyone who nominated topics for [GCC2016 Training](/Events/GCC2016/Training).  Please take a few minutes to [vote on the topics](http://bit.ly/gcc2016trnvote) you want to see offered at GCC2016 Training.
 
-The [2016 Galaxy Community Conference (GCC2016)](/Events/GCC2016) features two full days of training on June 26-27.  Each 
+The [2016 Galaxy Community Conference (GCC2016)](/src/Events/GCC2016) features two full days of training on June 26-27.  Each 
 day will have multiple tracks, with each track featuring several sessions throughout the day.  GCC2016 will be held at [Indiana University](http://indiana.edu) in Bloomington, Indiana, United States.
 
 **[Topic voting](http://bit.ly/gcc2016trnvote) closes November 6.**
@@ -172,7 +172,7 @@ See [the event home page for more](https://github.com/galaxyproject/tools-iuc/is
 
 <br />
 
-**The [call for hosts for GCC2017](ATTACHMENT_URLDocuments/GCC2016CallForHosts.pdf) closes 30 November.**  If you are interested, please see [this announcement](/News/GCC2017CallForHost). 
+**The [call for hosts for GCC2017](ATTACHMENT_URLDocuments/GCC2016CallForHosts.pdf) closes 30 November.**  If you are interested, please see [this announcement](/src/News/GCC2017CallForHost/index.md). 
 
 ## October GalaxyAdmins Meetup Video and Slides
 
@@ -182,7 +182,7 @@ See [the event home page for more](https://github.com/galaxyproject/tools-iuc/is
 
 Video and slides for the [GalaxyAdmins meetup on October 15 are now available](/Community/GalaxyAdmins/Meetups/2015_10_15). [David Kovalic](https://www.linkedin.com/in/davidkovalic) presented on *Galaxy at [Analome](http://analome.com/) – Outreach, Opportunity and Challenges*.  This was followed by an active discussion about plans to migrate this wiki to another platform.
 
-[GalaxyAdmins](/Community/GalaxyAdmins) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  We're skipping the December meetup (wouldn't you rather be on holiday?) so the next meetup will be in February.  Hope to see you there.
+[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  We're skipping the December meetup (wouldn't you rather be on holiday?) so the next meetup will be in February.  Hope to see you there.
 
 ---
 
@@ -340,9 +340,9 @@ The Galaxy is expanding! Please help it grow.
 
 * [Postdoc developing advanced MS-based metabolomics bioinformatics methods](http://jobs.sciencecareers.org/job/383809/bioinformatics-of-mass-spectrometry-based-metabolomics/), University of Minnesota. *Closes November 30.*
 * [Software Developer / Bioinformatician](https://ig14.i-grasp.com/fe/tpl_embl01.asp?s=4A515F4E5A565B1A&jobid=54309,8734341283&key=64564906&c=342372129814&pagestamp=seqbdpnrnmbvdpxtgb), European Molecular Biology Laboratory (EMBL), Heidelberg, Germany
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -350,7 +350,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[1 new publicly accessible Galaxy servers](/PublicGalaxyServers) was added in October, bringing the total dangerously close to 80.
+[1 new publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) was added in October, bringing the total dangerously close to 80.
 
 ## Galaxy@PRABI
 
@@ -366,7 +366,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 * *User Support:*
   * [galaxy@prabi user list](http://listes.univ-lyon1.fr/sympa/info/galaxy-user) (in French) 
   * Email support: [galaxy DASH support AT listes DOT univ-lyon1 DOT fr](galaxy DASH support AT listes DOT univ-lyon1 DOT fr) 
-  * We also provide galaxy [training courses](/Teach/Trainers#galaxy_40_prabi_project) for RNA-seq and ChIP-seq data analysis.
+  * We also provide galaxy [training courses](/src/Teach/Trainers/index.md#galaxy_40_prabi_project) for RNA-seq and ChIP-seq data analysis.
 * *Quotas:* 
   * Disk space is limited to 100 MB for unregistered users, registered users are free to use up to 50 GB.
   * Users from the FRBioenvis and LECA teams are free to use up to 250 GB disk space.
@@ -426,7 +426,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 <div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="150" /></a></div>
 
 <div class='indent'>
-   This is the most complete update of the Galaxy on the Cloud platform to date with all the cloud components being built from the ground up. See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a complete set of changes or just give it a try: see the all new [Getting Started](/CloudMan/GettingStarted) documentation. 
+   This is the most complete update of the Galaxy on the Cloud platform to date with all the cloud components being built from the ground up. See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a complete set of changes or just give it a try: see the all new [Getting Started](/src/CloudMan/GettingStarted/index.md) documentation. 
 </div>
 
  **Security Advisories**
@@ -444,7 +444,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
  
  **CloudMan **
-   The [most recent edition of CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release) was released in August.
+   The [most recent edition of CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release) was released in August.
 
  **blend4j v0.1.2**
    [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and !BioCloudCentral.
@@ -470,20 +470,20 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 <br />
 
-2 new **[Galaxy Training Network members](/Teach/Trainers)** were added last month:
+2 new **[Galaxy Training Network members](/src/Teach/Trainers/index.md)** were added last month:
 
-* **[Noor Biotechnologies Ltd.](/Teach/Trainers#noor-biotechnologies-ltd)**
+* **[Noor Biotechnologies Ltd.](/src/Teach/Trainers/index.md#noor-biotechnologies-ltd)**
     [Noor Biotechnologies](http://noorbiotech.com/) has a presence in Malaysia and Saudi Arabia, and is available for training worldwide.
 
-* **[University of Minnesota Minnesota Supercomputing Institute Research Informatics Solutions](/Teach/Trainers#university-of-minnesota-minnesota-supercomputing-institute-research-informatics-solutions)**
+* **[University of Minnesota Minnesota Supercomputing Institute Research Informatics Solutions](/src/Teach/Trainers/index.md#university-of-minnesota-minnesota-supercomputing-institute-research-informatics-solutions)**
     [RIS](https://www.msi.umn.edu/about/staff/riss) is a group of experienced bioinformatics experts within the Supercomputing Institute at the University of Minnesota.
 
-And 2 new **[Community Log Board](/Community/Logs)** entries were added as well.  Both are about wrapping Tools for Galaxy:
+And 2 new **[Community Log Board](/src/Community/Logs/index.md)** entries were added as well.  Both are about wrapping Tools for Galaxy:
 
-* **[Galaxy Tool Generating Dataset Collections](/Community/Log/2015/ToolGeneratingDatasets)**
+* **[Galaxy Tool Generating Dataset Collections](/src/Community/Log/2015/ToolGeneratingDatasets/index.md)**
     [Steve Cassidy](http://web.science.mq.edu.au/~cassidy/wordpress/about-steve-cassidy/) documented how create dataset collections in Galaxy tool definitions. (And [Alveo](http://alveo.edu.au/) is also a cool, non-life science application of Galaxy.)
 
-* **[How Galaxy resolves dependencies (or not)](/Community/Log/2015/HowGalaxyResolveDependenciesOrNot)**
+* **[How Galaxy resolves dependencies (or not)](/src/Community/Log/2015/HowGalaxyResolveDependenciesOrNot/index.md)**
     [Peter van Heusden](https://github.com/pvanheus/) documents tool dependencies that specify how to source the actual packages that implement a tool’s commands.
 
 
@@ -500,20 +500,20 @@ Ran out of time to compile these.  Look for a double batch in December.
 
 * Have a [look at a fresh chart of Main's usage](http://pic.twitter.com/G9RxTeXc0x) showing the improvements in Galaxy reports by [Daniel Bouchard](https://twitter.com/D_J_Bouchard).
 
-* From [Björn Grüning](/BjoernGruening):
+* From [Björn Grüning](/src/BjoernGruening/index.md):
   * 💕 this community! DESeq2 update requested by @mikelove: the [Galaxy wrapper is available](https://github.com/galaxyproject/tools-iuc/pull/294) before BioC version
 
-* From [John Chilton](/JohnChilton):
+* From [John Chilton](/src/JohnChilton/index.md):
   * [Versioned Tap Hackathon Proposal](https://github.com/Homebrew/homebrew-science/issues/2876)
   * [Galaxy visualizations](https://github.com/galaxyproject/galaxy/pull/378#event-427974576) from [Eteri Sokhoyan](https://github.com/eteriSokhoyan) and powered by [Cytoscape.js](http://js.cytoscape.org/) have been merged.
 
-* [Martin Čech](/Marten):
+* [Martin Čech](/src/Marten/index.md):
   * [A list of tools presented at Genome Informatics 2015](https://github.com/galaxyproject/tools-iuc/issues/361) that might be of interest to the Galaxy community.
 
 * From [Oleg Shpynov](https://github.com/olegs)
   * Published [our first application for the Galaxy Project](https://github.com/JetBrains-Research/galaxy) 
 
-* From [Dannon Baker](/DannonBaker):
+* From [Dannon Baker](/src/DannonBaker/index.md):
   * [A proposal for bug and issue handling, and roadmap management](https://github.com/galaxyproject/galaxy/pull/902)
 
 * [Det'Rprok workflow](http://bit.ly/1aWNeVE) from [this paper](http://www.sciencedirect.com/science/article/pii/S1046202313002041) updated at !MyExperiment.
@@ -524,6 +524,6 @@ Ran out of time to compile these.  Look for a double batch in December.
 
 <a href='https://github.com/galaxyproject/galaxy'><img src='/Images/20000Commits.png' alt='Galaxy codebase' width="100%" /></a>
 
-In September [Galaxy turned 10 years old](/GalaxyUpdates/2015_10#galaxy-turns-10) by one important measure.  Another milestone was reached in October when the [Galaxy codebase](https://github.com/galaxyproject/galaxy) surpassed of 20000 commits. And appropriately (and if I can count), the 20,000th was a pull request commit from community member [Eric Rasche](/EricRasche) originally submitted by team member [Nate Coraor](/nate).
+In September [Galaxy turned 10 years old](/GalaxyUpdates/2015_10#galaxy-turns-10) by one important measure.  Another milestone was reached in October when the [Galaxy codebase](https://github.com/galaxyproject/galaxy) surpassed of 20000 commits. And appropriately (and if I can count), the 20,000th was a pull request commit from community member [Eric Rasche](/EricRasche) originally submitted by team member [Nate Coraor](/src/nate/index.md).
 
 Our thanks go to the community and the team alike.

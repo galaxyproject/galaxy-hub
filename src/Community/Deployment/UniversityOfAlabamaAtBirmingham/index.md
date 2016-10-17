@@ -10,7 +10,7 @@ title: Name of Deployment
 
 
 <div class='deploymentbox'>
- Deployment:: **[UAB Galaxy](/Community/Deployment/UniversityOfAlabamaAtBirmingham)**
+ Deployment:: **[UAB Galaxy](/src/Community/Deployment/UniversityOfAlabamaAtBirmingham/index.md)**
  Domain:: NGS analysis: Genomics (reference and de novo), RNAseq, metagenomics, custom tools.
  Owners:: Collaboration between [Center for Clinical and Translational Science](http://bioinformatics.uab.edu) and [Research Computing](https://docs.uabgrid.uab.edu/)
  Audience:: Informatics core, sequencing core, researchers and students at the institution 

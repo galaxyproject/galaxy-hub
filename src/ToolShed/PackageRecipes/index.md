@@ -40,7 +40,7 @@ At the most basic level, recipes for installing packages consist of XML tags tha
 3. Make the binary executable and move it to the defined installation directory
 4. Define the environment for executing the package so Galaxy tools that require it can locate it and execute it
 
-Here I’ll highlight some of the tag sets that are currently available for creating these recipes.  The complete set of tags, along with details for using them, is available on the [Supported tool_dependencies.xml Tag Sets page](/ToolDependenciesTagSets).
+Here I’ll highlight some of the tag sets that are currently available for creating these recipes.  The complete set of tags, along with details for using them, is available on the [Supported tool_dependencies.xml Tag Sets page](/src/ToolDependenciesTagSets/index.md).
 
 # Installing Precompiled Binaries
 

@@ -10,7 +10,7 @@ The [Johns Hopkins University Applied Physics Laboratory (APL)](http://www.jhuap
 
 If you are a US citizen with Unix chops, programming experience, analysis skills, and have "*Familiarity with the Galaxy platform for bioinformatic analysis, to include experience administering a local Galaxy instance*" then please [give them a shout](https://jhuapl.taleo.net/careersection/2/jobdetail.ftl?job=11077).
 
-[Dave Clements](/DaveClements)
+[Dave Clements](/src/DaveClements/index.md)
 
 
 CategoryNews

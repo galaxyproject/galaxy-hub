@@ -1,9 +1,9 @@
 <div class='linkbox'>
-**[GAT2016](/Events/AdminTraining2016)**
+**[GAT2016](/src/Events/AdminTraining2016/index.md)**
 ---
-[Basics Session](/Events/AdminTraining2016/BasicsSession)<br />
-[Advanced Session|](/Events/AdminTraining2016/AdvancedSession)<br />
-[Registration](/Events/AdminTraining2016/Registration)<br />
-[Logistics](/Events/AdminTraining2016/Logistics)<br />
-[Publicity](/Events/AdminTraining2016/Publicity)<br />
+[Basics Session](/src/Events/AdminTraining2016/BasicsSession/index.md)<br />
+[Advanced Session|](/src/Events/AdminTraining2016/AdvancedSession/index.md)<br />
+[Registration](/src/Events/AdminTraining2016/Registration/index.md)<br />
+[Logistics](/src/Events/AdminTraining2016/Logistics/index.md)<br />
+[Publicity](/src/Events/AdminTraining2016/Publicity/index.md)<br />
 </div>

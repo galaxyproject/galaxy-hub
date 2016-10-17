@@ -10,7 +10,7 @@ title: [Biotrac Next Generation Sequencing Course Syllabus](http://www.biotrac.c
 
 
 <div class='deploymentbox'>
- Resource:: **[Biotrac Next Generation Sequencing Course Syllabus](/Teach/Resource/BioTracNGSCourseSyllabus)**
+ Resource:: **[Biotrac Next Generation Sequencing Course Syllabus](/src/Teach/Resource/BioTracNGSCourseSyllabus/index.md)**
  Types:: Syllabus
  Domains:: **Genomics, RNA-Seq, Assembly, Annotation, Variation, Quality Control, ChIP-Seq** 
  Owners:: Ben Busby, Sijung Yun

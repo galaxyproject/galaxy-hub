@@ -66,7 +66,7 @@ attribute `creating_job`, then the `tool_id` attribute of that job.
 You're creating a visualization that uses intervals. No matter what the datatype of dataset is, if each datum
 contains a 'chrom', 'start', and 'end' entry the visualization can use it.
 
-[/DataProviders](/DataProviders) yield data in configurable ways and many dataset datatypes have them. One format they can yield is the
+[/DataProviders](/src/DataProviders/index.md) yield data in configurable ways and many dataset datatypes have them. One format they can yield is the
 'interval' type of data which yields the three values needed. You can use the `type="has_dataprovider"` test to see
 if a dataset (or any data source) has this data provider:
 ```xml

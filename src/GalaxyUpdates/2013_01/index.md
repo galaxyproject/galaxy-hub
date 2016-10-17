@@ -8,7 +8,7 @@ title: January 2013 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the January 2013 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the January 2013 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -66,11 +66,11 @@ There are now [599 papers in the Galaxy CiteULike Group](http://www.citeulike.or
 
 ## Who's Hiring
 
-<div class='right'>![Please Help!  Yes you!](/Images/Icons/PointingFinger.png)</div>
+<div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
 The Galaxy is expanding!  Please help it grow.
 
-* **The [Galaxy Project is hiring](/GalaxyIsHiring)!**
-  * **[Post-docs](/GalaxyIsHiring)** at Penn State University (Nekrutenko Lab)
+* **The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md)!**
+  * **[Post-docs](/src/GalaxyIsHiring/index.md)** at Penn State University (Nekrutenko Lab)
   * **[Post-docs](http://bx.mathcs.emory.edu/joining/postdocs/)** and **[Software Engineers](http://bx.mathcs.emory.edu/joining/sw/)** at Emory University ([Taylor Lab](http://bx.mathcs.emory.edu/))
 * [GenePeeks](http://genepeeks.com/) is hiring a [Computational Geneticist](http://dev.list.galaxyproject.org/GenePeeks-is-hiring-a-Computational-Geneticist-td4657641.html) and a [Tools Programmer](http://dev.list.galaxyproject.org/GenePeeks-is-hiring-a-tools-programmer-td4657642.html).
 * [offre de stage pour un stage de 6 mois (Master2) dans l'équipe Bioinformatique de Syngenta Seeds à Toulouse](http://bit.ly/TvCBCx)
@@ -78,7 +78,7 @@ The Galaxy is expanding!  Please help it grow.
 * [Engineer position in bioinformatics: structural polymorphism analysis from NGS data](http://bit.ly/TEQvzd) @ [UMR de Génétique Végétale, INRA-Université Paris Sud-CNRS](http://moulon.inra.fr/index.php/fr/equipestransversales/atelier-de-bioinformatique)
 * [Offre de stage M2 PRO](http://bit.ly/114Xd9p), [Mathématique, Informatique et Génome (MIG)](http://mig.jouy.inra.fr/) est une unité de l'INRA de Jouy-en-Josas
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 
 ## GCC2013
@@ -88,9 +88,9 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 <div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
 
-[Nominations are now open](http://bit.ly/gcc2013nom) for [Training Day topics](/Events/GCC2013/TrainingDay) for the [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013).  [GCC2013](/Events/GCC2013) will start on 30 June with a Training Day featuring 4 parallel tracks, each with three, two hour workshops, for a total of twelve sessions.
+[Nominations are now open](http://bit.ly/gcc2013nom) for [Training Day topics](/Events/GCC2013/TrainingDay) for the [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/index.md).  [GCC2013](/src/Events/GCC2013/index.md) will start on 30 June with a Training Day featuring 4 parallel tracks, each with three, two hour workshops, for a total of twelve sessions.
 
-Any topic of interest to the Galaxy Community can be [nominated](http://bit.ly/gcc2013nom).  See [what's been nominated so far](/Events/GCC2013/TrainingDay#nominated-topics) (and [what was offered at GCC2012](/Events/GCC2012/TrainingDay)).  Topics can be repeats from last year or brand new, and you are encouraged to nominate as many topics as you like. 
+Any topic of interest to the Galaxy Community can be [nominated](http://bit.ly/gcc2013nom).  See [what's been nominated so far](/Events/GCC2013/TrainingDay#nominated-topics) (and [what was offered at GCC2012](/src/Events/GCC2012/TrainingDay/index.md)).  Topics can be repeats from last year or brand new, and you are encouraged to nominate as many topics as you like. 
 
 **Topic nomination closes 11 January.**
 
@@ -108,12 +108,12 @@ Any topic of interest to the Galaxy Community can be [nominated](http://bit.ly/g
 
 </div>
 
-Please join us in thanking [Molecular Life Science at the University of Oslo](http://www.uio.no/english/research/interfaculty-research-areas/mls/), [The Research Council of Norway](http://www.forskningsradet.no/english/), [Functional Genomics](http://www.bioinfo.no/about/) and [Elixer](http://www.elixir-europe.org/) for hosting and funding the [2013 Galaxy Community Conference](/Events/GCC2013).
+Please join us in thanking [Molecular Life Science at the University of Oslo](http://www.uio.no/english/research/interfaculty-research-areas/mls/), [The Research Council of Norway](http://www.forskningsradet.no/english/), [Functional Genomics](http://www.bioinfo.no/about/) and [Elixer](http://www.elixir-europe.org/) for hosting and funding the [2013 Galaxy Community Conference](/src/Events/GCC2013/index.md).
 
 <div class='left'><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo400.png' alt='Amazon Web Services' width="150" /></a></div>
 
-We are also pleased to announce '[Amazon Web Services](http://aws.amazon.com/) as the [GCC2013 Training Day Sponsor](/Events/GCC2013/TrainingDay).
-There are still several [sponsorships](/Events/GCC2013/Sponsorships) still available.  Please contact the [Organizers](/Events/GCC2013/Organizers) if your organization would like to help sponsor this event. 
+We are also pleased to announce '[Amazon Web Services](http://aws.amazon.com/) as the [GCC2013 Training Day Sponsor](/src/Events/GCC2013/TrainingDay/index.md).
+There are still several [sponsorships](/Events/GCC2013/Sponsorships) still available.  Please contact the [Organizers](/src/Events/GCC2013/Organizers/index.md) if your organization would like to help sponsor this event. 
 
 ## January GalaxyAdmins Web Meetup
 
@@ -208,7 +208,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 * January 7: [ISMB/ECCB 2013](http://www.iscb.org/ismbeccb2013) Proceedings Deadline
 * January 10: [Genomic Standards Council Meeting (GSC 15)](http://gensc.org/gc_wiki/index.php/GSC_15) Early Registration Deadline
-* January 11: [GCC2013 Training Day](/Events/GCC2013/TrainingDay) Topic Nominations close
+* January 11: [GCC2013 Training Day](/src/Events/GCC2013/TrainingDay/index.md) Topic Nominations close
 * January 14: [Great Lakes Bioinformatics Conference 2013 (GLBIO)](http://www.iscb.org/glbio2013/) Paper/Presentation deadline
 * January 15: [PAG Asia 2013](http://intlpagasia.org/2013) Early Registration deadline
 * January 30: [Genomic Standards Council Meeting (GSC 15)](http://gensc.org/gc_wiki/index.php/GSC_15) Registration Deadline
@@ -220,7 +220,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 <div class='right'><a href='http://galaxyproject.org'><img src='/Images/NewsGraphics/2012_12_20_ngs-rna-analysis-toolsuite.png' alt='' width="140" /></a></div>
 
-**[Dec 20, 2012 Distribution](/News/2012_12_20_DistributionNewsBrief)**
+**[Dec 20, 2012 Distribution](/src/News/2012_12_20_DistributionNewsBrief/index.md)**
 
 <div class='indent'>
 **Highlights:**
@@ -240,7 +240,7 @@ upgrade: $ hg pull -u -r 36ad8aa7b922
 
 </div>
 
-**[Dec 3, 2012 Distribution](/News/2012_12_03_DistributionNewsBrief)**
+**[Dec 3, 2012 Distribution](/src/News/2012_12_03_DistributionNewsBrief/index.md)**
 
 <div class='right'><a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2012_12_03_new-history-menu.png' alt='' width="120" /></a></div>
 

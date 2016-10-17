@@ -8,19 +8,19 @@ title: December 2013 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the December 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the December 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # 50+ Public Servers
 
-Three new servers were added to [the list of publicly accessible Galaxy servers](/PublicGalaxyServers) last month.  The number of servers has more than *doubled* in the past 12 months, with the new additions bringing the total to 51. 
+Three new servers were added to [the list of publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) last month.  The number of servers has more than *doubled* in the past 12 months, with the new additions bringing the total to 51. 
 
 The server list has also been reorganized from a single alphabetical list into three distinct depending on server breadth of coverage. From generality to specificity the 3 lists are:
 
- **[General Purpose Servers](/PublicGalaxyServers#general-purpose-servers)**
+ **[General Purpose Servers](/src/PublicGalaxyServers/index.md#general-purpose-servers)**
     These servers support analysis across a wide range of biology.
- **[Domain Servers](/PublicGalaxyServers#domain-servers)**
+ **[Domain Servers](/src/PublicGalaxyServers/index.md#domain-servers)**
     These servers are dedicated to a particular domain, either within the tree of life, or in a particular type of analysis.
- **[Tool Publishing Servers](/PublicGalaxyServers#tool-publishing-servers)**
+ **[Tool Publishing Servers](/src/PublicGalaxyServers/index.md#tool-publishing-servers)**
     These servers' primary function is to enable researchers to use a specific set of locally developed tools, without having to install them locally and use command line interfaces.
 
 The newly added servers are:
@@ -153,10 +153,10 @@ The Galaxy is expanding! Please help it grow.
 * [Informatics Software Support Specialist](http://bit.ly/1cdfOpr) at the University of Minnesota, United States 
 * [CDD Gif-sur-Yvette NGS et Variation Structurales UMR de Génétique Végétale](http://bit.ly/1exDipD), INRA-Université Paris Sud-CNRS 
 * [CDD en bioinformatique : recherche de variants structuraux par reséquençage (NGS)](http:////bit.ly/1h1yQnf)
-* [Statistical Genomics Postdoc](/News/StatisticalGenomicsPostDocPennState) opening in the Makova lab at Penn State
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**, *including positions at George Washington University*.
+* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**, *including positions at George Washington University*.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -170,11 +170,11 @@ The [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014) will be held J
 
 ### Training Day Nominations, December 2-20
 
-GCC2014 will start with a [Training Day](/Events/GCC2014/TrainingDay) on June 30.  As for [GCC2013](/News/GCC2013TrainingDayNominations), the specific topics offered will be determined by you, the Galaxy Community.  Topic nomination will open December 2 and remain open through December 20.  Nominated topics will be posted to the [Training Day page](/Events/GCC2014/TrainingDay) as they come in.  The organizers will then collate the nominations into a single list that the community (yes, that means you) will vote on the nominations in January.  The final schedule of topics and instructors will be published no later than February 10, when registration opens.
+GCC2014 will start with a [Training Day](/src/Events/GCC2014/TrainingDay/index.md) on June 30.  As for [GCC2013](/News/GCC2013TrainingDayNominations), the specific topics offered will be determined by you, the Galaxy Community.  Topic nomination will open December 2 and remain open through December 20.  Nominated topics will be posted to the [Training Day page](/src/Events/GCC2014/TrainingDay/index.md) as they come in.  The organizers will then collate the nominations into a single list that the community (yes, that means you) will vote on the nominations in January.  The final schedule of topics and instructors will be published no later than February 10, when registration opens.
 
-Watch the [Galaxy Mailing Lists](/MailingLists) for announcements and links to the nomination form.
+Watch the [Galaxy Mailing Lists](/src/MailingLists/index.md) for announcements and links to the nomination form.
 
-*[Training Day](/Events/GCC2014/TrainingDay)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There will be 4 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 12 sessions and 30 hours of workshop material.*
+*[Training Day](/src/Events/GCC2014/TrainingDay/index.md)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There will be 4 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 12 sessions and 30 hours of workshop material.*
 
 ### Sponsorships
 
@@ -186,18 +186,18 @@ We are pleased to announce several [sponsorships](/Events/GCC2014/SponsorExhibit
 <br />
 <div class='right'><a href='http://bioteam.net/'><img src='/Images/Logos/BioTeamLogo154.gif' alt='BioTeam' width="120" /></a></div>
 
-We are also pleased to announce that [BioTeam](http://bioteam.net) will again be a [Gold Sponsor](/Events/GCC2014/SponsorExhibit) for this annual event.  This is the second year in a row that !BioTeam has been a GCC Gold Sponsor.
+We are also pleased to announce that [BioTeam](http://bioteam.net) will again be a [Gold Sponsor](/src/Events/GCC2014/SponsorExhibit/index.md) for this annual event.  This is the second year in a row that !BioTeam has been a GCC Gold Sponsor.
 
-There are still [Gold, Silver and Bronze sponsorships](/Events/GCC2014/SponsorExhibit) still available. Please contact the [Organizers](/Events/GCC2014/Organizers) if your organization would like to help sponsor this event. 
+There are still [Gold, Silver and Bronze sponsorships](/Events/GCC2014/SponsorExhibit) still available. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to help sponsor this event. 
 
 ### Exhibitors
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorExhibit#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/Events/GCC2014/Organizers) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorExhibit#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to have an exhibit space at GCC2014. 
 
 ## UC Davis Bioinformatics Boot Camps
 
 <div class='left'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src='/Images/Logos/UCDavisGenomeCenterLogo.jpg' alt='Boot Camps @ UC Davis Bioinformatics Core' width="60" /></a><br />
-&nbsp;![Galaxy](/Images/Logos/galaxyLogoSymbol.png)</div>
+&nbsp;![Galaxy](/src/Images/Logos/galaxyLogoSymbol.png)</div>
 
 **There is still space in 3 of the 4 [UC Davis Bioinformatics Bootcamps](https://training.bioinformatics.ucdavis.edu/bootcamps/) this month.**
 
@@ -322,20 +322,20 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
 
 # Galaxy Distributions
 
-**[Nov 04, 2013 Galaxy Distribution](/DevNewsBriefs/2013_11_04)**
+**[Nov 04, 2013 Galaxy Distribution](/src/DevNewsBriefs/2013_11_04/index.md)**
 
 <div class='right'>
 <a href='/http:usegalaxy.org'><img src='/Images/NewsGraphics/2013_11_04_usegalaxy.org.jpg' alt='usegalaxy.org' width=300 /></a><br />**usegalaxy.org**</div>
 <br />
 **Highlights:**
 
-* A ***security vulnerability*** with filter tools trapped and fixed: **[Upgrade or Patch NOW](/DevNewsBriefs/2013_11_04#security_fix_now)**
+* A ***security vulnerability*** with filter tools trapped and fixed: **[Upgrade or Patch NOW](/src/DevNewsBriefs/2013_11_04/index.md#security_fix_now)**
 * Galaxy Tool Migration: [48 tools migrated to Tool Shed](http://wiki.galaxyproject.org/DevNewsBriefs/2013_11_04#New_Tool_Migrations) for a leaner distribution.
-* Improved [tools for administrators](/DevNewsBriefs/2013_11_04#admin) (email verification, reports).
-* The framework for [Tools](/DevNewsBriefs/2013_11_04#tools), [Visualizations](/DevNewsBriefs/2013_11_04#visualizations), and the [Core](/DevNewsBriefs/2013_11_04#core) have been upgraded for performance and scalability. 
-* Come see! A whopping [26 pull requests incorporated](/DevNewsBriefs/2013_11_04#pull_requests_merged)!. Many thanks to our open source community!
-* Numerous [Tool Shed enhancements and upgrades](/DevNewsBriefs/2013_11_04#tool_shed): API, `READMEs`, Functional Tests, easier installs, and much much more.
-* Plus enhancements to [Workflows](/DevNewsBriefs/2013_11_04#workflows), [API](/DevNewsBriefs/2013_11_04#api), [CloudLaunch](/DevNewsBriefs/2013_11_04#cloudlaunch), [UI](/DevNewsBriefs/2013_11_04#ui), and [Bug Fixes](/DevNewsBriefs/2013_11_04#bug_fixes).
+* Improved [tools for administrators](/src/DevNewsBriefs/2013_11_04/index.md#admin) (email verification, reports).
+* The framework for [Tools](/DevNewsBriefs/2013_11_04#tools), [Visualizations](/DevNewsBriefs/2013_11_04#visualizations), and the [Core](/src/DevNewsBriefs/2013_11_04/index.md#core) have been upgraded for performance and scalability. 
+* Come see! A whopping [26 pull requests incorporated](/src/DevNewsBriefs/2013_11_04/index.md#pull_requests_merged)!. Many thanks to our open source community!
+* Numerous [Tool Shed enhancements and upgrades](/src/DevNewsBriefs/2013_11_04/index.md#tool_shed): API, `READMEs`, Functional Tests, easier installs, and much much more.
+* Plus enhancements to [Workflows](/DevNewsBriefs/2013_11_04#workflows), [API](/DevNewsBriefs/2013_11_04#api), [CloudLaunch](/DevNewsBriefs/2013_11_04#cloudlaunch), [UI](/DevNewsBriefs/2013_11_04#ui), and [Bug Fixes](/src/DevNewsBriefs/2013_11_04/index.md#bug_fixes).
 
 [http://getgalaxy.org](http://getgalaxy.org)
 
@@ -351,9 +351,9 @@ upgrade:   $ hg pull
 ```
 
 
-**[CloudMan](/News/CloudManRelease)**
+**[CloudMan](/src/News/CloudManRelease/index.md)**
 
-A new version of [/CloudMan](/CloudMan) was [released in July](/News/CloudManRelease).
+A new version of [/CloudMan](/CloudMan) was [released in July](/src/News/CloudManRelease/index.md).
 
 <br />
 
@@ -392,4 +392,4 @@ There were many...
 # Other News
 
 * [bioblend 0.4.1](http://bit.ly/IhF6s2) CloudMan and Galaxy API library released 
-* New accounts on [/Main](/Main) now have to activate using the link sent to email address or they can't run jobs (includes upload).  Want to enable this on your own Galaxy instance?  See the [User Accounts Administration](/Admin/UserAccounts) page.
+* New accounts on [/Main](/Main) now have to activate using the link sent to email address or they can't run jobs (includes upload).  Want to enable this on your own Galaxy instance?  See the [User Accounts Administration](/src/Admin/UserAccounts/index.md) page.

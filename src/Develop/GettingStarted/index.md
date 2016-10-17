@@ -8,14 +8,14 @@ This page is a combination walk through guide and list of links meant to help ne
 
 If you are unfamiliar with Galaxy - the best way to start by using Galaxy, for instance by  walking through a simple analysis. [The Galaxy 101](https://usegalaxy.org/u/aun1/p/galaxy101) on [usegalaxy.org](https://usegalaxy.org/) is such a place to start. Those wishing to dive deeper into using Galaxy - checkout the following resources.
 
-* The [/Learn](/Learn) wiki section
+* The [/Learn](/src/Learn/index.md) wiki section
 * Our [videos on vimeo](http://vimeo.com/galaxyproject/channels) (and the [usegalaxy channel](http://vimeo.com/73486255) in particular)
 
 ## Develop a Tool
 
 Once familiar with Galaxy, every developer should write at least one Galaxy tool - it is the most common way to extend Galaxy with new functionality. A "tool" wraps an external application, script, or shell command - describing both the user interface and how to translate it into a command-line via a simple XML file.
 
-* [Tutorial: Developing a Tool](/Admin/Tools/AddToolTutorial)
+* [Tutorial: Developing a Tool](/src/Admin/Tools/AddToolTutorial/index.md)
 
 For those particularly interested in tool development the following section provides many more resources to read through and opportunities for contribution.
 

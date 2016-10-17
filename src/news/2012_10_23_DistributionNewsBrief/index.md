@@ -1,9 +1,9 @@
 ---
 date: 2012-10-24T11:08:09Z
 ---
-<div class='newsItemHeader'>[Oct 23, 2012 Distribution & News Brief](/News/2012_10_23_DistributionNewsBrief)</div>
+<div class='newsItemHeader'>[Oct 23, 2012 Distribution & News Brief](/src/News/2012_10_23_DistributionNewsBrief/index.md)</div>
 
-**Complete [News Brief](/DevNewsBriefs/2012_10_23)**
+**Complete [News Brief](/src/DevNewsBriefs/2012_10_23/index.md)**
 <div class='right'><a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2012_10_23_scatterplot-partialscreen.png' alt='scatterplot-partialscreen' width="400" /></a></div>
 **Highlights:**
 * **Important [Security Fix](http://wiki.g2.bx.psu.edu/DevNewsBriefs/2012_10_23#Compute_Tool_Security_Fix)** - upgrade **NOW**.

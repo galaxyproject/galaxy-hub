@@ -2,7 +2,7 @@
 title: South Africa Galaxy Workshop Tour 2013
 ---
 <div class='center'>
-![2013 South Africa Galaxy Workshop Tour](/Images/Logos/SAGalaxyWorkshopTour2013Wide.png)
+![2013 South Africa Galaxy Workshop Tour](/src/Images/Logos/SAGalaxyWorkshopTour2013Wide.png)
 </div>
 
 
@@ -21,4 +21,4 @@ In South Africa?  A [Galaxy Workshop Tour](/Events) is happening in October at t
 </table>
 
 <br /><br />
-See the [Galaxy Events page](/Events) for other upcoming training events.
+See the [Galaxy Events page](/src/Events/index.md) for other upcoming training events.

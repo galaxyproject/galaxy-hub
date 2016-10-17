@@ -1,7 +1,7 @@
 <div class='newsItemHeader'>[March 12, 2012 Distribution & News Brief](/News/Mar122012 Distribution News Brief)</div>
 
 
-**Complete [News Brief](/DevNewsBriefs/2012_03_12)**
+**Complete [News Brief](/src/DevNewsBriefs/2012_03_12/index.md)**
 
 **Highlights:**
 <div class='right'><a href='/Learn/Visualization/'><img src='/Images/NewsGraphics/2012_03_12_trackster-encode.png' alt='trackster-encode' width="180px" /></a></div>
@@ -23,10 +23,10 @@ upgrade: % hg pull -u -r 40f1816d6857
 
 **Thanks for using Galaxy!**
 
-[Jennifer Jackson](/JenniferJackson)
+[Jennifer Jackson](/src/JenniferJackson/index.md)
 
 [/Galaxy Team](/Galaxy Team)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2012-03-12T20:52:29Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on <<Date(2012-03-12T20:52:29Z)>></div>
 
 CategoryNews

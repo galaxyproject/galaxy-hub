@@ -9,7 +9,7 @@ title: [2016/07: Moving data between Galaxy instances](https://genomicsvirtualla
 
 
 <div class='logbox'>
- Topic:: **[Moving data between Galaxy instances](/Community/Log/2016/MovingDataBetweenGalaxies)**
+ Topic:: **[Moving data between Galaxy instances](/src/Community/Log/2016/MovingDataBetweenGalaxies/index.md)**
  Date:: 2016/07/13
  Who:: [Igor Makunin](https://rcc.uq.edu.au/genomics-virtual-lab)
  Resolution:: [A howto guide on getting data from one instance to another](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/).

@@ -6,7 +6,7 @@ title: 2014, /, 01, :,  LDAP remoteUser Logout
 
 
 <div class='logbox'>
- Topic:: **[Problem with logout when using LDAP for authentication with remoteUser enabled.](/Community/Log/2014/LDAPRemoteUserLogout)**
+ Topic:: **[Problem with logout when using LDAP for authentication with remoteUser enabled.](/src/Community/Log/2014/LDAPRemoteUserLogout/index.md)**
  Date:: 2014/01/27
  Who:: Tim Booth
  Resolution:: Make changes to 4 Galaxy configuration files 

@@ -4,7 +4,7 @@
 
 It is often necessary for Galaxy tools to use dependencies that are included in the repository.  For example, some tools use Java Jar files, some use R scripts, etc.  Tools like this can be written in such a way that the dependencies are located when the tool is executed.  To function, this feature uses information defined in a file named **tool_dependencies.xml** (which must be included in the repository) as well as the tool config file.
 
-For more technical details on this XML file, see the [supported tool_dependencies.xml tag sets](/ToolDependenciesTagSets).
+For more technical details on this XML file, see the [supported tool_dependencies.xml tag sets](/src/ToolDependenciesTagSets/index.md).
 
 As an example, we'll describe a tool that depends on an R script included in the repository.  When this tool is executed, it must locate and use this R script as a dependency for proper execution.  Tools that use Java Jar files or other similar dependencies can follow this example.
 

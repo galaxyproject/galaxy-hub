@@ -1,4 +1,4 @@
-Before starting Cloudgene, it is necessary to start [Cloudera Manager](/CloudMan/Services/ClouderaManager) service first. Once it is running, start the Cloudgene service. Both of these services can be started via !CloudMan's Admin page by clicking on *Start* next to the service name. Once running, the application is available under */cloudgene* URI.
+Before starting Cloudgene, it is necessary to start [Cloudera Manager](/src/CloudMan/Services/ClouderaManager/index.md) service first. Once it is running, start the Cloudgene service. Both of these services can be started via !CloudMan's Admin page by clicking on *Start* next to the service name. Once running, the application is available under */cloudgene* URI.
 
 For more info about Cloudgene, please visit http://cloudgene.uibk.ac.at/ or check out more Cloudgene workflows at [Michigan Imputation Server](https://imputationserver.sph.umich.edu/)  or  [mtDNA-Server](http://mtdna-server.uibk.ac.at).
 

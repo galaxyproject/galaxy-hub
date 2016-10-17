@@ -6,7 +6,7 @@ PLACEHOLDER_INCLUDE(/events/GCC2012/PageHeader)
 
 
 
-**A [GCC22012](/Events/GCC2012) [Breakout Session](/Events/GCC2012/Program/Breakouts)**
+**A [GCC22012](/Events/GCC2012) [Breakout Session](/src/Events/GCC2012/Program/Breakouts/index.md)**
 
 PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
 <div class='right'></div>
@@ -17,29 +17,29 @@ PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
 * Mo Heydarian
 * Karen Reddy
  * 
-* [Anton](/anton), [Dan](/Dan), Rémi, and [Jen](/JenniferJackson) from [Galaxy Team](/GalaxyTeam)
+* [Anton](/anton), [Dan](/Dan), Rémi, and [Jen](/JenniferJackson) from [Galaxy Team](/src/GalaxyTeam/index.md)
 
 # Notes
 
-These are a merged grouping of [Anton's](/anton), [Dan's](/Dan), and [Jen's](/JenniferJackson) notes from the breakout.  Please feel free to update, comment, correct or add in anything we didn't have a chance to address during our session.
+These are a merged grouping of [Anton's](/anton), [Dan's](/Dan), and [Jen's](/src/JenniferJackson/index.md) notes from the breakout.  Please feel free to update, comment, correct or add in anything we didn't have a chance to address during our session.
 
 
 ## Platforms
 
-* Galaxy [/Main](/Main) and [/CloudMan](/CloudMan)
+* Galaxy [/Main](/Main) and [/CloudMan](/src/CloudMan/index.md)
 * This group tends to not use Local instances
 
 ## How Galaxy currently facilitates research
 
-* Galaxy [/Main](/Main)
+* Galaxy [/Main](/src/Main/index.md)
   * to identify 'vetted' tools
   * to experiment with workflows before committing resources to Cloud instances
-* [/CloudMan](/CloudMan)
+* [/CloudMan](/src/CloudMan/index.md)
   * to quickly access an instance with tools/reference data set-up and ready to go
   * for storage (S3)
 * General Comments
   * The 'Big Plus' for end users: Amazon allows Galaxy to be used in highly controlled IT environments. 
-  * "Galaxy better than commercial software" (the [Galaxy Team](/GalaxyTeam) says "thank-you"!!)
+  * "Galaxy better than commercial software" (the [Galaxy Team](/src/GalaxyTeam/index.md) says "thank-you"!!)
   * Trackster/Sweepster amazed everyone (shout-out to Jeremy!)
   * New end user community to be aware of: Mass spec
 
@@ -47,7 +47,7 @@ These are a merged grouping of [Anton's](/anton), [Dan's](/Dan), and [Jen's](/Je
 
 ### Better methods to identify 'Vetted' and 'Best Practice' tools
 * Applies to tools on [/Main](/Main), but in particular tools from [/Tool Shed](/Tool Shed)
-* Community currently relies on [/Main](/Main) for this type of information
+* Community currently relies on [/Main](/src/Main/index.md) for this type of information
 * Extends to Libraries & other source Data, Workflows, Visualizations
 * Ideas (some overlap):
   * Best practices as a way to adopt to correct tools
@@ -60,7 +60,7 @@ These are a merged grouping of [Anton's](/anton), [Dan's](/Dan), and [Jen's](/Je
 
 ### Data integration between Main and CloudMan
 * S3 bucket attachment
-* Ease transfer of libraries/datasets/histories/workflows/pages/etc (primary objects) between [/Main](/Main) &harr; [/CloudMan](/CloudMan)
+* Ease transfer of libraries/datasets/histories/workflows/pages/etc (primary objects) between [/Main](/Main) &harr; [/CloudMan](/src/CloudMan/index.md)
 
 ### Tool integration between Tool Shed and CloudMan
 * Ease installation of tools on cloud instances

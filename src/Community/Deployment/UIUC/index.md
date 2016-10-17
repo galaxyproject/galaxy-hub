@@ -10,7 +10,7 @@ title: UIUC, -, Galaxy
 
 
 <div class='deploymentbox'>
- Deployment:: **[UIUC-Galaxy](/Community/Deployment/UIUC)**
+ Deployment:: **[UIUC-Galaxy](/src/Community/Deployment/UIUC/index.md)**
  Domain:: General Galaxy deployment
  Owners:: [HPCBio](http://hpcbio.illinois.edu) and [CNRG](http://www.igb.illinois.edu/facilities-services/computer-network)
  Audience:: UI campuses

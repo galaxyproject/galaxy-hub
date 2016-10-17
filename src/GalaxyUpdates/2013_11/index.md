@@ -8,13 +8,13 @@ title: November 2013 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the November 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the November 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 <br /><br />
 
 # New Public Servers
 
-Two new servers were added to [the list of publicly accessible Galaxy servers](/PublicGalaxyServers) in October, include one that covers some radically new territory for Galaxy:
+Two new servers were added to [the list of publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) in October, include one that covers some radically new territory for Galaxy:
 
 ## CoSSci: Complex Social Science Gateway
 
@@ -140,11 +140,11 @@ The Galaxy is expanding! Please help it grow.
 
 * [CDD en bioinformatique : recherche de variants structuraux par reséquençage (NGS)](http:////bit.ly/1h1yQnf)
 * [Stage Master 2](http://bit.ly/18Qd2Eg) : Développement et intégrationd’outils pour la bioanalyse dans l’environnement Galaxy 
-* [Statistical Genomics Postdoc](/News/StatisticalGenomicsPostDocPennState) opening in the Makova lab at Penn State
-* [Computational biology opening](/News/ComputationalBiologyParis) at University Pierre-et-Marie-Curie, Paris
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**.
+* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* [Computational biology opening](/src/News/ComputationalBiologyParis/index.md) at University Pierre-et-Marie-Curie, Paris
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -156,7 +156,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 The [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
-Galaxy Community Conferences are an opportunity to participate in presentations, discussions, poster sessions, lightning talks and breakouts, all about high-throughput biology and the tools that support it.  The conference will also includes a *Training Day* offering in-depth topic coverage, across several concurrent sessions.  See [the GCC2013 web site](/Events/GCC2013) for an idea of what happens at a Galaxy Community Conference.
+Galaxy Community Conferences are an opportunity to participate in presentations, discussions, poster sessions, lightning talks and breakouts, all about high-throughput biology and the tools that support it.  The conference will also includes a *Training Day* offering in-depth topic coverage, across several concurrent sessions.  See [the GCC2013 web site](/src/Events/GCC2013/index.md) for an idea of what happens at a Galaxy Community Conference.
 
 ## Galaxy Day, December 4, Paris
 
@@ -185,7 +185,7 @@ Sponsored and organized by [URGI](http://urgi.versailles.inra.fr/), [GenoToul](h
 **Registration is now open for [Bioinformatics Bootcamps in December](https://training.bioinformatics.ucdavis.edu/bootcamps/)!**
 
 <div class='left'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src='/Images/Logos/UCDavisGenomeCenterLogo.jpg' alt='Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core'  /></a><br />
-&nbsp;![Galaxy](/Images/Logos/galaxyLogoSymbol.png)</div>
+&nbsp;![Galaxy](/src/Images/Logos/galaxyLogoSymbol.png)</div>
 
 The [next offering of UC Davis Bioinformatics Bootcamps](https://training.bioinformatics.ucdavis.edu/bootcamps/) will be held on the [UC Davis](http://www.ucdavis.edu/) campus December 10-13. 
 
@@ -346,15 +346,15 @@ The University of Oslo (UiO), the hosts of this year's [Galaxy Community Confere
 From the [Lifeportal website](https://lifeportal.uio.no/):
  Lifeportal gives you easy access to the High Performance Computing cluster Abel at the University of Oslo. The Galaxy based Lifeportal has a continuously growing list of services, and among them the most widely used tools from the former Bioportal.
 
-The [official opening event](http://www.uio.no/english/services/it/research/hpc/lifeportal/news/opening-of-the-lifeportal.html) was on October 9 and included talks and demonstrations by Nils Christophersen, Rector Ole Petter Ottersen, Nikolay Vazov, Katerina Michalickova, Sveinung Gundersen, and Geir Kjetil Sandve, all of whom spoke and/or presented their work at [GCC2013](/Events/GCC2013/Program). Rector Ole Petter Ottersen commented that "The slogan of the university is 'reaching for the stars.' Great to open an entire galaxy today."
+The [official opening event](http://www.uio.no/english/services/it/research/hpc/lifeportal/news/opening-of-the-lifeportal.html) was on October 9 and included talks and demonstrations by Nils Christophersen, Rector Ole Petter Ottersen, Nikolay Vazov, Katerina Michalickova, Sveinung Gundersen, and Geir Kjetil Sandve, all of whom spoke and/or presented their work at [GCC2013](/src/Events/GCC2013/Program/index.md). Rector Ole Petter Ottersen commented that "The slogan of the university is 'reaching for the stars.' Great to open an entire galaxy today."
 
 See [this article](http://bit.ly/GDSjK4) for more on Lifeportal and why UIO chose Galaxy.
 
 # Galaxy Distributions
 
-The most recent [Galaxy distribution was August 12](/DevNewsBriefs/2013_08_12).
+The most recent [Galaxy distribution was August 12](/src/DevNewsBriefs/2013_08_12/index.md).
 
-A new version of [/CloudMan](/CloudMan) was [released in July](/News/CloudManRelease).
+A new version of [/CloudMan](/CloudMan) was [released in July](/src/News/CloudManRelease/index.md).
 
 <br />
 

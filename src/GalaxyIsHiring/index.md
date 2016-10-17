@@ -1,7 +1,7 @@
 ---
 title: Careers with the Galaxy Project, :,  Software Engineers and Postdoctoral Researchers
 ---
-<div class='center'>![Galaxy wants YOU, damnit](/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png)</div>
+<div class='center'>![Galaxy wants YOU, damnit](/src/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png)</div>
 
 
 
@@ -13,9 +13,9 @@ title: Careers with the Galaxy Project, :,  Software Engineers and Postdoctoral 
 <a href='http://www.gwu.edu/'><img src='/gwlogo.png' alt='George Washington University' width="160" /></a>
 </div>
 
-Working for the [Galaxy team](/GalaxyTeam) provides a rare opportunity to perform research and develop software at the leading edge of life sciences, genomics, data-intensive computing, and big data analytics.
+Working for the [Galaxy team](/src/GalaxyTeam/index.md) provides a rare opportunity to perform research and develop software at the leading edge of life sciences, genomics, data-intensive computing, and big data analytics.
 
-We develop [Galaxy](http://galaxyproject.org), a free, open-source platform that (a) enables researchers to store, analyze, visualize and share genomic data and (b) provides genomic tool developers with the ability to deploy their tools within a complete analysis framework.  Galaxy is well known with [thousands of researchers worldwide](/GalaxyProject/Statistics) using it on a daily basis. Our [team members](/GalaxyTeam) are well regarded and widely recognized within the vast biomedical domain.  With genomics being the pivot of future life sciences and healthcare, joining the Galaxy project will open an immense array of possibilities.
+We develop [Galaxy](http://galaxyproject.org), a free, open-source platform that (a) enables researchers to store, analyze, visualize and share genomic data and (b) provides genomic tool developers with the ability to deploy their tools within a complete analysis framework.  Galaxy is well known with [thousands of researchers worldwide](/GalaxyProject/Statistics) using it on a daily basis. Our [team members](/src/GalaxyTeam/index.md) are well regarded and widely recognized within the vast biomedical domain.  With genomics being the pivot of future life sciences and healthcare, joining the Galaxy project will open an immense array of possibilities.
 
 Positions are available at:
 * [Johns Hopkins University](http://www.johnshopkins.edu/), Baltimore, MD (in the [lab of PI James Taylor](http://taylorlab.org/)) 
@@ -42,7 +42,7 @@ We have a wide variety of active projects, current areas of expertise sought inc
 * **Distributed computing and systems programming.** We are engaged in the development of workflow systems, cloud computing based solutions, and other projects involving high performance and data intensive computing.
 * **Bioinformatics application areas** such as re-sequencing, *de novo* assembly, metagenomics, transcriptome analysis and epigenetics.
 
-Regardless of your areas of expertise we seek talented, self-motivated individuals to join [our team](/GalaxyTeam). Galaxy is developed in an academic research environment, and members of the Galaxy team work closely with biomedical researchers on projects at the leading edge of data-intensive biology.
+Regardless of your areas of expertise we seek talented, self-motivated individuals to join [our team](/src/GalaxyTeam/index.md). Galaxy is developed in an academic research environment, and members of the Galaxy team work closely with biomedical researchers on projects at the leading edge of data-intensive biology.
 
 Galaxy is written in Python, but also makes substantial use of !JavaScript, Canvas, and other modern Web technologies. Many of the analysis components of Galaxy are performance critical and are implemented in C and other languages as well.
 

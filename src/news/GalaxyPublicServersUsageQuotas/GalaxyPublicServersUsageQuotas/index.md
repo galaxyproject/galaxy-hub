@@ -20,9 +20,9 @@ User data and job [quota limits](/Test#quotas) are now implemented at the public
 </table>
 
 <br />
-See the wiki [Test](/Test#quotas) page for full details.
+See the wiki [Test](/src/Test/index.md#quotas) page for full details.
 
-While [no quotas](/Main#quotas) are currently implemented at the public Galaxy [/Main](/Main) instance, http://usegalaxy.org, we do ask that users stay within [certain usage limits](/Main#quotas).
+While [no quotas](/src/Main/index.md#quotas) are currently implemented at the public Galaxy [/Main](/Main) instance, http://usegalaxy.org, we do ask that users stay within [certain usage limits](/src/Main/index.md#quotas).
 
 <table>
   <tr>

@@ -3,7 +3,7 @@ autotoc: true
 title: Frequently Asked Questions for , !, CloudMan
 ---
 
-See [/Learn/FAQ](/Learn/FAQ) for questions about using any Galaxy instance and [/CloudMan](/CloudMan) page for general information about !CloudMan.  
+See [/Learn/FAQ](/Learn/FAQ) for questions about using any Galaxy instance and [/CloudMan](/src/CloudMan/index.md) page for general information about !CloudMan.  
 
 
 
@@ -34,7 +34,7 @@ When copying files from the cluster, on your local machine, issue the following 
 ---
 
 ## Adding more storage space
-You can add additional storage space to your cluster by adding a file system to it. For [cluster types](/CloudMan/ClusterTypes) with persistent storage, you can also increase the size of the storage by clicking on the *Grow* icon next to the Disk Status. 
+You can add additional storage space to your cluster by adding a file system to it. For [cluster types](/src/CloudMan/ClusterTypes/index.md) with persistent storage, you can also increase the size of the storage by clicking on the *Grow* icon next to the Disk Status. 
 
 To add a new file system, go to !CloudMan Admin page, and click *Add new* under *File systems* section of the page. You can choose among several storage device options:
 

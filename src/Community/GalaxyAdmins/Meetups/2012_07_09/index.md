@@ -36,7 +36,7 @@ Ann proposed this generic agenda for future calls
 * 20 min: Galaxy in Our Town. 
     Presentation from a local galaxy institution on what they are doing or a problem they are troubleshooting - or have someone walk through their use cases and pain points.
 * 20 min: Galaxy Today/Tomorrow. 
-    Presentation on a galaxy coding item. Either from [Galaxy Team](/GalaxyTeam), or from [someone](/Community) working on a new feature or customization.
+    Presentation on a galaxy coding item. Either from [Galaxy Team](/GalaxyTeam), or from [someone](/src/Community/index.md) working on a new feature or customization.
 * 20 mins: Open Mic Discussion & make point to point connections. 
     Organize smaller breakouts if someone wants to host a call specific to an issue, ...
 
@@ -54,14 +54,14 @@ The group decided to continue with Blackboard.
 
 ### Non-Meeting Communication
 
-Communication outside of meetings will continue to happen on the [Galaxy-Dev mailing list](/MailingLists).  We will consider other options if that becomes unworkable.
+Communication outside of meetings will continue to happen on the [Galaxy-Dev mailing list](/src/MailingLists/index.md).  We will consider other options if that becomes unworkable.
 
 ## Goals
 
 1. Build a community 
 2. Learn from each other.
 
-<div class='right'>![University of Iowa](/Images/Logos/UIowaLogo.jpg)</div>
+<div class='right'>![University of Iowa](/src/Images/Logos/UIowaLogo.jpg)</div>
 
 ## Galaxy at Iowa
 
@@ -98,7 +98,7 @@ Iowa addresses the "give them enough rope" conundrum* by providing well tested a
 
 ## GCC2012 Breakout
 
-There will be a [GalaxyCzars](/Community/GalaxyAdmins) breakout session at [GCC2012](/Events/GCC2012) at the end of this month.  It will be a chance to refine the groups goals, logistics, and schedule and a great to chance to meet in person.
+There will be a [GalaxyCzars](/Community/GalaxyAdmins) breakout session at [GCC2012](/src/Events/GCC2012/index.md) at the end of this month.  It will be a chance to refine the groups goals, logistics, and schedule and a great to chance to meet in person.
 
 ## Next Meeting
 

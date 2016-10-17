@@ -23,7 +23,7 @@ Sharing a cluster is achieved via !CloudMan console by clicking the *Share* butt
 ![](http://i.imgur.com/CVTxmH9.png?2)
 </div>
 
-After the sharing popup shows up, decide whether your would like to share the cluster with specific AWS accounts or make it public and click the button at the bottom of the popup. **Note** that as you initiate the sharing process, most of the [cluster services](/CloudMan/Services) (including Galaxy) will be automatically shut down and later restarted. It is hence advisable to initiate the sharing process only after all the jobs have completed and all the *ssh* sessions to the cluster have been closed.
+After the sharing popup shows up, decide whether your would like to share the cluster with specific AWS accounts or make it public and click the button at the bottom of the popup. **Note** that as you initiate the sharing process, most of the [cluster services](/src/CloudMan/Services/index.md) (including Galaxy) will be automatically shut down and later restarted. It is hence advisable to initiate the sharing process only after all the jobs have completed and all the *ssh* sessions to the cluster have been closed.
 
 <div class='center'>
 ![](http://i.imgur.com/CUwr5ID.png?1)

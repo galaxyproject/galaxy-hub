@@ -8,7 +8,7 @@ title: February 2014 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the February 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the February 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # New Papers
 
@@ -85,10 +85,10 @@ The Galaxy is expanding! Please help it grow.
 
 * [Postdoctoral position in genomics/bio-informatics (NGS)](http://bit.ly/1eq5TvM) at University of Rennes 1 (France)  
 * [Post-doctoral Data analyst / Bioinformatician](http://bit.ly/1g6FxAp) position for high-throughput data analysis : Paris, France 
-* [Statistical Genomics Postdoc](/News/StatisticalGenomicsPostDocPennState) opening in the Makova lab at Penn State
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**, *including positions at George Washington University*.
+* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**, *including positions at George Washington University*.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -102,21 +102,21 @@ The [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014) will be held J
 
 ### Registration opens February 10
 
-Early registration will open February 10.  The [Training Day](/Events/GCC2014/TrainingDay) schedule will also be posted at that time.  The organizers are currently contacting potential instructors and building the schedule.  Thanks to everyone who took the time to nominate and vote on Training Day topics.
+Early registration will open February 10.  The [Training Day](/src/Events/GCC2014/TrainingDay/index.md) schedule will also be posted at that time.  The organizers are currently contacting potential instructors and building the schedule.  Thanks to everyone who took the time to nominate and vote on Training Day topics.
 
-*[Training Day](/Events/GCC2014/TrainingDay)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There will be 4 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 12 sessions and 30 hours of workshop material.*
+*[Training Day](/src/Events/GCC2014/TrainingDay/index.md)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There will be 4 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 12 sessions and 30 hours of workshop material.*
 
 ### Sponsorships
 
 <div class='left'><a href='http://genomeweb.com'><img src='/Images/Logos/GenomeWebSmall.png' alt='GenomeWeb' width="180" /></a></div>
 
-We are pleased to have [GenomeWeb](http://genomeweb.com) as a [Silver Sponsor](/Events/GCC2014/SponsorExhibit) for [GCC2014](/Events/GCC2014).  This is the first GCC that !GenomeWeb has sponsored.  Please welcome them.
+We are pleased to have [GenomeWeb](http://genomeweb.com) as a [Silver Sponsor](/Events/GCC2014/SponsorExhibit) for [GCC2014](/src/Events/GCC2014/index.md).  This is the first GCC that !GenomeWeb has sponsored.  Please welcome them.
 
-There are still [Silver and Bronze sponsorships](/Events/GCC2014/SponsorExhibit) available. Please contact the [Organizers](/Events/GCC2014/Organizers) if your organization would like to help sponsor this event. 
+There are still [Silver and Bronze sponsorships](/Events/GCC2014/SponsorExhibit) available. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to help sponsor this event. 
 
 ### Exhibitors
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorExhibit#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/Events/GCC2014/Organizers) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorExhibit#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to have an exhibit space at GCC2014. 
 
 ## Galaxy Australasia Workshop 2014 (GAW 2014)
 
@@ -262,7 +262,7 @@ GMOD Malaysia 2014 is made possible by the generous support of the [National Evo
 
 # New Public Servers
 
-Several new servers were added to [the list of publicly accessible Galaxy servers](/PublicGalaxyServers) last month.
+Several new servers were added to [the list of publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) last month.
 
 ## Genomics Virtual Lab
  
@@ -319,7 +319,7 @@ Several new servers were added to [the list of publicly accessible Galaxy server
 
 # Galaxy Distributions
 
-The [most recent Galaxy Distribution was November 04, 2013](/DevNewsBriefs/2013_11_04).
+The [most recent Galaxy Distribution was November 04, 2013](/src/DevNewsBriefs/2013_11_04/index.md).
 
 <div class='right'><br /><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
 
@@ -347,17 +347,17 @@ An update to Galaxy CloudMan was released in January. CloudMan offers an easy wa
 
 # Galaxy Community Hubs
 
-The *[Community Log Board](/Community/Logs)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/Community)* were launched in December.  January saw several additions:
+The *[Community Log Board](/Community/Logs)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/src/Community/index.md)* were launched in December.  January saw several additions:
 
-**New [Galaxy Deployment Catalog](/Community/Deployments) entries:**
-* [CSIRO Galaxy Service](/Community/Deployment/CsiroService)
-* [UIUC-Galaxy](/Community/Deployment/UIUC)
+**New [Galaxy Deployment Catalog](/src/Community/Deployments/index.md) entries:**
+* [CSIRO Galaxy Service](/src/Community/Deployment/CsiroService/index.md)
+* [UIUC-Galaxy](/src/Community/Deployment/UIUC/index.md)
 
 bringing the number of deployment descriptions to 10.
 
 
-**New [Community Log Board](/Community/Logs) entries** 
-* [LDAP remoteUser Logout](/Community/Log/2014/LDAPRemoteUserLogout)
+**New [Community Log Board](/src/Community/Logs/index.md) entries** 
+* [LDAP remoteUser Logout](/src/Community/Log/2014/LDAPRemoteUserLogout/index.md)
 
 bringing the number of log entries to 12.
 
@@ -387,7 +387,7 @@ bringing the number of log entries to 12.
 
 In case you haven't heard, the former [Emory University](http://emory.edu) contingent of the [Galaxy Team](/GalaxyTeam) went north this month to Baltimore - it's warmer there (at least this week), where [James Taylor](/JamesTaylor) is now an Associate Professor in the [Johns Hopkins](http://www.johnshopkins.edu/) [Biology](http://www.bio.jhu.edu/) and [Computer Science](http://www.cs.jhu.edu/) Departments.  [Jeremy Goecks](/JeremyGoecks), also formerly of the Emory University contingent is now an Assistant Professor of [Computational Biology](http://cbi.gwu.edu/) at [George Washington University](http://www.gwu.edu/) in the Washington DC area.
 
-None of these moves should be particularly noticeable to the Galaxy community.  We didn't lose anyone in these transitions, and in fact we are [still hiring](/GalaxyIsHiring), but now at three universities instead of two.
+None of these moves should be particularly noticeable to the Galaxy community.  We didn't lose anyone in these transitions, and in fact we are [still hiring](/src/GalaxyIsHiring/index.md), but now at three universities instead of two.
 
 # Other News
 

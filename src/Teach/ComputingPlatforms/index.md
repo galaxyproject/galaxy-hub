@@ -151,9 +151,9 @@ There are many Galaxy servers that already exist.  Some of them may be useful fo
 
 </div>
 
-**Teaching with the free Galaxy Project public server ([Usegalaxy.org](http://usegalaxy.org), a.k.a. [/Main](/Main)) is not recommended.**
+**Teaching with the free Galaxy Project public server ([Usegalaxy.org](http://usegalaxy.org), a.k.a. [/Main](/src/Main/index.md)) is not recommended.**
 
-[/Main](/Main) is a seemingly obvious choice: it's free, robust, rich in tools and data, has generous quotas, and anyone can create a login.  However, it is also a very popular resource and it is impossible to predict when it will be lightly or heavily loaded.  Teaching with Main on days when it is heavily loaded is a frustrating experience for both teachers and students.  People don't learn anything if most of their time is spent sitting in a queue.
+[/Main](/src/Main/index.md) is a seemingly obvious choice: it's free, robust, rich in tools and data, has generous quotas, and anyone can create a login.  However, it is also a very popular resource and it is impossible to predict when it will be lightly or heavily loaded.  Teaching with Main on days when it is heavily loaded is a frustrating experience for both teachers and students.  People don't learn anything if most of their time is spent sitting in a queue.
 
 ### Local Galaxy Servers
 
@@ -191,9 +191,9 @@ However, a class full of people all doing, say, assembly will stress any server 
 
 </div>
 
-There are also [publicly accessible Galaxy servers](/PublicGalaxyServers) that may be appropriate for training purposes.  Many of these have specialized and domain-specific tools that you need, and many of them will not be as heavily and unpredictably used as as [/Main](/Main).
+There are also [publicly accessible Galaxy servers](/PublicGalaxyServers) that may be appropriate for training purposes.  Many of these have specialized and domain-specific tools that you need, and many of them will not be as heavily and unpredictably used as as [/Main](/src/Main/index.md).
 
-You are encourage to [take a look at the list of servers](/PublicGalaxyServers) to see if one or more matches your needs.  However, these are also shared public resources.  If you want to use one for training, be sure to contact the server's support people well before you plan on using it.
+You are encourage to [take a look at the list of servers](/src/PublicGalaxyServers/index.md) to see if one or more matches your needs.  However, these are also shared public resources.  If you want to use one for training, be sure to contact the server's support people well before you plan on using it.
 
 
 ## Cloud Based Galaxy Servers
@@ -207,7 +207,7 @@ This option describes Galaxy servers that are created for teaching purposes.
 
 <div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="150" /></a></div>
 
-CloudMan software abstracts much of the details of different [/Cloud](/Cloud) infrastructures and provides a uniform graphical interface for managing cloud-based servers.  
+CloudMan software abstracts much of the details of different [/Cloud](/src/Cloud/index.md) infrastructures and provides a uniform graphical interface for managing cloud-based servers.  
 
 ### A Word on AWS
 
@@ -233,11 +233,11 @@ If you are considering using a cloud-based platform, then you are encouraged to 
 
 </div>
 
-Starting in early 2012, **any *[using Galaxy workshops](#teaching-use)* presented by the Galaxy Project, now use cloud-based and [/CloudMan](/CloudMan)-managed shared Galaxy servers.**  These servers are set up before a workshop; participants create accounts and use the servers during the workshop, and then the servers are shut down after the workshops.
+Starting in early 2012, **any *[using Galaxy workshops](#teaching-use)* presented by the Galaxy Project, now use cloud-based and [/CloudMan](/src/CloudMan/index.md)-managed shared Galaxy servers.**  These servers are set up before a workshop; participants create accounts and use the servers during the workshop, and then the servers are shut down after the workshops.
 
 If you are *[teaching use](#teaching-use)*, then [large, shared](#shared) cloud-based servers work well. You (the instructor) set them up, and the participants don't even need to know they are using cloud-based servers.
 
-If you do use AWS-based and CloudMan-managed servers for your training, the Galaxy Project also provides a [Galaxy Workshop AMI](/Teach/WorkshopAMI) that comes preloaded with several examples that are used in project-run workshops.
+If you do use AWS-based and CloudMan-managed servers for your training, the Galaxy Project also provides a [Galaxy Workshop AMI](/src/Teach/WorkshopAMI/index.md) that comes preloaded with several examples that are used in project-run workshops.
 
 ### Personal Servers with CloudMan
 
@@ -313,4 +313,4 @@ If the laptop uses MacOS or Linux as it's operating system then it is possible t
 
 </div>
 
-You can also create *virtual machine images* that participants can download and run on their laptops, using a virtual machine image player such as [VirtualBox](http://virtualbox.org).  In this case you can pre-install any needed tools and datasets.  The students will still be running analysis on their laptops, and therefore nothing too CPU or memory intensive can be run.  This approach was used at the [GCC2012](/Events/GCC2012/TrainingDay) and [GCC2013](/Events/GCC2013/TrainingDay) Training Day sessions where participants learned how to manage their own servers.
+You can also create *virtual machine images* that participants can download and run on their laptops, using a virtual machine image player such as [VirtualBox](http://virtualbox.org).  In this case you can pre-install any needed tools and datasets.  The students will still be running analysis on their laptops, and therefore nothing too CPU or memory intensive can be run.  This approach was used at the [GCC2012](/Events/GCC2012/TrainingDay) and [GCC2013](/src/Events/GCC2013/TrainingDay/index.md) Training Day sessions where participants learned how to manage their own servers.

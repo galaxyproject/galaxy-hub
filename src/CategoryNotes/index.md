@@ -1,6 +1,6 @@
 
 
-[Galaxy Notes](/Notes) items.  See the [/Notes](/Notes) page for how these are used.
+[Galaxy Notes](/src/Notes/index.md) items.  See the [/Notes](/src/Notes/index.md) page for how these are used.
 
 **List of pages in this category:**
 

@@ -16,7 +16,7 @@ The GCC2013 Organizing Committee is responsible for event planning.  The Organiz
 
  **[Nils Damm Christophersen](http://www.mn.uio.no/ifi/english/people/aca/nilsch/index.html)**
   [University of Oslo](http://www.uio.no/)<br /><br />
- **[Dave Clements](/DaveClements)**
+ **[Dave Clements](/src/DaveClements/index.md)**
   [Emory University](http://emory.edu/)<br /><br />
  **[Ingeborg Bjorvand Engh](http://www.mn.uio.no/ifi/english/people/aca/ingebbj/)**
   [University of Oslo](http://www.uio.no/)<br /><br />
@@ -27,19 +27,19 @@ The GCC2013 Organizing Committee is responsible for event planning.  The Organiz
 
 ## Scientific Committee
 
-The GCC2013 Scientific Committee is responsible for reviewing [talk and poster abstract submissions](/Events/GCC2013/Abstracts), selecting and inviting keynote speakers, and reviewing and selecting lightning talk proposals. 
+The GCC2013 Scientific Committee is responsible for reviewing [talk and poster abstract submissions](/src/Events/GCC2013/Abstracts/index.md), selecting and inviting keynote speakers, and reviewing and selecting lightning talk proposals. 
 
 The Scientific Committee can be reached at [gcc2013 DASH sci AT galaxyproject DOT org](gcc2013 DASH sci AT galaxyproject DOT org).
 
  **[Nils Damm Christophersen](http://www.mn.uio.no/ifi/english/people/aca/nilsch/index.html)**
    [University of Oslo](http://www.uio.no/)<br /><br />
- **[Anton Nekrutenko](/anton)**
+ **[Anton Nekrutenko](/src/anton/index.md)**
    [Penn State University](http://www.psu.edu)<br /><br />
  **[Karen Reddy](http://biolchem.bs.jhmi.edu/pages/facultydetail.aspx?FID=343)**
    [Johns Hopkins University](http://jhu.edu/)<br /><br />
  **[Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/index.html)**
    [University of Oslo](http://www.uio.no/)<br /><br />
- **[James Taylor](/JamesTaylor)**, Committee Chair
+ **[James Taylor](/src/JamesTaylor/index.md)**, Committee Chair
    [Emory University](http://emory.edu)
 
 PLACEHOLDER_INCLUDE(/Events/GCC2013/Footer)

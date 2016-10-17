@@ -1,7 +1,7 @@
 ---
 date: 2015-02-03T00:11:07Z
 ---
-<div class='newsItemHeader'>[GCC2016 Needs a Host!](/News/GCC2016CallForHost)</div>
+<div class='newsItemHeader'>[GCC2016 Needs a Host!](/src/News/GCC2016CallForHost/index.md)</div>
 
 <table>
   <tr>
@@ -37,7 +37,7 @@ Hosts get copious (and enthusiastic) organizational support from Galaxy's Outrea
 
 Hoping to work with you in 2016!
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/GalaxyTeam)
+[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

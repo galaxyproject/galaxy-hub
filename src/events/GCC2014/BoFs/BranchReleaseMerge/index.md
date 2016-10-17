@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
 
 
 <div class='dictbox'>
- BoF:: **[Doing the Branch, Release, and Merge Waltz](/Events/GCC2014/BoFs/BranchReleaseMerge)**
+ BoF:: **[Doing the Branch, Release, and Merge Waltz](/src/Events/GCC2014/BoFs/BranchReleaseMerge/index.md)**
  Summary:: Branching and release management with regard to the existing instances which implement customized code within Galaxy.
  Audience:: Galaxy admins that have customized Galaxy code for their installation. 
  When:: Monday, June 30, 6:15pm
@@ -19,7 +19,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 <div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
 
-This page describes the **Doing the Branch, Release, and Merge Waltz** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/Events/GCC2014).
+This page describes the **Doing the Branch, Release, and Merge Waltz** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
 
 # Description
 
@@ -55,7 +55,7 @@ Those managing a local Galaxy instance with code customizations.
 If you are interested, please add your name below and/or send an email to [Nikolay Aleksandrov Vazov](http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html).
 
 * [Nikolay Aleksandrov Vazov](http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html)
-* [Hans-Rudolf Hotz](/HansrudolfHotz)
+* [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md)
 * Peter Cock
 * ...
 

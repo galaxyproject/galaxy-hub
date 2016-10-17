@@ -1,7 +1,7 @@
 ---
 title: April 1, ,,  2015 Galaxy Workshop at Stanford University
 ---
-<div class='center'>![Galaxy Meetup @ Penn State](/Events/Meetups/PSU/PSUMeetupLogo600.png)</div>
+<div class='center'>![Galaxy Meetup @ Penn State](/src/Events/Meetups/PSU/PSUMeetupLogo600.png)</div>
 
 
 <br />
@@ -26,14 +26,14 @@ This hands-on Galaxy workshop will cover several common analysis pathways with a
 
 ### Event Details
 * [Agenda](https://docs.google.com/document/d/1VllhRCALRLvEAhcfiAou0c_p4bVlobBY-Rx3xB9UwzY/edit?usp=sharing)
-* [Wiki Galaxy Project Workshop 2015](/Teach/Resource/GalaxyProjectWorkshop2015)
+* [Wiki Galaxy Project Workshop 2015](/src/Teach/Resource/GalaxyProjectWorkshop2015/index.md)
 
 ### Suggested Prerequisites
 While the workshop will be useful and informative for new Galaxy users, attendees will get the most out of the hands-on exercises if they have some basic familiarity with using Galaxy.
 * The first thing you should try: [Galaxy 101](https://usegalaxy.org/u/aun1/p/galaxy101)
 * Review a set of introductory-level tutorials: [Using Galaxy](https://usegalaxy.org/u/galaxyproject/p/using-galaxy-2012)
 * Get involved with the Galaxy Scientific user community by joining in on the conversations at [Galaxy Biostars](https://biostar.usegalaxy.org) ([Instant registration](https://wiki.galaxyproject.org/Support/Biostar))
-* Resources: [/Learn](/Learn) and [/Support](/Support)
+* Resources: [/Learn](/Learn) and [/Support](/src/Support/index.md)
 
 #### What is Galaxy and why could it be interesting to me?
 Galaxy is a web-based, open source, data integration and analysis platform for life science research. The core pillars of the application are:

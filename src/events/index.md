@@ -17,7 +17,7 @@ The events listed here are also available in the *[Galaxy Events Google Calendar
 
 <br />If you know of any event that should be added to this page and/or to the Galaxy Event Calendar, please add it here or send it to outreach@galaxyproject.org.
 
-For events prior to this year, see the **[Events Archive](/Events/Archive)**.
+For events prior to this year, see the **[Events Archive](/src/Events/Archive/index.md)**.
 
 ## Upcoming Events
 
@@ -194,7 +194,7 @@ For events prior to this year, see the **[Events Archive](/Events/Archive)**.
 
 ## Past Events
 
-For events prior to this year, see the **[Events Archive](/Events/Archive)**.
+For events prior to this year, see the **[Events Archive](/src/Events/Archive/index.md)**.
 
 ### 2016
 
@@ -919,4 +919,4 @@ For events prior to this year, see the **[Events Archive](/Events/Archive)**.
 
 ### Previous Years
 
-And events from previous years, complete with links to slides, tutorials, example data, ... are available in the **[Events Archive](/Events/Archive)**.
+And events from previous years, complete with links to slides, tutorials, example data, ... are available in the **[Events Archive](/src/Events/Archive/index.md)**.

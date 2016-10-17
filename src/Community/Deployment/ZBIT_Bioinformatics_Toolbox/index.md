@@ -11,7 +11,7 @@ title: ZBIT Bioinformatics Toolbox
 
 <div class='deploymentbox'>
 
- Deployment:: **[ZBIT Bioinformatics Toolbox](/Community/Deployment/ZBIT_Bioinformatics_Toolbox)**
+ Deployment:: **[ZBIT Bioinformatics Toolbox](/src/Community/Deployment/ZBIT_Bioinformatics_Toolbox/index.md)**
 
  Domain:: Bioinformatics: SBML tools, expression data analysis, transcription factor analysis
  Owners:: [Center for Bioinformatics Tuebingen (ZBIT)](http://www.zbit.uni-tuebingen.de).
@@ -63,4 +63,4 @@ Default user management
 
 ## Links
 * [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de)
-* [Server description](/PublicGalaxyServers#zbit-bioinformatics-toolbox) in the [list of publicly accessible Galaxy servers](/PublicGalaxyServers) 
+* [Server description](/PublicGalaxyServers#zbit-bioinformatics-toolbox) in the [list of publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) 

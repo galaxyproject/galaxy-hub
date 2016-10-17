@@ -1,17 +1,17 @@
 ---
-title: [GalaxyAdmins](/Community/GalaxyAdmins),  GCC2015 Meetup
+title: [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md),  GCC2015 Meetup
 ---
 PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 
 
 
 <div class='dictbox'>
- BoF:: [GalaxyAdmins](/Events/GCC2015/BoFs/GalaxyAdmins)
- Summary:: The annual in-person gathering of the [GalaxyAdmins](/Community/GalaxyAdmins) group
+ BoF:: [GalaxyAdmins](/src/Events/GCC2015/BoFs/GalaxyAdmins/index.md)
+ Summary:: The annual in-person gathering of the [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) group
  Audience:: If you manage a Galaxy instance, this BoF is for you 
  When:: Tuesday, 7 July, 18:20
  Where:: Franklin Room, JICCC
- Contact:: [Hans-Rudolf Hotz](/HansrudolfHotz), [Dave Clements](/DaveClements)
+ Contact:: [Hans-Rudolf Hotz](/HansrudolfHotz), [Dave Clements](/src/DaveClements/index.md)
 </div>
 
 <div class='left'><a href='/Events/GCC2015/BoFs'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a>
@@ -20,7 +20,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 
 [GalaxyAdmins](/Community/GalaxyAdmins) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/Community/GalaxyAdmins/Meetups) and at events like [GCC2015](http://gcc2015.tsl.ac.uk/), where a lot of us happen to be.
 
-GCC2015 will be the third in=person GalaxyAdmins meetup.  The GalaxyAdmins !BoFs at [GCC2013](/Events/GCC2013/BoF/GalaxyAdmins) and [GCC2014](/Events/GCC2014/BoFs/GalaxyAdmins) were very well attended and resulted in several actions items, many of which have now been implemented.
+GCC2015 will be the third in=person GalaxyAdmins meetup.  The GalaxyAdmins !BoFs at [GCC2013](/Events/GCC2013/BoF/GalaxyAdmins) and [GCC2014](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md) were very well attended and resulted in several actions items, many of which have now been implemented.
 
 This meetup will discuss last year's action items, plans for the coming year, GalaxyAdmins leadership, and whatever else participants want to talk about.
 
@@ -34,12 +34,12 @@ This BoF will meet on **Tuesday, 7 July at 18:20, in the Franklin Room, at the J
 
 # Participants
 
-* [Hans-Rudolf Hotz](/HansrudolfHotz)
-* [Dave Clements](/DaveClements)
-* [Eric Rasche](/EricRasche)
+* [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md)
+* [Dave Clements](/src/DaveClements/index.md)
+* [Eric Rasche](/src/EricRasche/index.md)
 * Peter Briggs
 * Peter Cock
-* [Nate Coraor](/nate)
+* [Nate Coraor](/src/nate/index.md)
 * Oleksandr Moskalenko
 * Simon Gladman
 * Aaron Petkau
@@ -109,6 +109,6 @@ This BoF will meet on **Tuesday, 7 July at 18:20, in the Franklin Room, at the J
 
 # Questions?
 
-Send them to [Hans-Rudolf Hotz](/HansrudolfHotz) and [Dave Clements](/DaveClements)
+Send them to [Hans-Rudolf Hotz](/HansrudolfHotz) and [Dave Clements](/src/DaveClements/index.md)
 
 CategoryBoF

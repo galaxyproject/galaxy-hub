@@ -1,7 +1,7 @@
 ---
 date: 2012-02-24T20:45:01Z
 ---
-<div class='newsItemHeader'>[Bioinformatics Analyst @ U Virgina](/News/BioinformaticsAnalystAtUVa)</div>
+<div class='newsItemHeader'>[Bioinformatics Analyst @ U Virgina](/src/News/BioinformaticsAnalystAtUVa/index.md)</div>
 
 <div class='right'><a href='https://jobs.virginia.edu/applicants/jsp/shared/frameset/Frameset.jsp?time=1330113297920'><img src='/Images/Logos/UVaBioinformaticsCoreLogo.png' alt='Opening at University of Virginia Bioinformatics Core' /></a></div>
 

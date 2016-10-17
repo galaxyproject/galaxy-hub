@@ -15,7 +15,7 @@ title: August 2016 Galaxy News
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
-Welcome to the August 2016 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. 
+Welcome to the August 2016 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. 
 
 If you have anything to include in the next News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
 
@@ -42,7 +42,7 @@ Registration is free, but space is limited on both days. We recommend you regist
 
 <div class='left'><a href='/Events/AdminTraining2016'><img src='/Images/Logos/AdminTraining2016-500.png' alt='Galaxy Project Admin Training' width=140" /></a></div>
 
-The first ever [Galaxy Project Admin Training workshop](/Events/AdminTraining2016) will be held November 7-11 in Salt Lake City Utah.  The workshop features a 2 day basics session followed by a 3 day advanced session. There is a separate registration for each session, and participants may sign up for one or both.  We are working with the Utah High Performance Computing Center at the University of Utah for cluster access during the advanced session.
+The first ever [Galaxy Project Admin Training workshop](/src/Events/AdminTraining2016/index.md) will be held November 7-11 in Salt Lake City Utah.  The workshop features a 2 day basics session followed by a 3 day advanced session. There is a separate registration for each session, and participants may sign up for one or both.  We are working with the Utah High Performance Computing Center at the University of Utah for cluster access during the advanced session.
 
 The introductory session will be at the Salt Lake City Library, and the advanced session will be on the University of Utah (the "U") campus.  Workshop housing is on the U as well.
 
@@ -50,7 +50,7 @@ The curriculum will be published and registration will open shortly.  Watch this
 
 ## Other upcoming events
 
-There are [a plentitude of Galaxy related events coming up](/Events). Here's what's coming up over the next fe months:
+There are [a plentitude of Galaxy related events coming up](/src/Events/index.md). Here's what's coming up over the next fe months:
 
 <div class='center'> 
 <a href='http://icbo.cgrb.oregonstate.edu/node/41'><img src='/Images/Logos/ICBO_joint.png' alt='Integrating Ontological and Genomic Analysis with Galaxy Workshop @ ICBO' height="70" /></a> &nbsp;&nbsp;
@@ -302,7 +302,7 @@ The new papers were tagged with:
 
 # Who's Hiring
 
-<div class='right'><br />![Please Help! Yes you!](/Images/GalaxyIsExpandingCloud.png)</div>
+<div class='right'><br />![Please Help! Yes you!](/src/Images/GalaxyIsExpandingCloud.png)</div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -314,7 +314,7 @@ The Galaxy is expanding! Please help it grow.
 * [Postdoctoral Researcher: Forest Genomics Database and Software Developer](http://compgenomics.lab.uconn.edu/join/), University of Connecticut.  "... data sharing among partner databases through Galaxy modules." <div class='red'>Act fast.</span>  
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -323,7 +323,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 80 publicly accessible Galaxy servers](/PublicGalaxyServers) and [four semi-public Galaxy services](/SemiPublicGalaxyServers).  Here's what happened with them in July.
+There are [over 80 publicly accessible Galaxy servers](/PublicGalaxyServers) and [four semi-public Galaxy services](/src/SemiPublicGalaxyServers/index.md).  Here's what happened with them in July.
 
 ## Galaxy-P
 
@@ -352,11 +352,11 @@ There are [over 80 publicly accessible Galaxy servers](/PublicGalaxyServers) and
 <a href='/Community/Deployment/PHACNML'><img src='/Community/Deployment/PHACNML/MapleLeaf.png' alt='Public Health Agency of Canada - National Microbiology Laboratory' height="75" /></a>
 </div>
 
-New [Galaxy Deployment Catalog](/Community/Deployments) and [Community Log Board](/Community/Logs) entries were added:
+New [Galaxy Deployment Catalog](/Community/Deployments) and [Community Log Board](/src/Community/Logs/index.md) entries were added:
 
-* The [Public Health Agency of Canada - National Microbiology Laboratory Galaxy](/Community/Deployment/PHACNML) server helps identify, prevent and control infectious diseases.
+* The [Public Health Agency of Canada - National Microbiology Laboratory Galaxy](/src/Community/Deployment/PHACNML/index.md) server helps identify, prevent and control infectious diseases.
 
-* [Moving data between Galaxy instances](/Community/Log/2016/MovingDataBetweenGalaxies)
+* [Moving data between Galaxy instances](/src/Community/Log/2016/MovingDataBetweenGalaxies/index.md)
 
 
 ---
@@ -472,7 +472,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # ToolShed Contributions
 
-[Tool Shed contributions for June and July](/ToolShed/Contributions/2016_07).
+[Tool Shed contributions for June and July](/src/ToolShed/Contributions/2016_07/index.md).
 
 # Other News
 

@@ -14,6 +14,6 @@ Thanks,
 
 -- DaveClements
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2011-04-26T16:17:49Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on <<Date(2011-04-26T16:17:49Z)>></div>
 
 CategoryNews

@@ -5,7 +5,7 @@ title: April 1, ,,  2013 Galaxy Distribution News Brief
 <div class='right'></div>
 
 ```wiki red/solid/light
-Due to a security vulnerability, administrators are strongly encouraged to upgrade to the [April 8, 2013 Security Release](/News/2013_04_08_Galaxy_Security_Release), which is was not included in the original April 1, 2013 distribution.```
+Due to a security vulnerability, administrators are strongly encouraged to upgrade to the [April 8, 2013 Security Release](/src/News/2013_04_08_Galaxy_Security_Release/index.md), which is was not included in the original April 1, 2013 distribution.```
 
 <br />
 
@@ -145,7 +145,7 @@ This is last Galaxy distribution that will support Python 2.5. Follow the ticket
 # Data
 1. The Galaxy Main **Rsync** server hosts download of the same `.loc` files and genome data used by the Galaxy team. This service now also hosts all pre-cashed datasets, such as MAF, blastdb, etc. Our updated wiki lists the available directories: [Get the data](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)
 
-1. **Basic Data Manager Functionality** is now present for locally defined and Tool Shed installed data managers ([/Admin/Tools/DataManagers](/Admin/Tools/DataManagers)).
+1. **Basic Data Manager Functionality** is now present for locally defined and Tool Shed installed data managers ([/Admin/Tools/DataManagers](/src/Admin/Tools/DataManagers/index.md)).
 
 An abstracted interface has been created for the data manager to download, generate, or otherwise procure locally cached data for use in analyses. For details about implementation, please see the following Trello tickets.
 * In Galaxy:

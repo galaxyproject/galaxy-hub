@@ -1,7 +1,7 @@
 ---
 date: 2013-09-30T16:45:22Z
 ---
-<div class='newsItemHeader'>[Galaxy Training in Boston](/News/Boston2013)</div>
+<div class='newsItemHeader'>[Galaxy Training in Boston](/src/News/Boston2013/index.md)</div>
 
 <div class='right'><a href='http://bioteam.net/slipstream/galaxy-edition/galaxy-training/'><img src='/Images/Logos/BioTeamLogo154.gif' alt='Analyzing NGS Data with Galaxy' width="120" /></a></div>
 

@@ -10,13 +10,13 @@ The Galaxy Project was notified its application to be a Google Summer of Code me
 
 Data intensive biology for everyone! Galaxy is an open source, web-based platform allowing biologists to easily leverage advanced computational resources to build reproducible analyses.
 
-The page contains project ideas for potential [Google Summer of Code 2015](https://developers.google.com/open-source/soc) interns - more information on Galaxy and the GSOC 2015 can be found [here](/Develop/GSOC/2015).
+The page contains project ideas for potential [Google Summer of Code 2015](https://developers.google.com/open-source/soc) interns - more information on Galaxy and the GSOC 2015 can be found [here](/src/Develop/GSOC/2015/index.md).
 
 
 
 ## Your Original Proposal
 
-We would encourage potential interns to explore the Galaxy ecosystem and develop an original idea for a proposal. Possible sources for inspiration including browsing [Galaxy papers on CituLike](http://www.citeulike.org/group/16008/order/to_read,desc,), our [Trello board](https://trello.com/b/75c1kASa/galaxy-development), or just posting a broad description of your interests (preferably in the realm of bioinformatics or computational infrastructure) to our [developement mailing list](http://dev.list.galaxyproject.org/) or [IRC channel (#galaxyproject)](/GetInvolved#irc_channel) to solicit advice. Relevance to the project is important, but the scope of Galaxy and its role as an integration tool mean a very wide range of potential projects could be applicable.
+We would encourage potential interns to explore the Galaxy ecosystem and develop an original idea for a proposal. Possible sources for inspiration including browsing [Galaxy papers on CituLike](http://www.citeulike.org/group/16008/order/to_read,desc,), our [Trello board](https://trello.com/b/75c1kASa/galaxy-development), or just posting a broad description of your interests (preferably in the realm of bioinformatics or computational infrastructure) to our [developement mailing list](http://dev.list.galaxyproject.org/) or [IRC channel (#galaxyproject)](/src/GetInvolved/index.md#irc_channel) to solicit advice. Relevance to the project is important, but the scope of Galaxy and its role as an integration tool mean a very wide range of potential projects could be applicable.
 
 Additionally, all proposals should include a description of a specific bioinformatics application or a description of how the project benefits the end-users (biologists and bioinformaticians) of Galaxy. Furthermore, proposals that could potentially benefit open source projects beyond just Galaxy will also be looked on favorably (many of the projects listed below meet this criteria).
 
@@ -37,7 +37,7 @@ Galaxy supports running jobs in Docker containers for running jobs on a single n
 
 **Potentially Helpful Skills** Familiarity with cloud and/or cluster computing, familiarity with Galaxy and/or Kubernetes, bioinformatics knowledge
 
-**Possible Mentors** Kyle Ellrott, [John Chilton](/JohnChilton), [Dannon Baker](/DannonBaker)
+**Possible Mentors** Kyle Ellrott, [John Chilton](/JohnChilton), [Dannon Baker](/src/DannonBaker/index.md)
 
 ## GA4GH Container and Workflows Integration
 
@@ -58,7 +58,7 @@ The [Global Alliance for Genomics Health](http://genomicsandhealth.org/) (GA4GH)
 
 **Potentially Helpful Skills** Familiarity with Galaxy and/or other Workflow Management Systems
 
-**Possible Mentors** [John Chilton](/JohnChilton), [Daniel Blankenberg](/Dan)
+**Possible Mentors** [John Chilton](/JohnChilton), [Daniel Blankenberg](/src/Dan/index.md)
 
 ## Docker Swarm and Compose
 
@@ -80,7 +80,7 @@ By making complex applications easier to deploy and doing so reproducibly, the o
 
 **Potentially Helpful Skills** Familiarity with cloud and/or cluster computing, familiarity with Galaxy, Docker, and/or Fig, bioinformatics knowledge
 
-**Possible Mentors** [John Chilton](/JohnChilton), [Björn Grüning](/BjoernGruening), [Dannon Baker](/DannonBaker)
+**Possible Mentors** [John Chilton](/JohnChilton), [Björn Grüning](/BjoernGruening), [Dannon Baker](/src/DannonBaker/index.md)
 
 ## Fostering Bioconductor Collaborations
 
@@ -97,7 +97,7 @@ The [RGalaxy](http://www.bioconductor.org/packages/release/bioc/html/RGalaxy.htm
 * Implement automated scripts (for use with cron jobs or CI tools such as Jenkins or Buildbot) to automate the release and publication of such artifacts.
 * Build and publish workflows demonstrating these tools with actual data.
 
-**Possible Mentors** [Nitesh Turaga](/NiteshTuraga), [Björn Grüning](/BjoernGruening), Daniel Blankenberg
+**Possible Mentors** [Nitesh Turaga](/NiteshTuraga), [Björn Grüning](/src/BjoernGruening/index.md), Daniel Blankenberg
 
 **Required Skills** Python programming
 
@@ -139,7 +139,7 @@ Implement Galaxy [data providers](/DataProviders) and [visualization plugins](/V
 * Allow visualization from additional programs (e.g. ProtK).
 * Allow visualization of additional input types (e.g. MGF, mztab).
 
-**Possible Mentors** [Ira Cooke](https://github.com/iracooke), [John Chilton](/JohnChilton)
+**Possible Mentors** [Ira Cooke](https://github.com/iracooke), [John Chilton](/src/JohnChilton/index.md)
 
 **Required Skills** Python and !JavaScript programming
 
@@ -162,7 +162,7 @@ The Galaxy proteomics community maintains Galaxy tools for [building PeptideShak
 * Create a generic framework for quickly building out Galaxy IEs for Desktop applications.
 * Enable two way communication between !PeptideShaker and Galaxy - by allowing exporting files from !PeptideShaker directly back into Galaxy.
 
-**Possible Mentors** [Marc Vaudel](http://compomics.com/people/marc-vaudel/), [Björn Grüning](/BjoernGruening)
+**Possible Mentors** [Marc Vaudel](http://compomics.com/people/marc-vaudel/), [Björn Grüning](/src/BjoernGruening/index.md)
 
 **Required Skills** Java programming
 
@@ -185,7 +185,7 @@ The Galaxy application implements the notion of an Object Store - a pluggable fi
 
 **Potentially Helpful Skills** Familiarity with Galaxy and/or object store APIs, familiarity with cloud computing concepts
 
-**Possible Mentors** [Enis Afgan](/EnisAfgan)
+**Possible Mentors** [Enis Afgan](/src/EnisAfgan/index.md)
 
 ## Integrate bcbio-nextgen Pipelines into Galaxy
 
@@ -205,7 +205,7 @@ For smaller jobs - it should be possible to build traditional Galaxy tools to ru
 * Develop a generic framework for translating bcbio-nextgen pipelines into Galaxy and Common Workflow Language tools to ease future integration efforts.
 * Extend Galaxy's job running mechanism to allow it to collect provenance information from bcbio-nextgen about intermediate files and analysis steps, modify the bcbio-nextgen tools to produce this metadata.
 
-**Possible Mentors** [Rory Kirchner](https://github.com/roryk), [Brad Chapman](https://github.com/chapmanb), [John Chilton](/JohnChilton)
+**Possible Mentors** [Rory Kirchner](https://github.com/roryk), [Brad Chapman](https://github.com/chapmanb), [John Chilton](/src/JohnChilton/index.md)
 
 **Required Skills** Python programming, Highly motivate and independent problem solver
 
@@ -249,7 +249,7 @@ Once familiar with pages - there are at least two paths this project could diver
 
 **Potentially Helpful Skills** Familiarity with Galaxy and IPython
 
-**Possible Mentors** [Carl Eberhard](/CarlEberhard), [Martin Cech](/Marten)
+**Possible Mentors** [Carl Eberhard](/CarlEberhard), [Martin Cech](/src/Marten/index.md)
 
 ## Easier or More Robust History Imports and Exports
 
@@ -270,7 +270,7 @@ that can be pasted into an import the history from another Galaxy instance.
 * Split this process in pieces to allow tracking/resuming the transfers.
 * Rework the API and UI to provide pleasant progress bar tracking progress and estimating time remaining.
 
-**Possible Mentors** [Martin Cech](/Marten), [Jim Johnson](https://github.com/jj-umn), [Daniel Blankenberg](/Dan)
+**Possible Mentors** [Martin Cech](/Marten), [Jim Johnson](https://github.com/jj-umn), [Daniel Blankenberg](/src/Dan/index.md)
 
 **Required Skills** Python programming
 
@@ -307,7 +307,7 @@ The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's hand
 * Convert Galaxy to run on Python 3.
 * Once all dependencies are upgraded, package Galaxy for [Debian Med](https://www.debian.org/devel/debian-med/).
 
-**Possible Mentors** [Nate Coraor](/nate), [Tim Booth](https://github.com/tbooth), [John Chilton](/JohnChilton)
+**Possible Mentors** [Nate Coraor](/nate), [Tim Booth](https://github.com/tbooth), [John Chilton](/src/JohnChilton/index.md)
 
 **Required Skills:**
 * Knowledge of DPKG, BASH scripting, Makefiles, and the layout of files on a standard Linux filesystem (/etc, /var, /usr, ...)
@@ -331,7 +331,7 @@ The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's hand
 
 * Integrate the authentication mechanism with [Globus Nexus](https://www.globus.org/platform/services). 
  
-**Possible Mentors** [Martin Cech](/Marten), [Enis Afgan](/EnisAfgan), [Nitesh Turaga](/NiteshTuraga)
+**Possible Mentors** [Martin Cech](/Marten), [Enis Afgan](/EnisAfgan), [Nitesh Turaga](/src/NiteshTuraga/index.md)
 
 **Required Skills** Python Programming
 
@@ -340,7 +340,7 @@ The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's hand
 
 ## Public Galaxy Server Tools Registry and Search
 
-There are [over 60 publicly accessible Galaxy servers](/PublicGalaxyServers), each with their own set of tools.  This project would implement a registry/search interface for tools on all publicly accessible servers that could be used to locate a tool on any of those servers.  This could be done in any number of ways, including push and pull methods.  
+There are [over 60 publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md), each with their own set of tools.  This project would implement a registry/search interface for tools on all publicly accessible servers that could be used to locate a tool on any of those servers.  This could be done in any number of ways, including push and pull methods.  
 
 The Galaxy Tool bar search could additionally be modified to to show an item at the bottom of the matching tools to say something like
 
@@ -358,7 +358,7 @@ This approach could also be used with reference genomes, and published histories
 * Extend this ability to include reference genomes, published histories, workflows, pages, and visualizations
 * Improve Galaxy's tool-search for single-instance use-case as well, using the API and lunr (as an example approach)
 
-**Possible Mentors** [Martin Cech](/Marten), Dannon Baker, Daniel Blankenberg
+**Possible Mentors** [Martin Cech](/src/Marten/index.md), Dannon Baker, Daniel Blankenberg
 
 **Required Skills** Python programming
 
@@ -377,7 +377,7 @@ Recently Interactive Environments (IEs) were developed for Galaxy. These consist
 
 * Unit test framework for IEs to ensure the proxy works ([some progress](https://github.com/erasche/vagrant-galaxy-casperjs) exists but it's not very generic).
 
-**Possible Mentors** [Eric Rasche](/EricRasche), [John Chilton](/JohnChilton)
+**Possible Mentors** [Eric Rasche](/EricRasche), [John Chilton](/src/JohnChilton/index.md)
 
 **Required Skills** Docker, NodeJS
 

@@ -106,7 +106,7 @@ The agenda is the same for both days.
 
 This workshop is generously supported by Washington University’s [Becker Medical Library](https://becker.wustl.edu/) and an [AWS in Education](http://aws.amazon.com/education/) grant award.  
 
-This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/Events/MissouriWorkshopTour2013).
+This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/src/Events/MissouriWorkshopTour2013/index.md).
 
 ## Slides
 

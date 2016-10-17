@@ -13,7 +13,7 @@ either about Galaxy or featuring Galaxy.  See the [/Events/ISMB-ECCB-BOSC 2011](
 
 One of the workshops, *Genomics for Non-Model Organisms* is organized by Galaxy and features 4 talks that use Galaxy (including a newly added talk by Marc Bras of INRA that uses Galaxy for SNP detection in grapevine).
 
-[Dave Clements](/DaveClements)
+[Dave Clements](/src/DaveClements/index.md)
 
 
 CategoryNews

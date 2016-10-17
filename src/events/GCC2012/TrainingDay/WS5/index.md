@@ -3,7 +3,7 @@
 * [universe_wsgi.ini modified with all of the changes below](ATTACHMENT_URLDocuments/Presentations/GCC2012/WS5/universe_wsgi.ini)
 * [Slides](ATTACHMENT_URLDocuments/Presentations/GCC2012/WS5_InstallingYourOwn.pdf)
 
-Documentation for all of these features is at [/Admin/Config/Performance/ProductionServer](/Admin/Config/Performance/ProductionServer).
+Documentation for all of these features is at [/Admin/Config/Performance/ProductionServer](/src/Admin/Config/Performance/ProductionServer/index.md).
 
 ## Create a new user for Galaxy
 
@@ -80,13 +80,13 @@ galaxy@trainingday:~/galaxy-dist$ vim universe_wsgi.ini
 
 I changed the following settings:
 
-* `database_connection = postgres:///galaxy?host=/var/run/postgresql` - Use a PostgreSQL database via a local UNIX domain socket (the socket is in /var/run/postgresql).  Details on this URL syntax are at [/Admin/Config/Performance/ProductionServer](/Admin/Config/Performance/ProductionServer) under the "Switching to a database server" section.
+* `database_connection = postgres:///galaxy?host=/var/run/postgresql` - Use a PostgreSQL database via a local UNIX domain socket (the socket is in /var/run/postgresql).  Details on this URL syntax are at [/Admin/Config/Performance/ProductionServer](/src/Admin/Config/Performance/ProductionServer/index.md) under the "Switching to a database server" section.
 * `database_engine_option_server_side_cursors = True` - Keep large SQL query results on the PostgreSQL server, rather the transferring the entire result set to the Galaxy process.
 * `database_engine_option_strategy = threadlocal` - Only use one database connection per thread.
 * `tool_dependency_dir = /home/galaxy/tool-deps` - The directory that will house tool dependencies.  [/Admin/Config/Tool Dependencies](/Admin/Config/Tool Dependencies) explains how these dependencies can be configured.  Tools installed from the tool shed that manage their own dependencies (e.g. freebayes) will also use this directory.
 * `debug = False` - Disables debugging middleware that loads server responses in to memory (can crash the server when handling large files).
 * `use_interactive = False` - Disables live client browser debugging (insecure).
-* `library_import_dir = /home/galaxy/import` - Administrators can directly import datasets from this directory on the server to Data Libraries.  This includes an option that allows an effective "symlink" to the data, rather than copying it in to Galaxy's `file_path` directory.  Documented at [/Admin/DataLibraries/UploadingLibraryFiles](/Admin/DataLibraries/UploadingLibraryFiles).
+* `library_import_dir = /home/galaxy/import` - Administrators can directly import datasets from this directory on the server to Data Libraries.  This includes an option that allows an effective "symlink" to the data, rather than copying it in to Galaxy's `file_path` directory.  Documented at [/Admin/DataLibraries/UploadingLibraryFiles](/src/Admin/DataLibraries/UploadingLibraryFiles/index.md).
 * `user_library_import_dir = /home/galaxy/user-import` - Non-administrators can directly import datasets from this directory on this server to Data Libraries from which they have been given write permission.  Documented at the same link as above.
 * `allow_library_path_paste = True` - Administrators can import datasets from anywhere on the server's filesystem(s) by entering their paths in to a textarea.
 * `id_secret = <random text>` - Ensures that the encoded IDs used by Galaxy (especially session IDs) are unique.  One simple way to generate a value for this is with a shell command like `% date | md5sum`
@@ -725,7 +725,7 @@ The warnings can safely be ignored.
 
 ## Configure Galaxy to use Sun Grid Engine
 
-The configuration of Galaxy's cluster interface is explained in the wiki at [/Admin/Config/Performance/Cluster](/Admin/Config/Performance/Cluster).
+The configuration of Galaxy's cluster interface is explained in the wiki at [/Admin/Config/Performance/Cluster](/src/Admin/Config/Performance/Cluster/index.md).
 
 A bit of work occurred behind the scenes for this step.  I preinstalled and preconfigured SGE in the VM, since setting up your DRM is outside of the scope of Galaxy configuration.
 
@@ -777,7 +777,7 @@ root@trainingday:/etc/init.d#
 
 ## Run multiple Galaxy processes
 
-The configuration of scaling with multiple processes is explained in the wiki at [/Admin/Config/Performance/Scaling](/Admin/Config/Performance/Scaling).
+The configuration of scaling with multiple processes is explained in the wiki at [/Admin/Config/Performance/Scaling](/src/Admin/Config/Performance/Scaling/index.md).
 
 ```
 #!highlight console

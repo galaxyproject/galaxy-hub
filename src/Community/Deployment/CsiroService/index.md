@@ -10,7 +10,7 @@ title: CSIRO Galaxy Service
 
 
 <div class='deploymentbox'>
- Deployment:: **[CSIRO Galaxy Service](/Community/Deployment/CsiroService)**
+ Deployment:: **[CSIRO Galaxy Service](/src/Community/Deployment/CsiroService/index.md)**
  Domain:: NGS analysis: RNAseq, Genomics, metagenomics, custom tools.
  Owners:: [CSIRO](http://www.csiro.au)
  Audience:: 

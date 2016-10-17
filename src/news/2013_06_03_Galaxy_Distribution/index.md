@@ -1,10 +1,10 @@
 ---
 date: 2013-06-03T21:16:46Z
 ---
-<div class='newsItemHeader'>[June 3, 2013 Galaxy Distribution](/News/2013_06_03_Galaxy_Distribution)</div>
+<div class='newsItemHeader'>[June 3, 2013 Galaxy Distribution](/src/News/2013_06_03_Galaxy_Distribution/index.md)</div>
 <div class='right'>
 <a href='/DevNewsBriefs/2013_06_01'><img src='/Images/NewsGraphics/2013_06_03_scatterplot-1.png' alt='scatterplot' width=400 /></a></div>
-**Complete [News Brief](/DevNewsBriefs/2013_06_03)**
+**Complete [News Brief](/src/DevNewsBriefs/2013_06_03/index.md)**
 <br />
 <br />
 **Highlights:**

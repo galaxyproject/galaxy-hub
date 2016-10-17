@@ -8,7 +8,7 @@
 
 <div class='title'>Introduction to Galaxy<br />October 22, 2012</div>
 
-**Instructor: [Dave Clements](/DaveClements)
+**Instructor: [Dave Clements](/src/DaveClements/index.md)
 
 9am-5pm<br />
 Room: MRGN 129 (new location)<br />

@@ -13,7 +13,7 @@ The Galaxy Q&A and [BioStar](http://www.biostars.org/) source code is open-sourc
 * [Galaxy Q&A source code](https://github.com/galaxyQandA)
 * [BioStar source code](https://github.com/ialbert/biostar-central)
 
-**For Galaxy team:** A mail has been sent for the meeting the *08/29/2012* with all the credentials to access to Galaxy Q&A, the object of the mail is ***"[galaxy-lab] Tasks"*** from [Anton Nekrutenko](/anton)
+**For Galaxy team:** A mail has been sent for the meeting the *08/29/2012* with all the credentials to access to Galaxy Q&A, the object of the mail is ***"[galaxy-lab] Tasks"*** from [Anton Nekrutenko](/src/anton/index.md)
 
 ## Set up Galaxy Q&A
 Galaxy is a [Django](https://www.djangoproject.com/) website: "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design".

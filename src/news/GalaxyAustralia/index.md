@@ -1,7 +1,7 @@
 ---
 date: 2016-10-03T01:42:44Z
 ---
-<div class='newsItemHeader'>[Galaxy Australia Community & GAMe 2017](/News/GalaxyAustralia)</div>
+<div class='newsItemHeader'>[Galaxy Australia Community & GAMe 2017](/src/News/GalaxyAustralia/index.md)</div>
 
 <div class='right'> <a href='https://www.embl-abr.org.au/galaxyaustralia/'><img src='/Images/Logos/GalaxyAustralia.png' alt='Galaxy Australia Community' width="180" /></a>
 </div>

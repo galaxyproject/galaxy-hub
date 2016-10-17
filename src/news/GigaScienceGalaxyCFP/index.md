@@ -1,7 +1,7 @@
 ---
 date: 2013-04-04T21:49:50Z
 ---
-<div class='newsItemHeader'>[GCC2013 & Galaxy GigaScience Series](/News/GigaScienceGalaxyCFP)</div>
+<div class='newsItemHeader'>[GCC2013 & Galaxy GigaScience Series](/src/News/GigaScienceGalaxyCFP/index.md)</div>
 
 <div class='right'><a href='http://www.gigasciencejournal.com/'><img src='/Images/Logos/GigaScienceLogo250.png' alt='GigaScience Journal' width="200" /></a></div>
 

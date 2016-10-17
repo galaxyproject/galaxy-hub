@@ -8,7 +8,7 @@ title: October 2014 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the October 2014 *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the October 2014 *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # Galaxy Needs Your Input!
 
@@ -26,11 +26,11 @@ Let your voice be heard!
 
 # IRC Channel Policy Change
 
-<div class='left'>![Galaxy IRC Channel](/Images/Icons/ChatBalloons.png)</div>
+<div class='left'>![Galaxy IRC Channel](/src/Images/Icons/ChatBalloons.png)</div>
 
 A proposed change for the #galaxyproject IRC channel was [proposed](/News/IRCPublicLogProposal), and then [discussed, and approved on Galaxy Biostar](http://bit.ly/gxybs8804).  Starting sometime in October, posts to this channel will be made available in a searchable archive on the web.
 
-Thanks to everyone who participated in the decision, and [those at GCC2014 who suggested this](/Events/GCC2014/BoFs/GalaxyAdmins).
+Thanks to everyone who participated in the decision, and [those at GCC2014 who suggested this](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md).
 
 
 # Events
@@ -39,7 +39,7 @@ Thanks to everyone who participated in the decision, and [those at GCC2014 who s
 
 ## Galaxy at ECCB'14
 
-Galaxy had a strong presence at [ECCB'14](/Events/ECCB2014).  Galaxy was featured in workshops, demos and posters.  Couldn't make it?  No worries, as [most slides and posters are now available online](/Events/ECCB2014).
+Galaxy had a strong presence at [ECCB'14](/src/Events/ECCB2014/index.md).  Galaxy was featured in workshops, demos and posters.  Couldn't make it?  No worries, as [most slides and posters are now available online](/src/Events/ECCB2014/index.md).
 
 
 ## Other Events
@@ -225,16 +225,16 @@ The Galaxy is expanding! Please help it grow.
 * [Research Specialist](http://bit.ly/1vbagWb), Michigan State University, United States 
 * [Bioinformatics and Computational Biology](http://bit.ly/1uysJJH), [US Army Engineer Research and Development Center’s Environmental Laboratory](http://el.erdc.usace.army.mil/index.cfm), Vicksburg, MS, United States
 * [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
-* [Statistical Genomics Postdoc](/News/StatisticalGenomicsPostDocPennState) opening in the Makova lab at Penn State
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
+* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
 # New Public Servers
 
-Two new [public Galaxy server](/PublicGalaxyServers) was added to the published list in September:
+Two new [public Galaxy server](/src/PublicGalaxyServers/index.md) was added to the published list in September:
 
 ## GalaxEast
 
@@ -249,7 +249,7 @@ The [GalaxEast](http://www.galaxeast.fr) project has the following main objectiv
 
 [GalaxEast](http://www.galaxeast.fr) is supported by [IGBMC](http://www.igbmc.fr/), [CNRS](http://www.cnrs.fr/), [Inserm](http://www.inserm.fr/), and [Université Strasbourg](http://www.unistra.fr/).
 
-See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](ATTACHMENT_URLDocuments/Posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/Events/ECCB2014) by Stephanie Le Gras, *et al.* for more.
+See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](ATTACHMENT_URLDocuments/Posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/Events/ECCB2014/index.md) by Stephanie Le Gras, *et al.* for more.
 
 ## MIRPIPE
 
@@ -278,15 +278,15 @@ See "[MIRPIPE – quantification of microRNAs in niche model organisms](http://b
 <a href='/Community/Log/2014/GalaxyOnBioLinux8'><img src='/Images/Logos/EOS.gif' alt='Overview of Galaxy on Bio-Linux 8' width="100" /></a>
 </div>
 
-The [deployment details](/Community/Deployment/GalaxEast) for the [GalaxEast public server](/PublicGalaxyServers#galaxeast) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/Community/Logs).
+The [deployment details](/Community/Deployment/GalaxEast) for the [GalaxEast public server](/PublicGalaxyServers#galaxeast) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/src/Community/Logs/index.md).
 
-The *[Deployment Catalog](/Community/Deployments)* and *[Community Log Board](/Community/Logs)* *[Galaxy community hubs](/Community)* were launched in 2013.  If you have a [Galaxy deployment](/Community/Deployments), or [experience](/Community/Logs) you want to share then please publish them **this month.**
+The *[Deployment Catalog](/Community/Deployments)* and *[Community Log Board](/src/Community/Logs/index.md)* *[Galaxy community hubs](/Community)* were launched in 2013.  If you have a [Galaxy deployment](/Community/Deployments), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
 
 # New Releases
 
-New versions of [Galaxy](/GalaxyUpdates/2014_09#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), [BioBlend](/GalaxyUpdates/2014_09#bioblend-051-release), and [blend4j](/GalaxyUpdates/2014_09#blend4j-011-release) were all released in August.  And so was [Galaxy IPython](/GalaxyUpdates/2014_09#galaxy-ipython) too.
+New versions of [Galaxy](/GalaxyUpdates/2014_09#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), [BioBlend](/GalaxyUpdates/2014_09#bioblend-051-release), and [blend4j](/GalaxyUpdates/2014_09#blend4j-011-release) were all released in August.  And so was [Galaxy IPython](/src/GalaxyUpdates/2014_09/index.md#galaxy-ipython) too.
 
 Look for a new Galaxy distribution in October.
 
@@ -393,7 +393,7 @@ In no particular order:
 # Other News
 
 * [Why the three biggest positive contributions to reproducible research are the iPython Notebook, knitr, and Galaxy](http://bit.ly/1rqHVJW) on the [Simply Statistics blog](http://simplystatistics.org/)
-* Updated [wiki page about dynamically discovering output datasets at runtime](/Admin/Tools/MultipleOutputFiles#number-of-output-datasets-cannot-be-determined-until-tool-run). 
+* Updated [wiki page about dynamically discovering output datasets at runtime](/src/Admin/Tools/MultipleOutputFiles/index.md#number-of-output-datasets-cannot-be-determined-until-tool-run). 
 * The [Ansible playbook used to update usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook) is available in !GitHub.
 * New [GVL Galaxy Release](https://genome.edu.au/wiki/GVL): Metagenomics Tutorial tools, MACS2, BLAST, MEME, hg38, rn6, and Trinity.
 * [Galaxy Community UK](http://galaxy-community.org.uk/) launches at Twitter channel: [@GalaxyUKFriends](https://twitter.com/GalaxyUKFriends)

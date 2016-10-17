@@ -6,7 +6,7 @@
 
 **Chief Technical Officer (CTO) of [Life Sciences](http://www.isilon.com/industry/lifesciences) at [EMC Isilon](http://emc.com)**
 
-Sanjay will be speaking about [EMC Isilon](http://emc.com) at [GCC2013](/Events/GCC2013).
+Sanjay will be speaking about [EMC Isilon](http://emc.com) at [GCC2013](/src/Events/GCC2013/index.md).
 
 **Email: ** [sanjay DOT joshi AT isilon DOT com](sanjay DOT joshi AT isilon DOT com)
 ---

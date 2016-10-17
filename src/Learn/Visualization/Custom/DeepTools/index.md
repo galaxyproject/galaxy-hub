@@ -6,7 +6,7 @@ title: deepTools
 
 
 <div class='deploymentbox'>
- Resource:: **[DeepTools](/Learn/Visualization/Custom/DeepTools)**
+ Resource:: **[DeepTools](/src/Learn/Visualization/Custom/DeepTools/index.md)**
  Type:: Public
  Domain:: NGS, QC, Normalization, Visualization
  Formats:: BAM, bigWig, BED

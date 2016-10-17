@@ -15,17 +15,17 @@ title: The March 2015 Galaxy News
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the March 2015 *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the March 2015 *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # New Papers
 
 82 new papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in February. Some highlights:
 
 * [Multi-omic data analysis using Galaxy](http://dx.doi.org/10.1038/nbt.3134)
-    Jorrit Boeke, [John M Chilton](/JohnChilton), Ira R Cooke, Peter L Horvatovich, Pratik D Jagtap, Lukas Käll, Janne Lehtiö, Pieter Lukasse, Perry D Moerland & Timothy J Griffin, *Nature Biotechnology*, Vol. 33, No. 2. (6 February 2015)
+    Jorrit Boeke, [John M Chilton](/src/JohnChilton/index.md), Ira R Cooke, Peter L Horvatovich, Pratik D Jagtap, Lukas Käll, Janne Lehtiö, Pieter Lukasse, Perry D Moerland & Timothy J Griffin, *Nature Biotechnology*, Vol. 33, No. 2. (6 February 2015)
 
 * [Online Resources for Genomic Analysis Using High-Throughput Sequencing](http://dx.doi.org/10.1101/pdb.top083667)
-    [Daniel Blankenberg](/Dan), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton),  *Cold Spring Harbor Protocols* (05 February 2015), doi:10.1101/pdb.top083667
+    [Daniel Blankenberg](/Dan), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/src/anton/index.md),  *Cold Spring Harbor Protocols* (05 February 2015), doi:10.1101/pdb.top083667
 
 * [Selected Approaches and Frameworks to Carry out Genomic Data Analysis on the Cloud](http://dx.doi.org/10.12694/scpe.v16i1.1058)
     Philip Church, Andrzej Goscinski, *Scalable Computing: Practice and Experience*, Vol. 16, No. 1. (07 February 2015), doi:10.12694/scpe.v16i1.1058
@@ -34,7 +34,7 @@ Welcome to the March 2015 *[Galaxy Update](/GalaxyUpdates)*, a summary of what i
     Yousef Kowsar, Harriet Dashnow, Andrew Lonie, in Utility and Cloud Computing (UCC), 2014 IEEE/ACM 7th International Conference on (December 2014), pp. 696-701, doi:10.1109/ucc.2014.113
 
 * [A Quick Guide for Building a Successful Bioinformatics Community](http://dx.doi.org/10.1371/journal.pcbi.1003972)
-    Aidan Budd, Manuel Corpas, Michelle D. Brazas, Jonathan C. Fuller, [Jeremy Goecks](/JeremyGoecks), Nicola J. Mulder, Magali Michaut, B. F. Francis Ouellette, Aleksandra Pawlik, Niklas Blomberg, *PLoS Computational Biology*, Vol. 11, No. 2. (5 February 2015), e1003972, doi:10.1371/journal.pcbi.1003972
+    Aidan Budd, Manuel Corpas, Michelle D. Brazas, Jonathan C. Fuller, [Jeremy Goecks](/src/JeremyGoecks/index.md), Nicola J. Mulder, Magali Michaut, B. F. Francis Ouellette, Aleksandra Pawlik, Niklas Blomberg, *PLoS Computational Biology*, Vol. 11, No. 2. (5 February 2015), e1003972, doi:10.1371/journal.pcbi.1003972
 
 * [Draft sequencing and assembly of the genome of the world’s largest fish, the whale shark: Rhincodon typus Smith 1828](https://peerj.com/preprints/837/)
     Timothy D Read​, Robert A Petit III, Sandeep J Joseph, Md T Alam, Ryan Weil, Maida Ahmad, Ravila Bhimani, Jocelyn S Vuong, Chad P Haase, Harry Webb, Alistair D. M. Dove, *PeerJ !PrePrints* 3:e1036 doi:10.7287/peerj.preprints.837v1
@@ -198,19 +198,19 @@ A hands-on, 4 day workshop on *[RNA-Seq and ChIP-Seq Analysis with Galaxy](http:
 
 <div class='right'><a href='/Community/GalaxyAdmins/Meetups/2015_02_19'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup February 19' width="150" /></a></div>
 
-[Video and slides](/Community/GalaxyAdmins/Meetups/2015_02_19) from the first [GalaxyAdmins](/Community/GalaxyAdmins) [meetup of 2015](/Community/GalaxyAdmins/Meetups/2015_02_19) are now available online. 
+[Video and slides](/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md) from the first [GalaxyAdmins](/Community/GalaxyAdmins) [meetup of 2015](/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md) are now available online. 
 
-[Hans-Rudolf Hotz](/HansrudolfHotz) also lead a short discussion on *GalaxyAdmins direction*.
+[Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) also lead a short discussion on *GalaxyAdmins direction*.
 
-[GalaxyAdmins](/Community/GalaxyAdmins) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  Our next meetup will be in April.
+[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  Our next meetup will be in April.
 
 ### Fall 2014 Questionnaire Summaries
 
-A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/News/2014Questionnaire) was presented by [Dave Clements](/DaveClements).  A [summary of the admin/devel questionnaire](/Community/GalaxyAdmins/Surveys/2014) is now available online.
+A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/News/2014Questionnaire) was presented by [Dave Clements](/DaveClements).  A [summary of the admin/devel questionnaire](/src/Community/GalaxyAdmins/Surveys/2014/index.md) is now available online.
 
 ### Gravity
 
-[Nate Coraor](/nate) introduced [Gravity](/Community/GalaxyAdmins/Meetups/2015_02_19#galaxy-project-update-gravity), a process manager (supervisor) for Galaxy servers.  
+[Nate Coraor](/nate) introduced [Gravity](/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md#galaxy-project-update-gravity), a process manager (supervisor) for Galaxy servers.  
 
 ## Other Events
 
@@ -338,14 +338,14 @@ There are [upcoming events](/Events) in 7 countries on 4 continents.  See the [G
 
 The Galaxy is expanding! Please help it grow.
 
-* [Developer / bioinformatician](/News/UiODeveloperBioinformatician) at the University Center for Information Technology (USIT) at the University of Oslo
+* [Developer / bioinformatician](/src/News/UiODeveloperBioinformatician/index.md) at the University Center for Information Technology (USIT) at the University of Oslo
 * [Computational Metabolomics Professor](https://psu.jobs/job/55363), Penn State University, Pennsylvania, United States
 * [Software Developer for the Refinery Team](https://jobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1118216&PartnerId=25240&SiteId=5341&type=mail&JobReqLang=1&recordstart=1&JobSiteId=5341&JobSiteInfo=1118216_5341&gqid=0), Boston, Massachusetts, United States
 * [Bioinformatics scientist/engineer](/News/MDCBerlinBuchOpening) for RNA bioinformatics and next-generation sequencing, [MDC Berlin-Buch](https://www.mdc-berlin.de/)  
 * Searching for [bioinformaticians, post-docs, PhD students and software engineers](/News/BioinformaticianFreiburg2014) in Freiburg, Germany at [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs), and the [Bioinformatics Group at the University of Freiburg](http://www.bioinf.uni-freiburg.de//?en)
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -353,7 +353,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Servers
 
-One new [public Galaxy servers](/PublicGalaxyServers) was added in February:
+One new [public Galaxy servers](/src/PublicGalaxyServers/index.md) was added in February:
 
 ## Whale Shark
 
@@ -393,11 +393,11 @@ One new [public Galaxy servers](/PublicGalaxyServers) was added in February:
 </div>
 <br />
 
-Two new [Community Log Board](/Community/Logs) entires were added in February:
+Two new [Community Log Board](/src/Community/Logs/index.md) entires were added in February:
 
-* [FTP upload to Galaxy using ProFTPd and PBKDF2](/Community/Log/2015/ProFTPdAndPBKDF2)
+* [FTP upload to Galaxy using ProFTPd and PBKDF2](/src/Community/Log/2015/ProFTPdAndPBKDF2/index.md)
     ProFTPd implemented using PBKFD2 protocol for encryption, by [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)
-* [Instalando um servidor do Galaxy Project](/Community/Log/2015/InstalandoServidorGalaxy)
+* [Instalando um servidor do Galaxy Project](/src/Community/Log/2015/InstalandoServidorGalaxy/index.md)
     Portuguese Galaxy Documentation, by [Léo Biscassi](https://biscassi.wordpress.com/quem-sou-eu/)
 
 ---
@@ -408,13 +408,13 @@ Galaxy has moved its source from Bitbucket to [GitHub](https://github.com/galaxy
 
 However, **the Bitbucket repositories are still the official source for deployment** until we polish the process. 
 
-More information available in [/Develop/SourceCode](/Develop/SourceCode).
+More information available in [/Develop/SourceCode](/src/Develop/SourceCode/index.md).
 
 # Releases
 
 ## Galaxy 2015/01/13 Distribution
 
-The most recent Galaxy release was the [2015/01/13 distribution](/DevNewsBriefs/2015_01_13).  This addressed several *[critical security vulnerabilities](/DevNewsBriefs/2015_01_13#security)*, added [IPython integration](/DevNewsBriefs/2015_01_13#ipython_integration), and included a [Tool Form Upgrade for Beta Testing](/DevNewsBriefs/2015_01_13#tool_form_upgrade_28for_beta_testing29).
+The most recent Galaxy release was the [2015/01/13 distribution](/DevNewsBriefs/2015_01_13).  This addressed several *[critical security vulnerabilities](/DevNewsBriefs/2015_01_13#security)*, added [IPython integration](/DevNewsBriefs/2015_01_13#ipython_integration), and included a [Tool Form Upgrade for Beta Testing](/src/DevNewsBriefs/2015_01_13/index.md#tool_form_upgrade_28for_beta_testing29).
 
 ## Planemo 0.5.0
 
@@ -425,7 +425,7 @@ There were several releases of [Planemo](https://github.com/galaxyproject/planem
 
 ## CloudMan and blend4j
 
-New versions [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/GalaxyUpdates/2014_09#blend4j-011-release) were released in August.
+New versions [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were released in August.
 
 ---
 

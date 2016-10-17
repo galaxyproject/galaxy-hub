@@ -3,7 +3,7 @@ PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
 
 The Intergalactic Utilities Commission (IUC) was established in 2012 to enable the pervasive use of the main Galaxy ToolShed by ensuring the repositories available in the tool shed include contents that are functionally correct and optimized for installation into local Galaxies.  When appropriate, guidance is provided to repository owners so that they can understand what changes are necessary for their repository to be approved.
 
-The features described in [ the reviewing process](/ReviewingToolShedRepositories) enable tool shed repositories to ultimately be flagged as "Approved" by the IUC.  If a repository is "IUC Approved", then those installing the repository should have a certain level of comfort that it's contents are functionally correct in all appropriate areas.
+The features described in [ the reviewing process](/src/ReviewingToolShedRepositories/index.md) enable tool shed repositories to ultimately be flagged as "Approved" by the IUC.  If a repository is "IUC Approved", then those installing the repository should have a certain level of comfort that it's contents are functionally correct in all appropriate areas.
 
 IUC also maintains a set of Galaxy tools in the following !GitHub repository https://github.com/galaxyproject/tools-iuc
 

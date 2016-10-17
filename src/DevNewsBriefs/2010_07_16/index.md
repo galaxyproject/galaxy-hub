@@ -45,7 +45,7 @@ This feature is disabled unless "enable_api = True" in universe_wsgi.ini config 
 
 #### Things that need to be done next
 
-* Documentation! *(Edit: See [/Learn/API](/Learn/API) and [/Admin/API](/Admin/API))*
+* Documentation! *(Edit: See [/Learn/API](/Learn/API) and [/Admin/API](/src/Admin/API/index.md))*
 * Refactor reused code from library_common and other controllers into an even-more-generic location and format.  The main changes are that the Web UI returns redirects and rendered templates, whereas the API returns various HTTP status codes and JSON.
 * Implement more functionality.
 * The request and response format should be considered alpha and are subject to change.  They will be standardized as the API matures.

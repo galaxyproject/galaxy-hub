@@ -10,7 +10,7 @@ title: 2015, /, 07, :,  , [BioJS2Galaxy - A step by step guide](http://www.benja
 
 
 <div class='logbox'>
- Topic:: **[BioJS2Galaxy - A step by step guide](/Community/Log/2015/BioJS2Galaxy)**
+ Topic:: **[BioJS2Galaxy - A step by step guide](/src/Community/Log/2015/BioJS2Galaxy/index.md)**
  Date:: 2015/07/12
  Who:: [Benedikt Rauscher](https://twitter.com/bengrauscher), [Benjamen White](http://www.benjamenwhite.com/2015)
  Resolution:: To encourage the use of [BioJavaScript (BioJS)](http://biojs.net/) visualisations in Galaxy we decided to create [this simple step by step guide](http://www.benjamenwhite.com/2015/07/biojs2galaxy-a-step-by-step-guide/) on how to use [Sebastian Wilzbach’s](https://twitter.com/MrGreenify) application, [biojs2galaxy](https://github.com/biojs/biojs2galaxy).

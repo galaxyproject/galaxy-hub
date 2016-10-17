@@ -1,7 +1,7 @@
 ---
 date: 2013-12-06T18:32:34Z
 ---
-<div class='newsItemHeader'>[Galaxy Community Log Board](/News/CommunityLogBoard)</div>
+<div class='newsItemHeader'>[Galaxy Community Log Board](/src/News/CommunityLogBoard/index.md)</div>
 
 <div class='left'><a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' width="200" /></a></div>
 
@@ -17,9 +17,9 @@ The *[Galaxy Community Log Board](/Community/Logs)* is a place to share how you 
 </table>
 
 
-The [Galaxy Community Log Board](/Community/Logs) describes how things can be done, and it complements the (also [recently announced](/News/GalaxyDeploymentCatalog)) *[Galaxy Deployments Catalog](/Community/Deployments)*, which describes different Galaxy installations.  Both the [Log Board](/Community/Logs) and the [Deployments Catalog](/Community/Deployments) came out of discussions at the [GCC2013 GalaxyAdmins Birds-of-a-Feather gathering](/Events/GCC2013/BoF/GalaxyAdmins).  Thanks to everyone who attended that BoF.
+The [Galaxy Community Log Board](/Community/Logs) describes how things can be done, and it complements the (also [recently announced](/News/GalaxyDeploymentCatalog)) *[Galaxy Deployments Catalog](/Community/Deployments)*, which describes different Galaxy installations.  Both the [Log Board](/Community/Logs) and the [Deployments Catalog](/Community/Deployments) came out of discussions at the [GCC2013 GalaxyAdmins Birds-of-a-Feather gathering](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md).  Thanks to everyone who attended that BoF.
 
-[Dave Clements](/DaveClements)
+[Dave Clements](/src/DaveClements/index.md)
 
 
 CategoryNews

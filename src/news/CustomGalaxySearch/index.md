@@ -17,8 +17,8 @@ We strongly encourage you to give these try.  Please feedback and suggestions to
 
 Thanks,
 
-[Dave Clements](/DaveClements)
+[Dave Clements](/src/DaveClements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/News) on <<Date(2011-12-20T18:20:20Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on <<Date(2011-12-20T18:20:20Z)>></div>
 
 CategoryNews

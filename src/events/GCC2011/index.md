@@ -60,12 +60,12 @@ Relocate the links from the current pages in Bitbucket to here.
 
 Each breakout has its own wiki page for notes. Someone in each group was selected to take notes, either directly on the wiki page, or just in a text editor (in which case, they will show up in June).
 
-* [Visualization and Visual Analytics](Visualization and Visual Analytics) ([Jeremy Goecks](/JeremyGoecks))
+* [Visualization and Visual Analytics](Visualization and Visual Analytics) ([Jeremy Goecks](/src/JeremyGoecks/index.md))
 * [Sample Tracking and Instrument Integration](Sample Tracking and Instrument Integration) (Greg Von Kuster)
 * [[/Thinking Big: CloudMan, Grid, and Scalability|Thinking Big: !CloudMan, Grid, and Scalability]] (Enis Afgan)
 * [Workflows and API](Workflows and API) (Kanwei Li)
 * [[/Complex Tools and Datasources: Parameters, Datatypes and Metadata|Complex Tools and Datasources: Parameters, Datatypes and Metadata]] (Dan Blankenberg)
-* [Building a Data Infrastructure: Genomic Data Management](/Events/GCC2011/BuildingADataInfrastructure) (Kelly Vincent)
+* [Building a Data Infrastructure: Genomic Data Management](/src/Events/GCC2011/BuildingADataInfrastructure/index.md) (Kelly Vincent)
 
 ## Pictures
 Many thanks to Rob Hooft for taking [these pictures](http://bit.ly/gcc-d1) on the first day of the meeting.

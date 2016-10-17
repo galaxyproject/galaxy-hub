@@ -1,7 +1,7 @@
 ---
 date: 2016-04-07T14:00:36Z
 ---
-<div class='newsItemHeader'>[Galaxy on Jetstream Cloud](/News/GalaxyOnJetstream)</div>
+<div class='newsItemHeader'>[Galaxy on Jetstream Cloud](/src/News/GalaxyOnJetstream/index.md)</div>
 
 <div class='right'>![](https://www.nsf.gov/news/mmg/media/images/jetstream_logo_f_fe60185c-962f-4c1f-99bf-e6ec82d54c21.jpg)</div>
 

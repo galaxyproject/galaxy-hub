@@ -11,7 +11,7 @@ title: Galaxy Project Workshop CloudMan on AWS Share
 
 
 <div class='deploymentbox'>
- Resource:: **[Galaxy Project Workshop CloudMan on AWS Share](/Teach/Resource/GalaxyProjectWorkshopAWS)**
+ Resource:: **[Galaxy Project Workshop CloudMan on AWS Share](/src/Teach/Resource/GalaxyProjectWorkshopAWS/index.md)**
  Types:: CloudMan on AWS share
  Domains:: **RNA-Seq, ChIP-Seq, Introduction** 
  Owners:: [Galaxy Project](http://galaxyproject.org)

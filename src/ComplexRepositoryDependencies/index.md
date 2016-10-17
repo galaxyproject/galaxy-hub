@@ -61,4 +61,4 @@ Visiting the repository's main page displays various containers.  There are two 
 
 ![](/manage_complex_repository_dependency_on_bwa_059.png)
 
-For more technical details on this XML file, see the [supported tool_dependencies.xml tag sets](/ToolDependenciesTagSets).
+For more technical details on this XML file, see the [supported tool_dependencies.xml tag sets](/src/ToolDependenciesTagSets/index.md).

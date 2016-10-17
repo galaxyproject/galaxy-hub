@@ -4,7 +4,7 @@ title: Galaxy Application Programming Interface , (, API, )
 ---
 PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 
-The most current information about using the API can be found here: [/Develop/API](/Develop/API)
+The most current information about using the API can be found here: [/Develop/API](/src/Develop/API/index.md)
 
 Some other API documentation spread around that may get you through the day:
 
@@ -14,20 +14,20 @@ In the source Distribution:
 * [scripts/api/example_watch_folder.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/example_watch_folder.py)
 
 In this wiki:
-* [2010/07/16 News Brief](/DevNewsBriefs/2010_07_16#initial-implementation-of-the-galaxy-web-api), initial implementation described
-* [2011/08/30 News Brief](/DevNewsBriefs/2011_08_30#api), update
-* [GCC2011 Galaxy Deployment and API presentation](/Events/GCC2011)
+* [2010/07/16 News Brief](/src/DevNewsBriefs/2010_07_16/index.md#initial-implementation-of-the-galaxy-web-api), initial implementation described
+* [2011/08/30 News Brief](/src/DevNewsBriefs/2011_08_30/index.md#api), update
+* [GCC2011 Galaxy Deployment and API presentation](/src/Events/GCC2011/index.md)
 * [Sample Tracking API](/Admin/Sample Tracking/Next Gen)
 * [GCC2011 Workflows and API Breakout Group](/Events/GCC2011/Workflows and API)
 
 External:
-* The [Bioblend](http://bioblend.readthedocs.org/en/latest/) package provides an easy way to start using the Galaxy API by providing a set of Python bindings, developed by Galaxy developer [Enis Afgan](/EnisAfgan)
+* The [Bioblend](http://bioblend.readthedocs.org/en/latest/) package provides an easy way to start using the Galaxy API by providing a set of Python bindings, developed by Galaxy developer [Enis Afgan](/src/EnisAfgan/index.md)
 
 ---
 
 
 
-In addition to being accessible through a [web interface](/Learn), Galaxy can now also be accessed programmatically, through shell scripts and other programs.  The web interface is appropriate for things like exploratory analysis, visualization, construction of workflows, and rerunning workflows on new datasets.
+In addition to being accessible through a [web interface](/src/Learn/index.md), Galaxy can now also be accessed programmatically, through shell scripts and other programs.  The web interface is appropriate for things like exploratory analysis, visualization, construction of workflows, and rerunning workflows on new datasets.
 
 The web interface is less suitable for things like 
 * Connecting a Galaxy instance directly to your sequencer and running workflows whenever data is ready
@@ -198,5 +198,5 @@ See [Examples](Examples)
 Language specific libraries for interfacing with the Galaxy API are available. 
 
 * The Galaxy code itself contains [JavaScript bindings](https://bitbucket.org/galaxy/galaxy-central/src/tip/static/scripts/mvc).
-* [BioBlend](https://github.com/afgane/bioblend) contains a set of Python bindings developed by Galaxy developer [Enis Afgan](/EnisAfgan).
+* [BioBlend](https://github.com/afgane/bioblend) contains a set of Python bindings developed by Galaxy developer [Enis Afgan](/src/EnisAfgan/index.md).
 * [blend4j](https://github.com/jmchilton/blend4j) contains Java bindings developed by Galaxy community member [John Chilton](/JohnChilton) and largely modeled after [blend](https://github.com/afgane/blend).

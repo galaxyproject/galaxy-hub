@@ -83,7 +83,7 @@ END_INCLUDE
 END_INCLUDE
 
 # VM
-* The [virtual machine image](/Events/GCC2013/TrainingDay/VMs#2-download-needed-vms-on-your-laptop) for this workshop.
+* The [virtual machine image](/src/Events/GCC2013/TrainingDay/VMs/index.md#2-download-needed-vms-on-your-laptop) for this workshop.
 END_INCLUDE
 
 # VM_BASIC

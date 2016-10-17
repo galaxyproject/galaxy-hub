@@ -8,13 +8,13 @@ title: March 2014 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the March 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/DevNewsBriefs)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the March 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # New Papers
 
 *54 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in Febrary. Some papers that may be particularly interesting to the Galaxy community:
 
-* [Dissemination of scientific software with Galaxy ToolShed](http://dx.doi.org/10.1186/gb4161), by [Blankenberg](/Dan), [Von Kuster](/greg_vonkuster), [Bouvier](/DaveBouvier), [Baker](/DannonBaker), [Afgan](/EnisAfgan), Stoler, the [Galaxy Team](/GalaxyTeam), [Taylor](/JamesTaylor) and [Nekrutenko](/anton), *Genome Biology,* Vol. 15, No. 2. (20 February 2014), 403, doi:10.1186/gb4161
+* [Dissemination of scientific software with Galaxy ToolShed](http://dx.doi.org/10.1186/gb4161), by [Blankenberg](/Dan), [Von Kuster](/greg_vonkuster), [Bouvier](/DaveBouvier), [Baker](/DannonBaker), [Afgan](/EnisAfgan), Stoler, the [Galaxy Team](/GalaxyTeam), [Taylor](/JamesTaylor) and [Nekrutenko](/src/anton/index.md), *Genome Biology,* Vol. 15, No. 2. (20 February 2014), 403, doi:10.1186/gb4161
 
 * [Binding Sites Analyser (BiSA): Software for Genomic Binding Sites Archiving and Overlap Analysis](http://dx.doi.org/10.1371/journal.pone.0087301), by Khushi, *et al.,* *PLoS ONE*, Vol. 9, No. 2. (12 February 2014), e87301, doi:10.1371/journal.pone.0087301
 
@@ -91,12 +91,12 @@ The Galaxy is expanding! Please help it grow.
 
 * [Stage M2 Recherche : Provenance dans un système de workflows pour la bioinformatique](http://france.list.galaxyproject.org/Galaxy-france-Fwd-bioinfo-Stage-M2-Recherche-Provenance-dans-un-systeme-de-workflows-pour-la-bioinfoe-td93.html)
 * [Stage M1/M2, Development and integration of computational methods into the Galaxy analysis framework](http://france.list.galaxyproject.org/Galaxy-france-Fwd-bioinfo-Stage-M1-M2-Institut-Curie-Paris-td92.html), Institut Curie, Paris
-* [Statistical Genomics Postdoc](/News/StatisticalGenomicsPostDocPennState) opening in the Makova lab at Penn State
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**, *including positions at George Washington University*.
+* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**, *including positions at George Washington University*.
 
 * [Postdoctoral position in genomics/bio-informatics (NGS)](http://bit.ly/1eq5TvM) at University of Rennes 1 (France)  
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -135,13 +135,13 @@ The [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014) will be held J
 
 ### Registration is Open
 
-[Early registration is now open](/Events/GCC2014/Register). *Early registration saves more than 70% on registration costs, and [Training Day](/Events/GCC2014/TrainingDay) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/Events/GCC2014/Logistics#lodging), a very affordable housing option in the same building as the conference.
+[Early registration is now open](/Events/GCC2014/Register). *Early registration saves more than 70% on registration costs, and [Training Day](/Events/GCC2014/TrainingDay) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/src/Events/GCC2014/Logistics/index.md#lodging), a very affordable housing option in the same building as the conference.
 
-*[Training Day](/Events/GCC2014/TrainingDay)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There are 5 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 15 sessions and over 37 hours of workshop material.*
+*[Training Day](/src/Events/GCC2014/TrainingDay/index.md)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There are 5 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 15 sessions and over 37 hours of workshop material.*
 
 ### Abstract Submission is Open
 
-[Abstract submission for both oral presentations and posters](/Events/GCC2014/Abstracts) is also open.  Abstract submission for oral presentations closes April 4, while poster submission closes April 25. Poster authors will be notified of acceptance status within two weeks of submission, while presentation authors will be notified no later than May 2.  Please consider presenting your work. If you are dealing with big biological data, then this meeting wants to hear about it.
+[Abstract submission for both oral presentations and posters](/src/Events/GCC2014/Abstracts/index.md) is also open.  Abstract submission for oral presentations closes April 4, while poster submission closes April 25. Poster authors will be notified of acceptance status within two weeks of submission, while presentation authors will be notified no later than May 2.  Please consider presenting your work. If you are dealing with big biological data, then this meeting wants to hear about it.
 
 Accepted talks and selected posters from GCC2014 are also eligible for consideration to appear in the *[GigaScience](http://www.gigasciencejournal.com/)* ["Galaxy: Data Intensive and Reproducible Research"](#gigascience-galaxy-series) series described above.
 
@@ -155,13 +155,13 @@ Accepted talks and selected posters from GCC2014 are also eligible for considera
 <a href='http://bio.maryland.gov/'><img src='/Images/Logos/BioMaryland400.png' alt='BioMaryland' width="200" /></a>
 </div>
 
-We are pleased to have [Amazon Web Services (AWS)](http://aws.amazon.com/) as the sponsor for the GCC [Training Day](/Events/GCC2014/TrainingDay) for the third year in a row.  Also please welcome [BioMaryland](http://bio.maryland.gov/) as a [Bronze Sponsor](/Events/GCC2014/SponsorExhibit) for [GCC2014](/Events/GCC2014).  !BioMaryland is new to the GCC.
+We are pleased to have [Amazon Web Services (AWS)](http://aws.amazon.com/) as the sponsor for the GCC [Training Day](/Events/GCC2014/TrainingDay) for the third year in a row.  Also please welcome [BioMaryland](http://bio.maryland.gov/) as a [Bronze Sponsor](/Events/GCC2014/SponsorExhibit) for [GCC2014](/src/Events/GCC2014/index.md).  !BioMaryland is new to the GCC.
 
-There are still [Silver and Bronze sponsorships](/Events/GCC2014/SponsorExhibit) available. Please contact the [Organizers](/Events/GCC2014/Organizers) if your organization would like to help sponsor this event. 
+There are still [Silver and Bronze sponsorships](/Events/GCC2014/SponsorExhibit) available. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to help sponsor this event. 
 
 ### Exhibitors
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorExhibit#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/Events/GCC2014/Organizers) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorExhibit#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to have an exhibit space at GCC2014. 
 
 ## Other Events
 
@@ -308,7 +308,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorE
 
 # New Public Servers
 
-One new [public Galaxy server](/PublicGalaxyServers), [PGTB](/PublicGalaxyServers#galaxy-pgtb-virtual-biodiversity-lab) was added, and the [NELLY server](/PublicGalaxyServers#nelly) is back.
+One new [public Galaxy server](/PublicGalaxyServers), [PGTB](/PublicGalaxyServers#galaxy-pgtb-virtual-biodiversity-lab) was added, and the [NELLY server](/src/PublicGalaxyServers/index.md#nelly) is back.
 
 ## Galaxy PGTB (Virtual Biodiversity Lab)
 
@@ -330,7 +330,7 @@ One new [public Galaxy server](/PublicGalaxyServers), [PGTB](/PublicGalaxyServer
 
 # Galaxy Distributions
 
-The most recent version of CloudMan was [released in January 2014](/News/CloudManRelease201401).
+The most recent version of CloudMan was [released in January 2014](/src/News/CloudManRelease201401/index.md).
 
 ## Feb 10, 2014 Galaxy Distribution
 
@@ -377,7 +377,7 @@ upgrade:   $ hg pull
 
 <br /><br />
 
-The *[Community Log Board](/Community/Logs)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/Community)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
+The *[Community Log Board](/Community/Logs)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/src/Community/index.md)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
 
 # ToolShed Contributions
 

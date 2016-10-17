@@ -82,7 +82,7 @@ $ python --version
 Python 2.7.6
 ```
 
-(See also [How to check your Python version](/Admin/GetGalaxy#check_your_python_version)).
+(See also [How to check your Python version](/src/Admin/GetGalaxy/index.md#check_your_python_version)).
 
 Galaxy is best downloaded using the Mercurial distibuted source management system:
 * [http://mercurial.selenic.com/](http://mercurial.selenic.com/)
@@ -98,7 +98,7 @@ This is free software; see the source for copying conditions. There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE
 ```
 
-See also [Using APT to get Mercurial](/Events/BioITWorld2014/W14#clone_28download29_galaxy) for an example of
+See also [Using APT to get Mercurial](/src/Events/BioITWorld2014/W14/index.md#clone_28download29_galaxy) for an example of
 installing mercurial via APT (a unix package manager).
 
 1. **As the galaxy user**, create the directory where you'd want to install Galaxy on your server (in this example, a
@@ -148,9 +148,9 @@ Mercurial, we can easily 'pull' changes, fixes, and updates from `bitbucket.org`
 
 More advanced users may also consider installing Galaxy in a virtual environment with `virtualenv`. This will create a
 clean slate for your python dependencies and paths (including `$PYTHONPATH`). For more information see:
-[Use a clean environment](/Admin/Config/Performance/ProductionServer#use_a_clean_environment)
+[Use a clean environment](/src/Admin/Config/Performance/ProductionServer/index.md#use_a_clean_environment)
 and:
-[Create a Python virtual environment](/Events/BioITWorld2014/W14#create_a_python_virtual_environment)
+[Create a Python virtual environment](/src/Events/BioITWorld2014/W14/index.md#create_a_python_virtual_environment)
 
 
 
@@ -207,7 +207,7 @@ PostgreSQL can be installed with a package manager. Installing, starting, and co
 of this tutorial but more information can be found at:
 [their admin documentation page](http://www.postgresql.org/docs/9.3/static/admin.html)
 and a quick command line example here:
-[Install and configure PostgreSQL](/Events/BioITWorld2014/W14#install_and_configure_postgresql)
+[Install and configure PostgreSQL](/src/Events/BioITWorld2014/W14/index.md#install_and_configure_postgresql)
 
 Let's create a postgres user named galaxy for our system galaxy user:
 1. Log out of the galaxy user and back into your sudo/admin user role by pressing `Ctrl-d`.
@@ -241,7 +241,7 @@ database_connection = postgresql:///galaxydb?host=/var/run/postgresql
 
 
 Some important points and suggestions for setting up a Galaxy server with a full database can be found here:
-[Use a clean environment](/Admin/Config/Performance/ProductionServer#use_a_clean_environment)
+[Use a clean environment](/src/Admin/Config/Performance/ProductionServer/index.md#use_a_clean_environment)
 
 
 <br />
@@ -269,7 +269,7 @@ Disable the debugging and development settings:
 ```
 
 
-See the [Production Server Help](/Admin/Config/Performance/ProductionServer#disable_the_developer_settings)
+See the [Production Server Help](/src/Admin/Config/Performance/ProductionServer/index.md#disable_the_developer_settings)
 for why you'd want to change these.
 
 If you run into problems, you can turn any of these back on and they will provide more information and may help with the
@@ -309,7 +309,7 @@ port = 8081
 
 NOTE: for our example we'll keep the port number at 8081. To provide a clean url without a port number, the best option
 is probably to start using a proxy server:
-[Using a proxy server](/Admin/Config/Performance/ProductionServer#using_a_proxy_server)
+[Using a proxy server](/src/Admin/Config/Performance/ProductionServer/index.md#using_a_proxy_server)
 
 Change the listening address to `0.0.0.0` and uncomment:
 ```ini
@@ -334,7 +334,7 @@ Of course, you can change this later to suit your lab or your needs.
 #### The tool_dependency_dir
 The final change we'll make before we log in is to uncomment and add a tool dependency directory in the
 `universe_wsgi.ini` file. This is a directory that will store the programs that Galaxy tools rely on to function as
-we'll see later in [/Tools](/Tools):
+we'll see later in [/Tools](/src/Tools/index.md):
 ```ini
 tool_dependency_dir = ../tool_dependencies
 ```
@@ -424,7 +424,7 @@ Galaxy does not delete or clear the log file between starts and stops and it app
 end of the file. That means that you're able to scan it for past information as well.
 
 This also means that the file can grow quickly. To 'rotate' your log files, see:
-[Rotating log files](/Admin/Config/Performance/ProductionServer#rotate_log_files).
+[Rotating log files](/src/Admin/Config/Performance/ProductionServer/index.md#rotate_log_files).
 
 It can be useful (for this tutorial or anytime you're configuring your server) when running in daemon mode to open a new
 terminal window or tab and 'follow the tail' of your log file:
@@ -576,7 +576,7 @@ Galaxy tools are not (generally) bioinformatics programs themselves but XML file
 command-line-only program. Among other things, the tool wrapper file defines a form interface for the tools possible
 parameters with help and explanation.
 
-See also: [Adding Tools from a Tool Shed](/Admin/Tools/AddToolFromToolShedTutorial)
+See also: [Adding Tools from a Tool Shed](/src/Admin/Tools/AddToolFromToolShedTutorial/index.md)
 
 Programs and their dependencies will be installed to the directory setting `tool_dependency_dir` in your
 `universe_wsgi.ini` file (which we set [here](#the-tool_dependency_dir)). They can also be invoked on the command line
@@ -595,8 +595,8 @@ created from there.
 
 [Galaxy main tool shed](http://toolshed.g2.bx.psu.edu/)
 [Galaxy test tool shed](http://testtoolshed.g2.bx.psu.edu/)
-[Public tool sheds](/PublicGalaxyServers#public_toolsheds)
-See also the comprehensive documentation on Tool Sheds here: [ToolShed](/ToolShed);
+[Public tool sheds](/src/PublicGalaxyServers/index.md#public_toolsheds)
+See also the comprehensive documentation on Tool Sheds here: [ToolShed](/src/ToolShed/index.md);
 
 
 #### Installing a tool from a Tool Shed
@@ -641,7 +641,7 @@ None. You may need to enable third-party cookies in your browser.', you'll need 
 duration of this workshop).
 
 To enable 3rd-party cookies in Firefox or Chrome, see:
-[enabling 3rd-party cookies](/Events/BioITWorld2014/W14#install_a_tool_from_the_tool_shed)
+[enabling 3rd-party cookies](/src/Events/BioITWorld2014/W14/index.md#install_a_tool_from_the_tool_shed)
 
 
 Let's check that it was installed and is now available:
@@ -650,7 +650,7 @@ Let's check that it was installed and is now available:
 3. You should see a link with the text: 'FastQC:Read QC reports using FastQC' - that indicates the tools is installed
   and ready to try.
 
-Again, see also: [Adding Tools from a Tool Shed](/Admin/Tools/AddToolFromToolShedTutorial)
+Again, see also: [Adding Tools from a Tool Shed](/src/Admin/Tools/AddToolFromToolShedTutorial/index.md)
 
 
 <br />
@@ -709,7 +709,7 @@ running, finished, errored) is shown as the 'state' of a dataset in the current 
 * error: red
 
 For more information on histories see:
-[Managing Datasets](/Learn/ManagingDatasets)
+[Managing Datasets](/src/Learn/ManagingDatasets/index.md)
 and:
 [Managing Histories Screencast Video](http://vimeo.com/76020876)
 
@@ -783,7 +783,7 @@ repeat over many subjects.
 #### Manually creating and editing workflows
 One way to create a workflow manually using the Workflow editor. See the following wiki pages for more information on
 that:
-* [Creating Workflows and Advanced Workflow Options](/Learn/AdvancedWorkflow)
+* [Creating Workflows and Advanced Workflow Options](/src/Learn/AdvancedWorkflow/index.md)
 * [Create a Workflow from Scratch Screencast](http://screencast.g2.bx.psu.edu/flash/WorkflowFromScratch.html)
 
 
@@ -854,7 +854,7 @@ pages created and edited from within Galaxy). See how in the
 * Almost every tool available from the Galaxy Tool Sheds or already installed on your server can be used in a workflow.
 * It's possible to run and automate workflows via the command line or scripts using Galaxy's API.
 
-Again, see [Creating Workflows and Advanced Workflow Options](/Learn/AdvancedWorkflow) for more information.
+Again, see [Creating Workflows and Advanced Workflow Options](/src/Learn/AdvancedWorkflow/index.md) for more information.
 
 
 #### Testing our QC workflow
@@ -906,5 +906,5 @@ The following are great places to start when trouble shooting or planning an exp
 
 
 ### Advanced Configuration for Production Scale Galaxy Servers
-1. [Running Galaxy in a production environment](/Admin/Config/Performance/ProductionServer)
-2. Nate Coraor's excellent page for the BioIT workshop on [Running a Local Galaxy Instance](/Events/BioITWorld2014/W14)
+1. [Running Galaxy in a production environment](/src/Admin/Config/Performance/ProductionServer/index.md)
+2. Nate Coraor's excellent page for the BioIT workshop on [Running a Local Galaxy Instance](/src/Events/BioITWorld2014/W14/index.md)

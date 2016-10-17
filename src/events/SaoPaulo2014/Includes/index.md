@@ -1,4 +1,4 @@
-<div class='red'>This page is not intended to be viewed directly.  Rather, parts of it are included [here](/Events/SaoPaulo2014/).</div>
+<div class='red'>This page is not intended to be viewed directly.  Rather, parts of it are included [here](/src/Events/SaoPaulo2014/index.md).</div>
 
 # Day 1
 <table>

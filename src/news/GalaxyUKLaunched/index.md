@@ -1,7 +1,7 @@
 ---
 date: 2014-08-14T13:58:29Z
 ---
-<div class='newsItemHeader'>[Galaxy-UK Community Launched](/News/GalaxyUKLaunched)</div>
+<div class='newsItemHeader'>[Galaxy-UK Community Launched](/src/News/GalaxyUKLaunched/index.md)</div>
 
 Dear UK Galaxy-devs,
 

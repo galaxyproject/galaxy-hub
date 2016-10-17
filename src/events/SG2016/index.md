@@ -37,9 +37,9 @@ Registration is free, but space is limited on both days. We recommend you regist
 </table>
 
 
-The [first day](/Events/Switzerland2016), October 20<sup>th</sup>, will start with talks, discussions and small demonstrations. This day will be problem / technology centric with small demonstrations and hands-on sessions. Everyone is expected to have their own computer.  See the [event's page](/Events/Switzerland2016) for a list of topics and presenters.
+The [first day](/src/Events/Switzerland2016/index.md), October 20<sup>th</sup>, will start with talks, discussions and small demonstrations. This day will be problem / technology centric with small demonstrations and hands-on sessions. Everyone is expected to have their own computer.  See the [event's page](/src/Events/Switzerland2016/index.md) for a list of topics and presenters.
 
-The [second day](/Events/Germany2016), October 21<sup>st</sup>, is a developers day with 3 to 4 hands-on sessions (1.5h). Every session will start with a 10 minute talk and theoretical introduction, followed by 1h of hacking and 20 minutes discussion and a small break until the next session begins. There are a few proposed and prepared topics but we are flexible so we can discover new areas of the Galaxy. See the [event's page](/Events/Germany2016) for a list of topics.
+The [second day](/src/Events/Germany2016/index.md), October 21<sup>st</sup>, is a developers day with 3 to 4 hands-on sessions (1.5h). Every session will start with a 10 minute talk and theoretical introduction, followed by 1h of hacking and 20 minutes discussion and a small break until the next session begins. There are a few proposed and prepared topics but we are flexible so we can discover new areas of the Galaxy. See the [event's page](/src/Events/Germany2016/index.md) for a list of topics.
 
 
 <div class='right'><br /><a href='http://www.uni-freiburg.de/universitaet-en/kontakt-und-wegweiser/lageplaene/engineering'><img src='/Images/Logos/UniFreiburg.png' alt='Technische Fakultät; Albert-Ludwigs-Universität Freiburg' height="100" /></a></div>
@@ -51,4 +51,4 @@ The [second day](/Events/Germany2016), October 21<sup>st</sup>, is a developers 
 
 ## Questions?
 
-Contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/BjoernGruening)
+Contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/src/BjoernGruening/index.md)

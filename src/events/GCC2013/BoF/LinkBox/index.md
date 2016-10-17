@@ -1,5 +1,5 @@
 <div class='linkbox'>
-**[BoFs](/Events/GCC2013/BoF)**
+**[BoFs](/src/Events/GCC2013/BoF/index.md)**
 ---
 [GalaxyAdmins](../GalaxyAdmins)<br />
 [Proteomics](../Proteomics)<br />
@@ -8,5 +8,5 @@
 [BLAST+ wrappers](../GalaxyBlast)<br />
 [Galaxy Professionals](../GalaxyProfessionals)<br />
 [(Birds of Prey)](../GalaxyProfessionals)<br />
-[Public Servers](/Events/GCC2013/BoF/PublicGalaxyServers)<br />
+[Public Servers](/src/Events/GCC2013/BoF/PublicGalaxyServers/index.md)<br />
 </div>

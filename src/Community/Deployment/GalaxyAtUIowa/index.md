@@ -9,7 +9,7 @@ title: GalaxyAtUIowa
 
 <div class='deploymentbox'>
 
- Deployment:: **[GalaxyAtUIowa](/Community/Deployment/GalaxyAtUIowa)**
+ Deployment:: **[GalaxyAtUIowa](/src/Community/Deployment/GalaxyAtUIowa/index.md)**
  Domain:: Local instance at the U of Iowa
  Owners:: [IIHG](http://medicine.uiowa.edu/humangenetics)
  Audience:: Human geneticists, biologists
@@ -54,6 +54,6 @@ Annotation and reporting tools.
 
 ## Links
 
-* The University of Iowa Galaxy deployment was presented at th [July 2012 GalaxyAdmins meetup](/Community/GalaxyAdmins/Meetups/2012_07_09).
+* The University of Iowa Galaxy deployment was presented at th [July 2012 GalaxyAdmins meetup](/src/Community/GalaxyAdmins/Meetups/2012_07_09/index.md).
 
 CategoryDeployment

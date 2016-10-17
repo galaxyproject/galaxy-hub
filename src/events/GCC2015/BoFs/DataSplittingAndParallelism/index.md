@@ -6,7 +6,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
 
 
 <div class='dictbox'>
- BoF:: [Data Splitting and Parallelism](/Events/GCC2015/BoFs/DataSplittingAndParallelism)
+ BoF:: [Data Splitting and Parallelism](/src/Events/GCC2015/BoFs/DataSplittingAndParallelism/index.md)
  Summary:: Developer focused meeting to discuss data splitting and parallelism in Galaxy
  Audience:: Developers interested in working on internals Galaxy itself
  When:: Tuesday, 7 July, 12:30 (lunch)

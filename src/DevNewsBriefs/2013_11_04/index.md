@@ -4,9 +4,9 @@ title: November 04, ,,  2014 Galaxy Distribution News Brief
 ---
 <div class='right'></div>
 
-[All News Briefs](/DevNewsBriefs)
+[All News Briefs](/src/DevNewsBriefs/index.md)
 <br />
-[Distribution Summary 2013_11_04](/News/2013_11_04_Galaxy_Distribution)
+[Distribution Summary 2013_11_04](/src/News/2013_11_04_Galaxy_Distribution/index.md)
 
 <br />
 
@@ -151,7 +151,7 @@ Third, the tools can be completely disabled by removing them from the tool confi
 
 <br />
 # Pull Requests Merged
-1. Björn Grüning contributed a method to implement the ability to change the tool-panel as user preference ( `Dynamic Toolbox Filtering` ). [#179](https://bitbucket.org/galaxy/galaxy-central/pull-request/179/implement-the-ability-to-change-the-tool/diff). This was a frequently requested feature by the community and full documentation on this can be found here [/UserDefinedToolboxFilters](/UserDefinedToolboxFilters). https://trello.com/c/Xl7CZFMd
+1. Björn Grüning contributed a method to implement the ability to change the tool-panel as user preference ( `Dynamic Toolbox Filtering` ). [#179](https://bitbucket.org/galaxy/galaxy-central/pull-request/179/implement-the-ability-to-change-the-tool/diff). This was a frequently requested feature by the community and full documentation on this can be found here [/UserDefinedToolboxFilters](/src/UserDefinedToolboxFilters/index.md). https://trello.com/c/Xl7CZFMd
 1. Björn Grüning also contributed several extensions allowing developers to utilize new actions simplifying various tool shed dependency definition idioms:
   * `make_install` action.  [#217](https://bitbucket.org/galaxy/galaxy-central/pull-request/217/implementation-of-the-make_install-action)
   * `autoconf` action. [#218](https://bitbucket.org/galaxy/galaxy-central/pull-request/218/implementation-of-the-configure-make-make)
@@ -314,8 +314,8 @@ Several beneficial enhancements have bee added to the support for [defining tool
 <br /><a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2013_11_04_usegalaxy.org.jpg' alt='usegalaxy.org' width=300 /></a><br />**usegalaxy.org**</div>
 
 # Project Updates
-1. [/News](/News)
-1. [/Events](/Events)
+1. [/News](/src/News/index.md)
+1. [/Events](/src/Events/index.md)
 1. [Videos on Vimeo](https://vimeo.com/galaxyproject)
 1. *[November 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_11)*
 1. *[October 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_10)*
@@ -330,6 +330,6 @@ The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/GalaxyOnTwitter)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/GalaxyOnTwitter/index.md)**
 
 Have a suggestion? Please see **[Using the Galaxy Issue Board](http://wiki.galaxyproject.org/Issues)**.

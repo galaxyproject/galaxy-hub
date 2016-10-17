@@ -8,7 +8,7 @@
 
 <div class='title'>Introduction to Galaxy<br />9 May 2014</div>
 
-**Instructor: [Dave Clements](/DaveClements)
+**Instructor: [Dave Clements](/src/DaveClements/index.md)
 
 9:00-16:00<br />
 Genome Seminar Room<br />
@@ -106,7 +106,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ### Galaxy May 2014 UK Tour
 
-This workshop is part of the [May 2014 Galaxy UK Tour](/Events/UKMay2014), which features events in Norwich and Edinburgh.
+This workshop is part of the [May 2014 Galaxy UK Tour](/src/Events/UKMay2014/index.md), which features events in Norwich and Edinburgh.
 
 ## Slides
 

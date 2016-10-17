@@ -26,7 +26,7 @@ There will be two Galaxy-related events on the Caltech Campus on March 5, 2013: 
 <div class='indent'>
 **11am-2pm, March 5, 2013, 151 Braun** (lunch provided for participants)<br />
 **[Slides](ATTACHMENT_URLDocuments/Presentations/2013CaltechGalaxyForBiologists.pdf)**<br />
-**[Dave Clements](/DaveClements)**<br />
+**[Dave Clements](/src/DaveClements/index.md)**<br />
 **Emory University**<br /><br />
 
 
@@ -86,10 +86,10 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 <div class='indent'>
 **2:30-4:30pm, March 5, BBB 024** (note revised time, new location) <br />
-**[Dave Clements](/DaveClements)**<br />
+**[Dave Clements](/src/DaveClements/index.md)**<br />
 **Emory University**<br /><br />
 
-This informal discussion will introduce Galaxy for developers.  We will discuss any items of interest to attendees and answer questions relating to, for example, the Galaxy API, Galaxy Architecture, configuring Galaxy for a production environment, and anything else about Galaxy. This will be more informal than the *Galaxy for Biologists* workshop and will cover topics that are of most interest to attendees. [Dave Clements](/DaveClements) of the Galaxy Project will lead the workshop and we will be joined remotely by [Dannon Baker](/DannonBaker) and [Nate Coraor](/nate), two members of the [core Galaxy development team](/GalaxyTeam).
+This informal discussion will introduce Galaxy for developers.  We will discuss any items of interest to attendees and answer questions relating to, for example, the Galaxy API, Galaxy Architecture, configuring Galaxy for a production environment, and anything else about Galaxy. This will be more informal than the *Galaxy for Biologists* workshop and will cover topics that are of most interest to attendees. [Dave Clements](/DaveClements) of the Galaxy Project will lead the workshop and we will be joined remotely by [Dannon Baker](/DannonBaker) and [Nate Coraor](/nate), two members of the [core Galaxy development team](/src/GalaxyTeam/index.md).
 
 *This discussion is open to any member of the Caltech community. It is free, but space is limited and advanced registration is strongly encouraged.*
 </div>

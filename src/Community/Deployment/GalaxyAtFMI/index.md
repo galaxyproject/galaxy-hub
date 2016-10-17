@@ -10,7 +10,7 @@ title: Galaxy server at the FMI
 
 
 <div class='deploymentbox'>
- Deployment:: **[Galaxy server at the FMI](/Community/Deployment/GalaxyAtFMI)**
+ Deployment:: **[Galaxy server at the FMI](/src/Community/Deployment/GalaxyAtFMI/index.md)**
  Domain:: NGS analysis, MA analysis, custom tools.
  Owners:: [Friedrich Miescher Institute](http://www.fmi.ch) for Biomedical Research
  Audience:: wet lab scientists  

@@ -1,19 +1,19 @@
 ---
 autotoc: true
-title: [Frequently Asked Questions](/FAQs),  for Using Galaxy
+title: [Frequently Asked Questions](/src/FAQs/index.md),  for Using Galaxy
 ---
 PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
 
 
-Questions that apply to using most Galaxy instances.  See [/Main/FAQ](/Main/FAQ) for questions that are specifically about using [/Main](/Main), Galaxy's free public server.  See [/Admin/FAQ](/Admin/FAQ) for questions about [administering](/Admin) Galaxy.
+Questions that apply to using most Galaxy instances.  See [/Main/FAQ](/Main/FAQ) for questions that are specifically about using [/Main](/Main), Galaxy's free public server.  See [/Admin/FAQ](/Admin/FAQ) for questions about [administering](/src/Admin/index.md) Galaxy.
 
 
 
 ## Datasets, Histories, and Disk Usage
 What are the disk usage quotas when using Galaxy?
 
-Total disk space reserved per user is noted on the [/Main](/Main) and [/Test](/Test) home pages under the section "Quotas". 
+Total disk space reserved per user is noted on the [/Main](/Main) and [/Test](/src/Test/index.md) home pages under the section "Quotas". 
 
 When using a local, cloud, or public Galaxy servers hosted by other teams, quotas may or may not be set and are configured by that instance's administrator. Please see: [/Big Picture/Choices](/Big Picture/Choices).
 
@@ -74,7 +74,7 @@ To learn/understand whether a particular datatype is associated with a 0-based o
 
 ## The Galaxy Test Server
 
-The [Galaxy Test Server](/Test), http://test.g2.bx.psu.edu/, is an experimental/beta server where we test things out.  It is not recommended for anything other than testing.  See [/Test](/Test) for more.
+The [Galaxy Test Server](/src/Test/index.md), http://test.g2.bx.psu.edu/, is an experimental/beta server where we test things out.  It is not recommended for anything other than testing.  See [/Test](/src/Test/index.md) for more.
 
 
 ## Using Galaxy for Transcriptome Analysis

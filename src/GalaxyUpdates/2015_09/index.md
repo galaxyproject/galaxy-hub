@@ -105,7 +105,7 @@ The new papers were tagged with:
  
 # Galaxy's First 2500 Publications
 
-And in case you missed it, we [reached 2500 publications](/News/First2500Papers) in the [Galaxy CiteULike Library](http://bit.ly/gxyCiteULike).  [This writeup](/News/First2500Papers) analyzes the papers by [CiteULike tag](/CiteULike#citeulike_tags) and journal, across the past 11 years, and identifies some trends.  Of those 2500 papers, less than 2% have a [Galaxy Team member](/GalaxyTeam) as a coauthor.  
+And in case you missed it, we [reached 2500 publications](/News/First2500Papers) in the [Galaxy CiteULike Library](http://bit.ly/gxyCiteULike).  [This writeup](/News/First2500Papers) analyzes the papers by [CiteULike tag](/CiteULike#citeulike_tags) and journal, across the past 11 years, and identifies some trends.  Of those 2500 papers, less than 2% have a [Galaxy Team member](/src/GalaxyTeam/index.md) as a coauthor.  
 
 ---
 
@@ -133,19 +133,19 @@ Galaxy IUC
 
 # Galaxy Project Google Calendars
 
-If you want to know what events are happening in the Galaxy Community, the goto place has always been the [Galaxy Events page](/Events).  This lists any upcoming events we know about that feature Galaxy content.  This events list provides dates, locations, and contact information for each event.
+If you want to know what events are happening in the Galaxy Community, the goto place has always been the [Galaxy Events page](/src/Events/index.md).  This lists any upcoming events we know about that feature Galaxy content.  This events list provides dates, locations, and contact information for each event.
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' alt='Galaxy Calendar' /></a></div>
 
 There has also been the complementary *[Galaxy Events Google Calendar](http://bit.ly/gxycal)* which listed events of interest to the community, whether or not they featured significant Galaxy content.  **To make this calendar more useful, we have split it in to two:**
 
  **[Galaxy Events Google Calendar](http://bit.ly/gxycal)** <a href='http://bit.ly/gxycalrss'><img src='/Images/Icons/RSSIcon16x16.gif' alt='Galaxy Calendar RSS Feed' /></a>
-   This calendar now lists *only* events that feature Galaxy content.  Pretty much, if it's on the [Events page](/Events), it's also in this calendar.<br />
+   This calendar now lists *only* events that feature Galaxy content.  Pretty much, if it's on the [Events page](/src/Events/index.md), it's also in this calendar.<br />
 
  **[Galaxy Other Events Google Calendar](http://bit.ly/gxyothercal)**  <a href='http://bit.ly/gxyothercalrss'><img src='/Images/Icons/RSSIcon16x16.gif' alt='Galaxy Calendar RSS Feed' /></a> 
    This lists additional events and deadlines that are relevant to the Galaxy Community, but that are not known to feature significant Galaxy content. 
 
-This split allows us to present Galaxy events in a much sparser calendar, that is more useful for setting reminders and publishing Galaxy events. And we will continue to link to past Galaxy events (and presentations, videos, examples, ...) from the  *[Events Archive](/Events#past-events)*.
+This split allows us to present Galaxy events in a much sparser calendar, that is more useful for setting reminders and publishing Galaxy events. And we will continue to link to past Galaxy events (and presentations, videos, examples, ...) from the  *[Events Archive](/src/Events/index.md#past-events)*.
 
 # August GalaxyAdmins Slides and Video
 
@@ -153,9 +153,9 @@ This split allows us to present Galaxy events in a much sparser calendar, that i
 <a href='http://www.irida.ca/'><img src='/Images/Logos/IRIDA.png' alt='IRIDA' width="175" /></a>
 </div>
 
-The [next GalaxyAdmins meetup on August 20](/Community/GalaxyAdmins/Meetups/2015_08_20) was attended by 27 *!GalaxyAdmins*.  [Aaron Petkau](https://github.com/apetkau) covered *Genomic data management at [Canada's National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) with [IRIDA](http://www.irida.ca/) and Galaxy* and [Enis Afgan](/EnisAfgan) presented *Adding transparency and automation into the Galaxy tool installation process*.
+The [next GalaxyAdmins meetup on August 20](/Community/GalaxyAdmins/Meetups/2015_08_20) was attended by 27 *!GalaxyAdmins*.  [Aaron Petkau](https://github.com/apetkau) covered *Genomic data management at [Canada's National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) with [IRIDA](http://www.irida.ca/) and Galaxy* and [Enis Afgan](/src/EnisAfgan/index.md) presented *Adding transparency and automation into the Galaxy tool installation process*.
 
-In case you missed it, [slides and video are now available online](/Community/GalaxyAdmins/Meetups/2015_08_20).
+In case you missed it, [slides and video are now available online](/src/Community/GalaxyAdmins/Meetups/2015_08_20/index.md).
 
 [GalaxyAdmins](/Community/GalaxyAdmins) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  Our next meeting will be on [October 15](/Community/GalaxyAdmins/Meetups/2015_10_15) where [David Kovalic](https://www.linkedin.com/in/davidkovalic) of [Analome](http://analome.com) will present.  Hope to see you there.
 
@@ -293,9 +293,9 @@ The Galaxy is expanding! Please help it grow.
 
 * [Systems Administrator IV](http://bit.ly/1NTuOfw), [Fred Hutchinson Cancer Institute](http://fredhutch.org), Seattle, Washington, United States 
 * [Assistant Computational Scientist](http://bit.ly/1OLwPbW) at [VIB](http://www.vib.be/), Gent, Belgium 
-* **The [Galaxy Project is hiring software engineers and post-docs](/GalaxyIsHiring)**
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/GalaxyUpdates).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -303,7 +303,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[2 new publicly accessible Galaxy servers](/PublicGalaxyServers) were added in August.
+[2 new publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) were added in August.
 
 ## Workflow4Metabolomics
 
@@ -383,7 +383,7 @@ Two security vulnerabilities were recently discovered in Galaxy, and a third in 
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
  
  **CloudMan **
-   The [most recent edition of CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release) was released in August.
+   The [most recent edition of CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release) was released in August.
 
  **blend4j v0.1.2**
    [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and !BioCloudCentral.
@@ -409,9 +409,9 @@ Two security vulnerabilities were recently discovered in Galaxy, and a third in 
 
 <br />
 
-One new new **[Galaxy Training Network member](/Teach/Trainers)** was added in August:
+One new new **[Galaxy Training Network member](/src/Teach/Trainers/index.md)** was added in August:
 
-* **[University of Bradford, School of Medical Sciences, Krzysztof Poterlowicz](/Teach/Trainers#university-of-bradford-school-of-medical-sciences-krzysztof-poterlowicz)**
+* **[University of Bradford, School of Medical Sciences, Krzysztof Poterlowicz](/src/Teach/Trainers/index.md#university-of-bradford-school-of-medical-sciences-krzysztof-poterlowicz)**
     Krzysztof offers training in Assembly, RNAseq, ChIPseq, Hi-C, DNase-Seq, and Pathway enrichment.
 
 ---
@@ -419,7 +419,7 @@ One new new **[Galaxy Training Network member](/Teach/Trainers)** was added in A
 
 # ToolShed Contributions
 
-See [list of tools contributed in August](/ToolShed/Contributions/2015_08).
+See [list of tools contributed in August](/src/ToolShed/Contributions/2015_08/index.md).
 
 
 # Other News

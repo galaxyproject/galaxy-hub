@@ -8,8 +8,8 @@ title: RNAcommender
 
 
 <div class='dictbox'>
- Appliance:: **[RNAcommender](/VA/RNAcommender)**
- Technology:: **[Docker](/VirtualAppliances#docker-containers)**
+ Appliance:: **[RNAcommender](/src/VA/RNAcommender/index.md)**
+ Technology:: **[Docker](/src/VirtualAppliances/index.md#docker-containers)**
  Domains:: **RNA-protein interactions** 
  Description:: Genome-wide recommendation of RNA-protein interactions.
  Owners:: [Gianluca Corrado](https://scholar.google.com/citations?user=POZPkQgAAAAJ&hl=en), [Andrea Passerini](http://disi.unitn.it/~passerini/)

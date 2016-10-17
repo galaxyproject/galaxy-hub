@@ -10,7 +10,7 @@ Some of my key contributions to Galaxy include the following:
 * [Blend4j](https://github.com/jmchilton/blend4j) A Java client targeting the API.
 * [Galaxy Bootstrap](https://github.com/jmchilton/galaxy-bootstrap) A Java library for deploying and configuring Galaxy instances on the fly.
 * [Rewriting the Tool Testing Backend](http://dev.list.galaxyproject.org/Tool-Testing-Enhancements-tt4663799.html#a4663821)
-* [Assertion based functional testing](/Admin/Tools/ToolConfigSyntax#a3cassert_contents3e_tag_set_28functional_tests29). This allows tool writers to build tests iteratively that test specific properties of outputs for given inputs. This is meant as a stepping stone toward allowing test-driven development of Galaxy tool wrappers.
+* [Assertion based functional testing](/src/Admin/Tools/ToolConfigSyntax/index.md#a3cassert_contents3e_tag_set_28functional_tests29). This allows tool writers to build tests iteratively that test specific properties of outputs for given inputs. This is meant as a stepping stone toward allowing test-driven development of Galaxy tool wrappers.
 * [Job Metric Plugin Framework](https://bitbucket.org/galaxy/galaxy-central/pull-request/352)
 * [Tool Depednency Resolver Plugin Framework](https://bitbucket.org/galaxy/galaxy-central/pull-request/228/tool-dependency-resolver-plugins-revision)
 * [GALAXY_SLOTS](https://bitbucket.org/galaxy/galaxy-central/pull-request/236/job-runner-enhancements-galaxy_slots/diff)

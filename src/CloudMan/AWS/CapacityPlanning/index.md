@@ -11,7 +11,7 @@ PLACEHOLDER_INCLUDE(/CloudMan/Header)
 </table>
 
 
-This page offers advice on how much cloud infrastructure you will need to [run your Galaxy instance on Amazon Web Services (AWS)](/CloudMan/AWS).  See the [general capacity planning page](/CloudMan/CapacityPlanning) for advice that applies across different cloud infrastructures.
+This page offers advice on how much cloud infrastructure you will need to [run your Galaxy instance on Amazon Web Services (AWS)](/CloudMan/AWS).  See the [general capacity planning page](/src/CloudMan/CapacityPlanning/index.md) for advice that applies across different cloud infrastructures.
 
 <div class='right'></div> PLACEHOLDER_INCLUDE(/CloudMan/AWS/LinkBox)
 
@@ -189,7 +189,7 @@ Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use
 
 See also
 
-* [Reducing costs in Cloud Galaxy](http://dev.list.galaxyproject.org/Reducing-costs-in-Cloud-Galaxy-td4483448.html) thread, Galaxy-Dev [mailing list](/MailingLists), started 2012/03/18.
+* [Reducing costs in Cloud Galaxy](http://dev.list.galaxyproject.org/Reducing-costs-in-Cloud-Galaxy-td4483448.html) thread, Galaxy-Dev [mailing list](/src/MailingLists/index.md), started 2012/03/18.
 * The [CloudHarmony Benchmarks](http://cloudharmony.com/benchmarks) page
 
 ## How Much EBS?

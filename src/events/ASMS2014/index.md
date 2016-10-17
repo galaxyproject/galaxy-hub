@@ -8,7 +8,7 @@
 
 </div>
 
-Galaxy will again have a strong presence at the 2014 ASMS meeting.  This year it's in Baltimore, two weeks before [GCC2014](/Events/GCC2014).
+Galaxy will again have a strong presence at the 2014 ASMS meeting.  This year it's in Baltimore, two weeks before [GCC2014](/src/Events/GCC2014/index.md).
 
 <table>
   <tr class="th" >
