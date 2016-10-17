@@ -71,7 +71,6 @@ ms = metalsmith(__dirname)
         gfm: true
     .use require('metalsmith-autotoc')
         selector: "h2, h3, h4"
-    .use require('metalsmith-path')()
     .use require('metalsmith-alias')()
     .use require('metalsmith-filepath')
         absolute: true
