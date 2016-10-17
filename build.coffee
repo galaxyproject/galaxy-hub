@@ -30,15 +30,26 @@ clear_collections = (files, metalsmith, done) ->
 
 replacement_data = require("./src/includes.json")
 
+md_link_pattern = /\[.*?\]\((.*?)\)/g
 subs = (files, metalsmith, done) ->
     # Quick hack to temporarily handle INCLUDE migration
     for file, c of files
-        contents = files[file].contents.toString()
-        for z in replacement_data.subs
-            r = "PLACEHOLDER_INCLUDE("+z.search+")"
-            if contents.indexOf(r) != -1
-                contents = contents.replace(r, z.replace)
-        files[file].contents = contents
+        if file.endsWith('.md')
+            contents = files[file].contents.toString()
+            for z in replacement_data.subs
+                r = "PLACEHOLDER_INCLUDE("+z.search+")"
+                if contents.indexOf(r) != -1
+                    contents = contents.replace(r, z.replace)
+            matches = {}
+            while match = md_link_pattern.exec(contents)
+                rep = match[1]
+                #TODO: Do this with a regex too
+                if rep.startsWith('/src')
+                    rep = rep.substr(4)
+                if rep.endsWith('index.md')
+                    rep = rep.substr(0, rep.length-8)
+                contents = contents.replace("("+match[1]+")", "("+rep+")")
+            files[file].contents = contents
     done()
 
 ms = metalsmith(__dirname)
