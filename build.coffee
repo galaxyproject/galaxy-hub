@@ -11,9 +11,9 @@ bower = (files, metalsmith, done) ->
             contents = readFileSync(file)
             files["#{root}/#{basename(file)}"] =
                 contents: contents
-    #include('css', lib.self().ext('css').files)
+    include('css', bower_files.self().ext('css').files)
     include('js', bower_files.self().ext('js').files)
-    #include('fonts', lib.self().ext(['eot','otf','ttf','woff']).files)
+    include('fonts', bower_files.self().ext(['eot','otf','ttf','woff']).files)
     done()
 
 link_to_orig_path = (files, metalsmith, done) ->

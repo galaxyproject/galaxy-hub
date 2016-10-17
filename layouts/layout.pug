@@ -17,7 +17,8 @@ head( lang="en" )
     meta( name="description" content="" )
     meta( name="author" content="" )
 
-    link( rel="stylesheet" type="text/css" href="/styles/styles.css" )
+    link( rel="stylesheet" type="text/css" href="/css/styles.css" )
+    link( rel="stylesheet" type="text/css" href="/css/font-awesome.css" )
     link( rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=EB+Garamond" )
 
     script( src="http://localhost:35729/livereload.js" )
@@ -66,7 +67,8 @@ body
                             div.input-group
                                 input(class='form-control' placeholder='Search Galaxy')
                                 span.input-group-btn
-                                    button(class="btn btn-secondary" type="submit") Go!
+                                    button(class="btn btn-secondary" type="submit")
+                                        span.fa.fa-search
 
     div.container: div.row
         div.col-md-9
