@@ -46,8 +46,7 @@ subs = (files, metalsmith, done) ->
                 #TODO: Do this with a regex too
                 if rep.startsWith('/src')
                     rep = rep.substr(4)
-                if rep.endsWith('index.md')
-                    rep = rep.substr(0, rep.length-8)
+                rep = rep.replace('index.md', '')
                 contents = contents.replace("("+match[1]+")", "("+rep+")")
             files[file].contents = contents
     done()
