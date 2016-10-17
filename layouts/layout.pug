@@ -26,8 +26,6 @@ head( lang="en" )
 
 body
 
-    div#edit_page
-        a( href="https://github.com/dannon/test-galaxy-wiki/blob/master/src/"+orig_path class="fa fa-github" ) Edit on GitHub
     header#logonav: div.container: div.row
         div.col-sm-4.text-center: div.logo
             a( href="http://galaxyproject.org/" ) The Galaxy Project: Online bioinformatics analysis for everyone
@@ -35,6 +33,9 @@ body
             h1
                 div Community Wiki
                 small documenting all things Galaxy
+            div#edit_page
+                a( href="https://github.com/dannon/test-galaxy-wiki/blob/master/src/"+orig_path )
+                    span.fa.fa-github Edit on GitHub
 
     //- Static navbar
     div.container: div.row
