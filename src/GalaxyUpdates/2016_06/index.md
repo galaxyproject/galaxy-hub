@@ -32,7 +32,7 @@ If you have anything to include in the next News, please send it to [outreach AT
 <a href='https://gcc2016.iu.edu'><img src='/Images/Screenshots/GCC2016SchedHomeThumb.png' alt='2016 Galaxy Community Conference complete schedule' width="170" /></a>
 </div>
 
-[GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes [2 days of hackathons](https://gcc2016.iu.edu/hacks/index.php), [2 days of training](http://gcc16.sched.org/overview/type/D.x+Training+-+All), and [a two day meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All) featuring [accepted presentations and keynotes](http://gcc16.sched.org/overview/type/E.1+Conference+-+Talks), **[poster sessions](http://gcc16.sched.org/overview/type/E.2+Conference+-+Posters), the new [Visualization Showcase and Software Demo sessions](http://gcc16.sched.org/overview/type/E.3+Conference+-+Demos)**, [lightning talks](http://gcc16.sched.org/overview/type/E.5+Conference+-+Lightning), [birds-of-a-feather meetups](/Events/GCC2016/BoFs), and [plenty of networking](http://gcc16.sched.org/overview/type/B.+Networking+%26+Sustenance). 
+[GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes [2 days of hackathons](https://gcc2016.iu.edu/hacks/index.php), [2 days of training](http://gcc16.sched.org/overview/type/D.x+Training+-+All), and [a two day meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All) featuring [accepted presentations and keynotes](http://gcc16.sched.org/overview/type/E.1+Conference+-+Talks), **[poster sessions](http://gcc16.sched.org/overview/type/E.2+Conference+-+Posters), the new [Visualization Showcase and Software Demo sessions](http://gcc16.sched.org/overview/type/E.3+Conference+-+Demos)**, [lightning talks](http://gcc16.sched.org/overview/type/E.5+Conference+-+Lightning), [birds-of-a-feather meetups](/src/Events/GCC2016/BoFs/index.md), and [plenty of networking](http://gcc16.sched.org/overview/type/B.+Networking+%26+Sustenance). 
 
 ## Registration: June 4
 
@@ -99,7 +99,7 @@ Please welcome the **[Bloomington Life Sciences Partnership (BLSP)](http://bloom
 <div class='left'><a href='https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/'><img src='/Images/Logos/UCDavisGenomeCenter_Bioinf.png' alt='Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data' width="200" /></a>
 </div>
 
-The [UC Davis Bioinformatics Training Program](http://training.bioinformatics.ucdavis.edu/), a [GTN member](/Teach/Trainers#uc-davis-genome-centers-bioinformatics-core-facility), will be presenting the workshop **[Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data](https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/)** on June 13-17, at UC Davis in Davis, California, United States.  
+The [UC Davis Bioinformatics Training Program](http://training.bioinformatics.ucdavis.edu/), a [GTN member](/src/Teach/Trainers/index.md#uc-davis-genome-centers-bioinformatics-core-facility), will be presenting the workshop **[Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data](https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/)** on June 13-17, at UC Davis in Davis, California, United States.  
 
 This workshop will include a rich collection of lectures and hands-on sessions, covering both theory and tools. We will explore the basics of high throughput sequencing technologies, focusing on Illumina data for hands-on exercises. Participants will explore software and protocols, create and modify workflows, and diagnose/treat problematic data, utilizing computing power of the Amazon Cloud.
 
@@ -111,9 +111,9 @@ This workshop will include a rich collection of lectures and hands-on sessions, 
 <a href='/Community/GalaxyAdmins/Meetups/2016_06_16'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='16 June GalaxyAdmins Web Meetup' height="60" /></a>
 </div>
 
-There will be two [GalaxyAdmins](/Community/GalaxyAdmins) [meetups](/src/Community/GalaxyAdmins/Meetups/index.md) in June:
+There will be two [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) [meetups](/src/Community/GalaxyAdmins/Meetups/index.md) in June:
 
-1. **An [online meetup on June 16](/Community/GalaxyAdmins/Meetups/2016_06_16)** featuring   [Evan Bollig](https://www.msi.umn.edu/staff/evan) and [JJ Johnson](https://www.msi.umn.edu/staff/jj) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) speaking on *Galaxy in Production at the University of Minnesota*.  
+1. **An [online meetup on June 16](/src/Community/GalaxyAdmins/Meetups/2016_06_16/index.md)** featuring   [Evan Bollig](https://www.msi.umn.edu/staff/evan) and [JJ Johnson](https://www.msi.umn.edu/staff/jj) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) speaking on *Galaxy in Production at the University of Minnesota*.  
 
 1. **[An in person birds-of-a-feather meetup](http://sched.co/7KLn)** at [GCC2016](https://gcc2016.iu.edu/) in Bloomington, Indiana.
 
@@ -378,7 +378,7 @@ The Galaxy is expanding! Please help it grow.
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
 * [Postdoctoral Research Positions](https://chk.tbe.taleo.net/chk01/ats/careers/requisition.jsp?org=BCM&cws=42&rid=8453), Molecular and Cellular Biology Department at Baylor College of Medicine, Houston, Texas, United States 
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -398,9 +398,9 @@ No [new publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) w
 
 ## New Semi-Public Galaxy Servers Directory
 
-The [Semi-Public Galaxy Servers Directory](/SemiPublicGalaxyServers) lists Galaxy servers that aren't [fully publicly accessible](/src/PublicGalaxyServers/index.md), but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
+The [Semi-Public Galaxy Servers Directory](/src/SemiPublicGalaxyServers/index.md) lists Galaxy servers that aren't [fully publicly accessible](/src/PublicGalaxyServers/index.md), but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
 
-Servers are classified by whom they are accessible to.  This can be based on [research domain](/SemiPublicGalaxyServers#domain-based), [Geography Based|geography (regional or national)](/SemiPublicGalaxyServers), or by [membership in a multi-organization association](/src/SemiPublicGalaxyServers/index.md#association-based) that provides Galaxy Servers. 
+Servers are classified by whom they are accessible to.  This can be based on [research domain](/src/SemiPublicGalaxyServers/index.md#domain-based), [Geography Based|geography (regional or national)](/SemiPublicGalaxyServers), or by [membership in a multi-organization association](/src/SemiPublicGalaxyServers/index.md#association-based) that provides Galaxy Servers. 
 
 **To add your semi-public Galaxy server to this list**, please either just add it (hey, *it's a wiki*), or [describe the server here](https://docs.google.com/forms/d/14i8FNHB7pwXrXmhvUkxXTh2VKQ-2BKsnMubXsCZadjs/viewform) and we'll post it this directory.
 
@@ -556,7 +556,7 @@ Documentation can be found at [starforge.readthedocs.org](http://starforge.readt
 
 **!BioBlend 0.7.0**
 
-   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
 **blend4j v0.1.2**

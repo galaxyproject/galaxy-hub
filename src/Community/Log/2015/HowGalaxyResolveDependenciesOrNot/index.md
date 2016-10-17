@@ -17,7 +17,7 @@ title: 2015, /, 10, :,  , [How Galaxy resolves dependencies (or not)](http://pvh
 
 From the [introduction](http://pvh.wp.sanbi.ac.za/2015/10/09/how-galaxy-resolves-dependencies-or-not/):
 
- There are two parts to building a link between Galaxy and command line bioinformatics tools: the [tool XML](/Admin/Tools/ToolConfigSyntax) that specifies a mapping between the Galaxy web user interface and the tool command line and tool *dependencies* that specify how to source the actual packages that implement the tool’s commands. I spent a bit of time today digging into how that second set of components operates as part of my work on [SANBI](http://www.sanbi.ac.za/)‘s local Galaxy installation.
+ There are two parts to building a link between Galaxy and command line bioinformatics tools: the [tool XML](/src/Admin/Tools/ToolConfigSyntax/index.md) that specifies a mapping between the Galaxy web user interface and the tool command line and tool *dependencies* that specify how to source the actual packages that implement the tool’s commands. I spent a bit of time today digging into how that second set of components operates as part of my work on [SANBI](http://www.sanbi.ac.za/)‘s local Galaxy installation.
 
 See the [full blog entry](http://pvh.wp.sanbi.ac.za/2015/10/09/how-galaxy-resolves-dependencies-or-not/) for the details.
 

@@ -5,7 +5,7 @@
 
 ## Obtaining Reference Genome Data by Rsync
 
-This page will describe how to rsync the same exact data that is used on the public [Main](../../Main) **Galaxy** instance at [http://usegalaxy.org](http://usegalaxy.org) for use with a **[local](../../Admin/GetGalaxy)** or **[cloud](/src/Cloud/index.md)** **Galaxy** or an *external application*. The contents consist of reference genome sequence data, indexes used by tools, and the Galaxy-specific configuration files that make the data known to tools.
+This page will describe how to rsync the same exact data that is used on the public [Main](/src/Main/index.md) **Galaxy** instance at [http://usegalaxy.org](http://usegalaxy.org) for use with a **[local](../../Admin/GetGalaxy)** or **[cloud](/src/Cloud/index.md)** **Galaxy** or an *external application*. The contents consist of reference genome sequence data, indexes used by tools, and the Galaxy-specific configuration files that make the data known to tools.
 
 
 Examples file formats:

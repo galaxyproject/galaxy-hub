@@ -18,7 +18,7 @@ The **[May Galactic News](/src/GalaxyUpdates/2015_05/index.md)** brings lots of 
   * [Extend your trip](/src/GalaxyUpdates/2015_05/index.md#other-events-near-gcc2015) at nearby events.
   * [Sponsorships from GigaScience and ELIXIR](/src/GalaxyUpdates/2015_05/index.md#gcc2015-sponsorships)
 * [And, 20+ events over the next 3 months](/src/GalaxyUpdates/2015_05/index.md#other-events)
-* [New releases (Pulsar, Planemo)](/GalaxyUpdates/2015_05#releases) and [Tool Shed contributions](/src/GalaxyUpdates/2015_05/index.md#toolshed-contributions):
+* [New releases (Pulsar, Planemo)](/src/GalaxyUpdates/2015_05/index.md#releases) and [Tool Shed contributions](/src/GalaxyUpdates/2015_05/index.md#toolshed-contributions):
 * [66 new publications](/src/GalaxyUpdates/2015_05/index.md#new-papers)
 * [Who's Hiring](/src/GalaxyUpdates/2015_05/index.md#whos-hiring)
 * [The ReproGenomics Viewer](/src/GalaxyUpdates/2015_05/index.md#new-public-galaxy-server-the-reprogenomics-viewer)
@@ -26,7 +26,7 @@ The **[May Galactic News](/src/GalaxyUpdates/2015_05/index.md)** brings lots of 
 
 And, [other news](/src/GalaxyUpdates/2015_05/index.md#other-news) as well.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

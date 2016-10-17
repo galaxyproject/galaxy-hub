@@ -5,7 +5,7 @@ Preparing test for your Galaxy tool is easy. In short you include a sample input
 
 Everybody benefits from a good testing - the tool author ensures quality of tool, admins can easily separate good tools from bad tools and users use tools that are reliable. An examples below explains how to write a test. 
 
-Tests can be specified in the tool config file using `<tests>` and `test` tags (for more information see [ description of test configuration tags](../../../Admin/Tools/ToolConfigSyntax).  For example, the [cluster tool](https://github.com/galaxyproject/tools-devteam/blob/master/tool_collections/gops/cluster/cluster.xml) specifies the following tests:
+Tests can be specified in the tool config file using `<tests>` and `test` tags (for more information see [ description of test configuration tags](/src/Admin/Tools/ToolConfigSyntax/index.md).  For example, the [cluster tool](https://github.com/galaxyproject/tools-devteam/blob/master/tool_collections/gops/cluster/cluster.xml) specifies the following tests:
 
 ```xml
   <tests>

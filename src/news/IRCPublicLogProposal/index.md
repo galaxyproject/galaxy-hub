@@ -17,7 +17,7 @@ Starting sometime after community discussion ends (and assuming that discussion 
 
 1. At least two weeks before the change:
   1. Warnings will be added to the IRC channel information and on the wiki, that the log will be publicly archived as of the given start date.
-  1. The policy change will be announced on [Galaxy Biostar](/Support/Biostar) and the Galaxy-Dev and Galaxy-Announce [mailing lists](/src/MailingLists/index.md).<br /><br />
+  1. The policy change will be announced on [Galaxy Biostar](/src/Support/Biostar/index.md) and the Galaxy-Dev and Galaxy-Announce [mailing lists](/src/MailingLists/index.md).<br /><br />
 1. On the launch date
   1. The IRC channel (and the wiki) will be updated to clearly state that the IRC channel is publicly logged.
   1. Announcements of the change will be posted to Biostar and the mailing lists.
@@ -26,7 +26,7 @@ Starting sometime after community discussion ends (and assuming that discussion 
 
 **Why now?**
 
-The project's IRC channel came up at the [GalaxyAdmins BoF meetup](/Events/GCC2014/BoFs/GalaxyAdmins) at [GCC2014](/src/Events/GCC2014/index.md), where it was lauded as both a great resource, *and cursed because it is not archived anywhere.*  An action item from that meetup is to propose this change.
+The project's IRC channel came up at the [GalaxyAdmins BoF meetup](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md) at [GCC2014](/src/Events/GCC2014/index.md), where it was lauded as both a great resource, *and cursed because it is not archived anywhere.*  An action item from that meetup is to propose this change.
 
 The [Galaxy Team](/src/GalaxyTeam/index.md)
 

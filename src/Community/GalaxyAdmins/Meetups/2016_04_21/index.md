@@ -42,7 +42,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 The app has been in development for over a year at the University of Oslo as part of [Claus Børnich's masters thesis](https://www.duo.uio.no/handle/10852/44701) and is described in 
 
-  Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/Marten), and Geir Kjetil Sandve. [Galaxy Portal: Interacting with the Galaxy platform through mobile devices](http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw042.abstract). *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
+  Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/src/Marten/index.md), and Geir Kjetil Sandve. [Galaxy Portal: Interacting with the Galaxy platform through mobile devices](http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw042.abstract). *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
 
 A [user manual](https://github.com/Tarostar/QMLGalaxyPortal/raw/master/GalaxyPortalUserGuide.pdf), additional information, and the full source are [available on GitHub](https://github.com/Tarostar/QMLGalaxyPortal).
 
@@ -51,7 +51,7 @@ Galaxy Portal is provided free of charge.
 
 ## Tool Development Developments
 
-[Galaxy Team](/GalaxyTeam) member [John Chilton](/src/JohnChilton/index.md) will discuss recent  tool development developments including Conda, tool version profiles, and Planemo enhancements.
+[Galaxy Team](/src/GalaxyTeam/index.md) member [John Chilton](/src/JohnChilton/index.md) will discuss recent  tool development developments including Conda, tool version profiles, and Planemo enhancements.
 
 ## Call Technology
 

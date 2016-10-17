@@ -5,7 +5,7 @@ date: 2016-04-07T01:04:32Z
 
 The [codefest](https://github.com/galaxyproject/tools-iuc/issues/700) started via hangouts at 10am EDT on Monday April 4, with around 8 participants. It was designed to be beginner friendly, which increased contribution from the community. 4 members of the galaxy community were [added as contributors](https://github.com/bioconda/bioconda-recipes/issues/1#issuecomment-205241333) to the [bioconda-recipe repository](https://github.com/bioconda/bioconda-recipes) as a result of this hackathon.
 
-The codefest started with [Björn Grüning](/BjoernGruening) giving a small introduction to [Conda](http://conda.pydata.org/docs/) and its channel [Bioconda](https://bioconda.github.io/). Followed by how to create a new Conda recipe and the scripts involved in it. Members of the hack started by then picking up a simple tool and creating a Pull request against both the [Tools-IUC](https://github.com/galaxyproject/tools-iuc) and [bioconda-recipes](https://github.com/bioconda/bioconda-recipes) repositories on !GitHub.
+The codefest started with [Björn Grüning](/src/BjoernGruening/index.md) giving a small introduction to [Conda](http://conda.pydata.org/docs/) and its channel [Bioconda](https://bioconda.github.io/). Followed by how to create a new Conda recipe and the scripts involved in it. Members of the hack started by then picking up a simple tool and creating a Pull request against both the [Tools-IUC](https://github.com/galaxyproject/tools-iuc) and [bioconda-recipes](https://github.com/bioconda/bioconda-recipes) repositories on !GitHub.
 
 The main aim of the codefest was to get community members familiar with the Conda-Galaxy integration, and to remove tools from testing blacklist (shown below).
 
@@ -39,7 +39,7 @@ Infrastructure:
 
 Thanks to everyone who participated!
 
-[Rémi Marenco](/RemiMarenco). [Nitesh Turaga](/NiteshTuraga), and [Björn Grüning](/src/BjoernGruening/index.md)
+[Rémi Marenco](/src/RemiMarenco/index.md). [Nitesh Turaga](/NiteshTuraga), and [Björn Grüning](/src/BjoernGruening/index.md)
 
 
 CategoryNews

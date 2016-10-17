@@ -3,7 +3,7 @@
 
 **Workshops for the Johns Hopkins community
 
-Instructors: [Dave Clements](/DaveClements), [Mo Heydarian](http://epigenetics.jhu.edu/?section=personnelPages&personID=26)
+Instructors: [Dave Clements](/src/DaveClements/index.md), [Mo Heydarian](http://epigenetics.jhu.edu/?section=personnelPages&personID=26)
 
 9:00am-4:30pm<br />
 Rangos 490<br />

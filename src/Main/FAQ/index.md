@@ -6,7 +6,7 @@ PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
 
 
  
-Questions specifically about Galaxy's [free public server](/Main).  See [/Learn/FAQ](/src/Learn/FAQ/index.md) for questions that apply to any Galaxy instance.
+Questions specifically about Galaxy's [free public server](/src/Main/index.md).  See [/Learn/FAQ](/src/Learn/FAQ/index.md) for questions that apply to any Galaxy instance.
 
 
  

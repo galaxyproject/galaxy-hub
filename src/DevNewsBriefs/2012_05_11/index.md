@@ -194,19 +194,19 @@ Tools using the process described at '[/Admin/Tools/MultipleOutputFiles](/src/Ad
 
 <br />
 # Announcements
-[/News](/News), *[May 2012 Galaxy Update](/src/GalaxyUpdates/2012_05/index.md)*
+[/News](/src/News/index.md), *[May 2012 Galaxy Update](/src/GalaxyUpdates/2012_05/index.md)*
 
 ## GCC2012 Update
 <div class='right'><a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="100" /></a></div>
 
-The [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) will be held July 25-27, in Chicago. The conference will feature two full days of presentations and discussions, and a [whole day of training](/src/Events/GCC2012/TrainingDay/index.md) has been added this year.
+The [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) will be held July 25-27, in Chicago. The conference will feature two full days of presentations and discussions, and a [whole day of training](/src/Events/GCC2012/TrainingDay/index.md) has been added this year.
 
 **Early [registration is now open](/src/Events/GCC2012/Register/index.md) and will close June 11.**  Early registration is very affordable, especially for post-docs and students.
 
 ### Training Day: Help Set the Agenda
 <div class='right'><a href='/Events/GCC2012/TrainingDay'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' width="130" /></a></div>
 
-The [GCC2012 Training Day](/Events/GCC2012/TrainingDay) needs your help! Training Day offers 90 minute training sessions in three parallel tracks throughout the day for a total of 12 sessions. We need your input on how to best allocate those sessions to topics. Please **[take a few minutes to indicate your top choices](https://docs.google.com/spreadsheet/viewform?formkey=dHBIRVB6cEhpTWpGN1pXSjhGdGR0aVE6MQ#gid=0)** for what you would like to see covered on the GCC2012 Training Day. 
+The [GCC2012 Training Day](/src/Events/GCC2012/TrainingDay/index.md) needs your help! Training Day offers 90 minute training sessions in three parallel tracks throughout the day for a total of 12 sessions. We need your input on how to best allocate those sessions to topics. Please **[take a few minutes to indicate your top choices](https://docs.google.com/spreadsheet/viewform?formkey=dHBIRVB6cEhpTWpGN1pXSjhGdGR0aVE6MQ#gid=0)** for what you would like to see covered on the GCC2012 Training Day. 
 
 <br />
 <br />

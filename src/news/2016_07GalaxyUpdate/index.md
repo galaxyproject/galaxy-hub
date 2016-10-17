@@ -26,14 +26,14 @@ Some highlights from the **[July Galaxy News](/src/GalaxyUpdates/2016_07/index.m
   * [Other Upcoming Events](/src/GalaxyUpdates/2016_07/index.md#upcoming-events)
 * [82 new Papers](/src/GalaxyUpdates/2016_07/index.md#new-papers)
 * [Open positions](/src/GalaxyUpdates/2016_07/index.md#whos-hiring)
-* New [public](/GalaxyUpdates/2016_07#new-public-galaxy-servers) and [semi-public](/src/GalaxyUpdates/2016_07/index.md#semi-public-galaxy-servers) Galaxy servers
+* New [public](/src/GalaxyUpdates/2016_07/index.md#new-public-galaxy-servers) and [semi-public](/src/GalaxyUpdates/2016_07/index.md#semi-public-galaxy-servers) Galaxy servers
 * A new [community log board entry](/src/GalaxyUpdates/2016_07/index.md#galaxy-community-hubs)
-* New [Releases](/GalaxyUpdates/2016_07#releases): [blend4php](/GalaxyUpdates/2016_07#blend4php-01-alpha), [Planemo](/GalaxyUpdates/2016_07#planemo-0270), and [galaxy-lib](/src/GalaxyUpdates/2016_07/index.md#galaxy-lib-1678---1679)
+* New [Releases](/src/GalaxyUpdates/2016_07/index.md#releases): [blend4php](/GalaxyUpdates/2016_07#blend4php-01-alpha), [Planemo](/GalaxyUpdates/2016_07#planemo-0270), and [galaxy-lib](/src/GalaxyUpdates/2016_07/index.md#galaxy-lib-1678---1679)
 * And [other news](/src/GalaxyUpdates/2016_07/index.md#other-news) too.
 
 Hope to [see you in Montpellier](/src/GalaxyUpdates/2016_07/index.md#gcc2017-26-30-june-2017-montpellier-france)!
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

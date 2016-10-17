@@ -8,7 +8,7 @@ title: February 2013 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the February 2013 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the February 2013 edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -99,7 +99,7 @@ The Galaxy is expanding! Please help it grow.
 * [Offre de stage M2 PRO](http://bit.ly/114Xd9p), [Mathématique, Informatique et Génome (MIG)](http://mig.jouy.inra.fr/) est une unité de l'INRA de Jouy-en-Josas
 * [Engineer position in bioinformatics: structural polymorphism analysis from NGS data](http://bit.ly/TEQvzd) @ [UMR de Génétique Végétale, INRA-Université Paris Sud-CNRS](http://moulon.inra.fr/index.php/fr/equipestransversales/atelier-de-bioinformatique)
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 
 ## GCC2013
@@ -110,34 +110,34 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
 
-Thanks to everyone who [nominated topics](/Events/GCC2013/TrainingDay#topics) for the [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013) [Training Day](/Events/GCC2013/TrainingDay).  These nominations were compiled into a ballot which **[you can vote on until 11 February](http://bit.ly/gcc2013tdpoll)**.  If you might attend the GCC2013 Training Day then please [review the possible topics](/Events/GCC2013/TrainingDay#topics) and then [vote for your top 3 choices](http://bit.ly/gcc2013tdpoll).  Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.
+Thanks to everyone who [nominated topics](/src/Events/GCC2013/TrainingDay/index.md#topics) for the [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013) [Training Day](/Events/GCC2013/TrainingDay).  These nominations were compiled into a ballot which **[you can vote on until 11 February](http://bit.ly/gcc2013tdpoll)**.  If you might attend the GCC2013 Training Day then please [review the possible topics](/src/Events/GCC2013/TrainingDay/index.md#topics) and then [vote for your top 3 choices](http://bit.ly/gcc2013tdpoll).  Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.
 
 **About the [GCC2013 Training Day](/src/Events/GCC2013/TrainingDay/index.md):**
 
-The [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013) will start on 30 June with a [Training Day](/src/Events/GCC2013/TrainingDay/index.md) featuring 4 parallel tracks, each with three workshops (each of which are two hours long) for a total of twelve sessions. There will be at least one complete track (3 consecutive workshops) about using Galaxy for biological research, and at least one full track on deploying and managing Galaxy instances.
+The [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/index.md) will start on 30 June with a [Training Day](/src/Events/GCC2013/TrainingDay/index.md) featuring 4 parallel tracks, each with three workshops (each of which are two hours long) for a total of twelve sessions. There will be at least one complete track (3 consecutive workshops) about using Galaxy for biological research, and at least one full track on deploying and managing Galaxy instances.
 [GCC2013](/src/Events/GCC2013/index.md) will start on 30 June with a Training Day featuring 4 parallel tracks, each with three, two hour workshops, for a total of twelve sessions.
 
-Once voting [closes on 11 February](/Events/GCC2013/KeyDates), we will contact possible instructors and publish a Training Day schedule before [registration opens on 22 February](/src/Events/GCC2013/Register/index.md).
+Once voting [closes on 11 February](/src/Events/GCC2013/KeyDates/index.md), we will contact possible instructors and publish a Training Day schedule before [registration opens on 22 February](/src/Events/GCC2013/Register/index.md).
 
 ### Registration, Talk & Poster Submission Opens 22 February
 
-[Early Registration](/Events/GCC2013/Register), and [talk and poster abstract submission](/Events/GCC2013/Abstracts) all [open 22 February](/src/Events/GCC2013/KeyDates/index.md).  Watch the mailing lists and this wiki for details.
+[Early Registration](/src/Events/GCC2013/Register/index.md), and [talk and poster abstract submission](/Events/GCC2013/Abstracts) all [open 22 February](/src/Events/GCC2013/KeyDates/index.md).  Watch the mailing lists and this wiki for details.
 
 ### Sponsorships
 
 <div class='right'><a href='http://www.gigasciencejournal.com/'><img src='/Images/Logos/GigaScienceLogo250.png' alt='GigaScience Journal' width="150" /></a></div>
 
-In addition to the sponsors that we [announced in January](/GalaxyUpdates/2013_01#sponsorships), we are pleased to announce that [GigaScience Journal](http://www.gigasciencejournal.com/), a [BioMed Central](http://www.biomedcentral.com/) open access journal, is a Silver Sponsor of GCC2013.
+In addition to the sponsors that we [announced in January](/src/GalaxyUpdates/2013_01/index.md#sponsorships), we are pleased to announce that [GigaScience Journal](http://www.gigasciencejournal.com/), a [BioMed Central](http://www.biomedcentral.com/) open access journal, is a Silver Sponsor of GCC2013.
 
 Two companies have also stepped forward to be the sole Platinum Sponsor and one of the two Gold Sponsors.  We hope to announce them later this month.
 
-There are still several [sponsorships](/Events/GCC2013/Sponsorships) still available. Please contact the [Organizers](/src/Events/GCC2013/Organizers/index.md) if your organization would like to help sponsor this event. 
+There are still several [sponsorships](/src/Events/GCC2013/Sponsorships/index.md) still available. Please contact the [Organizers](/src/Events/GCC2013/Organizers/index.md) if your organization would like to help sponsor this event. 
 
 ## January GalaxyAdmins Web Meetup
 
 <div class='right'><a href='/Community/GalaxyAdmins/Meetups/2013_01_16'><img src='/Images/Logos/GalaxyAdmins.png' alt='January Galaxy Admins Web Meetup' height="70" /></a></div>
 
-A [GalaxyAdmins Meetup](/Community/GalaxyAdmins/Meetups/2013_01_16) was held on January 16, 2013.  [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) presented "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."  Greg Von Kuster of the [Galaxy Team](/src/GalaxyTeam/index.md) gave an update on recent Tool Shed enhancements.  Slides and a screencast are now available.
+A [GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) was held on January 16, 2013.  [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) presented "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."  Greg Von Kuster of the [Galaxy Team](/src/GalaxyTeam/index.md) gave an update on recent Tool Shed enhancements.  Slides and a screencast are now available.
 
 The next [GalaxyAdmins meetup](/src/Community/GalaxyAdmins/index.md) will be Wednesday, March 20th
 
@@ -244,8 +244,8 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 <br />
 <br />
 * XML defined [Tool shed repository dependencies](/src/DefiningRepositoryDependencies/index.md) introduced
-* [Various enhancements](/DevNewsBriefs/2013_01_11#other_tool_shed) to [Tool shed](/Tool Shed) containers, display of README files and SVG images, and the tool shed's [functional test framework](/src/ToolShed/HostingALocalToolShed/index.md#functional_test_framework_for_the_tool_shed).
-* [New genomes](/DevNewsBriefs/2013_01_11#data) added to **[Main](/src/Main/index.md)** Galaxy instance and rsync download.
+* [Various enhancements](/src/DevNewsBriefs/2013_01_11/index.md#other_tool_shed) to [Tool shed](/Tool Shed) containers, display of README files and SVG images, and the tool shed's [functional test framework](/src/ToolShed/HostingALocalToolShed/index.md#functional_test_framework_for_the_tool_shed).
+* [New genomes](/src/DevNewsBriefs/2013_01_11/index.md#data) added to **[Main](/src/Main/index.md)** Galaxy instance and rsync download.
 * Plus bug fixes and related enhancements for visualizations, histories, workflows, and tools.
 
 **[http://getgalaxy.org](http://getgalaxy.org)**

@@ -13,7 +13,7 @@ We are inviting Galaxy power end-users as well as scientists and bioinformatics 
 
 Questions, Feedback, or Hack idea? **[Post here](https://biostar.usegalaxy.org/p/12106/)** or [gcc2015-data-org@lists.galaxyproject.org](contact the Data Hack Organizers).
 
-[Jennifer Hillman Jackson](/JenniferJackson) and the [Data Wrangling Hackathon Organising Committee](http://gcc2015.tsl.ac.uk/organisers/#Data_Wrangling_Hackathon_Committee)
+[Jennifer Hillman Jackson](/src/JenniferJackson/index.md) and the [Data Wrangling Hackathon Organising Committee](http://gcc2015.tsl.ac.uk/organisers/#Data_Wrangling_Hackathon_Committee)
 
 
 CategoryNews

@@ -18,9 +18,9 @@ title: [Galaxy NGS 101](/src/Learn/GalaxyNGS101/index.md)
  Date:: 2015/06 
 </div>
 
-This [set of exercises](/Learn/GalaxyNGS101) is designed to serve as a comprehensive resource describing manipulation and analysis of NGS data. While it is designed to highlight the utility of Galaxy it will also provide information that is broadly applicable and can be used for teaching of big data biology. It is accompanied by a collection of [screencasts](https://vimeo.com/channels/884356).
+This [set of exercises](/src/Learn/GalaxyNGS101/index.md) is designed to serve as a comprehensive resource describing manipulation and analysis of NGS data. While it is designed to highlight the utility of Galaxy it will also provide information that is broadly applicable and can be used for teaching of big data biology. It is accompanied by a collection of [screencasts](https://vimeo.com/channels/884356).
 
-The new [Galaxy NGS 101 Tutorial](/Learn/GalaxyNGS101) was published this spring and introduces a wide range of topics related to analyzing next generation sequencing data with Galaxy.  We are happy to announce that [videos to accompany this tutorial are now online as well](https://vimeo.com/album/3456159).  The 20 videos cover:
+The new [Galaxy NGS 101 Tutorial](/src/Learn/GalaxyNGS101/index.md) was published this spring and introduces a wide range of topics related to analyzing next generation sequencing data with Galaxy.  We are happy to announce that [videos to accompany this tutorial are now online as well](https://vimeo.com/album/3456159).  The 20 videos cover:
 
 1. [Uploading data from your computer](https://vimeo.com/album/3456159/video/120901536)
 1. [Uploading data from FTP](https://vimeo.com/album/3456159/video/120972739)

@@ -15,9 +15,9 @@ title: Publicly Accessible Galaxy Servers
 </div>
 
 
-**The Galaxy Project's public server ([UseGalaxy.org](http://usegalaxy.org/), *[/Main](/Main)*)** can meet many needs, but it is not suitable for everything (see [Choices](/src/BigPicture/Choices/index.md) for why) and cannot possibly scale to meet the entire world's needs.
+**The Galaxy Project's public server ([UseGalaxy.org](http://usegalaxy.org/), *[/Main](/src/Main/index.md)*)** can meet many needs, but it is not suitable for everything (see [Choices](/src/BigPicture/Choices/index.md) for why) and cannot possibly scale to meet the entire world's needs.
 
-Fortunately the Galaxy [/Community](/Community) is helping out by [installing Galaxy](/src/Admin/GetGalaxy/index.md) at their institutions and then making those installations either publicly available or open to their organizations or community. This page lists publicly accessible Galaxy servers.  To be included here a server must be accessible to any academic researcher anywhere in the world.  Servers can require logins and enforce quotas.
+Fortunately the Galaxy [/Community](/src/Community/index.md) is helping out by [installing Galaxy](/src/Admin/GetGalaxy/index.md) at their institutions and then making those installations either publicly available or open to their organizations or community. This page lists publicly accessible Galaxy servers.  To be included here a server must be accessible to any academic researcher anywhere in the world.  Servers can require logins and enforce quotas.
 
 **To add your public Galaxy server to this list**, please either just add it (hey, *it's a wiki*), or [describe the server here](https://docs.google.com/forms/d/1KBkyhAPpgJLanRWBoIHmwtEJELDUifZLUixfoqZXXU4/viewform?usp=send_form) and we'll post it this directory.
 
@@ -35,8 +35,8 @@ These servers implement a broad range of tools and and aren't specific to any pa
 
 * *Links:*
   * **[Andromeda server](http://galaxy.nbic.nl/)**
-  * Andromeda was the featured topic at the [March 2013 GalaxyAdmins Meetup](/Community/GalaxyAdmins/Meetups/2013_03_20).  Includes [slides](ATTACHMENT_URLCommunity/GalaxyAdmins/Meetups/2013_03_20/20130320Andromeda.pdf) and [video](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262344508128_1363788090133).
-  * [GCC2013](/Events/GCC2013) [Poster](/Events/GCC2013/Abstracts/Posters#p22-andromeda-nbic-galaxy-at-surfsaras-hpc-cloud) and [Lightning talk](/src/Events/GCC2013/Lightning/index.md#andromeda-nbic-galaxy-at-surfsaras-hpc-cloud): *Andromeda: NBIC Galaxy at Surfsara's HPC cloud* 
+  * Andromeda was the featured topic at the [March 2013 GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md).  Includes [slides](ATTACHMENT_URLCommunity/GalaxyAdmins/Meetups/2013_03_20/20130320Andromeda.pdf) and [video](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262344508128_1363788090133).
+  * [GCC2013](/src/Events/GCC2013/index.md) [Poster](/Events/GCC2013/Abstracts/Posters#p22-andromeda-nbic-galaxy-at-surfsaras-hpc-cloud) and [Lightning talk](/src/Events/GCC2013/Lightning/index.md#andromeda-nbic-galaxy-at-surfsaras-hpc-cloud): *Andromeda: NBIC Galaxy at Surfsara's HPC cloud* 
 
 * *Domain/Purpose:*
   * This is a fully populated Galaxy instance. 
@@ -210,7 +210,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *Link:*
   * [Galaxy Test](https://test.galaxyproject.org/)
 * *Domain/Purpose:*
-  * [Beta version](/Test) of Galaxy [/Main](/src/Main/index.md)
+  * [Beta version](/src/Test/index.md) of Galaxy [/Main](/src/Main/index.md)
 * *Comments:*
   * Not stable or persistent.  See [/Test](/src/Test/index.md) for more.
 * *User Support:*
@@ -736,7 +736,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Domain/Purpose:* 
   * A Galaxy based web server for microbiology. [Orione](http://orione.crs4.it/) includes all post mapping or assembling steps from scaffolding to complete annotation pipelines.
 * *Comments:*
-  * From the [GCC2013](/Events/GCC2013) poster "[Engaging Galaxy in Microbiology](/src/Events/GCC2013/Abstracts/Posters/index.md#p7-engaging-galaxy-in-microbiology)"
+  * From the [GCC2013](/src/Events/GCC2013/index.md) poster "[Engaging Galaxy in Microbiology](/src/Events/GCC2013/Abstracts/Posters/index.md#p7-engaging-galaxy-in-microbiology)"
       We started on selecting the relevant software in the microbiology area, developing then all the necessary tools to integrate them into the Galaxy ecosystem. In addition to that, we made available several specialized workflows covering major applications such as bacterial resequencing, de novo assembly, scaffolding, bacterial RNA-seq, gene annotation and metagenomics. Orione provides additional capabilities to perform integrative, reproducible and transparent bioinformatic data analysis in microbiology thus expanding the constellation of specialized Galaxy based web servers as [Nebula](#nebula), [Cistrome](#cistrome) and several others.
 * *User Support:*
   * [galaxyadmin AT crs4 DOT it](email)
@@ -843,7 +843,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * From "[Database resources for the tuberculosis community](http://www.sciencedirect.com/science/article/pii/S147297921200203X)" by Lew *et al.*<div class='indent'>[Pathogen Portal](http://www.pathogenportal.org) supports comparative analysis of host response to pathogens. It provides an RNA-Seq pipeline to characterize the transcriptome of all NIAID Bioinformatic Resource Center (BRC) pathogens and their key hosts. It can analyze transcriptome data for genomes stored at [EuPathDB](http://www.eupathdb.org/), [PATRIC](http://www.patricbrc.org/), and [VectorBase](http://www.vectorbase.org/). The pipeline is built on Galaxy. Galaxy has been modified to simplify RNA-Seq analysis for *informatics-naïve, biologically focused* users and provide a guided experience to quality control of read data, read mapping, assembling transcripts, estimating gene expression values, and doing differential expression analysis.</div>
 * *Comments:*
   * Map your RNA-Seq Reads to Reference Genomes: Align your Illumina fastQ reads (gzipped fastQ files accepted) against any sequenced genome from [EuPathDB](http://www.eupathdb.org/), [PATRIC](http://www.patricbrc.org/), and [VectorBase](http://www.vectorbase.org/). <br />Estimate Gene Expression Values: Obtain BAM files for the resulting alignments and FPKM expression values for annotated genes and novel transcripts. <br />
-  * The [RNA-Rocket](http://rnaseq.pathogenportal.org/) implementation was also covered by Andrew Warren at the [May 2013 GalaxyAdmins meetup](/Community/GalaxyAdmins/Meetups/2013_05_15). A [Screencast](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262346908659_1368628622535) and the [slides](ATTACHMENT_URLCommunity/GalaxyAdmins/Meetups/2013_05_15/201305PathogenPortalSlides.pdf) are both available.
+  * The [RNA-Rocket](http://rnaseq.pathogenportal.org/) implementation was also covered by Andrew Warren at the [May 2013 GalaxyAdmins meetup](/src/Community/GalaxyAdmins/Meetups/2013_05_15/index.md). A [Screencast](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262346908659_1368628622535) and the [slides](ATTACHMENT_URLCommunity/GalaxyAdmins/Meetups/2013_05_15/201305PathogenPortalSlides.pdf) are both available.
 * *User Support:*
 * *Quotas:* 
   * Need to create a login 
@@ -1212,7 +1212,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
   * [deepTools home page at GitHub](http://deeptools.github.io/)
   * Fidel Ramírez, Devon P Ryan, Björn Grüning, Vivek Bhardwaj, Fabian Kilpert, Andreas S Richter, Steffen Heyne, Friederike Dündar and Thomas Manke, [deepTools2: a next generation web server for deep-sequencing data analysis](http://nar.oxfordjournals.org/content/early/2016/04/12/nar.gkw257.long), *Nucl. Acids Res.* (2016) doi: 10.1093/nar/gkw257
   * Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, and Thomas Manke. [deepTools: a flexible platform for exploring deep-sequencing data](http://nar.oxfordjournals.org/cgi/content/abstract/gku365) *Nucl. Acids Res.* first published online May 5, 2014 doi:10.1093/nar/gku365
-  * *[deepTools: a flexible platform for exploring deep-sequencing data](/Events/GCC2014/Abstracts/Talks#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/src/Events/GCC2014/index.md)
+  * *[deepTools: a flexible platform for exploring deep-sequencing data](/src/Events/GCC2014/Abstracts/Talks/index.md#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/src/Events/GCC2014/index.md)
   * [deepTools deployment description](/src/Community/Deployment/deepTools/index.md)
 * *Domain/Purpose:* 
   * deepTools is a suite of user-friendly tools for the visualization, quality control and normalization of data from high-throughput DNA sequencing experiments.
@@ -1356,7 +1356,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 * *Link:*
   * [kmer-SVM server](http://kmersvm.beerlab.org/)
-  * [Deployment page](/Community/Deployment/kmer-SVM) in the [Galaxy Deployment Catalog](/src/Community/Deployments/index.md)
+  * [Deployment page](/src/Community/Deployment/kmer-SVM/index.md) in the [Galaxy Deployment Catalog](/src/Community/Deployments/index.md)
 * *Domain/Purpose:*
   * kmer-SVM is "a tool suite designed to aid in analysis of next-generation sequencing (NGS) data. Our suite uses a support vector machine (SVM) with kmer sequence features to identify predictive combinations of short transcription factor binding sites which determine the tissue specificity of the original NGS assay. Information gained from kmer-SVM can be used as an additional source of confidence in genomic experiments by recovering known binding sites, and can also reveal novel sequence features and possible cooperative mechanisms to be tested experimentally."
 * *Comments:*
@@ -1823,7 +1823,7 @@ doi: 10.1093/bioinformatics/btw136
 
 * *Links:*
   * [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de/)
-  * [Deployment page](/Community/Deployment/ZBIT_Bioinformatics_Toolbox) in the [Galaxy Deployment Catalog](/src/Community/Deployments/index.md)
+  * [Deployment page](/src/Community/Deployment/ZBIT_Bioinformatics_Toolbox/index.md) in the [Galaxy Deployment Catalog](/src/Community/Deployments/index.md)
 * *Domain/Purpose:*
   * "This customized version of the Galaxy webservice framework was set up to allow the public access of our bioinformatics tools. These tools were developed and implemented by members of the [Department of Cognitive Systems](http://www.cogsys.cs.uni-tuebingen.de/) at the [University of Tübingen](http://www.uni-tuebingen.de/)."
 * *Comments:*

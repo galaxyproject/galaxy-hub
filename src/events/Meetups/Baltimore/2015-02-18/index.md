@@ -12,7 +12,7 @@ Hey Everyone,
 
 We are looking forward to a [follow-up Meetup](https://wiki.galaxyproject.org/Events/Meetups/Baltimore/2015-01-22) by the [Galaxy Project](http://galaxyproject.org)! We will meet at one of the Galaxy project hubs - the Department of Biology of Johns Hopkins University. This time around, we will briefly take a look at how to get started using Galaxy. Again, this will be an informal meeting open to anyone interested in data analysis, tools, computer infrastructure, programming.
 
-[Enis Afgan](/EnisAfgan) and [Nitesh Turaga](/NiteshTuraga) of the [Galaxy team](/src/GalaxyTeam/index.md) will be delivering a short introduction to the resources available to start using the Galaxy application from a practitioner's viewpoint (and will be available for any additional questions). 
+[Enis Afgan](/src/EnisAfgan/index.md) and [Nitesh Turaga](/NiteshTuraga) of the [Galaxy team](/src/GalaxyTeam/index.md) will be delivering a short introduction to the resources available to start using the Galaxy application from a practitioner's viewpoint (and will be available for any additional questions). 
 
 Thanks and hope to see you there!
 

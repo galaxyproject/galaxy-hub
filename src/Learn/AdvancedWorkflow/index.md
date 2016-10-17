@@ -13,13 +13,13 @@ PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 * Workflow can be reused over and over, not only reducing tedious work, but enhancing reproducibility by applying the same exact methods to all of your data.
 * Workflows can be executed on multiple streams of input data in a single pass with the output results sent to new, distinct, result histories. 
 * Workflow intermediate and final output datasets can be custom labeled, hidden or shown in default view, have post-job actions applied, and other advanced options executed.
-* Workflows can be executed using the API (including workflows that exist on the public [/Main](/Main) server). Your account's API Key is generated/stored under *User -> API Keys*. Learn more about the **[API...](/src/Learn/API/index.md)**
+* Workflows can be executed using the API (including workflows that exist on the public [/Main](/src/Main/index.md) server). Your account's API Key is generated/stored under *User -> API Keys*. Learn more about the **[API...](/src/Learn/API/index.md)**
 * Check the usage information on other [public Galaxy servers](/src/PublicGalaxyServers/index.md) to see if they support API access.
 
 ## Learn from an example
 </div> ![workflow editor](/src/Images/Learn/workflow_edit_peek.png) <br />*workflow editor with expanded **edit menu***</div>
 <br />
-* Choose a workflow from **[Main's](/Main) Published Workflows [https://usegalaxy.org/workflow/list_published](https://usegalaxy.org/workflow/list_published)**
+* Choose a workflow from **[Main's](/src/Main/index.md) Published Workflows [https://usegalaxy.org/workflow/list_published](https://usegalaxy.org/workflow/list_published)**
 * Click on the workflow name to access the pull-down menu of options and explore.
 * Import a workflow after viewing it. This will place it in your "Saved Workflows" list. 
 * Lost your place? Go to the very top menu and click on "Workflow". 

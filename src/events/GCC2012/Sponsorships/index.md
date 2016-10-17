@@ -84,13 +84,13 @@ Sponsorships are available at four different levels.
 
 ## Interested?
 
-If your organization is interested in participating in [GCC 2012](../) as a sponsor then please contact Dave Clements at [outreach@galaxyproject.org](outreach@galaxyproject.org).
+If your organization is interested in participating in [GCC 2012](/src/events/GCC2012/index.md) as a sponsor then please contact Dave Clements at [outreach@galaxyproject.org](outreach@galaxyproject.org).
 
 PLACEHOLDER_INCLUDE(/events/GCC2012/AsktheOrganizers)
 
 ## About GCC 2012
 
-The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering.  GCC 2012 will be the third annual meeting.  Attendance doubled between the first meeting in [2010 (Cold Spring Harbor Laboratories)](../../GDC2010) and [2011 (Lunteren, the Netherlands)](/src/events/GCC2011/index.md), and we expect attendance to double again this year to nearly 300 participants.  Participants mainly come from these groups:
+The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering.  GCC 2012 will be the third annual meeting.  Attendance doubled between the first meeting in [2010 (Cold Spring Harbor Laboratories)](/src/events/GDC2010/index.md) and [2011 (Lunteren, the Netherlands)](/src/events/GCC2011/index.md), and we expect attendance to double again this year to nearly 300 participants.  Participants mainly come from these groups:
 * Sequencing core facility staff
 * Bioinformatics core staff
 * Bioinformatics tool and workflow developers
@@ -98,5 +98,5 @@ The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject
 * Data producers
 * Power bioinformatics users
 
-The [feedback](/Events/GCC2011#feedback) we received on the [2011 meeting](/src/Events/GCC2011/index.md) was excellent.  You can expect the 2012 meeting to be as well received and organized as the previous event.
+The [feedback](/src/Events/GCC2011/index.md#feedback) we received on the [2011 meeting](/src/Events/GCC2011/index.md) was excellent.  You can expect the 2012 meeting to be as well received and organized as the previous event.
 1

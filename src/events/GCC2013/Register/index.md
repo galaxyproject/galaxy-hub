@@ -32,7 +32,7 @@ You will receive an email confirming your registration within 3 business days.  
 </table>
 
 
-[Register](http://bit.ly/gcc2013reg) for both the [GCC2013 main meeting](../Program) and the [Training Day](/src/events/GCC2013/TrainingDay/index.md) and save over 50% on Training Day registration.  This is by far the most affordable option, with early registration fees *starting at less than 235 NOK / €35 per day*.
+[Register](http://bit.ly/gcc2013reg) for both the [GCC2013 main meeting](/src/events/GCC2013/Program/index.md) and the [Training Day](/src/events/GCC2013/TrainingDay/index.md) and save over 50% on Training Day registration.  This is by far the most affordable option, with early registration fees *starting at less than 235 NOK / €35 per day*.
 
 <table>
   <tr>
@@ -110,7 +110,7 @@ Interested in only the conference?  [Conference-only registration](http://bit.ly
 </table>
 
 
-Interested in the [Training Day](../TrainingDay), but not the main meeting itself?  [Training Day only registration](http://bit.ly/gcc2013reg) covers admission to a full day of workshops, offering 15 different sessions in five parallel tracks.
+Interested in the [Training Day](/src/events/GCC2013/TrainingDay/index.md), but not the main meeting itself?  [Training Day only registration](http://bit.ly/gcc2013reg) covers admission to a full day of workshops, offering 15 different sessions in five parallel tracks.
 
 <table>
   <tr>

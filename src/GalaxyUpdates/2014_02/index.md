@@ -8,7 +8,7 @@ title: February 2014 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the February 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the February 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # New Papers
 
@@ -88,7 +88,7 @@ The Galaxy is expanding! Please help it grow.
 * [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**, *including positions at George Washington University*.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -98,7 +98,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <div class='right'><a href='/Events/GCC2014'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="150" /></a></div>
 
-The [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
+The [2014 Galaxy Community Conference (GCC2014)](/src/Events/GCC2014/index.md) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
 ### Registration opens February 10
 
@@ -110,13 +110,13 @@ Early registration will open February 10.  The [Training Day](/src/Events/GCC201
 
 <div class='left'><a href='http://genomeweb.com'><img src='/Images/Logos/GenomeWebSmall.png' alt='GenomeWeb' width="180" /></a></div>
 
-We are pleased to have [GenomeWeb](http://genomeweb.com) as a [Silver Sponsor](/Events/GCC2014/SponsorExhibit) for [GCC2014](/src/Events/GCC2014/index.md).  This is the first GCC that !GenomeWeb has sponsored.  Please welcome them.
+We are pleased to have [GenomeWeb](http://genomeweb.com) as a [Silver Sponsor](/src/Events/GCC2014/SponsorExhibit/index.md) for [GCC2014](/src/Events/GCC2014/index.md).  This is the first GCC that !GenomeWeb has sponsored.  Please welcome them.
 
-There are still [Silver and Bronze sponsorships](/Events/GCC2014/SponsorExhibit) available. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to help sponsor this event. 
+There are still [Silver and Bronze sponsorships](/src/Events/GCC2014/SponsorExhibit/index.md) available. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to help sponsor this event. 
 
 ### Exhibitors
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorExhibit#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/SponsorExhibit/index.md#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to have an exhibit space at GCC2014. 
 
 ## Galaxy Australasia Workshop 2014 (GAW 2014)
 
@@ -158,7 +158,7 @@ GMOD Malaysia 2014 is made possible by the generous support of the [National Evo
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> There are several other [events of interest](/Events) in the next few months. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> There are several other [events of interest](/src/Events/index.md) in the next few months. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
@@ -327,7 +327,7 @@ The [most recent Galaxy Distribution was November 04, 2013](/src/DevNewsBriefs/2
 
 An update to Galaxy CloudMan was released in January. CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
-**This update brings a large number of updates and new features.**  See the [release announcement](/News/CloudManRelease201401) for the list.  For more details on the new features, see the the [CHANGELOG](https://bitbucket.org/galaxy/cloudman/src/tip/CHANGELOG.md?at=default) and for even more details see, *all [103 commit messages](https://bitbucket.org/galaxy/cloudman/commits/all?search=a6bf542%3Acc55ca9) from 4 contributors*.
+**This update brings a large number of updates and new features.**  See the [release announcement](/src/News/CloudManRelease201401/index.md) for the list.  For more details on the new features, see the the [CHANGELOG](https://bitbucket.org/galaxy/cloudman/src/tip/CHANGELOG.md?at=default) and for even more details see, *all [103 commit messages](https://bitbucket.org/galaxy/cloudman/commits/all?search=a6bf542%3Acc55ca9) from 4 contributors*.
 
 <div class='right'><br /><div class='right'><a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' width="180" /></a><br />
 <a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' width="180" /></a><br /><br /></div>
@@ -347,7 +347,7 @@ An update to Galaxy CloudMan was released in January. CloudMan offers an easy wa
 
 # Galaxy Community Hubs
 
-The *[Community Log Board](/Community/Logs)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/src/Community/index.md)* were launched in December.  January saw several additions:
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/src/Community/index.md)* were launched in December.  January saw several additions:
 
 **New [Galaxy Deployment Catalog](/src/Community/Deployments/index.md) entries:**
 * [CSIRO Galaxy Service](/src/Community/Deployment/CsiroService/index.md)
@@ -385,7 +385,7 @@ bringing the number of log entries to 12.
 
 # Galaxy is now at Johns Hopkins and GWU (and Penn State!)
 
-In case you haven't heard, the former [Emory University](http://emory.edu) contingent of the [Galaxy Team](/GalaxyTeam) went north this month to Baltimore - it's warmer there (at least this week), where [James Taylor](/JamesTaylor) is now an Associate Professor in the [Johns Hopkins](http://www.johnshopkins.edu/) [Biology](http://www.bio.jhu.edu/) and [Computer Science](http://www.cs.jhu.edu/) Departments.  [Jeremy Goecks](/JeremyGoecks), also formerly of the Emory University contingent is now an Assistant Professor of [Computational Biology](http://cbi.gwu.edu/) at [George Washington University](http://www.gwu.edu/) in the Washington DC area.
+In case you haven't heard, the former [Emory University](http://emory.edu) contingent of the [Galaxy Team](/src/GalaxyTeam/index.md) went north this month to Baltimore - it's warmer there (at least this week), where [James Taylor](/JamesTaylor) is now an Associate Professor in the [Johns Hopkins](http://www.johnshopkins.edu/) [Biology](http://www.bio.jhu.edu/) and [Computer Science](http://www.cs.jhu.edu/) Departments.  [Jeremy Goecks](/JeremyGoecks), also formerly of the Emory University contingent is now an Assistant Professor of [Computational Biology](http://cbi.gwu.edu/) at [George Washington University](http://www.gwu.edu/) in the Washington DC area.
 
 None of these moves should be particularly noticeable to the Galaxy community.  We didn't lose anyone in these transitions, and in fact we are [still hiring](/src/GalaxyIsHiring/index.md), but now at three universities instead of two.
 

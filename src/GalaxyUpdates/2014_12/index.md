@@ -8,7 +8,7 @@ title: December 2014 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the December 2014 *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the December 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # Events
 
@@ -75,7 +75,7 @@ Please start giving some thought to what topics you would like to see covered at
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div>
 
-There are [upcoming events](/Events) on two continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/src/Events/index.md) on two continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <table>
   <tr class="th" >
@@ -158,7 +158,7 @@ There are [upcoming events](/Events) on two continents.  See the [Galaxy Events 
 
 **96 papers** (a new record) referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in November.  That's a new record.  Some of those papers are:
 
-* "[Galaxy Cluster to Cloud - Genomics at Scale](http://dx.doi.org/10.1109/GCE.2014.13)" by [Enis Afgan](/EnisAfgan), *et al.* in [Proceedings of the 9th Gateway Computing Environments Workshop (2014)](http://dl.acm.org/citation.cfm?id=2690887&picked=prox&cfid=603148869&cftoken=86409151), pp. 47-50, doi:10.1109/gce.2014.13
+* "[Galaxy Cluster to Cloud - Genomics at Scale](http://dx.doi.org/10.1109/GCE.2014.13)" by [Enis Afgan](/src/EnisAfgan/index.md), *et al.* in [Proceedings of the 9th Gateway Computing Environments Workshop (2014)](http://dl.acm.org/citation.cfm?id=2690887&picked=prox&cfid=603148869&cftoken=86409151), pp. 47-50, doi:10.1109/gce.2014.13
 
 * "[Automatically exposing OpenLifeData via SADI semantic Web Services](http://dx.doi.org/10.1186/2041-1480-5-46)" by Alejandro Gonzalez, *et al.* *Journal of Biomedical Semantics*, Vol. 5, No. 1. (2014), 46, doi:10.1186/2041-1480-5-46
 
@@ -234,13 +234,13 @@ The new papers covered these topics:
 The Galaxy is expanding! Please help it grow.
 
 * [Senior Development Engineer - Bioinformatics](http://it.ly/1yGvefn), and [Bioinformatician II](http://bit.ly/1vBhgxB), University of Massachusetts Medical School
-* Searching for [bioinformaticians, post-docs, PhD students and software engineers](/News/BioinformaticianFreiburg2014) in Freiburg, Germany at [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs), and the [Bioinformatics Group at the University of Freiburg](http://www.bioinf.uni-freiburg.de//?en)
+* Searching for [bioinformaticians, post-docs, PhD students and software engineers](/src/News/BioinformaticianFreiburg2014/index.md) in Freiburg, Germany at [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs), and the [Bioinformatics Group at the University of Freiburg](http://www.bioinf.uni-freiburg.de//?en)
 * [Research Specialist](http://bit.ly/13pqd0T), Michigan State University, United States
 * [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
 * [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 # Mailing Lists Moved
@@ -254,7 +254,7 @@ The prior bx.psu.edu list posting email addresses will continue to accept email,
 
 # New Galaxy-Training Mailing List
 
-The [Galaxy-Training mailing list](https://lists.galaxyproject.org/listinfo/galaxy-training) is for anything related to training with Galaxy and training about Galaxy.  Galaxy-Training is also the official mailing of the [Galaxy Training Network](/Teach/GTN), a [world-wide](/src/Teach/Trainers/index.md) group of training organizations that give Galaxy-based training.
+The [Galaxy-Training mailing list](https://lists.galaxyproject.org/listinfo/galaxy-training) is for anything related to training with Galaxy and training about Galaxy.  Galaxy-Training is also the official mailing of the [Galaxy Training Network](/src/Teach/GTN/index.md), a [world-wide](/src/Teach/Trainers/index.md) group of training organizations that give Galaxy-based training.
 
 If you are at all interested in Galaxy Training then you are encouraged to [join the list](https://lists.galaxyproject.org/listinfo/galaxy-training). Messages to this list are [publicly archived](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/) and will be included in the [Galaxy search engines](http://galaxyproject.org/search/web/) as well.
 
@@ -330,16 +330,16 @@ Two new [public Galaxy servers](/src/PublicGalaxyServers/index.md) were announce
 
 <br /><br />
 
-**There were no new [Log Board](/Community/Logs) or [Deployment Catalog](/src/Community/Deployments/index.md) entries in November!**  Eek!  Please don't let this happen again!  
+**There were no new [Log Board](/src/Community/Logs/index.md) or [Deployment Catalog](/src/Community/Deployments/index.md) entries in November!**  Eek!  Please don't let this happen again!  
 
-The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/Community/Deployments), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
 
 
 # New Releases
 
-[BioBlend v0.5.2 was released in October](/News/BioBlendV0.5.2).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  
+[BioBlend v0.5.2 was released in October](/src/News/BioBlendV0.5.2/index.md).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  
 
-New versions of [Galaxy](/GalaxyUpdates/2014_09#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were all released in August.
+New versions of [Galaxy](/src/GalaxyUpdates/2014_09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were all released in August.
 
 Look for a new Galaxy distribution soon.
 

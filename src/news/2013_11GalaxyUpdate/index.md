@@ -8,7 +8,7 @@ date: 2013-10-31T17:09:26Z
 The [November 2013 Galaxy Update is out](/src/GalaxyUpdates/2013_11/index.md):
 
 **Highlights:**
-* Two new [Galaxy public servers](/GalaxyUpdates/2013_11#new-public-servers): [CoSSci: Complex Social Science Gateway](/GalaxyUpdates/2013_11#cossci-complex-social-science-gateway) (which has *nothing* to do with biology), and [BioCiphers Lab Galaxy](/src/GalaxyUpdates/2013_11/index.md#biociphers-lab-galaxy).
+* Two new [Galaxy public servers](/src/GalaxyUpdates/2013_11/index.md#new-public-servers): [CoSSci: Complex Social Science Gateway](/GalaxyUpdates/2013_11#cossci-complex-social-science-gateway) (which has *nothing* to do with biology), and [BioCiphers Lab Galaxy](/src/GalaxyUpdates/2013_11/index.md#biociphers-lab-galaxy).
 * [53 new papers](/src/GalaxyUpdates/2013_11/index.md#new-papers), including "Expanding roles in a library-based bioinformatics service program: a case study," "DDBJ Read Annotation Pipeline: A Cloud Computing-Based Pipeline for High-Throughput Analysis of Next-Generation Sequencing Data," and "Ten Simple Rules for Reproducible Computational Research"
 * [Who's hiring](/src/GalaxyUpdates/2013_11/index.md#whos-hiring)
 * [Upcoming Events](/src/GalaxyUpdates/2013_11/index.md#other-events), including
@@ -20,7 +20,7 @@ The [November 2013 Galaxy Update is out](/src/GalaxyUpdates/2013_11/index.md):
 
 If you have anything you would like to see in the next *[Galaxy Update](/src/GalaxyUpdates/index.md)*, please let us know.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

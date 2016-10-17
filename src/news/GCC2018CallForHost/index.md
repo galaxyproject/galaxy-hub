@@ -46,7 +46,7 @@ See the **[full call for host proposals](ATTACHMENT_URLDocuments/GCC2018CallForH
 
 Hoping to work with you in 2018!
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

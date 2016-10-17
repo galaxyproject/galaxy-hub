@@ -118,4 +118,4 @@ We have built a Docker container containing a Galaxy instance with the tools use
  
 See [the instructions on accessing and installing the Docker container](http://z.umn.edu/asms2016docs).  When prompted, select “View the file” and hit “OK”. This documentation also provides instructions on how to use the Galaxy interface, build Histories and Workflows with some of the available tools, as well as other Galaxy functions.  This mirrors the content presented in the ASMS workshop, with additional details on the use of Galaxy.
  
-See the [Galaxy-P](/PublicGalaxyServers#galaxy-p) entry in the [public Galaxy servers directory](/src/PublicGalaxyServers/index.md) for additional Galaxy-P resources.
+See the [Galaxy-P](/src/PublicGalaxyServers/index.md#galaxy-p) entry in the [public Galaxy servers directory](/src/PublicGalaxyServers/index.md) for additional Galaxy-P resources.

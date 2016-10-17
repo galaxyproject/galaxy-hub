@@ -10,16 +10,16 @@ date: 2015-01-30T00:30:15Z
 <a href='/GalaxyUpdates/2015_02#19-february-galaxyadmins-meetup'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup February 19' width="150" /></a></div>
 </div>
 
-[February](/GalaxyUpdates/2015_02) brings lots of [Galaxy related news](/GalaxyUpdates/2015_02), including [events news](/src/GalaxyUpdates/2015_02/index.md#events):
+[February](/src/GalaxyUpdates/2015_02/index.md) brings lots of [Galaxy related news](/src/GalaxyUpdates/2015_02/index.md), including [events news](/src/GalaxyUpdates/2015_02/index.md#events):
 * **[GCC2015: 6-8 July, Norwich UK](/src/GalaxyUpdates/2015_02/index.md#gcc2015-6-8-july-norwich-uk)**
-  * *[GCC2015 Training Day Topic Voting Closes TODAY](/GalaxyUpdates/2015_02#training-day-topic-voting-closes-today)! [Vote NOW](http://bit.ly/gcc2015vote)*
+  * *[GCC2015 Training Day Topic Voting Closes TODAY](/src/GalaxyUpdates/2015_02/index.md#training-day-topic-voting-closes-today)! [Vote NOW](http://bit.ly/gcc2015vote)*
   * *[GCC2015 Early Registration opens in February](/src/GalaxyUpdates/2015_02/index.md#early-registration-opens-in-february)*
   * [Sponsorships](/src/GalaxyUpdates/2015_02/index.md#sponsorships):
-    * Please welcome *[GenomeWeb](/GalaxyUpdates/2015_02#genomeweb)* and *[Globus Genomics](/GalaxyUpdates/2015_02#globus-genomics)* as GCC returning sponsors, and *[The Genome Analysis Centre (TGAC)](/src/GalaxyUpdates/2015_02/index.md#the-genome-analysis-centre-tgac)* as a first time sponsor.
+    * Please welcome *[GenomeWeb](/src/GalaxyUpdates/2015_02/index.md#genomeweb)* and *[Globus Genomics](/GalaxyUpdates/2015_02#globus-genomics)* as GCC returning sponsors, and *[The Genome Analysis Centre (TGAC)](/src/GalaxyUpdates/2015_02/index.md#the-genome-analysis-centre-tgac)* as a first time sponsor.
     * And [we are still seeking additional sponsors](/src/GalaxyUpdates/2015_02/index.md#call-for-sponsors)
 * [19 February GalaxyAdmins Meetup](/src/GalaxyUpdates/2015_02/index.md#19-february-galaxyadmins-meetup)
 * [Baltimore Area Galaxy Meetup Success](/src/GalaxyUpdates/2015_02/index.md#january-baltimore-area-galaxy-meetup-report) - and more to come
-[New Releases](/GalaxyUpdates/2015_02#new-releases) and [ToolShed Contributions](/src/GalaxyUpdates/2015_02/index.md#toolshed-contributions):
+[New Releases](/src/GalaxyUpdates/2015_02/index.md#new-releases) and [ToolShed Contributions](/src/GalaxyUpdates/2015_02/index.md#toolshed-contributions):
 * [New Galaxy Distribution](/src/GalaxyUpdates/2015_02/index.md#galaxy-20150113-distribution) *fixes security flaws and adds IPython integration*
 * [Planemo 0.2.0 released](/src/GalaxyUpdates/2015_02/index.md#planemo-020)
 * [Over 30 new and updated ToolShed repositories from 13 contributors](/src/GalaxyUpdates/2015_02/index.md#toolshed-contributions)
@@ -30,7 +30,7 @@ and *Community News* too:
 * [Ruđer Bošković Institute joins GTN](/src/GalaxyUpdates/2015_02/index.md#new-gtn-member-ruđer-bošković-institute)
 * And, [other news](/src/GalaxyUpdates/2015_02/index.md#other-news) as well.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

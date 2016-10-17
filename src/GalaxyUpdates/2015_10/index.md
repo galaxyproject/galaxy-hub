@@ -15,7 +15,7 @@ title: The October 2015 Galactic News, !
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
-Welcome to the October 2015 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the October News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
+Welcome to the October 2015 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the October News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
 
 # New Papers
 
@@ -99,7 +99,7 @@ The new papers were tagged with:
 <a href='http://www.analome.com/'><img src='/Images/Logos/Analome.png' alt='Analome' width="175" /></a>
 </div>
 
-The [next GalaxyAdmins meetup on October 15](/Community/GalaxyAdmins/Meetups/2015_10_15) will feature [David Kovalic](https://www.linkedin.com/in/davidkovalic) speaking on *Galaxy at [Analome](http://analome.com/) – Outreach, Opportunity and Challenges*:
+The [next GalaxyAdmins meetup on October 15](/src/Community/GalaxyAdmins/Meetups/2015_10_15/index.md) will feature [David Kovalic](https://www.linkedin.com/in/davidkovalic) speaking on *Galaxy at [Analome](http://analome.com/) – Outreach, Opportunity and Challenges*:
  At Analome Galaxy has found another home and we like it for numerous reasons. In this talk we will present the multifaceted role Galaxy plays at Analome and how it supports ongoing bioinformatics projects while at the same time providing opportunities for social good. 
 
 [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
@@ -123,7 +123,7 @@ Hope to see you there.
 The [2016 Galaxy Community Conference (GCC2016)](/src/Events/GCC2016) features two full days of training on June 26-27.  Each 
 day will have multiple tracks, with each track featuring several sessions throughout the day.  GCC2016 will be held at [Indiana University](http://indiana.edu) in Bloomington, Indiana, United States.
 
-**[GCC2016 Training topics](/Events/GCC2016/Training) are [nominated by you](http://bit.ly/gcc2016tdnom), the Galaxy Community.** Please give some thought to what topics you would like to see offered, or that you would like to offer, and then [submit them as topic nominations](http://bit.ly/gcc2016tdnom).  Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic. If you are looking for ideas, see 
+**[GCC2016 Training topics](/src/Events/GCC2016/Training) are [nominated by you](http://bit.ly/gcc2016tdnom), the Galaxy Community.** Please give some thought to what topics you would like to see offered, or that you would like to offer, and then [submit them as topic nominations](http://bit.ly/gcc2016tdnom).  Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic. If you are looking for ideas, see 
 
 * [Topics nominated for GCC2015](http://bit.ly/gcc2015vote)
 * [Topics nominated for GCC2014](http://bit.ly/1s6NtMN)
@@ -160,7 +160,7 @@ See the **[full call for host proposals](ATTACHMENT_URLDocuments/GCC2016CallForH
 
 Hoping to work with you in 2017!
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 ---
 
@@ -186,7 +186,7 @@ See the [full report](/src/News/IUCCollectionsCodefest/index.md) details.
 <a href='http://bit.ly/gxyothercal'><img src='/Images/Logos/GalxyOtherEventsCalThumb.png' alt='Galaxy Other Events Calendar' width="100" /></a>
 </div>
 
-There are [upcoming events](/Events) in 4 countries on 4 continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/src/Events/index.md) in 4 countries on 4 continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='center'> 
 <a href='https://cnrsformation.cnrs.fr/stage.php?stage=15274&axe=77'><img src='/Images/Logos/CGFB_bioinformatics.png' alt='Analyse avancée de séquences' height="80" /></a>
@@ -305,7 +305,7 @@ The Galaxy is expanding! Please help it grow.
 * [Assistant Computational Scientist](http://bit.ly/1OLwPbW) at [VIB](http://www.vib.be/), Gent, Belgium 
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -363,7 +363,7 @@ If you think we should (or should not) offer this training at GCC2016, please [g
 <a href='http://mygoblet.org/about-us/goblet-events/goblet-agm-2015-cape-town'><img src='/Images/Logos/GobletLogo.png' alt='2015 GOBLET Meeting' height="100" /></a>
 </div>
 
-[GTN](/Teach/GTN) became a member of the [Global Organisation for Bioinformatics & Training (GOBLET)](http://mygoblet.org) [earlier this year](/News/GTNJoinsGOBLET).  The [2015 GOBLET Meeting](http://mygoblet.org/about-us/goblet-events/goblet-agm-2015-cape-town) will be held 18-20 November, in Cape Town, South Africa.  Fourie Joubert of the [Centre for Bioinformatics and Computational Biology](/src/Teach/Trainers/index.md#the-centre-for-bioinformatics-and-computational-biology) at the University of Pretoria will be representing GTN at GOBLET 2015.  
+[GTN](/src/Teach/GTN/index.md) became a member of the [Global Organisation for Bioinformatics & Training (GOBLET)](http://mygoblet.org) [earlier this year](/News/GTNJoinsGOBLET).  The [2015 GOBLET Meeting](http://mygoblet.org/about-us/goblet-events/goblet-agm-2015-cape-town) will be held 18-20 November, in Cape Town, South Africa.  Fourie Joubert of the [Centre for Bioinformatics and Computational Biology](/src/Teach/Trainers/index.md#the-centre-for-bioinformatics-and-computational-biology) at the University of Pretoria will be representing GTN at GOBLET 2015.  
 
 If you have anything you'd like to have discussed at the meeting, then please [join this conversation](http://bit.ly/1iM6T5r).
 
@@ -396,7 +396,7 @@ Thanks to everyone who helped put these together.
 **Release Highlights **
 * **Interactive Environments** - The interactive environments (IE) framework features several updates this release and Galaxy is now distributed with a new IE for RStudio implemented by [Eric Rasche](/src/EricRasche/index.md).
 * **Workflow Editor Enhancements** - The workflow editor has been significantly revamped - it now uses newer tool form components and allow construction of workflows with tools explicitly producing output collections.
-* **Policies for Committers and Pull Requests** - The process for adding committers to the project and fielding pull requests has been formalized and documented in the source code. Three new committers have been added to the project - [Björn Grüning](/BjoernGruening), [Nicola Soranzo](/NicolaSoranzo), and [Eric Rasche](/src/EricRasche/index.md).
+* **Policies for Committers and Pull Requests** - The process for adding committers to the project and fielding pull requests has been formalized and documented in the source code. Three new committers have been added to the project - [Björn Grüning](/src/BjoernGruening/index.md), [Nicola Soranzo](/NicolaSoranzo), and [Eric Rasche](/src/EricRasche/index.md).
 * And *[much more](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html)*
 
 ## Mid 2015 Galaxy CloudMan Release
@@ -407,7 +407,7 @@ Thanks to everyone who helped put these together.
 
 This is the most complete update of the Galaxy on the Cloud platform to date with all the cloud components being built from the ground up. The following is a summary of the major changes:
 
-* *Galaxy on the Cloud*: all new galaxy and indices file systems, with [Galaxy 15.07 release](/News/2015_07_GalaxyRelease), [~200 preinstalled Galaxy tools](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/shed_tool_list.yaml), and nearly half a terrabyte of updated reference genome data.
+* *Galaxy on the Cloud*: all new galaxy and indices file systems, with [Galaxy 15.07 release](/src/News/2015_07_GalaxyRelease/index.md), [~200 preinstalled Galaxy tools](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/shed_tool_list.yaml), and nearly half a terrabyte of updated reference genome data.
 * *Galaxy on the Cloud*: switched to a different Cloud Launch application, available at https://launch.usegalaxy.org/
 * *Galaxy on the Cloud*: Integrated Galaxy IPython Interactive Environments
 * !CloudMan: Creating cluster shares is now fast (~30 seconds vs. hours)
@@ -429,7 +429,7 @@ Three security vulnerabilities were announced and patched in August.  The Galaxy
 <div class='right'><a href='http://getgalaxy.org'><img src='/Images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png' alt='GalaxyProject' width="200" /></a></div>
 
  **!BioBlend 0.6.0 and 0.6.1**
-    [BioBlend version 0.6.1](https://github.com/galaxyproject/bioblend/) was released in July. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API)(CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
+    [BioBlend version 0.6.1](https://github.com/galaxyproject/bioblend/) was released in July. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md)(CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
 
 <div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src='/Images/Logos/PlanemoLogo.png' alt='' width="150" /></a></div>
 

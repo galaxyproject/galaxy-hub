@@ -11,7 +11,7 @@ This will be some text *describing what this is about*. Then maybe a few bullet 
 * http://wiki.galaxyproject.org/Images/ScreencastFrame
 
 Graphics:
-* [NewsGraphics](/Images/NewsGraphics) are used in communications, such as [Galaxy Development News Briefs](/src/DevNewsBriefs/index.md). May have a date stamp.
+* [NewsGraphics](/src/Images/NewsGraphics/index.md) are used in communications, such as [Galaxy Development News Briefs](/src/DevNewsBriefs/index.md). May have a date stamp.
 
 This page is of course just **brief** - 10 lines max. It should point to the primary wiki with the main content. 
 

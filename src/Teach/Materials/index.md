@@ -16,4 +16,4 @@ However, right now it's empty.  Until we get something more here, see
 
 * [Learning Galaxy Hub Pages](/src/Learn/index.md)
   * especially the [Other Tutorials](/src/Learn/index.md#other-tutorials) list
-* [Past Events list](/Events#past-events) and [Events Archive](/src/Events/Archive/index.md), many of which include slides, exercises and other workshop material.
+* [Past Events list](/src/Events/index.md#past-events) and [Events Archive](/src/Events/Archive/index.md), many of which include slides, exercises and other workshop material.

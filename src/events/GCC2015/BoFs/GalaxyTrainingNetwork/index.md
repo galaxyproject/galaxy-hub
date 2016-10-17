@@ -11,16 +11,16 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
  Audience:: Anyone interested in using Galaxy for bioinformatics and related learning and teaching. People who need to support such activities. 
  When:: Monday, 6 July, 18:50
  Where:: Franklin Room, JICCC
- Contact:: [Dave Clements](/DaveClements), [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie)
+ Contact:: [Dave Clements](/src/DaveClements/index.md), [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie)
 </div>
 
 <div class='left'><a href='/Events/GCC2015/BoFs'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a><br /><br />
 <a href='/Teach'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="160" /></a>
 </div>
 
-The **[Galaxy Training Network (GTN)](/Teach/GTN)** will have an in-person [Birds of a Feather](/Events/GCC2015/BoFs) meetup at the [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/), held in Norwich, UK, 4-8 July, 2015.
+The **[Galaxy Training Network (GTN)](/src/Teach/GTN/index.md)** will have an in-person [Birds of a Feather](/Events/GCC2015/BoFs) meetup at the [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/), held in Norwich, UK, 4-8 July, 2015.
 
-GTN was unofficially launched at a [GCC2014 BoF meetup](/Events/GCC2014/BoFs/GalaxyTrainingNetwork) (and [officially launched in October](/News/GalaxyTrainingNetwork)).  GTN is a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  GTN makes it easy to find [Galaxy trainers](/Teach/Trainers), and to share and discover the wealth of training resources available for Galaxy.  This includes [training materials](/Teach/Resources), a [trainer directory](/Teach/Trainers),[best practices](/Teach/BestPractices), and [guidance on computing platforms](/src/Teach/ComputingPlatforms/index.md) for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
+GTN was unofficially launched at a [GCC2014 BoF meetup](/src/Events/GCC2014/BoFs/GalaxyTrainingNetwork/index.md) (and [officially launched in October](/News/GalaxyTrainingNetwork)).  GTN is a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  GTN makes it easy to find [Galaxy trainers](/Teach/Trainers), and to share and discover the wealth of training resources available for Galaxy.  This includes [training materials](/Teach/Resources), a [trainer directory](/Teach/Trainers),[best practices](/Teach/BestPractices), and [guidance on computing platforms](/src/Teach/ComputingPlatforms/index.md) for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
 
 If you teach with Galaxy, then please consider joining us at this BoF.
 
@@ -152,6 +152,6 @@ Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and D
 
 ## Questions?
 
-Send them to [Dave Clements](/DaveClements) and [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie).
+Send them to [Dave Clements](/src/DaveClements/index.md) and [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie).
 
 CategoryBoF

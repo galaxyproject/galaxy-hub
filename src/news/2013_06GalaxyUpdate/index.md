@@ -8,7 +8,7 @@ date: 2013-05-31T16:48:02Z
 The [June 2013 Galaxy Update is now available](/src/GalaxyUpdates/2013_06/index.md). 
 
 **Highlights:**
-* **[Register](/Events/GCC2013/Register) for [GCC2013](/src/GalaxyUpdates/2013_06/index.md#gcc2013) by ~~7 June~~ 14 June to avoid late registration rates**
+* **[Register](/src/Events/GCC2013/Register/index.md) for [GCC2013](/src/GalaxyUpdates/2013_06/index.md#gcc2013) by ~~7 June~~ 14 June to avoid late registration rates**
 * [Two new public servers](/src/GalaxyUpdates/2013_06/index.md#new-public-servers) ODoSE and CBiB
 * [39 new papers](/src/GalaxyUpdates/2013_06/index.md#new-papers)
 * [Open Positions](/src/GalaxyUpdates/2013_06/index.md#whos-hiring) at four different institutions
@@ -19,7 +19,7 @@ The [June 2013 Galaxy Update is now available](/src/GalaxyUpdates/2013_06/index.
 
 If you have anything you would like to see in the July *[Galaxy Update](/src/GalaxyUpdates/index.md)*, please let us know.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

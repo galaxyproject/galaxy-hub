@@ -62,7 +62,7 @@ There are three categories of repository dependencies which will be discussed in
 <br />
 # Data
 
-1. Many new reference genome datasets, indexes, and liftOver files have been added to the **public [/Main](/Main) Galaxy instance** and **rsync** download area ([get the data](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)). Among these, the following full reference genomes sourced from **[UCSC](http://genome.ucsc.edu/)** were added:
+1. Many new reference genome datasets, indexes, and liftOver files have been added to the **public [/Main](/src/Main/index.md) Galaxy instance** and **rsync** download area ([get the data](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)). Among these, the following full reference genomes sourced from **[UCSC](http://genome.ucsc.edu/)** were added:
   * `Budgerigar Sep. 2011 (WUSTL v6.3/melUnd1)`
   * `Chicken Nov. 2011 (ICGSC Gallus_gallus-4.0/galGal4)`
   * `Cow Oct. 2011 (Baylor Btau_4.6.1/bosTau7) (bosTau7)`
@@ -118,7 +118,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # Announcements
 
-[/News](/News), ***[January 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_13)***
+[/News](/src/News/index.md), ***[January 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_13)***
 
 <div class='right'>
 <a href='http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='Training Day' width="160" /></a>

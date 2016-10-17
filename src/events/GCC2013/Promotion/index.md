@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
 
 
 
-Please help get the word out about the [2013 Galaxy Community Conference (GCC2013)](../).  A [flier](#flier) suitable for printing is below, as well as several different sizes of the conference banner that can be used on the web.
+Please help get the word out about the [2013 Galaxy Community Conference (GCC2013)](/src/events/GCC2013/index.md).  A [flier](#flier) suitable for printing is below, as well as several different sizes of the conference banner that can be used on the web.
 
 # Flier
 

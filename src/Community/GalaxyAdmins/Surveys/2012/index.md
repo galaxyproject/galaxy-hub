@@ -5,7 +5,7 @@ autotoc: true
 
 PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
-The [GalaxyAdmins group (formerly GalaxyCzars)](/Community/GalaxyAdmins) was started in April 2012.  As part of that launch, an online survey was [sent out in May](/src/News/GalaxyCzarsSurvey/index.md).  This page summarizes and categorizes the responses to that survey.  There were 31 total responses.
+The [GalaxyAdmins group (formerly GalaxyCzars)](/src/Community/GalaxyAdmins/index.md) was started in April 2012.  As part of that launch, an online survey was [sent out in May](/src/News/GalaxyCzarsSurvey/index.md).  This page summarizes and categorizes the responses to that survey.  There were 31 total responses.
 
 *Note: Answers have been put into various categories, depending on content.  Some answers covered multiple areas and have been split up.  If you disagree with the categorization of a particular answer, please feel free to move it elsewhere.  This is a wiki, after all.*
 

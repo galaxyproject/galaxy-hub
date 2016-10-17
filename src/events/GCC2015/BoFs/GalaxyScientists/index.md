@@ -12,12 +12,12 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
  Audience:: Scientists using Galaxy interested in getting INVOLVED!
  When:: Tuesday, 7 July, 12:30 (Lunch)
  Where:: Franklin Room, JICCC
- Contact:: [/JenniferJackson](/JenniferJackson) & see [BoF](https://wiki.galaxyproject.org/Events/GCC2015/BoFs/GalaxyScientists) wiki
+ Contact:: [/JenniferJackson](/src/JenniferJackson/index.md) & see [BoF](https://wiki.galaxyproject.org/Events/GCC2015/BoFs/GalaxyScientists) wiki
 </div>
 
 <div class='left'><a href='/Events/GCC2015/BoFs'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a></div>
 
-This page describes the **!GalaxyScientists** [Birds of a Feather](/Events/GCC2015/BoFs) Meetup held at [GCC2015](http://gcc2015.tsl.ac.uk/). Don't worry if you don't know what this group is .. the BoF is intended to define and create it! 
+This page describes the **!GalaxyScientists** [Birds of a Feather](/src/Events/GCC2015/BoFs/index.md) Meetup held at [GCC2015](http://gcc2015.tsl.ac.uk/). Don't worry if you don't know what this group is .. the BoF is intended to define and create it! 
 
 <br />
 ## Description

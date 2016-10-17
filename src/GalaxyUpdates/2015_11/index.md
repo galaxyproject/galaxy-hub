@@ -122,7 +122,7 @@ The new papers were tagged with:
 
 ## GCC2016 Training Topic Vote Ends This Friday
 
-Thanks to everyone who nominated topics for [GCC2016 Training](/Events/GCC2016/Training).  Please take a few minutes to [vote on the topics](http://bit.ly/gcc2016trnvote) you want to see offered at GCC2016 Training.
+Thanks to everyone who nominated topics for [GCC2016 Training](/src/Events/GCC2016/Training).  Please take a few minutes to [vote on the topics](http://bit.ly/gcc2016trnvote) you want to see offered at GCC2016 Training.
 
 The [2016 Galaxy Community Conference (GCC2016)](/src/Events/GCC2016) features two full days of training on June 26-27.  Each 
 day will have multiple tracks, with each track featuring several sessions throughout the day.  GCC2016 will be held at [Indiana University](http://indiana.edu) in Bloomington, Indiana, United States.
@@ -134,7 +134,7 @@ Topics will then be selected and scheduled based on topic interest, and the orga
 
 ## IUC Contribution Fest - Metagenomics Tools and Workflows
 
-[We](/IUC) are planning a [remote hackathon on 30th of November and 1st of December for developers to work mainly on Galaxy metagenomic tools](https://github.com/galaxyproject/tools-iuc/issues/299).
+[We](/src/IUC/index.md) are planning a [remote hackathon on 30th of November and 1st of December for developers to work mainly on Galaxy metagenomic tools](https://github.com/galaxyproject/tools-iuc/issues/299).
 
 The remote nature of this gives people who don't have the opportunity to come to GCC hackathons (which have always been productive and a lot of fun) a chance to participate in a Galaxy hackathon. Having a well defined topic will allow us to accomplish a lot and let people who don't have particular tasks in mind find something to work on very quickly.
 
@@ -180,7 +180,7 @@ See [the event home page for more](https://github.com/galaxyproject/tools-iuc/is
 <a href='http://www.analome.com/'><img src='/Images/Logos/Analome.png' alt='Analome' width="175" /></a>
 </div>
 
-Video and slides for the [GalaxyAdmins meetup on October 15 are now available](/Community/GalaxyAdmins/Meetups/2015_10_15). [David Kovalic](https://www.linkedin.com/in/davidkovalic) presented on *Galaxy at [Analome](http://analome.com/) – Outreach, Opportunity and Challenges*.  This was followed by an active discussion about plans to migrate this wiki to another platform.
+Video and slides for the [GalaxyAdmins meetup on October 15 are now available](/src/Community/GalaxyAdmins/Meetups/2015_10_15/index.md). [David Kovalic](https://www.linkedin.com/in/davidkovalic) presented on *Galaxy at [Analome](http://analome.com/) – Outreach, Opportunity and Challenges*.  This was followed by an active discussion about plans to migrate this wiki to another platform.
 
 [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  We're skipping the December meetup (wouldn't you rather be on holiday?) so the next meetup will be in February.  Hope to see you there.
 
@@ -189,7 +189,7 @@ Video and slides for the [GalaxyAdmins meetup on October 15 are now available](/
 
 ## Upcoming Events
 
-There are [upcoming events](/Events) on 3 continents in 4 countries, *and a veritable globular cluster of events in France this month*.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/src/Events/index.md) on 3 continents in 4 countries, *and a veritable globular cluster of events in France this month*.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='center'> 
 <a href='http://www.festivalofgenomicscalifornia.com/'><img src='/Images/Logos/FestivalOfGenomicsCaliforniaLogo.png' alt='3 Workshop: Galaxy for the Analysis of Very Large Biomedical Data; Common Workflow Language on Galaxy, Part of Portable Bioinformatics; Single-Cell Sequencing: Analysis & Visualization of Copy Number Variations' height="60" /></a>
@@ -342,7 +342,7 @@ The Galaxy is expanding! Please help it grow.
 * [Software Developer / Bioinformatician](https://ig14.i-grasp.com/fe/tpl_embl01.asp?s=4A515F4E5A565B1A&jobid=54309,8734341283&key=64564906&c=342372129814&pagestamp=seqbdpnrnmbvdpxtgb), European Molecular Biology Laboratory (EMBL), Heidelberg, Germany
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -410,7 +410,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 ## BioBlend 0.7.0
 
-[BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released few days ago. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+[BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released few days ago. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
 ## Other Releases
@@ -518,12 +518,12 @@ Ran out of time to compile these.  Look for a double batch in December.
 
 * [Det'Rprok workflow](http://bit.ly/1aWNeVE) from [this paper](http://www.sciencedirect.com/science/article/pii/S1046202313002041) updated at !MyExperiment.
 
-* We decided not to have a [Data Carpentry](http://www.datacarpentry.org/) / [Software Carpentry](http://software-carpentry.org/) *Train the Trainer* event before [GCC2016](/Events/GCC2016).  However, we have [nominated a topic on Best Practices and Resources for Galaxy Training](/Events/GCC2016/Training#galactically-speaking-best-practices-and-resources-for-galaxy-training).  If that interests you then *[please vote](http://bit.ly/gcc2016vote) for it*.
+* We decided not to have a [Data Carpentry](http://www.datacarpentry.org/) / [Software Carpentry](http://software-carpentry.org/) *Train the Trainer* event before [GCC2016](/src/Events/GCC2016).  However, we have [nominated a topic on Best Practices and Resources for Galaxy Training](/Events/GCC2016/Training#galactically-speaking-best-practices-and-resources-for-galaxy-training).  If that interests you then *[please vote](http://bit.ly/gcc2016vote) for it*.
 
 ## Galaxy Codebase Reaches 20 000 Commits
 
 <a href='https://github.com/galaxyproject/galaxy'><img src='/Images/20000Commits.png' alt='Galaxy codebase' width="100%" /></a>
 
-In September [Galaxy turned 10 years old](/GalaxyUpdates/2015_10#galaxy-turns-10) by one important measure.  Another milestone was reached in October when the [Galaxy codebase](https://github.com/galaxyproject/galaxy) surpassed of 20000 commits. And appropriately (and if I can count), the 20,000th was a pull request commit from community member [Eric Rasche](/EricRasche) originally submitted by team member [Nate Coraor](/src/nate/index.md).
+In September [Galaxy turned 10 years old](/src/GalaxyUpdates/2015_10/index.md#galaxy-turns-10) by one important measure.  Another milestone was reached in October when the [Galaxy codebase](https://github.com/galaxyproject/galaxy) surpassed of 20000 commits. And appropriately (and if I can count), the 20,000th was a pull request commit from community member [Eric Rasche](/EricRasche) originally submitted by team member [Nate Coraor](/src/nate/index.md).
 
 Our thanks go to the community and the team alike.

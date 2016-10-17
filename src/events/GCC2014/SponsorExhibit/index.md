@@ -9,11 +9,11 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 Is your organization interested in being a prominent part of one of the fastest growing communities in bioinformatics? Becoming a [2014 Galaxy Community Conference](/src/events/GCC2014/index.md) Sponsor or Exhibitor is an excellent way to raise your organization's visibility in this active and engaged community.
 
-If your organization is interested in participating in [GCC2014](../) as a sponsor or exhibitor then please contact [the conference organizers](/src/events/GCC2014/Organizers/index.md).
+If your organization is interested in participating in [GCC2014](/src/events/GCC2014/index.md) as a sponsor or exhibitor then please contact [the conference organizers](/src/events/GCC2014/Organizers/index.md).
 
 ## About GCC2014
 
-The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering. GCC2014 will be the fifth annual meeting. Attendance has increased every year, and [GCC2012](/Events/GCC2012) and [GCC2013](/src/Events/GCC2013/index.md) both had over 200 registration each.  Participants are mainly:
+The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering. GCC2014 will be the fifth annual meeting. Attendance has increased every year, and [GCC2012](/src/Events/GCC2012/index.md) and [GCC2013](/src/Events/GCC2013/index.md) both had over 200 registration each.  Participants are mainly:
 * Sequencing core facility staff
 * Bioinformatics core staff
 * Bioinformatics tool and workflow developers

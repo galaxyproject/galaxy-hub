@@ -250,7 +250,7 @@ Details: Only Galaxy instances with `allow_user_impersonation = True` set in the
 <br /><a href='http://wiki.galaxyproject.org/Events/GCC2013/Photos'><img src='/Images/NewsGraphics/2013_08_12_gcc-main-room.jpg' alt='GCC 2013' width=300 /></a><br />**GCC 2013**</div>
 
 # Project Updates
-**[/News](/News)**, ***[August 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_08)***
+**[/News](/src/News/index.md)**, ***[August 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_08)***
 
 ## GCC 2013 Wrap-up
 **[GCC2013 Report](/src/GalaxyUpdates/2013_08/index.md#gcc2013-report):** Meeting summaries, and links to videos, talks, posters, and Training Day materials.

@@ -2,7 +2,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
 
 PLACEHOLDER_INCLUDE(/Events/GCC2012/LinkBox)
 
-Please help get the word out about the [2012 Galaxy Community Conference (GCC2012)](../).  A [flier](#flier) suitable for printing is below, as well as several different sizes of the conference banner that can be used on the web.
+Please help get the word out about the [2012 Galaxy Community Conference (GCC2012)](/src/events/GCC2012/index.md).  A [flier](#flier) suitable for printing is below, as well as several different sizes of the conference banner that can be used on the web.
 
 # Flier
 

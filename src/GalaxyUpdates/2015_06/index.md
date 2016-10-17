@@ -15,7 +15,7 @@ title: The June 2015 Galactic News, !
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the June 2015 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[These newsletters](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the June 2015 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. *[These newsletters](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 # New Papers
 
@@ -98,7 +98,7 @@ The new papers were tagged with:
 
 </div>
 
-The **[2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/)** is the Galaxy community's annual gathering of users, developers, and administrators.  [Previous GCC's](/Events/GCC2014) have drawn over 200 participants, and we expect that to happen again in 2015.  GCC2015 is being hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK, immediately before [BOSC](http://www.open-bio.org/wiki/BOSC_2015) and [ISMB/ECCB](http://www.iscb.org/ismbeccb2015) in Dublin.
+The **[2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/)** is the Galaxy community's annual gathering of users, developers, and administrators.  [Previous GCC's](/src/Events/GCC2014/index.md) have drawn over 200 participants, and we expect that to happen again in 2015.  GCC2015 is being hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK, immediately before [BOSC](http://www.open-bio.org/wiki/BOSC_2015) and [ISMB/ECCB](http://www.iscb.org/ismbeccb2015) in Dublin.
 
 There are a lot of events going on at GCC2015, including:
 
@@ -186,7 +186,7 @@ Please let the [organisers|GCC2015 Organising Committee](http://gcc2015.tsl.ac.u
 <div class='left'><a href='/Community/GalaxyAdmins/Meetups/2015_06_18'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup June 18' height="75" /></a></div>
 <div class='right'><a href='http://www.manchester.ac.uk/'><img src='/Images/Logos/UManchesterLogo.jpg' alt='University of Manchester' height="85" /></a></div>
 
-Please join us for the [next GalaxyAdmins meetup on June 18](/Community/GalaxyAdmins/Meetups/2015_06_18) when **[Peter Briggs](http://galacticengineer.blogspot.co.uk/)** of the [University of Manchester](http://www.manchester.ac.uk/) will speak on 
+Please join us for the [next GalaxyAdmins meetup on June 18](/src/Community/GalaxyAdmins/Meetups/2015_06_18/index.md) when **[Peter Briggs](http://galacticengineer.blogspot.co.uk/)** of the [University of Manchester](http://www.manchester.ac.uk/) will speak on 
 
  **Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester**
 
@@ -206,7 +206,7 @@ GalaxyAdmins will also have an [in-person meetup at GCC2015](/src/Events/GCC2015
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div>
 
-There are [upcoming events](/Events) in seven countries on three continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/src/Events/index.md) in seven countries on three continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <table>
   <tr class="th" >
@@ -378,7 +378,7 @@ The Galaxy is expanding! Please help it grow.
 * [Computational Metabolomics Professor](https://psu.jobs/job/55363), Penn State University, Pennsylvania, United States
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 

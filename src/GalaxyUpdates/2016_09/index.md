@@ -31,7 +31,7 @@ November 7-11, 2016<br />University of Utah<br />Salt Lake City, Utah<br />Unite
 
 **Early registration for [Galaxy Admin Training 2016](/src/Events/AdminTraining2016/index.md) ends September 19.**
 
-[Galaxy Admin Training 2016](/Events/AdminTraining2016) is a weeklong event offering basic and advanced sessions.  It is being held in Salt Lake City, Utah, November 7-11, 2016, the week before [Supercomputing 16 (SC16)](http://sc16.supercomputing.org/) meets in Salt Lake.  
+[Galaxy Admin Training 2016](/src/Events/AdminTraining2016/index.md) is a weeklong event offering basic and advanced sessions.  It is being held in Salt Lake City, Utah, November 7-11, 2016, the week before [Supercomputing 16 (SC16)](http://sc16.supercomputing.org/) meets in Salt Lake.  
 
 **[Basics Session: November 7-8](/src/Events/AdminTraining2016/BasicsSession/index.md)**
 
@@ -39,7 +39,7 @@ This two day [basics session](/src/Events/AdminTraining2016/BasicsSession/index.
 
 **[Advanced Session: November 9-11](/src/Events/AdminTraining2016/AdvancedSession/index.md)**
 
-The three day [advanced session](/Events/AdminTraining2016/AdvancedSession) will build on topics covered in the [basics section](/src/Events/AdminTraining2016/BasicsSession/index.md).  This session both extends those topics, such as tool definition, and adds new ones, such as working with compute clusters and heterogeneous resources. The goal of the advanced workshop is to enable Galaxy administrators to create robust, high-performance Galaxy instances that take full advantage of available tools and compute and storage resources.
+The three day [advanced session](/src/Events/AdminTraining2016/AdvancedSession/index.md) will build on topics covered in the [basics section](/src/Events/AdminTraining2016/BasicsSession/index.md).  This session both extends those topics, such as tool definition, and adds new ones, such as working with compute clusters and heterogeneous resources. The goal of the advanced workshop is to enable Galaxy administrators to create robust, high-performance Galaxy instances that take full advantage of available tools and compute and storage resources.
 
 [Register by September 19](/src/Events/AdminTraining2016/Registration/index.md) and save up to $130 off standard registration rates (and up to $250 if you work in industry).
 
@@ -269,7 +269,7 @@ Some highlights from last month:
     Matt Chambers. 
 
 * **[CloudBridge: a Simple Cross-Cloud Python Library](https://s3.amazonaws.com/cloudbridgelib/CloudBridge.pdf)**
-    Nuwan Goonasekera, Andrew Lonie, [James Taylor](/JamesTaylor), [Enis Afgan](/src/EnisAfgan/index.md). XSEDE16.
+    Nuwan Goonasekera, Andrew Lonie, [James Taylor](/src/JamesTaylor/index.md), [Enis Afgan](/src/EnisAfgan/index.md). XSEDE16.
 
 * **[DISMISS: detection of stranded methylation in MeDIP-Seq data](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1158-7)**
     Umar Niazi, Kathrin K Geyer, Martin J Vickers, Karl F Hoffmann, Martin T Swain. *BMC Bioinformatics*, Vol. 17, No. 1. (2016), pp. 1-12, doi:10.1186/s12859-016-1158-7
@@ -362,7 +362,7 @@ The Galaxy is expanding! Please help it grow.
 * [Postdoctoral Researcher: Forest Genomics Database and Software Developer](http://compgenomics.lab.uconn.edu/join/), University of Connecticut.  "... data sharing among partner databases through Galaxy modules." <div class='red'>Act fast.</span>  
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -371,7 +371,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 80 publicly accessible Galaxy servers](/PublicGalaxyServers) and [four semi-public Galaxy services](/src/SemiPublicGalaxyServers/index.md).  Here's what happened with them in August.
+There are [over 80 publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) and [four semi-public Galaxy services](/src/SemiPublicGalaxyServers/index.md).  Here's what happened with them in August.
 
 ## New Public Galaxy Servers
 
@@ -461,7 +461,7 @@ Galaxy admins obtained the ability to install Galaxy tool’s dependencies using
 
 **Dynamic tool destinations**
 
-Our friends from Canada National Microbiology Laboratory enhanced Galaxy with feature that allows dynamic mapping of tools to destinations based on finer grained admin-specified rules. Please see the [wiki](/Admin/Config/Jobs#dynamic-destination-mapping). Implemented in [PR #2579](https://github.com/galaxyproject/galaxy/pull/2579).
+Our friends from Canada National Microbiology Laboratory enhanced Galaxy with feature that allows dynamic mapping of tools to destinations based on finer grained admin-specified rules. Please see the [wiki](/src/Admin/Config/Jobs/index.md#dynamic-destination-mapping). Implemented in [PR #2579](https://github.com/galaxyproject/galaxy/pull/2579).
 
 **Galaxy chat**
 

@@ -25,7 +25,7 @@ And, in the past month there were:
 * [One new Galaxy deployment description (deepTools)](/src/GalaxyUpdates/2014_06/index.md#galaxy-community-hubs)
 * and [a stunning number of ToolShed contributions](/src/GalaxyUpdates/2014_06/index.md#toolshed-contributions)
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

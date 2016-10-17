@@ -8,14 +8,14 @@ title: April 2012 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the April 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the April 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Papers
 
 This paper may be of interest to the Galaxy community:
 * Konstantinos Krampis, Tim Booth, Brad Chapman, Bela Tiwari, Mesude Bicak, Dawn Field and Karen Nelson , "[Cloud BioLinux: pre-configured and on-demand bioinformatics computing for the genomics community](http://www.biomedcentral.com/1471-2105/13/42/abstract)." *BMC Bioinformatics* 2012, 13:42
 
-These were among [28 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/GalaxyUpdates).  The new papers were spread [across 6 categories](http://www.citeulike.org/group/16008/tags).
+These were among [28 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/GalaxyUpdates/index.md).  The new papers were spread [across 6 categories](http://www.citeulike.org/group/16008/tags).
 <table>
   <tr>
     <th> # </th>
@@ -55,7 +55,7 @@ The Galaxy is expanding!  Please help it grow.
 * [Bioinformatician @ U Edinburgh](http://www.jobs.ed.ac.uk/vacancies/index.cfm?fuseaction=vacancies.detail&vacancy_ref=3015457)
 * [Bioinformatics Analyst @ U Virginia](http://jobs.virginia.edu/applicants/Central?quickFind=66485)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -168,14 +168,14 @@ At least *15* new repositories were added to the [Galaxy Tool Shed](http://tools
 
 ## New Distribution
 
-There has been one [Galaxy distribution](/DevNewsBriefs) in the past month.  The [most recent release (March 12)](/src/DevNewsBriefs/2012_03_12/index.md), includes these highlights:
+There has been one [Galaxy distribution](/src/DevNewsBriefs/index.md) in the past month.  The [most recent release (March 12)](/src/DevNewsBriefs/2012_03_12/index.md), includes these highlights:
 * **Emboss tools and datatypes** moving from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)* in the **NEXT release**. Read more about the upcoming **[tool migrations...](/Tool Shed#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)**
 * Galaxy tool [XML configuration](/Tool Shed#xml_configuration_files_used_to_populate_your_galaxy_tool_panel), managing [tool panel layout](/Tool Shed#managing_the_layout_of_your_galaxy_tool_panel), and Galaxy [tool versions](/Tool Shed#galaxy_tool_versions).
 * **RNA-Seq Tools:** Added **[CuffMerge](http://cufflinks.cbcb.umd.edu/)** version 1.0.0, Updated **[TopHat](http://tophat.cbcb.umd.edu/)** default parameters
 * **External Display Apps:** Added **[RViewer](http://rviewer.lbl.gov/rviewer/)**, Updated **[IGV](http://www.broadinstitute.org/igv/)**
 * Now visualize **[ENCODE](http://genome.ucsc.edu/ENCODE/) "peak" datatype tracks** in the Galaxy Track Browser (aka Trackster)
 * Multiple **Workflow** updates including enhancements to input dataset options, display modes, and sharing.
-* **[/CloudMan](/CloudMan)** now offers **[preliminary support for OpenNebula cloud type](http://bitbucket.org/galaxy/cloudman/src/tip/cm/clouds/opennebula.py)** and a **larger default tools volume** (10GB vs old 2GB).
+* **[/CloudMan](/src/CloudMan/index.md)** now offers **[preliminary support for OpenNebula cloud type](http://bitbucket.org/galaxy/cloudman/src/tip/cm/clouds/opennebula.py)** and a **larger default tools volume** (10GB vs old 2GB).
 
 ## Other News
 

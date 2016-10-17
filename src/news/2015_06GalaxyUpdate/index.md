@@ -17,14 +17,14 @@ The **[June Galactic News](/src/GalaxyUpdates/2015_06/index.md)** brings this *n
   * [Sponsorships](/src/GalaxyUpdates/2015_06/index.md#gcc2015-sponsorships)
 * **[June GalaxyAdmins Meetup](/src/GalaxyUpdates/2015_06/index.md#june-galaxyadmins-meetup)**
 * [And, 20+ events over the next 3 months](/src/GalaxyUpdates/2015_06/index.md#other-events)
-* [New releases (Galaxy, Pulsar, Planemo)](/GalaxyUpdates/2015_06#releases) and [Tool Shed contributions](/src/GalaxyUpdates/2015_06/index.md#toolshed-contributions):
+* [New releases (Galaxy, Pulsar, Planemo)](/src/GalaxyUpdates/2015_06/index.md#releases) and [Tool Shed contributions](/src/GalaxyUpdates/2015_06/index.md#toolshed-contributions):
 * [70 new publications](/src/GalaxyUpdates/2015_06/index.md#new-papers)
 * [Who's Hiring](/src/GalaxyUpdates/2015_06/index.md#whos-hiring)
 * [New public server: VirAmp](/src/GalaxyUpdates/2015_06/index.md#new-public-galaxy-servers)
 
 And, [other news](/src/GalaxyUpdates/2015_06/index.md#other-news) as well.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

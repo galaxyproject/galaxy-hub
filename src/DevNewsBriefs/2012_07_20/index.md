@@ -95,7 +95,7 @@ Several changes made in in determining errors from tool exit codes and output.  
 
 <br />
 # Announcements
-[/News](/News), *[July 2012 Galaxy Update](/src/GalaxyUpdates/2012_07/index.md)*
+[/News](/src/News/index.md), *[July 2012 Galaxy Update](/src/GalaxyUpdates/2012_07/index.md)*
 ## Collaboration
 The new RGalaxy package in Bioconductor. [Read more …](/src/News/RGalaxyWrapRFunctionsAsTools/index.md)
 <br />

@@ -52,7 +52,7 @@ https://bitbucket.org/galaxy/galaxy-dist/changeset/685a17af92dfd6a2e3d7e3c9a3a4b
 <br />
 # New Trello Issue Board
 
-The Galaxy project now has a [new issue tracking system](/Issues). The public facing ***[Trello](http://trello.com)*** board is accessible from **http://galaxyproject.org/trello** to perform simple web issue reporting. The direct link into the *Trello* board is **https://trello.com/board/galaxy-development-inbox/50686d0302dfa79d13d90c45**. Please note that the same guidelines about creating issues used previously at *Bitbucket* apply here as well - report software issues and change requests, but get support and ask questions on the mailing list: galaxy-dev@bx.psu.edu.  
+The Galaxy project now has a [new issue tracking system](/src/Issues/index.md). The public facing ***[Trello](http://trello.com)*** board is accessible from **http://galaxyproject.org/trello** to perform simple web issue reporting. The direct link into the *Trello* board is **https://trello.com/board/galaxy-development-inbox/50686d0302dfa79d13d90c45**. Please note that the same guidelines about creating issues used previously at *Bitbucket* apply here as well - report software issues and change requests, but get support and ask questions on the mailing list: galaxy-dev@bx.psu.edu.  
 
 To add new cards, the community can quickly fill out the form at http://galaxyproject.org/trello and submit (use markdown for formatting, if desired), but comment on and vote for issues directly on the *[Trello](https://trello.com/board/galaxy-development-inbox/50686d0302dfa79d13d90c45)* issue board itself.
 
@@ -211,7 +211,7 @@ Detail view of center panel:
 <br />
 # Announcements
 
-[/News](/News), *[October 2012 Galaxy Update](/src/GalaxyUpdates/2012_10/index.md)*
+[/News](/src/News/index.md), *[October 2012 Galaxy Update](/src/GalaxyUpdates/2012_10/index.md)*
 
 <br />
 ---
@@ -219,7 +219,7 @@ Detail view of center panel:
 # About Galaxy
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](/src/GalaxyTeam/index.md)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

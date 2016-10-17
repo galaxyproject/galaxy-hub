@@ -8,7 +8,7 @@ title: May 2012 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the May 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the May 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## GCC2012: Just 3 Months Away!
 
@@ -19,14 +19,14 @@ Welcome to the May 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly 
 * The [GCC2012 Training Day](/src/Events/GCC2012/TrainingDay/index.md)
   1. Has less capacity than the 2 days of the [main meeting](/src/Events/GCC2012/Program/index.md), and 
   2. So far, everyone who has [registered](/src/Events/GCC2012/Register/index.md) for the main meeting has also registered for the Training Day.
-* Cheap, *non-shared* rooms in the [James Stuckel Towers](/Events/GCC2012/Logistics#james-stuckel-towers) on the UIC campus (and adjacent to the [conference venue](/src/Events/GCC2012/Logistics/index.md#venue)) are going fast.
+* Cheap, *non-shared* rooms in the [James Stuckel Towers](/src/Events/GCC2012/Logistics/index.md#james-stuckel-towers) on the UIC campus (and adjacent to the [conference venue](/src/Events/GCC2012/Logistics/index.md#venue)) are going fast.
 * Did we mention that **[Early registration](/src/Events/GCC2012/Register/index.md) is now open?**
 
 ### Training Day: We Need Your Help!
 
 <div class='left'><a href='/Events/GCC2012/TrainingDay'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' width="130" /></a></div>
 
-***[GCC2012 Training Day](/Events/GCC2012/TrainingDay) needs your help!***  We are adding several new sessions to the [GCC2012 Training Day](/Events/GCC2012/TrainingDay) that will cover how to *use* Galaxy to perform several common kinds of analysis, such as ChIP-Seq, RNA-Seq, Metagenomics, and others.  However, before we can to do that, *[we need your input on which topics there is the most interest in](https://docs.google.com/spreadsheet/viewform?formkey=dHBIRVB6cEhpTWpGN1pXSjhGdGR0aVE6MQ#gid=0)!*
+***[GCC2012 Training Day](/src/Events/GCC2012/TrainingDay/index.md) needs your help!***  We are adding several new sessions to the [GCC2012 Training Day](/src/Events/GCC2012/TrainingDay/index.md) that will cover how to *use* Galaxy to perform several common kinds of analysis, such as ChIP-Seq, RNA-Seq, Metagenomics, and others.  However, before we can to do that, *[we need your input on which topics there is the most interest in](https://docs.google.com/spreadsheet/viewform?formkey=dHBIRVB6cEhpTWpGN1pXSjhGdGR0aVE6MQ#gid=0)!*
 
 If you are planning on or are interested in attending GCC2012, please [take 2 minutes to tell us which topics you are interested in](https://docs.google.com/spreadsheet/viewform?formkey=dHBIRVB6cEhpTWpGN1pXSjhGdGR0aVE6MQ#gid=0).  We will use your feedback to set the Training Day schedule.
 
@@ -43,7 +43,7 @@ Also, if you are interested in presenting a topic, especially a "how to use Gala
 
 <div class='left'><a href='/Events/GalaxyTourDeFrance2012'><img src='/Images/Logos/GalaxyTourDeFranceLogo400.png' alt='Galaxy Tour de France 2012' height="100" /></a></div>
 
-We are pleased to announce the **[Galaxy Tour de France 2012](/Events/GalaxyTourDeFrance2012)**, a series of workshops being held across France the week of 28 May through June 1.  The Tour will make stops in [Perpignan, Lyon and Paris](/Events/GalaxyTourDeFrance2012#itinerary).  Each day will feature a *[Galaxy for Biologists](/Events/GalaxyTourDeFrance2012)* workshop in the morning, and a *[Galaxy for Developers](/Events/GalaxyTourDeFrance2012)* workshop in the afternoon.  All workshops will be taught by [Galaxy Team](/GalaxyTeam) members [Nate Coroar](/nate), [Anton Nekrutenko](/anton) and [James Taylor](/src/JamesTaylor/index.md).
+We are pleased to announce the **[Galaxy Tour de France 2012](/src/Events/GalaxyTourDeFrance2012/index.md)**, a series of workshops being held across France the week of 28 May through June 1.  The Tour will make stops in [Perpignan, Lyon and Paris](/Events/GalaxyTourDeFrance2012#itinerary).  Each day will feature a *[Galaxy for Biologists](/src/Events/GalaxyTourDeFrance2012/index.md)* workshop in the morning, and a *[Galaxy for Developers](/src/Events/GalaxyTourDeFrance2012/index.md)* workshop in the afternoon.  All workshops will be taught by [Galaxy Team](/GalaxyTeam) members [Nate Coroar](/nate), [Anton Nekrutenko](/anton) and [James Taylor](/src/JamesTaylor/index.md).
 
 Workshop registration is free, but space at each venue is limited.  You are encouraged to reserve your spot as soon as possible.  See [Galaxy Tour de France 2012](/src/Events/GalaxyTourDeFrance2012/index.md) for details and links.
 
@@ -97,7 +97,7 @@ The Galaxy is expanding!  Please help it grow.
 * [Bioinformatics Analyst @ U Virginia](http://jobs.virginia.edu/applicants/Central?quickFind=66485)
 * [Bioinformaticians @ FDA](http://gmod.org/wiki/News/Bioinformaticians @ FDA)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 

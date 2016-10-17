@@ -23,7 +23,7 @@ See the [commit messages](https://github.com/afgane/bioblend/compare/d8925715a5a
 
 Enjoy and please let us know what you think,
 
-[Enis](/EnisAfgan) & [John](/JohnChilton) & Simone Leo & Nicola Soranzo & [The Galaxy Team](/src/GalaxyTeam/index.md)
+[Enis](/src/EnisAfgan/index.md) & [John](/JohnChilton) & Simone Leo & Nicola Soranzo & [The Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

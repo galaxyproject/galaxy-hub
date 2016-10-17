@@ -2,7 +2,7 @@
 
 To allow users to upload files to Galaxy via FTP, you'll need to configure Galaxy and install an FTP server. After everything is configured users will be able to upload their files through the FTP server and then select them for importing in the upload dialog in Galaxy.
 
-For help with uploading data via FTP on Galaxy [Main](../../../Main), please see this [tutorial](../../../FTPUpload).
+For help with uploading data via FTP on Galaxy [Main](/src/Main/index.md), please see this [tutorial](../../../FTPUpload).
 
 ## Install some FTP server
 

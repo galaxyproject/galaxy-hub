@@ -21,7 +21,7 @@ The [December 2012 Galaxy Update is now available](/src/GalaxyUpdates/2012_12/in
 
 If you have anything you would like to see in the January *[Galaxy Update](/src/GalaxyUpdates/index.md)*, please let us know.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

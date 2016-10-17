@@ -20,7 +20,7 @@ The **[November Galactic News](/src/GalaxyUpdates/2015_11/index.md)** is hot off
   * [Planemo 0.15.0 - 0.18.1](/src/GalaxyUpdates/2015_11/index.md#planemo-0150---0181)
 * and [lots of other news too](/src/GalaxyUpdates/2015_11/index.md#other-news).
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

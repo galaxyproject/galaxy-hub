@@ -17,7 +17,7 @@ We are hoping this will be the first of many meetups, both in the Baltimore area
 
 Thanks,
 
-[Enis Afgan](/EnisAfgan) and [Nitesh Turaga](/NiteshTuraga), of the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Enis Afgan](/src/EnisAfgan/index.md) and [Nitesh Turaga](/NiteshTuraga), of the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

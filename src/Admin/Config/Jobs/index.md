@@ -8,7 +8,7 @@ PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
 
 By default, jobs in Galaxy are run locally on the server on which the Galaxy application was started.  Many options are available for running Galaxy jobs on other systems, including clusters and other remote resources.
 
-This document is a reference for the job configuration file.  [Detailed documentation](/src/Admin/Config/Performance/Cluster/index.md) is provided for configuring Galaxy to work with a variety of Distributed Resource Managers (DRMs) such as TORQUE, Grid Engine, LSF, and HTCondor.  Additionally, a wide range of infrastructure decisions and configuration changes should be made when running Galaxy as a production service, as one is likely doing if using a cluster.  It is highly recommended that the [production server documentation](../../../Admin/Config/Performance/ProductionServer) and [cluster configuration documentation](/src/Admin/Config/Performance/Cluster/index.md) be read before making changes to the job configuration.
+This document is a reference for the job configuration file.  [Detailed documentation](/src/Admin/Config/Performance/Cluster/index.md) is provided for configuring Galaxy to work with a variety of Distributed Resource Managers (DRMs) such as TORQUE, Grid Engine, LSF, and HTCondor.  Additionally, a wide range of infrastructure decisions and configuration changes should be made when running Galaxy as a production service, as one is likely doing if using a cluster.  It is highly recommended that the [production server documentation](/src/Admin/Config/Performance/ProductionServer/index.md) and [cluster configuration documentation](/src/Admin/Config/Performance/Cluster/index.md) be read before making changes to the job configuration.
 
 **The most up-to-date details of advanced job configuration features can be found in the [sample job_conf.xml](https://bitbucket.org/galaxy/galaxy-central/src/tip/config/job_conf.xml.sample_advanced) found in the Galaxy distribution.**
 
@@ -352,7 +352,7 @@ Destinations may also specify other destinations (which may be dynamic destinati
 </table>
 
 
-**Note:** Currently, failure conditions for resubmission are only implemented for the [Slurm](../../../Admin/Config/Performance/Cluster) job runner plugin. Contributions for other implementations would be greatly appreciated! An example job configuration and an always-fail job runner plugin for development [can be found in this gist](https://gist.github.com/natefoo/361414fbca3c0ea63aa5).
+**Note:** Currently, failure conditions for resubmission are only implemented for the [Slurm](/src/Admin/Config/Performance/Cluster/index.md) job runner plugin. Contributions for other implementations would be greatly appreciated! An example job configuration and an always-fail job runner plugin for development [can be found in this gist](https://gist.github.com/natefoo/361414fbca3c0ea63aa5).
 
 ## Mapping Tools To Destinations
 

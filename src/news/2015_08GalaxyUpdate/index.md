@@ -22,11 +22,11 @@ The **[August Galactic News](/src/GalaxyUpdates/2015_08/index.md)** is out.  It'
   * [5 new public Galaxy servers](/src/GalaxyUpdates/2015_08/index.md#new-public-galaxy-servers) (did I mention that we skipped a month?)
   * [Community Committers!](/src/GalaxyUpdates/2015_08/index.md#community-committers)
   * [3 new Community Log Board entries, and 2 new teaching resources](/src/GalaxyUpdates/2015_08/index.md#galaxy-community-hubs)
-  * [New Releases](/GalaxyUpdates/2015_08#releases) of [BioBlend](/GalaxyUpdates/2015_08#bioblend-060-and-061) and  [Planemo](/src/GalaxyUpdates/2015_08/index.md#planemo-0130-through-0132)
+  * [New Releases](/src/GalaxyUpdates/2015_08/index.md#releases) of [BioBlend](/GalaxyUpdates/2015_08#bioblend-060-and-061) and  [Planemo](/src/GalaxyUpdates/2015_08/index.md#planemo-0130-through-0132)
   * [76 Tool Shed updates and additions from 20+ contributors](/src/ToolShed/Contributions/2015_07/index.md)
   * And, of course [other news](/src/GalaxyUpdates/2015_08/index.md#other-news) as well.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 <br />
 <div class='center'>

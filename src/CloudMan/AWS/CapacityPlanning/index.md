@@ -11,7 +11,7 @@ PLACEHOLDER_INCLUDE(/CloudMan/Header)
 </table>
 
 
-This page offers advice on how much cloud infrastructure you will need to [run your Galaxy instance on Amazon Web Services (AWS)](/CloudMan/AWS).  See the [general capacity planning page](/src/CloudMan/CapacityPlanning/index.md) for advice that applies across different cloud infrastructures.
+This page offers advice on how much cloud infrastructure you will need to [run your Galaxy instance on Amazon Web Services (AWS)](/src/CloudMan/AWS/index.md).  See the [general capacity planning page](/src/CloudMan/CapacityPlanning/index.md) for advice that applies across different cloud infrastructures.
 
 <div class='right'></div> PLACEHOLDER_INCLUDE(/CloudMan/AWS/LinkBox)
 

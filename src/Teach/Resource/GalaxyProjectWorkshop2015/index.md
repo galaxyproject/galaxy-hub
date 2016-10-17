@@ -11,8 +11,8 @@ title:  Galaxy Project Workshop 2015
 
 1. Galaxy [/Main](/src/Main/index.md)
 1. Ways to use Galaxy explained in [Choices](/src/BigPicture/Choices/index.md)
-1. [Tool Shed Wiki](/ToolShed) and Main Tool Shed at [http://usegalaxy.org/toolshed](http://usegalaxy.org/toolshed)
-1. More resources at [/Learn](/Learn), [/Support](/Support), [/Teach](/Teach), and [Galaxy Biostars](https://biostar.usegalaxy.org/) (linked access: [/Support/Biostar](/src/Support/Biostar/index.md))
+1. [Tool Shed Wiki](/src/ToolShed/index.md) and Main Tool Shed at [http://usegalaxy.org/toolshed](http://usegalaxy.org/toolshed)
+1. More resources at [/Learn](/src/Learn/index.md), [/Support](/Support), [/Teach](/Teach), and [Galaxy Biostars](https://biostar.usegalaxy.org/) (linked access: [/Support/Biostar](/src/Support/Biostar/index.md))
 
 
 # Basic Analysis with Galaxy
@@ -47,9 +47,9 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/revised-galaxy-variant
 
 Differential Expression using Tuxedo pipeline: Known vs Novel splice variants
 
-Review the source tutorial overview under [/Teach](/Teach) named *[/Teach/Resource/GVL-RNA-SeqTutorial](/Teach/Resource/GVL-RNA-SeqTutorial)*. This summary points to the full exercise created by the *[Genomics Virtual Lab (GVL)](https://docs.google.com/document/pub?id=1KbTiBHtvHLfPRZ39AY3uriazrINA8TJzgjjwn1zPP7Y)*
+Review the source tutorial overview under [/Teach](/src/Teach/index.md) named *[/Teach/Resource/GVL-RNA-SeqTutorial](/Teach/Resource/GVL-RNA-SeqTutorial)*. This summary points to the full exercise created by the *[Genomics Virtual Lab (GVL)](https://docs.google.com/document/pub?id=1KbTiBHtvHLfPRZ39AY3uriazrINA8TJzgjjwn1zPP7Y)*
 
-Wikis: [/Support#tools_on_the_main_server_rna-seq](/Support#tools_on_the_main_server_rna-seq) and several others under [/Learn#other_tutorials](/src/Learn/index.md#other_tutorials)
+Wikis: [/Support#tools_on_the_main_server_rna-seq](/src/Support/index.md#tools_on_the_main_server_rna-seq) and several others under [/Learn#other_tutorials](/src/Learn/index.md#other_tutorials)
 
 ## Known Protocol
 
@@ -199,7 +199,7 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/gvl-rna-seq-dm3-compar
 
 Polish Workflows in the editor by including annotation and variables. Learn how to customize tool panel display and tune parameters within the editor. 
 
-Wikis: [/Learn/AdvancedWorkflow](/Learn/AdvancedWorkflow) and [/Learn/AdvancedWorkflow/Extract](/Learn/AdvancedWorkflow/Extract) and [/Learn/AdvancedWorkflow/BasicEditing](/src/Learn/AdvancedWorkflow/BasicEditing/index.md)
+Wikis: [/Learn/AdvancedWorkflow](/src/Learn/AdvancedWorkflow/index.md) and [/Learn/AdvancedWorkflow/Extract](/Learn/AdvancedWorkflow/Extract) and [/Learn/AdvancedWorkflow/BasicEditing](/src/Learn/AdvancedWorkflow/BasicEditing/index.md)
 
 ## Protocol
 
@@ -218,7 +218,7 @@ Starting History [https://usegalaxy.org/u/usinggalaxy2/h/workflow0](https://useg
 
 ## Navigating Datasets and Histories
 
-Wikis: [/Histories](/Histories) and [/Learn/ManagingDatasets](/src/Learn/ManagingDatasets/index.md)
+Wikis: [/Histories](/src/Histories/index.md) and [/Learn/ManagingDatasets](/src/Learn/ManagingDatasets/index.md)
 
 1. History menu *Copy History* (use *RNA-seq Novel*)
   1. click on link to new copy
@@ -436,7 +436,7 @@ BONUS as time allows
 
 ## Custom Genomes
  
-Wikis: [/Support#custom_reference_genome](/Support#custom_reference_genome) and [/Learn/CustomGenomes](/src/Learn/CustomGenomes/index.md)
+Wikis: [/Support#custom_reference_genome](/src/Support/index.md#custom_reference_genome) and [/Learn/CustomGenomes](/src/Learn/CustomGenomes/index.md)
 
 1. History menu *Saved Histories*
 1. History menu *Copy Dataset* 

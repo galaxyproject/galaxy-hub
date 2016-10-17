@@ -19,7 +19,7 @@ Data Managers are composed of two components:
 
 ## Data Manager Configuration
 
-The Data Manager Configuration (e.g. *data_manager_conf.xml*) defines the set of available Data Managers using an [XML description](../../../../../Admin/Tools/DataManagers/DataManagerXMLSyntax). Each Data Manager can add entries to one or more [Tool Data Tables](../../../../../Admin/Tools/Data Tables). For each Tool Data Table under consideration, the expected output entry columns, and how to handle the Data Manager Tool results, are defined. 
+The Data Manager Configuration (e.g. *data_manager_conf.xml*) defines the set of available Data Managers using an [XML description](/src/Admin/Tools/DataManagers/DataManagerXMLSyntax/index.md). Each Data Manager can add entries to one or more [Tool Data Tables](../../../../../Admin/Tools/Data Tables). For each Tool Data Table under consideration, the expected output entry columns, and how to handle the Data Manager Tool results, are defined. 
 
 ## Data Manager Tool
 

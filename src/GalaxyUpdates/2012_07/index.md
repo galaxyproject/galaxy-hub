@@ -8,7 +8,7 @@ title: July 2012 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the July 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the July 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -57,11 +57,11 @@ Welcome to the July 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly
 
 These papers may be of interest to the Galaxy community:
 
-* ["Using Cloud Computing Infrastructure with CloudBioLinux, CloudMan, and Galaxy"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1109.html), by [Enis Afgan](/EnisAfgan), Brad Chapman, Margita Jadan, Vedran Franke, [James Taylor](/src/JamesTaylor/index.md), *Current Protocols in Bioinformatics*. 2012 June: Unit 11.9.
+* ["Using Cloud Computing Infrastructure with CloudBioLinux, CloudMan, and Galaxy"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1109.html), by [Enis Afgan](/src/EnisAfgan/index.md), Brad Chapman, Margita Jadan, Vedran Franke, [James Taylor](/src/JamesTaylor/index.md), *Current Protocols in Bioinformatics*. 2012 June: Unit 11.9.
 
-* ["Using Galaxy to Perform Large-Scale Interactive Data Analyses"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html), by [Jennifer Hillman-Jackson](/JenniferJackson), [Dave Clements](/DaveClements), [Daniel Blankenberg](/Dan), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton), [Galaxy Team](/src/GalaxyTeam/index.md), *Current Protocols in Bioinformatics*. 2012 June: Unit 10.5.
+* ["Using Galaxy to Perform Large-Scale Interactive Data Analyses"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html), by [Jennifer Hillman-Jackson](/src/JenniferJackson/index.md), [Dave Clements](/DaveClements), [Daniel Blankenberg](/Dan), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/anton), [Galaxy Team](/src/GalaxyTeam/index.md), *Current Protocols in Bioinformatics*. 2012 June: Unit 10.5.
 
-These papers were among [31 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/GalaxyUpdates) (for a total of 348 papers in the last ~16 months).  The new papers are spread [across 8 categories](http://www.citeulike.org/group/16008/tags).
+These papers were among [31 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/GalaxyUpdates/index.md) (for a total of 348 papers in the last ~16 months).  The new papers are spread [across 8 categories](http://www.citeulike.org/group/16008/tags).
 
 
 <br /><br /><br />
@@ -77,9 +77,9 @@ These papers were among [31 papers added to the Galaxy CiteULike group](http://w
 </div>
 
 <br />
-The [2012 Galaxy Community Conference (GCC2012)](/Events/GCC2012) will be held July 25-27, in Chicago.  [Register by July 18](/Events/GCC2012/Register) to avoid paying late registration rates.  [Register well before July 18](/Events/GCC2012/Register), if you are planning on attending the [GCC2012 Training Day](/src/Events/GCC2012/TrainingDay/index.md).  Training Day has limited space and will likely sell out before the entire conference does.
+The [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) will be held July 25-27, in Chicago.  [Register by July 18](/Events/GCC2012/Register) to avoid paying late registration rates.  [Register well before July 18](/Events/GCC2012/Register), if you are planning on attending the [GCC2012 Training Day](/src/Events/GCC2012/TrainingDay/index.md).  Training Day has limited space and will likely sell out before the entire conference does.
 
-The [program for all 3 days is now available](/Events/GCC2012/Program). This includes [12 Training Day sessions](/Events/GCC2012/TrainingDay) on [10 different topics](/Events/GCC2012/TrainingDay#workshops), and over [25 presentations](/src/Events/GCC2012/Program/index.md#day-1-july-26-thursday) by Galaxy Community and Galaxy Team members.
+The [program for all 3 days is now available](/src/Events/GCC2012/Program/index.md). This includes [12 Training Day sessions](/Events/GCC2012/TrainingDay) on [10 different topics](/Events/GCC2012/TrainingDay#workshops), and over [25 presentations](/src/Events/GCC2012/Program/index.md#day-1-july-26-thursday) by Galaxy Community and Galaxy Team members.
 
 
 
@@ -95,7 +95,7 @@ The Galaxy is expanding!  Please help it grow.
 * [Bioinformatics Analyst @ U Virginia](http://jobs.virginia.edu/applicants/Central?quickFind=66485)
 * [Bioinformaticians @ FDA](http://gmod.org/wiki/News/Bioinformaticians @ FDA)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -108,13 +108,13 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 <div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
 
 There are July (*and June 30!*) application and registration deadlines for 
-* the [Galaxy Workshops in South Africa](/News/GalaxyWorkshopsInSouthAfrica) (deadline: **June 30**) and the [South African Genetics & Bioinformatics Society Conference](http://genetics.cmc-uct.co.za/) (deadline **July 1**)
+* the [Galaxy Workshops in South Africa](/src/News/GalaxyWorkshopsInSouthAfrica/index.md) (deadline: **June 30**) and the [South African Genetics & Bioinformatics Society Conference](http://genetics.cmc-uct.co.za/) (deadline **July 1**)
 * [Systems Bioinformatics Workshop](http://gaggle.systemsbiology.net/workshop2012/) (deadline: **June 30**)
 * [GMOD Summer School](http://gmod.org/wiki/2012 GMOD Summer School) (deadline: **July 9**)
 * [GCC2012](/src/Events/GCC2012/Register/index.md) (deadline: **July 18**) 
 * and eScience 2012, Beyond the Genome, !BioVis, ISCB-Asia, and the CSHL Advanced Sequencing Technologies and Applications, and Computational and Comparative Genomics courses.  
 
-It's also a big month for conferences including Evolution, [ISMB and BOSC 2012](/Events/ISMB2012), and of course [GCC2012](/src/Events/GCC2012/index.md).
+It's also a big month for conferences including Evolution, [ISMB and BOSC 2012](/src/Events/ISMB2012/index.md), and of course [GCC2012](/src/Events/GCC2012/index.md).
 
 See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com) for details on these and other events.
 
@@ -212,7 +212,7 @@ A new version of CloudMan was [Released in June](/src/News/NewCloudManRelease/in
 ## Other News
 
 <div class='right'><a href='/News/RGalaxyWrapRFunctionsAsTools'><img src='/Images/Logos/BioconductorLogo.gif' alt='RGalaxy: Wrap R functions as Galaxy Tools' width="200" /></a></div>
-1. [RGalaxy](/News/RGalaxyWrapRFunctionsAsTools), a new [Bioconductor](http://bioconductor.org/) package, automatically generates XML definitions needed to wrap *any* R function as a Galaxy tool.
+1. [RGalaxy](/src/News/RGalaxyWrapRFunctionsAsTools/index.md), a new [Bioconductor](http://bioconductor.org/) package, automatically generates XML definitions needed to wrap *any* R function as a Galaxy tool.
 
 1. The first [GalaxyCzars](/Community/GalaxyCzars) conference call will happen July 9 or 10.  If you are interested, *please [help pick a time](http://doodle.com/f4f2f37smgcv3z6n) for the call.*
 

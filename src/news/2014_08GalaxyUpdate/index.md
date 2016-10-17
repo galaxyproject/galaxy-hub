@@ -16,7 +16,7 @@ The [August 2014 Galaxy Update Newsletter](/src/GalaxyUpdates/2014_08/index.md) 
 * [One new public server (IM-PET)](/src/GalaxyUpdates/2014_08/index.md#new-public-servers)
 * [Who's hiring?](/src/GalaxyUpdates/2014_08/index.md#whos-hiring)  It turns out that lots of places are.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

@@ -28,7 +28,7 @@ The event schedule for GCC2015 has been released, and it features a few new even
 * [Training Day](/src/GalaxyUpdates/2015_03/index.md#training-monday), 6 July
 * [GCC Meeting](/src/GalaxyUpdates/2015_03/index.md#abstract-submission-is-now-open), 7-8 July
 
-In addition, the workshop schedules for the *new* [Training SunDay](/GalaxyUpdates/2015_03#training-sunday), and the returning [Training Day](/src/GalaxyUpdates/2015_03/index.md#training-monday) have been finalised.  A record 15 topics will be covered in 18 sessions over two days of training.  There are topics on using Galaxy, interacting with it programmatically, and deploying, administering, and extending Galaxy. No matter what you do with Galaxy, there are workshops for you.
+In addition, the workshop schedules for the *new* [Training SunDay](/src/GalaxyUpdates/2015_03/index.md#training-sunday), and the returning [Training Day](/src/GalaxyUpdates/2015_03/index.md#training-monday) have been finalised.  A record 15 topics will be covered in 18 sessions over two days of training.  There are topics on using Galaxy, interacting with it programmatically, and deploying, administering, and extending Galaxy. No matter what you do with Galaxy, there are workshops for you.
 
 [Abstract submission for oral and poster presentations is now open](/src/GalaxyUpdates/2015_03/index.md#abstract-submission-is-now-open).  We again have an arrangement with !GigaScience that any oral or poster presentation will also be eligible for consideration for publication in the !GigaScience "Galaxy: Data Intensive and Reproducible Research" series (first announced for GCC2013).
 
@@ -36,7 +36,7 @@ Finally, registration is *not* open yet, but [the list of registration packages 
 
 **[Other Events](/src/GalaxyUpdates/2015_03/index.md#other-events)**
 
-And there is no shortage of other upcoming events either, including [RNA-Seq and ChIP-Seq Analysis with Galaxy, UC Davis, March 23-26](/GalaxyUpdates/2015_03#rna-seq-and-chip-seq-analysis-with-galaxy-uc-davis-march-23-26), and [at least 12 other events in the next 2 months](/src/GalaxyUpdates/2015_03/index.md#other-events).
+And there is no shortage of other upcoming events either, including [RNA-Seq and ChIP-Seq Analysis with Galaxy, UC Davis, March 23-26](/src/GalaxyUpdates/2015_03/index.md#rna-seq-and-chip-seq-analysis-with-galaxy-uc-davis-march-23-26), and [at least 12 other events in the next 2 months](/src/GalaxyUpdates/2015_03/index.md#other-events).
 
 **[Lots of other news](/src/GalaxyUpdates/2015_03/index.md)**
 
@@ -51,7 +51,7 @@ In addition, there is news on:
 * **[Galaxy on GitHub!](/src/GalaxyUpdates/2015_03/index.md#galaxy-github)** Come and join us in developing Galaxy!
 * And, [other news](/src/GalaxyUpdates/2015_03/index.md#other-news) as well.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

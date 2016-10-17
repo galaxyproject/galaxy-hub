@@ -11,7 +11,7 @@ title: Introduction to Galaxy Workshop
 **January 8, 2016**
 
 **Instructor** <br /> 
-[Anton Nekrutenko](/anton), Galaxy Project, [Penn State University](http://www.psu.edu)<br />
+[Anton Nekrutenko](/src/anton/index.md), Galaxy Project, [Penn State University](http://www.psu.edu)<br />
 
 **Location: [Life Sciences E (LSE)](https://maps.asu.edu/?id=120&mrkIid=62941) 244, Tempe Main Campus** <br />
 

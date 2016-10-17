@@ -8,7 +8,7 @@ title: November 2012 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the November 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the November 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -65,11 +65,11 @@ These papers may be of interest to the Galaxy community:
 * "[Rapid positional cloning of zebrafish mutations by linkage and homozygosity mapping using whole-genome sequencing](http://dx.doi.org/10.1242/dev.083931)," Nikolaus Obholzer, Ian A. Swinburne, Evan Schwab, Alex V. Nechiporuk, Teresa Nicolson, Sean G. Megason; *[Development](http://dev.biologists.org/)* (10 October 2012) <br />
   &rarr; *The [MegaMapper](http://bit.ly/QupZs1) package is implemented in Galaxy and [is available as a VirtualBox VM and an Amazon AMI](http://bit.ly/QupZs1).*<br /><br />
 
-* "[CloudMap: A Cloud-based Pipeline for Analysis of Mutant Genome Sequences](http://dx.doi.org/10.1534/genetics.112.144204)," Gregory Minevich, Danny S. Park, [Daniel Blankenberg](/Dan), Richard J. Poole, Oliver Hobert, *[Genetics](http://www.genetics.org/)* (10 October 2012)<br /><br />
+* "[CloudMap: A Cloud-based Pipeline for Analysis of Mutant Genome Sequences](http://dx.doi.org/10.1534/genetics.112.144204)," Gregory Minevich, Danny S. Park, [Daniel Blankenberg](/src/Dan/index.md), Richard J. Poole, Oliver Hobert, *[Genetics](http://www.genetics.org/)* (10 October 2012)<br /><br />
 
 * "[G-NEST: a gene neighborhood scoring tool to identify co-conserved, co-expressed genes](http://dx.doi.org/10.1186/1471-2105-13-253)," Danielle Lemay, William Martin, Angie Hinrichs, Monique Rijnkels, J. German, Ian Korf, Katherine Pollard, *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)*, Vol. 13, No. 1. (28 September 2012), 253<br /><br />
 
-* "[Creating re-usable tools from scripts: The Galaxy Tool Factory](http://dx.doi.org/10.1093/bioinformatics/bts573)," [Ross Lazarus](/fubar), Antony Kaspi, Mark Ziemann, [The Galaxy Team](/GalaxyTeam), *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (28 September 2012)
+* "[Creating re-usable tools from scripts: The Galaxy Tool Factory](http://dx.doi.org/10.1093/bioinformatics/bts573)," [Ross Lazarus](/src/fubar/index.md), Antony Kaspi, Mark Ziemann, [The Galaxy Team](/GalaxyTeam), *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (28 September 2012)
 
 These papers were among [44 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/GalaxyUpdates/index.md).  
 
@@ -80,7 +80,7 @@ These papers were among [44 papers added to the Galaxy CiteULike group](http://w
 
 ## New Trello Issue Board
 
-The Galaxy project has a [new issue tracking system](http://bit.ly/gxytrello), implemented with [Trello](http://trello.com).  *To [report an issue](/Issues#create-an-issue)*, fill out the form at **http://galaxyproject.org/trello** and submit (use markdown for formatting, if desired).  You can also *[comment on](/Issues#add-a-comment) and [vote for issues](/Issues#vote) directly* on the [Trello issue board](http://bit.ly/gxytrello) itself.
+The Galaxy project has a [new issue tracking system](http://bit.ly/gxytrello), implemented with [Trello](http://trello.com).  *To [report an issue](/src/Issues/index.md#create-an-issue)*, fill out the form at **http://galaxyproject.org/trello** and submit (use markdown for formatting, if desired).  You can also *[comment on](/Issues#add-a-comment) and [vote for issues](/Issues#vote) directly* on the [Trello issue board](http://bit.ly/gxytrello) itself.
 
 The same guidelines for creating issues used previously apply here as well - report software issues and change requests, but get support and ask questions on the mailing list: [galaxy-dev@bx.psu.edu](http://dev.lists.galaxyproject.org/).  
 
@@ -99,7 +99,7 @@ The Galaxy is expanding!  Please help it grow.
 * [offre CDD INRA Versailles](http://bit.ly/TKoV9h) - developpement chaine de traitements !RnaSeq sous Galaxy - France Genomique
 * The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs @ Penn State and Emory
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -202,9 +202,9 @@ Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2
 
 ## New Distributions
 
-The **[October 23, 2012 distribution](/DevNewsBriefs/2012_10_23)** includes an **[important security fix](/DevNewsBriefs/2012_10_23#compute_tool_security_fix)**; integration with a [new Trello Issue Board](/DevNewsBriefs/2012_10_23#new_trello_issue_board); [Tool Shed](/Tool Shed) direct updates; [API](/DevNewsBriefs/2012_10_23#api) fixes, tuneups, and brand-new methods to control libraries; multiple [Admin](/DevNewsBriefs/2012_10_23#source) changes enable better access to user data to solve problems; and updates to the [Visualization](/src/DevNewsBriefs/2012_10_23/index.md#visualization_framework) tool set cover Trackster, Circster, and the new Scatter Plot tool.  
+The **[October 23, 2012 distribution](/src/DevNewsBriefs/2012_10_23/index.md)** includes an **[important security fix](/DevNewsBriefs/2012_10_23#compute_tool_security_fix)**; integration with a [new Trello Issue Board](/DevNewsBriefs/2012_10_23#new_trello_issue_board); [Tool Shed](/Tool Shed) direct updates; [API](/DevNewsBriefs/2012_10_23#api) fixes, tuneups, and brand-new methods to control libraries; multiple [Admin](/DevNewsBriefs/2012_10_23#source) changes enable better access to user data to solve problems; and updates to the [Visualization](/src/DevNewsBriefs/2012_10_23/index.md#visualization_framework) tool set cover Trackster, Circster, and the new Scatter Plot tool.  
 
-The **[October 5, 2012 distribution](/DevNewsBriefs/2012_10_05)** included [migrating BWA](/DevNewsBriefs/2012_10_05#bwa_migration_to_tool_shed) to the [Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/), accessible tool versions in the UI, and new exit code features enable [clearer experimental tracking and ease reproducibility](/DevNewsBriefs/2012_10_05#tools).  This release also includes [Visualization](/DevNewsBriefs/2012_10_05#visualization_framework) updates, a new admin tool for [PostgreSQL dataset cleanup](/DevNewsBriefs/2012_10_05#dataset_cleanup), and improvements in [API](/DevNewsBriefs/2012_10_05#ap), [Workflow](/DevNewsBriefs/2012_10_05#workflows),  and [Security](/src/DevNewsBriefs/2012_10_05/index.md#security_fixes) components.
+The **[October 5, 2012 distribution](/src/DevNewsBriefs/2012_10_05/index.md)** included [migrating BWA](/DevNewsBriefs/2012_10_05#bwa_migration_to_tool_shed) to the [Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/), accessible tool versions in the UI, and new exit code features enable [clearer experimental tracking and ease reproducibility](/DevNewsBriefs/2012_10_05#tools).  This release also includes [Visualization](/DevNewsBriefs/2012_10_05#visualization_framework) updates, a new admin tool for [PostgreSQL dataset cleanup](/DevNewsBriefs/2012_10_05#dataset_cleanup), and improvements in [API](/DevNewsBriefs/2012_10_05#ap), [Workflow](/DevNewsBriefs/2012_10_05#workflows),  and [Security](/src/DevNewsBriefs/2012_10_05/index.md#security_fixes) components.
 
 
 ## Other News

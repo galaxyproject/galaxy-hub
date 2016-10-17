@@ -8,7 +8,7 @@ title: January 2015 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the January *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the January *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # New Papers
 
@@ -100,7 +100,7 @@ The new papers covered these topics:
 
 
 <br />
-[GCC2015 Training Day](http://gcc2015.tsl.ac.uk/training-day/) topics are [nominated by you](http://bit.ly/gcc2015tdnom), the Galaxy Community.  Please take a few minutes to nominate a topic.  Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic. If you are looking for ideas, see what topics were nominated in [2013](http://bit.ly/1i2j1gN) and [2014](http://bit.ly/1s6NtMN), and the [/Events](/Events) and the [Events Archives](/src/Events/Archive/index.md).
+[GCC2015 Training Day](http://gcc2015.tsl.ac.uk/training-day/) topics are [nominated by you](http://bit.ly/gcc2015tdnom), the Galaxy Community.  Please take a few minutes to nominate a topic.  Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic. If you are looking for ideas, see what topics were nominated in [2013](http://bit.ly/1i2j1gN) and [2014](http://bit.ly/1s6NtMN), and the [/Events](/src/Events/index.md) and the [Events Archives](/src/Events/Archive/index.md).
 
 Nominated topics will be published on the [Training Day](http://gcc2015.tsl.ac.uk/training-day/) page as they come in.  **Nominations close 6 January**.  Topics will be compiled into a uniform list by the [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers), and topics will be voted on by the Galaxy Community 12-23 January.
 
@@ -130,7 +130,7 @@ Please let the GCC2015 Organising Committee ([gcc2015-org AT lists DOT galaxypro
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div>
 
-There are [upcoming events](/Events) on two continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/src/Events/index.md) on two continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <table>
   <tr class="th" >
@@ -205,7 +205,7 @@ There are [upcoming events](/Events) on two continents.  See the [Galaxy Events 
 
 *We just don't know exactly when, yet ...*
 
-Except for a [meetup at GCC2014](/Events/GCC2014/BoFs/GalaxyAdmins), the [GalaxyAdmins group](/Community/GalaxyAdmins) has been hiatus for a while.  Well, thanks to the efforts of [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) the GalaxyAdmins group *is back.*   Starting this month, we will resume our bi-monthly conference calls.  
+Except for a [meetup at GCC2014](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md), the [GalaxyAdmins group](/Community/GalaxyAdmins) has been hiatus for a while.  Well, thanks to the efforts of [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) the GalaxyAdmins group *is back.*   Starting this month, we will resume our bi-monthly conference calls.  
 
 *Galaxy-Admins* is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
 
@@ -227,13 +227,13 @@ The likely presentation for the January meetup will be a summary of the Galaxy C
 
 The Galaxy is expanding! Please help it grow.
 
-* [Systems Administrator / Information Technologist](/News/McMasterOpening), [McArthur Lab](http://mcarthurbioinformatics.ca/) in the [McMaster University Department of Biochemistry & Biomedical Sciences](http://fhs.mcmaster.ca/biochem/)
+* [Systems Administrator / Information Technologist](/src/News/McMasterOpening/index.md), [McArthur Lab](http://mcarthurbioinformatics.ca/) in the [McMaster University Department of Biochemistry & Biomedical Sciences](http://fhs.mcmaster.ca/biochem/)
 * [Senior Development Engineer - Bioinformatics](http://bit.ly/1yGvefn), and [Bioinformatician II](http://bit.ly/1vBhgxB), University of Massachusetts Medical School
-* Searching for [bioinformaticians, post-docs, PhD students and software engineers](/News/BioinformaticianFreiburg2014) in Freiburg, Germany at [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs), and the [Bioinformatics Group at the University of Freiburg](http://www.bioinf.uni-freiburg.de//?en)
+* Searching for [bioinformaticians, post-docs, PhD students and software engineers](/src/News/BioinformaticianFreiburg2014/index.md) in Freiburg, Germany at [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs), and the [Bioinformatics Group at the University of Freiburg](http://www.bioinf.uni-freiburg.de//?en)
 * [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -298,16 +298,16 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 Several new [Training Resources](/src/Teach/Resources/index.md) were added in December:
 
-* [UC Davis RNA-Seq and ChIP-Seq Analysis with Galaxy Workshop](/Teach/Resource/UCDavisRNAChIPWorkshop) from the [UC Davis Bioinformatics Core](http://bioinformatics.ucdavis.edu/)
-* [Running your own Galaxy instance (in the cloud)](/Teach/Resource/CHBHarvardCloudMan) from the [Center for Health Bioinformatics](http://compbio.sph.harvard.edu/chb/) at the [Harvard School of Public Health](http://www.hsph.harvard.edu/) 
-* [Introduction to Galaxy](/Teach/Resource/CHBHarvardIntro) from the [Center for Health Bioinformatics](http://compbio.sph.harvard.edu/chb/) at the [Harvard School of Public Health](http://www.hsph.harvard.edu/)
+* [UC Davis RNA-Seq and ChIP-Seq Analysis with Galaxy Workshop](/src/Teach/Resource/UCDavisRNAChIPWorkshop/index.md) from the [UC Davis Bioinformatics Core](http://bioinformatics.ucdavis.edu/)
+* [Running your own Galaxy instance (in the cloud)](/src/Teach/Resource/CHBHarvardCloudMan/index.md) from the [Center for Health Bioinformatics](http://compbio.sph.harvard.edu/chb/) at the [Harvard School of Public Health](http://www.hsph.harvard.edu/) 
+* [Introduction to Galaxy](/src/Teach/Resource/CHBHarvardIntro/index.md) from the [Center for Health Bioinformatics](http://compbio.sph.harvard.edu/chb/) at the [Harvard School of Public Health](http://www.hsph.harvard.edu/)
 
 
 # New Releases
 
-[BioBlend v0.5.2 was released in October](/News/BioBlendV0.5.2).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  
+[BioBlend v0.5.2 was released in October](/src/News/BioBlendV0.5.2/index.md).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  
 
-New versions of [Galaxy](/GalaxyUpdates/2014_09#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were all released in August.
+New versions of [Galaxy](/src/GalaxyUpdates/2014_09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were all released in August.
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
 

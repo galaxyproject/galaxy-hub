@@ -62,7 +62,7 @@ If the wiki option seems a little daunting, **you can also describe this resourc
 
 To add a virtual appliance to this directory, create a wiki page describing the appliance:
 
-1. [Login|&action=login](/VirtualAppliances) to the wiki. If you don't have an account, you'll need to [create one|&action=newaccount](/src/Community/Deployments/index.md).
+1. [Login|&action=login](/src/VirtualAppliances/index.md) to the wiki. If you don't have an account, you'll need to [create one|&action=newaccount](/src/Community/Deployments/index.md).
 1. Pick a good descriptive, !CamelCase name for the appliance.  This will become part of the URL for the page describing the appliance.  *Avoid embedded spaces as they make lousy URLs.*
 1. Type the !CamelCase name in box below and hit the "Create" button.
     . PLACEHOLDER_NEW_PAGE(VirtualAppliances/VATemplate, "Create a virtual appliance description page", VA)

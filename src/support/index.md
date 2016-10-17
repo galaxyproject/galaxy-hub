@@ -44,7 +44,7 @@ The Big Picture: **[Galaxy NGS 101](/src/Learn/GalaxyNGS101/index.md)**
 
 ## Learning Hub
 
-See our [Learning](/Learn) hub for key coverage of Galaxy user interface concepts, data, and tools. Review "Shared Data &rarr; Published Pages" on the [/Main](/Main) server [usegalaxy.org](http://usegalaxy.org) for publication supplementals and tutorials. **Also see the section at the top of this wiki *End-User Support Resource Short List***.
+See our [Learning](/src/Learn/index.md) hub for key coverage of Galaxy user interface concepts, data, and tools. Review "Shared Data &rarr; Published Pages" on the [/Main](/Main) server [usegalaxy.org](http://usegalaxy.org) for publication supplementals and tutorials. **Also see the section at the top of this wiki *End-User Support Resource Short List***.
 
 ## Screencasts
 
@@ -60,10 +60,10 @@ Galaxy has teamed up with [Biostar](http://biostars.org) to create a Galaxy User
 <br />
  **[How to login and use...](/src/Support/Biostar/index.md)**
 <div class='right'><a href='https://biostar.usegalaxy.org/'><img src='/Images/Logos/GalaxyBiostar.png' alt='Galaxy Biostar' width="250" /></a></div>
-We want to create a space where researchers using Galaxy can come together and share both scientific advice and practical tool help.  Whether on **[http://usegalaxy.org](http://usegalaxy.org)**, a **[Cloudman](http://usegalaxy.org/cloud)** instance, or any **[other](/PublicGalaxyServers) [Galaxy](http://getgalaxy.org)**, if you have something to say about **Using Galaxy**, this is the place to do it!
+We want to create a space where researchers using Galaxy can come together and share both scientific advice and practical tool help.  Whether on **[http://usegalaxy.org](http://usegalaxy.org)**, a **[Cloudman](http://usegalaxy.org/cloud)** instance, or any **[other](/src/PublicGalaxyServers/index.md) [Galaxy](http://getgalaxy.org)**, if you have something to say about **Using Galaxy**, this is the place to do it!
 
 ## Mailing Lists
-Galaxy has one public mailing lists for questions, one private mailing list for bug reports, and one announcement mailing list. Please do not post questions through the **[Galaxy Issue Board](/Issues)**; these will only be redirected. Manage subscriptions and learn more about these list at the **[Mailing Lists](/src/MailingLists/index.md)** home page. See also:
+Galaxy has one public mailing lists for questions, one private mailing list for bug reports, and one announcement mailing list. Please do not post questions through the **[Galaxy Issue Board](/src/Issues/index.md)**; these will only be redirected. Manage subscriptions and learn more about these list at the **[Mailing Lists](/src/MailingLists/index.md)** home page. See also:
 <div class='right'>![](/Images/Logos/MailmanLogoSmall.png)</div>
 * [Error from tools: Sending in a specific-use bug report](/src/Support/index.md#error_from_tools)
 * [Starting a technical tool, local, cloud instance, or development thread](/src/Support/index.md#starting_a_technical_tool2c_local2fcloud_instance2c_or_development_thread)

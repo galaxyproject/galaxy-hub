@@ -25,7 +25,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 <div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
  
-This page describes the **Galaxy End-Users** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
+This page describes the **Galaxy End-Users** [Birds of a Feather](/src/Events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
 
 # Description
 

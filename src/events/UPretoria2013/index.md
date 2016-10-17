@@ -11,7 +11,7 @@ title: NGS Data Analysis and Galaxy Workshop
 
 
 
-**Instructors: [Dave Clements](/DaveClements), [Burger van Jaarsveld](https://www.linkedin.com/pub/burger-van-jaarsveld/4a/561/566), [Fourie Joubert](http://science.up.ac.za/html/fourie_joubert.html)
+**Instructors: [Dave Clements](/src/DaveClements/index.md), [Burger van Jaarsveld](https://www.linkedin.com/pub/burger-van-jaarsveld/4a/561/566), [Fourie Joubert](http://science.up.ac.za/html/fourie_joubert.html)
 
 14-18 October 2013<br />
 8:30-16:30  <br />

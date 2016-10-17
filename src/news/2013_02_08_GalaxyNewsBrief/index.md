@@ -13,7 +13,7 @@ date: 2013-02-09T01:15:37Z
 * New *[Bedgraph-to-bigwig](http://wiki.galaxyproject.org/Learn/Datatypes#BedGraph)* tool plus *Filter* tool updated.
 * *Workflows* now include option to export an image and the core *Framework* now allows more unified reference genome usage and access.
 * *Ten Community Pull-Requests* incorporated, plus another contribution to the tool Shed, addressing general usability, API, tools, error handling, workflows, and more. Thanks!!
-* Review highlights from the latest monthly *[Galaxy Update](/GalaxyUpdates)* newsletter and [Galaxy Project Stats!](/Galaxy Project/Statistics)
+* Review highlights from the latest monthly *[Galaxy Update](/src/GalaxyUpdates/index.md)* newsletter and [Galaxy Project Stats!](/Galaxy Project/Statistics)
 * Plus bug fixes and related enhancements for visualizations, histories, workflows, and tools.
 
 
@@ -31,7 +31,7 @@ upgrade: $ hg pull
 ```
 
 
-*To receive email updates about [Galaxy Distributions and News Briefs](/DevNewsBriefs), be sure to subscribe to the [Galaxy-Announce mailing list](/MailingLists#the_lists), a low-volume list dedicated to [News Items](/News) and priority messages from the Galaxy [community](/Community) and [project core team](/Galaxy Project).* 
+*To receive email updates about [Galaxy Distributions and News Briefs](/src/DevNewsBriefs/index.md), be sure to subscribe to the [Galaxy-Announce mailing list](/MailingLists#the_lists), a low-volume list dedicated to [News Items](/News) and priority messages from the Galaxy [community](/Community) and [project core team](/Galaxy Project).* 
 
 Thanks for using Galaxy,
 

@@ -22,14 +22,14 @@ Some highlights from the **[June Galaxy News](/src/GalaxyUpdates/2016_06/index.m
   * [All June, July, and August Events](/src/GalaxyUpdates/2016_06/index.md#june-july-and-august-events)
 * [Papers](/src/GalaxyUpdates/2016_06/index.md#new-papers) (76 of them, 4 highlighted)
 * [Open positions](/src/GalaxyUpdates/2016_06/index.md#whos-hiring) (5 of them)
-* New [Semi-Public Galaxy Servers Directory](/GalaxyUpdates/2016_06#new-semi-public-galaxy-servers-directory) and new [Commercial Support Directory](/src/GalaxyUpdates/2016_06/index.md#new-commercial-support-directory)
+* New [Semi-Public Galaxy Servers Directory](/src/GalaxyUpdates/2016_06/index.md#new-semi-public-galaxy-servers-directory) and new [Commercial Support Directory](/src/GalaxyUpdates/2016_06/index.md#new-commercial-support-directory)
 * A new [Galaxy Trainer](/src/GalaxyUpdates/2016_06/index.md#galaxy-community-hubs) 
-* New [Releases](/GalaxyUpdates/2016_06#releases): [Galaxy v16.04](/GalaxyUpdates/2016_06#galaxy-v1604), [CloudMan 16.04](/GalaxyUpdates/2016_06#cloudman-1604), [Planemo](/GalaxyUpdates/2016_06#planemo-0250---0260), and [galaxy-lib](/src/GalaxyUpdates/2016_06/index.md#galaxy-lib-1671---1677).
-* [April and May ToolShed Contributions](/GalaxyUpdates/2016_06#toolshed-contributions), and [other news](/src/GalaxyUpdates/2016_06/index.md#other-news) too.
+* New [Releases](/src/GalaxyUpdates/2016_06/index.md#releases): [Galaxy v16.04](/GalaxyUpdates/2016_06#galaxy-v1604), [CloudMan 16.04](/GalaxyUpdates/2016_06#cloudman-1604), [Planemo](/GalaxyUpdates/2016_06#planemo-0250---0260), and [galaxy-lib](/src/GalaxyUpdates/2016_06/index.md#galaxy-lib-1671---1677).
+* [April and May ToolShed Contributions](/src/GalaxyUpdates/2016_06/index.md#toolshed-contributions), and [other news](/src/GalaxyUpdates/2016_06/index.md#other-news) too.
 
 Hope to [see you in Bloomington](https://gcc2016.iu.edu/),
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

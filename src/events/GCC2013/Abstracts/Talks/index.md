@@ -271,7 +271,7 @@ Ion Torrent has invented the first device—a new semiconductor chip—capable o
 
 <div class='right'>![](/GalaxyTeam/anton.jpg)&nbsp;![](/src/GalaxyTeam/james.jpg)</div>
 
-**[Anton Nekrutenko](/anton)<sup>1</sup> and [James Taylor](/src/JamesTaylor/index.md)<sup>2</sup>**
+**[Anton Nekrutenko](/src/anton/index.md)<sup>1</sup> and [James Taylor](/src/JamesTaylor/index.md)<sup>2</sup>**
 
  <sup>1</sup> [Penn State University](http://psu.edu/)<br />
  <sup>2</sup> [Emory University](http://emory.edu/)
@@ -429,7 +429,7 @@ We will present an overview of the requirements to move Galaxy into the Clinical
 
 <div class='right'><a href='/Dan'><img src='/GalaxyTeam/greg.jpg' alt='Greg Von Kuster' width="120" /></a></div>
 
-**[Greg von Kuster](/greg_vonkuster)**, [Daniel Blankenberg](/src/Dan/index.md)
+**[Greg von Kuster](/src/greg_vonkuster/index.md)**, [Daniel Blankenberg](/src/Dan/index.md)
  Penn State / Galaxy Team
 
 *[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/VonKusterToolShed.pdf), [Vimeo](https://vimeo.com/74347850)*
@@ -450,7 +450,7 @@ To ensure the quality of the Tool Shed and the available contributed Utilities, 
 
 <div class='right'><a href='/CarlEberhard'><img src='/GalaxyTeam/carl.jpg' alt='' width="120" /></a></div>
 
-**[Carl Eberhard](/CarlEberhard)**<sup>1</sup>, [Jeremy Goecks](/JeremyGoecks)<sup>1</sup>, [The Galaxy Team](/GalaxyTeam)<sup>1,2</sup>, [Anton Nekrutenko](/anton)<sup>2</sup>, and [James Taylor](/src/JamesTaylor/index.md)<sup>1</sup>
+**[Carl Eberhard](/src/CarlEberhard/index.md)**<sup>1</sup>, [Jeremy Goecks](/JeremyGoecks)<sup>1</sup>, [The Galaxy Team](/GalaxyTeam)<sup>1,2</sup>, [Anton Nekrutenko](/anton)<sup>2</sup>, and [James Taylor](/src/JamesTaylor/index.md)<sup>1</sup>
 
  <sup>1</sup> Emory University<br />
  <sup>2</sup> Penn State University
@@ -485,7 +485,7 @@ Data Managers can be defined locally or installed automatically from a Tool Shed
 
 <div class='right'><a href='/DannonBaker'><img src='/GalaxyTeam/dannon.jpg' alt='' width="120" /></a></div>
 
-**[Dannon Baker](/DannonBaker)**<sup>1</sup>, [Nate Coraor](/nate)<sup>2</sup>, [John Chilton](/src/JohnChilton/index.md)<sup>3</sup> 
+**[Dannon Baker](/src/DannonBaker/index.md)**<sup>1</sup>, [Nate Coraor](/nate)<sup>2</sup>, [John Chilton](/src/JohnChilton/index.md)<sup>3</sup> 
 
  <sup>1</sup> Emory University<br />
  <sup>2</sup> Penn State<br />

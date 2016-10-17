@@ -14,7 +14,7 @@ The Galaxy **Main** instance is available as a free public service at [UseGalaxy
 
 Anyone can use the public servers, with or without an account, but Galaxy [user accounts](/Learn/User Accounts) are simple to create (email, password, user name and go!). With an account, data quotas are increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages). Remember, Galaxy's **[Terms and Conditions](https://usegalaxy.org/static/terms.html)** specifically declare a "one-account per user" requirement.
 
-To understand if Main is the right Galaxy choice for your project, please see [Choices](/BigPicture/Choices) for a description of the different types of possible Galaxy instances. Galaxy is available to [install as a local instance](/Admin/GetGalaxy), to run [on the cloud](/CloudMan), to use at other [/Public Galaxy Servers](/Public Galaxy Servers), or preinstalled on your own Galaxy [appliance](http://www.bioteam.net/slipstream/galaxy-edition).
+To understand if Main is the right Galaxy choice for your project, please see [Choices](/src/BigPicture/Choices/index.md) for a description of the different types of possible Galaxy instances. Galaxy is available to [install as a local instance](/Admin/GetGalaxy), to run [on the cloud](/CloudMan), to use at other [/Public Galaxy Servers](/Public Galaxy Servers), or preinstalled on your own Galaxy [appliance](http://www.bioteam.net/slipstream/galaxy-edition).
 
 ## Information about Main
 
@@ -205,7 +205,7 @@ Any jobs queued after the limit of 8 has been met will remain in the status "pau
 
 ### When can I run jobs on the Main instance again?
 #### Data
-Reduce the amount of data in your account. Start with removing any Histories that are no longer needed on the **Options → Saved Histories** form with the option **Delete Permanently**. More information about how to manage data is covered in this wiki [Managing Datasets](/Learn/ManagingDatasets) and in this video [Managing Histories](http://vimeo.com/galaxyproject/managehistories).
+Reduce the amount of data in your account. Start with removing any Histories that are no longer needed on the **Options → Saved Histories** form with the option **Delete Permanently**. More information about how to manage data is covered in this wiki [Managing Datasets](/src/Learn/ManagingDatasets/index.md) and in this video [Managing Histories](http://vimeo.com/galaxyproject/managehistories).
 
 #### Jobs
 To gain access to the server again, no user action is needed. When your existing jobs complete and number less than 6, new jobs will be added to the queue to execute (maximum of 6 concurrent). 

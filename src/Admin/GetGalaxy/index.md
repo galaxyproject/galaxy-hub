@@ -5,7 +5,7 @@ autotoc: true
 
 <div class='right'></div>
 
-In addition to using the [public Galaxy server](http://usegalaxy.org/) (a.k.a. [Main](../../Main)), you can install your own instance of Galaxy (what this page is about), or create a [cloud-based instance of Galaxy](../../Cloud).  Another option is to use one of the ever-increasing number of [public Galaxies](/src/PublicGalaxyServers/index.md) hosted by other organizations.
+In addition to using the [public Galaxy server](http://usegalaxy.org/) (a.k.a. [Main](/src/Main/index.md)), you can install your own instance of Galaxy (what this page is about), or create a [cloud-based instance of Galaxy](../../Cloud).  Another option is to use one of the ever-increasing number of [public Galaxies](/src/PublicGalaxyServers/index.md) hosted by other organizations.
 
 See [Big Picture: Choices](/src/BigPicture/Choices/index.md) for help on deciding which of these options may be best for your situation.
 
@@ -14,7 +14,7 @@ See [Big Picture: Choices](/src/BigPicture/Choices/index.md) for help on decidin
 You only need to download Galaxy if you plan to:
 
 * Run a local [production Galaxy](/src/Admin/Config/Performance/ProductionServer/index.md) because you want to
-  * [install](../../Admin/Tools/AddToolTutorial) and use tools unavailable on [public Galaxies](/src/PublicGalaxyServers/index.md)
+  * [install](/src/Admin/Tools/AddToolTutorial/index.md) and use tools unavailable on [public Galaxies](/src/PublicGalaxyServers/index.md)
   * use sensitive data (e.g. clinical)
   * process large datasets that are too big for public Galaxies
   * [plug-in](/src/Admin/Internals/DataSources/index.md) new datasources

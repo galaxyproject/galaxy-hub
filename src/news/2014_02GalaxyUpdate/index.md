@@ -16,7 +16,7 @@ The [25th Edition of Galaxy Update is out](/src/GalaxyUpdates/2014_02/index.md).
 * [Who's hiring](/src/GalaxyUpdates/2014_02/index.md#whos-hiring)
 * [Upcoming Events](/src/GalaxyUpdates/2014_02/index.md#events), including
   * Registration for [GCC2014 opens February 10](/src/GalaxyUpdates/2014_02/index.md#gcc2014-june-30---july-2-baltimore)
-  * Registration for the [Galaxy Australasia Workshop 2014 (GAW 2014)](/GalaxyUpdates/2014_02#galaxy-australasia-workshop-2014-gaw-2014) and [GMOD Malaysia 2014](/src/GalaxyUpdates/2014_02/index.md#gmod-malaysia-2014) are open.
+  * Registration for the [Galaxy Australasia Workshop 2014 (GAW 2014)](/src/GalaxyUpdates/2014_02/index.md#galaxy-australasia-workshop-2014-gaw-2014) and [GMOD Malaysia 2014](/src/GalaxyUpdates/2014_02/index.md#gmod-malaysia-2014) are open.
 * [Three new public Galaxy servers](/src/GalaxyUpdates/2014_02/index.md#new-public-servers)
 * [January 2014 CloudMan Release](/src/GalaxyUpdates/2014_02/index.md#galaxy-distributions)
 * New [Galaxy Deployment Catalog](/src/GalaxyUpdates/2014_02/index.md#galaxy-community-hubs) and [Community Log Board](/src/GalaxyUpdates/2014_02/index.md#galaxy-community-hubs) entries
@@ -26,7 +26,7 @@ The [25th Edition of Galaxy Update is out](/src/GalaxyUpdates/2014_02/index.md).
 
 If you have anything you would like to see in the next *[Galaxy Update](/src/GalaxyUpdates/index.md)*, please let us know.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

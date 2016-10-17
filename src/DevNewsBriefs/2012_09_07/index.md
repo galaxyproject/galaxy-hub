@@ -45,7 +45,7 @@ Genomes are organized in directories by the `dbkey`. If you are not sure of the 
 
 <br />
 # More Updates to Output and Error Handling
-As reported in the *[July 20th, 2012 News Brief](/DevNewsBriefs/2012_07_20)*, several changes have been made to the underlying code that determines run result state from tool exit codes and output. There are now additional enhancements to applying regular expressions and exit code checks. [Read more...](/src/Admin/Tools/ToolConfigSyntax/index.md#a3cstdio3e2c_3cregex3e2c_and_3cexit_code3e_tag_sets)
+As reported in the *[July 20th, 2012 News Brief](/src/DevNewsBriefs/2012_07_20/index.md)*, several changes have been made to the underlying code that determines run result state from tool exit codes and output. There are now additional enhancements to applying regular expressions and exit code checks. [Read more...](/src/Admin/Tools/ToolConfigSyntax/index.md#a3cstdio3e2c_3cregex3e2c_and_3cexit_code3e_tag_sets)
 
 <br />
 # Tools
@@ -79,7 +79,7 @@ As reported in the *[July 20th, 2012 News Brief](/DevNewsBriefs/2012_07_20)*, se
 * *Enhancements*
   * Enable visualization of **[bedGraph](http://genome.ucsc.edu/goldenPath/help/bedgraph.html)** datasets
   * Server-side code for coverage histograms
-  * Add feature search to **[Trackster](/Learn/Visualization)** ; typing in location box will search tracks in visualization for features that start with entered text. Works with **[GFF](/Learn/Datatypes#gff)**, **[GTF](/Learn/Datatypes#gtf)**, and **[BED](/Learn/Datatypes#bed)** datasets. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/611](https://bitbucket.org/galaxy/galaxy-central/issue/611)
+  * Add feature search to **[Trackster](/src/Learn/Visualization/index.md)** ; typing in location box will search tracks in visualization for features that start with entered text. Works with **[GFF](/Learn/Datatypes#gff)**, **[GTF](/Learn/Datatypes#gtf)**, and **[BED](/Learn/Datatypes#bed)** datasets. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/611](https://bitbucket.org/galaxy/galaxy-central/issue/611)
 
 <a href='/Learn/Visualization'><img src='/Images/NewsGraphics/2012_09_07_trackster-feature-search.png' alt='trackster-feature-search.png' width=800 /></a>
 
@@ -182,7 +182,7 @@ Now the above entry still works, but the following entry is also ok (notice the 
 
 <br />
 # Announcements
-[/News](/News), *[August](/src/GalaxyUpdates/2012_09/index.md)* and *[September](/src/GalaxyUpdates/2012_09/index.md)* *2012 Galaxy Updates*
+[/News](/src/News/index.md), *[August](/src/GalaxyUpdates/2012_09/index.md)* and *[September](/src/GalaxyUpdates/2012_09/index.md)* *2012 Galaxy Updates*
 
 <div class='right'><a href='/GalaxyUpdates/2012_09'><img src='/Images/Logos/GalaxyUpdate200.png' alt='September 2012 Galaxy Update' width=150 /></a></div>
 
@@ -214,7 +214,7 @@ The Galaxy is expanding!  Please help it grow.
 * The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs @ Penn State and Emory
 * [Bioinformatics & Integrative Genomics Specialist - Manager Bioinformatics Consulting Core](http://www.nature.com/naturejobs/science/jobs/275747-Bioinformatics-Integrative-Genomics-Specialist-Manager-Bioinformatics-Consulting-Core) @ Leuven, Belgium
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it the next [Galaxy Update](/GalaxyUpdates) and [News Brief](/src/DevNewsBriefs/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it the next [Galaxy Update](/GalaxyUpdates) and [News Brief](/src/DevNewsBriefs/index.md).
 <br />
 <br />
 ---
@@ -223,7 +223,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 # About Galaxy
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](/src/GalaxyTeam/index.md)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

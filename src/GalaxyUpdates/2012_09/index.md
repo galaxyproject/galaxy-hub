@@ -8,7 +8,7 @@ title: September 2012 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the September 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the September 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -55,13 +55,13 @@ Welcome to the September 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a mo
 
 These papers may be of interest to the Galaxy community:
 
-* "[Next-generation sequencing data interpretation: enhancing reproducibility and accessibility](http://www.nature.com/nrg/journal/v13/n9/abs/nrg3305.html)", by [Nekrutenko](/anton) & [Taylor](/JamesTaylor), *[Nature Reviews Genetics](http://www.nature.com/nrg/index.html)*, 13, 667-672 (September 2012)
+* "[Next-generation sequencing data interpretation: enhancing reproducibility and accessibility](http://www.nature.com/nrg/journal/v13/n9/abs/nrg3305.html)", by [Nekrutenko](/src/anton/index.md) & [Taylor](/JamesTaylor), *[Nature Reviews Genetics](http://www.nature.com/nrg/index.html)*, 13, 667-672 (September 2012)
 
 * "[IBDsite: a Galaxy-interacting, integrative database for supporting Inflammatory Bowel Disease high throughput data analysis](http://dx.doi.org/10.1186/1471-2105-13-S14-S5)", by Merelli, Viti, Milanesi, *BMC Bioinformatics*, Vol. 13, No. Suppl 14. (2011), S5
 
 * "[Data Mining as a Discovery Tool for Imprinted Genes Genomic Imprinting](http://rd.springer.com/protocol/10.1007/978-1-62703-011-3_7)", by  Chelsea Brideau, Paul Soloway, *[Methods in Molecular Biology](http://www.springerlink.com/content/1064-3745/)*, Vol. 925 (2012)
 
-These papers were among [46 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/GalaxyUpdates) (for a total of 421 papers in the last ~19 months).  The new papers are spread [across 7 categories](http://www.citeulike.org/group/16008/tags).
+These papers were among [46 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/GalaxyUpdates/index.md) (for a total of 421 papers in the last ~19 months).  The new papers are spread [across 7 categories](http://www.citeulike.org/group/16008/tags).
 
 <br />
 
@@ -84,7 +84,7 @@ The Galaxy is expanding!  Please help it grow.
 * [Bioinformatics & Integrative Genomics Specialist - Manager Bioinformatics Consulting Core](http://www.nature.com/naturejobs/science/jobs/275747-Bioinformatics-Integrative-Genomics-Specialist-Manager-Bioinformatics-Consulting-Core) @ Leuven, Belgium
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -103,7 +103,7 @@ There are September application, poster, and paper deadlines for
 * [Personal Genomes and Medical Genomics](http://meetings.cshl.edu/meetings/pgmg12.shtml), CSHL (deadline August 31)
 * [ISCB-Asia/SCCG 2012](http://www.iscb.org/iscb-asia2012) posters
 
-September events include [Galaxy workshops and talks in South Africa](/News/GalaxyWorkshopsInSouthAfrica), the [Automated and reproducible analysis of NGS data (ARANGS12)](http://gtpb.igc.gulbenkian.pt/bicourses/ARANGS12), [Beyond the Genome 2012](http://www.beyond-the-genome.com/2012_event.html), and [ICG Americas 2012](http://www.icgamericas.org/).
+September events include [Galaxy workshops and talks in South Africa](/src/News/GalaxyWorkshopsInSouthAfrica/index.md), the [Automated and reproducible analysis of NGS data (ARANGS12)](http://gtpb.igc.gulbenkian.pt/bicourses/ARANGS12), [Beyond the Genome 2012](http://www.beyond-the-genome.com/2012_event.html), and [ICG Americas 2012](http://www.icgamericas.org/).
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
@@ -241,7 +241,7 @@ The workshop is part of the SyBIT Tech Day series.
 A new mailing list has been launched, specifically for the French Galaxy Community:
 * [Liste de diffusion Galaxy France](http://france.list.galaxyproject.org/)
 
-This list is intended to communicate and share our experiences with Galaxy in France. The official language of this list is French.  See the [list announcement](/News/ListeDeDiffusionGalaxyFrance), [list archive](http://france.list.galaxyproject.org/) and [list subscription page](https://lists.galaxyproject.org/listinfo/galaxy-france) for more.  Postings to the list will be integrated into the [Galaxy search web sites](http://galaxyproject.org/search/).
+This list is intended to communicate and share our experiences with Galaxy in France. The official language of this list is French.  See the [list announcement](/src/News/ListeDeDiffusionGalaxyFrance/index.md), [list archive](http://france.list.galaxyproject.org/) and [list subscription page](https://lists.galaxyproject.org/listinfo/galaxy-france) for more.  Postings to the list will be integrated into the [Galaxy search web sites](http://galaxyproject.org/search/).
 
 ## Tool Shed Contributions
 
@@ -261,7 +261,7 @@ The most recent Galaxy distribution was [released on July 20, 2012](/src/DevNews
   * [Upgrading Galaxy](http://www.agapow.net/science/bioinformatics/galaxy/upgrading-galaxy)
   * [Setting up a Galaxy toolshed](http://www.agapow.net/science/bioinformatics/galaxy/setting-up-a-galaxy-toolshed)
 * [Ntino Krampis BioTechniques interview](http://www.biotechniques.com/multimedia/podcasts/#.UD6V2VTYNUO) on doing bioinformatics on the cloud, including CloudMan.
-* [Jeremy Goecks](/JeremyGoecks) updated his [RNA-seq Analysis Exercise Galaxy Page](https://usegalaxy.org/u/jeremy/p/galaxy-rna-seq-analysis-exercise) to cover quality control through !CuffDiff: paired-end data, iGenomes gtf, answer key, and bonus resources
+* [Jeremy Goecks](/src/JeremyGoecks/index.md) updated his [RNA-seq Analysis Exercise Galaxy Page](https://usegalaxy.org/u/jeremy/p/galaxy-rna-seq-analysis-exercise) to cover quality control through !CuffDiff: paired-end data, iGenomes gtf, answer key, and bonus resources
 * [Slides and videos](http://bit.ly/QGxVJU) for the Iowa Initiative in Human Genetics [Bioinformatics Course](http://bit.ly/QGxVJU)
 * A few summaries of the recent [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) have been posted online:
   * Peter Li's [GigaBlog post](http://blogs.biomedcentral.com/gigablog/2012/08/06/enabling-bioinformatics-tools-to-smoke-the-peace-pipe-together/)

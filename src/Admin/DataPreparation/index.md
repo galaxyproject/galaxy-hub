@@ -4,7 +4,7 @@
 
 Tutorial: [Events/GCC2014/TrainingDay](/src/Events/GCC2014/TrainingDay/index.md#tool_development_from_bright_idea_to_toolshed_-_data_managers)
 
-**NOTE: Be aware that that as of early 2014, builds are incorporated into the Galaxy schema in tables. [Data Managers](../../Admin/Tools/DataManagers) are recommended to index new genomes (these are found in the [ToolShed](/src/ToolShed/index.md). *This wiki is considered legacy and provided as a reference.***
+**NOTE: Be aware that that as of early 2014, builds are incorporated into the Galaxy schema in tables. [Data Managers](/src/Admin/Tools/DataManagers/index.md) are recommended to index new genomes (these are found in the [ToolShed](/src/ToolShed/index.md). *This wiki is considered legacy and provided as a reference.***
 
 # Builds list changes
 
@@ -12,7 +12,7 @@ If you still choose to do this manually, follow the instructions at [Data Integr
 
 # Rsync data
 
-Using the Galaxy team's version of reference genomes and indexes can often be a good strategy for those working with both a local and the public **[Main](../../Main)** instance. More about our rsync server, the contents of the data snapshots, and what is published on the [usegalaxy.org](http://usegalaxy.org) public instance is at **[Usegalaxy.org Rsync](/src/Admin/UseGalaxyRsync/index.md)**.
+Using the Galaxy team's version of reference genomes and indexes can often be a good strategy for those working with both a local and the public **[Main](/src/Main/index.md)** instance. More about our rsync server, the contents of the data snapshots, and what is published on the [usegalaxy.org](http://usegalaxy.org) public instance is at **[Usegalaxy.org Rsync](/src/Admin/UseGalaxyRsync/index.md)**.
 
 ## What's in this wiki ?
 

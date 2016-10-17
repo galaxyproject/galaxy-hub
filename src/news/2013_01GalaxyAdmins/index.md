@@ -5,7 +5,7 @@ date: 2013-01-07T20:00:34Z
 
 <div class='right'><a href='/Community/GalaxyAdmins/Meetups/2013_01_16'><img src='/Images/Logos/GalaxyAdmins.png' alt='January 2013 GalaxyAdmins Meetup' width="160" /></a> </div>
 
-The [next meeting](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) of the [GalaxyAdmins Group](/Community/GalaxyAdmins) will be held on [January 16, 2013, at 10 AM Central US time](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md).  
+The [next meeting](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) of the [GalaxyAdmins Group](/src/Community/GalaxyAdmins/index.md) will be held on [January 16, 2013, at 10 AM Central US time](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md).  
 
 [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) will cover "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan"
 

@@ -6,10 +6,10 @@ title: Support
 ***Galaxy*** has many options for getting and giving help. 
 <br />
 <br />
-Before submitting an error or posting a question to [Galaxy Biostar](https://biostar.usegalaxy.org/) or one of the [Mailing Lists](/Support#mailing_lists), we ask that you please first review the support resources summarized here and search with our [Custom Tools](/Support#custom_searches) or on tool pages through [Galaxy Biostar](https://biostar.usegalaxy.org/) to see if the same question has come up in the past.
+Before submitting an error or posting a question to [Galaxy Biostar](https://biostar.usegalaxy.org/) or one of the [Mailing Lists](/src/Support/index.md#mailing_lists), we ask that you please first review the support resources summarized here and search with our [Custom Tools](/Support#custom_searches) or on tool pages through [Galaxy Biostar](https://biostar.usegalaxy.org/) to see if the same question has come up in the past.
 <br />
 <br />
-If you have help to offer other Galaxy users, *please dive right in* and reply to questions on the [Galaxy Biostar](https://biostar.usegalaxy.org/) forum or [Mailing Lists](/MailingLists), submit tools to the [/Tool Shed](/Tool Shed), add and up vote cards on the [Trello](http://bit.ly/gxytrello) Issue board. Share your expertise by adding your advice and tutorials into our [Wiki](/Wiki Help) or [Shared Data](https://usegalaxy.org/page/list_published) on [usegalaxy.org](http://usegalaxy.org) (Main)! 
+If you have help to offer other Galaxy users, *please dive right in* and reply to questions on the [Galaxy Biostar](https://biostar.usegalaxy.org/) forum or [Mailing Lists](/src/MailingLists/index.md), submit tools to the [/Tool Shed](/Tool Shed), add and up vote cards on the [Trello](http://bit.ly/gxytrello) Issue board. Share your expertise by adding your advice and tutorials into our [Wiki](/Wiki Help) or [Shared Data](https://usegalaxy.org/page/list_published) on [usegalaxy.org](http://usegalaxy.org) (Main)! 
 <br />
 <br />
 Galaxy is a [community](/src/Community/index.md) of scientists and developers working together to make great science happen! Communication, feedback, and contributions are *important*.
@@ -33,7 +33,7 @@ Galaxy is a [community](/src/Community/index.md) of scientists and developers wo
 
 ## Learning Hub
 
-See our [Learning](/Learn) hub for key coverage of Galaxy user interface concepts, data, and tools. Review "Shared Data &rarr; Published Pages" on the [/Main](/Main) server [usegalaxy.org](http://usegalaxy.org) for publication supplementals and tutorials. Watch the short **[Learn](http://vimeo.com/galaxyproject/learn)** screencast for a learning resource overview.
+See our [Learning](/src/Learn/index.md) hub for key coverage of Galaxy user interface concepts, data, and tools. Review "Shared Data &rarr; Published Pages" on the [/Main](/Main) server [usegalaxy.org](http://usegalaxy.org) for publication supplementals and tutorials. Watch the short **[Learn](http://vimeo.com/galaxyproject/learn)** screencast for a learning resource overview.
 
 ## Screencasts
 
@@ -58,10 +58,10 @@ Galaxy has teamed up with [Biostar](http://biostars.org) to create a Galaxy User
 <br />
  **[How to login and use...](/src/Support/Biostar/index.md)**
 <div class='right'><a href='https://biostar.usegalaxy.org/'><img src='/Images/Logos/GalaxyBiostar.png' alt='Galaxy Biostar' width="250" /></a></div>
-We want to create a space where researchers using Galaxy can come together and share both scientific advice and practical tool help.  Whether on **[http://usegalaxy.org](http://usegalaxy.org)**, a **[Cloudman](http://usegalaxy.org/cloud)** instance, or any **[other](/PublicGalaxyServers) [Galaxy](http://getgalaxy.org)**, if you have something to say about **Using Galaxy**, this is the place to do it!
+We want to create a space where researchers using Galaxy can come together and share both scientific advice and practical tool help.  Whether on **[http://usegalaxy.org](http://usegalaxy.org)**, a **[Cloudman](http://usegalaxy.org/cloud)** instance, or any **[other](/src/PublicGalaxyServers/index.md) [Galaxy](http://getgalaxy.org)**, if you have something to say about **Using Galaxy**, this is the place to do it!
 
 ## Mailing Lists
-Galaxy has one public mailing lists for questions, one private mailing list for bug reports, and one announcement mailing list. Please do not post questions through the **[Galaxy Issue Board](/Issues)**; these will only be redirected. Manage subscriptions and learn more about these list at the **[Mailing Lists](/src/MailingLists/index.md)** home page. See also:
+Galaxy has one public mailing lists for questions, one private mailing list for bug reports, and one announcement mailing list. Please do not post questions through the **[Galaxy Issue Board](/src/Issues/index.md)**; these will only be redirected. Manage subscriptions and learn more about these list at the **[Mailing Lists](/src/MailingLists/index.md)** home page. See also:
 <div class='right'>![](/Images/Logos/MailmanLogoSmall.png)</div>
 * [Error from tools: Sending in a specific-use bug report](/src/Support/index.md#error_from_tools)
 * [Starting a technical tool, local, cloud instance, or development thread](/src/Support/index.md#starting_a_technical_tool2c_local2fcloud_instance2c_or_development_thread)
@@ -74,7 +74,7 @@ Galaxy has one public mailing lists for questions, one private mailing list for 
 <div class='right'><a href='/Issues'><img src='/Images/Logos/TrelloLogo300.png' alt='Galaxy Issue Board' width="140" /></a></div>
 
 The Galaxy Project uses [Trello](http://bit.ly/gxytrello) for [issue tracking and feature requests](/src/Issues/index.md).
-The [Galaxy Issue Board](/Issues) supports [issue creation](http://galaxyproject.org/trello), [commenting](/Issues#add-a-comment), and [voting](/src/Issues/index.md#vote) on issues.
+The [Galaxy Issue Board](/src/Issues/index.md) supports [issue creation](http://galaxyproject.org/trello), [commenting](/Issues#add-a-comment), and [voting](/src/Issues/index.md#vote) on issues.
 
 ## About Galaxy
 <div class='right'><a href='http://galaxyproject.org'><img src='/Images/Screenshots/GalaxyProjectOrg.png' alt='GalaxyProject.org' width="300" /></a></div>
@@ -86,14 +86,14 @@ The [Galaxy Issue Board](/Issues) supports [issue creation](http://galaxyproject
 * **Reproducible:** Galaxy captures information so that any user can repeat and understand a complete computational analysis.
 * **Transparent:** Users share and publish analyses via the web and create Pages, interactive, web-based documents that describe a complete analysis.
 
-There are many [Choices](/BigPicture/Choices) when you want to learn more **[about using Galaxy](/src/Support/AboutGalaxy/index.md)**!
+There are many [Choices](/src/BigPicture/Choices/index.md) when you want to learn more **[about using Galaxy](/src/Support/AboutGalaxy/index.md)**!
 
-In addition to using the [public Galaxy server](http://usegalaxy.org), you can also install your [own instance of Galaxy](/Admin/GetGalaxy), or create an [instance of Galaxy on the cloud using CloudMan](/CloudMan) and explore all [/Cloud](/Cloud) resources including [AWS in Education](http://aws.amazon.com/grants/) grants.  Another option is to use one of the ever-increasing number of [/Public Galaxy Servers](/Public Galaxy Servers) hosted by other organizations. And if you or your lab is looking to run their own local instance that is "ready-to-go", learn more about the [Slipstream Appliance: Galaxy Edition](http://www.bioteam.net/slipstream/galaxy-edition).
+In addition to using the [public Galaxy server](http://usegalaxy.org), you can also install your [own instance of Galaxy](/src/Admin/GetGalaxy/index.md), or create an [instance of Galaxy on the cloud using CloudMan](/CloudMan) and explore all [/Cloud](/Cloud) resources including [AWS in Education](http://aws.amazon.com/grants/) grants.  Another option is to use one of the ever-increasing number of [/Public Galaxy Servers](/Public Galaxy Servers) hosted by other organizations. And if you or your lab is looking to run their own local instance that is "ready-to-go", learn more about the [Slipstream Appliance: Galaxy Edition](http://www.bioteam.net/slipstream/galaxy-edition).
 
 The GALAXY Framework at the highest level is a set of reusable software components. Learn more about [Galaxy's Architecture](/Admin/Internals/Implementation Info).
 
 <div class='left'><a href='http://usegalaxy.org'><img src='/Images/Logos/GalaxyLogoHighRes.png' alt='UseGalaxy.org' width="200" /></a></div>
-[Galaxy Project](/GalaxyProject) • [Big Picture](/BigPicture) • [/Community](/Community) • [Get Galaxy](/Admin/GetGalaxy) • [/CloudMan](/CloudMan) • [Tool Shed](/ToolShed) • [/Develop](/Develop) • [News Briefs](/DevNewsBriefs) • [Servers](/PublicGalaxyServers) • [/Learn](/Learn) • [/Support](/Support) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/News) • [Twitter](/GalaxyOnTwitter) • [/Events](/Events) • [/Teach](/Teach) • [/Issues](/Issues) • [Cite](/CitingGalaxy) • [About Galaxy](/Support/AboutGalaxy) • [Galaxy Team](/src/GalaxyTeam/index.md)
+[Galaxy Project](/src/GalaxyProject/index.md) • [Big Picture](/BigPicture) • [/Community](/Community) • [Get Galaxy](/Admin/GetGalaxy) • [/CloudMan](/CloudMan) • [Tool Shed](/ToolShed) • [/Develop](/Develop) • [News Briefs](/DevNewsBriefs) • [Servers](/PublicGalaxyServers) • [/Learn](/Learn) • [/Support](/Support) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/News) • [Twitter](/GalaxyOnTwitter) • [/Events](/Events) • [/Teach](/Teach) • [/Issues](/Issues) • [Cite](/CitingGalaxy) • [About Galaxy](/Support/AboutGalaxy) • [Galaxy Team](/src/GalaxyTeam/index.md)
 <br />
 <br />
 
@@ -101,7 +101,7 @@ The [Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam) is a part of the [Ce
 
 [Galaxy](http://usegalaxy.org ) is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Johns Hopkins University](http://www.jhu.edu/).
 
-The [public Main instance](/Main) of Galaxy at [http://usegalaxy.org](http://usegalaxy.org) utilizes infrastructure generously provided by the [iPlant Collaborative](http://www.iplantcollaborative.org/) at the [Texas Advanced Computing Center](https://www.tacc.utexas.edu/), with support from the [National Science Foundation](http://www.nsf.gov/).
+The [public Main instance](/src/Main/index.md) of Galaxy at [http://usegalaxy.org](http://usegalaxy.org) utilizes infrastructure generously provided by the [iPlant Collaborative](http://www.iplantcollaborative.org/) at the [Texas Advanced Computing Center](https://www.tacc.utexas.edu/), with support from the [National Science Foundation](http://www.nsf.gov/).
 
 <br />
 ---
@@ -117,12 +117,12 @@ Galaxy is designed to have a simplified tool interface while still retaining max
 <br />
 
 ## Getting an account
-Having your own account on the public **[/Test](/Test)** and/or **[/Main](/Main)** server means that you can save histories, work with more data, associate an [OpenID](/Learn/OpenID Login), and get the most out of Galaxy's functionality. Be sure to note that the public [/Test](/Test) and [/Main](/Main) instance **usage policies are <div class='red'>one account per user<div class='grey'>**, as stated in our **[Terms and Conditions](https://usegalaxy.org/static/terms.html)**. Also, make sure your email address is valid so that you can confirm your new account (emails are case sensitive) and so that our administrator can contact you if needed (rare, but you'd want the email!). 
+Having your own account on the public **[/Test](/src/Test/index.md)** and/or **[/Main](/Main)** server means that you can save histories, work with more data, associate an [OpenID](/Learn/OpenID Login), and get the most out of Galaxy's functionality. Be sure to note that the public [/Test](/src/Test/index.md) and [/Main](/Main) instance **usage policies are <div class='red'>one account per user<div class='grey'>**, as stated in our **[Terms and Conditions](https://usegalaxy.org/static/terms.html)**. Also, make sure your email address is valid so that you can confirm your new account (emails are case sensitive) and so that our administrator can contact you if needed (rare, but you'd want the email!). 
 
 Watch the **[Accounts on Main](http://vimeo.com/galaxyproject/accounts)** video for a quick how-to and see our **[User Accounts](/Learn/User Accounts)** wiki for more help.
 
 ## Finding a tool
-At the top of the left tool panel, type in a tool name or data type into the tool search box. Shorter keywords find more choices. Can't find the tool you want? Try looking in the **[Tool Shed](http://toolshed.g2.bx.psu.edu)**. New tools are added all the time that can be used in **[local](/Admin/GetGalaxy)** or **[cloud](/src/CloudMan/index.md)** Galaxy instances.
+At the top of the left tool panel, type in a tool name or data type into the tool search box. Shorter keywords find more choices. Can't find the tool you want? Try looking in the **[Tool Shed](http://toolshed.g2.bx.psu.edu)**. New tools are added all the time that can be used in **[local](/src/Admin/GetGalaxy/index.md)** or **[cloud](/src/CloudMan/index.md)** Galaxy instances.
 <br />
 <br />
 
@@ -188,7 +188,7 @@ The Galaxy user interface (UI) has been designed to communicate job execution st
 When a tool is executed, one or more new **[datasets](/Learn/Managing Datasets)** are added to a history. The same is true when a **workflow** is executed. *If using the public [Main](/src/Main/index.md) Galaxy instance, the most effective strategy when running jobs on the shared resource is to start jobs (or workflows), and then leave them alone to execute until completion.* 
 <br />
 <br />
-When work is urgent during peak-usage times on the public **[/Main](/Main)** Galaxy instance, a **[/CloudMan](/CloudMan)** instance is a quick-to-implement alternative. For large scale and/or urgent ongoing work, a **[/CloudMan](/CloudMan)**, **[Local](/Admin/GetGalaxy)**, or **[SlipStream Galaxy](http://www.bioteam.net/slipstream/galaxy-edition)** each have advantages as a longer-term solution. [Read more ...](/src/BigPicture/Choices/index.md)
+When work is urgent during peak-usage times on the public **[/Main](/src/Main/index.md)** Galaxy instance, a **[/CloudMan](/CloudMan)** instance is a quick-to-implement alternative. For large scale and/or urgent ongoing work, a **[/CloudMan](/CloudMan)**, **[Local](/Admin/GetGalaxy)**, or **[SlipStream Galaxy](http://www.bioteam.net/slipstream/galaxy-edition)** each have advantages as a longer-term solution. [Read more ...](/src/BigPicture/Choices/index.md)
 <br />
 <br />
 *So, how does the processing of tool jobs on **[/Main](/src/Main/index.md)** actually work?*
@@ -196,11 +196,11 @@ When work is urgent during peak-usage times on the public **[/Main](/Main)** Gal
   * **green** - the job completed successfully
     * The resulting data is ready to be used in visualizations, available as input to tools, can be downloaded, or utilized for any other downstream purpose.
   * **yellow** - the job is in progress
-    * If you are using the public [Main](/Main) Galaxy instance, this job is running on one of our clusters. Different types of tools send jobs to different clusters appropriate for the requirements of each tool. Some tools are more compute intensive than others and significant resources are dedicated to job processing. Jobs have up to 72 hours to complete, if they run longer than this they will fail with a "wall-time" error and turn *red*. Examining tool paramaters is the first option, less sensitive parameters may result in an equally acceptable result, but use less resource. If that is not appropriate or does not succeed, a [CloudMan Galaxy](/CloudMan) or [Local Galaxy](/src/Admin/GetGalaxy/index.md) with sufficient resources may be the solution. 
+    * If you are using the public [Main](/src/Main/index.md) Galaxy instance, this job is running on one of our clusters. Different types of tools send jobs to different clusters appropriate for the requirements of each tool. Some tools are more compute intensive than others and significant resources are dedicated to job processing. Jobs have up to 72 hours to complete, if they run longer than this they will fail with a "wall-time" error and turn *red*. Examining tool paramaters is the first option, less sensitive parameters may result in an equally acceptable result, but use less resource. If that is not appropriate or does not succeed, a [CloudMan Galaxy](/CloudMan) or [Local Galaxy](/src/Admin/GetGalaxy/index.md) with sufficient resources may be the solution. 
   * **light blue** - the job is paused
     * This indicates either an input has a problem or that you have [exceeded disk quota](/src/Main/index.md#user_account_quotas) set by the administrator of the Galaxy instance you are working on. 
     * If there is an input problem, correct the problem (often by re-run an upstream job) and click on the tool form option to "resume dependencies". You will not need to stop or restart downstream jobs in most cases (permit paused jobs to start, as inputs datasets become available, through this method).
-    * If you need to make room, [permanently delete unneeded data](/Learn/ManagingDatasets#delete_vs_delete_permanently). If you are using the public [Main](/src/Main/index.md) Galaxy instance, disk quotas are defined [here](/src/Main/index.md). You will not need to stop or restart jobs while doing this, unless you are filtering your work to prevent exceeding quota again (only purging, not restarting at this time).
+    * If you need to make room, [permanently delete unneeded data](/src/Learn/ManagingDatasets/index.md#delete_vs_delete_permanently). If you are using the public [Main](/src/Main/index.md) Galaxy instance, disk quotas are defined [here](/src/Main/index.md). You will not need to stop or restart jobs while doing this, unless you are filtering your work to prevent exceeding quota again (only purging, not restarting at this time).
   * **grey** - the job is waiting to run
     * If you are using the public [Main](/src/Main/index.md) Galaxy instance, this job is queued, waiting for an opening on the appropriate cluster. **It is *very important* to allow queued jobs to remain queued, and to not delete/re-run them**. If re-run, this not only moves the new job back to the end of the queue, effectively lengthening the wait time to execute, but if done repeatedly, the volume of "executing deleted" jobs can create additional work processes in the history as these are cleared away, using up resources, and can cause additional delays. 
   * **red** - the job has failed
@@ -220,7 +220,7 @@ Have you been asked to share a history? Or has someone shared a workflow with yo
 * Look at the *end of your file*. Is it complete? Are there extra empty lines? Use **Select last lines from a dataset** with the default **10** to check.
 * Check errors that come from tools such as the **FASTQ Groomer**. Many tools report the *exact problem* with *exact instructions* for corrections. 
 * Is the format to specification? Is it recognized by Galaxy? By the target tool or display application? Check against the [Galaxy Datatypes](/Learn/Datatypes) list. 
-  * Are you using a **[Custom Reference Genome](/Learn/CustomGenomes)**? Have you tried the quick [Troubleshooting](/src/Learn/CustomGenomes/index.md#troubleshooting) tips on the wiki?
+  * Are you using a **[Custom Reference Genome](/src/Learn/CustomGenomes/index.md)**? Have you tried the quick [Troubleshooting](/src/Learn/CustomGenomes/index.md#troubleshooting) tips on the wiki?
   * Note: not all formats are outlined in detail as they are common types or derived from a particular source. Read the target tool help, ask the tool authors, or even just google for the most current specification.
 * Is the problem the [dataset](/Learn/Managing Datasets) format or the assigned datatype? Can this be corrected by editing the datatype or converting formats? Often a combination of tools can correct a formatting problem, if the rest of the file is intact (completely loaded).
 * Is the problem a scientific or technical problem? Also see [#interpreting-scientific-results](#interpreting-scientific-results) to decide.
@@ -245,7 +245,7 @@ Have you been asked to share a history? Or has someone shared a workflow with yo
   * ***Filter and Sort*** tool group
 
 ## Tool doesn't recognize dataset
-Usually a simple datatype assignment incompatibility between the [dataset](/Learn/Managing Datasets) and the tool. Expected input [datatype](/Learn/Datatypes) format is explained on the Tool form itself under the parameter settings. ***Convert Format*** or modify the datatype using the dataset's ![pencil](/Images/Icons/pencil.png) icon to reach the ***Edit Attributes*** form. You may need to first create a **[Custom Build](/Learn/CustomGenomes#custom_builds)** when using a [Custom Reference Genome](/src/Support/index.md#custom_reference_genome).
+Usually a simple datatype assignment incompatibility between the [dataset](/Learn/Managing Datasets) and the tool. Expected input [datatype](/Learn/Datatypes) format is explained on the Tool form itself under the parameter settings. ***Convert Format*** or modify the datatype using the dataset's ![pencil](/src/Images/Icons/pencil.png) icon to reach the ***Edit Attributes*** form. You may need to first create a **[Custom Build](/Learn/CustomGenomes#custom_builds)** when using a [Custom Reference Genome](/src/Support/index.md#custom_reference_genome).
 
 ## Dataset special cases
 ### FASTQ Datatype QA
@@ -263,25 +263,25 @@ Usually a simple datatype assignment incompatibility between the [dataset](/Lear
 Using the ***same exact reference genome*** for all steps in an analysis is often ***mandatory*** to obtain accurate results. To use the reference genomes available on [usegalaxy.org (Main)](http://usegalaxy.org), get the genome from our **[rsync server](/src/Admin/UseGalaxyRsync/index.md)**.
 ### Detecting Genome Mismatch Problems
 * *How can I tell if I have a **reference genome mismatch problem**?*
-  * There isn't one single error that points to this problem. But, if you are running a tool for the first time using a newly uploaded dataset, and an [error occurs](/Support#error_from_tools) or more likely simply [unexpected results](/src/Support/index.md#interpreting_scientific_results) are produced - double checking the reference genome would be a good choice. 
+  * There isn't one single error that points to this problem. But, if you are running a tool for the first time using a newly uploaded dataset, and an [error occurs](/src/Support/index.md#error_from_tools) or more likely simply [unexpected results](/src/Support/index.md#interpreting_scientific_results) are produced - double checking the reference genome would be a good choice. 
 ### Correcting Chromosome Identifier Conflicts
 * *I suspect there is a problem with the identifiers but how can I check? Or better, how can I __fix the problme__?*
   * A quick way to check for this issue is to compare the chromosome identifiers in the input datasets to each other and to the reference genome used (or intended to be used). 
   * Even small differences in identifiers can cause tools to fail, produce warnings, or create incomplete results. This is the second most common cause of usage-related tool failures ([input format problems](/src/Support/index.md#error_from_tools) are the first).
-  * Using an Ensembl-based chromosome identifier file on Galaxy [/Main](/Main) with a locally cashed reference genome? Most built-in, native, reference genomes are sourced from [UCSC](http://genome.ucsc.edu) and have UCSC-based identifier names. When using inputs with both versions of identifiers in the same analysis pipeline, there will almost certainly be errors or unexpected results. But, in many cases, inputs from the history can be adjusted to match the cached data, all within Galaxy. [Read more about how...](/src/Support/ChromIdentifiers/index.md)
+  * Using an Ensembl-based chromosome identifier file on Galaxy [/Main](/src/Main/index.md) with a locally cashed reference genome? Most built-in, native, reference genomes are sourced from [UCSC](http://genome.ucsc.edu) and have UCSC-based identifier names. When using inputs with both versions of identifiers in the same analysis pipeline, there will almost certainly be errors or unexpected results. But, in many cases, inputs from the history can be adjusted to match the cached data, all within Galaxy. [Read more about how...](/src/Support/ChromIdentifiers/index.md)
   * *Why isn't my Ensembl GTF compatible with Cufflinks and how can I use Ensembl GTFs with Cufflinks?*
     * First, determine if an Ensembl GTF is the best choice. If an iGenomes version is available, this has advantages due to the addition of specific attributes utilized by the RNA-seq Tuxedo pipeline. Check at the *Cufflinks* website [here](http://cufflinks.cbcb.umd.edu/igenomes.html). 
       * Download the .tar file locally, uncompress it, then upload *only* the .gtf file to Galaxy. Loading .tar archives is not supported and has unpredictable outcomes (sometimes the first file in the archive will load - but this is not the file you need, sometimes only a portion of the first file will load - without a warning, and other times an upload error will result: none of these cases should be reported as a bug report/tool error).
-      * For certain genomes, the reference annotation GTF file is available on the public [/Main](/Main) Galaxy instance, [http://usegalaxy.org](http://usegalaxy.org), under *Shared Data -> Data Libraries -> iGenomes*. 
-    * Next, if you want to proceed, [confirm that your identifiers are a good candidate](/Support/ChromIdentifiers#reference_genome_contents) for the addition of the "chr" adjustment, then use the workflow available in the [Transcriptome Analaysis FAQ](http://usegalaxy.org/u/jeremy/p/transcriptome-analysis-faq#faq5).
+      * For certain genomes, the reference annotation GTF file is available on the public [/Main](/src/Main/index.md) Galaxy instance, [http://usegalaxy.org](http://usegalaxy.org), under *Shared Data -> Data Libraries -> iGenomes*. 
+    * Next, if you want to proceed, [confirm that your identifiers are a good candidate](/src/Support/ChromIdentifiers/index.md#reference_genome_contents) for the addition of the "chr" adjustment, then use the workflow available in the [Transcriptome Analaysis FAQ](http://usegalaxy.org/u/jeremy/p/transcriptome-analysis-faq#faq5).
 ### Avoiding Genome Mismatch Issues
 * *When **moving between instances**, what can be done to mitigate the risk of using the wrong assembly?*
-  * When moving between a **Galaxy [CloudMan AMI](/CloudMan) and the public [/Main](/src/Main/index.md) Galaxy** instance, just make sure the database name is the same. If the assigned database name is the same, the content of the reference genome is the same.
-  * When moving between a **[local Galaxy](/Admin/GetGalaxy) and the public [/Main](/src/Main/index.md) Galaxy** instance, there are a few choices:
+  * When moving between a **Galaxy [CloudMan AMI](/src/CloudMan/index.md) and the public [/Main](/src/Main/index.md) Galaxy** instance, just make sure the database name is the same. If the assigned database name is the same, the content of the reference genome is the same.
+  * When moving between a **[local Galaxy](/src/Admin/GetGalaxy/index.md) and the public [/Main](/src/Main/index.md) Galaxy** instance, there are a few choices:
     * Consider using our version of commonly used genomes, [available through our rsync server](/Admin/Data Integration#get_the_data)
     * [Make your own indexes](/Admin/NGS Local Setup), but check against our [rsync indexes](/Admin/Data Integration#get_the_data) to be aware of differences
     * When there are differences, use your own genome as a [Custom Reference Genome](/src/Support/index.md#custom_reference_genome) with tools
-  * When moving between a **[local Galaxy](/Admin/GetGalaxy) and a Galaxy [CloudMan AMI](/src/CloudMan/index.md)**, the same guidelines as immediate above (for [/Main](/Main)) would apply, since [/Main](/Main) and the [CloudMan AMI](/src/CloudMan/index.md) are based off the same content
+  * When moving between a **[local Galaxy](/src/Admin/GetGalaxy/index.md) and a Galaxy [CloudMan AMI](/src/CloudMan/index.md)**, the same guidelines as immediate above (for [/Main](/Main)) would apply, since [/Main](/Main) and the [CloudMan AMI](/src/CloudMan/index.md) are based off the same content
 * ***How do I load a reference genome?***
   * Use FTP - details are [here...](/FTPUpload) and troubleshooting help is [here...](/src/Support/index.md#trouble_loading_data)
   * If your genome is small (bacterial, etc.), using it as a [Custom Reference Genome](/src/Support/index.md#custom_reference_genome) is the quickest way to to get it into Galaxy and to start using it with tools.
@@ -303,7 +303,7 @@ A double check against the tool help and documentation is the first step. If the
 
 ### Tools on the Test server
 * Tools on [/Test](/src/Test/index.md) will have little to no support help offered.
-* [/Test](/Test) tool errors reported as a bug reports ([#error-from-tools](#error-from-tools)) are considered low priority and may not receive a reply. 
+* [/Test](/src/Test/index.md) tool errors reported as a bug reports ([#error-from-tools](#error-from-tools)) are considered low priority and may not receive a reply. 
 * General feedback & discussion threads (instead of questions requiring a reply from the Galaxy team) are welcomed at the [development mailing list](#public-mailing-list-q--a-discussions). 
 * Exceptions are possible. Sometimes community users help to test-drive new functionality. If you are interested in this type of testing for a particular tool, contact us on the [development mailing list](#public-mailing-list-q--a-discussions). 
 
@@ -323,7 +323,7 @@ A double check against the tool help and documentation is the first step. If the
     * Using the same reference genome for all steps is very important. Even small differences in chromosome/scaffold names can result in errors. Double check that the naming between the reference genome and any other inputs such as SAM/BAM and GTF datasets all use the same naming conventions. See our [FAQ](http://main.g2.bx.psu.edu/u/jeremy/p/transcriptome-analysis-faq) for more help if this is suspected to be the root cause of an error.
     * Confirming data sources using **[gffread](http://cufflinks.cbcb.umd.edu/gff.html)** locally, before loading data into **Galaxy**, can be one way to discovering where problems are.
   * **Still stuck?** 
-    * If the tool form help, publications & supplemental/tutorials including those from the community under [/Learn](/Learn), the [Transcriptome FAQ](http://main.g2.bx.psu.edu/u/jeremy/p/transcriptome-analysis-faq), or tool author's web sites do not address the question or problem, then contacting the tool authors is often the next step for detailed algorithm questions: [tophat.cufflinks@gmail.com](tophat.cufflinks@gmail.com). 
+    * If the tool form help, publications & supplemental/tutorials including those from the community under [/Learn](/src/Learn/index.md), the [Transcriptome FAQ](http://main.g2.bx.psu.edu/u/jeremy/p/transcriptome-analysis-faq), or tool author's web sites do not address the question or problem, then contacting the tool authors is often the next step for detailed algorithm questions: [tophat.cufflinks@gmail.com](tophat.cufflinks@gmail.com). 
     * You can also try searching the [Galaxy Mailing Lists and Galaxy Biostar](http://galaxyproject.org/search/mailinglists) for prior Q&A, then ask a question at [galaxy Biostar](/src/Support/index.md#starting_a_scientific2c_data2c_or_tool_usage_thread) if the problem is new or you just need Galaxy-specific help. 
     * If you ended up with a failed dataset (red), it is sometimes better to submit that instead as a [tool error (bug report)](/src/Support/index.md#error_from_tools) unless the question is general.   
     * *We can help or guide you to help*. Whenever [sharing](/Learn/Share) or submitting a history for feedback, please be sure to leave the datasets in the analysis thread *undeleted* so that we can offer the best advice.
@@ -340,7 +340,7 @@ Video: **[Custom Genomes](http://vimeo.com/galaxyproject/customgenome)**
 * To add a custom **Genome Build** so that it can be assigned as a "database" attribute, or to make it known/available to certain tools, create it under "User &rarr; Custom Builds". More details [here...](/src/Learn/CustomGenomes/index.md#custom_builds).
 * **TIP**: To modify a [dataset](/Learn/Managing Datasets) to have an unassigned reference genome, use the ![pencil](/src/Images/Icons/pencil.png) icon to "Edit Attributes". On the form, for the attribute **Database/Build:**, set the genome to be " **`unspecified (?)`** ", and submit. Any prior assignments will be removed.
 * If you genome is available on [usegalaxy.org (Main)](http://usegalaxy.org), but just not indexed for the tool you want to use, you can get the genome from our **[rsync server](/src/Admin/UseGalaxyRsync/index.md)**. This will ensure that all of your work uses the *same exact reference genome* for all steps in an analysis, a critical part of a successful experiment. 
-* If you find that there are in downstream [tool errors](/Support#error_from_tools) after using a *Custom reference genome* in an upstream tool on [usegalaxy.org (Main)](http://usegalaxy.org), this is good cause to suspect that there is a **[ reference genome mismatch problem](/src/Support/index.md#reference_genomes)**. This generally means that the *Custom* genome needs to be changed to use ours, or that you need to use the *Custom* genome for all downstream tools, too.
+* If you find that there are in downstream [tool errors](/src/Support/index.md#error_from_tools) after using a *Custom reference genome* in an upstream tool on [usegalaxy.org (Main)](http://usegalaxy.org), this is good cause to suspect that there is a **[ reference genome mismatch problem](/src/Support/index.md#reference_genomes)**. This generally means that the *Custom* genome needs to be changed to use ours, or that you need to use the *Custom* genome for all downstream tools, too.
 
 ### Quick genome access
 * If your genome is small (bacterial, etc.), using it as a [Custom Reference Genome](/src/Learn/CustomGenomes/index.md) is the quickest way to to get it into Galaxy and to start using it with tools.
@@ -363,12 +363,12 @@ Video: **[Custom Genomes](http://vimeo.com/galaxyproject/customgenome)**
 
 <div class='right'><br /><a href='/MailingLists#searching'><img src='/Images/Logos/GalaxyMailingListSearch.png' alt='Search all' width="175" /></a></div>
 ## Searching prior Q & A
-Still need help not covered by the tool help, the [Learning Hub](/Learn), a [Screencast](/Learn/Screencasts), a [Tutorial](http://main.g2.bx.psu.edu/u/james/p/exercises), or an [FAQ](/src/Learn/FAQ/index.md)? 
+Still need help not covered by the tool help, the [Learning Hub](/src/Learn/index.md), a [Screencast](/Learn/Screencasts), a [Tutorial](http://main.g2.bx.psu.edu/u/james/p/exercises), or an [FAQ](/src/Learn/FAQ/index.md)? 
 * Start with a search in our [mailing list archives](/src/MailingLists/index.md#searching) to see if this question has come up before.
-* If you have a development topic to discuss, your data/tool situation has not come up before, and/or troubleshooting has failed (including at least one re-run, as explained in [Error from tools](/Support#error_from_tools) above), post to a list or [Galaxy Biostar](/src/Support/BioStar/index.md)
+* If you have a development topic to discuss, your data/tool situation has not come up before, and/or troubleshooting has failed (including at least one re-run, as explained in [Error from tools](/src/Support/index.md#error_from_tools) above), post to a list or [Galaxy Biostar](/src/Support/BioStar/index.md)
 <br />
 
-***Note:*** **If your question is about an error on [/Main](/Main) for a job failure**, start by reviewing the **troubleshooting help for [Tool Errors](#error_from_tools)**. If data input and the job error message don't resolve the issue, please use the **[tool error](#reporting_tool_errors) submission form** from the <div class='red'>red</span> error dataset, instead of starting a public mailing list discussion thread (**do not delete error datasets**). [Read more ...](#error_from_tools)
+***Note:*** **If your question is about an error on [/Main](/src/Main/index.md) for a job failure**, start by reviewing the **troubleshooting help for [Tool Errors](#error_from_tools)**. If data input and the job error message don't resolve the issue, please use the **[tool error](#reporting_tool_errors) submission form** from the <div class='red'>red</span> error dataset, instead of starting a public mailing list discussion thread (**do not delete error datasets**). [Read more ...](#error_from_tools)
 <br />
 <br />
 
@@ -403,14 +403,14 @@ Still need help not covered by the tool help, the [Learning Hub](/Learn), a [Scr
 
 # Reporting a software bug
 <br />
-If you think you've seen a bug (not an ["Error from tools"](/Support#error_from_tools) ), please **report it** to the [Galaxy Development List](http://lists.bx.psu.edu/listinfo/galaxy-dev).
+If you think you've seen a bug (not an ["Error from tools"](/src/Support/index.md#error_from_tools) ), please **report it** to the [Galaxy Development List](http://lists.bx.psu.edu/listinfo/galaxy-dev).
 <br />
 
-Please do not report a new usage problem through the **[Galaxy Issue Board](/Issues)** unless you are fairly certain the problem is software and that it can't be remedied quickly. Sending question to the [galaxy-dev@bx.psu.edu](http://lists.bx.psu.edu/listinfo/galaxy-dev) mailing list for review is most often the best first pass if there is a problem. The great part about this method that if the problem is usage, we can help solve the problem, if the problem is that you are looking for a wrapper or help with a wrapper, the community can offer quick feedback, and if there really is a serious issue with Galaxy itself - it might apply globally, and we often can just fix it right away.
+Please do not report a new usage problem through the **[Galaxy Issue Board](/src/Issues/index.md)** unless you are fairly certain the problem is software and that it can't be remedied quickly. Sending question to the [galaxy-dev@bx.psu.edu](http://lists.bx.psu.edu/listinfo/galaxy-dev) mailing list for review is most often the best first pass if there is a problem. The great part about this method that if the problem is usage, we can help solve the problem, if the problem is that you are looking for a wrapper or help with a wrapper, the community can offer quick feedback, and if there really is a serious issue with Galaxy itself - it might apply globally, and we often can just fix it right away.
 
 <br />
 
-Bug or [Error from tools](/Support#error_from_tools)? Sometimes it is hard to tell. If you are on the public [/Main](/Main) instance, and ran a tool that produced a <div class='red'>red</span> error dataset, then you will probably want to start by reporting this as a [Tool Error](/src/Support/index.md#reporting_tool_errors), but add in comments about your suspicious about a bug if there is something odd about the job failure.
+Bug or [Error from tools](/src/Support/index.md#error_from_tools)? Sometimes it is hard to tell. If you are on the public [/Main](/Main) instance, and ran a tool that produced a <div class='red'>red</span> error dataset, then you will probably want to start by reporting this as a [Tool Error](/src/Support/index.md#reporting_tool_errors), but add in comments about your suspicious about a bug if there is something odd about the job failure.
 <br />
 
 ## What to include in a bug report

@@ -10,7 +10,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2013/BoF/LinkBox)
 
 <div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
 
-This page describes the **Galaxy Clinical Use Survey / Filesystems and HPC** [Birds of a Feather](/Events/GCC2013/BoF) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
+This page describes the **Galaxy Clinical Use Survey / Filesystems and HPC** [Birds of a Feather](/src/Events/GCC2013/BoF/index.md) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
 
 The need for a process-level source and version control, configuration management and document life-cycle management system is reaching a critical path as Research Genomics translates into Clinical Genomics. We will continue discussing the architectural and storage requirements for using Galaxy, the process management platform of choice for Genomics, in a Clinical environment.
 

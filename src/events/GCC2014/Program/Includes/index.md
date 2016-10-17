@@ -239,7 +239,7 @@ END_INCLUDE
 # Session8
 <div class='center'>
 **Session 8**<br />
-Moderator: [Jeremy Goecks](/JeremyGoecks), [George Washington University](http://www.gwu.edu/)</div>
+Moderator: [Jeremy Goecks](/src/JeremyGoecks/index.md), [George Washington University](http://www.gwu.edu/)</div>
 <div class='left'>
 <table>
   <tr>

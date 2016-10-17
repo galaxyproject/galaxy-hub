@@ -19,7 +19,7 @@ The [September 2013 Galaxy Update is hot off the press](/src/GalaxyUpdates/2013_
 
 If you have anything you would like to see in the next *[Galaxy Update](/src/GalaxyUpdates/index.md)*, please let us know.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

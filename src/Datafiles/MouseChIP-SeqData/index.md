@@ -19,7 +19,7 @@ These data come from the [Mammalian Promoter Database (MPromDB)](http://mpromdb.
 1. You must be a registered user to download data files.
 1. Downloaded data files may be used only for non-commercial purposes.
 
-The files here are a small subset of the files available for download from MPromDB.  We ask you to honor MPromDB's use restrictions.  The [Galaxy Team](/GalaxyTeam) also wishes to thank the [Davuluri Lab](http://bioinformatics.wistar.upenn.edu/davuluri) for allowing us to use this data in the Galaxy project.
+The files here are a small subset of the files available for download from MPromDB.  We ask you to honor MPromDB's use restrictions.  The [Galaxy Team](/src/GalaxyTeam/index.md) also wishes to thank the [Davuluri Lab](http://bioinformatics.wistar.upenn.edu/davuluri) for allowing us to use this data in the Galaxy project.
 
 ## Data
 

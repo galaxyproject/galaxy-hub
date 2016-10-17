@@ -3,7 +3,7 @@ autotoc: true
 title: Frequently Asked Questions for , !, CloudMan
 ---
 
-See [/Learn/FAQ](/Learn/FAQ) for questions about using any Galaxy instance and [/CloudMan](/src/CloudMan/index.md) page for general information about !CloudMan.  
+See [/Learn/FAQ](/src/Learn/FAQ/index.md) for questions about using any Galaxy instance and [/CloudMan](/src/CloudMan/index.md) page for general information about !CloudMan.  
 
 
 

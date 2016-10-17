@@ -2,7 +2,7 @@
 autotoc: true
 title: February 2012 Galaxy Update
 ---
-<div class='center'>**Looking for the [March 2012 Galaxy Update](/GalaxyUpdates/2012_03)?  Click [here](/GalaxyUpdates/2012_03).**<br />Sorry about the bad link in the email announcement!  [Dave C](/src/DaveClements/index.md)</div>
+<div class='center'>**Looking for the [March 2012 Galaxy Update](/src/GalaxyUpdates/2012_03/index.md)?  Click [here](/src/GalaxyUpdates/2012_03/index.md).**<br />Sorry about the bad link in the email announcement!  [Dave C](/src/DaveClements/index.md)</div>
 
 
 
@@ -11,7 +11,7 @@ title: February 2012 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the inaugural edition of *[Galaxy Update](/GalaxyUpdates)*, a (mostly) monthly summary of what is going on in the Galaxy community.  Galaxy Updates will complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the inaugural edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a (mostly) monthly summary of what is going on in the Galaxy community.  Galaxy Updates will complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Papers
 
@@ -21,7 +21,7 @@ New papers of note for the Galaxy community:
 
 * Thomas Hentrich, Julia M. Schulze, Eldon Emberly, and Michael S. Kobor, "[CHROMATRA: a Galaxy tool for visualizing genome-wide chromatin signatures](http://bioinformatics.oxfordjournals.org/content/early/2012/01/10/bioinformatics.bts007.short)." *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* 
 
-* Jeremy Goecks, Kanwei Li, [Dave Clements](/DaveClements), The [Galaxy Team](/GalaxyTeam), James Taylor, "[The Galaxy Track Browser: Transforming the genome browser from visualization tool to analysis tool](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6094046)." *[Biological Data Visualization (BioVis), 2011 IEEE Symposium on](http://www.biovis.net/)*
+* Jeremy Goecks, Kanwei Li, [Dave Clements](/src/DaveClements/index.md), The [Galaxy Team](/GalaxyTeam), James Taylor, "[The Galaxy Track Browser: Transforming the genome browser from visualization tool to analysis tool](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6094046)." *[Biological Data Visualization (BioVis), 2011 IEEE Symposium on](http://www.biovis.net/)*
 
 Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, reference, or are about Galaxy.  
 
@@ -102,7 +102,7 @@ There are still [Gold, Silver and Bronze level sponsorships](/src/Events/GCC2012
 
 ## New Distributions
 
-There were [two Galaxy distributions](/DevNewsBriefs) in January, The latest on [January 27](/News/Jan272012 Distribution News Brief).  Some highlights from the releases:
+There were [two Galaxy distributions](/src/DevNewsBriefs/index.md) in January, The latest on [January 27](/News/Jan272012 Distribution News Brief).  Some highlights from the releases:
 
 * Important metadata and Python 2.5 support corrections
 * [SAMtools](http://samtools.sourceforge.net/) upgraded for version 0.1.18. [Mpileup](http://samtools.sourceforge.net/mpileup.shtml) added.

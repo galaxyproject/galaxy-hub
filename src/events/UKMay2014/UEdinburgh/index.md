@@ -13,7 +13,7 @@ Room 4325D, [James Clerk Maxwell Building (JCMB)](http://www.ph.ed.ac.uk/about/l
 [University of Edinburgh](http://www.ed.ac.uk/), Edinburgh, United Kingdom
 
 <br />
-Instructors<br />[Dave Clements](/DaveClements), [Johns Hopkins University](http://www.jhu.edu/)<br /> [Shaun Webb](http://www.research.ed.ac.uk/portal/en/persons/shaun-webb(f89f2a63-6811-473c-aa8a-5e9df97bea3a)/publications.html), [University of Edinburgh](http://www.ed.ac.uk/)<br />
+Instructors<br />[Dave Clements](/src/DaveClements/index.md), [Johns Hopkins University](http://www.jhu.edu/)<br /> [Shaun Webb](http://www.research.ed.ac.uk/portal/en/persons/shaun-webb(f89f2a63-6811-473c-aa8a-5e9df97bea3a)/publications.html), [University of Edinburgh](http://www.ed.ac.uk/)<br />
 [Bert Overduin](https://www.linkedin.com/pub/bert-overduin/21/233/129), [University of Edinburgh](http://www.ed.ac.uk/)
 **
 </div>

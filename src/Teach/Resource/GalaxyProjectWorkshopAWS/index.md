@@ -19,7 +19,7 @@ title: Galaxy Project Workshop CloudMan on AWS Share
  Date:: 2014/12
 </div>
 
-The [Galaxy Team](/GalaxyTeam) runs most of it's [hands-on workshops](/Events) using CloudMan based instances running on [Amazon Web Services (AWS)](https://aws.amazon.com).  We could create each workshop server anew each time we do a workshop, but it is much easier to create an instance once, take a snapshot of it, and then reuse that snapshot whenever we have a workshop.
+The [Galaxy Team](/src/GalaxyTeam/index.md) runs most of it's [hands-on workshops](/Events) using CloudMan based instances running on [Amazon Web Services (AWS)](https://aws.amazon.com).  We could create each workshop server anew each time we do a workshop, but it is much easier to create an instance once, take a snapshot of it, and then reuse that snapshot whenever we have a workshop.
 
 This page describes the current Galaxy Project workshop snapshot.  It's publicly available and can be used by anyone.
 

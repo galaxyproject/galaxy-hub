@@ -1,6 +1,6 @@
 PLACEHOLDER_INCLUDE(/Admin/LinkBox)
 
-Hub Page for [Galaxy administration](../../Admin) training materials. See also the [Galaxy Teaching Hub](/src/Teach/index.md) page for end-user training.
+Hub Page for [Galaxy administration](/src/Admin/index.md) training materials. See also the [Galaxy Teaching Hub](/src/Teach/index.md) page for end-user training.
 
 ## Tutorials
 

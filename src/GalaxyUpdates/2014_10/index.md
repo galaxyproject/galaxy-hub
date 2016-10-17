@@ -8,7 +8,7 @@ title: October 2014 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the October 2014 *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the October 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # Galaxy Needs Your Input!
 
@@ -28,7 +28,7 @@ Let your voice be heard!
 
 <div class='left'>![Galaxy IRC Channel](/src/Images/Icons/ChatBalloons.png)</div>
 
-A proposed change for the #galaxyproject IRC channel was [proposed](/News/IRCPublicLogProposal), and then [discussed, and approved on Galaxy Biostar](http://bit.ly/gxybs8804).  Starting sometime in October, posts to this channel will be made available in a searchable archive on the web.
+A proposed change for the #galaxyproject IRC channel was [proposed](/src/News/IRCPublicLogProposal/index.md), and then [discussed, and approved on Galaxy Biostar](http://bit.ly/gxybs8804).  Starting sometime in October, posts to this channel will be made available in a searchable archive on the web.
 
 Thanks to everyone who participated in the decision, and [those at GCC2014 who suggested this](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md).
 
@@ -54,7 +54,7 @@ Galaxy had a strong presence at [ECCB'14](/src/Events/ECCB2014/index.md).  Galax
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
 
-There are [upcoming events](/Events) in Switzerland, Germany, Australia, Norway, France, Italy, and the United States.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/src/Events/index.md) in Switzerland, Germany, Australia, Norway, France, Italy, and the United States.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <table>
   <tr class="th" >
@@ -228,7 +228,7 @@ The Galaxy is expanding! Please help it grow.
 * [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -278,15 +278,15 @@ See "[MIRPIPE – quantification of microRNAs in niche model organisms](http://b
 <a href='/Community/Log/2014/GalaxyOnBioLinux8'><img src='/Images/Logos/EOS.gif' alt='Overview of Galaxy on Bio-Linux 8' width="100" /></a>
 </div>
 
-The [deployment details](/Community/Deployment/GalaxEast) for the [GalaxEast public server](/PublicGalaxyServers#galaxeast) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/src/Community/Logs/index.md).
+The [deployment details](/src/Community/Deployment/GalaxEast/index.md) for the [GalaxEast public server](/PublicGalaxyServers#galaxeast) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/src/Community/Logs/index.md).
 
-The *[Deployment Catalog](/Community/Deployments)* and *[Community Log Board](/src/Community/Logs/index.md)* *[Galaxy community hubs](/Community)* were launched in 2013.  If you have a [Galaxy deployment](/Community/Deployments), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
+The *[Deployment Catalog](/src/Community/Deployments/index.md)* and *[Community Log Board](/src/Community/Logs/index.md)* *[Galaxy community hubs](/Community)* were launched in 2013.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
 
 # New Releases
 
-New versions of [Galaxy](/GalaxyUpdates/2014_09#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), [BioBlend](/GalaxyUpdates/2014_09#bioblend-051-release), and [blend4j](/GalaxyUpdates/2014_09#blend4j-011-release) were all released in August.  And so was [Galaxy IPython](/src/GalaxyUpdates/2014_09/index.md#galaxy-ipython) too.
+New versions of [Galaxy](/src/GalaxyUpdates/2014_09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), [BioBlend](/GalaxyUpdates/2014_09#bioblend-051-release), and [blend4j](/GalaxyUpdates/2014_09#blend4j-011-release) were all released in August.  And so was [Galaxy IPython](/src/GalaxyUpdates/2014_09/index.md#galaxy-ipython) too.
 
 Look for a new Galaxy distribution in October.
 

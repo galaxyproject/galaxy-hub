@@ -13,15 +13,15 @@ The [December 2013 Galaxy Update is out](/src/GalaxyUpdates/2013_12/index.md):
 * [Who's hiring](/src/GalaxyUpdates/2013_12/index.md#whos-hiring) at seven different institutions
 * [Upcoming Events](/src/GalaxyUpdates/2013_12/index.md#events), including
   * Save these dates! [GCC2014: June 30 - July 2, Baltimore](/src/GalaxyUpdates/2013_12/index.md#gcc2014-june-30---july-2-baltimore)
-    * [Sponsorships](/GalaxyUpdates/2013_12#sponsorships) and [Exhibitors](/src/GalaxyUpdates/2013_12/index.md#exhibitors) 
+    * [Sponsorships](/src/GalaxyUpdates/2013_12/index.md#sponsorships) and [Exhibitors](/src/GalaxyUpdates/2013_12/index.md#exhibitors) 
   * [UC Davis Bioinformatics Boot Camps](/src/GalaxyUpdates/2013_12/index.md#uc-davis-bioinformatics-boot-camps)
 * [Distributions](/src/GalaxyUpdates/2013_12/index.md#galaxy-distributions)
-* [Tool Shed contributions](/GalaxyUpdates/2013_12#toolshed-contributions) ([including a new ToolShed](/src/GalaxyUpdates/2013_12/index.md#new-public-toolsheds))
+* [Tool Shed contributions](/src/GalaxyUpdates/2013_12/index.md#toolshed-contributions) ([including a new ToolShed](/src/GalaxyUpdates/2013_12/index.md#new-public-toolsheds))
 * [Other News](/src/GalaxyUpdates/2013_12/index.md#other-news)
 
 If you have anything you would like to see in the next *[Galaxy Update](/src/GalaxyUpdates/index.md)*, please let us know.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

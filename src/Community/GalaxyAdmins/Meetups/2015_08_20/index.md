@@ -45,7 +45,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 ## Adding transparency and automation into the Galaxy tool installation process
 
-[Enis Afgan](/EnisAfgan) of the [Galaxy Team](/GalaxyTeam) will discuss recent work on *[Adding transparency and automation into the Galaxy tool installation process](https://github.com/afgane/ansible-tools)* via Ansible. The talk will discuss process of unifying the tool installation approach within the Galaxy project and how it can be used by anyone to to install potentially hundreds of tools in an automated fashion.
+[Enis Afgan](/src/EnisAfgan/index.md) of the [Galaxy Team](/GalaxyTeam) will discuss recent work on *[Adding transparency and automation into the Galaxy tool installation process](https://github.com/afgane/ansible-tools)* via Ansible. The talk will discuss process of unifying the tool installation approach within the Galaxy project and how it can be used by anyone to to install potentially hundreds of tools in an automated fashion.
 
 ## Call Technology
 

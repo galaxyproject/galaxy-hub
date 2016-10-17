@@ -22,9 +22,9 @@ The [January 2014 Galaxy Update is out](/src/GalaxyUpdates/2014_01/index.md)!
 * [Upcoming Events](/src/GalaxyUpdates/2014_01/index.md#events), including
   * [GCC2014: June 30 - July 2, Baltimore](/src/GalaxyUpdates/2014_01/index.md#gcc2014-june-30---july-2-baltimore)
     * [Training Day Topic Voting, January 6-17](/src/GalaxyUpdates/2014_01/index.md#training-day-topic-voting-january-6-17) 
-    * [Sponsorships](/GalaxyUpdates/2014_01#sponsorships) and [Exhibitors](/src/GalaxyUpdates/2014_01/index.md#exhibitors) 
+    * [Sponsorships](/src/GalaxyUpdates/2014_01/index.md#sponsorships) and [Exhibitors](/src/GalaxyUpdates/2014_01/index.md#exhibitors) 
   * [2013 Galaxy Day Report](/src/GalaxyUpdates/2014_01/index.md#2013-galaxy-day-report)
-* [CAPER](/GalaxyUpdates/2014_01#caper), a new [public Galaxy server](/src/GalaxyUpdates/2014_01/index.md#new-public-servers)
+* [CAPER](/src/GalaxyUpdates/2014_01/index.md#caper), a new [public Galaxy server](/src/GalaxyUpdates/2014_01/index.md#new-public-servers)
 * [Distributions](/src/GalaxyUpdates/2014_01/index.md#galaxy-distributions)
 * [Tool Shed Contributions](/src/GalaxyUpdates/2014_01/index.md#toolshed-contributions) 
 * [Other News](/src/GalaxyUpdates/2014_01/index.md#other-news)
@@ -33,7 +33,7 @@ If you have anything you would like to see in the next *[Galaxy Update](/src/Gal
 
 Best wishes to you and yours for a happy and spectacular 2014,
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

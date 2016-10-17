@@ -5,7 +5,7 @@ date: 2012-06-01T17:14:17Z
 
 <div class='right'><a href='/GalaxyUpdates/2012_06'><img src='/Images/Logos/GalaxyUpdate200.png' alt='June 2012 Galaxy Update' width=150 /></a></div>
 
-The [June 2012 Galaxy Update](/GalaxyUpdates/2012_06) is now available.  *[Galaxy Update](/GalaxyUpdates)* is a (mostly) monthly summary of what is going on in the Galaxy community.  *Galaxy Updates* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+The [June 2012 Galaxy Update](/src/GalaxyUpdates/2012_06/index.md) is now available.  *[Galaxy Update](/GalaxyUpdates)* is a (mostly) monthly summary of what is going on in the Galaxy community.  *Galaxy Updates* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 **Highlights:**
 

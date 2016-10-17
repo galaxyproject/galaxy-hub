@@ -12,7 +12,7 @@ The [July 2012 Galaxy Update is now available](/src/GalaxyUpdates/2012_07/index.
 * [GCC2012 is July 25-27!](/src/GalaxyUpdates/2012_07/index.md#gcc2012-is-july-25-27)
   * [Register by July 18](/src/Events/GCC2012/Register/index.md)
 * [Other Upcoming Events and Deadlines](/src/GalaxyUpdates/2012_07/index.md#upcoming-events-and-deadlines), *including these deadlines in the next several days*
-  * [Galaxy Workshops in South Africa](/News/GalaxyWorkshopsInSouthAfrica) (deadline: **June 30**) and the [South African Genetics & Bioinformatics Society Conference](http://genetics.cmc-uct.co.za/) (deadline **July 1**)
+  * [Galaxy Workshops in South Africa](/src/News/GalaxyWorkshopsInSouthAfrica/index.md) (deadline: **June 30**) and the [South African Genetics & Bioinformatics Society Conference](http://genetics.cmc-uct.co.za/) (deadline **July 1**)
   * [Systems Bioinformatics Workshop](http://gaggle.systemsbiology.net/workshop2012/) (deadline: **June 30**)
   * [GMOD Summer School](http://gmod.org/wiki/2012 GMOD Summer School) (deadline: **July 9**)
 * [31 New Papers](/src/GalaxyUpdates/2012_07/index.md#new-papers), including two new *Current Protocols*

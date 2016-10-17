@@ -160,7 +160,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # Announcements
 
-[/News](/News), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_12)***
+[/News](/src/News/index.md), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_12)***
 
 <div class='left'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="175px" /></a></div>
 <br />

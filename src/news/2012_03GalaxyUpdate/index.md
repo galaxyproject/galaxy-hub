@@ -5,7 +5,7 @@ date: 2012-02-29T06:58:17Z
 
 <div class='right'><a href='/GalaxyUpdates/2012_03'><img src='/Images/Logos/GalaxyUpdate200.png' alt='March 2012 Galaxy Update' width=150 /></a></div>
 
-The [March 2012 Galaxy Update](/GalaxyUpdates/2012_03) is now available.  *[Galaxy Update](/GalaxyUpdates)* is a (mostly) monthly summary of what is going on in the Galaxy community.  *Galaxy Updates* complements the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+The [March 2012 Galaxy Update](/src/GalaxyUpdates/2012_03/index.md) is now available.  *[Galaxy Update](/GalaxyUpdates)* is a (mostly) monthly summary of what is going on in the Galaxy community.  *Galaxy Updates* complements the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 **Highlights:**
 

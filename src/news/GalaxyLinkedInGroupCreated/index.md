@@ -11,7 +11,7 @@ A [Galaxy Group now exists on LinkedIn](http://bit.ly/gxyLinkedIn).  The group i
 
 If you are on !LinkedIn, please consider [joining the group](http://bit.ly/gxyLinkedIn) today.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

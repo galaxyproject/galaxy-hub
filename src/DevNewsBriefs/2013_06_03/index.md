@@ -277,7 +277,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # Project Updates
 
-**[/News](/News)**, ***[June 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_06)***
+**[/News](/src/News/index.md)**, ***[June 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_06)***
 
 <br />
 <br />

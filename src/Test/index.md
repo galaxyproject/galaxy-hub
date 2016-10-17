@@ -3,7 +3,7 @@ title: Galaxy Test Instance
 ---
 
 
-The Galaxy **Test** instance is available at https://test.galaxyproject.org/. Test is the Beta site for the Galaxy *[/Main](/Main)* instance.  Main is the primary free public [Galaxy instance](http://usegalaxy.org/). *Test* is also free and public, and is a testbed where tools and framework functions are functionally and experimentally reviewed.
+The Galaxy **Test** instance is available at https://test.galaxyproject.org/. Test is the Beta site for the Galaxy *[/Main](/src/Main/index.md)* instance.  Main is the primary free public [Galaxy instance](http://usegalaxy.org/). *Test* is also free and public, and is a testbed where tools and framework functions are functionally and experimentally reviewed.
 
 Test changes frequently and we don't actually guarantee things will work or that data/histories/workflows/visualizations will be persistent (even when saved in an account). Some new tools on Test will eventually be promoted to Main, but others will not. Backwards and forwards compatibility of data and tools on Test with data and tools on Main, in a Distribution, or from the Tool Shed should not be expected.
 

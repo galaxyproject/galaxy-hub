@@ -8,7 +8,7 @@ title: September 2013 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the September 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the September 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -126,7 +126,7 @@ The [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de/) enabl
 
 30 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in August. This paper may be particularly interesting to the Galaxy community:
 
-* Richard !LeDuc, Matthew Vaughn, John M Fonner, Michael Sullivan, James G Williams, Philip D Blood, [James Taylor](/JamesTaylor), William Barnett, "[Leveraging the national cyberinfrastructure for biomedical research](http://dx.doi.org/10.1136/amiajnl-2013-002059)," in *[Journal of the American Medical Informatics Association (JAMIA)](http://jamia.bmj.com/)*, doi:10.1136/amiajnl-2013-002059
+* Richard !LeDuc, Matthew Vaughn, John M Fonner, Michael Sullivan, James G Williams, Philip D Blood, [James Taylor](/src/JamesTaylor/index.md), William Barnett, "[Leveraging the national cyberinfrastructure for biomedical research](http://dx.doi.org/10.1136/amiajnl-2013-002059)," in *[Journal of the American Medical Informatics Association (JAMIA)](http://jamia.bmj.com/)*, doi:10.1136/amiajnl-2013-002059
 
 <br />
 
@@ -149,7 +149,7 @@ The Galaxy is expanding! Please help it grow.
 * [Sr Bioinformatics Specialist, Tufts University](http://bit.ly/1bOLLBd), Boston MA.
 * [Senior Developer](http://www.nature.com/naturejobs/science/jobs/334107-senior-developer-stem-cell-bioinformatics-core), Stem Cell Bioinformatics Core, Sage Bionetworks, Seattle, WA, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -277,7 +277,7 @@ upgrade: $ hg pull
 
 ## CloudMan Release
 
-A new version of [/CloudMan](/CloudMan) was [released in July](/src/News/CloudManRelease/index.md).
+A new version of [/CloudMan](/src/CloudMan/index.md) was [released in July](/src/News/CloudManRelease/index.md).
 
 <br />
 
@@ -306,4 +306,4 @@ A new version of [/CloudMan](/CloudMan) was [released in July](/src/News/CloudMa
 * [Saket Choudhary's Week 7+8 GSOC update](http://bit.ly/1bsoiaM): making Workflow's run page editable; enable user to change params at runtime
 * [galaxy-bootstrap](http://bit.ly/15u71MT) - a simple Java library and download, configure, and seed a Galaxy instance
 * New [/Cloud](/src/Cloud/index.md) hub page on wiki giving a high-level overview of the several Galaxy cloud-deployment options.
-* A new [Teaching with Galaxy](/Teach) hub page on the Galaxy wiki.  This is very much in a draft state but includes a fairly complete [Computing Platforms for Teaching](/src/Teach/ComputingPlatforms/index.md) page.
+* A new [Teaching with Galaxy](/src/Teach/index.md) hub page on the Galaxy wiki.  This is very much in a draft state but includes a fairly complete [Computing Platforms for Teaching](/src/Teach/ComputingPlatforms/index.md) page.

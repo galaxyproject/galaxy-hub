@@ -18,7 +18,7 @@ autotoc: true
 ## News
 
 <div class='left'><a href='/GalaxyIsHiring'><img src='/Images/Icons/PointingFinger.png' alt='pointing-finger' width="30px" /></a></div>
-* Keep current on all things Galaxy at our [/News](/News) and [/Events](/src/Events/index.md) wikis.
+* Keep current on all things Galaxy at our [/News](/src/News/index.md) and [/Events](/src/Events/index.md) wikis.
 * Galaxy is still [hiring](/src/GalaxyIsHiring/index.md)!
 
 ## What's New

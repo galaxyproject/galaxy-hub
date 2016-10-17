@@ -9,7 +9,7 @@ The visualizations registry and plugin framework provides an easy way to create 
 any data.
 
 (For information on existing and built-in visualizations such as Trackster, please see:
-[/Learn/Visualization](/Learn/Visualization) and [/Visualization Setup](/Visualization Setup))
+[/Learn/Visualization](/src/Learn/Visualization/index.md) and [/Visualization Setup](/Visualization Setup))
 
 There are three main steps to creating a visualization:
 

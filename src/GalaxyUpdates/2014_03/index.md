@@ -8,13 +8,13 @@ title: March 2014 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the March 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the March 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # New Papers
 
 *54 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in Febrary. Some papers that may be particularly interesting to the Galaxy community:
 
-* [Dissemination of scientific software with Galaxy ToolShed](http://dx.doi.org/10.1186/gb4161), by [Blankenberg](/Dan), [Von Kuster](/greg_vonkuster), [Bouvier](/DaveBouvier), [Baker](/DannonBaker), [Afgan](/EnisAfgan), Stoler, the [Galaxy Team](/GalaxyTeam), [Taylor](/JamesTaylor) and [Nekrutenko](/src/anton/index.md), *Genome Biology,* Vol. 15, No. 2. (20 February 2014), 403, doi:10.1186/gb4161
+* [Dissemination of scientific software with Galaxy ToolShed](http://dx.doi.org/10.1186/gb4161), by [Blankenberg](/src/Dan/index.md), [Von Kuster](/greg_vonkuster), [Bouvier](/DaveBouvier), [Baker](/DannonBaker), [Afgan](/EnisAfgan), Stoler, the [Galaxy Team](/GalaxyTeam), [Taylor](/JamesTaylor) and [Nekrutenko](/src/anton/index.md), *Genome Biology,* Vol. 15, No. 2. (20 February 2014), 403, doi:10.1186/gb4161
 
 * [Binding Sites Analyser (BiSA): Software for Genomic Binding Sites Archiving and Overlap Analysis](http://dx.doi.org/10.1371/journal.pone.0087301), by Khushi, *et al.,* *PLoS ONE*, Vol. 9, No. 2. (12 February 2014), e87301, doi:10.1371/journal.pone.0087301
 
@@ -81,7 +81,7 @@ How those papers were tagged:
 
 <div class='left'><br /><a href='http://www.gigasciencejournal.com/'><img src='/Images/Logos/GigaScienceLogo250.png' alt='GigaScience Journal' width="160" /></a></div>
 
-The *[GigaScience](http://www.gigasciencejournal.com/)* "Galaxy: Data Intensive and Reproducible Research" series [announced](http://blogs.biomedcentral.com/gigablog/2013/04/05/call-for-papers-for-a-special-gcc2013-galaxy-series/) for the [2013 Galaxy Community Conference](/Events/GCC2013) has just published its [first papers](http://www.gigasciencejournal.com/series/Galaxy), and is continuing to take submissions. Whilst the series considers best practice papers, discussion, as well as novel uses of Galaxy, these first papers are examples of Galaxy toolkits, with a [genome diversity tool collection](http://dx.doi.org/10.1186/2047-217X-2-17) presented from the Miller lab at Pennsylvania State, and a [set of analytical and visualisation tools for Complete Genomics sequencing data](http://dx.doi.org/10.1186/2047-217X-3-1) from the Stubbs lab at Erasmus Medical College. The genome diversity toolkit is their first example that integrates with their [GigaGalaxy server](http://gigagalaxy.net/), with SVG graphs to help visualize how input datasets, workflows and histories are related to each example analysis in the paper. BGI is continuing to cover the article processing charges until the end of this year, so for more information see their [blog posting](http://blogs.biomedcentral.com/gigablog/2014/02/06/rewarding-reproducibility-first-papers-in-our-galaxy-series-utilizing-our-gigagalaxy-platform/).
+The *[GigaScience](http://www.gigasciencejournal.com/)* "Galaxy: Data Intensive and Reproducible Research" series [announced](http://blogs.biomedcentral.com/gigablog/2013/04/05/call-for-papers-for-a-special-gcc2013-galaxy-series/) for the [2013 Galaxy Community Conference](/src/Events/GCC2013/index.md) has just published its [first papers](http://www.gigasciencejournal.com/series/Galaxy), and is continuing to take submissions. Whilst the series considers best practice papers, discussion, as well as novel uses of Galaxy, these first papers are examples of Galaxy toolkits, with a [genome diversity tool collection](http://dx.doi.org/10.1186/2047-217X-2-17) presented from the Miller lab at Pennsylvania State, and a [set of analytical and visualisation tools for Complete Genomics sequencing data](http://dx.doi.org/10.1186/2047-217X-3-1) from the Stubbs lab at Erasmus Medical College. The genome diversity toolkit is their first example that integrates with their [GigaGalaxy server](http://gigagalaxy.net/), with SVG graphs to help visualize how input datasets, workflows and histories are related to each example analysis in the paper. BGI is continuing to cover the article processing charges until the end of this year, so for more information see their [blog posting](http://blogs.biomedcentral.com/gigablog/2014/02/06/rewarding-reproducibility-first-papers-in-our-galaxy-series-utilizing-our-gigagalaxy-platform/).
 
 # Who's Hiring
 
@@ -96,7 +96,7 @@ The Galaxy is expanding! Please help it grow.
 
 * [Postdoctoral position in genomics/bio-informatics (NGS)](http://bit.ly/1eq5TvM) at University of Rennes 1 (France)  
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -121,21 +121,21 @@ The first day (Monday) will be in Clayton, next to [the Australian Synchrotron](
 
 <div class='right'><a href='http://www.globusworld.org/'><img src='/Images/Logos/GlobusGenomics.png' alt='Globus World 2014' width="180" /></a></div>
 
-**[GlobusWorld](http://www.globusworld.org/)** is this year’s biggest gathering of all things [Globus](https://www.globus.org/).  !GlobusWorld features a *Biosciences/Genomics Program* devoted to research data in genomics and biosciences including [Globus Genomics](/Cloud#globus-genomics), a Globus and Galaxy based platform for genomic analysis.  [GlobusWorld](http://www.globusworld.org/) is being held April 15-17, in Chicago.
+**[GlobusWorld](http://www.globusworld.org/)** is this year’s biggest gathering of all things [Globus](https://www.globus.org/).  !GlobusWorld features a *Biosciences/Genomics Program* devoted to research data in genomics and biosciences including [Globus Genomics](/src/Cloud/index.md#globus-genomics), a Globus and Galaxy based platform for genomic analysis.  [GlobusWorld](http://www.globusworld.org/) is being held April 15-17, in Chicago.
 
 Learn how to get more out of your data, and connect with other HPC administrators, research scientists, and developers who are building and using cutting-edge solutions to wrangle data.
 
-Galaxy will have a presence at this meeting, and [GCC2014](/Events/GCC2014) is a Silver Sponsor of [GlobusWorld](http://www.globusworld.org/).
+Galaxy will have a presence at this meeting, and [GCC2014](/src/Events/GCC2014/index.md) is a Silver Sponsor of [GlobusWorld](http://www.globusworld.org/).
 
 ## GCC2014: June 30 - July 2, Baltimore
 
 <div class='right'><a href='/Events/GCC2014'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="150" /></a></div>
 
-The [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
+The [2014 Galaxy Community Conference (GCC2014)](/src/Events/GCC2014/index.md) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
 ### Registration is Open
 
-[Early registration is now open](/Events/GCC2014/Register). *Early registration saves more than 70% on registration costs, and [Training Day](/Events/GCC2014/TrainingDay) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/src/Events/GCC2014/Logistics/index.md#lodging), a very affordable housing option in the same building as the conference.
+[Early registration is now open](/src/Events/GCC2014/Register/index.md). *Early registration saves more than 70% on registration costs, and [Training Day](/Events/GCC2014/TrainingDay) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/src/Events/GCC2014/Logistics/index.md#lodging), a very affordable housing option in the same building as the conference.
 
 *[Training Day](/src/Events/GCC2014/TrainingDay/index.md)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There are 5 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 15 sessions and over 37 hours of workshop material.*
 
@@ -155,17 +155,17 @@ Accepted talks and selected posters from GCC2014 are also eligible for considera
 <a href='http://bio.maryland.gov/'><img src='/Images/Logos/BioMaryland400.png' alt='BioMaryland' width="200" /></a>
 </div>
 
-We are pleased to have [Amazon Web Services (AWS)](http://aws.amazon.com/) as the sponsor for the GCC [Training Day](/Events/GCC2014/TrainingDay) for the third year in a row.  Also please welcome [BioMaryland](http://bio.maryland.gov/) as a [Bronze Sponsor](/Events/GCC2014/SponsorExhibit) for [GCC2014](/src/Events/GCC2014/index.md).  !BioMaryland is new to the GCC.
+We are pleased to have [Amazon Web Services (AWS)](http://aws.amazon.com/) as the sponsor for the GCC [Training Day](/src/Events/GCC2014/TrainingDay/index.md) for the third year in a row.  Also please welcome [BioMaryland](http://bio.maryland.gov/) as a [Bronze Sponsor](/Events/GCC2014/SponsorExhibit) for [GCC2014](/src/Events/GCC2014/index.md).  !BioMaryland is new to the GCC.
 
-There are still [Silver and Bronze sponsorships](/Events/GCC2014/SponsorExhibit) available. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to help sponsor this event. 
+There are still [Silver and Bronze sponsorships](/src/Events/GCC2014/SponsorExhibit/index.md) available. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to help sponsor this event. 
 
 ### Exhibitors
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorExhibit#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/SponsorExhibit/index.md#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to have an exhibit space at GCC2014. 
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> There are several other [events of interest](/Events) in the next few months. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> There are several other [events of interest](/src/Events/index.md) in the next few months. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
@@ -308,7 +308,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/Events/GCC2014/SponsorE
 
 # New Public Servers
 
-One new [public Galaxy server](/PublicGalaxyServers), [PGTB](/PublicGalaxyServers#galaxy-pgtb-virtual-biodiversity-lab) was added, and the [NELLY server](/src/PublicGalaxyServers/index.md#nelly) is back.
+One new [public Galaxy server](/src/PublicGalaxyServers/index.md), [PGTB](/PublicGalaxyServers#galaxy-pgtb-virtual-biodiversity-lab) was added, and the [NELLY server](/src/PublicGalaxyServers/index.md#nelly) is back.
 
 ## Galaxy PGTB (Virtual Biodiversity Lab)
 
@@ -377,7 +377,7 @@ upgrade:   $ hg pull
 
 <br /><br />
 
-The *[Community Log Board](/Community/Logs)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/src/Community/index.md)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/src/Community/index.md)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
 
 # ToolShed Contributions
 

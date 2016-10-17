@@ -32,7 +32,7 @@ There are **three basic steps** to using a *Custom Reference Genome*:
 * UCSC, Ensembl, NCBI/GenBank
 * Other Research project associated with specific genome projects
 * Internal research projects
-* Selected genomes can be found in "Data Libraries" on [/Main](/Main) for use at [http://usegalaxy.org](http://usegalaxy.org). Example: **hg19** is available for GATK under that sub-directory.
+* Selected genomes can be found in "Data Libraries" on [/Main](/src/Main/index.md) for use at [http://usegalaxy.org](http://usegalaxy.org). Example: **hg19** is available for GATK under that sub-directory.
 <br />
 # Format
 * Custom Genomes are required to be in [FASTA](/Learn/Datatypes#fasta) format

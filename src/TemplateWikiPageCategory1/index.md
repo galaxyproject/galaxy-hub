@@ -66,7 +66,7 @@ Space is good. Short is good. One topic = one wiki page.
 <br />
 
 Want to have your content considered for a *[Galaxy Note](/src/Notes/index.md)*? When your done, email us about it at *outreach at galaxyproject.org* with "Galaxy Note Idea" in the subject line.
-* **Important** - this is for **new note suggestions only**. If you have a question about **[Galaxy](/FrontPage)** or a ***Galaxy Note*** or associated content, continue to **send these to one of the [Mailing Lists](/src/MailingLists/index.md)** and just include a link to the Note or wiki.
+* **Important** - this is for **new note suggestions only**. If you have a question about **[Galaxy](/src/FrontPage)** or a ***Galaxy Note*** or associated content, continue to **send these to one of the [Mailing Lists](/src/MailingLists/index.md)** and just include a link to the Note or wiki.
 <br />
 
 *Thanks for using Galaxy!*

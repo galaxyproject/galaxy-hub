@@ -10,7 +10,7 @@ PLACEHOLDER_INCLUDE(/Teach/LinkBox)
 
 <div class='left'> <a href='http://bit.ly/gxytrnmap'><img src='/Teach/GalaxyTrainingMapThumb.png' alt='Galaxy Training Network: Trainer Locations Map' width="220" /></a> <div class='center'> [Find trainers near you in the](http://bit.ly/gxytrnmap)<br />[Galaxy Training Network](http://bit.ly/gxytrnmap)</div></div>
 
-The *Galaxy Trainer Directory* is a service of the [Galaxy Training Network](/Teach/GTN) which aims to make it easy to share and find [Galaxy training resources](/src/Teach/Resources/index.md).  This directory lists individuals and groups that do Galaxy training.  The contacts listed here are willing to present Galaxy at meetings and workshops.  The directory includes particular areas of expertise and how far the instructors are willing to travel.
+The *Galaxy Trainer Directory* is a service of the [Galaxy Training Network](/src/Teach/GTN/index.md) which aims to make it easy to share and find [Galaxy training resources](/src/Teach/Resources/index.md).  This directory lists individuals and groups that do Galaxy training.  The contacts listed here are willing to present Galaxy at meetings and workshops.  The directory includes particular areas of expertise and how far the instructors are willing to travel.
 
 If you offer Galaxy Training and want to be listed in this directory then see the **[Add a Trainer](#add-a-trainer)** section below.
 
@@ -124,7 +124,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 * *Links & Contact*
   * [Galaxy Team](/src/GalaxyTeam/index.md)
-  * [Galaxy Outreach](/Outreach), [outreach AT galaxyproject DOT org](outreach AT galaxyproject DOT org) 
+  * [Galaxy Outreach](/src/Outreach/index.md), [outreach AT galaxyproject DOT org](outreach AT galaxyproject DOT org) 
 
 ### GalaxyP Project
 
@@ -755,4 +755,4 @@ That depends entirely on who does the training.  Most/All of these groups are **
 
 Most of the members of the GTN also do bioinformatics training that isn't Galaxy-based.  If you want training that involves both Galaxy-based and non-Galaxy-based material than the GTN membership is the best place to start.  For general bioinformatics training a great place to look for trainers is the [Global Organisation for Bioinformatics Learning, Education & Training (GOBLET)](http://mygoblet.org). GOBLET was founded in 2012 by a group of international & national societies & networks to offer an umbrella for bioinformatics, biocuration, biocomputing & computational biology learning, education & training. It has online resource directories, very similar to what the GTN has.
 
-And, as of 2015 the [Galaxy Training Network](/Teach/GTN) is a proud member of [GOBLET](http://mygoblet.org).
+And, as of 2015 the [Galaxy Training Network](/src/Teach/GTN/index.md) is a proud member of [GOBLET](http://mygoblet.org).

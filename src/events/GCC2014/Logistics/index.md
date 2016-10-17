@@ -26,7 +26,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 # Location
 
-The [2014 Galaxy Community Conference](/Events/GCC2014) will be held at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States, from June 30 through July 2, 2014.
+The [2014 Galaxy Community Conference](/src/Events/GCC2014/index.md) will be held at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States, from June 30 through July 2, 2014.
 
 Events will be split between [Charles Commons](https://mapsengine.google.com/map/edit?mid=zet4IuY8822w.k5rgXfj2gUwk) and the [Mattin Center](http://web.jhu.edu/studentlife/homewood_arts/mattin.html).  Charles Commons and Mattin Center are  [directly across Charles Street from each other](https://mapsengine.google.com/map/edit?mid=zet4IuY8822w.k5rgXfj2gUwk).
 

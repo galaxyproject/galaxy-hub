@@ -6,8 +6,8 @@ Common place to store supplemental graphics used for tutorials and quickies, suc
 * [Icons](/src/Images/Icons/index.md) are generic images like calendars, arrow, "New!" balloons and so on. 
 * [Logos](/src/Images/Logos/index.md) are for specific institutions, events or software.
 * [Screenshots](/src/Images/Screenshots/index.md) are for Galaxy screenshots used in this web site.
-* [NewsGraphics](/Images/NewsGraphics) are used in communications, such as [Galaxy Development News Briefs](/src/DevNewsBriefs/index.md). May have a date stamp.
-* [Learn](/Images/Learn) - Graphics are generally UI screenshots used in [/Support](/Support) and [/Learn](/src/Learn/index.md) wikis.
+* [NewsGraphics](/src/Images/NewsGraphics/index.md) are used in communications, such as [Galaxy Development News Briefs](/src/DevNewsBriefs/index.md). May have a date stamp.
+* [Learn](/src/Images/Learn/index.md) - Graphics are generally UI screenshots used in [/Support](/Support) and [/Learn](/src/Learn/index.md) wikis.
 
 PLACEHOLDER_ACTION(AttachFile,Attach a new file)
 

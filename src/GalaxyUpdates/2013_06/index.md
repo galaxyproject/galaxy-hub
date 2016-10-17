@@ -8,7 +8,7 @@ title: June 2013 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the June 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the June 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -98,7 +98,7 @@ The Galaxy is expanding! Please help it grow.
 * [Senior Developer](http://www.nature.com/naturejobs/science/jobs/321283-Senior-Developer-Stem-Cell-Bioinformatics-Core), Stem Cell Bioinformatics Core, Sage Bionetworks, Seattle, WA, United States
 * [Bioinformatics Support Group Leader](http://bit.ly/VkRtrb) @ LSU
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 
 ## GCC2013
@@ -114,13 +114,13 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <br />
 
-The [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013) will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).
+The [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/index.md) will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).
 
 <div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
 
-[GCC2013](/Events/GCC2013) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/src/Events/GCC2013/TrainingDay/index.md) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
+[GCC2013](/src/Events/GCC2013/index.md) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/src/Events/GCC2013/TrainingDay/index.md) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
 
-**[Register by 14 June](/Events/GCC2013/Register)** and *and avoid the 100% fee increase for late registration.*  Registration is very affordable, with combined registration ([Training Day](/src/Events/GCC2013/TrainingDay/index.md) + main meeting) starting at ~ €165 for post-docs and students.  Registering now also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Note that you can still register after 14 June, it will just cost you much more.
+**[Register by 14 June](/src/Events/GCC2013/Register/index.md)** and *and avoid the 100% fee increase for late registration.*  Registration is very affordable, with combined registration ([Training Day](/src/Events/GCC2013/TrainingDay/index.md) + main meeting) starting at ~ €165 for post-docs and students.  Registering now also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Note that you can still register after 14 June, it will just cost you much more.
 
 <br />
 
@@ -140,7 +140,7 @@ Past Galaxy Community Conferences have been *the* event for networking in the Ga
 
 We are pleased to announce that [BioTeam](http://bioteam.net) is a [Gold Sponsor of GCC2013](/src/Events/GCC2013/Sponsorships/index.md). 
 
-There are still [Silver and Bronze sponsorships](/Events/GCC2013/Sponsorships) available. Please contact the [Organizers](/src/Events/GCC2013/Organizers/index.md) if your organization would like to help sponsor this event. 
+There are still [Silver and Bronze sponsorships](/src/Events/GCC2013/Sponsorships/index.md) available. Please contact the [Organizers](/src/Events/GCC2013/Organizers/index.md) if your organization would like to help sponsor this event. 
 
 <br />
 
@@ -279,7 +279,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 <div class='right'><a href='/Community/GalaxyAdmins/Meetups/2013_05_15'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' height="50" /></a></div>
 
-The [May GalaxyAdmins Meetup](/Community/GalaxyAdmins/Meetups/2013_05_15) featured Andrew Warren of the [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) at Virginia Tech speaking on their Galaxy deployment *[RNA Rocket](http://rnaseq.pathogenportal.org/)* for [Pathogen Portal](http://pathogenportal.org). [Dannon Baker](/src/DannonBaker/index.md)also gave a Galaxy Project update.  Slides and a screencast are now available.
+The [May GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2013_05_15/index.md) featured Andrew Warren of the [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) at Virginia Tech speaking on their Galaxy deployment *[RNA Rocket](http://rnaseq.pathogenportal.org/)* for [Pathogen Portal](http://pathogenportal.org). [Dannon Baker](/src/DannonBaker/index.md)also gave a Galaxy Project update.  Slides and a screencast are now available.
 
 <br />
 
@@ -300,7 +300,7 @@ If your account is suspended and you believe that you are not in violation of Ma
 
 ## Galaxy Distributions
 
-The most recent official distribution was on [April 1, 2013](/DevNewsBriefs/2013_04_01).  However, [a security update was released on April 8](/src/News/2013_04_08_Galaxy_Security_Release/index.md).  See [this news item](/src/News/2013_04_08_Galaxy_Security_Release/index.md) for details.  We are planning the next release for early June.
+The most recent official distribution was on [April 1, 2013](/src/DevNewsBriefs/2013_04_01/index.md).  However, [a security update was released on April 8](/src/News/2013_04_08_Galaxy_Security_Release/index.md).  See [this news item](/src/News/2013_04_08_Galaxy_Security_Release/index.md) for details.  We are planning the next release for early June.
 
 
 ## Tool Shed Contributions

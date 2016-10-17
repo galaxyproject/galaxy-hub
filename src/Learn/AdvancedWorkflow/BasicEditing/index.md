@@ -77,7 +77,7 @@ Located at the far left in the editor layout, the *Tools* panel contains all the
 <br />
 <br />
 * **tool search** - Search for tools by name 
-* **1: tool groups** - Click to open tool groups to reveal tools. Click on a *tool* to add it to your *workflow canvas*. More about *toolbox* features below in [ToolBox Details](/Learn/AdvancedWorkflow/BasicEditing#toolbox_details). <br /> ![workflow editor add tool](/src/Images/Learn/workflow_editor_add_tool.png)
+* **1: tool groups** - Click to open tool groups to reveal tools. Click on a *tool* to add it to your *workflow canvas*. More about *toolbox* features below in [ToolBox Details](/src/Learn/AdvancedWorkflow/BasicEditing/index.md#toolbox_details). <br /> ![workflow editor add tool](/src/Images/Learn/workflow_editor_add_tool.png)
 * **workflow control** - Scroll down to the bottom of the panel to locate this special section of workflow-editing specific canvas items.
 * **2: input dataset** - Click to add to your *workflow canvas* same as adding a tool. More about *inputs* below, see [Key Edits: Adding Inputs](/src/Learn/AdvancedWorkflow/BasicEditing/index.md#adding_inputs). 
 * **3: input dataset collection** - Click to add to your *workflow canvas* same as adding a tool. More about how *dataset collections* differ from *datasets* is pending wiki documentation (brand-new!).
@@ -85,7 +85,7 @@ Located at the far left in the editor layout, the *Tools* panel contains all the
 
 ### ToolBox Details
 <div class='right'>![workflow editor toolbox detail-A](/src/Images/Learn/workflow_editor_toolbox_detail-A.png)</div>
-A *toolbox* on the *workflow canvas* represents a *tool* action or *job* performed on dataset(s) as they pass through a workflow. On the *canvas*, *input and tool* connections and hidden status are set. Specific settings for a *tool* are made in the far right [Details](/Learn/AdvancedWorkflow/BasicEditing#right_details_panel) panel, explained below. (annotated center panel "purple" in the [Editor Layout](/src/Learn/AdvancedWorkflow/BasicEditing/index.md#editor_layout) above and *toolbox detail "A"* to the right)
+A *toolbox* on the *workflow canvas* represents a *tool* action or *job* performed on dataset(s) as they pass through a workflow. On the *canvas*, *input and tool* connections and hidden status are set. Specific settings for a *tool* are made in the far right [Details](/src/Learn/AdvancedWorkflow/BasicEditing/index.md#right_details_panel) panel, explained below. (annotated center panel "purple" in the [Editor Layout](/src/Learn/AdvancedWorkflow/BasicEditing/index.md#editor_layout) above and *toolbox detail "A"* to the right)
 <br />
 * **1: tool name** - Exact tool name.
 * **2: tool description** - Short portion of the tool description or actions.
@@ -99,11 +99,11 @@ A *toolbox* on the *workflow canvas* represents a *tool* action or *job* perform
 <br />
 
 ### Right Details Panel
-The *details* panel is where tool settings are made and adjusted for the selected *[toolbox](/Learn/AdvancedWorkflow/BasicEditing#toolbox_details)* on the *workflow canvas*. Some settings are the same as those made when a *tool* is executed from a history (the settings on the *tool form*). Others are workflow-specific options. (annotated right top *red* panel and underneath *purple* in the [Editor Layout](/src/Learn/AdvancedWorkflow/BasicEditing/index.md#editor_layout) above and *toolbox detail "B-1 & B-2"* below)
+The *details* panel is where tool settings are made and adjusted for the selected *[toolbox](/src/Learn/AdvancedWorkflow/BasicEditing/index.md#toolbox_details)* on the *workflow canvas*. Some settings are the same as those made when a *tool* is executed from a history (the settings on the *tool form*). Others are workflow-specific options. (annotated right top *red* panel and underneath *purple* in the [Editor Layout](/src/Learn/AdvancedWorkflow/BasicEditing/index.md#editor_layout) above and *toolbox detail "B-1 & B-2"* below)
 * **tool: tool name** - The exact name of the *tool* being edited. Same as in the *toolbox*. 
 * **1: version** - The Galaxy *wrapper version* for the tool. Note that this is __not__ the same as the underlying *tool executable* version (both are available on the ![](/Images/Icons/HistoryInfo.png) *info form* for a completed job).
 * **2: tool description** - Short portion of the tool description or actions. Same as in the *toolbox*. 
-* **3: edit step actions** - Workflow-specific actions that can be applied when a *tool* is executed and are sometimes necessary to create appropriate *[noodle connections](/Learn/AdvancedWorkflow/BasicEditing#noodle-y_connections)* between tools (such as *[datatype](/Learn/AdvancedWorkflow/BasicEditing#assign_datatype)* assignments). All pull-down menu options are explained in: **[Advanced Editing](/Learn/AdvancedWorkflow/AdvEditing)** and **[Using Variables](/Learn/AdvancedWorkflow/Variables)**.
+* **3: edit step actions** - Workflow-specific actions that can be applied when a *tool* is executed and are sometimes necessary to create appropriate *[noodle connections](/src/Learn/AdvancedWorkflow/BasicEditing/index.md#noodle-y_connections)* between tools (such as *[datatype](/Learn/AdvancedWorkflow/BasicEditing#assign_datatype)* assignments). All pull-down menu options are explained in: **[Advanced Editing](/Learn/AdvancedWorkflow/AdvEditing)** and **[Using Variables](/Learn/AdvancedWorkflow/Variables)**.
 * **4: edit step attributes** - Workflow-specific annotation/info that can be provided to describe what a tool's purpose is, expected input content (if an *input* dataset box), and other communications directed to users of the workflow. This annotation is displayed when a workflow is *viewed* or when it is *run*.
 * **5: tool form info contents** - Exact contents displayed on a tool's *tool form* underneath the settings. This is provided in the *workflow editor* to assist with correct setting and connections for included *tools*.
 ![workflow editor toolbox detail-B1](/src/Images/Learn/workflow_editor_toolbox_detail-B1.png) continued on....

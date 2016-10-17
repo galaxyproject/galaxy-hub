@@ -11,11 +11,11 @@ Is your organization interested in being a prominent part of one of the fastest 
 
 ## Interested?
 
-If your organization is interested in participating in [GCC2013](../) as a sponsor then please contact Dave Clements at [outreach AT galaxyproject DOT org](outreach AT galaxyproject DOT org).
+If your organization is interested in participating in [GCC2013](/src/events/GCC2013/index.md) as a sponsor then please contact Dave Clements at [outreach AT galaxyproject DOT org](outreach AT galaxyproject DOT org).
 
 ## About GCC2013
 
-The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering.  GCC2013 will be the fourth annual meeting.  Attendance doubled between the first meeting in [2010 (Cold Spring Harbor Laboratories)](../../GDC2010) and [2011 (Lunteren, the Netherlands)](../../GCC2011), and increased by a third again in [2012](/src/Events/GCC2012/index.md) to over 200 registrations.  Participants mainly come from these groups:
+The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering.  GCC2013 will be the fourth annual meeting.  Attendance doubled between the first meeting in [2010 (Cold Spring Harbor Laboratories)](/src/events/GDC2010/index.md) and [2011 (Lunteren, the Netherlands)](../../GCC2011), and increased by a third again in [2012](/src/Events/GCC2012/index.md) to over 200 registrations.  Participants mainly come from these groups:
 * Sequencing core facility staff
 * Bioinformatics core staff
 * Bioinformatics tool and workflow developers

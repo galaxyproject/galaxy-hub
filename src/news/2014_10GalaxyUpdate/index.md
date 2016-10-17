@@ -21,7 +21,7 @@ A lot is happening in in the Galaxy in October, and a lot of good stuff happened
 
 Happy October!
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

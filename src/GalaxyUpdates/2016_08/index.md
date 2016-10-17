@@ -314,7 +314,7 @@ The Galaxy is expanding! Please help it grow.
 * [Postdoctoral Researcher: Forest Genomics Database and Software Developer](http://compgenomics.lab.uconn.edu/join/), University of Connecticut.  "... data sharing among partner databases through Galaxy modules." <div class='red'>Act fast.</span>  
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -323,7 +323,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 80 publicly accessible Galaxy servers](/PublicGalaxyServers) and [four semi-public Galaxy services](/src/SemiPublicGalaxyServers/index.md).  Here's what happened with them in July.
+There are [over 80 publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) and [four semi-public Galaxy services](/src/SemiPublicGalaxyServers/index.md).  Here's what happened with them in July.
 
 ## Galaxy-P
 
@@ -352,7 +352,7 @@ There are [over 80 publicly accessible Galaxy servers](/PublicGalaxyServers) and
 <a href='/Community/Deployment/PHACNML'><img src='/Community/Deployment/PHACNML/MapleLeaf.png' alt='Public Health Agency of Canada - National Microbiology Laboratory' height="75" /></a>
 </div>
 
-New [Galaxy Deployment Catalog](/Community/Deployments) and [Community Log Board](/src/Community/Logs/index.md) entries were added:
+New [Galaxy Deployment Catalog](/src/Community/Deployments/index.md) and [Community Log Board](/src/Community/Logs/index.md) entries were added:
 
 * The [Public Health Agency of Canada - National Microbiology Laboratory Galaxy](/src/Community/Deployment/PHACNML/index.md) server helps identify, prevent and control infectious diseases.
 

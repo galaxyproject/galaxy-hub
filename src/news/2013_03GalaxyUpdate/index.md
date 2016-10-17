@@ -8,8 +8,8 @@ date: 2013-03-01T03:07:42Z
 The [March 2013 Galaxy Update is now available](/src/GalaxyUpdates/2013_03/index.md). 
 
 **Highlights:**
-* **[GCC2013](/GalaxyUpdates/2013_03#gcc2013) [early registration](/Events/GCC2013/Register), and [oral presentation and poster abstract submission](/Events/GCC2013/Abstracts) are now open**, and we have  [several new sponsors](/src/GalaxyUpdates/2013_03/index.md#sponsorships)!
-* The [March 20 GalaxyAdmins meetup](/GalaxyUpdates/2013_03#march-galaxyadmins-web-meetup) will feature Hailiang (Leon) Mei, and David van Enckevort speaking on *[NBIC Galaxy](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/)* 
+* **[GCC2013](/src/GalaxyUpdates/2013_03/index.md#gcc2013) [early registration](/Events/GCC2013/Register), and [oral presentation and poster abstract submission](/Events/GCC2013/Abstracts) are now open**, and we have  [several new sponsors](/src/GalaxyUpdates/2013_03/index.md#sponsorships)!
+* The [March 20 GalaxyAdmins meetup](/src/GalaxyUpdates/2013_03/index.md#march-galaxyadmins-web-meetup) will feature Hailiang (Leon) Mei, and David van Enckevort speaking on *[NBIC Galaxy](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/)* 
 * [A new public Galaxy server](/src/GalaxyUpdates/2013_03/index.md#new-public-galaxy-servers) in Costa Rica
 * [New papers](/src/GalaxyUpdates/2013_03/index.md#new-papers)
 * [Open Positions](/src/GalaxyUpdates/2013_03/index.md#whos-hiring) at four different institutions
@@ -20,7 +20,7 @@ The [March 2013 Galaxy Update is now available](/src/GalaxyUpdates/2013_03/index
 
 If you have anything you would like to see in the April *[Galaxy Update](/src/GalaxyUpdates/index.md)*, please let us know.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

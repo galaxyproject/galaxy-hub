@@ -43,7 +43,7 @@ You can get this by
 
 **Galaxy Architecture Session, Tuesday evening, November 7**
 
-The [basics section](/Events/AdminTraining2016/BasicsSession) will end on Tuesday evening with an overview of Galaxy's architecture.  All participants in the advanced session are also welcome to attend this session at the [Salt Lake City Library](/src/Events/AdminTraining2016/BasicsSession/index.md#venue).
+The [basics section](/src/Events/AdminTraining2016/BasicsSession/index.md) will end on Tuesday evening with an overview of Galaxy's architecture.  All participants in the advanced session are also welcome to attend this session at the [Salt Lake City Library](/src/Events/AdminTraining2016/BasicsSession/index.md#venue).
 
 <table>
   <tr class="th" >

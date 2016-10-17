@@ -8,7 +8,7 @@ title: November 2013 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the November 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the November 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 <br /><br />
 
@@ -102,7 +102,7 @@ And ...
 
 ## Ten Simple Rules for Reproducible Computational Research
 
-[Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/), [Anton Nekrutenko](/anton), [James Taylor](/JamesTaylor), and [Eivind Hovig](http://www.mn.uio.no/ifi/english/people/aca/ehovig/index.html)'s paper "[Ten Simple Rules for Reproducible Computational Research](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285)" was published in *[PLoS Computational Biology](http://www.ploscompbiol.org/)* in October.  
+[Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/), [Anton Nekrutenko](/src/anton/index.md), [James Taylor](/JamesTaylor), and [Eivind Hovig](http://www.mn.uio.no/ifi/english/people/aca/ehovig/index.html)'s paper "[Ten Simple Rules for Reproducible Computational Research](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285)" was published in *[PLoS Computational Biology](http://www.ploscompbiol.org/)* in October.  
 
 <div class='right'><a href='http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285'><img src='/Images/Logos/PlosCompBioLogo.png' alt='PLoS Computational Biology: Ten Simple Rules for Reproducible Computational Research' width="240" /></a></div>
 
@@ -144,7 +144,7 @@ The Galaxy is expanding! Please help it grow.
 * [Computational biology opening](/src/News/ComputationalBiologyParis/index.md) at University Pierre-et-Marie-Curie, Paris
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -154,7 +154,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <div class='right'><a href='/Events/GCC2014'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="130" /></a></div>
 
-The [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
+The [2014 Galaxy Community Conference (GCC2014)](/src/Events/GCC2014/index.md) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
 Galaxy Community Conferences are an opportunity to participate in presentations, discussions, poster sessions, lightning talks and breakouts, all about high-throughput biology and the tools that support it.  The conference will also includes a *Training Day* offering in-depth topic coverage, across several concurrent sessions.  See [the GCC2013 web site](/src/Events/GCC2013/index.md) for an idea of what happens at a Galaxy Community Conference.
 
@@ -341,7 +341,7 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
 
 <div class='right'><a href='https://lifeportal.uio.no/'><img src='/Images/Logos/LifeportalLeaf.jpg' alt='Lifeportal' /></a></div>
 
-The University of Oslo (UiO), the hosts of this year's [Galaxy Community Conference](/Events/GCC2013), launched [Lifeportal](https://lifeportal.uio.no/) in October.  While Lifeportal is *not* a [public Galaxy server](/PublicGalaxyServers), it is [available to all research institutions in Norway and their collaborators abroad](http://www.uio.no/english/services/it/research/hpc/lifeportal/start-using/).
+The University of Oslo (UiO), the hosts of this year's [Galaxy Community Conference](/src/Events/GCC2013/index.md), launched [Lifeportal](https://lifeportal.uio.no/) in October.  While Lifeportal is *not* a [public Galaxy server](/PublicGalaxyServers), it is [available to all research institutions in Norway and their collaborators abroad](http://www.uio.no/english/services/it/research/hpc/lifeportal/start-using/).
 
 From the [Lifeportal website](https://lifeportal.uio.no/):
  Lifeportal gives you easy access to the High Performance Computing cluster Abel at the University of Oslo. The Galaxy based Lifeportal has a continuously growing list of services, and among them the most widely used tools from the former Bioportal.
@@ -354,7 +354,7 @@ See [this article](http://bit.ly/GDSjK4) for more on Lifeportal and why UIO chos
 
 The most recent [Galaxy distribution was August 12](/src/DevNewsBriefs/2013_08_12/index.md).
 
-A new version of [/CloudMan](/CloudMan) was [released in July](/src/News/CloudManRelease/index.md).
+A new version of [/CloudMan](/src/CloudMan/index.md) was [released in July](/src/News/CloudManRelease/index.md).
 
 <br />
 

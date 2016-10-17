@@ -18,7 +18,7 @@ title: [UC Davis Bioinformatics Core Training Galaxy](/src/Teach/Resource/UCDavi
  Date Created/Updated:: 2014/06/20 
 </div>
 
-This AMI (**ami-ab010aee**)was created for the [RNA-Seq and ChIP-Seq Analysis with Galaxy Workshop](/Teach/Resource/UCDavisRNAChIPWorkshop) offered at the UC Davis Bioinformatics core, December 16-19, 2014.  See the [UC Davis Bioinformatics Core Software page](http://bioinformatics.ucdavis.edu/software/) for details on using it.
+This AMI (**ami-ab010aee**)was created for the [RNA-Seq and ChIP-Seq Analysis with Galaxy Workshop](/src/Teach/Resource/UCDavisRNAChIPWorkshop/index.md) offered at the UC Davis Bioinformatics core, December 16-19, 2014.  See the [UC Davis Bioinformatics Core Software page](http://bioinformatics.ucdavis.edu/software/) for details on using it.
 
 ## Links
 

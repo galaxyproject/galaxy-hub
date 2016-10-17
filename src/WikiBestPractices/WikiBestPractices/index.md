@@ -81,7 +81,7 @@ We are still working out details in this area.
 ## Uploading Files
 
 <div class='bestpractice'>
-1. If a uploaded file is likely to be useful on more than one page, please upload it to the [/Images](/Images) or [/Documents](/src/Documents/index.md) wiki page hierarchies.
+1. If a uploaded file is likely to be useful on more than one page, please upload it to the [/Images](/src/Images/index.md) or [/Documents](/src/Documents/index.md) wiki page hierarchies.
 1. Please give the file a meaningful name when uploading it.
 1. When uploading a diagram or cartoon that was created in a drawing program upload the exported image file (png, jpg, gif) *and* the original image source file as well. Load both files with the same name, but different extensions.
 </div>

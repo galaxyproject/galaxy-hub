@@ -8,7 +8,7 @@ title: October 2012 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the October 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the October 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -64,7 +64,7 @@ These papers may be of interest to the Galaxy community:
 
 * [Galaxy Workflow Integration on Garuda Grid](http://dx.doi.org/10.1109/WETICE.2012.51), by  K. Karuna, N. Mangala, C. Janaki, S. Shashi, and C. Subrata; in Enabling Technologies: Infrastructure for Collaborative Enterprises (WETICE), 2012 IEEE 21st International Workshop on (June 2012), pp. 194-196
 
-These papers were among [35 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/GalaxyUpdates) (for a total of 456 papers in the last ~20 months).  The new papers are spread [across 8 categories](http://www.citeulike.org/group/16008/tags).
+These papers were among [35 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/GalaxyUpdates/index.md) (for a total of 456 papers in the last ~20 months).  The new papers are spread [across 8 categories](http://www.citeulike.org/group/16008/tags).
 
 <br />
 
@@ -84,7 +84,7 @@ The Galaxy is expanding!  Please help it grow.
 * The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs @ Penn State and Emory
 * [offre CDD INRA Versailles](http://bit.ly/TKoV9h) - developpement chaine de traitements !RnaSeq sous Galaxy - France Genomique
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -102,7 +102,7 @@ There are October application, poster, and paper deadlines for
 * [Rocky 2012](http://www.iscb.org/rocky2012) (deadline October 4)
 * [BeNeLux Bioinformatics Conference 2012 ](http://www.nbic.nl/bbc2012) (deadline October 22)
 
-October events include the [(first Swiss) Galaxy Workshop](/Events/Switzerland2012); [InCoB 2012](http://incob2012.org); [IEEE Conference on eScience](http://www.ci.uchicago.edu/escience2012/) (eScience 2012, which includes the [Extending High-Performance Computing Beyond its Traditional User Communities workshop](http://www.psc.edu/events/escience-2012-workshop/)); [Bio-IT World Europe](http://www.bio-itworldexpoeurope.com/Bio-It_Europe_Content.aspx?id=116078&libID=116026); [BioVis: IEEE Symposium on Biological Data Visualization](http://www.biovis.net); [Advanced NGS Course: RNA-seq data analysis (NBIC)](http://www.nbic.nl/education/course-overview/coursedetails/advanced-ngs-course-rna-seq-data-analysis/); [Advanced Sequencing Technologies & Applications Course (CSHL)](http://meetings.cshl.edu/courses/c-seqtech12.shtml); the [Northeast](http://www.nerlscd.org) and [Midwest](http://www.mwacd.org) Core directors meetings; and [eResearch Australasia 2012](http://conference.eresearch.edu.au/).
+October events include the [(first Swiss) Galaxy Workshop](/src/Events/Switzerland2012/index.md); [InCoB 2012](http://incob2012.org); [IEEE Conference on eScience](http://www.ci.uchicago.edu/escience2012/) (eScience 2012, which includes the [Extending High-Performance Computing Beyond its Traditional User Communities workshop](http://www.psc.edu/events/escience-2012-workshop/)); [Bio-IT World Europe](http://www.bio-itworldexpoeurope.com/Bio-It_Europe_Content.aspx?id=116078&libID=116026); [BioVis: IEEE Symposium on Biological Data Visualization](http://www.biovis.net); [Advanced NGS Course: RNA-seq data analysis (NBIC)](http://www.nbic.nl/education/course-overview/coursedetails/advanced-ngs-course-rna-seq-data-analysis/); [Advanced Sequencing Technologies & Applications Course (CSHL)](http://meetings.cshl.edu/courses/c-seqtech12.shtml); the [Northeast](http://www.nerlscd.org) and [Midwest](http://www.mwacd.org) Core directors meetings; and [eResearch Australasia 2012](http://conference.eresearch.edu.au/).
 
 
 News/GalaxyWorkshopsInSouthAfrica|Galaxy workshops and talks in South Africa]], the [Automated and reproducible analysis of NGS data (ARANGS12)](http://gtpb.igc.gulbenkian.pt/bicourses/ARANGS12), [Beyond the Genome 2012](http://www.beyond-the-genome.com/2012_event.html), and [ICG Americas 2012](http://www.icgamericas.org/).
@@ -208,10 +208,10 @@ There were [two new Galaxy distributions](/src/DevNewsBriefs/index.md) in Septem
 ### September 20, 2012
 
 [Highlights](/src/DevNewsBriefs/2012_09_20/index.md)
-* A new **[Galaxy tool](/DevNewsBriefs/2012_09_20#galaxy_tool_factory)** that writes other new Galaxy tools? The **[Tool Factory](http://www.youtube.com/watch?v=Nzzc9zHZJjE)** is in the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) (`toolfactory`). Try it **now**
+* A new **[Galaxy tool](/src/DevNewsBriefs/2012_09_20/index.md#galaxy_tool_factory)** that writes other new Galaxy tools? The **[Tool Factory](http://www.youtube.com/watch?v=Nzzc9zHZJjE)** is in the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) (`toolfactory`). Try it **now**
 * **[Learn](/src/DevNewsBriefs/2012_09_20/index.md#multiple_tool_versions)** how to display multiple versions of a tool in the **Galaxy** tool panel. 
-* **[CloudLaunch Overhaul](/DevNewsBriefs/2012_09_20#cloudlaunch_overhaul)** includes **[Boto 2.5.2](http://boto.cloudhackers.com)** and simplified instance selection and key generation.
-* Release also includes more **[Tool Shed](/DevNewsBriefs/2012_09_20#tool-shed)** updates, **[Framework](/DevNewsBriefs/2012_09_20#framework)** and **[API](/DevNewsBriefs/2012_09_20#api)** updates, plus **[Security](/DevNewsBriefs/2012_09_20#security_fixes)** and **[Bug](/src/DevNewsBriefs/2012_09_20/index.md#bug_fixes)** fixes.
+* **[CloudLaunch Overhaul](/src/DevNewsBriefs/2012_09_20/index.md#cloudlaunch_overhaul)** includes **[Boto 2.5.2](http://boto.cloudhackers.com)** and simplified instance selection and key generation.
+* Release also includes more **[Tool Shed](/src/DevNewsBriefs/2012_09_20/index.md#tool-shed)** updates, **[Framework](/DevNewsBriefs/2012_09_20#framework)** and **[API](/DevNewsBriefs/2012_09_20#api)** updates, plus **[Security](/DevNewsBriefs/2012_09_20#security_fixes)** and **[Bug](/src/DevNewsBriefs/2012_09_20/index.md#bug_fixes)** fixes.
 
 ### September 7, 2012
 [Highlights](/src/DevNewsBriefs/2012_09_07/index.md):

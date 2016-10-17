@@ -103,9 +103,9 @@ See the [event map for details](https://drive.google.com/open?id=1vC6J8BdrMDQo_c
 
 # Training Venues
 
-The **[Basics Session](../BasicsSession)** will be held at the **[Salt Lake City Main Public Library](http://www.slcpl.lib.ut.us/branches/view/Main+Library).**  This [stunning venue](https://www.google.com/search?tbm=isch&q=salt+lake+city+library) is located in downtown Salt Lake City at [210 East 400 South](https://drive.google.com/open?id=1vC6J8BdrMDQo_cIJvTr9pjUGGcA&usp=sharing), and is a stop on the [UTA TRAX Red Line](https://www.rideuta.com/Rider-Tools/Schedules-and-Maps/703-Red-Line) and just [5 stops from conference housing](https://drive.google.com/open?id=1vC6J8BdrMDQo_cIJvTr9pjUGGcA&usp=sharing).  We'll be meeting in [Conference Room 4](http://www.slcpl.lib.ut.us/rooms/) 
+The **[Basics Session](/src/events/AdminTraining2016/BasicsSession/index.md)** will be held at the **[Salt Lake City Main Public Library](http://www.slcpl.lib.ut.us/branches/view/Main+Library).**  This [stunning venue](https://www.google.com/search?tbm=isch&q=salt+lake+city+library) is located in downtown Salt Lake City at [210 East 400 South](https://drive.google.com/open?id=1vC6J8BdrMDQo_cIJvTr9pjUGGcA&usp=sharing), and is a stop on the [UTA TRAX Red Line](https://www.rideuta.com/Rider-Tools/Schedules-and-Maps/703-Red-Line) and just [5 stops from conference housing](https://drive.google.com/open?id=1vC6J8BdrMDQo_cIJvTr9pjUGGcA&usp=sharing).  We'll be meeting in [Conference Room 4](http://www.slcpl.lib.ut.us/rooms/) 
 
-The **[Advanced Session](../AdvancedSession)** will be held at the [Commanders House](http://www.universityguesthouse.com/Commanders-House) on the [University of Utah](http://utah.edu/) campus**.  This is a short walk from the [University Guest House](#lodging), where participants are staying.
+The **[Advanced Session](/src/events/AdminTraining2016/AdvancedSession/index.md)** will be held at the [Commanders House](http://www.universityguesthouse.com/Commanders-House) on the [University of Utah](http://utah.edu/) campus**.  This is a short walk from the [University Guest House](#lodging), where participants are staying.
 
 <div class='left'>
 <a href='http://ucgd.genetics.utah.edu/'><img src='/Images/Logos/USTAR-UCGD-Logo.jpg' alt='USTAR Center for Genetic Discovery (UCGD)' width="280" /></a></div>

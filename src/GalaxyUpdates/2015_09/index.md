@@ -15,7 +15,7 @@ title: The September 2015 Galactic News, !
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
 
-Welcome to the September 2015 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the September News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
+Welcome to the September 2015 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the September News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
 
 # New Papers
 
@@ -105,7 +105,7 @@ The new papers were tagged with:
  
 # Galaxy's First 2500 Publications
 
-And in case you missed it, we [reached 2500 publications](/News/First2500Papers) in the [Galaxy CiteULike Library](http://bit.ly/gxyCiteULike).  [This writeup](/News/First2500Papers) analyzes the papers by [CiteULike tag](/CiteULike#citeulike_tags) and journal, across the past 11 years, and identifies some trends.  Of those 2500 papers, less than 2% have a [Galaxy Team member](/src/GalaxyTeam/index.md) as a coauthor.  
+And in case you missed it, we [reached 2500 publications](/src/News/First2500Papers/index.md) in the [Galaxy CiteULike Library](http://bit.ly/gxyCiteULike).  [This writeup](/src/News/First2500Papers/index.md) analyzes the papers by [CiteULike tag](/CiteULike#citeulike_tags) and journal, across the past 11 years, and identifies some trends.  Of those 2500 papers, less than 2% have a [Galaxy Team member](/src/GalaxyTeam/index.md) as a coauthor.  
 
 ---
 
@@ -153,11 +153,11 @@ This split allows us to present Galaxy events in a much sparser calendar, that i
 <a href='http://www.irida.ca/'><img src='/Images/Logos/IRIDA.png' alt='IRIDA' width="175" /></a>
 </div>
 
-The [next GalaxyAdmins meetup on August 20](/Community/GalaxyAdmins/Meetups/2015_08_20) was attended by 27 *!GalaxyAdmins*.  [Aaron Petkau](https://github.com/apetkau) covered *Genomic data management at [Canada's National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) with [IRIDA](http://www.irida.ca/) and Galaxy* and [Enis Afgan](/src/EnisAfgan/index.md) presented *Adding transparency and automation into the Galaxy tool installation process*.
+The [next GalaxyAdmins meetup on August 20](/src/Community/GalaxyAdmins/Meetups/2015_08_20/index.md) was attended by 27 *!GalaxyAdmins*.  [Aaron Petkau](https://github.com/apetkau) covered *Genomic data management at [Canada's National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) with [IRIDA](http://www.irida.ca/) and Galaxy* and [Enis Afgan](/src/EnisAfgan/index.md) presented *Adding transparency and automation into the Galaxy tool installation process*.
 
 In case you missed it, [slides and video are now available online](/src/Community/GalaxyAdmins/Meetups/2015_08_20/index.md).
 
-[GalaxyAdmins](/Community/GalaxyAdmins) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  Our next meeting will be on [October 15](/Community/GalaxyAdmins/Meetups/2015_10_15) where [David Kovalic](https://www.linkedin.com/in/davidkovalic) of [Analome](http://analome.com) will present.  Hope to see you there.
+[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  Our next meeting will be on [October 15](/Community/GalaxyAdmins/Meetups/2015_10_15) where [David Kovalic](https://www.linkedin.com/in/davidkovalic) of [Analome](http://analome.com) will present.  Hope to see you there.
 
 
 # Upcoming Events
@@ -167,7 +167,7 @@ In case you missed it, [slides and video are now available online](/src/Communit
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div>
 
-There are [upcoming events](/Events) in five countries on three continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/src/Events/index.md) in five countries on three continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 
 <div class='center'> 
@@ -295,7 +295,7 @@ The Galaxy is expanding! Please help it grow.
 * [Assistant Computational Scientist](http://bit.ly/1OLwPbW) at [VIB](http://www.vib.be/), Gent, Belgium 
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -372,7 +372,7 @@ Two security vulnerabilities were recently discovered in Galaxy, and a third in 
     [Release Notes v 15.05](http://galaxy.readthedocs.org/en/master/releases/15.05_announce.html)
 
  **!BioBlend 0.6.0 and 0.6.1**
-    [BioBlend version 0.6.1](https://github.com/galaxyproject/bioblend/) was released in July. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API)(CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
+    [BioBlend version 0.6.1](https://github.com/galaxyproject/bioblend/) was released in July. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md)(CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
 
 <div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src='/Images/Logos/PlanemoLogo.png' alt='' width="150" /></a></div>
 

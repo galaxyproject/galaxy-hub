@@ -272,7 +272,7 @@ The first Galaxy Australasia Workshop was held on Monday 24th and Tuesday 25th M
 
 **Day 1** was held at the [Monash Biomedical Imaging](http://www.mbi.monash.edu.au/) Auditorium at [Monash University](http://www.monash.edu.au/).  The large auditorium did make the audience seem small, and perhaps the distance of the venue from the Melbourne CBD discouraged those few who had registered but did not attend.
 
-*[Ross Lazarus](/fubar)* ([Baker IDI/Galaxy](https://www.bakeridi.edu.au/)) opened in his usual entertaining manner and told us [Why Galaxy matters: Reproducible complex analyses as a scientific commodity](ATTACHMENT_URLDocuments/Presentations/GAW2014/ross_repro_research.pdf).
+*[Ross Lazarus](/src/fubar/index.md)* ([Baker IDI/Galaxy](https://www.bakeridi.edu.au/)) opened in his usual entertaining manner and told us [Why Galaxy matters: Reproducible complex analyses as a scientific commodity](ATTACHMENT_URLDocuments/Presentations/GAW2014/ross_repro_research.pdf).
 
 <div class='right'>[[<a href='https://genome.edu.au/wiki/GVL'><img src='/PublicGalaxyServers/GenomicsVirtualLab300.png' alt='GVL' width="75" /></a></div>
 
@@ -290,11 +290,11 @@ The day closed amidst  the usual scrum of organising taxis and public transport 
 
 <div class='right'><a href='http://www.atmajaya.ac.id/'><img src='/Images/Logos/AtmaJayaSmall.gif' alt='Atma Jaya Catholic University of Indonesia' width="150" /></a></div>
 
-**[ Three posters](/Events/GAW2014#posters-)** were displayed, including "[Microbial Community Analysis of Indonesia Tempeh Employing Metagenome Galaxy](ATTACHMENT_URLDocuments/Presentations/GAW2014/YulandiMicrobialCommunity.pdf)"  which was brought to us by some enthusiasts all the way from Indonesia.
+**[ Three posters](/src/Events/GAW2014/index.md#posters-)** were displayed, including "[Microbial Community Analysis of Indonesia Tempeh Employing Metagenome Galaxy](ATTACHMENT_URLDocuments/Presentations/GAW2014/YulandiMicrobialCommunity.pdf)"  which was brought to us by some enthusiasts all the way from Indonesia.
 
 **Day 2** was held in the [Melbourne Convention Centre](http://mcec.com.au/), alongside CSIRO’s [Computational and Simulation Sciences and eResearch conference.](http://wp.csiro.au/css/ )  
 
-*[Nate Coraor](/nate)*, our special guest from the Galaxy Project, entertained us with a look at [working versions of Galaxy from the past, and updated us on Galaxy in the present and coming in the future](ATTACHMENT_URLDocuments/Presentations/GAW2014/coraor_past_present_future.pdf).
+*[Nate Coraor](/src/nate/index.md)*, our special guest from the Galaxy Project, entertained us with a look at [working versions of Galaxy from the past, and updated us on Galaxy in the present and coming in the future](ATTACHMENT_URLDocuments/Presentations/GAW2014/coraor_past_present_future.pdf).
 
 <div class='left'>[[<a href='http://www.latrobe.edu.au/'><img src='/Images/Logos/LatrobeUSquare.jpg' alt='Latrobe University' height="75" /></a>
 <a href='http://wehi.edu.au/'><img src='/Images/Logos/WEHILogoSquare.jpg' alt='WEHI' height="75" /></a></div>

@@ -10,7 +10,7 @@ PLACEHOLDER_INCLUDE(/Teach/Header)
 
 PLACEHOLDER_INCLUDE(/Teach/LinkBox)
 
-Just as [there are many platform choices for using Galaxy](/BigPicture/Choices), there are many platform choices for training with Galaxy.  This page discusses the different options and plusses and minuses of each.  Options [are summarized below](#the-bottom-line-which-platform-to-use).
+Just as [there are many platform choices for using Galaxy](/src/BigPicture/Choices/index.md), there are many platform choices for training with Galaxy.  This page discusses the different options and plusses and minuses of each.  Options [are summarized below](#the-bottom-line-which-platform-to-use).
 
 # Terminology
 
@@ -191,7 +191,7 @@ However, a class full of people all doing, say, assembly will stress any server 
 
 </div>
 
-There are also [publicly accessible Galaxy servers](/PublicGalaxyServers) that may be appropriate for training purposes.  Many of these have specialized and domain-specific tools that you need, and many of them will not be as heavily and unpredictably used as as [/Main](/src/Main/index.md).
+There are also [publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) that may be appropriate for training purposes.  Many of these have specialized and domain-specific tools that you need, and many of them will not be as heavily and unpredictably used as as [/Main](/src/Main/index.md).
 
 You are encourage to [take a look at the list of servers](/src/PublicGalaxyServers/index.md) to see if one or more matches your needs.  However, these are also shared public resources.  If you want to use one for training, be sure to contact the server's support people well before you plan on using it.
 
@@ -313,4 +313,4 @@ If the laptop uses MacOS or Linux as it's operating system then it is possible t
 
 </div>
 
-You can also create *virtual machine images* that participants can download and run on their laptops, using a virtual machine image player such as [VirtualBox](http://virtualbox.org).  In this case you can pre-install any needed tools and datasets.  The students will still be running analysis on their laptops, and therefore nothing too CPU or memory intensive can be run.  This approach was used at the [GCC2012](/Events/GCC2012/TrainingDay) and [GCC2013](/src/Events/GCC2013/TrainingDay/index.md) Training Day sessions where participants learned how to manage their own servers.
+You can also create *virtual machine images* that participants can download and run on their laptops, using a virtual machine image player such as [VirtualBox](http://virtualbox.org).  In this case you can pre-install any needed tools and datasets.  The students will still be running analysis on their laptops, and therefore nothing too CPU or memory intensive can be run.  This approach was used at the [GCC2012](/src/Events/GCC2012/TrainingDay/index.md) and [GCC2013](/src/Events/GCC2013/TrainingDay/index.md) Training Day sessions where participants learned how to manage their own servers.

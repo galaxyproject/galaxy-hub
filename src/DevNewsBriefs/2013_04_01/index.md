@@ -281,7 +281,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # Announcements
 
-[/News](/News), ***[April 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_04)***
+[/News](/src/News/index.md), ***[April 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_04)***
 
 ## GCC2013
 

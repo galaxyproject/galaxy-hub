@@ -11,7 +11,7 @@ title: [MegaMapper](https://wiki.med.harvard.edu/SysBio/Megason/MegaMapper)
 
 <div class='dictbox'>
  Appliance:: **[MegaMapper](/src/VA/MegaMapper/index.md)**
- Technology:: **[VM](/VirtualAppliances#virtual-machine-images), [AMI](/src/VirtualAppliances/index.md#cloud-images)**
+ Technology:: **[VM](/src/VirtualAppliances/index.md#virtual-machine-images), [AMI](/src/VirtualAppliances/index.md#cloud-images)**
  Domains:: **positional cloning of mutations** 
  Description:: [MegaMapper](https://wiki.med.harvard.edu/SysBio/Megason/MegaMapper) is a computational pipeline for positional cloning of mutations by whole genome sequencing. 
  Owners:: [Megason Lab](https://wiki.med.harvard.edu/SysBio/Megason/), [Harvard Medical School](http://hms.harvard.edu/)

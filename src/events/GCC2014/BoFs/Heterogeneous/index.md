@@ -11,14 +11,14 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
  Audience:: 
  When:: Tuesday, July 1, 5:45pm 
  Where:: Salon A
- Contact:: [blood AT psc DOT edu](Philip Blood), [John Chilton](/JohnChilton), [Nate Coraor](/src/nate/index.md), Carrie Ganote
+ Contact:: [blood AT psc DOT edu](Philip Blood), [John Chilton](/src/JohnChilton/index.md), [Nate Coraor](/src/nate/index.md), Carrie Ganote
 </div>
 
 PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 <div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
 
-This page describes the **Using Galaxy with Heterogeneous and Remote Resources** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
+This page describes the **Using Galaxy with Heterogeneous and Remote Resources** [Birds of a Feather](/src/Events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
 
 ## Description
 

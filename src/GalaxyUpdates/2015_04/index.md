@@ -15,7 +15,7 @@ title: The April 2015 Galactic News, !
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the April 2015 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[These newsletters](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the April 2015 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. *[These newsletters](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # New Papers
 
@@ -90,7 +90,7 @@ The new papers were tagged with:
 
 <div class='right'><a href='/Community/GalaxyAdmins/Meetups/2015_04_16'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup April 16' width="150" /></a></div>
 
-The next [GalaxyAdmins online meetup](/Community/GalaxyAdmins/Meetups/2015_04_16) will be [16 April](/Community/GalaxyAdmins/Meetups/2015_04_16). [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote) from the [National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/) and [Pervasive Technology Institute](http://pti.iu.edu/) at [Indiana University](http://iu.edu/) will talk about her Galaxy work with [Trinity](http://trinityrnaseq.github.io/), IU Galaxy, and the [Open Science Grid](http://www.opensciencegrid.org/).
+The next [GalaxyAdmins online meetup](/src/Community/GalaxyAdmins/Meetups/2015_04_16/index.md) will be [16 April](/src/Community/GalaxyAdmins/Meetups/2015_04_16/index.md). [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote) from the [National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/) and [Pervasive Technology Institute](http://pti.iu.edu/) at [Indiana University](http://iu.edu/) will talk about her Galaxy work with [Trinity](http://trinityrnaseq.github.io/), IU Galaxy, and the [Open Science Grid](http://www.opensciencegrid.org/).
 
 See the [meetup page](/src/Community/GalaxyAdmins/Meetups/2015_04_16/index.md) for more.
 
@@ -102,13 +102,13 @@ See the [meetup page](/src/Community/GalaxyAdmins/Meetups/2015_04_16/index.md) f
 <a href='/Events/Tokyo2015'><img src='/Events/Tokyo2015/WST2015.png' alt='' width="170" /></a>
 </div>
 
-The [Galaxy Workshop Tokyo 2015](/Events/Tokyo2015) is a full day of hands-on training, keynotes, lightning talks and discussions all about ways of using Galaxy for high-throughput biology, specially for human genome sequencing. This workshop will consist of two parts: The morning session is a hands-on training to learn how to run [Pitagora-Galaxy](http://www.pitagora-galaxy.org/about_en), our *Galaxy preconfigured virtual machine*, on your laptop or on AWS cloud. The afternoon session includes keynotes and lightning sessions to explain actual workflows, which *you can try immediately* on Pitagora-Galaxy.<br /><br />
+The [Galaxy Workshop Tokyo 2015](/src/Events/Tokyo2015/index.md) is a full day of hands-on training, keynotes, lightning talks and discussions all about ways of using Galaxy for high-throughput biology, specially for human genome sequencing. This workshop will consist of two parts: The morning session is a hands-on training to learn how to run [Pitagora-Galaxy](http://www.pitagora-galaxy.org/about_en), our *Galaxy preconfigured virtual machine*, on your laptop or on AWS cloud. The afternoon session includes keynotes and lightning sessions to explain actual workflows, which *you can try immediately* on Pitagora-Galaxy.<br /><br />
 
 ## GCC2015: 6-8 July, Norwich UK
 
 <div class='right'><a href='http://gcc2015.tsl.ac.uk/'><img src='/Images/Logos/GCC2015LogoWide600.png' alt='Sponsor GCC2015' width="170" /></a></div>
 
-The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is the Galaxy community's annual gathering of users, developers, and administrators.  [Previous GCC's](/Events/GCC2014) have drawn over 200 participants, and we expect that to happen again in 2015.  GCC2015 is being hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK, immediately before [BOSC](http://www.open-bio.org/wiki/BOSC_2015) and [ISMB/ECCB](http://www.iscb.org/ismbeccb2015) in Dublin.
+The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is the Galaxy community's annual gathering of users, developers, and administrators.  [Previous GCC's](/src/Events/GCC2014/index.md) have drawn over 200 participants, and we expect that to happen again in 2015.  GCC2015 is being hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK, immediately before [BOSC](http://www.open-bio.org/wiki/BOSC_2015) and [ISMB/ECCB](http://www.iscb.org/ismbeccb2015) in Dublin.
 
 There are a lot of events going on at GCC2015, including:
 
@@ -186,7 +186,7 @@ Please let the [organisers|GCC2015 Organising Committee](http://gcc2015.tsl.ac.u
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div>
 
-There are [upcoming events](/Events) in 8 countries on 4 continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/src/Events/index.md) in 8 countries on 4 continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <table>
   <tr class="th" >
@@ -352,7 +352,7 @@ The Galaxy is expanding! Please help it grow.
 * [Software Developer for the Refinery Team](https://jobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1118216&PartnerId=25240&SiteId=5341&type=mail&JobReqLang=1&recordstart=1&JobSiteId=5341&JobSiteInfo=1118216_5341&gqid=0), Boston, Massachusetts, United States
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -496,7 +496,7 @@ This is mostly an incremental bug fix release with the following summary of chan
 
 Enjoy and please let us know what you think,
 
-[Enis](/EnisAfgan) & [John](/JohnChilton) & [Nicola Soranzo](/NicolaSoranzo) & Simone Leo & [Eric Rasche](/src/EricRasche/index.md)
+[Enis](/src/EnisAfgan/index.md) & [John](/JohnChilton) & [Nicola Soranzo](/NicolaSoranzo) & Simone Leo & [Eric Rasche](/src/EricRasche/index.md)
 
 ## Planemo 0.6.0
 
@@ -505,7 +505,7 @@ Enjoy and please let us know what you think,
 
 * Many enhancements to the tool building documentation - descriptions of macros, collections, simple and conditional parameters, etc…
 * Fix tool_init to quote file names (thanks to Peter Cock). [Pull Request 98](https://github.com/galaxyproject/planemo/pull/98).
-* Allow ignoring file patterns in .shed.yml (thanks to [Björn Grüning](/BjoernGruening)). [Pull Request 99](https://github.com/galaxyproject/planemo/pull/98)
+* Allow ignoring file patterns in .shed.yml (thanks to [Björn Grüning](/src/BjoernGruening/index.md)). [Pull Request 99](https://github.com/galaxyproject/planemo/pull/98)
 * Add --macros flag to tool_init command to generate a macro file as part of tool generation. [ec6e30f](https://github.com/galaxyproject/planemo/commit/ec6e30f)
 * Add linting of tag order for tool XML files. [4823c5e](https://github.com/galaxyproject/planemo/commit/4823c5e)
 * Add linting of stdio tags in tool XML files. [8207026](https://github.com/galaxyproject/planemo/commit/8207026)
@@ -515,7 +515,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 ## CloudMan and blend4j
 
-New versions [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were released in August.
+New versions [CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were released in August.
 
 ---
 

@@ -495,7 +495,7 @@ Galaxy-Announce is omitted here as it is a moderated, announcement-only list. *N
 
 ## Known Publicly Accessible Servers
 
-Most [local installations of Galaxy](/Admin/GetGalaxy) are private.  However, some are not and we do keep a list of known [Public Galaxy Servers](/src/PublicGalaxyServers/index.md).  These servers allow public access, although sometimes with restrictions.  This is not an absolute count, but it is a rough measure of the trend.
+Most [local installations of Galaxy](/src/Admin/GetGalaxy/index.md) are private.  However, some are not and we do keep a list of known [Public Galaxy Servers](/src/PublicGalaxyServers/index.md).  These servers allow public access, although sometimes with restrictions.  This is not an absolute count, but it is a rough measure of the trend.
 
 <table>
   <tr class="th" >
@@ -1099,7 +1099,7 @@ The Galaxy project started to [use Twitter](/src/GalaxyOnTwitter/index.md) on a 
 
 ## Galaxy Community Conference Feedback
 
-Summary of feedback on 3 key questions from [GCC2011](/Events/GCC2011), [GCC2012](/Events/GCC2012), [GCC2013](/Events/GCC2013), [GCC2014](/Events/GCC2014), and [GCC2015](http://gcc2015.tsl.ac.uk/)
+Summary of feedback on 3 key questions from [GCC2011](/src/Events/GCC2011/index.md), [GCC2012](/Events/GCC2012), [GCC2013](/Events/GCC2013), [GCC2014](/Events/GCC2014), and [GCC2015](http://gcc2015.tsl.ac.uk/)
 
 <div class='center'>
 ![Would you recommend Galaxy events to others?](/GCCRecommendGraph.png)  ![How useful was the GCC?](/GCCUsefulGraph.png) ![How well run and organized was the GCC?](/GCCOrganized.png)

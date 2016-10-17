@@ -2,7 +2,7 @@
 
 PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
-The [GalaxyAdmins](../../) group uses the University of Iowa's Blackboard Collaborate (Ellumiate Live!) web conference system for it's [conference call meetups](/src/Community/GalaxyAdmins/Meetups/index.md).  
+The [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) group uses the University of Iowa's Blackboard Collaborate (Ellumiate Live!) web conference system for it's [conference call meetups](/src/Community/GalaxyAdmins/Meetups/index.md).  
 
 
 ## Blackboard Collaborate (Ellumiate Live!) Tips

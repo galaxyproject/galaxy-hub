@@ -117,7 +117,7 @@ The workshop is intended for Bioinformaticians who want to
 
 The workshop will be held at [Heidelberg Center for Human Bioinformatics (HD-HuB)](https://www.denbi.de/index.php/hd-hub-services/15-hd-hub). Location and Accommodation options can be found [here](https://drive.google.com/file/d/0B2xSE9muunQPQ1E1Q3UwMVBTR1k/edit).
 
-Registration is open and their is still space - just send [Björn Grüning](/BjoernGruening) an email. For more information please see the [workshop page](https://goo.gl/8dNSdy).
+Registration is open and their is still space - just send [Björn Grüning](/src/BjoernGruening/index.md) an email. For more information please see the [workshop page](https://goo.gl/8dNSdy).
 
 <div class='left'><br />
 <a href='http://www.france-bioinformatique.fr/'><img src='/Images/Logos/IFBSmallTransLogo.png' alt='IFB' height="60" /></a> <br />
@@ -145,7 +145,7 @@ A [hackathon report page is available](https://cesgo.genouest.org/groups/guggo/w
 
 ## Upcoming Events
 
-There are [many upcoming events](/Events) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [many upcoming events](/src/Events/index.md) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='center'> 
 <a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src='/Images/Logos/deNBILogo.png' alt='Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies' height="50" /></a> &nbsp;
@@ -375,7 +375,7 @@ The Galaxy is expanding! Please help it grow.
 * [Bioinformaticist](/src/News/JHUAPLBioinformaticist/index.md), Johns Hopkins University Applied Physics Laboratory (APL)
 * [Software Engineer](/src/News/SoftwareEngineerOHSU/index.md), Oregon Health Sciences University, Portland, Oregon, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -433,11 +433,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 Two new [Community Log entries](/src/Community/Logs/index.md) were added in March
 * **[Testing connexion between Galaxy and iRODS](/src/Community/Log/2015/GalaxyIrodsConnection/index.md)** by Mikael Loaec and Olivier Inizan
-* **[Setting up Galaxy with TORQUE on AWS](/Community/Log/2016/TorqueOnAWS)** by [Alex Kanterakis](https://gist.github.com/kantale)
+* **[Setting up Galaxy with TORQUE on AWS](/src/Community/Log/2016/TorqueOnAWS/index.md)** by [Alex Kanterakis](https://gist.github.com/kantale)
 
 As were two and two new [training organizations](/src/Teach/Trainers/index.md).
 * **[EMBL-ABR](/src/Teach/Trainers/index.md#embl-abr)** is a distributed national research infrastructure providing bioinformatics support to life science researchers in Australia. 
-* **[GenoToul bioinformatics platform, Sigenae, NED (GenPhySE) and TWB](/Teach/Trainers#genotoul-bioinformatics-platform-sigenae-ned-genphyse-and-twb)** offers a [catalog of training sessions](http://bioinfo.genotoul.fr/index.php?id=10) on Galaxy.
+* **[GenoToul bioinformatics platform, Sigenae, NED (GenPhySE) and TWB](/src/Teach/Trainers/index.md#genotoul-bioinformatics-platform-sigenae-ned-genphyse-and-twb)** offers a [catalog of training sessions](http://bioinfo.genotoul.fr/index.php?id=10) on Galaxy.
 
 ---
 
@@ -550,7 +550,7 @@ The 0.6.x release includes these changes:
 
 **!BioBlend 0.7.0**
 
-   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
 **blend4j v0.1.2**
@@ -571,7 +571,7 @@ See [list of tools contributed in March](/src/ToolShed/Contributions/2016_03/ind
 
 An [effort is underway](https://github.com/galaxyproject/tools-iuc/pull/574) to test more and more IUC tools automatically using [Conda](http://conda.pydata.org/docs/) dependencies.  The final aim of getting all tools under test by simply installing the dependencies via conda before running `planemo test`.  Getting packages in Conda also means we can automatically build Docker containers and offer Docker and Conda dependency resolutions for everyone **today** and for testing.
 
-The [/IUC](/IUC) is [seeking comments and contributions to this effort](https://github.com/galaxyproject/tools-iuc/pull/574).
+The [/IUC](/src/IUC/index.md) is [seeking comments and contributions to this effort](https://github.com/galaxyproject/tools-iuc/pull/574).
 
 ---
 
@@ -584,6 +584,6 @@ The [/IUC](/IUC) is [seeking comments and contributions to this effort](https://
 * From [Bjöern Grüening](/src/BjoernGruening/index.md): 
   * Cheminformatics datatypes were added to Galaxy with [this pull request](https://github.com/galaxyproject/galaxy/pull/1941). Expect new ChemicalToolBox development soon!
   * [deepTools](https://deeptools.github.io/) visualization, QC, and data normalization tools are now available on [usegalaxy.org](https://usegalaxy.org). Thanks to [Devon Ryan](https://twitter.com/dpryan79) and https://twitter.com/fidel_ramirez|Fidel Ramirez]]
-  * Galaxy Tours, a new interactive way to learn Galaxy, were announced in the [February News](/GalaxyUpdates/2016_02#new-tutorials--and-tours).  We now have an [official repository to collect community tours](https://github.com/galaxyproject/galaxy-tours).
+  * Galaxy Tours, a new interactive way to learn Galaxy, were announced in the [February News](/src/GalaxyUpdates/2016_02/index.md#new-tutorials--and-tours).  We now have an [official repository to collect community tours](https://github.com/galaxyproject/galaxy-tours).
 * From Yvan Le Bras:
   * My [first Galaxy Interactive Tour attempt](https://www.youtube.com/watch?v=msm-EDZcB5A&feature=youtu.be) for RADseq data analysis based on a RNAseq, using Björn Grüning's template.

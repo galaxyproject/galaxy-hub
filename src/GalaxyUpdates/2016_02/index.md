@@ -179,7 +179,7 @@ The new papers were tagged with:
 
 ## Upcoming Events
 
-There are [many upcoming events](/Events) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [many upcoming events](/src/Events/index.md) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='center'> 
 <a href='https://mod2016.com/'><img src='/Images/Logos/MontpellierOmicsDays.png' alt='Initiation à l’environnement UNIX et à la plateforme GALAXY' height=70" /></a> &nbsp;
@@ -299,7 +299,7 @@ The Galaxy is expanding! Please help it grow.
 * [Software Engineer](/src/News/SoftwareEngineerOHSU/index.md), Oregon Health Sciences University, Portland, Oregon, United States
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -483,7 +483,7 @@ The 0.6.x release includes these changes:
 
 **!BioBlend 0.7.0**
 
-   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
 **blend4j v0.1.2**
@@ -534,7 +534,7 @@ See [list of tools contributed in January](/src/ToolShed/Contributions/2016_01/i
 
 The app has been in development for over a year at the University of Oslo as part of [Claus Børnich's masters thesis](https://www.duo.uio.no/handle/10852/44701) and is described in 
 
-  Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/Marten), and Geir Kjetil Sandve. [Galaxy Portal: Interacting with the Galaxy platform through mobile devices](http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw042.abstract). *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
+  Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/src/Marten/index.md), and Geir Kjetil Sandve. [Galaxy Portal: Interacting with the Galaxy platform through mobile devices](http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw042.abstract). *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
 
 A [user manual](https://github.com/Tarostar/QMLGalaxyPortal/raw/master/GalaxyPortalUserGuide.pdf), additional information, and the full source are [available on GitHub](https://github.com/Tarostar/QMLGalaxyPortal).
 

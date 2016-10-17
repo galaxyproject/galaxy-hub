@@ -13,7 +13,7 @@ This page offers advice on how much cloud infrastructure you will need to run yo
 There are many reasons why you may want to run Galaxy on the cloud.  This page attempts to address these three general scenarios.
 
 ## Scenario 1: Light usage
-Scenario 1 is characterized by **light usage paired with the desire to avoid system administration.**  In this case you want to use Galaxy for relatively lightweight processing tasks, but you don't want to use a [shared Galaxy server](/Public Galaxy Servers), or install your own copy.  Galaxy's cloud images come with more tools and datasets preinstalled than does [/Main](/Main), and far more than a [locally installed Galaxy](/src/Admin/GetGalaxy/index.md).  You may also not want to put your data on a public server.
+Scenario 1 is characterized by **light usage paired with the desire to avoid system administration.**  In this case you want to use Galaxy for relatively lightweight processing tasks, but you don't want to use a [shared Galaxy server](/Public Galaxy Servers), or install your own copy.  Galaxy's cloud images come with more tools and datasets preinstalled than does [/Main](/src/Main/index.md), and far more than a [locally installed Galaxy](/src/Admin/GetGalaxy/index.md).  You may also not want to put your data on a public server.
 
 ## Scenario 2: Occasional but heavy usage
 Scenario 2 is the canonical case for cloud computing: **You need heavy-duty computing, but you don't need it all the time, and you don't have access to your own compute cluster.** In this case, you would only bring up a Galaxy on the cloud on those occasions when you have new datasets to analyze.  Once your analysis is done, you would offload your results and delete the instance.

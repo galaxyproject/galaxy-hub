@@ -12,11 +12,11 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 <div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a><br />
 <a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' width="160" /></a></div>
 
-This page describes the **[GalaxyAdmins](/Community/GalaxyAdmins)** [Birds of a Feather](/Events/GCC2013/BoF) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
+This page describes the **[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)** [Birds of a Feather](/Events/GCC2013/BoF) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
 
-[GalaxyAdmins](/Community/GalaxyAdmins) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/src/Community/GalaxyAdmins/Meetups/index.md) and at events like GCC2013, where a lot of us happen to be.
+[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/src/Community/GalaxyAdmins/Meetups/index.md) and at events like GCC2013, where a lot of us happen to be.
 
-GCC2013 coincides with the one year anniversary of GalaxyAdmins starting up and this is a good time to discuss the [future direction of the group](/Community/GalaxyAdmins/Future).  *This discussion has started in advance of GCC2013 as [this email thread](http://dev.list.galaxyproject.org/GalaxyAdmins-Group-Future-Directions-td4659133.html).* 
+GCC2013 coincides with the one year anniversary of GalaxyAdmins starting up and this is a good time to discuss the [future direction of the group](/src/Community/GalaxyAdmins/Future/index.md).  *This discussion has started in advance of GCC2013 as [this email thread](http://dev.list.galaxyproject.org/GalaxyAdmins-Group-Future-Directions-td4659133.html).* 
 
 We plan to continue, and perhaps finish, that discussion at GCC2013, at this BoF session.  That discussion and what we decide will be posted on the [GalaxyAdmins Future page](/src/Community/GalaxyAdmins/Future/index.md).  However, the current talking points are:
 
@@ -62,7 +62,7 @@ If you are interested, please add your name below and/or send an email to [cleme
 **Reference / Wiki**
 * Want a knowledge base with different descriptions of Galaxy Deployments
 * Possibly have an Admin/Logs section where people can describe what they did
-* Add a list of Admin Tutorials to [/Admin](/Admin) and [Cloud](/CloudMan) Hub pages, similar to what is on the [/Learn](/src/Learn/index.md) hub page.
+* Add a list of Admin Tutorials to [/Admin](/src/Admin/index.md) and [Cloud](/CloudMan) Hub pages, similar to what is on the [/Learn](/src/Learn/index.md) hub page.
 
 **Mailing Lists / Forums**
 
@@ -103,7 +103,7 @@ If you still want this functionality, you are encouraged to configure your email
 Reference / Wiki
 * Dave C will set up an "installation description" template that enables people to provide a basic description of their installation.  This is not a database, but it would build a searchable list of deployments
 * Dave C will create a section of the wiki for admins to log what they did during installs.
-* Dave C will add a list of Admin Tutorials to [/Admin](/Admin) and [Cloud](/CloudMan) Hub pages, similar to what is on the [/Learn](/src/Learn/index.md) hub page.
+* Dave C will add a list of Admin Tutorials to [/Admin](/src/Admin/index.md) and [Cloud](/CloudMan) Hub pages, similar to what is on the [/Learn](/src/Learn/index.md) hub page.
 
 Mailing Lists / Forums
 

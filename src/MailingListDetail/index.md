@@ -55,6 +55,6 @@ Galaxy has several active [mailing lists](/src/MailingLists/index.md), each for 
 <br />
 <div class='right'><a href='https://biostar.usegalaxy.org/'><img src='/Images/Logos/GalaxyBiostar.png' alt='Galaxy Biostar' width="200" /></a></div>
 
-**For questions about *using Galaxy* please use the [Galaxy Biostar forum](https://biostar.usegalaxy.org/).  See the [Biostar wiki page](/Support/Biostar) for more on how to use [Galaxy Biostar](https://biostar.usegalaxy.org/) and its integration with [usegalaxy.org](/src/Main/index.md).**
+**For questions about *using Galaxy* please use the [Galaxy Biostar forum](https://biostar.usegalaxy.org/).  See the [Biostar wiki page](/src/Support/Biostar/index.md) for more on how to use [Galaxy Biostar](https://biostar.usegalaxy.org/) and its integration with [usegalaxy.org](/src/Main/index.md).**
 
 (The Galaxy-User mailing was migrated to the [Galaxy Biostar forum](https://biostar.usegalaxy.org/) in Spring 2014.  All posts to Galaxy-User were migrated to the [forum](https://biostar.usegalaxy.org/) at that time. The old [Nabble archive is still available for searching](http://user.list.galaxyproject.org/), as are the [GMane](http://dir.gmane.org/gmane.science.biology.galaxy.user), [Mail-Archive.com](http://www.mail-archive.com/galaxy-user@lists.bx.psu.edu/info.html), [OSDir](http://osdir.com/ml/galaxy-source-control/), and [Penn State](http://lists.bx.psu.edu/pipermail/galaxy-user/) archives).

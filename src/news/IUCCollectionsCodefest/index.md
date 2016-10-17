@@ -28,9 +28,9 @@ Tools:
 * [Trim Galore update to use and produce collections](https://github.com/bgruening/galaxytools/pull/245) 
 * [Most of the unix text processing tools should be collection ready](https://github.com/bgruening/galaxytools/tree/master/tools/text_processing/text_processing)
 * [Michael Crusoe](https://impactstory.org/MichaelRCrusoe) ([@mr-c](https://github.com/mr-c)) worked on the [khmer wrappers to accept and produce collections](https://github.com/galaxyproject/tools-iuc/pull/80) 
-* To replace most of the repeat parameters we actually needed [support for min/max attributes in the multiple data input parameter](https://github.com/galaxyproject/galaxy/issues/765.), which was implemented in Galaxy by [John Chilton](/JohnChilton) ([@jmchilton](https://github.com/jmchilton)) 
+* To replace most of the repeat parameters we actually needed [support for min/max attributes in the multiple data input parameter](https://github.com/galaxyproject/galaxy/issues/765.), which was implemented in Galaxy by [John Chilton](/src/JohnChilton/index.md) ([@jmchilton](https://github.com/jmchilton)) 
 * Michael Crusoe (@mr-c) [described more of Galaxy's new collection features in the tool XSD project](https://github.com/JeanFred/Galaxy-XSD/pull/4) which was [integrated in planemo](https://github.com/galaxyproject/planemo/pull/309)
-* [John Chilton](/JohnChilton) (@jmchilton) made significant progress toward [allowing a multiple data parameter to reduce many collections simultaneously](https://github.com/galaxyproject/galaxy/pull/805). This will greatly simplify wrappers such as cuffmerge which includes a confusing repeat for supplying additional dataset lists beyond the first.
+* [John Chilton](/src/JohnChilton/index.md) (@jmchilton) made significant progress toward [allowing a multiple data parameter to reduce many collections simultaneously](https://github.com/galaxyproject/galaxy/pull/805). This will greatly simplify wrappers such as cuffmerge which includes a confusing repeat for supplying additional dataset lists beyond the first.
 
 [Peter Van Heusden](https://twitter.com/pvanheus) (@pvanheus) wrote a nice summary about his experience during the IUC Codefest and data collections in his blog titled ["Adventures in Galaxy output collections"](http://pvh.wp.sanbi.ac.za/2015/09/18/adventures-in-galaxy-output-collections/).
 

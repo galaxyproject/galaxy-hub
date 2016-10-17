@@ -26,27 +26,27 @@ Following the workshop, we organise a [Developers Day](/src/Events/Germany2014/i
 
 ## Registration
 
-Registration is now closed. Please contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/src/BjoernGruening/index.md) if you want your name to be put on the waiting list. There is a good chance, we can still accommodate you. 
+Registration is now closed. Please contact [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) or [Björn Grüning](/src/BjoernGruening/index.md) if you want your name to be put on the waiting list. There is a good chance, we can still accommodate you. 
 
 ## Preliminary Schedule
 
 | Time |  Speaker  |  Title  |  Slides  | 
 | ---- | -------- | ------ | ------- | 
 | 9:15 - 9:30 |  ARRIVAL  | 
-| 9:30 - 9:45 |  [Hans-Rudolf Hotz](/HansrudolfHotz) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/BjoernGruening) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |  [pdf](ATTACHMENT_URLwelcome_20141001.pdf)   | 
-| 9:45 - 10:30 |  [Dannon Baker](/DannonBaker) ([Galaxy Project](http://galaxyproject.org))  |  Status of the Galaxy Project  |  [pdf](ATTACHMENT_URLSG2014T__State_of_the_Galaxy.pdf)   | 
+| 9:30 - 9:45 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/BjoernGruening) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |  [pdf](ATTACHMENT_URLwelcome_20141001.pdf)   | 
+| 9:45 - 10:30 |  [Dannon Baker](/src/DannonBaker/index.md) ([Galaxy Project](http://galaxyproject.org))  |  Status of the Galaxy Project  |  [pdf](ATTACHMENT_URLSG2014T__State_of_the_Galaxy.pdf)   | 
 | 10:30 - 10:50 |  coffee Break  | 
-| 10:50 - 11:40 |  [Björn Grüning](/BjoernGruening) ([University of Freiburg](http://www.uni-freiburg.de/))  |  Galaxy: putting pieces together  |  [whiteboard](ATTACHMENT_URLBjoern_whiteboard.jpg) | 
+| 10:50 - 11:40 |  [Björn Grüning](/src/BjoernGruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/))  |  Galaxy: putting pieces together  |  [whiteboard](ATTACHMENT_URLBjoern_whiteboard.jpg) | 
 | 11:40 - 12:00 |  Nikolay Vazov ([USIT, University of Oslo](http://www.usit.uio.no/english/))  |  Authentication in Galaxy : let's use what is out there - National Identity Providers  |  [pdf](ATTACHMENT_URLAuth-tutorial-vazov.pdf)  | 
 | 12:00 - 13:30 |  Lunch Break (lunch will be at 12:15)  | 
 | 13:30 - 13:40 |  Jeevan Karloss ([CIGENE, Norwegian University of Life Sciences](http://www.cigene.no/))  |  Elixir Norway and Galaxy  |  [pdf](ATTACHMENT_URLElixir_Norway_011014.pdf)  | 
 | 13:40 - 14:00 |  Marco Antonio Mendoza ([IGBMC Strasbourg](http://www.igbmc.fr/))  |  NGS-QC Generator: A quality control system for ChIP-seq and enrichment-related NGS datasets  |  [pdf](ATTACHMENT_URLMarco_Galaxy_Bern_October_2014_final.pdf)  | 
 | 14:00 - 14:30 |  Sarah Diehl ([MPI-IE](https://www.ie-freiburg.mpg.de/) Freiburg) |  deepTools: a flexible platform for exploring deep-sequencing data  |  [pdf](ATTACHMENT_URLdeepTools_SG14_v3.pdf)   | 
 | 14:30 - 15:00 |  coffee Break  | 
-| 15:00 - 15:30 |  [Hans-Rudolf Hotz](/HansrudolfHotz) ([FMI](http://www.fmi.ch/))  |  Using Galaxy for NGS analysis in a collaborative environment  |  [pdf](ATTACHMENT_URLhrh_20141001.pdf)   | 
+| 15:00 - 15:30 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/))  |  Using Galaxy for NGS analysis in a collaborative environment  |  [pdf](ATTACHMENT_URLhrh_20141001.pdf)   | 
 | 15:30 - 15:45 |  Tim-Christoph Roloff ([FMI](http://www.fmi.ch/))  |  Genomics analysis at FMI  |  [pdf](ATTACHMENT_URLGalaxy_Workshop_Bern_2014_Tim_Roloff.pdf)  | 
 | 15:45 - 16:00 |  Torsten Houwaart ([University of Freiburg](http://www.uni-freiburg.de/))  |  RNA structure visualized in Galaxy  |  [pdf](ATTACHMENT_URLTorsten_Bern01.10.2014.pdf)  | 
-| 16:00 - 16:01 |  [Hans-Rudolf Hotz](/HansrudolfHotz) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/BjoernGruening)  ([University of Freiburg](http://www.uni-freiburg.de/))  |  concluding remarks  |   | 
+| 16:00 - 16:01 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/BjoernGruening)  ([University of Freiburg](http://www.uni-freiburg.de/))  |  concluding remarks  |   | 
 | 16:01 - 16:15 |  DEPARTURE (....and going to the pub)  | 
 
 
@@ -65,4 +65,4 @@ This workshop is generously supported by [SyBIT](https://wiki.systemsx.ch/displa
 
 
 ## Questions?
-Contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/src/BjoernGruening/index.md)
+Contact [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) or [Björn Grüning](/src/BjoernGruening/index.md)

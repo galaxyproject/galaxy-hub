@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/Teach/Header)
 
 PLACEHOLDER_INCLUDE(/Teach/LinkBox)
 
-This is the *hub page* for information about how to teach bioinformatics using Galaxy, and Galaxy itself.  If you are interested in Galaxy training there are [resources](/Teach/Resources), [trainers](/Teach/Trainers), [compute platform advice](/Teach/ComputingPlatforms), [best practices](/Teach/BestPractices), and the [Galaxy Training Network](/src/Teach/GTN/index.md) are here to help.
+This is the *hub page* for information about how to teach bioinformatics using Galaxy, and Galaxy itself.  If you are interested in Galaxy training there are [resources](/src/Teach/Resources/index.md), [trainers](/Teach/Trainers), [compute platform advice](/Teach/ComputingPlatforms), [best practices](/Teach/BestPractices), and the [Galaxy Training Network](/src/Teach/GTN/index.md) are here to help.
 
 ## Training Resources Directory
 
@@ -37,4 +37,4 @@ Want to know what training events are scheduled in the coming months?  Or publis
 
 ## Mailing List
 
-If you have a question about [teaching bioinformatics with Galaxy, or about teaching Galaxy itself](/Teach), then the [Galaxy-Training](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/) mailing list is a good place to find an answer.  This is also the official mailing list of the [Galaxy Training Network (GTN)](/src/Teach/GTN/index.md).
+If you have a question about [teaching bioinformatics with Galaxy, or about teaching Galaxy itself](/src/Teach/index.md), then the [Galaxy-Training](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/) mailing list is a good place to find an answer.  This is also the official mailing list of the [Galaxy Training Network (GTN)](/src/Teach/GTN/index.md).

@@ -3,7 +3,7 @@
 
 <div class='title'>Introduction to Galaxy<br /> Tuesday April 30, 2013</div>
 
-**Instructor: [Dave Clements](/DaveClements), [Galaxy Project](http://galaxyproject.org), [Emory University](http://emory.edu) 
+**Instructor: [Dave Clements](/src/DaveClements/index.md), [Galaxy Project](http://galaxyproject.org), [Emory University](http://emory.edu) 
 
 9:00am-5:00pm<br />
 [Caroline Building](http://www.slu.edu/campusmap/pdf_maps/section_3_of_3.pdf), Room 204**

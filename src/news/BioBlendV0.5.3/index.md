@@ -35,7 +35,7 @@ This is mostly an incremental bug fix release with the following summary of chan
 
 Enjoy and please let us know what you think,
 
-[Enis](/EnisAfgan) & [John](/JohnChilton) & [Nicola Soranzo](/NicolaSoranzo) & Simone Leo & [Eric Rasche](/src/EricRasche/index.md)
+[Enis](/src/EnisAfgan/index.md) & [John](/JohnChilton) & [Nicola Soranzo](/NicolaSoranzo) & Simone Leo & [Eric Rasche](/src/EricRasche/index.md)
 
 
 CategoryNews

@@ -8,11 +8,11 @@ title: March 2012 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the March 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the March 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Papers
 
-There were [28 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/GalaxyUpdates).  The new papers were spread [across 5 categories](http://www.citeulike.org/group/16008/tags).
+There were [28 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/GalaxyUpdates/index.md).  The new papers were spread [across 5 categories](http://www.citeulike.org/group/16008/tags).
 <table>
   <tr>
     <th> # </th>
@@ -48,7 +48,7 @@ The Galaxy is expanding!  Please help it grow.
 * [Bioinformatics Analyst @ U Virgina Bioinformatics Core](/src/News/BioinformaticsAnalystAtUVa/index.md)
 * [Bioinformatician / Sr. Database Developer @ GigaScience / BGI Hong Kong](/src/News/OpeningAtGigaScienceBGI/index.md)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -124,7 +124,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 
 * The [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) will be held July 25-27, in Chicago.  
 * The conference will feature two full days of presentations and discussions.  
-* [Abstract submission](/Events/GCC2012/Abstracts) opened February 13, and will [close April 16](/Events/GCC2012/Key Dates).  
+* [Abstract submission](/src/Events/GCC2012/Abstracts/index.md) opened February 13, and will [close April 16](/Events/GCC2012/Key Dates).  
 * A [whole day of training](/src/Events/GCC2012/TrainingDay/index.md) has been added, and topics set:
   * [Introduction to Galaxy](/src/Events/GCC2012/TrainingDay/index.md#ws2)
   * [Installing Your Own Galaxy](/src/Events/GCC2012/TrainingDay/index.md#ws5)
@@ -153,4 +153,4 @@ At least 8 new repositories were added to the [Galaxy Tool Shed](http://toolshed
 
 **Galaxy-Announce now the default for new users on [/Main](/src/Main/index.md)**
 
-Newly registered users on [/Main](/Main), the Galaxy project's public server, who check "Subscribe to a mailing list" at registration time, are now subscribed to the moderated and low-volume [Galaxy-Announce mailing list](/src/MailingLists/index.md), instead of the high-volume, and sometimes overwhelming [Galaxy-User](/src/MailingLists/index.md) list.  This change was also made in the Galaxy source.
+Newly registered users on [/Main](/src/Main/index.md), the Galaxy project's public server, who check "Subscribe to a mailing list" at registration time, are now subscribed to the moderated and low-volume [Galaxy-Announce mailing list](/src/MailingLists/index.md), instead of the high-volume, and sometimes overwhelming [Galaxy-User](/src/MailingLists/index.md) list.  This change was also made in the Galaxy source.

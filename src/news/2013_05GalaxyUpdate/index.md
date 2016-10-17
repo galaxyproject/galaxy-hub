@@ -8,7 +8,7 @@ date: 2013-05-06T12:56:00Z
 The [May 2013 Galaxy Update is now available](/src/GalaxyUpdates/2013_05/index.md). 
 
 **Highlights:**
-* the [GCC2013](/GalaxyUpdates/2013_05#gcc2013) **[early registration deadline is 24 May](/src/Events/GCC2013/Register/index.md)**.
+* the [GCC2013](/src/GalaxyUpdates/2013_05/index.md#gcc2013) **[early registration deadline is 24 May](/src/Events/GCC2013/Register/index.md)**.
 * [39 new papers](/src/GalaxyUpdates/2013_05/index.md#new-papers)
 * [Open Positions](/src/GalaxyUpdates/2013_05/index.md#whos-hiring) at five different institutions
 * [Other Upcoming Events](/src/GalaxyUpdates/2013_05/index.md#other-upcoming-events)
@@ -18,7 +18,7 @@ The [May 2013 Galaxy Update is now available](/src/GalaxyUpdates/2013_05/index.m
 
 If you have anything you would like to see in the June *[Galaxy Update](/src/GalaxyUpdates/index.md)*, please let us know.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

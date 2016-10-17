@@ -20,7 +20,7 @@ The [January 2013 Galaxy Update is now available](/src/GalaxyUpdates/2013_01/ind
 
 If you have anything you would like to see in the Febrarury *[Galaxy Update](/src/GalaxyUpdates/index.md)*, please let us know.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

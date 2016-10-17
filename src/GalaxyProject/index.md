@@ -1,4 +1,4 @@
-This page functions as a hub for information within this wiki about the Galaxy project itself. See the [/Learn](/Learn) page for help on using Galaxy, and the [/Admin](/src/Admin/index.md) page for help on setting up your own instance.
+This page functions as a hub for information within this wiki about the Galaxy project itself. See the [/Learn](/src/Learn/index.md) page for help on using Galaxy, and the [/Admin](/src/Admin/index.md) page for help on setting up your own instance.
 
 You can take a look at the [current members of the core project team](/src/GalaxyTeam/index.md). We are funded by NIH, NSF, Penn State, Johns Hopkins, and the Pennsylvania Department of Public Health.
 

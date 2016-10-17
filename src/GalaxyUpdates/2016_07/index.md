@@ -376,7 +376,7 @@ The Galaxy is expanding! Please help it grow.
 * [Postdoctoral Researcher: Forest Genomics Database and Software Developer](http://compgenomics.lab.uconn.edu/join/), University of Connecticut.  "... data sharing among partner databases through Galaxy modules."  <div class='red'>Deadline July 31.</span> 
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -409,7 +409,7 @@ One [new publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) 
 
 # New Semi-Public Galaxy Servers
 
-And one [new set of Semi-Public Galaxy server](/SemiPublicGalaxyServers) was added in June.  Semi-public servers aren't [fully publicly accessible](/src/PublicGalaxyServers/index.md), but that are accessible to a larger group than just the host institution's members.  
+And one [new set of Semi-Public Galaxy server](/src/SemiPublicGalaxyServers/index.md) was added in June.  Semi-public servers aren't [fully publicly accessible](/src/PublicGalaxyServers/index.md), but that are accessible to a larger group than just the host institution's members.  
 
 ## Norway: NeLS
 

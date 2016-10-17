@@ -6,14 +6,14 @@ PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
 
 
-Questions that apply to using most Galaxy instances.  See [/Main/FAQ](/Main/FAQ) for questions that are specifically about using [/Main](/Main), Galaxy's free public server.  See [/Admin/FAQ](/Admin/FAQ) for questions about [administering](/src/Admin/index.md) Galaxy.
+Questions that apply to using most Galaxy instances.  See [/Main/FAQ](/src/Main/FAQ/index.md) for questions that are specifically about using [/Main](/Main), Galaxy's free public server.  See [/Admin/FAQ](/Admin/FAQ) for questions about [administering](/src/Admin/index.md) Galaxy.
 
 
 
 ## Datasets, Histories, and Disk Usage
 What are the disk usage quotas when using Galaxy?
 
-Total disk space reserved per user is noted on the [/Main](/Main) and [/Test](/src/Test/index.md) home pages under the section "Quotas". 
+Total disk space reserved per user is noted on the [/Main](/src/Main/index.md) and [/Test](/src/Test/index.md) home pages under the section "Quotas". 
 
 When using a local, cloud, or public Galaxy servers hosted by other teams, quotas may or may not be set and are configured by that instance's administrator. Please see: [/Big Picture/Choices](/Big Picture/Choices).
 

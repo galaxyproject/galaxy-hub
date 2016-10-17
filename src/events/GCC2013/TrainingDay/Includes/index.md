@@ -79,7 +79,7 @@ END_INCLUDE
 END_INCLUDE
 
 # VM_PLAYER
-* [Virtual machine (VM) player software](/Events/GCC2013/TrainingDay/VMs), either [VirtualBox](http://virtualbox.org) or [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/). 
+* [Virtual machine (VM) player software](/src/Events/GCC2013/TrainingDay/VMs/index.md), either [VirtualBox](http://virtualbox.org) or [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/). 
 END_INCLUDE
 
 # VM
@@ -87,11 +87,11 @@ END_INCLUDE
 END_INCLUDE
 
 # VM_BASIC
-* The [virtual machine image](/Events/GCC2013/TrainingDay/VMs#2-download-needed-vms-on-your-laptop) (download from [Norway](ftp://ftp.no.embnet.org/galaxy/images/BasicWorkshop.ova) or [US](http://depot.galaxyproject.org/BasicWorkshop.ova)) for this workshop.
+* The [virtual machine image](/src/Events/GCC2013/TrainingDay/VMs/index.md#2-download-needed-vms-on-your-laptop) (download from [Norway](ftp://ftp.no.embnet.org/galaxy/images/BasicWorkshop.ova) or [US](http://depot.galaxyproject.org/BasicWorkshop.ova)) for this workshop.
 END_INCLUDE
 
 # VM_ADVANCED
-* The [virtual machine image](/Events/GCC2013/TrainingDay/VMs#2-download-needed-vms-on-your-laptop) (download from [US](http://depot.galaxyproject.org/GCC2013-AdvWorkshops.ova)) for this workshop.
+* The [virtual machine image](/src/Events/GCC2013/TrainingDay/VMs/index.md#2-download-needed-vms-on-your-laptop) (download from [US](http://depot.galaxyproject.org/GCC2013-AdvWorkshops.ova)) for this workshop.
 END_INCLUDE
 
 # SSH

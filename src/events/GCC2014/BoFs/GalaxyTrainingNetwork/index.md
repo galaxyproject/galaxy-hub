@@ -19,7 +19,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 <div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
 
-This page describes the **[Galaxy Training Network](/Teach/GTN)** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
+This page describes the **[Galaxy Training Network](/src/Teach/GTN/index.md)** [Birds of a Feather](/Events/GCC2014/BoFs) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
 
 # Description
 
@@ -137,7 +137,7 @@ Is it possible to have a persistent training server?  Some ideas:
 * Create a galaxy-teach or galaxy-train mailing list / forum
   * [Done](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/)
 * Work with that list to establish what the Resource Directory (and the Trainer Directory) should look like
-  * [Resource Directory](/Teach/Resources) and [Trainer Directory](/src/Teach/Trainers/index.md) are up.
+  * [Resource Directory](/src/Teach/Resources/index.md) and [Trainer Directory](/src/Teach/Trainers/index.md) are up.
 * Push these best practices to the GTN Best Practices area.
   * [Done](/src/Teach/BestPractices/index.md)
 * Include a video training directory

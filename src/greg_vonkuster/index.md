@@ -18,7 +18,7 @@ Greg left HP in early 2000 along with 2 partners and formed a dot-com startup na
 
 In 2003 Greg moved to State College, PA, taking a position as VP of Engineering for a Happy Valley startup named Advanced Interfaces, Inc., which eventually became `VideoMining Corporation`.
 
-In 2006 Greg brought his corporate experience to the [Galaxy Team](/GalaxyTeam) at [Penn State University](http://www.psu.edu/) where he managed the Galaxy development effort and played a key role in landing the 2008 grant that enabled the team to grow to include members at Penn State University, Emory University and beyond.
+In 2006 Greg brought his corporate experience to the [Galaxy Team](/src/GalaxyTeam/index.md) at [Penn State University](http://www.psu.edu/) where he managed the Galaxy development effort and played a key role in landing the 2008 grant that enabled the team to grow to include members at Penn State University, Emory University and beyond.
 
 Greg has been involved at some level in virtually every aspect of Galaxy.  He introduced processes early in Galaxy's development lifecycle that enabled its pervasive adoption around the world, and continues to leverage his experience to make Galaxy a useful, high-quality product that fills a unique niche in biological research.  
 

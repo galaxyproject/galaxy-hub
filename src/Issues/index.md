@@ -74,7 +74,7 @@ To search existing cards, *click* **Filter Cards** (on the right) and *enter* th
 
 ### How to Create an Issue
 
-1. First decide if it should be an issue, or it should be a [mailing list question](/MailingLists) instead.  The [Galaxy Trello Board](http://bit.ly/gxytrello) is for making feature requests and reporting software issues.  When in doubt, start with an email question on the [http://dev.list.galaxyproject.org/|Galaxy-Dev  mailing list](http://dev.list.galaxyproject.org/|Galaxy-Dev  mailing list) or a posting to the [Galaxy Biostar online forum](https://biostar.usegalaxy.org/).<br /><br />
+1. First decide if it should be an issue, or it should be a [mailing list question](/src/MailingLists/index.md) instead.  The [Galaxy Trello Board](http://bit.ly/gxytrello) is for making feature requests and reporting software issues.  When in doubt, start with an email question on the [http://dev.list.galaxyproject.org/|Galaxy-Dev  mailing list](http://dev.list.galaxyproject.org/|Galaxy-Dev  mailing list) or a posting to the [Galaxy Biostar online forum](https://biostar.usegalaxy.org/).<br /><br />
 
 1. Then [search the existing issues](#how-to-search) to see if the issue has already been recorded.  It it has, [add a comment](#how-to-add-a-comment) and/or [up-vote it](#how-to-vote).<br /><br />
 

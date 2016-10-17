@@ -10,7 +10,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2013/BoF/LinkBox)
 
 <div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
 
-This page describes the **Galaxy Professionals** [Birds of a Feather](/Events/GCC2013/BoF) meetup proposed for [GCC2013](/src/Events/GCC2013/index.md). 
+This page describes the **Galaxy Professionals** [Birds of a Feather](/src/Events/GCC2013/BoF/index.md) meetup proposed for [GCC2013](/src/Events/GCC2013/index.md). 
 
 ## Outcomes
 

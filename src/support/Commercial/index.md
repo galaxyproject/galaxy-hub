@@ -6,7 +6,7 @@ title: Commercial Galaxy Support
 
 
 
-Galaxy [servers](/BigPicture/Choices) and [support](/src/Support/index.md) are available in a wide variety of different ways, including commercial solutions. This lists the commercial providers that we are aware of
+Galaxy [servers](/src/BigPicture/Choices/index.md) and [support](/src/Support/index.md) are available in a wide variety of different ways, including commercial solutions. This lists the commercial providers that we are aware of
 
 # Consulting
 
@@ -51,7 +51,7 @@ The [BioTeam Appliance Galaxy Edition](http://www.bioteam.net/products/galaxy-ap
 <div class='right'><a href='http://openstack.org'><img src='/Images/Logos/OpenStackLogo.png' alt='OpenStack' width="130" /></a>
 </div>
 
-[/CloudMan](/CloudMan) and [Globus Genomics](/Cloud#globus-genomics) are two ways to deploy your own Galaxy server using [Amazon Web Services](http://aws.amazon.com). CloudMan can also run on any cloud provider that supports the [OpenStack](http://openstack.org) or [OpenNebula](http://opennebula.org) cloud management protocols.  This covers the vast majority of commercial cloud providers.
+[/CloudMan](/src/CloudMan/index.md) and [Globus Genomics](/Cloud#globus-genomics) are two ways to deploy your own Galaxy server using [Amazon Web Services](http://aws.amazon.com). CloudMan can also run on any cloud provider that supports the [OpenStack](http://openstack.org) or [OpenNebula](http://opennebula.org) cloud management protocols.  This covers the vast majority of commercial cloud providers.
 
 See the Galaxy [/Cloud](/src/Cloud/index.md) page for more.
 

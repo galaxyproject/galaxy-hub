@@ -34,4 +34,4 @@ Please let us know what you are interesting in.
 
 
 ## Questions?
-Contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/src/BjoernGruening/index.md)
+Contact [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) or [Björn Grüning](/src/BjoernGruening/index.md)

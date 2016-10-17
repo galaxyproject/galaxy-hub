@@ -31,7 +31,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 <br />
 Dave and Srinivas will lead a discussion following up on the issues that were raised at the [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md).
 
-[Nate Coraor](/nate) will also discuss the recent move of [usegalaxy.org](http://usegalaxy.org) from Penn State to TACC.
+[Nate Coraor](/src/nate/index.md) will also discuss the recent move of [usegalaxy.org](http://usegalaxy.org) from Penn State to TACC.
 
 ## GCC2013 Followup
 

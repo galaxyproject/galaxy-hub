@@ -15,7 +15,7 @@ title: The May 2015 Galactic News, !
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the May 2015 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[These newsletters](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the May 2015 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. *[These newsletters](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 # New Papers
 
@@ -31,7 +31,7 @@ Welcome to the May 2015 *[Galactic News](/GalaxyUpdates)*, a summary of what is 
     Halfdan Rydbeck, Geir Kjetil K. Sandve, Egil Ferkingstad, Boris Simovski, Morten Rye, Eivind Hovig, *PloS one*, Vol. 10, No. 4. (2015)
 
 * [StructureFold: Genome-wide RNA secondary structure mapping and reconstruction in vivo](http://dx.doi.org/10.1093/bioinformatics/btv213)
-    Yin Tang, [Emil Bouvier](/DaveBouvier), Chun Kit Kwok, Yiliang Ding, [Anton Nekrutenko](/src/anton/index.md), Philip C. Bevilacqua, and Sarah M. Assmann, *Bioinformatics* (16 April 2015), btv213, doi:10.1093/bioinformatics/btv213
+    Yin Tang, [Emil Bouvier](/src/DaveBouvier/index.md), Chun Kit Kwok, Yiliang Ding, [Anton Nekrutenko](/src/anton/index.md), Philip C. Bevilacqua, and Sarah M. Assmann, *Bioinformatics* (16 April 2015), btv213, doi:10.1093/bioinformatics/btv213
 
 
 The new papers were tagged with:
@@ -104,7 +104,7 @@ The new papers were tagged with:
 
 </div>
 
-The **[2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/)** is the Galaxy community's annual gathering of users, developers, and administrators.  [Previous GCC's](/Events/GCC2014) have drawn over 200 participants, and we expect that to happen again in 2015.  GCC2015 is being hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK, immediately before [BOSC](http://www.open-bio.org/wiki/BOSC_2015) and [ISMB/ECCB](http://www.iscb.org/ismbeccb2015) in Dublin.
+The **[2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/)** is the Galaxy community's annual gathering of users, developers, and administrators.  [Previous GCC's](/src/Events/GCC2014/index.md) have drawn over 200 participants, and we expect that to happen again in 2015.  GCC2015 is being hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK, immediately before [BOSC](http://www.open-bio.org/wiki/BOSC_2015) and [ISMB/ECCB](http://www.iscb.org/ismbeccb2015) in Dublin.
 
 There are a lot of events going on at GCC2015, including:
 
@@ -196,9 +196,9 @@ Please let the [organisers|GCC2015 Organising Committee](http://gcc2015.tsl.ac.u
 
 <div class='right'><a href='/Community/GalaxyAdmins/Meetups/2015_04_16'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup April 16' width="150" /></a></div>
 
-[Slides and video](/Community/GalaxyAdmins/Meetups/2015_04_16) from the [April GalaxyAdmins online meetup](/Community/GalaxyAdmins/Meetups/2015_04_16) are now available. [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote) from the [National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/) and [Pervasive Technology Institute](http://pti.iu.edu/) at [Indiana University](http://iu.edu/) presented her Galaxy work with [Trinity](http://trinityrnaseq.github.io/), IU Galaxy, and the [Open Science Grid](http://www.opensciencegrid.org/).  [Sam Guerler](/src/guerler/index.md) of the Galaxy Project talked about Galaxy'a new tool form support. 
+[Slides and video](/src/Community/GalaxyAdmins/Meetups/2015_04_16/index.md) from the [April GalaxyAdmins online meetup](/src/Community/GalaxyAdmins/Meetups/2015_04_16/index.md) are now available. [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote) from the [National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/) and [Pervasive Technology Institute](http://pti.iu.edu/) at [Indiana University](http://iu.edu/) presented her Galaxy work with [Trinity](http://trinityrnaseq.github.io/), IU Galaxy, and the [Open Science Grid](http://www.opensciencegrid.org/).  [Sam Guerler](/src/guerler/index.md) of the Galaxy Project talked about Galaxy'a new tool form support. 
 
-*Please join us for the [next GalaxyAdmins meetup on June 18](/Community/GalaxyAdmins/Meetups/2015_06_18)* when [Peter Briggs](http://galacticengineer.blogspot.co.uk/) of the [University of Manchester](http://www.manchester.ac.uk/) will speak on *Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester*.  GalaxyAdmins will also have an in-person meetup at GCC2015.
+*Please join us for the [next GalaxyAdmins meetup on June 18](/src/Community/GalaxyAdmins/Meetups/2015_06_18/index.md)* when [Peter Briggs](http://galacticengineer.blogspot.co.uk/) of the [University of Manchester](http://www.manchester.ac.uk/) will speak on *Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester*.  GalaxyAdmins will also have an in-person meetup at GCC2015.
 
 [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
 
@@ -213,7 +213,7 @@ Please let the [organisers|GCC2015 Organising Committee](http://gcc2015.tsl.ac.u
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div>
 
-There are [upcoming events](/Events) in 7 countries on 3 continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/src/Events/index.md) in 7 countries on 3 continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <table>
   <tr class="th" >
@@ -387,7 +387,7 @@ The Galaxy is expanding! Please help it grow.
 * [Software Developer for the Refinery Team](https://jobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1118216&PartnerId=25240&SiteId=5341&type=mail&JobReqLang=1&recordstart=1&JobSiteId=5341&JobSiteInfo=1118216_5341&gqid=0), Boston, Massachusetts, United States
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -451,7 +451,7 @@ And one new [Training Resource](/src/Teach/Resources/index.md):
 * Add pulsar-run script for issues commands against a Pulsar server (experimental). [3cc7f74](https://github.com/galaxyproject/pulsar/commit/3cc7f74)
 * Changed the name of project to Pulsar, moved to [Github](https://github.com/galaxyproject/pulsar/).
 * New RESTful web services interface.
-* SCP and Rsync file staging options added by [Eric Rasche](/EricRasche). [Pull Request](https://github.com/galaxyproject/pulsar/pull/34)
+* SCP and Rsync file staging options added by [Eric Rasche](/src/EricRasche/index.md). [Pull Request](https://github.com/galaxyproject/pulsar/pull/34)
 * Allow YAML based configuration.
 * Support for more traditional pip/setup.py-style installs.
 

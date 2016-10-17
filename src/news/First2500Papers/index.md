@@ -294,7 +294,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
 A couple of trends stand out in the tag data:
 
 * *[methods](http://www.citeulike.org/group/16008/tag/methods)* and *[workbench](http://www.citeulike.org/group/16008/tag/workbench)* have always been the most popular.  *methods* papers use Galaxy in their analysis.  *workbench* either just mention Galaxy or discuss the platform itself.
-* The numbers of *[usepublic](http://www.citeulike.org/group/16008/tag/usepublic)* and *[refpublic](http://www.citeulike.org/group/16008/tag/refpublic)* publications are climbing rapidly.  Respectively, these are *[methods](http://www.citeulike.org/group/16008/tag/methods)* studies that did their analyses on a [public Galaxy server](/PublicGalaxyServers) other than [usegalaxy.org](http://usegalaxy.org), and papers that reference those servers in some way (besides their methodology).  Part of this increase reflects better tracking of these papers, but (I believe) most of the increase reflects both the increased number of public servers (as reflected by the *[isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy)* numbers), and their increased visibility.
+* The numbers of *[usepublic](http://www.citeulike.org/group/16008/tag/usepublic)* and *[refpublic](http://www.citeulike.org/group/16008/tag/refpublic)* publications are climbing rapidly.  Respectively, these are *[methods](http://www.citeulike.org/group/16008/tag/methods)* studies that did their analyses on a [public Galaxy server](/src/PublicGalaxyServers/index.md) other than [usegalaxy.org](http://usegalaxy.org), and papers that reference those servers in some way (besides their methodology).  Part of this increase reflects better tracking of these papers, but (I believe) most of the increase reflects both the increased number of public servers (as reflected by the *[isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy)* numbers), and their increased visibility.
 * *[reproducibility](http://www.citeulike.org/group/16008/tag/reproducibility)* became a hot topic (finally) in 2014.  
 
 <br />
@@ -375,7 +375,7 @@ Finally, the total number of papers per year continues to increase, and we expec
 
 <br />
 
-We will continue to report new papers in the [monthly Galaxy newsletters](/GalaxyUpdates).  New [tags](/src/CiteULike/index.md#citeulike-tags) may also show up as the project and community evolve.
+We will continue to report new papers in the [monthly Galaxy newsletters](/src/GalaxyUpdates/index.md).  New [tags](/src/CiteULike/index.md#citeulike-tags) may also show up as the project and community evolve.
 
 In the meantime, I expect the next 2500 papers will be published in considerably less than time than the first 2500.  I'm looking forward to all that research
 

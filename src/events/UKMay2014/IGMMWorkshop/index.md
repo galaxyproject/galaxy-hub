@@ -9,7 +9,7 @@ Western General Hospital, Crewe Road, Edinburgh, United Kingdom**<br />
 [Directions](http://www.igmm.ac.uk/contact.htm)<br />
 
 <br />
-**Instructor**<br />[Dave Clements](/DaveClements), [Johns Hopkins University](http://www.jhu.edu/)<br />
+**Instructor**<br />[Dave Clements](/src/DaveClements/index.md), [Johns Hopkins University](http://www.jhu.edu/)<br />
 </div>
 
 ## Registration

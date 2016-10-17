@@ -160,7 +160,7 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
 <div class='right'><a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="100" /></a><br /><br /><a href='/Events/GCC2012/TrainingDay'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' width="130" /></a></div>
 * The [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) will be held July 25-27, in Chicago. 
 * The conference will feature two full days of presentations and discussions. 
-* [Abstract submission](/Events/GCC2012/Abstracts) will [close April 16](/Events/GCC2012/Key Dates). 
+* [Abstract submission](/src/Events/GCC2012/Abstracts/index.md) will [close April 16](/Events/GCC2012/Key Dates). 
 * A [whole day of training](/src/Events/GCC2012/TrainingDay/index.md) has been added, and topics set:
   * [Introduction to Galaxy](/src/Events/GCC2012/TrainingDay/index.md#ws2)
   * [Installing Your Own Galaxy](/src/Events/GCC2012/TrainingDay/index.md#ws5)

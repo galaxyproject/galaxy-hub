@@ -24,7 +24,7 @@ The **[January 2016 Galactic News](/src/GalaxyUpdates/2016_01/index.md)** is hot
 * [ToolShed Contributions](/src/GalaxyUpdates/2016_01/index.md#toolshed-contributions) from December
 * and [some other news too](/src/GalaxyUpdates/2016_01/index.md#other-news).
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

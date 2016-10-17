@@ -8,7 +8,7 @@ title: August 2012 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the August 2012 edition of *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the August 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -56,7 +56,7 @@ These papers may be of interest to the Galaxy community:
 
 * "[Nebula - a web-server for advanced ChIP-seq data analysis", by Boeva](http://bioinformatics.oxfordjournals.org/content/early/2012/07/24/bioinformatics.bts463), *et al.*, *Bioinformatics*
 
-These papers were among [29 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/GalaxyUpdates) (for a total of 375 papers in the last ~18 months).  The new papers are spread [across 6 categories](http://www.citeulike.org/group/16008/tags).
+These papers were among [29 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/GalaxyUpdates/index.md) (for a total of 375 papers in the last ~18 months).  The new papers are spread [across 6 categories](http://www.citeulike.org/group/16008/tags).
 
 <br />
 <div class='center'>
@@ -70,7 +70,7 @@ These papers were among [29 papers added to the Galaxy CiteULike group](http://w
 The [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) was held July 25-27, in Chicago.  Highlights included:
 
 * the inaugural and very well attended [GCC Training Day](/src/Events/GCC2012/TrainingDay/index.md) (featuring 12 hands-on sessions on 10 different topics)
-* a [main program](/Events/GCC2012/Program) with 8 sessions, [27 talks](/src/Events/GCC2012/Abstracts/index.md), 
+* a [main program](/src/Events/GCC2012/Program/index.md) with 8 sessions, [27 talks](/src/Events/GCC2012/Abstracts/index.md), 
 * [10 lightning talks](/src/Events/GCC2012/LightningTalks/index.md) (and many more proposals)
 * [6 breakout sessions](/src/Events/GCC2012/Program/Breakouts/index.md),
 * Ion Torrent as the [Platinum Sponsor](/src/Events/GCC2012/index.md#sponsors), EMC Isilon as the [Gold Sponsor](/src/Events/GCC2012/index.md#sponsors), and an amazing [eight Host and Silver Sponsors](/src/Events/GCC2012/index.md#sponsors).
@@ -93,7 +93,7 @@ The Galaxy is expanding!  Please help it grow.
 * [Bioinformaticians @ FDA](http://gmod.org/wiki/News/Bioinformaticians @ FDA)
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 

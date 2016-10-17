@@ -63,7 +63,7 @@ We look forward to welcoming you to Melbourne. Remember to pack for our fabulous
 
 <div class='right'><a href='https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3'><img src='/Images/GalaxyLogos/GTNLogo300.png' alt='Galaxy training contribution fest, 6-7 October, Online' width="170" /></a></div>
 
-The [Galaxy Training Network (GTN)](/Teach/GTN) is planning **[a contribution fest](https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3)** to consolidate our training material and improve the overall training  experience in Galaxy on the 6.-7th October 2016!
+The [Galaxy Training Network (GTN)](/src/Teach/GTN/index.md) is planning **[a contribution fest](https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3)** to consolidate our training material and improve the overall training  experience in Galaxy on the 6.-7th October 2016!
 
 More information about the project can be found [here](https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3) and a [small presentation here](http://bgruening.github.io/training-material/shared/slides/project_presentation#/).  Registration (which is entirely optional - you can just show up) can be done via [this GitHub issue](https://github.com/bgruening/training-material/issues/58).  There is also a [list of potential issues to work on as well](https://github.com/bgruening/training-material/issues) (and more are welcome).
 
@@ -83,7 +83,7 @@ November 7-11, 2016<br />University of Utah<br />Salt Lake City, Utah<br />Unite
 
 **Register for [Galaxy Admin Training 2016](/src/Events/AdminTraining2016/index.md) by October 16.**
 
-[Galaxy Admin Training 2016](/Events/AdminTraining2016) is a weeklong event offering basic and advanced sessions.  It is being held in Salt Lake City, Utah, November 7-11, 2016, the week before [Supercomputing 16 (SC16)](http://sc16.supercomputing.org/) meets in Salt Lake.  
+[Galaxy Admin Training 2016](/src/Events/AdminTraining2016/index.md) is a weeklong event offering basic and advanced sessions.  It is being held in Salt Lake City, Utah, November 7-11, 2016, the week before [Supercomputing 16 (SC16)](http://sc16.supercomputing.org/) meets in Salt Lake.  
 
 **[Basics Session: November 7-8](/src/Events/AdminTraining2016/BasicsSession/index.md)**
 
@@ -91,7 +91,7 @@ This two day [basics session](/src/Events/AdminTraining2016/BasicsSession/index.
 
 **[Advanced Session: November 9-11](/src/Events/AdminTraining2016/AdvancedSession/index.md)**
 
-The three day [advanced session](/Events/AdminTraining2016/AdvancedSession) will build on topics covered in the [basics section](/src/Events/AdminTraining2016/BasicsSession/index.md).  This session both extends those topics, such as tool definition, and adds new ones, such as working with compute clusters and heterogeneous resources. The goal of the advanced workshop is to enable Galaxy administrators to create robust, high-performance Galaxy instances that take full advantage of available tools and compute and storage resources.
+The three day [advanced session](/src/Events/AdminTraining2016/AdvancedSession/index.md) will build on topics covered in the [basics section](/src/Events/AdminTraining2016/BasicsSession/index.md).  This session both extends those topics, such as tool definition, and adds new ones, such as working with compute clusters and heterogeneous resources. The goal of the advanced workshop is to enable Galaxy administrators to create robust, high-performance Galaxy instances that take full advantage of available tools and compute and storage resources.
 
 [Register by October 16](/src/Events/AdminTraining2016/Registration/index.md) and save up to $230 off late registration rates (and up to $500 if you work in industry).  *Space is also limited.*
 
@@ -122,7 +122,7 @@ Registration is free, but space is limited on both days. We recommend you regist
 
 The two days will be held in the same location, but will have a different focus.  The [first day](/src/Events/Switzerland2016/index.md) will start with talks, discussions and small demonstrations. This day will be problem / technology centric with [small demonstrations and hands-on sessions](/src/Events/Switzerland2016/index.md). Everyone is expected to have their own computer.
 
-[The second day](/Events/Germany2016) is a *developers* day and we are planning to have 3 to 4 hands-on sessions (1.5h). Every session will start with a 10 minute talk and theoretical introduction, followed by 1h of hacking and 20 minutes discussion and a small break until the next session begins.  We have a few [proposed and prepared topics](/src/Events/Germany2016/index.md#ideas) but we are flexible so we can discover new areas of the Galaxy.
+[The second day](/src/Events/Germany2016/index.md) is a *developers* day and we are planning to have 3 to 4 hands-on sessions (1.5h). Every session will start with a 10 minute talk and theoretical introduction, followed by 1h of hacking and 20 minutes discussion and a small break until the next session begins.  We have a few [proposed and prepared topics](/src/Events/Germany2016/index.md#ideas) but we are flexible so we can discover new areas of the Galaxy.
 
 ## Galaxy & Hacktoberfest
 
@@ -136,7 +136,7 @@ Galaxy and [CloudBridge](http://cloudbridge.readthedocs.io/en/latest/) have join
 
 The Galaxy v16.07 release ([see below](#galaxy-v1607)) included a "Shift of Galaxy tool dependencies to Conda" and that shift is reflected in a whole bunch of activity: 
 
-* **[Conda as a new standard for Galaxy tool dependencies](http://blogs.biomedcentral.com/gigablog/2016/09/20/guest-posting-introducing-conda-for-galaxy/)**, a guest blog posting by [Björn Grüning](/BjoernGruening) in *[GigaScience's](http://www.gigasciencejournal.com/)* [GigaBlog](http://blogs.biomedcentral.com/gigablog/).
+* **[Conda as a new standard for Galaxy tool dependencies](http://blogs.biomedcentral.com/gigablog/2016/09/20/guest-posting-introducing-conda-for-galaxy/)**, a guest blog posting by [Björn Grüning](/src/BjoernGruening/index.md) in *[GigaScience's](http://www.gigasciencejournal.com/)* [GigaBlog](http://blogs.biomedcentral.com/gigablog/).
 * a Galaxy-P Conda contribution fest in September ([see report below](#galaxy-p-conda-contribution-fest-report)), 
 * enhancements to [Planemo](#planemo-0332), and 
 * an upcoming **[Bioconda Contribution Fest](https://github.com/bioconda/bioconda-recipes/issues/2277)** on November 2-3.
@@ -367,7 +367,7 @@ Some highlights from last month:
    Annette !McGrath, Steve !McMahon, Sean Li, Joel Ludbey, Tim Ho. *Journal of Grid Computing* (2016), pp. 1-11, doi:10.1007/s10723-016-9379-6
 
  **[Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter](http://biorxiv.org/content/early/2016/09/22/075457)**
-   [Björn Grüning](/BjoernGruening), [Eric Rasche](/EricRasche), Boris Rebolledo-Jaramillo, [Carl Eberhard](/CarlEberhard), Torsten Houwaart, [John Chilton](/JohnChilton), [Nathan Coraor](/nate), Rolf Backofen, [James Taylor](/JamesTaylor), [Anton Nekrutenko](/src/anton/index.md). *bioRxiv* (16 September 2016), 075457, doi:10.1101/075457
+   [Björn Grüning](/src/BjoernGruening/index.md), [Eric Rasche](/EricRasche), Boris Rebolledo-Jaramillo, [Carl Eberhard](/CarlEberhard), Torsten Houwaart, [John Chilton](/JohnChilton), [Nathan Coraor](/nate), Rolf Backofen, [James Taylor](/JamesTaylor), [Anton Nekrutenko](/src/anton/index.md). *bioRxiv* (16 September 2016), 075457, doi:10.1101/075457
 
  **[Genotyping of evolving prokaryotic populations](http://dx.doi.org/10.7287/peerj.preprints.2449v1)**
    Markus Zojer, Lisa N. Schuster, Frederik Schulz, Alexander Pfundner, Matthias Horn, Thomas Rattei. *PeerJ Preprints* (14 September 2016), doi:10.7287/peerj.preprints.2449v1
@@ -455,7 +455,7 @@ The Galaxy is expanding! Please help it grow.
 * [Post­doctoral Research Position](https://drive.google.com/file/d/0B5_H88SQ1C_7Z3dJY3FzU0hQMUU/view?pref=2&pli=1), Multi­omic Bioinformatics, University of Minnesota
 * [Postdoctoral Researcher: Forest Genomics Database and Software Developer](http://compgenomics.lab.uconn.edu/join/), University of Connecticut.  "... data sharing among partner databases through Galaxy modules." <div class='red'>Act fast.</span>  
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -464,7 +464,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 80 publicly accessible Galaxy servers](/PublicGalaxyServers) and [five semi-public Galaxy services](/src/SemiPublicGalaxyServers/index.md).  Here's what happened with them in September.
+There are [over 80 publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) and [five semi-public Galaxy services](/src/SemiPublicGalaxyServers/index.md).  Here's what happened with them in September.
 
 ## New Public Galaxy Servers
 
@@ -498,7 +498,7 @@ Jetstream was officially launched in September and was added to the [Semi-Public
 * *Eligibility:*
   * [Jetstream](http://jetstream-cloud.org/) is part of [XSEDE](https://www.xsede.org/), a "collection of integrated advanced digital resources and services" and is funded by NSF. You need to be eligible for an [XSEDE allocation](https://portal.xsede.org/allocation-policies) to use Jetstream, which means must be based at a U.S. institution. And although XSEDE is NSF-funded, "projects need not be supported by NSF grants" to receive an allocation.
 * *Comments:*
-  * Jetstream enables researchers to launch, use, and shutdown their own Galaxy servers that have been pre-configured similar to the [Main Galaxy server](https://usegalaxy.org/). If you want to further customize your launched server you can [become an administrator](/Cloud/Jetstream/ssh#adding_galaxy_admin_user) and even [access the server from the shell](/src/Cloud/Jetstream/ssh/index.md).
+  * Jetstream enables researchers to launch, use, and shutdown their own Galaxy servers that have been pre-configured similar to the [Main Galaxy server](https://usegalaxy.org/). If you want to further customize your launched server you can [become an administrator](/src/Cloud/Jetstream/ssh/index.md#adding_galaxy_admin_user) and even [access the server from the shell](/src/Cloud/Jetstream/ssh/index.md).
 * *User Support:*
   * See the [Galaxy on Jetstream documentation](/src/Cloud/Jetstream/index.md)
   * [FAQ](/src/Cloud/Jetstream/FAQ/index.md)
@@ -574,7 +574,7 @@ Galaxy admins obtained the ability to install Galaxy tool’s dependencies using
 
 **Dynamic tool destinations**
 
-Our friends from Canada National Microbiology Laboratory enhanced Galaxy with feature that allows dynamic mapping of tools to destinations based on finer grained admin-specified rules. Please see the [wiki](/Admin/Config/Jobs#dynamic-destination-mapping). Implemented in [PR #2579](https://github.com/galaxyproject/galaxy/pull/2579).
+Our friends from Canada National Microbiology Laboratory enhanced Galaxy with feature that allows dynamic mapping of tools to destinations based on finer grained admin-specified rules. Please see the [wiki](/src/Admin/Config/Jobs/index.md#dynamic-destination-mapping). Implemented in [PR #2579](https://github.com/galaxyproject/galaxy/pull/2579).
 
 **Galaxy chat**
 

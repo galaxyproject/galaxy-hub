@@ -21,7 +21,7 @@ A lot is happening in in the Galaxy in November, and a lot of good stuff happene
 * [35 new ToolShed repos](/src/GalaxyUpdates/2014_11/index.md#toolshed-contributions)
 * And a [smattering of other news](/src/GalaxyUpdates/2014_11/index.md#other-news) too
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

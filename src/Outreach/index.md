@@ -23,7 +23,7 @@ There are a number of resources available to help connect researchers and develo
 
 <div class='right'><a href='/Images/GalaxyLogos'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Logos' height="50" /></a></div>
 
-The [Images/GalaxyLogos page](/Images/GalaxyLogos) lists current Galaxy Project logos.  The [/Images](/Images) hierarchy (of which [Images/GalaxyLogos](/Images/GalaxyLogos) is a part) also lists many related [logos](/Images/Logos), [icons](/Images/Icons) and [screenshots](/src/Images/Screenshots/index.md) that can be included in your presentations and posters.
+The [Images/GalaxyLogos page](/src/Images/GalaxyLogos/index.md) lists current Galaxy Project logos.  The [/Images](/Images) hierarchy (of which [Images/GalaxyLogos](/src/Images/GalaxyLogos/index.md) is a part) also lists many related [logos](/Images/Logos), [icons](/Images/Icons) and [screenshots](/src/Images/Screenshots/index.md) that can be included in your presentations and posters.
 
 ## Speakers
 <div class='left'>![](/GalaxySpeaker.jpg)</div>

@@ -7,7 +7,7 @@ title: South Africa Galaxy Workshop Tour 2013
 
 
 
-In South Africa?  A [Galaxy Workshop Tour](/Events) is happening in October at the University of Pretoria, and the University of Cape Town.  Each university is hosting a week-long training event on Galaxy and NGS data analysis.  The [African Centre for Gene Technologies](http://www.acgt.co.za/) is sponsoring both events.
+In South Africa?  A [Galaxy Workshop Tour](/src/Events/index.md) is happening in October at the University of Pretoria, and the University of Cape Town.  Each university is hosting a week-long training event on Galaxy and NGS data analysis.  The [African Centre for Gene Technologies](http://www.acgt.co.za/) is sponsoring both events.
 
 <table>
   <tr>

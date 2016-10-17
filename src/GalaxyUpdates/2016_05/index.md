@@ -131,7 +131,7 @@ Galaxy will have a [strong presence](/src/Events/ASMS2016/index.md) at the [64th
 <div class='left'><a href='https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/'><img src='/Images/Logos/UCDavisGenomeCenter_Bioinf.png' alt='Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data' width="200" /></a>
 </div>
 
-The [UC Davis Bioinformatics Training Program](http://training.bioinformatics.ucdavis.edu/), a [GTN member](/Teach/Trainers#uc-davis-genome-centers-bioinformatics-core-facility), will be presenting the workshop **[Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data](https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/)** on June 13-17, at UC Davis in Davis, California, United States.  
+The [UC Davis Bioinformatics Training Program](http://training.bioinformatics.ucdavis.edu/), a [GTN member](/src/Teach/Trainers/index.md#uc-davis-genome-centers-bioinformatics-core-facility), will be presenting the workshop **[Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data](https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/)** on June 13-17, at UC Davis in Davis, California, United States.  
 
 This workshop will include a rich collection of lectures and hands-on sessions, covering both theory and tools. We will explore the basics of high throughput sequencing technologies, focusing on Illumina data for hands-on exercises. Participants will explore software and protocols, create and modify workflows, and diagnose/treat problematic data, utilizing computing power of the Amazon Cloud.
 
@@ -332,7 +332,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 <a href='/Community/GalaxyAdmins'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='GalaxyAdmins' width="160" /></a> 
 </div>
 
-[Slides and video](/Community/GalaxyAdmins/Meetups/2016_04_21) from the [April 2016 GalaxyAdmins meetup are now available](/Community/GalaxyAdmins/Meetups/2016_04_21). [Ivar Grytten](http://www.mn.uio.no/ifi/english/people/aca/ivargry/) and  [Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/) from the [University of Oslo](http://www.uio.no/) discussed [The Galaxy Portal: Accessing Galaxy from Mobile Devices](http://bioinformatics.oxfordjournals.org/content/early/2016/02/17/bioinformatics.btw042.full) ([Slides](ATTACHMENT_URLDocuments/Presentations/201604_Admins_Portal.pdf)) and [John Chilton](/JohnChilton) covered [Tool Development Developments](http://planemo.readthedocs.org/en/latest/galaxy_changelog.html).
+[Slides and video](/src/Community/GalaxyAdmins/Meetups/2016_04_21/index.md) from the [April 2016 GalaxyAdmins meetup are now available](/src/Community/GalaxyAdmins/Meetups/2016_04_21/index.md). [Ivar Grytten](http://www.mn.uio.no/ifi/english/people/aca/ivargry/) and  [Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/) from the [University of Oslo](http://www.uio.no/) discussed [The Galaxy Portal: Accessing Galaxy from Mobile Devices](http://bioinformatics.oxfordjournals.org/content/early/2016/02/17/bioinformatics.btw042.full) ([Slides](ATTACHMENT_URLDocuments/Presentations/201604_Admins_Portal.pdf)) and [John Chilton](/JohnChilton) covered [Tool Development Developments](http://planemo.readthedocs.org/en/latest/galaxy_changelog.html).
 
 ## Conda Dependency Codefest Report
 
@@ -468,11 +468,11 @@ Variant calling is a complex field that was significantly propelled by advances 
 
 <div class='right'><a href='https://github.com/nekrut/galaxy/wiki/Reference-based-RNA-seq'><img src='/Images/Screenshots/AntonsRnaSeqTutorial1.png' alt='Reference based RNA seq' width="190" /></a></div>
 
-Much of Galaxy-related features described in this tutorial have been developed by [Björn Grüning](/BjoernGruening) ([@bgruening](https://github.com/bgruening)) and configured by [Dave Bouvier](/DaveBouvier) ([@davebx](https://github.com/davebx)).
+Much of Galaxy-related features described in this tutorial have been developed by [Björn Grüning](/src/BjoernGruening/index.md) ([@bgruening](https://github.com/bgruening)) and configured by [Dave Bouvier](/DaveBouvier) ([@davebx](https://github.com/davebx)).
 
 ## Reference based RNA seq
 
-**[This tutorial](https://github.com/nekrut/galaxy/wiki/Reference-based-RNA-seq)** is inspired by an [exceptional RNAseq course](http://chagall.med.cornell.edu/RNASEQcourse/) at the Weill Cornell Medical College compiled by Friederike Dündar, Luce Skrabanek, and Paul Zumbo and by tutorials produced by Björn Grüning (@bgruening) for Freiburg Galaxy instance. Much of Galaxy-related features described in this section have been developed by [Björn Grüning](/BjoernGruening) ([@bgruening](https://github.com/bgruening)) and configured by [Dave Bouvier](/DaveBouvier) ([@davebx](https://github.com/davebx)).
+**[This tutorial](https://github.com/nekrut/galaxy/wiki/Reference-based-RNA-seq)** is inspired by an [exceptional RNAseq course](http://chagall.med.cornell.edu/RNASEQcourse/) at the Weill Cornell Medical College compiled by Friederike Dündar, Luce Skrabanek, and Paul Zumbo and by tutorials produced by Björn Grüning (@bgruening) for Freiburg Galaxy instance. Much of Galaxy-related features described in this section have been developed by [Björn Grüning](/src/BjoernGruening/index.md) ([@bgruening](https://github.com/bgruening)) and configured by [Dave Bouvier](/DaveBouvier) ([@davebx](https://github.com/davebx)).
 
 ## Dataset Collections
 
@@ -494,7 +494,7 @@ The Galaxy is expanding! Please help it grow.
 * [Postdoctoral Research Positions](https://chk.tbe.taleo.net/chk01/ats/careers/requisition.jsp?org=BCM&cws=42&rid=8453), Molecular and Cellular Biology Department at Baylor College of Medicine, Houston, Texas, United States 
 * [Software Engineer](/src/News/SoftwareEngineerOHSU/index.md), Oregon Health Sciences University, Portland, Oregon, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -657,7 +657,7 @@ Documentation can be found at [starforge.readthedocs.org](http://starforge.readt
 
 **!BioBlend 0.7.0**
 
-   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
 **blend4j v0.1.2**

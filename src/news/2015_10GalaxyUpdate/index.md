@@ -21,15 +21,15 @@ The **[October Galactic News](/src/GalaxyUpdates/2015_10/index.md)** is hot off 
   * [All upcoming events](/src/GalaxyUpdates/2015_10/index.md#upcoming-events)
 * [Who's Hiring](/src/GalaxyUpdates/2015_10/index.md#whos-hiring)
 * The [new ABiMS Tools public Galaxy server](/src/GalaxyUpdates/2015_10/index.md#new-public-galaxy-servers)
-* [Galaxy Training Network News](/GalaxyUpdates/2015_10#galaxy-training-network-news) (plus there are now [GTN members on 6 continents](/src/GalaxyUpdates/2015_10/index.md#galaxy-community-hubs))
+* [Galaxy Training Network News](/src/GalaxyUpdates/2015_10/index.md#galaxy-training-network-news) (plus there are now [GTN members on 6 continents](/src/GalaxyUpdates/2015_10/index.md#galaxy-community-hubs))
 * The Galaxy Project now has a [Developer Code of Conduct](/src/GalaxyUpdates/2015_10/index.md#galaxy-developer-code-of-conduct)
 * [New Releases](/src/GalaxyUpdates/2015_10/index.md#releases)
   * [July 2015 Galaxy Release (v 15.07)](/src/GalaxyUpdates/2015_10/index.md#july-2015-galaxy-release-v-1507) (Chronologically challenged?  Whatever do you mean?)
   * [Mid 2015 Galaxy CloudMan Release](/src/GalaxyUpdates/2015_10/index.md#mid-2015-galaxy-cloudman-release) (Nope, still don't know what you mean.)
   * [Lots of Tool Shed contributions](/src/ToolShed/Contributions/2015_09/index.md).
-* and [lots of other news too](/GalaxyUpdates/2015_10#other-news), [including a birthday](/src/GalaxyUpdates/2015_10/index.md#galaxy-turns-10) (OK, maybe we are chronologically challenged, but we're young!)
+* and [lots of other news too](/src/GalaxyUpdates/2015_10/index.md#other-news), [including a birthday](/src/GalaxyUpdates/2015_10/index.md#galaxy-turns-10) (OK, maybe we are chronologically challenged, but we're young!)
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

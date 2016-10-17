@@ -8,7 +8,7 @@ title: July 2014 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the July 2014 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the July 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 The *Galaxy Update* is going out a few days early this month because the usual release date is during [GCC2014](/src/Events/GCC2014/index.md).  
 
@@ -17,9 +17,9 @@ The *Galaxy Update* is going out a few days early this month because the usual r
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-**The [2014 Galaxy Community Conference (GCC2014)](/Events/GCC2014) starts on Monday, June 30, and runs through July 2,** at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.  The [program](/Events/GCC2014/Program) is online and all [titles and abstracts for accepted talks and posters](/src/Events/GCC2014/Abstracts/Talks/index.md) are now online.  
+**The [2014 Galaxy Community Conference (GCC2014)](/src/Events/GCC2014/index.md) starts on Monday, June 30, and runs through July 2,** at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.  The [program](/Events/GCC2014/Program) is online and all [titles and abstracts for accepted talks and posters](/src/Events/GCC2014/Abstracts/Talks/index.md) are now online.  
 
-Fifteen [Training sessions on 12 topics](/Events/GCC2014/TrainingDay), several [Birds of a Feather](/Events/GCC2014/BoFs), two lightning talk sessions, and the very first [Galaxy Project Hackathon](/src/Events/GCC2014/Hackathon/index.md) are also happening.
+Fifteen [Training sessions on 12 topics](/src/Events/GCC2014/TrainingDay/index.md), several [Birds of a Feather](/Events/GCC2014/BoFs), two lightning talk sessions, and the very first [Galaxy Project Hackathon](/src/Events/GCC2014/Hackathon/index.md) are also happening.
 
 <br />
 
@@ -43,7 +43,7 @@ There will be at least six talks and five posters related to Galaxy at [ISMB and
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
 
-Over the rest of the summer there are other [Galaxy related events](/Events) in Leiden, Sydney, Brisbane, São Paulo, and Rio de Janeiro. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+Over the rest of the summer there are other [Galaxy related events](/src/Events/index.md) in Leiden, Sydney, Brisbane, São Paulo, and Rio de Janeiro. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
@@ -213,7 +213,7 @@ The Galaxy is expanding! Please help it grow.
 * [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -322,7 +322,7 @@ The most recent version of CloudMan was [released in January 2014](/src/News/Clo
 One new [Log Board entry](/src/Community/Logs/index.md) was added in June:
 * [Local Tool Shed with https and LDAP](/src/Community/Log/2014/ToolShedWithHttpsAndLDAP/index.md)
 
-The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/Community/Deployments), or [experience](/src/Community/Logs/index.md) you want to share then please publish them.
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them.
 
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>

@@ -44,7 +44,7 @@ deploying Galaxy and developing tools within the [Bioinformatics Core Facility](
 
 <div class='right'>[[<a href='https://github.com/galaxyproject/planemo'><img src='/Images/Logos/PlanemoLogo.png' alt='Planemo' width="160" /></a></div>
 
-[John Chilton](/JohnChilton) will also give an update on recent and upcoming work on [Planemo](https://github.com/galaxyproject/planemo), a set of command-line utilities to assist in building and publishing Galaxy tools.
+[John Chilton](/src/JohnChilton/index.md) will also give an update on recent and upcoming work on [Planemo](https://github.com/galaxyproject/planemo), a set of command-line utilities to assist in building and publishing Galaxy tools.
 
 ## Call Technology
 

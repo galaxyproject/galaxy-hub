@@ -41,7 +41,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 ## Galaxy Project Update: Galaxy's new tool form support
 
-[Sam Guerler](/guerler) of the [Galaxy Team](/src/GalaxyTeam/index.md) will discuss recent work to update Galaxy's tool forms.
+[Sam Guerler](/src/guerler/index.md) of the [Galaxy Team](/src/GalaxyTeam/index.md) will discuss recent work to update Galaxy's tool forms.
 
 ## Call Technology
 

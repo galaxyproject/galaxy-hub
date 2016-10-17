@@ -33,7 +33,7 @@ While the workshop will be useful and informative for new Galaxy users, attendee
 * The first thing you should try: [Galaxy 101](https://usegalaxy.org/u/aun1/p/galaxy101)
 * Review a set of introductory-level tutorials: [Using Galaxy](https://usegalaxy.org/u/galaxyproject/p/using-galaxy-2012)
 * Get involved with the Galaxy Scientific user community by joining in on the conversations at [Galaxy Biostars](https://biostar.usegalaxy.org) ([Instant registration](https://wiki.galaxyproject.org/Support/Biostar))
-* Resources: [/Learn](/Learn) and [/Support](/src/Support/index.md)
+* Resources: [/Learn](/src/Learn/index.md) and [/Support](/src/Support/index.md)
 
 #### What is Galaxy and why could it be interesting to me?
 Galaxy is a web-based, open source, data integration and analysis platform for life science research. The core pillars of the application are:

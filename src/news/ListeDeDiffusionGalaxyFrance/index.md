@@ -29,7 +29,7 @@ Pour vous aider dans votre utilisation de Galaxy, voici une liste de liens utile
 
 A très bientôt sur la liste Galaxy France,
 
-Les administrateurs: Alban Lermine, Olivier Inizan, Rémi Marenco, [Dave Clements](/DaveClements) & [Jennifer Jackson](/src/JenniferJackson/index.md).
+Les administrateurs: Alban Lermine, Olivier Inizan, Rémi Marenco, [Dave Clements](/src/DaveClements/index.md) & [Jennifer Jackson](/src/JenniferJackson/index.md).
 
 Alban Lermine
 

@@ -11,7 +11,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 <div class='right'> <a href='/Events/GCC2014/TrainingDay'><img src='/Images/Logos/GCC2014TrainingDayLogoSquare.png' alt='GCC2014 Training Day' width="100" /></a></div>
 
-[Nate Coraor](/nate) and [John Chilton](/src/JohnChilton/index.md)
+[Nate Coraor](/src/nate/index.md) and [John Chilton](/src/JohnChilton/index.md)
 
 <br />
 ![](https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png) #usegalaxy

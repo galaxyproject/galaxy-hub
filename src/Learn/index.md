@@ -37,11 +37,11 @@ Learn more about each of these Galaxy object types below.
 
 Galaxy supports the [sharing and publishing](/Share) of data analysis. See how it works in the **[Share or Publish](http://vimeo.com/galaxyproject/sharepublish)** video.
 
-* **Pages** are a method of documenting within Galaxy a set of analysis steps and/or the scientific context of a particular History, Workflow, Visualization, or set of Datasets.  These are often used to supplement publications or to present tutorials. The [/Main](/Main) Galaxy instance at [usegalaxy.org](http://usegalaxy.org) has a [list of published Pages](https://usegalaxy.org/page/list_published) to view as examples. Create one yourself using the menu option "User -> Saved Pages".
-* **[/Histories](/Histories)** are analyses records in Galaxy that show all input, intermediate, and final datasets, as well as every step in the process and the settings used with each job executed.  History can be imported into your session and rerun as is or modified. See the **["Managing Histories" video](http://vimeo.com/galaxyproject/managehistories)** for an example. The [/Main](/Main) Galaxy instance has a [list of published Histories](https://usegalaxy.org/history/list_published) to review as examples.
-* **[Datasets](/Learn/ManagingDatasets)** represent individual files or jobs included within a History. For an overview of common Dataset types, watch the **["Datasets" video](http://vimeo.com/galaxyproject/datasets1)**.
-* **[Workflows](/Learn/AdvancedWorkflow)** define the steps in an analysis process but not the datasets.  Workflows are analyses that are intended to be executed (one ore more times) with different user-provided input Datasets.  The [/Main](/Main) Galaxy instance has a [list of published Workflows](https://usegalaxy.org/workflow/list_published) to review as examples.
-* **[Data Libraries](/Admin/DataLibraries/Libraries)** are collections of Datasets that are accessible from within a Galaxy instance. Libraries are designed for sharing datasets in between users or groups. The [/Main](/Main) Galaxy instance has a [list of public Data Libraries](https://usegalaxy.org/library) to review as examples.
+* **Pages** are a method of documenting within Galaxy a set of analysis steps and/or the scientific context of a particular History, Workflow, Visualization, or set of Datasets.  These are often used to supplement publications or to present tutorials. The [/Main](/src/Main/index.md) Galaxy instance at [usegalaxy.org](http://usegalaxy.org) has a [list of published Pages](https://usegalaxy.org/page/list_published) to view as examples. Create one yourself using the menu option "User -> Saved Pages".
+* **[/Histories](/src/Histories/index.md)** are analyses records in Galaxy that show all input, intermediate, and final datasets, as well as every step in the process and the settings used with each job executed.  History can be imported into your session and rerun as is or modified. See the **["Managing Histories" video](http://vimeo.com/galaxyproject/managehistories)** for an example. The [/Main](/Main) Galaxy instance has a [list of published Histories](https://usegalaxy.org/history/list_published) to review as examples.
+* **[Datasets](/src/Learn/ManagingDatasets/index.md)** represent individual files or jobs included within a History. For an overview of common Dataset types, watch the **["Datasets" video](http://vimeo.com/galaxyproject/datasets1)**.
+* **[Workflows](/src/Learn/AdvancedWorkflow/index.md)** define the steps in an analysis process but not the datasets.  Workflows are analyses that are intended to be executed (one ore more times) with different user-provided input Datasets.  The [/Main](/Main) Galaxy instance has a [list of published Workflows](https://usegalaxy.org/workflow/list_published) to review as examples.
+* **[Data Libraries](/Admin/DataLibraries/Libraries)** are collections of Datasets that are accessible from within a Galaxy instance. Libraries are designed for sharing datasets in between users or groups. The [/Main](/src/Main/index.md) Galaxy instance has a [list of public Data Libraries](https://usegalaxy.org/library) to review as examples.
 
 ## Other Tutorials
 
@@ -85,9 +85,9 @@ Learning the basics of how to manage datasets helps to focus analysis on the sci
 * [Using Custom Genomes](/src/Learn/CustomGenomes/index.md) - Format, loading, troubleshooting, and tools.
 * [Managing Datasets](/src/Learn/ManagingDatasets/index.md) - Attributes, Copy, Clone, Delete and more.
 * [Datatypes](/Learn/Datatypes) - Specifications for the datatypes used and produced by Galaxy's tools.
-* [/Main](/Main) and [/Test](/src/Test/index.md) Quotas - User account allocations for data and jobs. 
+* [/Main](/src/Main/index.md) and [/Test](/src/Test/index.md) Quotas - User account allocations for data and jobs. 
 * [Data management: accounting and disk quotas](/Admin/Disk Quotas) - Implementation details.
-* [/Admin/Datatypes](/Admin/Datatypes) & [/Admin/Data Integration](/Admin/Data Integration) - Instructions about adding new datasets (genomes) and datatypes to a local Galaxy instance
+* [/Admin/Datatypes](/src/Admin/Datatypes/index.md) & [/Admin/Data Integration](/Admin/Data Integration) - Instructions about adding new datasets (genomes) and datatypes to a local Galaxy instance
 
 ## Tools
 <div class='right'>![](/ToolsPanel.png)</div>
@@ -99,7 +99,7 @@ In the meantime, for some tools there is also additional information available o
 * [Interval Operations](Interval Operations) - Help on tools that operate on *genomic intervals*.
 * [UCSC Galaxy Integration](UCSC Galaxy Integration)
 * [Share](Share) - How to share your Galaxy objects with others.
-* [FTP Upload](/FTPUpload) - Having problems loading larger (>2MB) files into [/Main](/Main)? Watch the video **[Get Data: Upload File](http://vimeo.com/galaxyproject/upload)** to see exactly how.
+* [FTP Upload](/FTPUpload) - Having problems loading larger (>2MB) files into [/Main](/src/Main/index.md)? Watch the video **[Get Data: Upload File](http://vimeo.com/galaxyproject/upload)** to see exactly how.
 * [Uploading and Analyzing Genotype Data in Plink Format](Uploading and Analyzing Genotype Data in Plink Format)
 
 ## Visualization
@@ -109,7 +109,7 @@ Galaxy incorporates a [track browser](Visualization). This can be used to visual
 PLACEHOLDER_INCLUDE(/Support/LinkBox)
 ## User Accounts
 <div class='right'>![](/UserDropDown.png)</div>
-Galaxy user accounts are simple to create (email, password, user name and go!). An account is not required to access the Galaxy public [/Main](/Main) or [/Test](/src/Test/index.md) instances, but if used, the data quota is increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages).
+Galaxy user accounts are simple to create (email, password, user name and go!). An account is not required to access the Galaxy public [/Main](/src/Main/index.md) or [/Test](/src/Test/index.md) instances, but if used, the data quota is increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages).
 
 * **[Accounts on Main](http://vimeo.com/galaxyproject/accounts)** - registration how-to video
 * [User Accounts](User Accounts)
@@ -118,7 +118,7 @@ Galaxy user accounts are simple to create (email, password, user name and go!). 
 
 
 ## Other
-* [Choices](/BigPicture/Choices) - The Galaxy [/Main](/src/Main/index.md) server is not your only choice for using Galaxy.
+* [Choices](/src/BigPicture/Choices/index.md) - The Galaxy [/Main](/src/Main/index.md) server is not your only choice for using Galaxy.
 * [Interactive Poster](Interactive Poster)
 * [/Admin](/src/Admin/index.md) - How to *administer* your own Galaxy instance
 

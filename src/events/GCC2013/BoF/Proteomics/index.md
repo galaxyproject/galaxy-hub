@@ -10,7 +10,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2013/BoF/LinkBox)
 
 <div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
 
-This page describes the **Proteomics BoF** [Birds of a Feather](/Events/GCC2013/BoF) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
+This page describes the **Proteomics BoF** [Birds of a Feather](/src/Events/GCC2013/BoF/index.md) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
 
 Two potential directions this BoF could follow depending on who (if anyone) is interested in attending - this could take the form of an tutorial/advertisement session or more of a planning session.
 

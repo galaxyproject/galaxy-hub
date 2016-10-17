@@ -6,7 +6,7 @@ PLACEHOLDER_INCLUDE(/events/GCC2012/PageHeader)
 
 
 
-**A [GCC22012](/Events/GCC2012) [Breakout Session](/src/Events/GCC2012/Program/Breakouts/index.md)**
+**A [GCC22012](/src/Events/GCC2012/index.md) [Breakout Session](/src/Events/GCC2012/Program/Breakouts/index.md)**
 
 PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
 <div class='right'></div>
@@ -17,16 +17,16 @@ PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
 * Mo Heydarian
 * Karen Reddy
  * 
-* [Anton](/anton), [Dan](/Dan), Rémi, and [Jen](/JenniferJackson) from [Galaxy Team](/src/GalaxyTeam/index.md)
+* [Anton](/src/anton/index.md), [Dan](/Dan), Rémi, and [Jen](/JenniferJackson) from [Galaxy Team](/src/GalaxyTeam/index.md)
 
 # Notes
 
-These are a merged grouping of [Anton's](/anton), [Dan's](/Dan), and [Jen's](/src/JenniferJackson/index.md) notes from the breakout.  Please feel free to update, comment, correct or add in anything we didn't have a chance to address during our session.
+These are a merged grouping of [Anton's](/src/anton/index.md), [Dan's](/Dan), and [Jen's](/src/JenniferJackson/index.md) notes from the breakout.  Please feel free to update, comment, correct or add in anything we didn't have a chance to address during our session.
 
 
 ## Platforms
 
-* Galaxy [/Main](/Main) and [/CloudMan](/src/CloudMan/index.md)
+* Galaxy [/Main](/src/Main/index.md) and [/CloudMan](/src/CloudMan/index.md)
 * This group tends to not use Local instances
 
 ## How Galaxy currently facilitates research
@@ -46,7 +46,7 @@ These are a merged grouping of [Anton's](/anton), [Dan's](/Dan), and [Jen's](/sr
 ## What would be most helpful going forward
 
 ### Better methods to identify 'Vetted' and 'Best Practice' tools
-* Applies to tools on [/Main](/Main), but in particular tools from [/Tool Shed](/Tool Shed)
+* Applies to tools on [/Main](/src/Main/index.md), but in particular tools from [/Tool Shed](/Tool Shed)
 * Community currently relies on [/Main](/src/Main/index.md) for this type of information
 * Extends to Libraries & other source Data, Workflows, Visualizations
 * Ideas (some overlap):
@@ -60,7 +60,7 @@ These are a merged grouping of [Anton's](/anton), [Dan's](/Dan), and [Jen's](/sr
 
 ### Data integration between Main and CloudMan
 * S3 bucket attachment
-* Ease transfer of libraries/datasets/histories/workflows/pages/etc (primary objects) between [/Main](/Main) &harr; [/CloudMan](/src/CloudMan/index.md)
+* Ease transfer of libraries/datasets/histories/workflows/pages/etc (primary objects) between [/Main](/src/Main/index.md) &harr; [/CloudMan](/src/CloudMan/index.md)
 
 ### Tool integration between Tool Shed and CloudMan
 * Ease installation of tools on cloud instances

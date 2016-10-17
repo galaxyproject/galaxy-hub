@@ -18,7 +18,7 @@ title: Microbial analysis with Orione
  Date:: 2016/09 
 </div>
 
-This [tutorial](http://wiki.pitagora-galaxy.org/wiki/index.php/Orione-live-supplement) offers a wealth of domains in microbial NGS data analysis using the [Orione](https://orione.crs4.it/) [public Galaxy server](/PublicGalaxyServers#orione).  The tutorial is [derived from a similar tutorial at Orione](https://orione.crs4.it/u/puva/p/orione-live-supplement), but you need a login on Orione to see that tutorial.
+This [tutorial](http://wiki.pitagora-galaxy.org/wiki/index.php/Orione-live-supplement) offers a wealth of domains in microbial NGS data analysis using the [Orione](https://orione.crs4.it/) [public Galaxy server](/src/PublicGalaxyServers/index.md#orione).  The tutorial is [derived from a similar tutorial at Orione](https://orione.crs4.it/u/puva/p/orione-live-supplement), but you need a login on Orione to see that tutorial.
 
 This tutorial is also written in Japanese.  If you don't speak Japanese, the [machine translation](https://translate.google.com/translate?tl=en&js=y&hl=en&ie=UTF-8&u=http%3A%2F%2Fwiki.pitagora-galaxy.org%2Fwiki%2Findex.php%2FOrione-live-supplement&edit-text=) is pretty good.
 

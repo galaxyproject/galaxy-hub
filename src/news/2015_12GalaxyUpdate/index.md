@@ -20,7 +20,7 @@ The **[December Galactic News](/src/GalaxyUpdates/2015_12/index.md)** is hot off
 * [ToolShed Contributions in October and November](/src/GalaxyUpdates/2015_12/index.md#toolshed-contributions)
 * and [lots of other news too](/src/GalaxyUpdates/2015_12/index.md#other-news).
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

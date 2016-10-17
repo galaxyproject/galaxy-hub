@@ -51,4 +51,4 @@ The [second day](/src/Events/Germany2016/index.md), October 21<sup>st</sup>, is 
 
 ## Questions?
 
-Contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/src/BjoernGruening/index.md)
+Contact [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) or [Björn Grüning](/src/BjoernGruening/index.md)

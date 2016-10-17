@@ -15,13 +15,13 @@ date: 2015-10-26T17:49:57Z
 
 **[Voting is now open](http://bit.ly/gcc2016vote)** on what [training topics](/src/Events/GCC2016/Training) are offered at [GCC2016 Training](/src/Events/GCC2016/Training).
 
-There are [nominated topics](/Events/GCC2016/Training) spanning from basic usage to advanced deployment.  No matter what you do with Galaxy, there are topics for you to choose from.  [Your vote](http://bit.ly/gcc2016vote) will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters. 
+There are [nominated topics](/src/Events/GCC2016/Training) spanning from basic usage to advanced deployment.  No matter what you do with Galaxy, there are topics for you to choose from.  [Your vote](http://bit.ly/gcc2016vote) will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters. 
 
 **Topic voting closes November 6.** The Training schedule, including instructors, will be published before early registration opens.
 
 **About [GCC2016 Training](/src/Events/GCC2016/Training):**
 
-The [2016 Galaxy Community Conference (GCC2016)](/Events/GCC2016) will be held June 25-29 at [Indiana University](http://indiana.edu) in Bloomington, Indiana, United States. GCC2016 features [two full days of training on June 26-27](/src/Events/GCC2016/Training).  Each day will have multiple tracks, with each track featuring several sessions throughout the day.
+The [2016 Galaxy Community Conference (GCC2016)](/src/Events/GCC2016) will be held June 25-29 at [Indiana University](http://indiana.edu) in Bloomington, Indiana, United States. GCC2016 features [two full days of training on June 26-27](/src/Events/GCC2016/Training).  Each day will have multiple tracks, with each track featuring several sessions throughout the day.
 
 Workshops will be hands-on and participants will be strongly encouraged to bring a laptop and follow along.
 

@@ -37,7 +37,7 @@ Galaxy supports running jobs in Docker containers for running jobs on a single n
 
 **Potentially Helpful Skills** Familiarity with cloud and/or cluster computing, familiarity with Galaxy and/or Kubernetes, bioinformatics knowledge
 
-**Possible Mentors** Kyle Ellrott, [John Chilton](/JohnChilton), [Dannon Baker](/src/DannonBaker/index.md)
+**Possible Mentors** Kyle Ellrott, [John Chilton](/src/JohnChilton/index.md), [Dannon Baker](/src/DannonBaker/index.md)
 
 ## GA4GH Container and Workflows Integration
 
@@ -58,7 +58,7 @@ The [Global Alliance for Genomics Health](http://genomicsandhealth.org/) (GA4GH)
 
 **Potentially Helpful Skills** Familiarity with Galaxy and/or other Workflow Management Systems
 
-**Possible Mentors** [John Chilton](/JohnChilton), [Daniel Blankenberg](/src/Dan/index.md)
+**Possible Mentors** [John Chilton](/src/JohnChilton/index.md), [Daniel Blankenberg](/src/Dan/index.md)
 
 ## Docker Swarm and Compose
 
@@ -80,7 +80,7 @@ By making complex applications easier to deploy and doing so reproducibly, the o
 
 **Potentially Helpful Skills** Familiarity with cloud and/or cluster computing, familiarity with Galaxy, Docker, and/or Fig, bioinformatics knowledge
 
-**Possible Mentors** [John Chilton](/JohnChilton), [Björn Grüning](/BjoernGruening), [Dannon Baker](/src/DannonBaker/index.md)
+**Possible Mentors** [John Chilton](/src/JohnChilton/index.md), [Björn Grüning](/BjoernGruening), [Dannon Baker](/src/DannonBaker/index.md)
 
 ## Fostering Bioconductor Collaborations
 
@@ -97,7 +97,7 @@ The [RGalaxy](http://www.bioconductor.org/packages/release/bioc/html/RGalaxy.htm
 * Implement automated scripts (for use with cron jobs or CI tools such as Jenkins or Buildbot) to automate the release and publication of such artifacts.
 * Build and publish workflows demonstrating these tools with actual data.
 
-**Possible Mentors** [Nitesh Turaga](/NiteshTuraga), [Björn Grüning](/src/BjoernGruening/index.md), Daniel Blankenberg
+**Possible Mentors** [Nitesh Turaga](/src/NiteshTuraga/index.md), [Björn Grüning](/src/BjoernGruening/index.md), Daniel Blankenberg
 
 **Required Skills** Python programming
 
@@ -127,7 +127,7 @@ Furthermore, since workflow annotations for Refinery are currently stored in gen
 
 ## Visualization Plugin for Proteomics
 
-Implement Galaxy [data providers](/DataProviders) and [visualization plugins](/VisualizationsRegistry) for viewing the results of [Mass spectrometry](http://en.wikipedia.org/wiki/Protein_mass_spectrometry) based protein and/or peptide identification experiments. One could either implement data providers for Galaxy's [proteomics datatypes](https://bitbucket.org/iracooke/proteomics-toolshed-datatypes) directly (though there are potentially performance bottlenecks with this approach) or build a Galaxy tool that merges mass spec and identification into an intermediary format such as [SQLite](http://www.sqlite.org/) ([example code that might drive this by Jim Johnson](https://gist.github.com/jmchilton/4164c07f3443e811982f)). On the visualization side - it would be great to replicate the functionality of interfaces such as [peptide-shaker](http://code.google.com/p/peptide-shaker/) but in browser - in particular providing a filterable table of Peptide-Spectrum-Matches with linked spectrum viewer for each hit. 
+Implement Galaxy [data providers](/src/DataProviders/index.md) and [visualization plugins](/VisualizationsRegistry) for viewing the results of [Mass spectrometry](http://en.wikipedia.org/wiki/Protein_mass_spectrometry) based protein and/or peptide identification experiments. One could either implement data providers for Galaxy's [proteomics datatypes](https://bitbucket.org/iracooke/proteomics-toolshed-datatypes) directly (though there are potentially performance bottlenecks with this approach) or build a Galaxy tool that merges mass spec and identification into an intermediary format such as [SQLite](http://www.sqlite.org/) ([example code that might drive this by Jim Johnson](https://gist.github.com/jmchilton/4164c07f3443e811982f)). On the visualization side - it would be great to replicate the functionality of interfaces such as [peptide-shaker](http://code.google.com/p/peptide-shaker/) but in browser - in particular providing a filterable table of Peptide-Spectrum-Matches with linked spectrum viewer for each hit. 
 
 **Expected Outcomes**
 
@@ -249,7 +249,7 @@ Once familiar with pages - there are at least two paths this project could diver
 
 **Potentially Helpful Skills** Familiarity with Galaxy and IPython
 
-**Possible Mentors** [Carl Eberhard](/CarlEberhard), [Martin Cech](/src/Marten/index.md)
+**Possible Mentors** [Carl Eberhard](/src/CarlEberhard/index.md), [Martin Cech](/src/Marten/index.md)
 
 ## Easier or More Robust History Imports and Exports
 
@@ -270,7 +270,7 @@ that can be pasted into an import the history from another Galaxy instance.
 * Split this process in pieces to allow tracking/resuming the transfers.
 * Rework the API and UI to provide pleasant progress bar tracking progress and estimating time remaining.
 
-**Possible Mentors** [Martin Cech](/Marten), [Jim Johnson](https://github.com/jj-umn), [Daniel Blankenberg](/src/Dan/index.md)
+**Possible Mentors** [Martin Cech](/src/Marten/index.md), [Jim Johnson](https://github.com/jj-umn), [Daniel Blankenberg](/src/Dan/index.md)
 
 **Required Skills** Python programming
 
@@ -307,7 +307,7 @@ The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's hand
 * Convert Galaxy to run on Python 3.
 * Once all dependencies are upgraded, package Galaxy for [Debian Med](https://www.debian.org/devel/debian-med/).
 
-**Possible Mentors** [Nate Coraor](/nate), [Tim Booth](https://github.com/tbooth), [John Chilton](/src/JohnChilton/index.md)
+**Possible Mentors** [Nate Coraor](/src/nate/index.md), [Tim Booth](https://github.com/tbooth), [John Chilton](/src/JohnChilton/index.md)
 
 **Required Skills:**
 * Knowledge of DPKG, BASH scripting, Makefiles, and the layout of files on a standard Linux filesystem (/etc, /var, /usr, ...)
@@ -331,7 +331,7 @@ The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's hand
 
 * Integrate the authentication mechanism with [Globus Nexus](https://www.globus.org/platform/services). 
  
-**Possible Mentors** [Martin Cech](/Marten), [Enis Afgan](/EnisAfgan), [Nitesh Turaga](/src/NiteshTuraga/index.md)
+**Possible Mentors** [Martin Cech](/src/Marten/index.md), [Enis Afgan](/EnisAfgan), [Nitesh Turaga](/src/NiteshTuraga/index.md)
 
 **Required Skills** Python Programming
 
@@ -377,7 +377,7 @@ Recently Interactive Environments (IEs) were developed for Galaxy. These consist
 
 * Unit test framework for IEs to ensure the proxy works ([some progress](https://github.com/erasche/vagrant-galaxy-casperjs) exists but it's not very generic).
 
-**Possible Mentors** [Eric Rasche](/EricRasche), [John Chilton](/src/JohnChilton/index.md)
+**Possible Mentors** [Eric Rasche](/src/EricRasche/index.md), [John Chilton](/src/JohnChilton/index.md)
 
 **Required Skills** Docker, NodeJS
 

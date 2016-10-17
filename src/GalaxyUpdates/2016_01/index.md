@@ -135,7 +135,7 @@ Anyway, watch Galaxy channels for registration opening *this month*, really.
 
 ## Metagenomics Tools and Workflows Codefest Reports
 
-The [Intergalactic Utilities Commission](/IUC) held it's [second codefest](https://github.com/galaxyproject/tools-iuc/issues/299) with the aim to improve metagenomic research in Galaxy.
+The [Intergalactic Utilities Commission](/src/IUC/index.md) held it's [second codefest](https://github.com/galaxyproject/tools-iuc/issues/299) with the aim to improve metagenomic research in Galaxy.
 
 The IUC was available for two days in a Hangout to answers questions and to work together with the Galaxy community to enhance our tools and the overall Galaxy ecosystem. 22 scientists from all over the world participated in this and made it a fantastic experience and a success story, which the IUC would like to repeat more often.  
 
@@ -143,7 +143,7 @@ There are two event reports, See the [one by Björn Grüning](https://gist.githu
 
 ## Upcoming Events
 
-There are [many upcoming events](/Events) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [many upcoming events](/src/Events/index.md) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='center'> 
 <a href='/Events/ASU2016'><img src='/Images/Logos/ASUBioKIC_600.png' alt='Biodiversity Knowledge Integration Center' height="60" /></a>&nbsp;
@@ -258,7 +258,7 @@ The Galaxy is expanding! Please help it grow.
     *Extended until 10 January 2016.*
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -266,7 +266,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[Two new publicly accessible Galaxy servers](/PublicGalaxyServers) were added in December.  And, while not a new server, the *server formerly known as MIRPIPE* is now the greatly expanded [MPI-HLR Bioinformatics Server](/src/PublicGalaxyServers/index.md#mpi-hlr-bioinformatics-server).
+[Two new publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) were added in December.  And, while not a new server, the *server formerly known as MIRPIPE* is now the greatly expanded [MPI-HLR Bioinformatics Server](/src/PublicGalaxyServers/index.md#mpi-hlr-bioinformatics-server).
 
 ## Dintor
 
@@ -399,7 +399,7 @@ The 0.6.x release includes these changes:
 
  **!BioBlend 0.7.0**
 
-   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
  **blend4j v0.1.2**

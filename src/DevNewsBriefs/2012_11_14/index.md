@@ -161,7 +161,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 <br />
 # Announcements
 
-[/News](/News), ***[November 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_11)***
+[/News](/src/News/index.md), ***[November 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_11)***
 
 ### Highlights
 

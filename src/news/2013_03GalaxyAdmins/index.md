@@ -5,7 +5,7 @@ date: 2013-03-12T15:59:31Z
 
 <div class='right'><a href='/Community/GalaxyAdmins/Meetups/2013_03_20'><img src='/Images/Logos/GalaxyAdmins.png' alt='March 2013 GalaxyAdmins Meetup' width="160" /></a> </div>
 
-The [next meeting](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md) of the [GalaxyAdmins Group](/Community/GalaxyAdmins) will be held on [March 20, 2013, at 10 AM Central US time](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md). 
+The [next meeting](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md) of the [GalaxyAdmins Group](/src/Community/GalaxyAdmins/index.md) will be held on [March 20, 2013, at 10 AM Central US time](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md). 
 
 [NBIC Galaxy (Andromeda)](http://galaxy.nbic.nl/) was migrated to a HPC cloud hosted by Surfsara in September 2012. In this presentation, we will present the setup of this HPC cloud and the architecture of our NBIC Galaxy. We will also share our experience on the installation of the NBIC Galaxy using the CloudMan scripts. The presentation will finish with a list of issues and our possible future plans.
 

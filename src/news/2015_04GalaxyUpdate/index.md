@@ -18,7 +18,7 @@ date: 2015-04-02T00:30:08Z
   * [Paper Abstract Submission Extended to April 20](/src/GalaxyUpdates/2015_04/index.md#paper-abstract-submission-extended-to-april-20)
 * And 14 [other upcoming events](/src/GalaxyUpdates/2015_04/index.md#other-events)
 
-[New releases](/GalaxyUpdates/2015_04#releases) and [Tool Shed contributions](/src/GalaxyUpdates/2015_04/index.md#toolshed-contributions):
+[New releases](/src/GalaxyUpdates/2015_04/index.md#releases) and [Tool Shed contributions](/src/GalaxyUpdates/2015_04/index.md#toolshed-contributions):
 
 * [March 2015 Galaxy Release (v 15.03)](/src/GalaxyUpdates/2015_04/index.md#march-2015-galaxy-release-v-1503)
 * [BioBlend v0.5.3 Released](/src/GalaxyUpdates/2015_04/index.md#bioblend-v053-released)
@@ -32,7 +32,7 @@ In addition, there is news on:
 * [One new Community Log Board entry](/src/GalaxyUpdates/2015_04/index.md#galaxy-community-hubs)
 * And, [other news](/src/GalaxyUpdates/2015_04/index.md#other-news) as well.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

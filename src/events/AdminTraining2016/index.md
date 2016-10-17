@@ -42,7 +42,7 @@ See the [Basics Session](/src/Events/AdminTraining2016/BasicsSession/index.md) p
 
 **[November 9-11, University of Utah](/src/Events/AdminTraining2016/AdvancedSession/index.md)**
 
-The [three day advanced session](/Events/AdminTraining2016/AdvancedSession) will build on topics covered in the [basics section](/src/Events/AdminTraining2016/BasicsSession/index.md).  Topics covered include
+The [three day advanced session](/src/Events/AdminTraining2016/AdvancedSession/index.md) will build on topics covered in the [basics section](/src/Events/AdminTraining2016/BasicsSession/index.md).  Topics covered include
 
 * Advanced tool definition: 
   * collections 
@@ -83,7 +83,7 @@ See the [Registration](/src/Events/AdminTraining2016/Registration/index.md) page
 
 # Logistics
 
-For information on event lodging, arriving in Salt Lake, and getting around, see the [Event Logistics](/Events/AdminTraining2016/Logistics) page.  Lodging, the airport, and all training events are on the University of Utah campus or in downtown Salt Lake City, and all are easily accessible using [TRAX](http://www.rideuta.com/), Salt Lake's light rail network
+For information on event lodging, arriving in Salt Lake, and getting around, see the [Event Logistics](/src/Events/AdminTraining2016/Logistics/index.md) page.  Lodging, the airport, and all training events are on the University of Utah campus or in downtown Salt Lake City, and all are easily accessible using [TRAX](http://www.rideuta.com/), Salt Lake's light rail network
 
 
 # Hosts

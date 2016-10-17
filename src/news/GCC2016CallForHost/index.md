@@ -37,7 +37,7 @@ Hosts get copious (and enthusiastic) organizational support from Galaxy's Outrea
 
 Hoping to work with you in 2016!
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

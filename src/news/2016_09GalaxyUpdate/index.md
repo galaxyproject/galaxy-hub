@@ -20,11 +20,11 @@ The **[September Galaxy News](/src/GalaxyUpdates/2016_09/index.md) is out:**
 * [RNAcommender](/src/GalaxyUpdates/2016_09/index.md#galaxy-community-hubs)
 * New [releases](/src/GalaxyUpdates/2016_09/index.md#releases):
   * [Galaxy v16.07](/src/GalaxyUpdates/2016_09/index.md#galaxy-v1607)
-  * [CloudBridge](/GalaxyUpdates/2016_09#cloudbridge-011), [Planemo](/GalaxyUpdates/2016_09#planemo-0280---0291), [Pulsar](/GalaxyUpdates/2016_09#pulsar-071---072), [BioBlend](/GalaxyUpdates/2016_09#bioblend-080) and [galaxy-lib](/src/GalaxyUpdates/2016_09/index.md#galaxy-lib-16710---16100)
+  * [CloudBridge](/src/GalaxyUpdates/2016_09/index.md#cloudbridge-011), [Planemo](/GalaxyUpdates/2016_09#planemo-0280---0291), [Pulsar](/GalaxyUpdates/2016_09#pulsar-071---072), [BioBlend](/GalaxyUpdates/2016_09#bioblend-080) and [galaxy-lib](/src/GalaxyUpdates/2016_09/index.md#galaxy-lib-16710---16100)
 * [TooShed Contributions](/src/GalaxyUpdates/2016_09/index.md#toolshed-contributions)
 * And [other news](/src/GalaxyUpdates/2016_09/index.md#other-news) too.
 
-[Dave Clements](/DaveClements) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 CategoryNews

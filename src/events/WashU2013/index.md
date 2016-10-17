@@ -5,7 +5,7 @@
 
 **Workshops for the Washington University community
 
-Instructor: [Dave Clements](/DaveClements), [Galaxy Project](http://galaxyproject.org), [Emory University](http://emory.edu) 
+Instructor: [Dave Clements](/src/DaveClements/index.md), [Galaxy Project](http://galaxyproject.org), [Emory University](http://emory.edu) 
 
 9:00am-5:00pm (both days)**
 

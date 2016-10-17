@@ -8,7 +8,7 @@ title: July 2013 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the July 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the July 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -41,8 +41,8 @@ an open source network analysis pipeline for genome-wide association studies and
 
 <div class='right solid'><a href='http://orione.crs4.it/'><img src='/PublicGalaxyServers/OrioneHomePage300.png' alt='Orione'  /></a></div>
 
-[Orione](http://orione.crs4.it/) is a Galaxy based web server for microbiology. [Orione](http://orione.crs4.it/) includes all post mapping or assembling steps from scaffolding to complete annotation pipelines.  From the [GCC2013](/Events/GCC2013) poster abstract "[Engaging Galaxy in Microbiology](/src/Events/GCC2013/Abstracts/Posters/index.md#p7-engaging-galaxy-in-microbiology)"
- We started on selecting the relevant software in the microbiology area, developing then all the necessary tools to integrate them into the Galaxy ecosystem. In addition to that, we made available several specialized workflows covering major applications such as bacterial resequencing, de novo assembly, scaffolding, bacterial RNA-seq, gene annotation and metagenomics. Orione provides additional capabilities to perform integrative, reproducible and transparent bioinformatic data analysis in microbiology thus expanding the constellation of specialized Galaxy based web servers as [Nebula](/PublicGalaxyServers#nebula), [Cistrome](/src/PublicGalaxyServers/index.md#cistrome) and several others.  
+[Orione](http://orione.crs4.it/) is a Galaxy based web server for microbiology. [Orione](http://orione.crs4.it/) includes all post mapping or assembling steps from scaffolding to complete annotation pipelines.  From the [GCC2013](/src/Events/GCC2013/index.md) poster abstract "[Engaging Galaxy in Microbiology](/src/Events/GCC2013/Abstracts/Posters/index.md#p7-engaging-galaxy-in-microbiology)"
+ We started on selecting the relevant software in the microbiology area, developing then all the necessary tools to integrate them into the Galaxy ecosystem. In addition to that, we made available several specialized workflows covering major applications such as bacterial resequencing, de novo assembly, scaffolding, bacterial RNA-seq, gene annotation and metagenomics. Orione provides additional capabilities to perform integrative, reproducible and transparent bioinformatic data analysis in microbiology thus expanding the constellation of specialized Galaxy based web servers as [Nebula](/src/PublicGalaxyServers/index.md#nebula), [Cistrome](/src/PublicGalaxyServers/index.md#cistrome) and several others.  
 
 This installation of Galaxy has been configured such that anonymous users can operate in a limited way. If you need to store data on this website and/or use advanced Galaxy features such as sharing and workflows, please send us an [galaxyadmin AT crs4 DOT it](email) with a short request.
 
@@ -130,7 +130,7 @@ This installation of Galaxy has been configured such that anonymous users can op
 
 A record 53 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in June. These papers may be particularly interesting to the Galaxy community
 
-* "[Web-based visual analysis for high-throughput genomics](http://dx.doi.org/10.1186/1471-2164-14-397)" by [Jeremy Goecks](/JeremyGoecks), [Carl Eberhard](/CarlEberhard), Tomithy Too, [Anton Nekrutenko](/anton), [James Taylor](/src/JamesTaylor/index.md), *BMC Genomics*, Vol. 14, No. 1. (2013), 397
+* "[Web-based visual analysis for high-throughput genomics](http://dx.doi.org/10.1186/1471-2164-14-397)" by [Jeremy Goecks](/src/JeremyGoecks/index.md), [Carl Eberhard](/CarlEberhard), Tomithy Too, [Anton Nekrutenko](/anton), [James Taylor](/src/JamesTaylor/index.md), *BMC Genomics*, Vol. 14, No. 1. (2013), 397
 * "[Detection of non-coding RNA in Bacteria and Archaea using the DETR’PROK Galaxy pipeline](http://dx.doi.org/10.1016/j.ymeth.2013.06.003)" by Claire Toffano-Nioche, Yufei Luo, Claire Kuchly, Claire Wallon, Delphine Steinbach, Matthias Zytnicki, Annick Jacq, Daniel Gautheret, *[Methods](http://www.sciencedirect.com/science/journal/10462023)* (June 2013)
 * "[Encore: Genetic Association Interaction Network Centrality Pipeline and Application to SLE Exome Data](http://dx.doi.org/10.1002/gepi.21739)" by Nicholas A. Davis, Caleb A. Lareau, Bill C. White, *et al.* *Genetic Epidemiology* (June 2013)
 * "[A review of Bioinformatics training applied to research in Molecular Medicine, Agriculture and Biodiversity in Costa Rica and Central America](http://dx.doi.org/10.1093/bib/bbt033)" by Allan Orozco, Jessica Morera, Sergio Jiménez, Ricardo Boza, *Briefings in Bioinformatics* (30 May 2013)
@@ -140,7 +140,7 @@ A record 53 new papers were added to the [Galaxy CiteULike Group](http://www.cit
 * "[Software and supporting material for “SOAPdenovo2: An empirically improved memory-efficient short read de novo assembly](http://dx.doi.org/10.5524/100044)" by Luo, *et al.* in [GigaDB](http://gigadb.org/dataset/100044)
 
 
-The [1,000th Galaxy related paper](/News/GalaxyCiteULikePaper1000) was added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in June.  Those first thousand papers are tagged as
+The [1,000th Galaxy related paper](/src/News/GalaxyCiteULikePaper1000/index.md) was added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in June.  Those first thousand papers are tagged as
 
 <table>
   <tr>
@@ -224,7 +224,7 @@ The Galaxy is expanding! Please help it grow.
 * [Senior Developer](http://www.nature.com/naturejobs/science/jobs/321283-Senior-Developer-Stem-Cell-Bioinformatics-Core), Stem Cell Bioinformatics Core, Sage Bionetworks, Seattle, WA, United States
 * [Bioinformatics Support Group Leader](http://bit.ly/VkRtrb) @ LSU
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -247,11 +247,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <br />
 
-The [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013) starts *today* in Oslo Norway, at the [University of Oslo](http://uio.no).
+The [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/index.md) starts *today* in Oslo Norway, at the [University of Oslo](http://uio.no).
 
 <div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
 
-[GCC2013](/Events/GCC2013) is an opportunity to participate in [two full days](/Events/GCC2013/Program) of presentations, discussions, [poster sessions](/Events/GCC2013/Abstracts/Posters), [lightning talks](/Events/GCC2013/Lightning) and [Birds of a Feather sessions](/Events/GCC2013/BoF), all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/src/Events/GCC2013/TrainingDay/index.md) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.  The conference ends with a closing dinner (sponsored by Ion Torrent) at the historic venue *Sporten* high above Oslo.  (And for the two evenings before that, we have reserved a pub...)
+[GCC2013](/src/Events/GCC2013/index.md) is an opportunity to participate in [two full days](/Events/GCC2013/Program) of presentations, discussions, [poster sessions](/Events/GCC2013/Abstracts/Posters), [lightning talks](/Events/GCC2013/Lightning) and [Birds of a Feather sessions](/Events/GCC2013/BoF), all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/src/Events/GCC2013/TrainingDay/index.md) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.  The conference ends with a closing dinner (sponsored by Ion Torrent) at the historic venue *Sporten* high above Oslo.  (And for the two evenings before that, we have reserved a pub...)
 
 <br />
 
@@ -381,18 +381,18 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 <div class='right'>
 <a href='/DevNewsBriefs/2013_06_03'><img src='/Images/NewsGraphics/2013_06_03_scatterplot-1.png' alt='scatterplot' width=400 /></a></div>
 
-The most recent official distribution was on [June 3, 2013](/DevNewsBriefs/2013_06_03).  There was minor  [security patch released on June 12](http://announce.list.galaxyproject.org/galaxy-announce-Galaxy-Security-Notification-tt4639243.html).
+The most recent official distribution was on [June 3, 2013](/src/DevNewsBriefs/2013_06_03/index.md).  There was minor  [security patch released on June 12](http://announce.list.galaxyproject.org/galaxy-announce-Galaxy-Security-Notification-tt4639243.html).
 
 ## June 3, 2013 Distribution
 
 **Highlights:**
 
-* Visualization tool updates to [Scatterplot](/DevNewsBriefs/2013_06_03#scatterplot) and [Trackster](/src/DevNewsBriefs/2013_06_03/index.md#trackster).
-* Job distribution, error tracking/management, and reporting function improvements to [Admin](/DevNewsBriefs/2013_06_03#admin) & [Core](/src/DevNewsBriefs/2013_06_03/index.md#core). 
-* Multiple [Tool](/DevNewsBriefs/2013_06_03#tools) updates, [History and Dataset](/DevNewsBriefs/2013_06_03#histories) upgrades, and other related [UI](/src/DevNewsBriefs/2013_06_03/index.md#ui) enhancements.
+* Visualization tool updates to [Scatterplot](/src/DevNewsBriefs/2013_06_03/index.md#scatterplot) and [Trackster](/src/DevNewsBriefs/2013_06_03/index.md#trackster).
+* Job distribution, error tracking/management, and reporting function improvements to [Admin](/src/DevNewsBriefs/2013_06_03/index.md#admin) & [Core](/src/DevNewsBriefs/2013_06_03/index.md#core). 
+* Multiple [Tool](/src/DevNewsBriefs/2013_06_03/index.md#tools) updates, [History and Dataset](/DevNewsBriefs/2013_06_03#histories) upgrades, and other related [UI](/src/DevNewsBriefs/2013_06_03/index.md#ui) enhancements.
 * New features and fixes added to the [Tool Shed](/src/DevNewsBriefs/2013_06_03/index.md#tool_shed) and related components. 
 * [Python 2.5 Support officially ended](/src/DevNewsBriefs/2013_06_03/index.md#python_25_support_has_ended).
-* Plus newly [merged Pull Requests](/DevNewsBriefs/2013_06_03#pull_requests_merged) and links to tickets covering key [Bug Fixes](/src/DevNewsBriefs/2013_06_03/index.md#bug_fixes).
+* Plus newly [merged Pull Requests](/src/DevNewsBriefs/2013_06_03/index.md#pull_requests_merged) and links to tickets covering key [Bug Fixes](/src/DevNewsBriefs/2013_06_03/index.md#bug_fixes).
 
 *[http://getgalaxy.org](http://getgalaxy.org)*
 

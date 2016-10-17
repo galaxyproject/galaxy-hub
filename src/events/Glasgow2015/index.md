@@ -10,7 +10,7 @@ title: Introduction to Galaxy Workshop
 **8th - 9th June, 2015, 9:00-17:00**
 
 **Instructors** <br /> 
-[Dave Clements](/DaveClements), Galaxy Project, [Johns Hopkins University](http://www.jhu.edu)<br />
+[Dave Clements](/src/DaveClements/index.md), Galaxy Project, [Johns Hopkins University](http://www.jhu.edu)<br />
 [Mani Mudaliar](http://www.polyomics.gla.ac.uk/biog-manimudaliar.html), [Glasgow Polyomics](http://www.polyomics.gla.ac.uk/), [University of Glasgow](http://www.gla.ac.uk/)<br />
 [Graham Hamilton](http://www.polyomics.gla.ac.uk/biog-ghamilton.html),  [Glasgow Polyomics](http://www.polyomics.gla.ac.uk/), [University of Glasgow](http://www.gla.ac.uk/)<br />
 

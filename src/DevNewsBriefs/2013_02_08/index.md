@@ -212,7 +212,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # Announcements
 
-[/News](/News), ***[February 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_02)***
+[/News](/src/News/index.md), ***[February 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_02)***
 
 ## GCC2013
 
@@ -221,11 +221,11 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 ### Training Day Topic Voting Closes 11 February
 
-If you might attend the [GCC2013 Training Day](/Events/GCC2013/TrainingDay) then please [review the possible topics](/Events/GCC2013/TrainingDay#topics) and then [vote for your top 3 choices](http://bit.ly/gcc2013tdpoll).  Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.
+If you might attend the [GCC2013 Training Day](/src/Events/GCC2013/TrainingDay/index.md) then please [review the possible topics](/Events/GCC2013/TrainingDay#topics) and then [vote for your top 3 choices](http://bit.ly/gcc2013tdpoll).  Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.
 
 ### Registration, Talk & Poster Submission Opens 22 February
 
-[Early Registration](/Events/GCC2013/Register), and [talk and poster abstract submission](/Events/GCC2013/Abstracts) all [open 22 February](/src/Events/GCC2013/KeyDates/index.md).  Watch the mailing lists and this wiki for details.
+[Early Registration](/src/Events/GCC2013/Register/index.md), and [talk and poster abstract submission](/Events/GCC2013/Abstracts) all [open 22 February](/src/Events/GCC2013/KeyDates/index.md).  Watch the mailing lists and this wiki for details.
 
 ---
 <br />

@@ -53,7 +53,7 @@ CloudMan offers an easy way to get a personal and completely functional instance
 This update brings a large number of updates and new features, the most prominent ones being:
 * Support for Eucalyptus cloud middleware; thanks to Alex Richter. Also, CloudMan can now run on the HPcloud in basic mode (note that there is no public image available on the HPcloud at the moment and one would thus need to be built by you).
 * Added a new file system management interface on the CloudMan Admin page, allowing control and providing insight into each available file system
-* Added quite a few new user data options. See the [UserData page](/CloudMan/UserData) for details; thanks to [John Chilton](http://bitbucket.org/jmchilton).
+* Added quite a few new user data options. See the [UserData page](/src/CloudMan/UserData/index.md) for details; thanks to [John Chilton](http://bitbucket.org/jmchilton).
 * Galaxy can now be run in multi-process mode; thanks to [John Chilton](http://bitbucket.org/jmchilton).
 * Added Galaxy Reports app as a CloudMan service; thanks to [John Chilton](http://bitbucket.org/jmchilton).
 * Introduced a new format for cluster configuration persistence, allowing more flexibility in how services are maintained
@@ -177,12 +177,12 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 <br />
 # Announcements
 
-[/News](/News), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_12)***
+[/News](/src/News/index.md), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_12)***
 
 <div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="175px" /></a></div>
 
-* [Training Day Topic Nominations](/Events/GCC2013/TrainingDay) for [GCC2013](/src/Events/GCC2013/index.md) will open in December.  Start thinking of ideas now!
-* Slides and Screencast from [November GalaxyAdmins Meetup](/Community/GalaxyAdmins/Meetups/2012_11_14) are online.  The next [GalaxyAdmins Meetup](/Community/GalaxyAdmins/Meetups) will be on [January 16](/Community/GalaxyAdmins/Meetups/2013_01_16) and feature [John Chilton](/src/JohnChilton/index.md) discussing "Deploying Galaxy on !OpenStack with !CloudBioLinux & CloudMan"
+* [Training Day Topic Nominations](/src/Events/GCC2013/TrainingDay/index.md) for [GCC2013](/src/Events/GCC2013/index.md) will open in December.  Start thinking of ideas now!
+* Slides and Screencast from [November GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md) are online.  The next [GalaxyAdmins Meetup](/Community/GalaxyAdmins/Meetups) will be on [January 16](/Community/GalaxyAdmins/Meetups/2013_01_16) and feature [John Chilton](/src/JohnChilton/index.md) discussing "Deploying Galaxy on !OpenStack with !CloudBioLinux & CloudMan"
 * [A short "Getting started with JGalaxy" document (with screenshots)](http://bit.ly/SkW2yU), by [John Chilton](/src/JohnChilton/index.md)
 * [Batch Workflow starting using the Galaxy API : Practical Example by Geert Vandeweyer](http://bit.ly/TjTj6X)
 

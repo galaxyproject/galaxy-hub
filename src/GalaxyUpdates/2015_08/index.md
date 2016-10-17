@@ -15,7 +15,7 @@ title: The August 2015 Galactic News, !
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the August 2015 *[Galactic News](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the September News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
+Welcome to the August 2015 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the September News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
 
 
 # Events
@@ -46,7 +46,7 @@ GCC2015 registrations reached an all-time high, and GC2015 featured more events 
   * [GCC2015 Galaxy Community Conference - Day One](https://storify.com/pjacock/gcc2015-galaxy-community-conference)
   * [GCC2015 Galaxy Community Conference - Day Two](https://storify.com/pjacock/gcc2015-galaxy-community-conference-day-twp)
 
-The [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/#Organising_Committee) would like to thank the [Scientific Committee](http://gcc2015.tsl.ac.uk/organisers/#Scientific_Committee), [Coding Hackathon Organisers](http://gcc2015.tsl.ac.uk/organisers/#Coding_Hackathon_Committee), [Data Wrangling Hackathon Organisers](http://gcc2015.tsl.ac.uk/organisers/#Data_Wrangling_Hackathon_Committee), [Conference Sponsors](http://gcc2015.tsl.ac.uk/sponsors/), [BoF Organisers](/Events/GCC2015/BoFs), [Training Instructors](http://gcc2015.tsl.ac.uk/training-day) *and absolutely everyone else who contributed to the success of GCC2015.*
+The [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/#Organising_Committee) would like to thank the [Scientific Committee](http://gcc2015.tsl.ac.uk/organisers/#Scientific_Committee), [Coding Hackathon Organisers](http://gcc2015.tsl.ac.uk/organisers/#Coding_Hackathon_Committee), [Data Wrangling Hackathon Organisers](http://gcc2015.tsl.ac.uk/organisers/#Data_Wrangling_Hackathon_Committee), [Conference Sponsors](http://gcc2015.tsl.ac.uk/sponsors/), [BoF Organisers](/src/Events/GCC2015/BoFs/index.md), [Training Instructors](http://gcc2015.tsl.ac.uk/training-day) *and absolutely everyone else who contributed to the success of GCC2015.*
 
 Which brings us to ...
 
@@ -69,7 +69,7 @@ If you work in data-intensive biomedical research, there is no better place than
 <a href='http://www.irida.ca/'><img src='/Images/Logos/IRIDA.png' alt='IRIDA' width="200" /></a>
 </div>
 
-Please join us for the [next GalaxyAdmins meetup on August 20](/Community/GalaxyAdmins/Meetups/2015_08_20) when [Aaron Petkau](https://github.com/apetkau) will cover 
+Please join us for the [next GalaxyAdmins meetup on August 20](/src/Community/GalaxyAdmins/Meetups/2015_08_20/index.md) when [Aaron Petkau](https://github.com/apetkau) will cover 
 
  *Genomic data management at [Canada's National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) with [IRIDA](http://www.irida.ca/) and Galaxy*
 
@@ -102,7 +102,7 @@ The [Pitagora-Galaxy](http://www.pitagora-galaxy.org/) community in Japan had a 
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div>
 
-There are [upcoming events](/Events) in four countries on three continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/src/Events/index.md) in four countries on three continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 
 <div class='center'> 
@@ -296,7 +296,7 @@ The new papers were tagged with:
 <div class='right'><a href='https://vimeo.com/album/3456159'><img src='/Images/NGS101/NGS101PlaySlide.png' alt='Galaxy NGS 101 Videos' width="180" /></a>
 </div>
 
-The new [Galaxy NGS 101 Tutorial](/Learn/GalaxyNGS101) was published this spring and introduces a wide range of topics related to analyzing next generation sequencing data with Galaxy.  We are happy to announce that [videos to accompany this tutorial are now online as well](https://vimeo.com/album/3456159).  The 20 videos cover:
+The new [Galaxy NGS 101 Tutorial](/src/Learn/GalaxyNGS101/index.md) was published this spring and introduces a wide range of topics related to analyzing next generation sequencing data with Galaxy.  We are happy to announce that [videos to accompany this tutorial are now online as well](https://vimeo.com/album/3456159).  The 20 videos cover:
 
 1. [Uploading data from your computer](https://vimeo.com/album/3456159/video/120901536)
 1. [Uploading data from FTP](https://vimeo.com/album/3456159/video/120972739)
@@ -345,7 +345,7 @@ The Galaxy is expanding! Please help it grow.
  * 
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -442,7 +442,7 @@ You may have noticed in the past two months that an [updated Galaxy logo](/src/I
 
 ## BioBlend 0.6.0 and 0.6.1
 
-[BioBlend versions 0.6.0 and 0.6.1](https://github.com/galaxyproject/bioblend/blob) were released in June and July. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API)(CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
+[BioBlend versions 0.6.0 and 0.6.1](https://github.com/galaxyproject/bioblend/blob) were released in June and July. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md)(CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
 
 * !BioBlend.objects: Rename `ObjDatasetClient` abstract class to `ObjDatasetContainerClient`.
 * !BioBlend.objects: Add `ABCMeta` metaclass and `list()` method to `ObjClient`.

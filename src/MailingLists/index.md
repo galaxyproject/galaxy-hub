@@ -126,7 +126,7 @@ To subscribe or unsubscribe from a list, click the link below and then follow th
 
 ## Posting a Question
 
-If you have a question, first search this wiki, the [FAQs](/Learn/FAQ), and the [mailing list archives](#searching) to see if your question has already been answered.
+If you have a question, first search this wiki, the [FAQs](/src/Learn/FAQ/index.md), and the [mailing list archives](#searching) to see if your question has already been answered.
 
 If it has not, then:
 

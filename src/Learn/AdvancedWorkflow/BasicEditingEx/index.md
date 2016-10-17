@@ -83,7 +83,7 @@ Allow Galaxy to process the request without interrupting or navigating away from
 
 * **Header: Workflow name** (orange box): This will be the name of the workflow. Make it meaningful.
 
-* **Header: Create Workflow** (red box): Click this when you are finished making changes. This saves the workflow. If you happen to click it too soon or change your mind, you can always go back and edit your workflow later. Start with **[Basic Editing](/Learn/AdvancedWorkflow/BasicEditing)** or explore all options linked from the **[Advanced Workflow](/src/Learn/AdvancedWorkflow/index.md)** wiki.
+* **Header: Create Workflow** (red box): Click this when you are finished making changes. This saves the workflow. If you happen to click it too soon or change your mind, you can always go back and edit your workflow later. Start with **[Basic Editing](/src/Learn/AdvancedWorkflow/BasicEditing/index.md)** or explore all options linked from the **[Advanced Workflow](/src/Learn/AdvancedWorkflow/index.md)** wiki.
 
 
 * **Left: Tools that cannot be included in workflows** (yellow boxes): These are tools that are run externally from Galaxy (in whole or in part) and return data back as a dataset. Most of the tools under "Get Data", including "Upload File", and the "Upload" function above the left Tool Panel, are included in this category of tools.

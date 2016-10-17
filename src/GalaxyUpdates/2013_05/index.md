@@ -8,7 +8,7 @@ title: May 2013 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the May 2013 *[Galaxy Update](/GalaxyUpdates)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the May 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -71,7 +71,7 @@ The Galaxy is expanding! Please help it grow.
 * Two openings @ LSU: [Bioinformatics Support Group Leader](http://bit.ly/VkRtrb) and [Post-doc/Res Assoc](http://bit.ly/12ipJHZ)
 * [Bioinformatics Trainer/Analyst](http://bit.ly/14xgrVK), [Morgridge Institute for Research](http://discovery.wisc.edu/morgridge/), Madison, Wisconsin, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 
 ## GCC2013
@@ -87,13 +87,13 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <br />
 
-The [2013 Galaxy Community Conference (GCC2013)](/Events/GCC2013) will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).
+The [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/index.md) will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).
 
 <div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
 
-[GCC2013](/Events/GCC2013) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/src/Events/GCC2013/TrainingDay/index.md) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
+[GCC2013](/src/Events/GCC2013/index.md) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/src/Events/GCC2013/TrainingDay/index.md) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
 
-**[Register early](/Events/GCC2013/Register)** and *save up to 75% off regular registration costs.*  Early registration is very affordable, with combined registration ([Training Day](/src/Events/GCC2013/TrainingDay/index.md) + main meeting) starting at ~ €95 for post-docs and students.  Registering early also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Early registration closes 24 May.
+**[Register early](/src/Events/GCC2013/Register/index.md)** and *save up to 75% off regular registration costs.*  Early registration is very affordable, with combined registration ([Training Day](/src/Events/GCC2013/TrainingDay/index.md) + main meeting) starting at ~ €95 for post-docs and students.  Registering early also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Early registration closes 24 May.
 
 ### Birds of a Feather Sessions
 
@@ -107,7 +107,7 @@ Past Galaxy Community Conferences have been *the* event for networking in the Ga
 
 We are pleased to announce that [Globus Genomics](http://bit.ly/11VvkxL) is a [Bronze Sponsor of GCC2013](/src/Events/GCC2013/Sponsorships/index.md). 
 
-There are still several [sponsorships](/Events/GCC2013/Sponsorships) still available. Please contact the [Organizers](/src/Events/GCC2013/Organizers/index.md) if your organization would like to help sponsor this event. 
+There are still several [sponsorships](/src/Events/GCC2013/Sponsorships/index.md) still available. Please contact the [Organizers](/src/Events/GCC2013/Organizers/index.md) if your organization would like to help sponsor this event. 
 
 
 ## Other Upcoming Events
@@ -223,7 +223,7 @@ The next [GalaxyAdmins Meetup will be May 15](/src/Community/GalaxyAdmins/Meetup
 
 ## Galaxy Distributions
 
-The most recent official distribution was on [April 1, 2013](/DevNewsBriefs/2013_04_01).  However, [a security update was released on April 8](/src/News/2013_04_08_Galaxy_Security_Release/index.md).  See [this news item](/src/News/2013_04_08_Galaxy_Security_Release/index.md) for details.
+The most recent official distribution was on [April 1, 2013](/src/DevNewsBriefs/2013_04_01/index.md).  However, [a security update was released on April 8](/src/News/2013_04_08_Galaxy_Security_Release/index.md).  See [this news item](/src/News/2013_04_08_Galaxy_Security_Release/index.md) for details.
 
 ## Tool Shed Contributions
 

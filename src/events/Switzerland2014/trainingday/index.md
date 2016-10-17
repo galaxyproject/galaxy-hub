@@ -26,18 +26,18 @@ Topics covered:
 | Time |  Speaker  |  Title  |  Type  |  Slides  | 
 | ---- | -------- | ------ | ----- | ------- | 
 | 9:15 - 9:30 |  ARRIVAL  | 
-| 9:30 - 9:40 |  [Hans-Rudolf Hotz](/HansrudolfHotz) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/BjoernGruening) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |   |  [pdf](ATTACHMENT_URLwelcome_20140930.pdf)   | 
-| 9:40 - 9:50 |  [Hans-Rudolf Hotz](/HansrudolfHotz) ([FMI](http://www.fmi.ch/))  |  Galaxy Introduction  |  demo  |  [pdf](ATTACHMENT_URLintro_20140930.pdf)  | 
-| 9:50 - 10:30 |  [Hans-Rudolf Hotz](/HansrudolfHotz) ([FMI](http://www.fmi.ch/))  |  datatypes, histories, datasets, tools, data sharing  |  hands-on  |   | 
+| 9:30 - 9:40 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/BjoernGruening) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |   |  [pdf](ATTACHMENT_URLwelcome_20140930.pdf)   | 
+| 9:40 - 9:50 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/))  |  Galaxy Introduction  |  demo  |  [pdf](ATTACHMENT_URLintro_20140930.pdf)  | 
+| 9:50 - 10:30 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/))  |  datatypes, histories, datasets, tools, data sharing  |  hands-on  |   | 
 | 10:30 - 11:00 |  coffee Break  | 
-| 11:00 - 12:00 |  [Hans-Rudolf Hotz](/HansrudolfHotz) ([FMI](http://www.fmi.ch/))  |  simple text manipulations, workflows  |  hands-on  |   | 
+| 11:00 - 12:00 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/))  |  simple text manipulations, workflows  |  hands-on  |   | 
 | 12:00 - 13:30 |  Lunch Break (lunch will be at 12:15)  | 
-| 13:30 - 14:10 |  [Dannon Baker](/DannonBaker) ([Galaxy Project](http://galaxyproject.org))  |  installing and administering your own Galaxy on the cloud   |  hands-on  |   | 
-| 14:10 - 14:40 |  [Björn Grüning](/BjoernGruening) ([University of Freiburg](http://www.uni-freiburg.de/))  |  toolshed  |  hands-on  |   | 
+| 13:30 - 14:10 |  [Dannon Baker](/src/DannonBaker/index.md) ([Galaxy Project](http://galaxyproject.org))  |  installing and administering your own Galaxy on the cloud   |  hands-on  |   | 
+| 14:10 - 14:40 |  [Björn Grüning](/src/BjoernGruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/))  |  toolshed  |  hands-on  |   | 
 | 14:40 - 15:00|  coffee Break  | 
-| 15:00 - 15:30 |  [Björn Grüning](/BjoernGruening) ([University of Freiburg](http://www.uni-freiburg.de/))  |  NGS-analaysis: a Chip-Seq example  |  hands-on  |   | 
-| 15:30 - 16:00 |  [Dannon Baker](/DannonBaker) ([Galaxy Project](http://galaxyproject.org))  |  visualizations    |  hands-on  |   | 
-| 16:00 - 16:01 |  [Hans-Rudolf Hotz](/HansrudolfHotz) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/BjoernGruening)  ([University of Freiburg](http://www.uni-freiburg.de/))  |  concluding remarks  |   |   | 
+| 15:00 - 15:30 |  [Björn Grüning](/src/BjoernGruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/))  |  NGS-analaysis: a Chip-Seq example  |  hands-on  |   | 
+| 15:30 - 16:00 |  [Dannon Baker](/src/DannonBaker/index.md) ([Galaxy Project](http://galaxyproject.org))  |  visualizations    |  hands-on  |   | 
+| 16:00 - 16:01 |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/BjoernGruening)  ([University of Freiburg](http://www.uni-freiburg.de/))  |  concluding remarks  |   |   | 
 | 16:01 - 16:15 |  DEPARTURE (....and going to the pub)  | 
 
 This schedule will most likely change. It will be adapted according to the progress we make during the day
@@ -50,7 +50,7 @@ The training day will be held in the [UniS-Building (room: A -119) of the Univer
 ## Registration
 
 
-Registration is now closed. Please contact [Hans-Rudolf Hotz](/HansrudolfHotz) or [Björn Grüning](/src/BjoernGruening/index.md) if you want your name to be put on the waiting list. There is a good chance, we can still accommodate you. 
+Registration is now closed. Please contact [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) or [Björn Grüning](/src/BjoernGruening/index.md) if you want your name to be put on the waiting list. There is a good chance, we can still accommodate you. 
 
 <br />
 

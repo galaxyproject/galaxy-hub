@@ -3,7 +3,7 @@ title: Visualization with Charts
 ---
 
 
-*Galaxy Charts* enables you to visualize tabular datasets using bar diagrams, pie charts, scatterplots and other chart types. *Charts* is enabled on the test instance, but not by default on local instances. If you are running a local instance and would like to use *Charts*, please enable the visualization plugins as described here: [/VisualizationsRegistry](/VisualizationsRegistry). Certain chart types like e.g. histograms and box plots, pre-process data before rendering the visualization. The pre-processing is done by the *Charts* processing tool available [here](http://toolshed.g2.bx.psu.edu/view/guerler/charts). Noteworthy, many chart types like e.g. bar diagrams and scatterplots, do not require data pre-processing.
+*Galaxy Charts* enables you to visualize tabular datasets using bar diagrams, pie charts, scatterplots and other chart types. *Charts* is enabled on the test instance, but not by default on local instances. If you are running a local instance and would like to use *Charts*, please enable the visualization plugins as described here: [/VisualizationsRegistry](/src/VisualizationsRegistry/index.md). Certain chart types like e.g. histograms and box plots, pre-process data before rendering the visualization. The pre-processing is done by the *Charts* processing tool available [here](http://toolshed.g2.bx.psu.edu/view/guerler/charts). Noteworthy, many chart types like e.g. bar diagrams and scatterplots, do not require data pre-processing.
 
 ### Why Charts?
 

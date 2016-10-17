@@ -8,11 +8,11 @@ title: September 2014 Galaxy Update
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the September 2014 *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the September 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # Galaxy-UK Community Launched
 
-[Galaxy-UK](http://galaxy-community.org.uk/), a new [Galaxy Community](/Community) was launched in August.  The [Galaxy-UK Community](http://galaxy-community.org.uk/) aims to:  
+[Galaxy-UK](http://galaxy-community.org.uk/), a new [Galaxy Community](/src/Community/index.md) was launched in August.  The [Galaxy-UK Community](http://galaxy-community.org.uk/) aims to:  
 
 * Bring the Galaxy community in the United Kingdom closer together
 * Identify and address the needs of the community
@@ -35,7 +35,7 @@ Don't fret if you want to join a community but you are not in the UK.  [Galaxy-U
 
 ## Galaxy Events in Europe, Fall 2014
 
-There are a wealth of Galaxy related events in Europe this fall. Events include a [large Galaxy presence at ECCB'14](/Events/ECCB2014), the [Fourth Galaxy User Group Grand Ouest (GUGGO) meeting](http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo), the [2014 Swiss-German Galaxy Tour](/src/Events/SG2014/index.md), and several training events in Italy, the United Kingdom, Croatia, Norway, and France.
+There are a wealth of Galaxy related events in Europe this fall. Events include a [large Galaxy presence at ECCB'14](/src/Events/ECCB2014/index.md), the [Fourth Galaxy User Group Grand Ouest (GUGGO) meeting](http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo), the [2014 Swiss-German Galaxy Tour](/src/Events/SG2014/index.md), and several training events in Italy, the United Kingdom, Croatia, Norway, and France.
 
 These events are a great way to meet other Galaxy users and developers and learn and share best practices. If you're in Europe and are interested in learning more about Galaxy and/or the community, then please give these a look.
 
@@ -275,7 +275,7 @@ The Galaxy is expanding! Please help it grow.
 * [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -435,9 +435,9 @@ Eric & Björn
 
 <br /><br />
 
-**There were no new [Log Board](/Community/Logs) or [Deployment Catalog](/src/Community/Deployments/index.md) entries in August!**  Eek!  Please don't let this happen again!  
+**There were no new [Log Board](/src/Community/Logs/index.md) or [Deployment Catalog](/src/Community/Deployments/index.md) entries in August!**  Eek!  Please don't let this happen again!  
 
-The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/Community/Deployments)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/Community/Deployments), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
+The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/Community)* were launched last your.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
 

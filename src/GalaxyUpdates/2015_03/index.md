@@ -15,7 +15,7 @@ title: The March 2015 Galaxy News
 
 <div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
 
-Welcome to the March 2015 *[Galaxy Update](/GalaxyUpdates)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/GalaxyUpdates)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the March 2015 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # New Papers
 
@@ -25,7 +25,7 @@ Welcome to the March 2015 *[Galaxy Update](/GalaxyUpdates)*, a summary of what i
     Jorrit Boeke, [John M Chilton](/src/JohnChilton/index.md), Ira R Cooke, Peter L Horvatovich, Pratik D Jagtap, Lukas Käll, Janne Lehtiö, Pieter Lukasse, Perry D Moerland & Timothy J Griffin, *Nature Biotechnology*, Vol. 33, No. 2. (6 February 2015)
 
 * [Online Resources for Genomic Analysis Using High-Throughput Sequencing](http://dx.doi.org/10.1101/pdb.top083667)
-    [Daniel Blankenberg](/Dan), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/src/anton/index.md),  *Cold Spring Harbor Protocols* (05 February 2015), doi:10.1101/pdb.top083667
+    [Daniel Blankenberg](/src/Dan/index.md), [James Taylor](/JamesTaylor), [Anton Nekrutenko](/src/anton/index.md),  *Cold Spring Harbor Protocols* (05 February 2015), doi:10.1101/pdb.top083667
 
 * [Selected Approaches and Frameworks to Carry out Genomic Data Analysis on the Cloud](http://dx.doi.org/10.12694/scpe.v16i1.1058)
     Philip Church, Andrzej Goscinski, *Scalable Computing: Practice and Experience*, Vol. 16, No. 1. (07 February 2015), doi:10.12694/scpe.v16i1.1058
@@ -121,7 +121,7 @@ A refresh of [UseGalaxy.org](https://usegalaxy.org) has started.  It includes
 
 <div class='right'><a href='http://gcc2015.tsl.ac.uk/'><img src='/Images/Logos/GCC2015LogoWide600.png' alt='Sponsor GCC2015' width="170" /></a></div>
 
-The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is the Galaxy community's annual gathering of users, developers, and administrators.  [Previous GCC's](/Events/GCC2014) have drawn over 200 participants, and we expect that to happen again in 2015.  GCC2015 is being hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK, immediately before [BOSC](http://www.open-bio.org/wiki/BOSC_2015) and [ISMB/ECCB](http://www.iscb.org/ismbeccb2015) in Dublin.
+The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is the Galaxy community's annual gathering of users, developers, and administrators.  [Previous GCC's](/src/Events/GCC2014/index.md) have drawn over 200 participants, and we expect that to happen again in 2015.  GCC2015 is being hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK, immediately before [BOSC](http://www.open-bio.org/wiki/BOSC_2015) and [ISMB/ECCB](http://www.iscb.org/ismbeccb2015) in Dublin.
 
 There are a lot of events going on at GCC2015, including:
 
@@ -198,7 +198,7 @@ A hands-on, 4 day workshop on *[RNA-Seq and ChIP-Seq Analysis with Galaxy](http:
 
 <div class='right'><a href='/Community/GalaxyAdmins/Meetups/2015_02_19'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup February 19' width="150" /></a></div>
 
-[Video and slides](/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md) from the first [GalaxyAdmins](/Community/GalaxyAdmins) [meetup of 2015](/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md) are now available online. 
+[Video and slides](/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md) from the first [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) [meetup of 2015](/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md) are now available online. 
 
 [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) also lead a short discussion on *GalaxyAdmins direction*.
 
@@ -206,11 +206,11 @@ A hands-on, 4 day workshop on *[RNA-Seq and ChIP-Seq Analysis with Galaxy](http:
 
 ### Fall 2014 Questionnaire Summaries
 
-A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/News/2014Questionnaire) was presented by [Dave Clements](/DaveClements).  A [summary of the admin/devel questionnaire](/src/Community/GalaxyAdmins/Surveys/2014/index.md) is now available online.
+A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/src/News/2014Questionnaire/index.md) was presented by [Dave Clements](/DaveClements).  A [summary of the admin/devel questionnaire](/src/Community/GalaxyAdmins/Surveys/2014/index.md) is now available online.
 
 ### Gravity
 
-[Nate Coraor](/nate) introduced [Gravity](/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md#galaxy-project-update-gravity), a process manager (supervisor) for Galaxy servers.  
+[Nate Coraor](/src/nate/index.md) introduced [Gravity](/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md#galaxy-project-update-gravity), a process manager (supervisor) for Galaxy servers.  
 
 ## Other Events
 
@@ -223,7 +223,7 @@ A summary of both the user and admin/developer [2014 Galaxy Community Questionna
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div>
 
-There are [upcoming events](/Events) in 7 countries on 4 continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/src/Events/index.md) in 7 countries on 4 continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <table>
   <tr class="th" >
@@ -341,11 +341,11 @@ The Galaxy is expanding! Please help it grow.
 * [Developer / bioinformatician](/src/News/UiODeveloperBioinformatician/index.md) at the University Center for Information Technology (USIT) at the University of Oslo
 * [Computational Metabolomics Professor](https://psu.jobs/job/55363), Penn State University, Pennsylvania, United States
 * [Software Developer for the Refinery Team](https://jobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1118216&PartnerId=25240&SiteId=5341&type=mail&JobReqLang=1&recordstart=1&JobSiteId=5341&JobSiteInfo=1118216_5341&gqid=0), Boston, Massachusetts, United States
-* [Bioinformatics scientist/engineer](/News/MDCBerlinBuchOpening) for RNA bioinformatics and next-generation sequencing, [MDC Berlin-Buch](https://www.mdc-berlin.de/)  
-* Searching for [bioinformaticians, post-docs, PhD students and software engineers](/News/BioinformaticianFreiburg2014) in Freiburg, Germany at [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs), and the [Bioinformatics Group at the University of Freiburg](http://www.bioinf.uni-freiburg.de//?en)
+* [Bioinformatics scientist/engineer](/src/News/MDCBerlinBuchOpening/index.md) for RNA bioinformatics and next-generation sequencing, [MDC Berlin-Buch](https://www.mdc-berlin.de/)  
+* Searching for [bioinformaticians, post-docs, PhD students and software engineers](/src/News/BioinformaticianFreiburg2014/index.md) in Freiburg, Germany at [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs), and the [Bioinformatics Group at the University of Freiburg](http://www.bioinf.uni-freiburg.de//?en)
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/News) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -414,18 +414,18 @@ More information available in [/Develop/SourceCode](/src/Develop/SourceCode/inde
 
 ## Galaxy 2015/01/13 Distribution
 
-The most recent Galaxy release was the [2015/01/13 distribution](/DevNewsBriefs/2015_01_13).  This addressed several *[critical security vulnerabilities](/DevNewsBriefs/2015_01_13#security)*, added [IPython integration](/DevNewsBriefs/2015_01_13#ipython_integration), and included a [Tool Form Upgrade for Beta Testing](/src/DevNewsBriefs/2015_01_13/index.md#tool_form_upgrade_28for_beta_testing29).
+The most recent Galaxy release was the [2015/01/13 distribution](/src/DevNewsBriefs/2015_01_13/index.md).  This addressed several *[critical security vulnerabilities](/DevNewsBriefs/2015_01_13#security)*, added [IPython integration](/DevNewsBriefs/2015_01_13#ipython_integration), and included a [Tool Form Upgrade for Beta Testing](/src/DevNewsBriefs/2015_01_13/index.md#tool_form_upgrade_28for_beta_testing29).
 
 ## Planemo 0.5.0
 
 There were several releases of [Planemo](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst#050-2015-02-22) in February. Among many other new features, it is now install-able from [PyPI](https://pypi.python.org/pypi/planemo) and contains a new command to assist in [bootstrapping new tools](http://planemo.readthedocs.org/en/latest/writing.html).
 
 ## BioBlend
-[BioBlend v0.5.2 was released in October](/News/BioBlendV0.5.2).  [BioBlend](https://github.com/galaxyproject/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  In January the [BioBlend source](https://github.com/galaxyproject/bioblend) was moved to the [galaxyproject Github account](https://github.com/galaxyproject).
+[BioBlend v0.5.2 was released in October](/src/News/BioBlendV0.5.2/index.md).  [BioBlend](https://github.com/galaxyproject/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/Learn/API).  In January the [BioBlend source](https://github.com/galaxyproject/bioblend) was moved to the [galaxyproject Github account](https://github.com/galaxyproject).
 
 ## CloudMan and blend4j
 
-New versions [CloudMan](/GalaxyUpdates/2014_09#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were released in August.
+New versions [CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were released in August.
 
 ---
 

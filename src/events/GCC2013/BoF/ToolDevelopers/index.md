@@ -10,7 +10,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2013/BoF/LinkBox)
 
 <div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
 
-This page describes the **Tool Developers** [Birds of a Feather](/Events/GCC2013/BoF) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
+This page describes the **Tool Developers** [Birds of a Feather](/src/Events/GCC2013/BoF/index.md) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
 
 The aim is for tool developers to discuss the process of developing tools for galaxy. 
 
@@ -44,9 +44,9 @@ If you are interested, please add your name below and/or send an email to the [g
 
 ## Other Tool and Tool Shed Content at GCC2013
 
-* "[Introduction to Tool and Data Source Configuration](/Events/GCC2013/TrainingDay#introduction_to_tool_and_data_source_configuration)" [Training Day](/src/Events/GCC2013/TrainingDay/index.md) session
-* "[Advanced Tool and Data Source Configuration"](/Events/GCC2013/TrainingDay#advanced-tool-and-data-source-configuration) [Training Day](/src/Events/GCC2013/TrainingDay/index.md) session
-* "[Galaxy Tool Shed](/Events/GCC2013/TrainingDay#galaxy-tool-shed)" [Training Day](/src/Events/GCC2013/TrainingDay/index.md) session
+* "[Introduction to Tool and Data Source Configuration](/src/Events/GCC2013/TrainingDay/index.md#introduction_to_tool_and_data_source_configuration)" [Training Day](/src/Events/GCC2013/TrainingDay/index.md) session
+* "[Advanced Tool and Data Source Configuration"](/src/Events/GCC2013/TrainingDay/index.md#advanced-tool-and-data-source-configuration) [Training Day](/src/Events/GCC2013/TrainingDay/index.md) session
+* "[Galaxy Tool Shed](/src/Events/GCC2013/TrainingDay/index.md#galaxy-tool-shed)" [Training Day](/src/Events/GCC2013/TrainingDay/index.md) session
 * "[Reproducible research and the 90/10 rule: Improving the ratio of light script to dark script matter in your Galaxy](/src/Events/GCC2013/Abstracts/index.md#reproducible-research-and-the-9010-rule-improving-the-ratio-of-light-script-to-dark-script-matter-in-your-galaxy)" talk
 * "[Enhancing the Galaxy Tool Shed](/src/Events/GCC2013/Abstracts/index.md#enhancing-the-galaxy-tool-shed)" talk
 * "[A Galaxy of learning: Bioinformatics tutorials based on Galaxy](/src/Events/GCC2013/Abstracts/index.md#a-galaxy-of-learning-bioinformatics-tutorials-based-on-galaxy)" talk

@@ -7,7 +7,7 @@ date: 2013-05-08T17:39:38Z
 <a href='http://rnaseq.pathogenportal.org/'><img src='/Community/GalaxyAdmins/Meetups/2013_05_15/PathogenPortalGalaxyLandingPage.png' alt='Pathogen Portal Galaxy' width="160" /></a></div>
 
 
-The [next meeting](/src/Community/GalaxyAdmins/Meetups/2013_05_15/index.md) of the [GalaxyAdmins Group](/Community/GalaxyAdmins) will be held on [May 15, 2013, at 10 AM Central US time](/src/Community/GalaxyAdmins/Meetups/2013_05_15/index.md). 
+The [next meeting](/src/Community/GalaxyAdmins/Meetups/2013_05_15/index.md) of the [GalaxyAdmins Group](/src/Community/GalaxyAdmins/index.md) will be held on [May 15, 2013, at 10 AM Central US time](/src/Community/GalaxyAdmins/Meetups/2013_05_15/index.md). 
 
 Andrew Warren of the [Cyberinfrastructure Division](http://www.vbi.vt.edu/faculty/group_overview/Cyberinfrastructure_Division) of the [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) at Virginia Tech will talk about their [Galaxy deployment](http://rnaseq.pathogenportal.org/) at [Pathogen Portal](http://pathogenportal.org), a highly customized Galaxy installation, and also about the group's objectives and future plans.
 

@@ -16,7 +16,7 @@ Another option is to install Galaxy on the *[Cloud](/src/Cloud/index.md)*.  The 
 
 ## Use Another Public Galaxy Server
 
-Many [other Galaxy servers](/src/PublicGalaxyServers/index.md) besides [Main](../../Main) have been made publicly available by other organizations.  One of these may meet your needs.  See [Public Galaxy Servers](/src/PublicGalaxyServers/index.md) for a list.
+Many [other Galaxy servers](/src/PublicGalaxyServers/index.md) besides [Main](/src/Main/index.md) have been made publicly available by other organizations.  One of these may meet your needs.  See [Public Galaxy Servers](/src/PublicGalaxyServers/index.md) for a list.
 
 ## Get the SlipStream Galaxy Appliance
 
@@ -26,12 +26,12 @@ Get a dedicated server pre-configured with a fully operational Galaxy instance. 
 
 Your choices depends upon your needs.  Here are the options depending on what you need:
 
-| |  [Main](../../Main)  |  [Local](../../Admin/GetGalaxy)  |  [Cloud](../../Cloud)  |  [Appliance](http://www.bioteam.net/slipstream/galaxy-edition)  |  [Other](/src/PublicGalaxyServers/index.md)  | 
+| |  [Main](/src/Main/index.md)  |  [Local](../../Admin/GetGalaxy)  |  [Cloud](../../Cloud)  |  [Appliance](http://www.bioteam.net/slipstream/galaxy-edition)  |  [Other](/src/PublicGalaxyServers/index.md)  | 
 | --- | ------------------- | ------------------------------- | --------------------- | -------------------------------------------------------------- | ----------------------------------- | 
 | Your data sets are moderately sized |  Yes  |  Yes  |  Yes  |  Yes  |  [?](../../Public Galaxy Servers)  | 
 | Your computational requirements are moderate |  Yes  |  Yes  |  Yes  |  Yes  |  [?](../../Public Galaxy Servers)  | 
 | You want to share your Galaxy objects with others |  Yes  |  Yes  |  Yes  |  Yes  |  [?](../../Public Galaxy Servers)  | 
-| All needed [Tools](../../Tools) are [installed on Main](../../Admin/Tools/Tool Dependencies). |  Yes  |  ?  |  Yes  |  Yes |  [?](../../Public Galaxy Servers)  | 
+| All needed [Tools](/src/Tools/index.md) are [installed on Main](../../Admin/Tools/Tool Dependencies). |  Yes  |  ?  |  Yes  |  Yes |  [?](../../Public Galaxy Servers)  | 
 | Your data sets are very large |  No  |  ?  |  Yes  |  Yes  |  [?](../../Public Galaxy Servers)  | 
 | Your computational requirements are very large |  No  |  ?  |  Yes  |  Yes  |  [?](../../Public Galaxy Servers)  | 
 | You have absolute data security requirements |  No  |  Yes  |  Yes  |  Yes  |  [?](../../Public Galaxy Servers)  | 

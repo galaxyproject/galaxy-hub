@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[Galaxy Public Servers Usage Quotas](/News/Galaxy Public Servers Usage Quotas)</div>
 
-User data and job [quota limits](/Test/#quotas) are now implemented at the public [Galaxy Test instance](http://test.g2.bx.psu.edu):
+User data and job [quota limits](/src/Test/index.md#quotas) are now implemented at the public [Galaxy Test instance](http://test.g2.bx.psu.edu):
 
 <table>
   <tr>
@@ -19,7 +19,7 @@ User data and job [quota limits](/Test/#quotas) are now implemented at the publi
 <br />
 See the wiki [Test](/src/Test/index.md#quotas) page for full details.
 
-While [no quotas](/src/Main/index.md#quotas) are currently implemented at the public Galaxy [/Main](/Main) instance, http://usegalaxy.org, we do ask that users stay within [certain usage limits](/src/Main/index.md#quotas).
+While [no quotas](/src/Main/index.md#quotas) are currently implemented at the public Galaxy [/Main](/src/Main/index.md) instance, http://usegalaxy.org, we do ask that users stay within [certain usage limits](/src/Main/index.md#quotas).
 
 <table>
   <tr>
