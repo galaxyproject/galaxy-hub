@@ -1,4 +1,4 @@
-INCLUDE(/Under Construction)
+INCLUDE(/UnderConstruction)
 # Datafiles used in various teaching exercises using Mouse mm9 chr19
 
 * Used in ***Using Galaxy to Perform Large-Scale Interactive Data Analysis: A live supplement*** June 2012 Update published in *Current Protocols in Bioinformatics* (pending release)
