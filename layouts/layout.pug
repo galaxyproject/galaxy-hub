@@ -26,7 +26,7 @@ head( lang="en" )
 body
 
     div#edit_page
-        a( href="https://github.com/dannon/test-galaxy-wiki/blob/master/src/#{orig_path}" class="fa fa-github" ) Edit on GitHub
+        a( href="https://github.com/dannon/test-galaxy-wiki/blob/master/src/"+orig_path class="fa fa-github" ) Edit on GitHub
     header#logonav: div.container: div.row
         div.col-sm-4.text-center: div.logo
             a( href="http://galaxyproject.org/" ) The Galaxy Project: Online bioinformatics analysis for everyone
@@ -38,28 +38,35 @@ body
     //- Static navbar
     div.container: div.row
         div.col-md-12: nav#topnavbar( class="navbar navbar-default navbar-static-top" role="navigation" )
-                    div.navbar-header
-                        button( type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" )
-                            span.sr-only Toggle navigation
-                            span.icon-bar
-                            span.icon-bar
-                            span.icon-bar
-                    div.navbar-collapse.collapse
-                        ul.nav.navbar-nav
-                            each entry in menu
-                                if entry.links
-                                    li.dropdown
-                                        a( href="#" class="dropdown-toggle" data-toggle="dropdown" role="button") #{entry.title}
-                                            span.caret
-                                        ul.dropdown-menu
-                                            each val in entry.links
-                                                li
-                                                    if val.link.substring(0,4) == "http"
-                                                        a( href=val.link ) #{val.title}
-                                                    else
-                                                       a( href="/" + val.link + "/" ) #{val.title}
-                                else
-                                    li: a( href="#") #{entry.title}
+            div.navbar-header
+                button( type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" )
+                    span.sr-only Toggle navigation
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+            div.navbar-collapse.collapse
+                ul.nav.navbar-nav
+                    each entry in menu
+                        if entry.links
+                            li.dropdown
+                                a( href="#" class="dropdown-toggle" data-toggle="dropdown" role="button") #{entry.title}
+                                    span.caret
+                                ul.dropdown-menu
+                                    each val in entry.links
+                                        li
+                                            if val.link.substring(0,4) == "http"
+                                                a( href=val.link ) #{val.title}
+                                            else
+                                               a( href="/" + val.link + "/" ) #{val.title}
+                        else
+                            li: a( href="#") #{entry.title}
+                ul.nav.navbar-nav.navbar-right
+                    li
+                        form(class='navbar-form')
+                            div.input-group
+                                input(class='form-control' placeholder='Search Galaxy')
+                                span.input-group-btn
+                                    button(class="btn btn-secondary" type="submit") Go!
 
     div.container: div.row
         div.col-md-9
