@@ -6,7 +6,7 @@ title: March 2012 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the March 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -41,6 +41,7 @@ There were [28 papers added to the Galaxy CiteULike group](http://www.citeulike.
 
 
 ## Who's Hiring
+
 <div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
 The Galaxy is expanding!  Please help it grow.
 
@@ -53,12 +54,12 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='/gmod:April 2012 GMOD Meeting'><img src='/Images/Logos/GMODApril2012Logo.png' alt='April 2012 GMOD Meeting' height=100 /></a>&nbsp;&nbsp; <a href='http://bioinformatics.ca/workshops/high_throughput'><img src='/Images/Logos/CanadianBioinfWorkshopsLog.png' alt='Informatics on High Throughput Sequencing Data Workshop' height=100 /></a>  <a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'><img src='/Images/Logos/NESCentAcademyLogo.png' alt='Next-gen Sequencing in Evolutionary Biology Course' height="100" /></a> <a href='http://www.iscb.org/ismb2012'><img src='/Images/Logos/ISMB2012.jpg' alt='ISMB 2012' height=100 /></a>
+<a href='/src/gmod:April 2012 GMOD Meeting/index.md'><img src="/src/Images/Logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; <a href='http://bioinformatics.ca/workshops/high_throughput'><img src="/src/Images/Logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height=100 /></a>  <a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'><img src="/src/Images/Logos/NESCentAcademyLogo.png" alt="Next-gen Sequencing in Evolutionary Biology Course" height="100" /></a> <a href='http://www.iscb.org/ismb2012'><img src="/src/Images/Logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>
 </div>
 
 ### Deadlines
 
-<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
+<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
 
 There are March application deadlines for a Next-gen Sequencing in Evolutionary Biology course at NESCent; Bio-Linux, and Advanced RNA-Seq and ChIP-Seq Data Analysis courses at Hinxton; Next Generation Sequencing Data Analysis at EMBL Heidelberg; Bioinformatics and Comparative Genome Analyses in Naples; Statistical Analysis of Genomic Data at CSHL; abstract deadlines for BITS 2012 and Information Visualization in !BioMedical Informatics (IVBI 2012); and early registration deadlines for the April GMOD Meeting and Copenhagenomics.
 
@@ -77,7 +78,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
     <th> April 5-6 </th>
     <td> </strong><a href='http://gmod.org/wiki/April 2012 GMOD Meeting'>April 2012 GMOD Meeting</a><strong><br />Including a <a href='http://gmod.org/wiki/April 2012 GMOD Meeting#Galaxy Workshop'>Galaxy Workshop</a> on evening of April 5.  Early registration ends March 7.  </td>
     <td> Washington DC, immediately following <a href='http://pir.georgetown.edu/biocuration2012/'>Biocuration 2012</a> </td>
-    <td> <a href='/DaveClements'>Dave Clements</a> </td>
+    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> April 24-26 </th>
@@ -89,7 +90,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
     <th> June 6-8 </th>
     <td> </strong><a href='http://www.bio-itworldasia.com/cla'>Dynamically Scalable, Accessible Analysis with Galaxy Cloud</a><strong> </td>
     <td> </strong><a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a><strong>, Singapore </td>
-    <td> <a href='/JamesTaylor'>James Taylor</a> </td>
+    <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> June 11-12 </th>
@@ -107,24 +108,24 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
     <th> July 13-17 </th>
     <td> </strong><a href='http://www.iscb.org/ismb2012-program/ismb2012-satellitemeetings#BSI'>Bioinformatics Software Interoperability SIG (BSI-SIG)</a><strong> </td>
     <td> </strong><a href='http://www.iscb.org/ismb2012'>ISMB 2012</a><strong>, Long Beach, California, United States </td>
-    <td> <a href='/anton'>Anton Nekrutenko</a> </td>
+    <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> </strong><a href='/Events/GCC2012'>2012 Galaxy Community Conference</a><strong><br /><a href='/Events/GCC2012/Abstracts'>Abstract submission</a> is now open, and <a href='/Events/GCC2012/TrainingDay'>Training Day</a> topics are set. </td>
+    <td> </strong><a href='/src/Events/GCC2012/index.md'>2012 Galaxy Community Conference</a><strong><br /><a href='/src/Events/GCC2012/Abstracts/index.md'>Abstract submission</a> is now open, and <a href='/src/Events/GCC2012/TrainingDay/index.md'>Training Day</a> topics are set. </td>
     <td> Chicago, Illinois, United States </td>
-    <td> <a href='/DaveClements'>Dave Clements</a> </td>
+    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
 </table>
 
 
 ### GCC2012 Update
 
-<div class='right'><a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="100" /></a><br /><br /><a href='/Events/GCC2012/TrainingDay'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' width="130" /></a></div>
+<div class='right'><a href='/src/Events/GCC2012/index.md'><img src="/src/Events/GCC2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/src/Events/GCC2012/TrainingDay/index.md'><img src="/src/Events/GCC2012/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
 
 * The [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) will be held July 25-27, in Chicago.  
 * The conference will feature two full days of presentations and discussions.  
-* [Abstract submission](/src/Events/GCC2012/Abstracts/index.md) opened February 13, and will [close April 16](/Events/GCC2012/Key Dates).  
+* [Abstract submission](/src/Events/GCC2012/Abstracts/index.md) opened February 13, and will [close April 16](/src/Events/GCC2012/Key Dates/index.md).  
 * A [whole day of training](/src/Events/GCC2012/TrainingDay/index.md) has been added, and topics set:
   * [Introduction to Galaxy](/src/Events/GCC2012/TrainingDay/index.md#ws2)
   * [Installing Your Own Galaxy](/src/Events/GCC2012/TrainingDay/index.md#ws5)
@@ -139,7 +140,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 
 At least 8 new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) in February, including 
 * CREST (Clipping REveals STructure): maps somatic structural variation in cancer genomes
-* MACS 1.4 ChIP-Seq peak calling ([/Main](/src/Main/index.md) has 1.3)
+* MACS 1.4 ChIP-Seq peak calling ([Main](/src/Main/index.md) has 1.3)
 * java_genomics_toolkit: NGS, especially WIG transformations (add/log/Z-score/etc) and visualization (KMeans/heatmaps)
 * mrFAST and mrsFAST: map Illumina short reads to reference assemblies; fast and memory-efficient 
 * mrCaNaVaR: Read depth analysis method to characterize segmental duplications & predict absolute copy numbers
@@ -151,6 +152,6 @@ At least 8 new repositories were added to the [Galaxy Tool Shed](http://toolshed
 * [Tutorial: Using the UCSC Genome Browser and Galaxy to study regulatory sequence evolution in Drosophila](http://bergmanlab.smith.man.ac.uk/?p=1248), by [Casey Berman](http://www.ls.manchester.ac.uk/people/profile/?personid=235)
 * [Notes on installing Galaxy](http://biocoders.net/2012/02/20/guest-post-notes-on-installing-galaxy/) by [Paul-Michael Agapow](http://biocoders.net/members/agapow/)
 
-**Galaxy-Announce now the default for new users on [/Main](/src/Main/index.md)**
+**Galaxy-Announce now the default for new users on [Main](/src/Main/index.md)**
 
-Newly registered users on [/Main](/src/Main/index.md), the Galaxy project's public server, who check "Subscribe to a mailing list" at registration time, are now subscribed to the moderated and low-volume [Galaxy-Announce mailing list](/src/MailingLists/index.md), instead of the high-volume, and sometimes overwhelming [Galaxy-User](/src/MailingLists/index.md) list.  This change was also made in the Galaxy source.
+Newly registered users on [Main](/src/Main/index.md), the Galaxy project's public server, who check "Subscribe to a mailing list" at registration time, are now subscribed to the moderated and low-volume [Galaxy-Announce mailing list](/src/MailingLists/index.md), instead of the high-volume, and sometimes overwhelming [Galaxy-User](/src/MailingLists/index.md) list.  This change was also made in the Galaxy source.

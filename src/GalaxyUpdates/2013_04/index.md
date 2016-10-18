@@ -6,7 +6,7 @@ title: April 2013 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the April 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -14,14 +14,14 @@ Welcome to the April 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a mont
 
 ## New Public Galaxy Servers
 
-<div class='left'><a href='https://ballaxy.bioinf.uni-sb.de/'><img src='/PublicGalaxyServers/BallaxyHomePage.png' alt='ballaxy Galaxy public server'  /></a></div>
+<div class='left'><a href='https://ballaxy.bioinf.uni-sb.de/'><img src="/src/PublicGalaxyServers/BallaxyHomePage.png" alt="ballaxy Galaxy public server"  /></a></div>
 
 [ballaxy](https://ballaxy.bioinf.uni-sb.de) hosts the [BALL (Biochemical Algorithms Library) Project tools](http://www.ball-project.org/), i.e. computer aided drug design and molecular modelling based on protein and ligand structure data.  It is tailored to handle structural molecular data (pdb, mol, mol2, hin, xyz, smiles) and to offer tools for modelling tasks like chemical shift prediction "[NightShift](http://bit.ly/WZPjPt)" or  optimal bond order assignment of ligands "BOA Constructor".
 A login is required and everybody can create a login, *but there is no guarantee how long any data will be preserved.*  ballaxy is supported by the groups of [Hans-Peter Lenhof](http://www.bioinf.uni-sb.de/HPL) (Saarland University, Saarbrücken, Germany), [Oliver Kohlbacher](http://www-bs.informatik.uni-tuebingen.de) (University of Tübingen, Germany), and [Andreas Hildebrandt](http://bio.informatik.uni-mainz.de/members/andreas.hildebrandt) (University of Mainz, Germany).
 
 <br />
 
-<div class='right'><a href='http://gohelle.cirad.fr/galaxy/'><img src='/PublicGalaxyServers/SouthGreenHomePage.png' alt='South Green Galaxy public server'  /></a></div>
+<div class='right'><a href='http://gohelle.cirad.fr/galaxy/'><img src="/src/PublicGalaxyServers/SouthGreenHomePage.png" alt="South Green Galaxy public server"  /></a></div>
 
 [South Green Galaxy](http://gohelle.cirad.fr/galaxy/) is a part of the [South Green Bioinformatics Platform (SGBP)](http://southgreen.cirad.fr/), "a bioinformatics platform applied to the genomic resource analysis of southern and Mediterranean plants."  It supports many custom tools and data sources relevant to plants.  It also has a *10 MB storage quota for anonymous users.*  Account creation is restricted to those with an [active collaboration](http://umr-agap.cirad.fr/en) and that work on southern and Mediterranean plants.  South Green Galaxy is sponsored by [CIRAD](http://www.cirad.fr/en/), [IRD (Institut de recherche pour le développement)](http://en.ird.fr/), [Bioversity International](http://www.bioversityinternational.org/), [INRA](http://www.international.inra.fr/), [Montpellier SupAgro](http://www.supagro.fr/web/?idl=20)
 
@@ -83,18 +83,18 @@ These servers join the [growing list of public Galaxy servers](/src/PublicGalaxy
 
 </div>
 
-There are several things to report in the *New Papers* arena.  First, the process we used to synchronise the Galaxy CiteULike group with it's Mendeley mirror broke, and has not been fixed yet. Mendeley dropped support for automatic synchronization with CiteULike at the end of February and so no updates have been pushed to Mendeley since then.  We are looking for processes that are not too labor / manual intervention intensive.  We are also reviewing our general use of CiteULike and Mendeley.  If you have any suggestions, please [outreach AT galaxyproject DOT org](send them to us).
+There are several things to report in the *New Papers* arena.  First, the process we used to synchronise the Galaxy CiteULike group with it's Mendeley mirror broke, and has not been fixed yet. Mendeley dropped support for automatic synchronization with CiteULike at the end of February and so no updates have been pushed to Mendeley since then.  We are looking for processes that are not too labor / manual intervention intensive.  We are also reviewing our general use of CiteULike and Mendeley.  If you have any suggestions, please [mailto:outreach AT galaxyproject DOT org](send them to us).
 
 Second several new tags were added, most of them attached to papers with the `methods` tag, and indicating (if the paper indicates) where the analysis was run.
 
 <table>
   <tr>
     <td style=" text-align: right; border: none;"> <code>usemain</code>: </td>
-    <td style=" text-align: left; border: none;"> Analysis run on <a href='/Main'>/Main</a> </td>
+    <td style=" text-align: left; border: none;"> Analysis run on <a href='Main'>/src/Main/index.md</a> </td>
   </tr>
   <tr>
     <td style=" text-align: right; border: none;"> <code>usepublic</code>: </td>
-    <td style=" text-align: left; border: none;"> Analysis run on <a href='/PublicGalaxyServers'>other public Galaxy servers</a> </td>
+    <td style=" text-align: left; border: none;"> Analysis run on <a href='/src/PublicGalaxyServers/index.md'>other public Galaxy servers</a> </td>
   </tr>
   <tr>
     <td style=" text-align: right; border: none;"> <code>useprivate</code>: </td>
@@ -127,7 +127,7 @@ There are now over [900 papers in the Galaxy CiteULike Group](http://www.citeuli
 
 ## Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/src/GalaxyIsHiring/index.md'><img src="/src/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -142,11 +142,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## GCC2013
 
-<div class='center'><a href='/Events/GCC2013'><img src='/Images/Logos/GCC2013Logo400.png' alt='2013 Galaxy Community Conference (GCC2013)' width="300" /></a> </div>
+<div class='center'><a href='/src/Events/GCC2013/index.md'><img src="/src/Images/Logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
 
 <table>
   <tr>
-    <th> &nbsp;&nbsp; </strong>The deadline for <a href='/Events/GCC2013/Abstracts'>submitting oral presentation abstracts</a> is 12 April.<strong> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; </strong>The deadline for <a href='/src/Events/GCC2013/Abstracts/index.md'>submitting oral presentation abstracts</a> is 12 April.<strong> &nbsp;&nbsp; </th>
   </tr>
 </table>
 
@@ -161,7 +161,7 @@ The [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/index.md) w
 
 **[Early registration](/src/Events/GCC2013/Register/index.md) and [paper and poster abstract submission](/src/Events/GCC2013/Abstracts/index.md) are open.** 
 
-<div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
+<div class='right'><a href='/src/Events/GCC2013/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
 
 **[Register early](/src/Events/GCC2013/Register/index.md)** and *save up to 75% off regular registration costs.*  Early registration is very affordable, with combined registration ([Training Day](/src/Events/GCC2013/TrainingDay/index.md) + main meeting) starting at ~ €95 for post-docs and students.  Registering early also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Early registration closes 24 May.
 
@@ -174,9 +174,9 @@ There are still several [sponsorships](/src/Events/GCC2013/Sponsorships/index.md
 
 ## Galaxy at GMOD 2013, Biocuration 2013 and TGAC
 
-<div class='right'><a href='http://www.ebi.ac.uk/biocuration2013/content/workshop-descriptions'><img src='/Images/Logos/ISBLogoWAcronym223.png' alt='Biocuration 2013' height="60" /></a><br />
-<a href='/Events/TGAC2013'><img src='/Images/Logos/TGACLogo.png' alt='Introduction to Galaxy Workshop @ TGAC' height="40" /></a></div>
-<div class='right'> <a href='/gmod:April_2013_GMOD_Meeting'><img src='/Images/Logos/GMOD2013Logo240.png' alt='GMOD 2013' height="80" /></a></div>
+<div class='right'><a href='http://www.ebi.ac.uk/biocuration2013/content/workshop-descriptions'><img src="/src/Images/Logos/ISBLogoWAcronym223.png" alt="Biocuration 2013" height="60" /></a><br />
+<a href='/src/Events/TGAC2013/index.md'><img src="/src/Images/Logos/TGACLogo.png" alt="Introduction to Galaxy Workshop @ TGAC" height="40" /></a></div>
+<div class='right'> <a href='/src/gmod:April_2013_GMOD_Meeting/index.md'><img src="/src/Images/Logos/GMOD2013Logo240.png" alt="GMOD 2013" height="80" /></a></div>
 
 Galaxy will [have a presence](/src/News/GalaxyGMODBiocuration2013/index.md) at both the [GMOD 2013](http://gmod.org/wiki/April 2013 GMOD Meeting) and [Biocuration 2013](http://www.ebi.ac.uk/biocuration2013/home).  Both are being held in Cambridge, UK in early April.  If you are interested in either community, then it would be great to see you there.
 
@@ -187,7 +187,7 @@ There is also a [Galaxy Workshop](/src/Events/TGAC2013/index.md) at [The Genome 
 <div class='center'>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 ### Events
@@ -203,7 +203,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> April 5-6 </th>
     <td> <em><a href='http://gmod.org/wiki/April 2013 GMOD Meeting'>2013 GMOD Meeting</a></em> </td>
     <td> Cambridge, United Kingdom, immediately prior to <a href='http://www.ebi.ac.uk/biocuration2013/'>Biocuration 2013</a> </td>
-    <td> <a href='/DaveClements'>Dave Clements</a> </td>
+    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> April 7-8 </th>
@@ -215,7 +215,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> April 7-10 </th>
     <td> <em><a href='http://www.ebi.ac.uk/biocuration2013/content/workshop-descriptions'>GO Galaxy Workshop</a></em> </td>
     <td> <a href='http://www.ebi.ac.uk/biocuration2013/home'>Biocuration 2013</a>, Cambridge, United Kingdom </td>
-    <td> <a href='/DaveClements'>Dave Clements</a>, <a href='http://www.berkeleybop.org/person/suzanna-lewis'>Suzanna Lewis</a> </td>
+    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://www.berkeleybop.org/person/suzanna-lewis'>Suzanna Lewis</a> </td>
   </tr>
   <tr>
     <th rowspan=2> April 9-11 </th>
@@ -240,21 +240,21 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> April 11 </th>
-    <td> <a href='/Events/TGAC2013'>Introduction to Galaxy Workshop</a> </td>
+    <td> <a href='/src/Events/TGAC2013/index.md'>Introduction to Galaxy Workshop</a> </td>
     <td> <a href='http://www.tgac.ac.uk/galaxy-workshop/'>The Genome Analysis Centre</a>, Norwich, United Kingdom </td>
-    <td> <a href='/DaveClements'>Dave Clements</a> </td>
+    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 14-16 </th>
     <td> Tutorial: <em>Exploring and Enabling Biomedical Data Analysis with Galaxy</em> </td>
     <td> <a href='http://www.iscb.org/glbio2013'>Great Lakes Bioinformatics Conference (GLBIO) 2013</a>, Pittsburgh, Pennsylvania, United States </td>
-    <td> <a href='/anton'>Anton Nekrutenko</a> </td>
+    <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> May 16-17 </th>
     <td> <em>Galaxy Workflows for Bioinformatics Analysis,</em> and <br /><em>Workshop 1A – Galaxy Workflows for Bioinformatics Analysis</em> </td>
     <td> <a href='http://bit.ly/WiNGS2013'>Workshop in Next-Generation Sequence Analysis and Metabolomics (WiNGS)</a>, UNC-Charlotte, North Carolina, United States </td>
-    <td> <a href='/JamesTaylor'>James Taylor</a> </td>
+    <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th rowspan=3> May 28-31 </th>
@@ -280,30 +280,30 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> June 8-11 </th>
     <td> <em><a href='https://www.eshg.org/sunday2013.0.html#W1'>WS08: Biomedical Data Analysis with Galaxy</a></em> </td>
     <td> Workshop at <a href='https://www.eshg.org/eshg2013.0.html'>European Human Genetics Conference (ESHG2013)</a>, Paris, France </td>
-    <td> <a href='/anton'>Anton Nekrutenko</a>, <a href='/EnisAfgan'>Enis Afgan</a> </td>
+    <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 13-14 </th>
     <td> <a href='http://www.cdb.riken.jp/deepseq2013/index.html'>Genomics and Epigenomics with Deep Sequencing, the 24th CDB Meeting</a> </td>
     <td> RIKEN, CDB, Kobe, Japan </td>
-    <td> <a href='/anton'>Anton Nekrutenko</a> </td>
+    <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> </strong><em><a href='/Events/GCC2013'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
+    <td> </strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
-    <td> <a href='/Events/GCC2013/Organizers'>Organizers</a> </td>
+    <td> <a href='/src/Events/GCC2013/Organizers/index.md'>Organizers</a> </td>
   </tr>
 </table>
 
 
 ## GalaxyAdmins
 
-<div class='right'><a href='/Community/GalaxyAdmins/'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' height="50" /></a></div>
+<div class='right'><a href='/src/Community/GalaxyAdmins//index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" height="50" /></a></div>
 
 ### March 2013 Meetup
 
-Slides and the screencast from the [March GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md) are [now available](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md)  [hailiang DOT mei AT nbic DOT nl](Hailiang "Leon" Mei) spoke on *[NBIC Galaxy deployment](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).*  [NBIC Galaxy (Andromeda)](http://galaxy.nbic.nl/) was migrated to a HPC cloud hosted by Surfsara in September 2012. Leon discussed the setup of this HPC cloud and the architecture of NBIC Galaxy and shared their experiences installing the NBIC Galaxy using the Cloudman scripts. The presentation finished with a list of issues and our possible future plans. [Dan Blankenberg](/src/Dan/index.md) also discussed the new Galaxy release process, and the upcoming Data Manager enhancements.
+Slides and the screencast from the [March GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md) are [now available](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md)  [mailto:hailiang DOT mei AT nbic DOT nl](Hailiang "Leon" Mei) spoke on *[NBIC Galaxy deployment](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).*  [NBIC Galaxy (Andromeda)](http://galaxy.nbic.nl/) was migrated to a HPC cloud hosted by Surfsara in September 2012. Leon discussed the setup of this HPC cloud and the architecture of NBIC Galaxy and shared their experiences installing the NBIC Galaxy using the Cloudman scripts. The presentation finished with a list of issues and our possible future plans. [Dan Blankenberg](/src/Dan/index.md) also discussed the new Galaxy release process, and the upcoming Data Manager enhancements.
 
 
 ### GalaxyAdmins Future Directions
@@ -314,14 +314,14 @@ Some starting topics for discussion are on the [GalaxyAdmins Future Directions p
 
 * What should the group's goals and activities be?
 * What type of leadership structure should the group have, and how should it be selected?
- 
+
 The discussion, however, is wide open to any topic relevant to the group.  If you have any opinions or suggestions please reply to the group.  Anyone with an interest in the group is encouraged to post.
 
 Once the discussion settles, we will [summarize the discussion](http://bit.ly/11cECs9) on [the wiki page](/src/Community/GalaxyAdmins/Future/index.md) and suggest an action plan for making those things happen.
 
 ## Galaxy Distributions
 
-<div class='right'><a href='http://galaxyproject.org'><img src='/Images/NewsGraphics/2013_04_01_granular-galaxy-utilities.png' alt='tool shed' width=350 /></a></div>
+<div class='right'><a href='http://galaxyproject.org'><img src="/src/Images/NewsGraphics/2013_04_01_granular-galaxy-utilities.png" alt="tool shed" width=350 /></a></div>
 
 **[April 1, 2013 Distribution](/src/DevNewsBriefs/2013_04_01/index.md)**
 
@@ -333,7 +333,7 @@ Once the discussion settles, we will [summarize the discussion](http://bit.ly/11
 
 ## Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Tool Shed' width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 * [ctcf_analysis](http://bit.ly/Z6ii0k): computationally predict CTCF sites for a nucleotide sequence 
 * [interproscan_to_excel](http://bit.ly/12AF0nF): Convert interproscan raw or xml output to an Excel file 
@@ -343,8 +343,9 @@ Once the discussion settles, we will [summarize the discussion](http://bit.ly/11
 ## Other News
 
 * ["Galaxy for Core Facilities" ABRF talk slides now available](http://bit.ly/XNoVp1) 
-* The servers that power [/Main](/src/Main/index.md) were [relocated to their new room and building on March 14](/src/News/GalaxyProectServersDown20130314/index.md).
+* The servers that power [Main](/src/Main/index.md) were [relocated to their new room and building on March 14](/src/News/GalaxyProectServersDown20130314/index.md).
 * The Galaxy Project now [has a LinkedIn group](http://bit.ly/gxyLinkedIn).  Please consider joining. 
 * Several items relating to Galaxy have been approved for ISMB / ECCB 2013.  Will post as soon as there is a schedule.
 * [Documentation for dynamic job destinations](http://wiki.galaxyproject.org/Admin/Config/Jobs)
 * [Cloud-Based Image Analysis and Processing Toolbox](http://cloudimaging.blogspot.com/2013/03/imaging-workflows-in-galaxy.html?spref=tw)
+

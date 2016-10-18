@@ -6,7 +6,7 @@ title: January 2015 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the January *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -100,7 +100,7 @@ The new papers covered these topics:
 
 
 <br />
-[GCC2015 Training Day](http://gcc2015.tsl.ac.uk/training-day/) topics are [nominated by you](http://bit.ly/gcc2015tdnom), the Galaxy Community.  Please take a few minutes to nominate a topic.  Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic. If you are looking for ideas, see what topics were nominated in [2013](http://bit.ly/1i2j1gN) and [2014](http://bit.ly/1s6NtMN), and the [/Events](/src/Events/index.md) and the [Events Archives](/src/Events/Archive/index.md).
+[GCC2015 Training Day](http://gcc2015.tsl.ac.uk/training-day/) topics are [nominated by you](http://bit.ly/gcc2015tdnom), the Galaxy Community.  Please take a few minutes to nominate a topic.  Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic. If you are looking for ideas, see what topics were nominated in [2013](http://bit.ly/1i2j1gN) and [2014](http://bit.ly/1s6NtMN), and the [Events](/src/Events/index.md) and the [Events Archives](/src/Events/Archive/index.md).
 
 Nominated topics will be published on the [Training Day](http://gcc2015.tsl.ac.uk/training-day/) page as they come in.  **Nominations close 6 January**.  Topics will be compiled into a uniform list by the [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers), and topics will be voted on by the Galaxy Community 12-23 January.
 
@@ -108,7 +108,7 @@ Topics will then be selected and scheduled based on topic interest, and the orga
 
 [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers)
 
-<div class='right'><a href='http://gcc2015.tsl.ac.uk/'><img src='/Images/Logos/GCC2015LogoWide600.png' alt='2015 Galaxy Community Conference (GCC2015)' width="250" /></a></div>
+<div class='right'><a href='http://gcc2015.tsl.ac.uk/'><img src="/src/Images/Logos/GCC2015LogoWide600.png" alt="2015 Galaxy Community Conference (GCC2015)" width="250" /></a></div>
 
 ### Call for Sponsors
 
@@ -116,19 +116,19 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is n
 
 Several sponsorship levels are available, including two levels of premier sponsorships that include presentations.  Premium sponsorships are limited, however, so you are encouraged to act soon.
 
-Please let the GCC2015 Organising Committee ([gcc2015-org AT lists DOT galaxyproject DOT org](gcc2015-org AT lists DOT galaxyproject DOT org)) know if you are interested in helping make this event a success.
+Please let the GCC2015 Organising Committee ([mailto:gcc2015-org AT lists DOT galaxyproject DOT org](gcc2015-org AT lists DOT galaxyproject DOT org)) know if you are interested in helping make this event a success.
 
 
 ## Other Events
 
 <div class='center'> 
-<a href='https://pag.confex.com/pag/xxiii/webprogram/Session2641.html'><img src='/Images/Logos/PAGLogo114.png' alt='Galaxy @ Plant and Animal Genome (PAG 2015)' height="80" /></a>
-<a href='/Events/SDSU2014'><img src='/Images/Logos/SDSULogo.jpg' alt='Galaxy Workshops @ San Diego State University' height="80" /></a> &nbsp;
-<a href='http://www.vibconferences.be/event/revolutionizing-next-generation-sequencing-tools-and-technologies'><img src='/Images/Logos/VIBLogoBig.jpg' alt='Revolutionizing Next-Generation Sequencing: Tools and Technologies' height="75" /></a> &nbsp;
-<a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'><img src='/Images/Logos/SupAgroMontpelierLogo.jpg' alt='Analyse bioinformatique de séquences sous Galaxy' height="60" /></a>
+<a href='https://pag.confex.com/pag/xxiii/webprogram/Session2641.html'><img src="/src/Images/Logos/PAGLogo114.png" alt="Galaxy @ Plant and Animal Genome (PAG 2015)" height="80" /></a>
+<a href='/src/Events/SDSU2014/index.md'><img src="/src/Images/Logos/SDSULogo.jpg" alt="Galaxy Workshops @ San Diego State University" height="80" /></a> &nbsp;
+<a href='http://www.vibconferences.be/event/revolutionizing-next-generation-sequencing-tools-and-technologies'><img src="/src/Images/Logos/VIBLogoBig.jpg" alt="Revolutionizing Next-Generation Sequencing: Tools and Technologies" height="75" /></a> &nbsp;
+<a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'><img src="/src/Images/Logos/SupAgroMontpelierLogo.jpg" alt="Analyse bioinformatique de séquences sous Galaxy" height="60" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div>
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div>
 
 There are [upcoming events](/src/Events/index.md) on two continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -143,19 +143,19 @@ There are [upcoming events](/src/Events/index.md) on two continents.  See the [G
     <th> January 10-14 </th>
     <td> </em>Galaxy for SNP and Variant Data Analysis<em> </td>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXIII (PAG2014)</a>, San Diego, California, United States </td>
-    <td> <a href='/DaveClements'>Dave Clements</a> </td>
+    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 15 </th>
-    <td> </em><a href='/Events/SDSU2014'>Galaxy Workshops</a><em> </td>
+    <td> </em><a href='/src/Events/SDSU2014/index.md'>Galaxy Workshops</a><em> </td>
     <td> <a href='http://sdsu.edu/'>San Diego State University</a>, San Diego, California, United States </td>
-    <td> <a href='/DaveClements'>Dave Clements</a> </td>
+    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 15-16 </th>
     <td> </em>Accessible and Reproducible Genomics at Scale with Galaxy<em> </td>
     <td> <a href='http://www.vibconferences.be/event/revolutionizing-next-generation-sequencing-tools-and-technologies'>Revolutionizing Next-Generation Sequencing: Tools and Technologies</a>, Leuven, Belgium </td>
-    <td> <a href='/JamesTaylor'>James Taylor</a> </td>
+    <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> January 19-20 </th>
@@ -173,7 +173,7 @@ There are [upcoming events](/src/Events/index.md) on two continents.  See the [G
     <th rowspan=3> February 16-18 </th>
     <td> </em>Accessible and Reproducible Large-Scale Analysis with Galaxy<em> </td>
     <td rowspan=1> <a href='http://www.triconference.com/Sequencing-Analysis/'>Genome and Transcriptome Analysis</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
-    <td> <a href='/JamesTaylor'>James Taylor</a> </td>
+    <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <td> </em>Large-Scale NGS data Analysis on Amazon Web Services Using Globus Genomic<em> </td>
@@ -188,7 +188,7 @@ There are [upcoming events](/src/Events/index.md) on two continents.  See the [G
     <th> May 25-29 </th>
     <td> <a href='http://www.mipro.hr/MIPRO2015.DCVIS/ELink.aspx'>MIPRO</a> </td>
     <td> Opatija, Croatia </td>
-    <td> <a href='/EnisAfgan'>Enis Afgan</a> </td>
+    <td> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> July 6-8 </th>
@@ -201,7 +201,7 @@ There are [upcoming events](/src/Events/index.md) on two continents.  See the [G
 
 # GalaxyAdmins is back!
 
-<div class='right'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins is back!' width="150" /></a></div>
+<div class='right'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins is back!" width="150" /></a></div>
 
 *We just don't know exactly when, yet ...*
 
@@ -223,7 +223,7 @@ The likely presentation for the January meetup will be a summary of the Galaxy C
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/src/GalaxyIsHiring/index.md'><img src="/src/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -243,7 +243,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## MetaNET
 
-<div class='right solid'><a href='http://metanet.osdd.net/'><img src='/PublicGalaxyServers/MetaNETLogo200.png' alt='MetaNET'  /></a></div>
+<div class='right solid'><a href='http://metanet.osdd.net/'><img src="/src/PublicGalaxyServers/MetaNETLogo200.png" alt="MetaNET"  /></a></div>
 * *Links:*
   * [MetaNET server](http://metanet.osdd.net/)
   * [MetaNET - a web-accessible interactive platform for biological metabolic network analysis](http://dx.doi.org/10.1186/s12918-014-0130-2), by Pankaj Narang, Shawez Khan, Anmol J. Hemrom, Andrew M. Lynn, *BMC Systems Biology,* Vol. 8, No. 1. (5 December 2014), doi:10.1186/s12918-014-0130-2
@@ -261,7 +261,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## VectorBase Galaxy
 
-<div class='right solid'><a href='http://galaxy.vectorbase.org:8080/'><img src='/Images/Logos/VectorBaseLogoWithText.png' alt='VectorBase Galaxy' width=300 /></a></div>
+<div class='right solid'><a href='http://galaxy.vectorbase.org:8080/'><img src="/src/Images/Logos/VectorBaseLogoWithText.png" alt="VectorBase Galaxy" width=300 /></a></div>
 
 * *Link:*
   * [Vectorbase Galaxy](http://galaxy.vectorbase.org:8080/)
@@ -281,14 +281,14 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <div class='solid'>
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Teach'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Teach/index.md'><img src="/src/Images/Logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Logs/index.md'><img src="/src/Images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/Teach/Resources#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/Community/Logs#add-a-log-page'>Share your experience</a> </em><a href='/Community/Logs#add-a-log-page'>now</a><em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/Community/Deployments#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/Community/Deployments#add-your-galaxy-deployment'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> <strong> </td>
   </tr>
 </table>
 
@@ -302,14 +302,13 @@ Several new [Training Resources](/src/Teach/Resources/index.md) were added in De
 * [Running your own Galaxy instance (in the cloud)](/src/Teach/Resource/CHBHarvardCloudMan/index.md) from the [Center for Health Bioinformatics](http://compbio.sph.harvard.edu/chb/) at the [Harvard School of Public Health](http://www.hsph.harvard.edu/) 
 * [Introduction to Galaxy](/src/Teach/Resource/CHBHarvardIntro/index.md) from the [Center for Health Bioinformatics](http://compbio.sph.harvard.edu/chb/) at the [Harvard School of Public Health](http://www.hsph.harvard.edu/)
 
-
 # New Releases
 
 [BioBlend v0.5.2 was released in October](/src/News/BioBlendV0.5.2/index.md).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  
 
 New versions of [Galaxy](/src/GalaxyUpdates/2014_09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were all released in August.
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 
@@ -401,16 +400,15 @@ In no particular order:
 * *From [mrvollger](https://toolshed.g2.bx.psu.edu/view/mrvollger):*
   * [package_trtr_0_1](https://toolshed.g2.bx.psu.edu/view/mrvollger/package_trtr_0_1): Trim Reads of Tandem Repeat in a fastq file. This tool removes tandem repeats from ends of unaligned sequencing reads (leaving one copy). This prevents reads that don't span the repeated region from overlapping and leading to inaccurate SNPs calls.
 
-
 ### Select Updates
 
 * *From [peterjc](https://toolshed.g2.bx.psu.edu/view/devteam):*
   * [ncbi_blast_plus](https://toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus): Uploaded v0.1.01 - Requires blastdbd datatype (blast_datatypes v0.0.19). Support for makeprofiledb to create protein domain databases and use them in RPS-BLAST and RPS-TBLASTN. Tools now support GI and SeqID filters, and embed the citations.
 
-
 # Other News
 
 * [Bioinformatics WikiBook Collaborative Workshop](http://bit.ly/15PpUxA) 24-26 February at TGAC.  And we encourage contributions [about Galaxy](http://bit.ly/1zS0PuW) to the [NGS WikiBook](http://bit.ly/NGSWikiBook).
 * [PDACS: a portal for data analysis services for cosmological simulations](http://bit.ly/1s0gMLe), Chard *et al.*  *PDACS is a Galaxy implementation for cosmology.* And PDACS slides are [here](http://bit.ly/1pYSlSN).  
-* Just scheduled: Intro to variant calling for pathologists and laboratory managers, Sydney, 22 June. [Ross Lazarus](/RossLazarus) & Andrew Lonie
+* Just scheduled: Intro to variant calling for pathologists and laboratory managers, Sydney, 22 June. [Ross Lazarus](/src/RossLazarus/index.md) & Andrew Lonie
 * [ASH: A Galaxy VM](http://bit.ly/ASH_VM) from Erasmus Medical Centre for Automated Selection of Hotspots in cancer.
+

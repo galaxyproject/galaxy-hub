@@ -9,7 +9,7 @@ title: February 2012 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the inaugural edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a (mostly) monthly summary of what is going on in the Galaxy community.  Galaxy Updates will complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -27,11 +27,11 @@ Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, r
 
 ## New Public Server: MGTAXA
 
-[MGTAXA, a free Galaxy server at JCVI for metagenomic taxonomy prediction](http://mgtaxa.jcvi.org/) was added to the list of [/Public Galaxy Servers](/Public Galaxy Servers) in January.  Many thanks to JCVI and the MGTAXA team for making this publicly available.
+[MGTAXA, a free Galaxy server at JCVI for metagenomic taxonomy prediction](http://mgtaxa.jcvi.org/) was added to the list of [Public Galaxy Servers](/src/PublicGalaxyServers/index.md) in January.  Many thanks to JCVI and the MGTAXA team for making this publicly available.
 
 ## Who's Hiring
 
-* [Galaxy is Hiring](/News/Galaxy is Hiring) 
+* [Galaxy is Hiring](/src/News/Galaxy is Hiring/index.md) 
   * system administrators at Penn State
   * software engineers and post-docs at Emory
 * [Bioinformatics Support Provider](http://bit.ly/w6OIM0) with Galaxy experience @ [Wellcome Trust Centre for Cell Biology, University of Edinburgh](http://www.wcb.ed.ac.uk/) 
@@ -39,13 +39,14 @@ Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, r
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll include it in next month's update.
 
 <div class='right'>
-<a href='/gmod:April 2012 GMOD Meeting'><img src='/Images/Logos/GMODApril2012Logo.png' alt='April 2012 GMOD Meeting' height=100 /></a>&nbsp;&nbsp; <a href='http://www.iscb.org/ismb2012'><img src='/Images/Logos/ISMB2012.jpg' alt='ISMB 2012' height=105 /></a>&nbsp;&nbsp; <a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' height="100" /></a>
+<a href='/src/gmod:April 2012 GMOD Meeting/index.md'><img src="/src/Images/Logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; <a href='http://www.iscb.org/ismb2012'><img src="/src/Images/Logos/ISMB2012.jpg" alt="ISMB 2012" height=105 /></a>&nbsp;&nbsp; <a href='/src/Events/GCC2012/index.md'><img src="/src/Events/GCC2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a>
 </div>
 
 ## Upcoming Events and Deadlines
 
 ### Deadlines
-<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
+
+<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
 
 There are upcoming deadlines for ISMB 2012 (workshops), DILS (abstracts), PSB (sessions), VizBI (posters), and a Bio-Linux Course (application).  See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com) for details on these and other events.
 
@@ -64,7 +65,7 @@ Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/src/Ev
     <th> April 5-6 </th>
     <td> </strong><a href='http://gmod.org/wiki/April 2012 GMOD Meeting'>April 2012 GMOD Meeting</a><strong> </td>
     <td> Washington DC, immediately following <a href='http://pir.georgetown.edu/biocuration2012/'>Biocuration 2012</a> </td>
-    <td> <a href='/DaveClements'>Dave Clements</a> </td>
+    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> July 13-17 </th>
@@ -74,9 +75,9 @@ Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/src/Ev
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> </strong><a href='/Events/GCC2012'>2012 Galaxy Community Conference</a><strong> </td>
+    <td> </strong><a href='/src/Events/GCC2012/index.md'>2012 Galaxy Community Conference</a><strong> </td>
     <td> Chicago, Illinois, United States </td>
-    <td> <a href='/DaveClements'>Dave Clements</a> </td>
+    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
 </table>
 
@@ -102,13 +103,13 @@ There are still [Gold, Silver and Bronze level sponsorships](/src/Events/GCC2012
 
 ## New Distributions
 
-There were [two Galaxy distributions](/src/DevNewsBriefs/index.md) in January, The latest on [January 27](/News/Jan272012 Distribution News Brief).  Some highlights from the releases:
+There were [two Galaxy distributions](/src/DevNewsBriefs/index.md) in January, The latest on [January 27](/src/News/Jan272012 Distribution News Brief/index.md).  Some highlights from the releases:
 
 * Important metadata and Python 2.5 support corrections
 * [SAMtools](http://samtools.sourceforge.net/) upgraded for version 0.1.18. [Mpileup](http://samtools.sourceforge.net/mpileup.shtml) added.
 * Dynamic filtering, easy color options, and quicker indexing enhance [Trackster](/src/Learn/Visualization/index.md)
 * Set up your Galaxy instance to [run cluster jobs as the real user](/src/Admin/Config/Performance/Cluster/index.md), not the Galaxy owner
-* Improvements to metadata handling and searching in the [/Tool Shed](/Tool Shed)
+* Improvements to metadata handling and searching in the [Tool Shed](/src/Tool Shed/index.md)
 * Improved solutions for schema access, jobs management, & workflow imports and inputs.
 * New datatypes (Eland, XML), multiple tool enhancements, and bug fixes.
 * New Object Store data integration layer introduced
@@ -116,4 +117,4 @@ There were [two Galaxy distributions](/src/DevNewsBriefs/index.md) in January, T
 * Tool Shed installation features and many new community tool additions
 * Trackster performance upgrades and new drag & drop composite track creation 
 
-See the [January 27, 2012 release](/News/Jan272012 Distribution News Brief) for details on how to get the latest version of Galaxy.
+See the [January 27, 2012 release](/src/News/Jan272012 Distribution News Brief/index.md) for details on how to get the latest version of Galaxy.

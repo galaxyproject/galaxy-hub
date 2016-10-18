@@ -6,13 +6,13 @@ title: June 2014 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the June 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # Galaxy-User Being Retired June 6
 
-<div class='center'><a href='https://biostar.usegalaxy.org/'><img src='/Images/Logos/GalaxyBiostar.png' alt='Galaxy Biostar'  /></a><br />Join the conversation! Learn how [here](/src/Support/Biostar/index.md).</div>
+<div class='center'><a href='https://biostar.usegalaxy.org/'><img src="/src/Images/Logos/GalaxyBiostar.png" alt="Galaxy Biostar"  /></a><br />Join the conversation! Learn how [here](/src/Support/Biostar/index.md).</div>
 <br />
 
 The *[Galaxy Biostar](https://biostar.usegalaxy.org)* online forum was launched April 23 as a replacement for the Galaxy-User [mailing list](/src/MailingLists/index.md).  
@@ -28,7 +28,7 @@ Thanks for making Galaxy Biostar, and Galaxy-User before it, such a great resour
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-<div class='right'><a href='/Events/GCC2014'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="150" /></a></div>
+<div class='right'><a href='/src/Events/GCC2014/index.md'><img src="/src/Images/Logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="150" /></a></div>
 
 **The [2014 Galaxy Community Conference (GCC2014)](/src/Events/GCC2014/index.md) will start one month from today, June 30, and run through July 2,** at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
@@ -47,7 +47,7 @@ The conference is still accepting [late abstract submissions](/src/Events/GCC201
 ### Sponsorships and Exhibitors
 
 <div class='right'>
-<a href='http://www.penguincomputing.com/'><img src='/Images/Logos/PenguinComputing.png' alt='Penguin Computing' width="170" /></a>
+<a href='http://www.penguincomputing.com/'><img src="/src/Images/Logos/PenguinComputing.png" alt="Penguin Computing" width="170" /></a>
 </div>
 
 We are happy to have [Penguin Computing](http://www.penguincomputing.com/) as a GCC2014 Silver Sponsor. Penguin, like all [Platinum, Gold, and Silver Sponsors](/src/Events/GCC2014/SponsorExhibit/index.md) will have a table at GCC2104.
@@ -58,7 +58,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/Spon
 
 ### Galaxy Hackathon at GCC2014
 
-<div class='left'><a href='/Events/GCC2014/Hackathon'><img src='/Images/Logos/GCC2014HackLogoSquare.png' alt='GCC2014 Hackathon' width="150" /></a></div>
+<div class='left'><a href='/src/Events/GCC2014/Hackathon/index.md'><img src="/src/Images/Logos/GCC2014HackLogoSquare.png" alt="GCC2014 Hackathon" width="150" /></a></div>
 
 The very first [Galaxy Project Hackathon](/src/Events/GCC2014/Hackathon/index.md) will take place at Johns Hopkins immediately preceding [GCC2014](/src/Events/GCC2014/index.md) from starting June 28th.
 
@@ -68,25 +68,25 @@ Participation in the hackathon itself is completely free, but there's limited sp
 
 To help organize ideas and people into more concrete projects, we've also set up a [hackathon-specific Trello board](https://trello.com/b/3YgU637b/gcc2014-hackathon) that we'd love for everyone to go ahead and [start using it](https://trello.com/b/3YgU637b/gcc2014-hackathon).  The board is public and open to commentary and voting, but to create new cards you’ll need to be added as a member so please note the instructions on the board for that.
 
-<div class='right'><a href='http://aws.amazon.com'><img src='/Images/Logos/AWSLogo1280.jpg' alt='Amazon Web Services' width="150" /></a></div>
+<div class='right'><a href='http://aws.amazon.com'><img src="/src/Images/Logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="150" /></a></div>
 
 Finally, we are happy to have [Amazon Web Services](http://aws.amazon.com) on board as the Cloud Infrastructure sponsor for the GCC2014 Hackathon!  
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
 
 There are [at least 13 other Galaxy related events](/src/Events/index.md) in the next two months in Thailand, Canada, France, the United States, Italy, the Netherlands, Australia, and Brazil. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
 <div class='center'> 
-<a href='http://abims.sb-roscoff.fr/formation'><img src='/Images/Logos/ABiMSLogo.png' alt='ABiMS' height="50" /></a>
-<a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'><img src='/Images/Logos/CanadianBioinfWorkshopsLog.png' alt='Informatics on High Throughput Sequencing Data Workshop' height=80 /></a>&nbsp;
-<a href='/Events/ASMS2014'><img src='/Images/Logos/ASMSLogo.png' alt='62nd ASMS Conference on Mass Spectrometry and Allied Topics' height="80" /></a>
-<a href='http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/'><img src='/Images/Logos/UCDavisGenomeCenterLogo.jpg' alt='Using Galaxy for Analysis of High Throughput Sequence Data @ UC Davis Bioinformatics Core' height="80" /></a> &nbsp;
-<a href='http://www.bioinformatica.crs4.it/next_generation_sequencing_course_with_galaxy_june_2014'><img src='/Images/Logos/CRS4Logo.jpg' alt='Analisi dati Next Generation Sequencing in Galaxy' width="130" /></a> &nbsp;
-<a href='/Events/GCC2014'><img src='/Images/Logos/GCC2014LogoWide200.png' alt='GCC2014 registration ends June 6' height="75" /></a>&nbsp;
+<a href='http://abims.sb-roscoff.fr/formation'><img src="/src/Images/Logos/ABiMSLogo.png" alt="ABiMS" height="50" /></a>
+<a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'><img src="/src/Images/Logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height=80 /></a>&nbsp;
+<a href='/src/Events/ASMS2014/index.md'><img src="/src/Images/Logos/ASMSLogo.png" alt="62nd ASMS Conference on Mass Spectrometry and Allied Topics" height="80" /></a>
+<a href='http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/'><img src="/src/Images/Logos/UCDavisGenomeCenterLogo.jpg" alt="Using Galaxy for Analysis of High Throughput Sequence Data @ UC Davis Bioinformatics Core" height="80" /></a> &nbsp;
+<a href='http://www.bioinformatica.crs4.it/next_generation_sequencing_course_with_galaxy_june_2014'><img src="/src/Images/Logos/CRS4Logo.jpg" alt="Analisi dati Next Generation Sequencing in Galaxy" width="130" /></a> &nbsp;
+<a href='/src/Events/GCC2014/index.md'><img src="/src/Images/Logos/GCC2014LogoWide200.png" alt="GCC2014 registration ends June 6" height="75" /></a>&nbsp;
 </div>
 
 <table>
@@ -126,9 +126,9 @@ There are [at least 13 other Galaxy related events](/src/Events/index.md) in the
   </tr>
   <tr>
     <th> June 15-19 </th>
-    <td> </strong><a href='/Events/ASMS2014'>62nd ASMS Conference on Mass Spectrometry and Allied Topics</a><strong><div class='indent'>Including at least 5 workshop/talk/posters</div> </td>
+    <td> </strong><a href='/src/Events/ASMS2014/index.md'>62nd ASMS Conference on Mass Spectrometry and Allied Topics</a><strong><div class='indent'>Including at least 5 workshop/talk/posters</div> </td>
     <td> Baltimore, Maryland, United States </td>
-    <td> See <a href='/Events/ASMS2014'>presenter list</a> </td>
+    <td> See <a href='/src/Events/ASMS2014/index.md'>presenter list</a> </td>
   </tr>
   <tr>
     <th> June 16 </th>
@@ -160,14 +160,14 @@ There are [at least 13 other Galaxy related events](/src/Events/index.md) in the
   </tr>
   <tr>
     <th> June 28-30 </th>
-    <td> <a href='/Events/GCC2014/Hackathon'>Galaxy Hackathon</a> </td>
+    <td> <a href='/src/Events/GCC2014/Hackathon/index.md'>Galaxy Hackathon</a> </td>
     <td rowspan=2> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
-    <td> <a href='/Events/GCC2014/Organizers'>Organizers</a> </td>
+    <td> <a href='/src/Events/GCC2014/Organizers/index.md'>Organizers</a> </td>
   </tr>
   <tr>
     <th> June 30 -<br />July 2 </th>
-    <td> </strong><a href='/Events/GCC2014'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
-    <td> <a href='/Events/GCC2014/Organizers'>Organizers</a> </td>
+    <td> </strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
+    <td> <a href='/src/Events/GCC2014/Organizers/index.md'>Organizers</a> </td>
   </tr>
   <tr>
     <th> July 7-9 </th>
@@ -183,9 +183,9 @@ There are [at least 13 other Galaxy related events](/src/Events/index.md) in the
   </tr>
   <tr>
     <th> July 28 - August 1 </th>
-    <td> </em><a href='/Events/SaoPaulo2014'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a><em> </td>
+    <td> </em><a href='/src/Events/SaoPaulo2014/index.md'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a><em> </td>
     <td> <a href='http://usp.br/'>University of São Paulo (USP)</a>, São Paulo, Brazil </td>
-    <td> <a href='/DaveClements'>Dave Clements</a> </td>
+    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
 </table>
 
@@ -259,7 +259,7 @@ The new papers were tagged in many different areas:
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/src/GalaxyIsHiring/index.md'><img src="/src/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -277,7 +277,7 @@ One new [public Galaxy servers](/src/PublicGalaxyServers/index.md) was added to 
 
 ## deepTools
 
-<div class='right solid'><a href='http://deeptools.ie-freiburg.mpg.de/'><img src='/PublicGalaxyServers/deepTools.png' alt='deepTools Galaxy Server' width="200" /></a></div>
+<div class='right solid'><a href='http://deeptools.ie-freiburg.mpg.de/'><img src="/src/PublicGalaxyServers/deepTools.png" alt="deepTools Galaxy Server" width="200" /></a></div>
 
 * *Links:*
   * [deepTools](http://deeptools.ie-freiburg.mpg.de/) server
@@ -290,7 +290,7 @@ One new [public Galaxy servers](/src/PublicGalaxyServers/index.md) was added to 
 * *Comments:*
     deepTools offers multiple methods for highly-customizable data visualization that immensely aid hypothesis generation and data interpretation. It also offers all the tools needed to create coverage files in standard bedGraph and bigWig file formats allowing various normalization procedures and comparisons between two files (for example, treatment and control).
 * *User Support:*
-  * [deeptools@googlegroups.com](Email)
+  * [mailto:deeptools@googlegroups.com](Email)
   * [deepTools wiki](https://github.com/fidelram/deepTools/wiki)
 * *Quotas:* 
     20 GB for unregistered users, 30 GB for registered users
@@ -310,13 +310,13 @@ The most recent version of CloudMan was [released in January 2014](/src/News/Clo
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a></div>
-<div class='right'><a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/src/Community/Logs/index.md'><img src="/src/Images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='right'><a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/Community/Logs#add-a-log-page'>Share your experience</a> </em><a href='/Community/Logs#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/Community/Deployments#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/Community/Deployments#add-your-galaxy-deployment'>now</a><em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> </td>
   </tr>
 </table>
 
@@ -328,7 +328,7 @@ One new [deployment description](/src/Community/Deployments/index.md) was added 
 The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/src/Community/index.md)* were launched last your.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them.
 
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 
@@ -384,8 +384,8 @@ In no particular order:
 * *From [mb2013](http://toolshed.g2.bx.psu.edu/view/mb2013)*
   * [nepenthes_3dpca](http://toolshed.g2.bx.psu.edu/view/mb2013/nepenthes_3dpca): Tools for Principal Component Analysis
 
-* *From [pug](http://toolshed.g2.bx.psu.edu/view/pug/)*
-  * [abyss](http://toolshed.g2.bx.psu.edu/view/pug/abyss): abyss de novo assembler
+* *From [jade](http://toolshed.g2.bx.psu.edu/view/jade/)*
+  * [abyss](http://toolshed.g2.bx.psu.edu/view/jade/abyss): abyss de novo assembler
 
 * *From [fernando](http://toolshed.g2.bx.psu.edu/view/fernando/)*
   * [protein_funcional_analysis_similarities](http://toolshed.g2.bx.psu.edu/view/fernando/protein_funcional_analysis_similarities): Provides common characteristics among similar proteins.
@@ -443,13 +443,13 @@ In no particular order:
 * *From [stemcellcommons](http://toolshed.g2.bx.psu.edu/view/stemcellcommons)*
   * [macs2](http://toolshed.g2.bx.psu.edu/view/stemcellcommons/macs2): updated to include option to call broad peaks
 
-
 # Other News
+
 * [The Galaxy Docker Image Project](http://bit.ly/1iETpRg)
 
 ## usegalaxy.org offline May 31, 2014
 
-<div class='right'><a href='http://usegalaxy.org'><img src='/Images/Logos/UseGalaxyOrgLogoShadow200.png' alt='usegalaxy.org will be down 2014/05/31'  /></a></div>
+<div class='right'><a href='http://usegalaxy.org'><img src="/src/Images/Logos/UseGalaxyOrgLogoShadow200.png" alt="usegalaxy.org will be down 2014/05/31"  /></a></div>
 
 **Access to all [TACC](https://www.tacc.utexas.edu/)-based resources and services, including [usegalaxy.org](http://usegalaxy.org) and the [Galaxy Project Test Server](https://test.galaxyproject.org/), will be unavailable from 9 a.m. to 5 p.m., central US time, on Saturday, May ~~24~~ 31, 2014.** TACC staff will be performing an upgrade to the networking infrastructure. During this time, jobs will continue to run.
 

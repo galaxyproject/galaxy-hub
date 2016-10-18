@@ -1,6 +1,6 @@
 # GenomeSpace
 
-<div class='right'><a href='http://genomespace.org/'><img src='/Images/Logos/GenomeSpaceLogo.png' alt='GenomeSpace'  /></a></div>
+<div class='right'><a href='http://genomespace.org/'><img src="/src/Images/Logos/GenomeSpaceLogo.png" alt="GenomeSpace"  /></a></div>
 
 [GenomeSpace](http://genomespace.org/) bridges the gaps between [bioinformatics tools](http://genomespace.org/support/tools), [including Galaxy](http://genomespace.org/support/tools/galaxy), making it possible for you to move data smoothly between these tools, leveraging the available analyses and visualizations in each of these tools.  !GenomeSpace allows you to store your data files in the Amazon cloud and provides necessary file format transformations whenever you select an analysis or visualization within one of the tools.  
 
@@ -9,7 +9,6 @@
 * **[GenomeSpace Tools](http://genomespace.org/support/tools)**: A quick overview of the tools and applications available through !GenomeSpace, [including Galaxy](http://genomespace.org/support/tools/galaxy).
 
 * **[GenomeSpace Recipes](http://genomespace.org/support/guides/recipes)**: Short guides that provide outlines for performing specific common tasks.  These can help you get your hands on the !GenomeSpace functionality.
-
 
 ## For Developers
 
@@ -59,4 +58,4 @@ enable_openid = True
 
 ### Customizing GenomeSpace
 
-See [/Admin/Config/GenomeSpace](/src/Admin/Config/GenomeSpace/index.md).
+See [Admin/Config/GenomeSpace](/src/Admin/Config/GenomeSpace/index.md).

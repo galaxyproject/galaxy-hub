@@ -6,7 +6,7 @@ title: December 2013 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the December 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -27,7 +27,7 @@ The newly added servers are:
 
 ## OSDDlinux LiveGalaxy
 
-<div class='right solid'><a href='http://osddlinux.osdd.net:8001/'><img src='/PublicGalaxyServers/OSDDLinuxLiveGalaxyHomePage300.png' alt='OSDDlinux LiveGalaxy'  /></a></div>
+<div class='right solid'><a href='http://osddlinux.osdd.net:8001/'><img src="/src/PublicGalaxyServers/OSDDLinuxLiveGalaxyHomePage300.png" alt="OSDDlinux LiveGalaxy"  /></a></div>
 
 * *Links:*
   * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/), part of the [OSDD Portal](http://sysborg2.osdd.net).
@@ -37,14 +37,14 @@ The newly added servers are:
 * *Comments:*
     [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) integrates GPSR1.0, GPSR2.0 along with the [webservers](http://osddlinux.osdd.net/livew.php) and the [standalone software](http://osddlinux.osdd.net/stand.php) supported by OSDDlinux.  See the [complete list of tools and services](http://osddlinux.osdd.net/liveg) included in OSDDlinux !LiveGalaxy. 
 * *User Support:*
-    [Web form](http://crdd.osdd.net/osddlinux/feed.php) or [osddlinux AT gmail DOT com](Email)
+    [Web form](http://crdd.osdd.net/osddlinux/feed.php) or [mailto:osddlinux AT gmail DOT com](Email)
 * *Quotas:* 
 * *Sponsor(s):*
     The [Open Source Drug Discovery Project](http://www.osdd.net/) and the [OSDD Linux Project](http://osddlinux.osdd.net/) under the direction of [Dr. GPS Raghava](http://www.imtech.res.in/raghava/about.html) of the [CSIR-Institute of Microbial Technology (IMTECH)](http://www.imtech.res.in/).
 
 ## Dostie Lab Galaxy
 
-<div class='right solid'><a href='http://galaxy.bci.mcgill.ca/'><img src='/Images/Logos/McGillUniversityLogo.jpg' alt='Dostie Lab Galaxy @ McGill University'  /></a></div>
+<div class='right solid'><a href='http://galaxy.bci.mcgill.ca/'><img src="/src/Images/Logos/McGillUniversityLogo.jpg" alt="Dostie Lab Galaxy @ McGill University"  /></a></div>
 
 * *Link:*
     [Dostie Lab Galaxy](http://galaxy.bci.mcgill.ca/)
@@ -61,7 +61,7 @@ The newly added servers are:
 
 ## PreSTIGE
 
-<div class='right solid'><a href='http://prestige.case.edu/'><img src='/PublicGalaxyServers/PreSTIGE.png' alt='PreSTIGE' width="300" /></a></div>
+<div class='right solid'><a href='http://prestige.case.edu/'><img src="/src/PublicGalaxyServers/PreSTIGE.png" alt="PreSTIGE" width="300" /></a></div>
 
 * *Link:*
     [PreSTIGE](http://prestige.case.edu/)
@@ -71,7 +71,7 @@ The newly added servers are:
   * Users can generate predictions for any cell type of interest for which !H3K4me1 ChIP-seq and RNA-seq data are available.
   * See "[Combinatorial effects of multiple enhancer variants in linkage disequilibrium dictate levels of gene expression to confer susceptibility to common traits](http://genome.cshlp.org/content/early/2013/11/06/gr.164079.113.abstract)" by Corradin, *et al.*, *[Genome Research](http://genome.cshlp.org/)* (2013)
 * *User Support:*
-    [PreSTIGE User Guide](http://genetics.case.edu/prestige/misc/Scacheri_PreSTIGE_User_Guide.pdf), [olivia DOT corradin AT case DOT edu](Email)
+    [PreSTIGE User Guide](http://genetics.case.edu/prestige/misc/Scacheri_PreSTIGE_User_Guide.pdf), [mailto:olivia DOT corradin AT case DOT edu](Email)
 * *Quotas:* 
     Available for academic use only
 * *Sponsor(s):*
@@ -140,11 +140,12 @@ The newly added servers are:
 * "[BS-Seeker2: a versatile aligning pipeline for bisulfite sequencing data](http://dx.doi.org/10.1186/1471-2164-14-774)" by Guo, *et al.,* *BMC Genomics*, Vol. 14, No. 1. (10 November 2013), 774, doi:10.1186/1471-2164-14-774
 
 * "[Ten recommendations for creating usable bioinformatics command line software](http://dx.doi.org/10.1186/2047-217x-2-15)" by Torsten Seemann, *!GigaScience*, Vol. 2, No. 1. (2013), 15, doi:10.1186/2047-217x-2-15
+
 <br />
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/src/GalaxyIsHiring/index.md'><img src="/src/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -164,7 +165,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-<div class='right'><a href='/Events/GCC2014'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="150" /></a></div>
+<div class='right'><a href='/src/Events/GCC2014/index.md'><img src="/src/Images/Logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="150" /></a></div>
 
 The [2014 Galaxy Community Conference (GCC2014)](/src/Events/GCC2014/index.md) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
@@ -178,13 +179,13 @@ Watch the [Galaxy Mailing Lists](/src/MailingLists/index.md) for announcements a
 
 ### Sponsorships
 
-<div class='left'><a href='http://lifetech.com/'><img src='/Images/Logos/IonTorrentLogo340.png' alt='Ion Torrent by Life Technologies' width="170" /></a><br />
+<div class='left'><a href='http://lifetech.com/'><img src="/src/Images/Logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="170" /></a><br />
 </div>
 
 We are pleased to announce several [sponsorships](/src/Events/GCC2014/SponsorExhibit/index.md) for GCC2014.  First, [Ion Torrent](http://lifetech.com/) will again be the exclusive Platinum Sponsor for the annual Galaxy meeting.  This is the third year in a row that Ion Torrent has been the Platinum Sponsor of this event. 
 
 <br />
-<div class='right'><a href='http://bioteam.net/'><img src='/Images/Logos/BioTeamLogo154.gif' alt='BioTeam' width="120" /></a></div>
+<div class='right'><a href='http://bioteam.net/'><img src="/src/Images/Logos/BioTeamLogo154.gif" alt="BioTeam" width="120" /></a></div>
 
 We are also pleased to announce that [BioTeam](http://bioteam.net) will again be a [Gold Sponsor](/src/Events/GCC2014/SponsorExhibit/index.md) for this annual event.  This is the second year in a row that !BioTeam has been a GCC Gold Sponsor.
 
@@ -196,7 +197,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/Spon
 
 ## UC Davis Bioinformatics Boot Camps
 
-<div class='left'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src='/Images/Logos/UCDavisGenomeCenterLogo.jpg' alt='Boot Camps @ UC Davis Bioinformatics Core' width="60" /></a><br />
+<div class='left'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src="/src/Images/Logos/UCDavisGenomeCenterLogo.jpg" alt="Boot Camps @ UC Davis Bioinformatics Core" width="60" /></a><br />
 &nbsp;![Galaxy](/src/Images/Logos/galaxyLogoSymbol.png)</div>
 
 **There is still space in 3 of the 4 [UC Davis Bioinformatics Bootcamps](https://training.bioinformatics.ucdavis.edu/bootcamps/) this month.**
@@ -205,7 +206,7 @@ The [next offering of UC Davis Bioinformatics Bootcamps](https://training.bioinf
 
 These focused one-day courses are for researchers looking to get up to speed quickly on the latest technologies and techniques in bioinformatics. Students will work on their own laptops and have continued access to software and example data used in the exercises through a [public Amazon Web Services virtual machine](http://bioinformatics.ucdavis.edu/software/). The first three bootcamps will use the Galaxy platform, and the final bootcamp will use both Galaxy and the command-line. The Alignment and Assembly bootcamps (Dec. 11th & 12th) require you to know Galaxy, so if you are unfamiliar with Galaxy, you should also take the Introduction bootcamp on Dec. 10th.
 
-<div class='right'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src='/Images/Logos/UCDavisLogoSmall.gif' alt='UC Davis'  /></a></div>
+<div class='right'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src="/src/Images/Logos/UCDavisLogoSmall.gif" alt="UC Davis"  /></a></div>
 
    **Tuesday, December 10:**
       **[Introduction to Next-Generation Sequence Analysis with Galaxy](http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-introduction-to-next-generation-sequence-analysis-with-galaxy-december-10-2013/)**<br />
@@ -224,16 +225,16 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> There is a lot going on in the next three months. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> There is a lot going on in the next three months. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
 <div class='center'> 
-<a href='http://www.qfab.org/events/upcoming/'><img src='/Images/Logos/QFABLogo.png' alt='QFAB Workshops' height="80" /></a>
-<a href='http://www.ifb-galaxy.org/4dec2013.html'><img src='/Images/Logos/GalaxyIFB.png' alt='Galaxy Day' height="60" /></a>
-<a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src='/Images/Logos/UCDavisGenomeCenterLogo.jpg' alt='UC Davis Bioinformatics Bootcamps' height="70" /></a>
-<a href='http://www.intlpag.org/'><img src='/Images/Logos/PAGLogo114.png' alt='Plant and Animal Genome (PAG 2014)' height="80" /></a>
-<a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'><img src='/Images/Logos/GMOD2014.png' alt='2014 GMOD Meeting' height="70" /></a>
+<a href='http://www.qfab.org/events/upcoming/'><img src="/src/Images/Logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
+<a href='http://www.ifb-galaxy.org/4dec2013.html'><img src="/src/Images/Logos/GalaxyIFB.png" alt="Galaxy Day" height="60" /></a>
+<a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src="/src/Images/Logos/UCDavisGenomeCenterLogo.jpg" alt="UC Davis Bioinformatics Bootcamps" height="70" /></a>
+<a href='http://www.intlpag.org/'><img src="/src/Images/Logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2014)" height="80" /></a>
+<a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'><img src="/src/Images/Logos/GMOD2014.png" alt="2014 GMOD Meeting" height="70" /></a>
 </div>
 
 <table>
@@ -277,7 +278,7 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
     <th> December 11 </th>
     <td> </em><a href='https://wiki.nci.nih.gov/display/CBIITSpeakers/2013/11/14/December+11%3A+Dr.+Jeremy+Goecks%2C+Using+Galaxy+to+Understand+Cancer+Genomics'>Using Galaxy to Understand Cancer Genomics</a><em> </td>
     <td> <a href='http://www.cancer.gov/aboutnci/ncishadygrove'>National Cancer Institute</a>, Rockville, Maryland, United States </td>
-    <td> <a href='/JeremyGoecks'>Jeremy Goecks</a> </td>
+    <td> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th colspan=4> <span style="font-size: larger;"> 2014 </span> </th>
@@ -286,17 +287,17 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
     <th rowspan=2> January 11-15 </th>
     <td> </em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2298.html'>Galaxy for NGS Data Analysis: A Hands-on Computer Demo</a><em> </td>
     <td rowspan=2> </strong><a href='http://www.intlpag.org/'>Plant and Animal Genome XXII (PAG 2014)</a><strong>, San Diego, California, United States </td>
-    <td rowspan=1> <a href='/DaveClements'>Dave Clements</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
+    <td rowspan=1> <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
   </tr>
   <tr>
     <td> </em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>Galaxy Cloudman: A Gentle Introduction to Data Analysis on the Cloud</a><em><div class='indent'>Part of the <a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>GMOD Workshop</a></div> </td>
-    <td rowspan=1> <a href='/DaveClements'>Dave Clements</a>, <a href='http://gmod.org/wiki/User:Scott'>Scott Cain</a> </td>
+    <td rowspan=1> <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://gmod.org/wiki/User:Scott'>Scott Cain</a> </td>
   </tr>
   <tr>
     <th> January 16-17 </th>
     <td> <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'>2014 GMOD Meeting</a> </td>
     <td> San Diego, California, United States </td>
-    <td> <a href='/DaveClements'>Dave Clements</a>, <a href='http://gmod.org/wiki/User:Scott'>Scott Cain</a> </td>
+    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://gmod.org/wiki/User:Scott'>Scott Cain</a> </td>
   </tr>
   <tr>
     <th> February 10-14 </th>
@@ -308,13 +309,13 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
     <th> May 27 </th>
     <td> </em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a><em> </td>
     <td> <a href='http://www.mipro.hr/CallForPapers/tabid/176/language/en-US/Default.aspx'>MIPRO 2014</a>, Opatija, Croatia </td>
-    <td> <a href='/EnisAfgan'>Enis Afgan</a> </td>
+    <td> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 30 - July 2 </th>
-    <td> </strong><a href='/Events/GCC2014'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
+    <td> </strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
     <td> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
-    <td> <a href='/Events/GCC2014/Organizers'>Organizers</a> </td>
+    <td> <a href='/src/Events/GCC2014/Organizers/index.md'>Organizers</a> </td>
   </tr>
 </table>
 
@@ -325,7 +326,7 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
 **[Nov 04, 2013 Galaxy Distribution](/src/DevNewsBriefs/2013_11_04/index.md)**
 
 <div class='right'>
-<a href='/http:usegalaxy.org'><img src='/Images/NewsGraphics/2013_11_04_usegalaxy.org.jpg' alt='usegalaxy.org' width=300 /></a><br />**usegalaxy.org**</div>
+<a href='/src/http:usegalaxy.org/index.md'><img src="/src/Images/NewsGraphics/2013_11_04_usegalaxy.org.jpg" alt="usegalaxy.org" width=300 /></a><br />**usegalaxy.org**</div>
 <br />
 **Highlights:**
 
@@ -353,13 +354,13 @@ upgrade:   $ hg pull
 
 **[CloudMan](/src/News/CloudManRelease/index.md)**
 
-A new version of [/CloudMan](/src/CloudMan/index.md) was [released in July](/src/News/CloudManRelease/index.md).
+A new version of [CloudMan](/src/CloudMan/index.md) was [released in July](/src/News/CloudManRelease/index.md).
 
 <br />
 
 # ToolShed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 ## New Public ToolSheds
 
@@ -385,11 +386,12 @@ There were many...
 
 ## deepTools
 
-<div class='right solid'>![deepTools](/deepToolsCollage.png)</div>
+<div class='right solid'>![deepTools](/src/GalaxyUpdates/2013_12/deepToolsCollage.png)</div>
 
 [deepTools](http://toolshed.g2.bx.psu.edu/view/bgruening/deeptools) is a suite of tools that close the software gap between the very first steps of data processing of deeply sequenced data and biologically insightful downstream analyses. deepTools comprise efficient and reliable programs that enable users to perform quality controls and to generate bigWig files of normalised read coverages with different scaling approaches. Furthermore, the tools offer fast computation of coverages for user-specified genomic regions including their visualisation as meta-profiles and heatmaps. deepTools can be installed via the [ToolShed](http://toolshed.g2.bx.psu.edu/view/bgruening/deeptools) and source is at [GitHub](https://github.com/fidelram/deepTools/).
 
 # Other News
 
 * [bioblend 0.4.1](http://bit.ly/IhF6s2) CloudMan and Galaxy API library released 
-* New accounts on [/Main](/src/Main/index.md) now have to activate using the link sent to email address or they can't run jobs (includes upload).  Want to enable this on your own Galaxy instance?  See the [User Accounts Administration](/src/Admin/UserAccounts/index.md) page.
+* New accounts on [Main](/src/Main/index.md) now have to activate using the link sent to email address or they can't run jobs (includes upload).  Want to enable this on your own Galaxy instance?  See the [User Accounts Administration](/src/Admin/UserAccounts/index.md) page.
+

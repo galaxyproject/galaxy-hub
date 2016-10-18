@@ -1,4 +1,4 @@
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Main Tool Shed' height="174" /></a> </div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a> </div>
 
 # Tool Shed Articles by Greg Von Kuster
 
@@ -15,3 +15,4 @@ Here are the Tool Shed articles by Greg Von Kuster in order of publication.  [Fo
 9. [The Galaxy Tool Shed: Revisiting Best Practices for Populating a Repository](http://gregvonkuster.org/galaxy-tool-shed-revisiting-best-practices-populating-repository), March 3, 2014
 10. [The Galaxy Tool Shed: Building Tools with Dependencies in the Same Repository](http://gregvonkuster.org/galaxy-tool-shed-building-tools-dependencies-repository), March 8, 2014
 11. [The Galaxy Tool Shed: Building Tools with Dependencies in Separate Repositories](http://gregvonkuster.org/galaxy-tool-shed-building-tools-dependencies-separate-repositories), March 14, 2014
+

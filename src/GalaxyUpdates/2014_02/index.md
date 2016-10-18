@@ -6,7 +6,7 @@ title: February 2014 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the February 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -79,7 +79,7 @@ How those papers were tagged:
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/src/GalaxyIsHiring/index.md'><img src="/src/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -96,7 +96,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-<div class='right'><a href='/Events/GCC2014'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="150" /></a></div>
+<div class='right'><a href='/src/Events/GCC2014/index.md'><img src="/src/Images/Logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="150" /></a></div>
 
 The [2014 Galaxy Community Conference (GCC2014)](/src/Events/GCC2014/index.md) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
@@ -108,7 +108,7 @@ Early registration will open February 10.  The [Training Day](/src/Events/GCC201
 
 ### Sponsorships
 
-<div class='left'><a href='http://genomeweb.com'><img src='/Images/Logos/GenomeWebSmall.png' alt='GenomeWeb' width="180" /></a></div>
+<div class='left'><a href='http://genomeweb.com'><img src="/src/Images/Logos/GenomeWebSmall.png" alt="GenomeWeb" width="180" /></a></div>
 
 We are pleased to have [GenomeWeb](http://genomeweb.com) as a [Silver Sponsor](/src/Events/GCC2014/SponsorExhibit/index.md) for [GCC2014](/src/Events/GCC2014/index.md).  This is the first GCC that !GenomeWeb has sponsored.  Please welcome them.
 
@@ -122,11 +122,11 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/Spon
 
 **The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](http://australianbioinformatics.net/gaw-2014) will be held in Melbourne, Australia on 24 and 25th March 2014.** 
 
-<div class='right'><a href='http://australianbioinformatics.net/gaw-2014'><img src='/Images/Logos/GAW2014-200.png' alt='Galaxy Australasia Workshop 2014 (GAW2014)'  /></a></div>
+<div class='right'><a href='http://australianbioinformatics.net/gaw-2014'><img src="/src/Images/Logos/GAW2014-200.png" alt="Galaxy Australasia Workshop 2014 (GAW2014)"  /></a></div>
 
 The [Galaxy Australasia Workshop](http://australianbioinformatics.net/gaw-2014) is a great opportunity for you to participate in two full days of presentations, discussions, poster sessions, keynotes and lightning talks, all about ways of using Galaxy for high-throughput biology, imaging and other scientific applications. The workshop will also include Training Sessions taught by Galaxy developers and master users.  GAW 2014 will run 24 and 25th March, immediately preceding [Computational and Simulation Sciences and eResearch](http://wp.csiro.au/css/) in Melbourne.  GAW 2014 will also include poster session, keynote speakers.
 
-<div class='left'><a href='http://mcec.com.au/'><img src='/Events/GAW2014/MCC.png' alt='Melbourne Convention Centre' width=200 /></a></div>
+<div class='left'><a href='http://mcec.com.au/'><img src="/src/Events/GAW2014/MCC.png" alt="Melbourne Convention Centre" width=200 /></a></div>
 
 [Registration is open](http://australianbioinformatics.net/gaw-2014).  Registration is also *free, but space is limited.*
  
@@ -137,7 +137,7 @@ GAW 2014 will be held in Melbourne, Australia on 24 and 25th March 2014.  The fi
 ## GMOD Malaysia 2014
 
 <div class='right'>
-<a href='/gmod:GMOD_Malaysia_2014'><img src='/Images/Logos/GMODMalaysia615.png' alt='GMOD Malaysia 2014' width="200" /></a>
+<a href='/src/gmod:GMOD_Malaysia_2014/index.md'><img src="/src/Images/Logos/GMODMalaysia615.png" alt="GMOD Malaysia 2014" width="200" /></a>
 </div>
 
 **February 26-28, 2014, Kuala Lumpur, Malaysia.**
@@ -151,22 +151,22 @@ GMOD Malaysia is being held after the [Plant Genomics Congress](http://www.globa
 **[Application deadline: 12 February 2014](http://gmod.org/wiki/GMOD_Malaysia_2014#Details)**
 
 <div class='right'>
-<a href='http://nescent.org/'><img src='/Images/Logos/NESCentLogoBig.png' alt='GMOD Malaysia 2014' width="120" /></a>
+<a href='http://nescent.org/'><img src="/src/Images/Logos/NESCentLogoBig.png" alt="GMOD Malaysia 2014" width="120" /></a>
 </div>
 
 GMOD Malaysia 2014 is made possible by the generous support of the [National Evolutionary Synthesis Center (NESCent)](http://nescent.org) and the [NESCent Ambassador program](http://ambassadors.nescent.org/about-2/). NESCent promotes the synthesis of information, concepts and knowledge to address significant, emerging, or novel questions in evolutionary science and its applications. NESCent supports research and education across disciplinary, institutional, geographic, and demographic boundaries. The NESCent Ambassador Program is NESCent’s primary international outreach program, and is supported by a three-year grant from the NSF.
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> There are several other [events of interest](/src/Events/index.md) in the next few months. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> There are several other [events of interest](/src/Events/index.md) in the next few months. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
 <div class='center'> 
-<a href='http://www.supagro.fr/web/pages/?idl=19&page=498&id_page=2666'><img src='/Images/Logos/SupAgroMontpelierLogo.jpg' alt='Analyse Bioinformatique de séquences pour l'amélioration des plantes' height="60" /></a>
-<a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'><img src='/Images/Logos/PRABILogo.png' alt='RNA-Seq & ChIP-Seq analysis course using Galaxy' height="60" /></a>
-<a href='/gmod:GMOD_Malaysia_2014'><img src='/Images/Logos/GMODMalaysia120.png' alt='GMOD Malaysia 2014' height="60" /></a>&nbsp;
-<a href='http://www.nowgen.org.uk/facilities/events/event.php?id=63'><img src='/Images/Logos/nowgenLogo180.png' alt='Introduction to NGS Bioinformatics' /></a>
+<a href='http://www.supagro.fr/web/pages/?idl=19&page=498&id_page=2666'><img src="/src/Images/Logos/SupAgroMontpelierLogo.jpg" alt="Analyse Bioinformatique de séquences pour l'amélioration des plantes" height="60" /></a>
+<a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'><img src="/src/Images/Logos/PRABILogo.png" alt="RNA-Seq & ChIP-Seq analysis course using Galaxy" height="60" /></a>
+<a href='/src/gmod:GMOD_Malaysia_2014/index.md'><img src="/src/Images/Logos/GMODMalaysia120.png" alt="GMOD Malaysia 2014" height="60" /></a>&nbsp;
+<a href='http://www.nowgen.org.uk/facilities/events/event.php?id=63'><img src="/src/Images/Logos/nowgenLogo180.png" alt="Introduction to NGS Bioinformatics" /></a>
 </div>
 
 <table>
@@ -198,13 +198,13 @@ GMOD Malaysia 2014 is made possible by the generous support of the [National Evo
     <th> February 12-15 </th>
     <td> <a href='http://www.agbt.org/'>Advances in Genome Biology and Technology (AGBT)</a> </td>
     <td> Marco Island, Florida, United States </td>
-    <td> <a href='/anton'>Anton Nekrutenko</a> </td>
+    <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> February 26-28 </th>
     <td> <a href='http://gmod.org/wiki/GMOD_Malaysia_2014'>GMOD Malaysia 2014</a> </td>
     <td> Kuala Lumpur, Malaysia </td>
-    <td> <a href='http://gmod.org/wiki/User:Girlwithglasses'>Amelia Ireland</a>, <a href='/DaveClements'>Dave Clements</a> </td>
+    <td> <a href='http://gmod.org/wiki/User:Girlwithglasses'>Amelia Ireland</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 27 </th>
@@ -214,21 +214,21 @@ GMOD Malaysia 2014 is made possible by the generous support of the [National Evo
   </tr>
   <tr>
     <th> March 24-25 </th>
-    <td> </strong><a href='/Events/GAW2014'>Galaxy Australasia Workshop 2014 (GAW2014)</a><strong> </td>
+    <td> </strong><a href='/src/Events/GAW2014/index.md'>Galaxy Australasia Workshop 2014 (GAW2014)</a><strong> </td>
     <td> Melbourne, Australia </td>
-    <td> <a href='/Events/GAW2014#organisers'>Organisers</a> </td>
+    <td> <a href='/src/Events/GAW2014/index.md#organisers'>Organisers</a> </td>
   </tr>
   <tr>
     <th> March 26-30 </th>
     <td> </em>Galaxy toolset for Drosophila genomics<em><div class='indent'>and one-on-one help in the Flybase Demonstrations Room</div> </td>
     <td> <a href='http://www.genetics-gsa.org/drosophila/2014/'>Drosophila Research Conference</a>, San Diego, California, United States </td>
-    <td> <a href='/anton'>Anton Nekrutenko</a>, <a href='/JenniferJackson'>Jen Jackson</a> </td>
+    <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/JenniferJackson/index.md'>Jen Jackson</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>
     <td> </em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a><em> </td>
     <td> <a href='http://www.mipro.hr/CallForPapers/tabid/176/language/en-US/Default.aspx'>MIPRO 2014</a>, Opatija, Croatia </td>
-    <td> <a href='/EnisAfgan'>Enis Afgan</a> </td>
+    <td> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 9-10 </th>
@@ -265,8 +265,9 @@ GMOD Malaysia 2014 is made possible by the generous support of the [National Evo
 Several new servers were added to [the list of publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) last month.
 
 ## Genomics Virtual Lab
+
  
-<div class='right solid'><a href='http://galaxy-tut.genome.edu.au'><img src='/PublicGalaxyServers/GenomicsVirtualLab.png' alt='Genomics Virtual Lab' height="220" /></a></div>
+<div class='right solid'><a href='http://galaxy-tut.genome.edu.au'><img src="/src/PublicGalaxyServers/GenomicsVirtualLab.png" alt="Genomics Virtual Lab" height="220" /></a></div>
 
 * *Link:*
     [Galaxy Tut](http://galaxy-tut.genome.edu.au/)
@@ -275,7 +276,7 @@ Several new servers were added to [the list of publicly accessible Galaxy server
 * *Comments:*
     Follow tutorials at [GVL Learn](https://genome.edu.au/wiki/Learn) and use [Galaxy Tut](http://galaxy-tut.genome.edu.au/)
 * *User Support:*
-    [help AT uq DOT edu DOT au](Email)
+    [mailto:help AT uq DOT edu DOT au](Email)
 * *Quotas:*
     50Gb 
 * *Sponsor(s):*
@@ -283,7 +284,7 @@ Several new servers were added to [the list of publicly accessible Galaxy server
 
 ## CTMM-TraIT Demo Galaxy
 
-<div class='right solid'><a href='http://galaxy.ctmm-trait.nl/'><img src='/PublicGalaxyServers/CTMM-TraIT.png' alt='CTMM-TraIT Demo Galaxy' width="300" /></a></div>
+<div class='right solid'><a href='http://galaxy.ctmm-trait.nl/'><img src="/src/PublicGalaxyServers/CTMM-TraIT.png" alt="CTMM-TraIT Demo Galaxy" width="300" /></a></div>
 
 * *Links:*
   * [CTMM-TraIT Demo Galaxy](http://galaxy.ctmm-trait.nl/)
@@ -295,14 +296,14 @@ Several new servers were added to [the list of publicly accessible Galaxy server
     * [CGtag: Complete Genomics Analysis Toolkit and Annotation in Galaxy](http://galaxy.ctmm-trait.nl/u/saskia-hiltemann/p/cgtag)
     * [Virtual Normal Analysis](http://galaxy.ctmm-trait.nl/u/saskia-hiltemann/p/virtual-normal-analysis)
 * *User Support:*
-    Please email questions to [s DOT hiltemann AT erasmusmc DOT nl](Saskia Hiltemann) 
+    Please email questions to [mailto:s DOT hiltemann AT erasmusmc DOT nl](Saskia Hiltemann) 
 * *Quotas:* 
 * *Sponsor(s):*
     This Galaxy Server was set up by the [Netherlands Bioinformatics Center (NBIC)](http://www.nbic.nl/) and is maintained by [CTMM-TraIT](http://ctmm-trait.nl/), running at [SurfSARA](http://www.surfsara.nl/) high-performance cloud. 
 
 ## PIPE-CLIP
 
-<div class='right solid'><a href='http://pipeclip.qbrc.org/'><img src='/PublicGalaxyServers/QBRCLogo.jpg' alt='QBRC Galaxy' width="300" /></a></div>
+<div class='right solid'><a href='http://pipeclip.qbrc.org/'><img src="/src/PublicGalaxyServers/QBRCLogo.jpg" alt="QBRC Galaxy" width="300" /></a></div>
 
 * *Links:*
   * [PIPE-CLIP](http://pipeclip.qbrc.org/)
@@ -321,7 +322,7 @@ Several new servers were added to [the list of publicly accessible Galaxy server
 
 The [most recent Galaxy Distribution was November 04, 2013](/src/DevNewsBriefs/2013_11_04/index.md).
 
-<div class='right'><br /><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
+<div class='right'><br /><a href='/src/CloudMan/index.md'><img src="/src/Images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
 
 ## January 2014 CloudMan Release
 
@@ -329,14 +330,14 @@ An update to Galaxy CloudMan was released in January. CloudMan offers an easy wa
 
 **This update brings a large number of updates and new features.**  See the [release announcement](/src/News/CloudManRelease201401/index.md) for the list.  For more details on the new features, see the the [CHANGELOG](https://bitbucket.org/galaxy/cloudman/src/tip/CHANGELOG.md?at=default) and for even more details see, *all [103 commit messages](https://bitbucket.org/galaxy/cloudman/commits/all?search=a6bf542%3Acc55ca9) from 4 contributors*.
 
-<div class='right'><br /><div class='right'><a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' width="180" /></a><br />
-<a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' width="180" /></a><br /><br /></div>
+<div class='right'><br /><div class='right'><a href='/src/Community/Logs/index.md'><img src="/src/Images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="180" /></a><br />
+<a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="180" /></a><br /><br /></div>
 <table>
   <tr>
-    <td style=" class="blue" "> &nbsp;&nbsp; <a href='/Community/Logs#add-a-log-page'>Share your experience</a> </em><a href='/Community/Logs#add-a-log-page'>now</a><em> &nbsp;&nbsp; </td>
+    <td style=" class="blue" "> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> &nbsp;&nbsp; </td>
   </tr>
   <tr>
-    <td style=" class="blue" "> &nbsp;&nbsp; <a href='/Community/Deployments#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/Community/Deployments#add-your-galaxy-deployment'>now</a><em> &nbsp;&nbsp; </td>
+    <td style=" class="blue" "> &nbsp;&nbsp; <a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> &nbsp;&nbsp; </td>
   </tr>
   <tr>
     <td style=" border: none; text-align: center;"> <span style="font-size: smaller;"> All the cool researchers are doing it! </span> </td>
@@ -364,7 +365,7 @@ bringing the number of log entries to 12.
 
 # ToolShed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 ## New Repositories in the Galaxy Project ToolShed
 
@@ -376,11 +377,11 @@ bringing the number of log entries to 12.
 
 <div class='right'>
 <br /> 
-<a href='http://www.johnshopkins.edu/'><img src='/Images/Logos/JohnsHopkinsLogoLarge.gif' alt='Johns Hopkins University' width="160" /></a><br /><br />
+<a href='http://www.johnshopkins.edu/'><img src="/src/Images/Logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins University" width="160" /></a><br /><br />
 
-<a href='http://www.psu.edu/'><img src='/Images/Logos/PennStateLogo.png' alt='Penn State University' width="160" /></a>
+<a href='http://www.psu.edu/'><img src="/src/Images/Logos/PennStateLogo.png" alt="Penn State University" width="160" /></a>
 
-<a href='http://www.gwu.edu/'><img src='/GalaxyIsHiring/gwlogo.png' alt='George Washington University' width="160" /></a>
+<a href='http://www.gwu.edu/'><img src="/src/GalaxyIsHiring/gwlogo.png" alt="George Washington University" width="160" /></a>
 </div>
 
 # Galaxy is now at Johns Hopkins and GWU (and Penn State!)
@@ -395,3 +396,4 @@ None of these moves should be particularly noticeable to the Galaxy community.  
 * [Galaxy RNA-Seq Analysis Tuxedo protocol video](http://www.youtube.com/watch?v=cQAuA3mtSWE):  [Video](http://www.youtube.com/watch?v=cQAuA3mtSWE) in Korean; [slides](http://www.slideshare.net/hongiiv/galaxy-rnaseq-analysis-tuxedo-protocol) in English
 * [bioblend 0.4.2 released](http://bit.ly/1m4FVDQ): CloudMan and Galaxy API library 
 * [Biocuration 2014](http://bit.ly/1eQdBj3) Workshops & Satellites announced, including [Data Curation in the age of hyperabundance](http://biocuration2014.events.oicr.on.ca/workshops).  
+

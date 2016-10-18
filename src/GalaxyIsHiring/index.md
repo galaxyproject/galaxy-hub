@@ -1,16 +1,16 @@
 ---
-title: Careers with the Galaxy Project, :,  Software Engineers and Postdoctoral Researchers
+title: Careers with the Galaxy Project: Software Engineers and Postdoctoral Researchers
 ---
 <div class='center'>![Galaxy wants YOU, damnit](/src/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png)</div>
 
 
 
 <div class='right'> 
-<a href='http://www.johnshopkins.edu/'><img src='/Images/Logos/JohnsHopkins.png' alt='Johns Hopkins University' width="160" /></a><br /><br />
+<a href='http://www.johnshopkins.edu/'><img src="/src/Images/Logos/JohnsHopkins.png" alt="Johns Hopkins University" width="160" /></a><br /><br />
 
-<a href='http://www.psu.edu/'><img src='/Images/Logos/PennStateLogo.png' alt='Penn State University' width="160" /></a>
+<a href='http://www.psu.edu/'><img src="/src/Images/Logos/PennStateLogo.png" alt="Penn State University" width="160" /></a>
 
-<a href='http://www.gwu.edu/'><img src='/gwlogo.png' alt='George Washington University' width="160" /></a>
+<a href='http://www.gwu.edu/'><img src="/src/GalaxyIsHiring/gwlogo.png" alt="George Washington University" width="160" /></a>
 </div>
 
 Working for the [Galaxy team](/src/GalaxyTeam/index.md) provides a rare opportunity to perform research and develop software at the leading edge of life sciences, genomics, data-intensive computing, and big data analytics.
@@ -21,8 +21,8 @@ Positions are available at:
 * [Johns Hopkins University](http://www.johnshopkins.edu/), Baltimore, MD (in the [lab of PI James Taylor](http://taylorlab.org/)) 
 * [Penn State University](http://psu.edu/), State College, PA (in the lab of [PI Anton Nekrutenko](http://bmb.psu.edu/directory/aun1))
 * [George Washington University](http://gwu.edu/), Washington, D.C. (in the lab of [PI Jeremy Goecks](http://jeremygoecks.com))
- 
-Interested?  We'd love to hear from you.  Please send your CV, a cover letter, and the names/e-mail addresses of three references to [gxyhiring AT galaxyproject DOT org](gxyhiring AT galaxyproject DOT org).  The Galaxy Project is committed to recruiting, supporting and fostering a diverse community. Johns Hopkins University, Penn State University and George Washington University are Equal Opportunity employers.
+
+Interested?  We'd love to hear from you.  Please send your CV, a cover letter, and the names/e-mail addresses of three references to [mailto:gxyhiring AT galaxyproject DOT org](gxyhiring AT galaxyproject DOT org).  The Galaxy Project is committed to recruiting, supporting and fostering a diverse community. Johns Hopkins University, Penn State University and George Washington University are Equal Opportunity employers.
 
 ## Software Engineers
 
@@ -31,7 +31,7 @@ We have a wide variety of active projects, current areas of expertise sought inc
 <div class='right'>
 <table>
   <tr>
-    <td style=" background-color: #4C5163;"> <a href='/DevNewsBriefs/2012_10_23#visualization_framework'>{{attachment:Images/NewsGraphics/2012_10_23_scatterplot-fullscreen.png|scatterplot visualization|width="180"}}|target="_blank"</a> <br />  <a href='/DevNewsBriefs/2012_09_07#user-interface-ui'>{{attachment:Images/NewsGraphics/2012_09_07_interactive-phylo-tree.png|interactive phylogenetic tree|width="180"}}|target="_blank"</a> <br />  <a href='/DevNewsBriefs/2012_01_27#galaxy-track-browser-gtb'>{{attachment:Images/NewsGraphics/2012_01_27_multi-track-filtering.png|dynamic track filtering|width="180"}}|target="_blank"</a> <br />  <a href='/DevNewsBriefs/2012_07_20#admin_genome_indexing'>{{attachment:Images/NewsGraphics/2012_07_20_main-page.png|reference genome index status|width="180"}}|target="_blank"</a> <br />  <a href='/DevNewsBriefs/2012_03_12#galaxy-track-browser-gtb'>{{attachment:Images/NewsGraphics/2012_03_12_trackster-encode.png|ENCODE data in Trackster|width="180"}}|target="_blank"</a> <br />  <a href='/DevNewsBriefs/2012_05_11#tools'>{{attachment:Images/NewsGraphics/2012_05_11_gatk-workflow.png|GATK Workflow visualization|width="180"}}|target="_blank"</a> </td>
+    <td style=" background-color: #4C5163;"> <a href='/src/DevNewsBriefs/2012_10_23/index.md#visualization_framework'>{{attachment:Images/NewsGraphics/2012_10_23_scatterplot-fullscreen.png</a> <br />  <a href='/src/DevNewsBriefs/2012_09_07/index.md#user-interface-ui'>{{attachment:Images/NewsGraphics/2012_09_07_interactive-phylo-tree.png</a> <br />  <a href='/src/DevNewsBriefs/2012_01_27/index.md#galaxy-track-browser-gtb'>{{attachment:Images/NewsGraphics/2012_01_27_multi-track-filtering.png</a> <br />  <a href='/src/DevNewsBriefs/2012_07_20/index.md#admin_genome_indexing'>{{attachment:Images/NewsGraphics/2012_07_20_main-page.png</a> <br />  <a href='/src/DevNewsBriefs/2012_03_12/index.md#galaxy-track-browser-gtb'>{{attachment:Images/NewsGraphics/2012_03_12_trackster-encode.png</a> <br />  <a href='/src/DevNewsBriefs/2012_05_11/index.md#tools'>{{attachment:Images/NewsGraphics/2012_05_11_gatk-workflow.png</a> </td>
   </tr>
 </table>
 
@@ -55,3 +55,4 @@ We are recruiting postdoctoral scholars with expertise in Bioinformatics and Com
 * **Vertebrate functional and evolutionary genomics**, particularly through the development of novel machine learning, data mining, and data integration methods incorporating genomic sequence and experimental data.
 * **Cancer genomics**, with a focus on developing tools and pipelines for integrative data analysis to enable personalized medicine.
 * And **numerous areas of biology** including genomic and epigenomic mechanisms of gene regulation, the role of transcription factors and chromatin structure in global gene expression, development, and differentiation.
+
