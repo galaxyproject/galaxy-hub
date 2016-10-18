@@ -1,5 +1,4 @@
-
-<div class='right'>![](/GalaxyTeam/dannon.jpg)</div>
+<div class='right'>![](/src/GalaxyTeam/dannon.jpg)</div>
 # Dannon Baker
 
 Dannon is a software engineer in the [Taylor Lab](http://taylorlab.org/) at [Johns Hopkins University](http://jhu.edu/). He is an active [member of the Galaxy project](/src/GalaxyTeam/index.md); Galaxy is a web-based platform for doing reproducible and transparent genomic research. Dannon's current efforts include work on a cloud computing deployment of Galaxy, and developing a flexible framework for automatic parallelism of tools within Galaxy. Dannon received his M.S. and B.S. in Computer Science from the Georgia Institute of Technology. 
@@ -24,5 +23,5 @@ Dannon is a software engineer in the [Taylor Lab](http://taylorlab.org/) at [Joh
   </tr>
 </table>
 
----
+----
 CategoryHomepage

@@ -16,17 +16,16 @@ Essentially, they are meant to be a 'view' of your data and not the data themsel
 
 Currently, data providers are only available for the file contents of a dataset.
 
-For more examples than are on this page, see [/DataProviders/Cookbook](/src/DataProviders/Cookbook/index.md).
+For more examples than are on this page, see [DataProviders/Cookbook](/src/DataProviders/Cookbook/index.md).
 
 
----
+----
 ## How to get data using DataProviders
 
 Currently, there are two entry points to data providers for datasets:
 * Programmtically (typically in a visualization template or other python script) by calling a datatype's `dataprovider`
   method and passing in (at a minimum) the dataset and the name of a particular format/dataprovider
 * Via the datasets API (which itself calls the `dataprovider` method)
-
 
 #### datatype.dataprovider
 
@@ -81,7 +80,7 @@ for array in dataset1.datatype.dataprovider( dataset1, 'column', column_types=ty
 #### The datasets API
 
 You can access data providers for a dataset via the datasets API by passing the provider name as an argument (for more
-information on how to use the API see [/Learn/API](/src/Learn/API/index.md)).
+information on how to use the API see [Learn/API](/src/Learn/API/index.md)).
 
 ```bash
 curl 'http://localhost:8080/api/datasets/86cf1d3beeec9f1c?data_type=raw_data&provider=column&limit=2&offset=1&api_key=cf8245802b54146014108216e815d6e4'
@@ -166,7 +165,7 @@ For interval datatypes:
 Other providers can be found within the datatype class definitions for datatypes included in Galaxy.
 
 
----
+----
 ## How to filter and format data using DataProviders
 
 Although still a work in progress, you can use several aspects of existing data providers to easily filter data both
@@ -209,7 +208,7 @@ ascii bell character)
 For more filters, see: [Filtering using calculations](/src/DataProviders/Cookbook/index.md#no2c_i_want_to_filter_my_data_using_a_calculation_-_not_regex)
 in the cookbook.
 
----
+----
 ## How to define a new DataProvider
 
 Since data providers are nothing more than fancy python generators, there are three ways to create a new data provider:
@@ -288,12 +287,13 @@ It's generally enough to use the settings of an existing provider, but you may w
 in addition to existing settings.
 
 
-For more examples than are on this page, see [/DataProviders/Cookbook](/src/DataProviders/Cookbook/index.md).
+For more examples than are on this page, see [DataProviders/Cookbook](/src/DataProviders/Cookbook/index.md).
 
 ```wiki comment
----
+----
 ## Troubleshooting
 
 #### Errors
+
 ```
 

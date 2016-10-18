@@ -1,14 +1,15 @@
 ---
 autotoc: true
-title: [DataProviders](/DataProvider),  Cookbook
+title: [DataProviders](/src/DataProvider/index.md) Cookbook
 ---
 
 <div class='left'></div>
 
-This is a collection of examples outlining both using and creating [/DataProviders](/src/DataProviders/index.md).
+This is a collection of examples outlining both using and creating [DataProviders](/src/DataProviders/index.md).
 
 ## Using existing providers
----
+
+----
 #### I want to paginate my incoming data
 
 You want to look at sets (or pages) of data points from your dataset 1000 at a time and have an easy way
@@ -40,8 +41,7 @@ Notes on limit and offset:
 * Negative offsets will be treated as offset = 0 (the beginning)
 * Offsets past the total number of lines/data in your dataset will return an empty list/generator (no errors)
 
-
----
+----
 #### I want to filter my data
 
 You want to only use data that contains the string 'exon' in the third column of your dataset data.
@@ -74,8 +74,7 @@ Notes on `regex_list`:
 * Under the hood, re.match is used for the filtering. It may be useful to try your expressions in a REPL if you have
   problems.
 
-
----
+----
 #### No, I want to filter my data using a calculation - not regex
 
 You can pass column-based filters into any dataprovider that is derived from `ColumnDataProvider` including
@@ -155,14 +154,14 @@ Note that this pattern does not play well with limit and offset.
 
 
 
----
+----
 #### I want to sort my data using a DataProvider
 
 Unfortunately, this is currently un-implemented. You can still however use the installed sort tool to sort the data
 into a new dataset before-hand or sort after the data have been provided in your client, script, or template.
 
 
----
+----
 #### My data has comment lines that don't start with '#'
 
 Many of the default behaviors of (text-based) DataProviders are configurable:
@@ -174,15 +173,14 @@ Many of the default behaviors of (text-based) DataProviders are configurable:
 * to include the original whitespace but remove the newline characters, set `strip_lines` to `False` *and*
   `strip_newlines` to `True`.
 
-
----
+----
 #### I want to use some data in a visualization template using python
 
-Most of the examples that use python both here and in [/DataProviders](/src/DataProviders/index.md) should be good starting points for
+Most of the examples that use python both here and in [DataProviders](/src/DataProviders/index.md) should be good starting points for
 visualizations in python.
 
 
----
+----
 #### I want to use some data in a visualization template using !JavaScript
 
 You want to get the data into javascript for use with a graphing library or some other javascript technology. There
@@ -228,7 +226,7 @@ jQuery's ajax framework - you can use whatever your comfortable with):
 
 
 
----
+----
 ## Defining new providers
 
 If you have a new datatype to add to Galaxy or you need functionality that none of the existing providers can give,
@@ -239,8 +237,7 @@ There are several ways to define new providers:
 * Compose a new provider from several other existing providers.
 * Create a new provider class.
 
-
----
+----
 #### I want an easy way to define a provider for a new format
 
 You have a new format with key/value pairs that:
@@ -248,6 +245,7 @@ You have a new format with key/value pairs that:
 * considers lines starting with a semicolon to be comments
 * each value in the key/value pair is a number or blank
 * and whitepace is important and should be kept in
+
 ```
 ; Some crazy format developed in the 80's for use with dot-matrix printers
 samples taken = 24
@@ -281,7 +279,7 @@ for pair in provide_columns_for_my_format( hda ):
 
 
 
----
+----
 #### I want to add my provider to a datatype
 
 You now want to add `provide_columns_for_my_format` to your new datatype `MyFormat`. In it's datatype class definition
@@ -319,7 +317,7 @@ start, end, and chrom values from various datatypes even though they may appear 
 
 
 
----
+----
 #### None of the existing providers do what I want - but I'd still like to keep it simple
 
 Another way of creating a new provider from existing providers is to compose one from the others.
@@ -343,7 +341,7 @@ When a fully formatted, filtered, and parsed datum is yielded from `dataprovider
 `dataprovider2` where it can be further formatted, filtered, or parsed.
 
 
----
+----
 #### I want to define a new DataProvider class
 
 This is the most powerful but complex ways to create a new data provider.
@@ -354,7 +352,7 @@ you'll be working with a data format where each datum is contained on a line, yo
 MAF format), you may want to start with the !BlockDataProvider.
 
 
----
+----
 #### I want the options my provider uses available over the API
 
 Settings:

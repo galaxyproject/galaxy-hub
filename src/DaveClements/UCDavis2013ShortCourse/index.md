@@ -2,7 +2,7 @@
 title: UC Davis 2013 Bioinformatics Short Course
 ---
 <div class='center'>
-<a href='http://training.bioinformatics.ucdavis.edu/docs/2013/09/short-course-2013/'><img src='/Images/Logos/UCDavisGenomeCenterLogo.jpg' alt='UC Davis Genome Center' /></a>
+<a href='http://training.bioinformatics.ucdavis.edu/docs/2013/09/short-course-2013/'><img src="/src/Images/Logos/UCDavisGenomeCenterLogo.jpg" alt="UC Davis Genome Center" /></a>
 </div>
 
 
@@ -10,10 +10,10 @@ title: UC Davis 2013 Bioinformatics Short Course
 
 
 <div class='deploymentbox'>
- Resource:: **[UC Davis 2013 Short Course](/Teach/Resource/UCDavis2013ShortCourse)**
+ Resource:: **[UC Davis 2013 Short Course](/src/Teach/Resource/UCDavis2013ShortCourse/index.md)**
  Types:: Tutorials, Datasets, VM, AMI
- Domains:: ***[Everything](#outline)* (almost)**
- Owners:: [jnfass AT ucdavis DOT edu](Joe Fass), [najoshi AT ucdavis DOT edu](Nikhil Joshi), [jjsli AT ucdavis DOT edu](Jessie Li), [mtbritton AT ucdavis DOT edu](Monica Britton), [bpdurbin AT phs DOT ucdavis DOT edu](Blythe Durbin-Johnson) 
+ Domains:: ***[Everything](/src/DaveClements/UCDavis2013ShortCourse/index.md#outline)* (almost)**
+ Owners:: [mailto:jnfass AT ucdavis DOT edu](Joe Fass), [mailto:najoshi AT ucdavis DOT edu](Nikhil Joshi), [mailto:jjsli AT ucdavis DOT edu](Jessie Li), [mailto:mtbritton AT ucdavis DOT edu](Monica Britton), [mailto:bpdurbin AT phs DOT ucdavis DOT edu](Blythe Durbin-Johnson) 
  Formats:: Slides, Web Pages, Documents  
  Date Created/Updated:: 2013/09 
 </div>
