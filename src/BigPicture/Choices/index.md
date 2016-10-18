@@ -26,13 +26,14 @@ Get a dedicated server pre-configured with a fully operational Galaxy instance. 
 
 Your choices depends upon your needs.  Here are the options depending on what you need:
 
+
 | |  [Main](/src/Main/index.md)  |  [Local](/src/Admin/GetGalaxy/index.md)  |  [Cloud](/src/Cloud/index.md)  |  [Appliance](http://www.bioteam.net/slipstream/galaxy-edition)  |  [Other](/src/PublicGalaxyServers/index.md)  | 
-| --- | ------------------- | ------------------------------- | --------------------- | -------------------------------------------------------------- | ----------------------------------- | 
-| Your data sets are moderately sized |  Yes  |  Yes  |  Yes  |  Yes  |  [?](../../Public Galaxy Servers)  | 
-| Your computational requirements are moderate |  Yes  |  Yes  |  Yes  |  Yes  |  [?](../../Public Galaxy Servers)  | 
-| You want to share your Galaxy objects with others |  Yes  |  Yes  |  Yes  |  Yes  |  [?](../../Public Galaxy Servers)  | 
-| All needed [Tools](/src/Tools/index.md) are [installed on Main](../../Admin/Tools/Tool Dependencies). |  Yes  |  ?  |  Yes  |  Yes |  [?](../../Public Galaxy Servers)  | 
-| Your data sets are very large |  No  |  ?  |  Yes  |  Yes  |  [?](../../Public Galaxy Servers)  | 
-| Your computational requirements are very large |  No  |  ?  |  Yes  |  Yes  |  [?](../../Public Galaxy Servers)  | 
-| You have absolute data security requirements |  No  |  Yes  |  Yes  |  Yes  |  [?](../../Public Galaxy Servers)  | 
+| --- | --------------------------- | --------------------------------------- | ----------------------------- | -------------------------------------------------------------- | ------------------------------------------- | 
+| Your data sets are moderately sized |  Yes  |  Yes  |  Yes  |  Yes  |  [?](/src/PublicGalaxyServers/index.md)  | 
+| Your computational requirements are moderate |  Yes  |  Yes  |  Yes  |  Yes  |  [?](/src/PublicGalaxyServers/index.md)  | 
+| You want to share your Galaxy objects with others |  Yes  |  Yes  |  Yes  |  Yes  |  [?](/src/PublicGalaxyServers/index.md)  | 
+| All needed [Tools](/src/Tools/index.md) are [installed on Main](/src/Admin/Tools/Tool Dependencies/index.md). |  Yes  |  ?  |  Yes  |  Yes |  [?](/src/PublicGalaxyServers/index.md)  | 
+| Your data sets are very large |  No  |  ?  |  Yes  |  Yes  |  [?](/src/PublicGalaxyServers/index.md)  | 
+| Your computational requirements are very large |  No  |  ?  |  Yes  |  Yes  |  [?](/src/PublicGalaxyServers/index.md)  | 
+| You have absolute data security requirements |  No  |  Yes  |  Yes  |  Yes  |  [?](/src/PublicGalaxyServers/index.md)  | 
 | No network transfer of data |  No  |  Yes  |  No  |  Yes  |  No  | 
