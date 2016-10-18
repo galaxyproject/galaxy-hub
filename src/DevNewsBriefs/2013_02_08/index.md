@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: February 8, ,,  2013 Galaxy News Brief
+title: February 8, 2013 Galaxy News Brief
 ---
 <div class='right'></div>
 
@@ -8,10 +8,11 @@ title: February 8, ,,  2013 Galaxy News Brief
 
 <br />
 # Get Galaxy
+
 *Please note new* **upgrade** *syntax*
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
@@ -38,7 +39,9 @@ title: February 8, ,,  2013 Galaxy News Brief
 <br />
 <br />
 # Improvements to Distribution Release Process
+
 ## THIS IS IMPORTANT, PLEASE READ BEFORE UPGRADING
+
 We have made some improvements to our release process, and because of this, you **must** include the new distribution release tag in your `hg update` command to upgrade to this distribution release:
 
 ```console
@@ -69,7 +72,8 @@ This process will not only allow us to deploy important bug fixes on to the `sta
 
 <br />
 # Tool Shed
-**[/Tool Shed](/Tool Shed)**
+
+**[Tool Shed](/src/Tool Shed/index.md)**
 
 ### New Tool Shed Features
 
@@ -90,7 +94,7 @@ The following new routes have been added to the Tool Shed:
 
 These allow for URLs that can be cited or shared, and viewing a repository will display it's sharable link.  Here's an example.
 
-![](/Images/NewsGraphics/2013_02_5-sharable.png)
+![](/src/Images/NewsGraphics/2013_02_5-sharable.png)
 
 Thanks to [Peter Cock](https://bitbucket.org/peterjc) for the contribution!
 
@@ -98,19 +102,19 @@ Thanks to [Peter Cock](https://bitbucket.org/peterjc) for the contribution!
 
 1. The ability to select multiple tool shed repositories for simultaneous installation has been reintroduced.  This feature was eliminated several months ago to allow for the implementation of repository dependencies.  Now choosing either of the options "Search for valid tools" or "Search for workflows" from a tool shed's pop-up menu as shown here...
 
-![](/Images/NewsGraphics/2013_02_1-toolshed-search.png)
+![](/src/Images/NewsGraphics/2013_02_1-toolshed-search.png)
 
 ...and entering a search string as shown here...
 
-![](/Images/NewsGraphics/2013_02_2-search-string.png)
+![](/src/Images/NewsGraphics/2013_02_2-search-string.png)
 
 ...will allow you to selectively install any of the repositories matching the search criteria.
 
-![](/Images/NewsGraphics/2013_02_3-select-to-install.png)
+![](/src/Images/NewsGraphics/2013_02_3-select-to-install.png)
 
 All repositories dependencies and tool dependencies that are defined for each repository selected for installation will be discovered and displayed in preparation for installation into your local Galaxy instance.  You can optionally elect to install these dependencies..
 
-![](/Images/NewsGraphics/2013_02_4-confirm-dependency-installation.png)
+![](/src/Images/NewsGraphics/2013_02_4-confirm-dependency-installation.png)
 
 ### Tool Shed Related Fixes
 
@@ -140,42 +144,52 @@ All repositories dependencies and tool dependencies that are defined for each re
 <br />
 # Data
 
-1. **Megablast** indexes for the divisions `nt`, `htgs`, and `wgs` have been updated on the public [/Main](/src/Main/index.md) Galaxy server dated `28jan2013`.
+1. **Megablast** indexes for the divisions `nt`, `htgs`, and `wgs` have been updated on the public [Main](/src/Main/index.md) Galaxy server dated `28jan2013`.
 2. **NGS Data Set-up** wiki updated and simplified. [View here...](http://wiki.galaxyproject.org/Admin/NGS Local Setup)
 3. **Rsync** server hosts download of the same `.loc` files used by the Galaxy team (to be used as additional examples, or starter files if you use our rsync reference genome data. [Read more...](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)
 
 <br />
 # CloudLaunch
+
 ### Update
+
 1. Change get_account_info to POST vs GET.
+
 ### Bug Fixes:
+
 2. #2 Adjust event triggers to prevent redundant (though harmless) get_account_info invocations.
 3. #3 Adjust Cluster List creation to *always* insert the "New Cluster" option.
 
 <br />
 # Workflows
+
 1. Exporting workflows:
   * Remove spurious header.
   * Add option to create workflow image.
 
 <br />
 # Histories
+
 1. Enable display icon button for queued, running jobs in the history panel.
 2. Show API errors for specific datasets as error-ed datasets in the history panel (api/histories/:id/contents?ids=...)
 
 <br />
 # Admin
+
 1. Have `run_functional_tests.sh` serve static files (images, javascript, etc.) to assist in testing client-side code.
 
 <br />
 # Framework
+
 1. Unified system genome builds, custom builds, build len files, and build two bit files into a single python structure. 
 2. Add function to get genome builds with or without build length information.
 3. Fix bugs so that the full build set (system + custom) is available via the API and when adding datasets to libraries.
 
 <br />
 # Source
+
 ### Pull Requests Merged
+
 1. Fixing database v108 downgrade failure, pull request **[#109](https://bitbucket.org/galaxy/galaxy-central/pull-request/109)**. Thanks to [Kyle Ellrott](https://bitbucket.org/kellrott).
 2. Paired-end code mishandles description of FASTQ headers, pull request **[#8](https://bitbucket.org/galaxy/galaxy-central/pull-request/8)**. Thanks to [fangly](https://bitbucket.org/fangly).
 3. Fix Add/Remove buttons for Repeat groups, pull request **[#24](https://bitbucket.org/galaxy/galaxy-central/pull-request/24)**. Thanks to [epaniagu](https://bitbucket.org/epaniagu).
@@ -194,30 +208,38 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 <br />
 # Bug Fixes and related Enhancements
+
 ### General/UI
+
 1. Fix for external display applications with non-public permissions.
 2. Add missing import in `galaxy.util`. Fixes bug in `.mkstemp_ln()`. Only encountered rarely in the upload tool.
+
 ### Tools
+
 3. #3 Improve error message for tool test parameters that could not be added.
 4. #4 Add tool id for when clause warnings that are output when tool XML is parsed.
 5. #5 Use correct index tables for setting dbkey of Tophat2 outputs.
 6. #6 Fixes for showing job parameters when tools have been updated.
+
 ### Visualization
+
 7. #7 UI fixes for navigating histories/libraries and choosing datasets in Trackster.
 8. #8 Change 'clone history/workflow/visualization' to 'copy history/workflow/visualization' for readability
+
 ### Admin
+
 9. #9 A bug has been fixed in the `DRMAA` runner that was causing job handler processes to segfault when users deleted history datasets that were associated with jobs that had not yet been dispatched to a cluster.
 10. #10 Adjust the id_tag to use the format "`<jobid>_<taskid>`", instead of "`<jobid>:<taskid>`".  This resolves issues with particular cluster runners (UGE) being unable to submit.
 
 <br />
 # Announcements
 
-[/News](/src/News/index.md), ***[February 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_02)***
+[News](/src/News/index.md), ***[February 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_02)***
 
 ## GCC2013
 
-<div class='right'><a href='/Events/GCC2013'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="150" /></a> <br />
-<a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div>
+<div class='right'><a href='/src/Events/GCC2013/index.md'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a> <br />
+<a href='/src/Events/GCC2013/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
 
 ### Training Day Topic Voting Closes 11 February
 
@@ -227,9 +249,10 @@ If you might attend the [GCC2013 Training Day](/src/Events/GCC2013/TrainingDay/i
 
 [Early Registration](/src/Events/GCC2013/Register/index.md), and [talk and poster abstract submission](/src/Events/GCC2013/Abstracts/index.md) all [open 22 February](/src/Events/GCC2013/KeyDates/index.md).  Watch the mailing lists and this wiki for details.
 
----
+----
 <br />
 # About Galaxy
+
 **[GalaxyProject.org](http://galaxyproject.org)**
 
 The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 

@@ -1,12 +1,13 @@
 ---
 autotoc: true
-title: August 30, ,,  2011 Galaxy Development News Brief
+title: August 30, 2011 Galaxy Development News Brief
 ---
 <div class='right'></div>
 
 
 
 ## Get Galaxy
+
 **[getgalaxy.org](http://getgalaxy.org)**
 
 **new**: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`
@@ -21,11 +22,11 @@ Slides for several [Galaxy](http://galaxyproject.org) related talks from this ye
 
 ### Recent Publications
 
-Blankenberg D, Taylor J, Nekrutenko A, The Galaxy Team. ["Making whole genome multiple alignments usable for biologists."](http://www.ncbi.nlm.nih.gov/pubmed/21775304 ) *Bioinformatics*. 2011 Jul 19. [Epub ahead of print] 
+Blankenberg D, Taylor J, Nekrutenko A, The Galaxy Team. "[Making whole genome multiple alignments usable for biologists.](http://www.ncbi.nlm.nih.gov/pubmed/21775304 )" *Bioinformatics*. 2011 Jul 19. [Epub ahead of print] 
 
-Afgan, E., Baker, D., Team, t. G., Nekrutenko, A. and Taylor, J. (2011). ["A reference model for deploying applications in virtualized environments."](http://onlinelibrary.wiley.com/doi/10.1002/cpe.1836/abstract ) *Concurrency and Computation: Practice and Experience*. doi: 10.1002/cpe.1836
+Afgan, E., Baker, D., Team, t. G., Nekrutenko, A. and Taylor, J. (2011). "[A reference model for deploying applications in virtualized environments](http://onlinelibrary.wiley.com/doi/10.1002/cpe.1836/abstract)." *Concurrency and Computation: Practice and Experience*. doi: 10.1002/cpe.1836
 
-<div class='right'>![](/Images/Screenshots/GalaxyProjectOrg.png)</div>
+<div class='right'>![](/src/Images/Screenshots/GalaxyProjectOrg.png)</div>
 ### GalaxyProject.org
 
 After a period of quiescence, the [GalaxyProject.org](http://galaxyproject.org) web site has been updated to more accurately reflect what is going on in Galaxy.  This is a great starting point for information about [Galaxy](http://galaxyproject.org).
@@ -39,19 +40,17 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 #### Revised and New Content
 
 * *Learn*: A hub page for resources on learning how to use Galaxy.
-  * [/Learn](/src/Learn/index.md)
+  * [Learn](/src/Learn/index.md)
 * *News Page and RSS Feed*: News items of interest to the Galaxy community
-  * [/News](/src/News/index.md)
+  * [News](/src/News/index.md)
 * *Events*: Comprehensive listing of upcoming (and past) Galaxy Events
-  * [/Events](/src/Events/index.md)
+  * [Events](/src/Events/index.md)
 * *Get Involved and Outreach*: How to get involved with Galaxy and how to spread the word.
-  * [/GetInvolved](/src/GetInvolved/index.md)
-  * [/Outreach](/src/Outreach/index.md)
+  * [GetInvolved](/src/GetInvolved/index.md)
+  * [Outreach](/src/Outreach/index.md)
 * *Public Galaxy Servers*: A list of publicly available Galaxy servers.
     If you have one, please add it to the list.
-      [/PublicGalaxyServers](/src/PublicGalaxyServers/index.md)
-
-
+      [PublicGalaxyServers](/src/PublicGalaxyServers/index.md)
 
 ### Tool Shed
 
@@ -82,16 +81,18 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 * *AWS Genomics Event*
   * [http://aws.amazon.com/genomicsevent](http://aws.amazon.com/genomicsevent)
   * September 22, Seattle, Washington, United States
-  * *Developing distributed analysis pipelines with shared community resources using [CloudBioLinux](http://www.cloudbiolinux.org) and [/CloudMan](/src/CloudMan/index.md),* Brad Chapman 
+  * *Developing distributed analysis pipelines with shared community resources using [CloudBioLinux](http://www.cloudbiolinux.org) and [CloudMan](/src/CloudMan/index.md),* Brad Chapman 
 
 ## Updated & Improved
 
 ### Data
+
 * New pair-wise alignments for panTro2: calJac3, canFam2, danRer7, equCab2, galGal3, hg19, mm9, ponAbe2, rheMac2
 * New pair-wise alignments for panTro3: calJac1, canFam2, equCab1, hg17, hg19, mm9, ponAbe2, rn4, calJac3, danRer4, galGal2, hg18, mm8, monDom4, rheMac2
 * Correction: panTro3 now available as a native database for the tool "Fetch Sequences -> Extract Genomic DNA" 
 
 ### Tools
+
 * liftOver tool enhancement: new options for the reporting of multiple output regions, a useful feature for cross-species conversions
 * RNA-seq
   * Added tool wrapper for Trinity, the *de novo* RNA-seq transcript assembler [http://trinityrnaseq.sourceforge.net](http://trinityrnaseq.sourceforge.net)
@@ -105,16 +106,17 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 * FASTQ Groomer updated to run on Color Space files that contain an extra leading quality score (for adapter base) by removing the extra leading quality score, e.g. files obtained from the SRA
 
 ### Visualization (Trackster)
+
 * New features
 
 *Bookmarking*: image shows a bookmark being set for a genomic region.
-  ![](/2011_08_30_bookmarking.png)
+  ![](/src/DevNewsBriefs/2011_08_30/2011_08_30_bookmarking.png)
 
 *Overview tracks*: image shows, at the bottom: (a) an overview for the EST track and (b) the region currently being viewed. 
-  ![](/2011_08_30_overview.png)
+  ![](/src/DevNewsBriefs/2011_08_30/2011_08_30_overview.png)
 
 *Features' transparency based on attribute values*: image shows transparency based on score, making it easy to identify a gene's dominant isoform.
-  ![](/2011_08_30_transparency-based-on-attributes.png)
+  ![](/src/DevNewsBriefs/2011_08_30/2011_08_30_transparency-based-on-attributes.png)
 
 * Enhancements
   * Enable filter chaining when running on complete dataset
@@ -133,20 +135,23 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
   * Current tools compatible with Trackster include Cufflinks and [GOPS](http://galaxyproject.org/wiki/Learn/Interval%20Operations) intersect/subtract
 
 ### Workflows
+
 * Clone annotation and tags when cloning workflows
 * Enable workflows to be uploaded to [myExperiment](http://www.myexperiment.org)
 
 ### API
+
 * API is now available for managing histories and datasets
 * API now has the ability (for administrators and other defined users) to run a command as another user.  
     See API run_as for more details.
 * Expose workflows shared with the user in /workflows list of the API
 * Addition of a case sensitivity notice for login not found error.
-* Enhancements to handling format="input" in workflows, fixes [#582 ](http://bitbucket.org/galaxy/galaxy-central/issue/583 )
+* Enhancements to handling format="input" in workflows, fixes #[582 ](http://bitbucket.org/galaxy/galaxy-central/issue/583)
 * Added the ability for a user to use the API as another user via the setting 'api_allow_run_as' in the config file (thanks John Duddy!)
 * Added the ability to create histories, delete histories, and create new history items from library items (thanks again John Duddy!)
 
 ### Source
+
 * UI Help -> Email link now points to [http://galaxyproject.org/wiki/Support](http://galaxyproject.org/wiki/Support)
 * Enhancement code to support uploading various image data types (thanks Jelle Scholtalbers!)
 * New collect_job_timings.sh script added to ~/contrib (thanks Assaf Gordon!)
@@ -158,14 +163,16 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
   * Command line tool for performing a couple common operations such as encoding/decoding IDs and getting the disk path of HDAs.  This can be useful for system administration and debugging
 
 ### Quotas
+
 * User data and job quota limits are now implemented at the public Galaxy [Test](http://test.g2.bx.psu.edu) instance
     [Test Quotas](http://galaxyproject.org/wiki/Test#Quotas)
 * While no *hard* quotas are currently implemented at the public Galaxy [Main](http://usegalaxy.org) instance, we do ask that users stay within certain usage limits:
     [Main Quotas](http://galaxyproject.org/wiki/Main#Quotas)
 * If you find that you require additional resources, please consider the alternative Galaxy options explained at:
-    [/BigPicture/Choices](/src/BigPicture/Choices/index.md)
+    [BigPicture/Choices](/src/BigPicture/Choices/index.md)
 
 ### Bug Fixes
+
 * Make message stating how much disk space improved in Galaxy reports, fixes [#618 ](http://bitbucket.org/galaxy/galaxy-central/issue/618 )
 * Fix bug in rendering roles on the permissions page for data libraries (thanks Glen Beane!)
   * In the data library hierarchy, rendered roles are all derived from roles associated with the LIBRARY_ACCESS permission, but roles rendered for that permission itself must be handled as a special case. Now, all legitimate roles not associated are listed.
@@ -190,9 +197,10 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 * FTP uploads which contained a comma in the filename could not be imported unless importing more than one file at a time (thanks Ilya Chorny!)
 * Fixed sending email when Sample Tracking Requests reach a terminal state
 
----
+----
 
 ## About Galaxy
+
 [GalaxyProject.org](http://galaxyproject.org)
 
 The [GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam) is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html). 
@@ -203,4 +211,4 @@ Join us at **Twitter** `#usegalaxy`
 
 [http://twitter.com/#!/search/galaxyproject](http://twitter.com/#!/search/galaxyproject) 
 
----
+----

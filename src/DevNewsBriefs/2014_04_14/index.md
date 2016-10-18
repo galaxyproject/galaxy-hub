@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: April 14, ,,  2014 Galaxy Distribution News Brief
+title: April 14, 2014 Galaxy Distribution News Brief
 ---
 <div class='right'></div>
 
@@ -12,9 +12,10 @@ title: April 14, ,,  2014 Galaxy Distribution News Brief
 
 
 # Get Galaxy
+
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
@@ -41,11 +42,13 @@ title: April 14, ,,  2014 Galaxy Distribution News Brief
 
 <br />
 # Upgrades
+
 * **Review instructions for core build: [Getting the Stable Distribution](http://getgalaxy.org)**
 * **Review reset for Tool Shed repos: [Resetting Metadata For Installed Repositories](http://wiki.galaxyproject.org/ResettingMetadataForInstalledRepositories)**
 
 <br />
 # Data
+
 1. New and updated reference genomes added to [Rsync](https://wiki.galaxyproject.org/Admin/UseGalaxyRsync) server that mirrors contents of the public Main [http://usegalaxy.org](http://usegalaxy.org) instance
   * New/updated genomes: 115
     * includes hg38
@@ -62,14 +65,16 @@ title: April 14, ,,  2014 Galaxy Distribution News Brief
 
 <br />
 # Visualizations
+
 1. Framework turning https://trello.com/c/kdhJ1Dit
 1. *Trackster*: 
   * View complete read/feature across tile boundaries, in all tiles https://trello.com/c/Q03dC1QC
   * Better handling of deep coverage regions in read tracks https://trello.com/c/TxxzqWNx
+
 <table>
   <tr>
-    <td> <img src='/Images/NewsGraphics/2014_04_14_trackster-sparse.png' alt='Galaxy' width="300" /></td>
-    <td> <img src='/Images/NewsGraphics/2014_04_14_trackster-deep.png' alt='Galaxy' width="300" /></td>
+    <td> <img src="/src/Images/NewsGraphics/2014_04_14_trackster-sparse.png" alt="Galaxy" width="300" /></td>
+    <td> <img src="/src/Images/NewsGraphics/2014_04_14_trackster-deep.png" alt="Galaxy" width="300" /></td>
   </tr>
   <tr>
     <td> &nbsp;&nbsp;&nbsp;&nbsp;<strong>Trackster</strong>: Prior coverage display </td>
@@ -80,10 +85,12 @@ title: April 14, ,,  2014 Galaxy Distribution News Brief
 
 <br />
 # Workflows
+
 1. Prep for dataset collections: Refactor out common logic for running workflows across controllers https://trello.com/c/pdGNjllH
 
 <br />
 # UI
+
 1. New/Updated Dataset Action Controls:
   * Located at the top of the history pane
   * Ability to select: all, none, or check individual datasets
@@ -103,6 +110,7 @@ title: April 14, ,,  2014 Galaxy Distribution News Brief
 
 <br />
 # API
+
 1. New functions: 
   * Make histories importable and/or published via the API is now implemented (sharing with individual users a pending feature update) https://trello.com/c/Bcsadi1q
   * History export/import https://trello.com/c/qhu1KdWU
@@ -112,9 +120,9 @@ title: April 14, ,,  2014 Galaxy Distribution News Brief
 1. Published histories contents now fully accessible (no permissions issue) https://trello.com/c/KME3ZRRY
 1. Correct exception formats used in history & HDA https://trello.com/c/bS9wY4Ri
 
-
 <br />
 # Core
+
 1. Admin: 
   * History view, allow importing purged datasets https://trello.com/c/tbhpQdMF
   * User list, show 'activated' and 'create_time' columns https://trello.com/c/C6MhEHWo
@@ -137,6 +145,7 @@ title: April 14, ,,  2014 Galaxy Distribution News Brief
 
 <br />
 # Pull Requests Merged
+
 Thanks to our Galaxy community contributors!
 1. 309 - Job module for API (list and inspect jobs). Kyle Ellrott. https://trello.com/c/s2Gk6QlH
 1. 312 - Remove unused imports and unused variables. Fix spacing. Nicola Soranzo. https://trello.com/c/iWaf1ak4
@@ -158,6 +167,7 @@ Thanks to our Galaxy community contributors!
 1. 355 - Workflow API: show also workflow owner, so a user can check it before importing. Nicola Soranzo. https://trello.com/c/cMiaYcCI
 
 # Fixes
+
 1. Fix issue with tool panel display when the tool_conf.xml has only a single entry https://trello.com/c/6nJIhOdJ
 1. Fix issue when multiple versions of the same tool installed results in separate entries in the tool panel https://trello.com/c/SlNI79mR
 1. Fix Published Page's JS error https://trello.com/c/yGw1DwwM
@@ -167,16 +177,18 @@ Thanks to our Galaxy community contributors!
 1. Fix to improve link format in user activation emails https://trello.com/c/JALX9DL3
 1. Fix problem with rerun of tools having `DataToolParameter` set as optional https://trello.com/c/pzHcSGzK
 1. Fix bug in Tool Panel when installing repositories https://trello.com/c/AiUefffC
- 
 
 <br />
 # Tool Shed
-**[/Tool Shed](/Tool Shed)**
+
+**[Tool Shed](/src/Tool Shed/index.md)**
 ## Documentation
+
 1. Reorganization of the Tool Shed wiki is underway! See current changes https://wiki.galaxyproject.org/ToolShed and what is next up https://trello.com/c/Gg0jnll7
 1. Data Manager documentation specific to toolshed http://wiki.galaxyproject.org/Tool%20Shed#The_contents_of_your_tool_shed_repository https://trello.com/c/OPOakK4w
 
 ## Repositories
+
 1. New Tool Shed categories https://trello.com/c/niCdaARH
   * Genome-Wide Association Study
   * Imaging
@@ -192,6 +204,7 @@ Thanks to our Galaxy community contributors!
 1. Update `EMBOSS` repo so that it downloads a precompiled platform-specific binary https://trello.com/c/iW3Amhl5
 
 ## Install and Test Framework
+
 1. Tool shed install and test framework now works with API driven tool tests https://trello.com/c/vfr7b0VK
 1. Eliminate the use of fabric as the installation process for repositories https://trello.com/c/zJoRROvv
 1. Test script to provide coverage for recently discovered scenario that produced a white ghost upon Galaxy install https://trello.com/c/JICmJueB
@@ -199,6 +212,7 @@ Thanks to our Galaxy community contributors!
 1. Test script to check toolshed dependency files for broken/invalid download URLs https://trello.com/c/i4GVgZwS
 
 ## Tool Shed Fixes
+
 1. Fix setup_r_environment broken in central repo https://trello.com/c/zyCzlgzo
 1. Fix scenario where by uninstalling and reinstalling a repository that has been updated creates database entries for repositories that are persistently in the New state https://trello.com/c/iUDUM4Ut
 1. Fixes in automated test framework https://trello.com/c/QWgsgll8
@@ -206,17 +220,20 @@ Thanks to our Galaxy community contributors!
 
 <br />
 <div class='right'>
-<br /><a href='http://usegalaxy.org'><img src='/Images/Logos/galaxyLogoTrimmed.png' alt='Galaxy' height="50" /></a><br />**usegalaxy.org**</div>
+<br /><a href='http://usegalaxy.org'><img src="/src/Images/Logos/galaxyLogoTrimmed.png" alt="Galaxy" height="50" /></a><br />**usegalaxy.org**</div>
 
 # Project Updates
-1. [/News](/src/News/index.md)
-1. [/Events](/src/Events/index.md)
+
+1. [News](/src/News/index.md)
+1. [Events](/src/Events/index.md)
 1. [Videos on Vimeo](https://vimeo.com/galaxyproject)
 1. *[April 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014_04)*
 1. *[March 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014_03)*
----
+
+----
 <br />
 # About
+
 **[GalaxyProject.org](http://galaxyproject.org)**
 
 The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of the **[Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/)** at **[Penn State](http://www.psu.edu/)**, and the **[Department of Biology](http://www.bio.jhu.edu/)** at **[Johns Hopkinis University](http://www.jhu.edu/)**. 

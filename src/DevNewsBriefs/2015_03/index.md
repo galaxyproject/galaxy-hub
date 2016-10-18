@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: March 2015 Galaxy Release , (, v 15, ., 03, )
+title: March 2015 Galaxy Release (v 15.03)
 ---
 <div class='right'></div>
 [All News Briefs](/src/DevNewsBriefs/index.md)
@@ -8,14 +8,14 @@ title: March 2015 Galaxy Release , (, v 15, ., 03, )
 [Galaxy March Release Summary](/src/News/2015_03_GalaxyRelease/index.md)
 <br />
 
-<div class='left'><a href='http://getgalaxy.org'><img src='/Images/Logos/GetGalaxyOrg.png' alt=' ' width=175 /></a></div>
+<div class='left'><a href='http://getgalaxy.org'><img src="/src/Images/Logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
 
 <br />
 <br />
 <br />
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
@@ -66,17 +66,19 @@ Releases versioning details are as follows:
 Thus, if you would like to upgrade to the 15.03 release and ensure you do not subsequently upgrade to the release after 15.03 (i.e. 15.05) when it is made, you can use the `release_15.03` branch. If you would always like to run the latest release (recommended), you should use the `master` (Git) or `stable` (Bitbucket) branch.
 
 # Tool Redesign
-Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolsehd) and many are ready for use on Galaxy [/Main](/src/Main/index.md). Older Workflows may contain tools that automatically map to the new tools or Workflows may need minor adjustments. [c6Lkejro](https://trello.com/c/c6Lkejro) 
+
+Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolsehd) and many are ready for use on Galaxy [Main](/src/Main/index.md). Older Workflows may contain tools that automatically map to the new tools or Workflows may need minor adjustments. [c6Lkejro](https://trello.com/c/c6Lkejro) 
 
 Be sure to check out the new [Galaxy NGS 101](/src/Learn/GalaxyNGS101/index.md) wiki (in progress). 
 
 # Github
 
-<div class='right'><a href='https://github.com/galaxyproject/galaxy'><img src='/Images/Logos/GitHubLogoText.png' alt='Galaxy on GitHub' width="100" /></a></div>
+<div class='right'><a href='https://github.com/galaxyproject/galaxy'><img src="/src/Images/Logos/GitHubLogoText.png" alt="Galaxy on GitHub" width="100" /></a></div>
 
 Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy), but stable/release changes are mirrored to Bitbucket. Deployers can continue to use Bitbucket as they have done in the past.
 
 # Infrastructure
+
 1. [Mercurial](http://mercurial.selenic.com) egg updated to version (3.2.4). [9A9uIav0](https://trello.com/c/9A9uIav0) [NUqyskst](https://trello.com/c/NUqyskst)
 1. [SQLAlchemy](http://www.sqlalchemy.org) upgrade to version 0.9.8. [zGLtSgPW](https://trello.com/c/zGLtSgPW)
 1. An invalid API key will now always return a »403« error. Triggers: API key is not found, is expired, or is not associated with an active account. [n59kZhXk](https://trello.com/c/n59kZhXk)
@@ -116,6 +118,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Enhanced the `collect_primary_datasets()` method to allow assignment of the defined output parameter for 3rd-party tools that manage tool outputs internally. [pncHLXdw](https://trello.com/c/pncHLXdw)
 
 # New and Improved
+
 1. Data Source/Provider Functions: filtering of transferred lines based on parsed column values. [jBMtQm0w](https://trello.com/c/jBMtQm0w)
 1. Updated the [Tuxedo RNA-seq tools](http://cole-trapnell-lab.github.io/cufflinks/manual/) to version 2.2.1 and created new wrappers for Cuffquant and Cuffnorm. In the [Tool Shed](http://usegalaxy.org/toolshed) and installed on [http://usegalaxy.org](http://usegalaxy.org). [bfr0jKut](https://trello.com/c/bfr0jKut)
 1. New Multiple Histories View. [XLkP9pCr](https://trello.com/c/XLkP9pCr)
@@ -159,6 +162,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Added tool tests functions to assert properties about command, standard output, and standard error. [kNgOADAF](https://trello.com/c/kNgOADAF)
 
 # Fixed
+
 1. Fixed tool shed tests by creating database directory when one is missing from the repository. Thank you Jennifer Cabral. [mKBDDG8j](https://trello.com/c/mKBDDG8j)
 1. Fixed provenance API request bug when data element has `job == None`. Thank you Kyle Ellrott. [fPVKzBZ6](https://trello.com/c/fPVKzBZ6)
 1. Resolved a bug in Users API preventing administrators from creating users when `allow_user_creation` was False. [aLqEOOyd](https://trello.com/c/aLqEOOyd)
@@ -191,31 +195,35 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Resolved processing naming conflicts with uWSGI and Control Queues. [ahDk0lx4](https://trello.com/c/ahDk0lx4)
 
 # News and Community
+
 * **[GCC 2015](http://gcc2015.tsl.ac.uk/)** has opened [Abstract Submissions](/src/News/GCC2015AbstractSubmissionOpen/index.md). 
 * Two Hackathons are now scheduled to occur *before* and *during* GCC 2015. 
   * [GCC2015 Coding Hackathon](http://gcc2015.tsl.ac.uk/organisers/hackathon)
   * New! [GCC2015 Data Wrangling Hackathon](http://gcc2015.tsl.ac.uk/organisers/data-hackathon)
 * [All Galaxy News](/src/News/index.md) and the [Hub for Release News](/src/DevNewsBriefs/index.md)
 * [Twitter](/src/GalaxyOnTwitter/index.md) (wiki summary) or follow us directly at [https://twitter.com/galaxyproject](https://twitter.com/galaxyproject)
-* [/Events](/src/Events/index.md), [/Learn](/src/Learn/index.md), [Galaxy Biostar](https://biostar.usegalaxy.org/), [Support Resources](/src/Support/index.md) with FAQ help, [Mailing list](/src/MailingLists/index.md) subscription and archvies, and [Vimeo tutorials](http://vimeo.com/galaxyproject)
+* [Events](/src/Events/index.md), [Learn](/src/Learn/index.md), [Galaxy Biostar](https://biostar.usegalaxy.org/), [Support Resources](/src/Support/index.md) with FAQ help, [Mailing list](/src/MailingLists/index.md) subscription and archvies, and [Vimeo tutorials](http://vimeo.com/galaxyproject)
 * All know of [Public Galaxy Main](/src/Main/index.md), but have you reviewed the [Other Galaxy Public-hosted Servers](/src/PublicGalaxyServers/index.md) lately?
-* [/Teach](/src/Teach/index.md) resources are an exciting, growing, and key area for expansion throughout 2015, check out what is new!
+* [Teach](/src/Teach/index.md) resources are an exciting, growing, and key area for expansion throughout 2015, check out what is new!
 * Follow current development real-time and create, comment, and vote on active [Trello](https://trello.com/galaxyproject) tickets. As an open source project, we very much welcome community involvement. Not sure how to get involved or how to [create an account](https://trello.com/b/ijIE4lMx/welcome-board)? We have guidance available **[here...](https://wiki.galaxyproject.org/Issues)**, that includes a form to aid with quick ticket submission.
-* [/Community](/src/Community/index.md) resources. Overview about how we value and seek your input. Have your voice heard and get involved!
+* [Community](/src/Community/index.md) resources. Overview about how we value and seek your input. Have your voice heard and get involved!
 * [Galaxy Project](/src/GalaxyProject/index.md) home page (hub for all resources, those listed above and more!)
 * See our wiki's right side bar menu &rarr; for more links to areas of interest to you
 * Our wiki is absolutely open for community contributions and improvements.
 
 # Security
+
 1. Various low-vulnerability-level security fixes. [U6yj2pPr](https://trello.com/c/U6yj2pPr)
 1. Galaxy logs no longer leak database connection information. [VjEqTxlT](https://trello.com/c/VjEqTxlT)
 1. The email for resetting an account password is now a link. [SKjU40t6](https://trello.com/c/SKjU40t6)
 1. New »shared secret« between Galaxy and upstream proxies, thereby preventing a specific potential impersonation attack. Thank you [Eric Rasche](/src/EricRasche/index.md). [jTHrXHol](https://trello.com/c/jTHrXHol)
 
 # Upgrades
+
 1. Review instructions for core build: [Getting the Stable Distribution](http://getgalaxy.org)
 1. Review reset for Toolshed repos: [Resetting Metadata For Installed Repositories](http://wiki.galaxyproject.org/ResettingMetadataForInstalledRepositories)
 
 # About Galaxy
-<div class='left'><a href='http://usegalaxy.org'><img src='/Images/Logos/GalaxyLogoHighRes.png' alt='UseGalaxy.org' width="200" /></a></div>
-**[About Galaxy](/src/Support/AboutGalaxy/index.md)** • [Galaxy Project](/src/GalaxyProject/index.md) • [/Admin](/src/Admin/index.md) • [/Issues](/src/Issues/index.md) • [Big Picture](/src/BigPicture/index.md) • [/Community](/src/Community/index.md) • [Get Galaxy](/src/Admin/GetGalaxy/index.md) • [/CloudMan](/src/CloudMan/index.md) • [Tool Shed](/src/ToolShed/index.md) • [/Develop](/src/Develop/index.md) • [News Briefs](/src/DevNewsBriefs/index.md) • [Servers](/src/PublicGalaxyServers/index.md) • [/Learn](/src/Learn/index.md) • [/Support](/src/Support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/src/News/index.md) • [Twitter](/src/GalaxyOnTwitter/index.md) • [/Events](/src/Events/index.md) • [/Teach](/src/Teach/index.md) • [Cite](/src/CitingGalaxy/index.md) • [Galaxy Team](/src/GalaxyTeam/index.md)
+
+<div class='left'><a href='http://usegalaxy.org'><img src="/src/Images/Logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
+**[About Galaxy](/src/Support/AboutGalaxy/index.md)** • [Galaxy Project](/src/GalaxyProject/index.md) • [Admin](/src/Admin/index.md) • [Issues](/src/Issues/index.md) • [Big Picture](/src/BigPicture/index.md) • [Community](/src/Community/index.md) • [Get Galaxy](/src/Admin/GetGalaxy/index.md) • [CloudMan](/src/CloudMan/index.md) • [Tool Shed](/src/ToolShed/index.md) • [Develop](/src/Develop/index.md) • [News Briefs](/src/DevNewsBriefs/index.md) • [Servers](/src/PublicGalaxyServers/index.md) • [Learn](/src/Learn/index.md) • [Support](/src/Support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/News/index.md) • [Twitter](/src/GalaxyOnTwitter/index.md) • [Events](/src/Events/index.md) • [Teach](/src/Teach/index.md) • [Cite](/src/CitingGalaxy/index.md) • [Galaxy Team](/src/GalaxyTeam/index.md)

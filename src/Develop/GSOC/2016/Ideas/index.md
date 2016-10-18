@@ -2,7 +2,6 @@
 autotoc: true
 ---
 
-
 Target improvements for 2016 (in part lesson learned from apply and great feedback from Nicole Deflaux and colleagues at Google Genomics.
 
 * Exciting intro at the top of the ideas page.
@@ -10,10 +9,9 @@ Target improvements for 2016 (in part lesson learned from apply and great feedba
 * Each project should start with a very simple and impactful "why" statement. Highlight visually somehow.
 * Hopefully we will have migrated to a django-based wiki that will allow us to have the best of both worlds (polished visually, user editable).
 
-
 **Other idea pages (for reference)**
 
-* [/Develop/GSOC/2015Ideas](/src/Develop/GSOC/2015Ideas/index.md)
+* [Develop/GSOC/2015Ideas](/src/Develop/GSOC/2015Ideas/index.md)
 * [BioJS 2015](http://biojs.net/gsoc/2015/#project-ideas)
 * [Cytoscape (NRNB) 2014](http://nrnb.org/gsoc.html#ideas-tab)
 * [BioJS 2014](https://rostlab.org/services/biojs/gsoc.html)

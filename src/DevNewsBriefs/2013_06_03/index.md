@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: June 3, ,,  2013 Galaxy Distribution News Brief
+title: June 3, 2013 Galaxy Distribution News Brief
 ---
 <div class='right'></div>
 
@@ -12,10 +12,11 @@ title: June 3, ,,  2013 Galaxy Distribution News Brief
 
 <br />
 # Get Galaxy
+
 *Please note new* **upgrade** *syntax*
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
@@ -44,10 +45,12 @@ title: June 3, ,,  2013 Galaxy Distribution News Brief
 
 <br />
 # Release Process
+
 If you need a refresher about how to update or this is your first update in a while, please review the instructions at **[Get Galaxy](http://getgalaxy.org)**. Even more details are in the **[prior News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2013_04_01)**.
 
 <br />
 # Python 2.5 Support Has Ended
+
 As of this release, Galaxy no longer supports Python 2.5. More in the ticket: http://trello.com/c/OQT8Iun8
 
 <br />
@@ -59,7 +62,8 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 
 <br />
 # Tool Shed
-**[/Tool Shed](/Tool Shed)**
+
+**[Tool Shed](/src/Tool Shed/index.md)**
 
 ### New Tool Shed Features
 
@@ -82,15 +86,15 @@ There may be occasions when the entire changelog should be inspected and all of 
 
 1. #4 The automated tool test framework
   The Tool Shed includes an extensive installation and test framework that works with repositories that contain valid tools.  It is designed to be executed by cron regularly and sends email notification to a mail list when each run is completed.  The framework is very flexible.  It can be executed automatically or manually on a single repository revision or all revisions of all repositories in the tool shed.  [Read more…](http://wiki.galaxyproject.org/AutomatedToolTests)
- 
+
 1. #5 The Tool Shed API
   The `RESTful` Tool Shed API has been significantly enhanced.  [Read more…](http://wiki.galaxyproject.org/ToolShedApi)
 
 1. #6 Tool Shed Functional Test Framework
   Many additional tests have been added to the tool shed functional test framework.  [Read more…](http://wiki.galaxyproject.org/HostingALocalToolShed#Functional_test_framework_for_the_tool_shed)
 
-
 ### Miscellaneous Tool Shed fixes and enhancements
+
 1. Enhance the Repositories that contain tools with invalid functional tests grid to allow for sorting by repository owner.  Enhance several of the repository review grids to enable sorting by repository owner.
 1. Clean up the main repositories by category grid and add a tools verified column.
 1. Raise exceptions when tool dependency definition `<install>` and `<set_environment>` tags define an unsupported version attribute.
@@ -104,7 +108,6 @@ There may be occasions when the entire changelog should be inspected and all of 
 1. Fix for reinstalling an uninstalled repository when leaving the no changes checkbox checked and entering text into the new tool panel section field.
 1. Keep all contents (including comments) of dependency definition files when re-writing them to include missing toolshed and `changeset_revision` attributes.
 1. Eliminate the use of Galaxy's `elementree` egg within the tool shed.
-
 
 ### Accepted Tool Shed pull requests
 
@@ -183,6 +186,7 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 
 <br />
 # Tools
+
 1. `GenomeSpace`: Update `serverurl.properties` file location to work around issue with jumbo frames. https://trello.com/c/7tZli0PH
 1. *MAF to BED* corrected to fix problem with false error states. https://trello.com/c/y55KbTRt
 1. `STDERR` and `STDOUT` will now show beginning and end of contents, instead of just the beginning, when truncated. https://trello.com/c/v31ECJPr
@@ -196,28 +200,33 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 
 <br />
 # Scatterplot
+
 1. Enhancements to handlers, display, and data input parsing. https://trello.com/c/5jk3k7Td
 
-<a href='/DevNewsBriefs/2013_06_03'><img src='/Images/NewsGraphics/2013_06_03_scatterplot-1.png' alt='scatterplot' width=500 /></a>
+<a href='/src/DevNewsBriefs/2013_06_03/index.md'><img src="/src/Images/NewsGraphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=500 /></a>
 
 <br />
 # Trackster
+
 1. Composite track improvements. https://trello.com/c/hPcrKfJl
 1. Insert a button for Trackster Visualization into data display viewer. https://trello.com/c/KGNfWZEH
 1. Add Bigwig support for BAM coverage. https://trello.com/c/GV7nTlg9
 1. VCF visualization in trackster. https://trello.com/c/1dj3lTtU
-  
+
 <br />
 # Histories & Datasets
+
 1. Delete Hidden Datasets menu option. https://trello.com/c/0SoREcMn
 1. When copying datasets to the current history always refresh history. https://trello.com/c/jY5HSdu1
 
 <br />
 # Libraries
+
 1. Library API problem in galaxy-central default but not stable. https://trello.com/c/TbWP1tad
 
 <br />
 # UI
+
 1. Unicode fixes for previewing large datasets. https://trello.com/c/BHRKkcaw
 1. Unicode fixes for uploading by file in upload tool. https://trello.com/c/O0M8W8X8
 1. Unicode fixes for displaying saved workflows in **Tool Menu**. https://trello.com/c/dAuDcE99
@@ -227,6 +236,7 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 
 <br />
 # Admin
+
 1. Stop jobs on history deletion. https://trello.com/c/LBZxfcjx
 1. Track down decorator import failure that shows on some machines (see ticket). https://trello.com/c/It6q5Ul8
 1. Do not allow deleted datasets to be viewed / downloaded. https://trello.com/c/elIs7IHc
@@ -234,17 +244,19 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 
 <br />
 # Core
+
 1. Unify Web/API Transactions. https://trello.com/c/c5wZPVGd
 1. Eliminate `PasteScript` startup. https://trello.com/c/Q4bJNZuo
 1. Upgraded `SQLAlchemy`. https://trello.com/c/Q6kBeByD
 1. Error Logging with `Sentry`. https://trello.com/c/Yc1LXXTR
 
-<a href='/DevNewsBriefs/2013_06_03'><img src='/Images/NewsGraphics/2013_06_03_sentry-1.png' alt='sentry-1' width=600 /></a>
+<a href='/src/DevNewsBriefs/2013_06_03/index.md'><img src="/src/Images/NewsGraphics/2013_06_03_sentry-1.png" alt="sentry-1" width=600 /></a>
 
-<a href='/DevNewsBriefs/2013_06_03'><img src='/Images/NewsGraphics/2013_06_03_sentry-2.png' alt='sentry-2' width=500 /></a>
+<a href='/src/DevNewsBriefs/2013_06_03/index.md'><img src="/src/Images/NewsGraphics/2013_06_03_sentry-2.png" alt="sentry-2" width=500 /></a>
 
 <br />
 # Pull Requests Merged
+
 1. Significantly enhance job resource definitions. https://trello.com/c/uNpYoYov
 1. More even distribution of job scheduling. https://trello.com/c/wBDXGcx2
 1. Workflows batch mode enhancements. **[#75](https://bitbucket.org/galaxy/galaxy-central/pull-request/75)**. Thanks to [John Chilton](http://jmchilton.net/). https://trello.com/c/UoBadE0f
@@ -259,6 +271,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 <br />
 # Bug Fixes
+
 1. Dataset display now honors preview flag. https://trello.com/c/p7zeJHlX
 1. Bug fix to report's web application. https://trello.com/c/o0S3klAF
 1. Correct display and masthead bugs upon logout/login cycle. https://trello.com/c/Dw0bUCv3, https://trello.com/c/cvzBIb63
@@ -273,17 +286,16 @@ Although there are no specific known security fixes in this distribution, all Ga
 1. Fix to add confirm on delete permanently (footer button), saved histories. https://trello.com/c/8nUlUMew
 1. "Stop job" function in jobs admin interface corrected (as of April 2013 release). https://trello.com/c/3vkBCaWf
 
-
 <br />
 # Project Updates
 
-**[/News](/src/News/index.md)**, ***[June 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_06)***
+**[News](/src/News/index.md)**, ***[June 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_06)***
 
 <br />
 <br />
 # GCC2013
 
-<div class='left'><a href='/Events/GCC2013'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="150" /></a></div> 
+<div class='left'><a href='/src/Events/GCC2013/index.md'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div> 
 
 <br />
 <br />
@@ -291,9 +303,10 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 <br />
 <br />
----
+----
 <br />
 # About
+
 **[GalaxyProject.org](http://galaxyproject.org)**
 
 The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 

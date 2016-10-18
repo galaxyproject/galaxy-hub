@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: February 10, ,,  2014 Galaxy Distribution News Brief
+title: February 10, 2014 Galaxy Distribution News Brief
 ---
 <div class='right'></div>
 
@@ -13,9 +13,10 @@ title: February 10, ,,  2014 Galaxy Distribution News Brief
 
 <br />
 # Get Galaxy
+
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
@@ -43,13 +44,15 @@ title: February 10, ,,  2014 Galaxy Distribution News Brief
 
 <br />
 # Upgrades
+
 * **Review instructions for core build: [Getting the Stable Distribution](http://getgalaxy.org)**
 * **Review reset for Tool Shed repos: [Resetting Metadata For Installed Repositories](http://wiki.galaxyproject.org/ResettingMetadataForInstalledRepositories)**
 
-
 <br />
 # Tool Migrations
+
 ### Galaxy Tool Migrations
+
 **This release includes additional *tools* that have been migrated from the Galaxy distribution to the Tool Shed**.  
 
 As in prior releases, Galaxy tool migration framework has been enhanced so that tool entries in the `tool_conf.xml` file for tools that were [migrated out of the Galaxy distribution](http://wiki.galaxyproject.org/MigratingToolsFromGalaxyDistribution#Migrating_tools_from_the_Galaxy_distribution_to_the_Galaxy_Main_tool_shed) are now automatically eliminated during the migration process.  
@@ -59,16 +62,16 @@ As in prior releases, Galaxy tool migration framework has been enhanced so that 
 * Associated files, such as location sample files (".loc"), are also removed from the distribution.
 * The list of migrated tools can be found here: *[migrated 009](https://bitbucket.org/galaxy/galaxy-central/src/694411e94d9aa26c9b9a2c13567b2b5e07f74580/lib/tool_shed/galaxy_install/migrate/versions/0009_tools.py?at=default)*
 
-
 <br />
 # Tools & Data
+
 1. *GenomeSpace*: Improved import when initiated from within Galaxy. https://trello.com/c/maFhnXpN
 1. *DataProviders*: See http://wiki.galaxyproject.org/DataProviders https://trello.com/c/Qic2fVPE
 1. *Cuffdiff*: A read_group.info dataset is now included in the output. https://trello.com/c/FdUYdbIn
 
-
 <br />
 # Visualizations
+
 1. *Phyloviz*: Saving as visualization corrected. https://trello.com/c/dzBmbyqF
 1. *Scatterplot*: Improvements to large data loading. https://trello.com/c/8or6FdE2
 1. *Trackster*: 
@@ -78,18 +81,20 @@ As in prior releases, Galaxy tool migration framework has been enhanced so that 
     * overlaying track header on track data to compress track height; this enables more data to be viewed simultaneously
     * grayscale drawing for mapped reads so that variation can easily be seen
     * using colors to denote track state (e.g. pending, error, etc.)
-<a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2014_02_10_trackster-css.png' alt='Trackster' width="800" /></a>
+
+<a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2014_02_10_trackster-css.png" alt="Trackster" width="800" /></a>
 
 
 <br />
 # Workflows
+
 1. Implement default parameters. https://trello.com/c/SRxD991Y
 1. Allow overriding parameters when running a workflow. https://trello.com/c/ZbPzTpAl
 1. API should have a way of querying published workflows and using/importing them. https://trello.com/c/LDm3dQvB
 
-
 <br />
 # UI
+
 1. Moved history panel (history.mako; base_panels.mako) from iframe implementation to base_panels DOM. Correct implementation issues. https://trello.com/c/a67ciYUI https://trello.com/c/UejOR6q2
 1. Multiple upgrades to history panel. https://trello.com/c/P487gwJh
 1. Refactor grids.js into a Backbone view. https://trello.com/c/Mwrvm0ia
@@ -101,9 +106,9 @@ As in prior releases, Galaxy tool migration framework has been enhanced so that 
 1. General UI: provide a backbone class for the modal dialog box. https://trello.com/c/bk11oSS2
 1. Clearer visualization and workflow UI cues and usage/error messages for anonymous users (e.g. login required). https://trello.com/c/pgt8UzgU https://trello.com/c/yW6x44xp
 
-
 <br />
 # API
+
 1. Resolved behavior of fetching tool when provided id differed between API and UI. https://trello.com/c/he1Tm4kK
 1. Resolved API histories/set_as_current bad method signature. https://trello.com/c/knnIWf5Y
 1. Support repeat and conditional in tool execution API. https://trello.com/c/iZ9TBhog
@@ -114,9 +119,9 @@ As in prior releases, Galaxy tool migration framework has been enhanced so that 
 1. If master_api_key set, allow it to run_as if any user can run_as. https://trello.com/c/OoHNhCNb
 1. Fix for optional input handling in provenance API. Jim Johnson. https://trello.com/c/JPVR5SFt
 
-
 <br />
 # Core
+
 1. Refactor Tool testing framework to use API. https://trello.com/c/MsJctFem https://trello.com/c/wL21d2do
 1. Basic composite datatypes now work as test outputs. https://trello.com/c/Vedel3J4
 1. Allow overriding composite type main file in archives. Peter Cock. https://trello.com/c/8XeDQEaG
@@ -135,9 +140,9 @@ As in prior releases, Galaxy tool migration framework has been enhanced so that 
 1. Allow core Galaxy models and install tool dependencies to target different databases. https://trello.com/c/V0jDdJBk
 1. Allow setting metadata remotely with the LWR. https://trello.com/c/M3i6tlU4
 
-
 <br />
 # Pull Requests Merged
+
 Thanks to our Galaxy community contributors!
 1. 285 - Make to_dict method stringify non-JSONable objects. Kyle Ellrott. https://trello.com/c/fzea3Km9
 1. 296 - Adding update_time to dataset to_dict methods. Kyle Ellrott. https://trello.com/c/dEz6n55E
@@ -176,9 +181,9 @@ Thanks to our Galaxy community contributors!
 1. 248 - Tool Shed: Add more env vars to the standard env.sh file and allow more actions after setup_ruby_environment. Björn Grüning. https://trello.com/c/2amdMp4N
 1. 250 - Tool Shed: Add additional ENV vars from parent repository to child repository. Björn Grüning. https://trello.com/c/7ilpGljG
 
-
 <br />
 # Fixes
+
 1. Fix function to unshare a history that has been shared with you. https://trello.com/c/wqQua5V4
 1. Fix internal server error while loading Admin/quotas. https://trello.com/c/XFHzPmlK
 1. Fix Page buttons for included histories. https://trello.com/c/BiAQqDGN
@@ -196,13 +201,16 @@ Thanks to our Galaxy community contributors!
 
 <br />
 # Tool Shed
-**[/Tool Shed](/Tool Shed)**
+
+**[Tool Shed](/src/Tool Shed/index.md)**
 ## Tool Migration Framework
-Also see above: [New Tool Migrations](#new-tool-migrations)
+
+Also see above: [New Tool Migrations](/src/DevNewsBriefs/2014_02_10/index.md#new-tool-migrations)
 1. Tags corrected: 11 tools migrated to Tool Shed contained spurious 'version=1.0.0' attribute. https://trello.com/c/2GklJHZi
 1. Implemented the ability to easily migrate a set of repositories from a tool shed to another tool shed. https://trello.com/c/J0MKjYZt
 
 ## Repositories
+
 1. New Tool Shed repo categories. https://trello.com/c/niCdaARH
 1. Enable easier tool upgrade process. https://trello.com/c/ct8YoJbf
 1. Add the ability for a repository owner to grant administrative privileges on their repository in the tool shed to other users. https://trello.com/c/guOeL1sF
@@ -221,6 +229,7 @@ Also see above: [New Tool Migrations](#new-tool-migrations)
   * *EMBOSS*: Updated repo so it downloads a precompiled platform-specific binary. https://trello.com/c/iW3Amhl5
 
 ## Install and Test Framework
+
 1. Several automated test framework fixes. https://trello.com/c/QWgsgll8
 1. Tool Shed now tests installation of packages. https://trello.com/c/HVGrShnC
 1. Captured "Tests that passed successfully" missing in "Automated tool test results" (Tool Shed regression). https://trello.com/c/ATclFLVH
@@ -237,6 +246,7 @@ Also see above: [New Tool Migrations](#new-tool-migrations)
 1. Functional tests for missing env.sh files re. complex repository dependencies. https://trello.com/c/hePIlUtK
 
 ## Fixes
+
 1. Fix grid message persistence. https://trello.com/c/im9XsLan
 1. Resolved bug in install and test framework linked to SAMtools dependency. https://trello.com/c/sN2iLCCn
 1. Fix to remove ghost folder in an old repository. https://trello.com/c/aQKWw8sn
@@ -246,22 +256,23 @@ Also see above: [New Tool Migrations](#new-tool-migrations)
 1. Restore files from test-data/ that were incorrectly removed during a tool migration. https://trello.com/c/nx5Q1JSw
 1. Images now displayed in "Installed tool shed repositories" page when using proxy-prefix. https://trello.com/c/iMQoElrE
 
-
 <br />
 <div class='right'>
-<br /><a href='http://usegalaxy.org'><img src='/Images/Logos/galaxyLogoTrimmed.png' alt='Galaxy' height="50" /></a><br />**usegalaxy.org**</div>
+<br /><a href='http://usegalaxy.org'><img src="/src/Images/Logos/galaxyLogoTrimmed.png" alt="Galaxy" height="50" /></a><br />**usegalaxy.org**</div>
 
 # Project Updates
-1. [/News](/src/News/index.md)
-1. [/Events](/src/Events/index.md)
+
+1. [News](/src/News/index.md)
+1. [Events](/src/Events/index.md)
 1. [Videos on Vimeo](https://vimeo.com/galaxyproject)
 1. *[February 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014_02)*
 1. *[January 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014_01)*
 1. *[December 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_12)*
 
----
+----
 <br />
 # About
+
 **[GalaxyProject.org](http://galaxyproject.org)**
 
 The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of the **[Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/)** at **[Penn State](http://www.psu.edu/)**, and the **[Department of Biology](http://www.bio.jhu.edu/)** at **[Johns Hopkinis University](http://www.jhu.edu/)**. 

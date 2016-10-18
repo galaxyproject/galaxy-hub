@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: August 11, ,,  2014 Galaxy Distribution News Brief
+title: August 11, 2014 Galaxy Distribution News Brief
 ---
 <div class='right'></div>
 
@@ -8,14 +8,14 @@ title: August 11, ,,  2014 Galaxy Distribution News Brief
 <br />
 [Distribution Summary 2014_08_11](/src/News/2014_08_11_Galaxy_Distribution/index.md)
 
-<div class='left'><a href='http://getgalaxy.org'><img src='/Images/Logos/GetGalaxyOrg.png' alt=' ' width=175 /></a></div>
+<div class='left'><a href='http://getgalaxy.org'><img src="/src/Images/Logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
 
 <br />
 <br />
 <br />
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
@@ -42,17 +42,20 @@ title: August 11, ,,  2014 Galaxy Distribution News Brief
 
 <br />
 # Security
+
 <!> On July 31st, we fixed a serious security vulnerability in Galaxy and notified the community. Please ***upgrade immediately*** if you haven’t done so already: [Instructions](http://tinyurl.com/nhgmbc5)
 
 Many thanks to Inge Alexander Raknes for reporting the issue [T1eldqfK](https://trello.com/c/T1eldqfK). Stay connected! We both [email](https://wiki.galaxyproject.org/MailingLists) and [tweet](https://twitter.com/galaxyproject) security alerts.
 
 # New! Citations
+
 [Wiki](http://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax#A.3Ccitations.3E_tag_set), Authored by Björn Grüning and Peter Cock
 
 Tools now annotate citation information. Tools annotate citations using either DOIs or raw BibTeX - these in turn are shown as formatted citations below the help text on tool forms and may be copied to reference managers as raw `BibTeX`. All annotated citations in a history can also be obtained using the history options menu. [kY7RCnd0](https://trello.com/c/kY7RCnd0)	
 
 # New! Docker
-<div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src='/Images/Logos/DockerInGalaxyAnnotated.png' alt=' ' width=220 /></a></div>
+
+<div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/src/Images/Logos/DockerInGalaxyAnnotated.png" alt=" " width=220 /></a></div>
 
 [Wiki](https://wiki.galaxyproject.org/Admin/Tools/Docker), Authored by Eric Rasche
 
@@ -61,6 +64,7 @@ Added tool-to-container mechanism to package dependencies that tool developers c
 Docker integration provides even greater security with [Pulsar](https://github.com/galaxyproject/pulsar) (formerly called the LWR) to expose only the staged job directory to the running container. [fUOhP58d](https://trello.com/c/fUOhP58d)
 
 # Improved
+
 1. Improved data loading efficiency in Trackster through »reference-based« compression for read tracks. [qoDpckp7](https://trello.com/c/qoDpckp7)
 1. DRMAA Python version in eggs.ini updated to 0.7.6. This version has better string handling and supports Python 3. Upgraded by Dan Blanchard. [E6h7wold](https://trello.com/c/E6h7wold)
 1. Added extension point to define site-specific parameters to aid defining job destinations. Based on contributions from Hector del Risco. [H87LotF7](https://trello.com/c/H87LotF7)	
@@ -96,6 +100,7 @@ Docker integration provides even greater security with [Pulsar](https://github.c
 1. Decided to strip() the repository names from the Toolshed "create repository" form. [NGUuuCRj](https://trello.com/c/NGUuuCRj)
 
 # Fixed
+
 1. Fix collection for recent Tool Shed code cleanups. For example, repository installations with the API using `./scripts/api/install_tool_shed_respositories.py`. Implemented by Björn Grüning. [mdNIKjbV](https://trello.com/c/mdNIKjbV)	
 1. Fix for interpreter on version commands (when different from command interpreter). Tracked down by Will Holtz, patched by Peter Cock. [d5AOLrGd](https://trello.com/c/d5AOLrGd)
 1. Admin operation »Impersonate a user« now functions when using external authentication. [zwqNwflD](https://trello.com/c/zwqNwflD)
@@ -133,6 +138,7 @@ Docker integration provides even greater security with [Pulsar](https://github.c
 1. Fix Main Tool Shed installation errors (URL related) for repositories owned by `devteam` (multiple). [uPaD4wLt](https://trello.com/c/uPaD4wLt) [sI1mnNLH](https://trello.com/c/sI1mnNLH)
 
 # Gossip
+
 1. Did you read above that LWR was officially renamed to PULSAR ? We don’t normally tag our own, but there’s a rumor his initials are *John Chilton*, or was it [Natefoo](https://en.wikipedia.org/wiki/Interstellar_communication)?
 1. Galaxy CHARTS were a big wow! on [Twitter](https://twitter.com/galaxyproject), and we thank you for that, but they didn’t make the last News Brief. Get caught up and make sure you don’t miss the full color **[Charts Wiki](https://wiki.galaxyproject.org/Learn/Visualization/Charts)** <div class='red'>this</span> <div class='blue'>time</span> <div class='green'>around</span> !
 1. Docker, Docker, [DOCKER](https://www.docker.com) .. chant (er, VOTE) in [Trello](https://wiki.galaxyproject.org/Issues) and you shall likely receive.
@@ -143,12 +149,15 @@ Docker integration provides even greater security with [Pulsar](https://github.c
   • [August 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014_08)
 
 # Galactic Stars
+
 {*} {*} {*} {*} {*} and big **Thank-You** to our community of contributors!
 
 # Upgrades
+
 1. Review instructions for core build: [Getting the Stable Distribution](http://getgalaxy.org)
 1. Review reset for Toolshed repos: [Resetting Metadata For Installed Repositories](http://wiki.galaxyproject.org/ResettingMetadataForInstalledRepositories)
 
 # About Galaxy
-<div class='left'><a href='http://usegalaxy.org'><img src='/Images/Logos/GalaxyLogoHighRes.png' alt='UseGalaxy.org' width="200" /></a></div>
-**[About Galaxy](/src/Support/AboutGalaxy/index.md)** • [Galaxy Project](/src/GalaxyProject/index.md) • [/Admin](/src/Admin/index.md) • [/Issues](/src/Issues/index.md) • [Big Picture](/src/BigPicture/index.md) • [/Community](/src/Community/index.md) • [Get Galaxy](/src/Admin/GetGalaxy/index.md) • [/CloudMan](/src/CloudMan/index.md) • [Tool Shed](/src/ToolShed/index.md) • [/Develop](/src/Develop/index.md) • [News Briefs](/src/DevNewsBriefs/index.md) • [Servers](/src/PublicGalaxyServers/index.md) • [/Learn](/src/Learn/index.md) • [/Support](/src/Support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/src/News/index.md) • [Twitter](/src/GalaxyOnTwitter/index.md) • [/Events](/src/Events/index.md) • [/Teach](/src/Teach/index.md) • [/Issues](/src/Issues/index.md) • [Cite](/src/CitingGalaxy/index.md) • [Galaxy Team](/src/GalaxyTeam/index.md)
+
+<div class='left'><a href='http://usegalaxy.org'><img src="/src/Images/Logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
+**[About Galaxy](/src/Support/AboutGalaxy/index.md)** • [Galaxy Project](/src/GalaxyProject/index.md) • [Admin](/src/Admin/index.md) • [Issues](/src/Issues/index.md) • [Big Picture](/src/BigPicture/index.md) • [Community](/src/Community/index.md) • [Get Galaxy](/src/Admin/GetGalaxy/index.md) • [CloudMan](/src/CloudMan/index.md) • [Tool Shed](/src/ToolShed/index.md) • [Develop](/src/Develop/index.md) • [News Briefs](/src/DevNewsBriefs/index.md) • [Servers](/src/PublicGalaxyServers/index.md) • [Learn](/src/Learn/index.md) • [Support](/src/Support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/News/index.md) • [Twitter](/src/GalaxyOnTwitter/index.md) • [Events](/src/Events/index.md) • [Teach](/src/Teach/index.md) • [Issues](/src/Issues/index.md) • [Cite](/src/CitingGalaxy/index.md) • [Galaxy Team](/src/GalaxyTeam/index.md)

@@ -1,19 +1,19 @@
 # May 20, 2011 Galaxy Development News Brief
 
----
+----
 [Get Galaxy!](http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy)
 
 new: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`
 
 upgrade: `% hg pull -u -r 8c11dd28a3cf`
 
----
+----
 ## GCC 2011
 
 **May 24-26, 2011 Galaxy Community Conference**, Lunteren, The Netherlands.
  [http://galaxy.psu.edu/gcc2011/](http://galaxy.psu.edu/gcc2011/)
 
----
+----
 
 ## What's New
 
@@ -22,6 +22,7 @@ upgrade: `% hg pull -u -r 8c11dd28a3cf`
 Two new features (so far) were created and added to Galaxy from the May conference.
 
 #### Hackaton: tool_conf.xml Autogeneration
+
 Work from the NBIC Galaxy Hackathon by Rob Hooft, Henk van den Toorn,
 and Wil Koetsier which adds new optional tags to tool configuration
 files, and a script which uses these tags to automatically generate
@@ -64,11 +65,13 @@ them in a cloud at the top of the tool menu when unhidden via the tool
 panel's "Options" menu.
 
 ### Picard
+
 [http://picard.sourceforge.net](http://picard.sourceforge.net)
 
 New Galaxy tools wrapping the most commonly used ***Picard*** functions related to metrics and repair of mapped short read sequencing.
 
 #### Metrics include
+
 * *BAM* index statistics (count of mapped reads by reference chromosome)
 * Alignment summary
 * Hybrid selection (for targeted data)
@@ -76,16 +79,19 @@ New Galaxy tools wrapping the most commonly used ***Picard*** functions related 
 * Library complexity
 
 #### Repair tools include
+
 * Fix mate pair, mark optical/pcr duplicates
 * Add or replace read groups
 * *SAM/BAM*: replace headers and/or reorder based on a different reference
 
 ### FastQC
+
 [http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc/](http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc/)
 
 New tool wrapper generates a comprehensive and useful QC report.
 
 #### Inputs and Outputs
+
 * This wrapper will accept any *FASTQ*, *SAM*, or *BAM* file as primary input. It will also take an optional file containing a list of contaminants information, in the form of a tab-delimited file with 2 columns, name and sequence.
 * The tool produces a single HTML output file that contains all of the results, including the following basic statistics:
   * Per base sequence quality
@@ -98,25 +104,26 @@ New tool wrapper generates a comprehensive and useful QC report.
   * Sequence Duplication Levels
   * Overrepresented sequences
 
-![](/2011_05_20_fastqc.png)
+![](/src/DevNewsBriefs/2011_05_20/2011_05_20_fastqc.png)
 
 ### Workflows & Multiple datasets
 
 Workflows can now be run on multiple datasets at the same time.  The run workflow page will now show a new stacked dataset icon.  
 
-![](/2011_05_20_workflow1.png)
+![](/src/DevNewsBriefs/2011_05_20/2011_05_20_workflow1.png)
 
 Upon clicking that, the selection box changes to a multi-select, and an independent workflow execution will occur for each of these input dataset steps.  The rest of the parameters of the workflow will be identical.  Combining this functionality with the existing "Send results to a new history" option will send the results of *each* workflow execution to a separate history, numbered sequentially "<name> 1", "<name> 2", etc., where <name> is whatever text you put in the new history name box.
 
-![](/2011_05_20_workflow2.png)
+![](/src/DevNewsBriefs/2011_05_20/2011_05_20_workflow2.png)
 
 Please note that this new type of "multiple-input dataset" step can currently be used only once in any individual workflow.
 
----
+----
 
 ## Updated & Improved
 
 ### Current Tools
+
 * *BAM to SAM* tool can now optionally output headers.
 * *GFF*,*GFF3*,*GTF* related
   * Gracefully handle parsing errors in GFFReader and accurately compute raw size of *GFF* features.
@@ -148,6 +155,7 @@ Please note that this new type of "multiple-input dataset" step can currently be
   * Outputs for the following now are correctly set to the relevant dbkey (for reference dbkey whether using built-in or one from history): *Freebayes, SRMA, Mosaik, BFAST, Bowtie, BWA, sam-to-bam, and bam-to-sam*. 
 
 ### New Tools
+
 * *GATK* 
   * *note* These tool integrations should be considered alpha. Changes are not necessarily backwards-compatible with workflows or re-run functionality.
   * *Realigner Target Creator* 
@@ -159,6 +167,7 @@ Please note that this new type of "multiple-input dataset" step can currently be
 * Add tool *Filter GTF by attribute values list*. Tool filters a *GTF* based on a list of attribute values. The tool is especially useful as a downstream analysis tool for filtering *GTF* files based on *Cuffdiff* outputs.
 
 ### Trackster
+
 * Greatly improve !LineTrack performance to fetch optimal amount of data for display.
 * Add support for *Operate on Genomic Intervals (GOPS)* intersect and subtract tool.
 * Enable users not logged in to use tools in shared visualizations.
@@ -170,18 +179,22 @@ Please note that this new type of "multiple-input dataset" step can currently be
 * Enable a tool to be run on complete dataset or a visible region.
 
 ### User Interface (UI)
+
 * Show rerun and info buttons in dataset previews for additional states (e.g. running, queued).
 * Show details button functional for all tools run within a history, even if currently retired.
 * Show inheritance chain for datasets expanded to note if source was another history or a library.
 
 ### CloudMan
+
 * Cloud instance sharing: now share your entire cloud instance deployment (including data, analyses, and/or customizations) with the world or specific users with a click of a button.
 
-![](/2011_05_20_cloudman1.png)
+![](/src/DevNewsBriefs/2011_05_20/2011_05_20_cloudman1.png)
 
 ### Source
+
 * Reserved/predefined tool template values
   * Tool command line templates may make use of certain variables
+
 pre-defined by the Galaxy framework.  Some of these already existed but
 were undocumented.  All have been changed to use a common (pythonic)
 naming scheme, but the old names are retained for backwards
@@ -197,15 +210,18 @@ compatibility:
 * </u>app__.config and much more.  Should be used as a last resort, may go away in future releases.
 
 ### Tool Framework
+
 * When label text for a static option in a *!SelectToolParameter* is not provided, default to using the 'value'.
 * Fix for dynamic options when referencing a *!DataToolParameter* that has already been wrapped.
 * Only allow a user to rerun if they have access permissions on the dataset.
 
 ### Test Framework
+
 * Add a "contains" compare type to functional tests. Enables simple checking for substrings in a test output file, on a line-by-line basis.
 * Fix for expand grouping to allow toolbox tests to use the default parameter value.
 
 ### Bug Fixes
+
 * Have *MACS* peak caller wrapper use return code to set error state. Fixes issues seen when MACS was be green, despite encountering fatal errors.
 * Fix hyperlinks in *Cuffcompare* and *Cuffdiff* documentation.
 * Add support for comment handling to gff_to_interval_index tool.
@@ -214,11 +230,10 @@ compatibility:
 * *SGE/DRMAA* runners did not respect the value set in cluster_files_directory.
 * Galaxy did not set a public username when 'use_remote_user = True' and did not provide an interface to set it.  Upon account creation, Galaxy will now automatically create a public username matching the username portion of the user's email address, with any non-alphanumeric characters replaced with a '-'.  If the username is not unique, a '1' is appended, and then incremented until the username is unique.  Users may modify their public username via the User menu in the masthead.
 
-
-
----
+----
 
 ### About Galaxy
+
 The **Galaxy team** is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html). 
 
 **Galaxy** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
@@ -239,4 +254,4 @@ Join us at **Twitter**
 [http://twitter.com/#!/search/galaxyproject](http://twitter.com/#!/search/galaxyproject) 
 
 
----
+----

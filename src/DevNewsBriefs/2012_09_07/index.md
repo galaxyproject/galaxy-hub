@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: September 07, ,,  2012 Galaxy Development News Brief
+title: September 07, 2012 Galaxy Development News Brief
 ---
 <div class='right'></div>
 
@@ -9,7 +9,7 @@ title: September 07, ,,  2012 Galaxy Development News Brief
 <br />
 # Get Galaxy
 
-<div class='left'><a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=50 /></a></div>
+<div class='left'><a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=50 /></a></div>
 
  **[getgalaxy.org](http://getgalaxy.org)** 
 
@@ -23,13 +23,14 @@ title: September 07, ,,  2012 Galaxy Development News Brief
 <br />
 # BLAST+ Migration
 
-The tool set **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/)** has moved from the Galaxy distribution to the Galaxy Main **[/Tool Shed](/Tool Shed)**.
+The tool set **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/)** has moved from the Galaxy distribution to the Galaxy Main **[Tool Shed](/src/Tool Shed/index.md)**.
 
-Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing **BLAST** (and **blastxml**) from the **[/Tool Shed](/Tool Shed)**.
+Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing **BLAST** (and **blastxml**) from the **[Tool Shed](/src/Tool Shed/index.md)**.
 
 <br />
 # Reference Genome rsync Server
-If you would like to obtain the same *reference genome builds and indexes* as available on the public **Galaxy [/Main](/src/Main/index.md)** instance, these can retrieved from the rsync server at:
+
+If you would like to obtain the same *reference genome builds and indexes* as available on the public **Galaxy [Main](/src/Main/index.md)** instance, these can retrieved from the rsync server at:
 ```
 datacache.g2.bx.psu.edu
 ```
@@ -41,50 +42,55 @@ $ rsync -avzP rsync://datacache.g2.bx.psu.edu/indexes/phiX .
 ```
 
 
-Genomes are organized in directories by the `dbkey`. If you are not sure of the `dbkey`, check your datasets. The `dbkey` is what is populated into the "database" attribute for a dataset. Read more [about how this fits into data integration](/Admin/Data Integration) or [setting up native genome indexes](/Admin/NGS Local Setup).
+Genomes are organized in directories by the `dbkey`. If you are not sure of the `dbkey`, check your datasets. The `dbkey` is what is populated into the "database" attribute for a dataset. Read more [about how this fits into data integration](/src/Admin/Data Integration/index.md) or [setting up native genome indexes](/src/Admin/NGS Local Setup/index.md).
 
 <br />
 # More Updates to Output and Error Handling
+
 As reported in the *[July 20th, 2012 News Brief](/src/DevNewsBriefs/2012_07_20/index.md)*, several changes have been made to the underlying code that determines run result state from tool exit codes and output. There are now additional enhancements to applying regular expressions and exit code checks. [Read more...](/src/Admin/Tools/ToolConfigSyntax/index.md#a3cstdio3e2c_3cregex3e2c_and_3cexit_code3e_tag_sets)
 
 <br />
 # Tools
-[/Admin/Config/Tool Dependencies](/Admin/Config/Tool Dependencies)
+
+[Admin/Config/Tool Dependencies](/src/Admin/Config/Tool Dependencies/index.md)
 * *Enhancements*
   * **[Tophat2](http://tophat.cbcb.umd.edu/tutorial.html)** wrapper enhancements: 
     * Include fusions output. Read more about what this is in the [Tophat2 Manual's](http://tophat.cbcb.umd.edu/manual.html) section *Fusion mapping options:*
   * **[Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml)** wrapper enhancements: 
-    * Output sorted **[BAM](/Learn/Datatypes#bam)** from **Bowtie2** by default
+    * Output sorted **[BAM](/src/Learn/Datatypes/index.md#bam)** from **Bowtie2** by default
     * One benefit is that **BAM** results can be used as input to **[Cufflinks](http://cufflinks.cbcb.umd.edu/)** without an [intermediate sorting step](http://main.g2.bx.psu.edu/u/jeremy/p/transcriptome-analysis-faq#faq2).
-    * *NOTE:* If you are using an older version of *Bowtie* or uploading your own results, sorting is still required before running *Cufflinks*, whether in [SAM](/Learn/Datatypes#sam) or [BAM](/Learn/Datatypes#bam) format.
+    * *NOTE:* If you are using an older version of *Bowtie* or uploading your own results, sorting is still required before running *Cufflinks*, whether in [SAM](/src/Learn/Datatypes/index.md#sam) or [BAM](/src/Learn/Datatypes/index.md#bam) format.
 * *New*
-  * **[Galaxy RNA-seq Analysis Exercise](http://main.g2.bx.psu.edu/u/jeremy/p/galaxy-rna-seq-analysis-exercise)** on [/Main](/src/Main/index.md)
+  * **[Galaxy RNA-seq Analysis Exercise](http://main.g2.bx.psu.edu/u/jeremy/p/galaxy-rna-seq-analysis-exercise)** on [Main](/src/Main/index.md)
     * Walks through sample protocol step-by-step using paired-end data, initial read QC through **[CuffDiff](http://cufflinks.cbcb.umd.edu/)** analysis
     * Includes **[iGenomes](http://tophat.cbcb.umd.edu/igenomes.html)** sourced **[reference annotation GTF](http://tophat.cbcb.umd.edu/igenomes.html)**, an answer key, and bonus resources 
 
 <br />
 # User Interface (UI)
+
 * *Enhancements*
   * Does not use `enable_tracks` or `enable_pages` options anymore; visualizations and pages are enabled for *all instances*.
 * *New*
   * Addition of **interactive phylogenetic tree visualization**.
 
-</div><a href='/Learn'><img src='/Images/NewsGraphics/2012_09_07_interactive-phylo-tree.png' alt='interactive-phylo-tree' width=800 /></a></div>
+</div><a href='/src/Learn/index.md'><img src="/src/Images/NewsGraphics/2012_09_07_interactive-phylo-tree.png" alt="interactive-phylo-tree" width=800 /></a></div>
 
 <br />
 # Galaxy Track Browser (GTB)
+
 [Trackster](/src/Learn/Visualization/index.md)
 * *New*
   * Rewrite sampling code for **[bigWig](http://genome.ucsc.edu/goldenPath/help/bigWig.html)** / **[bigBed](http://genome.ucsc.edu/goldenPath/help/bigBed.html)**
 * *Enhancements*
   * Enable visualization of **[bedGraph](http://genome.ucsc.edu/goldenPath/help/bedgraph.html)** datasets
   * Server-side code for coverage histograms
-  * Add feature search to **[Trackster](/src/Learn/Visualization/index.md)** ; typing in location box will search tracks in visualization for features that start with entered text. Works with **[GFF](/Learn/Datatypes#gff)**, **[GTF](/Learn/Datatypes#gtf)**, and **[BED](/Learn/Datatypes#bed)** datasets. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/611](https://bitbucket.org/galaxy/galaxy-central/issue/611)
+  * Add feature search to **[Trackster](/src/Learn/Visualization/index.md)** ; typing in location box will search tracks in visualization for features that start with entered text. Works with **[GFF](/src/Learn/Datatypes/index.md#gff)**, **[GTF](/src/Learn/Datatypes/index.md#gtf)**, and **[BED](/src/Learn/Datatypes/index.md#bed)** datasets. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/611](https://bitbucket.org/galaxy/galaxy-central/issue/611)
 
-<a href='/Learn/Visualization'><img src='/Images/NewsGraphics/2012_09_07_trackster-feature-search.png' alt='trackster-feature-search.png' width=800 /></a>
+<a href='/src/Learn/Visualization/index.md'><img src="/src/Images/NewsGraphics/2012_09_07_trackster-feature-search.png" alt="trackster-feature-search.png" width=800 /></a>
 
 <br />
 # Source
+
 * *New*
   * A native job runner for the *Condor DRM*, submitted by Jaime Frey
   * `scripts/db_shell.py` is an interactive shell for working with the Galaxy model, contributed by John Chilton
@@ -102,17 +108,17 @@ $ sh run.sh --daemon/sh run.sh --stop-daemon
 
 <br />
 # Workflows
+
 * *New* 
   * New parent tag copying for multiple workflow run output histories, contributed by Brad Langhorst. See *[pull request 54](http://bitbucket.org/galaxy/galaxy-central/pull-request/54)*
 * *Enhancements* 
   * Workflow API changes to support parameter execution and workflow creation, in collaboration with Richard Park. See *[pull request 55](http://bitbucket.org/galaxy/galaxy-central/pull-request/55)*
   * Additional API changes, contributed by John Chilton. See *[pull request 62](http://bitbucket.org/galaxy/galaxy-central/pull-request/62)*
 
-
-
 <br />
 # Tool Shed
-[/Tool Shed](/Tool Shed)
+
+[Tool Shed](/src/Tool Shed/index.md)
 * *Fixes*
   * Several miscellaneous fixes for using a **[SQLite](http://www.sqlite.org/)** database with a local tool shed.
   * It is no longer possible to change the name of a repository in the tool shed at during the time when the repository is first being cloned.
@@ -120,6 +126,7 @@ $ sh run.sh --daemon/sh run.sh --stop-daemon
   * Error messages have been improved for tool shed repositories that include invalid tools.  Clicking on an invalid tool in your repository should provide you the information needed to correct the tool.
   * Tool section labels are now handled correctly in the tool panel (attempting to remove them or change their location in the tool panel used to be problematic).
   * Entries defined in the `tool_shed_conf.xml` file no longer require a trailing '/' in the defined urls.  For example, the following entry used to be necessary:
+
 <div class='indent'><div class='indent'>
 ```
 <tool_shed name="My local tool shed" url="http://localhost:9009/"/>
@@ -136,29 +143,30 @@ Now the above entry still works, but the following entry is also ok (notice the 
 
 * *Enhancements*
   * The Tool Shed is now running **[Mercurial version 2.2.3](http://mercurial.selenic.com/)**.
-  * The **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** repository was updated in the **[Main Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/)** to *Revision: 7:d3bf1e86b243*, so make sure to get the updates if you have installed it into your **[local Galaxy instance](http://getgalaxy.org)**. For details about getting updates to your installed repositories, see this section of the Galaxy tool shed wiki [Getting updates for tool shed repositories installed in a local Galaxy instance](/Tool Shed#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance)
+  * The **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** repository was updated in the **[Main Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/)** to *Revision: 7:d3bf1e86b243*, so make sure to get the updates if you have installed it into your **[local Galaxy instance](http://getgalaxy.org)**. For details about getting updates to your installed repositories, see this section of the Galaxy tool shed wiki [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/Tool Shed/index.md#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance)
   * The implementation for importing proprietary datatype class modules included in a tool shed repository now supports class module files whose name conflicts with a **[Python](http://www.python.org/)** standard library module name.  For example, if a proprietary datatype class module is named `xml.py`, it will now be correctly imported even though the name conflicts with the Python standard library's xml module.
   * The repository tip is now displayed in a column that is separate from the repository's installable changeset revisions in the tool shed.
 
-<a href='/Tool Shed'><img src='/Images/NewsGraphics/2012_09_07_repository-grid.png' alt='repository-grid.png' /></a>
+<a href='/src/Tool Shed/index.md'><img src="/src/Images/NewsGraphics/2012_09_07_repository-grid.png" alt="repository-grid.png" /></a>
 
 * Additional information has been added to the "Tool metadata" page, which is displayed when you choose the "View tool metadata" option from a tool's pop-up menu.  This menu is available in 2 locations: when viewing the repository in a tool shed, and when viewing a repository (which includes tools) that has been installed into a local Galaxy instance.  The additional information added to the Tool metadata page includes:
   * information about tool dependencies if they have been defined in the repository
   * requirements defined in the tool config `<requirements>` tag set
   * The tool's version lineage information, an example of which is shown here for a sample tool named **Filter**
 
-<a href='/Tool Shed'><img src='/Images/NewsGraphics/2012_09_07_view-tool-metadata-page.png' alt='view-tool-metadata-page.png' /></a>
+<a href='/src/Tool Shed/index.md'><img src="/src/Images/NewsGraphics/2012_09_07_view-tool-metadata-page.png" alt="view-tool-metadata-page.png" /></a>
 
 * In addition to browsing repositories that you own, you can now also browse repositories for which you have been granted "write" permission.  Here is a snapshot of the new Galaxy tool shed menu.
 
-<a href='/Tool Shed'><img src='/Images/NewsGraphics/2012_09_07_tool-shed-menu.png' alt='tool-shed-menu.png' /></a>
+<a href='/src/Tool Shed/index.md'><img src="/src/Images/NewsGraphics/2012_09_07_tool-shed-menu.png" alt="tool-shed-menu.png" /></a>
 
 <br />
 # Bug Fixes
-<div class='right'><a href='/Support'><img src='/Images/Icons/bug.png' alt='bugs' width=20 /></a></div> 
+
+<div class='right'><a href='/src/Support/index.md'><img src="/src/Images/Icons/bug.png" alt="bugs" width=20 /></a></div> 
 * *General*
   * Fix permissions problems on `stdout/stderr/errorcode` files when running jobs as the [real system user](/src/DevNewsBriefs/2012_01_27/index.md#run_cluster_jobs_as_the_real_user).
-  * Galaxy will no longer try to modify permissions of [linked library uploads](/Admin/Data Libraries/Uploading Library Files).
+  * Galaxy will no longer try to modify permissions of [linked library uploads](/src/Admin/Data Libraries/Uploading Library Files/index.md).
   * Galaxy will honor `umask` when creating temporary library archives for download (solves permissions problems when sending via a proxy server).
   * Fix tabular display to serve raw when `preview == False`, which should resolve external display issues.
   * Fix `convert_newlines` and `sep2tabs` to return '0' lines in the event of an empty file, instead of throwing an exception.
@@ -178,15 +186,17 @@ Now the above entry still works, but the following entry is also ok (notice the 
 * *Tools*
   * Move implementation of `from_work_dir` attribute from job finish to job command line to make compatible when setting metadata externally.
   * Require **[pileup](http://samtools.sourceforge.net/pileup.shtml)** format as input to `/tools/samtools/pileup_parser.*` tool.
-  * Set attribute metadata for **[GFF](/Learn/Datatypes#gff)** and **[GFF3](/Learn/Datatypes#gff3)** in addition to **[GTF](/Learn/Datatypes#gtf)**.
+  * Set attribute metadata for **[GFF](/src/Learn/Datatypes/index.md#gff)** and **[GFF3](/src/Learn/Datatypes/index.md#gff3)** in addition to **[GTF](/src/Learn/Datatypes/index.md#gtf)**.
 
 <br />
 # Announcements
-[/News](/src/News/index.md), *[August](/src/GalaxyUpdates/2012_09/index.md)* and *[September](/src/GalaxyUpdates/2012_09/index.md)* *2012 Galaxy Updates*
 
-<div class='right'><a href='/GalaxyUpdates/2012_09'><img src='/Images/Logos/GalaxyUpdate200.png' alt='September 2012 Galaxy Update' width=150 /></a></div>
+[News](/src/News/index.md), *[August](/src/GalaxyUpdates/2012_09/index.md)* and *[September](/src/GalaxyUpdates/2012_09/index.md)* *2012 Galaxy Updates*
+
+<div class='right'><a href='/src/GalaxyUpdates/2012_09/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="September 2012 Galaxy Update" width=150 /></a></div>
 
 ## Highlights
+
 * ***Aug***
   * [GCC2012 & GCC2013](/src/GalaxyUpdates/2012_08/index.md#gcc2012--gcc2013): slides and video
   * [29 new papers](/src/GalaxyUpdates/2012_08/index.md#new-papers)
@@ -199,7 +209,8 @@ Now the above entry still works, but the following entry is also ok (notice the 
   * [Tool Shed Contributions](/src/GalaxyUpdates/2012_09/index.md#tool-shed-contributions)
 
 ## Swiss Galaxy Day
-<div class='right'><a href='/Events/Switzerland2012'><img src='/Images/Logos/2012SwissGalaxyWorkshop-400.png' alt='Swiss Galaxy Day' height="100" /></a></div>
+
+<div class='right'><a href='/src/Events/Switzerland2012/index.md'><img src="/src/Images/Logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
 
 The 1<sup>st</sup> [Swiss Galaxy Workshop](/src/Events/Switzerland2012/index.md) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
  
@@ -209,22 +220,25 @@ The workshop is part of the SyBIT Tech Day series.
 
 <br />
 ## Who's Hiring
+
 <div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
 The Galaxy is expanding!  Please help it grow.
 * The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs @ Penn State and Emory
 * [Bioinformatics & Integrative Genomics Specialist - Manager Bioinformatics Consulting Core](http://www.nature.com/naturejobs/science/jobs/275747-Bioinformatics-Integrative-Genomics-Specialist-Manager-Bioinformatics-Consulting-Core) @ Leuven, Belgium
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
+
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it the next [Galaxy Update](/src/GalaxyUpdates/index.md) and [News Brief](/src/DevNewsBriefs/index.md).
 <br />
 <br />
----
+----
 <br />
 <br />
 # About Galaxy
+
 **[GalaxyProject.org](http://galaxyproject.org)**
 
 The **[Galaxy Team](/src/GalaxyTeam/index.md)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[/Galaxy on Twitter](/Galaxy on Twitter)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/Galaxy on Twitter/index.md)**

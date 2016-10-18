@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/Develop/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
 
 # Getting Started with Galaxy Development
 
@@ -8,7 +8,7 @@ This page is a combination walk through guide and list of links meant to help ne
 
 If you are unfamiliar with Galaxy - the best way to start by using Galaxy, for instance by  walking through a simple analysis. [The Galaxy 101](https://usegalaxy.org/u/aun1/p/galaxy101) on [usegalaxy.org](https://usegalaxy.org/) is such a place to start. Those wishing to dive deeper into using Galaxy - checkout the following resources.
 
-* The [/Learn](/src/Learn/index.md) wiki section
+* The [Learn](/src/Learn/index.md) wiki section
 * Our [videos on vimeo](http://vimeo.com/galaxyproject/channels) (and the [usegalaxy channel](http://vimeo.com/73486255) in particular)
 
 ## Develop a Tool
@@ -19,7 +19,7 @@ Once familiar with Galaxy, every developer should write at least one Galaxy tool
 
 For those particularly interested in tool development the following section provides many more resources to read through and opportunities for contribution.
 
-PLACEHOLDER_INCLUDE(/Develop/ResourcesTools)
+PLACEHOLDER_INCLUDE(/src/Develop/ResourcesTools/index.md)
 
 ## Using the API
 
@@ -54,3 +54,4 @@ In addition to the Galaxy core project and tool projects listed above - there ar
   * [https://github.com/galaxyproject/ansible-galaxy-extraslAnsible Galaxy Extras](https://github.com/galaxyproject/ansible-galaxy-extraslAnsible Galaxy Extras) Ansible role for configuring dynamic production servers such as Docker images and cloud-based virtual machines (used by planemo-machine and docker-galaxy-stable).
   * [Ansible CloudMan Image](https://github.com/galaxyproject/ansible-cloudman-image) Ansible role for configuring an Ubuntu operating system for CloudMan.
   * [https://github.com/galaxyproject/ansible-tracksterlAnsible Trackster](https://github.com/galaxyproject/ansible-tracksterlAnsible Trackster) Ansible role for configuring Trackster dependencies.
+

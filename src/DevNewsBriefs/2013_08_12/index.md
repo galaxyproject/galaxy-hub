@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: August 12, ,,  2013 Galaxy Distribution News Brief
+title: August 12, 2013 Galaxy Distribution News Brief
 ---
 <div class='right'></div>
 
@@ -14,10 +14,11 @@ title: August 12, ,,  2013 Galaxy Distribution News Brief
 
 <br />
 # Get Galaxy
+
 *Please note new* **upgrade** *syntax*
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
@@ -44,12 +45,14 @@ title: August 12, ,,  2013 Galaxy Distribution News Brief
 <br />
 <br />
 # Core Distribution Process
+
 **If you need a refresher about how to upgrade or this is your first upgrade in a while, please see the latest instructions at [Get Galaxy](http://getgalaxy.org)**. Even more details are outlined in the **[April 2013 News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2013_04_01)**.
 
 <br />
 # Tool Shed Repository Process
 
 ## Required metadata reset for installed tool shed repositories
+
 **It is critical that you reset the metadata on your installed tool shed repositories when you upgrade your Galaxy instance to this revision!**
 <br />  
 When a tool shed repository is installed into your local Galaxy instance, metadata is generated for the repository as a part of the installation process and stored in the `tool_shed_repository.metadatatable column` in the Galaxy database. This automatic process inspects the contents of the specific revision of the installed repository and generates and stores important information about it. This metadata information is used by certain Galaxy features. As new features are added to Galaxy or the tool shed, the process that generates this installed tool shed repository metadata within the Galaxy instance may be enhanced to accommodate information about the new features. [Read more…](http://wiki.galaxyproject.org/ResettingMetadataForInstalledRepositories)
@@ -57,28 +60,32 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 
 <br />
 # Tools
+
 1. **Data Manager**
   * Individual location files are now namespaced when installed from the toolshed, and
   * Will write only to the location files that were installed along with them, when installed from a toolshed. https://trello.com/c/UL2Ripd0
   * Allow a named Tool Data Table to be defined more than once. If column definitions match, allow merging multiple tables. https://trello.com/c/p7I9adrj
   * Permit multiple value translations to be specified per column and also allow multiple types of value translations. https://trello.com/c/n97jX4UN
 
-
 <br />
 # Visualizations
+
 ## Framework
+
 1. A visualization is now defined as a page template that is sent certain data. https://trello.com/c/q4Kmfgf8
 1. Created flexible (and _backwards compatible_) way to serve data from datasets in useful formats. https://trello.com/c/JzRLiJjA
 1. Moved to a 1 file per config in [VisualizationRegistry](http://wiki.galaxyproject.org/VisualizationsRegistry) structure to improve performance. https://trello.com/c/wzbdeFOe
 1. New wiki page explaining the first, lowest level of the visualizations framework. [Read it here...](http://wiki.galaxyproject.org/VisualizationsRegistry)
+
 ## Fixes
+
 1. **Phyloviz**: Correct d3 translate and node error, and…
 1. **Scatterplot**: Correct failure for data provider to get column data from certain datatypes (BED). https://trello.com/c/ClfwTdwp
 1. **Trackster**: Correct bug where emptying 'Histogram maximum' field causes track to disappear. https://trello.com/c/tnpkT47t
- 
 
 <br />
 # Workflows
+
 1. No longer require re-import when a Workflow requires new tools to be installed, and
 1. Guarantee reproducibility in all cases by considering tool versions not just tool ids, and
 1. Improve linkage/discovery using tool versions to associate lineage. https://trello.com/c/lpS8FKxY
@@ -86,6 +93,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 
 <br />
 # UI
+
 1. Upgrade [jQuery to v1.9.1](http://jquery.com/upgrade-guide/1.9/#overview). https://trello.com/c/hIYOsx8T
 1. Include ` #<hda_id> ` scroll to usage behavior in history panel. https://trello.com/c/OcCloWaH
 1. Tools no longer pop up in the Workflow editor. https://trello.com/c/D7wbwdfc
@@ -93,17 +101,20 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 1. Remove unnecessary display button from uploading hdas (no usable action). https://trello.com/c/DWYuTxtA
 
 ## API
+
 1. Allow copy of HDA to Library based on permissions. https://trello.com/c/0d2Ve8WC
 1. `raw_data`: allow un-formatted return data. https://trello.com/c/MgXZFFiq
 1. Adjust ability to delete histories with correct result: History deleted, HTTP 200 response or History doesn't exist, HTTP 400 response. https://trello.com/c/MQMOHnWE, https://trello.com/c/rSdegG7Z, https://trello.com/c/kjQ1tnzR
 
 <br />
 # Admin
+
 1. Better use of Sphinx auto docs: ensure proper settings (in docs makefile) to capture as much in-code documentation as possible. https://trello.com/c/DBQHTP35
 1. Add scrollbar to Administration panel. https://trello.com/c/fGc5UniU
 
 <br />
 # Core
+
 1. In the client, handle all errors more gracefully and in the worst case, use modal in place of alert. https://trello.com/c/F535Sdb7
 1. Improvements to 'bad gateway' handling by history updater. https://trello.com/c/mIgcF4xQ
 1. Move rendering of user quota from the history panel to the masthead template to improve timing of update. https://trello.com/c/eh3yo22z
@@ -111,6 +122,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 
 <br />
 # Pull Requests Merged
+
 1. Fix problems with set_user_disk_usage.py with Postgres 8.x. **[#97](https://bitbucket.org/galaxy/galaxy-central/pull-request/97)**. Thanks to [Lance Parsons](http://lanceparsons.net/). https://trello.com/c/Z0EynAV2
 1. Dynamic Toolbox Filtering. **[#160](https://bitbucket.org/galaxy/galaxy-central/pull-request/160)**. Thanks to [John Chilton](http://jmchilton.net/). https://trello.com/c/k50h7lFt
 1. Datatype Tracking Refactoring. **[#86](https://bitbucket.org/galaxy/galaxy-central/pull-request/86)**. Thanks to [John Chilton](http://jmchilton.net/). https://trello.com/c/GH0Bc5ow
@@ -119,7 +131,8 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 
 <br />
 # Tool Shed
-**[/Tool Shed](/Tool Shed)**
+
+**[Tool Shed](/src/Tool Shed/index.md)**
 
 ## New Tool Shed Features
 
@@ -139,6 +152,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
   * Add a change_directory action.
   * Contributions from [Björn Grüning](https://bitbucket.org/BjoernGruening) (thanks!) adding support for a `template_command` action type in tool dependency definitions for the tool shed. An example of the new action tag is:
     ```
+
 <action type="template_command" language="cheetah">...</action>
 ```
 
@@ -156,9 +170,11 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 1. #9 Fix tool shed functional tests recently broken due to experimental rendering of `README` files in tool shed repositories.
 
 ## Accepted Tool Shed pull requests
+
 1. A slight variation on [Nicola Soranzo](https://bitbucket.org/nsoranzo)'s pull request (thanks!) **[#176](https://bitbucket.org/galaxy/galaxy-central/pull-request/176)** for fixing large file downloads using `download_by_url`.
 
 ## Miscellaneous Tool Shed fixes and enhancements
+
 1. Fix for handling multiple repository installations simultaneously when handle repository dependencies is checked and at least 1 selected repository for installation has no repository dependencies while at least one selected repository for installation does. This scenario occurs only when searching the tool shed for tools rather than browsing it for repositories.
 1. Fix for rendering the number of tool dependencies and repository dependencies that failed to install in the tool shed automated test framework rss feed.
 1. Make sure custom datatypes contained in newly installed tool shed repositories are loaded into the upload form's File Format select list. Also, when an installed repository is uninstalled, remove the appropriate datatype extensions from the upload form's select list.
@@ -183,7 +199,6 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 1. Fix for installing a repository with a complex tool dependency where the dependent repository's tool dependency definition does not define any `set_environment` actions.
 1. Do not truncate tool test input dataset names, as Galaxy no longer displays them truncated.
 1. Clear tool test results when the skip tool tests option is enabled.
-
 
 ### Tool Shed Tickets
 
@@ -235,6 +250,7 @@ Details: Only Galaxy instances with `allow_user_impersonation = True` set in the
 
 <br />
 # Bug Fixes
+
 1. Fix bug where stopping job via admin interface causes exception. https://trello.com/c/qL2IA6dE
 1. Fix bug in hpanel (Chrome) related to broken persistent expanded hda views. https://trello.com/c/DOm9g4Bg
 1. Fix bug where deleted user Workflows were not removed from tool menu (if added). https://trello.com/c/QgvQF9fr
@@ -247,21 +263,25 @@ Details: Only Galaxy instances with `allow_user_impersonation = True` set in the
 <br />
 
 <div class='right'>
-<br /><a href='http://wiki.galaxyproject.org/Events/GCC2013/Photos'><img src='/Images/NewsGraphics/2013_08_12_gcc-main-room.jpg' alt='GCC 2013' width=300 /></a><br />**GCC 2013**</div>
+<br /><a href='http://wiki.galaxyproject.org/Events/GCC2013/Photos'><img src="/src/Images/NewsGraphics/2013_08_12_gcc-main-room.jpg" alt="GCC 2013" width=300 /></a><br />**GCC 2013**</div>
 
 # Project Updates
-**[/News](/src/News/index.md)**, ***[August 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_08)***
+
+**[News](/src/News/index.md)**, ***[August 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_08)***
 
 ## GCC 2013 Wrap-up
+
 **[GCC2013 Report](/src/GalaxyUpdates/2013_08/index.md#gcc2013-report):** Meeting summaries, and links to videos, talks, posters, and Training Day materials.
 <br />
 ## New Way to "Use Galaxy"
+
 **[Galaxy Edition of SlipStream:](/src/GalaxyUpdates/2013_08/index.md#slipstream-appliance-galaxy-edition-announced) ***Galaxy*** is now available as an appliance.
 <br />
 <br />
----
+----
 <br />
 # About
+
 **[GalaxyProject.org](http://galaxyproject.org)**
 
 The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 

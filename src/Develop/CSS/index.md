@@ -1,7 +1,7 @@
 ---
 title:  CSS Practices 
 ---
-PLACEHOLDER_INCLUDE(/Develop/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
 
 
 We write styles in [LESS](http://lesscss.org/) and use Bootstrap CSS library as a cornerstone of all the styles. To build the LESS file into the css files please read the `static/style/README` included with the distribution.
@@ -12,3 +12,4 @@ We write styles in [LESS](http://lesscss.org/) and use Bootstrap CSS library as 
 * To add to that, to the extent possible use existing styles wherever they make sense.
 
 * If you want to run grunt with spritesmith on Mavericks you need to update grunt-spritesmith https://github.com/Ensighten/grunt-spritesmith/issues/45
+

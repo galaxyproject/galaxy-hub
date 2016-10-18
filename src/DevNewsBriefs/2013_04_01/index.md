@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: April 1, ,,  2013 Galaxy Distribution News Brief
+title: April 1, 2013 Galaxy Distribution News Brief
 ---
 <div class='right'></div>
 
@@ -13,10 +13,11 @@ Due to a security vulnerability, administrators are strongly encouraged to upgra
 
 <br />
 # Get Galaxy
+
 *Please note new* **upgrade** *syntax*
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
@@ -43,12 +44,14 @@ Due to a security vulnerability, administrators are strongly encouraged to upgra
 <br />
 <br />
 # Key Upgrades This Release
+
 This distribution has **four key upgrades that must be considered** by local administrators. 
 
 These are listed first. Each is important. ***Please review carefully.***
 
 <br />
 # Improvements to Distribution Release Process
+
 As announced in the [February 8, 2013](http://wiki.galaxyproject.org/DevNewsBriefs/2013_02_08) distribution, we have made some improvements to our release process. Because of these changes, ***you must include the new distribution release tag in your `hg update` command to upgrade to this distribution release*** and all future releases.
 
 As a reminder, or if this is your first upgrade using the new process, this is how to upgrade:
@@ -81,6 +84,7 @@ This process will not only allow us to deploy important bug fixes on to the `sta
 
 <br />
 # Job Running Configuration Changes
+
 ***This Galaxy release contains considerable changes to the way that the job running configuration is defined and implemented***.  It also includes a *refactoring of all job runner plugins* that are provided with the Galaxy source.  We have made every attempt to make upgrading to this release possible while jobs are running and without any configuration changes.  
 
 That said, job running is a complex component that relies on many outside components and an infinite array of site-specific environments, so we cannot guarantee that Galaxy will correctly convert jobs to the new job definition language in all scenarios.  
@@ -112,6 +116,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 
 <br />
 # Local Tool Shed File Changes
+
 ***Changes required to your environment if you are hosting a local Tool Shed***
 
 The tool shed used to be named the * "Galaxy Community Space" *, so there are several files that used to be named something "community" related (e.g., `community_wsgi.ini, run_community.sh`, etc).  In addition, many code files were named with the "community" string.  These various references to "community" have now been changed to "tool_shed".  So, if you are [hosting your own local tool shed](http://wiki.galaxyproject.org/HostingALocalToolShed), be aware that the following file names have changed:
@@ -143,9 +148,10 @@ This is last Galaxy distribution that will support Python 2.5. Follow the ticket
 
 <br />
 # Data
+
 1. The Galaxy Main **Rsync** server hosts download of the same `.loc` files and genome data used by the Galaxy team. This service now also hosts all pre-cashed datasets, such as MAF, blastdb, etc. Our updated wiki lists the available directories: [Get the data](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)
 
-1. **Basic Data Manager Functionality** is now present for locally defined and Tool Shed installed data managers ([/Admin/Tools/DataManagers](/src/Admin/Tools/DataManagers/index.md)).
+1. **Basic Data Manager Functionality** is now present for locally defined and Tool Shed installed data managers ([Admin/Tools/DataManagers](/src/Admin/Tools/DataManagers/index.md)).
 
 An abstracted interface has been created for the data manager to download, generate, or otherwise procure locally cached data for use in analyses. For details about implementation, please see the following Trello tickets.
 * In Galaxy:
@@ -160,7 +166,8 @@ An abstracted interface has been created for the data manager to download, gener
 
 <br />
 # Tool Shed
-**[/Tool Shed](/Tool Shed)**
+
+**[Tool Shed](/src/Tool Shed/index.md)**
 
 ### New Tool Shed Features
 
@@ -172,7 +179,7 @@ An abstracted interface has been created for the data manager to download, gener
 
 1. New lists of Valid Galaxy Utilities are now available in the tool shed allowing you to inspect more granular contents of repositories.  Lists of tools, custom datatypes, repository dependency definitions and tool dependency definitions are currently available.  The framework supporting this feature will be used to enhance searching the tool shed in a future Galaxy release where you will be able to search the tool shed for any of these galaxy utilities (currently you can only search for tools and workflows).
 
-![](/Images/NewsGraphics/2013_04_01_granular-galaxy-utilities.png)
+![](/src/Images/NewsGraphics/2013_04_01_granular-galaxy-utilities.png)
 
 
 ### Enhancements to existing Tool Shed features
@@ -194,6 +201,7 @@ An abstracted interface has been created for the data manager to download, gener
 1. Handle tool shed repositories that contain only tools that should not be displayed in the Galaxy tool panel from those that contain tools that should be displayed in the Galaxy tool panel appropriately. Selecting a tool panel section is no longer allowed for repositories that do not contain any tools that should be displayed there. This behavior now exists when installing or reinstalling repositories into Galaxy.
 
 1. Enhancements and fixes for sharable URLs for repositories in the tool shed - the following URLs are now all available:
+
 ```
 /view/{owner}
 /view/{owner}/{name}
@@ -226,34 +234,41 @@ This reserved word will route correctly in the tool shed when the tool is displa
 
 <br />
 # Trackster
+
 1. Performance enhancements https://trello.com/c/JYGO5hqM
 2. Collapsed composite tracks now retain the composite group name https://trello.com/c/roHlElAW
 
 <br />
 # CloudMan
+
 http://usegalaxy.org/cloud
 1. Condor introduced: [HTCondor](http://wiki.galaxyproject.org/CloudMan/HTCondor) https://trello.com/c/te1UVkam
   * Condor will allow federation of clusters, at first with manual configuration.
-  
+
 <br />
 # Workflows
+
 1. Expose function that creates SVG images from workflows to UI https://trello.com/c/PGz7JNzO
 
 <br />
 # UI
+
 1. Genetrack retired (view link in datasets removed) https://trello.com/c/LQr88MTz
 2. UI Refactoring of links to display at UCSC https://trello.com/c/ugHUBEk2
 3. Use "Chunked Tabular Dataset View" to display public datasets https://trello.com/c/p6lyDBNK
 
 <br />
 # Admin
+
 1. "Select all" jobs in admin menu https://trello.com/c/Sc975x1l
 1. Allow old-style external display applications to be disabled https://trello.com/c/9dgk1VSl
   * related improvements pending: https://trello.com/c/uIctksud
 
 <br />
 # Source
+
 ### Pull Requests Merged
+
 1. Refactoring Task Splitting Toward Per-Job Definitions, pull request **[#87](https://bitbucket.org/galaxy/galaxy-central/pull-request/87)**. Thanks to [John Chilton](http://jmchilton.net/). https://trello.com/c/04FGD1Fv
 2. Adding variable 'host_url' to provide qualified URL of host to tool help section, pull request **[#119](https://bitbucket.org/galaxy/galaxy-central/pull-request/119)**. Thanks to [Kyle Ellrott](https://bitbucket.org/kellrott). https://trello.com/c/RuO0tJ7r
 3. Display the toolshed tools in the workflow search, pull request **[#120](https://bitbucket.org/galaxy/galaxy-central/pull-request/120)**. Thanks to [Björn Grüning](https://bitbucket.org/BjoernGruening). https://trello.com/c/ebePONBa
@@ -265,6 +280,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 <br />
 # Bug Fixes and related Enhancements
+
 1. Assign proper job state to uploaded, deleted, files https://trello.com/c/IdS6EYwE
 1. UI Refactoring: more graceful handling of individual hda errors https://trello.com/c/qIPH1bJP
 1. Screencast display window size corrected (was too small) https://trello.com/c/QTZLmi70
@@ -277,26 +293,26 @@ Although there are no specific known security fixes in this distribution, all Ga
 1. Fix drillDown fields and parameters display https://trello.com/c/JN8495Up
 1. Scatter plot tool treats empty/absent values as NULL values instead of errors https://trello.com/c/BmoMaPXc
 
-
 <br />
 # Announcements
 
-[/News](/src/News/index.md), ***[April 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_04)***
+[News](/src/News/index.md), ***[April 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_04)***
 
 ## GCC2013
 
-<div class='left'><a href='/Events/GCC2013'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="150" /></a></div> 
+<div class='left'><a href='/src/Events/GCC2013/index.md'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div> 
 
-<div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo200.png' alt='2013 Galaxy Community Conference (GCC2013) Training Day' width="150" /></a></div> 
+<div class='right'><a href='/src/Events/GCC2013/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div> 
 <br />
 <br />
 <br />
 <br />
 <br />
 <br />
----
+----
 <br />
 # About Galaxy
+
 **[GalaxyProject.org](http://galaxyproject.org)**
 
 The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 

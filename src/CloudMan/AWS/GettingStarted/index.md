@@ -109,7 +109,7 @@ All of these inbound rules are necessary for proper functioning of CloudMan and 
 
 CloudMan works in a master-worker fashion: the master is used to control all of the needed services as well as worker instances. Worker instances are needed to run analysis jobs submitted through Galaxy that runs on the master instance (for a more detailed description of running Galaxy in cluster environments, see the [cluster performance page](/src/Admin/Config/Performance/Cluster/index.md)). So, in order to start a Galaxy CloudMan cluster, we need to start a master instance. 
 
-1. Go to the [AWS Management Console for EC2|target="_blank"](https://console.aws.amazon.com/ec2/home) and click **Launch Instance**
+1. Go to the [AWS Management Console for EC2](https://console.aws.amazon.com/ec2/home) and click **Launch Instance**
 
 2. Select the **Classic Wizard** in the popup window.
 

@@ -3,7 +3,6 @@ autotoc: true
 ---
 
 
-
 The Galaxy Project was notified its application to be a Google Summer of Code mentor organization in 2015 was **declined**.
 
 # Ideas for Galaxy Project in GSOC2015
@@ -154,7 +153,7 @@ The Galaxy proteomics community maintains Galaxy tools for [building PeptideShak
 **Expected Outcomes**
 
 * Modify !PeptideShaker to allow it to listen on a port for a URL to a file to open (like IGV)
-* Create a [Interactive Environments](https://wiki.galaxyproject.org/Admin/IEs) plugin for !PeptideShaker. Existing IE plugins have targeted web applications like IPython - but more traditional desktop applications should be exportable via [https://kanaka.github.io/noVNC/](/noVNC).  
+* Create a [Interactive Environments](https://wiki.galaxyproject.org/Admin/IEs) plugin for !PeptideShaker. Existing IE plugins have targeted web applications like IPython - but more traditional desktop applications should be exportable via [https://kanaka.github.io/noVNC/](/src/noVNC/index.md).  
 
 **Stretch Goals**
 
@@ -198,7 +197,7 @@ For smaller jobs - it should be possible to build traditional Galaxy tools to ru
 * Implement a variant calling Galaxy tool that runs a bcbio-nextgen pipeline in a Docker image on a single compute node.
 * Implement an RNA-seq Galaxy tool that runs a bcbio-nextgen pipeline in a Docker image on a single compute node.
 * Develop a [common workflow language](https://github.com/common-workflow-language/common-workflow-language) variants of these tools. For more information on ongoing efforts to develop bcbio-nextgen components for the CWL, see [bcbio-nextgen #725](https://github.com/chapmanb/bcbio-nextgen/issues/725).
- 
+
 **Stretch Outcomes**
 
 * Develop a technique for Galaxy to communicate cluster information to bcbio-nextgen to enable cluster utilization. Prepare detailed documentation.
@@ -266,6 +265,7 @@ Galaxy has basic functionality allowing users to export their history (the compl
 
 * Extend documentation to include explicit instructions about how to transfer analysis histories on public sites such usegalaxy.org to cloud instances using !CloudLaunch.
 * Simplify history export to allow users to just copy a URL that can be used to target the API for history export 
+
 that can be pasted into an import the history from another Galaxy instance.
 * Split this process in pieces to allow tracking/resuming the transfers.
 * Rework the API and UI to provide pleasant progress bar tracking progress and estimating time remaining.
@@ -318,7 +318,6 @@ The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's hand
 * Knowledge of Galaxy, knowledge of making Debian packages.
 * Some knowledge of bioinformatics (eg. what is a FASTQ file, what is an alignment).
 
-
 ## Improved Authentication Framework including OAuth and Google+ Sign-in
 
 [OAuth2.0](https://developers.google.com/accounts/docs/OAuth2) is the latest third party authentication mechanism that allows a single identity to be used across multiple applications. This project would enable OAuth and [Google+ sign-in](https://developers.google.com/+/features/sign-in) based authentication within Galaxy. The implication would be that a user no longer has to register at each Galaxy instance but could instead use their single identity (eg: Google ID) to authenticate. 
@@ -330,7 +329,7 @@ The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's hand
 **Stretch Goals**
 
 * Integrate the authentication mechanism with [Globus Nexus](https://www.globus.org/platform/services). 
- 
+
 **Possible Mentors** [Martin Cech](/src/Marten/index.md), [Enis Afgan](/src/EnisAfgan/index.md), [Nitesh Turaga](/src/NiteshTuraga/index.md)
 
 **Required Skills** Python Programming
@@ -351,7 +350,6 @@ This approach could also be used with reference genomes, and published histories
 **Expected Outcomes**
 
 * Make it easy for users to find Galaxy instances that already have the tool(s) they are looking for installed and available for use
-
 
 **Stretch Goals**
 
