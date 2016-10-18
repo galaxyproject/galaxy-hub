@@ -1,7 +1,7 @@
 ---
 title: Data Security in Galaxy
 ---
-PLACEHOLDER_INCLUDE(/Learn/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
 
 
 Galaxy provides an interface for users and administrators to make data private.  The security model allows permissions to be set on a fine-grained level, from one or two users to entire collaborative groups.
@@ -46,7 +46,7 @@ By default, all users are authorized to manage the permissions on datasets that 
 
  **1) History defaults** - for each new dataset added to a history, if that dataset is obtained from an external source, the default permissions for the history are applied to the dataset.  These default permissions can be set by clicking "options" at the top of the history panel, then clicking "Change default permissions for the current history" - the following page will be displayed.
 
-![](/Learn/SecurityFeatures/manage_history_defaults.png)
+![](/src/Learn/SecurityFeatures/manage_history_defaults.png)
 
 
 This can be used to easily create an analysis that will only be accessible to a specific group.
@@ -57,7 +57,7 @@ This can be used to easily create an analysis that will only be accessible to a 
 
 So far, we've dealt with the default permissions applied to datasets created from external sources.  Datasets created by tools derive permissions based on the datasets used as inputs to those tools.  If a user is authorized to change the permissions on a dataset, then clicking the pencil icon in the dataset's history item will display the "Edit Attributes" page, which will include the following section.
 
-![](/Learn/SecurityFeatures/manage_dataset_permissions.png)
+![](/src/Learn/SecurityFeatures/manage_dataset_permissions.png)
 
 For the 'manage permissions' permission, only the *intersection* of the input datasets' roles are set on the output dataset.  For the 'access' permission, the *join* of the input datasets' roles are set on the output dataset:
 

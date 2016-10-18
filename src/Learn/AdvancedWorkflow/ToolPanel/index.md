@@ -1,9 +1,11 @@
 ---
 autotoc: true
 ---
-PLACEHOLDER_INCLUDE(/Learn/LinkBox)
+#acl WikiAdminGroup:read,write,revert All:read
+PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
 
 # Workflows as Custom Tools
+
 <div class='right'></div>
 
 <br />
@@ -23,7 +25,7 @@ Customizing a workflow so that only one or some of the jobs included are active 
 
 Hide intermediate workflow steps using the **workflow editor**. 
 
----
+----
 ## Tutorial: Promote a Workflow with Hidden Steps
 
 Step-by-step instructions for promoting a workflow and hiding intermediate steps.
@@ -103,4 +105,4 @@ Not sure how to access or use the editor? That same wiki has all the help you ne
 
 ### Reminder About Sharing Workflows
 
-Workflows can be shared just like other Galaxy objects. Read more about **[Sharing](/Learn/Share)**
+Workflows can be shared just like other Galaxy objects. Read more about **[Sharing](/src/Learn/Share/index.md)**

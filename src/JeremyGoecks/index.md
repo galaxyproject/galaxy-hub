@@ -1,5 +1,4 @@
-
-<div class='right'>![](/GalaxyTeam/jgoecks-banff-small.png)</div>
+<div class='right'>![](/src/GalaxyTeam/jgoecks-banff-small.png)</div>
 
 # Jeremy Goecks
 
@@ -19,5 +18,5 @@ Jeremy is an Assistant Professor of Computational Biology at George Washington U
 </table>
 
 
----
+----
 CategoryHomepage

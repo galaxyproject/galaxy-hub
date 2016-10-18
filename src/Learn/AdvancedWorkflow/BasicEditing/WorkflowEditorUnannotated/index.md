@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/Learn/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
 
 # Basic Workflow Editing: Workflow Editor View Unannotated
 

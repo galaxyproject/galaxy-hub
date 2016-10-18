@@ -1,10 +1,10 @@
 ---
 autotoc: true
-title: Galaxy Application Programming Interface , (, API, )
+title: Galaxy Application Programming Interface (API)
 ---
-PLACEHOLDER_INCLUDE(/Learn/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Learn/API/LinkBox/index.md)
 
-The most current information about using the API can be found here: [/Develop/API](/src/Develop/API/index.md)
+The most current information about using the API can be found here: [Develop/API](/src/Develop/API/index.md)
 
 Some other API documentation spread around that may get you through the day:
 
@@ -17,13 +17,13 @@ In this wiki:
 * [2010/07/16 News Brief](/src/DevNewsBriefs/2010_07_16/index.md#initial-implementation-of-the-galaxy-web-api), initial implementation described
 * [2011/08/30 News Brief](/src/DevNewsBriefs/2011_08_30/index.md#api), update
 * [GCC2011 Galaxy Deployment and API presentation](/src/Events/GCC2011/index.md)
-* [Sample Tracking API](/Admin/Sample Tracking/Next Gen)
-* [GCC2011 Workflows and API Breakout Group](/Events/GCC2011/Workflows and API)
+* [Sample Tracking API](/src/Admin/Sample Tracking/Next Gen/index.md)
+* [GCC2011 Workflows and API Breakout Group](/src/Events/GCC2011/Workflows and API/index.md)
 
 External:
 * The [Bioblend](http://bioblend.readthedocs.org/en/latest/) package provides an easy way to start using the Galaxy API by providing a set of Python bindings, developed by Galaxy developer [Enis Afgan](/src/EnisAfgan/index.md)
 
----
+----
 
 
 
@@ -45,15 +45,15 @@ To use the API, you must first generate an *API Key* for the account you want to
 <table>
   <tr>
     <td> </em>Navigate<em> to </strong>User &rarr; API Keys<strong>: </td>
-    <td> <img src='/Admin/API/UserPullDownAPIKeys.png' /> </td>
+    <td> <img src="/src/Admin/API/UserPullDownAPIKeys.png" /> </td>
   </tr>
   <tr>
     <td> </em>Click<em> on </strong>Generate a new key now<strong>: </td>
-    <td> <img src='/Admin/API/GenerateNewAPIKey.png' /> </td>
+    <td> <img src="/src/Admin/API/GenerateNewAPIKey.png" /> </td>
   </tr>
   <tr>
     <td> And your new API key will be set:<br /><br /></em>Copy<em> the key to your clipboard.  You will need it in the next steps. </td>
-    <td> <img src='/Admin/API/NewKeyGenerated.png' /> </td>
+    <td> <img src="/src/Admin/API/NewKeyGenerated.png" /> </td>
   </tr>
 </table>
 
@@ -83,6 +83,7 @@ You might need to patch your code: https://github.com/galaxyproject/galaxy/pull/
 # REST
 
 ## Authentication
+
 You can retrieve your API key by sending [baseauth](http://en.wikipedia.org/wiki/Basic_access_authentication) GET request to /api/authenticate/baseauth
 
 ## URLs
@@ -94,6 +95,7 @@ You can retrieve your API key by sending [baseauth](http://en.wikipedia.org/wiki
 ## HTTP Methods, common.py Routines, and Standalone Scripts
 
 HTTP methods correspond to operations in Galaxy.  Operations are implemented as standalone scripts (in [scripts/api/](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/)) and as routines in [scripts/api/common.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/common.py).
+
 
 | HTTP Method |  [common.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/common.py) Routine  |  [Standalone](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/)  | 
 | ----------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | 
@@ -188,10 +190,9 @@ if __name__ == '</u>main__':
 
 ### Histories
 
-
 # Examples
 
-See [Examples](Examples)
+See [Examples](/src/Learn/API/Examples/index.md)
 
 # Programming Language Bindings
 
@@ -200,3 +201,4 @@ Language specific libraries for interfacing with the Galaxy API are available.
 * The Galaxy code itself contains [JavaScript bindings](https://bitbucket.org/galaxy/galaxy-central/src/tip/static/scripts/mvc).
 * [BioBlend](https://github.com/afgane/bioblend) contains a set of Python bindings developed by Galaxy developer [Enis Afgan](/src/EnisAfgan/index.md).
 * [blend4j](https://github.com/jmchilton/blend4j) contains Java bindings developed by Galaxy community member [John Chilton](/src/JohnChilton/index.md) and largely modeled after [blend](https://github.com/afgane/blend).
+

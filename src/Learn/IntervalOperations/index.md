@@ -1,16 +1,18 @@
 # Interval Operations in Galaxy
-PLACEHOLDER_INCLUDE(/Learn/LinkBox) 
+
+PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md) 
 
 A unique feature of Galaxy is the large number of tools for performing operations on genomic intervals. These tools are based on the `bx-python package` (https://github.com/bxlab/bx-python). These include *intersect*, *subtract*, *complement*, *merge*, *concatenate*, *cluster*, *coverage*, *base coverage*, and *join*.   Some operations are analogous to relational database queries, such as join and coverage.  Other operations are analogous to set operations.
 
 Below, each interval operation is described in detail.  You can also view screencasts showing an actual "clicking pattern" through the Galaxy interface (note screencast link below each subheading). The examples shown in screencasts use coordinates of coding exons and transposable elements from chromosome 22. This [screencast](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3A.mov) ([stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3A.mov)) shows how to upload these coordinates.
 
----
+----
 
 ## Intersect
+
 **([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3B.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3B.mov) Intersect Screencast)**
 
-![](/Images/Gops/Intersect.png)
+![](/src/Images/Gops/Intersect.png)
 
 Intersect allows for the intersection of two queries to be found. The intersect tool can output either the entire set of intervals from the first dataset that overlap the second dataset (e.g. all exons containing repeats), or just the intervals representing the overlap between the two datasets (e.g. all regions that are both exonic and repetitive; see Figure above).
 
@@ -18,12 +20,13 @@ When finding entire intervals (by setting **Return** to `Overlapping Intervals`)
 
 When finding pieces of intervals, or the regions representing the overlap between the two datasets (by setting **Return** to `Overlapping Pieces of Intervals`), the output will be the intervals of the first dataset with the non-overlapping subregions removed.
 
----
+----
 
 ## Subtract
+
 **([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3B.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3B.mov) Subtract Screencast)**
 
-![](/Images/Gops/Subtract.png)
+![](/src/Images/Gops/Subtract.png)
 
 Subtract does the opposite of intersect.  It removes the intervals or parts of intervals in the first dataset that are found in the second dataset (Figure above).  Like Intersect, Subtract can treat intervals as a whole, removing or keeping entire intervals, or it can break them apart, removing overlapping subregions.
 
@@ -31,11 +34,12 @@ As with arithmetic subtraction, the order of the datasets is important.  The sec
 
 When subtracting overlapping subregions (by setting **Return** to `Non-overlapping pieces of intervals`), the output will be the intervals of the first dataset with the overlapping subregions removed.
 
----
+----
 ## Merge and Concatenate
+
 **([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3C.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3C.mov) Merge and Concatenate Screencast)**
 
-![](/Images/Gops/MergeConcat.png)
+![](/src/Images/Gops/MergeConcat.png)
 
 Concatenate and Merge are analogous to addition and union (figure above).  They can be used together to combine datasets and merge (or flatten) the intervals.
 
@@ -45,19 +49,21 @@ Merge reads a dataset, and combines all overlapping intervals into single interv
 
 Concatenate combines datasets, and has the ability to combine interval datasets of different types.  Merge combines overlapping intervals into single intervals.  Together, the two operations can be used to combine intervals from different datasets into simple regions.
 
----
+----
 
 # Base Coverage
+
 **[Download](http://screencast.g2.bx.psu.edu/) [Stream](rtsp://screencast.g2.bx.psu.edu/) Base Coverage and Complement Screencast)**
 
 The base coverage tool calculates the number of bases covered by all of the intervals in a dataset.  It does not count overlapping bases more than once; if there are two intervals referring to the same region, those bases are counted only once.
 
----
+----
 
 # Complement
+
 **([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3D.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3D.mov) Base Coverage and Complement Screencast])**
 
-![](/Images/Gops/Complement.png)
+![](/src/Images/Gops/Complement.png)
 
 Complement inverts a dataset (Figure above).  Complement reads in all of the regions of a dataset, and outputs the regions not covered by any intervals in that dataset.  The option **Genome-wide complement** allows for the entire genome to be complemented, regardless of whether a chromosome, contig, scaffold, etc. is represented in the query dataset.   In a genome-wide complement of a dataset, any chromosome that has no intervals in the query dataset will be output in the result as the entire chromosome.  In a normal complement, only the chromosomes, contigs, scaffolds, etc. that are referenced in the query dataset will be represented in the output.
 
@@ -65,9 +71,10 @@ When complementing a chromosome, the length of the chromosome is needed.  Galaxy
 
 The resulting dataset will contain intervals representing regions that are **NOT** transposable elements.  Also, a normal complement is done in contrast to a genome-wide complement because when obtaining the simple repeats, chromosome 22 was explicitly specified, and the other chromosomes were explicitly omitted.
 
----
+----
 
 ## Coverage
+
 **([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3E.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3E.mov) Coverage Screencast)**
 
 Coverage is a combination of intersect and base coverage.  Coverage finds the number of bases each interval in the first dataset covers of the second dataset.  In addition, it finds the fraction of the interval's total length that covers intervals in the second query.  The resulting dataset is all of the intervals from the first input dataset, with two columns added to the end: bases covered and fraction covered.  The additional two columns can be manipulated with other tools such as “Filter” under the “Filter, Sort, Join and Compare” section of the toolbox or with “Compute” under the “Edit Queries” section of the toolbox. Below is the example:
@@ -116,12 +123,13 @@ For example, the following line of output:
 
 implies that 172 nucleotides accounting for 10.7% of this interval (chr11:5203271-5204877) overlap with repetitive elements.
 
----
+----
 
 ## Cluster
+
 **([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3F.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3F.mov) Cluster Screencast)**
 
-![](/Images/Gops/Cluster.png)
+![](/src/Images/Gops/Cluster.png)
 
 Cluster is one of the most versatile and powerful interval operations (figure above).  Cluster finds clusters of intervals, and has a wide range of behavior depending on the options specified.  The **Maximum distance** parameter specifies the maximum distance allowed between regions for those regions to be considered a cluster.  Maximum distance can be a positive number, zero, or a negative number:
 
@@ -137,9 +145,10 @@ Cluster has three options for output as found in the drop-down list **Return typ
 * `Find cluster intervals; preserve comments and order` finds all of the clusters according to the criteria set by maximum distance and minimum intervals per cluster, and outputs those intervals in the original order they were encountered in the input dataset.  This option can be thought of as a filter that removes the intervals that are not found within a cluster.
 * `Find cluster intervals; output grouped by clusters` finds all of the clusters according to the criteria set by maximum and minimum intervals per cluster.  It is the same as the previous option, except that the intervals are grouped together in the output by cluster.
 
----
+----
 
 ## Join
+
 **([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3G.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3G.mov) Join Screencast)**
 
 The join operation is similar to joins done by database management systems such as MySQL (figure below).  Join looks at two datasets of intervals, and joins them based on interval overlap.  Any interval in the second dataset that overlaps an interval in the first dataset will be appended to the line from the first dataset and output.
@@ -153,4 +162,4 @@ Like intersect, join allows a minimum overlap to be specified.  Intervals must e
 
 Each output option is illustrated here.  Notice that in the last two options/examples intervals with invalid chromosome, start, and end are output, rendering those datasets no longer usable without filtering out the invalid intervals.
 
-![](/Images/Gops/Join.png)
+![](/src/Images/Gops/Join.png)

@@ -1,9 +1,11 @@
 ---
 autotoc: true
 ---
-PLACEHOLDER_INCLUDE(/Learn/LinkBox)
+#acl WikiAdminGroup:read,write,revert All:read
+PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
 
 # Extract Workflow from a History
+
 <div class='right'></div>
 
 <br />
@@ -11,6 +13,7 @@ PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 
 <br />
 ## Why extract a workflow?
+
 Once a productive analysis pathway is in a history, you may find that you want to run it again on more input datasets. A workflow is a great tool that not only makes this processing less tedious, but ensures that it runs exactly the same way, every execution. 
 <br />
 <br />
@@ -19,6 +22,7 @@ Once a productive analysis pathway is in a history, you may find that you want t
 <br />
 <div class='left'>![workflow history menu extract](/src/Images/Learn/workflow_menu_extract.png)</div>
 ## Where is the option?
+
 <br />
 <br />
 <br />
@@ -70,23 +74,17 @@ Allow Galaxy to process the request without interrupting or navigating away from
   * The **Right** column represents the output of those tools
   * *A **workflow is** primarily **a collection of tools***. When it does contain the output of tools, these will be treated as input datasets. Input datasets are what the user of the workflow selects from existing datasets in the starting history when the workflow is executed.
 
-
 * **Header: Workflow name** (orange box): This will be the name of the workflow. Make it meaningful when you create your own.
 
 * **Header: Create Workflow** (red box): Click this when you are finished making changes. This saves the workflow. If you happen to click it too soon or change your mind, you can always go back and edit your workflow later. Start with **[Basic Editing](/src/Learn/AdvancedWorkflow/BasicEditing/index.md)** or explore all options linked from the **[Advanced Workflow](/src/Learn/AdvancedWorkflow/index.md)** wiki.
 
-
 * **Left: Tools that cannot be included in workflows** (yellow boxes): These are tools that are run externally from Galaxy (in whole or in part) and return data back as a dataset. Most of the tools under "Get Data", including "Upload File", and the "Upload" function above the left Tool Panel, are included in this category of tools.
-
 
 * **Left: Tools that can be included in workflows** (green arrow): These are tools run within Galaxy. Each has a checkbox. If the tool is part of the analysis path you wish to retain, leave it checked. If it was a dead-end, or a step you no longer need, or even just part of a group of steps that you don't want in this workflow - uncheck the tools and they will be omitted from the workflow. *It is important to note that changes here will not impact your current history - all existing tools and dataset remain unchanged.*
 
-
 * **Right: Datasets that can be included in workflows as *input*** (blue arrow): These are the datasets that were either the output of tools run externally to Galaxy (in full or in part). Datasets that resulted from "yellow box" tools, uploaded datasets, and copied datasets (from another history or imported from a library/another history) are included in this category. All workflows need to have inputs! When there are several inputs, or it is confusing about what the expected input should be (for example, when workflows are shared or published), this is when you'll know that it is time to review the help in **[Basic Editing](/src/Learn/AdvancedWorkflow/BasicEditing/index.md)**.
 
-
 * **Right: Datasets that cannot be included in workflows** (no annotation): these are the datasets that were created by the tools that can be included in workflows. This are the datasets your workflow will be creating when you run it. The content next time will be based on the content of the inputs provided and what operations the tools perform.
-
 
 <br />
 After customizing is done (if any), click on **Create Workflow** to save the extracted analysis as a workflow. For this operation, it is also important to allow Galaxy to process the request and to not navigate away from the view. You'll know that the workflow is created when the bright blue *completed* box appears. 
@@ -123,6 +121,7 @@ It also lists **Workflows Shared with You** (if any). Under **Other Options** is
 
 <br />
 ## Help! I don't see my workflow datasets
+
 There are two reasons why the output is not in the current history. One possibility is that you did not wait for the confirmation that workflow was actually started (the "green box" confirmation in the step directly above). If you think this is the case, go back and run it again. ***But first***, check for the second possibility: did you check the box to send the output to another history? The option is at the bottom of the workflow submission page and is called **Send results to a new history**. The name can be modified, but the default history name is the same as the workflow name. Look under **History menu -> Saved Histories** and check if your data is there. 
 
 <br />
@@ -130,15 +129,18 @@ There is a third possibility, but this only applies when the workflow has been e
 
 <br />
 ## How do I know the workflow is really running?
+
 The datasets for the workflow will be in the history panel. These jobs run just like every other job. Some may run right away, others may queue. More about how datasets execute is in this wiki: **[Dataset status and how jobs execute](/src/Support/index.md#dataset_status_and_how_jobs_execute)**
 
 <br />
 ## I want to customize my workflow further
+
 Good idea! Read more about workflow operations not covered in this wiki, in others linked from here: **[Advanced Workflow](/src/Learn/AdvancedWorkflow/index.md)**
 
 
 <br />
 ## I can't create or access Workflows
+
 Are you seeing one of these messages below? This indicates that you are not logged into your account. Workflows can only be used by registered users. Log in under **User -> Login** or create an account under **User -> Register**.
 <br />
 <br />
