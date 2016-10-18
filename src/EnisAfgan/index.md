@@ -1,5 +1,4 @@
-
-<div class='right'>![](/GalaxyTeam/EnisAfgan.jpg)</div>
+<div class='right'>![](/src/GalaxyTeam/EnisAfgan.jpg)</div>
 
 # Enis Afgan
 
@@ -10,6 +9,7 @@ The focus of my current work is in the area of cloud and distributed computing. 
 Overall, my research interests lay in the area of distributed computing accessibility, system automation, and application jobs performance tuning.
 
 ## Contact
+
 <table>
   <tr>
     <th> Email </th>
@@ -22,5 +22,5 @@ Overall, my research interests lay in the area of distributed computing accessib
 </table>
 
 
----
+----
 CategoryHomepage
