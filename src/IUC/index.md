@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Admin/Tools/LinkBox/index.md)
 # Intergalactic Utilities Commission
 
 The Intergalactic Utilities Commission (IUC) was established in 2012 to enable the pervasive use of the main Galaxy ToolShed by ensuring the repositories available in the tool shed include contents that are functionally correct and optimized for installation into local Galaxies.  When appropriate, guidance is provided to repository owners so that they can understand what changes are necessary for their repository to be approved.
@@ -26,3 +26,4 @@ IUC membership can evolve over time.  The initial members were all owners of one
 * Greg Von Kuster, Penn State University
 * Anthony Bretaudeau, GenOuest BioInformatics Platform
 * Saskia Hiltemann, Erasmus University Medical Center
+

@@ -4,16 +4,17 @@ title: Histories
 ---
 
 
-PLACEHOLDER_INCLUDE(/Learn/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
 <div class='left'></div>
 
 When data is uploaded from your computer or analysis is done on existing data using Galaxy, each output from those steps
 generates a dataset. These datasets (and the output datasets from later analysis on them) are stored by Galaxy in
 **Histories**.
 
----
+----
 
 ## The Current History
+
 All users have one 'current' history, which can be thought of as **a workspace or a current working directory** in
 bioinformatics terms. You current history displayed in the right hand side of the main 'Analyze Data' Galaxy page in
 what is called the history panel.
@@ -38,7 +39,7 @@ clear you sessions - that history will be lost!** We can not recover it for you 
 
 ### Current history controls
 
-![](/current-history-buttons.png)
+![](/src/Histories/current-history-buttons.png)
 
 Above the current history panel are three buttons: the refresh, history options, and 'view all histories' button.
 
@@ -49,15 +50,17 @@ The history options button opens the history options menu which allows you to pe
 
 
 The 'view all histories' button sends you to the interface for
-[managing multiple histories](#managing_multiple_histories).
+[managing multiple histories](/src/Histories/index.md#managing_multiple_histories).
 
----
+----
 
 ## History Information
+
 Histories also store information apart from the datasets they contain. They can be named/re-named, tagged, and
 annotated.
 
 ### Renaming a history
+
 All histories begin with the name 'Unnamed history'. Non-anonymous users can rename the history as they see fit:
 
 1. Click the existing name. A text input field will appear with the current name.
@@ -65,9 +68,10 @@ All histories begin with the name 'Unnamed history'. Non-anonymous users can ren
 3. Press 'Enter' to save the new name. The input field will disappear and the new name display.
 4. To cancel renaming, press 'Esc' or click outside the input field.
 
-![](/renaming.png)
+![](/src/Histories/renaming.png)
 
 ### Tagging a history
+
 Tags are short pieces of text used to describe the thing they're attached to and many things in Galaxy can be tagged.
 Each item can have many tags and you can add new tags or remove them at any time. Tags can be another useful way to
 organize and search your data. For instance, you might tag a history with the type of analysis you did in it: 'assembly'
@@ -82,9 +86,10 @@ To tag a history:
 3. Press enter or select one of the previous tags with your arrow keys or mouse.
 4. To remove an existing tag, click the small 'X' on the tag or use the backspace key while in the input field.
 
-![](/tags.png)
+![](/src/Histories/tags.png)
 
 ### Annotating a history
+
 Sometimes tags and names are not enough to describe the work done within a history. Galaxy allows you to create history
 annotations: longer text entries that allow more formatting options. Newlines and whitespace are preserved. Later, if
 you publish or share the history, the annotation will be displayed automatically - allowing you to share additional
@@ -99,9 +104,10 @@ To annotate a history:
   entered since the 'Tab' button is used to switch between controls on the page - tabs can be pasted in however).
 4. To save the annotation, click the 'Done' button.
 
-![](/annotations.png)
+![](/src/Histories/annotations.png)
 
 ### History size
+
 As datasets are added to a history, Galaxy will store them in files on its file system. The total size of these files
 for all the datasets in a history is displayed underneath the history name. For example, if a history has 200 megabytes
 of dataset data on Galaxy's filesystem, '200 MB' will be displayed underneath the name.
@@ -112,9 +118,10 @@ datasets and brought that total below the quota.
 
 
 
----
+----
 
 ## History Panel Datasets
+
 Datasets in the history panel show the state of the job that has generated or will generate the data.
 
 There are several different 'states' a dataset can be in:
@@ -130,7 +137,8 @@ There are several different 'states' a dataset can be in:
   
 
 
-![](/states.png)
+
+![](/src/Histories/states.png)
 
 Datasets in the panel are initially shown in a 'summary' view, that only displays:
 
@@ -143,7 +151,7 @@ Datasets in the panel are initially shown in a 'summary' view, that only display
 **Note:** some of the buttons above may be disabled if the dataset is in a state that shouldn't allow doing the
 action. For example, the 'edit' button is disabled for datasets that are still queued or running.
 
-![](/summary.png)
+![](/src/Histories/summary.png)
 
 You can click the dataset name and the view will expand to show more details:
 
@@ -154,17 +162,18 @@ You can click the dataset name and the view will expand to show more details:
 1. a row of buttons that allow further actions on the dataset
 1. a **peek** of the data: a couple of rows of data with the column headers (if available)
 
-![](/details.png)
+![](/src/Histories/details.png)
 
 **Note:** many of these details are only displayed if the dataset has finished running, is in the 'ok' state, and
 is not deleted. Otherwise, you may only see a shorter message describing the dataset's state (e.g. 'this dataset
 is waiting to run')
 
----
+----
 
 ## Managing Datasets Individually
 
 ### Hiding and unhiding datasets
+
 Some procedures in Galaxy such as workflows will often **hide** history datasets in order to simplify the history
 and hide intermediate steps of an automated analysis. These hidden datasets won't normally appear in the history panel
 but their still mentioned in the history subtitle (the smaller, grey text that appears below the history name). If you
@@ -172,9 +181,10 @@ history has hidden datasets, the number will appear there (e.g. '3 hidden') as a
 the hidden datasets are shown. Each hidden dataset has a link in the top of the summary view that allows you to unhide
 it. You can click that link again (which will now be 'hide hidden') to make them not shown again.
 
-![](/hide.png)
+![](/src/Histories/hide.png)
 
 ### Deleting and undeleting datasets
+
 You can **delete** any dataset in your history by clicking the delete button. This does not immediately remove the
 dataset's data from Galaxy and **it is reversible**. When you delete a dataset from the history, it will be removed
 from the panel but (like hidden datasets) the total number of deleted datasets is shown in the history subtitle as a
@@ -182,9 +192,10 @@ link. Clicking this link (e.g. '3 deleted') will make the deleted datasets visib
 link for manually undeleting it above its title. You can click that link again (which will now be 'hide deleted') to
 make them not shown again.
 
-![](/delete.png)
+![](/src/Histories/delete.png)
 
 ### Purging datasets and removing them permanently from Galaxy
+
 If you are showing deleted datasets and *your Galaxy allows users to purge datasets*, you will see an additional link
 in the top of each deleted dataset titled **'Permanently remove it from disk**'. Clicking this will remove the file
 that contains that dataset's data and will decrease the disk space used by the history. **This action is not reversible
@@ -193,16 +204,18 @@ and cannot be undone**.
 If your Galaxy doesn't allow users to purge their datasets, you will not see that link.
 
 ### Admins may purge your deleted datasets
+
 Depending on the policy of your Galaxy server, administrators will often run scripts that search for and purge the
 datasets you've marked as deleted. Often deleted datasets and histories are purged based on the age of the deletion
 (e.g. datasets that have been marked as deleted for 90 days or more). Check with the administrators of your instance to
 find out the policy used.
 
----
+----
 
 ## Managing Multiple Datasets Easily
 
 ### Muti-selection
+
 You can also hide, delete, and purge multiple datasets at once by **multi-selecting datasets**:
 
 1. Click the multiselect button containing the checkbox to the right of the history size.
@@ -214,9 +227,10 @@ You can also hide, delete, and purge multiple datasets at once by **multi-select
   an action doesn't apply to a selected dataset - like deleting a deleted dataset - nothing will happen.)
 1. You can click the multiselect button again to hide the checkboxes again.
 
-![](/multiselect.png)
+![](/src/Histories/multiselect.png)
 
 ### Searching for datasets
+
 You can filter what datasets are shown and search for datasets using the search bar at the top of the panel. Enter
 any text that a dataset you'd be looking for would contain, including:
 
@@ -234,13 +248,15 @@ For example:
 
 **Note:** searches are case-insensitive. For example, `VCF` and `vcf` are equivalent.
 
-![](/basic-search.png)
+![](/src/Histories/basic-search.png)
 
 ### Clearing a search
+
 You can clear a search and show all visible datasets by clicking the round 'X' button in the right of the search bar
 or - while entering text in the search bar - hitting the escape key ('esc').
 
 ### Advanced searching
+
 You can also specify what dataset properties you're searching using keyword search. These are the property names
 followed by '=' then the value. When using these only the property named is searched for that value:
 
@@ -260,9 +276,10 @@ followed by '=' then the value. When using these only the property named is sear
 If you find normal searching is showing too many datasets, and not what you're looking for, try the advanced keyword
 search.
 
-![](/adv-search.png)
+![](/src/Histories/adv-search.png)
 
 ### Search and multiselect
+
 It's often useful to combine search and multiselect. Multiselections will persist over searches and the All/None buttons
 will only apply to those datasets that are currently shown with the given search.
 
@@ -278,9 +295,10 @@ and b) hg19 reference BAM files whose names contain "Output":
   selected.
 1. You can now perform some action on those two sets of datasets.
 
----
+----
 
 ## Dataset Collections
+
 When you have multiple datasets that will be sent through the same analysis it can often be useful to place those
 datasets in a dataset collection. When collections are used as input when running a tool, you're telling Galaxy to run
 that tool on each  dataset in the collection using the same settings. This happens automatically and there's no need to
@@ -297,6 +315,7 @@ datasets. To create a dataset collection from datasets in a history:
   using the multiselect menu.
 
 ### Viewing a dataset collection
+
 You can view what datasets were inside a collection by clicking on the collection title. The history panel will be
 replaced by a list of the collection contents and each are expandable as a normal dataset in a history would be. You
 can click the '< Back to (you history name)' link at the top to return to the history view (see below for examples).
@@ -305,30 +324,33 @@ can click the '< Back to (you history name)' link at the top to return to the hi
 They current collection types are:
 
 ### Dataset pairs
+
 A common pattern of dataset files are pairs of read files - often some form of fastq files - where one file contains
 the forward reads and one file contains the reverse reads. Many bioinformatic tools accept these pairs and Galaxy can
 further simplify this by placing both files into on 'Dataset Pair' collection. Only two files will be added to the
 collection: forward and reverse.
 
-![](/pair.png)
+![](/src/Histories/pair.png)
 
 ### Dataset list
+
 Choose 'Dataset List' when you have a set of files that are of the same type and will be run through some similar
 analysis. The datasets in a dataset list must have unique names (e.g. you cannot have two datasets in a dataset list
 with the name '1.bed').
 
-![](/list.png)
+![](/src/Histories/list.png)
 
 ### List of dataset pairs
+
 Think of this as a collection of collections: multiple dataset pairs contained in a dataset list. The interface used
 to create this is currently the most flexible and potentially most complicated. It will attempt to automatically pair
 datasets sent to the interface based on the dataset names. You are free to select your own pairs, however, and change
 the order of the collection. Click the help text at the top of the interface to see more information.
 
-![](/list-pairs.png)
+![](/src/Histories/list-pairs.png)
 
 
----
+----
 
 ## Managing Multiple Histories
 
@@ -336,7 +358,9 @@ the order of the collection. Click the help text at the top of the interface to 
 
 
 
+
 ### Undeleting ...deleted histories
+
 If you have not purged a history and only deleted it, it is possible to 'undelete' it and reverse or undo the deletion.
 Since one of the purposes of deleting hisories is to remove them from view, we'll use the interface to specifically
 search for deleted histories and then to undelete the one we're interested in.
@@ -347,26 +371,26 @@ history method is presented here:
 1. Click the multi-history icon at the top right of the 'Analyze Data' (home) page. Note: you must be logged in to
 see the icon and use the multi-history page. You should see all the (non-deleted) histories that you've created.
 
-![](/undelete.multihistory-button.png)
+![](/src/Histories/undelete.multihistory-button.png)
 
 2. Click the '...' icon button in the grey header at the top of the page. You should see a dialog that presents some options for viewing the histories. Click the 'include deleted histories' option.
 
-![](/undelete.multihistory-options.png)
+![](/src/Histories/undelete.multihistory-options.png)
 
 3. The page should reload and now both non-deleted and deleted histories will be displayed. Deleted histories will
 have a small message under their titles stating 'This history has been deleted'.
 
-![](/undelete.thishasbeendeleted.png)
+![](/src/Histories/undelete.thishasbeendeleted.png)
 
 4. Now click the small button with the down arrow just above the deleted history you want to undelete. Then click
 the 'Undelete' option there. Your history should now be undeleted.
 
-![](/undelete.undelete-button.png)
+![](/src/Histories/undelete.undelete-button.png)
 
 5. Click the 'Switch to' button at the top of that history and then click 'done' at the very top left to return to
 the 'Analyze Data' page.
 
-![](/undelete.switchto.png)
+![](/src/Histories/undelete.switchto.png)
 
 
 

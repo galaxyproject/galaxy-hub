@@ -1,7 +1,7 @@
 ---
 title: Installing Repositories
 ---
-<div class='right'> <a href='/ToolShed'><img src='/Images/Logos/ToolShed.jpg' alt='Tool Shed logo' height="110px" /></a> PLACEHOLDER_INCLUDE(/ToolShed/LinkBox) </div>
+<div class='right'> <a href='/src/ToolShed/index.md'><img src="/src/Images/Logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a> PLACEHOLDER_INCLUDE(/src/ToolShed/LinkBox/index.md) </div>
 
 
 
@@ -13,7 +13,7 @@ title: Installing Repositories
 
 [Installing repositories that contain tools migrated from the Galaxy code distribution to the main Galaxy Tool Shed](/src/ToolShed/MigratingToolsFromGalaxyDistribution/index.md)
 
-[Installing tool dependency packages along with Galaxy tools](/Installing tool dependency packages)
+[Installing tool dependency packages along with Galaxy tools](/src/Installing tool dependency packages/index.md)
 
 [The Tool Shed provides tool version lineage information to Galaxy](/src/GalaxyToolVersionLineage/index.md)
 
