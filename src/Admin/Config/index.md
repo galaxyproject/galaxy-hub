@@ -1,23 +1,23 @@
-PLACEHOLDER_INCLUDE(/Admin/LinkBox)
-PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/Admin/Config/Performance/LinkBox/index.md)
 # Galaxy Configuration
 
 Hub page for Galaxy configuration.
 
 ## Production Galaxy
 
-* [Running Galaxy in a production environment](Performance/ProductionServer)
-* [Running Galaxy Tools on a Cluster](Performance/Cluster)
-* [Galaxy Job Configuration](Jobs)
-* [Apache Proxy](ApacheProxy)
-  * [Apache External User Auth](ApacheExternalUserAuth)
-* [Nginx Proxy](nginxProxy)
-  * [Nginx External User Auth](NginxExternalUserAuth)
+* [Running Galaxy in a production environment](/src/Admin/Config/Performance/ProductionServer/index.md)
+* [Running Galaxy Tools on a Cluster](/src/Admin/Config/Performance/Cluster/index.md)
+* [Galaxy Job Configuration](/src/Admin/Config/Jobs/index.md)
+* [Apache Proxy](/src/Admin/Config/ApacheProxy/index.md)
+  * [Apache External User Auth](/src/Admin/Config/ApacheExternalUserAuth/index.md)
+* [Nginx Proxy](/src/Admin/Config/nginxProxy/index.md)
+  * [Nginx External User Auth](/src/Admin/Config/NginxExternalUserAuth/index.md)
 
 ## Tools
 
-* [Tool Dependencies](ToolDependencies)
-* [Set up Visualizations](../../Visualization Setup)
+* [Tool Dependencies](/src/Admin/Config/ToolDependencies/index.md)
+* [Set up Visualizations](/src/Visualization Setup/index.md)
 * [Collecting Job Metrics](/src/Admin/Config/JobMetrics/index.md)
 
 ## External User Databases
@@ -26,14 +26,14 @@ Hub page for Galaxy configuration.
 
 ## FTP
 
-* [Upload via FTP](Upload via FTP)
-* [Setup ProFTPd with AD/LDAP auth](ProFTPd_with_AD)
+* [Upload via FTP](/src/Admin/Config/Upload via FTP/index.md)
+* [Setup ProFTPd with AD/LDAP auth](/src/Admin/Config/ProFTPd_with_AD/index.md)
 
 ## Other
 
-* [Eggs](Eggs)
+* [Eggs](/src/Admin/Config/Eggs/index.md)
 * [GenomeSpace](/src/Admin/Config/GenomeSpace/index.md)
-* [User Information (Collecting information during registration)](User Information)
-* [Running on Windows](Windows)
-* [Access Control (ACLs)](Access Control)
+* [User Information (Collecting information during registration)](/src/Admin/Config/User Information/index.md)
+* [Running on Windows](/src/Admin/Config/Windows/index.md)
+* [Access Control (ACLs)](/src/Admin/Config/Access Control/index.md)
 

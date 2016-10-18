@@ -6,7 +6,7 @@ autotoc: true
 
 # Writing Data Manager Tests
 
-Writing a Data Manager test is similar to writing a test for any other [Galaxy Tool](../../../../Admin/Tools/Writing Tests). For an example, please see at [http://testtoolshed.g2.bx.psu.edu/view/blankenberg/data_manager_example_blastdb_ncbi_update_blastdb](http://testtoolshed.g2.bx.psu.edu/view/blankenberg/data_manager_example_blastdb_ncbi_update_blastdb). 
+Writing a Data Manager test is similar to writing a test for any other [Galaxy Tool](/src/Admin/Tools/Writing Tests/index.md). For an example, please see at [http://testtoolshed.g2.bx.psu.edu/view/blankenberg/data_manager_example_blastdb_ncbi_update_blastdb](http://testtoolshed.g2.bx.psu.edu/view/blankenberg/data_manager_example_blastdb_ncbi_update_blastdb). 
 
 ----
 # Running Data Manager Tests

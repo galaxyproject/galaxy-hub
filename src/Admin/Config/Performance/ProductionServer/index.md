@@ -2,7 +2,7 @@
 autotoc: true
 title: Running Galaxy in a production environment
 ---
-PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Admin/Config/Performance/LinkBox/index.md)
 
 
 The [basic installation instructions](/src/Admin/GetGalaxy/index.md) are suitable for development by a single user, but when setting up Galaxy for a multi-user production environment, there are some additional steps that should be taken for the best performance.
@@ -15,7 +15,7 @@ You may also want to consult the [Building Scalable Galaxy slides](ATTACHMENT_UR
 By default, Galaxy:
 
 * Uses [SQLite](http://www.sqlite.org/) (a serverless database), so you don't have to run/configure a database server for quick or basic development.  However, SQLite does not handle concurrency.
-* Uses a built-in HTTP server, written in Python.  Much of the work performed by this server can be moved to [nginx](../../../../Admin/Config/nginxProxy) or Apache, which will increase performance.
+* Uses a built-in HTTP server, written in Python.  Much of the work performed by this server can be moved to [nginx](/src/Admin/Config/nginxProxy/index.md) or Apache, which will increase performance.
 * Runs all tools locally.  Moving to a [cluster](/src/Admin/Config/Performance/Cluster/index.md) will greatly increase capacity.
 * Runs in a single process, which is a performance problem in [CPython](http://en.wikipedia.org/wiki/CPython).
 
@@ -76,7 +76,7 @@ During deployment, you may run into problems with failed jobs.  By default, Gala
 
 The most important recommendation is to switch to an actual database server.  By default, Galaxy will use [SQLite](http://www.sqlite.org/), which is a serverless simple file database engine.  Since it's serverless, all of the database processing occurs in the Galaxy process itself.  This has two downsides: it occupies the aforementioned GIL (meaning that the process is not free to do other tasks), and it is not nearly as efficient as a dedicated database server.  There are other drawbacks, too.  When load increases with multiple users, the risk of transactional locks also increases.  Locks will cause (among other things) timeouts and job errors.  If you start with SQLite and then later realize a need for a database server, you'll need to migrate your database or start over.  Galaxy does not provide an internal method to migrate data from SQLite, and although free conversion tools are available on the web, this process is non-trivial.
 
-<div class='right'>[{{Images/Logos/PostgreSQLLogo160.png|PostgreSQL}}](http://www.postgresql.org/)</div>
+<div class='right'><a href='http://www.postgresql.org/'><img src="/src/Images/Logos/PostgreSQLLogo160.png" alt="PostgreSQL" /></a></div>
 
 For this reason, Galaxy also supports [PostgreSQL](http://www.postgresql.org/) and [MySQL](http://dev.mysql.com/). *PostgreSQL is much preferred since we've found it works better with our DB abstraction layer, [SQLAlchemy](http://www.sqlalchemy.org).*
 
@@ -118,8 +118,8 @@ Downloading and uploading data can also be moved to the proxy server.  This is e
 
 Virtually any server that proxies HTTP should work, although we provide configuration examples for:
 
-* [Apache](../../../../Admin/Config/ApacheProxy), and
-* [nginx](../../../../Admin/Config/nginxProxy), a high performance reverse proxy, used by our public Galaxy sites
+* [Apache](/src/Admin/Config/ApacheProxy/index.md), and
+* [nginx](/src/Admin/Config/nginxProxy/index.md), a high performance reverse proxy, used by our public Galaxy sites
 
 ### Using a compute cluster
 
@@ -131,7 +131,7 @@ Configuration is not difficult once your cluster is set up.  Details can be foun
 
 ### Cleaning up datasets
 
-When datasets are deleted from a history or library, it is simply marked as deleted and not actually removed, since it can later be undeleted.  To free disk space, a set of scripts can be run (e.g. from `cron`) to remove the data files as specified by local policy.  See the [Purge histories and datasets](../../../../Admin/Config/Performance/Purge Histories and Datasets) page for instructions.
+When datasets are deleted from a history or library, it is simply marked as deleted and not actually removed, since it can later be undeleted.  To free disk space, a set of scripts can be run (e.g. from `cron`) to remove the data files as specified by local policy.  See the [Purge histories and datasets](/src/Admin/Config/Performance/Purge Histories and Datasets/index.md) page for instructions.
 
 ### Rotate log files
 
@@ -161,7 +161,7 @@ To get started with setting up local data, please see [Data Integration](https:/
 
 ### Enable upload via FTP
 
-File sizes have grown very large thanks to rapidly advancing sequencer technology, and it is not always practical to upload these files through the browser.  Thankfully, a simple solution is to allow Galaxy users to upload them via FTP and import those files in to their histories.  Configuration for FTP is explained on the [Admin/Config/Upload via FTP](../../../../Admin/Config/Upload via FTP) page.
+File sizes have grown very large thanks to rapidly advancing sequencer technology, and it is not always practical to upload these files through the browser.  Thankfully, a simple solution is to allow Galaxy users to upload them via FTP and import those files in to their histories.  Configuration for FTP is explained on the [Admin/Config/Upload via FTP](/src/Admin/Config/Upload via FTP/index.md) page.
 
 ## Advanced configuration
 
@@ -185,7 +185,7 @@ Finally, if you are using Galaxy <= release_2014.06.02, we recommend that you in
 
 ### Make the proxy handle uploads and downloads
 
-By default, Galaxy receives file uploads as a stream from the proxy server and then writes this file to disk.  Likewise, it sends files as a stream to the proxy server.  This occupies the GIL in that Galaxy process and will decrease responsiveness for other operations in that process.  To solve this problem, you can configure your proxy server to serve downloads directly, involving Galaxy only for the task of authorizing that the user has permission to read the dataset.  If using nginx as the proxy, you can configure it to receive uploaded files and write them to disk itself, only notifying Galaxy of the upload once it's completed.  All the details on how to configure these can be found on the [Apache](../../../../Admin/Config/Apache Proxy) and [nginx](../../../../Admin/Config/nginxProxy) proxy instruction pages.
+By default, Galaxy receives file uploads as a stream from the proxy server and then writes this file to disk.  Likewise, it sends files as a stream to the proxy server.  This occupies the GIL in that Galaxy process and will decrease responsiveness for other operations in that process.  To solve this problem, you can configure your proxy server to serve downloads directly, involving Galaxy only for the task of authorizing that the user has permission to read the dataset.  If using nginx as the proxy, you can configure it to receive uploaded files and write them to disk itself, only notifying Galaxy of the upload once it's completed.  All the details on how to configure these can be found on the [Apache](/src/Admin/Config/Apache Proxy/index.md) and [nginx](/src/Admin/Config/nginxProxy/index.md) proxy instruction pages.
 
 ## Testing
 

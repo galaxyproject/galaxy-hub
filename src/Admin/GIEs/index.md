@@ -48,7 +48,7 @@ There are some extra considerations with "enterprise" deployments like running d
 
 ##### Nginx
 
-See the [Nginx configuration page](../../Admin/Config/nginxProxy#configuring_nginx_for_galaxy_interactive_environments_28150729) for more details about how to configure it for the GIEs
+See the [Nginx configuration page](/src/Admin/Config/nginxProxy/index.md#configuring_nginx_for_galaxy_interactive_environments_28150729) for more details about how to configure it for the GIEs
 
 #### 15.10+
 

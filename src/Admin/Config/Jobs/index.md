@@ -2,8 +2,8 @@
 autotoc: true
 title: Galaxy Job Configuration
 ---
-PLACEHOLDER_INCLUDE(/Admin/LinkBox)
-PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/Admin/Config/Performance/LinkBox/index.md)
 
 
 By default, jobs in Galaxy are run locally on the server on which the Galaxy application was started.  Many options are available for running Galaxy jobs on other systems, including clusters and other remote resources.
@@ -648,7 +648,7 @@ def dev_only(user_email):
 ```
 
 
-There is an additional page on [Access Control](../../../Admin/Config/Access Control) for those interested.
+There is an additional page on [Access Control](/src/Admin/Config/Access Control/index.md) for those interested.
 
 ##### Additional Tricks
 

@@ -1,6 +1,6 @@
-PLACEHOLDER_INCLUDE(/Admin/LinkBox)
-PLACEHOLDER_INCLUDE(/Develop/LinkBox)
-PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/FAQs/LinkBox/index.md)
 
 # Galaxy Administration
 
@@ -8,35 +8,35 @@ This is the hub page for the section of this wiki on how to deploy and administe
 
 ## Deploying
 
-* [Install own Galaxy](GetGalaxy)
+* [Install own Galaxy](/src/Admin/GetGalaxy/index.md)
 * [Install on the Cloud Infrastructure](/src/CloudMan/index.md)
 * [Maintaining an Instance](/src/Admin/Maintenance/index.md)
 
 ## Configuration
 
-* [Tools](Tools)
+* [Tools](/src/Admin/Tools/index.md)
 * [Tool Panel](/src/Admin/ToolPanel/index.md)
-* [Administration Interface](../Admin/Interface)
-* [Subtopics in Configuration](Config)
+* [Administration Interface](/src/Admin/Interface/index.md)
+* [Subtopics in Configuration](/src/Admin/Config/index.md)
 * [Installing tools](/src/Admin/Tools/AddToolFromToolShedTutorial/index.md)
-* [Data Libraries](DataLibraries)
-* [Datatypes](Datatypes)
-* [Sample Tracking](SampleTracking)
+* [Data Libraries](/src/Admin/DataLibraries/index.md)
+* [Datatypes](/src/Admin/Datatypes/index.md)
+* [Sample Tracking](/src/Admin/SampleTracking/index.md)
 * [Configuring Galaxy Home/Welcome Page](/src/Admin/GalaxyWelcomePage/index.md)
-* [Purge Histories and Datasets](../Admin/Config/Performance/Purge Histories and Datasets)
+* [Purge Histories and Datasets](/src/Admin/Config/Performance/Purge Histories and Datasets/index.md)
 * [Interactive Environments (IE)](/src/Admin/GIEs/index.md)
 
 ## Users
 
-* [User Accounts](UserAccounts)
-* [Disk Accounting and Quotas](DiskQuotas)
-* [Usage Reports](UsageReports)
+* [User Accounts](/src/Admin/UserAccounts/index.md)
+* [Disk Accounting and Quotas](/src/Admin/DiskQuotas/index.md)
+* [Usage Reports](/src/Admin/UsageReports/index.md)
 
 ## Learning Resources
 
-* [FAQ](FAQ)
+* [FAQ](/src/Admin/FAQ/index.md)
 * [Mailing Lists (galaxy-dev)](/src/MailingLists/index.md)
-* [Tutorials](Training)
+* [Tutorials](/src/Admin/Training/index.md)
 
 ## Development Resources
 
@@ -44,7 +44,7 @@ This is the hub page for the section of this wiki on how to deploy and administe
 
 ## Data Resources
 
-* [Admin/DataIntegration](../Admin/DataIntegration)
+* [Admin/DataIntegration](/src/Admin/DataIntegration/index.md)
 * [Admin/DataPreparation](/src/Admin/DataPreparation/index.md)
 * [Admin/ReferenceMAFs](/src/Admin/ReferenceMAFs/index.md)
 
@@ -56,7 +56,7 @@ This is the hub page for the section of this wiki on how to deploy and administe
 * [Switching to Github from Bitbucket](/src/Admin/SwitchingToGithubFromBitbucket/index.md)
 
 <div class='center'>
-<a href='http://galaxyproject.org/search/getgalaxy'><img src="../Images/Logos/GetGalaxySearch.png" alt="Search all Galaxy administration resources" width="120" /></a>
+<a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/Images/Logos/GetGalaxySearch.png" alt="Search all Galaxy administration resources" width="120" /></a>
 
 [Search all Galaxy administration resources](http://galaxyproject.org/search/getgalaxy)
 </div>

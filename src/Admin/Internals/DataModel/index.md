@@ -1,5 +1,5 @@
-PLACEHOLDER_INCLUDE(/Admin/LinkBox)
-PLACEHOLDER_INCLUDE(/Develop/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
 
 TODO: Describe data model.  For now, have a picture!
 

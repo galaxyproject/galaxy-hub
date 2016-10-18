@@ -1,6 +1,6 @@
 ## Usegalaxy.org Data Rsync
 
-[Data Integration](../../Admin/DataIntegration)<br />
+[Data Integration](/src/Admin/DataIntegration/index.md)<br />
 [Data Preparation](/src/Admin/DataPreparation/index.md)
 
 ## Obtaining Reference Genome Data by Rsync
@@ -45,9 +45,9 @@ Genomes are organized in directories by reference genome **dbkey**. If you are n
 
 #### Example: dbkey 'Tcas_3.0'
 
-* *On **Get Data -> Upload File** tool:* <br />![](dbkey_UploadFile.png)
+* *On **Get Data -> Upload File** tool:* <br />![](/src/Admin/UseGalaxyRsync/dbkey_UploadFile.png)
 
-* *Under **Edit Attributes** (found by clicking on any dataset's upper right corner pencil icon):* <br />![](dbkey_EditAttributes.png)
+* *Under **Edit Attributes** (found by clicking on any dataset's upper right corner pencil icon):* <br />![](/src/Admin/UseGalaxyRsync/dbkey_EditAttributes.png)
 
 ## Location (*.loc) Files
 

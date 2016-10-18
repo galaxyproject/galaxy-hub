@@ -23,11 +23,11 @@ You only need to download Galaxy if you plan to:
 
 ## Requirements
 
-* UNIX/Linux or Mac OS X (although you can [try with Windows](../../Admin/Config/Windows))
+* UNIX/Linux or Mac OS X (although you can [try with Windows](/src/Admin/Config/Windows/index.md))
 * Python 2.7 ([details here](/src/Admin/Python/index.md))
 * Git (optional - see below)
 * GNU Make, gcc to compile and install tool dependencies
-* Additional tool requirements as detailed in [Tool Dependencies](../../Admin/Tools/ToolDependencies)
+* Additional tool requirements as detailed in [Tool Dependencies](/src/Admin/Tools/ToolDependencies/index.md)
 
 ## Get the Code
 
@@ -88,7 +88,7 @@ Upon restarting, Galaxy will bind to any available network interfaces instead of
 
 ## Become an Admin
 
-In order to control your new Galaxy through the UI (installing tools, managing users, creating groups etc.) you have to become an [administrator](../../Admin/Interface). First register as a new user and then give the user admin privileges like this: 
+In order to control your new Galaxy through the UI (installing tools, managing users, creating groups etc.) you have to become an [administrator](/src/Admin/Interface/index.md). First register as a new user and then give the user admin privileges like this: 
 You add the Galaxy login ( email ) to the Galaxy configuration file (`config/galaxy.ini`). If the file does not exist you can copy it from the provided sample (`config/galaxy.ini.sample`). Note that you have to restart Galaxy after modifying the configuration for changes to take effect. [More help with an example how-to.](/src/Admin/GetGalaxy/index.md#become_an_admin_example)
 
 ```
@@ -181,7 +181,7 @@ Restore the fresh backup if a database update was required, and then restart Gal
 
 * A common practice when using any web browser is to stay current with software updates to maximize performance and security. If moving forward to [production server](/src/Admin/Config/Performance/ProductionServer/index.md) with login enabled, please make sure you and your end-users are current.
 
-* Some tools shipped with Galaxy have dependencies that need to be satisfied manually. Please see details [here](../../Admin/Tools/ToolDependencies).
+* Some tools shipped with Galaxy have dependencies that need to be satisfied manually. Please see details [here](/src/Admin/Tools/ToolDependencies/index.md).
 
 # Help
 
@@ -246,7 +246,7 @@ Simplified instructions for users managing their own local Galaxy server. If you
 
 ## Other Resources
 
-<div class='right'><a href='http://galaxyproject.org/search/getgalaxy'><img src="../../Images/Logos/GetGalaxySearch.png" alt="Galaxy administration, tool, and deployment search" width="170" /></a></div>
+<div class='right'><a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/Images/Logos/GetGalaxySearch.png" alt="Galaxy administration, tool, and deployment search" width="170" /></a></div>
 
 * [Search all Galaxy administration resources](http://galaxyproject.org/search/getgalaxy)
 

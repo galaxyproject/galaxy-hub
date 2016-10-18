@@ -2,8 +2,8 @@
 autotoc: true
 title: Frequently Asked Questions for Galaxy Administration
 ---
-PLACEHOLDER_INCLUDE(/Admin/LinkBox) 
-PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md) 
+PLACEHOLDER_INCLUDE(/src/FAQs/LinkBox/index.md)
 
 
 See [Learn/FAQ](/src/Learn/FAQ/index.md) for questions about using any Galaxy instance, and [Main/FAQ](/src/Main/FAQ/index.md) for questions specifically about using Galaxy's free public server [Main](/src/Main/index.md).
@@ -24,7 +24,7 @@ See [Copyrights and Licenses](/src/Admin/License/index.md).
 
 Galaxy can be used through a **free public [Main](/src/Main/index.md) web service at [http://usegalaxy.org](http://usegalaxy.org)**, a **[Local](/src/Admin/GetGalaxy/index.md) install**, or an **[Amazon Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2/) via [CloudMan](/src/CloudMan/index.md)**. 
 
-Tools and workflows managed by the primary Galaxy team (but contributed by [community members](/src/Community/index.md) worldwide) are served through the **[ Main ToolShed](../../Tool Shed)** and genome data/indexes through an **[rsync service](../../Admin/Data Integration)**.  
+Tools and workflows managed by the primary Galaxy team (but contributed by [community members](/src/Community/index.md) worldwide) are served through the **[ Main ToolShed](/src/Tool Shed/index.md)** and genome data/indexes through an **[rsync service](/src/Admin/Data Integration/index.md)**.  
 
 *Which is **right** for you?*
 * Review the **[Big Picture](/src/BigPicture/Choices/index.md)**
@@ -38,7 +38,7 @@ Tools and workflows managed by the primary Galaxy team (but contributed by [comm
 
 **I have downloaded and installed a local instance of Galaxy.  How can I get rid of unwanted histories and their associated datasets?**
 
-There are scripts available in the Galaxy distribution that make this process very simple.  See our [Purge Histories and Datasets page](../../Admin/Config/Performance/Purge Histories and Datasets) for details.
+There are scripts available in the Galaxy distribution that make this process very simple.  See our [Purge Histories and Datasets page](/src/Admin/Config/Performance/Purge Histories and Datasets/index.md) for details.
 
 ----
 
@@ -46,7 +46,7 @@ There are scripts available in the Galaxy distribution that make this process ve
 
 **What versions of the Python language do you support with your downloadable Galaxy source distribution?**
 
-We currently support Python 2.6 and 2.7.  When you start up your Galaxy instance, the Python eggs for your platform will be automatically downloaded for you.  See our [Eggs page](../../Admin/Config/Eggs) for more information.
+We currently support Python 2.6 and 2.7.  When you start up your Galaxy instance, the Python eggs for your platform will be automatically downloaded for you.  See our [Eggs page](/src/Admin/Config/Eggs/index.md) for more information.
 
 ----
 
@@ -54,7 +54,7 @@ We currently support Python 2.6 and 2.7.  When you start up your Galaxy instance
 
 **How do I connect an external datasource to Galaxy?**
 
-Adding an external datasource is quite easy, and only requires minimal work on the datasource side.  For complete details on how to do this, see our [DataSources page](../../Admin/Internals/Data Sources).
+Adding an external datasource is quite easy, and only requires minimal work on the datasource side.  For complete details on how to do this, see our [DataSources page](/src/Admin/Internals/Data Sources/index.md).
 
 ----
 
@@ -62,7 +62,7 @@ Adding an external datasource is quite easy, and only requires minimal work on t
 
 **How do I implement support for a new data type in Galaxy?**
 
-For complete details on how to support a new data type, see our [AddingDatatypes page](../../Admin/Datatypes/Adding Datatypes).
+For complete details on how to support a new data type, see our [AddingDatatypes page](/src/Admin/Datatypes/Adding Datatypes/index.md).
 
 ----
 
@@ -82,7 +82,7 @@ xls = galaxy.datatypes.data:Data,application/vnd.ms-excel
 
 **How can I run a Galaxy mirror alongside my regular web server (i.e. on port 80)?**
 
-Via a proxy connection in Apache.  Instructions can be found on the [Admin/Config/Apache Proxy](../../Admin/Config/Apache Proxy) page.
+Via a proxy connection in Apache.  Instructions can be found on the [Admin/Config/Apache Proxy](/src/Admin/Config/Apache Proxy/index.md) page.
 
 ----
 
@@ -128,5 +128,5 @@ The following alignment tools available in Galaxy enable this:
 
 ## Any other question
 
-<div class='left'><a href='http://galaxyproject.org/search/getgalaxy'><img src="../../Images/Logos/GetGalaxySearch.png" alt="Google Custom Search for information on deploying, administering and extending Galaxy" width="150" /></a></div>
-The [GetGalaxy Custom Search](http://galaxyproject.org/search/getgalaxy) searches all online Galaxy resources for information about installing, administering, extending and developing Galaxy.  This includes this wiki, the [Mailing Lists](/src/MailingLists/index.md), [Main](/src/Main/index.md), the [Tool Shed](../../Tool Shed), and the [Galaxy source code](https://github.com/galaxyproject/galaxy).
+<div class='left'><a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/Images/Logos/GetGalaxySearch.png" alt="Google Custom Search for information on deploying, administering and extending Galaxy" width="150" /></a></div>
+The [GetGalaxy Custom Search](http://galaxyproject.org/search/getgalaxy) searches all online Galaxy resources for information about installing, administering, extending and developing Galaxy.  This includes this wiki, the [Mailing Lists](/src/MailingLists/index.md), [Main](/src/Main/index.md), the [Tool Shed](/src/Tool Shed/index.md), and the [Galaxy source code](https://github.com/galaxyproject/galaxy).
