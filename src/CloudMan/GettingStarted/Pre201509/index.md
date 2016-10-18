@@ -10,6 +10,7 @@ For the purposes of executing Galaxy on the Cloud, we have packaged Galaxy, Gala
 1. Enjoy a personal instance of Galaxy on the Cloud
 
 ### Detailed steps
+
 (For even more detailed steps, see [this page](/src/CloudMan/AWS/GettingStarted/index.md))
 
 **Step 1 (one time only):**
@@ -19,22 +20,22 @@ For the purposes of executing Galaxy on the Cloud, we have packaged Galaxy, Gala
 * **Create IAM user** by clicking on *IAM service* → *Users* → *Create New Users*. Give the user a name (e.g., *galaxy_cloudman*) and click *Create*. Once created, make a note of and download the API access credentials.
 
 <div class='center'> 
-<a href='http://i.imgur.com/Dpy3gxq.jpg'><img src='http://i.imgur.com/Dpy3gxq.jpg' alt='' width=200 /></a>
-<a href='http://i.imgur.com/hLxBYE2.jpg'><img src='http://i.imgur.com/hLxBYE2.jpg' alt='' width=200 /></a>
-<a href='http://i.imgur.com/bYSfHyQ.jpg'><img src='http://i.imgur.com/bYSfHyQ.jpg' alt='' width=200 /></a>
+<a href='http://i.imgur.com/Dpy3gxq.jpg'><img src="http://i.imgur.com/Dpy3gxq.jpg" alt="" width=200 /></a>
+<a href='http://i.imgur.com/hLxBYE2.jpg'><img src="http://i.imgur.com/hLxBYE2.jpg" alt="" width=200 /></a>
+<a href='http://i.imgur.com/bYSfHyQ.jpg'><img src="http://i.imgur.com/bYSfHyQ.jpg" alt="" width=200 /></a>
 </div>
 
 * **Attach permissions to the created IAM user** by selecting the newly created user, clicking on *Permissions* in the user properties pane followed by a click on *Attach User Policy* button. Select the *Administrator Access* policy and Apply it.
 
 <div class='center'>
-<a href='http://i.imgur.com/5WTnTY8.jpg'><img src='http://i.imgur.com/5WTnTY8.jpg' alt='' width=200 /></a>
+<a href='http://i.imgur.com/5WTnTY8.jpg'><img src="http://i.imgur.com/5WTnTY8.jpg" alt="" width=200 /></a>
 </div>
 
 ** Step 2 (required every time a cloud instance of Galaxy is desired): **
 
 * **Launch the master instance** by using the [CloudLaunch interface](https://usegalaxy.org/cloudlaunch). Start by providing the API access credentials downloaded in the above step. Fill the rest of the form as instructed in the form.
 
-<div class='center'><a href='http://i.imgur.com/Psn3Ohv.jpg'><img src='http://i.imgur.com/Psn3Ohv.jpg' alt='' width=200 /></a></div>
+<div class='center'><a href='http://i.imgur.com/Psn3Ohv.jpg'><img src="http://i.imgur.com/Psn3Ohv.jpg" alt="" width=200 /></a></div>
 
 * **Download the key pair** from the resulting page. The key pair allows you to ssh into the instance.
 * **Wait for the instance to launch** - it will take a couple of minutes for the instance to launch. Once it has launched, a link to the CloudMan console will be shown. Note that it will take another minute or two for CloudMan application to start so simply refresh the page until the interface becomes available.

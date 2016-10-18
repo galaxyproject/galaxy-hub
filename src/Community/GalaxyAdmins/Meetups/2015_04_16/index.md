@@ -1,11 +1,11 @@
-<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> 
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2015/04/16 Web Meetup<br /><br />
 
 </div></div>
 
 <br />
 
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 <table>
   <tr>
@@ -20,7 +20,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em>IU Galaxies - tips and tricks</em> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_04_GalaxyAdmins_IUGalaxy_Ganote.pdf'>Slides</a>) <div class='indent'><a href='http://www.researchgate.net/profile/Carrie_Ganote'>Carrie Ganote</a>, <a href='http://ncgas.org/'>National Center for Genome Analysis Support (NCGAS)</a>, <a href='http://pti.iu.edu/'>Pervasive Technology Institute</a>, <a href='http://iu.edu/'>Indiana University</a> </div> <em>Galaxy Project Update: Galaxy's new tool form support</em> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_04_GalaxyAdmins_ToolForms_Guerler.pdf'>Slides</a>)<div class='indent'> <a href='/guerler'>Aysam Guerler</a>, <a href='/GalaxyTeam'>Galaxy</a>, <a href='http://jhu.edu/'>Johns Hopkins University</a> </td>
+    <td> <em>IU Galaxies - tips and tricks</em> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_04_GalaxyAdmins_IUGalaxy_Ganote.pdf'>Slides</a>) <div class='indent'><a href='http://www.researchgate.net/profile/Carrie_Ganote'>Carrie Ganote</a>, <a href='http://ncgas.org/'>National Center for Genome Analysis Support (NCGAS)</a>, <a href='http://pti.iu.edu/'>Pervasive Technology Institute</a>, <a href='http://iu.edu/'>Indiana University</a> </div> <em>Galaxy Project Update: Galaxy's new tool form support</em> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_04_GalaxyAdmins_ToolForms_Guerler.pdf'>Slides</a>)<div class='indent'> <a href='/src/guerler/index.md'>Aysam Guerler</a>, <a href='/src/GalaxyTeam/index.md'>Galaxy</a>, <a href='http://jhu.edu/'>Johns Hopkins University</a> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -33,7 +33,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 *[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
-<div class='right'><br /><a href='http://ncgas.org/'><img src='/Images/Logos/NCGASLogoWide.jpg' alt='National Center for Genome Analysis Support (NCGAS)' width="250" /></a></div>
+<div class='right'><br /><a href='http://ncgas.org/'><img src="/src/Images/Logos/NCGASLogoWide.jpg" alt="National Center for Genome Analysis Support (NCGAS)" width="250" /></a></div>
 
 ## IU Galaxies - Tips and Tricks
 
@@ -55,4 +55,4 @@ The [meetup's online conference room](https://connect.johnshopkins.edu/galaxyadm
   * If you raise your hand, the host will need to recognize you.
   * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
-<div class='center'>![](/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>
+<div class='center'>![](/src/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>

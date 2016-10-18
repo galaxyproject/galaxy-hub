@@ -16,10 +16,10 @@ In short, the Galaxy community includes anyone who works with Galaxy in any capa
  **[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md):**
 * People responsible for large Galaxy installations. 
 
- **[/Proteomics](/src/Proteomics/index.md):**
+ **[Proteomics](/src/Proteomics/index.md):**
 * Proteomics Galaxy-based efforts.
 
- **[/IUC](/src/IUC/index.md):**
+ **[IUC](/src/IUC/index.md):**
 * Intergalactic Utilities Commission (IUC) helps manage the Galaxy Toolshed
 
  **[Galaxy Training Network](/src/Teach/GTN/index.md)**
@@ -27,11 +27,18 @@ In short, the Galaxy community includes anyone who works with Galaxy in any capa
 
 # By Geography / Language
 
+## Arabic
+
+ **[Galaxy Arabic](/src/Community/Arabic/index.md):**
+* Arabic speaking Galaxy community
+* @[Galaxy_Arabic on Twitter](http://twitter.com/galaxy_arabic)
+* [Galaxy Arabic mailing list](https://lists.galaxyproject.org/listinfo/galaxy-arabic)
+
 ## Australia
 
  **[Galaxy Australia](https://www.embl-abr.org.au/galaxyaustralia/):**
 * Australian Galaxy community
-* [@GalaxyAustralia on Twitter](http://twitter.com/galaxyaustralia)
+* @[GalaxyAustralia on Twitter](http://twitter.com/galaxyaustralia)
 * Hosts [Galaxy Australasia Meeting (GAMe)](https://www.embl-abr.org.au/game2017/)
 
 ## France & French
@@ -46,7 +53,7 @@ In short, the Galaxy community includes anyone who works with Galaxy in any capa
 
  **[Pitagora Galaxy](http://www.pitagora-galaxy.org/)**
 * This community features Galaxy VMs, instances, [monthly meetups](http://wiki.pitagora-galaxy.org/wiki/index.php/Events#Meetup_2), and an [annual workshop in Tokyo](http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2016).
-* [#usegalaxyjp on Twitter](https://twitter.com/hashtag/usegalaxyjp)
+* #[usegalaxyjp on Twitter](https://twitter.com/hashtag/usegalaxyjp)
 
 ## Spain & Spanish
 
@@ -57,14 +64,14 @@ In short, the Galaxy community includes anyone who works with Galaxy in any capa
 
  **[Galaxy UK](http://galaxy-community.org.uk/)**
 * Galaxy in the United Kingdom.
-* [@GalaxyUKFriends on Twitter](http://twitter.com/galaxyukfriends)
+* @[GalaxyUKFriends on Twitter](http://twitter.com/galaxyukfriends)
 
 # Resources
 
 <div class='right'>
 <table>
   <tr>
-    <td style=" text-align: center;"> <a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' width="140" /></a><br /><a href='/Community/Deployments'>Browse / Add</a></td>
+    <td style=" text-align: center;"> <a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="140" /></a><br /><a href='/src/Community/Deployments/index.md'>Browse / Add</a></td>
   </tr>
 </table>
 
@@ -80,7 +87,7 @@ Ever wonder how other sites deploy Galaxy?  Want to share how your Galaxy instan
 <div class='right'>
 <table>
   <tr>
-    <td style=" text-align: center;"> <a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' width="140" /></a><br /><a href='/Community/Logs'>Browse / Add</a> </td>
+    <td style=" text-align: center;"> <a href='/src/Community/Logs/index.md'><img src="/src/Images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="140" /></a><br /><a href='/src/Community/Logs/index.md'>Browse / Add</a> </td>
   </tr>
 </table>
 
@@ -92,6 +99,7 @@ Want to share how you addressed a particular challenge in your Galaxy deployment
 ## Other Resources
 
 * [Tool Shed](/src/ToolShed/index.md) - Tool wrappers contributed by community members.
-* [/Events](/src/Events/index.md) - Events of interest to the community, including the annual Galaxy meetings.
-* [/Support](/src/Support/index.md) - How to get (and help with) support, including [Mailing Lists](/src/MailingLists/index.md) and [this wiki](/Wiki Help).
+* [Events](/src/Events/index.md) - Events of interest to the community, including the annual Galaxy meetings.
+* [Support](/src/Support/index.md) - How to get (and help with) support, including [Mailing Lists](/src/MailingLists/index.md) and [this wiki](/src/Wiki Help/index.md).
 * [Training and Outreach](/src/Outreach/index.md) - Find out how you can support the Galaxy community and get the word out about Galaxy.
+

@@ -1,11 +1,11 @@
-<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='GalaxyAdmins' width="220" /></a> 
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
 <div class='title'>2015/08/20 Web Meetup<br /><br />
 
 </div></div>
 
 <br />
 
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 <table>
   <tr>
@@ -20,7 +20,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em>Genomic data management at <a href='https://www.nml-lnm.gc.ca/index-eng.htm'>Canada's National Microbiology Laboratory</a> with <a href='http://www.irida.ca/'>IRIDA</a> and Galaxy</em><div class='indent'><a href='https://github.com/apetkau'>Aaron Petkau</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_DataMgmtWihtIRIDA_Petkau.pdf'>Slides</a> </div> <em><a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_ToolInstall_Afgan.pdf'>Adding transparency and automation into the Galaxy tool installation process</a></em> <div class='indent'><a href='/EnisAfgan'>Enis Afgan</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_ToolInstall_Afgan.pdf'>Slides</a>, <a href='https://github.com/afgane/ansible-tools'>GitHub Repo</a> </div>  </td>
+    <td> <em>Genomic data management at <a href='https://www.nml-lnm.gc.ca/index-eng.htm'>Canada's National Microbiology Laboratory</a> with <a href='http://www.irida.ca/'>IRIDA</a> and Galaxy</em><div class='indent'><a href='https://github.com/apetkau'>Aaron Petkau</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_DataMgmtWihtIRIDA_Petkau.pdf'>Slides</a> </div> <em><a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_ToolInstall_Afgan.pdf'>Adding transparency and automation into the Galaxy tool installation process</a></em> <div class='indent'><a href='/src/EnisAfgan/index.md'>Enis Afgan</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_ToolInstall_Afgan.pdf'>Slides</a>, <a href='https://github.com/afgane/ansible-tools'>GitHub Repo</a> </div>  </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -37,7 +37,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 ## Genomic data management at Canada's National Microbiology Laboratory with IRIDA and Galaxy
 
 <div class='right'>
-<a href='http://www.irida.ca/'><img src='/Images/Logos/IRIDA.png' alt='IRIDA' width="200" /></a>
+<a href='http://www.irida.ca/'><img src="/src/Images/Logos/IRIDA.png" alt="IRIDA" width="200" /></a>
 </div>
 
 [Aaron Petkau](https://github.com/apetkau) will cover *Genomic data management at [Canada's National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) with [IRIDA](http://www.irida.ca/) and Galaxy*
@@ -59,4 +59,4 @@ The  meetup's online conference room will open 15 minutes before the meetup.  Th
   * If you raise your hand, the host will need to recognize you.
   * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
-<div class='center'>![](/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>
+<div class='center'>![](/src/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>

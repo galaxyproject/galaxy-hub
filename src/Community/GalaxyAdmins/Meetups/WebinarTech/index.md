@@ -1,37 +1,37 @@
-<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/Meetups/LinkBox/index.md)
 
-The [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) group uses the University of Iowa's Blackboard Collaborate (Ellumiate Live!) web conference system for it's [conference call meetups](/src/Community/GalaxyAdmins/Meetups/index.md).  
+The [GalaxyAdmins](/src/Community/GalaxyAdmins/Meetups//index.md) group uses the University of Iowa's Blackboard Collaborate (Ellumiate Live!) web conference system for it's [conference call meetups](/src/Community/GalaxyAdmins/Meetups/WebinarTech//index.md).  
 
 
 ## Blackboard Collaborate (Ellumiate Live!) Tips
 
 You do not need any special client, just a web browser and Java installed (the client will run as a Java web start app). 
 
-**If you are using a recently updated version of Mac OS X, you will need to take [some extra steps](#java-web-start-on-mac-os-x) to get Java Web Start to work.**
+**If you are using a recently updated version of Mac OS X, you will need to take [some extra steps](/src/Community/GalaxyAdmins/Meetups/WebinarTech/index.md#java-web-start-on-mac-os-x) to get Java Web Start to work.**
 
 If you have headphones they greatly improve your audio and *a headset really helps when you are speaking.*
 
 A couple of things to mention, when you launch your session - you can tune your connection speed:
 
-![](/BlackboardConnectionSpeed.png)
+![](/src/Community/GalaxyAdmins/Meetups/WebinarTech/BlackboardConnectionSpeed.png)
 
 Talking works like a walkie-talkie ... you have to select "Talk" (see capture below) to open up your audio line. There can only be 6 simultaneous talkers.  Please only select the talk button when you need to actually talk to reduce background noise and to free up lines for others to participate.
 
-![](/BlackboardTalk.png)
+![](/src/Community/GalaxyAdmins/Meetups/WebinarTech/BlackboardTalk.png)
 
 ## Java Web Start on Mac OS X
 
 <div class='right solid'>
 <table>
   <tr>
-    <td style=" border: none;"> <img src='/Images/Logos/AppleLogo.jpg' alt='' height="50" /> +<img src='/Images/Logos/JavaLogo.png' alt='' height="50" /> </td>
-    <td style=" border:none;"> = <img src='/Images/Icons/Frown.jpg' alt='' width="50" /> </td>
+    <td style=" border: none;"> <img src="/src/Images/Logos/AppleLogo.jpg" alt="" height="50" /> +<img src="/src/Images/Logos/JavaLogo.png" alt="" height="50" /> </td>
+    <td style=" border:none;"> = <img src="/src/Images/Icons/Frown.jpg" alt="" width="50" /> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> <img src='/Images/Logos/AppleLogo.jpg' alt='' height="50" /> + <img src='/Images/Logos/JavaLogo.png' alt='' height="50" /> + <img src='/Images/Icons/PointingFinger.png' alt='You' width="50" /> </td>
-    <td style=" border:none;"> = <img src='/Images/Icons/Smile.png' alt='' width="50" /> </td>
+    <td style=" border: none;"> <img src="/src/Images/Logos/AppleLogo.jpg" alt="" height="50" /> + <img src="/src/Images/Logos/JavaLogo.png" alt="" height="50" /> + <img src="/src/Images/Icons/PointingFinger.png" alt="You" width="50" /> </td>
+    <td style=" border:none;"> = <img src="/src/Images/Icons/Smile.png" alt="" width="50" /> </td>
   </tr>
 </table>
 
@@ -50,7 +50,7 @@ These two situations are known to be fixed with this solution:
 
  if you see 
 
-  `Java Web Start splash screen process exiting .....`<br /><div class='right'>![Blackboard Hang](/BlackboardHang1.png)</div>
+  `Java Web Start splash screen process exiting .....`<br /><div class='right'>![Blackboard Hang](/src/Community/GalaxyAdmins/Meetups/WebinarTech/BlackboardHang1.png)</div>
   `Bad installation. No JRE found in configuration file`</div>
 1. Blackboard Collaborate launches, says loading, gets to 3 of 5 dots on the status indicator and then throws up a blank gray window
 

@@ -1,8 +1,8 @@
 ---
-title: Sigenae Bioinfo, -, Genotoul
+title: Sigenae Bioinfo-Genotoul
 ---
 <div class='center'>
-<a href='http://bioinfo.genotoul.fr/'><img src='/Images/Logos/GenoToulLogo.png' alt='GenoToul Bioinfo'  /></a>
+<a href='http://bioinfo.genotoul.fr/'><img src="/src/Images/Logos/GenoToulLogo.png" alt="GenoToul Bioinfo"  /></a>
 </div>
 
 
@@ -34,7 +34,6 @@ This instance provides access to all basic tools of Galaxy and also specific oth
 * Transcriptomics
 * ChIP-Seq 
 * Training
-
 
 ## Community
 

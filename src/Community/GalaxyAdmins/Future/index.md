@@ -2,11 +2,11 @@
 autotoc: true
 title: GalaxyAdmins Future Directions
 ---
-<div class='center'>![](/Images/Logos/GalaxyAdmins.png)</div>
+<div class='center'>![](/src/Images/Logos/GalaxyAdmins.png)</div>
 
 
 
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/Future/LinkBox/index.md)
 
 
 

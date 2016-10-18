@@ -1,10 +1,10 @@
-<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> 
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2013/05/15 Web Meetup<br /><br />[Galaxy](http://rnaseq.pathogenportal.org/) at [Pathogen Portal](http://pathogenportal.org)
 </div></div>
 
 <br />
 
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 <table>
   <tr>
@@ -19,7 +19,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em><a href='http://rnaseq.pathogenportal.org/'>Galaxy</a> at <a href='http://pathogenportal.org'>Pathogen Portal</a></em><div class='indent'>Andrew Warren, <a href='https://www.vbi.vt.edu/'>Virginia Bioinformatics Institute</a>, Virginia Tech </div><em>Galaxy Project Update</em><div class='indent'><a href='/DannonBaker'>Dannon Baker</a></div> </td>
+    <td> <em><a href='http://rnaseq.pathogenportal.org/'>Galaxy</a> at <a href='http://pathogenportal.org'>Pathogen Portal</a></em><div class='indent'>Andrew Warren, <a href='https://www.vbi.vt.edu/'>Virginia Bioinformatics Institute</a>, Virginia Tech </div><em>Galaxy Project Update</em><div class='indent'><a href='/src/DannonBaker/index.md'>Dannon Baker</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -28,7 +28,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 </table>
 
 
-<div class='right'><a href='http://rnaseq.pathogenportal.org/'><img src='/PathogenPortalGalaxyLandingPage.png' alt='Pathogen Portal Galaxy'  /></a></div>
+<div class='right'><a href='http://rnaseq.pathogenportal.org/'><img src="/src/Community/GalaxyAdmins/Meetups/2013_05_15/PathogenPortalGalaxyLandingPage.png" alt="Pathogen Portal Galaxy"  /></a></div>
 
 <br />
 
@@ -40,7 +40,7 @@ Andrew Warren of the [Cyberinfrastructure Division](http://www.vbi.vt.edu/facult
 
 ## Call Technology
 
-We will use the [University of Iowa's Blackboard system](/src/Community/GalaxyAdmins/Meetups/WebinarTech/index.md) for the call. **Downloading and launching the required Java application takes a few minutes. Using a headphone with microphone to prevent audio feedback during the call is recommended.**
+We will use the [University of Iowa's Blackboard system](/src/Community/GalaxyAdmins/Meetups/2013_05_15/WebinarTech/index.md) for the call. **Downloading and launching the required Java application takes a few minutes. Using a headphone with microphone to prevent audio feedback during the call is recommended.**
 
 <br />
 

@@ -1,8 +1,8 @@
 ---
-title: UIUC, -, Galaxy
+title: UIUC-Galaxy
 ---
 <div class='center'>
-<a href='http://galaxy.illinois.edu'><img src='/uclogo_horz_bold.png' alt='University of Illinois Urbana-Champaign'  /></a>
+<a href='http://galaxy.illinois.edu'><img src="/src/Community/Deployment/UIUC/uclogo_horz_bold.png" alt="University of Illinois Urbana-Champaign"  /></a>
 </div>
 
 
@@ -60,7 +60,5 @@ Local tool shed.
 ### Maintaining and Meeting Needs
 
 ## Links
-
-
 
 CategoryDeployment

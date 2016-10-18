@@ -6,36 +6,36 @@ This tutorial describes the "Hello World" example (=Wordcount) and its Cloudgene
 
 Login with the default credentials: (admin / admin1978)
 
-![](http://cloudgene.uibk.ac.at/images/cloudman/config.png)
+<img src="http://cloudgene.uibk.ac.at/images/cloudman/config.png" alt="" width=700 />
 
 Select your data. In this case just upload a plain text file:
 
-![](http://cloudgene.uibk.ac.at/images/cloudman/select.png)
+<img src="http://cloudgene.uibk.ac.at/images/cloudman/select.png" alt="" width=700 />
 
 Data is uploaded:
 
-![](http://cloudgene.uibk.ac.at/images/cloudman/upload.png)
+<img src="http://cloudgene.uibk.ac.at/images/cloudman/upload.png" alt="" width=700 />
 
 Job is started and in waiting queue:
 
-![](http://cloudgene.uibk.ac.at/images/cloudman/waiting.png)
+<img src="http://cloudgene.uibk.ac.at/images/cloudman/waiting.png" alt="" width=700 />
 
 Job is running:
 
-![](http://cloudgene.uibk.ac.at/images/cloudman/running.png)
+<img src="http://cloudgene.uibk.ac.at/images/cloudman/running.png" alt="" width=700 />
 
 Job is finished:
 
-![](http://cloudgene.uibk.ac.at/images/cloudman/finished.png)
+<img src="http://cloudgene.uibk.ac.at/images/cloudman/finished.png" alt="" width=700 />
 
 Download results. In this case there are seperate files, this can of course be changed automatically to auto merge and zip file format:
 
-![](http://cloudgene.uibk.ac.at/images/cloudman/download.png)
+<img src="http://cloudgene.uibk.ac.at/images/cloudman/download.png" alt="" width=700 />
 
 The Admin Dashboard allows to maintain your service, check recent jobs or assign workflows to users: 
 
-![](http://cloudgene.uibk.ac.at/images/cloudman/dashboard.png)
+<img src="http://cloudgene.uibk.ac.at/images/cloudman/dashboard.png" alt="" width=700 />
 
 "Services" tab allows to manage your service for updates (=blocking queue) or maintenance status. 
 
-![](http://cloudgene.uibk.ac.at/images/cloudman/maintenance.png)
+<img src="http://cloudgene.uibk.ac.at/images/cloudman/maintenance.png" alt="" width=700 />

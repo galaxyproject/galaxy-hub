@@ -1,8 +1,9 @@
-PLACEHOLDER_INCLUDE(/CloudMan/Header)
+PLACEHOLDER_INCLUDE(/src/CloudMan/Header/index.md)
 
-PLACEHOLDER_INCLUDE(/CloudMan/LinkBox)
+PLACEHOLDER_INCLUDE(/src/CloudMan/UserData/LinkBox/index.md)
 
 ### CloudMan User Data Fields
+
 [CloudMan](/src/CloudMan/index.md) supports the notion of User Data when instantiating an instance. User Data allows individual instances of CloudMan to be customized for a given user. Some of the User Data fields are required while others allow further customization of one's instance. This page describes the available User Data fields. User Data is specified at the time of instance request in [YAML format](http://en.wikipedia.org/wiki/YAML), for example:
 ```bash
 cluster_name: <DESIRED CLUSTER NAME>
@@ -14,6 +15,7 @@ secret_key: <YOUR AWS SECRET KEY>
 
 #### Required User Data Fields
 
+
 | Key |  Value  | 
 | --- | ------ | 
 | `cluster_name` |  specifies the name of the current cluster. Each time this same cluster needs to be instantiated, the same cluster name must be used.  | 
@@ -22,6 +24,7 @@ secret_key: <YOUR AWS SECRET KEY>
 | `secret_key` |  your AWS secret key that matches the provided access key, also available from the AWS account page.  | 
 
 #### Optional User Data Fields
+
 
 | Key |  Value  | 
 | --- | ------ | 

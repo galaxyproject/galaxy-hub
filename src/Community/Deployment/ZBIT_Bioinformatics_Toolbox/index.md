@@ -2,7 +2,7 @@
 title: ZBIT Bioinformatics Toolbox
 ---
 <div class='center'>
-<a href='http://webservices.cs.uni.tuebingen.de/'><img src='/webservices_logo_compact_border.png' alt='ZBIT Bioinformatics Toolbox' height="100" /></a>
+<a href='http://webservices.cs.uni.tuebingen.de/'><img src="/src/Community/Deployment/ZBIT_Bioinformatics_Toolbox/webservices_logo_compact_border.png" alt="ZBIT Bioinformatics Toolbox" height="100" /></a>
 </div>
 
 
@@ -62,5 +62,7 @@ Default user management
 * enhanced data_column parameter
 
 ## Links
+
 * [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de)
 * [Server description](/src/PublicGalaxyServers/index.md#zbit-bioinformatics-toolbox) in the [list of publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) 
+

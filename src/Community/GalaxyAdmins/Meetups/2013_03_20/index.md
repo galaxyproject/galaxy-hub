@@ -1,10 +1,10 @@
-<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> 
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2013/03/20 Web Meetup<br /><br />[NBIC Galaxy](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/)
 </div></div>
 
 <br />
 
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 <table>
   <tr>
@@ -17,7 +17,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em><a href='http://galaxy.nbic.nl/'>NBIC Galaxy</a> at <a href='https://www.surfsara.nl/'>SURFsara's HPC cloud</a></em><div class='indent'><a href="mailto:hailiang DOT mei AT nbic DOT nl">Hailiang Leon Mei</a><br /><a href='PLACEHOLDER_ATTACHMENT_URL20130320Andromeda.pdf'>Slides</a></div><em>Galaxy Project Update</em><div class='indent'><a href='/Dan'>Dan Blankenberg</a><br /><a href='PLACEHOLDER_ATTACHMENT_URL20130320GalaxyUpdate.pdf'>Slides</a></div> </td>
+    <td> <em><a href='http://galaxy.nbic.nl/'>NBIC Galaxy</a> at <a href='https://www.surfsara.nl/'>SURFsara's HPC cloud</a></em><div class='indent'><a href="mailto:hailiang DOT mei AT nbic DOT nl">Hailiang Leon Mei</a><br /><a href='PLACEHOLDER_ATTACHMENT_URL20130320Andromeda.pdf'>Slides</a></div><em>Galaxy Project Update</em><div class='indent'><a href='/src/Dan/index.md'>Dan Blankenberg</a><br /><a href='PLACEHOLDER_ATTACHMENT_URL20130320GalaxyUpdate.pdf'>Slides</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -35,7 +35,7 @@ The *Galaxy Project Update* focused on the new release process, and upcoming Dat
 
 ## Call Technology
 
-We will use the [University of Iowa's Blackboard system](/src/Community/GalaxyAdmins/Meetups/WebinarTech/index.md) for the call. **Downloading and launching the required Java application takes a few minutes. Using a headphone with microphone to prevent audio feedback during the call is recommended.**
+We will use the [University of Iowa's Blackboard system](/src/Community/GalaxyAdmins/Meetups/2013_03_20/WebinarTech/index.md) for the call. **Downloading and launching the required Java application takes a few minutes. Using a headphone with microphone to prevent audio feedback during the call is recommended.**
 
 <br />
 

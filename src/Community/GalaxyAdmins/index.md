@@ -1,9 +1,9 @@
 ---
-title: Galaxy, -, Admins
+title: Galaxy-Admins
 ---
-<div class='center'>![](/Images/GalaxyLogos/GalaxyAdmins.png)</div>
+<div class='center'>![](/src/Images/GalaxyLogos/GalaxyAdmins.png)</div>
 
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 
 
@@ -13,5 +13,5 @@ Galaxy-Admins was started with [this email thread in April 2012](http://dev.list
 
 ## Meetups
 
-The group [meets](Meetups) the third Thursday of every two month (starting February) unless otherwise notified, and irregularly at [Galaxy-related events](/src/Events/index.md), such as [GCC2016](https://gcc2016.iu.edu/).
+The group [meets](/src/Community/GalaxyAdmins/Meetups/index.md) the third Thursday of every two month (starting February) unless otherwise notified, and irregularly at [Galaxy-related events](/src/Events/index.md), such as [GCC2016](https://gcc2016.iu.edu/).
 

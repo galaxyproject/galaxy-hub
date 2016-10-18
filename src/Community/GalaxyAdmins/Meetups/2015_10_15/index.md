@@ -1,9 +1,9 @@
-<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='GalaxyAdmins' width="220" /></a> 
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
 <div class='title'>2015/10/15 Web Meetup<br /><br />
 
 </div></div>
 
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 <table>
   <tr>
@@ -43,4 +43,4 @@ The  meetup's online conference room will open 15 minutes before the meetup.  Th
   * If you raise your hand, the host will need to recognize you.
   * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
-<div class='center'>![](/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>
+<div class='center'>![](/src/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>

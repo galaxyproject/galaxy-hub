@@ -1,11 +1,11 @@
-A list of organizations using and contributing to Galaxy. Please [add your organization](#add-your-organization).
+A list of organizations using and contributing to Galaxy. Please [add your organization](/src/Community/Members/index.md#add-your-organization).
 
 ## Member Links
 
 * [Cistrome](/src/Community/Cistrome/index.md)
-* [Emory University](/Community/Emory University)
+* [Emory University](/src/Community/Emory University/index.md)
 * [NBIC](/src/Community/NBIC/index.md)
-* [Penn State University](/Community/Penn State)
+* [Penn State University](/src/Community/Penn State/index.md)
 
 ## Add Your Organization
 
@@ -16,7 +16,7 @@ Please add your organization to the above list.  You can do this by either:
 
 ### Create a Wiki Page for Your Organization
 
-You can create a wiki page for your organization.  Pick a markup language for the page (see [MoinMoin help](/HelpOnFormatting) and [Creole help](/HelpOnCreoleSyntax)), enter your organization name in the appropriate box, and click the **Create** button.  
+You can create a wiki page for your organization.  Pick a markup language for the page (see [MoinMoin help](/src/HelpOnFormatting/index.md) and [Creole help](/src/HelpOnCreoleSyntax/index.md)), enter your organization name in the appropriate box, and click the **Create** button.  
 Create a community page for your organization
 PLACEHOLDER_NEW_PAGE(Community/Template, "Create using MoinMoin syntax", Community)>>  or <<NewPage(Community/TemplateCreole, "Create using Creole syntax", Community)  
 

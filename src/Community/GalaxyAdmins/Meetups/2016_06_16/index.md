@@ -1,9 +1,9 @@
-<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='GalaxyAdmins' width="220" /></a> 
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
 <div class='title'>2016/06/16 Web Meetup<br /><br />
 
 </div></div>
 
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 <table>
   <tr>
@@ -18,7 +18,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em>Galaxy in Production at the University of Minnesota</em> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201606_Admins_umn.pdf'>Slides</a>)<div class='indent'> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a> and <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a> of the <a href='https://www.msi.umn.edu/'>Minnesota Supercomputing Institute</a> </div> <em><a href='https://github.com/galaxyproject/galaxy/pull/2455'>Galaxy Radio Telescope</a></em> (<a href='https://github.com/erasche/presentations/blob/master/2016_06_galaxyadmins/talk.pdf'>Slides</a>)<div class='indent'><a href='/EricRasche'>Eric Rasche</a></div> </td>
+    <td> <em>Galaxy in Production at the University of Minnesota</em> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201606_Admins_umn.pdf'>Slides</a>)<div class='indent'> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a> and <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a> of the <a href='https://www.msi.umn.edu/'>Minnesota Supercomputing Institute</a> </div> <em><a href='https://github.com/galaxyproject/galaxy/pull/2455'>Galaxy Radio Telescope</a></em> (<a href='https://github.com/erasche/presentations/blob/master/2016_06_galaxyadmins/talk.pdf'>Slides</a>)<div class='indent'><a href='/src/EricRasche/index.md'>Eric Rasche</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -34,8 +34,8 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 ## Galaxy in Production at the University of Minnesota
 
 <div class='right'>
-<a href='https://www.msi.umn.edu/'><img src='/Images/NewsGraphics/UMN_MSI_Square.png' alt='Minnesota Supercomputing Institute' width="140" /></a><br /><br />
-<a href='https://github.com/galaxyproject/galaxy/pull/2455'><img src='/Images/Logos/GRT.png' alt='Galaxy Radio Telescope'  width="140" /></a>
+<a href='https://www.msi.umn.edu/'><img src="/src/Images/NewsGraphics/UMN_MSI_Square.png" alt="Minnesota Supercomputing Institute" width="140" /></a><br /><br />
+<a href='https://github.com/galaxyproject/galaxy/pull/2455'><img src="/src/Images/Logos/GRT.png" alt="Galaxy Radio Telescope"  width="140" /></a>
 </div>
 
 Galaxy has been deployed in several contexts by the [Minnesota Supercomputing Institute (MSI)](https://www.msi.umn.edu/) at the [University of Minnesota - Twin Citites](https://www.umn.edu/).  This month [Evan Bollig](https://www.msi.umn.edu/staff/evan) and [JJ Johnson](https://www.msi.umn.edu/staff/jj) of MSI will discuss several aspects of this work relevant to the GalaxyAdmins group:
@@ -73,4 +73,4 @@ The  meetup's online conference room will open 15 minutes before the meetup.  Th
   * If you raise your hand, the host will need to recognize you.
   * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
-<div class='center'>![](/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>
+<div class='center'>![](/src/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>

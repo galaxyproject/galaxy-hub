@@ -1,5 +1,5 @@
 ---
-title: 2013, /, 07, :,  , !, CloudBioLinux Deployer CloudMan , !, QuickStart
+title: 2013/07: !CloudBioLinux Deployer CloudMan !QuickStart
 ---
 
 

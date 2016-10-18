@@ -1,6 +1,6 @@
-PLACEHOLDER_INCLUDE(/CloudMan/Header)
+PLACEHOLDER_INCLUDE(/src/CloudMan/Header/index.md)
 
-PLACEHOLDER_INCLUDE(/CloudMan/LinkBox)
+PLACEHOLDER_INCLUDE(/src/CloudMan/LinkBox/index.md)
 
 This page will provide details on how Hadoop has been integrated into CloudMan. Examples on how to use Hadoop through CloudMan will be provided for the enduser.
 
@@ -45,6 +45,7 @@ The process of submitting the Hadoop job is started by modifying the hdfs-sge.cm
     in this script.
 
 ## Submitting Hadoop Job
+
 A Hadoop job can be submitted using the following command:
               **qsub -v HADOOP_HOME=/home/ubuntu/hadoop/hadoop/home,JAVA_HOME=/usr hdfs-sge.cmd**
  where -v pass any required environment variable to the Hadoop.

@@ -2,7 +2,7 @@
 title: GalaxyAtUIowa
 ---
 <div class='center'>
-<a href='http://medicine.uiowa.edu/humangenetics/'><img src='/Images/Logos/UIowaLogo.jpg' alt='GalaxyAtUIowa' width=200 /></a>
+<a href='http://medicine.uiowa.edu/humangenetics/'><img src="/src/Images/Logos/UIowaLogo.jpg" alt="GalaxyAtUIowa" width=200 /></a>
 </div>
 
 
@@ -38,18 +38,25 @@ The University of Iowa community and members of the [Iowa Institute of Human Gen
 This instances of Galaxy runs on a local [HPC cluster](http://hpc.uiowa.edu/resources).
 
 ### Compute
+
 [3600 cores](http://hpc.uiowa.edu/resources/compute), SGE DRM.
 ### Storage
-[|NFS, FhGFS](http://hpc.uiowa.edu/resources/storage).
+
+[NFS, FhGFS](http://hpc.uiowa.edu/resources/storage).
 ### Network
+
 Ethernet and Infiniband.
 ## User Management
+
 University of Iowa HawkID required.
 ### Authentication and Billing
+
 University of Iowa HawkID.
 ### Quotas
+
 None at this time.
 ## Customizations
+
 Annotation and reporting tools.
 
 ## Links

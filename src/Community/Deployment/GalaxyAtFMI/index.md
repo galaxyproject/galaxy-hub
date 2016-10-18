@@ -2,7 +2,7 @@
 title: Galaxy server at the FMI
 ---
 <div class='center'>
-<a href='http://www.fmi.ch'><img src='/YourOrgLogoOrImage.png' alt='Name of your organization' height="200" /></a>
+<a href='http://www.fmi.ch'><img src="/src/Community/Deployment/GalaxyAtFMI/YourOrgLogoOrImage.png" alt="Name of your organization" height="200" /></a>
 </div>
 
 
@@ -30,10 +30,6 @@ On top of the general Galaxy tools, we offer NGS and microarray analysis using c
 
 ## Customizations
 
-
-
 ## Links
-
-
 
 CategoryDeployment

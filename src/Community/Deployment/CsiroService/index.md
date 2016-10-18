@@ -2,7 +2,7 @@
 title: CSIRO Galaxy Service
 ---
 <div class='center'>
-<a href='http://www.csiro.au'><img src='/CsiroLogo.jpg' alt='CSIRO'  /></a>
+<a href='http://www.csiro.au'><img src="/src/Community/Deployment/CsiroService/CsiroLogo.jpg" alt="CSIRO"  /></a>
 </div>
 
 
@@ -50,7 +50,5 @@ title: CSIRO Galaxy Service
 ### Maintaining and Meeting Needs
 
 ## Links
-
-
 
 CategoryDeployment
