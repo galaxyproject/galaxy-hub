@@ -1,16 +1,16 @@
 ---
-title: [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md),  BoF
+title: [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) BoF
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
-PLACEHOLDER_INCLUDE(/Events/GCC2013/BoF/LinkBox)
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/BoF/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
-<div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a><br />
-<a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' width="160" /></a></div>
+<div class='left'><a href='/src/Events/GCC2013/BoF/index.md'><img src="/src/Images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a><br />
+<a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
 
 This page describes the **[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)** [Birds of a Feather](/src/Events/GCC2013/BoF/index.md) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
 
@@ -36,7 +36,7 @@ The [tentative time and location](/src/Events/GCC2013/BoF/index.md#bof-schedule)
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [clements AT galaxyproject DOT org](Dave Clements).  There were about 21 people present, including:
+If you are interested, please add your name below and/or send an email to [mailto:clements AT galaxyproject DOT org](Dave Clements).  There were about 21 people present, including:
 
 * [Dave Clements](/src/DaveClements/index.md)
 * Shaun Webb
@@ -44,10 +44,10 @@ If you are interested, please add your name below and/or send an email to [cleme
 * Peter Li
 * [Christian Andreetta](http://www.computing.uni.no/staff?nickname=christiana)
 * Srinivas Maddhi
-* [Graham dot Etherington AT tsl DOT ac DOT uk](Graham Etherington)
-* [Chris . Bridson AT nbi DOT ac DOT uk](Chris Bridson)
+* [mailto:Graham dot Etherington AT tsl DOT ac DOT uk](Graham Etherington)
+* [mailto:Chris . Bridson AT nbi DOT ac DOT uk](Chris Bridson)
 * Scott Edmunds, !GigaScience
-* [Steve McMahon, CSIRO, Australia](/SteveMcMahon)
+* [Steve McMahon, CSIRO, Australia](/src/SteveMcMahon/index.md)
 * Subazini Thankaswamy
 * Sebastian Schaaf
 * Calogero Zarbo
@@ -62,7 +62,7 @@ If you are interested, please add your name below and/or send an email to [cleme
 **Reference / Wiki**
 * Want a knowledge base with different descriptions of Galaxy Deployments
 * Possibly have an Admin/Logs section where people can describe what they did
-* Add a list of Admin Tutorials to [/Admin](/src/Admin/index.md) and [Cloud](/src/CloudMan/index.md) Hub pages, similar to what is on the [/Learn](/src/Learn/index.md) hub page.
+* Add a list of Admin Tutorials to [Admin](/src/Admin/index.md) and [Cloud](/src/CloudMan/index.md) Hub pages, similar to what is on the [Learn](/src/Learn/index.md) hub page.
 
 **Mailing Lists / Forums**
 
@@ -103,7 +103,7 @@ If you still want this functionality, you are encouraged to configure your email
 Reference / Wiki
 * Dave C will set up an "installation description" template that enables people to provide a basic description of their installation.  This is not a database, but it would build a searchable list of deployments
 * Dave C will create a section of the wiki for admins to log what they did during installs.
-* Dave C will add a list of Admin Tutorials to [/Admin](/src/Admin/index.md) and [Cloud](/src/CloudMan/index.md) Hub pages, similar to what is on the [/Learn](/src/Learn/index.md) hub page.
+* Dave C will add a list of Admin Tutorials to [Admin](/src/Admin/index.md) and [Cloud](/src/CloudMan/index.md) Hub pages, similar to what is on the [Learn](/src/Learn/index.md) hub page.
 
 Mailing Lists / Forums
 
@@ -122,6 +122,6 @@ Leadership / Governance
 
 ## Questions?
 
-Send them to [clemetns AT galaxyproject DOT org](Dave Clements).
+Send them to [mailto:clemetns AT galaxyproject DOT org](Dave Clements).
 
 Please add any questions or discussion to the [Galaxy-Dev thread on the future of GalaxyAdmins](http://dev.list.galaxyproject.org/GalaxyAdmins-Group-Future-Directions-td4659133.html).

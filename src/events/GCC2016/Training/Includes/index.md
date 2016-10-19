@@ -1,10 +1,9 @@
 <div class='red'>
-This page is not meant to be viewed on its own. Rather, it contains sections that are displayed on the [GCC2016 Training](/src/events/GCC2016/Training) page
+This page is not meant to be viewed on its own. Rather, it contains sections that are displayed on the [GCC2016 Training](/src/Events/GCC2016/Training/Includes//index.md) page
 </div>
----
+----
 
 # TOPICS
-
 
 # BEYOND THE INTRO DESC
 
@@ -16,9 +15,11 @@ This workshop continues where the [Introduction to Galaxy](http://sched.co/5VTN)
 * More on workflow editing and management
 * More on sharing and publishing 
 * Using Galaxy to help debug your analyses
+
 END_INCLUDE
 
 # RADSEQ DESC
+
 [RADseq](https://en.wikipedia.org/wiki/Restriction_site_associated_DNA_markers)<sup>1</sup> data allow scientists to gather genome wide information with a low-cost approach compared to complete genome sequencing. In this training session, we will show how to analyze RADseq data to 
 
 1. build genetic maps<sup>2</sup>, 
@@ -33,6 +34,7 @@ END_INCLUDE
 END_INCLUDE
 
 # VARIANT DESC
+
 The tutorial is designed to introduce the tools, datatypes and workflow of variation detection using human genomic DNA using a small set of sequencing reads from chromosome 20. In this session we will:
 * Evaluate the quality of the short data. If the quality is poor, then adjustments can be made – e.g. trimming the short reads, or adjusting your expectations of the final outcome.
 * Map each of the individual reads in the sample FASTQ readsets to a reference genome, so that we can then identify the sequence changes with respect to the reference genome. Some of the variant callers need extra information regarding the source of reads in order to identify the correct error profiles to use in their statistical variant detection model, so we add more information into the alignment step so that that generated BAM file contains the metadata the variant caller expects.
@@ -40,13 +42,16 @@ The tutorial is designed to introduce the tools, datatypes and workflow of varia
 * Try an alternative caller: Mpileup
 * Evaluate known variations. We know a lot about variation in humans from many empirical studies, including the 1000Genomes project, so we have some expectations on what we should see when we detect variants in a new sample.
 * Annotate the detected variants against the ensembl database and interpret the annotation output.
+
 END_INCLUDE
 
 # RNA-SEQ DESC
+
 This workshop would cover standard, advanced, and alternative RNAseq analysis pipelines, all using workflows and highlighting their advanced features. Three general pipelines would be addressed: 
 * A standard RNAseq analysis pipeline using the Tuxedo suite (Tophat &rarr; Cuffdiff) for standard transcript quantification with a reference transcriptome. 
 * An advanced analysis pipeline using the Tuxedo suite with !StringTie to create de novo transcript structures, merge these with reference transcripts to create a transcripteome database, followed by transcript quantification. 
 * An alternative RNAseq analysis pipeline using count based quantification methods (DESeq2, edgeR, or limma) to generate abundance measurements. 
+
 These three pipelines would be used as examples to highlight usage of workflows and their advanced features. 
 END_INCLUDE
 
@@ -70,6 +75,7 @@ Participants will be given temporary accounts to a cloud-based Galaxy instance t
 END_INCLUDE
 
 # ARCH DESC
+
 Want to know the big picture about what is going on inside Galaxy? This workshop will give participants a practical introduction to the Galaxy code base with a focus on changing those parts of Galaxy most often modified by local deployers and new contributors.
 <br /><br />
 The workshop will include the following specific content:
@@ -83,90 +89,131 @@ The workshop will include the following specific content:
 * An overview of the client build system used to generate compressed !JavaScript, cascading stylesheets, and other static web assets.
 * A demonstration of a complete start-to-finish modification of Galaxy - including forking the project on Github, modifying files, running the tests, checking style guidelines, committing the change, pushing it back to your local Github fork, and opening a pull request.
 * A brief description of other projects in the Galaxy ecosystem (CloudMan, the Tool Shed, bioblend, docker-galaxy-stable, Pulsar, and Planemo).
+
 END_INCLUDE
 
 # ADVANCED TOOLS DESC
+
 This workshop is aimed at people with some experience developing tools and will cover more advanced topics in tool development, more complex tools, and recent enhancements to the Galaxy tool development process including:
 * Driving tool development using testing (test driven development or TDD).
 * Designing tools for use with the dataset collections.
 * Maintaining suites of Galaxy tools - subtopics include Tool Shed concerns & macros.
 * Publishing tools with complex dependencies to the Tool Shed.
+
 END_INCLUDE
 
 # PREREQUISITES
 
 # INTRO
+
 * A general knowledge of Galaxy (for example, you should be familiar with the material in [Galaxy 101](http://usegalaxy.org/galaxy101) or have attended [Introduction to Galaxy](http://sched.co/5VTN)).
+
 END_INCLUDE
 
 # LAPTOP
+
 * A wi-fi enabled laptop. 
+
 END_INCLUDE
 
 # WEB BROWSER
+
 * A modern web browser.  Google Chrome, Firefox and Safari will work best. 
+
 END_INCLUDE
 
 # LAPTOP WITH BROWSER
+
 * A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best. 
+
 END_INCLUDE
 
 # UNIX KNOWLEDGE
+
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
+
 END_INCLUDE
 
 # CLOUD CONCEPTS
+
 * Familiarity with the Galaxy on the Cloud concepts.
+
 END_INCLUDE
 
 # BASIC ADMIN
+
 * Some knowledge of running a Galaxy server.
+
 END_INCLUDE
 
 # PROBLEMS AND SOLUTIONS
+
 * Familiar with the Bioinformatics problems (and their solutions) that wet lab scientists run into.
+
 END_INCLUDE
 
 # BASIC TOOL DEV
-* Basic understanding of Galaxy from a tool developer point of view or attendance at the [Writing and Publishing Galaxy Tools](/src/Events/GCC2016/Training#writing-and-publishing-galaxy-tools) workshop. 
+
+* Basic understanding of Galaxy from a tool developer point of view or attendance at the [Writing and Publishing Galaxy Tools](/src/Events/GCC2016/Training/index.md#writing-and-publishing-galaxy-tools) workshop. 
+
 END_INCLUDE
 
 # BASIC DEV
+
 * Basic understanding of Galaxy from a developer point of view. 
+
 END_INCLUDE
 
 # R
+
 * Basic experience with R/Bioconductor.
+
 END_INCLUDE
 
 # PYTHON
+
 * Python programming.
+
 END_INCLUDE
 
 # SCRIPTING
+
 * Comfort with scripting programming languages (Python and !JavaScript will be the most helpful).
+
 END_INCLUDE
 
 # BASIC NGS
+
 * Basic knowledge of high-throughput/next-generation sequencing.
+
 END_INCLUDE
 
 # CHIP QC
-* Ideally participants will already be familiar with [general NGS quality control](/src/Events/GCC2016/Training#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy) and read mapping, since those won't be covered.
+
+* Ideally participants will already be familiar with [general NGS quality control](/src/Events/GCC2016/Training/index.md#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy) and read mapping, since those won't be covered.
+
 END_INCLUDE
 
 # TRAINING INTEREST
+
 * An interest and/or experience in teaching bioinformatics and Galaxy.
+
 END_INCLUDE
 
 # BASIC TOOLS
-* Basic Knowledge of Galaxy Tools, or attendance at the [Writing and Publishing Galaxy Tools](/src/Events/GCC2016/Training#writing-and-publishing-galaxy-tools) session.
+
+* Basic Knowledge of Galaxy Tools, or attendance at the [Writing and Publishing Galaxy Tools](/src/Events/GCC2016/Training/index.md#writing-and-publishing-galaxy-tools) session.
+
 END_INCLUDE
 
 # GALAXY IE
-* Basic understanding of Galaxy IE, or attendance at the [Introduction to Galaxy Interactive Environments](/src/Events/GCC2016/Training#introduction-to-galaxy-interactive-environments) session.
+
+* Basic understanding of Galaxy IE, or attendance at the [Introduction to Galaxy Interactive Environments](/src/Events/GCC2016/Training/index.md#introduction-to-galaxy-interactive-environments) session.
+
 END_INCLUDE
 
 # GENERAL DOCKER
+
 * General knowledge about Docker
+
 END_INCLUDE

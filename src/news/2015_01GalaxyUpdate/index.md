@@ -1,10 +1,7 @@
----
-date: 2015-01-05T17:15:40Z
----
 <div class='newsItemHeader'>[January 2015 Galaxy Newsletter](/src/News/2015_01GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/GalaxyUpdates/2015_01'><img src='/Images/Logos/GalaxyUpdate200.png' alt='January 2015 Newsletter' width=150 /></a>
+<a href='/src/GalaxyUpdates/2015_01/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="January 2015 Newsletter" width=150 /></a>
 </div>
 
 Happy New Year from the Galaxy Project!
@@ -24,5 +21,6 @@ Happy New Year from the Galaxy Project!
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-01-05 </div>
 
 CategoryNews

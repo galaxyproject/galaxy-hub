@@ -1,6 +1,7 @@
-<div class='red'>This page is not intended to be viewed directly.  Rather, parts of it are included [here](/src/Events/SaoPaulo2014/index.md).</div>
+<div class='red'>This page is not intended to be viewed directly.  Rather, parts of it are included [here](/src/Events/SaoPaulo2014//index.md).</div>
 
 # Day 1
+
 <table>
   <tr>
     <td style=" text-align: right; vertical-align: top; border: none;"> </strong>9:00<strong> </td>

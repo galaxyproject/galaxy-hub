@@ -2,7 +2,7 @@
 title: Microbial analysis with Orione
 ---
 <div class='center'>
-<a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Orione-live-supplement'><img src='/PublicGalaxyServers/OrioneLogo.png' alt='Microbial analysis with Orione' height="200" /></a>
+<a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Orione-live-supplement'><img src="/src/PublicGalaxyServers/OrioneLogo.png" alt="Microbial analysis with Orione" height="200" /></a>
 </div>
 
 
@@ -27,6 +27,5 @@ This tutorial is also written in Japanese.  If you don't speak Japanese, the [ma
 
 * [tutorial](http://wiki.pitagora-galaxy.org/wiki/index.php/Orione-live-supplement) 
 * [Orione](https://orione.crs4.it/) server
-
 
 CategoryTrainingResource

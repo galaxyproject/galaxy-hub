@@ -1,9 +1,6 @@
----
-date: 2014-04-23T18:55:56Z
----
 <div class='newsItemHeader'>[Galaxy Biostar Launched](/src/News/GalaxyBiostarLaunch/index.md)</div>
 
-<div class='right'><a href='https://biostar.usegalaxy.org/'><img src='/Images/Logos/GalaxyBiostar.png' alt='Galaxy Biostar'  /></a></div>
+<div class='right'><a href='https://biostar.usegalaxy.org/'><img src="/src/Images/Logos/GalaxyBiostar.png" alt="Galaxy Biostar"  /></a></div>
 
 **Galaxy has teamed up with [Biostar](http://biostars.org) to create a [Galaxy User support forum](https://biostar.usegalaxy.org) at https://biostar.usegalaxy.org!**
 
@@ -36,5 +33,6 @@ We hope you will like the change and look forward to any feedback you may have.
 
 [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-04-23</div>
 
 CategoryNews

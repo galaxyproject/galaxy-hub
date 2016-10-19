@@ -1,14 +1,14 @@
 ---
 title: Public Galaxy Servers BoF
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
-PLACEHOLDER_INCLUDE(/Events/GCC2013/BoF/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/BoF/LinkBox/index.md)
 
-<div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
+<div class='left'><a href='/src/Events/GCC2013/BoF/index.md'><img src="/src/Images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 
 This page describes the **Public Galaxy Servers** [Birds of a Feather](/src/Events/GCC2013/BoF/index.md) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
 
@@ -29,7 +29,7 @@ The [tentative time and location](/src/Events/GCC2013/BoF/index.md#bof-schedule)
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [clements AT galaxyproject DOT org](Dave Clements).
+If you are interested, please add your name below and/or send an email to [mailto:clements AT galaxyproject DOT org](Dave Clements).
 
 * [Dave Clements](/src/DaveClements/index.md), Galaxy Project
 * [Dorine Francheteau](/src/GalaxyTeam/index.md), Galaxy Project
@@ -67,4 +67,4 @@ Those included:
 
 ## Questions?
 
-Send them to [clements AT galaxyproject DOT org](Dave Clements).
+Send them to [mailto:clements AT galaxyproject DOT org](Dave Clements).

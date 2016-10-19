@@ -1,9 +1,6 @@
----
-date: 2014-12-09T18:13:54Z
----
 <div class='newsItemHeader'>[GCC2015 Training Day Topic Nominations](/src/News/GCC2015TDNom/index.md)</div>
 
-<div class='right'><a href='http://gcc2015.tsl.ac.uk/training-day/'><img src='/Images/Logos/GCC2015LogoWide600.png' alt='GCC2015 Training Day' width="170" /></a></div>
+<div class='right'><a href='http://gcc2015.tsl.ac.uk/training-day/'><img src="/src/Images/Logos/GCC2015LogoWide600.png" alt="GCC2015 Training Day" width="170" /></a></div>
 
 <table>
   <tr>
@@ -13,7 +10,7 @@ date: 2014-12-09T18:13:54Z
 
 
 <br />
-[GCC2015 Training Day](http://gcc2015.tsl.ac.uk/training-day/) topics are [nominated by you](http://bit.ly/gcc2015tdnom), the Galaxy Community.  Please take a few minutes to nominate a topic.  Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic. If you are looking for ideas, see what topics were nominated in [2013](http://bit.ly/1i2j1gN) and [2014](http://bit.ly/1s6NtMN), and the [/Events](/src/Events/index.md) and the [Events Archives](/src/Events/Archive/index.md).
+[GCC2015 Training Day](http://gcc2015.tsl.ac.uk/training-day/) topics are [nominated by you](http://bit.ly/gcc2015tdnom), the Galaxy Community.  Please take a few minutes to nominate a topic.  Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic. If you are looking for ideas, see what topics were nominated in [2013](http://bit.ly/1i2j1gN) and [2014](http://bit.ly/1s6NtMN), and the [Events](/src/Events/index.md) and the [Events Archives](/src/Events/Archive/index.md).
 
 Nominated topics will be published on the [Training Day](http://gcc2015.tsl.ac.uk/training-day/) page as they come in.  **Nominations close 6 January**.  Topics will be compiled into a uniform list by the [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers), and topics will be voted on by the Galaxy Community 12-23 January.
 
@@ -21,5 +18,6 @@ Topics will then be selected and scheduled based on topic interest, and the orga
 
 [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-12-09</div>
 
 CategoryNews

@@ -1,8 +1,8 @@
 ---
-title: GVL De Novo Genome Assembly , (, Small Genome, )
+title: GVL De Novo Genome Assembly (Small Genome)
 ---
 <div class='center'>
-<a href='https://docs.google.com/document/pub?id=1N3AB9ptISUu4zULqe1kXpVF0BDyGb5f5yzxWSJd_WNM'><img src='/PublicGalaxyServers/GenomicsVirtualLab300.png' alt='RNAseq Differential Gene Expression Advanced tutorial' height="200" /></a>
+<a href='https://docs.google.com/document/pub?id=1N3AB9ptISUu4zULqe1kXpVF0BDyGb5f5yzxWSJd_WNM'><img src="/src/PublicGalaxyServers/GenomicsVirtualLab300.png" alt="RNAseq Differential Gene Expression Advanced tutorial" height="200" /></a>
 </div>
 
 
@@ -37,4 +37,5 @@ The data for this tutorial is from a whole genome sequencing experiment of a mul
 * [De Novo Genome Assembly Tutorial](https://docs.google.com/document/pub?id=1N3AB9ptISUu4zULqe1kXpVF0BDyGb5f5yzxWSJd_WNM)
 * [Genomics Virtual Lab](https://genome.edu.au/wiki/GVL)
 * The [GVL Tutorials and Protocols page](https://genome.edu.au/wiki/Learn)
+
 CategoryTrainingResource

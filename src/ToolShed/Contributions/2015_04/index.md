@@ -30,7 +30,6 @@ In no particular order:
 * [samtools_split](https://toolshed.g2.bx.psu.edu/view/devteam/samtools_split):  Split a BAM file by read group This tool runs the samtools split command in the SAMtools toolkit to split BAM files by read group.
 * [cd_hit_dup](https://toolshed.g2.bx.psu.edu/view/devteam/cd_hit_dup): simple tool for removing duplicates from sequencing reads  cd-hit-dup is a simple tool for removing duplicates from sequencing reads, with optional step to detect and remove chimeric reads. A number of options are provided to tune how the duplicates are removed.
 
-
 * *From [yutaka-saito](https://toolshed.g2.bx.psu.edu/view/yutaka-saito):*
   * [bisulfighter](https://toolshed.g2.bx.psu.edu/view/yutaka-saito/bisulfighter): A pipeline for accurate detection of methylated cytosines and differentially methylated regions A pipeline for accurate detection of methylated cytosines and differentially methylated regions
 
@@ -39,7 +38,6 @@ In no particular order:
   * [heatmap_colormanipulation](https://toolshed.g2.bx.psu.edu/view/mir-bioinf/heatmap_colormanipulation): Initial upload Generates heatmap with nonlinear color mapping options Uses R's heatmap.2 function and gplots package. Good for visualization of disparate data.
   * [fix_excel_date_symbols](https://toolshed.g2.bx.psu.edu/view/mir-bioinf/fix_excel_date_symbols): Initial upload Can recover human or mouse gene symbols from dates (usually caused by Excel) When Excel sees a gene symbol like SEPT9, it thinks to itself 'must be a date' and automatically converts it to the date 9-Sep (permanent conversion). As an 'after-the-fact' remedy, this tool converts dates like 9-Sept, 3-March, etc, in the chosen column(s) back to the gene symbols SEPT9 and MARCH3, etc. (respectively).
   * [column_range_string_generator](https://toolshed.g2.bx.psu.edu/view/mir-bioinf/column_range_string_generator): Initial upload Generates column string for input to Cut Columns tool Use this tool to generate a string that can be copied to the buffer then pasted into the Cut Column tool to save time (rather than needing to individually type out C1,C2,C3..... etc.).
-
 
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp):*
   * [unipept](https://toolshed.g2.bx.psu.edu/view/galaxyp/unipept): Unipept retrieves taxonomy for tryptic peptides Unipept metaproteomics analysis.  Unipept retrieves taxonomy for tryptic peptides using the unipept API. 
@@ -54,7 +52,6 @@ In no particular order:
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
   * [suite_samtools_1_2](https://toolshed.g2.bx.psu.edu/view/devteam/suite_samtools_1_2): A suite of Galaxy utilities associated with version 1.2 of the SAMtools package. SAM (Sequence Alignment/Map) format is a generic format for storing large nucleotide sequence alignments.   This repository suite associates selected repositories containing Galaxy utilities that require version 1.2 of the SAMTools package.  These associated Galaxy utilities consist of a Galaxy Data Manager contained in the repository named data_manager_sam_fasta_index_builder and Galaxy tools contained in several separate repositories.
-
 
 #### Dependencies
 
@@ -80,3 +77,4 @@ In no particular order:
 
 * *From [crs4](https://toolshed.g2.bx.psu.edu/view/crs4):*
   * [kggseq_variant_selection](https://toolshed.g2.bx.psu.edu/view/crs4/kggseq_variant_selection): Update to !KggSeq v0.7_20150118
+

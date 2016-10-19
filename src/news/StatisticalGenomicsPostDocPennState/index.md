@@ -1,16 +1,14 @@
----
-date: 2013-09-09T21:11:59Z
----
 <div class='newsItemHeader'>[Statistical Genomics Post-Doc](/src/News/StatisticalGenomicsPostDocPennState/index.md)</div>
 
-<div class='right'><a href='http://www.huck.psu.edu/center/medical-genomics/'><img src='/Images/Logos/HuckLogo.png' alt='Center for Medical Genomics' width="250" /></a></div>
+<div class='right'><a href='http://www.huck.psu.edu/center/medical-genomics/'><img src="/src/Images/Logos/HuckLogo.png" alt="Center for Medical Genomics" width="250" /></a></div>
 
 Are you interested in genomics and do you have skills in Bioinformatics, Computational Biology and Statistics? The Makova lab in the Department of Biology at The Pennsylvania State University is looking to hire a postdoctoral researcher for an NSF-funded project examining regional variation in mutation rates (see our [recent publication in PNAS: Kuruppumullage Don, Ananda, Chiaromonte, Makova 2013)](http://www.pnas.org//content/early/2013/08/16/1221792110.abstract). With new sequencing technologies, multiple human genomes and their detailed annotations (e.g., ENCODE) are suddenly accessible to us. This gives us a terrific opportunity to explore previously inaccessible evolutionary processes (e.g., mutation) and other biological associations (location of genes in certain mutation states, as identified by HMMs). Such knowledge is vital in a clinical setting where disease mutations need to be evaluated. Our resources and links with medical researchers at Hershey Medical School and computational biologists from the [Galaxy team](http://galaxyproject.org/) put us in a great position to address these questions. 
 
 Candidates should have experience in bioinformatics, working knowledge of statistics and should have a broad understanding of molecular biology and genetics. Familiarity with next-generation sequencing data analysis is desirable. A PhD is required. 
 You will be joining an established dynamic group. We are part of the [Center for Medical Genomics](http://www.huck.psu.edu/center/medical-genomics) and of the [Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/). Penn State is a vibrant scientific community with particular strengths in genomics, bioinformatics and molecular evolution. Our location, in State College, Pennsylvania, is known for excellent schools and numerous opportunities for outdoor activities. 
 
-The starting date is flexible, with an earlier date preferred. This position is funded for one year from date of hire, with good possibility of refunding. Interested applicants should send a pdf with a CV, a statement of research interests, and contact information for three referees to [kmakova AT bx DOT psu DOT edu](Kateryna Makova), indicating postdoc in the subject line. Employment will require successful completion of background check(s) in accordance with University policies. Penn State is committed to affirmative action, equal opportunity, and the diversity of its workforce.
+The starting date is flexible, with an earlier date preferred. This position is funded for one year from date of hire, with good possibility of refunding. Interested applicants should send a pdf with a CV, a statement of research interests, and contact information for three referees to [mailto:kmakova AT bx DOT psu DOT edu](Kateryna Makova), indicating postdoc in the subject line. Employment will require successful completion of background check(s) in accordance with University policies. Penn State is committed to affirmative action, equal opportunity, and the diversity of its workforce.
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-09-09</div>
 
 CategoryNews

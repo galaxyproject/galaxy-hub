@@ -2,7 +2,7 @@
 title: [MegaMapper](https://wiki.med.harvard.edu/SysBio/Megason/MegaMapper)
 ---
 <div class='center'>
-<a href='http://linkToVirtApplOrOrg'><img src='/MegasonLabLogo.png' alt='MegaMapper'  /></a>
+<a href='http://linkToVirtApplOrOrg'><img src="/src/VA/MegaMapper/MegasonLabLogo.png" alt="MegaMapper"  /></a>
 </div>
 
 

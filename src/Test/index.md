@@ -3,7 +3,7 @@ title: Galaxy Test Instance
 ---
 
 
-The Galaxy **Test** instance is available at https://test.galaxyproject.org/. Test is the Beta site for the Galaxy *[/Main](/src/Main/index.md)* instance.  Main is the primary free public [Galaxy instance](http://usegalaxy.org/). *Test* is also free and public, and is a testbed where tools and framework functions are functionally and experimentally reviewed.
+The Galaxy **Test** instance is available at https://test.galaxyproject.org/. Test is the Beta site for the Galaxy *[Main](/src/Main/index.md)* instance.  Main is the primary free public [Galaxy instance](http://usegalaxy.org/). *Test* is also free and public, and is a testbed where tools and framework functions are functionally and experimentally reviewed.
 
 Test changes frequently and we don't actually guarantee things will work or that data/histories/workflows/visualizations will be persistent (even when saved in an account). Some new tools on Test will eventually be promoted to Main, but others will not. Backwards and forwards compatibility of data and tools on Test with data and tools on Main, in a Distribution, or from the Tool Shed should not be expected.
 
@@ -11,16 +11,16 @@ If you get an error on Test, there are many possible reasons for it. You might t
 
 ## Information about Test
 
-The [/Learn](/src/Learn/index.md) pages include information on how to use Test, Main, and most other Galaxy instances. Also see:
+The [Learn](/src/Learn/index.md) pages include information on how to use Test, Main, and most other Galaxy instances. Also see:
 
-* [Datasets](/Learn/Managing Datasets)
-* [Disk Quotas](/Admin/Disk Quotas)
+* [Datasets](/src/Learn/Managing Datasets/index.md)
+* [Disk Quotas](/src/Admin/Disk Quotas/index.md)
 
 See [Choices](/src/BigPicture/Choices/index.md) for more on other choices for using and running Galaxy.
 
 ## Job resubmission to Stampede
 
-Certain tools will be automatically "resubmitted" to Stampede (see [Job execution on Stampede](#stampede) for more about Stampede) if they initially run on Galaxy's local cluster but exceed the walltime (run time limit). The walltime differs per tool and is calculated based on previous average runtimes of that tool:
+Certain tools will be automatically "resubmitted" to Stampede (see [Job execution on Stampede](/src/Test/index.md#stampede) for more about Stampede) if they initially run on Galaxy's local cluster but exceed the walltime (run time limit). The walltime differs per tool and is calculated based on previous average runtimes of that tool:
 
 <table>
   <tr>
@@ -80,11 +80,11 @@ Certain tools will be automatically "resubmitted" to Stampede (see [Job executio
 
 When a job is resubmitted you will see its state turn from running (yellow) back to gray (queued) and a blue message box will appear when the dataset is expanded explaining that the job has been resubmitted.
 
-Our goal with the Stampede resubmission system is to provide a balance to Galaxy users: to allow those with relatively small jobs to run them quickly without a wait, but still be able to support larger scale analyses with a reasonable wait but higher job concurrency limits. See the [User data and job quotas](#quotas) section below for more on concurrency limits.
+Our goal with the Stampede resubmission system is to provide a balance to Galaxy users: to allow those with relatively small jobs to run them quickly without a wait, but still be able to support larger scale analyses with a reasonable wait but higher job concurrency limits. See the [User data and job quotas](/src/Test/index.md#quotas) section below for more on concurrency limits.
 
 If you know (due to previous runs of the tool using similar inputs and parameters) that your job will reach the walltime on the local cluster, you should directly submit it to Stampede to avoid the time wasted running to walltime on the Galaxy cluster.
 
-PLACEHOLDER_ANCHOR(Stampede)
+<a name="Stampede"></a>
 ## Direct job execution on Stampede
 
 Tools in the previous section can also be manually submitted directly to Stampede. This is a good idea if you know (or strongly suspect) that a tool will exceed the walltime on the local cluster. On the form for these tools, a **Job Resource Parameters** parameter is available that, if selected, will display a **Compute Resources** selection parameter. The options for this parameter are:
@@ -143,7 +143,7 @@ As with tools that run on Stampede, on the form for these tools, a **Job Resourc
 </table>
 
 
-PLACEHOLDER_ANCHOR(Quotas)
+<a name="Quotas"></a>
 ## User data and job quotas
 
 <table>
@@ -203,7 +203,7 @@ Some tools or job destinations have stricter job concurrency limits than the ove
 
 ### Monitoring data use
 
-Exceeding quotas will prevent new jobs from running, but Galaxy users can monitor and [manage datasets](/Learn/Managing Datasets) in several ways:
+Exceeding quotas will prevent new jobs from running, but Galaxy users can monitor and [manage datasets](/src/Learn/Managing Datasets/index.md) in several ways:
 
 1. Percent of quota limit used by a user account is noted in the top right corner of the Galaxy interface within a bar icon.
 2. Exact total user data size and quota limit is noted on the page: **User &rarr; Preferences** (top menu bar).
@@ -212,36 +212,39 @@ Exceeding quotas will prevent new jobs from running, but Galaxy users can monito
 
 Test server user interface:
 
-<div class='center'>![Screenshot showing quotas on Test server](/QuotasOnTestScreenshot.png)</div>
+<div class='center'>![Screenshot showing quotas on Test server](/src/Test/QuotasOnTestScreenshot.png)</div>
 
 ## User Account Quotas
 
 ### How will I know if my quota has been exceeded?
 
 #### Data
+
 A <div class='red'>red message</span> indicating that the user data quota has been exceeded will be displayed at the top of the left history pane. Any new jobs queued will remain in the status "waiting to run" (colored gray) until the data size is within the quota limits.
 
 #### Jobs
+
 Any jobs queued after the limit of 4 has been met will remain in the status "waiting to run" (colored grey) until job quota is met.
 
 ### When can I run jobs on the Test instance again?
 
 #### Data
 
-Reduce the amount of data in your account. Start with removing any Histories that are no longer needed on the **Options &rarr; Saved Histories** form and the option **Delete Permanently**. More information about data is covered on the [Managing Datasets](/Learn/Managing Datasets#actions) wiki.
+Reduce the amount of data in your account. Start with removing any Histories that are no longer needed on the **Options &rarr; Saved Histories** form and the option **Delete Permanently**. More information about data is covered on the [Managing Datasets](/src/Learn/Managing Datasets/index.md#actions) wiki.
 
 #### Jobs
+
 To gain access to the test server again, no user action is needed. When your existing jobs complete and number less than 4, new jobs will be added to the queue to execute (maximum of 4 concurrent).
 
 ### Special Use
 
 #### Testing
 
-If you are involved with scientific or functional testing of a new Galaxy tool, please send an email to [galaxy-bugs AT lists DOT galaxyproject DOT org](Galaxy-Bugs) to discuss options for data resources and a potential temporary quota increase.
+If you are involved with scientific or functional testing of a new Galaxy tool, please send an email to [mailto:galaxy-bugs AT lists DOT galaxyproject DOT org](Galaxy-Bugs) to discuss options for data resources and a potential temporary quota increase.
 
 ## Developers and Administrators
 
-New Admin features have been added and more are planned for in the near term. Details explained in: [Disk Quotas](/Admin/Disk Quotas). Feedback about the implementation of quota management is welcomed at the [Galaxy-Dev mailing list](/src/MailingLists/index.md).
+New Admin features have been added and more are planned for in the near term. Details explained in: [Disk Quotas](/src/Admin/Disk Quotas/index.md). Feedback about the implementation of quota management is welcomed at the [Galaxy-Dev mailing list](/src/MailingLists/index.md).
 
 ## Quotas at the Galaxy Main public instance
 

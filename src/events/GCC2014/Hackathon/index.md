@@ -2,13 +2,13 @@
 autotoc: true
 title: Hackathon
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
 <br /><br />
 
 <div class='left'>![GCC2014 Hackathon](/src/Images/Logos/GCC2014HackLogo200.png)</div>
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 
 
 
@@ -31,7 +31,6 @@ This event is for you if you
 * know something about Galaxy and/or Cloudman internals
 * have 2 or 3 free days this June
 
-
 <table>
   <tr>
     <th> &nbsp;&nbsp; <a href='https://www.eventbrite.com/e/gcc2014-galaxy-hackathon-tickets-10984507959'>Register Now</a> &nbsp;&nbsp; </th>
@@ -47,7 +46,7 @@ There is limited space for this event and we don't yet have a very good feel for
 
 Hackathons are self-organizing events and attempts to impose anything as detailed as an *agenda* should be met with resistance *and humor*.  With that in mind, this schedule tries to provide the absolute minimum amount of structure needed to ensure that something actually gets done.
 
-<div class='right'><br /><a href='http://gmod.org/wiki/GMOD_Evo_Hackathon'><img src='/HackLaptops.jpg' alt='Hacking at a NESCent/GMOD Hackathon' /></a></div>
+<div class='right'><br /><a href='http://gmod.org/wiki/GMOD_Evo_Hackathon'><img src="/src/Events/GCC2014/Hackathon/HackLaptops.jpg" alt="Hacking at a NESCent/GMOD Hackathon" /></a></div>
 
 The hackathon is "officially" scheduled for three days, starting on Saturday, June 28.  The first two days will happen in the Taylor Lab at Johns Hopkins.  The last "official" day overlaps with the [Training Day](/src/Events/GCC2014/TrainingDay/index.md) and we haven't yet decided if that will happen in the Taylor Lab or at the conference venue.  Our hope is that hackathoners will be able to slip in out during this day.
 
@@ -128,7 +127,7 @@ Join us in IRC (irc.freenode.net #galaxyproject) and keep on hacking!
 
 # Costs
 
-There is no registration cost for the hackathon.  Why?  *Please thank the [sponsors](#sponsors). Repeatedly.*
+There is no registration cost for the hackathon.  Why?  *Please thank the [sponsors](/src/Events/GCC2014/Hackathon/index.md#sponsors). Repeatedly.*
 
 Participants will need to cover their own lodging costs, and (most) of their own meal costs.  We will do our best to keep caffeine flowing throughout the event.
 
@@ -136,8 +135,8 @@ Participants will need to cover their own lodging costs, and (most) of their own
 # Sponsors
 
 <div class='center'>
-<a href='https://curoverse.com/'><img src='/Images/Logos/CuroversLogoBig.png' alt='Curoverse: Open Source developers of Arvados' height="100" /></a> &nbsp;&nbsp; 
-<a href='https://arvados.org/'><img src='/Images/Logos/ArvadosLogoBig.png' alt='Arvados: a free and open source bioinformatics platform for genomic and biomedical data' height="130" /></a>
+<a href='https://curoverse.com/'><img src="/src/Images/Logos/CuroversLogoBig.png" alt="Curoverse: Open Source developers of Arvados" height="100" /></a> &nbsp;&nbsp; 
+<a href='https://arvados.org/'><img src="/src/Images/Logos/ArvadosLogoBig.png" alt="Arvados: a free and open source bioinformatics platform for genomic and biomedical data" height="130" /></a>
 <br /><br />
 <span style="font-size: larger;"> [Curoverse](https://curoverse.com/), makers of the [Arvados](https://arvados.org/) open source bioinformatics platform, <br />
 is the exclusive Peta level Hackathon sponsor </span>
@@ -145,7 +144,7 @@ is the exclusive Peta level Hackathon sponsor </span>
 <br /><br />
 
 <div class='center'>
-<a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo1280.jpg' alt='Amazon Web Services' width="250" /></a><br /><br />
+<a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" /></a><br /><br />
 <span style="font-size: larger;"> [Amazon Web Services](http://aws.amazon.com) is the Hackathon Cloud Infrastructure sponsor </span>
 </div>
 
@@ -165,4 +164,4 @@ Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitt
 Mostly yes, but, there is a separate registration process, and a separate [organizing committee](/src/Events/GCC2014/Organizers/index.md#hackathon-committee).  
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Footer)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Footer/index.md)

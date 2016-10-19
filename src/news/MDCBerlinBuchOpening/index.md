@@ -1,6 +1,3 @@
----
-date: 2015-01-17T00:38:35Z
----
 <div class='newsItemHeader'>[Bioinformatician, MDC Berlin-Buch](/src/News/MDCBerlinBuchOpening/index.md)</div>
 
 **Bioinformatics scientist/engineer for RNA bioinformatics and next-generation sequencing Berlin**
@@ -11,12 +8,13 @@ As a bioinformatics scientist/engineer you will be a member of the Scientific Bi
 
 Applicants should have PhD degree or equivalent practical experience in research oriented software development in one of the following fields: computational genomics, bioinformatics, computer science, statistics or another quantitative field. We are looking for talented team members with a proven track record in software development and interest in genomics and large-scale datasets. Experience and/or interest in database technologies (SQL and/or noSQL), web technologies (HTML, XML, REST API, etc.) and traditional high-performance computing clusters is also necessary.
 
-Please contact [altuna.akalin@mdc DASH berlin.de](Altuna Akalin) for further details.
+Please contact [mailto:altuna.akalin@mdc DASH berlin.de](Altuna Akalin) for further details.
 
 <div class='center'>
-<a href='https://www.mdc-berlin.de/'><img src='/Images/Logos/MCDBerlinBuch.gif' alt='MDC Berlin-Buch' width="300" /></a>
-<a href='http://www.helmholtz.de/'><img src='/Images/Logos/HelmholtzAssoc.gif' alt='Helmholtz Association of National Research Centers' /></a>
+<a href='https://www.mdc-berlin.de/'><img src="/src/Images/Logos/MCDBerlinBuch.gif" alt="MDC Berlin-Buch" width="300" /></a>
+<a href='http://www.helmholtz.de/'><img src="/src/Images/Logos/HelmholtzAssoc.gif" alt="Helmholtz Association of National Research Centers" /></a>
 </div>
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-01-17</div>
 
 CategoryNews

@@ -16,11 +16,11 @@ Filters will only hide Tools from the User Interface, they are still available a
 
 Users can find ToolBox filters under "User preferences" (Top Panel -> Users -> Preferences).
 
-<div class='center'> <a href='/attachment:user_preferences.png'><img src='/user_preferences.png' alt='User Preferences' /></a> </div>
+<div class='center'> <a href='/src/attachment:user_preferences.png/index.md'><img src="/src/UserDefinedToolboxFilters/user_preferences.png" alt="User Preferences" /></a> </div>
 
 If you do not see any filters to choose (like in the following image) your administrator has not configured any filter for you. Otherwise you will see something like the following. Choose your filters, apply the changes and reload Galaxy. Done!
 
-<div class='center'> <a href='/attachment:toolbox_filter_ui.png'><img src='/toolbox_filter_ui.png' alt='User Interface' /></a> </div>
+<div class='center'> <a href='/src/attachment:toolbox_filter_ui.png/index.md'><img src="/src/UserDefinedToolboxFilters/toolbox_filter_ui.png" alt="User Interface" /></a> </div>
 
 
 

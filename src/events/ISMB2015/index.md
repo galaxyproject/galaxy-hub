@@ -1,12 +1,13 @@
 <div class='center'>
-<a href='http://www.open-bio.org/wiki/BOSC_2015'><img src='/Images/Logos/BOSC_logo.png' alt='BOSC 2015' width="120" /></a>&nbsp;&nbsp;&nbsp;
-<a href='http://www.iscb.org/ismbeccb2015'><img src='/Images/Logos/ISMB-ECCB_2015_Logo.jpg' alt='ISMB ECCB 2015' width="130" /></a>
+<a href='http://www.open-bio.org/wiki/BOSC_2015'><img src="/src/Images/Logos/BOSC_logo.png" alt="BOSC 2015" width="120" /></a>&nbsp;&nbsp;&nbsp;
+<a href='http://www.iscb.org/ismbeccb2015'><img src="/src/Images/Logos/ISMB-ECCB_2015_Logo.jpg" alt="ISMB ECCB 2015" width="130" /></a>
 
 # Galaxy at ISMB/ECCB and BOSC 2015
+
 ... and !BioVis 2015
 </div>
 
-Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbeccb2015) and [BOSC 2015](http://www.open-bio.org/wiki/BOSC_2015). This page lists all known Galaxy related events and presentations. If you have something that isn't listed, please add it below (or send it to [outreach AT galaxyproject DOT org](Galaxy Outreach)).
+Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbeccb2015) and [BOSC 2015](http://www.open-bio.org/wiki/BOSC_2015). This page lists all known Galaxy related events and presentations. If you have something that isn't listed, please add it below (or send it to [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach)).
 
 ## BOSC 2015
 
@@ -37,12 +38,12 @@ Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbec
   </tr>
   <tr>
     <th> 14:34 </th>
-    <td> </em>Demystifying the Interoperability of Disparate Genomic Resources<em> <div class='indent'><a href='/Dan'>Daniel Blankenberg</a></div> </td>
+    <td> </em>Demystifying the Interoperability of Disparate Genomic Resources<em> <div class='indent'><a href='/src/Dan/index.md'>Daniel Blankenberg</a></div> </td>
     <td> <a href='http://f1000research.com/slides/4-372'>Slides</a>, <a href='http://youtu.be/PbVqVlNtFOo'>Video</a> </td>
   </tr>
   <tr>
     <th> 14:51 </th>
-    <td> </em>Increasing the utility of Galaxy workflows<em> <div class='indent'><a href='/JohnChilton'>John Chilton</a></div> </td>
+    <td> </em>Increasing the utility of Galaxy workflows<em> <div class='indent'><a href='/src/JohnChilton/index.md'>John Chilton</a></div> </td>
     <td> <a href='http://bit.ly/bosc2015workflows'>Slides</a> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_BOSC_Chilton_workflows.pdf'>PDF</a>), <a href='http://youtu.be/4ETL81P6p_g'>Video</a> </td>
   </tr>
   <tr>
@@ -52,12 +53,12 @@ Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbec
   </tr>
   <tr>
     <th> 15:15 </th>
-    <td> </em>Evolution of the Galaxy tool ecosystem - happier developers, happier users<em> <div class='indent'> <a href='/Marten'>Martin Čech</a></div> </td>
+    <td> </em>Evolution of the Galaxy tool ecosystem - happier developers, happier users<em> <div class='indent'> <a href='/src/Marten/index.md'>Martin Čech</a></div> </td>
     <td> <a href='https://docs.google.com/presentation/d/1jWOGAKIMTe2kszd63tEGLZ-vKUTlm9-9wTzqqGfewEg/edit#slide=id.gb506b3749_0_0'>Slides</a> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_BOSC_Cech.pdf'>PDF</a>), <a href='http://youtu.be/APYzQWg0nrs'>Video</a> </td>
   </tr>
   <tr>
     <th> 17:15 </th>
-    <td> </em><a href='http://www.hub-hub.de/wiki/index.php?title=BOSC2015Unconf'>Building successful open-source bioinformatics developer communities (Part 1)</a><em> <div class='indent'>Aidan Budd, <a href='/DaveClements'>Dave Clements</a>, Manuel Corpas, Natasha Wood</div> </td>
+    <td> </em><a href='http://www.hub-hub.de/wiki/index.php?title=BOSC2015Unconf'>Building successful open-source bioinformatics developer communities (Part 1)</a><em> <div class='indent'>Aidan Budd, <a href='/src/DaveClements/index.md'>Dave Clements</a>, Manuel Corpas, Natasha Wood</div> </td>
     <td> <a href='http://youtu.be/u5O1eG0GDnE'>Video</a> </td>
   </tr>
   <tr>
@@ -66,17 +67,17 @@ Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbec
   <tr>
     <th rowspan=3> 11 July </th>
     <th> 12:05 </th>
-    <td> </em>The perfect fit for reproducible interactive research: Galaxy, Docker, IPython<em> <div class='indent'><a href='/BjoernGruening'>Björn Grüning</a> </td>
+    <td> </em>The perfect fit for reproducible interactive research: Galaxy, Docker, IPython<em> <div class='indent'><a href='/src/BjoernGruening/index.md'>Björn Grüning</a> </td>
     <td> <a href='http://youtu.be/S2DKQRcHY4s'>Video</a> </td>
   </tr>
   <tr>
     <th> 16:45 </th>
-    <td> </em>!BioaRchive: enabling reproducibility of Bioconductor package versions<em> <div class='indent'><a href='/NiteshTuraga'>Nitesh Turaga</a></div> </td>
+    <td> </em>!BioaRchive: enabling reproducibility of Bioconductor package versions<em> <div class='indent'><a href='/src/NiteshTuraga/index.md'>Nitesh Turaga</a></div> </td>
     <td> <a href='http://f1000research.com/slides/4-369'>Slides</a>, <a href='http://f1000research.com/posters/4-370'>Poster</a>. <a href='https://youtu.be/SVSLcl0JVhI'>Video</a> </td>
   </tr>
   <tr>
     <th> 17:15 </th>
-    <td> </em><a href='http://www.hub-hub.de/wiki/index.php?title=BOSC2015Unconf'>Building successful open-source bioinformatics developer communities (Part 2)</a><em> <div class='indent'>Aidan Budd, <a href='/DaveClements'>Dave Clements</a>, Manuel Corpas, Natasha Wood</div> </td>
+    <td> </em><a href='http://www.hub-hub.de/wiki/index.php?title=BOSC2015Unconf'>Building successful open-source bioinformatics developer communities (Part 2)</a><em> <div class='indent'>Aidan Budd, <a href='/src/DaveClements/index.md'>Dave Clements</a>, Manuel Corpas, Natasha Wood</div> </td>
     <td> </td>
   </tr>
 </table>
@@ -117,13 +118,13 @@ Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbec
   <tr>
     <th> 11 July </th>
     <th> 13:30 </th>
-    <td> </em><a href='http://www.iscb.org/ismbeccb2015-program/ismbeccb2015-akes#akes5'>AKES 05: Using Biological Cyberinfrastructure to Scale Science and People – Applications in Data Storage, HPC, Cloud Analysis, and Bioinformatics Training</a><em> <div class='indent'> <a href='/DaveClements'>Dave Clements</a> </div> </td>
+    <td> </em><a href='http://www.iscb.org/ismbeccb2015-program/ismbeccb2015-akes#akes5'>AKES 05: Using Biological Cyberinfrastructure to Scale Science and People – Applications in Data Storage, HPC, Cloud Analysis, and Bioinformatics Training</a><em> <div class='indent'> <a href='/src/DaveClements/index.md'>Dave Clements</a> </div> </td>
     <td> </td>
   </tr>
   <tr>
     <th> 12 July </th>
     <th> 15:30 </th>
-    <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2015/workshops.php#part4'>Experience Exchange: Focus on the NGS Course</a><em> <div class='indent'> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a>, <a href='https://www.linkedin.com/pub/gabriella-rustici/1/494/3aa'>Gabriella Rustici</a>, <a href='https://www.linkedin.com/pub/annette-mcgrath/b/884/473'>Annette McGrath</a>, <a href='/DaveClements'>Dave Clements</a> <br /> Part of </em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2015/workshops.php#WK01'>WK01:  Workshop on Education in Bioinformatics: Unlocking the super teacher inside you - Becoming competent in delivering bioinformatics training</a><em></div> </td>
+    <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2015/workshops.php#part4'>Experience Exchange: Focus on the NGS Course</a><em> <div class='indent'> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a>, <a href='https://www.linkedin.com/pub/gabriella-rustici/1/494/3aa'>Gabriella Rustici</a>, <a href='https://www.linkedin.com/pub/annette-mcgrath/b/884/473'>Annette McGrath</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a> <br /> Part of </em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2015/workshops.php#WK01'>WK01:  Workshop on Education in Bioinformatics: Unlocking the super teacher inside you - Becoming competent in delivering bioinformatics training</a><em></div> </td>
     <td> </td>
   </tr>
   <tr>
@@ -149,7 +150,7 @@ Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbec
   <tr>
     <th> 14 July </th>
     <th> 12:00 </th>
-    <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2015/technologytrack.php'>TT16: What’s new in the Galaxy (Project)?</a><em> <div class='indent'> <a href='/DaveClements'>Dave Clements</a> </div> </td>
+    <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2015/technologytrack.php'>TT16: What’s new in the Galaxy (Project)?</a><em> <div class='indent'> <a href='/src/DaveClements/index.md'>Dave Clements</a> </div> </td>
     <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_ISMB_Galaxy_Update_Clements.pdf'>Slides</a> </td>
   </tr>
   <tr>

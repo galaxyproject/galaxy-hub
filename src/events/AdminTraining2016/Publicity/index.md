@@ -1,13 +1,13 @@
 ---
-title: Galaxy Admin Training, :,  Help spread the word
+title: Galaxy Admin Training: Help spread the word
 ---
-PLACEHOLDER_INCLUDE(/Events/AdminTraining2016/Header)
+PLACEHOLDER_INCLUDE(/src/Events/AdminTraining2016/Header/index.md)
 
 
 
-<div class='right'>PLACEHOLDER_INCLUDE(/Events/AdminTraining2016/LinkBox) </div>
+<div class='right'>PLACEHOLDER_INCLUDE(/src/Events/AdminTraining2016/LinkBox/index.md) </div>
 
-<div class='left'><a href='/attachment:GAT2016Flier.pdf'><img src='/GAT2016FlierThumb.png' alt='Galaxy Admin Training Flier' /></a></div>
+<div class='left'><a href='/src/attachment:GAT2016Flier.pdf/index.md'><img src="/src/Events/AdminTraining2016/Publicity/GAT2016FlierThumb.png" alt="Galaxy Admin Training Flier" /></a></div>
 
 # Flier
 
@@ -21,8 +21,8 @@ Giving a talk to a group that might benefit from attending [Galaxy Admin Trainin
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/attachment:GAT2016Slide4x3.pdf'><img src='/GAT2016Slide4x3Thumb.png' alt='Galaxy Admin Training slide 4x3]]' /></a><br /><a href='PLACEHOLDER_ATTACHMENT_URLGAT2016Slide4x3.pdf'>Slide, 4x3</a> </td>
-    <td style=" text-align: center; border: none;"> <a href='/attachment:GAT2016Slide16x9.pdf'><img src='/GAT2016Slide16x19Thumb.png' alt='Galaxy Admin Training slide 16x9]]' /></a><br /><a href='PLACEHOLDER_ATTACHMENT_URLGAT2016Slide16x9.pdf'>Slide, 16x9</a> </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/attachment:GAT2016Slide4x3.pdf/index.md'><img src="/src/Events/AdminTraining2016/Publicity/GAT2016Slide4x3Thumb.png" alt="Galaxy Admin Training slide 4x3]]" /></a><br /><a href='PLACEHOLDER_ATTACHMENT_URLGAT2016Slide4x3.pdf'>Slide, 4x3</a> </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/attachment:GAT2016Slide16x9.pdf/index.md'><img src="/src/Events/AdminTraining2016/Publicity/GAT2016Slide16x19Thumb.png" alt="Galaxy Admin Training slide 16x9]]" /></a><br /><a href='PLACEHOLDER_ATTACHMENT_URLGAT2016Slide16x9.pdf'>Slide, 16x9</a> </td>
   </tr>
 </table>
 

@@ -1,11 +1,8 @@
----
-date: 2012-03-20T18:41:26Z
----
 <div class='newsItemHeader'>[GCC2012 Registration is Open](/src/News/GCC2012RegistrationOpen/index.md)</div>
 
-<div class='right'><a href='/Events/GCC2012/Register'><img src='/Events/GCC2012/GCC2012LogoWide400.png' alt='GCC2012 Registration is Open!' width="350" /></a><br /><br /><a href='/Events/GCC2012/TrainingDay'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='GCC2012 Training Day: July 25' align="right" /></a></div>
+<div class='right'><a href='/src/Events/GCC2012/Register/index.md'><img src="/src/Events/GCC2012/GCC2012LogoWide400.png" alt="GCC2012 Registration is Open!" width="350" /></a><br /><br /><a href='/src/Events/GCC2012/TrainingDay/index.md'><img src="/src/Events/GCC2012/GCC2012TrainingDayLogo.png" alt="GCC2012 Training Day: July 25" align="right" /></a></div>
 
-We are pleased to announce that [early registration](/src/Events/GCC2012/Register/index.md) for the [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) is now open.  GCC2012 will be held July 25-27, at the [UIC Forum](http://www.uic.edu/depts/uicforum/), in Chicago, Illinois.  The conference will feature [two full days](/Events/GCC2012/Program ) of presentations, discussions, lightning talks, and breakouts.  We have also added a new [full day of training](/src/Events/GCC2012/TrainingDay/index.md) this year, featuring 3 parallel tracks with four workshops each, covering seven different topics.
+We are pleased to announce that [early registration](/src/Events/GCC2012/Register/index.md) for the [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) is now open.  GCC2012 will be held July 25-27, at the [UIC Forum](http://www.uic.edu/depts/uicforum/), in Chicago, Illinois.  The conference will feature [two full days](/src/Events/GCC2012/Program /index.md) of presentations, discussions, lightning talks, and breakouts.  We have also added a new [full day of training](/src/Events/GCC2012/TrainingDay/index.md) this year, featuring 3 parallel tracks with four workshops each, covering seven different topics.
 
 The Galaxy Community Conference is for:
 * Sequencing core facility staff
@@ -25,7 +22,8 @@ Finally, [abstract submission](/src/Events/GCC2012/Abstracts/index.md) is also o
 
 Looking forward to seeing you in Chicago!
 
-[Dave Clements](/src/DaveClements/index.md) on behalf of the [GCC2012 Organizing Committee](/Events/GCC2012/Organizing Committee)
+[Dave Clements](/src/DaveClements/index.md) on behalf of the [GCC2012 Organizing Committee](/src/Events/GCC2012/Organizing Committee/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-03-20</div>
 
 CategoryNews

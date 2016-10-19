@@ -1,7 +1,7 @@
 ---
 autotoc: true
 ---
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Main Tool Shed' height="174" /></a> </div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a> </div>
 
 
 
@@ -34,3 +34,4 @@ Many tool developers in the Galaxy community question the best way to organize t
 * [Including functional test for your tools](/src/TestingInstalledTools/index.md) - this document provides details for including input and output datasets in your repository for functional tests defined in tool config files included in the repository.
 
 * [Enabling workflow sharing](/src/ToolShedWorkflowSharing/index.md) - this document describes how the tool shed enables sharing Galaxy workflows.
+

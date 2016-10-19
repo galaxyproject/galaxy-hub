@@ -5,18 +5,17 @@ autotoc: true
 
 
 
-
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
-
-
-
-
-PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
 
 
 
 
-<div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='Training Day' width="200" /></a></div>
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
+
+
+
+
+<div class='right'><a href='/src/Events/GCC2013/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
 
 
@@ -24,15 +23,12 @@ PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
 
 # The Galaxy API
 
-
-
-
 The Galaxy API is a way of interacting with Galaxy data without using the web-based, user interface.
 
 
 
 
-A more thorough explanation can be found at [/Learn/API](/src/Learn/API/index.md) along with some general steps on
+A more thorough explanation can be found at [Learn/API](/src/Learn/API/index.md) along with some general steps on
 how to begin using the API. This page may duplicate some of that data in order to keep information relevant to the
 workshop in one place.
 
@@ -59,9 +55,6 @@ while building an example script.
 
 
 ## What's an API and why would I care?
-
-
-
 
 An API (Application Programming Interface) is the syntax defined by a program for how it can be controlled by another.
 
@@ -92,13 +85,6 @@ but the key advantages to an API are that you can:
 3. Compose complex tasks/scripts from simple tasks to remove the tedium of common scenarios:
   `wake me up at 6:00am, turn on the lights, and start making some frighteningly strong coffee` -> `ohgodmorning.py`
 
-
-
-
-
-
-
-
 In more Galaxy specific terms, the web API allows you to use Galaxy's capabilities programmatically:
 running a workflow *over each file* in a directory, moving a dataset to a library *only if* it passes some QA
 threshold, upload a fastq file *when* the sequencer finishes writing it, or *combine* any or all of the above into
@@ -115,9 +101,6 @@ applied to your data:
 * your work is still sharable,
 * etc.
 
-
-
-
 It's also worth noting that all the work you did via the API is still accessible and modifiable when you return to the UI.
 
 
@@ -131,24 +114,15 @@ It's also worth noting that all the work you did via the API is still accessible
 -----------------------------------------------------------
 # How to Access and Use the API
 
-
-
-
 Anything that can communicate over HTTP can use the Galaxy web API.
 * browser - capable of only simple GET API methods
 * wget - only GET methods - but from the command line
 * curl - a unix program that will let you use any API method
 
-
-
-
 Some programming or scripting languages have their own libraries to do this:
 * python - urllib, urllib2 (can be complicated), requests (simplifies, but still many options)
 * javascript - jquery (use any API method, browser only), node (any method, command line)
 * bash - curl + bash = you're probably a bioinformaticist
-
-
-
 
 There are several scripts and excellent programming libraries designed to help with the Galaxy API:
 * scripts/api - a small selection of simple scripts and examples that can help you write and explore interacting with
@@ -157,9 +131,6 @@ There are several scripts and excellent programming libraries designed to help w
   a library for use in python that greatly simplifies writing complex Galaxy API interactions
 * blend4j - ([source](https://github.com/jmchilton/blend4j), [documentation](https://github.com/jmchilton/blend4j#readme))
   a library for use in Java based on bioblend
-
-
-
 
 Data returned from (and in some cases passed to) the Galaxy API is often described or formatted in
 [JSON](http://en.wikipedia.org/wiki/JSON) (!JavaScript Object Notation) - a compact and flexible way of describing
@@ -174,9 +145,6 @@ scripts/api directory, !BioBlend, and !Blend4j and relatively easy for python, a
 
 <br />
 ## The concepts of resources, verbs, and the REST model
-
-
-
 
 A common way to construct an API command is to view it as a simple (imperative) sentence: <verb> <a resource>
 
@@ -193,9 +161,6 @@ A common way to construct an API command is to view it as a simple (imperative) 
   [HTTP request methods](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Request_methods).
 * Often additional options and parameters must be passed to specify how the command should take place.
 
-
-
-
 From that then, it follows that each web API URL (command) is composed of three parts:
 1. an HTTP method - the verb
 2. a URL path - the resource
@@ -210,15 +175,9 @@ From that then, it follows that each web API URL (command) is composed of three 
 
 
 
-
-
-
 <br />
 -----------------------------------------------------------
 # A Sample Use
-
-
-
 
 We'll slowly build a fairly complex script using the API to:
 * Create a history
@@ -229,9 +188,6 @@ We'll slowly build a fairly complex script using the API to:
 * Rename the file and annotate it
 * Copy the file to a library
 
-
-
-
 The final script should not be considered a 'good' script, however, because a good script would take into account:
 * Complications: typically in a robust script/application, a significant amount of code will go towards handling
   [corner-cases](http://en.wikipedia.org/wiki/Corner_case). For the sake of making the learning examples clear and
@@ -240,9 +196,6 @@ The final script should not be considered a 'good' script, however, because a go
   of python's error handling capability and a real script would have more and better handling. **We want everyone to be
   able to follow along, however, so if you do see an error - please, let us know and we can try and get you past it.**
 * Windows compatibility: these scripts aren't tested with Windows (but they should work with some minor tweaking).
-
-
-
 
 There are 10 steps total to building the script. Each step (step_1.py, step_2.py, ...) has its own progressively longer
 version of the final script, adding new sections and new functionality.
@@ -272,6 +225,7 @@ or creating).
 <br />
 -----------------------------------------------------------
 # The Set Up
+
 * If you haven't already, download the [virtual machine (VM) image](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay/VMs) for this workshop.
 * If you haven't already, start the VM
 * fire up Etherpad (https://etherpad.mozilla.org/hCF6QedfLD)
@@ -280,15 +234,10 @@ or creating).
 * Galaxy start up - mention the use of a local installation (or a development installation) for exploring the API
 * open gedit (or other) in order to load the scripts in each step
 
-
-
-
 ## The API Key
+
 * load the galaxy home page, login, and go to the top menu 'User' -> 'API Keys'
 * Let's look for the api key (don't change it or press the 'Generate' button)
-
-
-
 
 Your **API key** is unique identifier that is sent to the API to link you with your Galaxy account and checks your
 access to data. It is effectively your username and password. **Treat it with the same caution and care you would your
@@ -350,6 +299,7 @@ These will both be needed in every call to the API.
 
 
 ## Structure
+
 We'll be using python and [scripts/api/common.py](ATTACHMENT_URLcommon.py) as a layer on top of urllib2.
 [ATTACHMENT_URLsetup.py](ATTACHMENT_URLsetup.py) will load our key and base URL for every API call.
 
@@ -371,11 +321,9 @@ in !BioBlend or Blend4j - we won't use them here so we can get a closer look on 
 # The Steps
 
 
-
-
-
 <br />
 ## 1. Checking your key with the user API
+
 We'll start with the scripts: [ATTACHMENT_URLstep_1.py](ATTACHMENT_URLstep_1.py) and [ATTACHMENT_URLusers_1.py](ATTACHMENT_URLusers_1.py).
 
 
@@ -463,6 +411,7 @@ You should see the same data returned as users_1.py - we're not doing much yet.
 
 <br />
 ## 2. Looking at your histories with the history API
+
 Here we'll learn how to query all our histories and query a specific history.
 
 
@@ -479,6 +428,7 @@ Scripts: [ATTACHMENT_URLstep_2.py](ATTACHMENT_URLstep_2.py), [ATTACHMENT_URLhist
 
 <br />
 ### histories_1.py
+
 histories_1.py allows us to get (summary) data on all our histories using the GET method and the index API method.
 
 
@@ -513,6 +463,7 @@ with X').
 
 <br />
 ### histories_2.py
+
 histories_2.py allows us to get more detailed info about a *specific* history also using the GET command.
 
 
@@ -559,9 +510,6 @@ Again:
 * **index**: histories_1.py: GET api/histories -> a list of histories for the current user
 * **show**: histories_2.py: GET api/histories/<a history id> -> a single, specific history
 
-
-
-
 Many resources in the Galaxy API will have index and show methods for reading and retrieving information.
 
 
@@ -573,6 +521,7 @@ Many resources in the Galaxy API will have index and show methods for reading an
 
 <br />
 ## Errors!
+
 Now that we have something we can pass an argument to (and therefore break), let's break it! Try entering this:
 ```bash
 histories_2.py bler
@@ -612,6 +561,7 @@ on it's side.
 
 <br />
 ## 3. Creating a history with the history API
+
 Here we'll learn how to create a new history which will (automatically) become our 'working' history.
 
 
@@ -628,6 +578,7 @@ Scripts: [ATTACHMENT_URLstep_3.py](ATTACHMENT_URLstep_3.py), [ATTACHMENT_URLhist
 
 <br />
 ### histories_3.py
+
 We've added the function `create_history` in this version of `histories`. This will build a URL to `api/histories`
 and call that URL with the HTTP method POST (common.post). Note that we don't need to send an ID as this is a new
 history and Galaxy will assign the ID itself (the new ID will be returned to us so we can use to further manipulate
@@ -701,6 +652,7 @@ following steps.
 
 <br />
 ## 4. Checking the contents of a history with the history contents API
+
 Histories can be thought of as containers for the datasets we produce over time. The python class for those datasets
 (that are associated with a history and a user) is !HistoryDatasetAssociation (HDA).
 
@@ -767,6 +719,7 @@ that would have been a pretty big bug!
 
 <br />
 ## 5. Uploading a file to a new HDA with the history contents API
+
 Here we'll start moving a bit faster: we'll upload a file from our 'local' machine into a new history and get some
 details on the HDA that Galaxy creates for it.
 
@@ -799,9 +752,6 @@ The takeaway here is that, to run a tool we combine four things:
 2. the resource URL `api/tools`
 3. the ID of the tool to use: `upload1`
 4. and any parameters the tool needs: the file, a name, some extra options and directives
-
-
-
 
 ```bash
 ./step_5.py
@@ -853,6 +803,7 @@ There's our uploaded file in Galaxy.
 
 <br />
 ### Asynchronous
+
 Note the `state` attribute of the uploaded file:
 ```bash
 u'state': u'queued',
@@ -897,6 +848,7 @@ step 6.
 
 <br />
 ## 6. Uploading a file and waiting until the API says it's 'ok'
+
 Here we'll handle the asynchronous nature of Galaxy tool running and jobs in order to be sure the data is uploaded
 and ready before we start using it.
 
@@ -971,6 +923,7 @@ the loop will have access to the dataset's data.
 
 <br />
 ## 7. Running a workflow on an uploaded HDA using the workflows API
+
 Now we'll run a workflow on our uploaded file and again wait for all of it to finish. We'll be moving faster here.
 
 
@@ -987,6 +940,7 @@ Scripts: [ATTACHMENT_URLstep_7.py](ATTACHMENT_URLstep_7.py), [ATTACHMENT_URLwork
 
 <br />
 ### Workflows
+
 Workflows are complicated structures. For this workshop, the needed workflow here is already loaded and available to
 the workshop user (but it is also available at TODO). All we need to do is 'invoke' it from the api on the uploaded HDA.
 This is another example of `POST + resource URL + parameters` to `create`. It's also an example of **composing**
@@ -1069,6 +1023,7 @@ Note the final output: these are the HDAs created by the workflow. (We can also 
 
 <br />
 ## 8. Checking the data of an HDA using the datasets API
+
 Now we'll introduce the possibility of a **conditional** in our API script: specifically, we'll *look inside the
 dataset data* of one of the HDAs created by our workflow. This will give us an opportunity to do something different
 depending on what we find.
@@ -1087,6 +1042,7 @@ Scripts: [ATTACHMENT_URLstep_8.py](ATTACHMENT_URLstep_8.py), [ATTACHMENT_URLdata
 
 <br />
 ### The datasets API
+
 It's all fine and good to operate on the information from resources, but if we consider the actual 'currency' of
 Galaxy to be the *data inside datasets* we'll need to get at that information as well.
 
@@ -1153,6 +1109,7 @@ allows us to **get data from within the dataset**. This is done through the Gala
 
 <br />
 ### Data providers
+
 Data providers allow us to get specific data from within a dataset's file contents. In this case
 (`datasets_3.get_column_data`), we're using the !ColumnDataProvider which provides columns from the Tabular dataset
 `statistics`.
@@ -1221,6 +1178,7 @@ why but, in the simplest terms, its an illustration of how some API calls transm
 
 <br />
 ## 9. Renaming and annotating an HDA using the history contents API
+
 We'll now introduce a third HTTP method: PUT (DELETE won't be covered in this workshop but know that it's available
 for many resources) and use it to: **update** (change) the name of our final, desired fastq HDAs and annotate them
 with the quality information from step 8.
@@ -1315,6 +1273,7 @@ Reverse: myIlluminaRun.rev.fastqsanger
 
 <br />
 ## 10. Copying an HDA to a library using the library contents API
+
 For our final step, we'll take our quality controlled and annotated read files and copy them into a shared Library
 for everyone in our lab to use.
 
@@ -1340,6 +1299,7 @@ or parts of the frequent bioinformatic requests you may get.
 
 <br />
 ### libraries_1.py and lddas_1.py
+
 Libraries are unique containers (when compared to histories) in that they can contain *other containers*. These
 nested containers are folders and add a layer of complexity to our last task.
 
@@ -1418,6 +1378,7 @@ And ... we're done!
 <br />
 -----------------------------------------------------------
 # In the Future
+
 We are always adding new functionality to the API and progressively ensuring that everything that can be done in the
 UI can be done in the API - because of that, please, consider the API a 'work in progress' and check the
 [Galaxy Development Briefs](/src/DevNewsBriefs/index.md) for new features or fixes.
@@ -1431,6 +1392,7 @@ UI can be done in the API - because of that, please, consider the API a 'work in
 
 <br />
 ### Versioning of the API
+
 As things change in Galaxy and we make improvements to the API, there will be times when the data that's passed to
 an API method, the data that's returned, or the fundamental effects of an API method *should* change.
 
@@ -1465,6 +1427,7 @@ be replaced with it and a new development version will be started.
 
 <br />
 ### Tool Running
+
 We know that running tools via the API would be a big win for everyone - so it's a priority on our list. Before that
 happens some amount of core changes need to take place to make this as easy and flexible to use as possible.
 
@@ -1482,6 +1445,7 @@ happens some amount of core changes need to take place to make this as easy and 
 <br />
 -----------------------------------------------------------
 # More Resources and Thanks
+
 * a tarball of all the scripts used is here: [ATTACHMENT_URLall-scripts.tar.gz](ATTACHMENT_URLall-scripts.tar.gz)
 * [ReadTheDocs.org](http://galaxy-dist.readthedocs.org/en/latest/lib/galaxy.webapps.galaxy.api.html).
 * There are good examples in the `scripts/api` directory of a Galaxy installation.
@@ -1489,14 +1453,7 @@ happens some amount of core changes need to take place to make this as easy and 
 * Thanks for coming!
 
 
-
-
-
-
-
-
-
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Footer)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Footer/index.md)
 
 
 

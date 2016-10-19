@@ -2,7 +2,7 @@
 title: [RNAmapper](http://www.rnamapper.org/)
 ---
 <div class='center'>
-<a href='http://www.rnamapper.org/'><img src='/RNAmapperLogo.png' alt='RNAmapper'  /></a>
+<a href='http://www.rnamapper.org/'><img src="/src/VA/RNAmapper/RNAmapperLogo.png" alt="RNAmapper"  /></a>
 </div>
 
 
@@ -31,6 +31,5 @@ From the [RNAmapper home page](http://www.rnamapper.org/):
 * [RNAmapper project home page](http://www.rnamapper.org/)
 * [RNAmapper Galaxy 101 Tutorial](http://www.rnamapper.org/rnamapper-101)
 * "[RNA-seq–based mapping and candidate identification of mutations from forward genetic screens](http://genome.cshlp.org/content/23/4/679.long)" by Miller, *et al.*, *Genome Research* 2013. 23: 679-686
-
 
 CategoryVirtualAppliance

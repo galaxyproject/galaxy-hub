@@ -14,22 +14,28 @@ This page is here to get the environment set up of the team members. You can use
 - Daily Status via a Galaxy Google Group. Digest is out after 6pm.
 
 ## Enis Afgan
+
 ## Dannon Baker
+
 ### What are your domains / fields / area in Galaxy
+
 I work on all different parts of Galaxy.  Formerly lots of cloud, workflow, and job related work, more recently focusing on webapp performance (both metrics and improvements) and quality of life improvements like tours, etc.
 
 ### How do you organize you work-day?
+
 Very quickly take a look at what is going on in Galaxy ([GitHub](https://github.com/galaxyproject/galaxy) / [mails](https://inbox.google.com))
 
 Usually do the most productive part in the morning, and then handle support / fixing broken things (but this happens in the morning too)
 
 ### What is your set-up?
+
 1) Terminal 2) Gmail 3) Browser
 
 Here's my desk setup:
 * New: https://imgur.com/hZBsmsX
 
 #### Screen configuration:
+
 * Middle screen - 27"
   * https://imgur.com/Ex7BRx9
   * Vim Code is middle + left screen
@@ -46,20 +52,25 @@ Here's my desk setup:
   * More often than not, unless it's something wonky (cluster testing) which is easier to set up on *nix, the code I'm working on actually lives on this machine and I'm ssh(mosh)'d in to it from all the terminals you see in the center panel.  So I actually do develop on OSX, I just don't use the interface.
 
 #### OS
+
 * Windows 10 (Really just a host to the VM and runs browsers)
 * XUbuntu in VirtualBox
 * OSX
 
 #### Coding best-practices and tips
+
 ##### Front-end
+
 * node_modules/webpack/bin/webpack.js --progress --colors --watch
 * node_modules/grunt-cli/bin/grunt watch --develop
 * (More details [here](https://github.com/galaxyproject/galaxy/blob/dev/client/README.md))
 
 ##### Keep learning
+
 Read HackerNews / Python subreddit + Programming subreddit
 
 ##### Misc
+
 * How to sync your vim configuration across multiple machines (I'm commonly on 3) => rsync -avz .vim*
 * Use [ack](http://beyondgrep.com/) instead of grep. Useful for looking into the logs
 * How to use the same keyboard and mouse between Macbook pro and Main computer: Use Synergy
@@ -78,16 +89,27 @@ Read HackerNews / Python subreddit + Programming subreddit
   * http://www.amazon.com/Mechanical-Keyboard-Keycaps-Cherry-Mx-Clear/dp/B00OFM6F80
 
 ## Dan Blankenberg
+
 ## Dave Bouvier
+
 ## Martin Cech
+
 ## John Chilton
+
 ## Dave Clements
+
 ## Nate Coraor
+
 ## Carl Eberhard
+
 ## Jeremy Goecks
+
 ## Aysam Guerler
+
 ## Jennifer Hillman Jackson
+
 ## Ross Lazarus
+
 ## Rémi Marenco
 
 * Uses `pdb` / `ipdb` to debug Python
@@ -98,16 +120,21 @@ Read HackerNews / Python subreddit + Programming subreddit
 * http://blog.livecoding.tv/2016/03/24/the-ten-10-best-python-productivity-tools-plugins-and-libraries/
 
 ## Anton Nekrutenko
+
 ## Nick Stoler
+
 ## James Taylor
+
 ## Nitesh Turaga
+
 Worked in the past on: 
 * BioConductor - Galaxy integration
-  
+
 Now: 
 * Galaxy Full Stack
 
 #### Work environment
+
 * Vim + plugins: 
   * 'VundleVim/Vundle.vim'
   * 'tpope/vim-fugitive'
@@ -133,25 +160,32 @@ iTerm2 to vertical split
 IPython / (i)pdb: Ipython instead of python. 
 
 ##### Chrome extensions:
+
 * JsonView
 * YSlow
 
 #### How do you organize your work-day?
+
 * GitHub notifications through Slack
 * Checker Plus for Gmail
 * Regular irc notifications
 
 #### What to improve?
+
 * UI to improve
 * Developer entry-point
 
-
 #### What did you find the most difficult at the beginning in Galaxy?
+
 Getting started with the code base
 
 # Commiters
 
 ## Björn Grüning
+
 ## Eric Rasche
+
 ## Nicola Soranzo
+
 ## Marius Van Den Beek
+

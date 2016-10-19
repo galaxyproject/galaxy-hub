@@ -1,9 +1,9 @@
 ---
 autotoc: true
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 
 ## Poster Abstracts
 

@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://www.igmm.ac.uk/'><img src='/Images/Logos/IGMMLogo.jpg' alt='Institute of Genetics and Molecular Medicine' height="150" /></a>
+<a href='http://www.igmm.ac.uk/'><img src="/src/Images/Logos/IGMMLogo.jpg" alt="Institute of Genetics and Molecular Medicine" height="150" /></a>
 <div class='title'>Introduction to Galaxy<br />13 May 2014</div>
 
 **
@@ -75,8 +75,8 @@ No programming or Linux command line experience is required.
 This is a hands-on workshop being held an IGMM computer lab.  The workshop will use the computers in the lab, but feel free to also bring your own laptop.
 
 <div class='right'>
-<br /><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a><br /><br />
-<a href='/Events/UKMay2014'><img src='/Images/Logos/UKMay2014Tour.png' alt='May 2014 Galaxy UK Tour' width="160px" /></a>
+<br /><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a><br /><br />
+<a href='/src/Events/UKMay2014/index.md'><img src="/src/Images/Logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
 </div>
 
 ## Support
@@ -93,4 +93,4 @@ This workshop is part of the [May 2014 Galaxy UK Tour](/src/Events/UKMay2014/ind
 
 ## Questions?
 
-Contact [Graeme Grimes of the Semple Lab](http://www.hgu.mrc.ac.uk/people/c.semple_researchb.html) or [outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [Graeme Grimes of the Semple Lab](http://www.hgu.mrc.ac.uk/people/c.semple_researchb.html) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).

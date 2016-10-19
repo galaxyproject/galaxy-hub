@@ -1,6 +1,3 @@
----
-date: 2014-08-14T13:58:29Z
----
 <div class='newsItemHeader'>[Galaxy-UK Community Launched](/src/News/GalaxyUKLaunched/index.md)</div>
 
 Dear UK Galaxy-devs,
@@ -29,7 +26,8 @@ Best wishes,
 
 The Galaxy-UK Team
 
-<div class='center'> <a href='http://galaxy-community.org.uk/'><img src='/GCUKisLive.png' alt='Galaxy-UK Community is Live!' width="40%" /></a> </div>
+<div class='center'> <a href='http://galaxy-community.org.uk/'><img src="/src/News/GalaxyUKLaunched/GCUKisLive.png" alt="Galaxy-UK Community is Live!" width="40%" /></a> </div>
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-08-14</div>
 
 CategoryNews

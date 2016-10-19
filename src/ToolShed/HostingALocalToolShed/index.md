@@ -1,4 +1,4 @@
-<div class='right'> <a href='/ToolShed'><img src='/Images/Logos/ToolShed.jpg' alt='Tool Shed logo' height="110px" /></a> PLACEHOLDER_INCLUDE(/ToolShed/LinkBox) </div>
+<div class='right'> <a href='/src/ToolShed/index.md'><img src="/src/Images/Logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a> PLACEHOLDER_INCLUDE(/src/ToolShed/LinkBox/index.md) </div>
 
 # Hosting a Public Tool Shed for sharing Galaxy Utilities
 
@@ -33,10 +33,9 @@ After you have the configuration settings as you want them, start up your Tool S
 
 Then connect to http://localhost:9009.
 
-If you use an apache proxy to your Tool Shed, you can use the same approach detailed in our [Apache proxy to Galaxy wiki](/Admin/Config/Apache Proxy). For example, the following rules can be used to enable your apache server to serve static content (located in the directory /home/galaxy/static in this example) for your Tool Shed running on port 9009:
+If you use an apache proxy to your Tool Shed, you can use the same approach detailed in our [Apache proxy to Galaxy wiki](/src/Admin/Config/Apache Proxy/index.md). For example, the following rules can be used to enable your apache server to serve static content (located in the directory /home/galaxy/static in this example) for your Tool Shed running on port 9009:
 
-```
-#!highlight apache
+```apache
 RewriteEngine on
 RewriteRule ^/toolshed$ /toolshed/ [R]
 RewriteRule ^/toolshed/static/style/(.*) /home/galaxy/static/june_2007_style/blue/$1 [L]
@@ -50,8 +49,7 @@ RewriteRule ^/toolshed(.*) http://localhost:9009$1 [P]
 
 Of course, your Tool Shed must be aware that it is running with a prefix (for generating URLs in dynamic pages). This is accomplished by configuring a Paste proxy-prefix filter in the **[app:main]** section of **tool_shed_wsgi.ini**.
 
-```
-#!highlight ini
+```ini
 [filter:proxy-prefix]
 use = egg:PasteDeploy#prefix
 prefix = /toolshed
@@ -80,7 +78,7 @@ Whenever you update the code base of your Tool Shed (by upgrading to a new Galax
 
 Metadata is generated for the repository whenever you make changes to it by uploading or deleting files or pushing mercurial commits to it via the command line.  This metadata is stored in the repository_metadata table in the Tool Shed's database.  This automatic process inspects the contents of the specific revision of the repository and generates and stores important information about it.  This metadata information is used by certain Tool Shed features.
 As new features are added to the Tool Shed, the process that generates this metadata may be enhanced to accommodate information about the new features.  Regenerating the metadata for your Tool Shed repositories can be done as often as you want - it is considered "safe" to do this.  You can do this by selecting the **Reset selected metadata** option from the Tool Shed Administration menu.
-![](/reset_selected_metadata.png)
+![](/src/ToolShed/HostingALocalToolShed/reset_selected_metadata.png)
 
 # Migrating the database schema of your Tool Shed
 
@@ -115,4 +113,4 @@ Executing the above shell command will result in setting up a temporary director
 
 The functional test results are logged to an html file in **~/test/tool_shed/run_functional_tests.html**.  Loading this file into a browser will display something like the following.
 
-![](/functional_test_output.png)
+![](/src/ToolShed/HostingALocalToolShed/functional_test_output.png)

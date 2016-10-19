@@ -1,12 +1,12 @@
 ---
 autotoc: true
-title: Teaching with Galaxy, :,  Best Practices
+title: Teaching with Galaxy: Best Practices
 ---
-PLACEHOLDER_INCLUDE(/Teach/Header)
+PLACEHOLDER_INCLUDE(/src/Teach/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Teach/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Teach/LinkBox/index.md)
 
 This page will distill some best practices for teaching with Galaxy, in both workshop and classroom situations.
 
@@ -29,7 +29,7 @@ You can pre-populate your teaching Galaxy instance with published histories, wor
 
 **Or, *keep the data close.***
 
-You can avoid training-time dependencies on external resources (that may be down during your training), and swamping your local network by preloading data sets into **Data Libraries** on your training server.  To do this you'll need either admin access to the server, or the cooperation of the server's admin.  If you can't get that, you can always [import the data into a history and then publish that](#published-histories-workflows-and-visualizations).
+You can avoid training-time dependencies on external resources (that may be down during your training), and swamping your local network by preloading data sets into **Data Libraries** on your training server.  To do this you'll need either admin access to the server, or the cooperation of the server's admin.  If you can't get that, you can always [import the data into a history and then publish that](/src/Teach/BestPractices/index.md#published-histories-workflows-and-visualizations).
 
 ### Galaxy Pages
 

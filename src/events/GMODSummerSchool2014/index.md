@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: GMOD Summer School 2014, :,  Installing Galaxy
+title: GMOD Summer School 2014: Installing Galaxy
 ---
 
 
@@ -24,11 +24,12 @@ perspective, you may want to view [The Galaxy 101 Tutorial](https://usegalaxy.or
 
 
 ## Introduction
+
 There are two sections to this workshop page:
-1. [command-line installation and configuration](#command-line-set-up-and-operation): primarily geared to users who
+1. [command-line installation and configuration](/src/Events/GMODSummerSchool2014/index.md#command-line-set-up-and-operation): primarily geared to users who
   want a basic installation of Galaxy with an eye towards setting things up flexibly should they decide to scale up at a
   later date.
-2. [administration from the web](#the-admin-web-interface): introduces new admin users to the management of some of
+2. [administration from the web](/src/Events/GMODSummerSchool2014/index.md#the-admin-web-interface): introduces new admin users to the management of some of
   Galaxy's most useful features including tool installation, library management, and workflow creation.
 
 Advanced installation will be covered lightly but will provide good resources for those that already know they need a
@@ -42,12 +43,13 @@ a text editor in the terminal (nano, vi/vim, emacs, etc).
 
 
 <br />
----
+----
 
 
 
 
 ## Command-line Set Up and Operation
+
 Galaxy can interface with many complex and powerful computing resources such as compute clusters, dynamic resource
 managers (DRMs), and virtual cloud servers. It's also designed to allow thousands of users to work simultaneously on
 many analyses at once.
@@ -58,8 +60,8 @@ It can also be very useful on a much smaller scale: a single lab or even a singl
 * and how to do basic administrative tasks that will allow your users (or just you) to do analysis with Galaxy
 
 
-
 ### A 'galaxy' user
+
 In many cases if you are building a Galaxy installation for that will serve many users, process many jobs at once,
 or think that you may at some later date, it is a good idea to perform the following installation using a non-sudo
 user specifically for Galaxy (i.e the 'galaxy' user).
@@ -76,6 +78,7 @@ dependent on a normal user account and that the process will have permissions an
 
 
 ### Downloading and Installing Galaxy
+
 You'll need python 2.6 or higher.
 ```bash
 $ python --version
@@ -132,7 +135,7 @@ $
 ```
 
 
-NOTE: cloning the full Galaxy code repository can take some time. Please, jump to [/More Resources](/More Resources) while we wait for
+NOTE: cloning the full Galaxy code repository can take some time. Please, jump to [More Resources](/src/More Resources/index.md) while we wait for
 it to install.
 
 4. When the download is complete, update Galaxy to the most stable version/branch:
@@ -155,6 +158,7 @@ and:
 
 
 ### The universe_wsgi.ini Configuration File
+
 Galaxy is highly configurable and much of that configuration is controlled with the file `universe_wsgi.ini`. When you
 first download Galaxy it will include a 'template' of the `universe_wsgi.ini` file named `universe_wsgi.ini.sample`
 (you'll see this `sample` template pattern for many of Galaxy's config files). The `sample` file contains all the
@@ -178,14 +182,15 @@ Next, let's add ourselves (NOTE: not the galaxy user) as administrator to what w
 Most of the changes to `universe_wsgi.ini` can be done using the above steps: search for a line, change or un/comment
 it out, and save (optionally restarting the server afterwards - shown later).
 
-(for more information and another example see: [/Admin/Interface](/Admin/Interface))
+(for more information and another example see: [Admin/Interface](/src/Admin/Interface/index.md))
 
 
 <br />
----
+----
 
 
 ### Installing PostgreSQL
+
 Although Galaxy can be run imediately with the included SQLite database ('batteries included'), one of the best ways to
 prevent later problems with your installation is to *begin* by using a full database such as PostgreSQL:
 [http://www.postgresql.org/](http://www.postgresql.org/)
@@ -212,6 +217,7 @@ and a quick command line example here:
 Let's create a postgres user named galaxy for our system galaxy user:
 1. Log out of the galaxy user and back into your sudo/admin user role by pressing `Ctrl-d`.
 2. Use the postgres user to create a postgres galaxy user:
+
 ```bash
 sudo -u postgres createuser galaxy
 Shall the new role be a superuser? (y/n) n
@@ -222,12 +228,14 @@ Shall the new role be allowed to create more new roles? (y/n) n
 (Don't give any of the permissions prompted for.)
 
 3. Then, create a databse for our installation with the galaxy user as its owner:
+
 ```bash
 $ sudo -u postgres createdb -O galaxy galaxydb
 ```
 
 
 4. Log back in as the galaxy user for the rest of this part of the tutorial:
+
 ```bash
 $ sudo -iu galaxy
 $ cd ourgalaxy/galaxy-dist
@@ -235,6 +243,7 @@ $ cd ourgalaxy/galaxy-dist
 
 
 5. Change `database_connection` in `universe_wsgi.ini` to have galaxy use postgres as the database:
+
 ```ini
 database_connection = postgresql:///galaxydb?host=/var/run/postgresql
 ```
@@ -245,11 +254,13 @@ Some important points and suggestions for setting up a Galaxy server with a full
 
 
 <br />
----
+----
 
 
 ### More Configuration
+
 #### Debugging
+
 Disable the debugging and development settings:
 
 1. `debug` - comment it out
@@ -277,6 +288,7 @@ debugging process.
 
 
 #### Security
+
 Set the `id_secret` to make Galaxy's ids (encoded versions of database ids for your resources such as session ids,
 dataset ids, etc.) unique to your server:
 1. Generate a random piece of text. This will be combined in Galaxy with the database ids to encode them:
@@ -301,6 +313,7 @@ id_secret = b9bf59c1cf5e910ef87b1494ac032e25
 
 
 #### Port Number and customization
+
 You can (uncomment and) change the port number Galaxy serves from to 8081:
 ```ini
 # The port on which to listen.
@@ -332,9 +345,10 @@ Of course, you can change this later to suit your lab or your needs.
 
 
 #### The tool_dependency_dir
+
 The final change we'll make before we log in is to uncomment and add a tool dependency directory in the
 `universe_wsgi.ini` file. This is a directory that will store the programs that Galaxy tools rely on to function as
-we'll see later in [/Tools](/src/Tools/index.md):
+we'll see later in [Tools](/src/Tools/index.md):
 ```ini
 tool_dependency_dir = ../tool_dependencies
 ```
@@ -346,16 +360,18 @@ will be automatically created - you don't need to do that.
 
 
 <br />
----
+----
 
 
 ### run.sh: Start Up, Stopping, Re-starting and Log Files
+
 In the 'Galaxy base directory' (`/home/ourgalaxy/galaxy-dist`), is a script named `run.sh`. This script allows us to
 start and stop our Galaxy server. There are many scripts for administrative tasks in the base directory, `scripts`
 directory, and `cron` directory and they're worth exploring in a text editor.
 
 
 #### In the foreground
+
 Galaxy can be easily started as a foreground process in a terminal window with the run.sh script in the Galaxy base
 directory:
 ```bash
@@ -376,6 +392,7 @@ Go ahead and stop the server with `Ctrl+c` and we'll restart it in the backgroun
 
 
 #### In the background with a daemon
+
 ```bash
 $ sh run.sh --daemon
 Entering daemon mode
@@ -404,6 +421,7 @@ base directory.
 
 
 #### Restarting the server
+
 In order to restart the server, simply shut it down and bring it back up (which can be accomplished with a single
 command):
 ```bash
@@ -417,6 +435,7 @@ command will do this in daemon mode; when using `--reload` the server will do th
 
 
 #### The log file
+
 The log file is not only a searchable record of activity on the server but also provides information on errors. It's
 often a good place to look when the UI is reporting an error or when something isn't behaving correctly.
 
@@ -449,11 +468,12 @@ at the end of the log output.
 
 
 <br />
----
+----
 
 
 
 ## The Admin Web Interface
+
 Your Galaxy server should now be running, so let's log in to our admin account with a browser:
 1. Open your preferred browser (Chrome, Firefox are recommended but Galaxy works also with IE+10) in the virtual
   machine.
@@ -468,21 +488,22 @@ Later, if serving your lab computer or from behind a proxy, Galaxy can be access
 Once your Galaxy server is running, many of its functions can be controled over the web through the administration
 page. Click `Admin` from the top menu.
 
-![](/admin.png)
+![](/src/Events/GMODSummerSchool2014/admin.png)
 
 Here you'll see a page where you can:
 * Install, manage, and search for tools: bioinformatic programs/applications for user analysis
 * Manage data libraries: commonly used datasets that can be copied quickly by users
 * Create, delete, and manage users as well as: separate them into groups, give them roles, and set data limit quotas
 
-(for more information on other admin options, see: [/Admin/Interface](/Admin/Interface))
+(for more information on other admin options, see: [Admin/Interface](/src/Admin/Interface/index.md))
 
 
 <br />
----
+----
 
 
 ### Libraries
+
 Although it's easy enough for users to upload the data they need, Galaxy also provides a way for them to access
 **centralized data stores** called 'libraries'. These data can be accessed and copied (more quickly than upload) to
 users' histories where they can be used as input or reference data when running tools.
@@ -503,6 +524,7 @@ that we can save some space and use a central location on the filesystem.
 
 
 #### Example data
+
 Let's drop back to the terminal quickly to see the data we'll use for the rest of this tutorial:
 ```bash
 $ ls -l /data/galaxy
@@ -529,15 +551,17 @@ files can be downloaded here:
 
 
 #### library_import_dir
+
 To import this directory directly, Galaxy needs to know where to look. To do that, we:
 1. Open `universe_wsgi.ini` in an editor.
 2. Search for, uncomment, and change `#library_import_dir = None` to `library_import_dir = /data/galaxy`
-3. [Restart the server](#restarting-the-server)
+3. [Restart the server](/src/Events/GMODSummerSchool2014/index.md#restarting-the-server)
 
 Now Galaxy can import whole subdirectories of `/data` and their files easily.
 
 
 #### A data library for raw isolate reads
+
 Back in the browser, go to the admin page and on the left click: 'Manage data libraries':
 1. A page title 'Data Libraries' will appear in the main panel. Click the 'Create new data library' at the top right.
 2. A form will appear to allow naming and description of the library. For this example, only change the name to
@@ -560,10 +584,11 @@ the files in that directory.
 
 
 <br />
----
+----
 
 
 ### Tools
+
 One important thing that only administrators can (and should!) do is install the tools necessary for their users to
 perform analyses.
 
@@ -579,7 +604,7 @@ parameters with help and explanation.
 See also: [Adding Tools from a Tool Shed](/src/Admin/Tools/AddToolFromToolShedTutorial/index.md)
 
 Programs and their dependencies will be installed to the directory setting `tool_dependency_dir` in your
-`universe_wsgi.ini` file (which we set [here](#the-tool_dependency_dir)). They can also be invoked on the command line
+`universe_wsgi.ini` file (which we set [here](/src/Events/GMODSummerSchool2014/index.md#the-tool_dependency_dir)). They can also be invoked on the command line
 from there (or added to your PATH). For example, if we have installed bwa, we could use that Galaxy tool installation
 from the command-line to index a yeast fasta:
 ```hightlight bash
@@ -588,6 +613,7 @@ from the command-line to index a yeast fasta:
 
 
 #### Tool Sheds
+
 Tool sheds are another type of Galaxy server that allow collections of tools. The Galaxy team provides access to two of
 their Tool shed servers 'out of the box' to every Galaxy installation: The Main Galaxy Tool Shed and the Test Galaxy
 Tool Shed. Other public servers may run their own tool sheds and serve domain specific tools and wrappers they've
@@ -600,6 +626,7 @@ See also the comprehensive documentation on Tool Sheds here: [ToolShed](/src/Too
 
 
 #### Installing a tool from a Tool Shed
+
 Let's look for and install some tools from the Main Galaxy Tool Shed. There are two ways to find tools you're looking
 for: A.) browse all the available tools and B.) search for specific tools. Let's browse first:
 1. Go to the admin page if you're not already there.
@@ -654,15 +681,16 @@ Again, see also: [Adding Tools from a Tool Shed](/src/Admin/Tools/AddToolFromToo
 
 
 <br />
----
+----
 
 #### Exercise: building a QC pipeline
+
 Often it falls to a site administrator to do the initial, basic QC for new data. We'll now install some more tools to
 do that and try them out on some isolate data from a library. Also, it's best to automate this process as
 much as possible so we'll convert this trial run (if it worked) into a workflow (AKA pipeline) that will reduce this
 process to a two click operation.
 
-Using the procedure in [#installing-a-tool-from-a-tool-shed](#installing-a-tool-from-a-tool-shed), search for and install the following tools:
+Using the procedure in [Installing a tool from a Tool Shed](/src/Events/GMODSummerSchool2014/index.md#installing-a-tool-from-a-tool-shed), search for and install the following tools:
 1. `fastq_paired_end_joiner`:
   * search with the tool name 'fastq joiner'
   * The owner is 'devteam' and
@@ -683,8 +711,8 @@ Using the tools above, we'll:
 * re-split them into two files
 * run fastqc on each of those files
 
-
 ##### 1. Copy isolate data
+
 When the tools are installed, in the top menu, click: 'Shared Data', then 'Data Libraries (Beta)'. This is the new
 user interface for libraries and allows users to quickly import data from libraries into their histories.
 1. Click 'isolates-raw'
@@ -697,8 +725,8 @@ user interface for libraries and allows users to quickly import data from librar
 8. You should see both of the files you imported in the current history panel on the right hand side of the screen
   and both should be green.
 
-
 ##### (Aside: Histories)
+
 Histories can be thought of as workspaces, workbenches, or current directories. They will contain all the output files
 from a user's tool analysis. A user can have multiple histories but only one will be their current history. When tools
 are executed on some input data (like our read datasets we imported), they create jobs. The status of a job (queued,
@@ -718,6 +746,7 @@ top right of the history panel.
 
 
 ##### 2. Join the paired-end read files
+
 Now, we'll run the paired end joiner tool on the two read files we imported:
 1. In the left hand tool menu, click 'NGS: QC and manipulation'
 2. Scroll down to 'FASTQ joiner on paired end reads' and click that link.
@@ -730,8 +759,8 @@ Now, we'll run the paired end joiner tool on the two read files we imported:
 7. A new, yellow (or grey) dataset will appear in the current history panel 'FastQ joiner on data 1 and data 2'. This
   indicates the tool is running. If we wait it will eventually (and hopefully) turn green to indicate that it's done.
 
-
 ##### 3. Filter the joined reads
+
 Next, we'll filter that joined dataset by quality. This time, we'll search for the 'Filter fastq' tool using the tool
 menu's search bar:
 1. In the tool menu, click the search bar that currently says: 'search tools' enter `filter fastq`. Note how the
@@ -749,13 +778,13 @@ Notes on tool searching:
   the output dataset.
 4. Click 'Execute' and wait for the job to finish and the dataset's color to turn green.
 
-
 ##### 4. Re-split the joined, filtered file
+
 1. Using the tool menu, find 'fastq splitter', choose '4: Filter FASTQ on data 3' for 'FASTQ reads', execute, and
   wait for the job and (two output) datasets to finish.
 
-
 ##### 5. Re-split the joined, filtered file
+
 Next, use FastQC to get quality reports on each of the split, filtered files:
 1. Search for 'FastQC' in the tool panel, and execute using '5: FASTQ splitter on data 4' for 'Short read data from
   your current history'
@@ -768,12 +797,12 @@ dataset is still queued or running* you can run a tool and start a job with it. 
 the job creating the input dataset is finished to begin the next.
 3. Wait for both FastQC jobs to finish.
 
-
 <br />
----
+----
 
 
 ### Workflows
+
 When a series of tools and the parameters used to run them have been found to successfully answer a question for one
 subject (or do other housekeeping like the QC we just performed), they can be saved to workflows (roughly AKA pipelines)
 and then run by other users with other input files. This can standardize analysis and make tedious procedures easier to
@@ -781,13 +810,14 @@ repeat over many subjects.
 
 
 #### Manually creating and editing workflows
+
 One way to create a workflow manually using the Workflow editor. See the following wiki pages for more information on
 that:
 * [Creating Workflows and Advanced Workflow Options](/src/Learn/AdvancedWorkflow/index.md)
 * [Create a Workflow from Scratch Screencast](http://screencast.g2.bx.psu.edu/flash/WorkflowFromScratch.html)
 
-
 #### Extracting a workflow from a history
+
 Another way is to export it from a history containing a successful analysis that you'd want to repeat
 with other input files (i.e. a prototype) like the QC we just did. Let's export our history into a workflow others can
 use on different isolates:
@@ -814,14 +844,15 @@ If you'd like to view the workflow in Galaxy's workflow editor:
   editor. Don't forget to save the final result using the gear icon at the top right of the center panel.
 
 
+
 If you'd like to have the workflow directly available to users in the tool menu:
 1. Click 'Workflow' in the top menu.
 2. Click 'Configure your workflow menu' at the bottom of the page. A new list should appear.
 3. Click the 'Show in menu' checkbox in the 'Basic fastq QC' row.
 4. Click 'Save' at the bottom of the page.
 
-
 #### Publishing a workflow
+
 Workflows created by users (including admin users) are by default not available to other users. They must be published
 first. Let's publish the workflow so that others can use it:
 1. Click 'Workflow' from the top menu. The list (currently only one) workflows appears.
@@ -845,6 +876,7 @@ pages created and edited from within Galaxy). See how in the
 
 
 #### Workflow notes
+
 * It's possible to change parameters when running workflows. For example, a user running our QC workflow could
   choose to filter at the phred score of 40 and not 35.
 * Output and intermediate datasets created by a workflow can be re-named automatically.
@@ -858,6 +890,7 @@ Again, see [Creating Workflows and Advanced Workflow Options](/src/Learn/Advance
 
 
 #### Testing our QC workflow
+
 Let's run our workflow to test it (we'll use the same data):
 1. From the home page, open the history options menu, and click 'Copy datasets'. The center panel will show an
   interface allowing you to copy selected datasets.
@@ -882,13 +915,15 @@ You're history should now be populated by all the datasets that will be produced
 jobs you ran originally by hand will now be run automatically on the input datasets.
 
 <br />
----
+----
 
 
 ## More Resources
+
 The following are great places to start when trouble shooting or planning an expansion of your new server:
 
 ### Galaxy
+
 1. A [custom Google search](http://galaxyproject.org/search/usegalaxy/) is available here to search all things Galaxy
   including: this wiki, mailing lists, our biostar site, Galaxy's code documentation, and even the data on our Main
   public server.
@@ -896,15 +931,15 @@ The following are great places to start when trouble shooting or planning an exp
   [Biostars](http://www.biostars.org) site.
 3. Our [Trello board](https://trello.com/b/75c1kASa/galaxy-development), which can be used to track our development and allows you to vote on our priorities.
 4. A Wiki page for all support resources is here: [Support](https://wiki.galaxyproject.org/Support).
- 
-
 
 ### Unix System Administration
+
 1. [Serverfault](http://serverfault.com/) is a Q&A site for systems administration.
 2. [The Debian System Administrator's Handbook](http://debian-handbook.info/browse/stable/) is a comprehensive guide
   to (one flavor) or Unix sysadmin.
 
-
 ### Advanced Configuration for Production Scale Galaxy Servers
+
 1. [Running Galaxy in a production environment](/src/Admin/Config/Performance/ProductionServer/index.md)
 2. Nate Coraor's excellent page for the BioIT workshop on [Running a Local Galaxy Instance](/src/Events/BioITWorld2014/W14/index.md)
+

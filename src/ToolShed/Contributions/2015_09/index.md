@@ -6,7 +6,7 @@ title: September 2015 Tool Shed Contributions
 
 <div class='right'></div>
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=200 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=200 /></a></div>
 
 Tools contributed to the Galaxy Project Tool Shed in September 2015.
 
@@ -34,7 +34,6 @@ In no particular order:
 
 * [bamhash](https://toolshed.g2.bx.psu.edu/view/bgruening/bamhash): planemo upload for repository https://github.com/bgruening/galaxytools/tree/master/tools/bamhash c Hash BAM and FASTQ files to verify data integrity For each pair of reads in a BAM or FASTQ file we compute a hash value composed of the readname, whether it is first or last in pair, sequence and quality value. All the hash values are summed up so the result is independent of the ordering within the files. The result can be compared to verify that the pair of FASTQ files contain the same read information as the aligned BAM file.
 
-
 * *From [gandres](https://toolshed.g2.bx.psu.edu/view/gandres):*
   * [sniplay_workflow](https://toolshed.g2.bx.psu.edu/view/gandres/sniplay_workflow): SNiPlay3 workflow 
 
@@ -43,7 +42,6 @@ In no particular order:
 
 * *From [mvdbeek](https://toolshed.g2.bx.psu.edu/view/mvdbeek):*
   * [concatenate_multiple_datasets](https://toolshed.g2.bx.psu.edu/view/mvdbeek/concatenate_multiple_datasets): planemo upload for repository https://github.com/ARTbio/tools-artbio/tree/master/tools/concatenate_multiple_datasets  Concatenate multiple datasets tail-to-head. Modification of the concatenate wrapper that comes with galaxy to replace the repeat section with multiple="True". Concatenate multiple datasets tail-to-head. Modification of the concatenate wrapper that comes with galaxy to replace the repeat section with multiple="True". Can reduce dataset collections to a single output file.
-
 
 * *From [gkumar09](https://toolshed.g2.bx.psu.edu/view/gkumar09):*
   * [trinity_rnaseq_protocol](https://toolshed.g2.bx.psu.edu/view/gkumar09/trinity_rnaseq_protocol): De novo transcript sequence reconstruction from RNA-seq using the Trinity platform for reference generation and analysis De novo transcript sequence reconstruction from RNA-seq using the Trinity platform for reference generation and analysis
@@ -60,11 +58,9 @@ In no particular order:
       Repository-Maintainer: Alexander Vowinkel<br />
       Repository-Development: https://github.com/kaktus42/galaxytools
 
-
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [deseq2](https://toolshed.g2.bx.psu.edu/view/iuc/deseq2): planemo upload for repository https://github.com/galaxyproject/tools-iuc/tree/master/tools/deseq2  Differential gene expression analysis based on the negative binomial distribution Estimate variance-mean dependence in count data from high-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution
       http://www.bioconductor.org/packages/release/bioc/html/DESeq2.html
-
 
 * *From [nate](https://toolshed.g2.bx.psu.edu/view/nate):*
   * [trinity_psc](https://toolshed.g2.bx.psu.edu/view/nate/trinity_psc): Trinity for large shared memory systems at the Pittsburgh Supercomputing Center This repository provides a modified version of the Trinity wrapper from Brian Haas, as used on the Galaxy public server at usegalaxy.org. It relies on versions of Trinity and other dependencies available through the modules system on the large shared memory systems (Blacklight, Greenfield, Bridges) at the Pittsburgh Supercomputing Center. This is not designed to be a generally consumable version of the Trinity tool but may be useful as a reference.
@@ -87,7 +83,6 @@ In no particular order:
 * *From [tiagoantao](https://toolshed.g2.bx.psu.edu/view/tiagoantao):*
   * [package_raxml_8_2_3](https://toolshed.g2.bx.psu.edu/view/tiagoantao/package_raxml_8_2_3): RAxML 8.2.3 RAxML version 8.2.3 - Phylogenetic inference
   * [package_python_3_5](https://toolshed.g2.bx.psu.edu/view/tiagoantao/package_python_3_5): Contains a tool dependency definition that downloads and compiles Python 3.5 Provides Python 3.5 inside Galaxy. This is based on the existing 3.4 definition upgraded to 3.5
-
 
 * *From [takadonet](https://toolshed.g2.bx.psu.edu/view/takadonet):*
   * [package_tbl2asn_24_3](https://toolshed.g2.bx.psu.edu/view/takadonet/package_tbl2asn_24_3): Contains a tool dependency definition that downloads the binary version 23.7 of tbl2asn. tbl2asn is an automated bulk submission program 
@@ -112,3 +107,4 @@ In no particular order:
   * [tmhmm_and_signalp](https://toolshed.g2.bx.psu.edu/view/peterjc/tmhmm_and_signalp): Suite v0.2.8, record Promoter 2 version + misc internal updates
   * [tmhmm_and_signalp](https://toolshed.g2.bx.psu.edu/view/peterjc/tmhmm_and_signalp): Suite v0.2.8, record Promoter 2 version + misc internal updates
   * [tmhmm_and_signalp](https://toolshed.g2.bx.psu.edu/view/peterjc/tmhmm_and_signalp): Suite v0.2.8, record Promoter 2 version + misc internal updates
+

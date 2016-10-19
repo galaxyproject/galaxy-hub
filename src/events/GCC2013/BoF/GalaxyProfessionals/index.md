@@ -1,14 +1,14 @@
 ---
 title: Galaxy Professionals
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
-PLACEHOLDER_INCLUDE(/Events/GCC2013/BoF/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/BoF/LinkBox/index.md)
 
-<div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
+<div class='left'><a href='/src/Events/GCC2013/BoF/index.md'><img src="/src/Images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 
 This page describes the **Galaxy Professionals** [Birds of a Feather](/src/Events/GCC2013/BoF/index.md) meetup proposed for [GCC2013](/src/Events/GCC2013/index.md). 
 
@@ -28,9 +28,11 @@ Ross will update these notes when he finishes travelling. For now:
 1. #5 The concept of testing, accreditation and maintenance of professional Galaxy related skills and capacities was briefly discussed. This is a very complex area but one worthy of attention in the longer term as the pool of providers becomes larger and more unruly. The GF probably represents an appropriate vehicle for the definition and certification of professional standards and for providing accreditation and certification of training services. 
 
 ## Origins
+
 This BoF (perhaps Birds of Prey) session is proposed because the Galaxy ecosystem is undergoing very rapid growth. Galaxy deployments in high throughput laboratories are becoming increasingly common and are usually sustained by professional IT and systems staff, many of whom have had little or no previous exposure. Although the Galaxy Team dedicate a great deal of effort to capacity building, tutorials and training, it seems highly likely that there will be opportunities for organising and delivering professional training and contract or fee-for-service Galaxy skills. Skilled Galaxy wranglers are a relatively rare commodity and there are no known competent suppliers of Galaxy skills for groups wishing to purchase them and no easy way for potential purchasers to be assured that the effort they are purchasing is appropriately skilled. This may represent an opportunity worth exploring. More importantly, even if we don't do it, plenty of other folks certainly will.
 
 ## Goals
+
 The goal of this BoF is deliberately vague, since it's not clear whether there will be enough interested GCC2013 delegates to make it worth while. If we do meet it could be to discuss how best we might take advantage of the coming growth to develop sustainable and ethical commercial models for delivering Galaxy services, professional training and capacity building to those willing to pay for them. In particular, we will probably want to:
 
 * learn who else is not opposed to the idea
@@ -46,9 +48,9 @@ The [time and location](/src/Events/GCC2013/BoF/index.md#bof-schedule) for this 
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [ross DOT lazarus AT gmail DOT com](Ross Lazarus).
+If you are interested, please add your name below and/or send an email to [mailto:ross DOT lazarus AT gmail DOT com](Ross Lazarus).
 
-* [Ross Lazarus](/RossLazarus)
+* [Ross Lazarus](/src/RossLazarus/index.md)
 * Mo Heydarian
 * Srinivas Maddhi
 * [Daniel Blankenberg](/src/Dan/index.md)
@@ -56,4 +58,4 @@ If you are interested, please add your name below and/or send an email to [ross 
 
 ## Questions?
 
-Send them to [ross DOT lazarus AT gmail DOT com](Ross Lazarus).
+Send them to [mailto:ross DOT lazarus AT gmail DOT com](Ross Lazarus).

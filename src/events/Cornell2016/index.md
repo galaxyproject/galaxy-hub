@@ -1,7 +1,7 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://bti.cornell.edu/'><img src='/Images/Logos/BTILogo.png' alt='Boyce Thompson Institute' width="263" /></a> &nbsp;&nbsp; <a href='http://cornell.edu/'><img src='/Images/Logos/CornellLogoSmall.gif' alt='Cornell University' width="263" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://bti.cornell.edu/'><img src="/src/Images/Logos/BTILogo.png" alt="Boyce Thompson Institute" width="263" /></a> &nbsp;&nbsp; <a href='http://cornell.edu/'><img src="/src/Images/Logos/CornellLogoSmall.gif" alt="Cornell University" width="263" /></a> </td>
   </tr>
 </table>
 
@@ -27,6 +27,7 @@ Cornell University
 Registration is free and open to any member of the Boyce Thompson Institute and the Cornell research community. Space is available on a first-come, first served basis.
 
 ## Audience
+
 Are you a life scientist who needs to do complex analysis on large datasets?
 
 Galaxy is an open, web-based platform for data intensive life science research that enables non-bioinformaticians to create, run, tune, and share their own bioinformatic analyses.
@@ -89,12 +90,12 @@ No programming or Linux command line experience is required.
 
 
 <div class='right'><br />
-<a href='http://www.nih.gov/'><img src='/Images/Logos/NIHwithTagline.png' alt='National Institutes of Health (NIH)' width="220" /></a><br /><br />
-<div class='right'><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' width="120" /></a></div></div>
+<a href='http://www.nih.gov/'><img src="/src/Images/Logos/NIHwithTagline.png" alt="National Institutes of Health (NIH)" width="220" /></a><br /><br />
+<div class='right'><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a></div></div>
 
 ## Support
 
-This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) research grant award, the [Boyce Thompson Institute|](http://bti.cornell.edu/), [Cornell University|](http://cornell.edu/), and the [National Institutes of Health (NIH)](http://www.nih.gov/).
+This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) research grant award, the [Boyce Thompson Institute](http://bti.cornell.edu/), [Cornell University](http://cornell.edu/), and the [National Institutes of Health (NIH)](http://www.nih.gov/).
 
 ## Slides
 
@@ -106,4 +107,4 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Questions?
 
-Contact [outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).

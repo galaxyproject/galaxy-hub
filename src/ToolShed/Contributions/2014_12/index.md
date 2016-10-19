@@ -1,12 +1,13 @@
 ---
 autotoc: true
-title: December, ,,  2014 Galaxy Tool Shed Contributions
+title: December, 2014 Galaxy Tool Shed Contributions
 ---
 <div class='right'></div>
 <br />
 
 <br />
 # About the Tool Shed
+
 [http://usegalaxy.org/toolshed](http://usegalaxy.org/toolshed) <br />
 [Wiki](/src/ToolShed/index.md) <br />
 [All monthly summaries](/src/ToolShed/Contributions/index.md)
@@ -63,6 +64,7 @@ title: December, ,,  2014 Galaxy Tool Shed Contributions
   * [microsat_ngs_profiling_suite_trfm](https://toolshed.g2.bx.psu.edu/view/arkarachai-fungtammasan/microsat_ngs_profiling_suite_trfm): Uploaded all dependency for microsattelite_ngs package and microsattelite_ngs itself all dependency for microsattelite_ngs package and microsattelite_ngs itself
 
 ## Workflow
+
 * *From [bgruening](https://toolshed.g2.bx.psu.edu/view/bgruening):*
   * [chemicaltoolbox_library_hole_filling_workflow](https://toolshed.g2.bx.psu.edu/view/bgruening/chemicaltoolbox_library_hole_filling_workflow): Given one library, it extends all molecules by similar molecules of an other library and thus fill gaps in an automatic manner. This workflow is part of case study demonstrating the capability of the chemicaltoolbox. For further information please have a look at the chemicaltoolbox: https://github.com/bgruening/galaxytools/tree/master/chemicaltoolbox
     * Repository-Maintainer: Bj&ouml;rn Gr&uuml;ning
@@ -104,6 +106,7 @@ title: December, ,,  2014 Galaxy Tool Shed Contributions
   * [package_tbl2asn_23_7](https://toolshed.g2.bx.psu.edu/view/takadonet/package_tbl2asn_23_7): tool dependency definition that downloads the binary version 23.7 of tbl2asn. tbl2asn is an automated bulk submission program. tbl2asn is a program that automates the submission of sequence records to !GenBank.  It uses many of the same functions as Sequin, but is driven entirely by data files, and records need no additional manual editing before submission.  Entire genomes, consisting of many chromosomes with feature annotation, can be processed in seconds using this method. 
     * Repository-Maintainer:Philip Mabon
   * [package_minced_0_1_6](https://toolshed.g2.bx.psu.edu/view/takadonet/package_minced_0_1_6): tool dependency definition that downloads version 0.1.6 of minced, a CRISPR finder.  MinCED is a program to find Clustered Regularly Interspaced Short Palindromic
+
 Repeats (CRISPRs) in full genomes or environmental datasets such as metagenomes, in which sequence size can be anywhere from 100 to 800 bp. MinCED runs from the command-line and was derived from CRT (http://www.room220.com/crt/):  Charles Bland *et al*., CRISPR Recognition Tool (CRT): a tool for automatic  detection of clustered regularly interspaced palindromic repeats, BMC Bioinformatics 8, no. 1 (2007): 209.
 * Repository-Maintainer: Philip Mabon
 * [package_barrnap_0_5](https://toolshed.g2.bx.psu.edu/view/takadonet/package_barrnap_0_5): tool dependency definition that downloads and compiles version 0.4 of the barrnap. Barrnap predicts the location of 5S, 16S and 23S ribosomal RNA genes in Bacterial genome sequ It takes FASTA DNA sequence as input, and write GFF3 as output. https://github.com/Victorian-Bioinformatics-Consortium/barrnap
@@ -123,7 +126,6 @@ Repeats (CRISPRs) in full genomes or environmental datasets such as metagenomes,
   * [package_picard_122](https://toolshed.g2.bx.psu.edu/view/devteam/package_picard_122): Picard 1.122 package definition This picard package dependency is retrieved directly from https://github.com/broadinstitute/picard/releases
 
 * [package_fastqc_0_11_2](https://toolshed.g2.bx.psu.edu/view/devteam/package_fastqc_0_11_2): GH fastqc v 0.11.2 fastqc v 0.11.2
-
 
 ## Select Updates
 
@@ -155,13 +157,12 @@ Repeats (CRISPRs) in full genomes or environmental datasets such as metagenomes,
   * [sspace](https://toolshed.g2.bx.psu.edu/view/crs4/sspace): Update Orione citation. Update dependency to SSPACE Basic v2.1 . Add <citations>.
   * [prokka](https://toolshed.g2.bx.psu.edu/view/crs4/prokka): Use <stdio> because prokka writes some warnings on stderr. Update Orione citation. Update Prokka citation. Support Prokka 1.10. Upgrade dependencies to package_minced_0_1_6, package_barrnap_0_5 and package_tbl2asn_23_7. Added --proteins option. Add <citations>.
 
-
-
 ### Packages and Dependencies
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
   * [package_galaxy_ops_1_0_0](https://toolshed.g2.bx.psu.edu/view/devteam/package_galaxy_ops_1_0_0): Uploaded tool dependency definition that uses pip to install gops.
 
 # About Galaxy
-<div class='left'><a href='http://usegalaxy.org'><img src='/Images/Logos/GalaxyLogoHighRes.png' alt='UseGalaxy.org' width="200" /></a></div>
-**[About Galaxy](/src/Support/AboutGalaxy/index.md)** • [Galaxy Project](/src/GalaxyProject/index.md) • [/Admin](/src/Admin/index.md) • [/Issues](/src/Issues/index.md) • [Big Picture](/src/BigPicture/index.md) • [/Community](/src/Community/index.md) • [Get Galaxy](/src/Admin/GetGalaxy/index.md) • [/CloudMan](/src/CloudMan/index.md) • [Tool Shed](/src/ToolShed/index.md) • [/Develop](/src/Develop/index.md) • [News Briefs](/src/DevNewsBriefs/index.md) • [Servers](/src/PublicGalaxyServers/index.md) • [/Learn](/src/Learn/index.md) • [/Support](/src/Support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/src/News/index.md) • [Twitter](/src/GalaxyOnTwitter/index.md) • [/Events](/src/Events/index.md) • [/Teach](/src/Teach/index.md) • [/Issues](/src/Issues/index.md) • [Cite](/src/CitingGalaxy/index.md) • [Galaxy Team](/src/GalaxyTeam/index.md)
+
+<div class='left'><a href='http://usegalaxy.org'><img src="/src/Images/Logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
+**[About Galaxy](/src/Support/AboutGalaxy/index.md)** • [Galaxy Project](/src/GalaxyProject/index.md) • [Admin](/src/Admin/index.md) • [Issues](/src/Issues/index.md) • [Big Picture](/src/BigPicture/index.md) • [Community](/src/Community/index.md) • [Get Galaxy](/src/Admin/GetGalaxy/index.md) • [CloudMan](/src/CloudMan/index.md) • [Tool Shed](/src/ToolShed/index.md) • [Develop](/src/Develop/index.md) • [News Briefs](/src/DevNewsBriefs/index.md) • [Servers](/src/PublicGalaxyServers/index.md) • [Learn](/src/Learn/index.md) • [Support](/src/Support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/News/index.md) • [Twitter](/src/GalaxyOnTwitter/index.md) • [Events](/src/Events/index.md) • [Teach](/src/Teach/index.md) • [Issues](/src/Issues/index.md) • [Cite](/src/CitingGalaxy/index.md) • [Galaxy Team](/src/GalaxyTeam/index.md)

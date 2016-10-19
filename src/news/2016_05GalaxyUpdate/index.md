@@ -1,12 +1,9 @@
----
-date: 2016-04-29T06:30:44Z
----
 <div class='newsItemHeader'>[May 2016 Galactic News](/src/News/2016_05GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/GalaxyUpdates/2016_05'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a><br />
+<a href='/src/GalaxyUpdates/2016_05/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=150 /></a><br />
 <br />
-<a href='/GalaxyUpdates/2016_05#gcc2016'><img src='/Images/Logos/GCC2016LogoTallBig.png' alt='GCC2016 News' width="150" /></a></div>
+<a href='/src/GalaxyUpdates/2016_05/index.md#gcc2016'><img src="/src/Images/Logos/GCC2016LogoTallBig.png" alt="GCC2016 News" width="150" /></a></div>
 
 
 Some highlights from the **[May Galaxy News](/src/GalaxyUpdates/2016_05/index.md)**
@@ -33,5 +30,6 @@ Don't miss those deadlines, and [see you in June](https://gcc2016.iu.edu/),
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-04-29</div>
 
 CategoryNews

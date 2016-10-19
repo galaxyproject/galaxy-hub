@@ -3,24 +3,24 @@ autotoc: true
 title: Galaxy Mailing Lists
 ---
 
-PLACEHOLDER_INCLUDE(/Support/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Support/LinkBox/index.md)
 <div class='right'></div>
 
 Mailing lists play a vital role in the Galaxy community:
 1. They are a key part of [Galaxy's overall support efforts](/src/Support/index.md).
 1. They complement the [Galaxy Biostar forum](/src/Support/Biostar/index.md), which is focused on questions about *using* Galaxy.
-1. They are a place where the community *[can ask and answer](#posting-a-question)* questions.
+1. They are a place where the community *[can ask and answer](/src/MailingLists/index.md#posting-a-question)* questions.
 1. They are a place for the discussion of open issues and best practices.
-1. They are also a *[searchable treasure trove of knowledge about Galaxy](#searching)*.  
+1. They are also a *[searchable treasure trove of knowledge about Galaxy](/src/MailingLists/index.md#searching)*.  
 1. Finally, they are a great way to learn what is going on in the Galaxy Community.  
 
-*See [Searching](#searching), [Subscribing](#subscribing-and-unsubscribing), and [Posting](#posting-a-question) below for more information.*
+*See [Searching](/src/MailingLists/index.md#searching), [Subscribing](/src/MailingLists/index.md#subscribing-and-unsubscribing), and [Posting](/src/MailingLists/index.md#posting-a-question) below for more information.*
 
 ## The lists
 
-PLACEHOLDER_INCLUDE(/MailingListDetail)
+PLACEHOLDER_INCLUDE(/src/MailingListDetail/index.md)
 
-<div class='right'><a href='http://galaxyproject.org/search/mailinglists/'><img src='/Images/Logos/GalaxyMailingListSearch.png' alt='Search all' width="150" /></a></div>
+<div class='right'><a href='http://galaxyproject.org/search/mailinglists/'><img src="/src/Images/Logos/GalaxyMailingListSearch.png" alt="Search all" width="150" /></a></div>
 
 ## Searching
 
@@ -66,7 +66,7 @@ You can search the lists at any of the archives above.  We recommend [Google Cus
 </table>
 
 
-<div class='right'><a href='http://galaxyproject.org/search/web/'><img src='/Images/Logos/GalaxyWebSearch.png' alt='Search all' width="150" /></a></div>
+<div class='right'><a href='http://galaxyproject.org/search/web/'><img src="/src/Images/Logos/GalaxyWebSearch.png" alt="Search all" width="150" /></a></div>
 
 Several other [searches](http://galaxyproject.org/search/) are also supported, including:
 * [UseGalaxy search](http://galaxyproject.org/search/usegalaxy) - Search for information about using Galaxy.
@@ -77,7 +77,8 @@ Several other [searches](http://galaxyproject.org/search/) are also supported, i
 
 
 ## Subscribing and Unsubscribing
-<div class='right'>![](/Images/Logos/MailmanLogoSmall.png)</div>
+
+<div class='right'>![](/src/Images/Logos/MailmanLogoSmall.png)</div>
 To subscribe or unsubscribe from a list, click the link below and then follow the directions on the list page.  If you are unsubscribing you will need to use the same email address you subscribed with.
 
 <table>
@@ -126,11 +127,11 @@ To subscribe or unsubscribe from a list, click the link below and then follow th
 
 ## Posting a Question
 
-If you have a question, first search this wiki, the [FAQs](/src/Learn/FAQ/index.md), and the [mailing list archives](#searching) to see if your question has already been answered.
+If you have a question, first search this wiki, the [FAQs](/src/Learn/FAQ/index.md), and the [mailing list archives](/src/MailingLists/index.md#searching) to see if your question has already been answered.
 
 If it has not, then:
 
-1. [Subscribe](#subscribing-and-unsubscribing) to the appropriate list (either dev or user).  Postings from email addresses that are not on the list are held for moderation.  We try to check for moderated emails at least once a day.
+1. [Subscribe](/src/MailingLists/index.md#subscribing-and-unsubscribing) to the appropriate list (either dev or user).  Postings from email addresses that are not on the list are held for moderation.  We try to check for moderated emails at least once a day.
 1. Send your question to the list's email address.
 
 ### New to Mailing Lists?
@@ -143,7 +144,7 @@ Once you have mastered Rule 1, you can refine your mailing list chops by applyin
 
  **[Rule 2. State the question clearly](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s3)**<br /> 
  **[Rule 3. Learn the established customs of the list](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s4)**<br />
- **[Rule 4. Do not ask what has already been answered](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s5)**<br />&nbsp;&nbsp;&nbsp;Take advantage of the [mailing list search engines](#searching).<br />
+ **[Rule 4. Do not ask what has already been answered](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s5)**<br />&nbsp;&nbsp;&nbsp;Take advantage of the [mailing list search engines](/src/MailingLists/index.md#searching).<br />
  **[Rule 5. Always use a good title](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s6)**<br />
  **[Rule 6. Do your homework before posting](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s7)**<br />
  **[Rule 7. Proofread your post](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s8)**<br />
@@ -167,9 +168,10 @@ We have a significant amount of mailing list traffic. See the [Galaxy Project St
 
 ## See Also
 
-* **[/Support](/src/Support/index.md)**
+* **[Support](/src/Support/index.md)**
 * **[Custom Google Galaxy Web Search](http://galaxyproject.org/search/web)**
 * [Galaxy Issue Board](/src/Issues/index.md)
 * [Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)
-* [/News](/src/News/index.md)
+* [News](/src/News/index.md)
 * [Galaxy on Twitter](/src/GalaxyOnTwitter/index.md)
+

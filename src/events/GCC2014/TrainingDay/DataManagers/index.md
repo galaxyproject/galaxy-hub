@@ -1,14 +1,14 @@
 ---
-title: Tool Development from bright idea to toolshed , -,  Data Managers
+title: Tool Development from bright idea to toolshed - Data Managers
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 <br /><br />
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 
-<div class='right'> <a href='/Events/GCC2014/TrainingDay'><img src='/Images/Logos/GCC2014TrainingDayLogoSquare.png' alt='GCC2014 Training Day' width="100" /></a></div>
+<div class='right'> <a href='/src/Events/GCC2014/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
 
 This is the workshop page for the **[Tool Development from bright idea to toolshed - Data Managers](/src/Events/GCC2014/TrainingDay/index.md#tool-development-from-bright-idea-to-toolshed---data-managers)** Training Day session at GCC2014.
 
@@ -18,32 +18,38 @@ This workshop is offered on June 30, from 3:30 through 6pm, in Room 304 of Charl
 ## Presenters: Dan Blankenberg and Jim Johnson
 
 ## Summary
+
 Galaxy tools can require installed reference data in order to be used effectively. For example, Bowtie requires prebuilt indexes in order to efficiently map sequences to a genome.
 Data Managers enable a Galaxy administrator to add reference data to a Galaxy server via the admin webpage or through the Galaxy API.
 This session covers the tool and ToolShed requirements for using reference data within galaxy tools, and the design and development of tool data managers to install reference data on a Galaxy server.
 
 ## Helpful links
+
 * https://wiki.galaxyproject.org/Admin/Tools/DataManagers
 * https://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax
 * For a video overview on Data Managers, see this [presentation from GCC2013](http://vimeo.com/74265510).
 
 <div class='red'><div class='dashed'>
 ## Prerequisites
+
 * The virtual machine image for this workshop should be installed before you arrive. 
   * [How to VM](/src/Events/GCC2014/TrainingDay/VMs/index.md)
   * [Direct Download](http://depot.galaxyproject.org/GCC2014.ova)
 * A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.  
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop. 
 * Secure Shell (SSH) client software such as PuTTY for Windows, or the Terminal Application that comes with Mac OS. 
+
 </div></span>
 
 ## 15:30-15:40 Introduction
+
 * Introduce presenters and circulating tutors
 * Scope of class
 
 ## 15:40-16:00 Using Reference Data in Galaxy Tools
+
 * Graphical Overview of Interplay between Built-in Data and Galaxy Tools
-    <a href='/attachment:Admin/Tools/DataManagers/data_managers_figure_S1_schematic_overview.png'><img src='/Admin/Tools/DataManagers/data_managers_figure_S1_schematic_overview.png' alt='' width=600 /></a> 
+    <a href='/src/attachment:Admin/Tools/DataManagers/data_managers_figure_S1_schematic_overview.png/index.md'><img src="/src/Admin/Tools/DataManagers/data_managers_figure_S1_schematic_overview.png" alt="" width=600 /></a> 
 
 * Discussion of *.loc files
   * Used as a way to provide additional configuration details to a tool, without having to manually edit the actual tool XML file.
@@ -51,8 +57,8 @@ This session covers the tool and ToolShed requirements for using reference data 
   * Often used to store the path (location on disk) of reference data and indexes, along with appropriate metadata (display names, dbkeys/genome builds)
   * Need not end in the suffix of ".loc", although they commonly do by convention.
   * **Tab** delimited flat files, where each row is an entry in the table.
-  * Should **not be accessed directly** in a tool. The [Tool Data Tables](/Admin/Tools/Data Tables) abstraction layer should be used.
-      
+  * Should **not be accessed directly** in a tool. The [Tool Data Tables](/src/Admin/Tools/Data Tables/index.md) abstraction layer should be used.
+
 * Example of typical use of reference data in a Galaxy tool
   * search toolshed for bwa tool that uses reference data 
     * http://toolshed.g2.bx.psu.edu/view/devteam/bwa_wrappers
@@ -91,6 +97,7 @@ This session covers the tool and ToolShed requirements for using reference data 
 
       4. Find and click on "bwa_index.loc.sample" 
         ```
+
 #This is a sample file distributed with Galaxy that enables tools
 #to use a directory of BWA indexed sequences data files. You will need
 #to create these data files and then create a bwa_index.loc file
@@ -110,6 +117,7 @@ This session covers the tool and ToolShed requirements for using reference data 
 * start galaxy
     **open a terminal/shell and go to galaxy dir**
     ``` 
+
 cd /home/galaxy/Desktop/Data_Managers/galaxy/galaxy-central 
       ```
 
@@ -141,6 +149,7 @@ cd /home/galaxy/Desktop/Data_Managers/galaxy/galaxy-central
   * You can also use the preconfigured username: `admin@galaxyproject.org` password: `galaxy`
 * If you don't have an admin menu item on your tool bar, refresh your browser. If the issue persists: adjust universe_wsgi.ini by adding an admin_user email you will register with when you first log in - use commas ONLY - no spaces - to separate admin email addresses. Then restart galaxy.
   ```
+
 $ grep admin_users universe_wsgi.ini
 admin_users = jj@msi.umn.edu
    ```
@@ -192,8 +201,9 @@ admin_users = jj@msi.umn.edu
   * Again check the BWA tool for the new entry in your web browser
     * If the your new entry does not appear, did you remember to separate the fields with **TAB** characters
   * Align your FASTQ reads using the BWA tool to the newly added built-in reference genome data.
-     
+
 ## 16:00-16:10 Introduction to DataManagers
+
 * The problem
   * Administrator needed to know how to update each type of reference data
 * Data Managers to the rescue
@@ -208,7 +218,6 @@ admin_users = jj@msi.umn.edu
     * Interactively Run Data Managers through UI
     * Workflow compatible
     * Can Run via Galaxy API
-  
 
 * How this operates within galaxy
   * https://wiki.galaxyproject.org/Admin/Tools/DataManagers/HowTo/Define
@@ -218,9 +227,11 @@ admin_users = jj@msi.umn.edu
     * shed_data_manager_conf.xml
 
 ## 16:10-16:30 Install a DataManager from the ToolShed
+
 * https://wiki.galaxyproject.org/Admin/Tools/DataManagers/HowTo/Define
 * configure your galaxy server to use Data Managers
   * In your "universe_wsgi.ini" file these settings exist in the `[app:main]` section:
+
 ```python
 # Data manager configuration options
 enable_data_manager_user_view = True
@@ -262,6 +273,7 @@ galaxy_data_manager_data_path = tool-data
     2. You should see sacCer2 added to all_fasta
 
 ## 16:30-17:10 Create a DataManager
+
   **Create a *local* data manager to generate BWA indexes**
       https://wiki.galaxyproject.org/Admin/Tools/DataManagers/HowTo/Define
     We will need to:
@@ -274,10 +286,11 @@ galaxy_data_manager_data_path = tool-data
       http://toolshed.g2.bx.psu.edu/view/devteam/data_manager_bwa_index_builder
   * highlight extra requirements/tags/attributes vs regular galaxy tool
       == Data Manager Tool ==
-      A Data Manager Tool is a special class of [Galaxy Tool](/Admin/Tools/Adding Tools). Data Manager Tools do not appear in the standard Tool Panel and can only be accessed by a Galaxy Administrator. Additionally, the initial content of a Data Manager's output file contains a JSON dictionary with a listing of the Tool parameters and Job settings (i.e. they are a type of OutputParameterJSONTool, this is also available for DataSourceTools). There is no requirement for the underlying Data Manager tool to make use of these contents, but they are provided as a handy way to transfer all of the tool and job parameters without requiring a different command-line argument for each necessary piece of information.
+      A Data Manager Tool is a special class of [Galaxy Tool](/src/Admin/Tools/Adding Tools/index.md). Data Manager Tools do not appear in the standard Tool Panel and can only be accessed by a Galaxy Administrator. Additionally, the initial content of a Data Manager's output file contains a JSON dictionary with a listing of the Tool parameters and Job settings (i.e. they are a type of OutputParameterJSONTool, this is also available for DataSourceTools). There is no requirement for the underlying Data Manager tool to make use of these contents, but they are provided as a handy way to transfer all of the tool and job parameters without requiring a different command-line argument for each necessary piece of information.
       The primary difference between a standard Galaxy Tool and a Data Manager Tool is that the primary output dataset of a Data Manager Tool **must** be a file containing a JSON description of the new entries to add to a Tool Data Table. The on-disk content to be referenced by the Data Manager Tool, if any, is stored within the *extra_files_path* of the output dataset created by the tool.
     * The tool tag must have the attribute: **tool_type="manage_data"**
       ```xml
+
 <tool id="data_manager_fetch_genome_all_fasta" name="Reference Genome" version="0.0.1" tool_type="manage_data">
         ```
 
@@ -326,12 +339,13 @@ galaxy_data_manager_data_path = tool-data
 * did it work? 
   * *why not?*
 * add the missing bwa dependency
-  * see [/Admin/Config/ToolDependencies](/src/Admin/Config/ToolDependencies/index.md)
+  * see [Admin/Config/ToolDependencies](/src/Admin/Config/ToolDependencies/index.md)
     1. `mkdir /home/galaxy/Desktop/Data_Managers/galaxy/tool_dependencies/bwa/0.5.9/bin`
     2. `mv /home/galaxy/Desktop/Data_Managers/galaxy/galaxy-central/tool-data/sacCer1/bwa_index/sacCer1/bwa /home/galaxy/Desktop/Data_Managers/galaxy/tool_dependencies/bwa/0.5.9/bin/`
 * rerun the Data Manager and confirm that it is working
 
 ## 17:10-17:30 Put the DataManager in the Toolshed
+
 * review toolshed best practices
   * separate repository for required applications ( tool_dependencies.xml )
   * separate repository for required custom datatypes ( repository_dependencies.xml )    
@@ -377,6 +391,7 @@ galaxy_data_manager_data_path = tool-data
         * tool-data/bwa_index.loc.sample
         * tool_dependencies.xml
           * ```xml
+
 <?xml version="1.0"?>
 <tool_dependency>
     <package name="bwa" version="0.5.9">
@@ -394,9 +409,10 @@ galaxy_data_manager_data_path = tool-data
 * Install new data_manager into your galaxy from the toolshed
 * Build a bwa index for C. brenneri Feb. 2008 (WUGSC 6.0.1/caePb2)
 
-
 ## 17:30-18:00 Other Example data managers
+
 ### SnpEff - http://snpeff.sourceforge.net/SnpEff.html
+
     Snp``Eff is a variant annotation and effect prediction tool. It annotates and predicts the effects of variants on genes (such as amino acid changes).
 * **Key Points**
   * A Galaxy tool should guide the user to make valid parameter choices
@@ -413,6 +429,7 @@ galaxy_data_manager_data_path = tool-data
     * Every genome reference has file: snpEffectPredictor.bin 
     * Some genome references may include regulation, motif, and nextProt annotations
       ```
+
 # Prevotella bryantii B14 has only the genome reference
 $ ls tool-data/snpEff/data/ADWO01
 snpEffectPredictor.bin
@@ -436,6 +453,7 @@ regulation_CD4.bin      regulation_HMEC.bin     regulation_HepG2.bin    regulati
     1. Download on demand
       * great for tests, but a lot of overhead for large genomes, and no way to capture genome specific annotations
         ```xml
+
 <tool id="snpEff" name="SnpEff" version="3.6">
     <description>Variant effect and annotation</description>
     <inputs>
@@ -455,6 +473,7 @@ regulation_CD4.bin      regulation_HMEC.bin     regulation_HepG2.bin    regulati
   * most efficient for multiuser or multi history use
   * data_manager_snpEff_download.py inspects the downloaded genome files searching for added regulation and annotation files:
     ```highligt python
+
 def download_database(data_manager_dict, target_directory, jar_path,config,genome_version,organism):
     data_dir = target_directory
     (snpEff_dir,snpEff_jar) = os.path.split(jar_path)
@@ -507,6 +526,7 @@ def _add_data_table_entry( data_manager_dict, data_table, data_table_entry ):
 
 * Snp``Eff uses from_data_table to get options for params: regulation and extra_annotations
   ```xml
+
 <tool id="snpEff" name="SnpEff" version="3.6">
     <description>Variant effect and annotation</description>
     <inputs>
@@ -545,6 +565,7 @@ def _add_data_table_entry( data_manager_dict, data_table, data_table_entry ):
   * Snp``Eff Download tool allows users to proceed without the Galaxy admin
   * The genome specific options are captured in metadata of the custom dataytpe: "snpeffdb"
     ```xml
+
 $ cat snpeff_datatypes/datatypes_conf.xml 
 <?xml version="1.0"?>
 <datatypes>
@@ -620,6 +641,7 @@ class SnpEffDb( Text ):
 
 * Snp``Eff tool gets options for params: regulation and extra_annotations from the "snpeffdb" metadata: 
   ```xml
+
 <tool id="snpEff" name="SnpEff" version="3.6">
     <description>Variant effect and annotation</description>
     <inputs>
@@ -653,6 +675,7 @@ class SnpEffDb( Text ):
   * package_snpeff_3_6 - Installs the Snp``Eff application as a tool_dependency
       https://testtoolshed.g2.bx.psu.edu/view/jjohnson/package_snpeff_3_6
     ```
+
 $ find package_snpeff_3_6
 package_snpeff_3_6/tool_dependencies.xml
     ```
@@ -660,6 +683,7 @@ package_snpeff_3_6/tool_dependencies.xml
 * snpeff_datatypes - defines custom datatypes
     https://testtoolshed.g2.bx.psu.edu/view/jjohnson/snpeff_datatypes
   ```
+
 $ find snpeff_datatypes
 snpeff_datatypes/datatypes_conf.xml
 snpeff_datatypes/lib/galaxy/datatypes/snpeff.py
@@ -668,6 +692,7 @@ snpeff_datatypes/lib/galaxy/datatypes/snpeff.py
 * snpeff - Galaxy user tools
     https://testtoolshed.g2.bx.psu.edu/view/jjohnson/snpeff
   ```
+
 $ find snpeff
 snpeff/readme.rst
 snpeff/repository_dependencies.xml
@@ -686,6 +711,7 @@ snpeff/tool_dependencies.xml
 * data_manager_snpeff - manages Snp``Eff reference data
     https://testtoolshed.g2.bx.psu.edu/view/jjohnson/data_manager_snpeff
   ```
+
 $ find data_manager_snpeff
 data_manager_snpeff/data_manager/data_manager_snpEff_databases.py
 data_manager_snpeff/data_manager/data_manager_snpEff_databases.xml
@@ -702,4 +728,4 @@ data_manager_snpeff/tool_dependencies.xml
     ```
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Footer)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Footer/index.md)

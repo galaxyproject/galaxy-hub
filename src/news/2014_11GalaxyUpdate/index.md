@@ -1,10 +1,7 @@
----
-date: 2014-11-03T16:51:18Z
----
 <div class='newsItemHeader'>[November 2014 Galaxy Newsletter](/src/News/2014_11GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/GalaxyUpdates/2014_11'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a>
+<a href='/src/GalaxyUpdates/2014_11/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
 </div>
 
 A lot is happening in in the Galaxy in November, and a lot of good stuff happened in October too.  Take a look at the [November 2014 Galaxy Newsletter](/src/GalaxyUpdates/2014_11/index.md) for the complete story, but here are some highlights:
@@ -23,5 +20,6 @@ A lot is happening in in the Galaxy in November, and a lot of good stuff happene
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-11-03 </div>
 
 CategoryNews

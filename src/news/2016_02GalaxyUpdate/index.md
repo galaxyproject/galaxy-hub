@@ -1,10 +1,7 @@
----
-date: 2016-02-02T01:11:46Z
----
 <div class='newsItemHeader'>[February 2016 Galactic News](/src/News/2016_02GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/GalaxyUpdates/2016_01'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='It's a new year in the Galaxy!' width=150 /></a><br />
+<a href='/src/GalaxyUpdates/2016_01/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="It's a new year in the Galaxy!" width=150 /></a><br />
 </div>
 
 The **[February 2016 Galactic News](/src/GalaxyUpdates/2016_02/index.md)** is hot off the presses.  Here are some highlights:
@@ -33,5 +30,6 @@ Happy February!
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-02-02 </div>
 
 CategoryNews

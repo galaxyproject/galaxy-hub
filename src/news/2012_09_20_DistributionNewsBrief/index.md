@@ -1,10 +1,7 @@
----
-date: 2012-09-21T00:23:35Z
----
 <div class='newsItemHeader'>[Sept 20, 2012 Distribution & News Brief](/src/News/2012_09_20_DistributionNewsBrief/index.md)</div>
 
 **Complete [News Brief](/src/DevNewsBriefs/2012_09_20/index.md)**
-<div class='right'><a href='/DevNewsBriefs/2012_09_20'><img src='/Images/NewsGraphics/2012_09_20_toolfactory-small.png' alt='toolfactory' /></a></div>
+<div class='right'><a href='/src/DevNewsBriefs/2012_09_20/index.md'><img src="/src/Images/NewsGraphics/2012_09_20_toolfactory-small.png" alt="toolfactory" /></a></div>
 **Highlights:**
 * A new **[Galaxy tool](/src/DevNewsBriefs/2012_09_20/index.md#galaxy_tool_factory)** that writes other new Galaxy tools? The **[Tool Factory](http://www.youtube.com/watch?v=Nzzc9zHZJjE)** is in the *[Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)* (**toolfactory**). Try it **now** ->
 * **[Learn](/src/DevNewsBriefs/2012_09_20/index.md#multiple_tool_versions)** how to display multiple versions of a tool in the **Galaxy** tool panel. 
@@ -22,7 +19,8 @@ upgrade: $ hg pull -u -r da9d740fce31
 
 **Thanks for using Galaxy!**
 
-[Jennifer Jackson](/src/JenniferJackson/index.md) & the [/Galaxy Team](/Galaxy Team)
+[Jennifer Jackson](/src/JenniferJackson/index.md) & the [Galaxy Team](/src/Galaxy Team/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-09-21</div>
 
 CategoryNews

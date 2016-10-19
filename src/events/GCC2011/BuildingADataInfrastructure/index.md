@@ -23,6 +23,7 @@ This page summarizes the breakout session "Building a Data Infrastructure: Genom
 First, everyone needs data, so including some data management capabilities directly within Galaxy makes sense. Maybe it would make sense to make parts of it optional via configuration.
 
 ### Indexing of genomes
+
 * per tool, etc.
 * Indexing on-the-fly
   * allowing **reuse**
@@ -30,11 +31,13 @@ First, everyone needs data, so including some data management capabilities direc
     * by other users
 
 ### Automation
+
 * Easily add builds when creating/updating a Galaxy instance
   * data repository
   * fetch on demand
 
 ### Genome Build Metadata
+
 * **Transparency** is important to enable **reproducibility**
 * Info that users need to see
   * Differences between builds (hg19 to hg18, for example)

@@ -1,12 +1,12 @@
 ---
 autotoc: true
-title: Galaxy Training, :,  Resources
+title: Galaxy Training: Resources
 ---
-PLACEHOLDER_INCLUDE(/Teach/Header)
+PLACEHOLDER_INCLUDE(/src/Teach/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Teach/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Teach/LinkBox/index.md)
 
 There are many resources available that are helpful for teaching Galaxy.  This page attempts to summarize them in one location.  This page links to workshop materials for different topics.  That material can be in this wiki, inside Galaxy instances, or anywhere on the web.
 
@@ -27,7 +27,7 @@ Have you created or know of a resource that is useful for teaching with Galaxy? 
 
 To add a training resource to this directory, create a wiki page describing the resource. Here are the directions:
 
-1. [Login|&action=login](/src/Community/Deployments/index.md) to the wiki. If you don't have an account, you'll need to [create one|&action=newaccount](/src/Community/Deployments/index.md).
+1. [Login](/src/Community/Deployments/index.md) to the wiki. If you don't have an account, you'll need to [create one](/src/Community/Deployments/index.md).
 1. Pick a good descriptive, !CamelCase name for your deployment.  This will become part of the URL for the page describing your deployment.  Avoid embedded spaces as they make lousy URLs.
 1. Type the !CamelCase name in box below and hit the "Create" button.
     . PLACEHOLDER_NEW_PAGE(Teach/Resources/ResourceTemplate, "Create a teaching resource description page", Teach/Resource)

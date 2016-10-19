@@ -2,7 +2,7 @@
 title: [GVL Variant Detection Advanced Tutorial](https://docs.google.com/document/pub?id=1CuKkKylVDb03tnN7RSWl5EUzleetn0ctjmvaidPKLxM)
 ---
 <div class='center'>
-<a href='https://docs.google.com/document/pub?id=1CuKkKylVDb03tnN7RSWl5EUzleetn0ctjmvaidPKLxM'><img src='/PublicGalaxyServers/GenomicsVirtualLab300.png' alt='Variant Detection Advanced Tutorial' height="200" /></a>
+<a href='https://docs.google.com/document/pub?id=1CuKkKylVDb03tnN7RSWl5EUzleetn0ctjmvaidPKLxM'><img src="/src/PublicGalaxyServers/GenomicsVirtualLab300.png" alt="Variant Detection Advanced Tutorial" height="200" /></a>
 </div>
 
 
@@ -24,6 +24,7 @@ In this tutorial we compare the performance of three statistically-based variant
 * SAMtools: Mpileup
 * GATK: Unified Genotyper
 * FreeBayes
+
 Each of these tools takes as its input a BAM file of aligned reads and generates a list of likely variants in VCF format
 
 ## Needed Tools
@@ -41,4 +42,5 @@ Needed datasets exist in Shared Libraries on the server, and are also available 
 * [Variation Detection Advanced tutorial](https://docs.google.com/document/pub?id=1CuKkKylVDb03tnN7RSWl5EUzleetn0ctjmvaidPKLxM)
 * [Genomics Virtual Lab](https://genome.edu.au/wiki/GVL)
 * The [GVL Tutorials and Protocols page](https://genome.edu.au/wiki/Learn)
+
 CategoryTrainingResource

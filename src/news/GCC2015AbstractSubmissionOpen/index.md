@@ -1,9 +1,6 @@
----
-date: 2015-02-25T05:36:02Z
----
 <div class='newsItemHeader'>[GCC2015 Abstract Submission Open](/src/News/GCC2015AbstractSubmissionOpen/index.md)</div>
 
-<div class='left'><a href='http://gcc2015.tsl.ac.uk/Abstracts'><img src='/Images/Logos/GCC2015AbstractsOpen.png' alt='GCC2015 Oral and Poster Presentation abstract submission is now open' width="200" /></a></div>
+<div class='left'><a href='http://gcc2015.tsl.ac.uk/Abstracts'><img src="/src/Images/Logos/GCC2015AbstractsOpen.png" alt="GCC2015 Oral and Poster Presentation abstract submission is now open" width="200" /></a></div>
 
 **We are pleased to announce that [abstract submission for Oral and Poster Presentations](http://gcc2015.tsl.ac.uk/Abstracts) at the [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is now open.  **
 
@@ -16,5 +13,6 @@ date: 2015-02-25T05:36:02Z
 
 [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-02-25</div>
 
 CategoryNews

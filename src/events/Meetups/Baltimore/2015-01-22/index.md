@@ -1,7 +1,7 @@
 ---
-title: Jan 22, ,,  2015 Baltimore Area Galaxy Meetup , @,  Johns Hopkins
+title: Jan 22, 2015 Baltimore Area Galaxy Meetup @ Johns Hopkins
 ---
-<div class='center'>![Galaxy Baltimore Meetups](/src/events/Meetups/Baltimore/GalaxyBaltimoreMeetupLogo400.png)<br /><br />
+<div class='center'>![Galaxy Baltimore Meetups](/src/Events/Meetups/Baltimore/2015-01-22/GalaxyBaltimoreMeetupLogo400.png)<br /><br />
 <span style="font-size: larger;"> We are full! </span>
 </div>
 
@@ -31,9 +31,10 @@ Thanks and hope to see you there!
 * January 22, 2015 (Thursday)
 * 6PM to 7:30PM
 
-<div class='right'><a href='http://bit.ly/1xSyrt7'><img src='../BaltimoreAreaMeetupMapThumb.png' alt='Baltimore Area Galaxy Meetups Map' width="140" /></a></div>
+<div class='right'><a href='http://bit.ly/1xSyrt7'><img src="/src/Events/Meetups/Baltimore/2015-01-22/BaltimoreAreaMeetupMapThumb.png" alt="Baltimore Area Galaxy Meetups Map" width="140" /></a></div>
 
 ### Where
+
 [JHU Department of Biology, Mudd Hall, Undergraduate Teaching Laboratory (UTL) Rm 398, 3400 N Charles St.](http://bit.ly/1xSyrt7)
 
 ### RSVP
@@ -43,14 +44,17 @@ Thanks and hope to see you there!
 If you would like to be notified of future Baltimore Area Galaxy Meetups, please [subscribe to the Baltimore Area Galaxy mailing list](https://lists.galaxyproject.org/listinfo/baltimore).
 
 ### General agenda
+
 * Introductions
 * 10-15-20 minute informal presentation introducing the Galaxy project
 * Socialize
 
 #### What is Galaxy and why could it be interesting to me?
+
 Galaxy is a web-based, open source, data integration and analysis platform for life science research. The core pillars of the application are:
 * **Accessibility**: enable bench scientists to create bioinformatics analyses
 * **Reproducibility**: facilitate computational methods to be completely easily reproducible
 * **Transparency**: enable easy sharing and publishing of research data and analyses
+
 A sample instance of the application that is free to use is available at [usegalaxy.org](https://usegalaxy.org/).
 Although focused around Galaxy, this meetup is open to anyone interested in the above topics without their specific ties to the application.

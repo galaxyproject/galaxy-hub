@@ -1,14 +1,17 @@
-<div class='center'><a href='http://galaxy.psu.edu/gcc2011/'><img src='/Events/GCC2011Logo400.png' alt='http://galaxy.psu.edu/gcc2011/' /></a></div>
+<div class='center'><a href='http://galaxy.psu.edu/gcc2011/'><img src="/src/Events/GCC2011Logo400.png" alt="http://galaxy.psu.edu/gcc2011/" /></a></div>
 
 The 2011 Galaxy Community Conference was held 25-26 May, at the [Conference Centre De Werelt](http://www.congrescentrum.com/accommodations/de_werelt) in Lunteren, The Netherlands. The conference featured [two full days](http://galaxy.psu.edu/gcc2011/Programme.html) of presentations and discussion on extending [Galaxy](http://usegalaxy.org) to use new tools and data sources, deploying Galaxy locally, and best practices for using Galaxy to further your research. The event drew almost 150 participants from 19 countries on six continents.  The conference was co-organized and hosted by the [Netherlands Bioinformatics Centre (NBIC)](http://www.nbic.nl/).
 
 See the [conference page](http://galaxy.psu.edu/gcc2011/) for more details.
 
 ## Presentations
+
 Videotaping of the talks was generously supported by NBIC.  Links to each talk are belo.  All talks can be [viewed at Vimeo](http://vimeo.com/nbic/videos).
 
 ### Full Talks
+
 Listed in the order they were given:
+
 | Title |  Presenter  |  Slides  |  Video  | 
 | ----- | ---------- | ------- | ------ | 
 | *Introduction to Galaxy* |  Anton Nekrutenko, Penn State University  |  [Keynote|&do=get](ATTACHMENT_URLIntroductionSession.key), [PDF|&do=get](ATTACHMENT_URLIntroductionSession.pdf)  |  [Watch](http://vimeo.com/24868883)  | 
@@ -37,9 +40,11 @@ Listed in the order they were given:
 
 
 ### Lightning Talks
+
 [Watch all](http://vimeo.com/24868815).
 
 Listed in the order they were given:
+
 | Title |  Presenter  |  Slides  |  Video  | 
 | ----- | ---------- | ------- | ------ | 
 | *Blue Collar Bioinformatics NGS Pipeline* |  Roman Valls Guimerà, Science for Life Laboratory, Stockholm  |  [GitHub](http://brainstorm.github.com/scilifelab/slides/bcbb_pipeline/#1)  |  [Watch all](http://vimeo.com/24868815)<br />starts @ 0:01:40  | 
@@ -56,18 +61,20 @@ Listed in the order they were given:
 
 
 ## Breakouts
+
 Relocate the links from the current pages in Bitbucket to here.
 
 Each breakout has its own wiki page for notes. Someone in each group was selected to take notes, either directly on the wiki page, or just in a text editor (in which case, they will show up in June).
 
-* [Visualization and Visual Analytics](Visualization and Visual Analytics) ([Jeremy Goecks](/src/JeremyGoecks/index.md))
-* [Sample Tracking and Instrument Integration](Sample Tracking and Instrument Integration) (Greg Von Kuster)
+* [Visualization and Visual Analytics](/src/Events/GCC2011/Visualization and Visual Analytics/index.md) ([Jeremy Goecks](/src/JeremyGoecks/index.md))
+* [Sample Tracking and Instrument Integration](/src/Events/GCC2011/Sample Tracking and Instrument Integration/index.md) (Greg Von Kuster)
 * [[/Thinking Big: CloudMan, Grid, and Scalability|Thinking Big: !CloudMan, Grid, and Scalability]] (Enis Afgan)
-* [Workflows and API](Workflows and API) (Kanwei Li)
+* [Workflows and API](/src/Events/GCC2011/Workflows and API/index.md) (Kanwei Li)
 * [[/Complex Tools and Datasources: Parameters, Datatypes and Metadata|Complex Tools and Datasources: Parameters, Datatypes and Metadata]] (Dan Blankenberg)
 * [Building a Data Infrastructure: Genomic Data Management](/src/Events/GCC2011/BuildingADataInfrastructure/index.md) (Kelly Vincent)
 
 ## Pictures
+
 Many thanks to Rob Hooft for taking [these pictures](http://bit.ly/gcc-d1) on the first day of the meeting.
 
 ## Feedback
@@ -76,8 +83,9 @@ We received feedback from 73 participants.
 
 **Would you recommend future Galaxy meetings to others?**
 
+
 | Answer |  #  |  %  |  Comments  | 
-| ------ | -- | -- | --------- | 
+| ------ | --- | --- | --------- | 
 | **Yes** |  **72**  |  **99%**  |   | 
 | Yes, but ... |  1  |  1%  |  The one response was "there was a bit too much info from the field, and not enough from the core development team."  | 
 | No |  0  |  0  |   | 
@@ -240,3 +248,4 @@ And my two favorites:
 
 * Graag gedaan!
 * Avoid volcanic eruptions
+

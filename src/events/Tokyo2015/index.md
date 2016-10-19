@@ -3,7 +3,7 @@
 </div>
 <br /><br />
 <div class='center'>
-![](/WST2015.png)
+![](/src/Events/Tokyo2015/WST2015.png)
 <br /><br />
 <span style="font-size: larger;"> April 28, 2015 @ [RCAST, The University of Tokyo](http://www.rcast.u-tokyo.ac.jp/index_en.html) </span>
 </div>
@@ -87,7 +87,7 @@ The preparation hands-on is optional. To attend this hands-on, please bring your
   <tr>
     <th style=" background: #eee;"> 13:25-13:30</th>
     <td style=" text-align: left;"> </strong>Message from Galaxy Team<strong></td>
-    <td style=" text-align: left;"> <a href='/DaveClements'>Dave Clements</a> (Johns Hopkins University)</td>
+    <td style=" text-align: left;"> <a href='/src/DaveClements/index.md'>Dave Clements</a> (Johns Hopkins University)</td>
     <td style=" text-align: center;"> -</td>
     <td style=" text-align: center;"> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_TokyoWorkshop_Clements.pdf'>pdf</a> </td>
     <td style=" text-align: center;"> <a href='https://www.youtube.com/watch?v=0et9a7UATlM&index=4&list=PL0uaKHgcG00YHACvSNK2R4xeFRKHVsxk8'>video</a></td>
@@ -246,16 +246,20 @@ RCAST, The University of Tokyo [map](http://www.rcast.u-tokyo.ac.jp/home/access/
 Building No.4, 2F Conference Hall
 
 ### Registration
+
 Registration has been closed due to the hall capacity (100 max). Thank you!
 
 ### Twitter
+
 Please use [#usegalaxyjp](https://twitter.com/search?f=realtime&q=%23usegalaxyjp&src=typd)
 
 ### Organizer
+
 Ryota Yamanaka [1], Manami Kato [2], Tazro Ohta [3]<br />
 Email: yamanaka [at] genome.rcast.u-tokyo.ac.jp
 
 ### Support
+
 [1] Genome Science Division, RCAST, The University of Tokyo<br />
 [2] Laboratory for Disease Systems Modeling, IMS, RIKEN<br />
 [3] Database Center for Life Science, ROIS<br />
@@ -265,10 +269,10 @@ Also, supported by AWS in Education Research Grant award
 
 <table>
   <tr>
-    <td style=" text-align: center; width: 20%; border: none;"> <a href='http://www.rcast.u-tokyo.ac.jp/index_en.html'><img src='http://wiki.pitagora-galaxy.org/wiki/images/thumb/6/62/Logo_RCAST_trans.png/300px-Logo_RCAST_trans.png' alt='' width="150" /></a> </td>
-    <td style=" text-align: center; width: 20%; border: none;"> <a href='http://www.ims.riken.jp/english/'><img src='http://wiki.pitagora-galaxy.org/wiki/images/thumb/3/34/Logo_IMS_trans.png/300px-Logo_IMS_trans.png' alt='' width="150" /></a> </td>
-    <td style=" text-align: center; width: 20%; border: none;"> <a href='http://dbcls.rois.ac.jp/en/'><img src='http://wiki.pitagora-galaxy.org/wiki/images/thumb/6/61/Logo_DBCLS_trans.png/300px-Logo_DBCLS_trans.png' alt='' width="150" /></a> </td>
-    <td style=" text-align: center; width: 20%; border: none;"> <a href='https://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='' width="150" /></a> </td>
+    <td style=" text-align: center; width: 20%; border: none;"> <a href='http://www.rcast.u-tokyo.ac.jp/index_en.html'><img src="http://wiki.pitagora-galaxy.org/wiki/images/thumb/6/62/Logo_RCAST_trans.png/300px-Logo_RCAST_trans.png" alt="" width="150" /></a> </td>
+    <td style=" text-align: center; width: 20%; border: none;"> <a href='http://www.ims.riken.jp/english/'><img src="http://wiki.pitagora-galaxy.org/wiki/images/thumb/3/34/Logo_IMS_trans.png/300px-Logo_IMS_trans.png" alt="" width="150" /></a> </td>
+    <td style=" text-align: center; width: 20%; border: none;"> <a href='http://dbcls.rois.ac.jp/en/'><img src="http://wiki.pitagora-galaxy.org/wiki/images/thumb/6/61/Logo_DBCLS_trans.png/300px-Logo_DBCLS_trans.png" alt="" width="150" /></a> </td>
+    <td style=" text-align: center; width: 20%; border: none;"> <a href='https://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="" width="150" /></a> </td>
   </tr>
 </table>
 

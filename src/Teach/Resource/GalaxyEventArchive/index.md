@@ -2,7 +2,7 @@
 title: Galaxy Events Archive
 ---
 <div class='center'>
-<a href='/Events#past_events'><img src='/Images/Logos/galaxyLogoTrimmed.png' alt='Galaxy Events Archive' height="100" /></a>
+<a href='/src/Events/index.md#past_events'><img src="/src/Images/Logos/galaxyLogoTrimmed.png" alt="Galaxy Events Archive" height="100" /></a>
 </div>
 
 

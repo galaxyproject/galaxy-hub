@@ -1,6 +1,3 @@
----
-date: 2015-01-07T23:22:40Z
----
 <div class='newsItemHeader'>[Galaxy Project Grant Support](/src/News/GalaxyProjectGrantSupport/index.md)</div>
 
 Dear Galaxy users, developers, and friends of the project,
@@ -14,7 +11,7 @@ If you have found Galaxy to be useful, we would like to ask you to write a short
 Whether you are using the Galaxy web service, a local Galaxy installation, Galaxy on the cloud, or building your own applications on the Galaxy Platform, we hope to hear from you. All you need to do
 is:
 
-1. Send an email to [support-galaxy@bx.psu.edu](support-galaxy@bx.psu.edu)
+1. Send an email to [mailto:support-galaxy@bx.psu.edu](support-galaxy@bx.psu.edu)
 1. Write 2-3 sentences expressing your support for the project, and explaining how you use Galaxy and how it has helped you with your work.
 1. Include your name and institution.
 
@@ -24,5 +21,6 @@ Many thanks,
 
 [James Taylor](/src/JamesTaylor/index.md) and [Anton Nekrutenko](/src/anton/index.md), on behalf of the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-01-07</div>
 
 CategoryNews

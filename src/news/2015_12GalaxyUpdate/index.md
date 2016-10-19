@@ -1,10 +1,7 @@
----
-date: 2015-12-01T18:05:53Z
----
 <div class='newsItemHeader'>[December 2015 Galactic News](/src/News/2015_12GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/GalaxyUpdates/2015_12'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galactic News! December 2015 Edition' width=150 /></a><br />
+<a href='/src/GalaxyUpdates/2015_12/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="Galactic News! December 2015 Edition" width=150 /></a><br />
 </div>
 
 The **[December Galactic News](/src/GalaxyUpdates/2015_12/index.md)** is hot off the presses.
@@ -22,5 +19,6 @@ The **[December Galactic News](/src/GalaxyUpdates/2015_12/index.md)** is hot off
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-12-01 </div>
 
 CategoryNews

@@ -1,18 +1,18 @@
 ---
 title: Training Day Virtual Machine Images
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 <br /><br />
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 
-<div class='left'><a href='/Events/GCC2014/TrainingDay'><img src='/Images/Logos/GCC2014TDLogoSmall.png' alt='GCC2014 Training Day'  /></a></div>
+<div class='left'><a href='/src/Events/GCC2014/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2014TDLogoSmall.png" alt="GCC2014 Training Day"  /></a></div>
 
-(*Already know about virtual machines?  Then skip the intro and go straight to [What do I ABSOLUTELY need to do before I arrive?](#what-do-i-absolutely-need-to-do-before-i-arrive)*)
+(*Already know about virtual machines?  Then skip the intro and go straight to [What do I ABSOLUTELY need to do before I arrive?](/src/Events/GCC2014/TrainingDay/VMs/index.md#what-do-i-absolutely-need-to-do-before-i-arrive)*)
 
-Many of the [ Galaxy Deployment and Development Workshops](/src/events/GCC2014/TrainingDay/index.md#galaxy-deployment-and-development-workshops) use *virtual machine images* created specifically for Training Day.
+Many of the [ Galaxy Deployment and Development Workshops](/src/Events/GCC2014/TrainingDay/VMs//index.md#galaxy-deployment-and-development-workshops) use *virtual machine images* created specifically for Training Day.
 
 A virtual machine, or VM, enables you to run a another operating system on your computer, from within your existing operating system. For these workshops we will use VM images that are fully configured Linux instance on participants' laptops. This will allow you to switch between your native/host operating system (Windows, Mac OS, Linux) and the guest Linux operating system (where Galaxy is running), without having to shut either down.
 
@@ -30,7 +30,7 @@ You will need to do two things before Training Day starts. **These steps take so
 
 So, **please do these steps before you arrive.**
 
-<div class='right'><a href='https://www.virtualbox.org/wiki/Downloads'><img src='/Images/Logos/VirtualBox180.png' alt='Virtual Machine Images' width="120" /></a></div>
+<div class='right'><a href='https://www.virtualbox.org/wiki/Downloads'><img src="/src/Images/Logos/VirtualBox180.png" alt="Virtual Machine Images" width="120" /></a></div>
 
 ## 1. Install VirtualBox on your laptop
 
@@ -40,13 +40,14 @@ Download and install the appropriate package from [VirtualBox.org](https://www.v
 
 The VM(s) to download depend on the workshops you are attending:
 
+
 | Topic |  Links  |  Description  | 
 | ----- | ------ | ------------ | 
-| [Galaxy on a Cluster - User and Project Management](/src/events/GCC2014/TrainingDay/index.md#galaxy-on-a-cluster---user-and-project-management) |  [Instructions](http://www.usit.uio.no/om/organisasjon/uav/itf/intern-doc/galaxy/virtualbox-installation.html) <br /> [Download VM (from Oslo)](http://folk.uio.no/nikolaiv/GCC2014-Users-Projects.ova)  |  Customized Galaxy instance for this workshop.<div class='indent'>User: baltimore2014<br />Password: !UsersProjects2014</div>  | 
-| [Galaxy Installation and Administration](/src/events/GCC2014/TrainingDay/index.md#galaxy-installation-and-administration) |  [Download VM (from PA)](http://depot.galaxyproject.org/GCC2014.ova)  |  Has Galaxy source code distribution and Galaxy prerequisites, and running Galaxy and Galaxy Tool Shed instances.<div class='indent'>User: galaxy<br />Password: galaxy  | 
-| [Galaxy Automation: Using the API](/src/events/GCC2014/TrainingDay/index.md#galaxy-automation-using-the-api) | 
-| [Tool Development from bright idea to ToolShed - designing a Galaxy Tool](/src/events/GCC2014/TrainingDay/index.md#tool-development-from-bright-idea-to-toolshed---designing-a-galaxy-tool) | 
-| [Tool Development from bright idea to ToolShed - Data Managers](/src/events/GCC2014/TrainingDay/index.md#tool-development-from-bright-idea-to-toolshed---data-managers) | 
+| [Galaxy on a Cluster - User and Project Management](/src/Events/GCC2014/TrainingDay/VMs//index.md#galaxy-on-a-cluster---user-and-project-management) |  [Instructions](http://www.usit.uio.no/om/organisasjon/uav/itf/intern-doc/galaxy/virtualbox-installation.html) <br /> [Download VM (from Oslo)](http://folk.uio.no/nikolaiv/GCC2014-Users-Projects.ova)  |  Customized Galaxy instance for this workshop.<div class='indent'>User: baltimore2014<br />Password: !UsersProjects2014</div>  | 
+| [Galaxy Installation and Administration](/src/Events/GCC2014/TrainingDay/VMs//index.md#galaxy-installation-and-administration) |  [Download VM (from PA)](http://depot.galaxyproject.org/GCC2014.ova)  |  Has Galaxy source code distribution and Galaxy prerequisites, and running Galaxy and Galaxy Tool Shed instances.<div class='indent'>User: galaxy<br />Password: galaxy  | 
+| [Galaxy Automation: Using the API](/src/Events/GCC2014/TrainingDay/VMs//index.md#galaxy-automation-using-the-api) | 
+| [Tool Development from bright idea to ToolShed - designing a Galaxy Tool](/src/Events/GCC2014/TrainingDay/VMs//index.md#tool-development-from-bright-idea-to-toolshed---designing-a-galaxy-tool) | 
+| [Tool Development from bright idea to ToolShed - Data Managers](/src/Events/GCC2014/TrainingDay/VMs//index.md#tool-development-from-bright-idea-to-toolshed---data-managers) | 
 
 ## 3. Import the VM into VirtualBox
 
@@ -58,4 +59,4 @@ The VM(s) to download depend on the workshops you are attending:
 The VM is now installed.
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Footer)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Footer/index.md)

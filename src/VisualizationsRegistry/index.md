@@ -9,7 +9,7 @@ The visualizations registry and plugin framework provides an easy way to create 
 any data.
 
 (For information on existing and built-in visualizations such as Trackster, please see:
-[/Learn/Visualization](/src/Learn/Visualization/index.md) and [/Visualization Setup](/Visualization Setup))
+[Learn/Visualization](/src/Learn/Visualization/index.md) and [Visualization Setup](/src/Visualization Setup/index.md))
 
 There are three main steps to creating a visualization:
 
@@ -18,7 +18,7 @@ There are three main steps to creating a visualization:
 3. Creating the code and markup for your visualization
 
 (For more examples of on how the visualizations registry can be used than are on this page, see
-[/VisualizationsRegistry/Cookbook](/src/VisualizationsRegistry/Cookbook/index.md).
+[VisualizationsRegistry/Cookbook](/src/VisualizationsRegistry/Cookbook/index.md).
 
 ## Enabling visualization plugins on your Galaxy installation
 
@@ -55,7 +55,7 @@ When testing to see if your new plugin has been loaded, it's useful to look for 
 are output around them.
 
 
----
+----
 ## Configuring your visualization plugin in the `visualization_plugins_directory`
 
 The second step to creating a new visualization plugin is to create the directories and (initial) files that the plugin
@@ -99,7 +99,7 @@ config/plugins/visualizations/
 We'll cover each of these elements.
 
 
----
+----
 ## The visualization configuration file
 
 The configuration file in your visualization's `config` directory allows you a number of options to control how and
@@ -159,6 +159,7 @@ source of visualization data.
 
 
 #### data_sources : getting visualization data into a link
+
 * Define when a visualization will apply and what sources of data it can use.
 * Help to serialize (in effect) that data source by defining how a link to it (and your visualization) will be created.
 * Allow you to send in optional data and settings to your visualization code.
@@ -215,6 +216,7 @@ This allows `param` definitions (the other end of the pipe) to parse `dataset_id
 
 
 #### params : getting link data into your code
+
 * Define when and how the information in a visualization's link is parsed into data usable by the visualization's code.
 
 In our example, we're attempting to visualize the data within a SAM dataset so we'll need to access the dataset from
@@ -244,10 +246,10 @@ Then, within `sam.mako`, we can access the ORM model of the `HistoryDatasetAssoc
 ```
 
 
-For more information on visualization configuration options see [/VisualizationsRegistry/Configuration](/src/VisualizationsRegistry/Configuration/index.md).
+For more information on visualization configuration options see [VisualizationsRegistry/Configuration](/src/VisualizationsRegistry/Configuration/index.md).
 
 
----
+----
 ## Creating the code and markup for your visualization
 
 The code for your visualization begins with a Mako template file.
@@ -295,7 +297,7 @@ For our example, let's say we want to just print the mapping quality for each re
     </ul>
 ```
 
-These are explained more fully at [/DataProviders](/src/DataProviders/index.md).
+These are explained more fully at [DataProviders](/src/DataProviders/index.md).
 
 
 #### Static files for your visualization
@@ -327,10 +329,10 @@ static directory:
 ```
 
 
-For more information on template or static code files see [/VisualizationsRegistry/Code](/src/VisualizationsRegistry/Code/index.md).
+For more information on template or static code files see [VisualizationsRegistry/Code](/src/VisualizationsRegistry/Code/index.md).
 
 
----
+----
 ## Further examples
 
-For more examples on how the visualizations registry can be used see [/VisualizationsRegistry/Cookbook](/src/VisualizationsRegistry/Cookbook/index.md).
+For more examples on how the visualizations registry can be used see [VisualizationsRegistry/Cookbook](/src/VisualizationsRegistry/Cookbook/index.md).

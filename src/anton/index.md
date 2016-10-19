@@ -1,5 +1,4 @@
-
-<div class='right'><a href='http://bmb.psu.edu/directory/aun1'><img src='/GalaxyTeam/anton.jpg' /></a></div>
+<div class='right'><a href='http://bmb.psu.edu/directory/aun1'><img src="/src/GalaxyTeam/anton.jpg" /></a></div>
 
 # Anton Nekrutenko
 
@@ -19,5 +18,5 @@ Associate Professor of [Biochemistry and Molecular Biology](http://bmb.psu.edu/)
 </table>
 
 
----
+----
 CategoryHomepage

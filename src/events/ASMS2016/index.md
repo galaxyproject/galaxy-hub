@@ -1,7 +1,7 @@
 <div class='title'>
 <table>
   <tr>
-    <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'><img src='/Images/Logos/ASMSLogo.png' alt='64th ASMS Conference on Mass Spectrometry and Allied Topics' /></a> </td>
+    <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'><img src="/src/Images/Logos/ASMSLogo.png" alt="64th ASMS Conference on Mass Spectrometry and Allied Topics" /></a> </td>
     <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'>64th ASMS Conference on Mass Spectrometry and Allied Topics</a><br /><br /> San Antonio, Texas, United States<br /><br />June 5-9, 2016 </td>
   </tr>
 </table>
@@ -88,7 +88,7 @@ Galaxy had a strong presence at the [2016 ASMS meeting](http://www.asms.org/conf
   <tr>
     <td style=" text-align: right;"> 5:45 </td>
     <td> Room 305 </td>
-    <td> <strong><a href='#workshop-14-galaxy-for-proteomics-data-analysis-an-interactive-demonstration'>Workshop 14: Galaxy for Proteomics Data Analysis: An Interactive Demonstration</a></strong> </td>
+    <td> <strong><a href='/src/Events/ASMS2016/index.md#workshop-14-galaxy-for-proteomics-data-analysis-an-interactive-demonstration'>Workshop 14: Galaxy for Proteomics Data Analysis: An Interactive Demonstration</a></strong> </td>
     <td> <a href='http://cbs.umn.edu/contacts/timothy-j-griffin'>Timothy Griffin</a> </td>
     <td> <a href='http://cbs.umn.edu/sites/cbs.umn.edu/files/public/downloads/Documentation%20for%20ASMS%202016%20Gakaxy-P%20Workshop.pdf'>Tutorial</a> </td>
   </tr>

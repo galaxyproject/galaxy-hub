@@ -2,19 +2,19 @@
 autotoc: true
 title: Lightning Talks
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
 <br /><br />
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 
 Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Tuesday](/src/Events/GCC2014/Program/index.md#day-1-main-meeting) and [Session 8 on Wednesday](/src/Events/GCC2014/Program/index.md#day-2-main-meeting).
 
-If you wish to give a lightning talk, please send a title and short abstract to [gcc2014-sci AT groups DOT galaxyproject DOT org](GCC2014 Scientific Committee), either 
-* any time before the start of [Session 2](/src/events/GCC2014/Program/index.md#day-1-main-meeting-july-1) (to be considered for Tuesday or Wednesday slots), or 
-* before [Session 6](/src/events/GCC2014/Program/index.md#day-2-main-meeting-july-2) (to be considered for Wednesday only).  
+If you wish to give a lightning talk, please send a title and short abstract to [mailto:gcc2014-sci AT groups DOT galaxyproject DOT org](GCC2014 Scientific Committee), either 
+* any time before the start of [Session 2](/src/Events/GCC2014/Lightning/Program/index.md#day-1-main-meeting-july-1) (to be considered for Tuesday or Wednesday slots), or 
+* before [Session 6](/src/Events/GCC2014/Lightning/Program/index.md#day-2-main-meeting-july-2) (to be considered for Wednesday only).  
 
 The slides for all lightning talks will be made available on the this page, and the talks may be videotaped and posted here as well.
 
@@ -223,7 +223,7 @@ Lightning talks are your opportunity to give an impassioned and enthralling talk
 
 ## Gratuitous Advice
 
-From [Ross Lazarus](/RossLazarus), the (possibly former) *Benevolent Lightning Session Moderator for Life*
+From [Ross Lazarus](/src/RossLazarus/index.md), the (possibly former) *Benevolent Lightning Session Moderator for Life*
 
 * Good lightning talks are well rehearsed and very, very focussed.  
 * Plan on talking to 5 or 6 slides 
@@ -248,4 +248,4 @@ Proposals will be solicited during the meeting.  If you wish to give a lightning
 
 A proposal consists, of a title, and a short description of the topic. 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Footer)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Footer/index.md)

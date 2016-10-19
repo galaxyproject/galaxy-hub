@@ -1,9 +1,6 @@
----
-date: 2012-08-29T22:48:23Z
----
 <div class='newsItemHeader'>[September 2012 Galaxy Update](/src/News/2012_09GalaxyUpdate/index.md)</div>
 
-<div class='right'><a href='/GalaxyUpdates/2012_09'><img src='/Images/Logos/GalaxyUpdate200.png' alt='September 2012 Galaxy Update' width=150 /></a></div>
+<div class='right'><a href='/src/GalaxyUpdates/2012_09/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="September 2012 Galaxy Update" width=150 /></a></div>
 
 The [September 2012 Galaxy Update is now available](/src/GalaxyUpdates/2012_09/index.md). 
 
@@ -22,5 +19,6 @@ If you have anything you would like to see in the October *[Galaxy Update](/src/
 
 [Dave Clements](/src/DaveClements/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-08-29 </div>
 
 CategoryNews

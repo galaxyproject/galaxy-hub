@@ -1,7 +1,7 @@
 ---
 title: [Galaxy Community UK (GCUK)](http://galaxy-community.org.uk/)
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
 
 
 
@@ -15,7 +15,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
  Contact:: Christian-dot-Schudoma-at-TSL-dot-ac-dot-uk
 </div>
 
-<div class='left'><a href='/Events/GCC2015/BoFs'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a></div>
+<div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
 This page describes the **[Galaxy UK Community (GCUK)](http://galaxy-community.org.uk/)** [Birds of a Feather](/src/Events/GCC2015/BoFs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 
@@ -34,7 +34,7 @@ Wednesday, 8th July, 18.00/6pm
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [christian.schudoma AT tsl DOT ac DOT uk](Christian Schudoma TSL).
+If you are interested, please add your name below and/or send an email to [mailto:christian.schudoma AT tsl DOT ac DOT uk](Christian Schudoma TSL).
 
 * Christian Schudoma
 * Nicola Soranzo
@@ -77,10 +77,9 @@ If you are interested, please add your name below and/or send an email to [chris
   * BEPSRC
   * NERC
 
-
 ## Call for Participation
 
 If you are interested in becoming active in [GCUK](http://galaxy-community.org.uk/) then please send an email to 
-[christian.schudoma AT tsl DOT ac DOT uk](Christian Schudoma TSL).
+[mailto:christian.schudoma AT tsl DOT ac DOT uk](Christian Schudoma TSL).
 
 CategoryBoF

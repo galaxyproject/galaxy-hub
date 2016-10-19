@@ -1,5 +1,5 @@
 ---
-title:  Swiss Galaxy Workshop, ,,  Wednesday, ,,  October 3rd, ,,  Bern 
+title:  Swiss Galaxy Workshop, Wednesday, October 3rd, Bern 
 ---
 <div class='center'>
 
@@ -8,6 +8,7 @@ title:  Swiss Galaxy Workshop, ,,  Wednesday, ,,  October 3rd, ,,  Bern
 
 
 ## Audience
+
 This workshop is aimed at Galaxy administrators and users alike. We also welcome participants who are using workflow management systems other than Galaxy and tool developers who are looking for such systems to offer their tools to a wider audience.
 
 We would like to discuss the status of the Galaxy project, new developments, interface to other systems, extensions and best practice in reproducible research.
@@ -16,6 +17,7 @@ The workshop is part of the [SyBIT Tech Day series](https://wiki.systemsx.ch/dis
 
 
 ## Schedule
+
 
 | Time |  Speaker  |  Title  |  Slides  | 
 | ---- | -------- | ------ | ------- | 
@@ -43,7 +45,8 @@ The workshop is part of the [SyBIT Tech Day series](https://wiki.systemsx.ch/dis
 
 
 ## Location
-<div class='right'><a href='http://map.search.ch/bern/hochschulstr.4'><img src='/BernMapThumb2.png' alt='Bern Hochschulstr. 4' /></a></div>
+
+<div class='right'><a href='http://map.search.ch/bern/hochschulstr.4'><img src="/src/Events/Switzerland2012/BernMapThumb2.png" alt="Bern Hochschulstr. 4" /></a></div>
 
 [Bern Hochschulstr. 4](http://map.search.ch/bern/hochschulstr.4)<br /> [Hauptgebaeude](http://www.bau.unibe.ch/plaene/hgexwiunis.htm) <br /> Room 331
 
@@ -51,18 +54,22 @@ Accessibility by public transport: it is a 5 minutes walk from the main train st
 
 <br />
 
-<div class='right'> <a href='https://wiki.systemsx.ch/display/SyBIT'><img src='/Images/Logos/SyBITLogo.png' alt='SyBIT' /></a>     <a href='http://www.systemsx.ch/'><img src='/Images/Logos/SystemsXchLogo.png' alt='SystemsX.ch' height="89" /></a> </div>
+<div class='right'> <a href='https://wiki.systemsx.ch/display/SyBIT'><img src="/src/Images/Logos/SyBITLogo.png" alt="SyBIT" /></a>     <a href='http://www.systemsx.ch/'><img src="/src/Images/Logos/SystemsXchLogo.png" alt="SystemsX.ch" height="89" /></a> </div>
 
 
 ## Support
+
 This workshop is generously supported by [SyBIT](https://wiki.systemsx.ch/display/SyBIT) / [SystemsX.ch](http://www.systemsx.ch/)
 
 
 ## Registration
+
 The workshop is full, and registration is closed. Please contact [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) in order to get informed in case places become available again.
 
 ## Links
+
 * [SyBIT Tech Day 2012 Oct 3](https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3)
 
 ## Questions?
+
 Contact [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md)

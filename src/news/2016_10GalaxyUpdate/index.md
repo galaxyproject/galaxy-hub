@@ -1,13 +1,10 @@
----
-date: 2016-10-03T15:10:48Z
----
 <div class='newsItemHeader'>[October 2016 Galactic News](/src/News/2016_10GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<div class='right'><a href='/GalaxyUpdates/2016_10'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=120 /></a></div><br />
-<a href='/GalaxyUpdates/2016_10#galaxy-admin-training-november-7-11-salt-lake-city-utah'><img src='/Images/Logos/AdminTraining2016-500.png' alt='Galaxy Project Admin Training' width="105" /></a>
-<a href='/GalaxyUpdates/2016_10#galaxy-australasia-meeting-game-2017-registration--abstract-submission-are-open'><img src='/Images/Logos/GAMeLogo200.png' alt='Galaxy Australasia Meeting 2017' width="105" /></a><br />
-<div class='right'><a href='/GalaxyUpdates/2016_10#swiss-german-galaxy-days'><img src='/Images/Logos/SG2016T.V2_logo.png' alt='2016 Swiss German Galaxy Tour' width="210" /></a></div>
+<div class='right'><a href='/src/GalaxyUpdates/2016_10/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=120 /></a></div><br />
+<a href='/src/GalaxyUpdates/2016_10/index.md#galaxy-admin-training-november-7-11-salt-lake-city-utah'><img src="/src/Images/Logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="105" /></a>
+<a href='/src/GalaxyUpdates/2016_10/index.md#galaxy-australasia-meeting-game-2017-registration--abstract-submission-are-open'><img src="/src/Images/Logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="105" /></a><br />
+<div class='right'><a href='/src/GalaxyUpdates/2016_10/index.md#swiss-german-galaxy-days'><img src="/src/Images/Logos/SG2016T.V2_logo.png" alt="2016 Swiss German Galaxy Tour" width="210" /></a></div>
 </div>
 
 The **[October Galaxy News](/src/GalaxyUpdates/2016_10/index.md)** is hot off the presses and **[upcoming events](/src/GalaxyUpdates/2016_10/index.md#events)** are prominent:
@@ -28,5 +25,6 @@ We hope to see you in Freiburg, Salt Lake, Melbourne, online, and around the wor
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-10-03</div>
 
 CategoryNews

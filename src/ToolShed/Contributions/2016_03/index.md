@@ -3,7 +3,7 @@ autotoc: true
 ---
 <div class='right'></div>
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=200 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=200 /></a></div>
 
 Tools contributed to the Galaxy Project Tool Shed in March 2016.
 
@@ -36,14 +36,11 @@ Tools contributed to the Galaxy Project Tool Shed in March 2016.
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [fasta_nucleotide_color_plot](https://toolshed.g2.bx.psu.edu/view/iuc/fasta_nucleotide_color_plot): Produces a graphical representation of FASTA data with each nucleotide represented by a selected color. 
 
-
 * *From [drosofff](https://toolshed.g2.bx.psu.edu/view/drosofff):*
   * [sam_to_fastq](https://toolshed.g2.bx.psu.edu/view/drosofff/sam_to_fastq):  extracts reads and their sequence quality from a SAM alignment file and returns a fastq file
 
-
 * *From [bgruening](https://toolshed.g2.bx.psu.edu/view/bgruening):*
   * [protease_prediction](https://toolshed.g2.bx.psu.edu/view/bgruening/protease_prediction):  This tool can learn the cleavage specificity of a given class of proteases. This tool can learn the cleavage specificity of a given class of protease. In a second step this can be used to predict proteases given a cleavage site. The method assumes that the candidate cleavage point is between the two amino acids adjacent to the central position.
-
 
 * *From [adefelicibus](https://toolshed.g2.bx.psu.edu/view/adefelicibus):*
   * [mirplant](https://toolshed.g2.bx.psu.edu/view/adefelicibus/mirplant): suite tools to mirplant2 Based on https://toolshed.g2.bx.psu.edu/view/big-tiandm/mirplant2/f5a2e8308836
@@ -92,7 +89,7 @@ Tools contributed to the Galaxy Project Tool Shed in March 2016.
   * Link to the workflow (for import into Galaxy): http://chewbacca.bi.up.ac.za:8080/u/nanette/w/back-end-workflow-2
   * Calculate the number of eQTLs per bin.
   * Calculate the number of genes per bin.
-     
+
 * [lookup](https://toolshed.g2.bx.psu.edu/view/nanettec/lookup): Lookup table for cM intervals ### This is the first tool in the eQTL backend pipeline: 
   * lookup, classification, frequency, sliding window frequency, hotspots, GO enrichment
   * Link to the workflow (for import into Galaxy): http://chewbacca.bi.up.ac.za:8080/u/nanette/w/back-end-workflow-2
@@ -134,10 +131,8 @@ Tools contributed to the Galaxy Project Tool Shed in March 2016.
 * *From [yhoogstrate](https://toolshed.g2.bx.psu.edu/view/yhoogstrate):*
   * [ega_download_streamer](https://toolshed.g2.bx.psu.edu/view/yhoogstrate/ega_download_streamer): European Genome-phenome Archive (EGA) download client Individual files or whole datasets may be downloaded from European Genome-phenome Archive (EGA) in a secure manner by first placing a download request and then downloading the file/s associated with the request. All files are automatically encrypted prior to streaming and must be decrypted using the streamer after download is complete. https://www.ebi.ac.uk/ega/about/your_EGA_account/download_streaming_client#about
 
-
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp):*
   * [uniprotxml_downloader](https://toolshed.g2.bx.psu.edu/view/galaxyp/uniprotxml_downloader): Download !UniProt proteome in XML format.  The Morpheus proteomics search engine uses the uniprotxml format.
-
 
 #### tool_dependency_definition
 
@@ -148,3 +143,4 @@ Tools contributed to the Galaxy Project Tool Shed in March 2016.
 * *From [dcorreia](https://toolshed.g2.bx.psu.edu/view/dcorreia):*
   * [package_newick_utilities_1_6](https://toolshed.g2.bx.psu.edu/view/dcorreia/package_newick_utilities_1_6): Imported from capsule None Newick utilities version 1.6 (without extra) dependency package 
   * [package_noisy_1_5_12](https://toolshed.g2.bx.psu.edu/view/dcorreia/package_noisy_1_5_12): Imported from capsule None Noisy version 1.5.12 dependency package 
+

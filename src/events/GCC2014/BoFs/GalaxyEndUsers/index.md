@@ -1,7 +1,7 @@
 ---
-title: Galaxy End, -, Users
+title: Galaxy End-Users
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
 <table>
   <tr>
@@ -18,12 +18,12 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
  Audience:: End-users or developers interested in what end-users have to say.
  When:: Monday, June 30, 6:15pm<br /> and <br />Tuesday, July 1, 12:15pm
  Where:: Multipurpose Room<br /> and <br /> East Room 304
- Contact:: [mheydar1 AT jhmi DOT edu](Mo Heydarian)
+ Contact:: [mailto:mheydar1 AT jhmi DOT edu](Mo Heydarian)
 </div>
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 
-<div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
+<div class='left'><a href='/src/Events/GCC2014/BoFs/index.md'><img src="/src/Images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
  
 This page describes the **Galaxy End-Users** [Birds of a Feather](/src/Events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
 
@@ -62,6 +62,7 @@ End-users of Galaxy who would like to share experiences (or listen to those of o
 * Some end users do their heavy computational work on Galaxy and visualizations on alternate programs due to: inability to customize charts/plots (like with R or even excel), inability to capture high resolution visualizations (can only take screenshots with Trackster), ETC (Add something here)
 
 ## Getting feedback from users
+
 * Users are more encouraged to provide feedback where there is a service contract in place.
 * Users are hesitant to report issues because many times we are not confident if the issue is a user error or problem in Galaxy. Users “bang our heads against a wall” trying to figure out the issue, because we don't want to look incompetent and don't want to blame a tool (or developer) for a user error. 
 * The core Galaxy team is working towards a means of collecting user information (tools used, job time, compute power used) that would allow users to “opt-in”. This information would go to the system administrators. 
@@ -72,10 +73,10 @@ End-users of Galaxy who would like to share experiences (or listen to those of o
   * Showing examples of correct input/output for tools could help users determine if the issue is a user issue of Galaxy issue. 
 
 ## Data management
+
 * "naming files is the worst problem in since labeling eppendorf tubes" … using batch submission mitigates this by naming files based on the input file name.
 * The core Galaxy team is working on a solution for naming/managing data files. 
 * University of Georgia has a mandatory one credit course on “data management” for all undergraduate students.
-
 
 ## Providing workflows/pipelines to the end user
 
@@ -84,12 +85,10 @@ End-users of Galaxy who would like to share experiences (or listen to those of o
 * Running NGS tools is trivial at some point, pipelines are needed for the back end analysis (on which the end user spends most of their time). 
 * UGA doesn't spend time on any tool unless there is demand for the user community. 
 
-
 ## Using Galaxy with Cloudman on Amazon Web Services
 
 * Scalable, semi-temporary use
 * Can implement tools from Tool Shed (more below)
-
 
 ## Tool Shed
 
@@ -138,6 +137,6 @@ End-users of Galaxy who would like to share experiences (or listen to those of o
 
 ## Questions?
 
-Send them to [mheydar1 AT jhmi DOT edu](Mo Heydarian).
+Send them to [mailto:mheydar1 AT jhmi DOT edu](Mo Heydarian).
 
 CategoryBoF

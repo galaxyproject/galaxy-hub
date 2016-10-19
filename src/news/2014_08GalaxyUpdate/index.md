@@ -1,10 +1,7 @@
----
-date: 2014-08-01T17:00:50Z
----
 <div class='newsItemHeader'>[August 2014 Galaxy News](/src/News/2014_08GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/GalaxyUpdates/2014_08'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a>
+<a href='/src/GalaxyUpdates/2014_08/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
 </div>
 
 The [August 2014 Galaxy Update Newsletter](/src/GalaxyUpdates/2014_08/index.md) is out.  Here's a preview of what's inside:
@@ -18,5 +15,6 @@ The [August 2014 Galaxy Update Newsletter](/src/GalaxyUpdates/2014_08/index.md) 
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-08-01 </div>
 
 CategoryNews

@@ -11,12 +11,12 @@ Instructor: [Dave Clements](/src/DaveClements/index.md)
 
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://biolchem.bs.jhmi.edu/'><img src='/Images/Logos/JohnsHopkinsBioChem.png' alt='Biological Chemistry @ Johns Hopkins'  /></a><br /><strong>Reddy and Sollner-Webb Labs</strong> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://biolchem.bs.jhmi.edu/'><img src="/src/Images/Logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins"  /></a><br /><strong>Reddy and Sollner-Webb Labs</strong> </td>
     <td style=" border: none; text-align: center; vertical-align: middle; width: 10%;"> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.hopkinsmedicine.org/geneticmedicine/'><img src='/Images/Logos/JohnsHopkinsIGM.png' alt='McKusick-Nathans Institute of Genetic Medicine'  /></a><br /><strong>Salzberg Lab</strong> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.hopkinsmedicine.org/geneticmedicine/'><img src="/src/Images/Logos/JohnsHopkinsIGM.png" alt="McKusick-Nathans Institute of Genetic Medicine"  /></a><br /><strong>Salzberg Lab</strong> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://jhmi.edu/'><img src='/Images/Logos/JohnsHopkins.png' alt='Johns Hopkins'  /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://jhmi.edu/'><img src="/src/Images/Logos/JohnsHopkins.png" alt="Johns Hopkins"  /></a> </td>
   </tr>
 </table>
 
@@ -30,6 +30,7 @@ Instructor: [Dave Clements](/src/DaveClements/index.md)
 Registration was *free, and open to anyone in the Johns Hopkins community*.  
 
 ## Audience
+
 Are you a biomedical researcher who needs to do complex analysis on large datasets?
 
 Galaxy is an open, web-based platform for data intensive biomedical research that enables non-bioinformaticians to create, run, tune, and share their own bioinfor-matic analyses.
@@ -95,7 +96,8 @@ The agenda for both days will be:
 
 
 ## Support
-<div class='right'><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a></div>
+
+<div class='right'><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [Department of Biological Chemistry @ Johns Hopkins](http://biolchem.bs.jhmi.edu/) and the [McKusick-Nathans Institute of Genetic Medicine](http://www.hopkinsmedicine.org/geneticmedicine)
 
@@ -105,13 +107,14 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 * [April 13](ATTACHMENT_URLDocuments/Presentations/2012JohnsHopkinsWorkshop0413.pdf)
 
 ## Workshop Evaluation
+
 * [Please provide feedback](https://docs.google.com/spreadsheet/viewform?formkey=dERkM2RSRUgtdHBnckFSS2U0YVd5bGc6MA#gid=0)!
 
 ## Flyer
 
-<div class='right'><a href='/attachment:JohnsHopkinsGalaxy2012.pdf'><img src='/JohnsHopkinsGalaxy2012Thumb.png' alt=''  /></a></div>
+<div class='right'><a href='/src/attachment:JohnsHopkinsGalaxy2012.pdf/index.md'><img src="/src/Events/JohnsHopkins2012/JohnsHopkinsGalaxy2012Thumb.png" alt=""  /></a></div>
 Please distribute to parts of Johns Hopkins that might be interested.  You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?
 
-Contact Mo Heydarian < [mheydar1 AT jhmi DOT edu](mheydar1 AT jhmi DOT edu) > or Galaxy Outreach < [outreach@galaxyproject.org](outreach@galaxyproject.org) >.
+Contact Mo Heydarian < [mailto:mheydar1 AT jhmi DOT edu](mheydar1 AT jhmi DOT edu) > or Galaxy Outreach < [mailto:outreach@galaxyproject.org](outreach@galaxyproject.org) >.

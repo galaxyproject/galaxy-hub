@@ -1,14 +1,11 @@
----
-date: 2015-10-01T05:31:10Z
----
 <div class='newsItemHeader'>[October 2015 Galactic News](/src/News/2015_10GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/GalaxyUpdates/2015_10'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galactic News! October 2015 Edition' width=170 /></a><br /><br />
-<a href='/GalaxyUpdates/2015_10#october-galaxyadmins-meetup'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup October 15' width="170" /></a><br />
-<a href='/GalaxyUpdates/2015_10#gcc2016-call-for-training-topic-nominations'><img src='/Events/GCC2016/GCC2016TrainingLogo400.png' alt='GCC2016 Training' width="80" /></a>
-<a href='/GalaxyUpdates/2015_10#upcoming-events'><img src='/Images/Logos/GalxyEventsCalThumb.png' alt='Galaxy Events Calendar' width="90" /></a><br />
-<a href='/GalaxyUpdates/2015_10#new-public-galaxy-servers'><img src='/PublicGalaxyServers/ABiMSToolsLogos.png' alt='ABiMS Tools Galaxy Server' width="170" /></a>
+<a href='/src/GalaxyUpdates/2015_10/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="Galactic News! October 2015 Edition" width=170 /></a><br /><br />
+<a href='/src/GalaxyUpdates/2015_10/index.md#october-galaxyadmins-meetup'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup October 15" width="170" /></a><br />
+<a href='/src/GalaxyUpdates/2015_10/index.md#gcc2016-call-for-training-topic-nominations'><img src="/src/Events/GCC2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="80" /></a>
+<a href='/src/GalaxyUpdates/2015_10/index.md#upcoming-events'><img src="/src/Images/Logos/GalxyEventsCalThumb.png" alt="Galaxy Events Calendar" width="90" /></a><br />
+<a href='/src/GalaxyUpdates/2015_10/index.md#new-public-galaxy-servers'><img src="/src/PublicGalaxyServers/ABiMSToolsLogos.png" alt="ABiMS Tools Galaxy Server" width="170" /></a>
 </div>
 
 The **[October Galactic News](/src/GalaxyUpdates/2015_10/index.md)** is hot off the presses.
@@ -31,5 +28,6 @@ The **[October Galactic News](/src/GalaxyUpdates/2015_10/index.md)** is hot off 
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-10-01 </div>
 
 CategoryNews

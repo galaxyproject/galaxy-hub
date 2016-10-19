@@ -1,15 +1,12 @@
----
-date: 2014-04-30T05:42:04Z
----
 <div class='newsItemHeader'>[May 2014 Galaxy News](/src/News/2014_05GalaxyUpdate/index.md)</div>
 
 <div class='left'>
-<a href='/GalaxyUpdates/2014_05'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<a href='/src/GalaxyUpdates/2014_05/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 <div class='right'>
-<a href='/GalaxyUpdates/2014_05#galaxy-biostar'><img src='/Images/Logos/GalaxyBiostar.png' alt='Galaxy Biostar' width="200" /></a><br /><br />
-<a href='/GalaxyUpdates/2014_05#early-registration-closes-may-23'><img src='/Images/Logos/GCC2014LogoWide200.png' alt='GCC2014: June 30 - July 2' width="200" /></a><br /><br />
-<a href='/GalaxyUpdates/2014_05#uk-may-2014-galaxy-tour'><img src='/Images/Logos/UKMay2014Tour.png' alt='UK May 2014 Galaxy Tour' width="105px" /></a> &nbsp;
-<a href='/GalaxyUpdates/2014_05#galaxy-hackathon-at-gcc2014'><img src='/Images/Logos/GCC2014HackLogoSquare.png' alt='GCC2014 Hackathon' width="84" /></a> 
+<a href='/src/GalaxyUpdates/2014_05/index.md#galaxy-biostar'><img src="/src/Images/Logos/GalaxyBiostar.png" alt="Galaxy Biostar" width="200" /></a><br /><br />
+<a href='/src/GalaxyUpdates/2014_05/index.md#early-registration-closes-may-23'><img src="/src/Images/Logos/GCC2014LogoWide200.png" alt="GCC2014: June 30 - July 2" width="200" /></a><br /><br />
+<a href='/src/GalaxyUpdates/2014_05/index.md#uk-may-2014-galaxy-tour'><img src="/src/Images/Logos/UKMay2014Tour.png" alt="UK May 2014 Galaxy Tour" width="105px" /></a> &nbsp;
+<a href='/src/GalaxyUpdates/2014_05/index.md#galaxy-hackathon-at-gcc2014'><img src="/src/Images/Logos/GCC2014HackLogoSquare.png" alt="GCC2014 Hackathon" width="84" /></a> 
 </div>
 
 The [May 2014 Galaxy Update Newsletter](/src/GalaxyUpdates/2014_05/index.md) is out!  There's a lot going on in the project and the community right now.  The big news in the past month is the move [from the Galaxy-User mailing list to Galaxy Biostar](/src/GalaxyUpdates/2014_05/index.md#galaxy-biostar) for user support.  This has been running for a week now, and has been very well received.  
@@ -22,5 +19,6 @@ As always, there are [new papers](/src/GalaxyUpdates/2014_05/index.md#new-papers
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-04-30</div>
 
 CategoryNews

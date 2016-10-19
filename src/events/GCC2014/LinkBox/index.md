@@ -1,6 +1,6 @@
 <div class='linkbox'>
 **[GCC2014](/src/Events/GCC2014/index.md)**
----
+----
 [Training](/src/Events/GCC2014/TrainingDay/index.md)<br />
 [Program](/src/Events/GCC2014/Program/index.md)<br />
 [Abstracts](/src/Events/GCC2014/Abstracts/index.md)<br />

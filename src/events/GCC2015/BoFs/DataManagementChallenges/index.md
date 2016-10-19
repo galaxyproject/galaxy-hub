@@ -1,7 +1,7 @@
 ---
 title: Data management challenges for larger Galaxy installations
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
 
 
 
@@ -12,10 +12,10 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
  Audience:: People using Galaxy to process large numbers of files
  When:: Wednesday, 8 July, 12:30 (Lunch)
  Where:: Franklin Room, JICCC
- Contact:: [langhorst@neb DOT com](Brad Langhorst)
+ Contact:: [mailto:langhorst@neb DOT com](Brad Langhorst)
 </div>
 
-<div class='left'><a href='/Events/GCC2015/BoFs'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a></div>
+<div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
 This page describes the **Data management challenges for larger galaxy installations** [Birds of a Feather](/src/Events/GCC2015/BoFs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 
@@ -33,7 +33,7 @@ Wednesday, 8 July, 12:30 (Lunch), in the Franklin Room, JICCC
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [langhorst@neb DOT com](Brad Langhorst), **or just show up.**
+If you are interested, please add your name below and/or send an email to [mailto:langhorst@neb DOT com](Brad Langhorst), **or just show up.**
 
 * Brad Langhorst
 * [Nate Coraor](/src/nate/index.md)
@@ -42,6 +42,6 @@ If you are interested, please add your name below and/or send an email to [langh
 
 ## Questions?
 
-Send them to [langhorst@neb DOT com](Brad Langhorst).
+Send them to [mailto:langhorst@neb DOT com](Brad Langhorst).
 
 CategoryBoF

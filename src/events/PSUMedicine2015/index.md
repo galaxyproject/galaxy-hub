@@ -2,7 +2,7 @@
 title: Introduction to Galaxy for Next Generation Sequencing Analysis
 ---
 <div class='center'>
-<a href='http://www.pennstatehershey.org/web/college'><img src='/Images/Logos/PSUMedicine.png' alt='Penn State University College of Medicine' width="400" /></a>
+<a href='http://www.pennstatehershey.org/web/college'><img src="/src/Images/Logos/PSUMedicine.png" alt="Penn State University College of Medicine" width="400" /></a>
 
 
 
@@ -72,7 +72,7 @@ This is a very much a hands-on workshop.  To fully participate, attendees need t
 
 <div class='right center'>
 <br /><br />
-<a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a>
+<a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a>
 </div>
 
 ## Support
@@ -89,4 +89,4 @@ This workshop is generously supported by the [Department of Biochemistry and Mol
 
 ## Questions?
 
-Contact [jcurry@hmc.psu.edu](Jill Curry) at Penn State or [outreach@galaxyproject.org](Galaxy Outreach).
+Contact [mailto:jcurry@hmc.psu.edu](Jill Curry) at Penn State or [mailto:outreach@galaxyproject.org](Galaxy Outreach).

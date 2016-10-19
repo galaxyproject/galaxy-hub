@@ -3,7 +3,7 @@ autotoc: true
 ---
 <div class='right'></div>
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=200 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=200 /></a></div>
 
 Tools contributed to the Galaxy Project Tool Shed in [August 2016](/src/GalaxyUpdates/2016_09/index.md).
 
@@ -50,7 +50,6 @@ Tools contributed to the Galaxy Project Tool Shed in [August 2016](/src/GalaxyUp
 * [trinity_filter_low_expr_transcripts](https://toolshed.g2.bx.psu.edu/view/iuc/trinity_filter_low_expr_transcripts): Filter low expression transcripts (from the Trinity tool suite) Trinity represents a method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data. https://github.com/trinityrnaseq/trinityrnaseq
 
 * [trinity_samples_qccheck](https://toolshed.g2.bx.psu.edu/view/iuc/trinity_samples_qccheck):  RNASeq samples quality check (from the Trinity tool suite) Trinity represents a method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data.  https://github.com/trinityrnaseq/trinityrnaseq
-
 
 * *From [kaymccoy](https://toolshed.g2.bx.psu.edu/view/kaymccoy):*
   * [calculate_fitnesses](https://toolshed.g2.bx.psu.edu/view/kaymccoy/calculate_fitnesses): of transposon insertion locations 
@@ -100,7 +99,6 @@ Tools contributed to the Galaxy Project Tool Shed in [August 2016](/src/GalaxyUp
 * *From [zeamxie](https://toolshed.g2.bx.psu.edu/view/zeamxie):*
   * [viewbs](https://toolshed.g2.bx.psu.edu/view/zeamxie/viewbs): Some description Some description
 
-
 * *From [rmarenco](https://toolshed.g2.bx.psu.edu/view/rmarenco):*
   * [multi_fasta_glimmer_hmm](https://toolshed.g2.bx.psu.edu/view/rmarenco/multi_fasta_glimmer_hmm):  GlimmerHMM is a gene finder based on a Generalized Hidden Markov Model (GHMM) 
 
@@ -112,8 +110,8 @@ Tools contributed to the Galaxy Project Tool Shed in [August 2016](/src/GalaxyUp
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [suite_trinity](https://toolshed.g2.bx.psu.edu/view/iuc/suite_trinity): Trinity tools to assemble transcript sequences from Illumina RNA-Seq data. Trinity represents a method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data. https://github.com/trinityrnaseq/trinityrnaseq
 
-
 #### tool_dependency_definition
 
 * *From [abretaud](https://toolshed.g2.bx.psu.edu/view/abretaud):*
   * [package_lordec_0_6](https://toolshed.g2.bx.psu.edu/view/abretaud/package_lordec_0_6): Lordec 0.6 package 
+

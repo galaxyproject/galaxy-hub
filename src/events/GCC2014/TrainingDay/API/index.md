@@ -1,14 +1,14 @@
 ---
-title: Galaxy Automation, :,  Using the API
+title: Galaxy Automation: Using the API
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 <br /><br />
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 
-<div class='right'> <a href='/Events/GCC2014/TrainingDay'><img src='/Images/Logos/GCC2014TrainingDayLogoSquare.png' alt='GCC2014 Training Day' width="100" /></a></div>
+<div class='right'> <a href='/src/Events/GCC2014/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
 
 
 [Slides](ATTACHMENT_URLThe Galaxy API (GCC2014 TD API).pdf)
@@ -25,3 +25,4 @@ Administrative Scripting Exercises:
 * [ATTACHMENT_URLrun_as.dataset_upload.py](ATTACHMENT_URLrun_as.dataset_upload.py)
 * [ATTACHMENT_URLscaffold_user.py](ATTACHMENT_URLscaffold_user.py)
 * [ATTACHMENT_URLtools.yaml](ATTACHMENT_URLtools.yaml)
+

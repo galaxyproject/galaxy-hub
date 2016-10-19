@@ -3,7 +3,7 @@ autotoc: true
 ---
 <div class='right'></div>
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=200 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=200 /></a></div>
 
 Tools contributed to the Galaxy Project Tool Shed in [April and May 2016](/src/GalaxyUpdates/2016_06/index.md).
 
@@ -24,7 +24,6 @@ Tools contributed to the Galaxy Project Tool Shed in [April and May 2016](/src/G
 
 * *From [engineson](https://toolshed.g2.bx.psu.edu/view/engineson):*
   * [multiqc](https://toolshed.g2.bx.psu.edu/view/engineson/multiqc): MultiQC searches a given directory for analysis logs and compiles a HTML report. It's a general use tool, perfect for summarising the output from numerous bioinformatics tools.
-
 
 * *From [alenail](https://toolshed.g2.bx.psu.edu/view/alenail):*
   * [map_to_known_genes](https://toolshed.g2.bx.psu.edu/view/alenail/map_to_known_genes): Map MACS Peaks to Known Genes 
@@ -81,7 +80,6 @@ Tools contributed to the Galaxy Project Tool Shed in [April and May 2016](/src/G
   * [idconvert](https://toolshed.g2.bx.psu.edu/view/galaxyp/idconvert): Convert mass spectrometry identification files on linux or MacOSX Proteowizard idconvert.    Convert mass spectrometry identification files: mzIdentML, protXML, pepXML.  http://proteowizard.sourceforge.net
   * [msconvert_win](https://toolshed.g2.bx.psu.edu/view/galaxyp/msconvert_win): msconvert. Convert and/or filter mass spectrometry files (including vendor formats) on Windows OS Proteowizard msconvert.   Convert and/or filter mass spectrometry files on a Windows OS.  This can contain vendor proprietary libraries for vendor file formats. A Windows admin needs to install proteowizard and vendor DLL. http://proteowizard.sourceforge.net
 
-
 * *From [mandorodriguez](https://toolshed.g2.bx.psu.edu/view/mandorodriguez):*
   * [endsid_gene_name_append](https://toolshed.g2.bx.psu.edu/view/mandorodriguez/endsid_gene_name_append): Adds the real Gene Name to a row with !EnsId identifiers using a file with a mapping. Takes in a file with gene expression data and a file that has a mapping of !EnsGene IDs to gene names and adds the real gene name to the row with the matching EnsID.
 
@@ -101,7 +99,6 @@ Tools contributed to the Galaxy Project Tool Shed in [April and May 2016](/src/G
 * [prinseq](https://toolshed.g2.bx.psu.edu/view/iuc/prinseq): PRINSEQ is a tool for easy and rapid quality control and data processing of metagenomic and metatranscriptomic datasets 
 * [tag_pileup_frequency](https://toolshed.g2.bx.psu.edu/view/iuc/tag_pileup_frequency): planemo upload for repository https://github.com/galaxyproject/tools-iuc/tree/master/tools/tag_pileup_frequency commit 4defaa3ff1c21e2ec39033bfe63ee69471104ede Contains a tool that generates a frequency pileup of the 5' ends of aligned reads in a BAM file relative to reference points in a BED file. Contains a tool that generates a frequency pileup of the 5' ends of aligned reads in a BAM file relative to reference points in a BED file.
 
-
 * *From [ulfschaefer](https://toolshed.g2.bx.psu.edu/view/ulfschaefer):*
   * [phephenix](https://toolshed.g2.bx.psu.edu/view/ulfschaefer/phephenix): Public Health England SNP calling Pipeline 
 
@@ -110,7 +107,6 @@ Tools contributed to the Galaxy Project Tool Shed in [April and May 2016](/src/G
 
 * *From [drosofff](https://toolshed.g2.bx.psu.edu/view/drosofff):*
   * [metavisitor_workflows](https://toolshed.g2.bx.psu.edu/view/drosofff/metavisitor_workflows): A collection of workflows using the Metavisitor tools This Tool Shed Repository contains a collection of workflows using the Metavisitor tools.
-
 
 * *From [urgi-team](https://toolshed.g2.bx.psu.edu/view/urgi-team):*
   * [workflow_teiso](https://toolshed.g2.bx.psu.edu/view/urgi-team/workflow_teiso): TEiso RNA_seq
@@ -158,7 +154,6 @@ Tools contributed to the Galaxy Project Tool Shed in [April and May 2016](/src/G
 
 * [gff_feature_colours](https://toolshed.g2.bx.psu.edu/view/portiahollyoak/gff_feature_colours): Adds assigned feature colours Takes unique features in 3rd column of GFF file, allows user to assign a colour to each and then adds colour to 9th column for visualisation in a genome browser.
 
-
 * *From [dereeper](https://toolshed.g2.bx.psu.edu/view/dereeper):*
   * [snmf](https://toolshed.g2.bx.psu.edu/view/dereeper/snmf): Fast and efficient program for estimating individual admixture coefficients Fast and efficient program for estimating individual admixture coefficients based on sparse non-negative matrix factorization and population genetics. 
 
@@ -204,3 +199,4 @@ Tools contributed to the Galaxy Project Tool Shed in [April and May 2016](/src/G
 * *From [dereeper](https://toolshed.g2.bx.psu.edu/view/dereeper):*
   * [package_plink_1_90](https://toolshed.g2.bx.psu.edu/view/dereeper/package_plink_1_90): package_plink_1_90 package_plink_1_90
   * [package_snmf_1_2](https://toolshed.g2.bx.psu.edu/view/dereeper/package_snmf_1_2): package_snmf_1_2 package_snmf_1_2
+

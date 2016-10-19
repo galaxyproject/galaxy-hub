@@ -1,7 +1,7 @@
 ---
 title: Galaxy Training Network
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
 
 
@@ -12,12 +12,12 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
  Audience:: Anyone interested in using Galaxy for bioinformatics and related learning and teaching.  People who need to support such activities.   
  When:: Tuesday, July 1, 5:45pm
  Where:: Multipurpose Room 324
- Contact:: [simon DOT gladman AT monash DOT edu](Simon Gladman), [alonie AT unimelb DOT edu DOT au](Andrew Lonie), [Teaching hub page](/src/Teach/index.md)
+ Contact:: [mailto:simon DOT gladman AT monash DOT edu](Simon Gladman), [mailto:alonie AT unimelb DOT edu DOT au](Andrew Lonie), [Teaching hub page](/src/Teach/index.md)
 </div>
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 
-<div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
+<div class='left'><a href='/src/Events/GCC2014/BoFs/index.md'><img src="/src/Images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
 
 This page describes the **[Galaxy Training Network](/src/Teach/GTN/index.md)** [Birds of a Feather](/src/Events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
 
@@ -77,11 +77,10 @@ Anyone interested in using Galaxy for bioinformatics and related learning and te
 * Video is tough: takes time, and then ages very quickly.
 * Galaxy Project videos are very popular, even the old ones.
 * Mayve have a vido directory on Vimeo?  Might be better to have the directoy on wiki.  Can link anywhere.
- 
 
 ## GTN Resources Directory
 
-<div class='right'><a href='/Teach/GTN'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="300" /></a></div>
+<div class='right'><a href='/src/Teach/GTN/index.md'><img src="/src/Images/Logos/GTNLogo600.png" alt="Galaxy Training Network" width="300" /></a></div>
 
 [This has been created](/src/Teach/Resources/index.md).  
 
@@ -94,7 +93,6 @@ Some aspirations for the resource directory:
 * Describe the cool result that participants will see at the end.
 * Any licensing Issues.
 * also suggested depositing a test workflow in the ToolShed: If this workflow runs on your server, then this workshop should also work on your server
-
 
 # Best Practices
 
@@ -114,7 +112,6 @@ The list below was created during this BoF.  A [published list of best practices
 
 * Having all materials be licensed under CC-BY makes things much easier.
 
-
 # Support for Trainers
 
 * Start a training mailing list.
@@ -125,7 +122,6 @@ The list below was created during this BoF.  A [published list of best practices
 Is it possible to have a persistent training server?  Some ideas:
 * Disable data importing.
 * Prominently state that all user data and accounts will be deleted at specific time intervals.
-
 
 # Misc
 
@@ -141,6 +137,5 @@ Is it possible to have a persistent training server?  Some ideas:
 * Push these best practices to the GTN Best Practices area.
   * [Done](/src/Teach/BestPractices/index.md)
 * Include a video training directory
-
 
 CategoryBoF

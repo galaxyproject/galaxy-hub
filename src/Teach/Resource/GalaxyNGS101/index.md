@@ -2,7 +2,7 @@
 title: [Galaxy NGS 101](/src/Learn/GalaxyNGS101/index.md)
 ---
 <div class='center'>
-<a href='https://vimeo.com/album/3456159'><img src='/Images/NGS101/NGS101PlaySlide.png' alt='Galaxy NGS 101 Videos' width="180" /></a>
+<a href='https://vimeo.com/album/3456159'><img src="/src/Images/NGS101/NGS101PlaySlide.png" alt="Galaxy NGS 101 Videos" width="180" /></a>
 </div>
 
 
@@ -44,6 +44,5 @@ There are also 4 new videos that provide an overview of different sequencing pla
 * [Ion Torrent](https://vimeo.com/album/3456159/video/121289100)
 * [PacBio](https://vimeo.com/album/3456159/video/121267426)
 * [454](https://vimeo.com/album/3456159/video/121286060)
-
 
 CategoryTrainingResource

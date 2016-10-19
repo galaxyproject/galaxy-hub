@@ -1,7 +1,7 @@
 ---
 autotoc: true
 ---
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Main Tool Shed' height="174" /></a> </div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a> </div>
 
 
 
@@ -89,3 +89,4 @@ The RESTful Galaxy API includes the following features that work with the Tool S
   * param changeset_revision (required): the changeset_revision of the `RepositoryMetadata` object associated with the Repository
 * POST **/api/tool_shed_repositories/reset_metadata_on_installed_repositories**
   Resets all metadata on all repositories installed into Galaxy in an orderly fashion where installed repositories of type TOOL_DEPENDENCY_DEFINITION are processed before installed repositories of type UNRESTRICTED..
+

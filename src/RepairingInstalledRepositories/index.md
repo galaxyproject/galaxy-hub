@@ -1,4 +1,4 @@
-<div class='center'><a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Main Tool Shed' height="174" /></a></div>
+<div class='center'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a></div>
 
 # Repairing installed tool shed repositories
 
@@ -15,17 +15,17 @@ python ./repair_tool_shed_repository.py --api <Galaxy admin API key> -l http://l
 
 For example, let's assume that at some point we installed the **chemicaltoolbox** repository into our Galaxy instance, but later we uninstalled one of it's repository dependencies, the **chemfp**repository.  Visiting the installed **chemicaltoolbox** repository's **Manage repository** page will display the following information.
 
-![](/manage_chemicaltoolbox.png)
+![](/src/RepairingInstalledRepositories/manage_chemicaltoolbox.png)
 
 Selecting the **Repair repository** option from the **Repository Actions** pop-up menu will display the following page.  Since dependencies may need to be installed in a specified order (see the [Defining repository dependencies](/src/DefiningRepositoryDependencies/index.md#repository_dependencies_defining_additional_required_repositories_and_repository_contents) page for details), the page displays the ordered list of repositories that will be inspected and repaired if necessary.
 
-![](/repair_chemicaltoolbox.png)
+![](/src/RepairingInstalledRepositories/repair_chemicaltoolbox.png)
 
 Clicking the **Repair** button on the page above will inspect each repository and it's tool dependencies, reset anything that is in error, and install everything in the specified order.  The following page will be displayed as the repository hierarchy is being repaired.
 
-![](/repaired_chemicaltoolbox.png)
+![](/src/RepairingInstalledRepositories/repaired_chemicaltoolbox.png)
 
 
 When the process is completed, visiting the **chemicaltoolbox** repository's **Manage repository** page will now show that none of it's dependencies are missing.
 
-![](/manage_repaired_chemicaltoolbox.png)
+![](/src/RepairingInstalledRepositories/manage_repaired_chemicaltoolbox.png)

@@ -2,25 +2,25 @@
 autotoc: true
 title: GCC2014 Program
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
 <br /><br />
 
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 <div class='right'><br />
 <div class='right'>**[Program (PDF)](ATTACHMENT_URLGCC2014Program.pdf)** &nbsp; </div>
 </div>
 
-The [2014 Galaxy Community Conference](/src/events/GCC2014/index.md) will start with a [Training Day](/src/events/GCC2014/TrainingDay/index.md) on June 30, followed by two full days of accepted talks, keynotes, [lightning talks](/src/events/GCC2014/Lightning/index.md), [poster sessions](/src/Events/GCC2014/Abstracts/index.md#poster-abstracts), [birds-of-a-feather sessions](/src/events/GCC2014/BoFs/index.md), and networking time.
+The [2014 Galaxy Community Conference](/src/Events/GCC2014/Program//index.md) will start with a [Training Day](/src/Events/GCC2014/Program/TrainingDay/index.md) on June 30, followed by two full days of accepted talks, keynotes, [lightning talks](/src/Events/GCC2014/Program/Lightning/index.md), [poster sessions](/src/Events/GCC2014/Abstracts/index.md#poster-abstracts), [birds-of-a-feather sessions](/src/Events/GCC2014/Program/BoFs/index.md), and networking time.
 
 As in past years, talks will cover a wide range of biology, bioinformatics, and informatics.  Talks will be grouped and scheduled in sessions focusing on particular topics.
 
 <br /><br />
 
-<div class='left'><br /><a href='/Events/GCC2014/TrainingDay'><img src='/Images/Logos/GCC2014TDLogoSmall.png' alt='GCC2014 Training Day' width="125" /></a></div>
+<div class='left'><br /><a href='/src/Events/GCC2014/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2014TDLogoSmall.png" alt="GCC2014 Training Day" width="125" /></a></div>
 
 # Day 0: Training Day, June 30
 

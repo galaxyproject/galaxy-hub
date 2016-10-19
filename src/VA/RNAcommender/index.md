@@ -2,7 +2,7 @@
 title: RNAcommender
 ---
 <div class='center'>
-<a href='http://rnacommender.disi.unitn.it/'><img src='/RNAcommenderLogo.png' alt='RNAcommender' height="200" /></a>
+<a href='http://rnacommender.disi.unitn.it/'><img src="/src/VA/RNAcommender/RNAcommenderLogo.png" alt="RNAcommender" height="200" /></a>
 </div>
 
 

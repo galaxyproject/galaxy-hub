@@ -2,7 +2,7 @@
 title: [DDBJ Read Annotation Pipeline](https://p.ddbj.nig.ac.jp/pipeline/Login.do)
 ---
 <div class='center'>
-<a href='https://p.ddbj.nig.ac.jp/pipeline/Login.do'><img src='/DDBJ-RAP-Banner.png' alt='DDBJ Read Annotation Pipeline'  /></a>
+<a href='https://p.ddbj.nig.ac.jp/pipeline/Login.do'><img src="/src/VA/DDBJReadAnnotationPipeline/DDBJ-RAP-Banner.png" alt="DDBJ Read Annotation Pipeline"  /></a>
 </div>
 
 
@@ -24,6 +24,5 @@ The [DDBJ Read Annotation Pipeline](https://p.ddbj.nig.ac.jp/pipeline/Login.do) 
 
 * [DDBJ Read Annotation Pipeline](https://p.ddbj.nig.ac.jp/pipeline/Login.do)
 * [DNA data bank of Japan (DDBJ) progress report](http://nar.oxfordjournals.org/content/early/2015/11/16/nar.gkv1105.full), Jun Mashima, Yuichi Kodama, Takehide Kosuge, Takatomo Fujisawa, Toshiaki Katayama, Hideki Nagasaki, Yoshihiro Okuda, Eli Kaminuma, Osamu Ogasawara, Kousaku Okubo, Yasukazu Nakamura and Toshihisa Takagi, *Nucleic Acids Research* (2015), doi: 10.1093/nar/gkv1105
-
 
 CategoryVirtualAppliance

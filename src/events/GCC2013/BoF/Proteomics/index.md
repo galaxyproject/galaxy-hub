@@ -1,14 +1,14 @@
 ---
 title: Proteomics BoF
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
-PLACEHOLDER_INCLUDE(/Events/GCC2013/BoF/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/BoF/LinkBox/index.md)
 
-<div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
+<div class='left'><a href='/src/Events/GCC2013/BoF/index.md'><img src="/src/Images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 
 This page describes the **Proteomics BoF** [Birds of a Feather](/src/Events/GCC2013/BoF/index.md) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
 
@@ -24,22 +24,22 @@ The Proteomics BoF has been  [tentatively scheduled](/src/Events/GCC2013/BoF/ind
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [jmchilton AT gmail DOT com](John Chilton).
+If you are interested, please add your name below and/or send an email to [mailto:jmchilton AT gmail DOT com](John Chilton).
 
 * John Chilton
 * Ira Cooke
 * Gianmauro Cuccuru
 
-
 ## Questions?
 
-Send them to [jmchilton AT gmail DOT com](John Chilton).
+Send them to [mailto:jmchilton AT gmail DOT com](John Chilton).
 
 ## Outcomes
 
 BoF participants introduced themselves and gave some statement about their interest in Proteomics and Galaxy.  Partipants had interests along a spectrum from primarily software development to primarily biology. A common reason for interest in using Galaxy for Proteomics was an interest in combining Proteomics with other "omics" such as Genomics, Metabolomics and Transcriptomics.  
 
 ### Resources for Proteomics
+
 There was a strong feeling that Proteomics needed a presence on the Galaxy wiki. As a start to this John Chilton created two new pages;
 	
 A [landing page for Proteomics](/src/Proteomics/index.md)
@@ -49,10 +49,13 @@ A [ proteomics use cases](/src/Proteomics/UseCases/index.md) page to help tool d
 Both users and tool developers were encouraged to use the [galaxy-proteomics mailing list](http://proteomics.list.galaxyproject.org/) for discussion.
 
 ### Galaxy-P
+
 John Chilton discussed galaxy-p and described its relationship to the main galaxy distribution
 
 ### X!Tandem Demo
+
 Pieter Lukasse gave a demonstration of his X!Tandem tool including a spectrum viewer
 
 ### Visualisations
+
 We highlighted the need for Proteomics specific visualisations in galaxy. Several participants are using or have developed such tools but they are not easily distributable.

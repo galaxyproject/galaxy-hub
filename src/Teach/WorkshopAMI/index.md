@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/Teach/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Teach/LinkBox/index.md)
 
 For simplicity use http://usegalaxy.org/cloudlaunch.  Fill out the form, submit, and you'll be given the URL for your cloud instance.Once you're able to access the instance, you'll want to click "More Startup Options" on the initial dialog.  Paste the share string listed below into the "Cluster Share String" field, and submit.  The instance will take a minute or two to configure itself, and you'll be ready to go.
 

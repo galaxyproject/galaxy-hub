@@ -1,9 +1,6 @@
----
-date: 2013-06-03T21:16:46Z
----
 <div class='newsItemHeader'>[June 3, 2013 Galaxy Distribution](/src/News/2013_06_03_Galaxy_Distribution/index.md)</div>
 <div class='right'>
-<a href='/DevNewsBriefs/2013_06_01'><img src='/Images/NewsGraphics/2013_06_03_scatterplot-1.png' alt='scatterplot' width=400 /></a></div>
+<a href='/src/DevNewsBriefs/2013_06_01/index.md'><img src="/src/Images/NewsGraphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=400 /></a></div>
 **Complete [News Brief](/src/DevNewsBriefs/2013_06_03/index.md)**
 <br />
 <br />
@@ -33,8 +30,9 @@ upgrade: $ hg pull
 
 *Thanks for using Galaxy,*
 
-[The Galaxy Team](/Galaxy Team)
+[The Galaxy Team](/src/Galaxy Team/index.md)
 
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-06-03</div>
 
 CategoryNews

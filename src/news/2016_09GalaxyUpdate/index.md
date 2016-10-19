@@ -1,11 +1,8 @@
----
-date: 2016-09-06T05:06:14Z
----
 <div class='newsItemHeader'>[September 2016 Galactic News](/src/News/2016_09GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/GalaxyUpdates/2016_09'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=140 /></a><br /><br />
-<a href='/GalaxyUpdates/2016_09#galaxy-admin-training-november-7-11-salt-lake-city-utah'><img src='/Images/Logos/AdminTraining2016-500.png' alt='Galaxy Project Admin Training' width="140" /></a>
+<a href='/src/GalaxyUpdates/2016_09/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=140 /></a><br /><br />
+<a href='/src/GalaxyUpdates/2016_09/index.md#galaxy-admin-training-november-7-11-salt-lake-city-utah'><img src="/src/Images/Logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="140" /></a>
 </div>
 
 The **[September Galaxy News](/src/GalaxyUpdates/2016_09/index.md) is out:**
@@ -26,5 +23,6 @@ The **[September Galaxy News](/src/GalaxyUpdates/2016_09/index.md) is out:**
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-09-06</div>
 
 CategoryNews

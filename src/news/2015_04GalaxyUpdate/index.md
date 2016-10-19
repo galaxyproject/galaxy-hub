@@ -1,13 +1,10 @@
----
-date: 2015-04-02T00:30:08Z
----
 <div class='newsItemHeader'>[April! Galactic News!](/src/News/2015_04GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/GalaxyUpdates/2015_04'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galactic News! April 2015 Edition' width=150 /></a><br /><br />
-<a href='/Community/GalaxyAdmins/Meetups/2015_04_16'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup April 16' width="150" /></a><br /><br />
-<a href='/Events/Tokyo2015'><img src='/Events/Tokyo2015/WST2015.png' alt='' width="150" /></a><br /><br />
-<a href='/GalaxyUpdates/2015_04#gcc2015-6-8-july-norwich-uk'><img src='/Images/Logos/GCC2015LogoWide600.png' alt='Sponsor GCC2015' width="150" /></a><br />
+<a href='/src/GalaxyUpdates/2015_04/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galactic News! April 2015 Edition" width=150 /></a><br /><br />
+<a href='/src/Community/GalaxyAdmins/Meetups/2015_04_16/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup April 16" width="150" /></a><br /><br />
+<a href='/src/Events/Tokyo2015/index.md'><img src="/src/Events/Tokyo2015/WST2015.png" alt="" width="150" /></a><br /><br />
+<a href='/src/GalaxyUpdates/2015_04/index.md#gcc2015-6-8-july-norwich-uk'><img src="/src/Images/Logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="150" /></a><br />
 </div>
 
 [April brings lots of Galaxy related news](/src/GalaxyUpdates/2015_04/index.md), including *events news*:
@@ -23,7 +20,7 @@ date: 2015-04-02T00:30:08Z
 * [March 2015 Galaxy Release (v 15.03)](/src/GalaxyUpdates/2015_04/index.md#march-2015-galaxy-release-v-1503)
 * [BioBlend v0.5.3 Released](/src/GalaxyUpdates/2015_04/index.md#bioblend-v053-released)
 * [Planemo 0.6.0](/src/GalaxyUpdates/2015_04/index.md#planemo-060)
-* [/GalaxyUpdates/2015_04#over-70-new-tool-shed-repositories-from-19-contributors](/src/GalaxyUpdates/2015_04/index.md#over-70-new-tool-shed-repositories-from-19-contributors)
+* [GalaxyUpdates/2015_04](/src/GalaxyUpdates/2015_04/index.md#over-70-new-tool-shed-repositories-from-19-contributors)
 
 In addition, there is news on:
 * [68 new publications](/src/GalaxyUpdates/2015_04/index.md#new-papers)
@@ -34,5 +31,6 @@ In addition, there is news on:
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-04-02 </div>
 
 CategoryNews

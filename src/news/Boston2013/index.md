@@ -1,9 +1,6 @@
----
-date: 2013-09-30T16:45:22Z
----
 <div class='newsItemHeader'>[Galaxy Training in Boston](/src/News/Boston2013/index.md)</div>
 
-<div class='right'><a href='http://bioteam.net/slipstream/galaxy-edition/galaxy-training/'><img src='/Images/Logos/BioTeamLogo154.gif' alt='Analyzing NGS Data with Galaxy' width="120" /></a></div>
+<div class='right'><a href='http://bioteam.net/slipstream/galaxy-edition/galaxy-training/'><img src="/src/Images/Logos/BioTeamLogo154.gif" alt="Analyzing NGS Data with Galaxy" width="120" /></a></div>
 
 **Free Training Event in Boston: *Analyzing NGS Data with Galaxy***
 
@@ -49,5 +46,6 @@ Anushka Brownley<br />
 [SlipStream Appliance Galaxy Edition](http://bioteam.net/slipstream/galaxy-edition/)<br />
 [SlipStream Appliance White Paper](http://bioteam.net/wp-content/uploads/2013/03/SlipStream_Galaxy-White_Paper.pdf)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-09-30</div>
 
 CategoryNews

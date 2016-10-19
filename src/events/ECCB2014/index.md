@@ -1,8 +1,8 @@
 ---
-title: Galaxy at ECCB, ', 14
+title: Galaxy at ECCB'14
 ---
 <div class='center'> 
-<a href='http://www.eccb14.org/'><img src='/Images/Logos/ECCB2014Logo.png' alt='Galaxy at ECCB'14 / JOBIM' height="120" /></a>
+<a href='http://www.eccb14.org/'><img src="/src/Images/Logos/ECCB2014Logo.png" alt="Galaxy at ECCB'14 / JOBIM" height="120" /></a>
 </div>
 
 
@@ -68,7 +68,7 @@ There were several sessions and posters featuring Galaxy at the [13th European C
     <td> 14:00-14:30 </td>
     <td> <strong><em><a href='http://www.eccb14.org/program/demos'>ID02: A panel of European Public Galaxy Instances</a></strong></em><br /><em> 1. Galaxy Project Introduction</em> <br /><em> 2. <a href='http://deeptools.ie-freiburg.mpg.de/'>deepTools</a>: user-friendly tools for data visualization</em><br /><em> 3. The <a href='http://nebula.curie.fr/'>Nebula</a> ChIP-Seq web service</em><br /><em> 4. The <a href='http://www.france-bioinformatique.fr'>French Institute of Bioinformatics (IFB)</a> academic cloud infrastructure for life sciences</em> </td>
     <td> <br /> 1.&nbsp;<a href='PLACEHOLDER_ATTACHMENT_URLHRH_final_20140908.pdf'>Slides</a><br /> 2. <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2014_ECCB_deepTools.pdf'>Slides</a> </td>
-    <td> <a href='/HansrudolfHotz'>Hans-Rudolf Hotz</a>, <a href='/BjoernGruening'>Björn Grüning</a>, Alban Lermine, Christophe Blanchet </td>
+    <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/BjoernGruening/index.md'>Björn Grüning</a>, Alban Lermine, Christophe Blanchet </td>
   </tr>
 </table>
 

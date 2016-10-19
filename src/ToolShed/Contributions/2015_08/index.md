@@ -6,7 +6,7 @@ title: August 2015 Tool Shed Contributions
 
 <div class='right'></div>
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=200 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=200 /></a></div>
 Tools contributed to the Galaxy Project Tool Shed in August 2015.
 
 In no particular order:
@@ -22,7 +22,6 @@ In no particular order:
 * *From [saskia-hiltemann](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann):*
   * [virtual_normal_analysis](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann/virtual_normal_analysis): Compare variants to a large set of normal genomes Compare variants to a large set of normal genomes from healthy, unrelated individuals
   * [igv_screenshot](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann/igv_screenshot) Create an IGV screenshot. Given the build, tracks, region, and viewing preferences, creates an IGV screenshot and outputs it as a png image. 
-
 
 * *From [anmoljh](https://toolshed.g2.bx.psu.edu/view/anmoljh):*
   * [align_and_estimate_abundance](https://toolshed.g2.bx.psu.edu/view/anmoljh/align_and_estimate_abundance) align_and_estimate_abundance.pl utility from trinitynraseq package  
@@ -73,7 +72,6 @@ In no particular order:
 * [segmentation_fold](https://toolshed.g2.bx.psu.edu/view/yhoogstrate/segmentation_fold): (Planemo upload) for repository https://github.com/ErasmusMC-Bioinformatics/segmentation_fold_galaxy_wrapper commit b37cb65736e2a6e76b94a9fa12a5887046437e36 RNA-Folding including predefined segments including K-turns Segmentation-fold is a bioinformatics application that predicts RNA 2D-structure with an extended version of the Zuker algorithm. This modification contains a new "structure element" named a segment and is capable of folding a pre-defined substructure with multiple canonical or non-canonical pairings.<br />
     This allows folding of more complex structures like the K-turns, which are also part of the implemented free energy tables. These thermodynamic parameters (free Gibbs energy levels) have been estimated using a computational approach and therefore lack accuracy.
 
-
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
   * [kraken2tax](https://toolshed.g2.bx.psu.edu/view/devteam/kraken2tax): (Planemo upload) for repository https://github.com/galaxyproject/tools-devteam/blob/master/tool_collections/taxonomy/kraken2tax/ commit f176c58ce66d9db715151061ea43912f0659afc0 Convert Kraken output to Galaxy taxonomy data. Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies. This tool will convert the output of Kraken to the format used by other Galaxy taxonomic tools
 
@@ -83,7 +81,6 @@ In no particular order:
 * *From [tgac](https://toolshed.g2.bx.psu.edu/view/tgac):*
   * [hcluster_sg](https://toolshed.g2.bx.psu.edu/view/tgac/hcluster_sg): (Planemo upload) for repository https://github.com/TGAC/tgac-galaxytools/tree/master/tools/hcluster_sg commit 6ecf622ddfb33c9553673978787f0ecad8cf8c49 Hierarchically clustering on a sparse graph hcluster_sg is a tool for hierarchically clustering on a sparse graph.<br />
       https://github.com/douglasgscofield/hcluster
-
 
 * *From [jcl](https://toolshed.g2.bx.psu.edu/view/jcl):*
   * [jclgrr](https://toolshed.g2.bx.psu.edu/view/jcl/jclgrr) An effort to run grr An effort to run GRR
@@ -103,7 +100,6 @@ In no particular order:
   * [package_netcdf_4_3_3_1](https://toolshed.g2.bx.psu.edu/view/lecorguille/package_netcdf_4_3_3_1) Contains a tool dependency definition that downloads and compiles version 4.3.3.1 of netcdf.  NetCDF (network Common Data Form) is a set of software libraries and machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data. http://www.unidata.ucar.edu/downloads/netcdf/index.jsp <br />
       Repository-Maintainer: Bj\u00f6rn Gr\u00fcning Repository-Development: https://github.com/bgruening/galaxytools <br />
       Update of iuc package_netcdf_4_3 to 4.3.3.1 and addition of bin/ in the PATH
-
 
 ### Select Updates
 
@@ -153,3 +149,4 @@ In no particular order:
   * [package_ruby_2_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_ruby_2_0): (Planemo upload) for repository https://github.com/galaxyproject/tools-iuc/tree/master/packages/package_ruby_2_0 commit beb40fb1d5861b529d96fa228b2129e3d4a524b7
   * [package_bzlib_1_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_bzlib_1_0): (Planemo upload) for repository https://github.com/galaxyproject/tools-iuc/tree/master/packages/package_bzlib_1_0 commit ba7b53894c61fea9a93550f865e9ed2753a904cf
   * [package_libcurl_7_35](https://toolshed.g2.bx.psu.edu/view/iuc/package_libcurl_7_35): (Planemo upload) for repository https://github.com/galaxyproject/tools-iuc/tree/master/packages/package_libcurl_7_35 commit beb40fb1d5861b529d96fa228b2129e3d4a524b7
+

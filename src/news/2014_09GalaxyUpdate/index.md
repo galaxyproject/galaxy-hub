@@ -1,10 +1,7 @@
----
-date: 2014-08-29T11:43:55Z
----
 <div class='newsItemHeader'>[September 2014 Galaxy News](/src/News/2014_09GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/GalaxyUpdates/2014_09'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a>
+<a href='/src/GalaxyUpdates/2014_09/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
 </div>
 
 Hello all,
@@ -27,5 +24,6 @@ Happy September,
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-08-29 </div>
 
 CategoryNews

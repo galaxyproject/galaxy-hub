@@ -2,7 +2,7 @@
 title: [UC Davis RNA-Seq and ChIP-Seq Analysis with Galaxy Workshop](http://training.bioinformatics.ucdavis.edu/docs/2014/12/december-2014-workshop/)
 ---
 <div class='center'>
-<a href='http://bioinformatics.ucdavis.edu/'><img src='/Images/Logos/UCDavisGenomeCenter.png' alt='UC Davis Bioinformatics Core' height="100" /></a>
+<a href='http://bioinformatics.ucdavis.edu/'><img src="/src/Images/Logos/UCDavisGenomeCenter.png" alt="UC Davis Bioinformatics Core" height="100" /></a>
 </div>
 
 
@@ -72,6 +72,5 @@ The workshop AMI (ami-ab010aee) also includes the example datasets used in the e
 * [UC Davis Bioinformatics Training Program FAQ](https://training.bioinformatics.ucdavis.edu/faq/)
 * [Amazon Web Services](http://aws.amazon.com/)
 * [2013 UC Davis Galaxy Course Documentation](http://training.bioinformatics.ucdavis.edu/docs/2013/09/short-course-2013/)
-
 
 CategoryTrainingResource

@@ -1,9 +1,9 @@
 ---
-title:  Galaxy , @,  , [ECCB 2016](http://www.eccb2016.org/)
+title:  Galaxy @ [ECCB 2016](http://www.eccb2016.org/)
 ---
 <div class='center'>
 
-<a href='http://www.eccb2016.org/'><img src='/Images/Logos/ECCB2016Full.png' alt='European Conference on Computational Biology (ECCB 2016)' width="300" /></a>
+<a href='http://www.eccb2016.org/'><img src="/src/Images/Logos/ECCB2016Full.png" alt="European Conference on Computational Biology (ECCB 2016)" width="300" /></a>
 
 
 <span style="font-size: larger;"> September 3-7<br />
@@ -44,15 +44,15 @@ Galaxy will have a significant presence at the **[European Conference on Computa
   </tr>
   <tr>
     <td> 17:30 </td>
-    <td> <strong><a href='#odd-numbered-posters'>Odd Numbered Posters</a></strong> </td>
-    <td> See <a href='#odd-numbered-posters'>presenters</a> </td>
-    <td> See <a href='#odd-numbered-posters'>below</a> </td>
+    <td> <strong><a href='/src/Events/ECCB2016/index.md#odd-numbered-posters'>Odd Numbered Posters</a></strong> </td>
+    <td> See <a href='/src/Events/ECCB2016/index.md#odd-numbered-posters'>presenters</a> </td>
+    <td> See <a href='/src/Events/ECCB2016/index.md#odd-numbered-posters'>below</a> </td>
   </tr>
   <tr>
     <td> 18:30 </td>
-    <td> <strong><a href='#even-numbered-posters'>Even Numbered Posters</a></strong> </td>
-    <td> See <a href='#even-numbered-posters'>presenters</a> </td>
-    <td> See <a href='#even-numbered-posters'>below</a> </td>
+    <td> <strong><a href='/src/Events/ECCB2016/index.md#even-numbered-posters'>Even Numbered Posters</a></strong> </td>
+    <td> See <a href='/src/Events/ECCB2016/index.md#even-numbered-posters'>presenters</a> </td>
+    <td> See <a href='/src/Events/ECCB2016/index.md#even-numbered-posters'>below</a> </td>
   </tr>
   <tr>
     <td colspan=5 style=" background-color: #eef;"> </td>
@@ -72,15 +72,15 @@ Galaxy will have a significant presence at the **[European Conference on Computa
   </tr>
   <tr>
     <td> 17:30 </td>
-    <td> <strong><a href='#even-numbered-posters'>Even Numbered Posters</a></strong> </td>
-    <td> See <a href='#even-numbered-posters'>presenters</a> </td>
-    <td> See <a href='#odd-numbered-posters'>below</a> </td>
+    <td> <strong><a href='/src/Events/ECCB2016/index.md#even-numbered-posters'>Even Numbered Posters</a></strong> </td>
+    <td> See <a href='/src/Events/ECCB2016/index.md#even-numbered-posters'>presenters</a> </td>
+    <td> See <a href='/src/Events/ECCB2016/index.md#odd-numbered-posters'>below</a> </td>
   </tr>
   <tr>
     <td> 18:30 </td>
-    <td> <strong><a href='#odd-numbered-posters'>Odd Numbered Posters</a></strong> </td>
-    <td> See <a href='#odd-numbered-posters'>presenters</a> </td>
-    <td> See <a href='#even-numbered-posters'>below</a> </td>
+    <td> <strong><a href='/src/Events/ECCB2016/index.md#odd-numbered-posters'>Odd Numbered Posters</a></strong> </td>
+    <td> See <a href='/src/Events/ECCB2016/index.md#odd-numbered-posters'>presenters</a> </td>
+    <td> See <a href='/src/Events/ECCB2016/index.md#even-numbered-posters'>below</a> </td>
   </tr>
 </table>
 

@@ -1,11 +1,11 @@
 ---
-title:  Galaxy Demo , /,  Training Day, ,,  Tuesday, ,,  September 30th, ,,  Bern 
+title:  Galaxy Demo / Training Day, Tuesday, September 30th, Bern 
 ---
-PLACEHOLDER_INCLUDE(/Events/SG2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/SG2014/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Events/SG2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/SG2014/LinkBox/index.md)
 
 ## Content
 
@@ -22,6 +22,7 @@ Topics covered:
 * Visualizations
 
 ## Preliminary Schedule
+
 
 | Time |  Speaker  |  Title  |  Type  |  Slides  | 
 | ---- | -------- | ------ | ----- | ------- | 
@@ -49,12 +50,12 @@ The training day will be held in the [UniS-Building (room: A -119) of the Univer
 
 ## Registration
 
-
 Registration is now closed. Please contact [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) or [Björn Grüning](/src/BjoernGruening/index.md) if you want your name to be put on the waiting list. There is a good chance, we can still accommodate you. 
 
 <br />
 
-<div class='right'> <a href='https://wiki.systemsx.ch/display/SyBIT'><img src='/Images/Logos/SyBITLogo.png' alt='SyBIT' /></a>     <a href='http://www.systemsx.ch/'><img src='/Images/Logos/SystemsXchLogo.png' alt='SystemsX.ch' height="89" /></a> </div>
+<div class='right'> <a href='https://wiki.systemsx.ch/display/SyBIT'><img src="/src/Images/Logos/SyBITLogo.png" alt="SyBIT" /></a>     <a href='http://www.systemsx.ch/'><img src="/src/Images/Logos/SystemsXchLogo.png" alt="SystemsX.ch" height="89" /></a> </div>
 
 ## Support
+
 This workshop is generously supported by [SyBIT](https://wiki.systemsx.ch/display/SyBIT) / [SystemsX.ch](http://www.systemsx.ch/)

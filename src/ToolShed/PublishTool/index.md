@@ -1,15 +1,18 @@
-PLACEHOLDER_INCLUDE(/Admin/Tools/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Admin/Tools/LinkBox/index.md)
 # How to Publish Your Tool in the Galaxy Tool Shed
 
 # Quick Start
+
 1. Prepare a correct set of tool files
 1. Go to [https://toolshed.g2.bx.psu.edu/](https://toolshed.g2.bx.psu.edu/).
 1. Create an account.
 1. Create a repository.
 1. Upload your tool files.
+
 **Done! You are now an owner of a Tool Shed repository and people can install your tool from any Galaxy!**
 
 ## Creating an account
+
 The process for creating a Tool Shed account is the same as that in Galaxy, although the Tool Shed is a separate application from the main public Galaxy instance, so user accounts are not shared between the two. Selecting the **Register** option from the **User** menu on the top menu bar allows you to create a new account on the Tool Shed.
 
 ## Creating a new repository

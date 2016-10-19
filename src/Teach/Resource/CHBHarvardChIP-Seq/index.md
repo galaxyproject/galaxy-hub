@@ -1,7 +1,7 @@
 ---
 title: [CHB Harvard ChIP-Seq Workshop](http://hbc.github.io/ngs-workshops/courses/introduction-to-chip-seq/)
 ---
-<div class='center'><a href='http://hbc.github.io/ngs-workshops/about/'><img src='/Images/Logos/CHBHarvard.png' alt='Center for Health Bioinformatics Galaxy Tutorials'  /></a></div>
+<div class='center'><a href='http://hbc.github.io/ngs-workshops/about/'><img src="/src/Images/Logos/CHBHarvard.png" alt="Center for Health Bioinformatics Galaxy Tutorials"  /></a></div>
 
 
 
@@ -33,6 +33,5 @@ Uses many "standard" tools that exist on most Galaxy servers, and
 
 * [CHB Harvard ChIP-Seq Workshop](http://hbc.github.io/ngs-workshops/courses/introduction-to-chip-seq/)
 * [one of a set of online tutorials](http://hbc.github.io/ngs-workshops/courses/)
-
 
 CategoryTrainingResource

@@ -1,12 +1,12 @@
 ---
 title: GCC2013 Training Day
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
-<div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='Training Day' width="200" /></a></div>
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
+<div class='right'><a href='/src/Events/GCC2013/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
 # Advanced Tool and Data Source Configuration
 
@@ -15,6 +15,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
 ## Scheduled duration: 15:00-17:00
 
 ## Helpful links
+
 * http://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax
 * http://www.cheetahtemplate.org/
 
@@ -50,9 +51,9 @@ The first exercise consists of creating (or copying, your choice) a text file co
 Steps:
 
 1. Make a new directory [galaxy root]/tools/hello_advanced and put hello_advanced.xml there containing
+
 <div class='indent'>
-```
-#!highlight xml
+```xml
 <tool id="hello_advanced" name="Hello Advanced" version="0.01">
 <description>World</description>
 <command interpreter="python">
@@ -71,8 +72,7 @@ Says hello advanced world by running a python script and passing appropriate par
 
 Make a new python script to match the name on the command line above (hello_advanced.py) containing
 
-```
-#!highlight python
+```python
 #!/bin/env python
 # python script to echo a command line parameter to an output file also passed on the command line
 # your name here
@@ -120,8 +120,7 @@ The syntax ${...} is recommended and it is also recommended that all user suppli
 
 2. #2 If not already done, adjust universe_wsgi.ini by adding an admin_user email you will register with when you first log in - use commas ONLY - no spaces - to separate admin email addresses. Adjust tool_conf.xml adding a new tool path that must exactly match the directory/filename you chose for your tool.
 
- ```
-#!highlight xml
+ ```xml
  <tool file="hello_advanced/hello_advanced.xml"/> 
  ```
 
@@ -162,6 +161,7 @@ Steps:
 
 1. #1 Make a new text file in your Galaxy test-data/ directory under the name hello_world_advanced_testout.txt - we will provide that name to the test tag and the test harness will find it there. It should contain exactly the same string as a successful run of the hello world advanced script which should be the single string
   ```
+
 hello world advanced
 ```
 
@@ -170,8 +170,7 @@ hello world advanced
 
 3. #3 Adjust hello_world_advanced.xml so it includes the test section shown below
 
- ```
-#!highlight xml
+ ```xml
 <tool id="hello_advanced" name="Hello Advanced" version="0.02">
 <description>World</description>
 <command interpreter="python">
@@ -200,6 +199,7 @@ Says hello advanced world by running a python script and passing appropriate par
 
 5. #6 Run a functional test on the command line and use the -id parameter to pass the tool id hello_advanced
   ```
+
 sh run_functional_tests.sh -id hello_advanced
 ```
 
@@ -210,8 +210,7 @@ If the test does not work you will see some tracebacks which will indicate what 
 
 Add a repeating group input parameter as shown. These are handy when you need an unknown number of parameters from the user since they allow the user to simply add more until they are done. Save. Reload the tool via the admin interface and test it out. Repeat until it's working right. Experiment and play with the new repeating parameter. Note how the repeats are passed to the python script, where the optparse "append" option adds them to a list of strings which are then written as newline delimited rows. 
 
-```
-#!highlight xml
+```xml
 <tool id="hello_advanced" name="Hello Advanced" version="0.03">
 <description>World</description>
 <command interpreter="python">
@@ -245,8 +244,7 @@ Any number of strings can be input by the user through the use of a repeat tag
 
 Conditional tags allow control flow in a tool form such as the "advanced options" control in the BWA/BWA2 tools forms. Add a very simple one as follows to allow the user to either input only one string without the repeat tag, or if they want to use the repeat tag and add as many as they feel like. Save hello_advanced.xml as hello_advanced2.xml as a backup and replace hello_advanced.xml with something like
 
-```
-#!highlight xml
+```xml
 <tool id="hello_advanced" name="Hello Advanced" version="0.04">
 <description>World</description>
 <command interpreter="python">
@@ -309,8 +307,7 @@ A bare minimum for tool data tables is to include at least a value (required) an
 
 
 with a tool data table defined in tool_data_table_conf.xml:
-```
-#!highlight xml
+```xml
 <tables>
     <!-- Locations of indexes in the BWA mapper format -->
     <table name="bwa_indexes" comment_char="#">
@@ -323,8 +320,7 @@ with a tool data table defined in tool_data_table_conf.xml:
 Here the value is the unique id and is the value stored in the database (for e.g. rerun). The path column contains the path to the indexes, which will be the value passed to the command-line; this allows the underlying paths to the indexes to change over time, as needed, but to remain usable in workflows or via rerun.
 
 Inside of the bwa tool xml file, we then define the select list parameter as:
-```
-#!highlight xml
+```xml
 <param name="indices" type="select" label="Select a reference genome">
           <options from_data_table="bwa_indexes">
             <validator type="no_options" message="No indexes are available" />
@@ -347,8 +343,7 @@ greeting_hello	Hello	/path/to/file.png	Earth
 **Be sure to check that white space between fields are <TABS> and not spaces (double check, some editors automatically replace tab with space).**
 
 Edit your tool_data_tables_conf.xml file and define the structure of the data table:
-```
-#!highlight xml
+```xml
 <table name="hello_world" comment_char="#">
         <columns>value, name, image_path, valid_world</columns>
         <file path="tool-data/hello_world.loc" />
@@ -357,8 +352,7 @@ Edit your tool_data_tables_conf.xml file and define the structure of the data ta
 
 
 Define the new parameter as 
-```
-#!highlight xml
+```xml
 <param name="builtin_greeting" type="select" label="Select a greeting">
           <options from_data_table="hello_world">
             <validator type="no_options" message="No indexes are available" />
@@ -389,8 +383,7 @@ Extensively documented: http://wiki.galaxyproject.org/Admin/Tools/ToolConfigSynt
 An example is the GATK. See tools/gatk/unified_genotyper.xml which makes use of the Macro file tools/gatk/gatk_macros.xml.
 
 unified_genotyper.xml:
-```
-#!highlight xml
+```xml
 <tool id="gatk_unified_genotyper" name="Unified Genotyper" version="0.0.6">
   <description>SNP and indel caller</description>
   <requirements>
@@ -716,8 +709,7 @@ Go `here &lt;http://www.broadinstitute.org/gsa/wiki/index.php/Input_files_for_th
 
 
 gatk_macros.xml:
-```
-#!highlight xml
+```xml
 <macros>
   <template name="standard_gatk_options">      
     ##start standard gatk options
@@ -1046,8 +1038,6 @@ Some suggestions for exploration (http://wiki.galaxyproject.org/Admin/Tools/Tool
   * Labels
   * output <actions> (e.g. see tools/filters/cutWrapper.xml)
 
-
 ## 17:00 session ends
 
-
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Footer)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Footer/index.md)

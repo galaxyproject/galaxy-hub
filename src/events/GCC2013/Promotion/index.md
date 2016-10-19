@@ -1,13 +1,13 @@
 ---
 title: Promotion and Outreach
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
 
-PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
 
 
 
-Please help get the word out about the [2013 Galaxy Community Conference (GCC2013)](/src/events/GCC2013/index.md).  A [flier](#flier) suitable for printing is below, as well as several different sizes of the conference banner that can be used on the web.
+Please help get the word out about the [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/Promotion//index.md).  A [flier](/src/Events/GCC2013/Promotion/index.md#flier) suitable for printing is below, as well as several different sizes of the conference banner that can be used on the web.
 
 # Flier
 
@@ -21,7 +21,7 @@ Please help get the word out about the [2013 Galaxy Community Conference (GCC201
 
 # Graphics
 
-<div class='right'>![](/Images/Logos/GCC2013Logo200.png)<br />![](/src/Images/Logos/GCC2013TrainingDayLogo200.png)</div>
+<div class='right'>![](/src/Images/Logos/GCC2013Logo200.png)<br />![](/src/Images/Logos/GCC2013TrainingDayLogo200.png)</div>
 
 The conference logos are available in several sizes.
 
@@ -66,4 +66,4 @@ Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitt
 
 # Sponsorships
 
-Interested in sponsoring the meeting?  See [Sponsorships](/src/events/GCC2013/Sponsorships/index.md).
+Interested in sponsoring the meeting?  See [Sponsorships](/src/Events/GCC2013/Promotion/Sponsorships/index.md).

@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://slu.edu'><img src='/Images/Logos/SLUBioChemBanner.png' alt='Saint Louis University Department of Biochemistry and Molecular Biology' width="80%" /></a>
+<a href='http://slu.edu'><img src="/src/Images/Logos/SLUBioChemBanner.png" alt="Saint Louis University Department of Biochemistry and Molecular Biology" width="80%" /></a>
 
 <div class='title'>Introduction to Galaxy<br /> Tuesday April 30, 2013</div>
 
@@ -83,8 +83,8 @@ No programming or Linux command line experience is required.
 
 ## Support
 
-<div class='right'><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a></div>
-<div class='left'><a href='/Events/MissouriWorkshopTour2013'><img src='/Images/Logos/MissouriGalaxyWorkshopTour2013.png' alt='2013 Missouri Galaxy Workshop Tour' height="75" /></a></div>
+<div class='right'><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='left'><a href='/src/Events/MissouriWorkshopTour2013/index.md'><img src="/src/Images/Logos/MissouriGalaxyWorkshopTour2013.png" alt="2013 Missouri Galaxy Workshop Tour" height="75" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and [Saint Louis University Department of Biochemistry and Molecular Biology](http://biochemweb.slu.edu/).  
 
@@ -97,9 +97,9 @@ This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/src/Events/Mi
 
 ## Flyer
 
-<div class='right'><a href='/attachment:SLUGalaxy2013.pdf'><img src='/SLUGalaxy2013Thumb.png' alt=''  /></a></div>
+<div class='right'><a href='/src/attachment:SLUGalaxy2013.pdf/index.md'><img src="/src/Events/SLU2013/SLUGalaxy2013Thumb.png" alt=""  /></a></div>
 Please distribute to groups in Saint Louis University that might be interested. You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?
 
-Contact [donlinmj AT slu DOT edu](Maureen Donlin) or [outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [mailto:donlinmj AT slu DOT edu](Maureen Donlin) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).

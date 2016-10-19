@@ -1,6 +1,3 @@
----
-date: 2015-03-30T17:22:48Z
----
 <div class='newsItemHeader'>[Graph-based Genomes: PhDs in Oslo](/src/News/GraphBasedGenomeOpeningsOslo/index.md)</div>
 
 Two PhD positions [in bioinformatics](http://uio.easycruit.com/vacancy/1352825/64290?iso=no)  and [in biostatistics](http://uio.easycruit.com/vacancy/1352793/64285?iso=no) are available in Oslo (Norway) on graph-based representations of genomes, and in particular on developing methodology and software for analyzing various kinds of biological data represented on such graphs. Graphs can represent variation between individuals and thus allows a better representation of the full hereditary material of a species (or several related species). 
@@ -12,5 +9,6 @@ The positions are embedded within the !HyperBrowser environment, which includes 
 
 <div class='center'>![width="200"](/src/Images/Logos/UiOLogo.png)</div>
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-03-30</div>
 
 CategoryNews

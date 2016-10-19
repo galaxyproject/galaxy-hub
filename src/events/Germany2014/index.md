@@ -1,15 +1,16 @@
 ---
-title:  1st German Galaxy Developer workshop, ,,  Thursday, ,,  October 2nd, ,,  Freiburg 
+title:  1st German Galaxy Developer workshop, Thursday, October 2nd, Freiburg 
 ---
-PLACEHOLDER_INCLUDE(/Events/SG2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/SG2014/Header/index.md)
 
-PLACEHOLDER_INCLUDE(/Events/SG2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/SG2014/LinkBox/index.md)
 
 
 
 In addition to the [2nd Swiss Galaxy Workshop](/src/Events/Switzerland2014/index.md), we will organize a Galaxy Developer Workshop in Freiburg.
 
 ## Preliminary Schedule
+
 
 | Time |  Speaker  |  Title  |  PDF  | 
 | ---- | -------- | ------ | ---- | 
@@ -36,4 +37,5 @@ We have created a [small map of places to find food and drinks](https://mapsengi
 
 
 ## Questions?
+
 Contact [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) or [Björn Grüning](/src/BjoernGruening/index.md)

@@ -2,9 +2,9 @@
 title: Introduction to Galaxy Workshop
 ---
 <div class='center'>
-<a href='http://www.polyomics.gla.ac.uk/'><img src='/Images/Logos/GlasgowPolyomics.jpg' alt='Glasgow Polyomics' height="140" /></a>
+<a href='http://www.polyomics.gla.ac.uk/'><img src="/src/Images/Logos/GlasgowPolyomics.jpg" alt="Glasgow Polyomics" height="140" /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-<a href='http://www.gla.ac.uk/'><img src='/Images/Logos/UGlasgowLogo.jpg' alt='University of Glasgow' height="90" /></a> 
+<a href='http://www.gla.ac.uk/'><img src="/src/Images/Logos/UGlasgowLogo.jpg" alt="University of Glasgow" height="90" /></a> 
 
 
 **8th - 9th June, 2015, 9:00-17:00**
@@ -145,14 +145,14 @@ The workshop is being held at Computer Cluster 515, [West Medical Building](http
 Tea and coffee will be provided, but *please note that lunch is not provided.*
 
 <div class='right center'>
-<a href='http://www.polyomics.gla.ac.uk/'><img src='/Images/Logos/GlasgowPolyomics.jpg' alt='Glasgow Polyomics' width="160" /></a><br /><br />
-<a href='http://www.gla.ac.uk/'><img src='/Images/Logos/UGlasgowLogo.jpg' alt='University of Glasgow' width="160" /></a><br /><br />
-<a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a>
+<a href='http://www.polyomics.gla.ac.uk/'><img src="/src/Images/Logos/GlasgowPolyomics.jpg" alt="Glasgow Polyomics" width="160" /></a><br /><br />
+<a href='http://www.gla.ac.uk/'><img src="/src/Images/Logos/UGlasgowLogo.jpg" alt="University of Glasgow" width="160" /></a><br /><br />
+<a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a>
 </div>
 
 ## Support
 
-This workshop is supported by [Glasgow Polyomics|height="100"}}](http://www.polyomics.gla.ac.uk/) at the [University of Glasgow](http://www.gla.ac.uk/), an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [National Institutes of Health (NIH)](http://www.nih.gov).
+This workshop is supported by [Glasgow Polyomics](http://www.polyomics.gla.ac.uk/) at the [University of Glasgow](http://www.gla.ac.uk/), an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [National Institutes of Health (NIH)](http://www.nih.gov).
 
 ## Slides
 
@@ -161,7 +161,6 @@ This workshop is supported by [Glasgow Polyomics|height="100"}}](http://www.poly
   * [RNA-Seq & Cloud Slides](ATTACHMENT_URLDocuments/Presentations/2015UGlasgowWorkshop_Day2_RNA_Cloud.pdf) 
   * [Variant Slides](ATTACHMENT_URLDocuments/Presentations/2015UGlasgowWorkshop_Day2_Varaint.pdf) 
 * [Ecosystem Slides](ATTACHMENT_URLDocuments/Presentations/2015UGlasgowWorkshop_Ecosystem.pdf) 
-
 
 ## Feedback
 

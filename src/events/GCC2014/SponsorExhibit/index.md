@@ -1,15 +1,15 @@
 ---
 title: Sponsorships and Exhibitors
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 
-Is your organization interested in being a prominent part of one of the fastest growing communities in bioinformatics? Becoming a [2014 Galaxy Community Conference](/src/events/GCC2014/index.md) Sponsor or Exhibitor is an excellent way to raise your organization's visibility in this active and engaged community.
+Is your organization interested in being a prominent part of one of the fastest growing communities in bioinformatics? Becoming a [2014 Galaxy Community Conference](/src/Events/GCC2014/SponsorExhibit//index.md) Sponsor or Exhibitor is an excellent way to raise your organization's visibility in this active and engaged community.
 
-If your organization is interested in participating in [GCC2014](/src/events/GCC2014/index.md) as a sponsor or exhibitor then please contact [the conference organizers](/src/events/GCC2014/Organizers/index.md).
+If your organization is interested in participating in [GCC2014](/src/Events/GCC2014/SponsorExhibit//index.md) as a sponsor or exhibitor then please contact [the conference organizers](/src/Events/GCC2014/SponsorExhibit/Organizers/index.md).
 
 ## About GCC2014
 
@@ -26,9 +26,9 @@ The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject
 
 Sponsorships are available at four different levels.
 
-<div class='center'>![](/Events/GCC2013/Sponsorships/PlatinumBanner.png)</div>
+<div class='center'>![](/src/Events/GCC2013/Sponsorships/PlatinumBanner.png)</div>
 
-<div class='center'><a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'><img src='/Images/Logos/IonTorrentLogo340.png' alt='Ion Torrent by Life Technologies' width="340" /></a></div>
+<div class='center'><a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'><img src="/src/Images/Logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="340" /></a></div>
 
 <div class='indent'>
 **Cost: $12,500**
@@ -40,19 +40,20 @@ Sponsorships are available at four different levels.
 * A full page color ad in the printed material
 * 4 complete attendee registrations, including conference dinner.
 * Be the only Platinum Sponsor.
+
 </div>
 
 <br /><br />
 
-<div class='center'>![](/Events/GCC2013/Sponsorships/GoldBanner.png)</div>
+<div class='center'>![](/src/Events/GCC2013/Sponsorships/GoldBanner.png)</div>
 
 <table>
   <tr>
-    <td style=" border: none; text-align: center;"> <a href='http://bioteam.net/slipstream/galaxy-edition/'><img src='/Images/Logos/BioTeamLogo154.gif' alt='BioTeam' width="200" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://bioteam.net/slipstream/galaxy-edition/'><img src="/src/Images/Logos/BioTeamLogo154.gif" alt="BioTeam" width="200" /></a> </td>
     <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td style=" border: none; text-align: center;"> <a href='http://www.emc.com/isilon'><img src='/Images/Logos/EMCIsilonLogo.jpg' alt='EMC Isilon' width="340" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://www.emc.com/isilon'><img src="/src/Images/Logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="340" /></a> </td>
     <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td style=" border: none; text-align: center;"> <a href='http://www.sgi.com/solutions/genomics/'><img src='/Images/Logos/SGILogo400.jpg' alt='SGI' width="210" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://www.sgi.com/solutions/genomics/'><img src="/src/Images/Logos/SGILogo400.jpg" alt="SGI" width="210" /></a> </td>
   </tr>
 </table>
 
@@ -67,25 +68,26 @@ Sponsorships are available at four different levels.
 * Half page full color ad in printed materials
 * 2 complete attendee registrations 
 * Be one of only 3 Gold Sponsors.
+
 </div>
 
 <br /><br />
 
-<div class='center'>![](/Events/GCC2013/Sponsorships/SilverBanner.png)</div>
+<div class='center'>![](/src/Events/GCC2013/Sponsorships/SilverBanner.png)</div>
 
 <table>
   <tr>
-    <td colspan=2 style=" border: none; text-align: center;"> <a href='http://globus.org/genomics'><img src='/Images/Logos/GlobusGenomics.png' alt='Globus Genomics' width="180" /></a> </td>
+    <td colspan=2 style=" border: none; text-align: center;"> <a href='http://globus.org/genomics'><img src="/src/Images/Logos/GlobusGenomics.png" alt="Globus Genomics" width="180" /></a> </td>
     <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td colspan=3 style=" border: none; text-align: center;"> <a href='http://www.gigasciencejournal.com/'><img src='/Images/Logos/GigaScienceLogo250.png' alt='GigaScience Journal' width="160" /></a> <br /> <a href='http://www.biomedcentral.com/'><img src='/Images/Logos/BMCLogo200.png' alt='BioMed Central, The Open Access Publisher' width="160" /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center;"> <a href='http://www.gigasciencejournal.com/'><img src="/src/Images/Logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="160" /></a> <br /> <a href='http://www.biomedcentral.com/'><img src="/src/Images/Logos/BMCLogo200.png" alt="BioMed Central, The Open Access Publisher" width="160" /></a> </td>
     <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td style=" border: none; text-align: center;"> <a href='http://www.abgenomica.com/'><img src='/Cloud/ABgenomicaLogo.jpg' alt='ABgenomica'  /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://www.abgenomica.com/'><img src="/src/Cloud/ABgenomicaLogo.jpg" alt="ABgenomica"  /></a> </td>
   </tr>
   <tr>
     <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td colspan=3 style=" border: none; text-align: center;"> <br /> <a href='http://genomeweb.com'><img src='/Images/Logos/GenomeWebSmall.png' alt='GenomeWeb' width="180" /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center;"> <br /> <a href='http://genomeweb.com'><img src="/src/Images/Logos/GenomeWebSmall.png" alt="GenomeWeb" width="180" /></a> </td>
     <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td colspan=3 style=" border: none; text-align: left;"> <br /><a href='http://www.penguincomputing.com/'><img src='/Images/Logos/PenguinComputing.png' alt='Penguin Computing' width="170" /></a> </td>
+    <td colspan=3 style=" border: none; text-align: left;"> <br /><a href='http://www.penguincomputing.com/'><img src="/src/Images/Logos/PenguinComputing.png" alt="Penguin Computing" width="170" /></a> </td>
   </tr>
 </table>
 
@@ -97,14 +99,15 @@ Sponsorships are available at four different levels.
 * Organization logo listed as a Silver sponsor on printed material distributed to meeting participants.
 * Quarter page full color ad in printed materials
 * One full registration
+
 </div>
 
 <br /><br />
 
-<div class='center'>![](/Events/GCC2013/Sponsorships/BronzeBanner.png)</div>
+<div class='center'>![](/src/Events/GCC2013/Sponsorships/BronzeBanner.png)</div>
 
 <div class='center'>
-<a href='http://bio.maryland.gov/'><img src='/Images/Logos/BioMaryland400.png' alt='BioMaryland' width="250" /></a>
+<a href='http://bio.maryland.gov/'><img src="/src/Images/Logos/BioMaryland400.png" alt="BioMaryland" width="250" /></a>
 </div>
 
 <div class='indent'>
@@ -112,14 +115,15 @@ Sponsorships are available at four different levels.
 * Your organization logo listed as a Bronze Sponsor on meeting home page, with link to URL of your choice
 * Your organization logo listed as a Bronze Sponsor on printed material distributed to meeting participants.
 * One eighth page full color ad in printed materials
+
 </div>
 
 <br /><br />
 
-<div class='center'>![](/Events/GCC2013/Sponsorships/OtherBanner.png)</div>
+<div class='center'>![](/src/Events/GCC2013/Sponsorships/OtherBanner.png)</div>
 
 <div class='center'>
-<a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo1280.jpg' alt='Amazon Web Services' width="250" /></a><br />
+<a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" /></a><br />
 **[Training Day](/src/Events/GCC2014/TrainingDay/index.md) Sponsor**
 </div>
 <br />
@@ -131,15 +135,16 @@ Please [contact the organizers](/src/Events/GCC2014/Organizers/index.md) to make
 * Wifi
 * Printed program
 * ...
+
 </div>
 <br /><br />
 
-<div class='center'>![](/Events/GCC2013/Sponsorships/HostsBanner.png)
+<div class='center'>![](/src/Events/GCC2013/Sponsorships/HostsBanner.png)
 
 <br />
-<a href='http://biolchem.bs.jhmi.edu/'><img src='/Images/Logos/JohnsHopkinsBioChem.png' alt='Biological Chemistry @ Johns Hopkins'  /></a> &nbsp; 
-<a href='http://jhu.edu'><img src='/Images/Logos/JohnsHopkinsLogoLarge.gif' alt='Johns Hopkins University' height="100" /></a><br /><br />
-<a href='http://epigenetics.jhu.edu/'><img src='/Images/Logos/JohnHopkinsEpigenetics.jpg' alt='Center for Epigenetics' /></a>
+<a href='http://biolchem.bs.jhmi.edu/'><img src="/src/Images/Logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins"  /></a> &nbsp; 
+<a href='http://jhu.edu'><img src="/src/Images/Logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins University" height="100" /></a><br /><br />
+<a href='http://epigenetics.jhu.edu/'><img src="/src/Images/Logos/JohnHopkinsEpigenetics.jpg" alt="Center for Epigenetics" /></a>
 </div>
 
 ## Exhibitors
@@ -151,7 +156,8 @@ Your organization can also be an exhibitor at [GCC2014](/src/Events/GCC2014/inde
 * Single exhibit space (approx. 10 ft x 10 ft)
 * Table and two chairs
 * Power and wifi provided
+
 </div>
 <br /><br />
 
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Footer)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Footer/index.md)

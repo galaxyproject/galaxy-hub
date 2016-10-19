@@ -1,4 +1,4 @@
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Main Tool Shed' height="174" /></a> </div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a> </div>
 
 # Resetting metadata for tool shed repositories installed in Galaxy
 
@@ -10,8 +10,8 @@ Metadata for installed tool shed repositories cannot be regenerated automaticall
 
 The Galaxy administrator menu item for performing this task is labeled **Reset metadata for tool shed repositories**.  When clicked, a page like the following will be displayed.  You can use the **Select/unselect all repositories** check box to easily select all repositories to regenerate metadata, or you can select specific repositories.
 
-![](/reset_metadata_page.png)
+![](/src/ResettingMetadataForInstalledRepositories/reset_metadata_page.png)
 
 Clicking the **Reset metadata on selected repositories** button will use the current process to generate and store the information about the contents of each of your installed repositories.  This process may take a bit of time if you have a lot of repositories installed into your Galaxy instance.  The process for regenerating metadata is not ajaxian, so wait until the page redirects.  When the process has completed, you should see a page that looks something like this.
 
-![](/metadata_reset.png)
+![](/src/ResettingMetadataForInstalledRepositories/metadata_reset.png)

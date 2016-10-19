@@ -1,7 +1,7 @@
 ---
 autotoc: true
 ---
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Main Tool Shed' height="174" /></a></div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a></div>
 
 
 
@@ -80,7 +80,7 @@ The following scripts are available for inspecting and maintaining the repositor
 * **~/install_and_test_tool_shed_repositories.sh** - this shell script executes the test framework contained in ~/test/install_and_test_tool_shed_repositories. You can set certain environment variables (all defined within the install_and_test_tool_shed_repositories.sh shell script) to direct the test framework to inspect repositories contained within a specified tool shed and install them into a temporary Galaxy environment created by the test framework. The test framework will install only those repositories that have been flagged as having tools with valid functional tests by the ~/lib/tool_shed/scripts/check_repositories_for_functional_tests.py script discussed above. The repository will be installed into a clean Galaxy instance, each contained tool's functional tests will be executed, and the results will be uploaded to the repository so that users browsing the repository can see them. On the test and main tool sheds, there is also a configured list of repositories that the Galaxy development team has determined should not be installed. Some reasons this may be determined are tool dependencies that take longer than 30 minutes to compile or problems with the repository dependency definitions. If a repository has been defined not to be tested in this manner, the install_and_test_tool_shed_repositories script will skip that repository and move on to the next one in the list returned from the tool shed API.<br /><br />
 
  This script requires the following environment variables:<br />
- `GALAXY_INSTALL_TEST_TOOL_SHED_API_KEY` - must be set to the API key for the tool shed that is being checked. See [/Learn/API](/src/Learn/API/index.md) on how to obtain the API key.<br />
+ `GALAXY_INSTALL_TEST_TOOL_SHED_API_KEY` - must be set to the API key for the tool shed that is being checked. See [Learn/API](/src/Learn/API/index.md) on how to obtain the API key.<br />
  `GALAXY_INSTALL_TEST_TOOL_SHED_URL` - must be set to a URL that the tool shed is listening on.<br />
  If the tool shed with repositories being tested is not the Galaxy main or Galaxy test tool shed, `GALAXY_INSTALL_TEST_TOOL_SHEDS_CONF` must be set to a tool sheds configuration file that does specify that tool shed, otherwise repository installation will fail. Example:
  ```
@@ -97,7 +97,7 @@ Every revision of a repository in the Tool Shed that contains tools will be insp
 
 The combination of these two scripts will place the repository revision into one or more of the following categories.  The scripts will gather information while processing the repository revision and upload it to the Tool Shed so that users can see it when managing or reviewing the repository.  This information will be available in the **Tool test results** container along with a sub-container labeled **Automated test environment**.  Here is an example of a repository revision that displays these containers.
 
-![](/test_environment.png)
+![](/src/ToolShed/AutomatedToolTests/test_environment.png)
 
 * **missing tool test components** - this category contains repository revisions that match the following criteria:
 * the revision contains at least one tool with no defined tests OR
@@ -105,7 +105,7 @@ The combination of these two scripts will place the repository revision into one
 
 Here is an example of a repository revision that displays this container.
 
-![](/missing_test_components.png)
+![](/src/ToolShed/AutomatedToolTests/missing_test_components.png)
 
 * **tool test installation errors** - this category contains repository revisions that match the following criteria:
 * the revision contains at least one tool
@@ -114,7 +114,7 @@ Here is an example of a repository revision that displays this container.
 
 Here is an example of a repository revision that displays this container.
 
-![](/installation_errors.png)
+![](/src/ToolShed/AutomatedToolTests/installation_errors.png)
 
 * **failing tool tests** - this category contains repository revisions that match the following criteria:
 * the revision contains at least one tool
@@ -123,7 +123,7 @@ Here is an example of a repository revision that displays this container.
 
 Here is an example of a repository revision that displays this container.
 
-![](/failing_tool_tests.png)
+![](/src/ToolShed/AutomatedToolTests/failing_tool_tests.png)
 
 * **skip tool tests checked** - this category contains repository revisions that match the following criteria:
 * the revision contains at least one tool
@@ -131,7 +131,7 @@ Here is an example of a repository revision that displays this container.
 
 The owner of a repository can mark one or more specific revisions of a repository as one that should not be tested by the automated test framework.  Reasons for marking revisions to be skipped are varied, but usually 3rd party tool dependency licensing is involved.  Here is an example of the check box for marking a revision to be skipped.
 
-![](/skip_tool_tests.png)
+![](/src/ToolShed/AutomatedToolTests/skip_tool_tests.png)
 
 * **no failing tool tests** - this category contains repository revisions that match the following criteria:
 * the revision contains at least one tool
@@ -140,26 +140,26 @@ The owner of a repository can mark one or more specific revisions of a repositor
 
 Here is an example of a repository revision that displays this container.
 
-![](/no_failing_tool_tests.png)
+![](/src/ToolShed/AutomatedToolTests/no_failing_tool_tests.png)
 
 As mentioned above, each repository revision will be placed into one or more of these categories.  Here is an example of a revision that has some tool tests that pass and others that fail.
 
-![](/both_pass_and_fail.png)
+![](/src/ToolShed/AutomatedToolTests/both_pass_and_fail.png)
 
 # Viewing automated tool test results for the latest revision in the Tool Shed
 
 Lists of the latest installable repository revision that fall into each of the categories discussed above are available from the Tool Shed menu.  Repository owners can see how the latest installable revision of their repositories is categories using the menu options in the following section.
 
-![](/owner_latest_revision_lists.png)
+![](/src/ToolShed/AutomatedToolTests/owner_latest_revision_lists.png)
 
 Those users that are authorized to review repositories (i.e., members of the Intergalactic Utilities Commission) can see see how the latest installable revision of all repositories are categories using the menu options in the following section.
 
-![](/latest_revision_lists.png)
+![](/src/ToolShed/AutomatedToolTests/latest_revision_lists.png)
 
 # Automated Tool Test Results RSS Feed
 
 The automated testing framework produces data that is used to populate an RSS 2.0 feed generated by the tool shed. This RSS feed can then be used by any RSS-compatible feed reader to get updates on the status of a user's repositories and the tests that have been run against them.
-![RSS feed of the development team's repositories on the test tool shed, displayed in Firefox.](/RSSFeedScreenShotInFirefox.png)
+![RSS feed of the development team's repositories on the test tool shed, displayed in Firefox.](/src/ToolShed/AutomatedToolTests/RSSFeedScreenShotInFirefox.png)
 
 ## Accessing the feed
 

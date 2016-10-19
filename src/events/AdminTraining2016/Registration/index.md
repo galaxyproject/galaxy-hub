@@ -1,7 +1,7 @@
 ---
 title: Galaxy Admin Training Registration
 ---
-PLACEHOLDER_INCLUDE(/Events/AdminTraining2016/Header)
+PLACEHOLDER_INCLUDE(/src/Events/AdminTraining2016/Header/index.md)
 
 <br />
 <div class='center'>
@@ -13,7 +13,7 @@ PLACEHOLDER_INCLUDE(/Events/AdminTraining2016/Header)
 
 </div>
 
-<div class='right'><br />PLACEHOLDER_INCLUDE(/Events/AdminTraining2016/LinkBox)</div>
+<div class='right'><br />PLACEHOLDER_INCLUDE(/src/Events/AdminTraining2016/LinkBox/index.md)</div>
 
 
 
@@ -77,9 +77,9 @@ Registration is through [EventBrite](https://galaxyadmin2016.eventbrite.com).
 
 * Cancellations received after October 16 will not receive a refund.
 
-*Note that hotel reservations are a separate booking and are governed by the policies of the [University Guest House](/src/events/AdminTraining2016/Logistics/index.md).*
+*Note that hotel reservations are a separate booking and are governed by the policies of the [University Guest House](/src/Events/AdminTraining2016/Registration/Logistics/index.md).*
 
 
 
 
-PLACEHOLDER_INCLUDE(/events/AdminTraining2016/Footer)
+PLACEHOLDER_INCLUDE(/src/Events/AdminTraining2016/Registration/Footer/index.md)

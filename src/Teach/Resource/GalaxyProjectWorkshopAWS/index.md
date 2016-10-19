@@ -4,7 +4,7 @@ title: Galaxy Project Workshop CloudMan on AWS Share
 <span style="font-size: larger;"> Hey! This Is Under Construction! </span>
 
 <div class='center'>
-<br /><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' height="75" /></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' height="75" /></a><br /><br /></div>
+<br /><a href='/src/CloudMan/index.md'><img src="/src/Images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" height="75" /></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" height="75" /></a><br /><br /></div>
 
 
 
@@ -38,8 +38,8 @@ This page describes the current Galaxy Project workshop snapshot.  It's publicly
 To use the instance, you'll need to:
 
 1. Get an AWS account.  See xxxx for details on that.
-1. Launch a Galaxy instance on AWS, using either the [/AWS console interface](/AWS console interface), or [/CloudLaunch](/CloudLaunch)
-1. **However**, instead of allocating so many gigabytes of storage, launch your instance using the Galaxy Project Workshop share string (see above) as per [/these instructions](/these instructions)
+1. Launch a Galaxy instance on AWS, using either the [AWS console interface](/src/AWS console interface/index.md), or [CloudLaunch](/src/CloudLaunch/index.md)
+1. **However**, instead of allocating so many gigabytes of storage, launch your instance using the Galaxy Project Workshop share string (see above) as per [these instructions](/src/these instructions/index.md)
 
 This will launch a fully populated Galaxy server using the latest Galaxy AMI, but with data you'll need to run several standard examples we use in our training.
 

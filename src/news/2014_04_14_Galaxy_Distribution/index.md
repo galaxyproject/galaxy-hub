@@ -1,11 +1,8 @@
----
-date: 2014-04-14T13:59:24Z
----
 <div class='newsItemHeader'>[April 14, 2014 Galaxy Distribution](/src/News/2014_04_14_Galaxy_Distribution/index.md)</div>
 <div class='right'>
 <table>
   <tr>
-    <td> <a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2014_04_14_trackster-deep.png' alt='Trackster Vis' width="300" /></a> </td>
+    <td> <a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2014_04_14_trackster-deep.png" alt="Trackster Vis" width="300" /></a> </td>
   </tr>
 </table>
 
@@ -21,10 +18,9 @@ date: 2014-04-14T13:59:24Z
 * More features for admin functions, config options, and job controls
 * 18 new community contributions incorporated (big thanks!)
 
-
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
@@ -53,5 +49,6 @@ date: 2014-04-14T13:59:24Z
 
 [The Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-04-14</div>
 
 CategoryNews

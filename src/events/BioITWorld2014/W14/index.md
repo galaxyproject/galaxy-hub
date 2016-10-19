@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: Workshop 14, :,  Running a Local Galaxy Instance
+title: Workshop 14: Running a Local Galaxy Instance
 ---
 
 [Adam Kraut](http://bioteam.net/company-leadership/), [Nate Coraor](/src/nate/index.md), [Anushka Brownley](http://bioteam.net/company-leadership/), Tristan Lubinski, [James Reaney](http://www.sgi.com/solutions/genomics)
@@ -8,7 +8,7 @@ title: Workshop 14, :,  Running a Local Galaxy Instance
 <br />
 ![](https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png) #usegalaxy #BioIT2014
 
-This page covers the follow-along steps of the workshop. Other material from the workshop may be found on  [/Events/BioITWorld2014](/src/Events/BioITWorld2014/index.md) or [the Bio-IT World Expo workshop details page](http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135152).
+This page covers the follow-along steps of the workshop. Other material from the workshop may be found on  [Events/BioITWorld2014](/src/Events/BioITWorld2014/index.md) or [the Bio-IT World Expo workshop details page](http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135152).
 
 
 
@@ -40,8 +40,7 @@ The virtual machines are running a bare installation of Ubuntu 14.04 LTS.
 
 The Galaxy distribution is found at [https://bitbucket.org/galaxy/galaxy-dist/](https://bitbucket.org/galaxy/galaxy-dist/), but for the purposes of this workshop, we'll use a trimmed version to decrease the time it takes to clone.
 
-```
-#!highlight console
+```console
 ubuntu@bioit:~$ hg clone https://bitbucket.org/natefoo/galaxy-bioit galaxy-dist
 The program 'hg' is currently not installed. You can install it by typing:
 sudo apt-get install mercurial
@@ -51,8 +50,7 @@ ubuntu@bioit:~$
 
 An introduction to the system package manager (APT):
 
-```
-#!highlight console
+```console
 ubuntu@bioit:~$ sudo apt-get update
 [sudo] password for ubuntu: galaxy
   ...
@@ -69,8 +67,7 @@ ubuntu@bioit:~$
 
 Trying again:
 
-```
-#!highlight console
+```console
 ubuntu@bioit:~$ hg clone https://bitbucket.org/natefoo/galaxy-bioit galaxy-dist
 requesting all changes
 adding changesets
@@ -91,8 +88,7 @@ ubuntu@bioit:~/galaxy-dist$
 
 ## Update to the stable branch
 
-```
-#!highlight console
+```console
 ubuntu@bioit:~$ cd galaxy-dist
 ubuntu@bioit:~/galaxy-dist$ hg update stable
 0 files updated, 0 files merged, 0 files removed, 0 files unresolved
@@ -102,8 +98,7 @@ ubuntu@bioit:~/galaxy-dist$
 
 ## Start Galaxy
 
-```
-#!highlight console
+```console
 ubuntu@bioit:~/galaxy-dist$ sh run.sh
 Initializing datatypes_conf.xml from datatypes_conf.xml.sample
   ...
@@ -122,8 +117,7 @@ serving on http://127.0.0.1:8080
 
 Stop Galaxy by hitting `CTRL-c`:
 
-```
-#!highlight console
+```console
 serving on http://127.0.0.1:8080
 ^Cgalaxy.jobs.handler INFO 2014-04-23 13:27:59,203 sending stop signal to worker thread
 galaxy.jobs.handler INFO 2014-04-23 13:27:59,204 job handler queue stopped
@@ -138,24 +132,21 @@ ubuntu@bioit:~/galaxy-dist$
 
 Edit the primary Galaxy configuration file, `universe_wsgi.ini`. If you are not familiar with `vi`, I suggest using `nano` instead.
 
-```
-#!highlight console
+```console
 ubuntu@bioit:~/galaxy-dist$ vi universe_wsgi.ini
 ```
 
 
 In the `[server:main]` section, uncomment `#host = 127.0.0.1` and set:
 
-```
-#!highlight ini
+```ini
 host = 0.0.0.0
 ```
 
 
 While we are in the config, we should set two options necessary for the next section. The file is large and it's easiest to search for these (`/<pattern>` in vi, `CTRL-w` `<pattern>` in nano):
 
-```
-#!highlight ini
+```ini
 [app:main]
 admin_users = nate@bx.psu.edu
 tool_dependency_dir = /home/ubuntu/tool_deps
@@ -164,8 +155,7 @@ tool_dependency_dir = /home/ubuntu/tool_deps
 
 Then save and quit (`CTRL-x` `y` `ENTER` in nano). Start Galaxy again:
 
-```
-#!highlight console
+```console
 ubuntu@bioit:~/galaxy-dist$ sh run.sh
   ...
 Starting server in PID 3298.
@@ -288,7 +278,7 @@ Reload the Galaxy interface if your 3rd party cookies were not previously enable
   * Building indexes on the command line
   * `.loc` files
   * `tool_data_table_conf.xml`
-  * Example of the above with bwa and S. cerevisiae (sacCer2) [transcript](#adding-local-data-by-hand)
+  * Example of the above with bwa and S. cerevisiae (sacCer2) [transcript](/src/Events/BioITWorld2014/W14/index.md#adding-local-data-by-hand)
 * Galaxy Data Managers
 
 ### Adding local data with a Galaxy Data Manager
@@ -327,12 +317,12 @@ Upon completion:
 ### References
 
 * [(Manual) index building](/src/Admin/DataPreparation/index.md)
-* [(Manual) data integration](/Admin/DataIntegration)
+* [(Manual) data integration](/src/Admin/DataIntegration/index.md)
 * [Automated data management with Data Managers](/src/Admin/Tools/DataManagers/index.md)
 
 # Setting up a Local Galaxy Tutorial (Part II)
 
-Documentation for the features used in this section can be found at [usegalaxy.org/production](https://usegalaxy.org/production) (forwards to [/Admin/Config/Performance/ProductionServer](/src/Admin/Config/Performance/ProductionServer/index.md))
+Documentation for the features used in this section can be found at [usegalaxy.org/production](https://usegalaxy.org/production) (forwards to [Admin/Config/Performance/ProductionServer](/src/Admin/Config/Performance/ProductionServer/index.md))
 
 ## Install and configure PostgreSQL
 
@@ -349,6 +339,7 @@ Creating new cluster 9.3/main ...
   port   5432
 * Starting PostgreSQL 9.3 database server
     ...done.
+
 ubuntu@bioit:~$ sudo -u postgres createuser galaxy
 ubuntu@bioit:~$ sudo -u postgres createdb -O galaxy galaxy
 ```
@@ -477,7 +468,7 @@ Explanations of these options:
 Honorable mentions for features we won't use today but that are common in big setups:
 
 * `ftp_upload_dir` and `ftp_upload_site` - Allow users to upload data to the server using FTP
-* `use_remote_user` and `remote_user_maildomain` - Use your institution's existing authentication system to log in to Galaxy. [Apache documentation](/Admin/Config/ExternalUserDatbases) or [nginx documentation](/Admin/Config/nginxProxy#external_user_authentication)
+* `use_remote_user` and `remote_user_maildomain` - Use your institution's existing authentication system to log in to Galaxy. [Apache documentation](/src/Admin/Config/ExternalUserDatbases/index.md) or [nginx documentation](/src/Admin/Config/nginxProxy/index.md#external_user_authentication)
 * `allow_user_impersonation` - Users configured as administrators (with `admin_users`) can "become" other users to view Galaxy exactly as the impersonated user does. Useful for providing support.
 * `library_import_dir` - Administrators can directly import datasets from this directory on the server to Data Libraries.  This includes an option that allows an effective "symlink" to the data, rather than copying it in to Galaxy's `file_path` directory. [documentation](/src/Admin/DataLibraries/UploadingLibraryFiles/index.md)
 * `user_library_import_dir` - Non-administrators can directly import datasets from this directory on this server to Data Libraries from which they have been given write permission. [documentation](/src/Admin/DataLibraries/UploadingLibraryFiles/index.md)

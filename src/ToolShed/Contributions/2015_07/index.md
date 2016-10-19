@@ -6,7 +6,7 @@ title: June and July 2015 Tool Shed Contributions
 
 <div class='right'></div>
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=200 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=200 /></a></div>
 Tools contributed to the Galaxy Project Tool Shed in June and July 2015.
 
 In no particular order:
@@ -32,7 +32,7 @@ In no particular order:
 
 * *From [pjbriggs](https://toolshed.g2.bx.psu.edu/view/pjbriggs):*
   * [ceas](https://toolshed.g2.bx.psu.edu/view/pjbriggs/ceas): initial version 1.0.2-2 CEAS Cis-regulatory Element Annotation System CEAS can be characterize genome-wide protein-DNA interaction patterns from ChIP-chip and ChIP-Seq of both sharp and broad binding factors.
-   
+
        This tool uses the version of CEAS included in the Cistrome package which can handle bigWig input, and includes a data manager to download or create the gene annotation table files.
 * [rnachipintegrator](https://toolshed.g2.bx.psu.edu/view/pjbriggs/rnachipintegrator): initial version 0.4.4. Utility for integrating sets of genomic features (e.g. canonical genes, CpG islands) with expression data  !RnaChipIntegrator is a utility that performs integrated analyses of gene expression and ChIP data, identifying the nearest ChIP peaks to each transcript, and vice versa. Output of !RnaChipIntegrator differs according to the criteria that are used to calculate the distances between ChIP peaks and transcripts.
 * [macs21](https://toolshed.g2.bx.psu.edu/view/pjbriggs/macs21): initial version 2.1.0-4. MACS 2.1.0 (Model-based Analysis of ChIP-Seq) peak calling Galaxy tool used at UoM Tool wrapper for running the peak calling function of MACS 2.1.0 (Model-based Analysis of ChIP-Seq), as used at the Bioinformatics Core Facility at the University of Manchester.
@@ -82,7 +82,6 @@ In no particular order:
 * *From [sauria](https://toolshed.g2.bx.psu.edu/view/sauria):*
   * [hifive](https://toolshed.g2.bx.psu.edu/view/sauria/hifive): planemo upload for repository https://github.com/bxlab/galaxy_tools/suites/suite_hifive commit abaefa638db82abe90f335d783c9503dce28944f-dirty Contains tools for reading, normalizing, and plotting HiC and 5C chromatin interaction data !HiFive is a set of tools for handling HiC and 5C data. This includes managing data from mapped reads, either in bam, mat, or raw formats. All stages use hdf5 dictionaries for fast access and minimal memory and storage usage.
 
-
 * *From [cmonjeau](https://toolshed.g2.bx.psu.edu/view/cmonjeau):*
   * [archive_datatypes](https://toolshed.g2.bx.psu.edu/view/cmonjeau/archive_datatypes): Imported from capsule None Some archive datatypes Contains zip, tar.gz, tar.bz2, fastq.gz, fastq.bz2
   * [kissplice](https://toolshed.g2.bx.psu.edu/view/cmonjeau/kissplice): Imported from capsule None Colibread / !KisSplice !KisSplice : a local transcriptome assembler for SNPs, indels and AS events
@@ -128,7 +127,7 @@ In no particular order:
      http://seq.cs.iastate.edu/
 
 * [cherry_pick_fasta](https://toolshed.g2.bx.psu.edu/view/drosofff/cherry_pick_fasta): planemo upload for repository https://bitbucket.org/drosofff/gedtools/ Pick fasta sequence with specific header content This tool takes a collection of fasta sequences as an input and select those that satisfy a query match in their header/name
-   
+
      A subset of fasta sequence satisfying the query is returned
 
 * [blastn_to_scaffold](https://toolshed.g2.bx.psu.edu/view/drosofff/blastn_to_scaffold): planemo upload for repository https://bitbucket.org/drosofff/gedtools/ Generate DNA scaffold from blastn alignment of Contigs This tool start from DNA contigs that aligned to a subject DNA sequence through blastn.
@@ -172,7 +171,6 @@ In no particular order:
 * *From [yhoogstrate](https://toolshed.g2.bx.psu.edu/view/yhoogstrate):*
   * [unafold](https://toolshed.g2.bx.psu.edu/view/yhoogstrate/unafold): planemo upload for repository https://github.com/ErasmusMC-Bioinformatics/unafold_galaxy_wrapper commit 84b70c01144fa018db45215941fb395798376100-dirty UNAFold: software for nucleic acid folding and hybridization. The UNAFold software package is an integrated collection of programs that simulate folding, hybridization, and melting pathways for one or two single-stranded nucleic acid sequences. The name is derived from "Unified Nucleic Acid Folding." Folding (secondary structure) prediction for single-stranded RNA or DNA combines free energy minimization, partition function calculations and stochastic sampling. For melting simulations, the package computes entire melting profiles, not just melting temperatures. UV absorbance at 260 nm, heat capacity change (C(p)), and mole fractions of different molecular species are computed as a function of temperature. The package installs and runs on all Unix and Linux platforms that we have looked at, including Mac OS X. Images of secondary structures, hybridizations, and dot plots may be computed using common formats. Similarly, a variety of melting profile plots is created when appropriate. These latter plots include experimental results if they are provided. The package is "command line" driven. Underlying compiled programs may be used individually, or in special combinations through the use of a variety of Perl scripts. Users are encouraged to create their own scripts to supplement what comes with the package. This evolving software is available for download at http://www.bioinfo.rpi.edu/applications/hybrid/download.php .
 
-
 * *From [crusoe](https://toolshed.g2.bx.psu.edu/view/crusoe):*
   * [oxli_datatypes](https://toolshed.g2.bx.psu.edu/view/crusoe/oxli_datatypes): planemo upload commit d8e0950d53e504e02ee5db43c0804142b14d7fd2-dirty Datatypes for the oxli/khmer project 
   * [khmer](https://toolshed.g2.bx.psu.edu/view/crusoe/khmer): planemo upload for repository https://github.com/galaxyproject/tools-iuc/blob/master/tools/khmer/ commit d8e0950d53e504e02ee5db43c0804142b14d7fd2-dirty In-memory nucleotide sequence k-mer counting, filtering, graph traversal and more khmer is a library and suite of command line tools for working with DNA sequence. It is primarily aimed at short-read sequencing data such as that produced by the Illumina platform. khmer takes a k-mer-centric approach to sequence analysis, hence the name.
@@ -183,7 +181,6 @@ In no particular order:
 
 * Discussion http://lists.idyll.org/listinfo/khmer
 * Announcements http://lists.idyll.org/listinfo/khmer-announce
-
 
 * *From [bobbledavidson](https://toolshed.g2.bx.psu.edu/view/bobbledavidson):*
   * [beagle4_0](https://toolshed.g2.bx.psu.edu/view/bobbledavidson/beagle4_0): link to Beagle4.0 jar added Beagle version 4.0 performs genotype calling, genotype phasing, imputation of ungenotyped markers, and identity-by-descent segment detection. Beagle version 4.0 performs genotype calling, genotype phasing, imputation of ungenotyped markers, and identity-by-descent segment detection.
@@ -250,7 +247,6 @@ In no particular order:
   * [package_fastme_2_1_4](https://toolshed.g2.bx.psu.edu/view/gandres/package_fastme_2_1_4): FastME version 2.1.4 dependency package 
   * [package_readseq_jar_10_03_13](https://toolshed.g2.bx.psu.edu/view/gandres/package_readseq_jar_10_03_13): readseq.jar 13 Mar 10 version 
 
-
 ### Select Updates
 
 * *From [simon-gladman](https://toolshed.g2.bx.psu.edu/view/simon-gladman):*
@@ -261,3 +257,4 @@ In no particular order:
 
 * *From [george-weingart](https://toolshed.g2.bx.psu.edu/view/george-weingart):*
   * [lefse](https://toolshed.g2.bx.psu.edu/view/george-weingart/lefse): Fixed bug due to numerical approximation after normalization affecting root-level clades (e.g. &#34;Bacteria&#34; or &#34;Archaea&#34;)
+

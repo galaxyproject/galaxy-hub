@@ -18,7 +18,6 @@ In no particular order:
 * *From [mvdbeek](https://toolshed.g2.bx.psu.edu/view/mvdbeek):*
   * [mismatch_frequencies](https://toolshed.g2.bx.psu.edu/view/mvdbeek/mismatch_frequencies): planemo upload for repository https://bitbucket.org/drosofff/gedtools/ calculate mismatch frequencies for individual nucleotide mismatches Given a set of aligned reads in BAM/SAM format, calculates and plots the frequency of all possible nucleotide mismatches with respect to the reference sequence.
 
-
 * *From [rnateam](https://toolshed.g2.bx.psu.edu/view/rnateam):*
   * [dorina](https://toolshed.g2.bx.psu.edu/view/rnateam/dorina):  data source for RNA interactions in post-transcriptional regulation The expression of almost all genes in animals is subject to post-transcriptional regulation by RNA binding proteins (RBPs) and microRNAs (miRNAs). The interactions between both RBPs and miRNAs with mRNA can be mapped on a whole-transcriptome level using experimental and computational techniques.<br />doRiNA is a RESTful webservice that collects data from such experiments.
 
@@ -36,7 +35,6 @@ In no particular order:
 * [package_stringtie_1_0_3](https://toolshed.g2.bx.psu.edu/view/iuc/package_stringtie_1_0_3): planemo upload for repository https://github.com/galaxyproject/tools-iuc/tree/master/packages/package_stringtie_1_0_3 commit 92a9d47a3807a276aa98a38d38e6f0f8caa12389 Contains a tool dependency definition that downloads and installs version 1.0.3 of the stringtie RNA-seq assembler. StringTie is a fast and highly efficient assembler of RNA-Seq alignments into potential transcripts. It uses a novel network flow algorithm as well as an optional de novo assembly step to assemble and quantitate full-length transcripts representing multiple splice variants for each gene locus. Its input can include not only the alignments of raw reads used by other transcript assemblers, but also alignments longer sequences that have been assembled from those reads.To identify differentially expressed genes between experiments, StringTie's output can be processed either by the Cuffdiff or Ballgown programs. 
 * [rgrnastar](https://toolshed.g2.bx.psu.edu/view/iuc/rgrnastar): planemo upload for repository https://github.com/galaxyproject/tools-iuc/tree/master/tools/rgrnastar commit 13522d2ad2efbb8dab405723f491bd1a6591e3ef RNA STAR 2.4 WARNING! This will eat all your cluster node RAM and then some.<br /><br />hg19 uses about 30GB but it's really fast. See http://gettinggeneticsdone.blogspot.com.au/2012/11/star-ultrafast-universal-rna-seq-aligner.html<br /><br />You also need a new set of genome indexes. Sigh. So you have to build those yourself until I figure out how to make an index manager.<br /><br />Most of this wrapper was originally written by Jeremy Goecks, with kibbitzing and automated dependency installation by Ross Lazarus.
 
-
 * *From [jeremyjliu](https://toolshed.g2.bx.psu.edu/view/jeremyjliu):*
   * [region_motif_data_manager](https://toolshed.g2.bx.psu.edu/view/jeremyjliu/region_motif_data_manager):  Installs motif databases and reference files for use with region_motif_enrichment. Companion data manager to region_motif_enrichment. Installs motif databases in tabix format and reference motifs in meme format that are provided as standard databases for region_motif_enrichment.
 
@@ -52,7 +50,6 @@ In no particular order:
 
 * [fuma](https://toolshed.g2.bx.psu.edu/view/yhoogstrate/fuma): planemo upload for repository https://bitbucket.org/EMCbioinf/galaxy-tool-shed-tools/raw/master/fuma commit f56125b28ec44aa28943ed040b7b202fed9c875b-dirty FuMa: match RNA-Seq detected fusion genes from several detection tools<br /> FuMa: match RNA-Seq detected fusion genes from several detection tools
 
-
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
   * [gffread](https://toolshed.g2.bx.psu.edu/view/devteam/gffread): planemo upload commit a52cc16ed8d0d60e99742b55fccbdedcbb64b82c cufflinks gffread filters and/or converts GFF3/GTF2 records cufflinks gffread filters and/or converts GFF3/GTF2 records and can produce cdna, CDS, peptide fasta sequences
   * [data_manager_picard_index_builder](https://toolshed.g2.bx.psu.edu/view/devteam/data_manager_picard_index_builder): planemo upload commit e4c87b7392ace0d6ac5ba2d926e1dd176f987985 data_manager_picard_index_builder data_manager_picard_index_builder
@@ -64,6 +61,7 @@ In no particular order:
 * [msp_sr_bowtie_cascade](https://toolshed.g2.bx.psu.edu/view/drosofff/msp_sr_bowtie_cascade): planemo upload for repository https://bitbucket.org/drosofff/gedtools/ Maps iteratively small RNA sequencing datasets to reference sequences. Maps iteratively small RNA sequencing datasets to reference sequences, in order to generate annotation of these datasets.
 
 * [yac_clipper](https://toolshed.g2.bx.psu.edu/view/drosofff/yac_clipper): planemo upload for repository https://bitbucket.org/drosofff/gedtools/ Clips 3' adapters for small RNA sequencing reads. Clips 3' adapters for small RNA sequencing reads. Supports
+
 fasta and fastq output
 
 
@@ -77,10 +75,8 @@ fasta and fastq output
   * [package_tophat_2_0_14](https://toolshed.g2.bx.psu.edu/view/iuc/package_tophat_2_0_14):  Contains a tool dependency definition that downloads and compiles version 2.0.14 of TopHat2. TopHat is a fast splice junction mapper for RNA-Seq reads. It aligns RNA-Seq reads to mammalian-sized genomes using the ultra high-throughput short read aligner Bowtie, and then analyzes the mapping results to identify splice junctions between exons.
   * [package_augustus_3_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_augustus_3_1):  Contains a tool dependency definition that downloads and compiles version 3.1 of Augustus AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and Oliver Keller.  It can be used as an ab initio program, which means it bases its prediction purely on the sequence. AUGUSTUS may also incorporate hints on the gene structure coming from extrinsic sources such as EST, MS/MS, protein alignments and synthenic genomic alignments.<br /><br />http://bioinf.uni-greifswald.de/augustus/
 
-
 * *From [geert-vandeweyer](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer):*
   * [package_twobittofa](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/package_twobittofa):  twoBitToFa dependency 
-
 
 ### Select Updates
 
@@ -92,7 +88,6 @@ fasta and fastq output
 
 * *From [iracooke](https://toolshed.g2.bx.psu.edu/view/iracooke):*
   * [proteomics_datatypes](https://toolshed.g2.bx.psu.edu/view/iracooke/proteomics_datatypes): planemo upload commit 4f23896d1a519a87f189c6238a95b8f5b5933e9a-dirty; Fix splib sniffer; Make splib a composite datatype
-
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [stringtie](https://toolshed.g2.bx.psu.edu/view/iuc/stringtie): planemo uploads for:
@@ -116,3 +111,4 @@ fasta and fastq output
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [package_ruby_2_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_ruby_2_0): planemo upload for repository https://github.com/galaxyproject/tools-iuc/tree/master/packages/package_ruby_2_0 commit 543b8d28d5f84f5b8ac31b3aa05f68a7b4094d66-dirty
   * [package_libcurl_7_35](https://toolshed.g2.bx.psu.edu/view/iuc/package_libcurl_7_35): planemo upload for repository https://github.com/galaxyproject/tools-iuc/tree/master/packages/package_libcurl_7_35 commit 95f2ea5e8103ac2bec5e8a67409a8139db1bbd98
+

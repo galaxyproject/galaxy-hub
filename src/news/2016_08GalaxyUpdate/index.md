@@ -1,10 +1,7 @@
----
-date: 2016-07-29T16:01:10Z
----
 <div class='newsItemHeader'>[August 2016 Galactic News](/src/News/2016_08GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/GalaxyUpdates/2016_08'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=140 /></a><br /><br />
+<a href='/src/GalaxyUpdates/2016_08/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=140 /></a><br /><br />
 </div>
 
 The **[August Galaxy News](/src/GalaxyUpdates/2016_08/index.md) is out:**
@@ -22,5 +19,6 @@ The **[August Galaxy News](/src/GalaxyUpdates/2016_08/index.md) is out:**
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-07-29</div>
 
 CategoryNews

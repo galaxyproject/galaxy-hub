@@ -1,8 +1,9 @@
 # Cloud Computing for the Microbiome Workshop Notes
 
-Comprehensive documentation can be found at [/CloudMan](/src/CloudMan/index.md).
+Comprehensive documentation can be found at [CloudMan](/src/CloudMan/index.md).
 
 #### Quick start
+
 Start at [Galaxy Cloud Launch](https://main.g2.bx.psu.edu/cloudlaunch )
 Enter AWS Credentials (AWS Key ID and Secret)
 * Cluster Name - A name for your cluster.
@@ -15,7 +16,6 @@ Navigate to the URL presented on the confirmation page to configure your cluster
 * To create an exact copy of the instance from our workshop demo, click "advanced options", and enter the Instance Share String below
 * OR, to create a regular Galaxy cluster, just enter how much space(in gigabytes) you'd like to have to work with.
 
-
 **Instance Share String:** `cm-e49d0cbc21a77988d38b0d13890eee8f/shared/2012-04-03--19-54/`
 
 
@@ -24,13 +24,14 @@ At this point, just wait a few seconds and you're ready to go when the "Access G
 **Additional Links**
 * [QIIME tutorial used in the demo](http://qiime.org/tutorials/tutorial.html )
 * [Archaeopteryx Tree Viewer ](http://www.phylosoft.org/archaeopteryx/ )
+
 <br /><br /><br /><br />
 
 #### For Advanced Users - Getting the workshop data (Titus' snapshot) in to Galaxy
 
-Documentation covering Galaxy Data Libraries can be found at [/Admin/DataLibraries/Libraries](/Admin/DataLibraries/Libraries)
+Documentation covering Galaxy Data Libraries can be found at [Admin/DataLibraries/Libraries](/src/Admin/DataLibraries/Libraries/index.md)
 
-Specific documentation covering options for uploading to be libraries can be found at [/Admin/DataLibraries/UploadingLibraryFiles](/src/Admin/DataLibraries/UploadingLibraryFiles/index.md)
+Specific documentation covering options for uploading to be libraries can be found at [Admin/DataLibraries/UploadingLibraryFiles](/src/Admin/DataLibraries/UploadingLibraryFiles/index.md)
 
 This currently requires creating a volume from the AWS Console and mounting via the instance's shell (via ssh).
 
@@ -48,3 +49,4 @@ This currently requires creating a volume from the AWS Console and mounting via 
 * From **Upload option**, select **Upload files from filesystem paths**.
 * In **Paths to upload**, enter the path(s) (`/mnt/workshopData/...`) to files or directories that you would like to import.
 * Click **Upload to library**.
+

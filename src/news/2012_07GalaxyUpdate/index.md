@@ -1,9 +1,6 @@
----
-date: 2012-06-28T21:54:24Z
----
 <div class='newsItemHeader'>[July 2012 Galaxy Update](/src/News/2012_07GalaxyUpdate/index.md)</div>
 
-<div class='right'><a href='/GalaxyUpdates/2012_07'><img src='/Images/Logos/GalaxyUpdate200.png' alt='July 2012 Galaxy Update' width=150 /></a></div>
+<div class='right'><a href='/src/GalaxyUpdates/2012_07/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="July 2012 Galaxy Update" width=150 /></a></div>
 
 The [July 2012 Galaxy Update is now available](/src/GalaxyUpdates/2012_07/index.md). 
 
@@ -21,12 +18,13 @@ The [July 2012 Galaxy Update is now available](/src/GalaxyUpdates/2012_07/index.
 * [A new CloudMan distribution was released last month](/src/GalaxyUpdates/2012_07/index.md#new-distributions)
 * [Plus](/src/GalaxyUpdates/2012_07/index.md#other-news)
   * Easily wrap your R functions as Galaxy tools
-  * help schedule the first [GalaxyCzars](/Community/GalaxyCzars) conference call on July 9 or 10
+  * help schedule the first [GalaxyCzars](/src/Community/GalaxyCzars/index.md) conference call on July 9 or 10
   * and lots of new screencasts, tutorials, and new genomes on main 
 
 If you have anything you would like to see in the August *[Galaxy Update](/src/GalaxyUpdates/index.md)*, please let me know.
 
 [Dave Clements](/src/DaveClements/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-06-28</div>
 
 CategoryNews

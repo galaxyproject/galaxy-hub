@@ -6,15 +6,15 @@ title: Introduction to Galaxy
 
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.cbmg.umd.edu/'><img src='/Images/Logos/UMarylandBioLogo.png' alt='Department of Cell Biology and Molecular Genetics'  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.cbmg.umd.edu/'><img src="/src/Images/Logos/UMarylandBioLogo.png" alt="Department of Cell Biology and Molecular Genetics"  /></a> </td>
     <td style=" border: none; text-align: center; vertical-align: middle; width: 10%;"> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.cbcb.umd.edu/'><img src='/Images/Logos/CBCBLogo.png' alt='Center for Bioinformatics & Computational Biology' width="300" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.cbcb.umd.edu/'><img src="/src/Images/Logos/CBCBLogo.png" alt="Center for Bioinformatics & Computational Biology" width="300" /></a> </td>
   </tr>
   <tr>
     <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://umd.edu/'><img src='/Images/Logos/UMarylandLogoLong349.gif' alt='University of Maryland' width="300" /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://umd.edu/'><img src="/src/Images/Logos/UMarylandLogoLong349.gif" alt="University of Maryland" width="300" /></a> </td>
   </tr>
 </table>
 
@@ -32,6 +32,7 @@ Bioscience Research Building, Room 1103**
 Registration [is open](http://www.cbmg.umd.edu/news/events/posts/794). You'll need your Maryland dirID and password to register.
 
 ## Audience
+
 Are you a biomedical researcher who needs to do complex analysis on large datasets?
 
 Galaxy is an open, web-based platform for data intensive biomedical research that enables non-bioinformaticians to create, run, tune, and share their own bioinformatic analyses.
@@ -83,13 +84,14 @@ No programming or Linux command line experience is required.
 The [slides for the lecture part of the workshop are now available](ATTACHMENT_URLDocuments/Presentations/2012_UMarylandWorkshop.pdf).
 
 ## Support
-<div class='right'><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a></div>
+
+<div class='right'><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [Department of Cell Biology and Molecular Genetics](http://www.cbmg.umd.edu/) and the [Center for Bioinformatics & Computational Biology](http://www.cbcb.umd.edu/).
 
 ## Questions?
 
-Contact Galaxy Outreach [outreach@galaxyproject.org](outreach@galaxyproject.org).
+Contact Galaxy Outreach [mailto:outreach@galaxyproject.org](outreach@galaxyproject.org).
 
 ## Feedback
 

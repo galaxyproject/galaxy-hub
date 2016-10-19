@@ -1,5 +1,4 @@
-
-<div class='right'>![](/GalaxyTeam/Mo.jpg)</div>
+<div class='right'>![](/src/GalaxyTeam/Mo.jpg)</div>
 
 # Mo Heydarian
 
@@ -16,5 +15,5 @@
 </table>
 
 
----
+----
 CategoryHomepage

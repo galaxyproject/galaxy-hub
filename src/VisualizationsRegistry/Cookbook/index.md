@@ -6,6 +6,7 @@ autotoc: true
 
 
 ## Configuration
+
 ### I want my visualization to work on datasets of more than one type
 
 You want to have your visualization to only be available for datasets from a history that are either a BED or GFF
@@ -66,7 +67,7 @@ attribute `creating_job`, then the `tool_id` attribute of that job.
 You're creating a visualization that uses intervals. No matter what the datatype of dataset is, if each datum
 contains a 'chrom', 'start', and 'end' entry the visualization can use it.
 
-[/DataProviders](/src/DataProviders/index.md) yield data in configurable ways and many dataset datatypes have them. One format they can yield is the
+[DataProviders](/src/DataProviders/index.md) yield data in configurable ways and many dataset datatypes have them. One format they can yield is the
 'interval' type of data which yields the three values needed. You can use the `type="has_dataprovider"` test to see
 if a dataset (or any data source) has this data provider:
 ```xml
@@ -86,20 +87,24 @@ Note: since dataproviders are attributes of a dataset's datatype we need to set 
 ```wiki comment
 ### I want my visualization to be able to load saved visualizations
 
-
 ## Data and how to get it
+
 ### I just want the raw data - I'll parse it myself
+
 ### I want to get data into a python list
+
 ### I want to get data into javascript
 
-
 ## Constructing a visualization using python
+
 ### My visualization will use HTML
+
 ### My visualization will use SVG
+
 ### My visualization will use an image
 
-
 ## Constructing a visualization using javascript
+
 ```
 
 
@@ -163,7 +168,7 @@ require([
 ### How can I add a way for the user to select a different (or additional) datasets?
 
 The javascript libraries for Galaxy have code to create a javascript control to do this. See the section
-[above](#how_can_i_use_some_of_the_javascript_ui_elements_galaxy_uses_in_my_visualization3f)
+[above](/src/VisualizationsRegistry/Cookbook/index.md#how_can_i_use_some_of_the_javascript_ui_elements_galaxy_uses_in_my_visualization3f)
 for information on how to include Galaxy UI components. From within your mako template or scripts, you can
 then use this to allow a user dataset choice from datasets in the user's current history:
 ```javascript
@@ -211,7 +216,10 @@ See: [this example repository](https://bitbucket.org/carlfeberhard/galaxy-visual
 
 ```wiki comment
 ### How can I allow user interaction without knowing or using javascript?
+
 ### How can I add a way for the user to save a visualization using python?
+
 ### How can I add a way for the user to save visualization over the API or with javascript?
+
 ```
 

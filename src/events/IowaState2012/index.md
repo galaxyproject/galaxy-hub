@@ -3,7 +3,7 @@
 
 <table>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://iastate.edu/'><img src='/Images/Logos/IowaState.png' alt='Iowa State University'  /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://iastate.edu/'><img src="/src/Images/Logos/IowaState.png" alt="Iowa State University"  /></a> </td>
   </tr>
 </table>
 
@@ -21,6 +21,7 @@ A workshop for the Iowa State community supported by<br />[ISU Bioinformatics an
 Registration was *free, and open to anyone in the Iowa State community*.  However, space was limited.
 
 ## Audience
+
 Are you a biomedical researcher who needs to do complex analysis on large datasets?
 
 Galaxy is an open, web-based platform for data intensive biomedical research that enables non-bioinformaticians to create, run, tune, and share their own bioinformatic analyses.
@@ -91,7 +92,8 @@ The draft agenda is:
 * [Introduction to Galaxy](ATTACHMENT_URLDocuments/Presentations/2012_IowaStateIntroToGalaxy.pdf)
 
 ## Support
-<div class='right'><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a></div>
+
+<div class='right'><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [ISU Bioinformatics and Computational Biology program](http://www.bcb.iastate.edu/) / NSF-IGERT.
 
@@ -102,4 +104,4 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Questions?
 
-Contact Galaxy Outreach @ [outreach@galaxyproject.org](outreach@galaxyproject.org).
+Contact Galaxy Outreach @ [mailto:outreach@galaxyproject.org](outreach@galaxyproject.org).

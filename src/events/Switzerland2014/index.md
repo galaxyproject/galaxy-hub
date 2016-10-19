@@ -1,16 +1,17 @@
 ---
-title:  2nd Swiss Galaxy Workshop, ,,  Wednesday, ,,  October 1st, ,,  Bern 
+title:  2nd Swiss Galaxy Workshop, Wednesday, October 1st, Bern 
 ---
-PLACEHOLDER_INCLUDE(/Events/SG2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/SG2014/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Events/SG2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/SG2014/LinkBox/index.md)
 
 After the big success of the [first Swiss Galaxy Workshop two years ago](/src/Events/Switzerland2012/index.md), we are going to organize a similar event again in fall 2014.
 
 
 ## Audience
+
 This workshop is aimed at Galaxy administrators and users alike. We also welcome participants who are using workflow management systems other than Galaxy and tool developers who are looking for such systems to offer their tools to a wider audience.
 
 We would like to discuss the status of the Galaxy project, new developments, interface to other systems, extensions and best practice in reproducible research.
@@ -29,6 +30,7 @@ Following the workshop, we organise a [Developers Day](/src/Events/Germany2014/i
 Registration is now closed. Please contact [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) or [Björn Grüning](/src/BjoernGruening/index.md) if you want your name to be put on the waiting list. There is a good chance, we can still accommodate you. 
 
 ## Preliminary Schedule
+
 
 | Time |  Speaker  |  Title  |  Slides  | 
 | ---- | -------- | ------ | ------- | 
@@ -56,13 +58,15 @@ The workshop will be in the [UniS-Building (room: A -119) of the Universität Be
 
 <br />
 
-<div class='right'> <a href='https://wiki.systemsx.ch/display/SyBIT'><img src='/Images/Logos/SyBITLogo.png' alt='SyBIT' /></a>     <a href='http://www.systemsx.ch/'><img src='/Images/Logos/SystemsXchLogo.png' alt='SystemsX.ch' height="89" /></a> </div>
+<div class='right'> <a href='https://wiki.systemsx.ch/display/SyBIT'><img src="/src/Images/Logos/SyBITLogo.png" alt="SyBIT" /></a>     <a href='http://www.systemsx.ch/'><img src="/src/Images/Logos/SystemsXchLogo.png" alt="SystemsX.ch" height="89" /></a> </div>
 
 
 ## Support
+
 This workshop is generously supported by [SyBIT](https://wiki.systemsx.ch/display/SyBIT) / [SystemsX.ch](http://www.systemsx.ch/)
 
 
 
 ## Questions?
+
 Contact [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) or [Björn Grüning](/src/BjoernGruening/index.md)
