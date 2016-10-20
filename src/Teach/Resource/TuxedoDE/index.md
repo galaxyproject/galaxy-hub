@@ -2,7 +2,7 @@
 title: Differential Expression with Tuxedo
 ---
 <div class='center'>
-<a href='http://genomeintelligence.org/?p=998'><img src='/GenomeIntelligence.png' alt='Genome Intelligence: DE with Tuxedo pipeline #usegalaxy' height="100" /></a>
+<a href='http://genomeintelligence.org/?p=998'><img src="/src/Teach/Resource/TuxedoDE/GenomeIntelligence.png" alt="Genome Intelligence: DE with Tuxedo pipeline #usegalaxy" height="100" /></a>
 </div>
 
 

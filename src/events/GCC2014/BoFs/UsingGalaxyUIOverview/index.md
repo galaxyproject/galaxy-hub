@@ -1,7 +1,7 @@
 ---
-title: Using Galaxy, ', s Web Interface
+title: Using Galaxy's Web Interface
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
 
 
@@ -15,9 +15,9 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
  Contact:: [Jennifer Hillman-Jackson](/src/JenniferJackson/index.md) & Karen Reddy
 </div>
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 
-<div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="120" /></a></div>
+<div class='left'><a href='/src/Events/GCC2014/BoFs/index.md'><img src="/src/Images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="120" /></a></div>
 
 This page describes the **Using Galaxy's Web Interface** [Birds of a Feather](/src/Events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
 
@@ -38,11 +38,11 @@ Whether you are a scientific Galaxy user yourself, or someone that administrates
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [your AT email DOT address](Your Name).
+If you are interested, please add your name below and/or send an email to [mailto:your AT email DOT address](Your Name).
 
-* [jen AT galaxyproject DOT org](Jennifer Hillman-Jackson)
-* [kdreddy4 AT jhmi DOT edu](Karen Reddy)
-* [mheydar1 AT jhmi DOT edu](Mo Heydarian)
+* [mailto:jen AT galaxyproject DOT org](Jennifer Hillman-Jackson)
+* [mailto:kdreddy4 AT jhmi DOT edu](Karen Reddy)
+* [mailto:mheydar1 AT jhmi DOT edu](Mo Heydarian)
 * Add your name
 
 ## Session Content
@@ -72,6 +72,6 @@ Tour of Galaxy's learning resources included:
 
 ## Questions?
 
-Send them to [jen AT galaxyproject DOT org](Jennifer Hillman-Jackson) with a clear subject line!
+Send them to [mailto:jen AT galaxyproject DOT org](Jennifer Hillman-Jackson) with a clear subject line!
 
 CategoryBoF

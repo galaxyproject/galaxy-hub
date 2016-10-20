@@ -8,9 +8,10 @@ Galaxy data libraries provide a way to conveniently share Galaxy datasets within
 
 ### Introduction
 
-Data library can be described as a folder that contains datasets and other folders. It has to be created by an [/Admin](/src/Admin/index.md) user.
+Data library can be described as a folder that contains datasets and other folders. It has to be created by an [Admin](/src/Admin/index.md) user.
 
 ### Note on administering DL
+
 When a data library is first created, it is considered "public" since it will be displayed in the "Data Libraries" view for any user, even 
 those that are not logged in.  The Galaxy administrator can restrict access to a data library by associating roles with the data library's 
 "access library" permission.  This permission will conservatively override the [dataset] "access" permission for the data library's contained 
@@ -25,6 +26,7 @@ be granted to users (a library item is one of: a data library, a library folder,
 * add library item - Users that have the role can add library items to this data library or folder
 * modify library item - Users that have the role can modify this library item
 * manage library permissions - Users that have the role can manage permissions applied to this library item
+
 The default behavior is for no permissions to be applied to a data library item, but applied permissions are inherited downward (with the exception
 of the "access library" permission, which is only available on the data library itself).  Because of this, it is important to set desired permissions 
 on a new data library when it is created.  When this is done, new folders and datasets added to the data library will automatically inherit those 
@@ -33,9 +35,10 @@ The "Data Libraries" menu item allows users to access the datasets in a data lib
 Importing a library dataset into a history will not make a copy of the dataset, but will be a "pointer" to the dataset on disk.  This
 approach allows for multiple users to use a single (possibly very large) dataset file.
 
-PLACEHOLDER_INCLUDE(/DataLibraries/screen/LinkBox)
+PLACEHOLDER_INCLUDE(/src/DataLibraries/screen/LinkBox/index.md)
 ### Library screens
 
 * [list of libraries](/src/DataLibraries/screen/ListOfLibraries/index.md)
 * [folder contents](/src/DataLibraries/screen/FolderContents/index.md)
-* [dataset detail](/DataLibraries/screen/DatasetDetail)
+* [dataset detail](/src/DataLibraries/screen/DatasetDetail/index.md)
+

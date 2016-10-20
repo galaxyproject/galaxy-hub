@@ -1,10 +1,7 @@
----
-date: 2013-01-11T21:24:44Z
----
 <div class='newsItemHeader'>[Jan 11, 2013 Distribution & News Brief](/src/News/2013_01_11_DistributionNewsBrief/index.md)</div>
 
 **Complete [News Brief](/src/DevNewsBriefs/2013_01_11/index.md)**
-<div class='right'><a href='http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='width=200' /></a></div>
+<div class='right'><a href='http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay'><img src="/src/Images/Logos/GCC2013TrainingDayLogo300.png" alt="width=200" /></a></div>
 **Highlights:**
 <br />
 <br />
@@ -13,7 +10,6 @@ date: 2013-01-11T21:24:44Z
 * [Various enhancements](http://wiki.galaxyproject.org/DevNewsBriefs/2013_01_11#Other_Tool_Shed) to [Tool shed](http://wiki.galaxyproject.org/Tool Shed) containers, display of README files and SVG images, and the tool shed's [functional test framework](http://wiki.galaxyproject.org/HostingALocalToolShed#Functional_test_framework_for_the_tool_shed).
 * [New genomes](http://wiki.galaxyproject.org/DevNewsBriefs/2013_01_11#Data) added to **[Main](http://wiki.galaxyproject.org/Main)** Galaxy instance and rsync download.
 * Plus bug fixes and related enhancements for visualizations, histories, workflows, and tools.
-
 
 **[http://getgalaxy.org](http://getgalaxy.org)**
 
@@ -30,9 +26,10 @@ upgrade: $ hg pull -u -r a4113cc1cb5e
 
 *Thanks for using Galaxy,*
 
-[The Galaxy Team](/Galaxy Team)
+[The Galaxy Team](/src/Galaxy Team/index.md)
 
 
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-01-11</div>
 
 CategoryNews

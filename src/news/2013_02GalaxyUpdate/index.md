@@ -1,9 +1,6 @@
----
-date: 2013-02-01T17:23:08Z
----
 <div class='newsItemHeader'>[February 2013 Galaxy Update](/src/News/2013_02GalaxyUpdate/index.md)</div>
 
-<div class='right'><a href='/GalaxyUpdates/2013_02'><img src='/Images/Logos/GalaxyUpdate200.png' alt='February 2013 Galaxy Update' width=150 /></a></div>
+<div class='right'><a href='/src/GalaxyUpdates/2013_02/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="February 2013 Galaxy Update" width=150 /></a></div>
 
 The [February 2013 Galaxy Update is now available](/src/GalaxyUpdates/2013_02/index.md). 
 
@@ -23,5 +20,6 @@ If you have anything you would like to see in the March *[Galaxy Update](/src/Ga
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-02-01</div>
 
 CategoryNews

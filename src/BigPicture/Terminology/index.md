@@ -3,19 +3,18 @@ autotoc: true
 title: Galaxy Terminology
 ---
 
-PLACEHOLDER_INCLUDE(/UnderConstruction)
 
 <div class='right'></div>
 New to Galaxy?  Trying to figure out the difference between a *workflow* and a *history?*  This page attempts to be a glossary of Galaxy terminology.
 
 ### Dataset
 
-*Datasets* are the inputs and outputs of each step in an analysis project in Galaxy. Datasets are associated with at least one [History](#history), which can be labeled, manipulated, and shared with anyone, whether they have a Galaxy account or not. The tracking information associated with Datasets in a History represent an experimental record of the methods, parameters, and other inputs. These methods are easily extracted into Workflows, making an analysis pathway transparent, reproducible, and reusable.
+*Datasets* are the inputs and outputs of each step in an analysis project in Galaxy. Datasets are associated with at least one [History](/src/BigPicture/Terminology/index.md#history), which can be labeled, manipulated, and shared with anyone, whether they have a Galaxy account or not. The tracking information associated with Datasets in a History represent an experimental record of the methods, parameters, and other inputs. These methods are easily extracted into Workflows, making an analysis pathway transparent, reproducible, and reusable.
 
-Effectively managing datasets is important for general organization, collaboration, and publishing and for staying within the quotas set by the [Main](#main), [Test](#test), and other host instances. 
+Effectively managing datasets is important for general organization, collaboration, and publishing and for staying within the quotas set by the [Main](/src/BigPicture/Terminology/index.md#main), [Test](/src/BigPicture/Terminology/index.md#test), and other host instances. 
 
 See 
-* [Learn/Managing Datasets](../../Learn/Managing Datasets)
+* [Learn/Managing Datasets](/src/Learn/Managing Datasets/index.md)
 
 ### Galaxy Objects
 
@@ -40,20 +39,20 @@ See
 ### Publish
 
 See also 
-* [Share](#share)
+* [Share](/src/BigPicture/Terminology/index.md#share)
 
 ### Query
 
-*Deprecated.* See [Dataset](#dataset).
+*Deprecated.* See [Dataset](/src/BigPicture/Terminology/index.md#dataset).
 
 ### Runner
 
-See [Job runner](#job-runner)
+See [Job runner](/src/BigPicture/Terminology/index.md#job-runner)
 
 ### Share
 
 See also 
-* [Publish](#publish)
+* [Publish](/src/BigPicture/Terminology/index.md#publish)
 
 ### Test
 

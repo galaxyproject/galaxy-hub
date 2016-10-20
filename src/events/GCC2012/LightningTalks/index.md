@@ -1,8 +1,9 @@
-PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2012/PageHeader/index.md)
 
-PLACEHOLDER_INCLUDE(/Events/GCC2012/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2012/LinkBox/index.md)
 
 # GCC2012 Lightning Talks
+
 <table>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> </td>
@@ -48,19 +49,23 @@ PLACEHOLDER_INCLUDE(/Events/GCC2012/LinkBox)
 
 
 ## Goals
+
 The session is designed to give as many participants as possible a very brief opportunity to pitch some idea or development they want everyone to hear about. Think of it as theatre sports for conferences. If you have something you'd like to share with other conference attendees, this is an opportunity to give an impassioned and enthralling talk about something new that you really care about. You only have 300 seconds to make your point so make every second count, and remember your audience may include people in the early stages of conference overload.
 
 ## Timing
+
 * Will be strict so everyone gets a fair shot. 
 * It's your responsibility to make sure you have rehearsed a few times. 
 * Your heart will race so be prepared - rehearsal with a stopwatch is your friend. 
 * To keep people interested, you'll need to tell a story, clearly and paradoxically, slowly within the allotted 5 minutes - if you go over, you will be cut off because it's unfair to everyone else for anyone to exceed their allotment of time.
 
 ## Slides
+
 * You can BYOD (your own computer or whatever) but you are advised not to. Connection and fiddling time comes out of your 5 minutes and is painful for the audience to have to sit through. It is possible to end up with little or no time left for your talk. If you insist on BYOD, remember, the clock will start when your talk is announced and your time will end 300 seconds later - no matter what - no exceptions.
 * Your slides (as PDF or power point) should be on the laptop being used for display before the session starts (talk to Dave Clements and email them to outreach@galaxyproject.org) to minimize the risk of BYOD.
 
 ## Gratuitous Advice
+
 * Good lightning talks are well rehearsed and very, very focussed. 
 * Don't try to cram a 30 minute talk into 5 minutes. It won't fit.
 * Plan on using no more than 5 or 6 slides and please make sure the slides are not too "busy" for a slightly hung-over reader to get through them in the time you have to show them. Big fonts. Few words.
@@ -69,4 +74,4 @@ The session is designed to give as many participants as possible a very brief op
 * You stand a high risk of being cut off in mid-flight unless you have rehearsed it. Practice your talk with a timer at least 3 times to make sure it works and fits in 5 minutes.
 * You are advised not to plan to read your acknowledgements out aloud - they can be left showing during your 2 minute Q&A session. They're not important enough to include in your 300 seconds - it's a lightning talk for heaven's sake.
 
-PLACEHOLDER_INCLUDE(/Events/GCC2012/AsktheOrganizers)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2012/Ask the Organizers/index.md)

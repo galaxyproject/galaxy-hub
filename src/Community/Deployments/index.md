@@ -8,9 +8,9 @@ title: Galaxy Deployment Catalog
 
 <div class='left'>![Galaxy Deployment Catalog](/src/Images/Logos/GalaxyDeploymentCatalog200.png)</div> 
 
-Welcome to the *Galaxy Deployment Catalog*. This catalog describes the details of how Galaxy is installed at different institutions.  Details include [infrastructure information](#deployments-implementation) as well as [user community and domain information](#deployments-user-and-domain-information) for each deployment.
+Welcome to the *Galaxy Deployment Catalog*. This catalog describes the details of how Galaxy is installed at different institutions.  Details include [infrastructure information](/src/Community/Deployments/index.md#deployments-implementation) as well as [user community and domain information](/src/Community/Deployments/index.md#deployments-user-and-domain-information) for each deployment.
 
-You are strongly encouraged to [add your local Galaxy deployment](#add-your-galaxy-deployment) to this catalog so that the [Galaxy Community](/src/Community/index.md) can benefit from your experience.
+You are strongly encouraged to [add your local Galaxy deployment](/src/Community/Deployments/index.md#add-your-galaxy-deployment) to this catalog so that the [Galaxy Community](/src/Community/index.md) can benefit from your experience.
 
 There are also several other sources of information about deployments.  These either aren't specifically about deployment details, or they aren't organized as usefully:
 
@@ -29,16 +29,16 @@ PLACEHOLDER_DICT_COLUMNS(pagename=Community/Deployment, names="Deployment, Owner
 
 There are two ways to add your deployment to this catalog.
 
-1. [Using the Wiki](#using-the-wiki)
+1. [Using the Wiki](/src/Community/Deployments/index.md#using-the-wiki)
     Instance is added to the catalog immediately, but requires a wiki account 
-1. [Using the Google Form](#using-the-google-form)
+1. [Using the Google Form](/src/Community/Deployments/index.md#using-the-google-form)
     Some delay in adding instance, and less control over what it looks like, but interface is much easier.
 
 ## Using the Wiki
 
 Have a Galaxy deployment?  The larger Galaxy community would love to learn about it.  To add a description of your Galaxy deployment to this page, you need to create a wiki page describing your Galaxy instance.  Here are the directions:
 
-1. [Login|&action=login](/src/Community/Deployments/index.md) to the wiki. If you don't have an account, you'll need to [create one|&action=newaccount](/src/Community/Deployments/index.md).
+1. [Login](/src/Community/Deployments/index.md) to the wiki. If you don't have an account, you'll need to [create one](/src/Community/Deployments/index.md).
 1. Pick a good descriptive, !CamelCase name for your deployment.  This will become part of the URL for the page describing your deployment.  Avoid embedded spaces as they make lousy URLs.
 1. Type the !CamelCase name in box below and hit the "Create" button.
     . PLACEHOLDER_NEW_PAGE(Community/Deployments/DeploymentTemplate, "Create a deployment description page", Community/Deployment)

@@ -1,9 +1,6 @@
----
-date: 2015-03-16T19:12:21Z
----
 <div class='newsItemHeader'>[March 2015 Galaxy Release (v 15.03)](/src/News/2015_03_GalaxyRelease/index.md)</div>
 
-<div class='right'><a href='http://getgalaxy.org'><img src='/Images/Logos/GetGalaxyOrg.png' alt='width=175' /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/src/Images/Logos/GetGalaxyOrg.png" alt="width=175" /></a></div>
 
 <span style="font-size: larger;">[Complete Release Notes](http://wiki.galaxyproject.org/DevNewsBriefs/2015_03) </span>
 <br /><br />
@@ -19,13 +16,13 @@ date: 2015-03-16T19:12:21Z
 
  **[Tool Redesign](/src/DevNewsBriefs/2015_03/index.md#tool_redesign)**
 
-  Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolshed) and many are ready for use on Galaxy [/Main](/src/Main/index.md).
+  Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolshed) and many are ready for use on Galaxy [Main](/src/Main/index.md).
 
 <span style="font-size: larger;"> Get the Galaxy Release </span>
 <br />
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
@@ -55,5 +52,6 @@ date: 2015-03-16T19:12:21Z
 [The Galaxy Team](/src/GalaxyTeam/index.md)
 
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-03-16</div>
 
 CategoryNews

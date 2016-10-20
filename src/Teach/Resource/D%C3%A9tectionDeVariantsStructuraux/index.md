@@ -2,13 +2,13 @@
 title: [Détection de variants structuraux](https://youtu.be/aNPDObmX2ho)
 ---
 <div class='center'>
-<a href='https://youtu.be/aNPDObmX2ho'><img src='/DétectionVariantsStructurauxVideo.png' alt='Détection de variants structuraux' height="200" /></a>
+<a href='https://youtu.be/aNPDObmX2ho'><img src="/src/Teach/Resource/D%C3%A9tectionDeVariantsStructuraux/DétectionVariantsStructurauxVideo.png" alt="Détection de variants structuraux" height="200" /></a>
 </div>
 
 
 
 <div class='deploymentbox'>
- Resource:: **[Détection de variants structuraux](/Teach/Resource/DétectionDeVariantsStructuraux)**
+ Resource:: **[Détection de variants structuraux](/src/Teach/Resource/DétectionDeVariantsStructuraux/index.md)**
  Types:: Tutorial
  Domains:: **Structural variant detection** 
  Owners:: [Bruno Zeitouni](https://www.researchgate.net/profile/Bruno_Zeitouni), [Institut Curie](https://curie.fr/)
@@ -28,6 +28,5 @@ Video is in French.  Tools are available on the [public Galaxy server at Institu
 
 * [Video tutorial](https://youtu.be/aNPDObmX2ho)
 * [public Galaxy server at Institut Curie](https://galaxy-public.curie.fr/)
-
 
 CategoryTrainingResource

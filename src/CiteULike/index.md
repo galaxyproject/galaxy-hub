@@ -1,7 +1,7 @@
 ---
 autotoc: true
 ---
-<div class='center'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="../Images/Logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" /></a>
+<div class='center'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/src/Images/Logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" /></a>
 </div>
 
 <div class='right'></div>
@@ -28,7 +28,7 @@ CiteULike makes extensive use of *[tags](http://www.citeulike.org/group/16008/ta
   </tr>
   <tr>
     <th> <a href='http://www.citeulike.org/group/16008/tag/usecloud'>usemain</a>* </th>
-    <td> <div class='indent'>A <a href='http://www.citeulike.org/group/16008/tag/methods'>methods</a> paper that uses the <a href='Main'>../Main</a> Galaxy server.</div> </td>
+    <td> <div class='indent'>A <a href='http://www.citeulike.org/group/16008/tag/methods'>methods</a> paper that uses the <a href='Main'>/src/Main/index.md</a> Galaxy server.</div> </td>
   </tr>
   <tr>
     <th> <a href='http://www.citeulike.org/group/16008/tag/uselocal'>uselocal</a>* </th>
@@ -36,7 +36,7 @@ CiteULike makes extensive use of *[tags](http://www.citeulike.org/group/16008/ta
   </tr>
   <tr>
     <th> <a href='http://www.citeulike.org/group/16008/tag/usecloud'>usepublic</a>* </th>
-    <td> <div class='indent'>A <a href='http://www.citeulike.org/group/16008/tag/methods'>methods</a> paper that uses a <a href='../PublicGalaxyServers'>Public Galaxy Server</a></div> </td>
+    <td> <div class='indent'>A <a href='http://www.citeulike.org/group/16008/tag/methods'>methods</a> paper that uses a <a href='/src/PublicGalaxyServers/index.md'>Public Galaxy Server</a></div> </td>
   </tr>
   <tr>
     <th> <a href='http://www.citeulike.org/group/16008/tag/usecloud'>usecloud</a>* </th>
@@ -48,7 +48,7 @@ CiteULike makes extensive use of *[tags](http://www.citeulike.org/group/16008/ta
   </tr>
   <tr>
     <th> <a href='http://www.citeulike.org/group/16008/tag/isgalaxy'>isgalaxy</a> </th>
-    <td> Papers that are <em>about</em> other installations of Galaxy. (See also the <a href='../PublicGalaxyServers'>Public Galaxy Servers</a> list.) </td>
+    <td> Papers that are <em>about</em> other installations of Galaxy. (See also the <a href='/src/PublicGalaxyServers/index.md'>Public Galaxy Servers</a> list.) </td>
   </tr>
   <tr>
     <th> <a href='http://www.citeulike.org/group/16008/tag/tools'>tools</a> </th>
@@ -80,7 +80,7 @@ CiteULike makes extensive use of *[tags](http://www.citeulike.org/group/16008/ta
   </tr>
   <tr>
     <th> <a href='http://www.citeulike.org/group/16008/tag/refpublic'>refpublic</a>* </th>
-    <td> Paper references a <a href='../PublicGalaxyServers'>Public Galaxy Server</a> (other than <a href='Main'>../Main</a>). </td>
+    <td> Paper references a <a href='/src/PublicGalaxyServers/index.md'>Public Galaxy Server</a> (other than <a href='Main'>/src/Main/index.md</a>). </td>
   </tr>
   <tr>
     <th> <a href='http://www.citeulike.org/group/16008/tag/visualization'>visualization</a>* </th>
@@ -107,8 +107,8 @@ We particularly need help with papers that were published before 2011.
 
 ## But not Mendeley, anymore
 
-<div class='right'><a href='http://www.mendeley.com/'><img src="../Images/Logos/MendeleyLogo.png" alt="Mendeley Social Bookmarking Service" width="200" /></a></div>
+<div class='right'><a href='http://www.mendeley.com/'><img src="/src/Images/Logos/MendeleyLogo.png" alt="Mendeley Social Bookmarking Service" width="200" /></a></div>
 
-The [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/order/group_rating) was originally mirrored to a Galaxy Mendeley Group on a weekly basis, complete with the [CiteULike tag set](#citeulike-tags).  However, in February 2013, Mendeley stopped supporting their CiteULike to Mendeley bridge, thus greatly increasing the amount of work this mirror took to maintain.  Further complicating things, later that spring Mendeley was purchased by a traditionally closed access publisher.
+The [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/order/group_rating) was originally mirrored to a Galaxy Mendeley Group on a weekly basis, complete with the [CiteULike tag set](/src/CiteULike/index.md#citeulike-tags).  However, in February 2013, Mendeley stopped supporting their CiteULike to Mendeley bridge, thus greatly increasing the amount of work this mirror took to maintain.  Further complicating things, later that spring Mendeley was purchased by a traditionally closed access publisher.
 
 **Note:** So, as of February 2013, the Mendeley Galaxy mirror, is no longer being maintained.

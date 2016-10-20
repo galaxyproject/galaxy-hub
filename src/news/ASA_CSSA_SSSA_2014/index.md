@@ -1,6 +1,3 @@
----
-date: 2014-09-03T21:34:58Z
----
 <div class='newsItemHeader'>[Galaxy @ ASA/CSSA/SSSA 2014](/src/News/ASA_CSSA_SSSA_2014/index.md)</div>
 
 <table>
@@ -10,7 +7,7 @@ date: 2014-09-03T21:34:58Z
 </table>
 
 
-<div class='right'><a href='http://bit.ly/1lIsHQh'><img src='/Images/Logos/ASA_CSSA_SSSA_2014.jpg' alt='Galaxy Workshops at 2014 ASA, CSSA, and SSSA International Annual Meeting' width="500" /></a></div>
+<div class='right'><a href='http://bit.ly/1lIsHQh'><img src="/src/Images/Logos/ASA_CSSA_SSSA_2014.jpg" alt="Galaxy Workshops at 2014 ASA, CSSA, and SSSA International Annual Meeting" width="500" /></a></div>
 
 This year Galaxy will have a presence (for the first time) at the [ASA, CSSA, and SSSA International Annual Meeting](https://www.acsmeetings.org/home), being held in Long Beach, California, from November 1-5.  Three workshops are being offered: 
 
@@ -37,5 +34,6 @@ Please let us know if you have any questions, and we hope to see you there.
 
 Dave C
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-09-03 </div>
 
 CategoryNews

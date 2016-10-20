@@ -1,10 +1,10 @@
 <div class='center'>
-<a href='http://www.wcb.ed.ac.uk/'><img src='/Images/Logos/WTCCBLogo.png' alt='Welcome Trust Centre for Cell Biology' height="100" /></a> &nbsp; 
-<a href='http://www.genomics.ed.ac.uk/'><img src='/Images/Logos/EdinburghGenomics.png' alt='Edinburgh Genomics' height="100" /></a>
+<a href='http://www.wcb.ed.ac.uk/'><img src="/src/Images/Logos/WTCCBLogo.png" alt="Welcome Trust Centre for Cell Biology" height="100" /></a> &nbsp; 
+<a href='http://www.genomics.ed.ac.uk/'><img src="/src/Images/Logos/EdinburghGenomics.png" alt="Edinburgh Genomics" height="100" /></a>
 &nbsp; 
-<a href='http://www.roslin.ed.ac.uk/'><img src='/Images/Logos/RoslinLogo.jpg' alt='Roslin Institute' height="100" /></a> 
+<a href='http://www.roslin.ed.ac.uk/'><img src="/src/Images/Logos/RoslinLogo.jpg" alt="Roslin Institute" height="100" /></a> 
 &nbsp; 
-<a href='http://www.ed.ac.uk/'><img src='/Images/Logos/UEdinburghSquareLogo.png' alt='University of Edinburgh' height="100" /></a> 
+<a href='http://www.ed.ac.uk/'><img src="/src/Images/Logos/UEdinburghSquareLogo.png" alt="University of Edinburgh" height="100" /></a> 
 <div class='title'>Introduction to Galaxy<br />12 May 2014</div>
 
 **
@@ -70,8 +70,8 @@ Anyone affiliated with the University of Edinburgh can participate in this works
 <div class='center'>**Note:** This is a hands-on workshop!  Please bring a wifi-enabled laptop.</div>
 
 <div class='right'>
-<br /><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a><br /><br />
-<a href='/Events/UKMay2014'><img src='/Images/Logos/UKMay2014Tour.png' alt='May 2014 Galaxy UK Tour' width="160px" /></a>
+<br /><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a><br /><br />
+<a href='/src/Events/UKMay2014/index.md'><img src="/src/Images/Logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
 </div>
 
 ## Support
@@ -93,4 +93,4 @@ Please [provide your feedback](http://bit.ly/gxyedifeedback).
 
 ## Questions?
 
-Contact [outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).

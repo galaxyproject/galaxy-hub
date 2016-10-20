@@ -1,10 +1,12 @@
 ---
 autotoc: true
 ---
-PLACEHOLDER_INCLUDE(/Learn/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
 # Creating Workflows and Advanced Workflow Options
+
 <div class='right'></div>
 ## A workflow is ..
+
 * ** .. a series of tools and dataset actions that run in sequence as a batch operation.**
 * Workflows can be generated quickly from the analysis already completed in a history.
 * Workflows can be created from scratch using the *workflow editor*.
@@ -13,10 +15,11 @@ PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 * Workflow can be reused over and over, not only reducing tedious work, but enhancing reproducibility by applying the same exact methods to all of your data.
 * Workflows can be executed on multiple streams of input data in a single pass with the output results sent to new, distinct, result histories. 
 * Workflow intermediate and final output datasets can be custom labeled, hidden or shown in default view, have post-job actions applied, and other advanced options executed.
-* Workflows can be executed using the API (including workflows that exist on the public [/Main](/src/Main/index.md) server). Your account's API Key is generated/stored under *User -> API Keys*. Learn more about the **[API...](/src/Learn/API/index.md)**
+* Workflows can be executed using the API (including workflows that exist on the public [Main](/src/Main/index.md) server). Your account's API Key is generated/stored under *User -> API Keys*. Learn more about the **[API...](/src/Learn/API/index.md)**
 * Check the usage information on other [public Galaxy servers](/src/PublicGalaxyServers/index.md) to see if they support API access.
 
 ## Learn from an example
+
 </div> ![workflow editor](/src/Images/Learn/workflow_edit_peek.png) <br />*workflow editor with expanded **edit menu***</div>
 <br />
 * Choose a workflow from **[Main's](/src/Main/index.md) Published Workflows [https://usegalaxy.org/workflow/list_published](https://usegalaxy.org/workflow/list_published)**
@@ -29,24 +32,28 @@ PLACEHOLDER_INCLUDE(/Learn/LinkBox)
 
 <br />
 ## Extract workflow from a history
+
 Do you already have an analysis path created in a history? Then your new workflow is just a few clicks away. 
 
 **[Learn how...](/src/Learn/AdvancedWorkflow/Extract/index.md)**
 
 <br />
 ## Basic editing
+
 Understanding the layout and basic usage options of the workflow editor are powerful yet simple concepts to master. If you are just getting started with workflows, this is worth a review. 
 
 **[Read more...](/src/Learn/AdvancedWorkflow/BasicEditing/index.md)**
 
 <br />
 ## Using variables
+
 A special option of advanced editing, making use of variables to control dataset names can be used to improve clarity in output results. **Note that this functionality is undergoing active changes and may not work exactly as in the example at this time**
 
 **[Details here...](/src/Learn/AdvancedWorkflow/VariablesEdit/index.md)**
 
 <br />
 ## Turn your workflow into a tool?
+
 Well, not exactly, but it can *look* just like a tool in the tool menu pane and *function* very much like a tool in the history pane. Does the rest matter? Likely not, since full detail/reproducibility is still preserved (is just hidden from default view that can be unhidden for review, permanently or temporarily). Interested? 
 
 **[Here's how...](/src/Learn/AdvancedWorkflow/ToolPanel/index.md)**

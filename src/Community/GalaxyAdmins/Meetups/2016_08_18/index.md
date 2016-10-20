@@ -1,11 +1,11 @@
-<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/GalaxyLogos/GalaxyAdmins.png' alt='GalaxyAdmins' width="220" /></a> <br /><br />
-<a href='http://www.nd.edu/'><img src='/Images/Logos/NotreDame.png' alt='University of Notre Dame'  /></a>
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> <br /><br />
+<a href='http://www.nd.edu/'><img src="/src/Images/Logos/NotreDame.png" alt="University of Notre Dame"  /></a>
 <br />
 <div class='title'>2016/08/18 Web Meetup<br /><br />
 
 </div></div>
 
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 <table>
   <tr>
@@ -34,7 +34,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 *[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
 <div class='right'><br />
-<a href='http://ccl.cse.nd.edu/software/makeflow/'><img src='/Images/Logos/Makeflow.png' alt='Makeflow' height="110" /></a>
+<a href='http://ccl.cse.nd.edu/software/makeflow/'><img src="/src/Images/Logos/Makeflow.png" alt="Makeflow" height="110" /></a>
 </div>
 
 ## Makeflow
@@ -56,4 +56,4 @@ The  meetup's [online conference room](https://connect.johnshopkins.edu/gxyadmin
 
 You can ask questions by *typing the question in the chat box.*
 
-<div class='center'>![](/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>
+<div class='center'>![](/src/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>

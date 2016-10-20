@@ -2,7 +2,7 @@
 title: [UC Riverside NGS Tutorial](http://manuals.bioinformatics.ucr.edu/workshops/dec-12-16-2013)
 ---
 <div class='center'>
-[[<a href='http://manuals.bioinformatics.ucr.edu/workshops/dec-12-16-2013'><img src='/UCR_IIGB_Logo.png' alt='UC Riverside Institute for Integrative Genome Biology'  /></a>
+[[<a href='http://manuals.bioinformatics.ucr.edu/workshops/dec-12-16-2013'><img src="/src/Teach/Resource/UCRiversideNGS/UCR_IIGB_Logo.png" alt="UC Riverside Institute for Integrative Genome Biology"  /></a>
 </div>
 
 

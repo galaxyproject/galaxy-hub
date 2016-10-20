@@ -1,11 +1,8 @@
----
-date: 2016-07-22T15:53:38Z
----
 <div class='newsItemHeader'>[Multi-omics Postdoc Opening](/src/News/MultiOmicsPostDocMinnesota/index.md)</div>
 
 <div class='right'><div class='right'>
-<a href='http://z.umn.edu/galaxypostdoc2016'><img src='/Images/Logos/GalaxyPLogo.png' alt='Galaxy-P' width="100" /></a></div><br />
-<a href='http://ummn.edu'><img src='/Images/Logos/UMN_Goldy.gif' alt='University of Minnesota' width="120" /></a>
+<a href='http://z.umn.edu/galaxypostdoc2016'><img src="/src/Images/Logos/GalaxyPLogo.png" alt="Galaxy-P" width="100" /></a></div><br />
+<a href='http://ummn.edu'><img src="/src/Images/Logos/UMN_Goldy.gif" alt="University of Minnesota" width="120" /></a>
 </div>
 
 
@@ -13,7 +10,8 @@ A [post-doctoral position](http://z.umn.edu/galaxypostdoc2016) is available at t
 
 A Ph.D. in bioinformatics, computer science, analytical chemistry or closely related field is required. Experience with MS-based proteomics data analysis is highly preferred, and familiarity with the Galaxy framework is a plus. 
 
-Interested applicants can apply directly to [tgriffin@umn.edu](Dr. Tim Griffin).
+Interested applicants can apply directly to [mailto:tgriffin@umn.edu](Dr. Tim Griffin).
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-07-22</div>
 
 CategoryNews

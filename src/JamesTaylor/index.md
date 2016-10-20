@@ -1,5 +1,4 @@
-
-<div class='right'><a href='http://www.bio.jhu.edu/Faculty/Taylor/Default.html'><img src='/GalaxyTeam/james.jpg' /></a></div>
+<div class='right'><a href='http://www.bio.jhu.edu/Faculty/Taylor/Default.html'><img src="/src/GalaxyTeam/james.jpg" /></a></div>
 
 # James Taylor
 
@@ -19,5 +18,5 @@ Associate Professor of  [Biology](http://www.bio.jhu.edu/) at [Johns Hokins Univ
 </table>
 
 
----
+----
 CategoryHomepage

@@ -13,7 +13,7 @@ title: February 2015 Galaxy Update
 
 </div>
 
-<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the February *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -93,7 +93,7 @@ The new papers were related to:
 
 ## GCC2015: 6-8 July, Norwich UK
 
-<div class='left'><a href='http://gcc2015.tsl.ac.uk/'><img src='/Images/Logos/GCC2015LogoWide600.png' alt='Sponsor GCC2015' width="170" /></a></div>
+<div class='left'><a href='http://gcc2015.tsl.ac.uk/'><img src="/src/Images/Logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="170" /></a></div>
 
 The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is the Galaxy community's annual gathering of users, developers, and administrators.  [Previous GCC's](/src/Events/GCC2014/index.md) have drawn over 200 participants, and we expect that to happen again in 2015.  GCC2015 is being hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK, immediately before [BOSC](http://www.open-bio.org/wiki/BOSC_2015) and [ISMB/ECCB](http://www.iscb.org/ismbeccb2015) in Dublin.
 
@@ -104,7 +104,7 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is t
 
 ### Training Day Topic Voting Closes TODAY
 
-<div class='right'><a href='http://bit.ly/gcc2015vote'><img src='/Images/Logos/GCC2015_TrainingDay128.png' alt='Vote now!' /></a>
+<div class='right'><a href='http://bit.ly/gcc2015vote'><img src="/src/Images/Logos/GCC2015_TrainingDay128.png" alt="Vote now!" /></a>
 <div class='center'>
 <table>
   <tr>
@@ -127,10 +127,11 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) will
 ### Sponsorships
 
 #### GenomeWeb
+
  
 We are delighted to have [GenomeWeb](http://www.genomeweb.com/) as a returning [Silver Sponsor](http://gcc2015.tsl.ac.uk/sponsors) for GCC2015.
 
-<div class='right'><a href='http://www.genomoeweb.com/'><img src='/Images/Logos/GenomeWebLogo300.jpg' alt='GenomeWeb' width="200" /></a></div>
+<div class='right'><a href='http://www.genomoeweb.com/'><img src="/src/Images/Logos/GenomeWebLogo300.jpg" alt="GenomeWeb" width="200" /></a></div>
 
  [GenomeWeb](http://www.genomeweb.com/) is an independent online news organization based in New York. Since 1997, [GenomeWeb](http://www.genomeweb.com/) has served the global community of scientists, technology professionals, and executives who use and develop the latest advanced tools in molecular biology research and molecular diagnostics. Our editorial mission is to cover the scientific and economic ecosystem spurred by the advent of high-throughput genome sequencing. We operate the [largest online newsroom focused on advanced molecular research tools](https://www.genomeweb.com/breaking-news) in order to provide our readers with exclusive news and in-depth analysis of this rapidly evolving market.
 
@@ -138,7 +139,7 @@ We are delighted to have [GenomeWeb](http://www.genomeweb.com/) as a returning [
 
 And we are delighted to announce that [Globus Genomics](http://www.globus.org/genomics) is also a returning [Silver Sponsor](http://gcc2015.tsl.ac.uk/sponsors) for GCC2015.
 
-<div class='right'><a href='http://www.globus.org/genomics'><img src='/Images/Logos/GlobusGenomics.png' alt='Globus Genomics' width="175" /></a></div>
+<div class='right'><a href='http://www.globus.org/genomics'><img src="/src/Images/Logos/GlobusGenomics.png" alt="Globus Genomics" width="175" /></a></div>
 
  [Globus Genomics](http://www.globus.org/genomics) is an integrated solution for Next Gen Sequencing analysis utilizing technologies in big data management and big data analysis. Globus Genomics combines big data management capabilities of [Globus Online](http://www.globusonline.org) with the Galaxy framework and high throughput computing capabilities on Amazon Web Services.  With [Globus Genomics](http://www.globus.org/genomics) researchers can easily transfer large data sets and analyze the data in Galaxy. Globus Genomics is a non-profit service offering delivered and maintained by the Globus team at the [Computation Institute](https://www.ci.uchicago.edu/), [University of Chicago](https://www.uchicago.edu/). 
 
@@ -146,7 +147,7 @@ And we are delighted to announce that [Globus Genomics](http://www.globus.org/ge
 
 Finally, please welcome [The Genome Analysis Centre (TGAC)](http://www.tgac.ac.uk) as first-time [Silver Sponsor](http://gcc2015.tsl.ac.uk/sponsors) for GCC!
 
-<div class='right'><a href='http://www.tgac.ac.uk/'><img src='/Images/Logos/TGACLogoWSupport300.jpg' alt='The Genome Analysis Centre' width="185" /></a></div>
+<div class='right'><a href='http://www.tgac.ac.uk/'><img src="/src/Images/Logos/TGACLogoWSupport300.jpg" alt="The Genome Analysis Centre" width="185" /></a></div>
 
  [The Genome Analysis Centre (TGAC)](http://www.tgac.ac.uk) is a world-class research institute focusing on the development of genomics and computational biology. TGAC is based on the [Norwich Research Park](http://www.norwichresearchpark.com/home.aspx) and receives strategic funding from the [Biotechnology and Biological Science Research Council (BBSRC)](http://www.bbsrc.com/home/home.aspx) as well as from other research funders. TGAC offers a state of the art DNA sequencing facility, unique by its operation of multiple complementary technologies for data generation. The Institute hosts one of the largest computing hardware facilities dedicated to life science research in Europe. It is also actively involved in developing novel platforms to provide access to computational tools and processing capacity for academic and industrial users and promoting applications of computational Bioscience. Additionally, the Institute is a member of the [Galaxy Training Network](/src/Teach/Trainers/index.md#tgac-the-genome-analysis-centre) and offers a [Training programme](http://www.tgac.ac.uk/361_Division/) through courses and workshops, and has an [Education and Public Engagement programme](http://www.tgac.ac.uk/education-public-engagement/) targeting schools, teachers and the general public. 
 
@@ -156,11 +157,11 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is n
 
 Several sponsorship levels are available, including two levels of premier sponsorships that include presentations.  Premium sponsorships are limited, however, so you are encouraged to act soon.
 
-Please let the [organisers|GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/) ([gcc2015-org AT lists DOT galaxyproject DOT org](gcc2015-org AT lists DOT galaxyproject DOT org)) know if you are interested in helping make this event a success.
+Please let the [organisers](http://gcc2015.tsl.ac.uk/) ([mailto:gcc2015-org AT lists DOT galaxyproject DOT org](gcc2015-org AT lists DOT galaxyproject DOT org)) know if you are interested in helping make this event a success.
 
 ## 19 February GalaxyAdmins Meetup
 
-<div class='left'><a href='/Community/GalaxyAdmins/Meetups/2015_02_19'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup February 19' width="150" /></a></div>
+<div class='left'><a href='/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup February 19" width="150" /></a></div>
 
 The first [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) [meetup of 2015](/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md) will happen online on Thursday, 19 February.  [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.
 
@@ -170,7 +171,7 @@ Thanks to everyone for letting us know what dates and times worked best for you.
 
 ## January Baltimore Area Galaxy Meetup Report
 
-<div class='right'><a href='/Events/Meetups/Baltimore/2015-01-22'><img src='/Events/Meetups/Baltimore/GalaxyBaltimoreMeetupLogo400.png' alt='January 2015 Galaxy Baltimore Meetup' width="150" /></a></div>
+<div class='right'><a href='/src/Events/Meetups/Baltimore/2015-01-22/index.md'><img src="/src/Events/Meetups/Baltimore/GalaxyBaltimoreMeetupLogo400.png" alt="January 2015 Galaxy Baltimore Meetup" width="150" /></a></div>
 
 The [first Baltimore Area Galaxy meetup](/src/Events/Meetups/Baltimore/2015-01-22/index.md) *was sold out.* It was the right mix of current Galaxy users, people who want to learn how to use Galaxy, and students in Biology/Computer science programs. It was good to see academics unwind with a few beers and talk about their ideas to use Galaxy. The idea behind the meetup was to build a local community of Galaxy users, and to get to know one another personally. This would in turn foster collaborations and also bring forward better feedback to the [Galaxy Team](/src/GalaxyTeam/index.md) as well. 
 
@@ -182,14 +183,14 @@ The second meetup is going to be hosted in February, for which we hope to have a
 ## Other Events
 
 <div class='center'> 
-<a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'><img src='/Images/Logos/SupAgroMontpelierLogo.jpg' alt='Analyse bioinformatique de séquences sous Galaxy' height="60" /></a> &nbsp;
-<a href='/Community/GalaxyAdmins/Meetups/2015_02_19'><img src='/Images/Logos/GalaxyAdmins.png' alt='19 February GalaxyAdmins Web Meetup' height="56" /></a> &nbsp;
-<a href='http://www.qfab.org/events/upcoming/'><img src='/Images/Logos/QFABLogo.png' alt='QFAB Workshops' height="80" /></a>
-<a href='http://training.bioinformatics.ucdavis.edu/2015/01/12/rna-seq-and-chip-seq-analysis-with-galaxy/'><img src='/Images/Logos/UCDavisGenomeCenter.png' alt='RNA-Seq and ChIP-Seq Analysis with Galaxy' height="50" /></a> &nbsp;
+<a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'><img src="/src/Images/Logos/SupAgroMontpelierLogo.jpg" alt="Analyse bioinformatique de séquences sous Galaxy" height="60" /></a> &nbsp;
+<a href='/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="19 February GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
+<a href='http://www.qfab.org/events/upcoming/'><img src="/src/Images/Logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
+<a href='http://training.bioinformatics.ucdavis.edu/2015/01/12/rna-seq-and-chip-seq-analysis-with-galaxy/'><img src="/src/Images/Logos/UCDavisGenomeCenter.png" alt="RNA-Seq and ChIP-Seq Analysis with Galaxy" height="50" /></a> &nbsp;
 </div>
 
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div>
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div>
 
 There are [upcoming events](/src/Events/index.md) in 5 countries on 4 continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -203,14 +204,14 @@ There are [upcoming events](/src/Events/index.md) in 5 countries on 4 continents
   <tr>
     <th> February 9-13 </th>
     <td> </em><a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a><em> </td>
-    <td> <div class='right'><a href='http://bit.ly/gxytrnSouth_Green'><img src='/Images/Icons/GTN32.png' alt='Training offered by GTN Member' width="16" /></a></div> Montpellier, France </td>
+    <td> <div class='right'><a href='http://bit.ly/gxytrnSouth_Green'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> Montpellier, France </td>
     <td> <a href="mailto:jean-francois.dufayard@cirad.fr">J.F. Dufayard</a> </td>
   </tr>
   <tr>
     <th rowspan=3> February 16-18 </th>
     <td> </em>Accessible and Reproducible Large-Scale Analysis with Galaxy<em> </td>
     <td rowspan=1> <a href='http://www.triconference.com/Sequencing-Analysis/'>Genome and Transcriptome Analysis</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
-    <td> <a href='/JamesTaylor'>James Taylor</a> </td>
+    <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <td> </em>Large-Scale NGS data Analysis on Amazon Web Services Using Globus Genomic<em> </td>
@@ -223,9 +224,9 @@ There are [upcoming events](/src/Events/index.md) in 5 countries on 4 continents
   </tr>
   <tr>
     <th> February 19 </th>
-    <td> </em><a href='/Community/GalaxyAdmins/Meetups/2015_02_19'>February 2015 GalaxyAdmins Web Meetup</a><em> </td>
+    <td> </em><a href='/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md'>February 2015 GalaxyAdmins Web Meetup</a><em> </td>
     <td> </em>Online<em> </td>
-    <td> <a href='/HansrudolfHotz'>Hans-Rudolf Hotz</a>, <a href='/DaveClements'>Dave Clements</a> </td>
+    <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -234,19 +235,19 @@ There are [upcoming events](/src/Events/index.md) in 5 countries on 4 continents
   <tr>
     <th> March 2 </th>
     <td> </em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy/'>RNA-Seq analysis using Galaxy</a><em> </td>
-    <td> <div class='right'><a href='/Teach/Trainers#qfab-bioinformatics'><img src='/Images/Icons/GTN32.png' alt='Training offered by GTN Member' width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md#qfab-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> March 3-5 </th>
     <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Flyers/DéveloppementEtIntégrationDApplicationsSousGalaxy.pdf'>Développement et intégration d’applications sous Galaxy</a> </td>
-    <td> <div class='right'><img src='/Images/Icons/GTN32.png' alt='Training offered by GTN Member' width="16" /></div> La Chapelle Sur Erdre, France </td>
+    <td> <div class='right'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></div> La Chapelle Sur Erdre, France </td>
     <td> <a href="mailto:frederique.malipier@nantes.inra.fr">Frederique Malipier</a> </td>
   </tr>
   <tr>
     <th> March 23-26 </th>
     <td> <a href='http://training.bioinformatics.ucdavis.edu/2015/01/12/rna-seq-and-chip-seq-analysis-with-galaxy/'>RNA-Seq and ChIP-Seq Analysis with Galaxy</a> </td>
-    <td> <div class='right'><a href='http://bit.ly/gxytrnUCDavis'><img src='/Images/Icons/GTN32.png' alt='Training offered by GTN Member' width="16" /></a></div> <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a>, Davis, California, United States </td>
+    <td> <div class='right'><a href='http://bit.ly/gxytrnUCDavis'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a>, Davis, California, United States </td>
     <td> <a href="mailto:bioinformatics.core@ucdavis.edu">UC Davis Bioinformatics</a> </td>
   </tr>
   <tr>
@@ -262,7 +263,7 @@ There are [upcoming events](/src/Events/index.md) in 5 countries on 4 continents
   <tr>
     <th> April 20-21 </th>
     <td> </em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-2/'>Workshop: Extended RNA-Seq analysis</a><em> </td>
-    <td> <div class='right'><a href='/Teach/Trainers#qfab-bioinformatics'><img src='/Images/Icons/GTN32.png' alt='Training offered by GTN Member' width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md#qfab-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
@@ -278,7 +279,7 @@ There are [upcoming events](/src/Events/index.md) in 5 countries on 4 continents
   <tr>
     <th> July 6-8 </th>
     <td> </strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a><strong> </td>
-    <td> <div class='right'><a href='/Teach/Trainers'><img src='/Images/Icons/GTN32.png' alt='Training offered by GTN Member' width="16" /></a></div>   <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div>   <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
 </table>
@@ -286,15 +287,15 @@ There are [upcoming events](/src/Events/index.md) in 5 countries on 4 continents
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='/Teach/Trainers'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
-    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/Teach/Trainers'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none;"> <a href='/src/Teach/Trainers/index.md'><img src="/src/Images/Icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/src/Teach/Trainers/index.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/src/GalaxyIsHiring/index.md'><img src="/src/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -318,7 +319,7 @@ Several new [public Galaxy servers](/src/PublicGalaxyServers/index.md) were adde
 
 ## RiboGalaxy
 
-<div class='right solid'><a href='http://ribogalaxy.ucc.ie/'><img src='/PublicGalaxyServers/RiboGalaxyLogo.png' alt='RiboGalaxy' width="200" /></a></div>
+<div class='right solid'><a href='http://ribogalaxy.ucc.ie/'><img src="/src/PublicGalaxyServers/RiboGalaxyLogo.png" alt="RiboGalaxy" width="200" /></a></div>
  
 [RiboGalaxy](http://ribogalaxy.ucc.ie/) provides on-line tools for the analysis and visualization of ribo-seq data obtained with the ribosome profiling technique. It is a freely available web server for processing and analysing ribosome profiling (ribo-seq) data with the visualization functionality provided by [GWIPS-viz](http://gwips.ucc.ie/). !RiboGalaxy provides a compact suite of tools specifically tailored for the alignment and visualization of ribo-seq and corresponding mRNA-seq data. Users can take advantage of the published workflows on !RiboGalaxy which reduce the multi-step alignment process to a minimum of inputs.
 
@@ -329,7 +330,7 @@ Several new [public Galaxy servers](/src/PublicGalaxyServers/index.md) were adde
 
 ## CardioVascular Research Grid (CVRG)
 
-<div class='left solid'><a href='http://cvrg.galaxycloud.org/'><img src='/PublicGalaxyServers/CVRGHome.png' alt='CardioVascular Research Grid (CVRG)' width="200" /></a></div>
+<div class='left solid'><a href='http://cvrg.galaxycloud.org/'><img src="/src/PublicGalaxyServers/CVRGHome.png" alt="CardioVascular Research Grid (CVRG)" width="200" /></a></div>
 
 The [CardioVascular Research Grid (CVRG)](http://www.cvrgrid.org/) project provides [CVRG Galaxy](http://cvrg.galaxycloud.org/) for secure seamless access to study data and analysis tools.  Users can transfer data to CVRG Galaxy at high speed using [Globus Connect](https://www.globus.org/globus-connect-personal). CVRG Galaxy provides a wide range of analysis algorithms, including [Physionet](http://www.physionet.org/) algorithms for ECG analysis, and stored workflows  that simplify the process of data analysis. CVRG Galaxy also has tools that help users run their analyses faster by using multiple processors on the  Amazon Elastic Compute Cloud. CVRG Galaxy can annotate data by  retrieving ontology terms from the [Bioportal](http://bioportal.bioontology.org/) ontology server.
 
@@ -339,11 +340,11 @@ There is [CVRG Galaxy Wiki Page](http://wiki.cvrgrid.org/index.php/CVRG_Galaxy) 
 
 ## Center for Phage Technology (CPT)
 
-<div class='right solid'><a href='https://cpt.tamu.edu/galaxy-public/'><img src='/PublicGalaxyServers/CPTLogo.png' alt='Center for Phage Technology (CPT)' width="200" /></a></div>
+<div class='right solid'><a href='https://cpt.tamu.edu/galaxy-public/'><img src="/src/PublicGalaxyServers/CPTLogo.png" alt="Center for Phage Technology (CPT)" width="200" /></a></div>
 
 The [Center for Phage Technology (CPT) Galaxy Server](https://cpt.tamu.edu/galaxy-public/) includes 50 additional tools, and PAUSE (Pile-Up Analysis Using Starts & Ends) V1 and V2 tool sets. There are also several [published workflows](https://cpt.tamu.edu/galaxy-public/workflow/list_published) demonstrating PAUSE for both paired and single-end reads.
 
-An account is required, and anyone can create an account. See [this FAQ](https://cpt.tamu.edu/galaxy-faq-ever-needed-a-question-answered/) or contact [esr+gxfaq@tamu.edu](Eric Rasche) for support.
+An account is required, and anyone can create an account. See [this FAQ](https://cpt.tamu.edu/galaxy-faq-ever-needed-a-question-answered/) or contact [mailto:esr+gxfaq@tamu.edu](Eric Rasche) for support.
 
 CPT Galaxy is sponsored by the [Center for Phage Technology (CPT)](https://cpt.tamu.edu/), Texas A&M University
 
@@ -352,21 +353,21 @@ CPT Galaxy is sponsored by the [Center for Phage Technology (CPT)](https://cpt.t
 <div class='solid'>
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Teach'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Teach/index.md'><img src="/src/Images/Logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Logs/index.md'><img src="/src/Images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/Teach/Resources#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/Community/Logs#add-a-log-page'>Share your experience</a> </em><a href='/Community/Logs#add-a-log-page'>now</a><em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/Community/Deployments#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/Community/Deployments#add-your-galaxy-deployment'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> <strong> </td>
   </tr>
 </table>
 
 </div>
 
 <div class='right'><br />
-<a href='http://www.irb.hr/eng'><img src='/Images/Logos/IRBLogo300.jpg' alt='Ruđer Bošković Institute (RBI)' width="100" /></a></div>
+<a href='http://www.irb.hr/eng'><img src="/src/Images/Logos/IRBLogo300.jpg" alt="Ruđer Bošković Institute (RBI)" width="100" /></a></div>
 
 
 ## New GTN Member: Ruđer Bošković Institute
@@ -378,7 +379,7 @@ We are pleased to welcome the [Ruđer Bošković Institute](http://www.irb.hr/) 
 
 ## Galaxy 2015/01/13 Distribution
 
-<div class='right'><a href='http://getgalaxy.org'><img src='/Images/Logos/GetGalaxyOrg.png' alt='width=175' /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/src/Images/Logos/GetGalaxyOrg.png" alt="width=175" /></a></div>
 
 **[Complete News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2015_01_13)**
 
@@ -398,7 +399,7 @@ In Galaxy's development branch, the basic tool from has been [redesigned and mod
 
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> </strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a><strong> </td>
   </tr>
   <tr>
@@ -434,13 +435,14 @@ Version 0.2.0 of [Planemo](https://github.com/galaxyproject/planemo/blob/master/
 * Documentation fixes for tool linting command (thanks to [Nicola Soranzo](/src/NicolaSoranzo/index.md)).
 
 ## BioBlend
+
 [BioBlend v0.5.2 was released in October](/src/News/BioBlendV0.5.2/index.md).  [BioBlend](https://github.com/galaxyproject/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  In January the [BioBlend source](https://github.com/galaxyproject/bioblend) was moved to the [galaxyproject Github account](https://github.com/galaxyproject).
 
 ## CloudMan and blend4j
 
 New versions [CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were released in August.
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 
@@ -529,6 +531,7 @@ In no particular order:
       !GitHub repo for this collection of tools can be [found here](https://github.com/galaxyproject/tools-devteam/tree/master/tool_collections/bamtools).
 
 ### Data Managers
+
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc/): *
   * [data_manager_snpeff](https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_snpeff): Manage !SnpEff genome reference data Data managers for the Galaxy admin to download !SnpEff genome databases. 
       !SnpEff is developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
@@ -574,8 +577,8 @@ In no particular order:
   * [package_cmake_3_1_0](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_cmake_3_1_0): Builds CMake version 3.1.0 - Cross Platform Makefile Generator 
   * [package_ucsc_user_apps_310](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_ucsc_user_apps_310): Builds most UCSC user applications Only those tools which successfully build without using mysql_config. Specifically only those in the kent/src/utils directory (those publicly available).
 
-
 # Other News
+
 * An [IPython Notebook that builds Galaxy tool_dependencies.xml file for Perl packages](http://nbviewer.ipython.org/github/bgruening/notebooks/blob/master/Perl/perl_package_to_galaxy_tool_dependency.ipynb), from [Björn Grüning](/src/BjoernGruening/index.md)
 * [NSF Award CIF21 DIBBS: Tripal Gateway, a Platform for Next-Generation Data Analysis and Sharing](http://nsf.gov/awardsearch/showAward?AWD_ID=1443040).  Will integrate [Tripal](http://tripal.info/) and Galaxy, and allow Tripal community databases to create and share workflows.  (See also this story in [HPCwire](http://www.hpcwire.com/2015/01/21/nsf-signs-1-4-million-check-advance-community-database/).)
 * [Dan Blankenberg](/src/Dan/index.md) on a [useful way to handle tools with outputs tied to tool version](https://github.com/galaxyproject/tools-iuc/issues/22#issuecomment-69930103) in Galaxy

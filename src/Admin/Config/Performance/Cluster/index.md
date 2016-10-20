@@ -2,7 +2,7 @@
 autotoc: true
 title: Running Galaxy Tools on a Cluster
 ---
-PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Admin/Config/Performance/LinkBox/index.md)
 
 Galaxy is designed to run jobs on your local system by default, but it can be configured to run jobs on a cluster.  The front-end Galaxy application runs on a single server as usual, but tools are run on cluster nodes instead.
 
@@ -23,11 +23,11 @@ Galaxy is known to work with:
 * [Platform LSF](http://www-03.ibm.com/systems/platformcomputing/products/lsf/)
 * [HTCondor](http://research.cs.wisc.edu/htcondor/)
 * [Slurm](http://slurm.schedmd.com/)
-* [Galaxy Pulsar](#pulsar) (formerly LWR)
+* [Galaxy Pulsar](/src/Admin/Config/Performance/Cluster/index.md#pulsar) (formerly LWR)
 
 It should also work with [any other DRM](http://www.drmaa.org/implementations.php) which implements a [DRMAA](http://www.drmaa.org) interface.  If you successfully run Galaxy with a DRM not listed here, please let us know via an email to the [galaxy-dev mailing list](/src/MailingLists/index.md).
 
-If you do not already have a DRM, [Galaxy Pulsar](#pulsar) is available which does not require an existing cluster or a shared filesystem and can also run jobs on Windows hosts.
+If you do not already have a DRM, [Galaxy Pulsar](/src/Admin/Config/Performance/Cluster/index.md#pulsar) is available which does not require an existing cluster or a shared filesystem and can also run jobs on Windows hosts.
 
 Installing and configuring your cluster hardware and management software is outside the scope of this document (and specific to each site).  That said, a few pitfalls commonly encountered when trying to get the user Galaxy runs as (referred to in this documentation as `galaxy_user`) able to run jobs on the DRM are addressed here:  
 
@@ -39,7 +39,7 @@ To continue, you should have a working DRM that `galaxy_user` can successfully s
 
 # Preliminary Setup
 
-Galaxy (with the exception of the [Pulsar](#pulsar) runner) currently requires a shared filesystem between the application server and the cluster nodes.  There is some legacy code in the PBS runner that does file staging, but its operational status is unknown.  The path to Galaxy must be exactly the same on both the nodes and the application server (although it is possible to use symlinks to partially subvert the absolute path requirement).  This is because absolute paths are used to refer to datasets and tools when running the command on the cluster node.  The shared filesystem and absolute pathnames are limitations that will eventually be removed as development time permits.
+Galaxy (with the exception of the [Pulsar](/src/Admin/Config/Performance/Cluster/index.md#pulsar) runner) currently requires a shared filesystem between the application server and the cluster nodes.  There is some legacy code in the PBS runner that does file staging, but its operational status is unknown.  The path to Galaxy must be exactly the same on both the nodes and the application server (although it is possible to use symlinks to partially subvert the absolute path requirement).  This is because absolute paths are used to refer to datasets and tools when running the command on the cluster node.  The shared filesystem and absolute pathnames are limitations that will eventually be removed as development time permits.
 
 For example, if Galaxy is installed like so:
 
@@ -113,7 +113,7 @@ The value of *local_slots* is used to define [GALAXY_SLOTS](/src/Admin/Config/GA
 
 ## DRMAA
 
-<div class='right'><a href='http://www.drmaa.org'><img src="../../../../Images/Logos/DRMAALogo200.png" alt="DRMAA" /></a></div>Runs jobs via any DRM which supports the [Distributed Resource Management Application API](http://www.drmaa.org).  Most commonly used to interface with [PBS Professional](http://www.pbsworks.com/Product.aspx?id=1), [Sun Grid Engine](http://gridscheduler.sourceforge.net/), [Univa Grid Engine](http://www.univa.com/products/grid-engine.php), [Platform LSF](http://www-03.ibm.com/systems/technicalcomputing/platformcomputing/products/lsf/index.html), and [SLURM](http://slurm.schedmd.com/).  
+<div class='right'><a href='http://www.drmaa.org'><img src="/src/Images/Logos/DRMAALogo200.png" alt="DRMAA" /></a></div>Runs jobs via any DRM which supports the [Distributed Resource Management Application API](http://www.drmaa.org).  Most commonly used to interface with [PBS Professional](http://www.pbsworks.com/Product.aspx?id=1), [Sun Grid Engine](http://gridscheduler.sourceforge.net/), [Univa Grid Engine](http://www.univa.com/products/grid-engine.php), [Platform LSF](http://www-03.ibm.com/systems/technicalcomputing/platformcomputing/products/lsf/index.html), and [SLURM](http://slurm.schedmd.com/).  
 
 ### Dependencies
 
@@ -127,7 +127,7 @@ galaxy_server% export DRMAA_LIBRARY_PATH=/galaxy/sge/lib/lx24-amd64/libdrmaa.so
 
 #### DRM Notes
 
-**TORQUE**: The DRMAA runner can also be used (instead of the [PBS](#pbs) runner) to submit jobs to TORQUE, however, problems have been reported when using the `libdrmaa.so` provided with TORQUE.  Using this library will result in a segmentation fault when the drmaa runner attempts to write the job template, and any native job runner options will not be passed to the DRM.  Instead, you should compile the [pbs-drmaa](http://apps.man.poznan.pl/trac/pbs-drmaa/wiki) library and use this as the value for `$DRMAA_LIBRARY_PATH`.
+**TORQUE**: The DRMAA runner can also be used (instead of the [PBS](/src/Admin/Config/Performance/Cluster/index.md#pbs) runner) to submit jobs to TORQUE, however, problems have been reported when using the `libdrmaa.so` provided with TORQUE.  Using this library will result in a segmentation fault when the drmaa runner attempts to write the job template, and any native job runner options will not be passed to the DRM.  Instead, you should compile the [pbs-drmaa](http://apps.man.poznan.pl/trac/pbs-drmaa/wiki) library and use this as the value for `$DRMAA_LIBRARY_PATH`.
 
 **Slurm**: You will need to install [slurm-drmaa](http://apps.man.poznan.pl/trac/slurm-drmaa). In production on [usegalaxy.org](https://usegalaxy.org) we observed pthread deadlocks in slurm-drmaa that would cause Galaxy job handlers to eventually stop processing jobs until the handler was restarted. Compiling slurm-drmaa using the compiler flags `-g -O0` (keep debugging symbols, disable optimization) caused the deadlock to disappear.
 
@@ -150,11 +150,11 @@ Most [options defined in the DRMAA interface](http://www.ogf.org/documents/GFD.1
 
 ## PBS
 
-Runs jobs via the [TORQUE Resource Manager](http://www.adaptivecomputing.com/products/open-source/torque/).  For PBS Pro, use [DRMAA](#drmaa).
+Runs jobs via the [TORQUE Resource Manager](http://www.adaptivecomputing.com/products/open-source/torque/).  For PBS Pro, use [DRMAA](/src/Admin/Config/Performance/Cluster/index.md#drmaa).
 
 ### Dependencies
 
-Galaxy uses the [pbs_python](https://oss.trac.surfsara.nl/pbs_python/) module to interface with TORQUE.  pbs_python must be compiled against your TORQUE installation, so it cannot be provided with Galaxy.  However, we provide all the necessary automation to compile it, via Galaxy's egg scrambler ([more about Galaxy's Python eggs](../../../../Admin/Config/Eggs)):
+Galaxy uses the [pbs_python](https://oss.trac.surfsara.nl/pbs_python/) module to interface with TORQUE.  pbs_python must be compiled against your TORQUE installation, so it cannot be provided with Galaxy.  However, we provide all the necessary automation to compile it, via Galaxy's egg scrambler ([more about Galaxy's Python eggs](/src/Admin/Config/Eggs/index.md)):
 
 ```console
 galaxy_user@galaxy_server% cd /clusterfs/galaxy/galaxy-app

@@ -4,19 +4,21 @@ title: Troubleshooting Galaxy on Jetstream
 ---
 
 
-PLACEHOLDER_INCLUDE(/Cloud/Jetstream/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Cloud/Jetstream/LinkBox/index.md)
 
 <div class='left'></div>
 
----
+----
 
 ## Galaxy does not run jobs
-There could be many reasons so if the following method does not help, please [|contact us](https://biostar.usegalaxy.org/).
+
+There could be many reasons so if the following method does not help, please [contact us](https://biostar.usegalaxy.org/).
 
 There's a bug in Jetstream's configuration for instance's hostname, and our automated workaround does not always apply. If you queue jobs on your instance, but Galaxy won't actually execute any, try the following:
  
 1. [Connect to your VM via ssh](/src/Cloud/Jetstream/ssh/index.md)
 2. Run the following set of commands. These will fix the hostname and restart the necessary processes.
+
 ```bash
 eafgan@js-172-144:~$ sudo fix_hostname.sh
 stop: Unknown instance:

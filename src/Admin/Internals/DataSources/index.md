@@ -61,8 +61,6 @@ The process is meant to proceed as follows:
 1. At the point where the parameter submission would return data, the external datasource will have to instead post these parameters to the url that were sent in the `GALAXY_URL` parameter. Typically this would require that the *action* attribute of the form that generates data to be pointed to the value sent in the `GALAXY_URL` parameter.
 1. When Galaxy receives the parameters it will run a URL fetching process in the background that will **resubmit** the parameters to the datasource, and it will deposit the returned data in the user's account.
 
- 
-
 ### Asynchronous data depositing
 
 This process operates similarly to the synchronous one, the exception being that the datasource will have to later notify Galaxy with the location of the data. 

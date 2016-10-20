@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/Develop/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
 # The source code of Galaxy
 
 Galaxy is an open source software under [AFL 3.0](/src/Admin/License/index.md) license.
@@ -19,8 +19,7 @@ If you have created piece of code for Galaxy that you would like to share with t
 
 For commits made prior to the switch to git, you can find the former HG commit IDs via git notes. Assuming you have set the [canonical Galaxy GitHub repository](https://github.com/galaxyproject/galaxy/) as the remote `upstream`, it is done like so (if you cloned directly from the canonical source rather than your own !GitHub fork, the remote would be `origin`):
 
-```
-#!highlight sh
+```sh
 % git fetch upstream refs/notes/hg2git:refs/notes/hg2git`
 % git log --show-notes=hg2git [-1 git-commit-hash]
 ```
@@ -28,8 +27,7 @@ For commits made prior to the switch to git, you can find the former HG commit I
 
 e.g.:
 
-```
-#!highlight sh
+```sh
 % cd galaxy.git
 % git log --show-notes=hg2git -1 579edf01b1416d52ac99f8675b6f86d677d6ee0e
 Author: Carl Eberhard <carlfeberhard@>
@@ -58,8 +56,7 @@ The following branches exist:
 
 You can get the current "in-development" code (where in-development code is on the `dev` branch) with:
 
-```
-#!highlight sh
+```sh
 % git clone https://github.com/galaxyproject/galaxy.git
 % cd galaxy
 ```
@@ -67,8 +64,7 @@ You can get the current "in-development" code (where in-development code is on t
 
 And receive updates
 
-```
-#!highlight sh
+```sh
 % git checkout dev
 % git pull
 ```
@@ -92,4 +88,5 @@ And receive updates
   ```#! highlight sh
   $ git pull
   ```
+
 

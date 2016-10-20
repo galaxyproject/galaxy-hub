@@ -1,10 +1,7 @@
----
-date: 2016-02-18T19:51:57Z
----
 <div class='newsItemHeader'>[GCC2016 Scholarships: Apply Now!](/src/News/GCC2016Scholarships/index.md)</div>
 
 <div class='right'>
-<a href='https://gcc2016.iu.edu/'><img src='https://gcc2016.iu.edu/img/gcc2016-logo.png' alt='2016 Galaxy Community Conference' width="250" /></a>
+<a href='https://gcc2016.iu.edu/'><img src="https://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference" width="250" /></a>
 </div>
 
 We are pleased to offer [scholarships](https://docs.google.com/forms/d/1IbMoNcA6z31a8hvqjSdfQRIQ92wo-HxXvA5uk0UilnQ/viewform) for the [2016 Galaxy Community Conference](http://gcc2016.iu.edu/), being held in Bloomington, Indiana, United States, June 25-29.  Scholarships are available to students and post-docs in historically under-represented groups, and to those from or based in Low and Lower-Middle Income Economies, [as defined by the World Bank](http://bit.ly/1nO82wD).  If this describes you or one of your students then we hope to receive an application.
@@ -26,5 +23,6 @@ If you are submitting a poster or demo, please do so *before* submitting an [app
 **The application deadline is May 1 for members of historically underrepresented groups and March 20 for those from Low and Lower-Middle Income Economies**.  Applicants will be notified of their scholarship status no later than two weeks after the deadline.
 
 Galaxy Community Fund Board
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-02-18</div>
 
 CategoryNews

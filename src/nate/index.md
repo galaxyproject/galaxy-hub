@@ -1,5 +1,4 @@
-
-<div class='right'>![](/GalaxyTeam/nate.jpg)</div>
+<div class='right'>![](/src/GalaxyTeam/nate.jpg)</div>
 
 # Nate Coraor
 
@@ -15,5 +14,5 @@ I am a system administrator, programmer, and a part of the [Galaxy Team](/src/Ga
 </table>
 
 
----
+----
 CategoryHomepage

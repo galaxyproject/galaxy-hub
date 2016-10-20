@@ -5,7 +5,7 @@ autotoc: true
 
 <div class='right'></div>
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=200 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=200 /></a></div>
 
 Tools contributed to the Galaxy Project Tool Shed in December 2015.
 
@@ -43,7 +43,6 @@ Tools contributed to the Galaxy Project Tool Shed in December 2015.
 
 * [cwpair2](https://toolshed.g2.bx.psu.edu/view/iuc/cwpair2): planemo upload for repository https://github.com/galaxyproject/tools-iuc/tree/master/tools/cwpair2 Contains a tool that takes a list of called peaks on both strands and produces a list of matched pairs and a list of unmatched orphans.  Contains a tool that takes a list of called peaks on both strands and produces a list of matched pairs and a list of unmatched orphans.  Nuclease stops (peaks) are expected to be on both strands at a fixed distance in the 5' direction from the site of crosslinking.  By pairing peaks within an empirically imposed distance, False positive peaks can be removed. It can also specify the point of crosslinking.
 
-
 * *From [ulfschaefer](https://toolshed.g2.bx.psu.edu/view/ulfschscidxaefer):*
   * [phe_samtools_mpileup](https://toolshed.g2.bx.psu.edu/view/ulfschaefer/phe_samtools_mpileup): samtools mpileup and bcftools call Uses samtools v1.1 mpileup and bcftools call to make a vcf file.
   * [vcfs2fasta](https://toolshed.g2.bx.psu.edu/view/ulfschaefer/vcfs2fasta): VCF to fasta file converter Combine multiple VCFs into a single FASTA file.
@@ -69,8 +68,6 @@ Tools contributed to the Galaxy Project Tool Shed in December 2015.
 * *From [r-lannes](https://toolshed.g2.bx.psu.edu/view/r-lannes):*
   * [cut_include_exclude](https://toolshed.g2.bx.psu.edu/view/r-lannes/cut_include_exclude): Simplify use of cut. Simply remove or keep selected column. based on python3. This scripts automatically generate and launch the cut command corresponding to user choice. 
 
-
-
 #### tool_dependency_definition
 
 * *From [ulfschaefer](https://toolshed.g2.bx.psu.edu/view/ulfschaefer):*
@@ -78,3 +75,4 @@ Tools contributed to the Galaxy Project Tool Shed in December 2015.
   * [package_python_2_7_bintrees_2_0_2](https://toolshed.g2.bx.psu.edu/view/ulfschaefer/package_python_2_7_bintrees_2_0_2): bintrees for Python2.7.10 This Galaxy Tool shed package installs bintrees version 2.0.2 (https://pypi.python.org/pypi/PyVCF)  package for use with python 2.7.10.
   * [package_python_2_7_pyvcf_0_6_7](https://toolshed.g2.bx.psu.edu/view/ulfschaefer/package_python_2_7_pyvcf_0_6_7): pyvcf 0.6.7 for python 2.7 package package_pyvcf_0_6_7 with added python2.7 dependency
   * [package_python_2_7_biopython_1_66](https://toolshed.g2.bx.psu.edu/view/ulfschaefer/package_python_2_7_biopython_1_66): Biopython 1.66 for Python2.7.10 
+

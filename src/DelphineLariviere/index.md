@@ -1,5 +1,4 @@
-
-<div class='right'><a href='/DelphineLariviere'><img src='/GalaxyTeam/DelphineLariviere.jpg' alt='DelphineLariviere' width="200",height="150" /></a>
+<div class='right'><a href='/src/DelphineLariviere/index.md'><img src="/src/GalaxyTeam/DelphineLariviere.jpg" alt="DelphineLariviere" width="200",height="150" /></a>
 </div>
 
 # Delphine Lariviere
@@ -17,5 +16,5 @@
   </tr>
 </table>
 
----
+----
 CategoryHomepage

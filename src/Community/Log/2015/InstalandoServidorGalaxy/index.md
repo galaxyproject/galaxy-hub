@@ -1,5 +1,5 @@
 ---
-title: 2015, /, 02, :,  , [Instalando um servidor do Galaxy Project](https://biscassi.wordpress.com/category/galaxy-project/)
+title: 2015/02: [Instalando um servidor do Galaxy Project](https://biscassi.wordpress.com/category/galaxy-project/)
 ---
 
 
@@ -19,4 +19,5 @@ This [series of posts](https://biscassi.wordpress.com/category/galaxy-project/) 
 
 * Léo's [Galaxy Project blog posts](https://biscassi.wordpress.com/category/galaxy-project/)
 * [Léo Biscassi](https://biscassi.wordpress.com/quem-sou-eu/)
+
 CategoryLog

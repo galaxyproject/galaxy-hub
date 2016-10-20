@@ -1,9 +1,6 @@
----
-date: 2014-06-02T12:41:26Z
----
 <div class='newsItemHeader'>[June 2, 2014 Galaxy Distribution](/src/News/2014_06_02_Galaxy_Distribution/index.md)</div>
 
-<div class='right'> <a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2014_06_02_dataset-collections-crop.png' alt='Dataset Collections Workflow Detail' width="400" /></a> <br /> *example dataset collection workflow ([credits](/src/DevNewsBriefs/2014_06_02/index.md#dataset_collections))* </div>
+<div class='right'> <a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2014_06_02_dataset-collections-crop.png" alt="Dataset Collections Workflow Detail" width="400" /></a> <br /> *example dataset collection workflow ([credits](/src/DevNewsBriefs/2014_06_02/index.md#dataset_collections))* </div>
 
 <br />
 **[News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2014_06_02)** **Highlights:**
@@ -16,10 +13,9 @@ date: 2014-06-02T12:41:26Z
 * Tool Shed repository and API additions
 * Data updates plus new Security features and Bug fixes
 
-
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
@@ -49,5 +45,6 @@ date: 2014-06-02T12:41:26Z
 
 [The Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-06-02</div>
 
 CategoryNews

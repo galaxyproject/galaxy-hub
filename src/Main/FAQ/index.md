@@ -1,18 +1,18 @@
 ---
 autotoc: true
-title: Frequently Asked Questions about , [/Main](/src/Main/index.md)
+title: Frequently Asked Questions about [Main](/src/Main/index.md)
 ---
-PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
+PLACEHOLDER_INCLUDE(/src/FAQs/LinkBox/index.md)
 
 
  
-Questions specifically about Galaxy's [free public server](/src/Main/index.md).  See [/Learn/FAQ](/src/Learn/FAQ/index.md) for questions that apply to any Galaxy instance.
+Questions specifically about Galaxy's [free public server](/src/Main/index.md).  See [Learn/FAQ](/src/Learn/FAQ/index.md) for questions that apply to any Galaxy instance.
 
 
  
 ## How do I get support?
 
-All sorts of ways.  See [/Support](/src/Support/index.md).
+All sorts of ways.  See [Support](/src/Support/index.md).
 
 ## How do tools get on to Main?
 
@@ -30,7 +30,7 @@ See
 * [Blogspot post](http://kevin-gattaca.blogspot.com/2011/09/faq-howto-do-rna-seq-bioinformatics.html).
 
 <div class='center'>
-<a href='http://galaxyproject.org/search/usegalaxy'><img src='/Images/Logos/UseGalaxySearch.png' alt='Search all "using Galaxy" resources' width="120" /></a>
+<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/Images/Logos/UseGalaxySearch.png" alt="Search all "using Galaxy" resources" width="120" /></a>
 
 [Search all "using Galaxy" resources](http://galaxyproject.org/search/usegalaxy)
 </div>

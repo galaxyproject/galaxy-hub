@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/Learn/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
 ## What are Galaxy Pages?
 
 Galaxy Pages are the main way for communicating your Galaxy analyses so that other people can easily view, reproduce, or extend your analyses. Pages represent a step towards the next generation of online publication or publication supplement.  [Here is an example Page for a published NGS metagenomics analysis](http://main.g2.bx.psu.edu/u/aun1/p/windshield-splatter).
@@ -33,8 +33,8 @@ Editing content is much like writing a typical document. Buttons at the top allo
 
 *Tip: embedding items between paragraphs of text will help your Page to be formatted correctly. *
 
-![](/Admin/Training/ISMB2010 Galaxy Tutorial: Running Your Own/Galaxy_Misc_3.png)
+![](/src/Admin/Training/ISMB2010 Galaxy Tutorial: Running Your Own/Galaxy_Misc_3.png)
 
-![](/Admin/Training/ISMB2010 Galaxy Tutorial: Running Your Own/Galaxy_Misc_4.png)
+![](/src/Admin/Training/ISMB2010 Galaxy Tutorial: Running Your Own/Galaxy_Misc_4.png)
 
 You can return to the History view and annotate your history items by clicking on the "Note" icon. These annotations will show up with your embedded history.

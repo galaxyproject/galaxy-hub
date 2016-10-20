@@ -1,4 +1,3 @@
-
 # John Chilton
 
 I am a research associate in the Nekrutenko lab at Penn State. I have been involved with developing, maintaining, and deploying Galaxy-based solutions for several years now. My current Galaxy development efforts are focused on increasing the job throughput of Galaxy - both on the user side through concepts such as dataset collections that will allow users to run traditional Galaxy tools in parallel across any number of datasets and on the back-end by modifying Galaxy to be able to leverage larger and more diverse computational infrastructures. I am also focused on facilitating and growing the Galaxy developer community and to a less extent improving the more developer and platform centric features in Galaxy - API, workflows, and the tool shed.
@@ -18,9 +17,9 @@ Some of my key contributions to Galaxy include the following:
 In my previous position on the [Galaxy-P](https://github.com/galaxyproteomics) project I did much of the initial development on many proteomics tools including [OpenMS](https://bitbucket.org/galaxyp/galaxyp-toolshed-openms), [msconvert](https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/msconvert), [ProteinPilot](https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/proteinpilot), [PeptideShaker](https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/peptideshaker), [Scaffold](https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/scaffold).
 
 
-Email: [jmchilton AT SPAMFREE gmail DOT com ](jmchilton AT SPAMFREE gmail DOT com ) or [jmchilton AT SPAMFREE bx DOT psu DOT edu ](jmchilton AT SPAMFREE bx DOT psu DOT edu ) 
+Email: [mailto:jmchilton AT SPAMFREE gmail DOT com ](jmchilton AT SPAMFREE gmail DOT com ) or [mailto:jmchilton AT SPAMFREE bx DOT psu DOT edu ](jmchilton AT SPAMFREE bx DOT psu DOT edu ) 
 
 ...
 
----
+----
 CategoryHomepage

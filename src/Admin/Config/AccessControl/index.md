@@ -1,4 +1,5 @@
 # Access control
+
 Access control is an extremely important part of configuration if you are deploying tools that need to be restricted, whether it is due to licensing issues or to the tools have administrative functions.
 
 Restricting tool usage can be done in two levels
@@ -15,8 +16,7 @@ You can read a [thread](http://dev.list.galaxyproject.org/pass-user-groups-to-dy
 
 Here is an example job_conf.xml file taken from that email thread
 
-```
-#!highlight xml
+```xml
 <?xml version="1.0"?>
 <job_conf>
     <plugins workers="4">
@@ -47,8 +47,7 @@ If you've already edited the job_conf.xml file, you are enough familiar with it 
 
 There are two important sections in here, firstly the destination a job will be sent to. Galaxy gives you the ability to route jobs however you wish. In this example case we'll look at restricting the use of transcriptome analysis tools so our users don't kill our server.
 
-```
-#!highlight xml
+```xml
 <destination id="transcriptome_role" runner="dynamic">
     <param id="function">is_user_in_role</param>
 </destination>
@@ -59,8 +58,7 @@ This define a dynamic destination, called `transcriptome_role`, which will use t
 
 The other important portion of the config file is the tool-to-destination mapping.
 
-```
-#!highlight xml
+```xml
 <tools>
     <tool id="tool1" destination="transcriptome_role"
 required_role="transcriptome_users" final_destination="local"/>
@@ -74,8 +72,7 @@ In this XML snippet we've set `tool1` to go to the destination referenced by id 
 
 In the `destinations.py` script we handle how the tool gets routed and the behaviour. Here is an example script.
 
-```
-#!highlight python
+```python
 from galaxy.jobs.mapper import JobMappingException
 DEFAULT_ROLE = 'have_license'
 
@@ -121,8 +118,7 @@ The second item to restricting tool visibility is by adding in a [dynamic toolbo
 
 You can look at `lib/galaxy/tools/toolbox/filters/examples.py` for good examples of filters. For our example we'll restrict all sections with the word "Admin" in them. This is an easy way to sequester administrative tools for admins only. 
 
-```
-#!highlighter python
+```python
 import logging
 log = logging.getLogger( __name__ )
 
@@ -137,7 +133,7 @@ def admin( context, section ):
 ```
 
 
-To rewrite the important points from [/UserDefinedToolboxFilters](/src/UserDefinedToolboxFilters/index.md) page, 
+To rewrite the important points from [UserDefinedToolboxFilters](/src/UserDefinedToolboxFilters/index.md) page, 
 
 * Every filter is a small python function under lib/galaxy/tools/toolbox/filters/. 
 
@@ -173,8 +169,7 @@ With this, you should have restricted a tool's use to a specific role, and hidde
 
 If you have not used the job_conf before and are using multiple worker threads for running galaxy (e.g., `server:handler0` entries in your `config/galaxy.ini`), please be sure to note you'll have to modify your `<handlers>` section to look something like:
 
-```
-#!highlight xml
+```xml
 <handlers default="handlers">
     <handler id="handler0" tags="handlers" />
     ...etc

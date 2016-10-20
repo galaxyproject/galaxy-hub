@@ -20,9 +20,9 @@ deepTools addresses the challenge of handling the large amounts of data that are
 
 For support, questions, or feature requests contact: deeptools@googlegroups.com
 
-[Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, and Thomas Manke. deepTools: a flexible platform for exploring deep-sequencing data. Nucl. Acids Res. first published online May 5, 2014 doi:10.1093/nar/gku365|http://nar.oxfordjournals.org/content/early/2014/05/05/nar.gku365.abstract](http://nar.oxfordjournals.org/content/early/2014/05/05/nar.gku365.abstract)
+[Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, and Thomas Manke. deepTools: a flexible platform for exploring deep-sequencing data. Nucl. Acids Res. first published online May 5, 2014 doi:10.1093/nar/gku365](http://nar.oxfordjournals.org/content/early/2014/05/05/nar.gku365.abstract)
 
-![deepTools](https://camo.githubusercontent.com/9a939620bf04dcf512619b3d6c799a5cff975264/68747470733a2f2f7261772e6769746875622e636f6d2f666964656c72616d2f64656570546f6f6c732f6d61737465722f6578616d706c65732f636f6c6c6167652e706e67)
+<img src="https://camo.githubusercontent.com/9a939620bf04dcf512619b3d6c799a5cff975264/68747470733a2f2f7261772e6769746875622e636f6d2f666964656c72616d2f64656570546f6f6c732f6d61737465722f6578616d706c65732f636f6c6c6167652e706e67" alt="deepTools" width=500 />
 
 ## Needed Tools
 
@@ -47,3 +47,4 @@ List of tools:
 
 * **[example workflows](https://github.com/fidelram/deepTools/wiki/Example-workflows)**
 * **[Galaery](https://github.com/fidelram/deepTools/wiki/Gallery)**
+

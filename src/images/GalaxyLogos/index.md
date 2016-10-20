@@ -2,7 +2,7 @@
 autotoc: true
 title: Galaxy Project Logos
 ---
-PLACEHOLDER_INCLUDE(/Images/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Images/LinkBox/index.md)
 
 <div class='right'></div>
 
@@ -16,55 +16,52 @@ Galaxy Project Logos have been provided to the Galaxy community for community bu
 
 * Project Logo, 292x75 pixels
   * White background,
-    <a href='/attachment:galaxy_logo_25percent.png'><img src='/galaxy_logo_25percent.png' /></a>
+    <a href='/src/attachment:galaxy_logo_25percent.png/index.md'><img src="/src/Images/GalaxyLogos/galaxy_logo_25percent.png" /></a>
   * Transparent background
-    <a href='/attachment:galaxy_logo_25percent_transparent.png'><img src='/galaxy_logo_25percent_transparent.png' /></a>
+    <a href='/src/attachment:galaxy_logo_25percent_transparent.png/index.md'><img src="/src/Images/GalaxyLogos/galaxy_logo_25percent_transparent.png" /></a>
 
 * Project Logo, 1600x566 pixels
   * White text, transparent background
-    <a href='/attachment:galaxy_project_logo_white.png'><img src='/galaxy_project_logo_white.png' alt='' width="600" /></a>
+    <a href='/src/attachment:galaxy_project_logo_white.png/index.md'><img src="/src/Images/GalaxyLogos/galaxy_project_logo_white.png" alt="" width="600" /></a>
   * While text, slate blue (#2C3143) background 
-    <a href='/attachment:galaxy_project_logo_blue.png'><img src='/galaxy_project_logo_blue.png' alt='' width="600" /></a>
+    <a href='/src/attachment:galaxy_project_logo_blue.png/index.md'><img src="/src/Images/GalaxyLogos/galaxy_project_logo_blue.png" alt="" width="600" /></a>
 
 * Project Logo, 2000x708 pixels
   * White background 
-    <a href='/attachment:galaxy_project_logo.jpg'><img src='/galaxy_project_logo.jpg' alt='' width=800 /></a>
+    <a href='/src/attachment:galaxy_project_logo.jpg/index.md'><img src="/src/Images/GalaxyLogos/galaxy_project_logo.jpg" alt="" width=800 /></a>
   * Transparent background 
-    <a href='/attachment:galaxy_project_logo.png'><img src='/galaxy_project_logo.png' alt='' width=800 /></a>
+    <a href='/src/attachment:galaxy_project_logo.png/index.md'><img src="/src/Images/GalaxyLogos/galaxy_project_logo.png" alt="" width=800 /></a>
 
 * Application logo, square, 600x600 pixels
   * Transparent background
-    ![](http://i.imgur.com/EBcrp64.png)
+    <img src="http://i.imgur.com/EBcrp64.png" alt="" width=300 />
 
 # Component Logos
 
 ## blend4php
 
 * White background, 500x102 pixels
-    <a href='/attachment:blend4phpLogo.png'><img src='/blend4phpLogo.png' alt=''  /></a>
-
+    <a href='/src/attachment:blend4phpLogo.png/index.md'><img src="/src/Images/GalaxyLogos/blend4phpLogo.png" alt=""  /></a>
 
 ## CloudMan
 
 * White background, 842x231 pixels
-    <a href='/attachment:cloudman-logo.jpg'><img src='/cloudman-logo.jpg' alt='' width="800" /></a>
+    <a href='/src/attachment:cloudman-logo.jpg/index.md'><img src="/src/Images/GalaxyLogos/cloudman-logo.jpg" alt="" width="800" /></a>
 
 ## Planemo
 
 * Transparent background
-    <a href='/attachment:planemo-logo.png'><img src='/planemo-logo.png' alt='' width=800 /></a>
-
+    <a href='/src/attachment:planemo-logo.png/index.md'><img src="/src/Images/GalaxyLogos/planemo-logo.png" alt="" width=800 /></a>
 
 ## Pulsar
 
 * Transparent background 
-    <a href='/attachment:pulsar_transparent.png'><img src='/pulsar_transparent.png' alt='' width=800 /></a>
-
+    <a href='/src/attachment:pulsar_transparent.png/index.md'><img src="/src/Images/GalaxyLogos/pulsar_transparent.png" alt="" width=800 /></a>
 
 ## Starforge
 
 * Transparent background
-    <a href='/attachment:starforge_logo_big.png'><img src='/starforge_logo_big.png' alt='' width="800" /></a>
+    <a href='/src/attachment:starforge_logo_big.png/index.md'><img src="/src/Images/GalaxyLogos/starforge_logo_big.png" alt="" width="800" /></a>
 
 ## Tool Shed
 
@@ -87,9 +84,7 @@ Galaxy Project Logos have been provided to the Galaxy community for community bu
 ## GalaxyAdmins
 
 * 1781x742 pixels
-    <a href='/attachment:GalaxyAdmins.png'><img src='/GalaxyAdmins.png' alt='' width="800" /></a>
-
-
+    <a href='/src/attachment:GalaxyAdmins.png/index.md'><img src="/src/Images/GalaxyLogos/GalaxyAdmins.png" alt="" width="800" /></a>
 
 ## Galaxy Deployment Catalog
 
@@ -98,31 +93,30 @@ Galaxy Project Logos have been provided to the Galaxy community for community bu
 ## Galaxy News
 
 * Rectangular, 1600x682 pixels
-    <a href='/attachment:GalaxyNews.png'><img src='/GalaxyNews.png' alt='' width="800" /></a>
+    <a href='/src/attachment:GalaxyNews.png/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="" width="800" /></a>
 
 ## Galaxy Training Network
 
 * Icon, 16x16 pixels
   * Transparent background
-    <a href='/attachment:GTN16.png'><img src='/GTN16.png' /></a>
+    <a href='/src/attachment:GTN16.png/index.md'><img src="/src/Images/GalaxyLogos/GTN16.png" /></a>
 
 * Logo, white background, 300x173 pixels
-    <a href='/attachment:GTNLogo300.png'><img src='/GTNLogo300.png' alt=''  /></a>
+    <a href='/src/attachment:GTNLogo300.png/index.md'><img src="/src/Images/GalaxyLogos/GTNLogo300.png" alt=""  /></a>
 
 * Logo, white background, 1000x576 pixels
-    <a href='/attachment:GTNLogo1000.png'><img src='/GTNLogo1000.png' alt='' width="600" /></a>
+    <a href='/src/attachment:GTNLogo1000.png/index.md'><img src="/src/Images/GalaxyLogos/GTNLogo1000.png" alt="" width="600" /></a>
 
 * Logo, white background, 7546x4345 pixels
-    <a href='/attachment:GTNLogoHuge.png'><img src='/GTNLogoHuge.png' alt='' width="800" /></a>
-
+    <a href='/src/attachment:GTNLogoHuge.png/index.md'><img src="/src/Images/GalaxyLogos/GTNLogoHuge.png" alt="" width="800" /></a>
 
 ## Scholarships
 
 * Logo, full text, 1600x670 pixels
-    <a href='/attachment:GalaxyScholarshipsBig.png'><img src='/GalaxyScholarshipsBig.png' alt='' width="800" /></a>
+    <a href='/src/attachment:GalaxyScholarshipsBig.png/index.md'><img src="/src/Images/GalaxyLogos/GalaxyScholarshipsBig.png" alt="" width="800" /></a>
 
 * Logo, just G, 679x429 pixels
-    <a href='/attachment:GalaxyScholarshipsGBig.png'><img src='/GalaxyScholarshipsGBig.png' alt=''  /></a>
+    <a href='/src/attachment:GalaxyScholarshipsGBig.png/index.md'><img src="/src/Images/GalaxyLogos/GalaxyScholarshipsGBig.png" alt=""  /></a>
 
 ## Search and Mailing Lists
 
@@ -134,7 +128,7 @@ Galaxy Project Logos have been provided to the Galaxy community for community bu
 
 # Full List
 
-PLACEHOLDER_ACTION(AttachFile,Attach a new file)
+PLACEHOLDER_ACTION(AttachFile, Attach a new file)
 
 An alphabetical list of all logos on this page.  If you want to create an HTML link to an image copy the *get* link for that image.
 

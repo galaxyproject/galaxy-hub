@@ -2,11 +2,11 @@
 autotoc: true
 title: Galaxy Training Network
 ---
-PLACEHOLDER_INCLUDE(/Teach/Header)
+PLACEHOLDER_INCLUDE(/src/Teach/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Teach/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Teach/LinkBox/index.md)
 
 The *[Galaxy Training Network (GTN)](/src/Teach/GTN/index.md)* is a network of people and groups that present Galaxy and Galaxy-based training around the world.  GTN helps researchers find online training material, and trainers in their geographic area, and helps advertise [training events](/src/Events/index.md) as well.
 
@@ -21,7 +21,7 @@ The **[Training Resources Directory](/src/Teach/Resources/index.md)** is a catal
 There is also an [easy way to add new resources](/src/Teach/Resources/index.md#add-a-training-resource) to the directory.
 
 
-<div class='right'><br /> <a href='http://bit.ly/gxytrnmap'><img src='/Teach/GalaxyTrainingMapThumb.png' alt='Galaxy Training Network: Trainer Locations Map' width="250" /></a> </div>
+<div class='right'><br /> <a href='http://bit.ly/gxytrnmap'><img src="/src/Teach/GalaxyTrainingMapThumb.png" alt="Galaxy Training Network: Trainer Locations Map" width="250" /></a> </div>
 
 ## Trainer Directory
 
@@ -46,7 +46,7 @@ Want to know what training events are scheduled in the coming months?  Or publis
 
 ## Interested?
 
-If you are interested in being a part of this effort, you can [register as a Galaxy Trainer](/src/Teach/Trainers/index.md), [add your resources to the Training Resources Directory](/src/Teach/Resources/index.md), and [contribute to best practices](/src/Teach/BestPractices/index.md) for teaching with Galaxy.  Still have questions? Please contact [outreach AT galaxyproject DOT org](Galaxy Outreach).
+If you are interested in being a part of this effort, you can [register as a Galaxy Trainer](/src/Teach/Trainers/index.md), [add your resources to the Training Resources Directory](/src/Teach/Resources/index.md), and [contribute to best practices](/src/Teach/BestPractices/index.md) for teaching with Galaxy.  Still have questions? Please contact [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
 
 
 ## GTN News

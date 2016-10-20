@@ -1,10 +1,10 @@
-<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> <div class='title'>2012/11/14 Conference Call</div></div>
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> <div class='title'>2012/11/14 Conference Call</div></div>
 
 <br />
 
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
-<div class='center'>**Note:** Next [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) Meetup: [January 16](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) <br /> John Chilton on Deploying Galaxy on !OpenStack with !CloudBioLinux & CloudMan</div>
+<div class='center'>**Note:** Next [GalaxyAdmins](/src/Community/GalaxyAdmins/Meetups//index.md) Meetup: [January 16](/src/Community/GalaxyAdmins/Meetups/2012_11_14/2013_01_16/index.md) <br /> John Chilton on Deploying Galaxy on !OpenStack with !CloudBioLinux & CloudMan</div>
 
 <br />
 
@@ -36,10 +36,10 @@ Curtis Hendrickson of the [University of Alabama Birmingham's Center for Clinica
 
 <br /><br />
 
-*We also bid farewell to [Ann Black-Ziegelbein of the University of Iowa](https://www.linkedin.com/pub/ann-blackziegelbein/a/166/117).*  Ann has been the driving force behind launching the [GalaxyAdmins|GalaxyAdmins](/src/Community/index.md) group and has guided it through its first (wildly successful!) 6 months of existence.  Ann is handing over the reigns to her fellow U Iowa colleague Srinivas Maddhi, whose day job is getting Iowa's Galaxy server into production.  
+*We also bid farewell to [Ann Black-Ziegelbein of the University of Iowa](https://www.linkedin.com/pub/ann-blackziegelbein/a/166/117).*  Ann has been the driving force behind launching the [GalaxyAdmins](/src/Community/index.md) group and has guided it through its first (wildly successful!) 6 months of existence.  Ann is handing over the reigns to her fellow U Iowa colleague Srinivas Maddhi, whose day job is getting Iowa's Galaxy server into production.  
 
 We thank Ann profusely for her contributions, and Srinivas for taking this on.
 
 ## Call Technology
 
-We used the [University of Iowa's Blackboard system](/src/Community/GalaxyAdmins/Meetups/WebinarTech/index.md) for the call. Some care is needed to avoid getting feedback with participants without headphones. Therefore, *headphones are strongly encouraged.*
+We used the [University of Iowa's Blackboard system](/src/Community/GalaxyAdmins/Meetups/2012_11_14/WebinarTech/index.md) for the call. Some care is needed to avoid getting feedback with participants without headphones. Therefore, *headphones are strongly encouraged.*

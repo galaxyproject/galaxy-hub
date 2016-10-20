@@ -7,6 +7,7 @@ PSS are resolved in the following order:
   2. If it's a filename only (no path), the cluster bucket will be first checked for the filename, and if it exists, downloaded and executed. Otherwise, the script will be assumed to be local and executed from the system path.
   3. If the path refers to a local directory, all scripts in that directory will be executed using the run-parts utility. (Refer to Ubuntu man pages for documentation on run-parts). Note that by default, run-parts does not execute files with extensions, and therefore, scripts should be marked as executable but should not contain an extension such as .sh
   4. If it's a file in a local filesystem path, the script will be directly executed.
+
 2. If these URL's are not defined in the user data, execution falls back to legacy behaviour,
 by checking if files `post_start_script` or `worker_post_start_script`, for master
 and worker respectively, exist in the cluster bucket. If available, they are downloaded

@@ -1,11 +1,11 @@
 ---
 title: Organizers
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 
 ## Organizing Committee
 
@@ -20,7 +20,7 @@ The GCC2014 Organizing Committee is responsible for event planning.
  **[Karen Reddy](http://biolchem.bs.jhmi.edu/pages/facultydetail.aspx?FID=343)**
   [Johns Hopkins University](http://jhu.edu/)<br /><br />
 
-Questions?  Send the organizers an [gcc2014 DASH org AT groups DOT galaxyproject DOT org](email).
+Questions?  Send the organizers an [mailto:gcc2014 DASH org AT groups DOT galaxyproject DOT org](email).
 
 ## Scientific Committee
 
@@ -37,7 +37,7 @@ The GCC2014 Scientific Program Committee is responsible for meeting content, inc
  **[James Taylor](/src/JamesTaylor/index.md)**
   [Johns Hopkins University](http://jhu.edu/)<br /><br />
 
-The Scientific Program Committee can [gcc2014 DASH org AT groups DOT galaxyproject DOT org](be reached via email).
+The Scientific Program Committee can [mailto:gcc2014 DASH org AT groups DOT galaxyproject DOT org](be reached via email).
 
 ## Hackathon Committee
 
@@ -52,6 +52,6 @@ The GCC2014 Hackathon Organizing Committee is responsible for making the [accomp
  **[Kyle Ellrott](https://twitter.com/kellrott)**
   [University of California Santa Cruz (UCSC)](http://www.soe.ucsc.edu/people/kellrott)
 
-The Hackathon Organizing Committee can [gcc2014 DASH hack DASH org AT groups DOT galaxyproject DOT org](be reached via email).
+The Hackathon Organizing Committee can [mailto:gcc2014 DASH hack DASH org AT groups DOT galaxyproject DOT org](be reached via email).
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Footer)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Footer/index.md)

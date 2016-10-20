@@ -1,9 +1,6 @@
----
-date: 2013-07-31T17:38:56Z
----
 <div class='newsItemHeader'>[August 2013 Galaxy Update](/src/News/2013_08GalaxyUpdate/index.md)</div>
 
-<div class='right'><a href='/GalaxyUpdates/2013_08'><img src='/Images/Logos/GalaxyUpdate200.png' alt='August 2013 Galaxy Update' width=150 /></a></div>
+<div class='right'><a href='/src/GalaxyUpdates/2013_08/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="August 2013 Galaxy Update" width=150 /></a></div>
 
 The [August 2013 Galaxy Update is now available](/src/GalaxyUpdates/2013_08/index.md). 
 
@@ -24,5 +21,6 @@ If you have anything you would like to see in the next *[Galaxy Update](/src/Gal
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-07-31 </div>
 
 CategoryNews

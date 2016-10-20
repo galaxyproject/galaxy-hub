@@ -2,7 +2,7 @@
 title: Introduction to Galaxy Workshop
 ---
 <div class='center'>
-<a href='https://clas.asu.edu/biokic'><img src='/Images/Logos/ASUBioKIC_600.png' alt='Biodiversity Knowledge Integration Center' width="400" /></a>
+<a href='https://clas.asu.edu/biokic'><img src="/src/Images/Logos/ASUBioKIC_600.png" alt="Biodiversity Knowledge Integration Center" width="400" /></a>
 
 <br /><br />
 
@@ -97,7 +97,7 @@ Tea, coffee and lunch will be provided
 ## Support
 
 <div class='right center'>
-<a href='https://clas.asu.edu/biokic'><img src='/Images/Logos/ASUBioKIC_600.png' alt='Biodiversity Knowledge Integration Center' width="300" /></a>
+<a href='https://clas.asu.edu/biokic'><img src="/src/Images/Logos/ASUBioKIC_600.png" alt="Biodiversity Knowledge Integration Center" width="300" /></a>
 </div>
 
 This workshop is supported by [Biodiversity Knowledge Integration Center (BioKIC)](https://clas.asu.edu/biokic) of the [Arizona State University](http://asu.edu), and the [National Institutes of Health (NIH)](http://www.nih.gov). which funds the Galaxy Project.

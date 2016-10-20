@@ -1,6 +1,6 @@
 # Chromosome Identifiers
 
-Return to [/Support](/src/Support/index.md)
+Return to [Support](/src/Support/index.md)
 
 ## Reference Genome Contents
 
@@ -25,6 +25,7 @@ To learn what the identifiers are for any UCSC database, do one of the following
 
 
 ## Adjusting Identifiers
+
 This method will be successful for many Ensembl -> UCSC adjustments, but not all. Confirm that all chromosomes will match after the "chr" is added. If any will not convert with this method, then associated lines will be omitted from the analysis (by some tools) and trigger warnings or errors with others. If all will not convert, then either an alternate input file or a [Custom Reference Genome](/src/Support/index.md#custom_reference_genome) with *Ensembl-based chromosome identifiers* should be used for the analysis instead.
 
 ```
@@ -38,7 +39,6 @@ Using tools from the group "Text Manipulation":
 3. "Cut" = cut "c8,c2,c3,c4,c5,c6" (replace c1 & c7 - with merged c8 - the new chrom identifier)
 4. Click on the pencil icon for the result dataset, then the tab for "Datatype". Assign "bed" and save. Allow the metadata to complete assignment (the "yellow" dataset state).
 5. Now click on the tab for "Attributes" and assign the remaining columns. Strand = 6, name = 4, and score = 5. Save. For best results with certain downstream tools, allow the metadata to complete assignment.
-
 
 ```
 

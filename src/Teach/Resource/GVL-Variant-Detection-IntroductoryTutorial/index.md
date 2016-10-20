@@ -2,7 +2,7 @@
 title: [GVL Variant Detection Introductory Tutorial](https://docs.google.com/document/pub?id=1ZRzrjjOCvtAu3m-IKL-rbJ1f4On60dDL_IEwG7oejdI)
 ---
 <div class='center'>
-<a href='https://docs.google.com/document/pub?id=1ZRzrjjOCvtAu3m-IKL-rbJ1f4On60dDL_IEwG7oejdI'><img src='/PublicGalaxyServers/GenomicsVirtualLab300.png' alt='Variant Detection Introductory Tutorial' height="200" /></a>
+<a href='https://docs.google.com/document/pub?id=1ZRzrjjOCvtAu3m-IKL-rbJ1f4On60dDL_IEwG7oejdI'><img src="/src/PublicGalaxyServers/GenomicsVirtualLab300.png" alt="Variant Detection Introductory Tutorial" height="200" /></a>
 </div>
 
 

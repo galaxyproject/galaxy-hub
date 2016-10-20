@@ -1,12 +1,9 @@
----
-date: 2014-06-25T16:41:29Z
----
 <div class='newsItemHeader'>[July 2014 Galaxy News](/src/News/2014_07GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/GalaxyUpdates/2014_07'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a><br /><br /> <a href='/GalaxyUpdates/2014_07#gcc2014-june-30---july-2-baltimore'><img src='/Images/Logos/GCC2014LogoWide200.png' alt='GCC2014: June 30 - July 2' width="150" /></a><br /><br />
-<a href='/GalaxyUpdates/2014_07#galaxy--isbmb-and-bosc-2014'><img src='/Images/Logos/BOSC_logo.png' alt='BOSC 2013' height="45" /></a>
-<a href='/GalaxyUpdates/2014_07#galaxy--isbmb-and-bosc-2014'><img src='/Images/Logos/ISMB2014LogoRound.png' alt='ISMB 2014' height="80" /></a>
+<a href='/src/GalaxyUpdates/2014_07/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a><br /><br /> <a href='/src/GalaxyUpdates/2014_07/index.md#gcc2014-june-30---july-2-baltimore'><img src="/src/Images/Logos/GCC2014LogoWide200.png" alt="GCC2014: June 30 - July 2" width="150" /></a><br /><br />
+<a href='/src/GalaxyUpdates/2014_07/index.md#galaxy--isbmb-and-bosc-2014'><img src="/src/Images/Logos/BOSC_logo.png" alt="BOSC 2013" height="45" /></a>
+<a href='/src/GalaxyUpdates/2014_07/index.md#galaxy--isbmb-and-bosc-2014'><img src="/src/Images/Logos/ISMB2014LogoRound.png" alt="ISMB 2014" height="80" /></a>
 </div>
 
 The [July 2014 Galaxy Update Newsletter](/src/GalaxyUpdates/2014_07/index.md) is out, and a few days early at that.  Here's a preview of what's inside:
@@ -21,5 +18,6 @@ The [July 2014 Galaxy Update Newsletter](/src/GalaxyUpdates/2014_07/index.md) is
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-06-25 </div>
 
 CategoryNews

@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: December 20, ,,  2012 Galaxy Development News Brief
+title: December 20, 2012 Galaxy Development News Brief
 ---
 <div class='right'></div>
 
@@ -11,7 +11,7 @@ title: December 20, ,,  2012 Galaxy Development News Brief
 
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
@@ -45,7 +45,8 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 
 <br />
 # Tool Shed
-**[/Tool Shed](/Tool Shed)**
+
+**[Tool Shed](/src/Tool Shed/index.md)**
 
 ### Galaxy Enhancement related to installed tool shed repositories
 
@@ -103,6 +104,7 @@ It is important to note that *only the most **specific match** will be used if t
 
 <br />
 # Visualization
+
 ### Galaxy Track Browser (Trackster)
 
 1. Add `BAM to BigWig converter` for read coverage data.
@@ -120,6 +122,7 @@ It is important to note that *only the most **specific match** will be used if t
 
 <br />
 # Source
+
 ### Pull Requests Accepted
 
 1. Allow a datatype's merge method to optionally take in the `output_dataset` object. **[#83](https://bitbucket.org/galaxy/galaxy-central/pull-request/83/allow-a-datatypes-merge-method-to)**; contributed by [John Chilton](http://bitbucket.org/jmchilton).
@@ -130,7 +133,7 @@ It is important to note that *only the most **specific match** will be used if t
 <br />
 # Trello Issue Tracking
 
-<div class='left'><a href='http://bit.ly/gxytrello'><img src='/Images/Logos/TrelloLogo300.png' alt='Galaxy Issue Board @ Trello' width="100" /></a></div>
+<div class='left'><a href='http://bit.ly/gxytrello'><img src="/src/Images/Logos/TrelloLogo300.png" alt="Galaxy Issue Board @ Trello" width="100" /></a></div>
 
 The Galaxy Project uses *[Trello](http://trello.com/)* for [issue creation](http://galaxyproject.org/trello) plus [commenting](http://wiki.galaxyproject.org/Issues#Add a Comment) and [voting](http://wiki.galaxyproject.org/Issues#Vote) on existing issues. 
 
@@ -147,7 +150,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 1. Fix for text area tool parameters (form builder) when a size isn't provided.
 2. Fix for error reporting link throwing server errors.
-3. Fix for `SelectToolParameter` in rerun ![](/Images/Icons/arrow-circle.png) and workflows when multiple="true"
+3. Fix for `SelectToolParameter` in rerun ![](/src/Images/Icons/arrow-circle.png) and workflows when multiple="true"
 4. Fix IE console errors.
 5. Fix unhandled 'new' state for datasets in the history panel.
 6. Handle adding datasets to history panel without refresh.
@@ -160,9 +163,9 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # Announcements
 
-[/News](/src/News/index.md), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_12)***
+[News](/src/News/index.md), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_12)***
 
-<div class='left'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="175px" /></a></div>
+<div class='left'><a href='/src/Events/GCC2013/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
 <br />
 **[GCC2013 Training Day Topic Nominations](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay) are now open** through ***[January 11th](http://wiki.galaxyproject.org/Events/GCC2013/KeyDates)***.  
 <br />
@@ -172,9 +175,10 @@ Get a word in now.
 <br />
 <br />
 <br />
----
+----
 <br />
 # About Galaxy
+
 **[GalaxyProject.org](http://galaxyproject.org)**
 
 The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 

@@ -1,4 +1,4 @@
-Forthcoming edits to [/Admin/Config/Performance/Cluster](/src/Admin/Config/Performance/Cluster/index.md):
+Forthcoming edits to [Admin/Config/Performance/Cluster](/src/Admin/Config/Performance/Cluster/index.md):
 
 ## DRMAA
 

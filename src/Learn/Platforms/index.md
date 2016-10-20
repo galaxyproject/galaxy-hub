@@ -1,7 +1,7 @@
 ---
 autotoc: true
 ---
-PLACEHOLDER_INCLUDE(/Learn/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
 
 Help on using Galaxy that is specific to particular browsers, operating systems, and/or hardware.  This includes specific tricks and workarounds, as well as known issues.
 
@@ -42,5 +42,3 @@ Alternatively, you may **grant Galaxy a cookie exception**:
 1. Click **Allow** to add it to the list.
 1. Click **Close** on this dialog and the Preferences dialog to return to the browser.
 
-
- 

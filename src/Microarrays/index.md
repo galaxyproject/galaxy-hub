@@ -2,7 +2,8 @@ The [main Galaxy server](/src/Main/index.md) does not currently (2011/07) provid
 
 ## Public Galaxy Servers
 
-There are numerous other [/Public Galaxy Servers](/Public Galaxy Servers).  These are known to provide some support for microarrays:
+There are numerous other [Public Galaxy Servers](/src/PublicGalaxyServers/index.md).  These are known to provide some support for microarrays:
+
 
 | Server |  Purpose / Community  |  Other Comments  |  Restrictions  |  Sponsor  | 
 | ------ | -------------------- | --------------- | ------------- | -------- | 
@@ -12,3 +13,4 @@ There are numerous other [/Public Galaxy Servers](/Public Galaxy Servers).  Thes
 
 * [Microarray Analysis Tools](http://user.list.galaxyproject.org/microarray-analysis-tools-td4133127.html)
 * [How to set up a microarray analysis workflow in Galaxy](http://user.list.galaxyproject.org/how-to-set-up-a-microarray-analysis-workflow-in-Galaxy-td4133425.html)
+

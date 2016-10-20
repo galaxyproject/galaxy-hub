@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: October 5, ,,  2012 Galaxy Development News Brief
+title: October 5, 2012 Galaxy Development News Brief
 ---
 <div class='right'></div>
 
@@ -11,7 +11,7 @@ title: October 5, ,,  2012 Galaxy Development News Brief
 
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
@@ -33,9 +33,9 @@ title: October 5, ,,  2012 Galaxy Development News Brief
 The tools **NGS: Mapping** &rarr; *Map with BWA for Illumina* and *Map with BWA for
 SOLiD* have moved from the Galaxy distribution to the Galaxy Main Tool Shed.
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='tool shed' width="150px" /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/Images/Logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 
-Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing these BWA tool wrappers from the Tool Shed. **[BWA](http://bio-bwa.sourceforge.net/)** itself and target reference genomes should still be installed as described in the Galaxy wiki - start in the [Tool Dependencies](/Admin/Tools/Tool Dependencies) section.
+Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing these BWA tool wrappers from the Tool Shed. **[BWA](http://bio-bwa.sourceforge.net/)** itself and target reference genomes should still be installed as described in the Galaxy wiki - start in the [Tool Dependencies](/src/Admin/Tools/Tool Dependencies/index.md) section.
 
 **[BWA](http://bio-bwa.sourceforge.net/)** is a fast light-weighted tool that aligns relatively short sequences (queries) to a sequence database (large), such as the human reference genome. It is developed by Heng Li at the Sanger Insitute. Li H. and Durbin R. (2009) Fast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics, 25, 1754-60. 
 
@@ -73,7 +73,7 @@ If called with the `--help` option, it will output usage information.  The datas
 <br />
 # Tool Shed
 
-The **[/Tool Shed](/Tool Shed)** wiki has been re-written with a new, cleaner presentation. *[Check it out!](/Tool Shed)*
+The **[Tool Shed](/src/Tool Shed/index.md)** wiki has been re-written with a new, cleaner presentation. *[Check it out!](/src/Tool Shed/index.md)*
 
 ### New tool shed features
 
@@ -127,14 +127,15 @@ The following sections of the tool shed wiki have been updated to more thoroughl
 
 <br />
 # Tools
-[Tool Dependencies](/Admin/Tools/Tool Dependencies)
+
+[Tool Dependencies](/src/Admin/Tools/Tool Dependencies/index.md)
 
 ### Enhancements
 
 Tool changes that enable clearer experimental tracking and ease reproducibility
 
 1. **Tool versions and exit codes**
- 
+
 * Display tool version in workflow tool form editor.
 * Display tool version when running a workflow.
 * Always allow selecting different (e.g. 'older') versions of a tool when selected from the tools menu.
@@ -160,7 +161,6 @@ Tool changes that enable clearer experimental tracking and ease reproducibility
 * [More about](http://bowtie-bio.sourceforge.net/bowtie2) **[Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2)**
 * [More about](http://tophat.cbcb.umd.edu) **[Tophat/Tophat2](http://tophat.cbcb.umd.edu)**
 * [More about](http://cufflinks.cbcb.umd.edu) **[Cufflinks, Cuffcompare, Cuffmerge, & Cuffdiff](http://cufflinks.cbcb.umd.edu)**
-
 
 <br />
 # Visualization framework
@@ -207,7 +207,7 @@ Tool changes that enable clearer experimental tracking and ease reproducibility
 <br />
 # Announcements
 
-[/News](/src/News/index.md), *[October 2012 Galaxy Update](/src/GalaxyUpdates/2012_10/index.md)*
+[News](/src/News/index.md), *[October 2012 Galaxy Update](/src/GalaxyUpdates/2012_10/index.md)*
 
 **[Highlights](/src/News/2012_10GalaxyUpdate/index.md):**
 
@@ -219,13 +219,14 @@ Tool changes that enable clearer experimental tracking and ease reproducibility
 * [Other News](/src/GalaxyUpdates/2012_10/index.md#other-news)
 
 <br />
----
+----
 <br />
 # About Galaxy
+
 **[GalaxyProject.org](http://galaxyproject.org)**
 
 The **[Galaxy Team](/src/GalaxyTeam/index.md)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[/Galaxy on Twitter](/Galaxy on Twitter)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/Galaxy on Twitter/index.md)**

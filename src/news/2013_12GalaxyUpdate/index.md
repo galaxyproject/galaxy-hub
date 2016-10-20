@@ -1,9 +1,6 @@
----
-date: 2013-12-02T06:48:48Z
----
 <div class='newsItemHeader'>[December 2013 Galaxy Update](/src/News/2013_12GalaxyUpdate/index.md)</div>
 
-<div class='right'><a href='/GalaxyUpdates/2013_11'><img src='/Images/Logos/GalaxyUpdate200.png' alt='December 2013 Galaxy Update' width=150 /></a></div>
+<div class='right'><a href='/src/GalaxyUpdates/2013_11/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="December 2013 Galaxy Update" width=150 /></a></div>
 
 The [December 2013 Galaxy Update is out](/src/GalaxyUpdates/2013_12/index.md):
 
@@ -23,5 +20,6 @@ If you have anything you would like to see in the next *[Galaxy Update](/src/Gal
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-12-02 </div>
 
 CategoryNews

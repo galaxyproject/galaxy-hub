@@ -1,10 +1,7 @@
----
-date: 2014-04-09T05:44:52Z
----
 <div class='newsItemHeader'>[GAW2014 Conference Report](/src/News/GAW2014MeetingReport/index.md)</div>
 
 <div class='right'>
-<a href='/Events/GAW2014'><img src='/Images/Logos/GAW2014-200.png' alt='Galaxy Australasia Workshop 2014' width="150" /></a> <a href='http://csiro.au/'><img src='/Images/Logos/CSIROLogoBig.png' alt='CSIRO' width="75" /></a></div>
+<a href='/src/Events/GAW2014/index.md'><img src="/src/Images/Logos/GAW2014-200.png" alt="Galaxy Australasia Workshop 2014" width="150" /></a> <a href='http://csiro.au/'><img src="/src/Images/Logos/CSIROLogoBig.png" alt="CSIRO" width="75" /></a></div>
 
 A [Conference Report](/src/Events/GAW2014/index.md#conference-report) for the first [Galaxy Australasia Workshop](/src/Events/GAW2014/index.md) is now [available](/src/Events/GAW2014/index.md#conference-report).  Most of the [slides and posters](/src/Events/GAW2014/index.md#program) are also [available](/src/Events/GAW2014/index.md#program).
 
@@ -16,5 +13,6 @@ Cheers,
 
 [Ron Horst](https://www.yammer.com/australianbioinformaticsnetwork/users/rhorst-guest#/Threads/fromUser?type=from_user&feedId=1506414565)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-04-09</div>
 
 CategoryNews

@@ -1,19 +1,19 @@
 ---
 autotoc: true
 ---
-<div class='right'><a href='../'><img src='/Events/GCC2012/GCC2012TrainingDayLogo.png' alt='Training Day' /></a></div>
+<div class='right'><a href='/src/Events/GCC2012/TrainingDay/VMs//index.md'><img src="/src/Events/GCC2012/GCC2012TrainingDayLogo.png" alt="Training Day" /></a></div>
 
 If you are planning on attending any of these [GCC2012](/src/Events/GCC2012/index.md) [Training Day](/src/Events/GCC2012/TrainingDay/index.md) workshops, then you will need shell admin access to a system with Galaxy and/or a Galaxy Tool Shed already installed and running.
 
-* [WS1: Integrating Tools & Data Sources](/src/events/GCC2012/TrainingDay/index.md#ws1)
-* [WS6: Galaxy API](/src/events/GCC2012/TrainingDay/index.md#ws6)
-* [WS7: Galaxy Tool Shed](/src/events/GCC2012/TrainingDay/index.md#ws7)
+* [WS1: Integrating Tools & Data Sources](/src/Events/GCC2012/TrainingDay/VMs//index.md#ws1)
+* [WS6: Galaxy API](/src/Events/GCC2012/TrainingDay/VMs//index.md#ws6)
+* [WS7: Galaxy Tool Shed](/src/Events/GCC2012/TrainingDay/VMs//index.md#ws7)
 
 <div class='right'></div>
 
 If you are attending this workshop
 
-* [WS5: Installing Your Own Galaxy](/src/events/GCC2012/TrainingDay/index.md#ws5)
+* [WS5: Installing Your Own Galaxy](/src/Events/GCC2012/TrainingDay/VMs//index.md#ws5)
 
 you will need shell admin access to a system that has Galaxy's prerequisites installed, but not Galaxy itself.
 
@@ -28,11 +28,11 @@ Using a virtual machine ensures that you will be running with the same configura
 
 # What Do I Need to Do?
 
-You will need to do two things before [Training Day](/src/events/GCC2012/TrainingDay/index.md) starts.  These steps take some time, and require downloading large files, so please do not postpone this until you arrive.  Downloading files of this size at the [UIC Forum](/src/Events/GCC2012/Logistics/index.md) would be painfully slow, and would adversely affect your fellow students.
+You will need to do two things before [Training Day](/src/Events/GCC2012/TrainingDay/VMs//index.md) starts.  These steps take some time, and require downloading large files, so please do not postpone this until you arrive.  Downloading files of this size at the [UIC Forum](/src/Events/GCC2012/Logistics/index.md) would be painfully slow, and would adversely affect your fellow students.
 
 So, **please do these steps before you arrive**.
 
-<div class='right'><a href='https://www.virtualbox.org/wiki/Downloads'><img src='/Images/Logos/VirtualBox180.png' alt='Virtual Machine Images' width="120" /></a></div>
+<div class='right'><a href='https://www.virtualbox.org/wiki/Downloads'><img src="/src/Images/Logos/VirtualBox180.png" alt="Virtual Machine Images" width="120" /></a></div>
 
 ## 1. Install VirtualBox on your laptop
 
@@ -46,9 +46,10 @@ These VMs will be available for download in the days just before the conference.
 
 
 ### VM Without a Running Galaxy
+
 This VM is for:
 
-* [WS5: Installing Your Own Galaxy](/src/events/GCC2012/TrainingDay/index.md#ws5)
+* [WS5: Installing Your Own Galaxy](/src/Events/GCC2012/TrainingDay/VMs//index.md#ws5)
 
 This image will have all prerequisites for Galaxy, but not a running Galaxy instance.
 
@@ -58,9 +59,9 @@ This image will have all prerequisites for Galaxy, but not a running Galaxy inst
 
 This VM image is for these workshops
 
-* [WS1: Integrating Tools & Data Sources](/src/events/GCC2012/TrainingDay/index.md#ws1)
-* [WS6: Galaxy API](/src/events/GCC2012/TrainingDay/index.md#ws6)
-* [WS7: Galaxy Tool Shed](/src/events/GCC2012/TrainingDay/index.md#ws7)
+* [WS1: Integrating Tools & Data Sources](/src/Events/GCC2012/TrainingDay/VMs//index.md#ws1)
+* [WS6: Galaxy API](/src/Events/GCC2012/TrainingDay/VMs//index.md#ws6)
+* [WS7: Galaxy Tool Shed](/src/Events/GCC2012/TrainingDay/VMs//index.md#ws7)
 
 This image will have a configured and running Galaxy instance.
 
@@ -122,6 +123,8 @@ We need to enable port forwarding so that the the host (your laptop's native ope
 1. *Select* it so it's highlighted then select **Settings**.
 2. *Select* **Network &rarr; Adapter 1 &rarr; Advanced &rarr Port Forwarding**.  
 3. Add these 4 rules:<div class='indent'>
+
+
 | Name |  Protocol  |  Host IP  |  Host Port  |  Guest IP  |  Guest Port  | 
 | ---- | --------- | -------- | ---------- | --------- | ----------- | 
 | Rule 1 |  TCP  |  127.0.0.1  |  8080  |   |  8080  | 
@@ -239,7 +242,8 @@ Which distribution was used; how much virtual disk and memory does it have; what
 
 ### Both VMs
 
-Any custom configuration is [described below](#additional-configuration-details).
+Any custom configuration is [described below](/src/Events/GCC2012/TrainingDay/VMs/index.md#additional-configuration-details).
+
 
 | Tool/Package |  Comments  | 
 | ------------ | --------- | 
@@ -261,11 +265,13 @@ Any custom configuration is [described below](#additional-configuration-details)
 
 ### WS5 VM Only
 
+
 | Tool/Package |  Comments  | 
 | ------------ | --------- | 
 
 
 ### WS1, WS6, WS7 VM Only
+
 
 | Tool/Package |  Comments  | 
 | ------------ | --------- | 

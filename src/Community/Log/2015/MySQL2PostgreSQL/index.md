@@ -1,5 +1,5 @@
 ---
-title: 2015, /, 07, :,  Moving from MySQL to PostgreSQL
+title: 2015/07: Moving from MySQL to PostgreSQL
 ---
 
 
@@ -160,6 +160,7 @@ ALTER TABLE ONLY form_definition ADD CONSTRAINT form_definition_form_definition_
 
 
 ##### tables already filled by galaxy
+
 Obviously, as part of the database generation the table "migrate_version" had already been filled in my case:
 ```
 =#select * from migrate_version;
@@ -195,12 +196,14 @@ In the our current MySQl databes, the version was '12'. The version had to be se
 
 
 ##### legacy from manual interfering
+
 Our Galaxy instance is pretty old, and hence over the course of the last seven years, I have several times manually fixed some tables in the MySQL database. The biggest intervention, happened, when we switched to external authentication. Several users who used the Galaxy server before and after this switch ended up with two different entries in the galaxy_user table by not using the same e-mail address before, as now returned by the LDAP server (you run into similar issues, when a user asks for a different e-mail address, and the IT folks do not create an alias, but change the entry). Basically, this creates a duplication in the "galaxy_user" table.
 
 At the time, most cases were easy to fix: delete the new user (i.e. the user created with the e-mail address coming from the LDAP server) and change the email address of the existing user, before the *new* user executes any jobs. However, in one case I must have messed up something and now the foreign key constraints in PostgreSQL were complaining. I had to re-enter a *dummy user* into the "galaxy_user" and "role" and add several rows into the "history" table before I could upload the data into the new PostgreSQL database.
 
 
 ##### difference between development and production server
+
 I first tested the transition process with our development server. Although, we are trying to keep the development and production server as similar as possible, some features have never been used in the development or in the production server. This has resulted in tables which were empty in the database for the development and populated in the database for the production server - or vice versa.  So I had to adjust the my insertion order.
 
 

@@ -4,7 +4,7 @@
 
 ### Options for Uploading Files from the Admin Perspective
 
-There are currently four options available to a Galaxy [admin](../../../Admin/Interface) user for uploading files to a data library.  
+There are currently four options available to a Galaxy [admin](/src/Admin/Interface/index.md) user for uploading files to a data library.  
 Some of these same options are available to all regular users that have been granted permission to add items to a Data Library or folder, 
 but this section describes the features from the Galaxy admin perspective which is accessed by clicking on the "Admin" link in the top 
 Galaxy menu bar.
@@ -14,12 +14,12 @@ By default, only the first option (Upload files) is available. To allow uploadin
 From the Data Library, clicking the Add datasets button will display this page (this same process for uploading files to a folder is
 accessed from the folder's pop-up menu).
 
-![](../../../DataLibraries/upload_form.png)
+![](/src/DataLibraries/upload_form.png)
 
 The different options for uploading files are available in the pop-up menu when you click the "down arrow" next to the 
 "Create new data library datasets" page title.
 
-![](../../../DataLibraries/upload_options.png)
+![](/src/DataLibraries/upload_options.png)
 
 Here are the details for each option.
 
@@ -33,7 +33,7 @@ and although it works for files of any size, the options described below are bet
 
 Here is a partial view of the form that is displayed when this option is selected.
 
-![](../../../DataLibraries/upload_directory.png)
+![](/src/DataLibraries/upload_directory.png)
 
 The desired directory for this option must be specified in the Galaxy configuration file `config/galaxy.ini`.
 
@@ -110,7 +110,7 @@ directory which itself is (or contains) links, that is the preferred path for ac
 
 Here is a partial view of the form that is displayed when this option is selected. Please note that files and directories must be uncompressed to be included in a library.
 
-![](../../../DataLibraries/upload_filesystem_paths.png)
+![](/src/DataLibraries/upload_filesystem_paths.png)
 
 This form contains a text area that allows for pasting any number of filesystem paths (files or directories) from which 
 Galaxy will import library datasets, saving the directory structure if desired.  Since this allows a Galaxy admin user access to any file (on the Galaxy server) which is readable by the Galaxy system user, this option is disabled by default, and system administrators should take care in assigning Galaxy admin users when this feature is enabled.  Controls on what files are accessible to this tool based on ownership or other properties can be added at a later date if there is sufficient interest in them by the community.

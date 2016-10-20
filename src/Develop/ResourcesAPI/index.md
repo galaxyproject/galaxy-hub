@@ -14,3 +14,4 @@
 * Papers
   * [BioBlend: automating pipeline analyses within Galaxy and CloudMan.](http://www.ncbi.nlm.nih.gov/pubmed/23630176) Sloggett, et. al.
   * [BioBlend.objects: metacomputing with Galaxy.](http://www.ncbi.nlm.nih.gov/pubmed/24928211) Leo, et. al.
+

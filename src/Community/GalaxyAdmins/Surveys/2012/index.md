@@ -1,9 +1,9 @@
 ---
 autotoc: true
 ---
-<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/Surveys/LinkBox/index.md)
 
 The [GalaxyAdmins group (formerly GalaxyCzars)](/src/Community/GalaxyAdmins/index.md) was started in April 2012.  As part of that launch, an online survey was [sent out in May](/src/News/GalaxyCzarsSurvey/index.md).  This page summarizes and categorizes the responses to that survey.  There were 31 total responses.
 
@@ -52,6 +52,7 @@ The original responses, minus name, institution and email are **[also available]
 ## What type of topology are you using for Galaxy? (and computational resources?)
 
 ### Standalone Server
+
 1. We are currently running Galaxy on a standalone server but we are trying to integrate it within our computing cluster running LSF.
 1. We haven't installed it yet but we are planning to use a standalone workstation - Dell C6145 system using the 16-core AMD processors.  This chassis includes two discrete systems, each with 64 2.3 ghz cpu cores, 128GB RAM, and 9 2.5” drives and we'll be using one chassis for the Galaxy install along with !LifeScope from Life Technologies.
 1. Standalone workstation, 8 cores , 16 GB RAM
@@ -60,8 +61,8 @@ The original responses, minus name, institution and email are **[also available]
 1. We currently have Galaxy hosted on our small analysis server (24Gb RAM, 8 cores). We're hoping to put it on a much larger production server later this year. 
 1. Standalone server, HP Blade, 10 core, 32 GB Memory, 
 
-
 ### In Transition / Multiple
+
 1. Galaxy is currently deployed on a Dell Quad Xeon 5150, 20GB RAM, 7TB partition. Once we have proof of need, we plan to integrate the application with our 2000 core cluster using PBS, 10Gb interconnect, and Panasas storage.
 1. Large memory (1TB), multi-core (8 core x 4 threads) server.  Moving towards a PBS/Torque cluster.
 1. We run Galaxy on a multi-core server with a healthy dose of RAM and a beefy RAID storage. This currently runs most of the compute jobs for Galaxy. <br />The storage is mapped to a modest SGE cluster, which is currently used for BLAST jobs from Galaxy (with the intention of moving more tools to the cluster).
@@ -123,13 +124,13 @@ The original responses, minus name, institution and email are **[also available]
 1. We run a galaxy production instance on a virtual machine running SUSE Linux Enterprise Server 11 (x86_64).  The server has 4 cores and 16GB of memory.  We also have a development instance of galaxy where we build our own tools, and a galaxy test instance for testing these tools, or new deployments of galaxy before deploying to our production instance.  Our Galaxy instances are all integrated with our high performance computing cluster which uses Torque/MOAB for job scheduling.  Our HPC cluster currently has 17 32 core nodes (544 core total), plus 4 12 core nodes that are dedicated to HTS QC and 1 core jobs from Galaxy.  Most of our nodes have 128 GB of memory, 2 have 512 GB of memory to deal with assemblies.
 
 ### Cloud
+
 1. AWS EC2 Galaxy Cloudman, m1.large instance.  Used for dedicated Proteomics Perl code analysizing PTMs (Post Translational Modifications).
-
-
 
 ## How are you handling data storage?
 
 **How much storage do you dedicate and on what platform? Are you using quotas? Do you have an automated dataset cleanup policy?**
+
 
 | Capacity |  Architecture/Vendor  |  Policies  |  Other  | 
 | -------- | -------------------- | --------- | ------ | 
@@ -169,28 +170,33 @@ The original responses, minus name, institution and email are **[also available]
 ## Have you done any customizations to Galaxy?
 
 ### No Customization
+
 1. No, nothing specific to our site.  I was just trying to get Galaxy configured properly to run.
 1. Not yet (x 2)
 1. (blank x 4)
 
 ### Admin Customization
+
 1. I've created scripts to automatically upload sequencing data into galaxy data  libraries using galaxy REST api and directly using model provided by sqlalchemy to create specific user/group that match our current lims.
 1. Created maintenance scripts to automatically start/stop galaxy, check for running jobs, check the logs and compare different version of universe and tool configuration files."
 1. I created some hard and soft restart (restarts the job runner, then individual load-balanced web runners in turn to maintain the interface availability) init scripts and galaxy run scripts that work together. My Galaxy instance is running on top of an environmental modules system based on "lmod" from TACC to unify the back-end tool usage with the batch system.
 1. Basic customisations to run.sh for local setup
 
 ### Authentication and User Management Customization
+
 1. We utilize SFTP for data transfer and CAS for login.
 1. No, but I'm using an Apache proxy that authenticates against the University's CAS single sign-on server.
 1. We changed galaxy code to auto-create unix accounts and modify existing unix accounts upon new galaxy account creation.  This also forced changes to the upload code.
 
 ### Usability and Interface Customization
+
 1. dataset naming
 1. and add new code in mako interface.
 1. Basic customisations to appearance.
 1. Display file-system path of datasets: We have  changed a view template file to display actual file-system path of the dataset when a user clicks on 'View Details' link. This allows users to view actual file-system path datasets and download dataset files using scp rather than HTTP. This has been extremely important, as we have several power-users who move in and out of galaxy over the course of their workflows, and easy of access to underlying files and ability to easily link or ingest files is critical. We would like this process to be even easier - ability to move files in/out through linux command line, mnemonic names of data files, etc.
 
 ### Local Tools Customization
+
 1. custom tools
 1. We run a number of in house tool wrappers (most available on the Galaxy Tool Shed), and are actively using and contributing to the 'beta' job splitting code (for BLAST).
 1. We developed several tool wrappers for some tools that are frequently used here, for instance, !MrBayes, Migrate, etc.
@@ -214,10 +220,12 @@ The original responses, minus name, institution and email are **[also available]
 1. We do a fair amount of development with respect to custom tools and workflows for our users.
 
 ### Sample Tracking Customization
+
 1. We're using the NGlims version of Galaxy (from Brad Chapman's fork) and we've included a lot of our own tools. 
 1. We are planning to build integration between our Genologics LIMS instance and our Galaxy instance, to simplify the movement of data between the two and to give us the ability to grab descriptive information about a fastq file from the LIMS.  This project has not yet started.  If anyone else has already built this type of integration, we'd be very interested in it.
 
 ### Error Handling Customization
+
 1. Tolerate cluster communication errors: The galaxy's job runner used to mark jobs in 'abort' state as soon as the cluster was unreachable (even for a second). These 'aborted' jobs would continue to run on the cluster however the galaxy server would have not recover or re-monitor their state. We had fixed it locally by ignoring '!DrmCommunicationException' returned by the drmaa-python library. This was later fixed in the upstream galaxy repository as well.
 1. Email notifications for failed jobs: As mentioned in an issue 'Capturing failed/aborted jobs by the scheduler' the galaxy doesn't report failed or aborted jobs by the scheduler resulting in 'false positives' for user and sometimes failures in down-stream analysis. We haven't been able to resolve this issue however we send out email notifications for such failed jobs by scanning SGE's accounting file for failed jobs and then querying galaxy database to find out job specific details - user, tool etc.
 
@@ -229,15 +237,17 @@ The original responses, minus name, institution and email are **[also available]
 ## Did you hit any major issues in setting up and configuring a local galaxy?
 
 ### No Setup Issues
+
 1. no (x 6)
 1. (blank x 6)
 
 ### Data Setup Issues
+
 1. Only issue so far has been what reference files need to added. 
 1. Failures during dataset import: The galaxy preprocesses datasets during the upload/import process. For example, fastq.gz files are uncompressed and sam/bam files are sorted during the upload process. We have seen some silent failures during some of these preprocessing steps, especially in uncompressing of fastq.gz files. Frequently, that uncompress produces a truncated or corrupted .fastq file, with no indication of error in Galaxy, which results in mysterious failures or incorrect results from down-stream analyses. Fixing that is important. Having checksums computed & displayed for both the original compressed files and the final uncompressed file available in "info" would help a lot.
 
-
 ### Cluster Setup Issues
+
 1. The major problem for the time being is the cluster integration. 
 1. The pbs_python adapter I used with Torque at the prototype stage was very leaky - required constant monitoring and restarts of the Galaxy job runner.
 1. Configuring Galaxy and our Cluster to talk to each other was surprisingly complicated.  
@@ -259,6 +269,7 @@ The original responses, minus name, institution and email are **[also available]
 1. Used Dalhö's routine (http://mdahlo.blogspot.com/2011/06/galaxy-on-uppmax.html) to make it run on our cluster
 
 ### Security and FTP Setup Issues
+
 1. Integration into the Single Signon system is still an issue. Job monitoring in the Galaxy and data retrieval back from UCSC still don't work because of it. 
 1. FTP server for users to upload large files through FTP.  Eventually we were able to get it work, but the configuration was not very easy.
 1. A few such as setting up proFTP. Galaxy doesn't like showing users the data correctly because the permissions are not the users that has logged in but rather the systems. Had to hack and give the files 777 permissions.. Not nice.
@@ -267,23 +278,26 @@ The original responses, minus name, institution and email are **[also available]
 1. We are trying to set up a IdP autentication which is different from OpenID but also keeping the common login available. Under implementation .... a though job :)
 
 ### Migration Setup Issues
+
 1. Additionally some tool wrappers that we use frequently seem to change often causing migration breaks in our workflows, etc.  This causes problems for us to keep on the latest Galaxy code base.
 1. Not in initial set up but I have nor found a reliable method to transfer our mysql database to a postgres database. I would like to run galaxy reports which works fully with postgres and not mysql.
 1. One of the bigger challenges we have now is when we merge a new release with our own custom changes.
 
 ### Tool Setup Issues
+
 1. Most issues have been on the Galaxy development side adding new tools.
 1. some issues with viewing BAM files in IGV from Galaxy
 1. However, some tools did not work out of the box. This is bad of course. It was not because of the requirements were not met, but due to too new versions of the dependencies, to which the code was not adopted. Especially visualisation tools are hit by this. 
 1. TEMP space configuration: The galaxy's shared TEMP space configuration several failures initially that were difficult to debug. This has been  issues resolved now for non-Java tools by modifying TEMP variables in the job template string in job runner drmaa class. However the issue still persists for Java based tools wheres tool wrappers need to explicitly set java.io.temp setting. Related discussion: http://comments.gmane.org/gmane.science.biology.galaxy.devel/1986
 
 ### Misc Setup Issues
+
 1. We got some help to scramble the psycopg2-2.0.13 egg in order to connect to a PostgreSQL DB server on a different host
 1. Sample Tracking System, it turned out the Sample Tracking system can not transfer data from the sequencer to Galaxy automatically (According to the galaxy-dev mailing list, this has been fixed and will be available in the next release).
 1. Not really for the Galaxy framework. Smaller issue: serving static content through apache got not resolved (due to my incapability configuring apache properly :-)) 
 
-
 ### General Setup Issues
+
 1. Yes.  It took about 3 -4 weeks to get Galaxy up and running and configured.  Even then, we still had unresolved problems.  I had to abandon it in order to make progress on other projects.  
 1. Technical issues are mostly specific to the local IT/political environment IMHO
   * I think the hardest parts are marketing, advocacy (you need be able to reproduce your analyses just like you can reproduce your experiments!), user training  and tool building and tailoring to suit the specific high throughput local needs of your biologists and PI's
@@ -295,6 +309,7 @@ The original responses, minus name, institution and email are **[also available]
 ## What limitations have you experienced in hosting Galaxy and satisfying end user requirements?
 
 ### Very Few Limitations
+
 1. Not in production yet.
 1. Not yet but expect to encounter these once user base starts to grow.
 1. We have only tested a little bit and have not had too much feedback currently.
@@ -302,10 +317,12 @@ The original responses, minus name, institution and email are **[also available]
 1. (blank x 10)
 
 ### Capacity Limitations
+
 1. Disk space.  Galaxy stores intermediate step files which can be large.
 1. Our most common complaints have more to do with the underlying (lack of) compute power rather than any complaints about Galaxy itself. Most of our users think that Galaxy is an excellent tool.
 
 ### Tool Definition Limitations
+
 1. Users always complain about the lack of wrappers for their favorite tools. I've been writing wrappers, but the amount of time I can devote to that is not big, so the process is too slow to make my users happy.
 1. The description and naming of the tools is sometimes plainly misleading. Even with the search tool, people often do not find a simple tool they are looking for. A threat to Galaxy.
 1. Quality of tool wrappers: (Wrappers missing inputs or outputs) a lot of galaxy wrappers don't have all the parameters for the underlying tools, and many "throw away" valuable outputs & log files - like "unmapped reads" from tophat. This pushes people outside of galaxy, if they want the extra parameters or need those output.
@@ -316,6 +333,7 @@ The original responses, minus name, institution and email are **[also available]
   1. Tool wrappers or some other component of galaxy can search PATH or environment modules to provide version specific tool option
 
 ### User History and Dataset Handling Limitations
+
 1. There must be a built-in dataset export feature similar to the library loading from the filesystem. Galaxy is not an all-inclusive solution and the lack of an export capability for large datasets is a big problem.
 1. We have several power-users who move in and out of galaxy over the course of their workflows, and easy of access to underlying files and ability to easily link or ingest files is critical. We would like this process to be even easier - ability to move files in/out through linux command line, ability for non-admin uses to "link in" files, mnemonic names of data files, etc.
 1. naming of workflow steps - users are not happy that they must maintain a map of dataset 14 = sample1bc1 ...
@@ -329,14 +347,17 @@ The original responses, minus name, institution and email are **[also available]
 1. Most of our users dislike the file management.   It's tedious to upload large numbers of files, move them back and forth between histories and libraries.  Selecting files, and histories for deletion can be quite tedious.  We have many users who do RNA Seq analysis with very large numbers of samples, and we've actually had to move some of these users out to the command-line and built command-line pipelines because it was easier for them to deal with a directory of files than select and move files within galaxy.  Submitting a workflow for many samples of paired-end sequence is impossible within galaxy (not literally, but no one wants to select 100 pairs of sequences).   Galaxy libraries can be incredibly slow to open when there are very large numbers of files in the libraries.
 
 ### Admin Dataset Handling Limitations
+
 1. Adding reference genomes/datasets is too ad-hoc at the moment.
 1. Lack of out-of-the box scripts to download reference data, create required indices, and register them in the correct .loc files in galaxy, created a lot of busy work and and slowed-down adoption.
 
 ### Sample Tracking Limitations
+
 1. No meta-data on datasets for "sample" - we don't run a LIMS, but we usually start an analysis with a set of fastqs from several samples in the same history. We spend a LOT of time ""penciling"" datasets to add the sample name to the display title. Galaxy automatically tracks "dbkey" - it would make life *MUCH* easier if it also tracked "sample name" and displayed it prominently. If two (forward/rev) fastqs come from the same sample, and are BWA's to a reference genome, the resulting SAM, etc should also be tagged with the sample names.
 1. We are looking for progress in the sample tracking system.
 
 ### Workflow Limitations
+
 1. Wish list: A way to submit an entire workflow as a single cluster job - workflows with many steps can take a lot of extra wall-time due to queue-wait. Some way to submit the entire workflow as a single cluster task would be very desirable.
 1. Workflows are not flexible enough 
 1. Workflows can not be called as "subroutines" by other workflows. This forces duplication of sub-workflows, and creates an un-maintainable mess.
@@ -344,10 +365,12 @@ The original responses, minus name, institution and email are **[also available]
 1. There should be an easier way to interoperate with other instances such as the public Galaxy instance, so users could migrate their data and records easier.
 
 ### Error Handling Limitations
+
 1. I keep running Galaxy at the debug logging level as it's the only way to quickly figure out user problems. Better diagnostic output would be a boon.
 1. I think error handling is difficult.  Hard for end users to know if the problem was Galaxy, the tool, or their data.   We need better documentation for the code, and more complete APIs exposed for automating workflows from the command line.  
 
 ### Authentication, User and Job Management Limitations
+
 1. Trying to host it on our HPC grid, but they require data to be owned by respective users for security, quotas, etc..  User data in Galaxy is owned by the galaxy user, even if the processes are run as logged in users.
 1. One limitation is the number of processes allocated for a job is hard coded in the universe_wsgi.ini, we hope the number of processes for each job can be configured between different runs. 
 1. Using external authentication is nice, but it does cause some other limitations.
@@ -359,13 +382,14 @@ The original responses, minus name, institution and email are **[also available]
 1. Our cluster has restriction when submitting jobs to it, for example, you have to specify how much memory you need and how long does the job last, but our galaxy instance is running as a single user. It is tedious to configure this for each tool and the memory needed also depends on the size of data set.
 
 ### Other User Interface Limitations
+
 1. Galaxy doesn't seem to work on IE9, history fails to refresh, peep view links broken.
 1. Poor user feedback in interface for long running jobs - no progress indicator at all. Would be nice to be able to at least say 'running locally' or 'running on cluster' or 'queued on cluster'.
 1. Lack of a "progress" indicator is hard for users. Ie. in a run of some hours, what %age finished are we, or what stage of processing are we up to. I have implemented an email system that sends progress emails to the user at intervals of N minutes which alleviates this.
 1. GUI SPEED - we have a lot of long (several hundred step) workflows. They render slowly. We also run a "consulting" group, so each of us works on many projects at a time, often several for each of several clients (I have 50 histories for 6 clients, I think) - the "saved histories" link is slow, and there's no way to group histories into folders or to keep a search filter active. 
 
-
 ### Other Limitations
+
 1. It's a web application so has all the associated warts and limitations.  Galaxy has the benefit that it hides a lot of complexity and the disadvantage that it hides a lot of complexity.  Bottom line for me:  It's open source so if you don't like the way it works, please send code to make it better.
 1. We are looking for progress in Trackster
 1. Better way of being able to have an arbitrary number of inputs to a workflow, like a history of inputs or something, to do batch work into some steps (like multiple BWA aligns, that all get fed into a merge) 
@@ -375,10 +399,12 @@ The original responses, minus name, institution and email are **[also available]
 ## What do you feel the goals of the teleconference should be?
 
 ### Group Infrastructure and Organization Goals
+
 1. Establish a platform through which people can communicate about local installation of Galaxy system.
 1. Figure out what activities will be sufficiently useful to make the group sustainable - we're all busy people and without utility, there won't be much ongoing support or contribution?
 
 ### Sharing and Learning Goals
+
 1. I'm interested to know at what stage others are using Galaxy, problems they've encountered, etc.
 1. Sharing our knowledge of installing/maintaining local instances.
 1. avoid duplicate effort
@@ -397,8 +423,8 @@ The original responses, minus name, institution and email are **[also available]
 1. Discuss current tools or toolshed tools and how they can be improved
 1. Help Galaxy administrators solve different issues
 
-
 ### Project and Feature Specific Goals
+
 1. Areas that we can contribute to the project. Do we need to help create more instructional material to help assist the project? 
 1. identify user centric development priorities
 1. The dataset deletion thing is also an area of interest to us because its just down right difficult to us and having a nicer way than there currently is would be nice. 
@@ -409,12 +435,13 @@ The original responses, minus name, institution and email are **[also available]
 1. Development issues 
 
 ### No Goals
-1. (blank x 12)
 
+1. (blank x 12)
 
 ## What topics would you like to see discussed for our first call?
 
 ### Topics Purpose
+
 1. What's already working for most folks - eg clearly little point in forking the galaxy-dev mailing list?
 1. What organizational structures and resources are missing - specifically what are the lowest hanging fruit in terms of widespread and common challenges where a new SIG could efficiently build and sustain new resources that really make a difference.
 1. Is there a commercial opportunity here - are there institutions that would be willing to pay for analysis, consulting support or tool development? My own experience is that PI's are always happy to pay megabucks for sequencing consumables but almost none recognise the real costs of biologically informed and appropriate analysis once the data comes off the sequencer.
@@ -422,6 +449,7 @@ The original responses, minus name, institution and email are **[also available]
 1. Sharing scripts and patches/improvements.
 
 ### Topics Install and Configuration
+
 1. Installation and Configuration Issues.
 1. experience with matching resources with usage/load.
 1. Interested in knowing how other people manage their local installations especially with regard to managing local customisations.
@@ -431,22 +459,27 @@ The original responses, minus name, institution and email are **[also available]
 1. IdP autentication within WSGI
 
 ### Topics Documentation
+
 1. Gaps in documentation
 1. Are there any external information sources (wiki or otherwise) that could supplement the main Galaxy site? The documentation there is sometimes deprecated and sometimes too shallow.
 
 ### Topics Data
+
 1. best practices for adding/maintaining reference sequences/annotations
 1. Data handling: upload and maintenance
 
 ### Topics Best Practices
+
 1. Best/successful practices
 1. Tips and tricks for the Cloudman version.
 
 ### Topics Releases
+
 1. Is the lack of Galaxy release numbers a problem, or do hg commit hashes suffice?
 1. Are there any widely-used Galaxy distributions outside of the main ones hosted at Penn State? 
 
 ### Topics Solutions and Features
+
 1. Curating job environment
 1. Usability
 1. Possible solutions of my above problem ("I am trying hard to find out how can I read logged-in user's database ID, when a tool loads up.")
@@ -455,17 +488,20 @@ The original responses, minus name, institution and email are **[also available]
 ## What didn't we ask that you would like to share?
 
 ### Other Community
+
 1. Have a local instance manager meeting at the GCC 2012.
 1. To share our feedback and user requests.
 1. I really like the Galaxy community a lot, but the developer's emailing list is a hell. I have a lot of questions which seems lost in cyberspace. I would strongly suggest to put up a forum to get better communication: solved issues, open threads and improvements could be gathered on one cosy corner of the Galaxy.  Documentation is improving, but needs to be still better, which we could achieve with a community effort.
 1. Just now setting up an instance in collaboration with our Bioinformatics Core Director.  Curious to learn more and see where it takes us.  Would be helpful (for me) if there was some programming for novice users.  
 
 ### Other Project
+
 1. Do you find hg satisfactory for updating Galaxy? Do you often have merge conflicts to resolve? Would git be better?
 1. What is the life-cycle plan for Galaxy development?
 1. Is there a plan for additional sites to become part of the core developer team, i.e. how open will Galaxy project be?
 
 ### Other Installations
+
 1. What kind of tools do you offer on your Galaxy (e.g. NGS/HTS read mapping or de novo assembly)?
 1. How much disk space do you expect per user?
 1. "How do you handle dependencies?" I am now in the process of exporting a folder with binaries to the Galaxy virtual machine. With each new tool implemented on our Galaxy, the required binaries are automatically added to the path by this mounted /apps folder.
@@ -473,13 +509,13 @@ The original responses, minus name, institution and email are **[also available]
 1. How can sites plan for Galaxy improvements more effectively? Currently there are features that we'd like to see more accessible and misfeatures we'd like to see stay out of production.
 
 ### Other Other
+
 1. *My favourite food.*
 1. Nothing at the moment.
 1. Covered it all really.  Nice job :)
 1. We are maintaining these notes for teleconference QA on our wiki as well: https://dev.uabgrid.uab.edu/wiki/GalaxyTeleconference-2012-05
 1. I am ready and willing to share the knowledge and experience I have gathered so far.
 1. I appreciate this effort
-
 
 ## Your areas of expertise
 

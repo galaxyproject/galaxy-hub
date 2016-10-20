@@ -1,9 +1,6 @@
----
-date: 2013-03-12T15:59:31Z
----
 <div class='newsItemHeader'>[March 2013 GalaxyAdmins Meetup](/src/News/2013_03GalaxyAdmins/index.md)</div>
 
-<div class='right'><a href='/Community/GalaxyAdmins/Meetups/2013_03_20'><img src='/Images/Logos/GalaxyAdmins.png' alt='March 2013 GalaxyAdmins Meetup' width="160" /></a> </div>
+<div class='right'><a href='/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="March 2013 GalaxyAdmins Meetup" width="160" /></a> </div>
 
 The [next meeting](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md) of the [GalaxyAdmins Group](/src/Community/GalaxyAdmins/index.md) will be held on [March 20, 2013, at 10 AM Central US time](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md). 
 
@@ -24,7 +21,7 @@ The [next meeting](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md) of t
   </tr>
   <tr>
     <th> Presenters </th>
-    <td> <a href="mailto:hailiang DOT mei AT nbic DOT nl">Hailiang "Leon" Mei</a><br />There will also be a </em>Galaxy Project Update<em> from <a href='/Dan'>Dan Blankenberg</a> of the <a href='/GalaxyTeam'>Galaxy Team</a> </td>
+    <td> <a href="mailto:hailiang DOT mei AT nbic DOT nl">Hailiang "Leon" Mei</a><br />There will also be a </em>Galaxy Project Update<em> from <a href='/src/Dan/index.md'>Dan Blankenberg</a> of the <a href='/src/GalaxyTeam/index.md'>Galaxy Team</a> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -41,5 +38,6 @@ We use the [Blackboard Collaborate Web Conferencing system](/src/Community/Galax
 
 Srinivas Maddhi
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-03-12</div>
 
 CategoryNews

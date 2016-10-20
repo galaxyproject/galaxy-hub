@@ -1,10 +1,7 @@
----
-date: 2012-12-03T15:35:13Z
----
 <div class='newsItemHeader'>[Dec 3, 2012 Distribution & News Brief](/src/News/2012_12_03_DistributionNewsBrief/index.md)</div>
 
 **Complete [News Brief](/src/DevNewsBriefs/2012_12_03/index.md)**
-<div class='right'><a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2012_12_03_new-history-menu.png' alt='width="350"' /></a></div>
+<div class='right'><a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2012_12_03_new-history-menu.png" alt="width="350"" /></a></div>
 **Highlights:**
 * **NGS: Mapping** tools **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz/)** have moved from the **[Galaxy distribution](https://bitbucket.org/galaxy/galaxy-dist)** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)**.
 * Improvements in the display of **[http://wiki.galaxyproject.org/Tool Shed](http://wiki.galaxyproject.org/Tool Shed)** repository dependencies and contents.
@@ -28,7 +25,8 @@ upgrade: $ hg pull -u -r f364d992270c
 
 **Thanks for using Galaxy!**
 
-[The Galaxy Team](/Galaxy Team)
+[The Galaxy Team](/src/Galaxy Team/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-12-03</div>
 
 CategoryNews

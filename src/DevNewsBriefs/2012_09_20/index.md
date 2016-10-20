@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: September 20, ,,  2012 Galaxy Development News Brief
+title: September 20, 2012 Galaxy Development News Brief
 ---
 <div class='right'></div>
 
@@ -9,7 +9,7 @@ title: September 20, ,,  2012 Galaxy Development News Brief
 <br />
 # Get Galaxy
 
-<div class='left'><a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=50 /></a></div>
+<div class='left'><a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=50 /></a></div>
 
  **[getgalaxy.org](http://getgalaxy.org)** 
 
@@ -53,6 +53,7 @@ In the future, the Galaxy team considers it a priority to provide improved metho
 
 <br />
 # CloudLaunch Overhaul
+
 [http://usegalaxy.org/cloud](http://usegalaxy.org/cloud)
 
 With **[Boto](http://boto.cloudhackers.com)** bumped to **2.5.2**, a new and improved **[CloudLaunch](https://main.g2.bx.psu.edu/cloudlaunch)** now includes an asynchronous lookup for instance selection and an easier key generation via direct downloads.
@@ -66,13 +67,13 @@ Full instructions for getting started with a **Galaxy CloudMan Instance**, inclu
 <br />
 ***Access here***
 
-<a href='/Tool Shed'><img src='/Images/NewsGraphics/2012_09_20_cloudlaunch-main.png' alt='cloudlaunch-main' /></a>
+<a href='/src/Tool Shed/index.md'><img src="/src/Images/NewsGraphics/2012_09_20_cloudlaunch-main.png" alt="cloudlaunch-main" /></a>
 
 <br />
 
 **Then, *login with your credentials* and go!**
 
-<a href='/Tool Shed'><img src='/Images/NewsGraphics/2012_09_20_cloudlaunch-home.png' alt='cloudlaunch-home' /></a>
+<a href='/src/Tool Shed/index.md'><img src="/src/Images/NewsGraphics/2012_09_20_cloudlaunch-home.png" alt="cloudlaunch-home" /></a>
 
 <br />
 # Galaxy Tool Factory
@@ -87,7 +88,7 @@ Imagine you have a simple sh or R script you need to run quickly in Galaxy - wit
 
 * Select the **Tool Factory** tool. Cut and paste the R (or perl/python/sh) script into the typical Galaxy **Tool Factory** form, select the small sample input file and click execute to run it! The help text on the form includes working examples showing how to pass input/output file paths in each available scripting language.
 
-<a href='/Tool Shed'><img src='/Images/NewsGraphics/2012_09_20_toolfactory-big.png' alt='toolfactory' /></a>
+<a href='/src/Tool Shed/index.md'><img src="/src/Images/NewsGraphics/2012_09_20_toolfactory-big.png" alt="toolfactory" /></a>
 
 * Check the output. If the script didn't work right, use the redo button on the output to recreate the form and edit the script.
 
@@ -107,6 +108,7 @@ Imagine you have a simple sh or R script you need to run quickly in Galaxy - wit
 
 <br />
 # Multiple Tool Versions
+
 **Displaying multiple versions of a tool in the Galaxy tool panel**
 
 When tool shed repositories that include multiple versions of a tool are installed into a local Galaxy instance, a single link to the tool will be displayed in the Galaxy tool panel.  When the tool is loaded, the different versions of the tool will be defined in a select list at the top of the tool form, allowing you to select a specific version of the tool.  The latest version of the tool is always displayed by default when the tool page is loaded.
@@ -130,15 +132,16 @@ For example, let's take a look at a Galaxy instance into which 2 revisions of a 
 
 **Here is our Galaxy tool panel** - notice the single link to the installed *Filter* tool.
 
-<a href='/Tool Shed'><img src='/Images/NewsGraphics/2012_09_20_tool-panel.png' alt='tool-panel' /></a>
+<a href='/src/Tool Shed/index.md'><img src="/src/Images/NewsGraphics/2012_09_20_tool-panel.png" alt="tool-panel" /></a>
 
 **Clicking the *Filter* link in the tool panel displays the Filter tool's page**, where you can select the version you want.
 
-<a href='/Tool Shed'><img src='/Images/NewsGraphics/2012_09_20_filter-tool-page.png' alt='filter-tool-page' /></a>
+<a href='/src/Tool Shed/index.md'><img src="/src/Images/NewsGraphics/2012_09_20_filter-tool-page.png" alt="filter-tool-page" /></a>
 
 <br />
 # Tool Shed
-[/Tool Shed](/Tool Shed)
+
+[Tool Shed](/src/Tool Shed/index.md)
 * *Tool shed features for Galaxy tools*
   * The primary intent of the tool shed is for sharing Galaxy tools, workflows and other useful Galaxy utilities.  Galaxy tools are generally developed within a local Galaxy environment, proven to be functionally correct within that environment, and then uploaded to a tool shed for sharing.  With a couple of exceptions, tool features are defined within the Galaxy framework, and have nothing to do with the tool shed. [Read more…](/src/ToolShedToolFeatures/index.md)
 * *Pushing changes to a tool shed repository using hg from the command line*
@@ -151,20 +154,24 @@ For example, let's take a look at a Galaxy instance into which 2 revisions of a 
 
 <br />
 # Framework
+
 * [Refactoring for data providers and visualizations](http://bitbucket.org/galaxy/galaxy-central/changeset/08f1d09a65a98977817ca1f1bd34fc266d61aa24) to make it easier to create/extend data providers and visualizations.
 
 <br />
 # Security Fixes
+
 * Prevent Galaxy session cookies from being accessed via script.  We don't use it through Javascript anywhere, only other cookies specifically set for **[Dynatree](http://code.google.com/p/dynatree/)** and **[Genetrack](http://code.google.com/p/genetrack/)**.
 * Set header `'X-Content-Type-Options: nosniff'` for dataset display.  This will prevent **[IE8](http://en.wikipedia.org/wiki/Internet_Explorer_8)** from trying to render as html datasets served as text/plain.
 
 <br />
 # API
+
 * Modified  **REST API** to support multipart/form-data requests, enabling large file upload. Contributed by Nuwan Goonasekera, see *[pull request 63](http://bitbucket.org/galaxy/galaxy-central/pull-request/59)*. 
 
 <br />
 # Bug Fixes
-<div class='right'><a href='/Support'><img src='/Images/Icons/bug.png' alt='bugs' width=20 /></a></div> 
+
+<div class='right'><a href='/src/Support/index.md'><img src="/src/Images/Icons/bug.png" alt="bugs" width=20 /></a></div> 
 * *General*
   * Fix bug in [__init__.py](http://bitbucket.org/galaxy/galaxy-central/changeset/3f12146d6d81e08f662ada2011a6973e4230512d) with respect to stdout, stderr, and exit code handling.
   * Fix [create_all_fasta_loc.py](https://bitbucket.org/galaxy/galaxy-central/changeset/8153e8d25009d71a523e0f2df24ed12922825d8f#chg-scripts/loc_files/create_all_fasta_loc.py) to work when `inspect_dir` is not set.
@@ -176,16 +183,17 @@ For example, let's take a look at a Galaxy instance into which 2 revisions of a 
 <br />
 # Announcements
 
-[/News](/src/News/index.md), *[September 2012 Galaxy Update](/src/GalaxyUpdates/2012_09/index.md)*
+[News](/src/News/index.md), *[September 2012 Galaxy Update](/src/GalaxyUpdates/2012_09/index.md)*
 
 <br />
----
+----
 <br />
 # About Galaxy
+
 **[GalaxyProject.org](http://galaxyproject.org)**
 
 The **[Galaxy Team](/src/GalaxyTeam/index.md)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[/Galaxy on Twitter](/Galaxy on Twitter)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/Galaxy on Twitter/index.md)**

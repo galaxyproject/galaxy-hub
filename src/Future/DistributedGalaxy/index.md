@@ -1,6 +1,6 @@
 Saving small snippets of the discussion for future reference:
 
----
+----
 Istvan:
 
 I think the most important thing that we need to start thinking
@@ -9,13 +9,13 @@ about a thousand users all wanting to start 10 queries. How do we do
 it? How could we implement a demonstration prototype of  this in say
 one month? It is doable if we keep things simple.
 
----
+----
 
 Rico: 
 
 take a look at http://www.bx.psu.edu/~rico/galaxy
 
----
+----
 
 James: 
 
@@ -44,7 +44,7 @@ preserving load balancer. Similarly, we may want to look at a less
 thread heavy job queueing strategy so that expensive compute jobs can
 be offloaded to other systems.
 
----
+----
 
 Istvan:
 
@@ -70,7 +70,7 @@ don't notice anything.
 This is one of the reasons I'd like to see galaxy entirely self
 contained and independent.
 
----
+----
 
 Rico :
 

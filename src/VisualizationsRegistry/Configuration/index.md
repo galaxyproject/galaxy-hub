@@ -1,4 +1,5 @@
 ## Data Sources and Tests: What types of data can be visualized
+
 There can be multiple possible sources/target objects defined for each visualization, For example, a visualization may
 be applicable to both SAM and BAM files and have a `data_source` defined for each:
 ```xml
@@ -32,6 +33,7 @@ more general after. This allows us to send different or added settings based on 
 
 
 #### model_class
+
 Inside each `data_source`, the first test uses the `data_source` sub-element `model_class`. If the target object is
 the same python class as the class listed here, then the remaining `data_source` tests are then run.
 ```xml
@@ -49,6 +51,7 @@ In the majority of cases, your visualization will be using data from a dataset i
 
 
 #### test
+
 `test` elements define tests to see if a visualization can be applied using the model as a source of data. **If
 any single test passes, the visualization is considered applicable** and a link will be rendered (in other words, the
 tests are effectively OR'ed). There can be zero or more data_source tests (sometimes just checking the model_class alone
@@ -84,8 +87,7 @@ Note that, for `datatype` testing:
   the `datatype` test (e.g. a SAM file will be considered applicable if you test for the `datatype` `tabular.Tabular`)
 * datatypes are checked against the datatype registry of your Galaxy installation
 
-
----
+----
 ## Data Sources and to_params: How to define outgoing links to your visualization
 
 Each `data_source` can define zero or more `to_param` elements. Each `to_param` will add one key/value pair
@@ -134,8 +136,9 @@ assignment:
 
 
 
----
+----
 ## Params: How to parse an incoming link for your template
+
 When the link generated from the `data_source` is used, **resources listed in `params` are parsed from the query string
 and sent to the template**. 'Resources' can be considered any data that needs to be parsed or converted from a string
 before being sent to the visualization template (primitives such as `int`s or `bool`eans, more complex data such as
@@ -173,10 +176,11 @@ Besides the `param` attributes above, the following are also available:
   be parsed using `type` and sent to the template
 
 Any parameters defined in the `params` section of your config file are available here. In addition, other variables
-are available (see [/VisualizationsRegistry/Code](/src/VisualizationsRegistry/Code/index.md) for more info).
+are available (see [VisualizationsRegistry/Code](/src/VisualizationsRegistry/Code/index.md) for more info).
 
 
 ## Other configuration options
+
 You can also optionally specify a `render_location` element. This becomes the `target` attribute of the link generated
 for your visualizations. If you want the visualization to load in a new window, set this to `_blank`, in the top frame
 (and therefore remove the two side panels) use `_top`, or if you're fine loading it in the center panel with both
@@ -184,6 +188,7 @@ side panels in place use `galaxy_main` (this is the default `render_location`).
 
 
 ## Troubleshooting
+
 You can **test the validity of your XML registry file** by using the DTD defined in `visualizations_conf.xml` itself.
 On the command line:
 ```bash

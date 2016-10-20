@@ -4,7 +4,7 @@ title: NGS Data Analysis and Galaxy Workshop
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.acgt.co.za/'><img src='/Images/Logos/ACGT_UPretoriaWide.png' alt='The African Centre for Gene Technologies at the University of Pretoria' width="500" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.acgt.co.za/'><img src="/src/Images/Logos/ACGT_UPretoriaWide.png" alt="The African Centre for Gene Technologies at the University of Pretoria" width="500" /></a> </td>
   </tr>
 </table>
 

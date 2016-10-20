@@ -2,7 +2,7 @@
 title: [Galaxy Freiburg Hands-On Training](https://github.com/bgruening/training-material)
 ---
 <div class='center'>
-<a href='https://github.com/bgruening/training-material'><img src='/Freiburg-Galaxy-Team.png' alt='Freiburg-Galaxy-Team' height="100" /></a>
+<a href='https://github.com/bgruening/training-material'><img src="/src/Teach/Resource/FreiburgHandsOnTraining/Freiburg-Galaxy-Team.png" alt="Freiburg-Galaxy-Team" height="100" /></a>
 </div>
 
 
@@ -24,7 +24,6 @@ A [collection of training material](https://github.com/bgruening/training-materi
 * Datasets are linked in the training introductions
 * Target Audience: Beginner
 * You will start to learn the basics about the Galaxy analysis workbench and end with complete workflows for analysing RNA-Seq, ChIP-Seq ... data, including publication ready figures.
-
 
 ## Links
 

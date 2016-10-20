@@ -1,14 +1,15 @@
-PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
+#acl +VettedEditorGroup:read,write +All:read
+PLACEHOLDER_INCLUDE(/src/Events/GCC2012/PageHeader/index.md)
 
-PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2012/Register/LinkBox/index.md)
 There are different registration levels, depending on your career stage and your organization's for-profit status, and how early you register.  Our goal has been to make this an *absurdly affordable* conference for students and postdocs, and *downright affordable* for everyone else. 
 
 <table>
   <tr>
     <td style=" border: none;"> </td>
-    <th style=" width: 35%;"> <a href='/Events/GCC2012/Program'>Conference Only</a> </th>
+    <th style=" width: 35%;"> <a href='/src/Events/GCC2012/Program/index.md'>Conference Only</a> </th>
     <td style=" border: none;"> </td>
-    <th style=" width: 35%;"> <a href='/Events/GCC2012/Program'>Conference</a> + <br /><a href='/Events/GCC2012/Program'>Training Day</a> </th>
+    <th style=" width: 35%;"> <a href='/src/Events/GCC2012/Program/index.md'>Conference</a> + <br /><a href='/src/Events/GCC2012/Program/index.md'>Training Day</a> </th>
   </tr>
   <tr>
     <td style=" border: none;"> </td>
@@ -67,7 +68,7 @@ There are a limited number of rooms in each.  You are encouraged to register/res
 
 ### Media Representatives
 
-If you are a media representative and are interested in covering this meeting, please [outreach@galaxyproject.com](contact the organizers) for information about media registration.
+If you are a media representative and are interested in covering this meeting, please [mailto:outreach@galaxyproject.com](contact the organizers) for information about media registration.
 
 
 ### Visas
@@ -81,7 +82,6 @@ If you need a visa to travel to the United States for the conference, please fol
   * If you cannot determine your visa category from the link above, please contact the nearest [US Embassy or Consulate](http://www.usembassy.gov/).
   * Use this [General Visa Letter](ATTACHMENT_URLGeneralVisaLetter.pdf) when applying for a visa.
 
+Please contact [mailto:outreach@galaxyproject.org?subject=GCC%202012%20Visa](Galaxy Outreach) if you have any questions or special requests.
 
-Please contact [outreach@galaxyproject.org?subject=GCC%202012%20Visa](Galaxy Outreach) if you have any questions or special requests.
-
-PLACEHOLDER_INCLUDE(/events/GCC2012/AsktheOrganizers)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2012/Register/Ask the Organizers/index.md)

@@ -1,7 +1,7 @@
 ---
 title: GalaxyAdmins BoF
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
 
 
@@ -14,10 +14,10 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
  Contact:: [Dave Clements](/src/DaveClements/index.md)
 </div>
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 
-<div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a><br /><br />
-<a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' width="100" /></a></div></div>
+<div class='left'><a href='/src/Events/GCC2014/BoFs/index.md'><img src="/src/Images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a><br /><br />
+<a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="100" /></a></div></div>
 
 This page describes the **GalaxyAdmins** [Birds of a Feather](/src/Events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
 
@@ -53,7 +53,7 @@ If you are interested, please add your name below and/or send an email to [Dave 
 
 * [Dave Clements](/src/DaveClements/index.md)
 * [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md)
-* [Sebastian Schaaf](/SebastianSchaaf)
+* [Sebastian Schaaf](/src/SebastianSchaaf/index.md)
 * [Eric Rasche](/src/EricRasche/index.md)
 * [Dan Blankenberg](/src/Dan/index.md)
 * Christine Walls
@@ -112,7 +112,6 @@ Two items were implemented late in 2013:
 
 * [Galaxy Log Board](/src/Community/Logs/index.md): a place for linking to and/or describing experiences administering Galaxy.  These entries are dated, may not be particularly maintained once created.  And, more often then not, Log Board entries are just metadata, plus a link to an external resource on the web, such as a Wordpress page.
 * [Galaxy Deployment Catalog](/src/Community/Deployments/index.md): Describes how different Galaxy Servers are implemented.  This is a means for admins to learn what others have done to address particular types of demand and communities.  
-
 
 # The GalaxyAdmins Group Itself
 
@@ -182,14 +181,12 @@ Summary:
 
 * Admins want easier support for more diverse authentication methods.
 
-
 ## Tools
 
 ### Installation and Update
 
 * Would like to have a command line interface for ToolShed updates.
 * Would like to use ToolShed to install the tools, but would like option to do own dependency management
-
 
 ### Tool Quality
 
@@ -198,19 +195,16 @@ Summary:
 * IUC decided this morning that tools that have been manually reviewed or mechanically reveiwed get a gold star.  Recommendation was that the default be that only show reviewed tools are shown, unless otherwise requested.
 * There is a user rating system, but it is not widely used.  *Everyone in the room was encouraged to start rating repos that they have installed or tried to install.*
 
-
 ### Toolbox Filters
 
 * Feature is there to allow end users to say "hide this type of tool when I login to Galaxy."  However, it currently does not work with external authentication.
 * Could use Tool Shed category tags to give user a list of tool domains to hide. https://trello.com/c/smf8TvXS
-
 
 ## Admin Roles + Data Libraries
 
 * Make updating data libraries easier.  
 * Want ability to assign specific admin privileges based on roles.
 * Authorization engine is currently pluggable, although we don't know of anyone using it.
-
 
 ## Monitoring / Billing
 
@@ -231,5 +225,5 @@ Summary:
 * Core Team: Create or publish location of searchable IRC channel archive; add to Galaxy searches.  **A [searchable archive of the #galxayproject IRC channel](http://t.co/qwYKZK6gwV) was created in October 2014.**
 * Core Team: Implement support to make authentication easier and to support more diverse, and multiple, parallel authentication methods.
 * BoF participants will contribute to or create Trello cards for issues raised during this BoF that they care about.
- 
+
 CategoryBoF

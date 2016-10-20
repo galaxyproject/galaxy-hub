@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: January 11, ,,  2013 Galaxy Development News Brief
+title: January 11, 2013 Galaxy Development News Brief
 ---
 <div class='right'></div>
 
@@ -11,7 +11,7 @@ title: January 11, ,,  2013 Galaxy Development News Brief
 
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
@@ -44,7 +44,8 @@ There are three categories of repository dependencies which will be discussed in
 
 <br />
 # Other Tool Shed
-**[/Tool Shed](/Tool Shed)**
+
+**[Tool Shed](/src/Tool Shed/index.md)**
 
 ### Galaxy fixes and enhancements related to tool shed features
 
@@ -58,11 +59,10 @@ There are three categories of repository dependencies which will be discussed in
 1. The Galaxy tool shed functional test framework has undergone significant enhancements.  For details about running the tool shed functional test framework against your local tool shed, see the wiki page at: [Functional test framework for the tool shed](http://wiki.galaxyproject.org/HostingALocalToolShed#Functional_test_framework_for_the_tool_shed).
 2. Make functional tests explicitly specify which shed tool config to use.  This fixed a bug that resulted in the `migrated_tools_conf.xml` file being altered in some cases when the tool shed functional test framework was run against a local tool shed.
 
-
 <br />
 # Data
 
-1. Many new reference genome datasets, indexes, and liftOver files have been added to the **public [/Main](/src/Main/index.md) Galaxy instance** and **rsync** download area ([get the data](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)). Among these, the following full reference genomes sourced from **[UCSC](http://genome.ucsc.edu/)** were added:
+1. Many new reference genome datasets, indexes, and liftOver files have been added to the **public [Main](/src/Main/index.md) Galaxy instance** and **rsync** download area ([get the data](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)). Among these, the following full reference genomes sourced from **[UCSC](http://genome.ucsc.edu/)** were added:
   * `Budgerigar Sep. 2011 (WUSTL v6.3/melUnd1)`
   * `Chicken Nov. 2011 (ICGSC Gallus_gallus-4.0/galGal4)`
   * `Cow Oct. 2011 (Baylor Btau_4.6.1/bosTau7) (bosTau7)`
@@ -77,7 +77,7 @@ There are three categories of repository dependencies which will be discussed in
   * `Turkey Dec. 2009 (TGC Turkey_2.01/melGal1)`
   * `X. tropicalis Nov. 2009 (JGI 4.2/xenTro3) (xenTro3)`
 2. #2 Additional genomes, indexes, and related datasets will continue to be published over the next several weeks and highlights will appear in subsequent News Briefs.
-3. #3 The genome "`Yeast (Saccharomyces cerevisiae): Saccharomyces_cerevisiae_S288C_SGD2010`" has been discovered to be mislabeled, representing the Apr. 2011 release from SGD (not Feb. 2010), which makes it identical to the "`sacCer3`" genome from UCSC. This genome will be redacted on the [/Main](/src/Main/index.md) server and users should migrate to using the "`sacCer3`" genome build as the alternative. Any chromosome naming issues associated with the `Saccharomyces_cerevisiae_S288C_SGD2010 build` (due to names of format "chr3" instead of the author published "chrIII") will also be resolved by migrating to this new, correct, reference genome build.
+3. #3 The genome "`Yeast (Saccharomyces cerevisiae): Saccharomyces_cerevisiae_S288C_SGD2010`" has been discovered to be mislabeled, representing the Apr. 2011 release from SGD (not Feb. 2010), which makes it identical to the "`sacCer3`" genome from UCSC. This genome will be redacted on the [Main](/src/Main/index.md) server and users should migrate to using the "`sacCer3`" genome build as the alternative. Any chromosome naming issues associated with the `Saccharomyces_cerevisiae_S288C_SGD2010 build` (due to names of format "chr3" instead of the author published "chrIII") will also be resolved by migrating to this new, correct, reference genome build.
 
 <br />
 # Visualization
@@ -91,8 +91,11 @@ There are three categories of repository dependencies which will be discussed in
 # User Interface (UI)
 
 ### General
+
 1. Make Galaxy Q&A URL optional and disable by default.
+
 ### Admin
+
 2. #2 Make left panel scroll properly on smaller screens.
 3. #3 Select all checkbox added for job management. 
 
@@ -105,25 +108,30 @@ Although there are no specific known security fixes in this distribution, all Ga
 # Bug Fixes and related Enhancements
 
 ### General
+
 1. Fixes to IE-related caching and debugging.
 2. Purge and deletion of datasets in the history panel no longer refresh entire panel and preserve user's 'Include deleted datasets' choice properly.
 3. Fix to `tool.xml force_history_refresh` flag handling in the history panel. The panel will now refresh entirely when a dataset from a tool with this setting finishes.
 4. Fix for tabular dataset download when the dataset had greater than 50 columns.
+
 ### Workflows
+
 5. #5 Enhance `Tool.check_and_update_param_values_helper()` to check that the type of value provided is valid for the input parameter currently declared. Fixes issue where a server error would occur within workflows when a parameter's type has changed to a non-compatible one: e.g. conditional group changed to dataset input.
 6. #6 Fix for workflow editor when a missing tool is connected to a valid tool. Javascript error would previously cause the 'Loading worflow editor...' modal window to spin indefinitely.
+
 ### Tools
+
 7. #7 When listing GenomeSpace directories in GenomeSpace export tool, if an API-discovered URL is invalid, skip gracefully.
 
 <br />
 # Announcements
 
-[/News](/src/News/index.md), ***[January 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_13)***
+[News](/src/News/index.md), ***[January 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_13)***
 
 <div class='right'>
-<a href='http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='Training Day' width="160" /></a>
+<a href='http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay'><img src="/src/Images/Logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="160" /></a>
 <br />
-<a href='http://wiki.galaxyproject.org/Community/GalaxyAdmins/Meetups/2013_01_16'><img src='/Images/Logos/GalaxyAdmins.png' alt='January 2013 GalaxyAdmins Meetup' width="160" /></a>
+<a href='http://wiki.galaxyproject.org/Community/GalaxyAdmins/Meetups/2013_01_16'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="January 2013 GalaxyAdmins Meetup" width="160" /></a>
 </div>
 
 * [GCC2013](http://wiki.galaxyproject.org/Events/GCC2013):
@@ -132,10 +140,10 @@ Although there are no specific known security fixes in this distribution, all Ga
 * The [next meeting](http://wiki.galaxyproject.org/Community/GalaxyAdmins/Meetups/2013_01_16) of the [GalaxyAdmins Group](http://wiki.galaxyproject.org/Community/GalaxyAdmins) will be held on [January 16, 2013, at 10 AM Central US time](http://wiki.galaxyproject.org/Community/GalaxyAdmins/Meetups/2013_01_16). 
   * [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) will cover "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and [CloudMan](http://usegalaxy.org/cloud)"
 
-
----
+----
 <br />
 # About Galaxy
+
 **[GalaxyProject.org](http://galaxyproject.org)**
 
 The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 

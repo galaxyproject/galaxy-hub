@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/Develop/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
 
 ## Galaxy Architecture
 

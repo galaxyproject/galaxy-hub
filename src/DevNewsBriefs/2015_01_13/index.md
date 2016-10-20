@@ -1,20 +1,20 @@
 ---
 autotoc: true
-title: January 13, ,,  2015 Galaxy Distribution News Brief
+title: January 13, 2015 Galaxy Distribution News Brief
 ---
 <div class='right'></div>
 [All News Briefs](/src/DevNewsBriefs/index.md)
 <br />
 [Distribution Summary 2015_01_13](/src/News/2015_01_13_Galaxy_Distribution/index.md)
 
-<div class='left'><a href='http://getgalaxy.org'><img src='/Images/Logos/GetGalaxyOrg.png' alt=' ' width=175 /></a></div>
+<div class='left'><a href='http://getgalaxy.org'><img src="/src/Images/Logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
 
 <br />
 <br />
 <br />
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
@@ -78,6 +78,7 @@ Thanks to the awesome work of community members [Björn Grüning](/src/BjoernGru
 Galaxy's tool form forces pages to reload entirely in response to many user interactions. This limits Galaxy's responsiveness and can result in a cumbersome user experience when entering complex tool configurations. In Galaxy's development branch, this tool form has been redesigned and modernized to address these and other limitations. This new tool form will become the default with the next release - but we are hoping tool author's and power users enable it and provide feedback during this release cycle in order to ensure it is working ideally when it becomes the default. The tool form can be enabled by setting `toolform_upgrade=True` in Galaxy's `config/galaxy.ini`.
 
 # New and Improved
+
 1. New Toolshed category for combinatorial selections tools. [https://trello.com/c/QKKYov6a](https://trello.com/c/QKKYov6a)
 1. Updated Admin Tool Panel with options to load and watch directories of Tools and to trigger auto-reload upon update of any tool. [https://trello.com/c/fXGdYmzo](https://trello.com/c/fXGdYmzo)
 1. Fixed bug in Sentry where it was not generated a URL for `history_contents`. [https://trello.com/c/5d6j4X5y](https://trello.com/c/5d6j4X5y)
@@ -125,6 +126,7 @@ Galaxy's tool form forces pages to reload entirely in response to many user inte
 1. Added flexibility for `tool data table` configuration in the Install and Test Framework. [https://trello.com/c/oKZPySe2](https://trello.com/c/oKZPySe2)
 
 # Fixed
+
 1. Fixed issue where API lost functionality for Twill tool tester that allowed selects to be specified by display value in addition to form value. [https://trello.com/c/3opljhof](https://trello.com/c/3opljhof)
 1. Fixed issue where logging in after password reset sent the user to wrong page (now point to login). [https://trello.com/c/gkZQcy9g](https://trello.com/c/gkZQcy9g)
 1. Resolved Admin manage jobs function with accurate time calculation. No longer rolls-over at 24 hrs. [https://trello.com/c/7d7e2B1s](https://trello.com/c/7d7e2B1s)
@@ -138,7 +140,7 @@ Galaxy's tool form forces pages to reload entirely in response to many user inte
 1. Fixed an improper redirect during user password reset. [https://trello.com/c/ROONezok](https://trello.com/c/ROONezok)
 1. Fixed Workflow import to correctly set the `uuid`. Contributed by Kyle Ellrott. [https://trello.com/c/4UP6Gfo9](https://trello.com/c/4UP6Gfo9)
 1. Corrected a few small bugs in docs and pylint. See ticket/changesets for details. Contributed by [Nicola Soranzo](/src/NicolaSoranzo/index.md). [https://trello.com/c/HVm9vKl2](https://trello.com/c/HVm9vKl2)
-1. Corrected a boolean parameter handling issue that occurred during a Workflow’s runtime execution. ’’Incorporating this fix is critical for proper Workflow execution.’’. The problem manifested as certain tool parameters executing »in the reverse state« when used within Workflows (exclusively, and never when tools were executed directly outside of Workflows). A tool »re-run« form will reveal the issue and various failure errors are known to have resulted. If a prior successful Workflow now fails, and your instance as not yet included in this changeset yet, the issue could likely be the root cause of Workflow tool errors.  The problem impacted the [/Main](/src/Main/index.md) public Galaxy instance at [http://usegalaxy.org](http://usegalaxy.org) for a short time window in November. The fix was applied to the public instance and added to the Stable branch under [latest_2014.10.06](/src/DevNewsBriefs/2014_10_06/index.md) upon discovery/resolution, at a priority, during this same time frame. Reported by Andrea Pinna. [https://trello.com/c/zdHaxzSn](https://trello.com/c/zdHaxzSn) [https://trello.com/c/sXUwBJgb](https://trello.com/c/sXUwBJgb)
+1. Corrected a boolean parameter handling issue that occurred during a Workflow’s runtime execution. ’’Incorporating this fix is critical for proper Workflow execution.’’. The problem manifested as certain tool parameters executing »in the reverse state« when used within Workflows (exclusively, and never when tools were executed directly outside of Workflows). A tool »re-run« form will reveal the issue and various failure errors are known to have resulted. If a prior successful Workflow now fails, and your instance as not yet included in this changeset yet, the issue could likely be the root cause of Workflow tool errors.  The problem impacted the [Main](/src/Main/index.md) public Galaxy instance at [http://usegalaxy.org](http://usegalaxy.org) for a short time window in November. The fix was applied to the public instance and added to the Stable branch under [latest_2014.10.06](/src/DevNewsBriefs/2014_10_06/index.md) upon discovery/resolution, at a priority, during this same time frame. Reported by Andrea Pinna. [https://trello.com/c/zdHaxzSn](https://trello.com/c/zdHaxzSn) [https://trello.com/c/sXUwBJgb](https://trello.com/c/sXUwBJgb)
 1. Fixed changeset 04a072e to now use the correct `MAKO` method in the masthead. [https://trello.com/c/ZSMVriGJ](https://trello.com/c/ZSMVriGJ)
 1. Composite Datatype uploads no longer problematic by assuming groups have a UUID field. [https://trello.com/c/GbZwGPmt](https://trello.com/c/GbZwGPmt)
 1. Fixed passing nested parameter replacements to the Workflow run API. Discovered by [Nicola Soranzo](/src/NicolaSoranzo/index.md). [https://trello.com/c/WtFpviiw](https://trello.com/c/WtFpviiw)
@@ -152,25 +154,28 @@ Galaxy's tool form forces pages to reload entirely in response to many user inte
 1. Corrected a temporary issue where Import was omitted from the original release of `latest_2014.10.06`. [https://trello.com/c/iJwFduar](https://trello.com/c/iJwFduar)
 
 # News and Community
+
 1. We would like to send a special acknowledgement along with a huge **Thank YOU!!** (or as our own [Dave Clements](/src/DaveClements/index.md) often states informally, "Hugs!") to our *Intergalactic Utilities Commission* members. Our project most definitely would not be the same without the *IUC's* unwavering and dedicated support, contributions, and suggestions throughout the years. Everyone in the Galaxy community benefits directly, in a multitude of ways, that are too far reaching to list out fully in this quick note. *Curious* about who is involved and the key role this community-driven group has in improving and maintaining the [Tool Shed](https://wiki.galaxyproject.org/ToolShed) and their owned/reviewed [Repositories](http://usegalaxy.org) (in addition to other important areas)? Learn more about the members and future/active/prior projects and goals [here...](https://wiki.galaxyproject.org/IUC). 
 1. Explore the latest [Galaxy Project](http://galaxyproject.org) news from our team that covers recent Events, Publications, New Tools, and much more in our monthly project reports published in our wiki under [Galaxy Updates](http://wiki.galaxyproject.org/GalaxyUpdates). 
 1. [Tool Shed Contributions](https://wiki.galaxyproject.org/ToolShed/Contributions). This is a brand-new area previously included directly in the *[Galaxy Updates](http://wiki.galaxyproject.org/GalaxyUpdates)* news letters. Watch as this area develops as we work to summarize new repository updates in a concise and organized format. Feedback about how you would like to see this evolve (including general interest) is welcome. We will be posting a comment/feedback post at [Galaxy Biostar](https://biostar.usegalaxy.org/) to provide an opportunity to for our community to discuss. A summary will be added to [Trello](https://wiki.galaxyproject.org/Issues) once feedback is gathered for review and action. (A link to that post will be updated and added right here in this wiki within the next week - is truly a *brand-new* endeavor to break this out as a distinct wiki resource!!).
 1. If you are new to Galaxy or wish to connect with our project more in 2015, these key links can help keep you updated about our activities and updates in real time (or at your own pace). Galaxy is a community project we would like to remind all about of the resources and venues available for news and support. Most reading our News Briefs are familiar with [Development](https://wiki.galaxyproject.org/Develop), [Cloud](https://wiki.galaxyproject.org/Cloud), [Local](https://wiki.galaxyproject.org/Admin/GetGalaxy), and other deployment resources such as [Admin](https://wiki.galaxyproject.org/Admin) plus [Tool](https://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax) and [Tool Repository](https://wiki.galaxyproject.org/ToolShed) documenation, but below is a short list of even more places to visit and get connected:
   * [All News Reports](/src/News/index.md) and the [Hub for Distribution Details](/src/DevNewsBriefs/index.md)
   * [Twitter](/src/GalaxyOnTwitter/index.md) (wiki summary) or follow us directly at [https://twitter.com/galaxyproject](https://twitter.com/galaxyproject)
-  * [/Events](/src/Events/index.md), [/Learn](/src/Learn/index.md), [Galaxy Biostar](https://biostar.usegalaxy.org/), [Support Resources](/src/Support/index.md) with FAQ help, [Mailing list](/src/MailingLists/index.md) subscription and archvies, and [Vimeo tutorials](http://vimeo.com/galaxyproject)
+  * [Events](/src/Events/index.md), [Learn](/src/Learn/index.md), [Galaxy Biostar](https://biostar.usegalaxy.org/), [Support Resources](/src/Support/index.md) with FAQ help, [Mailing list](/src/MailingLists/index.md) subscription and archvies, and [Vimeo tutorials](http://vimeo.com/galaxyproject)
   * All know of [Public Galaxy Main](/src/Main/index.md), but have you reviewed the [Other Galaxy Public-hosted Servers](/src/PublicGalaxyServers/index.md) lately?
-  * [/Teach](/src/Teach/index.md) resources are an exciting, growing, and key area for expansion throughout 2015, check out what is new!
+  * [Teach](/src/Teach/index.md) resources are an exciting, growing, and key area for expansion throughout 2015, check out what is new!
   * Follow current development real-time and create, comment, and vote on active [Trello](https://trello.com/galaxyproject) tickets. As an open source project, we very much welcome community involvement. Not sure how to get involved or how to [create an account](https://trello.com/b/ijIE4lMx/welcome-board)? We have guidance available **[here...](https://wiki.galaxyproject.org/Issues)**, that includes a form to aid with quick ticket submission.
-  * [/Community](/src/Community/index.md) resources. Overview about how we value and seek your input. Have your voice heard and get involved!
+  * [Community](/src/Community/index.md) resources. Overview about how we value and seek your input. Have your voice heard and get involved!
   * [Galaxy Project](/src/GalaxyProject/index.md) home page (hub for all resources, those listed above and more!)
   * See our wiki's right side bar menu &rarr; for more links to areas of interest to you
   * Our wiki is absolutely open for community contributions and improvements. We have plans in place for documentation updates in the upcoming year, but we greatly value the knowledge and insight shared through this resource by all that have ideas to make it even better. Let's work together to expand this wiki to meet the needs of the upcoming year as our project matures, as new research/development areas come up, and as Galaxy grows and evolves with new features and enhancements! Create a wiki account and contact us at "outreach at galaxyproject dot org" to become a wiki editor. 
 
 # Upgrades
+
 1. Review instructions for core build: [Getting the Stable Distribution](http://getgalaxy.org)
 1. Review reset for Toolshed repos: [Resetting Metadata For Installed Repositories](http://wiki.galaxyproject.org/ResettingMetadataForInstalledRepositories)
 
 # About Galaxy
-<div class='left'><a href='http://usegalaxy.org'><img src='/Images/Logos/GalaxyLogoHighRes.png' alt='UseGalaxy.org' width="200" /></a></div>
-**[About Galaxy](/src/Support/AboutGalaxy/index.md)** • [Galaxy Project](/src/GalaxyProject/index.md) • [/Admin](/src/Admin/index.md) • [/Issues](/src/Issues/index.md) • [Big Picture](/src/BigPicture/index.md) • [/Community](/src/Community/index.md) • [Get Galaxy](/src/Admin/GetGalaxy/index.md) • [/CloudMan](/src/CloudMan/index.md) • [Tool Shed](/src/ToolShed/index.md) • [/Develop](/src/Develop/index.md) • [News Briefs](/src/DevNewsBriefs/index.md) • [Servers](/src/PublicGalaxyServers/index.md) • [/Learn](/src/Learn/index.md) • [/Support](/src/Support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/src/News/index.md) • [Twitter](/src/GalaxyOnTwitter/index.md) • [/Events](/src/Events/index.md) • [/Teach](/src/Teach/index.md) • [Cite](/src/CitingGalaxy/index.md) • [Galaxy Team](/src/GalaxyTeam/index.md)
+
+<div class='left'><a href='http://usegalaxy.org'><img src="/src/Images/Logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
+**[About Galaxy](/src/Support/AboutGalaxy/index.md)** • [Galaxy Project](/src/GalaxyProject/index.md) • [Admin](/src/Admin/index.md) • [Issues](/src/Issues/index.md) • [Big Picture](/src/BigPicture/index.md) • [Community](/src/Community/index.md) • [Get Galaxy](/src/Admin/GetGalaxy/index.md) • [CloudMan](/src/CloudMan/index.md) • [Tool Shed](/src/ToolShed/index.md) • [Develop](/src/Develop/index.md) • [News Briefs](/src/DevNewsBriefs/index.md) • [Servers](/src/PublicGalaxyServers/index.md) • [Learn](/src/Learn/index.md) • [Support](/src/Support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/News/index.md) • [Twitter](/src/GalaxyOnTwitter/index.md) • [Events](/src/Events/index.md) • [Teach](/src/Teach/index.md) • [Cite](/src/CitingGalaxy/index.md) • [Galaxy Team](/src/GalaxyTeam/index.md)

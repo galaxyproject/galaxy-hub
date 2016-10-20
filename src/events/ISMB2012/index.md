@@ -1,7 +1,8 @@
 <div class='center'>
-<a href='http://www.open-bio.org/wiki/BOSC_2011'><img src='/Images/Logos/BOSC_logo.png' alt='BOSC 2012' width="120" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.iscb.org/ismb2012'><img src='/Images/Logos/ISMB2012.jpg' alt='ISMB 2012' height=100 /></a>
+<a href='http://www.open-bio.org/wiki/BOSC_2011'><img src="/src/Images/Logos/BOSC_logo.png" alt="BOSC 2012" width="120" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.iscb.org/ismb2012'><img src="/src/Images/Logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>
 
 # Galaxy at ISMB and BOSC 2012
+
 </div>
 
 Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [BOSC](http://www.open-bio.org/wiki/BOSC_2012) 2012.  This page lists known Galaxy related events and presentations.
@@ -18,7 +19,7 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
     <th> Wednesday July&nbsp;11 </th>
     <td rowspan=2> <strong><a href='http://www.open-bio.org/wiki/Codefest_2012'>OpenBio Codefest 2012</a></strong> </td>
     <td rowspan=2> All Day </td>
-    <td rowspan=2> <a href='/EnisAfgan'>Enis Afgan</a> and <a href='/DannonBaker'>Dannon Baker</a> of the the Galaxy Team will participate. </td>
+    <td rowspan=2> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> and <a href='/src/DannonBaker/index.md'>Dannon Baker</a> of the the Galaxy Team will participate. </td>
     <td rowspan=2> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_Codefest_Report.pdf'>Report</a> </td>
   </tr>
   <tr>
@@ -46,17 +47,17 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
   </tr>
   <tr>
     <td> 11:00-11:15 </td>
-    <td> </em>Galaxy Project Update<em>, <a href='/DannonBaker'>Dannon Baker</a>, Emory University </td>
+    <td> </em>Galaxy Project Update<em>, <a href='/src/DannonBaker/index.md'>Dannon Baker</a>, Emory University </td>
     <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_BOSC_GalaxyUpdate.pdf'>slides</a> </td>
   </tr>
   <tr>
     <td> 11:15-11:30 </td>
-    <td> </em>Zero to a Bioinformatics Analysis Platform in 4 Minutes<em>, <a href='/EnisAfgan'>Enis Afgan</a>, <a href='http://www.irb.hr/eng/'>Ruđer Bošković Institute (RBI)</a> and <a href='http://vlsci.org.au/'>Victorian Life Science Computation Initiative (VLSCI)</a> </td>
+    <td> </em>Zero to a Bioinformatics Analysis Platform in 4 Minutes<em>, <a href='/src/EnisAfgan/index.md'>Enis Afgan</a>, <a href='http://www.irb.hr/eng/'>Ruđer Bošković Institute (RBI)</a> and <a href='http://vlsci.org.au/'>Victorian Life Science Computation Initiative (VLSCI)</a> </td>
     <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_BOSC_Afgan.pdf'>slides</a> </td>
   </tr>
   <tr>
     <td> 2:40-2:55 </td>
-    <td> </em>A Framework for Interactive Visual Analysis of NGS Data using Galaxy<em>, <a href='/JeremyGoecks'>Jeremy Goecks</a>, Emory University </td>
+    <td> </em>A Framework for Interactive Visual Analysis of NGS Data using Galaxy<em>, <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a>, Emory University </td>
     <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_BOSC_Trackster.pdf'>slides</a> </td>
   </tr>
   <tr>
@@ -71,12 +72,12 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
   </tr>
   <tr>
     <td> 2:30-2:55 </td>
-    <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismb2012/technologytrack.php'>TT08: Interactive Visual Analysis of NGS Data using Trackster and Galaxy</a><em>, <a href='/JeremyGoecks'>Jeremy Goecks</a>, Emory University </td>
+    <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismb2012/technologytrack.php'>TT08: Interactive Visual Analysis of NGS Data using Trackster and Galaxy</a><em>, <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a>, Emory University </td>
     <td rowspan=1> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_ISMB_Goecks.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <td rowspan=1> 3:00-3:25 </td>
-    <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismb2012/technologytrack.php'>TT10: The first biomedical AppStore: Galaxy Tool Shed</a><em>, <a href='/greg_vonkuster'>Greg von Kuster</a>, Penn State University </td>
+    <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismb2012/technologytrack.php'>TT10: The first biomedical AppStore: Galaxy Tool Shed</a><em>, <a href='/src/greg_vonkuster/index.md'>Greg von Kuster</a>, Penn State University </td>
     <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_ISMB_ToolShed.pdf'>Slides</a> </td>
   </tr>
   <tr>
@@ -91,7 +92,7 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
   </tr>
   <tr>
     <td> 11:45-12:10 </td>
-    <td> </em><a href='https://www.iscb.org/ismb2012-program/ismb2012-workshops#w3'>WK3 - Part C: Running a Bioinformatics Help Desk: from drawing colorful plasmid maps to working with Hi Seq Data</a>,<em> <a href='/HansrudolfHotz'>Hans-Rudolf Hotz</a>, Friedrich Miescher Institute </td>
+    <td> </em><a href='https://www.iscb.org/ismb2012-program/ismb2012-workshops#w3'>WK3 - Part C: Running a Bioinformatics Help Desk: from drawing colorful plasmid maps to working with Hi Seq Data</a>,<em> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a>, Friedrich Miescher Institute </td>
     <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_ISMB_RunningABioinformaticsHelpDesk.pdf'>Slides</a> </td>
   </tr>
   <tr>

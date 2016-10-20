@@ -1,4 +1,4 @@
-<div class='right'> <a href='/ToolShed'><img src='/Images/Logos/ToolShed.jpg' alt='Tool Shed logo' height="110px" /></a> PLACEHOLDER_INCLUDE(/ToolShed/LinkBox) </div>
+<div class='right'> <a href='/src/ToolShed/index.md'><img src="/src/Images/Logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a> PLACEHOLDER_INCLUDE(/src/ToolShed/LinkBox/index.md) </div>
 
 The Galaxy Tool Shed provides many features for creating, populating and maintaining repositories containing Galaxy utilities and for installing them into Galaxy.  Here we’ll examine the set of Tool Shed features that are available for administering and maintaining repositories in the Tool Shed.  This article describes Galaxy Tool Shed features that are available in the February 10, 2014 Galaxy release.  Watch for future articles here as well as future Galaxy News Briefs, which are published for each new release, for details about upcoming features.
 

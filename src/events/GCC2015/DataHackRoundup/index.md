@@ -1,21 +1,21 @@
 ---
-title: !, DataHack Roundup
+title: !DataHack Roundup
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
 
 
 
 
 <div class='dictbox'>
- BoF:: **[DataHack roundup](/Events/GCC2015/BoFs/DataHackRoundup)**
+ BoF:: **[DataHack roundup](/src/Events/GCC2015/BoFs/DataHackRoundup/index.md)**
  Summary:: This BoF is for the data hack team to reconvene and strategize for the coming weeks.
  Audience:: Those who attended the data or code hack and want to continue on pipeline and stable workflow development and deployment.  
  When:: **Tuesday, 7 July, 18:20**
  Where:: **[Chris Lamb Theatre](http://gcc2015.tsl.ac.uk/wp-content/uploads/2015/07/GCC2015NRPMap.png)**
- Contact:: [kreddy4@jhmi.edu](Karen Reddy)
+ Contact:: [mailto:kreddy4@jhmi.edu](Karen Reddy)
 </div>
 
-<div class='left'><a href='/Events/GCC2015/BoFs'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a></div>
+<div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
 This page describes the **!DataHack roundup** [Birds of a Feather](/src/Events/GCC2015/BoFs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 
@@ -33,13 +33,13 @@ This BoF is for the data hack team to reconvene and strategize for the coming we
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [kreddy4@jhmi.edu](Karen Reddy).
+If you are interested, please add your name below and/or send an email to [mailto:kreddy4@jhmi.edu](Karen Reddy).
 
 * Karen Reddy
 * Next Name
 
 ## Questions?
 
-Send them to [kreddy4@jhmi.edu](Karen Reddy).
+Send them to [mailto:kreddy4@jhmi.edu](Karen Reddy).
 
 CategoryBoF

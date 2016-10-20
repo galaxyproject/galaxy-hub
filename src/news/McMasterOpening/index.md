@@ -1,9 +1,6 @@
----
-date: 2014-12-05T02:29:24Z
----
 <div class='newsItemHeader'>[Opening at McMaster University](/src/News/McMasterOpening/index.md)</div>
 
-<div class='right'><a href='http://bit.ly/11WryeP'><img src='/Images/Logos/McMasterULogo.jpg' alt='Systems Administrator / Information Technologist' width="200" /></a></div>
+<div class='right'><a href='http://bit.ly/11WryeP'><img src="/src/Images/Logos/McMasterULogo.jpg" alt="Systems Administrator / Information Technologist" width="200" /></a></div>
 
 The [McArthur Lab](http://mcarthurbioinformatics.ca/) in the [McMaster University Department of Biochemistry & Biomedical Sciences](http://fhs.mcmaster.ca/biochem/) is seeking a Systems Administrator / Information Technologist to help establish a new bioinformatics laboratory at !McMaster, plus develop the next generation of the [Comprehensive Antibiotic Resistance Database (CARD)](http://arpcard.mcmaster.ca/).
 
@@ -13,5 +10,6 @@ From the [job announcement on EvolDir](http://bit.ly/11WryeP):
 
 See the [full announcement](http://bit.ly/11WryeP) for details.
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-12-05</div>
 
 CategoryNews

@@ -1,4 +1,4 @@
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Main Tool Shed' height="174" /></a> </div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a> </div>
 
 # Installing tool dependencies along with tools migrated from the Galaxy distribution to the Galaxy Main Tool Shed
 
@@ -72,12 +72,12 @@ When the Galaxy server is started after the tool migration process above is comp
 
 Let's take a look at the installed repository to see what we have.  From the **Admin** perspective, click the **Manage installed Tool Shed repositories** menu option.  You should see something like this page.  The installation status is **Installed** and the box is green because the repository and all if its defined tool dependencies were successfully installed.
 
-![](/freebayes_installed.png)
+![](/src/ToolShed/InstallingToolDependenciesWithMigratedTools/freebayes_installed.png)
 
 Clicking on the repository name button will display the following page.  Notice the list of installed tool dependencies that are associated with the tools contained in the installed repository, each of which includes a hyperlink.
 
-![](/manage_freebayes.png)
+![](/src/ToolShed/InstallingToolDependenciesWithMigratedTools/manage_freebayes.png)
 
 Clicking on the freebayes tool dependency link will display the following page, where we can browse the installation directory and view the compiled binaries.  We can also view the installation log to see exactly what occurred during the installation process.  This may be helpful if the installation resulted in errors.
 
-![](/freebayes_binaries.png)
+![](/src/ToolShed/InstallingToolDependenciesWithMigratedTools/freebayes_binaries.png)

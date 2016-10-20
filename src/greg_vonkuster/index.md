@@ -1,6 +1,5 @@
 
-
-<div class='right'>![](/GalaxyTeam/greg.jpg)</div>
+<div class='right'>![](/src/GalaxyTeam/greg.jpg)</div>
 
 # Greg von Kuster
 
@@ -24,16 +23,15 @@ Greg has been involved at some level in virtually every aspect of Galaxy.  He in
 
 Greg wrote the specifications and is the architect and developer of the following Galaxy features and components.
 
-* The first biomedical appStore: [the Galaxy Tool Shed](/Tool Shed)
-* [Enabling the simultaneous use of multiple versions of the same tool in a Galaxy instance](/Tool Shed#galaxy_tool_versions)
+* The first biomedical appStore: [the Galaxy Tool Shed](/src/Tool Shed/index.md)
+* [Enabling the simultaneous use of multiple versions of the same tool in a Galaxy instance](/src/Tool Shed/index.md#galaxy_tool_versions)
 * [The demo sequencer, demonstrating Galaxy integration with a PacBio instrument](http://screencast.g2.bx.psu.edu/pacBio-demo/)
-* [Galaxy reports](/DevNewsBriefs/2010 06_08)
+* [Galaxy reports](/src/DevNewsBriefs/2010 06_08/index.md)
 
 The following components have gone through several phases of development.  Greg was involved with others in the initial phase that resulted in a functional prototype.  He leveraged what was learned in building the prototype, and re-engineered the components, improving them to produce what currently exists.
 
 * [Galaxy Sample Tracking](/src/Admin/DataLibraries/LibrarySampleTracking/index.md)
 * [Galaxy Data Libraries](/src/Admin/DataLibraries/index.md)
 
-
----
+----
 CategoryHomepage

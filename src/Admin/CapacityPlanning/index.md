@@ -1,9 +1,7 @@
 ---
 title: Galaxy Capacity Planning
 ---
-PLACEHOLDER_INCLUDE(/UnderConstruction)
-
-PLACEHOLDER_INCLUDE(/Admin/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md)
 
 
 
@@ -24,5 +22,5 @@ See the [Cloud page](/src/Cloud/index.md) for information on getting started wit
 ## See Also
 
 * [Cloud](/src/Cloud/index.md) - Galaxy on the cloud options
-* [Public Galaxy Servers](../../Public Galaxy Servers) - a list of known, publicly accessible, Galaxy servers.
+* [Public Galaxy Servers](/src/PublicGalaxyServers/index.md) - a list of known, publicly accessible, Galaxy servers.
 

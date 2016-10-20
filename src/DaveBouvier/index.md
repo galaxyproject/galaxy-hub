@@ -1,5 +1,4 @@
-
-<div class='right'>![](/davebouvierflag200.jpeg)</div>
+<div class='right'>![](/src/DaveBouvier/davebouvierflag200.jpeg)</div>
 
 # Dave Bouvier
 
@@ -15,5 +14,5 @@ I am a system administrator, programmer, and a part of the [Galaxy Team](/src/Ga
 </table>
 
 
----
+----
 CategoryHomepage

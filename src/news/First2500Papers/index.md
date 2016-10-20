@@ -1,11 +1,8 @@
----
-date: 2015-08-12T22:39:55Z
----
 <div class='newsItemHeader'>[2500 Galaxy Papers & Counting](/src/News/First2500Papers/index.md)</div>
 
-<div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src='/Images/Logos/CiteULikeLogo.png' alt='Galaxy at CiteULike Social Bookmarking Service' width="200" /></a></div>
+<div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/src/Images/Logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
 
-The [Galaxy CiteULike library](http://bit.ly/gxyCiteULike) recently reached a milestone:  It now has over 2500 publications in it.  The [Galaxy CiteULike Group](http://bit.ly/gxyCiteULike) was [launched in December 2011](/News/New Galaxy Group @ CiteULike) and [reached 1000 papers 18 months later](/src/News/GalaxyCiteULikePaper1000/index.md). 
+The [Galaxy CiteULike library](http://bit.ly/gxyCiteULike) recently reached a milestone:  It now has over 2500 publications in it.  The [Galaxy CiteULike Group](http://bit.ly/gxyCiteULike) was [launched in December 2011](/src/News/New Galaxy Group @ CiteULike/index.md) and [reached 1000 papers 18 months later](/src/News/GalaxyCiteULikePaper1000/index.md). 
 
 To be included in the library a publication needs to reference or mention Galaxy, extend Galaxy, use or reference a Galaxy instance, or otherwise discuss Galaxy or [cite one of the Galaxy Project papers](/src/CitingGalaxy/index.md).
 
@@ -302,6 +299,7 @@ A couple of trends stand out in the tag data:
 
 Information on where the papers appeared is also available.  Galaxy-related papers have appeared in over 500 different publications.  Publications with 15 or more Galaxy papers are:
 
+
 | Journal |  2005  |  2006  |  2007  |  2008  |  2009  |  2010  |  2011  |  2012  |  2013  |  2014  |  2015  |  Total  | 
 | ------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ------ | 
 | *[Plos One](http://www.citeulike.org/search/group?search=Search+library&group_id=16008&q=journal:"plos one")* |  0  |  0  |  0  |  1  |  1  |  4  |  16  |  32  |  42  |  45  |  27  |  **168**  | 
@@ -381,5 +379,6 @@ In the meantime, I expect the next 2500 papers will be published in considerably
 
 [Dave Clements](/src/DaveClements/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-08-12</div>
 
 CategoryNews

@@ -2,7 +2,7 @@
 title: URGI
 ---
 <div class='center'>
-<a href='https://urgi.versailles.inra.fr/'><img src='/Images/Logos/URGILogo.png' alt='URGI' height="200" /></a>
+<a href='https://urgi.versailles.inra.fr/'><img src="/src/Images/Logos/URGILogo.png" alt="URGI" height="200" /></a>
 </div>
 
 

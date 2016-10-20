@@ -1,12 +1,11 @@
-
 # Ross Lazarus
 
-Email: [GG ross.lazarus AT gmail DOT com MMM ](GG ross.lazarus AT gmail DOT com MMM )
-<div class='right'>![](/GalaxyTeam/ross.jpg)</div>
+Email: [mailto:GG ross.lazarus AT gmail DOT com MMM ](GG ross.lazarus AT gmail DOT com MMM )
+<div class='right'>![](/src/GalaxyTeam/ross.jpg)</div>
 Ross Lazarus is an Australian medical academic who served as an Associate Professor in Population Medicine at Harvard Medical School and Director of Bioinformatics at the Channing Laboratory for 12 years before returning to take up a position as Head of Computational Biology at the [BakerIDI](http://www.bakeridi.edu.au/) in Melbourne in 2011. While based at HMS, he badgered [Anton](/src/anton/index.md) and [James](/src/JamesTaylor/index.md) until they let him join the very new [Galaxy Team](/src/GalaxyTeam/index.md) after he was smitten at first sight of the [source code](https://github.com/galaxyproject/galaxy). He helps take care of Picard and other NGS tool wrappers and is developing a [comprehensive toolkit](https://bitbucket.org/fubar/rgalaxy/src/94584ac7c10f/tools/rgenetics) for digital differential expression, exposing edgeR/DESeq, miRDeep2 and GSEA in a convenient way starting with aligned bam files and an interval file specifying contigs for read counts. For those times when you need a few lines of R or python quickly wrapped into a new Galaxy tool for your local users, you might enjoy a Galaxy tool he recently published that [generates new Galaxy tools from scripts](https://bitbucket.org/fubar/galaxytoolfactory/overview). Ross is often responsible for sending grumpy responses to the lists at times when most other team members are asleep<sup>*</sup>. In preparing for these roles, he has at various times worked as a public health and family physician, public health informatician, NIH/NSF funded researcher, bioinformatician, genetic epidemiologist and computer wonk.
 
 
 
  <sup>*</sup> Generally during daylight where he lives in Australia
----
+----
 CategoryHomepage

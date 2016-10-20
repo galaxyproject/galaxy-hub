@@ -6,7 +6,7 @@ title: November 2012 Galaxy Update
 
 
 
-<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the November 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -86,7 +86,7 @@ The same guidelines for creating issues used previously apply here as well - rep
 
 All open [galaxy-central bitbucket issues](https://bitbucket.org/galaxy/galaxy-central) were imported and, though they still need to be sorted out, comments/voting on them are more than welcome.  Our hope is that this issue tracker will be a more effective community interface than the *Bitbucket* issues were, with the voting features and simpler visibility.
 
-<a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2012_10_23_trello-inbox.png' alt='2012_10_23_trello-inbox' width="900" /></a>
+<a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2012_10_23_trello-inbox.png" alt="2012_10_23_trello-inbox" width="900" /></a>
 
 
 ## Who's Hiring
@@ -104,14 +104,14 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='http://www.ashg.org/2012meeting/pages/workshops.shtml'><img src='/Images/Logos/ASHG2012Logo.png' alt='ASHG 2012' height="100" /></a>&nbsp;
-<a href='http://meetings.cshl.edu/courses13.html'><img src='/Images/Logos/CSHLLogo.jpg' alt='CSHL' height="100" /></a>
-<a href='http://www.intlpag.org/'><img src='/Images/Logos/PAGLogo114.png' alt='Plant and Animal Genome (PAG 2013)' /></a>
+<a href='http://www.ashg.org/2012meeting/pages/workshops.shtml'><img src="/src/Images/Logos/ASHG2012Logo.png" alt="ASHG 2012" height="100" /></a>&nbsp;
+<a href='http://meetings.cshl.edu/courses13.html'><img src="/src/Images/Logos/CSHLLogo.jpg" alt="CSHL" height="100" /></a>
+<a href='http://www.intlpag.org/'><img src="/src/Images/Logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2013)" /></a>
 </div>
 
 ### Deadlines
 
-<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> 
+<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
 
 There are November application, poster, and paper deadlines for 
 * ICG & Bio-IT APAC 2012 abstract and poster deadlines (Oct 31 and Nov 15)
@@ -136,13 +136,13 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> October 28 - November 2 </th>
     <td> <em><a href='http://conference.eresearch.edu.au/eres2012/workshops/'>Genomic Virtual Laboratory Workshop</a></em> </td>
     <td> <a href='http://conference.eresearch.edu.au/'>eResearch Australasia</a>, Sydney, Australia </td>
-    <td> <a href='/EnisAfgan'>Enis Afgan</a> </td>
+    <td> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th rowspan=2 style=" text-align:center;"> November 6-10 </th>
     <td> <em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#9'>Galaxy 101: Data Integration, Analysis and Sharing</a></em><div class='indent red'>Sold out</div> </td>
     <td rowspan=2 style=" text-align:center;"> </strong><a href='http://www.ashg.org/2012meeting/'>American Society of Human Genetics (ASHG)</a><strong>, San Francisco, California, United States </td>
-    <td rowspan=2 style=" text-align:center;"> <a href='/JenniferJackson'>Jennifer Jackson</a>, <a href='/JeremyGoecks'>Jeremy Goecks</a> </td>
+    <td rowspan=2 style=" text-align:center;"> <a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a>, <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#12'>Working with High-Throughput Data and Data Visualization</a></em><div class='indent red'>Sold out</div> </td>
@@ -163,7 +163,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> November 28 - December 4  </th>
     <td> <em><a href='http://fasta.bioch.virginia.edu/cshl/'>Computaional & Comparative Genomics Course</a></em><div class='indent'>This was rescheduled due to hurricane Sandy</div> </td>
     <td> <a href='http://www.cshl.edu/'>Cold Spring Harbor Laboratory</a>, New York, United States </td>
-    <td> <a href='http://www.cs.virginia.edu/brochure/profs/pearson.html'>William Pearson</a>, <a href='/JamesTaylor'>James Taylor</a> </td>
+    <td> <a href='http://www.cs.virginia.edu/brochure/profs/pearson.html'>William Pearson</a>, <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr class="th" >
     <th colspan=4> </th>
@@ -172,7 +172,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> January 12-16 </th>
     <td> </strong><a href='http://www.intlpag.org/'>Plant and Animal Genome (PAG 2013)</a><strong> </td>
     <td> San Diego, California, United States </td>
-    <td> <a href='/DaveClements'>Dave Clements</a> </td>
+    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 28 - February 1 </th>
@@ -182,7 +182,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> </strong><em><a href='/Events/GCC2013'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
+    <td> </strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -202,7 +202,7 @@ Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2
 
 ## New Distributions
 
-The **[October 23, 2012 distribution](/src/DevNewsBriefs/2012_10_23/index.md)** includes an **[important security fix](/src/DevNewsBriefs/2012_10_23/index.md#compute_tool_security_fix)**; integration with a [new Trello Issue Board](/src/DevNewsBriefs/2012_10_23/index.md#new_trello_issue_board); [Tool Shed](/Tool Shed) direct updates; [API](/src/DevNewsBriefs/2012_10_23/index.md#api) fixes, tuneups, and brand-new methods to control libraries; multiple [Admin](/src/DevNewsBriefs/2012_10_23/index.md#source) changes enable better access to user data to solve problems; and updates to the [Visualization](/src/DevNewsBriefs/2012_10_23/index.md#visualization_framework) tool set cover Trackster, Circster, and the new Scatter Plot tool.  
+The **[October 23, 2012 distribution](/src/DevNewsBriefs/2012_10_23/index.md)** includes an **[important security fix](/src/DevNewsBriefs/2012_10_23/index.md#compute_tool_security_fix)**; integration with a [new Trello Issue Board](/src/DevNewsBriefs/2012_10_23/index.md#new_trello_issue_board); [Tool Shed](/src/Tool Shed/index.md) direct updates; [API](/src/DevNewsBriefs/2012_10_23/index.md#api) fixes, tuneups, and brand-new methods to control libraries; multiple [Admin](/src/DevNewsBriefs/2012_10_23/index.md#source) changes enable better access to user data to solve problems; and updates to the [Visualization](/src/DevNewsBriefs/2012_10_23/index.md#visualization_framework) tool set cover Trackster, Circster, and the new Scatter Plot tool.  
 
 The **[October 5, 2012 distribution](/src/DevNewsBriefs/2012_10_05/index.md)** included [migrating BWA](/src/DevNewsBriefs/2012_10_05/index.md#bwa_migration_to_tool_shed) to the [Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/), accessible tool versions in the UI, and new exit code features enable [clearer experimental tracking and ease reproducibility](/src/DevNewsBriefs/2012_10_05/index.md#tools).  This release also includes [Visualization](/src/DevNewsBriefs/2012_10_05/index.md#visualization_framework) updates, a new admin tool for [PostgreSQL dataset cleanup](/src/DevNewsBriefs/2012_10_05/index.md#dataset_cleanup), and improvements in [API](/src/DevNewsBriefs/2012_10_05/index.md#ap), [Workflow](/src/DevNewsBriefs/2012_10_05/index.md#workflows),  and [Security](/src/DevNewsBriefs/2012_10_05/index.md#security_fixes) components.
 
@@ -214,4 +214,5 @@ The **[October 5, 2012 distribution](/src/DevNewsBriefs/2012_10_05/index.md)** i
 * Slides for [5 other Galaxy related events](/src/Events/index.md#a2012) in October are also now available.
 * [workflow-to-galaxy (0.3.4) @ RubyGems.org](http://rubygems.org/gems/workflow-to-galaxy): Acquires information for a taverna 2 workflow from myExperiment (or from a file) and generates a Galaxy tool (`.xml` and `.rb` files).
 * American Internet Services (AIS) unveils [Life Sciences SaaS](http://bloom.bg/TQEcGz), featuring Galaxy 
-* The **[Tool Shed Wiki](/Tool Shed)** wiki has been re-written with a new, cleaner presentation. And check out all the [new features](/src/DevNewsBriefs/2012_10_05/index.md#tool_shed)!
+* The **[Tool Shed Wiki](/src/Tool Shed/index.md)** wiki has been re-written with a new, cleaner presentation. And check out all the [new features](/src/DevNewsBriefs/2012_10_05/index.md#tool_shed)!
+

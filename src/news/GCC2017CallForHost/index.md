@@ -1,13 +1,10 @@
----
-date: 2015-09-14T17:19:57Z
----
 <div class='newsItemHeader'>[GCC2017 Call for Host Proposals](/src/News/GCC2017CallForHost/index.md)</div>
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/GCC2011'><img src='/Events/GCC2011Logo400.png' alt='' width="200" /></a>&nbsp;&nbsp; <br /><br /><a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='2012 Galaxy Community Conference' width="190" /></a>&nbsp;&nbsp;&nbsp; </td>
-    <td style=" text-align: center; border: none;"> <a href='/Events/GCC2014'><img src='/Images/Logos/GCC2014LogoWide200.png' alt='GCC2014, June 30-July2' width="220" /></a>&nbsp;&nbsp;&nbsp;<br /><br /> <a href='/Events/GCC2013'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="220px" /></a>&nbsp;&nbsp;&nbsp;  </td>
-    <td style=" text-align: center; border: none;"> <a href='http://gcc2015.tsl.ac.uk/'><img src='/Images/Logos/GCC2015LogoWide600.png' alt='2015 Galaxy Community Conference (GCC2015)' width="200" /></a><br /><br /><a href='http://galaxyproject.org/GCC2016'><img src='/Images/Logos/GCC2016LogoBig.png' alt='2016 Galaxy Community Conference (GCC2016)' width="220px" /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/GCC2011/index.md'><img src="/src/Events/GCC2011Logo400.png" alt="" width="200" /></a>&nbsp;&nbsp; <br /><br /><a href='/src/Events/GCC2012/index.md'><img src="/src/Events/GCC2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" width="190" /></a>&nbsp;&nbsp;&nbsp; </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2014/index.md'><img src="/src/Images/Logos/GCC2014LogoWide200.png" alt="GCC2014, June 30-July2" width="220" /></a>&nbsp;&nbsp;&nbsp;<br /><br /> <a href='/src/Events/GCC2013/index.md'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="220px" /></a>&nbsp;&nbsp;&nbsp;  </td>
+    <td style=" text-align: center; border: none;"> <a href='http://gcc2015.tsl.ac.uk/'><img src="/src/Images/Logos/GCC2015LogoWide600.png" alt="2015 Galaxy Community Conference (GCC2015)" width="200" /></a><br /><br /><a href='http://galaxyproject.org/GCC2016'><img src="/src/Images/Logos/GCC2016LogoBig.png" alt="2016 Galaxy Community Conference (GCC2016)" width="220px" /></a> </td>
   </tr>
   <tr>
     <td colspan=3 style=" text-align: center; border: none;"> <div class='solid red'> <span style="font-size: larger;"> <strong>GCC2017 needs a host!</strong><br /></span> <span style="font-size: smaller;">(and a logo) <br />(<a href='https://gcc2017.sciencesconf.org/'>and we found both!</a>)</span> </td>
@@ -42,11 +39,12 @@ What do you need to host GCC2017, you ask?  In approximately decreasing order of
 
 Hosts get copious (and enthusiastic) organizational support from Galaxy's Outreach Team (who have been helping to organize GCC since 2011), and even more copious gratitude (even *adulation!)* from the Galaxy Community.  
 
-See the **[full call for host proposals](ATTACHMENT_URLDocuments/GCC2016CallForHosts.pdf)** for more details on what should be covered in proposals.  Proposals are due by the end of ~~30 October~~ **30 November 2015**. If you are interested in possibly hosting GCC2017 then please contact [outreach@galaxyproject.org](Galaxy Outreach) with any questions.  Our goal is to announce GCC2017 at GCC2016 this coming June.
+See the **[full call for host proposals](ATTACHMENT_URLDocuments/GCC2016CallForHosts.pdf)** for more details on what should be covered in proposals.  Proposals are due by the end of ~~30 October~~ **30 November 2015**. If you are interested in possibly hosting GCC2017 then please contact [mailto:outreach@galaxyproject.org](Galaxy Outreach) with any questions.  Our goal is to announce GCC2017 at GCC2016 this coming June.
 
 Hoping to work with you in 2017!
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-09-14</div>
 
 CategoryNews

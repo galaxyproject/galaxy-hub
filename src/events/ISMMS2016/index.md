@@ -1,7 +1,7 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://icahn.mssm.edu/'><img src='/Images/Logos/ISMMSLogo.jpg' alt='Icahn School of Medicine at Mount Sinai'  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://icahn.mssm.edu/'><img src="/src/Images/Logos/ISMMSLogo.jpg" alt="Icahn School of Medicine at Mount Sinai"  /></a> </td>
   </tr>
 </table>
 
@@ -22,6 +22,7 @@ Location: Large Classroom (Thursday), Small Classroom (Friday)<br /> [Levy Libra
 Registration is free and open to any member of the ISMMS community. Space is available on a first-come, first served basis. Registration is now open.  Please contact [Andrew Sharp](http://www.mountsinai.org/profiles/andrew-j-null-sharp) or [Stuart Scott](http://www.mountsinai.org/profiles/stuart-scott) for the link.
 
 ## Audience
+
 Are you a life scientist who needs to do complex analysis on large datasets?
 
 Galaxy is an open, web-based platform for data intensive life science research that enables non-bioinformaticians to create, run, tune, and share their own bioinformatic analyses.
@@ -80,9 +81,9 @@ No programming or Linux command line experience is required.
 
 
 <div class='right'><br />
-<a href='http://icahn.mssm.edu/'><img src='/Images/Logos/ISMMSLogo.jpg' alt='Icahn School of Medicine at Mount Sinai' width="220" /></a><br />
-<a href='http://www.nih.gov/'><img src='/Images/Logos/NIHwithTagline.png' alt='National Institutes of Health (NIH)' width="220" /></a><br /><br />
-<div class='right'><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' width="120" /></a></div></div>
+<a href='http://icahn.mssm.edu/'><img src="/src/Images/Logos/ISMMSLogo.jpg" alt="Icahn School of Medicine at Mount Sinai" width="220" /></a><br />
+<a href='http://www.nih.gov/'><img src="/src/Images/Logos/NIHwithTagline.png" alt="National Institutes of Health (NIH)" width="220" /></a><br /><br />
+<div class='right'><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a></div></div>
 
 ## Support
 
@@ -98,4 +99,4 @@ We [need it](http://bit.ly/ISMMS16)!
 
 ## Questions?
 
-Contact [Andrew Sharp](http://www.mountsinai.org/profiles/andrew-j-null-sharp),[Stuart Scott](http://www.mountsinai.org/profiles/stuart-scott), or [outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [Andrew Sharp](http://www.mountsinai.org/profiles/andrew-j-null-sharp),[Stuart Scott](http://www.mountsinai.org/profiles/stuart-scott), or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).

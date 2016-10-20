@@ -9,11 +9,10 @@ title:  Galaxy Project Workshop 2015
 
 **[http://galaxyproject.org](http://galaxyproject.org)**
 
-1. Galaxy [/Main](/src/Main/index.md)
+1. Galaxy [Main](/src/Main/index.md)
 1. Ways to use Galaxy explained in [Choices](/src/BigPicture/Choices/index.md)
 1. [Tool Shed Wiki](/src/ToolShed/index.md) and Main Tool Shed at [http://usegalaxy.org/toolshed](http://usegalaxy.org/toolshed)
-1. More resources at [/Learn](/src/Learn/index.md), [/Support](/src/Support/index.md), [/Teach](/src/Teach/index.md), and [Galaxy Biostars](https://biostar.usegalaxy.org/) (linked access: [/Support/Biostar](/src/Support/Biostar/index.md))
-
+1. More resources at [Learn](/src/Learn/index.md), [Support](/src/Support/index.md), [Teach](/src/Teach/index.md), and [Galaxy Biostars](https://biostar.usegalaxy.org/) (linked access: [Support/Biostar](/src/Support/Biostar/index.md))
 
 # Basic Analysis with Galaxy
 
@@ -42,14 +41,13 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/revised-galaxy-variant
 1. Homework:
   1. upload a SNP reference dataset, compare to the VCF datasets, and see if any of the polymorphic variants are annotated 
 
-
 # RNA-seq Examples
 
 Differential Expression using Tuxedo pipeline: Known vs Novel splice variants
 
-Review the source tutorial overview under [/Teach](/src/Teach/index.md) named *[/Teach/Resource/GVL-RNA-SeqTutorial](/src/Teach/Resource/GVL-RNA-SeqTutorial/index.md)*. This summary points to the full exercise created by the *[Genomics Virtual Lab (GVL)](https://docs.google.com/document/pub?id=1KbTiBHtvHLfPRZ39AY3uriazrINA8TJzgjjwn1zPP7Y)*
+Review the source tutorial overview under [Teach](/src/Teach/index.md) named *[Teach/Resource/GVL-RNA-SeqTutorial](/src/Teach/Resource/GVL-RNA-SeqTutorial/index.md)*. This summary points to the full exercise created by the *[Genomics Virtual Lab (GVL)](https://docs.google.com/document/pub?id=1KbTiBHtvHLfPRZ39AY3uriazrINA8TJzgjjwn1zPP7Y)*
 
-Wikis: [/Support#tools_on_the_main_server_rna-seq](/src/Support/index.md#tools_on_the_main_server_rna-seq) and several others under [/Learn#other_tutorials](/src/Learn/index.md#other_tutorials)
+Wikis: [Support](/src/Support/index.md#tools_on_the_main_server_rna-seq) and several others under [Learn](/src/Learn/index.md#other_tutorials)
 
 ## Known Protocol
 
@@ -105,7 +103,6 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/gvl-rna-seq-dm3-known]
       * use *Set Additional Parameters*
         * set *Average Fragment Length* as *70*
         * set *Fragment Length Standard Deviation* as *2* (or *0*)
-   
 
 ## Novel Protocol
 
@@ -199,7 +196,7 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/gvl-rna-seq-dm3-compar
 
 Polish Workflows in the editor by including annotation and variables. Learn how to customize tool panel display and tune parameters within the editor. 
 
-Wikis: [/Learn/AdvancedWorkflow](/src/Learn/AdvancedWorkflow/index.md) and [/Learn/AdvancedWorkflow/Extract](/src/Learn/AdvancedWorkflow/Extract/index.md) and [/Learn/AdvancedWorkflow/BasicEditing](/src/Learn/AdvancedWorkflow/BasicEditing/index.md)
+Wikis: [Learn/AdvancedWorkflow](/src/Learn/AdvancedWorkflow/index.md) and [Learn/AdvancedWorkflow/Extract](/src/Learn/AdvancedWorkflow/Extract/index.md) and [Learn/AdvancedWorkflow/BasicEditing](/src/Learn/AdvancedWorkflow/BasicEditing/index.md)
 
 ## Protocol
 
@@ -218,7 +215,7 @@ Starting History [https://usegalaxy.org/u/usinggalaxy2/h/workflow0](https://useg
 
 ## Navigating Datasets and Histories
 
-Wikis: [/Histories](/src/Histories/index.md) and [/Learn/ManagingDatasets](/src/Learn/ManagingDatasets/index.md)
+Wikis: [Histories](/src/Histories/index.md) and [Learn/ManagingDatasets](/src/Learn/ManagingDatasets/index.md)
 
 1. History menu *Copy History* (use *RNA-seq Novel*)
   1. click on link to new copy
@@ -271,6 +268,7 @@ Wikis: [/Histories](/src/Histories/index.md) and [/Learn/ManagingDatasets](/src/
   1. *Advanced search* as *all* to show status
 
 ## Sharing and Publishing
+
  
 1. Saved Histories *Tags* History 
   1. pull-down menu *Share or Publish* 
@@ -287,10 +285,9 @@ Wikis: [/Histories](/src/Histories/index.md) and [/Learn/ManagingDatasets](/src/
   * unshare from account
 1. Same form and options for Workflows, Pages, and Visualizations 
 
-
 ## Importing
 
-Wikis: [/Support#loading_data](/src/Support/index.md#loading_data)
+Wikis: [Support](/src/Support/index.md#loading_data)
 
 ### Upload
 
@@ -344,8 +341,7 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/import](https://usegal
     * very long descriptions that will likely cause problems if used as a *Custom Reference Genome*
     * we will correct this in the sub-topic *Custom Genomes*
 1. Homework:
-  1. use the pasted BED dataset with the tool *Extract Genomic DNA* to retrieve genomic sequence in fasta format for the specified interval. Example with a custom genome (use built-in for this job):[/Support#tools_on_the_main_server_extract_dna](/src/Support/index.md#tools_on_the_main_server_extract_dna)
-
+  1. use the pasted BED dataset with the tool *Extract Genomic DNA* to retrieve genomic sequence in fasta format for the specified interval. Example with a custom genome (use built-in for this job):[Support](/src/Support/index.md#tools_on_the_main_server_extract_dna)
 
 ### External Sources
 
@@ -396,10 +392,9 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/import](https://usegal
     * click on *Go*
 1. go back to *Analyze Data*
 
-
 ### Shared
 
-Wiki: [/Learn/Share](/Learn/Share)
+Wiki: [Learn/Share](/src/Learn/Share/index.md)
 
 1. share a Workflow with another user
 1. go to *Workflow*
@@ -411,10 +406,9 @@ Wiki: [/Learn/Share](/Learn/Share)
   * share a History, Page, and/or Visualization
   * import other objects under *Shared Data: Published XXX*
 
-
 ## FASTQ Dataset Prep & Troubleshooting
 
-Wiki: [/Support#fastq_datatype_qa](/src/Support/index.md#fastq_datatype_qa)
+Wiki: [Support](/src/Support/index.md#fastq_datatype_qa)
 
 1. History menu *Saved Histories*
 1. History menu *Copy Dataset* 
@@ -424,8 +418,6 @@ Wiki: [/Support#fastq_datatype_qa](/src/Support/index.md#fastq_datatype_qa)
   * examine results: Illumina 1.8+ is the datatype *fastqsanger*
   * meaning: Sanger Phred+33 scaled quality scores
   * click on the pencil icon for each to reach the *Edit Attributes* form 
- 
-
 
 ## Other Dataset Manipulations
 
@@ -435,13 +427,14 @@ BONUS as time allows
 1. *Select content from GTF*: Input iGenome GTF dataset from History *Upload*. Using regular expressions and *Select* tool.
 
 ## Custom Genomes
+
  
-Wikis: [/Support#custom_reference_genome](/src/Support/index.md#custom_reference_genome) and [/Learn/CustomGenomes](/src/Learn/CustomGenomes/index.md)
+Wikis: [Support](/src/Support/index.md#custom_reference_genome) and [Learn/CustomGenomes](/src/Learn/CustomGenomes/index.md)
 
 1. History menu *Saved Histories*
 1. History menu *Copy Dataset* 
   * from ‘’Import’’ check the *!H1N1.fasta* dataset into a new History named *Custom*
-1. using methods from the wiki in the [/Learn/CustomGenomes#troubleshooting](/src/Learn/CustomGenomes/index.md#troubleshooting) section, reformat the dataset
+1. using methods from the wiki in the [Learn/CustomGenomes](/src/Learn/CustomGenomes/index.md#troubleshooting) section, reformat the dataset
   * fasta datasets should be correctly formatted to specification *before* beginning any analysis
 1. Troubleshooting #3 *Extra spaces*
 1. Troubleshooting #6 *Remove description from identifier line*
@@ -449,9 +442,9 @@ Wikis: [/Support#custom_reference_genome](/src/Support/index.md#custom_reference
 1. Homework:
   1. create a workflow that includes all steps and use it whenever a new fasta dataset is loaded for use as a *Custom Genome*
   1. copy the ‘’fastqsanger’’ datasets from the History named ‘’Fastq’’ and map to this genome
-  1. follow the instruction in the wiki [/Learn/CustomGenomes#custom_builds](/src/Learn/CustomGenomes/index.md#custom_builds) to promote the *Custom Genome* to a *Custom Build*
+  1. follow the instruction in the wiki [Learn/CustomGenomes](/src/Learn/CustomGenomes/index.md#custom_builds) to promote the *Custom Genome* to a *Custom Build*
     * assign the new build *database* to all related datasets
-    * *database* assignment is needed to visualize in Trackster using wiki guide [/Learn/Visualization#custom_builds](/src/Learn/Visualization/index.md#custom_builds)
+    * *database* assignment is needed to visualize in Trackster using wiki guide [Learn/Visualization](/src/Learn/Visualization/index.md#custom_builds)
 
 <br /><br />
 

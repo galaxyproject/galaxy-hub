@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: December 03, ,,  2012 Galaxy Development News Brief
+title: December 03, 2012 Galaxy Development News Brief
 ---
 <div class='right'></div>
 
@@ -11,7 +11,7 @@ title: December 03, ,,  2012 Galaxy Development News Brief
 
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
@@ -32,9 +32,9 @@ title: December 03, ,,  2012 Galaxy Development News Brief
 
 The alignment tools **'Bowtie**' and **'Lastz**' from the tool group **NGS: Mapping** have moved from the **[Galaxy distribution](https://bitbucket.org/galaxy/galaxy-dist)** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)**.
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='tool shed' width="150px" /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/Images/Logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 
-Migration scripts for both **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz/)** will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing replacement tool wrappers from the Tool Shed. Primary executables for **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz)** plus target reference genomes should still be installed as described in the Galaxy wiki - start in the **[Tool Dependencies](/Admin/Tools/Tool Dependencies)** section.
+Migration scripts for both **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz/)** will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing replacement tool wrappers from the Tool Shed. Primary executables for **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz)** plus target reference genomes should still be installed as described in the Galaxy wiki - start in the **[Tool Dependencies](/src/Admin/Tools/Tool Dependencies/index.md)** section.
 
 **Bowtie** is an ultrafast, memory-efficient short read aligner. It aligns short DNA sequences (reads) to the human genome at a rate of over 25 million 35-bp reads per hour. Bowtie indexes the genome with a Burrows-Wheeler index to keep its memory footprint small: typically about 2.2 GB for the human genome (2.9 GB for paired-end).
 
@@ -46,6 +46,7 @@ Harris, R.S. (2007) *[Improved pairwise alignment of genomic DNA](http://www.bx.
 
 <br />
 ## New Galaxy CloudMan Release
+
 **[CloudMan](http://usegalaxy.org/cloud)**
 
 CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
@@ -67,7 +68,8 @@ This update comes as a result of 175 code changesets; for a complete list of cha
 
 <br />
 # Tool Shed
-**[/Tool Shed](/Tool Shed)**
+
+**[Tool Shed](/src/Tool Shed/index.md)**
 
 ### Improvements in the display of repository dependencies and contents in the tool shed
 
@@ -77,11 +79,11 @@ The various types of contents of a tool shed repository ( valid tools, invalid t
 
 Notice the "Repository dependencies" container?  This is currently in development, and will be available in the tool shed shortly.  This container displays the list of all repositories int he tool shed upon which this repository depends.
 
-![](/Images/NewsGraphics/2012_12_03_emboss-sample.png)
+![](/src/Images/NewsGraphics/2012_12_03_emboss-sample.png)
 
 Opening each of the above containers (by clicking on the links) displays the contents of each.
 
-![](/Images/NewsGraphics/2012_12_03_emboss-sample-open.png)
+![](/src/Images/NewsGraphics/2012_12_03_emboss-sample-open.png)
 
 </div>
 
@@ -136,7 +138,8 @@ Backups will be made of the `hgweb.config file` (in the same directory in which 
   * Show/Hide Deleted Datasets - a single-click toggle to show or hide all deleted datasets
   * Show/Hide Hidden Datasets - a single-click toggle to show or hide all hidden datasets
   * Unhide Hidden Datasets - a single-click to change state of hidden datasets to that of regular datasets
-![](/Images/NewsGraphics/2012_12_03_new-history-menu.png)
+
+![](/src/Images/NewsGraphics/2012_12_03_new-history-menu.png)
 
 <br />
 # Job Runner
@@ -157,11 +160,12 @@ Backups will be made of the `hgweb.config file` (in the same directory in which 
 4. Fix for `ToolDataTable` new entries that should have been persisted to the `shed_tool_data_table_conf.xml` file were not being handled correctly.
 5. Attempt to make sure `.sample` files included in an installed tool shed repository are copied to the `~/tool-data` directory only if they are sample data index files.
 6. Add error messages for a `DataToolParameter` when the provided value is no longer valid due to be deleted or being in an error state.
-7. Rework "Re-run" ![](/Images/Icons/arrow-circle.png) functionality to validate and display errors between the original job and currently set states (e.g. the previously used dataset has been deleted).
+7. Rework "Re-run" ![](/src/Images/Icons/arrow-circle.png) functionality to validate and display errors between the original job and currently set states (e.g. the previously used dataset has been deleted).
 8. To help with reproducibility, when extracting a workflow from a history, provide a warning message if the tool version for a job does not match the tool version of the currently loaded tool.
 
 <br />
 # Security Fixes
+
 All Galaxy instance maintainers are *strongly encouraged* to run the latest release.
 
 1. Grid filters are now sanitized correctly.
@@ -177,9 +181,9 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 <br />
 # Announcements
 
-[/News](/src/News/index.md), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_12)***
+[News](/src/News/index.md), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_12)***
 
-<div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013Logo200.png' alt='2013 Galaxy Community Conference (GCC2013)' width="175px" /></a></div>
+<div class='right'><a href='/src/Events/GCC2013/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
 
 * [Training Day Topic Nominations](/src/Events/GCC2013/TrainingDay/index.md) for [GCC2013](/src/Events/GCC2013/index.md) will open in December.  Start thinking of ideas now!
 * Slides and Screencast from [November GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md) are online.  The next [GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/index.md) will be on [January 16](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) and feature [John Chilton](/src/JohnChilton/index.md) discussing "Deploying Galaxy on !OpenStack with !CloudBioLinux & CloudMan"
@@ -187,9 +191,10 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 * [Batch Workflow starting using the Galaxy API : Practical Example by Geert Vandeweyer](http://bit.ly/TjTj6X)
 
 <br />
----
+----
 <br />
 # About Galaxy
+
 **[GalaxyProject.org](http://galaxyproject.org)**
 
 The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 

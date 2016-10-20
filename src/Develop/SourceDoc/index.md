@@ -3,7 +3,7 @@ title: Galaxy Source Code Documentation
 ---
 
 
-PLACEHOLDER_INCLUDE(/Develop/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
 
 The Galaxy Project source code documentation is in the code itself.  This is in keeping with the philosophy, that whenever possible, store code doc as close to the code as possible.
 
@@ -11,11 +11,11 @@ This page describes where to find the doc, how to generate it, and how to update
 
 # Published Galaxy Source Code Documentation
 
-<div class='right'><a href='http://readthedocs.org'><img src='/Images/Logos/ReadTheDocsLogo.png' alt='Read the Docs'  /></a></div>
+<div class='right'><a href='http://readthedocs.org'><img src="/src/Images/Logos/ReadTheDocsLogo.png" alt="Read the Docs"  /></a></div>
 
 The Galaxy Project publishes two versions of the Galaxy source code documentation.  Both versions are hosted at [Read the Docs](http://readthedocs.org) a [publicly supported](https://docs.readthedocs.org/en/latest/sponsors.html) site for project documentation.  Galaxy started publishing these two versions with the [November 14, 2012 distribution](/src/DevNewsBriefs/2012_11_14/index.md).
 
-<div class='right'><a href='http://galaxy-dist.readthedocs.org'><img src='/Images/NewsGraphics/2012_11_14_dist-readthedocs.png' alt='Galaxy-Dist at ReadTheDocs' width="250" /></a></div>
+<div class='right'><a href='http://galaxy-dist.readthedocs.org'><img src="/src/Images/NewsGraphics/2012_11_14_dist-readthedocs.png" alt="Galaxy-Dist at ReadTheDocs" width="250" /></a></div>
 
 * **[galaxy.readthedocs.org/en/master](https://galaxy.readthedocs.org/en/master/)**
     This documentation describes the code in the [most recent stable release](/src/DevNewsBriefs/index.md) of Galaxy ("master").
@@ -27,7 +27,7 @@ This documentation is a work in program and should make incremental improvements
 
 # Sphinx
 
-<div class='right'><a href='http://sphinx-doc.org/'><img src='/Images/Logos/SphinxLogo333.png' alt='Sphinx Python Documentation Generator'  /></a></div>
+<div class='right'><a href='http://sphinx-doc.org/'><img src="/src/Images/Logos/SphinxLogo333.png" alt="Sphinx Python Documentation Generator"  /></a></div>
 
 [Read The Docs](http://readthedocs.org) uses [Sphinx](http://sphinx-doc.org/) to generate documentation on classes and methods (and much more) in the code base.  It also includes [Python docstrings](http://www.python.org/dev/peps/pep-0257/) from the code.  Sphinx uses [reStructured Text (RST)](http://sphinx-doc.org/rest.html) with some [Sphinx-specific additions](http://sphinx-doc.org/markup/index.html) for markup.
 
@@ -38,6 +38,7 @@ You can also generate your own copy of the documentation.  You might want to do 
 1. Install Sphinx
 1. Go to the `doc` directory and run Sphinx
     ```
+
 cd doc
 make html
 ```

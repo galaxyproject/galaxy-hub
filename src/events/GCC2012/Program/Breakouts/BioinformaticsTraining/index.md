@@ -2,13 +2,13 @@
 autotoc: true
 title: Bioinformatics Training and Teaching with Galaxy
 ---
-PLACEHOLDER_INCLUDE(/events/GCC2012/PageHeader)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2012/Program/PageHeader/index.md)
 
 
 
 **A [GCC22012](/src/Events/GCC2012/index.md) [Breakout Session](/src/Events/GCC2012/Program/Breakouts/index.md)**
 
-PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2012/Program/LinkBox/index.md)
 <div class='right'></div>
 
 # Participants
@@ -105,7 +105,7 @@ These notes are a rough first grouping of [Dave Clements'](/src/DaveClements/ind
   * slide sharing would be helpful
 * Teach good Galaxy practices
   * Always rename your output files
- 
+
 # Plan of Action
 
 We did not discuss a plan of action at the breakout, but we will here.  

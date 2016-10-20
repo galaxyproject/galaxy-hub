@@ -1,9 +1,6 @@
----
-date: 2012-02-13T19:55:16Z
----
 <div class='newsItemHeader'>[GCC2012 Abstract Submission is Open](/src/News/GCC2012AbstractSubmissionOpen/index.md)</div>
 
-<div class='right'><a href='/Events/GCC2012/Abstracts'><img src='/Events/GCC2012/GCC2012Logo200.png' /></a></div>
+<div class='right'><a href='/src/Events/GCC2012/Abstracts/index.md'><img src="/src/Events/GCC2012/GCC2012Logo200.png" /></a></div>
 
 [Abstracts](/src/Events/GCC2012/Abstracts/index.md) are now being accepted for oral presentations at the [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md).  Submissions on any topics of interest to the Galaxy community are encouraged. Areas of interest include, but are not limited to:
 
@@ -20,5 +17,6 @@ GCC2012 is hosted by the [University of Illinois at Chicago](http://uic.edu/), t
 
 [Dave Clements](/src/DaveClements/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-02-13</div>
 
 CategoryNews

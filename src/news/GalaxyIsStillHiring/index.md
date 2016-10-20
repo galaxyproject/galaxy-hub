@@ -1,6 +1,3 @@
----
-date: 2012-02-29T06:22:57Z
----
 <div class='newsItemHeader'>[Galaxy is Still Hiring!](/src/News/GalaxyIsStillHiring/index.md)</div>
 
 Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, [is hiring](/src/GalaxyIsHiring/index.md).
@@ -8,7 +5,7 @@ Want to work on one of the fastest growing open source bioinformatics projects a
 <br />
 
 <div class='left solid'>
-<a href='http://bx.mathcs.emory.edu/joining/'><img src='/Images/Logos/EmoryLogo.jpg' alt='Openings at Emory' width="200" /></a><br />
+<a href='http://bx.mathcs.emory.edu/joining/'><img src="/src/Images/Logos/EmoryLogo.jpg" alt="Openings at Emory" width="200" /></a><br />
 **[Software Engineers](http://bx.mathcs.emory.edu/joining/sw/) and<br />[Post-Docs](http://bx.mathcs.emory.edu/joining/postdocs/) at [Emory](http://emory.edu/)**
 </div>
 
@@ -20,11 +17,12 @@ We are seeking [software engineers](http://bx.mathcs.emory.edu/joining/sw/) with
 
 <br />
 
-<div class='left solid'><a href='http://www.bx.psu.edu/~anton/'><img src='/Images/Logos/PennStateLogo.jpg' alt='Opening at Penn State' width="200" /></a><br />** Post-Docs at [Penn State](http://psu.edu/)**</div>
+<div class='left solid'><a href='http://www.bx.psu.edu/~anton/'><img src="/src/Images/Logos/PennStateLogo.jpg" alt="Opening at Penn State" width="200" /></a><br />** Post-Docs at [Penn State](http://psu.edu/)**</div>
 
 The [Nekrutenko Lab](http://www.bx.psu.edu/~anton/) at the [Huck Institutes of Life Sciences](http://www.huck.psu.edu/) at [Penn State](http://psu.edu/) is seeking highly opinionated and biologically inclined Postdoctoral researchers within the Galaxy Project to develop best practices for analysis of next-generation sequencing data in all areas of Life Sciences where NGS is used. Successful candidates will join a vibrant research group at the [Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/) at [Penn State University](http://psu.edu/). 
 
-Please send your CV to [jobs AT galaxyproject DOT org](jobs AT galaxyproject DOT org).
+Please send your CV to [mailto:jobs AT galaxyproject DOT org](jobs AT galaxyproject DOT org).
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-02-29</div>
 
 CategoryNews

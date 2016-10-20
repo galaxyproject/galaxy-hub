@@ -2,17 +2,17 @@
 autotoc: true
 title: Organizers
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
 
 
 
 ## Organizing Committee
 
-The GCC2013 Organizing Committee is responsible for event planning.  The Organizing Committee can be reached at [gcc2013 DASH org AT galaxyproject DOT org](gcc2013 DASH org AT galaxyproject DOT org).
+The GCC2013 Organizing Committee is responsible for event planning.  The Organizing Committee can be reached at [mailto:gcc2013 DASH org AT galaxyproject DOT org](gcc2013 DASH org AT galaxyproject DOT org).
 
  **[Nils Damm Christophersen](http://www.mn.uio.no/ifi/english/people/aca/nilsch/index.html)**
   [University of Oslo](http://www.uio.no/)<br /><br />
@@ -29,7 +29,7 @@ The GCC2013 Organizing Committee is responsible for event planning.  The Organiz
 
 The GCC2013 Scientific Committee is responsible for reviewing [talk and poster abstract submissions](/src/Events/GCC2013/Abstracts/index.md), selecting and inviting keynote speakers, and reviewing and selecting lightning talk proposals. 
 
-The Scientific Committee can be reached at [gcc2013 DASH sci AT galaxyproject DOT org](gcc2013 DASH sci AT galaxyproject DOT org).
+The Scientific Committee can be reached at [mailto:gcc2013 DASH sci AT galaxyproject DOT org](gcc2013 DASH sci AT galaxyproject DOT org).
 
  **[Nils Damm Christophersen](http://www.mn.uio.no/ifi/english/people/aca/nilsch/index.html)**
    [University of Oslo](http://www.uio.no/)<br /><br />
@@ -42,4 +42,4 @@ The Scientific Committee can be reached at [gcc2013 DASH sci AT galaxyproject DO
  **[James Taylor](/src/JamesTaylor/index.md)**, Committee Chair
    [Emory University](http://emory.edu)
 
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Footer)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Footer/index.md)

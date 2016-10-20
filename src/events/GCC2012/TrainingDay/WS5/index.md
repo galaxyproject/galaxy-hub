@@ -3,12 +3,11 @@
 * [universe_wsgi.ini modified with all of the changes below](ATTACHMENT_URLDocuments/Presentations/GCC2012/WS5/universe_wsgi.ini)
 * [Slides](ATTACHMENT_URLDocuments/Presentations/GCC2012/WS5_InstallingYourOwn.pdf)
 
-Documentation for all of these features is at [/Admin/Config/Performance/ProductionServer](/src/Admin/Config/Performance/ProductionServer/index.md).
+Documentation for all of these features is at [Admin/Config/Performance/ProductionServer](/src/Admin/Config/Performance/ProductionServer/index.md).
 
 ## Create a new user for Galaxy
 
-```
-#!highlight console
+```console
 trainingday@trainingday:~$ sudo -i
 [sudo] password for trainingday: 12345
 root@trainingday:~# useradd -m -s /bin/bash galaxy
@@ -18,8 +17,7 @@ root@trainingday:~#
 
 ## Install Mercurial
 
-```
-#!highlight console
+```console
 root@trainingday:~# apt-get install mercurial
 Reading package lists... Done
 Building dependency tree       
@@ -50,8 +48,7 @@ root@trainingday:~#
 
 ## Clone the Galaxy Distribution
 
-```
-#!highlight console
+```console
 root@trainingday:~# su - galaxy
 galaxy@trainingday:~$ hg clone https://bitbucket.org/galaxy/galaxy-dist/
 destination directory: galaxy-dist
@@ -71,8 +68,7 @@ If you were following along in the workshop, we cloned from `~trainingday/galaxy
 
 ## Configure Galaxy
 
-```
-#!highlight console
+```console
 galaxy@trainingday:~/galaxy-dist$ cp universe_wsgi.ini.sample universe_wsgi.ini
 galaxy@trainingday:~/galaxy-dist$ vim universe_wsgi.ini
 ```
@@ -80,17 +76,17 @@ galaxy@trainingday:~/galaxy-dist$ vim universe_wsgi.ini
 
 I changed the following settings:
 
-* `database_connection = postgres:///galaxy?host=/var/run/postgresql` - Use a PostgreSQL database via a local UNIX domain socket (the socket is in /var/run/postgresql).  Details on this URL syntax are at [/Admin/Config/Performance/ProductionServer](/src/Admin/Config/Performance/ProductionServer/index.md) under the "Switching to a database server" section.
+* `database_connection = postgres:///galaxy?host=/var/run/postgresql` - Use a PostgreSQL database via a local UNIX domain socket (the socket is in /var/run/postgresql).  Details on this URL syntax are at [Admin/Config/Performance/ProductionServer](/src/Admin/Config/Performance/ProductionServer/index.md) under the "Switching to a database server" section.
 * `database_engine_option_server_side_cursors = True` - Keep large SQL query results on the PostgreSQL server, rather the transferring the entire result set to the Galaxy process.
 * `database_engine_option_strategy = threadlocal` - Only use one database connection per thread.
-* `tool_dependency_dir = /home/galaxy/tool-deps` - The directory that will house tool dependencies.  [/Admin/Config/Tool Dependencies](/Admin/Config/Tool Dependencies) explains how these dependencies can be configured.  Tools installed from the tool shed that manage their own dependencies (e.g. freebayes) will also use this directory.
+* `tool_dependency_dir = /home/galaxy/tool-deps` - The directory that will house tool dependencies.  [Admin/Config/Tool Dependencies](/src/Admin/Config/Tool Dependencies/index.md) explains how these dependencies can be configured.  Tools installed from the tool shed that manage their own dependencies (e.g. freebayes) will also use this directory.
 * `debug = False` - Disables debugging middleware that loads server responses in to memory (can crash the server when handling large files).
 * `use_interactive = False` - Disables live client browser debugging (insecure).
-* `library_import_dir = /home/galaxy/import` - Administrators can directly import datasets from this directory on the server to Data Libraries.  This includes an option that allows an effective "symlink" to the data, rather than copying it in to Galaxy's `file_path` directory.  Documented at [/Admin/DataLibraries/UploadingLibraryFiles](/src/Admin/DataLibraries/UploadingLibraryFiles/index.md).
+* `library_import_dir = /home/galaxy/import` - Administrators can directly import datasets from this directory on the server to Data Libraries.  This includes an option that allows an effective "symlink" to the data, rather than copying it in to Galaxy's `file_path` directory.  Documented at [Admin/DataLibraries/UploadingLibraryFiles](/src/Admin/DataLibraries/UploadingLibraryFiles/index.md).
 * `user_library_import_dir = /home/galaxy/user-import` - Non-administrators can directly import datasets from this directory on this server to Data Libraries from which they have been given write permission.  Documented at the same link as above.
 * `allow_library_path_paste = True` - Administrators can import datasets from anywhere on the server's filesystem(s) by entering their paths in to a textarea.
 * `id_secret = <random text>` - Ensures that the encoded IDs used by Galaxy (especially session IDs) are unique.  One simple way to generate a value for this is with a shell command like `% date | md5sum`
-* `use_remote_user` and `remote_user_maildomain` - I did not enable these, but this is how users can use your institution's existing authentication system to log in to Galaxy.  Documentation is specific to [/Admin/Config/Apache Proxy](/Admin/Config/Apache Proxy) or [/Admin/Config/Performance/nginx Proxy](/Admin/Config/Performance/nginx Proxy).
+* `use_remote_user` and `remote_user_maildomain` - I did not enable these, but this is how users can use your institution's existing authentication system to log in to Galaxy.  Documentation is specific to [Admin/Config/Apache Proxy](/src/Admin/Config/Apache Proxy/index.md) or [Admin/Config/Performance/nginx Proxy](/src/Admin/Config/Performance/nginx Proxy/index.md).
 * `admin_users = nate@example.org` - Make nate@example.org an administrator.  Galaxy's Admin UI is only accessible if you define administrators here!
 * `allow_user_impersonation = True` - Users configured as administrators (with `admin_users`) can "become" other users to view Galaxy exactly as the impersonated user does.  Useful for providing support.
 * `allow_user_dataset_purge = True` - Allow users to forcibly remove their datasets from disk (note that the data is only actually removed if all versions of a shared dataset are purged by all users who are sharing the dataset).  By default, Galaxy does not remove data, as this is done at a later time by the dataset cleanup scripts (discussed below).
@@ -99,8 +95,7 @@ I changed the following settings:
 
 ## Install PostgreSQL
 
-```
-#!highlight console
+```console
 galaxy@trainingday:~/galaxy-dist$ exit
 logout
 root@trainingday:~# apt-get install postgresql
@@ -153,6 +148,7 @@ Moving configuration file /var/lib/postgresql/9.1/main/pg_ident.conf to /etc/pos
 Configuring postgresql.conf to use port 5432...
 update-alternatives: using /usr/share/postgresql/9.1/man/man1/postmaster.1.gz to provide /usr/share/man/man1/postmaster.1.gz (postmaster.1.gz) in auto mode.
 * Starting PostgreSQL 9.1 database server                               [ OK ] 
+
 Setting up postgresql (9.1+129) ...
 Processing triggers for libc-bin ...
 ldconfig deferred processing now taking place
@@ -162,8 +158,7 @@ root@trainingday:~#
 
 ## Create PostgreSQL user and database
 
-```
-#!highlight console
+```console
 root@trainingday:~# su - postgres
 postgres@trainingday:~$ createuser galaxy
 Shall the new role be a superuser? (y/n) n
@@ -178,8 +173,7 @@ postgres@trainingday:~$
 
 This is necessary because `run.sh` contains a number of setup steps that need to happen before Galaxy starts the first time.
 
-```
-#!highlight console
+```console
 postgres@trainingday:~$ exit
 logout
 root@trainingday:~# su - galaxy
@@ -195,8 +189,7 @@ galaxy@trainingday:~/galaxy-dist$
 
 ## Install an init script to start Galaxy automatically
 
-```
-#!highlight console
+```console
 galaxy@trainingday:~/galaxy-dist$ exit
 logout
 root@trainingday:~# cd /etc/init.d
@@ -206,8 +199,7 @@ root@trainingday:/etc/init.d# vim galaxy
 
 In `/etc/init.d/galaxy`, paste the following:
 
-```
-#!highlight bash
+```bash
 #!/bin/bash
 
 # Author: James Casbon, 2009
@@ -268,14 +260,14 @@ case "${1:-*}" in
     echo "Usage: $SELF start|stop|restart|reload|force-reload|status"
       exit 1
       ;;
+
 esac
 ```
 
 
 Once saved, continue with:
 
-```
-#!highlight console
+```console
 root@trainingday:/etc/init.d# chmod +x galaxy
 root@trainingday:/etc/init.d# update-rc.d galaxy defaults
  Adding system startup for /etc/init.d/galaxy ...
@@ -292,10 +284,10 @@ root@trainingday:/etc/init.d#
 
 ## Start Galaxy from the init script
 
-```
-#!highlight console
+```console
 root@trainingday:/etc/init.d# /etc/init.d/galaxy start
   * Starting Galaxy main                                                  [ OK ] 
+
 root@trainingday:/etc/init.d# 
 ```
 
@@ -306,8 +298,7 @@ Galaxy can now be accessed at http://localhost:8080/
 
 Note that under Debian/Ubuntu, `nginx-extras` contains 3rd party modules, including the nginx_upload_module, which we need for the advanced nginx config.  This module may also be available in nginx packages for Fedora-based distributions, but if not, you may have to compile nginx by hand to get the upload module.
 
-```
-#!highlight console
+```console
 root@trainingday:/etc/init.d# apt-get install nginx-extras
 Reading package lists... Done
 Building dependency tree       
@@ -344,10 +335,9 @@ root@trainingday:/etc/init.d#
 
 ## Configure and start nginx
 
-The configuration of proxy servers is explained in the wiki at [/Admin/Config/Performance/nginx Proxy](/Admin/Config/Performance/nginx Proxy) and [/Admin/Config/Apache Proxy](/Admin/Config/Apache Proxy).
+The configuration of proxy servers is explained in the wiki at [Admin/Config/Performance/nginx Proxy](/src/Admin/Config/Performance/nginx Proxy/index.md) and [Admin/Config/Apache Proxy](/src/Admin/Config/Apache Proxy/index.md).
 
-```
-#!highlight console
+```console
 root@trainingday:/etc/init.d# cd /etc/nginx/sites-available/
 root@trainingday:/etc/nginx/sites-available# vim galaxy
 ```
@@ -355,8 +345,7 @@ root@trainingday:/etc/nginx/sites-available# vim galaxy
 
 In `/etc/nginx/sites-available/galaxy`, paste the following:
 
-```
-#!highlight nginx
+```nginx
 # this file is included inside http {}
 
 # gzip is enabled in nginx.conf, but these override some of the other gzip defaults
@@ -437,8 +426,7 @@ server {
 
 Once saved, continue with:
 
-```
-#!highlight console
+```console
 root@trainingday:/etc/nginx/sites-available# cd ../sites-enabled/
 root@trainingday:/etc/nginx/sites-enabled# rm default 
 root@trainingday:/etc/nginx/sites-enabled# ln -s /etc/nginx/sites-available/galaxy 
@@ -449,24 +437,21 @@ root@trainingday:/etc/nginx# vim nginx.conf
 
 In `/etc/nginx/nginx.conf`, change the first line:
 
-```
-#!highlight nginx
+```nginx
 user www-data;
 ```
 
 
 To:
 
-```
-#!highlight nginx
+```nginx
 user galaxy;
 ```
 
 
 Once saved, continue with:
 
-```
-#!highlight console
+```console
 root@trainingday:/etc/nginx# /etc/init.d/nginx start
 Starting nginx: nginx.
 root@trainingday:/etc/nginx# 
@@ -477,8 +462,7 @@ Galaxy can now be accessed at http://localhost/
 
 ## Configure Galaxy for nginx upload/download
 
-```
-#!highlight console
+```console
 root@trainingday:/etc/nginx# su - galaxy
 galaxy@trainingday:~$ cd galaxy-dist/
 galaxy@trainingday:~/galaxy-dist$ vim universe_wsgi.ini
@@ -493,21 +477,20 @@ In `universe_wsgi.ini`, set the following:
 
 Once saved, continue with:
 
-```
-#!highlight console
+```console
 galaxy@trainingday:~/galaxy-dist$ exit
 logout
 root@trainingday:/etc/nginx# /etc/init.d/galaxy restart
 * Stopping Galaxy main                                                  [ OK ] 
 * Starting Galaxy main                                                  [ OK ] 
+
 root@trainingday:/etc/nginx# 
 ```
 
 
 ## Install ProFTPd
 
-```
-#!highlight console
+```console
 root@trainingday:/etc/nginx# apt-get install proftpd proftpd-mod-pgsql
 Reading package lists... Done
 Building dependency tree       
@@ -545,6 +528,7 @@ Adding new user `ftp' (UID 110) with group `nogroup' ...
 Creating home directory `/srv/ftp' ...
 `/usr/share/proftpd/templates/welcome.msg' -> `/srv/ftp/welcome.msg.proftpd-new'
 * Starting ftp server proftpd                                                  trainingday proftpd[7609]: mod_tls/2.4.3: compiled using OpenSSL version 'OpenSSL 1.0.0e 6 Sep 2011' headers, but linked to OpenSSL version 'OpenSSL 1.0.1 14 Mar 2012' library
+
 trainingday proftpd[7609]: mod_sftp/0.9.8: compiled using OpenSSL version 'OpenSSL 1.0.0e 6 Sep 2011' headers, but linked to OpenSSL version 'OpenSSL 1.0.1 14 Mar 2012' library
 trainingday proftpd[7609]: mod_tls_memcache/0.1: notice: unable to register 'memcache' SSL session cache: Memcache support not enabled
                                                                          [ OK ]
@@ -583,10 +567,9 @@ When prompted by `debconf` with the following question, select `standalone`:
 
 ## Configure ProFTPd
 
-The configuration of ProFTPd is explained in the wiki at [/Admin/Config/Upload via FTP](/Admin/Config/Upload via FTP).
+The configuration of ProFTPd is explained in the wiki at [Admin/Config/Upload via FTP](/src/Admin/Config/Upload via FTP/index.md).
 
-```
-#!highlight console
+```console
 root@trainingday:/etc/nginx# cd /etc/proftpd/
 root@trainingday:/etc/proftpd# vim modules.conf 
 ```
@@ -594,8 +577,7 @@ root@trainingday:/etc/proftpd# vim modules.conf
 
 In `/etc/proftpd/modules.conf`, uncomment the following 3 directives:
 
-```
-#!highlight apache
+```apache
 LoadModule mod_sql.c
 LoadModule mod_sql_postgres.c
 LoadModule mod_sql_passwd.c
@@ -604,16 +586,14 @@ LoadModule mod_sql_passwd.c
 
 Once saved, continue with:
 
-```
-#!highlight console
+```console
 root@trainingday:/etc/proftpd# vim proftpd.conf 
 ```
 
 
 In `/etc/proftpd/proftpd.conf`, change:
 
-```
-#!highlight apache
+```apache
 User                            proftpd
 Group                           nogroup
 ```
@@ -621,8 +601,7 @@ Group                           nogroup
 
 To:
 
-```
-#!highlight apache
+```apache
 User                            galaxy
 Group                           galaxy
 ```
@@ -630,8 +609,7 @@ Group                           galaxy
 
 Once saved, continue with:
 
-```
-#!highlight console
+```console
 root@trainingday:/etc/proftpd# cd conf.d
 root@trainingday:/etc/proftpd/conf.d# vim galaxy.conf
 ```
@@ -639,8 +617,7 @@ root@trainingday:/etc/proftpd/conf.d# vim galaxy.conf
 
 In `/etc/proftpd/conf.d/galaxy.conf`, paste the following:
 
-```
-#!highlight apache
+```apache
 # Cause every FTP user to be "jailed" (chrooted) into their home directory
 DefaultRoot                     ~
 
@@ -688,8 +665,7 @@ SQLNamedQuery                   LookupGalaxyUser SELECT "email,password,'1001','
 
 Once saved, continue with:
 
-```
-#!highlight console
+```console
 root@trainingday:/etc/proftpd/conf.d# mkdir -p /var/lib/proftpd/empty
 root@trainingday:/etc/proftpd/conf.d# su - galaxy
 galaxy@trainingday:~$ cd galaxy-dist/
@@ -704,19 +680,20 @@ In `universe_wsgi.ini`, set the following:
 
 Once saved, continue with:
 
-```
-#!highlight console
+```console
 galaxy@trainingday:~/galaxy-dist$ exit
 logout
 root@trainingday:/etc/proftpd/conf.d# /etc/init.d/proftpd restart
 * Stopping ftp server proftpd                                           [ OK ] 
 * Starting ftp server proftpd                                                  trainingday proftpd[7908]: mod_tls/2.4.3: compiled using OpenSSL version 'OpenSSL 1.0.0e 6 Sep 2011' headers, but linked to OpenSSL version 'OpenSSL 1.0.1 14 Mar 2012' library
+
 trainingday proftpd[7908]: mod_sftp/0.9.8: compiled using OpenSSL version 'OpenSSL 1.0.0e 6 Sep 2011' headers, but linked to OpenSSL version 'OpenSSL 1.0.1 14 Mar 2012' library
 trainingday proftpd[7908]: mod_tls_memcache/0.1: notice: unable to register 'memcache' SSL session cache: Memcache support not enabled
                                                                          [ OK ]
 root@trainingday:/etc/proftpd/conf.d# /etc/init.d/galaxy restart
 * Stopping Galaxy main                                                  [ OK ] 
 * Starting Galaxy main                                                  [ OK ] 
+
 root@trainingday:/etc/proftpd/conf.d# 
 ```
 
@@ -725,12 +702,11 @@ The warnings can safely be ignored.
 
 ## Configure Galaxy to use Sun Grid Engine
 
-The configuration of Galaxy's cluster interface is explained in the wiki at [/Admin/Config/Performance/Cluster](/src/Admin/Config/Performance/Cluster/index.md).
+The configuration of Galaxy's cluster interface is explained in the wiki at [Admin/Config/Performance/Cluster](/src/Admin/Config/Performance/Cluster/index.md).
 
 A bit of work occurred behind the scenes for this step.  I preinstalled and preconfigured SGE in the VM, since setting up your DRM is outside of the scope of Galaxy configuration.
 
-```
-#!highlight console
+```console
 root@trainingday:/etc/proftpd/conf.d# cd /etc/init.d
 root@trainingday:/etc/init.d# vim galaxy
 ```
@@ -738,8 +714,7 @@ root@trainingday:/etc/init.d# vim galaxy
 
 In `/etc/init.d/galaxy`, add the following to the section at the top where other environment variables are set:
 
-```
-#!highlight bash
+```bash
 DRMAA_LIBRARY_PATH="/usr/lib/libdrmaa.so.1.0"
 SGE_ROOT="/var/lib/gridengine"
 export DRMAA_LIBRARY_PATH SGE_ROOT
@@ -748,8 +723,7 @@ export DRMAA_LIBRARY_PATH SGE_ROOT
 
 Once saved, continue with:
 
-```
-#!highlight console
+```console
 root@trainingday:/etc/init.d# su - galaxy
 galaxy@trainingday:~$ cd galaxy-dist
 galaxy@trainingday:~/galaxy-dist$ vim universe_wsgi.ini
@@ -764,25 +738,25 @@ In `universe_wsgi.ini`, set the following:
 
 Once saved, continue with:
 
-```
-#!highlight console
+```console
 galaxy@trainingday:~/galaxy-dist$ exit
 logout
 root@trainingday:/etc/init.d# /etc/init.d/galaxy restart
 * Stopping Galaxy main                                                  [ OK ] 
 * Starting Galaxy main                                                  [ OK ] 
+
 root@trainingday:/etc/init.d# 
 ```
 
 
 ## Run multiple Galaxy processes
 
-The configuration of scaling with multiple processes is explained in the wiki at [/Admin/Config/Performance/Scaling](/src/Admin/Config/Performance/Scaling/index.md).
+The configuration of scaling with multiple processes is explained in the wiki at [Admin/Config/Performance/Scaling](/src/Admin/Config/Performance/Scaling/index.md).
 
-```
-#!highlight console
+```console
 root@trainingday:/etc/init.d# /etc/init.d/galaxy stop
 * Stopping Galaxy main                                                  [ OK ] 
+
 root@trainingday:/etc/init.d# su - galaxy
 galaxy@trainingday:~$ cd galaxy-dist/
 galaxy@trainingday:~/galaxy-dist$ vim universe_wsgi.ini
@@ -791,8 +765,7 @@ galaxy@trainingday:~/galaxy-dist$ vim universe_wsgi.ini
 
 In `universe_wsgi.ini`, comment out `[server:main]` and all of that section's contents.  Then add the following sections to the top of the file:
 
-```
-#!highlight ini
+```ini
 [server:web0]
 use = egg:Paste#http
 port = 8080
@@ -827,8 +800,7 @@ Further down in the file, set the following:
 
 Once saved, continue with:
 
-```
-#!highlight console
+```console
 galaxy@trainingday:~/galaxy-dist$ exit
 logout
 root@trainingday:/etc/init.d# /etc/init.d/galaxy start
@@ -837,6 +809,7 @@ root@trainingday:/etc/init.d# /etc/init.d/galaxy start
 * Starting Galaxy manager                                               [ OK ] 
 * Starting Galaxy handler0                                              [ OK ] 
 * Starting Galaxy handler1                                              [ OK ] 
+
 root@trainingday:/etc/init.d# 
 ```
 
@@ -845,8 +818,7 @@ root@trainingday:/etc/init.d#
 
 The distributed object store allows you to balance datasets across multiple filesystems and multiple file servers.
 
-```
-#!highlight console
+```console
 root@trainingday:/etc/init.d# su - galaxy
 galaxy@trainingday:~$ cd galaxy-dist/
 galaxy@trainingday:~/galaxy-dist$ cp distributed_object_store_conf.xml.sample distributed_object_store_conf.xml
@@ -861,8 +833,7 @@ In `universe_wsgi.ini`, set the following:
 
 Once saved, continue with:
 
-```
-#!highlight console
+```console
 galaxy@trainingday:~/galaxy-dist$ exit
 logout
 root@trainingday:/etc/init.d# /etc/init.d/galaxy restart
@@ -876,6 +847,7 @@ root@trainingday:/etc/init.d# /etc/init.d/galaxy restart
 * Starting Galaxy manager                                               [ OK ] 
 * Starting Galaxy handler0                                              [ OK ] 
 * Starting Galaxy handler1                                              [ OK ] 
+
 root@trainingday:/etc/init.d# 
 ```
 

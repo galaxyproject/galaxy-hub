@@ -31,6 +31,7 @@ The outer-most tag set. It contains no attributes. Any number of <data_manager> 
 
 This tag defines a particular Data Manager. Any number of <data_table> tags can be included within it.
 
+
 | attribute |  values  |  details  |  required  |  example  | 
 | --------- | ------- | -------- | --------- | -------- | 
 | tool_file |  a string *  |  This is the filename of the Data Manager Tool's XML file, relative to the Galaxy Root. Multiple Data Managers can use the same Tool, but doing so would require "id" to be declared. |  yes  |  `tool_file="data_manager/twobit_builder.xml"`  | 
@@ -51,6 +52,7 @@ The following is an example that contains all of the attributes described above.
 ### <data_table> tag set
 
 This tag defines a Tool Data Table to add entries to. Any number of <data_table> tags can be used. Each <data_table> tag will contain an <output> tagset. 
+
 
 | attribute |  values  |  details  |  required  |  example  | 
 | --------- | ------- | -------- | --------- | -------- | 
@@ -86,6 +88,7 @@ The following is an example that contains all of the attributes described above.
 
 This tag defines a particular Tool Data Table column that will be set. Any number of <column> tags can be used. Each <column> tag may contain <move> and / or <value_translation> tagsets, which are optional. 
 
+
 | attribute |  values  |  details  |  required  |  example  | 
 | --------- | ------- | -------- | --------- | -------- | 
 | name |  a string *  |  This is the name of Tool Data Table column. |  yes  |  `name="value"`  | 
@@ -105,6 +108,7 @@ The following is an example that contains all of the attributes described above.
 ### <move> tag set
 
 This tag defines how to handle moving files from within the Data Manager Tool output's extra_files_path into the final storage location used for the Tool Data Table entry. Individual files or the entire directory contents can be moved. Move tag sets contain a <source> and a <target> tag set.
+
 
 | attribute |  values  |  details  |  required  |  example  | 
 | --------- | ------- | -------- | --------- | -------- | 
@@ -126,6 +130,7 @@ The following is an example that contains all of the attributes described above.
 
 This tag defines the source location within a <move> tag set. When not specified, it defaults to the entire extra_files_path of the output reference dataset.
 
+
 | attribute |  values  |  details  |  required  |  example  | 
 | --------- | ------- | -------- | --------- | -------- | 
 | base |  a string Template  |  The base/root path to use for the source. When not provided, it defaults to the extra_files_path of the output dataset. |  no  |  `<move type="file">`  | 
@@ -145,6 +150,7 @@ The following is an example that contains the most common usage, where the value
 ### <target> tag set
 
 This tag defines the target location within a <move> tag set. When not specified, it defaults to the *galaxy_data_manager_data_path* configuration value.
+
 
 | attribute |  values  |  details  |  required  |  example  | 
 | --------- | ------- | -------- | --------- | -------- | 
@@ -166,6 +172,7 @@ The following is an example that contains a common usage, where a target value i
 
 This tag allows using templating to modify the value provided by the Data Manager Tool into the actual value that should be stored within the Tool Data Table. There can be any number of value translations provided for an output. The value translations are performed in the order presented in the XML. It is important to note that a move will occur before the value translations are performed. 
 
+
 | attribute |  values  |  details  |  required  |  example  | 
 | --------- | ------- | -------- | --------- | -------- | 
 | type |  a string  |  The type of value translation to perform. Currently "template" and "function" are supported.  |  no  |  `type="template"`  | 
@@ -186,6 +193,7 @@ The following is an example that contains a common usage, where a value is const
 # Bringing it all Together, an example
 
 Assume that we have a Data Manager Tool that provides the following named values:
+
 
 | name |  value  | 
 | ---- | ------ | 
@@ -219,6 +227,7 @@ and has a Data Manager configuration defined as:
 
 
 The result is:
+
 
 | name |  value  | 
 | ---- | ------ | 

@@ -1,12 +1,12 @@
 ---
-title: Galaxy , @,  , [PAG 2016](http://www.intlpag.org/)
+title: Galaxy @ [PAG 2016](http://www.intlpag.org/)
 ---
-<div class='center'><a href='http://www.intlpag.org/'><img src='/Images/Logos/PAGLogo300.png' alt='Galaxy @ Plant and Animal Genome (PAG 2016)' height="100" /></a>
+<div class='center'><a href='http://www.intlpag.org/'><img src="/src/Images/Logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2016)" height="100" /></a>
 </div>
 
 
 
-Galaxy will be at [Plant and Animal Genome XXIV (PAG 2016)](http://www.intlpag.org/), being held in San Diego, California, United States, January 9-13.  This page will describe everything related to Galaxy that is happening at PAG that we know about.  If you know of something else, then [outreach AT galaxyproject DOT org](please tell us about it).
+Galaxy will be at [Plant and Animal Genome XXIV (PAG 2016)](http://www.intlpag.org/), being held in San Diego, California, United States, January 9-13.  This page will describe everything related to Galaxy that is happening at PAG that we know about.  If you know of something else, then [mailto:outreach AT galaxyproject DOT org](please tell us about it).
 
 <table>
   <tr class="th" >
@@ -70,7 +70,7 @@ Galaxy will be at [Plant and Animal Genome XXIV (PAG 2016)](http://www.intlpag.o
     <td> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Session/3098'>Galaxy for SNP and Variant Data Analysis</a> </td>
     <td> Workshop, California Room </td>
     <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2016_PAG_VariantAnalysis.pdf'>Slides</a> </td>
-    <td> <a href='/DaveClements'>Dave Clements</a> </td>
+    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th colspan=6> </th>
@@ -81,7 +81,7 @@ Galaxy will be at [Plant and Animal Genome XXIV (PAG 2016)](http://www.intlpag.o
     <td> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Paper/21816'>Galaxy Community Update</a> </td>
     <td> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Session/3109'>GMOD</a>, Golden West </td>
     <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2016_PAG_GalaxyUpdate.pdf'>Slides</a> </td>
-    <td> <a href='/DaveClements'>Dave Clements</a> </td>
+    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
 </table>
 

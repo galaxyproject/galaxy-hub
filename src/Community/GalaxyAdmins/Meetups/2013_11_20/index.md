@@ -1,10 +1,10 @@
-<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> 
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2013/11/20 Web Meetup<br /><br />GCC2013 Followup
 </div></div>
 
 <br />
 
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 <table>
   <tr>
@@ -19,7 +19,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em>GalaxyAdmins: <a href='/Events/GCC2013/BoF/GalaxyAdmins'>GCC2013 Followup</a></em><div class='indent'><a href='/DaveClements'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/nate'>Nate Coraor</a></div> </td>
+    <td> <em>GalaxyAdmins: <a href='/src/Events/GCC2013/BoF/GalaxyAdmins/index.md'>GCC2013 Followup</a></em><div class='indent'><a href='/src/DaveClements/index.md'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -47,8 +47,8 @@ Action items from BoF:
 
 Draft implementations of the first two are in place:
 
-* [/Community/Deployments](/src/Community/Deployments/index.md) hub page
-* [/Community/Logs](/src/Community/Logs/index.md) hub page
+* [Community/Deployments](/src/Community/Deployments/index.md) hub page
+* [Community/Logs](/src/Community/Logs/index.md) hub page
 
 What do people think of this approach?  The use of *boxes* on the right side is used to create much more informative lists of deployments and logs on their hub pages, using the [http://moinmo.in/MacroMarket/DictColumns](http://moinmo.in/MacroMarket/DictColumns) macro.
 
@@ -73,7 +73,7 @@ Notes from the BoF:
 
 ## Call Technology
 
-We will use the [University of Iowa's Blackboard system](/src/Community/GalaxyAdmins/Meetups/WebinarTech/index.md) for the call. **Downloading and launching the required Java application takes a few minutes. Using a headphone with microphone to prevent audio feedback during the call is recommended.**
+We will use the [University of Iowa's Blackboard system](/src/Community/GalaxyAdmins/Meetups/2013_11_20/WebinarTech/index.md) for the call. **Downloading and launching the required Java application takes a few minutes. Using a headphone with microphone to prevent audio feedback during the call is recommended.**
 
 <br />
 

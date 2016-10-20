@@ -1,7 +1,6 @@
-
 # Eric Rasche
 
-Email: [esr@tamu.edu](esr@tamu.edu) [rasche.eric@gmail.com](rasche.eric@gmail.com)
+Email: [mailto:esr@tamu.edu](esr@tamu.edu) [mailto:rasche.eric@gmail.com](rasche.eric@gmail.com)
 
 Bioinformatician and Sys Admin for the Center for Phage Technology (CPT) at Texas A&M University.
 
@@ -12,5 +11,5 @@ My work projects inlucde:
 * Tools for bacteriophage analysis and automated annotation
 * Automating the conversion of tools for use in Galaxy
 
----
+----
 CategoryHomepage

@@ -1,9 +1,6 @@
----
-date: 2015-03-19T17:32:40Z
----
 <div class='newsItemHeader'>[BioBlend v0.5.3 Released](/src/News/BioBlendV0.5.3/index.md)</div>
 
-<div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="200" /></a></div>
+<div class='right'><a href='/src/CloudMan/index.md'><img src="/src/Images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" width="200" /></a></div>
 
 [BioBlend](https://github.com/afgane/bioblend) [v0.5.3](https://github.com/galaxyproject/bioblend/blob/master/CHANGELOG.md) has been released.  [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  (CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
 
@@ -37,5 +34,6 @@ Enjoy and please let us know what you think,
 
 [Enis](/src/EnisAfgan/index.md) & [John](/src/JohnChilton/index.md) & [Nicola Soranzo](/src/NicolaSoranzo/index.md) & Simone Leo & [Eric Rasche](/src/EricRasche/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-03-19</div>
 
 CategoryNews

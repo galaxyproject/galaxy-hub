@@ -1,9 +1,9 @@
 ---
 autotoc: true
 ---
-<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/Surveys/LinkBox/index.md)
 
 Two community-wide questionnaires were run in the fall of 2014.  One asked *Galaxy users* about their experience, while the other focused on *Galaxy Admins, developers, and Tool Authors.*  The *Admin* questionnaire is summarized below.
 
@@ -145,6 +145,7 @@ Two community-wide questionnaires were run in the fall of 2014.  One asked *Gala
 ### In Transition
 
 ### Other
+
  
 * VM: 4 core, 8GB ram currently running in a virtual machine.  Will be upgrading to a standalone server this year and connecting to our compute cluster
 
@@ -519,3 +520,4 @@ Two community-wide questionnaires were run in the fall of 2014.  One asked *Gala
 * we do a lot of data analysis outside of Galaxy and it's cumbersome to get data in and out without losing track
 * I didn't realize workflows would break with newer tool versions (minor irritant).
   * Explored using API to pass information to other applications but didn't resolve.
+

@@ -1,11 +1,11 @@
-<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a> 
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2015/06/18 Web Meetup<br /><br />
 
 </div></div>
 
 <br />
 
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 <table>
   <tr>
@@ -20,7 +20,7 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <strong><em>Galactic Engineering:</strong> Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester</em> <div class='indent'><a href='http://galacticengineer.blogspot.co.uk/'>Peter Briggs</a>, <a href='http://www.manchester.ac.uk/'>University of Manchester</a> </div> <em>Galaxy Project Update: Planemo</em> <div class='indent'> <a href='/JohnChilton'>John Chilton</a></div> <em><a href='http://gcc2015.tsl.ac.uk/'>GCC2015</a> !GalaxyAdmins Meetup</em> <div class='indent'><a href='/HansrudolfHotz'>Hans-Rudolf Hotz</a></div>  </td>
+    <td> <strong><em>Galactic Engineering:</strong> Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester</em> <div class='indent'><a href='http://galacticengineer.blogspot.co.uk/'>Peter Briggs</a>, <a href='http://www.manchester.ac.uk/'>University of Manchester</a> </div> <em>Galaxy Project Update: Planemo</em> <div class='indent'> <a href='/src/JohnChilton/index.md'>John Chilton</a></div> <em><a href='http://gcc2015.tsl.ac.uk/'>GCC2015</a> !GalaxyAdmins Meetup</em> <div class='indent'><a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a></div>  </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -35,14 +35,14 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 ## Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester
 
-<div class='right'><a href='http://www.manchester.ac.uk/'><img src='/Images/Logos/UManchesterLogo.jpg' alt='University of Manchester' width="200" /></a></div>
+<div class='right'><a href='http://www.manchester.ac.uk/'><img src="/src/Images/Logos/UManchesterLogo.jpg" alt="University of Manchester" width="200" /></a></div>
 
 [Peter Briggs](http://galacticengineer.blogspot.co.uk/) of the [University of Manchester](http://www.manchester.ac.uk/) and author of the *[Galactic Engineer](http://galacticengineer.blogspot.co.uk/)* blog will talk about his Galaxy work 
 deploying Galaxy and developing tools within the [Bioinformatics Core Facility](http://www.ls.manchester.ac.uk/research/facilities/#bioinf) at the University of Manchester.
 
 ## Galaxy Project Update: Planemo
 
-<div class='right'>[[<a href='https://github.com/galaxyproject/planemo'><img src='/Images/Logos/PlanemoLogo.png' alt='Planemo' width="160" /></a></div>
+<div class='right'>[[<a href='https://github.com/galaxyproject/planemo'><img src="/src/Images/Logos/PlanemoLogo.png" alt="Planemo" width="160" /></a></div>
 
 [John Chilton](/src/JohnChilton/index.md) will also give an update on recent and upcoming work on [Planemo](https://github.com/galaxyproject/planemo), a set of command-line utilities to assist in building and publishing Galaxy tools.
 
@@ -58,4 +58,4 @@ The  meetup's online conference room will open 15 minutes before the meetup.  Th
   * If you raise your hand, the host will need to recognize you.
   * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
-<div class='center'>![](/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>
+<div class='center'>![](/src/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>

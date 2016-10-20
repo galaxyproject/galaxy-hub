@@ -1,15 +1,15 @@
 ---
-title: Birds of a Feather , (, BoF, ),  Flock Together at GCC2014
+title: Birds of a Feather (BoF) Flock Together at GCC2014
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
 <br /><br />
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 
 
 
-<div class='left'>![](/Images/Logos/GCC2014_BoF_LogoSquare.png)</div>
+<div class='left'>![](/src/Images/Logos/GCC2014_BoF_LogoSquare.png)</div>
 
 There is no better place than a Galaxy Community Conference to meet and learn from others doing high-throughput biology.  GCC2014 will continue this tradition by again including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing))* meetups.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
 
@@ -30,4 +30,4 @@ The conference *enables and encourages* !BoFs by
 * Promote !BoFs to all conference participants, over and over, both before and during the conference ~~until everyone actually grows feathers~~.
 * Coordinate and reserve rooms for !BoFs, and allocate time in the schedule for them too.
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Footer)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Footer/index.md)

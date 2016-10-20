@@ -1,5 +1,4 @@
-
-<div class='right'><a href='/JenniferJackson'><img src='/jenhjackson.png' alt='Jen Jackson' width="200",height="150" /></a><br />
+<div class='right'><a href='/src/JenniferJackson/index.md'><img src="/src/JenniferJackson/jenhjackson.png" alt="Jen Jackson" width="200",height="150" /></a><br />
 [Jennifer Hillman Jackson](/src/JenniferJackson/index.md)<br />
 [Penn State](http://www.bx.psu.edu)</div>
 
@@ -24,5 +23,5 @@ https://www.linkedin.com/in/jenniferhillmanjackson
   </tr>
 </table>
 
----
+----
 CategoryHomepage

@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: October 23, ,,  2012 Galaxy Development News Brief
+title: October 23, 2012 Galaxy Development News Brief
 ---
 <div class='right'></div>
 
@@ -8,11 +8,12 @@ title: October 23, ,,  2012 Galaxy Development News Brief
 
 <br />
 # Get Galaxy
+
 *** Upgrade NOW for an Important [Security Fix](/src/DevNewsBriefs/2012_10_23/index.md#compute_tool_security_fix) ***
 
 <table>
   <tr>
-    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src='http://galaxy.psu.edu/static/getgalaxy.png' alt='getgalaxy' width=70 /></a> &nbsp;&nbsp; </td>
+    <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
     <td colspan=2 style=" border: none;"> <strong><a href='http://getgalaxy.org'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
@@ -60,11 +61,12 @@ All existing **[galaxy-central bitbucket issues](https://bitbucket.org/galaxy/ga
 
 The Galaxy wiki and other related resources have now been updated to point to the new tracking system. But if you happen to come across something we missed, please feel free to edit the wiki (if you are a vetted editor or decide to become one), or send us an email and we'll update.
 
-<a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2012_10_23_trello-inbox.png' alt='2012_10_23_trello-inbox' width="900" /></a>
+<a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2012_10_23_trello-inbox.png" alt="2012_10_23_trello-inbox" width="900" /></a>
 
 <br />
 # Tool Shed
-**[/Tool Shed](/Tool Shed)**
+
+**[Tool Shed](/src/Tool Shed/index.md)**
 
 ### Tool Shed Enhancements inside of Galaxy
 
@@ -83,6 +85,7 @@ The Galaxy wiki and other related resources have now been updated to point to th
 When a tool shed repository is installed into your local Galaxy instance, metadata is generated for the repository as a part of the installation process and stored in the tool_shed_repository.metadatatable column in the Galaxy database.  This automatic process inspects the contents of the specific revision of the installed repository and generates and stores important information about it.  This metadata information is used by certain Galaxy features.  As new features are added to Galaxy or the tool shed, the process that generates this installed tool shed repository metadata within the Galaxy  instance may be enhanced to accommodate information about the new features. [Read more…](/src/ResettingMetadataForInstalledRepositories/index.md)
 
 1. #2 The Galaxy tool shed repository installation process has been enhanced to enable installation of repositories into a hierarchy of directories instead of a single level of directories.
+
 If your Galaxy instance includes currently installed tool shed repositories, we recommend that you reset the metadata on your installed repositories as described in the above item, as doing this will reset certain information about your repositories, including entries for tools in your shed-related tool panel config files (e.g., `shed_tool_conf.xml`, `migrated-tools_conf.cml`, etc ).
 
 Prior to this enhancement, values for the "tool_path" attribute defined in the `<toolbox>` tag within shed-related tool panel config files (e.g., `shed_tool_conf.xml`) were restricted to a single subdirectory level, something like this:
@@ -110,11 +113,13 @@ shed_tool_conf.xml            <toolbox tool_path="../shed_tools/galaxy_instance1
 1. #3 The process for handing uninstalling or deactivating tool shed repositories whose contents have previously been removed from disk has been streamlined by now displaying a message that includes a link that when clicked will handle the process.
 
 1. #4 When managing installed tool shed repositories, the previous "deleted" link in the Advanced Search feature has been enhanced to clarify that, when clicked, repositories that have been deactivated or uninstalled will be displayed.
-<a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/NewsGraphics/2012_10_23_toolshed-advanced-search.png' alt='tool shed' /></a>
+
+<a href='http://toolshed.g2.bx.psu.edu'><img src="/src/Images/NewsGraphics/2012_10_23_toolshed-advanced-search.png" alt="tool shed" /></a>
 
 <br />
 # Tools
-[Tool Dependencies](/Admin/Tools/Tool Dependencies)
+
+[Tool Dependencies](/src/Admin/Tools/Tool Dependencies/index.md)
 
 1. Add *interpreter* and *absolute path logic* to **version tag**; thanks to [Björn Grüning](http://bitbucket.org/BjoernGruening).
 2. **Tool search**: remove **[Whoosh](http://packages.python.org/Whoosh/)** handling for **[Python version 2.4](http://www.python.org/)** and remove *minscore*.
@@ -122,8 +127,7 @@ shed_tool_conf.xml            <toolbox tool_path="../shed_tools/galaxy_instance1
 4. Add **genomespace** tools to `tool_conf.xml.main`. 
   * Get Data -> [GenomeSpace](http://www.genomespace.org) import
   * Send Data -> [GenomeSpace](http://www.genomespace.org) export
-  * **[GenomeSpace](http://www.genomespace.org)** now also enabled on Galaxy [/Main](/src/Main/index.md).
-
+  * **[GenomeSpace](http://www.genomespace.org)** now also enabled on Galaxy [Main](/src/Main/index.md).
 
 <br />
 # Visualization framework
@@ -145,9 +149,11 @@ shed_tool_conf.xml            <toolbox tool_path="../shed_tools/galaxy_instance1
 Quick start to graphing data: 
 
 1. Click on the visualizations icon of a tabular dataset.
-<a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2012_10_23_scatterplot-ui-icon.png' alt='scatterplot-ui-icon' /></a>
+
+<a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2012_10_23_scatterplot-ui-icon.png" alt="scatterplot-ui-icon" /></a>
 1. #2 Next, select 'Scatterplot' from the popup menu that appears and the main panel will load with data and graph options. Chose which two columns to load as datapoints and click the 'Draw' button to display the graph.
-<a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2012_10_23_scatterplot-popupmenu.png' alt='scatterplot-popupmenu' /></a>
+
+<a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2012_10_23_scatterplot-popupmenu.png" alt="scatterplot-popupmenu" /></a>
 1. #3 Tool is still undergoing further development and full documentation is pending, but here are the key details.
 
 Basic specifications, functions, and features:
@@ -165,10 +171,10 @@ Additional user controlled functions:
 * Control the dimensions of the graph, the size of datapoints, and the labels used for each axis.
 
 Full screen view, showing scatter plot in the center panel:
-<a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2012_10_23_scatterplot-fullscreen.png' alt='scatterplot-fullscreen' width="900" /></a>
+<a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2012_10_23_scatterplot-fullscreen.png" alt="scatterplot-fullscreen" width="900" /></a>
 
 Detail view of center panel:
-<a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2012_10_23_scatterplot-partialscreen.png' alt='scatterplot-partialscreen' /></a>
+<a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2012_10_23_scatterplot-partialscreen.png" alt="scatterplot-partialscreen" /></a>
 
 
 <br />
@@ -211,16 +217,17 @@ Detail view of center panel:
 <br />
 # Announcements
 
-[/News](/src/News/index.md), *[October 2012 Galaxy Update](/src/GalaxyUpdates/2012_10/index.md)*
+[News](/src/News/index.md), *[October 2012 Galaxy Update](/src/GalaxyUpdates/2012_10/index.md)*
 
 <br />
----
+----
 <br />
 # About Galaxy
+
 **[GalaxyProject.org](http://galaxyproject.org)**
 
 The **[Galaxy Team](/src/GalaxyTeam/index.md)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[/Galaxy on Twitter](/Galaxy on Twitter)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/Galaxy on Twitter/index.md)**

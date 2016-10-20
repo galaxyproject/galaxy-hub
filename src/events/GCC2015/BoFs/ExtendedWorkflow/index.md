@@ -1,7 +1,7 @@
 ---
 title: Extended Workflows
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
 
 
 
@@ -11,10 +11,10 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
  Audience:: Those who attended the workflow training session and want to dig in more!  
  When:: Wednesday, 8 July, 12:30 (lunch)
  Where:: Watson Room, JICCC
- Contact:: [kreddy4@jhmi.edu](Karen Reddy)
+ Contact:: [mailto:kreddy4@jhmi.edu](Karen Reddy)
 </div>
 
-<div class='left'><a href='/Events/GCC2015/BoFs'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a></div>
+<div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
 This page describes the **Extended Workflows** [Birds of a Feather](/src/Events/GCC2015/BoFs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 
@@ -34,13 +34,13 @@ Those who attended the workflow training session and want to dig in more!
  
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [your AT email DOT address](Your Name).
+If you are interested, please add your name below and/or send an email to [mailto:your AT email DOT address](Your Name).
 
 * Karen Reddy
 * Next Name
 
 ## Questions?
 
-Send them to [kreddy4@jhmi.edu](Karen Reddy).
+Send them to [mailto:kreddy4@jhmi.edu](Karen Reddy).
 
 CategoryBoF

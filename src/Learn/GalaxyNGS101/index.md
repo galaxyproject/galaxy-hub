@@ -15,8 +15,8 @@ This page is designed to serve as a comprehensive resource describing manipulati
 This section contains quick explanations and important references for major sequencing technologies used today. It is regularly refreshed and kept up-to-date.
 
 ![454](/src/Images/Images/NGS101/454.jpeg)
-<a href='https://vimeo.com/121286060'><img src='/Images/Images/NGS101/video.png' alt='454 Screencast' height="20" /></a> 
-<a href='/attachment:Images/Images/NGS101/NGS101-454.pdf'><img src='/Images/Images/NGS101/pdf.png' alt='Slides' height="20" /></a>
+<a href='https://vimeo.com/121286060'><img src="/src/Images/Images/NGS101/video.png" alt="454 Screencast" height="20" /></a> 
+<a href='/src/attachment:Images/Images/NGS101/NGS101-454.pdf/index.md'><img src="/src/Images/Images/NGS101/pdf.png" alt="Slides" height="20" /></a>
 
 **Publications:**
 * [Description of 454 process - Margulies et al. (2005)](http://www.nature.com/nature/journal/v437/n7057/pdf/nature03959.pdf)
@@ -26,8 +26,8 @@ This section contains quick explanations and important references for major sequ
 * [Errors in 454 data - Huse et al. (2007)](http://genomebiology.com/content/pdf/gb-2007-8-7-r143.pdf)
 
 ![Illumina](/src/Images/Images/NGS101/illumina.png)
-<a href='https://vimeo.com/121178846'><img src='/Images/Images/NGS101/video.png' alt='Illumina Screencast' height="20" /></a> 
-<a href='/attachment:Images/Images/NGS101/NGS101-Illumina.pdf'><img src='/Images/Images/NGS101/pdf.png' alt='Slides' height="20" /></a>
+<a href='https://vimeo.com/121178846'><img src="/src/Images/Images/NGS101/video.png" alt="Illumina Screencast" height="20" /></a> 
+<a href='/src/attachment:Images/Images/NGS101/NGS101-Illumina.pdf/index.md'><img src="/src/Images/Images/NGS101/pdf.png" alt="Slides" height="20" /></a>
 
 **Publications:**
 * [Human genome sequencing on Illumina - Bentley et al. (2008)](http://www.nature.com/nature/journal/v456/n7218/pdf/nature07517.pdf)
@@ -36,8 +36,8 @@ This section contains quick explanations and important references for major sequ
 * [Data quality 2 - Nakamura et al. (2010)](http://nar.oxfordjournals.org/content/39/13/e90.full-text-lowres.pdf)
 
 ![Ion](/src/Images/Images/NGS101/ion.jpeg)
-<a href='https://vimeo.com/121289100'><img src='/Images/Images/NGS101/video.png' alt='IonTorrent Screencast' height="20" /></a> 
-<a href='/attachment:Images/Images/NGS101/NGS101-Ion.pdf'><img src='/Images/Images/NGS101/pdf.png' alt='Slides' height="20" /></a>
+<a href='https://vimeo.com/121289100'><img src="/src/Images/Images/NGS101/video.png" alt="IonTorrent Screencast" height="20" /></a> 
+<a href='/src/attachment:Images/Images/NGS101/NGS101-Ion.pdf/index.md'><img src="/src/Images/Images/NGS101/pdf.png" alt="Slides" height="20" /></a>
 
 **Publications:**
 * [Semiconmductor non-optical sequencing - Rothberg et al. (2011)](http://www.nature.com/nature/journal/v475/n7356/full/nature10242.html)
@@ -45,8 +45,8 @@ This section contains quick explanations and important references for major sequ
 * [Improving Ion Torrent Error Rates - Golar and Medvedev (2013)](http://bioinformatics.oxfordjournals.org/content/29/13/i344.full.pdf)  
 
 ![PacBio](/src/Images/Images/NGS101/pacBio.jpeg)
-<a href='https://vimeo.com/121267426'><img src='/Images/Images/NGS101/video.png' alt='PacBio Screencast' height="20" /></a> 
-<a href='/attachment:Images/Images/NGS101/NGS101-PacBio.pdf'><img src='/Images/Images/NGS101/pdf.png' alt='Slides' height="20" /></a>
+<a href='https://vimeo.com/121267426'><img src="/src/Images/Images/NGS101/video.png" alt="PacBio Screencast" height="20" /></a> 
+<a href='/src/attachment:Images/Images/NGS101/NGS101-PacBio.pdf/index.md'><img src="/src/Images/Images/NGS101/pdf.png" alt="Slides" height="20" /></a>
 
 **Publications:**
 * [Single Molecule Analaysis at High Concentration - Levene et al. (2003)](http://www.sciencemag.org/content/299/5607/682.full.pdf)
@@ -110,6 +110,7 @@ Mappers usually compare reads against a reference sequence that has been transfo
 **hg38 canonical female** contains everything from the canonical set with the exception of chromosome Y.  
 
 ### What if pre-computed index does not exist?
+
 [Video NGS101-8](https://vimeo.com/123108417) | [Galaxy history](https://test.galaxyproject.org/u/anton/h/my-genome)
 
 <div class='right'><div class='center'><span style="font-size: smaller;">Mapping against uploaded genome</span></div>![My genome](/src/Images/Images/NGS101/mygenome.png)</div>
@@ -250,6 +251,5 @@ The mapping and transcript reconstruction steps of the reference-based RNA-seq a
 * 16S & shotgun metagenomics
 * Visualization of NGS data
 
-
----
+----
 CategoryTrainingResource CategoryTrainingResource

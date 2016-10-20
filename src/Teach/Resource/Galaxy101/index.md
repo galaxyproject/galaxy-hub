@@ -2,7 +2,7 @@
 title: Galaxy 101
 ---
 <div class='center'>
-<a href='https://usegalaxy.org/galaxy101'><img src='/Images/Logos/galaxyLogoTrimmed.png' alt='Galaxy 101' width="300" /></a>
+<a href='https://usegalaxy.org/galaxy101'><img src="/src/Images/Logos/galaxyLogoTrimmed.png" alt="Galaxy 101" width="300" /></a>
 </div>
 
 
@@ -32,6 +32,5 @@ Input datasets are pulled from UCSC, at runtime.  They can also be extracted fro
 
 * [Galaxy 101](https://usegalaxy.org/galaxy101)
 * Slides showing the Galaxy 101 operations graphically, and taking the exercise a few steps further.
-
 
 CategoryTrainingResource

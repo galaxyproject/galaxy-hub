@@ -1,5 +1,6 @@
 # June 21, 2010 New Development News Brief
----
+
+----
 
 Here are the highlights of what you will get if you perform the following upgrade:
 
@@ -8,19 +9,23 @@ hg pull -u -r 4cdf4cca0f31
 ### Existing Feature Improvements
 
 #### Data Libraries
+
 * Security fixes for data libraries.  Some parameters were not validated, which could allow access to administrative functions without having required privileges.
 * Do not allow the dataset file to be removed from disk via the cleanup_dataset.py script for datasets uploaded to a library where the file is not copied into Galaxy's default file location.
 * Changes to browse library UI: 1) use standard popup button styles, 2) Move library wide actions out of table header and into manage-table actions.
 
 #### Datatypes
+
 * Add !MafCustomTrack datatype and a UCSC external display application which can be used to view this datatype at UCSC.
 * Enhance change datatype action in edit attributes form to set metadata externally when so configured.
 
 #### Metadata
+
 * Fix a bug with external metadata that caused every dataset association for a particular base dataset to enter the setting_metadata state when metadata was set for one dataset association.
 * Fix for datasets getting stuck in setting_metadata state when using external metadata and there was a job failure (e.g. cluster error).
 
 #### Tools
+
 * Added colon as a delimiter for 'Convert delimiters to TAB' tool.
 * Update tool_conf.xml.* to only use the generic python FASTQ to FASTA converter by default.
 * Add GFF support to GOPS intersect tool.
@@ -35,29 +40,35 @@ hg pull -u -r 4cdf4cca0f31
 * Add 'recently used tools' section to tools menu.  Recently used tools is a list of the five most recent tools that a user has run.  A user must be logged in to use this option.  Manage hiding/showing of recently used items when search is active.  Added simple Javascript framework for logging actions and setting user preferences asynchronously.  Enabled user preferences and logging for tool search and recently used tools menu.
 
 #### Functional test harness
+
 * Fix for kcca, linear regression and get indels tools - use 're_match' to accommodate sign and decimal precision changes in kcca output.
 
 #### Sample Tracking
+
 * UI enhancements to the remote file browser, double click to open folder.
 * Data transfer folder name now includes the date.
 * Fix: the data transfer module now works for file/folder names with spaces in them
 
 #### Trackster
+
 * Update trackster dataset filter so that only datasets that are not deleted, not from deleted histories, and are in 'OK' state are available for visualization.
 * Fix creating new trackster viz, fix autocomplete grouping by first character.
 * Supports display of reference sequence in twobit format. Mapping of dbkey to twobit file is done in tool-data/twobit.loc.  Reference track will automatically be shown when zoomed in if the twobit file exists for that dbkey. Also fixes a drawing issue with Reference/Read tracks.
 
 #### Grid framework
+
 * Fixed a sorting bug in the grid framework. Sorting preferences were not getting preserved.
 * Fix grid initialization bug that was preventing visualization grids from working properly.
 * Add the "all" option to the grid's !StateColumn.
 
 #### Jobs
+
 * Remove the user round robin scheduling policy (it didn't work as intended).  The former job_scheduler_policy config option now has no effect.
 * Post job action database setup.
 * Fix bug in root.history_item_update caused when a tool has been removed.
 
 #### Workflows
+
 * Added annotations to run workflow display.  New feature: actions in workflow steps.  Change name, hide dataset, change datatype enabled.
 * Len datasets for custom dbkeys now don't need a history and this fixes an issue with extract workflows.
 * Fix for double !UnvalidatedValue wrapping when extracting a workflow from a history that was created using !UnvalidatedValues (e.g. when dynamic options is used in a tool before metadata is ready).
@@ -67,9 +78,12 @@ hg pull -u -r 4cdf4cca0f31
 * Fix for extracting workflows from a history that has a dataset in the error state.
 
 #### Database schema
+
 * Add a user_id column to the job table to decouple jobs from sessions.
 
 #### Reports
+
 * When filtering on the state of jobs in the advanced search box in the jobs reports, you now have an "all" option.
 * Jobs displayed in the jobs reports are now all color coded by job state.
 * Rewrite the jobs report queries to no longer join the job table to the galaxy_session and galaxy_user tables, just join galaxy_user since we now have a direct relation to that table.
+

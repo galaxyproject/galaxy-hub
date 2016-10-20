@@ -6,13 +6,13 @@ title: August 2013 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the August 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
-<div class='center'><a href='/Events/GCC2013'><img src='/Images/Logos/GCC2013Logo400.png' alt='2013 Galaxy Community Conference (GCC2013)' width="300" /></a> </div>
+<div class='center'><a href='/src/Events/GCC2013/index.md'><img src="/src/Images/Logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
 
 # GCC2013 Report
 
@@ -37,13 +37,13 @@ Two new servers joined [the list of over 30 publicly accessible Galaxy servers](
 
 ## PredPharmTox
 
-<div class='left'><a href='http://galaxy.predpharmtox.org/'><img src='/PublicGalaxyServers/PredPharmToxLogo.png' alt='PredPharmTox' width="200" /></a></div>
+<div class='left'><a href='http://galaxy.predpharmtox.org/'><img src="/src/PublicGalaxyServers/PredPharmToxLogo.png" alt="PredPharmTox" width="200" /></a></div>
 
 [PredPharmTox](http://galaxy.predpharmtox.org/) implements the [QuantMap tools](http://pubs.acs.org/doi/abs/10.1021/ci200429f) for grouping chemicals by biological activity. See "[Automated QuantMap for rapid quantitative molecular network topology analysis](http://bioinformatics.oxfordjournals.org/content/early/2013/07/04/bioinformatics.btt390.full.pdf)" by Schaal1, *et al.*, *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (2013), for more.
 
 ## QBRC Galaxy
 
-<div class='right'><a href='http://galaxy.predpharmtox.org/'><img src='/PublicGalaxyServers/QBRCLogo.jpg' alt='QBRC Galaxy' width="200" /></a></div>
+<div class='right'><a href='http://galaxy.predpharmtox.org/'><img src="/src/PublicGalaxyServers/QBRCLogo.jpg" alt="QBRC Galaxy" width="200" /></a></div>
 
 The [QBRC Galaxy Server](http://www.galaxy.qbrc.org/) hosts custom tools developed by members of the [Quantitative Biomedical Research Center @ University of Texas Southwestern](http://www.qbrc.swmed.edu/) for statistical analysis of various High Throughput Sequencing experiments.
 
@@ -116,7 +116,7 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 # SlipStream Appliance: Galaxy Edition Announced
 
-<div class='left'><a href='http://www.bioteam.net/slipstream/galaxy-edition'><img src='/Images/Logos/SlipStreamApplianceLogo.png' alt='SlipStream Appliance - Galaxy Edition' width="200" /></a></div>
+<div class='left'><a href='http://www.bioteam.net/slipstream/galaxy-edition'><img src="/src/Images/Logos/SlipStreamApplianceLogo.png" alt="SlipStream Appliance - Galaxy Edition" width="200" /></a></div>
 
 [BioTeam](http://bioteam.net) has [announced](/src/News/SlipStreamAppliance/index.md) the [SlipStream Appliance: Galaxy Edition](http://www.bioteam.net/slipstream/galaxy-edition) – "a high-performance, server class device pre-loaded with a fully operational Galaxy analysis platform." It is a plug-and-play solution, "intended to make Galaxy more accessible by relieving some of the burdens users may experience with other methods of accessing the platform." See the [product page](http://www.bioteam.net/slipstream/galaxy-edition) for more details.
 
@@ -124,7 +124,7 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 # New Galaxy Proteomics Mailing List
 
-<div class='right'><a href='http://proteomics.list.galaxyproject.org/'><img src='/Images/Logos/MailmanLogoSmall.png' alt='Galaxy Proteomics Mailing List'  /></a></div>
+<div class='right'><a href='http://proteomics.list.galaxyproject.org/'><img src="/src/Images/Logos/MailmanLogoSmall.png" alt="Galaxy Proteomics Mailing List"  /></a></div>
 
 The Galaxy community now has a [mailing list dedicated to proteomics](http://proteomics.list.galaxyproject.org/). If you're using Galaxy to do proteomics, or if you are thinking of doing so then [please subscribe](https://lists.galaxyproject.org/listinfo/galaxy-proteomics).  In case you missed it, there is also a [proteomics wiki page](/src/Proteomics/index.md). 
 
@@ -136,7 +136,7 @@ Many thanks to Ira Cooke and [John Chilton](/src/JohnChilton/index.md) for sugge
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/src/GalaxyIsHiring/index.md'><img src="/src/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 * The Netherlands Institute of Ecology (NIOO-KNAW) [Bioinformatician opening](http://bit.ly/15nT1nB) 
@@ -154,10 +154,10 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 # Events
 
 <div class='right'>
-<a href='http://www.iscb.org/ismbeccb2013'><img src='/Images/Logos/ISMB2013Logo205.png' alt='ISMB/ECCB 2013' width="80" /></a>
+<a href='http://www.iscb.org/ismbeccb2013'><img src="/src/Images/Logos/ISMB2013Logo205.png" alt="ISMB/ECCB 2013" width="80" /></a>
 </div>
 <div class='right'>
-<a href='http://www.open-bio.org/wiki/BOSC_2013'><img src='/Images/Logos/BOSC_logo.png' alt='BOSC 2013' width="60" /></a><br /><a href='http://igenomed2.stanford.edu/Proteomics2013_mssig/'><img src='/Images/Logos/MSSIG2013Logo.jpg' alt='MS SIG 2013: Beyond the Proteomics' width="60" /></a><br />
+<a href='http://www.open-bio.org/wiki/BOSC_2013'><img src="/src/Images/Logos/BOSC_logo.png" alt="BOSC 2013" width="60" /></a><br /><a href='http://igenomed2.stanford.edu/Proteomics2013_mssig/'><img src="/src/Images/Logos/MSSIG2013Logo.jpg" alt="MS SIG 2013: Beyond the Proteomics" width="60" /></a><br />
 </div>
 
 ## ISMB / ECCB / BOSC / MS SIG 2013
@@ -169,15 +169,15 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
 ## Other Upcoming Events
 
 <div class='center'>
-<a href='https://training.bioinformatics.ucdavis.edu/2013/07/02/the-2013-rna-seq-workshop/'><img src='/Images/Logos/UCDavisGenomeCenterLogo.jpg' alt='RNA-Seq Workshop: From Pipette to P-value! @ UC Davis Bioinformatics Core' height="60" /></a>
-<a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'><img src='/Images/Logos/RCPALogo.jpg' alt='The Genomic Bioinformatics Workshop' height="60" /></a>
-<a href='http://individualizingmedicineconference.mayo.edu/schedule/'><img src='/Images/Logos/MayoClinicSmall.png' alt='Individualizing Medicine Conference' height="60" /></a> &nbsp;
-<a href='http://www.beyond-the-genome.com/program/'><img src='/Images/Logos/BeyondTheGenome2013.png' alt='Beyond the Genome' height="60" /></a> &nbsp;
-<a href='http://bit.ly/153avr8'><img src='/Images/Logos/OrioneNGSCourse.png' alt='Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica' height="65" /></a> &nbsp;
-<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src='/Images/Logos/GennoToulLogo.png' alt='Galaxy Training Days' height="60" /></a>
+<a href='https://training.bioinformatics.ucdavis.edu/2013/07/02/the-2013-rna-seq-workshop/'><img src="/src/Images/Logos/UCDavisGenomeCenterLogo.jpg" alt="RNA-Seq Workshop: From Pipette to P-value! @ UC Davis Bioinformatics Core" height="60" /></a>
+<a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'><img src="/src/Images/Logos/RCPALogo.jpg" alt="The Genomic Bioinformatics Workshop" height="60" /></a>
+<a href='http://individualizingmedicineconference.mayo.edu/schedule/'><img src="/src/Images/Logos/MayoClinicSmall.png" alt="Individualizing Medicine Conference" height="60" /></a> &nbsp;
+<a href='http://www.beyond-the-genome.com/program/'><img src="/src/Images/Logos/BeyondTheGenome2013.png" alt="Beyond the Genome" height="60" /></a> &nbsp;
+<a href='http://bit.ly/153avr8'><img src="/src/Images/Logos/OrioneNGSCourse.png" alt="Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica" height="65" /></a> &nbsp;
+<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/src/Images/Logos/GennoToulLogo.png" alt="Galaxy Training Days" height="60" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 <br />
 
@@ -198,29 +198,29 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
     <th> September&nbsp;28 - October&nbsp;1 </th>
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
-    <td> <a href='/JenniferJackson'>Jennifer Jackson</a>, <a href='/RossLazarus'>Ross Lazarus</a> </td>
+    <td> <a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a>, <a href='/src/RossLazarus/index.md'>Ross Lazarus</a> </td>
   </tr>
   <tr>
     <th> September 30 - October 2 </th>
     <td> <em>TBA</em>, part of the <em><a href='http://individualizingmedicineconference.mayo.edu/schedule/'>Cancer Care</a></em> session </td>
     <td> <a href='http://individualizingmedicineconference.mayo.edu/'>Individualizing Medicine Conference</a>, <a href='http://mayo.eduy/'>Mayo Clinic</a>, Rochester, Minnesota, United States </td>
-    <td> <a href='/JamesTaylor'>James Taylor</a> </td>
+    <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 1-3 </th>
     <td> <em><a href='http://www.beyond-the-genome.com/program/'>Galaxy</a></em> </td>
     <td> </strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a><strong>,San Francisco, California, United States </td>
-    <td> <a href='/JeremyGoecks'>Jeremy Goecks</a> </td>
+    <td> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th rowspan=2> October 7-8 </th>
     <td> <em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>TBD</a></em></td>
     <td rowspan=2> <a href='http://www.gtcbio.com/conference/ngseurope-overview'>NGS & Bioinformatics Summit Europe</a> </td>
-    <td> <a href='/anton'>Anton Nektutenko</a> </td>
+    <td> <a href='/src/anton/index.md'>Anton Nektutenko</a> </td>
   </tr>
   <tr>
     <td> <em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>Using Galaxy to Provide a NGS Analysis Platform</a> </em> </td>
-    <td> <a href='/HansrudolfHotz'>Hans-Rudolf Hotz</a> </td>
+    <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> October 8-11 </th>
@@ -238,7 +238,7 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
     <th> October 22-26 </th>
     <td> <em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#high'>High Throughput Data Analysis and Visualization with Galaxy</a></em> </td>
     <td> <a href='http://www.ashg.org/2013meeting/'>ASHG 2013</a>, Boston, Massachusetts, United States </td>
-    <td> <a href='/anton'>Anton Nekrutenko</a>, <a href='/JenniferJackson'>Jennifer Jackson</a> </td>
+    <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a> </td>
   </tr>
 </table>
 
@@ -250,9 +250,9 @@ The most recent official distribution was on [June 3, 2013](/src/DevNewsBriefs/2
 
 ## CloudMan Release
 
-<div class='right'><a href='/CloudMan'><img src='/Images/Logos/CloudManWideBlackLogo.png' alt='CloudMan' width="300" /></a></div>
+<div class='right'><a href='/src/CloudMan/index.md'><img src="/src/Images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
 
-A new version of [/CloudMan](/src/CloudMan/index.md) was [released in July](/src/News/CloudManRelease/index.md).
+A new version of [CloudMan](/src/CloudMan/index.md) was [released in July](/src/News/CloudManRelease/index.md).
 
 CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
@@ -261,7 +261,7 @@ CloudMan offers an easy way to get a personal and completely functional instance
 Any new cluster will automatically start using this version of CloudMan. Existing clusters will be given an option to do an automatic update once the main interface page is refreshed. Note that this upgrade is a major version upgrade and thus the migration is rather complicated. The migration process has been automated but will take a little while to complete. If you have made customizations to your cluster in terms of adding file systems, upgrading the database, or similar, we do not recommend you perform the upgrade. Note that this upgrade comes with (and requires) a new AMI (ami-118bfc78), which will automatically be used when starting an instance via [CloudLaunch](http://usegalaxy.org/cloudlaunch).
 
 **This update brings a large number of updates and new features, the most prominent ones being:**
-* Unification of `galaxyTools` and `galaxyData` file systems into a single `galaxy` filesystem. This change makes it possible to utilize the [Galaxy Tool Shed](/Tool Shed) when installing tools into Galaxy.
+* Unification of `galaxyTools` and `galaxyData` file systems into a single `galaxy` filesystem. This change makes it possible to utilize the [Galaxy Tool Shed](/src/Tool Shed/index.md) when installing tools into Galaxy.
 * Added initial support for Hadoop-type workloads
 * Added initial support for cluster federation via HTCondor
 * Added a new file system service for an instance's transient storage, allowing it to be used across the cluster over NFS
@@ -275,7 +275,7 @@ For more details on the new features, see the the [CHANGELOG](https://bitbucket.
 
 # Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Tool Shed' width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 * [varscan](http://bit.ly/12cDtT2): mutation callers for targeted, exome, & whole-genome resequencing; cancer genomics 
 * [jointsnvmix](http://bit.ly/153MT1x): Somatic mutations caller using probabilistic graphical model w/ tumour/normal pairs 
@@ -301,3 +301,4 @@ For more details on the new features, see the the [CHANGELOG](https://bitbucket.
 * [Announcement for 2013 ISCB Wikipedia competition](http://bit.ly/15eEzxy); The [Galaxy page](http://bit.ly/gxywp) is eligible.
 * Follow [Saket Choudhary's Google Summer of Code Galaxy project work on Blogspot](http://bit.ly/1abz1bv)
 * [bioblend 0.3.3](http://bit.ly/1brfjsL): CloudMan and Galaxy API library documentation at !ReadTheDocs.
+

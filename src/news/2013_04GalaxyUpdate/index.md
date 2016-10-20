@@ -1,9 +1,6 @@
----
-date: 2013-04-01T20:44:17Z
----
 <div class='newsItemHeader'>[April 2013 Galaxy Update](/src/News/2013_04GalaxyUpdate/index.md)</div>
 
-<div class='right'><a href='/GalaxyUpdates/2013_04'><img src='/Images/Logos/GalaxyUpdate200.png' alt='April 2013 Galaxy Update' width=150 /></a></div>
+<div class='right'><a href='/src/GalaxyUpdates/2013_04/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="April 2013 Galaxy Update" width=150 /></a></div>
 
 The [April 2013 Galaxy Update is now available](/src/GalaxyUpdates/2013_04/index.md). 
 
@@ -23,5 +20,6 @@ If you have anything you would like to see in the May *[Galaxy Update](/src/Gala
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-04-01</div>
 
 CategoryNews

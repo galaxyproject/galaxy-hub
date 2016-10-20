@@ -1,7 +1,7 @@
 ---
 title: Galaxy Biostars
 ---
-<div class='center'><a href='https://biostar.usegalaxy.org/'><img src='/Images/Logos/GalaxyBiostar.png' alt='Galaxy Biostar'  /></a></div>
+<div class='center'><a href='https://biostar.usegalaxy.org/'><img src="/src/Images/Logos/GalaxyBiostar.png" alt="Galaxy Biostar"  /></a></div>
 
 
 
@@ -12,7 +12,7 @@ Galaxy Biostars is at **[https://biostar.usegalaxy.org/](https://biostar.usegala
 
 ## Introduction
 
-<div class='right'><a href='https://www.biostars.org/'><img src='/Images/Logos/BiostarLogo.png' alt='Biostar' width="180" /></a></div>
+<div class='right'><a href='https://www.biostars.org/'><img src="/src/Images/Logos/BiostarLogo.png" alt="Biostar" width="180" /></a></div>
 
 [Galaxy Biostars](https://biostar.usegalaxy.org/) is an instance of the popular Q&A site [Biostars](https://www.biostars.org/), runs at [https://biostar.usegalaxy.org/](https://biostar.usegalaxy.org/) and is aimed directly at the needs of the Galaxy community. The software is open source at [GitHub](https://github.com/ialbert/biostar-central) and the running version is under control of the Galaxy Team.
 
@@ -23,6 +23,7 @@ Galaxy Biostars is a community forum-like platform for asking specific questions
 Galaxy Biostars is directly integrated into the [Galaxy](http://usegalaxy.org) user interface and is available right when help is wanted!
 
 #### Sharing Accounts
+
 <div class='left'>![Go to Galaxy Biostars](/src/Images/Screenshots/BiostarUserMenu.png)</div>
 
 Every user on the public [Main Galaxy](/src/Main/index.md) server can access Galaxy Biostar directly through the menu **Help &rarr; Galaxy Biostar**. 
@@ -43,6 +44,7 @@ Every tool page has two options to reach Galaxy Biostars in the top right corner
 <br />
 
 * **Search** queries the Galaxy Biostars forum for posts about the current tool and opens a new tab in your browser with the results. **Try this first**.
+
 <br />
 * **Question?** opens a form for creating a new Galaxy Biostars question with pre-filled information about the tool.
 

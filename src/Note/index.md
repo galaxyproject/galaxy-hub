@@ -1,8 +1,7 @@
 
-
 # List of Galaxy Notes
 
-PLACEHOLDER_FULL_SEARCH_CACHE(category:Note)
+PLACEHOLDER_FULL_SEARCH_CACHED(category:Note)
 
----
+----
 CategoryCategory

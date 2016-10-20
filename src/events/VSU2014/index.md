@@ -1,8 +1,8 @@
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <br /><a href='http://vsu.edu/'><img src='/Images/Logos/VSULogo.jpg' alt='Virginia State University' width="300" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <br /><a href='http://vsu.edu/'><img src="/src/Images/Logos/VSULogo.jpg" alt="Virginia State University" width="300" /></a> </td>
     <td style=" border: none; width: 5%;"> </td>
-    <td style=" border: none;"> <div class='title'>Introduction to Galaxy</div></strong>December 12, 2014, 10:00-3:00<strong><br /><br />Instructor: <a href='/DaveClements'>Dave Clements</a><br /><a href='http://bit.ly/1wQ5A9l'>VSU Engineering Building</a>, Room 205<br /><a href='http://vsu.edu/'>Virginia State University</a><br />Petersburg, Virginia, United States </td>
+    <td style=" border: none;"> <div class='title'>Introduction to Galaxy</div></strong>December 12, 2014, 10:00-3:00<strong><br /><br />Instructor: <a href='/src/DaveClements/index.md'>Dave Clements</a><br /><a href='http://bit.ly/1wQ5A9l'>VSU Engineering Building</a>, Room 205<br /><a href='http://vsu.edu/'>Virginia State University</a><br />Petersburg, Virginia, United States </td>
   </tr>
 </table>
 
@@ -73,8 +73,8 @@ The workshop is being held in Room 205 of the [VSU Engineering Building](http://
 Please bring a wi-fi enabled laptop to the workshop.
 
 <div class='right'>
-<a href='http://www.cnhs.vsu.edu/index.php'><img src='/Images/Logos/VSULogo.jpg' alt='College of Natural and Health Sciences' width="165" /></a>
-<br /><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a>
+<a href='http://www.cnhs.vsu.edu/index.php'><img src="/src/Images/Logos/VSULogo.jpg" alt="College of Natural and Health Sciences" width="165" /></a>
+<br /><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a>
 </div>
 
 ## Support
@@ -96,4 +96,4 @@ Please take a few minutes to provide [your feedback](http://bit.ly/gxyvs2014) on
 Please print, post and distribute [the workshop flier|&do=get](ATTACHMENT_URLVSUFlier.pdf)<br />at your organization, and or events.
 ## Questions?
 
-Contact [gcharris AT vsu DOT edu](Glenn Harris) or [outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [mailto:gcharris AT vsu DOT edu](Glenn Harris) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).

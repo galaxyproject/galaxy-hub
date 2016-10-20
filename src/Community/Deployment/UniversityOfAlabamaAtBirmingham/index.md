@@ -2,7 +2,7 @@
 title: Name of Deployment
 ---
 <div class='center'>
-<a href='http://uab.edu'><img src='/Images/Logos/UABLogo.png' alt='University of Alabama Birmingham'  /></a>
+<a href='http://uab.edu'><img src="/src/Images/Logos/UABLogo.png" alt="University of Alabama Birmingham"  /></a>
 </div>
 
 
@@ -29,9 +29,7 @@ NGS analysis: Genomics (reference and de novo), RNAseq, metagenomics, custom too
 
 ## Community
 
-
 ## Compute Infrastructure
-
 
 ### Compute
 
@@ -47,7 +45,6 @@ NGS analysis: Genomics (reference and de novo), RNAseq, metagenomics, custom too
 
 ## Customizations
 
-
 ## Limitations and Challenges
 
 ### Configuration and Setup
@@ -55,7 +52,5 @@ NGS analysis: Genomics (reference and de novo), RNAseq, metagenomics, custom too
 ### Maintaining and Meeting Needs
 
 ## Links
-
-
 
 CategoryDeployment

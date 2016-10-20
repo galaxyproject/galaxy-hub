@@ -1,10 +1,10 @@
 ---
 autotoc: true
-title: 2012, /, 07, /, 09 Conference Call
+title: 2012/07/09 Conference Call
 ---
-<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 
 
@@ -20,15 +20,15 @@ The group's [first conference call](http://dev.list.galaxyproject.org/Galaxy-Cza
 
 # Agenda
 
-* [Logistics](#logistics): Address how we want to tackle these calls. Go over generic agenda. Frequency of calls
-* [Group Goals](#goals): what do we want to accomplish with this group beyond discussions/sharing?
-* [Presentation](#galaxy-at-iowa): Galaxy at Iowa: Discuss our issues with big data, how NGS tools take in/output data and finding the right storage server solution.
-* [Open Mic](#open-mic) & recruit new volunteers for the next call.
-* [Break out at Galaxy Community Conference](#gcc2012-breakout)
+* [Logistics](/src/Community/GalaxyAdmins/Meetups/2012_07_09/index.md#logistics): Address how we want to tackle these calls. Go over generic agenda. Frequency of calls
+* [Group Goals](/src/Community/GalaxyAdmins/Meetups/2012_07_09/index.md#goals): what do we want to accomplish with this group beyond discussions/sharing?
+* [Presentation](/src/Community/GalaxyAdmins/Meetups/2012_07_09/index.md#galaxy-at-iowa): Galaxy at Iowa: Discuss our issues with big data, how NGS tools take in/output data and finding the right storage server solution.
+* [Open Mic](/src/Community/GalaxyAdmins/Meetups/2012_07_09/index.md#open-mic) & recruit new volunteers for the next call.
+* [Break out at Galaxy Community Conference](/src/Community/GalaxyAdmins/Meetups/2012_07_09/index.md#gcc2012-breakout)
 
 ## Logistics
 
-<div class='right'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyCzars.png' alt='GalaxyCzars' width="150" /></a></div>
+<div class='right'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
 
 ### Generic Call Agenda
 
@@ -102,4 +102,4 @@ There will be a [GalaxyCzars](/src/Community/GalaxyAdmins/index.md) breakout ses
 
 ## Next Meeting
 
-The next [conference call](/src/Community/GalaxyAdmins/Meetups/index.md) will happen in September.  If you have a large Galaxy installation, please consider telling the group about it.
+The next [conference call](/src/Community/GalaxyAdmins/Meetups/2012_07_09//index.md) will happen in September.  If you have a large Galaxy installation, please consider telling the group about it.

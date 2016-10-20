@@ -1,9 +1,9 @@
 ---
-title: 2012, /, 09, /, 19 Conference Call
+title: 2012/09/19 Conference Call
 ---
-<div class='center'><a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' /></a></div>
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
-PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 
 
@@ -11,7 +11,6 @@ PLACEHOLDER_INCLUDE(/Community/GalaxyAdmins/LinkBox)
 
 * [Slides](ATTACHMENT_URL2012-09-19-Galaxy_Managers-UFL-Moskalenko.pdf): Alex Moskalenko: 2012-09-19-Galaxy_Managers-UFL-Moskalenko.pdf
 * [Screencast](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262330108904_1348060268057): Unfortunately the recording starting a bit late for our up front discussion about logistics (name change/common time).  But it began right after Alex starting his presentation (the important part!). 
-
 
 ## Meeting Summary
 
@@ -34,7 +33,4 @@ Special thanks to Alex Moskalenko for presenting!
 
 ## Next Meeting
 
-
-
-
-The next [conference call](/src/Community/GalaxyAdmins/Meetups/index.md) will happen in November.   We are looking for January Volunteers! If you have a large Galaxy installation, please consider telling the group about it.
+The next [conference call](/src/Community/GalaxyAdmins/Meetups/2012_09_19//index.md) will happen in November.   We are looking for January Volunteers! If you have a large Galaxy installation, please consider telling the group about it.

@@ -1,9 +1,10 @@
 <div class='right'> 
 ![Tool Shed logo](/src/Images/Logos/ToolShed.jpg)
-PLACEHOLDER_INCLUDE(/ToolShed/LinkBox)  
+PLACEHOLDER_INCLUDE(/src/ToolShed/LinkBox/index.md)  
 </div>
 
 # Installing Tool Shed Repositories into a Local Galaxy
+
 The process for installing repositories that include tools from a tool shed into a local Galaxy instance includes automated features that provide several benefits:
 
 * Virtual one-click tool installation for tools with no dependencies (or whose dependencies are already available in the Galaxy environment's path).
@@ -49,15 +50,15 @@ For those tools that include dynamically generated select list parameters that r
 
 Assume we're logged in as an "admin" user to a Galaxy instance whose tool panel looks like the panel in the following screen shot. Notice that the **Filter and Sort** tool panel section includes 2 tools, "Sort data in ascending or descending order" and "Select lines that match an expression". We want to install the filter tool that we uploaded to the Galaxy tool shed in previous sections of this document.
 
-![](/galaxy_home.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/galaxy_home.png)
 
 Clicking the **Admin** link in the top Galaxy tool panel displays the Galaxy Administration interface. Notice the sections in the blue left menu panel. We'll be taking a look at the **Tool sheds** section where we have the option to **Search and browse tool sheds**.
 
-![](/galaxy_admin_home.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/galaxy_admin_home.png)
 
 Clicking the **Search and browse tool sheds** link displays the **Accessible Galaxy tool sheds** page. These links to the various tool sheds are defined in the tool_sheds_conf.xml file in the Galaxy installation directory.
 
-![](/accessible_tool_sheds.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/accessible_tool_sheds.png)
 
 The file that produces the links to the 3 tool sheds shown in the page above looks like this:
 
@@ -73,35 +74,35 @@ The file that produces the links to the 3 tool sheds shown in the page above loo
 
 Each tool shed link includes a pop-up menu that allows you to browse valid repositories or search for tools or workflows. See the **Search repositories for valid tools by any combination of id, name or version** and the **Search repositories for workflows by name** topic sections above for details about each of these respective features.
 
-![](/tool_shed_popup.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/tool_shed_popup.png)
 
 Clicking the Galaxy main tool shed link (the same feature as the **Browse valid repositories** option in the tool shed pop-up menu) displays tool repositories from the main production tool shed hosted at Penn State University. The list of repositories is filtered so that only repositories considered "valid" are displayed. A repository is valid if it has at least 1 set of repository metadata. See the **Repository revisions: uploading a new version of an existing tool** topic section above for details about repository metadata.
 
-![](/main_tool_shed.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/main_tool_shed.png)
 
 In previous sections of this document we uploaded our filter tool to our Bx tool shed, so we'll click the link to that tool shed in the **Accessible Galaxy tool sheds** page to browse for the tool. Locating our filter tool is easy since our Bx tool shed currently contains only the single repository.
 
-![](/bx_tool_shed.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/bx_tool_shed.png)
 
 Clicking the pop-up menu next to the repository name enables us to preview and install our filter tool.
 
-![](/preview_and_install.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/preview_and_install.png)
 
 Clicking the **Preview and install** option from the pop-up menu in the screen shot above displays the following page. Notice that this page looks similar to the same-titled section of the **View repository** and **Manage repository** pages described in previous sections of this document. Here you can preview the tool and inspect its metadata in the same way that you can on those pages. The **Revision** field on this page is also similar in that it becomes a select field when more than 1 repository revision is associated with a repository metadata record.
 
-![](/install_filter_tool.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/install_filter_tool.png)
 
 Clicking the **Install to local Galaxy** button in the upper right corner of the above page displays the following page. Note the warnings on this page, they're both very important! This page allows us to select the section of our Galaxy tool panel where we want the installed filter tool to be located. We'll select the **Filter and Sort** tool panel section and click the **Install** button.
 
-![](/select_tool_panel_section.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/select_tool_panel_section.png)
 
 After clicking the **Install** button and waiting for the tool installation to finish, we are presented with the following message.
 
-![](/tool_installed.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/tool_installed.png)
 
 Clicking the **Analyze Data** option in the top Galaxy too menu and then checking the **Filter and Sort** tool panel section shows us that our tool is loaded and ready to use.
 
-![](/filter_tool_installed.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/filter_tool_installed.png)
 
 Now that the tool is installed, lets take a look at the shed_tool_conf.xml file. It now looks something like the following. Notice that the tool files were installed in the relative directory "../shed_tools/gvk.bx.psu.edu/repos/greg/filter/897bb218d0cf/filter" and that the tool's **guid** attribute is "gvk.bx.psu.edu:9009/repos/greg/filter/Filter1/1.0.1".
 
@@ -133,10 +134,10 @@ See this [related page](http://wiki.galaxyproject.org/ToolShedToolFeatures#Autom
 To demonstrate how data types included in installed tool shed repositories are handled by Galaxy, assume we're the administrator for a Galaxy instance where all of the Emboss datatypes have been removed from the **datatypes_conf.xml** file.
 Let's take a look at what happens when we install the **emboss_datatypes** repository from the main Galaxy tool shed into our local Galaxy instance.
 
-![](/install_emboss_datatypes.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/install_emboss_datatypes.png)
 Since the **emboss_datatypes** repository does not include any tools, selecting a tool panel section is not necessary.
 
-![](/installed_emboss_datatypes.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/installed_emboss_datatypes.png)
 Inspecting the paster log during the installation confirms that after the repository was installed, all of the included Emboss data types were loaded into our local Galaxy instance's datatypes registry.
 
 ```
@@ -197,20 +198,20 @@ See this [related page](http://wiki.galaxyproject.org/DefiningRepositoryDependen
 
 In some cases installing a repository into a Galaxy instance may result in errors.  When this happens the repository's status attribute will be set to an error state, and the repository will be displayed similar to the example shown in the following page.
 
-![](/filter_installation_error.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/filter_installation_error.png)
 
 Clicking on the link associated with the name of repositories in an error state will display a page like the following, along with an error message.  The error displayed under the label **Repository installation error:** on this page should be sufficient information to enable resolving the problem that occurred during installation (most likely a problem in the Galaxy file system environment, a network problem etc).  When the problem is resolved, select the **Reset to install** option in the repository's popup menu.
 
-![](/reset_to_install_popup.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/reset_to_install_popup.png)
 
 When the **Reset to install** option is selected, the repository's installation directory on disk is cleaned up, certain repository attributes are reset, and the status of the repository is set to 'New' as shown in the page below.
 
-![](/repository_state_reset_to_new.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/repository_state_reset_to_new.png)
 
 At this point the repository's pop-up menu includes an option to install the repository.
 
-![](/install_popup.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/install_popup.png)
 
 If the problem was resolved, you should now be able to successfully install the repository.
 
-![](/installed_successfully.png)
+![](/src/ToolShed/InstallingRepositoriesToGalaxy/installed_successfully.png)

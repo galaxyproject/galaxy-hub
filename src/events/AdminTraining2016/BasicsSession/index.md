@@ -1,12 +1,12 @@
 ---
 autotoc: true
-title: Galaxy Admin Training, :,  Basic Topics
+title: Galaxy Admin Training: Basic Topics
 ---
-PLACEHOLDER_INCLUDE(/Events/AdminTraining2016/Header)
+PLACEHOLDER_INCLUDE(/src/Events/AdminTraining2016/Header/index.md)
 
 
 
-<div class='right'>PLACEHOLDER_INCLUDE(/events/AdminTraining2016/LinkBox)</div>
+<div class='right'>PLACEHOLDER_INCLUDE(/src/Events/AdminTraining2016/BasicsSession/LinkBox/index.md)</div>
 
 **November 7-8, Salt Lake City Library**
 
@@ -190,7 +190,7 @@ This two day workshop will cover the big picture, and installation, configuratio
   </tr>
   <tr>
     <th style=" text-align: right;"> 7:00pm </th>
-    <td> Introduction to Galaxy Architecture <span style="font-size: smaller;"> (Joint session with the <a href='/Events/AdminTraining2016/AdvancedSession'>Advanced Topics session</a>) </span> </td>
+    <td> Introduction to Galaxy Architecture <span style="font-size: smaller;"> (Joint session with the <a href='/src/Events/AdminTraining2016/AdvancedSession/index.md'>Advanced Topics session</a>) </span> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:20pm </th>
@@ -206,11 +206,11 @@ This two day workshop will cover the big picture, and installation, configuratio
 
 
 <div class='right'><br />
-<a href='http://www.slcpl.lib.ut.us/branches/view/Main+Library'><img src='/Events/AdminTraining2016/SLCLibrary1.jpg' alt='alt Lake City Main Public Library, the venue for the introduction workshop'  /></a>
+<a href='http://www.slcpl.lib.ut.us/branches/view/Main+Library'><img src="/src/Events/AdminTraining2016/SLCLibrary1.jpg" alt="alt Lake City Main Public Library, the venue for the introduction workshop"  /></a>
 </div>
 
 ## Venue
 
 The **introductory training workshop will be held at the [Salt Lake City Main Public Library](http://www.slcpl.lib.ut.us/branches/view/Main+Library).**  This [stunning venue](https://www.google.com/search?tbm=isch&q=salt+lake+city+library) is located in downtown Salt Lake City at [210 East 400 South](https://drive.google.com/open?id=1vC6J8BdrMDQo_cIJvTr9pjUGGcA&usp=sharing), and is a stop on the [UTA TRAX Red Line](https://www.rideuta.com/Rider-Tools/Schedules-and-Maps/703-Red-Line) and just [5 stops from conference housing](https://drive.google.com/open?id=1vC6J8BdrMDQo_cIJvTr9pjUGGcA&usp=sharing).  We'll be meeting in [Conference Room 4](http://www.slcpl.lib.ut.us/rooms/) .
 
-PLACEHOLDER_INCLUDE(/events/AdminTraining2016/Footer)
+PLACEHOLDER_INCLUDE(/src/Events/AdminTraining2016/BasicsSession/Footer/index.md)

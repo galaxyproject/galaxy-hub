@@ -1,9 +1,6 @@
----
-date: 2014-01-07T00:37:33Z
----
 <div class='newsItemHeader'>[GCC2014 Training Day Topics: Vote!](/src/News/GCC2014TrainingDayVoting/index.md)</div>
 
-<div class='right'><a href='/Events/GCC2014/TrainingDay'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014 Training Day' width="150" /></a></div>
+<div class='right'><a href='/src/Events/GCC2014/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2014LogoTall200.png" alt="GCC2014 Training Day" width="150" /></a></div>
 
 What topics should be offered at the [GCC2014 Training Day](/src/Events/GCC2014/TrainingDay/index.md)?
 
@@ -13,7 +10,7 @@ What topics should be offered at the [GCC2014 Training Day](/src/Events/GCC2014/
 
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <a href='/Events/GCC2014/TrainingDay'>Vote now!</a> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <a href='/src/Events/GCC2014/TrainingDay/index.md'>Vote now!</a> &nbsp;&nbsp; </th>
   </tr>
 </table>
 
@@ -29,5 +26,6 @@ Thanks,
 
 The [GCC2014 Organizing Committee](/src/Events/GCC2014/Organizers/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-01-07</div>
 
 CategoryNews

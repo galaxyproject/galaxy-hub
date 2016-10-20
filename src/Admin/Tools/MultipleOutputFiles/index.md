@@ -135,7 +135,7 @@ The Galaxy Tool Factory includes code to gather all output files and create a pa
 
 ### Composite Datatypes
 
-Html is a subclass of composite datasets so new subclasses of composite can be used to implement even more specific structured outputs (as seen with Rgenetics) but this requires adding the new definition to Galaxy - whereas Html files require no extension of the core framework. For more information visit [CompositeDatatypes](../../../Admin/Datatypes/Composite Datatypes). 
+Html is a subclass of composite datasets so new subclasses of composite can be used to implement even more specific structured outputs (as seen with Rgenetics) but this requires adding the new definition to Galaxy - whereas Html files require no extension of the core framework. For more information visit [CompositeDatatypes](/src/Admin/Datatypes/Composite Datatypes/index.md). 
 
 ## Number of Output datasets cannot be determined until tool run
 

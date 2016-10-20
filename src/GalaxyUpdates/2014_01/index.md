@@ -6,7 +6,7 @@ title: January 2014 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/GalaxyUpdates'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the January 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -16,14 +16,14 @@ December saw the launch of two *[Galaxy community hubs](/src/Community/index.md)
 
 ## Galaxy Community Log Board
 
-<div class='left'><a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' width="200" /></a></div>
+<div class='left'><a href='/src/Community/Logs/index.md'><img src="/src/Images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="200" /></a></div>
 
 The *[Galaxy Community Log Board](/src/Community/Logs/index.md)* is a place to share how you addressed a particular task in your Galaxy deployment.  Log entries describe specific solutions to particular tasks, such as the [details of what steps were taken to deploy Galaxy on particular platforms](/src/Community/Log/2013/URGIVirtualisation/index.md), or [specific stumbling blocks when configuring Galaxy](/src/Community/Log/2013/Example/index.md).  Solutions can be [described on this wiki](/src/Community/Log/2013/Example/index.md), or just [some metadata and a link to the description elsewhere](http://wiki.galaxyproject.org/Community/Log/2013/UsingBioServicesWithGalaxy).  Log entries are an easy way to help others (and learn from others) by sharing what you've already done.  If you have figured out or documented how to do something, then this is the ideal forum for sharing that information with the community.
 
 <div class='left'>
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <a href='/Community/Logs#add-a-log-page'>Share your experience</a> </em><a href='/Community/Logs#add-a-log-page'>now</a><em> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> &nbsp;&nbsp; </th>
   </tr>
   <tr>
     <td style=" border: none; text-align: center;"> <span style="font-size: smaller;"> C'mon, it will make you feel good! </span> </td>
@@ -36,12 +36,12 @@ The [Galaxy Community Log Board](/src/Community/Logs/index.md) describes how thi
 
 ## Galaxy Deployment Catalog
 
-<div class='left'><a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' width="150" /></a></div> 
+<div class='left'><a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="150" /></a></div> 
 
 <div class='right'>
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <a href='/Community/Deployments#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/Community/Logs#add-a-log-page'>now</a><em> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> &nbsp;&nbsp; </th>
   </tr>
   <tr>
     <td style=" border: none; text-align: center;"> <span style="font-size: smaller;"> All the cool researchers are doing it! </span> </td>
@@ -61,7 +61,7 @@ If you have a Galaxy deployment then please [take a few minutes to describe your
 <div class='right'>
 <table>
   <tr>
-    <td colspan=2 style=" text-align: center; border: none;"> <span style="font-size: larger;"> </strong><a href='/Events/Archive'>2013 Events</a><strong> </span> </td>
+    <td colspan=2 style=" text-align: center; border: none;"> <span style="font-size: larger;"> </strong><a href='/src/Events/Archive/index.md'>2013 Events</a><strong> </span> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 200+ </th>
@@ -157,7 +157,7 @@ This brings the total number of papers to 1330.
 
 # Who's Hiring
 
-<div class='right'><a href='/GalaxyIsHiring'><img src='/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png' alt='Please Help! Yes you!' width="200" /></a></div>
+<div class='right'><a href='/src/GalaxyIsHiring/index.md'><img src="/src/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -177,7 +177,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-<div class='right'><a href='/Events/GCC2014'><img src='/Images/Logos/GCC2014LogoTall200.png' alt='GCC2014: June 30 - July 2' width="150" /></a></div>
+<div class='right'><a href='/src/Events/GCC2014/index.md'><img src="/src/Images/Logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="150" /></a></div>
 
 The [2014 Galaxy Community Conference (GCC2014)](/src/Events/GCC2014/index.md) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
@@ -189,11 +189,11 @@ Watch the [Galaxy Mailing Lists](/src/MailingLists/index.md) for announcements a
 
 *[Training Day](/src/Events/GCC2014/TrainingDay/index.md)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There will be 4 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 12 sessions and 30 hours of workshop material.*
 
-<div class='right'><br /><br /><a href='http://www.sgi.com/solutions/genomics/'><img src='/Images/Logos/SGILogo400.jpg' alt='SGI' width="120" /></a></div>
+<div class='right'><br /><br /><a href='http://www.sgi.com/solutions/genomics/'><img src="/src/Images/Logos/SGILogo400.jpg" alt="SGI" width="120" /></a></div>
 
 ### Sponsorships
 
-<div class='left'><a href='http://www.emc.com/isilon'><img src='/Images/Logos/EMCIsilonLogo.jpg' alt='EMC Isilon' width="200" /></a><br />
+<div class='left'><a href='http://www.emc.com/isilon'><img src="/src/Images/Logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="200" /></a><br />
 </div>
  
 We are pleased to announce several new [sponsorships](/src/Events/GCC2014/SponsorExhibit/index.md) for GCC2014.  First, [EMC Isilon](http://www.emc.com/isilon) will be a Gold Sponsor for the third year in a row, and  [SGI](http://www.sgi.com/) will a [Gold Sponsor](/src/Events/GCC2014/SponsorExhibit/index.md) for the first time.
@@ -207,11 +207,11 @@ Also please welcome three new [Silver Sponsors](/src/Events/GCC2014/SponsorExhib
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='http://globus.org/genomics'><img src='/Images/Logos/GlobusGenomics.png' alt='Globus Genomics' width="140" /></a> </td>
+    <td style=" border: none;"> <a href='http://globus.org/genomics'><img src="/src/Images/Logos/GlobusGenomics.png" alt="Globus Genomics" width="140" /></a> </td>
     <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td style=" border: none; text-align: center;"> <a href='http://www.gigasciencejournal.com/'><img src='/Images/Logos/GigaScienceLogo250.png' alt='GigaScience Journal' width="130" /></a> <span style="font-size: smaller;"> <br />&nbsp;<br /> </span> <a href='http://www.biomedcentral.com/'><img src='/Images/Logos/BMCLogo200.png' alt='BioMed Central, The Open Access Publisher' width="130" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://www.gigasciencejournal.com/'><img src="/src/Images/Logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="130" /></a> <span style="font-size: smaller;"> <br />&nbsp;<br /> </span> <a href='http://www.biomedcentral.com/'><img src="/src/Images/Logos/BMCLogo200.png" alt="BioMed Central, The Open Access Publisher" width="130" /></a> </td>
     <td style=" border: none; width: 5%; text-align: center;"> </td>
-    <td style=" border: none; text-align: center;"> <a href='http://www.abgenomica.com/'><img src='/Cloud/ABgenomicaLogo.jpg' alt='ABgenomica' width="150" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://www.abgenomica.com/'><img src="/src/Cloud/ABgenomicaLogo.jpg" alt="ABgenomica" width="150" /></a> </td>
   </tr>
 </table>
 
@@ -225,22 +225,22 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/Spon
 
 ## 2013 Galaxy Day Report
 
-<div class='right'><a href='http://wiki.sb-roscoff.fr/ifb/index.php/Accueil'><img src='/Images/Logos/GalaxyIFB.png' alt='Galaxy Day' width="150" /></a></div>
+<div class='right'><a href='http://wiki.sb-roscoff.fr/ifb/index.php/Accueil'><img src="/src/Images/Logos/GalaxyIFB.png" alt="Galaxy Day" width="150" /></a></div>
 
 The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) took place at Institut Curie in Paris, 4 December.  Program and slides for all presentations are [available online](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil).  A [meeting summary is also available](/src/News/GalaxyDay2013Report/index.md).
 
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src='/Images/Icons/CalendarIcon.gif' /></a></div> There are several events of interest in the next few months. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> There are several events of interest in the next few months. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
 <div class='center'> 
-<a href='/Events/PAG_GMOD_2014'><img src='/Images/Logos/PAGLogo114.png' alt='Galaxy @ Plant and Animal Genome (PAG 2014)' height="80" /></a>
-<a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'><img src='/Images/Logos/GMOD2014.png' alt='2014 GMOD Meeting' height="70" /></a> &nbsp;
-<a href='http://www.supagro.fr/web/pages/?idl=19&page=498&id_page=2666'><img src='/Images/Logos/SupAgroMontpelierLogo.jpg' alt='Analyse Bioinformatique de séquences pour l'amélioration des plantes' height="60" /></a>
-<a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'><img src='/Images/Logos/PRABILogo.png' alt='RNA-Seq & ChIP-Seq analysis course using Galaxy' height="60" /></a>
+<a href='/src/Events/PAG_GMOD_2014/index.md'><img src="/src/Images/Logos/PAGLogo114.png" alt="Galaxy @ Plant and Animal Genome (PAG 2014)" height="80" /></a>
+<a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'><img src="/src/Images/Logos/GMOD2014.png" alt="2014 GMOD Meeting" height="70" /></a> &nbsp;
+<a href='http://www.supagro.fr/web/pages/?idl=19&page=498&id_page=2666'><img src="/src/Images/Logos/SupAgroMontpelierLogo.jpg" alt="Analyse Bioinformatique de séquences pour l'amélioration des plantes" height="60" /></a>
+<a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'><img src="/src/Images/Logos/PRABILogo.png" alt="RNA-Seq & ChIP-Seq analysis course using Galaxy" height="60" /></a>
 
 </div>
 
@@ -254,22 +254,22 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
   <tr>
     <th rowspan=3> January 11-15 </th>
     <td> </em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2298.html'>Galaxy for NGS Data Analysis: A Hands-on Computer Demo</a><em> </td>
-    <td rowspan=3> </strong><a href='/Events/PAG_GMOD_2014'>Plant and Animal Genome XXII (PAG 2014)</a><strong>, San Diego, California, United States </td>
-    <td rowspan=1> <a href='/DaveClements'>Dave Clements</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
+    <td rowspan=3> </strong><a href='/src/Events/PAG_GMOD_2014/index.md'>Plant and Animal Genome XXII (PAG 2014)</a><strong>, San Diego, California, United States </td>
+    <td rowspan=1> <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
   </tr>
   <tr>
     <td> </em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>Galaxy Cloudman: A Gentle Introduction to Data Analysis on the Cloud</a><em><div class='indent'>Part of the <a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>GMOD Workshop</a></div> </td>
-    <td rowspan=1> <a href='/DaveClements'>Dave Clements</a>, <a href='http://gmod.org/wiki/User:Scott'>Scott Cain</a> </td>
+    <td rowspan=1> <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://gmod.org/wiki/User:Scott'>Scott Cain</a> </td>
   </tr>
   <tr>
-    <td> Plus <a href='/Events/PAG_GMOD_2014'>2 more talks and 4 posters</a> </td>
-    <td> See <a href='/Events/PAG_GMOD_2014'>list</a> </td>
+    <td> Plus <a href='/src/Events/PAG_GMOD_2014/index.md'>2 more talks and 4 posters</a> </td>
+    <td> See <a href='/src/Events/PAG_GMOD_2014/index.md'>list</a> </td>
   </tr>
   <tr>
     <th> January 16-17 </th>
     <td> <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'>2014 GMOD Meeting</a> </td>
     <td> San Diego, California, United States </td>
-    <td> <a href='/DaveClements'>Dave Clements</a>, <a href='http://gmod.org/wiki/User:Scott'>Scott Cain</a> </td>
+    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://gmod.org/wiki/User:Scott'>Scott Cain</a> </td>
   </tr>
   <tr>
     <th> February 10-14 </th>
@@ -287,7 +287,7 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
     <th> February 12-15 </th>
     <td> <a href='http://www.agbt.org/'>Advances in Genome Biology and Technology (AGBT)</a> </td>
     <td> Marco Island, Florida, United States </td>
-    <td> <a href='/anton'>Anton Nekrutenko</a> </td>
+    <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> February 26-28 </th>
@@ -311,13 +311,13 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
     <th> March 26-30 </th>
     <td> </em>Galaxy toolset for Drosophila genomics<em><div class='indent'>and one-on-one help in the Flybase Demonstrations Room</div> </td>
     <td> <a href='http://www.genetics-gsa.org/drosophila/2014/'>Drosophila Research Conference</a>, San Diego, California, United States </td>
-    <td> <a href='/anton'>Anton Nekrutenko</a>, <a href='/JenniferJackson'>Jen Jackson</a> </td>
+    <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/JenniferJackson/index.md'>Jen Jackson</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>
     <td> </em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a><em> </td>
     <td> <a href='http://www.mipro.hr/CallForPapers/tabid/176/language/en-US/Default.aspx'>MIPRO 2014</a>, Opatija, Croatia </td>
-    <td> <a href='/EnisAfgan'>Enis Afgan</a> </td>
+    <td> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 9-10 </th>
@@ -327,9 +327,9 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
   </tr>
   <tr>
     <th> June 30 - July 2 </th>
-    <td> </strong><a href='/Events/GCC2014'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
+    <td> </strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
     <td> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
-    <td> <a href='/Events/GCC2014/Organizers'>Organizers</a> </td>
+    <td> <a href='/src/Events/GCC2014/Organizers/index.md'>Organizers</a> </td>
   </tr>
 </table>
 
@@ -345,25 +345,25 @@ One new server was added to [the list of publicly accessible Galaxy servers](/sr
 
 The Chromosome-centric Human Proteome Project (C-HPP) aims to map and annotate the entire human proteome by the "chromosome-by-chromosome" strategy. As the C-HPP proceeds, the increasing volume of proteomic data sets presents a challenge for customized and reproducible bioinformatics data analyses for mining biological knowledge. To address this challenge CAPER 2.0 − an interactive, configurable and extensible workflow-based platform is developed for C-HPP data analyses. 
 
-<div class='right solid'><a href='http://www.bprc.ac.cn/CAPE'><img src='/PublicGalaxyServers/CAPER300.png' alt='CAPER'  /></a></div>
+<div class='right solid'><a href='http://www.bprc.ac.cn/CAPE'><img src="/src/PublicGalaxyServers/CAPER300.png" alt="CAPER"  /></a></div>
 
 In addition to the previous visualization functions of [track-view and heatmap-view](http://pubs.acs.org/doi/abs/10.1021/pr300831z), CAPER 2.0 presents a powerful toolbox for C-HPP data analyses and also integrates Galaxy, allowing users to easily conduct their own C-HPP proteomic data analyses and visualization. CAPER 2.0 presents four specific workflows for finding missing proteins, mapping peptides to chromosomes for genome annotation, integrating peptides with transcription factor binding sites from ENCODE data sets, and functionally annotating proteins.
 
 See "[CAPER 2.0: An Interactive, Configurable, and Extensible Workflow-Based Platform to Analyze Data Sets from the Chromosome-centric Human Proteome Project](http://pubs.acs.org/doi/abs/10.1021/pr400795c)" by Wang, *et al.*, *J. Proteome Res.*, DOI: 10.1021/pr400795c, Publication Date (Web): November 22, 2013.
 
-[Tutorials](http://61.50.138.124/caper2/static/documentation/index.html) and support ([lidong DOT bprc AT foxmail DOT com](Dong Li), [wangdanburnett@163.com](Dan Wang)) are offered.  CAPER 2.0 is sponsored by [Beijing Proteome Research Center (BPRC)](http://www.bprc.ac.cn/), the [Human Liver Proteome Project (HLPP)](http://www.hupo.org/initiatives/human-liver-proteome-project/), and the [Chromosome-centric Human Proteome Project (C-HPP)](http://www.c-hpp.org/)
+[Tutorials](http://61.50.138.124/caper2/static/documentation/index.html) and support ([mailto:lidong DOT bprc AT foxmail DOT com](Dong Li), [mailto:wangdanburnett@163.com](Dan Wang)) are offered.  CAPER 2.0 is sponsored by [Beijing Proteome Research Center (BPRC)](http://www.bprc.ac.cn/), the [Human Liver Proteome Project (HLPP)](http://www.hupo.org/initiatives/human-liver-proteome-project/), and the [Chromosome-centric Human Proteome Project (C-HPP)](http://www.c-hpp.org/)
 
 # Galaxy Distributions
 
 The [most recent Galaxy Distribution was November 04, 2013](/src/DevNewsBriefs/2013_11_04/index.md).
 
-The latest version of [/CloudMan](/src/CloudMan/index.md) was [released in July](/src/News/CloudManRelease/index.md).
+The latest version of [CloudMan](/src/CloudMan/index.md) was [released in July](/src/News/CloudManRelease/index.md).
 
 <br />
 
 # ToolShed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 ## New Repositories in the Galaxy Project ToolShed
 
@@ -382,3 +382,4 @@ The latest version of [/CloudMan](/src/CloudMan/index.md) was [released in July]
 * The first 30 minutes of the "[Galaxy Code and Storage Architecture](/src/Events/GCC2013/TrainingDay/index.md#galaxy-code-and-storage-architecture)" [GCC2013 Training Day](/src/Events/GCC2013/TrainingDay/index.md) session is now on  [Vimeo](https://vimeo.com/82179199) and [YouTube](http://youtu.be/kphYnONMOP8).  Thanks to [Samuel Lampa](http://saml.rilspace.org/blogs/samuel-lampa) for recording and making this available.
 * [http://gmod.org/wiki/|GMOD](http://gmod.org/wiki/|GMOD) is looking into running a GMOD workshop in Malaysia, February 26-28 -- please email help@gmod.org if you're interested in attending.
 * Aussie researchers can now launch their own Galaxy instance on Nectar. See the guide at the [Genome Virtual Lab](http://genome.edu.au/wiki/Get)
+

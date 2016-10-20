@@ -1,7 +1,7 @@
 ---
 title:  Javascript Architecture and Development Practices
 ---
-PLACEHOLDER_INCLUDE(/Develop/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
 
 
 # How to modify & build JS
@@ -32,6 +32,7 @@ You can also run
 to start a watcher that will automatically copy and pack scripts when any save occurs in `/client`.
 
 ## Web Stack
+
 In general, our 'Web stack' is:
 * Grunt (building/optimization)
 * requireJS (Requirement management)
@@ -43,3 +44,4 @@ In general, our 'Web stack' is:
 We made two major framework decisions: 
 1. use require to ensure that dependencies are available 
 2. use Backbone as class framework
+

@@ -1,9 +1,6 @@
----
-date: 2014-03-28T17:21:28Z
----
 <div class='newsItemHeader'>[GlobusWorld 2014](/src/News/GlobusWorld2014/index.md)</div>
 
-<div class='right'><a href='http://www.globusworld.org/'><img src='/Images/Logos/GlobusGenomics.png' alt='Globus World 2014' width="180" /></a></div>
+<div class='right'><a href='http://www.globusworld.org/'><img src="/src/Images/Logos/GlobusGenomics.png" alt="Globus World 2014" width="180" /></a></div>
 
 **[GlobusWorld](http://www.globusworld.org/)** is this year’s biggest gathering of all things [Globus](https://www.globus.org/).  !GlobusWorld 2014 features a features a *Using Globus Genomics to Accelerate Analysis Tutorial*, and a full half day on [Globus Genomics](/src/Cloud/index.md#globus-genomics) in the main meeting, including a keynote by Nancy Cox and these accepted talks:
 
@@ -16,5 +13,6 @@ date: 2014-03-28T17:21:28Z
 
 [Ravi Madduri](http://www.mcs.anl.gov/person/ravi-madduri)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-03-28</div>
 
 CategoryNews

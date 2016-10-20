@@ -1,10 +1,7 @@
----
-date: 2014-12-01T08:58:11Z
----
 <div class='newsItemHeader'>[December 2014 Galaxy Newsletter](/src/News/2014_12GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/GalaxyUpdates/2014_12'><img src='/Images/Logos/GalaxyUpdate200.png' alt='Galaxy Updates' width=150 /></a>
+<a href='/src/GalaxyUpdates/2014_12/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
 </div>
 
 As always there's a lot going on in the Galaxy this month.  "Like what?" you say.  Well, read the dang [December Galaxy Newsletter](/src/GalaxyUpdates/2014_12/index.md) we say! Highlights include:
@@ -21,5 +18,6 @@ As always there's a lot going on in the Galaxy this month.  "Like what?" you say
 
 [Dave Clements](/src/DaveClements/index.md) and the *crisp* [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-12-01 </div>
 
 CategoryNews

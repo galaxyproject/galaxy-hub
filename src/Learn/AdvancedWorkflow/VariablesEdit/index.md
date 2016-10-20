@@ -1,10 +1,10 @@
-PLACEHOLDER_INCLUDE(/Learn/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
 # Workflow Variables
-
 
 [Back to Advanced Workflow](/src/Learn/AdvancedWorkflow/index.md)
 
 ## Where are variables used?
+
 Variables are used in the editor in the far right panel, under the section "Edit Step Actions".
 
 
@@ -48,4 +48,5 @@ When you run a tool, the result will be new boxes on the 'History' panel with na
 
 
 ## Source
+
 [https://github.com/galaxyproject/galaxy/blob/dev/lib/galaxy/jobs/actions/post.py](https://github.com/galaxyproject/galaxy/blob/dev/lib/galaxy/jobs/actions/post.py)

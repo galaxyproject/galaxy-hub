@@ -1,12 +1,12 @@
 ---
 title: GCC2013 Training Day
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
-<div class='right'><a href='/Events/GCC2013/TrainingDay'><img src='/Images/Logos/GCC2013TrainingDayLogo300.png' alt='Training Day' width="200" /></a></div>
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
+<div class='right'><a href='/src/Events/GCC2013/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
 # Introduction to tools and data sources
 
@@ -34,6 +34,7 @@ so you can use multiple tool configuration patterns if you ever need to*
 * restart Galaxy to make the new tool available
 
 ## Helpful links
+
 * http://wiki.galaxyproject.org/Admin/Tools/Add%20Tool%20Tutorial
 * http://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax
 * http://www.cheetahtemplate.org/
@@ -129,7 +130,6 @@ tail -f paster.log
 
 2. #2 Make it do something more interesting.
 
-
 ## 1:00-1:10. Hello input
 
 Save a copy of your existing hello.xml as hello1.xml and adjust the old hello.xml - add an input parameter and adjust so it reads as shown below - cut and paste is always an easy option. Save. Reload the hello tool via the admin interface (reload a tool's configuration - find **hello** and reload it - if it fails to load, check the error message in paster.log and repair the syntax) and test it out. Note that you can use the **redo** (circular arrow in the expanded failed output) to set up the tool form as it was when you ran the job - this can save time for complex tool form testing. Rinse, repeat until it's working right.
@@ -158,6 +158,7 @@ Says hello, adding a user supplied text parameter to the output
 
 
 ### Bonus points
+
 Once you have hello v 0.02 working, try using the redo button to rerun an output in your history from hello v 0.01.
 You should see a warning message
 ```
@@ -244,7 +245,7 @@ Reload, test etc.
 
 ## 1:30 – 1:45pm hello_datasource
 
-Here is a simple datasource example. It is a a simple html page that uses !JavaScript to parse incoming parameters and change the form action attribute to the provided GALAXY_URL value. The user can click the submit button to post the URL value (a prefilled text box) back to the originating Galaxy server. For more information on data source tools, see [here](/Admin/Internals/Data Sources).
+Here is a simple datasource example. It is a a simple html page that uses !JavaScript to parse incoming parameters and change the form action attribute to the provided GALAXY_URL value. The user can click the submit button to post the URL value (a prefilled text box) back to the originating Galaxy server. For more information on data source tools, see [here](/src/Admin/Internals/Data Sources/index.md).
 
 We'll use Python's built-in simple HTTP server to make the html page into a web-loadable link:
 ```
@@ -311,6 +312,7 @@ If you have extra time, you are able to customize additional attributes of your 
 
 
 ## 1:45 – 2:30pm Wrap your new executable into a new tool
+
 (Work with a partner who has a tool or choose a [bedtool](https://code.google.com/p/bedtools/) if you don't have one)
 
 ### Suggested procedure
@@ -341,6 +343,7 @@ Please thank your tutors for giving up their otherwise potentially free time. So
 ### Useful tips
 
 1. The tools directory contains lots of working code, so if you want to quickly find some working examples of exotic or dimly recalled tool syntax, try something like:
+
 <div class='indent'>```
 grep sanitizer tools
 ```
@@ -351,4 +354,4 @@ grep sanitizer tools
 
 1. If you figure something out that was not sufficiently clear (or worse, completely wrong!) in the tool syntax documentation, please contribute it! Send your suggested clarifications to the galaxy-dev list and we'll make sure it gets added. We need all the help we can get to make the documentation better so every little bit you can provide will help the whole community.
 
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Footer)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Footer/index.md)

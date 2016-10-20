@@ -13,17 +13,17 @@ title: April 2016 Galaxy News
 
 </div>
 
-<div class='left'><a href='/GalaxyUpdates'><img src='/Images/GalaxyLogos/GalaxyNews.png' alt='Galaxy News' width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
 Welcome to the April 2016 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. 
 
-If you have anything to include in the next News, please send it to [outreach AT galaxyproject DOT org](Galaxy Outreach). 
+If you have anything to include in the next News, please send it to [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach). 
 
 
 # GCC2016
 
 <div class='left'>
-<a href='https://gcc2016.iu.edu/'><img src='https://gcc2016.iu.edu/img/gcc2016-logo.png' alt='2016 Galaxy Community Conference' width="250" /></a>
+<a href='https://gcc2016.iu.edu/'><img src="https://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference" width="250" /></a>
 </div>
 
 [GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes 2 days of hackathons, [2 days of training](https://gcc16.sched.org/grid-full#2016-06-26), and a two day meeting featuring accepted presentations, keynotes, poster sessions, the new Visualization Showcase and Software Demo sessions, lightning talks, birds-of-a-feather meetups, and plenty of networking. 
@@ -74,7 +74,7 @@ You are strongly encouraged to review the [training](https://gcc16.sched.org/gri
 
 </div>
 
-<div class='left'><a href='https://docs.google.com/forms/d/1IbMoNcA6z31a8hvqjSdfQRIQ92wo-HxXvA5uk0UilnQ/viewform'><img src='/Images/GalaxyLogos/GalaxyScholarshipsBig.png' alt='Scholarships: Apply now' width="220" /></a></div>
+<div class='left'><a href='https://docs.google.com/forms/d/1IbMoNcA6z31a8hvqjSdfQRIQ92wo-HxXvA5uk0UilnQ/viewform'><img src="/src/Images/GalaxyLogos/GalaxyScholarshipsBig.png" alt="Scholarships: Apply now" width="220" /></a></div>
 
 We are pleased to offer [scholarships](https://docs.google.com/forms/d/1IbMoNcA6z31a8hvqjSdfQRIQ92wo-HxXvA5uk0UilnQ/viewform) for the [2016 Galaxy Community Conference](http://gcc2016.iu.edu/), being held in Bloomington, Indiana, United States, June 25-29.  Scholarships are available to students and post-docs in historically under-represented groups, and to those from or based in Low and Lower-Middle Income Economies, [as defined by the World Bank](http://bit.ly/1nO82wD).  If this describes you or one of your students then we hope to receive an application.
 
@@ -85,13 +85,13 @@ See the [full announcement](/src/News/GCC2016Scholarships/index.md) for details.
 
 ## Sponsors
 
-<div class='left'><a href='http://ihif.org/'><img src='/Images/Logos/IHIF_Logo.jpg' alt='BioTeam' width="180" /></a></div>
+<div class='left'><a href='http://ihif.org/'><img src="/src/Images/Logos/IHIF_Logo.jpg" alt="BioTeam" width="180" /></a></div>
 
 Please welcome the **[Indiana Health Industry Forum (IHIF)](http://ihif.org/)** as a new [GCC2016 Sponsor](https://gcc2016.iu.edu/sponsors/index.php). IHIF is a statewide trade association representing members of Indiana's health science business community. Our mission is to connect key stakeholders to: enhance business networks, advocate for member interests, develop workforce skills, and provide strategic vision in the interest of growing the state’s health industry economy and reputation.
 
-We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the [gcc2016-exec@lists.galaxyproject.org](GCC2016 Exec) for more information.
+We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the [mailto:gcc2016-exec@lists.galaxyproject.org](GCC2016 Exec) for more information.
 
----
+----
 
 # Events
 
@@ -102,11 +102,11 @@ We would like to invite you to our **[Galaxy DevOps Workshop](https://goo.gl/8dN
 The workshop is intended for Bioinformaticians who want to
 
 <div class='right'>
-<a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src='/Images/Logos/deNBILogo.png' alt='Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies' height="40" /></a> <br /><br />
-<a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src='/Images/Logos/FreiburgGalaxyTeam.png' alt='Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies' height="65" /></a>
+<a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src="/src/Images/Logos/deNBILogo.png" alt="Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies" height="40" /></a> <br /><br />
+<a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src="/src/Images/Logos/FreiburgGalaxyTeam.png" alt="Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies" height="65" /></a>
 </div>
 <div class='right'><br />
-<a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src='/Images/Logos/ElixirNoTextLogo.png' alt='Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies' height="100" /></a>
+<a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src="/src/Images/Logos/ElixirNoTextLogo.png" alt="Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies" height="100" /></a>
 </div>
 
 * learn the internals of the multi-omics Galaxy workbench
@@ -120,10 +120,10 @@ The workshop will be held at [Heidelberg Center for Human Bioinformatics (HD-HuB
 Registration is open and their is still space - just send [Björn Grüning](/src/BjoernGruening/index.md) an email. For more information please see the [workshop page](https://goo.gl/8dNSdy).
 
 <div class='left'><br />
-<a href='http://www.france-bioinformatique.fr/'><img src='/Images/Logos/IFBSmallTransLogo.png' alt='IFB' height="60" /></a> <br />
-<a href='http://www.pasteur.fr/'><img src='/Images/Logos/InstitutePasteurLogoTrans.png' alt='Institut Pasteur' height="50" /></a>
+<a href='http://www.france-bioinformatique.fr/'><img src="/src/Images/Logos/IFBSmallTransLogo.png" alt="IFB" height="60" /></a> <br />
+<a href='http://www.pasteur.fr/'><img src="/src/Images/Logos/InstitutePasteurLogoTrans.png" alt="Institut Pasteur" height="50" /></a>
 </div><div class='right'>
-<a href='https://www.elixir-europe.org/events/technical-hackathon-tools-workflows-and-workbenches'><img src='/Images/Logos/ElixirNoTextLogo.png' alt='Technical Hackathon : Tools, Workflows and Workbenches' height="70" /></a>
+<a href='https://www.elixir-europe.org/events/technical-hackathon-tools-workflows-and-workbenches'><img src="/src/Images/Logos/ElixirNoTextLogo.png" alt="Technical Hackathon : Tools, Workflows and Workbenches" height="70" /></a>
 </div>
 
 ## Hackathon: Tools, Workflows and Workbenches, 18-20 May
@@ -135,7 +135,7 @@ A [hackathon bringing together developers](https://www.elixir-europe.org/events/
 ## Report: IUC Contribution Fest - RADSeq Tools and Workflows
 
 <div class='right'>
-<a href='https://cesgo.genouest.org/groups/guggo/wiki/RADseqHackathon'><img src='/Images/Photos/RADSeqHackLunch.jpg' alt='remote Contribution Fest was held 7th and 8th of March for developers to work on Galaxy RADSeq tools' width="180" /></a>
+<a href='https://cesgo.genouest.org/groups/guggo/wiki/RADseqHackathon'><img src="/src/Images/Photos/RADSeqHackLunch.jpg" alt="remote Contribution Fest was held 7th and 8th of March for developers to work on Galaxy RADSeq tools" width="180" /></a>
 </div>
 
 A [remote Contribution Fest was held 7th and 8th of March for developers to work on Galaxy RADSeq tools](https://github.com/galaxyproject/tools-iuc/issues/422). RADSeq is a cheap sequencing technology that is used by many resource-limited groups who would benefit a lot from easy-to-use galaxy tools. Indeed there has been quite some interest in analyzing RADSeq with Galaxy. Currently there is a wrapper for stacks and little more to help with RAD specific analysis (though many other galaxy tools are useful with RADs - bwa, cap3, gatk, velvet, ...).
@@ -148,11 +148,11 @@ A [hackathon report page is available](https://cesgo.genouest.org/groups/guggo/w
 There are [many upcoming events](/src/Events/index.md) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='center'> 
-<a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src='/Images/Logos/deNBILogo.png' alt='Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies' height="50" /></a> &nbsp;
-<a href='/Community/GalaxyAdmins/Meetups/2016_04_21'><img src='/Images/Logos/GalaxyAdmins.png' alt='21 April GalaxyAdmins Web Meetup' height="56" /></a> &nbsp;
-<a href='http://icmexico2016.soibio.org/product/icwmexico2016-galaxy-workshop/'><img src='/Images/Logos/SolBio2016.png' alt='Workshop on Galaxy: Practical Course' height="60" /></a> &nbsp;
-<a href='https://biotexcel.com/event/ngs-2016-glasgow/#tab3'><img src='/Images/Logos/GlasgowPolyomics.jpg' alt='NGS Bioinformatics Data Analysis Workshop' height="90" /></a>
-<a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2016'><img src='/Images/Logos/GalaxyWorkshopTokyo2016.png' alt='Galaxy Workshop Tokyo 2016' height="80" /></a>
+<a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src="/src/Images/Logos/deNBILogo.png" alt="Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies" height="50" /></a> &nbsp;
+<a href='/src/Community/GalaxyAdmins/Meetups/2016_04_21/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="21 April GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
+<a href='http://icmexico2016.soibio.org/product/icwmexico2016-galaxy-workshop/'><img src="/src/Images/Logos/SolBio2016.png" alt="Workshop on Galaxy: Practical Course" height="60" /></a> &nbsp;
+<a href='https://biotexcel.com/event/ngs-2016-glasgow/#tab3'><img src="/src/Images/Logos/GlasgowPolyomics.jpg" alt="NGS Bioinformatics Data Analysis Workshop" height="90" /></a>
+<a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2016'><img src="/src/Images/Logos/GalaxyWorkshopTokyo2016.png" alt="Galaxy Workshop Tokyo 2016" height="80" /></a>
 </div>
 
 <table>
@@ -165,38 +165,38 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   <tr>
     <th> April 6 </th>
     <td> </em><a href='http://www.bio-itworldexpo.com/data-visualization/'>Approaches for the Integration of Visual and Computational Analysis of Biomedical Data</a><em> </td>
-    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.bio-itworldexpo.com/'>BioIT World 2016</a>, Boston, Massachusetts, United States </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://www.bio-itworldexpo.com/'>BioIT World 2016</a>, Boston, Massachusetts, United States </td>
     <td> Nils Gehlenborg </td>
   </tr>
   <tr>
     <th> April 6-7 </th>
     <td> </strong></em><a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'>Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies</a><strong><em> </td>
-    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) <a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'>Galaxy DevOps Workshop 2016</a>, <a href='https://drive.google.com/file/d/0B2xSE9muunQPQ1E1Q3UwMVBTR1k'>Heidelberg</a>, Germany </td>
-    <td> PLACEHOLDER_INCLUDE(/Teach/GTN/Badge16) <a href='/BjoernGruening'>Björn Grüning</a> </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'>Galaxy DevOps Workshop 2016</a>, <a href='https://drive.google.com/file/d/0B2xSE9muunQPQ1E1Q3UwMVBTR1k'>Heidelberg</a>, Germany </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='/src/BjoernGruening/index.md'>Björn Grüning</a> </td>
   </tr>
   <tr>
     <th> April 21 </th>
-    <td> </em><a href='/Community/GalaxyAdmins/Meetups/2016_04_21'>GalaxyAdmins Web Meetup</a><em> </td>
-    <td> PLACEHOLDER_INCLUDE(/Events/Badges/World) </em><a href='/Community/GalaxyAdmins/Meetups/2016_04_21'>Online</a><em> </td>
-    <td> <a href='/HansrudolfHotz'>Hans-Rudolf Hotz</a>, <a href='/DaveClements'>Dave Clements</a> </td>
+    <td> </em><a href='/src/Community/GalaxyAdmins/Meetups/2016_04_21/index.md'>GalaxyAdmins Web Meetup</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/World/index.md) </em><a href='/src/Community/GalaxyAdmins/Meetups/2016_04_21/index.md'>Online</a><em> </td>
+    <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> April 22-26 </th>
     <td> </em><a href='http://icmexico2016.soibio.org/product/icwmexico2016-galaxy-workshop/'>Workshop on Galaxy: Practical Course</a><em> </td>
-    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) <a href='http://icmexico2016.soibio.org/'>SolBio International Conference 2016</a>, Riviera Maya, México </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://icmexico2016.soibio.org/'>SolBio International Conference 2016</a>, Riviera Maya, México </td>
     <td> <a href='http://www.ac.uma.es/~ots/'>Oswaldo Trelles</a> </td>
   </tr>
   <tr>
     <th> April 26 </th>
     <td> </em><a href='https://biotexcel.com/event/ngs-2016-glasgow/#tab3'>NGS Bioinformatics Data Analysis Workshop</a><em> </td>
-    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe)  <a href='https://biotexcel.com/event/ngs-2016-glasgow/'>NGS 2016 Glasgow</a>, Glasgow, United Kingdom </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md)  <a href='https://biotexcel.com/event/ngs-2016-glasgow/'>NGS 2016 Glasgow</a>, Glasgow, United Kingdom </td>
     <td> <a href='http://www.polyomics.gla.ac.uk/biog-julesaugley.html'>Julian Augley</a>, <a href='http://www.polyomics.gla.ac.uk/biog-ghamilton.html'>Graham Hamilton</a>, <a href='http://www.polyomics.gla.ac.uk/biog-davidmeltzer.html'>David Meltzer</a>, <a href='http://www.polyomics.gla.ac.uk/biog-manimudaliar.html'>Mani Mudaliar</a> </td>
   </tr>
   <tr>
     <th> April 28 </th>
     <td> </em><a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2016'>Galaxy Workshop Tokyo 2016</a><em> </td>
-    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Asia) <a href='http://www.rcast.u-tokyo.ac.jp/index_ja.html'>RCAST, The University of Tokyo</a>, Japan </td>
-    <td> <a href="mailto:t DOT ohta AT dbcls.rois.ac.jp">Tazro Ohta</a>, <a href='/JamesTaylor'>James Taylor</a> </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Asia/index.md) <a href='http://www.rcast.u-tokyo.ac.jp/index_ja.html'>RCAST, The University of Tokyo</a>, Japan </td>
+    <td> <a href="mailto:t DOT ohta AT dbcls.rois.ac.jp">Tazro Ohta</a>, <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -205,31 +205,31 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   <tr>
     <th> May 11-13 </th>
     <td> </em><a href='http://www.canceropole-idf.fr/formation-ngs-rnaseq'>NGS & Cancer : Analyses RNA-Seq</a><em> </td>
-    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) Paris, France </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Paris, France </td>
     <td> <a href="mailto:communication@canceropole-idf.fr">Cancéropôle Île-de-France</a> </td>
   </tr>
   <tr>
     <th> May 18-20 </th>
     <td> </em><a href='https://www.elixir-europe.org/events/technical-hackathon-tools-workflows-and-workbenches'>ELIXIR Technical Hackathon: Tools, Workflows and Workbenches</a><em> </td>
-    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) <a href='https://www.eventbrite.fr/e/technical-hackathon-tools-workflows-and-workbenches-tickets-22797525011#listing-organizer'>Institut Pasteur, Paris, France</a> </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='https://www.eventbrite.fr/e/technical-hackathon-tools-workflows-and-workbenches-tickets-22797525011#listing-organizer'>Institut Pasteur, Paris, France</a> </td>
     <td> <a href='https://www.eventbrite.fr/e/technical-hackathon-tools-workflows-and-workbenches-tickets-22797525011#listing-organizer'>Organisers</a> </td>
   </tr>
   <tr>
     <th> May 23-24 </th>
     <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module16.pdf'>Analyse statistique de données RNA-Seq sous Galaxy -Recherche des régions d'intérêt différentiellement exprimées</a><em> </td>
-    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
     <td> <a href="mailto:formation.migale AT jouy.inra.fr">Formation Migale</a> </td>
   </tr>
   <tr>
     <th> May 30 </th>
     <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module17-15mars.pdf'>Initiation à l’utilisation de Galaxy</a><em> </td>
-    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
     <td> <a href="mailto:formation.migale AT jouy.inra.fr">Formation Migale</a> </td>
   </tr>
   <tr>
     <th> May 31 </th>
     <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module8bis-31mai.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a><em> </td>
-    <td> PLACEHOLDER_INCLUDE(/Events/Badges/Europe) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
     <td> <a href="mailto:formation.migale AT jouy.inra.fr">Formation Migale</a> </td>
   </tr>
   <tr>
@@ -239,25 +239,25 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   <tr>
     <th> June 9-10 </th>
     <td> </em><a href='http://bioinformatics.ca/workshops/2016/informatics-high-throughput-sequencing-data-2016'>Informatics on High-throughput Sequencing Data</a><em> </td>
-    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) Montreal, Quebec, Canada </td>
-    <td> PLACEHOLDER_INCLUDE(/Teach/GTN/Badge16)  <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) Montreal, Quebec, Canada </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md)  <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
   </tr>
   <tr>
     <th> June 13-17 </th>
     <td> </em><a href='http://bioinformatics.ucdavis.edu/2016-bioinformatics-training-program-preview/'>Using Galaxy For Analysis of High Throughput Sequence Data</a><em> </td>
-    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) Davis, California, United States </td>
-    <td> PLACEHOLDER_INCLUDE(/Teach/GTN/Badge16) <a href="mailto:training.bioinformatics@ucdavis.edu">UC Davis Bioinformatics Training Program</a> </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) Davis, California, United States </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href="mailto:training.bioinformatics@ucdavis.edu">UC Davis Bioinformatics Training Program</a> </td>
   </tr>
   <tr>
     <th> June 25-29 </th>
     <td> </strong></em><a href='https://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a><strong><em> </td>
-    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
-    <td> PLACEHOLDER_INCLUDE(/Teach/GTN/Badge16)  <a href='https://gcc2016.iu.edu/organizers'>Organizers</a> </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md)  <a href='https://gcc2016.iu.edu/organizers'>Organizers</a> </td>
   </tr>
   <tr>
     <th> June 30 - July 1 </th>
     <td> </em><a href='http://gmod.org/wiki/Jun_2016_GMOD_Meeting'>GMOD Meeting</a><em> </td>
-    <td> PLACEHOLDER_INCLUDE(/Events/Badges/NorthAmerica) <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
     <td> <a href='http://gmod.org/wiki/Scott'>Scott Cain</a> </td>
   </tr>
 </table>
@@ -265,13 +265,13 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='/Teach/Trainers'><img src='/Images/Icons/GTN32.png' alt='Designates a training event offered by GTN Member' width="24" /></a> </td>
-    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/Teach/Trainers'>Designates a training event offered by GTN member(s)</a> </span> </td>
+    <td style=" border: none;"> <a href='/src/Teach/Trainers/index.md'><img src="/src/Images/Icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/src/Teach/Trainers/index.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
 
 
----
+----
 
 # New Papers
 
@@ -356,7 +356,7 @@ The new papers were tagged with:
 </table>
 
 
----
+----
 
 # Who's Hiring
 
@@ -381,7 +381,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 
 
----
+----
 
 # New Public Galaxy Servers
 
@@ -389,7 +389,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## Halogen Bonding
 
-<div class='right solid'><a href='http://134.2.17.68:8081/'><img src='/PublicGalaxyServers/HalogenBonding.png' alt='Halogen Bonding Webserver' height="200" /></a></div>
+<div class='right solid'><a href='http://134.2.17.68:8081/'><img src="/src/PublicGalaxyServers/HalogenBonding.png" alt="Halogen Bonding Webserver" height="200" /></a></div>
 
 * *Link:*
   * [Halogen Bonding Galaxy Server](http://134.2.17.68:8081/)
@@ -413,19 +413,18 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 * *Sponsor(s):*
   * This webserver is provided by the group of [Prof. Dr. Frank Boeckler (University of Tuebingen, Germany)](http://www.mnf.uni-tuebingen.de/fachbereiche/pharmazie-und-biochemie/pharmazie/pharmazeutische-chemie/prof-dr-f-boeckler.html) 
 
-
 # Galaxy Community Hubs
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Teach'><img src='/Images/GalaxyLogos/GTNLogo300.png' alt='Galaxy Training Network' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Community/Logs'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Teach/index.md'><img src="/src/Images/GalaxyLogos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Logs/index.md'><img src="/src/Images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/Teach/Resources#add-a-training-resource'>training resources</a> and <a href='/Teach/Trainers#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/Community/Logs#add-a-log-page'>Share your experience</a> </em><a href='/Community/Logs#add-a-log-page'>now</a><em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/Community/Deployments#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/Community/Deployments#add-your-galaxy-deployment'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> <strong> </td>
   </tr>
 </table>
 
@@ -439,11 +438,11 @@ As were two and two new [training organizations](/src/Teach/Trainers/index.md).
 * **[EMBL-ABR](/src/Teach/Trainers/index.md#embl-abr)** is a distributed national research infrastructure providing bioinformatics support to life science researchers in Australia. 
 * **[GenoToul bioinformatics platform, Sigenae, NED (GenPhySE) and TWB](/src/Teach/Trainers/index.md#genotoul-bioinformatics-platform-sigenae-ned-genphyse-and-twb)** offers a [catalog of training sessions](http://bioinfo.genotoul.fr/index.php?id=10) on Galaxy.
 
----
+----
 
 # Releases
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src='/Images/Logos/PlanemoLogo.png' alt='' width="200" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/Images/Logos/PlanemoLogo.png" alt="" width="200" /></a></div>
 
 ## Planemo 0.24.0
 
@@ -460,7 +459,7 @@ See the [release history](http://planemo.readthedocs.org/en/latest/history.html#
 
 ## CloudMan 16.03
 
-<div class='right'><a href='/CloudMan'><img src='/Images/GalaxyLogos/cloudman-logo.jpg' alt='CloudMan' width="180" /></a></div>
+<div class='right'><a href='/src/CloudMan/index.md'><img src="/src/Images/GalaxyLogos/cloudman-logo.jpg" alt="CloudMan" width="180" /></a></div>
 
 **We just released an update to Galaxy !CloudMan on AWS.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
 
@@ -475,7 +474,7 @@ See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGE
 
 **Galaxy v16.01**
 
-<div class='right'><a href='http://getgalaxy.org'><img src='/Images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png' alt='GalaxyProject' width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/src/Images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
 
 The [January 2016 (v16.01) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.01_announce.html) features
 
@@ -486,9 +485,10 @@ The [January 2016 (v16.01) release of Galaxy](https://docs.galaxyproject.org/en/
 See the [announcement](https://docs.galaxyproject.org/en/master/releases/16.01_announce.html) for full details.
 
 <div class='red'>
-Galaxy administrators should also be aware of [these security announcements](#security-announcements) below.
+Galaxy administrators should also be aware of [these security announcements](/src/GalaxyUpdates/2016_04/index.md#security-announcements) below.
 * [Read/write arbitrary filesystem paths, arbitrary code execution](http://dev.list.galaxyproject.org/Galaxy-Security-Vulnerability-Read-write-arbitrary-filesystem-paths-arbitrary-code-execution-td4668936.html)
 * [Tool Shed Security Vulnerability - Read/write arbitrary filesystem paths](http://dev.list.galaxyproject.org/Galaxy-Tool-Shed-Security-Vulnerability-Read-write-arbitrary-filesystem-paths-td4668935.html)
+
 </div>
 
 
@@ -513,7 +513,7 @@ The first version of !CloudBridge was released earlier this month and it comes w
 **Starforge 0.1**
 
 <div class='right'>
-<a href='https://github.com/galaxyproject/starforge/blob/master/README.rst'><img src='/Images/GalaxyLogos/starforge_logo_big.png' alt='Starforge' width="180" /></a>
+<a href='https://github.com/galaxyproject/starforge/blob/master/README.rst'><img src="/src/Images/GalaxyLogos/starforge_logo_big.png" alt="Starforge" width="180" /></a>
 </div>
 
 [Starforge](https://github.com/galaxyproject/starforge/blob/master/README.rst) is a collection of scripts that supports the building of components for Galaxy.  Specifically, with Starforge you can:
@@ -527,7 +527,7 @@ These things will be built in Docker. Additionally, wheels can be built in QEMU/
 Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/). 
 
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/pulsar-app/'><img src='/Images/GalaxyLogos/pulsar_transparent.png' alt='Pulsar' width="150" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/src/Images/GalaxyLogos/pulsar_transparent.png" alt="Pulsar" width="150" /></a></div>
 
 **Pulsar 0.6.1**
 
@@ -547,7 +547,6 @@ The 0.6.x release includes these changes:
 * Add a job manager for XSEDE jobs (thanks to @natefoo). [1017bc5](https://github.com/galaxyproject/pulsar/commit/1017bc5)
 * Fix pip dependency installation (thanks to @afgane) [Pull Request 73](https://github.com/galaxyproject/pulsar/pull/73)
 
-
 **!BioBlend 0.7.0**
 
    [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
@@ -557,9 +556,9 @@ The 0.6.x release includes these changes:
    [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and !BioCloudCentral.
 
 
----
+----
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 
@@ -567,17 +566,17 @@ See [list of tools contributed in March](/src/ToolShed/Contributions/2016_03/ind
 
 ## Automatic Testing of IUC Tools with Conda
 
-<div class='left'><a href='http://conda.pydata.org/docs/'><img src='/Images/Logos/Conda_480.png' alt='Conda' width="120" /></a></div>
+<div class='left'><a href='http://conda.pydata.org/docs/'><img src="/src/Images/Logos/Conda_480.png" alt="Conda" width="120" /></a></div>
 
 An [effort is underway](https://github.com/galaxyproject/tools-iuc/pull/574) to test more and more IUC tools automatically using [Conda](http://conda.pydata.org/docs/) dependencies.  The final aim of getting all tools under test by simply installing the dependencies via conda before running `planemo test`.  Getting packages in Conda also means we can automatically build Docker containers and offer Docker and Conda dependency resolutions for everyone **today** and for testing.
 
-The [/IUC](/src/IUC/index.md) is [seeking comments and contributions to this effort](https://github.com/galaxyproject/tools-iuc/pull/574).
+The [IUC](/src/IUC/index.md) is [seeking comments and contributions to this effort](https://github.com/galaxyproject/tools-iuc/pull/574).
 
----
+----
 
 # Other News
 
-<div class='right'><a href='http://usegalaxy.org/'><img src='/Images/NewsGraphics/NewAndUpdatedTools.jpg' alt='New and updated tools on usegalaxy.org' width="180" /></a></div>
+<div class='right'><a href='http://usegalaxy.org/'><img src="/src/Images/NewsGraphics/NewAndUpdatedTools.jpg" alt="New and updated tools on usegalaxy.org" width="180" /></a></div>
 
 * New and recently updated tools are now highlighted on usegalaxy.org.
 
@@ -587,3 +586,4 @@ The [/IUC](/src/IUC/index.md) is [seeking comments and contributions to this eff
   * Galaxy Tours, a new interactive way to learn Galaxy, were announced in the [February News](/src/GalaxyUpdates/2016_02/index.md#new-tutorials--and-tours).  We now have an [official repository to collect community tours](https://github.com/galaxyproject/galaxy-tours).
 * From Yvan Le Bras:
   * My [first Galaxy Interactive Tour attempt](https://www.youtube.com/watch?v=msm-EDZcB5A&feature=youtu.be) for RADseq data analysis based on a RNAseq, using Björn Grüning's template.
+

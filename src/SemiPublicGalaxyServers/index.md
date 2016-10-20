@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: Semi, -, Public Galaxy Services
+title: Semi-Public Galaxy Services
 ---
 <div class='right'>
 <table>
@@ -22,7 +22,7 @@ Servers are classified here by whom they are accessible to.  This can be based o
 
 ## Australia: Genomics Virtual Lab (GVL)
 
-<div class='right solid'><a href='https://launch.genome.edu.au/launch'><img src='/PublicGalaxyServers/GenomicsVirtualLab300.png' alt='GVL' height="200" /></a></div>
+<div class='right solid'><a href='https://launch.genome.edu.au/launch'><img src="/src/PublicGalaxyServers/GenomicsVirtualLab300.png" alt="GVL" height="200" /></a></div>
 
 * *Links:*
   * **[Genomics Virtual Lab](https://launch.genome.edu.au/launch)**
@@ -44,7 +44,7 @@ Servers are classified here by whom they are accessible to.  This can be based o
 
 ## Canada: GenAP
 
-<div class='right solid'><a href='https://www.genap.ca/'><img src='/SemiPublicGalaxyServers/GenAP_Logo_Trans_250.png' alt='GenAP' height="200" /></a></div>
+<div class='right solid'><a href='https://www.genap.ca/'><img src="/src/SemiPublicGalaxyServers/GenAP_Logo_Trans_250.png" alt="GenAP" height="200" /></a></div>
 
 * *Links:*
   * **[GenAP](https://www.genap.ca/)**
@@ -64,10 +64,9 @@ Servers are classified here by whom they are accessible to.  This can be based o
 * *Sponsor(s):*
   * [Canarie](http://www.canarie.ca/), [Genome Quebec](http://www.genomequebec.com/en/home.html), [Compute Canada](https://www.computecanada.ca), [Canada Foundation for Innovation (CFI)](https://www.innovation.ca/), [Natural Sciences and Engineering Research Council (NSERC)](http://www.nserc-crsng.gc.ca/), [Université de Sherbrooke](http://www.usherbrooke.ca), and [Mcgill University](https://www.mcgill.ca/)
 
-
 ## Norway: NeLS
 
-<div class='right solid'><a href='https://nels.bioinfo.no'><img src='https://galaxy-ntnu.bioinfo.no/www/NeLS_logo_300x100.png' alt='NeLS Portal'  /></a></div>
+<div class='right solid'><a href='https://nels.bioinfo.no'><img src="https://galaxy-ntnu.bioinfo.no/www/NeLS_logo_300x100.png" alt="NeLS Portal"  /></a></div>
 
 * *Links:*
   * **[NeLS Galaxy server at UiO](https://galaxy-uio.bioinfo.no)**
@@ -98,11 +97,9 @@ Servers are classified here by whom they are accessible to.  This can be based o
   * [Elixir Norway](http://www.elixir-norway.org/)
   * [The Research Council of Norway](http://www.forskningsradet.no/en/Home_page/1177315753906)
 
-
-
 ## Poland: PL-Grid
 
-<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src='/SemiPublicGalaxyServers/PL-Grid_Logo.png' alt='PL-Grid Galaxy'  /></a></div>
+<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/SemiPublicGalaxyServers/PL-Grid_Logo.png" alt="PL-Grid Galaxy"  /></a></div>
 
 * *Links:*
   * **[PL-Grid Galaxy Server](https://galaxy.plgrid.pl)**
@@ -120,10 +117,9 @@ Servers are classified here by whom they are accessible to.  This can be based o
 * *Sponsor(s):*
   * [PL-Grid NG](http://www.plgrid.pl/en/projects/ng) and [ACC CYFRONET AGH](http://www.cyfronet.krakow.pl/en/4421,main.html)
 
-
 ## United States: Jetstream
 
-<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src='/Images/Logos/JetstreamRectClipped.jpg' alt='Jetstream' width="280" /></a></div>
+<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/Images/Logos/JetstreamRectClipped.jpg" alt="Jetstream" width="280" /></a></div>
 
 * *Links:*
   * **[Galaxy on Jetstream](/src/Cloud/Jetstream/index.md)**
@@ -140,7 +136,6 @@ Servers are classified here by whom they are accessible to.  This can be based o
   * [The National Science Foundation (NSF)](http://www.nsf.gov/)
   * [Jetstream](http://jetstream-cloud.org/) is based at [Indiana University](https://www.iu.edu/) and Jetstream resources are hosted by Indiana University and the [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/).
 
-
 # Domain Based
 
 ## Cancer Computer
@@ -149,8 +144,8 @@ Information is coming ...
 
 # Association Based
 
-<div class='right'><br /><div class='solid'><a href='#australia-genomics-virtual-lab-gvl'><img src='/SemiPublicGalaxyServers/AAF_Logo_wide.png' alt='AAF on GVL' width="300" /></a></div></div>
+<div class='right'><br /><div class='solid'><a href='/src/SemiPublicGalaxyServers/index.md#australia-genomics-virtual-lab-gvl'><img src="/src/SemiPublicGalaxyServers/AAF_Logo_wide.png" alt="AAF on GVL" width="300" /></a></div></div>
 
 ## Australian Access Federation (AAF)
 
-[Members](https://aaf.edu.au/subscribe/subscribers.html) of the [Australian Access Federation (AAF)](https://aaf.edu.au/) can use the [GVL (see above)](#australia-genomics-virtual-lab-gvl).
+[Members](https://aaf.edu.au/subscribe/subscribers.html) of the [Australian Access Federation (AAF)](https://aaf.edu.au/) can use the [GVL (see above)](/src/SemiPublicGalaxyServers/index.md#australia-genomics-virtual-lab-gvl).

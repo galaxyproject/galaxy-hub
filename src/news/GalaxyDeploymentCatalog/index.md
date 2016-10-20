@@ -1,9 +1,6 @@
----
-date: 2013-12-04T18:34:39Z
----
 <div class='newsItemHeader'>[Galaxy Deployment Catalog](/src/News/GalaxyDeploymentCatalog/index.md)</div>
 
-<div class='right'><a href='/Community/Deployments'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' width="200" /></a></div> 
+<div class='right'><a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="200" /></a></div> 
 
 We are pleased to announce the [Galaxy Deployment Catalog](/src/Community/Deployments/index.md), a place to describe individual Galaxy deployments, and to learn how others in the community are implementing Galaxy in production environments.
 
@@ -23,5 +20,6 @@ Thanks a bunch, and please let us know if you have any questions.
 
 [Dave Clements](/src/DaveClements/index.md) 
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-12-04</div>
 
 CategoryNews

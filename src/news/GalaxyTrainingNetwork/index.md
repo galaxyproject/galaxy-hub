@@ -1,9 +1,6 @@
----
-date: 2014-10-16T16:28:02Z
----
 <div class='newsItemHeader'>[Galaxy Training Network](/src/News/GalaxyTrainingNetwork/index.md)</div>
 
-<div class='right'><a href='/Teach'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="200" /></a></div>
+<div class='right'><a href='/src/Teach/index.md'><img src="/src/Images/Logos/GTNLogo600.png" alt="Galaxy Training Network" width="200" /></a></div>
 
 We are pleased to announce the *[Galaxy Training Network (GTN)](/src/Teach/GTN/index.md)*, a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  The GTN aims to make it easy to find [Galaxy trainers](/src/Teach/Trainers/index.md), and to share and discover the wealth of training resources available for Galaxy.  This includes [training materials](/src/Teach/Resources/index.md), a [trainer directory](/src/Teach/Trainers/index.md),[best practices](/src/Teach/BestPractices/index.md), and [guidance on computing platforms](/src/Teach/ComputingPlatforms/index.md) for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
 
@@ -13,5 +10,6 @@ Thanks,
 
 The [Galaxy Training Network (GTN)](/src/Teach/Trainers/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-10-16</div>
 
 CategoryNews

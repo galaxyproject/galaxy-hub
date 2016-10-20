@@ -1,34 +1,33 @@
----
-date: 2011-08-30T22:27:39Z
----
 # June 23, 2011 Galaxy Development News Brief
 
----
+----
 [getgalaxy.org](http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy)
 
 new: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`
 
 upgrade: `% hg pull -u -r 720455407d1c`
 
----
+----
 
 ## GCC 2011
 
 We had ~ 140  attendees at the **2011 Galaxy Community Conference**, held May 25-26, in the Netherlands!
-* Please see [/GCC2011](/GCC2011) for links to slides and to videos of the talks.
+* Please see [GCC2011](/src/GCC2011/index.md) for links to slides and to videos of the talks.
 * Feedback has been very positive with 100% of respondents saying they would recommend future Galaxy meetings to others.  
 * Many thanks to the **[Netherlands Bioinformatics Centre (NBIC)](http://www.nbic.nl/)** for co-sponsoring and hosting this event.
 
----
+----
 **Note**: "#NNN" notation refers to fixed/resolved bitbucket issues at http://galaxyproject.org/issues
----
+----
 
 ## What's New
 
 ### Python Support
+
 Python 2.7 is now supported in beta. Functional tests with 2.7 are a pass. This also includes an upgrade to Numpy 1.6.0.
 
 ### Cloudman Admin Functions
+
 Galaxy's **Cloudman** now has an admin interface that allows you to gain insight and control many of the services underlying your cloud instance. Namely, you can:
 * Add Galaxy admin users through the web interface.
 * Update Galaxy source (even from a custom repository).
@@ -37,9 +36,10 @@ Galaxy's **Cloudman** now has an admin interface that allows you to gain insight
 
 To get to the admin interface, just click the 'Admin' link at the top right corner on the main **Cloudman** UI.
 
-![cloudman](/2011_06_23_cloudman.png)
+![cloudman](/src/DevNewsBriefs/2011_06_23/2011_06_23_cloudman.png)
 
 ### New Galaxy Tool Shed
+
 Rather than rigidly structured tool archives, the foundational component of Galaxy's **Tool Shed** is now an hg (Mercurial) repository.  
 * The Test/Sandbox **Tool Shed** available at [http://testtoolshed.g2.bx.psu.edu](http://testtoolshed.g2.bx.psu.edu)
 * The Production **Tool Shed** is available at [http://toolshed.g2.bx.psu.edu](http://toolshed.g2.bx.psu.edu)
@@ -50,11 +50,12 @@ A new select list was added to the upload form in Galaxy's **Tool Shed** with th
 
  The selection pertains only to uploaded tar archives, not to single file uploads. If 'Yes' is selected, files that exist in the repository (relative to the selected upload point) but that are not in the uploaded archive will be removed from the repository. Otherwise, all existing repository files will remain and the uploaded archive will be added to the repository. Resolves #585
 
----
+----
 
 ## Updated & Improved
 
 ### Tools
+
 * RNA-seq tools:
   * Rename and reorder Cuffdiff outputs for clarity.
   * Make Cuffcompare wrapper compatible with v1.0.3.
@@ -62,6 +63,7 @@ A new select list was added to the upload form in Galaxy's **Tool Shed** with th
 * New tools for FASTA de(interlacing) added. Resolves #447
 
 ### Histories
+
 * Add the download/save icon to datasets in an error state, but that contain data. Fixes #207 and #583
 * Disk space usage accounting: 
   * Users can see how much disk a history is consuming. 
@@ -72,10 +74,10 @@ A new select list was added to the upload form in Galaxy's **Tool Shed** with th
   * The ability for users to purge their own data is conditional on a config variable. Due to limitations in the grid framework, the button can't be removed from the history grid, but clicking it just does the same thing as delete but adds a message explaining that the purge operation wasn't performed.
   * For users who were pulling from galaxy-central and that already upgraded to database version 78 prior to this distribution, the following SQL query should be run to set the default value of the '!HistoryDatasetAssociation' purged column:
 
-
  UPDATE history_dataset_association SET purged=false WHERE purged IS NULL
 
 ### Trackster
+
 * Can run filters on entire dataset.
 * When adding tracks to Trackster, add them in the order that they appear in the dataset listing.
 * Use error padding only when needed by placing error messages in div above tiles rather than in tiles.
@@ -84,10 +86,12 @@ A new select list was added to the upload form in Galaxy's **Tool Shed** with th
 * Enable importing of visualizations via a shallow copy.
 
 ### Workflows
+
 * Include tool annotation and tags when cloning workflows.
 * The workflow editor is now aware of the format_source tag, and updates the output datatype of tools using it accordingly.  Patch from Jim Johnson enhancing format="input" handling in workflows. Resolves #582
 
 ### Data Libraries
+
 * Library datasets can now be job inputs. This is needed to be able to use the deferred job runner and transfer manager with set_metadata_externally = True.
 * Fix for importing library datasets into a new named history. Library datasets will no longer be imported into both the current history and the new named history ( only the latter ) in this scenario.
 * Determining if an accessible dataset exists somewhere in the data library hierarchy now works all the time. It used to work most of the time, but under corner conditions, it would break.
@@ -96,11 +100,13 @@ A new select list was added to the upload form in Galaxy's **Tool Shed** with th
 * No longer render the folder pop-up menu option for selecting a library dataset to import into histories if the folder does not contain any accessible library datasets.
 
 ### Source
+
 * Move duplicate data type checker methods from sniff and upload into a new ~/datatypes/checkers.py.
 * No longer allow Datasets to have !DatasetPermissions set such that no roles are associated with the DATASET_MANAGE_PERMISSION. Include the automatic creation of a new !DatasetPermission for an hda where the DATASET_MANAGE_PERMISSION permission is associated with the hda.history.user's private role if the hda has no roles associated with the DATASET_MANAGE_PERMISSION permission. The creation of the !DatasetPermission occurs when the user clicks the pencil icon for the hda.
 * SMTP Authentication support for all places where Galaxy sends mail. Use STARTTLS where available, too. Fixes #277
 
 ### Bug Fixes
+
 * Fix solid2fastq tool to correctly handle cases when csfasta and QUAL filed are out of sync. Fixes #406
 * Applied patch from Peter Cock for 'Cut' tool to ignore commented lines. Resolves #534
 * Fix to sam2interval. The bug was causing sam2interval to successfully parse unmapped sam entries, which have no valid coordinate.
@@ -144,6 +150,7 @@ A new select list was added to the upload form in Galaxy's **Tool Shed** with th
 * Sniffers are now properly loaded again from datatypes.conf.xml.
 
 ### About Galaxy
+
 The **Galaxy team** is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html). 
 
 **Galaxy** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
@@ -165,4 +172,5 @@ Join us at **Twitter**
 
 
 
----
+----
+-- JenniferJackson 2011-08-30

@@ -2,7 +2,7 @@
 title: [GalaxyEast](http://www.galaxeast.fr)
 ---
 <div class='center'>
-<a href='http://www.galaxeast.fr'><img src='/PublicGalaxyServers/GalaxEast.png' alt='GalaxEast' height="200" /></a>
+<a href='http://www.galaxeast.fr'><img src="/src/PublicGalaxyServers/GalaxEast.png" alt="GalaxEast" height="200" /></a>
 </div>
 
 
@@ -33,6 +33,7 @@ The [GalaxEast](http://www.galaxeast.fr) project has the following main objectiv
 * Provide the academic scientific community with an open and powerful Galaxy instance with a guaranteed availability. The platform offers access to cutting-edge and up-to-date tools for Omics data analysis with help and support.
 * Propose innovative developments and new helpful tools packaged for Galaxy (available in the !GalaxEast toolshed)
 * Promote the packaging of new developments for Galaxy (through wrappers and/or toolshed packages).
+
 </div>
 
 ## Domain
@@ -100,7 +101,6 @@ Available in the [GalaxEast Toolshed](http://toolshed.galaxeast.fr/).
 ### Configuration and Setup
 
 ### Maintaining and Meeting Needs
-
 
 ## Links
 

@@ -1,25 +1,27 @@
 ---
 autotoc: true
 ---
-PLACEHOLDER_INCLUDE(/CloudMan/Header)
+PLACEHOLDER_INCLUDE(/src/CloudMan/Header/index.md)
 
 <table>
   <tr>
-    <td style=" border: none;"> <div class='title'>Galaxy CloudMan <a href='/CloudMan'>CapacityPlanning|Capacity Planning</a> for Amazon Web Services</div> </td>
-    <td style=" border: none;"> <a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='http://aws.amazon.com/' /></a> </td>
+    <td style=" border: none;"> <div class='title'>Galaxy CloudMan <a href='/src/CloudMan/index.md'>CapacityPlanning</a> for Amazon Web Services</div> </td>
+    <td style=" border: none;"> <a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="http://aws.amazon.com/" /></a> </td>
   </tr>
 </table>
 
 
 This page offers advice on how much cloud infrastructure you will need to [run your Galaxy instance on Amazon Web Services (AWS)](/src/CloudMan/AWS/index.md).  See the [general capacity planning page](/src/CloudMan/CapacityPlanning/index.md) for advice that applies across different cloud infrastructures.
 
-<div class='right'></div> PLACEHOLDER_INCLUDE(/CloudMan/AWS/LinkBox)
+<div class='right'></div> PLACEHOLDER_INCLUDE(/src/CloudMan/AWS/LinkBox/index.md)
 
 
 # Amazon Web Services
+
 CloudMan was initially developed for the [Amazon Web Services (AWS)](http://aws.amazon.com/) cloud platform.  Before we cover AWS, we'll need to introduce some terminology:
 
 ## Terminology
+
 **[EC2](http://aws.amazon.com/ec2/)**
 
  . Amazon's *Elastic Compute Cloud (EC2)* provides the *compute* part of their cloud.  How many CPUs, and how much memory any instance has is determined by that instance's [EC2 Instance Type](http://aws.amazon.com/ec2/instance-types/).
@@ -37,6 +39,7 @@ CloudMan was initially developed for the [Amazon Web Services (AWS)](http://aws.
 Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use for your Galaxy?
 
 ### EC2 Recommendations
+
 <table>
   <tr class="th" >
     <th> Scenario </th>
@@ -63,6 +66,7 @@ Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use
 
 
 ### EC2 Instance Type Comments
+
 <table>
   <tr class="th" >
     <th rowspan=3 colspan=2 style=" text-align:center;"> Instance Type </th>
@@ -71,7 +75,7 @@ Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use
     <th> </th>
     <th> </th>
     <th> </th>
-    <th style=" text-align:center;"> Recommended for <a href='/CloudMan/CapacityPlanning#usage-scenarios'>Usage Scenarios</a> </th>
+    <th style=" text-align:center;"> Recommended for <a href='/src/CloudMan/CapacityPlanning/index.md#usage-scenarios'>Usage Scenarios</a> </th>
     <th rowspan=3 style=" text-align:center;"> Comments </th>
   </tr>
   <tr>
@@ -149,7 +153,7 @@ Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use
     <td> </td>
     <td style=" class="green" "> <strong>Y</strong> </td>
     <td> </td>
-    <td> The <a href='/GalaxyTeam'>Galaxy Team</a> uses this head node in workshops that run !TopHat.  It can support ~30 concurrent !TopHat jobs without significant slowdown, whereas the Double Extra Large option gets bogged down. </td>
+    <td> The <a href='/src/GalaxyTeam/index.md'>Galaxy Team</a> uses this head node in workshops that run !TopHat.  It can support ~30 concurrent !TopHat jobs without significant slowdown, whereas the Double Extra Large option gets bogged down. </td>
   </tr>
   <tr>
     <th rowspan=2> Com-<br />pute </th>
@@ -193,6 +197,7 @@ See also
 * The [CloudHarmony Benchmarks](http://cloudharmony.com/benchmarks) page
 
 ## How Much EBS?
+
 Galaxy CloudMan comes with two standard volumes:
 
 1. **Tools Volume (10GB):** Contains the tools used by the instance

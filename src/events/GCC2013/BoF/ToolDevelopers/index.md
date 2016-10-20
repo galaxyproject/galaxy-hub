@@ -1,14 +1,14 @@
 ---
 title: Tool Developers BoF
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
-PLACEHOLDER_INCLUDE(/Events/GCC2013/BoF/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/BoF/LinkBox/index.md)
 
-<div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
+<div class='left'><a href='/src/Events/GCC2013/BoF/index.md'><img src="/src/Images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 
 This page describes the **Tool Developers** [Birds of a Feather](/src/Events/GCC2013/BoF/index.md) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
 
@@ -27,11 +27,11 @@ The [time and location](/src/Events/GCC2013/BoF/index.md#bof-schedule) for this 
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to the [galaxy-iuc AT lists DOT bx DOT psu DOT edu](Intergalactic Utilities Commission).
+If you are interested, please add your name below and/or send an email to the [mailto:galaxy-iuc AT lists DOT bx DOT psu DOT edu](Intergalactic Utilities Commission).
 
-* [iracooke AT gmail DOT com](Ira Cooke)
-* [bjoern.gruening AT pharmazie DOT uni-freiburg DOT de](Björn Grüning)
-* [jj AT umn DOT edu](JJ Johnson)
+* [mailto:iracooke AT gmail DOT com](Ira Cooke)
+* [mailto:bjoern.gruening AT pharmazie DOT uni-freiburg DOT de](Björn Grüning)
+* [mailto:jj AT umn DOT edu](JJ Johnson)
 * Peter Cock
 * [Greg Von Kuster](/src/greg_vonkuster/index.md)
 * [Dave Bouvier](/src/DaveBouvier/index.md)
@@ -39,7 +39,7 @@ If you are interested, please add your name below and/or send an email to the [g
 * [Christian Andreetta](http://www.computing.uni.no/staff?nickname=christiana)
 * Lionel Guy, Uppsala University
 * Christos Kannas, University of Cyprus
-* [Graham dot Etherington AT tsl DOT ac DOT uk](Graham Etherington)
+* [mailto:Graham dot Etherington AT tsl DOT ac DOT uk](Graham Etherington)
 * Nathan Cole, NCI/SAIC
 
 ## Other Tool and Tool Shed Content at GCC2013
@@ -55,7 +55,7 @@ If you are interested, please add your name below and/or send an email to the [g
 
 ## Questions?
 
-Send them to the [galaxy-iuc AT lists DOT bx DOT psu DOT edu](Intergalactic Utilities Commission).
+Send them to the [mailto:galaxy-iuc AT lists DOT bx DOT psu DOT edu](Intergalactic Utilities Commission).
 
 ## Notes, Suggestions, Desires from the BoF
 
@@ -96,3 +96,4 @@ Send them to the [galaxy-iuc AT lists DOT bx DOT psu DOT edu](Intergalactic Util
 * Estimate remaining runtime
   * e.g. allow a tool itself to provide feed back, many cmdline tools already estimate by e.g. printing to stderr, but we should be able to get this info back into Galaxy in realtime to the user
 * Run toolshed automated testing framework on file upload (not just overnight, as is now)
+

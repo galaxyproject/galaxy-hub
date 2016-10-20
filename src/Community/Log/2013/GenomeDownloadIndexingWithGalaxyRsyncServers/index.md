@@ -1,5 +1,5 @@
 ---
-title: 2013, /, 02, :,  Provide download and indexing of genomes using Galaxy rsync servers
+title: 2013/02: Provide download and indexing of genomes using Galaxy rsync servers
 ---
 
 

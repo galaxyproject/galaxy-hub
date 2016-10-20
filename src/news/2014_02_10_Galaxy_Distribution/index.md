@@ -1,10 +1,7 @@
----
-date: 2014-02-10T16:07:49Z
----
 <div class='newsItemHeader'>[Feb 10, 2014 Galaxy Distribution](/src/News/2014_02_10_Galaxy_Distribution/index.md)</div>
 
 <div class='right'>
-<a href='http://usegalaxy.org'><img src='/Images/NewsGraphics/2014_02_10_trackster-css.png' alt='Trackster' width="400" /></a><br />*Trackster*</div>
+<a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2014_02_10_trackster-css.png" alt="Trackster" width="400" /></a><br />*Trackster*</div>
 **Complete [News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2014_02_10)**
 <br />
 <br />
@@ -16,7 +13,7 @@ date: 2014-02-10T16:07:49Z
 * API functionality upgrades featuring a new master admin API key
 * Tool Shed updates a focus on repository metadata, displays, installs, and tests
 * Over 35 new community contributions added
- 
+
 [http://getgalaxy.org](http://getgalaxy.org)
 
 [http://bitbucket.org/galaxy/galaxy-dist](http://bitbucket.org/galaxy/galaxy-dist)
@@ -36,5 +33,6 @@ upgrade:   $ hg pull
 
 [The Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-02-10</div>
 
 CategoryNews

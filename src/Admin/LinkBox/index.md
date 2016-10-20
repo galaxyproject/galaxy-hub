@@ -2,7 +2,7 @@
 **[Admin](/src/Admin/index.md)**
 ----
 [Get Galaxy](/src/Admin/GetGalaxy/index.md)<br />
-[Config|](/src/Admin/Config/index.md)<br />
+[Config](/src/Admin/Config/index.md)<br />
 [Tools](/src/Admin/Tools/index.md)<br />
 [Tool Shed](/src/ToolShed/index.md)<br />
 [Data Libs](/src/Admin/DataLibraries/index.md)<br />

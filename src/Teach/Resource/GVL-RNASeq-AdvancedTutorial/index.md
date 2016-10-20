@@ -1,8 +1,8 @@
 ---
-title: GVL RNA, -, seq Differential Gene Expression Advanced Tutorial
+title: GVL RNA-seq Differential Gene Expression Advanced Tutorial
 ---
 <div class='center'>
-<a href='https://docs.google.com/document/d/1fQ1XfeOKhezJUDTzMXtZVY20c3RGoHe-HLvFOGzqU4s/pub'><img src='/PublicGalaxyServers/GenomicsVirtualLab300.png' alt='RNAseq Differential Gene Expression Advanced tutorial' height="200" /></a>
+<a href='https://docs.google.com/document/d/1fQ1XfeOKhezJUDTzMXtZVY20c3RGoHe-HLvFOGzqU4s/pub'><img src="/src/PublicGalaxyServers/GenomicsVirtualLab300.png" alt="RNAseq Differential Gene Expression Advanced tutorial" height="200" /></a>
 </div>
 
 
@@ -44,4 +44,5 @@ Needed datasets exist in Shared Libraries on the server, and are also available 
 * [RNAseq Differential Gene Expression Advanced tutorial](https://docs.google.com/document/d/1fQ1XfeOKhezJUDTzMXtZVY20c3RGoHe-HLvFOGzqU4s/pub)
 * [Genomics Virtual Lab](https://genome.edu.au/wiki/GVL)
 * The [GVL Tutorials and Protocols page](https://genome.edu.au/wiki/Learn)
+
 CategoryTrainingResource

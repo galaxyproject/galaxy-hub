@@ -1,14 +1,15 @@
 Section modification previews
 
 ## Dataset status and how jobs execute
-The Galaxy user interface (UI) has been designed to communicate job execution status through visual cues and concise meesages. Learn more about how interpret these cues and to use strategies to maximize throughput by [reading more here...](/Support/JobStatus)
-When a tool is executed, one or more new **[datasets](/Learn/Managing Datasets)** are added to a history. The same is true when a **workflow** is executed. *If using the public [Main](/src/Main/index.md) Galaxy instance, the most effective strategy when running jobs on the shared resource is to start jobs (or workflows), and then leave them alone to execute until completion.* 
+
+The Galaxy user interface (UI) has been designed to communicate job execution status through visual cues and concise meesages. Learn more about how interpret these cues and to use strategies to maximize throughput by [reading more here...](/src/Support/JobStatus/index.md)
+When a tool is executed, one or more new **[datasets](/src/Learn/Managing Datasets/index.md)** are added to a history. The same is true when a **workflow** is executed. *If using the public [Main](/src/Main/index.md) Galaxy instance, the most effective strategy when running jobs on the shared resource is to start jobs (or workflows), and then leave them alone to execute until completion.* 
 <br />
 <br />
-When work is urgent during peak-usage times on the public **[/Main](/src/Main/index.md)** Galaxy instance, a **[/CloudMan](/src/CloudMan/index.md)** instance is a quick-to-implement alternative. For large scale and/or urgent ongoing work, a **[/CloudMan](/src/CloudMan/index.md)**, **[Local](/src/Admin/GetGalaxy/index.md)**, or **[SlipStream Galaxy](http://www.bioteam.net/slipstream/galaxy-edition)** each have advantages as a longer-term solution. [Read more ...](/src/BigPicture/Choices/index.md)
+When work is urgent during peak-usage times on the public **[Main](/src/Main/index.md)** Galaxy instance, a **[CloudMan](/src/CloudMan/index.md)** instance is a quick-to-implement alternative. For large scale and/or urgent ongoing work, a **[CloudMan](/src/CloudMan/index.md)**, **[Local](/src/Admin/GetGalaxy/index.md)**, or **[SlipStream Galaxy](http://www.bioteam.net/slipstream/galaxy-edition)** each have advantages as a longer-term solution. [Read more ...](/src/BigPicture/Choices/index.md)
 <br />
 <br />
-*So, how does the processing of tool jobs on **[/Main](/src/Main/index.md)** actually work?*
+*So, how does the processing of tool jobs on **[Main](/src/Main/index.md)** actually work?*
 * The **color** of a dataset designates the current status of the underlying job.
   * **<div class='green'>green</span>** - the job completed successfully
     * The resulting data is ready to be used in visualizations, available as input to tools, can be downloaded, or utilized for any other downstream purpose.
@@ -20,4 +21,5 @@ When work is urgent during peak-usage times on the public **[/Main](/src/Main/in
     * There can be many reasons for this, see the next section, **[Error from tools](/src/Support/index.md#error_from_tools)** for details.
   * **<div class='blue'>blue-purple with moving arrow</span>** - (applies to "Get Data -> Upload File" tool only) - the job is queuing or running
     * The job may run immediately, or may turn *grey* if the server is busy, meaning that **guidelines for grey jobs apply**, and these *grey* datasets should never be deleted/re-run, for the same reasons explained above.
-    * An upload job that seems to run in the <div class='blue'>blue-purple</span> state for a very long time generally indicates that the file being loaded is too large for the method used (specifically, a browsed-file upload) and [FTP](/Learn/Upload via FTP) should be used instead. This is the only active job that should be deleted under normal usage, as it will never complete (no file over 2G will ever load via file browser upload).
+    * An upload job that seems to run in the <div class='blue'>blue-purple</span> state for a very long time generally indicates that the file being loaded is too large for the method used (specifically, a browsed-file upload) and [FTP](/src/Learn/Upload via FTP/index.md) should be used instead. This is the only active job that should be deleted under normal usage, as it will never complete (no file over 2G will ever load via file browser upload).
+

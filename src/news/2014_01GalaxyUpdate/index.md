@@ -1,14 +1,11 @@
----
-date: 2013-12-31T23:16:52Z
----
 <div class='newsItemHeader'>[January 2014 Galaxy Update](/src/News/2014_01GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/GalaxyUpdates/2014_01'><img src='/Images/Logos/GalaxyUpdate200.png' alt='January 2014 Galaxy Update' width=150 /></a>
+<a href='/src/GalaxyUpdates/2014_01/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="January 2014 Galaxy Update" width=150 /></a>
 <br /><br />
-<a href='/GalaxyUpdates/2014_01#galaxy-community-log-board'><img src='/Images/Logos/LogBoardWText200.png' alt='Galaxy Community Log Board' width="150" /></a>
+<a href='/src/GalaxyUpdates/2014_01/index.md#galaxy-community-log-board'><img src="/src/Images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="150" /></a>
 <br /><br />
-<a href='/GalaxyUpdates/2014_01#galaxy-deployment-catalog'><img src='/Images/Logos/GalaxyDeploymentCatalog200.png' alt='Galaxy Deployment Catalog' width="150" /></a>
+<a href='/src/GalaxyUpdates/2014_01/index.md#galaxy-deployment-catalog'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="150" /></a>
 </div>
 
 The [January 2014 Galaxy Update is out](/src/GalaxyUpdates/2014_01/index.md)!
@@ -35,5 +32,6 @@ Best wishes to you and yours for a happy and spectacular 2014,
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-12-31 </div>
 
 CategoryNews

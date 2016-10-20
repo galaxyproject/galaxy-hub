@@ -1,17 +1,18 @@
 # February 18, 2011 Galaxy Development News Brief
 
----
+----
 [Get Galaxy!](http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy)
 
   new: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`
 
   upgrade: `% hg pull -u -r ca0c4ad2bb39`
 
----
+----
 
 ## What's New
 
 ### galaxyproject at Twitter
+
 Join us at Twitter for the latest updates on development projects, conferences and training, and all things Galaxy! 
 
   #usegalaxy
@@ -23,6 +24,7 @@ Join us at Twitter for the latest updates on development projects, conferences a
 In addition to searching on data library names and descriptions, we have introduced the ability to search on attributes of library datasets.  
 
 #### Two different approaches to searching library datasets are supported
+
 1. Searching with [whoosh](https://bitbucket.org/mchaput/whoosh/wiki/Home)
 
 2. Searching with Apache's [Lucene](http://lucene.apache.org/java/docs/index.html). (Contributed by Brad Chapman)
@@ -69,11 +71,11 @@ The above setting rebuilds the indexes every 30 minutes.  You may want to build 
 
 Using *whoosh*, you can search on the `"name", "info", "message" and "dbkey"` attributes of library datasets using the following new search box displayed at the top of the `"Data Libraries"` page:
 
-![](/News Briefs/2011_02_18/2011_02_18_library_dataset_search.png)
+![](/src/News Briefs/2011_02_18/2011_02_18_library_dataset_search.png)
 
 Clicking the "Advanced search" link below the search box allows you to search data library names and descriptions as you did in the past:
 
-![](/News Briefs/2011_02_18/2011_02_18_data_library_search.png)
+![](/src/News Briefs/2011_02_18/2011_02_18_data_library_search.png)
 
 
 #### Details for searching with Lucene
@@ -162,11 +164,12 @@ This scenario is about as simple as it gets.  Keep in mind that a Dataset object
 
 Another way of stating it is: `LibraryDatasetDatasetAssociation` objects map `LibraryDataset` objects to `Dataset` objects, and `Dataset` objects may be mapped to `History` objects via `HistoryDatasetAssociation` 
 
----
+----
 
 ## Updated & Improved
 
 ### Current Tools
+
 * Update *FASTX* tool wrappers to handle `fastqsanger` formats.
 * The *BLAST+* tools are now uncommented in the `sample tool configuration`.
 * Fix an `Rpy` syntax problem in the `Histogram` tool that was causing the tool to fail in some local installations.
@@ -174,16 +177,19 @@ Another way of stating it is: `LibraryDatasetDatasetAssociation` objects map `Li
 * Add `GTF sniffer` to `datatypes config` sample file.
 
 ### New Tools
+
 * Added a Line/Word/Character counter to `Text Manipulation` tool group.
 * Extended `Extract Genomic DNA` tool to support GFF/GTF features and custom genomes:
   * This is especially useful for extracting genomic data that correspond to transcripts in GTF format, as is produced by `Cufflinks`.
   * Tool also now accepts sequence data from a history item, enabling the extraction of data from custom genomes.
 
 ### New Community Tools Added (Tool Shed)
+
 * *Velvet, ABySS, Minimus2, Phrap,* and *Newbler.*
     [http://community.g2.bx.psu.edu/](http://community.g2.bx.psu.edu/)
 
 ### Data Libraries
+
 * Fix a bug that included the option for a regular (non-admin) user to upload a directory of files when the `config` setting existed, but the user's directory did not exist. Instead of throwing an exception, an attempt to create the directory will now be made. If the attempt fails, the option to "Upload a directory of files" will not be included in the select list on the upload form for that particular user.
 * When browsing a data library, only display the check boxes and the actions to perform on multiple selected datasets if library datasets are displayed.
 * Clean up the behavior when performing an action on multiple library datasets. Instead of throwing an error and not allowing the action on any of the datasets if the user is not authorized to perform the action on one of them, all "unauthorized" datasets are now left alone and the action is performed on all datasets for which the user is authorized to perform the action. Appropriate messages detail what occurred.
@@ -193,9 +199,11 @@ Another way of stating it is: `LibraryDatasetDatasetAssociation` objects map `Li
 * Add a purged column to the `LibraryDataset` table. A `LibraryDataset` is marked "purged" when all associated `LibraryDatasetDatasetAssociations` are marked "deleted".
 
 ### Workflows
+
 * Workflow steps on the `"Run workflow"` page are now collapsible to just the title bar with the tool name and annotation.  Steps without any inputs to be set will be collapsed by default.
 * When running a workflow, possible values for `Input Dataset` steps are filtered to `datatypes` that are valid for immediately subsequent steps, instead of just using 'data'.
 * *Jquery1.5* workflow fixes with quotations and flagging of outputs.
+
 Workflows containing tools that are not loaded will now open in the editor instead of failing on the dictionary lookup.  The offending nodes are marked as having an error state, and the workflow cannot be saved.  This will enable users to at least look at and try to recover a workflow by removing (and potentially replacing) the offending steps, as well as providing a better view of what's actually wrong with the workflow.
 * Workflows will no longer try to run when required tools are not found.  An error message is displayed with a link to the editor view (to fix the workflow).
 * Interval datatype now uses line estimates for large files.  This fixes potential "'?' lines" seen by some users.
@@ -205,6 +213,7 @@ Workflows containing tools that are not loaded will now open in the editor inste
 * We now use the *inflector* utility to pluralize groupings.  Fixes "Querys", etc.
 
 ### Trackster
+
 * Enhancements:
   * Support large (10,000+) sets of chromosomes/contigs, as is often the case for low/non-model coverage genomes.
   * Improve speed by streamlining data fetching and caching in Trackster.
@@ -219,32 +228,36 @@ Workflows containing tools that are not loaded will now open in the editor inste
   * Better handling of error messages so that messages and data do not overlap.
 
 ### User Interface (UI)
+
 * Search improvements:
   * Size of search box increases to show help text (column label). 
   * Help text is highlighted rather than hidden when user clicks on search box. 
   * Standard and advanced search divs are toggled correctly when moving between searches.
 
-
 ### Galaxy Reports
+
 * Clarify in the reports config that Galaxy reports do not support *SQLite*.
 * Add 2 new sample tracking reports and 2 new workflow reports, each of which provides the total number of items per month and the total number of items per user ( per month ).
 
 ### Source
+
 * Better egg version conflict resolution.  Our eggs should always override dependencies installed elsewhere on `sys.path`.
 * Job runners are now loaded dynamically; changes to the source are no longer required.  Existing 3rd-party runners will need to add a class to instantiate to the runner-global '<u>all__' list.  See the provided runners for examples.
 * The Galaxy-side code for the LWR job runner by John Chilton is now included.  Documentation in the wiki is forthcoming, to learn more see John's documentation at: [http://bitbucket.org/jmchilton/lwr/](http://bitbucket.org/jmchilton/lwr/)
 * "LWR allows you to create a "cluster" out of any systems without installing specialized tightly integrated DRM software like PBS/SGE."
 
 ### Bug Fixes
+
 * Gracefully fall back to English if a client requests a locale not installed on the server.
 * Don't attempt to check for the python-daemon egg on Python 2.4 (it's used by an optional experimental component and is not compatible with Python 2.4).
 * The drmaa job runner would not always detect job completion on some systems.  This change could also cause job failures to be considered successful job completions, but we have no way to test for these conditions. Please report if you discover this to be the case.
 * Migrating to database version 62 no longer fails for MySQL. Thanks Leandro Hermida.
 * Downloading eggs for offline systems works again.
 
----
+----
 
 ### About Galaxy
+
 **Galaxy** is supported in part by **[NSF](http://www.nsf.gov/)**, **[NHGRI](http://www.genome.gov/)**, the **[Huck Institutes of the Life Sciences](http://www.huck.psu.edu/)**, and **[The Institute for CyberScience at Penn State](http://www.ics.psu.edu/)**.
 
    [Core Team](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam)
@@ -255,4 +268,4 @@ Workflows containing tools that are not loaded will now open in the editor inste
 
    [Development Home](http://bitbucket.org/galaxy/galaxy-central)
 
----
+----

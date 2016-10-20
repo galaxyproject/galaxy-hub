@@ -1,10 +1,7 @@
----
-date: 2013-05-08T17:39:38Z
----
 <div class='newsItemHeader'>[May 2013 GalaxyAdmins Meetup](/src/News/2013_05GalaxyAdmins/index.md)</div>
 
-<div class='right'><a href='/Community/GalaxyAdmins/Meetups/2013_05_15'><img src='/Images/Logos/GalaxyAdmins.png' alt='May 2013 GalaxyAdmins Meetup' width="160" /></a><br />
-<a href='http://rnaseq.pathogenportal.org/'><img src='/Community/GalaxyAdmins/Meetups/2013_05_15/PathogenPortalGalaxyLandingPage.png' alt='Pathogen Portal Galaxy' width="160" /></a></div>
+<div class='right'><a href='/src/Community/GalaxyAdmins/Meetups/2013_05_15/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="May 2013 GalaxyAdmins Meetup" width="160" /></a><br />
+<a href='http://rnaseq.pathogenportal.org/'><img src="/src/Community/GalaxyAdmins/Meetups/2013_05_15/PathogenPortalGalaxyLandingPage.png" alt="Pathogen Portal Galaxy" width="160" /></a></div>
 
 
 The [next meeting](/src/Community/GalaxyAdmins/Meetups/2013_05_15/index.md) of the [GalaxyAdmins Group](/src/Community/GalaxyAdmins/index.md) will be held on [May 15, 2013, at 10 AM Central US time](/src/Community/GalaxyAdmins/Meetups/2013_05_15/index.md). 
@@ -24,7 +21,7 @@ Andrew Warren of the [Cyberinfrastructure Division](http://www.vbi.vt.edu/facult
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> </em><a href='http://rnaseq.pathogenportal.org/'>Galaxy</a> at <a href='http://pathogenportal.org'>Pathogen Portal</a><em><div class='indent'>Andrew Warren, <a href='https://www.vbi.vt.edu/'>Virginia Bioinformatics Institute</a>, Virginia Tech </div></em>Galaxy Project Update<em><div class='indent'><a href='/DannonBaker'>Dannon Baker</a></div> </td>
+    <td> </em><a href='http://rnaseq.pathogenportal.org/'>Galaxy</a> at <a href='http://pathogenportal.org'>Pathogen Portal</a><em><div class='indent'>Andrew Warren, <a href='https://www.vbi.vt.edu/'>Virginia Bioinformatics Institute</a>, Virginia Tech </div></em>Galaxy Project Update<em><div class='indent'><a href='/src/DannonBaker/index.md'>Dannon Baker</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -41,5 +38,6 @@ We use the [Blackboard Collaborate Web Conferencing system](/src/Community/Galax
 
 [Dave Clements](/src/DaveClements/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-05-08</div>
 
 CategoryNews

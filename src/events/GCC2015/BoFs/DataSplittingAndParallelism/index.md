@@ -1,7 +1,7 @@
 ---
 title: Data Splitting and Parallelism
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
 
 
 
@@ -14,7 +14,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
  Contact:: Peter Cock http://twitter.com/pjacock
 </div>
 
-<div class='left'><a href='/Events/GCC2015/BoFs'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a></div>
+<div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
 This page describes the **Data Splitting and Parallelism** [Birds of a Feather](/src/Events/GCC2015/BoFs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 
@@ -36,7 +36,7 @@ We will meet on Tuesday, 7 July, at 12:30 (lunch) in the Watson Room, inside JIC
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [p.j.a.cock@googlemail.com](Peter Cock).
+If you are interested, please add your name below and/or send an email to [mailto:p.j.a.cock@googlemail.com](Peter Cock).
 
 * Peter Cock
 * John Chilton
@@ -74,6 +74,6 @@ Much like existing format conversion, where datatypes have split and merge metho
 
 ## Questions?
 
-Send them to [p.j.a.cock@googlemail.com](Peter Cock).
+Send them to [mailto:p.j.a.cock@googlemail.com](Peter Cock).
 
 CategoryBoF

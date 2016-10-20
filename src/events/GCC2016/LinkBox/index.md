@@ -1,6 +1,6 @@
 <div class='linkbox'>
 **[GCC2016](https://gcc2016.iu.edu/)**<br />
----
+----
 [Training](https://gcc16.sched.org/overview/type/D.x+Training+-+All)<br />
 [Meeting](https://gcc16.sched.org/overview/type/E.x+Conference+-+All)<br />
 [Hackathons](https://gcc2016.iu.edu/hacks/index.php)<br />

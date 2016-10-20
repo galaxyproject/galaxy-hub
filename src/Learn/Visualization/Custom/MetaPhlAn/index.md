@@ -1,5 +1,5 @@
 ---
-title: !, MetaPhlAn
+title: !MetaPhlAn
 ---
 
 
@@ -22,7 +22,7 @@ We provide support for !MetaPhlAn users. Please join our Google group designated
 
 [Nicola Segata, Levi Waldron, Annalisa Ballarini, Vagheesh Narasimhan, Olivier Jousson & Curtis Huttenhower. Metagenomic microbial community profiling using unique clade-specific marker genes.](http://nar.oxfordjournals.org/content/early/2014/05/05/nar.gku365.abstract)
 
-![MetaPhlAn](https://bitbucket.org/afrahshafquat/hututorials/raw/dd1b9c9c99597dbb5158d04771201267d27c23d5/metaphlan/abundance_heatmap.png)
+<img src="https://bitbucket.org/afrahshafquat/hututorials/raw/dd1b9c9c99597dbb5158d04771201267d27c23d5/metaphlan/abundance_heatmap.png" alt="MetaPhlAn" width=500 />
 
 ## Datasets
 
@@ -32,3 +32,4 @@ We provide support for !MetaPhlAn users. Please join our Google group designated
 
 * **[Tutorial](https://bitbucket.org/biobakery/biobakery/wiki/metaphlan#rst-header-metaphlan-visualization)**
 * **[Paper](http://www.nature.com/nmeth/journal/v9/n8/full/nmeth.2066.html)**
+

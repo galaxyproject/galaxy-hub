@@ -2,7 +2,8 @@
 autotoc: true
 ---
 # July 16, 2010 New Development News Brief
----
+
+----
 <div class='right'></div>
 Here are the highlights of what you will get if you perform the following upgrade:
 
@@ -11,15 +12,17 @@ hg pull -u -r 11fb3bb5b250
 ## New Features
 
 ### Recently used tools list
+
 Add 'recently used tools' section to tools menu (highlighted in the June 21, 2010 brief).  Recently used tools is a list of the five most recent tools that a user has run.  A user must be logged in to use this feature, which is available in the Options pop-up menu in the tool panel.  The option is "Show Recently Used".
 
-![](/News Briefs/2010_07_16/2010_07_16_show_recently_used.png)
+![](/src/News Briefs/2010_07_16/2010_07_16_show_recently_used.png)
 
 When selected, a new "Recently Used" tool section is displayed at the top of the tool panel.
 
-![](/News Briefs/2010_07_16/2010_07_16_recently_used.png)
+![](/src/News Briefs/2010_07_16/2010_07_16_recently_used.png)
 
 ### Initial implementation of the Galaxy Web API
+
 This feature is disabled unless "enable_api = True" in universe_wsgi.ini config file.  You should not enable the API on production sites as this code is brand new and may contain serious bugs and security flaws.
 
 #### Highlights of what's currently available
@@ -45,7 +48,7 @@ This feature is disabled unless "enable_api = True" in universe_wsgi.ini config 
 
 #### Things that need to be done next
 
-* Documentation! *(Edit: See [/Learn/API](/src/Learn/API/index.md) and [/Admin/API](/src/Admin/API/index.md))*
+* Documentation! *(Edit: See [Learn/API](/src/Learn/API/index.md) and [Admin/API](/src/Admin/API/index.md))*
 * Refactor reused code from library_common and other controllers into an even-more-generic location and format.  The main changes are that the Web UI returns redirects and rendered templates, whereas the API returns various HTTP status codes and JSON.
 * Implement more functionality.
 * The request and response format should be considered alpha and are subject to change.  They will be standardized as the API matures.
@@ -57,6 +60,7 @@ This feature is disabled unless "enable_api = True" in universe_wsgi.ini config 
 * Add GTF as a default datatype for Galaxy.
 
 #### Administrative Job Lock
+
 * Admins can now lock (and unlock) all job dispatching.  New jobs will remain in the job queue in the 'waiting' state until the lock is removed.  Existing dispatched jobs are unaffected, and jobs can still be submitted, but they will not dispatch.
 
 ## Existing Feature Improvements
@@ -68,6 +72,7 @@ This feature is disabled unless "enable_api = True" in universe_wsgi.ini config 
 * Enable bedgraph files to be displayed in UCSC genome browser.
 
 ### History export / import
+
 * Include annotations and tags when exporting and importing histories to/from files.
 * Include job information when exporting and importing histories to/from files. This enables jobs associated with an imported history to be rerun and hence affords a history's analyses to be reproduced exactly. Jobs also have a new flag, imported, that is set to false by default but is true when a job is created via import. Also re-factored export/import code to use custom JSON encoders.  This code is in a very alpha/beta state: it may not work well, at all, or as expected. Complex datasets and/or jobs are likely not yet handled. Use with caution.  Also, due to security issues, history/import and history/export methods are not currently web-accessible. Admins must manually make these methods accessible if they want to use them.
 * Security checks when opening and/or copying files from imported archive
@@ -76,30 +81,36 @@ This feature is disabled unless "enable_api = True" in universe_wsgi.ini config 
 * New Job actions - Send Email action, Delete action.  Note that delete action is dangerous and will break a workflow if you delete datasets that are required in later steps.
 
 ### Improvements to GOPS subtract tool
+
 * Preserve metadata for interval inputs
 * Allow arbitrary mix of interval and GFF inputs
 * Functional tests updated to test new functionality.
 
 ### Improvements to GOPS intersect tool
+
 * Preserve metadata for interval inputs
 * Allow arbitrary mix of interval and GFF inputs
 * Functional tests updated to test new functionality.
 
 ### Extract genomic DNA tool
+
 * Enhance to accept and produce GFF files and added functional tests for this feature.
 * Fix bug so that fasta identifier produced by this tool for GFF files is consistent with GFF coordinates.
 
 * Changed the way sam_indel_filter tool expects quality score cutoffs.
 
 ### Trackster
+
 * Now skips incorrect twobit.loc locations
 * Track browsers can now be embedded in Galaxy Pages as multiple browsers can now exist at the same time after re-factoring. Display code is now separated from editor code. Some scrolling bugs have been fixed as well.
 * Move trackster.css to common stylesheet folder, fix small error in color
 
 ### Galaxy on the cloud
+
 * Removed extra cloud clause left from earlier code cleanup. Resolves issue #350.
 
 ### Galaxy Sample Tracking
+
 * A new controller, requests_common.py, now handles all common tasks (create/edit/delete) for requests and samples. The requests controller now includes only the grid definition and the requests_admin controller now includes only the request_type code and the sequencer data transfer code.
 * Added an option to rename sequencer datasets by prepending the experiment name.
 * Removed the db engine echo option in the data transfer
@@ -109,6 +120,7 @@ This feature is disabled unless "enable_api = True" in universe_wsgi.ini config 
 * Make the PSU BX browser a UCSC browser instead of being a different display type.
 
 ### Functional tests
+
 * Removed binseq.zip test and replaced it with a zip test.
 
 * Switch methods using sendmail to SMTP instead.
@@ -118,6 +130,7 @@ This feature is disabled unless "enable_api = True" in universe_wsgi.ini config 
 * Detect pdf files on upload (patch from Brad Chapman). Resolves #357
 
 ### Improvements to tool search
+
 * Search tool title, description, and help
 * Set minimum score for searching to remove very poor results
 
@@ -134,6 +147,7 @@ This feature is disabled unless "enable_api = True" in universe_wsgi.ini config 
 ## New Tools
 
 ### Indel Analysis tool section including these new tools
+
 * indel_analysis
 * indel_table
 * indel_sam2interval tools
@@ -157,6 +171,7 @@ This feature is disabled unless "enable_api = True" in universe_wsgi.ini config 
 * Fixed issue #345 - Incorporated Brad Chapman's patch which handles skipping of order checking for join_wrapper tool version >=7, which would otherwise end in an error. Also modified sort command to better handle cases with duplicate keys. A new test-case to test these scenarios has been added as well.
 
 ### GOPS column_join tool
+
 * Fixed bug so it checks qualities for correct bases in all cases
 * Fixed a bug where it failed when only two files were being joined
 * Fixed a bug that resulted in some items incorrectly being listed on more than one line.
@@ -164,6 +179,7 @@ This feature is disabled unless "enable_api = True" in universe_wsgi.ini config 
 * If a LibraryDataset does not have an associated LDDA (this should not be possible but apparently has happened), suppress an exception in the library browser that prevents viewing the library at all.
 
 ### Galaxy API
+
 * Apply patch from Brad Chapman to prevent deleted items from appearing in library contents listing.
 
 * Pick out a language-code from Accept-Language header - patch from Hideyuki Morita
@@ -177,3 +193,4 @@ This feature is disabled unless "enable_api = True" in universe_wsgi.ini config 
 * Bug fix for history/view when history has no user.
 
 * Fix bug so that users not logged in can view accessible/published visualizations.
+

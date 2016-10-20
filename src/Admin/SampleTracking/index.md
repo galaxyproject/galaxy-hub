@@ -1,5 +1,5 @@
-PLACEHOLDER_INCLUDE(/Admin/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md)
 
-* [Demo](Demo)
-* [Next Gen](Next Gen)
+* [Demo](/src/Admin/SampleTracking/Demo/index.md)
+* [Next Gen](/src/Admin/SampleTracking/Next Gen/index.md)
 

@@ -8,7 +8,7 @@ title: Introduction to Galaxy
   <tr>
     <td style=" border: none; text-align: center; vertical-align: middle; font-family: 'Times New Roman',Georgia,Serif; font-size: 200%; line-height: 120%;"> <a href='http://www.medicine.uiowa.edu/humangenetics'>Iowa Initiative</a><br /><a href='http://www.medicine.uiowa.edu/humangenetics'>in Human Genetics</a> </td>
     <td style=" border: none; text-align: center; vertical-align: middle; width: 10%;"> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://iowa.edu/'><img src='/Images/Logos/UIowaLogo.jpg' alt='University of Iowa' width="200" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://iowa.edu/'><img src="/src/Images/Logos/UIowaLogo.jpg" alt="University of Iowa" width="200" /></a> </td>
   </tr>
 </table>
 
@@ -44,6 +44,7 @@ Registration is open to any member of the University of Iowa community. The work
 
 
 ## Audience
+
 Are you a biomedical researcher who needs to do complex analysis on large datasets?
 
 Galaxy is an open, web-based platform for data intensive biomedical research that enables non-bioinformaticians to create, run, tune, and share their own bioinformatic analyses.
@@ -99,11 +100,13 @@ No programming or Linux command line experience is required.
 
 
 ## Slides
+
 * [Introduction to Galaxy](ATTACHMENT_URLDocuments/Presentations/2012_UIowaIntroToGalaxy.pdf), [Dave Clements](/src/DaveClements/index.md)
 * [University of Iowa Custom Galaxy Deployment](ATTACHMENT_URLDocuments/Presentations/2012_UIowaCustomGalaxyDeployment.pdf), Ann Black-Ziegelbein
 
 ## Support
-<div class='right'><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a></div>
+
+<div class='right'><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [Iowa Initiative in Human Genetics](http://www.medicine.uiowa.edu/humangenetics)
 
@@ -117,4 +120,4 @@ Please take a minute to give us [your feedback on the workshops](http://bit.ly/U
 
 ## Questions?
 
-Contact Galaxy Outreach [outreach@galaxyproject.org](outreach@galaxyproject.org).
+Contact Galaxy Outreach [mailto:outreach@galaxyproject.org](outreach@galaxyproject.org).

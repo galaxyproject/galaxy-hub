@@ -1,7 +1,7 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.ncsu.edu/'><img src='/Images/Logos/NCSULogoWideRed.png' alt='North Carolina State University' width="400px" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.ncsu.edu/'><img src="/src/Images/Logos/NCSULogoWideRed.png" alt="North Carolina State University" width="400px" /></a> </td>
   </tr>
 </table>
 
@@ -22,6 +22,7 @@
 Registration was *free, and first come, first served*.  The workshop is open to all members of the NCSU community. *However, it is also full.*
 
 ## Audience
+
 Are you a life scientist who needs to do complex analysis on large datasets?
 
 Galaxy is an open, web-based platform for data intensive life science research that enables non-bioinformaticians to create, run, tune, and share their own bioinformatic analyses.
@@ -92,9 +93,9 @@ No programming or Linux command line experience is required.
 
 ## Support
 
-<div class='left'><a href='/Events/RTWorkshopTour2013'><img src='/Images/Logos/RTGalaxyWorkshopTour2013-300.png' alt='2013 Research Triangle Galaxy Workshop Tour' width="170px" /></a></div>
+<div class='left'><a href='/src/Events/RTWorkshopTour2013/index.md'><img src="/src/Images/Logos/RTGalaxyWorkshopTour2013-300.png" alt="2013 Research Triangle Galaxy Workshop Tour" width="170px" /></a></div>
 
-<div class='right'><a href='http://cals.ncsu.edu/genetics/index.php'><img src='/Images/Logos/NCSUGeneticsLogo148.png' alt='NCSU Department of Genetics'  /></a> <a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' width="130px" /></a></div>
+<div class='right'><a href='http://cals.ncsu.edu/genetics/index.php'><img src="/src/Images/Logos/NCSUGeneticsLogo148.png" alt="NCSU Department of Genetics"  /></a> <a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" width="130px" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [NCSU Department of Genetics](http://cals.ncsu.edu/genetics/index.php).  This workshop is part of the [2013 Research Triangle Galaxy Workshop Tour](/src/Events/RTWorkshopTour2013/index.md).
 
@@ -104,9 +105,9 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Flyer
 
-<div class='right'><a href='/attachment:NCSUGalaxy2013.pdf'><img src='/NCSUGalaxy2013Thumb.png' alt='' width="100" /></a></div>
+<div class='right'><a href='/src/attachment:NCSUGalaxy2013.pdf/index.md'><img src="/src/Events/NCSU2013/NCSUGalaxy2013Thumb.png" alt="" width="100" /></a></div>
 Please distribute to any groups that might be interested.  You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?
 
-Contact [Trudy_Mackay AT ncsu DOT edu](Trudy Mackay) or [outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [mailto:Trudy_Mackay AT ncsu DOT edu](Trudy Mackay) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).

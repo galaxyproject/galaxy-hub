@@ -27,9 +27,11 @@ Millennium Science Complex, University Park
 Exact room will be announced later.
 
 ### RSVP
+
 Please indicate your interest or RSVP using [this form](https://docs.google.com/forms/d/1a5mm4_QpeFJwenws6Uangh_Das12X3apy4MLUzN_N4s/viewform).
 
 ### General agenda
+
 * Introductions
 * ~60 minute informal presentation introducing the basics of using Galaxy
 * Break for food
@@ -38,9 +40,11 @@ Please indicate your interest or RSVP using [this form](https://docs.google.com/
 * Socialize
 
 #### What is Galaxy and why could it be interesting to me?
+
 Galaxy is a web-based, open source, data integration and analysis platform for life science research. The core pillars of the application are:
 * **Accessibility**: enable bench scientists to create bioinformatics analyses
 * **Reproducibility**: facilitate computational methods to be completely easily reproducible
 * **Transparency**: enable easy sharing and publishing of research data and analyses
+
 A sample instance of the application that is free to use is available at [usegalaxy.org](https://usegalaxy.org/).
 Although focused around Galaxy, this workshop is open to anyone interested in the above topics without their specific ties to the application.

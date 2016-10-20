@@ -14,6 +14,7 @@ You often have two elements to incorporate:
 * a plugin to display datasets of that datatype
 
 ## The datatype
+
 For the datatype you often want to subclass the binary datatype and add it to your galaxy installation. Start here:
 * https://wiki.galaxyproject.org/Admin/Datatypes
 * https://wiki.galaxyproject.org/Admin/Datatypes/Adding%20Datatypes
@@ -26,9 +27,11 @@ To simplify:
 3. Add a subclass/class for your datatype
 
 ## The plugin
+
 For the plugin good place to start: https://wiki.galaxyproject.org/VisualizationsRegistry
 
 ### The filesystem layout
+
 Here's a simplified process for creating an outline for a visualization plugin project:
 1. in the filesystem, start at <your galaxy>/config/plugins/visualizations
 2. think of an id for your plugin. This can be any (filesystem permissible) file name and is only used as an id by the registry - the users never see it. It should be unique from any other plugins in that directory. (e.g. myplugin)
@@ -41,18 +44,19 @@ At this point, your config/plugins/visualizations/myplugin directory should look
 https://wiki.galaxyproject.org/VisualizationsRegistry#Configuring_your_visualization_plugin_in_the_.60visualization_plugins_directory.60
 
 ### The configuration
+
 Now, we'll configure the plugin by editing the config/plugins/visualizations/myplugin/config/myplugin.xml file. Let's assume you've copied the scatterplot config file (https://github.com/galaxyproject/galaxy/blob/dev/config/plugins/visualizations/scatterplot/config/scatterplot.xml):
 
 1. change the name displayed to what you'd like users to see in the dataset visualizations dropdown menu: 
-```
-#!highlight xml
+
+```xml
 <visualization name="My Visualization Plugin">
 ```
 
 
 2. change the configuration for your visualization to test for your datatype. For example, if you have mydatatype, change:
-```
-#!highlight xml
+
+```xml
 <data_sources>
     <data_source>
         <model_class>HistoryDatasetAssociation</model_class>
@@ -71,13 +75,14 @@ The above is basically saying, if an object is a) a HistoryDatasetAssociation (a
 Note: the 'binary.MyDatatype' is essentially 'module.class' and is also the last half of the id given in the 'api/datatypes/mapping' mentioned previously. 
 
 3. change the template used as the entry point to reflect the name you gave it:
-```
-#!highlight xml
+
+```xml
 <entry_point entry_point_type="mako">myplugin.mako</entry_point>
 ```
 
 
 ## Testing and troubleshooting
+
 Finally, you should be at a spot that:
 * your visualization will appear in the visualization dropdown menu of datasets that are of the mydatatype class
 * if that menu link is clicked, galaxy will go to visualization/show/<your plugin id>. E.g. /visualization/show/myplugin?dataset_id=0b1d0715f8366ea8
@@ -86,12 +91,12 @@ Finally, you should be at a spot that:
 * If your server is running when you've made changes to your config file, you'll need to restart it (changes to mako and static files do not need a restart)
 * Make sure your id is used in the proper places above and that they all match
 * If galaxy is trying to load or loading your visualization plugin, you should see an entry like this in your server logs:
+
 ```
 galaxy.web.base.pluginframework INFO 2015-12-14 08:46:44,788 VisualizationsRegistry, loaded plugin: myplugin
 ```
 
 * errors will also display there
 * it can help to change 'debug = True' in your config/galaxy.ini file (only do this on a separate development server - not you public shared instances)
-
 
 Related dev-list thread: http://dev.list.galaxyproject.org/How-does-one-run-Javascript-or-HTML-as-a-tool-tt4668518.html

@@ -1,9 +1,9 @@
 ---
-title: Swiss German Galaxy Tour, /, Day 2016
+title: Swiss German Galaxy Tour/Day 2016
 ---
-PLACEHOLDER_INCLUDE(/Events/SG2016/Header)
+PLACEHOLDER_INCLUDE(/src/Events/SG2016/Header/index.md)
 
-PLACEHOLDER_INCLUDE(/Events/SG2016/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/SG2016/LinkBox/index.md)
 
 
 
@@ -27,12 +27,12 @@ Registration is free, but space is limited on both days. We recommend you regist
   </tr>
   <tr>
     <th> October 20<sup>th</sup>, Thursday </th>
-    <td> <a href='/Events/Switzerland2016'>3rd Swiss Galaxy Workshop</a> </td>
+    <td> <a href='/src/Events/Switzerland2016/index.md'>3rd Swiss Galaxy Workshop</a> </td>
     <td rowspan=2 style=" text-align: left; width: 33%;"> <a href='http://www.uni-freiburg.de/universitaet-en/kontakt-und-wegweiser/lageplaene/engineering'>Technische Fakultät, Albert-Ludwigs-Universität, Freiburg, Germany</a> </td>
   </tr>
   <tr>
     <th> October 21<sup>st</sup>, Friday </th>
-    <td> <a href='/Events/Germany2016'>2nd German Galaxy Developer workshop</a> </td>
+    <td> <a href='/src/Events/Germany2016/index.md'>2nd German Galaxy Developer workshop</a> </td>
   </tr>
 </table>
 
@@ -42,7 +42,7 @@ The [first day](/src/Events/Switzerland2016/index.md), October 20<sup>th</sup>, 
 The [second day](/src/Events/Germany2016/index.md), October 21<sup>st</sup>, is a developers day with 3 to 4 hands-on sessions (1.5h). Every session will start with a 10 minute talk and theoretical introduction, followed by 1h of hacking and 20 minutes discussion and a small break until the next session begins. There are a few proposed and prepared topics but we are flexible so we can discover new areas of the Galaxy. See the [event's page](/src/Events/Germany2016/index.md) for a list of topics.
 
 
-<div class='right'><br /><a href='http://www.uni-freiburg.de/universitaet-en/kontakt-und-wegweiser/lageplaene/engineering'><img src='/Images/Logos/UniFreiburg.png' alt='Technische Fakultät; Albert-Ludwigs-Universität Freiburg' height="100" /></a></div>
+<div class='right'><br /><a href='http://www.uni-freiburg.de/universitaet-en/kontakt-und-wegweiser/lageplaene/engineering'><img src="/src/Images/Logos/UniFreiburg.png" alt="Technische Fakultät; Albert-Ludwigs-Universität Freiburg" height="100" /></a></div>
 
 ## Location
 

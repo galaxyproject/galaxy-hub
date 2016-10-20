@@ -1,7 +1,7 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.tgac.ac.uk/introduction-to-galaxy/'><img src='/Images/Logos/TGACLogo.png' alt='The Genome Analysis Centre'  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.tgac.ac.uk/introduction-to-galaxy/'><img src="/src/Images/Logos/TGACLogo.png" alt="The Genome Analysis Centre"  /></a> </td>
   </tr>
 </table>
 
@@ -22,6 +22,7 @@ Genome Seminar Room<br />
 Registration is now closed.
 
 ## Audience
+
 Are you a life scientist who needs to do complex analysis on large datasets?
 
 Galaxy is an open, web-based platform for data intensive life science research that enables non-bioinformaticians to create, run, tune, and share their own bioinformatic analyses.
@@ -96,8 +97,8 @@ No programming or Linux command line experience is required.
 
 
 <div class='right'>
-<br /><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a><br /><br />
-<a href='/Events/UKMay2014'><img src='/Images/Logos/UKMay2014Tour.png' alt='May 2014 Galaxy UK Tour' width="160px" /></a>
+<br /><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a><br /><br />
+<a href='/src/Events/UKMay2014/index.md'><img src="/src/Images/Logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
 </div>
 
 ## Support
@@ -114,4 +115,4 @@ This workshop is part of the [May 2014 Galaxy UK Tour](/src/Events/UKMay2014/ind
 
 ## Questions?
 
-Contact [tgac DOT training AT tgac DOT ac DOT uk](TGAC Training) or [outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [mailto:tgac DOT training AT tgac DOT ac DOT uk](TGAC Training) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).

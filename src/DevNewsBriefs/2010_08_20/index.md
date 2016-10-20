@@ -1,11 +1,13 @@
 # August 20, 2010 New Development News Brief
----
+
+----
 
 Here are the highlights of what you will get if you perform the following upgrade:
 
 hg pull -u -r d8cf43c9a0b9
 
 ### New Features
+
 * Add a ratings framework so that users can rate shared items. All sharable items--histories, workflows, datasets, visualizations, and pages--can be rated. Main framework components are:
   * Database tables for storing ratings
   * !UsesItemRatings mixin that supports rating items and obtaining an item's average rating
@@ -18,6 +20,7 @@ hg pull -u -r d8cf43c9a0b9
   * Handle extra empty tabs on the header line which are present in GATK produced VCF and confuse the determination of how many sample states should be parsed. 
 
 ### New Tools
+
 * srma_wrapper - Re-align with SRMA - version 0.1.5
 * bfast_wrapper - Map with BFAST - version 0.1.2
 * compute_p-values_correlation_coefficients_feature_occurrences_between_two_datasets_using_discrete_wavelet_transfom - Compute P-values and Correlation Coefficients for Feature Occurrences - version 1.0.0
@@ -27,11 +30,13 @@ hg pull -u -r d8cf43c9a0b9
 * mutation_visualize - Mutation Visualization - version 1.0.0
 
 ### New Supported Data Formats
+
 * Apply patch from Brad Chapman providing support for detecting, uploading and displaying UCSC bigWig and bigBed.  Add new functional tests for uploading and detecting bigbed and bigwig formats. 
 
 ### Existing Feature Improvements
 
 #### Tools ( and tool related )
+
 * Don't pipe errors for compute_q_values to a file.
 * Enhance 'Fetch Closest Features' tool to use GFF files and added tests for new functionality.
 * Remove UCSC tablebrowser specific parameters from modmine.xml datasource tool.
@@ -59,6 +64,7 @@ hg pull -u -r d8cf43c9a0b9
 * Add new-style display applications for GBrowse for gff, interval, and wig; only interval is enabled by default, the other two use existing methods. Still working on SAM and BAM for GBrowse.
 
 #### Trackster
+
 * Show counts for summary view by default, but only when text can fit in.
 * Fix summary view off-by-pixel bug.
 * Display Mode is now only initialized once and stays the same while switching chroms.
@@ -73,6 +79,7 @@ hg pull -u -r d8cf43c9a0b9
 * Fix drag-selecting region not working in embedded viz.
 
 #### Sample Tracking
+
 * Fixed a bug in email notification.
 * Show last update date/time in the transfer datasets grid.
 * An admin can no longer delete a transfer dataset when the transfer has started.
@@ -87,6 +94,7 @@ hg pull -u -r d8cf43c9a0b9
 * The remote file browser is now independent of a specific sample, the user may select any sample when transferring datasets from the sequencer.
 
 #### Workflows
+
 * Workflow output tagging.
 * Workflow messages and renaming now support unicode.
 * Enable workflows to contain unicode characters.
@@ -107,17 +115,21 @@ hg pull -u -r d8cf43c9a0b9
 * More graceful failure if shared workflow is not found. 
 
 #### Data Libraries
+
 * Single files down-loaded from the library are now just named as their title.
 
 #### Jobs ( and job related )
+
 * * Fix a bug in the sge runner's stop_job and job finishing logic.
 * The DRMAA job runner, which should be compatible with all DRMs which support DRMAA (most notably, LSF and PBS Pro).  Minor testing with LSF has been done, and this code is based on the SGE runner code which has been in service for a long time, but it should not be considered production.
 
 #### Character Encoding Improvements
+
 * Changed to_unicode_utf8() method to to_unicode() to avoid having to manage encodings.
 * Added method to web helper that converts strings to unicode-utf8 format.
 
 ### Miscellaneous Fixes and Improvements
+
 * Fix template bug introduced in 4143:4bd0731967ef and do not use item sharing display code for histories right now because histories have complex sharing rules.
 * Fix test_DNAse_flanked_genes functional test.
 * Bug fix for trying to access a non-existant attribute in dynamic options !ParamValueFilter.
@@ -149,6 +161,7 @@ hg pull -u -r d8cf43c9a0b9
 * Update new-style display applications to use use enhanced datatype.get_estimated_display_viewport(). Additionally, new-style display links will no longer be visible when the dataset is empty.
 
 ### Configuration settings and logging changes
+
 * Action and event logging are now turned off by default.
 * Remove explicit filename logging for connection proxy, need to use log configuration in universe_wsgi.ini to divert.
 * Configuration options for database query profiling.
@@ -158,3 +171,4 @@ hg pull -u -r d8cf43c9a0b9
 * Modified translogger middleware that properly propagates exceptions, should eliminate 'Attempt to set headers a second time w/o an exc_info'.
 * Allow access to /api without HTTP_REMOTE_USER set if use_remote_user = True, since the API controllers handle authentication internally.
 * Allow access to API Key creation when use_remote_user is true.
+

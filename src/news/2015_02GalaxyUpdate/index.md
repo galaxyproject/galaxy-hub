@@ -1,13 +1,10 @@
----
-date: 2015-01-30T00:30:15Z
----
 <div class='newsItemHeader'>[Galactic News! Feb. 2015 Edition](/src/News/2015_02GalaxyUpdate/index.md)</div>
 
 <div class='right'><div class='center'>
-<a href='/GalaxyUpdates/2015_02'><img src='/Images/Logos/GalaxyUpdate200.png' alt='February 2015 Newsletter' width=150 /></a><br /><br />
-<a href='/GalaxyUpdates/2015_02#gcc2015-6-8-july-norwich-uk'><img src='/Images/Logos/GCC2015LogoWide600.png' alt='Sponsor GCC2015' width="150" /></a><br />
-<a href='/GalaxyUpdates/2015_02#toolshed-contributions'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy ToolShed' width=170 /></a><br />
-<a href='/GalaxyUpdates/2015_02#19-february-galaxyadmins-meetup'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins meetup February 19' width="150" /></a></div>
+<a href='/src/GalaxyUpdates/2015_02/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="February 2015 Newsletter" width=150 /></a><br /><br />
+<a href='/src/GalaxyUpdates/2015_02/index.md#gcc2015-6-8-july-norwich-uk'><img src="/src/Images/Logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="150" /></a><br />
+<a href='/src/GalaxyUpdates/2015_02/index.md#toolshed-contributions'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=170 /></a><br />
+<a href='/src/GalaxyUpdates/2015_02/index.md#19-february-galaxyadmins-meetup'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup February 19" width="150" /></a></div>
 </div>
 
 [February](/src/GalaxyUpdates/2015_02/index.md) brings lots of [Galaxy related news](/src/GalaxyUpdates/2015_02/index.md), including [events news](/src/GalaxyUpdates/2015_02/index.md#events):
@@ -19,10 +16,12 @@ date: 2015-01-30T00:30:15Z
     * And [we are still seeking additional sponsors](/src/GalaxyUpdates/2015_02/index.md#call-for-sponsors)
 * [19 February GalaxyAdmins Meetup](/src/GalaxyUpdates/2015_02/index.md#19-february-galaxyadmins-meetup)
 * [Baltimore Area Galaxy Meetup Success](/src/GalaxyUpdates/2015_02/index.md#january-baltimore-area-galaxy-meetup-report) - and more to come
+
 [New Releases](/src/GalaxyUpdates/2015_02/index.md#new-releases) and [ToolShed Contributions](/src/GalaxyUpdates/2015_02/index.md#toolshed-contributions):
 * [New Galaxy Distribution](/src/GalaxyUpdates/2015_02/index.md#galaxy-20150113-distribution) *fixes security flaws and adds IPython integration*
 * [Planemo 0.2.0 released](/src/GalaxyUpdates/2015_02/index.md#planemo-020)
 * [Over 30 new and updated ToolShed repositories from 13 contributors](/src/GalaxyUpdates/2015_02/index.md#toolshed-contributions)
+
 and *Community News* too:
 * [55 new papers](/src/GalaxyUpdates/2015_02/index.md#new-papers), including 4 highlighted papers, referencing, using, extending, and implementing Galaxy.
 * [Job openings at 9 organizations](/src/GalaxyUpdates/2015_02/index.md#whos-hiring)
@@ -32,5 +31,6 @@ and *Community News* too:
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-01-30 </div>
 
 CategoryNews

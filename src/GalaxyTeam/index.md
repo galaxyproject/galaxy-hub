@@ -4,98 +4,103 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
  
 ## Core Team
 
-<div class='left center'><a href='/EnisAfgan'><img src='/EnisAfgan.jpg' alt='Enis Afgan' height="150" /></a><br /> 
+<div class='left center'><a href='/src/EnisAfgan/index.md'><img src="/src/GalaxyTeam/EnisAfgan.jpg" alt="Enis Afgan" height="150" /></a><br /> 
 [Enis Afgan](/src/EnisAfgan/index.md) <br /> 
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
-<div class='left center'><a href='/DannonBaker'><img src='dannon.jpg' alt='Dannon Baker' height="150" /></a><br /> 
+<div class='left center'><a href='/src/DannonBaker/index.md'><img src="/src/GalaxyTeam/dannon.jpg" alt="Dannon Baker" height="150" /></a><br /> 
 [Dannon Baker](/src/DannonBaker/index.md) <br /> 
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
-<div class='left center'><a href='/Dan'><img src='dan.jpg' alt='Dan Blankenberg' height="150" /></a><br />
+<div class='left center'><a href='/src/Dan/index.md'><img src="/src/GalaxyTeam/dan.jpg" alt="Dan Blankenberg" height="150" /></a><br />
 [Dan Blankenberg](/src/Dan/index.md) <br />
 [Penn State](http://www.bx.psu.edu)
 </div>
-<div class='left center'><a href='/DaveBouvier'><img src='/davebouvierflag.jpg' alt='Dave Bouvier' height="150" /></a><br />
+<div class='left center'><a href='/src/DaveBouvier/index.md'><img src="/src/GalaxyTeam/davebouvierflag.jpg" alt="Dave Bouvier" height="150" /></a><br />
 [Dave Bouvier](/src/DaveBouvier/index.md) <br />
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='left center'>
-<a href='/Marten'><img src='marten.jpg' alt='Marten Cech' height="150" /></a><br /> 
+<a href='/src/Marten/index.md'><img src="/src/GalaxyTeam/marten.jpg" alt="Marten Cech" height="150" /></a><br /> 
 [Martin Cech](/src/Marten/index.md) <br /> 
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='left center'>
-<a href='/JohnChilton'><img src='/JohnChiltonSmaller.jpg' alt='John Chilton' height="150" /></a><br />
+<a href='/src/JohnChilton/index.md'><img src="/src/GalaxyTeam/JohnChiltonSmaller.jpg" alt="John Chilton" height="150" /></a><br />
 [John Chilton](/src/JohnChilton/index.md)<br />
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='left center'>
-<a href='/DaveClements'><img src='Clements.jpg' alt='Dave Clements' height="150" /></a><br />
+<a href='/src/DaveClements/index.md'><img src="/src/GalaxyTeam/Clements.jpg" alt="Dave Clements" height="150" /></a><br />
 [Dave Clements](/src/DaveClements/index.md)<br />
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
 <div class='left center'>
-<a href='/nate'><img src='nate.jpg' alt='Nate Coraor' height="150" /></a><br />
+<a href='/src/nate/index.md'><img src="/src/GalaxyTeam/nate.jpg" alt="Nate Coraor" height="150" /></a><br />
 [Nate Coraor](/src/nate/index.md)<br />
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='left center'>
-![Carl Eberhard](/carl.jpg)<br />
+![Carl Eberhard](/src/GalaxyTeam/carl.jpg)<br />
 Carl Eberhard <br />
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
 <div class='left center'>
-<a href='/JeremyGoecks'><img src='jgoecks-banff-small.png' alt='Jeremy Goecks' height="150" /></a><br />
+<a href='/src/JeremyGoecks/index.md'><img src="/src/GalaxyTeam/jgoecks-banff-small.png" alt="Jeremy Goecks" height="150" /></a><br />
 [Jeremy Goecks](/src/JeremyGoecks/index.md)<br />
 [George Washington University](http://www.gwu.edu) 
 </div>
 <div class='left center'>
-&nbsp;&nbsp;&nbsp;<a href='/guerler'><img src='/guerler.jpg' alt='Aysam Guerler' height="150" /></a>&nbsp;&nbsp;&nbsp;<br /> 
+&nbsp;&nbsp;&nbsp;<a href='/src/guerler/index.md'><img src="/src/GalaxyTeam/guerler.jpg" alt="Aysam Guerler" height="150" /></a>&nbsp;&nbsp;&nbsp;<br /> 
 [Aysam Guerler](/src/guerler/index.md)<br />
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
 <div class='left center'>
-&nbsp;&nbsp;&nbsp;<a href='/MoHeydarian'><img src='/Mo.jpg' alt='Aysam Guerler' height="150" /></a>&nbsp;&nbsp;&nbsp;<br /> 
+&nbsp;&nbsp;&nbsp;<a href='/src/MoHeydarian/index.md'><img src="/src/GalaxyTeam/Mo.jpg" alt="Aysam Guerler" height="150" /></a>&nbsp;&nbsp;&nbsp;<br /> 
 [Mo Heydarian](/src/MoHeydarian/index.md)<br />
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
 <div class='left center'>
-<a href='/JenniferJackson'><img src='/jenhjackson.png' alt='Jen Jackson' height="150" /></a><br />
+<a href='/src/JenniferJackson/index.md'><img src="/src/GalaxyTeam/jenhjackson.png" alt="Jen Jackson" height="150" /></a><br />
 [Jennifer Hillman Jackson](/src/JenniferJackson/index.md)<br />
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='left center'>
-<a href='/DelphineLariviere'><img src='/DelphineLariviere.jpg' alt='DelphineLariviere' height="150" /></a><br />
+<a href='/src/VahidJalili/index.md'><img src="/src/GalaxyTeam/Vahid.jpg" alt="Vahid Jalili" height="150" /></a><br />
+[Vahid Jalili](/src/VahidJalili/index.md)<br />
+[George Washington University](http://www.gwu.edu) 
+</div>
+<div class='left center'>
+<a href='/src/DelphineLariviere/index.md'><img src="/src/GalaxyTeam/DelphineLariviere.jpg" alt="DelphineLariviere" height="150" /></a><br />
 [Delphine Lariviere](/src/DelphineLariviere/index.md)<br />
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='left center'>
-<a href='/fubar'><img src='ross.jpg' alt='Ross Lazarus' height="150" /></a><br />
+<a href='/src/fubar/index.md'><img src="/src/GalaxyTeam/ross.jpg" alt="Ross Lazarus" height="150" /></a><br />
 [Ross Lazarus](/src/fubar/index.md)<br /><br />
 </div>
 <div class='left center'>
-![Rémi Marenco](Remi.jpg)<br />
+![Rémi Marenco](/src/GalaxyTeam/Remi.jpg)<br />
 [Rémi Marenco](/src/RemiMarenco/index.md)<br />
 [George Washington University](http://www.gwu.edu) 
 </div>
 <div class='left center'>
-<a href='/anton'><img src='anton.jpg' alt='Anton Nekrutenko' height="150" /></a><br />
+<a href='/src/anton/index.md'><img src="/src/GalaxyTeam/anton.jpg" alt="Anton Nekrutenko" height="150" /></a><br />
 [Anton Nekrutenko](/src/anton/index.md)<br />
 [Penn State](http://www.bx.psu.edu) 
 </div>
 <div class='left center'>
-<a href='http://nstoler.com/'><img src='nstoler.jpg' alt='Nick Stoler' height="150" /></a><br />
+<a href='http://nstoler.com/'><img src="/src/GalaxyTeam/nstoler.jpg" alt="Nick Stoler" height="150" /></a><br />
 [Nick Stoler](http://nstoler.com/)<br />
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='left center'>
-<a href='/JamesTaylor'><img src='james.jpg' alt='James Taylor' height="150" /></a><br />
+<a href='/src/JamesTaylor/index.md'><img src="/src/GalaxyTeam/james.jpg" alt="James Taylor" height="150" /></a><br />
 [James Taylor](/src/JamesTaylor/index.md)<br />
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
 <div class='left center'>
-<a href='/NiteshTuraga'><img src='nitesh.jpg' alt='Nitesh Turaga' height="150" /></a><br />
+<a href='/src/NiteshTuraga/index.md'><img src="/src/GalaxyTeam/nitesh.jpg" alt="Nitesh Turaga" height="150" /></a><br />
 [Nitesh Turaga](/src/NiteshTuraga/index.md)<br />
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
@@ -105,25 +110,25 @@ Carl Eberhard <br />
 ## Contributors with Commit Access
 
 <div class='left center'>
-![Björn Grüning](/bjoern.jpeg)<br />
+![Björn Grüning](/src/GalaxyTeam/bjoern.jpeg)<br />
 [Björn Grüning](https://github.com/bgruening)<br />
 [Uni Freiburg](http://www.uni-freiburg.de/)
 </div>
 
 <div class='left center'>
-![Eric Rasche](https://secure.gravatar.com/avatar/1c56c5a42a525572a296fd0e1889a6c9?size=150)<br />
+<img src="https://secure.gravatar.com/avatar/1c56c5a42a525572a296fd0e1889a6c9?size=150" alt="Eric Rasche" height="150" /><br />
 [Eric Rasche](https://github.com/erasche)<br />
 [CPT](https://cpt.tamu.edu/)
 </div>
 
 <div class='left center'>
-![Nicola Soranzo](/nicola.jpeg)<br />
+![Nicola Soranzo](/src/GalaxyTeam/nicola.jpeg)<br />
 [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo)<br />
 [Earlham Institute](http://earlham.ac.uk/)
 </div>
 
 <div class='left center'>
-![Marius van den Beek](/marius.jpeg)<br />
+![Marius van den Beek](/src/GalaxyTeam/marius.jpeg)<br />
 [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek)<br />
 [IBPS UPMC](http://www.ibps.upmc.fr/)
 </div>
@@ -133,31 +138,31 @@ Carl Eberhard <br />
 ## Other Current Contributors
 
 <div class='left center'>
-![Peter Cock](/peter.jpg)<br />
+![Peter Cock](/src/GalaxyTeam/peter.jpg)<br />
 [Peter Cock](http://www.hutton.ac.uk/staff/peter-cock)<br />
 [TJHI](http://www.hutton.ac.uk/)
 </div>
 <div class='left center'>
-![Kyle Ellrott](/kyle.jpg)<br />
+![Kyle Ellrott](/src/GalaxyTeam/kyle.jpg)<br />
 [Kyle Ellrott](http://www.soe.ucsc.edu/people/kellrott)<br />
 [UCSC](http://www.ucsc.edu/)
 </div>
 <div class='left center'>
-![Brad Chapman](/brad.jpg)<br />
+![Brad Chapman](/src/GalaxyTeam/brad.jpg)<br />
 [Brad Chapman](http://bcbio.wordpress.com/about/)<br />
 [HSPH](http://www.hsph.harvard.edu//)
 </div>
 <div class='left center'>
-![Nuwan Goonasekera](/nuwan.jpg)<br />
+![Nuwan Goonasekera](/src/GalaxyTeam/nuwan.jpg)<br />
 [Nuwan Goonasekera](https://www.linkedin.com/in/nuwangoonasekera)<br />
 [VeRSI](http://versi.edu.au)
 </div>
 <div class='left center'>
-![Greg von Kuster](greg.jpg)<br /> 
+![Greg von Kuster](/src/GalaxyTeam/greg.jpg)<br /> 
 [Greg von Kuster](/src/greg_vonkuster/index.md)
 </div>
 <div class='left center'>
-![Yousef Kowsar](/yousef.jpg)<br />
+![Yousef Kowsar](/src/GalaxyTeam/yousef.jpg)<br />
 [Yousef Kowsar](https://www.linkedin.com/pub/yousef-kowsar/21/213/9a6)<br />
 [VLSCI](http://http://www.vlsci.org.au/)
 </div>
@@ -206,3 +211,4 @@ Carl Eberhard <br />
 * Darin London
 * Sergei Kosakovsky Pond
 * Members of Hardison, Makova, Miller, and Nekrutenko Labs
+

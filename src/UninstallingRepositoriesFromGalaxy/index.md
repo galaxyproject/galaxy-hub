@@ -1,4 +1,4 @@
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Main Tool Shed' height="174" /></a> </div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a> </div>
 
 # Deactivating and uninstalling tool shed repositories installed into a local Galaxy instance
 
@@ -22,48 +22,48 @@ Uninstalling this repository will result in the following.
 
 Let's take a look at how this works. Assume you are the administrator of a local Galaxy instance that includes the following tools and tool sections in the tool panel. The **Get Data** section includes the upload tool included in the Galaxy distribution. You manually installed the **Add column** tool from a local Galaxy tool shed, placing it outside of any sections in the tool panel. The **Mothur** tool section contains the Mothur tool suite and the **two repos** tool section contains tools from two repositories that you manually installed from a local Galaxy tool shed (the **Grinder** and **Blast2GO** tools). The **EMBOSS** tool section contains the Emboss version 5.0.0 tools that used to be included in the Galaxy distribution, but are now hosted on the main Galaxy tool shed. You configured your Galaxy instance to automatically install the repository containing these tools and the repository containing the Emboss datatypes using Galaxy's new install manager.
 
-![](/local_galaxy_example.png)
+![](/src/UninstallingRepositoriesFromGalaxy/local_galaxy_example.png)
 
 Since your Galaxy instance includes several installed tool shed repositories, the **Administration** menu wil include a link labeled **Manage installed tool shed repositories** in the menu's **Server** section. Clicking on that link will display a page like the following.
 
-![](/manage_installed_repositories.png)
+![](/src/UninstallingRepositoriesFromGalaxy/manage_installed_repositories.png)
 
 Each of the installed tool shed links includes a pop-up menu just right of the repository name (the downward pointing triangle). The pop-up menu includes an option labeled **Deactivate or uninstall**.
 
-![](/deactivate_or_uninstall.png)
+![](/src/UninstallingRepositoriesFromGalaxy/deactivate_or_uninstall.png)
 
 Clicking the **Deactivate or uninstall** option for the installed repository named **add_value** will display the following page. Notice the check box allowing you to deactivate the repository if its left blank or uninstall the repository if its checked.
 
-![](/deactivate_add_value.png)
+![](/src/UninstallingRepositoriesFromGalaxy/deactivate_add_value.png)
 
 Since the **add_value** repository includes only tools and no proprietary datatypes, deactivating the repository will set the repository record's deleted column in the tool_shed_repository database table to True, and keep the tool from being displayed in the tool panel. Clicking the **Deactivate or uninstall** button will display the following page. Notice that the **add_value** repository is no longer displayed in the list of installed repositories.
 
-![](/deactivated_add_value.png)
+![](/src/UninstallingRepositoriesFromGalaxy/deactivated_add_value.png)
 
 And the **Add column** tool is no longer displayed in the Galaxy tool panel.
 
-![](/add_value_not_displayed.png)
+![](/src/UninstallingRepositoriesFromGalaxy/add_value_not_displayed.png)
 
 Let's try uninstalling the **blast2go** repository - notice we've checked the check box here.
 
-![](/uninstall_blast2go.png)
+![](/src/UninstallingRepositoriesFromGalaxy/uninstall_blast2go.png)
 
 After uninstalling the repository, the following page is displayed. The repository files have been removed from disk, and the XML tag set for the **Blast2GO** tool has been removed from the tool config file.
 
-![](/uninstalled_blast2go.png)
+![](/src/UninstallingRepositoriesFromGalaxy/uninstalled_blast2go.png)
 
 Inspecting the tool panel shows us that the **Blast2GO** tool is no longer included in the **two repos** tool section.
 
-![](/blast2go_not_displayed.png)
+![](/src/UninstallingRepositoriesFromGalaxy/blast2go_not_displayed.png)
 
 How can we reinstall a repository that we've uninstalled? From the Administration **Manage installed tool shed repositories** page, click the **deleted** option within the **Advanced search** feature...
 
-![](/advanced_search.png)
+![](/src/UninstallingRepositoriesFromGalaxy/advanced_search.png)
 
 ...and the list of repositories that you have deactivated or uninstalled will be displayed.
 
-![](/inactive_repositories.png)
+![](/src/UninstallingRepositoriesFromGalaxy/inactive_repositories.png)
 
 The pop-up menus on this page allow you to activate or reinstall the repositories.
 
-![](/activate_or_reinstall.png)
+![](/src/UninstallingRepositoriesFromGalaxy/activate_or_reinstall.png)

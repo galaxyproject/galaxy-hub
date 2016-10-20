@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td> "Google Summer of Code (GSoC) is a global program that offers student developers stipends to write code for various open source projects. Google will be working with several open source, free software, and technology-related groups to identify and fund several projects over a three month period. Since its inception in 2005, the program has brought together thousands of students and mentors from over 100 countries worldwide, all for the love of code." </td>
-    <td> <img src='https://developers.google.com/open-source/soc/images/gsoc2015-300x270.jpg' /> </td>
+    <td> <img src="https://developers.google.com/open-source/soc/images/gsoc2015-300x270.jpg" /> </td>
   </tr>
 </table>
 
@@ -18,7 +18,6 @@ Galaxy has submitted an application to become a mentoring organization for Googl
 * [GSOC 2015 FAQ](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2015/help_page)
 * [GSOC Discussion Group from Google](https://groups.google.com/forum/#!forum/google-summer-of-code-discuss)
 
- 
 **Contact:**
 
 * We will be using the [galaxy development mailing list](https://lists.galaxyproject.org/listinfo/galaxy-dev) for communication.
@@ -46,3 +45,4 @@ Resources
 
 * [GSOC Mentors-only List](http://groups.google.com/group/google-summer-of-code-mentors-list)
 * [GSOC Mentoring Manual](http://en.flossmanuals.net/GSoCMentoring/)
+

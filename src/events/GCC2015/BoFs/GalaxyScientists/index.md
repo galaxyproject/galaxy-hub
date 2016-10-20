@@ -1,7 +1,7 @@
 ---
 title: GalaxyScientists
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
 
 
 
@@ -12,10 +12,10 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
  Audience:: Scientists using Galaxy interested in getting INVOLVED!
  When:: Tuesday, 7 July, 12:30 (Lunch)
  Where:: Franklin Room, JICCC
- Contact:: [/JenniferJackson](/src/JenniferJackson/index.md) & see [BoF](https://wiki.galaxyproject.org/Events/GCC2015/BoFs/GalaxyScientists) wiki
+ Contact:: [JenniferJackson](/src/JenniferJackson/index.md) & see [BoF](https://wiki.galaxyproject.org/Events/GCC2015/BoFs/GalaxyScientists) wiki
 </div>
 
-<div class='left'><a href='/Events/GCC2015/BoFs'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a></div>
+<div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
 This page describes the **!GalaxyScientists** [Birds of a Feather](/src/Events/GCC2015/BoFs/index.md) Meetup held at [GCC2015](http://gcc2015.tsl.ac.uk/). Don't worry if you don't know what this group is .. the BoF is intended to define and create it! 
 
@@ -40,8 +40,8 @@ The [time and location](/src/Events/GCC2015/BoFs/index.md#bof-schedule) for this
 
 If you are interested, please add your name below.
 
-* [jen@galaxyproject.org](jen@galaxyproject.org), Jennifer Hillman-Jackson
-* [kreddy4@jhmi.edu](kreddy4@jhmi.edu), Karen Reddy
+* [mailto:jen@galaxyproject.org](jen@galaxyproject.org), Jennifer Hillman-Jackson
+* [mailto:kreddy4@jhmi.edu](kreddy4@jhmi.edu), Karen Reddy
 * Mo Heydarian
 * [Dan Blankenberg](/src/Dan/index.md)
 * Michael Sauria
@@ -73,9 +73,10 @@ Send them to Jennifer Hillman-Jackson, Karen Ready or Mo Heydarian.
 
 Form the group! Please reserve discussion topics to those that directly concern the core targets. 
 
-Heads up [/GalaxyAdmins](/GalaxyAdmins), please join us! A primary target goal is to complement the input your community group provides to Galaxy. We'd love your help in determining optimal organizational strategies.
+Heads up [GalaxyAdmins](/src/GalaxyAdmins/index.md), please join us! A primary target goal is to complement the input your community group provides to Galaxy. We'd love your help in determining optimal organizational strategies.
 
 ## Ideas
+
 Add these before the BoF to aid in focusing our discussion. We'll create a [https://wiki.galaxyproject.org/GalaxyScientists](https://wiki.galaxyproject.org/GalaxyScientists) group wiki during and migrate Ideas and Resolutions content there.
 * Create the community group "!GalaxyScientists" ??
 * **Publish a group wiki: [https://wiki.galaxyproject.org/GalaxyScientists](https://wiki.galaxyproject.org/GalaxyScientists)**
@@ -100,6 +101,7 @@ The Galaxy Scientists may or may not include support, training, faq projects (bu
 
 
 ### Action Items:
+
 1. **Establish formal name**
     Galaxy Scientists
 1. **Leadership roles**  
@@ -130,6 +132,5 @@ To start with, a set of initial long term goals was defined. These goals may be 
     1. pairing scientists and software engineers on new development so that both can leverage their area(s) of expertise
 1. **Community**
     Creating a place where end-users can discuss how they are using Galaxy with other data scientists outside of Q&A forums (or maybe within existing forums, but in a different space - Biostars has a forum area that may be appropriate, or a google group could be a better choice - nothing has been decided, yet)
-
 
 CategoryBoF

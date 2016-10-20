@@ -1,5 +1,5 @@
 ---
-title: 2016, /, 03, :,  , [Setting up Galaxy with TORQUE on AWS](https://gist.github.com/kantale/b7fecd62da22a1523aa2)
+title: 2016/03: [Setting up Galaxy with TORQUE on AWS](https://gist.github.com/kantale/b7fecd62da22a1523aa2)
 ---
 
 

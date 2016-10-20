@@ -1,7 +1,7 @@
 ---
-title: Doing the Branch, ,,  Release, ,,  and Merge Waltz
+title: Doing the Branch, Release, and Merge Waltz
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
 
 
@@ -15,9 +15,9 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
  Contact:: [Nikolay Aleksandrov Vazov](http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html)
 </div>
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 
-<div class='left'><a href='/Events/GCC2014/BoFs'><img src='/Images/Logos/GCC2014_BoF_LogoSquare.png' alt='GCC2014 BoFs!' width="100" /></a></div>
+<div class='left'><a href='/src/Events/GCC2014/BoFs/index.md'><img src="/src/Images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
 
 This page describes the **Doing the Branch, Release, and Merge Waltz** [Birds of a Feather](/src/Events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
 
@@ -62,6 +62,7 @@ If you are interested, please add your name below and/or send an email to [Nikol
 # Topics Covered
 
 ## Managing the releases
+
  
 The only feasible way to avoid incompatibilities is to run updates regularly. First, here is a chance that some of the issues every single developer tried to solve themselves have already been addressed in the new release. Second, changes in the updates may make the customized solution easier. Yet, regular updates are very time consuming, especially when they concern production systems where admins have plenty of routine daily tasks. Customization will still remain a problem unless it can be carried out as a "full-fledged" plug-in.
 

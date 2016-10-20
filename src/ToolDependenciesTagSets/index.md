@@ -1,4 +1,4 @@
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Main Tool Shed' height="174" /></a> </div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a> </div>
 
 # Supported tool_dependencies.xml Tag Sets
 
@@ -170,7 +170,7 @@
   </tr>
   <tr>
     <td> setup_r_environment</td>
-    <td> <a href='/SetUpREnvironment'>Set up an R environment.</a></td>
+    <td> <a href='/src/SetUpREnvironment/index.md'>Set up an R environment.</a></td>
     <td> &lt;action type="setup_r_environment"&gt;&lt;repository name="package_r_3_0_1" owner="bgruening"&gt;&lt;package name="R" version="3.0.1" /&gt;&lt;/repository&gt;&lt;package&gt;<code>https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18BiocGenerics_0.6.0.tar.gz6</code>&lt;/package&gt;&lt;/action&gt;</td>
     <td> release_2013.11.04</td>
   </tr>
@@ -212,3 +212,4 @@
 * INSTALL_DIR = installation directory (absolute path with no trailing slash), useful to pass it to ./configure --prefix=$INSTALL_DIR or to set environment variables
 * REPOSITORY_INSTALL_DIR = the directory (absolute path with no trailing slash) where your XML files are located (tool, or tool_dependencies.xml XML files)
 * TMP_WORK_DIR = temporary working directory (absolute path with no trailing slash) used during tool installation. All files are downloaded here, unpacked etc. This directory will be removed after installation
+

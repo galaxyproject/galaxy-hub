@@ -1,7 +1,7 @@
 ---
-title: [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md),  GCC2015 Meetup
+title: [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) GCC2015 Meetup
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
 
 
 
@@ -14,9 +14,9 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
  Contact:: [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md), [Dave Clements](/src/DaveClements/index.md)
 </div>
 
-<div class='left'><a href='/Events/GCC2015/BoFs'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a>
+<div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a>
 <br />
-<a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' alt='GalaxyAdmins' width="160" /></a></div>
+<a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
 
 [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/src/Community/GalaxyAdmins/Meetups/index.md) and at events like [GCC2015](http://gcc2015.tsl.ac.uk/), where a lot of us happen to be.
 
@@ -80,7 +80,6 @@ This BoF will meet on **Tuesday, 7 July at 18:20, in the Franklin Room, at the J
 * Eric E: GalaxyAdmins best practices
 * Simon: Maybe have training through Galaxy-Admins.
 
- 
 ## Other Channels / Gatherings
 
 * Would be nice to have a forum to discuss the most acute item of the month.
@@ -90,7 +89,6 @@ This BoF will meet on **Tuesday, 7 July at 18:20, in the Franklin Room, at the J
   * Left unresolved.
 
 * Peter VH: Use IRC to hack on an area collaboratively.
-
 
 ## Misc
 
@@ -105,7 +103,6 @@ This BoF will meet on **Tuesday, 7 July at 18:20, in the Franklin Room, at the J
 * A fair percentage of people in the room deal mainly with "non-standard" genomes.
 * Conversation about impresonating users, and really locking it down so this can't be done
 * Role based permissions.
-
 
 # Questions?
 

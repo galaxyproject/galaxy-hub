@@ -1,8 +1,8 @@
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <br /><a href='http://sdsu.edu/'><img src='/Images/Logos/SDSULogo.jpg' alt='San Diego State University' height="150" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <br /><a href='http://sdsu.edu/'><img src="/src/Images/Logos/SDSULogo.jpg" alt="San Diego State University" height="150" /></a> </td>
     <td style=" border: none; width: 5%;"> </td>
-    <td style=" border: none;"> <div class='title'>Galaxy Workshops</div></strong>January 15, 2015<br /><br />9:00-11:00: Introductory<br />&nbsp;1:30-&nbsp;3:30: Advanced<strong><br /><br />Instructor: <a href='/DaveClements'>Dave Clements</a><br />Location TBD<br /><a href='http://sdsu.edu/'>San Diego State University</a><br />San Diego, California, United States </td>
+    <td style=" border: none;"> <div class='title'>Galaxy Workshops</div></strong>January 15, 2015<br /><br />9:00-11:00: Introductory<br />&nbsp;1:30-&nbsp;3:30: Advanced<strong><br /><br />Instructor: <a href='/src/DaveClements/index.md'>Dave Clements</a><br />Location TBD<br /><a href='http://sdsu.edu/'>San Diego State University</a><br />San Diego, California, United States </td>
   </tr>
 </table>
 
@@ -83,8 +83,8 @@ The workshops are being held in *TBD* on the [San Diego State University Campus]
 Please bring a fully charged, wi-fi enabled laptop with you.
 
 <div class='right'>
-<a href='http://www.cnhs.vsu.edu/index.php'><img src='/Images/Logos/SDSULogo.jpg' alt='College of Natural and Health Sciences' width="160" /></a><br />
-<br /><a href='http://aws.amazon.com/'><img src='/Images/Logos/AWSLogo.png' alt='Amazon Web Services' /></a>
+<a href='http://www.cnhs.vsu.edu/index.php'><img src="/src/Images/Logos/SDSULogo.jpg" alt="College of Natural and Health Sciences" width="160" /></a><br />
+<br /><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a>
 </div>
 
 ## Support
@@ -97,4 +97,4 @@ These workshops are generously supported by  the [Biological & Medical Informati
 
 ## Questions?
 
-Contact [bmi AT mail DOT sdsu DOT edu](Biological & Medical Informatics) or [outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [mailto:bmi AT mail DOT sdsu DOT edu](Biological & Medical Informatics) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).

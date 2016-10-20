@@ -1,5 +1,5 @@
 ---
-title: 2013, /, 11, :,  VelvetG error on CloudMan Instance, :,  cannot find , ', cov_cutoff, '
+title: 2013/11: VelvetG error on CloudMan Instance: cannot find 'cov_cutoff'
 ---
 
 
@@ -69,6 +69,5 @@ Restarted velvetg at 18:08
 All was happy.
 
 ## Links
-
 
 CategoryLog

@@ -1,5 +1,5 @@
 ---
-title: 2014, /, 01, :,  LDAP remoteUser Logout
+title: 2014/01: LDAP remoteUser Logout
 ---
 
 
@@ -15,8 +15,8 @@ title: 2014, /, 01, :,  LDAP remoteUser Logout
 
 Alper Kucukural posted this [Galaxy-Dev thread](http://dev.list.galaxyproject.org/Remote-User-Logout-td4663150.html) about logout problems when using LDAP for authentication with remoteUser enabled.  This page is based on Tim Booth's response.   Furthermore, Eric Rasche also brought these pages up to date to reflect this discussion:
 
-* [/Admin/Config/Apache Proxy#proxying-multiple-galaxy-worker-threads](/Admin/Config/Apache Proxy#proxying-multiple-galaxy-worker-threads)
-* [/Admin/Config/ExternalUserDatbases](/Admin/Config/ExternalUserDatbases)
+* [Admin/Config/Apache Proxy](/src/Admin/Config/Apache Proxy/index.md#proxying-multiple-galaxy-worker-threads)
+* [Admin/Config/ExternalUserDatbases](/src/Admin/Config/ExternalUserDatbases/index.md)
 
 Many, many thanks to Tim and Eric for this work.
 
@@ -47,6 +47,7 @@ Require user logout
 
 
 ## /usr/share/galaxy-server/logout/.htpasswd
+
  ```
 % cat /usr/share/galaxy-server/logout/.htpasswd
 #Password is logout.  This in not a secret.
@@ -55,6 +56,7 @@ logout:$apr1$0eB1iURY$kwqa0c8tXksbjPQLYqr6s.
 
 
 ## /usr/share/galaxy-server/proxy/.htaccess
+
  ```
 % cat /usr/share/galaxy-server/proxy/.htaccess
 # Security settings for Galaxy proxied via Apache.  Note the actual
@@ -100,6 +102,7 @@ RequestHeader unset Authorization env=RU
 
 
 ## /etc/galaxy-server/universe_wsgi.d/31_apache-proxy.ini
+
  ```
 % cat /etc/galaxy-server/universe_wsgi.d/31_apache-proxy.ini                        
 # Settings added by debian-galaxy-apache-proxy to switch Galaxy over to
@@ -168,7 +171,7 @@ RewriteRule (.*) http://localhost:8080/$1 [P,E=RU:%{REMOTE_USER}]
 ## Links
 
 * [Original thread on Galaxy-Dev](http://dev.list.galaxyproject.org/Remote-User-Logout-td4663150.html) 
-* [/Admin/Config/Apache Proxy#proxying-multiple-galaxy-worker-threads](/Admin/Config/Apache Proxy#proxying-multiple-galaxy-worker-threads)
-* [/Admin/Config/ExternalUserDatbases](/Admin/Config/ExternalUserDatbases)
+* [Admin/Config/Apache Proxy](/src/Admin/Config/Apache Proxy/index.md#proxying-multiple-galaxy-worker-threads)
+* [Admin/Config/ExternalUserDatbases](/src/Admin/Config/ExternalUserDatbases/index.md)
 
 CategoryLog

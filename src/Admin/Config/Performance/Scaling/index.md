@@ -3,7 +3,7 @@ autotoc: true
 title: Scaling and Load Balancing
 ---
 
-PLACEHOLDER_INCLUDE(/Admin/Config/Performance/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Admin/Config/Performance/LinkBox/index.md)
 <div class='left'></div>
 The Galaxy framework is written in Python and makes extensive use of threads.  However, one of the drawbacks of Python is the [Global Interpreter Lock](http://docs.python.org/c-api/init.html#thread-state-and-the-global-interpreter-lock), which prevents more than one thread from being on CPU at a time.  Because of this, having a multi-core system will not improve the Galaxy framework's performance out of the box since Galaxy can use (at most) one core at a time.  However, Galaxy can easily run in multiple separate processes, which solves this problem.  For a more thorough explanation of this problem and why you will almost surely want to switch to the load balanced configuration if running for more than a small handful of users, see the [Admin/Config/Performance/ProductionServer](/src/Admin/Config/Performance/ProductionServer/index.md) page.
 
@@ -222,7 +222,7 @@ If you have specified a separate job runner and you want to use the "Manage jobs
 
 ### Apache
 
-Be sure to consult the [Apache proxy documentation](../../../../Admin/Config/ApacheProxy) for additional features such as proxying static content and accelerated downloads.
+Be sure to consult the [Apache proxy documentation](/src/Admin/Config/ApacheProxy/index.md) for additional features such as proxying static content and accelerated downloads.
 
 #### Standalone Paste-based processes
 
@@ -236,7 +236,7 @@ To balance on Apache, you'll need to enable `mod_proxy_balancer` in addition to 
 ```
 
 
-And replace the following line from the [regular proxy configuration](../../../../Admin/Config/Apache Proxy):
+And replace the following line from the [regular proxy configuration](/src/Admin/Config/Apache Proxy/index.md):
 
 ```apache
 RewriteRule ^(.*) http://localhost:8080$1 [P]
@@ -265,11 +265,11 @@ uWSGImaxVars 512
 
 ### nginx
 
-Be sure to consult the [nginx proxy documentation](../../../../Admin/Config/nginxProxy) for additional features such as proxying static content and accelerated downloads.
+Be sure to consult the [nginx proxy documentation](/src/Admin/Config/nginxProxy/index.md) for additional features such as proxying static content and accelerated downloads.
 
 #### Standalone Paste-based processes
 
-To proxy with nginx, you'll simply need to add all of the web applications to the `upstream` section, [which already exists](../../../../Admin/Config/nginxProxy).  The relevant parts of the configuration would look like this:
+To proxy with nginx, you'll simply need to add all of the web applications to the `upstream` section, [which already exists](/src/Admin/Config/nginxProxy/index.md).  The relevant parts of the configuration would look like this:
 
 ```nginx
 http {

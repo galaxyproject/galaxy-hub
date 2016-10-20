@@ -1,7 +1,7 @@
 ## Galaxy Developer Conference 2010
 
 * [Developer Conference Information](http://galaxy.psu.edu/dev2010/)
-* [Galaxy Interactive Poster](/Learn/Interactive Poster)
+* [Galaxy Interactive Poster](/src/Learn/Interactive Poster/index.md)
 
 ## Slides
 
@@ -36,3 +36,4 @@
 * [Mercurial for Galaxy Admins](ATTACHMENT_URLGDC2010_lightning_Mercurial_for_Galaxy_Admins.pdf) - Ry4an Brase
 * [Composite Datatypes in Galaxy](ATTACHMENT_URLGDC2010_lightning_CompositeDatatypes.pdf) - Ross Lazarus
 * [Useful and Usable](ATTACHMENT_URLGDC2010_lightning_Useful_and_Usable.pdf) - Assaf Gordon
+

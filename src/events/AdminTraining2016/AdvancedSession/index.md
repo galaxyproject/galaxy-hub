@@ -1,9 +1,9 @@
 ---
-title: Galaxy Admin Training, :,  Advanced Topics
+title: Galaxy Admin Training: Advanced Topics
 ---
-PLACEHOLDER_INCLUDE(/Events/AdminTraining2016/Header)
+PLACEHOLDER_INCLUDE(/src/Events/AdminTraining2016/Header/index.md)
 
-PLACEHOLDER_INCLUDE(/events/AdminTraining2016/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/AdminTraining2016/AdvancedSession/LinkBox/index.md)
 
 
 
@@ -11,7 +11,7 @@ PLACEHOLDER_INCLUDE(/events/AdminTraining2016/LinkBox)
 
 The three day advanced session will build on topics covered in the [basics section](/src/Events/AdminTraining2016/BasicsSession/index.md).  This session both extends those topics, such as tool definition, and adds new ones, such as working with compute clusters and heterogeneous resources. 
 
-<div class='right'><a href='http://www.chpc.utah.edu'><img src='/Images/Logos/UtahCHPCLogo.png' alt='University of Utah Center for High Performance Computing (CHPC)' height="90" /></a>
+<div class='right'><a href='http://www.chpc.utah.edu'><img src="/src/Images/Logos/UtahCHPCLogo.png" alt="University of Utah Center for High Performance Computing (CHPC)" height="90" /></a>
 </div>
 
 We will use compute resources from the [University of Utah Center for High Performance Computing (CHPC)](https://www.chpc.utah.edu/) for cluster access during the advanced session.
@@ -34,7 +34,6 @@ You can get this by
 1. Attending the [Basic Topics Workshop](/src/Events/AdminTraining2016/BasicsSession/index.md), or
 1. Having actual experience with setting up and running your own Galaxy server.
 
-
 ## Schedule
 
 *This is a draft schedule and is a work in progress. Topic order and specific start and end times are likely to change.*
@@ -52,7 +51,7 @@ The [basics section](/src/Events/AdminTraining2016/BasicsSession/index.md) will 
   </tr>
   <tr>
     <th style=" text-align: right;"> &nbsp;&nbsp;7:00pm </th>
-    <td> Introduction to Galaxy Architecture <span style="font-size: smaller;"> (Joint session with the <a href='/Events/AdminTraining2016/BasicsSession'>Basics Topics session</a>) </span> </td>
+    <td> Introduction to Galaxy Architecture <span style="font-size: smaller;"> (Joint session with the <a href='/src/Events/AdminTraining2016/BasicsSession/index.md'>Basics Topics session</a>) </span> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:20pm </th>
@@ -260,13 +259,13 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
 ## Venue
 
 <div class='right'>
-<a href='http://www.universityguesthouse.com/Commanders-House'><img src='/Events/AdminTraining2016/CommandersHouse.jpg' alt='Commanders House' width="180" /></a></div>
+<a href='http://www.universityguesthouse.com/Commanders-House'><img src="/src/Events/AdminTraining2016/CommandersHouse.jpg" alt="Commanders House" width="180" /></a></div>
 
 The **advanced session will be held at the [Commanders House](http://www.universityguesthouse.com/Commanders-House) on the [University of Utah](http://utah.edu/) campus**.  This is a short walk from the [University Guest House](http://www.universityguesthouse.com/University-Guest-House), where participants are staying.
 
 <div class='left'>
-<a href='http://ucgd.genetics.utah.edu/'><img src='/Images/Logos/USTAR-UCGD-Logo.jpg' alt='USTAR Center for Genetic Discovery (UCGD)' width="280" /></a></div>
+<a href='http://ucgd.genetics.utah.edu/'><img src="/src/Images/Logos/USTAR-UCGD-Logo.jpg" alt="USTAR Center for Genetic Discovery (UCGD)" width="280" /></a></div>
 
 We would like to thank the **[USTAR Center for Genetic Discovery (UCGD)](http://ucgd.genetics.utah.edu/)** for a grant to book this great venue for the advanced workshop.
 
-PLACEHOLDER_INCLUDE(/events/AdminTraining2016/Footer)
+PLACEHOLDER_INCLUDE(/src/Events/AdminTraining2016/AdvancedSession/Footer/index.md)

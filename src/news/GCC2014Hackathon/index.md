@@ -1,9 +1,6 @@
----
-date: 2014-04-18T04:18:23Z
----
 <div class='newsItemHeader'>[Galaxy Hackathon at GCC2014](/src/News/GCC2014Hackathon/index.md)</div>
 
-<div class='right'><a href='/Events/GCC2014/Hackathon'><img src='/Images/Logos/GCC2014HackLogo200.png' alt='GCC2014 Hackathon' width="200" /></a></div>
+<div class='right'><a href='/src/Events/GCC2014/Hackathon/index.md'><img src="/src/Images/Logos/GCC2014HackLogo200.png" alt="GCC2014 Hackathon" width="200" /></a></div>
 
 Galaxy has a fantastic developer community, from the very active [mailing lists](/src/MailingLists/index.md) and #galaxyproject IRC channel to individuals who have submitted literally hundreds of pull requests and patches.  We are always looking for ways to interact with existing community members and get even more people involved. To that end, **we’re thrilled to officially announce the very first [Galaxy Project Hackathon](/src/Events/GCC2014/Hackathon/index.md).**  The hackathon will be a three day event taking place at Johns Hopkins immediately preceding [GCC2014](/src/Events/GCC2014/index.md) from June 28th-30th.
 
@@ -19,5 +16,6 @@ We hope to see you in June, and can't wait to see what we can accomplish!
 
 -[Dannon Baker](/src/DannonBaker/index.md) on behalf of the [GCC2014 Hackathon Organizing Committee](/src/Events/GCC2014/Organizers/index.md#hackathon-committee)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-04-18</div>
 
 CategoryNews

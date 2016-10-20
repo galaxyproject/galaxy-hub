@@ -1,7 +1,7 @@
 ---
-title: Galaxy , @,  PAG 2012
+title: Galaxy @ PAG 2012
 ---
-<div class='center'><a href='http://www.intlpag.org/'><img src='/PAG2012.png' alt='Galaxy @ Plant and Animal Genome (PAG 2012)' /></a></div>
+<div class='center'><a href='http://www.intlpag.org/'><img src="/src/Events/PAG2012/PAG2012.png" alt="Galaxy @ Plant and Animal Genome (PAG 2012)" /></a></div>
 
 
 
@@ -50,7 +50,7 @@ Galaxy had a strong presence at [Plant and Animal Genome XX (PAG 2012)](http://w
     <td style=" text-align: center;"> 10:30-11:30 </td>
     <td> <a href='http://pag.confex.com/pag/xx/webprogram/Paper2350.html'>Galaxy</a> (slides: <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012PAGGalaxy.pdf'>PDF</a>) </td>
     <td> <a href='http://pag.confex.com/pag/xx/webprogram/Session1123.html'>GMOD Workshop</a> </td>
-    <td> <a href='/DaveClements'>Dave Clements</a> </td>
+    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> 11:35-11:50 </td>

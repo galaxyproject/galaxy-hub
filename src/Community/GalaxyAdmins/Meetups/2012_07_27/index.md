@@ -1,10 +1,13 @@
 ---
-title: [GalaxyCzars](/src/Community/GalaxyAdmins/index.md),  , [GCC2012 Breakout Session](/src/Events/GCC2012/index.md)
+title: [GalaxyCzars](/src/Community/GalaxyAdmins/index.md) [GCC2012 Breakout Session](/src/Events/GCC2012/index.md)
 ---
 <div class='center'>
-<a href='/Community/GalaxyAdmins'><img src='/Images/Logos/GalaxyAdmins.png' /></a> &nbsp;&nbsp;&nbsp;
-<a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='GCC2012' height="120" /></a>
+<a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" /></a> &nbsp;&nbsp;&nbsp;
+<a href='/src/Events/GCC2012/index.md'><img src="/src/Events/GCC2012/GCC2012Logo200.png" alt="GCC2012" height="120" /></a>
 </div>
+
+PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/Meetups/2012_07_27/LinkBox/index.md)
+
 
 
 Participants:
@@ -15,7 +18,6 @@ Participants:
 * Larry Helseth
 * Ann Black
 * ???
-
 
 Breakout Presentation: [ATTACHMENT_URLGalaxyCzars_Breakout.pdf](ATTACHMENT_URLGalaxyCzars_Breakout.pdf)
 
@@ -29,3 +31,4 @@ A [GalaxyCzars](/src/Community/GalaxyAdmins/index.md) breakout session was held 
 
 * Talked about problems that a lot of us have:
   :: A common problem across the group was how to tune tools for the cluster.  IE set the number of threads, min/max heap
+

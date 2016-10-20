@@ -1,4 +1,4 @@
-The process to adding completely new datatypes is not significantly different than the existing process of adding subclassed datatypes, as done in the [other tutorial](../../../Admin/Datatypes/Adding Datatypes). It is highly recommended that you read that page first, to gain a good understanding of how to add subclassed datatypes. Since there are many existing datatypes in galaxy, it's very likely that will provide a good starting point for you developing new datatypes.
+The process to adding completely new datatypes is not significantly different than the existing process of adding subclassed datatypes, as done in the [other tutorial](/src/Admin/Datatypes/Adding Datatypes/index.md). It is highly recommended that you read that page first, to gain a good understanding of how to add subclassed datatypes. Since there are many existing datatypes in galaxy, it's very likely that will provide a good starting point for you developing new datatypes.
 
 # Basic Datatypes
 

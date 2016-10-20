@@ -1,13 +1,10 @@
----
-date: 2014-02-28T20:38:22Z
----
 <div class='newsItemHeader'>[March 2014 Galaxy Update](/src/News/2014_03GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/GalaxyUpdates/2014_03'><img src='/Images/Logos/GalaxyUpdate200.png' alt='March 2014 Galaxy Update' width=150 /></a>
+<a href='/src/GalaxyUpdates/2014_03/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="March 2014 Galaxy Update" width=150 /></a>
 <br /><br />
-<a href='/GalaxyUpdates/2014_03#galaxy-australasia-workshop-2014-24-25-march'><img src='/Images/Logos/GAW2014-200.png' alt='Register now for Galaxy Australasia Workshop (GAW 2014)' width="150" /></a><br /><br />
-<a href='/GalaxyUpdates/2014_03#gcc2014-june-30---july-2-baltimore'><img src='/Images/Logos/GCC2014LogoWide200.png' alt='GCC2014 early registration and abstract submission are now open' width="150" /></a>
+<a href='/src/GalaxyUpdates/2014_03/index.md#galaxy-australasia-workshop-2014-24-25-march'><img src="/src/Images/Logos/GAW2014-200.png" alt="Register now for Galaxy Australasia Workshop (GAW 2014)" width="150" /></a><br /><br />
+<a href='/src/GalaxyUpdates/2014_03/index.md#gcc2014-june-30---july-2-baltimore'><img src="/src/Images/Logos/GCC2014LogoWide200.png" alt="GCC2014 early registration and abstract submission are now open" width="150" /></a>
 </div>
 
 Find out [what's happening in the Galaxy](/src/GalaxyUpdates/2014_03/index.md).  Highlights from the [March 2014 Galaxy Update](/src/GalaxyUpdates/2014_03/index.md) include: 
@@ -27,5 +24,6 @@ If you have anything you would like to see in the next *[Galaxy Update](/src/Gal
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-02-28 </div>
 
 CategoryNews

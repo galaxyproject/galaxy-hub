@@ -1,4 +1,4 @@
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src='/Images/Logos/ToolShed.jpg' alt='Galaxy Main Tool Shed' height="174" /></a> </div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a> </div>
 
 # Getting updates for tool shed repositories installed in a local Galaxy instance
 
@@ -25,7 +25,7 @@ The current status for each of the following categories is determined for each i
 
 If you have one or more Galaxy tool shed repositories installed into your local Galaxy instance, you'll see a menu option in the **Server** section of your **Administration** menu labeled **Manage installed tool shed repositories**.
 
-![](/admin_menu_manage_installed.png)
+![](/src/UpdatingInstalledRepositories/admin_menu_manage_installed.png)
 
 Selecting the **Manage installed tool shed repositories** menu item will display a list of all of the repositories that have been installed from any Galaxy tool shed into your Galaxy instance. The page below shows that we have installed four repositories; the bam_to_bigwig repository from the Galaxy test tool shed, the blast2go and blast_datatypes repositories from the Galaxy main too shed and the filter repository that we installed from our local tool shed.  We can get the latest status from the tool shed for each of these repositories using any of the following methods:
 
@@ -33,15 +33,15 @@ Selecting the **Manage installed tool shed repositories** menu item will display
 * Use the **Update tool shed status** option in the pop-up menu associated with a specific repository to retrieve the current status from the tool shed for only that repository.
 * If the time defined by the **hours_between_check** config setting in our config/galaxy.ini file have passed, our Galaxy server will poll the appropriate tool shed and update it's database record with the latest status.
 
-![](/tool_shed_repositories.png)
+![](/src/UpdatingInstalledRepositories/tool_shed_repositories.png)
 
 Let's assume that after we've installed the filter repository from our local tool shed, changes were made to the repository in the tool shed that did not result in a new installable revision.  Now when we select the **Update tool shed status** option in the pop-up menu associated with the filter repository installed into our Galaxy instance, we'll see an additional icon associated with the repository telling us there are updates available in the tool shed for that revision.
 
-![](/updates_available.png)
+![](/src/UpdatingInstalledRepositories/updates_available.png)
 
 Updates can be retrieved for the installed repository by selecting the new **Get updates** item that was included in the pop-up menu for the repository when the status from the Tool Shed included that status category.
 
-![](/get_updates.png)
+![](/src/UpdatingInstalledRepositories/get_updates.png)
 
 When visiting the **Manage repository** page for the filter repository, the **Repository Actions** pop-up menu provides another **Get repository updates** option to get new updates that are available from the Tool Shed.
 
@@ -51,6 +51,6 @@ Let's assume that at some point you installed revision 0:sdj45ger5fr4 of a repos
 
 If you updated your installed repository after these changes to the repository within the Tool Shed were made, your installed repository would be updated to revision 1:si88rhjk8hfh, but would not be updated to include the change in revision 2:srjls89ojf8e. Since revision 2:srjls89ojf8e includes tools that have different versions, you have to install that revision into your Galaxy instance as a separate repository installation if you want to use the new versions of the tools.
 
-![](/manage_repository_popup.png)
+![](/src/UpdatingInstalledRepositories/manage_repository_popup.png)
 
 One approach for keeping track of when you should update your installed repositories is to check the **Receive email alerts** checkbox in the relevant Galaxy tool shed for each of your installed repositories so that you'll get an email message letting you know there may be updates you want to apply.

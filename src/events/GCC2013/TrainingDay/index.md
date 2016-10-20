@@ -1,11 +1,11 @@
 ---
 title: GCC2013 Training Day
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
 
 <div class='left'>![Training Day](/src/Images/Logos/GCC2013TrainingDayLogo300.png)</div>
 

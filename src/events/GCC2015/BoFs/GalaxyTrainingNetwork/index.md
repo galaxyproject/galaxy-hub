@@ -1,7 +1,7 @@
 ---
 title: Galaxy Training Network Meetup
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
 
 
 
@@ -14,8 +14,8 @@ PLACEHOLDER_INCLUDE(/Events/GCC2015/Header)
  Contact:: [Dave Clements](/src/DaveClements/index.md), [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie)
 </div>
 
-<div class='left'><a href='/Events/GCC2015/BoFs'><img src='/Images/Logos/GCC2015BoFs300.png' alt='GCC2015 BoFs!' width="160" /></a><br /><br />
-<a href='/Teach'><img src='/Images/Logos/GTNLogo600.png' alt='Galaxy Training Network' width="160" /></a>
+<div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a><br /><br />
+<a href='/src/Teach/index.md'><img src="/src/Images/Logos/GTNLogo600.png" alt="Galaxy Training Network" width="160" /></a>
 </div>
 
 The **[Galaxy Training Network (GTN)](/src/Teach/GTN/index.md)** will have an in-person [Birds of a Feather](/src/Events/GCC2015/BoFs/index.md) meetup at the [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/), held in Norwich, UK, 4-8 July, 2015.
@@ -72,7 +72,7 @@ This BoF will be held **Monday, 6 July, 18:50, in the Franklin Room.**
 * Dustin Cram
 * Krzysztof Poterlowicz
 * Agata Smialowska
- 
+
 ## Discussion
 
 Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and Dave C's notes.
@@ -85,6 +85,7 @@ Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and D
 * (linking training to practice?)
 
 ### Activity since GCC2014
+
 * Create a galaxy-teach or galaxy-train mailing list / forum
   * Done
 * Work with that list to establish what the Resource Directory (and the Trainer Directory) should look like
@@ -100,6 +101,7 @@ Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and D
 * GTN joins GOBLET
 
 ### Training use cases
+
 * Galaxy to teach bioinformatics
 * Galaxy to teach using Galaxy
 * Galaxy to teach developing on Galaxy
@@ -117,8 +119,6 @@ Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and D
 * How else can GTN help the Galaxy Training Community?
   * Participants welcomed the idea of a Data Carpentry *Train the Trainer* workshop co-located with GCC2016
     * *Dave C will investigate*
-     
-
 
 ### Other
 
@@ -148,7 +148,6 @@ Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and D
   * Simon and Bjorn do this.
 * Licensing: CC-BY everything?
 * WORKING groups on particular domains.  eg cancer, or plant or ..  Help address the training data generation problem.
-
 
 ## Questions?
 

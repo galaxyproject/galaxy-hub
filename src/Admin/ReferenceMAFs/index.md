@@ -2,7 +2,7 @@
 
 Related to: 
 * [Admin/DataPreparation](/src/Admin/DataPreparation/index.md) 
-* [Admin/DataIntegration](../../Admin/DataIntegration)
+* [Admin/DataIntegration](/src/Admin/DataIntegration/index.md)
 
 ----
 Adding additional MAFs to Galaxy involves editing the file [tool-data/maf_index.loc](https://github.com/galaxyproject/galaxy/blob/dev/tool-data/maf_index.loc.sample) located within your Galaxy directory.

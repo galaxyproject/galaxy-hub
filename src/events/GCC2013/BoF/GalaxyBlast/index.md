@@ -1,14 +1,14 @@
 ---
-title: Galaxy wrappers for NCBI BLAST, +,  BoF
+title: Galaxy wrappers for NCBI BLAST+ BoF
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
-PLACEHOLDER_INCLUDE(/Events/GCC2013/BoF/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/BoF/LinkBox/index.md)
 
-<div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
+<div class='left'><a href='/src/Events/GCC2013/BoF/index.md'><img src="/src/Images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 
 This **BoF** [Birds of a Feather](/src/Events/GCC2013/BoF/index.md) meetup is being held at [GCC2013](/src/Events/GCC2013/index.md).
 
@@ -20,7 +20,7 @@ The [time and location](/src/Events/GCC2013/BoF/index.md#bof-schedule) for this 
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [p.j.a.cock AT googlemail DOT com](Peter Cock).
+If you are interested, please add your name below and/or send an email to [mailto:p.j.a.cock AT googlemail DOT com](Peter Cock).
 
 * Peter Cock
 * Jim Johnson
@@ -28,10 +28,9 @@ If you are interested, please add your name below and/or send an email to [p.j.a
 * Nicola Soranzo
 * Bjoern Gruening
 
-
 ## Questions?
 
-Send them to  [p.j.a.cock AT googlemail DOT com](Peter Cock).
+Send them to  [mailto:p.j.a.cock AT googlemail DOT com](Peter Cock).
 
 
 ## Results

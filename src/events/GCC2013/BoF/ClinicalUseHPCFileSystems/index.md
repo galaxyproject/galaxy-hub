@@ -1,14 +1,14 @@
 ---
-title: Galaxy Clinical Use Survey , /,  Filesystems and HPC
+title: Galaxy Clinical Use Survey / Filesystems and HPC
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2013/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2013/LinkBox)
-PLACEHOLDER_INCLUDE(/Events/GCC2013/BoF/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2013/BoF/LinkBox/index.md)
 
-<div class='left'><a href='/Events/GCC2013/BoF'><img src='/Images/Logos/GCC2013BoFLogo.png' alt='' width="160" /></a></div>
+<div class='left'><a href='/src/Events/GCC2013/BoF/index.md'><img src="/src/Images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 
 This page describes the **Galaxy Clinical Use Survey / Filesystems and HPC** [Birds of a Feather](/src/Events/GCC2013/BoF/index.md) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
 
@@ -22,7 +22,7 @@ We [time and location](/src/Events/GCC2013/BoF/index.md#bof-schedule) will meet 
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [sanjay DOT joshi AT isilon DOT com](Sanjay Joshi) **and** [clements AT galaxyproject DOT org](Dave Clements).
+If you are interested, please add your name below and/or send an email to [mailto:sanjay DOT joshi AT isilon DOT com](Sanjay Joshi) **and** [mailto:clements AT galaxyproject DOT org](Dave Clements).
 
 * Sanjay Joshi, EMC Isilon
 * Georgois Masklaras, USIT, Univ Oslo, Norway
@@ -31,8 +31,7 @@ If you are interested, please add your name below and/or send an email to [sanja
 * Aristos Aristodimou, Linked2Safety Project, University of Cyprus, Cyprus
 * Sebastian Vosberg, Dept of Environmental Health, Munich, Germany
 * Kevin Young, Garvan Institute, Sydney Australia
- 
 
 ## Questions?
 
-Send them to [sanjay DOT joshi AT isilon DOT com](Sanjay Joshi) **and** [Sasha DOT Paegle AT isilon DOT com](Sasha Paegle).
+Send them to [mailto:sanjay DOT joshi AT isilon DOT com](Sanjay Joshi) **and** [mailto:Sasha DOT Paegle AT isilon DOT com](Sasha Paegle).

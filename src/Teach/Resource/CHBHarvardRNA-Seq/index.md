@@ -1,7 +1,7 @@
 ---
 title: [CHB Harvard RNA-Seq Workshop](http://hbc.github.io/ngs-workshops/courses/introduction-to-rna-seq/)
 ---
-<div class='center'><a href='http://hbc.github.io/ngs-workshops/about/'><img src='/Images/Logos/CHBHarvard.png' alt='Center for Health Bioinformatics Galaxy Tutorials'  /></a></div>
+<div class='center'><a href='http://hbc.github.io/ngs-workshops/about/'><img src="/src/Images/Logos/CHBHarvard.png" alt="Center for Health Bioinformatics Galaxy Tutorials"  /></a></div>
 
 
 
@@ -38,6 +38,5 @@ Many of these tools are standalone, and are not run from within Galaxy.
 
 * [CHB Harvard RNA-Seq Workshop](http://hbc.github.io/ngs-workshops/courses/introduction-to-rna-seq/)
 * [one of a set of online tutorials](http://hbc.github.io/ngs-workshops/about/)
-
 
 CategoryTrainingResource

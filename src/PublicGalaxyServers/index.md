@@ -15,9 +15,9 @@ title: Publicly Accessible Galaxy Servers
 </div>
 
 
-**The Galaxy Project's public server ([UseGalaxy.org](http://usegalaxy.org/), *[/Main](/src/Main/index.md)*)** can meet many needs, but it is not suitable for everything (see [Choices](/src/BigPicture/Choices/index.md) for why) and cannot possibly scale to meet the entire world's needs.
+**The Galaxy Project's public server ([UseGalaxy.org](http://usegalaxy.org/), *[Main](/src/Main/index.md)*)** can meet many needs, but it is not suitable for everything (see [Choices](/src/BigPicture/Choices/index.md) for why) and cannot possibly scale to meet the entire world's needs.
 
-Fortunately the Galaxy [/Community](/src/Community/index.md) is helping out by [installing Galaxy](/src/Admin/GetGalaxy/index.md) at their institutions and then making those installations either publicly available or open to their organizations or community. This page lists publicly accessible Galaxy servers.  To be included here a server must be accessible to any academic researcher anywhere in the world.  Servers can require logins and enforce quotas.
+Fortunately the Galaxy [Community](/src/Community/index.md) is helping out by [installing Galaxy](/src/Admin/GetGalaxy/index.md) at their institutions and then making those installations either publicly available or open to their organizations or community. This page lists publicly accessible Galaxy servers.  To be included here a server must be accessible to any academic researcher anywhere in the world.  Servers can require logins and enforce quotas.
 
 **To add your public Galaxy server to this list**, please either just add it (hey, *it's a wiki*), or [describe the server here](https://docs.google.com/forms/d/1KBkyhAPpgJLanRWBoIHmwtEJELDUifZLUixfoqZXXU4/viewform?usp=send_form) and we'll post it this directory.
 
@@ -31,7 +31,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 
 ## Andromeda
 
-<div class='right solid'><a href='http://galaxy.nbic.nl/'><img src='/Andromeda.png' alt='Andromeda'  /></a></div>
+<div class='right solid'><a href='http://galaxy.nbic.nl/'><img src="/src/PublicGalaxyServers/Andromeda.png" alt="Andromeda"  /></a></div>
 
 * *Links:*
   * **[Andromeda server](http://galaxy.nbic.nl/)**
@@ -46,7 +46,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
   * [Andromeda](http://galaxy.nbic.nl/) is hosted at the [SURFsara](https://www.cloud.sara.nl/) [High Performance Computing (HPC) cloud](https://www.cloud.sara.nl/).<br />
 
 * *User Support:*
-  * [nbicgalaxy DASH admin AT trac DOT nbic DOT nl](Email)
+  * [mailto:nbicgalaxy DASH admin AT trac DOT nbic DOT nl](Email)
 * *Quotas:* 
   * Registered users: 10GB; Anonymous users: 10MB 
 * *Sponsor(s):*
@@ -54,7 +54,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 
 ## Biomina
 
-<div class='right solid'><a href='http://biominavm-galaxy.biomina.be/galaxy/'><img src='/Biomina300.png' alt='Biomina Galaxy'  /></a></div>
+<div class='right solid'><a href='http://biominavm-galaxy.biomina.be/galaxy/'><img src="/src/PublicGalaxyServers/Biomina300.png" alt="Biomina Galaxy"  /></a></div>
 
 * *Link:*
   * [Biomina Galaxy](http://biominavm-galaxy.biomina.be/galaxy/)
@@ -63,7 +63,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *Comments:*
   * Includes a number of workflows, including workflow from "[A SWI/SNF-related autism syndrome caused by de novo mutations in ADNP](http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.2899.html)," by Helsmoortel, *et al.*, *[Nature Genetics](http://www.nature.com/ng/)* (2014) doi:10.1038/ng.2899
 * *User Support:*
-  * [geert DOT vandeweyer AT uantwerpen DOT be](Email support)
+  * [mailto:geert DOT vandeweyer AT uantwerpen DOT be](Email support)
 * *Quotas:* 
   * Registered users: 50GB. Can be increased up to 3TB in collaborative projects. 
   * There is NO backup of data inside this galaxy server. 
@@ -74,7 +74,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 
 ## CBiB Galaxy
 
-<div class='right solid'><a href='http://services.cbib.u-bordeaux2.fr/galaxy/'><img src='/CBiBLogo300.png' alt='CBiB Galaxy'  /></a></div>
+<div class='right solid'><a href='http://services.cbib.u-bordeaux2.fr/galaxy/'><img src="/src/PublicGalaxyServers/CBiBLogo300.png" alt="CBiB Galaxy"  /></a></div>
 
 * *Link:*
   * [CBiB Galaxy](http://services.cbib.u-bordeaux2.fr/galaxy/)
@@ -83,15 +83,15 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *Comments:*
   * Dedicated server: 4 CPU Intel Xeon - 8 cores (a total of 32 cores / 64 threads) , 128 GB RAM, 800 GB of disk space.
 * *User Support:*
-  * [admin DOT cbib AT u-bordeaux2 DOT fr](CBiB Admin)
+  * [mailto:admin DOT cbib AT u-bordeaux2 DOT fr](CBiB Admin)
 * *Quotas:* 
-  * Disk space is limited to 1 GB for unregistered users, registered users are free to use up to 10GB (to have more space, please contact [admin DOT cbib AT u-bordeaux2 DOT fr](CBiB Admin)). The maximum file size to upload is 5 GB. FTP is not operational at this time. Data will be kept 60 days after deletion from history or library.
+  * Disk space is limited to 1 GB for unregistered users, registered users are free to use up to 10GB (to have more space, please contact [mailto:admin DOT cbib AT u-bordeaux2 DOT fr](CBiB Admin)). The maximum file size to upload is 5 GB. FTP is not operational at this time. Data will be kept 60 days after deletion from history or library.
 * *Sponsor(s):*
   * [Centre de Bioinformatique de Bordeaux](http://www.cbib.u-bordeaux2.fr/)
 
 ## DBCLS Galaxy
 
-<div class='right solid'><a href='http://galaxy.dbcls.jp/'><img src='/PublicGalaxyServers/DBCLS.png' alt='DBCLS Galaxy'  /></a></div>
+<div class='right solid'><a href='http://galaxy.dbcls.jp/'><img src="/src/PublicGalaxyServers/DBCLS.png" alt="DBCLS Galaxy"  /></a></div>
 
 * *Link:*
   * [DBCLS Galaxy](http://galaxy.dbcls.jp/)
@@ -99,7 +99,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
   * Adds text mining tools, DBCLS DBSearch Tools, semantic web tools 
 * *Comments:*
   * Can be used without understanding Japanese.
-  * See also [Galaxy入門とワークフロー構築](ATTACHMENT_URLDocuments/Presentations/2013DDBJWorkflow.pdf) by [atsuko AT dbcls DOT jp](山口 敦子)
+  * See also [Galaxy入門とワークフロー構築](ATTACHMENT_URLDocuments/Presentations/2013DDBJWorkflow.pdf) by [mailto:atsuko AT dbcls DOT jp](山口 敦子)
 * *User Support:*
 * *Quotas:* 
 * *Sponsor(s):*
@@ -107,7 +107,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 
 ## Erasmus MC
 
-<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/galaxy/'><img src='/PublicGalaxyServers/ErasmusMCBioinf300.png' alt='Erasmus MC Bioinformatics Galaxy Server'  /></a></div>
+<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/galaxy/'><img src="/src/PublicGalaxyServers/ErasmusMCBioinf300.png" alt="Erasmus MC Bioinformatics Galaxy Server"  /></a></div>
 
 * *Link:*
   * [Erasmus MC Bioinformatics Galaxy Server](https://bioinf-galaxian.erasmusmc.nl/galaxy/)
@@ -123,15 +123,16 @@ These servers implement a broad range of tools and and aren't specific to any pa
   * All tools are also available in the Tool Shed.
   * See [FuMa: reporting overlap in RNA-seq detected fusion genes](http://bioinformatics.oxfordjournals.org/content/early/2015/12/09/bioinformatics.btv721.abstract), by Youri Hoogstrate, René Böttcher, Saskia Hiltemann, Peter van der Spek, Guido Jenster and Andrew P Stubbs, *Bioinformatics* (2015) doi: 10.1093/bioinformatics/btv721
 * *User Support:*
+
    *
 * *Quotas:* 
-  * "This Galaxy instance may be used without registration, but guests' histories are deleted nightly. To request an account, please [a.stubbs@erasmusmc.nl](contact) the Bioinformatics department."
+  * "This Galaxy instance may be used without registration, but guests' histories are deleted nightly. To request an account, please [mailto:a.stubbs@erasmusmc.nl](contact) the Bioinformatics department."
 * *Sponsor(s):*
   * [Erasmus Medical Center department of Bioinformatics](http://bioinformatics.erasmusmc.nl/)
 
 ## GalaxEast
 
-<div class='right solid'><a href='http://www.galaxeast.fr'><img src='/GalaxEast.png' alt='GalaxEast'  /></a></div>
+<div class='right solid'><a href='http://www.galaxeast.fr'><img src="/src/PublicGalaxyServers/GalaxEast.png" alt="GalaxEast"  /></a></div>
 
 * *Links:*
   * [GalaxEast](http://www.galaxeast.fr)
@@ -156,7 +157,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
       * Promote the packaging of new developments for Galaxy (through wrappers and/or toolshed packages).
   * [GalaxEast deployment details](/src/Community/Deployment/GalaxEast/index.md)
 * *User Support:*
-  * [galaxy AT igbmc DOT fr](Email)
+  * [mailto:galaxy AT igbmc DOT fr](Email)
 * *Quotas:* 
   * You must be part of an academic research lab and provide a valid academic email address to get a personal !GalaxEast account.  Write to galaxy@igbmc.fr to request an account.
   * Academic users are allocated 50GB.
@@ -165,7 +166,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 
 ## Galaxy@PRABI
 
-<div class='right solid'><a href='http://galaxy.prabi.fr/'><img src='/Images/Logos/PRABILogo.png' alt='Galaxy@PRABI' width="300" /></a></div>
+<div class='right solid'><a href='http://galaxy.prabi.fr/'><img src="/src/Images/Logos/PRABILogo.png" alt="Galaxy@PRABI" width="300" /></a></div>
 
 * *Links:*
   * [Galaxy@PRABI](http://galaxy.prabi.fr/)
@@ -177,31 +178,30 @@ These servers implement a broad range of tools and and aren't specific to any pa
   * Dedicated server:  !PowerEdge R920 Rack Server - 64 CPU, 512 GB RAM, 15To GB of disk space. 
 * *User Support:*
   * [galaxy@prabi user list](http://listes.univ-lyon1.fr/sympa/info/galaxy-user) (in French) 
-  * Email support: [galaxy DASH support AT listes DOT univ-lyon1 DOT fr](galaxy DASH support AT listes DOT univ-lyon1 DOT fr) 
+  * Email support: [mailto:galaxy DASH support AT listes DOT univ-lyon1 DOT fr](galaxy DASH support AT listes DOT univ-lyon1 DOT fr) 
   * We also provide galaxy [training courses](/src/Teach/Trainers/index.md#galaxy_40_prabi_project) for RNA-seq and ChIP-seq data analysis.
 * *Quotas:* 
   * Disk space is limited to 100 MB for unregistered users, registered users are free to use up to 50 GB.
   * Users from the FRBioenvis and LECA teams are free to use up to 250 GB disk space.
-  * Can be increased up to 1-2 TB in collaborative projects (please contact [galaxy DASH support AT listes DOT univ-lyon1 DOT fr](galaxy@PRABI Admins).)
+  * Can be increased up to 1-2 TB in collaborative projects (please contact [mailto:galaxy DASH support AT listes DOT univ-lyon1 DOT fr](galaxy@PRABI Admins).)
 * *Sponsor(s):*
   * [PRABI](http://www.prabi.fr)
   * [FRBioenvis](http://bioenvis.universite-lyon.fr), [Université Lyon 1](http://www.univ-lyon1.fr), [LECA](http://www-leca.ujf-grenoble.fr)
 
-
 ## Galaxy Main
 
-<div class='right solid'><a href='http://usegalaxy.org'><img src='/Images/Logos/UseGalaxy.orgLogo600.png' alt='usegalaxy.org (Main)' width="300" /></a></div>
+<div class='right solid'><a href='http://usegalaxy.org'><img src="/src/Images/Logos/UseGalaxy.orgLogo600.png" alt="usegalaxy.org (Main)" width="300" /></a></div>
 
 * *Link:*
   * [Main](http://usegalaxy.org)
 * *Domain/Purpose:*
   * The [Galaxy Project](/src/GalaxyProject/index.md) free public server; biomedical research 
 * *Comments:*
-  * Strong on genomics; good central repository for shared Galaxy objects.  See [/Main](/src/Main/index.md) for more.
+  * Strong on genomics; good central repository for shared Galaxy objects.  See [Main](/src/Main/index.md) for more.
 * *User Support:*
-  * [/Support](/src/Support/index.md)
+  * [Support](/src/Support/index.md)
 * *Quotas:* 
-  * Storage and computational quotas.  See [/Main](/src/Main/index.md) for details.
+  * Storage and computational quotas.  See [Main](/src/Main/index.md) for details.
 * *Sponsor(s):*
   * [Galaxy Project](/src/GalaxyProject/index.md)
 
@@ -210,18 +210,19 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *Link:*
   * [Galaxy Test](https://test.galaxyproject.org/)
 * *Domain/Purpose:*
-  * [Beta version](/src/Test/index.md) of Galaxy [/Main](/src/Main/index.md)
+  * [Beta version](/src/Test/index.md) of Galaxy [Main](/src/Main/index.md)
 * *Comments:*
-  * Not stable or persistent.  See [/Test](/src/Test/index.md) for more.
+  * Not stable or persistent.  See [Test](/src/Test/index.md) for more.
 * *User Support:*
 * *Quotas:* 
-  * Storage and computational quotas.  See [/Test](/src/Test/index.md) for details
+  * Storage and computational quotas.  See [Test](/src/Test/index.md) for details
 * *Sponsor(s):*
   * [Galaxy Project](/src/GalaxyProject/index.md)
 
 ## GigaGalaxy
+
  
-<div class='right solid'><a href='http://gigagalaxy.net/'><img src='/GigaGalaxyNebula.png' alt='GigaGalaxy' /></a></div>
+<div class='right solid'><a href='http://gigagalaxy.net/'><img src="/src/PublicGalaxyServers/GigaGalaxyNebula.png" alt="GigaGalaxy" /></a></div>
 
 * *Link:*
   * [GigaGalaxy](http://gigagalaxy.net/)
@@ -235,7 +236,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 
 ## GVL QLD
 
-<div class='right solid'><a href='http://galaxy-qld.genome.edu.au/'><img src='/GenomicsVirtualLab300.png' alt='Genomics Virtual Lab' height="220" /></a></div>
+<div class='right solid'><a href='http://galaxy-qld.genome.edu.au/'><img src="/src/PublicGalaxyServers/GenomicsVirtualLab300.png" alt="Genomics Virtual Lab" height="220" /></a></div>
 
 * *Link:*
   * [Genomics Virtual Lab GVL-QLD](http://galaxy-qld.genome.edu.au/)
@@ -255,8 +256,9 @@ These servers implement a broad range of tools and and aren't specific to any pa
   * [Genomics Virtual Lab](https://genome.edu.au/) and the [University of Queensland Research Computing Centre](http://www.rcc.uq.edu.au/)
 
 ## GVL Tutorial
+
  
-<div class='right solid'><a href='http://galaxy-tut.genome.edu.au'><img src='/GenomicsVirtualLab300.png' alt='Genomics Virtual Lab' height="220" /></a></div>
+<div class='right solid'><a href='http://galaxy-tut.genome.edu.au'><img src="/src/PublicGalaxyServers/GenomicsVirtualLab300.png" alt="Genomics Virtual Lab" height="220" /></a></div>
 
 * *Link:*
   * [Genomics Virtual Lab GVLTut](http://galaxy-tut.genome.edu.au/)
@@ -265,7 +267,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *Comments:*
   * Follow tutorials at [GVL Learn](https://genome.edu.au/wiki/Learn) and use [Galaxy Tut](http://galaxy-tut.genome.edu.au/)
 * *User Support:*
-  * [help AT uq DOT edu DOT au](Email)
+  * [mailto:help AT uq DOT edu DOT au](Email)
 * *Quotas:*
   * 50GB 
 * *Sponsor(s):*
@@ -273,7 +275,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 
 ## Insitut Curie
 
-<div class='right solid'><a href='https://galaxy-public.curie.fr/'><img src='/PublicGalaxyServers/InstitutCurieGalaxy.png' alt='Institut Curie' /></a></div>
+<div class='right solid'><a href='https://galaxy-public.curie.fr/'><img src="/src/PublicGalaxyServers/InstitutCurieGalaxy.png" alt="Institut Curie" /></a></div>
 
 * *Link:*
   * [Institut Curie Galaxy](https://galaxy-public.curie.fr/)
@@ -283,7 +285,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
   * Includes a [wealth of published histories](https://galaxy-public.curie.fr/history/list_published).
 * *User Support:*
   * Tutorials and screencasts are provided.
-  * For any troubleshooting contact [galaxy.contact@curie.fr](Institut Curie Galaxy Team).
+  * For any troubleshooting contact [mailto:galaxy.contact@curie.fr](Institut Curie Galaxy Team).
 * *Quotas:* 
   * Requires that you create a login to access it. 
   * Only 4 jobs can be run simultaneously for a single user. Other jobs will be put into queue.
@@ -294,10 +296,9 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *Sponsor(s):*
   * [Institut Curie](http://www.curie.fr/)
 
-
 ## NELLY
 
-<div class='right solid'><a href='http://www.bioinformatica.ucr.ac.cr:8080/'><img src='/PublicGalaxyServers/UCostaRicaLogo.png' alt='University of Costa Rica' /></a></div>
+<div class='right solid'><a href='http://www.bioinformatica.ucr.ac.cr:8080/'><img src="/src/PublicGalaxyServers/UCostaRicaLogo.png" alt="University of Costa Rica" /></a></div>
 
 * *Link:*
   * [NELLY](http://www.bioinformatica.ucr.ac.cr:8080/)
@@ -312,7 +313,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 
 ## Pitagora-Galaxy
 
-<div class='right solid'><a href='http://try.pitagora-galaxy.org/galaxy/'><img src='/PublicGalaxyServers/Pitagora.png' alt='Pitagora-Galaxy' width="300" /></a></div>
+<div class='right solid'><a href='http://try.pitagora-galaxy.org/galaxy/'><img src="/src/PublicGalaxyServers/Pitagora.png" alt="Pitagora-Galaxy" width="300" /></a></div>
 
 * *Links:*
   * [Pitagora-Galaxy Server](http://try.pitagora-galaxy.org/galaxy/)
@@ -329,7 +330,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
     * Launch AMI (Amazon machine image) on AWS cloud.
     Since Pitagora-Galaxy enables us to run the same workflows on any infrastructure and rebuild the environments in any time, we can quickly use Galaxy, and at the same time, ensure the reproducibility of the analyses. In addition, we plan to add a connector for Garuda Desktop, a desktop application platform, for data analyses that cannot be covered only with Galaxy tools.
 * *User Support:*
-  * Email: [yamanaka AT genome DOT rcast.u-tokyo.ac.jp](Ryota Yamanaka)
+  * Email: [mailto:yamanaka AT genome DOT rcast.u-tokyo.ac.jp](Ryota Yamanaka)
 * *Quotas:* 
   * Public Server:
     * See the [instructions](http://try.pitagora-galaxy.org/galaxy/) at Pitagora-Galaxy Server.
@@ -346,7 +347,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## ballaxy
 
-<div class='right solid'><a href='https://ballaxy.bioinf.uni-sb.de'><img src='/BallaxySlide.png' alt='ballaxy'  /></a></div>
+<div class='right solid'><a href='https://ballaxy.bioinf.uni-sb.de'><img src="/src/PublicGalaxyServers/BallaxySlide.png" alt="ballaxy"  /></a></div>
 
 * *Links:*
   * [ballaxy Galaxy server](https://ballaxy.bioinf.uni-sb.de)
@@ -366,7 +367,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## CAPER
 
-<div class='right solid'><a href='http://www.bprc.ac.cn/CAPE'><img src='/CAPER300.png' alt='CAPER'  /></a></div>
+<div class='right solid'><a href='http://www.bprc.ac.cn/CAPE'><img src="/src/PublicGalaxyServers/CAPER300.png" alt="CAPER"  /></a></div>
 
 * *Links:*
   * [CAPER](http://www.bprc.ac.cn/CAPE) at [Beijing Proteome Research Center](http://www.bprc.ac.cn/), China
@@ -377,7 +378,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * The Chromosome-centric Human Proteome Project (C-HPP) aims to map and annotate the entire human proteome by the "chromosome-by-chromosome" strategy. As the C-HPP proceeds, the increasing volume of proteomic data sets presents a challenge for customized and reproducible bioinformatics data analyses for mining biological knowledge. To address this challenge CAPER 2.0 − an interactive, configurable and extensible workflow-based platform is developed for C-HPP data analyses. In addition to the previous visualization functions of [track-view and heatmap-view](http://pubs.acs.org/doi/abs/10.1021/pr300831z), CAPER 2.0 presents a powerful toolbox for C-HPP data analyses and also integrates a configurable workflow system that supports the view, construction, edit, run, and share of workflows. These features allow users to easily conduct their own C-HPP proteomic data analyses and visualization by CAPER 2.0. CAPER 2.0 now presents four specific workflows for finding missing proteins, mapping peptides to chromosomes for genome annotation, integrating peptides with transcription factor binding sites from ENCODE data sets, and functionally annotating proteins.
 * *User Support:*
   * [Tutorials](http://61.50.138.124/caper2/static/documentation/index.html)
-  * Email: [lidong DOT bprc AT foxmail DOT com](Dong Li), [wangdanburnett@163.com](Dan Wang)
+  * Email: [mailto:lidong DOT bprc AT foxmail DOT com](Dong Li), [mailto:wangdanburnett@163.com](Dan Wang)
 * *Quotas:* 
   * Free for academic users. Creating an account is recommended.
 * *Sponsor(s):*
@@ -385,7 +386,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## Center for Phage Technology (CPT)
 
-<div class='right solid'><a href='https://cpt.tamu.edu/galaxy-public/'><img src='/PublicGalaxyServers/CPTLogo.png' alt='Center for Phage Technology (CPT)' width="300" /></a></div>
+<div class='right solid'><a href='https://cpt.tamu.edu/galaxy-public/'><img src="/src/PublicGalaxyServers/CPTLogo.png" alt="Center for Phage Technology (CPT)" width="300" /></a></div>
 
 * *Links:*
   * [Center for Phage Technology (CPT) Galaxy Server](https://cpt.tamu.edu/galaxy-pub/)
@@ -397,7 +398,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * Server includes many genbank and gff3 processing tools, largely focused on annotation of phages.
 * *User Support:*
   * [FAQ](https://cpt.tamu.edu/galaxy-faq-ever-needed-a-question-answered/)
-  * Email: [esr+gxfaq@tamu.edu](Eric Rasche)
+  * Email: [mailto:esr+gxfaq@tamu.edu](Eric Rasche)
 * *Quotas:* 
   * An account will bump your quota from 10 Mb to 50 Mb. The administrator can increase your quota on request, and grant you access to the restricted tools (genome assembly, blast, interpro).
 * *Sponsor(s):*
@@ -405,7 +406,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## Cistrome Analysis Pipeline
 
-<div class='right solid'><a href='http://cistrome.org/ap/root'><img src='/Cistrome.png' alt='Cistrome Analysis Pipeline'  /></a></div>
+<div class='right solid'><a href='http://cistrome.org/ap/root'><img src="/src/PublicGalaxyServers/Cistrome.png" alt="Cistrome Analysis Pipeline"  /></a></div>
 
 * *Links:*
   * [Cistrome Analysis Pipeline](http://cistrome.org/ap/root) 
@@ -423,7 +424,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## CoSSci
 
-<div class='right solid'><a href='http://socscicompute.ss.uci.edu/'><img src='/PublicGalaxyServers/CoSSciMap.png' alt='CoSSci; Women's work map: cycles of lines contain local autocorrelation regions'  /></a></div>
+<div class='right solid'><a href='http://socscicompute.ss.uci.edu/'><img src="/src/PublicGalaxyServers/CoSSciMap.png" alt="CoSSci; Women's work map: cycles of lines contain local autocorrelation regions"  /></a></div>
 
 * *Link:*
   * [CoSSci Complex Social Science Gateway](http://socscicompute.ss.uci.edu/)
@@ -434,13 +435,13 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *User Support:*
   * [Visual Manual](http://intersci.ss.uci.edu/wiki/index.php/Visual_Manual)
 * *Quotas:* 
-   
+
 * *Sponsor(s):*
   * [InterSci: Hosted by the Institute for Mathematical Behavioral Science](http://intersci.ss.uci.edu/)
 
 ## Dintor
 
-<div class='right solid'><a href='http://dintor.eurac.edu/'><img src='/PublicGalaxyServers/Dintor.png' alt='Dintor: Data Integrator Tool Suite'  /></a></div>
+<div class='right solid'><a href='http://dintor.eurac.edu/'><img src="/src/PublicGalaxyServers/Dintor.png" alt="Dintor: Data Integrator Tool Suite"  /></a></div>
 
 * *Link:*
   * [Dintor: Data Integrator Tool Suite](http://dintor.eurac.edu/)
@@ -460,23 +461,22 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Sponsor(s):*
   * The [Center of Biomedicine (CBM)](http://www.eurac.edu/en/research/health/biomed/Pages) at [EURAC research](http://www.eurac.edu/). 
 
-
 ## Galaxy-CEFAP
 
-<div class='right solid'><a href='http://cefap.icb.usp.br/galaxy'><img src='/PublicGalaxyServers/CEFAP-Logo.png' alt='Galaxy-CEFAP'  /></a></div>
+<div class='right solid'><a href='http://cefap.icb.usp.br/galaxy'><img src="/src/PublicGalaxyServers/CEFAP-Logo.png" alt="Galaxy-CEFAP"  /></a></div>
 
 * *Link:*
   * [Galaxy-CEFAP](http://cefap.icb.usp.br/galaxy)
 * *Domain/Purpose:*
   * Galaxy-CEFAP offers a set of tools to perform RNA-Seq and miRNA analysis.
 * *Comments:*
-   
+
 * *User Support:*
-  * [geninfo AT icb DOT usp DOT br](Email)
+  * [mailto:geninfo AT icb DOT usp DOT br](Email)
   * [FTP tutorial](http://cefap.icb.usp.br/galaxy/etc/galaxy/web/welcome_upload_ftp.pdf)
 * *Quotas:* 
   * Anyone can use the server, but it is necessary to create a login first.
-  * Email [geninfo AT icb DOT usp DOT br](geninfo AT icb DOT usp DOT br) to request an account. 
+  * Email [mailto:geninfo AT icb DOT usp DOT br](geninfo AT icb DOT usp DOT br) to request an account. 
   * There is a storage quota for all users.
 * *Sponsor(s):*
   * [Instituto de Ciências Biomédicas - ICB](http://www3.icb.usp.br/)
@@ -486,7 +486,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## Galaxy Integrated Omics (GIO)
 
-<div class='right solid'><a href='http://gio.sbcs.qmul.ac.uk/'><img src='/PublicGalaxyServers/GIOLogo.png' alt='Galaxy Integrated Omics (GIO)' width="300" /></a></div>
+<div class='right solid'><a href='http://gio.sbcs.qmul.ac.uk/'><img src="/src/PublicGalaxyServers/GIOLogo.png" alt="Galaxy Integrated Omics (GIO)" width="300" /></a></div>
 
 * *Link:*
   * [GIO Server](http://gio.sbcs.qmul.ac.uk/)
@@ -507,7 +507,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## Galaxy-P
 
-<div class='right solid'><a href='https://usegalaxyp.org/'><img src='/GetGalaxyPHomePage.png' alt='Galaxy-P' width="300" /></a></div>
+<div class='right solid'><a href='https://usegalaxyp.org/'><img src="/src/PublicGalaxyServers/GetGalaxyPHomePage.png" alt="Galaxy-P" width="300" /></a></div>
 
 * *Links:*
   * [Use Galaxy-P](https://usegalaxyp.org/)
@@ -520,7 +520,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * [Publications using Galaxy-P](http://z.umn.edu/galaxypreferences)
 
 * *User Support:*
-  * [help@msi.umn.edu](MSI Email Support)
+  * [mailto:help@msi.umn.edu](MSI Email Support)
   * We have created a [publicly-available Google Group](http://z.umn.edu/galaxypgroup) to facilitate questions, feedback and suggestions for Galaxy-P from both users and developers.  Please [request to join the group](http://z.umn.edu/galaxypgroup) to stay updated and be involved.
   * Please follow our Galaxy-P twitter account, [@usegalaxyp](http://twitter.com/usegalaxyp).  It’s a great way to stay updated on the most recent developments:  
   * *Quotas:* 
@@ -529,7 +529,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## Galaxy PGTB (Virtual Biodiversity Lab)
 
-<div class='right solid'><a href='http://www.pgtb.u-bordeaux2.fr/'><img src='/pgtb.png' alt='PGTB Galaxy'  /></a></div>
+<div class='right solid'><a href='http://www.pgtb.u-bordeaux2.fr/'><img src="/src/PublicGalaxyServers/pgtb.png" alt="PGTB Galaxy"  /></a></div>
 
 * *Links:*
   * **[PGTB Galaxy - Virtual Biodiversity Lab](https://galaxy-pgtp.pierroton.inra.fr/)**
@@ -537,9 +537,9 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Domain/Purpose:*
   * This is a standard Galaxy instance implemented with specific tools for Biodiversity (Biodiversity Virtual Lab) and NGS (Ion Torrent from the PGTB facility) analysis. 
 * *Comments:*
-  * Due to current disk space limitations, registration is resquired. Account request on demand at [contact DOT pgtp AT pierroton DOT inra DOT fr](Email).
+  * Due to current disk space limitations, registration is resquired. Account request on demand at [mailto:contact DOT pgtp AT pierroton DOT inra DOT fr](Email).
 * *User Support:*
-  * [contact DOT pgtp AT pierroton DOT inra DOT fr](Email)
+  * [mailto:contact DOT pgtp AT pierroton DOT inra DOT fr](Email)
 * *Quotas:* 
   * Registered users: 50GB;
 * *Sponsor(s):*
@@ -547,7 +547,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## Genomic Hyperbrowser
 
-<div class='right solid'><a href='http://hyperbrowser.uio.no/hb/'><img src='/GenomicHyperbrowser.png' alt='Genomic Hyperbrowser'  /></a></div>
+<div class='right solid'><a href='http://hyperbrowser.uio.no/hb/'><img src="/src/PublicGalaxyServers/GenomicHyperbrowser.png" alt="Genomic Hyperbrowser"  /></a></div>
 
 * *Link:*
   * [Genomic Hyperbrowser](http://hyperbrowser.uio.no/hb/)
@@ -556,14 +556,14 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Comments:*
   * See "[The Genomic HyperBrowser: an analysis web server for genome-scale data](http://nar.oxfordjournals.org/content/41/W1/W133.full)," by Sandve, *et al.*,  *Nucl. Acids Res*. (1 July 2013) 41 (W1): W133-W141. 
 * *User Support:*
-  * [Help documentation](http://sites.google.com/site/hyperbrowserhelp/) and [hyperbrowser DASH requests AT usit DOT uio DOT no](email support)
+  * [Help documentation](http://sites.google.com/site/hyperbrowserhelp/) and [mailto:hyperbrowser DASH requests AT usit DOT uio DOT no](email support)
 * *Quotas:* 
 * *Sponsor(s):*
   * [Norwegian Functional Genomics Program](http://www.bioinfo.no/)
 
 ## Gene Ontololgy (GO)
 
-<div class='right solid'><a href='http://galaxy.berkeleybop.org/'><img src='/GOGalaxy.png' alt='GO Galaxy'  /></a></div>
+<div class='right solid'><a href='http://galaxy.berkeleybop.org/'><img src="/src/PublicGalaxyServers/GOGalaxy.png" alt="GO Galaxy"  /></a></div>
 
 * *Link:*
   * [GO Galaxy](http://galaxy.berkeleybop.org/)
@@ -579,7 +579,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## Image Analysis and Processing Toolkit
 
-<div class='right solid'><a href='http://cloudimaging.net.au/'><img src='/PublicGalaxyServers/ImageAnalysisToolkit.png' alt='Image Analysis and Processing ToolKit'  /></a></div>
+<div class='right solid'><a href='http://cloudimaging.net.au/'><img src="/src/PublicGalaxyServers/ImageAnalysisToolkit.png" alt="Image Analysis and Processing ToolKit"  /></a></div>
 * *Links:*
   * [Image Analysis and Processing Toolkit Server](http://cloudimaging.net.au/)
   * [Project blog](http://cloudimaging.blogspot.com.au/)
@@ -588,17 +588,16 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Comments:*
   * This service provides a novel way of carrying out image analysis, reconstruction and processing tasks using cloud based service provided on the Australian [National eResearch Collaboration Tools and Resources (NeCTAR](http://www.nectar.org.au)) infrastructure. The toolbox allows access to a wide range of useful blocks of functionalities (imaging functions) that can be connected together in workflows allowing creation of even more complex algorithms that can be re-run on different data sets, shared with others or additionally adjusted. The functions given are in the area of cellular imaging, advanced X-ray image analysis, computed tomography and 3D medical imaging and visualisation. The service is currently available [on the website](http://www.cloudimaging.net.au).
 * *User Support:*
-  * [admin@cloudimaging.net.au](Email)
+  * [mailto:admin@cloudimaging.net.au](Email)
   * [Video tutorials](http://www.youtube.com/user/CloudImaging)
 * *Quotas:* 
-  * A login is required to access the site.  Logins are free and can be [admin@cloudimaging.net.au](requested via email)
+  * A login is required to access the site.  Logins are free and can be [mailto:admin@cloudimaging.net.au](requested via email)
 * *Sponsor(s):*
   * [NeCTAR](http://www.nectar.org.au) and [CSIRO](http://www.csiro.au/)
 
-
 ## ImmPort Galaxy
 
-<div class='right solid'><a href='http://immportgalaxy.org/'><img src='/PublicGalaxyServers/ImmPort.png' alt='ImmPort Galaxy' width="300" /></a></div>
+<div class='right solid'><a href='http://immportgalaxy.org/'><img src="/src/PublicGalaxyServers/ImmPort.png" alt="ImmPort Galaxy" width="300" /></a></div>
 * *Links:*
   * [ImmPort Galaxy](http://immportgalaxy.org/)
 * *Domain/Purpose:*
@@ -611,7 +610,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *User Support:*
   * [Help page](http://immportgalaxy.org/static/immportgalaxyhelp.html)    
   * [Videos](https://www.youtube.com/channel/UC8lQSx1Z7sMFm07wfqI-_kA) 
-  * [immport-galaxy@immport.org](Email)
+  * [mailto:immport-galaxy@immport.org](Email)
   * Tutorials to come.
 * *Quotas:* 
   * Anyone can use this server. No quotas for now.
@@ -624,7 +623,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## International Rice Research Institute (IRRI) Galaxy
 
-<div class='right solid'><a href='https://sites.google.com/a/irri.org/iric/resources/iric-data-portal '><img src='/IRRI.png' alt='IRRI Galaxy'  /></a></div>
+<div class='right solid'><a href='https://sites.google.com/a/irri.org/iric/resources/iric-data-portal '><img src="/src/PublicGalaxyServers/IRRI.png" alt="IRRI Galaxy"  /></a></div>
 * *Links:*
   * [IRRI Galaxy](http://175.41.147.71:8080/) part of the [IRIC Data and Analysis Portal](https://sites.google.com/a/irri.org/iric/resources/iric-data-portal)
 * *Domain/Purpose:*
@@ -633,16 +632,17 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * See
     * "The IRRI Genotyping Service Laboratory Galaxy: Bioinformatics for Rice Scientists" ([PDF](ATTACHMENT_URLDocuments/Presentations/ICG2013MauleonIRRI.pdf), [SlideShare](http://www.slideshare.net/GigaScience/ramil-mauleon-galaxy-bioinformatics-for-rice-scientists)) presented by [Ramil Mauleon](http://www.icg-8.org/navigation/show_navigation?nid=10507), at [The 8th International Conference on Genomics (ICG-8)](http://www.icg-8.org/),  Shenzhen, China
 * *User Support:*
+
    * 
 * *Quotas:* 
+
    * 
 * *Sponsor(s):*
   * [International Rice Research Institute (IRRI)](http://irri.org/)
 
-
 ## LAPPS Grid
 
-<div class='right solid'><a href='http://galaxy.lappsgrid.org/'><img src='/PublicGalaxyServers/LAPPSGrid.png' alt='LAPPS Grid Galaxy Workflow Engine'  /></a></div>
+<div class='right solid'><a href='http://galaxy.lappsgrid.org/'><img src="/src/PublicGalaxyServers/LAPPSGrid.png" alt="LAPPS Grid Galaxy Workflow Engine"  /></a></div>
 * *Links:*
   * [LAPPS Grid Galaxy Workflow Engine](http://galaxy.lappsgrid.org/), part of the [Language Application Grid](http://www.lappsgrid.org/)
 
@@ -662,10 +662,9 @@ Domain servers specialize in either a particular branch of the tree of life or i
     * [Carnegie-Mellon University](http://www.lti.cs.cmu.edu/)
     * [University of Pennsylvania](http://www.ldc.upenn.edu/)
 
-
 ## MISSISSIPPI
 
-<div class='right solid'><a href='http://mississippi.fr/'><img src='/PublicGalaxyServers/MISSISSIPPILogo.png' alt='MISSIPPI' width="300" /></a></div>
+<div class='right solid'><a href='http://mississippi.fr/'><img src="/src/PublicGalaxyServers/MISSISSIPPILogo.png" alt="MISSIPPI" width="300" /></a></div>
 
 * *Link:*
   * [MISSISSIPPI Server](http://mississippi.fr/)
@@ -674,15 +673,16 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Comments:*
   * See [ARTbio on Slideshare](http://fr.slideshare.net/christopheantoniewski/linked-in-summary-50629359)
 * *User Support:*
-  * Contact [christophe.antoniewski@upmc.fr](Christophe Antoniewski)
+  * Contact [mailto:christophe.antoniewski@upmc.fr](Christophe Antoniewski)
 * *Quotas:* 
+
     * 
 * *Sponsor(s):*
   * The ARTbio bioinformatics facility of the  [Institut de Biologie Paris Seine](http://www.ibps.upmc.fr/en) based at the [University Pierre & Marie Curie](http://www.upmc.fr/en/index.html).
 
 ## Nebula
 
-<div class='right solid'><a href='http://nebula.curie.fr/'><img src='/Nebula.png' alt='Nebula'  /></a></div>
+<div class='right solid'><a href='http://nebula.curie.fr/'><img src="/src/PublicGalaxyServers/Nebula.png" alt="Nebula"  /></a></div>
 
 * *Link:*
   * [Nebula](http://nebula.curie.fr/)
@@ -701,10 +701,9 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Sponsor(s):*
   * [Institut Curie](http://curie.fr)
 
-
 ## Oqtans
 
-<div class='right solid'><a href='http://galaxy.inf.ethz.ch'><img src='/Oqtans.png' alt='Oqtans'  /></a></div>
+<div class='right solid'><a href='http://galaxy.inf.ethz.ch'><img src="/src/PublicGalaxyServers/Oqtans.png" alt="Oqtans"  /></a></div>
 
 * *Links:*
   * [Oqtans Galaxy Server](http://galaxy.inf.ethz.ch)<br />
@@ -721,14 +720,14 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * Oqtans capabilities are shown with [Galaxy Pages](http://oqtans.org/usecases) for which all data, parameters, intermediate output, and final results are made public.<br />
   * See *[Oqtans: The RNA-seq Workbench in the Cloud for Complete and Reproducible Quantitative Transcriptome Analysis](http://bioinformatics.oxfordjournals.org/content/early/2014/01/10/bioinformatics.btt731.abstract?keytype=ref&ijkey=u23qkvDAUTdBog1)*, by Sreedharan, *et al.,* *Bioinformatics* (2014), doi: 10.1093/bioinformatics/btt731
 * *User Support:*
-  * For problems with any of the non-standard tools, please contact the [galaxy AT raetschlab DOT org](MLB Galaxy Support Team). 
+  * For problems with any of the non-standard tools, please contact the [mailto:galaxy AT raetschlab DOT org](MLB Galaxy Support Team). 
 * *Quotas:* 
 * *Sponsor(s):*
   * [Machine Learning in Biology (MLB) Group](http://cbio.mskcc.org/research/ratsch-research-group/) at [cBio@MSKCC](http://cbio.mskcc.org/) in New York City, United States.
 
 ## Orione
 
-<div class='right solid'><a href='http://orione.crs4.it/'><img src='/OrioneLogo.png' alt='Orione'  /></a></div>
+<div class='right solid'><a href='http://orione.crs4.it/'><img src="/src/PublicGalaxyServers/OrioneLogo.png" alt="Orione"  /></a></div>
 
 * *Links:*
   * [Orione](http://orione.crs4.it/) server
@@ -737,17 +736,17 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * A Galaxy based web server for microbiology. [Orione](http://orione.crs4.it/) includes all post mapping or assembling steps from scaffolding to complete annotation pipelines.
 * *Comments:*
   * From the [GCC2013](/src/Events/GCC2013/index.md) poster "[Engaging Galaxy in Microbiology](/src/Events/GCC2013/Abstracts/Posters/index.md#p7-engaging-galaxy-in-microbiology)"
-      We started on selecting the relevant software in the microbiology area, developing then all the necessary tools to integrate them into the Galaxy ecosystem. In addition to that, we made available several specialized workflows covering major applications such as bacterial resequencing, de novo assembly, scaffolding, bacterial RNA-seq, gene annotation and metagenomics. Orione provides additional capabilities to perform integrative, reproducible and transparent bioinformatic data analysis in microbiology thus expanding the constellation of specialized Galaxy based web servers as [Nebula](#nebula), [Cistrome](#cistrome) and several others.
+      We started on selecting the relevant software in the microbiology area, developing then all the necessary tools to integrate them into the Galaxy ecosystem. In addition to that, we made available several specialized workflows covering major applications such as bacterial resequencing, de novo assembly, scaffolding, bacterial RNA-seq, gene annotation and metagenomics. Orione provides additional capabilities to perform integrative, reproducible and transparent bioinformatic data analysis in microbiology thus expanding the constellation of specialized Galaxy based web servers as [Nebula](/src/PublicGalaxyServers/index.md#nebula), [Cistrome](/src/PublicGalaxyServers/index.md#cistrome) and several others.
 * *User Support:*
-  * [galaxyadmin AT crs4 DOT it](email)
+  * [mailto:galaxyadmin AT crs4 DOT it](email)
 * *Quotas:* 
-  * This installation of Galaxy has been configured such that anonymous users can operate in a limited way. If you need to store data on this website and/or use advanced Galaxy features such as sharing and workflows, please send us an [galaxyadmin AT crs4 DOT it](email) with a short request.
+  * This installation of Galaxy has been configured such that anonymous users can operate in a limited way. If you need to store data on this website and/or use advanced Galaxy features such as sharing and workflows, please send us an [mailto:galaxyadmin AT crs4 DOT it](email) with a short request.
 * *Sponsor(s):*
   * The financial support of [Regione Autonoma della Sardegna](http://www.regione.sardegna.it/ ) (RAS) is gratefully acknowledged.
 
 ## OSDDlinux LiveGalaxy
 
-<div class='right solid'><a href='http://osddlinux.osdd.net:8001/'><img src='/PublicGalaxyServers/OSDDLinuxLiveGalaxyHomePage300.png' alt='OSDDlinux LiveGalaxy'  /></a></div>
+<div class='right solid'><a href='http://osddlinux.osdd.net:8001/'><img src="/src/PublicGalaxyServers/OSDDLinuxLiveGalaxyHomePage300.png" alt="OSDDlinux LiveGalaxy"  /></a></div>
 
 * *Links:*
   * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/), part of the [OSDD Portal](http://sysborg2.osdd.net).
@@ -758,14 +757,14 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Comments:*
   * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) integrates GPSR1.0, GPSR2.0 along with the [webservers](http://osddlinux.osdd.net/livew.php) and the [standalone software](http://osddlinux.osdd.net/stand.php) supported by OSDDlinux.  See the [complete list of tools and services](http://osddlinux.osdd.net/liveg) included in OSDDlinux !LiveGalaxy. 
 * *User Support:*
-  * [Web form](http://crdd.osdd.net/osddlinux/feed.php) or [osddlinux AT gmail DOT com](Email)
+  * [Web form](http://crdd.osdd.net/osddlinux/feed.php) or [mailto:osddlinux AT gmail DOT com](Email)
 * *Quotas:* 
 * *Sponsor(s):*
   * The [Open Source Drug Discovery Project](http://www.osdd.net/) and the [OSDD Linux Project](http://osddlinux.osdd.net/) under the direction of [Dr. GPS Raghava](http://www.imtech.res.in/raghava/about.html) of the [CSIR-Institute of Microbial Technology (IMTECH)](http://www.imtech.res.in/).
 
 ## OSDD Molecular Property Diagnostic Suite (MPDS)
 
-<div class='right solid'><a href='http://mpds.osdd.net/'><img src='/PublicGalaxyServers/OSDD_MPDS.png' alt='Molecular Property Diagnostic Suite (MPDS)'  /></a></div>
+<div class='right solid'><a href='http://mpds.osdd.net/'><img src="/src/PublicGalaxyServers/OSDD_MPDS.png" alt="Molecular Property Diagnostic Suite (MPDS)"  /></a></div>
 
 * *Links:*
   * [Molecular Property Diagnostic Suite (MPDS)](http://mpds.osdd.net/), an OSDD Chemoinformatics Portal
@@ -782,7 +781,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## PopGenIE / PlantGenIE
 
-<div class='right solid'><a href='http://galaxy.popgenie.org:8080/'><img src='/PopGemIE.png' alt='PopGenIE'  /></a></div>
+<div class='right solid'><a href='http://galaxy.popgenie.org:8080/'><img src="/src/PublicGalaxyServers/PopGemIE.png" alt="PopGenIE"  /></a></div>
 
 * *Link:*
   * [PlantGenIE](http://galaxy.plantgenie.org:8080/)
@@ -798,7 +797,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## RepeatExplorer
 
-<div class='right solid'><a href='http://repeatexplorer.umbr.cas.cz/'><img src='/RepeatExplorerHomePage300.png' alt='RepeatExplorer'  /></a></div>
+<div class='right solid'><a href='http://repeatexplorer.umbr.cas.cz/'><img src="/src/PublicGalaxyServers/RepeatExplorerHomePage300.png" alt="RepeatExplorer"  /></a></div>
  
 * *Link:*
   * [RepeatExplorer](http://repeatexplorer.umbr.cas.cz/)
@@ -814,7 +813,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## RiboGalaxy
 
-<div class='right solid'><a href='http://ribogalaxy.ucc.ie/'><img src='/PublicGalaxyServers/RiboGalaxyLogo.png' alt='RiboGalaxy' width="300" /></a></div>
+<div class='right solid'><a href='http://ribogalaxy.ucc.ie/'><img src="/src/PublicGalaxyServers/RiboGalaxyLogo.png" alt="RiboGalaxy" width="300" /></a></div>
  
 * *Link:*
   * [RiboGalaxy](http://ribogalaxy.ucc.ie/)
@@ -832,7 +831,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## RNA-Rocket @ Pathogen Portal
 
-<div class='right solid'><a href='http://rnaseq.pathogenportal.org/'><img src='/PathogenPortalHome300.png' alt='RNA-Rocket @ Pathogen Portal'  /></a></div>
+<div class='right solid'><a href='http://rnaseq.pathogenportal.org/'><img src="/src/PublicGalaxyServers/PathogenPortalHome300.png" alt="RNA-Rocket @ Pathogen Portal"  /></a></div>
 
 * *Link:*
   * [RNA-Rocket at Pathogen Portal](http://rnaseq.pathogenportal.org/)
@@ -852,7 +851,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## RNA-Seq Portal
 
-<div class='right solid'><a href='http://weizhongli-lab.org/RNA-seq/'><img src='/PublicGalaxyServers/RNA-SeqPortal.png' alt='RNA-Seq Portal - Analyzing RNA-seq Data for Agricultural Animal Species' width="300" /></a></div>
+<div class='right solid'><a href='http://weizhongli-lab.org/RNA-seq/'><img src="/src/PublicGalaxyServers/RNA-SeqPortal.png" alt="RNA-Seq Portal - Analyzing RNA-seq Data for Agricultural Animal Species" width="300" /></a></div>
 
 * *Links:*
   * [RNA-Seq Portal](http://weizhongli-lab.org/RNA-seq/)
@@ -875,10 +874,9 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Sponsor(s):*
   * The project is developed by [Weizhong Li's lab](http://weizhongli-lab.org/) at [J. Craig Venter Institute](http://jcvi.org/) with support from NIFA (award #2013-67015-21428). 
 
-
 ## Stem Cell Discovery Engine
 
-<div class='right solid'><a href='http://discovery.hsci.harvard.edu/galaxy'><img src='/SCDE.png' alt='Stem Cell Discovery Engine (SCDE)'  /></a></div>
+<div class='right solid'><a href='http://discovery.hsci.harvard.edu/galaxy'><img src="/src/PublicGalaxyServers/SCDE.png" alt="Stem Cell Discovery Engine (SCDE)"  /></a></div>
 
 * *Link:*
   * [Stem Cell Discovery Engine (SCDE)](http://discovery.hsci.harvard.edu/galaxy)
@@ -891,10 +889,9 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Sponsor(s):*
   * [Hide Lab](http://web.me.com/winhide/Win_Hide_Lab/Home.html) @ [Harvard School of Public Health](http://www.hsph.harvard.edu/), [Harvard Stem Cell Institute](http://www.hsci.harvard.edu/). 
 
-
 ## South Green 
 
-<div class='right solid'><a href='http://galaxy.southgreen.fr/galaxy/'><img src='/SouthGreenHomePage.png' alt='South Green'  /></a></div>
+<div class='right solid'><a href='http://galaxy.southgreen.fr/galaxy/'><img src="/src/PublicGalaxyServers/SouthGreenHomePage.png" alt="South Green"  /></a></div>
 
 * *Link:*
   * [South Green Galaxy](http://galaxy.southgreen.fr/galaxy/)
@@ -910,7 +907,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## VectorBase Galaxy
 
-<div class='right solid'><a href='https://www.vectorbase.org/galaxy'><img src='/Images/Logos/VectorBaseLogoWithText.png' alt='VectorBase Galaxy' width=300 /></a></div>
+<div class='right solid'><a href='https://www.vectorbase.org/galaxy'><img src="/src/Images/Logos/VectorBaseLogoWithText.png" alt="VectorBase Galaxy" width=300 /></a></div>
 
 * *Link:*
   * [Vectorbase Galaxy](https://www.vectorbase.org/galaxy)
@@ -923,13 +920,13 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * [VectorBase Help Hub Page](https://www.vectorbase.org/navigation/help)
   * [VectorBase Help Desk](https://www.vectorbase.org/contact)
 * *Quotas:* 
-  * You must have an account, but anyone can request an account [info@vectorbase.org](via email) or [online](https://www.vectorbase.org/contact).
+  * You must have an account, but anyone can request an account [mailto:info@vectorbase.org](via email) or [online](https://www.vectorbase.org/contact).
 * *Sponsor(s):*
   * The [University of Notre Dame](http://www.nd.edu/), [EMBL-EBI](http://www.ebi.ac.uk/), and [Imperial College London](http://www.imperial.ac.uk/)
 
 ## VirAmp
 
-<div class='right solid'><a href='http://viramp.com/'><img src='/PublicGalaxyServers/VirAmpHome.png' alt='VirAmp' width=300 /></a></div>
+<div class='right solid'><a href='http://viramp.com/'><img src="/src/PublicGalaxyServers/VirAmpHome.png" alt="VirAmp" width=300 /></a></div>
 
 * *Link:*
   * [VirAmp Galaxy](http://viramp.com/)
@@ -947,7 +944,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## Whale Shark
 
-<div class='right solid'><a href='http://whaleshark.georgiaaquarium.org/'><img src='/PublicGalaxyServers/WhaleSharkLanding300.png' alt='Whale Shark Galaxy @ The Georgia Aquarium' width=300 /></a></div>
+<div class='right solid'><a href='http://whaleshark.georgiaaquarium.org/'><img src="/src/PublicGalaxyServers/WhaleSharkLanding300.png" alt="Whale Shark Galaxy @ The Georgia Aquarium" width=300 /></a></div>
 
 * *Link:*
   * [Whale Shark Galaxy](http://whaleshark.georgiaaquarium.org/)
@@ -964,10 +961,10 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Sponsor(s):*
   * "The whale shark genome project was made possible by financial and other support of [Georgia Aquarium](http://www.georgiaaquarium.org/) and its guests, and by a completion grant from [The Coca Cola Company](http://us.coca-cola.com/home/)."
 
-
 ## Workflow4Metabolomics
+
 <div class='right'>
-<div class='solid'><a href='http://galaxy.workflow4metabolomics.org/'><img src='/PublicGalaxyServers/Workflow4metabolomics.png' alt='Workflow4metabolomics Galaxy server' width=300 /></a></div>
+<div class='solid'><a href='http://galaxy.workflow4metabolomics.org/'><img src="/src/PublicGalaxyServers/Workflow4metabolomics.png" alt="Workflow4metabolomics Galaxy server" width=300 /></a></div>
 <br />
 <div class='right solid'>[{{attachment:PublicGalaxyServers/Workflow4MetabolomicsSponsors.png|Workflow4Metabolomics Sponsors|width="200"}}|&do=get,target="sponsorgraph"](ATTACHMENT_URLPublicGalaxyServers/Workflow4MetabolomicsSponsors.png)
 <br /><div class='center'>*Sponsors*</div> 
@@ -984,7 +981,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * See: Giacomoni F., Le Corguillé G., Monsoor M., Landi M., Pericard P., Pétéra M., Duperier C., Tremblay-Franco M., Martin J.-F., Jacob D., Goulitquer S., Thévenot E.A. and Caron C. (2014). [Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics](http://dx.doi.org/10.1093/bioinformatics/btu813). *Bioinformatics*, [doi: 10.1093/bioinformatics/btu813](http://dx.doi.org/10.1093/bioinformatics/btu813)
 * *User Support:*
   * [HowTo Tutorials](http://workflow4metabolomics.org/howto) 
-  * [support AT workflow4metabolomics DOT org](Help Desk)
+  * [mailto:support AT workflow4metabolomics DOT org](Help Desk)
 * *Quotas:* 
   * Account required.  Anyone can [request an account](http://abims.sb-roscoff.fr/account).
 * *Sponsor(s):*
@@ -994,11 +991,11 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 Tool publishing servers expose one or a few tools so that researchers can use the tools without having to install them locally or use command line.
 
-The distinction between [domain servers](#domain-servers) and tool publishing servers is fuzzy.  In general, tool publishing servers expose tools from a particular organization, while domain servers include tools / datasets from other organizations and have a larger goal in mind.
+The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domain-servers) and tool publishing servers is fuzzy.  In general, tool publishing servers expose tools from a particular organization, while domain servers include tools / datasets from other organizations and have a larger goal in mind.
 
 ## ABiMS Tools
 
-<div class='right solid'><a href='http://webtools.sb-roscoff.fr/'><img src='/PublicGalaxyServers/ABiMSToolsLogos.png' alt='ABiMS Tools Galaxy Server'  /></a></div>
+<div class='right solid'><a href='http://webtools.sb-roscoff.fr/'><img src="/src/PublicGalaxyServers/ABiMSToolsLogos.png" alt="ABiMS Tools Galaxy Server"  /></a></div>
 
 * *Link:*
   * [ABiMS Tools Server](http://webtools.sb-roscoff.fr/)
@@ -1011,15 +1008,14 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
     * [WiseScaffolder](http://abims.sb-roscoff.fr/wisescaffolder): genome scaffolding of pre-assembled contigs using mate-pair data.
     * [HECTAR](http://www.sb-roscoff.fr/hectar/): HEterokont subCellular TARgeting is a statistical prediction method designed to assign proteins to five different categories of subcellular targeting: Signal peptides, type II signal anchors, chloroplast transit peptides, mitochondrion transit peptides and proteins which do not possess any N-terminal target peptide.
 * *User support*: 
-  * For any question or request for tools or account, send an email at [support.abims@sb-roscoff.fr](ABiMS Support)
+  * For any question or request for tools or account, send an email at [mailto:support.abims@sb-roscoff.fr](ABiMS Support)
 * *Sponsor(s):*
   * [ABiMS](http://abims.sb-roscoff.fr/)
   * [Station Biologique de Roscoff](http://www.sb-roscoff.fr/) 
 
-
 ## AB-OpenLab
 
-<div class='right solid'><a href='http://ab-openlab.csir.res.in/frog/'><img src='/PublicGalaxyServers/FROG.png' alt='FingeRprinting Ontology of Genomic variations (FROG)'  /></a></div>
+<div class='right solid'><a href='http://ab-openlab.csir.res.in/frog/'><img src="/src/PublicGalaxyServers/FROG.png" alt="FingeRprinting Ontology of Genomic variations (FROG)"  /></a></div>
 
 * *Link:*
   * [FROG Server](http://ab-openlab.csir.res.in/frog/)
@@ -1038,7 +1034,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## AGEseq @ AspenDB
 
-<div class='right solid'><a href='http://aspendb.uga.edu/ageseq'><img src='/PublicGalaxyServers/AspenDB300.png' alt='AGEseq Galaxy @ AspenDB' width="300" /></a></div>
+<div class='right solid'><a href='http://aspendb.uga.edu/ageseq'><img src="/src/PublicGalaxyServers/AspenDB300.png" alt="AGEseq Galaxy @ AspenDB" width="300" /></a></div>
 
 * *Link:*
   * [AGEseq Galaxy @ AspenDB](http://aspendb.uga.edu/ageseq)
@@ -1051,16 +1047,16 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
   * AGEseq is also available from the [Galaxy Tool Shed](https://toolshed.g2.bx.psu.edu/) for installation into your local Galaxy instance.
   * Xue LJ and Tsai CJ (2015) AGEseq: Analysis of Genome Editing by Sequencing. *Molecular Plant.* doi:10.1016/j.molp.2015.06.001
 * *User Support:*
-  * Please email questions and suggestions to [lxue AT uga DOT edu](Liangjiao Xue).
+  * Please email questions and suggestions to [mailto:lxue AT uga DOT edu](Liangjiao Xue).
 * *Quotas:* 
+
    * 
 * *Sponsor(s):*
   * [Tsai Lab](http://aspendb.uga.edu/), [Warnell School of Forestry and Natural Resources](http://warnell.uga.edu/) and [Department of Genetics](http://www.genetics.uga.edu/), University of Georgia.
 
-
 ## APOSTL
 
-<div class='right solid'><a href='http://apostl.moffitt.org/'><img src='/PublicGalaxyServers/APOSTLlogo300.png' alt='Automated Processing of SAINT Templated Layouts' width="300" /></a></div>
+<div class='right solid'><a href='http://apostl.moffitt.org/'><img src="/src/PublicGalaxyServers/APOSTLlogo300.png" alt="Automated Processing of SAINT Templated Layouts" width="300" /></a></div>
 
 * *Link:*
   * [APOSTL Galaxy Server](http://apostl.moffitt.org/)
@@ -1075,17 +1071,17 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 * *User Support:*
   * [Quick Start guide](http://apostl.moffitt.org/)
 * *Quotas:* 
+
    * 
 * *Sponsor(s):*
   * APOSTL support is provided by the [Haura](http://labpages2.moffitt.org/haura) and [Rix](https://moffitt.org/research-science/researchers/uwe-rix/) labs at the [Moffitt Cancer Center](https://moffitt.org/):
-    * [bornea27@gmail.com](Adam Borne)
-    * [brent.kuenzi@moffitt.org](Brent Kuenzi) 
-    * [paul.stewart@moffitt.org](Paul Stewart PhD)
-
+    * [mailto:bornea27@gmail.com](Adam Borne)
+    * [mailto:brent.kuenzi@moffitt.org](Brent Kuenzi) 
+    * [mailto:paul.stewart@moffitt.org](Paul Stewart PhD)
 
 ## ARGs-OAP
 
-<div class='right solid'><a href='http://smile.hku.hk/SARGs'><img src='/PublicGalaxyServers/SARGs.png' alt='Structured ARG reference database Online Analysis Platform' width="300" /></a></div>
+<div class='right solid'><a href='http://smile.hku.hk/SARGs'><img src="/src/PublicGalaxyServers/ARGs-OAP.png" alt="Structured ARG reference database Online Analysis Platform" height="200" /></a></div>
 
 * *Link:*
   * [ARGs-OAP Galaxy Server](http://smile.hku.hk/SARGs)
@@ -1096,19 +1092,17 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
   * See [ARGs-OAP: online analysis pipeline for antibiotic resistance genes detection from metagenomic data using an integrated structured ARG-database](http://dx.doi.org/10.1093/bioinformatics/btw136), Ying Yang, Xiaotao Jiang, Benli Chai, Liping Ma, Bing Li, Anni Zhang, James R. Cole, James M. Tiedje, and Tong Zhang. *Bioinformatics* (2016) 32 (15): 2346-2351. doi: 10.1093/bioinformatics/btw136
   * Source code is available on [GitHub](https://github.com/biofuture/Ublastx_stageone).
 * *User Support:*
-   * 
+  * Please refer to the [manual page for ARGs-OAP](https://github.com/biofuture/Ublastx_stageone)
 * *Quotas:* 
-   * 
+  * Supports anonymous access and creation of user logins.
 * *Sponsor(s):*
   * Environmental Biotechnology Laboratory, [Department of Civil Engineering](https://www.civil.hku.hk/h4v3_2_study_here.html), [The University of Hong Kong](http://www.hku.hk/)
   * School of Marine Sciences, [Sun Yat-Sen University](http://www.sysu.edu.cn/), Guangzhou, China
   * [Department of Plant, Soil, and Microbial Sciences](http://www.psm.msu.edu/), [Michigan State University](http://www.msu.edu/)
 
-
-
 ## BioCiphers Lab Galaxy
 
-<div class='right solid'><a href='http://avispa.biociphers.org/galaxy/'><img src='/PublicGalaxyServers/BioCiphersLandingPage300.png' alt='BioCiphers Galaxy' width="300" /></a></div>
+<div class='right solid'><a href='http://avispa.biociphers.org/galaxy/'><img src="/src/PublicGalaxyServers/BioCiphersLandingPage300.png" alt="BioCiphers Galaxy" width="300" /></a></div>
 
 * *Link:*
   * [BioCiphers Galaxy](http://avispa.biociphers.org/)
@@ -1117,7 +1111,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 * *Comments:*
   * Includes the AVISPA alternative splicing prediction and analysis tool.  See Barash, *et al.,* "[AVISPA: a web tool for the prediction and analysis of alternative splicing](http://genomebiology.com/2013/14/10/R114)" *[Genome Biology](http://genomebiology.com/)* 2013, 14:R114; and Gazzara, *et al..* "[In silico to in vivo splicing analysis using splicing code models](http://dx.doi.org/10.1016/j.ymeth.2013.11.006)," *Methods* (2013)
 * *User Support:*
-  * Please report any problems with any of the tools or ask questions regarding their use to  [avispa AT biociphers DOT org](avispa AT biociphers DOT org) 
+  * Please report any problems with any of the tools or ask questions regarding their use to  [mailto:avispa AT biociphers DOT org](avispa AT biociphers DOT org) 
 * *Quotas:* 
   * Requires account creation with an educational email address.
 * *Sponsor(s):*
@@ -1125,7 +1119,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## BioMaS
 
-<div class='right solid'><a href='http://galaxy.cloud.ba.infn.it:8080/'><img src='/PublicGalaxyServers/BioMaSLogo.jpg' alt='BioMaS Galaxy' width="300" /></a></div>
+<div class='right solid'><a href='http://galaxy.cloud.ba.infn.it:8080/'><img src="/src/PublicGalaxyServers/BioMaSLogo.jpg" alt="BioMaS Galaxy" width="300" /></a></div>
 
 * *Link:*
   * [BioMaS Galaxy](http://galaxy.cloud.ba.infn.it:8080/)
@@ -1135,7 +1129,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
   * BioMaS (Bioinformatic analysis of Metagenomic AmpliconS) supports taxonomic studies of environmental microbial communities, "comprehensive of all the fundamental steps, from raw sequence data upload and cleaning to final taxonomic identification, that are absolutely required in an appropriately designed Meta-barcoding HTS-based experiment."  
   * See [BioMaS: a modular pipeline for Bioinformatic analysis of Metagenomic AmpliconS](http://bit.ly/1LOk2G2) by Bruno Fosso, Monica Santamaria, Marinella Marzano, Daniel Alonso-Alemany, Gabriel Valiente, Giacinto Donvito, Alfonso Monaco, Pasquale Notarangelo and Graziano Pesole, *BMC Bioinformatics* 2015, 16:203  doi:10.1186/s12859-015-0595-z 
 * *User Support:*
-  * Please email questions and suggestions to [bruno DOT fosso AT gmail.com](Bruno Fosso) and/or to [giacinto DOT donvito AT ba.infn.it](Giacinto Donvito).
+  * Please email questions and suggestions to [mailto:bruno DOT fosso AT gmail.com](Bruno Fosso) and/or to [mailto:giacinto DOT donvito AT ba.infn.it](Giacinto Donvito).
 
 * *Quotas:* 
   * Requires an account. Interested users may ask for the creation of a BioMaS account sending a request to recas@lists.ba.infn.it.
@@ -1143,10 +1137,9 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 * *Sponsor(s):*
   * [Istituto Nazionale di Fisica Nucleare](http://www.infn.it/)
 
-
 ## BISTRO
 
-<div class='right solid'><a href='http://galaxy.bioinfo-bistro.fr/galaxy/'><img src='/PublicGalaxyServers/Bistro.png' alt='BISTRO Galaxy' width="300" /></a></div>
+<div class='right solid'><a href='http://galaxy.bioinfo-bistro.fr/galaxy/'><img src="/src/PublicGalaxyServers/Bistro.png" alt="BISTRO Galaxy" width="300" /></a></div>
 
 * *Link:*
   * [BISTRO Galaxy](http://galaxy.bioinfo-bistro.fr/galaxy/)
@@ -1155,16 +1148,15 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 * *Comments:*
   * Publishes the [PipeAlign workflow](http://galaxy.bioinfo-bistro.fr/galaxy/u/kress/w/pipealign-2) and supporting tools.  These tools include ballast, RASCAL, LEON, and MACSIMS.
 * *User Support:*
-  * [akress@unistra.fr](Email support)
+  * [mailto:akress@unistra.fr](Email support)
 * *Quotas:* 
   * Supports anonymous access and creation of user logins. 
 * *Sponsor(s):*
   * This instance of Galaxy is managed by the [BISTRO platform](http://bioinfo-bistro.fr/bioinfo-bistro/). 
 
-
 ## Chemical Annotation Retrieval Toolkit (CART)
 
-<div class='right solid'><a href='http://cart.embl.de/'><img src='/PublicGalaxyServers/CART.png' alt='Chemical Annotation Retrieval Toolkit (CART) Galaxy' width="300" /></a></div>
+<div class='right solid'><a href='http://cart.embl.de/'><img src="/src/PublicGalaxyServers/CART.png" alt="Chemical Annotation Retrieval Toolkit (CART) Galaxy" width="300" /></a></div>
 
 * *Link:*
   * [Server](http://cart.embl.de/)
@@ -1181,10 +1173,9 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 * *Sponsor(s):*
   * [Structural and Computational Biology Unit](http://www.embl.de/research/units/scb/), [European Molecular Biology Laboratory](http://www.embl.de/index.php), Heidelberg, Germany
 
-
 ## CTMM-TraIT Demo Galaxy
 
-<div class='right solid'><a href='/CTMM-TraIT Demo Galaxy'><img src='/CTMM-TraIT.png' alt='CTMM-TraIT Demo Galaxy' width="300" /></a></div>
+<div class='right solid'><a href='/src/CTMM-TraIT Demo Galaxy/index.md'><img src="/src/PublicGalaxyServers/CTMM-TraIT.png" alt="CTMM-TraIT Demo Galaxy" width="300" /></a></div>
 
 * *Links:*
   * [CTMM-TraIT Demo Galaxy](http://galaxy-demo.ctmm-trait.nl/)
@@ -1196,7 +1187,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
     * [CGtag: Complete Genomics Analysis Toolkit and Annotation in Galaxy](http://galaxy.ctmm-trait.nl/u/saskia-hiltemann/p/cgtag)
     * [Virtual Normal Analysis](http://galaxy.ctmm-trait.nl/u/saskia-hiltemann/p/virtual-normal-analysis)
 * *User Support:*
-  * Please email questions to [s DOT hiltemann AT erasmusmc DOT nl](Saskia Hiltemann) 
+  * Please email questions to [mailto:s DOT hiltemann AT erasmusmc DOT nl](Saskia Hiltemann) 
 * *Quotas:* 
 * *Sponsor(s):*
   * This Galaxy Server was set up by the [Netherlands Bioinformatics Center (NBIC)](http://www.nbic.nl/) and is maintained by [CTMM-TraIT](http://ctmm-trait.nl/), running at [SurfSARA](http://www.surfsara.nl/) high-performance cloud. 
@@ -1205,7 +1196,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## deepTools2
 
-<div class='right solid'><a href='http://deeptools.ie-freiburg.mpg.de/'><img src='/deepTools.png' alt='deepTools Galaxy Server'  /></a></div>
+<div class='right solid'><a href='http://deeptools.ie-freiburg.mpg.de/'><img src="/src/PublicGalaxyServers/deepTools.png" alt="deepTools Galaxy Server"  /></a></div>
 
 * *Links:*
   * [deepTools2](http://deeptools.ie-freiburg.mpg.de/) server
@@ -1219,7 +1210,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 * *Comments:*
   * deepTools offers multiple methods for highly-customizable data visualization that immensely aid hypothesis generation and data interpretation. It also offers all the tools needed to create coverage files in standard bedGraph and bigWig file formats allowing various normalization procedures and comparisons between two files (for example, treatment and control).
 * *User Support:*
-  * [deeptools@googlegroups.com](Email)
+  * [mailto:deeptools@googlegroups.com](Email)
   * [deepTools wiki](https://github.com/fidelram/deepTools/wiki)
 * *Quotas:* 
   * 20 GB for unregistered users, 30 GB for registered users
@@ -1231,7 +1222,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## EpiToolKit
 
-<div class='right solid'><a href='http://www.epitoolkit.de/'><img src='/PublicGalaxyServers/EpiToolKit_moleculepeptide.png' alt='EpiToolKit Galaxy Server' height="200" /></a></div>
+<div class='right solid'><a href='http://www.epitoolkit.de/'><img src="/src/PublicGalaxyServers/EpiToolKit_moleculepeptide.png" alt="EpiToolKit Galaxy Server" height="200" /></a></div>
 
 * *Link:*
   * [EpiToolKit Galaxy](http://www.epitoolkit.de/)
@@ -1250,7 +1241,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## Halogen Bonding
 
-<div class='right solid'><a href='http://134.2.17.68:8081/'><img src='/PublicGalaxyServers/HalogenBonding.png' alt='Halogen Bonding Webserver' height="200" /></a></div>
+<div class='right solid'><a href='http://134.2.17.68:8081/'><img src="/src/PublicGalaxyServers/HalogenBonding.png" alt="Halogen Bonding Webserver" height="200" /></a></div>
 
 * *Link:*
   * [Halogen Bonding Galaxy Server](http://134.2.17.68:8081/)
@@ -1276,7 +1267,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## Huttenhower Lab
 
-<div class='right solid'><a href='http://huttenhower.sph.harvard.edu/galaxy/'><img src='/PublicGalaxyServers/HuttenhowerLab.png' alt='Huttenhower Lab' width="300" /></a></div>
+<div class='right solid'><a href='http://huttenhower.sph.harvard.edu/galaxy/'><img src="/src/PublicGalaxyServers/HuttenhowerLab.png" alt="Huttenhower Lab" width="300" /></a></div>
 
 * *Link:*
   * [Huttenhower Lab](http://huttenhower.sph.harvard.edu/galaxy/)
@@ -1299,7 +1290,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## IBERS @ Aberystwyth
 
-<div class='right solid'><a href='http://share-galaxy.ibers.aber.ac.uk/'><img src='/PublicGalaxyServers/IBERS.gif' alt='IBERS @ Aberystwyth Galaxy'  /></a></div>
+<div class='right solid'><a href='http://share-galaxy.ibers.aber.ac.uk/'><img src="/src/PublicGalaxyServers/IBERS.gif" alt="IBERS @ Aberystwyth Galaxy"  /></a></div>
 
 * *Link:*
   * [IBERS @ Aberystwyth Galaxy](http://share-galaxy.ibers.aber.ac.uk/)
@@ -1309,7 +1300,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
   * Implements the [DISMISS package](http://link.springer.com/article/10.1186/s12859-016-1158-7) for detection of stranded methylation in MeDIP-Seq data.
   * See [DISMISS: detection of stranded methylation in MeDIP-Seq data](http://link.springer.com/article/10.1186/s12859-016-1158-7), by Umar Niazi, Kathrin K. Geyer, Martin J. Vickers, Karl F. Hoffmann, Martin T. Swain, *BMC Bioinformatics* (2016) 17: 295. doi:10.1186/s12859-016-1158-7
 * *User Support:*
-  * For support please submit a bug report or contact [ibers-cs@aber.ac.uk](IBERS Support).
+  * For support please submit a bug report or contact [mailto:ibers-cs@aber.ac.uk](IBERS Support).
 * *Quotas:* 
   * Anonymous access is supported.  You can also create a login. 
 * *Sponsor(s):*
@@ -1318,7 +1309,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## In Silico Galaxy
 
-<div class='right solid'><a href='http://insilico.utulsa.edu/galaxy/'><img src='/Images/Logos/UTulsaLogo.png' alt='In Silico Galaxy' height="100" /></a></div>
+<div class='right solid'><a href='http://insilico.utulsa.edu/galaxy/'><img src="/src/Images/Logos/UTulsaLogo.png" alt="In Silico Galaxy" height="100" /></a></div>
 
 * *Link:*
   * [In Silico Galaxy](http://insilico.utulsa.edu/galaxy/) 
@@ -1336,7 +1327,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## Koslicki Lab
 
-<div class='right solid'><a href='http://math-galaxy.cgrb.oregonstate.edu:8080/'><img src='/Images/Logos/OregonStateU.jpg' alt='Koslicki Lab Server' height="200" /></a></div>
+<div class='right solid'><a href='http://math-galaxy.cgrb.oregonstate.edu:8080/'><img src="/src/Images/Logos/OregonStateU.jpg" alt="Koslicki Lab Server" height="200" /></a></div>
 
 * *Link:*
   * [Koslicki Lab Galaxy server](http://math-galaxy.cgrb.oregonstate.edu:8080/)
@@ -1352,7 +1343,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## kmer-SVM
 
-<div class='right solid'><a href='http://kmersvm.beerlab.org/'><img src='/PublicGalaxyServers/kmer-SVM.png' alt='kmer-SVM'  /></a></div>
+<div class='right solid'><a href='http://kmersvm.beerlab.org/'><img src="/src/PublicGalaxyServers/kmer-SVM.png" alt="kmer-SVM"  /></a></div>
 
 * *Link:*
   * [kmer-SVM server](http://kmersvm.beerlab.org/)
@@ -1363,15 +1354,14 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
   * The kmer-SVN server is described in "[kmer-SVM: a web server for identifying predictive regulatory sequence features in genomic data sets](http://nar.oxfordjournals.org/content/41/W1/W544.long)." Christopher Fletez-Brant; Dongwon Lee; [Andrew S. McCallion](http://www.hopkinsmedicine.org/geneticmedicine/people/faculty/mccallion.html); [Michael A. Beer](http://www.beerlab.org/) *[Nucleic Acids Research](http://nar.oxfordjournals.org/)* 2013; doi: 10.1093/nar/gkt519<br />
   * A [tutorial on using the web server](http://kmersvm.beerlab.org/tutorial/) and a [Galaxy Tool Shed repository](http://toolshed.g2.bx.psu.edu/view/cafletezbrant/kmersvm) are also available. 
 * *User Support:*
-  * [kmersvm DOT team AT gmail DOT com](Email)
+  * [mailto:kmersvm DOT team AT gmail DOT com](Email)
 * *Quotas:*   
 * *Sponsor(s):*
   * This project is a collaboration between Christopher Fletez-Brant and Dongown Lee respectively of the [McCallion Lab](http://www.hopkinsmedicine.org/geneticmedicine/people/faculty/mccallion.html) of the [McKusick-Nathans Institute of Genetic Medicine](https://igm.jhmi.edu/) at the Johns Hopkins University School of Medicine and the [Beer Lab](http://www.beerlab.org/) of the [Johns Hopkins University Department of Biomedical Engineering](http://www.bme.jhu.edu/).
 
-
 ## LiSIs
 
-<div class='right solid'><a href='http://lisis.cs.ucy.ac.cy/'><img src='/Images/Logos/LiSisLogo.png' alt='LiSIs' width="300px" /></a></div>
+<div class='right solid'><a href='http://lisis.cs.ucy.ac.cy/'><img src="/src/Images/Logos/LiSisLogo.png" alt="LiSIs" width="300px" /></a></div>
 
 * *Link:*
   * [LiSIs](http://lisis.cs.ucy.ac.cy/)
@@ -1391,10 +1381,9 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
   * The LiSIs platform is been developed and maintained by [e-Health Laboratory](http://www.medinfo.cs.ucy.ac.cy/).<br />
   * The LiSIs platform is hosted at the [Department of Computer Science, University of Cyprus](http://www.cs.ucy.ac.cy/).
 
-
 ## Majewski Lab
 
-<div class='right solid'><a href='http://genomequebec.mcgill.ca/exomeai'><img src='/PublicGalaxyServers/McGillGQIC.png' alt='Majewski Lab: ExomeAI' width="300px" /></a></div>
+<div class='right solid'><a href='http://genomequebec.mcgill.ca/exomeai'><img src="/src/PublicGalaxyServers/McGillGQIC.png" alt="Majewski Lab: ExomeAI" width="300px" /></a></div>
 
 * *Link:*
   * [Majewski Lab ExomeAI Server](http://genomequebec.mcgill.ca/exomeai)
@@ -1406,15 +1395,15 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 * *User Support:*
   * [Manual](http://bioinformatics.oxfordjournals.org/content/suppl/2014/10/07/btu665.DC1/suppl_data.zip)
-  * Email Support: [Javad DOT Nadaf AT gmail DOT com](Javad Nadaf) 
+  * Email Support: [mailto:Javad DOT Nadaf AT gmail DOT com](Javad Nadaf) 
 * *Quotas:* 
-  * An account is required to access the server.  Anyone can [Javad DOT Nadaf AT gmail DOT com](request an account via email).
+  * An account is required to access the server.  Anyone can [mailto:Javad DOT Nadaf AT gmail DOT com](request an account via email).
 * *Sponsor(s):*
   * The [McGill University and Génome Québec Innovation Centre](http://gqinnovationcenter.com/index.aspx)
 
 ## Martin Luther U. Halle-Wittenberg
 
-<div class='right solid'><a href='http://galaxy.informatik.uni-halle.de'><img src='/Images/Logos/MartinLutherU.png' alt='Martin Luther University Halle-Wittenberg' width="300px" /></a></div>
+<div class='right solid'><a href='http://galaxy.informatik.uni-halle.de'><img src="/src/Images/Logos/MartinLutherU.png" alt="Martin Luther University Halle-Wittenberg" width="300px" /></a></div>
 
 * *Link:*
   * [Martin Luther University Halle-Wittenberg](http://galaxy.informatik.uni-halle.de)
@@ -1428,14 +1417,14 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 * *Comments:*
   * These applications were developed by the groups of [Bioinformatics and Pattern Recognition](http://informatik.uni-halle.de/arbeitsgruppen/mustererkennung/?lang=en) and/or [Bioinformatics](http://informatik.uni-halle.de/arbeitsgruppen/bioinformatik/?lang=en) in collaboration with internal and external partners. 
 * *User Support:*
-  * [grau AT informatik DOT uni DASH halle DOT de](Email)
+  * [mailto:grau AT informatik DOT uni DASH halle DOT de](Email)
 * *Quotas:* 
 * *Sponsor(s):*
   * [Bioinformatics and Pattern Recognition](http://informatik.uni-halle.de/arbeitsgruppen/mustererkennung/?lang=en) and [Bioinformatics](http://informatik.uni-halle.de/arbeitsgruppen/bioinformatik/?lang=en)
 
 ## MBAC Metabiome Portal
 
-<div class='right solid'><a href='http://mbac.gmu.edu:8080/'><img src='/PublicGalaxyServers/MBACPortalLandingPage.png' alt='MBAC Metabiome Portal' width="300px" /></a></div>
+<div class='right solid'><a href='http://mbac.gmu.edu:8080/'><img src="/src/PublicGalaxyServers/MBACPortalLandingPage.png" alt="MBAC Metabiome Portal" width="300px" /></a></div>
 
 * *Link(s):*
   * [MBAC Metabiome Portal](http://mbac.gmu.edu:8080/)
@@ -1444,7 +1433,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 * *Comments:*
   * The Portal uses a relational database management system and distributed analytical resources and includes several tools such as sequence clustering, filtering sequencing artifacts, taxonomic analysis, and functional annotation. Users access the MBAC Metabiome Portal through a Galaxy based web browser to perform individual and group analysis and share their results. Programming support is also available to configure and run customized pipelines.
 * *User Support:*
-  * [pgilleve AT gmu DOT edu](Email)
+  * [mailto:pgilleve AT gmu DOT edu](Email)
 * *Quotas:* 
   * We have opened up the MBAC Metabiome Portal to unregistered users to share data and analysis tools. Computationally intensive tools are restricted to in house use. Anonymous users are restricted to a 50 mb disk quota.<br />
   * Anonymous users can view a demo of the [Metabiome Database here](http://mbac.gmu.edu/mbac/galaxy_frontpage/portal_example.html).
@@ -1454,7 +1443,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## MGEScan
 
-<div class='right solid'><a href='http://mgescan.readthedocs.org/en/latest/server.html'><img src='/PublicGalaxyServers/MGEScanVideoStart.png' alt='MGEScan on Galaxy Workflow System' width="300px" /></a></div>
+<div class='right solid'><a href='http://mgescan.readthedocs.org/en/latest/server.html'><img src="/src/PublicGalaxyServers/MGEScanVideoStart.png" alt="MGEScan on Galaxy Workflow System" width="300px" /></a></div>
 
 * *Link(s):*
   * [MGEScan on Galaxy Workflow System](http://mgescan.readthedocs.org/en/latest/server.html)
@@ -1474,7 +1463,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## MiModD NacreousMap
 
-<div class='right solid'><a href='http://mapping-by-sequencing.vm.uni-freiburg.de:8080/'><img src='/PublicGalaxyServers/Baumeister.png' alt='Baumeister Lab Galaxy featuring MiModD' width="300" /></a></div>
+<div class='right solid'><a href='http://mapping-by-sequencing.vm.uni-freiburg.de:8080/'><img src="/src/PublicGalaxyServers/Baumeister.png" alt="Baumeister Lab Galaxy featuring MiModD" width="300" /></a></div>
 
 * *Link:*
   * [MiModD NacreousMap](http://mapping-by-sequencing.vm.uni-freiburg.de:8080/)
@@ -1485,7 +1474,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
   * To install the complete MiModD package for use as a command line tool or for integration into any local Galaxy follow the [installation instructions](http://mimodd.readthedocs.org/en/latest/INSTALL.html) in the [MiModD User Guide](http://mimodd.readthedocs.org/en/latest/).
 * *User Support:*
   * [MiModD User Guide](http://mimodd.readthedocs.org/en/latest/index.html#)
-  * [mimodd@googlegroups.com](MiModD Google Group)
+  * [mailto:mimodd@googlegroups.com](MiModD Google Group)
 * *Quotas:* 
   * The quota for anonymous usage is 50MB, registered users have 250MB available.
   * You can analyze/plot data in VCF format or the "Per variant report" format generated by local runs of the MiModD !NacreousMap tool. The latter has the advantage of being up to 20 times smaller than the corresponding VCF file.
@@ -1494,7 +1483,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## MPI-HLR Bioinformatics Server
 
-<div class='right solid'><a href='https://bioinformatics.mpi-bn.mpg.de/'><img src='/MPI-HLRHomePage.png' alt='MPI-HLR Bioinformatics Server'  /></a></div>
+<div class='right solid'><a href='https://bioinformatics.mpi-bn.mpg.de/'><img src="/src/PublicGalaxyServers/MPI-HLRHomePage.png" alt="MPI-HLR Bioinformatics Server"  /></a></div>
 
 * *Link:*
   * [MPI-HLR Bioinformatics Server](https://bioinformatics.mpi-bn.mpg.de/)
@@ -1519,7 +1508,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## NGS-QC
 
-<div class='right solid'><a href='http://galaxy.ngs-qc.org/'><img src='/PublicGalaxyServers/NGS-QC_Generator.png' alt='Gronemeyer Lab Galaxy and NGS-QC Generator' /></a></div>
+<div class='right solid'><a href='http://galaxy.ngs-qc.org/'><img src="/src/PublicGalaxyServers/NGS-QC_Generator.png" alt="Gronemeyer Lab Galaxy and NGS-QC Generator" /></a></div>
 
 * *Link:*
   * [NGS-QC Galaxy](http://galaxy.ngs-qc.org/)
@@ -1530,16 +1519,15 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
     * [NGS-QC Generator: A Quality Control System for ChIP-Seq and Related Deep Sequencing-Generated Datasets](http://link.springer.com/protocol/10.1007/978-1-4939-3578-9_13) by Mendoza-Parra *et al.* in Statistical Genomics, Volume 1418 of the series Methods in Molecular Biology pp 243-265
     * [A quality control system for profiles obtained by ChIP sequencing](http://nar.oxfordjournals.org/content/early/2013/09/14/nar.gkt829) by Mendoza-Parra *et al.*, in *Nucl. Acids Res.* (2013)
 * *User Support:*
-  * [marco AT igbmc DOT fr](Marco Mendoza) or [mohameds AT igbmc DOT fr](Mohamed Ashick). 
+  * [mailto:marco AT igbmc DOT fr](Marco Mendoza) or [mailto:mohameds AT igbmc DOT fr](Mohamed Ashick). 
 * *Quotas:* 
   * Must have an account to use the server; anyone can create an account.  "Due to storage space constraints, uploaded datasets into the Galaxy instance may not be available for more than 24hours, thus we strongly suggest users to download their processed files as early as possible."
 * *Sponsor(s):*
   * Galaxy instance hosted by the [Gronemeyer lab](http://igbmc.fr/research/department/2/team/21/).
 
-
 ## ODoSE
 
-<div class='right solid'><a href='http://www.odose.nl/'><img src='/PublicGalaxyServers/ODoSEScatterplot.png' alt='ODoSE: Ortholog Direction of Selection Engine' /></a></div>
+<div class='right solid'><a href='http://www.odose.nl/'><img src="/src/PublicGalaxyServers/ODoSEScatterplot.png" alt="ODoSE: Ortholog Direction of Selection Engine" /></a></div>
 
 * *Link:*
   * [ODoSE: Ortholog Direction of Selection Engine](http://www.odose.nl/)
@@ -1556,7 +1544,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## Osiris
 
-<div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/osiris/'><img src='/PublicGalaxyServers/OsirisLogo.jpg' alt='Osiris' /></a></div>
+<div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/osiris/'><img src="/src/PublicGalaxyServers/OsirisLogo.jpg" alt="Osiris" /></a></div>
 
 * *Links:*
   * [Osiris Galaxy](http://galaxy-dev.cnsi.ucsb.edu/osiris/)
@@ -1574,10 +1562,9 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 * *Sponsor(s):*
   * [Oakley Lab](https://labs.eemb.ucsb.edu/oakley/todd/) at [UC Santa Barbara](http://www.ucsb.edu/)
 
-
 ## Palfinder
 
-<div class='right solid'><a href='https://palfinder.ls.manchester.ac.uk/'><img src='/PublicGalaxyServers/Palfinder.png' alt='Galaxy Palfinder Service' /></a></div>
+<div class='right solid'><a href='https://palfinder.ls.manchester.ac.uk/'><img src="/src/PublicGalaxyServers/Palfinder.png" alt="Galaxy Palfinder Service" /></a></div>
 
 * *Links:*
   * [Galaxy Palfinder Service](https://palfinder.ls.manchester.ac.uk/)
@@ -1588,7 +1575,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
   * See [A Galaxy-based bioinformatics pipeline for optimised, streamlined microsatellite development from Illumina next-generation sequencing data](https://doi.org/10.1007/s12686-016-0570-7), Griffiths, S.M., Fox, G., Briggs, P.J. *et al. Conservation Genetics Resources* (2016). doi:10.1007/s12686-016-0570-7
 * *User Support:*
   * [Galaxy Palfinder Service Manual](https://palfinder.ls.manchester.ac.uk/manual)
-  * [peter.briggs@manchester.ac.uk](Email)
+  * [mailto:peter.briggs@manchester.ac.uk](Email)
 * *Quotas:* 
   * Accounts have a quota of 20 GB.
   * Any data uploaded or generated are automatically deleted after 30 days (to prevent the build up of large volumes of data onto our servers long-term). Please ensure that you download all outputs that you wish to keep.
@@ -1597,7 +1584,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## PIA
 
-<div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/pia/'><img src='/PublicGalaxyServers/PiaImage.jpg' alt='PIA' /></a></div>
+<div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/pia/'><img src="/src/PublicGalaxyServers/PiaImage.jpg" alt="PIA" /></a></div>
 
 * *Links:*
   * [PIA Galaxy](http://galaxy-dev.cnsi.ucsb.edu/pia/)
@@ -1614,10 +1601,9 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 * *Sponsor(s):*
   * [Oakley Lab](https://labs.eemb.ucsb.edu/oakley/todd/) at [UC Santa Barbara](http://www.ucsb.edu/)
 
-
 ## PredPharmTox
 
-<div class='right solid'><a href='http://galaxy.predpharmtox.org/'><img src='/PredPharmTox300.png' alt='PredPharmTox' width="300" /></a></div>
+<div class='right solid'><a href='http://galaxy.predpharmtox.org/'><img src="/src/PublicGalaxyServers/PredPharmTox300.png" alt="PredPharmTox" width="300" /></a></div>
 
 * *Link:*
   * [PredPharmTox](http://galaxy.predpharmtox.org/)
@@ -1634,10 +1620,9 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 * *Sponsor(s):*
   * "This work was supported by the Swedish Research Council [VR-2011-6129]; and the Swedish Strategic Research Program eSSENCE."
 
-
 ## PreSTIGE
 
-<div class='right solid'><a href='http://prestige.case.edu/'><img src='/PreSTIGE.png' alt='PreSTIGE' width="300" /></a></div>
+<div class='right solid'><a href='http://prestige.case.edu/'><img src="/src/PublicGalaxyServers/PreSTIGE.png" alt="PreSTIGE" width="300" /></a></div>
 
 * *Link:*
   * [PreSTIGE](http://prestige.case.edu/)
@@ -1647,7 +1632,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
   * Users can generate predictions for any cell type of interest for which !H3K4me1 ChIP-seq and RNA-seq data are available.
   * See "[Combinatorial effects of multiple enhancer variants in linkage disequilibrium dictate levels of gene expression to confer susceptibility to common traits](http://genome.cshlp.org/content/early/2013/11/06/gr.164079.113.abstract)" by Corradin, *et al.*, *[Genome Research](http://genome.cshlp.org/)* (2013)
 * *User Support:*
-  * [PreSTIGE User Guide](http://genetics.case.edu/prestige/misc/Scacheri_PreSTIGE_User_Guide.pdf), [olivia DOT corradin AT case DOT edu](Email)
+  * [PreSTIGE User Guide](http://genetics.case.edu/prestige/misc/Scacheri_PreSTIGE_User_Guide.pdf), [mailto:olivia DOT corradin AT case DOT edu](Email)
 * *Quotas:* 
   * Available for academic use only
 * *Sponsor(s):*
@@ -1655,7 +1640,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## QBRC Galaxy and PIPE-CLIP
 
-<div class='right solid'><a href='http://www.galaxy.qbrc.org/'><img src='/PublicGalaxyServers/QBRCLogo.jpg' alt='QBRC Galaxy' width="300" /></a></div>
+<div class='right solid'><a href='http://www.galaxy.qbrc.org/'><img src="/src/PublicGalaxyServers/QBRCLogo.jpg" alt="QBRC Galaxy" width="300" /></a></div>
 
 * *Links:*
   * [QBRC Galaxy](http://www.galaxy.qbrc.org/) server
@@ -1681,7 +1666,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## RDF2Graph
 
-<div class='right solid'><a href='http://semantics.systemsbiology.nl/RDF2Graph/'><img src='/PublicGalaxyServers/RDF2Graph_reactome.png' alt='RDF2Graph using Reactome' width="300" /></a></div>
+<div class='right solid'><a href='http://semantics.systemsbiology.nl/RDF2Graph/'><img src="/src/PublicGalaxyServers/RDF2Graph_reactome.png" alt="RDF2Graph using Reactome" width="300" /></a></div>
 
 * *Link:*
   * [RDF2Graph Server](http://semantics.systemsbiology.nl/RDF2Graph/)
@@ -1700,7 +1685,7 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 
 ## ARG-OAP
 
-<div class='right solid'><a href='http://smile.hku.hk/SARGs'><img src='/PublicGalaxyServers/SARGs.png' alt='Structured ARG reference database Online Analysis Platform' width="300" /></a></div>
+<div class='right solid'><a href='http://smile.hku.hk/SARGs'><img src="/src/PublicGalaxyServers/SARGs.png" alt="Structured ARG reference database Online Analysis Platform" width="300" /></a></div>
 
 * *Link:*
   * [ARG-OAP Galaxy Server](http://smile.hku.hk/SARGs)
@@ -1709,11 +1694,14 @@ The distinction between [domain servers](#domain-servers) and tool publishing se
 * *Comments:*
   * Integrated "ARDB and CARD, the two most commonly used databases. SARG was curated to remove redundant sequences and optimized to facilitate query sequence identification by similarity. A database with a hierarchical structure (type-subtype-reference sequence) was then constructed to facilitate classification (assigning ARG-like sequence to type, subtype and reference sequence) of sequences identified through similarity search." The server utilizes the SARG DB and a hybrid functional gene annotation pipeline to do fast annotation and classification of ARG-like sequences from metagenomic data.
   * See [ARGs-OAP: online analysis pipeline for antibiotic resistance genes detection from metagenomic data using an integrated structured ARG-database](http://dx.doi.org/10.1093/bioinformatics/btw136), Ying Yang, Xiaotao Jiang, Benli Chai, Liping Ma, Bing Li, Anni Zhang, James R. Cole, James M. Tiedje,* and Tong Zhang. *Bioinformatics* (2016) 32 (15): 2346-2351.
+
 doi: 10.1093/bioinformatics/btw136
 * Source code is available on [GitHub](https://github.com/biofuture/Ublastx_stageone).
 * *User Support:*
+
    * 
 * *Quotas:* 
+
    * 
 * *Sponsor(s):*
   * Environmental Biotechnology Laboratory, [Department of Civil Engineering](https://www.civil.hku.hk/h4v3_2_study_here.html), [The University of Hong Kong](http://www.hku.hk/)
@@ -1722,7 +1710,7 @@ doi: 10.1093/bioinformatics/btw136
 
 ## SIFTED
 
-<div class='right solid'><a href='http://thebrain.bwh.harvard.edu/sifted.html'><img src='/PublicGalaxyServers/SIFTEDLandingPage.png' alt='SIFTED'  /></a></div>
+<div class='right solid'><a href='http://thebrain.bwh.harvard.edu/sifted.html'><img src="/src/PublicGalaxyServers/SIFTEDLandingPage.png" alt="SIFTED"  /></a></div>
 
 * *Link:*
   * [SIFTED Galaxy Server](http://thebrain.bwh.harvard.edu/sifted.html)
@@ -1740,7 +1728,7 @@ doi: 10.1093/bioinformatics/btw136
 
 ## SymD
 
-<div class='right solid'><a href='http://symd.nci.nih.gov/'><img src='/PublicGalaxyServers/SymD.png' alt='SymD'  /></a></div>
+<div class='right solid'><a href='http://symd.nci.nih.gov/'><img src="/src/PublicGalaxyServers/SymD.png" alt="SymD"  /></a></div>
 
 * *Links:*
   * [SymD server](http://symd.nci.nih.gov/)
@@ -1753,14 +1741,14 @@ doi: 10.1093/bioinformatics/btw136
 * *User Support:*
   * [Instructions](http://symd.nci.nih.gov/static/Interface_help/Interface_help.html)
   * [Example Run](http://symd.nci.nih.gov/static/example_run/GalaxySymD.html)
-  * [taic@mail.nih.gov](Email support)
+  * [mailto:taic@mail.nih.gov](Email support)
 * *Quotas:* 
 * *Sponsor(s):*
   * [US National Cancer Institute (NCI)](http://nci.nih.gov/)
 
 ## VarCap
 
-<div class='right solid'><a href='http://galaxy.csb.univie.ac.at:8080/'><img src='/PublicGalaxyServers/VarCapWorkflow.png' alt='VarCap'  /></a></div>
+<div class='right solid'><a href='http://galaxy.csb.univie.ac.at:8080/'><img src="/src/PublicGalaxyServers/VarCapWorkflow.png" alt="VarCap"  /></a></div>
 
 * *Links:*
   * [VarCap Galaxy](http://galaxy.csb.univie.ac.at:8080/)
@@ -1775,10 +1763,9 @@ doi: 10.1093/bioinformatics/btw136
 * *Sponsor(s):*
   * [Department of Microbiology and Ecosystems Science](http://dmes.univie.ac.at/), [University of Vienna](http://univie.ac.at/)
 
-
 ## Vinther Lab
 
-<div class='right solid'><a href='http://galaxy.bio.ku.dk/'><img src='/PublicGalaxyServers/VintherLab300.png' alt='Vinther Lab: User-Friendly Tools for Sequencing-Based RNA Structure Probing Data'  /></a></div>
+<div class='right solid'><a href='http://galaxy.bio.ku.dk/'><img src="/src/PublicGalaxyServers/VintherLab300.png" alt="Vinther Lab: User-Friendly Tools for Sequencing-Based RNA Structure Probing Data"  /></a></div>
 
 * *Links:*
   * [Vinther Lab server](http://galaxy.bio.ku.dk/)
@@ -1795,10 +1782,9 @@ doi: 10.1093/bioinformatics/btw136
   * [Vinther Lab](http://www1.bio.ku.dk/english/research/bi/rna_biologi/vinther/), [Department of Biology](http://cms.ku.dk/nat-sites/bio-sites/bio/english/), [University of Copenhagen](http://www.ku.dk/english/).
   * [Danish Council for Strategic Research](http://ufm.dk/en/research-and-innovation/councils-and-commissions/the-danish-council-for-strategic-research/the-danish-council-for-strategic-research) [Center for Computational and Applied Transcriptomics](http://rna.dk/)
 
-
 ## Wageningen UR
 
-<div class='right solid'><a href='http://galaxy.wur.nl/'><img src='/PublicGalaxyServers/Wageningen.png' alt='Wageningen UR Galaxy' height="225" /></a></div>
+<div class='right solid'><a href='http://galaxy.wur.nl/'><img src="/src/PublicGalaxyServers/Wageningen.png" alt="Wageningen UR Galaxy" height="225" /></a></div>
 
 * *Link:*
   * [Wageningen UR Galaxy](http://galaxy.wur.nl/)
@@ -1809,7 +1795,7 @@ doi: 10.1093/bioinformatics/btw136
   * Also links to [Plant Research International ChIP-seq Analysis Tool (PRI-CAT)](http://www.ab.wur.nl/pricat/#Galaxy). 
 * *User Support:*
   * Email support on voluntary basis. Extra support could be negotiated.
-  * Admins: [eric.kuijt@wur.nl](Eric Kuijt), [alex.bossers@wur.nl](Alex Bossers), and [pieter.lukasse@wur.nl](Pieter Lukasse).
+  * Admins: [mailto:eric.kuijt@wur.nl](Eric Kuijt), [mailto:alex.bossers@wur.nl](Alex Bossers), and [mailto:pieter.lukasse@wur.nl](Pieter Lukasse).
 * *Quotas:* 
   * Requires login, anyone can create a login.
 * *Sponsor(s):*
@@ -1819,7 +1805,7 @@ doi: 10.1093/bioinformatics/btw136
 
 ## ZBIT Bioinformatics Toolbox
 
-<div class='right solid'><a href='http://webservices.cs.uni-tuebingen.de/'><img src='/ZBIT.png' alt='ZBIT Bioinformatics Toolbox'  /></a></div>
+<div class='right solid'><a href='http://webservices.cs.uni-tuebingen.de/'><img src="/src/PublicGalaxyServers/ZBIT.png" alt="ZBIT Bioinformatics Toolbox"  /></a></div>
 
 * *Links:*
   * [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de/)
@@ -1844,18 +1830,22 @@ doi: 10.1093/bioinformatics/btw136
 # Public ToolSheds
 
 ## Galaxy Main Tool Shed
+
 Sits at [http://toolshed.g2.bx.psu.edu/](http://toolshed.g2.bx.psu.edu/), is supported by the Galaxy Team, and is the main Tool Shed of choice.
 
 ## Galaxy Test ToolShed
+
 Test Tool Shed is made for breaking. If you have some tools you want to try out first before making them public in the Main Tool Shed this is the place to go. Test Tool Shed is at [http://testtoolshed.g2.bx.psu.edu/](http://testtoolshed.g2.bx.psu.edu/).
 
 ## Galaxy@PRABI Tool Shed
-<div class='right'><a href='http://toolshed.prabi.fr/'><img src='/Images/Logos/PRABILogo.png' alt='Galaxy@PRABI' width="150" /></a></div>
 
-[Tool Shed](http://toolshed.prabi.fr/) backing the [Galaxy@PRABI server](#galaxyprabi).  DEfines bioinformatics tools developed by the research teams working in the perimeter of the PRABI core facility, including *kissplice/kissDE, TETools, !SexDetector,* and *priam*.
+<div class='right'><a href='http://toolshed.prabi.fr/'><img src="/src/Images/Logos/PRABILogo.png" alt="Galaxy@PRABI" width="150" /></a></div>
+
+[Tool Shed](http://toolshed.prabi.fr/) backing the [Galaxy@PRABI server](/src/PublicGalaxyServers/index.md#galaxyprabi).  DEfines bioinformatics tools developed by the research teams working in the perimeter of the PRABI core facility, including *kissplice/kissDE, TETools, !SexDetector,* and *priam*.
 
 ## DTL ToolShed
-<div class='left'><a href='http://toolshed.nbic.nl/'><img src='/Images/Logos/DTLLogo.png' alt='DTL ToolShed' width="150" /></a></div>
+
+<div class='left'><a href='http://toolshed.nbic.nl/'><img src="/src/Images/Logos/DTLLogo.png" alt="DTL ToolShed" width="150" /></a></div>
 
 The [Dutch Techcentre for Life Sciences (DTL)](http://www.dtls.nl/dtl/) has made its [Galaxy ToolShed](http://toolshed.nbic.nl/) publicly available.  The [DTL ToolShed](http://toolshed.nbic.nl/) has almost 70 tools in it, from [ANNOVAR](http://toolshed.nbic.nl/view/saskia-hiltemann/annovar) to [VCF-2-VariantList](http://toolshed.nbic.nl/view/saskia-hiltemann/virtual_normal_preprocessing).  This ToolShed was originally started at NBIC.
 
@@ -1866,4 +1856,4 @@ The [GUGGO](https://www.e-biogenouest.org/groups/guggo) public ToolShed contains
 
 
 
-If you have or know of a public server that is not listed here please add it, or send its information to [outreach@galaxyproject.org](Galaxy Outreach).
+If you have or know of a public server that is not listed here please add it, or send its information to [mailto:outreach@galaxyproject.org](Galaxy Outreach).

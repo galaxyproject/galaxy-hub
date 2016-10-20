@@ -1,9 +1,9 @@
 ---
 autotoc: true
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 
 # Talk Abstracts
 
@@ -13,7 +13,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 ### Transcriptomes and Exomes: Computational Challenges of NGS Data
 
-<div class='right'><a href='http://ccb.jhu.edu/people/salzberg/'><img src='/Events/GCC2014/Abstracts/Salzberg.jpg' alt='Steven Salzberg' width="120" /></a></div>
+<div class='right'><a href='http://ccb.jhu.edu/people/salzberg/'><img src="/src/Events/GCC2014/Abstracts/Salzberg.jpg" alt="Steven Salzberg" width="120" /></a></div>
 
 **[Steven Salzberg](http://ccb.jhu.edu/people/salzberg/)<sup>1</sup>**
 
@@ -25,7 +25,7 @@ PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
 
 ### The Galaxy framework as a unifying bioinformatics solution for multi-omic data analysis
 
-<div class='right'><a href='http://www.umn.edu/lookup?SET_INSTITUTION=UMNTC&UID=pjagtap'><img src='/Events/GCC2014/Abstracts/PratikJagtap.jpg' alt='PratikJagtap' width="100" /></a></div>
+<div class='right'><a href='http://www.umn.edu/lookup?SET_INSTITUTION=UMNTC&UID=pjagtap'><img src="/src/Events/GCC2014/Abstracts/PratikJagtap.jpg" alt="PratikJagtap" width="100" /></a></div>
 
 **[Pratik D. Jagtap](http://www.umn.edu/lookup?SET_INSTITUTION=UMNTC&UID=pjagtap)<sup>1,3</sup>**, [James Johnson](https://www.msi.umn.edu/users/jj)<sup>2</sup>, [Getiria Onsongo](https://www.msi.umn.edu/users/onson001)<sup>2</sup>, [Bart Gottschalk](https://www.msi.umn.edu/users/bgottsch)<sup>2</sup>, [Timothy J. Griffin](http://www.cbs.umn.edu/explore/departments/bmbb/contacts/timothy-j-griffin)<sup>1,3</sup>
 
@@ -49,7 +49,7 @@ We demonstrate the use of Galaxy for integrated analysis of multi-omic data, in 
 
 ### iReport: HTML Reporting in Galaxy
 
-<div class='right'><a href='http://www.researchgate.net/profile/Saskia_Hiltemann/'><img src='/Events/GCC2014/Abstracts/SaskiaHiltemann.jpg' alt='Saskia Hiltemann' width="100" /></a></div>
+<div class='right'><a href='http://www.researchgate.net/profile/Saskia_Hiltemann/'><img src="/src/Events/GCC2014/Abstracts/SaskiaHiltemann.jpg" alt="Saskia Hiltemann" width="100" /></a></div>
 
 **Saskia Hiltemann<sup>1</sup>**, Youri Hoogstrate<sup>1</sup>, Hailiang Mei<sup>2</sup>, Guido Jenster<sup>1</sup>, Andrew Stubbs<sup>1</sup>
 
@@ -121,7 +121,7 @@ Reference
 
 ### Enabling Dynamic Science with Flexible Infrastructure
 
-<div class='right'><a href='http://bioteam.net/company-leadership/'><img src='/Events/GCC2014/Abstracts/AnushkaBrownley.jpg' alt='Anushka Brownley' width="100" /></a> <a href='http://bioteam.net/company-leadership/'><img src='/Events/GCC2014/Abstracts/AaronGardner.jpg' alt='Aaron Gardner' width="100" /></a></div>
+<div class='right'><a href='http://bioteam.net/company-leadership/'><img src="/src/Events/GCC2014/Abstracts/AnushkaBrownley.jpg" alt="Anushka Brownley" width="100" /></a> <a href='http://bioteam.net/company-leadership/'><img src="/src/Events/GCC2014/Abstracts/AaronGardner.jpg" alt="Aaron Gardner" width="100" /></a></div>
 
 **[Anushka Brownley](http://bioteam.net/company-leadership/)<sup>1</sup>, [Aaron Gardner](http://bioteam.net/company-leadership/)<sup>1</sup>**
 
@@ -137,7 +137,7 @@ As a trusted industry leader in designing and implementing effective scientific 
 
 ### State of the Galaxy
 
-<div class='right'>![](/GalaxyTeam/anton.jpg)&nbsp;![](/src/GalaxyTeam/james.jpg)</div>
+<div class='right'>![](/src/GalaxyTeam/anton.jpg)&nbsp;![](/src/GalaxyTeam/james.jpg)</div>
 
 **[Anton Nekrutenko](/src/anton/index.md)<sup>1</sup> and [James Taylor](/src/JamesTaylor/index.md)<sup>2</sup>**
 
@@ -152,7 +152,7 @@ An overview of where the Galaxy Project is and where it is going.
 
 ### Update on Ion Torrent Sequencing – Accurate, Long Reads
 
-<div class='right'>![](/MikeLelivelt/pic.png)</div>
+<div class='right'>![](/src/MikeLelivelt/pic.png)</div>
 
 **[Mike Lelivelt](/src/MikeLelivelt/index.md)**<sup>1</sup>
 
@@ -186,7 +186,7 @@ Here we'll examine the various components and steps that comprise this process. 
 
 ### Integrating the NCBI BLAST+ suite into Galaxy
 
-<div class='right'><a href='http://www.hutton.ac.uk/staff/peter-cock'><img src='/Events/GCC2014/Abstracts/PeterCock.jpg' alt='Peter Cock' width="100" /></a></div>
+<div class='right'><a href='http://www.hutton.ac.uk/staff/peter-cock'><img src="/src/Events/GCC2014/Abstracts/PeterCock.jpg" alt="Peter Cock" width="100" /></a></div>
 
 **[Peter Cock](http://www.hutton.ac.uk/staff/peter-cock)<sup>1</sup>,** [John Chilton](/src/JohnChilton/index.md)<sup>2</sup>, [Björn Grüning](https://github.com/bgruening)<sup>3</sup>, [Jim Johnson](https://github.com/jj-umn)<sup>4</sup>, [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo)<sup>5</sup>
 
@@ -213,7 +213,7 @@ Finally, an overview of how BLAST is setup on the Galaxy Instances we maintain w
 
 ### deepTools: a flexible platform for exploring deep-sequencing data
 
-<div class='right'><a href='https://github.com/bgruening'><img src='/Events/GCC2012/Abstracts/Gruening.png' alt='Björn Grüning' /></a></div>
+<div class='right'><a href='https://github.com/bgruening'><img src="/src/Events/GCC2012/Abstracts/Gruening.png" alt="Björn Grüning" /></a></div>
 
 [Fidel Ramírez](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=27168)<sup>1</sup>, [Friederike Dündar](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=27397)<sup>1,2</sup>, [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993)<sup>1</sup>, **[Björn A. Grüning](http://www.bioinf.uni-freiburg.de//team.html?en)<sup>3</sup>**, and [Thomas Manke](http://www.ie-freiburg.mpg.de/1896591)<sup>1</sup>
 
@@ -250,7 +250,7 @@ In this talk, we’ll very briefly describe our Galaxy Hackathon goals and provi
 
 ### More Options, Less Time: Streamlining Access to Reference Datasets
 
-<div class='right'><a href='/Dan'><img src='/GalaxyTeam/dan.jpg' alt='Dan Blenkenberg' width="120" /></a></div>
+<div class='right'><a href='/src/Dan/index.md'><img src="/src/GalaxyTeam/dan.jpg" alt="Dan Blenkenberg" width="120" /></a></div>
 
 **[Daniel Blankenberg](/src/Dan/index.md)<sup>1</sup>** and the [Galaxy Team](/src/GalaxyTeam/index.md)<sup>2</sup>
 
@@ -269,7 +269,7 @@ Here, we describe a new set of resources that aim to rectify this situation. The
 
 ### Building More Powerful Galaxy Workflows with Dataset Collections
 
-<div class='right'><a href='/JohnChilton'><img src='/GalaxyTeam/JohnChiltonSmaller.jpg' alt='John Chilton' width="120" /></a></div>
+<div class='right'><a href='/src/JohnChilton/index.md'><img src="/src/GalaxyTeam/JohnChiltonSmaller.jpg" alt="John Chilton" width="120" /></a></div>
 
 **[John Chilton](/src/JohnChilton/index.md)<sup>1</sup>** and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
@@ -287,7 +287,7 @@ Dataset collections are a powerful new feature that greatly enhance the expressi
 
 ### An Appliance for Life Science Research: Isilon, Penguin and Galaxy
 
-<div class='right'><a href='http://www.linkedin.com/pub/patrick-combes/1/a6/111'><img src='/Events/GCC2014/Abstracts/PatrickCombes.jpg' alt='Patrick Combes' height="100" /></a></div>
+<div class='right'><a href='http://www.linkedin.com/pub/patrick-combes/1/a6/111'><img src="/src/Events/GCC2014/Abstracts/PatrickCombes.jpg" alt="Patrick Combes" height="100" /></a></div>
 
 **[Patrick Combes](http://www.linkedin.com/pub/patrick-combes/1/a6/111)<sup>1</sup>**
 
@@ -304,7 +304,7 @@ Dataset collections are a powerful new feature that greatly enhance the expressi
 
 ### Lab Specimen Tracking with Galaxy
 
-<div class='right'><a href='/Marten'><img src='/GalaxyTeam/marten.jpg' alt='Martin Čech' width="120" /></a></div>
+<div class='right'><a href='/src/Marten/index.md'><img src="/src/GalaxyTeam/marten.jpg" alt="Martin Čech" width="120" /></a></div>
 
 **[Martin Čech](/src/Marten/index.md)<sup>1</sup>**, [Pavel Švéda](http://www.linkedin.com/in/pavelsveda)<sup>1</sup>, [Ondřej Fabián](https://www.linkedin.com/pub/ondrej-fabian/33/6a5/1b8)<sup>1</sup> and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
@@ -318,7 +318,7 @@ No experiment begins with sequencing. Instead it commences with a collection of 
 
 ### The Munich NGS-FabLab for medical sequence data
 
-<div class='right'><a href='http://www.ibe.med.uni-muenchen.de/organisation/mitarbeiter/070_drittmittel/schaaf/'><img src='/Events/GCC2014/Abstracts/SebastianSchaaf.jpg' alt='Sebastian Schaaf' width="95" /></a></div>
+<div class='right'><a href='http://www.ibe.med.uni-muenchen.de/organisation/mitarbeiter/070_drittmittel/schaaf/'><img src="/src/Events/GCC2014/Abstracts/SebastianSchaaf.jpg" alt="Sebastian Schaaf" width="95" /></a></div>
 
 **[Sebastian Schaaf](http://www.ibe.med.uni-muenchen.de/organisation/mitarbeiter/070_drittmittel/schaaf/)<sup>1,2</sup>,** Aarif Mohamed Nazeer Batcha<sup>2</sup>, Sandra Fischer<sup>2</sup>, Guokun Zhang<sup>2</sup>, [Ulrich Mansmann](http://www.ibe.med.uni-muenchen.de/organisation/mitarbeiter/020_professuren/mansmann/index.html)<sup>1,2</sup>
 
@@ -338,8 +338,8 @@ This talk is about the experiences of nearly three years of getting from blank t
 
 ### Galaxydx - A Web-server dedicated to diagnosis data analysis
 
-<div class='right'><a href='http://fr.linkedin.com/pub/vivien-deshaies/36/9b1/831'><img src='/Events/GCC2014/Abstracts/VivienDeshaies.jpg' alt='Vivien Deshaies'  /></a> 
-<a href='http://u900.curie.fr/en/profile/alban-lermine-00587'><img src='/Events/GCC2014/Abstracts/AlbanLermine.jpg' alt='Alban Lermine' height="100" /></a></div>
+<div class='right'><a href='http://fr.linkedin.com/pub/vivien-deshaies/36/9b1/831'><img src="/src/Events/GCC2014/Abstracts/VivienDeshaies.jpg" alt="Vivien Deshaies"  /></a> 
+<a href='http://u900.curie.fr/en/profile/alban-lermine-00587'><img src="/src/Events/GCC2014/Abstracts/AlbanLermine.jpg" alt="Alban Lermine" height="100" /></a></div>
 
 **[Vivien DESHAIES](http://fr.linkedin.com/pub/vivien-deshaies/36/9b1/831)<sup>1,2,3</sup>, [Alban LERMINE](http://u900.curie.fr/en/profile/alban-lermine-00587)<sup>1,2,3</sup>**, [Séverine LAIR](http://u900.curie.fr/en/profile/severine-lair-00433)<sup>1,2,3</sup> , [Nicolas SERVANT](http://u900.curie.fr/en/profile/nicolas-servant-00440)<sup>1,2,3</sup>, [Elodie GIRARD](http://fr.linkedin.com/pub/elodie-girard/28/14b/984)<sup>1,2,3</sup>, Julien TARABEUX<sup>4,5</sup>, [Philippe HUPE](http://fr.linkedin.com/pub/philippe-hup%C3%A9/58/88/b11)<sup>1,2,3</sup>, [Claude HOUDAYER](http://u830.curie.fr/fr/profile/claude-houdayer-001011)<sup>4,5</sup>, [Emmanuel BARILLOT](http://curie.fr/en/profile/barillot-002973)<sup>1,2,3</sup>
 
@@ -399,7 +399,7 @@ GI UV scales to truly extraordinary levels – today up to 2,560 physical cores 
 
 ### Building a virtual research environment with Galaxy
 
-<div class='right'><a href='https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Olivier-Inizan'><img src='/Events/GCC2014/Abstracts/OlivierInizan.png' alt='Olivier Inizan' width="100" /></a> <a href='https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Mikael-Loaec'><img src='/Events/GCC2014/Abstracts/MikaelLoaec.png' alt='Mikael Loaec' width="100" /></a></div>
+<div class='right'><a href='https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Olivier-Inizan'><img src="/src/Events/GCC2014/Abstracts/OlivierInizan.png" alt="Olivier Inizan" width="100" /></a> <a href='https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Mikael-Loaec'><img src="/src/Events/GCC2014/Abstracts/MikaelLoaec.png" alt="Mikael Loaec" width="100" /></a></div>
 
 **[Olivier Inizan](https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Olivier-Inizan)<sup>1</sup>, [Mikael Loaec](https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Mikael-Loaec)<sup>1</sup>**, [Eric Rasche](https://www.biostars.org/u/5504/)<sup>2</sup>, [Hadi Quesneville](https://urgi.versailles.inra.fr/About-us/Team/Management-staff/Hadi-Quesneville)<sup>1</sup>
 
@@ -420,7 +420,7 @@ Here we describe our progress towards an automation process for the deployment o
 
 ### The Australian Genomics Virtual Laboratory
 
-<div class='right'><a href='http://www.msi.unimelb.edu.au/people/andrew-lonie/'><img src='/Events/GCC2014/Abstracts/AndrewLonie.jpg' alt='Andrew Lonie' width="110" /></a></div>
+<div class='right'><a href='http://www.msi.unimelb.edu.au/people/andrew-lonie/'><img src="/src/Events/GCC2014/Abstracts/AndrewLonie.jpg" alt="Andrew Lonie" width="110" /></a></div>
 
 **[Andrew Lonie](http://www.msi.unimelb.edu.au/people/andrew-lonie/)<sup>1</sup>**, [Enis Afgan](/src/EnisAfgan/index.md)<sup>2,3</sup>, [Ron Horst](http://au.linkedin.com/pub/ron-horst/0/9a2/550)<sup>4</sup>, [Simon Gladman](http://www.vlsci.org.au/researcher/sgladman)<sup>5</sup>, [Clare Sloggett](http://www.vlsci.org.au/researcher/csloggett)<sup>1</sup>, [Nuwan Goonasekera](http://www.vlsci.org.au/researcher/ngoonasekera)<sup>1</sup>, Igor Manukin<sup>4</sup>, [Yousef Kowsar](http://www.vlsci.org.au/researcher/ykowsar)<sup>4</sup>
 
@@ -441,7 +441,7 @@ This talk will discuss the technical and practical lessons learned during the de
 
 ### Galaxy on the GenomeCloud : Yet another on-demand Galaxy cloud, but only powered by Apache CloudStack
 
-<div class='right'><a href='https://www.linkedin.com/in/youngkikim'><img src='/Events/GCC2014/Abstracts/YoungkiKim.jpg' alt='Youngki Kim' width="100" /></a></div>
+<div class='right'><a href='https://www.linkedin.com/in/youngkikim'><img src="/src/Events/GCC2014/Abstracts/YoungkiKim.jpg" alt="Youngki Kim" width="100" /></a></div>
 
 **[Youngki Kim](https://www.linkedin.com/in/youngkikim)<sup>1</sup>**, CB Hong<sup>1</sup>, Kjoong Kim<sup>1</sup>, Daechul Choi<sup>1</sup>
 
@@ -463,7 +463,7 @@ This talk will be about our experiences while integrating Galaxy with !GenomeClo
 
 ### Test-driven Evaluation of Galaxy Scalability on the Cloud
 
-<div class='right'><a href='http://www.vlsci.org.au/researcher/ngoonasekera'><img src='/GalaxyTeam/nuwan.jpg' alt='Nuwan Goonasekera' width="120" /></a></div>
+<div class='right'><a href='http://www.vlsci.org.au/researcher/ngoonasekera'><img src="/src/GalaxyTeam/nuwan.jpg" alt="Nuwan Goonasekera" width="120" /></a></div>
 
 [Enis Afgan](/src/EnisAfgan/index.md)<sup>1,2</sup>, Derek Benson<sup>3</sup>, and **[Nuwan Goonasekera](http://www.vlsci.org.au/researcher/ngoonasekera)<sup>1</sup>** 
 
@@ -489,7 +489,7 @@ Data and results collected to obtain above conclusions will be made publicly ava
 
 ### Bioinformatics on AWS: New and Noteworthy Features
 
-<div class='right'><a href='https://www.linkedin.com/in/angelpizarro'><img src='/Events/GCC2014/Abstracts/AngelPizarro.png' alt='Angel Pizaro' width="100" /></a></div>
+<div class='right'><a href='https://www.linkedin.com/in/angelpizarro'><img src="/src/Events/GCC2014/Abstracts/AngelPizarro.png" alt="Angel Pizaro" width="100" /></a></div>
 
 **[Angel Pizarro](https://www.linkedin.com/in/angelpizarro)<sup>1</sup>**
 

@@ -1,8 +1,8 @@
 ---
-title: SADI, -, Galaxy Container
+title: SADI-Galaxy Container
 ---
 <div class='center'>
-<a href='https://mikeleganaaranguren.wordpress.com/2015/01/07/docker-image-for-sadi-galaxy/'><img src='/SADIGalaxyWelcome.png' alt='SADI Galaxy Docker Container' height="200" /></a>
+<a href='https://mikeleganaaranguren.wordpress.com/2015/01/07/docker-image-for-sadi-galaxy/'><img src="/src/VA/SADIGalaxyDocker/SADIGalaxyWelcome.png" alt="SADI Galaxy Docker Container" height="200" /></a>
 </div>
 
 

@@ -57,3 +57,4 @@ Configuration is trivial via the Galaxy config file. See the object_store option
 
 
 * Object Store API documentation: http://galaxy.readthedocs.org/en/stable/lib/galaxy.objectstore.html
+

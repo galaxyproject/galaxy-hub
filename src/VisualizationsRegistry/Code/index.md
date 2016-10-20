@@ -1,4 +1,5 @@
 ## Creating a mako template file for your visualization
+
 Besides creating a registry entry in the XML file, the bulk of your code will be in your visualization template.
 
 `template` is a required sub-element of the visualization XML element and the text node should be the *basename*
@@ -15,6 +16,7 @@ change in the future.
 
 
 #### A Design Goal
+
 The design goal of this part of the framework is to provide options and get out of your way. Your template will be
 provided the data you specified from a link you planned, now the choice of rendering technologies, UI/interactivity,
 and procdures or algorithms is up to you. In other words, **the goal is not to have the framework do your visualization
@@ -27,6 +29,7 @@ python. Your template could use any number of technologies through python:
 * [gnuplot](http://gnuplot.info)
 * [R](http://r-project.org) and [RPy2](http://rpy.sourceforge.net/rpy2.html)
 * [svgfig](http://code.google.com/p/svgfig) (which already comes bundled with all Galaxy installations)
+
 (Note: that the packages and modules required for each of these systems must be already be available to your Galaxy
 instance as a whole; you won't be able to pull them in *just* for your visualization.)
 
@@ -47,14 +50,16 @@ Interactivity can be used via python or !JavaScript as well:
 * Control the page via python and in-page links, forms, and the traditional GET/POST HTTP cycle
 * Control the page via !JavaScript with any number of JS libraries, widgets, and events
 
-
 #### Resources
+
 #### The config variable
+
 #### Saved visualizations
+
 #### Common templates and template namespaces
 
-
 #### Other things available to your template code
+
 * `trans` : the entire `GalaxyWebTransaction`, `trans` is available
 * `h` : the Galaxy template helper functions (`lib/galaxy/web/framework/helpers/__init__.py`)
 * `visualization_name` : the name of the plugin (e.g. for plugins/visualizations/myvis it would be 'myvis')
@@ -71,9 +76,9 @@ Interactivity can be used via python or !JavaScript as well:
   a CSV value string containing information (dimensions, configurion allowed, etc.) on how a visualization is being
   embedded into another web page.
 
-
----
+----
 ## Data: the Datasets API and DataProviders
+
 The primary purpose of Galaxy visualizations is the visual analysis of the data inside the files of our Galaxy datasets.
 The datasets API and DataProviders allow you to efficiently query whole files or parts of files (sequentially or by
 searching).
@@ -120,14 +125,14 @@ through the datasets api and a library that can do AJAX requests (such as jQuery
 
 
 #### The API
+
 More supporting infrastructure is available to you through the API. Here you can add client code for interactivity
 including:
 * Loading already configured or saved visualizations
 * Saving the current state of a user's visualization through the visualizations API
 * Running tools and workflows from your visualization with the tools and workflows API
 
-
----
+----
 ## Troubleshooting
 
 If you're successfully calling your visualization's page and (from the javascript console) you're seeing **404s when

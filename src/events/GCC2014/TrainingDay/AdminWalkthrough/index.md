@@ -1,15 +1,15 @@
 ---
 autotoc: true
-title: Tutorial, :,  Galaxy Installation and Administration
+title: Tutorial: Galaxy Installation and Administration
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2014/Header)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 <br /><br />
 
 
 
-PLACEHOLDER_INCLUDE(/Events/GCC2014/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 
-<div class='right'> <a href='/Events/GCC2014/TrainingDay'><img src='/Images/Logos/GCC2014TrainingDayLogoSquare.png' alt='GCC2014 Training Day' width="100" /></a></div>
+<div class='right'> <a href='/src/Events/GCC2014/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
 
 [Nate Coraor](/src/nate/index.md) and [John Chilton](/src/JohnChilton/index.md)
 
@@ -32,8 +32,7 @@ If your host system has enough memory, we suggest increasing the memory allocate
 
 The Galaxy distribution is found at [https://bitbucket.org/galaxy/galaxy-dist/](https://bitbucket.org/galaxy/galaxy-dist/), but for the purposes of this tutorial, we'll use a local copy already on the VM to save time.
 
-```
-#!highlight console
+```console
 galaxy@gcc2014:~$ hg clone /home/galaxy/galaxy-central galaxy-dist
 requesting all changes
 adding changesets
@@ -55,8 +54,7 @@ galaxy@gcc2014:~$
 
 ## Update to the stable branch
 
-```
-#!highlight console
+```console
 galaxy@gcc2014:~$ cd galaxy-dist
 galaxy@gcc2014:~/galaxy-dist$ hg update stable
 264 files updated, 0 files merged, 144 files removed, 0 files unresolved
@@ -66,8 +64,7 @@ galaxy@gcc2014:~/galaxy-dist$
 
 ## Start Galaxy
 
-```
-#!highlight console
+```console
 galaxy@gcc2014:~/galaxy-dist$ cp -r ../galaxy-central/eggs eggs  # cache dependencies to speed up deploy (optional)
 galaxy@gcc2014:~/galaxy-dist$ sh run.sh
 Initializing datatypes_conf.xml from datatypes_conf.xml.sample
@@ -103,8 +100,7 @@ serving on http://127.0.0.1:8080
 
 Stop Galaxy by hitting `CTRL-c`:
 
-```
-#!highlight console
+```console
 serving on http://127.0.0.1:8080
 ^Cgalaxy.jobs.handler INFO 2014-04-23 13:27:59,203 sending stop signal to worker thread
 galaxy.jobs.handler INFO 2014-04-23 13:27:59,204 job handler queue stopped
@@ -121,16 +117,14 @@ There may be some additional interruption exceptions reported - these are not im
 
 Edit the primary Galaxy configuration file, `universe_wsgi.ini`. If you are not familiar with `vi`, consider using `nano` instead.
 
-```
-#!highlight console
+```console
 galaxy@gcc2014:~/galaxy-dist$ vi universe_wsgi.ini
 ```
 
 
 We need to set two options. The file is large and it's easiest to search for these (`/<pattern>` in vi, `CTRL-w` `<pattern>` in nano):
 
-```
-#!highlight ini
+```ini
 [app:main]
 admin_users = nate@bx.psu.edu
 tool_dependency_dir = /home/galaxy/tool_deps
@@ -139,8 +133,7 @@ tool_dependency_dir = /home/galaxy/tool_deps
 
 Then save and quit (`CTRL-x` `y` `ENTER` in nano). Start Galaxy again:
 
-```
-#!highlight console
+```console
 galaxy@gcc2014:~/galaxy-dist$ sh run.sh 
 ...
 Starting server in PID 3298.
@@ -180,7 +173,7 @@ serving on 127.0.0.1:8080 view at http://127.0.0.1:8080
   * Building indexes on the command line
   * `.loc` files
   * `tool_data_table_conf.xml`
-  * Example of the above with bwa and S. cerevisiae (sacCer2) [transcript](#adding-local-data-by-hand)
+  * Example of the above with bwa and S. cerevisiae (sacCer2) [transcript](/src/Events/GCC2014/TrainingDay/AdminWalkthrough/index.md#adding-local-data-by-hand)
 * Galaxy Data Managers
 
 ### Adding local data with a Galaxy Data Manager
@@ -219,15 +212,14 @@ Upon completion:
 ### References
 
 * [(Manual) index building](/src/Admin/DataPreparation/index.md)
-* [(Manual) data integration](/Admin/DataIntegration)
+* [(Manual) data integration](/src/Admin/DataIntegration/index.md)
 * [Automated data management with Data Managers](/src/Admin/Tools/DataManagers/index.md)
 
 # Setting up a Local Galaxy Tutorial (Part II)
 
-Documentation for the features used in this section can be found at [usegalaxy.org/production](https://usegalaxy.org/production) (forwards to [/Admin/Config/Performance/ProductionServer](/src/Admin/Config/Performance/ProductionServer/index.md))
+Documentation for the features used in this section can be found at [usegalaxy.org/production](https://usegalaxy.org/production) (forwards to [Admin/Config/Performance/ProductionServer](/src/Admin/Config/Performance/ProductionServer/index.md))
 
 ## Install and configure PostgreSQL
-
 
 ```hightlight console
 galaxy@gcc2014:~/galaxy-dist$ sudo apt-get install postgresql
@@ -295,7 +287,6 @@ gxprod@gcc2014:~/galaxy-dist$
 
 
 ## Configure Galaxy
-
 
 ```console
 gxprod@gcc2014:~/galaxy-dist$ cp universe_wsgi.ini.sample universe_wsgi.ini
@@ -371,7 +362,7 @@ Explanations of these options:
 Honorable mentions for features we won't use today but that are common in big setups:
 
 * `ftp_upload_dir` and `ftp_upload_site` - Allow users to upload data to the server using FTP
-* `use_remote_user` and `remote_user_maildomain` - Use your institution's existing authentication system to log in to Galaxy. [Apache documentation](/Admin/Config/ExternalUserDatbases) or [nginx documentation](/Admin/Config/nginxProxy#external_user_authentication)
+* `use_remote_user` and `remote_user_maildomain` - Use your institution's existing authentication system to log in to Galaxy. [Apache documentation](/src/Admin/Config/ExternalUserDatbases/index.md) or [nginx documentation](/src/Admin/Config/nginxProxy/index.md#external_user_authentication)
 * `allow_user_impersonation` - Users configured as administrators (with `admin_users`) can "become" other users to view Galaxy exactly as the impersonated user does. Useful for providing support.
 * `user_library_import_dir` - Non-administrators can directly import datasets from this directory on this server to Data Libraries from which they have been given write permission. [documentation](/src/Admin/DataLibraries/UploadingLibraryFiles/index.md)
 * `object_store_config_file` - Configure Galaxy's "object storage" layer to store data in multiple filesystems, Amazon S3, iRODS, etc.
