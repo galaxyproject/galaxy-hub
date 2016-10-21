@@ -2,7 +2,7 @@
 title: South Africa Galaxy Workshop Tour 2013
 ---
 <div class='center'>
-![2013 South Africa Galaxy Workshop Tour](/src/Images/Logos/SAGalaxyWorkshopTour2013Wide.png)
+<img src="/src/Images/Logos/SAGalaxyWorkshopTour2013Wide.png" alt="2013 South Africa Galaxy Workshop Tour" width="300" />
 </div>
 
 

@@ -27,7 +27,7 @@ The [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/Logistics//
 
 Ole Johan Dahls House is adjacent to the Forskningsparken subway and tram stops.  
 
-<div class='right'><br />![Euro Plug](/src/Events/GCC2013/Logistics/Euro-Plug.jpg)</div>
+<div class='right'><br /><img src="/src/Events/GCC2013/Logistics/Euro-Plug.jpg" alt="Euro Plug" height="80" /></div>
 
 ## Power
 

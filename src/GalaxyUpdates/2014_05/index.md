@@ -376,7 +376,7 @@ Two [public Galaxy servers](/src/PublicGalaxyServers/index.md) were added to the
 
 * *Links:*
   * [Globus Genomics Proteomics Galaxy Server](http://proteomics.globusgenomics.org/)
-  * *[Building a Low-budget Public Resource for Large-scale Proteomic Analyses](ATTACHMENT_URLDocuments/Presentations/GlobusGenomicsProteomics.pdf)*, presentation by [Anoop Mayampurath](http://www.ci.uchicago.edu/profile/257) at [Globus World 2014](http://globusworld.org/)
+  * *[Building a Low-budget Public Resource for Large-scale Proteomic Analyses](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GlobusGenomicsProteomics.pdf)*, presentation by [Anoop Mayampurath](http://www.ci.uchicago.edu/profile/257) at [Globus World 2014](http://globusworld.org/)
 * *Domain/Purpose:*
     The [Globus Genomics Project](http://globusgenomics.org) demonstration Galaxy server. It has a strong emphasis on proteomics
 * *Comments:*

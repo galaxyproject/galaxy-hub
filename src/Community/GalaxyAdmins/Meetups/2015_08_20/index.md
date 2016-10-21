@@ -20,7 +20,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em>Genomic data management at <a href='https://www.nml-lnm.gc.ca/index-eng.htm'>Canada's National Microbiology Laboratory</a> with <a href='http://www.irida.ca/'>IRIDA</a> and Galaxy</em><div class='indent'><a href='https://github.com/apetkau'>Aaron Petkau</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_DataMgmtWihtIRIDA_Petkau.pdf'>Slides</a> </div> <em><a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_ToolInstall_Afgan.pdf'>Adding transparency and automation into the Galaxy tool installation process</a></em> <div class='indent'><a href='/src/EnisAfgan/index.md'>Enis Afgan</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_ToolInstall_Afgan.pdf'>Slides</a>, <a href='https://github.com/afgane/ansible-tools'>GitHub Repo</a> </div>  </td>
+    <td> <em>Genomic data management at <a href='https://www.nml-lnm.gc.ca/index-eng.htm'>Canada's National Microbiology Laboratory</a> with <a href='http://www.irida.ca/'>IRIDA</a> and Galaxy</em><div class='indent'><a href='https://github.com/apetkau'>Aaron Petkau</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015_DataMgmtWihtIRIDA_Petkau.pdf'>Slides</a> </div> <em><a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015_ToolInstall_Afgan.pdf'>Adding transparency and automation into the Galaxy tool installation process</a></em> <div class='indent'><a href='/src/EnisAfgan/index.md'>Enis Afgan</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015_ToolInstall_Afgan.pdf'>Slides</a>, <a href='https://github.com/afgane/ansible-tools'>GitHub Repo</a> </div>  </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -49,7 +49,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 ## Call Technology
 
-<div class='right'>![April 2015 GalaxyAdmina Meetup, Online Conference Room](/src/Images/Logos/AdobeConnectSquarish.jpg)</div>
+<div class='right'><img src="/src/Images/Logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
 
 The  meetup's online conference room will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 
@@ -59,4 +59,4 @@ The  meetup's online conference room will open 15 minutes before the meetup.  Th
   * If you raise your hand, the host will need to recognize you.
   * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
-<div class='center'>![](/src/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>
+<div class='center'><img src="/src/Community/GalaxyAdmins/AdobeConnectQuestion.png" alt="" width="100%" /></div>

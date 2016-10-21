@@ -6,7 +6,7 @@ This page contains instructions on how to setup Galaxy for various feature demos
 
 ## Sample Tracking Demo
 
-The sample tracking demo script ([download](ATTACHMENT_URLlims_demo.tar.gz)) creates all the necessary infrastructure to create sequencing requests in a laboratory environment.
+The sample tracking demo script ([download](PLACEHOLDER_ATTACHMENT_URL/src/lims_demo.tar.gz)) creates all the necessary infrastructure to create sequencing requests in a laboratory environment.
 This script drops the current database and creates a new database with the same name.
 Then it does all the sample tracking prep work like:
 * Creates admin users based on the list in the Galaxy config file and a regular user (customer@corp.com)
@@ -26,7 +26,7 @@ This script will delete the existing PostgreSQL database specified in the Galaxy
 ### Instructions
 
 Follow the steps below:
-1. [Download](ATTACHMENT_URLlims_demo.tar.gz) the script tarball
+1. [Download](PLACEHOLDER_ATTACHMENT_URL/src/lims_demo.tar.gz) the script tarball
 1. Untar the tarball in the Galaxy root directory.  The tarball contains 4 files:
   1. `setup_lims_demo.sh`
   1. `setup_lims_demo.py`

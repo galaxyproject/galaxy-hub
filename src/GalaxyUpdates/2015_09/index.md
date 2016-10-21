@@ -309,7 +309,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <div class='right'>
 <div class='solid'><a href='http://galaxy.workflow4metabolomics.org/'><img src="/src/PublicGalaxyServers/Workflow4metabolomics.png" alt="Workflow4metabolomics Galaxy server" width=300 /></a></div>
 <br />
-<div class='right solid'>[{{attachment:PublicGalaxyServers/Workflow4MetabolomicsSponsors.png|Workflow4Metabolomics Sponsors|width="200"}}|&do=get,target="sponsorgraph"](ATTACHMENT_URLPublicGalaxyServers/Workflow4MetabolomicsSponsors.png)
+<div class='right solid'><a href='/src/PublicGalaxyServers/Workflow4MetabolomicsSponsors.png'><img src="/src/PublicGalaxyServers/Workflow4MetabolomicsSponsors.png" alt="Workflow4Metabolomics Sponsors" width="200" /></a>
 <br /><div class='center'>*Sponsors*</div> 
 </div></div>
 
@@ -328,7 +328,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 * *Quotas:* 
   * Account required. Anyone can [request an account](http://abims.sb-roscoff.fr/account).
 * *Sponsor(s):*
-  * See [sponsor graph|&do=get,target="sponsorgraph"](ATTACHMENT_URLPublicGalaxyServers/Workflow4MetabolomicsSponsors.png)
+  * See [sponsor graph](/src/PublicGalaxyServers/Workflow4MetabolomicsSponsors.png)
 
 ## EpiToolKit
 

@@ -19,7 +19,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
 
  [Institute for Data Sciences and Engineering](http://idse.columbia.edu/victoria-stodden) and Assistant Professor, [Department of Statistics](http://www.stat.columbia.edu/), [Columbia University](http://www.columbia.edu/)
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/StoddenComputationalReproducibility.pdf), [Vimeo](https://vimeo.com/74878594)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/StoddenComputationalReproducibility.pdf), [Vimeo](https://vimeo.com/74878594)*
 
 *Abstract:*
 
@@ -45,7 +45,7 @@ Victoria is an assistant professor of [Statistics](http://www.stat.columbia.edu/
  <sup>1</sup> BakerIDI Heart and Diabetes Research Institute, 75 Commercial Rd, Melbourne, VIC 3004, Australia<br />
  <sup>2</sup> http://wiki.galaxyproject.org/GalaxyTeam
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/LazarusReproducibleResearch.pdf), [Vimeo](https://vimeo.com/74885862)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/LazarusReproducibleResearch.pdf), [Vimeo](https://vimeo.com/74885862)*
 
 Scientific progress in biology relies on valid experimental results that can be independently reproduced. This fundamental requirement for good science presents a tough challenge for automated bioinformatic analysis services. Experimental complexities vary widely and rapid rates of change in molecular technologies and in popular tools mean that even well established reproducible automated workflows inevitably require tinkering to get them to work for some data. In typical academic laboratories, well run automated analysis systems might hope to support at best about 80-90% of routine analyses, but not all. 
 
@@ -64,7 +64,7 @@ An installable Galaxy tool will be demonstrated that reproducibly runs user supp
  <sup>1</sup> [CRS4](http://www.crs4.it/), Pula, Sardegna, Italy<br />
  <sup>2</sup> Wellcome Trust Centre for Gene Regulation and Expression, College of Life Sciences, University of Dundee, Dundee, Scotland, UK 
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/PiredduReproducibleAutomated.pdf), [Vimeo](https://vimeo.com/74876719)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/PiredduReproducibleAutomated.pdf), [Vimeo](https://vimeo.com/74876719)*
 
 As the rate of samples to process in high-throughput sequencing facilities increases, performing and tracking the center’s operations becomes increasingly difficult, costly and error prone, while processing the massive amounts of data poses significant computational challenges.
 
@@ -80,14 +80,14 @@ Currently, the system is in its testing phase and is on schedule to be in produc
 
 ### A Galaxy of learning: Bioinformatics tutorials based on Galaxy
 
-<div class='right'>![Simon Gladman](/src/Events/GCC2013/Abstracts/Talks/SimonGladman.jpg)</div>
+<div class='right'><img src="/src/Events/GCC2013/Abstracts/Talks/SimonGladman.jpg" alt="Simon Gladman"  /></div>
 
 **Simon Gladman**<sup>1,2</sup>, Mahtab Mirmomeni<sup>1</sup>, Andrew Lonie<sup>1</sup>
 
  <sup>1</sup> Life Sciences Computation Centre, Victorian Life Sciences Computation Initiative, Melbourne, Victoria, Australia.<br />
  <sup>2</sup> Victorian Bioinformatics Consortium, Monash University, Victoria, Australia.
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/GladmanGalaxyLearning.pdf), [Vimeo](https://vimeo.com/74875133)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/GladmanGalaxyLearning.pdf), [Vimeo](https://vimeo.com/74875133)*
 
 The Australian government has funded the development of a Genomics Virtual Laboratory (GVL): a set of analysis & visualisation platforms (currently Galaxy and UCSC genome browser) implemented on the [Australian Research Cloud infrastructure (http://www.nectar.org.au/research-cloud)](http://www.nectar.org.au/research-cloud), and community resources for best practice genomics, including protocols, workflows and tutorials for common genomics tasks. 
 
@@ -120,7 +120,7 @@ The tutorials and other associated resources are freely available at http://www.
  <sup>11</sup> Computational Biology Unit, Uni Computing, Norway<br />
  <sup>12</sup> Department of Biostatistics, Institute of Basic Medical Sciences, University of Oslo, Norway
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/HovigSandveGenomicHyperbrowser.pdf), [Vimeo](https://vimeo.com/74872871)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/HovigSandveGenomicHyperbrowser.pdf), [Vimeo](https://vimeo.com/74872871)*
 
 The immense increase in availability of genomic scale data sets, such as those provided by the ENCODE and Roadmap Epigenomics projects, allows individual researchers to analyze and query relations between genomic tracks at an unprecedented level.
 
@@ -138,7 +138,7 @@ The [Genomic HyperBrowser (http://hyperbrowser.uio.no/test)](http://hyperbrowser
  <sup>2</sup> Department of Genetics, University of Cambridge, Downing Street, Cambridge CB2 3EH, UK.<br />
  <sup>3</sup> Department of Molecular Genetics, University of Toronto, 1 Kings College Circle, Toronto, ON Canada M5S 1A8.<br />
 
-*[PDF](ATTACHMENT_URLDocuments/Presentations/GCC2013/TrinhModENCODEGalaxy.pdf), [PPTX](ATTACHMENT_URLDocuments/Presentations/GCC2013/TrinhModENCODEGalaxy.pptx), [Vimeo](https://vimeo.com/74869999)*
+*[PDF](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/TrinhModENCODEGalaxy.pdf), [PPTX](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/TrinhModENCODEGalaxy.pptx), [Vimeo](https://vimeo.com/74869999)*
 
 Funded by the National Institutes of Health, the aim of the modENCODE project is to provide the biological research community with a comprehensive encyclopedia of functional genomic elements for both model organisms *C. elegans* and *D. melanogaster*.  With a total size of just under 10 terabytes of data collected and released to the public, one of the challenges faced by researchers is to extract biologically meaningful knowledge from this large data set.  While the basic quality control, pre-processing, and analysis of the data has already been performed by members of the modENCODE consortium, many researchers will wish to reinterpret the data set using modifications and enhancements of the original protocols, or combine modENCODE data with other data sets. Unfortunately this can be a time consuming and logistically challenging proposition.
 
@@ -154,7 +154,7 @@ In recognition of this challenge, the modENCODE DCC has released uniform computi
 
  [BioTeam](http://bioteam.net/)
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/BrownleyGalaxySlipStream.pdf), [Vimeo](https://vimeo.com/74869438)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/BrownleyGalaxySlipStream.pdf), [Vimeo](https://vimeo.com/74869438)*
 
 IT infrastructure and support can be a bottleneck when trying to analyze data.   The Galaxy !SlipStream Appliance is designed to reduce the IT and administrative burden of running a production instance of the Galaxy software package and its underlying tools. !SlipStream integrates a powerful computational infrastructure and storage system in a desktop server to provide a dedicated resource to quickly analyze data with Galaxy.
 
@@ -164,13 +164,13 @@ IT infrastructure and support can be a bottleneck when trying to analyze data.  
 
 ### Single-cell genomics pipeline: from raw reads to phylogenomics using Galaxy
 
-<div class='right'>![Lionel Guy](/src/Events/GCC2013/Abstracts/Talks/LionelGuy.png)</div>
+<div class='right'><img src="/src/Events/GCC2013/Abstracts/Talks/LionelGuy.png" alt="Lionel Guy" width="120" /></div>
 
 **[Lionel Guy](http://www.icm.uu.se/research/Molecular-Evolution/People/lionel-guy/)** and [Thijs Ettema](http://www.icm.uu.se/research/Molecular-Evolution/People/thijs-ettema/)
 
  [Department of Cell and Molecular Biology](http://www.icm.uu.se/) and [SciLifeLab](http://www.scilifelab.se/), Uppsala University, Uppsala, Sweden
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/GuySingleCell.pdf), [Vimeo](https://vimeo.com/74869178)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/GuySingleCell.pdf), [Vimeo](https://vimeo.com/74869178)*
 
 Only a few percent of prokaryotes are cultivable: the vast majority of them remains to be discovered, but recent technological developments in single-cell genomics now grant us access to this unknown diversity. To answer questions about microbial diversity and even how complex life forms emerged, we sample novel, deep-rooting taxa from a wide variety of environments.
 
@@ -184,13 +184,13 @@ By pairing single-cell genomics with advanced bioinformatics, we aim to shed som
 
 ### A layered genotyping-by-sequencing pipeline using Galaxy
 
-<div class='right'>![Simon Guest](/src/Events/GCC2013/Abstracts/Talks/SimonGuest.jpg)</div>
+<div class='right'><img src="/src/Events/GCC2013/Abstracts/Talks/SimonGuest.jpg" alt="Simon Guest" width="100" /></div>
 
 Rudiger Brauning, **Simon Guest**, Alan !McCulloch, Russell Smithies 
  
  [AgResearch New Zealand](http://www.agresearch.co.nz/)
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/GuestLayeredGentotyping.pdf), [Vimeo](https://vimeo.com/74868420)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/GuestLayeredGentotyping.pdf), [Vimeo](https://vimeo.com/74868420)*
 
 At [AgResearch](http://www.agresearch.co.nz/) around 300 scientists perform data intensive biological research in the areas of animal and plant performance.  A recent milestone was processing our billionth NZ sheep genotype.  Genotyping-by-sequencing (GBS) is becoming an increasingly important technique underpinning both applied and pure research.  Potential practical benefits include rapid genetic improvement and adaption in agricultural species, while scientific advances such as novel variation discovery,  and geographic, cultural and historical mapping of populations via extremely dense molecular markers are made possible.  GBS pipelines are both scientifically and computationally challenging, involving both high-throughput, and many sequential steps, some of which (such as alignment of error-prone short reads against high diversity, large genome species ) require the use of High Performance Computing (HPC) resources and approaches such as parallelisation.  These HPC approaches necessarily involve the context-sensitive fragmentation of data into smaller packets for distribution across an HPC cluster, and re-assembly of output files before progressing to the next step.  Yet it is important that utilisation of HPC resources by GBS workflows is transparent to end users, so that proposed, in-progress and completed work-flows that are to be shared and reviewed by project scientists, present a clear auditable end-to-end view of the data pipeline, without low level HPC clutter.  We present a GBS pipeline we have developed using Galaxy workflows, which uses a layered approach, including low-level HPC conditioning of tool commands in such a way that HPC is transparent to users.  We outline advantages and disadvantages of our approach and discuss ideas for future improvement.
 
@@ -198,13 +198,13 @@ At [AgResearch](http://www.agresearch.co.nz/) around 300 scientists perform data
 
 ### The Linked2Safety's Galaxy Based Data Analysis Space
 
-<div class='right'>![Aristos Aristodimou](/src/Events/GCC2013/Abstracts/Talks/AristosAristodimou.jpg)</div>
+<div class='right'><img src="/src/Events/GCC2013/Abstracts/Talks/AristosAristodimou.jpg" alt="Aristos Aristodimou" width="90" /></div>
 
 **Aristos Aristodimou**, Athos Antoniades, Constantinos Pattichis
 
  Department of Computer Science, University of Cyprus, Nicosia
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/AristodimouLinked2Safety.pdf), [Vimeo](https://vimeo.com/74867327)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/AristodimouLinked2Safety.pdf), [Vimeo](https://vimeo.com/74867327)*
 
 [Linked2Safety](http://www.linked2safety-project.eu/) (288328) is an FP7 project funded by the European Commission under the area of ICT for health. The vision of the project is to advance clinical practice and accelerate medical research, by providing homogenized access to anonymized aggregated distributed EHRs, and the tools for analyzing such data. The datasets provided to [Linked2Safety](http://www.linked2safety-project.eu/) contain genetic, phenotypic, drug and adverse event related information. The proposed data analysis space uses a Galaxy based platform that allows its users to run analyses on the anonymized aggregated distributed EHRs. The Galaxy tools that can be used are grouped in the following categories: i) quality control, ii) feature selection, iii) single hypothesis testing, iv) data mining, and v) visualization. The [Linked2Safety](http://www.linked2safety-project.eu/) data analysis space supports: i) the automated storing of all of the statistically significant associations and association rules from the analyses performed; and ii) allows knowledge extraction, that can be used as an alerting tool that will provide early identification of adverse events.  The proposed data analysis space will initially test more than 300 hypotheses (based on experts’ knowledge and the current literature) on the showcases datasets (diabetes, breast cancer, psychiatric disorders), and will identify the association rules of statistically significant results.
 
@@ -212,13 +212,13 @@ At [AgResearch](http://www.agresearch.co.nz/) around 300 scientists perform data
 
 ### Galaxy as an Integration and Workflow Platform for a Cloud Enabled Bio-medical Image Analysis and Image Processing Toolkit
 
-<div class='right'>![](/src/Events/GCC2013/Abstracts/Talks/PiotrSzul.jpg)</div>
+<div class='right'><img src="/src/Events/GCC2013/Abstracts/Talks/PiotrSzul.jpg" alt="" width="80" /></div>
 
 **Piotr Szul**, Dadong Wang, Yulia Arzhaeva, Shiping Chen, Alex Khassapov, Neil BurdeI, Timur Gureyev, John Taylor, Tomasz Bednarz
 
  CSIRO Commonwealth Scientific and Industrial Research Organisation, Australia
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/SzulCloudImage.pdf), [Vimeo](https://vimeo.com/74418904)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/SzulCloudImage.pdf), [Vimeo](https://vimeo.com/74418904)*
 
 Cloud Based Image Analysis and Processing Toolbox project being carried out by CSIRO, is to run on the Australian National eResearch Collaboration Tools and Resources (NeCTAR) cloud infrastructure and is designed to give access to biomedical image processing and analysis services integrated within a workflow platform to Australian researchers via remotely accessible user interfaces.  
 
@@ -230,7 +230,7 @@ The presentation explores the adaption of Galaxy to the domain of image processi
 
 ### Representation and statistical analysis of 3D chromatin data in a Galaxy framework
 
-<div class='right'>![Jonas Paulsen](/src/Events/GCC2013/Abstracts/Talks/JonasPaulsen.jpg)</div>
+<div class='right'><img src="/src/Events/GCC2013/Abstracts/Talks/JonasPaulsen.jpg" alt="Jonas Paulsen" width="120" /></div>
 
 **Jonas Paulsen <sup>1</sup>**, Tonje G. Lien <sup>2</sup>, Geir Kjetil Sandve <sup>3,4</sup>, Lars Holden<sup>5</sup>, Ørnulf Borgan<sup>2</sup>, Ingrid K. Glad <sup>2</sup> and [Eivind Hovig](http://www.ous-research.no/hovig/) <sup>1,3,6</sup><br />
 
@@ -241,7 +241,7 @@ The presentation explores the adaption of Galaxy to the domain of image processi
  <sup>5</sup> Statistics for Innovation, Norwegian Computing Center, 0314 Oslo, Norway.<br />
  <sup>6</sup> Oslo University Hospital, Institute for Cancer Research, Department of Tumor Biology, The Norwegian Radium Hospital, P.O. Box 4950, Nydalen, N-0424 Oslo, Norway.<br />
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/PaulsenStatisticalChromatin.pdf), [Vimeo](https://vimeo.com/74417246)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/PaulsenStatisticalChromatin.pdf), [Vimeo](https://vimeo.com/74417246)*
 
 The study of chromatin 3D structure has recently gained much focus due to novel techniques, such as Hi-C and Chia-PET, for detecting genome wide chromatin contacts utilizing next-generation sequencing. Both the representation and analysis of such data is complex, and appropriate tools are presently lacking.
 
@@ -256,7 +256,7 @@ We show examples of spatial co-localization of chromatin states and fusion trans
 ### Ion Torrent Semiconductor Sequencing Update
 
  
-<div class='right'>![](/src/MikeLelivelt/pic.png)</div>
+<div class='right'><img src="/src/MikeLelivelt/pic.png" alt="" width="90" /></div>
 
 **[Mike Lelivelt](/src/MikeLelivelt/index.md)<sup>1</sup>**
 
@@ -270,14 +270,14 @@ Ion Torrent has invented the first device—a new semiconductor chip—capable o
 
 ### State of the Galaxy
 
-<div class='right'>![](/src/GalaxyTeam/anton.jpg)&nbsp;![](/src/GalaxyTeam/james.jpg)</div>
+<div class='right'><img src="/src/GalaxyTeam/anton.jpg" alt="" width="120" />&nbsp;<img src="/src/GalaxyTeam/james.jpg" alt="" width="120" /></div>
 
 **[Anton Nekrutenko](/src/anton/index.md)<sup>1</sup> and [James Taylor](/src/JamesTaylor/index.md)<sup>2</sup>**
 
  <sup>1</sup> [Penn State University](http://psu.edu/)<br />
  <sup>2</sup> [Emory University](http://emory.edu/)
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/NekrutenkoTaylorState.pdf), [Vimeo](https://vimeo.com/74413993)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/NekrutenkoTaylorState.pdf), [Vimeo](https://vimeo.com/74413993)*
 
 An overview of where the Galaxy Project is and where it is going.
 
@@ -292,7 +292,7 @@ An overview of where the Galaxy Project is and where it is going.
  <sup>3</sup> Center for Informatics and Computing (CIR), Ruđer Bošković Institute (RBI)<br />
  <sup>4</sup> Galaxy Project (http://galaxyproject.org)
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/SloggettBioBlend.pdf), [Vimeo](https://vimeo.com/74403037)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/SloggettBioBlend.pdf), [Vimeo](https://vimeo.com/74403037)*
 
 The Galaxy API allows users and administrators to access a rapidly expanding set of Galaxy functionality via REST commands. CloudMan is a cloud-based job runtime platform, which allows researchers to easily provision scalable 'virtual clusters' to run Galaxy and other applications in a cloud computing environment, and which provides its own REST-based API. 
 
@@ -316,7 +316,7 @@ Alok Dhamanaskar<sup>1</sup>, Akshay Choche<sup>1</sup>, Michael E. Cotterell<su
 <sup>5</sup> Penn Center for Bioinformatics and Department of Genetics, University of Pennsylvania,
 Philadelphia, PA 19104
 
-*[PDF](ATTACHMENT_URLDocuments/Presentations/GCC2013/KissingerWebServices.pdf), [PPTX](ATTACHMENT_URLDocuments/Presentations/GCC2013/KissingerWebServices.pptx), [Vimeo](https://vimeo.com/74399518)*
+*[PDF](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/KissingerWebServices.pdf), [PPTX](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/KissingerWebServices.pptx), [Vimeo](https://vimeo.com/74399518)*
 
 Local installations of Galaxy often make extensive use of Galaxy’s workflow tools but are limited to the use of tools provided by the local Galaxy instance. We have created a community tool that allows users to make use of Web services thus freeing them to run applications or access data provided outside of the local installation. Users can link multiple Web services together with existing Galaxy tools to form workflows for complex bioinformatics tasks. However, this process requires that users select appropriate Web service operations from a multitude of available Web services and then link them together in a way that is input-output compatible. To help Galaxy users navigate these issues, we have developed and deployed a REST service called the Service Suggestion Engine (SSE). The SSE makes use of semantically annotated Web service description documents (WSDL) for SOAP Web Services to help users select suitable operations during the workflow construction process. The SSE provides suggestions for steps in either direction. As a proof of concept we have semantically annotated dozens of Web services and used the SSE to construct workflows. To complete this task, we added numerous terms to the Ontology for Biomedical Investigations (OBI) to create OBI-WS, a bioinformatics Web service ontology. 
 
@@ -337,7 +337,7 @@ Local installations of Galaxy often make extensive use of Galaxy’s workflow to
  <sup>7</sup> Institute for Medical Informatics, The Norwegian Radium Hospital, Oslo University Hospital, Montebello, 0310 Oslo, Norway.<br />
  <sup>8</sup> Department of Informatics, University of Oslo, Blindern, 0316 Oslo, Norway.<br />
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/GundersonGTrack.pdf), [Vimeo](https://vimeo.com/74398904)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/GundersonGTrack.pdf), [Vimeo](https://vimeo.com/74398904)*
 
 A host of alternative formats for representing whole-genome datasets, such as WIG, BED, GFF, and !BedGraph, are currently in use, complicating analysis and tool development. The need for different formats are driven partly by the need of extra columns for specific content, but also because of differences reflecting the underlying models of the data. We have delineated fifteen different "track types", representing different intrinsic data models, starting from simple types such as "points" and "segments" to more complex types.
 
@@ -351,14 +351,14 @@ GTrack is fully supported by [The Genomic HyperBrowser (hyperbrowser.uio.no)](ht
 
 ### Globus Genomics - An Integrated End to End Sequencing Analysis Platform Powered by Globus Online and Galaxy
 
-<div class='right'>![Ravi Madduri](/src/Events/GCC2013/Abstracts/Talks/RaviMadduri.jpg)</div>
+<div class='right'><img src="/src/Events/GCC2013/Abstracts/Talks/RaviMadduri.jpg" alt="Ravi Madduri" width="100" /></div>
 
 Paul Dave,<sup>1</sup> **Ravi Madduri,**<sup>2</sup> Dina Sulakhe,<sup>1</sup> Alex Rodriguez<sup>1</sup>
 
  <sup>1</sup> University of Chicago<br />
  <sup>2</sup> Argonne National Laboratory
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/MadduriGlobusGenomics.pdf), [Vimeo](https://vimeo.com/74397086)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/MadduriGlobusGenomics.pdf), [Vimeo](https://vimeo.com/74397086)*
 
 In this talk, we will present Globus Genomics which is a robust, scalable, and flexible solution that provides end-to-end research data management for Next Generation Sequencing Analysis powered by Galaxy, Globus Online and Amazon Web Services.  Globus Genomics integrates data management capabilities of Globus Online to complement the flexible Galaxy workflow environment and allows users to run this integrated solution at scale on cloud-based elastic computational infrastructure.  We will describe some of the challenge areas that were targeted with this approach and discuss various successful implementations by leading researchers at the University of Chicago, University of Washington and Washington University at St. Louis.  Qualitative and quantitative benefits will be highlighted along with proposed future directions of the integrated Globus Genomics platform.
 
@@ -373,7 +373,7 @@ In this talk, we will present Globus Genomics which is a robust, scalable, and f
  <sup>1</sup> University of Minnesota Supercomputing Institute, Minneapolis, Minnesota, USA<br />
  <sup>2</sup> University of Minnesota, Minneapolis, Minnesota, USA
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/ChiltonGalaxyP.pdf), [Prezi](http://prezi.com/lpxoy_eqpjl2/galaxy-p-beyond-proteomics/), [Vimeo](https://vimeo.com/74395277)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/ChiltonGalaxyP.pdf), [Prezi](http://prezi.com/lpxoy_eqpjl2/galaxy-p-beyond-proteomics/), [Vimeo](https://vimeo.com/74395277)*
 
 Leveraging the Galaxy framework, the Galaxy-P project has resulted in the creation of many novel tools, workflows, and visualization options for mass spectrometry based data analysis - for applications ranging from standard protein identification to emerging fields (e.g. metabolomics, metaproteomics, and proteogenomics). These developments will be outlined, however the core of the talk will be about the inverse. In addressing the specific challenges of protein informatics, we have moved the framework forward in ways that can and have benefited Galaxy applications outside of proteomics. This talk will cover two of the core of these challenges in depth, namely cross-platform job execution and effectively dealing with large collections of files.
 
@@ -385,13 +385,13 @@ Galaxy has traditionally been geared toward interacting with a small, fixed numb
 
 ### DevOps Ignition to reach Galaxy continuous integration
 
-<div class='right'>![Olivier Inizan](/src/Events/GCC2013/Abstracts/Talks/OlivierInizan.png)</div>
+<div class='right'><img src="/src/Events/GCC2013/Abstracts/Talks/OlivierInizan.png" alt="Olivier Inizan" width="100" /></div>
 
 **Michael Loaec, Olivier Inizan**, Jonathan Kreplak, Hadi Quesneville 
 
  Unité de Recherches en Génomique-Info (UR INRA 1164), INRA, Centre de recherche de Versailles
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/InizanDevOps.pdf), [Vimeo](https://vimeo.com/74392502)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/InizanDevOps.pdf), [Vimeo](https://vimeo.com/74392502)*
 
 The !DevOps is a software development movement that stresses a close relationship between software developers and netsys admins. The goal is to enhance and speed up the cycle of software production from the creation to the delivery to final users, with special focus on quick resolution of users’ issues. We applied this method to our production process for our Galaxy instance.
 
@@ -409,13 +409,13 @@ The experience gave us new perspectives to improve our development and productio
 
 ### The Clinical Galaxy: A validated platform initiative
 
-<div class='right'>![SanjayJoshi](/src/SanjayJoshi/SanjayJoshi.png)</div>
+<div class='right'><img src="/src/SanjayJoshi/SanjayJoshi.png" alt="SanjayJoshi" width="100" /></div>
 
 **[Sanjay Joshi](/src/SanjayJoshi/index.md)**
 
  Chief Technical Officer (CTO), [Life Sciences](http://www.isilon.com/industry/lifesciences). [EMC Isilon Storage Division](http://www.emc.com/isilon)
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/JoshiClinicalGalaxy.pdf), [Vimeo](https://vimeo.com/74391527)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/JoshiClinicalGalaxy.pdf), [Vimeo](https://vimeo.com/74391527)*
 
 With respect to disease, we humans are the manifestation of our rare variants.
 
@@ -434,7 +434,7 @@ We will present an overview of the requirements to move Galaxy into the Clinical
 **[Greg von Kuster](/src/greg_vonkuster/index.md)**, [Daniel Blankenberg](/src/Dan/index.md)
  Penn State / Galaxy Team
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/VonKusterToolShed.pdf), [Vimeo](https://vimeo.com/74347850)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/VonKusterToolShed.pdf), [Vimeo](https://vimeo.com/74347850)*
 
 The Galaxy Tool Shed enables sharing of Galaxy tools, proprietary datatypes, exported Galaxy workflows, data, and more (collectively: “Galaxy Utilities”) across the research community with ease. Tools can be automatically discovered and installed into a local Galaxy environment in real time, and they can easily be deactivated or uninstalled when they are no longer needed. Here, we demonstrate newly developed features of the Galaxy Tool Shed.
 
@@ -457,7 +457,7 @@ To ensure the quality of the Tool Shed and the available contributed Utilities, 
  <sup>1</sup> Emory University<br />
  <sup>2</sup> Penn State University
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/EberhardCreateViz.pdf), [Vimeo](https://vimeo.com/74330774)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/EberhardCreateViz.pdf), [Vimeo](https://vimeo.com/74330774)*
 
 Visualization plays an integral role in scientific investigation. Visualization is useful for viewing large amounts of data simultaneously, observing patterns and outliers amongst data, and communicating findings to others. To make visualization easier and more powerful in Galaxy, we have create a framework for integrating Web-based visualizations into Galaxy. Just as tools can be easily added to Galaxy, visualizations can now be added as well. Visualizations can be easily accessed via an icon in the history panel’s stored datasets. Galaxy visualizations have many advantages: (i) they can be made highly interactive and customizable; (ii) they require no software or data downloads, and (iii) they can be saved, shared via URL, and included in [Galaxy Pages](/src/Learn/GalaxyPages/index.md) — and shared/included visualization are fully interactive.
 
@@ -473,7 +473,7 @@ In this talk, we describe how to create your own visualization for Galaxy. We pr
 
  [Galaxy Team](/src/GalaxyTeam/index.md) and Penn State University
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/BlankenbergBuiltInData.pdf), [Vimeo](https://vimeo.com/74265510)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/BlankenbergBuiltInData.pdf), [Vimeo](https://vimeo.com/74265510)*
 
 Many Galaxy tools are reliant upon having built-in data (e.g. genomic sequences, aligner indexes, etc) available. Although most tools can alternatively make use of data from a user’s history (e.g. a FASTA dataset), doing so often results in a decrease in performance, as e.g. one-off indexes need to be built by the Galaxy tool each time the dataset is used as a source. Unfortunately, until now, the steps required for generating and informing a Galaxy server of the availability of new built-in data has been an error-prone manual process. Here, we demonstrate new Galaxy features that simplify and automate this process.
 
@@ -493,7 +493,7 @@ Data Managers can be defined locally or installed automatically from a Tool Shed
  <sup>2</sup> Penn State<br />
  <sup>3</sup> University of Minnesota Supercomputing Institute
 
-*[Slides](ATTACHMENT_URLDocuments/Presentations/GCC2013/BakerContribute.pdf), [Vimeo](https://vimeo.com/73486255)*
+*[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/BakerContribute.pdf), [Vimeo](https://vimeo.com/73486255)*
 
 Galaxy is an *open* platform for data intensive biomedical research, utilized in many diverse environments.  The core team has lots of hands-on experience with the instance at usegalaxy.org, a very large public-facing resource, but that it is only one particular environment and local administrators can have a significantly different set of requirements to address to satisfy local users.  As the Galaxy Project grows, contributions from the community will be an increasingly important resource for helping continue to move forward and innovate while remaining a stable platform that users can count on.  Anyone can get a copy of Galaxy and modify the framework to suit their needs; if those changes enhance the utility of the Galaxy framework for the community at large, whether they’re a bugfix or a new feature, then it’s incredibly valuable to be able to pull the changes back into the core Galaxy framework to share with others.  The primary mechanism for doing this is by issuing a ‘pull request’ in Bitbucket that allows the team to review and merge your changes, and we’ll discuss how and why to create them.  It is important to make sure that changes to the framework are both useful and usable to the community as a whole, and to realize that not everything is suitable for inclusion.
 

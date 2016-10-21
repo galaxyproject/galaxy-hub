@@ -99,7 +99,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Slides
 
-* [Slides](ATTACHMENT_URLDocuments/Presentations/20160CornellWorkshop.pdf)
+* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/20160CornellWorkshop.pdf)
 
 ## Feedback
 

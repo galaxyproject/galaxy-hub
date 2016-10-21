@@ -369,7 +369,7 @@ The new papers were tagged with:
 
 # Who's Hiring
 
-<div class='right'><br />![Please Help! Yes you!](/src/Images/GalaxyIsExpandingCloud.png)</div>
+<div class='right'><br /><img src="/src/Images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 * [Postdoctoral Researcher: Forest Genomics Database and Software Developer](http://compgenomics.lab.uconn.edu/join/), University of Connecticut.  "... data sharing among partner databases through Galaxy modules."  <div class='red'>Deadline June 10.</span> 

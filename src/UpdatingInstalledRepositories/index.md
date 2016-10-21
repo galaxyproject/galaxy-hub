@@ -25,7 +25,7 @@ The current status for each of the following categories is determined for each i
 
 If you have one or more Galaxy tool shed repositories installed into your local Galaxy instance, you'll see a menu option in the **Server** section of your **Administration** menu labeled **Manage installed tool shed repositories**.
 
-![](/src/UpdatingInstalledRepositories/admin_menu_manage_installed.png)
+<img src="/src/UpdatingInstalledRepositories/admin_menu_manage_installed.png" alt="" height="494" />
 
 Selecting the **Manage installed tool shed repositories** menu item will display a list of all of the repositories that have been installed from any Galaxy tool shed into your Galaxy instance. The page below shows that we have installed four repositories; the bam_to_bigwig repository from the Galaxy test tool shed, the blast2go and blast_datatypes repositories from the Galaxy main too shed and the filter repository that we installed from our local tool shed.  We can get the latest status from the tool shed for each of these repositories using any of the following methods:
 

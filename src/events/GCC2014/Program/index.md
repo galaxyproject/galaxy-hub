@@ -11,7 +11,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
 PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 <div class='right'><br />
-<div class='right'>**[Program (PDF)](ATTACHMENT_URLGCC2014Program.pdf)** &nbsp; </div>
+<div class='right'>**[Program (PDF)](PLACEHOLDER_ATTACHMENT_URL/src/GCC2014Program.pdf)** &nbsp; </div>
 </div>
 
 The [2014 Galaxy Community Conference](/src/Events/GCC2014/Program//index.md) will start with a [Training Day](/src/Events/GCC2014/Program/TrainingDay/index.md) on June 30, followed by two full days of accepted talks, keynotes, [lightning talks](/src/Events/GCC2014/Program/Lightning/index.md), [poster sessions](/src/Events/GCC2014/Abstracts/index.md#poster-abstracts), [birds-of-a-feather sessions](/src/Events/GCC2014/Program/BoFs/index.md), and networking time.

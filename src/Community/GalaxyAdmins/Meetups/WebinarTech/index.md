@@ -50,7 +50,7 @@ These two situations are known to be fixed with this solution:
 
  if you see 
 
-  `Java Web Start splash screen process exiting .....`<br /><div class='right'>![Blackboard Hang](/src/Community/GalaxyAdmins/Meetups/WebinarTech/BlackboardHang1.png)</div>
+  `Java Web Start splash screen process exiting .....`<br /><div class='right'><img src="/src/Community/GalaxyAdmins/Meetups/WebinarTech/BlackboardHang1.png" alt="Blackboard Hang" width="300" /></div>
   `Bad installation. No JRE found in configuration file`</div>
 1. Blackboard Collaborate launches, says loading, gets to 3 of 5 dots on the status indicator and then throws up a blank gray window
 

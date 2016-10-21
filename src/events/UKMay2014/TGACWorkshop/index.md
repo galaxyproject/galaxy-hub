@@ -111,7 +111,7 @@ This workshop is part of the [May 2014 Galaxy UK Tour](/src/Events/UKMay2014/ind
 
 ## Slides
 
-* [Slides](ATTACHMENT_URLDocuments/Presentations/201405TGACWorkshop.pdf)
+* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201405TGACWorkshop.pdf)
 
 ## Questions?
 

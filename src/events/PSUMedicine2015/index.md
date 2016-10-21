@@ -81,7 +81,7 @@ This workshop is generously supported by the [Department of Biochemistry and Mol
 
 ## Slides
 
-* [Slides](ATTACHMENT_URLDocuments/Presentations/2015PennStateHersheyWorkshop.pdf) 
+* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015PennStateHersheyWorkshop.pdf) 
 
 ## Feedback
 

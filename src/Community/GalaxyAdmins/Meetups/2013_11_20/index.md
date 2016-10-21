@@ -23,7 +23,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
   </tr>
   <tr>
     <th> Links </th>
-    <td> <a href='https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262357108822_1384961691322'>Video</a> (Nate's TACC slides start at about 30 minutes)<br /><a href='PLACEHOLDER_ATTACHMENT_URLGalaxyAdmins201311_MoveToTACC.pdf'>Slides (Move to TACC)</a>  </td>
+    <td> <a href='https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262357108822_1384961691322'>Video</a> (Nate's TACC slides start at about 30 minutes)<br /><a href='PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAdmins201311_MoveToTACC.pdf'>Slides (Move to TACC)</a>  </td>
   </tr>
 </table>
 

@@ -11,18 +11,18 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 <div class='right'> <a href='/src/Events/GCC2014/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
 
 
-[Slides](ATTACHMENT_URLThe Galaxy API (GCC2014 TD API).pdf)
+[PLACEHOLDER_ATTACHMENT_URL/src/The Galaxy API ](PLACEHOLDER_ATTACHMENT_URL/src/The Galaxy API )(GCC2014 TD API).pdf|Slides]]
  
 Anaylsis Basics Exercises:
-* [Tarball of exercises (and data)](ATTACHMENT_URLapi-scripts.exercises.tar.gz)
-* [Tarball of completed exercises (and data)](ATTACHMENT_URLapi-scripts.completed.tar.gz)
+* [Tarball of exercises (and data)](PLACEHOLDER_ATTACHMENT_URL/src/api-scripts.exercises.tar.gz)
+* [Tarball of completed exercises (and data)](PLACEHOLDER_ATTACHMENT_URL/src/api-scripts.completed.tar.gz)
 
 Administrative Scripting Exercises:
 
-* [ATTACHMENT_URLdisk_usage_and_job_report.py](ATTACHMENT_URLdisk_usage_and_job_report.py)
-* [ATTACHMENT_URLinstall_toolshed_yaml.py](ATTACHMENT_URLinstall_toolshed_yaml.py)
-* [ATTACHMENT_URLinstall_toolshed_yaml_COMPLETE.py](ATTACHMENT_URLinstall_toolshed_yaml_COMPLETE.py)
-* [ATTACHMENT_URLrun_as.dataset_upload.py](ATTACHMENT_URLrun_as.dataset_upload.py)
-* [ATTACHMENT_URLscaffold_user.py](ATTACHMENT_URLscaffold_user.py)
-* [ATTACHMENT_URLtools.yaml](ATTACHMENT_URLtools.yaml)
+* [PLACEHOLDER_ATTACHMENT_URL/src/disk_usage_and_job_report.py](PLACEHOLDER_ATTACHMENT_URL/src/disk_usage_and_job_report.py)]]
+* [PLACEHOLDER_ATTACHMENT_URL/src/install_toolshed_yaml.py](PLACEHOLDER_ATTACHMENT_URL/src/install_toolshed_yaml.py)]]
+* [PLACEHOLDER_ATTACHMENT_URL/src/install_toolshed_yaml_COMPLETE.py](PLACEHOLDER_ATTACHMENT_URL/src/install_toolshed_yaml_COMPLETE.py)]]
+* [PLACEHOLDER_ATTACHMENT_URL/src/run_as.dataset_upload.py](PLACEHOLDER_ATTACHMENT_URL/src/run_as.dataset_upload.py)]]
+* [PLACEHOLDER_ATTACHMENT_URL/src/scaffold_user.py](PLACEHOLDER_ATTACHMENT_URL/src/scaffold_user.py)]]
+* [PLACEHOLDER_ATTACHMENT_URL/src/tools.yaml](PLACEHOLDER_ATTACHMENT_URL/src/tools.yaml)]]
 

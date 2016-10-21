@@ -78,7 +78,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 ### Freiburger Galaxy Project
 
-<div class='right'>![Galaxy Project](/src/Images/Logos/bioinf-fr-logo-blau.jpg)</div>
+<div class='right'><img src="/src/Images/Logos/bioinf-fr-logo-blau.jpg" alt="Galaxy Project" width="100" /></div>
 
 * *Description:*
   * The Freiburger Galaxy Project is led by Rolf Backofen from the University of Freiburg, Germany. The project is offerring Galaxy support and training for the University of Freiburg and beyond.  
@@ -102,7 +102,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 ### Galaxy Project
 
-<div class='right'>![Galaxy Project](/src/Images/GalaxyLogos/galaxy_project_logo_blue.png)</div>
+<div class='right'><img src="/src/Images/GalaxyLogos/galaxy_project_logo_blue.png" alt="Galaxy Project" width="150" /></div>
 
 * *Description:*
   * The Galaxy Project does training at [events and institutions](/src/Events/index.md) around the world.  These cover the whole range of Galaxy related topics.  Please contact Galaxy Outreach if you are interested in hosting training.
@@ -461,7 +461,7 @@ Trainers that are potentially willing to travel, roughly within their home conti
 
 ### Galaxy @ PRABI Project
 
-<div class='right'>![Galaxy@prabi Project](/src/Images/Logos/PRABILogo.png)</div>
+<div class='right'><img src="/src/Images/Logos/PRABILogo.png" alt="Galaxy@prabi Project" width="150" /></div>
 
 * *Description:*
   * The galaxy@prabi project is led by Vincent Navratil from the [University of Lyon](http://www.univ-lyon1.fr/), France. The project is offerring Galaxy service, support and training for and with research teams working in the perimeter of the [PRABI](http://www.prabi.fr) core facility (Rhône Alpes Region, mainly Lyon and Grenoble) but also beyond the Alps montains.  

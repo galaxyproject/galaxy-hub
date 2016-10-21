@@ -58,7 +58,7 @@ Which brings us to ...
 
 GCC2016 is the 7th annual gathering of the Galaxy community. The conference will include keynotes, accepted talks, poster sessions, birds-of-a-feather meetups, exhibitors, and plenty of networking opportunities. There will also be three days of pre-conference activities, including hackathons and training.  Mark your calendars now.  Registration will open in the fall.
 
-And, please help get the word out by posting [this announcement](ATTACHMENT_URLEvents/GCC2016/GCC2016Announcement.pdf) at your organization.
+And, please help get the word out by posting [this announcement](PLACEHOLDER_ATTACHMENT_URL/src/Events/GCC2016/GCC2016Announcement.pdf) at your organization.
 
 If you work in data-intensive biomedical research, there is no better place than GCC2016 to present your work and to learn from others.
 

@@ -23,7 +23,7 @@ GCC2013 was, by all accounts, a tremendous success.  This was the largest GCC ev
 In addition to the videos and presentation materials, there are also several meeting reports in a wide variety of presentation styles:
 
 * [#usegalaxy lights up northern skies](http://blogs.biomedcentral.com/gigablog/2013/07/09/usegalaxy-lights-up-northern-skies/): Meeting report by [Scott Edmunds](http://blogs.biomedcentral.com/gigablog/author/scottedmunds/) in [GigaBlog](http://blogs.biomedcentral.com/gigablog).
-* [GCC2013 Report](ATTACHMENT_URLDocuments/Presentations/GCC2013/NBICSummary.pdf) - an [NBIC](http://nbic.nl/) centric review of the meeting by Leon Mei.
+* [GCC2013 Report](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/NBICSummary.pdf) - an [NBIC](http://nbic.nl/) centric review of the meeting by Leon Mei.
 * UiO Rector's Blog: [Reproduserbarhet i livsvitenskapene](http://bit.ly/12GQpvC) 
 * [Conference Tweets at ChirpStory](http://chirpstory.com/li/93570)
 * [Storify of conference Tweets](http://storify.com/search?q=GCC2013)

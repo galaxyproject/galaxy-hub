@@ -23,7 +23,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
   </tr>
   <tr>
     <th> Links </th>
-    <td> <a href='https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262346908659_1368628622535'>Screencast</a>, <a href='PLACEHOLDER_ATTACHMENT_URL201305PathogenPortalSlides.pdf'>Slides</a> </td>
+    <td> <a href='https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262346908659_1368628622535'>Screencast</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/201305PathogenPortalSlides.pdf'>Slides</a> </td>
   </tr>
 </table>
 

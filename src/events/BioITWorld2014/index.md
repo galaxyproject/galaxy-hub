@@ -51,7 +51,7 @@ Galaxy will have a significant presence at the [Bio-IT World Conference](http://
     <td> 11:15-11:35 </td>
     <td> <em><a href='http://www.bio-itworldexpo.com/Next-Gen-Sequencing-Informatics/'>Globus Genomics: An End-to-End NGS Analysis Service on the Cloud for Researchers and Core Labs</a></em> </td>
     <td> <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2014BioITMadduri.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2014BioITMadduri.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <td> 2:00-2:30 </td>
@@ -63,15 +63,15 @@ Galaxy will have a significant presence at the [Bio-IT World Conference](http://
     <td> 2:30-3:00 </td>
     <td> <em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Web-Based Visualization and Visual Analysis for High-Throughput Genomics with Galaxy</a></em> </td>
     <td> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2014BioITGoecks.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2014BioITGoecks.pdf'>Slides</a> </td>
   </tr>
 </table>
 
 
 
 <div class='left'>
-[{{attachment:GalaxyAtBioITWorld2014Thumb.png|Galaxy Related Events @ BioIT World 2014|height="137"}}|&do=get](ATTACHMENT_URLGalaxyAtBioITWorld2014Flier.pdf)</div>
+<a href='PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtBioITWorld2014Flier.pdf'><img src="/src/Events/BioITWorld2014/GalaxyAtBioITWorld2014Thumb.png" alt="Galaxy Related Events @ BioIT World 2014" height="137" /></a></div>
 
 ## Flier
 
-Going to Bio-IT World?  Print out a copy of the [Galaxy @ BioIT World 2014 flier|&do=get](ATTACHMENT_URLGalaxyAtBioITWorld2014Flier.pdf).  Want to help get the word out about Galaxy?  The [flier's](ATTACHMENT_URLGalaxyAtBioITWorld2014Flier.pdf) back page has information on [GCC2014](/src/Events/GCC2014/index.md).  Print out a few copies and take them with you.
+Going to Bio-IT World?  Print out a copy of the [Galaxy @ BioIT World 2014 flier](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtBioITWorld2014Flier.pdf).  Want to help get the word out about Galaxy?  The [flier's](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtBioITWorld2014Flier.pdf) back page has information on [GCC2014](/src/Events/GCC2014/index.md).  Print out a few copies and take them with you.

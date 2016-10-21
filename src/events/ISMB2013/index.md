@@ -28,7 +28,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
     <td> <a href='http://www.open-bio.org/wiki/BOSC_2013'>BOSC</a> </td>
     <td> 14:00-14:25 </td>
     <td> </em><a href='http://refinery-platform.org/'>Refinery Platform</a> - Integrating Visualization and Analysis of Large-Scale Biological Data<em>, <a href='http://gehlenborg.com/'>Nils Gehlenborg</a> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2013ISMBRefineryGehlenborg.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2013ISMBRefineryGehlenborg.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th rowspan=7> 20 July </th>
@@ -40,7 +40,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
   <tr>
     <td> 11:50-12:05 </td>
     <td> </em>Reproducible Quantitative Transcriptome Analysis with <a href='http://oqtans.org/'>Oqtans</a><em>, Vipin T. Sreedharan </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2013ISMBOqtansSreedharan.pdf'>Slides</a>, <a href='http://www.youtube.com/watch?v=Q3nmrvS-Z8o'>Video</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2013ISMBOqtansSreedharan.pdf'>Poster</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2013ISMBOqtansSreedharan.pdf'>Slides</a>, <a href='http://www.youtube.com/watch?v=Q3nmrvS-Z8o'>Video</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2013ISMBOqtansSreedharan.pdf'>Poster</a> </td>
   </tr>
   <tr>
     <td> 13:30-13:45 </td>
@@ -65,14 +65,14 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
   <tr>
     <td> 16:25-16:40 </td>
     <td> </em>Understanding Cancer Genomes Using Galaxy<em>, <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a><div class='indent'>This will also be presented as poster 19.</div> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2013BOSCGoecks_UnderstandingCancerGenomes.pdf'>Slides</a>, <a href='http://www.flickr.com/photos/97823772@N02/9367536447/'>Graphic</a>, <a href='http://www.youtube.com/watch?v=zoSYCLycpMk'>Video</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2013BOSCGoecks_UnderstandingCancerGenomes.pdf'>Slides</a>, <a href='http://www.flickr.com/photos/97823772@N02/9367536447/'>Graphic</a>, <a href='http://www.youtube.com/watch?v=zoSYCLycpMk'>Video</a> </td>
   </tr>
   <tr>
     <th> 21 July </th>
     <td> ISMB/ECCB Technology Track </td>
     <td> 14:10-14:35 </td>
     <td> TT09: </em>Understanding Cancer Genomes Using Galaxy,<em> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2013ISMBGoecks_UnderstandingCancerGenomes.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2013ISMBGoecks_UnderstandingCancerGenomes.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th rowspan=6> 22 July </th>
@@ -93,7 +93,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
   </tr>
   <tr>
     <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php?cat=H#H37'>H37: GWIS: Online exhaustive bivariate GWAS in minutes</a><em>, David Rawlinson </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2013ISMBRawlinsonGWIS.pdf'>Poster</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2013ISMBRawlinsonGWIS.pdf'>Poster</a> </td>
   </tr>
   <tr>
     <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php?cat=N#N047'>N047: Clustal Omega</a><em>, Desmond Higgins </td>
@@ -101,32 +101,32 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
   </tr>
   <tr>
     <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php?cat=O#O097'>O097: An Integrated Systems Biology Platform for Complete Proteogenomic Analysis</a><em>, <a href='/src/JohnChilton/index.md'>John Chilton</a> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2013ISMBProteoGenomicsChilton.pdf'>Poster</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2013ISMBProteoGenomicsChilton.pdf'>Poster</a> </td>
   </tr>
   <tr>
     <th rowspan=6> 23 July </th>
     <td> <a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php'>ISMB/ECCB Workshop</a> </td>
     <td> 10:30-12:25 </td>
     <td> </em>Bioconductor and Galaxy: examples of successful bioinformatics networks<em>, Wolfgang Huber and <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a>; part of  <a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php#WK05'>The “How To Guide” for Establishing a Successful Bioinformatics Network</a> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2013ISMBGoecks_BioinformaticsNetworks.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2013ISMBGoecks_BioinformaticsNetworks.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <td rowspan=4> <a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php'>Even Poster Session</a> </td>
     <td rowspan=4> 12:25-14:10 </td>
     <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php?cat=A#A66'>A66: GRANATUM-LiSIs: Making complex in silico predictive models accessible to wet biologists</a><em>, Ioannis Kirmitzoglou  </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2013ISMBGranatumLiSIsKirmitzoglou.pdf'>Poster</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2013ISMBGranatumLiSIsKirmitzoglou.pdf'>Poster</a> </td>
   </tr>
   <tr>
     <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php?cat=B#B26'>B26: GenomeSpace: An environment for frictionless bioinformatics</a>,<em> Michael Reich </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2013ISMBGenomeSpaceReich.png'>Poster</a>, <a href='http://www.flickr.com/photos/97823772@N02/9367536363/'>Graphic</a> </td>
+    <td> <a href='/src/Documents/Presentations/2013ISMBGenomeSpaceReich.png'>Poster</a>, <a href='http://www.flickr.com/photos/97823772@N02/9367536363/'>Graphic</a> </td>
   </tr>
   <tr>
     <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php?cat=B#B60'>B60: Tools for the correction, analysis and visualization of next generation sequencing data</a>,<em> Fidel Ramírez </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2013ISMBDeepToolsRamirez.pdf'>Poster</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2013ISMBDeepToolsRamirez.pdf'>Poster</a> </td>
   </tr>
   <tr>
     <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php?cat=B#B62'>B62: Medilaxy: A Galaxy Platform For Medical Image Analysis</a><em>, Marco Carnini </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2013ISMB_MedilaxyCarnini.pdf'>Poster</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2013ISMB_MedilaxyCarnini.pdf'>Poster</a> </td>
   </tr>
   <tr>
     <td> <a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php'>ISMB/ECCB Workshop</a> </td>

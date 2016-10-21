@@ -81,7 +81,7 @@ No programming or Linux command line experience is required.
 
 ## Slides
 
-The [slides for the lecture part of the workshop are now available](ATTACHMENT_URLDocuments/Presentations/2012_UMarylandWorkshop.pdf).
+The [slides for the lecture part of the workshop are now available](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_UMarylandWorkshop.pdf).
 
 ## Support
 

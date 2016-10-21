@@ -185,7 +185,7 @@ Sponsored and organized by [URGI](http://urgi.versailles.inra.fr/), [GenoToul](h
 **Registration is now open for [Bioinformatics Bootcamps in December](https://training.bioinformatics.ucdavis.edu/bootcamps/)!**
 
 <div class='left'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src="/src/Images/Logos/UCDavisGenomeCenterLogo.jpg" alt="Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core"  /></a><br />
-&nbsp;![Galaxy](/src/Images/Logos/galaxyLogoSymbol.png)</div>
+&nbsp;<img src="/src/Images/Logos/galaxyLogoSymbol.png" alt="Galaxy" width="75" /></div>
 
 The [next offering of UC Davis Bioinformatics Bootcamps](https://training.bioinformatics.ucdavis.edu/bootcamps/) will be held on the [UC Davis](http://www.ucdavis.edu/) campus December 10-13. 
 

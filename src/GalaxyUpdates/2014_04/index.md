@@ -135,7 +135,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/Spon
 ## UC Davis 2014 Bioinformatics Workshop
 
 <div class='right'><a href='http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/'><img src="/src/Images/Logos/UCDavisGenomeCenterLogo.jpg" alt="Using Galaxy for Analysis of High Throughput Sequence Data Workshop"  /></a><br />
-&nbsp;![Galaxy](/src/Images/Logos/galaxyLogoSymbol.png)</div>
+&nbsp;<img src="/src/Images/Logos/galaxyLogoSymbol.png" alt="Galaxy" width="75" /></div>
 
 **Registration is now open for the [Using Galaxy for Analysis of High Throughput Sequence Data Workshop](http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/)** being held at UC Davis, June 16-20, 2014 from 9-5 each day.  The workshop will cover modern high throughput sequencing technologies, applications, and ancillary topics, including:
 

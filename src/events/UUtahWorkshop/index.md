@@ -92,7 +92,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Slides
 
-* [Slides](ATTACHMENT_URLDocuments/Presentations/2016UUtahWorkshop.pdf)
+* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2016UUtahWorkshop.pdf)
 
 ## Feedback
 

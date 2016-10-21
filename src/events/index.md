@@ -315,7 +315,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <td> <em><a href='http://www.jsbi.org/iibmp2016/program_bof/#B10'>GalaxyによるNGSデータ解析 (Galaxy NGS Data Analysis BoF)</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Asia/index.md) <a href='http://www.jsbi.org/iibmp2016/'>第5回生命医薬情報学連合大会 (IIBMP 2016)</a>, Tokyo, Japan </td>
     <td> Ryota Yamanaka, Tazra Ohta </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2016_IIBMP.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2016_IIBMP.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <td colspan=5 style=" background-color: #eef;"> </td>
@@ -426,14 +426,14 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <td> <em><a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home/workshop-agenda/galaxy-abstract'>Introduction to Galaxy Workflows</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home'>Workflows Workshop</a>, <em><a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home/call-for-host-sites'>Distributed</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2016_WorkflowWorkshop.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2016_WorkflowWorkshop.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th> August 1-4 </th>
     <td> <em><a href='http://icbo.cgrb.oregonstate.edu/node/41'>Integrating Ontological and Genomic Analysis with Galaxy Workshop</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://icbo.cgrb.oregonstate.edu/'>ICBO 2016</a>, Corvallis, Oregon, United States </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2016_ICBO_Tutorial.pdf'>Tutorial</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2016_ICBO_Slides.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2016_ICBO_Tutorial.pdf'>Tutorial</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2016_ICBO_Slides.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <td colspan=5 style=" background-color: #eef;"> </td>
@@ -478,7 +478,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <td> <em><a href='http://www.genetics-gsa.org/genetics/2016/cgi-bin/tagc16soe.pl#Sat'>An Introduction to Using Galaxy for Genetic Data Analysis</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://www.genetics2016.org/index.htm'>The Allied Genetics Conference 2016 (TAGC)</a>, Orlando, Florida, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2016_TAGC_Phenotype_Workshop.pdf'>Slides</a>, <a href='http://bit.ly/TGAC_GXY_PDF'>Tutorial</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2016_TAGC_Phenotype_Workshop.pdf'>Slides</a>, <a href='http://bit.ly/TGAC_GXY_PDF'>Tutorial</a> </td>
   </tr>
   <tr>
     <th> July 8-12 </th>

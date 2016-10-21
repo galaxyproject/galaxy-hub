@@ -75,8 +75,8 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Slides
 
-* [Intro and Worked Example Slides](ATTACHMENT_URLDocuments/Presentations/201403UGAWorkshop.pdf)   
-* [Galaxy @ UGA Slides](ATTACHMENT_URLDocuments/Presentations/201403GalxyAtUGA.pdf)
+* [Intro and Worked Example Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201403UGAWorkshop.pdf)   
+* [Galaxy @ UGA Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201403GalxyAtUGA.pdf)
 
 ## Feedback
 

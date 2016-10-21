@@ -68,7 +68,7 @@ No programming or Linux command line experience is required.
 
 The workshop is being held in Room 205 of the [VSU Engineering Building](http://bit.ly/1wQ5A9l) on the [Virginia State University Campus](http://vsu.edu/) ([map](http://www.vsu.edu/files/docs/campus-police/parking-map.pdf)) in Petersburg, Virginia.  There is a visitor parking lot directly east of the building.
 
-* [Driving directions](ATTACHMENT_URLVSU2014Parking.pdf), **[including a parking pass](ATTACHMENT_URLVSU2014Parking.pdf)**
+* [Driving directions](PLACEHOLDER_ATTACHMENT_URL/src/VSU2014Parking.pdf), **[including a parking pass](PLACEHOLDER_ATTACHMENT_URL/src/VSU2014Parking.pdf)**
 
 Please bring a wi-fi enabled laptop to the workshop.
 
@@ -83,17 +83,17 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Slides
 
-* [Slides](ATTACHMENT_URLDocuments/Presentations/201412VSUWorkshop.pdf) (DRAFT)
+* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201412VSUWorkshop.pdf) (DRAFT)
 
 ## Feedback
 
 Please take a few minutes to provide [your feedback](http://bit.ly/gxyvs2014) on the workshop.
 
-<div class='left'>[{{attachment:VSUFlierThumb.png|Download Workshop flier|height="160"}}|&do=get](ATTACHMENT_URLVSUFlier.pdf)</div>
+<div class='left'><a href='PLACEHOLDER_ATTACHMENT_URL/src/VSUFlier.pdf'><img src="/src/Events/VSU2014/VSUFlierThumb.png" alt="Download Workshop flier" height="160" /></a></div>
 
 ## Flier
 
-Please print, post and distribute [the workshop flier|&do=get](ATTACHMENT_URLVSUFlier.pdf)<br />at your organization, and or events.
+Please print, post and distribute [the workshop flier](PLACEHOLDER_ATTACHMENT_URL/src/VSUFlier.pdf)<br />at your organization, and or events.
 ## Questions?
 
 Contact [mailto:gcharris AT vsu DOT edu](Glenn Harris) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).

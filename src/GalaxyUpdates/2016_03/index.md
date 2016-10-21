@@ -205,7 +205,7 @@ We will do our best to coordinate and make this hackathon a nice and productive 
 The [2016 GMOD meeting](http://gmod.org/wiki/Jun_2016_GMOD_Meeting) will be held **immediately following GCC2016 and in the same venue as GCC2016**.  [http://gmod.org/wiki/|GMOD](http://gmod.org/wiki/|GMOD) is a consortium of open-source software project, including Galaxy, that address common challenges with biological data.  Other projects in the GMOD consortium include 
 * [Tripal](http://gmod.org/wiki/Tripal): A web front end for [Chado](http://gmod.org/wiki/Chado) databases.  Galaxy is working with the Tripal project to make Galaxy be Tripal's analysis engine.
 * [JBrowse](http://gmod.org/wiki/JBrowse): A client-side genome browser and successor to the venerable [http://gmod.org/wiki/GBrowse](http://gmod.org/wiki/GBrowse).  [JBrowse as a Galaxy Tool](http://gcc2015.tsl.ac.uk/Lightning/#JBrowse_as_a_Galaxy_Tool) was presented by Eric Rasche at [GCC2015](http://gcc2015.tsl.ac.uk/). Ian Holmes, the JBrowse PI, has put JBrowse-Galaxy integration  at "top of the list" for JBrowse's infrastructure upcoming infrastructure work.
-* [MAKER](http://gmod.org/wiki/MAKER): A genome annotation pipeline that integrates several gene annotation engines, and combines them to produce annotation that is better than any individual tool produces.  A [MAKER-Galaxy](ATTACHMENT_URLDocuments/Posters/ISMB2014_Kandalaft_GenomeAnnotation.pdf) by Agriculture and Agri-Food Canada was presented at ISMB 2014.
+* [MAKER](http://gmod.org/wiki/MAKER): A genome annotation pipeline that integrates several gene annotation engines, and combines them to produce annotation that is better than any individual tool produces.  A [MAKER-Galaxy](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/ISMB2014_Kandalaft_GenomeAnnotation.pdf) by Agriculture and Agri-Food Canada was presented at ISMB 2014.
 * [InterMine](http://gmod.org/wiki/InterMine) and [BioMart](http://gmod.org/wiki/BioMart): These are both popular data sources that are integrated with Galaxy.
 
 Early bird registration ends May 21. For those who would like to present a talk or poster, the [meeting registration form](https://gmod2016.eventbrite.com/) includes a section for submitting the presentation title and abstract. *Note: GCC2016 and GMOD have separate event registration, but are sharing housing - you won't even have to change rooms.*
@@ -367,7 +367,7 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
 
 # Who's Hiring
 
-<div class='right'>![Please Help! Yes you!](/src/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png)</div>
+<div class='right'><img src="/src/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></div>
 
 The Galaxy is expanding! Please help it grow.
 * [Bioinformatics Web Application Developer-Biology](http://bit.ly/1LQQ2qz), Washington University in St. Louis, Missouri, United States

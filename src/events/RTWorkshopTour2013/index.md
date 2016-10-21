@@ -1,7 +1,7 @@
 ---
 title: 2013 Research Triangle Workshop Tour
 ---
-<div class='center'>![](/src/Images/Logos/RTGalaxyWorkshopTour2013.png)</div>
+<div class='center'><img src="/src/Images/Logos/RTGalaxyWorkshopTour2013.png" alt="" width="400px" /></div>
 
 
 

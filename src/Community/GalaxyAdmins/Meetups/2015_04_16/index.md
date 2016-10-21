@@ -20,7 +20,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em>IU Galaxies - tips and tricks</em> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_04_GalaxyAdmins_IUGalaxy_Ganote.pdf'>Slides</a>) <div class='indent'><a href='http://www.researchgate.net/profile/Carrie_Ganote'>Carrie Ganote</a>, <a href='http://ncgas.org/'>National Center for Genome Analysis Support (NCGAS)</a>, <a href='http://pti.iu.edu/'>Pervasive Technology Institute</a>, <a href='http://iu.edu/'>Indiana University</a> </div> <em>Galaxy Project Update: Galaxy's new tool form support</em> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_04_GalaxyAdmins_ToolForms_Guerler.pdf'>Slides</a>)<div class='indent'> <a href='/src/guerler/index.md'>Aysam Guerler</a>, <a href='/src/GalaxyTeam/index.md'>Galaxy</a>, <a href='http://jhu.edu/'>Johns Hopkins University</a> </td>
+    <td> <em>IU Galaxies - tips and tricks</em> (<a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015_04_GalaxyAdmins_IUGalaxy_Ganote.pdf'>Slides</a>) <div class='indent'><a href='http://www.researchgate.net/profile/Carrie_Ganote'>Carrie Ganote</a>, <a href='http://ncgas.org/'>National Center for Genome Analysis Support (NCGAS)</a>, <a href='http://pti.iu.edu/'>Pervasive Technology Institute</a>, <a href='http://iu.edu/'>Indiana University</a> </div> <em>Galaxy Project Update: Galaxy's new tool form support</em> (<a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015_04_GalaxyAdmins_ToolForms_Guerler.pdf'>Slides</a>)<div class='indent'> <a href='/src/guerler/index.md'>Aysam Guerler</a>, <a href='/src/GalaxyTeam/index.md'>Galaxy</a>, <a href='http://jhu.edu/'>Johns Hopkins University</a> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -45,7 +45,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 ## Call Technology
 
-<div class='right'>![April 2015 GalaxyAdmina Meetup, Online Conference Room](/src/Images/Logos/AdobeConnectSquarish.jpg)</div>
+<div class='right'><img src="/src/Images/Logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
 
 The [meetup's online conference room](https://connect.johnshopkins.edu/galaxyadmins201504/) will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 
@@ -55,4 +55,4 @@ The [meetup's online conference room](https://connect.johnshopkins.edu/galaxyadm
   * If you raise your hand, the host will need to recognize you.
   * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
-<div class='center'>![](/src/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>
+<div class='center'><img src="/src/Community/GalaxyAdmins/AdobeConnectQuestion.png" alt="" width="100%" /></div>

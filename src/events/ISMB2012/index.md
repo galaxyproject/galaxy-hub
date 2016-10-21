@@ -20,7 +20,7 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
     <td rowspan=2> <strong><a href='http://www.open-bio.org/wiki/Codefest_2012'>OpenBio Codefest 2012</a></strong> </td>
     <td rowspan=2> All Day </td>
     <td rowspan=2> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> and <a href='/src/DannonBaker/index.md'>Dannon Baker</a> of the the Galaxy Team will participate. </td>
-    <td rowspan=2> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_Codefest_Report.pdf'>Report</a> </td>
+    <td rowspan=2> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_Codefest_Report.pdf'>Report</a> </td>
   </tr>
   <tr>
     <th> Thursday July&nbsp;12 </th>
@@ -33,7 +33,7 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
     <td rowspan=6> <strong><a href='http://www.open-bio.org/wiki/BOSC_2012'>BOSC</a></strong> </td>
     <td> 11:35-12:00 </td>
     <td> </em><a href='http://mgtaxa.jcvi.org/'>MGTAXA</a> - a toolkit and a Web server for predicting taxonomy of the metagenomic sequences with Galaxy front-end and parallel computational back-end<em>, Andrey Tovchigrechko, JCVI </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_BOSC_MGTAXA.pdf'>slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_BOSC_MGTAXA.pdf'>slides</a> </td>
   </tr>
   <tr>
     <th colspan=1> </th>
@@ -43,22 +43,22 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
     <th rowspan=4> Saturday July&nbsp;14 </th>
     <td> 10:45-11:00 </td>
     <td> </em>GenomeSpace: An open source environment for frictionless bioinformatics<em>,  Michael Reich, Broad Institute </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_BOSC_GenomeSpace.pptx'>slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_BOSC_GenomeSpace.pptx'>slides</a> </td>
   </tr>
   <tr>
     <td> 11:00-11:15 </td>
     <td> </em>Galaxy Project Update<em>, <a href='/src/DannonBaker/index.md'>Dannon Baker</a>, Emory University </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_BOSC_GalaxyUpdate.pdf'>slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_BOSC_GalaxyUpdate.pdf'>slides</a> </td>
   </tr>
   <tr>
     <td> 11:15-11:30 </td>
     <td> </em>Zero to a Bioinformatics Analysis Platform in 4 Minutes<em>, <a href='/src/EnisAfgan/index.md'>Enis Afgan</a>, <a href='http://www.irb.hr/eng/'>Ruđer Bošković Institute (RBI)</a> and <a href='http://vlsci.org.au/'>Victorian Life Science Computation Initiative (VLSCI)</a> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_BOSC_Afgan.pdf'>slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_BOSC_Afgan.pdf'>slides</a> </td>
   </tr>
   <tr>
     <td> 2:40-2:55 </td>
     <td> </em>A Framework for Interactive Visual Analysis of NGS Data using Galaxy<em>, <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a>, Emory University </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_BOSC_Trackster.pdf'>slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_BOSC_Trackster.pdf'>slides</a> </td>
   </tr>
   <tr>
     <th colspan=5> </th>
@@ -73,12 +73,12 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
   <tr>
     <td> 2:30-2:55 </td>
     <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismb2012/technologytrack.php'>TT08: Interactive Visual Analysis of NGS Data using Trackster and Galaxy</a><em>, <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a>, Emory University </td>
-    <td rowspan=1> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_ISMB_Goecks.pdf'>Slides</a> </td>
+    <td rowspan=1> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISMB_Goecks.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <td rowspan=1> 3:00-3:25 </td>
     <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismb2012/technologytrack.php'>TT10: The first biomedical AppStore: Galaxy Tool Shed</a><em>, <a href='/src/greg_vonkuster/index.md'>Greg von Kuster</a>, Penn State University </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_ISMB_ToolShed.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISMB_ToolShed.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th colspan=1> </th>
@@ -88,12 +88,12 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
     <th rowspan=9> Monday July&nbsp;16 </th>
     <td> 10:45-11:10 </td>
     <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismb2012/technologytrack.php'>TT15 - GenomeSpace: An environment for frictionless bioinformatics</a><em>, Michael Reich, Broad Institute </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_2012_GenomeSpace.pptx'>slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_2012_GenomeSpace.pptx'>slides</a> </td>
   </tr>
   <tr>
     <td> 11:45-12:10 </td>
     <td> </em><a href='https://www.iscb.org/ismb2012-program/ismb2012-workshops#w3'>WK3 - Part C: Running a Bioinformatics Help Desk: from drawing colorful plasmid maps to working with Hi Seq Data</a>,<em> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a>, Friedrich Miescher Institute </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_ISMB_RunningABioinformaticsHelpDesk.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISMB_RunningABioinformaticsHelpDesk.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <td rowspan=7> 12:40-2:30 </td>
@@ -102,11 +102,11 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
   </tr>
   <tr>
     <td> </em><a href='https://www.iscb.org/cms_addon/conferences/ismb2012/industryposters.php'>Poster AA07: GenomeSpace: An environment for frictionless bioinformatics</a><em>, Michael Reich, Broad Institute </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2012_ISMB_GenomeSpace.pptx'>poster</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2012_ISMB_GenomeSpace.pptx'>poster</a> </td>
   </tr>
   <tr>
     <td> </em><a href='https://www.iscb.org/cms_addon/conferences/ismb2012/posterlist.php?cat=E#E09'>Poster E09: LIMS and Bioinformatics Support for the GLBRC Seed-to-Biofuels Research Pipeline</a>,<em> Yury Bukhman,  Great Lakes Bioenergy Research Center </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_ISMB_Bukhman.pdf'>poster</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISMB_Bukhman.pdf'>poster</a> </td>
   </tr>
   <tr>
     <td> </em><a href='https://www.iscb.org/cms_addon/conferences/ismb2012/posterlist.php?cat=G#G19'>Poster G19: RNA-Seq Analysis of Eucalyptus Genotypes that Differ in Carbon Allocation</a>,<em> Adhemar Zerlotini, EMBRAPA </td>
@@ -144,7 +144,7 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
   </tr>
   <tr>
     <td> </em><a href='https://www.iscb.org/cms_addon/conferences/ismb2012/posterlist.php?cat=U#U36'>Poster U36: Nebula - a web-server for advanced ChIP-Seq data analysis</a><em>, <a href='https://sites.google.com/site/valentinaboeva/'>Valentina Boeva</a>, Institut Curie </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012_ISMB_Nebula.pdf'>poster</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISMB_Nebula.pdf'>poster</a> </td>
   </tr>
   <tr>
     <td> </em><a href='https://www.iscb.org/cms_addon/conferences/ismb2012/posterlist.php?cat=U#U52'>Poster U52: Lessons learned from RNA-Seq Read Alignment Evaluations</a>,<em> Andre Kahles, Memorial Sloan-Kettering Cancer Center </td>

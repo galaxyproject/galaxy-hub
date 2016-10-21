@@ -240,7 +240,7 @@ There are [upcoming events](/src/Events/index.md) in 5 countries on 4 continents
   </tr>
   <tr>
     <th> March 3-5 </th>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Flyers/DéveloppementEtIntégrationDApplicationsSousGalaxy.pdf'>Développement et intégration d’applications sous Galaxy</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Flyers/DéveloppementEtIntégrationDApplicationsSousGalaxy.pdf'>Développement et intégration d’applications sous Galaxy</a> </td>
     <td> <div class='right'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></div> La Chapelle Sur Erdre, France </td>
     <td> <a href="mailto:frederique.malipier@nantes.inra.fr">Frederique Malipier</a> </td>
   </tr>

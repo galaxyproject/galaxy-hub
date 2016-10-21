@@ -27,7 +27,7 @@ Let your voice be heard!
 
 # IRC Channel Policy Change
 
-<div class='left'>![Galaxy IRC Channel](/src/Images/Icons/ChatBalloons.png)</div>
+<div class='left'><img src="/src/Images/Icons/ChatBalloons.png" alt="Galaxy IRC Channel" width="60" /></div>
 
 A proposed change for the #galaxyproject IRC channel was [proposed](/src/News/IRCPublicLogProposal/index.md), and then [discussed, and approved on Galaxy Biostar](http://bit.ly/gxybs8804).  Starting sometime in October, posts to this channel will be made available in a searchable archive on the web.
 
@@ -250,7 +250,7 @@ The [GalaxEast](http://www.galaxeast.fr) project has the following main objectiv
 
 [GalaxEast](http://www.galaxeast.fr) is supported by [IGBMC](http://www.igbmc.fr/), [CNRS](http://www.cnrs.fr/), [Inserm](http://www.inserm.fr/), and [Université Strasbourg](http://www.unistra.fr/).
 
-See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](ATTACHMENT_URLDocuments/Posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/Events/ECCB2014/index.md) by Stephanie Le Gras, *et al.* for more.
+See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/Events/ECCB2014/index.md) by Stephanie Le Gras, *et al.* for more.
 
 ## MIRPIPE
 

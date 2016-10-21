@@ -109,16 +109,16 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Slides
 
-* [Slides](ATTACHMENT_URLDocuments/Presentations/201304TGACWorkshop.pdf)
+* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201304TGACWorkshop.pdf)
 
 ## Flyer
 
-<div class='right'><a href='/src/attachment:TGACGalaxy2013.pdf/index.md'><img src="/src/Events/TGAC2013/TGACGalaxy2013Thumb.png" alt="" width="100" /></a></div>
+<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/TGACGalaxy2013.pdf'><img src="/src/Events/TGAC2013/TGACGalaxy2013Thumb.png" alt="" width="100" /></a></div>
 Please distribute to any groups that might be interested.  You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Seminar on 12 April
 
-* [Slides](ATTACHMENT_URLDocuments/Presentations/2013TGACTalk.pdf)
+* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2013TGACTalk.pdf)
 
 ## Questions?
 

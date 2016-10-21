@@ -9,7 +9,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 
 
 
-<div class='left'>![](/src/Images/Logos/GCC2014_BoF_LogoSquare.png)</div>
+<div class='left'><img src="/src/Images/Logos/GCC2014_BoF_LogoSquare.png" alt="" width="150" /></div>
 
 There is no better place than a Galaxy Community Conference to meet and learn from others doing high-throughput biology.  GCC2014 will continue this tradition by again including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing))* meetups.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
 

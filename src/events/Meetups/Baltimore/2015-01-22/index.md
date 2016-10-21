@@ -1,7 +1,7 @@
 ---
 title: Jan 22, 2015 Baltimore Area Galaxy Meetup @ Johns Hopkins
 ---
-<div class='center'>![Galaxy Baltimore Meetups](/src/Events/Meetups/Baltimore/2015-01-22/GalaxyBaltimoreMeetupLogo400.png)<br /><br />
+<div class='center'><img src="/src/Events/Meetups/Baltimore/2015-01-22/GalaxyBaltimoreMeetupLogo400.png" alt="Galaxy Baltimore Meetups" width="300" /><br /><br />
 <span style="font-size: larger;"> We are full! </span>
 </div>
 

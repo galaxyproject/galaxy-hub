@@ -79,25 +79,25 @@ This image will have a configured and running Galaxy instance.
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLApplianceImport.png'>{{attachment:ApplianceImport.png|Appliance Import Settings Window; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.3. Appliance Import </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/ApplianceImport.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/ApplianceImport.png" alt="Appliance Import Settings Window; click to enlarge" width="200" /></a><br />1.3. Appliance Import </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLImportedVM.png'>{{attachment:ImportedVM.png|VM successfully imported; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.4. VM Imported </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/ImportedVM.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/ImportedVM.png" alt="VM successfully imported; click to enlarge" width="200" /></a><br />1.4. VM Imported </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLVMSettings.png'>{{attachment:VMSettings.png|VM settings; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.5.1 VM settings </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/VMSettings.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/VMSettings.png" alt="VM settings; click to enlarge" width="200" /></a><br />1.5.1 VM settings </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLPortForwarding.png'>{{attachment:PortForwarding.png|Port forwarding rules; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.5.3 Port forwarding rules </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/PortForwarding.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/PortForwarding.png" alt="Port forwarding rules; click to enlarge" width="200" /></a><br />1.5.3 Port forwarding rules </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLMouseInfo.png'>{{attachment:MouseInfo.png|Mouse Pointer info window; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.1. An info screens </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/MouseInfo.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/MouseInfo.png" alt="Mouse Pointer info window; click to enlarge" width="200" /></a><br />2.1. An info screens </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLUserList.png'>{{attachment:UserList.png|List of defined users; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.2. Defined users </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/UserList.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/UserList.png" alt="List of defined users; click to enlarge" width="200" /></a><br />2.2. Defined users </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLXFCEDesktop.png'>{{attachment:XFCEDesktop.png|The XFCE Desktop; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.3. The XFCE Desktop </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/XFCEDesktop.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/XFCEDesktop.png" alt="The XFCE Desktop; click to enlarge" width="200" /></a><br />2.3. The XFCE Desktop </td>
   </tr>
 </table>
 

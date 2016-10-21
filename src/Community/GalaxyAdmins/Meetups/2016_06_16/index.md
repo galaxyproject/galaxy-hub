@@ -18,7 +18,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em>Galaxy in Production at the University of Minnesota</em> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201606_Admins_umn.pdf'>Slides</a>)<div class='indent'> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a> and <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a> of the <a href='https://www.msi.umn.edu/'>Minnesota Supercomputing Institute</a> </div> <em><a href='https://github.com/galaxyproject/galaxy/pull/2455'>Galaxy Radio Telescope</a></em> (<a href='https://github.com/erasche/presentations/blob/master/2016_06_galaxyadmins/talk.pdf'>Slides</a>)<div class='indent'><a href='/src/EricRasche/index.md'>Eric Rasche</a></div> </td>
+    <td> <em>Galaxy in Production at the University of Minnesota</em> (<a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201606_Admins_umn.pdf'>Slides</a>)<div class='indent'> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a> and <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a> of the <a href='https://www.msi.umn.edu/'>Minnesota Supercomputing Institute</a> </div> <em><a href='https://github.com/galaxyproject/galaxy/pull/2455'>Galaxy Radio Telescope</a></em> (<a href='https://github.com/erasche/presentations/blob/master/2016_06_galaxyadmins/talk.pdf'>Slides</a>)<div class='indent'><a href='/src/EricRasche/index.md'>Eric Rasche</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -57,13 +57,13 @@ Galaxy Admins can sign in to the GRT, register their Galaxy servers, and get bac
 And there was a question about MSI login screens during the presentation by Evan and JJ.  Here are two screenshots:
 
 <div class='center'>
-[{{attachment:MSILogin1.png|Login Screen 1; click to expand|width="500"}}|&do=get,target="_blank"](ATTACHMENT_URLMSILogin1.png)
-[{{attachment:MSILogin2.png|Login Screen 1; click to expand|width="500"}}|&do=get,target="_blank"](ATTACHMENT_URLMSILogin2.png)
+<a href='/src/Community/GalaxyAdmins/Meetups/2016_06_16/MSILogin1.png'><img src="/src/Community/GalaxyAdmins/Meetups/2016_06_16/MSILogin1.png" alt="Login Screen 1; click to expand" width="500" /></a>
+<a href='/src/Community/GalaxyAdmins/Meetups/2016_06_16/MSILogin2.png'><img src="/src/Community/GalaxyAdmins/Meetups/2016_06_16/MSILogin2.png" alt="Login Screen 1; click to expand" width="500" /></a>
 </div>
 
 ## Call Technology
 
-<div class='right'>![April 2015 GalaxyAdmina Meetup, Online Conference Room](/src/Images/Logos/AdobeConnectSquarish.jpg)</div>
+<div class='right'><img src="/src/Images/Logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
 
 The  meetup's online conference room will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 
@@ -73,4 +73,4 @@ The  meetup's online conference room will open 15 minutes before the meetup.  Th
   * If you raise your hand, the host will need to recognize you.
   * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
-<div class='center'>![](/src/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>
+<div class='center'><img src="/src/Community/GalaxyAdmins/AdobeConnectQuestion.png" alt="" width="100%" /></div>

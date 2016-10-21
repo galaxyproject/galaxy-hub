@@ -13,7 +13,7 @@
 
 Most of the above tasks are executed within the context of our Galaxy platform that will have to be administrated and further developed. There will be ample opportunities for direct collaborations with research groups and methodological developments.
 
-See the [full job posting](ATTACHMENT_URLFreiburgJobPosting.pdf) for further details. 
+See the [full job posting](PLACEHOLDER_ATTACHMENT_URL/src/FreiburgJobPosting.pdf) for further details. 
 
 ----
 

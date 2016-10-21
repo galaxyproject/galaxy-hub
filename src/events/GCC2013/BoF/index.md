@@ -9,7 +9,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
 PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
 PLACEHOLDER_INCLUDE(/src/Events/GCC2013/BoF/LinkBox/index.md)
 
-<div class='left'>![](/src/Images/Logos/GCC2013BoFLogo.png)</div>
+<div class='left'><img src="/src/Images/Logos/GCC2013BoFLogo.png" alt="" width="250" /></div>
 
 Past Galaxy Community Conferences have been *the* event for networking in the Galaxy: There is no better place to meet and learn from others doing high-throughput biology.  GCC2013 will extend this tradition by including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing))* meetups at the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  Bof meetups are a natural combination of the informal meetups and the scheduled *[Breakout](/src/Events/GCC2012/Program/Breakouts/index.md)* sessions that were already happening at previous GCC's.
 

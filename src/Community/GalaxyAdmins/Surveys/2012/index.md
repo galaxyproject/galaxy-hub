@@ -9,7 +9,7 @@ The [GalaxyAdmins group (formerly GalaxyCzars)](/src/Community/GalaxyAdmins/inde
 
 *Note: Answers have been put into various categories, depending on content.  Some answers covered multiple areas and have been split up.  If you disagree with the categorization of a particular answer, please feel free to move it elsewhere.  This is a wiki, after all.*
 
-The original responses, minus name, institution and email are **[also available](ATTACHMENT_URLGalaxyCzarsSurveySpring2012.xls)**.
+The original responses, minus name, institution and email are **[also available](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyCzarsSurveySpring2012.xls)**.
 
 
 

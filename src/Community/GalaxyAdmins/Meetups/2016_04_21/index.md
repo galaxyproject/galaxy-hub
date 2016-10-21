@@ -19,7 +19,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <strong><a href='http://bioinformatics.oxfordjournals.org/content/early/2016/02/17/bioinformatics.btw042.full'>The Galaxy Portal: Accessing Galaxy from Mobile Devices</a></strong> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201604_Admins_Portal.pdf'>Slides</a>)<div class='indent'> <a href='http://www.mn.uio.no/ifi/english/people/aca/ivargry/'>Ivar Grytten</a> and  <a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/'>Geir Kjetil Sandve</a>, <a href='http://www.uio.no/'>University of Oslo</a> </div> <strong><a href='http://planemo.readthedocs.org/en/latest/galaxy_changelog.html'>Tool Development Developments</a></strong> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201604_Admins_Tools.pdf'>PDF</a>)<div class='indent'><a href='/src/JohnChilton/index.md'>John Chilton</a>, <a href='http://psu.edu/'>Penn State University</a></div> </td>
+    <td> <strong><a href='http://bioinformatics.oxfordjournals.org/content/early/2016/02/17/bioinformatics.btw042.full'>The Galaxy Portal: Accessing Galaxy from Mobile Devices</a></strong> (<a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201604_Admins_Portal.pdf'>Slides</a>)<div class='indent'> <a href='http://www.mn.uio.no/ifi/english/people/aca/ivargry/'>Ivar Grytten</a> and  <a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/'>Geir Kjetil Sandve</a>, <a href='http://www.uio.no/'>University of Oslo</a> </div> <strong><a href='http://planemo.readthedocs.org/en/latest/galaxy_changelog.html'>Tool Development Developments</a></strong> (<a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201604_Admins_Tools.pdf'>PDF</a>)<div class='indent'><a href='/src/JohnChilton/index.md'>John Chilton</a>, <a href='http://psu.edu/'>Penn State University</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -35,7 +35,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 ## Galaxy Portal
 
 <div class='right'>
-![A history in Galaxy Portal](/src/Images/NewsGraphics/GalaxyPortalHistory.png)
+<img src="/src/Images/NewsGraphics/GalaxyPortalHistory.png" alt="A history in Galaxy Portal" width="200" />
 </div>
 
 **Galaxy is now accessible from your [IOS](https://itunes.apple.com/us/app/galaxy-portal/id937158087?mt=8) and [Android](https://play.google.com/store/apps/details?id=no.uio.bmi.claus) devices.** The Galaxy Portal app is a quick and easy way to monitor the status of biomedical research on any Galaxy server. With this app you can set up a list of Galaxy connections and browse your analyses histories in a user-friendly format and take a peek at your data on the go.
@@ -55,7 +55,7 @@ Galaxy Portal is provided free of charge.
 
 ## Call Technology
 
-<div class='right'>![April 2015 GalaxyAdmina Meetup, Online Conference Room](/src/Images/Logos/AdobeConnectSquarish.jpg)</div>
+<div class='right'><img src="/src/Images/Logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
 
 The  meetup's online conference room will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 
@@ -65,4 +65,4 @@ The  meetup's online conference room will open 15 minutes before the meetup.  Th
   * If you raise your hand, the host will need to recognize you.
   * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
-<div class='center'>![](/src/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>
+<div class='center'><img src="/src/Community/GalaxyAdmins/AdobeConnectQuestion.png" alt="" width="100%" /></div>

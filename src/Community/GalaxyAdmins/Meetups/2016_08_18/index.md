@@ -20,7 +20,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em>Dynamic Job Expansion: Experiences using <a href='http://ccl.cse.nd.edu/software/makeflow/'>Makeflow</a> in Galaxy</em> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201608_Admins_Hazecamp_Makeflow.pdf'>Slides</a>)<div class='indent'> <a href='https://engineering.nd.edu/profiles/nhazekamp'>Nick Hazekamp</a>, <a href='http://www.nd.edu/'>University of Notre Dame</a>  </td>
+    <td> <em>Dynamic Job Expansion: Experiences using <a href='http://ccl.cse.nd.edu/software/makeflow/'>Makeflow</a> in Galaxy</em> (<a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201608_Admins_Hazecamp_Makeflow.pdf'>Slides</a>)<div class='indent'> <a href='https://engineering.nd.edu/profiles/nhazekamp'>Nick Hazekamp</a>, <a href='http://www.nd.edu/'>University of Notre Dame</a>  </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -48,7 +48,7 @@ More information on this work is available:
 
 ## Call Technology
 
-<div class='right'>![April 2015 GalaxyAdmin Meetup, Online Conference Room](/src/Images/Logos/AdobeConnectSquarish.jpg)</div>
+<div class='right'><img src="/src/Images/Logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmin Meetup, Online Conference Room" width="150" /></div>
 
 The  meetup's [online conference room](https://connect.johnshopkins.edu/gxyadmins201608/) will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 
@@ -56,4 +56,4 @@ The  meetup's [online conference room](https://connect.johnshopkins.edu/gxyadmin
 
 You can ask questions by *typing the question in the chat box.*
 
-<div class='center'>![](/src/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>
+<div class='center'><img src="/src/Community/GalaxyAdmins/AdobeConnectQuestion.png" alt="" width="100%" /></div>

@@ -6,7 +6,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
 <br /><br />
 
-<div class='left'>![GCC2014 Hackathon](/src/Images/Logos/GCC2014HackLogo200.png)</div>
+<div class='left'><img src="/src/Images/Logos/GCC2014HackLogo200.png" alt="GCC2014 Hackathon" width="200" /></div>
 
 PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 

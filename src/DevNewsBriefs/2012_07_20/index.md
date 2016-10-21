@@ -119,7 +119,7 @@ The [GalaxyCzars group](/src/Community/GalaxyCzars/index.md) was launched and ha
 <br />
 ## Galaxy is Hiring!
 
-<div class='left'>![Galaxy wants YOU](/src/Images/Icons/PointingFinger.png)<div class='center'></div></div>
+<div class='left'><img src="/src/Images/Icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
 **The [Galaxy Team](/src/GalaxyTeam/index.md) Wants You!**
 <br />
 Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/src/GalaxyIsHiring/index.md)

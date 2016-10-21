@@ -155,11 +155,11 @@ This workshop is generously supported by **
 
 ## Flier
 
-Please post / distribute the [workshop flier](ATTACHMENT_URLRochester2016Workshop.pdf) to anyone who might be interested.
+Please post / distribute the [workshop flier](PLACEHOLDER_ATTACHMENT_URL/src/Rochester2016Workshop.pdf) to anyone who might be interested.
 
 ## Slides
 
-* **[Slides](ATTACHMENT_URLDocuments/Presentations/20160RochesterWorkshop.pdf)**
+* **[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/20160RochesterWorkshop.pdf)**
 
 ## Feedback
 

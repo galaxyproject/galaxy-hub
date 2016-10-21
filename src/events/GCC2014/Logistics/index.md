@@ -136,7 +136,7 @@ Rooms in Charles Commons can be reserved with either 3 night or 4 night packages
 
 </div>
 
-<div class='right'>![Inn at The Colonnade Baltimore](/src/Events/GCC2014/Logistics/ColonnadeDome.jpg)<div class='center'><span style="font-size: smaller;">Inn at the Colonnade</span></div></div>
+<div class='right'><img src="/src/Events/GCC2014/Logistics/ColonnadeDome.jpg" alt="Inn at The Colonnade Baltimore" width=160 /><div class='center'><span style="font-size: smaller;">Inn at the Colonnade</span></div></div>
 
 A [block of rooms have been reserved at the Inn at The Colonnade Baltimore](http://doubletree.hilton.com/en/dt/groups/personalized/B/BWICUDT-GCC-20140627/index.jhtml?WT.mc_id=POG) from June 27, 2014 - July 3, 2014 at a special rate of $139/night. The special room rate will be available until May 30th or until the group block is sold-out, whichever comes first.  The [Inn at The Colonnade Baltimore](http://www.colonnadebaltimore.com/) is just off campus and within easy walking distance of the conference venues.
  	

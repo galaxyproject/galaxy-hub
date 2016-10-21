@@ -4,7 +4,7 @@ title: Birds of a Feather (BoF) Flock Together at [GCC2015](http://gcc2015.tsl.a
 PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
 
 
-<div class='left'>![](/src/Images/Logos/GCC2015BoFs300.png)</div>
+<div class='left'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="" width="200" /></div>
 
 There is no better place than a Galaxy Community Conference to meet and learn from others doing data-intensive biology.  [GCC2015](http://gcc2015.tsl.ac.uk/) will continue this tradition by again including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing))* meetups.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
 

@@ -1,6 +1,6 @@
 ## Galaxy Arabic Speaking Community
 
-<div class='right'>![Galaxy Arabic Speaking Community](/src/Community/Arabic/GalaxyArabic400.png)</div>
+<div class='right'><img src="/src/Community/Arabic/GalaxyArabic400.png" alt="Galaxy Arabic Speaking Community" width="200" /></div>
 
 The **Galaxy Arabic speaking community** supports Galaxy activity for the Arabic speaking community and Arabic speaking regions of the world.
 

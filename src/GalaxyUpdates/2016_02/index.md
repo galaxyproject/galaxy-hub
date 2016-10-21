@@ -72,7 +72,7 @@ This is an ideal time to share your work with the community.
 <a href='http://www.lenovo.com/systems'><img src="/src/Images/Logos/LenovoRedBig.png" alt="Lenovo" width="180" /></a>
 </div>
 
-And we are pleased to welcome **[Lenovo](http://www.lenovo.com/systems)**, as a first time **[Gold Sponsor](https://gcc2016.iu.edu/sponsors/index.php)** of GCC.  Lenovo offers a [comprehensive portfolio of high-performance computing infrastructure](ATTACHMENT_URLDocuments/LenovoLifeSciences.pdf) designed to accelerate research, reduce IT complexity and maximize asset utilization in the life sciences.  Lenovo and its network of partners offer a broad portfolio of open, industry-standard infrastructure solutions that can help accelerate product innovation without becoming locked into expensive, inflexible proprietary environments. Lenovo Solution for Life Sciences is comprised of pre-integrated, high-performance servers, storage systems and networking equipment, advanced file systems and integrated workflow management software. Designed to accommodate large data volumes and compute-intensive applications, this solution can help organizations accelerate time to results at a lower total cost of ownership while making it easier to scale your HPC cluster as business grows. 
+And we are pleased to welcome **[Lenovo](http://www.lenovo.com/systems)**, as a first time **[Gold Sponsor](https://gcc2016.iu.edu/sponsors/index.php)** of GCC.  Lenovo offers a [comprehensive portfolio of high-performance computing infrastructure](PLACEHOLDER_ATTACHMENT_URL/src/Documents/LenovoLifeSciences.pdf) designed to accelerate research, reduce IT complexity and maximize asset utilization in the life sciences.  Lenovo and its network of partners offer a broad portfolio of open, industry-standard infrastructure solutions that can help accelerate product innovation without becoming locked into expensive, inflexible proprietary environments. Lenovo Solution for Life Sciences is comprised of pre-integrated, high-performance servers, storage systems and networking equipment, advanced file systems and integrated workflow management software. Designed to accommodate large data volumes and compute-intensive applications, this solution can help organizations accelerate time to results at a lower total cost of ownership while making it easier to scale your HPC cluster as business grows. 
 
 <br />
 
@@ -353,7 +353,7 @@ Interactive tours are a way to walk through Galaxy, following a set of steps to 
 # Galaxy on Windows and OS X using Kitematic
 
 <div class='right'>
-<a href='/src/attachment:Images/NewsGraphics/KitematicSearchBgruening.png/index.md'><img src="/src/Images/NewsGraphics/KitematicSearchBgruening.png" alt="" width="300" /></a>
+<a href='/src/Images/NewsGraphics/KitematicSearchBgruening.png'><img src="/src/Images/NewsGraphics/KitematicSearchBgruening.png" alt="" width="300" /></a>
 </div>
 
 Galaxy has been available in Docker containers for a while now.  Docker containers are an easy way to package software for installation on other systems.  The [Docker Toolbox](https://www.docker.com/products/docker-toolbox) now includes [Kitematic](https://kitematic.com/), a GUI for running Docker containers on Windows and Mac OS X systems.  Kitematic makes it easy to run any published Docker container on these systems.
@@ -525,7 +525,7 @@ See [list of tools contributed in January](/src/ToolShed/Contributions/2016_01/i
 ## Galaxy Goes Mobile!
 
 <div class='right'>
-![A history in Galaxy Portal](/src/Images/NewsGraphics/GalaxyPortalHistory.png)
+<img src="/src/Images/NewsGraphics/GalaxyPortalHistory.png" alt="A history in Galaxy Portal" width="200" />
 </div>
 
 **Galaxy is now accessible from your [IOS](https://itunes.apple.com/us/app/galaxy-portal/id937158087?mt=8) and [Android](https://play.google.com/store/apps/details?id=no.uio.bmi.claus) devices.** The Galaxy Portal app is a quick and easy way to monitor the status of biomedical research on any Galaxy server. With this app you can set up a list of Galaxy connections and browse your analyses histories in a user-friendly format and take a peek at your data on the go.

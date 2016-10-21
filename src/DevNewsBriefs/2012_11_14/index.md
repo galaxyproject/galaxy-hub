@@ -176,7 +176,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 
 ### Find a great Galactic job!
 
-<div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
+<div class='right'><img src="/src/Images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="50" /></div>
 
 * [Engineer position in bioinformatics: structural polymorphism analysis from NGS data](http://bit.ly/TEQvzd) @ [UMR de Génétique Végétale, INRA-Université Paris Sud-CNRS](http://moulon.inra.fr/index.php/fr/equipestransversales/atelier-de-bioinformatique)
 * [R/Bioconductor and Genomics Expert](http://bit.ly/T1QOZP) @ the [Friedrich Miescher Institute](http://www.fmi.ch/), affiliated with the University of Basel.

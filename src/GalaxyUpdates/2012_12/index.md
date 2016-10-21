@@ -75,7 +75,7 @@ See [the list of public Galaxy servers](/src/PublicGalaxyServers/index.md) for m
 
 ## Who's Hiring
 
-<div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
+<div class='right'><img src="/src/Images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * [Research Fellow (Molecular Biologist)](http://bit.ly/UZzlOd) @ [MRC Human Genetics Unit](http://www.hgu.mrc.ac.uk/) at the [MRC Institute of Genetics and Molecular Medicine](http://www.igmm.ac.uk/), Edinburgh, UK

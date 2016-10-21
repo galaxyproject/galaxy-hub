@@ -110,7 +110,7 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
   * Datasets can be associated with one or more History, but are only considered once.
   * All copies of a dataset must be permanently deleted for it to not be considered.
   * Histories/datasets that are shared with you are *only partially considered* unless you import them.
-  * **Active** and **Deleted** histories can be **permanently deleted** using from the History pane *Options &rarr; Saved Histories*, then click on *Advanced Search*, then click on *status: all*. Check the box for the histories to be discarded and then click on the button *Permanently delete*. <br />![View all saved histories](/src/Learn/ManagingDatasets/saved_histories_view_all.png)
+  * **Active** and **Deleted** histories can be **permanently deleted** using from the History pane *Options &rarr; Saved Histories*, then click on *Advanced Search*, then click on *status: all*. Check the box for the histories to be discarded and then click on the button *Permanently delete*. <br /><img src="/src/Learn/ManagingDatasets/saved_histories_view_all.png" alt="View all saved histories" width="500" />
 * ***WARNING*** **Permanently deleted** datasets and histories **cannot be recovered** by the user or administrator. The best way to avoid losing important data by accident is to clearly name all histories and important datasets.
   * Name a dataset:
     * Click on the *pencil icon* ![](/src/Images/Icons/pencil.png) in the right History pane) to reach the *Edit Attributes* form. Here a dataset's primary *Name, Info , Annotation, and Notes* can be adjusted.

@@ -93,7 +93,7 @@ These workshops are generously supported by  the [Biological & Medical Informati
 
 ## Slides
 
-* [Slides](ATTACHMENT_URLDocuments/Presentations/201412VSUWorkshop.pdf)
+* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201412VSUWorkshop.pdf)
 
 ## Questions?
 

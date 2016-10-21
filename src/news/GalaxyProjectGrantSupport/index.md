@@ -2,7 +2,7 @@
 
 Dear Galaxy users, developers, and friends of the project,
 
-<div class='right'>![Galaxy Project](/src/Images/Logos/galaxyLogo200.png)</div>
+<div class='right'><img src="/src/Images/Logos/galaxyLogo200.png" alt="Galaxy Project" width="170" /></div>
 
 The Galaxy project has been generously supported in the past by the [National Human Genome Research Institute](https://www.genome.gov/) and the [National Science Foundation](http://www.nsf.gov/). The time has come once again for us to seek continued funding for the core Galaxy development team, and we would like to ask for your help.
 

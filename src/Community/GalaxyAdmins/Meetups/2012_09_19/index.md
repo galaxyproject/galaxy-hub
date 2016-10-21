@@ -9,7 +9,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 # Links
 
-* [Slides](ATTACHMENT_URL2012-09-19-Galaxy_Managers-UFL-Moskalenko.pdf): Alex Moskalenko: 2012-09-19-Galaxy_Managers-UFL-Moskalenko.pdf
+* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/2012-09-19-Galaxy_Managers-UFL-Moskalenko.pdf): Alex Moskalenko: 2012-09-19-Galaxy_Managers-UFL-Moskalenko.pdf
 * [Screencast](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262330108904_1348060268057): Unfortunately the recording starting a bit late for our up front discussion about logistics (name change/common time).  But it began right after Alex starting his presentation (the important part!). 
 
 ## Meeting Summary

@@ -110,12 +110,12 @@ This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/src/Events/Mi
 
 ## Slides
 
-* [Monday Workshop](ATTACHMENT_URLDocuments/Presentations/20130429WashUWorkshop.pdf)
-* [Wednesday Workshop](ATTACHMENT_URLDocuments/Presentations/20130501WashUWorkshop.pdf)
+* [Monday Workshop](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/20130429WashUWorkshop.pdf)
+* [Wednesday Workshop](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/20130501WashUWorkshop.pdf)
 
 ## Flyer
 
-<div class='right'><a href='/src/attachment:WashUGalaxy2013.pdf/index.md'><img src="/src/Events/WashU2013/WashUGalaxy2013Thumb.png" alt=""  /></a></div>
+<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/WashUGalaxy2013.pdf'><img src="/src/Events/WashU2013/WashUGalaxy2013Thumb.png" alt=""  /></a></div>
 Please distribute to groups in Washington University that might be interested. You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?

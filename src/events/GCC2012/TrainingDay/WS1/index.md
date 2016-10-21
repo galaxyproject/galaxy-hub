@@ -1,4 +1,4 @@
-Slides are available here: [Slides](ATTACHMENT_URLDocuments/Presentations/GCC2012/WS1_blankenberg_gcc_2012_integrating_tools_and_data_sources.pdf).
+Slides are available here: [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2012/WS1_blankenberg_gcc_2012_integrating_tools_and_data_sources.pdf).
 
 maf_slice.py:
 ```

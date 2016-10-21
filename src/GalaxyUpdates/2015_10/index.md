@@ -151,13 +151,13 @@ Topics will then be selected and scheduled based on topic interest, and the orga
 
 
 
-**We are now [seeking proposals](ATTACHMENT_URLDocuments/GCC2016CallForHosts.pdf) from organizations interested in hosting GCC2017.**
+**We are now [seeking proposals](PLACEHOLDER_ATTACHMENT_URL/src/Documents/GCC2016CallForHosts.pdf) from organizations interested in hosting GCC2017.**
 
 GCC draws 200+ participants from the full range of data-intensive life science research.  Participants come from around the world, from all career stages, and do research spanning the tree of life.  Universities, hospitals and medical schools, research organizations, and industry are all represented, including several of the largest and most influential research organizations in the world.  
 
 Hosts get copious (and enthusiastic) organizational support from Galaxy's Outreach Team (who have been helping to organize GCC since 2011), and even more copious gratitude (even *adulation!)* from the Galaxy Community.  
 
-See the **[full call for host proposals](ATTACHMENT_URLDocuments/GCC2016CallForHosts.pdf)** for more details on what should be covered in proposals.  Proposals are due by the end of ~~30 October~~ **30 November 2015**. If you are interested in possibly hosting GCC2017 then please contact [mailto:outreach@galaxyproject.org](Galaxy Outreach) with any questions.
+See the **[full call for host proposals](PLACEHOLDER_ATTACHMENT_URL/src/Documents/GCC2016CallForHosts.pdf)** for more details on what should be covered in proposals.  Proposals are due by the end of ~~30 October~~ **30 November 2015**. If you are interested in possibly hosting GCC2017 then please contact [mailto:outreach@galaxyproject.org](Galaxy Outreach) with any questions.
 
 Hoping to work with you in 2017!
 

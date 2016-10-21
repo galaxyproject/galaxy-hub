@@ -369,7 +369,7 @@ The new papers were tagged with:
 
 # Who's Hiring
 
-<div class='right'><br />![Please Help! Yes you!](/src/Images/GalaxyIsExpandingCloud.png)</div>
+<div class='right'><br /><img src="/src/Images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 * [PhD student or postdoctoral researcher](http://www.uni-freiburg.de/verwaltung/stellenboerse/?erf=y&stellenid=9837&layout=v4), University of Freiburg, Freiburg, Germany.

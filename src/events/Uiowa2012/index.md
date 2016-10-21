@@ -101,8 +101,8 @@ No programming or Linux command line experience is required.
 
 ## Slides
 
-* [Introduction to Galaxy](ATTACHMENT_URLDocuments/Presentations/2012_UIowaIntroToGalaxy.pdf), [Dave Clements](/src/DaveClements/index.md)
-* [University of Iowa Custom Galaxy Deployment](ATTACHMENT_URLDocuments/Presentations/2012_UIowaCustomGalaxyDeployment.pdf), Ann Black-Ziegelbein
+* [Introduction to Galaxy](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_UIowaIntroToGalaxy.pdf), [Dave Clements](/src/DaveClements/index.md)
+* [University of Iowa Custom Galaxy Deployment](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_UIowaCustomGalaxyDeployment.pdf), Ann Black-Ziegelbein
 
 ## Support
 
@@ -112,7 +112,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Flyer
 
-Please help get the word out by distributing [this flyer](ATTACHMENT_URLUIowaGalaxyWorkshop.pdf) in your department.
+Please help get the word out by distributing [this flyer](PLACEHOLDER_ATTACHMENT_URL/src/UIowaGalaxyWorkshop.pdf) in your department.
 
 ## Feedback
 

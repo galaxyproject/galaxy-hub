@@ -26,7 +26,7 @@ The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject
 
 Sponsorships are available at four different levels.
 
-<div class='center'>![](/src/Events/GCC2013/Sponsorships/PlatinumBanner.png)</div>
+<div class='center'><img src="/src/Events/GCC2013/Sponsorships/PlatinumBanner.png" alt="" height="52",width="95%" /></div>
 
 <div class='center'><a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'><img src="/src/Images/Logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="340" /></a></div>
 
@@ -45,7 +45,7 @@ Sponsorships are available at four different levels.
 
 <br /><br />
 
-<div class='center'>![](/src/Events/GCC2013/Sponsorships/GoldBanner.png)</div>
+<div class='center'><img src="/src/Events/GCC2013/Sponsorships/GoldBanner.png" alt="" height="52",width="90%" /></div>
 
 <table>
   <tr>
@@ -73,7 +73,7 @@ Sponsorships are available at four different levels.
 
 <br /><br />
 
-<div class='center'>![](/src/Events/GCC2013/Sponsorships/SilverBanner.png)</div>
+<div class='center'><img src="/src/Events/GCC2013/Sponsorships/SilverBanner.png" alt="" height="52",width="85%" /></div>
 
 <table>
   <tr>
@@ -104,7 +104,7 @@ Sponsorships are available at four different levels.
 
 <br /><br />
 
-<div class='center'>![](/src/Events/GCC2013/Sponsorships/BronzeBanner.png)</div>
+<div class='center'><img src="/src/Events/GCC2013/Sponsorships/BronzeBanner.png" alt="" height="52",width="80%" /></div>
 
 <div class='center'>
 <a href='http://bio.maryland.gov/'><img src="/src/Images/Logos/BioMaryland400.png" alt="BioMaryland" width="250" /></a>
@@ -120,7 +120,7 @@ Sponsorships are available at four different levels.
 
 <br /><br />
 
-<div class='center'>![](/src/Events/GCC2013/Sponsorships/OtherBanner.png)</div>
+<div class='center'><img src="/src/Events/GCC2013/Sponsorships/OtherBanner.png" alt="" height="52",width="80%" /></div>
 
 <div class='center'>
 <a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" /></a><br />
@@ -139,7 +139,7 @@ Please [contact the organizers](/src/Events/GCC2014/Organizers/index.md) to make
 </div>
 <br /><br />
 
-<div class='center'>![](/src/Events/GCC2013/Sponsorships/HostsBanner.png)
+<div class='center'><img src="/src/Events/GCC2013/Sponsorships/HostsBanner.png" alt="" height="52",width="80%" />
 
 <br />
 <a href='http://biolchem.bs.jhmi.edu/'><img src="/src/Images/Logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins"  /></a> &nbsp; 

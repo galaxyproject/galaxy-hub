@@ -1103,7 +1103,7 @@ The Galaxy project started to [use Twitter](/src/GalaxyOnTwitter/index.md) on a 
 Summary of feedback on 3 key questions from [GCC2011](/src/Events/GCC2011/index.md), [GCC2012](/src/Events/GCC2012/index.md), [GCC2013](/src/Events/GCC2013/index.md), [GCC2014](/src/Events/GCC2014/index.md), and [GCC2015](http://gcc2015.tsl.ac.uk/)
 
 <div class='center'>
-![Would you recommend Galaxy events to others?](/src/GalaxyProject/Statistics/GCCRecommendGraph.png)  ![How useful was the GCC?](/src/GalaxyProject/Statistics/GCCUsefulGraph.png) ![How well run and organized was the GCC?](/src/GalaxyProject/Statistics/GCCOrganized.png)
+<img src="/src/GalaxyProject/Statistics/GCCRecommendGraph.png" alt="Would you recommend Galaxy events to others?"  />  <img src="/src/GalaxyProject/Statistics/GCCUsefulGraph.png" alt="How useful was the GCC?"  /> <img src="/src/GalaxyProject/Statistics/GCCOrganized.png" alt="How well run and organized was the GCC?"  />
 </div>
 
 ## Training Workshop Feedback
@@ -1111,7 +1111,7 @@ Summary of feedback on 3 key questions from [GCC2011](/src/Events/GCC2011/index.
 The Galaxy Project runs a lot of workshops.  Whenever possible we collect feedback from participants and always ask the same core questions.  Here are the responses to three key questions from 221 participants at 18 workshops in 2012 and 2013.
 
 <div class='center'>
-![Would you recommend Galaxy workshops to others?](/src/GalaxyProject/Statistics/WorkshopsRecommendGraph.png)  ![How useful was the workshop?](/src/GalaxyProject/Statistics/WorkshopsUsefulGraph.png) ![How well run and organized was the workshop?](/src/GalaxyProject/Statistics/WorkshopsOrganized.png)
+<img src="/src/GalaxyProject/Statistics/WorkshopsRecommendGraph.png" alt="Would you recommend Galaxy workshops to others?"  />  <img src="/src/GalaxyProject/Statistics/WorkshopsUsefulGraph.png" alt="How useful was the workshop?"  /> <img src="/src/GalaxyProject/Statistics/WorkshopsOrganized.png" alt="How well run and organized was the workshop?"  />
 </div>
 
 # Wiki

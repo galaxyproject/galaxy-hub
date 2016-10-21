@@ -31,7 +31,7 @@ The newly added servers are:
 
 * *Links:*
   * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/), part of the [OSDD Portal](http://sysborg2.osdd.net).
-  * *Customized Galaxy with Applications as Web Services and on the Grid for Open Source Drug Discovery*, presentation by Anshu Bhardwaj and Chintalapati Janaki at [GCC2011](http://wiki.galaxyproject.org/Events/GCC2011) ([Slides](ATTACHMENT_URLEvents/GCC2011/OpenSourceDrugDiscovery.pdf), [Video](http://vimeo.com/24870112)).
+  * *Customized Galaxy with Applications as Web Services and on the Grid for Open Source Drug Discovery*, presentation by Anshu Bhardwaj and Chintalapati Janaki at [GCC2011](http://wiki.galaxyproject.org/Events/GCC2011) ([Slides](PLACEHOLDER_ATTACHMENT_URL/src/Events/GCC2011/OpenSourceDrugDiscovery.pdf), [Video](http://vimeo.com/24870112)).
 * *Domain/Purpose:* 
     [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) exposes the tools that are included in [OSDDlinux](http://osddlinux.osdd.net/), "a customized linux operating system for drug discovery that integrates open source software, libraries, workflows and web services in linux for creating environment for drug discovery."   OSDDLinux contains a Galaxy instance with applications for Drug Discovery.
 * *Comments:*
@@ -198,7 +198,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/Spon
 ## UC Davis Bioinformatics Boot Camps
 
 <div class='left'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src="/src/Images/Logos/UCDavisGenomeCenterLogo.jpg" alt="Boot Camps @ UC Davis Bioinformatics Core" width="60" /></a><br />
-&nbsp;![Galaxy](/src/Images/Logos/galaxyLogoSymbol.png)</div>
+&nbsp;<img src="/src/Images/Logos/galaxyLogoSymbol.png" alt="Galaxy" width="55" /></div>
 
 **There is still space in 3 of the 4 [UC Davis Bioinformatics Bootcamps](https://training.bioinformatics.ucdavis.edu/bootcamps/) this month.**
 
@@ -386,7 +386,7 @@ There were many...
 
 ## deepTools
 
-<div class='right solid'>![deepTools](/src/GalaxyUpdates/2013_12/deepToolsCollage.png)</div>
+<div class='right solid'><img src="/src/GalaxyUpdates/2013_12/deepToolsCollage.png" alt="deepTools" width="500" /></div>
 
 [deepTools](http://toolshed.g2.bx.psu.edu/view/bgruening/deeptools) is a suite of tools that close the software gap between the very first steps of data processing of deeply sequenced data and biologically insightful downstream analyses. deepTools comprise efficient and reliable programs that enable users to perform quality controls and to generate bigWig files of normalised read coverages with different scaling approaches. Furthermore, the tools offer fast computation of coverages for user-specified genomic regions including their visualisation as meta-profiles and heatmaps. deepTools can be installed via the [ToolShed](http://toolshed.g2.bx.psu.edu/view/bgruening/deeptools) and source is at [GitHub](https://github.com/fidelram/deepTools/).
 

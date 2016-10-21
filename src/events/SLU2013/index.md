@@ -93,11 +93,11 @@ This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/src/Events/Mi
 ## Links
 
 * [Feedback](http://bit.ly/20130430Gxy)
-* [Workshop Slides](ATTACHMENT_URLDocuments/Presentations/2013SLUWorkshop.pdf)
+* [Workshop Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2013SLUWorkshop.pdf)
 
 ## Flyer
 
-<div class='right'><a href='/src/attachment:SLUGalaxy2013.pdf/index.md'><img src="/src/Events/SLU2013/SLUGalaxy2013Thumb.png" alt=""  /></a></div>
+<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/SLUGalaxy2013.pdf'><img src="/src/Events/SLU2013/SLUGalaxy2013Thumb.png" alt=""  /></a></div>
 Please distribute to groups in Saint Louis University that might be interested. You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?

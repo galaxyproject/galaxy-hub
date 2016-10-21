@@ -44,7 +44,7 @@ Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbec
   <tr>
     <th> 14:51 </th>
     <td> </em>Increasing the utility of Galaxy workflows<em> <div class='indent'><a href='/src/JohnChilton/index.md'>John Chilton</a></div> </td>
-    <td> <a href='http://bit.ly/bosc2015workflows'>Slides</a> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_BOSC_Chilton_workflows.pdf'>PDF</a>), <a href='http://youtu.be/4ETL81P6p_g'>Video</a> </td>
+    <td> <a href='http://bit.ly/bosc2015workflows'>Slides</a> (<a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015_BOSC_Chilton_workflows.pdf'>PDF</a>), <a href='http://youtu.be/4ETL81P6p_g'>Video</a> </td>
   </tr>
   <tr>
     <th> 15:10 </th>
@@ -54,7 +54,7 @@ Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbec
   <tr>
     <th> 15:15 </th>
     <td> </em>Evolution of the Galaxy tool ecosystem - happier developers, happier users<em> <div class='indent'> <a href='/src/Marten/index.md'>Martin Čech</a></div> </td>
-    <td> <a href='https://docs.google.com/presentation/d/1jWOGAKIMTe2kszd63tEGLZ-vKUTlm9-9wTzqqGfewEg/edit#slide=id.gb506b3749_0_0'>Slides</a> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_BOSC_Cech.pdf'>PDF</a>), <a href='http://youtu.be/APYzQWg0nrs'>Video</a> </td>
+    <td> <a href='https://docs.google.com/presentation/d/1jWOGAKIMTe2kszd63tEGLZ-vKUTlm9-9wTzqqGfewEg/edit#slide=id.gb506b3749_0_0'>Slides</a> (<a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015_BOSC_Cech.pdf'>PDF</a>), <a href='http://youtu.be/APYzQWg0nrs'>Video</a> </td>
   </tr>
   <tr>
     <th> 17:15 </th>
@@ -135,7 +135,7 @@ Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbec
   </tr>
   <tr>
     <td> </em><a href='https://www.iscb.org/cms_addon/conferences/ismbeccb2015/posterlist.php?cat=N#N63'>N63: RiboGalaxy: development of a platform for the alignment, analysis and visualization of ribo-seq data</a><em> <div class='indent'>Audrey Michel</div> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2015_ISMB_RiboGalaxy.pdf'>Poster</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2015_ISMB_RiboGalaxy.pdf'>Poster</a> </td>
   </tr>
   <tr>
     <th rowspan=2> 13 July </th>
@@ -151,13 +151,13 @@ Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbec
     <th> 14 July </th>
     <th> 12:00 </th>
     <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2015/technologytrack.php'>TT16: What’s new in the Galaxy (Project)?</a><em> <div class='indent'> <a href='/src/DaveClements/index.md'>Dave Clements</a> </div> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_ISMB_Galaxy_Update_Clements.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015_ISMB_Galaxy_Update_Clements.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th> 14 July </th>
     <th> 12:20 </th>
     <td> </em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2015/technologytrack.php'>TT18: RiboGalaxy: a platform for the alignment, analysis and visualization of ribo-seq data</a><em> <div class='indent'>Audrey Michel </div> </td>
-    <td> (See <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2015_ISMB_RiboGalaxy.pdf'>poster</a>) </td>
+    <td> (See <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2015_ISMB_RiboGalaxy.pdf'>poster</a>) </td>
   </tr>
 </table>
 

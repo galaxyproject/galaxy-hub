@@ -30,16 +30,16 @@ This page provides a step-by-step instructions on how to start your own instance
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLAWSSetRegion.png'>{{attachment:AWSSetRegion.png|Set region; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.2. Set region </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/CloudMan/AWS/GettingStarted/AWSSetRegion.png'><img src="/src/CloudMan/AWS/GettingStarted/AWSSetRegion.png" alt="Set region; click to enlarge" width="200" /></a><br />1.2. Set region </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLAWSConsoleKeyPairs.png'>{{attachment:AWSConsoleKeyPairs.png|Click on key pairs; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.3. Click on key pairs </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/CloudMan/AWS/GettingStarted/AWSConsoleKeyPairs.png'><img src="/src/CloudMan/AWS/GettingStarted/AWSConsoleKeyPairs.png" alt="Click on key pairs; click to enlarge" width="200" /></a><br />1.3. Click on key pairs </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLAWSDefaultSecurityGroups.png'>{{attachment:AWSDefaultSecurityGroups.png|Create security group; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.5. Create security group </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/CloudMan/AWS/GettingStarted/AWSDefaultSecurityGroups.png'><img src="/src/CloudMan/AWS/GettingStarted/AWSDefaultSecurityGroups.png" alt="Create security group; click to enlarge" width="200" /></a><br />1.5. Create security group </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLAWSApplyRuleChanges.png'>{{attachment:AWSApplyRuleChanges.png|Create security group; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.7. Add inbound rules </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/CloudMan/AWS/GettingStarted/AWSApplyRuleChanges.png'><img src="/src/CloudMan/AWS/GettingStarted/AWSApplyRuleChanges.png" alt="Create security group; click to enlarge" width="200" /></a><br />1.7. Add inbound rules </td>
   </tr>
 </table>
 
@@ -47,13 +47,13 @@ This page provides a step-by-step instructions on how to start your own instance
 
 1. Because AWS services implement pay-as-you-go access model for compute resources, it is necessary for every user of the service to *[register with Amazon](http://aws.amazon.com/)*. <div class='red'>You will need a credit card to register.</span>  (You can apply for a [AWS Education Grant](http://aws.amazon.com/education) after you register). 
 
-2. Once your account has been approved by Amazon (note that this may take up to one business day), *log into the [EC2 AWS Management Console](http://console.aws.amazon.com/ec2)* and set your AWS Region to *US East (Virginia)*. This is the only region Galaxy CloudMan is fully supported in at this time (see [screenshot 1.2|&do=get,target="_blank"](ATTACHMENT_URLAWSSetRegion.png)).
+2. Once your account has been approved by Amazon (note that this may take up to one business day), *log into the [EC2 AWS Management Console](http://console.aws.amazon.com/ec2)* and set your AWS Region to *US East (Virginia)*. This is the only region Galaxy CloudMan is fully supported in at this time (see [screenshot 1.2](/src/CloudMan/AWS/GettingStarted/AWSSetRegion.png)).
 
-3. Click **Network & Security &rarr; Key Pairs** or **My Resources &rarr; *n* Key Pairs** (see [screenshot 1.3|&do=get,target="_blank"](ATTACHMENT_URLAWSConsoleKeyPairs.png) - if it does not look like this, then try using the Chrome browser) and then click **Create Key Pair**.  Enter a memorable name for the key pair, e.g., `GalaxyCloud` and click **Create**.
+3. Click **Network & Security &rarr; Key Pairs** or **My Resources &rarr; *n* Key Pairs** (see [screenshot 1.3](/src/CloudMan/AWS/GettingStarted/AWSConsoleKeyPairs.png) - if it does not look like this, then try using the Chrome browser) and then click **Create Key Pair**.  Enter a memorable name for the key pair, e.g., `GalaxyCloud` and click **Create**.
 
 4. *Save your private key!* The previous step creates the key pair and downloads a copy to your machine with the name *`MemorableName`*`.pem`.  Save this file and protect it like you would your password. The key pair can be used to access started instances from the command line.
 
-5. *Create a Security Group* by clicking **Network & Security &rarr; Security Groups &rarr; Create Security Group** (see [screenshot 1.5|&do=get,target="_blank"](ATTACHMENT_URLAWSDefaultSecurityGroups.png)). Specify a name (e.g., `GalaxyGroup`) and provide a brief description.  **VPC** should be **No VPC**.  Click the **Yes, Create** button.  The new group now appears in the list and details about the group are listed at the bottom of the page.
+5. *Create a Security Group* by clicking **Network & Security &rarr; Security Groups &rarr; Create Security Group** (see [screenshot 1.5](/src/CloudMan/AWS/GettingStarted/AWSDefaultSecurityGroups.png)). Specify a name (e.g., `GalaxyGroup`) and provide a brief description.  **VPC** should be **No VPC**.  Click the **Yes, Create** button.  The new group now appears in the list and details about the group are listed at the bottom of the page.
 
 6. *Add Inbound Rules* to the new group by clicking the **Inbound** tab.  For each new rule you will need to select the protocol (the rule type) from the **Create a new rule:** pulldown, fill in the fields for that rule, and then click **Add Rule**. Define these rules:
   1. Protocol: HTTP<br />Source: `0.0.0.0/0` <div class='indent'>Unless you want to restrict access based on [the source IP](http://en.wikipedia.org/wiki/CIDR_notation)</div>
@@ -62,7 +62,7 @@ This page provides a step-by-step instructions on how to start your own instance
   4. Protocol: Custom TCP rule<br />Port range: `20-21`<br />Source: `0.0.0.0/0`<div class='indent'>This rule opens ports required for FTP file transfer.</div>
   5. Protocol: Custom TCP rule<br />Port range: `30000-30100`<br />Source: `0.0.0.0/0`<div class='indent'>This rule opens ports required for passive FTP file transfer.</div>
   6. Protocol: All TCP<br />Source: *name of group, e.g. `GalaxyGroup`*<div class='indent'>The Source will automatically change to the security group ID. This action will enable multiple instances in the same security group to communicate with each other on Amazon EC2's internal network.</div>
-  7. Click **Apply Rule Changes**.  The window should look like the [screenshot 1.7|&do=get,target="_blank"](ATTACHMENT_URLAWSApplyRuleChanges.png).
+  7. Click **Apply Rule Changes**.  The window should look like the [screenshot 1.7](/src/CloudMan/AWS/GettingStarted/AWSApplyRuleChanges.png).
 
 All of these inbound rules are necessary for proper functioning of CloudMan and Galaxy.
 
@@ -78,28 +78,28 @@ All of these inbound rules are necessary for proper functioning of CloudMan and 
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLAWSAMISearch.png'>{{attachment:AWSAMISearch.png|Find & Select AMI; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.3. Find & Select AMI </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/CloudMan/AWS/GettingStarted/AWSAMISearch.png'><img src="/src/CloudMan/AWS/GettingStarted/AWSAMISearch.png" alt="Find & Select AMI; click to enlarge" width="200" /></a><br />2.3. Find & Select AMI </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLAWSRequestInstanceDetails.png'>{{attachment:AWSRequestInstanceDetails.png|Set instance details; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.4. Instance details </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/CloudMan/AWS/GettingStarted/AWSRequestInstanceDetails.png'><img src="/src/CloudMan/AWS/GettingStarted/AWSRequestInstanceDetails.png" alt="Set instance details; click to enlarge" width="200" /></a><br />2.4. Instance details </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLAWSUserData.png'>{{attachment:AWSUserData.png|set user data; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.5. Set User Data. </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/CloudMan/AWS/GettingStarted/AWSUserData.png'><img src="/src/CloudMan/AWS/GettingStarted/AWSUserData.png" alt="set user data; click to enlarge" width="200" /></a><br />2.5. Set User Data. </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLAWSCredentialsLink.png'>{{attachment:AWSCredentialsLink.png|Get to credentials; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.5.3. Get to credentials. </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/CloudMan/AWS/GettingStarted/AWSCredentialsLink.png'><img src="/src/CloudMan/AWS/GettingStarted/AWSCredentialsLink.png" alt="Get to credentials; click to enlarge" width="200" /></a><br />2.5.3. Get to credentials. </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLAWSCredentials.png'>{{attachment:AWSCredentials.png|Credentials; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.5.4. Credentials. </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/CloudMan/AWS/GettingStarted/AWSCredentials.png'><img src="/src/CloudMan/AWS/GettingStarted/AWSCredentials.png" alt="Credentials; click to enlarge" width="200" /></a><br />2.5.4. Credentials. </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLAWSPreLaunchReview.png'>{{attachment:AWSPreLaunchReview.png|Review & launch; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.9. Review & Launch! </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/CloudMan/AWS/GettingStarted/AWSPreLaunchReview.png'><img src="/src/CloudMan/AWS/GettingStarted/AWSPreLaunchReview.png" alt="Review & launch; click to enlarge" width="200" /></a><br />2.9. Review & Launch! </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLAWSInstanceList.png'>{{attachment:AWSInstanceList.png|AWS EC2 instances list; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.10. AWS instance is up </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/CloudMan/AWS/GettingStarted/AWSInstanceList.png'><img src="/src/CloudMan/AWS/GettingStarted/AWSInstanceList.png" alt="AWS EC2 instances list; click to enlarge" width="200" /></a><br />2.10. AWS instance is up </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLGalaxyNotRunning.png'>{{attachment:GalaxyNotRunning.png|Galaxy not running yet; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.11. Galaxy CloudMan is<br />ready to configure </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/CloudMan/AWS/GettingStarted/GalaxyNotRunning.png'><img src="/src/CloudMan/AWS/GettingStarted/GalaxyNotRunning.png" alt="Galaxy not running yet; click to enlarge" width="200" /></a><br />2.11. Galaxy CloudMan is<br />ready to configure </td>
   </tr>
 </table>
 

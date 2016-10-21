@@ -84,8 +84,8 @@ This workshop is part of the [May 2014 Galaxy UK Tour](/src/Events/UKMay2014/ind
 
 ## Slides
 
-* [Galaxy Sides](ATTACHMENT_URLDocuments/Presentations/201405UEDINBURGHWorkshop.pdf)   
-* [Edinburgh Genomics Sides](ATTACHMENT_URLDocuments/Presentations/201405EdinburghGenomics.pdf)   
+* [Galaxy Sides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201405UEDINBURGHWorkshop.pdf)   
+* [Edinburgh Genomics Sides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201405EdinburghGenomics.pdf)   
 
 ## Feedback
 

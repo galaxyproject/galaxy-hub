@@ -331,7 +331,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 <a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a> 
 </div>
 
-[Slides and video](/src/Community/GalaxyAdmins/Meetups/2016_04_21/index.md) from the [April 2016 GalaxyAdmins meetup are now available](/src/Community/GalaxyAdmins/Meetups/2016_04_21/index.md). [Ivar Grytten](http://www.mn.uio.no/ifi/english/people/aca/ivargry/) and  [Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/) from the [University of Oslo](http://www.uio.no/) discussed [The Galaxy Portal: Accessing Galaxy from Mobile Devices](http://bioinformatics.oxfordjournals.org/content/early/2016/02/17/bioinformatics.btw042.full) ([Slides](ATTACHMENT_URLDocuments/Presentations/201604_Admins_Portal.pdf)) and [John Chilton](/src/JohnChilton/index.md) covered [Tool Development Developments](http://planemo.readthedocs.org/en/latest/galaxy_changelog.html).
+[Slides and video](/src/Community/GalaxyAdmins/Meetups/2016_04_21/index.md) from the [April 2016 GalaxyAdmins meetup are now available](/src/Community/GalaxyAdmins/Meetups/2016_04_21/index.md). [Ivar Grytten](http://www.mn.uio.no/ifi/english/people/aca/ivargry/) and  [Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/) from the [University of Oslo](http://www.uio.no/) discussed [The Galaxy Portal: Accessing Galaxy from Mobile Devices](http://bioinformatics.oxfordjournals.org/content/early/2016/02/17/bioinformatics.btw042.full) ([Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201604_Admins_Portal.pdf)) and [John Chilton](/src/JohnChilton/index.md) covered [Tool Development Developments](http://planemo.readthedocs.org/en/latest/galaxy_changelog.html).
 
 ## Conda Dependency Codefest Report
 
@@ -483,7 +483,7 @@ Dataset collections help analyzing multiple datasets in just a few clicks. This 
 
 # Who's Hiring
 
-<div class='right'><br />![Please Help! Yes you!](/src/Images/GalaxyIsExpandingCloud.png)</div>
+<div class='right'><br /><img src="/src/Images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 * [Galaxy Administrator & Developer](http://www.uni-freiburg.de/verwaltung/stellenboerse/?erf=y&stellenid=9693&layout=v4), University of Freiburg, Freiburg, Germany.
