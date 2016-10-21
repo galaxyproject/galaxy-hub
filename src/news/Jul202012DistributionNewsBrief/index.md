@@ -1,8 +1,8 @@
-<div class='newsItemHeader'>[July 20, 2012 Distribution & News Brief](/News/Jul202012 Distribution News Brief)</div>
+<div class='newsItemHeader'>[July 20, 2012 Distribution & News Brief](/src/News/Jul202012 Distribution News Brief/index.md)</div>
 
 
 **Complete [News Brief](/src/DevNewsBriefs/2012_07_20/index.md)**
-<div class='right'><a href='/DevNewsBriefs/2012_07_20/'><img src='/Images/NewsGraphics/2012_07_20_main-page.png' alt='genome-indexing' width="250px" /></a></div>
+<div class='right'><a href='/src/DevNewsBriefs/2012_07_20/index.md'><img src="/src/Images/NewsGraphics/2012_07_20_main-page.png" alt="genome-indexing" width="250px" /></a></div>
 **Highlights:**
 * **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** has moved from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)*
 * **[EMBOSS](http://emboss.sourceforge.net/)** version 5.0.0 tool dependencies in the `emboss_5` repository of the Galaxy Main Tool Shed updated to include information for automatically installing. 
@@ -23,8 +23,8 @@ upgrade: % hg pull -u -r ec29ce8e27a1
 
 [Jennifer Jackson](/src/JenniferJackson/index.md)
 
-[/Galaxy Team](/Galaxy Team)
+[Galaxy Team](/src/Galaxy Team/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on <<Date(2012-07-21T06:28:04Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-07-21</div>
 
 CategoryNews

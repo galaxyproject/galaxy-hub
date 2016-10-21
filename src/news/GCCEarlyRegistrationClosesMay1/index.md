@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[GCC Early Registration Closes May 1](/News/GCC Early Registration Closes May 1)</div>
+<div class='newsItemHeader'>[GCC Early Registration Closes May 1](/src/News/GCC Early Registration Closes May 1/index.md)</div>
 
 [Galaxy Community Conference registration](http://galaxy.psu.edu/gcc2011/Register.html) is now open again. Early registration ends May 1.  We had limited success in finding additional lodging for on May 24 and May 26:
 
@@ -14,6 +14,6 @@ Thanks,
 
 -- DaveClements
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on <<Date(2011-04-26T16:17:49Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-04-26</div>
 
 CategoryNews

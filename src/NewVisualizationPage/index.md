@@ -1,11 +1,13 @@
 ---
 autotoc: true
+title: Visualization in Galaxy
 ---
-<div class="title">Visualization in Galaxy</div>
+
+
 
 ### Genome Browser (aka Trackster)
 
-<div class='right'>![Trackster, gene-level view](/t1.png)</div>
+<div class='right'><img src="/src/New%20Visualization%20Page/t1.png" alt="Trackster, gene-level view" height=150 /></div>
 
 Trackster is Galaxy's built-in genome browser and is similar to IGV, IGB, and Ensembl's & UCSC's genome browsers. Trackster highlights includes:
 
@@ -14,10 +16,14 @@ Trackster is Galaxy's built-in genome browser and is similar to IGV, IGB, and En
 * no data or software downloads;
 * save, share, and publish your visualizations.
 
-More information about using Trackster can be found here: [/Trackster](/Trackster)
+More information about using Trackster can be found here: [Trackster](/src/Trackster/index.md)
 
 
 ### Circos plot (aka Circster)
+
 ### Tool Parameter Sweeps (aka Sweepster)
+
 ### ScatterPlot
+
 ### Phylogenetic Tree Visualization
+
