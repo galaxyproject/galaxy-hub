@@ -14,4 +14,4 @@ Thanks,
 [Dave Clements](/src/DaveClements/index.md)
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-08-19</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

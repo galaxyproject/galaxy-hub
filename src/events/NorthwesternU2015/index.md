@@ -30,7 +30,7 @@ No programming or Linux command line experience is required.
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:30 </th>
-    <td> <strong>Arrival</strong><div class='indent'>Arrival and </em>coffee<em></div> </td>
+    <td> <strong>Arrival</strong><div class='indent'>Arrival and <em>coffee</em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>

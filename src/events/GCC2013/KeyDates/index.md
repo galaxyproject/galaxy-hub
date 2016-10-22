@@ -18,7 +18,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
   </tr>
   <tr style="background-color: #ffd" >
     <td> 11 January </td>
-    <td> <a href='/src/Events/GCC2013/TrainingDay/index.md'>Training Day Topic Nomination</a> </strong>closed<strong> </td>
+    <td> <a href='/src/Events/GCC2013/TrainingDay/index.md'>Training Day Topic Nomination</a> <strong>closed</strong> </td>
   </tr>
   <tr style="background-color: #ffd" >
     <td> 28 January </td>
@@ -26,7 +26,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
   </tr>
   <tr style="background-color: #ffd" >
     <td> 11 February </td>
-    <td> <a href='/src/Events/GCC2013/TrainingDay/index.md'>Training Day Topic Voting</a> </strong>closed<strong> </td>
+    <td> <a href='/src/Events/GCC2013/TrainingDay/index.md'>Training Day Topic Voting</a> <strong>closed</strong> </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> 22 February </td>
@@ -38,7 +38,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
   </tr>
   <tr style="background-color: #dfd" >
     <td> 12 April </td>
-    <td> <a href='/src/Events/GCC2013/Abstracts/index.md'>Talk Abstract submission</a> </strong>closed<strong> </td>
+    <td> <a href='/src/Events/GCC2013/Abstracts/index.md'>Talk Abstract submission</a> <strong>closed</strong> </td>
   </tr>
   <tr style="background-color: #dfd" >
     <td> 26 April </td>
@@ -46,7 +46,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
   </tr>
   <tr style="background-color: #dfd" >
     <td> 3 May </td>
-    <td> <a href='/src/Events/GCC2013/Abstracts/index.md'>Poster Abstract submission</a> </strong>closed<strong> </td>
+    <td> <a href='/src/Events/GCC2013/Abstracts/index.md'>Poster Abstract submission</a> <strong>closed</strong> </td>
   </tr>
   <tr style="background-color: #dfd" >
     <td> 16 May </td>
@@ -54,7 +54,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
   </tr>
   <tr style="background-color: #ddf" >
     <td> 24 May </td>
-    <td> <a href='/src/Events/GCC2013/Register/index.md'>Early registration</a> </strong>closes<strong> </td>
+    <td> <a href='/src/Events/GCC2013/Register/index.md'>Early registration</a> <strong>closes</strong> </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> 24 May </td>
@@ -66,11 +66,11 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
   </tr>
   <tr style="background-color: #ddf" >
     <td> 14 June </td>
-    <td> <a href='/src/Events/GCC2013/Register/index.md'>Regular Registration</a> </strong>closed<strong> </td>
+    <td> <a href='/src/Events/GCC2013/Register/index.md'>Regular Registration</a> <strong>closed</strong> </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> 26 June </td>
-    <td> <a href='/src/Events/GCC2013/Register/index.md'>Late registration</a> </strong>closed<strong> </td>
+    <td> <a href='/src/Events/GCC2013/Register/index.md'>Late registration</a> <strong>closed</strong> </td>
   </tr>
   <tr style="background-color: #dff" >
     <td> 30 June </td>

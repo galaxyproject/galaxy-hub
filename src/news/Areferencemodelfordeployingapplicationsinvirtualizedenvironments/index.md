@@ -6,4 +6,4 @@ A new paper, "[A reference model for deploying applications in virtualized envir
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-09-01</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

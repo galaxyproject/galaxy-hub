@@ -193,8 +193,8 @@ Restore the fresh backup if a database update was required, and then restart Gal
 
 ## Get Galaxy for Development
 
-* *Fork Galaxy in !GitHub*
-  * If you're doing development or making changes to Galaxy, it's typically a good idea to fork Galaxy in !GitHub and update to/from your fork. 
+* *Fork Galaxy in GitHub*
+  * If you're doing development or making changes to Galaxy, it's typically a good idea to fork Galaxy in GitHub and update to/from your fork. 
   * This changes the process slightly, see the [GitHub fork documentation](https://help.github.com/articles/fork-a-repo/) for details.
 
 ## Become an Admin: Example

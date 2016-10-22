@@ -244,10 +244,10 @@ Authentication can of course be changed to suit one's needs.
 
 ## TLS Configuration
 
-If you're running the galaxy FTP portion under a !VirtualHost, like
+If you're running the galaxy FTP portion under a VirtualHost, like
 described above, you'll notice that TLS directives placed in the main
-proftpd.conf file do not apply to !VirtualHosts. As such, you can add a
-section that looks like this to every !VirtualHost that needs to be secured
+proftpd.conf file do not apply to VirtualHosts. As such, you can add a
+section that looks like this to every VirtualHost that needs to be secured
 
 ```apache
 <IfModule mod_tls.c>

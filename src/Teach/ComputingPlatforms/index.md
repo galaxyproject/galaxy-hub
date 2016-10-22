@@ -206,7 +206,7 @@ This option describes Galaxy servers that are created for teaching purposes.
 
 <div class='right'><a href='/src/CloudMan/index.md'><img src="/src/Images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
 
-CloudMan software abstracts much of the details of different [Cloud](/src/Cloud/index.md) infrastructures and provides a uniform graphical interface for managing cloud-based servers.  
+[CloudMan](/src/CloudMan/index.md) software abstracts much of the details of different [Cloud](/src/Cloud/index.md) infrastructures and provides a uniform graphical interface for managing cloud-based servers.  
 
 ### A Word on AWS
 
@@ -272,7 +272,7 @@ Participants can set up their own CloudMan-based Galaxy server.  This can be don
 
 </div>
 
-*Amazon Machine Images (AMIs)* are a type of virtual machine image (see below) that runs on the Amazon Web Services infrastructure.  Using an AMI to [teach Galaxy installation and management](/src/Teach/ComputingPlatforms/index.md#teaching-admin) is a great option, and you can determine how much has already been done on the image, from a bare-bones Linux install to an image with the Galaxy source already cloned from !GitHub.
+*Amazon Machine Images (AMIs)* are a type of virtual machine image (see below) that runs on the Amazon Web Services infrastructure.  Using an AMI to [teach Galaxy installation and management](/src/Teach/ComputingPlatforms/index.md#teaching-admin) is a great option, and you can determine how much has already been done on the image, from a bare-bones Linux install to an image with the Galaxy source already cloned from GitHub.
 
 ## Laptop-Based Galaxy Servers
 

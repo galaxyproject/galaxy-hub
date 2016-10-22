@@ -44,4 +44,4 @@ If you are interested, please add your name below and/or send an email to [mailt
 
 Send them to [mailto:langhorst@neb DOT com](Brad Langhorst).
 
-CategoryBoF
+[CategoryBo](/src/CategoryBo/index.md)F

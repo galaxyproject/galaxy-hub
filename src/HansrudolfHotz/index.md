@@ -10,4 +10,4 @@ Email: [mailto:hrh AT SPAMFREE fmi DOT ch](hrh AT SPAMFREE fmi DOT ch)
 ...
 
 ----
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

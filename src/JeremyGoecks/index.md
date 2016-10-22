@@ -19,4 +19,4 @@ Jeremy is an Assistant Professor of Computational Biology at George Washington U
 
 
 ----
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

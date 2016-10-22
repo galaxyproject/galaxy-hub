@@ -15,8 +15,8 @@ In South Africa?  A [Galaxy Workshop Tour](/src/Events/index.md) is happening in
     <td style=" text-align: center; width: 300px; border: none;"> <a href='/src/Events/UCapeTown2013/index.md'><img src="/src/Images/Logos/UCapeTownWide.jpg" alt="University of Cape Town" width="280" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> </strong><a href='/src/Events/UPretoria2013/index.md'>14-18 October</a><strong> </td>
-    <td style=" text-align: center; border: none;"> </strong><a href='/src/Events/UCapeTown2013/index.md'>21-25 October</a><strong> </td>
+    <td style=" text-align: center; border: none;"> <strong><a href='/src/Events/UPretoria2013/index.md'>14-18 October</a></strong> </td>
+    <td style=" text-align: center; border: none;"> <strong><a href='/src/Events/UCapeTown2013/index.md'>21-25 October</a></strong> </td>
   </tr>
 </table>
 

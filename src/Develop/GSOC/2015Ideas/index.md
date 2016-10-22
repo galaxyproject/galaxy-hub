@@ -88,7 +88,7 @@ The [RGalaxy](http://www.bioconductor.org/packages/release/bioc/html/RGalaxy.htm
 **Expected Outcomes**
 
 * Develop a higher-level intermediary or allow direct translation of Bioconductor tools into Galaxy Tools.
-* Automate creation and publication of Tool Shed artifacts for these tools, including extracting and publishing stable dependencies to resources such as !GitHub.
+* Automate creation and publication of Tool Shed artifacts for these tools, including extracting and publishing stable dependencies to resources such as GitHub.
 * Demonstrate utility of these functionality by porting several new Bioconductor tools to the Galaxy Tool Shed.
 
 **Stretch Goals**
@@ -119,7 +119,7 @@ Furthermore, since workflow annotations for Refinery are currently stored in gen
 
 **Possible Mentors** [Nils Gehlenborg](http://gehlenborg.com/), [Ilya Sytchev](https://github.com/hackdna)
 
-**Required Skills** !JavaScript and Python programming, preferably some experience with [Django](https://www.djangoproject.com/), [D3.js](http://d3js.org/), and [AngularJS](https://angularjs.org/).
+**Required Skills** JavaScript and Python programming, preferably some experience with [Django](https://www.djangoproject.com/), [D3.js](http://d3js.org/), and [AngularJS](https://angularjs.org/).
 
 ** Potentially Helpful Skills ** Knowledge of basic graph algorithms and common bioinformatics data analysis workflows.
 
@@ -140,7 +140,7 @@ Implement Galaxy [data providers](/src/DataProviders/index.md) and [visualizatio
 
 **Possible Mentors** [Ira Cooke](https://github.com/iracooke), [John Chilton](/src/JohnChilton/index.md)
 
-**Required Skills** Python and !JavaScript programming
+**Required Skills** Python and JavaScript programming
 
 **Potentially Helpful Skills** Proteomics knowledge, R programming, familiarity with data visualization
 
@@ -148,18 +148,18 @@ Implement Galaxy [data providers](/src/DataProviders/index.md) and [visualizatio
 
 [PeptideShaker](http://code.google.com/p/peptide-shaker/) ([paper](http://www.nature.com/nbt/journal/v33/n1/full/nbt.3109.html)) is an exciting open source proteomics application that combines multiple [mass spectrometry](http://en.wikipedia.org/wiki/Protein_mass_spectrometry) search engines results into a unified view of complex data.
 
-The Galaxy proteomics community maintains Galaxy tools for [building PeptideShaker files](https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/peptideshaker). Galaxy users can download these files to their hard drive and open them in !PeptideShaker - but the genomic visualizations provided in Galaxy such as [IGV](https://sites.google.com/site/princetonhtseq/tutorials/visualization-with-galaxy-and-igv) allow a much more seamless and responsive experience.  This project would involve exploring various options to be that high-quality user experience to !PeptideShaker - both by enabling IGV-like streaming of data from Galaxy to the researchers local copy of !PeptideShaker and by keeping !PeptideShaker near the data.
+The Galaxy proteomics community maintains Galaxy tools for [building PeptideShaker files](https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/peptideshaker). Galaxy users can download these files to their hard drive and open them in PeptideShaker - but the genomic visualizations provided in Galaxy such as [IGV](https://sites.google.com/site/princetonhtseq/tutorials/visualization-with-galaxy-and-igv) allow a much more seamless and responsive experience.  This project would involve exploring various options to be that high-quality user experience to PeptideShaker - both by enabling IGV-like streaming of data from Galaxy to the researchers local copy of PeptideShaker and by keeping PeptideShaker near the data.
 
 **Expected Outcomes**
 
-* Modify !PeptideShaker to allow it to listen on a port for a URL to a file to open (like IGV)
-* Create a [Interactive Environments](https://wiki.galaxyproject.org/Admin/IEs) plugin for !PeptideShaker. Existing IE plugins have targeted web applications like IPython - but more traditional desktop applications should be exportable via [https://kanaka.github.io/noVNC/](/src/noVNC/index.md).  
+* Modify PeptideShaker to allow it to listen on a port for a URL to a file to open (like IGV)
+* Create a [Interactive Environments](https://wiki.galaxyproject.org/Admin/IEs) plugin for PeptideShaker. Existing IE plugins have targeted web applications like IPython - but more traditional desktop applications should be exportable via [https://kanaka.github.io/noVNC/](/src/noVNC/index.md).  
 
 **Stretch Goals**
 
-* Allow streaming data into !PeptideShaker just as needed.
+* Allow streaming data into PeptideShaker just as needed.
 * Create a generic framework for quickly building out Galaxy IEs for Desktop applications.
-* Enable two way communication between !PeptideShaker and Galaxy - by allowing exporting files from !PeptideShaker directly back into Galaxy.
+* Enable two way communication between PeptideShaker and Galaxy - by allowing exporting files from PeptideShaker directly back into Galaxy.
 
 **Possible Mentors** [Marc Vaudel](http://compomics.com/people/marc-vaudel/), [Björn Grüning](/src/BjoernGruening/index.md)
 
@@ -257,13 +257,13 @@ Galaxy has basic functionality allowing users to export their history (the compl
 **Expected Outcomes**
 
 * Update History import and export to work with the newer concept of [dataset collections](http://bit.ly/gcc2014workflows).
-* Update UI to use !JavaScript and poll import and export process (no more manual refreshes).
+* Update UI to use JavaScript and poll import and export process (no more manual refreshes).
 * Update UI to respond to errors well and display information about failures.
 * Write comprehensive documentation to describe the process.
 
 **Stretch Outcomes**
 
-* Extend documentation to include explicit instructions about how to transfer analysis histories on public sites such usegalaxy.org to cloud instances using !CloudLaunch.
+* Extend documentation to include explicit instructions about how to transfer analysis histories on public sites such usegalaxy.org to cloud instances using CloudLaunch.
 * Simplify history export to allow users to just copy a URL that can be used to target the API for history export 
 
 that can be pasted into an import the history from another Galaxy instance.
@@ -274,7 +274,7 @@ that can be pasted into an import the history from another Galaxy instance.
 
 **Required Skills** Python programming
 
-**Potentially Helpful Skills** !JavaScript and Backbone programming
+**Potentially Helpful Skills** JavaScript and Backbone programming
 
 ## Improved and Updated Debian Packaging of Galaxy
 

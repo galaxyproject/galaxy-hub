@@ -25,7 +25,7 @@ Welcome to the January *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a summary
     Also see the [Immunoglobulin Galaxy VM](http://bit.ly/IGGXY_VM)
 
 * [VectorBase: an updated bioinformatics resource for invertebrate vectors and other organisms related with human diseases](http://dx.doi.org/10.1093/nar/gku1117)
-    *Nucleic Acids Research* (15 December 2014), doi:10.1093/nar/gku1117, by Gloria I. Giraldo-Calderón, Scott J. Emrich, Robert M. !MacCallum, *et al.*
+    *Nucleic Acids Research* (15 December 2014), doi:10.1093/nar/gku1117, by Gloria I. Giraldo-Calderón, Scott J. Emrich, Robert M. MacCallum, *et al.*
 
 The new papers covered these topics:
 
@@ -141,47 +141,47 @@ There are [upcoming events](/src/Events/index.md) on two continents.  See the [G
   </tr>
   <tr>
     <th> January 10-14 </th>
-    <td> </em>Galaxy for SNP and Variant Data Analysis<em> </td>
+    <td> <em>Galaxy for SNP and Variant Data Analysis</em> </td>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXIII (PAG2014)</a>, San Diego, California, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 15 </th>
-    <td> </em><a href='/src/Events/SDSU2014/index.md'>Galaxy Workshops</a><em> </td>
+    <td> <em><a href='/src/Events/SDSU2014/index.md'>Galaxy Workshops</a></em> </td>
     <td> <a href='http://sdsu.edu/'>San Diego State University</a>, San Diego, California, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 15-16 </th>
-    <td> </em>Accessible and Reproducible Genomics at Scale with Galaxy<em> </td>
+    <td> <em>Accessible and Reproducible Genomics at Scale with Galaxy</em> </td>
     <td> <a href='http://www.vibconferences.be/event/revolutionizing-next-generation-sequencing-tools-and-technologies'>Revolutionizing Next-Generation Sequencing: Tools and Technologies</a>, Leuven, Belgium </td>
     <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> January 19-20 </th>
-    <td> </em>NGS pipelines with Galaxy<em> </td>
+    <td> <em>NGS pipelines with Galaxy</em> </td>
     <td> <a href='http://www.uppnex.se/events/eInfraMPS2015'>e-Infrastructures for Massively Parallel Sequencing</a>, <a href='http://www.scilifelab.se/'>SciLifeLab</a>, Uppsala, Sweden </td>
     <td> <a href='http://www.crs4.it/crs4/peopledetails/people/148/Luca_Pireddu'>Luca Pireddu</a> </td>
   </tr>
   <tr>
     <th> February 9-13 </th>
-    <td> </em><a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a><em> </td>
+    <td> <em><a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a></em> </td>
     <td> Montpellier, France </td>
     <td> <a href="mailto:jean-francois.dufayard@cirad.fr">J.F. Dufayard</a> </td>
   </tr>
   <tr>
     <th rowspan=3> February 16-18 </th>
-    <td> </em>Accessible and Reproducible Large-Scale Analysis with Galaxy<em> </td>
+    <td> <em>Accessible and Reproducible Large-Scale Analysis with Galaxy</em> </td>
     <td rowspan=1> <a href='http://www.triconference.com/Sequencing-Analysis/'>Genome and Transcriptome Analysis</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
     <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
-    <td> </em>Large-Scale NGS data Analysis on Amazon Web Services Using Globus Genomic<em> </td>
+    <td> <em>Large-Scale NGS data Analysis on Amazon Web Services Using Globus Genomic</em> </td>
     <td rowspan=2> <a href='http://www.triconference.com/Integration-Analysis-Visualization/'>Genomics & Sequencing Data Integration, Analysis and Visualization</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
     <td> <a href='http://www.ci.anl.gov/profile/250'>Ravi Madduri</a> </td>
   </tr>
   <tr>
-    <td> </em>iReport: An Integrative “omics” Reporting and Visualisation Platform<em> </td>
+    <td> <em>iReport: An Integrative “omics” Reporting and Visualisation Platform</em> </td>
     <td> Andrew Stubbs </td>
   </tr>
   <tr>
@@ -192,7 +192,7 @@ There are [upcoming events](/src/Events/index.md) on two continents.  See the [G
   </tr>
   <tr>
     <th> July 6-8 </th>
-    <td> </strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a><strong> </td>
+    <td> <strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a></strong> </td>
     <td> <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -269,7 +269,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
   * A full Galaxy server that includes reference information and workflows focusing on invertebrate vectors of human pathogens.
 * *Comments:*
   * from [VectorBase: an updated bioinformatics resource for invertebrate vectors and other organisms related with human diseases](http://nar.oxfordjournals.org/content/early/2014/12/15/nar.gku1117.full), Gloria I. Giraldo-Calderón *et al.*, *Nucleic Acids Ressearch* (2014) doi: 10.1093/nar/gku1117: 
-      "[VectorBase](http://vectorbase.org/) has also made available the latest relevant canonical data in this Galaxy instance. Examples of workflow analyses include alignment of Next Generation Sequence (NGS) data sets, calculation of expression values, or predicting single nucleotide polymorphisms (SNPs). Registered users can store their raw data, intermediate files and final analysis results for download or direct sharing via the BRC, which greatly improves the ability to collaborate with colleagues and !VectorBase developers."
+      "[VectorBase](http://vectorbase.org/) has also made available the latest relevant canonical data in this Galaxy instance. Examples of workflow analyses include alignment of Next Generation Sequence (NGS) data sets, calculation of expression values, or predicting single nucleotide polymorphisms (SNPs). Registered users can store their raw data, intermediate files and final analysis results for download or direct sharing via the BRC, which greatly improves the ability to collaborate with colleagues and VectorBase developers."
 * *User Support:*
   * [VectorBase Help Hub Page](https://www.vectorbase.org/navigation/help)
   * [VectorBase Help Desk](https://www.vectorbase.org/contact)
@@ -286,9 +286,9 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </strong> </td>
   </tr>
 </table>
 
@@ -345,12 +345,12 @@ In no particular order:
   * [mimodd_convert](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_convert): use MiModD to convert between NGS reads sequence formats install this tool from the suite_mimodd_0_1_5 repository
   * [mimodd_reheader](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_reheader): use MiModD to reheader a BAM file install this tool from the suite_mimodd_0_1_5 repository
   * [mimodd_vcf_filter](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_vcf_filter): use MiModD to extract lines from a vcf variant file based on sample- and field-specific filters install this tool from the suite_mimodd_0_1_5 repository
-  * [mimodd_snpeff_genomes](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_snpeff_genomes): use MiModD to list installed !SnpEff genomes install this tool from the suite_mimodd_0_1_5 repository
+  * [mimodd_snpeff_genomes](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_snpeff_genomes): use MiModD to list installed SnpEff genomes install this tool from the suite_mimodd_0_1_5 repository
   * [mimodd_extract_variants](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_extract_variants): use MiModD to extract variant sites from BCF input generated with mimodd_variant_calling and report them in VCF install this tool from the suite_mimodd_0_1_5 repository
   * [mimodd_ngs_run_annotation](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_ngs_run_annotation): use MiModD to generate a SAM format header from an NGS run description install this tool from the suite_mimodd_0_1_5 repository
   * [mimodd_variant_calling](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_variant_calling): use MiModD to call variants from an aligned reads BAM file install this tool from the suite_mimodd_0_1_5 repository
   * [mimodd_coverage_stats](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_coverage_stats): use MiModD to obtain a coverage report for a bcf file generated with mimodd_variant_calling install this tool from the suite_mimodd_0_1_5 repository
-  * [mimodd_cloudmap_prepare](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_cloudmap_prepare): use MiModD to generate !CloudMap-compatible output from a vcf file install this tool from the suite_mimodd_0_1_5 repository
+  * [mimodd_cloudmap_prepare](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_cloudmap_prepare): use MiModD to generate CloudMap-compatible output from a vcf file install this tool from the suite_mimodd_0_1_5 repository
   * [mimodd_read_alignment](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_read_alignment): use MiModD to align NGS reads to a reference genome install this tool from the suite_mimodd_0_1_5 repository
   * [mimodd_annotate_variants](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_annotate_variants): use MiModD to annotate a vcf variant file with information about the affected genes install this tool from the suite_mimodd_0_1_5 repository
 
@@ -395,7 +395,7 @@ In no particular order:
   * [package_bowtie_2_2_4](https://toolshed.g2.bx.psu.edu/view/devteam/package_bowtie_2_2_4): tool dependency definition that downloads and compiles version 2.2.4 of the Bowtie package Contains a tool dependency definition that downloads and compiles version 2.2.4 of the Bowtie package
   * [package_cufflinks_2_2_1](https://toolshed.g2.bx.psu.edu/view/devteam/package_cufflinks_2_2_1): tool dependency definition that downloads and compiles version 2.2.1 of the cufflinks RNA-Seq suite. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/src/DefiningRepositoryDependencies/index.md#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
   * [package_picard_1_126_0](https://toolshed.g2.bx.psu.edu/view/devteam/package_picard_1_126_0): tool dependency definition that downloads and compiles version 1.126.0 of the Picard package. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/src/DefiningRepositoryDependencies/index.md#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
-  * [package_freebayes_0_9_18_0059bdf](https://toolshed.g2.bx.psu.edu/view/devteam/package_freebayes_0_9_18_0059bdf): tool dependency definition that downloads and compiles version 0.9.18 of !FreeBayes. Program: freebayes (Bayesian haplotype-based polymorphism discovery and genotyping.)  Version: 0.9.18 (0059bdf)
+  * [package_freebayes_0_9_18_0059bdf](https://toolshed.g2.bx.psu.edu/view/devteam/package_freebayes_0_9_18_0059bdf): tool dependency definition that downloads and compiles version 0.9.18 of FreeBayes. Program: freebayes (Bayesian haplotype-based polymorphism discovery and genotyping.)  Version: 0.9.18 (0059bdf)
 
 * *From [mrvollger](https://toolshed.g2.bx.psu.edu/view/mrvollger):*
   * [package_trtr_0_1](https://toolshed.g2.bx.psu.edu/view/mrvollger/package_trtr_0_1): Trim Reads of Tandem Repeat in a fastq file. This tool removes tandem repeats from ends of unaligned sequencing reads (leaving one copy). This prevents reads that don't span the repeated region from overlapping and leading to inaccurate SNPs calls.

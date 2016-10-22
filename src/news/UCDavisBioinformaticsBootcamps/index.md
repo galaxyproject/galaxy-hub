@@ -37,4 +37,4 @@ We hope to see you in December!
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-10-18</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

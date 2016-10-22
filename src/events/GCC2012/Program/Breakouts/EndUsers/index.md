@@ -79,7 +79,7 @@ These are a merged grouping of [Anton's](/src/anton/index.md), [Dan's](/src/Dan/
 ## Issues
 
 * Genome access was hurdle to Local install - Dan mentioned rsync server & auto genome tool. **ACTION:** Communicate/wiki (Jen/Dan)
-* CloudMan auto-scaling is not working well for long running jobs - e.g. Tophat. **ACTION:** Team discuss then bitbucket. (Jen)
+* [CloudMan](/src/CloudMan/index.md) auto-scaling is not working well for long running jobs - e.g. Tophat. **ACTION:** Team discuss then bitbucket. (Jen)
 
 ## Support
 

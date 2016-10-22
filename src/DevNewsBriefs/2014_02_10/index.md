@@ -65,8 +65,8 @@ As in prior releases, Galaxy tool migration framework has been enhanced so that 
 <br />
 # Tools & Data
 
-1. *GenomeSpace*: Improved import when initiated from within Galaxy. https://trello.com/c/maFhnXpN
-1. *DataProviders*: See http://wiki.galaxyproject.org/DataProviders https://trello.com/c/Qic2fVPE
+1. *[GenomeSpace](/src/GenomeSpace/index.md)*: Improved import when initiated from within Galaxy. https://trello.com/c/maFhnXpN
+1. *[DataProviders](/src/DataProviders/index.md)*: See http://wiki.galaxyproject.org[/DataProviders](/src/DevNewsBriefs/2014_02_10/DataProviders/index.md) https://trello.com/c/Qic2fVPE
 1. *Cuffdiff*: A read_group.info dataset is now included in the output. https://trello.com/c/FdUYdbIn
 
 <br />
@@ -89,20 +89,20 @@ As in prior releases, Galaxy tool migration framework has been enhanced so that 
 # Workflows
 
 1. Implement default parameters. https://trello.com/c/SRxD991Y
-1. Allow overriding parameters when running a workflow. https://trello.com/c/ZbPzTpAl
+1. Allow overriding parameters when running a workflow. https://trello.com/c[/ZbPzTpAl](/src/DevNewsBriefs/2014_02_10/ZbPzTpAl/index.md)
 1. API should have a way of querying published workflows and using/importing them. https://trello.com/c/LDm3dQvB
 
 <br />
 # UI
 
 1. Moved history panel (history.mako; base_panels.mako) from iframe implementation to base_panels DOM. Correct implementation issues. https://trello.com/c/a67ciYUI https://trello.com/c/UejOR6q2
-1. Multiple upgrades to history panel. https://trello.com/c/P487gwJh
+1. Multiple upgrades to history panel. https://trello.com/c[/P487gwJh](/src/DevNewsBriefs/2014_02_10/P487gwJh/index.md)
 1. Refactor grids.js into a Backbone view. https://trello.com/c/Mwrvm0ia
 1. Moved tag UI/model into api/backbone.js (includes histories & others). https://trello.com/c/V288lfw3
 1. Data Libraries Beta (existing; enhancements in progress). https://trello.com/c/hLL9G2nf
 1. Interface update to use *font-awesome 4.0*. https://trello.com/c/BC8uYRv8
 1. In upload tool sort FTP files by default. https://trello.com/c/lLllt80V
-1. Masthead update: create a backbone-based masterhead class. https://trello.com/c/VqigSrtP
+1. Masthead update: create a backbone-based masterhead class. https://trello.com/c[/VqigSrt](/src/DevNewsBriefs/2014_02_10/VqigSrt/index.md)P
 1. General UI: provide a backbone class for the modal dialog box. https://trello.com/c/bk11oSS2
 1. Clearer visualization and workflow UI cues and usage/error messages for anonymous users (e.g. login required). https://trello.com/c/pgt8UzgU https://trello.com/c/yW6x44xp
 
@@ -122,14 +122,14 @@ As in prior releases, Galaxy tool migration framework has been enhanced so that 
 <br />
 # Core
 
-1. Refactor Tool testing framework to use API. https://trello.com/c/MsJctFem https://trello.com/c/wL21d2do
-1. Basic composite datatypes now work as test outputs. https://trello.com/c/Vedel3J4
+1. Refactor Tool testing framework to use API. https://trello.com/c[/MsJctFem](/src/DevNewsBriefs/2014_02_10/MsJctFem/index.md) https://trello.com/c/wL21d2do
+1. Basic composite datatypes now work as test outputs. https://trello.com/c[/Vedel3J4](/src/DevNewsBriefs/2014_02_10/Vedel3J4/index.md)
 1. Allow overriding composite type main file in archives. Peter Cock. https://trello.com/c/8XeDQEaG
 1. Disambiguated conditional parameters now supported in functional tests. https://trello.com/c/zSTrfDOB
 1. Requirements tags need to be specified for each implicit datatype converter with dependencies. https://trello.com/c/b2zg3dfP
 1. Improve Libraries security for data downloads. https://trello.com/c/bWPbQzhV
 1. Update tools to use GALAXY_SLOTS. https://trello.com/c/qq3Ryr6J
-1. Detect jobs that hit the DRM walltime and provide clear feedback to the user. https://trello.com/c/BzlFmhiD
+1. Detect jobs that hit the DRM walltime and provide clear feedback to the user. https://trello.com/c[/BzlFmhi](/src/DevNewsBriefs/2014_02_10/BzlFmhi/index.md)D
 1. Tool dependencies should fallback to default version. https://trello.com/c/flcNPQLR
 1. Remove references to *g2.trac.bx.psu.edu*. https://trello.com/c/Pl5JJKZT
 1. History import now includes option to import deleted/hidden datasets. https://trello.com/c/TgcdNEE7 https://trello.com/c/FS8t1jX9
@@ -137,8 +137,8 @@ As in prior releases, Galaxy tool migration framework has been enhanced so that 
 1. Properly handle DRMs that remember finished jobs. https://trello.com/c/9hw0K6QZ
 1. Allow adjusting the reset password length in unvierse_wsgi.ini. https://trello.com/c/t0Ag4kXU
 1. Remove all usage of simplejson, use stdlib json. https://trello.com/c/2yhBhRC2
-1. Allow core Galaxy models and install tool dependencies to target different databases. https://trello.com/c/V0jDdJBk
-1. Allow setting metadata remotely with the LWR. https://trello.com/c/M3i6tlU4
+1. Allow core Galaxy models and install tool dependencies to target different databases. https://trello.com/c[/V0jDd](/src/DevNewsBriefs/2014_02_10/V0jDd/index.md)JBk
+1. Allow setting metadata remotely with the LWR. https://trello.com/c[/M3i6tlU4](/src/DevNewsBriefs/2014_02_10/M3i6tlU4/index.md)
 
 <br />
 # Pull Requests Merged
@@ -148,14 +148,14 @@ Thanks to our Galaxy community contributors!
 1. 296 - Adding update_time to dataset to_dict methods. Kyle Ellrott. https://trello.com/c/dEz6n55E
 1. 253 - Add API call to allow for deletion/purge of dataset in a data library. Philip Mabon. https://trello.com/c/3stOCbEi
 1. 283 - Add <version_command> to tool configuration options. Gianmauro Cuccuru. https://trello.com/c/soOJVIdd
-1. 254 - Fixes for min/max <param> attributes. Nicola Soranzo. https://trello.com/c/HSzlZn3t https://trello.com/c/E19F2DCl
+1. 254 - Fixes for min/max <param> attributes. Nicola Soranzo. https://trello.com/c/HSzlZn3t https://trello.com/c[/E19F2](/src/DevNewsBriefs/2014_02_10/E19F2/index.md)DCl
 1. 171 - Avoid corruption of binary files embedded in gzip, bz2 and zip archives in the upload tool. Gert Hulselmans. https://trello.com/c/1LbQtxYs https://trello.com/c/zgAT56XH
 1. 321 - Fix crash when recovering jobs of a removed tool. A. Bretaud. https://trello.com/c/Mk28MZdI
 1. 304 - Add missing requirement tags. Björn Grüning. https://trello.com/c/DMjCdlle
 1. 306 - Fix typo and reduce duplication in workflow API. Nicola Soranzo. https://trello.com/c/VW5cKDjD
 1. 303 - Fix display_application with login_required=True. Björn Grüning. https://trello.com/c/Vu4hiEZu
 1. 302 - In case of proxy-prefix configuration the $PATH_TO_IMAGES is not correctly converted. Removing the beginning Slash solves it for proxy-prefix configurations and other are not affected. Björn Grüning. https://trello.com/c/oFYlaAWo
-1. 299 - Add `ProxyHandler` to auto-detect system proxies. Saket Choudhary. https://trello.com/c/WpXmyngn
+1. 299 - Add `ProxyHandler` to auto-detect system proxies. Saket Choudhary. https://trello.com/c[/WpXmyngn](/src/DevNewsBriefs/2014_02_10/WpXmyngn/index.md)
 1. 298 - API: display and import workflows shared by other users. Nicola Soranzo. https://trello.com/c/H2yxkezA
 1. 280 - Web API: fix unhandled exception when exporting a workflow with missing tools. Simone Leo. https://trello.com/c/GFgl6Gah
 1. 284 - Log a failed chmod action when installing tool dependencies. Nicola Soranzo. https://trello.com/c/cz4ahDPi
@@ -163,16 +163,16 @@ Thanks to our Galaxy community contributors!
 1. 277 - Add elements to the API to allow for the creation of pages and revisions. Kyle Ellrott. https://trello.com/c/sjdlldWg
 1. 276 - Some minor select field changes including Illumina 1.8+. yhoogstrate. https://trello.com/c/mXHHRhwG
 1. 262 - Convert other 3 tools to $GALAXY_SLOTS. Nicola Soranzo. https://trello.com/c/d2YvRM7O
-1. 257 - Adding requirement tag to the ccat wrapper and remove old ccat2 wrapper. Björn Grüning. https://trello.com/c/EdrYaNqB
-1. 261 - Adding history_id selection to hda search. Kyle Ellrott. https://trello.com/c/B82liT7g
+1. 257 - Adding requirement tag to the ccat wrapper and remove old ccat2 wrapper. Björn Grüning. https://trello.com/c[/EdrYaNq](/src/DevNewsBriefs/2014_02_10/EdrYaNq/index.md)B
+1. 261 - Adding history_id selection to hda search. Kyle Ellrott. https://trello.com/c[/B82liT7g](/src/DevNewsBriefs/2014_02_10/B82liT7g/index.md)
 1. 266 - Adding Pages and `PageRevisions` to the search API. Kyle Ellrott. https://trello.com/c/5xsd5kNX https://trello.com/c/ch2COcm3
 1. 271 - Fixes for MOSAIK tool. Nicola Soranzo. https://trello.com/c/tcYDdJT6
 1. 267 - Fix for permission issues in drmaa_external_runner.py. Frederik Delaere. https://trello.com/c/BCirrf32
 1. 264 - Fix API workflow show for workflows created with history Extract Workflow. Nicola Soranzo and Simone Leo. https://trello.com/c/osi9S11K
 1. 247 - Fixed bug in Trackster alert message, reporting dbkey as blank when it cannot load chroms. Simon Guest. https://trello.com/c/lBB172Ac
-1. 245 - Adding parent_library_id field to the `LibraryDataset` 'to_dict' call. Kyle Ellrott. https://trello.com/c/ZzK2ZwGz
+1. 245 - Adding parent_library_id field to the `LibraryDataset` 'to_dict' call. Kyle Ellrott. https://trello.com/c[/ZzK2ZwGz](/src/DevNewsBriefs/2014_02_10/ZzK2ZwGz/index.md)
 1. 244 - add '[' and ']' to mapped strings and advanced filters. Björn Grüning. https://trello.com/c/n3Hv0CzW
-1. 242 - Fix routing to tools API when id has slashes in name. Kyle Ellrott. https://trello.com/c/DmOinKwh
+1. 242 - Fix routing to tools API when id has slashes in name. Kyle Ellrott. https://trello.com/c[/DmOinKwh](/src/DevNewsBriefs/2014_02_10/DmOinKwh/index.md)
 1. 239 - Add name column to FASTA header in extract_genomic_context tool. Björn Grüning. https://trello.com/c/g2q9gKv0
 1. 243 - Add output_name to tool API response. Kyle Ellrott. https://trello.com/c/9OuLgGnN
 1. 241 - Fix missing import in search.py. Kyle Ellrott. https://trello.com/c/teXGjfJ2
@@ -189,15 +189,15 @@ Thanks to our Galaxy community contributors!
 1. Fix Page buttons for included histories. https://trello.com/c/BiAQqDGN
 1. Fix tabular data not displaying in main panel. https://trello.com/c/it0oXXeT
 1. Fix transitory issue where action button clicks resulted in 2 http requests in Firefox. https://trello.com/c/WQL7EUlB
-1. Fix the server error thrown when sorting the forms grid. https://trello.com/c/AnLyZo6x
+1. Fix the server error thrown when sorting the forms grid. https://trello.com/c[/AnLyZo6x](/src/DevNewsBriefs/2014_02_10/AnLyZo6x/index.md)
 1. Fix error from updating an installed data manager tool, when managing local data. https://trello.com/c/4dgIdWMp
 1. Fix history options menu broken in IE 9. https://trello.com/c/ii2Zh8na
 1. Fix to add new error message when GMAJ applet doesn't load (when Java not enabled in browser). https://trello.com/c/XTF1iwVN
-1. Fix for when loading api/tools/ didn't provide list of tools. https://trello.com/c/Dv3EylDP
-1. Fix to keep migration process from repeatedly asking you to migrate the tools - even after you have ignored the request once (if separate tool shed install database is used). https://trello.com/c/Q7N5k6zC
+1. Fix for when loading api/tools/ didn't provide list of tools. https://trello.com/c[/Dv3Eyl](/src/DevNewsBriefs/2014_02_10/Dv3Eyl/index.md)DP
+1. Fix to keep migration process from repeatedly asking you to migrate the tools - even after you have ignored the request once (if separate tool shed install database is used). https://trello.com/c[/Q7N5k6z](/src/DevNewsBriefs/2014_02_10/Q7N5k6z/index.md)C
 1. Fix bug in Chrome where upload & login breaks due to multi-instance cookie. https://trello.com/c/9ZHao10X
 1. Fix base_panels.mako, ajaxSubmit and uncalled callbacks with added 'print' statements. https://trello.com/c/ZBpn7PtZ
-1. Fix to disallow shared workflows from being inappropriately deletable. https://trello.com/c/EdKslJDn
+1. Fix to disallow shared workflows from being inappropriately deletable. https://trello.com/c[/EdKsl](/src/DevNewsBriefs/2014_02_10/EdKsl/index.md)JDn
 
 <br />
 # Tool Shed
@@ -222,7 +222,7 @@ Also see above: [New Tool Migrations](/src/DevNewsBriefs/2014_02_10/index.md#new
 1. "Latest revision" links now display all repositories. https://trello.com/c/kP4qm8RE
 1. Enhance the Galaxy repository uninstallation process. https://trello.com/c/SqdKVl2e
 1. Enhanced check prevents a new repository from being created with the same name as a deleted repository. https://trello.com/c/fUuUNRwt
-1. Tool shed listings confirmed to include last updated date and other ways for the viewer to determine currency of the wrapper. https://trello.com/c/qyknuE7L https://trello.com/c/IwwSjI3m
+1. Tool shed listings confirmed to include last updated date and other ways for the viewer to determine currency of the wrapper. https://trello.com/c/qyknuE7L https://trello.com/c[/IwwSjI3m](/src/DevNewsBriefs/2014_02_10/IwwSjI3m/index.md)
 1. Display message on Manage / View repository page in the tool shed if repository has repository dependencies that are deprecated. https://trello.com/c/EZuWhamr
 1. Dev Team owned repo updates
   * *Free Bayes*: Developed a tool dependency definition that specifies precompiled binaries. https://trello.com/c/zYoVHKoV

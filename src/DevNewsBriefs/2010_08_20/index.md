@@ -10,7 +10,7 @@ hg pull -u -r d8cf43c9a0b9
 
 * Add a ratings framework so that users can rate shared items. All sharable items--histories, workflows, datasets, visualizations, and pages--can be rated. Main framework components are:
   * Database tables for storing ratings
-  * !UsesItemRatings mixin that supports rating items and obtaining an item's average rating
+  * UsesItemRatings mixin that supports rating items and obtaining an item's average rating
   * Controller methods to handle rating asynchronously
   * jQuery star rating plugin and supporting code that enables interactive item rating.
 
@@ -42,11 +42,11 @@ hg pull -u -r d8cf43c9a0b9
 * Remove UCSC tablebrowser specific parameters from modmine.xml datasource tool.
 * Fixed bug in column join that mishandled trailing empty columns.
 * Fixed bug in column join that mishandled carriage returns.
-* Add !ToolOutputActions to set dbkey for BWA wrapper and remove no longer needed code file.
+* Add ToolOutputActions to set dbkey for BWA wrapper and remove no longer needed code file.
 * Enhance GFF-to-BED converter to output block data.
 * Enhance Cut tool to keep column assignments for Interval datatypes. All interval datatypes will become base interval type if User specified columns contain chromosome, start and end columns; in addition to the 3 required columns, name and strand will be set when possible.
-* Add !ToolOutputActions to set dbkeys for !LiftOver tool and both Bowtie wrappers; remove no longer needed code files.
-* Add !ToolOutput dataset actions: change datatype, metadata, etc.  These function similar to dynamic options for select list tool parameters. Should eliminate the need for exec_before_job code files that set output dataset attributes. More 'filter's should be defined as needed.
+* Add ToolOutputActions to set dbkeys for LiftOver tool and both Bowtie wrappers; remove no longer needed code files.
+* Add ToolOutput dataset actions: change datatype, metadata, etc.  These function similar to dynamic options for select list tool parameters. Should eliminate the need for exec_before_job code files that set output dataset attributes. More 'filter's should be defined as needed.
 * Fix GFF bug in interval to summary tree converter.
 * Improvements to the GFF filtering tool.
 * Update gops_intersect and gops_subtract documentation to reflect that tools can accept both BED and GFF files.
@@ -57,7 +57,7 @@ hg pull -u -r d8cf43c9a0b9
   * Design can support other types of data files.
 * Add a 'ref_attribute' attribute to param_value dynamic option filter to allow accessing attributes of the parameter value.
 * Bug fix for multiple_splitter dynamic option filter.
-* Added !AttributeValueSplitterFilter to tool select parameter filters so that GFF attributes can be read and used as tool inputs.  Updated gff_filtering tool to use this filter.
+* Added AttributeValueSplitterFilter to tool select parameter filters so that GFF attributes can be read and used as tool inputs.  Updated gff_filtering tool to use this filter.
 * Modified Group tool by adding Mode function to the list of aggregate operations.
 * Allow interval to bedstrict converter to work on bed files that may have e.g. a 'track' line.
 * Make viz datatype converters hidden tools; don't show hidden tools in Recently Used tools.
@@ -132,7 +132,7 @@ hg pull -u -r d8cf43c9a0b9
 
 * Fix template bug introduced in 4143:4bd0731967ef and do not use item sharing display code for histories right now because histories have complex sharing rules.
 * Fix test_DNAse_flanked_genes functional test.
-* Bug fix for trying to access a non-existant attribute in dynamic options !ParamValueFilter.
+* Bug fix for trying to access a non-existant attribute in dynamic options ParamValueFilter.
 * Stop ignoring the sniff order set in the datatypes config file.
 * Fix Alchemy session issues when tracking jobs in memory.
 * Don't use JSON to compare values of the JSON custom database type - just use the Python structures.

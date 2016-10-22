@@ -15,4 +15,4 @@ The new version brings the following updates/features:
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-11-29</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

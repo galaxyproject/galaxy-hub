@@ -133,8 +133,8 @@ Some notes:
 * Searches are case insensitive: 'some' will match both 'some' *and* 'Some'.
 * Searches will persist until cleared. If you switch histories while searching, the list of datasets will still be
     narrowed to what matches your search terms.
-* Terms are space separated. For example, to search for an interval datatype dataset named *~!MyDataset* when more than
-    one interval dataset is present and more than one dataset is named ~!MyDataset, use `interval MyDataset` (or
+* Terms are space separated. For example, to search for an interval datatype dataset named *~MyDataset* when more than
+    one interval dataset is present and more than one dataset is named ~MyDataset, use `interval MyDataset` (or
     `MyDataset interval` - order doesn't matter).
 * Deleted and hidden datasets are not shown unless you've included them by using the *Include deleted datasets* and/or
     *Include hidden datasets* options in the history options menu (the gear icon at the top left of the history panel).
@@ -142,7 +142,7 @@ Some notes:
 Advanced Options:
 * To search for terms that include whitespaces (e.g. a dataset named 'My Dataset' which includes a space) you can
     enclose a search term with double quotes ("My Data") and this will match the dataset in the example but exclude any
-    dataset that may have matched an un-enclosed term (such as '~!MyInterval' or 'Some Data').
+    dataset that may have matched an un-enclosed term (such as '~MyInterval' or 'Some Data').
 * Search terms are applied to many of the 'fields' that describe a dataset (i.e. name, format, database, info, 'blurb') and, by default, check all fields against each term. To apply a search term to only one field, use the field name followed by an equals sign and then followed by the term (or double quote enclosed term). E.g. `name="My Dataset" format=interval`. Here is a list of field names that can be used:
   * `name` or `title`: the name or partial name of the dataset(s)
   * `database` or `genome_build`: the name or partial name of the genome database (e.g. *hg19*)

@@ -32,4 +32,4 @@ This tutorial walks you through
 * [CHB Harvard ChIP-Seq Workshop](http://hbc.github.io/ngs-workshops/courses/running-your-own-galaxy-instance/)
 * [one of a set of online tutorials](http://hbc.github.io/ngs-workshops/courses/)
 
-CategoryTrainingResource
+[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)

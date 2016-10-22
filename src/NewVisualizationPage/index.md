@@ -11,7 +11,7 @@ title: Visualization in Galaxy
 
 Trackster is Galaxy's built-in genome browser and is similar to IGV, IGB, and Ensembl's & UCSC's genome browsers. Trackster highlights includes:
 
-* visualize SAM/BAM, !BedGraph, Wiggle/BigWig, BED/BigBED, GFF/GFF3/GTF, and VCF datasets;
+* visualize SAM/BAM, BedGraph, Wiggle[/BigWig](/src/New%20Visualization%20Page/BigWig/index.md), BED/BigBED, GFF/GFF3/GTF, and VCF datasets;
 * will work with very large datasets;
 * no data or software downloads;
 * save, share, and publish your visualizations.

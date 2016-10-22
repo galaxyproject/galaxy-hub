@@ -2,7 +2,7 @@
 
 <div class='right'><a href='http://www.globusworld.org/'><img src="/src/Images/Logos/GlobusGenomics.png" alt="Globus World 2014" width="180" /></a></div>
 
-**[GlobusWorld](http://www.globusworld.org/)** is this year’s biggest gathering of all things [Globus](https://www.globus.org/).  !GlobusWorld 2014 features a features a *Using Globus Genomics to Accelerate Analysis Tutorial*, and a full half day on [Globus Genomics](/src/Cloud/index.md#globus-genomics) in the main meeting, including a keynote by Nancy Cox and these accepted talks:
+**[GlobusWorld](http://www.globusworld.org/)** is this year’s biggest gathering of all things [Globus](https://www.globus.org/).  GlobusWorld 2014 features a features a *Using Globus Genomics to Accelerate Analysis Tutorial*, and a full half day on [Globus Genomics](/src/Cloud/index.md#globus-genomics) in the main meeting, including a keynote by Nancy Cox and these accepted talks:
 
 * *Globus Genomics: Enabling high-throughput cloud-based analysis and management of NGS data for Translational Genomics research at Georgetown*, by Yuriy Gusev,
 * *Improving next-generation sequencing variants identification in cancer genes using Globus Genomics*, by Toshio Yoshimatsu
@@ -15,4 +15,4 @@
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-03-28</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

@@ -39,7 +39,7 @@ If you are interested, please add your name below and/or send an email to [mailt
 * Gianmauro Cuccuru, CRS4
 * Christos Kannas, University of Cyprus
 * Ravi Madduri, U Chicago
-* !YiLei Wu, biodata limited
+* YiLei Wu, biodata limited
 * Simon Gladman
 * Clare Sloggett
 

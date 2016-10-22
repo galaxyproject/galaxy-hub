@@ -38,4 +38,4 @@ The data for this tutorial is from a whole genome sequencing experiment of a mul
 * [Genomics Virtual Lab](https://genome.edu.au/wiki/GVL)
 * The [GVL Tutorials and Protocols page](https://genome.edu.au/wiki/Learn)
 
-CategoryTrainingResource
+[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)

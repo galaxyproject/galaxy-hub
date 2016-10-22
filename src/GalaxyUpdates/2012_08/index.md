@@ -159,7 +159,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th> September 10-12 </th>
     <td> <em><a href='http://genetics.cmc-uct.co.za/'>Transparent, accessible, reproducible analysis with Galaxy</a></em> </td>
-    <td> </strong><a href='http://genetics.cmc-uct.co.za/'>South African Genetics & Bioinformatics Society Conference</a><strong><br /> University of Stellenbosch, Stellenbosch, South Africa </td>
+    <td> <strong><a href='http://genetics.cmc-uct.co.za/'>South African Genetics & Bioinformatics Society Conference</a></strong><br /> University of Stellenbosch, Stellenbosch, South Africa </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
@@ -171,13 +171,13 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th> October 3 </th>
     <td> <em><a href='/src/Events/Switzerland2012/index.md'>(first Swiss) Galaxy Workshop</a></em> </td>
-    <td> </strong><a href='https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3'>SyBIT Tech Day</a><strong>, Bern, Switzerland </td>
+    <td> <strong><a href='https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3'>SyBIT Tech Day</a></strong>, Bern, Switzerland </td>
     <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> October 8-12 </th>
     <td> <em><a href='http://www.psc.edu/index.php/escience-2012-workshop'>Extending High-Performance Computing Beyond its Traditional User Communities Workshop</a></em> </td>
-    <td> </strong><a href='http://www.ci.uchicago.edu/escience2012/'>8th IEEE International Conference on eScience (eScience 2012)</a><strong>, Chicago Illinois, United States </td>
+    <td> <strong><a href='http://www.ci.uchicago.edu/escience2012/'>8th IEEE International Conference on eScience (eScience 2012)</a></strong>, Chicago Illinois, United States </td>
     <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
 </table>
@@ -216,7 +216,7 @@ A new Galaxy distribution was [released on July 20, 2012](/src/DevNewsBriefs/201
 * **Tool Shed** now also supports specifying the third party tool dependencies to be automatically installed in new repositories
 * **Admin Genome Indexing** is now in *BETA*. Download, index, and track progress right from the admin UI! That's a screen shot on the right ->
 * **Improved Error Handling** that captures `EXIT` codes, `STDOUT`, and `STDERR` from tools in XML. Be sure to read full details.
-* **TopHat2/Bowtie2** latest support includes option to 'report discordant pairs', updated tests, and more preset options.
+* **[TopHat2](/src/TopHat2/index.md)/Bowtie2** latest support includes option to 'report discordant pairs', updated tests, and more preset options.
 * **Trackster** new parameter space visualization. *BRAND NEW!!* More details coming soon, but give a test drive now. 
 
 ## Other News

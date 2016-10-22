@@ -20,4 +20,4 @@ If you have anything you would like to see in the April *[Galaxy Update](/src/Ga
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-02-29 </div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

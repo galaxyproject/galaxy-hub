@@ -23,4 +23,4 @@ title: RNAcommender
 * [RNAcommender](http://rnacommender.disi.unitn.it/)
 * [Paper](http://bioinformatics.oxfordjournals.org/content/early/2016/08/07/bioinformatics.btw517)
 
-CategoryVirtualAppliance
+[CategoryVirtualAppliance](/src/CategoryVirtualAppliance/index.md)

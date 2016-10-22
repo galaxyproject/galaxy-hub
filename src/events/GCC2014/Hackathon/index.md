@@ -103,7 +103,7 @@ We'll meet at the Taylor Lab.
   </tr>
   <tr>
     <th> 7:00 </th>
-    <td style=" text-align: center;"> </strong>Hackathon dinner @ <a href='http://www.goldenwestcafe.com/'>Golden West Cafe</a> <br />Thanks to <a href='https://curoverse.com/'>Curoverse</a><strong><br />(give <a href='http://jonathansheffi.com/'>Jonathan</a> a hug!) </td>
+    <td style=" text-align: center;"> <strong>Hackathon dinner @ <a href='http://www.goldenwestcafe.com/'>Golden West Cafe</a> <br />Thanks to <a href='https://curoverse.com/'>Curoverse</a></strong><br />(give <a href='http://jonathansheffi.com/'>Jonathan</a> a hug!) </td>
   </tr>
 </table>
 

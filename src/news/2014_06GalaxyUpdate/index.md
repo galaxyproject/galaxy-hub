@@ -26,4 +26,4 @@ And, in the past month there were:
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-05-30</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

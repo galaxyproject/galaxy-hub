@@ -123,7 +123,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/Spon
 
 <div class='right'><a href='http://www.globusworld.org/'><img src="/src/Images/Logos/GlobusGenomics.png" alt="Globus World 2014" width="180" /></a></div>
 
-**[GlobusWorld](http://www.globusworld.org/)** is this year’s biggest gathering of all things [Globus](https://www.globus.org/).  !GlobusWorld 2014 features a features a *Using Globus Genomics to Accelerate Analysis Tutorial*, and a full half day on [Globus Genomics](/src/Cloud/index.md#globus-genomics) in the main meeting, including a keynote by Nancy Cox and these accepted talks:
+**[GlobusWorld](http://www.globusworld.org/)** is this year’s biggest gathering of all things [Globus](https://www.globus.org/).  GlobusWorld 2014 features a features a *Using Globus Genomics to Accelerate Analysis Tutorial*, and a full half day on [Globus Genomics](/src/Cloud/index.md#globus-genomics) in the main meeting, including a keynote by Nancy Cox and these accepted talks:
 
 * *Globus Genomics: Enabling high-throughput cloud-based analysis and management of NGS data for Translational Genomics research at Georgetown*, by Yuriy Gusev,
 * *Improving next-generation sequencing variants identification in cancer genes using Globus Genomics*, by Toshio Yoshimatsu
@@ -139,7 +139,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/Spon
 
 **Registration is now open for the [Using Galaxy for Analysis of High Throughput Sequence Data Workshop](http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/)** being held at UC Davis, June 16-20, 2014 from 9-5 each day.  The workshop will cover modern high throughput sequencing technologies, applications, and ancillary topics, including:
 
-* Illumina !HiSeq / !MiSeq, and !PacBio RS technologies
+* Illumina HiSeq / MiSeq, and PacBio RS technologies
 * Read Quality Assessment & Improvement
 * Genome assembly
 * SNP and indel discovery
@@ -150,7 +150,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/Spon
 
 <div class='right'><a href='https://training.bioinformatics.ucdavis.edu/'><img src="/src/Images/Logos/UCDavisLogoSmall.gif" alt="UC Davis"  /></a></div>
 
-The workshop will include a rich collection of lectures and hands-on sessions, covering both theory and tools. We will cover the basics of several high throughput sequencing technologies, but will focus on Illumina and !PacBio data for hands-on exercises. Participants will explore software and protocols, create and modify workflows, and diagnose/treat problematic data. Workshop exercises will be performed using the popular Galaxy platform (http://usegalaxy.org) on the [Amazon Cloud](http://aws.amazon.com/) which allows for powerful web-based data analyses. There are no prerequisites other than basic familiarity with genomic concepts.
+The workshop will include a rich collection of lectures and hands-on sessions, covering both theory and tools. We will cover the basics of several high throughput sequencing technologies, but will focus on Illumina and PacBio data for hands-on exercises. Participants will explore software and protocols, create and modify workflows, and diagnose/treat problematic data. Workshop exercises will be performed using the popular Galaxy platform (http://usegalaxy.org) on the [Amazon Cloud](http://aws.amazon.com/) which allows for powerful web-based data analyses. There are no prerequisites other than basic familiarity with genomic concepts.
 
 A similar workshop, [using command line interfaces to perform the analysis](http://training.bioinformatics.ucdavis.edu/2014/02/13/using-the-linux-command-line-for-analysis-of-high-throughput-sequence-data-september-15-19-2014/), is being offered September 15-19, 2014. 
 
@@ -175,69 +175,69 @@ A similar workshop, [using command line interfaces to perform the analysis](http
   </tr>
   <tr>
     <th> April 8-9 </th>
-    <td> </em><a href='https://www.aanmelder.nl/nbic2014/wiki/parallel%20session%20m%3a%20infrastructrure%2c%20data%20%26%20technology#.Uytixq1dXfA'>Building a scalable Galaxy cluster for biomedical research in The Netherlands</a><em> </td>
+    <td> <em><a href='https://www.aanmelder.nl/nbic2014/wiki/parallel%20session%20m%3a%20infrastructrure%2c%20data%20%26%20technology#.Uytixq1dXfA'>Building a scalable Galaxy cluster for biomedical research in The Netherlands</a></em> </td>
     <td> <a href='http://www.aanmelder.nl/nbic2014'>Netherlands Bioinformatics Conference (NBIC2014)</a>, Lunteren, The Netherlands </td>
     <td> <a href='http://nl.linkedin.com/in/djvanenckevort'>David van Enckevort</a>, <a href='http://nl.linkedin.com/in/anthonypotappel'>Anthony Potappel</a> </td>
   </tr>
   <tr>
     <th> April 15-17 </th>
-    <td> </em>Biosciences/Genomics Program<em> </td>
+    <td> <em>Biosciences/Genomics Program</em> </td>
     <td> <a href='http://globusworld.org/'>GlobusWorld</a>, Chicago, Illinois, United States </td>
     <td> <a href="mailto:outreach AT globus DOT org">Globus Outreach</a>, <a href='/src/JohnChilton/index.md'>John Chilton</a> </td>
   </tr>
   <tr>
     <th rowspan=6> April 29 -<br />May 1 </th>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=121423'>W1: Integrated Research Data Management for Next Gen Sequencing Analysis Using Galaxy and Globus Online Software-as-a-Service</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=121423'>W1: Integrated Research Data Management for Next Gen Sequencing Analysis Using Galaxy and Globus Online Software-as-a-Service</a></em> </td>
     <td rowspan=6> <a href='http://www.bio-itworldexpo.com/'>BioIT World</a> </td>
     <td> <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a>, <a href='https://www.urmc.rochester.edu/people/21779848-alex-r-paciorkowski'>Alex Paciorkowski</a>, <a href='http://www.ci.uchicago.edu/profile/328'>Vas Vasiliadis</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135146'>W4: Analyzing NGS Data in Galaxy</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135146'>W4: Analyzing NGS Data in Galaxy</a></em> </td>
     <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, <a href='/src/nate/index.md'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, Tristan Lubinski </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135152'>W14: Running a Local Galaxy Instance</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135152'>W14: Running a Local Galaxy Instance</a></em> </td>
     <td> <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, <a href='/src/nate/index.md'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, Tristan Lubinski, James Reaney </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Next-Gen-Sequencing-Informatics/'>Globus Genomics: An End-to-End NGS Analysis Service on the Cloud for Researchers and Core Labs</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Next-Gen-Sequencing-Informatics/'>Globus Genomics: An End-to-End NGS Analysis Service on the Cloud for Researchers and Core Labs</a></em> </td>
     <td> <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Integrated Analysis and Visualization of Large-Scale Biological Data with the Refinery Platform</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Integrated Analysis and Visualization of Large-Scale Biological Data with the Refinery Platform</a></em> </td>
     <td> <a href='http://gehlenborg.com/'>Nils Gehlenborg</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Web-Based Visualization and Visual Analysis for High-Throughput Genomics with Galaxy</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Web-Based Visualization and Visual Analysis for High-Throughput Genomics with Galaxy</a></em> </td>
     <td> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> May 6-7 </th>
-    <td> </em>Scaling Galaxy for Big Data<em> </td>
+    <td> <em>Scaling Galaxy for Big Data</em> </td>
     <td> <a href='http://www.tgac.ac.uk/SeqAhead_Scientific_Meeting_and_Management_Committee_Meeting/'>NGS Data after the Gold Rush</a>, <a href='http://www.tgac.ac.uk/'>TGAC</a>, Norwich, United Kingdom </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 9 </th>
-    <td> </em>Galaxy Workshop<em> </td>
+    <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.tgac.ac.uk/'>The Genome Analysis Centre (TGAC)</a>, Norwich, United Kingdom </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>
-    <td> </em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a><em> </td>
+    <td> <em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a></em> </td>
     <td> <a href='http://www.mipro.hr/CallForPapers/tabid/176/language/en-US/Default.aspx'>MIPRO 2014</a>, Opatija, Croatia </td>
     <td> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 9-10 </th>
-    <td> </em><a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'>Informatics on High Throughput Sequencing Data Workshop</a><em> </td>
+    <td> <em><a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'>Informatics on High Throughput Sequencing Data Workshop</a></em> </td>
     <td> Toronto, Canada </td>
     <td> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
   </tr>
   <tr>
     <th> June 16-20 </th>
-    <td> </em><a href='http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/'>Using Galaxy for Analysis of High Throughput Sequence Data</a><em> </td>
+    <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/'>Using Galaxy for Analysis of High Throughput Sequence Data</a></em> </td>
     <td> <a href='http://training.bioinformatics.ucdavis.edu/'>UC Davis</a>, California, United States </td>
     <td> <a href="mailto:training DOT ucdbio AT gmail DOT com">UC Davis Bioinformatics Training</a> </td>
   </tr>
@@ -249,7 +249,7 @@ A similar workshop, [using command line interfaces to perform the analysis](http
   </tr>
   <tr>
     <th> June&nbsp;30&nbsp;-<br />July 2 </th>
-    <td> </strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
+    <td> <strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
     <td> <a href='/src/Events/GCC2014/Organizers/index.md'>Organizers</a> </td>
   </tr>
 </table>
@@ -344,7 +344,7 @@ The most recent version of CloudMan was [released in January 2014](/src/News/Clo
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </td>
   </tr>
 </table>
 
@@ -381,5 +381,5 @@ There was one new [Community Log Board](/src/Community/Logs/index.md) entry in M
 
 * Galaxy reached a milestone of [100 contributors to our codebase](http://ohloh.net/p/galaxybx)! Thank you all! 
 * Poster: "[ChemicalToolBoX and its application on the study of the drug like and purchasable space](http://bit.ly/1kzoEkF)," by Lucas. *et al.*, *Journal of Chemoinformatics* 
-* [New tools available in Galaxy @ URGI](https://urgi.versailles.inra.fr/About-us/News/new-tools-available-in-Galaxy): !SnpEff, Mapsembler2, BLAST+, Blast2GO, Peak predictor, ...
+* [New tools available in Galaxy @ URGI](https://urgi.versailles.inra.fr/About-us/News/new-tools-available-in-Galaxy): SnpEff, Mapsembler2, BLAST+, Blast2GO, Peak predictor, ...
 

@@ -17,4 +17,4 @@ See the [URGI/Galaxy page](https://forge.puppetlabs.com/urgi/galaxy) at Puppet F
 
 * [Puppet Forge Page](https://forge.puppetlabs.com/urgi/galaxy)
 
-CategoryLog
+[CategoryLog](/src/CategoryLog/index.md)

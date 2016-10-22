@@ -38,4 +38,4 @@ The **[August Galactic News](/src/GalaxyUpdates/2015_08/index.md)** is out.  It'
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-07-31 </div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

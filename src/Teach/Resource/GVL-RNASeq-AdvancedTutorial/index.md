@@ -21,7 +21,7 @@ title: GVL RNA-seq Differential Gene Expression Advanced Tutorial
 This tutorial runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/PublicGalaxyServers/index.md) specifically for learning bioinformatics analysis.
 
 In this tutorial we compare the performance of three statistically-based differential expression tools:
-* CuffDiff
+* [CuffDiff](/src/CuffDiff/index.md)
 * EdgeR
 * DESeq2
 
@@ -45,4 +45,4 @@ Needed datasets exist in Shared Libraries on the server, and are also available 
 * [Genomics Virtual Lab](https://genome.edu.au/wiki/GVL)
 * The [GVL Tutorials and Protocols page](https://genome.edu.au/wiki/Learn)
 
-CategoryTrainingResource
+[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)

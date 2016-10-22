@@ -85,7 +85,7 @@ GAW 2014 also included poster session and keynote speakers.
   </tr>
   <tr>
     <th> 15:50-16:20 </th>
-    <td style=" text-align: center;"> <strong>CloudMan Project</strong><br /> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GAW2014/AfganCloudMan.pdf'>(download pdf slides)</a> </td>
+    <td style=" text-align: center;"> <strong><a href="/src/CloudMan/index.md">CloudMan</a> Project</strong><br /> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GAW2014/AfganCloudMan.pdf'>(download pdf slides)</a> </td>
   </tr>
   <tr>
     <th> 16:20-17:00 </th>

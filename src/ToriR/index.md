@@ -27,4 +27,4 @@ I am a 4th grader at [Family School](http://www.family.4j.lane.edu/FamilySchool/
 
 
 ----
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

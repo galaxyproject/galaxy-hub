@@ -28,4 +28,4 @@ Because the Tool Shed is used to install software in Galaxy, if exploited, the i
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-08-13</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

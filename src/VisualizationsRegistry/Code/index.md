@@ -40,15 +40,15 @@ create:
 * MathML
 * [Data URIs](http://en.wikipedia.org/wiki/Data_URI_scheme)
 
-Addtionally, since the product of the mako template is a web page, !JavaScript and client side code is also a good option:
+Addtionally, since the product of the mako template is a web page, JavaScript and client side code is also a good option:
 * SVG with [d3js](http://d3js.org), [raphaeljs](http://raphaeljs.com), or any others
 * the HTML5 canvas with [paperjs](http://paperjs.org), [chartjs](http://chartjs.org),
   [processingjs](http://processingjs.org) or any others
 * WebGL with [philogl](http://senchalabs.org/philogl), [X](http://github.com/xtk/X), or others
 
-Interactivity can be used via python or !JavaScript as well:
+Interactivity can be used via python or JavaScript as well:
 * Control the page via python and in-page links, forms, and the traditional GET/POST HTTP cycle
-* Control the page via !JavaScript with any number of JS libraries, widgets, and events
+* Control the page via JavaScript with any number of JS libraries, widgets, and events
 
 #### Resources
 
@@ -84,7 +84,7 @@ The datasets API and DataProviders allow you to efficiently query whole files or
 searching).
 
 There are two ways you might do this in your template: bootstrapping the data into python structures when the template
-is rendered and calling the datasets API via !JavaScript to load !JavaScript structures asynchronously.
+is rendered and calling the datasets API via JavaScript to load JavaScript structures asynchronously.
 
 A simple use case might be to load data from an HDA's interval file in map format/structure. The entry point for
 bootstrapping this data is the dataset datatype's dataproviders.

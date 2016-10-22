@@ -202,9 +202,9 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
   * In collaboration with a number of research scientists with hands on experience in genomics and bioinformatics, [Noor Biotechnologies](http://noorbiotech.com/) offer consultancy services and onsite practical training in:
     * Next Generation Sequencing:
       * Next Generation Sequencing Technologies
-      * Library Preparation for DNA Sequencing on Illumina !MiSeq and !HiSeq
+      * Library Preparation for DNA Sequencing on Illumina MiSeq and HiSeq
       * Illumina Library QC and Troubleshooting 
-      * Optimizing Cluster Densities on Illumina !MiSeq and !HiSeq
+      * Optimizing Cluster Densities on Illumina MiSeq and HiSeq
     * Bioinformatics: 
       * Next Generation DNA Sequencing Technologies and Data Management
       * Basic Concepts in Bioinformatics and Making Sense of Data
@@ -401,7 +401,7 @@ Trainers that are potentially willing to travel, roughly within their home conti
 </div>
 
 * *Description:*
-    The [GenoToul bioinformatics platform](http://bioinfo.genotoul.fr/), [Sigenae](http://www.sigenae.org/), NED (GenPhySE) and TWB offers a [catalog of training sessions](http://bioinfo.genotoul.fr/index.php?id=10) on Galaxy. Team members include Sarah Maman, Philippe Bardou, Sabrina Rodriguez, Celine Noirot, Cédric Cabau, Géraldine Pascal, Maria Bernard, Frederic Escudié, Laurent Cauquil, and Mahendra Mariadassou.
+    The [GenoToul bioinformatics platform](http://bioinfo.genotoul.fr/), [Sigenae](http://www.sigenae.org/), NED ([GenPhy](/src/GenPhy/index.md)SE) and TWB offers a [catalog of training sessions](http://bioinfo.genotoul.fr/index.php?id=10) on Galaxy. Team members include Sarah Maman, Philippe Bardou, Sabrina Rodriguez, Celine Noirot, Cédric Cabau, Géraldine Pascal, Maria Bernard, Frederic Escudié, Laurent Cauquil, and Mahendra Mariadassou.
 
 * *Domains:*
   * Galaxy : First steps (1 day) 

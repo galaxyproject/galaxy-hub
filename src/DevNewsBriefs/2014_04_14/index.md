@@ -68,7 +68,7 @@ title: April 14, 2014 Galaxy Distribution News Brief
 
 1. Framework turning https://trello.com/c/kdhJ1Dit
 1. *Trackster*: 
-  * View complete read/feature across tile boundaries, in all tiles https://trello.com/c/Q03dC1QC
+  * View complete read/feature across tile boundaries, in all tiles https://trello.com/c[/Q03dC1](/src/DevNewsBriefs/2014_04_14/Q03dC1/index.md)QC
   * Better handling of deep coverage regions in read tracks https://trello.com/c/TxxzqWNx
 
 <table>
@@ -99,7 +99,7 @@ title: April 14, 2014 Galaxy Distribution News Brief
   * Additional actions pending review/implementation
   * https://trello.com/c/8gLGPzxV, https://trello.com/c/mq1m6X5M, 
 1. When multiple tool versions installed, default to the latest version https://trello.com/c/zRBZ9nvD
-1. Better handling when one of many versions of a tool repo is uninstalled https://trello.com/c/BmdG2201
+1. Better handling when one of many versions of a tool repo is uninstalled https://trello.com/c[/BmdG2201](/src/DevNewsBriefs/2014_04_14/BmdG2201/index.md)
 1. Unify the places where histories are shown and used: UI view and in core code https://trello.com/c/7cN0nmKH
 1. Configure workflow menu, improve buttons and styling https://trello.com/c/xFzp3lt6
 1. Handle disabled `sessionStorage/localStorage` more gracefully in the history pane https://trello.com/c/V2VCxzmx
@@ -125,7 +125,7 @@ title: April 14, 2014 Galaxy Distribution News Brief
 
 1. Admin: 
   * History view, allow importing purged datasets https://trello.com/c/tbhpQdMF
-  * User list, show 'activated' and 'create_time' columns https://trello.com/c/C6MhEHWo
+  * User list, show 'activated' and 'create_time' columns https://trello.com/c[/C6Mh](/src/DevNewsBriefs/2014_04_14/C6Mh/index.md)EHWo
   * Setting user quota at zero is now permitted (no `ZeroDivisionError`) https://trello.com/c/38NoBtlL
   * Admin user now has permissions to copy datasets from any history to a library https://trello.com/c/Ed91qIUC
   * Improvements to 'Impersonate User' implementation https://trello.com/c/lny2me4u
@@ -150,16 +150,16 @@ Thanks to our Galaxy community contributors!
 1. 309 - Job module for API (list and inspect jobs). Kyle Ellrott. https://trello.com/c/s2Gk6QlH
 1. 312 - Remove unused imports and unused variables. Fix spacing. Nicola Soranzo. https://trello.com/c/iWaf1ak4
 1. 316 - Fixing non-string parameter selection for job searches. Kyle Ellrott. https://trello.com/c/ZXZ9lEkN
-1. 317 - Web API: safer and cleaner workflow parameter passing. Simone Leo. https://trello.com/c/JaC2EBM8
+1. 317 - Web API: safer and cleaner workflow parameter passing. Simone Leo. https://trello.com/c[/JaC2](/src/DevNewsBriefs/2014_04_14/JaC2/index.md)EBM8
 1. 318 - Adding deleted field to 'to_dict' and search selection of Workflows. Kyle Ellrott. https://trello.com/c/lv9q67nF
 1. 315 - Allow jobs to be filtered by tool_id and history_id as well as by state. The tool_id is compared with the like operator. James Johnson https://trello.com/c/dvLvPUmK
 1. 322 - Added "ignore lines starting with specific characters" to group tool. Clayton Turner. https://trello.com/c/j6TP6M7m
-1. 323 - API methods to access Workflow Usage. Kyle Ellrott. https://trello.com/c/UetzHj64
+1. 323 - API methods to access Workflow Usage. Kyle Ellrott. https://trello.com/c[/UetzHj64](/src/DevNewsBriefs/2014_04_14/UetzHj64/index.md)
 1. 325 - Use `placeholder` instead of `value` in html5 - editor.mako. Trevor Wennblom. https://trello.com/c/PIZAXsOS
 1. 326 - Specify third-party cookies must not be blocked - repository.py. Trevor Wennblom. https://trello.com/c/XsAUr6wl
-1. 331 - Code housekeeping: standardize whitespace in various locations. Trevor Wennblom. https://trello.com/c/WtWdxP2n
+1. 331 - Code housekeeping: standardize whitespace in various locations. Trevor Wennblom. https://trello.com/c[/WtWdxP2n](/src/DevNewsBriefs/2014_04_14/WtWdxP2n/index.md)
 1. 341 - Workflows API enhancements (pull request #337 corrected). Nicola Soranzo and Simone Leo. https://trello.com/c/zizGdqy1
-1. 338 - Patch to expose the actual dataset id in the LDDA and HDA to_dict calls (in addition to the instance id). Kyle Ellrott https://trello.com/c/BrOscqTJ
+1. 338 - Patch to expose the actual dataset id in the LDDA and HDA to_dict calls (in addition to the instance id). Kyle Ellrott https://trello.com/c[/BrOscq](/src/DevNewsBriefs/2014_04_14/BrOscq/index.md)TJ
 1. 339 - Strip trailing slashes in tool IDs. Björn Grüning. https://trello.com/c/bpKNn66u
 1. 334 - Optional Input Datasets Not Compatible with Parallelism Tag. Michael Li https://trello.com/c/WMgr8Xx0 https://trello.com/c/Muw6fd8h
 1. 346 - Tool panel label bug correction. Nicola Soranzo. https://trello.com/c/8NpgYM3U
@@ -176,7 +176,7 @@ Thanks to our Galaxy community contributors!
 1. Fix tool form image display for toolshed installed tools https://trello.com/c/5G6jlB4B
 1. Fix to improve link format in user activation emails https://trello.com/c/JALX9DL3
 1. Fix problem with rerun of tools having `DataToolParameter` set as optional https://trello.com/c/pzHcSGzK
-1. Fix bug in Tool Panel when installing repositories https://trello.com/c/AiUefffC
+1. Fix bug in Tool Panel when installing repositories https://trello.com/c[/AiUefff](/src/DevNewsBriefs/2014_04_14/AiUefff/index.md)C
 
 <br />
 # Tool Shed
@@ -184,7 +184,7 @@ Thanks to our Galaxy community contributors!
 **[Tool Shed](/src/Tool Shed/index.md)**
 ## Documentation
 
-1. Reorganization of the Tool Shed wiki is underway! See current changes https://wiki.galaxyproject.org/ToolShed and what is next up https://trello.com/c/Gg0jnll7
+1. Reorganization of the Tool Shed wiki is underway! See current changes https://wiki.galaxyproject.org[/ToolShed](/src/DevNewsBriefs/2014_04_14/ToolShed/index.md) and what is next up https://trello.com/c/Gg0jnll7
 1. Data Manager documentation specific to toolshed http://wiki.galaxyproject.org/Tool%20Shed#The_contents_of_your_tool_shed_repository https://trello.com/c/OPOakK4w
 
 ## Repositories

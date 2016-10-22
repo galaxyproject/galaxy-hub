@@ -83,55 +83,55 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
   </tr>
   <tr>
     <th> April 4-5 </th>
-    <td> </strong><a href='http://www.nbic.nl/education/course-overview/coursedetails/genomic-resequencing-variant-detection-and-interpretation-in-a-diagnostic-context/'>NBIC NGS Exome Sequencing & Variant Calling course</a><strong><br /> Including a session on </em>Read Mapping and Variant Calling with Galaxy<em> </td>
+    <td> <strong><a href='http://www.nbic.nl/education/course-overview/coursedetails/genomic-resequencing-variant-detection-and-interpretation-in-a-diagnostic-context/'>NBIC NGS Exome Sequencing & Variant Calling course</a></strong><br /> Including a session on <em>Read Mapping and Variant Calling with Galaxy</em> </td>
     <td> Radboud UMC, Nijmegen </td>
     <td> <a href='https://wiki.nbic.nl/index.php/User:Leon'>Hailiang "Leon" Mei</a> </td>
   </tr>
   <tr>
     <th> April 5-6 </th>
-    <td> </strong><a href='http://gmod.org/wiki/April 2012 GMOD Meeting'>April 2012 GMOD Meeting</a><strong><br />Including a <a href='http://gmod.org/wiki/April 2012 GMOD Meeting#Galaxy Workshop'>Galaxy Workshop</a> on evening of April 5  </td>
+    <td> <strong><a href='http://gmod.org/wiki/April 2012 GMOD Meeting'>April 2012 GMOD Meeting</a></strong><br />Including a <a href='http://gmod.org/wiki/April 2012 GMOD Meeting#Galaxy Workshop'>Galaxy Workshop</a> on evening of April 5  </td>
     <td> Washington DC, immediately following <a href='http://pir.georgetown.edu/biocuration2012/'>Biocuration 2012</a> </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> April 24-26 </th>
-    <td> </strong><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=110781'>Leveraging SaaS for Next-Gen Sequencing: Case Study with the Galaxy Community</a><strong><br />Pre-Conference Workshop </td>
-    <td> </strong><a href='http://www.bio-itworldexpo.com/'>Bio-IT World</a><strong>, Boston, Massachusetts, United States </td>
+    <td> <strong><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=110781'>Leveraging SaaS for Next-Gen Sequencing: Case Study with the Galaxy Community</a></strong><br />Pre-Conference Workshop </td>
+    <td> <strong><a href='http://www.bio-itworldexpo.com/'>Bio-IT World</a></strong>, Boston, Massachusetts, United States </td>
     <td> Ravi Madduri, Elizabeth Bartom </td>
   </tr>
   <tr>
     <th> June 6-8 </th>
-    <td> </strong><a href='http://www.bio-itworldasia.com/cla'>Dynamically Scalable, Accessible Analysis with Galaxy Cloud</a><strong> </td>
-    <td> </strong><a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a><strong>, Singapore </td>
+    <td> <strong><a href='http://www.bio-itworldasia.com/cla'>Dynamically Scalable, Accessible Analysis with Galaxy Cloud</a></strong> </td>
+    <td> <strong><a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a></strong>, Singapore </td>
     <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> June 11-12 </th>
-    <td> </strong><a href='http://www.bioinformatics.ca/workshops/high_throughput'>Informatics on High Throughput Sequencing Data Workshop</a><strong> </td>
+    <td> <strong><a href='http://www.bioinformatics.ca/workshops/high_throughput'>Informatics on High Throughput Sequencing Data Workshop</a></strong> </td>
     <td> Toronto, Ontario, Canada </td>
     <td> Francis Ouellette </td>
   </tr>
   <tr>
     <th> June 11-19 </th>
-    <td> </strong><a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'>Next-gen Sequencing in Evolutionary Biology Course</a><strong> </td>
+    <td> <strong><a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'>Next-gen Sequencing in Evolutionary Biology Course</a></strong> </td>
     <td> <a href='http://nescent.org'>US National Evolutionary Synthesis Center (NESCent)</a>, Durham, North Carolina, United States </td>
     <td> <a href='http://www.datam0nk3y.org/hyphywiki/index.php/Sergei_L_Kosakovsky_Pond'>Sergei Kosakovsky Pond</a> </td>
   </tr>
   <tr>
     <th> July 11 </th>
-    <td> </strong><a href='http://www.nowgen.org.uk/facilities/events/event.php?id=44'>Reproducible workflows for next generation sequencing analysis</a><strong> </td>
+    <td> <strong><a href='http://www.nowgen.org.uk/facilities/events/event.php?id=44'>Reproducible workflows for next generation sequencing analysis</a></strong> </td>
     <td> <a href='http://www.nowgen.org.uk/'>Nowgen</a>, <a href='http://www.manchester.ac.uk/'>University of Manchester</a>, United Kingdom </td>
     <td> <a href="mailto:training@nowgen.org.uk">Tom Hancocks</a> </td>
   </tr>
   <tr>
     <th> July 13-17 </th>
-    <td> </strong><a href='http://www.iscb.org/ismb2012-program/ismb2012-satellitemeetings#BSI'>Bioinformatics Software Interoperability SIG (BSI-SIG)</a><strong> </td>
-    <td> </strong><a href='http://www.iscb.org/ismb2012'>ISMB 2012</a><strong>, Long Beach, California, United States </td>
+    <td> <strong><a href='http://www.iscb.org/ismb2012-program/ismb2012-satellitemeetings#BSI'>Bioinformatics Software Interoperability SIG (BSI-SIG)</a></strong> </td>
+    <td> <strong><a href='http://www.iscb.org/ismb2012'>ISMB 2012</a></strong>, Long Beach, California, United States </td>
     <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> </strong><a href='/src/Events/GCC2012/index.md'>2012 Galaxy Community Conference</a><strong><br /><a href='/src/Events/GCC2012/Register/index.md'>Early registration</a> and <a href='/src/Events/GCC2012/Abstracts/index.md'>abstract submission</a> are now open. </td>
+    <td> <strong><a href='/src/Events/GCC2012/index.md'>2012 Galaxy Community Conference</a></strong><br /><a href='/src/Events/GCC2012/Register/index.md'>Early registration</a> and <a href='/src/Events/GCC2012/Abstracts/index.md'>abstract submission</a> are now open. </td>
     <td> Chicago, Illinois, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
@@ -154,7 +154,7 @@ At least *15* new repositories were added to the [Galaxy Tool Shed](http://tools
 * EMBER: analysis technique for inferring the genes regulated by transcription factor. 
 * hmmer: hmmscan/hmmsearch as one tool, plus hmmpress
 * RNA SEQ by Expectation Maximization (RSEM).
-* !FastqMcf from ea-utils: remove barcodes and primers, filter and clip.
+* FastqMcf from ea-utils: remove barcodes and primers, filter and clip.
 * Augustus: eukaryotic gene prediction.
 * sed_wrapper: Get the power of Unix sed in Galaxy
 * antiSMASH: antibiotics and secondary metabolite analysis shell

@@ -44,7 +44,7 @@ We have a wide variety of active projects, current areas of expertise sought inc
 
 Regardless of your areas of expertise we seek talented, self-motivated individuals to join [our team](/src/GalaxyTeam/index.md). Galaxy is developed in an academic research environment, and members of the Galaxy team work closely with biomedical researchers on projects at the leading edge of data-intensive biology.
 
-Galaxy is written in Python, but also makes substantial use of !JavaScript, Canvas, and other modern Web technologies. Many of the analysis components of Galaxy are performance critical and are implemented in C and other languages as well.
+Galaxy is written in Python, but also makes substantial use of JavaScript, Canvas, and other modern Web technologies. Many of the analysis components of Galaxy are performance critical and are implemented in C and other languages as well.
 
 ## Postdoctoral Scholars
 

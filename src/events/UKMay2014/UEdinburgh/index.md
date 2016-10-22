@@ -49,19 +49,19 @@ Anyone affiliated with the University of Edinburgh can participate in this works
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td> </strong>Introduction<strong><div class='indent'>Welcome, Logistics, Galaxy Platforms, and Galaxy 101</div> </td>
+    <td> <strong>Introduction</strong><div class='indent'>Welcome, Logistics, Galaxy Platforms, and Galaxy 101</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:30 </th>
-    <td style=" text-align: center;"> </strong>Break<strong><div class='indent'>Exercise: Galaxy 101.5</div> </td>
+    <td style=" text-align: center;"> <strong>Break</strong><div class='indent'>Exercise: Galaxy 101.5</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:45 </th>
-    <td> </strong>RNA-Seq Example<strong><div class='indent'>Quality Control Overview, Mapping and Splice Junction Identification, Differential Expression, and Galaxy Community</div>  </td>
+    <td> <strong>RNA-Seq Example</strong><div class='indent'>Quality Control Overview, Mapping and Splice Junction Identification, Differential Expression, and Galaxy Community</div>  </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 13:00 </th>
-    <td style=" text-align: center;"> </strong>Done<strong> </td>
+    <td style=" text-align: center;"> <strong>Done</strong> </td>
   </tr>
 </table>
 

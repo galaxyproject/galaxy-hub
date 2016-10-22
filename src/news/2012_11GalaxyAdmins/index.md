@@ -15,7 +15,7 @@ The [next meeting](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md) of t
   </tr>
   <tr>
     <th> Presentation </th>
-    <td> </em>Deploying Galaxy on a shared-node cluster at UAB<em> </td>
+    <td> <em>Deploying Galaxy on a shared-node cluster at UAB</em> </td>
   </tr>
   <tr>
     <th> Presenter </th>
@@ -23,7 +23,7 @@ The [next meeting](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md) of t
   </tr>
   <tr>
     <th> Link </th>
-    <td> </strong><a href='https://globalcampus.uiowa.edu/join_meeting.html?meetingId=1262339408056'>Connect to Webinar</a><strong> [Password: 110516] <br /> </strong><a href='https://globalcampus.uiowa.edu/build_calendar.event?meetingId=1262339408056'>Meeting Invite</a><strong> </td>
+    <td> <strong><a href='https://globalcampus.uiowa.edu/join_meeting.html?meetingId=1262339408056'>Connect to Webinar</a></strong> [Password: 110516] <br /> <strong><a href='https://globalcampus.uiowa.edu/build_calendar.event?meetingId=1262339408056'>Meeting Invite</a></strong> </td>
   </tr>
 </table>
 
@@ -36,4 +36,4 @@ Srinivas Maddhi
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-11-05</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

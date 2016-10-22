@@ -39,8 +39,8 @@ There are two ways to add your deployment to this catalog.
 Have a Galaxy deployment?  The larger Galaxy community would love to learn about it.  To add a description of your Galaxy deployment to this page, you need to create a wiki page describing your Galaxy instance.  Here are the directions:
 
 1. [Login](/src/Community/Deployments/index.md) to the wiki. If you don't have an account, you'll need to [create one](/src/Community/Deployments/index.md).
-1. Pick a good descriptive, !CamelCase name for your deployment.  This will become part of the URL for the page describing your deployment.  Avoid embedded spaces as they make lousy URLs.
-1. Type the !CamelCase name in box below and hit the "Create" button.
+1. Pick a good descriptive, CamelCase name for your deployment.  This will become part of the URL for the page describing your deployment.  Avoid embedded spaces as they make lousy URLs.
+1. Type the CamelCase name in box below and hit the "Create" button.
     . PLACEHOLDER_NEW_PAGE(Community/Deployments/DeploymentTemplate, "Create a deployment description page", Community/Deployment)
 1. A template for the new page will appear.  Replace the template text with a description of your installation.
 1. Save, review, and edit the page until you are happy with it.

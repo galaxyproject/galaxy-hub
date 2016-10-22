@@ -26,4 +26,4 @@ From [2015/04: Using GALAXY_SLOTS with multithreaded Galaxy tools](http://galact
 * [2015/04: Using GALAXY_SLOTS with multithreaded Galaxy tools](http://galacticengineer.blogspot.co.uk/2015/04/using-galaxyslots-for-multithreaded_22.html)
 * [Galactic Engineer Blog](http://galacticengineer.blogspot.co.uk/)
 
-CategoryLog
+[CategoryLog](/src/CategoryLog/index.md)

@@ -133,9 +133,9 @@ There are several scripts and excellent programming libraries designed to help w
   a library for use in Java based on bioblend
 
 Data returned from (and in some cases passed to) the Galaxy API is often described or formatted in
-[JSON](http://en.wikipedia.org/wiki/JSON) (!JavaScript Object Notation) - a compact and flexible way of describing
+[JSON](http://en.wikipedia.org/wiki/JSON) (JavaScript Object Notation) - a compact and flexible way of describing
 relatively complex data structures. Conversion to the language you may be programming in is automatic in the case of the
-scripts/api directory, !BioBlend, and !Blend4j and relatively easy for python, and a non-issue for !JavaScript.
+scripts/api directory, BioBlend, and !Blend4j and relatively easy for python, and a non-issue for JavaScript.
 
 
 
@@ -307,7 +307,7 @@ We'll be using python and [scripts/api/common.py](PLACEHOLDER_ATTACHMENT_URL/src
 
 
 Much of the functionality of the resource scripts (such as users_1.py, histories_1.py, etc.) is available already
-in !BioBlend or Blend4j - we won't use them here so we can get a closer look on the internals and conventions of the API.
+in BioBlend or Blend4j - we won't use them here so we can get a closer look on the internals and conventions of the API.
 
 
 
@@ -654,7 +654,7 @@ following steps.
 ## 4. Checking the contents of a history with the history contents API
 
 Histories can be thought of as containers for the datasets we produce over time. The python class for those datasets
-(that are associated with a history and a user) is !HistoryDatasetAssociation (HDA).
+(that are associated with a history and a user) is HistoryDatasetAssociation (HDA).
 
 
 
@@ -1051,7 +1051,7 @@ Galaxy to be the *data inside datasets* we'll need to get at that information as
 
 Note that we've skipped talking about `datasets_1` and `datasets_2`. These would be the `index` and `show` methods
 for the datasets resource. In many ways, the datasets resource is a simplification of the HDA resource (and it's sibling
-the !LibraryDatasetDatasetAssociation or LDDA resource - which we'll cover a bit). Datasets is an interface to both HDAs
+the LibraryDatasetDatasetAssociation or LDDA resource - which we'll cover a bit). Datasets is an interface to both HDAs
 and LDDAs that often (effectively) 'strip' or ignore the information about the datasets' containers.
 
 
@@ -1111,7 +1111,7 @@ allows us to **get data from within the dataset**. This is done through the Gala
 ### Data providers
 
 Data providers allow us to get specific data from within a dataset's file contents. In this case
-(`datasets_3.get_column_data`), we're using the !ColumnDataProvider which provides columns from the Tabular dataset
+(`datasets_3.get_column_data`), we're using the ColumnDataProvider which provides columns from the Tabular dataset
 `statistics`.
 
 
@@ -1449,7 +1449,7 @@ happens some amount of core changes need to take place to make this as easy and 
 * a tarball of all the scripts used is here: [PLACEHOLDER_ATTACHMENT_URL/src/all-scripts.tar.gz](PLACEHOLDER_ATTACHMENT_URL/src/all-scripts.tar.gz)]]
 * [ReadTheDocs.org](http://galaxy-dist.readthedocs.org/en/latest/lib/galaxy.webapps.galaxy.api.html).
 * There are good examples in the `scripts/api` directory of a Galaxy installation.
-* !BioBlend and Blend4j (links are at the top of this page) can make your API scripting easier.
+* BioBlend and Blend4j (links are at the top of this page) can make your API scripting easier.
 * Thanks for coming!
 
 

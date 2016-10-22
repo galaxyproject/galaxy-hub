@@ -128,7 +128,7 @@ An [intense two-day hands-on collaboration](http://gcc2015.tsl.ac.uk/Data-Hackat
 
 ### Training SunDay
 
-Something new for GCC2015 is *[Training SunDay](http://gcc2015.tsl.ac.uk/training-day/)*, an additional day of training offered the day before its older sibling [Training Day](http://gcc2015.tsl.ac.uk/training-day/), and featuring a single track with the most in-demand topics. You can attend both Training Days, or just one.  Training !SunDay features these three topics:
+Something new for GCC2015 is *[Training SunDay](http://gcc2015.tsl.ac.uk/training-day/)*, an additional day of training offered the day before its older sibling [Training Day](http://gcc2015.tsl.ac.uk/training-day/), and featuring a single track with the most in-demand topics. You can attend both Training Days, or just one.  Training SunDay features these three topics:
 
 * [Introduction to Galaxy](http://gcc2015.tsl.ac.uk/training-day/#Introduction_to_Galaxy)
 * [RNA-Seq Analysis with Galaxy](http://gcc2015.tsl.ac.uk/training-day/#RNA-Seq_Analysis_with_Galaxy)
@@ -197,56 +197,56 @@ There are [upcoming events](/src/Events/index.md) in 8 countries on 4 continents
   </tr>
   <tr>
     <th> April 7 </th>
-    <td> </em><a href='https://www.e-biogenouest.org/events/details/45//'>5th GUGGO meeting</a><em> </td>
+    <td> <em><a href='https://www.e-biogenouest.org/events/details/45//'>5th GUGGO meeting</a></em> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy_user_group_grand_ouest_28guggo29'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
     <td> <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud, Yvan Le Bras</a> </td>
   </tr>
   <tr>
     <th> April 14-15 </th>
-    <td> </em><a href='https://www.globusworld.org/program'>Swift Parallel Scripting for Science, Engineering and Data Analysis</a><em> </td>
+    <td> <em><a href='https://www.globusworld.org/program'>Swift Parallel Scripting for Science, Engineering and Data Analysis</a></em> </td>
     <td> <a href='http://www.globusworld.org/'>GlobusWorld 2015</a>, Chicago, Illinois, United States </td>
     <td> <a href='http://www.ci.anl.gov/profile/342'>Mike Wilde</a> </td>
   </tr>
   <tr>
     <th> April 16 </th>
-    <td> </em><a href='/src/Community/GalaxyAdmins/Meetups/2015_04_16/index.md'>GalaxyAdmins April 2015 Meetup</a><em> </td>
-    <td> </em>Online<em> </td>
+    <td> <em><a href='/src/Community/GalaxyAdmins/Meetups/2015_04_16/index.md'>GalaxyAdmins April 2015 Meetup</a></em> </td>
+    <td> <em>Online</em> </td>
     <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a>, Carrie Ganote </td>
   </tr>
   <tr>
     <th> April 20-21 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-2/'>Workshop: Extended RNA-Seq analysis</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-2/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#qfab-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th rowspan=3> April 21 </th>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Next-Gen-Sequencing-Informatics/'>Large-Scale NGS Analysis Using Globus Genomics: Challenges and User Success Stories</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Next-Gen-Sequencing-Informatics/'>Large-Scale NGS Analysis Using Globus Genomics: Challenges and User Success Stories</a></em> </td>
     <td rowspan=4> <a href='http://www.bio-itworldexpo.com/'>Bio-IT World 2015</a>, Boston, Massachusetts, United States </td>
     <td> <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=144286'>Workshop: Large Scale NGS Analysis Using Globus Genomics</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=144286'>Workshop: Large Scale NGS Analysis Using Globus Genomics</a></em> </td>
     <td> Paul Davé, <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a>, Alex Rodriguez, Dinanath Sulakhe </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Bioinformatics/'>Extending Galaxy with External Microbiome Databases</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Bioinformatics/'>Extending Galaxy with External Microbiome Databases</a></em> </td>
     <td> Bob Brown </td>
   </tr>
   <tr>
     <th> April 23 </th>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Visualization Tools for the Refinery Platform</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Visualization Tools for the Refinery Platform</a></em> </td>
     <td> <a href='http://gehlenborg.com/'>Nils Gehlenborg</a> </td>
   </tr>
   <tr>
     <th> April&nbsp;27 - May 3 </th>
-    <td> </em><a href='http://bioinformatics.ca/workshops/2015/high-throughput-biology-sequence-networks-2015'>High-throughput Biology: From Sequence to Networks 2015</a><em> </td>
+    <td> <em><a href='http://bioinformatics.ca/workshops/2015/high-throughput-biology-sequence-networks-2015'>High-throughput Biology: From Sequence to Networks 2015</a></em> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#bioinformaticsca'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> New York City, New York, United States </td>
     <td> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
   </tr>
   <tr>
     <th> April 28 </th>
-    <td> </em><a href='/src/Events/Tokyo2015/index.md'>Galaxy Workshop Tokyo 2015</a><em> </td>
+    <td> <em><a href='/src/Events/Tokyo2015/index.md'>Galaxy Workshop Tokyo 2015</a></em> </td>
     <td> <a href='http://www.rcast.u-tokyo.ac.jp/index_en.html'>RCAST, The University of Tokyo</a>, Japan </td>
     <td> <a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2015#Contact'>Ryota Yamanaka</a> </td>
   </tr>
@@ -256,17 +256,17 @@ There are [upcoming events](/src/Events/index.md) in 8 countries on 4 continents
   </tr>
   <tr>
     <th> May 12 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module17-12mai.pdf'>Initiation à l’utilisation de Galaxy</a><em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module17-12mai.pdf'>Initiation à l’utilisation de Galaxy</a></em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
     <td rowspan=2> <a href='http://www.jouy.inra.fr/'>Jouy-en-Josas</a>, France </td>
     <td rowspan=2> <a href="mailto:veronique.martin@jouy.inra.fr">Veronique Martin</a>, <a href="mailto:sophie.schbath@jouy.inra.fr">Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> May 13 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module8bis-13mai.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a><em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module8bis-13mai.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
   </tr>
   <tr>
     <th> May 13 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy-3/'>Workshop: Variant detection using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy-3/'>Workshop: Variant detection using Galaxy</a></em> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#qfab-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
@@ -288,27 +288,27 @@ There are [upcoming events](/src/Events/index.md) in 8 countries on 4 continents
   </tr>
   <tr>
     <th> June 2 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module17-2juin.pdf'>Initiation à l’utilisation de Galaxy</a><em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module17-2juin.pdf'>Initiation à l’utilisation de Galaxy</a></em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
     <td rowspan=3> <a href='http://www.jouy.inra.fr/'>Jouy-en-Josas</a>, France </td>
     <td rowspan=3> <a href="mailto:veronique.martin@jouy.inra.fr">Veronique Martin</a>, <a href="mailto:sophie.schbath@jouy.inra.fr">Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 3 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module8bis-3juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a><em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module8bis-3juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
   </tr>
   <tr>
     <th> June 4 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module18.pdf'>Traitement bioinformatique des données RNA-Seq sous Galaxy</a><em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module18.pdf'>Traitement bioinformatique des données RNA-Seq sous Galaxy</a></em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
   </tr>
   <tr>
     <th> June 3 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-2/'>Workshop: RNA-Seq analysis using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-2/'>Workshop: RNA-Seq analysis using Galaxy</a></em> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#qfab-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> June 22 </th>
-    <td> </em>Introduction to variant calling for pathologists and laboratory managers<em> </td>
+    <td> <em>Introduction to variant calling for pathologists and laboratory managers</em> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> Part of <a href='http://www.rcpa.edu.au/Events/Event-Details/2015/June/Short-Course-in-Medical-Genetics-and-Genetic-Patho'>Short Course in Medical Genetics and Genetic Pathology 2015</a>, Sydney, Australia </td>
     <td> <a href='/src/RossLazarus/index.md'>Ross Lazarus</a>, <a href='https://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> </td>
   </tr>
@@ -318,13 +318,13 @@ There are [upcoming events](/src/Events/index.md) in 8 countries on 4 continents
   </tr>
   <tr>
     <th> July 6-8 </th>
-    <td> </strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a><strong> </td>
+    <td> <strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a></strong> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div>   <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
     <th> July 10-14 </th>
-    <td> </em><a href='http://www.iscb.org/ismbeccb2015-program/ismbeccb2015-akes#akes4'>Using Biological Cyberinfrastructure to Scale Science and People – Applications in Data Storage, HPC, Cloud Analysis, and Bioinformatics Training</a><em> </td>
+    <td> <em><a href='http://www.iscb.org/ismbeccb2015-program/ismbeccb2015-akes#akes4'>Using Biological Cyberinfrastructure to Scale Science and People – Applications in Data Storage, HPC, Cloud Analysis, and Bioinformatics Training</a></em> </td>
     <td> <a href='http://www.iscb.org/ismbeccb2015'>ISMB / ECCB 2015</a>, <a href='http://www.open-bio.org/wiki/BOSC_2015'>BOSC 2015</a>, Dublin, Ireland </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
@@ -392,9 +392,9 @@ One new [public Galaxy server](/src/PublicGalaxyServers/index.md) was added in M
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </strong> </td>
   </tr>
 </table>
 
@@ -434,25 +434,25 @@ One new [Community Log Board](/src/Community/Logs/index.md) entry was added in M
 <table>
   <tr>
     <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none;"> </strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a><strong> </td>
+    <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a><strong> </td>
+    <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
     <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a><strong> </td>
+    <td style=" border: none;"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
     <td style=" border: none;"> </td>
   </tr>
   <tr>
     <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong>new<strong>: </td>
+    <td style=" border: none;"> <strong>new</strong>: </td>
     <td style=" border: none;"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong>upgrade<strong>: </td>
+    <td style=" border: none;"> <strong>upgrade</strong>: </td>
     <td style=" border: none;"> <code>$ hg pull </code> <br /> <code>$ hg update latest_15.03</code> </td>
   </tr>
 </table>
@@ -466,7 +466,7 @@ One new [Community Log Board](/src/Community/Logs/index.md) entry was added in M
 
 <div class='right'><a href='/src/CloudMan/index.md'><img src="/src/Images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" width="200" /></a></div>
 
-[BioBlend](https://github.com/afgane/bioblend) [v0.5.3](https://github.com/galaxyproject/bioblend/blob/master/CHANGELOG.md) has been released.  [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  (CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
+[BioBlend](https://github.com/afgane/bioblend) [v0.5.3](https://github.com/galaxyproject/bioblend/blob/master/CHANGELOG.md) has been released.  [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  ([CloudMan](/src/CloudMan/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
 
 This is mostly an incremental bug fix release with the following summary of changes:
 
@@ -481,17 +481,17 @@ This is mostly an incremental bug fix release with the following summary of chan
 * Fix `DatasetClient.download_dataset()` for certain proxied Galaxy deployments.
 * Make `LibraryClient._get_root_folder_id()` method safer and faster for Galaxy release_13.06 and later.
 * Deprecate and ignore invalid deleted parameter to `WorkflowClient.get_workflows()`.
-* CloudMan: Add method to fetch instance types.
-* CloudMan: Update cluster options to reflect change to SLURM.
+* [CloudMan](/src/CloudMan/index.md): Add method to fetch instance types.
+* [CloudMan](/src/CloudMan/index.md): Update cluster options to reflect change to SLURM.
 * [BioBlend.objects](http://bioinformatics.oxfordjournals.org/content/30/19/2816.abstract): Deprecate and ignore invalid deleted parameter to `ObjWorkflowClient.list()`.
-* !BioBlend.objects: Add `paste_content()` method to `History` objects.
-* !BioBlend.objects: Add `copy_from_dataset()` method and `root_folder` property to `Library` objects.
-* !BioBlend.objects: Add `container` and `deleted` attributes to `Folder` objects.
-* !BioBlend.objects: Set the `parent` attribute of a `Folder` object to its parent folder object (thanks to John M. Eppley).
-* !BioBlend.objects: Add `deleted` parameter to `list()` method of libraries and histories.
-* !BioBlend.objects: Add `state` and `state_details` attributes to `History` objects (thanks to Gianmauro Cuccuru).
-* !BioBlend.objects: Rename `upload_dataset()` method to `upload_file()` for History objects.
-* !BioBlend.objects: Rename `input_ids and output_ids` attributes of `Workflow objects` to `source_ids` and `sink_ids` respectively.
+* BioBlend.objects: Add `paste_content()` method to `History` objects.
+* BioBlend.objects: Add `copy_from_dataset()` method and `root_folder` property to `Library` objects.
+* BioBlend.objects: Add `container` and `deleted` attributes to `Folder` objects.
+* BioBlend.objects: Set the `parent` attribute of a `Folder` object to its parent folder object (thanks to John M. Eppley).
+* BioBlend.objects: Add `deleted` parameter to `list()` method of libraries and histories.
+* BioBlend.objects: Add `state` and `state_details` attributes to `History` objects (thanks to Gianmauro Cuccuru).
+* BioBlend.objects: Rename `upload_dataset()` method to `upload_file()` for History objects.
+* BioBlend.objects: Rename `input_ids and output_ids` attributes of `Workflow objects` to `source_ids` and `sink_ids` respectively.
 * Add `run_bioblend_tests.sh` script (useful for Continuous Integration testing).
 
 Enjoy and please let us know what you think,
@@ -556,14 +556,14 @@ Note: Starting with the May news, this list will be placed on a separate page an
 
 * *From [rnateam](https://toolshed.g2.bx.psu.edu/view/rnateam):*
   * [kinwalker](https://toolshed.g2.bx.psu.edu/view/rnateam/kinwalker): The Kinwalker algorithm performs cotranscriptional folding of RNAs, starting at a user a specified structure (default: open chain) and ending at the minimum free energy structure. Folding events are performed between transcription of additional bases and are regulated by barrier heights between the source and target structure
-  * [vienna_rna](https://toolshed.g2.bx.psu.edu/view/rnateam/vienna_rna): The ViennaRNA Package consists of several stand-alone programs for the prediction and comparison of RNA secondary structures.   RNA secondary structure prediction through energy minimization is the most used function in the package. We provide three kinds of dynamic programming algorithms for structure prediction: the minimum free energy algorithm of (Zuker & Stiegler 1981) which yields a single optimal structure, the partition function algorithm of (!McCaskill 1990) which calculates base pair probabilities in the thermodynamic ensemble, and the suboptimal folding algorithm of (Wuchty et.al 1999) which generates all suboptimal structures within a given energy range of the optimal energy. For secondary structure comparison, the package contains several measures of distance (dissimilarities) using either string alignment or tree-editing (Shapiro & Zhang 1990). Finally, we provide an algorithm to design sequences with a predefined structure (inverse folding).
+  * [vienna_rna](https://toolshed.g2.bx.psu.edu/view/rnateam/vienna_rna): The ViennaRNA Package consists of several stand-alone programs for the prediction and comparison of RNA secondary structures.   RNA secondary structure prediction through energy minimization is the most used function in the package. We provide three kinds of dynamic programming algorithms for structure prediction: the minimum free energy algorithm of (Zuker & Stiegler 1981) which yields a single optimal structure, the partition function algorithm of (McCaskill 1990) which calculates base pair probabilities in the thermodynamic ensemble, and the suboptimal folding algorithm of (Wuchty et.al 1999) which generates all suboptimal structures within a given energy range of the optimal energy. For secondary structure comparison, the package contains several measures of distance (dissimilarities) using either string alignment or tree-editing (Shapiro & Zhang 1990). Finally, we provide an algorithm to design sequences with a predefined structure (inverse folding).
       In case you are using our software for your publications you may want to cite:
 
      Lorenz, Ronny and Bernhart, Stephan H. and H\u00f6ner zu Siederdissen, Christian and Tafer, Hakim and Flamm, Christoph and Stadler, Peter F. and Hofacker, Ivo L.<br />
      ViennaRNA Package 2.0, *Algorithms for Molecular Biology,* 6:1 26, 2011, doi:10.1186/1748-7188-6-26 
 
 * *From [izsam](https://toolshed.g2.bx.psu.edu/view/izsam):*
-  * [phylogeny_converter](https://toolshed.g2.bx.psu.edu/view/izsam/phylogeny_converter): Converts different file formats (FASTA, !GenBank, phylip, nexus) to allow data-exchange from different phylogeny tools.
+  * [phylogeny_converter](https://toolshed.g2.bx.psu.edu/view/izsam/phylogeny_converter): Converts different file formats (FASTA, GenBank, phylip, nexus) to allow data-exchange from different phylogeny tools.
 
 * *From [biomonika](https://toolshed.g2.bx.psu.edu/view/biomonika):*
   * [trinityrnaseq](https://toolshed.g2.bx.psu.edu/view/biomonika/trinityrnaseq): De novo assembly of RNA-Seq data Using Trinity Contains Trinity only. See [trinityrnaseq in Test Tool Shed](https://testtoolshed.g2.bx.psu.edu/view/jjohnson/trinityrnaseq) for additional tools.
@@ -607,7 +607,7 @@ Note: Starting with the May news, this list will be placed on a separate page an
 * [data_manager_diamond_database_builder](https://toolshed.g2.bx.psu.edu/view/bgruening/data_manager_diamond_database_builder): Diamond data manager 
 * [find_genes_located_nearby_workflow](https://toolshed.g2.bx.psu.edu/view/bgruening/find_genes_located_nearby_workflow): Galaxy workflow for the identification of candidate genes clusters This approach screens two proteins against all nucleotide sequence from the NCBI nt database within hours on our cluster, leading to all organisms with an interesting gene structure for further investigation. As usual in Galaxy workflows every parameter, including the proximity distance, can be changed and additional steps can be easily added. For example additional filtering to refine the initial BLAST hits, or inclusion of a third query sequence.
 * [find_three_genes_located_nearby_workflow](https://toolshed.g2.bx.psu.edu/view/bgruening/find_three_genes_located_nearby_workflow): Galaxy workflow for the identification of candidate genes clusters with three known genes This approach screens three proteins against a given genome sequence, leading to a genome position were all three genes are located nearby. As usual in Galaxy workflows every parameter, including the proximity distance, can be changed and additional steps can be easily added. For example additional filtering to refine the initial BLAST hits, or inclusion of a third query sequence.
-* [find_subsequences](https://toolshed.g2.bx.psu.edu/view/bgruening/find_subsequences): Searches for a subsequence in a larger sequence. For example to get all restriction enzymes for !BamH1. Searches for a subsequence in a larger sequence. For example to get all restriction enzymes for !BamH1.
+* [find_subsequences](https://toolshed.g2.bx.psu.edu/view/bgruening/find_subsequences): Searches for a subsequence in a larger sequence. For example to get all restriction enzymes for BamH1. Searches for a subsequence in a larger sequence. For example to get all restriction enzymes for BamH1.
 
      This tool is based on biopython: 10.1093/bioinformatics/btp163 <br />
      Repository-Maintainer: [Bjoern Gruening](/src/BjoernGruening/index.md)<br />
@@ -630,7 +630,7 @@ Note: Starting with the May news, this list will be placed on a separate page an
      Note: the UNAFold requires a big amount of RAM - e.g. the folding of 43 kb RNA eats near 30 GB of memory. So, after the installation of this wrapper you will need to modify the job_conf.xml of your Galaxy instance properly. Also, please be sure that zip datatype is registered as binary datatype in your Galaxy instance.
 
 * *From [steffen](https://toolshed.g2.bx.psu.edu/view/steffen):*
-  * [covenntree](https://toolshed.g2.bx.psu.edu/view/steffen/covenntree): !CoVennTree compares up to three rooted trees at the same time. !CoVennTree (Comparative weighted Venn Tree) is a software to analyze and compare up to three datasets. Unlike other methods, !CoVennTree correlates data on the leaf level and transfers this information to the root node. !CoVennTree works with numbers to compute weighted Venn diagrams for each node in the graph (rooted tree). Therefore any kind of input data can be processed as long as the data structure will be taken into account.
+  * [covenntree](https://toolshed.g2.bx.psu.edu/view/steffen/covenntree): CoVennTree compares up to three rooted trees at the same time. CoVennTree (Comparative weighted Venn Tree) is a software to analyze and compare up to three datasets. Unlike other methods, CoVennTree correlates data on the leaf level and transfers this information to the root node. CoVennTree works with numbers to compute weighted Venn diagrams for each node in the graph (rooted tree). Therefore any kind of input data can be processed as long as the data structure will be taken into account.
 
      http://journal.frontiersin.org/Journal/10.3389/fgene.2015.00043/abstract
 
@@ -708,7 +708,7 @@ Note: Starting with the May news, this list will be placed on a separate page an
   * [package_plink_1_07](https://toolshed.g2.bx.psu.edu/view/dereeper/package_plink_1_07): package_plink_1_07 
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
-  * [package_cofold_0_0_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_cofold_0_0_1): Contains a tool dependency definition that downloads and compiles !CoFold. A tool for prediction of RNA secondary structure that takes co-transcriptional folding into account.
+  * [package_cofold_0_0_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_cofold_0_0_1): Contains a tool dependency definition that downloads and compiles CoFold. A tool for prediction of RNA secondary structure that takes co-transcriptional folding into account.
 
      http://www.e-rna.org/cofold/ <br />
      Repository-Maintainer: [Bjoern Gruening](/src/BjoernGruening/index.md)<br />
@@ -742,13 +742,13 @@ Note: Starting with the May news, this list will be placed on a separate page an
 
      Repository-Maintainer: [Bjoern Gruening](/src/BjoernGruening/index.md)<br />
      Repository-Development: https://github.com/bgruening/galaxytools
-* [package_stringtie_1_0_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_stringtie_1_0_1): tool dependency definition. Contains a tool dependency definition that downloads and installs version 1.0.1 of the stringtie RNA-seq assembler. !StringTie is a fast and highly efficient assembler of RNA-Seq alignments into potential transcripts. It uses a novel network flow algorithm as well as an optional de novo assembly step to assemble and quantitate full-length transcripts representing multiple splice variants for each gene locus. Its input can include not only the alignments of raw reads used by other transcript assemblers, but also alignments longer sequences that have been assembled from those reads.To identify differentially expressed genes between experiments, !StringTie's output can be processed either by the Cuffdiff or Ballgown programs. 
+* [package_stringtie_1_0_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_stringtie_1_0_1): tool dependency definition. Contains a tool dependency definition that downloads and installs version 1.0.1 of the stringtie RNA-seq assembler. StringTie is a fast and highly efficient assembler of RNA-Seq alignments into potential transcripts. It uses a novel network flow algorithm as well as an optional de novo assembly step to assemble and quantitate full-length transcripts representing multiple splice variants for each gene locus. Its input can include not only the alignments of raw reads used by other transcript assemblers, but also alignments longer sequences that have been assembled from those reads.To identify differentially expressed genes between experiments, StringTie's output can be processed either by the Cuffdiff or Ballgown programs. 
 
 * *From [biomonika](https://toolshed.g2.bx.psu.edu/view/biomonika):*
   * [package_samtools_0_1_19_custom](https://toolshed.g2.bx.psu.edu/view/biomonika/package_samtools_0_1_19_custom): custom compilation of samtools 0.1.19 using -fPIC flag custom compilation of samtools 0.1.19 using -fPIC flag
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
-  * [package_freebayes_0_9_20_b040236](https://toolshed.g2.bx.psu.edu/view/devteam/package_freebayes_0_9_20_b040236): Contains a tool dependency definition that downloads and compiles version 0.9.20 of !FreeBayes. Program: freebayes (Bayesian haplotype-based polymorphism discovery and genotyping.)
+  * [package_freebayes_0_9_20_b040236](https://toolshed.g2.bx.psu.edu/view/devteam/package_freebayes_0_9_20_b040236): Contains a tool dependency definition that downloads and compiles version 0.9.20 of FreeBayes. Program: freebayes (Bayesian haplotype-based polymorphism discovery and genotyping.)
 
      Version: 0.9.20 (b040236)
 
@@ -777,7 +777,7 @@ Note: Starting with the May news, this list will be placed on a separate page an
 
 * *From [geert-vandeweyer](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer):*
   * [coverage_report](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/coverage_report): Added (default) option to collapse repetitive BED files, and added BED format check before collapsing regions.
-  * [vcf_to_variantdb](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/vcf_to_variantdb): Added support for 23andMe VCF files generated by !ArrogantRobot
+  * [vcf_to_variantdb](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/vcf_to_variantdb): Added support for 23andMe VCF files generated by ArrogantRobot
 
 * *From [peterjc](https://toolshed.g2.bx.psu.edu/view/peterjc):*
   * [blast2go](https://toolshed.g2.bx.psu.edu/view/peterjc/blast2go): v0.0.9, embed citation, updated README

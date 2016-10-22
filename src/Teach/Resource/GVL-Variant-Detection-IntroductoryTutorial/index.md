@@ -38,4 +38,4 @@ Needed datasets exist in Shared Libraries on the server, and are also available 
 * [Genomics Virtual Lab](https://genome.edu.au/wiki/GVL)
 * The [GVL Tutorials and Protocols page](https://genome.edu.au/wiki/Learn)
 
-CategoryTrainingResource CategoryTrainingResource
+[CategoryTrainingResource](/src/CategoryTrainingResource/index.md) CategoryTrainingResource

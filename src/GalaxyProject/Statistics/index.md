@@ -936,7 +936,7 @@ From the [Open HUB committers summary page](https://www.openhub.net/p/galaxybx/c
 
 ## Galaxy Clones
 
-The [Galaxy repo on GitHub](https://github.com/galaxyproject/galaxy) is what people download to create a Galaxy server.  **!GitHub exposes the number of clones and cloners in the most recent 14 day period.**
+The [Galaxy repo on GitHub](https://github.com/galaxyproject/galaxy) is what people download to create a Galaxy server.  **GitHub exposes the number of clones and cloners in the most recent 14 day period.**
 
 <table>
   <tr class="th" >

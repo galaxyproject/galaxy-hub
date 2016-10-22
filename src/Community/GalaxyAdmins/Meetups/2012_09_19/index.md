@@ -14,7 +14,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 ## Meeting Summary
 
-We have a new name!  The group formally known as !GalaxyCzars is now Galaxy-Admins.  Thank you to Hans-Rudolf Hotz for the winning suggestion - cheers to you Hans-Rudolf!  Thanks to to all the other great and humorous suggestions submitted: !GalaxyCaretakers, !GalaxyHackers, !GalaxySudoers, !GalaxyLocals, !GalaxyCommons. 
+We have a new name!  The group formally known as GalaxyCzars is now Galaxy-Admins.  Thank you to Hans-Rudolf Hotz for the winning suggestion - cheers to you Hans-Rudolf!  Thanks to to all the other great and humorous suggestions submitted: GalaxyCaretakers, GalaxyHackers, GalaxySudoers, GalaxyLocals, GalaxyCommons. 
 
 
 

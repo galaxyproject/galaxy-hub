@@ -80,7 +80,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <table>
   <tr>
-    <th> &nbsp;&nbsp; </strong><a href='/src/Events/GCC2013/Register/index.md'>Early registration</a> closes 24 May.<strong> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <strong><a href='/src/Events/GCC2013/Register/index.md'>Early registration</a> closes 24 May.</strong> &nbsp;&nbsp; </th>
   </tr>
 </table>
 
@@ -190,7 +190,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 9-13 </th>
-    <td> </strong><a href='/src/Events/ASMS2013/index.md'>61st ASMS Conference on Mass Spectrometry and Allied Topics</a><strong><div class='indent'>Includes at least 1 workshop and 9 posters either about or utilizing Galaxy</div> </td>
+    <td> <strong><a href='/src/Events/ASMS2013/index.md'>61st ASMS Conference on Mass Spectrometry and Allied Topics</a></strong><div class='indent'>Includes at least 1 workshop and 9 posters either about or utilizing Galaxy</div> </td>
     <td> Minneapolis, Minnesota, United States </td>
     <td> <a href='/src/JohnChilton/index.md'>John Chilton</a> </td>
   </tr>
@@ -208,7 +208,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> </strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
+    <td> <strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href='/src/Events/GCC2013/Organizers/index.md'>Organizers</a> </td>
   </tr>
@@ -230,7 +230,7 @@ The most recent official distribution was on [April 1, 2013](/src/DevNewsBriefs/
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 * [snptools](http://bit.ly/17irtR1): Tools for functional analysis of SNPs in microbial genomes  
-* [rnbeads](http://bit.ly/11tcQV9): R-package for Illumina Infinium !HumanMethylation450 !BeadChip data analysis 
+* [rnbeads](http://bit.ly/11tcQV9): R-package for Illumina Infinium HumanMethylation450 BeadChip data analysis 
 
 ## Other News
 

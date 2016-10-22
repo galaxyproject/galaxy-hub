@@ -23,4 +23,4 @@ Overall, my research interests lay in the area of distributed computing accessib
 
 
 ----
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

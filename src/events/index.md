@@ -849,35 +849,35 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
   </tr>
   <tr>
     <th> February 14-19 </th>
-    <td> <em>Using Galaxy workflows for metabolomics (http://workflow4metabolomics.org/)</em> </td>
+    <td> <em>Using Galaxy workflows for metabolomics (<a href='http://workflow4metabolomics.org/)'' '>http://workflow4metabolomics.org/)'' </a></td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md)  <a href='https://www.ebi.ac.uk/training/events/2016/embo-practical-course-metabolomics-bioinformatics-life-scientists-2'>EMBO Practical Course on Metabolomics Bioinformatics for Life Scientists</a>, EMBL-EBI, Hinxton, United Kingdom </td>
     <td> Etienne Thévenot </td>
     <td> </td>
   </tr>
   <tr>
     <th> February 18 </th>
-    <td> <em><a href='/src/Community/GalaxyAdmins/Meetups/2016_02_18/index.md'>GalaxyAdmins Web Meetup</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/World/index.md) <em><a href='/src/Community/GalaxyAdmins/Meetups/2016_02_18/index.md'>Online</a></em> </td>
+    <td> </em><a href='/src/Community/GalaxyAdmins/Meetups/2016_02_18/index.md'>GalaxyAdmins Web Meetup</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/World/index.md) </em><a href='/src/Community/GalaxyAdmins/Meetups/2016_02_18/index.md'>Online</a><em> </td>
     <td> <a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='/src/nate/index.md'>Nate Coraor</a>,<a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> February 16 </th>
-    <td> <em><a href='http://go4bioinformatics.genouest.org/initiation-a-la-plateforme-web-danalyse-de-donnees-galaxy-lanalyse-de-donnees-biologiques-pour-tous/'>Initiation à la plateforme web GALAXY</a></em> </td>
+    <td> </em><a href='http://go4bioinformatics.genouest.org/initiation-a-la-plateforme-web-danalyse-de-donnees-galaxy-lanalyse-de-donnees-biologiques-pour-tous/'>Initiation à la plateforme web GALAXY</a><em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src="/src/Images/GalaxyLogos/GTN16.png" alt="Training offered by GTN Member" /></a></div> <a href='https://www.e-biogenouest.org/members/1005'>Yvan Le Bras</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> February 11 </th>
-    <td> <em><a href='http://bioteam.net/bioteam-appliance/galaxy-edition/'>BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)</a></em> </td>
+    <td> </em><a href='http://bioteam.net/bioteam-appliance/galaxy-edition/'>BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)</a><em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://www.agbt.org/meetings/agbt-general-meeting/'>AGBT</a>, Orlando, Florida, United States </td>
     <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a></td>
     <td> </td>
   </tr>
   <tr>
     <th> February 8-9 </th>
-    <td> <em><a href='https://mod2016.com/'>Initiation à l’environnement UNIX et à la plateforme GALAXY</a></em> </td>
+    <td> </em><a href='https://mod2016.com/'>Initiation à l’environnement UNIX et à la plateforme GALAXY</a><em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='https://mod2016.com/'>Montpellier OMICS Days 2016</a>, Montpellier, France </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
     <td> </td>
@@ -888,35 +888,35 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
   </tr>
   <tr>
     <th> January 21, 22 </th>
-    <td> <em><a href='/src/Events/ISMMS2016/index.md'>Introduction to Galaxy Workshop</a></em> </td>
+    <td> </em><a href='/src/Events/ISMMS2016/index.md'>Introduction to Galaxy Workshop</a><em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://icahn.mssm.edu/'>Icahn School of Medicine at Mt. Sinai</a>, New York, New York, United States </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='/src/Events/ISMMS2016/index.md#questions'>Andrew Sharp</a> </td>
     <td> <a href='/src/Events/ISMMS2016/index.md#slides'>Slides</a> </td>
   </tr>
   <tr>
     <th> January 21 </th>
-    <td> <em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-4/'>RNA-Seq analysis using Galaxy Workshop</a></em> </td>
+    <td> </em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-4/'>RNA-Seq analysis using Galaxy Workshop</a><em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Australia/index.md) <a href='http://www.qfab.org/'>QFAB</a>, Brisbane, Queensland, Australia </td>
     <td> <a href="mailto:training@qfab.org">Melinda Beawer</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> January 19 </th>
-    <td> <em><a href='http://www.festivalofgenomicslondon.com/an-introduction-to-clinical-bioinformatics/'>An introduction to clinical bioinformatics</a></em> </td>
+    <td> </em><a href='http://www.festivalofgenomicslondon.com/an-introduction-to-clinical-bioinformatics/'>An introduction to clinical bioinformatics</a><em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='http://www.festivalofgenomicslondon.com/'>Festival of Genomics London</a>, London, United Kingdom </td>
     <td> <a href='http://www.festivalofgenomicslondon.com/speaker/ang-davies/'>Ang Davies</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> January 19 </th>
-    <td> <em><a href='http://www.drylab.nl/teaching-and-trainings/trait-vumc-course-on-galaxy/'>NGS Data Analysis in Galaxy (CTMM-TraIT course)</a></em> </td>
+    <td> </em><a href='http://www.drylab.nl/teaching-and-trainings/trait-vumc-course-on-galaxy/'>NGS Data Analysis in Galaxy (CTMM-TraIT course)</a><em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) VU University Medical Center Amsterdam, The Netherlands </td>
     <td> <a href='https://scholar.google.com/citations?user=BJ7bjCEAAAAJ&hl=en'>Christian Rausch</a>, Youri Hoogstrate, <a href='https://www.linkedin.com/in/ritaazevedo'>Rita Azevedo</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> January 8, 15 </th>
-    <td> <em><a href='http://www.vib.be/en/training/research-training/courses/Pages/Introduction-to-NGS-data-analysis.aspx'>Introduction to NGS data analysis</a></em> </td>
+    <td> </em><a href='http://www.vib.be/en/training/research-training/courses/Pages/Introduction-to-NGS-data-analysis.aspx'>Introduction to NGS data analysis</a><em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='http://www.vib.be/'>VIB</a>, Leuven, Belgium </td>
     <td> <a href='http://www.vib.be/whoiswho/Pages/Janick-Mathys.aspx?lang=en'>Janick Mathys</a> </td>
     <td> </td>
@@ -930,7 +930,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
   </tr>
   <tr>
     <th> January 8 </th>
-    <td> <em><a href='/src/Events/ASU2016/index.md'>Introduction to Galaxy Workshop</a></em> </td>
+    <td> </em><a href='/src/Events/ASU2016/index.md'>Introduction to Galaxy Workshop</a><em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://asu.edu/'>Arizona State University</a>, Tempe, Arizona, United States </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='https://sols.asu.edu/people/nico-franz'>Nico Franz</a>, <a href='https://sols.asu.edu/people/melissa-wilson-sayres'>Melissa A. Wilson Sayres</a>, <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
     <td> </td>

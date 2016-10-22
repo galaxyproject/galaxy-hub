@@ -28,7 +28,7 @@ This is for pragmatic and philosophical reasons. The whole goal of a wiki is to 
 
 It also takes some time to become proficient at [MoinMoin](/src/HelpOnEditing/index.md) (the wiki package behind this web site), and it can be a challenge to learn [MoinMoin details](/src/HelpOnMoinWikiSyntax/index.md) and site policies at the same time.
 
-However, once you get comfortable with !MoinMoin, please think about writing your content so it does conform to these standards.
+However, once you get comfortable with MoinMoin, please think about writing your content so it does conform to these standards.
 
 ## Updating
 
@@ -59,12 +59,12 @@ Discussion is shown as regular text.
 
 <div class='bestpractice'>
 1. Use *Generous Capitalization* instead of *Parsimonious capitalization.*
-1. Use *!CamelCase* page names.
-1. Use of !MoinMoin [redirect](/src/HelpOnProcessingInstructions/index.md#a23redirect)s for page name synonyms, and !CamelCase equivalents is encouraged.
+1. Use *CamelCase* page names.
+1. Use of MoinMoin [redirect](/src/HelpOnProcessingInstructions/index.md#a23redirect)s for page name synonyms, and CamelCase equivalents is encouraged.
 
 </div>
 
-*!CamelCase* page nemaes are strongly preferred as *Separate Word* page titles lead to awkward URLs with lots of embedded %20's (URL-escaped spaces).  You get
+*CamelCase* page nemaes are strongly preferred as *Separate Word* page titles lead to awkward URLs with lots of embedded %20's (URL-escaped spaces).  You get
  http://galaxyproject.org/wiki/Public%20Galaxy%20Servers
 instead of the much prettier
  http://galaxyproject.org/wiki/PublicGalaxyServers

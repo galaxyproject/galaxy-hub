@@ -61,7 +61,7 @@ In no particular order:
      https://pypi.python.org/pypi/cutadapt/1.8
 
 * [package_cd_hit_auxtools_0_5_2012_03_07_fix_dan](https://toolshed.g2.bx.psu.edu/view/iuc/package_cd_hit_auxtools_0_5_2012_03_07_fix_dan): Builds and installs cd-hit-auxtools including cd-hit-dup, cd-hit-lap, and read-linker. 
-* [package_nwalign_0_3_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_nwalign_0_3_1): Contains a tool dependency definition for version 0.3.1 of the python nwalign package nwalign is an implementation of Needleman-Wunsch global sequence alignment.  nwalign is a resource efficient alternative to scikit alignment.global_pairwise_align_nucleotide and !BioPython pairwise2
+* [package_nwalign_0_3_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_nwalign_0_3_1): Contains a tool dependency definition for version 0.3.1 of the python nwalign package nwalign is an implementation of Needleman-Wunsch global sequence alignment.  nwalign is a resource efficient alternative to scikit alignment.global_pairwise_align_nucleotide and BioPython pairwise2
 
      This is the version 0.3.1 of nwalign.<br />
      https://pypi.python.org/pypi/nwalign
@@ -76,5 +76,5 @@ In no particular order:
   * [fml_gff3togtf](https://toolshed.g2.bx.psu.edu/view/vipints/fml_gff3togtf): version 2.1.0
 
 * *From [crs4](https://toolshed.g2.bx.psu.edu/view/crs4):*
-  * [kggseq_variant_selection](https://toolshed.g2.bx.psu.edu/view/crs4/kggseq_variant_selection): Update to !KggSeq v0.7_20150118
+  * [kggseq_variant_selection](https://toolshed.g2.bx.psu.edu/view/crs4/kggseq_variant_selection): Update to KggSeq v0.7_20150118
 

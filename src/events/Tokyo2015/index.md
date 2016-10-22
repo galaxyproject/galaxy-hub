@@ -38,7 +38,7 @@ The preparation hands-on is optional. To attend this hands-on, please bring your
   </tr>
   <tr>
     <th style=" background: #eee;"> 10:00-12:00</th>
-    <td style=" text-align: left;"> </strong>Preparation Hands-on:<strong><br />Installling Pitagora-Galaxy </td>
+    <td style=" text-align: left;"> <strong>Preparation Hands-on:</strong><br />Installling Pitagora-Galaxy </td>
     <td style=" text-align: left;"> Tazro Ohta (DBCLS, ROIS) </td>
     <td style=" text-align: center;"> -</td>
     <td style=" text-align: center;"> <a href='http://g86.dbcls.jp/~iNut/dono/galaxy_workshop_tokyo_2015_hands-on.compressed.pdf'>pdf</a></td>
@@ -78,7 +78,7 @@ The preparation hands-on is optional. To attend this hands-on, please bring your
   </tr>
   <tr>
     <th style=" background: #eee;"> 13:05-13:25</th>
-    <td style=" text-align: left;"> </strong>Opening Remarks:<strong></td>
+    <td style=" text-align: left;"> <strong>Opening Remarks:</strong></td>
     <td style=" text-align: left;"> Hiroyuki Aburatani (RCAST, Univ of Tokyo)</td>
     <td style=" text-align: center;"> -</td>
     <td style=" text-align: center;"> -</td>
@@ -86,7 +86,7 @@ The preparation hands-on is optional. To attend this hands-on, please bring your
   </tr>
   <tr>
     <th style=" background: #eee;"> 13:25-13:30</th>
-    <td style=" text-align: left;"> </strong>Message from Galaxy Team<strong></td>
+    <td style=" text-align: left;"> <strong>Message from Galaxy Team</strong></td>
     <td style=" text-align: left;"> <a href='/src/DaveClements/index.md'>Dave Clements</a> (Johns Hopkins University)</td>
     <td style=" text-align: center;"> -</td>
     <td style=" text-align: center;"> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015_TokyoWorkshop_Clements.pdf'>pdf</a> </td>
@@ -182,7 +182,7 @@ The preparation hands-on is optional. To attend this hands-on, please bring your
   </tr>
   <tr>
     <th style=" background: #eee;"> 16:15-16:55</th>
-    <td style=" text-align: left;"> </strong>Keynote 2 (Overseas Galaxy Project):<strong><br />Genomics Virtual Laboratory </td>
+    <td style=" text-align: left;"> <strong>Keynote 2 (Overseas Galaxy Project):</strong><br />Genomics Virtual Laboratory </td>
     <td style=" text-align: left;"> Andrew Lonie<br />(Life Sciences Computation Centre, VLSCI) </td>
     <td style=" text-align: center;"> -</td>
     <td style=" text-align: center;"> <a href='http://download.pitagora-galaxy.org/data/document/GWT2015_Lonie.pdf'>pdf</a></td>
@@ -206,7 +206,7 @@ The preparation hands-on is optional. To attend this hands-on, please bring your
   </tr>
   <tr>
     <th style=" background: #eee;"> 17:25-17:40</th>
-    <td style=" text-align: left;"> Platforms: Illumina !BaseSpace</td>
+    <td style=" text-align: left;"> Platforms: Illumina BaseSpace</td>
     <td style=" text-align: left;"> Eri Kibukawa (Illumina)</td>
     <td style=" text-align: center;"> -</td>
     <td style=" text-align: center;"> <a href='http://download.pitagora-galaxy.org/data/document/GWT2015_Kibukawa.pdf'>pdf</a></td>

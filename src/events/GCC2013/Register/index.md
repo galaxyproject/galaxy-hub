@@ -26,7 +26,7 @@ You will receive an email confirming your registration within 3 business days.  
 <table>
   <tr>
     <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2013/Register/Program/index.md'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="Main Meeting" height="80" /></a> </td>
-    <td style=" border: none;"> </strong>+<strong> </td>
+    <td style=" border: none;"> <strong>+</strong> </td>
     <td style=" border: none;"> <a href='/src/Events/GCC2013/Register/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013TrainingDayLogo200.png" alt="Training Day" height="60" /></a> </td>
   </tr>
 </table>
@@ -43,21 +43,21 @@ You will receive an email confirming your registration within 3 business days.  
   </tr>
   <tr>
     <th> Student / Post-Doc </th>
-    <td style=" text-align: center; color: #ccc;"> </strong>700 NOK<strong> <br />(~ €95) </td>
-    <td style=" text-align: center; color: #ccc;"> </strong>1,225 NOK<strong> <br />(~ €165) </td>
-    <td style=" text-align: center; color: #c00;"> </strong>2,450 NOK<strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=2450'>(~ €330)</a> </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>700 NOK</strong> <br />(~ €95) </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>1,225 NOK</strong> <br />(~ €165) </td>
+    <td style=" text-align: center; color: #c00;"> <strong>2,450 NOK</strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=2450'>(~ €330)</a> </td>
   </tr>
   <tr>
     <th> Other Non-Profit </th>
-    <td style=" text-align: center; color: #ccc;"> </strong>1,350 NOK<strong> <br />(~ €180) </td>
-    <td style=" text-align: center; color: #ccc;"> </strong>2,025 NOK<strong> <br />(~ €270) </td>
-    <td style=" text-align: center; color: #c00;"> </strong>3,675 NOK<strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=3675'>(~ €490)</a> </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>1,350 NOK</strong> <br />(~ €180) </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>2,025 NOK</strong> <br />(~ €270) </td>
+    <td style=" text-align: center; color: #c00;"> <strong>3,675 NOK</strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=3675'>(~ €490)</a> </td>
   </tr>
   <tr>
     <th> Industry </th>
-    <td style=" text-align: center; color: #ccc;"> </strong>2,650 NOK<strong> <br />(~ €355) </td>
-    <td style=" text-align: center; color: #ccc;"> </strong>3,350 NOK<strong> <br />(~ €450) </td>
-    <td style=" text-align: center; color: #c00;"> </strong>5,450 NOK<strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=5450'>(~ €730)</a> </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>2,650 NOK</strong> <br />(~ €355) </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>3,350 NOK</strong> <br />(~ €450) </td>
+    <td style=" text-align: center; color: #c00;"> <strong>5,450 NOK</strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=5450'>(~ €730)</a> </td>
   </tr>
 </table>
 
@@ -82,21 +82,21 @@ Interested in only the conference?  [Conference-only registration](http://bit.ly
   </tr>
   <tr>
     <th> Student / Post-Doc </th>
-    <td style=" text-align: center; color: #ccc;"> </strong>625 NOK<strong> <br />(~ €85) </td>
-    <td style=" text-align: center; color: #ccc;"> </strong>1,125 NOK<strong> <br />(~ €150) </td>
-    <td style=" text-align: center; color: #c00;"> </strong>2,250 NOK<strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=2250'>(~ €300)</a> </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>625 NOK</strong> <br />(~ €85) </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>1,125 NOK</strong> <br />(~ €150) </td>
+    <td style=" text-align: center; color: #c00;"> <strong>2,250 NOK</strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=2250'>(~ €300)</a> </td>
   </tr>
   <tr>
     <th> Other Non-Profit </th>
-    <td style=" text-align: center; color: #ccc;"> </strong>1,250 NOK<strong> <br />(~ €165) </td>
-    <td style=" text-align: center; color: #ccc;"> </strong>1,875 NOK<strong> <br />(~ €250) </td>
-    <td style=" text-align: center; color: #c00;"> </strong>3,375 NOK<strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=3375'>(~ €450)</a> </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>1,250 NOK</strong> <br />(~ €165) </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>1,875 NOK</strong> <br />(~ €250) </td>
+    <td style=" text-align: center; color: #c00;"> <strong>3,375 NOK</strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=3375'>(~ €450)</a> </td>
   </tr>
   <tr>
     <th> Industry </th>
-    <td style=" text-align: center; color: #ccc;"> </strong>2,500 NOK<strong> <br />(~ €335) </td>
-    <td style=" text-align: center; color: #ccc;"> </strong>3,125 NOK<strong> <br />(~ €420) </td>
-    <td style=" text-align: center; color: #c00;"> </strong>5,000 NOK<strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=5000'>(~ €670)</a> </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>2,500 NOK</strong> <br />(~ €335) </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>3,125 NOK</strong> <br />(~ €420) </td>
+    <td style=" text-align: center; color: #c00;"> <strong>5,000 NOK</strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=5000'>(~ €670)</a> </td>
   </tr>
 </table>
 
@@ -121,21 +121,21 @@ Interested in the [Training Day](/src/Events/GCC2013/Register/TrainingDay/index.
   </tr>
   <tr>
     <th> Student / Post-Doc </th>
-    <td style=" text-align: center; color: #ccc;"> </strong>165 NOK<strong> <br />(~ €22) </td>
-    <td style=" text-align: center; color: #ccc;"> </strong>235 NOK<strong> <br />(~ €32) </td>
-    <td style=" text-align: center; color: #c00;"> </strong>470 NOK<strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=470'>(~ €63)</a> </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>165 NOK</strong> <br />(~ €22) </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>235 NOK</strong> <br />(~ €32) </td>
+    <td style=" text-align: center; color: #c00;"> <strong>470 NOK</strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=470'>(~ €63)</a> </td>
   </tr>
   <tr>
     <th> Other Non-Profit </th>
-    <td style=" text-align: center; color: #ccc;"> </strong>235 NOK<strong> <br />(~ €32) </td>
-    <td style=" text-align: center; color: #ccc;"> </strong>330 NOK<strong> <br />(~ €44) </td>
-    <td style=" text-align: center; color: #c00;"> </strong>660 NOK<strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=660'>(~ €89)</a> </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>235 NOK</strong> <br />(~ €32) </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>330 NOK</strong> <br />(~ €44) </td>
+    <td style=" text-align: center; color: #c00;"> <strong>660 NOK</strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=660'>(~ €89)</a> </td>
   </tr>
   <tr>
     <th> Industry </th>
-    <td style=" text-align: center; color: #ccc;"> </strong>350 NOK<strong> <br />(~ €47) </td>
-    <td style=" text-align: center; color: #ccc;"> </strong>470 NOK<strong> <br />(~ €63) </td>
-    <td style=" text-align: center; color: #c00;"> </strong>950 NOK<strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=950'>(~ €125)</a> </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>350 NOK</strong> <br />(~ €47) </td>
+    <td style=" text-align: center; color: #ccc;"> <strong>470 NOK</strong> <br />(~ €63) </td>
+    <td style=" text-align: center; color: #c00;"> <strong>950 NOK</strong> <br /><a href='http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=950'>(~ €125)</a> </td>
   </tr>
 </table>
 
@@ -153,7 +153,7 @@ Interested in the [Training Day](/src/Events/GCC2013/Register/TrainingDay/index.
   </tr>
   <tr style="background-color: #ddf" >
     <td> 24 May </td>
-    <td> <a href='/src/Events/GCC2013/Register/index.md'>Early registration</a> </strong>closed<strong> </td>
+    <td> <a href='/src/Events/GCC2013/Register/index.md'>Early registration</a> <strong>closed</strong> </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> 24 May </td>
@@ -165,11 +165,11 @@ Interested in the [Training Day](/src/Events/GCC2013/Register/TrainingDay/index.
   </tr>
   <tr style="background-color: #ddf" >
     <td> 14 June </td>
-    <td> <a href='/src/Events/GCC2013/Register/index.md'>Regular Registration</a> </strong>closed<strong> </td>
+    <td> <a href='/src/Events/GCC2013/Register/index.md'>Regular Registration</a> <strong>closed</strong> </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> 26 June </td>
-    <td> <a href='/src/Events/GCC2013/Register/index.md'>Late registration</a> </strong>closed<strong> </td>
+    <td> <a href='/src/Events/GCC2013/Register/index.md'>Late registration</a> <strong>closed</strong> </td>
   </tr>
 </table>
 

@@ -22,4 +22,4 @@ Happy October!
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-10-01 </div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

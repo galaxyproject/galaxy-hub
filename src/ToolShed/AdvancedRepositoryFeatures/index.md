@@ -29,7 +29,7 @@ hg clone http://toolshed.g2.bx.psu.edu/repos/edward-kirton/contamrm
 ```
 
 
-...will install the repository named **contamrm**, owned by **edward-kirton** from the Tool Shed **http://toolshed.g2.bx.psu.edu** into the local directory.  In this case, the repository tip will be installed, providing all included mercurial changeset revisions.
+...will install the repository named **contamrm**, owned by **edward-kirton** from the Tool Shed **http://toolshed.g2.bx.psu.edu''' into the local directory.  In this case, the repository tip will be installed, providing all included mercurial changeset revisions.
 
 # Pushing changes to a repository using hg from the command line
 

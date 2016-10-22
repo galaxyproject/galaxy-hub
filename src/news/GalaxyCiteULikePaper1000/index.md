@@ -83,4 +83,4 @@ The Galaxy CiteULike group was launched 18 months ago.  It continues to grow *ra
 <span style="font-size: smaller;"> * These tags were added in 2013 and very few papers before 2013 have been back-curated with them.  All the tags are explained on the [CiteULike](/src/CiteULike/index.md) page. </span>
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-06-06</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

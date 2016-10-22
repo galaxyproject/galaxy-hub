@@ -31,7 +31,7 @@ Ole Johan Dahls House is adjacent to the Forskningsparken subway and tram stops.
 
 ## Power
 
-Norway, like most of Europe, uses 50hz 230 volt power.   [Outlets in Norway are type "C"](http://goscandinavia.about.com/od/norwa1/f/eleoutletnorway.htm) (the *!EuroPlug*) with two round plugs. 
+Norway, like most of Europe, uses 50hz 230 volt power.   [Outlets in Norway are type "C"](http://goscandinavia.about.com/od/norwa1/f/eleoutletnorway.htm) (the *EuroPlug*) with two round plugs. 
 
 <br />
 

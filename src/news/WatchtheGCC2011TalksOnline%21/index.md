@@ -9,4 +9,4 @@ We had several requests for this, and I would like to thank NBIC for making this
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-06-11</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

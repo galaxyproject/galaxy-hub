@@ -20,7 +20,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
 
 [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/src/Community/GalaxyAdmins/Meetups/index.md) and at events like [GCC2015](http://gcc2015.tsl.ac.uk/), where a lot of us happen to be.
 
-GCC2015 will be the third in=person GalaxyAdmins meetup.  The GalaxyAdmins !BoFs at [GCC2013](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md) and [GCC2014](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md) were very well attended and resulted in several actions items, many of which have now been implemented.
+GCC2015 will be the third in=person GalaxyAdmins meetup.  The GalaxyAdmins BoFs at [GCC2013](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md) and [GCC2014](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md) were very well attended and resulted in several actions items, many of which have now been implemented.
 
 This meetup will discuss last year's action items, plans for the coming year, GalaxyAdmins leadership, and whatever else participants want to talk about.
 
@@ -99,7 +99,7 @@ This BoF will meet on **Tuesday, 7 July at 18:20, in the Franklin Room, at the J
   * Seems to be due to reading lots of tools and configs.
   * Means when Galaxy is upgraded, it's down for a while?
   * Lots of concern about downtime after a restart
-* Eric Enns: doing cool work with !BioBlend to put sequncing files where Galaxy picks them up (and uses symlinks)
+* Eric Enns: doing cool work with BioBlend to put sequncing files where Galaxy picks them up (and uses symlinks)
 * A fair percentage of people in the room deal mainly with "non-standard" genomes.
 * Conversation about impresonating users, and really locking it down so this can't be done
 * Role based permissions.
@@ -108,4 +108,4 @@ This BoF will meet on **Tuesday, 7 July at 18:20, in the Franklin Room, at the J
 
 Send them to [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) and [Dave Clements](/src/DaveClements/index.md)
 
-CategoryBoF
+[CategoryBo](/src/CategoryBo/index.md)F

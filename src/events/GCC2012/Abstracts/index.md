@@ -64,7 +64,7 @@ This ongoing project demonstrates a novel integration of Galaxy with experimenta
 
 **Vincent Maillol<sup>1</sup>**, Roberto Bacilieri<sup>1</sup>, Stéphanie Sidibe Bocs<sup>3</sup>, Jean-Michel Boursiquot<sup>1,2</sup>, Grégory Carrier<sup>2</sup>, Alexis Dereeper<sup>4</sup>, Gaétan Droc<sup>3</sup>, Cécile Fleury<sup>3</sup>, Pierre Larmande<sup>4</sup>, Loïc Lecunff<sup>2</sup>, Jean-Pierre Péros<sup>1</sup> Bertrand Pitollat<sup>3</sup>, Manuel Ruiz<sup>3</sup>, Gautier Sarah<sup>1</sup>, Guilhem Sempéré<sup>3</sup>, Marilyne Summo<sup>3</sup>, Patrice This<sup>1</sup>, and **Jean-Francois Dufayard<sup>3</sup>**
 
- <sup>1</sup> INRA – Montpellier !SupAgro, UMR 1334 AGAP, DAVEM team, 2 Place P. Viala, 34060 Montpellier, France.<br />
+ <sup>1</sup> INRA – Montpellier SupAgro, UMR 1334 AGAP, DAVEM team, 2 Place P. Viala, 34060 Montpellier, France.<br />
  <sup>2</sup> Institut Français de la Vigne et du Vin - Unité Mixte Technologique Géno-Vigne, 2 Place P. Viala, 34060 Montpellier, France.<br />
  <sup>3</sup> CIRAD - UMR 1334 AGAP, ID team, avenue Agropolis, 34398 Montpellier Cedex 5, France.<br />
  <sup>4</sup> IRD - 911 avenue Agropolis, 34394 Montpellier, France.
@@ -92,7 +92,7 @@ functionalities.Thus, Galaxy is now a core component of the plant breeding commu
 
 *[PDF](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2012/Karpenko.pdf), [PPT](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2012/Karpenko.ppt) Video*
 
-Latest genotyping solutions allow for rapid testing of more than two million markers in one experiment. Fully automated instruments such as Affymetrix !GeneTitan enable processing of large numbers of samples in a truly high-throughput manner. In concert with solutions like Axiom, fully customizable array plates can now utilize automated workflows that can leverage multi-channel instrumentation like the !GeneTitan.
+Latest genotyping solutions allow for rapid testing of more than two million markers in one experiment. Fully automated instruments such as Affymetrix GeneTitan enable processing of large numbers of samples in a truly high-throughput manner. In concert with solutions like Axiom, fully customizable array plates can now utilize automated workflows that can leverage multi-channel instrumentation like the GeneTitan.
 
 With the growing size of raw data output, the serial computational architecture of the software, typically distributed by the vendors on turnkey desktop solutions for quality control and genotype calling, becomes legacy rather than an advantage. More advanced software and techniques provide more power and flexibility in options and can be deployed in an HPC environment, but become technically inconvenient for biologists to use.
 
@@ -108,7 +108,7 @@ Here we present a pipeline that uses Galaxy as an interface to provide the mecha
 
 *[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2012/Liu.pdf), Video*
 
-Globus Online (GO) is a hosted service that uses powerful grid transfer capabilities to automate the tasks of moving large quantities of data in a secure, efficient and fast way. Integrating Galaxy with Globus Online addresses the challenges in transferring large-scale datasets in and out of Galaxy quickly and reliably. In CVRG (!CardioVascular Research Grid) project, we have extended Galaxy with "Globus Online" tools for data transfer, "CRData" tools for executing R scripts, "Picard/GATK via Condor" tools for running Picard and GATK tools at Condor nodes in parallel, etc. The thorough integration of Galaxy and GO services, including GO-transfer, GO-storage and GO-collaborate, will accelerate the development of Galaxy and make it more suitable for complicated bioinformatics pipelines. For example, GO-storage provides large capacity data storage that can be accessed within Galaxy. Galaxy could use GO-collaborate for user authentication, group management and task collaboration, and then GO users could access Galaxy without register and easily share Galaxy history/workflow/dataset with GO users or groups. The distributed computing capabilities of Globus also make the execution of Galaxy jobs faster and more efficiently.
+Globus Online (GO) is a hosted service that uses powerful grid transfer capabilities to automate the tasks of moving large quantities of data in a secure, efficient and fast way. Integrating Galaxy with Globus Online addresses the challenges in transferring large-scale datasets in and out of Galaxy quickly and reliably. In CVRG (CardioVascular Research Grid) project, we have extended Galaxy with "Globus Online" tools for data transfer, "CRData" tools for executing R scripts, "Picard/GATK via Condor" tools for running Picard and GATK tools at Condor nodes in parallel, etc. The thorough integration of Galaxy and GO services, including GO-transfer, GO-storage and GO-collaborate, will accelerate the development of Galaxy and make it more suitable for complicated bioinformatics pipelines. For example, GO-storage provides large capacity data storage that can be accessed within Galaxy. Galaxy could use GO-collaborate for user authentication, group management and task collaboration, and then GO users could access Galaxy without register and easily share Galaxy history/workflow/dataset with GO users or groups. The distributed computing capabilities of Globus also make the execution of Galaxy jobs faster and more efficiently.
 
 ## Scalable data management and computable framework for large scale longitudinal studies
 
@@ -137,7 +137,7 @@ The platform is used in production by the IRGB/CNR since 2011.
 
  <sup>1</sup> Institut Curie<br />
  <sup>2</sup> INSERM, U900, Bioinformatics and Computational Systems Biology of Cancer, Paris<br />
- <sup>3</sup> Mines !ParisTech, Fontainebleau, France
+ <sup>3</sup> Mines ParisTech, Fontainebleau, France
 
 **Keywords:** ChIP-seq, Galaxy, peaks, motifs, genome feature association.
 
@@ -147,9 +147,9 @@ We present a web service, Nebula, which allows biologists to perform by them sel
 
 Many existing tools for ChIP-seq data analysis are difficult to use by nonbioinformaticians.  These tools map sequenced reads to the reference genome or predict binding site locations (ChIP-seq peaks). Several tools exist for peak filtering, motif discovery and genome feature association. Such tools are often command line applications or R packages.
 
-Our web service, [Nebula](http://nebula.curie.fr/), was designed for biologists. It is based on the Galaxy open source framework. Galaxy already includes a large number of functionalities for mapping reads and peak calling. We added the following to Galaxy: (1) peak calling with !FindPeaks and a module for immunoprecipitation quality control, (2) *de novo* motif discovery with ChIPmunk, (3) calculation of the density and the cumulative distribution of peak locations around gene TSSs, (4) annotation of peaks with genomic features, and (5) annotation of genes with peak information. Nebula generates the graphs and the enrichment statistics at each step of the process. During steps 3 to 5, Nebula optionally repeats the analysis on a control dataset and compares these results with those from the main dataset. Nebula can also incorporate gene expression (or gene modulation) data during these steps. In summary, Nebula is an innovative web service that provides an advanced ChIP-seq analysis pipeline, the output of which is directly publishable.
+Our web service, [Nebula](http://nebula.curie.fr/), was designed for biologists. It is based on the Galaxy open source framework. Galaxy already includes a large number of functionalities for mapping reads and peak calling. We added the following to Galaxy: (1) peak calling with FindPeaks and a module for immunoprecipitation quality control, (2) *de novo* motif discovery with ChIPmunk, (3) calculation of the density and the cumulative distribution of peak locations around gene TSSs, (4) annotation of peaks with genomic features, and (5) annotation of genes with peak information. Nebula generates the graphs and the enrichment statistics at each step of the process. During steps 3 to 5, Nebula optionally repeats the analysis on a control dataset and compares these results with those from the main dataset. Nebula can also incorporate gene expression (or gene modulation) data during these steps. In summary, Nebula is an innovative web service that provides an advanced ChIP-seq analysis pipeline, the output of which is directly publishable.
 
-**Additional information:** Nebula accepts mapped reads in SAM/BAM format.  Each step of the pipeline produces several output files, which are mainly tabdelimited text files, .BED files or images. We used Perl and R to develop the tools used to perform the steps 3 to 5. The pipeline also includes several published tools (samtools, bedTools, MACS, !FindPeaks, ChIPmunk).
+**Additional information:** Nebula accepts mapped reads in SAM/BAM format.  Each step of the pipeline produces several output files, which are mainly tabdelimited text files, .BED files or images. We used Perl and R to develop the tools used to perform the steps 3 to 5. The pipeline also includes several published tools (samtools, bedTools, MACS, FindPeaks, ChIPmunk).
 
 <br /><br />
 
@@ -237,7 +237,7 @@ Contact: support@oqtans.org; ratschg@mskcc.org
  
 *[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2012/Minevich.pdf), Video*
 
-Whole genome sequencing (WGS) is the fastest and most cost effective way to map causal mutations in model organisms such as *C. elegans*. Our lab has previously developed single step SNP mapping strategies coupled with whole genome sequencing ([Doitsidou et al. 2010](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0015435)) as well as software analysis tools for mutant genome sequence analysis (MAQGene, [Bigelow et al. 2009](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2854518/?tool=pubmed)). In an effort to take advantage of the cloud and many freely available open source tools, we've adapted our mutant genome sequence analysis pipeline to run on Galaxy. Our pipeline uses custom Python scripts to provide greatly improved mutant mapping tools and relies on the NGS Toolbox in Galaxy, [GATK Tools](http://www.nature.com/ng/journal/v43/n5/abs/ng.806.html), and [snpEff](http://snpeff.sourceforge.net). In addition to allowing for pinpoint mapping of causal mutations in *C. elegans* using any mapping strain, we also support similar mapping strategies for other model organisms that can be crossed to mapping strains. An alternate mapping strategy whereby mutants are backcrossed to their starting strain ([Zuryn, et al. 2010](http://www.genetics.org/content/186/1/427.full)) is also supported. The !CloudMap pipeline provides a set of best practices for mapping causal mutations and also facilitates the cataloguing and sharing of WGS variant data among model organism communities that use the tool.
+Whole genome sequencing (WGS) is the fastest and most cost effective way to map causal mutations in model organisms such as *C. elegans*. Our lab has previously developed single step SNP mapping strategies coupled with whole genome sequencing ([Doitsidou et al. 2010](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0015435)) as well as software analysis tools for mutant genome sequence analysis (MAQGene, [Bigelow et al. 2009](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2854518/?tool=pubmed)). In an effort to take advantage of the cloud and many freely available open source tools, we've adapted our mutant genome sequence analysis pipeline to run on Galaxy. Our pipeline uses custom Python scripts to provide greatly improved mutant mapping tools and relies on the NGS Toolbox in Galaxy, [GATK Tools](http://www.nature.com/ng/journal/v43/n5/abs/ng.806.html), and [snpEff](http://snpeff.sourceforge.net). In addition to allowing for pinpoint mapping of causal mutations in *C. elegans* using any mapping strain, we also support similar mapping strategies for other model organisms that can be crossed to mapping strains. An alternate mapping strategy whereby mutants are backcrossed to their starting strain ([Zuryn, et al. 2010](http://www.genetics.org/content/186/1/427.full)) is also supported. The CloudMap pipeline provides a set of best practices for mapping causal mutations and also facilitates the cataloguing and sharing of WGS variant data among model organism communities that use the tool.
 
 Correspondence to [mailto:gm2123 AT columbia DOT edu](gm2123 AT columbia DOT edu) (G.M.) or [mailto:or38 AT columbia DOT edu](or38 AT columbia DOT edu) (O.H.)
 
@@ -273,7 +273,7 @@ Huayan Gao<sup>1,2</sup>, Peter Li<sup>3,4</sup>, Tam Sneddon<sup>3,4</sup>, Den
  <sup>1</sup> School of Biomedical Sciences, The Chinese University of Hong Kong, Shatin, Hong Kong SAR, China.<br />
  <sup>2</sup> CUHK-BGI Innovation Institute of Trans-omics, The Chinese University of Hong Kong, Shatin, Hong Kong SAR, China.<br />
  <sup>3</sup> BGI-Hong Kong Ltd., 16 Dai Fu Street, Tai Po Industrial Estate, NT, Hong Kong SAR, China.<br />
- <sup>4</sup> BGI-!ShenZhen, Bei Shan Industrial Zone, Yantian Distrcit, Shenzhen, China.<br />
+ <sup>4</sup> BGI-ShenZhen, Bei Shan Industrial Zone, Yantian Distrcit, Shenzhen, China.<br />
 
 *[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2012/Lee.pdf), Video*
 
@@ -358,19 +358,19 @@ This talk gives a brief overview of our tools and outlines applications that emp
 
 ## Using Galaxy for Molecular Assay Design
 
-**James Ireland<sup>1</sup>**, Andrew Evans<sup>1</sup>, William !FitzHugh<sup>1</sup><br />
+**James Ireland<sup>1</sup>**, Andrew Evans<sup>1</sup>, William FitzHugh<sup>1</sup><br />
 
  <sup>1</sup> 5AM Solutions
 
 *[PDF](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2012/Ireland.pdf),[PPT](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2012/Ireland.ppt), Video*
 
-Molecular assay design is a staple of the bioinformatics trade. Although the types of molecular assays varies widely from PCR primers for resequencing, to !TaqMan probes for gene expression assays to molecular inversion probes for genotyping, the overall workflow remains largely the same.   A typical workflow starts with target identification, sequence retrieval, candidate probe/primer design, homology checks for non-specific hybridization and finally identifying potential adverse folding or oligo interactions.  Galaxy is a natural platform for assay design because of its (1) natural and intuitive workflow support, (2) preservation of design history, (3) existing sequence manipulation functionalities and (4) ability to easily add in new applications and functionality.  In this presentation, we discuss how 5AM Solutions uses Galaxy as a platform for custom assay design that includes integration of Primer3, e-PCR and UNAfold tools.
+Molecular assay design is a staple of the bioinformatics trade. Although the types of molecular assays varies widely from PCR primers for resequencing, to TaqMan probes for gene expression assays to molecular inversion probes for genotyping, the overall workflow remains largely the same.   A typical workflow starts with target identification, sequence retrieval, candidate probe/primer design, homology checks for non-specific hybridization and finally identifying potential adverse folding or oligo interactions.  Galaxy is a natural platform for assay design because of its (1) natural and intuitive workflow support, (2) preservation of design history, (3) existing sequence manipulation functionalities and (4) ability to easily add in new applications and functionality.  In this presentation, we discuss how 5AM Solutions uses Galaxy as a platform for custom assay design that includes integration of Primer3, e-PCR and UNAfold tools.
 
 ## The National Center for Genome Analysis Support and Galaxy
 
 <div class='right'><img src="/src/Events/GCC2012/Abstracts/RichLeDuc.jpg" alt="" height="100" /></div>
 
-**Richard !LeDuc<sup>1</sup>**
+**Richard LeDuc<sup>1</sup>**
 
  <sup>1</sup> [National Center for Genome Analysis Support](http://ncgas.org), Indiana University
 
@@ -393,7 +393,7 @@ The National Center for Genome Analysis Support is an NSF funded resource design
 
 *[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2012/Lu.pdf), Video*
 
-[SeqWare](http://sourceforge.net/apps/mediawiki/seqware), developed at UCLA, UNC, and OICR, is an open source project to create a tool set to work with next generation sequencers. It includes a LIMS, Pipeline, and Query Engine. The production group at Ontario Institute for Cancer Research (OICR) uses this package to control its workflows, perform analysis and manage NGS data. !SeqWare is able to trigger and monitor workflows via web services, and this has made it possible to integrate it with other tools like Galaxy. This helps our biology users to use workflows generated by our sequencing production pipeline and helps OICR’s production group continue downstream analysis within galaxy as well, leveraging the strength of multiple approaches. We will show the integration and architecture of the galaxy instance and !SeqWare installed at the OICR Bioinformatics Core Facility, showing the benefit of the integration and further development.
+[SeqWare](http://sourceforge.net/apps/mediawiki/seqware), developed at UCLA, UNC, and OICR, is an open source project to create a tool set to work with next generation sequencers. It includes a LIMS, Pipeline, and Query Engine. The production group at Ontario Institute for Cancer Research (OICR) uses this package to control its workflows, perform analysis and manage NGS data. SeqWare is able to trigger and monitor workflows via web services, and this has made it possible to integrate it with other tools like Galaxy. This helps our biology users to use workflows generated by our sequencing production pipeline and helps OICR’s production group continue downstream analysis within galaxy as well, leveraging the strength of multiple approaches. We will show the integration and architecture of the galaxy instance and SeqWare installed at the OICR Bioinformatics Core Facility, showing the benefit of the integration and further development.
 
 
 
@@ -409,9 +409,9 @@ The National Center for Genome Analysis Support is an NSF funded resource design
 
 Galaxy holds the promise of incorporating diverse command-line tools into reusable workflows. However, a big limitation of a typical Galaxy installation is the strict requirement that all tools be run from a Linux shell. As a result, many external tools that are pre-compiled for windows cannot be easily incorporated into a galaxy workflow. While a windows simulator, such as Wine, can provide a partial solution, its installation is not trivial for some Linux distributions, and, moreover, it does not provide full windows compatibility. 
 
-We present a Galaxy extension, *!Window2Galaxy*, that acts as a middle-man between Linux and Windows, enabling Galaxy developers to incorporate Windows command-line tools into a standard Linux-based galaxy workflow. Our tool consists of two parts: A Linux client and a windows web-service. The web-service is hosted on a web-server (which can be run on either an external windows machine or on a local windows virtual machine) is responsible for executing the command line. A Linux client is responsible for copying input files from galaxy to a shared directory; send “execute” request to the windows service and finally, copying output files back to Galaxy repository.  
+We present a Galaxy extension, *Window2Galaxy*, that acts as a middle-man between Linux and Windows, enabling Galaxy developers to incorporate Windows command-line tools into a standard Linux-based galaxy workflow. Our tool consists of two parts: A Linux client and a windows web-service. The web-service is hosted on a web-server (which can be run on either an external windows machine or on a local windows virtual machine) is responsible for executing the command line. A Linux client is responsible for copying input files from galaxy to a shared directory; send “execute” request to the windows service and finally, copying output files back to Galaxy repository.  
 
-With this extension, adding a windows-based tool to galaxy is straight forward – adding "!Window2Galaxy" before the windows-command in the xml configuration file.   
+With this extension, adding a windows-based tool to galaxy is straight forward – adding "Window2Galaxy" before the windows-command in the xml configuration file.   
 
 From end-users perspective, this extension is completely transparent – workflows can be constructed from various tools, independent of whether those tools are Linux or Windows based. 
 
@@ -432,7 +432,7 @@ Hailiang Mei<sup>1</sup>, **David van Enckevort<sup>1</sup>**, Mattias de Hollan
 
 The Netherlands Bioinformatics Centre (NBIC) plays a central coordinating role in several new Galaxy related developments that will further strengthen the bioinformatics community in the Netherlands.
 
-* **NBICGalaxy@HPCcloud**<br /> The NBIC Galaxy server was originally built as a demonstration server for bioinformatics tools made by NBIC developers. However, the need for processing complete research datasets was clearly visible from the start. A newly installed cloud computing system (HPCcloud) by !BigGrid and SARA allows the NBIC Galaxy server to be used for this purpose. A planned fiber network connecting this HPCcloud to several key research institutes in the Netherlands will further help.
+* **NBICGalaxy@HPCcloud**<br /> The NBIC Galaxy server was originally built as a demonstration server for bioinformatics tools made by NBIC developers. However, the need for processing complete research datasets was clearly visible from the start. A newly installed cloud computing system (HPCcloud) by BigGrid and SARA allows the NBIC Galaxy server to be used for this purpose. A planned fiber network connecting this HPCcloud to several key research institutes in the Netherlands will further help.
 * **CTMM TraIT**<br /> From the end of 2011, NBIC has become a partner of the CTMM TraIT project where bioinformatics solutions are being built to process data collected from cancer and cardiovascular disease research projects. Galaxy is considered as a major candidate. We are now working on a pilot project where an existing cancer causing genomic variant detection tool is being connected to a Galaxy backend via the Galaxy API. The aim is to keep using a user-friendly and familiar interface for biologists while taking advantage of the latest sequencing data analysis programs installed in Galaxy.
 * **Education**<br /> One main mission of NBIC is to provide education and training to students and researchers. We have successfully used the NBIC Galaxy server in several practical courses. After a short introduction about the Galaxy interface, most attendees are able to start using tools they have never used before and perform data analysis tasks they just learned. The NBIC Galaxy server has demonstrated the potential to be a good education platform for future bioinformaticians.
 
@@ -444,7 +444,7 @@ The Netherlands Bioinformatics Centre (NBIC) plays a central coordinating role i
 
 *[PDF](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2012/Liefeld.pdf), [PPTX](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2012/Liefeld.pptx), Video*
 
-GenomeSpace is a software environment that provides a connection layer between bioinformatics resources, whether they are Web-based applications, desktop packages, or simple scripts. GenomeSpace addresses the growing need for genomics researchers and bioinformaticians to have “frictionless” data transfer among the variety of analysis tools and data sources. GenomeSpace provides an open environment, which other bioinformatics resources can use to join the community ofGenomeSpace-enabled tools. GenomeSpace is seeded by six prominent tools for genomics analysis: Galaxy, Cytoscape, !GenePattern, Genomica, the Integrative Genomics Viewer (IGV), and the UCSC Genome Browser, and developed in collaboration with several biological research projects at the Broad Institute, Stanford University, and UCSD.
+[GenomeSpace](/src/GenomeSpace/index.md) is a software environment that provides a connection layer between bioinformatics resources, whether they are Web-based applications, desktop packages, or simple scripts. GenomeSpace addresses the growing need for genomics researchers and bioinformaticians to have “frictionless” data transfer among the variety of analysis tools and data sources. GenomeSpace provides an open environment, which other bioinformatics resources can use to join the community ofGenomeSpace-enabled tools. GenomeSpace is seeded by six prominent tools for genomics analysis: Galaxy, Cytoscape, GenePattern, Genomica, the Integrative Genomics Viewer (IGV), and the UCSC Genome Browser, and developed in collaboration with several biological research projects at the Broad Institute, Stanford University, and UCSD.
 <br /><br />
 
 # Session 7

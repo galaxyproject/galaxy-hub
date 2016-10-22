@@ -56,4 +56,4 @@ And I apologize in advance if I messed up the translation of the [event at DDBJ]
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-12-08</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

@@ -9,52 +9,52 @@ This page is not meant to be viewed on its own.  Rather, it contains sections th
   <tr class="th" >
     <th style=" text-align: center;"> Time </th>
     <th style=" text-align: center; width: 30%;"> Main Room C </th>
-    <th style=" text-align: center; width: 30%;"> Meeting Room </em>F<em> </th>
+    <th style=" text-align: center; width: 30%;"> Meeting Room <em>F</em> </th>
     <th style=" text-align: center; width: 30%;"> Meeting Room E </th>
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:00 </th>
-    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> </em>Continental Breakfast, Registration Open<em> </td>
+    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Continental Breakfast, Registration Open</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td style=" vertical-align: top; background-color: #FFCFCF;"> </strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws1'>WS1: Integrating Tools & Data Sources</a><strong><div class='indent'></em><a href='/src/Dan/index.md'>Dan Blankenberg</a> & <a href='/src/fubar/index.md'>Ross Lazarus</a><em> </td>
-    <td style=" vertical-align: top; background-color: #F2F2C3;"> </strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws2'>WS2: Introduction to Galaxy</a><strong><div class='indent'></em><a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a>, <a href='/src/JamesTaylor/index.md'>James Taylor</a> & <a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a><em></div> </td>
-    <td style=" vertical-align: top; background-color: #D8FFFF;"> </strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws3'>WS3: Galaxy CloudMan</a><strong><div class='indent'></em><a href='/src/EnisAfgan/index.md'>Enis Afgan</a> & <a href='/src/DannonBaker/index.md'>Dannon Baker</a><em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/src/Dan/index.md'>Dan Blankenberg</a> & <a href='/src/fubar/index.md'>Ross Lazarus</a></em> </td>
+    <td style=" vertical-align: top; background-color: #F2F2C3;"> <strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws2'>WS2: Introduction to Galaxy</a></strong><div class='indent'><em><a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a>, <a href='/src/JamesTaylor/index.md'>James Taylor</a> & <a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #D8FFFF;"> <strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws3'>WS3: Galaxy CloudMan</a></strong><div class='indent'><em><a href='/src/EnisAfgan/index.md'>Enis Afgan</a> & <a href='/src/DannonBaker/index.md'>Dannon Baker</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:30 </th>
-    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> </em>Break<em> </td>
+    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Break</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
-    <td style=" vertical-align: top; background-color: #FFDB97;"> </strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws4'>WS4: Galaxy Code Architecture</a><strong><div class='indent'></em><a href='/src/JamesTaylor/index.md'>James Taylor</a><em></div> </td>
-    <td style=" vertical-align: top; background-color: #FFD8FF;"> </strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws5'>WS5: Installing Your Own Galaxy</a><strong><div class='indent'></em><a href='/src/nate/index.md'>Nate Coraor</a> & <a href='/src/DaveBouvier/index.md'>Dave Bouvier</a><em></div> </td>
-    <td style=" vertical-align: top; background-color: #CFCFFF;"> </strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws6'>WS6: Galaxy API</a><strong><div class='indent'></em><a href='/src/DannonBaker/index.md'>Dannon Baker</a><em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFDB97;"> <strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws4'>WS4: Galaxy Code Architecture</a></strong><div class='indent'><em><a href='/src/JamesTaylor/index.md'>James Taylor</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFD8FF;"> <strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws5'>WS5: Installing Your Own Galaxy</a></strong><div class='indent'><em><a href='/src/nate/index.md'>Nate Coraor</a> & <a href='/src/DaveBouvier/index.md'>Dave Bouvier</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #CFCFFF;"> <strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws6'>WS6: Galaxy API</a></strong><div class='indent'><em><a href='/src/DannonBaker/index.md'>Dannon Baker</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30 </th>
-    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> </em>Lunch Break<em> </td>
+    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Lunch Break</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:00 </th>
-    <td style=" vertical-align: top; background-color: #CFFFCF;"> </strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws7'>WS7: Galaxy Tool Shed</a><strong><div class='indent'></em><a href='/src/greg_vonkuster/index.md'>Greg von Kuster</a> & <a href='/src/nate/index.md'>Nate Coraor</a><em> </td>
-    <td style=" vertical-align: top; background-color: #E1CC9B;"> </strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws8'>WS8: Variant and SNP Analysis with Galaxy</a><strong><div class='indent'></em><a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a><em></div> </td>
-    <td style=" vertical-align: top; background-color: #FFCFCF;"> </strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws1'>WS1: Integrating Tools & Data Sources</a><strong><div class='indent'></em><a href='/src/Dan/index.md'>Dan Blankenberg</a> & <a href='/src/fubar/index.md'>Ross Lazarus</a><em></div> </td>
+    <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/src/greg_vonkuster/index.md'>Greg von Kuster</a> & <a href='/src/nate/index.md'>Nate Coraor</a></em> </td>
+    <td style=" vertical-align: top; background-color: #E1CC9B;"> <strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws8'>WS8: Variant and SNP Analysis with Galaxy</a></strong><div class='indent'><em><a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/src/Dan/index.md'>Dan Blankenberg</a> & <a href='/src/fubar/index.md'>Ross Lazarus</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:30 </th>
-    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> </em>Break<em> </td>
+    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Break</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 4:00 </th>
-    <td style=" vertical-align: top; background-color: #CCFF66;"> </strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws9'>WS9: RNA-Seq Analysis with Galaxy</a><strong><div class='indent'></em>Curtis Hendrickson, David Crossman & <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a><em></div> </td>
-    <td style=" vertical-align: top; background-color: #88EDED;"> </strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws10'>WS10: Ion Torrent – Open Source Sequencing</a><strong><div class='indent'></em><a href='/src/MattDyer/index.md'>Matt Dyer</a>, Associate Director, <a href='http://lifetech.com/'>Ion Torrent</a>, Bioinformatics & <a href='http://ioncommunity.iontorrent.com/'>Community</a><em></div>  </td>
-    <td style=" vertical-align: top; background-color: #CFCFFF;"> </strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws6'>WS6: Galaxy API</a><strong><div class='indent'></em><a href='/src/DannonBaker/index.md'>Dannon Baker</a><em></div> </td>
+    <td style=" vertical-align: top; background-color: #CCFF66;"> <strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws9'>WS9: RNA-Seq Analysis with Galaxy</a></strong><div class='indent'><em>Curtis Hendrickson, David Crossman & <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #88EDED;"> <strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws10'>WS10: Ion Torrent – Open Source Sequencing</a></strong><div class='indent'><em><a href='/src/MattDyer/index.md'>Matt Dyer</a>, Associate Director, <a href='http://lifetech.com/'>Ion Torrent</a>, Bioinformatics & <a href='http://ioncommunity.iontorrent.com/'>Community</a></em></div>  </td>
+    <td style=" vertical-align: top; background-color: #CFCFFF;"> <strong><a href='/src/Events/GCC2012/TrainingDay/Includes//index.md#ws6'>WS6: Galaxy API</a></strong><div class='indent'><em><a href='/src/DannonBaker/index.md'>Dannon Baker</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 5:30 </th>
-    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> </em>Finish<em> </td>
+    <td colspan=3 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Finish</em> </td>
   </tr>
 </table>
 

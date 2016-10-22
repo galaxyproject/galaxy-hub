@@ -44,15 +44,15 @@ To use the API, you must first generate an *API Key* for the account you want to
 
 <table>
   <tr>
-    <td> </em>Navigate<em> to </strong>User &rarr; API Keys<strong>: </td>
+    <td> <em>Navigate</em> to <strong>User &rarr; API Keys</strong>: </td>
     <td> <img src="/src/Admin/API/UserPullDownAPIKeys.png" /> </td>
   </tr>
   <tr>
-    <td> </em>Click<em> on </strong>Generate a new key now<strong>: </td>
+    <td> <em>Click</em> on <strong>Generate a new key now</strong>: </td>
     <td> <img src="/src/Admin/API/GenerateNewAPIKey.png" /> </td>
   </tr>
   <tr>
-    <td> And your new API key will be set:<br /><br /></em>Copy<em> the key to your clipboard.  You will need it in the next steps. </td>
+    <td> And your new API key will be set:<br /><br /><em>Copy</em> the key to your clipboard.  You will need it in the next steps. </td>
     <td> <img src="/src/Admin/API/NewKeyGenerated.png" /> </td>
   </tr>
 </table>
@@ -116,7 +116,7 @@ HTTP methods correspond to operations in Galaxy.  Operations are implemented as 
 
 ### Workflows
 
-From **https://www.biostars.org/p/94305/**
+From **https://www.biostars.org/p/94305/'''
 
 I was looking for a script that runs a Galaxy workflow as a simple command line tool: uploads the file, runs a workflow, downloads the file. Descriptions of this process are scattered through different forums and pretty incomplete. So I wrote a simple script with BioBlend that does that. You need to create a galaxy workflow, add the Input dataset element (the Workflow control at the very bottom of the list of the tools), configure the ids and paths in the script.
 
@@ -183,7 +183,7 @@ def main():
         print 'usage: %s key url workflow_id history step=src=dataset_id' % os.path.basename(sys.argv[0])
         sys.exit(1)
 
-if __name__ == '</u>main__':
+if __name__ == '__main__':
     main()
 ```
 

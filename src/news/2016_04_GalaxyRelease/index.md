@@ -29,7 +29,7 @@ Galaxy now detects and supports many molecular datatypes. See [PR 1941](https://
   <tr>
     <td style=" border: none;"> <span style="font-size: larger;"> Github </span> <br /><br /><strong>New</strong><br /><code>% git clone -b master https://github.com/galaxyproject/galaxy.git</code><br /><br />U<strong>pdate to latest stable release</strong><br /><code>% git checkout master && git pull --ff-only origin master</code><br /><br /><strong>Update to exact version</strong><br /><code>% git checkout v16.04</code> </td>
     <td style=" vertical-align: top; border: none; width: 10%;"> </td>
-    <td style=" vertical-align: top; border: none;"> <span style="font-size: larger;"> !BitBucket </span> <br /><br /><strong>Upgrade</strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.04</code> </td>
+    <td style=" vertical-align: top; border: none;"> <span style="font-size: larger;"> BitBucket </span> <br /><br /><strong>Upgrade</strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.04</code> </td>
   </tr>
   <tr>
     <td colspan=3 style=" border: none;"> See the <a href='/src/Admin/GetGalaxy/index.md'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
@@ -43,4 +43,4 @@ Galaxy now detects and supports many molecular datatypes. See [PR 1941](https://
 <br />
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-05-18</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

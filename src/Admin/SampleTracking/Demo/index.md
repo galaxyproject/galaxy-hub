@@ -10,9 +10,9 @@ The sample tracking demo script ([download](PLACEHOLDER_ATTACHMENT_URL/src/lims_
 This script drops the current database and creates a new database with the same name.
 Then it does all the sample tracking prep work like:
 * Creates admin users based on the list in the Galaxy config file and a regular user (customer@corp.com)
-* Creates a data library named '!DemoDataLib'
+* Creates a data library named 'DemoDataLib'
 * Sets permissions on the library so that all the users have been granted ADD/MODIFY/MANAGE PERMISSIONS on the data library & its folders
-* Creates two form definitions (!DemoRequestForm & !DemoSampleForm) from the csv files provided as the command line parameters - see `setup_lims_demo.sh`
+* Creates two form definitions (DemoRequestForm & DemoSampleForm) from the csv files provided as the command line parameters - see `setup_lims_demo.sh`
 * Creates a request type with the above mentioned forms and 3 states (New, Received & Done)  
 
 ### Requirements

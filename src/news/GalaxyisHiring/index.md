@@ -30,4 +30,4 @@ We are seeking [software engineers](http://bx.mathcs.emory.edu/joining/sw/) with
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-08-29</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

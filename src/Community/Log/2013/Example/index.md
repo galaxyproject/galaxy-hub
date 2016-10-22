@@ -70,4 +70,4 @@ All was happy.
 
 ## Links
 
-CategoryLog
+[CategoryLog](/src/CategoryLog/index.md)

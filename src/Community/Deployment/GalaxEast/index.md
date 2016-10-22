@@ -31,7 +31,7 @@ From *[J24: GalaxEast: an open and powerful Galaxy instance for integrative Omic
 
 The [GalaxEast](http://www.galaxeast.fr) project has the following main objectives:
 * Provide the academic scientific community with an open and powerful Galaxy instance with a guaranteed availability. The platform offers access to cutting-edge and up-to-date tools for Omics data analysis with help and support.
-* Propose innovative developments and new helpful tools packaged for Galaxy (available in the !GalaxEast toolshed)
+* Propose innovative developments and new helpful tools packaged for Galaxy (available in the GalaxEast toolshed)
 * Promote the packaging of new developments for Galaxy (through wrappers and/or toolshed packages).
 
 </div>
@@ -109,4 +109,4 @@ Available in the [GalaxEast Toolshed](http://toolshed.galaxeast.fr/).
 * [GalaxEast Toolshed](http://toolshed.galaxeast.fr/)
 * [GalaxEast entry](/src/PublicGalaxyServers/index.md#galaxeast) in [Public Galaxy Servers list](/src/PublicGalaxyServers/index.md)
 
-CategoryDeployment
+[CategoryDeployment](/src/CategoryDeployment/index.md)

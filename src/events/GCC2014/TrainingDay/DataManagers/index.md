@@ -588,7 +588,7 @@ import galaxy.datatypes.data
 from galaxy.datatypes.data import Text
 from galaxy.datatypes.metadata import MetadataElement
 
-log = logging.getLogger(<u>name__)
+log = logging.getLogger(__name__)
 
 class SnpEffDb( Text ):
     """Class describing a SnpEff genome build"""
@@ -598,7 +598,7 @@ class SnpEffDb( Text ):
     MetadataElement( name="annotation", default=[], desc="Annotation Names", readonly=True, visible=True, no_value=[], optional=True)
 
     def __init__( self, **kwd ):
-        Text.</u>init__( self, **kwd )
+        Text.__init__( self, **kwd )
 
     def set_meta( self, dataset, **kwd ):
         Text.set_meta(self, dataset, **kwd )

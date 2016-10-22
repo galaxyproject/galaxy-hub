@@ -17,7 +17,7 @@ The [next meeting](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) of t
   </tr>
   <tr>
     <th> Presentation </th>
-    <td> </em>Deploying Production Galaxy Environments on <a href='http://www.openstack.org/'>OpenStack</a> with <a href='http://cloudbiolinux.org/'>CloudBioLinux</a> and CloudMan<em> </td>
+    <td> <em>Deploying Production Galaxy Environments on <a href='http://www.openstack.org/'>OpenStack</a> with <a href='http://cloudbiolinux.org/'>CloudBioLinux</a> and CloudMan</em> </td>
   </tr>
   <tr>
     <th> Presenter </th>
@@ -25,7 +25,7 @@ The [next meeting](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) of t
   </tr>
   <tr>
     <th> Links </th>
-    <td> <a href='http://bitly.com/prodcloudman-slides'>Presentation @ Prezi.com</a></strong><br /> <strong><a href='http://bitly.com/prodcloudman'>Related Technical Documentation @ ReadTheDocs.org</a></strong><br /> <strong><a href='https://globalcampus.uiowa.edu/join_meeting.html?meetingId=1262341808106'>Meetup</a></strong> </td>
+    <td> <a href='http://bitly.com/prodcloudman-slides'>Presentation @ Prezi.com</a><strong><br /> </strong><a href='http://bitly.com/prodcloudman'>Related Technical Documentation @ ReadTheDocs.org</a><strong><br /> </strong><a href='https://globalcampus.uiowa.edu/join_meeting.html?meetingId=1262341808106'>Meetup</a><strong> </td>
   </tr>
 </table>
 
@@ -40,4 +40,4 @@ Srinivas Maddhi
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-01-07</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

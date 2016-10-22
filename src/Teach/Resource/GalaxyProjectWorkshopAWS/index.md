@@ -78,4 +78,4 @@ Should point to a separate page
 Links to any useful datasets or information.
 
 
-CategoryTrainingResource
+[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)

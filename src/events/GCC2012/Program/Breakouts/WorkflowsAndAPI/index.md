@@ -13,7 +13,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2012/Program/LinkBox/index.md) <div class='ri
 # Participants
 
 * Clare Sloggett
-* Scott !McManus
+* Scott McManus
 * Philip Mabon
 * ...
 

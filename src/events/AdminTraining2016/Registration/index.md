@@ -32,15 +32,15 @@ Registration is through [EventBrite](https://galaxyadmin2016.eventbrite.com).
   </tr>
   <tr>
     <th> Non-profit </th>
-    <td style=" text-align: center; color: #008;"> </strong>$185<strong> </td>
-    <td style=" text-align: center; color: #000;"> </strong>$235<strong> </td>
-    <td style=" text-align: center; color: #c00;"> </strong>$325<strong> </td>
+    <td style=" text-align: center; color: #008;"> <strong>$185</strong> </td>
+    <td style=" text-align: center; color: #000;"> <strong>$235</strong> </td>
+    <td style=" text-align: center; color: #c00;"> <strong>$325</strong> </td>
   </tr>
   <tr>
     <th> Industry    </th>
-    <td style=" text-align: center; color: #008;"> </strong>$295<strong> </td>
-    <td style=" text-align: center; color: #000;"> </strong>$395<strong> </td>
-    <td style=" text-align: center; color: #c00;"> </strong>$595<strong> </td>
+    <td style=" text-align: center; color: #008;"> <strong>$295</strong> </td>
+    <td style=" text-align: center; color: #000;"> <strong>$395</strong> </td>
+    <td style=" text-align: center; color: #c00;"> <strong>$595</strong> </td>
   </tr>
 </table>
 
@@ -56,15 +56,15 @@ Registration is through [EventBrite](https://galaxyadmin2016.eventbrite.com).
   </tr>
   <tr>
     <th> Non-profit </th>
-    <td style=" text-align: center; color: #008;"> </strong>$270<strong> </td>
-    <td style=" text-align: center; color: #000;"> </strong>$350<strong> </td>
-    <td style=" text-align: center; color: #c00;"> </strong>$490<strong> </td>
+    <td style=" text-align: center; color: #008;"> <strong>$270</strong> </td>
+    <td style=" text-align: center; color: #000;"> <strong>$350</strong> </td>
+    <td style=" text-align: center; color: #c00;"> <strong>$490</strong> </td>
   </tr>
   <tr>
     <th> Industry    </th>
-    <td style=" text-align: center; color: #008;"> </strong>$445<strong> </td>
-    <td style=" text-align: center; color: #000;"> </strong>$595<strong> </td>
-    <td style=" text-align: center; color: #c00;"> </strong>$895<strong> </td>
+    <td style=" text-align: center; color: #008;"> <strong>$445</strong> </td>
+    <td style=" text-align: center; color: #000;"> <strong>$595</strong> </td>
+    <td style=" text-align: center; color: #c00;"> <strong>$895</strong> </td>
   </tr>
 </table>
 

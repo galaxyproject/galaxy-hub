@@ -17,4 +17,4 @@ The resulting community, now dubbed [GalaxyCzars](/src/Community/GalaxyCzars/ind
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-05-07</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

@@ -57,17 +57,17 @@ currently not represented in the display.
 * General enhancements 
   * Removed right-hand pane, allow inline re-ordering and configuration of elements
   * Moved navigational controls to the top
-  * Histogram display for !LineTracks and overview
+  * Histogram display for LineTracks and overview
   * New navigational slider and new overview settings under the dropdown corresponding to the track name
   * Summary view now shows maximum y-axis value
-  * Can change draw color of !LineTrack
+  * Can change draw color of LineTrack
   * When editing track config, "Enter" and "Esc" keys submit and cancel the changes, respectively
   * Don't index bottom level for summary_tree, greatly reducing computation time (>5x speedup) while not sacrificing usability Refactored to pass JSLint
 * Tuning
-  * Fix !ReferenceTrack issue.
+  * Fix ReferenceTrack issue.
   * Don't re-add new datasets when refreshing after using "Add into current viz" link.
   * To prevent browser lockup, only display up to 50 lines of features by default (user-editable in future). Coming soon: add warning message when this occurs.
-  * Fix !LineTrack rendering bug when more than one tile on screen.
+  * Fix LineTrack rendering bug when more than one tile on screen.
 
 ### Native Data set Re-organization 
 
@@ -152,9 +152,9 @@ off, Galaxy will look for the following instead:
 
 ### Workflow Tuning 
 
-* Shift management of the interaction between workflow outputs and !HideDatasetActions to the front end editor.  
-* No usability changes, but this resolves the issue with multiple !HideDatasetActions being created.  
-* Existing workflows displaying multiple !HideDatasetActions per step on the Run Workflow screen will persist.  These extra !HideDatasetActions are harmless, but a simple edit workflow -> save will remove them.
+* Shift management of the interaction between workflow outputs and HideDatasetActions to the front end editor.  
+* No usability changes, but this resolves the issue with multiple HideDatasetActions being created.  
+* Existing workflows displaying multiple HideDatasetActions per step on the Run Workflow screen will persist.  These extra HideDatasetActions are harmless, but a simple edit workflow -> save will remove them.
 * Workflow Inputs change:
   * Workflow inputs that aren't a subtype of text, were previously not an option.  
   * Added 'data' datatype to registry, which will allow both text and binary inputs (and their subtypes) to workflow input steps.  
@@ -183,9 +183,9 @@ time, especially for data libraries having potentially large menu.
 
 ### Bug Fixes! 
 
-* Fix for !TextToolParameter.get_html_field when provided value is an empty string but default value specified in tool is non-empty string. Fixes issue with rerun button where if a user had input an empty string, the form displayed when rerun would have the default value from the tool and not the actual previously specified value.
-* Fix for Integer/FloatToolParameter.get_html_field() when 'value' is provided as an integer/float. Fixes an issue seen when saving workflows: If an integer or float tool parameter is changed to a value of 0 or 0.0 and saved, the form field would be redisplayed using the default tool value; and not the value that is now saved in the database.
-* Fix for setting columns in workflow builder for !ColumnListParameter. e.g. allows splitting lists of columns by newlines and commas and strips leading 'c's.
+* Fix for TextToolParameter.get_html_field when provided value is an empty string but default value specified in tool is non-empty string. Fixes issue with rerun button where if a user had input an empty string, the form displayed when rerun would have the default value from the tool and not the actual previously specified value.
+* Fix for Integer[/FloatToolParameter](/src/DevNewsBriefs/2010_11_24/FloatToolParameter/index.md).get_html_field() when 'value' is provided as an integer/float. Fixes an issue seen when saving workflows: If an integer or float tool parameter is changed to a value of 0 or 0.0 and saved, the form field would be redisplayed using the default tool value; and not the value that is now saved in the database.
+* Fix for setting columns in workflow builder for ColumnListParameter. e.g. allows splitting lists of columns by newlines and commas and strips leading 'c's.
 * Fixes for rerun action to recurse grouping options when checking unvalidated values and cloned HDAs. Better selection of corresponding HDAs from cloned histories, when multiple copies exist.
 * Have rerun action make use of tool.check_and_update_param_values(). Fixes Server Error issue when trying to rerun updated tools.
 * Fix for display framework to work with workflows that contain tools that have been updated.  Previously, this would cause a server error when trying to view a workflow or a page with an embedded workflow that contained an updated tool.
@@ -211,7 +211,7 @@ time, especially for data libraries having potentially large menu.
 ----
 ### About Galaxy 
 
-**Galaxy** is supported in part by **NSF**, **NHGRI**, the **Huck Institutes of the Life Sciences**, and **The Institute for !CyberScience at Penn State**.
+**Galaxy** is supported in part by **NSF**, **NHGRI**, the **Huck Institutes of the Life Sciences**, and **The Institute for CyberScience at Penn State**.
 
 [Core Team](/src/GalaxyTeam/index.md)
 

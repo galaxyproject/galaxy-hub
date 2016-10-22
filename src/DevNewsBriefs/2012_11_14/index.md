@@ -51,7 +51,7 @@ Two versions of the documentation are available:
     This documentation describes the code in the [most recent stable release](/src/DevNewsBriefs/index.md) of Galaxy ("galaxy-dist").
 
 * **[galaxy-central.readthedocs.org](http://galaxy-central.readthedocs.org)**
-    This documentation describes what is currently in the main development branch ("galaxy-central") of Galaxy.  Code updates are automatically propagated from Galaxy's !BitBucket.org repository.  This should never be more than 15 minutes out of date.
+    This documentation describes what is currently in the main development branch ("galaxy-central") of Galaxy.  Code updates are automatically propagated from Galaxy's BitBucket.org repository.  This should never be more than 15 minutes out of date.
 
 <div class='right'><a href='http://readthedocs.org'><img src="/src/Images/Logos/ReadTheDocsLogo.png" alt="Read the Docs"  /></a></div>
 
@@ -155,7 +155,7 @@ Certain repository contents may occasionally become outdated, perhaps due to oth
 All Galaxy instance maintainers are *strongly encouraged* to run the latest release.
 
 1. Recent library browsing optimizations were retracted due to minor security vulnerability: a UI bug that allowed users to see listings of inaccessible datasets. Access was limited to viewing named dataset lists, no "peek" or "full" dataset viewing, download, coping, or any other privileges were granted. Once corrected, the library enhancements will be re-released in a future distribution.
-2. Prevent potential reflected XSS via *!MessageException* (possible in the case of invalid/malicious id lookups, for instance).
+2. Prevent potential reflected XSS via *MessageException* (possible in the case of invalid/malicious id lookups, for instance).
 3. Sanitize grid filters.
 
 <br />
@@ -183,7 +183,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 * [Bioinformatics Analyst](http://bit.ly/Y8x5Jb) @ Harvard School of Public Health
 * [Computational Biologist](http://bit.ly/R2ZJoW) @ the [Harvard Stem Cell Institute's (HSCI)](http://www.hsci.harvard.edu/)[Center for Stem Cell Bioinformatics](http://www.hsci.harvard.edu/research/center-stem-cell-bioinformatics)
 * [Bioinformatician/Statistician opening](http://bit.ly/X7Hl30) at EMBL Heidelberg, Germany  
-* [offre CDD INRA Versailles](http://bit.ly/TKoV9h) - developpement chaine de traitements !RnaSeq sous Galaxy - France Genomique
+* [offre CDD INRA Versailles](http://bit.ly/TKoV9h) - developpement chaine de traitements RnaSeq sous Galaxy - France Genomique
 * The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs @ Penn State and Emory
 
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org.

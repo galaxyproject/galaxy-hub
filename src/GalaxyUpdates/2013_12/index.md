@@ -35,7 +35,7 @@ The newly added servers are:
 * *Domain/Purpose:* 
     [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) exposes the tools that are included in [OSDDlinux](http://osddlinux.osdd.net/), "a customized linux operating system for drug discovery that integrates open source software, libraries, workflows and web services in linux for creating environment for drug discovery."   OSDDLinux contains a Galaxy instance with applications for Drug Discovery.
 * *Comments:*
-    [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) integrates GPSR1.0, GPSR2.0 along with the [webservers](http://osddlinux.osdd.net/livew.php) and the [standalone software](http://osddlinux.osdd.net/stand.php) supported by OSDDlinux.  See the [complete list of tools and services](http://osddlinux.osdd.net/liveg) included in OSDDlinux !LiveGalaxy. 
+    [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) integrates GPSR1.0, GPSR2.0 along with the [webservers](http://osddlinux.osdd.net/livew.php) and the [standalone software](http://osddlinux.osdd.net/stand.php) supported by OSDDlinux.  See the [complete list of tools and services](http://osddlinux.osdd.net/liveg) included in OSDDlinux LiveGalaxy. 
 * *User Support:*
     [Web form](http://crdd.osdd.net/osddlinux/feed.php) or [mailto:osddlinux AT gmail DOT com](Email)
 * *Quotas:* 
@@ -68,7 +68,7 @@ The newly added servers are:
 * *Domain/Purpose:*
     "PreSTIGE (Predicting Specific Tissue Interactions of Genes and Enhancers) predicts cell-line specific gene-enhancer interactions for a user-provided cell line as well as 12 PreSTIGE cell lines."
 * *Comments:*
-  * Users can generate predictions for any cell type of interest for which !H3K4me1 ChIP-seq and RNA-seq data are available.
+  * Users can generate predictions for any cell type of interest for which H3K4me1 ChIP-seq and RNA-seq data are available.
   * See "[Combinatorial effects of multiple enhancer variants in linkage disequilibrium dictate levels of gene expression to confer susceptibility to common traits](http://genome.cshlp.org/content/early/2013/11/06/gr.164079.113.abstract)" by Corradin, *et al.*, *[Genome Research](http://genome.cshlp.org/)* (2013)
 * *User Support:*
     [PreSTIGE User Guide](http://genetics.case.edu/prestige/misc/Scacheri_PreSTIGE_User_Guide.pdf), [mailto:olivia DOT corradin AT case DOT edu](Email)
@@ -139,7 +139,7 @@ The newly added servers are:
 
 * "[BS-Seeker2: a versatile aligning pipeline for bisulfite sequencing data](http://dx.doi.org/10.1186/1471-2164-14-774)" by Guo, *et al.,* *BMC Genomics*, Vol. 14, No. 1. (10 November 2013), 774, doi:10.1186/1471-2164-14-774
 
-* "[Ten recommendations for creating usable bioinformatics command line software](http://dx.doi.org/10.1186/2047-217x-2-15)" by Torsten Seemann, *!GigaScience*, Vol. 2, No. 1. (2013), 15, doi:10.1186/2047-217x-2-15
+* "[Ten recommendations for creating usable bioinformatics command line software](http://dx.doi.org/10.1186/2047-217x-2-15)" by Torsten Seemann, *GigaScience*, Vol. 2, No. 1. (2013), 15, doi:10.1186/2047-217x-2-15
 
 <br />
 
@@ -187,7 +187,7 @@ We are pleased to announce several [sponsorships](/src/Events/GCC2014/SponsorExh
 <br />
 <div class='right'><a href='http://bioteam.net/'><img src="/src/Images/Logos/BioTeamLogo154.gif" alt="BioTeam" width="120" /></a></div>
 
-We are also pleased to announce that [BioTeam](http://bioteam.net) will again be a [Gold Sponsor](/src/Events/GCC2014/SponsorExhibit/index.md) for this annual event.  This is the second year in a row that !BioTeam has been a GCC Gold Sponsor.
+We are also pleased to announce that [BioTeam](http://bioteam.net) will again be a [Gold Sponsor](/src/Events/GCC2014/SponsorExhibit/index.md) for this annual event.  This is the second year in a row that BioTeam has been a GCC Gold Sponsor.
 
 There are still [Gold, Silver and Bronze sponsorships](/src/Events/GCC2014/SponsorExhibit/index.md) still available. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to help sponsor this event. 
 
@@ -246,37 +246,37 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
   </tr>
   <tr>
     <th> December 4 </th>
-    <td> </em><a href='http://www.ifb-galaxy.org/4dec2013.html'>Galaxy Day</a><em><div class='indent red'>Les inscriptions au Galaxy Day sont closes</div> </td>
+    <td> <em><a href='http://www.ifb-galaxy.org/4dec2013.html'>Galaxy Day</a></em><div class='indent red'>Les inscriptions au Galaxy Day sont closes</div> </td>
     <td> Paris (Institut Curie), France </td>
     <td> <a href="mailto:ifb DOT galaxy AT sb DASH roscoff DOT fr">Organisateurs</a> </td>
   </tr>
   <tr>
     <th> December 9 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-an-introduction-to-de-novo-genome-assembly-using-galaxy/'>Workshop : An Introduction to De Novo Genome Assembly using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-an-introduction-to-de-novo-genome-assembly-using-galaxy/'>Workshop : An Introduction to De Novo Genome Assembly using Galaxy</a></em> </td>
     <td> The University of Queensland, St Lucia, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> December 10 </th>
-    <td> </em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-introduction-to-next-generation-sequence-analysis-with-galaxy-december-10-2013/'>Introduction to Next-Generation Sequence Analysis with Galaxy</a><em> <div class='indent red'>Session is full but waiting list is open</div></td>
-    <td rowspan=4> </strong><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'>UC Davis Bioinformatics Bootcamps</a><strong>, Davis, California, United States </td>
+    <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-introduction-to-next-generation-sequence-analysis-with-galaxy-december-10-2013/'>Introduction to Next-Generation Sequence Analysis with Galaxy</a></em> <div class='indent red'>Session is full but waiting list is open</div></td>
+    <td rowspan=4> <strong><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'>UC Davis Bioinformatics Bootcamps</a></strong>, Davis, California, United States </td>
     <td rowspan=4> <a href="mailto:training DOT ucdbio AT gmail DOT com">UC Davis Bioinformatics Training</a> </td>
   </tr>
   <tr>
     <th> December 11 </th>
-    <td> </em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-next-generation-sequence-alignment-and-variant-discovery-december-11-2013/'>Next-Generation Sequence Alignment and Variant Discovery</a><em> </td>
+    <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-next-generation-sequence-alignment-and-variant-discovery-december-11-2013/'>Next-Generation Sequence Alignment and Variant Discovery</a></em> </td>
   </tr>
   <tr>
     <th> December 12 </th>
-    <td> </em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-genome-assembly-using-next-generation-sequence-data-december-12-2013/'>Genome Assembly using Next-Generation Sequence Data</a><em> </td>
+    <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-genome-assembly-using-next-generation-sequence-data-december-12-2013/'>Genome Assembly using Next-Generation Sequence Data</a></em> </td>
   </tr>
   <tr>
     <th> December 13 </th>
-    <td> </em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-introduction-to-the-amazon-cloud-for-galaxy-and-the-command-line-december-13-2013/'>Introduction to the Amazon Cloud for Galaxy and the Command-Line</a><em> </td>
+    <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-introduction-to-the-amazon-cloud-for-galaxy-and-the-command-line-december-13-2013/'>Introduction to the Amazon Cloud for Galaxy and the Command-Line</a></em> </td>
   </tr>
   <tr>
     <th> December 11 </th>
-    <td> </em><a href='https://wiki.nci.nih.gov/display/CBIITSpeakers/2013/11/14/December+11%3A+Dr.+Jeremy+Goecks%2C+Using+Galaxy+to+Understand+Cancer+Genomics'>Using Galaxy to Understand Cancer Genomics</a><em> </td>
+    <td> <em><a href='https://wiki.nci.nih.gov/display/CBIITSpeakers/2013/11/14/December+11%3A+Dr.+Jeremy+Goecks%2C+Using+Galaxy+to+Understand+Cancer+Genomics'>Using Galaxy to Understand Cancer Genomics</a></em> </td>
     <td> <a href='http://www.cancer.gov/aboutnci/ncishadygrove'>National Cancer Institute</a>, Rockville, Maryland, United States </td>
     <td> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
@@ -285,12 +285,12 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
   </tr>
   <tr>
     <th rowspan=2> January 11-15 </th>
-    <td> </em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2298.html'>Galaxy for NGS Data Analysis: A Hands-on Computer Demo</a><em> </td>
-    <td rowspan=2> </strong><a href='http://www.intlpag.org/'>Plant and Animal Genome XXII (PAG 2014)</a><strong>, San Diego, California, United States </td>
+    <td> <em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2298.html'>Galaxy for NGS Data Analysis: A Hands-on Computer Demo</a></em> </td>
+    <td rowspan=2> <strong><a href='http://www.intlpag.org/'>Plant and Animal Genome XXII (PAG 2014)</a></strong>, San Diego, California, United States </td>
     <td rowspan=1> <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>Galaxy Cloudman: A Gentle Introduction to Data Analysis on the Cloud</a><em><div class='indent'>Part of the <a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>GMOD Workshop</a></div> </td>
+    <td> <em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>Galaxy Cloudman: A Gentle Introduction to Data Analysis on the Cloud</a></em><div class='indent'>Part of the <a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>GMOD Workshop</a></div> </td>
     <td rowspan=1> <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://gmod.org/wiki/User:Scott'>Scott Cain</a> </td>
   </tr>
   <tr>
@@ -301,19 +301,19 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
   </tr>
   <tr>
     <th> February 10-14 </th>
-    <td> </em><a href='http://www.supagro.fr/web/pages/?idl=19&page=498&id_page=2666'>Analyse Bioinformatique de séquences pour l'amélioration des plantes</a><em> </td>
+    <td> <em><a href='http://www.supagro.fr/web/pages/?idl=19&page=498&id_page=2666'>Analyse Bioinformatique de séquences pour l'amélioration des plantes</a></em> </td>
     <td> Campus la Gaillarde, Montpellier, France </td>
     <td> <a href="mailto:yolande DOT olivier AT supagro DOT inra DOT fr">Yolande OLIVIER</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>
-    <td> </em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a><em> </td>
+    <td> <em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a></em> </td>
     <td> <a href='http://www.mipro.hr/CallForPapers/tabid/176/language/en-US/Default.aspx'>MIPRO 2014</a>, Opatija, Croatia </td>
     <td> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 30 - July 2 </th>
-    <td> </strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
+    <td> <strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
     <td> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
     <td> <a href='/src/Events/GCC2014/Organizers/index.md'>Organizers</a> </td>
   </tr>
@@ -364,7 +364,7 @@ A new version of [CloudMan](/src/CloudMan/index.md) was [released in July](/src/
 
 ## New Public ToolSheds
 
-This is the first time we've highlighted publicly accessible !ToolSheds.  We will continue to advertise this as we become aware of them.
+This is the first time we've highlighted publicly accessible ToolSheds.  We will continue to advertise this as we become aware of them.
 
 ### GenOuest ToolShed
 

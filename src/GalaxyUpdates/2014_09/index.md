@@ -56,66 +56,66 @@ These events are a great way to meet other Galaxy users and developers and learn
   <tr>
     <th> September 6-10 </th>
     <td> <a href='/src/Events/ECCB2014/index.md'>At least one tutorial, a panel of European Public Galaxy Instances, and 5 posters</a> </td>
-    <td> </strong><a href='/src/Events/ECCB2014/index.md'>European Conference on Computational Biology (ECCB'14)</a><strong>, Strasbourg, France </td>
+    <td> <strong><a href='/src/Events/ECCB2014/index.md'>European Conference on Computational Biology (ECCB'14)</a></strong>, Strasbourg, France </td>
     <td> <a href='/src/Events/ECCB2014/index.md'>Presenters</a> </td>
   </tr>
   <tr>
     <th> September 11 </th>
-    <td> </em><a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'>Tools integration on Galaxy</a><em><div class='indent'>This event is full.</div> </td>
+    <td> <em><a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'>Tools integration on Galaxy</a></em><div class='indent'>This event is full.</div> </td>
     <td> <a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest</a>, Rennes, France </td>
     <td> <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud</a>, <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
   </tr>
   <tr>
     <th> September 15 </th>
-    <td> </em><a href='http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo'>Fourth GUGGO meeting</a><em> </td>
+    <td> <em><a href='http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo'>Fourth GUGGO meeting</a></em> </td>
     <td> <a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest</a>, Rennes, France </td>
     <td> <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud</a>, <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
   </tr>
   <tr>
     <th> September 23-25 </th>
-    <td> </em><a href='http://www.bioinformatica.crs4.it/next_generation_sequencing_course_with_galaxy_september_2014'>Analisi dati Next Generation Sequencing con Galaxy</a><em> </td>
+    <td> <em><a href='http://www.bioinformatica.crs4.it/next_generation_sequencing_course_with_galaxy_september_2014'>Analisi dati Next Generation Sequencing con Galaxy</a></em> </td>
     <td> Cagliari, Italy </td>
     <td> <a href="mailto:ngs-courses@crs4.it">CRS4</a> </td>
   </tr>
   <tr>
     <th> September 24 </th>
-    <td> </em><a href='http://training.csx.cam.ac.uk/event/1222231'>Introduction to Galaxy - Data Manipulation and Visualisation</a><em> </td>
+    <td> <em><a href='http://training.csx.cam.ac.uk/event/1222231'>Introduction to Galaxy - Data Manipulation and Visualisation</a></em> </td>
     <td> University of Cambridge, United Kingdom </td>
     <td> Anne Pajon, Jing Su </td>
   </tr>
   <tr>
     <th> September 25 </th>
-    <td> </em><a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-de-type-rad-par-le-pipeline-stacks-sous-la-plateforme-web-danalyse-de-donnees-galaxy/'>RADseq analysis using STACKS on Galaxy</a><em> </td>
+    <td> <em><a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-de-type-rad-par-le-pipeline-stacks-sous-la-plateforme-web-danalyse-de-donnees-galaxy/'>RADseq analysis using STACKS on Galaxy</a></em> </td>
     <td> <a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest</a>, Rennes, France </td>
     <td> <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a>, <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud</a> </td>
   </tr>
   <tr>
     <th> September 30 </th>
-    <td> </em><a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/CIR-Interactive-Workshop-Introduction-to-bioinformatics-analysis-with-Galaxy-application'>CIR Interactive Workshop - Introduction to bioinformatics analysis with Galaxy application</a><em> </td>
+    <td> <em><a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/CIR-Interactive-Workshop-Introduction-to-bioinformatics-analysis-with-Galaxy-application'>CIR Interactive Workshop - Introduction to bioinformatics analysis with Galaxy application</a></em> </td>
     <td> RBI, Zagreb, Croatia </td>
     <td> <a href='https://wiki.galaxyproject.org/EnisAfgan'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
     <td> <a href='/src/Events/Switzerland2014/trainingday/index.md'>Galaxy Training and Demo Day</a> </td>
-    <td rowspan=3> </strong><a href='/src/Events/SG2014/index.md'>2014 Swiss-German Galaxy Tour</a><strong> with events in </strong>Bern, Switzerland<strong> and </strong>Freiburg, Germany<strong> </td>
+    <td rowspan=3> <strong><a href='/src/Events/SG2014/index.md'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
     <td rowspan=3> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/BjoernGruening/index.md'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='/src/Events/Switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a><em> </td>
+    <td> <em><a href='/src/Events/Switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>
   </tr>
   <tr>
-    <td> </em><a href='/src/Events/Germany2014/index.md'>German Galaxy Developers Day</a><em> </td>
+    <td> <em><a href='/src/Events/Germany2014/index.md'>German Galaxy Developers Day</a></em> </td>
   </tr>
   <tr>
     <th> October 6 - 24 </th>
-    <td> </em><a href='http://wiki.uio.no/projects/clsi/index.php/INF-BIOX121_H14'>Intensive course in High Throughput Sequencing technologies and bioinformatics analysis</a><em> </td>
+    <td> <em><a href='http://wiki.uio.no/projects/clsi/index.php/INF-BIOX121_H14'>Intensive course in High Throughput Sequencing technologies and bioinformatics analysis</a></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:lex.nederbragt AT ibv.uio.no">Lex Nederbragt</a>, <a href="mailto:karin.lagesen AT medisin.uio.no">Karin Lagesen</a> </td>
   </tr>
   <tr>
     <th> November 26-28 </th>
-    <td> </em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a></em> </td>
     <td> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
     <td> <a href="mailto:navratil AT prabi DOT fr">Navratil V</a>., <a href="mailto:oger AT prabi DOT fr">Oger C.</a>, <a href="mailto:veber AT prabi DOT fr">Veber P.</a>, <a href="mailto:deschamps AT prabi DOT fr">Deschamps C.</a>, <a href="mailto:perriere AT prabi DOT fr">Perriere G.</a> </td>
   </tr>
@@ -169,19 +169,19 @@ And don't worry, Europe does not have a complete lock on upcoming Galaxy related
   </tr>
   <tr>
     <th rowspan=3> November 2-5 </th>
-    <td> </em><a href='https://www.acsmeetings.org/tours-workshops#Intro to'>Introduction to Bioinformatics Analysis with Galaxy Workshop</a><em> </td>
-    <td rowspan=3> </strong><a href='https://www.acsmeetings.org/home'>ASA, CSSA, and SSSA International Annual Meeting</a><strong>, Long Beach, California, United States </td>
+    <td> <em><a href='https://www.acsmeetings.org/tours-workshops#Intro to'>Introduction to Bioinformatics Analysis with Galaxy Workshop</a></em> </td>
+    <td rowspan=3> <strong><a href='https://www.acsmeetings.org/home'>ASA, CSSA, and SSSA International Annual Meeting</a></strong>, Long Beach, California, United States </td>
     <td rowspan=3> <a href="mailto:outreach AT galaxyproject DOT org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='https://www.acsmeetings.org/tours-workshops#SNP'>SNP/Variant Analysis with Galaxy Workshop</a><em> </td>
+    <td> <em><a href='https://www.acsmeetings.org/tours-workshops#SNP'>SNP/Variant Analysis with Galaxy Workshop</a></em> </td>
   </tr>
   <tr>
-    <td> </em><a href='https://www.acsmeetings.org/tours-workshops#A Gentle Intro'>A Gentle Introduction to Cloud Computing: Setting up your own Galaxy Server Workshop</a><em> </td>
+    <td> <em><a href='https://www.acsmeetings.org/tours-workshops#A Gentle Intro'>A Gentle Introduction to Cloud Computing: Setting up your own Galaxy Server Workshop</a></em> </td>
   </tr>
   <tr>
     <th> November 19-20 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-1920-november-brisbane/'>Workshop: Extended RNA-Seq analysis</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-1920-november-brisbane/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
     <td> The University of Queensland, Brisbane, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
@@ -190,7 +190,7 @@ And don't worry, Europe does not have a complete lock on upcoming Galaxy related
   </tr>
   <tr>
     <th> July 6-8 </th>
-    <td> </strong>2015 Galaxy Community Conference (GCC2015)<strong> </td>
+    <td> <strong>2015 Galaxy Community Conference (GCC2015)</strong> </td>
     <td> <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -203,7 +203,7 @@ And don't worry, Europe does not have a complete lock on upcoming Galaxy related
 
 * [Using galaxy-P to leverage RNA-Seq for the discovery of novel protein variations](http://bit.ly/1AV6hP5), by Gloria Sheynkman, James Johnson, Pratik Jagtap, *et al.;* *BMC Genomics,* Vol. 15, No. 1. (22 August 2014), 703, doi:10.1186/1471-2164-15-703
 
-* [Integrating UIMA with Alveo, a human communication science virtual laboratory](http://bit.ly/1zkQwhL), by Dominique Estival, Steve Cassidy, Karin Verspoor, Andrew !MacKinlay, and Denis Burnham; *Proceedings of the Workshop on Open Infrastructures and Analysis Frameworks for HLT*, pages 12–22, Dublin, Ireland, August 23rd 2014.
+* [Integrating UIMA with Alveo, a human communication science virtual laboratory](http://bit.ly/1zkQwhL), by Dominique Estival, Steve Cassidy, Karin Verspoor, Andrew MacKinlay, and Denis Burnham; *Proceedings of the Workshop on Open Infrastructures and Analysis Frameworks for HLT*, pages 12–22, Dublin, Ireland, August 23rd 2014.
 
 The new papers were tagged in many different areas:
 
@@ -300,25 +300,25 @@ August was an eventful month for releases.  New versions of [Galaxy](/src/Galaxy
 <table>
   <tr>
     <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none;"> </strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a><strong> </td>
+    <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a><strong> </td>
+    <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
     <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a><strong> </td>
+    <td style=" border: none;"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
     <td style=" border: none;"> </td>
   </tr>
   <tr>
     <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong>new<strong>: </td>
+    <td style=" border: none;"> <strong>new</strong>: </td>
     <td style=" border: none;"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong>upgrade<strong>: </td>
+    <td style=" border: none;"> <strong>upgrade</strong>: </td>
     <td style=" border: none;"> <code>$ hg pull </code> <br /> <code>$ hg update latest_2014.08.11</code> </td>
   </tr>
 </table>
@@ -346,7 +346,7 @@ This is mostly an incremental bug fix release with the following summary of chan
 
 For complete details on implemented changes, please see the [source code commits](https://bitbucket.org/galaxy/cloudman/commits/all?search=835%3A903).
 
-CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
+[CloudMan](/src/CloudMan/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
 ## BioBlend 0.5.1 Release
 
@@ -359,7 +359,7 @@ CloudMan offers an easy way to get a personal and completely functional instance
 * Skip instead of fail tests when `BIOBLEND_GALAXY_URL` and `BIOBLEND_GALAXY_API_KEY` environment variables are not defined.
 * Added export and download to objects API
 * Added export/download history
-* !GalaxyClient: changed `make_put_request` to return whole `requests` response object
+* GalaxyClient: changed `make_put_request` to return whole `requests` response object
 * Added Tool wrapper to `BioBlend.objects` plus methods to list tools and get one
 * Added `show_tool()` method to `ToolClient` class
 * Added `name`, `in_panel` and `trackster` filters to `get_tools()`
@@ -429,7 +429,7 @@ Eric & Björn
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </td>
   </tr>
 </table>
 
@@ -527,7 +527,7 @@ In no particular order:
 ### Packages / Tool Dependency Definitions
 
 * *From [iracooke](https://toolshed.g2.bx.psu.edu/view/iracooke)*
-  * [package_peptideshaker_0_31](https://toolshed.g2.bx.psu.edu/view/iracooke/package_peptideshaker_0_31): Installs tool dependencies for !PeptideShaker 0.31
+  * [package_peptideshaker_0_31](https://toolshed.g2.bx.psu.edu/view/iracooke/package_peptideshaker_0_31): Installs tool dependencies for PeptideShaker 0.31
   * [package_searchgui_1_19](https://toolshed.g2.bx.psu.edu/view/iracooke/package_searchgui_1_19): Installs tool dependencies for !SearchGUI 1.19
 
 * *From [https://toolshed.g2.bx.psu.edu/view/anton](https://toolshed.g2.bx.psu.edu/view/anton)*

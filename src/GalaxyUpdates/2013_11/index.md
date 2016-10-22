@@ -230,81 +230,81 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
   </tr>
   <tr>
     <th> November 2-6 </th>
-    <td> </em><a href='https://apha.confex.com/apha/141am/webprogramadapt/Paper287924.html'>A zebrafish cloud computational resource for environmental health science research</a><em> </td>
+    <td> <em><a href='https://apha.confex.com/apha/141am/webprogramadapt/Paper287924.html'>A zebrafish cloud computational resource for environmental health science research</a></em> </td>
     <td> <a href='http://www.apha.org/meetings/AnnualMeeting/'>141st American Public Health Association (APHA) Annual Meeting</a>, Boston, Massachusetts, United States </td>
     <td> <a href='https://apha.confex.com/apha/141am/webprogramadapt/Person216879.html'>Peter Tonellato</a> </td>
   </tr>
   <tr>
     <th> November 4 </th>
-    <td> </em><a href='http://www.qfab.org/event/rna-seq-analysis-using-galaxy-workshop/'>RNA-Seq Analysis using Galaxy workshop</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/rna-seq-analysis-using-galaxy-workshop/'>RNA-Seq Analysis using Galaxy workshop</a></em> </td>
     <td> The University of Queensland, St Lucia, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> November 6 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-an-introduction-to-variant-detection-using-galaxy/'>Workshop: An Introduction to Variant Detection using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-an-introduction-to-variant-detection-using-galaxy/'>Workshop: An Introduction to Variant Detection using Galaxy</a></em> </td>
     <td> Children’s Medical Research Institute, Westmead, New South Wales, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> November 6-8 </th>
-    <td> </em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'>Galaxy Training Days</a><em> <div class='indent red'>Workshop is full, but there is space on the waiting list</div> </td>
+    <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'>Galaxy Training Days</a></em> <div class='indent red'>Workshop is full, but there is space on the waiting list</div> </td>
     <td> <a href='http://bioinfo.genotoul.fr/index.php?id=4#c93'>INRA Auzeville</a>, France </td>
     <td> <a href="mailto:sarah DOT maman AT toulouse AT inra AT fr">Sarah Maman</a> </td>
   </tr>
   <tr>
     <th> November 7 </th>
-    <td> </em><a href='http://www.qfab.org/event/rna-seq-analysis-using-galaxy-4/'>RNA-Seq Analysis using Galaxy workshop</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/rna-seq-analysis-using-galaxy-4/'>RNA-Seq Analysis using Galaxy workshop</a></em> </td>
     <td> Children’s Medical Research Institute, Westmead, New South Wales, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> November 19 </th>
-    <td> </em><a href='http://bit.ly/16tBdIZ'>NGS解析Galaxy特集とDDBJ</a><em> </td>
+    <td> <em><a href='http://bit.ly/16tBdIZ'>NGS解析Galaxy特集とDDBJ</a></em> </td>
     <td> 新潟大学 <a href='http://www1.niigata-u.ac.jp/tokimate/outline.html'>駅南キャンパス「ときめいと」</a> Japan </td>
     <td> <a href='http://www.ddbj.nig.ac.jp/addresses-j.html#to-ddbj'>お問い合わせの</a> </td>
   </tr>
   <tr>
     <th> November 20 </th>
-    <td> </em><a href='/src/Community/GalaxyAdmins/Meetups/2013_11_20/index.md'>November GalaxyAdmins Meetup</a><em> </td>
+    <td> <em><a href='/src/Community/GalaxyAdmins/Meetups/2013_11_20/index.md'>November GalaxyAdmins Meetup</a></em> </td>
     <td> <a href='/src/Community/GalaxyAdmins/Meetups/2013_11_20/index.md'>Online</a> </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a>, Srinivas Maddhi </td>
   </tr>
   <tr>
     <th> November 22 </th>
-    <td> </em><a href='http://www.qfab.org/event/variant-detection-using-galaxy-workshop/'>Variant Detection using Galaxy workshop</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/variant-detection-using-galaxy-workshop/'>Variant Detection using Galaxy workshop</a></em> </td>
     <td> The University of Queensland, St Lucia, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> December 4 </th>
-    <td> </em><a href='http://www.ifb-galaxy.org/4dec2013.html'>Galaxy Day</a><em><div class='indent red'>Soumissions dû 10 Octobre</div> </td>
+    <td> <em><a href='http://www.ifb-galaxy.org/4dec2013.html'>Galaxy Day</a></em><div class='indent red'>Soumissions dû 10 Octobre</div> </td>
     <td> Paris (Institut Curie), France </td>
     <td> <a href="mailto:ifb DOT galaxy AT sb DASH roscoff DOT fr">Organisateurs</a> </td>
   </tr>
   <tr>
     <th> December 9 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-an-introduction-to-de-novo-genome-assembly-using-galaxy/'>Workshop : An Introduction to De Novo Genome Assembly using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-an-introduction-to-de-novo-genome-assembly-using-galaxy/'>Workshop : An Introduction to De Novo Genome Assembly using Galaxy</a></em> </td>
     <td> The University of Queensland, St Lucia, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> December 10 </th>
-    <td> </em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-introduction-to-next-generation-sequence-analysis-with-galaxy-december-10-2013/'>Introduction to Next-Generation Sequence Analysis with Galaxy</a><em> </td>
-    <td rowspan=4> </strong><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'>UC Davis Bioinformatics Bootcamps</a><strong>, Davis, California, United States </td>
+    <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-introduction-to-next-generation-sequence-analysis-with-galaxy-december-10-2013/'>Introduction to Next-Generation Sequence Analysis with Galaxy</a></em> </td>
+    <td rowspan=4> <strong><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'>UC Davis Bioinformatics Bootcamps</a></strong>, Davis, California, United States </td>
     <td rowspan=4> <a href="mailto:training DOT ucdbio AT gmail DOT com">UC Davis Bioinformatics Training</a> </td>
   </tr>
   <tr>
     <th> December 11 </th>
-    <td> </em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-next-generation-sequence-alignment-and-variant-discovery-december-11-2013/'>Next-Generation Sequence Alignment and Variant Discovery</a><em> </td>
+    <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-next-generation-sequence-alignment-and-variant-discovery-december-11-2013/'>Next-Generation Sequence Alignment and Variant Discovery</a></em> </td>
   </tr>
   <tr>
     <th> December 12 </th>
-    <td> </em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-genome-assembly-using-next-generation-sequence-data-december-12-2013/'>Genome Assembly using Next-Generation Sequence Data</a><em> </td>
+    <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-genome-assembly-using-next-generation-sequence-data-december-12-2013/'>Genome Assembly using Next-Generation Sequence Data</a></em> </td>
   </tr>
   <tr>
     <th> December 13 </th>
-    <td> </em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-introduction-to-the-amazon-cloud-for-galaxy-and-the-command-line-december-13-2013/'>Introduction to the Amazon Cloud for Galaxy and the Command-Line</a><em> </td>
+    <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-introduction-to-the-amazon-cloud-for-galaxy-and-the-command-line-december-13-2013/'>Introduction to the Amazon Cloud for Galaxy and the Command-Line</a></em> </td>
   </tr>
   <tr>
     <th colspan=4> <span style="font-size: larger;"> 2014 </span> </th>
@@ -329,7 +329,7 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
   </tr>
   <tr>
     <th> June 30 - July 2 </th>
-    <td> </strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
+    <td> <strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
     <td> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
     <td> <a href='/src/Events/GCC2014/Organizers/index.md'>Organizers</a> </td>
   </tr>

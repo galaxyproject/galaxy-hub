@@ -26,7 +26,7 @@ This analysis involves the following steps:
 
 ## Example 2
 
-*What !RefSeq genes are within 5000bp of my transcription factor binding sites?*
+*What RefSeq genes are within 5000bp of my transcription factor binding sites?*
 
 [see ScreenCast](http://screencast.g2.bx.psu.edu/Affy_Sp1_RefSeq/)
 ----
@@ -37,7 +37,7 @@ This analysis involves the following steps:
 * 5,000 bp downstream, no offset for result interval bed file
 * Rename new file intervals 5000bp downstream
 * Get data &rarr; UCSC table browser
-* Get !RefSeq gene data
+* Get RefSeq gene data
 * Operate on genomic intervals –> intersect
-* Intersect !RefSeq genes with interval 5000 bp downstream file
+* Intersect RefSeq genes with interval 5000 bp downstream file
 

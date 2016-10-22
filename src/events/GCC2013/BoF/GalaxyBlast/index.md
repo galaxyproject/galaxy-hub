@@ -12,7 +12,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2013/BoF/LinkBox/index.md)
 
 This **BoF** [Birds of a Feather](/src/Events/GCC2013/BoF/index.md) meetup is being held at [GCC2013](/src/Events/GCC2013/index.md).
 
-Peter Cock wrote the original NCBI BLAST+ wrappers which are now in the Galaxy Tool Shed at http://toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus and http://toolshed.g2.bx.psu.edu/view/devteam/blast_datatypes but several additional people have already been contributing further additions. This purpose of this meeting is for this group to meet up in person to talk about planning, future development (should we use a dedicated repository on http://www.GitHub.com or http://www.BitBucket.org for example?), and so on.
+Peter Cock wrote the original NCBI BLAST+ wrappers which are now in the Galaxy Tool Shed at http://toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus and http://toolshed.g2.bx.psu.edu/view/devteam/blast_datatypes but several additional people have already been contributing further additions. This purpose of this meeting is for this group to meet up in person to talk about planning, future development (should we use a dedicated repository on http://www.[GitHub](/src/GitHub/index.md).com or http://www.[BitBucket](/src/BitBucket/index.md).org for example?), and so on.
 
 ## When and Where
 

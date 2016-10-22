@@ -40,7 +40,7 @@ Galaxy will again have a strong presence at the 2015 ASMS meeting.
   <tr>
     <td> 9:50 </td>
     <td> Room 130/132 </td>
-    <td> SearchGUI and !PeptideShaker deployed in the Galaxy framework: A powerful informatics platform for protein identification and beyond </td>
+    <td> SearchGUI and PeptideShaker deployed in the Galaxy framework: A powerful informatics platform for protein identification and beyond </td>
     <td> <a href='http://www.latrobe.edu.au/staff-profiles/show-profile-remote-content.php?uname=ICooke'>Ira Cooke</a> </td>
     <td> </td>
   </tr>
@@ -106,8 +106,8 @@ Presenters and expected topics will include:
 
 | Talk |  Topic  |  Speaker  |  Links  | 
 | ---- | ------ | -------- | ------ | 
-| 1. |  **The Proteoformer Pipeline for !RiboProfiling and MS-based Proteomics**  |  Gerben Menschaert, Ghent University  |   | 
-| 2. |  **Galaxy-based !PeptideShaker tools and applications, with a focus on downstream applications**  |  [Ira Cooke](http://www.latrobe.edu.au/staff-profiles/show-profile-remote-content.php?uname=ICooke), La Trobe University / [Pratik Jagtap](http://cbs.umn.edu/contacts/pratik-d-jagtap), University of Minnesota  |  [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015_ASMS_PeptideShaker_Cooke_Jagtap.pdf)  | 
+| 1. |  **The Proteoformer Pipeline for RiboProfiling and MS-based Proteomics**  |  Gerben Menschaert, Ghent University  |   | 
+| 2. |  **Galaxy-based PeptideShaker tools and applications, with a focus on downstream applications**  |  [Ira Cooke](http://www.latrobe.edu.au/staff-profiles/show-profile-remote-content.php?uname=ICooke), La Trobe University / [Pratik Jagtap](http://cbs.umn.edu/contacts/pratik-d-jagtap), University of Minnesota  |  [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015_ASMS_PeptideShaker_Cooke_Jagtap.pdf)  | 
 | 3. |  **Targeted Proteomics tools in Galaxy**  |  Shyamasree Saha, Queen Mary University of London  |   | 
 
 Ample time will be offered for questions from attendees and discussion. Presenters will be available for an informal panel discussion in the final part of the workshop.

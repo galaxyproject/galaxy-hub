@@ -33,4 +33,4 @@ In addition, there is news on:
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-04-02 </div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

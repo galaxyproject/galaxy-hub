@@ -1,4 +1,4 @@
-#acl +VettedEditorGroup:read,write +All:read
+#acl +[VettedEditorGroup](/src/VettedEditorGroup/index.md):read,write +All:read
 PLACEHOLDER_INCLUDE(/src/Events/GCC2012/PageHeader/index.md)
 
 PLACEHOLDER_INCLUDE(/src/Events/GCC2012/Register/LinkBox/index.md)

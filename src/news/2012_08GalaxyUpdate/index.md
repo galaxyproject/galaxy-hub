@@ -21,4 +21,4 @@ If you have anything you would like to see in the September *[Galaxy Update](/sr
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-07-31</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

@@ -45,4 +45,4 @@ There are also 4 new videos that provide an overview of different sequencing pla
 * [PacBio](https://vimeo.com/album/3456159/video/121267426)
 * [454](https://vimeo.com/album/3456159/video/121286060)
 
-CategoryTrainingResource
+[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)

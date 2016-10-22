@@ -33,7 +33,7 @@ So, **please do these steps before you arrive.**
 
 ## 1. Install VirtualBox on your laptop
 
-**[George Magklaras](http://folk.uio.no/georgios) has created two videos on how to install !VirtualBox on Linux and Windows.**  These videos also describe how to start a VM as well (using the [Installing and Maintaining a Local Galaxy Server](/src/Events/GCC2013/TrainingDay/VMs//index.md) image, but the principle is the same for the other image as well).
+**[George Magklaras](http://folk.uio.no/georgios) has created two videos on how to install VirtualBox on Linux and Windows.**  These videos also describe how to start a VM as well (using the [Installing and Maintaining a Local Galaxy Server](/src/Events/GCC2013/TrainingDay/VMs//index.md) image, but the principle is the same for the other image as well).
 
 * [Install VirtualBox on Linux](http://youtu.be/jnarp-j12lw)
 * [Install VirtualBox on Windows](http://youtu.be/7jOnscRjaFs)
@@ -56,9 +56,9 @@ There are two VMs to pick from.
 ## 3. Import the VM into VirtualBox
 
 1. First, make a backup copy of the downloaded `.ova` file(s). If something goes wrong you can always make a new copy.
-1. Import the VM image into !VirtualBox by either starting the downloaded `.ova` file directly, or by launching !VirtualBox and navigating to **File &rarr; Import Appliance** and opening the file.
+1. Import the VM image into VirtualBox by either starting the downloaded `.ova` file directly, or by launching VirtualBox and navigating to **File &rarr; Import Appliance** and opening the file.
 1. This will display the **Appliance Import Settings** window. *Click* the **Import** button.
-1. 4. It may then take several minutes for !VirtualBox to import the VM. Once it is done, a new VM will appear in the left pane in the 'powered off' state.
+1. 4. It may then take several minutes for VirtualBox to import the VM. Once it is done, a new VM will appear in the left pane in the 'powered off' state.
 
 The VM is now installed.
 

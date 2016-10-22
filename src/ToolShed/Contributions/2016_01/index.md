@@ -47,7 +47,7 @@ Tools contributed to the Galaxy Project Tool Shed in January 2016.
 * [numeric_clustering](https://toolshed.g2.bx.psu.edu/view/bgruening/numeric_clustering): Clustering tool for numberic values. This clustering tool offers different clustering algorithms which are provided by scikit-learn to find similarities among samples and cluster the samples based on these similarities.
 
 * *From [mkh](https://toolshed.g2.bx.psu.edu/view/mkh):*
-  * [ips5](https://toolshed.g2.bx.psu.edu/view/mkh/ips5): !InterProScan 5
+  * [ips5](https://toolshed.g2.bx.psu.edu/view/mkh/ips5): InterProScan 5
 
 * *From [fgiacomoni](https://toolshed.g2.bx.psu.edu/view/fgiacomoni):*
   * [hmdb_ms_search](https://toolshed.g2.bx.psu.edu/view/fgiacomoni/hmdb_ms_search): Init and uploaded [W4M][LC-MS] HMDB database MS Search Package - Annotation - Returns annotation results (adducts and metabolites) from The Human Metabolome Database. Part of the W4M project: http://workflow4metabolomics.org / HMDB: http://www.hmdb.ca/. The wrapper script use the HMDB 'MS search' resource to annotate a list of m/z. The process returns outputs files (CSV and HTML formats) with links through metabocards.

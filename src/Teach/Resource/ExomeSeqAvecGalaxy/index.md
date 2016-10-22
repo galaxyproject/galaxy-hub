@@ -10,7 +10,7 @@ title: [Analyse de données ExomeSeq avec Galaxy](https://youtu.be/HyQCUWmgx84)
 <div class='deploymentbox'>
  Resource:: **[Analyse de données ExomeSeq avec Galaxy](/src/Teach/Resource/ExomeSeqAvecGalaxy/index.md)**
  Types:: Tutorial
- Domains:: **!ExomeSeq** 
+ Domains:: **ExomeSeq** 
  Owners:: [Elodie Girard](https://www.researchgate.net/profile/Elodie_Girard2) and [Romain Daveau](https://www.linkedin.com/in/romain-daveau-aa405336), [Institut Curie](https://curie.fr/)
  Formats:: Video  
  Date:: 2014/03
@@ -18,7 +18,7 @@ title: [Analyse de données ExomeSeq avec Galaxy](https://youtu.be/HyQCUWmgx84)
 
 Tutoriel Galaxy pour la réalisation de l'analyse d'un exome complet et la détection de variants.
 
-Formateur : Elodie Girard et Romain Daveau, Institut Curie, INSERM U900, Mines !ParisTech.
+Formateur : Elodie Girard et Romain Daveau, Institut Curie, INSERM U900, Mines ParisTech.
 
 Vidéo réalisée dans le cadre de la formation en bio-informatique "NGS et cancer" du Cancéropôle Île-de-France.
 
@@ -33,4 +33,4 @@ Video is in French.  Tools are available on the [public Galaxy server at Institu
 * [Video tutorial](https://youtu.be/HyQCUWmgx84)
 * [public Galaxy server at Institut Curie](https://galaxy-public.curie.fr/)
 
-CategoryTrainingResource
+[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)

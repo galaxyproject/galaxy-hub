@@ -32,4 +32,4 @@ Happy February!
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-02-02 </div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

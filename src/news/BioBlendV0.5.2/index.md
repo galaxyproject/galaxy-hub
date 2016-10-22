@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[BioBlend v0.5.2 Released](/src/News/BioBlendV0.5.2/index.md)</div>
 
-[BioBlend](https://github.com/afgane/bioblend) [v0.5.2](https://github.com/afgane/bioblend/blob/master/CHANGELOG.md) has been released.  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  (CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
+[BioBlend](https://github.com/afgane/bioblend) [v0.5.2](https://github.com/afgane/bioblend/blob/master/CHANGELOG.md) has been released.  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  ([CloudMan](/src/CloudMan/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
 
 This is mostly an incremental bug fix release with the following summary of changes:
 
@@ -8,8 +8,8 @@ This is mostly an incremental bug fix release with the following summary of chan
 
 * [BioBlend.objects](http://bioinformatics.oxfordjournals.org/content/30/19/2816.abstract): enable email & password authorization
 * Enable ToolShed tar ball uploads
-* !BioBlend.objects: allow deletion of history and library datasets
-* !BioBlend.objects: fixed library dataset downloads
+* BioBlend.objects: allow deletion of history and library datasets
+* BioBlend.objects: fixed library dataset downloads
 * Fixed the ToolShed tool installation method
 * Add 'deleted' attribute to [DatasetContainer](https://github.com/afgane/bioblend/blob/master/bioblend/galaxy/objects/wrappers.py#l678)
 * Handle data_type changes in the Oct 2014 Galaxy release
@@ -24,4 +24,4 @@ Enjoy and please let us know what you think,
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-10-17</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

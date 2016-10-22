@@ -73,7 +73,7 @@ These papers were among [46 papers added to the Galaxy CiteULike group](http://w
 | Server |  Purpose / Community  |  Other Comments  |  Restrictions  |  Sponsor  | 
 | ------ | -------------------- | --------------- | ------------- | -------- | 
 | [IBDsite](http://www.itb.cnr.it/galaxy) |  a [Galaxy-interacting, integrative database for supporting Inflammatory Bowel Disease high throughput data analysis](http://www.biomedcentral.com/1471-2105/13/S14/S5/abstract)  |   |   |  [CNR-ITB](http://www.itb.cnr.it/)  | 
-| [NCBO and OPPL Galaxy](http://sele.inf.um.es:9080/) |  The NCBO-Galaxy tools provide Galaxy users with the functionality of the NCBO !BioPortal services. [OPPL-Galaxy](http://miuras.inf.um.es/OPPL-Galaxy/OPPL-Galaxy.html) is a set of functions that can be executed over OWL ontologies with the aim of facilitating the use of semantic activities within Galaxy Bioinformatics workflows.  |  See "[NCBO-Galaxy: bridging the BioPortal web services and the Galaxy platform](http://kr-med.org/icbofois2012/proceedings/ICBO2012/ICBO2012DemosSingleFiles/ICBO-2012-session8-Gimenez.pdf)," by Giménez, et al., presented at ICBO2012; and "[OPPL-Galaxy: Enhancing ontology exploitation in Galaxy with OPPL](http://www.slideshare.net/MikelEganaAranguren/opplgalaxy-enhancing-ontology-exploitation-in-galaxy-with-oppl)" by Aranguren, et al.  |   |  [Universidad de Murcia](http://www.um.es/)  | 
+| [NCBO and OPPL Galaxy](http://sele.inf.um.es:9080/) |  The NCBO-Galaxy tools provide Galaxy users with the functionality of the NCBO BioPortal services. [OPPL-Galaxy](http://miuras.inf.um.es/OPPL-Galaxy/OPPL-Galaxy.html) is a set of functions that can be executed over OWL ontologies with the aim of facilitating the use of semantic activities within Galaxy Bioinformatics workflows.  |  See "[NCBO-Galaxy: bridging the BioPortal web services and the Galaxy platform](http://kr-med.org/icbofois2012/proceedings/ICBO2012/ICBO2012DemosSingleFiles/ICBO-2012-session8-Gimenez.pdf)," by Giménez, et al., presented at ICBO2012; and "[OPPL-Galaxy: Enhancing ontology exploitation in Galaxy with OPPL](http://www.slideshare.net/MikelEganaAranguren/opplgalaxy-enhancing-ontology-exploitation-in-galaxy-with-oppl)" by Aranguren, et al.  |   |  [Universidad de Murcia](http://www.um.es/)  | 
 | [PopGenIE](http://galaxy.popgenie.org:8080/) |  The [Populus Genome Integrative Explorer](http://popgenie.org/) Galaxy instance.  |   |  Storage quotas  |  [Plant Physiology, University of Umeå](http://www.plantphys.umu.se/)  | 
 
 ## Who's Hiring
@@ -136,7 +136,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th rowspan=2> September 10-12 </th>
     <td> <em><a href='http://genetics.cmc-uct.co.za/'>Transparent, accessible, reproducible analysis with Galaxy</a></em> </td>
-    <td rowspan=2> </strong><a href='http://genetics.cmc-uct.co.za/'>South African Genetics & Bioinformatics Society Conference</a><strong><br /> University of Stellenbosch, Stellenbosch, South Africa </td>
+    <td rowspan=2> <strong><a href='http://genetics.cmc-uct.co.za/'>South African Genetics & Bioinformatics Society Conference</a></strong><br /> University of Stellenbosch, Stellenbosch, South Africa </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
@@ -158,19 +158,19 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th> September 27-29 </th>
     <td> <em><a href='http://www.beyond-the-genome.com/'>Informatics Workshop</a></em> </td>
-    <td> </strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2012</a><strong>, <a href='http://www.amiando.com/2012-beyond-the-genome.html?page=661875'>Harvard Medical School</a>, Boston, Massachusetts </td>
+    <td> <strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2012</a></strong>, <a href='http://www.amiando.com/2012-beyond-the-genome.html?page=661875'>Harvard Medical School</a>, Boston, Massachusetts </td>
     <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 3 </th>
     <td> <em><a href='/src/Events/Switzerland2012/index.md'>(first Swiss) Galaxy Workshop</a></em> </td>
-    <td> </strong><a href='https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3'>SyBIT Tech Day</a><strong>, Bern, Switzerland </td>
+    <td> <strong><a href='https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3'>SyBIT Tech Day</a></strong>, Bern, Switzerland </td>
     <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> October 8-12 </th>
     <td> <em><a href='http://www.psc.edu/index.php/escience-2012-workshop'>Extending High-Performance Computing Beyond its Traditional User Communities Workshop</a></em> </td>
-    <td> </strong><a href='http://www.ci.uchicago.edu/escience2012/'>8th IEEE International Conference on eScience (eScience 2012)</a><strong>, Chicago Illinois, United States </td>
+    <td> <strong><a href='http://www.ci.uchicago.edu/escience2012/'>8th IEEE International Conference on eScience (eScience 2012)</a></strong>, Chicago Illinois, United States </td>
     <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
@@ -194,7 +194,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th rowspan=2 style=" text-align:center;"> November 6-10 </th>
     <td> <em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#9'>Galaxy 101: Data Integration, Analysis and Sharing</a></em> </td>
-    <td rowspan=2 style=" text-align:center;"> </strong><a href='http://www.ashg.org/2012meeting/'>American Society of Human Genetics (ASHG)</a><strong>, San Francisco, California, United States </td>
+    <td rowspan=2 style=" text-align:center;"> <strong><a href='http://www.ashg.org/2012meeting/'>American Society of Human Genetics (ASHG)</a></strong>, San Francisco, California, United States </td>
     <td rowspan=2 style=" text-align:center;"> <a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a>, <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
@@ -217,7 +217,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> </strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
+    <td> <strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -263,7 +263,7 @@ The most recent Galaxy distribution was [released on July 20, 2012](/src/DevNews
   * [Upgrading Galaxy](http://www.agapow.net/science/bioinformatics/galaxy/upgrading-galaxy)
   * [Setting up a Galaxy toolshed](http://www.agapow.net/science/bioinformatics/galaxy/setting-up-a-galaxy-toolshed)
 * [Ntino Krampis BioTechniques interview](http://www.biotechniques.com/multimedia/podcasts/#.UD6V2VTYNUO) on doing bioinformatics on the cloud, including CloudMan.
-* [Jeremy Goecks](/src/JeremyGoecks/index.md) updated his [RNA-seq Analysis Exercise Galaxy Page](https://usegalaxy.org/u/jeremy/p/galaxy-rna-seq-analysis-exercise) to cover quality control through !CuffDiff: paired-end data, iGenomes gtf, answer key, and bonus resources
+* [Jeremy Goecks](/src/JeremyGoecks/index.md) updated his [RNA-seq Analysis Exercise Galaxy Page](https://usegalaxy.org/u/jeremy/p/galaxy-rna-seq-analysis-exercise) to cover quality control through CuffDiff: paired-end data, iGenomes gtf, answer key, and bonus resources
 * [Slides and videos](http://bit.ly/QGxVJU) for the Iowa Initiative in Human Genetics [Bioinformatics Course](http://bit.ly/QGxVJU)
 * A few summaries of the recent [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) have been posted online:
   * Peter Li's [GigaBlog post](http://blogs.biomedcentral.com/gigablog/2012/08/06/enabling-bioinformatics-tools-to-smoke-the-peace-pipe-together/)

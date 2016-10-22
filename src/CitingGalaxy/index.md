@@ -89,7 +89,7 @@ Papers about or using Galaxy with [core team members](/src/GalaxyTeam/index.md) 
 
 1. [Enis Afgan](/src/EnisAfgan/index.md), Clare Sloggett, Nuwan Goonasekera, Igor Makunin, Derek Benson, Mark Crowe, Simon Gladman, Yousef Kowsar, Michael Pheasant, Ron Horst, Andrew Lonie, "[Genomics Virtual Laboratory: A Practical Bioinformatics Workbench for the Cloud](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0140829)," *PLoS ONE* 10(10): e0140829. doi:10.1371/journal.pone.0140829 
 
-1. Peter J. A. Cock, [John M. Chilton](/src/JohnChilton/index.md), [Björn Grüning](/src/BjoernGruening/index.md), James E. Johnson, and [Nicola Soranzo](/src/NicolaSoranzo/index.md), "[NCBI BLAST+ integrated into Galaxy](http://www.gigasciencejournal.com/content/4/1/39)," *!GigaScience* 2015, 4:39  doi:10.1186/s13742-015-0080-7 
+1. Peter J. A. Cock, [John M. Chilton](/src/JohnChilton/index.md), [Björn Grüning](/src/BjoernGruening/index.md), James E. Johnson, and [Nicola Soranzo](/src/NicolaSoranzo/index.md), "[NCBI BLAST+ integrated into Galaxy](http://www.gigasciencejournal.com/content/4/1/39)," *GigaScience* 2015, 4:39  doi:10.1186/s13742-015-0080-7 
 
 1. Craig A. Stewart, Timothy M. Cockerill, Ian Foster, David Hancock, Nirav Merchant, Edwin Skidmore, Daniel Stanzione, [James Taylor](/src/JamesTaylor/index.md), Steven Tuecke, George Turner, Matthew Vaughn, Niall I. Gaffney, "[Jetstream: a self-provisioned, scalable science and engineering cloud environment](http://bit.ly/1DxlY4d)," in [XSEDE '15 Proceedings of the 2015 XSEDE Conference: Scientific Advancements Enabled by Enhanced Cyberinfrastructure](http://dl.acm.org/citation.cfm?id=2792745&preflayout=flat), Article No. 29 
 
@@ -123,13 +123,13 @@ Papers about or using Galaxy with [core team members](/src/GalaxyTeam/index.md) 
 
 1. [Daniel Blankenberg](/src/Dan/index.md), [Gregory Von Kuster](/src/greg_vonkuster/index.md), [Emil Bouvier](/src/DaveBouvier/index.md), [Dannon Baker](/src/DannonBaker/index.md), [Enis Afgan](/src/EnisAfgan/index.md), [Nicholas Stoler](http://nstoler.com/), the [Galaxy Team](/src/GalaxyTeam/index.md), [James Taylor](/src/JamesTaylor/index.md) and [Anton Nekrutenko](/src/anton/index.md), "[Dissemination of scientific software with Galaxy ToolShed](http://genomebiology.com/2014/15/2/403)," in *[Genome Biology](http://genomebiology.com/)* 2014, 15:403, doi:10.1186/gb4161
 
-1. B Rebolledo-Jaramillo, MSW Su, [N Stoler](http://nstoler.com/), J !McElhoe, B Dickins, [D Blankenberg](/src/Dan/index.md), TS Korneliussen, F Chiaromonte, R Nielsen, MM Hollandc, IM Paul, [A Nekrutenko](/src/anton/index.md), KD Makova, "[Maternal age effect and severe germ-line bottleneck in the inheritance of human mitochondrial DNA](http://www.pnas.org/content/early/2014/10/08/1409328111.abstract)", *PNAS* 2014; doi:10.1073/pnas.1409328111
+1. B Rebolledo-Jaramillo, MSW Su, [N Stoler](http://nstoler.com/), J McElhoe, B Dickins, [D Blankenberg](/src/Dan/index.md), TS Korneliussen, F Chiaromonte, R Nielsen, MM Hollandc, IM Paul, [A Nekrutenko](/src/anton/index.md), KD Makova, "[Maternal age effect and severe germ-line bottleneck in the inheritance of human mitochondrial DNA](http://www.pnas.org/content/early/2014/10/08/1409328111.abstract)", *PNAS* 2014; doi:10.1073/pnas.1409328111
 
 ### 2013
 
 1. Geir Kjetil Sandve, [Anton Nekrutenko](/src/anton/index.md), [James Taylor](/src/JamesTaylor/index.md), Eivind Hovig, "[Ten Simple Rules for Reproducible Computational Research](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285)," in *[PLoS Computational Biology](http://www.ploscompbiol.org/)* 9(10): e1003285. doi:10.1371/journal.pcbi.1003285
 
-1. Richard !LeDuc, Matthew Vaughn, John M Fonner, Michael Sullivan, James G Williams, Philip D Blood, [James Taylor](/src/JamesTaylor/index.md), William Barnett, "[Leveraging the national cyberinfrastructure for biomedical research](http://dx.doi.org/10.1136/amiajnl-2013-002059)," *[Journal of the American Medical Informatics Association (JAMIA)](http://jamia.bmj.com/)*, doi:10.1136/amiajnl-2013-002059
+1. Richard LeDuc, Matthew Vaughn, John M Fonner, Michael Sullivan, James G Williams, Philip D Blood, [James Taylor](/src/JamesTaylor/index.md), William Barnett, "[Leveraging the national cyberinfrastructure for biomedical research](http://dx.doi.org/10.1136/amiajnl-2013-002059)," *[Journal of the American Medical Informatics Association (JAMIA)](http://jamia.bmj.com/)*, doi:10.1136/amiajnl-2013-002059
 
 1. [James Taylor](/src/JamesTaylor/index.md), [Anton Nekrutenko](/src/anton/index.md), [Nate Coraor](/src/nate/index.md), *et al.* "[A sustainable national gateway for biological computation](http://dx.doi.org/10.1145/2484762.2484817)," in *Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery* (2013)
 

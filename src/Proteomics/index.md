@@ -25,11 +25,11 @@ This is a landing page for finding out information about Galaxy-based proteomics
 
 ### Other Links
 
-!GitHub: 
+GitHub: 
 * [Galaxy-P](https://github.com/galaxyproteomics/)
 * [Ira Cooke](https://github.com/iracooke/)
 * [John Chilton](https://github.com/jmchilton)
 
 ...
 ----
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

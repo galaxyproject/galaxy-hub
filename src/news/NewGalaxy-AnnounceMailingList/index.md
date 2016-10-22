@@ -18,4 +18,4 @@ See [Mailing Lists](/src/Mailing Lists/index.md) for more information on this an
 [Dave Clements](/src/DaveClements/index.md)
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-12-02</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

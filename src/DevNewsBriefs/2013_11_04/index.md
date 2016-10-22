@@ -111,7 +111,7 @@ Third, the tools can be completely disabled by removing them from the tool confi
 1. General: 
   * Created a shared tool and parameter base on both the client and server side. https://trello.com/c/QTCrzr85
   * Dictify mixin cleanup. https://trello.com/c/P5fog600
-  * Update to latest select2. https://trello.com/c/NaGczwrT
+  * Update to latest select2. https://trello.com/c[/NaGczwr](/src/DevNewsBriefs/2013_11_04/NaGczwr/index.md)T
 
 <br />
 # Visualizations
@@ -160,8 +160,8 @@ Third, the tools can be completely disabled by removing them from the tool confi
 <br />
 # Core
 
-1. Explicitly set `TEMP` dir in `Local Runner`, when a temp dir value is not already set. https://trello.com/c/HbFeoWRI
-1. Tool element exit_code (under stdio) now functions from_work_dir or when setting metadata externally. https://trello.com/c/JfB2w1Br
+1. Explicitly set `TEMP` dir in `Local Runner`, when a temp dir value is not already set. https://trello.com/c[/HbFeo](/src/DevNewsBriefs/2013_11_04/HbFeo/index.md)WRI
+1. Tool element exit_code (under stdio) now functions from_work_dir or when setting metadata externally. https://trello.com/c[/JfB2w1Br](/src/DevNewsBriefs/2013_11_04/JfB2w1Br/index.md)
 1. Using Auto-detect and a cluster job runner now sets metadata only once. https://trello.com/c/Kc3NDGyN
 1. Upgrades to `HierarchicalObjectStore`, more planned. https://trello.com/c/k4tovlFd
 1. New `Plugin Framework lib/galaxy/web/base/pluginframework.py`. https://trello.com/c/lrfWbtw3
@@ -269,52 +269,52 @@ Several beneficial enhancements have bee added to the support for [defining tool
 
 <table>
   <tr>
-    <td> https://trello.com/c/l9ZlGa8R </td>
-    <td> https://trello.com/c/ojQqlSgl </td>
-    <td> https://trello.com/c/BN2V9I4M </td>
+    <td> <a href='https://trello.com/c/l9ZlGa8R '>https://trello.com/c/l9ZlGa8R </a></td>
+    <td> <a href='https://trello.com/c/ojQqlSgl '>https://trello.com/c/ojQqlSgl </a></td>
+    <td> <a href='https://trello.com/c/BN2V9I4M '>https://trello.com/c/BN2V9I4M </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/cSoMNbhU </td>
-    <td> https://trello.com/c/I3OadTHb </td>
-    <td> https://trello.com/c/ZmJDgBSq </td>
+    <td> <a href='https://trello.com/c/cSoMNbhU '>https://trello.com/c/cSoMNbhU </a></td>
+    <td> <a href='https://trello.com/c/I3OadTHb '>https://trello.com/c/I3OadTHb </a></td>
+    <td> <a href='https://trello.com/c/ZmJDgBSq '>https://trello.com/c/ZmJDgBSq </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/nTArHl8J </td>
-    <td> https://trello.com/c/XYkqW3Lr </td>
-    <td> https://trello.com/c/HKQbqYr9 </td>
+    <td> <a href='https://trello.com/c/nTArHl8J '>https://trello.com/c/nTArHl8J </a></td>
+    <td> <a href='https://trello.com/c/XYkqW3Lr '>https://trello.com/c/XYkqW3Lr </a></td>
+    <td> <a href='https://trello.com/c/HKQbqYr9 '>https://trello.com/c/HKQbqYr9 </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/Tf9i7n3h </td>
-    <td> https://trello.com/c/ZXgnlXfo </td>
-    <td> https://trello.com/c/AxvJsdcx </td>
+    <td> <a href='https://trello.com/c/Tf9i7n3h '>https://trello.com/c/Tf9i7n3h </a></td>
+    <td> <a href='https://trello.com/c/ZXgnlXfo '>https://trello.com/c/ZXgnlXfo </a></td>
+    <td> <a href='https://trello.com/c/AxvJsdcx '>https://trello.com/c/AxvJsdcx </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/3ie0lStx </td>
-    <td> https://trello.com/c/FziDycDo </td>
-    <td> https://trello.com/c/TrTyFaKR </td>
+    <td> <a href='https://trello.com/c/3ie0lStx '>https://trello.com/c/3ie0lStx </a></td>
+    <td> <a href='https://trello.com/c/FziDycDo '>https://trello.com/c/FziDycDo </a></td>
+    <td> <a href='https://trello.com/c/TrTyFaKR '>https://trello.com/c/TrTyFaKR </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/jFKUjJQn </td>
-    <td> https://trello.com/c/vpNE7HvD </td>
-    <td> https://trello.com/c/3nXG0ArT </td>
+    <td> <a href='https://trello.com/c/jFKUjJQn '>https://trello.com/c/jFKUjJQn </a></td>
+    <td> <a href='https://trello.com/c/vpNE7HvD '>https://trello.com/c/vpNE7HvD </a></td>
+    <td> <a href='https://trello.com/c/3nXG0ArT '>https://trello.com/c/3nXG0ArT </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/uinZvCkb </td>
-    <td> https://trello.com/c/scRE7nJ6 </td>
-    <td> https://trello.com/c/a5bMspR7 </td>
+    <td> <a href='https://trello.com/c/uinZvCkb '>https://trello.com/c/uinZvCkb </a></td>
+    <td> <a href='https://trello.com/c/scRE7nJ6 '>https://trello.com/c/scRE7nJ6 </a></td>
+    <td> <a href='https://trello.com/c/a5bMspR7 '>https://trello.com/c/a5bMspR7 </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/aVoVGUbX </td>
-    <td> https://trello.com/c/CZeVLNFr </td>
-    <td> https://trello.com/c/SqrjrnNg </td>
+    <td> <a href='https://trello.com/c/aVoVGUbX '>https://trello.com/c/aVoVGUbX </a></td>
+    <td> <a href='https://trello.com/c/CZeVLNFr '>https://trello.com/c/CZeVLNFr </a></td>
+    <td> <a href='https://trello.com/c/SqrjrnNg '>https://trello.com/c/SqrjrnNg </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/pV17Ld1l </td>
-    <td> https://trello.com/c/RrOyd6mP </td>
-    <td> https://trello.com/c/zpaUAGpy </td>
+    <td> <a href='https://trello.com/c/pV17Ld1l '>https://trello.com/c/pV17Ld1l </a></td>
+    <td> <a href='https://trello.com/c/RrOyd6mP '>https://trello.com/c/RrOyd6mP </a></td>
+    <td> <a href='https://trello.com/c/zpaUAGpy '>https://trello.com/c/zpaUAGpy </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/ljumfPC0 </td>
+    <td> <a href='https://trello.com/c/ljumfPC0 '>https://trello.com/c/ljumfPC0 </a></td>
     <td> </td>
     <td> </td>
   </tr>
@@ -327,16 +327,16 @@ Several beneficial enhancements have bee added to the support for [defining tool
 1. Fix Update manager functional test. https://trello.com/c/ZFpaJ8KQ
 1. Show when used with API key. https://trello.com/c/aR8aO3Me
 1. Persist form settings in 'saved histories' search. https://trello.com/c/FsEA9j8K
-1. Correct defaults for genome selection when adding library data files. https://trello.com/c/Hr1JdeGq
+1. Correct defaults for genome selection when adding library data files. https://trello.com/c[/Hr1JdeGq](/src/DevNewsBriefs/2013_11_04/Hr1JdeGq/index.md)
 
 # Prior Bug Fixes
 
-1. Fix saved histories view. https://trello.com/c/LdLlJDo9
+1. Fix saved histories view. https://trello.com/c[/LdLl](/src/DevNewsBriefs/2013_11_04/LdLl/index.md)JDo9
 1. Fix problems importing workflows to Tool Shed. https://trello.com/c/0Fks0ii9
 1. Increate tolerance for spaces in local's URLs. https://trello.com/c/e6KJKi6j
 1. Correct Datasource EBI SRA errors when non-text files are returned. https://trello.com/c/H8VQquBW
 1. Correct GenomeSpace export tool to only list personal directory. https://trello.com/c/vPFhGqBX
-1. Handle Datasource tools error when handling some binary data under certain cases. https://trello.com/c/TzXmSWOo
+1. Handle Datasource tools error when handling some binary data under certain cases. https://trello.com/c[/TzXm](/src/DevNewsBriefs/2013_11_04/TzXm/index.md)SWOo
 1. Adjust for empty strings in `ToolParameterValueWrapper.get_display_text() ` Python2.7 and lower. https://trello.com/c/XN0UfOCb
 1. Correct Json for view saved visualizations. https://trello.com/c/DaYZwv6w
 

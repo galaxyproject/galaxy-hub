@@ -32,4 +32,4 @@ From the [RNAmapper home page](http://www.rnamapper.org/):
 * [RNAmapper Galaxy 101 Tutorial](http://www.rnamapper.org/rnamapper-101)
 * "[RNA-seq–based mapping and candidate identification of mutations from forward genetic screens](http://genome.cshlp.org/content/23/4/679.long)" by Miller, *et al.*, *Genome Research* 2013. 23: 679-686
 
-CategoryVirtualAppliance
+[CategoryVirtualAppliance](/src/CategoryVirtualAppliance/index.md)

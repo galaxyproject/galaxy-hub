@@ -9,4 +9,4 @@ The methods are [described on a Galaxy Page](http://usegalaxy.org/u/dan/p/maf) a
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-07-28</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

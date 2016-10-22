@@ -120,7 +120,7 @@ There are [upcoming events](/src/Events/index.md) in four countries on three con
   </tr>
   <tr>
     <th> August 6-7 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-3/'>Workshop: Extended RNA-Seq analysis</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-3/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
     <td> <div class='right'><img src="/src/Images/Icons/Australia40.png" alt="" /></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#qfab-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
@@ -130,25 +130,25 @@ There are [upcoming events](/src/Events/index.md) in four countries on three con
   </tr>
   <tr>
     <th> September 7-9 </th>
-    <td> </em><a href='http://biosb.nl/education/course-portfolio/rna-seq/'>RNA-seq data analysis NGS Course</a><em> </td>
+    <td> <em><a href='http://biosb.nl/education/course-portfolio/rna-seq/'>RNA-seq data analysis NGS Course</a></em> </td>
     <td> <div class='right'><img src="/src/Images/Icons/Europe40.png" alt="" /></div> Leiden University Medical Center, The Netherlands </td>
     <td> <div class='right'> <a href='/src/Teach/Trainers/index.md#lumc-erasmusmc-dtl-learning-programme'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href="mailto:education@biosb.nl">BioSB Education</a> </td>
   </tr>
   <tr>
     <th> September 14-18 </th>
-    <td> </em><a href='http://training.bioinformatics.ucdavis.edu/2015/01/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-september-14-18-2015/'>Using Galaxy for Analysis of High Throughput Sequence Data</a><em> </td>
+    <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2015/01/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-september-14-18-2015/'>Using Galaxy for Analysis of High Throughput Sequence Data</a></em> </td>
     <td> <div class='right'><img src="/src/Images/Icons/NorthAmerica40.png" alt="" /></div> <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a>, Davis, California, United States </td>
     <td> <div class='right'><a href='http://bit.ly/gxytrnUCDavis'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href="mailto:bioinformatics.core@ucdavis.edu">UC Davis Bioinformatics</a> </td>
   </tr>
   <tr>
     <th> September 15 </th>
-    <td> </em><a href='https://hubzero.org/hubbub/speakers#yvan'>Towards accessible, reproducible, and transparent research in the life sciences: an innovative open source VRE approach in Western France</a><em> </td>
+    <td> <em><a href='https://hubzero.org/hubbub/speakers#yvan'>Towards accessible, reproducible, and transparent research in the life sciences: an innovative open source VRE approach in Western France</a></em> </td>
     <td> <div class='right'><img src="/src/Images/Icons/NorthAmerica40.png" alt="" /></div> <a href='https://hubzero.org/hubbub/2015'>HUBbub 2015</a>, Indianapolis, Indiana, United States </td>
     <td> <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
   </tr>
   <tr>
     <th> September 21-25 </th>
-    <td> </em><a href='http://workflow4metabolomics.org/training/W4Mcourse2015'>Traitement des données métabolomiques sous Galaxy</a><em> </td>
+    <td> <em><a href='http://workflow4metabolomics.org/training/W4Mcourse2015'>Traitement des données métabolomiques sous Galaxy</a></em> </td>
     <td> <div class='right'><img src="/src/Images/Icons/Europe40.png" alt="" /></div> Station Biologique de Roscoff, France </td>
     <td> <div class='right'><a href='http://bit.ly/gxytrnGUGGO'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href="mailto:w4mcourse2015.organisation@sb-roscoff.fr">W4M Course Organisers</a> </td>
   </tr>
@@ -158,7 +158,7 @@ There are [upcoming events](/src/Events/index.md) in four countries on three con
   </tr>
   <tr>
     <th> October<br />12-14 </th>
-    <td> </em><a href='https://cnrsformation.cnrs.fr/stage.php?stage=15274&axe=77'>Analyse avancée de séquences</a><em> </td>
+    <td> <em><a href='https://cnrsformation.cnrs.fr/stage.php?stage=15274&axe=77'>Analyse avancée de séquences</a></em> </td>
     <td> <div class='right'><img src="/src/Images/Icons/Europe40.png" alt="" /></div> <a href='http://www.cbib.u-bordeaux2.fr/content/bienvenue-au-centre-de-bioinformatique-de-bordeaux'>Bordeaux Bioinformatics Center</a>, University Bordeaux Segalen, France </td>
     <td> <a href="mailto:cfe.contact@cnrs.fr">Email</a> </td>
   </tr>
@@ -168,7 +168,7 @@ There are [upcoming events](/src/Events/index.md) in four countries on three con
   </tr>
   <tr>
     <th> November 17-18 </th>
-    <td> </em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'>Analyse de données RNA-seq sous l’environnement Galaxy</a><em> </td>
+    <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'>Analyse de données RNA-seq sous l’environnement Galaxy</a></em> </td>
     <td> <div class='right'><img src="/src/Images/Icons/Europe40.png" alt="" /></div> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy--prabi-project'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
   </tr>
@@ -178,7 +178,7 @@ There are [upcoming events](/src/Events/index.md) in four countries on three con
   </tr>
   <tr>
     <th> December<br />7-11 </th>
-    <td> </em><a href='http://bis15.amsi.org.au/galaxy/'>Galaxy and the Genomics Virtual Lab</a><em> </td>
+    <td> <em><a href='http://bis15.amsi.org.au/galaxy/'>Galaxy and the Genomics Virtual Lab</a></em> </td>
     <td> <div class='right'><img src="/src/Images/Icons/Australia40.png" alt="" /></div> <a href='http://bis15.amsi.org.au/'>BioInfoSummer 2015</a>, University of Sydney, NSW, Australia </td>
     <td> </td>
   </tr>
@@ -400,9 +400,9 @@ Galaxy now has a formal and open policy for managing the project source code - i
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </strong> </td>
   </tr>
 </table>
 
@@ -443,22 +443,22 @@ You may have noticed in the past two months that an [updated Galaxy logo](/src/I
 
 ## BioBlend 0.6.0 and 0.6.1
 
-[BioBlend versions 0.6.0 and 0.6.1](https://github.com/galaxyproject/bioblend/blob) were released in June and July. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md)(CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
+[BioBlend versions 0.6.0 and 0.6.1](https://github.com/galaxyproject/bioblend/blob) were released in June and July. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md)([CloudMan](/src/CloudMan/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
 
-* !BioBlend.objects: Rename `ObjDatasetClient` abstract class to `ObjDatasetContainerClient`.
-* !BioBlend.objects: Add `ABCMeta` metaclass and `list()` method to `ObjClient`.
-* !BioBlend.objects: Add `io_details` and `link_details parameters` to `ObjToolClient.get()` method.
+* BioBlend.objects: Rename `ObjDatasetClient` abstract class to `ObjDatasetContainerClient`.
+* BioBlend.objects: Add `ABCMeta` metaclass and `list()` method to `ObjClient`.
+* BioBlend.objects: Add `io_details` and `link_details parameters` to `ObjToolClient.get()` method.
 * Open port 8800 when launching cloud instances for use by NodeJS proxy for Galaxy IPython Interactive Environments.
 * When launching cloud instances, propagate error messages back to the caller. The return types for methods `create_cm_security_group`, `create_key_pair` in `CloudManLauncher` class have changed as a result of this.
 * Add support for Python >= 3.3.
 * Add `get_library_permissions()` method to `LibraryClient`.
 * Add `update_group(), get_group_users(), get_group_roles(), add_group_user(), add_group_role(), delete_group_user()` and `delete_group_role()` methods to `GroupsClient`.
 * Add `full_details parameter` to `JobsClient.show_job()` (thanks to Rossano Atzeni).
-* !BioBlend.objects: add `ObjJobClient` and `Job` wrapper (thanks to Rossano Atzeni).
-* !BioBlend.objects: add check to verify that all tools in a workflow are installed on the Galaxy instance (thanks to Gianmauro Cuccuru).
+* BioBlend.objects: add `ObjJobClient` and `Job` wrapper (thanks to Rossano Atzeni).
+* BioBlend.objects: add check to verify that all tools in a workflow are installed on the Galaxy instance (thanks to Gianmauro Cuccuru).
 * Remove several deprecated parameters: see commits [19e168f](https://github.com/galaxyproject/bioblend/commit/19e168f5342f4c791d37694d7039a85f2669df71) and [442ae98](https://github.com/galaxyproject/bioblend/commit/442ae98037be7455d57be15542553dc848d99431).
 * Verify SSL certificates by default.
-* Add documentation about the Tool Sed and properly link all the docs on !ReadTheDocs.
+* Add documentation about the Tool Sed and properly link all the docs on ReadTheDocs.
 * Solidify automated testing by using [tox](https://tox.readthedocs.org/) and [flake8](https://gitlab.com/pycqa/flake8).
 
 ## Planemo 0.13.0 through 0.13.2
@@ -471,7 +471,7 @@ Planemo saw [one major and several minor](https://pypi.python.org/pypi/planemo/0
 * Fix tool linting for parameters that define an `argument` but not a `name`. [Issue 245](https://github.com/galaxyproject/planemo/issues/245), [aad1eed](https://github.com/galaxyproject/planemo/commit/aad1eed)
 * Many doc updates including a tutorial for developing tools in a test-driven fashion and instructions for using the planemo appliance through Kitematic (with Kitematic screenshots from Eric Rasche).
 * If planemo cannot find a Galaxy root, it will now automatically fetch one (specifying `--galaxy_install` will still force a fetch). [Pull Request 235](https://github.com/galaxyproject/planemo/pull/235)
-* [Documentation](http://planemo.readthedocs.org/en/latest/appliance.html) has been updated to reflect new and vastly improved Docker and Vagrant virtual appliances are now available, as well as a new !VirtualBox OVA variant.
+* [Documentation](http://planemo.readthedocs.org/en/latest/appliance.html) has been updated to reflect new and vastly improved Docker and Vagrant virtual appliances are now available, as well as a new VirtualBox OVA variant.
 * Update linting for new tool XML features (including `detect_errors` and output collections). [Issue 233](https://github.com/galaxyproject/planemo/issues/233), [334f2d4](https://github.com/galaxyproject/planemo/commit/334f2d4)
 * Fix `shed_test` help text. [Issue 223](https://github.com/galaxyproject/planemo/issues/223)
 * Fix code typo (thanks to Nicola Soranzo). [Pull Request 230](https://github.com/galaxyproject/planemo/pull/230)
@@ -492,11 +492,11 @@ Planemo is a set of command-line utilities to assist in building tools for the G
  **Pulsar**
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
  
- **CloudMan **
+ **[CloudMan](/src/CloudMan/index.md) **
    The [most recent edition of CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release) was released in August.
 
  **blend4j v0.1.2**
-   [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and !BioCloudCentral.
+   [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and BioCloudCentral.
 
 
 ----

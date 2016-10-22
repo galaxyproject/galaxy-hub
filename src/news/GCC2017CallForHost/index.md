@@ -47,4 +47,4 @@ Hoping to work with you in 2017!
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-09-14</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

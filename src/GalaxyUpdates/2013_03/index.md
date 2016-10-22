@@ -148,7 +148,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th> March 2-5 </th>
     <td> <em>Accessible, Transparent and Reproducible Analysis With Galaxy</em>, part of <div class='indent'><a href='http://conf.abrf.org/index.cfm/page/satellite_workshops/SW1.htm'>SW1: Application of NGS Platforms for Whole Transcriptome and Genome Analysis</a></div> <em>Galaxy for Core Facilities</em>, part of <div class='indent'>"<a href='http://conf.abrf.org/index.cfm/page/2013ConfProg/Genomics_Track.htm'>W6: Community Resource Solutions to Analyzing Large Genomic Data Sets</a>"</div> </td>
-    <td> </strong><a href='http://conf.abrf.org/'>ABRF 2013</a><strong><br />Palm Springs, California, United States </td>
+    <td> <strong><a href='http://conf.abrf.org/'>ABRF 2013</a></strong><br />Palm Springs, California, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
@@ -207,7 +207,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> </strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
+    <td> <strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href='/src/Events/GCC2013/Organizers/index.md'>Organizers</a> </td>
   </tr>
@@ -250,7 +250,7 @@ $ hg update release_2013.02.08
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 * viralcloud: Viral Cloud Resource (VCR) includes viral assembly & VIGOR
-* cummeRbund: !CuffDiff output analysis
+* cummeRbund: CuffDiff output analysis
 * fastq_sync: Check or repair synchronization of a pair of fastq datasets
 * velvet_optimiser: Updated version of velvet optimiser wrapper with all features
 * tophat_stats_pe: Calculate mapping statistics from Tophat BAM files

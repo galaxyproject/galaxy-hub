@@ -30,10 +30,10 @@ If you have anything to include in the next News, please send it to [mailto:outr
     by Christian X. Weichenberger, Hagen Blankenburg, Antonia Palermo, *et al.* *BMC Genomics*, Vol. 16, No. 1. (21 December 2015), doi:10.1186/s12864-015-2279-5
 
 * [Globus Nexus: A Platform-as-a-Service provider of research identity, profile, and group management](http://bit.ly/1PesQHO)
-    by Kyle Chard, Mattias Lidman, Brendan !McCollam, *et al.* *Future Generation Computer Systems*, Vol. 56 (March 2016), pp. 571-583, doi:10.1016/j.future.2015.09.006
+    by Kyle Chard, Mattias Lidman, Brendan McCollam, *et al.* *Future Generation Computer Systems*, Vol. 56 (March 2016), pp. 571-583, doi:10.1016/j.future.2015.09.006
 
 * [Enhanced reproducibility of SADI web service workflows with Galaxy and Docker](http://dx.doi.org/10.1186/s13742-015-0092-3)
-    by Mikel Egaña E. Aranguren, Mark D. Wilkinson *!GigaScience*, Vol. 4, No. 1. (3 December 2015), doi:10.1186/s13742-015-0092-3
+    by Mikel Egaña E. Aranguren, Mark D. Wilkinson *GigaScience*, Vol. 4, No. 1. (3 December 2015), doi:10.1186/s13742-015-0092-3
 
 * [FuMa: reporting overlap in RNA-seq detected fusion genes](http://bit.ly/1Qyy6qT)
     by Youri Hoogstrate, René Böttcher, Saskia Hiltemann, Peter van der Spek, Guido Jenster, Andrew P. Stubbs, *Bioinformatics* (10 December 2015), btv721, doi:10.1093/bioinformatics/btv721
@@ -160,31 +160,31 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   </tr>
   <tr>
     <th> January 8 </th>
-    <td> </em><a href='/src/Events/ASU2016/index.md'>Introduction to Galaxy Workshop</a><em> </td>
+    <td> <em><a href='/src/Events/ASU2016/index.md'>Introduction to Galaxy Workshop</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://asu.edu/'>Arizona State University</a>, Tempe, Arizona, United States </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='https://sols.asu.edu/people/nico-franz'>Nico Franz</a>, <a href='https://sols.asu.edu/people/melissa-wilson-sayres'>Melissa A. Wilson Sayres</a>, <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> January 8, 15 </th>
-    <td> </em><a href='http://www.vib.be/en/training/research-training/courses/Pages/Introduction-to-NGS-data-analysis.aspx'>Introduction to NGS data analysis</a><em> </td>
+    <td> <em><a href='http://www.vib.be/en/training/research-training/courses/Pages/Introduction-to-NGS-data-analysis.aspx'>Introduction to NGS data analysis</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='http://www.vib.be/'>VIB</a>, Leuven, Belgium </td>
     <td> <a href='http://www.vib.be/whoiswho/Pages/Janick-Mathys.aspx?lang=en'>Janick Mathys</a> </td>
   </tr>
   <tr>
     <th> January 9-13 </th>
-    <td> </strong><a href='/src/Events/PAG2016/index.md'>Plant and Animal Genome (PAG XXIV)</a><strong> </td>
+    <td> <strong><a href='/src/Events/PAG2016/index.md'>Plant and Animal Genome (PAG XXIV)</a></strong> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) San Diego, California, United States </td>
     <td> See <a href='/src/Events/PAG2016/index.md'>presenters</a> </td>
   </tr>
   <tr>
     <th> January 19 </th>
-    <td> </em><a href='http://www.festivalofgenomicslondon.com/an-introduction-to-clinical-bioinformatics/'>An introduction to clinical bioinformatics</a><em> </td>
+    <td> <em><a href='http://www.festivalofgenomicslondon.com/an-introduction-to-clinical-bioinformatics/'>An introduction to clinical bioinformatics</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='http://www.festivalofgenomicslondon.com/'>Festival of Genomics London</a>, London, United Kingdom </td>
     <td> <a href='http://www.festivalofgenomicslondon.com/speaker/ang-davies/'>Ang Davies</a> </td>
   </tr>
   <tr>
     <th> January 19 </th>
-    <td> </em><a href='http://www.drylab.nl/teaching-and-trainings/trait-vumc-course-on-galaxy/'>NGS Data Analysis in Galaxy (CTMM-TraIT course)</a><em> </td>
+    <td> <em><a href='http://www.drylab.nl/teaching-and-trainings/trait-vumc-course-on-galaxy/'>NGS Data Analysis in Galaxy (CTMM-TraIT course)</a></em> </td>
     <td> VU University Medical Center Amsterdam, The Netherlands </td>
     <td> <a href='https://scholar.google.com/citations?user=BJ7bjCEAAAAJ&hl=en'>Christian Rausch</a>, Youri Hoogstrate, <a href='https://www.linkedin.com/in/ritaazevedo'>Rita Azevedo</a> </td>
   </tr>
@@ -194,19 +194,19 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   </tr>
   <tr>
     <th> February 11 </th>
-    <td> </em><a href='http://bioteam.net/bioteam-appliance/galaxy-edition/'>BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)</a><em> </td>
+    <td> <em><a href='http://bioteam.net/bioteam-appliance/galaxy-edition/'>BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://www.agbt.org/meetings/agbt-general-meeting/'>AGBT</a>, Orlando, Florida, United States </td>
     <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a></td>
   </tr>
   <tr>
     <th> February 15-19 </th>
-    <td> </em><a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a><em> </td>
+    <td> <em><a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='https://www.supagro.fr/web/index.php'>Montpellier SupAgro</a>, Montpellier, France </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='https://www.supagro.fr/web/pages/contact.php?id=139'>Yolande Olivier</a>, <a href='https://www.supagro.fr/web/pages/contact.php?id=102'>Dominique Alhinc</a> </td>
   </tr>
   <tr>
     <th> February 20-23 </th>
-    <td> </em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a><em> </td>
+    <td> <em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md)  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
   </tr>
@@ -216,8 +216,8 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   </tr>
   <tr>
     <th> March 7-8 </th>
-    <td> </strong><a href='https://github.com/galaxyproject/tools-iuc/issues/422'>IUC Contribution Fest - RADSeq Tools and Workflows</a><strong> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/World/index.md) </em>Online<em> </td>
+    <td> <strong><a href='https://github.com/galaxyproject/tools-iuc/issues/422'>IUC Contribution Fest - RADSeq Tools and Workflows</a></strong> </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/World/index.md) <em>Online</em> </td>
     <td> <a href='IUC'>/src/IUC/index.md</a> </td>
   </tr>
   <tr>
@@ -226,7 +226,7 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   </tr>
   <tr>
     <th> June 25-29 </th>
-    <td> </strong></em><a href='/src/Events/GCC2016/index.md'>2016 Galaxy Community Conference (GCC2016)</a><strong><em> </td>
+    <td> <strong><em><a href='/src/Events/GCC2016/index.md'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md)  <a href='/src/Events/GCC2016/Organizers/index.md'>Organizers</a> </td>
   </tr>
@@ -349,14 +349,14 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 galaxy-lib is a subset of the Galaxy core code base designed to be used as a library. This subset has minimal dependencies and should be Python 3 compatible.  It's available from [GitHub](https://github.com/galaxyproject/galaxy-lib) and [PyPi](https://pypi.python.org/pypi/galaxy-lib).
 
-It is also quite popular and has been downloaded from !PyPi almost 4000 times since it was created on December 20.
+It is also quite popular and has been downloaded from PyPi almost 4000 times since it was created on December 20.
 
 
 <div class='right'><a href='/src/CloudMan/index.md'><img src="/src/Images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
 
 ## CloudMan 15.12
 
-CloudMan is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser. 
+[CloudMan](/src/CloudMan/index.md) is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser. 
 
 This minor [CloudMan 15.12 release](https://github.com/galaxyproject/cloudman/releases) includes:
 
@@ -396,13 +396,13 @@ The 0.6.x release includes these changes:
    [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  [Planemo 0.21.1](https://pypi.python.org/pypi/planemo/0.21.1#history) is the most recent release. See the [release history](http://planemo.readthedocs.org/en/latest/history.html#id2).
 
 
- **!BioBlend 0.7.0**
+ **BioBlend 0.7.0**
 
-   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
  **blend4j v0.1.2**
-   [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and !BioCloudCentral.
+   [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and BioCloudCentral.
 
 
 ----
@@ -417,9 +417,9 @@ The 0.6.x release includes these changes:
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </strong> </td>
   </tr>
 </table>
 

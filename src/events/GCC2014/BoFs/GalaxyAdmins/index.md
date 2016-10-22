@@ -1,5 +1,5 @@
 ---
-title: GalaxyAdmins BoF
+title: [GalaxyAdmins](/src/GalaxyAdmins/index.md) BoF
 ---
 PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
@@ -19,7 +19,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
 <div class='left'><a href='/src/Events/GCC2014/BoFs/index.md'><img src="/src/Images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a><br /><br />
 <a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="100" /></a></div></div>
 
-This page describes the **GalaxyAdmins** [Birds of a Feather](/src/Events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
+This page describes the **[GalaxyAdmins](/src/GalaxyAdmins/index.md)** [Birds of a Feather](/src/Events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
 
 # Description
 
@@ -226,4 +226,4 @@ Summary:
 * Core Team: Implement support to make authentication easier and to support more diverse, and multiple, parallel authentication methods.
 * BoF participants will contribute to or create Trello cards for issues raised during this BoF that they care about.
 
-CategoryBoF
+[CategoryBo](/src/CategoryBo/index.md)F

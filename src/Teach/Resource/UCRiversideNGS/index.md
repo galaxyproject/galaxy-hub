@@ -29,7 +29,7 @@ Makes use of several "standard" tools.  The variant calling example uses
 
 The RNA-Seq example uses
 
-* !TopHat, !CuffDiff
+* TopHat, CuffDiff
 
 The slides end with a demo of IGV.
 
@@ -46,4 +46,4 @@ Datasets are linked to from the examples.  Datasets are large enough that you ma
     * [exercises](http://biocluster.ucr.edu/~nkatiyar/Galaxy_workshop/Exercises/Galaxy_workshop_exercises_2013.pdf)
     * [manual](http://manuals.bioinformatics.ucr.edu/home/gui-ngs-analysis)
 
-CategoryTrainingResource
+[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)

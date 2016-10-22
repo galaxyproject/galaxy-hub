@@ -72,7 +72,7 @@ This image will have a configured and running Galaxy instance.
 <div class='right'><div class='solid'>
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> </strong>Screenshots<strong> </td>
+    <td style=" text-align: center; border: none;"> <strong>Screenshots</strong> </td>
   </tr>
 </table>
 
@@ -108,9 +108,9 @@ This section will include directions on how to start up, access, and use these v
 ## 1. Import the VM into VirtualBox
 
 1. First, make a backup copy of the downloaded `.ova` file(s).  If something goes wrong you can always make a new copy.
-2. Import the VM image into !VirtualBox by either starting the downloaded `.ova` file directly, or by launching !VirtualBox and navigating to **File &rarr; Import Appliance** and opening the file.
+2. Import the VM image into VirtualBox by either starting the downloaded `.ova` file directly, or by launching VirtualBox and navigating to **File &rarr; Import Appliance** and opening the file.
 3. This will display the **Appliance Import Settings** window.  *Click* the **Import** button.
-4. It may then take several minutes for !VirtualBox to import the VM.  Once it is done, a new VM will appear in the left pane in the 'powered off' state.
+4. It may then take several minutes for VirtualBox to import the VM.  Once it is done, a new VM will appear in the left pane in the 'powered off' state.
 
 The VM is now installed.
 
@@ -139,7 +139,7 @@ We need to enable port forwarding so that the the host (your laptop's native ope
 
 The IP address can used to access the VM from tools on the host (your laptop)
 
-1. *Double-click* on the new VM in the left panel of !VirtualBox.  This starts the VM and displays two informational messages about regaining control of your keyboard and mouse from the VM.  *Click* **OK** for both.
+1. *Double-click* on the new VM in the left panel of VirtualBox.  This starts the VM and displays two informational messages about regaining control of your keyboard and mouse from the VM.  *Click* **OK** for both.
 2. A screen showing the defined users on this machine is shown.  *Click* on the **trainingday** user and then *enter* the password listed below.
 3. This will log you in and show the XFCE desktop.
 4. Click on the terminal icon at the bottom center of the GUI.

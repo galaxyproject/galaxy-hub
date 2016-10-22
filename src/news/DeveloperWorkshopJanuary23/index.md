@@ -17,4 +17,4 @@ This workshop also includes contributed talks from participants.  If you have a 
 [Dave Clements](/src/DaveClements/index.md)
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-11-11</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

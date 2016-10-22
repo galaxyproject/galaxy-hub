@@ -198,7 +198,7 @@ Galaxy has a number of display applications allowing visualization of various da
 [Galaxy RNA-seq workshop slides](https://speakerdeck.com/nekrut/structure-workshop)<br />
 [Galaxy history containing the entire analysis](https://test.galaxyproject.org/u/anton/h/rna-seq-tophatcufflinks)
 
-<div class='right'><div class='center'><span style="font-size: smaller;">TopHat/Cufflinks workflow by Trapnell et al.</span></div><div class='center'><img src="/src/Images/Images/NGS101/rnaSeqWorkFlow.png" alt="CuffLinks workflow" height="450" /></div></div>
+<div class='right'><div class='center'><span style="font-size: smaller;">[TopHat](/src/TopHat/index.md)/Cufflinks workflow by Trapnell et al.</span></div><div class='center'><img src="/src/Images/Images/NGS101/rnaSeqWorkFlow.png" alt="CuffLinks workflow" height="450" /></div></div>
 
 There is a number of established strategies for performing RNA-seq analyses when the reference genome of an organism in question is available (for a recent comprehensive comparison see [an assement of spliced aligners](http://www.nature.com/nmeth/journal/v10/n12/full/nmeth.2722.html) and [an evaluation of transcript reconstruction methods](http://www.nature.com/nmeth/journal/v10/n12/full/nmeth.2714.html)).
 
@@ -221,7 +221,7 @@ The public Galaxy instance at http://usegalaxy.org has been successfully employi
 
 In this tutorial we are repeating the steps of a typical RNA-seq analysis described by Trapnell et al. ([2012](http://www.nature.com/nprot/journal/v7/n3/full/nprot.2012.016.html)) with one little exception: we have created a set of smaller input files to make this tutorial faster. These data can be accessed [here](https://usegalaxy.org/u/aun1/h/rna-seq-tutorial-data) as a Galaxy history. Simply click **import history** and use it as a starting point of your analysis. 
 
-This analysis begins by uploading an annotation file from the [UCSC Table Browser](https://genome.ucsc.edu/cgi-bin/hgTables) and using it as a set of reference gene annotations. The data corresponds to two experimental conditions - Condition 1 and Condition 2 - each containing three replicates. In turn each replicate was sequenced as a mate-pair library and so has two associated datasets: forward and reverse. Thus (2 conditions) x (3 replicates) x (forward and reverse reads) = 2 x 3 x 2 = 12 datasets. We begin by using new Galaxy functionality - dataset collections - to bundle datasets into two collections: one corresponding to condition 1 and the other to condition 2. We then map the reads in each collection against **dm3** version of *Drosophila melanogaster* genome using !TopHat2. This generates (among other outputs) BAM outputs containing mapped reads.
+This analysis begins by uploading an annotation file from the [UCSC Table Browser](https://genome.ucsc.edu/cgi-bin/hgTables) and using it as a set of reference gene annotations. The data corresponds to two experimental conditions - Condition 1 and Condition 2 - each containing three replicates. In turn each replicate was sequenced as a mate-pair library and so has two associated datasets: forward and reverse. Thus (2 conditions) x (3 replicates) x (forward and reverse reads) = 2 x 3 x 2 = 12 datasets. We begin by using new Galaxy functionality - dataset collections - to bundle datasets into two collections: one corresponding to condition 1 and the other to condition 2. We then map the reads in each collection against **dm3** version of *Drosophila melanogaster* genome using TopHat2. This generates (among other outputs) BAM outputs containing mapped reads.
 
 ### Reconstructing transcripts
 
@@ -229,13 +229,13 @@ This analysis begins by uploading an annotation file from the [UCSC Table Browse
 
 <div class='right'><div class='center'><span style="font-size: smaller;">Expression levels for five transcripts of<br />a gene in conditions 1 (blue) and 2 (brown)</span></div><div class='center'><img src="/src/Images/Images/NGS101/cuffdiffPlot.png" alt="CuffDiff plot" height="200" /></div></div>
 
-Reads mapped by !TopHat are then used as input to !CuffLinks - a tool that performs transcript reconstruction and quantification. This is done individually for every replicate (although because our data is bundled in collections this is a painless exercise). Once transcript reconstruction is finished we combine transcript model from all replicates and conditions into a single transcriptome using !CuffMerge. Finally, we perform differential expression analysis with !CuffDiff using the combined transcriptome and read mapping data. 
+Reads mapped by TopHat are then used as input to CuffLinks - a tool that performs transcript reconstruction and quantification. This is done individually for every replicate (although because our data is bundled in collections this is a painless exercise). Once transcript reconstruction is finished we combine transcript model from all replicates and conditions into a single transcriptome using CuffMerge. Finally, we perform differential expression analysis with CuffDiff using the combined transcriptome and read mapping data. 
 
 ### Finding differentially expressed transcripts
 
 [Video NGS101-16 = Processing CuffDiff output with Cummerbund](https://vimeo.com/channels/884356/128265982)<br />
 
-Galaxy version of !CuffDiff used in the previous step produces a database. Using *Extract !CuffDiff data* and *Filter* tools we retrieve a list of differentially expressed genes and visualize expression level for transcripts of one such gene using !CummerBund.
+Galaxy version of CuffDiff used in the previous step produces a database. Using *Extract CuffDiff data* and *Filter* tools we retrieve a list of differentially expressed genes and visualize expression level for transcripts of one such gene using CummerBund.
 
 ### HISAT and StringTie
 
@@ -252,4 +252,4 @@ The mapping and transcript reconstruction steps of the reference-based RNA-seq a
 * Visualization of NGS data
 
 ----
-CategoryTrainingResource CategoryTrainingResource
+[CategoryTrainingResource](/src/CategoryTrainingResource/index.md) CategoryTrainingResource

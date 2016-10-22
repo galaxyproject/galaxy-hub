@@ -23,4 +23,4 @@ Many thanks,
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-01-07</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

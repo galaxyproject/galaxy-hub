@@ -8,7 +8,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
 
 There is no better place than a Galaxy Community Conference to meet and learn from others doing data-intensive biology.  [GCC2015](http://gcc2015.tsl.ac.uk/) will continue this tradition by again including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing))* meetups.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
 
-BoF meetups are encouraged throughout GCC2015.  We particularly want to encourage !BoFs that flock at the end of each day, when time and space have been allocated for them.
+BoF meetups are encouraged throughout GCC2015.  We particularly want to encourage BoFs that flock at the end of each day, when time and space have been allocated for them.
 <br />
 
 ## GCC2015 BoFs
@@ -45,8 +45,8 @@ With this method there will be some delay in creating the BoF page, and less con
 The BoF will be added to the wiki immediately. This requires a wiki account. 
 
 1. [Login](/src/Events/GCC2015/BoFs/index.md) to the wiki. If you don't have an account, you'll need to [create one](/src/Events/GCC2015/BoFs/index.md).
-1. Pick a good descriptive, !CamelCase name for your BoF's wiki page.  This will become part of the URL for the page describing your BoF.  Avoid embedded spaces as they make lousy URLs.
-1. **Enter the !CamelCase name** in box below and hit the "Create" button.
+1. Pick a good descriptive, CamelCase name for your BoF's wiki page.  This will become part of the URL for the page describing your BoF.  Avoid embedded spaces as they make lousy URLs.
+1. **Enter the CamelCase name** in box below and hit the "Create" button.
     . PLACEHOLDER_NEW_PAGE(Events/GCC2015/BoF/BoFTemplate, "Create a Birds of a Feather wiki page", Events/GCC2015/BoFs)
 1. A template for the new page will appear.  Replace the template text with a description of the new BoF.
 1. Save, review, and edit the page until you are happy with it.
@@ -54,11 +54,11 @@ The BoF will be added to the wiki immediately. This requires a wiki account.
 
 ## BoF Support
 
-The conference *enables and encourages* !BoFs by
+The conference *enables and encourages* BoFs by
 
-* Encouraging conference participants to organize !BoFs
-* Use this wiki page as a hub for !BoFs at [GCC2015](http://gcc2015.tsl.ac.uk/).
-* Promote !BoFs to all conference participants, over and over, both before and during the conference.
-* Coordinate and reserve rooms for !BoFs, and allocate time in the schedule for them too.
+* Encouraging conference participants to organize BoFs
+* Use this wiki page as a hub for BoFs at [GCC2015](http://gcc2015.tsl.ac.uk/).
+* Promote BoFs to all conference participants, over and over, both before and during the conference.
+* Coordinate and reserve rooms for BoFs, and allocate time in the schedule for them too.
 
 PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Footer/index.md)

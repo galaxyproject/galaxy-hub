@@ -57,7 +57,7 @@ Workshop registration is free, but space at each venue is limited.  You are enco
 
 This paper may be of interest to the Galaxy community:
 
- [Targeted parallel sequencing of large genetically-defined genomic regions for identifying mutations in Arabidopsis](http://www.plantmethods.com/content/8/1/12/abstract), by Kun H. Liu, Matthew !McCormack, Jen Sheen, *Plant Methods* 2012, 8:12
+ [Targeted parallel sequencing of large genetically-defined genomic regions for identifying mutations in Arabidopsis](http://www.plantmethods.com/content/8/1/12/abstract), by Kun H. Liu, Matthew McCormack, Jen Sheen, *Plant Methods* 2012, 8:12
 
 <table>
   <tr>
@@ -110,7 +110,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 <div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
 
-There are May application deadlines for the Informatics on High Throughput Sequencing Data Workshop, and abstract and poster deadlines for !SciPy and !EuroSciPy (May 1!), SocBiN Bioinformatics 2012, and InCoB.
+There are May application deadlines for the Informatics on High Throughput Sequencing Data Workshop, and abstract and poster deadlines for SciPy and EuroSciPy (May 1!), SocBiN Bioinformatics 2012, and InCoB.
 
 See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com) for details on these and other events.
 
@@ -125,57 +125,57 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
   </tr>
   <tr>
     <th rowspan=3> May 8-12 </th>
-    <td> </strong>Staying on top of evolving best practices with Galaxy<strong>, Poster </td>
-    <td rowspan=3> </strong><a href='http://meetings.cshl.edu/meetings/genome12.shtml'>The Biology of Genomes</a><strong>, Cold Spring Harbor Laboratory, New York, United States </td>
+    <td> <strong>Staying on top of evolving best practices with Galaxy</strong>, Poster </td>
+    <td rowspan=3> <strong><a href='http://meetings.cshl.edu/meetings/genome12.shtml'>The Biology of Genomes</a></strong>, Cold Spring Harbor Laboratory, New York, United States </td>
     <td> <a href='/src/Dan/index.md'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
-    <td> </strong><a href='http://gmod.org/wiki/|GMOD'>http://gmod.org/wiki/|GMOD</a> in the Cloud<strong>, Poster </td>
+    <td> <strong><a href='http://gmod.org/wiki/|GMOD'>http://gmod.org/wiki/|GMOD</a> in the Cloud</strong>, Poster </td>
     <td> <a href='http://gmod.org/wiki/User:Scott'>Scott Cain</a> </td>
   </tr>
   <tr>
-    <td> </strong>Integrative venomics reveals different infection strategies for parasitic wasps<strong>, poster </td>
+    <td> <strong>Integrative venomics reveals different infection strategies for parasitic wasps</strong>, poster </td>
     <td> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> May 28 - June 1 </th>
-    <td> </strong><a href='/src/Events/GalaxyTourDeFrance2012/index.md'>Galaxy Tour de France 2012</a><strong> </td>
+    <td> <strong><a href='/src/Events/GalaxyTourDeFrance2012/index.md'>Galaxy Tour de France 2012</a></strong> </td>
     <td> <a href='/src/Events/GalaxyTourDeFrance2012/index.md#itinerary'>Perpignan</a>, <a href='/src/Events/GalaxyTourDeFrance2012/index.md#itinerary'>Lyon</a>, <a href='/src/Events/GalaxyTourDeFrance2012/index.md#itinerary'>Paris</a> </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Outreach</a> </td>
   </tr>
   <tr>
     <th> June 6-8 </th>
-    <td> </strong><a href='http://www.bio-itworldasia.com/cla'>Dynamically Scalable, Accessible Analysis with Galaxy Cloud</a><strong> </td>
-    <td> </strong><a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a><strong>, Singapore </td>
+    <td> <strong><a href='http://www.bio-itworldasia.com/cla'>Dynamically Scalable, Accessible Analysis with Galaxy Cloud</a></strong> </td>
+    <td> <strong><a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a></strong>, Singapore </td>
     <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> June 11-12 </th>
-    <td> </strong><a href='http://www.bioinformatics.ca/workshops/high_throughput'>Informatics on High Throughput Sequencing Data Workshop</a><strong> </td>
+    <td> <strong><a href='http://www.bioinformatics.ca/workshops/high_throughput'>Informatics on High Throughput Sequencing Data Workshop</a></strong> </td>
     <td> Toronto, Ontario, Canada </td>
     <td> Francis Ouellette </td>
   </tr>
   <tr>
     <th> June 11-19 </th>
-    <td> </strong><a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'>Next-gen Sequencing in Evolutionary Biology Course</a><strong> </td>
+    <td> <strong><a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'>Next-gen Sequencing in Evolutionary Biology Course</a></strong> </td>
     <td> <a href='http://nescent.org'>US National Evolutionary Synthesis Center (NESCent)</a>, Durham, North Carolina, United States </td>
     <td> <a href='http://www.datam0nk3y.org/hyphywiki/index.php/Sergei_L_Kosakovsky_Pond'>Sergei Kosakovsky Pond</a> </td>
   </tr>
   <tr>
     <th> July 11 </th>
-    <td> </strong><a href='http://www.nowgen.org.uk/facilities/events/event.php?id=44'>Reproducible workflows for next generation sequencing analysis</a><strong> </td>
+    <td> <strong><a href='http://www.nowgen.org.uk/facilities/events/event.php?id=44'>Reproducible workflows for next generation sequencing analysis</a></strong> </td>
     <td> <a href='http://www.nowgen.org.uk/'>Nowgen</a>, <a href='http://www.manchester.ac.uk/'>University of Manchester</a>, United Kingdom </td>
     <td> <a href="mailto:training@nowgen.org.uk">Tom Hancocks</a> </td>
   </tr>
   <tr>
     <th> July 13-17 </th>
-    <td> </strong><a href='http://www.iscb.org/ismb2012-program/ismb2012-satellitemeetings#BSI'>Bioinformatics Software Interoperability SIG (BSI-SIG)</a><strong> </td>
-    <td> </strong><a href='http://www.iscb.org/ismb2012'>ISMB 2012</a><strong>, Long Beach, California, United States </td>
+    <td> <strong><a href='http://www.iscb.org/ismb2012-program/ismb2012-satellitemeetings#BSI'>Bioinformatics Software Interoperability SIG (BSI-SIG)</a></strong> </td>
+    <td> <strong><a href='http://www.iscb.org/ismb2012'>ISMB 2012</a></strong>, Long Beach, California, United States </td>
     <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> </strong><a href='/src/Events/GCC2012/index.md'>2012 Galaxy Community Conference</a><strong><br /><a href='/src/Events/GCC2012/Register/index.md'>Early registration</a> is now open. </td>
+    <td> <strong><a href='/src/Events/GCC2012/index.md'>2012 Galaxy Community Conference</a></strong><br /><a href='/src/Events/GCC2012/Register/index.md'>Early registration</a> is now open. </td>
     <td> Chicago, Illinois, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>

@@ -13,4 +13,4 @@ Go to [the OHSU jobs site](https://goo.gl/M9F3O3) and search for **IRC50157**
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-11-10</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

@@ -65,4 +65,4 @@ The [entire course is available online](http://training.bioinformatics.ucdavis.e
 
 * [Short course home page](http://training.bioinformatics.ucdavis.edu/docs/2013/09/short-course-2013/)
 
-CategoryTrainingResource
+[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)

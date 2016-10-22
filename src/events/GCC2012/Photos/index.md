@@ -11,7 +11,7 @@ If you have some you would like to have posted here, please send them to outreac
 
 <div class='center'>
 <div class='left'><img src="/src/Events/GCC2012/Photos/IntroWorkshop.jpg" alt="" width="300" /><br />Introduction to Galaxy Workshop</div>
-<div class='left'><img src="/src/Events/GCC2012/Photos/CloudManWorkshop.jpg" alt="" width="300" /><br />CloudMan Workshop</div>
+<div class='left'><img src="/src/Events/GCC2012/Photos/CloudManWorkshop.jpg" alt="" width="300" /><br />[CloudMan](/src/CloudMan/index.md) Workshop</div>
 <div class='left'><img src="/src/Events/GCC2012/Photos/UICForumHall.jpg" alt="" width="300" /><br />UIC Forum </div>
 <div class='left'><img src="/src/Events/GCC2012/Photos/ArchitectureWorkshop.jpg" alt="" width="300" /><br /> Galaxy Code Architecture Workshop</div>
 <div class='left'><img src="/src/Events/GCC2012/Photos/ToolShedWorkshop.jpg" alt="" width="300" /><br /> Tool Shed Workshop </div>
@@ -41,7 +41,7 @@ If you have some you would like to have posted here, please send them to outreac
 <div class='left'><img src="/src/Events/GCC2012/Photos/VipinSreedharan.jpg" alt="" width="300" /><br /> Vipin Sreedharan </div>
 <div class='left'><img src="/src/Events/GCC2012/Photos/IraCooke.jpg" alt="" width="300" /><br /> Ira Cooke </div>
 <div class='left'><img src="/src/Events/GCC2012/Photos/JayIreland.jpg" alt="" width="300" /><br /> Jay Ireland </div>
-<div class='left'><img src="/src/Events/GCC2012/Photos/RichLeDuc.jpg" alt="" width="300" /><br /> Rich !LeDuc </div>
+<div class='left'><img src="/src/Events/GCC2012/Photos/RichLeDuc.jpg" alt="" width="300" /><br /> Rich LeDuc </div>
 <div class='left'><img src="/src/Events/GCC2012/Photos/GeirKjetilSandve.jpg" alt="" width="300" /><br /> Geir Kjetil Sandve </div>
 <div class='left'><img src="/src/Events/GCC2012/Photos/LetUsKnow.jpg" alt="" width="300" /><br /> Let us know! </div>
 <div class='left'><img src="/src/Events/GCC2012/Photos/GCC2013.jpg" alt="" width="300" /><br /> See you next year! <div class='right'></div>

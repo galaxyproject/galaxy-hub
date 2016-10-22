@@ -21,4 +21,4 @@ This page is of course just **brief** - 10 lines max. It should point to the pri
 
 <div class='noteItemFooter'>Posted to [Galaxy Notes](/src/Notes/index.md) on 2012-08-17</div>
 
-CategoryNotes
+[CategoryNotes](/src/CategoryNotes/index.md)

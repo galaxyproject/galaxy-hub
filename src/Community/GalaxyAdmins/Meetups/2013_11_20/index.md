@@ -19,7 +19,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em>GalaxyAdmins: <a href='/src/Events/GCC2013/BoF/GalaxyAdmins/index.md'>GCC2013 Followup</a></em><div class='indent'><a href='/src/DaveClements/index.md'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
+    <td> <em><a href="/src/GalaxyAdmins/index.md">GalaxyAdmins</a>: <a href='/src/Events/GCC2013/BoF/GalaxyAdmins/index.md'>GCC2013 Followup</a></em><div class='indent'><a href='/src/DaveClements/index.md'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>

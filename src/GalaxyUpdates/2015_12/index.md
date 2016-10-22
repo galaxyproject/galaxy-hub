@@ -141,7 +141,7 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   <tr>
     <th> November 30 - December 1 </th>
     <td> <a href='https://github.com/galaxyproject/tools-iuc/issues/299'>IUC Contribution Fest - Metagenomics Tools and Workflows</a> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/World/index.md) </em>Online<em> </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/World/index.md) <em>Online</em> </td>
     <td> <a href='IUC'>/src/IUC/index.md</a>, <a href='/src/JohnChilton/index.md'>John Chilton</a> </td>
   </tr>
   <tr>
@@ -150,39 +150,39 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   </tr>
   <tr>
     <th> December 3 </th>
-    <td> </em><a href='http://www.bioplatforms.com/rna-seq-using-galaxy-dec15/'>RNA-Seq Analysis Using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.bioplatforms.com/rna-seq-using-galaxy-dec15/'>RNA-Seq Analysis Using Galaxy</a></em> </td>
     <td rowspan=2> PLACEHOLDER_INCLUDE(/src/Events/Badges/Australia/index.md) University of Newcastle, Newcastle, NSW, Australia </td>
     <td rowspan=2> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) Mark Crowe, <a href="mailto:kchamp@bioplatforms.com">Katherine Champ</a> </td>
   </tr>
   <tr>
     <th> December 4 </th>
-    <td> </em><a href='http://www.bioplatforms.com/variant-detection-using-galaxy-dec15/'>Variant Detection Using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.bioplatforms.com/variant-detection-using-galaxy-dec15/'>Variant Detection Using Galaxy</a></em> </td>
   </tr>
   <tr>
     <th> December 18 </th>
-    <td> </em><a href='http://scb.iec.cat/wp-content/uploads/2015/11/jdB2015_anunci_.pdf'>Galaxy Session</a><em> </td>
+    <td> <em><a href='http://scb.iec.cat/wp-content/uploads/2015/11/jdB2015_anunci_.pdf'>Galaxy Session</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='http://scb.iec.cat/wp-content/uploads/2015/11/jdB2015_anunci_.pdf'>III Bioinformatics and Computational Biology Symposium</a>, Barcelona, Spain </td>
     <td> <a href="mailto:scb@iec.cat">Email</a> </td>
   </tr>
   <tr>
     <td> </td>
-    <td colspan=4 style=" background-color: #eef; text-align: center;"> </strong>2016<strong> </td>
+    <td colspan=4 style=" background-color: #eef; text-align: center;"> <strong>2016</strong> </td>
   </tr>
   <tr>
     <th> January 8 </th>
-    <td> </em><a href='/src/Events/ASU2016/index.md'>Introduction to Galaxy Workshop</a><em> </td>
+    <td> <em><a href='/src/Events/ASU2016/index.md'>Introduction to Galaxy Workshop</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://asu.edu/'>Arizona State University</a>, Tempe, Arizona, United States </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='https://sols.asu.edu/people/nico-franz'>Nico Franz</a>, <a href='https://sols.asu.edu/people/melissa-wilson-sayres'>Melissa A. Wilson Sayres</a>, <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> January 9-13 </th>
-    <td> </strong><a href='/src/Events/PAG2016/index.md'>Plant and Animal Genome (PAG XXIV)</a><strong> </td>
+    <td> <strong><a href='/src/Events/PAG2016/index.md'>Plant and Animal Genome (PAG XXIV)</a></strong> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) San Diego, California, United States </td>
     <td> See <a href='/src/Events/PAG2016/index.md'>presenters</a> </td>
   </tr>
   <tr>
     <th> January 19 </th>
-    <td> </em><a href='http://www.festivalofgenomicslondon.com/an-introduction-to-clinical-bioinformatics/'>An introduction to clinical bioinformatics</a><em> </td>
+    <td> <em><a href='http://www.festivalofgenomicslondon.com/an-introduction-to-clinical-bioinformatics/'>An introduction to clinical bioinformatics</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='http://www.festivalofgenomicslondon.com/'>Festival of Genomics London</a>, London, United Kingdom </td>
     <td> <a href='http://www.festivalofgenomicslondon.com/speaker/ang-davies/'>Ang Davies</a> </td>
   </tr>
@@ -192,19 +192,19 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   </tr>
   <tr>
     <th> February 11 </th>
-    <td> </em><a href='http://bioteam.net/bioteam-appliance/galaxy-edition/'>BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)</a><em> </td>
+    <td> <em><a href='http://bioteam.net/bioteam-appliance/galaxy-edition/'>BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://www.agbt.org/meetings/agbt-general-meeting/'>AGBT</a>, Orlando, Florida, United States </td>
     <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a></td>
   </tr>
   <tr>
     <th> February 15-19 </th>
-    <td> </em><a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a><em> </td>
+    <td> <em><a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='https://www.supagro.fr/web/index.php'>Montpellier SupAgro</a>, Montpellier, France </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='https://www.supagro.fr/web/pages/contact.php?id=139'>Yolande Olivier</a>, <a href='https://www.supagro.fr/web/pages/contact.php?id=102'>Dominique Alhinc</a> </td>
   </tr>
   <tr>
     <th> February 20-23 </th>
-    <td> </em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a><em> </td>
+    <td> <em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md)  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
   </tr>
@@ -214,7 +214,7 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   </tr>
   <tr>
     <th> June 25-29 </th>
-    <td> </strong></em><a href='/src/Events/GCC2016/index.md'>2016 Galaxy Community Conference (GCC2016)</a><strong><em> </td>
+    <td> <strong><em><a href='/src/Events/GCC2016/index.md'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md)  <a href='/src/Events/GCC2016/Organizers/index.md'>Organizers</a> </td>
   </tr>
@@ -319,9 +319,9 @@ Planemo is a set of command-line utilities to assist in building tools for the G
  **[July 2015 Galaxy Release (v 15.07)](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html)**
    [Galaxy Release v 15.07](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html) includes enhancements to Interactive Environments and the Workflow Editor, an update of the Policies for Committers and Pull Requests and [much more](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html).<br /><br />
 
- **!BioBlend 0.7.0**
+ **BioBlend 0.7.0**
 
-   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
  **Mid 2015 Galaxy CloudMan Release**
@@ -349,7 +349,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
  
 
  **blend4j v0.1.2**
-   [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and !BioCloudCentral.
+   [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and BioCloudCentral.
 
 
 ----
@@ -364,9 +364,9 @@ Planemo is a set of command-line utilities to assist in building tools for the G
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </strong> </td>
   </tr>
 </table>
 
@@ -393,7 +393,7 @@ See [list of tools contributed in October and November](/src/ToolShed/Contributi
     An Ansible role for installing Galaxy Interactive Environments 
 * [Expanding the Galaxy Platform](https://www.msi.umn.edu/content/expanding-galaxy-platform) at the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/).
 * From [Björn Grüning](https://twitter.com/bjoerngruening):
-    The [Galaxy Docker Image](https://github.com/bgruening/docker-galaxy-stable/tree/dev) has gained TravisCI testing. !BioBlend will test all functionality and tool installation. 
+    The [Galaxy Docker Image](https://github.com/bgruening/docker-galaxy-stable/tree/dev) has gained TravisCI testing. BioBlend will test all functionality and tool installation. 
 * Updated documentation:
   * [The source code of Galaxy](/src/Develop/SourceCode/index.md)
   * [Galaxy Job Configuration](/src/Admin/Config/Jobs/index.md)

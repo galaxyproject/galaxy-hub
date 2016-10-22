@@ -44,7 +44,7 @@ This feature is disabled unless "enable_api = True" in universe_wsgi.ini config 
 * API controllers in galaxy.web.api
 * Return handling in reused library_common methods.
 * expose_api decorator for API controller methods validates key and ensures valid JSON format.
-* !UniverseWebTransaction renamed to !GalaxyWebTransaction and sub-classed for !GalaxyWebUITransaction and !GalaxyWebAPITransaction.
+* UniverseWebTransaction renamed to GalaxyWebTransaction and sub-classed for GalaxyWebUITransaction and GalaxyWebAPITransaction.
 
 #### Things that need to be done next
 
@@ -188,7 +188,7 @@ This feature is disabled unless "enable_api = True" in universe_wsgi.ini config 
 
 * Bug Fix for when, under certain conditions, error messages were associated with the incorrect repeat unit.
 
-* Various Bug fixes for libraries including deleting of or adding new versions to !LibraryDatasets and for importing into a new !LibraryDataset from a history.
+* Various Bug fixes for libraries including deleting of or adding new versions to LibraryDatasets and for importing into a new LibraryDataset from a history.
 
 * Bug fix for history/view when history has no user.
 

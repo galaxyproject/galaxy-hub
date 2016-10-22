@@ -22,7 +22,7 @@ Welcome to the June 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a month
 
 The [Ortholog Direction of Selection Engine (ODoSE)](http://www.odose.nl/) supports genome-wide calculation of adaptive divergence in prokaryotes:
 
-"The web-based graphical user-interface ODoSE (Ortholog Direction of Selection Engine) identifies all orthologs between a set of strains and allows the calculation of a novel extension of the [!McDonald Kreitman] MK test, the Direction of Selection (DoS) statistic as well as the calculation of the Neutrality Index (NI) statistic for all genes shared by two taxonomic groups combined. The engine also generates the site frequency spectrum for each gene allowing one to apply more advanced methods for estimating the distribution of fitness effects and rates of adaptive evolution."
+"The web-based graphical user-interface ODoSE (Ortholog Direction of Selection Engine) identifies all orthologs between a set of strains and allows the calculation of a novel extension of the [McDonald Kreitman] MK test, the Direction of Selection (DoS) statistic as well as the calculation of the Neutrality Index (NI) statistic for all genes shared by two taxonomic groups combined. The engine also generates the site frequency spectrum for each gene allowing one to apply more advanced methods for estimating the distribution of fitness effects and rates of adaptive evolution."
 
 See [ODoSE: A Webserver for Genome-Wide Calculation of Adaptive Divergence in Prokaryotes](http://bit.ly/10ydSiO) by Michiel Vos, Tim A. H. te Beek, Marc A. van Driel, Martijn A. Huynen, Adam Eyre-Walker, Mark W. J. van Passel; PLoS ONE, Vol. 8, No. 5. (6 May 2013), e62447, doi:10.1371/journal.pone.0062447
 
@@ -107,7 +107,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <table>
   <tr>
-    <th> &nbsp;&nbsp; </strong><a href='/src/Events/GCC2013/Register/index.md'>Register by 14 June</a> & avoid late fees<strong> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <strong><a href='/src/Events/GCC2013/Register/index.md'>Register by 14 June</a> & avoid late fees</strong> &nbsp;&nbsp; </th>
   </tr>
 </table>
 
@@ -193,12 +193,12 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th> June 8-11 </th>
     <td> <em><a href='https://www.eshg.org/sunday2013.0.html#W1'>WS08: Biomedical Data Analysis with Galaxy Workshop</a></em> </td>
-    <td> </strong><a href='https://www.eshg.org/eshg2013.0.html'>European Human Genetics Conference (ESHG2013)</a><strong>, Paris, France </td>
+    <td> <strong><a href='https://www.eshg.org/eshg2013.0.html'>European Human Genetics Conference (ESHG2013)</a></strong>, Paris, France </td>
     <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 9-13 </th>
-    <td> </strong><a href='/src/Events/ASMS2013/index.md'>61st ASMS Conference on Mass Spectrometry and Allied Topics</a><strong><div class='indent'>Includes at least 1 workshop and 9 posters either about or utilizing Galaxy</div> </td>
+    <td> <strong><a href='/src/Events/ASMS2013/index.md'>61st ASMS Conference on Mass Spectrometry and Allied Topics</a></strong><div class='indent'>Includes at least 1 workshop and 9 posters either about or utilizing Galaxy</div> </td>
     <td> Minneapolis, Minnesota, United States </td>
     <td> <a href='/src/JohnChilton/index.md'>John Chilton</a> </td>
   </tr>
@@ -222,7 +222,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> </strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
+    <td> <strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href='/src/Events/GCC2013/Organizers/index.md'>Organizers</a> </td>
   </tr>
@@ -235,7 +235,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th rowspan=2> July 19-23 </th>
     <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php#W05'>The “How To Guide” for Establishing a Successful Bioinformatics Network</a></em> </td>
-    <td rowspan=2> </strong><a href='http://www.iscb.org/ismbeccb2013'>ISMB/ECCB 2013</a><strong> & </strong><a href='http://www.open-bio.org/wiki/BOSC_2013'>BOSC 2013</a><strong>, Berlin, Germany </td>
+    <td rowspan=2> <strong><a href='http://www.iscb.org/ismbeccb2013'>ISMB/ECCB 2013</a></strong> & <strong><a href='http://www.open-bio.org/wiki/BOSC_2013'>BOSC 2013</a></strong>, Berlin, Germany </td>
     <td rowspan=2> <a href='/src/JeremyGoecks/index.md'>JeremyGoecks</a> </td>
   </tr>
   <tr>
@@ -251,7 +251,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <td> <em><a href='/src/Events/UNC2013/index.md'>Introduction to Galaxy Workshop</a></em> <div class='indent'>University of North Carolina, Chapel Hill</div> </td>
   </tr>
   <tr>
-    <td> <em><a href='http://bit.ly/ZFVLG1'>Galaxy Installation Tutorial</a></em> <div class='indent'></strong><a href='http://bit.ly/ZFVLG1'>2013 GMOD Summer School</a><strong></div> </td>
+    <td> <em><a href='http://bit.ly/ZFVLG1'>Galaxy Installation Tutorial</a></em> <div class='indent'><strong><a href='http://bit.ly/ZFVLG1'>2013 GMOD Summer School</a></strong></div> </td>
   </tr>
   <tr>
     <td> <em><a href='/src/Events/NCSU2013/index.md'>Introduction to Galaxy Workshop</a></em> <div class='indent'> North Carolina State University</div> </td>
@@ -259,7 +259,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th rowspan=3> July 21-25 </th>
     <td> <em><a href='http://bit.ly/116LWZB'>Experiences in building a Next-Generation Sequencing Analysis Service using Galaxy, Globus Online, and Amazon Web Services</a></em> </td>
-    <td rowspan=3> </strong><a href='https://www.xsede.org/web/xsede13'>XSEDE13</a><strong>, San Diego, California, United States </td>
+    <td rowspan=3> <strong><a href='https://www.xsede.org/web/xsede13'>XSEDE13</a></strong>, San Diego, California, United States </td>
     <td> <a href='http://www.mcs.anl.gov/about/people_detail.php?id=347'>Ravi Madduri</a> </td>
   </tr>
   <tr>
@@ -268,7 +268,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <td> <em><a href='http://bit.ly/124Jm33'>Supporting Genomics and other Biological Research</a></em> </td>
-    <td> Richard !LeDuc </td>
+    <td> Richard LeDuc </td>
   </tr>
 </table>
 
@@ -308,7 +308,7 @@ The most recent official distribution was on [April 1, 2013](/src/DevNewsBriefs/
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 * [rxlr_venn_workflow](http://bit.ly/1071hG2): a workflow for comparing 3 RXLR prediction methods with a Venn Diagram 
-* [vcf_to_variantdb](http://bit.ly/14bpN9c): Send !UnifiedGenotyper VCF to a !VariantDB instance  
+* [vcf_to_variantdb](http://bit.ly/14bpN9c): Send UnifiedGenotyper VCF to a !VariantDB instance  
 * [iquant](http://bit.ly/15VS5cs): isobaric tag quantification program 
 * [appendfdr](http://bit.ly/15VSvzq): compute false discovery rate of tabular data using decoy entries 
 * [bumbershoot](http://bit.ly/ZOh5e1): Tabb lab tools idqonvert, myrimatch, tagrecon, all for protein identification.
@@ -316,7 +316,7 @@ The most recent official distribution was on [April 1, 2013](/src/DevNewsBriefs/
 * [nbic_fasta](http://bit.ly/17SbTei): Galaxy-P unofficial fork of NBIC Galaxy tools for FASTA manipulation
 * [maxquant](http://bit.ly/17ScCfB): large mass-spec data quantitative proteomics analysis, especially high-resolution mass spectometry 
 * [msconvert](http://bit.ly/14bsTKv): Tool wrappers for msconvert, distributed as part of Proteowizard.
-* [peptideshaker](http://bit.ly/YLoLSY): Identify proteins combining X! Tandem, OMSSA (using SearchGUI) and !PeptideShaker 
+* [peptideshaker](http://bit.ly/YLoLSY): Identify proteins combining X! Tandem, OMSSA (using SearchGUI) and PeptideShaker 
 * [psm_eval](http://bit.ly/ZULT0e): Peptide-Spectrum-Match reevaluation tool  
 * [allele_counts](http://bit.ly/13QaSCN): Parse Naive Variant Detector output, count alleles and calculate minor allele frequencies.
 * [snp_analysis_conversion](http://bit.ly/1avPD9D): Format conversion for SNP Analysis tools from Miller Lab @ PSU. 

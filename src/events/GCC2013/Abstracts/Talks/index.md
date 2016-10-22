@@ -43,7 +43,7 @@ Victoria is an assistant professor of [Statistics](http://www.stat.columbia.edu/
 **[Ross Lazarus](/src/RossLazarus/index.md)<sup>1</sup>**, Antony Kaspi<sup>1</sup>, Mark Ziemann<sup>1</sup> and The [Galaxy Team](/src/GalaxyTeam/index.md) <sup>2</sup>.
 
  <sup>1</sup> BakerIDI Heart and Diabetes Research Institute, 75 Commercial Rd, Melbourne, VIC 3004, Australia<br />
- <sup>2</sup> http://wiki.galaxyproject.org/GalaxyTeam
+ <sup>2</sup> http://wiki.galaxyproject.org[/GalaxyTeam](/src/Events/GCC2013/Abstracts/Talks/GalaxyTeam/index.md)
 
 *[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/LazarusReproducibleResearch.pdf), [Vimeo](https://vimeo.com/74885862)*
 
@@ -124,7 +124,7 @@ The tutorials and other associated resources are freely available at http://www.
 
 The immense increase in availability of genomic scale data sets, such as those provided by the ENCODE and Roadmap Epigenomics projects, allows individual researchers to analyze and query relations between genomic tracks at an unprecedented level.
 
-The [Genomic HyperBrowser (http://hyperbrowser.uio.no/test)](http://hyperbrowser.uio.no/test) is an open-ended, Galaxy-based web server for the analysis of genomic track data. Through the provision of several highly customizable components for processing and statistical analysis of genomic tracks, the !HyperBrowser opens for a range of genomic investigations, related to e.g. gene regulation, disease association or epigenetic modifications of the genome. A main tool offers a set of 56 descriptive statistics and 20 hypothesis tests on properties of individual tracks and relations between tracks. The !HyperBrowser hosts a further 40 purpose-built tools for the broader analysis setting, including tools that support typical needs for generating and customizing genomic track data prior to analysis, as well as tools for visualization and more specialized analysis of genomic tracks.
+The [Genomic HyperBrowser (http://hyperbrowser.uio.no/test)](http://hyperbrowser.uio.no/test) is an open-ended, Galaxy-based web server for the analysis of genomic track data. Through the provision of several highly customizable components for processing and statistical analysis of genomic tracks, the HyperBrowser opens for a range of genomic investigations, related to e.g. gene regulation, disease association or epigenetic modifications of the genome. A main tool offers a set of 56 descriptive statistics and 20 hypothesis tests on properties of individual tracks and relations between tracks. The HyperBrowser hosts a further 40 purpose-built tools for the broader analysis setting, including tools that support typical needs for generating and customizing genomic track data prior to analysis, as well as tools for visualization and more specialized analysis of genomic tracks.
 
 <br />
 
@@ -156,7 +156,7 @@ In recognition of this challenge, the modENCODE DCC has released uniform computi
 
 *[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/BrownleyGalaxySlipStream.pdf), [Vimeo](https://vimeo.com/74869438)*
 
-IT infrastructure and support can be a bottleneck when trying to analyze data.   The Galaxy !SlipStream Appliance is designed to reduce the IT and administrative burden of running a production instance of the Galaxy software package and its underlying tools. !SlipStream integrates a powerful computational infrastructure and storage system in a desktop server to provide a dedicated resource to quickly analyze data with Galaxy.
+IT infrastructure and support can be a bottleneck when trying to analyze data.   The Galaxy SlipStream Appliance is designed to reduce the IT and administrative burden of running a production instance of the Galaxy software package and its underlying tools. SlipStream integrates a powerful computational infrastructure and storage system in a desktop server to provide a dedicated resource to quickly analyze data with Galaxy.
 
 <br />
 
@@ -174,7 +174,7 @@ IT infrastructure and support can be a bottleneck when trying to analyze data.  
 
 Only a few percent of prokaryotes are cultivable: the vast majority of them remains to be discovered, but recent technological developments in single-cell genomics now grant us access to this unknown diversity. To answer questions about microbial diversity and even how complex life forms emerged, we sample novel, deep-rooting taxa from a wide variety of environments.
 
-Cells extracted from samples are sorted in 384-well plates using fluorescence-activated cell sorting (FACS). They are lysed, and their genome is amplified with multiple displacement amplification (MDA), yielding a single-cell amplified genome (SAG). SAGs representing cells of interest are multiplexed and sequenced with next-generation sequencing. Up to 100 SAGs can be sequenced on one lane of a Illumina !HiSeq2500, and we plan to sequence several thousand SAGs every year.
+Cells extracted from samples are sorted in 384-well plates using fluorescence-activated cell sorting (FACS). They are lysed, and their genome is amplified with multiple displacement amplification (MDA), yielding a single-cell amplified genome (SAG). SAGs representing cells of interest are multiplexed and sequenced with next-generation sequencing. Up to 100 SAGs can be sequenced on one lane of a Illumina HiSeq2500, and we plan to sequence several thousand SAGs every year.
 
 The Galaxy platform was chosen to handle the vast amount of data generated in the single-cell genomics pipeline. The platform will be integrated in our LIMS system, keeping track of all samples and SAGs present in our lab. Three pipelines are being designed: the first takes raw reads from the sequencing runs as input, performs quality and contamination checks, assembles SAGs, and outputs scaffolds. The second is dedicated to physical and functional annotation of genomes. The third will perform comparative genomics, assemble sets of orthologous genes from our SAGs and published genomes, and perform phylogenomics on the aligned sequences, yielding high-quality phylogenetic trees.
 
@@ -186,7 +186,7 @@ By pairing single-cell genomics with advanced bioinformatics, we aim to shed som
 
 <div class='right'><img src="/src/Events/GCC2013/Abstracts/Talks/SimonGuest.jpg" alt="Simon Guest" width="100" /></div>
 
-Rudiger Brauning, **Simon Guest**, Alan !McCulloch, Russell Smithies 
+Rudiger Brauning, **Simon Guest**, Alan McCulloch, Russell Smithies 
  
  [AgResearch New Zealand](http://www.agresearch.co.nz/)
 
@@ -245,7 +245,7 @@ The presentation explores the adaption of Galaxy to the domain of image processi
 
 The study of chromatin 3D structure has recently gained much focus due to novel techniques, such as Hi-C and Chia-PET, for detecting genome wide chromatin contacts utilizing next-generation sequencing. Both the representation and analysis of such data is complex, and appropriate tools are presently lacking.
 
-We are developing user-friendly tools for statistical analysis of 3D interaction data in a Galaxy framework, building on existing software components of the Genomic !HyperBrowser. Our main focus has been on developing hypothesis tests and descriptive statistics where the user can ask specific questions concerning the spatial arrangement of genomic elements in three dimensions. 
+We are developing user-friendly tools for statistical analysis of 3D interaction data in a Galaxy framework, building on existing software components of the Genomic HyperBrowser. Our main focus has been on developing hypothesis tests and descriptive statistics where the user can ask specific questions concerning the spatial arrangement of genomic elements in three dimensions. 
 
 We show examples of spatial co-localization of chromatin states and fusion transcripts, and show how visualization and descriptive statistics can accompany hypothesis testing to gain biological knowledge of the 3D organization of chromatin.
 
@@ -296,9 +296,9 @@ An overview of where the Galaxy Project is and where it is going.
 
 The Galaxy API allows users and administrators to access a rapidly expanding set of Galaxy functionality via REST commands. CloudMan is a cloud-based job runtime platform, which allows researchers to easily provision scalable 'virtual clusters' to run Galaxy and other applications in a cloud computing environment, and which provides its own REST-based API. 
 
-As a part of Australia’s Genomics Virtual Laboratory project, we created the [BioBlend](http://bioblend.readthedocs.org/) library, a unified API in a high-level language (python) that wraps the functionality of both Galaxy and CloudMan APIs. !BioBlend encapsulates the underlying REST API of the two applications in a format that is more suitable for programming and thus makes it easier for bioinformaticians to automate end-to-end large-data analysis, from scratch. Because the end result of a data analysis is still available in the Galaxy environment, the resulting pipeline is highly accessible to collaborators. In combination with CloudMan, it is possible to both provision the required infrastructure, and automate complex analyses over large data sets on an as needed basis.
+As a part of Australia’s Genomics Virtual Laboratory project, we created the [BioBlend](http://bioblend.readthedocs.org/) library, a unified API in a high-level language (python) that wraps the functionality of both Galaxy and CloudMan APIs. BioBlend encapsulates the underlying REST API of the two applications in a format that is more suitable for programming and thus makes it easier for bioinformaticians to automate end-to-end large-data analysis, from scratch. Because the end result of a data analysis is still available in the Galaxy environment, the resulting pipeline is highly accessible to collaborators. In combination with CloudMan, it is possible to both provision the required infrastructure, and automate complex analyses over large data sets on an as needed basis.
 
-The library is easily installable via [PyPi](https://pypi.python.org/pypi) and comes with detailed documentation and example scripts. !BioBlend is released under the MIT license. Documentation and installation instructions can be found at http://bioblend.readthedocs.org/, and the source code is available at https://github.com/afgane/bioblend/.
+The library is easily installable via [PyPi](https://pypi.python.org/pypi) and comes with detailed documentation and example scripts. BioBlend is released under the MIT license. Documentation and installation instructions can be found at http://bioblend.readthedocs.org/, and the source code is available at https://github.com/afgane/bioblend/.
 
 <br />
 
@@ -339,11 +339,11 @@ Local installations of Galaxy often make extensive use of Galaxy’s workflow to
 
 *[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/GundersonGTrack.pdf), [Vimeo](https://vimeo.com/74398904)*
 
-A host of alternative formats for representing whole-genome datasets, such as WIG, BED, GFF, and !BedGraph, are currently in use, complicating analysis and tool development. The need for different formats are driven partly by the need of extra columns for specific content, but also because of differences reflecting the underlying models of the data. We have delineated fifteen different "track types", representing different intrinsic data models, starting from simple types such as "points" and "segments" to more complex types.
+A host of alternative formats for representing whole-genome datasets, such as WIG, BED, GFF, and BedGraph, are currently in use, complicating analysis and tool development. The need for different formats are driven partly by the need of extra columns for specific content, but also because of differences reflecting the underlying models of the data. We have delineated fifteen different "track types", representing different intrinsic data models, starting from simple types such as "points" and "segments" to more complex types.
 
 GTrack 1.0 (www.gtrack.no) is a recently defined tabular format that can handle data of all fifteen different track types. It supports customizable specification of columns, customizable value types, as well as graph-type data with weights, improving on the built-in "interval" data format in Galaxy. GTrack can represent the same information as standard formats, in addition to supporting extensions and subtype specifications without the need to rewrite parsers. In addition, GTrack can be used for 3D-type datasets, such as Hi-C data, for which no standard formats exist
 
-GTrack is fully supported by [The Genomic HyperBrowser (hyperbrowser.uio.no)](http://hyperbrowser.uio.no). The parsers and underlying binary storage scheme of the !HyperBrowser system has now been extracted to a separate Python library. The library makes use of a vectorized storage scheme based on !NumPy objects, which allows C-type analysis performance using the Python language. The library also supports most other common data formats, including conversions between them. We believe GTrack, and the associated binary library, is ideal for use within Galaxy tools as a backbone for high-speed analysis."
+GTrack is fully supported by [The Genomic HyperBrowser (hyperbrowser.uio.no)](http://hyperbrowser.uio.no). The parsers and underlying binary storage scheme of the HyperBrowser system has now been extracted to a separate Python library. The library makes use of a vectorized storage scheme based on NumPy objects, which allows C-type analysis performance using the Python language. The library also supports most other common data formats, including conversions between them. We believe GTrack, and the associated binary library, is ideal for use within Galaxy tools as a backbone for high-speed analysis."
 
 <br />
 
@@ -393,7 +393,7 @@ Galaxy has traditionally been geared toward interacting with a small, fixed numb
 
 *[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/InizanDevOps.pdf), [Vimeo](https://vimeo.com/74392502)*
 
-The !DevOps is a software development movement that stresses a close relationship between software developers and netsys admins. The goal is to enhance and speed up the cycle of software production from the creation to the delivery to final users, with special focus on quick resolution of users’ issues. We applied this method to our production process for our Galaxy instance.
+The DevOps is a software development movement that stresses a close relationship between software developers and netsys admins. The goal is to enhance and speed up the cycle of software production from the creation to the delivery to final users, with special focus on quick resolution of users’ issues. We applied this method to our production process for our Galaxy instance.
 
 We started from an initial situation with 2 teams (software developers and netsys admins), one methodology (Agile) and an infrastructure composed by an HPC cluster, a Galaxy server and a suite of homemade tools. From this initial situation, we merged our 2 teams in one with extended skills on new tools and technologies. 
 
@@ -461,7 +461,7 @@ To ensure the quality of the Tool Shed and the available contributed Utilities, 
 
 Visualization plays an integral role in scientific investigation. Visualization is useful for viewing large amounts of data simultaneously, observing patterns and outliers amongst data, and communicating findings to others. To make visualization easier and more powerful in Galaxy, we have create a framework for integrating Web-based visualizations into Galaxy. Just as tools can be easily added to Galaxy, visualizations can now be added as well. Visualizations can be easily accessed via an icon in the history panel’s stored datasets. Galaxy visualizations have many advantages: (i) they can be made highly interactive and customizable; (ii) they require no software or data downloads, and (iii) they can be saved, shared via URL, and included in [Galaxy Pages](/src/Learn/GalaxyPages/index.md) — and shared/included visualization are fully interactive.
 
-In this talk, we describe how to create your own visualization for Galaxy. We provide an overview of how to query datasets in Galaxy for both aggregate data as well as individual data points and how to add a data provider for your own data type. Galaxy includes data providers for SAM/BAM, BED, Interval, GFF/GTF, VCF, !BedGraph, Wiggle, and !BigWig/BigBed. We also discuss Galaxy !JavaScript libraries that can be used to create Web-based visualizations. These libraries include support for creating and saving visualizations, for  querying and caching data from Galaxy datasets, and for working with Galaxy tools and genome data. Finally, we introduce an XML data format for configuring a visualization to work with Galaxy.
+In this talk, we describe how to create your own visualization for Galaxy. We provide an overview of how to query datasets in Galaxy for both aggregate data as well as individual data points and how to add a data provider for your own data type. Galaxy includes data providers for SAM/BAM, BED, Interval, GFF/GTF, VCF, BedGraph, Wiggle, and BigWig/BigBed. We also discuss Galaxy JavaScript libraries that can be used to create Web-based visualizations. These libraries include support for creating and saving visualizations, for  querying and caching data from Galaxy datasets, and for working with Galaxy tools and genome data. Finally, we introduce an XML data format for configuring a visualization to work with Galaxy.
 
 <br />
 

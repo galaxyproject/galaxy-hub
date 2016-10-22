@@ -144,8 +144,8 @@ These servers implement a broad range of tools and and aren't specific to any pa
     * provides access to up-to-date tools and algorithms such as those devoted to Next Generation Sequencing (NGS) data analysis of:
       * Epigenome: MACS, Homer
       * Genomic sequence: GATK, Samtools, BEDtools, Picard
-      * Transcriptome: Cufflinks, HTSeq, !TopHat
-      * Statistical analyses: !DeepTools, S-mart, DESeq
+      * Transcriptome: Cufflinks, HTSeq, TopHat
+      * Statistical analyses: DeepTools, S-mart, DESeq
     * [GalaxEast](http://www.galaxeast.fr) provides access to workflows developed for:
       * Motif search
       * Repetitive element analyses
@@ -153,13 +153,13 @@ These servers implement a broad range of tools and and aren't specific to any pa
     * [GalaxEast](http://www.galaxeast.fr) aims at providing a large range of bioinformatics tools for the analysis of various types of Omics data. It supports reproducible computational research by providing an environment for performing and recording bioinformatics analyses.
     * The [GalaxEast](http://www.galaxeast.fr) project has the following main objectives:
       * Provide the academic scientific community with an open and powerful Galaxy instance with a guaranteed availability. The platform offers access to cutting-edge and up-to-date tools for Omics data analysis with help and support.
-      * Propose innovative developments and new helpful tools packaged for Galaxy (available in the !GalaxEast toolshed)
+      * Propose innovative developments and new helpful tools packaged for Galaxy (available in the GalaxEast toolshed)
       * Promote the packaging of new developments for Galaxy (through wrappers and/or toolshed packages).
   * [GalaxEast deployment details](/src/Community/Deployment/GalaxEast/index.md)
 * *User Support:*
   * [mailto:galaxy AT igbmc DOT fr](Email)
 * *Quotas:* 
-  * You must be part of an academic research lab and provide a valid academic email address to get a personal !GalaxEast account.  Write to galaxy@igbmc.fr to request an account.
+  * You must be part of an academic research lab and provide a valid academic email address to get a personal GalaxEast account.  Write to galaxy@igbmc.fr to request an account.
   * Academic users are allocated 50GB.
 * *Sponsor(s):*
   * [IGBMC](http://www.igbmc.fr/), [CNRS](http://www.cnrs.fr/), [Inserm](http://www.inserm.fr/), [Université Strasbourg](http://www.unistra.fr/)
@@ -175,7 +175,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
   * A general purpose Galaxy instance that includes bioinformatics tools developed by the research teams working in the perimeter of the PRABI core facility, including *kissplice/kissDE, TETools, SEX-DETector,* and *priam* available [through our local toolshed instance](http://toolshed.prabi.fr). 
   * [SEX-DETector: a probabilistic approach to study sex chromosomes in non-model organisms](http://dx.doi.org/10.1093/gbe/evw172), Aline Muyle, Jos Käfer, Niklaus Zemp, Sylvain Mousset, Franck Picard, and Gabriel AB Marais, *Genome Biology and Evolution* (2016), doi: 10.1093/gbe/evw172
 * *Comments:*
-  * Dedicated server:  !PowerEdge R920 Rack Server - 64 CPU, 512 GB RAM, 15To GB of disk space. 
+  * Dedicated server:  PowerEdge R920 Rack Server - 64 CPU, 512 GB RAM, 15To GB of disk space. 
 * *User Support:*
   * [galaxy@prabi user list](http://listes.univ-lyon1.fr/sympa/info/galaxy-user) (in French) 
   * Email support: [mailto:galaxy DASH support AT listes DOT univ-lyon1 DOT fr](galaxy DASH support AT listes DOT univ-lyon1 DOT fr) 
@@ -650,7 +650,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * "An open, interoperable web service platform for natural language processing (NLP) research and development. The LAPPS Grid provides facilities to select from hundreds of NLP tools to create workflows, composite services, and applications, and to evaluate, reproduce, and share them with others."
 * *Comments:*
   * "This is a **Work In Progress**. Many of the services here are undergoing active development and their behaviour is likely to change without notice."
-  * See [The Language Application Grid](http://link.springer.com/chapter/10.1007/978-3-319-31468-6_4) by Nancy Ide, James Pustejovsky, Christopher Cieri, Eric Nyberg, Denise !DiPersio, Chunqi Shi, Keith Suderman, Marc Verhagen, Di Wang, Jonathan Wright. Worldwide Language Service Infrastructure, Volume 9442 of the series Lecture Notes in Computer Science pp 51-70
+  * See [The Language Application Grid](http://link.springer.com/chapter/10.1007/978-3-319-31468-6_4) by Nancy Ide, James Pustejovsky, Christopher Cieri, Eric Nyberg, Denise DiPersio, Chunqi Shi, Keith Suderman, Marc Verhagen, Di Wang, Jonathan Wright. Worldwide Language Service Infrastructure, Volume 9442 of the series Lecture Notes in Computer Science pp 51-70
 * *User Support:*
   * [Landing page](http://galaxy.lappsgrid.org/) includes a simple tutorial.
 * *Quotas:* 
@@ -755,7 +755,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Domain/Purpose:* 
   * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) exposes the tools that are included in [OSDDlinux](http://osddlinux.osdd.net/), "a customized linux operating system for drug discovery that integrates open source software, libraries, workflows and web services in linux for creating environment for drug discovery."   OSDDLinux contains a Galaxy instance with applications for Drug Discovery.
 * *Comments:*
-  * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) integrates GPSR1.0, GPSR2.0 along with the [webservers](http://osddlinux.osdd.net/livew.php) and the [standalone software](http://osddlinux.osdd.net/stand.php) supported by OSDDlinux.  See the [complete list of tools and services](http://osddlinux.osdd.net/liveg) included in OSDDlinux !LiveGalaxy. 
+  * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) integrates GPSR1.0, GPSR2.0 along with the [webservers](http://osddlinux.osdd.net/livew.php) and the [standalone software](http://osddlinux.osdd.net/stand.php) supported by OSDDlinux.  See the [complete list of tools and services](http://osddlinux.osdd.net/liveg) included in OSDDlinux LiveGalaxy. 
 * *User Support:*
   * [Web form](http://crdd.osdd.net/osddlinux/feed.php) or [mailto:osddlinux AT gmail DOT com](Email)
 * *Quotas:* 
@@ -771,7 +771,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Domain/Purpose:* 
   * "The mission of the OSDD-Chemoinformatics is to promote and co-ordinate world-class research (and training) in Chemoinformatics within India and to provide state-of-the-art Chemoinformatics support to Indian researchers working on myriad aspects of Chemoinformatics. Present portal introduces readers to MPDS (Molecular Property Diagnostic Suite), a software toolset that rationally diagnoses (druggable) molecules."
 * *Comments:*
-  * "MPDS 1.0 consists of six modules. It covers informatics (!DataBases, File format conversion), structure and analogue based drug design approaches (Property calculation, QSAR, Docking)."
+  * "MPDS 1.0 consists of six modules. It covers informatics (DataBases, File format conversion), structure and analogue based drug design approaches (Property calculation, QSAR, Docking)."
 * *User Support:*
   * [Contacts](http://mpds.osdd.net/galaxy/static/contact.htm)
 * *Quotas:* 
@@ -820,14 +820,14 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Domain/Purpose:*
   * [RiboGalaxy](http://ribogalaxy.ucc.ie/) provides on-line tools for the analysis and visualization of ribo-seq data obtained with the ribosome profiling technique.
 * *Comments:* 
-  * [RiboGalaxy](http://ribogalaxy.ucc.ie) is a freely available web server for processing and analysing ribosome profiling (ribo-seq) data with the visualization functionality provided by [GWIPS-viz](http://gwips.ucc.ie/). !RiboGalaxy provides a compact suite of tools specifically tailored for the alignment and visualization of ribo-seq and corresponding mRNA-seq data. Users can take advantage of the published workflows on !RiboGalaxy which reduce the multi-step alignment process to a minimum of inputs.
+  * [RiboGalaxy](http://ribogalaxy.ucc.ie) is a freely available web server for processing and analysing ribosome profiling (ribo-seq) data with the visualization functionality provided by [GWIPS-viz](http://gwips.ucc.ie/). RiboGalaxy provides a compact suite of tools specifically tailored for the alignment and visualization of ribo-seq and corresponding mRNA-seq data. Users can take advantage of the published workflows on RiboGalaxy which reduce the multi-step alignment process to a minimum of inputs.
   * Audrey M. Michel, James P.A. Mullan, Vimalkumar Velayudhan, Patrick B.F. O'Connor, Claire A. Donohue & Pavel V. Baranov (2016): [RiboGalaxy: a browser based platform for the alignment, analysis and visualization of ribosome profiling data](http://www.tandfonline.com/doi/abs/10.1080/15476286.2016.1141862), *RNA Biology*, DOI: 10.1080/15476286.2016.1141862
 * *User Support:*
-  * !RiboGalaxy has its own dedicated [Help page](http://ribogalaxy.ucc.ie/static/help.html). Please post any questions you may have on our [RiboGalaxy Forum](http://gwips.ucc.ie/Forum/).
+  * RiboGalaxy has its own dedicated [Help page](http://ribogalaxy.ucc.ie/static/help.html). Please post any questions you may have on our [RiboGalaxy Forum](http://gwips.ucc.ie/Forum/).
 * *Quotas:* 
-  * Anonymous users can use !RiboGalaxy. However, the upload and processing of datasets larger than 2GB and the use of advanced features such as published workflows, will require the user to be registered on !RiboGalaxy. 
+  * Anonymous users can use RiboGalaxy. However, the upload and processing of datasets larger than 2GB and the use of advanced features such as published workflows, will require the user to be registered on RiboGalaxy. 
 * *Sponsor(s):*
-  * !RiboGalaxy is supported by [Science Foundation Ireland](http://www.sfi.ie/).
+  * RiboGalaxy is supported by [Science Foundation Ireland](http://www.sfi.ie/).
 
 ## RNA-Rocket @ Pathogen Portal
 
@@ -915,7 +915,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * A full Galaxy server that includes reference information and workflows focusing on invertebrate vectors of human pathogens.
 * *Comments:*
   * from [VectorBase: an updated bioinformatics resource for invertebrate vectors and other organisms related with human diseases](http://nar.oxfordjournals.org/content/early/2014/12/15/nar.gku1117.full), Gloria I. Giraldo-Calderón *et al.*, *Nucleic Acids Ressearch* (2014) doi: 10.1093/nar/gku1117: 
-      "[VectorBase](http://vectorbase.org/) has also made available the latest relevant canonical data in this Galaxy instance. Examples of workflow analyses include alignment of Next Generation Sequence (NGS) data sets, calculation of expression values, or predicting single nucleotide polymorphisms (SNPs). Registered users can store their raw data, intermediate files and final analysis results for download or direct sharing via the BRC, which greatly improves the ability to collaborate with colleagues and !VectorBase developers."
+      "[VectorBase](http://vectorbase.org/) has also made available the latest relevant canonical data in this Galaxy instance. Examples of workflow analyses include alignment of Next Generation Sequence (NGS) data sets, calculation of expression values, or predicting single nucleotide polymorphisms (SNPs). Registered users can store their raw data, intermediate files and final analysis results for download or direct sharing via the BRC, which greatly improves the ability to collaborate with colleagues and VectorBase developers."
 * *User Support:*
   * [VectorBase Help Hub Page](https://www.vectorbase.org/navigation/help)
   * [VectorBase Help Desk](https://www.vectorbase.org/contact)
@@ -931,7 +931,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Link:*
   * [VirAmp Galaxy](http://viramp.com/)
 * *Domain/Purpose:*
-  * !VirAmp is a web-based semi-*de novo* fast virus genome assembly pipeline designed for extremely high coverage NGS data.
+  * VirAmp is a web-based semi-*de novo* fast virus genome assembly pipeline designed for extremely high coverage NGS data.
 * *Comments:*
   * from [VirAmp: a galaxy-based viral genome assembly pipeline](http://www.gigasciencejournal.com/content/4/1/19), Yinan Wan, Daniel W Renner, Istvan Albert and Moriah L Szpara, *[GigaScience](http://www.gigasciencejournal.com/)* 2015, 4:19  doi:10.1186/s13742-015-0060-y
       [VirAmp](http://viramp.com/) "combines existing tools and techniques and presents them to end users via a web-enabled Galaxy interface. Our pipeline allows users to assemble, analyze, and interpret high coverage viral sequencing data with an ease and efficiency that was not possible previously. Our software makes a large number of genome assembly and related tools available to life scientists and automates the currently recommended best practices into a single, easy to use interface. We tested our pipeline with three different datasets from human herpes simplex virus (HSV)."
@@ -1064,7 +1064,7 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
   * Automated Processing of SAINT Templated Layouts (APOSTL) is a freely available software suite and analysis pipeline for reproducible, interactive analysis of AP-MS data. 
 * *Comments:*
   * APOSTL is an evolving software project with the potential to customize individual analyses with additional Galaxy tools and widgets using the R web application framework, Shiny. The source code, data and documentation are freely available from [GitHub](https://github.com/bornea/APOSTL) and other sources.
-  * APOSTL utilizes Significance Analysis of INTeractome (SAINT), a popular command-line software for analyzing AP data. APOSTL can process AP results from !MaxQuant, Scaffold, !PeptideShaker, or any software that can export mzIdentML.
+  * APOSTL utilizes Significance Analysis of INTeractome (SAINT), a popular command-line software for analyzing AP data. APOSTL can process AP results from MaxQuant, Scaffold, PeptideShaker, or any software that can export mzIdentML.
   * APOSTL can create a number of publication-quality visualizations including interactive bubble plots, protein-protein interaction networks through Cytoscape.js integration, and pathway enrichment/gene ontology plots.
   * [APOSTL: An Interactive Galaxy Pipeline for Reproducible Analysis of Affinity Proteomics Data](http://dx.doi.org/10.1021/acs.jproteome.6b00660), Brent M. Kuenzi, Adam L. Borne, Jiannong Li, Eric B Haura, Steven A Eschrich, John M Koomen, Uwe Rix, and Paul A Stewart. *J. Proteome Res.,* DOI: 10.1021/acs.jproteome.6b00660
   * [An Interactive Tool for Reproducible Analysis of Affinity Proteomics Data](http://sched.co/73yr), presented by Paul A Stewart at GCC2016.
@@ -1126,7 +1126,7 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
 * *Domain/Purpose:* 
   * Taxonomic studies of environmental microbial communities 
 * *Comments:*
-  * BioMaS (Bioinformatic analysis of Metagenomic AmpliconS) supports taxonomic studies of environmental microbial communities, "comprehensive of all the fundamental steps, from raw sequence data upload and cleaning to final taxonomic identification, that are absolutely required in an appropriately designed Meta-barcoding HTS-based experiment."  
+  * [BioMa](/src/BioMa/index.md)S (Bioinformatic analysis of Metagenomic AmpliconS) supports taxonomic studies of environmental microbial communities, "comprehensive of all the fundamental steps, from raw sequence data upload and cleaning to final taxonomic identification, that are absolutely required in an appropriately designed Meta-barcoding HTS-based experiment."  
   * See [BioMaS: a modular pipeline for Bioinformatic analysis of Metagenomic AmpliconS](http://bit.ly/1LOk2G2) by Bruno Fosso, Monica Santamaria, Marinella Marzano, Daniel Alonso-Alemany, Gabriel Valiente, Giacinto Donvito, Alfonso Monaco, Pasquale Notarangelo and Graziano Pesole, *BMC Bioinformatics* 2015, 16:203  doi:10.1186/s12859-015-0595-z 
 * *User Support:*
   * Please email questions and suggestions to [mailto:bruno DOT fosso AT gmail.com](Bruno Fosso) and/or to [mailto:giacinto DOT donvito AT ba.infn.it](Giacinto Donvito).
@@ -1279,7 +1279,7 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
     * [MetaPhlAn](http://huttenhower.sph.harvard.edu/metaphlan/) - Metagenomic Phylogenetic Analysis
     * [GraPhlAn](http://huttenhower.sph.harvard.edu/graphlan/) - Graphical phylogenetic analysis 
     * [microPITA](http://huttenhower.sph.harvard.edu/micropita) - microbiome: Picking Interesting Taxonomic.  
-    * !MaAsLin - Multivariate Analysis by Linear Models
+    * MaAsLin - Multivariate Analysis by Linear Models
     * [PICRUSt](http://picrust.github.com/) - Phylogenetic Investigation of Communities by Reconstruction of Unobserved States
 * *User Support:*
   * If you have any comments, questions, or suggestions, please contact [Dr. Huttenhower](http://huttenhower.sph.harvard.edu/contact).
@@ -1468,16 +1468,16 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
 * *Link:*
   * [MiModD NacreousMap](http://mapping-by-sequencing.vm.uni-freiburg.de:8080/)
 * *Domain/Purpose:* 
-  * This server exposes the !NacreousMap mapping/plotting tool of MiModD for users of MiModD who do not want to install the required dependencies (R and rpy2) for graphical output from this tool on their local system. [MiModD](http://www.celegans.de/en/mimodd) is a comprehensive software package for the identification and annotation of mutations in the genomes of model organisms from whole-genome sequencing (WGS) data. 
+  * This server exposes the NacreousMap mapping/plotting tool of MiModD for users of MiModD who do not want to install the required dependencies (R and rpy2) for graphical output from this tool on their local system. [MiModD](http://www.celegans.de/en/mimodd) is a comprehensive software package for the identification and annotation of mutations in the genomes of model organisms from whole-genome sequencing (WGS) data. 
 * *Comments:*
-  * [CloudMap](https://usegalaxy.org/cloudmap) users can replot data produced with the Hawaiian Variant Mapping tool using the !NacreousMap engine to obtain optimized (much smaller files that display faster) plots.
+  * [CloudMap](https://usegalaxy.org/cloudmap) users can replot data produced with the Hawaiian Variant Mapping tool using the NacreousMap engine to obtain optimized (much smaller files that display faster) plots.
   * To install the complete MiModD package for use as a command line tool or for integration into any local Galaxy follow the [installation instructions](http://mimodd.readthedocs.org/en/latest/INSTALL.html) in the [MiModD User Guide](http://mimodd.readthedocs.org/en/latest/).
 * *User Support:*
   * [MiModD User Guide](http://mimodd.readthedocs.org/en/latest/index.html#)
   * [mailto:mimodd@googlegroups.com](MiModD Google Group)
 * *Quotas:* 
   * The quota for anonymous usage is 50MB, registered users have 250MB available.
-  * You can analyze/plot data in VCF format or the "Per variant report" format generated by local runs of the MiModD !NacreousMap tool. The latter has the advantage of being up to 20 times smaller than the corresponding VCF file.
+  * You can analyze/plot data in VCF format or the "Per variant report" format generated by local runs of the MiModD NacreousMap tool. The latter has the advantage of being up to 20 times smaller than the corresponding VCF file.
 * *Sponsor(s):*
   * [The Baumeister Laboratory](http://www.celegans.de/) at the [Institute for Biology 3](http://www.biologie.uni-freiburg.de/data/bio3/) of the [Albert-Ludwig University](http://www.uni-freiburg.de/) in Freiburg/Breisgau, Germany.
 
@@ -1490,8 +1490,8 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
 * *Domain/Purpose:*
   * Hosts these tools:
     * MIRPIPE: Quantification of microRNA based on smallRNA sequencing reads
-    * ADMIRE: Semi-automatic analysis pipeline and visualization tool for Illumina HumanMethylation450K !BeadChip arrays.
-    * LimiTT: Link your lists of miRNAs and miRNA effectors, like genes or proteins mapped onto !UniProt Accessions, to validated miRNA target interactions (MTIs) coming from four databases specialized in experimentally verified MTIs.
+    * ADMIRE: Semi-automatic analysis pipeline and visualization tool for Illumina HumanMethylation450K BeadChip arrays.
+    * LimiTT: Link your lists of miRNAs and miRNA effectors, like genes or proteins mapped onto UniProt Accessions, to validated miRNA target interactions (MTIs) coming from four databases specialized in experimentally verified MTIs.
 * *Comments:*
   * Supporting papers:
     * "[MIRPIPE – quantification of microRNAs in niche model organisms](http://bit.ly/1t4oQvo),"  C. Kuenne, J. Preussner, M. Herzog, T. Braun, M. Looso, *Bioinformatics* (26 August 2014), btu573, doi:10.1093/bioinformatics/btu573
@@ -1534,7 +1534,7 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
 * *Domain/Purpose:*
   * [ODoSE](http://www.odose.nl/) is a webserver for genome-wide calculation of adaptive divergence in prokaryotes.
 * *Comments:*
-  * "The web-based graphical user-interface ODoSE (Ortholog Direction of Selection Engine) identifies all orthologs between a set of strains and allows the calculation of a novel extension of the [!McDonald Kreitman] MK test, the Direction of Selection (DoS) statistic as well as the calculation of the Neutrality Index (NI) statistic for all genes shared by two taxonomic groups combined. The engine also generates the site frequency spectrum for each gene allowing one to apply more advanced methods for estimating the distribution of fitness effects and rates of adaptive evolution."<br />
+  * "The web-based graphical user-interface ODoSE (Ortholog Direction of Selection Engine) identifies all orthologs between a set of strains and allows the calculation of a novel extension of the [McDonald Kreitman] MK test, the Direction of Selection (DoS) statistic as well as the calculation of the Neutrality Index (NI) statistic for all genes shared by two taxonomic groups combined. The engine also generates the site frequency spectrum for each gene allowing one to apply more advanced methods for estimating the distribution of fitness effects and rates of adaptive evolution."<br />
   * See [ODoSE: A Webserver for Genome-Wide Calculation of Adaptive Divergence in Prokaryotes](http://bit.ly/10ydSiO) by Michiel Vos, Tim A. H. te Beek, Marc A. van Driel, Martijn A. Huynen, Adam Eyre-Walker, Mark W. J. van Passel; PLoS ONE, Vol. 8, No. 5. (6 May 2013), e62447, doi:10.1371/journal.pone.0062447
 * *User Support:*
   * [ODoSE Manual](http://www.odose.nl/static/welcome.html)
@@ -1613,7 +1613,7 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
   * "The infrastructure will support open standards and be developed in close collaboration with European initiatives, and implemented as a Platform as a Service (PaaS) linking to the cloud resource of the Swedish National Infrastructure for Computing (SNIC). The infrastructure will enable Swedish researchers to perform world class science such as integrated pharmacology/toxicology approaches, chemical safety assessment, toxicogenomics and pharmacogenomics with mechanistic interpretations and discovery of chemically-initiated pathways, as well as including omics data in predictive toxicology and pharmacology modeling."
   * Implements
     * [QuantMap tools](http://pubs.acs.org/doi/abs/10.1021/ci200429f) for grouping chemicals by biological activity, 
-    * !ToxMap for visual representations of the toxicogenomic space occupied by a query signature
+    * ToxMap for visual representations of the toxicogenomic space occupied by a query signature
   * See "[Automated QuantMap for rapid quantitative molecular network topology analysis](http://bioinformatics.oxfordjournals.org/content/early/2013/07/04/bioinformatics.btt390.full.pdf)" by Schaal1, *et al.*, *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (2013)
 * *User Support:*
 * *Quotas:* 
@@ -1629,7 +1629,7 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
 * *Domain/Purpose:*
   * "PreSTIGE (Predicting Specific Tissue Interactions of Genes and Enhancers) predicts cell-line specific gene-enhancer interactions for a user-provided cell line as well as 12 PreSTIGE cell lines."
 * *Comments:*
-  * Users can generate predictions for any cell type of interest for which !H3K4me1 ChIP-seq and RNA-seq data are available.
+  * Users can generate predictions for any cell type of interest for which H3K4me1 ChIP-seq and RNA-seq data are available.
   * See "[Combinatorial effects of multiple enhancer variants in linkage disequilibrium dictate levels of gene expression to confer susceptibility to common traits](http://genome.cshlp.org/content/early/2013/11/06/gr.164079.113.abstract)" by Corradin, *et al.*, *[Genome Research](http://genome.cshlp.org/)* (2013)
 * *User Support:*
   * [PreSTIGE User Guide](http://genetics.case.edu/prestige/misc/Scacheri_PreSTIGE_User_Guide.pdf), [mailto:olivia DOT corradin AT case DOT edu](Email)
@@ -1841,7 +1841,7 @@ Test Tool Shed is made for breaking. If you have some tools you want to try out 
 
 <div class='right'><a href='http://toolshed.prabi.fr/'><img src="/src/Images/Logos/PRABILogo.png" alt="Galaxy@PRABI" width="150" /></a></div>
 
-[Tool Shed](http://toolshed.prabi.fr/) backing the [Galaxy@PRABI server](/src/PublicGalaxyServers/index.md#galaxyprabi).  DEfines bioinformatics tools developed by the research teams working in the perimeter of the PRABI core facility, including *kissplice/kissDE, TETools, !SexDetector,* and *priam*.
+[Tool Shed](http://toolshed.prabi.fr/) backing the [Galaxy@PRABI server](/src/PublicGalaxyServers/index.md#galaxyprabi).  DEfines bioinformatics tools developed by the research teams working in the perimeter of the PRABI core facility, including *kissplice/kissDE, TETools, SexDetector,* and *priam*.
 
 ## DTL ToolShed
 

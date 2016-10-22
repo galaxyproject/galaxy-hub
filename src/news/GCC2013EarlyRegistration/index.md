@@ -18,4 +18,4 @@ PS: And please help [get the word out](/src/Events/GCC2013/Promotion/index.md)!
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-05-20</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

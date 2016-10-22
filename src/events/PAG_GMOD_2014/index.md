@@ -36,7 +36,7 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=18A8CB'>A Cheap and Efficient Approach to Identify Sex-Linked Genes in Non-Model Organisms Using NGS Data</a> </td>
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=18A8CB'>Sex Chromosomes</a><div class='indent'>Royal Palm Salon 5-6</div> </td>
     <td> </td>
-    <td> <a href='http://lbbe.univ-lyon1.fr/-Muyle-Aline-.html'>Aline Muyle</a>, </em>et al.<em> </td>
+    <td> <a href='http://lbbe.univ-lyon1.fr/-Muyle-Aline-.html'>Aline Muyle</a>, <em>et al.</em> </td>
   </tr>
   <tr>
     <th colspan=6> </th>
@@ -47,24 +47,24 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=18AACECC'>P988: The South Green Bioinformatics Platform</a> </td>
     <td rowspan=2> Poster Session<br />Even Numbers </td>
     <td> </td>
-    <td rowspan=1> <a href='http://www.southgreen.fr/content/mathieu-rouard'>Mathieu Rouard</a>, </em>et al.<em> </td>
+    <td rowspan=1> <a href='http://www.southgreen.fr/content/mathieu-rouard'>Mathieu Rouard</a>, <em>et al.</em> </td>
   </tr>
   <tr>
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=1DA9CA'>P1050: Integrative System for Gene Family Gathering and Analysis in a Context of Crops’ Stress Response Study</a> </td>
     <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2014PAGIntegrativeSystem.pdf'>Poster</a> </td>
-    <td rowspan=1> <a href='http://www.southgreen.fr/content/delphine-larivi%C3%A8re'>Delphine Larivière</a>, </em>et al.<em> </td>
+    <td rowspan=1> <a href='http://www.southgreen.fr/content/delphine-larivi%C3%A8re'>Delphine Larivière</a>, <em>et al.</em> </td>
   </tr>
   <tr>
     <td rowspan=2 style=" text-align: center;"> 3:00:4:30 </td>
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=1DAFCA'>P135: SNP Genotyping to Accelerate Rice Breeding</a> </td>
     <td rowspan=2> Poster Session<br />Odd Numbers </td>
     <td> </td>
-    <td> <a href='http://irri.org/about-us/our-people/experts/michael-thomson'>Michael Thomson</a>, </em>et al.<em> </td>
+    <td> <a href='http://irri.org/about-us/our-people/experts/michael-thomson'>Michael Thomson</a>, <em>et al.</em> </td>
   </tr>
   <tr>
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=1AA0CA'>P1041: RepeatExplorer: Collection of Tools for Mining of Repetitive Elements from NGS Data</a> </td>
     <td> </td>
-    <td> <a href='https://pag.confex.com/pag/xxii/webprogram/Person25389.html'>Petr Novak</a>, </em>et al.<em> </td>
+    <td> <a href='https://pag.confex.com/pag/xxii/webprogram/Person25389.html'>Petr Novak</a>, <em>et al.</em> </td>
   </tr>
   <tr>
     <th colspan=6> </th>
@@ -93,7 +93,7 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
     <td> <a href='https://urgi.versailles.inra.fr/About-us/Publications/URGI-plant-and-fungi-platform-distributed-resources-through-GMOD-tools'>URGI Plant and Fungi Platform: Distributed Resources through GMOD Tools</a> </td>
     <td rowspan=2 style=" text-align: left;"> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=1FAC'>GMOD Workshop</a><div class='indent'>Golden West</div> </td>
     <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2014PAGURGI.pdf'>Slides</a> </td>
-    <td> <a href='https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Joelle-Amselem'>Joelle Amselem</a>, </em>et al.<em> </td>
+    <td> <a href='https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Joelle-Amselem'>Joelle Amselem</a>, <em>et al.</em> </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> 11:50-12:30 </td>

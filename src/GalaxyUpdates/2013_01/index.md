@@ -150,7 +150,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th> January 12-16 </th>
     <td> <em><a href='https://pag.confex.com/pag/xxi/webprogram/Paper7241.html'>Galaxy</a></em> </td>
-    <td> Part of the <a href='https://pag.confex.com/pag/xxi/webprogram/Session1537.html'>GMOD Workshop</a> at </strong><a href='http://www.intlpag.org/'>Plant and Animal Genome (PAG 2013)</a><strong>, San Diego, California, United States </td>
+    <td> Part of the <a href='https://pag.confex.com/pag/xxi/webprogram/Session1537.html'>GMOD Workshop</a> at <strong><a href='http://www.intlpag.org/'>Plant and Animal Genome (PAG 2013)</a></strong>, San Diego, California, United States </td>
     <td> <a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a> </td>
   </tr>
   <tr>
@@ -168,7 +168,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th> March 2-5 </th>
     <td> <em><a href='http://conf.abrf.org/index.cfm/page/satellite_workshops.htm'>SW1: Application of NGS Platforms for Whole Transcriptome and Genome Analysis</a></em> and <br /><em><a href='http://conf.abrf.org/index.cfm/page/index/2013ConfProg.htm'>W6: Community Resource Solutions to Analyzing Large Genomic Data Sets</a></em> </td>
-    <td> </strong><a href='http://conf.abrf.org/'>ABRF 2013</a><strong><br />Palm Springs, California, United States </td>
+    <td> <strong><a href='http://conf.abrf.org/'>ABRF 2013</a></strong><br />Palm Springs, California, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
@@ -197,7 +197,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> </strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
+    <td> <strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>

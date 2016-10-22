@@ -23,7 +23,7 @@ To illustrate how this works, we'll use the [gmap repository](http://toolshed.g2
 
 Notice the <datatypes_files> tag set. This tag set contains <datatype_file> tags, each of which refers to the name of a class module file name within your repository (in this example, there is only one file named gmap.py), which contains the custom data type classes you've defined for your tools.
 
-In addition, notice the value of each "type" attribute in the <datatype> tags. The **:** separates the class module included in the repository (in this example, the class module is "gmap") from the class name ("GmapDB", "!IntervalAnnotation", etc). It is critical that you make sure your datatype tag definitions match the classes you've defined in your class modules or the data type will not properly load into a Galaxy instance when your repository is installed.
+In addition, notice the value of each "type" attribute in the <datatype> tags. The **:** separates the class module included in the repository (in this example, the class module is "gmap") from the class name ("GmapDB", "IntervalAnnotation", etc). It is critical that you make sure your datatype tag definitions match the classes you've defined in your class modules or the data type will not properly load into a Galaxy instance when your repository is installed.
 
 ```xml
 <?xml version="1.0"?>

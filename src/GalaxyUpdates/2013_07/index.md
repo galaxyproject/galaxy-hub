@@ -135,7 +135,7 @@ A record 53 new papers were added to the [Galaxy CiteULike Group](http://www.cit
 * "[Detection of non-coding RNA in Bacteria and Archaea using the DETR’PROK Galaxy pipeline](http://dx.doi.org/10.1016/j.ymeth.2013.06.003)" by Claire Toffano-Nioche, Yufei Luo, Claire Kuchly, Claire Wallon, Delphine Steinbach, Matthias Zytnicki, Annick Jacq, Daniel Gautheret, *[Methods](http://www.sciencedirect.com/science/journal/10462023)* (June 2013)
 * "[Encore: Genetic Association Interaction Network Centrality Pipeline and Application to SLE Exome Data](http://dx.doi.org/10.1002/gepi.21739)" by Nicholas A. Davis, Caleb A. Lareau, Bill C. White, *et al.* *Genetic Epidemiology* (June 2013)
 * "[A review of Bioinformatics training applied to research in Molecular Medicine, Agriculture and Biodiversity in Costa Rica and Central America](http://dx.doi.org/10.1093/bib/bbt033)" by Allan Orozco, Jessica Morera, Sergio Jiménez, Ricardo Boza, *Briefings in Bioinformatics* (30 May 2013)
-* "[Streaming Support for Data Intensive Cloud-Based Sequence Analysis](http://dx.doi.org/10.1155/2013/791051)" by Shadi A. Issa, Romeo Kienzler, Mohamed El-Kalioby, *et al.,* *!BioMed Research International*, Vol. 2013 (2013), pp. 1-16
+* "[Streaming Support for Data Intensive Cloud-Based Sequence Analysis](http://dx.doi.org/10.1155/2013/791051)" by Shadi A. Issa, Romeo Kienzler, Mohamed El-Kalioby, *et al.,* *BioMed Research International*, Vol. 2013 (2013), pp. 1-16
 * "[Phase-defined complete sequencing of the HLA genes by next-generation sequencing](http://dx.doi.org/10.1186/1471-2164-14-355)" by Kazuyoshi Hosomichi, Timothy Jinam, Shigeki Mitsunaga, Hirofumi Nakaoka, Ituro Inoue, *BMC Genomics*, Vol. 14, No. 1. (2013), 355
 * "[Biology: The big challenges of big data](http://dx.doi.org/10.1038/498255a)" by Vivien Marx, *Nature*, Vol. 498, No. 7453. (12 June 2013), pp. 255-260
 * "[Software and supporting material for “SOAPdenovo2: An empirically improved memory-efficient short read de novo assembly](http://dx.doi.org/10.5524/100044)" by Luo, *et al.* in [GigaDB](http://gigadb.org/dataset/100044)
@@ -308,7 +308,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> </strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
+    <td> <strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href='/src/Events/GCC2013/Organizers/index.md'>Organizers</a> </td>
   </tr>
@@ -328,21 +328,21 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <td> <em><a href='/src/Events/UNC2013/index.md'>Introduction to Galaxy Workshop</a></em> <div class='indent'>University of North Carolina, Chapel Hill</div> </td>
   </tr>
   <tr>
-    <td> <em><a href='http://bit.ly/ZFVLG1'>Galaxy Installation Tutorial</a></em> <div class='indent'></strong><a href='http://bit.ly/ZFVLG1'>2013 GMOD Summer School</a><strong></div> </td>
+    <td> <em><a href='http://bit.ly/ZFVLG1'>Galaxy Installation Tutorial</a></em> <div class='indent'><strong><a href='http://bit.ly/ZFVLG1'>2013 GMOD Summer School</a></strong></div> </td>
   </tr>
   <tr>
     <td> <em><a href='/src/Events/NCSU2013/index.md'>Introduction to Galaxy Workshop</a></em> <div class='indent'> North Carolina State University</div> </td>
   </tr>
   <tr>
     <th> July 19-23 </th>
-    <td> </strong><a href='/src/Events/ISMB2013/index.md'>ISMB/ECCB, BOSC and MS SIG 2013</a><strong><div class='indent'>Talks, posters and workshops.  Lots of them.</div> </td>
+    <td> <strong><a href='/src/Events/ISMB2013/index.md'>ISMB/ECCB, BOSC and MS SIG 2013</a></strong><div class='indent'>Talks, posters and workshops.  Lots of them.</div> </td>
     <td> Berlin, Germany </td>
     <td> <a href="mailto:outreach AT galaxyproject DOT org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
     <th rowspan=3> July 21-25 </th>
     <td> <em><a href='http://bit.ly/116LWZB'>Experiences in building a Next-Generation Sequencing Analysis Service using Galaxy, Globus Online, and Amazon Web Services</a></em> </td>
-    <td rowspan=3> </strong><a href='https://www.xsede.org/web/xsede13'>XSEDE13</a><strong>, San Diego, California, United States </td>
+    <td rowspan=3> <strong><a href='https://www.xsede.org/web/xsede13'>XSEDE13</a></strong>, San Diego, California, United States </td>
     <td> <a href='http://www.mcs.anl.gov/about/people_detail.php?id=347'>Ravi Madduri</a> </td>
   </tr>
   <tr>
@@ -351,7 +351,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <td> <em><a href='http://bit.ly/124Jm33'>Supporting Genomics and other Biological Research</a></em> </td>
-    <td> Richard !LeDuc </td>
+    <td> Richard LeDuc </td>
   </tr>
   <tr>
     <th> September 28 - October&nbsp;1 </th>
@@ -459,7 +459,7 @@ Third, the feature can be left enabled and unpatched, and the vulnerability can 
 * [eqtl_tools](http://bit.ly/11OQqhR): eQTL Analysis using [PANAMA](http://bit.ly/120E35o)  
 * [fasta_extract](http://bit.ly/10iT8yU): Extract a single sequence or set of sequences from a multifasta file 
 * [fasta_stats](http://bit.ly/14vngXt): Produce basic statistics on a fasta/multifasta file  
-* [repeat_masker](http://bit.ly/10iTw0k): !RepeatMasker  
+* [repeat_masker](http://bit.ly/10iTw0k): RepeatMasker  
 * [interproscan](http://bit.ly/12hEJ6B): Interproscan functional predictions of ORFs
 * [fastq_validator](http://bit.ly/14i19Vn): Validate your FastQ Files. 
 * [peptide_to_gff](http://bit.ly/13ht2iy): Outputs GFF3 with the peptide position in a reference genome 
@@ -470,7 +470,7 @@ Third, the feature can be left enabled and unpatched, and the vulnerability can 
 # Other News
 
 * Tin-Lap Lee's slides from his Bio-IT 13 talk: [Next-Gen Sequencing Analysis by GigaGalaxy](http://www.slideshare.net/GigaScience/giga-galaxy-bioit-world-13tl)
-* Now in !MyExperiment: [Detrprok_wf](http://bit.ly/1aWNeVE): Detect 3 types of ncRNA. Uses s_mart & detrprok_scripts from toolshed 
+* Now in MyExperiment: [Detrprok_wf](http://bit.ly/1aWNeVE): Detect 3 types of ncRNA. Uses s_mart & detrprok_scripts from toolshed 
 * [Building a CloudMan instance from scratch](https://github.com/chapmanb/cloudbiolinux/blob/master/deploy/cloudman.md)
 * [Tutorial: uploading NGS data to Amazon S3 for use in Galaxy](http://postolog.com/bbdPCT)
 * [Video: ChIP-seq analysis using Galaxy](http://bit.ly/18S1eV5) by Ian Donaldson of U Manchester 

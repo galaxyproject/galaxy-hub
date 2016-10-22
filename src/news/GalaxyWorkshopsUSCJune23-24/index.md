@@ -18,4 +18,4 @@ There will be two Galaxy workshops at the University of Southern California (USC
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-06-17</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

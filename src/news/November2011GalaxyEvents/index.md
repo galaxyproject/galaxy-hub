@@ -59,4 +59,4 @@ Thanks,<br />
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-10-31</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

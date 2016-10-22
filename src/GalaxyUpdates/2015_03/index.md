@@ -37,7 +37,7 @@ Welcome to the March 2015 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a summ
     Aidan Budd, Manuel Corpas, Michelle D. Brazas, Jonathan C. Fuller, [Jeremy Goecks](/src/JeremyGoecks/index.md), Nicola J. Mulder, Magali Michaut, B. F. Francis Ouellette, Aleksandra Pawlik, Niklas Blomberg, *PLoS Computational Biology*, Vol. 11, No. 2. (5 February 2015), e1003972, doi:10.1371/journal.pcbi.1003972
 
 * [Draft sequencing and assembly of the genome of the world’s largest fish, the whale shark: Rhincodon typus Smith 1828](https://peerj.com/preprints/837/)
-    Timothy D Read​, Robert A Petit III, Sandeep J Joseph, Md T Alam, Ryan Weil, Maida Ahmad, Ravila Bhimani, Jocelyn S Vuong, Chad P Haase, Harry Webb, Alistair D. M. Dove, *PeerJ !PrePrints* 3:e1036 doi:10.7287/peerj.preprints.837v1
+    Timothy D Read​, Robert A Petit III, Sandeep J Joseph, Md T Alam, Ryan Weil, Maida Ahmad, Ravila Bhimani, Jocelyn S Vuong, Chad P Haase, Harry Webb, Alistair D. M. Dove, *PeerJ PrePrints* 3:e1036 doi:10.7287/peerj.preprints.837v1
 
 * [Reproducibility and reusability of genome assembly evaluation](http://bit.ly/1BEnKPO)
     Sabba Ifzal, MS Thesis, University of Oslo
@@ -141,7 +141,7 @@ An [intense two-day hands-on collaboration](http://gcc2015.tsl.ac.uk/Data-Hackat
 
 ### Training SunDay
 
-Something new for GCC2015 is *[Training SunDay](http://gcc2015.tsl.ac.uk/training-day/)*, an additional day of training offered the day before its older sibling [Training Day](http://gcc2015.tsl.ac.uk/training-day/), and featuring a single track with the most in-demand topics. You can attend both Training Days, or just one.  Training !SunDay features these three topics:
+Something new for GCC2015 is *[Training SunDay](http://gcc2015.tsl.ac.uk/training-day/)*, an additional day of training offered the day before its older sibling [Training Day](http://gcc2015.tsl.ac.uk/training-day/), and featuring a single track with the most in-demand topics. You can attend both Training Days, or just one.  Training SunDay features these three topics:
 
 * [Introduction to Galaxy](http://gcc2015.tsl.ac.uk/training-day/#Introduction_to_Galaxy)
 * [RNA-Seq Analysis with Galaxy](http://gcc2015.tsl.ac.uk/training-day/#RNA-Seq_Analysis_with_Galaxy)
@@ -176,7 +176,7 @@ We are pleased to announce that again in 2015, any oral or poster presentation w
 
 ### GCC2015 Sponsorships
 
-We are pleased to announce that [BioTeam](http://bioteam.net) will again be a [Gold Sponsor](http://gcc2015.tsl.ac.uk/sponsors/) for this annual event.  This is the third year in a row that !BioTeam has been a GCC Gold Sponsor.
+We are pleased to announce that [BioTeam](http://bioteam.net) will again be a [Gold Sponsor](http://gcc2015.tsl.ac.uk/sponsors/) for this annual event.  This is the third year in a row that BioTeam has been a GCC Gold Sponsor.
 
 #### Call for Sponsors
 
@@ -200,7 +200,7 @@ A hands-on, 4 day workshop on *[RNA-Seq and ChIP-Seq Analysis with Galaxy](http:
 
 [Video and slides](/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md) from the first [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) [meetup of 2015](/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md) are now available online. 
 
-[Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) also lead a short discussion on *GalaxyAdmins direction*.
+[Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) also lead a short discussion on *[GalaxyAdmins](/src/GalaxyAdmins/index.md) direction*.
 
 [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  Our next meetup will be in April.
 
@@ -234,31 +234,31 @@ There are [upcoming events](/src/Events/index.md) in 7 countries on 4 continents
   </tr>
   <tr>
     <th> March 2 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy/'>RNA-Seq analysis using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy/'>RNA-Seq analysis using Galaxy</a></em> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#qfab-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> March 2-3 </th>
-    <td> </em><a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/FREE-Workshop-Bioinformatics-Methods-in-Genomics'>Workshop on Bioinformatics Methods in Genomics</a><em> </td>
+    <td> <em><a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/FREE-Workshop-Bioinformatics-Methods-in-Genomics'>Workshop on Bioinformatics Methods in Genomics</a></em> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#ruđer-bošković-institute-rbi'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.irb.hr/eng'>RBI</a>, Zagreb, Croatia </td>
     <td> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> March 3-5 </th>
-    <td> </em><a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Flyers/DéveloppementEtIntégrationDApplicationsSousGalaxy.pdf'>Développement et intégration d’applications sous Galaxy</a><em> </td>
+    <td> <em><a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Flyers/DéveloppementEtIntégrationDApplicationsSousGalaxy.pdf'>Développement et intégration d’applications sous Galaxy</a></em> </td>
     <td> <div class='right'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></div> La Chapelle Sur Erdre, France </td>
     <td> <a href="mailto:frederique.malipier@nantes.inra.fr">Frederique Malipier</a> </td>
   </tr>
   <tr>
     <th> March 3-5 </th>
-    <td> </em><a href='http://bmc.biomed.lu.lv/en/startpage/news/invitation-to-attend-courses/'>COST Basic training on NGS data analysis Course</a><em> </td>
+    <td> <em><a href='http://bmc.biomed.lu.lv/en/startpage/news/invitation-to-attend-courses/'>COST Basic training on NGS data analysis Course</a></em> </td>
     <td> University of Latvia, Riga </td>
     <td> <a href="mailto:gec@biomed.lu.lv">Latvian Genome Centre</a> </td>
   </tr>
   <tr>
     <th> March 23-26 </th>
-    <td> </em><a href='http://training.bioinformatics.ucdavis.edu/2015/01/12/rna-seq-and-chip-seq-analysis-with-galaxy/'>RNA-Seq and ChIP-Seq Analysis with Galaxy</a><em> </td>
+    <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2015/01/12/rna-seq-and-chip-seq-analysis-with-galaxy/'>RNA-Seq and ChIP-Seq Analysis with Galaxy</a></em> </td>
     <td> <div class='right'><a href='http://bit.ly/gxytrnUCDavis'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a>, Davis, California, United States </td>
     <td> <a href="mailto:bioinformatics.core@ucdavis.edu">UC Davis Bioinformatics</a> </td>
   </tr>
@@ -268,38 +268,38 @@ There are [upcoming events](/src/Events/index.md) in 7 countries on 4 continents
   </tr>
   <tr>
     <th> April 14-15 </th>
-    <td> </em><a href='http://www.globusworld.org/'>GlobusWorld 2015</a><em> </td>
+    <td> <em><a href='http://www.globusworld.org/'>GlobusWorld 2015</a></em> </td>
     <td> Chicago, Illinois, United States </td>
     <td> <a href="mailto:outreach AT globus.org">Globus Outreach</a> </td>
   </tr>
   <tr>
     <th> April 20-21 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-2/'>Workshop: Extended RNA-Seq analysis</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-2/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#qfab-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th rowspan=3> April 21 </th>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Next-Gen-Sequencing-Informatics/'>Large-Scale NGS Analysis Using Globus Genomics: Challenges and User Success Stories</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Next-Gen-Sequencing-Informatics/'>Large-Scale NGS Analysis Using Globus Genomics: Challenges and User Success Stories</a></em> </td>
     <td rowspan=4> <a href='http://www.bio-itworldexpo.com/'>Bio-IT World 2015</a>, Boston, Massachusetts, United States </td>
     <td> <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=144286'>Workshop: Large Scale NGS Analysis Using Globus Genomics</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=144286'>Workshop: Large Scale NGS Analysis Using Globus Genomics</a></em> </td>
     <td> Paul Davé, <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a>, Alex Rodriguez, Dinanath Sulakhe </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Bioinformatics/'>Extending Galaxy with External Microbiome Databases</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Bioinformatics/'>Extending Galaxy with External Microbiome Databases</a></em> </td>
     <td> Bob Brown </td>
   </tr>
   <tr>
     <th> April 23 </th>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Visualization Tools for the Refinery Platform</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Visualization Tools for the Refinery Platform</a></em> </td>
     <td> <a href='http://gehlenborg.com/'>Nils Gehlenborg</a> </td>
   </tr>
   <tr>
     <th> April 27 - May 3 </th>
-    <td> </em><a href='http://bioinformatics.ca/workshops/2015/high-throughput-biology-sequence-networks-2015'>High-throughput Biology: From Sequence to Networks 2015</a><em> </td>
+    <td> <em><a href='http://bioinformatics.ca/workshops/2015/high-throughput-biology-sequence-networks-2015'>High-throughput Biology: From Sequence to Networks 2015</a></em> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#bioinformaticsca'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> New York City, New York, United States </td>
     <td> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
   </tr>
@@ -315,7 +315,7 @@ There are [upcoming events](/src/Events/index.md) in 7 countries on 4 continents
   </tr>
   <tr>
     <th> July 6-8 </th>
-    <td> </strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a><strong> </td>
+    <td> <strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a></strong> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div>   <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -384,9 +384,9 @@ One new [public Galaxy servers](/src/PublicGalaxyServers/index.md) was added in 
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </strong> </td>
   </tr>
 </table>
 

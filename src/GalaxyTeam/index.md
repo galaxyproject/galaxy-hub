@@ -186,7 +186,7 @@ Carl Eberhard <br />
 * Jianbin He
 * Radesh Kamath
 * Kanwei Li
-* Scott !McManus
+* Scott McManus
 * Arjun Nath
 * Chinmay Rao
 * Prachi Shah

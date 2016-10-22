@@ -74,4 +74,4 @@ Tour of Galaxy's learning resources included:
 
 Send them to [mailto:jen AT galaxyproject DOT org](Jennifer Hillman-Jackson) with a clear subject line!
 
-CategoryBoF
+[CategoryBo](/src/CategoryBo/index.md)F

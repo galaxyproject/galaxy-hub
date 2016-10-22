@@ -174,4 +174,4 @@ RewriteRule (.*) http://localhost:8080/$1 [P,E=RU:%{REMOTE_USER}]
 * [Admin/Config/Apache Proxy](/src/Admin/Config/Apache Proxy/index.md#proxying-multiple-galaxy-worker-threads)
 * [Admin/Config/ExternalUserDatbases](/src/Admin/Config/ExternalUserDatbases/index.md)
 
-CategoryLog
+[CategoryLog](/src/CategoryLog/index.md)

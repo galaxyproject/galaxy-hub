@@ -6,10 +6,10 @@ A [Galaxy Group now exists on LinkedIn](http://bit.ly/gxyLinkedIn).  The group i
 
 *Note that this **is not** an official support forum for the Galaxy Project.  Please continue to use the [mailing lists](/src/MailingLists/index.md) for that purpose.*
 
-If you are on !LinkedIn, please consider [joining the group](http://bit.ly/gxyLinkedIn) today.
+If you are on LinkedIn, please consider [joining the group](http://bit.ly/gxyLinkedIn) today.
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-03-18</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

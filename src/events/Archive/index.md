@@ -1637,7 +1637,7 @@ Listing of Galaxy events from previous years. See the main [Events](/src/Events/
   </tr>
   <tr>
     <th> July 17-18 </th>
-    <td> <em>The !GigaSolution to data publication, reuse and integration</em> </td>
+    <td> <em>The GigaSolution to data publication, reuse and integration</em> </td>
     <td> <a href='http://dils2014.inesc-id.pt/'>10th International Conference on Data Integration in the Life Sciences (DILS 2014)</a>, Instituto Superior Técnico, Lisbon, Portugal </td>
     <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GigaSolutionDILS2014.pdf'>Demo</a> </td>
     <td> Christopher Hunter </td>
@@ -2434,7 +2434,7 @@ Listing of Galaxy events from previous years. See the main [Events](/src/Events/
     <td> <a href='http://amataconference.com.au/2013/conference-program/pre-conference-workshops/'>AMATA early career researcher workshop</a> </td>
     <td> <a href='http://amataconference.com.au/2013/'>AMATA 2013</a>, Gold Coast, Queensland, Australia </td>
     <td> </td>
-    <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a>, Annette !McGrath </td>
+    <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a>, Annette McGrath </td>
   </tr>
   <tr>
     <th> October 9-11 </th>
@@ -2566,7 +2566,7 @@ Listing of Galaxy events from previous years. See the main [Events](/src/Events/
   <tr>
     <td> <em><a href='http://bit.ly/124Jm33'>Supporting Genomics and other Biological Research</a></em> </td>
     <td> </td>
-    <td rowspan=2> Richard !LeDuc </td>
+    <td rowspan=2> Richard LeDuc </td>
   </tr>
   <tr>
     <td> <em><a href='https://scholarworks.iu.edu/dspace/handle/2022/16744'>National Center for Genome Analysis Support Leverages XSEDE Resources to Support Life Scientists</a></em> </td>
@@ -3014,7 +3014,7 @@ Listing of Galaxy events from previous years. See the main [Events](/src/Events/
     <th> December 17-19 </th>
     <td> <em><a href='http://archive.genomeconference.org/File/Mp4/ISCB-Asia-2012/ISCB-Asia-2012-Sessions%20&%20Program.html'>Workflows and the Cloud for Reproducible Bioinformatics</a></em> <div class='indent'> Session includes four talks featuring Galaxy: <div class='indent'> &bull; <em><a href='http://seq.cbrc.jp/ISCB-Asia2012/sessions/reproducibleComputing/MohamedAbouelhoda_abstract.html'>Next Generation Workflow Systems on the Cloud: The Tavaxy System</a>,</em> Mohamed Abouelhoda<br /> &bull; <em><a href='http://seq.cbrc.jp/ISCB-Asia2012/sessions/reproducibleComputing/TinlapLee_abstract.html'>CBIIT GigaGalaxy: A Galaxy-based platform for large-scale genomics analysis</a>,</em> Tin-Lap Lee<br /> &bull; <em><a href='http://seq.cbrc.jp/ISCB-Asia2012/sessions/reproducibleComputing/RamilMauleon_abstract.html'>IRRI GALAXY: bioinformatics for rice scientists</a>,</em> Ramil Mauleon<br /> &bull; <em><a href='http://seq.cbrc.jp/ISCB-Asia2012/sessions/reproducibleComputing/MarcoRoos_abstract.html'>Workflow4Ever: Newton's ideas and methods are preserved forever: how about yours?</a>,</em> Marco Roos</div></div> </td>
     <td> <strong><a href='http://www.iscb.org/iscb-asia2012'>ISCB-Asia/SCCG 2012</a></strong>, Shenzhen, China </td>
-    <td> Tavaxy: <div class='indent'><a href='http://www.slideshare.net/GigaScience/mohamed-abouelhoda'>SlideShare</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISCBAsia_Tavaxy.pdf'>PDF</a></div> CBIIT: <div class='indent'><a href='http://slidesha.re/STzgRm'>SlideShare</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISCBAsia_CBIIT.pdf'>PDF</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISCBAsia_CBIIT.pptx'>PPTX</a></div> IRRI: <div class='indent'><a href='http://slidesha.re/12pvpNz'>SlideShare</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISCBAsia_IRRI.pdf'>PDF</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISCBAsia_IRRI.pptx'>PPTX</a></div> !Workflow4Ever: <div class='indent'><a href='http://slidesha.re/UMSSBY'>SlideShare</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISCBAsia_Workflow4Ever.pdf'>PDF</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISCBAsia_Workflow4Ever.pptx'>PPTX</a> </div> </td>
+    <td> Tavaxy: <div class='indent'><a href='http://www.slideshare.net/GigaScience/mohamed-abouelhoda'>SlideShare</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISCBAsia_Tavaxy.pdf'>PDF</a></div> CBIIT: <div class='indent'><a href='http://slidesha.re/STzgRm'>SlideShare</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISCBAsia_CBIIT.pdf'>PDF</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISCBAsia_CBIIT.pptx'>PPTX</a></div> IRRI: <div class='indent'><a href='http://slidesha.re/12pvpNz'>SlideShare</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISCBAsia_IRRI.pdf'>PDF</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISCBAsia_IRRI.pptx'>PPTX</a></div> Workflow4Ever: <div class='indent'><a href='http://slidesha.re/UMSSBY'>SlideShare</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISCBAsia_Workflow4Ever.pdf'>PDF</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_ISCBAsia_Workflow4Ever.pptx'>PPTX</a> </div> </td>
     <td> Scott Edmunds, Peter Li </td>
   </tr>
   <tr>
@@ -3383,28 +3383,28 @@ Listing of Galaxy events from previous years. See the main [Events](/src/Events/
     <td> <em><a href='/src/Events/IowaState2012/index.md'>Introduction to Galaxy</a></em> </td>
     <td> <a href='http://iastate.edu/'>Iowa State University</a> </td>
     <td> <a href='/src/Events/Archive/index.md#slides'>Slides</a> </td>
-    <td> DaveClements </td>
+    <td> <a href="/src/DaveClements/index.md">DaveClements</a> </td>
   </tr>
   <tr>
     <th> April 19 </th>
     <td> <em><a href='/src/Events/Uiowa2012/index.md'>Introduction to Galaxy</a></em> </td>
     <td> <a href='http://uiowa.edu/'>University of Iowa</a> </td>
     <td> <a href='/src/Events/Archive/index.md#slides'>Slides</a> </td>
-    <td> DaveClements, Ann Black-Ziegelbein </td>
+    <td> <a href="/src/DaveClements/index.md">DaveClements</a>, Ann Black-Ziegelbein </td>
   </tr>
   <tr>
     <th> April 12-13 </th>
     <td> <em><a href='/src/Events/JohnsHopkins2012/index.md'>Introduction to Galaxy</a></em> </td>
     <td> <a href='http://jhmi.edu/'>Johns Hopkins University</a> </td>
     <td> <a href='/src/Events/Archive/index.md#slides'>Slides</a> </td>
-    <td> DaveClements </td>
+    <td> <a href="/src/DaveClements/index.md">DaveClements</a> </td>
   </tr>
   <tr>
     <th> April 11 </th>
     <td> <em><a href='/src/Events/UMaryland2012/index.md'>Introduction to Galaxy</a></em> </td>
     <td> <a href='http://umd.edu/'>University of Maryland</a> </td>
     <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_UMarylandWorkshop.pdf'>Slides</a> </td>
-    <td> DaveClements </td>
+    <td> <a href="/src/DaveClements/index.md">DaveClements</a> </td>
   </tr>
   <tr>
     <th> April 5-6 </th>

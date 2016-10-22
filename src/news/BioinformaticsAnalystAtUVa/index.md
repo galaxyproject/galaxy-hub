@@ -9,4 +9,4 @@ Director
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-02-24</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

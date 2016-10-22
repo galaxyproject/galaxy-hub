@@ -41,4 +41,4 @@ If you find that you require additional resources, please consider alternative G
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-08-22</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

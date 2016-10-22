@@ -2,7 +2,7 @@
   <tr>
     <td style=" border: none; text-align: center; vertical-align: middle;"> <br /><a href='http://sdsu.edu/'><img src="/src/Images/Logos/SDSULogo.jpg" alt="San Diego State University" height="150" /></a> </td>
     <td style=" border: none; width: 5%;"> </td>
-    <td style=" border: none;"> <div class='title'>Galaxy Workshops</div></strong>January 15, 2015<br /><br />9:00-11:00: Introductory<br />&nbsp;1:30-&nbsp;3:30: Advanced<strong><br /><br />Instructor: <a href='/src/DaveClements/index.md'>Dave Clements</a><br />Location TBD<br /><a href='http://sdsu.edu/'>San Diego State University</a><br />San Diego, California, United States </td>
+    <td style=" border: none;"> <div class='title'>Galaxy Workshops</div><strong>January 15, 2015<br /><br />9:00-11:00: Introductory<br />&nbsp;1:30-&nbsp;3:30: Advanced</strong><br /><br />Instructor: <a href='/src/DaveClements/index.md'>Dave Clements</a><br />Location TBD<br /><a href='http://sdsu.edu/'>San Diego State University</a><br />San Diego, California, United States </td>
   </tr>
 </table>
 
@@ -39,19 +39,19 @@ There will be an introductory workshop in the morning, and an advanced workshop 
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td> </strong>Welcome<strong><div class='indent'>Introductions and logistics</div> </td>
+    <td> <strong>Welcome</strong><div class='indent'>Introductions and logistics</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:10 </th>
-    <td> </strong>Basic Analysis with Galaxy<strong><div class='indent'>Walk through a worked, hands-on example demonstrating basic analysis with Galaxy</div> </td>
+    <td> <strong>Basic Analysis with Galaxy</strong><div class='indent'>Walk through a worked, hands-on example demonstrating basic analysis with Galaxy</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:45 </th>
-    <td> </strong>Galaxy Project Overview<strong><div class='indent'>Introduction to Galaxy and the Galaxy</div> </td>
+    <td> <strong>Galaxy Project Overview</strong><div class='indent'>Introduction to Galaxy and the Galaxy</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
-    <td> </strong>Done<strong> </td>
+    <td> <strong>Done</strong> </td>
   </tr>
 </table>
 
@@ -63,15 +63,15 @@ There will be an introductory workshop in the morning, and an advanced workshop 
 <table>
   <tr>
     <th style=" text-align: right;"> 1:00 </th>
-    <td> </strong>Welcome<strong><div class='indent'>Introductions and logistics</div> </td>
+    <td> <strong>Welcome</strong><div class='indent'>Introductions and logistics</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 1:40 </th>
-    <td> </strong>Advanced Usage: RNA-Seq Example<strong><div class='indent'>Walk through a worked, hands-on example demonstrating RNA-Seq analysis with Galaxy</div> </td>
+    <td> <strong>Advanced Usage: RNA-Seq Example</strong><div class='indent'>Walk through a worked, hands-on example demonstrating RNA-Seq analysis with Galaxy</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:30 </th>
-    <td> </strong>Done<strong> </td>
+    <td> <strong>Done</strong> </td>
   </tr>
 </table>
 
