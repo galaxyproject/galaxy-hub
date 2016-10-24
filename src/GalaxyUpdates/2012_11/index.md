@@ -80,7 +80,7 @@ These papers were among [44 papers added to the Galaxy CiteULike group](http://w
 
 ## New Trello Issue Board
 
-The Galaxy project has a [new issue tracking system](http://bit.ly/gxytrello), implemented with [Trello](http://trello.com).  *To [report an issue](/src/Issues/index.md#create-an-issue)*, fill out the form at **http://galaxyproject.org/trello** and submit (use markdown for formatting, if desired).  You can also *[comment on](/src/Issues/index.md#add-a-comment) and [vote for issues](/src/Issues/index.md#vote) directly* on the [Trello issue board](http://bit.ly/gxytrello) itself.
+The Galaxy project has a [new issue tracking system](http://bit.ly/gxytrello), implemented with [Trello](http://trello.com).  *To [report an issue](/src/Issues/index.md#create-an-issue)*, fill out the form at **http://galaxyproject.org/trello''' and submit (use markdown for formatting, if desired).  You can also ''[comment on](/src/Issues/index.md#add-a-comment) and [vote for issues](/src/Issues/index.md#vote) directly* on the [Trello issue board](http://bit.ly/gxytrello) itself.
 
 The same guidelines for creating issues used previously apply here as well - report software issues and change requests, but get support and ask questions on the mailing list: [galaxy-dev@bx.psu.edu](http://dev.lists.galaxyproject.org/).  
 
@@ -91,12 +91,12 @@ All open [galaxy-central bitbucket issues](https://bitbucket.org/galaxy/galaxy-c
 
 ## Who's Hiring
 
-<div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
+<div class='right'><img src="/src/Images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * [Computational Biologist](http://bit.ly/R2ZJoW) @ the [Harvard Stem Cell Institute's (HSCI)](http://www.hsci.harvard.edu/)[Center for Stem Cell Bioinformatics](http://www.hsci.harvard.edu/research/center-stem-cell-bioinformatics)
 * [Bioinformatician/Statistician opening](http://bit.ly/X7Hl30) at EMBL Heidelberg, Germany  
-* [offre CDD INRA Versailles](http://bit.ly/TKoV9h) - developpement chaine de traitements !RnaSeq sous Galaxy - France Genomique
+* [offre CDD INRA Versailles](http://bit.ly/TKoV9h) - developpement chaine de traitements RnaSeq sous Galaxy - France Genomique
 * The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs @ Penn State and Emory
 
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
@@ -141,7 +141,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th rowspan=2 style=" text-align:center;"> November 6-10 </th>
     <td> <em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#9'>Galaxy 101: Data Integration, Analysis and Sharing</a></em><div class='indent red'>Sold out</div> </td>
-    <td rowspan=2 style=" text-align:center;"> </strong><a href='http://www.ashg.org/2012meeting/'>American Society of Human Genetics (ASHG)</a><strong>, San Francisco, California, United States </td>
+    <td rowspan=2 style=" text-align:center;"> <strong><a href='http://www.ashg.org/2012meeting/'>American Society of Human Genetics (ASHG)</a></strong>, San Francisco, California, United States </td>
     <td rowspan=2 style=" text-align:center;"> <a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a>, <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
@@ -170,19 +170,19 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> January 12-16 </th>
-    <td> </strong><a href='http://www.intlpag.org/'>Plant and Animal Genome (PAG 2013)</a><strong> </td>
+    <td> <strong><a href='http://www.intlpag.org/'>Plant and Animal Genome (PAG 2013)</a></strong> </td>
     <td> San Diego, California, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 28 - February 1 </th>
-    <td> </strong><em><a href='http://bit.ly/PmKgUI'>Phylotastic Hackathon</a><strong></em><div class='indent red'><a href='http://tinyurl.com/PhyloTastic2'>Apply by November 16</a></div>  </td>
+    <td> <strong><em><a href='http://bit.ly/PmKgUI'>Phylotastic Hackathon</a></strong></em><div class='indent red'><a href='http://tinyurl.com/PhyloTastic2'>Apply by November 16</a></div>  </td>
     <td> <a href='http://bio5.arizona.edu/about-bio5'>Tucson, Arizona, United States</a> </td>
     <td> Arlin Stoltzfus </td>
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> </strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
+    <td> <strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>

@@ -91,7 +91,7 @@ The **[Galaxy Australasia Meeting (GAMe 2017)](http://www.embl-abr.org.au/GAMe20
      Morning and afternoon sessions covering 4 topics in two parallel tracks
   *4-5 February* 
      **Meeting**<br />
-     A two day meeting of the Galaxy !AustralAsian communities featuring accepted and invited talks, posters and panel discussions on best practices, data intensive research, and the computational infrastructure to support it.
+     A two day meeting of the Galaxy AustralAsian communities featuring accepted and invited talks, posters and panel discussions on best practices, data intensive research, and the computational infrastructure to support it.
   *6-9 February*
      **Admin Training**<br />
      Four days of intense hands-on training on Galaxy Administration, based on the [Galaxy Admin Training](/src/Events/AdminTraining2016/index.md) offered in the US in November.
@@ -117,49 +117,49 @@ There are [a plentitude of Galaxy related events coming up](/src/Events/index.md
   </tr>
   <tr>
     <th> July 4-8 </th>
-    <td> </em><a href='http://bioinformatics.org.au/ws16/program/'>An introduction to Galaxy with the NeCTAR Genomics Virtual Laboratory Workshop</a><em> </td>
+    <td> <em><a href='http://bioinformatics.org.au/ws16/program/'>An introduction to Galaxy with the NeCTAR Genomics Virtual Laboratory Workshop</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Australia/index.md) <a href='http://bioinformatics.org.au/ws16/'>2016 Winter School in Mathematical & Computational Biology</a>, University of Queensland, Brisbane, Australia </td>
     <td> <a href='https://www.rcc.uq.edu.au/genomics-virtual-lab'>Igor Makunin, Derek Benson</a> </td>
   </tr>
   <tr>
     <th> July 6-7 </th>
-    <td> </em><a href='https://www.open-bio.org/wiki/Codefest_2016'>BOSC Codefest 2016</a><em> </td>
+    <td> <em><a href='https://www.open-bio.org/wiki/Codefest_2016'>BOSC Codefest 2016</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) Orlando, Florida, United States </td>
     <td> Brad Chapman </td>
   </tr>
   <tr>
     <th> July 8-9 </th>
-    <td> </em><a href='/src/Events/ISMB2016/index.md'>BOSC 2016</a><em> </td>
+    <td> <em><a href='/src/Events/ISMB2016/index.md'>BOSC 2016</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md)  <a href='http://www.iscb.org/ismb2016'>ISMB 2016</a>, Orlando, Florida, United States </td>
     <td> See <a href='/src/Events/ISMB2016/index.md'>presenters</a> </td>
   </tr>
   <tr>
     <th> July 8-12 </th>
-    <td> </em><a href='/src/Events/ISMB2016/index.md'>ISMB 2016</a><em> </td>
+    <td> <em><a href='/src/Events/ISMB2016/index.md'>ISMB 2016</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md)  Orlando, Florida, United States </td>
     <td> See <a href='/src/Events/ISMB2016/index.md'>presenters</a> </td>
   </tr>
   <tr>
     <th> July 13-17 </th>
-    <td> </em><a href='http://www.genetics-gsa.org/genetics/2016/cgi-bin/tagc16soe.pl#Sat'>An Introduction to Using Galaxy for Genetic Data Analysis</a><em> </td>
+    <td> <em><a href='http://www.genetics-gsa.org/genetics/2016/cgi-bin/tagc16soe.pl#Sat'>An Introduction to Using Galaxy for Genetic Data Analysis</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://www.genetics2016.org/index.htm'>The Allied Genetics Conference 2016 (TAGC)</a>, Orlando, Florida, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> July 15 </th>
-    <td> </em><a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Jul16.html'>Introduction to Galaxy Workshop</a><em> <div class='indent red'>This workshop is full</div> </td>
+    <td> <em><a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Jul16.html'>Introduction to Galaxy Workshop</a></em> <div class='indent red'>This workshop is full</div> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) University of Glasgow, Glasgow, United Kingdom </td>
     <td> <a href='http://www.polyomics.gla.ac.uk/biog-davidmeltzer.html'>David Meltzer</a> </td>
   </tr>
   <tr>
     <th> July 19-20 </th>
-    <td> </em><a href='/src/Events/Rochester2016/index.md'>Introduction to Galaxy</a><em> </td>
+    <td> <em><a href='/src/Events/Rochester2016/index.md'>Introduction to Galaxy</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) University of Rochester, Rochester, New York, United States </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> July 21 </th>
-    <td> </em><a href='/src/Events/Cornell2016/index.md'>Introduction to Galaxy</a><em> </td>
+    <td> <em><a href='/src/Events/Cornell2016/index.md'>Introduction to Galaxy</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) Cornell University, Ithaca, New York, United States </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
@@ -168,31 +168,31 @@ There are [a plentitude of Galaxy related events coming up](/src/Events/index.md
   </tr>
   <tr>
     <th> August 1-4 </th>
-    <td> </em><a href='http://icbo.cgrb.oregonstate.edu/node/41'>Integrating Ontological and Genomic Analysis with Galaxy Workshop</a><em> </td>
+    <td> <em><a href='http://icbo.cgrb.oregonstate.edu/node/41'>Integrating Ontological and Genomic Analysis with Galaxy Workshop</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://icbo.cgrb.oregonstate.edu/'>ICBO 2016</a>, Corvallis, Oregon, United States </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 9-10 </th>
-    <td> </em>Introduction to Galaxy Workflows<em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/World/index.md) <a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home'>Workflows Workshop</a>, </em><a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home/call-for-host-sites'>Distributed</a><em> </td>
+    <td> <em>Introduction to Galaxy Workflows</em> </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/World/index.md) <a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home'>Workflows Workshop</a>, <em><a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home/call-for-host-sites'>Distributed</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 12 </th>
-    <td> </em><a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Aug16.html'>Introduction to Galaxy Workshop</a><em> </td>
+    <td> <em><a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Aug16.html'>Introduction to Galaxy Workshop</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) University of Glasgow, Glasgow, United Kingdom </td>
     <td> <a href='http://www.polyomics.gla.ac.uk/biog-davidmeltzer.html'>David Meltzer</a> </td>
   </tr>
   <tr>
     <th> August 18 </th>
     <td> <a href='/src/Community/GalaxyAdmins/Meetups/2016_08_18/index.md'>GalaxyAdmins Web Meetup</a> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/World/index.md)  </em><a href='/src/Community/GalaxyAdmins/Meetups/2016_08_18/index.md'>Online</a><em> </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/World/index.md)  <em><a href='/src/Community/GalaxyAdmins/Meetups/2016_08_18/index.md'>Online</a></em> </td>
     <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 29 - September 2 </th>
-    <td> </em><a href='https://registration.genomecenter.ucdavis.edu/events/Aug_2016_Bioinformatics_Galaxy_Workshop/'>Using Galaxy for Analysis of RNA-Seq, Exome-Seq, and Variants</a><em> </td>
+    <td> <em><a href='https://registration.genomecenter.ucdavis.edu/events/Aug_2016_Bioinformatics_Galaxy_Workshop/'>Using Galaxy for Analysis of RNA-Seq, Exome-Seq, and Variants</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) Davis, California, United States </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href="mailto:training.bioinformatics@ucdavis.edu">UC Davis Bioinformatics Training Program</a> </td>
   </tr>
@@ -201,19 +201,19 @@ There are [a plentitude of Galaxy related events coming up](/src/Events/index.md
   </tr>
   <tr>
     <th> September 3-7 </th>
-    <td> </em><a href='http://www.eccb2016.org/programme/tutorials/t2/'>Tutorial: Scientific workflows under Galaxy. Use case: multiple genome comparison</a><em> </td>
+    <td> <em><a href='http://www.eccb2016.org/programme/tutorials/t2/'>Tutorial: Scientific workflows under Galaxy. Use case: multiple genome comparison</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='http://www.eccb2016.org/'>European Conference on Computational Biology (ECCB 2016)</a>, The Hague, Netherlands </td>
     <td> <a href='http://www.ac.uma.es/~ots/'>Oswaldo Trelles Salazar</a> </td>
   </tr>
   <tr>
     <th> September 12-16 </th>
-    <td> </em><a href='http://www.france-bioinformatique.fr/fr/evenements/summer_school_metagenomics'>Summer School 2016 in Metagenomics</a><em> </td>
+    <td> <em><a href='http://www.france-bioinformatique.fr/fr/evenements/summer_school_metagenomics'>Summer School 2016 in Metagenomics</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Institut Pasteur, Paris, France </td>
     <td> <a href='http://www.france-bioinformatique.fr/fr/evenements/summer_school_metagenomics'>Contacts</a> </td>
   </tr>
   <tr>
     <th> September 19-23 </th>
-    <td> </em><a href='https://drive.google.com/file/d/0Bw3CPLmTKRT8V1p0QlU5QnYyS28/view'>High Throughput Sequencing (HTS) Data Analyses for Scientists</a><em> <div class='indent red'>This workshop is full</div></td>
+    <td> <em><a href='https://drive.google.com/file/d/0Bw3CPLmTKRT8V1p0QlU5QnYyS28/view'>High Throughput Sequencing (HTS) Data Analyses for Scientists</a></em> <div class='indent red'>This workshop is full</div></td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Freiburg, Germany </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href="mailto:galaxy@informatik.uni-freiburg.de">Contact</a> </td>
   </tr>
@@ -222,19 +222,19 @@ There are [a plentitude of Galaxy related events coming up](/src/Events/index.md
   </tr>
   <tr>
     <th> October 18-20 </th>
-    <td> </em><a href='http://www.france-bioinformatique.fr/en/evenements/galaxy4bioinformatics'>Galaxy4Bioinformatics</a><em> </td>
+    <td> <em><a href='http://www.france-bioinformatique.fr/en/evenements/galaxy4bioinformatics'>Galaxy4Bioinformatics</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Lyon, France </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='http://www.france-bioinformatique.fr/en/node/17'>Contacts</a> </td>
   </tr>
   <tr>
     <th> October 20 </th>
-    <td> </em><a href='/src/Events/Switzerland2016/index.md'>(third Swiss) Galaxy Workshop</a><em> </td>
+    <td> <em><a href='/src/Events/Switzerland2016/index.md'>(third Swiss) Galaxy Workshop</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='/src/Events/SG2016/index.md'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
     <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/BjoernGruening/index.md'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <th> October 21 </th>
-    <td> </em><a href='/src/Events/Germany2016/index.md'>(second German) Galaxy Developers Day</a><em> </td>
+    <td> <em><a href='/src/Events/Germany2016/index.md'>(second German) Galaxy Developers Day</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='/src/Events/SG2016/index.md'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
     <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/BjoernGruening/index.md'>Bjoern Gruening</a> </td>
   </tr>
@@ -243,22 +243,22 @@ There are [a plentitude of Galaxy related events coming up](/src/Events/index.md
   </tr>
   <tr>
     <th> November 7-8 </th>
-    <td> </strong><a href='/src/Events/AdminTraining2016/index.md'>Galaxy Admin Training: Introduction</a><strong> </td>
+    <td> <strong><a href='/src/Events/AdminTraining2016/index.md'>Galaxy Admin Training: Introduction</a></strong> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) Salt Lake City, Utah, United States </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='/src/GalaxyTeam/index.md'>Galaxy Team</a> </td>
   </tr>
   <tr>
     <th> November 9-11 </th>
-    <td> </strong><a href='/src/Events/AdminTraining2016/index.md'>Galaxy Admin Training: Advanced</a><strong> </td>
+    <td> <strong><a href='/src/Events/AdminTraining2016/index.md'>Galaxy Admin Training: Advanced</a></strong> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) Salt Lake City, Utah, United States </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='/src/GalaxyTeam/index.md'>Galaxy Team</a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" text-align: center; background-color: #eef;"> <span style="font-size: larger;"> </strong>2017<strong> </span> </td>
+    <td colspan=4 style=" text-align: center; background-color: #eef;"> <span style="font-size: larger;"> <strong>2017</strong> </span> </td>
   </tr>
   <tr>
     <th> February 3-9 </th>
-    <td> </strong><a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a><strong> </td>
+    <td> <strong><a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a></strong> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Australia/index.md) University of Melbourne, Victoria, Australia </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
   </tr>
@@ -267,7 +267,7 @@ There are [a plentitude of Galaxy related events coming up](/src/Events/index.md
   </tr>
   <tr>
     <th> June 26-30 </th>
-    <td> </strong><a href='https://gcc2017.sciencesconf.org/'>2017 Galaxy Community Conference (GCC2017)</a><strong> </td>
+    <td> <strong><a href='https://gcc2017.sciencesconf.org/'>2017 Galaxy Community Conference (GCC2017)</a></strong> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Montpellier, France </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
@@ -369,7 +369,7 @@ The new papers were tagged with:
 
 # Who's Hiring
 
-<div class='right'><br />![Please Help! Yes you!](/src/Images/GalaxyIsExpandingCloud.png)</div>
+<div class='right'><br /><img src="/src/Images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 * [PhD student or postdoctoral researcher](http://www.uni-freiburg.de/verwaltung/stellenboerse/?erf=y&stellenid=9837&layout=v4), University of Freiburg, Freiburg, Germany.
@@ -452,9 +452,9 @@ And one [new set of Semi-Public Galaxy server](/src/SemiPublicGalaxyServers/inde
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </strong> </td>
   </tr>
 </table>
 
@@ -531,9 +531,9 @@ Galaxy now detects and supports many molecular datatypes. See [PR 1941](https://
 
 <table>
   <tr>
-    <td style=" border: none;"> <span style="font-size: larger;"> Github </span> <br /><br /></strong>New<strong><br /><code>% git clone -b master https://github.com/galaxyproject/galaxy.git</code><br /><br />U</strong>pdate to latest stable release<strong><br /><code>% git checkout master && git pull --ff-only origin master</code><br /><br /></strong>Update to exact version<strong><br /><code>% git checkout v16.04</code> </td>
+    <td style=" border: none;"> <span style="font-size: larger;"> Github </span> <br /><br /><strong>New</strong><br /><code>% git clone -b master https://github.com/galaxyproject/galaxy.git</code><br /><br />U<strong>pdate to latest stable release</strong><br /><code>% git checkout master && git pull --ff-only origin master</code><br /><br /><strong>Update to exact version</strong><br /><code>% git checkout v16.04</code> </td>
     <td style=" vertical-align: top; border: none; width: 10%;"> </td>
-    <td style=" vertical-align: top; border: none;"> <span style="font-size: larger;"> !BitBucket </span> <br /><br /></strong>Upgrade<strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.04</code> </td>
+    <td style=" vertical-align: top; border: none;"> <span style="font-size: larger;"> BitBucket </span> <br /><br /><strong>Upgrade</strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.04</code> </td>
   </tr>
   <tr>
     <td colspan=3 style=" border: none;"> See the <a href='/src/Admin/GetGalaxy/index.md'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
@@ -550,7 +550,7 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 <div class='right'><a href='/src/CloudMan/index.md'><img src="/src/Images/GalaxyLogos/cloudman-logo.jpg" alt="CloudMan" width="300" /></a></div>
 
-**We just released an update to Galaxy !CloudMan on AWS.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
+**We just released an update to Galaxy CloudMan on AWS.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
 
 This is a minor update release with the following changes:
 * Galaxy 16.04 update

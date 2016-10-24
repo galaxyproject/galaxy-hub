@@ -9,7 +9,7 @@ The [GalaxyAdmins group (formerly GalaxyCzars)](/src/Community/GalaxyAdmins/inde
 
 *Note: Answers have been put into various categories, depending on content.  Some answers covered multiple areas and have been split up.  If you disagree with the categorization of a particular answer, please feel free to move it elsewhere.  This is a wiki, after all.*
 
-The original responses, minus name, institution and email are **[also available](ATTACHMENT_URLGalaxyCzarsSurveySpring2012.xls)**.
+The original responses, minus name, institution and email are **[also available](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyCzarsSurveySpring2012.xls)**.
 
 
 
@@ -54,7 +54,7 @@ The original responses, minus name, institution and email are **[also available]
 ### Standalone Server
 
 1. We are currently running Galaxy on a standalone server but we are trying to integrate it within our computing cluster running LSF.
-1. We haven't installed it yet but we are planning to use a standalone workstation - Dell C6145 system using the 16-core AMD processors.  This chassis includes two discrete systems, each with 64 2.3 ghz cpu cores, 128GB RAM, and 9 2.5” drives and we'll be using one chassis for the Galaxy install along with !LifeScope from Life Technologies.
+1. We haven't installed it yet but we are planning to use a standalone workstation - Dell C6145 system using the 16-core AMD processors.  This chassis includes two discrete systems, each with 64 2.3 ghz cpu cores, 128GB RAM, and 9 2.5” drives and we'll be using one chassis for the Galaxy install along with LifeScope from Life Technologies.
 1. Standalone workstation, 8 cores , 16 GB RAM
 1. We use a standalone server with four quad-core Intel X7350 and 128GB memory. This server is currently also used for individual logins. We are in the process of making it the dedicated Galaxy server on which Galaxy is the only service running.
 1. Galaxy installed for local use in our group (4 persons) is running on a Centos 6.2 virtual machine on Redhat6.2 host using KVM. The Galaxy virtual machine has 8 cores and 24GB RAM, and is run on a dedicated logical volume. The host has 24 cores and 96GB RAM. 
@@ -146,7 +146,7 @@ The original responses, minus name, institution and email are **[also available]
 | |  We are using a MD1000 for testing but will implement production on Panasas storage.  |  We have setup default user quotas of 200GB.  |   | 
 | 16TB |  NFS; a computer node with 16TB storage space is used as the file server of the computer cluster.  |  We are not using quotas yet since only 10% of the total storage space is being used so far. We will think about purging method when more storage space is being used in the future.  |   | 
 | |  Dell R515 fileserver; md3200 and md1200 disk array expansion units.<br />nfs over a 10GB ethernet backplane for the blades  |  Run default purge/delete scripts on a cron job<br />Yell at users to clean up old junk files occasionally<br />run fdupes and try to figure out all the redundancy.  |   | 
-| |  We have a !BlueArc that we're using at present, and an array of NAS devices to provide support to that.  |   |   | 
+| |  We have a BlueArc that we're using at present, and an array of NAS devices to provide support to that.  |   |   | 
 | 15TB |  Direct attached 15TB - plus, the server has access to other NFS mounted storage (ie for data libraries).  |  We run the provided clean-up scripts (set to '90 days') after each code update (which happens four times a year) - no user quotas used.  |   | 
 | 36 TB<br />50 TB |  Our HPC uses infiniband networking and lustre storage for high speed access.   We are looking to dedicate an initial 36 TB of lustre scratch space for Galaxy computational access.  |  The lustre space is not backed up and is considered temporary.  We don't have quotas, but will be looking at last access time and auto cleaning up datasets if there is data that has not been accessed in the last 30 days (we plan to first send out emails warning of this before removal giving users the chance to download or access).   We have a 50 TB ZFS box being installed right now and we will be testing out an infiniband network card with it.  This space will be used to hold our data libraries which will be more permanent store for Galaxy data.  |   | 
 | 3TB |  The Galaxy database is located on a logical volume of the host machine and is exported to the Galaxy virtual machine through nfs. Total storage capacity for the Galaxy database is about 3TB.  |  User quotas are set up on Galaxy.<br />In addition, everybody got 200 GB network space, accessible on their laptops, and which can imported into a data library. This is for easy big data upload to Galaxy.  |   | 
@@ -199,7 +199,7 @@ The original responses, minus name, institution and email are **[also available]
 
 1. custom tools
 1. We run a number of in house tool wrappers (most available on the Galaxy Tool Shed), and are actively using and contributing to the 'beta' job splitting code (for BLAST).
-1. We developed several tool wrappers for some tools that are frequently used here, for instance, !MrBayes, Migrate, etc.
+1. We developed several tool wrappers for some tools that are frequently used here, for instance, MrBayes, Migrate, etc.
 1. Yes - a suite of digital gene expression tools based on DESeq and edgeR soon to be pushed to the toolshed.
 1. Proteomics PTM analysis tools.
 1. I have add new tools
@@ -226,7 +226,7 @@ The original responses, minus name, institution and email are **[also available]
 
 ### Error Handling Customization
 
-1. Tolerate cluster communication errors: The galaxy's job runner used to mark jobs in 'abort' state as soon as the cluster was unreachable (even for a second). These 'aborted' jobs would continue to run on the cluster however the galaxy server would have not recover or re-monitor their state. We had fixed it locally by ignoring '!DrmCommunicationException' returned by the drmaa-python library. This was later fixed in the upstream galaxy repository as well.
+1. Tolerate cluster communication errors: The galaxy's job runner used to mark jobs in 'abort' state as soon as the cluster was unreachable (even for a second). These 'aborted' jobs would continue to run on the cluster however the galaxy server would have not recover or re-monitor their state. We had fixed it locally by ignoring 'DrmCommunicationException' returned by the drmaa-python library. This was later fixed in the upstream galaxy repository as well.
 1. Email notifications for failed jobs: As mentioned in an issue 'Capturing failed/aborted jobs by the scheduler' the galaxy doesn't report failed or aborted jobs by the scheduler resulting in 'false positives' for user and sometimes failures in down-stream analysis. We haven't been able to resolve this issue however we send out email notifications for such failed jobs by scanning SGE's accounting file for failed jobs and then querying galaxy database to find out job specific details - user, tool etc.
 
 ### Other Customization
@@ -361,7 +361,7 @@ The original responses, minus name, institution and email are **[also available]
 1. Wish list: A way to submit an entire workflow as a single cluster job - workflows with many steps can take a lot of extra wall-time due to queue-wait. Some way to submit the entire workflow as a single cluster task would be very desirable.
 1. Workflows are not flexible enough 
 1. Workflows can not be called as "subroutines" by other workflows. This forces duplication of sub-workflows, and creates an un-maintainable mess.
-1. From the developer point-of-view, workflows with multiple inputs, !MapReduce-like functionality (though these are apparently on the horizon).  Dealing with user large data in a conservative manner, e.g. less copying, more linking.  We haven't had any user issues yet, but we do anticipate things popping up :)
+1. From the developer point-of-view, workflows with multiple inputs, MapReduce-like functionality (though these are apparently on the horizon).  Dealing with user large data in a conservative manner, e.g. less copying, more linking.  We haven't had any user issues yet, but we do anticipate things popping up :)
 1. There should be an easier way to interoperate with other instances such as the public Galaxy instance, so users could migrate their data and records easier.
 
 ### Error Handling Limitations
@@ -513,7 +513,7 @@ The original responses, minus name, institution and email are **[also available]
 1. *My favourite food.*
 1. Nothing at the moment.
 1. Covered it all really.  Nice job :)
-1. We are maintaining these notes for teleconference QA on our wiki as well: https://dev.uabgrid.uab.edu/wiki/GalaxyTeleconference-2012-05
+1. We are maintaining these notes for teleconference QA on our wiki as well: https://dev.uabgrid.uab.edu/wiki[/GalaxyTeleconference](/src/Community/GalaxyAdmins/Surveys/2012/GalaxyTeleconference/index.md)-2012-05
 1. I am ready and willing to share the knowledge and experience I have gathered so far.
 1. I appreciate this effort
 

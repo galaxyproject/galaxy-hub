@@ -15,4 +15,4 @@ If your interests lean more towards toolkits, I would like to point out that the
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-01-18</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

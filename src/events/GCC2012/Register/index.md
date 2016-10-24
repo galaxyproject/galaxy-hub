@@ -1,4 +1,4 @@
-#acl +VettedEditorGroup:read,write +All:read
+#acl +[VettedEditorGroup](/src/VettedEditorGroup/index.md):read,write +All:read
 PLACEHOLDER_INCLUDE(/src/Events/GCC2012/PageHeader/index.md)
 
 PLACEHOLDER_INCLUDE(/src/Events/GCC2012/Register/LinkBox/index.md)
@@ -80,7 +80,7 @@ If you need a visa to travel to the United States for the conference, please fol
 * If you do need a visa, you will most likely need to apply for a B-1 Visa.  
   * Go to the [US Department of State Visa Home Page](http://travel.state.gov/visa/visa_1750.html) to learn more about visa categories, and how to apply for them.
   * If you cannot determine your visa category from the link above, please contact the nearest [US Embassy or Consulate](http://www.usembassy.gov/).
-  * Use this [General Visa Letter](ATTACHMENT_URLGeneralVisaLetter.pdf) when applying for a visa.
+  * Use this [General Visa Letter](PLACEHOLDER_ATTACHMENT_URL/src/GeneralVisaLetter.pdf) when applying for a visa.
 
 Please contact [mailto:outreach@galaxyproject.org?subject=GCC%202012%20Visa](Galaxy Outreach) if you have any questions or special requests.
 

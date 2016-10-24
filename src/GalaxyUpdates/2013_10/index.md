@@ -21,7 +21,7 @@ Welcome to the October 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a mo
 
 ## CNIC.DarwinTree
 
-[CNIC.DarwinTree](http://galaxy.csdb.cn:8000/) is a molecular data analysis and application environment for !DarwinTree, GSQCS, iDNAbar, NANNO, IPIP, and many other tools for phylogenetic analysis.
+[CNIC.DarwinTree](http://galaxy.csdb.cn:8000/) is a molecular data analysis and application environment for DarwinTree, GSQCS, iDNAbar, NANNO, IPIP, and many other tools for phylogenetic analysis.
 
 [CNIC.DarwinTree](http://galaxy.csdb.cn:8000/) is supported by the [Chinese Academy of Sciences Computer Network Information Center (中国科学院计算机网络信息中心)](http://www.cnic.cn/), and has [mailto:support AT cnic DOT cn](Email support) as well.
 
@@ -58,7 +58,7 @@ The server is hosted by the [Gronemeyer lab](http://igbmc.fr/research/department
 <div class='right solid'><a href='http://fisbio.fcfrp.usp.br:8080/'><img src="/src/PublicGalaxyServers/USP-FCFRP.png" alt="Laboratory of Biological Physics at USP-FCFRP" width="200" /></a></div>
 
 The [Laboratory of Biological Physics at USP-FCFRP](http://fisbio.fcfrp.usp.br:8080/) Galaxy server has these tools:
- **!ProtPred-GROMACS**: *Ab initio* protein structure prediction framework which uses evolutionary algorithms to optimize objective functions such as potential energy, number of hydrogen bonds and solvent accessible surface area. 
+ **ProtPred-GROMACS**: *Ab initio* protein structure prediction framework which uses evolutionary algorithms to optimize objective functions such as potential energy, number of hydrogen bonds and solvent accessible surface area. 
     2PG: Faster and simpler algorithm in which one objective function is optimized<br />
     3PG: A more robust approach in which multiple objective functions are optimized at the same time
  **Protein Validation**: Check the integrity of a PDB file<br />
@@ -189,7 +189,7 @@ In the next 3 months there are no less than 13 talks and workshops at at least 5
   </tr>
   <tr>
     <th> September&nbsp;28 - October&nbsp;1 </th>
-    <td> </em>Galaxy Workshop<em> </td>
+    <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
     <td> <a href='/src/RossLazarus/index.md'>Ross Lazarus</a>, <a href='/src/Dan/index.md'>Dan Blankenberg</a> </td>
   </tr>
@@ -197,61 +197,61 @@ In the next 3 months there are no less than 13 talks and workshops at at least 5
     <th> October 13-16 </th>
     <td> <a href='http://amataconference.com.au/2013/conference-program/pre-conference-workshops/'>AMATA early career researcher workshop</a> </td>
     <td> <a href='http://amataconference.com.au/2013/'>AMATA 2013</a>, Gold Coast, Queensland, Australia </td>
-    <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a>, Annette !McGrath </td>
+    <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a>, Annette McGrath </td>
   </tr>
   <tr>
     <th rowspan=6> October 20-25 </th>
-    <td> </em><a href='http://eresearchau.files.wordpress.com/2013/08/eresau2013_submission_5.pdf'>Genomics Virtual Laboratory Workshop</a><em> </td>
-    <td rowspan=6> </strong><a href='http://conference.eresearch.edu.au/eres2013/workshops-2013/'>eResearch Australasia 2013</a><strong>, Brisbane, Australia </td>
+    <td> <em><a href='http://eresearchau.files.wordpress.com/2013/08/eresau2013_submission_5.pdf'>Genomics Virtual Laboratory Workshop</a></em> </td>
+    <td rowspan=6> <strong><a href='http://conference.eresearch.edu.au/eres2013/workshops-2013/'>eResearch Australasia 2013</a></strong>, Brisbane, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a>, Ron Horst, Andrew Lonie </td>
   </tr>
   <tr>
-    <td> </em><a href='http://eresearchau.files.wordpress.com/2013/08/eresau2013_submission_106.pdf'>Image Analysis and Processing in the Clouds using Scalable eResearch Workflow-Based System</a><em> </td>
+    <td> <em><a href='http://eresearchau.files.wordpress.com/2013/08/eresau2013_submission_106.pdf'>Image Analysis and Processing in the Clouds using Scalable eResearch Workflow-Based System</a></em> </td>
     <td> <a href='http://cloudimaging.blogspot.com.au/p/about-team.html'>Project Team</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://eresearchau.files.wordpress.com/2013/08/eresau2013_submission_32.pdf'>MILXCloud: A faster, smarter way to process Medical imaging data in the cloud</a><em> </td>
+    <td> <em><a href='http://eresearchau.files.wordpress.com/2013/08/eresau2013_submission_32.pdf'>MILXCloud: A faster, smarter way to process Medical imaging data in the cloud</a></em> </td>
     <td> <a href="mailto:Neil DOT Burdett AT csiro DOT au">Neil Burdett</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://eresearchau.files.wordpress.com/2013/08/eresau2013_submission_10.pdf'>Lessons from developing the Genomics Virtual Lab</a><em> </td>
+    <td> <em><a href='http://eresearchau.files.wordpress.com/2013/08/eresau2013_submission_10.pdf'>Lessons from developing the Genomics Virtual Lab</a></em> </td>
     <td> <a href="mailto:r DOT horst AT uq DOT edu DOT au">Ron Horst</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://eresearchau.files.wordpress.com/2013/08/eresau2013_submission_69.pdf'>Early Outcomes of the Characterisation Virtual Laboratory</a><em> </td>
+    <td> <em><a href='http://eresearchau.files.wordpress.com/2013/08/eresau2013_submission_69.pdf'>Early Outcomes of the Characterisation Virtual Laboratory</a></em> </td>
     <td> <a href="mailto:wojtek DOT goscinski AT monash DOT edu">Wojtek Goscinski</a>, <a href="mailto:anitha DOT kannan AT monash DOT edu">Anitha Kannan</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://eresearchau.files.wordpress.com/2013/08/eresau2013_submission_16-2.pdf'>The Human Communication Science Virtual Lab</a><em> </td>
+    <td> <em><a href='http://eresearchau.files.wordpress.com/2013/08/eresau2013_submission_16-2.pdf'>The Human Communication Science Virtual Lab</a></em> </td>
     <td> <a href="mailto:p DOT sefton AT uws DOT edu DOT au">Peter Sefton</a> </td>
   </tr>
   <tr>
     <th> November 4 </th>
-    <td> </em><a href='http://www.qfab.org/event/rna-seq-analysis-using-galaxy-workshop/'>RNA-Seq Analysis using Galaxy workshop</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/rna-seq-analysis-using-galaxy-workshop/'>RNA-Seq Analysis using Galaxy workshop</a></em> </td>
     <td> The University of Queensland, St Lucia, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> November 6 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-an-introduction-to-variant-detection-using-galaxy/'>Workshop: An Introduction to Variant Detection using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-an-introduction-to-variant-detection-using-galaxy/'>Workshop: An Introduction to Variant Detection using Galaxy</a></em> </td>
     <td> Children’s Medical Research Institute, Westmead, New South Wales, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> November 7 </th>
-    <td> </em><a href='http://www.qfab.org/event/rna-seq-analysis-using-galaxy-4/'>RNA-Seq Analysis using Galaxy workshop</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/rna-seq-analysis-using-galaxy-4/'>RNA-Seq Analysis using Galaxy workshop</a></em> </td>
     <td> Children’s Medical Research Institute, Westmead, New South Wales, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> November 22 </th>
-    <td> </em><a href='http://www.qfab.org/event/variant-detection-using-galaxy-workshop/'>Variant Detection using Galaxy workshop</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/variant-detection-using-galaxy-workshop/'>Variant Detection using Galaxy workshop</a></em> </td>
     <td> The University of Queensland, St Lucia, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> December 9 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-an-introduction-to-de-novo-genome-assembly-using-galaxy/'>Workshop : An Introduction to De Novo Genome Assembly using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-an-introduction-to-de-novo-genome-assembly-using-galaxy/'>Workshop : An Introduction to De Novo Genome Assembly using Galaxy</a></em> </td>
     <td> The University of Queensland, St Lucia, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
@@ -282,93 +282,93 @@ And don't worry, you won't have to travel to Australia during its spring just to
   </tr>
   <tr>
     <th> September 30 - October 2 </th>
-    <td> </em>Analysis of Genomic Sequence Data With Galaxy<em>, part of the </em><a href='http://individualizingmedicineconference.mayo.edu/schedule/'>Cancer Care</a><em> session </td>
+    <td> <em>Analysis of Genomic Sequence Data With Galaxy</em>, part of the <em><a href='http://individualizingmedicineconference.mayo.edu/schedule/'>Cancer Care</a></em> session </td>
     <td> <a href='http://individualizingmedicineconference.mayo.edu/'>Individualizing Medicine Conference</a>, <a href='http://mayo.eduy/'>Mayo Clinic</a>, Rochester, Minnesota, United States </td>
     <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th rowspan=2> October 1-3 </th>
-    <td> </em><a href='http://www.beyond-the-genome.com/program/'>Galaxy as a platform for High-throughput Genomics</a><em> </td>
-    <td rowspan=2> </strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a><strong>, San Francisco, California, United States </td>
+    <td> <em><a href='http://www.beyond-the-genome.com/program/'>Galaxy as a platform for High-throughput Genomics</a></em> </td>
+    <td rowspan=2> <strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a></strong>, San Francisco, California, United States </td>
     <td> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.beyond-the-genome.com/program/'>Development of a genomic region database and analysis tool for the Galaxy platform</a><em> </td>
+    <td> <em><a href='http://www.beyond-the-genome.com/program/'>Development of a genomic region database and analysis tool for the Galaxy platform</a></em> </td>
     <td> <a href="mailto:Matloob DOT khushi AT sydney DOT edu DOT au">Matloob Khushi</a> </td>
   </tr>
   <tr>
     <th rowspan=2> October 7-8 </th>
-    <td> </em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>Next-Generation Sequencing Data Interpretation: Enhancing Reproducibility and Accessibility</a><em></td>
+    <td> <em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>Next-Generation Sequencing Data Interpretation: Enhancing Reproducibility and Accessibility</a></em></td>
     <td rowspan=2> <a href='http://www.gtcbio.com/conference/ngseurope-overview'>NGS & Bioinformatics Summit Europe</a>, Berlin, Germany </td>
     <td> <a href='/src/anton/index.md'>Anton Nektutenko</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>Using Galaxy to Provide a NGS Analysis Platform</a> <em> </td>
+    <td> <em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>Using Galaxy to Provide a NGS Analysis Platform</a> </em> </td>
     <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> October 8-11 </th>
-    <td> </em><a href='http://bit.ly/153avr8'>Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica</a><em> </td>
+    <td> <em><a href='http://bit.ly/153avr8'>Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica</a></em> </td>
     <td> <a href='http://www.bioinformatica.crs4.it/'>CRS4, Loc. Pixinamanna, Pula CA, Italy</a> </td>
     <td> <a href="mailto:ngs-courses@crs4.it">Paolo Uva</a> </td>
   </tr>
   <tr>
     <th> October 9-11 </th>
-    <td> </em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'>Galaxy Training Days</a><em> </td>
+    <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'>Galaxy Training Days</a></em> </td>
     <td> <a href='http://bioinfo.genotoul.fr/'>GenoToul bioinformatics facility</a>, INRA, Toulouse Auzeville, France </td>
     <td> <a href="mailto:sarah DOT maman AT toulouse AT inra AT fr">Sarah Maman</a> </td>
   </tr>
   <tr>
     <th> October 14-18 </th>
-    <td> </em><a href='/src/Events/UPretoria2013/index.md'>NGS Data Analysis and Galaxy Workshop</a><em> <div class='indent'>University of Pretoria</div> </td>
+    <td> <em><a href='/src/Events/UPretoria2013/index.md'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Pretoria</div> </td>
     <td rowspan=2> <a href='/src/Events/SAWorkshopTour2013/index.md'>2013 South Africa Galaxy Workshop Tour</a><div class='indent red'>Application deadline is 17 September</div> </td>
     <td rowspan=2> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 21-25 </th>
-    <td> </em><a href='/src/Events/UCapeTown2013/index.md'>NGS Data Analysis and Galaxy Workshop</a><em> <div class='indent'>University of Cape Town</div> </td>
+    <td> <em><a href='/src/Events/UCapeTown2013/index.md'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Cape Town</div> </td>
   </tr>
   <tr>
     <th> October 22 </th>
-    <td> </em><a href='http://bioteam.net/slipstream/galaxy-edition/galaxy-training/'>Analyzing NGS Data with Galaxy</a><em> </td>
+    <td> <em><a href='http://bioteam.net/slipstream/galaxy-edition/galaxy-training/'>Analyzing NGS Data with Galaxy</a></em> </td>
     <td> <a href='http://www.dana-farber.org/'>Dana-Farber Cancer Institute</a>, Boston, Massachusetts, United States </td>
     <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
   </tr>
   <tr>
     <th rowspan=5> October 22-26 </th>
-    <td> </em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#intro'>Introduction to Integrative Analysis with GenomeSpace</a><em> </td>
-    <td rowspan=5> </strong><a href='http://www.ashg.org/2013meeting/'>ASHG 2013</a><strong>, Boston, Massachusetts, United States </td>
+    <td> <em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#intro'>Introduction to Integrative Analysis with GenomeSpace</a></em> </td>
+    <td rowspan=5> <strong><a href='http://www.ashg.org/2013meeting/'>ASHG 2013</a></strong>, Boston, Massachusetts, United States </td>
     <td> <a href='http://www.broadinstitute.org/science/programs/cancer/icbp/integrated-team-0'>Michael Reich</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#high'>High Throughput Data Analysis and Visualization with Galaxy</a><em> <div class='indent red'>This workshop is sold out.</div> </td>
+    <td> <em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#high'>High Throughput Data Analysis and Visualization with Galaxy</a></em> <div class='indent red'>This workshop is sold out.</div> </td>
     <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.ashg.org/2013meeting/abstracts/fulltext/f130122946.htm'>Poster 1633T: Globus Genomics: Enabling high-throughput analysis and management of NGS data for neurodevelopmental disorders</a><em> </td>
+    <td> <em><a href='http://www.ashg.org/2013meeting/abstracts/fulltext/f130122946.htm'>Poster 1633T: Globus Genomics: Enabling high-throughput analysis and management of NGS data for neurodevelopmental disorders</a></em> </td>
     <td rowspan=3> <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a>, Dinanath Sulakhe, Alex Rodriguez and Paul Dave<br />And see the Globus Genomics Booth </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.ashg.org/2013meeting/abstracts/fulltext/f130121257.htm'>Poster 1530W: Implementing a High Performance, Reusable Consensus Calling Pipeline for Next Generation Sequencing using Globus Genomics</a><em> </td>
+    <td> <em><a href='http://www.ashg.org/2013meeting/abstracts/fulltext/f130121257.htm'>Poster 1530W: Implementing a High Performance, Reusable Consensus Calling Pipeline for Next Generation Sequencing using Globus Genomics</a></em> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.ashg.org/2013meeting/abstracts/fulltext/f130122827.htm'>Poster 1510T: Consensus Genotyper for Exome Sequencing: Improving the Quality of Exome Variant Genotypes</a><em> </td>
+    <td> <em><a href='http://www.ashg.org/2013meeting/abstracts/fulltext/f130122827.htm'>Poster 1510T: Consensus Genotyper for Exome Sequencing: Improving the Quality of Exome Variant Genotypes</a></em> </td>
   </tr>
   <tr>
     <th> October 31 - November 1 </th>
-    <td> </em><a href='http://www.nbic.nl/education/course-overview/pages3/1/coursedetails/advanced-ngs-course-rna-seq-data-analysis-3th-edition/'>Advanced NGS Course: RNA-Seq Data Analysis</a><em> </td>
+    <td> <em><a href='http://www.nbic.nl/education/course-overview/pages3/1/coursedetails/advanced-ngs-course-rna-seq-data-analysis-3th-edition/'>Advanced NGS Course: RNA-Seq Data Analysis</a></em> </td>
     <td> Leiden, The Netherlands </td>
     <td> <a href='http://www.nbic.nl/about-nbic/nbic-faculty/details/celia-van-gelder/'>Celia van Gelder</a>, <a href='http://www.nbic.nl/about-nbic/nbic-faculty/details/hoen-t-peter-bram-dr/'>Hoen, 't Peter-Bram</a> </td>
   </tr>
   <tr>
     <th> November 2-6 </th>
-    <td> </em><a href='https://apha.confex.com/apha/141am/webprogramadapt/Paper287924.html'>A zebrafish cloud computational resource for environmental health science research</a><em> </td>
+    <td> <em><a href='https://apha.confex.com/apha/141am/webprogramadapt/Paper287924.html'>A zebrafish cloud computational resource for environmental health science research</a></em> </td>
     <td> <a href='http://www.apha.org/meetings/AnnualMeeting/'>141st American Public Health Association (APHA) Annual Meeting</a>, Boston, Massachusetts, United States </td>
     <td> <a href='https://apha.confex.com/apha/141am/webprogramadapt/Person216879.html'>Peter Tonellato</a> </td>
   </tr>
   <tr>
     <th> November 6-12 </th>
-    <td> </em><a href='http://meetings.cshl.edu/courses/2013/c-ecg13.shtml'>Computational and Comparative Genomics Course</a><em><div class='indent red'>Application Deadline: July 15, 2013</div> </td>
+    <td> <em><a href='http://meetings.cshl.edu/courses/2013/c-ecg13.shtml'>Computational and Comparative Genomics Course</a></em><div class='indent red'>Application Deadline: July 15, 2013</div> </td>
     <td> <a href='http://cshl.edu'>Cold Spring Harbor Laboratory</a>, New York, United States </td>
     <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>

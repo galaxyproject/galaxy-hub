@@ -50,4 +50,4 @@ If you are interested, please add your name below and/or send an email to [Marti
 
 Send them to [Martin Cech](/src/Marten/index.md).
 
-CategoryBoF
+[CategoryBo](/src/CategoryBo/index.md)F

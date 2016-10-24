@@ -16,50 +16,50 @@ This page is not meant to be viewed on its own. Rather, it contains sections tha
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:00 </th>
-    <td colspan=5 style=" text-align: center; background-color: #F8F8F8 ;"> </em>Registration Opens and Catered Breakfast<em> </td>
+    <td colspan=5 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Registration Opens and Catered Breakfast</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> </strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#galaxy-code-and-storage-architecture'>Galaxy Code and Storage Architecture</a><strong> <div class='indent'><a href='/src/JamesTaylor/index.md'>James Taylor</a>, <a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
-    <td style=" vertical-align: top; background-color: #DDffcc;"> </strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#statistical-genome-analysis-with-galaxy'>Statistical Genome Analysis with Galaxy</a><strong> <div class='indent'><a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/index.html'>Geir Kjetil Sandve</a>, <a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9830'>Sveinung Gundersen</a></div></td>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> </strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#installing-and-maintaining-a-local-galaxy-server'>Installing and Maintaining a Local Galaxy Server</a><strong> <div class='indent'><a href='http://folk.uio.no/georgios'>George Magklaras</a>, <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'>Katerina Michalickova</a>, <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'>Nikolay Vazov</a></div></td>
-    <td style=" vertical-align: top; background-color: #cceeff;"> </strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#introduction-to-galaxy-and-the-galaxy-ecosystem'>Introduction to Galaxy and the Galaxy Ecosystem</a><strong> <div class='indent'><a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/JenniferJackson/index.md'>Jennifer Hillman-Jackson</a></div></td>
-    <td style=" vertical-align: top; background-color: #cceeff;"> </strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#running-galaxy-on-the-cloud'>Running Galaxy on the Cloud</a><strong> <div class='indent'><a href='/src/EnisAfgan/index.md'>Enis Afgan</a>, <a href='/src/DannonBaker/index.md'>Dannon Baker</a> </div></td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#galaxy-code-and-storage-architecture'>Galaxy Code and Storage Architecture</a></strong> <div class='indent'><a href='/src/JamesTaylor/index.md'>James Taylor</a>, <a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
+    <td style=" vertical-align: top; background-color: #DDffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#statistical-genome-analysis-with-galaxy'>Statistical Genome Analysis with Galaxy</a></strong> <div class='indent'><a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/index.html'>Geir Kjetil Sandve</a>, <a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9830'>Sveinung Gundersen</a></div></td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#installing-and-maintaining-a-local-galaxy-server'>Installing and Maintaining a Local Galaxy Server</a></strong> <div class='indent'><a href='http://folk.uio.no/georgios'>George Magklaras</a>, <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'>Katerina Michalickova</a>, <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'>Nikolay Vazov</a></div></td>
+    <td style=" vertical-align: top; background-color: #cceeff;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#introduction-to-galaxy-and-the-galaxy-ecosystem'>Introduction to Galaxy and the Galaxy Ecosystem</a></strong> <div class='indent'><a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/JenniferJackson/index.md'>Jennifer Hillman-Jackson</a></div></td>
+    <td style=" vertical-align: top; background-color: #cceeff;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#running-galaxy-on-the-cloud'>Running Galaxy on the Cloud</a></strong> <div class='indent'><a href='/src/EnisAfgan/index.md'>Enis Afgan</a>, <a href='/src/DannonBaker/index.md'>Dannon Baker</a> </div></td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
-    <td colspan=5 style=" text-align: center; background-color: #F8F8F8 ;"> </em>Catered Lunch<em> </td>
+    <td colspan=5 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Catered Lunch</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30 </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> </strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#the-galaxy-api'>The Galaxy API</a><strong> <div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a>, <a href='/src/CarlEberhard/index.md'>Carl Eberhard</a></div> </td>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> </strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#introduction-to-tool-and-data-source-configuration'>Introduction to Tool and Data Source Configuration</a><strong> <div class='indent'><a href='/src/Dan/index.md'>Dan Blankenberg</a>, <a href='/src/fubar/index.md'>Ross Lazarus</a></div> </td>
-    <td style=" vertical-align: top; background-color: #ddffcc;"> </strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#rna-seq-analysis-with-galaxy'>RNA-Seq Analysis with Galaxy</a><strong> <div class='indent'><a href='http://www.lgtc.nl/about_us/lgtc_team.php'>Jeroen F.J. Laros</a>, <a href='http://bow.web.id/'>Wibowo Arindrarto</a>, <a href='http://ngs.nbic.nl/'>Leon Mei</a> </div> </td>
-    <td style=" vertical-align: top; background-color: #DDffcc;"> </strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#statistical-genome-analysis-with-galaxy'>Statistical Genome Analysis with Galaxy</a><strong> <div class='indent'><a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/index.html'>Geir Kjetil Sandve</a>, <a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9830'>Sveinung Gundersen</a></div> </td>
-    <td style=" vertical-align: top; background-color: #cceeff;"> </strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#running-galaxy-on-the-cloud'>Running Galaxy on the Cloud</a><strong> <div class='indent'><a href='/src/EnisAfgan/index.md'>Enis Afgan</a>, <a href='/src/DannonBaker/index.md'>Dannon Baker</a></div> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#the-galaxy-api'>The Galaxy API</a></strong> <div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a>, <a href='/src/CarlEberhard/index.md'>Carl Eberhard</a></div> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#introduction-to-tool-and-data-source-configuration'>Introduction to Tool and Data Source Configuration</a></strong> <div class='indent'><a href='/src/Dan/index.md'>Dan Blankenberg</a>, <a href='/src/fubar/index.md'>Ross Lazarus</a></div> </td>
+    <td style=" vertical-align: top; background-color: #ddffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#rna-seq-analysis-with-galaxy'>RNA-Seq Analysis with Galaxy</a></strong> <div class='indent'><a href='http://www.lgtc.nl/about_us/lgtc_team.php'>Jeroen F.J. Laros</a>, <a href='http://bow.web.id/'>Wibowo Arindrarto</a>, <a href='http://ngs.nbic.nl/'>Leon Mei</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #DDffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#statistical-genome-analysis-with-galaxy'>Statistical Genome Analysis with Galaxy</a></strong> <div class='indent'><a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/index.html'>Geir Kjetil Sandve</a>, <a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9830'>Sveinung Gundersen</a></div> </td>
+    <td style=" vertical-align: top; background-color: #cceeff;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#running-galaxy-on-the-cloud'>Running Galaxy on the Cloud</a></strong> <div class='indent'><a href='/src/EnisAfgan/index.md'>Enis Afgan</a>, <a href='/src/DannonBaker/index.md'>Dannon Baker</a></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 14:30 </th>
-    <td colspan=5 style=" text-align: center; background-color: #F8F8F8 ;"> </em>Break<em> </td>
+    <td colspan=5 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Break</em> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 15:00 </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> </strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#advanced-tool-and-data-source-configuration'>Advanced Tool and Data Source Configuration</a><strong> <div class='indent'><a href='/src/fubar/index.md'>Ross Lazarus</a>, <a href='/src/Dan/index.md'>Dan Blankenberg</a> </div> </td>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> </strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#galaxy-tool-shed'>Galaxy Tool Shed</a><strong> <div class='indent'><a href='/src/greg_vonkuster/index.md'>Greg Von Kuster</a>, <a href='/src/DaveBouvier/index.md'>Dave Bouvier</a> </div> </td>
-    <td style=" vertical-align: top; background-color: #ddffcc;"> </strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#variant-and-snp-analysis-with-galaxy'>Variant and SNP Analysis with Galaxy</a><strong> <div class='indent'><a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a>, <a href='/src/anton/index.md'>Anton Nekrutenko</a> </div> </td>
-    <td style=" vertical-align: top; background-color: #ddffcc;"> </strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#rna-seq-analysis-with-galaxy'>RNA-Seq Analysis with Galaxy</a><strong> <div class='indent'><a href='http://www.lgtc.nl/about_us/lgtc_team.php'>Jeroen F.J. Laros</a>, <a href='http://bow.web.id/'>Wibowo Arindrarto</a>, <a href='http://ngs.nbic.nl/'>Leon Mei</a> </div></td>
-    <td style=" vertical-align: top; background-color: #DDffcc;"> </strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#chip-seq-analysis-with-galaxy'>ChIP-Seq Analysis with Galaxy</a><strong> <div class='indent'><a href='http://u900.curie.fr/en/profile/alban-lermine-00587'>Alban Lermine</a>, <a href='https://sites.google.com/site/valentinaboeva/'>Valentina Boeva</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#advanced-tool-and-data-source-configuration'>Advanced Tool and Data Source Configuration</a></strong> <div class='indent'><a href='/src/fubar/index.md'>Ross Lazarus</a>, <a href='/src/Dan/index.md'>Dan Blankenberg</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#galaxy-tool-shed'>Galaxy Tool Shed</a></strong> <div class='indent'><a href='/src/greg_vonkuster/index.md'>Greg Von Kuster</a>, <a href='/src/DaveBouvier/index.md'>Dave Bouvier</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #ddffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#variant-and-snp-analysis-with-galaxy'>Variant and SNP Analysis with Galaxy</a></strong> <div class='indent'><a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a>, <a href='/src/anton/index.md'>Anton Nekrutenko</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #ddffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#rna-seq-analysis-with-galaxy'>RNA-Seq Analysis with Galaxy</a></strong> <div class='indent'><a href='http://www.lgtc.nl/about_us/lgtc_team.php'>Jeroen F.J. Laros</a>, <a href='http://bow.web.id/'>Wibowo Arindrarto</a>, <a href='http://ngs.nbic.nl/'>Leon Mei</a> </div></td>
+    <td style=" vertical-align: top; background-color: #DDffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#chip-seq-analysis-with-galaxy'>ChIP-Seq Analysis with Galaxy</a></strong> <div class='indent'><a href='http://u900.curie.fr/en/profile/alban-lermine-00587'>Alban Lermine</a>, <a href='https://sites.google.com/site/valentinaboeva/'>Valentina Boeva</a> </div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 17:00</th>
-    <td colspan=5 style=" text-align: center; background-color: #F8F8F8 ;"> </em>Finish<em> </td>
+    <td colspan=5 style=" text-align: center; background-color: #F8F8F8 ;"> <em>Finish</em> </td>
   </tr>
   <tr>
     <td colspan=5 style=" border: none;"> </td>
   </tr>
   <tr>
     <td style=" border: none;"> </td>
-    <td style=" text-align: right; border: none;"> </strong>Key:<strong> &nbsp; </td>
+    <td style=" text-align: right; border: none;"> <strong>Key:</strong> &nbsp; </td>
     <td style=" text-align: center; background-color: #cceeff;"> General </td>
     <td style=" text-align: center; background-color: #DDffcc;"> Biologist centric </td>
     <td style=" text-align: center; background-color: #ffffcc;"> Developer & Deployer centric </td>

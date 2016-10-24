@@ -10,11 +10,11 @@ autotoc: true
 If your repository includes tools that require data types that are not defined in the Galaxy distribution, you can include the required data types in the repository along with your tools, or you can create a separate repository to contain them. The repository must include a file named **datatypes_conf.xml**, which is modeled after the file named **datatypes_conf.xml.sample** in the Galaxy distribution. This section describes support for including data types that subclass from data types in the Galaxy distribution. Refer to the next section for details about data types that use your own custom class modules included in your repository.
 An example of this is the datatypes_conf.xml file in the [emboss_datatypes repository](http://toolshed.g2.bx.psu.edu/repository/browse_categories?sort=name&id=3ac79d5752c6d938&f-deleted=False&webapp=community&f-free-text-search=emboss&operation=view_or_manage_repository) in the main Galaxy tool shed, shown below.
 
-![](/src/ToolShedDatatypesFeatures/emboss_datatypes_contents.png)
+<img src="/src/ToolShedDatatypesFeatures/emboss_datatypes_contents.png" alt="" height="527" />
 
 Tool shed repositories that include valid **datatypes_conf.xml** files will display the data types in the **Preview tools and inspect metadata by tool version** section of the view or manage repository page.
 
-![](/src/ToolShedDatatypesFeatures/emboss_datatypes.png)
+<img src="/src/ToolShedDatatypesFeatures/emboss_datatypes.png" alt="" height="524" />
 
 # Including custom data types that use class modules contained in your repository
 
@@ -23,7 +23,7 @@ To illustrate how this works, we'll use the [gmap repository](http://toolshed.g2
 
 Notice the <datatypes_files> tag set. This tag set contains <datatype_file> tags, each of which refers to the name of a class module file name within your repository (in this example, there is only one file named gmap.py), which contains the custom data type classes you've defined for your tools.
 
-In addition, notice the value of each "type" attribute in the <datatype> tags. The **:** separates the class module included in the repository (in this example, the class module is "gmap") from the class name ("GmapDB", "!IntervalAnnotation", etc). It is critical that you make sure your datatype tag definitions match the classes you've defined in your class modules or the data type will not properly load into a Galaxy instance when your repository is installed.
+In addition, notice the value of each "type" attribute in the <datatype> tags. The **:** separates the class module included in the repository (in this example, the class module is "gmap") from the class name ("GmapDB", "IntervalAnnotation", etc). It is critical that you make sure your datatype tag definitions match the classes you've defined in your class modules or the data type will not properly load into a Galaxy instance when your repository is installed.
 
 ```xml
 <?xml version="1.0"?>

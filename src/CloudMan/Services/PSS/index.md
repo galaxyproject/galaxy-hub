@@ -1,4 +1,4 @@
-Occasionally, it is necessary to perform additional initialization steps after a cluster is launched. This can be done in an automated fashion by capturing the required actions in a bash script, uploading it to a publicly available URL and feeding it to !CloudMan as a Post Start Script (PSS) via [user data](/src/CloudMan/UserData/index.md). The PSS script will be downloaded from the provided URL, executed, and then stored in the cluster's bucket. 
+Occasionally, it is necessary to perform additional initialization steps after a cluster is launched. This can be done in an automated fashion by capturing the required actions in a bash script, uploading it to a publicly available URL and feeding it to CloudMan as a Post Start Script (PSS) via [user data](/src/CloudMan/UserData/index.md). The PSS script will be downloaded from the provided URL, executed, and then stored in the cluster's bucket. 
 
 PSS are resolved in the following order:
 

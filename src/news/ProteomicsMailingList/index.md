@@ -17,4 +17,4 @@ Ira Cooke
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-07-31</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

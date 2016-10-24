@@ -30,4 +30,4 @@ Video is in French.
 
 * [Video  tutorial](https://youtu.be/qgiH4h52HYc)
 
-CategoryTrainingResource
+[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)

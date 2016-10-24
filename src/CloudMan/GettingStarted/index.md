@@ -27,7 +27,7 @@ Before you can start using cloud resources, you need to get your API access cred
 <a href='http://i.imgur.com/G81G4Cq.png'><img src="http://i.imgur.com/G81G4Cq.png" alt="" width=200 /></a>
 </div>
 
-1. #4 Attach permissions to the created IAM user by selecting the newly created user, clicking on *Permissions* in the user properties pane followed by a click on *Attach User Policy* button. Select the *!AdministratorAccess* policy and *Attach* it.
+1. #4 Attach permissions to the created IAM user by selecting the newly created user, clicking on *Permissions* in the user properties pane followed by a click on *Attach User Policy* button. Select the *AdministratorAccess* policy and *Attach* it.
 
 <div class='center'>
 <a href='http://i.imgur.com/xSMM43X.png'><img src="http://i.imgur.com/xSMM43X.png" alt="" width=250 /></a>
@@ -44,7 +44,7 @@ In this step, we will create a new cluster by launching a virtual server in the 
 <a href='http://i.imgur.com/zf9mzXf.png'><img src="http://i.imgur.com/zf9mzXf.png" alt="" width=250 /></a>
 </div>
 
-1. #2 Wait for the cluster to start - it will take a couple of minutes. Once it has started, a link to the !CloudMan console will be shown. Log into the !CloudMan console with username *ubuntu* and the password you chose on the previous page.
+1. #2 Wait for the cluster to start - it will take a couple of minutes. Once it has started, a link to the CloudMan console will be shown. Log into the CloudMan console with username *ubuntu* and the password you chose on the previous page.
 
 <div class='center'>
 <a href='http://i.imgur.com/nl9oL3Y.png'><img src="http://i.imgur.com/nl9oL3Y.png" alt="" width=250 /></a>

@@ -14,7 +14,7 @@ Welcome to the February 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a m
 
 *42 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in January. Some papers that may be particularly interesting to the Galaxy community:
 
-* [CGtag: Complete Genomics Toolkit and Annotation in a Cloud-based Galaxy](http://dx.doi.org/10.1186/2047-217x-3-1), by Hiltemann, *et al.,* *!GigaScience*, Vol. 3, No. 1. (2014), 1, doi:10.1186/2047-217x-3-1
+* [CGtag: Complete Genomics Toolkit and Annotation in a Cloud-based Galaxy](http://dx.doi.org/10.1186/2047-217x-3-1), by Hiltemann, *et al.,* *GigaScience*, Vol. 3, No. 1. (2014), 1, doi:10.1186/2047-217x-3-1
 * [PIPE-CLIP: a comprehensive online tool for CLIP-seq data analysis](http://dx.doi.org/10.1186/gb-2014-15-1-r18), by Chen, *et al.,* *Genome biology,* Vol. 15, No. 1. (22 January 2014), R18, doi:10.1186/gb-2014-15-1-r18
 * [Oqtans: The RNA-seq Workbench in the Cloud for Complete and Reproducible Quantitative Transcriptome Analysis, by by Sreedharan](http://dx.doi.org/10.1093/bioinformatics/btt731), *et al.,* *Bioinformatics* (Oxford, England) (11 January 2014), btt731, doi:10.1093/bioinformatics/btt731
 * [Learn2Mine: Data Science Practice and Education through Gameful Experiences](http://dx.doi.org/10.7763/ijeeee.2014.v4.338), *International Journal of e-Education, e-Business, e-Management and e-Learning,* by Turner, *et al.,*Vol. 4, No. 3. (2014), doi:10.7763/ijeeee.2014.v4.338
@@ -110,7 +110,7 @@ Early registration will open February 10.  The [Training Day](/src/Events/GCC201
 
 <div class='left'><a href='http://genomeweb.com'><img src="/src/Images/Logos/GenomeWebSmall.png" alt="GenomeWeb" width="180" /></a></div>
 
-We are pleased to have [GenomeWeb](http://genomeweb.com) as a [Silver Sponsor](/src/Events/GCC2014/SponsorExhibit/index.md) for [GCC2014](/src/Events/GCC2014/index.md).  This is the first GCC that !GenomeWeb has sponsored.  Please welcome them.
+We are pleased to have [GenomeWeb](http://genomeweb.com) as a [Silver Sponsor](/src/Events/GCC2014/SponsorExhibit/index.md) for [GCC2014](/src/Events/GCC2014/index.md).  This is the first GCC that GenomeWeb has sponsored.  Please welcome them.
 
 There are still [Silver and Bronze sponsorships](/src/Events/GCC2014/SponsorExhibit/index.md) available. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to help sponsor this event. 
 
@@ -142,7 +142,7 @@ GAW 2014 will be held in Melbourne, Australia on 24 and 25th March 2014.  The fi
 
 **February 26-28, 2014, Kuala Lumpur, Malaysia.**
 
-[GMOD Malaysia 2014](http://gmod.org/wiki/GMOD_Malaysia_2014) offers an introduction to, and training in, the bioinformatics software offered by the Generic Model Organism Database project (http://gmod.org). Over three days, participants will learn about GMOD's free, open-source tools for visualising, storing, and disseminating genetic and genomic data. These include: **Galaxy**, the [GBrowse](http://gmod.org/wiki/GBrowse) and [JBrowse](http://gmod.org/wiki/JBrowse) genome browsers, [InterMine data warehouse](http://intermine.org/) (a frequent Galaxy data source), [MAKER and MAKER-P genome annotation pipelines](http://gmod.org/wiki/MAKER), [Tripal website generator and database interface](http://tripal.info/) and the [Chado database schema](http://gmod.org/wiki/Chado)
+[GMOD Malaysia 2014](http://gmod.org/wiki/GMOD_Malaysia_2014) offers an introduction to, and training in, the bioinformatics software offered by the Generic Model Organism Database project (http://gmod.org). Over three days, participants will learn about GMOD's free, open-source tools for visualising, storing, and disseminating genetic and genomic data. These include: '''Galaxy''', the [GBrowse](http://gmod.org/wiki/GBrowse) and [JBrowse](http://gmod.org/wiki/JBrowse) genome browsers, [InterMine data warehouse](http://intermine.org/) (a frequent Galaxy data source), [MAKER and MAKER-P genome annotation pipelines](http://gmod.org/wiki/MAKER), [Tripal website generator and database interface](http://tripal.info/) and the [Chado database schema](http://gmod.org/wiki/Chado)
 
 Instruction is by experienced instructors and developers with deep knowledge of the tools and their applications.  By the end of the course, participants will have hands-on experience of setting up and using core components needed for a modern genomics project.
 
@@ -178,19 +178,19 @@ GMOD Malaysia 2014 is made possible by the generous support of the [National Evo
   </tr>
   <tr>
     <th> February 5-6 </th>
-    <td> </em><a href='http://www.ebi.ac.uk/training/course/mosquito2014'>Mosquito Informatics</a><em> </td>
+    <td> <em><a href='http://www.ebi.ac.uk/training/course/mosquito2014'>Mosquito Informatics</a></em> </td>
     <td> EBI, Hinxton, United Kingdom </td>
     <td> <a href="mailto:lawson AT ebi DOT ac DOT uk">Dan Lawson</a> </td>
   </tr>
   <tr>
     <th> February 10-14 </th>
-    <td> </em><a href='http://www.supagro.fr/web/pages/?idl=19&page=498&id_page=2666'>Analyse Bioinformatique de séquences pour l'amélioration des plantes</a><em> </td>
+    <td> <em><a href='http://www.supagro.fr/web/pages/?idl=19&page=498&id_page=2666'>Analyse Bioinformatique de séquences pour l'amélioration des plantes</a></em> </td>
     <td> Campus la Gaillarde, Montpellier, France </td>
     <td> <a href="mailto:yolande DOT olivier AT supagro DOT inra DOT fr">Yolande OLIVIER</a> </td>
   </tr>
   <tr>
     <th> February 11-13 </th>
-    <td> </em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a></em> </td>
     <td> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
     <td> <a href="mailto:navratil AT prabi DOT fr">Navratil V</a>., <a href="mailto:oger AT prabi DOT fr">Oger C.</a>, <a href="mailto:veber AT prabi DOT fr">Veber P.</a>, <a href="mailto:deschamps AT prabi DOT fr">Deschamps C.</a>, <a href="mailto:perriere AT prabi DOT fr">Perriere G.</a> </td>
   </tr>
@@ -208,53 +208,53 @@ GMOD Malaysia 2014 is made possible by the generous support of the [National Evo
   </tr>
   <tr>
     <th> February 27 </th>
-    <td> </em><a href='http://www.nowgen.org.uk/facilities/events/event.php?id=63'>Introduction to NGS Bioinformatics</a><em> </td>
+    <td> <em><a href='http://www.nowgen.org.uk/facilities/events/event.php?id=63'>Introduction to NGS Bioinformatics</a></em> </td>
     <td> <a href='http://www.nowgen.org.uk/'>Nowgen Centre</a>, Manchester, United Kingdom </td>
     <td> <a href="mailto:training AT nowgen DOT org DOT uk">Jan Taylor</a> </td>
   </tr>
   <tr>
     <th> March 24-25 </th>
-    <td> </strong><a href='/src/Events/GAW2014/index.md'>Galaxy Australasia Workshop 2014 (GAW2014)</a><strong> </td>
+    <td> <strong><a href='/src/Events/GAW2014/index.md'>Galaxy Australasia Workshop 2014 (GAW2014)</a></strong> </td>
     <td> Melbourne, Australia </td>
     <td> <a href='/src/Events/GAW2014/index.md#organisers'>Organisers</a> </td>
   </tr>
   <tr>
     <th> March 26-30 </th>
-    <td> </em>Galaxy toolset for Drosophila genomics<em><div class='indent'>and one-on-one help in the Flybase Demonstrations Room</div> </td>
+    <td> <em>Galaxy toolset for Drosophila genomics</em><div class='indent'>and one-on-one help in the Flybase Demonstrations Room</div> </td>
     <td> <a href='http://www.genetics-gsa.org/drosophila/2014/'>Drosophila Research Conference</a>, San Diego, California, United States </td>
     <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/JenniferJackson/index.md'>Jen Jackson</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>
-    <td> </em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a><em> </td>
+    <td> <em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a></em> </td>
     <td> <a href='http://www.mipro.hr/CallForPapers/tabid/176/language/en-US/Default.aspx'>MIPRO 2014</a>, Opatija, Croatia </td>
     <td> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 9-10 </th>
-    <td> </em><a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'>Informatics on High Throughput Sequencing Data Workshop</a><em> </td>
+    <td> <em><a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'>Informatics on High Throughput Sequencing Data Workshop</a></em> </td>
     <td> Toronto, Canada </td>
     <td> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
   </tr>
   <tr>
     <th> June 10 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-10juin.pdf'>Initiation à l’utilisation de Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-10juin.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
     <td rowspan=2> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
     <td rowspan=2> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 11 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module8bis-11juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module8bis-11juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></em> </td>
   </tr>
   <tr>
     <th> June 16 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-16juin.pdf'>Initiation à l’utilisation de Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-16juin.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
     <td rowspan=2> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
     <td rowspan=2> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 17 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module8bis-17juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module8bis-17juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></em> </td>
   </tr>
 </table>
 
@@ -334,10 +334,10 @@ An update to Galaxy CloudMan was released in January. CloudMan offers an easy wa
 <a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="180" /></a><br /><br /></div>
 <table>
   <tr>
-    <td style=" class="blue" "> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> &nbsp;&nbsp; </td>
+    <td style=" class="blue" "> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a></em> &nbsp;&nbsp; </td>
   </tr>
   <tr>
-    <td style=" class="blue" "> &nbsp;&nbsp; <a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> &nbsp;&nbsp; </td>
+    <td style=" class="blue" "> &nbsp;&nbsp; <a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> &nbsp;&nbsp; </td>
   </tr>
   <tr>
     <td style=" border: none; text-align: center;"> <span style="font-size: smaller;"> All the cool researchers are doing it! </span> </td>

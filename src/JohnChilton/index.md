@@ -22,4 +22,4 @@ Email: [mailto:jmchilton AT SPAMFREE gmail DOT com ](jmchilton AT SPAMFREE gmail
 ...
 
 ----
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

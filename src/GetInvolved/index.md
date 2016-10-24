@@ -41,11 +41,11 @@ If and when you [setup your own Galaxy instance](/src/Admin/GetGalaxy/index.md),
 
 # Share Your Deployment Experience
 
-<div class='left'>![Galaxy Deployment Catalog](/src/Images/Logos/GalaxyDeploymentCatalog200.png)</div> 
+<div class='left'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="120" /></div> 
 
 The [Galaxy Deployment Catalog](/src/Community/Deployments/index.md) includes infrastructure and management details on how local Galaxy deployments are installed.  If you have a local deployment, then please [share with the community how you did it](/src/Community/Deployments/index.md).
 
-<div class='right'>![Galaxy Community Log Board](/src/Images/Logos/LogBoardWText200.png)</div>
+<div class='right'><img src="/src/Images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="180" /></div>
 
 If you have implemented a particular feature or have addressed a particular challenge with a certain Galaxy deployment, you can describe and/or link it on the [Galaxy Community Log Board](/src/Community/Logs/index.md).  Log board entries describe specific implementation and solutions for specific situations.  Got some experience that would be useful for others to know?  Please [share it](/src/Community/Logs/index.md).
 
@@ -55,7 +55,7 @@ This wiki contains a large amount of documentation about using and administering
 
 # Code
 
-<div class='right'>![GitHub](/src/Images/Logos/GitHubLogoText.png)</div>
+<div class='right'><img src="/src/Images/Logos/GitHubLogoText.png" alt="GitHub" width="100" /></div>
 
 Galaxy is an open source project.  Anyone can [contribute to the code](/src/Develop/index.md).
 

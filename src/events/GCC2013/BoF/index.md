@@ -9,13 +9,13 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
 PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
 PLACEHOLDER_INCLUDE(/src/Events/GCC2013/BoF/LinkBox/index.md)
 
-<div class='left'>![](/src/Images/Logos/GCC2013BoFLogo.png)</div>
+<div class='left'><img src="/src/Images/Logos/GCC2013BoFLogo.png" alt="" width="250" /></div>
 
 Past Galaxy Community Conferences have been *the* event for networking in the Galaxy: There is no better place to meet and learn from others doing high-throughput biology.  GCC2013 will extend this tradition by including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing))* meetups at the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  Bof meetups are a natural combination of the informal meetups and the scheduled *[Breakout](/src/Events/GCC2012/Program/Breakouts/index.md)* sessions that were already happening at previous GCC's.
 
-!BoFs can range from preplanned and pre-announced to just pre-announced to completely spontaneous.  Pre-announcing a BoF has the advantage that conference participants can be notified of them ahead of time, and people can plan ahead to attend.
+BoFs can range from preplanned and pre-announced to just pre-announced to completely spontaneous.  Pre-announcing a BoF has the advantage that conference participants can be notified of them ahead of time, and people can plan ahead to attend.
 
-BoF meetups are encouraged throughout GCC2013.  We particularly want to encourage !BoFs that flock 
+BoF meetups are encouraged throughout GCC2013.  We particularly want to encourage BoFs that flock 
 * during [lunch on any of the three days](/src/Events/GCC2013/Program/index.md), and
 * at [the Escape Pub](/src/Events/GCC2013/Program/index.md#escape-to-the-pub) after each of the first two days.
 
@@ -25,7 +25,7 @@ See the [list of scheduled BoFs](/src/Events/GCC2013/BoF/index.md#bof-schedule) 
 
 ## Planned BoFs
 
-This is a list of all the !BoFs that have been proposed for GCC2013.  See the [BoF Schedule](/src/Events/GCC2013/BoF/index.md#bof-schedule) for the times.
+This is a list of all the BoFs that have been proposed for GCC2013.  See the [BoF Schedule](/src/Events/GCC2013/BoF/index.md#bof-schedule) for the times.
 
 * **[Future of GalaxyAdmins BoF](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md)**
 * **[Galaxy Professionals (Birds of Prey)](/src/Events/GCC2013/BoF/GalaxyProfessionals/index.md)**
@@ -74,18 +74,18 @@ To plan a Birds of a Feather meetup:
 
 Create a wiki page for the Birds of a Feather meetup with this form
 
-**Enter a good !CamelCase name for your BoF page** (embedded spaces make bad URLs):
+**Enter a good CamelCase name for your BoF page** (embedded spaces make bad URLs):
 . PLACEHOLDER_NEW_PAGE(Events/GCC2013/BoF/BoFTemplate, "Create BoF Page", Events/GCC2013/BoF)
 
 This will create a wiki page using the [BoF Template](/src/Events/GCC2013/BoF/BoFTemplate/index.md).  Edit that page as directed and then save it.
 
 ## BoF Support
 
-The conference will *enable and encourage* !BoFs by
+The conference will *enable and encourage* BoFs by
 
-* Encouraging conference participants to organize !BoFs
-* Use this wiki page as a hub for !BoFs at GCC2013.
-* Promote !BoFs to all conference participants, over and over, both before and during the conference ~~until everyone actually grows feathers~~.
-* Identifying and coordinating spaces, both on-site and off, where !BoFs can be held
+* Encouraging conference participants to organize BoFs
+* Use this wiki page as a hub for BoFs at GCC2013.
+* Promote BoFs to all conference participants, over and over, both before and during the conference ~~until everyone actually grows feathers~~.
+* Identifying and coordinating spaces, both on-site and off, where BoFs can be held
 
 PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Footer/index.md)

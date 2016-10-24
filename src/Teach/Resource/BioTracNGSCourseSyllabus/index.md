@@ -80,4 +80,4 @@ We use very small *c elegans* datasets.  This allows us to host many students in
 
 [mailto:ben DOT busby AT gmail DOT com](Ben Busby)
 
-CategoryTrainingResource
+[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)

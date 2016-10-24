@@ -17,4 +17,4 @@ The [August 2014 Galaxy Update Newsletter](/src/GalaxyUpdates/2014_08/index.md) 
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-08-01 </div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

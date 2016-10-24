@@ -132,7 +132,7 @@ Tools contributed to the Galaxy Project Tool Shed in March 2016.
   * [ega_download_streamer](https://toolshed.g2.bx.psu.edu/view/yhoogstrate/ega_download_streamer): European Genome-phenome Archive (EGA) download client Individual files or whole datasets may be downloaded from European Genome-phenome Archive (EGA) in a secure manner by first placing a download request and then downloading the file/s associated with the request. All files are automatically encrypted prior to streaming and must be decrypted using the streamer after download is complete. https://www.ebi.ac.uk/ega/about/your_EGA_account/download_streaming_client#about
 
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp):*
-  * [uniprotxml_downloader](https://toolshed.g2.bx.psu.edu/view/galaxyp/uniprotxml_downloader): Download !UniProt proteome in XML format.  The Morpheus proteomics search engine uses the uniprotxml format.
+  * [uniprotxml_downloader](https://toolshed.g2.bx.psu.edu/view/galaxyp/uniprotxml_downloader): Download UniProt proteome in XML format.  The Morpheus proteomics search engine uses the uniprotxml format.
 
 #### tool_dependency_definition
 

@@ -38,7 +38,7 @@ There will be three Galaxy-related events on the Indiana University Bloomington 
 **[Dave Clements](/src/DaveClements/index.md)**<br />
 **Emory University**<br /><br />
 
-[Slides](ATTACHMENT_URLDocuments/Presentations/2012_IndianaU.pdf)
+[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_IndianaU.pdf)
 
 The widespread adoption of high-throughput techniques in biology has made working with large datasets a necessary and common task in biomedical research.  Discovering meaning in these large datasets requires sophisticated bioinformatics tools, complex workflows, and computational infrastructure.  The Galaxy Project (http://galaxyproject.org/) makes these tools accessible to a wide range of researchers, while ensuring that analyses are reproducible and can be communicated transparently to others.  This talk will provide an overview of the Galaxy Project, and then discuss how Galaxy enables researchers to create, refine, share and reproduce their own bioinformatic analysis - using only a web browser accessing public servers or local compute resources, or by utilizing on-demand cloud infrastructures.
 
@@ -55,7 +55,7 @@ The talk is open to the public.  No advance registration is required.
 **[Dave Clements](/src/DaveClements/index.md)**<br />
 **Emory University**<br /><br />
 
-[Slides](ATTACHMENT_URLDocuments/Presentations/2012IndianaUGalaxyForBiologists.pdf)
+[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012IndianaUGalaxyForBiologists.pdf)
 
 Are you a biomedical researcher who needs to do complex analysis on large datasets?
 
@@ -129,9 +129,9 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Links
 
-<div class='right'><a href='/src/attachment:IndianaUGalaxyWorkshop.pdf/index.md'><img src="/src/Events/IndianaU2012/IndianaUGalaxyWorkshopThumb.png" alt="Download flier" /></a></div>
+<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/IndianaUGalaxyWorkshop.pdf'><img src="/src/Events/IndianaU2012/IndianaUGalaxyWorkshopThumb.png" alt="Download flier" /></a></div>
 
-* Please help get the word out by distributing [this flyer](ATTACHMENT_URLIndianaUGalaxyWorkshop.pdf) in your department.
+* Please help get the word out by distributing [this flyer](PLACEHOLDER_ATTACHMENT_URL/src/IndianaUGalaxyWorkshop.pdf) in your department.
 * Please take a minute to give us [your feedback on the workshops](/src/Feedback Link/index.md).
 
 ## Questions?

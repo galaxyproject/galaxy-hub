@@ -25,7 +25,7 @@ Welcome to the May 2015 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summar
     Thomas A. Darde, Olivier Sallou, Emmanuelle Becker, Bertrand Evrard, Cyril Monjeaud, Yvan Le Bras, Bernard Jégou, Olivier Collin, Antoine D. Rolland and Frédéric Chalmel, *Nucleic Acids Research* (16 April 2015), gkv345, doi:10.1093/nar/gkv345
 
 * [VirAmp: a galaxy-based viral genome assembly pipeline](http://www.gigasciencejournal.com/content/4/1/19)
-    Yinan Wan1, Daniel W Renner2, Istvan Albert and Moriah L Szpara, *!GigaScience* 2015, 4:19  doi:10.1186/s13742-015-0060-y	
+    Yinan Wan1, Daniel W Renner2, Istvan Albert and Moriah L Szpara, *GigaScience* 2015, 4:19  doi:10.1186/s13742-015-0060-y	
 
 * [ClusTrack: Feature Extraction and Similarity Measures for Clustering of Genome-Wide Data Sets](http://dx.doi.org/10.1371/journal.pone.0123261) 
     Halfdan Rydbeck, Geir Kjetil K. Sandve, Egil Ferkingstad, Boris Simovski, Morten Rye, Eivind Hovig, *PloS one*, Vol. 10, No. 4. (2015)
@@ -178,7 +178,7 @@ We are pleased to announce new GCC2015 [Silver Sponsorships](http://gcc2015.tsl.
 <a href='http://www.gigasciencejournal.com/'><img src="/src/Images/Logos/GigaScienceLogo250.png" alt="GigaScience Journal" height="70" /></a>
 </div>
 
-*[GigaScience](http://www.gigasciencejournal.com/)* journal is co-published as a collaboration between [BGI Shenzhen](http://www.genomics.cn/en/index) and [BioMed Central](http://www.biomedcentral.com/) focused on studies utilizing large-scale datasets and workflows. This is the third GCC that !GigaScience has sponsored.  Please welcome them back!
+*[GigaScience](http://www.gigasciencejournal.com/)* journal is co-published as a collaboration between [BGI Shenzhen](http://www.genomics.cn/en/index) and [BioMed Central](http://www.biomedcentral.com/) focused on studies utilizing large-scale datasets and workflows. This is the third GCC that GigaScience has sponsored.  Please welcome them back!
 
 *And ...* Any oral or poster presentation at GCC2015 will also be eligible for consideration for publication in the *[GigaScience](http://www.gigasciencejournal.com/)* "[Galaxy: Data Intensive and Reproducible Research](http://www.gigasciencejournal.com/series/Galaxy)" series (first announced for GCC2013).  *[GigaScience](http://www.gigasciencejournal.com/)* is pleased to offer a 15% discount on article publishing charges for accepted papers from GCC2015.
 
@@ -223,35 +223,35 @@ There are [upcoming events](/src/Events/index.md) in 7 countries on 3 continents
   </tr>
   <tr>
     <th> May 12 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module17-12mai.pdf'>Initiation à l’utilisation de Galaxy</a><em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module17-12mai.pdf'>Initiation à l’utilisation de Galaxy</a></em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
     <td rowspan=2> <a href='http://www.jouy.inra.fr/'>Jouy-en-Josas</a>, France </td>
     <td rowspan=2> <a href="mailto:veronique.martin@jouy.inra.fr">Veronique Martin</a>, <a href="mailto:sophie.schbath@jouy.inra.fr">Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> May 13 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module8bis-13mai.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a><em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module8bis-13mai.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
   </tr>
   <tr>
     <th> May 13 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy-3/'>Workshop: Variant detection using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy-3/'>Workshop: Variant detection using Galaxy</a></em> </td>
     <td> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#qfab-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> May 13 </th>
-    <td> </em><a href='http://genomecenter.ucdavis.edu/2015/04/28/getting-bioinformatics-done-with-galaxy-a-free-bgi-uc-davis-workshop-taught-by-bioinformatics-core/'>Getting Bioinformatics Done with Galaxy</a><em> </td>
+    <td> <em><a href='http://genomecenter.ucdavis.edu/2015/04/28/getting-bioinformatics-done-with-galaxy-a-free-bgi-uc-davis-workshop-taught-by-bioinformatics-core/'>Getting Bioinformatics Done with Galaxy</a></em> </td>
     <td> <a href='http://research.ucdavis.edu/research/bgi-uc-davis/'>BGI @ UC Davis</a> workshop series, Davis, California, United States </td>
     <td> <div class='right'><a href='http://bit.ly/gxytrnUCDavis'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href="mailto:bioinformatics.core@ucdavis.edu">UC Davis Bioinformatics</a> </td>
   </tr>
   <tr>
     <th> May 15 </th>
-    <td> </em><a href='/src/Events/Meetups/PSU/2015-05/index.md'>RNA-Seq Galaxy Workshop</a><em> </td>
+    <td> <em><a href='/src/Events/Meetups/PSU/2015-05/index.md'>RNA-Seq Galaxy Workshop</a></em> </td>
     <td> <a href='/src/Events/Meetups/PSU/2015-05/index.md#where'>Penn State University</a>, State College, Pennsylvania, United States </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy-project'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='/src/Marten/index.md'>Martin Cech</a>, <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> May 22, 29 </th>
-    <td> </em><a href='http://www.vib.be/en/training/research-training/courses/Pages/Introduction-to-the-analysis-of-NGS-data.aspx'>Introduction to the analysis of NGS data</a><em> </td>
+    <td> <em><a href='http://www.vib.be/en/training/research-training/courses/Pages/Introduction-to-the-analysis-of-NGS-data.aspx'>Introduction to the analysis of NGS data</a></em> </td>
     <td> Leuven, Belgium </td>
     <td> <a href='http://www.vib.be/whoiswho/Pages/Janick-Mathys.aspx?lang=en'>Janick Mathys</a> </td>
   </tr>
@@ -273,45 +273,45 @@ There are [upcoming events](/src/Events/index.md) in 7 countries on 3 continents
   </tr>
   <tr>
     <th> June 2 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module17-2juin.pdf'>Initiation à l’utilisation de Galaxy</a><em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module17-2juin.pdf'>Initiation à l’utilisation de Galaxy</a></em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
     <td rowspan=3> <a href='http://www.jouy.inra.fr/'>Jouy-en-Josas</a>, France </td>
     <td rowspan=3> <a href="mailto:veronique.martin@jouy.inra.fr">Veronique Martin</a>, <a href="mailto:sophie.schbath@jouy.inra.fr">Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 3 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module8bis-3juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a><em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module8bis-3juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
   </tr>
   <tr>
     <th> June 4 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module18.pdf'>Traitement bioinformatique des données RNA-Seq sous Galaxy</a><em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module18.pdf'>Traitement bioinformatique des données RNA-Seq sous Galaxy</a></em> <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
   </tr>
   <tr>
     <th> June 3 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-2/'>Workshop: RNA-Seq analysis using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-2/'>Workshop: RNA-Seq analysis using Galaxy</a></em> </td>
     <td> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#qfab-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> June 6-9 </th>
-    <td> </em><a href='https://www.eshg.org/684.0.html'>WS02: NGS Variant Analysis with Galaxy</a><em> </td>
+    <td> <em><a href='https://www.eshg.org/684.0.html'>WS02: NGS Variant Analysis with Galaxy</a></em> </td>
     <td> <a href='https://www.eshg.org/eshg2015.0.html'>ESHG 2015</a>, Glasgow, United Kingdom </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy-project'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> June 18 </th>
-    <td> </em><a href='/src/Community/GalaxyAdmins/Meetups/2015_06_18/index.md'>Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester</a><em> </td>
-    <td> <a href='/src/Community/GalaxyAdmins/Meetups/2015_06_18/index.md'>June 2015 GalaxyAdmins Web Meetup</a>, </em>Online<em> </td>
+    <td> <em><a href='/src/Community/GalaxyAdmins/Meetups/2015_06_18/index.md'>Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester</a></em> </td>
+    <td> <a href='/src/Community/GalaxyAdmins/Meetups/2015_06_18/index.md'>June 2015 GalaxyAdmins Web Meetup</a>, <em>Online</em> </td>
     <td> <a href='http://galacticengineer.blogspot.co.uk/'>Peter Briggs</a>, <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> June 22 </th>
-    <td> </em>Introduction to variant calling for pathologists and laboratory managers<em> </td>
+    <td> <em>Introduction to variant calling for pathologists and laboratory managers</em> </td>
     <td> Part of <a href='http://www.rcpa.edu.au/Events/Event-Details/2015/June/Short-Course-in-Medical-Genetics-and-Genetic-Patho'>Short Course in Medical Genetics and Genetic Pathology 2015</a>, Sydney, Australia </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='/src/RossLazarus/index.md'>Ross Lazarus</a>, <a href='https://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> </td>
   </tr>
   <tr>
     <th> June 29-30 </th>
-    <td> </em><a href='https://genomics.ed.ac.uk/introduction-ngs-data-analysis-galaxy'>Introduction to NGS Data Analysis with Galaxy</a><em> </td>
+    <td> <em><a href='https://genomics.ed.ac.uk/introduction-ngs-data-analysis-galaxy'>Introduction to NGS Data Analysis with Galaxy</a></em> </td>
     <td> <a href='http://www.ed.ac.uk/home'>University of Edinburgh</a>, Edinburgh, United Kingdom </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy-project'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href="mailto:bert.overduin@ed.ac.uk">Bert Overduin</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
@@ -321,43 +321,43 @@ There are [upcoming events](/src/Events/index.md) in 7 countries on 3 continents
   </tr>
   <tr>
     <th> July 4-8 </th>
-    <td> </strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a><strong> </td>
+    <td> <strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a></strong> </td>
     <td rowspan=6> <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
     <td> <a href="mailto:gcc2015-org@lists.galaxyproject.org">GCC2015 Organisers</a> </td>
   </tr>
   <tr>
     <th rowspan=2> July 4-5 </th>
-    <td> <div class='indent'></strong><a href='http://gcc2015.tsl.ac.uk/data_hackathon'>Data Wrangling Hackathon</a></div><strong> </td>
+    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/data_hackathon'>Data Wrangling Hackathon</a></div></strong> </td>
     <td> <a href="mailto:gcc2015-data-org@lists.galaxyproject.org">Data Hackathon Organisers</a> </td>
   </tr>
   <tr>
-    <td> <div class='indent'></strong><a href='http://gcc2015.tsl.ac.uk/hackathon'>Coding Hackathon</a></div><strong> </td>
+    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/hackathon'>Coding Hackathon</a></div></strong> </td>
     <td> <a href="mailto:gcc2015-hack-org@lists.galaxyproject.org">Coding Hackathon Organisers</a> </td>
   </tr>
   <tr>
     <th> July 5 </th>
-    <td> <div class='indent'></strong><a href='http://gcc2015.tsl.ac.uk/training_day'>Training SunDay</a></div><strong> </td>
+    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/training_day'>Training SunDay</a></div></strong> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href="mailto:gcc2015-org@lists.galaxyproject.org">GCC2015 Organisers</a>  </td>
   </tr>
   <tr>
     <th> July 6 </th>
-    <td> <div class='indent'></strong><a href='http://gcc2015.tsl.ac.uk/training_day'>Training (Mon)Day</a></div><strong> </td>
+    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/training_day'>Training (Mon)Day</a></div></strong> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href="mailto:gcc2015-org@lists.galaxyproject.org">GCC2015 Organisers</a>  </td>
   </tr>
   <tr>
     <th> July 6-8 </th>
-    <td> <div class='indent'></strong><a href='http://gcc2015.tsl.ac.uk/'>GCC2015 Community Meeting</a><strong></div> </td>
+    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/'>GCC2015 Community Meeting</a></strong></div> </td>
     <td> <a href="mailto:gcc2015-org@lists.galaxyproject.org">GCC2015 Organisers</a> </td>
   </tr>
   <tr>
     <th> July 6-10 </th>
-    <td> </em><a href='http://bioinformatics.org.au/ws15/wp-content/uploads/ws14/sites/9/2015/02/Galaxy-Workshop-Information-Sheet.pdf'>An Introduction to Galaxy with the Genomics Virtual Lab: workshop</a><em> </td>
+    <td> <em><a href='http://bioinformatics.org.au/ws15/wp-content/uploads/ws14/sites/9/2015/02/Galaxy-Workshop-Information-Sheet.pdf'>An Introduction to Galaxy with the Genomics Virtual Lab: workshop</a></em> </td>
     <td> <a href='http://bioinformatics.org.au/ws15/registration/'>Winter School in Mathematical and Computational Biology</a>, University of Queensland, Brisbane, Queensland, Australia </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#qfab-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> July 10-14 </th>
-    <td> </em><a href='http://www.iscb.org/ismbeccb2015-program/ismbeccb2015-akes#akes4'>Using Biological Cyberinfrastructure to Scale Science and People – Applications in Data Storage, HPC, Cloud Analysis, and Bioinformatics Training</a><em> </td>
+    <td> <em><a href='http://www.iscb.org/ismbeccb2015-program/ismbeccb2015-akes#akes4'>Using Biological Cyberinfrastructure to Scale Science and People – Applications in Data Storage, HPC, Cloud Analysis, and Bioinformatics Training</a></em> </td>
     <td> <a href='http://www.iscb.org/ismbeccb2015'>ISMB / ECCB 2015</a>, <a href='http://www.open-bio.org/wiki/BOSC_2015'>BOSC 2015</a>, Dublin, Ireland </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
@@ -401,7 +401,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
   * [The ReproGenomics Viewer: an integrative cross-species toolbox for the reproductive science community](http://bit.ly/1PZFfgV), by Thomas A. Darde, Olivier Sallou, Emmanuelle Becker, Bertrand Evrard, Cyril Monjeaud, Yvan Le Bras, Bernard Jégou, Olivier Collin, Antoine D. Rolland and Frédéric Chalmel1; *Nucleic Acids Research* (2015) doi: 10.1093/nar/gkv345
   * [The ReproGenomics Viewer project home page](http://rgv.genouest.org/)
 * *Domain/Purpose:*
-  * "The !ReproGenomics Viewer (RGV) is a cross-species genomic toolbox for the reproductive community. The system is based on the implementation of a JBrowse genome browser and a Galaxy bioinformatics workflow environment. It was developed to provide a one-stop genomic working environment and aims to assist scientists in the analysis and the mining of a wide range of high-throughput repro-genomics data, including sequencing data.<br /><br />RGV allows hosting, visualization, and direct comparison of users’ data to published genomics studies as well as to relevant genetic variations linked to reproduction. One way it does this is by enabling various genomic file format conversions.<br /><br />The !ReproGenomics Viewer currently hosts datasets that are oriented mainly towards testis biology and spermatogenesis. In the near future, these will extend to other areas of reproduction, including gonad development, urogenital cancers, and reproductive toxicology."
+  * "The ReproGenomics Viewer (RGV) is a cross-species genomic toolbox for the reproductive community. The system is based on the implementation of a JBrowse genome browser and a Galaxy bioinformatics workflow environment. It was developed to provide a one-stop genomic working environment and aims to assist scientists in the analysis and the mining of a wide range of high-throughput repro-genomics data, including sequencing data.<br /><br />RGV allows hosting, visualization, and direct comparison of users’ data to published genomics studies as well as to relevant genetic variations linked to reproduction. One way it does this is by enabling various genomic file format conversions.<br /><br />The ReproGenomics Viewer currently hosts datasets that are oriented mainly towards testis biology and spermatogenesis. In the near future, these will extend to other areas of reproduction, including gonad development, urogenital cancers, and reproductive toxicology."
 * *Comments:* 
 * *User Support:*
   * [mailto:support@genouest.org](Email)
@@ -420,9 +420,9 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </strong> </td>
   </tr>
 </table>
 
@@ -469,15 +469,15 @@ Planemo is a set of command-line utilities to assist in building tools for the G
  **Galaxy v15.03**
    The [most recent Galaxy release is V 15.03](/src/DevNewsBriefs/2015_03/index.md), released in March. 
 
- **CloudMan **
+ **[CloudMan](/src/CloudMan/index.md) **
    The [most recent edition of CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release) was released in August.
 
- **!BioBlend V0.5.3**
+ **BioBlend V0.5.3**
    [BioBlend v0.3](/src/News/BioBlendV0.5.3/index.md) was also released in March.<br />
-   [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  (CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
+   [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  ([CloudMan](/src/CloudMan/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
 
  **blend4j v0.1.2**
-   [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and !BioCloudCentral.
+   [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and BioCloudCentral.
 
 
 ----
@@ -487,7 +487,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 * [QFAB Bioinformatics Training passes the 1000 participant mark](http://www.qfab.org/2015/04/27/qfab-bioinformatics-training-1000-and-counting/)
 * A [proposal to](http://ivory.idyll.org/blog/2015-osf-galaxy-dibs-funding.html) integrate the [Center for Open Science’s](http://centerforopenscience.org/) [Open Science Framework (OSF)](https://osf.io/) with Galaxy as a remote data store [has been funded](http://ivory.idyll.org/blog/2015-osf-galaxy-dibs-funding.html).
 * [How Disruptive Are MOOCs? Hopkins Genomics MOOC Launches In June](http://www.forbes.com/sites/stevensalzberg/2015/04/13/how-disruptive-are-moocs-hopkins-genomics-mooc-launches-in-june/), By Steven Salzberg, *Forbes*
-* [NIAID-led Partnership Seeks to Establish Bioinformatics Centers in Africa](https://www.genomeweb.com/informatics/niaid-led-partnership-seeks-establish-bioinformatics-centers-africa) by Uduak Grace Thomas, in *!GenomeWeb*
+* [NIAID-led Partnership Seeks to Establish Bioinformatics Centers in Africa](https://www.genomeweb.com/informatics/niaid-led-partnership-seeks-establish-bioinformatics-centers-africa) by Uduak Grace Thomas, in *GenomeWeb*
 
 ----
 

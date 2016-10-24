@@ -35,39 +35,39 @@ No programming or Linux command line experience is required.
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td> </strong>Introduction<strong><div class='indent'>Welcome, Logistics, and Galaxy Platforms</div> </td>
+    <td> <strong>Introduction</strong><div class='indent'>Welcome, Logistics, and Galaxy Platforms</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:30 </th>
-    <td> </strong>Getting our hands dirty: a worked ChIP-Seq example<strong> <div class='indent'>Galaxy basics, quality control, basic ChIP-Seq analysis</div> </td>
+    <td> <strong>Getting our hands dirty: a worked ChIP-Seq example</strong> <div class='indent'>Galaxy basics, quality control, basic ChIP-Seq analysis</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:50 </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:10 </th>
-    <td> </strong>Getting our hands dirtier, continued<strong><div class='indent'>Interval and set operation, repeatable workflows, Visual analytics</div> </td>
+    <td> <strong>Getting our hands dirtier, continued</strong><div class='indent'>Interval and set operation, repeatable workflows, Visual analytics</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30 </th>
-    <td style=" text-align: center;"> </strong>Lunch<strong> </td>
+    <td style=" text-align: center;"> <strong>Lunch</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 13:30 </th>
-    <td> </strong>RNA-Seq Worked Example<strong><div class='indent'>Quality control and paired end data, mapping and splice junction identification</div> </td>
+    <td> <strong>RNA-Seq Worked Example</strong><div class='indent'>Quality control and paired end data, mapping and splice junction identification</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 14:40 </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 15:00 </th>
-    <td> </strong>RNA-Seq Worked Example, continued<strong><div class='indent'>Differential expression, and tool choices, more visual analytics</div> </td>
+    <td> <strong>RNA-Seq Worked Example, continued</strong><div class='indent'>Differential expression, and tool choices, more visual analytics</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 16:30 </th>
-    <td style=" text-align: center;"> </strong>Done<strong> </td>
+    <td style=" text-align: center;"> <strong>Done</strong> </td>
   </tr>
 </table>
 
@@ -89,7 +89,7 @@ This workshop is part of the [May 2014 Galaxy UK Tour](/src/Events/UKMay2014/ind
 
 ## Slides
 
-* [Sides](ATTACHMENT_URLDocuments/Presentations/201405HGMM_Workshop.pdf)   
+* [Sides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201405HGMM_Workshop.pdf)   
 
 ## Questions?
 

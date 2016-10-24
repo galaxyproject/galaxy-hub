@@ -23,7 +23,7 @@ The *[Galaxy Community Log Board](/src/Community/Logs/index.md)* is a place to s
 <div class='left'>
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a></em> &nbsp;&nbsp; </th>
   </tr>
   <tr>
     <td style=" border: none; text-align: center;"> <span style="font-size: smaller;"> C'mon, it will make you feel good! </span> </td>
@@ -41,7 +41,7 @@ The [Galaxy Community Log Board](/src/Community/Logs/index.md) describes how thi
 <div class='right'>
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a></em> &nbsp;&nbsp; </th>
   </tr>
   <tr>
     <td style=" border: none; text-align: center;"> <span style="font-size: smaller;"> All the cool researchers are doing it! </span> </td>
@@ -61,7 +61,7 @@ If you have a Galaxy deployment then please [take a few minutes to describe your
 <div class='right'>
 <table>
   <tr>
-    <td colspan=2 style=" text-align: center; border: none;"> <span style="font-size: larger;"> </strong><a href='/src/Events/Archive/index.md'>2013 Events</a><strong> </span> </td>
+    <td colspan=2 style=" text-align: center; border: none;"> <span style="font-size: larger;"> <strong><a href='/src/Events/Archive/index.md'>2013 Events</a></strong> </span> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 200+ </th>
@@ -253,12 +253,12 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
   </tr>
   <tr>
     <th rowspan=3> January 11-15 </th>
-    <td> </em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2298.html'>Galaxy for NGS Data Analysis: A Hands-on Computer Demo</a><em> </td>
-    <td rowspan=3> </strong><a href='/src/Events/PAG_GMOD_2014/index.md'>Plant and Animal Genome XXII (PAG 2014)</a><strong>, San Diego, California, United States </td>
+    <td> <em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2298.html'>Galaxy for NGS Data Analysis: A Hands-on Computer Demo</a></em> </td>
+    <td rowspan=3> <strong><a href='/src/Events/PAG_GMOD_2014/index.md'>Plant and Animal Genome XXII (PAG 2014)</a></strong>, San Diego, California, United States </td>
     <td rowspan=1> <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>Galaxy Cloudman: A Gentle Introduction to Data Analysis on the Cloud</a><em><div class='indent'>Part of the <a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>GMOD Workshop</a></div> </td>
+    <td> <em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>Galaxy Cloudman: A Gentle Introduction to Data Analysis on the Cloud</a></em><div class='indent'>Part of the <a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>GMOD Workshop</a></div> </td>
     <td rowspan=1> <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://gmod.org/wiki/User:Scott'>Scott Cain</a> </td>
   </tr>
   <tr>
@@ -273,13 +273,13 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
   </tr>
   <tr>
     <th> February 10-14 </th>
-    <td> </em><a href='http://www.supagro.fr/web/pages/?idl=19&page=498&id_page=2666'>Analyse Bioinformatique de séquences pour l'amélioration des plantes</a><em> </td>
+    <td> <em><a href='http://www.supagro.fr/web/pages/?idl=19&page=498&id_page=2666'>Analyse Bioinformatique de séquences pour l'amélioration des plantes</a></em> </td>
     <td> Campus la Gaillarde, Montpellier, France </td>
     <td> <a href="mailto:yolande DOT olivier AT supagro DOT inra DOT fr">Yolande OLIVIER</a> </td>
   </tr>
   <tr>
     <th> February 11-13 </th>
-    <td> </em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a></em> </td>
     <td> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
     <td> <a href="mailto:navratil AT prabi DOT fr">Navratil V</a>., <a href="mailto:oger AT prabi DOT fr">Oger C.</a>, <a href="mailto:veber AT prabi DOT fr">Veber P.</a>, <a href="mailto:deschamps AT prabi DOT fr">Deschamps C.</a>, <a href="mailto:perriere AT prabi DOT fr">Perriere G.</a> </td>
   </tr>
@@ -297,37 +297,37 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
   </tr>
   <tr>
     <th> February 27 </th>
-    <td> </em><a href='http://www.nowgen.org.uk/facilities/events/event.php?id=63'>Introduction to NGS Bioinformatics</a><em> </td>
+    <td> <em><a href='http://www.nowgen.org.uk/facilities/events/event.php?id=63'>Introduction to NGS Bioinformatics</a></em> </td>
     <td> <a href='http://www.nowgen.org.uk/'>Nowgen Centre</a>, Manchester, United Kingdom </td>
     <td> <a href="mailto:training AT nowgen DOT org DOT uk">Jan Taylor</a> </td>
   </tr>
   <tr>
     <th> March 24-25 </th>
-    <td> </em><a href='https://wiki.galaxyproject.org/Events/GAW2014'>Galaxy Australasia Workshop</a><em> </td>
+    <td> <em><a href='https://wiki.galaxyproject.org/Events/GAW2014'>Galaxy Australasia Workshop</a></em> </td>
     <td> <a href='http://www.synchrotron.org.au/'>Australian Synchrotron</a> and <a href='http://mcec.com.au/'>Melbourne Convention Centre</a>, Melbourne, Australia </td>
     <td> <a href='http://australianbioinformatics.net/gaw-2014#'>Registration</a> </td>
   </tr>
   <tr>
     <th> March 26-30 </th>
-    <td> </em>Galaxy toolset for Drosophila genomics<em><div class='indent'>and one-on-one help in the Flybase Demonstrations Room</div> </td>
+    <td> <em>Galaxy toolset for Drosophila genomics</em><div class='indent'>and one-on-one help in the Flybase Demonstrations Room</div> </td>
     <td> <a href='http://www.genetics-gsa.org/drosophila/2014/'>Drosophila Research Conference</a>, San Diego, California, United States </td>
     <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/JenniferJackson/index.md'>Jen Jackson</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>
-    <td> </em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a><em> </td>
+    <td> <em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a></em> </td>
     <td> <a href='http://www.mipro.hr/CallForPapers/tabid/176/language/en-US/Default.aspx'>MIPRO 2014</a>, Opatija, Croatia </td>
     <td> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 9-10 </th>
-    <td> </em><a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'>Informatics on High Throughput Sequencing Data Workshop</a><em> </td>
+    <td> <em><a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'>Informatics on High Throughput Sequencing Data Workshop</a></em> </td>
     <td> Toronto, Canada </td>
     <td> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
   </tr>
   <tr>
     <th> June 30 - July 2 </th>
-    <td> </strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
+    <td> <strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
     <td> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
     <td> <a href='/src/Events/GCC2014/Organizers/index.md'>Organizers</a> </td>
   </tr>
@@ -372,7 +372,7 @@ The latest version of [CloudMan](/src/CloudMan/index.md) was [released in July](
 * [dgidb_annotator](http://bit.ly/IHOqFC): Annotate tabular file with information from [Drug-Gene Interaction DB](http://dgidb.genome.wustl.edu) 
 * [gatk2](http://bit.ly/1eYgaAX): The Genome Analysis Toolkit in Version 2
 * [table_annovar](http://bit.ly/1bJC382): Annotate VCF file using ANNOVAR annotations to create a tabular file that can be filtered 
-* [spectral_hk](http://bit.ly/1d6jJ5Z): Convert !InChIs to spectral hashkeys.  
+* [spectral_hk](http://bit.ly/1d6jJ5Z): Convert InChIs to spectral hashkeys.  
 * [snpeff](http://bit.ly/1f8ZxBP): snpEff tools from Pablo Cingolani 
 * [split_file_on_column](http://bit.ly/1be1ybR): Split file on specific column; every group is saved in a separate file.  
 

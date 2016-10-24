@@ -59,11 +59,11 @@ You can use the arrow keys on your keyboard to pan the view.
 
 ### Display
 
-Trackster has two fundamentally different types of track classes: **!LineTracks** and **!FeatureTracks**. The former is used for wig, bigWig, and bigBed datatypes, while the latter is used for the others.
+Trackster has two fundamentally different types of track classes: **LineTracks** and **FeatureTracks**. The former is used for wig, bigWig, and bigBed datatypes, while the latter is used for the others.
 
 ### LineTrack
 
-!LineTracks are used to display quantitative data along a y-axis. There is a thin gray line that represent 0. GTB has four different drawing mode for !LineTracks:
+LineTracks are used to display quantitative data along a y-axis. There is a thin gray line that represent 0. GTB has four different drawing mode for LineTracks:
 
 **Histogram**: fill region between x-axis and the data point. Red region indicates overflow beyond the listed maximum/minimum value.
 
@@ -87,7 +87,7 @@ To change between these display modes, click the dropdown at the top-right of th
 
 ### FeatureTrack
 
-!FeatureTracks display feature interval data, like BED, BAM, GFF, GTF, and VCF. Like !LineTracks, it also has different types of displays.
+FeatureTracks display feature interval data, like BED, BAM, GFF, GTF, and VCF. Like LineTracks, it also has different types of displays.
 By default, the GTB automatically chooses the display it deems most suitable for the current level of detail, but this can be overridden
 via the selection box on the top-right corner of the track. **The following diagrams are all of the same data.**
 

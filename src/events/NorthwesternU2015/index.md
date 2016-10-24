@@ -30,7 +30,7 @@ No programming or Linux command line experience is required.
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:30 </th>
-    <td> <strong>Arrival</strong><div class='indent'>Arrival and </em>coffee<em></div> </td>
+    <td> <strong>Arrival</strong><div class='indent'>Arrival and <em>coffee</em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
@@ -104,7 +104,7 @@ This workshop is generously supported by [Northwestern University Research Compu
 
 ## Slides
 
-* [Slides](ATTACHMENT_URLDocuments/Presentations/2015NorthwesternUWorkshop.pdf) 
+* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015NorthwesternUWorkshop.pdf) 
 
 ## Feedback
 

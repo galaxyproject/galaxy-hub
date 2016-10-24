@@ -34,7 +34,7 @@ There are **three basic steps** to using a *Custom Reference Genome*:
 <br />
 # Sources
 
-* UCSC, Ensembl, NCBI/GenBank
+* UCSC, Ensembl, NCBI[/GenBank](/src/Learn/CustomGenomes/GenBank/index.md)
 * Other Research project associated with specific genome projects
 * Internal research projects
 * Selected genomes can be found in "Data Libraries" on [Main](/src/Main/index.md) for use at [http://usegalaxy.org](http://usegalaxy.org). Example: **hg19** is available for GATK under that sub-directory.
@@ -106,27 +106,27 @@ Common problems and solutions:
     <td> 2.</td>
     <td> Incomplete file load </td>
     <td> Sometimes none if all steps run in Galaxy, or only downstream as data analysis inconsistencies. Errors can appear if some steps (such as Tophat) are run outside of Galaxy, but later steps (such as Cufflinks) are run in Galaxy. </td>
-    <td> Use </strong>Text Manipulation &rarr; Select last lines from a dataset<strong> to check last 10 lines to see if file is truncated </td>
-    <td> Reload (switch to </strong><a href='/src/FTPUpload/index.md'>FTP</a><strong> if not using already). Check your FTP client logs if used for prior load. Or just reload. </td>
+    <td> Use <strong>Text Manipulation &rarr; Select last lines from a dataset</strong> to check last 10 lines to see if file is truncated </td>
+    <td> Reload (switch to <strong><a href='/src/FTPUpload/index.md'>FTP</a></strong> if not using already). Check your FTP client logs if used for prior load. Or just reload. </td>
   </tr>
   <tr>
     <td> 3.</td>
     <td> Extra spaces, extra lines, inconsistent line wrapping, any deviation from strict <a href='/src/Learn/Datatypes/index.md#fasta'>FASTA</a> format </td>
-    <td> RNA-seq tools (</strong>Cufflinks, Cuffcompare, Cuffmerge, Cuffdiff<strong>, but not Tophat) fails with error <code>Error: sequence lines in a FASTA record must have the same length!</code>. </td>
+    <td> RNA-seq tools (<strong>Cufflinks, Cuffcompare, Cuffmerge, Cuffdiff</strong>, but not Tophat) fails with error <code>Error: sequence lines in a FASTA record must have the same length!</code>. </td>
     <td> File tested and corrected locally then re-upload or test/fix within Galaxy, then re-run </td>
-    <td> Start with </strong>FASTA manipulation &rarr; FASTA Width formatter <strong> with a value between 40-80 (60 is common) to reformat wrapping. Next, use </strong>Filter and Sort &rarr; Select<strong> with ">" to examine identifiers. Use a combination of </strong>Convert Formats &rarr; FASTA-to-Tabular<strong>, </strong>Text Manipulation<strong> tools, then </strong>Tabular-to-FASTA<strong> to correct. Finally, use </strong>Filter and Sort &rarr; Select<strong> with "^$" to search for empty lines (use "NOT matching" to remove). </td>
+    <td> Start with <strong>FASTA manipulation &rarr; FASTA Width formatter </strong> with a value between 40-80 (60 is common) to reformat wrapping. Next, use <strong>Filter and Sort &rarr; Select</strong> with ">" to examine identifiers. Use a combination of <strong>Convert Formats &rarr; FASTA-to-Tabular</strong>, <strong>Text Manipulation</strong> tools, then <strong>Tabular-to-FASTA</strong> to correct. Finally, use <strong>Filter and Sort &rarr; Select</strong> with "^$" to search for empty lines (use "NOT matching" to remove). </td>
   </tr>
   <tr>
     <td> 4.</td>
     <td> Inconsistent line wrapping, common if merging chromosomes from various Genbank records (e.g. primary chroms with mito) </td>
-    <td> Tools (</strong>SAMTools<strong>, </strong>Extract Genomic DNA<strong>, but rarely alignment tools) may complain about unexpected line lengths/missing identifiers. </td>
+    <td> Tools (<strong>SAMTools</strong>, <strong>Extract Genomic DNA</strong>, but rarely alignment tools) may complain about unexpected line lengths/missing identifiers. </td>
     <td> File tested and corrected locally then re-upload or test/fix within Galaxy, then re-run </td>
-    <td> Use </strong>FASTA manipulation &rarr; FASTA Width formatter <strong> with a value between 40-80 (60 is common) to reformat and re-run </td>
+    <td> Use <strong>FASTA manipulation &rarr; FASTA Width formatter </strong> with a value between 40-80 (60 is common) to reformat and re-run </td>
   </tr>
   <tr>
     <td> 5.</td>
     <td> Unsorted genome </td>
-    <td> Tools such as </strong>Extract Genomic DNA<strong> report problems with sequence lengths, or </strong>GATK<strong> tools result with an error </td>
+    <td> Tools such as <strong>Extract Genomic DNA</strong> report problems with sequence lengths, or <strong>GATK</strong> tools result with an error </td>
     <td> First try sorting in Galaxy and re-run. If still problem, file tested and corrected locally then re-upload, or test/fix as for #3 above </td>
     <td> To sort, follow instructions for <a href='/src/Learn/CustomGenomes/index.md#sorting'>Sorting</a> a Custom Genome </td>
   </tr>
@@ -135,13 +135,13 @@ Common problems and solutions:
     <td> Identifier and Description in ">" lines used inconsistently by tools in the same analysis </td>
     <td> Will generally manifest as a false genome-mismatch problem. Solution is to get rid of the description content and re-run the workflow. </td>
     <td> Double check that the same reference genome was used for all steps and that the 'identifiers' are a match. </td>
-    <td> To drop the description, </strong>Convert Formats &rarr; FASTA-to-Tabular<strong> splitting the identifier line into 2 columns, then run </strong>Convert Formats &rarr; Tabular-to-FASTA<strong> omitting the column with the description (c2). </td>
+    <td> To drop the description, <strong>Convert Formats &rarr; FASTA-to-Tabular</strong> splitting the identifier line into 2 columns, then run <strong>Convert Formats &rarr; Tabular-to-FASTA</strong> omitting the column with the description (c2). </td>
   </tr>
   <tr>
     <td> 7.</td>
     <td> Unassigned database </td>
     <td> Tools report that no build is available for the supplied reference genome </td>
-    <td> This occurs with tools that require an assigned </em>database<em> attribute </td>
+    <td> This occurs with tools that require an assigned <em>database</em> attribute </td>
     <td> Create a <a href='/src/Learn/CustomGenomes/index.md#custom_builds'>Custom Build</a> and assign it to the dataset </td>
   </tr>
 </table>

@@ -1,13 +1,16 @@
-INCLUDE(/Events/GCC2012/PageHeader)
+---
+title: [GCC2012](/src/Events/GCC2012/index.md) Organizing Committee
+---
+PLACEHOLDER_INCLUDE(/src/Events/GCC2012/PageHeader/index.md)
 
-INCLUDE(../LinkBox)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2012/Organizing%20Committee/LinkBox/index.md)
 
-<div class="title">[GCC2012](/src/Events/GCC2012/index.md) Organizing Committee</div>
+
 
  **Neil Bahroos**
    [University of Illinois at Chicago (UIC)](http://www/uic.edu/)<br /><br />
  **[Dave Clements](/src/DaveClements/index.md)**
-   [Emory University](/Community/Emory University)<br /><br />
+   [Emory University](/src/Community/Emory University/index.md)<br /><br />
  **[Christopher Fields](http://www.bioperl.org/wiki/User:Cjfields)**
    [University of Illinois at Urbana-Champaign](http://www.illinois.edu/)<br /><br />
  **[William Hendrickson](http://www.uic.edu/depts/mcmi/faculty/hendrickson/)**
@@ -21,4 +24,4 @@ INCLUDE(../LinkBox)
  **[Bernard Santarsiero](http://www.uic.edu/labs/bds/bdslab/Welcome.html)**
    [University of Illinois at Chicago (UIC)](http://www/uic.edu/)<br /><br />
 
-INCLUDE(../Ask the Organizers)
+PLACEHOLDER_INCLUDE(/src/Events/GCC2012/Organizing%20Committee/Ask the Organizers/index.md)

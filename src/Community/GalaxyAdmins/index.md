@@ -1,7 +1,7 @@
 ---
 title: Galaxy-Admins
 ---
-<div class='center'>![](/src/Images/GalaxyLogos/GalaxyAdmins.png)</div>
+<div class='center'><img src="/src/Images/GalaxyLogos/GalaxyAdmins.png" alt="" width="240" /></div>
 
 PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 

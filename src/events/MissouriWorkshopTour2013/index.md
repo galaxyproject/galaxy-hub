@@ -1,7 +1,7 @@
 ---
 title: Missouri Workshop Tour 2013
 ---
-<div class='center'>![](/src/Images/Logos/MissouriGalaxyWorkshopTour2013.png)</div>
+<div class='center'><img src="/src/Images/Logos/MissouriGalaxyWorkshopTour2013.png" alt="" width="400px" /></div>
 
 
 

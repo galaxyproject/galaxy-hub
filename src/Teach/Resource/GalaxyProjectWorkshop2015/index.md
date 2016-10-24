@@ -37,7 +37,7 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/revised-galaxy-variant
 1. Execute the *Workflow*
   1. send to new history
   1. auto-named after the workflow name’. e.g.. *Revised Galaxy Variant 101*
-1. Examine *!FreeBayes, NVC, and Filter* results for polymorphism
+1. Examine *FreeBayes, NVC, and Filter* results for polymorphism
 1. Homework:
   1. upload a SNP reference dataset, compare to the VCF datasets, and see if any of the polymorphic variants are annotated 
 
@@ -312,17 +312,17 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/import](https://usegal
     * close *Upload configuration* box
     * *Start*
 1. *FTP load*
-  1. find a target genome, we’ll use *!H1N1*
+  1. find a target genome, we’ll use *H1N1*
     * google search with terms *ncbi swine flu genome*
     * click on first link
     * note section *New* and click on *here*
     * on next form, filter *Find related data* as ‘’Genome’’
-    * click on *Bioprojects: PRJNA15521* link for third listed *Influenza A virus !HxNx* (!H1N1)
+    * click on *Bioprojects: PRJNA15521* link for third listed *Influenza A virus HxNx* (H1N1)
     * on next form, click on *Assembly details Assembly	GCF_000865725.1* link under *Chrs -> 8*
   1. the download is from the web page [NCBI !H1N1 Genome](http://www.ncbi.nlm.nih.gov/nuccore/8486138,8486134,8486136,8486125,8486129,8486127,8486122,8486131)
   1. select *Send to* -> *Choose Destination: File, Format: FASTA, Sort by: Default order*
     * click on *Create File*
-    * rename to *!H1N1.fasta* and *Save*
+    * rename to *H1N1.fasta* and *Save*
   1. open Filezilla (if you have it) or another FTP client
     * settings
       * *Host: usegalaxy.org* plus your account email and password then *Quickconnect*
@@ -332,7 +332,7 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/import](https://usegal
       * check *Successful transfers* at bottom to ensure complete loading
       * quit out of Filezilla
   1. open ‘’Upload File’’ tool if not already open
-    * click on *Choose FTP File*, then checkbox next to loaded *!H1N1.fasta* file
+    * click on *Choose FTP File*, then checkbox next to loaded *H1N1.fasta* file
     * *Start*
     * *Close*
 1. *Examine all datasets* 
@@ -347,7 +347,7 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/import](https://usegal
 
 1. *Get Data: UCSC Main*
   1. form options
-    * set *clade: Mammal, genome: Human, assembly: hg19, group: Genes and Gene Predictions, track: !RefSeq Genes, table: refGene, position: chrM (lookup)*
+    * set *clade: Mammal, genome: Human, assembly: hg19, group: Genes and Gene Predictions, track: RefSeq Genes, table: refGene, position: chrM (lookup)*
   1. Run the tool twice
     * run1 *GTF*
       * set output format *GTF*
@@ -365,7 +365,7 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/import](https://usegal
       * click *done with selections*
       * click *Send query to Galaxy*
 1. *Get Data: EBI SRA*
-  1. search *ERX010058* (Swine flu aka !HxNx, paired-end Illumina reads)
+  1. search *ERX010058* (Swine flu aka HxNx, paired-end Illumina reads)
     * click into *Experiment (1 results found)*
     * use tab *Read Files*
     * sequence data is in column *Fastq files (galaxy)*
@@ -433,7 +433,7 @@ Wikis: [Support](/src/Support/index.md#custom_reference_genome) and [Learn/Custo
 
 1. History menu *Saved Histories*
 1. History menu *Copy Dataset* 
-  * from ‘’Import’’ check the *!H1N1.fasta* dataset into a new History named *Custom*
+  * from ‘’Import’’ check the *H1N1.fasta* dataset into a new History named *Custom*
 1. using methods from the wiki in the [Learn/CustomGenomes](/src/Learn/CustomGenomes/index.md#troubleshooting) section, reformat the dataset
   * fasta datasets should be correctly formatted to specification *before* beginning any analysis
 1. Troubleshooting #3 *Extra spaces*

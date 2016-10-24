@@ -11,4 +11,4 @@ The Tour is generously sponsored and hosted by the [Laboratoire de Biologie Int√
 [Dave Clements](/src/DaveClements/index.md)
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-04-25</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

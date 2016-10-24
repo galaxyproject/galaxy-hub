@@ -61,7 +61,7 @@ is enough information).
 
 Test `type`s are currently limited to:
 
-1) **isinstance**: testing a !LibraryDatasetDatasetAssociation or !HistoryDatasetAssociation's `.datatype` attribute
+1) **isinstance**: testing a LibraryDatasetDatasetAssociation or HistoryDatasetAssociation's `.datatype` attribute
 for class inheritance:
 ```xml
 <test type="isinstance" test_attr="datatype" result_type="datatype">data.Newick</test>

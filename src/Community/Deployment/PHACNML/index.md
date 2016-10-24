@@ -80,4 +80,4 @@ PHAC NML Galaxy uses [Dynamic Tool Destination](https://github.com/phac-nml/dyna
 * [PHAC NML Galaxy Tools](https://github.com/phac-nml/galaxy_tools)
 * [Dynamic Tool Destination](https://github.com/phac-nml/dynamic-tool-destination)
 
-CategoryDeployment
+[CategoryDeployment](/src/CategoryDeployment/index.md)

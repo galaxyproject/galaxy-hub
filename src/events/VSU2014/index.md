@@ -2,7 +2,7 @@
   <tr>
     <td style=" border: none; text-align: center; vertical-align: middle;"> <br /><a href='http://vsu.edu/'><img src="/src/Images/Logos/VSULogo.jpg" alt="Virginia State University" width="300" /></a> </td>
     <td style=" border: none; width: 5%;"> </td>
-    <td style=" border: none;"> <div class='title'>Introduction to Galaxy</div></strong>December 12, 2014, 10:00-3:00<strong><br /><br />Instructor: <a href='/src/DaveClements/index.md'>Dave Clements</a><br /><a href='http://bit.ly/1wQ5A9l'>VSU Engineering Building</a>, Room 205<br /><a href='http://vsu.edu/'>Virginia State University</a><br />Petersburg, Virginia, United States </td>
+    <td style=" border: none;"> <div class='title'>Introduction to Galaxy</div><strong>December 12, 2014, 10:00-3:00</strong><br /><br />Instructor: <a href='/src/DaveClements/index.md'>Dave Clements</a><br /><a href='http://bit.ly/1wQ5A9l'>VSU Engineering Building</a>, Room 205<br /><a href='http://vsu.edu/'>Virginia State University</a><br />Petersburg, Virginia, United States </td>
   </tr>
 </table>
 
@@ -34,31 +34,31 @@ No programming or Linux command line experience is required.
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:30 </th>
-    <td> </strong>Arrival<strong><div class='indent'>Arrival and </em>coffee<em></div> </td>
+    <td> <strong>Arrival</strong><div class='indent'>Arrival and <em>coffee</em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:00 </th>
-    <td> </strong>Welcome<strong><div class='indent'>Introductions and logistics</div> </td>
+    <td> <strong>Welcome</strong><div class='indent'>Introductions and logistics</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:15 </th>
-    <td> </strong>Basic Analysis with Galaxy<strong><div class='indent'>Walk through a worked, hands-on example demonstrating basic analysis with Galaxy</div> </td>
+    <td> <strong>Basic Analysis with Galaxy</strong><div class='indent'>Walk through a worked, hands-on example demonstrating basic analysis with Galaxy</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:40 </th>
-    <td> </strong>Galaxy Project Overview<strong><div class='indent'>Introduction to Galaxy and the Galaxy</div> </td>
+    <td> <strong>Galaxy Project Overview</strong><div class='indent'>Introduction to Galaxy and the Galaxy</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:00 </th>
-    <td style=" text-align: center;"> </strong>Lunch<strong> (catered) </td>
+    <td style=" text-align: center;"> <strong>Lunch</strong> (catered) </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 1:00 </th>
-    <td> </strong>Advanced Usage: RNA-Seq Example<strong> </td>
+    <td> <strong>Advanced Usage: RNA-Seq Example</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:00 </th>
-    <td style=" text-align: center;"> </strong>Done<strong> </td>
+    <td style=" text-align: center;"> <strong>Done</strong> </td>
   </tr>
 </table>
 
@@ -68,7 +68,7 @@ No programming or Linux command line experience is required.
 
 The workshop is being held in Room 205 of the [VSU Engineering Building](http://bit.ly/1wQ5A9l) on the [Virginia State University Campus](http://vsu.edu/) ([map](http://www.vsu.edu/files/docs/campus-police/parking-map.pdf)) in Petersburg, Virginia.  There is a visitor parking lot directly east of the building.
 
-* [Driving directions](ATTACHMENT_URLVSU2014Parking.pdf), **[including a parking pass](ATTACHMENT_URLVSU2014Parking.pdf)**
+* [Driving directions](PLACEHOLDER_ATTACHMENT_URL/src/VSU2014Parking.pdf), **[including a parking pass](PLACEHOLDER_ATTACHMENT_URL/src/VSU2014Parking.pdf)**
 
 Please bring a wi-fi enabled laptop to the workshop.
 
@@ -83,17 +83,17 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Slides
 
-* [Slides](ATTACHMENT_URLDocuments/Presentations/201412VSUWorkshop.pdf) (DRAFT)
+* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201412VSUWorkshop.pdf) (DRAFT)
 
 ## Feedback
 
 Please take a few minutes to provide [your feedback](http://bit.ly/gxyvs2014) on the workshop.
 
-<div class='left'>[{{attachment:VSUFlierThumb.png|Download Workshop flier|height="160"}}|&do=get](ATTACHMENT_URLVSUFlier.pdf)</div>
+<div class='left'><a href='PLACEHOLDER_ATTACHMENT_URL/src/VSUFlier.pdf'><img src="/src/Events/VSU2014/VSUFlierThumb.png" alt="Download Workshop flier" height="160" /></a></div>
 
 ## Flier
 
-Please print, post and distribute [the workshop flier|&do=get](ATTACHMENT_URLVSUFlier.pdf)<br />at your organization, and or events.
+Please print, post and distribute [the workshop flier](PLACEHOLDER_ATTACHMENT_URL/src/VSUFlier.pdf)<br />at your organization, and or events.
 ## Questions?
 
 Contact [mailto:gcharris AT vsu DOT edu](Glenn Harris) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).

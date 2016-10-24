@@ -30,4 +30,4 @@ To use biojs2galaxy you need to have [node](https://nodejs.org/) and [npm](https
 * [Step by step guide](http://www.benjamenwhite.com/2015/07/biojs2galaxy-a-step-by-step-guide/)
 * [biojs2galaxy](https://github.com/biojs/biojs2galaxy)
 
-CategoryLog
+[CategoryLog](/src/CategoryLog/index.md)

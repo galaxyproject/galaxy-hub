@@ -18,41 +18,41 @@ title: Visualization with Charts
 * Click on the **Visualize** icon and select **Charts**.
 * Now, you should see the *Charts* front panel, where you may select a title and a chart type:
 
-<div class='center'>![Main panel](/src/Learn/Visualization/Charts/charts_main.png)</div>
+<div class='center'><img src="/src/Learn/Visualization/Charts/charts_main.png" alt="Main panel" width="600" /></div>
 
 * Next, click on the 'Add Data' tab and select the column(s) you would like to visualize:
 
-<div class='center'>![Columns](/src/Learn/Visualization/Charts/charts_columns.png)</div>
+<div class='center'><img src="/src/Learn/Visualization/Charts/charts_columns.png" alt="Columns" width="600" /></div>
 
 * Finally, click on the 'Draw' button to visualize your data:
 
-<div class='center'>![Bar diagram](/src/Learn/Visualization/Charts/charts_bar.png)</div>
+<div class='center'><img src="/src/Learn/Visualization/Charts/charts_bar.png" alt="Bar diagram" width="600" /></div>
 
 
 ### Examples (in alphabetical order)
 
 * Area chart:
 
-<div class='center'>![Area](/src/Learn/Visualization/Charts/charts_area.png)</div>
+<div class='center'><img src="/src/Learn/Visualization/Charts/charts_area.png" alt="Area" width="600" /></div>
 
 * Bar diagram (stacked):
 
-<div class='center'>![Stacked](/src/Learn/Visualization/Charts/charts_bar_stacked.png )</div>
+<div class='center'><img src="/src/Learn/Visualization/Charts/charts_bar_stacked.png" alt="Stacked" width="600" /></div>
 
 * Box plot:
 
-<div class='center'>![Box plot](/src/Learn/Visualization/Charts/charts_box.png )</div>
+<div class='center'><img src="/src/Learn/Visualization/Charts/charts_box.png" alt="Box plot" width="600" /></div>
 
 * Line diagram:
 
-<div class='center'>![Line diagram](/src/Learn/Visualization/Charts/charts_line.png )</div>
+<div class='center'><img src="/src/Learn/Visualization/Charts/charts_line.png" alt="Line diagram" width="600" /></div>
 
 * Pie chart:
 
-<div class='center'>![Pie chart](/src/Learn/Visualization/Charts/charts_pie.png )</div>
+<div class='center'><img src="/src/Learn/Visualization/Charts/charts_pie.png" alt="Pie chart" width="600" /></div>
 
 *Tip*: The pie chart tool expects two columns giving the text label and the count value for each segment. To make a Pie chart from a column of data use the ""Count"" occurrences of each record" to make a tally table first.
 
 * Scatter plot:
 
-<div class='center'>![Scatter plot](/src/Learn/Visualization/Charts/charts_scatter.png)</div>
+<div class='center'><img src="/src/Learn/Visualization/Charts/charts_scatter.png" alt="Scatter plot" width="600" /></div>

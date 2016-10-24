@@ -44,39 +44,39 @@ No programming or Linux command line experience is required.
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td> </strong>Welcome<strong><div class='indent'>Introductions and logistics</div> </td>
+    <td> <strong>Welcome</strong><div class='indent'>Introductions and logistics</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:20 </th>
-    <td> </strong>Basic Analysis with Galaxy<strong><div class='indent'>Walk through a worked, hands-on example demonstrating basic analysis with Galaxy</div> </td>
+    <td> <strong>Basic Analysis with Galaxy</strong><div class='indent'>Walk through a worked, hands-on example demonstrating basic analysis with Galaxy</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:45 </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
-    <td> </strong>Basic Analysis into Reusable Workflows<strong><div class='indent'>Genericize our analysis into something we can use again.</div> </td>
+    <td> <strong>Basic Analysis into Reusable Workflows</strong><div class='indent'>Genericize our analysis into something we can use again.</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:20 </th>
-    <td style=" text-align: center;"> </strong>Lunch<strong> (on your own) </td>
+    <td style=" text-align: center;"> <strong>Lunch</strong> (on your own) </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 1:20 </th>
-    <td> </strong>RNA-Seq Example Part I<strong><div class='indent'>Review 1) NGS data quality issues and some quality control options in Galaxy; and 2) Mapping and Splice Junction Calling</div> </td>
+    <td> <strong>RNA-Seq Example Part I</strong><div class='indent'>Review 1) NGS data quality issues and some quality control options in Galaxy; and 2) Mapping and Splice Junction Calling</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:50 </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:05 </th>
-    <td> </strong>RNA-Seq Example Part II<strong><div class='indent'> Differential expression</div> </td>
+    <td> <strong>RNA-Seq Example Part II</strong><div class='indent'> Differential expression</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 5:00 </th>
-    <td style=" text-align: center;"> </strong>Done<strong> </td>
+    <td style=" text-align: center;"> <strong>Done</strong> </td>
   </tr>
 </table>
 
@@ -92,7 +92,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Slides
 
-* [Slides](ATTACHMENT_URLDocuments/Presentations/2016UUtahWorkshop.pdf)
+* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2016UUtahWorkshop.pdf)
 
 ## Feedback
 

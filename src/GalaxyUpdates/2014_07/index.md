@@ -66,54 +66,54 @@ Over the rest of the summer there are other [Galaxy related events](/src/Events/
   </tr>
   <tr>
     <th> June 30 -<br />July 2 </th>
-    <td> </strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
+    <td> <strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
     <td> <a href='/src/Events/GCC2014/Organizers/index.md'>Organizers</a> </td>
   </tr>
   <tr>
     <th> July 7-9 </th>
-    <td> </em><a href='http://biosb.nl/education/course-portfolio/rna-seq/'>NBIC/BioSB RNA- seq data analysis course</a><em> </td>
+    <td> <em><a href='http://biosb.nl/education/course-portfolio/rna-seq/'>NBIC/BioSB RNA- seq data analysis course</a></em> </td>
     <td> Leiden, the Netherlands </td>
     <td> <a href="mailto:education AT biosb DOT nl">NBIC/BioSB</a> </td>
   </tr>
   <tr>
     <th> July 10 </th>
-    <td> </em><a href='http://www.genetics.org.au/annual-meeting-2014/workshops/'>An Introduction to Galaxy with the Genomics Virtual Lab</a><em> </td>
+    <td> <em><a href='http://www.genetics.org.au/annual-meeting-2014/workshops/'>An Introduction to Galaxy with the Genomics Virtual Lab</a></em> </td>
     <td> <a href='http://www.genetics.org.au/annual-meeting-2014/'>Post-GSA 2014 Workshop</a>, Sydney, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> July 11-15 </th>
-    <td> </strong><a href='/src/Events/ISMB2014/index.md'>ISMB and BOSC 2014</a><strong><div class='indent'>At least six talks and five posters</div> </td>
+    <td> <strong><a href='/src/Events/ISMB2014/index.md'>ISMB and BOSC 2014</a></strong><div class='indent'>At least six talks and five posters</div> </td>
     <td> Boston, Massachussetts, United States </td>
     <td> See <a href='/src/Events/ISMB2014/index.md'>presenter list</a> </td>
   </tr>
   <tr>
     <th> July 18 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-brisbane/'>Workshop: RNA-Seq analysis using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-brisbane/'>Workshop: RNA-Seq analysis using Galaxy</a></em> </td>
     <td> Brisbane, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> July 28 - August 1 </th>
-    <td> </em><a href='/src/Events/SaoPaulo2014/index.md'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a><em> </td>
+    <td> <em><a href='/src/Events/SaoPaulo2014/index.md'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a></em> </td>
     <td> <a href='http://usp.br/'>University of São Paulo (USP)</a>, São Paulo, Brazil </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 25-27 </th>
-    <td> </em>Análise e anotação funcional de seqüências NGS usando Stingray@Galaxy<em> </td>
+    <td> <em>Análise e anotação funcional de seqüências NGS usando Stingray@Galaxy</em> </td>
     <td> <a href='https://portal.fiocruz.br/'>Fiocruz</a>, Rio de Janeiro, Brasil </td>
     <td> <a href="mailto:bioinformatica@ioc.fiocruz.br">Plataforma de Bioinformática do IOC</a> </td>
   </tr>
   <tr>
     <th> September 6-10 </th>
-    <td> </em><a href='http://www.eccb14.org/program/tutorials/workflows'>T07 - Scientific Workflows for Analysing, Integrating and Scaling Bioinformatics Data: a Practical Introduction to Galaxy, Taverna and WS-PGRADE</a><em> </td>
+    <td> <em><a href='http://www.eccb14.org/program/tutorials/workflows'>T07 - Scientific Workflows for Analysing, Integrating and Scaling Bioinformatics Data: a Practical Introduction to Galaxy, Taverna and WS-PGRADE</a></em> </td>
     <td> <a href='http://www.eccb14.org/'>European Conference on Computational Biology (ECCB'14)</a>, Strasbourg, France </td>
     <td> <a href='http://wiki.data.dtls.nl/index.php/User:Leon_Mei'>Hailiang (Leon) Mei</a> </td>
   </tr>
   <tr>
     <th> September&nbsp;30 - October 2 </th>
-    <td> </em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a></em> </td>
     <td> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
     <td> <a href="mailto:navratil AT prabi DOT fr">Navratil V</a>., <a href="mailto:oger AT prabi DOT fr">Oger C.</a>, <a href="mailto:veber AT prabi DOT fr">Veber P.</a>, <a href="mailto:deschamps AT prabi DOT fr">Deschamps C.</a>, <a href="mailto:perriere AT prabi DOT fr">Perriere G.</a> </td>
   </tr>
@@ -124,11 +124,11 @@ Over the rest of the summer there are other [Galaxy related events](/src/Events/
     <td rowspan=3> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/BjoernGruening/index.md'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='/src/Events/Switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a><em> </td>
+    <td> <em><a href='/src/Events/Switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>
     <td> SyBIT Tech Day, Bern (Switzerland) </td>
   </tr>
   <tr>
-    <td> </em><a href='/src/Events/Germany2014/index.md'>German Galaxy Developers Day</a><em> </td>
+    <td> <em><a href='/src/Events/Germany2014/index.md'>German Galaxy Developers Day</a></em> </td>
     <td> Freiburg (Germany) </td>
   </tr>
 </table>
@@ -265,25 +265,25 @@ One new [public Galaxy server](/src/PublicGalaxyServers/index.md) was added to t
 <table>
   <tr>
     <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none;"> </strong><a href='/src/Admin/GetGalaxy/index.md'>getgalaxy.org</a><strong> </td>
+    <td colspan=2 style=" border: none;"> <strong><a href='/src/Admin/GetGalaxy/index.md'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a><strong> </td>
+    <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
     <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a><strong> </td>
+    <td style=" border: none;"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
     <td style=" border: none;"> </td>
   </tr>
   <tr>
     <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong>new<strong>: </td>
+    <td style=" border: none;"> <strong>new</strong>: </td>
     <td style=" border: none;"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong>upgrade<strong>: </td>
+    <td style=" border: none;"> <strong>upgrade</strong>: </td>
     <td style=" border: none;"> <code>$ hg pull </code> <br /> <code>$ hg update latest_2014.06.02</code> </td>
   </tr>
 </table>
@@ -313,7 +313,7 @@ The most recent version of CloudMan was [released in January 2014](/src/News/Clo
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </td>
   </tr>
 </table>
 
@@ -337,7 +337,7 @@ In no particular order:
 
 * *From [qfab](http://toolshed.g2.bx.psu.edu/view/qfab/)*
   * [pynast](http://toolshed.g2.bx.psu.edu/view/qfab/pynast): PyNAST is a sequence aligner for adding new 16S rDNA sequences to existing 16S rDNA alignments - GVL
-  * [fasttree_linux_64bit](http://toolshed.g2.bx.psu.edu/view/qfab/fasttree_linux_64bit): !FastTree infers approximately-maximum-likelihood phylogenetic trees from alignments of nucleotide or protein sequences - GVL
+  * [fasttree_linux_64bit](http://toolshed.g2.bx.psu.edu/view/qfab/fasttree_linux_64bit): FastTree infers approximately-maximum-likelihood phylogenetic trees from alignments of nucleotide or protein sequences - GVL
   * [rarefaction](http://toolshed.g2.bx.psu.edu/view/qfab/rarefaction): Rarefaction calculation based on mothur's rarefaction.single command - GVL
 
 * *From [crs4](http://toolshed.g2.bx.psu.edu/view/crs4/)*
@@ -370,13 +370,13 @@ In no particular order:
   * [samtools_sort](http://toolshed.g2.bx.psu.edu/view/iuc/samtools_sort): Sort alignments by leftmost coordinates or read name.
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam/)*
-  * [bamleftalign](https://toolshed.g2.bx.psu.edu/view/devteam/bamleftalign): utility for leftaligning indels in BAM datasets.  Based on bamleftalign utility for !FreeBayes package.
+  * [bamleftalign](https://toolshed.g2.bx.psu.edu/view/devteam/bamleftalign): utility for leftaligning indels in BAM datasets.  Based on bamleftalign utility for FreeBayes package.
 
 ### Packages / Tool Dependency Definitions
 
 * *From [qfab](http://toolshed.g2.bx.psu.edu/view/qfab/)*
   * [package_numpy_1_8](http://toolshed.g2.bx.psu.edu/view/qfab/package_numpy_1_8): Tool dependency definition; downloads and compiles the python numpy package 1.8.1 - GVL
-  * [package_pycogent_1_5_2](http://toolshed.g2.bx.psu.edu/view/qfab/package_pycogent_1_5_2): Tool dependency definition; installs the !PyCogent package version 1.5.2 and its dependencies - GVL
+  * [package_pycogent_1_5_2](http://toolshed.g2.bx.psu.edu/view/qfab/package_pycogent_1_5_2): Tool dependency definition; installs the PyCogent package version 1.5.2 and its dependencies - GVL
   * [package_uclust_1_2_22q](http://toolshed.g2.bx.psu.edu/view/qfab/package_uclust_1_2_22q): Tool dependency definition; installs uclust v1.2.22q for PyNAST - GVL
   * [package_mothur](http://toolshed.g2.bx.psu.edu/view/qfab/package_mothur): mothur is an open-source, expandable software to fill the bioinformatics needs of the microbial ecology community
   * [collector_curve](http://toolshed.g2.bx.psu.edu/view/qfab/collector_curve): Collector's curve calculation based on mothur's collect.single command - GVL
@@ -401,7 +401,7 @@ In no particular order:
   * [package_pindel_0_2_5](http://toolshed.g2.bx.psu.edu/view/jeremie/package_pindel_0_2_5): downloads and compiles version 0.2.5 of Pindel.
 
 * *From [devteam](http://toolshed.g2.bx.psu.edu/view/devteam/)*
-  * [freebayes_0_9_14_8a407cf5f4](http://toolshed.g2.bx.psu.edu/view/devteam/freebayes_0_9_14_8a407cf5f4): Dependencies for !FreeBayes and !LeftAlign wrappers
+  * [freebayes_0_9_14_8a407cf5f4](http://toolshed.g2.bx.psu.edu/view/devteam/freebayes_0_9_14_8a407cf5f4): Dependencies for FreeBayes and LeftAlign wrappers
 
 **Tool Updates:**
 

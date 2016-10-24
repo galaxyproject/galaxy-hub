@@ -75,7 +75,7 @@ See [the list of public Galaxy servers](/src/PublicGalaxyServers/index.md) for m
 
 ## Who's Hiring
 
-<div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
+<div class='right'><img src="/src/Images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * [Research Fellow (Molecular Biologist)](http://bit.ly/UZzlOd) @ [MRC Human Genetics Unit](http://www.hgu.mrc.ac.uk/) at the [MRC Institute of Genetics and Molecular Medicine](http://www.igmm.ac.uk/), Edinburgh, UK
@@ -113,7 +113,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th> January 12-16 </th>
     <td> <em><a href='https://pag.confex.com/pag/xxi/webprogram/Paper7241.html'>Galaxy</a></em> </td>
-    <td> Part of the <a href='https://pag.confex.com/pag/xxi/webprogram/Session1537.html'>GMOD Workshop</a> at </strong><a href='http://www.intlpag.org/'>Plant and Animal Genome (PAG 2013)</a><strong>, San Diego, California, United States </td>
+    <td> Part of the <a href='https://pag.confex.com/pag/xxi/webprogram/Session1537.html'>GMOD Workshop</a> at <strong><a href='http://www.intlpag.org/'>Plant and Animal Genome (PAG 2013)</a></strong>, San Diego, California, United States </td>
     <td> <a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a> </td>
   </tr>
   <tr>
@@ -130,14 +130,14 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> January 28 - February 1 </th>
-    <td> </strong><em><a href='http://bit.ly/PmKgUI'>Phylotastic Hackathon</a><strong></em>  </td>
+    <td> <strong><em><a href='http://bit.ly/PmKgUI'>Phylotastic Hackathon</a></strong></em>  </td>
     <td> <a href='http://bio5.arizona.edu/about-bio5'>Tucson, Arizona, United States</a> </td>
     <td> Arlin Stoltzfus </td>
   </tr>
   <tr>
     <th> March 2-5 </th>
     <td> <em><a href='http://conf.abrf.org/index.cfm/page/satellite_workshops.htm'>SW1: Application of NGS Platforms for Whole Transcriptome and Genome Analysis</a></em> and <br /><em><a href='http://conf.abrf.org/index.cfm/page/index/2013ConfProg.htm'>W6: Community Resource Solutions to Analyzing Large Genomic Data Sets</a></em> </td>
-    <td> </strong><a href='http://conf.abrf.org/'>ABRF 2013</a><strong><br />Palm Springs, California, United States </td>
+    <td> <strong><a href='http://conf.abrf.org/'>ABRF 2013</a></strong><br />Palm Springs, California, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
@@ -154,7 +154,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> </strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
+    <td> <strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -203,7 +203,7 @@ upgrade: $ hg pull -u -r 5dcbbdfe1087
 
 ## New Galaxy CloudMan Release
 
-CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
+[CloudMan](/src/CloudMan/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
 This update brings a large number of updates and new features, the most prominent ones being:
 * Support for Eucalyptus cloud middleware. Thanks to Alex Richter. Also, CloudMan can now run on the HPcloud in basic mode (note that there is no public image available on the HPcloud at the moment and one would thus need to be built by you).
@@ -246,7 +246,7 @@ Several new repositories were added to, and existing repositories updated in the
 
 * [GCC2013](/src/Events/GCC2013/index.md) is coming.  Help [get the word out](/src/Events/GCC2013/Promotion/index.md)!
 * [Training Day Topic Nominations](/src/Events/GCC2013/TrainingDay/index.md) for [GCC2013](/src/Events/GCC2013/index.md) will open in December.  Please start thinking of ideas now.
-* Slides and Screencast from [November GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md) are online.  The next [GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/index.md) will be on [January 16](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) and feature [John Chilton](/src/JohnChilton/index.md) discussing "Deploying Galaxy on !OpenStack with !CloudBioLinux & CloudMan"
+* Slides and Screencast from [November GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md) are online.  The next [GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/index.md) will be on [January 16](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) and feature [John Chilton](/src/JohnChilton/index.md) discussing "Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan"
 * New Tutorial: *[Analysis of ChIP-seq data in Galaxy](http://jura.wi.mit.edu/bio/education/hot_topics/galaxy/GalaxyNov2012_ChIP-seq_toPost.pdf)* from the [BaRC, Whitehead Institute](http://jura.wi.mit.edu/bio/education/hot_topics/)
 * [A short "Getting started with JGalaxy"](http://bit.ly/SkW2yU) document (with screenshots), by [John Chilton](/src/JohnChilton/index.md)
 * [生物人的電腦教室：高通量定序分析一次搞定](http://bit.ly/Sc4LDN) including Galaxy, by Eric Lee 

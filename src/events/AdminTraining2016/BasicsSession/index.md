@@ -84,7 +84,7 @@ This two day workshop will cover the big picture, and installation, configuratio
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:15am </th>
-    <td style=" text-align: center;"> </strong>Checkin and Coffee<strong> </td>
+    <td style=" text-align: center;"> <strong>Checkin and Coffee</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:30am </th>
@@ -100,7 +100,7 @@ This two day workshop will cover the big picture, and installation, configuratio
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00am </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:20am </th>
@@ -108,7 +108,7 @@ This two day workshop will cover the big picture, and installation, configuratio
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30pm </th>
-    <td style=" text-align: center;"> </strong>Lunch Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Lunch Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 1:30pm </th>
@@ -116,7 +116,7 @@ This two day workshop will cover the big picture, and installation, configuratio
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:20pm </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:40pm </th>
@@ -128,7 +128,7 @@ This two day workshop will cover the big picture, and installation, configuratio
   </tr>
   <tr>
     <th style=" text-align: right;"> 5:40pm </th>
-    <td style=" text-align: center;"> </strong>Dinner Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Dinner Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 7:00pm </th>
@@ -136,7 +136,7 @@ This two day workshop will cover the big picture, and installation, configuratio
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:30pm </th>
-    <td style=" text-align: center;"> </strong>Done<strong> </td>
+    <td style=" text-align: center;"> <strong>Done</strong> </td>
   </tr>
 </table>
 
@@ -150,7 +150,7 @@ This two day workshop will cover the big picture, and installation, configuratio
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:15am </th>
-    <td style=" text-align: center;"> </strong>Coffee<strong> </td>
+    <td style=" text-align: center;"> <strong>Coffee</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:30am </th>
@@ -162,7 +162,7 @@ This two day workshop will cover the big picture, and installation, configuratio
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00am </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:20am </th>
@@ -170,7 +170,7 @@ This two day workshop will cover the big picture, and installation, configuratio
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:20pm </th>
-    <td style=" text-align: center;"> </strong>Lunch Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Lunch Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 1:20pm </th>
@@ -178,7 +178,7 @@ This two day workshop will cover the big picture, and installation, configuratio
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:20pm </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:40pm </th>
@@ -186,7 +186,7 @@ This two day workshop will cover the big picture, and installation, configuratio
   </tr>
   <tr>
     <th style=" text-align: right;"> 5:40pm </th>
-    <td style=" text-align: center;"> </strong>Dinner Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Dinner Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 7:00pm </th>
@@ -198,7 +198,7 @@ This two day workshop will cover the big picture, and installation, configuratio
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:30pm </th>
-    <td style=" text-align: center;"> </strong>Done<strong> </td>
+    <td style=" text-align: center;"> <strong>Done</strong> </td>
   </tr>
 </table>
 

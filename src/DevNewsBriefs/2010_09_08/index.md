@@ -36,7 +36,7 @@ hg pull -u -r f09915c8da94
 
 ### Data Libraries
 
-* Added support for the !AddressField, !CheckboxField, !SelectField and !WorkflowField form field types (in addition to the previously supported !TextArea and !TextField) to data library templates.  
+* Added support for the AddressField, CheckboxField, SelectField and WorkflowField form field types (in addition to the previously supported TextArea and TextField) to data library templates.  
 * Inherited template fields now also inherit any field contents from the immediate "parent" of the current item (folder or dataset).  
 * The information in our data library templates wiki at [http://bitbucket.org/galaxy/galaxy-central/wiki/DataLibraries/LibraryTemplates](http://bitbucket.org/galaxy/galaxy-central/wiki/DataLibraries/LibraryTemplates) has been updated to reflect the new features and behavior.
 
@@ -54,7 +54,7 @@ hg pull -u -r f09915c8da94
 
 * Improved handling of metadata to optimize job processing. Includes a new user prompt to set metadata manually or retry auto-detection externally when using 'set_metadata_externally = True' .
 * Enhance wig datatype to only use first 100 data lines to determine column type metadata if dataset filesize exceeds max_optional_metadata_filesize as configured in datatypes_conf.xml.
-* Add '!NullToolOutputActionOption' to tool output dataset actions. This action option is used implicitly when no !ToolOutputActionOption(s) have been defined. 
+* Add 'NullToolOutputActionOption' to tool output dataset actions. This action option is used implicitly when no ToolOutputActionOption(s) have been defined. 
   * *Example of usage*: a metadata value can be set to a static value on a per Tool Output basis.
 
 ### Installation and Management

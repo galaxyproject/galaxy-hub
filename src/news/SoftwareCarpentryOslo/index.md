@@ -19,4 +19,4 @@ Visit the [Boot Camp Page](http://software-carpentry.org/bootcamps/2013-07-oslo.
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-05-31</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

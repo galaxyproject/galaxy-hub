@@ -108,7 +108,7 @@ The list below was created during this BoF.  A [published list of best practices
 
 * Ask Tech savvy people to be teaching assistants.  They may not be familiar with Galaxy or the biology, but they are familiar with computers and are already aware that it may matter, for example, if there are tabs or spaces in a file.  This pairing allows biologists to pick up these general computer interaction skills.
 
-* Set up a mailing list / Google Group for every course.  This creates a "micro-!SeqAnswers" for a group of people who know each other from a course.  A much less intimidating forum than public boards.
+* Set up a mailing list / Google Group for every course.  This creates a "micro-SeqAnswers" for a group of people who know each other from a course.  A much less intimidating forum than public boards.
 
 * Having all materials be licensed under CC-BY makes things much easier.
 
@@ -138,4 +138,4 @@ Is it possible to have a persistent training server?  Some ideas:
   * [Done](/src/Teach/BestPractices/index.md)
 * Include a video training directory
 
-CategoryBoF
+[CategoryBo](/src/CategoryBo/index.md)F

@@ -2,7 +2,7 @@
 
 PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md) 
 
-A unique feature of Galaxy is the large number of tools for performing operations on genomic intervals. These tools are based on the `bx-python package` (https://github.com/bxlab/bx-python). These include *intersect*, *subtract*, *complement*, *merge*, *concatenate*, *cluster*, *coverage*, *base coverage*, and *join*.   Some operations are analogous to relational database queries, such as join and coverage.  Other operations are analogous to set operations.
+A unique feature of Galaxy is the large number of tools for performing operations on genomic intervals. These tools are based on the `bx-python package` (https://github.com/bxlab/bx-python). These include ''intersect'', ''subtract'', ''complement'', ''merge'', ''concatenate'', ''cluster'', ''coverage'', ''base coverage'', and ''join''.   Some operations are analogous to relational database queries, such as join and coverage.  Other operations are analogous to set operations.
 
 Below, each interval operation is described in detail.  You can also view screencasts showing an actual "clicking pattern" through the Galaxy interface (note screencast link below each subheading). The examples shown in screencasts use coordinates of coding exons and transposable elements from chromosome 22. This [screencast](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3A.mov) ([stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3A.mov)) shows how to upload these coordinates.
 

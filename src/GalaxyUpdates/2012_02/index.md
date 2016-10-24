@@ -17,7 +17,7 @@ Welcome to the inaugural edition of *[Galaxy Update](/src/GalaxyUpdates/index.md
 
 New papers of note for the Galaxy community:
 
-* Daniel !MacLean & Sophien Kamoun, "[Big data in small places](http://www.nature.com/nbt/journal/v30/n1/full/nbt.2079.html)." *[Nature Biotechnology](http://www.nature.com/nbt/index.html)*
+* Daniel MacLean & Sophien Kamoun, "[Big data in small places](http://www.nature.com/nbt/journal/v30/n1/full/nbt.2079.html)." *[Nature Biotechnology](http://www.nature.com/nbt/index.html)*
 
 * Thomas Hentrich, Julia M. Schulze, Eldon Emberly, and Michael S. Kobor, "[CHROMATRA: a Galaxy tool for visualizing genome-wide chromatin signatures](http://bioinformatics.oxfordjournals.org/content/early/2012/01/10/bioinformatics.bts007.short)." *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* 
 
@@ -63,19 +63,19 @@ Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/src/Ev
   </tr>
   <tr>
     <th> April 5-6 </th>
-    <td> </strong><a href='http://gmod.org/wiki/April 2012 GMOD Meeting'>April 2012 GMOD Meeting</a><strong> </td>
+    <td> <strong><a href='http://gmod.org/wiki/April 2012 GMOD Meeting'>April 2012 GMOD Meeting</a></strong> </td>
     <td> Washington DC, immediately following <a href='http://pir.georgetown.edu/biocuration2012/'>Biocuration 2012</a> </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> July 13-17 </th>
-    <td> </strong><a href='http://www.iscb.org/ismb2012-program/ismb2012-satellitemeetings#BSI'>Bioinformatics Software Interoperability SIG (BSI-SIG)</a><strong> </td>
-    <td> </strong><a href='http://www.iscb.org/ismb2012'>ISMB 2012</a><strong>, Long Beach, California, United States </td>
+    <td> <strong><a href='http://www.iscb.org/ismb2012-program/ismb2012-satellitemeetings#BSI'>Bioinformatics Software Interoperability SIG (BSI-SIG)</a></strong> </td>
+    <td> <strong><a href='http://www.iscb.org/ismb2012'>ISMB 2012</a></strong>, Long Beach, California, United States </td>
     <td> Anton Nekrutenko </td>
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> </strong><a href='/src/Events/GCC2012/index.md'>2012 Galaxy Community Conference</a><strong> </td>
+    <td> <strong><a href='/src/Events/GCC2012/index.md'>2012 Galaxy Community Conference</a></strong> </td>
     <td> Chicago, Illinois, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>

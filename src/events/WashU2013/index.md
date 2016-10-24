@@ -11,9 +11,9 @@ Instructor: [Dave Clements](/src/DaveClements/index.md), [Galaxy Project](http:/
 
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: top;"> </strong>Monday, April 29<strong> </td>
+    <td style=" border: none; text-align: center; vertical-align: top;"> <strong>Monday, April 29</strong> </td>
     <td style=" border: none; width: 10%; text-align: center; vertical-align: top;"> </td>
-    <td style=" border: none; text-align: center; vertical-align: top;"> </strong>Wednesday, May 1<strong> </td>
+    <td style=" border: none; text-align: center; vertical-align: top;"> <strong>Wednesday, May 1</strong> </td>
   </tr>
 </table>
 
@@ -48,51 +48,51 @@ The agenda is the same for both days.
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td> </strong>Welcome<strong><div class='indent'>Introductions and logistics</div> </td>
+    <td> <strong>Welcome</strong><div class='indent'>Introductions and logistics</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:20 </th>
-    <td> </strong>Basic Analysis with Galaxy<strong><div class='indent'>Walk through a worked, hands-on example demonstrating basic analysis with Galaxy</div> </td>
+    <td> <strong>Basic Analysis with Galaxy</strong><div class='indent'>Walk through a worked, hands-on example demonstrating basic analysis with Galaxy</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:40 </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
-    <td> </strong>Basic Analysis into Reusable Workflows<strong><div class='indent'>Genericize our analysis into something we can use again.</div> </td>
+    <td> <strong>Basic Analysis into Reusable Workflows</strong><div class='indent'>Genericize our analysis into something we can use again.</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:20 </th>
-    <td> </strong>RNA-Seq Example Part I<strong><div class='indent'>Review NGS data quality issues, quality control options in Galaxy, and Mapping and Splice Junction Calling;  Transcript assembly with Cufflinks</div> </td>
+    <td> <strong>RNA-Seq Example Part I</strong><div class='indent'>Review NGS data quality issues, quality control options in Galaxy, and Mapping and Splice Junction Calling;  Transcript assembly with Cufflinks</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:20 </th>
-    <td style=" text-align: center;"> </strong>Lunch<strong> (on your own) </td>
+    <td style=" text-align: center;"> <strong>Lunch</strong> (on your own) </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 1:35 </th>
-    <td> </strong>Galaxy Project Overview<strong><div class='indent'>Introduction to Galaxy and the Galaxy community</div> </td>
+    <td> <strong>Galaxy Project Overview</strong><div class='indent'>Introduction to Galaxy and the Galaxy community</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 1:55 </th>
-    <td> </strong>RNA-Seq Example Part II<strong><div class='indent'>Discuss and run differential gene expression analysis, and merging multiple experiments into a single picture; Visualization and Visual Analytics</div> </td>
+    <td> <strong>RNA-Seq Example Part II</strong><div class='indent'>Discuss and run differential gene expression analysis, and merging multiple experiments into a single picture; Visualization and Visual Analytics</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:45 </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:05 </th>
-    <td> </strong>Sharing, Publishing, and Reproducibility with Galaxy<strong><div class='indent'>Share and publish analysis, datasets, and workflows with Galaxy</div> </td>
+    <td> <strong>Sharing, Publishing, and Reproducibility with Galaxy</strong><div class='indent'>Share and publish analysis, datasets, and workflows with Galaxy</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:25 </th>
-    <td> </strong>Setting up your own Galaxy Cluster on the Amazon Cloud<strong><div class='indent'>Every participant will set up their own functional and populated (but short-lived) Galaxy server on the cloud </div> </td>
+    <td> <strong>Setting up your own Galaxy Cluster on the Amazon Cloud</strong><div class='indent'>Every participant will set up their own functional and populated (but short-lived) Galaxy server on the cloud </div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 5:00 </th>
-    <td style=" text-align: center;"> </strong>Done<strong> </td>
+    <td style=" text-align: center;"> <strong>Done</strong> </td>
   </tr>
 </table>
 
@@ -110,12 +110,12 @@ This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/src/Events/Mi
 
 ## Slides
 
-* [Monday Workshop](ATTACHMENT_URLDocuments/Presentations/20130429WashUWorkshop.pdf)
-* [Wednesday Workshop](ATTACHMENT_URLDocuments/Presentations/20130501WashUWorkshop.pdf)
+* [Monday Workshop](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/20130429WashUWorkshop.pdf)
+* [Wednesday Workshop](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/20130501WashUWorkshop.pdf)
 
 ## Flyer
 
-<div class='right'><a href='/src/attachment:WashUGalaxy2013.pdf/index.md'><img src="/src/Events/WashU2013/WashUGalaxy2013Thumb.png" alt=""  /></a></div>
+<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/WashUGalaxy2013.pdf'><img src="/src/Events/WashU2013/WashUGalaxy2013Thumb.png" alt=""  /></a></div>
 Please distribute to groups in Washington University that might be interested. You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?

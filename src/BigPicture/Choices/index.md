@@ -20,7 +20,7 @@ Many [other Galaxy servers](/src/PublicGalaxyServers/index.md) besides [Main](/s
 
 ## Get the SlipStream Galaxy Appliance
 
-Get a dedicated server pre-configured with a fully operational Galaxy instance.  !SlipStream Galaxy minimizes the IT burden of running and maintaining your own local instance with pre-installed analysis tools, pre-loaded datasets, automatic software updates, and a high-performance infrastructure designed to handle computationally intensive analysis tasks.  Visit the [SlipStream Appliance: Galaxy Edition website](http://www.bioteam.net/slipstream/galaxy-edition) for pricing and other details.
+Get a dedicated server pre-configured with a fully operational Galaxy instance.  SlipStream Galaxy minimizes the IT burden of running and maintaining your own local instance with pre-installed analysis tools, pre-loaded datasets, automatic software updates, and a high-performance infrastructure designed to handle computationally intensive analysis tasks.  Visit the [SlipStream Appliance: Galaxy Edition website](http://www.bioteam.net/slipstream/galaxy-edition) for pricing and other details.
 
 ## Which Option to Choose?
 

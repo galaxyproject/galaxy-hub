@@ -64,7 +64,7 @@ Tool shed has its own board at [Tool Shed Issue Board](https://trello.com/b/vHqp
 
 Serious security problems should not be reported via Trello - please responsibly disclose these as explained in https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING.md .
 
-<div class='right'><br />[{{attachment:FilterCardsButton.png|Search for Issues|width="135"}}|&do=get,target="_blank"](ATTACHMENT_URLFilterCardsButton.png)</div>
+<div class='right'><br /><a href='/src/Issues/FilterCardsButton.png'><img src="/src/Issues/FilterCardsButton.png" alt="Search for Issues" width="135" /></a></div>
 
 ## How to approach Trello
 
@@ -105,13 +105,13 @@ You can browse, [search](/src/Issues/index.md#how-to-search) and [create issues]
 
 Once you have created an account go back to the [Galaxy Trello Board](http://bit.ly/gxytrello) and *pin* the board to your header menu.  This will make it easy to navigate back to the Galaxy board in the future.  *Click* on **Options** (on the right hand side) and *select* **Pin to Header Menu**.
 
-<div class='right'><br />[{{attachment:Vote.png|Up-vote the importance of an issue|width="200"}}|&do=get,target="_blank"](ATTACHMENT_URLVote.png)</div>
+<div class='right'><br /><a href='/src/Issues/Vote.png'><img src="/src/Issues/Vote.png" alt="Up-vote the importance of an issue" width="200" /></a></div>
 
 ### How to Vote
 
 You can indicate which issues are particularly important to you by *up-voting* them.  To do this, first click on the issue.  If the issue has been up-voted before then click on the ***n* votes** link at the top of the issue, and then *click* **Vote**.  If the issue has not yet received any votes then add the first vote (yours) by *clicking* **More...** (in the lower right hand corner) and then **Vote**.
 
-<div class='right'><br />[{{attachment:AddComment.png|Add a comment to an issue|width="150"}}|&do=get,target="_blank"](ATTACHMENT_URLAddComment.png)</div>
+<div class='right'><br /><a href='/src/Issues/AddComment.png'><img src="/src/Issues/AddComment.png" alt="Add a comment to an issue" width="150" /></a></div>
 ### How to Add a Comment
 
 To add a comment to a card, first *click* on the card, and then *click* in the box at the top of the **Activity** list with your icon next to it.  Type away, and when you are done *click* **Comment**.  Voila, you have now contributed to a Galaxy issue description.

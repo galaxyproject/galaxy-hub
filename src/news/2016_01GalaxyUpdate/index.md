@@ -25,4 +25,4 @@ The **[January 2016 Galactic News](/src/GalaxyUpdates/2016_01/index.md)** is hot
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-01-04 </div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

@@ -10,4 +10,4 @@ Email: [mailto:removethisprefix_gedwards2 AT gmail DOT com](removethisprefix_ged
 ...
 
 ----
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

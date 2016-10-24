@@ -113,7 +113,7 @@ Note that the > redirection character has been *[html-escaped](http://dev.w3.org
 
 4. #4 Check paster.log for errors (search for “hello” to find where your tool loaded – or barfed). If it fails to load, look for the syntax error, repair it, rinse, repeat... until it loads. ( `tail -f paster.log` )
 
-5. #5 When it loads correctly, test your new tool. In your VM webrowser, visit http://localhost:8050 (http://localhost:8080 is the distrubution default but Galaxy will be on the **port** - eg 8050 has been configured for the server in unverse_wsgi.ini - you can move it if you wish). Register your admin email address if you haven't already done so and log in. Test your new tool. It will write “hello world” to a new file in your history. If/when it works, find the actual commands Galaxy executed to run your tool in paster.log. If it fails, look in paster.log for hints about what went wrong. Repair and reload via the admin interface (no need to restart the Galaxy server) until it works. 
+5. #5 When it loads correctly, test your new tool. In your VM webrowser, visit http://localhost:8050 (http://localhost:8080 is the distrubution default but Galaxy will be on the '''port''' - eg 8050 has been configured for the server in unverse_wsgi.ini - you can move it if you wish). Register your admin email address if you haven't already done so and log in. Test your new tool. It will write “hello world” to a new file in your history. If/when it works, find the actual commands Galaxy executed to run your tool in paster.log. If it fails, look in paster.log for hints about what went wrong. Repair and reload via the admin interface (no need to restart the Galaxy server) until it works. 
 
 6. #6 Raise arms in victory \o/
 
@@ -245,7 +245,7 @@ Reload, test etc.
 
 ## 1:30 – 1:45pm hello_datasource
 
-Here is a simple datasource example. It is a a simple html page that uses !JavaScript to parse incoming parameters and change the form action attribute to the provided GALAXY_URL value. The user can click the submit button to post the URL value (a prefilled text box) back to the originating Galaxy server. For more information on data source tools, see [here](/src/Admin/Internals/Data Sources/index.md).
+Here is a simple datasource example. It is a a simple html page that uses JavaScript to parse incoming parameters and change the form action attribute to the provided GALAXY_URL value. The user can click the submit button to post the URL value (a prefilled text box) back to the originating Galaxy server. For more information on data source tools, see [here](/src/Admin/Internals/Data Sources/index.md).
 
 We'll use Python's built-in simple HTTP server to make the html page into a web-loadable link:
 ```
@@ -261,7 +261,7 @@ The contents should look like:
 ```xml
 <tool name="Hello" id="hello_datasource" tool_type="data_source">
     <description>datasource</description>
-    <command interpreter="python">data_source.py $output $</u>app__.config.output_size_limit</command>
+    <command interpreter="python">data_source.py $output $__app__.config.output_size_limit</command>
     <inputs action=" http://localhost:8051/datasource_simple_example.html" check_values="false" method="get"> 
         <display>go to Hello Datasource Example $GALAXY_URL</display>
     </inputs>
@@ -284,8 +284,8 @@ If you have extra time, you are able to customize additional attributes of your 
 
 <table>
   <tr>
-    <td> </strong>Parameter name<strong></td>
-    <td> </strong>Usage<strong></td>
+    <td> <strong>Parameter name</strong></td>
+    <td> <strong>Usage</strong></td>
   </tr>
   <tr>
     <td> name</td>

@@ -104,83 +104,83 @@ There are [upcoming events](/src/Events/index.md) in France, Germany, Australia,
   </tr>
   <tr>
     <th> November 3-5 </th>
-    <td> </em><a href='http://galaxy4bioinformatics.sb-roscoff.fr/'>Des bonnes pratiques d'intégration d'outils sous Galaxy</a><em><div class='indent'>Workshop full, but you can get on the waiting list</div> </td>
+    <td> <em><a href='http://galaxy4bioinformatics.sb-roscoff.fr/'>Des bonnes pratiques d'intégration d'outils sous Galaxy</a></em><div class='indent'>Workshop full, but you can get on the waiting list</div> </td>
     <td> <a href='http://www.sb-roscoff.fr/'>Station Biologique de Roscoff</a>, France </td>
     <td> <a href="mailto:christophe.caron@sb-roscoff.fr">Christophe Caron</a> </td>
   </tr>
   <tr>
     <th> November 3-5 </th>
-    <td> </em><a href='http://www.helmholtz-muenchen.de/en/agv/research/research-groups/viral-latency/index.html'>Galaxy NGS Training in the Group of Prof. Dr. Bettina Kempkes</a><em><div class='indent'>Workshop full, but you can get on the waiting list</div> </td>
+    <td> <em><a href='http://www.helmholtz-muenchen.de/en/agv/research/research-groups/viral-latency/index.html'>Galaxy NGS Training in the Group of Prof. Dr. Bettina Kempkes</a></em><div class='indent'>Workshop full, but you can get on the waiting list</div> </td>
     <td> Helmholtz Zentrum München, Germany </td>
     <td> <a href="mailto:bjoern.gruening@gmail.com">Björn Grüning</a> </td>
   </tr>
   <tr>
     <th> November 3-6 </th>
-    <td> </em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'>Galaxy training days</a><em><div class='indent'>Workshop full, but you can get on the waiting list</div> </td>
+    <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'>Galaxy training days</a></em><div class='indent'>Workshop full, but you can get on the waiting list</div> </td>
     <td> <a href='http://bioinfo.genotoul.fr/index.php?id=4#c93'>INRA de Toulouse Midi-Pyrénées</a>, France </td>
     <td> <a href='http://bioinfo.genotoul.fr/index.php?id=74'>GenoToul Bioinformatics Team</a> </td>
   </tr>
   <tr>
     <th rowspan=2> November 5-8 </th>
-    <td> </em>Rapidly bringing software to biologists with Galaxy and Docker<em> </td>
+    <td> <em>Rapidly bringing software to biologists with Galaxy and Docker</em> </td>
     <td rowspan=2> <a href='http://meetings.cshl.edu/meetings/2014/data14.shtml'>Biological Data Science</a>, Cold Spring Harbor Laboratory, New York, United States </td>
     <td> <a href='/src/JohnChilton/index.md'>John Chilton</a> </td>
   </tr>
   <tr>
-    <td> </em>Building Galaxy Japan community<em> <div class='indent'> (See <a href='http://www.pitagora-galaxy.org/'>Pitagora Galaxy</a>)</td>
+    <td> <em>Building Galaxy Japan community</em> <div class='indent'> (See <a href='http://www.pitagora-galaxy.org/'>Pitagora Galaxy</a>)</td>
     <td> Ryota Yamanaka </td>
   </tr>
   <tr>
     <th> November 16 </th>
-    <td> </em>Deciphering Big Data Stacks: An Overview of Big Data Tools<em> </td>
+    <td> <em>Deciphering Big Data Stacks: An Overview of Big Data Tools</em> </td>
     <td> <a href='http://web.ornl.gov/sci/knowledgediscovery/CloudComputing/PDAC-SC14/'>Workshop on Big Data Analytics: Challenges, and Opportunities (BDAC-14)</a>, <a href='http://sc14.supercomputing.org/'>Supercomputing 2014 (SC14)</a>, New Orleans, Louisiana, United States </td>
     <td> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> November 18-20 </th>
-    <td> </em><a href='http://www.bioinformatica.crs4.it/training'>Analisi dati Next Generation Sequencing con Galaxy</a><em> </td>
+    <td> <em><a href='http://www.bioinformatica.crs4.it/training'>Analisi dati Next Generation Sequencing con Galaxy</a></em> </td>
     <td> Cagliari, Italy </td>
     <td> <a href="mailto:ngs-courses@crs4.it">CRS4</a> </td>
   </tr>
   <tr>
     <th> November 19-20 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-1920-november-brisbane/'>Workshop: Extended RNA-Seq analysis</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-1920-november-brisbane/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
     <td> The University of Queensland, Brisbane, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> November 21 </th>
-    <td> </em>Galaxy Cluster to Cloud - Genomics at Scale<em> </td>
+    <td> <em>Galaxy Cluster to Cloud - Genomics at Scale</em> </td>
     <td> <a href='http://sciencegateways.org/upcoming-events/gce14/'>GCE: The 9th Gateway Computing Environments Workshop</a>, <a href='http://sc14.supercomputing.org/'>Supercomputing 2014 (SC14)</a>, New Orleans, Louisiana, United States </td>
     <td> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> November 26-28 </th>
-    <td> </em><a href='http://www.prabi.fr/spip.php?article215'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.prabi.fr/spip.php?article215'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a></em> </td>
     <td> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
     <td> <a href="mailto:navratil AT prabi DOT fr">Navratil V</a>., <a href="mailto:oger AT prabi DOT fr">Oger C.</a>, <a href="mailto:veber AT prabi DOT fr">Veber P.</a>, <a href="mailto:deschamps AT prabi DOT fr">Deschamps C.</a>, <a href="mailto:perriere AT prabi DOT fr">Perriere G.</a> </td>
   </tr>
   <tr>
     <th> December 2-3 </th>
-    <td> </em><a href='http://bit.ly/ZWVjM1'>Galaxy Day</a><em> </td>
+    <td> <em><a href='http://bit.ly/ZWVjM1'>Galaxy Day</a></em> </td>
     <td> Institut Curie, Paris, France </td>
     <td> <a href="mailto:ifb DOT galaxy AT sb DASH roscoff DOT fr">IFB Galaxy</a> </td>
   </tr>
   <tr>
     <th> December 5-8 </th>
-    <td> </em><a href='http://manuals.bioinformatics.ucr.edu/workshops'>Next Generation Data Analysis Workshop</a><em> </td>
+    <td> <em><a href='http://manuals.bioinformatics.ucr.edu/workshops'>Next Generation Data Analysis Workshop</a></em> </td>
     <td> UC Riverside, Riverside, California, United States </td>
     <td> <a href="mailto:rkaundal AT ucr DOT edu">Rakesh Kaundal</a> </td>
   </tr>
   <tr>
     <th> December 9-11 </th>
-    <td> </em><a href='http://www.pf-bird.univ-nantes.fr/85361781/0/fiche___pagelibre/&RH=1357829686766'>Microarray data analysis on Galaxy</a><em> </td>
+    <td> <em><a href='http://www.pf-bird.univ-nantes.fr/85361781/0/fiche___pagelibre/&RH=1357829686766'>Microarray data analysis on Galaxy</a></em> </td>
     <td> <a href='http://www.pf-bird.univ-nantes.fr/'>BIRD IFB core facility</a> Nantes University/INSERM, Nantes, France </td>
     <td> <a href="mailto:raluca DOT teusan AT inserm DOT fr">Raluca Teusan</a>, Audrey Bihouée, Edouard Hirchaud</td>
   </tr>
   <tr>
     <th> December 16-19 </th>
-    <td> </em><a href='https://training.bioinformatics.ucdavis.edu/2014/10/10/rna-seq-and-chip-seq-analysis-with-galaxy-december-16-19-2014/'>RNA-Seq and ChIP-Seq Analysis with Galaxy</a><em> </td>
+    <td> <em><a href='https://training.bioinformatics.ucdavis.edu/2014/10/10/rna-seq-and-chip-seq-analysis-with-galaxy-december-16-19-2014/'>RNA-Seq and ChIP-Seq Analysis with Galaxy</a></em> </td>
     <td> <a href='http://training.bioinformatics.ucdavis.edu/'>UC Davis</a>, California, United States </td>
     <td> <a href="mailto:bioinformatics DOT core AT ucdavis DOT edu">UC Davis Bioinformatics Training</a> </td>
   </tr>
@@ -189,25 +189,25 @@ There are [upcoming events](/src/Events/index.md) in France, Germany, Australia,
   </tr>
   <tr>
     <th> January 10-14 </th>
-    <td> </em>Galaxy for SNP and Variant Data Analysis<em> </td>
+    <td> <em>Galaxy for SNP and Variant Data Analysis</em> </td>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXIII (PAG2014)</a>, San Diego, California, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 9-13 </th>
-    <td> </em><a href='http://bit.ly/1q2L2cv'>Analyse bioinformatique de séquences sous Galaxy</a><em> </td>
+    <td> <em><a href='http://bit.ly/1q2L2cv'>Analyse bioinformatique de séquences sous Galaxy</a></em> </td>
     <td> Montpellier, France </td>
     <td> <a href="mailto:jean-francois.dufayard@cirad.fr">J.F. Dufayard</a> </td>
   </tr>
   <tr>
     <th> February 16-18 </th>
-    <td> </em>Managing and Disseminating Tools and Data in Galaxy<em> </td>
+    <td> <em>Managing and Disseminating Tools and Data in Galaxy</em> </td>
     <td> <a href='http://www.triconference.com/Sequencing-Analysis/'>Genome and Transcriptome Analysis</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
     <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> July 6-8 </th>
-    <td> </strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a><strong> </td>
+    <td> <strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a></strong> </td>
     <td> <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -223,7 +223,7 @@ There are [upcoming events](/src/Events/index.md) in France, Germany, Australia,
 * [Flexible and accessible workflows for improved proteogenomic analysis using the Galaxy framework](http://dx.doi.org/10.1021/pr500812t), by Pratik D. Jagtap, James E. Johnson, Getiria Onsongo, *et al.,* *J. Proteome Res.* (10 October 2014), doi:10.1021/pr500812t
 
   	
-* [iReport: a generalised Galaxy solution for integrated experimental reporting](http://dx.doi.org/10.1186/2047-217x-3-19), by Saskia Hiltemann, Youri Hoogstrate, Peter van der Spek, Guido Jenster, Andrew Stubbs, *!GigaScience*, Vol. 3, No. 1. (2014), 19, doi:10.1186/2047-217x-3-19
+* [iReport: a generalised Galaxy solution for integrated experimental reporting](http://dx.doi.org/10.1186/2047-217x-3-19), by Saskia Hiltemann, Youri Hoogstrate, Peter van der Spek, Guido Jenster, Andrew Stubbs, *GigaScience*, Vol. 3, No. 1. (2014), 19, doi:10.1186/2047-217x-3-19
 
 * [ExomeAI: Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing](http://dx.doi.org/10.1093/bioinformatics/btu665), by Javad Nadaf, Jacek Majewski, Somayyeh Fahiminiya, *Bioinformatics* (08 October 2014), btu665, doi:10.1093/bioinformatics/btu665
 
@@ -318,7 +318,7 @@ The [Majewski Lab ExomeAI Server](http://genomequebec.mcgill.ca/exomeai) is supp
 
 <div class='right solid'><a href='http://mpds.osdd.net/'><img src="/src/PublicGalaxyServers/OSDD_MPDS.png" alt="Molecular Property Diagnostic Suite (MPDS)" width="200" /></a></div>
 
-The [OSDD Molecular Property Diagnostic Suite (MPDS)](http://mpds.osdd.net/) Galaxy servers is an OSDD Chemoinformatics Portal.  MPDS exposes a software toolset that rationally diagnoses (druggable) molecules.  MPDS 1.0 consists of six modules covering informatics (!DataBases, File format conversion), structure and analogue based drug design approaches (Property calculation, QSAR, Docking). [Support](http://mpds.osdd.net/galaxy/static/contact.htm) is available.
+The [OSDD Molecular Property Diagnostic Suite (MPDS)](http://mpds.osdd.net/) Galaxy servers is an OSDD Chemoinformatics Portal.  MPDS exposes a software toolset that rationally diagnoses (druggable) molecules.  MPDS 1.0 consists of six modules covering informatics (DataBases, File format conversion), structure and analogue based drug design approaches (Property calculation, QSAR, Docking). [Support](http://mpds.osdd.net/galaxy/static/contact.htm) is available.
 
 [MPDS](http://mpds.osdd.net/) is developed under the broad initiative of [OSDD (Open Source Drug Discovery)](http://www.osdd.net/) of [CSIR (Council of Scientific and Industrial Research, Govt. of India)](http://www.csir.res.in/home.asp). The site is being hosted from [IICT](http://www.iictindia.org/), Hyderabad, India.
 
@@ -330,7 +330,7 @@ The [OSDD Molecular Property Diagnostic Suite (MPDS)](http://mpds.osdd.net/) Gal
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </td>
   </tr>
 </table>
 
@@ -367,7 +367,7 @@ In no particular order:
   * [microsatellite_ngs](https://toolshed.g2.bx.psu.edu/view/arkarachai-fungtammasan/microsatellite_ngs): Pipeline to profile and genotype microsatellites from short read data. This repository contains these sets of tools: 1 create microsatellite length profile, 2 correct for sequencing errors and report genotype, 3 estimate minimum sequencing read depth, 4 convert informative read depth to locus specific/genome wide sequencing depth.
 
 * *From [peterjc](https://toolshed.g2.bx.psu.edu/view/peterjc):*
-  * [mummer](https://toolshed.g2.bx.psu.edu/view/peterjc/mummer): v0.0.1, essentially a preview (previously only on the !TestToolShed). A simple wrapper allowing MUMmer to be used to draw dotplots from within Galaxy using mummer, mucmer, or promer with mummerplot. No tests yet, no gnuplot or ps2pdf dependency yet.
+  * [mummer](https://toolshed.g2.bx.psu.edu/view/peterjc/mummer): v0.0.1, essentially a preview (previously only on the TestToolShed). A simple wrapper allowing MUMmer to be used to draw dotplots from within Galaxy using mummer, mucmer, or promer with mummerplot. No tests yet, no gnuplot or ps2pdf dependency yet.
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
   * [picard_plus](https://toolshed.g2.bx.psu.edu/view/devteam/picard_plus): Picard wrappers for version 122 and up. New set of Picard wrappers that do not rely on external scripts and deal with all aspects of picard management and UI via tool XML. 
@@ -397,15 +397,15 @@ In no particular order:
 
 * *From [takadonet](https://toolshed.g2.bx.psu.edu/view/takadonet):*
   * [package_tbl2asn_23_7](https://toolshed.g2.bx.psu.edu/view/takadonet/package_tbl2asn_23_7): Contains a tool dependency definition that downloads the binary version 23.7 of tbl2asn. tbl2asn is an automated bulk submission program.
-  * [package_minced_0_1_6](https://toolshed.g2.bx.psu.edu/view/takadonet/package_minced_0_1_6): Contains a tool dependency definition that downloads version 0.1.6 of minced, a CRISPR finder. MinCED is a program to find Clustered Regularly Interspaced Short Palindromic Repeats (CRISPRs) in full genomes or environmental datasets such as metagenomes, in which sequence size can be anywhere from 100 to 800 bp. MinCED runs from the command-line and was derived from CRT (http://www.room220.com/crt/): Charles Bland *et al.*, CRISPR Recognition Tool (CRT): a tool for automatic detection of clustered regularly interspaced palindromic repeats, BMC Bioinformatics 8, no. 1 (2007): 209.
+  * [package_minced_0_1_6](https://toolshed.g2.bx.psu.edu/view/takadonet/package_minced_0_1_6): Contains a tool dependency definition that downloads version 0.1.6 of minced, a CRISPR finder. MinCED is a program to find Clustered Regularly Interspaced Short Palindromic Repeats (CRISPRs) in full genomes or environmental datasets such as metagenomes, in which sequence size can be anywhere from 100 to 800 bp. MinCED runs from the command-line and was derived from CRT (http://www.room220.com/crt/): Charles Bland ''et al.'', CRISPR Recognition Tool (CRT): a tool for automatic detection of clustered regularly interspaced palindromic repeats, BMC Bioinformatics 8, no. 1 (2007): 209.
   * [package_barrnap_0_5](https://toolshed.g2.bx.psu.edu/view/takadonet/package_barrnap_0_5): Contains a tool dependency definition that downloads and compiles version 0.4 of the barrnap. Barrnap predicts the location of 5S, 16S and 23S ribosomal RNA genes in Bacterial genome sequ It takes FASTA DNA sequence as input, and write GFF3 as output. https://github.com/Victorian-Bioinformatics-Consortium/barrnap 
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
-  * [package_numpy_1_9](https://toolshed.g2.bx.psu.edu/view/iuc/package_numpy_1_9): Contains a tool dependency definition that downloads and compiles version 1.9 of the the python numpy package. !NumPy is the fundamental package for scientific computing with Python. 
+  * [package_numpy_1_9](https://toolshed.g2.bx.psu.edu/view/iuc/package_numpy_1_9): Contains a tool dependency definition that downloads and compiles version 1.9 of the the python numpy package. NumPy is the fundamental package for scientific computing with Python. 
   * [package_blast_plus_2_2_30](https://toolshed.g2.bx.psu.edu/view/iuc/package_blast_plus_2_2_30): first version, based on BLAST+ 2.2.29 definition. NCBI BLAST+ 2.2.30 (binaries only)  This Tool Shed package is intended to be used as a dependency of the Galaxy wrappers for NCBI BLAST+ and any other tools which call the BLAST+ binaries internally.
   * [package_matplotlib_1_4](https://toolshed.g2.bx.psu.edu/view/iuc/package_matplotlib_1_4): Contains a tool dependency definition that downloads and compiles version 1.4.x of the the python matplotlib package. matplotlib is a python 2D plotting library which produces publication quality figures. This is the version 1.2.x of matplotlib. www.matplotlib.org/
   * [package_networkx_1_9](https://toolshed.g2.bx.psu.edu/view/iuc/package_networkx_1_9): Contains a tool dependency definition that downloads and compiles version 1.9.x of the python library networkx. NetworkX is a Python language software package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks. http://networkx.github.io/
-  * [package_scipy_0_14](https://toolshed.g2.bx.psu.edu/view/iuc/package_scipy_0_14): Contains a tool dependency definition that downloads and compiles version 0.14 of the the scipy python library. !SciPy is open-source software for mathematics, science, and engineering. The !SciPy library is built to work with !NumPy arrays, and provides many user-friendly and efficient numerical routines such as routines for numerical integration and optimization.  http://www.scipy.org/
+  * [package_scipy_0_14](https://toolshed.g2.bx.psu.edu/view/iuc/package_scipy_0_14): Contains a tool dependency definition that downloads and compiles version 0.14 of the the scipy python library. SciPy is open-source software for mathematics, science, and engineering. The SciPy library is built to work with NumPy arrays, and provides many user-friendly and efficient numerical routines such as routines for numerical integration and optimization.  http://www.scipy.org/
   * [package_dill_0_2](https://toolshed.g2.bx.psu.edu/view/iuc/package_dill_0_2): Contains a tool dependency definition that downloads and compiles version 1.9.x of the python library dill. Dill extends python's 'pickle' module for serializing and de-serializing python objects to the majority of the built-in python types. Serialization is the process of converting an object to a byte stream, and the inverse of which is converting a byte stream back to on python object hierarchy. http://trac.mystic.cacr.caltech.edu/project/pathos/wiki/dill
   * [package_scikit_learn_0_15](https://toolshed.g2.bx.psu.edu/view/iuc/package_scikit_learn_0_15): Contains a tool dependency definition that downloads and compiles version 0.15.x of the the scikit-learn package. Easy-to-use and general-purpose machine learning in Python.  Scikit-learn integrates machine learning algorithms in the tightly-knit scientific Python world, building upon numpy, scipy, and matplotlib. As a machine-learning module, it provides versatile tools for data mining and analysis in any field of science and engineering. It strives to be simple and efficient, accessible to everybody, and reusable in various contexts. http://scikit-learn.org/
 
@@ -434,7 +434,7 @@ In no particular order:
   * [htseq_count](https://toolshed.g2.bx.psu.edu/view/lparsons/htseq_count): Deleted accidentally added file
 
 * *From [saskia-hiltemann](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann):*
-  * [ireport](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann/ireport): fixed dependencies and added !MarkDown support
+  * [ireport](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann/ireport): fixed dependencies and added MarkDown support
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
   * [quality_filter](https://toolshed.g2.bx.psu.edu/view/devteam/quality_filter): tool definition that does not fail on stderr output.

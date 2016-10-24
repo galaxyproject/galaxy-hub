@@ -107,7 +107,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Migrated `shed_tool_conf.xml` into /config. Contributed by [Nitesh Turaga](/src/NiteshTuraga/index.md). [6olcQrhR](https://trello.com/c/6olcQrhR)
 1. Made installation of tool repositories more robust by setting time to "Epoch" instead of throwing server error when `repository_metadata.time_last_tested` is unset. [o09VBhr1](https://trello.com/c/o09VBhr1)
 1. Change to allow anonymous users (those not logged into a Galaxy account) to view Pages with embedded Histories. [9Om6Odj2](https://trello.com/c/9Om6Odj2)
-1. The GET /api/jobs request/response functionality has been expanded. Details in ticket. Thank you Thomas !McGowan. [H0Bvd737](https://trello.com/c/H0Bvd737)
+1. The GET /api/jobs request/response functionality has been expanded. Details in ticket. Thank you Thomas McGowan. [H0Bvd737](https://trello.com/c/H0Bvd737)
 1. SQlite query result rows can now be fetched by javascript visualization libs. Thanks to James Johnson. [S3R9AdA9](https://trello.com/c/S3R9AdA9)
 1. Moved `blastdb_p.loc.sample` to the NCBI BLAST Tool Shed repository. Thanks to Lance Parsons. [lpZNmEzj](https://trello.com/c/lpZNmEzj)
 1. Clearer error messages where parameter validation fails. Thanks to Peter Cock. [dRaX5reV](https://trello.com/c/dRaX5reV)

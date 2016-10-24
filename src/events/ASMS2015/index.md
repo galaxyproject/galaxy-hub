@@ -35,12 +35,12 @@ Galaxy will again have a strong presence at the 2015 ASMS meeting.
     <td> Room 130/132 </td>
     <td> The quest for novel proteoforms: integration of proteomics and ribosome profiling based translatomics </td>
     <td> Gerben Menschaert </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_ASMS_Novel_Proteoforms_Menschaert.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015_ASMS_Novel_Proteoforms_Menschaert.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <td> 9:50 </td>
     <td> Room 130/132 </td>
-    <td> SearchGUI and !PeptideShaker deployed in the Galaxy framework: A powerful informatics platform for protein identification and beyond </td>
+    <td> SearchGUI and PeptideShaker deployed in the Galaxy framework: A powerful informatics platform for protein identification and beyond </td>
     <td> <a href='http://www.latrobe.edu.au/staff-profiles/show-profile-remote-content.php?uname=ICooke'>Ira Cooke</a> </td>
     <td> </td>
   </tr>
@@ -49,12 +49,12 @@ Galaxy will again have a strong presence at the 2015 ASMS meeting.
     <td rowspan=2> Poster Session, Odd Numbered </td>
     <td> Poster TP 127: Democratizing and expanding the reach of DIA Mass Spectrometry: Developing OpenSWATH tools and workflows within user-friendly Galaxy-P platform. </td>
     <td> <a href='http://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2015_ASMS_OpenSWATH_Jagtap.pdf'>Poster</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2015_ASMS_OpenSWATH_Jagtap.pdf'>Poster</a> </td>
   </tr>
   <tr>
     <td> Poster TP 131: Plugging Proteomics Peptide-Spectral Match Visualization into Galaxy </td>
     <td> <a href='https://www.msi.umn.edu/users/jj'>James Johnson</a> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2015_ASMS_PeptideSpectral_Johnson.pdf'>Poster</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2015_ASMS_PeptideSpectral_Johnson.pdf'>Poster</a> </td>
   </tr>
   <tr>
     <td rowspan=2> 12:00 </td>
@@ -82,7 +82,7 @@ Galaxy will again have a strong presence at the 2015 ASMS meeting.
   <tr>
     <td> Poster ThP 467: Combining ribosome profiling and proteomics to discover micropeptides, translation products from small open reading frames </td>
     <td> Volodimir Olexiouk </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2015_ASMS_Ribo_Proteomics_Olexiouk.pdf'>Poster</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2015_ASMS_Ribo_Proteomics_Olexiouk.pdf'>Poster</a> </td>
   </tr>
   <tr>
     <td> 12:00 </td>
@@ -106,17 +106,17 @@ Presenters and expected topics will include:
 
 | Talk |  Topic  |  Speaker  |  Links  | 
 | ---- | ------ | -------- | ------ | 
-| 1. |  **The Proteoformer Pipeline for !RiboProfiling and MS-based Proteomics**  |  Gerben Menschaert, Ghent University  |   | 
-| 2. |  **Galaxy-based !PeptideShaker tools and applications, with a focus on downstream applications**  |  [Ira Cooke](http://www.latrobe.edu.au/staff-profiles/show-profile-remote-content.php?uname=ICooke), La Trobe University / [Pratik Jagtap](http://cbs.umn.edu/contacts/pratik-d-jagtap), University of Minnesota  |  [Slides](ATTACHMENT_URLDocuments/Presentations/2015_ASMS_PeptideShaker_Cooke_Jagtap.pdf)  | 
+| 1. |  **The Proteoformer Pipeline for RiboProfiling and MS-based Proteomics**  |  Gerben Menschaert, Ghent University  |   | 
+| 2. |  **Galaxy-based PeptideShaker tools and applications, with a focus on downstream applications**  |  [Ira Cooke](http://www.latrobe.edu.au/staff-profiles/show-profile-remote-content.php?uname=ICooke), La Trobe University / [Pratik Jagtap](http://cbs.umn.edu/contacts/pratik-d-jagtap), University of Minnesota  |  [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015_ASMS_PeptideShaker_Cooke_Jagtap.pdf)  | 
 | 3. |  **Targeted Proteomics tools in Galaxy**  |  Shyamasree Saha, Queen Mary University of London  |   | 
 
 Ample time will be offered for questions from attendees and discussion. Presenters will be available for an informal panel discussion in the final part of the workshop.
 
 <div class='right'>
 <br />
-<a href='/src/attachment:ASMS2015GalaxyPFlyer.pdf/index.md'><img src="/src/Events/ASMS2015/ASMS2015GalaxyPFlyerThumb.png" alt="Galaxy-P at ASMS 2015" /></a>
+<a href='PLACEHOLDER_ATTACHMENT_URL/src/ASMS2015GalaxyPFlyer.pdf'><img src="/src/Events/ASMS2015/ASMS2015GalaxyPFlyerThumb.png" alt="Galaxy-P at ASMS 2015" /></a>
 </div>
 
 ## Flyer
 
-You are encouraged to print [this handy flyer](ATTACHMENT_URLASMS2015GalaxyPFlyer.pdf) prepared by the Galaxy-P Project and take with you.
+You are encouraged to print [this handy flyer](PLACEHOLDER_ATTACHMENT_URL/src/ASMS2015GalaxyPFlyer.pdf) prepared by the Galaxy-P Project and take with you.

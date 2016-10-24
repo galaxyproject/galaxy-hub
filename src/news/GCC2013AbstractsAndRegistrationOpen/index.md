@@ -26,4 +26,4 @@ PS: And please help us [get the word out](/src/Events/GCC2013/Promotion/index.md
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-02-23</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

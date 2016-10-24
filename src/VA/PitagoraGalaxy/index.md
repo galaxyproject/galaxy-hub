@@ -24,6 +24,6 @@ title: [Pitagora-Galaxy](http://www.pitagora-galaxy.org/)
 
 * [Pitagora-Galaxy Project](http://www.pitagora-galaxy.org/about_en)
 * [Public server description](/src/PublicGalaxyServers/index.md#pitagora-galaxy)
-* [Building Galaxy Japan Community](ATTACHMENT_URLDocuments/Posters/2014PitagoraYanamaka.pdf), poster presented by Ryota	Yamanaka at Biological Data Science 2014, Cold Spring Harbor Laboratory.
+* [Building Galaxy Japan Community](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2014PitagoraYanamaka.pdf), poster presented by Ryota	Yamanaka at Biological Data Science 2014, Cold Spring Harbor Laboratory.
 
-CategoryVirtualAppliance
+[CategoryVirtualAppliance](/src/CategoryVirtualAppliance/index.md)

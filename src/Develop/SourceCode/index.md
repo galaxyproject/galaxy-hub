@@ -3,11 +3,11 @@ PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
 
 Galaxy is an open source software under [AFL 3.0](/src/Admin/License/index.md) license.
 
-The source code is publicly available and hosted at !GitHub. If you need help getting started, the [GitHub Git tutorial](https://try.github.io/) is a good places to start.
+The source code is publicly available and hosted at GitHub. If you need help getting started, the [GitHub Git tutorial](https://try.github.io/) is a good places to start.
 
 Galaxy recently transitioned development from [Bitbucket](https://bitbucket.org/galaxy/galaxy-central/) to [GitHub](https://github.com/galaxyproject/galaxy).
 
-**Galaxy deployers and developers** should now use !GitHub.
+**Galaxy deployers and developers** should now use GitHub.
 
 The technical details regarding the transition can be found on the [the GitHub transition Trello card](https://trello.com/c/iiSBweRQ).
 
@@ -17,7 +17,7 @@ The technical details regarding the transition can be found on the [the GitHub t
 
 If you have created piece of code for Galaxy that you would like to share with the community, please follow the instructions contained in https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING.md .
 
-For commits made prior to the switch to git, you can find the former HG commit IDs via git notes. Assuming you have set the [canonical Galaxy GitHub repository](https://github.com/galaxyproject/galaxy/) as the remote `upstream`, it is done like so (if you cloned directly from the canonical source rather than your own !GitHub fork, the remote would be `origin`):
+For commits made prior to the switch to git, you can find the former HG commit IDs via git notes. Assuming you have set the [canonical Galaxy GitHub repository](https://github.com/galaxyproject/galaxy/) as the remote `upstream`, it is done like so (if you cloned directly from the canonical source rather than your own GitHub fork, the remote would be `origin`):
 
 ```sh
 % git fetch upstream refs/notes/hg2git:refs/notes/hg2git`
@@ -79,8 +79,8 @@ And receive updates
   ```
 
 1. `git clone https://github.com/galaxyproject/galaxy` in a temporary directory.
-1. Find the corresponding commit in the cloned Git repository on the corresponding branch (Bitbucket default->!GitHub dev; Bitbucket stable->!GitHub master).
-1. Checkout the !GitHub repository at the commit you found in the previous step.
+1. Find the corresponding commit in the cloned Git repository on the corresponding branch (Bitbucket default->GitHub dev; Bitbucket stable->GitHub master).
+1. Checkout the GitHub repository at the commit you found in the previous step.
 1. Backup your `.hg/` folder.
 1. Replace your `.hg/` folder with the `.git/` folder from the new checkout.
 1. Your Galaxy should be switched to Git. Unless you have local changes, `git status` should show none.

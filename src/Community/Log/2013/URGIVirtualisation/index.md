@@ -21,4 +21,4 @@ Note: The page is in French, but most of the code/config snippets are in English
 
 * [The Document](http://wiki.sb-roscoff.fr/ifb/index.php/Virtualisation)
 
-CategoryLog
+[CategoryLog](/src/CategoryLog/index.md)

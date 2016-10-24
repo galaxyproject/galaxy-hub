@@ -48,7 +48,7 @@ We also have a tool_conf.xml file that looks like the following and no repositor
 
 Let's also assume that the file named integrated_tool_panel.xml does not yet exist in our Galaxy installation directory because we have just updated our Galaxy instance to the release that includes the new components that produce this file. Starting our Galaxy server populates the tool panel like this.
 
-![](/src/Admin/ToolPanel/simple_tool_panel.png)
+<img src="/src/Admin/ToolPanel/simple_tool_panel.png" alt="" height="194" />
 
 As part of the server startup process, the file named integrated_tool_panel.xml is produced since it doesn't exist. In our case, it is generated like this. Notice that the contents of this file are similar to the tool_conf.xml file shown above, but with an important difference - the tool tag includes an "id" attribute instead of a "file" attribute.
 
@@ -80,7 +80,7 @@ Let's install a tool shed repository named column_maker that contains a tool int
 
 Our tool panel now looks like this.
 
-![](/src/Admin/ToolPanel/tool_installed_to_simple_tool_panel.png)
+<img src="/src/Admin/ToolPanel/tool_installed_to_simple_tool_panel.png" alt="" height="232" />
 
 A new tool tag set entry for the contained tool has been automatically appended to the document root of our integrated_tool_panel.xml file (this is an important point, and will be discussed further below), resulting in its contents looking like this.
 
@@ -97,7 +97,7 @@ A new tool tag set entry for the contained tool has been automatically appended 
 
 After restarting the Galaxy server, our tool panel will display the label first.
 
-![](/src/Admin/ToolPanel/simple_tool_panel_with_changed_label.png)
+<img src="/src/Admin/ToolPanel/simple_tool_panel_with_changed_label.png" alt="" height="204" />
 
 In the above example, we installed a repository that contained a tool, and our shed_tool_conf.xml file, as well as our integrated_tool_panel.xml file, were automatically changed to include a tag set for the contained tool. But what happens if you manually edit your tool_conf.xml file to add a new tool that is available on your local server? Let's edit our tool_conf.xml file to add a section named "ENCODE Tools" as the first section in the file, making it look like this.
 
@@ -116,7 +116,7 @@ In the above example, we installed a repository that contained a tool, and our s
 
 Restarting our Galaxy server produces a tool panel that looks like this. Notice that the new section named "ENCODE Tools" is displayed at the top of the tool panel since we added it to that location in our tool_conf.xml file.
 
-![](/src/Admin/ToolPanel/simple_tool_panel_with_encode_section.png)
+<img src="/src/Admin/ToolPanel/simple_tool_panel_with_encode_section.png" alt="" height="262" />
 If you add a new entry to a section, the section will be displayed in the order of your entries as well. Let's add another entry for a tool to our "ENCODE Tools" section in our tool_conf.xml file, making it look like this.
 
 ```xml
@@ -134,7 +134,7 @@ If you add a new entry to a section, the section will be displayed in the order 
 ```
 
 Restarting our Galaxy server displays the tool panel with the "ENCODE Tools" section with tools arranged as we entered them.
-![](/src/Admin/ToolPanel/simple_tool_panel_two_encode_tools.png)
+<img src="/src/Admin/ToolPanel/simple_tool_panel_two_encode_tools.png" alt="" height="273" />
 Our integrated_tool_panel.xml file now looks like this.
 
 ```xml

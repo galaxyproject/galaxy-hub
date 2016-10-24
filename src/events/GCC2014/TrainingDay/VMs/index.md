@@ -43,7 +43,7 @@ The VM(s) to download depend on the workshops you are attending:
 
 | Topic |  Links  |  Description  | 
 | ----- | ------ | ------------ | 
-| [Galaxy on a Cluster - User and Project Management](/src/Events/GCC2014/TrainingDay/VMs//index.md#galaxy-on-a-cluster---user-and-project-management) |  [Instructions](http://www.usit.uio.no/om/organisasjon/uav/itf/intern-doc/galaxy/virtualbox-installation.html) <br /> [Download VM (from Oslo)](http://folk.uio.no/nikolaiv/GCC2014-Users-Projects.ova)  |  Customized Galaxy instance for this workshop.<div class='indent'>User: baltimore2014<br />Password: !UsersProjects2014</div>  | 
+| [Galaxy on a Cluster - User and Project Management](/src/Events/GCC2014/TrainingDay/VMs//index.md#galaxy-on-a-cluster---user-and-project-management) |  [Instructions](http://www.usit.uio.no/om/organisasjon/uav/itf/intern-doc/galaxy/virtualbox-installation.html) <br /> [Download VM (from Oslo)](http://folk.uio.no/nikolaiv/GCC2014-Users-Projects.ova)  |  Customized Galaxy instance for this workshop.<div class='indent'>User: baltimore2014<br />Password: UsersProjects2014</div>  | 
 | [Galaxy Installation and Administration](/src/Events/GCC2014/TrainingDay/VMs//index.md#galaxy-installation-and-administration) |  [Download VM (from PA)](http://depot.galaxyproject.org/GCC2014.ova)  |  Has Galaxy source code distribution and Galaxy prerequisites, and running Galaxy and Galaxy Tool Shed instances.<div class='indent'>User: galaxy<br />Password: galaxy  | 
 | [Galaxy Automation: Using the API](/src/Events/GCC2014/TrainingDay/VMs//index.md#galaxy-automation-using-the-api) | 
 | [Tool Development from bright idea to ToolShed - designing a Galaxy Tool](/src/Events/GCC2014/TrainingDay/VMs//index.md#tool-development-from-bright-idea-to-toolshed---designing-a-galaxy-tool) | 
@@ -52,9 +52,9 @@ The VM(s) to download depend on the workshops you are attending:
 ## 3. Import the VM into VirtualBox
 
 1. First, make a backup copy of the downloaded `.ova` file(s). If something goes wrong you can always make a new copy.
-1. Import the VM image into !VirtualBox by either starting the downloaded `.ova` file directly, or by launching !VirtualBox and navigating to **File &rarr; Import Appliance** and opening the file.
+1. Import the VM image into VirtualBox by either starting the downloaded `.ova` file directly, or by launching VirtualBox and navigating to **File &rarr; Import Appliance** and opening the file.
 1. This will display the **Appliance Import Settings** window. *Click* the **Import** button.
-1. 4. It may then take several minutes for !VirtualBox to import the VM. Once it is done, a new VM will appear in the left pane in the 'powered off' state.
+1. 4. It may then take several minutes for VirtualBox to import the VM. Once it is done, a new VM will appear in the left pane in the 'powered off' state.
 
 The VM is now installed.
 

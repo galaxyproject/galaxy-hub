@@ -36,4 +36,4 @@ Thanks for using Galaxy,
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-02-09</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

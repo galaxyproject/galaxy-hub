@@ -49,7 +49,7 @@ Uploading files to a non-empty repository introduces additional features on the 
 
 In our case we're just uploading  a single text file for now.
 
-![](/src/RepositoryRevisions/upload_non_empty.png)
+<img src="/src/RepositoryRevisions/upload_non_empty.png" alt="" height="760" />
 
 After uploading the test file, we have the following repository contents.
 
@@ -65,7 +65,7 @@ But what about those that may have installed the repository when it only contain
 
 Clicking on the change set link for the repository tip displays the contents of the file named ANOTHER_README that we uploaded.
 
-![](/src/RepositoryRevisions/change_set.png)
+<img src="/src/RepositoryRevisions/change_set.png" alt="" height="356" />
 
 # Adding a change set that generates a new repository metadata record
 
@@ -97,7 +97,7 @@ When we visit the repository's main page after uploading the new version of the 
 
 The **Repository revision** select list includes an option for each metadata record associated with the repository. 
 
-![](/src/RepositoryRevisions/new_filter_version.png)
+<img src="/src/RepositoryRevisions/new_filter_version.png" alt="" height="898" />
 
 The selected option of the **Repository revision** select list will default to the latest change set revision in the repository change log that is associated with a repository metadata record. Selecting an option enables you to install (or download) the versions of the tools within that change set revision into Galaxy. You can also preview the tool versions and you can inspect the metadata for each tool version available in the selected repository revision. For example, selecting revision **1:...** (the repository tip) of our Filter tool now displays version 2.2.0 of the tool when you click on the **name** of the tool in the **Preview tools and inspect metadata by tool version** form.
 
@@ -113,7 +113,7 @@ As discussed previously, a new repository revision is created every time a chang
 
 While browsing repositories, you'll notice that the value of some **Revision** columns is a select list, while others are simply text. For example, the barcode_splitter and clustalw repositories in the following page have textual **Revision** column values, while the clustalomega repository's value is a select list.
 
-![](/src/RepositoryRevisions/repository_revisions.png)
+<img src="/src/RepositoryRevisions/repository_revisions.png" alt="" height="458" />
 
 Notice that the **Revision** values are a number followed by a **:** and an alpha-numeric string (e.g., 6**:**98d05121d41e). The number automatically increments, and refers to the zero-based number of change sets committed to the repository (i.e, the first committed change set's number is zero). The alpha-numeric string is a unique identifier for each change set within the repository's change log, and the **:** is simply a separator.
 
@@ -121,13 +121,13 @@ Tools that will not successfully load into Galaxy are deemed "invalid", but can 
 
 The criteria by which new repository revisions are generated is described in earlier sections of this page. As another example, let's take a look at the **Revision** column select list for the clustalomega tool. There are 2 options in the select list, 0:ff1768533a07 and 2:bb1847435ec1 (the repository tip). The first option, 0:ff1768533a07, refers to the repository change set that includes clustalomega tool version 0.2.
 
-![](/src/RepositoryRevisions/clustalomega_02.png)
+<img src="/src/RepositoryRevisions/clustalomega_02.png" alt="" height="484" />
 
 You can download version 0.2 of the clustalomega tool by visiting the above page and selecting the appropriate options from the **Repository Actions** menu, and you can preview version 0.2 of the tool and inspect the metadata for that version using the pop-up menu in the **Preview tools and inspect metadata by tool version** section.
 
 Similarly, you can inspect metadata or download version 1.0.2 of the tool by selecting option 2:bb1847435ec1 in the **Revision** select list.
 
-![](/src/RepositoryRevisions/clustalomega_102.png)
+<img src="/src/RepositoryRevisions/clustalomega_102.png" alt="" height="484" />
 
 # Resetting metadata on your repositories
 

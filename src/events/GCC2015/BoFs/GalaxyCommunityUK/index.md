@@ -40,7 +40,7 @@ If you are interested, please add your name below and/or send an email to [mailt
 * Nicola Soranzo
 * Rémi Marenco
 * Peter Cock
-* Dan !MacLean
+* Dan MacLean
 * Peter Li
 * Dave Clements
 
@@ -63,7 +63,7 @@ If you are interested, please add your name below and/or send an email to [mailt
 
 * We aren't united by a distinct language like France or Japan.
 
-* The big Data paper by Dan !MacLean on how they changed the environment at TSL.
+* The big Data paper by Dan MacLean on how they changed the environment at TSL.
   * Took goodwill, infrastructure, backing.  It increased productivity.
 
 * Raising the profile of GCUK.
@@ -82,4 +82,4 @@ If you are interested, please add your name below and/or send an email to [mailt
 If you are interested in becoming active in [GCUK](http://galaxy-community.org.uk/) then please send an email to 
 [mailto:christian.schudoma AT tsl DOT ac DOT uk](Christian Schudoma TSL).
 
-CategoryBoF
+[CategoryBo](/src/CategoryBo/index.md)F

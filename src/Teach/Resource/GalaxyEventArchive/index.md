@@ -26,4 +26,4 @@ The [Galaxy Events Archive](/src/Events/index.md#past_events) lists all known pa
 * [Galaxy Events Archive for current year](/src/Events/index.md#past_events)
 * [Galaxy Events Archive for previous years](/src/Events/Archive/index.md)
 
-CategoryTrainingResource
+[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)

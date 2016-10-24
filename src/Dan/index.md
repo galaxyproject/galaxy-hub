@@ -41,4 +41,4 @@ Working closely with other members of the Galaxy team, Dan has played a signific
 
 
 ----
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

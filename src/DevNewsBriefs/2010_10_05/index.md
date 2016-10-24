@@ -34,7 +34,7 @@ hg pull -u -r d681ef7538ed
 ### Extended Workflow and related History/Dataset Features
 
 1. You can now flag a workflow step as an output within the editor.  
-* To do this, hover over any output, click the asterisk to flag/unflag an output.  If a workflow has outputs flagged, only those particular results will show in the history and all other outputs will be hidden.  If no outputs are flagged, everything is shown (same as previous behavior).  Note that workflow output flagging overrides !HideDatasetActions; if a !HideDatasetAction exists on a dataset flagged as a workflow output, it is removed.
+* To do this, hover over any output, click the asterisk to flag/unflag an output.  If a workflow has outputs flagged, only those particular results will show in the history and all other outputs will be hidden.  If no outputs are flagged, everything is shown (same as previous behavior).  Note that workflow output flagging overrides HideDatasetActions; if a HideDatasetAction exists on a dataset flagged as a workflow output, it is removed.
 * This feature makes it much easier to take an existing workflow, and hide all of the outputs except for a small number of desired results.
 * It is worth noting that non-output results are only hidden, not deleted, and that they can be viewed in the history at any time by going to "View Hidden Datasets" in the history panel.
 
@@ -51,7 +51,7 @@ hg pull -u -r d681ef7538ed
 4. Post Job Actions
 * Separated into immediate and delayed actions.  Immediate actions run when the job is created, as opposed to when it is finished.  
 * Set Datatype is now an immediate action.  This has no impact on the execution of the job, but it allows following jobs to queue with the correct subsequent datatypes.
-* !RenameDatasetAction also happens immediately, rather than waiting for a job to complete.  This makes the history less confusing to watch, as things don't randomly change names.
+* RenameDatasetAction also happens immediately, rather than waiting for a job to complete.  This makes the history less confusing to watch, as things don't randomly change names.
 
 5. Updated UI - screenshots
 * Hovering for the tooltip on the asterisk.
@@ -136,4 +136,4 @@ Galaxy Project Team
 
 [http://bitbucket.org/galaxy/galaxy-central](http://bitbucket.org/galaxy/galaxy-central)
 
-This project is supported in part by NSF, NHGRI, and the Huck Institutes of the Life Sciences, and The Institute for !CyberScience at Penn State.
+This project is supported in part by NSF, NHGRI, and the Huck Institutes of the Life Sciences, and The Institute for CyberScience at Penn State.

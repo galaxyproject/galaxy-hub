@@ -104,15 +104,15 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Slides
 
-* [February 4](ATTACHMENT_URLDocuments/Presentations/20130204JohnsHopkinsWorkshop.pdf)
-* [February 5](ATTACHMENT_URLDocuments/Presentations/20130205JohnsHopkinsWorkshop.pdf)
+* [February 4](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/20130204JohnsHopkinsWorkshop.pdf)
+* [February 5](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/20130205JohnsHopkinsWorkshop.pdf)
 
-* [Cloud slides](ATTACHMENT_URLDocuments/Presentations/201302JohnsHopkinsCloud.pdf)
-* [Cloud protocol](ATTACHMENT_URLDocuments/Presentations/201302JohnsHopkinsCloudProtocol.pdf)
+* [Cloud slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201302JohnsHopkinsCloud.pdf)
+* [Cloud protocol](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201302JohnsHopkinsCloudProtocol.pdf)
 
 ## Flyer
 
-<div class='right'><a href='/src/attachment:JohnsHopkinsGalaxy2013.pdf/index.md'><img src="/src/Events/JohnsHopkins2013/JohnsHopkinsGalaxy2013Thumb.png" alt=""  /></a></div>
+<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/JohnsHopkinsGalaxy2013.pdf'><img src="/src/Events/JohnsHopkins2013/JohnsHopkinsGalaxy2013Thumb.png" alt=""  /></a></div>
 Please distribute to parts of Johns Hopkins that might be interested.  You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?

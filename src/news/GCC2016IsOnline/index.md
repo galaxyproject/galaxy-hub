@@ -26,4 +26,4 @@ The [mailto:gcc2016-exec@lists.galaxyproject.org](GCC2016 Exec)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-12-18</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

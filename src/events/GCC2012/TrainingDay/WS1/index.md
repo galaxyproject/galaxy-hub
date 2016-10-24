@@ -1,4 +1,4 @@
-Slides are available here: [Slides](ATTACHMENT_URLDocuments/Presentations/GCC2012/WS1_blankenberg_gcc_2012_integrating_tools_and_data_sources.pdf).
+Slides are available here: [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2012/WS1_blankenberg_gcc_2012_integrating_tools_and_data_sources.pdf).
 
 maf_slice.py:
 ```
@@ -142,7 +142,7 @@ def __main__():
     else:
         print "No valid regions have been provided."
     
-if __name__ == "<u>main__": __main__()
+if __name__ == "__main__": __main__()
 
 ```
 

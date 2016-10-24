@@ -70,7 +70,7 @@ The target folders select list is filtered to include only valid folders to whic
 ### Data Content
 
 * **Genomes**
-  * </u>New & included in NGS Tools__
+  * __New & included in NGS Tools__
     * *Saccharomcyes cerevisiae*: Saccharomcyes_cerevisiae_S288C_SGD2010
     * *Arabidopsis lyrata*: Araly1
     * Purple Sea Urchin: strPur3 and Spur_v2.6
@@ -80,13 +80,13 @@ The target folders select list is filtered to include only valid folders to whic
     * Chimpanzee: panTro3
     * Northern White-Cheeked Gibbon: nomLeu1
     * Korean Man AK1: Homo_sapiens_AK1
-  * <u>New & not included in NGS Tools__
+  * __New & not included in NGS Tools__
     * *Caenorhabditis remanei*: caeRem2
-  * </u>Existing genomes added to NGS Tools__
+  * __Existing genomes added to NGS Tools__
     * hg19 Canonical female (no Y chromosome)
     * *Streptococcus pneumoniae R6*: 278
     * *Drosophila virilis*: droVir3 and droVir2 
-* **New **!LiftOver** Files**
+* **New **LiftOver** Files**
   * caeRem2 --> caePb1, caeRem2 --> caeRem3, caeRem2 --> cb3, caeRem2 --> ce4, caeRem2 --> priPac1, calJac3 --> hg18, canFam2 --> monDom5, danRer6 --> danRer7, danRer7 --> fr2, danRer7 --> gasAcu1, danRer7 --> hg19, danRer7 --> mm9, danRer7 --> oryLat2, danRer7 --> panTro3, danRer7 --> tetNig2, danRer7 --> xenTro2, droVir3 --> droVir2, fr2 --> danRer7, gasAcu1 --> danRer7, hg18 --> calJac3, hg19 --> danRer7, mm9 --> danRer7, panTro3 --> danRer7, panTro3 --> hg19, ponAbe2 --> calJac3, ponAbe2 --> monDom5, strPur2 --> ci2, tetNig2 --> danRer7, xenTro2 --> danRer7
 * **Add Genomes to Your Instance**
   * [http://bitbucket.org/galaxy/galaxy-central/wiki/NGSLocalSetup](http://bitbucket.org/galaxy/galaxy-central/wiki/NGSLocalSetup)
@@ -123,7 +123,7 @@ The target folders select list is filtered to include only valid folders to whic
 ### Community Tools (Tool Shed)
 
 * Tuning: Clarified what is being searched in the **Tool Shed**.
-* New ***ClustalW*** wrapper (see http://www.clustal.org) for protein/dna multiple alignments based on the Galaxy *ClustalW* wrapper posted by [[HansrudolfHotz|Hans-Rudolf Hotz[[ in an email on the developer list.
+* New ***ClustalW*** wrapper (see http://www.clustal.org) for protein/dna multiple alignments based on the Galaxy *ClustalW* wrapper posted by [[[HansrudolfHotz](/src/HansrudolfHotz/index.md)|Hans-Rudolf Hotz[[ in an email on the developer list.
     [http://lists.bx.psu.edu/pipermail/galaxy-dev/2010-November/003732.html](http://lists.bx.psu.edu/pipermail/galaxy-dev/2010-November/003732.html)
 * New *Weblogo3* wrapper ([http://weblogo.berkeley.edu](http://weblogo.berkeley.edu)) that creates sequence logos from *FASTA* data such as the output from a *ClustalW* alignment.
 
@@ -219,7 +219,7 @@ Test framework enhancements:
 
 * Following the __login__ link from the **Logout** page no longer redirects you to the **Logout** page once you have logged in.
 * The peek setting method, `set_peek()`, should now function consistently across datatypes descending from `Text`, particularly with respect to line count estimation.
-* Apply patch from Ry4an Brase to correct "!NoneType preference on the jobs view" issue.
+* Apply patch from Ry4an Brase to correct "NoneType preference on the jobs view" issue.
 * Don't alter the contents of a file while uploading to a data library if using one of the **Upload files from file system paths** or **Upload a directory of files** options in conjunction with the **Link to files without copying into Galaxy** option. This partially resolves the issue where a supposedly sorted *BAM* file was being resorted upon upload to a data library when using this option. A better implementation of determining whether a *BAM* file has been sorted (so that it does not get resorted) remains to be done.
 * **Extract Genomic DNA** tool: 
   * Do not fix strand for *GFF* input.

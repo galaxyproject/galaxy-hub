@@ -25,35 +25,35 @@
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:30 </th>
-    <td> </strong>Introduction<strong><div class='indent'>Welcome, Logistics, Galaxy Platforms, and Galaxy 101</div> </td>
+    <td> <strong>Introduction</strong><div class='indent'>Welcome, Logistics, Galaxy Platforms, and Galaxy 101</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:00 </th>
-    <td style=" text-align: center;"> </strong>Break<strong><div class='indent'>Exercise: Galaxy 101.5</div> </td>
+    <td style=" text-align: center;"> <strong>Break</strong><div class='indent'>Exercise: Galaxy 101.5</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:15 </th>
-    <td> </strong>Introduction continued<strong><div class='indent'>Repeatable workflows; Quality Control 1</div> </td>
+    <td> <strong>Introduction continued</strong><div class='indent'>Repeatable workflows; Quality Control 1</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
-    <td style=" text-align: center;"> </strong>Lunch<strong> </td>
+    <td style=" text-align: center;"> <strong>Lunch</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:45 </th>
-    <td> </strong>RNA-Seq Example<strong><div class='indent'>Quality Control 2, Mapping and Splice Junction Identification, Differential Expression, and Galaxy Community</div> </td>
+    <td> <strong>RNA-Seq Example</strong><div class='indent'>Quality Control 2, Mapping and Splice Junction Identification, Differential Expression, and Galaxy Community</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 14:45 </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 15:00 </th>
-    <td> </strong><a href='https://wiki.gacrc.uga.edu/wiki/Galaxy'>Galaxy @ UGA</a><strong><div class='indent'>Introduction to UGA's local Galaxy Installation</div> </td>
+    <td> <strong><a href='https://wiki.gacrc.uga.edu/wiki/Galaxy'>Galaxy @ UGA</a></strong><div class='indent'>Introduction to UGA's local Galaxy Installation</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 17:00 </th>
-    <td style=" text-align: center;"> </strong>Done<strong> </td>
+    <td style=" text-align: center;"> <strong>Done</strong> </td>
   </tr>
 </table>
 
@@ -75,8 +75,8 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Slides
 
-* [Intro and Worked Example Slides](ATTACHMENT_URLDocuments/Presentations/201403UGAWorkshop.pdf)   
-* [Galaxy @ UGA Slides](ATTACHMENT_URLDocuments/Presentations/201403GalxyAtUGA.pdf)
+* [Intro and Worked Example Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201403UGAWorkshop.pdf)   
+* [Galaxy @ UGA Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201403GalxyAtUGA.pdf)
 
 ## Feedback
 

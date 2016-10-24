@@ -14,4 +14,4 @@ Questions, Feedback, or Hack idea? **[Post here](https://biostar.usegalaxy.org/p
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-05-08</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

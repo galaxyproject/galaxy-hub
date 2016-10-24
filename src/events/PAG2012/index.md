@@ -38,7 +38,7 @@ Galaxy had a strong presence at [Plant and Animal Genome XX (PAG 2012)](http://w
   </tr>
   <tr>
     <td style=" text-align: center;"> 3:00-4:30 </td>
-    <td> <a href='http://pag.confex.com/pag/xx/webprogram/Paper2789.html'>P87: GMOD in the Cloud</a> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2012PAGGMODInTheCloud.pdf'>PDF</a>) </td>
+    <td> <a href='http://pag.confex.com/pag/xx/webprogram/Paper2789.html'>P87: GMOD in the Cloud</a> (<a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2012PAGGMODInTheCloud.pdf'>PDF</a>) </td>
     <td> Poster Session<br />Odd Numbers </td>
     <td> <a href='http://gmod.org/wiki/User:Scott'>Scott Cain</a> </td>
   </tr>
@@ -48,14 +48,14 @@ Galaxy had a strong presence at [Plant and Animal Genome XX (PAG 2012)](http://w
   <tr>
     <th rowspan=2> Wednesday<br />January 18 </th>
     <td style=" text-align: center;"> 10:30-11:30 </td>
-    <td> <a href='http://pag.confex.com/pag/xx/webprogram/Paper2350.html'>Galaxy</a> (slides: <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012PAGGalaxy.pdf'>PDF</a>) </td>
+    <td> <a href='http://pag.confex.com/pag/xx/webprogram/Paper2350.html'>Galaxy</a> (slides: <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012PAGGalaxy.pdf'>PDF</a>) </td>
     <td> <a href='http://pag.confex.com/pag/xx/webprogram/Session1123.html'>GMOD Workshop</a> </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> 11:35-11:50 </td>
     <td> <a href='http://pag.confex.com/pag/xx/webprogram/Paper3329.html'>MAPHiTS: an efficient workflow for SNP detection</a> </td>
-    <td> <a href='http://pag.confex.com/pag/xx/webprogram/Session1127.html'>Computer Demo</a> (<a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2012PAGMAPHiTS.pdf'>PDF</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Videos/2012PAGMAPHiTS.m4v'>video</a>)</td>
+    <td> <a href='http://pag.confex.com/pag/xx/webprogram/Session1127.html'>Computer Demo</a> (<a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012PAGMAPHiTS.pdf'>PDF</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Videos/2012PAGMAPHiTS.m4v'>video</a>)</td>
     <td> Marc Bras </td>
   </tr>
 </table>
@@ -67,5 +67,5 @@ There is also a full slate of [GMOD related content](http://gmod.org/wiki/PAG 20
 
 ## Flier
 
-<div class='left'>[{{attachment:GalaxyAtPAG2012Thumb.png|Galaxy Related Events @ PAG 2012}}|&do=get](ATTACHMENT_URLGalaxyAtPAG2012Flier.pdf)</div>
-Going to PAG?  Print out a copy of the [Galaxy @ PAG 2012 flier|&do=get](ATTACHMENT_URLGalaxyAtPAG2012Flier.pdf).  Want to help get the word out about Galaxy?  Take several copies with you.
+<div class='left'><a href='PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtPAG2012Flier.pdf'><img src="/src/Events/PAG2012/GalaxyAtPAG2012Thumb.png" alt="Galaxy Related Events @ PAG 2012" /></a></div>
+Going to PAG?  Print out a copy of the [Galaxy @ PAG 2012 flier](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtPAG2012Flier.pdf).  Want to help get the word out about Galaxy?  Take several copies with you.

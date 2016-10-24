@@ -24,7 +24,7 @@ Galaxy Biostars is directly integrated into the [Galaxy](http://usegalaxy.org) u
 
 #### Sharing Accounts
 
-<div class='left'>![Go to Galaxy Biostars](/src/Images/Screenshots/BiostarUserMenu.png)</div>
+<div class='left'><img src="/src/Images/Screenshots/BiostarUserMenu.png" alt="Go to Galaxy Biostars" width="110" /></div>
 
 Every user on the public [Main Galaxy](/src/Main/index.md) server can access Galaxy Biostar directly through the menu **Help &rarr; Galaxy Biostar**. 
 <br />
@@ -39,7 +39,7 @@ If a user ever wants to log in to Galaxy Biostars directly, a password reset req
 
 Every tool page has two options to reach Galaxy Biostars in the top right corner, as shown on the picture.
 
-<div class='right'>![Tool query in Galaxy Biostars](/src/Images/Screenshots/BiostarToolMenu.png)</div>
+<div class='right'><img src="/src/Images/Screenshots/BiostarToolMenu.png" alt="Tool query in Galaxy Biostars" width="600" /></div>
 
 <br />
 

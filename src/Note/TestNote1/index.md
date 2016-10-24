@@ -6,4 +6,4 @@ Text of note goes here.  Avoid section headings.  Notes have a standard format t
 
 <div class='noteItemFooter'>Posted to [Galaxy Notes](/src/Notes/index.md) on 2012-08-15</div>
 
-CategoryNotes
+[CategoryNotes](/src/CategoryNotes/index.md)

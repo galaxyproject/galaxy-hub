@@ -16,17 +16,20 @@ The Galaxy Q&A and [BioStar](http://www.biostars.org/) source code is open-sourc
 **For Galaxy team:** A mail has been sent for the meeting the *08/29/2012* with all the credentials to access to Galaxy Q&A, the object of the mail is ***"[galaxy-lab] Tasks"*** from [Anton Nekrutenko](/src/anton/index.md)
 
 ## Set up Galaxy Q&A
+
 Galaxy is a [Django](https://www.djangoproject.com/) website: "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design".
 
 Let's see how to set up your Galaxy Q&A.
 
 ### How to set it up
+
 If you already know how Django works, and how to download it from a Git repository, here are the main steps:
 
 * Create your local repository: "git clone https://github.com/galaxyQandA/biostar-central.git"
 * Download and install [Celery](http://celeryproject.org/) for django
 * Make sure you have a PostGreSQL database (others database work, but you may have to make some changes in the settings of Celery and Galaxy Q&A)
 * Put your own settings in ***conf/"mySettings.py"*** and get the ***conf/default.env*** pointing on "mySettings.py".
+
 For example:
 ```python
 #
@@ -99,6 +102,7 @@ If you want to modify Galaxy Q&A, We recommend to put your modifications and tes
 **Be careful if you change the location of the Galaxy Q&A, as main Galaxy has its links hard-coded inside**
 
 ## Differences with BioStar
+
 The fork has been created to tied Galaxy Q&A with Galaxy. Here are the main modifications added to Biostar:
 * **The style of Biostar has been changed**: To match the Galaxy style, some modifications has been added in Galaxy Q&A. Here is the [changeset1](https://github.com/galaxyQandA/biostar-central/commit/4ae2ce800d755f97848bb92215422f7b2d65de30), [changeset2](https://github.com/galaxyQandA/biostar-central/commit/fa7d13f94d965d24806f8d27627349d733e72e4e)
 * **Implementation in Galaxy**: Links has been added in Galaxy to point on some Galaxy Q&A urls. These urls have been added to match some Galaxy needs as automatically fill the tags when a user wants to ask a question from the tool links in Galaxy, or wants to access to all the questions related to tool they are actually using
@@ -106,6 +110,7 @@ The fork has been created to tied Galaxy Q&A with Galaxy. Here are the main modi
 * **Celery queue tasks**: The display of pages can be slowed by some processing. Celery has been added to allow queue tasks to avoid that. For example, the mail notification can slightly slow the display of pages if there is a lot of users with a lot of posts. This no more happens with Celery
 
 ### Implementation in Galaxy
+
 Here is the [changeset](https://bitbucket.org/galaxy/galaxy-central/changeset/110a69b0d387228ec7bed84814192b9c99082d7c) of the adds in Galaxy to link with the Galaxy Q&A: 
 * Link to Galaxy Q&A in the Help Menu of Galaxy
 * Link to Galaxy Q&A in the Help Menu of the Tool Shed
@@ -116,6 +121,7 @@ Here is the [changeset](https://bitbucket.org/galaxy/galaxy-central/changeset/11
 Here is the [changeset of the Galaxy tag](https://github.com/galaxyQandA/biostar-central/commit/3bbdad4ceaf837fcbb8267c2b0de0176f20823d4) and here the [changeset of the CSS/Names modifications](https://github.com/galaxyQandA/biostar-central/commit/4ae2ce800d755f97848bb92215422f7b2d65de30) in Galaxy Q&A
 
 ### Mail notification
+
 The mail notification allows users to receive a mail when they bookmark a post on Galaxy Q&A. Each answer or comment on this post will send a mail to all users who bookmarked any question/answer/comment in the thread.
 User who will receive the mail will not be able to see the users who also bookmarked this thread.
 
@@ -126,6 +132,7 @@ Here are the changesets on Github: [Changeset1](https://github.com/galaxyQandA/b
 **Important2:** This feature has been moved as a task, see below for more informations
 
 ### Celery: Queue tasks
+
 With the number of users in Galaxy, Mail notification and others tasks could be a problem if they are processed in a view page. To avoid this problem, [Celery](http://celeryproject.org/) has been set up for Galaxy Q&A.
 
 Here is the [changeset1](https://github.com/galaxyQandA/biostar-central/commit/2a3d30e14cf46f176cc4335298d1f2e10d0693cc) and the [changeset2](https://github.com/galaxyQandA/biostar-central/commit/9f91c86d64d0ca77d0815cd1541723ff55e05939) for the mail notification.
@@ -135,7 +142,9 @@ Here is the [changeset1](https://github.com/galaxyQandA/biostar-central/commit/2
 ## Left to do
 
 ### Single Sign-On
+
 The Single Sign-On feature allows Galaxy and Galaxy Q&A to identify a user with his Galaxy credentials. This feature is not finished yet, and need to be finished.
 
 ### Migrate all the mails from the mailing-list into Galaxy Q&A
+
 Galaxy Q&A could be instantly useful if we could retrieve all the content in the mailing-lists and add them to Galaxy Q&A

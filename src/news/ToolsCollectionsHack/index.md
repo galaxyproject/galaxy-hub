@@ -6,7 +6,7 @@ Hello all,
 <div class='center'>**[Make this happen!](https://github.com/galaxyproject/tools-iuc/issues/239)**</div>
 </div>
 
-*We are planning a [remote hackathon for Galaxy tool developers to hack on dataset collections](https://github.com/galaxyproject/tools-iuc/issues/239).* Dataset collections enable !MapReduce style
+*We are planning a [remote hackathon for Galaxy tool developers to hack on dataset collections](https://github.com/galaxyproject/tools-iuc/issues/239).* Dataset collections enable MapReduce style
 workflows in Galaxy and have come a long way over the last year+.
 Several groups are using dataset collections and newer tools to
 express workflows of various degrees of complexity that were not
@@ -27,7 +27,7 @@ tools and workflows to show up and participate.
 
 If you are interested in participating in the hackathon but not
 interested in actual tool development - we will assemble a list of
-smaller, manageable Python and !JavaScript tasks to work on and
+smaller, manageable Python and JavaScript tasks to work on and
 certainly documentation is a chronically lacking for collections so we
 could use help there and no actual coding would be required.
 
@@ -43,4 +43,4 @@ Galaxy IUC
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-08-10</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

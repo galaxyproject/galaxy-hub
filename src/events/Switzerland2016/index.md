@@ -28,7 +28,7 @@ This year, the workshop is aimed at Galaxy administrators and will collocate wit
 | 11:40 - 12:00 |  Bérénice Batut  |  [Galaxy Training Network](/src/Teach/GTN/index.md) - rebooted  |   | 
 | 12:00 - 13:30 |  Lunch Break in nearby restaurants  | 
 | 13:30 - 13:50 |  TBA  |  Debian Med - Debian for medicine and life sciences  |   | 
-| 13:50 - 14:10 |  Wolfgang Maier  |  !CosmicNotes - Documenting your work in Galaxy  |   | 
+| 13:50 - 14:10 |  Wolfgang Maier  |  CosmicNotes - Documenting your work in Galaxy  |   | 
 | 14:10 - 14:30 |  Jochen Bick  |  TBA  |   | 
 | 14:30 - 14:50 |  Devon Ryan  |  deepTools and HiCExplorer  |   | 
 | 14:50 - 15:20 |  Coffee Break  | 

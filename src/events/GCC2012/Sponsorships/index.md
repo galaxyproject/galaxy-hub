@@ -16,7 +16,7 @@ Sponsorships are available at four different levels.
     <td style=" border: none;"> <a href='http://www.lifetechnologies.com/'><img src="/src/Events/GCC2012/Sponsorships/IonTorrentLogo340.png" alt="Ion Torrent"  /></a> </td>
     <td style=" border: none;"> </td>
     <td style=" border: none;"> </td>
-    <td style=" border: none; text-align: center;"> </strong><a href='http://www.lifetechnologies.com/'>Ion Torrent</a><strong><br /><br />GCC Representatives: <br /><a href='/src/MikeLelivelt/index.md'>Mike Lelivelt</a> &bull; <a href='/src/MattDyer/index.md'>Matt Dyer</a><br />Mike Hunsicker &bull; Eric Hilligoss </td>
+    <td style=" border: none; text-align: center;"> <strong><a href='http://www.lifetechnologies.com/'>Ion Torrent</a></strong><br /><br />GCC Representatives: <br /><a href='/src/MikeLelivelt/index.md'>Mike Lelivelt</a> &bull; <a href='/src/MattDyer/index.md'>Matt Dyer</a><br />Mike Hunsicker &bull; Eric Hilligoss </td>
   </tr>
 </table>
 
@@ -29,7 +29,7 @@ Sponsorships are available at four different levels.
     <td style=" border: none;"> <a href='http://www.emc.com/isilon'><img src="/src/Events/GCC2012/Sponsorships/EMCLogo260.png" alt="EMC Isilon" width="250" /></a> </td>
     <td style=" border: none;"> </td>
     <td style=" border: none;"> </td>
-    <td style=" border: none; text-align: center;"> </strong><a href='http://www.emc.com/isilon'>EMC Isilon</a><strong><br /><br />GCC Representatives: <br /><a href='/src/SanjayJoshi/index.md'>Sanjay Joshi</a> &bull; Alpesh Shah<br />Scott Wilson &bull; Kristine Swander </td>
+    <td style=" border: none; text-align: center;"> <strong><a href='http://www.emc.com/isilon'>EMC Isilon</a></strong><br /><br />GCC Representatives: <br /><a href='/src/SanjayJoshi/index.md'>Sanjay Joshi</a> &bull; Alpesh Shah<br />Scott Wilson &bull; Kristine Swander </td>
   </tr>
 </table>
 

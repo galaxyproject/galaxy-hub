@@ -1,6 +1,6 @@
 # #galaxyproject IRC Channel
 
-<div class='right'>![Galaxy IRC Channel](/src/Images/Icons/ChatBalloons.png)</div>
+<div class='right'><img src="/src/Images/Icons/ChatBalloons.png" alt="Galaxy IRC Channel" width="60" /></div>
 <div class='left'>
 **Server:**   `irc.freenode.net`&nbsp;&nbsp;<br />
 **Channel**  [#galaxyproject](http://webchat.freenode.net/?channels=#galaxyproject)

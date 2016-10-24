@@ -5,13 +5,13 @@ PLACEHOLDER_INCLUDE(/src/CloudMan/Header/index.md)
 
 <br />
 <div class='right'></div>
-A !CloudMan cluster can be used for different scenarios, including a comprehensive bioinformatics workbench for a lab, a platform for doing hands-on classroom training or for tool development and testing. In response, a number of !CloudMan cluster configuration types exist for you to choose from, depending on what you would like to use the cluster for, as captured in the following screenshots. Note that you choose the cluster type only once (in either the Cloud Launch application or !CloudMan itself) and it's done when you first create your cluster.
+A CloudMan cluster can be used for different scenarios, including a comprehensive bioinformatics workbench for a lab, a platform for doing hands-on classroom training or for tool development and testing. In response, a number of CloudMan cluster configuration types exist for you to choose from, depending on what you would like to use the cluster for, as captured in the following screenshots. Note that you choose the cluster type only once (in either the Cloud Launch application or CloudMan itself) and it's done when you first create your cluster.
 
 <div class='center'>
 <table>
   <tr>
     <td style=" border-width: 0;"> <strong>Cloud Launch application</strong></td>
-    <td style=" border-width: 0;"> <strong>!CloudMan application</strong></td>
+    <td style=" border-width: 0;"> <strong>CloudMan application</strong></td>
   </tr>
   <tr>
     <td style=" border-width: 0;"> <img src="http://i.imgur.com/IBJoLLc.png" alt="" width=400 /></td>
@@ -31,7 +31,7 @@ A !CloudMan cluster can be used for different scenarios, including a comprehensi
   </tr>
   <tr>
     <th> Cluster only </th>
-    <td> This type will create a virtual and dynamically scalable cluster-in-the-cloud. !CloudMan will configure a job queuing engine <a href='http://slurm.schedmd.com/'>Slurm</a> along with the a shared NFS directory (under <em>/mnt/galaxy</em>; see <em>Storage options</em> below about the size). The size of the cluster is managed via !CloudMan's graphical web interface. </td>
+    <td> This type will create a virtual and dynamically scalable cluster-in-the-cloud. CloudMan will configure a job queuing engine <a href='http://slurm.schedmd.com/'>Slurm</a> along with the a shared NFS directory (under <em>/mnt/galaxy</em>; see <em>Storage options</em> below about the size). The size of the cluster is managed via CloudMan's graphical web interface. </td>
     <td> • Post Start Script (PSS)<br />• Nginx web server<br />• Slurm job manager (node daemon and controller)<br />• Supervisor</td>
   </tr>
   <tr>
@@ -48,8 +48,8 @@ A !CloudMan cluster can be used for different scenarios, including a comprehensi
     <td colspan=3 style=" background-color: #eef;"> </td>
   </tr>
   <tr>
-    <th> Cloned cluster <br />(available within !CloudMan only)</th>
-    <td> If someone shares a cluster with you or makes it public, this option allows you to create a clone of their cluster under your account and control. Once cloned, the derived cluster will have all the same configurations, data and applications running as the initial shared cluster. In order to clone a shared cluster, you need to know the <em>Share string</em> of the shared cluster, which will look something like this: <em>cm-0011923649e9271f17c4f83ba6846db0/shared/2013-07-01--21-00</em>. To create a cloned cluster, launch a new !CloudMan instance and paste the Share string in the appropriate field on the initial !CloudMan cluster type configuration dialogue. </td>
+    <th> Cloned cluster <br />(available within CloudMan only)</th>
+    <td> If someone shares a cluster with you or makes it public, this option allows you to create a clone of their cluster under your account and control. Once cloned, the derived cluster will have all the same configurations, data and applications running as the initial shared cluster. In order to clone a shared cluster, you need to know the <em>Share string</em> of the shared cluster, which will look something like this: <em>cm-0011923649e9271f17c4f83ba6846db0/shared/2013-07-01--21-00</em>. To create a cloned cluster, launch a new CloudMan instance and paste the Share string in the appropriate field on the initial CloudMan cluster type configuration dialogue. </td>
     <td> The same set of services that were running on the shared cluster.</td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ A !CloudMan cluster can be used for different scenarios, including a comprehensi
   </tr>
   <tr>
     <th> Do not set cluster type now</th>
-    <td> Selecting this option in the Cloud Launch interface will not pre-select the !CloudMan cluster type and instead you will have a choice of choosing the cluster type within the !CloudMan application once it has launched.</td>
+    <td> Selecting this option in the Cloud Launch interface will not pre-select the CloudMan cluster type and instead you will have a choice of choosing the cluster type within the CloudMan application once it has launched.</td>
     <td> </td>
   </tr>
 </table>

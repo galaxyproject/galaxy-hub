@@ -168,7 +168,7 @@ Please note that this new type of "multiple-input dataset" step can currently be
 
 ### Trackster
 
-* Greatly improve !LineTrack performance to fetch optimal amount of data for display.
+* Greatly improve LineTrack performance to fetch optimal amount of data for display.
 * Add support for *Operate on Genomic Intervals (GOPS)* intersect and subtract tool.
 * Enable users not logged in to use tools in shared visualizations.
 * Add support for static tool select parameters.
@@ -200,19 +200,19 @@ were undocumented.  All have been changed to use a common (pythonic)
 naming scheme, but the old names are retained for backwards
 compatibility:
 * new name = old name (if any) = value description
-* <u>new_file_path__ = universe_wsgi.ini new_file_path value
-* </u>tool_data_path__ = GALAXY_DATA_INDEX_DIR = universe_wsgi.ini tool_data_path value
-* <u>root_dir__ = GALAXY_ROOT_DIR = Top-level Galaxy source directory made absolute via os.path.abspath()
-* </u>datatypes_config__ = GALAXY_DATATYPES_CONF_FILE = universe_wsgi.ini datatypes_config value
-* <u>user_id__ = userId = Email's numeric ID (id column of galaxy_user table in the database)
-* </u>user_email__ = userEmail = User's email address
-* <u>app__ = The galaxy.app.!UniverseApplication instance, gives access to
-* </u>app__.config and much more.  Should be used as a last resort, may go away in future releases.
+* __new_file_path__ = universe_wsgi.ini new_file_path value
+* __tool_data_path__ = GALAXY_DATA_INDEX_DIR = universe_wsgi.ini tool_data_path value
+* __root_dir__ = GALAXY_ROOT_DIR = Top-level Galaxy source directory made absolute via os.path.abspath()
+* __datatypes_config__ = GALAXY_DATATYPES_CONF_FILE = universe_wsgi.ini datatypes_config value
+* __user_id__ = userId = Email's numeric ID (id column of galaxy_user table in the database)
+* __user_email__ = userEmail = User's email address
+* __app__ = The galaxy.app.UniverseApplication instance, gives access to
+* __app__.config and much more.  Should be used as a last resort, may go away in future releases.
 
 ### Tool Framework
 
-* When label text for a static option in a *!SelectToolParameter* is not provided, default to using the 'value'.
-* Fix for dynamic options when referencing a *!DataToolParameter* that has already been wrapped.
+* When label text for a static option in a *SelectToolParameter* is not provided, default to using the 'value'.
+* Fix for dynamic options when referencing a *DataToolParameter* that has already been wrapped.
 * Only allow a user to rerun if they have access permissions on the dataset.
 
 ### Test Framework

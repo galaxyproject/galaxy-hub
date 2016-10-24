@@ -21,7 +21,7 @@ The Galaxy Project publishes two versions of the Galaxy source code documentatio
     This documentation describes the code in the [most recent stable release](/src/DevNewsBriefs/index.md) of Galaxy ("master").
 
 * **[galaxy.readthedocs.org/en/dev](https://galaxy.readthedocs.org/en/dev/)**
-    This documentation describes what is currently in the main development branch ("dev") of Galaxy.  Code updates are automatically propagated from Galaxy's !BitBucket.org repository.  This should never be more than 15 minutes out of date.
+    This documentation describes what is currently in the main development branch ("dev") of Galaxy.  Code updates are automatically propagated from Galaxy's BitBucket.org repository.  This should never be more than 15 minutes out of date.
 
 This documentation is a work in program and should make incremental improvements with each release.
 

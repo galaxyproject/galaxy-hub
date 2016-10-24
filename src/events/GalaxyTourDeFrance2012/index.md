@@ -1,7 +1,7 @@
 ---
 title: Galaxy Tour de France 2012
 ---
-<div class='center'>![Galaxy Tour de France 2012](/src/Images/Logos/GalaxyTourDeFranceMap.png)</div>
+<div class='center'><img src="/src/Images/Logos/GalaxyTourDeFranceMap.png" alt="Galaxy Tour de France 2012" width="500" /></div>
 
 
 
@@ -41,7 +41,7 @@ Galaxy went on tour in France during the last week of May.  Workshops were help 
 
 **Location:**
 
-<div class='right'>[{{attachment:PerpignanWorkshopMap.png|Perpignan Workshop location. Click to enlarge.|width="200"}}|do=get,target="_blank"](ATTACHMENT_URLPerpignanWorkshopMap.png)<div class='center'>Perpignan workshop location</div></div>
+<div class='right'><a href='/src/Events/GalaxyTourDeFrance2012/PerpignanWorkshopMap.png'><img src="/src/Events/GalaxyTourDeFrance2012/PerpignanWorkshopMap.png" alt="Perpignan Workshop location. Click to enlarge." width="200" /></a><div class='center'>Perpignan workshop location</div></div>
 
 The workshops will be held in the seminar room of the [Laboratoire Génome et Développement des Plantes (LGDP)](http://lgdp.univ-perp.fr/index.php?page=laboratoire_2) of the [University of Perpignan](http://univ-perp.fr), the address details are:
 
@@ -68,7 +68,7 @@ The workshops will be held in the seminar room of the [Laboratoire Génome et D�
 
 ## Paris: 1 June
 
-<div class='right'>[{{attachment:ParisWorkshopMetroStations.png|Paris Workshop location and nearby Metro and RER stations. Click to enlarge.|width="200"}}|do=get,target="_blank"](ATTACHMENT_URLParisWorkshopMetroStations.png)<div class='center'>Paris workshop location<br /> nearby Metro & RER stations.</div></div>
+<div class='right'><a href='/src/Events/GalaxyTourDeFrance2012/ParisWorkshopMetroStations.png'><img src="/src/Events/GalaxyTourDeFrance2012/ParisWorkshopMetroStations.png" alt="Paris Workshop location and nearby Metro and RER stations. Click to enlarge." width="200" /></a><div class='center'>Paris workshop location<br /> nearby Metro & RER stations.</div></div>
 
 **Location:**
 
@@ -100,7 +100,7 @@ If you attend both workshops and plan to eat in the area, there are many choices
 
 ## Galaxy for Developers
 
-*[Slides from Nate Coraor](ATTACHMENT_URLDocuments/Presentations/TourDeFrance2012Coraor.pdf)*
+*[Slides from Nate Coraor](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/TourDeFrance2012Coraor.pdf)*
 
 **14:00-17:00**
 * Galaxy architecture

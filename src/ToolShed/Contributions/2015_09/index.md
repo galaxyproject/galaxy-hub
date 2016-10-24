@@ -26,7 +26,7 @@ In no particular order:
   * [degenerateprimerremoval](https://toolshed.g2.bx.psu.edu/view/megan-shortridge/degenerateprimerremoval): planemo upload for repository https://github.com/mshortr/degenerateprimerremoval degenerate primer removal tool for Fastq 
 
 * *From [bgruening](https://toolshed.g2.bx.psu.edu/view/bgruening):*
-  * [dotknot](https://toolshed.g2.bx.psu.edu/view/bgruening/dotknot): planemo upload for repository https://github.com/bgruening/galaxytools/tree/master/tools/rna/dotknot !DotKnot is a heuristic method for pseudoknot prediction in a given RNA sequence !DotKnot extracts stem regions from the secondary structure probability dot plot calculated by RNAfold. Recursive H-type pseudoknots and intramolecular kissing hairpins are constructed and their presence in the sequence is verified. The detected pseudoknots can then be further analysed using bioinformatics or laboratory techniques.
+  * [dotknot](https://toolshed.g2.bx.psu.edu/view/bgruening/dotknot): planemo upload for repository https://github.com/bgruening/galaxytools/tree/master/tools/rna/dotknot DotKnot is a heuristic method for pseudoknot prediction in a given RNA sequence DotKnot extracts stem regions from the secondary structure probability dot plot calculated by RNAfold. Recursive H-type pseudoknots and intramolecular kissing hairpins are constructed and their presence in the sequence is verified. The detected pseudoknots can then be further analysed using bioinformatics or laboratory techniques.
 
 * [pileometh](https://toolshed.g2.bx.psu.edu/view/bgruening/pileometh): planemo upload for repository https://github.com/bgruening/galaxytools/tree/master/tools/pileometh  A tool for processing bisulfite sequencing alignments PileOMeth (a temporary name derived due to it using a PILEup to extract METHylation metrics). will process a coordinate-sorted and indexed BAM or CRAM file containing some form of BS-seq alignments and extract per-base methylation metrics from them.
 
@@ -86,7 +86,7 @@ In no particular order:
 
 * *From [takadonet](https://toolshed.g2.bx.psu.edu/view/takadonet):*
   * [package_tbl2asn_24_3](https://toolshed.g2.bx.psu.edu/view/takadonet/package_tbl2asn_24_3): Contains a tool dependency definition that downloads the binary version 23.7 of tbl2asn. tbl2asn is an automated bulk submission program 
-      tbl2asn is a program that automates the submission of sequence records to !GenBank.  It uses many of the same functions as Sequin, but is driven entirely by data files, and records need no additional manual editing before submission.  Entire genomes, consisting of many chromosomes with feature annotation, can be processed in seconds using this method.<br />
+      tbl2asn is a program that automates the submission of sequence records to GenBank.  It uses many of the same functions as Sequin, but is driven entirely by data files, and records need no additional manual editing before submission.  Entire genomes, consisting of many chromosomes with feature annotation, can be processed in seconds using this method.<br />
       Repository-Maintainer: Philip Mabon
 
 ### Select Updates
@@ -94,10 +94,10 @@ In no particular order:
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [package_blast_plus_2_2_26](https://toolshed.g2.bx.psu.edu/view/iuc/package_blast_plus_2_2_26): Define BLAST_ROOT_DIR env var on older BLAST+ packages
   * [package_blast_plus_2_2_27](https://toolshed.g2.bx.psu.edu/view/iuc/package_blast_plus_2_2_27): Define BLAST_ROOT_DIR env var on older BLAST+ packages
-  * [ncbi_blast_plus](https://toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus): v0.1.05 - Update citation information now !GigaScience paper is out
+  * [ncbi_blast_plus](https://toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus): v0.1.05 - Update citation information now GigaScience paper is out
   * [ncbi_blast_plus](https://toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus): v0.1.06, now using BLAST+ 2.2.31
   * [package_blast_plus_2_2_28](https://toolshed.g2.bx.psu.edu/view/iuc/package_blast_plus_2_2_28): Define BLAST_ROOT_DIR env var on older BLAST+ packages
-  * [blast_datatypes](https://toolshed.g2.bx.psu.edu/view/devteam/blast_datatypes): v0.0.21 - Updated citation information with !GigaScience paper
+  * [blast_datatypes](https://toolshed.g2.bx.psu.edu/view/devteam/blast_datatypes): v0.0.21 - Updated citation information with GigaScience paper
 
 * *From [peterjc](https://toolshed.g2.bx.psu.edu/view/peterjc):*
   * [effectivet3](https://toolshed.g2.bx.psu.edu/view/peterjc/effectivet3): v0.0.16, adding new model TTSS-STD-2.0.2.jar

@@ -28,4 +28,4 @@ This tutorial is also written in Japanese.  If you don't speak Japanese, the [ma
 * [tutorial](http://wiki.pitagora-galaxy.org/wiki/index.php/Orione-live-supplement) 
 * [Orione](https://orione.crs4.it/) server
 
-CategoryTrainingResource
+[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)

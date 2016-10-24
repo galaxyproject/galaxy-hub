@@ -86,7 +86,7 @@ The [program for all 3 days is now available](/src/Events/GCC2012/Program/index.
 
 ## Who's Hiring
 
-<div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
+<div class='right'><img src="/src/Images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs and software engineers @ Emory and Penn State.
@@ -112,7 +112,7 @@ There are July (*and June 30!*) application and registration deadlines for
 * [Systems Bioinformatics Workshop](http://gaggle.systemsbiology.net/workshop2012/) (deadline: **June 30**)
 * [GMOD Summer School](http://gmod.org/wiki/2012 GMOD Summer School) (deadline: **July 9**)
 * [GCC2012](/src/Events/GCC2012/Register/index.md) (deadline: **July 18**) 
-* and eScience 2012, Beyond the Genome, !BioVis, ISCB-Asia, and the CSHL Advanced Sequencing Technologies and Applications, and Computational and Comparative Genomics courses.  
+* and eScience 2012, Beyond the Genome, BioVis, ISCB-Asia, and the CSHL Advanced Sequencing Technologies and Applications, and Computational and Comparative Genomics courses.  
 
 It's also a big month for conferences including Evolution, [ISMB and BOSC 2012](/src/Events/ISMB2012/index.md), and of course [GCC2012](/src/Events/GCC2012/index.md).
 
@@ -141,13 +141,13 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
   </tr>
   <tr>
     <th rowspan=1> July 13-17 </th>
-    <td> </strong><em><a href='/src/Events/ISMB2012/index.md'>ISMB 2012 and BOSC 2012</a><strong></em><div class='indent'><a href='/src/Events/ISMB2012/index.md'>Eight presentations, one Codefest, seven posters, and counting</a></td>
+    <td> <strong><em><a href='/src/Events/ISMB2012/index.md'>ISMB 2012 and BOSC 2012</a></strong></em><div class='indent'><a href='/src/Events/ISMB2012/index.md'>Eight presentations, one Codefest, seven posters, and counting</a></td>
     <td> Long Beach, California, United States </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> </strong><em><a href='/src/Events/GCC2012/index.md'>2012 Galaxy Community Conference</a><strong></em><div class='indent red'><a href='/src/Events/GCC2012/Register/index.md'>Registration deadline</a> is July 18</div> </td>
+    <td> <strong><em><a href='/src/Events/GCC2012/index.md'>2012 Galaxy Community Conference</a></strong></em><div class='indent red'><a href='/src/Events/GCC2012/Register/index.md'>Registration deadline</a> is July 18</div> </td>
     <td> <a href='http://uic.edu'>University of Illinois Chicago</a>, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
@@ -176,7 +176,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
   <tr>
     <th> September 10-12 </th>
     <td> <em><a href='http://genetics.cmc-uct.co.za/'>Transparent, accessible, reproducible analysis with Galaxy</a></em><div class='indent red'>Early registration deadline is July 1</div> </td>
-    <td> </strong><a href='http://genetics.cmc-uct.co.za/'>South African Genetics & Bioinformatics Society Conference</a><strong><br /> University of Stellenbosch, Stellenbosch, South Africa </td>
+    <td> <strong><a href='http://genetics.cmc-uct.co.za/'>South African Genetics & Bioinformatics Society Conference</a></strong><br /> University of Stellenbosch, Stellenbosch, South Africa </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>

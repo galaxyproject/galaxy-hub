@@ -403,7 +403,7 @@ or
 
 #### Generating Indices
 
-SRMA needs three files in the same directory for each genome, named in a specific way. There are two "index" files required: one is the SRMA `.dict` file and the other is the Samtools `.fai` index file. To create the `.dict` file, run the Picard !CreateSequenceDictionary command:
+SRMA needs three files in the same directory for each genome, named in a specific way. There are two "index" files required: one is the SRMA `.dict` file and the other is the Samtools `.fai` index file. To create the `.dict` file, run the Picard CreateSequenceDictionary command:
 
  Usage: `java -cp "../path/to/srma.jar" net.sf.picard.sam.CreateSequenceDictionary R=<ref.fa> O=<ref.dict>`
 

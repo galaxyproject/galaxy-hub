@@ -76,4 +76,4 @@ Much like existing format conversion, where datatypes have split and merge metho
 
 Send them to [mailto:p.j.a.cock@googlemail.com](Peter Cock).
 
-CategoryBoF
+[CategoryBo](/src/CategoryBo/index.md)F

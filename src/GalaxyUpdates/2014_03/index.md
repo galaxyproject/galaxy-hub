@@ -121,7 +121,7 @@ The first day (Monday) will be in Clayton, next to [the Australian Synchrotron](
 
 <div class='right'><a href='http://www.globusworld.org/'><img src="/src/Images/Logos/GlobusGenomics.png" alt="Globus World 2014" width="180" /></a></div>
 
-**[GlobusWorld](http://www.globusworld.org/)** is this year’s biggest gathering of all things [Globus](https://www.globus.org/).  !GlobusWorld features a *Biosciences/Genomics Program* devoted to research data in genomics and biosciences including [Globus Genomics](/src/Cloud/index.md#globus-genomics), a Globus and Galaxy based platform for genomic analysis.  [GlobusWorld](http://www.globusworld.org/) is being held April 15-17, in Chicago.
+**[GlobusWorld](http://www.globusworld.org/)** is this year’s biggest gathering of all things [Globus](https://www.globus.org/).  GlobusWorld features a *Biosciences/Genomics Program* devoted to research data in genomics and biosciences including [Globus Genomics](/src/Cloud/index.md#globus-genomics), a Globus and Galaxy based platform for genomic analysis.  [GlobusWorld](http://www.globusworld.org/) is being held April 15-17, in Chicago.
 
 Learn how to get more out of your data, and connect with other HPC administrators, research scientists, and developers who are building and using cutting-edge solutions to wrangle data.
 
@@ -155,7 +155,7 @@ Accepted talks and selected posters from GCC2014 are also eligible for considera
 <a href='http://bio.maryland.gov/'><img src="/src/Images/Logos/BioMaryland400.png" alt="BioMaryland" width="200" /></a>
 </div>
 
-We are pleased to have [Amazon Web Services (AWS)](http://aws.amazon.com/) as the sponsor for the GCC [Training Day](/src/Events/GCC2014/TrainingDay/index.md) for the third year in a row.  Also please welcome [BioMaryland](http://bio.maryland.gov/) as a [Bronze Sponsor](/src/Events/GCC2014/SponsorExhibit/index.md) for [GCC2014](/src/Events/GCC2014/index.md).  !BioMaryland is new to the GCC.
+We are pleased to have [Amazon Web Services (AWS)](http://aws.amazon.com/) as the sponsor for the GCC [Training Day](/src/Events/GCC2014/TrainingDay/index.md) for the third year in a row.  Also please welcome [BioMaryland](http://bio.maryland.gov/) as a [Bronze Sponsor](/src/Events/GCC2014/SponsorExhibit/index.md) for [GCC2014](/src/Events/GCC2014/index.md).  BioMaryland is new to the GCC.
 
 There are still [Silver and Bronze sponsorships](/src/Events/GCC2014/SponsorExhibit/index.md) available. Please contact the [Organizers](/src/Events/GCC2014/Organizers/index.md) if your organization would like to help sponsor this event. 
 
@@ -185,95 +185,95 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/Spon
   </tr>
   <tr>
     <th> March 24-25 </th>
-    <td> </strong><a href='/src/Events/GAW2014/index.md'>Galaxy Australasia Workshop 2014 (GAW2014)</a><strong> </td>
+    <td> <strong><a href='/src/Events/GAW2014/index.md'>Galaxy Australasia Workshop 2014 (GAW2014)</a></strong> </td>
     <td> Melbourne, Australia </td>
     <td> <a href='/src/Events/GAW2014/index.md#organisers'>Organisers</a> </td>
   </tr>
   <tr>
     <th> March 26-30 </th>
-    <td> </em>Galaxy toolset for Drosophila genomics<em><div class='indent'>and one-on-one help in the Flybase Demonstrations Room</div> </td>
+    <td> <em>Galaxy toolset for Drosophila genomics</em><div class='indent'>and one-on-one help in the Flybase Demonstrations Room</div> </td>
     <td> <a href='http://www.genetics-gsa.org/drosophila/2014/'>Drosophila Research Conference</a>, San Diego, California, United States </td>
     <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/JenniferJackson/index.md'>Jen Jackson</a> </td>
   </tr>
   <tr>
     <th> April 15-17 </th>
-    <td> </em>Biosciences/Genomics Program<em> </td>
+    <td> <em>Biosciences/Genomics Program</em> </td>
     <td> <a href='http://globusworld.org/'>GlobusWorld</a>, Chicago, Illinois, United States </td>
     <td> <a href="mailto:outreach AT globus DOT org">Globus Outreach</a> </td>
   </tr>
   <tr>
     <th rowspan=6> April 29 - May 1 </th>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=121423'>W1: Integrated Research Data Management for Next Gen Sequencing Analysis Using Galaxy and Globus Online Software-as-a-Service</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=121423'>W1: Integrated Research Data Management for Next Gen Sequencing Analysis Using Galaxy and Globus Online Software-as-a-Service</a></em> </td>
     <td rowspan=6> <a href='http://www.bio-itworldexpo.com/'>BioIT World</a> </td>
     <td> <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a>, <a href='https://www.urmc.rochester.edu/people/21779848-alex-r-paciorkowski'>Alex Paciorkowski</a>, <a href='http://www.ci.uchicago.edu/profile/328'>Vas Vasiliadis</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135146'>W4: Analyzing NGS Data in Galaxy</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135146'>W4: Analyzing NGS Data in Galaxy</a></em> </td>
     <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, <a href='/src/nate/index.md'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, Tristan Lubinski </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135152'>W14: Running a Local Galaxy Instance</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135152'>W14: Running a Local Galaxy Instance</a></em> </td>
     <td> <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, <a href='/src/nate/index.md'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, Tristan Lubinski, James Reaney </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Next-Gen-Sequencing-Informatics/'>Globus Genomics: An End-to-End NGS Analysis Service on the Cloud for Researchers and Core Labs</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Next-Gen-Sequencing-Informatics/'>Globus Genomics: An End-to-End NGS Analysis Service on the Cloud for Researchers and Core Labs</a></em> </td>
     <td> <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Integrated Analysis and Visualization of Large-Scale Biological Data with the Refinery Platform</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Integrated Analysis and Visualization of Large-Scale Biological Data with the Refinery Platform</a></em> </td>
     <td> <a href='http://gehlenborg.com/'>Nils Gehlenborg</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Web-Based Visualization and Visual Analysis for High-Throughput Genomics with Galaxy</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Web-Based Visualization and Visual Analysis for High-Throughput Genomics with Galaxy</a></em> </td>
     <td> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> May 6-7 </th>
-    <td> </em>Scaling Galaxy for Big Data<em> </td>
+    <td> <em>Scaling Galaxy for Big Data</em> </td>
     <td> <a href='http://www.tgac.ac.uk/SeqAhead_Scientific_Meeting_and_Management_Committee_Meeting/'>NGS Data after the Gold Rush</a>, <a href='http://www.tgac.ac.uk/'>TGAC</a>, Norwich, United Kingdom </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 9 </th>
-    <td> </em>Galaxy Workshop<em> </td>
+    <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.tgac.ac.uk/'>The Genome Analysis Centre (TGAC)</a>, Norwich, United Kingdom </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>
-    <td> </em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a><em> </td>
+    <td> <em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a></em> </td>
     <td> <a href='http://www.mipro.hr/CallForPapers/tabid/176/language/en-US/Default.aspx'>MIPRO 2014</a>, Opatija, Croatia </td>
     <td> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 9-10 </th>
-    <td> </em><a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'>Informatics on High Throughput Sequencing Data Workshop</a><em> </td>
+    <td> <em><a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'>Informatics on High Throughput Sequencing Data Workshop</a></em> </td>
     <td> Toronto, Canada </td>
     <td> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
   </tr>
   <tr>
     <th> June 10 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-10juin.pdf'>Initiation à l’utilisation de Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-10juin.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
     <td rowspan=2> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
     <td rowspan=2> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 11 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module8bis-11juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module8bis-11juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></em> </td>
   </tr>
   <tr>
     <th> June 16 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-16juin.pdf'>Initiation à l’utilisation de Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-16juin.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
     <td rowspan=2> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
     <td rowspan=2> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 17 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module8bis-17juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module8bis-17juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></em> </td>
   </tr>
   <tr>
     <th> June 16-20 </th>
-    <td> </em><a href='http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/'>Using Galaxy for Analysis of High Throughput Sequence Data</a><em> </td>
+    <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/'>Using Galaxy for Analysis of High Throughput Sequence Data</a></em> </td>
     <td> <a href='http://training.bioinformatics.ucdavis.edu/'>UC Davis</a>, California, United States </td>
     <td> <a href="mailto:training DOT ucdbio AT gmail DOT com">UC Davis Bioinformatics Training</a> </td>
   </tr>
@@ -285,7 +285,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/Spon
   </tr>
   <tr>
     <th> June 30 - July 2 </th>
-    <td> </strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
+    <td> <strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
     <td> <a href='/src/Events/GCC2014/Organizers/index.md'>Organizers</a> </td>
   </tr>
   <tr>
@@ -295,11 +295,11 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/Events/GCC2014/Spon
     <td rowspan=3> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/BjoernGruening/index.md'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='/src/Events/Switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a><em> </td>
+    <td> <em><a href='/src/Events/Switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>
     <td> SyBIT Tech Day, Bern (Switzerland) </td>
   </tr>
   <tr>
-    <td> </em><a href='/src/Events/Germany2014/index.md'>German Galaxy Developers Day</a><em> </td>
+    <td> <em><a href='/src/Events/Germany2014/index.md'>German Galaxy Developers Day</a></em> </td>
     <td> Freiburg (Germany) </td>
   </tr>
 </table>
@@ -371,7 +371,7 @@ upgrade:   $ hg pull
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </td>
   </tr>
 </table>
 
@@ -393,7 +393,7 @@ The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Cata
 * [filter_bed_on_splice_junctions](http://bit.ly/1jDm1wY): Filter out lines w/ junctions in reference bed file of known junctions 
 * [translate_bed_sequences](http://bit.ly/1eNHFKg): 3 frame translation of BED file augmented with a sequence column 
 * [rsem](http://bit.ly/1biTdtX): RNA SEQ by Expectation Maximization 
-* [snpeff_to_peptides](http://bit.ly/1h2zMUr): Creates a peptide fasta from a !SnpEff VCF output and an Ensembl all_peps.fa 
+* [snpeff_to_peptides](http://bit.ly/1h2zMUr): Creates a peptide fasta from a SnpEff VCF output and an Ensembl all_peps.fa 
 * [synteny_mapper](http://bit.ly/1nLamwQ): find microrearrangements w/in syntenic regions, viz & compare UCSC features  
 * [bamtools_wrappers](http://bit.ly/1jOONxS): Wrappers for the bamtools package 
 * [fastq_qc_trimmer](http://bit.ly/1kSTVRV): Parallel FASTQ QC Trimmer 

@@ -27,17 +27,17 @@ The form "Name" and "Description" fields must be filled in and the "Type" select
 the first action on this page.  You can then import the form definition (the field layout) from a stored csv file, or manually add fields by
 clicking the "Add field" button and setting the field type for each additional desired field.  The current list of supported field types is:
 
-* !AddressField - displays a set of text fields that allows a user to enter a mailing address 
-* !CheckboxField - displays a check box
-* !SelectField - displays a select list whose options are specified by you when this type is chosen
-* !TextArea - displays a text area
-* !TextField - displays a text field
-* !WorkflowField - displays a select list whose options are the current user's workflows
+* AddressField - displays a set of text fields that allows a user to enter a mailing address 
+* CheckboxField - displays a check box
+* SelectField - displays a select list whose options are specified by you when this type is chosen
+* TextArea - displays a text area
+* TextField - displays a text field
+* WorkflowField - displays a select list whose options are the current user's workflows
 
 ![](/src/DataLibraries/form_definition1.png)
 
 Form field attributes are "Label", "Help text", "Type", and whether filling in the field is required or optional.  For this example, we'll 
-create a template that consists of just one optional field of type !TextArea.
+create a template that consists of just one optional field of type TextArea.
 
 ![](/src/DataLibraries/form_definition2.png)
 

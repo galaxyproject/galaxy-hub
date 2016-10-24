@@ -262,8 +262,8 @@ The main entry point for any code that you add will be your plugin's Mako templa
 * import and use your own modules
 * run python code
 * use the server to generate HTML or other browser compatible markup
-* load static resources like !JavaScript libraries and scripts, images, or stylesheets
-* call !JavaScript for user interface control or client-side rendering
+* load static resources like JavaScript libraries and scripts, images, or stylesheets
+* call JavaScript for user interface control or client-side rendering
 
 The template file Galaxy and the visualizations registry will use to start your visualization is defined in your config
 file:

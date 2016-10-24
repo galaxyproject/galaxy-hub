@@ -12,7 +12,7 @@
 * Automatically toggle master as job execution host or not when workers are present.
 * Added support for attaching external Gluster based filesystems + the ability to init clusters off gluster/nfs volumes when so configured in `snaps.yaml`.
 * Added support for creating a volume based on an `archive_url` allowing a file system to be downloaded at cluster launch; also made it possible to use transient disk for this.
-* Added tagging support for [OpenStack](http://openstack.org/) instances (requires !OpenStack Havana release).
+* Added tagging support for [OpenStack](http://openstack.org/) instances (requires OpenStack Havana release).
 * Galaxy Reports app now starts by default on Galaxy type clusters; it is accessible on `<instance IP>/reports/` URL.
 
 **Minor updates**
@@ -34,4 +34,4 @@ Enjoy and please let us know what you think,
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-01-07</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

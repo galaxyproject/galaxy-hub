@@ -20,7 +20,7 @@ title: [Immunoglobulin Galaxy VM](http://bioinformatics.erasmusmc.nl/wiki/index.
 
 From the [VM's home page](http://bioinformatics.erasmusmc.nl/wiki/index.php/Immunoglobulin_Galaxy):
 
- !ImmunoGlobulin Galaxy provides a set of tools for easy detection and quantitation of immunoglobulin heavy chain alternative transcripts. This service is available for downloads as a virtual machine as a Galaxy service.
+ ImmunoGlobulin Galaxy provides a set of tools for easy detection and quantitation of immunoglobulin heavy chain alternative transcripts. This service is available for downloads as a virtual machine as a Galaxy service.
 
 ## Links
 

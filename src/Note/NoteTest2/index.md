@@ -4,8 +4,8 @@
 
 Uh-huh, n ote test two
 
-DaveClements (optional)
+[DaveClements](/src/DaveClements/index.md) (optional)
 
 <div class='noteItemFooter'>Posted to [Galaxy Notes](/src/Notes/index.md) on 2012-08-15</div>
 
-CategoryNotes
+[CategoryNotes](/src/CategoryNotes/index.md)

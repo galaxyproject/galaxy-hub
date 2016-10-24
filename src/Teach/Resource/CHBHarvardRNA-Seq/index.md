@@ -25,8 +25,8 @@ Uses many "standard" tools that exist on most Galaxy servers, and
 * Tophat
 * Picard
 * IGV
-* !CuffLinks
-* !CuffDiff
+* CuffLinks
+* CuffDiff
 * edgeR
 * Degust
 * g:Profiler
@@ -39,4 +39,4 @@ Many of these tools are standalone, and are not run from within Galaxy.
 * [CHB Harvard RNA-Seq Workshop](http://hbc.github.io/ngs-workshops/courses/introduction-to-rna-seq/)
 * [one of a set of online tutorials](http://hbc.github.io/ngs-workshops/about/)
 
-CategoryTrainingResource
+[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)

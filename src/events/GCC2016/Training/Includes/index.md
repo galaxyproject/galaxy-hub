@@ -49,7 +49,7 @@ END_INCLUDE
 
 This workshop would cover standard, advanced, and alternative RNAseq analysis pipelines, all using workflows and highlighting their advanced features. Three general pipelines would be addressed: 
 * A standard RNAseq analysis pipeline using the Tuxedo suite (Tophat &rarr; Cuffdiff) for standard transcript quantification with a reference transcriptome. 
-* An advanced analysis pipeline using the Tuxedo suite with !StringTie to create de novo transcript structures, merge these with reference transcripts to create a transcripteome database, followed by transcript quantification. 
+* An advanced analysis pipeline using the Tuxedo suite with StringTie to create de novo transcript structures, merge these with reference transcripts to create a transcripteome database, followed by transcript quantification. 
 * An alternative RNAseq analysis pipeline using count based quantification methods (DESeq2, edgeR, or limma) to generate abundance measurements. 
 
 These three pipelines would be used as examples to highlight usage of workflows and their advanced features. 
@@ -84,11 +84,11 @@ The workshop will include the following specific content:
 * An overview of important Python modules - including models, tools, jobs, workflows, visualizations, and API controllers.
 * An overview of important Python objects and concepts in the Galaxy codebase - including the Galaxy transaction object ("trans"), the application object ("app") , and the configuration object ("config").
 * An overview of various plugin extension points.
-* An overview of important !JavaScript modules that power the front-end.
-* An overview of important !JavaScript concepts used by Galaxy - in particular RequireJS, Backbone MVC, and grunt.
-* An overview of the client build system used to generate compressed !JavaScript, cascading stylesheets, and other static web assets.
+* An overview of important JavaScript modules that power the front-end.
+* An overview of important JavaScript concepts used by Galaxy - in particular RequireJS, Backbone MVC, and grunt.
+* An overview of the client build system used to generate compressed JavaScript, cascading stylesheets, and other static web assets.
 * A demonstration of a complete start-to-finish modification of Galaxy - including forking the project on Github, modifying files, running the tests, checking style guidelines, committing the change, pushing it back to your local Github fork, and opening a pull request.
-* A brief description of other projects in the Galaxy ecosystem (CloudMan, the Tool Shed, bioblend, docker-galaxy-stable, Pulsar, and Planemo).
+* A brief description of other projects in the Galaxy ecosystem ([CloudMan](/src/CloudMan/index.md), the Tool Shed, bioblend, docker-galaxy-stable, Pulsar, and Planemo).
 
 END_INCLUDE
 
@@ -178,7 +178,7 @@ END_INCLUDE
 
 # SCRIPTING
 
-* Comfort with scripting programming languages (Python and !JavaScript will be the most helpful).
+* Comfort with scripting programming languages (Python and JavaScript will be the most helpful).
 
 END_INCLUDE
 

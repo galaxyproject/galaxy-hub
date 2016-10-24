@@ -17,14 +17,14 @@ Small example of both communication protocols:
 
 ## Adding a new DataSource
 
-!DataSources are configured as a special type of [tool](/src/Tools/index.md).
+DataSources are configured as a special type of [tool](/src/Tools/index.md).
 
-Checklist for !DataSource tools:
+Checklist for DataSource tools:
 
 1. The [<tool> tag set](/src/Admin/Tools/ToolConfigSyntax/index.md#a3ctool3e_tag_set) has the attribute "tool_type" with the value "data_source"
 1. The [<command> tag set](/src/Admin/Tools/ToolConfigSyntax/index.md#a3ccommand3e_tag_set), inside the <tool> tag set, contains either "data_source.py" to use the built in sychronous/asynchronous single file downloader or a different command for custom downloading (multiple files, ...?). 
   1. If using "data_source.py" then the first parameter passed should be the name of the data tag in the outputs tag set. Likely it is "$output".
-  1. If using "data_source.py" then the second parameter passed is the maximum file size allowed by this Galaxy instance to quickly cancel a download that will fail later. This should be "$</u>app__.config.output_size_limit".
+  1. If using "data_source.py" then the second parameter passed is the maximum file size allowed by this Galaxy instance to quickly cancel a download that will fail later. This should be "$__app__.config.output_size_limit".
 1. The [<inputs>](/src/Admin/Tools/ToolConfigSyntax/index.md#a3cinputs3e_tag_set) tag set, inside the <tool> tag set, has three attributes defined: "action", "check_values", "method".
   1. The "action" attribute has the URL to redirect the Galaxy user to.
   1. The "method" attribute ...???
@@ -37,7 +37,7 @@ Checklist for !DataSource tools:
 
 <uihints> and <display> are no longer used.
 
-Some example !DataSources:
+Some example DataSources:
 * https://github.com/galaxyproject/galaxy/blob/dev/tools/data_source/ucsc_tablebrowser.xml
 * https://github.com/erasche/galaxy-data_source-examples
 

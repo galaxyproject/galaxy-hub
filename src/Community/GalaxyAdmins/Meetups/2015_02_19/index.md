@@ -20,7 +20,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em><a href='/src/Community/GalaxyAdmins/index.md'>GalaxyAdmins</a> direction</em>  (<a href='PLACEHOLDER_ATTACHMENT_URLGalaxy_admins_20150219.hrh.pdf'>slides</a>)<div class='indent'><a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> </div><em><a href='/src/News/2014Questionnaire/index.md'>Results from the 2014 Galaxy Community Questionnaires</a></em> (<a href='PLACEHOLDER_ATTACHMENT_URL2014QuestionnaireSlides.pdf'>Slides</a>)<div class='indent'><a href='/src/DaveClements/index.md'>Dave Clements</a> </div><em>Galaxy Project Update: Gravity</em> <div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
+    <td> <em><a href='/src/Community/GalaxyAdmins/index.md'>GalaxyAdmins</a> direction</em>  (<a href='PLACEHOLDER_ATTACHMENT_URL/src/Galaxy_admins_20150219.hrh.pdf'>slides</a>)<div class='indent'><a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> </div><em><a href='/src/News/2014Questionnaire/index.md'>Results from the 2014 Galaxy Community Questionnaires</a></em> (<a href='PLACEHOLDER_ATTACHMENT_URL/src/2014QuestionnaireSlides.pdf'>Slides</a>)<div class='indent'><a href='/src/DaveClements/index.md'>Dave Clements</a> </div><em>Galaxy Project Update: Gravity</em> <div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -66,4 +66,4 @@ The  [meetup's online conference room](http://bit.ly/admins1502) will open 15 mi
   * If you raise your hand, the host will need to recognize you.
   * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
-<div class='center'>![](/src/Community/GalaxyAdmins/AdobeConnectQuestion.png)</div>
+<div class='center'><img src="/src/Community/GalaxyAdmins/AdobeConnectQuestion.png" alt="" width="100%" /></div>

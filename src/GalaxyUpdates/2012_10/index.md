@@ -78,11 +78,11 @@ The [CBIIT Galaxy Server](http://galaxy.cbiit.cuhk.edu.hk/) joins the 20+ other 
 
 ## Who's Hiring
 
-<div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
+<div class='right'><img src="/src/Images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs @ Penn State and Emory
-* [offre CDD INRA Versailles](http://bit.ly/TKoV9h) - developpement chaine de traitements !RnaSeq sous Galaxy - France Genomique
+* [offre CDD INRA Versailles](http://bit.ly/TKoV9h) - developpement chaine de traitements RnaSeq sous Galaxy - France Genomique
 
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
@@ -105,7 +105,7 @@ There are October application, poster, and paper deadlines for
 October events include the [(first Swiss) Galaxy Workshop](/src/Events/Switzerland2012/index.md); [InCoB 2012](http://incob2012.org); [IEEE Conference on eScience](http://www.ci.uchicago.edu/escience2012/) (eScience 2012, which includes the [Extending High-Performance Computing Beyond its Traditional User Communities workshop](http://www.psc.edu/events/escience-2012-workshop/)); [Bio-IT World Europe](http://www.bio-itworldexpoeurope.com/Bio-It_Europe_Content.aspx?id=116078&libID=116026); [BioVis: IEEE Symposium on Biological Data Visualization](http://www.biovis.net); [Advanced NGS Course: RNA-seq data analysis (NBIC)](http://www.nbic.nl/education/course-overview/coursedetails/advanced-ngs-course-rna-seq-data-analysis/); [Advanced Sequencing Technologies & Applications Course (CSHL)](http://meetings.cshl.edu/courses/c-seqtech12.shtml); the [Northeast](http://www.nerlscd.org) and [Midwest](http://www.mwacd.org) Core directors meetings; and [eResearch Australasia 2012](http://conference.eresearch.edu.au/).
 
 
-News/GalaxyWorkshopsInSouthAfrica|Galaxy workshops and talks in South Africa]], the [Automated and reproducible analysis of NGS data (ARANGS12)](http://gtpb.igc.gulbenkian.pt/bicourses/ARANGS12), [Beyond the Genome 2012](http://www.beyond-the-genome.com/2012_event.html), and [ICG Americas 2012](http://www.icgamericas.org/).
+News[/GalaxyWorkshopsInSouthAfrica](/src/GalaxyUpdates/2012_10/GalaxyWorkshopsInSouthAfrica/index.md)|Galaxy workshops and talks in South Africa]], the [Automated and reproducible analysis of NGS data (ARANGS12)](http://gtpb.igc.gulbenkian.pt/bicourses/ARANGS12), [Beyond the Genome 2012](http://www.beyond-the-genome.com/2012_event.html), and [ICG Americas 2012](http://www.icgamericas.org/).
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
@@ -121,13 +121,13 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th> October 3 </th>
     <td> <em><a href='/src/Events/Switzerland2012/index.md'>(first Swiss) Galaxy Workshop</a></em> </td>
-    <td> </strong><a href='https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3'>SyBIT Tech Day</a><strong>, Bern, Switzerland </td>
+    <td> <strong><a href='https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3'>SyBIT Tech Day</a></strong>, Bern, Switzerland </td>
     <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> October 8-12 </th>
     <td> <em><a href='http://www.psc.edu/index.php/escience-2012-workshop'>Lessons from Galaxy, a Web-based Platform for High-throughput Genomic Analyses</a></em> </td>
-    <td> <a href='http://www.psc.edu/index.php/escience-2012-workshop'>Extending High-Performance Computing Beyond its Traditional User Communities Workshop</a>, part of </strong><a href='http://www.ci.uchicago.edu/escience2012/'>8th IEEE International Conference on eScience (eScience 2012)</a><strong>, Chicago Illinois, United States </td>
+    <td> <a href='http://www.psc.edu/index.php/escience-2012-workshop'>Extending High-Performance Computing Beyond its Traditional User Communities Workshop</a>, part of <strong><a href='http://www.ci.uchicago.edu/escience2012/'>8th IEEE International Conference on eScience (eScience 2012)</a></strong>, Chicago Illinois, United States </td>
     <td> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
@@ -163,7 +163,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th rowspan=2 style=" text-align:center;"> November 6-10 </th>
     <td> <em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#9'>Galaxy 101: Data Integration, Analysis and Sharing</a></em> </td>
-    <td rowspan=2 style=" text-align:center;"> </strong><a href='http://www.ashg.org/2012meeting/'>American Society of Human Genetics (ASHG)</a><strong>, San Francisco, California, United States </td>
+    <td rowspan=2 style=" text-align:center;"> <strong><a href='http://www.ashg.org/2012meeting/'>American Society of Human Genetics (ASHG)</a></strong>, San Francisco, California, United States </td>
     <td rowspan=2 style=" text-align:center;"> <a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a>, <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
@@ -186,7 +186,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> </strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
+    <td> <strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>

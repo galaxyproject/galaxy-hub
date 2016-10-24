@@ -58,7 +58,7 @@ No programming or Linux command line experience is required.
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:50 </th>
-    <td> <strong>Visualization & Visual Analytics in Galaxy</strong><div class='indent'>Learn to use Galaxy's built-in visualization capabilities.  We'll also demonstrate Galaxy's </em>visual analytics<em> support, using the tight coupling of visualization and analyses to iteratively guide analysis.</div> </td>
+    <td> <strong>Visualization & Visual Analytics in Galaxy</strong><div class='indent'>Learn to use Galaxy's built-in visualization capabilities.  We'll also demonstrate Galaxy's <em>visual analytics</em> support, using the tight coupling of visualization and analyses to iteratively guide analysis.</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:15 </th>
@@ -81,7 +81,7 @@ No programming or Linux command line experience is required.
 
 ## Slides
 
-The [slides for the lecture part of the workshop are now available](ATTACHMENT_URLDocuments/Presentations/2012_UMarylandWorkshop.pdf).
+The [slides for the lecture part of the workshop are now available](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_UMarylandWorkshop.pdf).
 
 ## Support
 

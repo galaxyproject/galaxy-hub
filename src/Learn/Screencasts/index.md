@@ -9,7 +9,7 @@ PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
 
 Screencasts are one of several ways to **[learn](/src/Learn/index.md)** how to use Galaxy.  These video tutorials cover many aspects of Galaxy, from simple tasks like uploading data, to complex analysis.
 
-The current screencasts use a variety of technologies, including !QuickTime (you may need to download the [QuickTime player](http://www.apple.com/quicktime/download/)).
+The current screencasts use a variety of technologies, including QuickTime (you may need to download the [QuickTime player](http://www.apple.com/quicktime/download/)).
 
 Watch some of our screencasts at **[Galaxy Project on YouTube](http://www.youtube.com/user/nekrut/videos)**.
 <br />
@@ -27,19 +27,19 @@ Watch some of our screencasts at **[Galaxy Project on YouTube](http://www.youtub
 <div class='left'> 
 <table>
   <tr>
-    <td> </strong><a href='http://vimeo.com/galaxyproject/accounts'>Accounts on Main</a><strong><br /> registration, openIDs</td>
-    <td> </strong><a href='http://vimeo.com/galaxyproject/datasets1'>Datasets 1</a><strong> and </strong>Datasets 2<strong> (pending) <br /> icons, functions, <br /> content, metadata, <br /> basic workflows </td>
-    <td> </strong><a href='http://vimeo.com/galaxyproject/sharepublish'>Share or Publish</a><strong> <br /> histories, workflows, <br /> visualizations, pages, <br /> publication support </td>
+    <td> <strong><a href='http://vimeo.com/galaxyproject/accounts'>Accounts on Main</a></strong><br /> registration, openIDs</td>
+    <td> <strong><a href='http://vimeo.com/galaxyproject/datasets1'>Datasets 1</a></strong> and <strong>Datasets 2</strong> (pending) <br /> icons, functions, <br /> content, metadata, <br /> basic workflows </td>
+    <td> <strong><a href='http://vimeo.com/galaxyproject/sharepublish'>Share or Publish</a></strong> <br /> histories, workflows, <br /> visualizations, pages, <br /> publication support </td>
   </tr>
   <tr>
-    <td> </strong><a href='http://vimeo.com/galaxyproject/upload'>Get Data: Upload File</a><strong> <br /> browse, url, paste, <a href='http://screencast.g2.bx.psu.edu/quickie_17_ftp_upload/flow.html'>ftp</a> </td>
-    <td> </strong><a href='http://vimeo.com/galaxyproject/learning'>Learning Resources</a><strong> <br /> self-serve help </td>
-    <td> </strong><a href='http://vimeo.com/galaxyproject/managehistories'>Managing Histories</a><strong> <br /> saved histories, <a href='/src/Main/index.md'>disk quotas</a> </td>
+    <td> <strong><a href='http://vimeo.com/galaxyproject/upload'>Get Data: Upload File</a></strong> <br /> browse, url, paste, <a href='http://screencast.g2.bx.psu.edu/quickie_17_ftp_upload/flow.html'>ftp</a> </td>
+    <td> <strong><a href='http://vimeo.com/galaxyproject/learning'>Learning Resources</a></strong> <br /> self-serve help </td>
+    <td> <strong><a href='http://vimeo.com/galaxyproject/managehistories'>Managing Histories</a></strong> <br /> saved histories, <a href='/src/Main/index.md'>disk quotas</a> </td>
   </tr>
   <tr>
-    <td> </strong><a href='http://screencast.g2.bx.psu.edu/quickie_17_ftp_upload/flow.html'>Using FTP</a><strong> <br /> step-by-step, <a href='/src/FTPUpload/index.md'> wiki</a> </td>
-    <td> </strong><a href='http://vimeo.com/galaxyproject/fastqprep'>FASTQ Prep Illumina</a><strong> <br /> jobs, FASTQ Groomer, <br /> edit attributes, FastQC </td>
-    <td> </strong><a href='http://vimeo.com/galaxyproject/customgenome'>Custom Genomes</a><strong> <br /> format, how to load, <br /> <a href='/src/Learn/CustomGenomes/index.md'>read more on wiki...</a></td>
+    <td> <strong><a href='http://screencast.g2.bx.psu.edu/quickie_17_ftp_upload/flow.html'>Using FTP</a></strong> <br /> step-by-step, <a href='/src/FTPUpload/index.md'> wiki</a> </td>
+    <td> <strong><a href='http://vimeo.com/galaxyproject/fastqprep'>FASTQ Prep Illumina</a></strong> <br /> jobs, FASTQ Groomer, <br /> edit attributes, FastQC </td>
+    <td> <strong><a href='http://vimeo.com/galaxyproject/customgenome'>Custom Genomes</a></strong> <br /> format, how to load, <br /> <a href='/src/Learn/CustomGenomes/index.md'>read more on wiki...</a></td>
   </tr>
 </table>
 
@@ -61,34 +61,34 @@ Watch some of our screencasts at **[Galaxy Project on YouTube](http://www.youtub
 <div class='left'>
 <table>
   <tr>
-    <td> </strong><a href='http://screencast.g2.bx.psu.edu/flash/TAF1.html'>TAF1: Which genes' promoter regions contain these sites?</a><strong> </td>
+    <td> <strong><a href='http://screencast.g2.bx.psu.edu/flash/TAF1.html'>TAF1: Which genes' promoter regions contain these sites?</a></strong> </td>
   </tr>
   <tr>
-    <td> </strong><a href='http://screencast.g2.bx.psu.edu/flash/mg_screencast_1.html'>Metagenomics 1</a> and <a href='http://screencast.g2.bx.psu.edu/flash/mg_screencast_2.html'>Metagenomics 2</a><strong> </td>
+    <td> <strong><a href='http://screencast.g2.bx.psu.edu/flash/mg_screencast_1.html'>Metagenomics 1</a> and <a href='http://screencast.g2.bx.psu.edu/flash/mg_screencast_2.html'>Metagenomics 2</a></strong> </td>
   </tr>
   <tr>
-    <td> </strong><a href='http://screencast.g2.bx.psu.edu/bushman_access/flow.html'>Bushman Data Access</a> and <a href='http://screencast.g2.bx.psu.edu/bushman_analysis/flow.html'>Bushman Data Analysis</a><strong> </td>
+    <td> <strong><a href='http://screencast.g2.bx.psu.edu/bushman_access/flow.html'>Bushman Data Access</a> and <a href='http://screencast.g2.bx.psu.edu/bushman_analysis/flow.html'>Bushman Data Analysis</a></strong> </td>
   </tr>
   <tr>
-    <td> </strong><a href='http://screencast.g2.bx.psu.edu/quickie8_solid_single_end/flow.html'>SOLiD Single End</a><strong> and </strong><a href='http://screencast.g2.bx.psu.edu/quickie9_solid_mate_pair/flow.html'>SOLiD Mate Pair</a><strong> </td>
+    <td> <strong><a href='http://screencast.g2.bx.psu.edu/quickie8_solid_single_end/flow.html'>SOLiD Single End</a></strong> and <strong><a href='http://screencast.g2.bx.psu.edu/quickie9_solid_mate_pair/flow.html'>SOLiD Mate Pair</a></strong> </td>
   </tr>
   <tr>
-    <td> </strong><a href='http://screencast.g2.bx.psu.edu/quickie10_custom_genome/flow.html'>Mapping Against Custom Genome</a><strong> </td>
+    <td> <strong><a href='http://screencast.g2.bx.psu.edu/quickie10_custom_genome/flow.html'>Mapping Against Custom Genome</a></strong> </td>
   </tr>
   <tr>
-    <td> </strong><a href='http://screencast.g2.bx.psu.edu/quickie_11_illumina_se/flow.html'>Illumina Single Ends</a><strong> and </strong><a href='http://screencast.g2.bx.psu.edu/quickie12_illumina_pe/flow.html'>Illumina Paired Ends</a><strong> </td>
+    <td> <strong><a href='http://screencast.g2.bx.psu.edu/quickie_11_illumina_se/flow.html'>Illumina Single Ends</a></strong> and <strong><a href='http://screencast.g2.bx.psu.edu/quickie12_illumina_pe/flow.html'>Illumina Paired Ends</a></strong> </td>
   </tr>
   <tr>
-    <td> </strong><a href='http://screencast.g2.bx.psu.edu/quickie_15_lastz_frag/flow.html'>454 Mapping Single End</a><strong> </td>
+    <td> <strong><a href='http://screencast.g2.bx.psu.edu/quickie_15_lastz_frag/flow.html'>454 Mapping Single End</a></strong> </td>
   </tr>
   <tr>
-    <td> </strong><a href='http://screencast.g2.bx.psu.edu/DNaseIHSS/'>DNase I hypersensitive sites</a><strong> </td>
+    <td> <strong><a href='http://screencast.g2.bx.psu.edu/DNaseIHSS/'>DNase I hypersensitive sites</a></strong> </td>
   </tr>
   <tr>
-    <td> </strong><a href='http://www.youtube.com/watch?v=kMME658xOu4&feature=youtu.be'>Using PhyloTastic Tools inside Galaxy</a><strong> by Rutger Vos, created 2012/06/11 </td>
+    <td> <strong><a href='http://www.youtube.com/watch?v=kMME658xOu4&feature=youtu.be'>Using PhyloTastic Tools inside Galaxy</a></strong> by Rutger Vos, created 2012/06/11 </td>
   </tr>
   <tr>
-    <td> </strong><a href='http://main.g2.bx.psu.edu/u/galaxyproject/p/using-galaxy-2012'>CPB-2012</a>:<strong> <br /> prot1 </strong><a href='http://vimeo.com/galaxyproject/cbp-usinggalaxy1'>Finding Human Coding Exons with Highest SNP Density</a><strong> <br /> prot2 </strong><a href='http://vimeo.com/galaxyproject/cbp-usinggalaxy2'>Loading Data and Understanding Datatypes</a><strong> <br /> prot3 </strong><a href='http://vimeo.com/galaxyproject/cbp-usinggalaxy3'>Calling Peaks for ChIP-seq Data</a><strong> <br /> prot5 </strong><a href='http://vimeo.com/galaxyproject/cbp-usinggalaxy5'>Working with Multiple Sequence Alignments</a><strong> </td>
+    <td> <strong><a href='http://main.g2.bx.psu.edu/u/galaxyproject/p/using-galaxy-2012'>CPB-2012</a>:</strong> <br /> prot1 <strong><a href='http://vimeo.com/galaxyproject/cbp-usinggalaxy1'>Finding Human Coding Exons with Highest SNP Density</a></strong> <br /> prot2 <strong><a href='http://vimeo.com/galaxyproject/cbp-usinggalaxy2'>Loading Data and Understanding Datatypes</a></strong> <br /> prot3 <strong><a href='http://vimeo.com/galaxyproject/cbp-usinggalaxy3'>Calling Peaks for ChIP-seq Data</a></strong> <br /> prot5 <strong><a href='http://vimeo.com/galaxyproject/cbp-usinggalaxy5'>Working with Multiple Sequence Alignments</a></strong> </td>
   </tr>
 </table>
 

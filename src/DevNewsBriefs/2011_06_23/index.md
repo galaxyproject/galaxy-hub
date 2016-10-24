@@ -72,7 +72,7 @@ A new select list was added to the upload form in Galaxy's **Tool Shed** with th
 * Admin notes: 
   * New script (scripts/set_dataset_sizes.py) which will set the value of the new total_size column on the dataset table (includes the contents of the extra_files_path and metadata files).
   * The ability for users to purge their own data is conditional on a config variable. Due to limitations in the grid framework, the button can't be removed from the history grid, but clicking it just does the same thing as delete but adds a message explaining that the purge operation wasn't performed.
-  * For users who were pulling from galaxy-central and that already upgraded to database version 78 prior to this distribution, the following SQL query should be run to set the default value of the '!HistoryDatasetAssociation' purged column:
+  * For users who were pulling from galaxy-central and that already upgraded to database version 78 prior to this distribution, the following SQL query should be run to set the default value of the 'HistoryDatasetAssociation' purged column:
 
  UPDATE history_dataset_association SET purged=false WHERE purged IS NULL
 
@@ -102,7 +102,7 @@ A new select list was added to the upload form in Galaxy's **Tool Shed** with th
 ### Source
 
 * Move duplicate data type checker methods from sniff and upload into a new ~/datatypes/checkers.py.
-* No longer allow Datasets to have !DatasetPermissions set such that no roles are associated with the DATASET_MANAGE_PERMISSION. Include the automatic creation of a new !DatasetPermission for an hda where the DATASET_MANAGE_PERMISSION permission is associated with the hda.history.user's private role if the hda has no roles associated with the DATASET_MANAGE_PERMISSION permission. The creation of the !DatasetPermission occurs when the user clicks the pencil icon for the hda.
+* No longer allow Datasets to have DatasetPermissions set such that no roles are associated with the DATASET_MANAGE_PERMISSION. Include the automatic creation of a new DatasetPermission for an hda where the DATASET_MANAGE_PERMISSION permission is associated with the hda.history.user's private role if the hda has no roles associated with the DATASET_MANAGE_PERMISSION permission. The creation of the DatasetPermission occurs when the user clicks the pencil icon for the hda.
 * SMTP Authentication support for all places where Galaxy sends mail. Use STARTTLS where available, too. Fixes #277
 
 ### Bug Fixes
@@ -127,7 +127,7 @@ A new select list was added to the upload form in Galaxy's **Tool Shed** with th
 * Add baseline support for translating special chars to html escape codes for correct html display in the Galaxy Tool Shed. Fixes #564
 * Commit versions of tools from the last_gen Tool Shed in order of oldest -> newest in the next-gen tool shed. Fixes #578
 * Fix sample tracking to correctly import samples from a csv file.  Add the ability to include field values (in addition to field names) when defining sample form rows by importing from a csv file. Fixes #398
-  * The csv file must be in the following format: the [:!FieldValue] is optional, the named form field will contain the value after the ':' if included.
+  * The csv file must be in the following format: the [:FieldValue] is optional, the named form field will contain the value after the ':' if included.
       `SampleName,DataLibraryName,FolderName,HistoryName,WorkflowName,Field1Name:Field1Value,Field2Name:Field2Value...`
 * Change the Galaxy tool shed search feature on the Categories grid to search Repository names and descriptions rather than Category names and descriptions. The ability to search Category names and descriptions has been eliminated. Fixes #480
 * Add support for uncompressing a gz or bz2 compressed file upon upload to a galaxy tool shed repository. Fixes #586

@@ -5,4 +5,4 @@ Email: [mailto:ryan.kuster AT SPAMFREE gmail DOT com](ryan.kuster AT SPAMFREE gm
 Hello!
 
 ----
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

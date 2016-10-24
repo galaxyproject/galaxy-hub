@@ -115,11 +115,11 @@ The new RGalaxy package in Bioconductor. [Read more …](/src/News/RGalaxyWrapRF
 ## GalaxyCzars
 
 <div class='right'><a href='/src/Community/GalaxyCzars/index.md'><img src="/src/Images/Logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
-The [GalaxyCzars group](/src/Community/GalaxyCzars/index.md) was launched and had its [first meetup on July 9](/src/Community/GalaxyCzars/Meetups/2012_07_09/index.md).  !GalaxyCzars is a group of people that manage large local Galaxy installations.  See the [meeting writeup](/src/Community/GalaxyCzars/Meetups/2012_07_09/index.md) for links to slides and a screencast. The !GalaxyCzars will have a breakout at [GCC2012](/src/Events/GCC2012/index.md), and the next conference call will follow in September.
+The [GalaxyCzars group](/src/Community/GalaxyCzars/index.md) was launched and had its [first meetup on July 9](/src/Community/GalaxyCzars/Meetups/2012_07_09/index.md).  GalaxyCzars is a group of people that manage large local Galaxy installations.  See the [meeting writeup](/src/Community/GalaxyCzars/Meetups/2012_07_09/index.md) for links to slides and a screencast. The GalaxyCzars will have a breakout at [GCC2012](/src/Events/GCC2012/index.md), and the next conference call will follow in September.
 <br />
 ## Galaxy is Hiring!
 
-<div class='left'>![Galaxy wants YOU](/src/Images/Icons/PointingFinger.png)<div class='center'></div></div>
+<div class='left'><img src="/src/Images/Icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
 **The [Galaxy Team](/src/GalaxyTeam/index.md) Wants You!**
 <br />
 Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/src/GalaxyIsHiring/index.md)

@@ -1,9 +1,8 @@
-
 # Kreshnik Ahmeti
 
-Email: [k-ahmeti at northwestern dot edu](k-ahmeti at northwestern dot edu)
+Email: [mailto:k-ahmeti at northwestern dot edu](k-ahmeti at northwestern dot edu)
 
 ...
 
 ----
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

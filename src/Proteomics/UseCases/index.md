@@ -30,7 +30,7 @@ Alternative and partial approaches should be listed as well. Most complete, gene
     <td> </td>
   </tr>
   <tr>
-    <td> !PeptideShaker </td>
+    <td> PeptideShaker </td>
     <td> X! Tandem and OMSSA </td>
     <td style=" background-color: #FFFF00;"> <a href='https://toolshed.g2.bx.psu.edu/view/galaxyp/'>Link</a> </td>
     <td> <a href='https://usegalaxyp.org'>Galaxy-P</a> </td>
@@ -40,7 +40,7 @@ Alternative and partial approaches should be listed as well. Most complete, gene
   </tr>
   <tr>
     <td> OpenMS </td>
-    <td> X! Tandem, OMSSA, !MyriMatch  </td>
+    <td> X! Tandem, OMSSA, MyriMatch  </td>
     <td style=" background-color: #FFFF00;"> <a href='https://toolshed.g2.bx.psu.edu/view/galaxyp/openms/'>Link</a> </td>
     <td> <a href='https://usegalaxyp.org'>Galaxy-P</a> </td>
     <td> </td>
@@ -48,8 +48,8 @@ Alternative and partial approaches should be listed as well. Most complete, gene
     <td> Results in idxml </td>
   </tr>
   <tr>
-    <td> !MaxQuant </td>
-    <td> !MaxQuant Andromeda </td>
+    <td> MaxQuant </td>
+    <td> MaxQuant Andromeda </td>
     <td style=" background-color: #FFFF00;"> <a href='https://toolshed.g2.bx.psu.edu/view/galaxyp/maxquant/'>Link</a> </td>
     <td> <a href='https://usegalaxyp.org'>Galaxy-P</a> </td>
     <td> </td>
@@ -66,8 +66,8 @@ Alternative and partial approaches should be listed as well. Most complete, gene
     <td> </td>
   </tr>
   <tr>
-    <td> !ProteinPilot </td>
-    <td> !ProteinPilot  </td>
+    <td> ProteinPilot </td>
+    <td> ProteinPilot  </td>
     <td style=" background-color: #FFFF00;"> <a href='https://toolshed.g2.bx.psu.edu/view/galaxyp/proteinpilot/'>Link</a> </td>
     <td> </td>
     <td> </td>
@@ -96,7 +96,7 @@ The [NBIC Galaxy server Andromeda](http://galaxy.nbic.nl/) features [msCompare](
 
 The Galaxy-P OpenMS tool repository features tools for iTRAQ and TMT quantification. These are in early development, please contact [John Chilton](/src/JohnChilton/index.md) for more details.
 
-Likewise, the tool shed contains tools for !MaxQuant and !ProteinPilot both tools are capable of Isobaric quantification - though !MaxQuant works only with Thermo RAW files and !ProteinPilot is a commercial tool. 
+Likewise, the tool shed contains tools for MaxQuant and ProteinPilot both tools are capable of Isobaric quantification - though MaxQuant works only with Thermo RAW files and ProteinPilot is a commercial tool. 
 
 ## Multi-omics Use Cases
 

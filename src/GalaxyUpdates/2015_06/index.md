@@ -22,7 +22,7 @@ Welcome to the June 2015 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summa
 70 new papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in May. Highlights include:
 
 * [BioMAJ2Galaxy: automatic update of reference data in Galaxy using BioMAJ](http://dx.doi.org/10.1186/s13742-015-0063-8)
-    by Anthony Bretaudeau, Cyril Monjeaud, Yvan Le Bras, Fabrice Legeai, Olivier Collin, *!GigaScience*, Vol. 4, No. 1. (9 May 2015), doi:10.1186/s13742-015-0063-8
+    by Anthony Bretaudeau, Cyril Monjeaud, Yvan Le Bras, Fabrice Legeai, Olivier Collin, *GigaScience*, Vol. 4, No. 1. (9 May 2015), doi:10.1186/s13742-015-0063-8
 * [Design and bioinformatics analysis of genome-wide CLIP experiments](http://dx.doi.org/10.1093/nar/gkv439), 
     by Tao Wang, Guanghua Xiao, Yongjun Chu, Michael Q. Zhang, David R. Corey, Yang Xie, *Nucleic Acids Research* (09 May 2015), gkv439, doi:10.1093/nar/gkv439
 * [The Globus Galaxies platform: delivering science gateways as a service](http://dx.doi.org/10.1002/cpe.3486)
@@ -190,7 +190,7 @@ Please join us for the [next GalaxyAdmins meetup on June 18](/src/Community/Gala
 
  **Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester**
 
-GalaxyAdmins will also have an [in-person meetup at GCC2015](/src/Events/GCC2015/BoFs/GalaxyAdmins/index.md).
+[GalaxyAdmins](/src/GalaxyAdmins/index.md) will also have an [in-person meetup at GCC2015](/src/Events/GCC2015/BoFs/GalaxyAdmins/index.md).
 
 [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
 
@@ -217,69 +217,69 @@ There are [upcoming events](/src/Events/index.md) in seven countries on three co
   </tr>
   <tr>
     <th> May 31 - June 4 </th>
-    <td> </strong><a href='/src/Events/ASMS2015/index.md'>63rd ASMS Conference on Mass Spectrometry and Allied Topics</a><strong><div class='indent'><a href='/src/Events/ASMS2015/index.md'>At least 4 talks and 5 posters</a></div> </td>
+    <td> <strong><a href='/src/Events/ASMS2015/index.md'>63rd ASMS Conference on Mass Spectrometry and Allied Topics</a></strong><div class='indent'><a href='/src/Events/ASMS2015/index.md'>At least 4 talks and 5 posters</a></div> </td>
     <td> <div class='right'><img src="/src/Images/Icons/NorthAmerica40.png" alt="" /></div> St. Louis, Missouri, United States </td>
     <td> <a href='/src/Events/ASMS2015/index.md'>Speaker List</a> </td>
   </tr>
   <tr>
     <th> June 2 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module17-2juin.pdf'>Initiation à l’utilisation de Galaxy</a><em>  </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module17-2juin.pdf'>Initiation à l’utilisation de Galaxy</a></em>  </td>
     <td rowspan=3 style=" text-align: left;"> <div class='right'><img src="/src/Images/Icons/Europe40.png" alt="" /></div> <a href='http://www.jouy.inra.fr/'>Jouy-en-Josas</a>, France <div class='indent'>Partie du <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2015</a></div> </td>
     <td rowspan=3> <a href="mailto:veronique.martin@jouy.inra.fr">Veronique Martin</a>, <a href="mailto:sophie.schbath@jouy.inra.fr">Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 3 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module8bis-3juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a><em>  </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module8bis-3juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></em>  </td>
   </tr>
   <tr>
     <th> June 4 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module18.pdf'>Traitement bioinformatique des données RNA-Seq sous Galaxy</a><em>  </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2015/module18.pdf'>Traitement bioinformatique des données RNA-Seq sous Galaxy</a></em>  </td>
   </tr>
   <tr>
     <th> June 3 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-2/'>Workshop: RNA-Seq analysis using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-2/'>Workshop: RNA-Seq analysis using Galaxy</a></em> </td>
     <td> <div class='right'><img src="/src/Images/Icons/Australia40.png" alt="" /></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#qfab-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> June 6-9 </th>
-    <td> </em><a href='https://www.eshg.org/684.0.html'>WS02: NGS Variant Analysis with Galaxy</a><em> </td>
+    <td> <em><a href='https://www.eshg.org/684.0.html'>WS02: NGS Variant Analysis with Galaxy</a></em> </td>
     <td> <div class='right'><img src="/src/Images/Icons/Europe40.png" alt="" /></div> <a href='https://www.eshg.org/eshg2015.0.html'>ESHG 2015</a>, Glasgow, United Kingdom </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy-project'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> June 8-9 </th>
-    <td> </em><a href='/src/Events/Glasgow2015/index.md'>Introduction to Galaxy Workshop</a><em> <div class='indent'>Workshop is full, but there is a waiting list</div> </td>
+    <td> <em><a href='/src/Events/Glasgow2015/index.md'>Introduction to Galaxy Workshop</a></em> <div class='indent'>Workshop is full, but there is a waiting list</div> </td>
     <td> <div class='right'><img src="/src/Images/Icons/Europe40.png" alt="" /></div> <a href='http://www.gla.ac.uk/'>University of Glasgow</a>, Glasgow, United Kingdom </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy-project'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> June 18 </th>
-    <td> </em><a href='/src/Community/GalaxyAdmins/Meetups/2015_06_18/index.md'>Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester</a><em> </td>
-    <td> <div class='right'><img src="/src/Images/Icons/AllContinents40.png" alt="" /></div> <a href='/src/Community/GalaxyAdmins/Meetups/2015_06_18/index.md'>June 2015 GalaxyAdmins Web Meetup</a>, </em>Online<em> </td>
+    <td> <em><a href='/src/Community/GalaxyAdmins/Meetups/2015_06_18/index.md'>Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester</a></em> </td>
+    <td> <div class='right'><img src="/src/Images/Icons/AllContinents40.png" alt="" /></div> <a href='/src/Community/GalaxyAdmins/Meetups/2015_06_18/index.md'>June 2015 GalaxyAdmins Web Meetup</a>, <em>Online</em> </td>
     <td> <a href='http://galacticengineer.blogspot.co.uk/'>Peter Briggs</a>, <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> June 22 </th>
-    <td> </em>Introduction to variant calling for pathologists and laboratory managers<em> </td>
+    <td> <em>Introduction to variant calling for pathologists and laboratory managers</em> </td>
     <td> <div class='right'><img src="/src/Images/Icons/Australia40.png" alt="" /></div> Part of <a href='http://www.rcpa.edu.au/Events/Event-Details/2015/June/Short-Course-in-Medical-Genetics-and-Genetic-Patho'>Short Course in Medical Genetics and Genetic Pathology 2015</a>, Sydney, Australia </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='/src/RossLazarus/index.md'>Ross Lazarus</a>, <a href='https://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> </td>
   </tr>
   <tr>
     <th> June 22 </th>
-    <td> </em><a href='http://go4bioinformatics.genouest.org/initiation-a-la-plateforme-web-danalyse-de-donnees-galaxy-lanalyse-de-donnees-biologiques-pour-tous/'>Initiation à la plateforme web GALAXY</a><em> </td>
+    <td> <em><a href='http://go4bioinformatics.genouest.org/initiation-a-la-plateforme-web-danalyse-de-donnees-galaxy-lanalyse-de-donnees-biologiques-pour-tous/'>Initiation à la plateforme web GALAXY</a></em> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src="/src/Images/Icons/Europe40.png" alt="" /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Angers, France</a> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras, Cyril Monjeaud</a> </td>
   </tr>
   <tr>
     <th> June 22 </th>
-    <td> </em><a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-rnaseq-sous-galaxy/'>Introduction à l'analyse de données RNAseq sous Galaxy</a><em> </td>
+    <td> <em><a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-rnaseq-sous-galaxy/'>Introduction à l'analyse de données RNAseq sous Galaxy</a></em> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src="/src/Images/Icons/Europe40.png" alt="" /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Angers, France</a> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div><a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras, Cyril Monjeaud</a> </td>
   </tr>
   <tr>
     <th> June 25 </th>
-    <td> </em><a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-de-type-rad-par-le-pipeline-stacks-sous-la-plateforme-web-danalyse-de-donnees-galaxy/'>Initiation à l'analyse de données de type RAD par le pipeline STACKS sous Galaxy</a><em> </td>
+    <td> <em><a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-de-type-rad-par-le-pipeline-stacks-sous-la-plateforme-web-danalyse-de-donnees-galaxy/'>Initiation à l'analyse de données de type RAD par le pipeline STACKS sous Galaxy</a></em> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src="/src/Images/Icons/Europe40.png" alt="" /></a></div>Lille, France </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div><a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras, Anthony Bretaudeau, Cyril Monjeaud</a> </td>
   </tr>
@@ -289,42 +289,42 @@ There are [upcoming events](/src/Events/index.md) in seven countries on three co
   </tr>
   <tr>
     <th> July 4-8 </th>
-    <td> </strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a><strong> </td>
+    <td> <strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a></strong> </td>
     <td rowspan=6> <div class='right'><img src="/src/Images/Icons/Europe40.png" alt="" /></div> <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
     <td> <a href="mailto:gcc2015-org@lists.galaxyproject.org">GCC2015 Organisers</a> </td>
   </tr>
   <tr>
     <th rowspan=2> July 4-5 </th>
-    <td> <div class='indent'></strong><a href='http://gcc2015.tsl.ac.uk/data_hackathon'>Data Wrangling Hackathon</a></div><strong> </td>
+    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/data_hackathon'>Data Wrangling Hackathon</a></div></strong> </td>
     <td> <a href="mailto:gcc2015-data-org@lists.galaxyproject.org">Data Hackathon Organisers</a> </td>
   </tr>
   <tr>
-    <td> <div class='indent'></strong><a href='http://gcc2015.tsl.ac.uk/hackathon'>Coding Hackathon</a></div><strong> </td>
+    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/hackathon'>Coding Hackathon</a></div></strong> </td>
     <td> <a href="mailto:gcc2015-hack-org@lists.galaxyproject.org">Coding Hackathon Organisers</a> </td>
   </tr>
   <tr>
     <th> July 5 </th>
-    <td> <div class='indent'></strong><a href='http://gcc2015.tsl.ac.uk/training_day'>Training SunDay</a></div><strong> </td>
+    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/training_day'>Training SunDay</a></div></strong> </td>
     <td rowspan=2> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href="mailto:gcc2015-org@lists.galaxyproject.org">GCC2015 Organisers</a>  </td>
   </tr>
   <tr>
     <th> July 6 </th>
-    <td> <div class='indent'></strong><a href='http://gcc2015.tsl.ac.uk/training_day'>Training (Mon)Day</a></div><strong> </td>
+    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/training_day'>Training (Mon)Day</a></div></strong> </td>
   </tr>
   <tr>
     <th> July 6-8 </th>
-    <td> <div class='indent'></strong><a href='http://gcc2015.tsl.ac.uk/'>GCC2015 Community Meeting</a><strong></div> </td>
+    <td> <div class='indent'><strong><a href='http://gcc2015.tsl.ac.uk/'>GCC2015 Community Meeting</a></strong></div> </td>
     <td> <a href="mailto:gcc2015-org@lists.galaxyproject.org">GCC2015 Organisers</a> </td>
   </tr>
   <tr>
     <th> July 6-10 </th>
-    <td> </em><a href='http://bioinformatics.org.au/ws15/wp-content/uploads/ws14/sites/9/2015/02/Galaxy-Workshop-Information-Sheet.pdf'>An Introduction to Galaxy with the Genomics Virtual Lab: workshop</a><em> </td>
+    <td> <em><a href='http://bioinformatics.org.au/ws15/wp-content/uploads/ws14/sites/9/2015/02/Galaxy-Workshop-Information-Sheet.pdf'>An Introduction to Galaxy with the Genomics Virtual Lab: workshop</a></em> </td>
     <td> <div class='right'><img src="/src/Images/Icons/Australia40.png" alt="" /></div><a href='http://bioinformatics.org.au/ws15/registration/'>Winter School in Mathematical and Computational Biology</a>, University of Queensland, Brisbane, Queensland, Australia </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#qfab-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> July 10-14 </th>
-    <td> </strong><a href='/src/Events/ISMB2015/index.md'>BOSC 2015 & ISMB/ECCB 2015</a><strong> <div class='indent'>10+ Galaxy related talks, posters, panel discussions, ...</div> </td>
+    <td> <strong><a href='/src/Events/ISMB2015/index.md'>BOSC 2015 & ISMB/ECCB 2015</a></strong> <div class='indent'>10+ Galaxy related talks, posters, panel discussions, ...</div> </td>
     <td> <div class='right'><img src="/src/Images/Icons/Europe40.png" alt="" /></div> Dublin, Ireland </td>
     <td> <a href='/src/Events/ISMB2015/index.md'>See presenters</a> </td>
   </tr>
@@ -334,7 +334,7 @@ There are [upcoming events](/src/Events/index.md) in seven countries on three co
   </tr>
   <tr>
     <th> August 6-7 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-3/'>Workshop: Extended RNA-Seq analysis</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-3/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
     <td> <div class='right'><img src="/src/Images/Icons/Australia40.png" alt="" /></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#qfab-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
@@ -344,13 +344,13 @@ There are [upcoming events](/src/Events/index.md) in seven countries on three co
   </tr>
   <tr>
     <th> September<br />4, 11 </th>
-    <td> </em><a href='http://www.vib.be/en/training/research-training/courses/Pages/Introduction-to-NGS-data-analysis.aspx'>Introduction to NGS data analysis</a><em> </td>
+    <td> <em><a href='http://www.vib.be/en/training/research-training/courses/Pages/Introduction-to-NGS-data-analysis.aspx'>Introduction to NGS data analysis</a></em> </td>
     <td> <div class='right'><img src="/src/Images/Icons/Europe40.png" alt="" /></div> Leuven, Belgium </td>
     <td> <a href='http://www.vib.be/whoiswho/Pages/Janick-Mathys.aspx?lang=en'>Janick Mathys</a> </td>
   </tr>
   <tr>
     <th> September 14-18 </th>
-    <td> </em><a href='http://training.bioinformatics.ucdavis.edu/2015/01/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-september-14-18-2015/'>Using Galaxy for Analysis of High Throughput Sequence Data, September</a><em> </td>
+    <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2015/01/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-september-14-18-2015/'>Using Galaxy for Analysis of High Throughput Sequence Data, September</a></em> </td>
     <td> <div class='right'><img src="/src/Images/Icons/NorthAmerica40.png" alt="" /></div> <a href='http://bioinformatics.ucdavis.edu/'>UC Davis Bioinformatics Core</a>, Davis, California, United States </td>
     <td> <div class='right'><a href='http://bit.ly/gxytrnUCDavis'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href="mailto:bioinformatics.core@ucdavis.edu">UC Davis Bioinformatics</a> </td>
   </tr>
@@ -395,7 +395,7 @@ The [VirAmp](http://viramp.com/) server was added to the [list of public Galaxy 
 **[VirAmp](http://viramp.com/)** is a web-based semi-*de novo* fast virus genome assembly pipeline designed for extremely high coverage NGS data. From [VirAmp: a galaxy-based viral genome assembly pipeline](http://www.gigasciencejournal.com/content/4/1/19), Yinan Wan, Daniel W Renner, Istvan Albert and Moriah L Szpara, *[GigaScience](http://www.gigasciencejournal.com/)* 2015, 4:19 doi:10.1186/s13742-015-0060-y
       [VirAmp](http://viramp.com/) "combines existing tools and techniques and presents them to end users via a web-enabled Galaxy interface. Our pipeline allows users to assemble, analyze, and interpret high coverage viral sequencing data with an ease and efficiency that was not possible previously. Our software makes a large number of genome assembly and related tools available to life scientists and automates the currently recommended best practices into a single, easy to use interface. We tested our pipeline with three different datasets from human herpes simplex virus (HSV)."
 
-!VirAmp includes [Documentation](http://docs.viramp.com/en/latest/) and is supported by the [Huck Institutes of the Life Sciences](https://www.huck.psu.edu/) and the [Department of Biochemistry and Molecular Biology](http://bmb.psu.edu/), and [Pennsylvania State University](http://www.psu.edu/)
+VirAmp includes [Documentation](http://docs.viramp.com/en/latest/) and is supported by the [Huck Institutes of the Life Sciences](https://www.huck.psu.edu/) and the [Department of Biochemistry and Molecular Biology](http://bmb.psu.edu/), and [Pennsylvania State University](http://www.psu.edu/)
 
 
 
@@ -445,15 +445,15 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 ## Others
 
- **CloudMan **
+ **[CloudMan](/src/CloudMan/index.md) **
    The [most recent edition of CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release) was released in August.
 
- **!BioBlend V0.5.3**
+ **BioBlend V0.5.3**
    [BioBlend v0.3](/src/News/BioBlendV0.5.3/index.md) was also released in March.<br />
-   [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  (CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
+   [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  ([CloudMan](/src/CloudMan/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
 
  **blend4j v0.1.2**
-   [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and !BioCloudCentral.
+   [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and BioCloudCentral.
 
 
 ----

@@ -32,51 +32,51 @@ No programming or Linux command line experience is required.
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td> </strong>Welcome<strong><div class='indent'>Introductions and logistics</div> </td>
+    <td> <strong>Welcome</strong><div class='indent'>Introductions and logistics</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:20 </th>
-    <td> </strong>Basic Analysis with Galaxy<strong><div class='indent'>Walk through a worked, hands-on example demonstrating basic analysis with Galaxy</div> </td>
+    <td> <strong>Basic Analysis with Galaxy</strong><div class='indent'>Walk through a worked, hands-on example demonstrating basic analysis with Galaxy</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:30 </th>
-    <td> </strong>Basic Analysis into Reusable Workflows<strong><div class='indent'>Genericize our analysis into something we can use again.</div> </td>
+    <td> <strong>Basic Analysis into Reusable Workflows</strong><div class='indent'>Genericize our analysis into something we can use again.</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
-    <td> </strong>RNA-Seq Example Part I<strong><div class='indent'>Review NGS data quality issues and some quality control options in Galaxy</div> </td>
+    <td> <strong>RNA-Seq Example Part I</strong><div class='indent'>Review NGS data quality issues and some quality control options in Galaxy</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:30 </th>
-    <td style=" text-align: center;"> </strong>Lunch<strong> (on your own) </td>
+    <td style=" text-align: center;"> <strong>Lunch</strong> (on your own) </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 1:00 </th>
-    <td> </strong>RNA-Seq Example Part II<strong><div class='indent'>Mapping and Splice Junction Calling with Tophat</div> </td>
+    <td> <strong>RNA-Seq Example Part II</strong><div class='indent'>Mapping and Splice Junction Calling with Tophat</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 1:30 </th>
-    <td> </strong>Galaxy Project Overview<strong><div class='indent'>Introduction to Galaxy and the Galaxy community</div> </td>
+    <td> <strong>Galaxy Project Overview</strong><div class='indent'>Introduction to Galaxy and the Galaxy community</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:00 </th>
-    <td> </strong>RNA-Seq Example Part III<strong><div class='indent'>Cufflinks, Visualization, and Visual Analytics</div> </td>
+    <td> <strong>RNA-Seq Example Part III</strong><div class='indent'>Cufflinks, Visualization, and Visual Analytics</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:30 </th>
-    <td> </strong>Sharing, Publishing, and Reproducibility with Galaxy<strong><div class='indent'>Share and publish analysis, datasets, and workflows with Galaxy</div> </td>
+    <td> <strong>Sharing, Publishing, and Reproducibility with Galaxy</strong><div class='indent'>Share and publish analysis, datasets, and workflows with Galaxy</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:50 </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:10 </th>
-    <td> </strong>ChIP-Seq Example<strong><div class='indent'>A second NGS example, this time with ChIP-Seq data </div> </td>
+    <td> <strong>ChIP-Seq Example</strong><div class='indent'>A second NGS example, this time with ChIP-Seq data </div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 5:00 </th>
-    <td style=" text-align: center;"> </strong>Done<strong> </td>
+    <td style=" text-align: center;"> <strong>Done</strong> </td>
   </tr>
 </table>
 
@@ -93,11 +93,11 @@ This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/src/Events/Mi
 ## Links
 
 * [Feedback](http://bit.ly/20130430Gxy)
-* [Workshop Slides](ATTACHMENT_URLDocuments/Presentations/2013SLUWorkshop.pdf)
+* [Workshop Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2013SLUWorkshop.pdf)
 
 ## Flyer
 
-<div class='right'><a href='/src/attachment:SLUGalaxy2013.pdf/index.md'><img src="/src/Events/SLU2013/SLUGalaxy2013Thumb.png" alt=""  /></a></div>
+<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/SLUGalaxy2013.pdf'><img src="/src/Events/SLU2013/SLUGalaxy2013Thumb.png" alt=""  /></a></div>
 Please distribute to groups in Saint Louis University that might be interested. You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?

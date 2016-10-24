@@ -34,4 +34,4 @@ The following components have gone through several phases of development.  Greg 
 * [Galaxy Data Libraries](/src/Admin/DataLibraries/index.md)
 
 ----
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

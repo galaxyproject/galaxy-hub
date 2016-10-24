@@ -42,51 +42,51 @@ This hands-on workshop will teach participants how to integrate data, and perfor
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td> </strong>Welcome<strong><div class='indent'>Introductions and logistics</div> </td>
+    <td> <strong>Welcome</strong><div class='indent'>Introductions and logistics</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:20 </th>
-    <td> </strong>Basic Analysis with Galaxy<strong><div class='indent'>Walk through a worked, hands-on example demonstrating basic analysis with Galaxy</div> </td>
+    <td> <strong>Basic Analysis with Galaxy</strong><div class='indent'>Walk through a worked, hands-on example demonstrating basic analysis with Galaxy</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:20 </th>
-    <td> </strong>Basic Analysis into Reusable Workflows<strong><div class='indent'>Genericize our analysis into something we can use again.</div> </td>
+    <td> <strong>Basic Analysis into Reusable Workflows</strong><div class='indent'>Genericize our analysis into something we can use again.</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:40 </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
-    <td> </strong>RNA-Seq Example Part I<strong><div class='indent'>Review NGS data quality issues and some quality control options in Galaxy; Mapping and Splice Junction Calling with Tophat</div> </td>
+    <td> <strong>RNA-Seq Example Part I</strong><div class='indent'>Review NGS data quality issues and some quality control options in Galaxy; Mapping and Splice Junction Calling with Tophat</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:00 </th>
-    <td> </strong>Galaxy Project Overview<strong><div class='indent'>Introduction to Galaxy and the Galaxy community</div> </td>
+    <td> <strong>Galaxy Project Overview</strong><div class='indent'>Introduction to Galaxy and the Galaxy community</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:20  </th>
-    <td style=" text-align: center;"> </strong>Lunch<strong> </td>
+    <td style=" text-align: center;"> <strong>Lunch</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 1:40 </th>
-    <td> </strong>RNA-Seq Example Part II<strong><div class='indent'>Cufflinks, Visualization, and Visual Analytics</div> </td>
+    <td> <strong>RNA-Seq Example Part II</strong><div class='indent'>Cufflinks, Visualization, and Visual Analytics</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:30 </th>
-    <td> </strong>Manage, Reuse and Share your Analyses with Galaxy<strong><div class='indent'>Share and oublish analysis, datasets, and workflows with Galaxy</div> </td>
+    <td> <strong>Manage, Reuse and Share your Analyses with Galaxy</strong><div class='indent'>Share and oublish analysis, datasets, and workflows with Galaxy</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:50 </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:10 </th>
-    <td> </strong>Setting up your own Galaxy Cluster on the Amazon Cloud<strong><div class='indent'>Every participant will set up their own functional and populated (but short-lived) Galaxy server on the cloud </div> </td>
+    <td> <strong>Setting up your own Galaxy Cluster on the Amazon Cloud</strong><div class='indent'>Every participant will set up their own functional and populated (but short-lived) Galaxy server on the cloud </div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 5:00 </th>
-    <td style=" text-align: center;"> </strong>Done<strong> </td>
+    <td style=" text-align: center;"> <strong>Done</strong> </td>
   </tr>
 </table>
 
@@ -106,10 +106,10 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Links
 
-<div class='right'><a href='/src/attachment:PurdueGalaxyWorkshopFlier.pdf/index.md'><img src="/src/Events/Purdue2012/PurdueGalaxyWorkshopFlierThumb.png" alt="Please distribute" height="220px" /></a></div>
+<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/PurdueGalaxyWorkshopFlier.pdf'><img src="/src/Events/Purdue2012/PurdueGalaxyWorkshopFlierThumb.png" alt="Please distribute" height="220px" /></a></div>
 
-* [Flier](ATTACHMENT_URLPurdueGalaxyWorkshopFlier.pdf) - please print / post / distribute
-* [Slides](ATTACHMENT_URLDocuments/Presentations/2012_Purdue.pdf)
+* [Flier](PLACEHOLDER_ATTACHMENT_URL/src/PurdueGalaxyWorkshopFlier.pdf) - please print / post / distribute
+* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_Purdue.pdf)
 * [Workshop evaluation form](http://bit.ly/gxypurdue)
 
 ## Questions?

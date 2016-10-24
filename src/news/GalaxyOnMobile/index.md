@@ -1,7 +1,7 @@
 <div class='newsItemHeader'>[Galaxy Goes Mobile](/src/News/GalaxyOnMobile/index.md)</div>
 
 <div class='right'>
-![A history in Galaxy Portal](/src/Images/NewsGraphics/GalaxyPortalHistory.png)
+<img src="/src/Images/NewsGraphics/GalaxyPortalHistory.png" alt="A history in Galaxy Portal" width="200" />
 </div>
 
 **Galaxy is now accessible from your [IOS](https://itunes.apple.com/us/app/galaxy-portal/id937158087?mt=8) and [Android](https://play.google.com/store/apps/details?id=no.uio.bmi.claus) devices.** The Galaxy Portal app is a quick and easy way to monitor the status of biomedical research on any Galaxy server. With this app you can set up a list of Galaxy connections and browse your analyses histories in a user-friendly format and take a peek at your data on the go.
@@ -17,4 +17,4 @@ Galaxy Portal is provided free of charge.
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-02-02</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

@@ -20,4 +20,4 @@ As always there's a lot going on in the Galaxy this month.  "Like what?" you say
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-12-01 </div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

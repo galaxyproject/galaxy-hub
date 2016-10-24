@@ -33,4 +33,4 @@ and *Community News* too:
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-01-30 </div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

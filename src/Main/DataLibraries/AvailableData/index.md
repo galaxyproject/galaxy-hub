@@ -4,9 +4,9 @@ Galaxy provides tools for extracting subsets of genomic sequences and alignments
 
 <table>
   <tr>
-    <td> </strong>Build<strong></td>
-    <td> </strong>Species<strong></td>
-    <td> </strong>Clade<strong></td>
+    <td> <strong>Build</strong></td>
+    <td> <strong>Species</strong></td>
+    <td> <strong>Clade</strong></td>
   </tr>
   <tr>
     <td> anoGam1</td>
@@ -155,8 +155,8 @@ Galaxy provides tools for extracting subsets of genomic sequences and alignments
 
 <table>
   <tr>
-    <td> </strong>Build<strong></td>
-    <td> </strong>Aligned with<strong></td>
+    <td> <strong>Build</strong></td>
+    <td> <strong>Aligned with</strong></td>
   </tr>
   <tr>
     <td> anoGam1</td>

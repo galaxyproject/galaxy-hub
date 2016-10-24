@@ -20,7 +20,7 @@ The Data Manager framework supports any kind of built-in ("pre-cached") data tha
 
 # Graphical Overview of Interplay between Built-in Data and Galaxy Tools
 
-<a href='/src/attachment:data_managers_figure_S1_schematic_overview.png/index.md'><img src="/src/Admin/Tools/DataManagers/data_managers_figure_S1_schematic_overview.png" alt="" width=600 /></a> 
+<a href='/src/Admin/Tools/DataManagers/data_managers_figure_S1_schematic_overview.png'><img src="/src/Admin/Tools/DataManagers/data_managers_figure_S1_schematic_overview.png" alt="" width=600 /></a> 
 
 # List of pages in this category
 

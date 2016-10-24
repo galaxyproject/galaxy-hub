@@ -1,9 +1,6 @@
----
-date: 2011-11-14T23:20:42Z
----
-<div class='newsItemHeader'>[GCC 2012 is Scheduled!](/News/GCC2012 Scheduled)</div>
+<div class='newsItemHeader'>[GCC 2012 is Scheduled!](/src/News/GCC2012 Scheduled/index.md)</div>
 
-<div class='right'><a href='/Events/GCC2012'><img src='/Events/GCC2012/GCC2012Logo200.png' alt='GCC 2012' width="180" /></a></div>
+<div class='right'><a href='/src/Events/GCC2012/index.md'><img src="/src/Events/GCC2012/GCC2012Logo200.png" alt="GCC 2012" width="180" /></a></div>
 
 **We are pleased to announce that the [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) has been scheduled for July 25-27 in Chicago, Illinois, United States.**  
 
@@ -13,7 +10,8 @@ Some things will be the same as in previous years, but we are also using feedbac
 
 Please reserve July 25-27 on your calendars!
 
-[Dave Clements](/src/DaveClements/index.md) and [Neil Bahroos](/NeilBahroos)
+[Dave Clements](/src/DaveClements/index.md) and [Neil Bahroos](/src/NeilBahroos/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-11-14</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

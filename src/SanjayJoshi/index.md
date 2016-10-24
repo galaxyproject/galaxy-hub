@@ -1,5 +1,5 @@
 
-<div class='right'> ![](/src/SanjayJoshi/SanjayJoshi.png)<br /><a href='http://emc.com'><img src="/src/Events/GCC2012/Sponsorships/EMCLogo260.png" alt="EMC Isilon" width="120px" /></a></div>
+<div class='right'> <img src="/src/SanjayJoshi/SanjayJoshi.png" alt="" width="120px" /><br /><a href='http://emc.com'><img src="/src/Events/GCC2012/Sponsorships/EMCLogo260.png" alt="EMC Isilon" width="120px" /></a></div>
 
 # Sanjay Joshi
 
@@ -9,4 +9,4 @@ Sanjay will be speaking about [EMC Isilon](http://emc.com) at [GCC2013](/src/Eve
 
 **Email: ** [mailto:sanjay DOT joshi AT isilon DOT com](sanjay DOT joshi AT isilon DOT com)
 ----
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

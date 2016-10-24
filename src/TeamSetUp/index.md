@@ -128,7 +128,7 @@ Read HackerNews / Python subreddit + Programming subreddit
 ## Nitesh Turaga
 
 Worked in the past on: 
-* BioConductor - Galaxy integration
+* [BioConductor](/src/BioConductor/index.md) - Galaxy integration
 
 Now: 
 * Galaxy Full Stack
@@ -136,11 +136,11 @@ Now:
 #### Work environment
 
 * Vim + plugins: 
-  * 'VundleVim/Vundle.vim'
+  * '[VundleVim](/src/VundleVim/index.md)/Vundle.vim'
   * 'tpope/vim-fugitive'
   * 'git://git.wincent.com/command-t.git'
   * 'rstacruz/sparkup'
-  * 'Valloric/YouCompleteMe'
+  * 'Valloric[/YouCompleteMe](/src/TeamSetUp/YouCompleteMe/index.md)'
   * 'kien/ctrlp.vim'
   * 'scrooloose/syntastic'
   * 'Lokaltog/powerline'
@@ -161,12 +161,12 @@ IPython / (i)pdb: Ipython instead of python.
 
 ##### Chrome extensions:
 
-* JsonView
+* [JsonView](/src/JsonView/index.md)
 * YSlow
 
 #### How do you organize your work-day?
 
-* GitHub notifications through Slack
+* [GitHub](/src/GitHub/index.md) notifications through Slack
 * Checker Plus for Gmail
 * Regular irc notifications
 

@@ -14,4 +14,4 @@ Interested applicants can apply directly to [mailto:tgriffin@umn.edu](Dr. Tim Gr
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-07-22</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

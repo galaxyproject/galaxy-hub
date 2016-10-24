@@ -5,7 +5,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
 <table>
   <tr>
-    <th> Thanks to all who came out and contributed to the "end user" BoF discussion this evening. It was a fruitful discussion that we begrudgingly ended early to allow the Charles Commons staff to clean/set-up the room for tomorrow. </em>Let's continue this discussion tomorrow during lunch in room 304 (7/1/2014 @ 12:15 PM), we can call it the "end user BoF 2.0"! <em> </th>
+    <th> Thanks to all who came out and contributed to the "end user" BoF discussion this evening. It was a fruitful discussion that we begrudgingly ended early to allow the Charles Commons staff to clean/set-up the room for tomorrow. <em>Let's continue this discussion tomorrow during lunch in room 304 (7/1/2014 @ 12:15 PM), we can call it the "end user BoF 2.0"! </em> </th>
   </tr>
 </table>
 
@@ -47,8 +47,8 @@ End-users of Galaxy who would like to share experiences (or listen to those of o
     <td> Multipurpose Room </td>
   </tr>
   <tr>
-    <td> </strong>Tuesday, July 1, 12:15pm<strong> </td>
-    <td> </strong>East Room 304<strong> </td>
+    <td> <strong>Tuesday, July 1, 12:15pm</strong> </td>
+    <td> <strong>East Room 304</strong> </td>
   </tr>
 </table>
 
@@ -139,4 +139,4 @@ End-users of Galaxy who would like to share experiences (or listen to those of o
 
 Send them to [mailto:mheydar1 AT jhmi DOT edu](Mo Heydarian).
 
-CategoryBoF
+[CategoryBo](/src/CategoryBo/index.md)F

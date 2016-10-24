@@ -37,4 +37,4 @@ If you are interested, please add your name below and/or send an email to [mailt
 
 Send them to [mailto:crusoe@ucdavis.edu](Michael R. Crusoe).
 
-CategoryBoF
+[CategoryBo](/src/CategoryBo/index.md)F

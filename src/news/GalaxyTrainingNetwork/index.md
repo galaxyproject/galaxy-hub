@@ -12,4 +12,4 @@ The [Galaxy Training Network (GTN)](/src/Teach/Trainers/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-10-16</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

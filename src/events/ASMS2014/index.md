@@ -29,7 +29,7 @@ Galaxy will again have a strong presence at the 2014 ASMS meeting.  This year it
     <td rowspan=3 style=" text-align: center;"> 10:30am - 1:00pm </td>
     <td rowspan=3 style=" text-align: left;"> Exhibit Hall C-G </td>
     <td> <strong>MP 033: Community-based Development and Evaluation of Biological Mass Spectrometry Software via the Galaxy Tool Shed</strong> <div class='indent'><em>Bart Gottschalk, Minnesota Supercomputing Institute</em></div> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2014_ASMS_Gottschalk_MP33.pdf'>Poster</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2014_ASMS_Gottschalk_MP33.pdf'>Poster</a> </td>
   </tr>
   <tr>
     <td> <strong>MP 049: Characterizing molecular mechanisms of mammalian hibernation via non-model organism quantitative proteogenomics</strong> <div class='indent'><em>Katie Vermillion, University of Minnesota-Duluth, Duluth, MN</em></div> </td>
@@ -43,7 +43,7 @@ Galaxy will again have a strong presence at the 2014 ASMS meeting.  This year it
     <td style=" text-align: center;"> 4:10pm - 4:30pm </td>
     <td> Ballroom III </td>
     <td> <strong>Public sharing of complex MS-based qualitative and quantitative proteomic data analysis workflows: adding value to big data repositories</strong><div class='indent'><em>Tim Griffin, University of Minnesota</em></div> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2014_ASMS_Griffin_PublicSharing.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2014_ASMS_Griffin_PublicSharing.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th rowspan=2> Tuesday </th>
@@ -69,7 +69,7 @@ Galaxy will again have a strong presence at the 2014 ASMS meeting.  This year it
     <td style=" text-align: center;"> 12:00pm - 2:30pm </td>
     <td> Exhibit Hall C-G </td>
     <td> <strong>ThP 044: Flexible, Accessible and Reproducible Workflows for Tandem Proteogenomic and Metaproteomic Analysis using the Galaxy-P Platform</strong> <div class='indent'><em>Pratik Jagtap, Center for Mass Spectrometry, St. Paul, MN</em></div> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2014_ASMS_Jagtap_ThP44.pdf'>Poster</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2014_ASMS_Jagtap_ThP44.pdf'>Poster</a> </td>
   </tr>
 </table>
 

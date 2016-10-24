@@ -95,7 +95,7 @@ These papers were among [32 papers added to the Galaxy CiteULike group](http://w
 
 ## Who's Hiring
 
-<div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
+<div class='right'><img src="/src/Images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs and software engineers @ Emory and Penn State.
@@ -116,7 +116,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 <div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
 
-There are June application and early registration deadlines for [GCC2012](/src/Events/GCC2012/Register/index.md), [ISMB 2012](/src/Events/ISMB2012/index.md), !SciPy, and the Winter School in Mathematical and Computational Biology, and an abstract deadline for ASHG 2012.  It's also a big month for conferences and courses, including Arthropod Genomics, Bio-IT World Asia ([James Taylor](/src/JamesTaylor/index.md) will be speaking), SocBIN, [Next-gen sequencing in evolutionary biology](https://academy.nescent.org/wiki/Next-gen_sequencing) Course at NESCent (Sergei Kosakovsky-Pond will cover Galaxy), [Informatics on High Throughput Sequencing Data Workshop](http://www.bioinformatics.ca/workshops/high_throughput) (Francis Ouellette will cover Galaxy), Copenhagenomics, SMBE 2012, and, ESHG 2012, *to name just a few.*
+There are June application and early registration deadlines for [GCC2012](/src/Events/GCC2012/Register/index.md), [ISMB 2012](/src/Events/ISMB2012/index.md), SciPy, and the Winter School in Mathematical and Computational Biology, and an abstract deadline for ASHG 2012.  It's also a big month for conferences and courses, including Arthropod Genomics, Bio-IT World Asia ([James Taylor](/src/JamesTaylor/index.md) will be speaking), SocBIN, [Next-gen sequencing in evolutionary biology](https://academy.nescent.org/wiki/Next-gen_sequencing) Course at NESCent (Sergei Kosakovsky-Pond will cover Galaxy), [Informatics on High Throughput Sequencing Data Workshop](http://www.bioinformatics.ca/workshops/high_throughput) (Francis Ouellette will cover Galaxy), Copenhagenomics, SMBE 2012, and, ESHG 2012, *to name just a few.*
 
 See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com) for details on these and other events.
 
@@ -131,43 +131,43 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
   </tr>
   <tr>
     <th> June 6-8 </th>
-    <td> </em><a href='http://www.bio-itworldasia.com/cla'>Dynamically Scalable, Accessible Analysis with Galaxy Cloud</a><em> </td>
-    <td> </strong><a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a><strong>, Singapore </td>
+    <td> <em><a href='http://www.bio-itworldasia.com/cla'>Dynamically Scalable, Accessible Analysis with Galaxy Cloud</a></em> </td>
+    <td> <strong><a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a></strong>, Singapore </td>
     <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> June 11-12 </th>
-    <td> </em><a href='http://www.bioinformatics.ca/workshops/high_throughput'>Informatics on High Throughput Sequencing Data Workshop</a><em> </td>
+    <td> <em><a href='http://www.bioinformatics.ca/workshops/high_throughput'>Informatics on High Throughput Sequencing Data Workshop</a></em> </td>
     <td> Toronto, Ontario, Canada </td>
     <td> Francis Ouellette </td>
   </tr>
   <tr>
     <th> June 11-19 </th>
-    <td> </em><a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'>Next-gen Sequencing in Evolutionary Biology Course</a><em> </td>
+    <td> <em><a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'>Next-gen Sequencing in Evolutionary Biology Course</a></em> </td>
     <td> <a href='http://nescent.org'>US National Evolutionary Synthesis Center (NESCent)</a>, Durham, North Carolina, United States </td>
     <td> <a href='http://www.datam0nk3y.org/hyphywiki/index.php/Sergei_L_Kosakovsky_Pond'>Sergei Kosakovsky Pond</a> </td>
   </tr>
   <tr>
     <th> June 26 </th>
-    <td> </em><a href='http://www.lifl.fr/~touzet/PPF/galaxy12.html'>Galaxy: un environnement d'analyses bioinformatiques</a><em> </td>
+    <td> <em><a href='http://www.lifl.fr/~touzet/PPF/galaxy12.html'>Galaxy: un environnement d'analyses bioinformatiques</a></em> </td>
     <td> <a href='http://www.ibl.fr/spip.php?article2'>l'Institut de Biologie de Lille</a>, France </td>
     <td> <a href="mailto:sophie.gallina@univ-lille1.fr">Sophie Gallina</a> </td>
   </tr>
   <tr>
     <th> July 11 </th>
-    <td> </em><a href='http://www.nowgen.org.uk/facilities/events/event.php?id=44'>Reproducible workflows for next generation sequencing analysis</a><em> </td>
+    <td> <em><a href='http://www.nowgen.org.uk/facilities/events/event.php?id=44'>Reproducible workflows for next generation sequencing analysis</a></em> </td>
     <td> <a href='http://www.nowgen.org.uk/'>Nowgen</a>, <a href='http://www.manchester.ac.uk/'>University of Manchester</a>, United Kingdom </td>
     <td> <a href="mailto:training@nowgen.org.uk">Tom Hancocks</a> </td>
   </tr>
   <tr>
     <th rowspan=1> July 13-17 </th>
-    <td> </em><a href='/src/Events/ISMB2012/index.md'>ISMB 2012 and BOSC 2012</a><em><div class='indent'><a href='/src/Events/ISMB2012/index.md'>Five presentaitons, one SIG, one Codefest, and counting</a><div class='red'></em>Early registration ends June 1<em></div></div> </td>
+    <td> <em><a href='/src/Events/ISMB2012/index.md'>ISMB 2012 and BOSC 2012</a></em><div class='indent'><a href='/src/Events/ISMB2012/index.md'>Five presentaitons, one SIG, one Codefest, and counting</a><div class='red'><em>Early registration ends June 1</em></div></div> </td>
     <td rowspan=1> Long Beach, California, United States </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> </strong></em><a href='/src/Events/GCC2012/index.md'>2012 Galaxy Community Conference</a><strong><em><div class='indent red'></em><a href='/src/Events/GCC2012/Register/index.md'>Early registration</a> ends June 11.</div> </td>
+    <td> <strong><em><a href='/src/Events/GCC2012/index.md'>2012 Galaxy Community Conference</a></strong></em><div class='indent red'><em><a href='/src/Events/GCC2012/Register/index.md'>Early registration</a> ends June 11.</div> </td>
     <td> <a href='http://uic.edu'>University of Illinois Chicago</a>, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
@@ -190,7 +190,7 @@ A new Galaxy distribution was [released on May 11, 2012](/src/DevNewsBriefs/2012
 
 **Some Highlights:**
 <div class='right'><a href='/src/Learn/Visualization/index.md'><img src="/src/Images/NewsGraphics/2012_05_11_gatk-workflow.png" alt="gatk-workflow" width="180px" /></a></div>
-* **Emboss** tools and datatypes __have now moved from the ***Galaxy distribution** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)<u>**.
+* **Emboss** tools and datatypes __have now moved from the ***Galaxy distribution** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)__**.
 * [Tool Integration Tests](/src/Tool Shed/index.md#using_galaxy27s_functional_test_framework_to_test_tools_installed_into_your_local_galaxy_instance), [Custom Tool Panel Configuration](/src/Tool Shed/index.md#managing_the_layout_of_your_galaxy_tool_panel), and [Configurable Tool Output Locations](/src/Admin/Tools/MultipleOutputFiles/index.md).
 * Improved [Multiprocess Job Handling](/src/Admin/Config/Performance/Scaling/index.md) and [Enhanced OpenID Support](http://openid.net/).
 * **[GATK](http://www.broadinstitute.org/gsa/wiki) version 1.4**, **[FreeBayes](http://github.com/ekg/freebayes)**, Updated **Megablast** using **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/Blast.cgi)**, **[Trinity](http://trinityrnaseq.sourceforge.net)**, **[WormBase 2](http://www.wormbase.org)**, and **[IGB](http://bioviz.org/igb/index.html)** external display.

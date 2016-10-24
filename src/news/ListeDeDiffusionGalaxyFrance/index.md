@@ -34,4 +34,4 @@ Alban Lermine
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-08-28</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)
