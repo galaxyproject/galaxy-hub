@@ -28,17 +28,17 @@ The [Netherlands Bioinformatics Centre (NBIC)](http://www/nbic.nl) is power user
     <td rowspan=3> <a href='GCC2011'>/src/GCC2011/index.md</a> </td>
     <td> <em>National Collaborative Platform for Genomics and Proteomics Data Analysis</em> </td>
     <td> Hailiang Mei, NBIC </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLGCC2011/NationalCollaborativePlatformForGenomicsAndProteomicsDataAnalysis.pdf'>PDF|&do=get</a>, <a href='http://vimeo.com/24869172'>Watch</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/GCC2011/NationalCollaborativePlatformForGenomicsAndProteomicsDataAnalysis.pdf'>PDF</a>, <a href='http://vimeo.com/24869172'>Watch</a> </td>
   </tr>
   <tr>
     <td> <em>Enacting Taverna Workflows Through Galaxy</em> </td>
     <td> Konstantinos Karasavvas, NBIC </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLGCC2011/EnactingTavernaWorkflowsThroughGalaxy.pdf'>PDF|&do=get</a>, <a href='http://vimeo.com/24876774'>Watch</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/GCC2011/EnactingTavernaWorkflowsThroughGalaxy.pdf'>PDF</a>, <a href='http://vimeo.com/24876774'>Watch</a> </td>
   </tr>
   <tr>
     <td> <em>NBIC Galaxy Hackathon Report</em> </td>
     <td> Freek de Bruijn, NBIC </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLGCC2011/NBICGalaxyHackathonReport.pptx'>PowerPoint|&do=get</a>, <a href='PLACEHOLDER_ATTACHMENT_URLGCC2011/NBICGalaxyHackathonReport.pdf'>PDF|&do=get</a>, <a href='http://vimeo.com/24868815'>Watch (part of lightning talks</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/GCC2011/NBICGalaxyHackathonReport.pptx'>PowerPoint</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/GCC2011/NBICGalaxyHackathonReport.pdf'>PDF</a>, <a href='http://vimeo.com/24868815'>Watch (part of lightning talks</a> </td>
   </tr>
 </table>
 

@@ -7,7 +7,7 @@ autotoc: true
 
 This feature is available as of the November 2013 Galaxy distribution, being originally incorporated from Pull Request [#179](https://bitbucket.org/galaxy/galaxy-central/pull-request/179/implement-the-ability-to-change-the-tool)
 
-ToolBox filters can be applied by an admin and/or by an user dynamically to filter the large list of tools.
+[ToolBox](/src/ToolBox/index.md) filters can be applied by an admin and/or by an user dynamically to filter the large list of tools.
 
 <!> 
 Filters will only hide Tools from the User Interface, they are still available and can be made visible by means of HTML manipulation. That said these feature is not a security feature, it is intended to separate multiple groups of Tools and simplify the ToolBox. 
@@ -16,11 +16,11 @@ Filters will only hide Tools from the User Interface, they are still available a
 
 Users can find ToolBox filters under "User preferences" (Top Panel -> Users -> Preferences).
 
-<div class='center'> <a href='/src/attachment:user_preferences.png/index.md'><img src="/src/UserDefinedToolboxFilters/user_preferences.png" alt="User Preferences" /></a> </div>
+<div class='center'> <a href='/src/UserDefinedToolboxFilters/user_preferences.png'><img src="/src/UserDefinedToolboxFilters/user_preferences.png" alt="User Preferences" /></a> </div>
 
 If you do not see any filters to choose (like in the following image) your administrator has not configured any filter for you. Otherwise you will see something like the following. Choose your filters, apply the changes and reload Galaxy. Done!
 
-<div class='center'> <a href='/src/attachment:toolbox_filter_ui.png/index.md'><img src="/src/UserDefinedToolboxFilters/toolbox_filter_ui.png" alt="User Interface" /></a> </div>
+<div class='center'> <a href='/src/UserDefinedToolboxFilters/toolbox_filter_ui.png'><img src="/src/UserDefinedToolboxFilters/toolbox_filter_ui.png" alt="User Interface" /></a> </div>
 
 
 

@@ -242,7 +242,7 @@ Workflows containing tools that are not loaded will now open in the editor inste
 ### Source
 
 * Better egg version conflict resolution.  Our eggs should always override dependencies installed elsewhere on `sys.path`.
-* Job runners are now loaded dynamically; changes to the source are no longer required.  Existing 3rd-party runners will need to add a class to instantiate to the runner-global '<u>all__' list.  See the provided runners for examples.
+* Job runners are now loaded dynamically; changes to the source are no longer required.  Existing 3rd-party runners will need to add a class to instantiate to the runner-global '__all__' list.  See the provided runners for examples.
 * The Galaxy-side code for the LWR job runner by John Chilton is now included.  Documentation in the wiki is forthcoming, to learn more see John's documentation at: [http://bitbucket.org/jmchilton/lwr/](http://bitbucket.org/jmchilton/lwr/)
 * "LWR allows you to create a "cluster" out of any systems without installing specialized tightly integrated DRM software like PBS/SGE."
 

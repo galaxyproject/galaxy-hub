@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[Proposed IRC Channel Policy Change](/src/News/IRCPublicLogProposal/index.md)</div>
 
-<div class='right'>![Galaxy IRC Channel](/src/Images/Icons/ChatBalloons.png)</div>
+<div class='right'><img src="/src/Images/Icons/ChatBalloons.png" alt="Galaxy IRC Channel" width="60" /></div>
 
 We would like to change the logging policy for the [#galaxyproject IRC channel](/src/GetInvolved/index.md#irc-channel):
 
@@ -29,4 +29,4 @@ The [Galaxy Team](/src/GalaxyTeam/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-09-02</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

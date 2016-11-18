@@ -33,7 +33,7 @@ You can also [install your own copy of Galaxy-P](http://getgalaxyp.org/), either
 
 See 
 * Benjamin Goudey, David Rawlinson, Qiao Wang, Fan Shi, Herman Ferra, Richard M Campbell, Linda Stern, Michael T Inouye, Cheng Soon Ong, Adam Kowalczyk (2013), "[GWIS – model-free, fast and exhaustive search for epistatic interactions in case-control GWAS](http://www.biomedcentral.com/1471-2164/14/S3/S10)", *BMC Genomics*, 14(Suppl 3):S10 
-* *[H37: GWIS: Online exhaustive bivariate GWAS in minutes](ATTACHMENT_URLDocuments/Presentations/2013ISMBRawlinsonGWIS.pdf)*, poster presented by David Rawlinson, *et al.* at [ISMB 2013](/src/Events/ISMB2013/index.md).
+* *[H37: GWIS: Online exhaustive bivariate GWAS in minutes](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2013ISMBRawlinsonGWIS.pdf)*, poster presented by David Rawlinson, *et al.* at [ISMB 2013](/src/Events/ISMB2013/index.md).
 
 ## Martin Luther University Halle-Wittenberg
 
@@ -126,7 +126,7 @@ The [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de/) enabl
 
 30 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in August. This paper may be particularly interesting to the Galaxy community:
 
-* Richard !LeDuc, Matthew Vaughn, John M Fonner, Michael Sullivan, James G Williams, Philip D Blood, [James Taylor](/src/JamesTaylor/index.md), William Barnett, "[Leveraging the national cyberinfrastructure for biomedical research](http://dx.doi.org/10.1136/amiajnl-2013-002059)," in *[Journal of the American Medical Informatics Association (JAMIA)](http://jamia.bmj.com/)*, doi:10.1136/amiajnl-2013-002059
+* Richard LeDuc, Matthew Vaughn, John M Fonner, Michael Sullivan, James G Williams, Philip D Blood, [James Taylor](/src/JamesTaylor/index.md), William Barnett, "[Leveraging the national cyberinfrastructure for biomedical research](http://dx.doi.org/10.1136/amiajnl-2013-002059)," in *[Journal of the American Medical Informatics Association (JAMIA)](http://jamia.bmj.com/)*, doi:10.1136/amiajnl-2013-002059
 
 <br />
 
@@ -196,7 +196,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
   <tr>
     <th> October 1-3 </th>
     <td> <em><a href='http://www.beyond-the-genome.com/program/'>Galaxy</a></em> </td>
-    <td> </strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a><strong>,San Francisco, California, United States </td>
+    <td> <strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a></strong>,San Francisco, California, United States </td>
     <td> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
@@ -224,7 +224,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
   <tr>
     <th rowspan=2> October 22-26 </th>
     <td> <em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#intro'>Introduction to Integrative Analysis with GenomeSpace</a></em> </td>
-    <td rowspan=2> </strong><a href='http://www.ashg.org/2013meeting/'>ASHG 2013</a><strong>, Boston, Massachusetts, United States </td>
+    <td rowspan=2> <strong><a href='http://www.ashg.org/2013meeting/'>ASHG 2013</a></strong>, Boston, Massachusetts, United States </td>
     <td> <a href='http://www.broadinstitute.org/science/programs/cancer/icbp/integrated-team-0'>Michael Reich</a> </td>
   </tr>
   <tr>

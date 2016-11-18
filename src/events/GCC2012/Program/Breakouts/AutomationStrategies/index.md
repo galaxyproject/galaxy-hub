@@ -36,6 +36,6 @@ The work plan moving forward is:
 
 * Galaxy team is working on exposing tool installation and data installation scripts through the API to allow access through automated scripts. The [current data installation code](https://bitbucket.org/hbc/galaxy-central-hbc/src/3127de4501ee/lib/galaxy/web/controllers/data_admin.py).
 
-* Community is going to work on consolidating preparation of pre-Galaxy base machines using the !CloudBioLinux framework. The short term goal is to use !CloudBioLinux flavors to generalize existing scripts. Longer term, we will explore moving to a framework like Chef that handles high level configuration details.
+* Community is going to work on consolidating preparation of pre-Galaxy base machines using the CloudBioLinux framework. The short term goal is to use CloudBioLinux flavors to generalize existing scripts. Longer term, we will explore moving to a framework like Chef that handles high level configuration details.
 
 It was great to bring all these projects together and I'm looking forward to building well supported approaches to automating the full Galaxy installation process.

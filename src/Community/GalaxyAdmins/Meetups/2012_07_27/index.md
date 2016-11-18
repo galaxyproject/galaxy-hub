@@ -19,12 +19,12 @@ Participants:
 * Ann Black
 * ???
 
-Breakout Presentation: [ATTACHMENT_URLGalaxyCzars_Breakout.pdf](ATTACHMENT_URLGalaxyCzars_Breakout.pdf)
+Breakout Presentation: [PLACEHOLDER_ATTACHMENT_URL/src/GalaxyCzars_Breakout.pdf](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyCzars_Breakout.pdf)]]
 
-A [GalaxyCzars](/src/Community/GalaxyAdmins/index.md) breakout session was held at [GCC2012](/src/Events/GCC2012/index.md). This was an opportunity for this group to meet face-to-face for the first time. !GalaxyCzars is about installing, configuring, and maintaining large Galaxy installations. It was open to anyone.
+A [GalaxyCzars](/src/Community/GalaxyAdmins/index.md) breakout session was held at [GCC2012](/src/Events/GCC2012/index.md). This was an opportunity for this group to meet face-to-face for the first time. GalaxyCzars is about installing, configuring, and maintaining large Galaxy installations. It was open to anyone.
 
 * We need a new name! 
-  :: We tried to brainstorm a new name for the group... being that it was Friday afternoon this was a difficult task!  We will keep looking for a new name.  Some suggestions:  !GalaxyLocals, !GalaxyCommons, etc.
+  :: We tried to brainstorm a new name for the group... being that it was Friday afternoon this was a difficult task!  We will keep looking for a new name.  Some suggestions:  GalaxyLocals, GalaxyCommons, etc.
 
 * Talked about goals for the group
   :: Can we as a collective community build a set of common topologies? Can we find common problems?  

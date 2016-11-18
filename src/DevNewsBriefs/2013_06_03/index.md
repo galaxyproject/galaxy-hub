@@ -117,69 +117,69 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 
 <table>
   <tr>
-    <td> https://trello.com/c/49vjZrJy </td>
-    <td> https://trello.com/c/zd0v8jHq </td>
-    <td> https://trello.com/c/20EykJrK </td>
-    <td> https://trello.com/c/G3MAzlEC </td>
+    <td> <a href='https://trello.com/c/49vjZrJy '>https://trello.com/c/49vjZrJy </a></td>
+    <td> <a href='https://trello.com/c/zd0v8jHq '>https://trello.com/c/zd0v8jHq </a></td>
+    <td> <a href='https://trello.com/c/20EykJrK '>https://trello.com/c/20EykJrK </a></td>
+    <td> <a href='https://trello.com/c/G3MAzlEC '>https://trello.com/c/G3MAzlEC </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/9yERGRt8 </td>
-    <td> https://trello.com/c/wNdXNOGU </td>
-    <td> https://trello.com/c/ezExflJd </td>
-    <td> https://trello.com/c/iICpByzT </td>
+    <td> <a href='https://trello.com/c/9yERGRt8 '>https://trello.com/c/9yERGRt8 </a></td>
+    <td> <a href='https://trello.com/c/wNdXNOGU '>https://trello.com/c/wNdXNOGU </a></td>
+    <td> <a href='https://trello.com/c/ezExflJd '>https://trello.com/c/ezExflJd </a></td>
+    <td> <a href='https://trello.com/c/iICpByzT '>https://trello.com/c/iICpByzT </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/IXJjuXTm </td>
-    <td> https://trello.com/c/Djda4lD0 </td>
-    <td> https://trello.com/c/hdV3C24u </td>
-    <td> https://trello.com/c/Qi7QRgdT </td>
+    <td> <a href='https://trello.com/c/IXJjuXTm '>https://trello.com/c/IXJjuXTm </a></td>
+    <td> <a href='https://trello.com/c/Djda4lD0 '>https://trello.com/c/Djda4lD0 </a></td>
+    <td> <a href='https://trello.com/c/hdV3C24u '>https://trello.com/c/hdV3C24u </a></td>
+    <td> <a href='https://trello.com/c/Qi7QRgdT '>https://trello.com/c/Qi7QRgdT </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/45TRG5DY </td>
-    <td> https://trello.com/c/0Cljlxt3 </td>
-    <td> https://trello.com/c/KQd4j3lz </td>
-    <td> https://trello.com/c/mqigrjfr </td>
+    <td> <a href='https://trello.com/c/45TRG5DY '>https://trello.com/c/45TRG5DY </a></td>
+    <td> <a href='https://trello.com/c/0Cljlxt3 '>https://trello.com/c/0Cljlxt3 </a></td>
+    <td> <a href='https://trello.com/c/KQd4j3lz '>https://trello.com/c/KQd4j3lz </a></td>
+    <td> <a href='https://trello.com/c/mqigrjfr '>https://trello.com/c/mqigrjfr </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/QTeSmNSs </td>
-    <td> https://trello.com/c/O9YmzUT4 </td>
-    <td> https://trello.com/c/71Bx8TcB </td>
-    <td> https://trello.com/c/2tkPpVkL </td>
+    <td> <a href='https://trello.com/c/QTeSmNSs '>https://trello.com/c/QTeSmNSs </a></td>
+    <td> <a href='https://trello.com/c/O9YmzUT4 '>https://trello.com/c/O9YmzUT4 </a></td>
+    <td> <a href='https://trello.com/c/71Bx8TcB '>https://trello.com/c/71Bx8TcB </a></td>
+    <td> <a href='https://trello.com/c/2tkPpVkL '>https://trello.com/c/2tkPpVkL </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/0zvUBdJJ </td>
-    <td> https://trello.com/c/HTJWRo3Z </td>
-    <td> https://trello.com/c/AhNBPA8K </td>
-    <td> https://trello.com/c/hlYDzFQW </td>
+    <td> <a href='https://trello.com/c/0zvUBdJJ '>https://trello.com/c/0zvUBdJJ </a></td>
+    <td> <a href='https://trello.com/c/HTJWRo3Z '>https://trello.com/c/HTJWRo3Z </a></td>
+    <td> <a href='https://trello.com/c/AhNBPA8K '>https://trello.com/c/AhNBPA8K </a></td>
+    <td> <a href='https://trello.com/c/hlYDzFQW '>https://trello.com/c/hlYDzFQW </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/hXNIbIMh </td>
-    <td> https://trello.com/c/ZDRQ6m3Y </td>
-    <td> https://trello.com/c/17HndRkh </td>
-    <td> https://trello.com/c/QY0Z7L7p </td>
+    <td> <a href='https://trello.com/c/hXNIbIMh '>https://trello.com/c/hXNIbIMh </a></td>
+    <td> <a href='https://trello.com/c/ZDRQ6m3Y '>https://trello.com/c/ZDRQ6m3Y </a></td>
+    <td> <a href='https://trello.com/c/17HndRkh '>https://trello.com/c/17HndRkh </a></td>
+    <td> <a href='https://trello.com/c/QY0Z7L7p '>https://trello.com/c/QY0Z7L7p </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/ghUbjr8c </td>
-    <td> https://trello.com/c/iKiZytSf </td>
-    <td> https://trello.com/c/awKBxrGy </td>
-    <td> https://trello.com/c/noxRnGEv </td>
+    <td> <a href='https://trello.com/c/ghUbjr8c '>https://trello.com/c/ghUbjr8c </a></td>
+    <td> <a href='https://trello.com/c/iKiZytSf '>https://trello.com/c/iKiZytSf </a></td>
+    <td> <a href='https://trello.com/c/awKBxrGy '>https://trello.com/c/awKBxrGy </a></td>
+    <td> <a href='https://trello.com/c/noxRnGEv '>https://trello.com/c/noxRnGEv </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/ondndIfd </td>
-    <td> https://trello.com/c/3TGyWggI </td>
-    <td> https://trello.com/c/zfQaURtr </td>
-    <td> https://trello.com/c/MxgHVnT9 </td>
+    <td> <a href='https://trello.com/c/ondndIfd '>https://trello.com/c/ondndIfd </a></td>
+    <td> <a href='https://trello.com/c/3TGyWggI '>https://trello.com/c/3TGyWggI </a></td>
+    <td> <a href='https://trello.com/c/zfQaURtr '>https://trello.com/c/zfQaURtr </a></td>
+    <td> <a href='https://trello.com/c/MxgHVnT9 '>https://trello.com/c/MxgHVnT9 </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/ZoslAcBD </td>
-    <td> https://trello.com/c/dL8dGPYf </td>
-    <td> https://trello.com/c/YRsP3wpS </td>
-    <td> https://trello.com/c/wJN65GdV </td>
+    <td> <a href='https://trello.com/c/ZoslAcBD '>https://trello.com/c/ZoslAcBD </a></td>
+    <td> <a href='https://trello.com/c/dL8dGPYf '>https://trello.com/c/dL8dGPYf </a></td>
+    <td> <a href='https://trello.com/c/YRsP3wpS '>https://trello.com/c/YRsP3wpS </a></td>
+    <td> <a href='https://trello.com/c/wJN65GdV '>https://trello.com/c/wJN65GdV </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/wJN65GdV </td>
-    <td> https://trello.com/c/dcT7qOfc </td>
-    <td> https://trello.com/c/SMdJQ5zn </td>
+    <td> <a href='https://trello.com/c/wJN65GdV '>https://trello.com/c/wJN65GdV </a></td>
+    <td> <a href='https://trello.com/c/dcT7qOfc '>https://trello.com/c/dcT7qOfc </a></td>
+    <td> <a href='https://trello.com/c/SMdJQ5zn '>https://trello.com/c/SMdJQ5zn </a></td>
   </tr>
 </table>
 
@@ -195,8 +195,8 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 1. Clarify tool tip FASTQ Summary Statistics. https://trello.com/c/LX0ma0uQ
 1. Resolve `BSD/GNU` grep version behavior differences. https://trello.com/c/dPUZ9zEA
 1. Filter and Sort: "Select" tool, improved handling of special characters. https://trello.com/c/cwrBpNP9
-1. Change file-merging to use copy.copyfileobj() rather than cat and mv. https://trello.com/c/Gaqoc6H8
-1. Data Manager: Fix for detecting job error in data manager tools; needed as a result of recent job flow changes. https://trello.com/c/EtXd4zqq
+1. Change file-merging to use copy.copyfileobj() rather than cat and mv. https://trello.com/c[/Gaqoc6H8](/src/DevNewsBriefs/2013_06_03/Gaqoc6H8/index.md)
+1. Data Manager: Fix for detecting job error in data manager tools; needed as a result of recent job flow changes. https://trello.com/c[/EtXd4zqq](/src/DevNewsBriefs/2013_06_03/EtXd4zqq/index.md)
 
 <br />
 # Scatterplot
@@ -228,7 +228,7 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 # UI
 
 1. Unicode fixes for previewing large datasets. https://trello.com/c/BHRKkcaw
-1. Unicode fixes for uploading by file in upload tool. https://trello.com/c/O0M8W8X8
+1. Unicode fixes for uploading by file in upload tool. https://trello.com/c[/O0M8W8X8](/src/DevNewsBriefs/2013_06_03/O0M8W8X8/index.md)
 1. Unicode fixes for displaying saved workflows in **Tool Menu**. https://trello.com/c/dAuDcE99
 1. Unicode fixes for form builder and toolparameters. https://trello.com/c/nVldKDiL
 1. Fix for `TabularToolDataTable.get_column_name_list()` when value column is overloaded by e.g. name. https://trello.com/c/6fPCLwn5
@@ -238,7 +238,7 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 # Admin
 
 1. Stop jobs on history deletion. https://trello.com/c/LBZxfcjx
-1. Track down decorator import failure that shows on some machines (see ticket). https://trello.com/c/It6q5Ul8
+1. Track down decorator import failure that shows on some machines (see ticket). https://trello.com/c[/It6q5Ul8](/src/DevNewsBriefs/2013_06_03/It6q5Ul8/index.md)
 1. Do not allow deleted datasets to be viewed / downloaded. https://trello.com/c/elIs7IHc
 1. Reports app: Fix util clash due to bad imports. https://trello.com/c/5d7EeeTq
 
@@ -247,7 +247,7 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 
 1. Unify Web/API Transactions. https://trello.com/c/c5wZPVGd
 1. Eliminate `PasteScript` startup. https://trello.com/c/Q4bJNZuo
-1. Upgraded `SQLAlchemy`. https://trello.com/c/Q6kBeByD
+1. Upgraded `SQLAlchemy`. https://trello.com/c[/Q6kBeBy](/src/DevNewsBriefs/2013_06_03/Q6kBeBy/index.md)D
 1. Error Logging with `Sentry`. https://trello.com/c/Yc1LXXTR
 
 <a href='/src/DevNewsBriefs/2013_06_03/index.md'><img src="/src/Images/NewsGraphics/2013_06_03_sentry-1.png" alt="sentry-1" width=600 /></a>
@@ -259,7 +259,7 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 
 1. Significantly enhance job resource definitions. https://trello.com/c/uNpYoYov
 1. More even distribution of job scheduling. https://trello.com/c/wBDXGcx2
-1. Workflows batch mode enhancements. **[#75](https://bitbucket.org/galaxy/galaxy-central/pull-request/75)**. Thanks to [John Chilton](http://jmchilton.net/). https://trello.com/c/UoBadE0f
+1. Workflows batch mode enhancements. **[#75](https://bitbucket.org/galaxy/galaxy-central/pull-request/75)**. Thanks to [John Chilton](http://jmchilton.net/). https://trello.com/c[/UoBadE0f](/src/DevNewsBriefs/2013_06_03/UoBadE0f/index.md)
 1. Parallelism does work with from_work_dir attribute. **[#156](https://bitbucket.org/galaxy/galaxy-central/pull-request/156)**. Thanks to [John Chilton](http://jmchilton.net/). https://trello.com/c/5fFZSCWn
 1. Galaxy Search Engine. **[#137](https://bitbucket.org/galaxy/galaxy-central/pull-request/137)**. Thanks to [Kyle Ellrott](https://bitbucket.org/kellrott). https://trello.com/c/moZezGDP
 1. Validation on optional multi-select lists. **[#154](https://bitbucket.org/galaxy/galaxy-central/pull-request/154)**. Thanks to [John Chilton](http://jmchilton.net/). https://trello.com/c/5PxgbL0b
@@ -280,7 +280,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 1. Fix Tophat2 Wrapper to properly quote read group attribute values. https://trello.com/c/nDBz5eoR
 1. Fix bug admin jobs `'AttributeError: 'NoopQueue'` object has no attribute 'job_lock'. https://trello.com/c/uBlCbOFs
 1. `ToolDataTables`: Fix loading .loc files from locations other than galaxy's `tool_data`. https://trello.com/c/Xedp7bo5
-1. Fix API External Authentication. https://trello.com/c/UjBbWw4A
+1. Fix API External Authentication. https://trello.com/c[/UjBbWw4](/src/DevNewsBriefs/2013_06_03/UjBbWw4/index.md)A
 1. Fix non-persistent workflow step hiding. https://trello.com/c/sVKvrw67
 1. Fix problem with search in workflow editor. https://trello.com/c/sAsC6lAK
 1. Fix to add confirm on delete permanently (footer button), saved histories. https://trello.com/c/8nUlUMew

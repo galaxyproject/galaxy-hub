@@ -98,63 +98,63 @@ There are [at least 13 other Galaxy related events](/src/Events/index.md) in the
   </tr>
   <tr>
     <th> June 2-3 </th>
-    <td> </em><a href='http://www.oaspa-asia-conference.com/program/'>Open (and Big) Data – the next challenge</a><em> </td>
+    <td> <em><a href='http://www.oaspa-asia-conference.com/program/'>Open (and Big) Data – the next challenge</a></em> </td>
     <td> <a href='http://www.oaspa-asia-conference.com/'>1st Asian Conference on Open Access Scholarly Publishing</a>, Bangkok, Thailand </td>
     <td> Scott Edmunds </td>
   </tr>
   <tr>
     <th> June 9-10 </th>
-    <td> </em><a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'>Informatics on High Throughput Sequencing Data Workshop</a><em> </td>
+    <td> <em><a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'>Informatics on High Throughput Sequencing Data Workshop</a></em> </td>
     <td> Toronto, Canada </td>
     <td> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
   </tr>
   <tr>
     <th> June 10 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-10juin.pdf'>Initiation à l’utilisation de Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-10juin.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
     <td rowspan=2> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
     <td rowspan=2> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 11 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module8bis-11juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module8bis-11juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></em> </td>
   </tr>
   <tr>
     <th> June 11-12 </th>
-    <td> </em><a href='http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/files/formation_2014/module_formation_abims-galaxy_rnaseq.pdf'>Galaxy RNAseq de novo/avec référence & cleaning</a><em> </td>
+    <td> <em><a href='http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/files/formation_2014/module_formation_abims-galaxy_rnaseq.pdf'>Galaxy RNAseq de novo/avec référence & cleaning</a></em> </td>
     <td> <a href='http://abims.sb-roscoff.fr/formation'>Formation en Bioinformatique Plateforme ABiMS</a>, <a href='http://www.sb-roscoff.fr/'>Station Biologique de Roscoff</a>, France </td>
     <td> </td>
   </tr>
   <tr>
     <th> June 15-19 </th>
-    <td> </strong><a href='/src/Events/ASMS2014/index.md'>62nd ASMS Conference on Mass Spectrometry and Allied Topics</a><strong><div class='indent'>Including at least 5 workshop/talk/posters</div> </td>
+    <td> <strong><a href='/src/Events/ASMS2014/index.md'>62nd ASMS Conference on Mass Spectrometry and Allied Topics</a></strong><div class='indent'>Including at least 5 workshop/talk/posters</div> </td>
     <td> Baltimore, Maryland, United States </td>
     <td> See <a href='/src/Events/ASMS2014/index.md'>presenter list</a> </td>
   </tr>
   <tr>
     <th> June 16 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-16juin.pdf'>Initiation à l’utilisation de Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-16juin.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
     <td rowspan=2> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
     <td rowspan=2> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 17 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module8bis-17juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module8bis-17juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></em> </td>
   </tr>
   <tr>
     <th> June 16-20 </th>
-    <td> </em><a href='http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/'>Using Galaxy for Analysis of High Throughput Sequence Data</a><em><div class='indent'>Workshop is full; can join the waiting list.</div> </td>
+    <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/'>Using Galaxy for Analysis of High Throughput Sequence Data</a></em><div class='indent'>Workshop is full; can join the waiting list.</div> </td>
     <td> <a href='http://training.bioinformatics.ucdavis.edu/'>UC Davis</a>, California, United States </td>
     <td> <a href="mailto:training DOT ucdbio AT gmail DOT com">UC Davis Bioinformatics Training</a> </td>
   </tr>
   <tr>
     <th> June 18-20 </th>
-    <td> </em><a href='http://www.bioinformatica.crs4.it/next_generation_sequencing_course_with_galaxy_june_2014'>Analisi dati Next Generation Sequencing in Galaxy</a><em> </td>
+    <td> <em><a href='http://www.bioinformatica.crs4.it/next_generation_sequencing_course_with_galaxy_june_2014'>Analisi dati Next Generation Sequencing in Galaxy</a></em> </td>
     <td> <a href='http://goo.gl/maps/zvWnF'>Presidio Ospedaliero San Giovanni di Dio</a>, Cagliari, Italy </td>
     <td> <a href="mailto:segreteria-ngs@crs4.it">CRS4 Segreteria</a> </td>
   </tr>
   <tr>
     <th> June 23-34 </th>
-    <td> </em><a href='http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/files/formation_2014/module_formation_galaxy_initiation_phylogenie.pdf'>Galaxy : initiation à la phylogénie</a><em> </td>
+    <td> <em><a href='http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/files/formation_2014/module_formation_galaxy_initiation_phylogenie.pdf'>Galaxy : initiation à la phylogénie</a></em> </td>
     <td> <a href='http://abims.sb-roscoff.fr/formation'>Formation en Bioinformatique Plateforme ABiMS</a>, <a href='http://www.sb-roscoff.fr/'>Station Biologique de Roscoff</a>, France </td>
     <td> <a href="mailto:christophe.caron@sb-roscoff.fr">Christophe Caron</a> </td>
   </tr>
@@ -166,24 +166,24 @@ There are [at least 13 other Galaxy related events](/src/Events/index.md) in the
   </tr>
   <tr>
     <th> June 30 -<br />July 2 </th>
-    <td> </strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
+    <td> <strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
     <td> <a href='/src/Events/GCC2014/Organizers/index.md'>Organizers</a> </td>
   </tr>
   <tr>
     <th> July 7-9 </th>
-    <td> </em><a href='http://biosb.nl/education/course-portfolio/rna-seq/'>NBIC/BioSB RNA- seq data analysis course</a><em> </td>
+    <td> <em><a href='http://biosb.nl/education/course-portfolio/rna-seq/'>NBIC/BioSB RNA- seq data analysis course</a></em> </td>
     <td> Leiden, the Netherlands </td>
     <td> <a href="mailto:education AT biosb DOT nl">NBIC/BioSB</a> </td>
   </tr>
   <tr>
     <th> July 10 </th>
-    <td> </em><a href='http://www.genetics.org.au/annual-meeting-2014/workshops/'>An Introduction to Galaxy with the Genomics Virtual Lab</a><em> </td>
+    <td> <em><a href='http://www.genetics.org.au/annual-meeting-2014/workshops/'>An Introduction to Galaxy with the Genomics Virtual Lab</a></em> </td>
     <td> <a href='http://www.genetics.org.au/annual-meeting-2014/'>Post-GSA 2014 Workshop</a>, Sydney, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> July 28 - August 1 </th>
-    <td> </em><a href='/src/Events/SaoPaulo2014/index.md'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a><em> </td>
+    <td> <em><a href='/src/Events/SaoPaulo2014/index.md'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a></em> </td>
     <td> <a href='http://usp.br/'>University of São Paulo (USP)</a>, São Paulo, Brazil </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
@@ -316,7 +316,7 @@ The most recent version of CloudMan was [released in January 2014](/src/News/Clo
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </td>
   </tr>
 </table>
 
@@ -352,10 +352,10 @@ In no particular order:
   * [ged_bowtie](http://toolshed.g2.bx.psu.edu/view/drosofff/ged_bowtie): Bowtie wrapper for small RNA sequencing analysis
 
 * *From [george-weingart](http://toolshed.g2.bx.psu.edu/view/george-weingart/) *
-  * [metaphlan](http://toolshed.g2.bx.psu.edu/view/george-weingart/metaphlan): !MetaPhlAn (Metagenomic Phylogenetic Analysis) is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data
+  * [metaphlan](http://toolshed.g2.bx.psu.edu/view/george-weingart/metaphlan): MetaPhlAn (Metagenomic Phylogenetic Analysis) is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data
   * [lefse](http://toolshed.g2.bx.psu.edu/view/george-weingart/lefse): LDA Effect Size (LEfSe) ([Segata et. al 2010](http://genomebiology.com/content/12/6/R60)) is an algorithm for high-dimensional biomarker discovery and explanation that identifies genomic features (genes, pathways, or taxa) characterizing the differences between two or more biological conditions.
   * [micropita](http://toolshed.g2.bx.psu.edu/view/george-weingart/micropita): microPITA is a computational tool enabling sample selection in tiered studies. 
-  * [maaslin](http://toolshed.g2.bx.psu.edu/view/george-weingart/maaslin): !MaAsLin is a multivariate statistical framework that finds associations between clinical metadata and microbial community abundance or function
+  * [maaslin](http://toolshed.g2.bx.psu.edu/view/george-weingart/maaslin): MaAsLin is a multivariate statistical framework that finds associations between clinical metadata and microbial community abundance or function
 
 * *From [devteam](http://toolshed.g2.bx.psu.edu/view/devteam)*
   * [fasta_filter_by_length](http://toolshed.g2.bx.psu.edu/view/devteam/fasta_filter_by_length): Outputs sequences between Minimal length and Maximum length.

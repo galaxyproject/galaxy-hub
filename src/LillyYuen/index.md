@@ -1,3 +1,3 @@
 Describe LillyYuen here.
 ----
-CategoryTemplate
+[CategoryTemplate](/src/CategoryTemplate/index.md)

@@ -26,4 +26,4 @@ Looking forward to seeing you in Chicago!
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-03-20</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

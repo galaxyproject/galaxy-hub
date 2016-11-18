@@ -31,7 +31,7 @@ def main():
         sys.exit(1)
     submit( sys.argv[1], sys.argv[2], data )
 
-if __name__ == '<u>main__':
+if __name__ == '__main__':
     main()
 ```
 
@@ -116,7 +116,7 @@ def main(api_key, api_url, in_folder, out_folder, data_library, workflow):
                             shutil.move(fullpath, os.path.join(out_folder, fname))
         time.sleep(10)
 
-if __name__ == '</u>main__':
+if __name__ == '__main__':
     try:
         api_key = sys.argv[1]
         api_url = sys.argv[2]

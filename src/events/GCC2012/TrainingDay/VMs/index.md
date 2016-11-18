@@ -72,32 +72,32 @@ This image will have a configured and running Galaxy instance.
 <div class='right'><div class='solid'>
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> </strong>Screenshots<strong> </td>
+    <td style=" text-align: center; border: none;"> <strong>Screenshots</strong> </td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLApplianceImport.png'>{{attachment:ApplianceImport.png|Appliance Import Settings Window; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.3. Appliance Import </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/ApplianceImport.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/ApplianceImport.png" alt="Appliance Import Settings Window; click to enlarge" width="200" /></a><br />1.3. Appliance Import </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLImportedVM.png'>{{attachment:ImportedVM.png|VM successfully imported; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.4. VM Imported </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/ImportedVM.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/ImportedVM.png" alt="VM successfully imported; click to enlarge" width="200" /></a><br />1.4. VM Imported </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLVMSettings.png'>{{attachment:VMSettings.png|VM settings; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.5.1 VM settings </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/VMSettings.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/VMSettings.png" alt="VM settings; click to enlarge" width="200" /></a><br />1.5.1 VM settings </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLPortForwarding.png'>{{attachment:PortForwarding.png|Port forwarding rules; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />1.5.3 Port forwarding rules </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/PortForwarding.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/PortForwarding.png" alt="Port forwarding rules; click to enlarge" width="200" /></a><br />1.5.3 Port forwarding rules </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLMouseInfo.png'>{{attachment:MouseInfo.png|Mouse Pointer info window; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.1. An info screens </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/MouseInfo.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/MouseInfo.png" alt="Mouse Pointer info window; click to enlarge" width="200" /></a><br />2.1. An info screens </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLUserList.png'>{{attachment:UserList.png|List of defined users; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.2. Defined users </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/UserList.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/UserList.png" alt="List of defined users; click to enlarge" width="200" /></a><br />2.2. Defined users </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URLXFCEDesktop.png'>{{attachment:XFCEDesktop.png|The XFCE Desktop; click to enlarge|width="200"}}|&do=get,target="_blank"</a><br />2.3. The XFCE Desktop </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/XFCEDesktop.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/XFCEDesktop.png" alt="The XFCE Desktop; click to enlarge" width="200" /></a><br />2.3. The XFCE Desktop </td>
   </tr>
 </table>
 
@@ -108,9 +108,9 @@ This section will include directions on how to start up, access, and use these v
 ## 1. Import the VM into VirtualBox
 
 1. First, make a backup copy of the downloaded `.ova` file(s).  If something goes wrong you can always make a new copy.
-2. Import the VM image into !VirtualBox by either starting the downloaded `.ova` file directly, or by launching !VirtualBox and navigating to **File &rarr; Import Appliance** and opening the file.
+2. Import the VM image into VirtualBox by either starting the downloaded `.ova` file directly, or by launching VirtualBox and navigating to **File &rarr; Import Appliance** and opening the file.
 3. This will display the **Appliance Import Settings** window.  *Click* the **Import** button.
-4. It may then take several minutes for !VirtualBox to import the VM.  Once it is done, a new VM will appear in the left pane in the 'powered off' state.
+4. It may then take several minutes for VirtualBox to import the VM.  Once it is done, a new VM will appear in the left pane in the 'powered off' state.
 
 The VM is now installed.
 
@@ -139,7 +139,7 @@ We need to enable port forwarding so that the the host (your laptop's native ope
 
 The IP address can used to access the VM from tools on the host (your laptop)
 
-1. *Double-click* on the new VM in the left panel of !VirtualBox.  This starts the VM and displays two informational messages about regaining control of your keyboard and mouse from the VM.  *Click* **OK** for both.
+1. *Double-click* on the new VM in the left panel of VirtualBox.  This starts the VM and displays two informational messages about regaining control of your keyboard and mouse from the VM.  *Click* **OK** for both.
 2. A screen showing the defined users on this machine is shown.  *Click* on the **trainingday** user and then *enter* the password listed below.
 3. This will log you in and show the XFCE desktop.
 4. Click on the terminal icon at the bottom center of the GUI.

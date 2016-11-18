@@ -103,8 +103,8 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Slides
 
-* [April 12](ATTACHMENT_URLDocuments/Presentations/2012JohnsHopkinsWorkshops.pdf)
-* [April 13](ATTACHMENT_URLDocuments/Presentations/2012JohnsHopkinsWorkshop0413.pdf)
+* [April 12](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012JohnsHopkinsWorkshops.pdf)
+* [April 13](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012JohnsHopkinsWorkshop0413.pdf)
 
 ## Workshop Evaluation
 
@@ -112,7 +112,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Flyer
 
-<div class='right'><a href='/src/attachment:JohnsHopkinsGalaxy2012.pdf/index.md'><img src="/src/Events/JohnsHopkins2012/JohnsHopkinsGalaxy2012Thumb.png" alt=""  /></a></div>
+<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/JohnsHopkinsGalaxy2012.pdf'><img src="/src/Events/JohnsHopkins2012/JohnsHopkinsGalaxy2012Thumb.png" alt=""  /></a></div>
 Please distribute to parts of Johns Hopkins that might be interested.  You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?

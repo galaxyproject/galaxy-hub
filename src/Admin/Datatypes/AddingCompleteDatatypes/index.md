@@ -17,7 +17,7 @@ from galaxy.datatypes.metadata import MetadataElement
 import os
 import logging
 
-log = logging.getLogger(</u>name__)
+log = logging.getLogger(__name__)
 
 class GenBank( data.Text ):
     """
@@ -140,7 +140,7 @@ By now you should have a complete GenBank parser in `csequence.py` that looks ab
 from galaxy.datatypes import data
 from galaxy.datatypes.metadata import MetadataElement
 import logging
-log = logging.getLogger(<u>name__)
+log = logging.getLogger(__name__)
 
 
 class GenBank( data.Text ):

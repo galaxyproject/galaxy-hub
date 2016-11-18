@@ -22,4 +22,4 @@ A notebook describing [how to integrate a Java program as a tool inside Galaxy](
 * [Blog entry](http://plindenbaum.blogspot.com/2015/02/integrating-java-program-in-usegalaxy.html)
 * [Pierre Lindenbaum's blog](http://plindenbaum.blogspot.com/)
 
-CategoryLog
+[CategoryLog](/src/CategoryLog/index.md)

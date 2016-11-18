@@ -3,7 +3,7 @@ autotoc: true
 ---
 ****WARNING**: this template may have WEIRD content**
 
-<div class='center'>![template](/src/Images/Icons/UnderConstruction.gif)</div>
+<div class='center'><img src="/src/Images/Icons/UnderConstruction.gif" alt="template" width="50px" /></div>
 
 # Month DD, 20YY Galaxy Development News Brief
 

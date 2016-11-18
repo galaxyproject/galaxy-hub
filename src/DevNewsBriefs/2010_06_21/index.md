@@ -16,7 +16,7 @@ hg pull -u -r 4cdf4cca0f31
 
 #### Datatypes
 
-* Add !MafCustomTrack datatype and a UCSC external display application which can be used to view this datatype at UCSC.
+* Add MafCustomTrack datatype and a UCSC external display application which can be used to view this datatype at UCSC.
 * Enhance change datatype action in edit attributes form to set metadata externally when so configured.
 
 #### Metadata
@@ -59,7 +59,7 @@ hg pull -u -r 4cdf4cca0f31
 
 * Fixed a sorting bug in the grid framework. Sorting preferences were not getting preserved.
 * Fix grid initialization bug that was preventing visualization grids from working properly.
-* Add the "all" option to the grid's !StateColumn.
+* Add the "all" option to the grid's StateColumn.
 
 #### Jobs
 
@@ -71,7 +71,7 @@ hg pull -u -r 4cdf4cca0f31
 
 * Added annotations to run workflow display.  New feature: actions in workflow steps.  Change name, hide dataset, change datatype enabled.
 * Len datasets for custom dbkeys now don't need a history and this fixes an issue with extract workflows.
-* Fix for double !UnvalidatedValue wrapping when extracting a workflow from a history that was created using !UnvalidatedValues (e.g. when dynamic options is used in a tool before metadata is ready).
+* Fix for double UnvalidatedValue wrapping when extracting a workflow from a history that was created using UnvalidatedValues (e.g. when dynamic options is used in a tool before metadata is ready).
 * Fix for extracting a workflow from a history when a tool is not loaded.
 * Fix bug that prevented 'All workflows' link from being shown when tool search is active.
 * Enhance workflow editor to work with a list of output formats instead of only one.  This fixes the bug where outputs utilizing a change_format tag could not be connected to an input that was of the changed-to type.

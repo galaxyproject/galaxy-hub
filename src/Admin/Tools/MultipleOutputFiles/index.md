@@ -30,7 +30,7 @@ Handling cases when tools create a static number of outputs is simple.  Simply i
   
 ## Variable Static Outputs determined by parameter values
 
-In cases when the number of output files varies, but can be determined based upon a user's parameter selection, the use of the filter tag can be used.  The text contents of the <filter> tag are **eval**ed and if the expression is True a dataset will be created as normal.  If the expression is False, the output dataset will not be created; instead a !NoneDataset object will be created and made available - when used on the command line the text **None** will appear instead of a file path. The local namespace of the filter has been populated with the tool parameters.
+In cases when the number of output files varies, but can be determined based upon a user's parameter selection, the use of the filter tag can be used.  The text contents of the <filter> tag are **eval**ed and if the expression is True a dataset will be created as normal.  If the expression is False, the output dataset will not be created; instead a NoneDataset object will be created and made available - when used on the command line the text **None** will appear instead of a file path. The local namespace of the filter has been populated with the tool parameters.
 
 
 ```xml
@@ -152,7 +152,7 @@ Consider a tool that creates a bunch of text files or bam files and writes them 
 ```xml
     <outputs>
         <data format="txt" name="report">
-		<discover_datasets pattern="<u>designation_and_ext__" directory="split" visible="true" />
+		<discover_datasets pattern="__designation_and_ext__" directory="split" visible="true" />
         </data>
     </outputs>
 ```
@@ -165,7 +165,7 @@ If the tool doesn't create the files in `split` with extensions or does but with
 ```xml
     <outputs>
         <data format="txt" name="report">
-		<discover_datasets pattern="</u>designation__" ext="tabular" directory="tables" visible="true" />
+		<discover_datasets pattern="__designation__" ext="tabular" directory="tables" visible="true" />
         </data>
     </outputs>
 ```

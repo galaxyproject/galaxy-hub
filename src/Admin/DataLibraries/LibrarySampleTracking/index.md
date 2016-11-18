@@ -86,7 +86,7 @@ The "Select Request Type" list includes various sample request form layouts from
 ![](/src/Admin/DataLibraries/LibrarySampleTracking/add_samples.png)
 
 
-Notice that Jill has requested that the datasets produced from her sequencing runs be placed in the !CartmanDataLib data library and folder.  Jill is able to select any data library and folder for which she has been granted permission to add datasets.
+Notice that Jill has requested that the datasets produced from her sequencing runs be placed in the CartmanDataLib data library and folder.  Jill is able to select any data library and folder for which she has been granted permission to add datasets.
 
 A workflow can also be chosen to execute using the dataset as its initial input as soon as it arrives in the data library folder.  Jill can edit and save the information in her request any number of times until she clicks the "Submit Request" button in the upper right corner of the form.  After submitting the request, Jill will no longer be able to change it.
 
@@ -122,7 +122,7 @@ If Jill checks Galaxy for the status of her request, she'll see that the state h
 ![](/src/Admin/DataLibraries/LibrarySampleTracking/received.png)
 
 
-After the facility's sequencer has completed its run for each sample, the technician scans the tube at it's second station and the state of the request changes to "Run Complete", and finally "Dataset Available" when the dataset has been transferred to the requested !CartmanDataLib data library.
+After the facility's sequencer has completed its run for each sample, the technician scans the tube at it's second station and the state of the request changes to "Run Complete", and finally "Dataset Available" when the dataset has been transferred to the requested CartmanDataLib data library.
 
 
 ![](/src/Admin/DataLibraries/LibrarySampleTracking/dataset_available_admin.png)

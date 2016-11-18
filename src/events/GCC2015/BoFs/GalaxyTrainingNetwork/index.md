@@ -49,12 +49,12 @@ This BoF will be held **Monday, 6 July, 18:50, in the Franklin Room.**
 * [Eric Rasche](/src/EricRasche/index.md)
 * [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md)
 * Mark Fernandes
-* Catriona !McInerney
-* Annette !McGrath
+* Catriona McInerney
+* Annette McGrath
 * Keywan Hassani-Pak 
 * Fiona Roche
 * Peter Cock
-* Andrew !McArthur
+* Andrew McArthur
 * Erinija Pranckeviciene 
 * Anmol Hemrom
 * Agata Smialowska
@@ -126,7 +126,7 @@ Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and D
   * https://github.com/bgruening/training-material
   * https://github.com/bgruening/galaxy-tricks
   * Galaxy RNA workbench with test data and training material: https://github.com/bgruening/galaxy-rna-workbench-extra
-  * Put training material in !GitHub and use Software Carpentry model to manage materials?
+  * Put training material in GitHub and use Software Carpentry model to manage materials?
 
 * Platform for bioinformatics training:
   * all platforms have challenges
@@ -153,4 +153,4 @@ Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and D
 
 Send them to [Dave Clements](/src/DaveClements/index.md) and [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie).
 
-CategoryBoF
+[CategoryBo](/src/CategoryBo/index.md)F

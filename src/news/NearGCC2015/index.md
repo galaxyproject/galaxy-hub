@@ -19,13 +19,13 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is b
     <td colspan=7 style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" background-color: #ddd;"> </em>28 June<em> </td>
-    <td style=" background-color: #ddd;"> </em>29 June<em> </td>
-    <td style=" background-color: #ddd;"> </em>30 June<em> </td>
-    <td style=" background-color: #ddd;"> </em>1 July<em> </td>
-    <td style=" background-color: #ddd;"> </em>2 July<em> </td>
-    <td style=" background-color: #ddd;"> </em>3 July<em> </td>
-    <td style=" background-color: #ddd;"> </em>4 July<em> </td>
+    <td style=" background-color: #ddd;"> <em>28 June</em> </td>
+    <td style=" background-color: #ddd;"> <em>29 June</em> </td>
+    <td style=" background-color: #ddd;"> <em>30 June</em> </td>
+    <td style=" background-color: #ddd;"> <em>1 July</em> </td>
+    <td style=" background-color: #ddd;"> <em>2 July</em> </td>
+    <td style=" background-color: #ddd;"> <em>3 July</em> </td>
+    <td style=" background-color: #ddd;"> <em>4 July</em> </td>
   </tr>
   <tr>
     <td rowspan=3> </td>
@@ -46,13 +46,13 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is b
     <td colspan=7 style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" background-color: #ddd;"> </em>5 July<em> </td>
-    <td style=" background-color: #ddd;"> </em>6 July<em> </td>
-    <td style=" background-color: #ddd;"> </em>7 July<em> </td>
-    <td style=" background-color: #ddd;"> </em>8 July<em> </td>
-    <td style=" background-color: #ddd;"> </em>9 July<em> </td>
-    <td style=" background-color: #ddd;"> </em>10 July<em> </td>
-    <td style=" background-color: #ddd;"> </em>11 July<em> </td>
+    <td style=" background-color: #ddd;"> <em>5 July</em> </td>
+    <td style=" background-color: #ddd;"> <em>6 July</em> </td>
+    <td style=" background-color: #ddd;"> <em>7 July</em> </td>
+    <td style=" background-color: #ddd;"> <em>8 July</em> </td>
+    <td style=" background-color: #ddd;"> <em>9 July</em> </td>
+    <td style=" background-color: #ddd;"> <em>10 July</em> </td>
+    <td style=" background-color: #ddd;"> <em>11 July</em> </td>
   </tr>
   <tr>
     <td colspan=4 style=" text-align: left; background-color: #ffc;"> <strong>&larr; <a href='http://gcc2015.tsl.ac.uk/'>GCC2015</a></strong><br /> <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, Norwich, UK </td>
@@ -75,13 +75,13 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is b
     <td colspan=7 style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" background-color: #ddd;"> </em>12 July<em> </td>
-    <td style=" background-color: #ddd;"> </em>13 July<em> </td>
-    <td style=" background-color: #ddd;"> </em>14 July<em> </td>
-    <td style=" background-color: #ddd;"> </em>15 July<em> </td>
-    <td style=" background-color: #ddd;"> </em>16 July<em> </td>
-    <td style=" background-color: #ddd;"> </em>17 July<em> </td>
-    <td style=" background-color: #ddd;"> </em>18 July<em> </td>
+    <td style=" background-color: #ddd;"> <em>12 July</em> </td>
+    <td style=" background-color: #ddd;"> <em>13 July</em> </td>
+    <td style=" background-color: #ddd;"> <em>14 July</em> </td>
+    <td style=" background-color: #ddd;"> <em>15 July</em> </td>
+    <td style=" background-color: #ddd;"> <em>16 July</em> </td>
+    <td style=" background-color: #ddd;"> <em>17 July</em> </td>
+    <td style=" background-color: #ddd;"> <em>18 July</em> </td>
   </tr>
   <tr>
     <td colspan=3 style=" background-color: #edf;"> <strong>&larr; <a href='/src/Events/ISMB2015/index.md'>ISMB/ECCB 2015</a></strong><br /> Dublin, Ireland </td>
@@ -108,4 +108,4 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is b
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-04-08 </div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

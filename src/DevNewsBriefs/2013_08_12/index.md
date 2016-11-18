@@ -80,7 +80,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 ## Fixes
 
 1. **Phyloviz**: Correct d3 translate and node error, and…
-1. **Scatterplot**: Correct failure for data provider to get column data from certain datatypes (BED). https://trello.com/c/ClfwTdwp
+1. **Scatterplot**: Correct failure for data provider to get column data from certain datatypes (BED). https://trello.com/c[/ClfwTdwp](/src/DevNewsBriefs/2013_08_12/ClfwTdwp/index.md)
 1. **Trackster**: Correct bug where emptying 'Histogram maximum' field causes track to disappear. https://trello.com/c/tnpkT47t
 
 <br />
@@ -95,9 +95,9 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 # UI
 
 1. Upgrade [jQuery to v1.9.1](http://jquery.com/upgrade-guide/1.9/#overview). https://trello.com/c/hIYOsx8T
-1. Include ` #<hda_id> ` scroll to usage behavior in history panel. https://trello.com/c/OcCloWaH
+1. Include ` #<hda_id> ` scroll to usage behavior in history panel. https://trello.com/c[/OcCloWa](/src/DevNewsBriefs/2013_08_12/OcCloWa/index.md)H
 1. Tools no longer pop up in the Workflow editor. https://trello.com/c/D7wbwdfc
-1. Resume/restart a failed workflow from the point of failure by pausing (not failing) downstream jobs, permitting modifications, then continuing.  https://trello.com/c/GuDsm5MD, https://trello.com/c/kpARiWl5
+1. Resume/restart a failed workflow from the point of failure by pausing (not failing) downstream jobs, permitting modifications, then continuing.  https://trello.com/c[/GuDsm5](/src/DevNewsBriefs/2013_08_12/GuDsm5/index.md)MD, https://trello.com/c/kpARiWl5
 1. Remove unnecessary display button from uploading hdas (no usable action). https://trello.com/c/DWYuTxtA
 
 ## API
@@ -115,7 +115,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 <br />
 # Core
 
-1. In the client, handle all errors more gracefully and in the worst case, use modal in place of alert. https://trello.com/c/F535Sdb7
+1. In the client, handle all errors more gracefully and in the worst case, use modal in place of alert. https://trello.com/c[/F535Sdb7](/src/DevNewsBriefs/2013_08_12/F535Sdb7/index.md)
 1. Improvements to 'bad gateway' handling by history updater. https://trello.com/c/mIgcF4xQ
 1. Move rendering of user quota from the history panel to the masthead template to improve timing of update. https://trello.com/c/eh3yo22z
 1. Update pbs_python to 4.3.5. https://trello.com/c/S9l5RRml/967-update-pbs-python
@@ -123,7 +123,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 <br />
 # Pull Requests Merged
 
-1. Fix problems with set_user_disk_usage.py with Postgres 8.x. **[#97](https://bitbucket.org/galaxy/galaxy-central/pull-request/97)**. Thanks to [Lance Parsons](http://lanceparsons.net/). https://trello.com/c/Z0EynAV2
+1. Fix problems with set_user_disk_usage.py with Postgres 8.x. **[#97](https://bitbucket.org/galaxy/galaxy-central/pull-request/97)**. Thanks to [Lance Parsons](http://lanceparsons.net/). https://trello.com/c[/Z0Eyn](/src/DevNewsBriefs/2013_08_12/Z0Eyn/index.md)AV2
 1. Dynamic Toolbox Filtering. **[#160](https://bitbucket.org/galaxy/galaxy-central/pull-request/160)**. Thanks to [John Chilton](http://jmchilton.net/). https://trello.com/c/k50h7lFt
 1. Datatype Tracking Refactoring. **[#86](https://bitbucket.org/galaxy/galaxy-central/pull-request/86)**. Thanks to [John Chilton](http://jmchilton.net/). https://trello.com/c/GH0Bc5ow
 1. Fix detection of 2bit files when uploading. **[#170](https://bitbucket.org/galaxy/galaxy-central/pull-request/170)**. Thanks to [Gert Hulselmans](https://bitbucket.org/ghuls). https://trello.com/c/JNpeJgPV (also includes patch)
@@ -204,37 +204,37 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 
 <table>
   <tr>
-    <td> https://trello.com/c/h7TpiQVZ </td>
-    <td> https://trello.com/c/oNcRDQ9E </td>
-    <td> https://trello.com/c/m65ziCz8 </td>
+    <td> <a href='https://trello.com/c/h7TpiQVZ '>https://trello.com/c/h7TpiQVZ </a></td>
+    <td> <a href='https://trello.com/c/oNcRDQ9E '>https://trello.com/c/oNcRDQ9E </a></td>
+    <td> <a href='https://trello.com/c/m65ziCz8 '>https://trello.com/c/m65ziCz8 </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/QIyaZpH5 </td>
-    <td> https://trello.com/c/wHXz9j0v </td>
-    <td> https://trello.com/c/ZDilg7cx </td>
+    <td> <a href='https://trello.com/c/QIyaZpH5 '>https://trello.com/c/QIyaZpH5 </a></td>
+    <td> <a href='https://trello.com/c/wHXz9j0v '>https://trello.com/c/wHXz9j0v </a></td>
+    <td> <a href='https://trello.com/c/ZDilg7cx '>https://trello.com/c/ZDilg7cx </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/QUde3Cs8 </td>
-    <td> https://trello.com/c/cJOjEXAZ </td>
-    <td> https://trello.com/c/fe3c1gr2 </td>
+    <td> <a href='https://trello.com/c/QUde3Cs8 '>https://trello.com/c/QUde3Cs8 </a></td>
+    <td> <a href='https://trello.com/c/cJOjEXAZ '>https://trello.com/c/cJOjEXAZ </a></td>
+    <td> <a href='https://trello.com/c/fe3c1gr2 '>https://trello.com/c/fe3c1gr2 </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/v1Gysw0f </td>
-    <td> https://trello.com/c/xVYitush </td>
-    <td> https://trello.com/c/wEENxFhn </td>
+    <td> <a href='https://trello.com/c/v1Gysw0f '>https://trello.com/c/v1Gysw0f </a></td>
+    <td> <a href='https://trello.com/c/xVYitush '>https://trello.com/c/xVYitush </a></td>
+    <td> <a href='https://trello.com/c/wEENxFhn '>https://trello.com/c/wEENxFhn </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/TXnTThs6 </td>
-    <td> https://trello.com/c/iXG9dsdF </td>
-    <td> https://trello.com/c/lVJGIF0K </td>
+    <td> <a href='https://trello.com/c/TXnTThs6 '>https://trello.com/c/TXnTThs6 </a></td>
+    <td> <a href='https://trello.com/c/iXG9dsdF '>https://trello.com/c/iXG9dsdF </a></td>
+    <td> <a href='https://trello.com/c/lVJGIF0K '>https://trello.com/c/lVJGIF0K </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/ldNz7pCq </td>
-    <td> https://trello.com/c/V1MV8LRZ </td>
-    <td> https://trello.com/c/tPhefI45 </td>
+    <td> <a href='https://trello.com/c/ldNz7pCq '>https://trello.com/c/ldNz7pCq </a></td>
+    <td> <a href='https://trello.com/c/V1MV8LRZ '>https://trello.com/c/V1MV8LRZ </a></td>
+    <td> <a href='https://trello.com/c/tPhefI45 '>https://trello.com/c/tPhefI45 </a></td>
   </tr>
   <tr>
-    <td> https://trello.com/c/3sAsMYFc </td>
+    <td> <a href='https://trello.com/c/3sAsMYFc '>https://trello.com/c/3sAsMYFc </a></td>
   </tr>
 </table>
 
@@ -258,7 +258,7 @@ Details: Only Galaxy instances with `allow_user_impersonation = True` set in the
 1. Fix bug where Workflow and tool annotations are lost when importing workflows from tool shed repositories. https://trello.com/c/IDxa8RwC
 1. Fix bug where setting dataset security was interfering with the the Galaxy UI. https://trello.com/c/URZGsljz
 1. Fix bug in proper display of a permanently deleted history. https://trello.com/c/zhj4dbUl
-1. Fix bugs with default genome and selection display when adding library data files. https://trello.com/c/Hr1JdeGq
+1. Fix bugs with default genome and selection display when adding library data files. https://trello.com/c[/Hr1JdeGq](/src/DevNewsBriefs/2013_08_12/Hr1JdeGq/index.md)
 
 <br />
 

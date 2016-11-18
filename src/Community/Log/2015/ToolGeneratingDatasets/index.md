@@ -29,4 +29,4 @@ From the [blog post](http://web.science.mq.edu.au/~cassidy/wordpress/2015/10/21/
 * [Steve Cassidy's Blog](http://web.science.mq.edu.au/)
 * [Steve Cassidy](http://web.science.mq.edu.au/~cassidy/wordpress/about-steve-cassidy/)
 
-CategoryLog
+[CategoryLog](/src/CategoryLog/index.md)

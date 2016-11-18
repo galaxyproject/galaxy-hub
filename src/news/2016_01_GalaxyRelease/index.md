@@ -29,7 +29,7 @@ Workflows may now run other workflows as a single abstract step in the parent wo
   <tr>
     <td style=" border: none;"> <span style="font-size: larger;"> Github </span> <br /><br /><strong>New</strong><br /><code>% git clone -b master https://github.com/galaxyproject/galaxy.git</code><br /><br />U<strong>pdate to latest stable release</strong><br /><code>% git checkout master && pull --ff-only origin master</code><br /><br /><strong>Update to exact version</strong><br /><code>% git checkout v16.01</code> </td>
     <td style=" vertical-align: top; border: none; width: 10%;"> </td>
-    <td style=" vertical-align: top; border: none;"> <span style="font-size: larger;"> !BitBucket </span> <br /><br /><strong>Upgrade</strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.01</code> </td>
+    <td style=" vertical-align: top; border: none;"> <span style="font-size: larger;"> BitBucket </span> <br /><br /><strong>Upgrade</strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.01</code> </td>
   </tr>
   <tr>
     <td colspan=3 style=" border: none;"> See the <a href='/src/Admin/GetGalaxy/index.md'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
@@ -63,4 +63,4 @@ Multiple security vulnerabilities were recently discovered in the Tool Shed that
 </div></div>
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-02-24</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

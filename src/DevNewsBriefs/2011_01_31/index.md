@@ -40,7 +40,7 @@
     ![](/src/News Briefs/2011_01_31/2011_01_31_workflow_params_2.png)
 
 4) General workflow tuning
-* !HideDataset Action will no longer show in the workflow editor.  The ability to manually create one of these actions has been deprecated in favor of the workflow outputs approach.
+* HideDataset Action will no longer show in the workflow editor.  The ability to manually create one of these actions has been deprecated in favor of the workflow outputs approach.
 * Workflow run results can now be sent to a new history instead of the current one.
 * Ordering of workflow steps is now sorted based on the layout in the workflow editor, arranged based on distance from top left corner of the editor.  This won't affect existing workflows until re-saved.
 * Workflows that contain steps expecting tools that are unavailable (as might be the case for a workflow imported from another Galaxy instance) will now have problem nodes marked with an error state. The workflow cannot be saved until the steps are removed or the tools are added to the current Galaxy instance.
@@ -51,7 +51,7 @@ These components are under rapid development and interfaces *should be considere
 
 1) Deferred Jobs
 * A generic method for creating a dependency on an event before executing arbitrary code has now been defined in:
-    *galaxy-dist/lib/galaxy/job/deferred/</u>init__.py*
+    *galaxy-dist/lib/galaxy/job/deferred/__init__.py*
 * The deferred job runner loads plugins found in the same directory which implement the necessary methods check_job() and run_job(). check_job() returns a state which informs the deferred job runner whether it is okay to execute the run_job() method.
 * The deferred job runner is independent from the regular tool-related job runner and is not coupled with tools, nor does it have any integrated cluster support.
 * No documentation is provided for the format of a plugin at this time, but a sample plugin will be included at a later date.
@@ -134,7 +134,7 @@ These components are under rapid development and interfaces *should be considere
 * Tuning
   * Fix track preferences not being applied
   * Fix chroms not being selectable when a new track browser is created
-  * Fix !ReferenceTrack not working with filters
+  * Fix ReferenceTrack not working with filters
   * Fix visual analytics error when tool configuration has changed
   * Fix visualization saving on Chrome by using $.each instead of for loop
   * Fix shared visualizations
@@ -147,7 +147,7 @@ These components are under rapid development and interfaces *should be considere
 
 ### User Interface (UI)
 
-* Version info is now printed in history item for Bowtie, BWA, Lastz, !TopHat, Samtools, Cuffdif, Cufflinks, Cuffcompare, BFAST, and PerM. 
+* Version info is now printed in history item for Bowtie, BWA, Lastz, TopHat, Samtools, Cuffdif, Cufflinks, Cuffcompare, BFAST, and PerM. 
 * Turn off web browser auto-complete for tool search (includes workflows).
 * Grid changes resulting in better readability:
   * Better page number display.
@@ -194,7 +194,7 @@ These components are under rapid development and interfaces *should be considere
 
 ### About Galaxy
 
-**Galaxy** is supported in part by **NSF**, **NHGRI**, the **Huck Institutes of the Life Sciences**,  and **The Institute for !CyberScience at Penn State**.
+**Galaxy** is supported in part by **NSF**, **NHGRI**, the **Huck Institutes of the Life Sciences**,  and **The Institute for CyberScience at Penn State**.
 
 [Core Team](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam)
 

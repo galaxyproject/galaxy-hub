@@ -4,7 +4,7 @@ title: Video Viz
 
 
 <div class='center'>
-![VideoViz Plugin in Galaxy](/src/Learn/Visualization/Custom/VideoViz/VizPluginVideoScreenshot.png)
+<img src="/src/Learn/Visualization/Custom/VideoViz/VizPluginVideoScreenshot.png" alt="VideoViz Plugin in Galaxy" width=800px />
 </div>
 
 

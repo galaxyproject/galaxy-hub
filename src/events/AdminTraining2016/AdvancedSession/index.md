@@ -59,7 +59,7 @@ The [basics section](/src/Events/AdminTraining2016/BasicsSession/index.md) will 
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:30pm </th>
-    <td style=" text-align: center;"> </strong>Done<strong> </td>
+    <td style=" text-align: center;"> <strong>Done</strong> </td>
   </tr>
 </table>
 
@@ -76,7 +76,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:30am </th>
-    <td style=" text-align: center;"> </strong>Checkin and Coffee<strong> </td>
+    <td style=" text-align: center;"> <strong>Checkin and Coffee</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00am </th>
@@ -92,7 +92,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:30am </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:50am </th>
@@ -100,7 +100,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:20pm </th>
-    <td style=" text-align: center;"> </strong>Lunch Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Lunch Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 1:20pm </th>
@@ -112,7 +112,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:20pm </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:40pm </th>
@@ -120,7 +120,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 5:40pm </th>
-    <td style=" text-align: center;"> </strong>Dinner Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Dinner Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 7:00pm </th>
@@ -128,7 +128,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:30pm </th>
-    <td style=" text-align: center;"> </strong>Done<strong> </td>
+    <td style=" text-align: center;"> <strong>Done</strong> </td>
   </tr>
 </table>
 
@@ -142,7 +142,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:30am </th>
-    <td style=" text-align: center;"> </strong>Coffee<strong> </td>
+    <td style=" text-align: center;"> <strong>Coffee</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00am </th>
@@ -154,7 +154,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:30am </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:50am </th>
@@ -162,7 +162,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:20pm </th>
-    <td style=" text-align: center;"> </strong>Lunch Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Lunch Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 1:20pm </th>
@@ -170,7 +170,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:20pm </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:40pm </th>
@@ -178,7 +178,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 5:40pm </th>
-    <td style=" text-align: center;"> </strong>Dinner Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Dinner Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 7:00pm </th>
@@ -186,7 +186,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:30pm </th>
-    <td style=" text-align: center;"> </strong>Done<strong> </td>
+    <td style=" text-align: center;"> <strong>Done</strong> </td>
   </tr>
 </table>
 
@@ -200,7 +200,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:30am </th>
-    <td style=" text-align: center;"> </strong>Coffee<strong> </td>
+    <td style=" text-align: center;"> <strong>Coffee</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00am </th>
@@ -212,7 +212,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:30am </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:50am </th>
@@ -220,7 +220,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:20pm </th>
-    <td style=" text-align: center;"> </strong>Lunch Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Lunch Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 1:20pm </th>
@@ -228,7 +228,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:20pm </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:40pm </th>
@@ -236,7 +236,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 5:30pm </th>
-    <td style=" text-align: center;"> </strong>Dinner Break<strong>* </td>
+    <td style=" text-align: center;"> <strong>Dinner Break</strong>* </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 6:50pm </th>
@@ -248,7 +248,7 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:30pm </th>
-    <td style=" text-align: center;"> </strong>Done<strong> </td>
+    <td style=" text-align: center;"> <strong>Done</strong> </td>
   </tr>
 </table>
 

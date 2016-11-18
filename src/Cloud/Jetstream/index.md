@@ -21,29 +21,29 @@ After you have your XSEDE account and an active allocation:
 * Visit https://use.jetstream-cloud.org/, and log in using your university, national lab, facility, project, Google or Globus ID.
 
 * Once logged in *select* **Launch an instance**
-    [{{attachment:jetstream_GettingStarted.png||width="75%"}}|&do=get,target="_blank"](ATTACHMENT_URLjetstream_GettingStarted.png)<br /><br />
+    <a href='/src/Cloud/Jetstream/jetstream_GettingStarted.png'><img src="/src/Cloud/Jetstream/jetstream_GettingStarted.png" alt="" width="75%" /></a><br /><br />
 
 * Browse the available images and choose a Galaxy image (see [Released versions](/src/Cloud/Jetstream/index.md#released_versions) below for the available options)
-    [<img src="http://i.imgur.com/OCA45pA.png" alt="" width="75%" />](http://i.imgur.com/OCA45pA.png)   <br /><br />
+    <a href='http://i.imgur.com/OCA45pA.png'><img src="http://i.imgur.com/OCA45pA.png" alt="" width="75%" /></a>   <br /><br />
 
 * Launch a Galaxy instance:
-    [<img src="http://i.imgur.com/AQIeZyl.png?1" alt="" width="75%" />](http://i.imgur.com/AQIeZyl.png?1)
+    <a href='http://i.imgur.com/AQIeZyl.png?1'><img src="http://i.imgur.com/AQIeZyl.png?1" alt="" width="75%" /></a>
     <br /><br />
 
 * Set basic parameters of the instance:
-    [<img src="http://i.imgur.com/TSOUMJd.png?1" alt="" width="75%" />](http://i.imgur.com/TSOUMJd.png?1)<br /><br />
+    <a href='http://i.imgur.com/TSOUMJd.png?1'><img src="http://i.imgur.com/TSOUMJd.png?1" alt="" width="75%" /></a><br /><br />
   * Select the provider: TACC or Indiana University.
   * Select the instance size:  This must be **large** or larger.
   * And then click **Launch**
 
 * If you don't have any existing projects in Jetstream, the next form will prompt you to create a new project.
-    [{{attachment:jetstream_LaunchProject.png||width="75%"}}|&do=get,target="_blank"](ATTACHMENT_URLjetstream_LaunchProject.png)<br /><br />
+    <a href='/src/Cloud/Jetstream/jetstream_LaunchProject.png'><img src="/src/Cloud/Jetstream/jetstream_LaunchProject.png" alt="" width="75%" /></a><br /><br />
 
 * The instance will be built and then launched.  After a few minutes the instance will be **Active** and ready to use:
-    [<img src="http://i.imgur.com/Z9GDeru.png" alt="" width="75%" />](http://i.imgur.com/Z9GDeru.png)<br /><br />
+    <a href='http://i.imgur.com/Z9GDeru.png'><img src="http://i.imgur.com/Z9GDeru.png" alt="" width="75%" /></a><br /><br />
 
 * In less than 5 minutes, you should have your own, fully configured Galaxy server - just copy the new server IP address to a new browser window.
-    [{{attachment:galaxy_landing.png||width="75%"}}|&do=get,target="_blank"](ATTACHMENT_URLgalaxy_landing.png)<br /><br />
+    <a href='/src/Cloud/Jetstream/galaxy_landing.png'><img src="/src/Cloud/Jetstream/galaxy_landing.png" alt="" width="75%" /></a><br /><br />
 
 ## Released versions
 

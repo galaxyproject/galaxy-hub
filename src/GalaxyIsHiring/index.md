@@ -31,7 +31,7 @@ We have a wide variety of active projects, current areas of expertise sought inc
 <div class='right'>
 <table>
   <tr>
-    <td style=" background-color: #4C5163;"> <a href='/src/DevNewsBriefs/2012_10_23/index.md#visualization_framework'>{{attachment:Images/NewsGraphics/2012_10_23_scatterplot-fullscreen.png</a> <br />  <a href='/src/DevNewsBriefs/2012_09_07/index.md#user-interface-ui'>{{attachment:Images/NewsGraphics/2012_09_07_interactive-phylo-tree.png</a> <br />  <a href='/src/DevNewsBriefs/2012_01_27/index.md#galaxy-track-browser-gtb'>{{attachment:Images/NewsGraphics/2012_01_27_multi-track-filtering.png</a> <br />  <a href='/src/DevNewsBriefs/2012_07_20/index.md#admin_genome_indexing'>{{attachment:Images/NewsGraphics/2012_07_20_main-page.png</a> <br />  <a href='/src/DevNewsBriefs/2012_03_12/index.md#galaxy-track-browser-gtb'>{{attachment:Images/NewsGraphics/2012_03_12_trackster-encode.png</a> <br />  <a href='/src/DevNewsBriefs/2012_05_11/index.md#tools'>{{attachment:Images/NewsGraphics/2012_05_11_gatk-workflow.png</a> </td>
+    <td style=" background-color: #4C5163;"> <a href='/src/DevNewsBriefs/2012_10_23/index.md#visualization_framework'><img src="/src/Images/NewsGraphics/2012_10_23_scatterplot-fullscreen.png" alt="scatterplot visualization" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_09_07/index.md#user-interface-ui'><img src="/src/Images/NewsGraphics/2012_09_07_interactive-phylo-tree.png" alt="interactive phylogenetic tree" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_01_27/index.md#galaxy-track-browser-gtb'><img src="/src/Images/NewsGraphics/2012_01_27_multi-track-filtering.png" alt="dynamic track filtering" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_07_20/index.md#admin_genome_indexing'><img src="/src/Images/NewsGraphics/2012_07_20_main-page.png" alt="reference genome index status" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_03_12/index.md#galaxy-track-browser-gtb'><img src="/src/Images/NewsGraphics/2012_03_12_trackster-encode.png" alt="ENCODE data in Trackster" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_05_11/index.md#tools'><img src="/src/Images/NewsGraphics/2012_05_11_gatk-workflow.png" alt="GATK Workflow visualization" width="180" /></a> </td>
   </tr>
 </table>
 
@@ -44,7 +44,7 @@ We have a wide variety of active projects, current areas of expertise sought inc
 
 Regardless of your areas of expertise we seek talented, self-motivated individuals to join [our team](/src/GalaxyTeam/index.md). Galaxy is developed in an academic research environment, and members of the Galaxy team work closely with biomedical researchers on projects at the leading edge of data-intensive biology.
 
-Galaxy is written in Python, but also makes substantial use of !JavaScript, Canvas, and other modern Web technologies. Many of the analysis components of Galaxy are performance critical and are implemented in C and other languages as well.
+Galaxy is written in Python, but also makes substantial use of JavaScript, Canvas, and other modern Web technologies. Many of the analysis components of Galaxy are performance critical and are implemented in C and other languages as well.
 
 ## Postdoctoral Scholars
 

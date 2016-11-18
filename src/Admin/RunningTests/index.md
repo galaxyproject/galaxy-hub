@@ -3,7 +3,7 @@ autotoc: true
 ---
 ## Running Tests
 
-Galaxy is a large code base with many different test types. **Functional tests**' operate on a running Galaxy instance and include tests of various tools (see [Admin/Tools/Writing Tests](/src/Admin/Tools/Writing Tests/index.md) for more information on writing tool tests). **Unit tests** are using to test individual Python components of the Galaxy framework in isolation. **Browser tests** run in a web browser and can be used to test !JavaScript components and the API.
+Galaxy is a large code base with many different test types. **Functional tests**' operate on a running Galaxy instance and include tests of various tools (see [Admin/Tools/Writing Tests](/src/Admin/Tools/Writing Tests/index.md) for more information on writing tool tests). **Unit tests** are using to test individual Python components of the Galaxy framework in isolation. **Browser tests** run in a web browser and can be used to test JavaScript components and the API.
 
 
 

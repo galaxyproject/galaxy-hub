@@ -45,4 +45,4 @@ The [IFB Galaxy group](http://www.ifb-galaxy.org/index.html),
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-10-02</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

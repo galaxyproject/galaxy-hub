@@ -27,4 +27,4 @@ On behalf of the [Galaxy Core and Contributor team](https://wiki.galaxyproject.o
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-08-25</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

@@ -11,4 +11,4 @@ Galaxy Training and Outreach
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-08-05</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

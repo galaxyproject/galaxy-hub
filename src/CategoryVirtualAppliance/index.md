@@ -6,4 +6,4 @@ All the [virtual appliance pages](/src/VirtualAppliances/index.md) in this wiki.
 PLACEHOLDER_FULL_SEARCH_CACHED(CategoryVirtualAppliance)
 
 ----
-CategoryCategory
+[CategoryCategory](/src/CategoryCategory/index.md)

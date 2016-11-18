@@ -32,4 +32,4 @@ Don't miss those deadlines, and [see you in June](https://gcc2016.iu.edu/),
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-04-29</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

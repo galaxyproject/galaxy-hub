@@ -27,7 +27,7 @@ Let your voice be heard!
 
 # IRC Channel Policy Change
 
-<div class='left'>![Galaxy IRC Channel](/src/Images/Icons/ChatBalloons.png)</div>
+<div class='left'><img src="/src/Images/Icons/ChatBalloons.png" alt="Galaxy IRC Channel" width="60" /></div>
 
 A proposed change for the #galaxyproject IRC channel was [proposed](/src/News/IRCPublicLogProposal/index.md), and then [discussed, and approved on Galaxy Biostar](http://bit.ly/gxybs8804).  Starting sometime in October, posts to this channel will be made available in a searchable archive on the web.
 
@@ -67,30 +67,30 @@ There are [upcoming events](/src/Events/index.md) in Switzerland, Germany, Austr
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
     <td> <a href='/src/Events/Switzerland2014/trainingday/index.md'>Galaxy Training and Demo Day</a> </td>
-    <td rowspan=3> </strong><a href='/src/Events/SG2014/index.md'>2014 Swiss-German Galaxy Tour</a><strong> with events in </strong>Bern, Switzerland<strong> and </strong>Freiburg, Germany<strong> </td>
+    <td rowspan=3> <strong><a href='/src/Events/SG2014/index.md'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
     <td rowspan=3> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/BjoernGruening/index.md'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='/src/Events/Switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a><em> </td>
+    <td> <em><a href='/src/Events/Switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>
   </tr>
   <tr>
-    <td> </em><a href='/src/Events/Germany2014/index.md'>German Galaxy Developers Day</a><em> </td>
+    <td> <em><a href='/src/Events/Germany2014/index.md'>German Galaxy Developers Day</a></em> </td>
   </tr>
   <tr>
     <th> October 1 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-brisbane-01-october-brisbane/'>Workshop: RNA-Seq analysis using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-brisbane-01-october-brisbane/'>Workshop: RNA-Seq analysis using Galaxy</a></em> </td>
     <td> The University of Queensland, Brisbane, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> October 6 - 24 </th>
-    <td> </em><a href='http://wiki.uio.no/projects/clsi/index.php/INF-BIOX121_H14'>Intensive course in High Throughput Sequencing technologies and bioinformatics analysis</a><em> </td>
+    <td> <em><a href='http://wiki.uio.no/projects/clsi/index.php/INF-BIOX121_H14'>Intensive course in High Throughput Sequencing technologies and bioinformatics analysis</a></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:lex.nederbragt AT ibv.uio.no">Lex Nederbragt</a>, <a href="mailto:karin.lagesen AT medisin.uio.no">Karin Lagesen</a> </td>
   </tr>
   <tr>
     <th> October 10 </th>
-    <td> </em>iReport - A tool to create flexible, scalable Galaxy tool interface<em> </td>
+    <td> <em>iReport - A tool to create flexible, scalable Galaxy tool interface</em> </td>
     <td> <a href='http://wiki.data.dtls.nl/index.php/DTL_Programmers_Meeting'>DTL Programmers Meeting</a>, <a href='http://www.surffoundation.nl/'>SURF Foundation</a>, <a href='http://bit.ly/1r1L5VF'>Utrecht</a>, The Netherlands </td>
     <td> Saskia Hiltemann </td>
   </tr>
@@ -102,31 +102,31 @@ There are [upcoming events](/src/Events/index.md) in Switzerland, Germany, Austr
   </tr>
   <tr>
     <th> November 3-5 </th>
-    <td> </em><a href='http://galaxy4bioinformatics.sb-roscoff.fr/'>Des bonnes pratiques d'intégration d'outils sous Galaxy</a><em> </td>
+    <td> <em><a href='http://galaxy4bioinformatics.sb-roscoff.fr/'>Des bonnes pratiques d'intégration d'outils sous Galaxy</a></em> </td>
     <td> <a href='http://www.sb-roscoff.fr/'>Station Biologique de Roscoff</a>, France </td>
     <td> <a href="mailto:christophe.caron@sb-roscoff.fr">Christophe Caron</a> </td>
   </tr>
   <tr>
     <th> November 3-6 </th>
-    <td> </em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'>Galaxy training days</a><em> </td>
+    <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'>Galaxy training days</a></em> </td>
     <td> <a href='http://bioinfo.genotoul.fr/index.php?id=4#c93'>INRA de Toulouse Midi-Pyrénées</a>, France </td>
     <td> <a href='http://bioinfo.genotoul.fr/index.php?id=74'>GenoToul Bioinformatics Team</a> </td>
   </tr>
   <tr>
     <th> November 18-20 </th>
-    <td> </em><a href='http://www.bioinformatica.crs4.it/training'>Analisi dati Next Generation Sequencing con Galaxy</a><em> </td>
+    <td> <em><a href='http://www.bioinformatica.crs4.it/training'>Analisi dati Next Generation Sequencing con Galaxy</a></em> </td>
     <td> Cagliari, Italy </td>
     <td> <a href="mailto:ngs-courses@crs4.it">CRS4</a> </td>
   </tr>
   <tr>
     <th> November 19-20 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-1920-november-brisbane/'>Workshop: Extended RNA-Seq analysis</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-1920-november-brisbane/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
     <td> The University of Queensland, Brisbane, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> November 26-28 </th>
-    <td> </em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a></em> </td>
     <td> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
     <td> <a href="mailto:navratil AT prabi DOT fr">Navratil V</a>., <a href="mailto:oger AT prabi DOT fr">Oger C.</a>, <a href="mailto:veber AT prabi DOT fr">Veber P.</a>, <a href="mailto:deschamps AT prabi DOT fr">Deschamps C.</a>, <a href="mailto:perriere AT prabi DOT fr">Perriere G.</a> </td>
   </tr>
@@ -135,7 +135,7 @@ There are [upcoming events](/src/Events/index.md) in Switzerland, Germany, Austr
   </tr>
   <tr>
     <th> July 6-8 </th>
-    <td> </strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a><strong> </td>
+    <td> <strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a></strong> </td>
     <td> <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -245,12 +245,12 @@ Two new [public Galaxy server](/src/PublicGalaxyServers/index.md) was added to t
 
 The [GalaxEast](http://www.galaxeast.fr) project has the following main objectives:
 * Provide the academic scientific community with an open and powerful Galaxy instance with a guaranteed availability. The platform offers access to cutting-edge and up-to-date tools for Omics data analysis with help and support.
-* Propose innovative developments and new helpful tools packaged for Galaxy (available in the !GalaxEast toolshed)
+* Propose innovative developments and new helpful tools packaged for Galaxy (available in the GalaxEast toolshed)
 * Promote the packaging of new developments for Galaxy (through wrappers and/or toolshed packages).
 
 [GalaxEast](http://www.galaxeast.fr) is supported by [IGBMC](http://www.igbmc.fr/), [CNRS](http://www.cnrs.fr/), [Inserm](http://www.inserm.fr/), and [Université Strasbourg](http://www.unistra.fr/).
 
-See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](ATTACHMENT_URLDocuments/Posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/Events/ECCB2014/index.md) by Stephanie Le Gras, *et al.* for more.
+See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/Events/ECCB2014/index.md) by Stephanie Le Gras, *et al.* for more.
 
 ## MIRPIPE
 
@@ -269,7 +269,7 @@ See "[MIRPIPE – quantification of microRNAs in niche model organisms](http://b
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </td>
   </tr>
 </table>
 
@@ -322,7 +322,7 @@ In no particular order:
   * [kggseq_variant_selection](https://toolshed.g2.bx.psu.edu/view/crs4/kggseq_variant_selection): Variant selection with KGGSeq
 
 * *From [tyty](https://toolshed.g2.bx.psu.edu/view/tyty/)*
-  * [structurefold](https://toolshed.g2.bx.psu.edu/view/tyty/structurefold): !StructureFold predicts RNA secondary structures from high throughput RNA structure profiling data
+  * [structurefold](https://toolshed.g2.bx.psu.edu/view/tyty/structurefold): StructureFold predicts RNA secondary structures from high throughput RNA structure profiling data
 
 * *From [big-tiandm](https://toolshed.g2.bx.psu.edu/view/big-tiandm/)*
   * [sirna_plant](https://toolshed.g2.bx.psu.edu/view/big-tiandm/sirna_plant): plant siRNA analysis toolkits. siRNA prediction, siRNA annotation, siRNA quantify
@@ -333,10 +333,10 @@ In no particular order:
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp/)*
   * [fasta_merge_files_and_filter_unique_sequences](https://toolshed.g2.bx.psu.edu/view/galaxyp/fasta_merge_files_and_filter_unique_sequences): Merge FASTA files, keeping only unique sequences
   * [filter_by_fasta_ids](https://toolshed.g2.bx.psu.edu/view/galaxyp/filter_by_fasta_ids): Extract sequences from a FASTA file based on a list of IDs
-  * [myrimatch](https://toolshed.g2.bx.psu.edu/view/galaxyp/myrimatch): protein identification via database search using Bumbershoot !MyriMatch
+  * [myrimatch](https://toolshed.g2.bx.psu.edu/view/galaxyp/myrimatch): protein identification via database search using Bumbershoot MyriMatch
   * [ltq_iquant_cli](https://toolshed.g2.bx.psu.edu/view/galaxyp/ltq_iquant_cli): iQuant performs tag based isobaric quantification
   * [idpqonvert](https://toolshed.g2.bx.psu.edu/view/galaxyp/idpqonvert): Bumbershoot idpQonvert, a part of Bumbershoot IDPicker.
-  * [directag_and_tagrecon](https://toolshed.g2.bx.psu.edu/view/galaxyp/directag_and_tagrecon): protein identification via Directag and !TagRecon.
+  * [directag_and_tagrecon](https://toolshed.g2.bx.psu.edu/view/galaxyp/directag_and_tagrecon): protein identification via Directag and TagRecon.
 
 ### Suites
 
@@ -393,7 +393,7 @@ In no particular order:
 
 * [Why the three biggest positive contributions to reproducible research are the iPython Notebook, knitr, and Galaxy](http://bit.ly/1rqHVJW) on the [Simply Statistics blog](http://simplystatistics.org/)
 * Updated [wiki page about dynamically discovering output datasets at runtime](/src/Admin/Tools/MultipleOutputFiles/index.md#number-of-output-datasets-cannot-be-determined-until-tool-run). 
-* The [Ansible playbook used to update usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook) is available in !GitHub.
+* The [Ansible playbook used to update usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook) is available in GitHub.
 * New [GVL Galaxy Release](https://genome.edu.au/wiki/GVL): Metagenomics Tutorial tools, MACS2, BLAST, MEME, hg38, rn6, and Trinity.
 * [Galaxy Community UK](http://galaxy-community.org.uk/) launches at Twitter channel: [@GalaxyUKFriends](https://twitter.com/GalaxyUKFriends)
 * [BOSC 2015 will be in Dublin with ISMB/ECCB 2015](http://news.open-bio.org/news/2014/09/bosc-2015-will-be-in-dublin/).  *We should have voted more often!*

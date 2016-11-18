@@ -73,4 +73,4 @@ The workshop AMI (ami-ab010aee) also includes the example datasets used in the e
 * [Amazon Web Services](http://aws.amazon.com/)
 * [2013 UC Davis Galaxy Course Documentation](http://training.bioinformatics.ucdavis.edu/docs/2013/09/short-course-2013/)
 
-CategoryTrainingResource
+[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)

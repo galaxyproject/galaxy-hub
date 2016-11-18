@@ -114,7 +114,7 @@ At this point you can restart your Galaxy instance and you will be able to verif
 
 The second item to restricting tool visibility is by adding in a [dynamic toolbox filter](http://wiki.galaxyproject.org/UserDefinedToolboxFilters#For_Administrators).
 
-<!>  Filters will only hide Tools from the User Interface, they are still available and can be made visible by means of HTML manipulation. That said these feature is not a security feature, it is intended to separate multiple groups of tools and simplify the !ToolBox.
+<!>  Filters will only hide Tools from the User Interface, they are still available and can be made visible by means of HTML manipulation. That said these feature is not a security feature, it is intended to separate multiple groups of tools and simplify the ToolBox.
 
 You can look at `lib/galaxy/tools/toolbox/filters/examples.py` for good examples of filters. For our example we'll restrict all sections with the word "Admin" in them. This is an easy way to sequester administrative tools for admins only. 
 

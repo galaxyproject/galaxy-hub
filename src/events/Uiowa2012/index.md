@@ -20,12 +20,12 @@ Instructor: [Dave Clements](/src/DaveClements/index.md)
 April 19: Two workshops:**
 <table>
   <tr>
-    <td style=" vertical-align: top;"> </strong>8:30am-12pm<strong> </td>
-    <td> </strong>University of Iowa Biology Building B20<strong><br /><a href='http://www.uiowa.edu/~maps/b/bb1.htm'>Map</a> (This workshop is </strong>full<strong>.) </td>
+    <td style=" vertical-align: top;"> <strong>8:30am-12pm</strong> </td>
+    <td> <strong>University of Iowa Biology Building B20</strong><br /><a href='http://www.uiowa.edu/~maps/b/bb1.htm'>Map</a> (This workshop is <strong>full</strong>.) </td>
   </tr>
   <tr>
-    <td style=" vertical-align: top;"> </strong>1:30pm-5pm<strong> </td>
-    <td> </strong>University of Iowa Hardin Info Commons East Room<strong><br />214 Hardin, <a href='http://www.uiowa.edu/~maps/h/hlhs1.htm'>map</a>, <a href='http://www.lib.uiowa.edu/locations/floorplans/map-hardin.pdf'>floorplan</a> </td>
+    <td style=" vertical-align: top;"> <strong>1:30pm-5pm</strong> </td>
+    <td> <strong>University of Iowa Hardin Info Commons East Room</strong><br />214 Hardin, <a href='http://www.uiowa.edu/~maps/h/hlhs1.htm'>map</a>, <a href='http://www.lib.uiowa.edu/locations/floorplans/map-hardin.pdf'>floorplan</a> </td>
   </tr>
 </table>
 
@@ -64,45 +64,45 @@ No programming or Linux command line experience is required.
   <tr>
     <th style=" text-align: right;"> 8:30 </th>
     <th style=" text-align: right;"> 1:30 </th>
-    <td> </strong>Welcome, Intro<strong><div class='indent'>Introduction to Galaxy and the Galaxy community</div> </td>
+    <td> <strong>Welcome, Intro</strong><div class='indent'>Introduction to Galaxy and the Galaxy community</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:50 </th>
     <th style=" text-align: right;"> 1:50 </th>
-    <td> </strong>Basic Analysis with Galaxy<strong><div class='indent'>Walk though a worked, hands-on example demonstrating basic analysis within Galaxy</div> </td>
+    <td> <strong>Basic Analysis with Galaxy</strong><div class='indent'>Walk though a worked, hands-on example demonstrating basic analysis within Galaxy</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:50 </th>
     <th style=" text-align: right;"> 2:50 </th>
-    <td> </strong>Visualization & Visual Analytics in Galaxy<strong><div class='indent'>Learn to use Galaxy's built-in visualization capabilities.  We'll also demonstrate Galaxy's </em>visual analytics<em> support, using the tight coupling of visualization and analyses to iteratively guide analysis.</div> </td>
+    <td> <strong>Visualization & Visual Analytics in Galaxy</strong><div class='indent'>Learn to use Galaxy's built-in visualization capabilities.  We'll also demonstrate Galaxy's <em>visual analytics</em> support, using the tight coupling of visualization and analyses to iteratively guide analysis.</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:15 </th>
     <th style=" text-align: right;"> 3:15 </th>
-    <td> </strong>Break<strong> </td>
+    <td> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:40 </th>
     <th style=" text-align: right;"> 3:40 </th>
-    <td> </strong>Manage, Reuse and Share your Analyses with Galaxy<strong><div class='indent'>Use Galaxy to record every step, parameter setting, and dataset used in an analysis; share/publish analysis and resulting datasets; and to create generic workflows that can be run on different sets of input data. </div></td>
+    <td> <strong>Manage, Reuse and Share your Analyses with Galaxy</strong><div class='indent'>Use Galaxy to record every step, parameter setting, and dataset used in an analysis; share/publish analysis and resulting datasets; and to create generic workflows that can be run on different sets of input data. </div></td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:05 </th>
     <th style=" text-align: right;"> 4:05 </th>
-    <td> </strong>Intro to NGS Analysis with Galaxy<strong><div class='indent'>Use Galaxy to integrate and analyze your high throughput sequencing data.</div> </td>
+    <td> <strong>Intro to NGS Analysis with Galaxy</strong><div class='indent'>Use Galaxy to integrate and analyze your high throughput sequencing data.</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:00 </th>
     <th style=" text-align: right;"> 5:00 </th>
-    <td> </strong>Done </td>
+    <td> <strong>Done </td>
   </tr>
 </table>
 
 
 ## Slides
 
-* [Introduction to Galaxy](ATTACHMENT_URLDocuments/Presentations/2012_UIowaIntroToGalaxy.pdf), [Dave Clements](/src/DaveClements/index.md)
-* [University of Iowa Custom Galaxy Deployment](ATTACHMENT_URLDocuments/Presentations/2012_UIowaCustomGalaxyDeployment.pdf), Ann Black-Ziegelbein
+* [Introduction to Galaxy](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_UIowaIntroToGalaxy.pdf), [Dave Clements](/src/DaveClements/index.md)
+* [University of Iowa Custom Galaxy Deployment](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_UIowaCustomGalaxyDeployment.pdf), Ann Black-Ziegelbein
 
 ## Support
 
@@ -112,7 +112,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Flyer
 
-Please help get the word out by distributing [this flyer](ATTACHMENT_URLUIowaGalaxyWorkshop.pdf) in your department.
+Please help get the word out by distributing [this flyer](PLACEHOLDER_ATTACHMENT_URL/src/UIowaGalaxyWorkshop.pdf) in your department.
 
 ## Feedback
 

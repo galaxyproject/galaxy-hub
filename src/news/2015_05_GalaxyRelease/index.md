@@ -20,4 +20,4 @@ The release notes have a new home at **[Read the Docs](http://galaxy.readthedocs
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-05-14</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

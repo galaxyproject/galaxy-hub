@@ -18,4 +18,4 @@ Finally, [Biocuration 2013](http://www.ebi.ac.uk/biocuration2013/home) is immedi
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-02-19</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

@@ -86,31 +86,31 @@ There are [upcoming events](/src/Events/index.md) on two continents.  See the [G
   </tr>
   <tr>
     <th> December 3 </th>
-    <td> </em><a href='http://www.ifb-galaxy.org/GALAXYDAYS2014.html'>Galaxy Day</a><em> </td>
+    <td> <em><a href='http://www.ifb-galaxy.org/GALAXYDAYS2014.html'>Galaxy Day</a></em> </td>
     <td> Institut Curie, Paris, France </td>
     <td> <a href="mailto:ifb DOT galaxy AT sb DASH roscoff DOT fr">IFB Galaxy</a> </td>
   </tr>
   <tr>
     <th> December 5-8 </th>
-    <td> </em><a href='http://manuals.bioinformatics.ucr.edu/workshops'>Next Generation Data Analysis Workshop</a><em> </td>
+    <td> <em><a href='http://manuals.bioinformatics.ucr.edu/workshops'>Next Generation Data Analysis Workshop</a></em> </td>
     <td> UC Riverside, Riverside, California, United States </td>
     <td> <a href="mailto:rkaundal AT ucr DOT edu">Rakesh Kaundal</a> </td>
   </tr>
   <tr>
     <th> December 9-11 </th>
-    <td> </em><a href='http://www.pf-bird.univ-nantes.fr/85361781/0/fiche___pagelibre/&RH=1357829686766'>Microarray data analysis on Galaxy</a><em> </td>
+    <td> <em><a href='http://www.pf-bird.univ-nantes.fr/85361781/0/fiche___pagelibre/&RH=1357829686766'>Microarray data analysis on Galaxy</a></em> </td>
     <td> <a href='http://www.pf-bird.univ-nantes.fr/'>BIRD IFB core facility</a> Nantes University/INSERM, Nantes, France </td>
     <td> <a href="mailto:raluca DOT teusan AT inserm DOT fr">Raluca Teusan</a>, Audrey Bihouée, Edouard Hirchaud</td>
   </tr>
   <tr>
     <th> December 12 </th>
-    <td> </em><a href='/src/Events/VSU2014/index.md'>Introduction to Galaxy Workshop</a><em> </td>
+    <td> <em><a href='/src/Events/VSU2014/index.md'>Introduction to Galaxy Workshop</a></em> </td>
     <td> <a href='http://vsu.edu/'>Virginia State University</a>, Petersburg, Virginia, United States </td>
     <td> <a href='http://sest.vsu.edu/biology/Faculty/harris.html'>Glenn Harris</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> December 16-19 </th>
-    <td> </em><a href='https://training.bioinformatics.ucdavis.edu/2014/10/10/rna-seq-and-chip-seq-analysis-with-galaxy-december-16-19-2014/'>RNA-Seq and ChIP-Seq Analysis with Galaxy</a><em> </td>
+    <td> <em><a href='https://training.bioinformatics.ucdavis.edu/2014/10/10/rna-seq-and-chip-seq-analysis-with-galaxy-december-16-19-2014/'>RNA-Seq and ChIP-Seq Analysis with Galaxy</a></em> </td>
     <td> <a href='http://training.bioinformatics.ucdavis.edu/'>UC Davis</a>, California, United States </td>
     <td> <a href="mailto:bioinformatics DOT core AT ucdavis DOT edu">UC Davis Bioinformatics Training</a> </td>
   </tr>
@@ -119,34 +119,34 @@ There are [upcoming events](/src/Events/index.md) on two continents.  See the [G
   </tr>
   <tr>
     <th> January 10-14 </th>
-    <td> </em>Galaxy for SNP and Variant Data Analysis<em> </td>
+    <td> <em>Galaxy for SNP and Variant Data Analysis</em> </td>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXIII (PAG2014)</a>, San Diego, California, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 9-13 </th>
-    <td> </em><a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a><em> </td>
+    <td> <em><a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a></em> </td>
     <td> Montpellier, France </td>
     <td> <a href="mailto:jean-francois.dufayard@cirad.fr">J.F. Dufayard</a> </td>
   </tr>
   <tr>
     <th rowspan=3> February 16-18 </th>
-    <td> </em>Accessible and Reproducible Large-Scale Analysis with Galaxy<em> </td>
+    <td> <em>Accessible and Reproducible Large-Scale Analysis with Galaxy</em> </td>
     <td rowspan=1> <a href='http://www.triconference.com/Sequencing-Analysis/'>Genome and Transcriptome Analysis</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
     <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
-    <td> </em>Large-Scale NGS data Analysis on Amazon Web Services Using Globus Genomic<em> </td>
+    <td> <em>Large-Scale NGS data Analysis on Amazon Web Services Using Globus Genomic</em> </td>
     <td rowspan=2> <a href='http://www.triconference.com/Integration-Analysis-Visualization/'>Genomics & Sequencing Data Integration, Analysis and Visualization</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
     <td> <a href='http://www.ci.anl.gov/profile/250'>Ravi Madduri</a> </td>
   </tr>
   <tr>
-    <td> </em>iReport: An Integrative “omics” Reporting and Visualisation Platform<em> </td>
+    <td> <em>iReport: An Integrative “omics” Reporting and Visualisation Platform</em> </td>
     <td> Andrew Stubbs </td>
   </tr>
   <tr>
     <th> July 6-8 </th>
-    <td> </strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a><strong> </td>
+    <td> <strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a></strong> </td>
     <td> <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -324,7 +324,7 @@ Two new [public Galaxy servers](/src/PublicGalaxyServers/index.md) were announce
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </td>
   </tr>
 </table>
 
@@ -359,7 +359,7 @@ In no particular order:
   * [mira_datatypes](https://toolshed.g2.bx.psu.edu/view/peterjc/mira_datatypes):  Defines 'mira' datatype for the MIRA Assembly Format. Note that Galaxy already has a 'maf' datatype for the Multiple (sequence) Alignment Format (MAF). This is specifically for the MIRA Assembly Format (also called MAF). Previously only on the Test Tool Shed.
   * [clc_assembly_cell](https://toolshed.g2.bx.psu.edu/view/peterjc/clc_assembly_cell): Galaxy wrapper for the CLC Assembly Cell suite from CLCBio. This is a wrapper for the commercial "CLC Assembly Cell" suite from CLCBio which includes a de novo assembler and read mapper: http://www.clcbio.com/products/clc-assembly-cell/  Uploaded v0.0.2, previously only on the Test Tool Shed. 
   * [seq_composition](https://toolshed.g2.bx.psu.edu/view/peterjc/seq_composition): Uploaded v0.0.1 (with embedded citation). Sequence composition. Counts the letters in given sequence files, returning a table listing them with percentages. Suitable for use on assemblies or gene/protein sets. Probably not suitable for raw NGS reads.
-  * [mira4_assembler](https://toolshed.g2.bx.psu.edu/view/peterjc/mira4_assembler): MIRA 4.0 assembler Wrapper for core functionality of assembly tool MIRA 4.0.  Accepts data from Solexa/Illumina, Roche 454, Ion Torrent, !PacBio and Sanger capillary sequencing.  The key MIRA output files are captured, but the other files are deleted when the job finishes.  Uploaded v0.0.4, previously only on the Test Tool Shed. 
+  * [mira4_assembler](https://toolshed.g2.bx.psu.edu/view/peterjc/mira4_assembler): MIRA 4.0 assembler Wrapper for core functionality of assembly tool MIRA 4.0.  Accepts data from Solexa/Illumina, Roche 454, Ion Torrent, PacBio and Sanger capillary sequencing.  The key MIRA output files are captured, but the other files are deleted when the job finishes.  Uploaded v0.0.4, previously only on the Test Tool Shed. 
   * [samtools_depad](https://toolshed.g2.bx.psu.edu/view/peterjc/samtools_depad): Runs "samtools depad" to remap a SAM/BAM file using a padded reference (with gap characters) giving a new BAM file using an unpadded (ungapped) reference. Uploaded v0.0.1, previously only on the Test Tool Shed. 
   * [coverage_stats](https://toolshed.g2.bx.psu.edu/view/peterjc/coverage_stats): This tool runs the commands ``samtools idxstats`` and ``samtools depth`` from the SAMtools toolkit, and parses their output to produce a consise summary of the coverage information for each reference sequence.
 

@@ -20,4 +20,4 @@ The [July 2014 Galaxy Update Newsletter](/src/GalaxyUpdates/2014_07/index.md) is
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-06-25 </div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

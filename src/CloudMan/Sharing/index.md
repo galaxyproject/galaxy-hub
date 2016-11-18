@@ -21,7 +21,7 @@ The following is a list of typical use cases for when cluster sharing is particu
 
 ## Sharing your cluster
 
-Sharing a cluster is achieved via !CloudMan console by clicking the *Share* button next to the cluster name:
+Sharing a cluster is achieved via CloudMan console by clicking the *Share* button next to the cluster name:
 <div class='center'>
 ![](http://i.imgur.com/CVTxmH9.png?2)
 </div>
@@ -42,7 +42,7 @@ Each cluster share is identified via a 'share string', for example *cm-c1af56930
 
 ## Cloning a shared cluster
 
-If you have received a !CloudMan share string, in order to create a clone of the shared cluster, you simply launch a new cluster from [launch.usegalaxy.org](https://launch.usegalaxy.org/) and choose *Do not set cluster type now*. After the initial cluster configuration box shows up, under the *Additional startup options*, paste the shared cluster share string and click the button at the bottom of the form. It will take a few minutes for all the applications to get setup and once that is done, a message popup will inform you that the cluster is ready for use. Your cluster will have all the same configurations, data and tools installed as the original shared cluster.
+If you have received a CloudMan share string, in order to create a clone of the shared cluster, you simply launch a new cluster from [launch.usegalaxy.org](https://launch.usegalaxy.org/) and choose *Do not set cluster type now*. After the initial cluster configuration box shows up, under the *Additional startup options*, paste the shared cluster share string and click the button at the bottom of the form. It will take a few minutes for all the applications to get setup and once that is done, a message popup will inform you that the cluster is ready for use. Your cluster will have all the same configurations, data and tools installed as the original shared cluster.
 
 <div class='center'>
 ![](http://i.imgur.com/AB4PkLt.png?1)
@@ -69,7 +69,7 @@ Because a cluster share contains everything that a cluster has been configured w
 
 # Publicly shared clusters
 
-Below is a list of !CloudMan clusters that have been shared publicly. Feel free to add a cluster you have created and shared or clone one of the existing ones. 
+Below is a list of CloudMan clusters that have been shared publicly. Feel free to add a cluster you have created and shared or clone one of the existing ones. 
 
 
 <table>
@@ -87,7 +87,7 @@ Below is a list of !CloudMan clusters that have been shared publicly. Feel free 
   </tr>
   <tr>
     <td> </td>
-    <td style=" text-align: left;"> A 16.05 Galaxy !CloudMan instances created as a demo for GCC2016. Sample data and sample workflow have been uploaded and published. </td>
+    <td style=" text-align: left;"> A 16.05 Galaxy CloudMan instances created as a demo for GCC2016. Sample data and sample workflow have been uploaded and published. </td>
   </tr>
   <tr>
     <td colspan=3 style=" background-color: #eef;"> </td>
@@ -102,7 +102,7 @@ Below is a list of !CloudMan clusters that have been shared publicly. Feel free 
   </tr>
   <tr>
     <td> </td>
-    <td style=" text-align: left;"> This is a share of the GCC2016 Data Hack cluster (https://gcc16.sched.org/event/5YRH/data-hackathon), from after the conference. </td>
+    <td style=" text-align: left;"> This is a share of the GCC2016 Data Hack cluster (<a href='https://gcc16.sched.org/event/5YRH/data-hackathon), from after the conference. '>https://gcc16.sched.org/event/5YRH/data-hackathon), from after the conference. </a></td>
   </tr>
   <tr>
     <td colspan=3 style=" background-color: #eef;"> </td>

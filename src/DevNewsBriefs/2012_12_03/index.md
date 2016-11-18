@@ -49,7 +49,7 @@ Harris, R.S. (2007) *[Improved pairwise alignment of genomic DNA](http://www.bx.
 
 **[CloudMan](http://usegalaxy.org/cloud)**
 
-CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
+[CloudMan](/src/CloudMan/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
 This update brings a large number of updates and new features, the most prominent ones being:
 * Support for Eucalyptus cloud middleware; thanks to Alex Richter. Also, CloudMan can now run on the HPcloud in basic mode (note that there is no public image available on the HPcloud at the moment and one would thus need to be built by you).
@@ -186,7 +186,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 <div class='right'><a href='/src/Events/GCC2013/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
 
 * [Training Day Topic Nominations](/src/Events/GCC2013/TrainingDay/index.md) for [GCC2013](/src/Events/GCC2013/index.md) will open in December.  Start thinking of ideas now!
-* Slides and Screencast from [November GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md) are online.  The next [GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/index.md) will be on [January 16](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) and feature [John Chilton](/src/JohnChilton/index.md) discussing "Deploying Galaxy on !OpenStack with !CloudBioLinux & CloudMan"
+* Slides and Screencast from [November GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md) are online.  The next [GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/index.md) will be on [January 16](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) and feature [John Chilton](/src/JohnChilton/index.md) discussing "Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan"
 * [A short "Getting started with JGalaxy" document (with screenshots)](http://bit.ly/SkW2yU), by [John Chilton](/src/JohnChilton/index.md)
 * [Batch Workflow starting using the Galaxy API : Practical Example by Geert Vandeweyer](http://bit.ly/TjTj6X)
 

@@ -123,7 +123,7 @@ node1%
 
 
 
-One should also check that the job manager can accept jobs from the `galaxy` user.  This is typically not an issue unless the `galaxy` user lacks a shell login (not uncommon with secure server configurations); this may be an assigned shell of `/bin/false` (Debian/Ubuntu) or `/bin/nologin` (Fedora/RedHat).  A default shell login is typically required for job submission with [TORQUE/PBS](http://www.clusterresources.com/pages/products/torque-resource-manager.php); this can be set using `usermod`:
+One should also check that the job manager can accept jobs from the `galaxy` user.  This is typically not an issue unless the `galaxy` user lacks a shell login (not uncommon with secure server configurations); this may be an assigned shell of `/bin/false` (Debian/Ubuntu) or `/bin/nologin` (Fedora[/RedHat](/src/Admin/Config/Performance/Cluster/Legacy/RedHat/index.md)).  A default shell login is typically required for job submission with [TORQUE/PBS](http://www.clusterresources.com/pages/products/torque-resource-manager.php); this can be set using `usermod`:
 
 
 

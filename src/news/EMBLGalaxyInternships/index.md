@@ -16,4 +16,4 @@ The application deadline for both is 1 February 2013.
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-12-18</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

@@ -12,4 +12,4 @@ My work projects inlucde:
 * Automating the conversion of tools for use in Galaxy
 
 ----
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

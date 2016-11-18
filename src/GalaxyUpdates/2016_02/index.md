@@ -72,7 +72,7 @@ This is an ideal time to share your work with the community.
 <a href='http://www.lenovo.com/systems'><img src="/src/Images/Logos/LenovoRedBig.png" alt="Lenovo" width="180" /></a>
 </div>
 
-And we are pleased to welcome **[Lenovo](http://www.lenovo.com/systems)**, as a first time **[Gold Sponsor](https://gcc2016.iu.edu/sponsors/index.php)** of GCC.  Lenovo offers a [comprehensive portfolio of high-performance computing infrastructure](ATTACHMENT_URLDocuments/LenovoLifeSciences.pdf) designed to accelerate research, reduce IT complexity and maximize asset utilization in the life sciences.  Lenovo and its network of partners offer a broad portfolio of open, industry-standard infrastructure solutions that can help accelerate product innovation without becoming locked into expensive, inflexible proprietary environments. Lenovo Solution for Life Sciences is comprised of pre-integrated, high-performance servers, storage systems and networking equipment, advanced file systems and integrated workflow management software. Designed to accommodate large data volumes and compute-intensive applications, this solution can help organizations accelerate time to results at a lower total cost of ownership while making it easier to scale your HPC cluster as business grows. 
+And we are pleased to welcome **[Lenovo](http://www.lenovo.com/systems)**, as a first time **[Gold Sponsor](https://gcc2016.iu.edu/sponsors/index.php)** of GCC.  Lenovo offers a [comprehensive portfolio of high-performance computing infrastructure](PLACEHOLDER_ATTACHMENT_URL/src/Documents/LenovoLifeSciences.pdf) designed to accelerate research, reduce IT complexity and maximize asset utilization in the life sciences.  Lenovo and its network of partners offer a broad portfolio of open, industry-standard infrastructure solutions that can help accelerate product innovation without becoming locked into expensive, inflexible proprietary environments. Lenovo Solution for Life Sciences is comprised of pre-integrated, high-performance servers, storage systems and networking equipment, advanced file systems and integrated workflow management software. Designed to accommodate large data volumes and compute-intensive applications, this solution can help organizations accelerate time to results at a lower total cost of ownership while making it easier to scale your HPC cluster as business grows. 
 
 <br />
 
@@ -100,7 +100,7 @@ We continue to seek other sponsors as well and [offer a wide range of sponsorshi
     Rachel Legendre, Agnès Baudin-Baillieu, Isabelle Hatin, Olivier Namy, *Bioinformatics*, Vol. 31, No. 15. (01 August 2015), pp. 2586-2588, doi:10.1093/bioinformatics/btv174
 
 * [Integrating UIMA with Alveo, a human communication science virtual laboratory](http://dx.doi.org/10.3115/v1/W14-5202)
-    Dominique Estival, Steve Cassidy, Karin Verspoor, Andrew !MacKinlay, Denis Burnham, In Proceedings of the Workshop on Open Infrastructures and Analysis Frameworks for HLT (August 2014), pp. 12-22, doi:10.3115/v1/W14-5202 
+    Dominique Estival, Steve Cassidy, Karin Verspoor, Andrew MacKinlay, Denis Burnham, In Proceedings of the Workshop on Open Infrastructures and Analysis Frameworks for HLT (August 2014), pp. 12-22, doi:10.3115/v1/W14-5202 
 
 * [Alveo, a Human Communication Science Virtual Laboratory](http://www.aclweb.org/anthology/U/U14/U14-1013.pdf)
     Dominique Estival, Steve Cassidy, In Proceedings of the Australasian Language Technology Association Workshop 2014 (November 2014), pp. 104-107
@@ -198,31 +198,31 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   </tr>
   <tr>
     <th> February 8-9 </th>
-    <td> </em><a href='https://mod2016.com/'>Initiation à l’environnement UNIX et à la plateforme GALAXY</a><em> </td>
+    <td> <em><a href='https://mod2016.com/'>Initiation à l’environnement UNIX et à la plateforme GALAXY</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='https://mod2016.com/'>Montpellier OMICS Days 2016</a>, Montpellier, France </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
   </tr>
   <tr>
     <th> February 11 </th>
-    <td> </em><a href='http://bioteam.net/bioteam-appliance/galaxy-edition/'>BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)</a><em> </td>
+    <td> <em><a href='http://bioteam.net/bioteam-appliance/galaxy-edition/'>BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://www.agbt.org/meetings/agbt-general-meeting/'>AGBT</a>, Orlando, Florida, United States </td>
     <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a></td>
   </tr>
   <tr>
     <th> February 15-19 </th>
-    <td> </em><a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a><em> </td>
+    <td> <em><a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='https://www.supagro.fr/web/index.php'>Montpellier SupAgro</a>, Montpellier, France </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='https://www.supagro.fr/web/pages/contact.php?id=139'>Yolande Olivier</a>, <a href='https://www.supagro.fr/web/pages/contact.php?id=102'>Dominique Alhinc</a> </td>
   </tr>
   <tr>
     <th> February 18 </th>
-    <td> </em><a href='/src/Community/GalaxyAdmins/Meetups/2016_02_18/index.md'>GalaxyAdmins Web Meetup</a><em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/World/index.md) </em><a href='/src/Community/GalaxyAdmins/Meetups/2016_02_18/index.md'>Online</a><em> </td>
+    <td> <em><a href='/src/Community/GalaxyAdmins/Meetups/2016_02_18/index.md'>GalaxyAdmins Web Meetup</a></em> </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/World/index.md) <em><a href='/src/Community/GalaxyAdmins/Meetups/2016_02_18/index.md'>Online</a></em> </td>
     <td> <a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='/src/nate/index.md'>Nate Coraor</a>,<a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 20-23 </th>
-    <td> </em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a><em> </td>
+    <td> <em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md)  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
   </tr>
@@ -232,25 +232,25 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   </tr>
   <tr>
     <th> March 7-8 </th>
-    <td> </strong><a href='https://github.com/galaxyproject/tools-iuc/issues/422'>IUC Contribution Fest - RADSeq Tools and Workflows</a><strong> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/World/index.md) </em>Online<em> </td>
+    <td> <strong><a href='https://github.com/galaxyproject/tools-iuc/issues/422'>IUC Contribution Fest - RADSeq Tools and Workflows</a></strong> </td>
+    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/World/index.md) <em>Online</em> </td>
     <td> <a href='IUC'>/src/IUC/index.md</a> </td>
   </tr>
   <tr>
     <th> March 15 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module17-15mars.pdf'>Initiation à l’utilisation de Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module17-15mars.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
     <td> <a href="mailto:formation.migale AT jouy.inra.fr">Formation Migale</a> </td>
   </tr>
   <tr>
     <th> March 16 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module8bis.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module8bis.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
     <td> <a href="mailto:formation.migale AT jouy.inra.fr">Formation Migale</a> </td>
   </tr>
   <tr>
     <th> March 17 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module18bis.pdf'>Traitement bioinformatique des données RNA-Seq sous Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module18bis.pdf'>Traitement bioinformatique des données RNA-Seq sous Galaxy</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
     <td> <a href="mailto:formation.migale AT jouy.inra.fr">Formation Migale</a> </td>
   </tr>
@@ -260,7 +260,7 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   </tr>
   <tr>
     <th> April 6 </th>
-    <td> </em><a href='http://www.bio-itworldexpo.com/data-visualization/'>Approaches for the Integration of Visual and Computational Analysis of Biomedical Data</a><em> </td>
+    <td> <em><a href='http://www.bio-itworldexpo.com/data-visualization/'>Approaches for the Integration of Visual and Computational Analysis of Biomedical Data</a></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://www.bio-itworldexpo.com/'>BioIT World 2016</a>, Boston, Massachusetts, United States </td>
     <td> Nils Gehlenborg </td>
   </tr>
@@ -270,7 +270,7 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   </tr>
   <tr>
     <th> June 25-29 </th>
-    <td> </strong></em><a href='https://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a><strong><em> </td>
+    <td> <strong><em><a href='https://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
     <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
     <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md)  <a href='https://gcc2016.iu.edu/organizers'>Organizers</a> </td>
   </tr>
@@ -353,7 +353,7 @@ Interactive tours are a way to walk through Galaxy, following a set of steps to 
 # Galaxy on Windows and OS X using Kitematic
 
 <div class='right'>
-<a href='/src/attachment:Images/NewsGraphics/KitematicSearchBgruening.png/index.md'><img src="/src/Images/NewsGraphics/KitematicSearchBgruening.png" alt="" width="300" /></a>
+<a href='/src/Images/NewsGraphics/KitematicSearchBgruening.png'><img src="/src/Images/NewsGraphics/KitematicSearchBgruening.png" alt="" width="300" /></a>
 </div>
 
 Galaxy has been available in Docker containers for a while now.  Docker containers are an easy way to package software for installation on other systems.  The [Docker Toolbox](https://www.docker.com/products/docker-toolbox) now includes [Kitematic](https://kitematic.com/), a GUI for running Docker containers on Windows and Mac OS X systems.  Kitematic makes it easy to run any published Docker container on these systems.
@@ -438,9 +438,9 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 <div class='right'><a href='/src/CloudMan/index.md'><img src="/src/Images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
 
-**CloudMan 15.12**
+**[CloudMan](/src/CloudMan/index.md) 15.12**
 
-CloudMan is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser. 
+[CloudMan](/src/CloudMan/index.md) is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser. 
 
 This minor [CloudMan 15.12 release](https://github.com/galaxyproject/cloudman/releases) includes:
 
@@ -478,13 +478,13 @@ The 0.6.x release includes these changes:
    [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  [Planemo 0.21.1](https://pypi.python.org/pypi/planemo/0.21.1#history) is the most recent release. See the [release history](http://planemo.readthedocs.org/en/latest/history.html#id2).
 
 
-**!BioBlend 0.7.0**
+**BioBlend 0.7.0**
 
-   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. !BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
 **blend4j v0.1.2**
-   [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and !BioCloudCentral.
+   [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and BioCloudCentral.
 
 
 ----
@@ -499,9 +499,9 @@ The 0.6.x release includes these changes:
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </strong> </td>
   </tr>
 </table>
 
@@ -525,7 +525,7 @@ See [list of tools contributed in January](/src/ToolShed/Contributions/2016_01/i
 ## Galaxy Goes Mobile!
 
 <div class='right'>
-![A history in Galaxy Portal](/src/Images/NewsGraphics/GalaxyPortalHistory.png)
+<img src="/src/Images/NewsGraphics/GalaxyPortalHistory.png" alt="A history in Galaxy Portal" width="200" />
 </div>
 
 **Galaxy is now accessible from your [IOS](https://itunes.apple.com/us/app/galaxy-portal/id937158087?mt=8) and [Android](https://play.google.com/store/apps/details?id=no.uio.bmi.claus) devices.** The Galaxy Portal app is a quick and easy way to monitor the status of biomedical research on any Galaxy server. With this app you can set up a list of Galaxy connections and browse your analyses histories in a user-friendly format and take a peek at your data on the go.

@@ -28,8 +28,8 @@ Have you created or know of a resource that is useful for teaching with Galaxy? 
 To add a training resource to this directory, create a wiki page describing the resource. Here are the directions:
 
 1. [Login](/src/Community/Deployments/index.md) to the wiki. If you don't have an account, you'll need to [create one](/src/Community/Deployments/index.md).
-1. Pick a good descriptive, !CamelCase name for your deployment.  This will become part of the URL for the page describing your deployment.  Avoid embedded spaces as they make lousy URLs.
-1. Type the !CamelCase name in box below and hit the "Create" button.
+1. Pick a good descriptive, CamelCase name for your deployment.  This will become part of the URL for the page describing your deployment.  Avoid embedded spaces as they make lousy URLs.
+1. Type the CamelCase name in box below and hit the "Create" button.
     . PLACEHOLDER_NEW_PAGE(Teach/Resources/ResourceTemplate, "Create a teaching resource description page", Teach/Resource)
 1. A template for the new page will appear.  Replace the template text with details about the resource.
 1. Save, review, and edit the page until you are happy with it.

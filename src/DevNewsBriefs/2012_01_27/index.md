@@ -32,7 +32,7 @@ title: January 27, 2012 Galaxy Development News Brief
 
 ## Job Management
 
-* **[DRMAA](http://www.drmaa.org/)** runner: !DrmCommunicationException will no longer cause a job to fail.  Instead, the job will return to the monitored job queue and be checked again.
+* **[DRMAA](http://www.drmaa.org/)** runner: DrmCommunicationException will no longer cause a job to fail.  Instead, the job will return to the monitored job queue and be checked again.
 * Use temporary files instead of pipes for local job execution - prevents tools from hanging when they write large amounts of data to STDOUT/STDERR.
 
 ## Tools

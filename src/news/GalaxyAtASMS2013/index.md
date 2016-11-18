@@ -10,4 +10,4 @@ If you do research in proteomics than please consider attending.
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-04-19</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

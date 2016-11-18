@@ -97,14 +97,14 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/src/Support/Biosta
 1. Enhancements for configuring tools that produce a variable number of outputs. [PR#356](https://bitbucket.org/galaxy/galaxy-central/pull-request/356/). https://trello.com/c/3SNHcQlU
 1. Pull in a complete tool input parameters spec in JSON (e.g. recursion into Group parameters: Conditional and Repeat). https://trello.com/c/ydPxchL4
 1. Toolshed Tools: Display link to toolshed repository on form. https://trello.com/c/QRAP0eFj
-1. Changed `selected_file` to `repo_file`. Resolve `NameError`: global name 'selected_file' is not defined. Trevor Wennblom, [PR#382](https://bitbucket.org/galaxy/galaxy-central/pull-request/382/). https://trello.com/c/FhofbMxp
+1. Changed `selected_file` to `repo_file`. Resolve `NameError`: global name 'selected_file' is not defined. Trevor Wennblom, [PR#382](https://bitbucket.org/galaxy/galaxy-central/pull-request/382/). https://trello.com/c[/FhofbMxp](/src/DevNewsBriefs/2014_06_02/FhofbMxp/index.md)
 
 <br />
 # Visualizations
 
 1. *Trackster*: 
-  * Implement location router in shared visualizations. https://trello.com/c/C7YpvTAi
-  * Put converted datasets into history as hidden dataset. https://trello.com/c/G5ZzUb3X
+  * Implement location router in shared visualizations. https://trello.com/c[/C7Ypv](/src/DevNewsBriefs/2014_06_02/C7Ypv/index.md)TAi
+  * Put converted datasets into history as hidden dataset. https://trello.com/c[/G5ZzUb3](/src/DevNewsBriefs/2014_06_02/G5ZzUb3/index.md)X
 1. External Display Applications: 
   * Updates to IGB display of XML files. https://trello.com/c/e23KKCKb https://trello.com/c/qJyALlN7
   * Added IGB display support for bed graph files. hillrunner2008, [PR#361](https://bitbucket.org/galaxy/galaxy-central/pull-request/361/). https://trello.com/c/pJeuhEP3
@@ -124,7 +124,7 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/src/Support/Biosta
 1. Dataset provenance functionality improved for all user types. https://trello.com/c/ms6rtKmQ
 1. Improve public `username` handling at registration (including via API). https://trello.com/c/UAfb8SVX
 1. Improve `History options -> Purge deleted datasets` to update user disk usage. https://trello.com/c/bvOL9IBb
-1. Simplify localization of output and ensure acceptance of UTF-8 in history, dataset API, and client code. https://trello.com/c/SxVszv0r
+1. Simplify localization of output and ensure acceptance of UTF-8 in history, dataset API, and client code. https://trello.com/c[/SxVszv0r](/src/DevNewsBriefs/2014_06_02/SxVszv0r/index.md)
 1. Create a proper JS object to contain components (user, configuration, logger). https://trello.com/c/JXPol7vs
 1. Extending the UI library: new elements. https://trello.com/c/xYiHvOfl
 
@@ -135,14 +135,14 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/src/Support/Biosta
 1. Allow fetching input/output dataset association information through jobs API. https://trello.com/c/1ly1QN3a
 1. Include job id in dataset provenance API. https://trello.com/c/SH8mWi8J
 1. Expose use_remote_user via configuration API. https://trello.com/c/AGKePuHZ
-1. Update code checks and documentation after commit 17a2dc7. Nicola Soranzo, [PR#383](https://bitbucket.org/galaxy/galaxy-central/pull-request/383/). https://trello.com/c/Ms6E0enr
-1. Fix for "'!HistoryTagsController' object has no attribute 'security_check'". Nicola Soranzo, [PR#394](https://bitbucket.org/galaxy/galaxy-central/pull-request/394). https://trello.com/c/7iIv01zm
+1. Update code checks and documentation after commit 17a2dc7. Nicola Soranzo, [PR#383](https://bitbucket.org/galaxy/galaxy-central/pull-request/383/). https://trello.com/c[/Ms6E0enr](/src/DevNewsBriefs/2014_06_02/Ms6E0enr/index.md)
+1. Fix for "'HistoryTagsController' object has no attribute 'security_check'". Nicola Soranzo, [PR#394](https://bitbucket.org/galaxy/galaxy-central/pull-request/394). https://trello.com/c/7iIv01zm
 
 <br />
 # Core
 
 1. Admin: 
-  * Messaging and Task Queue update. https://trello.com/c/B0pV80d0
+  * Messaging and Task Queue update. https://trello.com/c[/B0pV80d0](/src/DevNewsBriefs/2014_06_02/B0pV80d0/index.md)
   * Client side logging for metrics and API entry point for fluentd. https://trello.com/c/7yfdzZj2
   * Improve `View data tables registry` for developers. https://trello.com/c/gmClxfV8
   * Update `phantomjs 1.9` and `casperjs 1.1` plus tests and modules in `test/casperjs`. https://trello.com/c/VjDIpgt3
@@ -159,21 +159,21 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/src/Support/Biosta
     * https://wiki.galaxyproject.org/Admin/Config/JobMetrics
     * https://wiki.galaxyproject.org/Admin/Config/Jobs#Job_Destinations
     * job_conf.xml.sample_advanced
-  * Plugin framework and plugins for job metrics. https://trello.com/c/MexBahA3
+  * Plugin framework and plugins for job metrics. https://trello.com/c[/MexBahA3](/src/DevNewsBriefs/2014_06_02/MexBahA3/index.md)
   * Capture and report time taken to run each job. https://trello.com/c/tRxCl9xv
   * Local Job Runner Enhancements. [PR#384](https://bitbucket.org/galaxy/galaxy-central/pull-request/384/). https://trello.com/c/PDwEzOj1
   * Improve `run_functional_tests.sh` script. https://trello.com/c/14Mt7Nap
   * Fix GALAXY_SLOTS calculation for LSF. Ilya Sytchev. https://trello.com/c/WZ7ydlnW
   * Add option test system environment option GALAXY_TEST_VERBOSE_ERRORS to report on dataset errors. https://trello.com/c/neyVEnxZ
   * Update the job exit codes. Jian-Long Huang, [PR#365](https://bitbucket.org/galaxy/galaxy-central/pull-request/365/). https://trello.com/c/BXldAhSn
-  * CLI Job Runner Enhancements. [PR#385](https://bitbucket.org/galaxy/galaxy-central/pull-request/385/). https://trello.com/c/KclOsZJi
+  * CLI Job Runner Enhancements. [PR#385](https://bitbucket.org/galaxy/galaxy-central/pull-request/385/). https://trello.com/c[/KclOs](/src/DevNewsBriefs/2014_06_02/KclOs/index.md)ZJi
   * Change: `job_directory -> jobs_directory`. Trevor Wennblom, [PR#360](https://bitbucket.org/galaxy/galaxy-central/pull-request/360/). https://trello.com/c/DXBL1XTt
   * LWR Message Queue Fixes and Improvements. https://trello.com/c/wMvq2qNZ
 
 <br />
 # Security
 
-1. Change to avoid potential privacy exploit during login. https://trello.com/c/XlXwM866
+1. Change to avoid potential privacy exploit during login. https://trello.com/c[/XlXwM866](/src/DevNewsBriefs/2014_06_02/XlXwM866/index.md)
 1. Remove use of unencoded ids from history_common.mako, related controllers. https://trello.com/c/psDNnyRL
 
 # Fixes
@@ -209,7 +209,7 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/src/Support/Biosta
 ## API
 
 1. Improve API error message when sent an incorrect user name. https://trello.com/c/bxZiluH3
-1. API installation of "Repository suite definition" no longer fails when there are multiple, different, owners. https://trello.com/c/Bxe2E5Pp
+1. API installation of "Repository suite definition" no longer fails when there are multiple, different, owners. https://trello.com/c[/Bxe2E5Pp](/src/DevNewsBriefs/2014_06_02/Bxe2E5Pp/index.md)
 1. Enhance the API to provide the current set of categories. https://trello.com/c/xaUy82rl
 
 ## Test Framework

@@ -25,4 +25,4 @@ This AMI (**ami-ab010aee**)was created for the [RNA-Seq and ChIP-Seq Analysis wi
 * [UC Davis Bioinformatics Core Training Galaxy AMI](/src/Teach/Resource/UCDavisCoreAMI/index.md)
 * [Workshop Documentation](http://training.bioinformatics.ucdavis.edu/docs/2014/12/december-2014-workshop/)
 
-CategoryVirtualAppliance
+[CategoryVirtualAppliance](/src/CategoryVirtualAppliance/index.md)

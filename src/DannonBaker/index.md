@@ -24,4 +24,4 @@ Dannon is a software engineer in the [Taylor Lab](http://taylorlab.org/) at [Joh
 </table>
 
 ----
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

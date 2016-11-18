@@ -53,7 +53,7 @@ https://bitbucket.org/galaxy/galaxy-dist/changeset/685a17af92dfd6a2e3d7e3c9a3a4b
 <br />
 # New Trello Issue Board
 
-The Galaxy project now has a [new issue tracking system](/src/Issues/index.md). The public facing ***[Trello](http://trello.com)*** board is accessible from **http://galaxyproject.org/trello** to perform simple web issue reporting. The direct link into the *Trello* board is **https://trello.com/board/galaxy-development-inbox/50686d0302dfa79d13d90c45**. Please note that the same guidelines about creating issues used previously at *Bitbucket* apply here as well - report software issues and change requests, but get support and ask questions on the mailing list: galaxy-dev@bx.psu.edu.  
+The Galaxy project now has a [new issue tracking system](/src/Issues/index.md). The public facing ***[Trello](http://trello.com)*** board is accessible from **http://galaxyproject.org/trello''' to perform simple web issue reporting. The direct link into the ''Trello'' board is '''https://trello.com/board/galaxy-development-inbox/50686d0302dfa79d13d90c45'''. Please note that the same guidelines about creating issues used previously at ''Bitbucket'' apply here as well - report software issues and change requests, but get support and ask questions on the mailing list: galaxy-dev@bx.psu.edu.  
 
 To add new cards, the community can quickly fill out the form at http://galaxyproject.org/trello and submit (use markdown for formatting, if desired), but comment on and vote for issues directly on the *[Trello](https://trello.com/board/galaxy-development-inbox/50686d0302dfa79d13d90c45)* issue board itself.
 

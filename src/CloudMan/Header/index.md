@@ -1,2 +1,2 @@
-<div class='center'>![CloudMan](/src/Images/GalaxyLogos/cloudman-logo.jpg)</div>
+<div class='center'><img src="/src/Images/GalaxyLogos/cloudman-logo.jpg" alt="CloudMan" width="50%" /></div>
 <br />

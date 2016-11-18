@@ -36,7 +36,7 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=18A8CB'>A Cheap and Efficient Approach to Identify Sex-Linked Genes in Non-Model Organisms Using NGS Data</a> </td>
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=18A8CB'>Sex Chromosomes</a><div class='indent'>Royal Palm Salon 5-6</div> </td>
     <td> </td>
-    <td> <a href='http://lbbe.univ-lyon1.fr/-Muyle-Aline-.html'>Aline Muyle</a>, </em>et al.<em> </td>
+    <td> <a href='http://lbbe.univ-lyon1.fr/-Muyle-Aline-.html'>Aline Muyle</a>, <em>et al.</em> </td>
   </tr>
   <tr>
     <th colspan=6> </th>
@@ -47,24 +47,24 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=18AACECC'>P988: The South Green Bioinformatics Platform</a> </td>
     <td rowspan=2> Poster Session<br />Even Numbers </td>
     <td> </td>
-    <td rowspan=1> <a href='http://www.southgreen.fr/content/mathieu-rouard'>Mathieu Rouard</a>, </em>et al.<em> </td>
+    <td rowspan=1> <a href='http://www.southgreen.fr/content/mathieu-rouard'>Mathieu Rouard</a>, <em>et al.</em> </td>
   </tr>
   <tr>
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=1DA9CA'>P1050: Integrative System for Gene Family Gathering and Analysis in a Context of Crops’ Stress Response Study</a> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/2014PAGIntegrativeSystem.pdf'>Poster</a> </td>
-    <td rowspan=1> <a href='http://www.southgreen.fr/content/delphine-larivi%C3%A8re'>Delphine Larivière</a>, </em>et al.<em> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2014PAGIntegrativeSystem.pdf'>Poster</a> </td>
+    <td rowspan=1> <a href='http://www.southgreen.fr/content/delphine-larivi%C3%A8re'>Delphine Larivière</a>, <em>et al.</em> </td>
   </tr>
   <tr>
     <td rowspan=2 style=" text-align: center;"> 3:00:4:30 </td>
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=1DAFCA'>P135: SNP Genotyping to Accelerate Rice Breeding</a> </td>
     <td rowspan=2> Poster Session<br />Odd Numbers </td>
     <td> </td>
-    <td> <a href='http://irri.org/about-us/our-people/experts/michael-thomson'>Michael Thomson</a>, </em>et al.<em> </td>
+    <td> <a href='http://irri.org/about-us/our-people/experts/michael-thomson'>Michael Thomson</a>, <em>et al.</em> </td>
   </tr>
   <tr>
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=1AA0CA'>P1041: RepeatExplorer: Collection of Tools for Mining of Repetitive Elements from NGS Data</a> </td>
     <td> </td>
-    <td> <a href='https://pag.confex.com/pag/xxii/webprogram/Person25389.html'>Petr Novak</a>, </em>et al.<em> </td>
+    <td> <a href='https://pag.confex.com/pag/xxii/webprogram/Person25389.html'>Petr Novak</a>, <em>et al.</em> </td>
   </tr>
   <tr>
     <th colspan=6> </th>
@@ -81,7 +81,7 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
     <td style=" text-align: center;"> 4:00-6:10 </td>
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=18AEC6'>Galaxy for NGS Data Analysis: A Hands-on Workshop</a> </td>
     <td> Workshops<div class='indent'>California Room</div> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2014PAGNGSAnalysisWorkshop.pdf'>Slides1</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2014PAGRunningALocalGalaxy.pdf'>Slides2</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2014PAGNGSAnalysisWorkshop.pdf'>Slides1</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2014PAGRunningALocalGalaxy.pdf'>Slides2</a> </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a>, Anushka Brownley </td>
   </tr>
   <tr>
@@ -92,13 +92,13 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
     <td style=" text-align: center;"> 11:10-11:50 </td>
     <td> <a href='https://urgi.versailles.inra.fr/About-us/Publications/URGI-plant-and-fungi-platform-distributed-resources-through-GMOD-tools'>URGI Plant and Fungi Platform: Distributed Resources through GMOD Tools</a> </td>
     <td rowspan=2 style=" text-align: left;"> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=1FAC'>GMOD Workshop</a><div class='indent'>Golden West</div> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2014PAGURGI.pdf'>Slides</a> </td>
-    <td> <a href='https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Joelle-Amselem'>Joelle Amselem</a>, </em>et al.<em> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2014PAGURGI.pdf'>Slides</a> </td>
+    <td> <a href='https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Joelle-Amselem'>Joelle Amselem</a>, <em>et al.</em> </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> 11:50-12:30 </td>
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=1FAC'>Galaxy CloudMan: A Gentle Introduction to Data Analysis on the Cloud</a> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2014PAGCloudManTalk.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2014PAGCloudManTalk.pdf'>Slides</a> </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
 </table>
@@ -120,7 +120,7 @@ The [GMOD 2014](http://gmod.org/wiki/Jan_2014_GMOD_Meeting) meeting schedule has
   <tr>
     <th> Thursday<br />January 16 </th>
     <td> Galaxy Project Update </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2014GMODGalaxyUpdae.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2014GMODGalaxyUpdae.pdf'>Slides</a> </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
@@ -135,6 +135,6 @@ The [GMOD 2014](http://gmod.org/wiki/Jan_2014_GMOD_Meeting) meeting schedule has
 ## Flier
 
 <div class='left'>
-[{{attachment:GalaxyAtPAG_GMOD_2014Thumb.png|Galaxy Related Events @ PAG & GMOD 2014|height="137"}}|&do=get](ATTACHMENT_URLGalaxyAtPAG2014Flier.pdf) 
-[{{attachment:Events/GCC2014/Promotion/GCC2014FlierThumb.png|Galaxy @ PAG; on one side GCC announcement on the other}}|&do=get](ATTACHMENT_URLGalaxyAtPAG2014wGCCFlier.pdf)</div>
-Going to PAG?  Print out a copy of the [Galaxy @ PAG 2014 flier|&do=get](ATTACHMENT_URLGalaxyAtPAG2014Flier.pdf).  Want to help get the word out about Galaxy?  [Print the version with the GCC2014 announcement on the back|&do=get](ATTACHMENT_URLGalaxyAtPAG2014wGCCFlier.pdf) and take several copies with you.
+<a href='PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtPAG2014Flier.pdf'><img src="/src/Events/PAG_GMOD_2014/GalaxyAtPAG_GMOD_2014Thumb.png" alt="Galaxy Related Events @ PAG & GMOD 2014" height="137" /></a> 
+<a href='PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtPAG2014wGCCFlier.pdf'><img src="/src/Events/GCC2014/Promotion/GCC2014FlierThumb.png" alt="Galaxy @ PAG; on one side GCC announcement on the other" /></a></div>
+Going to PAG?  Print out a copy of the [Galaxy @ PAG 2014 flier](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtPAG2014Flier.pdf).  Want to help get the word out about Galaxy?  [Print the version with the GCC2014 announcement on the back](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtPAG2014wGCCFlier.pdf) and take several copies with you.

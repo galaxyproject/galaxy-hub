@@ -56,7 +56,7 @@ Ask Tech savvy people to be teaching assistants.  They may not be familiar with 
 
 ### Create online communities
 
-Set up a mailing list / Google Group for every course.  This creates a "micro-!SeqAnswers" for a group of people who know each other from a course.  A much less intimidating forum than public boards.
+Set up a mailing list / Google Group for every course.  This creates a "micro-SeqAnswers" for a group of people who know each other from a course.  A much less intimidating forum than public boards.
 
 ### Licensing
 

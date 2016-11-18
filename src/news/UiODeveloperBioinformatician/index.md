@@ -14,4 +14,4 @@ The position includes the development and management of services aimed at life s
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-03-02</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

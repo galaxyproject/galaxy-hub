@@ -27,7 +27,7 @@ We plan to continue, and perhaps finish, that discussion at GCC2013, at this BoF
 
 <table>
   <tr>
-    <td style=" class="red" "> </strong>Please note the change in Time and Location<strong> </td>
+    <td style=" class="red" "> <strong>Please note the change in Time and Location</strong> </td>
   </tr>
 </table>
 
@@ -46,7 +46,7 @@ If you are interested, please add your name below and/or send an email to [mailt
 * Srinivas Maddhi
 * [mailto:Graham dot Etherington AT tsl DOT ac DOT uk](Graham Etherington)
 * [mailto:Chris . Bridson AT nbi DOT ac DOT uk](Chris Bridson)
-* Scott Edmunds, !GigaScience
+* Scott Edmunds, GigaScience
 * [Steve McMahon, CSIRO, Australia](/src/SteveMcMahon/index.md)
 * Subazini Thankaswamy
 * Sebastian Schaaf
@@ -77,7 +77,7 @@ If you are interested, please add your name below and/or send an email to [mailt
 1. We can be sure that some relevant postings would not have the tag
 2. Therefore people would have to subscribe to the full list anyway.
 
-If you still want this functionality, you are encouraged to configure your email software to tag anything with "GalaxyAdmins" in it. 
+If you still want this functionality, you are encouraged to configure your email software to tag anything with "[GalaxyAdmins](/src/GalaxyAdmins/index.md)" in it. 
 </div>
 
 **Meetups:**

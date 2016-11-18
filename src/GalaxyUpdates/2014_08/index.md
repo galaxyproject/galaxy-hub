@@ -44,7 +44,7 @@ Feedback has been very positive (see below for some of it), and we would like to
     <td rowspan=2 style=" text-align: center;"> Would you recommend future Galaxy events to others? </td>
     <td rowspan=2 colspan=2 style=" text-align: right;"> 2% </td>
     <td rowspan=2 style=" text-align: right;"> 3% </td>
-    <td rowspan=2 colspan=2 style=" text-align: right;"> </strong>95%<strong> </td>
+    <td rowspan=2 colspan=2 style=" text-align: right;"> <strong>95%</strong> </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> <a href='/src/Events/GCC2014/TrainingDay/index.md'>Training Day Participants</a> </td>
@@ -74,7 +74,7 @@ Feedback has been very positive (see below for some of it), and we would like to
     <td style=" text-align: right;"> 0% </td>
     <td style=" text-align: right;"> 0% </td>
     <td style=" text-align: right;"> 12% </td>
-    <td style=" text-align: right;"> </strong>56%<strong> </td>
+    <td style=" text-align: right;"> <strong>56%</strong> </td>
     <td style=" text-align: right;"> 32% </td>
   </tr>
   <tr>
@@ -85,7 +85,7 @@ Feedback has been very positive (see below for some of it), and we would like to
     <td rowspan=2 style=" text-align: right;"> 0% </td>
     <td rowspan=2 style=" text-align: right;"> 0% </td>
     <td rowspan=2 style=" text-align: right;"> 2% </td>
-    <td rowspan=2 style=" text-align: right;"> </strong>51%<strong> </td>
+    <td rowspan=2 style=" text-align: right;"> <strong>51%</strong> </td>
     <td rowspan=2 style=" text-align: right;"> 47% </td>
   </tr>
   <tr>
@@ -100,7 +100,7 @@ Feedback has been very positive (see below for some of it), and we would like to
     <td rowspan=2 style=" text-align: right;"> 0% </td>
     <td rowspan=2 style=" text-align: right;"> 0% </td>
     <td rowspan=2 style=" text-align: right;"> 10% </td>
-    <td rowspan=2 style=" text-align: right;"> </strong>55%<strong> </td>
+    <td rowspan=2 style=" text-align: right;"> <strong>55%</strong> </td>
     <td rowspan=2 style=" text-align: right;"> 35% </td>
   </tr>
   <tr>
@@ -162,43 +162,43 @@ Over the rest of the few months there are many [Galaxy related events](/src/Even
   </tr>
   <tr>
     <th> August 15 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-an-introduction-to-de-novo-genome-assembly-15-august-brisbane/'>Workshop: An Introduction to De Novo Genome Assembly</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-an-introduction-to-de-novo-genome-assembly-15-august-brisbane/'>Workshop: An Introduction to De Novo Genome Assembly</a></em> </td>
     <td> The University of Queensland, Brisbane, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> August 25-27 </th>
-    <td> </em>Análise e anotação funcional de seqüências NGS usando Stingray@Galaxy<em> </td>
+    <td> <em>Análise e anotação funcional de seqüências NGS usando Stingray@Galaxy</em> </td>
     <td> <a href='https://portal.fiocruz.br/'>Fiocruz</a>, Rio de Janeiro, Brasil </td>
     <td> <a href="mailto:bioinformatica@ioc.fiocruz.br">Plataforma de Bioinformática do IOC</a> </td>
   </tr>
   <tr>
     <th> August 29 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy/'>Workshop: Variant detection using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy/'>Workshop: Variant detection using Galaxy</a></em> </td>
     <td> The University of Queensland, Brisbane, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> September 6-10 </th>
     <td> <a href='/src/Events/ECCB2014/index.md'>At least one tutorial, a panel of European Public Galaxy Instances, and 5 posters</a> </td>
-    <td> </strong><a href='/src/Events/ECCB2014/index.md'>European Conference on Computational Biology (ECCB'14)</a><strong>, Strasbourg, France </td>
+    <td> <strong><a href='/src/Events/ECCB2014/index.md'>European Conference on Computational Biology (ECCB'14)</a></strong>, Strasbourg, France </td>
     <td> <a href='/src/Events/ECCB2014/index.md'>Presenters</a> </td>
   </tr>
   <tr>
     <th> September 11 </th>
-    <td> </em><a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'>Tools integration on Galaxy</a><em> </td>
+    <td> <em><a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'>Tools integration on Galaxy</a></em> </td>
     <td> <a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest</a>, Rennes, France </td>
     <td> <a href='https://www.e-biogenouest.org/members/1005'>Cyril Monjeaud</a>,<a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
   </tr>
   <tr>
     <th> September 19 </th>
-    <td> </em><a href='http://australianbioinformatics.net/great-gigascience-galaxy-wkshp'>The Great GigaScience and Galaxy (G3) Workshop</a><em> </td>
+    <td> <em><a href='http://australianbioinformatics.net/great-gigascience-galaxy-wkshp'>The Great GigaScience and Galaxy (G3) Workshop</a></em> </td>
     <td> The University of Melbourne, Melbourne, Australia </td>
     <td> <a href="mailto:nwon AT unimelb DOT edu.au">Nick Wong</a>, <a href='/src/RossLazarus/index.md'>Ross Lazarus</a> </td>
   </tr>
   <tr>
     <th> September&nbsp;30 - October 2 </th>
-    <td> </em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'>RNA-Seq & ChIP-Seq analysis course using Galaxy</a></em> </td>
     <td> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
     <td> <a href="mailto:navratil AT prabi DOT fr">Navratil V</a>., <a href="mailto:oger AT prabi DOT fr">Oger C.</a>, <a href="mailto:veber AT prabi DOT fr">Veber P.</a>, <a href="mailto:deschamps AT prabi DOT fr">Deschamps C.</a>, <a href="mailto:perriere AT prabi DOT fr">Perriere G.</a> </td>
   </tr>
@@ -209,30 +209,30 @@ Over the rest of the few months there are many [Galaxy related events](/src/Even
     <td rowspan=3> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/BjoernGruening/index.md'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='/src/Events/Switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a><em> </td>
+    <td> <em><a href='/src/Events/Switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>
     <td> SyBIT Tech Day, Bern (Switzerland) </td>
   </tr>
   <tr>
-    <td> </em><a href='/src/Events/Germany2014/index.md'>German Galaxy Developers Day</a><em> </td>
+    <td> <em><a href='/src/Events/Germany2014/index.md'>German Galaxy Developers Day</a></em> </td>
     <td> Freiburg (Germany) </td>
   </tr>
   <tr>
     <th> October 1 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-brisbane-01-october-brisbane/'>Workshop: RNA-Seq analysis using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-brisbane-01-october-brisbane/'>Workshop: RNA-Seq analysis using Galaxy</a></em> </td>
     <td> The University of Queensland, Brisbane, Queensland, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th rowspan=3> November 2-5 </th>
-    <td> </em><a href='https://www.acsmeetings.org/tours-workshops#Intro to'>Introduction to Bioinformatics Analysis with Galaxy Workshop</a><em> </td>
-    <td rowspan=3> </strong><a href='https://www.acsmeetings.org/home'>ASA, CSSA, and SSSA International Annual Meeting</a><strong>, Long Beach, California, United States </td>
+    <td> <em><a href='https://www.acsmeetings.org/tours-workshops#Intro to'>Introduction to Bioinformatics Analysis with Galaxy Workshop</a></em> </td>
+    <td rowspan=3> <strong><a href='https://www.acsmeetings.org/home'>ASA, CSSA, and SSSA International Annual Meeting</a></strong>, Long Beach, California, United States </td>
     <td rowspan=3> <a href="mailto:outreach AT galaxyproject DOT org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
-    <td> </em><a href='https://www.acsmeetings.org/tours-workshops#SNP'>SNP/Variant Analysis with Galaxy Workshop</a><em> </td>
+    <td> <em><a href='https://www.acsmeetings.org/tours-workshops#SNP'>SNP/Variant Analysis with Galaxy Workshop</a></em> </td>
   </tr>
   <tr>
-    <td> </em><a href='https://www.acsmeetings.org/tours-workshops#A Gentle Intro'>A Gentle Introduction to Cloud Computing: Setting up your own Galaxy Server Workshop</a><em> </td>
+    <td> <em><a href='https://www.acsmeetings.org/tours-workshops#A Gentle Intro'>A Gentle Introduction to Cloud Computing: Setting up your own Galaxy Server Workshop</a></em> </td>
   </tr>
 </table>
 
@@ -365,7 +365,7 @@ Because this vulnerability allows for arbitrary code execution, administrators a
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </td>
   </tr>
 </table>
 

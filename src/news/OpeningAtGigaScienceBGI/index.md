@@ -11,4 +11,4 @@ Editor, [GigaScience](http://www.gigasciencejournal.com/)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-02-18</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

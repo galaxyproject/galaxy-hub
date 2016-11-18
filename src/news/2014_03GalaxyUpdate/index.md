@@ -26,4 +26,4 @@ If you have anything you would like to see in the next *[Galaxy Update](/src/Gal
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-02-28 </div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

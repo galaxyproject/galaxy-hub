@@ -17,7 +17,7 @@ I am a 4th grader at [Family School](http://www.family.4j.lane.edu/FamilySchool/
 
 <table>
   <tr>
-    <td> <a href='/src/attachment:ToriPoster.png/index.md'><img src="/src/ToriR/ToriPoster.png" alt="" width="700" /></a> </td>
+    <td> <a href='/src/ToriR/ToriPoster.png'><img src="/src/ToriR/ToriPoster.png" alt="" width="700" /></a> </td>
   </tr>
   <tr>
     <td> My poster (click to enlarge) </td>
@@ -27,4 +27,4 @@ I am a 4th grader at [Family School](http://www.family.4j.lane.edu/FamilySchool/
 
 
 ----
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

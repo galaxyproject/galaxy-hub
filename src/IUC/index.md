@@ -5,7 +5,7 @@ The Intergalactic Utilities Commission (IUC) was established in 2012 to enable t
 
 The features described in [ the reviewing process](/src/ReviewingToolShedRepositories/index.md) enable tool shed repositories to ultimately be flagged as "Approved" by the IUC.  If a repository is "IUC Approved", then those installing the repository should have a certain level of comfort that it's contents are functionally correct in all appropriate areas.
 
-IUC also maintains a set of Galaxy tools in the following !GitHub repository https://github.com/galaxyproject/tools-iuc
+IUC also maintains a set of Galaxy tools in the following GitHub repository https://github.com/galaxyproject/tools-iuc
 
 IUC membership can evolve over time.  The initial members were all owners of one or more repositories in the main Galaxy tool shed or are members of the core Galaxy development team, so they may be familiar to you.  
 

@@ -8,4 +8,4 @@
 
 <br />
 
-<div class='indent'> ![Get Data: EBI-SRA](/src/Images/Learn/tool_ebi-sra_loading_datasets_to_galaxy.png) <br />Choosing datasets with tool ***Get Data: EBI-SRA***</div>
+<div class='indent'> <img src="/src/Images/Learn/tool_ebi-sra_loading_datasets_to_galaxy.png" alt="Get Data: EBI-SRA" width="600" /> <br />Choosing datasets with tool ***Get Data: EBI-SRA***</div>

@@ -54,4 +54,4 @@
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-03-16</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

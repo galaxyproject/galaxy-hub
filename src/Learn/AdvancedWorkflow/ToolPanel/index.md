@@ -38,14 +38,14 @@ Clicking on **All workflows** will display workflows *owned by you* or *shared w
 
 If you see workflows listed above **All workflows**, these have been ***promoted*** for quick access. Do not see any or want to add more? That is what this tutorial will explain how to do.
 
-<div class='indent'> ![workflows in the tool panel](/src/Images/Learn/workflow_tool_access_all_from_tool_panel.png) <br />*workflows in the **tool panel***</div>
+<div class='indent'> <img src="/src/Images/Learn/workflow_tool_access_all_from_tool_panel.png" alt="workflows in the tool panel" width="700" /> <br />*workflows in the **tool panel***</div>
 
 
 ### Go to the Workflow Management View
 
 To edit a workflow or to manage where it is displayed, go the management view by clicking on **Workflows** in the top masthead from any page or by using the button at the right top of the **All workflows** list view.
 
-<div class='indent'> ![going to workflow management](/src/Images/Learn/workflow_tool_go_to_management_view.png) <br />*going to workflow **management***</div>
+<div class='indent'> <img src="/src/Images/Learn/workflow_tool_go_to_management_view.png" alt="going to workflow management" width="600" /> <br />*going to workflow **management***</div>
 
 ### Navigating the Workflow Management View
 
@@ -59,7 +59,7 @@ To edit a workflow or to manage where it is displayed, go the management view by
 1. The **Create new workflow** function will launch a new blank canvas in the **Workflow Editor**.
 1. The **Upload or import workflow** function will load a workflow saved to a file or import a workflow through a link from another Galaxy server.
 
-<div class='indent'> ![workflow management view](/src/Images/Learn/workflow_tool_management_view.png) <br />*workflow **management view ***</div>
+<div class='indent'> <img src="/src/Images/Learn/workflow_tool_management_view.png" alt="workflow management view" width="700" /> <br />*workflow **management view ***</div>
 
 ### Configure Your Workflow Menu
 
@@ -69,7 +69,7 @@ Starting on the **Workflow Management View** page, scroll to the bottom and clic
 
 The **Configure Workflow Menu** view lists each of the workflows owned by you or shared with you. The owner and number of steps are listed. Click on a checkbox under the **Show in Menu** column to promote a workflow it is displayed directly in the *Tool Panel*, just like a tool.
 
-<div class='indent'> ![workflow configure tool menu](/src/Images/Learn/workflow_tool_configure_tool_menu.png) <br />*workflow **configure tool menu***</div>
+<div class='indent'> <img src="/src/Images/Learn/workflow_tool_configure_tool_menu.png" alt="workflow configure tool menu" width="700" /> <br />*workflow **configure tool menu***</div>
 
 <br />
 
@@ -81,19 +81,19 @@ Once finished, a green bar indicating that the workflow was successfully added t
 
 Click on **Analyze Data** to return to the **Analysis Home View** where the updated tool panel can be reviewed and the newly promoted workflow can be accessed directly.
 
-<div class='indent'> ![analysis home view](/src/Images/Learn/workflow_tool_go_to_analysis_home_view.png) <br />**analysis home view**</div>
+<div class='indent'> <img src="/src/Images/Learn/workflow_tool_go_to_analysis_home_view.png" alt="analysis home view" width="500" /> <br />**analysis home view**</div>
 
 ### View and Run Promoted Workflows
 
 Review the updated Workflow section in the **Tool Panel** to confirm the promotion. 
 
-<div class='indent'> ![updated workflow section](/src/Images/Learn/workflow_tool_your_workflows_in_tool_panel.png) <br />*updated tool panel **workflow section***</div>
+<div class='indent'> <img src="/src/Images/Learn/workflow_tool_your_workflows_in_tool_panel.png" alt="updated workflow section" width="200" /> <br />*updated tool panel **workflow section***</div>
 
 <br />
 
 Then launch the workflow by clicking on the name. 
 
-<div class='indent'> ![run a workflow from tool panel](/src/Images/Learn/workflow_tool_run_from_tool_panel.png) <br />***run a workflow** from **tool panel***</div>
+<div class='indent'> <img src="/src/Images/Learn/workflow_tool_run_from_tool_panel.png" alt="run a workflow from tool panel" width="700" /> <br />***run a workflow** from **tool panel***</div>
 
 ### Editing to Hide Intermediate Steps
 

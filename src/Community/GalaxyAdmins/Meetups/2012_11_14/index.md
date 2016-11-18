@@ -4,7 +4,7 @@
 
 PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
-<div class='center'>**Note:** Next [GalaxyAdmins](/src/Community/GalaxyAdmins/Meetups//index.md) Meetup: [January 16](/src/Community/GalaxyAdmins/Meetups/2012_11_14/2013_01_16/index.md) <br /> John Chilton on Deploying Galaxy on !OpenStack with !CloudBioLinux & CloudMan</div>
+<div class='center'>**Note:** Next [GalaxyAdmins](/src/Community/GalaxyAdmins/Meetups//index.md) Meetup: [January 16](/src/Community/GalaxyAdmins/Meetups/2012_11_14/2013_01_16/index.md) <br /> John Chilton on Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan</div>
 
 <br />
 
@@ -29,7 +29,7 @@ Curtis Hendrickson of the [University of Alabama Birmingham's Center for Clinica
   </tr>
   <tr>
     <th> Links </th>
-    <td> <strong><a href='PLACEHOLDER_ATTACHMENT_URL2012-11-14-GalaxyAtUAB.pdf'>Slides</a></strong><br /> <strong><a href='https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262339408056_1352907180568'>Screencast</a></strong> (Password: 110516; content starts at 3:20) </td>
+    <td> <strong><a href='PLACEHOLDER_ATTACHMENT_URL/src/2012-11-14-GalaxyAtUAB.pdf'>Slides</a></strong><br /> <strong><a href='https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262339408056_1352907180568'>Screencast</a></strong> (Password: 110516; content starts at 3:20) </td>
   </tr>
 </table>
 

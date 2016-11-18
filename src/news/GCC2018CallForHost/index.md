@@ -18,7 +18,7 @@ Hello all,
 
 The Galaxy Community Conference has been held annually since 2010.  [GCC2017](https://gcc2017.sciencesconf.org/) will be held 26-30 June in Montpellier, France.
   
-**We are now [seeking proposals](ATTACHMENT_URLDocuments/GCC2018CallForHosts.pdf) from organizations interested in hosting GCC2018.**
+**We are now [seeking proposals](PLACEHOLDER_ATTACHMENT_URL/src/Documents/GCC2018CallForHosts.pdf) from organizations interested in hosting GCC2018.**
 
 GCC alternates every year between meeting in North America, and meeting outside North America.  Hosts for GCC2018 need to be located in North America.
 
@@ -39,7 +39,7 @@ What do you need to host GCC2018, you ask?  In approximately decreasing order of
 
 Hosts get copious (and enthusiastic) organizational support from Galaxy's Outreach Team (who have been helping to organize GCC since 2011), and even more copious gratitude from the Galaxy Community.  
 
-See the **[full call for host proposals](ATTACHMENT_URLDocuments/GCC2018CallForHosts.pdf)** for more details on what should be covered in proposals.  **Proposals are due on November 30, 2016**. If you are interested in possibly hosting GCC2018 then please contact [mailto:outreach@galaxyproject.org](Galaxy Outreach) with any questions.  Our goal is to announce GCC2018 at GCC2017 this coming June.
+See the **[full call for host proposals](PLACEHOLDER_ATTACHMENT_URL/src/Documents/GCC2018CallForHosts.pdf)** for more details on what should be covered in proposals.  **Proposals are due on November 30, 2016**. If you are interested in possibly hosting GCC2018 then please contact [mailto:outreach@galaxyproject.org](Galaxy Outreach) with any questions.  Our goal is to announce GCC2018 at GCC2017 this coming June.
 
 Hoping to work with you in 2018!
 
@@ -47,4 +47,4 @@ Hoping to work with you in 2018!
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-09-27</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

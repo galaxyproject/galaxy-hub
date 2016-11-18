@@ -107,4 +107,4 @@ See [this NAR supplement](http://nar.oxfordjournals.org/content/suppl/2014/05/05
 * Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, and Thomas Manke. [deepTools: a flexible platform for exploring deep-sequencing data](http://nar.oxfordjournals.org/cgi/content/abstract/gku365) *Nucl. Acids Res.* first published online May 5, 2014 doi:10.1093/nar/gku365
 * *[deepTools: a flexible platform for exploring deep-sequencing data](/src/Events/GCC2014/Abstracts/Talks/index.md#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/src/Events/GCC2014/index.md)
 
-CategoryDeployment
+[CategoryDeployment](/src/CategoryDeployment/index.md)

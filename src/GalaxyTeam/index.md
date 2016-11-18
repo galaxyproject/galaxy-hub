@@ -41,7 +41,7 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='left center'>
-![Carl Eberhard](/src/GalaxyTeam/carl.jpg)<br />
+<img src="/src/GalaxyTeam/carl.jpg" alt="Carl Eberhard" height="150" /><br />
 Carl Eberhard <br />
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
@@ -80,7 +80,7 @@ Carl Eberhard <br />
 [Ross Lazarus](/src/fubar/index.md)<br /><br />
 </div>
 <div class='left center'>
-![Rémi Marenco](/src/GalaxyTeam/Remi.jpg)<br />
+<img src="/src/GalaxyTeam/Remi.jpg" alt="Rémi Marenco" height="150" /><br />
 [Rémi Marenco](/src/RemiMarenco/index.md)<br />
 [George Washington University](http://www.gwu.edu) 
 </div>
@@ -110,7 +110,7 @@ Carl Eberhard <br />
 ## Contributors with Commit Access
 
 <div class='left center'>
-![Björn Grüning](/src/GalaxyTeam/bjoern.jpeg)<br />
+<img src="/src/GalaxyTeam/bjoern.jpeg" alt="Björn Grüning" height="150" /><br />
 [Björn Grüning](https://github.com/bgruening)<br />
 [Uni Freiburg](http://www.uni-freiburg.de/)
 </div>
@@ -122,13 +122,13 @@ Carl Eberhard <br />
 </div>
 
 <div class='left center'>
-![Nicola Soranzo](/src/GalaxyTeam/nicola.jpeg)<br />
+<img src="/src/GalaxyTeam/nicola.jpeg" alt="Nicola Soranzo" height="150" /><br />
 [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo)<br />
 [Earlham Institute](http://earlham.ac.uk/)
 </div>
 
 <div class='left center'>
-![Marius van den Beek](/src/GalaxyTeam/marius.jpeg)<br />
+<img src="/src/GalaxyTeam/marius.jpeg" alt="Marius van den Beek" height="150" /><br />
 [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek)<br />
 [IBPS UPMC](http://www.ibps.upmc.fr/)
 </div>
@@ -138,31 +138,31 @@ Carl Eberhard <br />
 ## Other Current Contributors
 
 <div class='left center'>
-![Peter Cock](/src/GalaxyTeam/peter.jpg)<br />
+<img src="/src/GalaxyTeam/peter.jpg" alt="Peter Cock" height="150" /><br />
 [Peter Cock](http://www.hutton.ac.uk/staff/peter-cock)<br />
 [TJHI](http://www.hutton.ac.uk/)
 </div>
 <div class='left center'>
-![Kyle Ellrott](/src/GalaxyTeam/kyle.jpg)<br />
+<img src="/src/GalaxyTeam/kyle.jpg" alt="Kyle Ellrott" height="150" /><br />
 [Kyle Ellrott](http://www.soe.ucsc.edu/people/kellrott)<br />
 [UCSC](http://www.ucsc.edu/)
 </div>
 <div class='left center'>
-![Brad Chapman](/src/GalaxyTeam/brad.jpg)<br />
+<img src="/src/GalaxyTeam/brad.jpg" alt="Brad Chapman" height="150" /><br />
 [Brad Chapman](http://bcbio.wordpress.com/about/)<br />
 [HSPH](http://www.hsph.harvard.edu//)
 </div>
 <div class='left center'>
-![Nuwan Goonasekera](/src/GalaxyTeam/nuwan.jpg)<br />
+<img src="/src/GalaxyTeam/nuwan.jpg" alt="Nuwan Goonasekera" height="150" /><br />
 [Nuwan Goonasekera](https://www.linkedin.com/in/nuwangoonasekera)<br />
 [VeRSI](http://versi.edu.au)
 </div>
 <div class='left center'>
-![Greg von Kuster](/src/GalaxyTeam/greg.jpg)<br /> 
+<img src="/src/GalaxyTeam/greg.jpg" alt="Greg von Kuster" height="150" /><br /> 
 [Greg von Kuster](/src/greg_vonkuster/index.md)
 </div>
 <div class='left center'>
-![Yousef Kowsar](/src/GalaxyTeam/yousef.jpg)<br />
+<img src="/src/GalaxyTeam/yousef.jpg" alt="Yousef Kowsar" height="150" /><br />
 [Yousef Kowsar](https://www.linkedin.com/pub/yousef-kowsar/21/213/9a6)<br />
 [VLSCI](http://http://www.vlsci.org.au/)
 </div>
@@ -186,7 +186,7 @@ Carl Eberhard <br />
 * Jianbin He
 * Radesh Kamath
 * Kanwei Li
-* Scott !McManus
+* Scott McManus
 * Arjun Nath
 * Chinmay Rao
 * Prachi Shah

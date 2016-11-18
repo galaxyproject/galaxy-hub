@@ -17,4 +17,4 @@ title: 2013/05: Creating a Galaxy tool for R scripts that output images and PDFs
 
 * [XML wrapper, R code](http://saml.rilspace.org/creating-a-galaxy-tool-for-r-scripts-that-output-images-and-pdfs)
 
-CategoryLog
+[CategoryLog](/src/CategoryLog/index.md)

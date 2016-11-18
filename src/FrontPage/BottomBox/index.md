@@ -32,7 +32,7 @@
 
 [An Automated Tool Profiling Service for the Cloud](http://dx.doi.org/10.1109/ccgrid.2016.57), Chard et al.
 
-[The Essential Components of a Successful Galaxy Service](http://dx.doi.org/10.1007/s10723-016-9379-6), !McGrath et al
+[The Essential Components of a Successful Galaxy Service](http://dx.doi.org/10.1007/s10723-016-9379-6), McGrath et al
 
 [Genotyping of evolving prokaryotic populations](https://peerj.com/preprints/2449/), Zojer et al.
 

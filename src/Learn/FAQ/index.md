@@ -75,7 +75,7 @@ Genomic intervals (Interval and BED formats) in Galaxy are 0-based, start-inclus
 1. For computational purposes, a chromosome begins with the initial base labeled as "0". So for a chromosome 1 beginning with a base labeled as "0", BED/Interval coordinates defined as "chr1 100 200" will be translated and representing the 0-start computational bases 100 to 199. 
 1. For certain other data formats and in particular positional visualization, a chromosomes begins with the initial base labeled as "1". So for a chromosome 1 beginning with a base labeled as "1", the BED/Interval coordinates defined as "chr1 100 200" will be translated/visualized as representing the 1-start positional bases 101 to 200.
 
-For a detailed explanation, please read [this article](ATTACHMENT_URLzero_based_coordinates.pdf). 
+For a detailed explanation, please read [this article](PLACEHOLDER_ATTACHMENT_URL/src/zero_based_coordinates.pdf). 
 To learn/understand whether a particular datatype is associated with a 0-based or 1-based coordinate system, see data format descriptions in Galaxy's help section for the tool "Get Data -> Upload".
 
 

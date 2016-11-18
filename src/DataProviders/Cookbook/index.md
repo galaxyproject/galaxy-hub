@@ -200,7 +200,7 @@ var bootstrappedFirstPage = ${h.to_json_string( data, indent=2 )};
 </script>
 ```
 
-This works because the stringified JSON will be printed as a !JavaScript object literal. If you use this, you can open
+This works because the stringified JSON will be printed as a JavaScript object literal. If you use this, you can open
 your visualization's page in the browser using 'show page source' - the data will be printed there in JSON form.
 
 You can also access data providers through the datasets API using an AJAX call within your page (here, we'll use
@@ -348,8 +348,8 @@ This is the most powerful but complex ways to create a new data provider.
 
 All [DataProvider](/src/DataProviders/index.md) classes should inherit at least from `datatypes.dataproviders.base.DataProvider`. If
 you'll be working with a data format where each datum is contained on a line, you may want to start with either the
-!FilteredLineDataProvider or the !RegexLineDataProvider. If it takes more than one line to create a single datum (e.g.
-MAF format), you may want to start with the !BlockDataProvider.
+FilteredLineDataProvider or the RegexLineDataProvider. If it takes more than one line to create a single datum (e.g.
+MAF format), you may want to start with the BlockDataProvider.
 
 
 ----

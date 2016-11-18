@@ -137,12 +137,12 @@ poster number: 474, Monday, Halls B&C
 
 ### Bronchoalveolar Lavage Fluid Protein Profiling In ARDS: Early Differences Between Survivors And Non-Survivors
 
-Maneesh Bhargava; Trisha Becker; !LeeAnn Higgins; Pratik Jagtap; Sanjoy Dey; Michael Steinbach; Baolin Wu; Vipin Kumar; Peter Bitterman; David Ingbar; Wendt Chris
+Maneesh Bhargava; Trisha Becker; LeeAnn Higgins; Pratik Jagtap; Sanjoy Dey; Michael Steinbach; Baolin Wu; Vipin Kumar; Peter Bitterman; David Ingbar; Wendt Chris
 
 <div class='indent'>
 University of Minnesota, Minneapolis, MN
 
-Poster: !ThP23 - Proteomics: Clinical Applications<br />
+Poster: ThP23 - Proteomics: Clinical Applications<br />
 poster number: 474, Thursday, Halls B&C
 </div>
 

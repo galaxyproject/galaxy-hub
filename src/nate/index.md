@@ -15,4 +15,4 @@ I am a system administrator, programmer, and a part of the [Galaxy Team](/src/Ga
 
 
 ----
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

@@ -6,7 +6,7 @@ The *[Galaxy Community Log Board](/src/Community/Logs/index.md)* is a place to s
   
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a></em> &nbsp;&nbsp; </th>
   </tr>
   <tr>
     <td style=" border: none; text-align: center;"> <span style="font-size: smaller;"> C'mon, it will make you feel good! </span> </td>
@@ -20,4 +20,4 @@ The [Galaxy Community Log Board](/src/Community/Logs/index.md) describes how thi
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-12-06</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

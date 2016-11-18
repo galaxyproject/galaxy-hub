@@ -38,55 +38,55 @@ No programming or Linux command line experience is required.
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td> </strong>Welcome<strong><div class='indent'>Introductions and logistics</div> </td>
+    <td> <strong>Welcome</strong><div class='indent'>Introductions and logistics</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:20 </th>
-    <td> </strong>Basic Analysis with Galaxy<strong><div class='indent'>Walk through a worked, hands-on example demonstrating basic analysis with Galaxy</div> </td>
+    <td> <strong>Basic Analysis with Galaxy</strong><div class='indent'>Walk through a worked, hands-on example demonstrating basic analysis with Galaxy</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:40 </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
-    <td> </strong>Basic Analysis into Reusable Workflows<strong><div class='indent'>Genericize our analysis into something we can use again.</div> </td>
+    <td> <strong>Basic Analysis into Reusable Workflows</strong><div class='indent'>Genericize our analysis into something we can use again.</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:30 </th>
-    <td> </strong>RNA-Seq Example Part I<strong><div class='indent'>Review NGS data quality issues and some quality control options in Galaxy; Mapping and Splice Junction Calling with Tophat</div> </td>
+    <td> <strong>RNA-Seq Example Part I</strong><div class='indent'>Review NGS data quality issues and some quality control options in Galaxy; Mapping and Splice Junction Calling with Tophat</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30 </th>
-    <td style=" text-align: center;"> </strong>Lunch<strong> (on your own) </td>
+    <td style=" text-align: center;"> <strong>Lunch</strong> (on your own) </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 1:30 </th>
-    <td> </strong>RNA-Seq Example Part II<strong><div class='indent'>Cufflinks, Visualization, and Visual Analytics</div> </td>
+    <td> <strong>RNA-Seq Example Part II</strong><div class='indent'>Cufflinks, Visualization, and Visual Analytics</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:20 </th>
-    <td> </strong>Galaxy Project Overview<strong><div class='indent'>Introduction to Galaxy and the Galaxy community</div> </td>
+    <td> <strong>Galaxy Project Overview</strong><div class='indent'>Introduction to Galaxy and the Galaxy community</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:40 </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:00 </th>
-    <td> </strong>RNA-Seq Example Part III<strong><div class='indent'>Discuss and run differential gene expression analysis, and merging multiple experiments into a single picture</div> </td>
+    <td> <strong>RNA-Seq Example Part III</strong><div class='indent'>Discuss and run differential gene expression analysis, and merging multiple experiments into a single picture</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:40 </th>
-    <td> </strong>Sharing, Publishing, and Reproducibility with Galaxy<strong><div class='indent'>Using Galaxy for collaboration and reproducibility</div> </td>
+    <td> <strong>Sharing, Publishing, and Reproducibility with Galaxy</strong><div class='indent'>Using Galaxy for collaboration and reproducibility</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 4:00 </th>
-    <td> </strong>Setting up a Galaxy Cluster on the Amazon Cloud<strong> <div class='indent'>Introduce Amazon Web services and cloud concepts; demonstrate starting Galaxy on the cloud</div> </td>
+    <td> <strong>Setting up a Galaxy Cluster on the Amazon Cloud</strong> <div class='indent'>Introduce Amazon Web services and cloud concepts; demonstrate starting Galaxy on the cloud</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 4:30 </th>
-    <td style=" text-align: center;"> </strong>Done<strong> </td>
+    <td style=" text-align: center;"> <strong>Done</strong> </td>
   </tr>
 </table>
 
@@ -104,7 +104,7 @@ This course will be part of both the [UNC Health Sciences Library’s](http://hs
 
 ## Slides
 
-* [Slides](ATTACHMENT_URLDocuments/Presentations/201307UNCWorkshop.pdf)
+* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201307UNCWorkshop.pdf)
 
 ## Questions?
 

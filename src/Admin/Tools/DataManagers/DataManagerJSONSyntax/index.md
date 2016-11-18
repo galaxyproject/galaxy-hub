@@ -61,31 +61,31 @@ To simplify this process, Data Manager Tools will automatically have their param
 ```javascript
 {
    "param_dict":{
-      "<u>datatypes_config__":"/Users/dan/galaxy-central/database/tmp/tmphyQRH3",
-      "</u>get_data_table_entry__":"<function get_data_table_entry at 0x10d435b90>",
+      "__datatypes_config__":"/Users/dan/galaxy-central/database/tmp/tmphyQRH3",
+      "__get_data_table_entry__":"<function get_data_table_entry at 0x10d435b90>",
       "userId":"1",
       "userEmail":"dan@bx.psu.edu",
       "dbkey":"sacCer2",
       "sequence_desc":"",
       "GALAXY_DATA_INDEX_DIR":"/Users/dan/galaxy-central/tool-data",
-      "<u>admin_users__":"dan@bx.psu.edu",
-      "</u>app__":"galaxy.app:UniverseApplication",
-      "<u>user_email__":"dan@bx.psu.edu",
+      "__admin_users__":"dan@bx.psu.edu",
+      "__app__":"galaxy.app:UniverseApplication",
+      "__user_email__":"dan@bx.psu.edu",
       "sequence_name":"",
       "GALAXY_DATATYPES_CONF_FILE":"/Users/dan/galaxy-central/database/tmp/tmphyQRH3",
-      "</u>user_name__":"danb",
+      "__user_name__":"danb",
       "sequence_id":"",
       "reference_source":{
          "reference_source_selector":"ncbi",
          "requested_identifier":"sacCer2",
-         "<u>current_case__":"1"
+         "__current_case__":"1"
       },
-      "</u>new_file_path__":"/Users/dan/galaxy-central/database/tmp",
-      "<u>user_id__":"1",
+      "__new_file_path__":"/Users/dan/galaxy-central/database/tmp",
+      "__user_id__":"1",
       "out_file":"/Users/dan/galaxy-central/database/files/000/dataset_200.dat",
       "GALAXY_ROOT_DIR":"/Users/dan/galaxy-central",
-      "</u>tool_data_path__":"/Users/dan/galaxy-central/tool-data",
-      "<u>root_dir__":"/Users/dan/galaxy-central",
+      "__tool_data_path__":"/Users/dan/galaxy-central/tool-data",
+      "__root_dir__":"/Users/dan/galaxy-central",
       "chromInfo":"/Users/dan/galaxy-central/tool-data/shared/ucsc/chrom/sacCer2.len"
    },
    "output_data":[

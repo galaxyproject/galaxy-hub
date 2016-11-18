@@ -34,7 +34,7 @@ Galaxy uses the Model-View-Controller software architecture.
 ### 2.1 Design Notes
 
 * Galaxy tries not to replicate data.
-* All data are marshelled through the python object called "HistoryDatasetAssociation" found @Dir: lib/galaxy/model/<u>init__.py (unexpected name, yes) and you can basically think of it as a dataset object.
+* All data are marshelled through the python object called "[HistoryDatasetAssociation](/src/HistoryDatasetAssociation/index.md)" found @Dir: lib/galaxy/model/__init__.py (unexpected name, yes) and you can basically think of it as a dataset object.
 * Dataset ID can be found by right clicking the save icon on the history panel and copying the url or 2) by observing the http calls made to galaxy via terminal.
 * The data is stored in the database/job_working_directory/{user_id}/file_index and is mapped to its respective dataset_id by a sql hashtable ?somewhere. So each data stored in galaxy correspond to an indexed row somewhere.
 * Users usually interact with their list of data via the history panel (right of main page)
@@ -44,7 +44,7 @@ Galaxy uses the Model-View-Controller software architecture.
 
 - Dataset @Dir lib/galaxy/web/base/controller : Main method for accessing datasets stored in Galaxy by the hashed ID. To retrieve data, one can make a http call to the dataset controller with the dataset ID (http://127.0.0.1:8080/datasets/ba751ee0539fff04).
 
-- model/</u>init__.py - HistoryDatasetAssociation class: Main python object which you access your data. You might want to look see how the class UsesHistoryDatasetAssociationMixin interacts with it to retrieve data, or even better, let your web controller inherit from the said class to get all the data interaction methods for free!
+- model/__init__.py - HistoryDatasetAssociation class: Main python object which you access your data. You might want to look see how the class UsesHistoryDatasetAssociationMixin interacts with it to retrieve data, or even better, let your web controller inherit from the said class to get all the data interaction methods for free!
 
 - UsesHistoryDatasetAssociationMixin class: Web Controllers will have to extend this calls to gain many convenience methods like get_Data, get_dataset(dataset_id) to retrieve the dataset, a further call to get_data(dataset) is required to get the raw data out of the dataset object (hint: the return is a tuple (truncated_data_for_large_queries , data) or file_ext to get file extension.
 
@@ -58,7 +58,7 @@ Galaxy uses the Model-View-Controller software architecture.
 
 * The name of the Controller's class (assuming that the controller is stored in the web/contollers directory) will be used as the route to all the Controller's method. Eg "localhost/Controller1/get" will call the get() method defined inside the class Controller1
 * Controllers will have to accept a trans object as their second argumet ?if they require login.
-* Decorators of note: @web.expose (for it to be called via http), @web.json (to output returned data via pure json; otherwise the data will be marked-up with some html), @web.require_login(require user to be logged in to access the page) definitions can be found in lib/galaxy/web/framework/<u>init__.py
+* Decorators of note: @web.expose (for it to be called via http), @web.json (to output returned data via pure json; otherwise the data will be marked-up with some html), @web.require_login(require user to be logged in to access the page) definitions can be found in lib/galaxy/web/framework/__init__.py
 * Controllers usually return a page, and here we will do *return trans.fill_template( "the_page_template.mako", some_context_variable_you_want_to_print = some_data )* to compile a .mako template at runtime and return the page to the user.
 
 ----
@@ -69,4 +69,4 @@ Galaxy uses the Model-View-Controller software architecture.
 * Firebug,  Chrome Developer Tools, Safari Developer Tools are good friends.
 
 ----
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

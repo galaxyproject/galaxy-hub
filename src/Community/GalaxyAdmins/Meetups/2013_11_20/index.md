@@ -19,11 +19,11 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em>GalaxyAdmins: <a href='/src/Events/GCC2013/BoF/GalaxyAdmins/index.md'>GCC2013 Followup</a></em><div class='indent'><a href='/src/DaveClements/index.md'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
+    <td> <em><a href="/src/GalaxyAdmins/index.md">GalaxyAdmins</a>: <a href='/src/Events/GCC2013/BoF/GalaxyAdmins/index.md'>GCC2013 Followup</a></em><div class='indent'><a href='/src/DaveClements/index.md'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
-    <td> <a href='https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262357108822_1384961691322'>Video</a> (Nate's TACC slides start at about 30 minutes)<br /><a href='PLACEHOLDER_ATTACHMENT_URLGalaxyAdmins201311_MoveToTACC.pdf'>Slides (Move to TACC)</a>  </td>
+    <td> <a href='https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262357108822_1384961691322'>Video</a> (Nate's TACC slides start at about 30 minutes)<br /><a href='PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAdmins201311_MoveToTACC.pdf'>Slides (Move to TACC)</a>  </td>
   </tr>
 </table>
 

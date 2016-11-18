@@ -39,7 +39,7 @@ My background is in computer science.  I have been working in bioinformatics sin
 
 Prior to working on Galaxy, and for [NESCent](http://nescent.org/) and [http://gmod.org/wiki/|GMOD](http://gmod.org/wiki/|GMOD) before that, I worked as the database manager at the [European Renal Genome project (EuReGene)](http://www.euregene.org/), as a member of the [Edinburgh Mouse Atlas Project (EMAP)](http://genex.hgu.mrc.ac.uk/).  This project studied kidney development and disease.  My work focused on gene expression patterns, and anatomy ontologies.
 
-Prior to !EuReGene I worked for [ZFIN, the zebrafish model organism database](http://zfin.org) at the [University of Oregon](http://uoregon.edu) for 5 years as a database administrator and software engineer.
+Prior to EuReGene I worked for [ZFIN, the zebrafish model organism database](http://zfin.org) at the [University of Oregon](http://uoregon.edu) for 5 years as a database administrator and software engineer.
 
 My pre-bioinformatics career included
 * 4 years at an [artificial intelligence lab at the University of Oregon](http://www.cirl.uoregon.edu/),
@@ -57,9 +57,9 @@ My pre-bioinformatics career included
 
 * [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](http://nar.oxfordjournals.org/content/44/W1/W3.full). *Nucleic Acids Research* (2016) doi: 10.1093/nar/gkw343. [Enis Afgan](/src/EnisAfgan/index.md), [Dannon Baker](/src/DannonBaker/index.md), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Daniel Blankenberg](/src/Dan/index.md), [Dave Bouvier](/src/DaveBouvier/index.md), [Martin Čech](/src/Marten/index.md), [John Chilton](/src/JohnChilton/index.md), [Dave Clements](/src/DaveClements/index.md), [Nate Coraor](/src/nate/index.md), [Carl Eberhard](/src/CarlEberhard/index.md), [Björn Grüning](/src/BjoernGruening/index.md), [Aysam Guerler](/src/guerler/index.md), [Jennifer Hillman-Jackson](/src/JenniferJackson/index.md), [Greg Von Kuster](/src/greg_vonkuster/index.md), [Eric Rasche](https://github.com/erasche), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Nitesh Turaga](/src/NiteshTuraga/index.md), [James Taylor](/src/JamesTaylor/index.md), [Anton Nekrutenko](/src/anton/index.md), and [Jeremy Goecks](/src/JeremyGoecks/index.md)
 * [Using Galaxy to Perform Large-Scale Interactive Data Analyses](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html), in  *Current Protocols in Bioinformatics*. 2012 June: Unit 10.5. [Jennifer Hillman-Jackson](/src/JenniferJackson/index.md), [Dave Clements](/src/DaveClements/index.md), [Daniel Blankenberg](/src/Dan/index.md), [James Taylor](/src/JamesTaylor/index.md), [Anton Nekrutenko](/src/anton/index.md), [Galaxy Team](/src/GalaxyTeam/index.md)
-* [The Chado Natural Diversity module: a new generic database schema for large-scale phenotyping and genotyping data](http://database.oxfordjournals.org/content/2011/bar051.full), in *[Database](http://database.oxfordjournals.org/)*, 2011; doi: 10.1093/database/bar051, Sook Jung; Naama Menda; Seth Redmond; Robert M. Buels; Maren Friesen; Yuri Bendana; Lacey-Anne Sanderson; Hilmar Lapp; Taein Lee; Bob !MacCallum; Kirstin E. Bett; Scott Cain; Dave Clements; Lukas A. Mueller; Dorrie Main
+* [The Chado Natural Diversity module: a new generic database schema for large-scale phenotyping and genotyping data](http://database.oxfordjournals.org/content/2011/bar051.full), in *[Database](http://database.oxfordjournals.org/)*, 2011; doi: 10.1093/database/bar051, Sook Jung; Naama Menda; Seth Redmond; Robert M. Buels; Maren Friesen; Yuri Bendana; Lacey-Anne Sanderson; Hilmar Lapp; Taein Lee; Bob MacCallum; Kirstin E. Bett; Scott Cain; Dave Clements; Lukas A. Mueller; Dorrie Main
 * [Organization of the pronephric kidney revealed by large-scale gene expression mapping](http://genomebiology.com/2008/9/5/R84); in *[Genome Biology](http://genomebiology.com/2008/9/5/)*, 2008, 9:R84. Daniela Raciti, Luca Reggiani, Lars Geffers, Qiuhong Jiang, Francesca Bacchion, Astrid E Subrizi, Dave Clements, Christopher Tindal, Duncan R Davidson, Brigitte Kaissling, and André W Brändli
-* [A high-resolution anatomical ontology of the developing murine genitourinary tract](http://dx.doi.org/10.1016/j.modgep.2007.03.002); in *[Gene Expression Patterns](http://www.elsevier.com/locate/modgep)*, 7(6), pp. 680-699 (June 2007). Melissa H. Little, Jane Brennan, Kylie Georgas, Jamie A. Davies, Duncan R. Davidson, Richard A. Baldock, Annemiek Beverdam, John F. Bertram, Blanche Capel, Han Sheng Chiu, Dave Clements, Luise Cullen-!McEwen, Jean Fleming, Thierry Gilbert, Doris Herzlinger, Derek Houghton, Matt H. Kaufman, Elena Kleymenova, Peter A. Koopman, Alfor G. Lewis, Andrew P. !McMahon, Cathy L. Mendelsohn, Eleanor K. Mitchell, Bree A. Rumballe, Derina E. Sweeney, M. Todd Valerius, Gen Yamada, Yiya Yang and Jing Yu
+* [A high-resolution anatomical ontology of the developing murine genitourinary tract](http://dx.doi.org/10.1016/j.modgep.2007.03.002); in *[Gene Expression Patterns](http://www.elsevier.com/locate/modgep)*, 7(6), pp. 680-699 (June 2007). Melissa H. Little, Jane Brennan, Kylie Georgas, Jamie A. Davies, Duncan R. Davidson, Richard A. Baldock, Annemiek Beverdam, John F. Bertram, Blanche Capel, Han Sheng Chiu, Dave Clements, Luise Cullen-McEwen, Jean Fleming, Thierry Gilbert, Doris Herzlinger, Derek Houghton, Matt H. Kaufman, Elena Kleymenova, Peter A. Koopman, Alfor G. Lewis, Andrew P. McMahon, Cathy L. Mendelsohn, Eleanor K. Mitchell, Bree A. Rumballe, Derina E. Sweeney, M. Todd Valerius, Gen Yamada, Yiya Yang and Jing Yu
 * [The Zebrafish Information Network: the zebrafish model organism database](http://dx.doi.org/10.1093/nar/gkj086); in *[Nucleic Acids Research](http://nar.oxfordjournals.org/)* 34:D581-585 (2006); Sprague, J., Bayraktaroglu, L., Clements, D., Conlin, T., Fashena, D., Frazer, K., Haendel, M., Howe, D.G., Mani, P., Ramachandran, S., Schaper, K., Segerdell, E., Song, P., Sprunger, B., Taylor, S., Van Slyke, C.E., and Westerfield, M.
 * [The Zebrafish Information Network (ZFIN): the zebrafish model organism database](http://dx.doi.org/10.1093/nar/gkg027); in *[Nucleic Acids Research](http://nar.oxfordjournals.org/)* 31(1):241-243 2003); Sprague, J., Clements, D., Conlin, T., Edwards, P., Frazer, K., Schaper, K., Segerdell, E., Song, P., Sprunger, B., and Westerfield, M.
 * [The Zebrafish Information Network (ZFIN): a resource for genetic, genomic and developmental research](http://dx.doi.org/10.1093/nar/29.1.87); in *[Nucleic Acids Research](http://nar.oxfordjournals.org/)* 29(1):87-90 (2001); Sprague, J., Doerry, E., Douglas, S., Westerfield, M., and ZFIN Group, (Conlin, T., Clements, D., Edwards, P., Frazer, K., Schaper, K., Segerdell, E.)
@@ -124,13 +124,13 @@ My pre-bioinformatics career included
     <th> August 9-10 </th>
     <td> <em>Introduction to Galaxy Workflows</em> </td>
     <td> <a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home'>Workflows Workshop</a>, <em><a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home/call-for-host-sites'>Distributed</a></em> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2016_WorkflowWorkshop.pdf'>Slides</a>  </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2016_WorkflowWorkshop.pdf'>Slides</a>  </td>
   </tr>
   <tr>
     <th> August 1-4 </th>
     <td> <em><a href='http://icbo.cgrb.oregonstate.edu/node/41'>Integrating Ontological and Genomic Analysis with Galaxy Workshop</a></em> </td>
     <td> <a href='http://icbo.cgrb.oregonstate.edu/'>ICBO 2016</a>, Corvallis, Oregon, United States </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2016_ICBO_Tutorial.pdf'>Tutorial</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2016_ICBO_Slides.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2016_ICBO_Tutorial.pdf'>Tutorial</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2016_ICBO_Slides.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th> July 21 </th>
@@ -148,7 +148,7 @@ My pre-bioinformatics career included
     <th> July 13-17 </th>
     <td> <em><a href='http://www.genetics-gsa.org/genetics/2016/cgi-bin/tagc16soe.pl#Sat'>An Introduction to Using Galaxy for Genetic Data Analysis</a></em> </td>
     <td> <a href='http://www.genetics2016.org/index.htm'>The Allied Genetics Conference 2016 (TAGC)</a>, Orlando, Florida, United States </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2016_TAGC_Phenotype_Workshop.pdf'>Slides</a>, <a href='http://bit.ly/TGAC_GXY_PDF'>Tutorial</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2016_TAGC_Phenotype_Workshop.pdf'>Slides</a>, <a href='http://bit.ly/TGAC_GXY_PDF'>Tutorial</a> </td>
   </tr>
   <tr>
     <th> April 20 </th>
@@ -172,13 +172,13 @@ My pre-bioinformatics career included
     <th> January 13 </th>
     <td> <em><a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Paper/21816'>Galaxy Community Update</a></em> </td>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXIV (PAG 2016)</a>, San Diego, California, United States </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2016_PAG_GalaxyUpdate.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2016_PAG_GalaxyUpdate.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th> January 12 </th>
     <td> <em><a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Session/3098'>Galaxy for SNP and Variant Data Analysis</a></em> </td>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXIV (PAG 2016)</a>, San Diego, California, United States </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2016_PAG_VariantAnalysis.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2016_PAG_VariantAnalysis.pdf'>Slides</a> </td>
   </tr>
 </table>
 
@@ -197,13 +197,13 @@ My pre-bioinformatics career included
     <th> September 17-18 </th>
     <td> <em>Utilizing the Galaxy Analysis Framework at Core Facilities</em> </td>
     <td> <a href='http://wacd.abrf.org/'>Western Association of Core Directors (WACD) Annual Meeting</a>, Portland, Oregon, United States </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_WACD_GalaxyInCores.pdf'>Slides</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_WACD_GalaxyInCoresWNotes.pdf'>Slides with notes</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015_WACD_GalaxyInCores.pdf'>Slides</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015_WACD_GalaxyInCoresWNotes.pdf'>Slides with notes</a> </td>
   </tr>
   <tr>
     <th> June 11-12 </th>
     <td> <em><a href='http://www.training.cam.ac.uk/event/1429597'>Introduction to Galaxy: RNA-seq and ChIP-seq data analysis Workshop</a></em>  </td>
     <td> <a href='http://www.cam.ac.uk/'>University of Cambridge</a>, Cambridge, United Kingdom </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_Cambridge.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015_Cambridge.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th> June 8-9 </th>
@@ -215,19 +215,19 @@ My pre-bioinformatics career included
     <th> June 6 </th>
     <td> <em><a href='https://www.eshg.org/684.0.html'>WS02: NGS Variant Analysis with Galaxy</a></em> </td>
     <td> <a href='https://www.eshg.org/eshg2015.0.html'>ESHG 2015</a>, Glasgow, United Kingdom </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/ESHG_2015_Variant.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/ESHG_2015_Variant.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th> February 27 </th>
     <td> <a href='/src/Events/NorthwesternU2015/index.md'>Introduction to Galaxy</a> </td>
     <td> <a href='http://northwestern.edu/'>Northwestern University</a>, Chicago, Illinois, United States </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015NorthwesternUWorkshop.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015NorthwesternUWorkshop.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th> January 10-14 </th>
     <td> <em>Galaxy for SNP and Variant Data Analysis</em> </td>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXIII (PAG2014)</a>, San Diego, California, United States </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2015_PAG_Variant.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2015_PAG_Variant.pdf'>Slides</a> </td>
   </tr>
 </table>
 
@@ -245,13 +245,13 @@ My pre-bioinformatics career included
     <th> December 12 </th>
     <td> <em><a href='/src/Events/VSU2014/index.md'>Introduction to Galaxy Workshop</a></em> </td>
     <td> <a href='http://vsu.edu/'>Virginia State University</a>, Petersburg, Virginia, United States </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201412VSUWorkshop.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201412VSUWorkshop.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th> October 21 </th>
     <td> <em>Galaxy: Accessible and Reproducible Data Analysis for Bench Scientists</em> </td>
     <td> <a href='http://ie2.uoregon.edu/seminars'>Institute of Ecology and Evolution</a>, University of Oregon, Eugene, Oregon, United States </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2014_UOregonIE2.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2014_UOregonIE2.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th> July 28 - August 1 </th>
@@ -263,36 +263,36 @@ My pre-bioinformatics career included
     <th> June 30 - July 2 </th>
     <td> <em><a href='/src/Events/GCC2014/Abstracts/Posters/index.md#p26-galaxy-training-network'>P26: Galaxy Training Network</a></em><div class='indent'><em>with <a href='http://www.tgac.ac.uk/training-outreach/vicky-schneider/'>Vicky Schneider</a>, <a href='http://bioinformatics.ucdavis.edu/contact-us/'>Nikhil Joshi</a>, <a href='http://bioinformatics.ucdavis.edu/contact-us/'>Joseph Fass</a><sup>4</sup>, <a href='http://bioinformatics.ucdavis.edu/contact-us/'>Monica Britton</a>, <a href='http://www.msi.unimelb.edu.au/people/andrew-lonie/'>Andrew Lonie</a>, <a href='http://www.vlsci.org.au/researcher/sgladman'>Simon Gladman</a>, <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a></em></div> </td>
     <td> <a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a>, Baltimore, Maryland, United States </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Posters/GCC2014/P26Clements.pdf'>Poster</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/GCC2014/P26Clements.pdf'>Poster</a> </td>
   </tr>
   <tr>
     <th> May 13 </th>
     <td> <em><a href='/src/Events/UKMay2014/IGMMWorkshop/index.md'>Galaxy Workshop</a></em> </td>
     <td> <a href='http://www.igmm.ac.uk/'>Institute of Genetics and Molecular Medicine (IGMM)</a>, Edinburgh, UK </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201405HGMM_Workshop.pdf'>Sides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201405HGMM_Workshop.pdf'>Sides</a> </td>
   </tr>
   <tr>
     <th rowspan=2> May 12 </th>
     <td> <em><a href='/src/Events/UKMay2014/UEdinburgh/index.md'>Galaxy Workshop</a></em> </td>
     <td> <a href='http://www.ed.ac.uk/'>University of Edinburgh</a>, Edinburgh, UK </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201405UEDINBURGHWorkshop.pdf'>Galaxy Sides</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201405EdinburghGenomics.pdf'>Edinburgh Genomics Sides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201405UEDINBURGHWorkshop.pdf'>Galaxy Sides</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201405EdinburghGenomics.pdf'>Edinburgh Genomics Sides</a> </td>
   </tr>
   <tr>
     <td> <em>Galaxy Project Update</em> </td>
     <td> <a href='http://www.bioinformatics.ed.ac.uk/events/5th-edinburgh-bioinformatics-meeting'>5th Edinburgh Bioinformatics Meeting</a>, <a href='http://www.ed.ac.uk/'>University of Edinburgh</a>, Edinburgh, UK </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201405UEdinburghGalaxyUpdate.pdf'>Sides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201405UEdinburghGalaxyUpdate.pdf'>Sides</a> </td>
   </tr>
   <tr>
     <th> May 9 </th>
     <td> <em><a href='/src/Events/UKMay2014/TGACWorkshop/index.md'>Introduction to Galaxy Workshop</a></em> </td>
     <td> <a href='http://www.tgac.ac.uk/'>The Genome Analysis Centre (TGAC)</a>, Norwich, United Kingdom </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201405TGACWorkshop.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201405TGACWorkshop.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th> May 6-7 </th>
     <td> <em>Scaling Galaxy for Big Data</em> </td>
     <td> <a href='http://www.tgac.ac.uk/SeqAhead_Scientific_Meeting_and_Management_Committee_Meeting/'>NGS Data after the Gold Rush</a>, <a href='http://www.tgac.ac.uk/'>TGAC</a>, Norwich, United Kingdom </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/ScalingGalaxyTGAC2014.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/ScalingGalaxyTGAC2014.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th> March 7 </th>
@@ -304,23 +304,23 @@ My pre-bioinformatics career included
     <th> February 26-28 </th>
     <td> <a href='http://gmod.org/wiki/GMOD_Malaysia_2014'>GMOD Malaysia 2014</a> </td>
     <td> Kuala Lumpur, Malaysia </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2014GMODMalaysiaSlides.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2014GMODMalaysiaSlides.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th> January 16-17 </th>
     <td> <em>Galaxy Project Update</em>  </td>
     <td> <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'>2014 GMOD Meeting</a>, San Diego, California, United States </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2014GMODGalaxyUpdae.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2014GMODGalaxyUpdae.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th rowspan=2> January 11-15 </th>
     <td> <em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2298.html'>Galaxy for NGS Data Analysis: A Hands-on Computer Demo</a></em><div class='indent'>with Anushka Brownley</div> </td>
     <td rowspan=2> <strong><a href='http://www.intlpag.org/'>Plant and Animal Genome XXII (PAG 2014)</a></strong>, San Diego, California, United States </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2014PAGNGSAnalysisWorkshop.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2014PAGNGSAnalysisWorkshop.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <td> <em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>Galaxy Cloudman: A Gentle Introduction to Data Analysis on the Cloud</a></em><div class='indent'>Part of the <a href='https://pag.confex.com/pag/xxii/webprogram/Session2159.html'>GMOD Workshop</a></div> </td>
-    <td rowspan=1> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2014PAGCloudManTalk.pdf'>Slides</a> </td>
+    <td rowspan=1> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2014PAGCloudManTalk.pdf'>Slides</a> </td>
   </tr>
 </table>
 
@@ -369,7 +369,7 @@ My pre-bioinformatics career included
     <th> June 20-22 </th>
     <td> <em><a href='http://www.fged.org/conferences/upcoming-conference/workshops-and-tutorials-1/'>W1: Next-generation sequencing data analysis with GenomeSpace and Galaxy</a></em> </td>
     <td> <a href='http://www.fged.org/conferences/upcoming-conference2/'>FGED Conference</a>, Seattle, Washington </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2013FGEDWorkshop.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2013FGEDWorkshop.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th rowspan=3> April 29 - May 2 </th>
@@ -389,28 +389,28 @@ My pre-bioinformatics career included
     <th> April 12 </th>
     <td> <em><a href='http://www.tgac.ac.uk/tgac-science-symposia-2013/about-dave-clements/'>Transparent, accessible, reproducible analysis with Galaxy</a></em> </td>
     <td rowspan=2> <a href='http://www.tgac.ac.uk/galaxy-workshop/'>The Genome Analysis Centre</a>, Norwich, United Kingdom </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2013TGACTalk.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2013TGACTalk.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th> April 11 </th>
     <td> <em><a href='/src/Events/TGAC2013/index.md'>Introduction to Galaxy Workshop</a></em> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2013TGACWorkshop.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2013TGACWorkshop.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th> April 7-10 </th>
     <td> <em><a href='http://www.ebi.ac.uk/biocuration2013/content/workshop-descriptions'>GO Galaxy Workshop</a></em>, with  <a href='http://www.berkeleybop.org/person/chris-mungall'>Chris Mungall</a> </td>
     <td> <a href='http://www.ebi.ac.uk/biocuration2013/home'>Biocuration 2013</a>, Cambridge, United Kingdom </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2013BiocurationGalaxyIntro.pdf'>Galaxy Intro slides</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/2013BiocurationGOGalxy.pdf'>GO Galaxy Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2013BiocurationGalaxyIntro.pdf'>Galaxy Intro slides</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2013BiocurationGOGalxy.pdf'>GO Galaxy Slides</a> </td>
   </tr>
   <tr>
     <th rowspan=3> April 5-6 </th>
-    <td> <em><a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GMOD2013_GalaxyProjectUpdate.pdf'>Galaxy Project Update</a></em> </td>
+    <td> <em><a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GMOD2013_GalaxyProjectUpdate.pdf'>Galaxy Project Update</a></em> </td>
     <td rowspan=3> <a href='http://gmod.org/wiki/April 2013 GMOD Meeting'>2013 GMOD Meeting</a>, Cambridge, United Kingdom, immediately prior to <a href='http://www.ebi.ac.uk/biocuration2013/'>Biocuration 2013</a> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GMOD2013_GalaxyProjectUpdate.pdf'>Slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GMOD2013_GalaxyProjectUpdate.pdf'>Slides</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GMOD2013_Commmunity.pdf'>Community Building and Support</a></em> </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/GMOD2013_Commmunity.pdf'>Slides</a> </td>
+    <td> <em><a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GMOD2013_Commmunity.pdf'>Community Building and Support</a></em> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GMOD2013_Commmunity.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <td> <em><a href='/src/CloudMan/AWS/GettingStarted/index.md'>Installing Galaxy on the Cloud Workshop</a></em> </td>
@@ -424,9 +424,9 @@ My pre-bioinformatics career included
   </tr>
   <tr>
     <th> March 2-5 </th>
-    <td> <em><a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201203ABRFSatellite.pdf'>Accessible, Transparent and Reproducible Analysis With Galaxy</a></em>, part of <div class='indent'><a href='http://conf.abrf.org/index.cfm/page/satellite_workshops/SW1.htm'>SW1: Application of NGS Platforms for Whole Transcriptome and Genome Analysis</a></div> <em><a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201203ABRFGalaxyForCoreFacilities.pdf'>Galaxy for Core Facilities</a></em>, part of <div class='indent'>"<a href='http://conf.abrf.org/index.cfm/page/2013ConfProg/Genomics_Track.htm'>W6: Community Resource Solutions to Analyzing Large Genomic Data Sets</a>"</div> </td>
+    <td> <em><a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201203ABRFSatellite.pdf'>Accessible, Transparent and Reproducible Analysis With Galaxy</a></em>, part of <div class='indent'><a href='http://conf.abrf.org/index.cfm/page/satellite_workshops/SW1.htm'>SW1: Application of NGS Platforms for Whole Transcriptome and Genome Analysis</a></div> <em><a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201203ABRFGalaxyForCoreFacilities.pdf'>Galaxy for Core Facilities</a></em>, part of <div class='indent'>"<a href='http://conf.abrf.org/index.cfm/page/2013ConfProg/Genomics_Track.htm'>W6: Community Resource Solutions to Analyzing Large Genomic Data Sets</a>"</div> </td>
     <td> <strong><a href='http://conf.abrf.org/'>ABRF 2013</a></strong><br />Palm Springs, California, United States </td>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201203ABRFSatellite.pdf'>SW1 Workshop slides</a>, <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Presentations/201203ABRFGalaxyForCoreFacilities.pdf'>W6 Workshop slides</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201203ABRFSatellite.pdf'>SW1 Workshop slides</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201203ABRFGalaxyForCoreFacilities.pdf'>W6 Workshop slides</a> </td>
   </tr>
   <tr>
     <th> Febrary 4 & 5 </th>
@@ -446,16 +446,16 @@ My pre-bioinformatics career included
 * *[Galaxy Workshop](http://genetics.cmc-uct.co.za/?page_id=79)* at the [University of Pretoria](http://web.up.ac.za/default.asp?ipkCategoryID=17741) and [Stellenbosch University](http://www.sun.ac.za/), South Africa, September 2012
 * *Galaxy Installation Workshop* at the [http://gmod.org/wiki/2012 GMOD Summer School](http://gmod.org/wiki/2012 GMOD Summer School),[US National Evolutionary Synthesis Center (NESCent)](http://nescent.org), Durham, North Carolina, United States  
 * *Introduction to Galaxy Workshops* at [University of Maryland College Park](/src/Events/UMaryland2012/index.md), [Johns Hopkins University](/src/Events/JohnsHopkins2012/index.md), [Univeristy of Iowa](/src/Events/Uiowa2012/index.md), and [Iowa State University](/src/Events/IowaState2012/index.md), April 2012
-* *[CloudMan Workshop](ATTACHMENT_URLDocuments/Presentations/2012GMODGalaxyCloudmanWorkshop.pdf)*,  *[Galaxy Project Update](ATTACHMENT_URLDocuments/Presentations/2012GMODGalaxyUpdate.pdf)*, and  *[Community Building lightning talk](ATTACHMENT_URLDocuments/Presentations/2012GMODCommunityLightning.pdf)* at [April 2012 GMOD Meeting](http://gmod.org/wiki/April 2012 GMOD Meeting), Washington DC, United States, April 2012
-* *[Galaxy](ATTACHMENT_URLDocuments/Presentations/2012PAGGalaxy.pdf)* at [PAG 2012](/src/Events/PAG2012/index.md), San Diego, California, United States, January 2012<br />Intro to Galaxy; most of this talk was a live demo.
+* *[CloudMan Workshop](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012GMODGalaxyCloudmanWorkshop.pdf)*,  *[Galaxy Project Update](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012GMODGalaxyUpdate.pdf)*, and  *[Community Building lightning talk](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012GMODCommunityLightning.pdf)* at [April 2012 GMOD Meeting](http://gmod.org/wiki/April 2012 GMOD Meeting), Washington DC, United States, April 2012
+* *[Galaxy](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012PAGGalaxy.pdf)* at [PAG 2012](/src/Events/PAG2012/index.md), San Diego, California, United States, January 2012<br />Intro to Galaxy; most of this talk was a live demo.
 
 ### 2011
 
-* *[Exploit your Data: Galaxy and the GMOD Tool Suite](ATTACHMENT_URLDocuments/Presentations/2011UTasmania.pdf)* at [University of Tasmania](http://www.utas.edu.au/), Hobart, Australia, October 2011<br />This is a shorter version of the talk presented at AMATA.
-* *[Exploit your Data: Galaxy and the GMOD Tool Suite](ATTACHMENT_URLDocuments/Presentations/2011AMATA.pdf)* at [AMATA 2011](http://www.amata.org.au/index.php/2011-conference), Canberra, Australia, October 2011.
+* *[Exploit your Data: Galaxy and the GMOD Tool Suite](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2011UTasmania.pdf)* at [University of Tasmania](http://www.utas.edu.au/), Hobart, Australia, October 2011<br />This is a shorter version of the talk presented at AMATA.
+* *[Exploit your Data: Galaxy and the GMOD Tool Suite](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2011AMATA.pdf)* at [AMATA 2011](http://www.amata.org.au/index.php/2011-conference), Canberra, Australia, October 2011.
 * *[Genome Project 101 Workshop](http://gmod.org/wiki/Arthropod_Genomics_2011/Genome_Project_101_Workshop)* with [Scott Cain](http://gmod.org/wiki/User/Scott) at [Arthropod Genomics Symposium](http://www.k-state.edu/agc/symp2011), Kansas City, Missouri, United States, June 2011.
-* *[Galaxy Workshop](ATTACHMENT_URLDocuments/Presentations/2011ESHG.pdf)* at [European Human Genetics Conference 2011 (ESHG)](https://www.eshg.org/eshg2011.0.html), Amsterdam, the Netherlands, May 2011
-* *[Galaxy for high-throughput sequence data analysis](ATTACHMENT_URLDocuments/Presentations/2011MarchGMOD.pdf)* at [GMOD Americas 2011](http://gmod.org/wiki/GMOD_Americas_2011), Durham, North Carolina, United States, March 2011.
+* *[Galaxy Workshop](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2011ESHG.pdf)* at [European Human Genetics Conference 2011 (ESHG)](https://www.eshg.org/eshg2011.0.html), Amsterdam, the Netherlands, May 2011
+* *[Galaxy for high-throughput sequence data analysis](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2011MarchGMOD.pdf)* at [GMOD Americas 2011](http://gmod.org/wiki/GMOD_Americas_2011), Durham, North Carolina, United States, March 2011.
 
 ### 2010
 
@@ -490,9 +490,9 @@ My pre-bioinformatics career included
 
 ### 2007 and Before
 
-* *[Digesting the Genome Glut: Promoting the Use and Extension of GMOD To Emerging Model Organisms](http://gmod.org/wiki/Image:2007GenomeInformaticsGMODPoster.pdf)*, poster with [Brian Osborne](http://gmod.org/wiki/User:bosborne), Hilmar Lapp, Xianhua Liu, W. Owen !McMillan, Nassib Nassar, and Todd J. Vision, at the [2007 Genome Informatics conference](http://meetings.cshl.edu/meetings/info07.shtml).  An overview of GMOD highlighting components, the new web site, and using GMOD for evolution research.
+* *[Digesting the Genome Glut: Promoting the Use and Extension of GMOD To Emerging Model Organisms](http://gmod.org/wiki/Image:2007GenomeInformaticsGMODPoster.pdf)*, poster with [Brian Osborne](http://gmod.org/wiki/User:bosborne), Hilmar Lapp, Xianhua Liu, W. Owen McMillan, Nassib Nassar, and Todd J. Vision, at the [2007 Genome Informatics conference](http://meetings.cshl.edu/meetings/info07.shtml).  An overview of GMOD highlighting components, the new web site, and using GMOD for evolution research.
 * *[Gene Expression Databases: Where and When](http://gmod.org/wiki/Image:GeneExpressionIWhenWhere.ppt)*, presentation given at [NESCent](http://nescent.org) in April 2007.  Describes common issues with gene expression databases focusing on anatomy ontology issues.  Uses 4 websites to demonstrate different ways to deal with these issues.
-* *[Worldwide Aeronautical Route Planner](http://www.cirl.uoregon.edu/research/warp.html)*, demonstration with Charles B. !McVey, and [Andrew J. Parkes](http://www.cs.nott.ac.uk/~ajp/) at the [16th National Conference on Artificial Intelligence (AAAI-99)](http://www.aaai.org/Conferences/AAAI/aaai99.php).
+* *[Worldwide Aeronautical Route Planner](http://www.cirl.uoregon.edu/research/warp.html)*, demonstration with Charles B. McVey, and [Andrew J. Parkes](http://www.cs.nott.ac.uk/~ajp/) at the [16th National Conference on Artificial Intelligence (AAAI-99)](http://www.aaai.org/Conferences/AAAI/aaai99.php).
 * *[Squeaky Wheel Optimization](http://www.cirl.uoregon.edu/research/cable.html)*, demonstration with David Joslin at the [15th National Conference on Artificial Intelligence (AAAI-98)](http://www.aaai.org/Conferences/AAAI/aaai98.php).
 
-CategoryHomepage
+[CategoryHomepage](/src/CategoryHomepage/index.md)

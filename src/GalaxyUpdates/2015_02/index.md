@@ -165,7 +165,7 @@ Please let the [organisers](http://gcc2015.tsl.ac.uk/) ([mailto:gcc2015-org AT l
 
 The first [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) [meetup of 2015](/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md) will happen online on Thursday, 19 February.  [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.
 
-A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/src/News/2014Questionnaire/index.md) will be presented by [Dave Clements](/src/DaveClements/index.md), a *Galaxy Project Update* will be offered by a [Galaxy Team member](/src/GalaxyTeam/index.md), and   [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) will lead a short discussion on *GalaxyAdmins direction*.
+A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/src/News/2014Questionnaire/index.md) will be presented by [Dave Clements](/src/DaveClements/index.md), a *Galaxy Project Update* will be offered by a [Galaxy Team member](/src/GalaxyTeam/index.md), and   [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md) will lead a short discussion on *[GalaxyAdmins](/src/GalaxyAdmins/index.md) direction*.
 
 Thanks to everyone for letting us know what dates and times worked best for you.  This time and day of the week worked for a remarkable 91% of respondents.
 
@@ -203,29 +203,29 @@ There are [upcoming events](/src/Events/index.md) in 5 countries on 4 continents
   </tr>
   <tr>
     <th> February 9-13 </th>
-    <td> </em><a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a><em> </td>
+    <td> <em><a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a></em> </td>
     <td> <div class='right'><a href='http://bit.ly/gxytrnSouth_Green'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> Montpellier, France </td>
     <td> <a href="mailto:jean-francois.dufayard@cirad.fr">J.F. Dufayard</a> </td>
   </tr>
   <tr>
     <th rowspan=3> February 16-18 </th>
-    <td> </em>Accessible and Reproducible Large-Scale Analysis with Galaxy<em> </td>
+    <td> <em>Accessible and Reproducible Large-Scale Analysis with Galaxy</em> </td>
     <td rowspan=1> <a href='http://www.triconference.com/Sequencing-Analysis/'>Genome and Transcriptome Analysis</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
     <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
-    <td> </em>Large-Scale NGS data Analysis on Amazon Web Services Using Globus Genomic<em> </td>
+    <td> <em>Large-Scale NGS data Analysis on Amazon Web Services Using Globus Genomic</em> </td>
     <td rowspan=2> <a href='http://www.triconference.com/Integration-Analysis-Visualization/'>Genomics & Sequencing Data Integration, Analysis and Visualization</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
     <td> <a href='http://www.ci.anl.gov/profile/250'>Ravi Madduri</a> </td>
   </tr>
   <tr>
-    <td> </em>iReport: An Integrative “omics” Reporting and Visualisation Platform<em> </td>
+    <td> <em>iReport: An Integrative “omics” Reporting and Visualisation Platform</em> </td>
     <td> Andrew Stubbs </td>
   </tr>
   <tr>
     <th> February 19 </th>
-    <td> </em><a href='/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md'>February 2015 GalaxyAdmins Web Meetup</a><em> </td>
-    <td> </em>Online<em> </td>
+    <td> <em><a href='/src/Community/GalaxyAdmins/Meetups/2015_02_19/index.md'>February 2015 GalaxyAdmins Web Meetup</a></em> </td>
+    <td> <em>Online</em> </td>
     <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
@@ -234,13 +234,13 @@ There are [upcoming events](/src/Events/index.md) in 5 countries on 4 continents
   </tr>
   <tr>
     <th> March 2 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy/'>RNA-Seq analysis using Galaxy</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy/'>RNA-Seq analysis using Galaxy</a></em> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#qfab-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> March 3-5 </th>
-    <td> <a href='PLACEHOLDER_ATTACHMENT_URLDocuments/Flyers/DéveloppementEtIntégrationDApplicationsSousGalaxy.pdf'>Développement et intégration d’applications sous Galaxy</a> </td>
+    <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Flyers/DéveloppementEtIntégrationDApplicationsSousGalaxy.pdf'>Développement et intégration d’applications sous Galaxy</a> </td>
     <td> <div class='right'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></div> La Chapelle Sur Erdre, France </td>
     <td> <a href="mailto:frederique.malipier@nantes.inra.fr">Frederique Malipier</a> </td>
   </tr>
@@ -256,19 +256,19 @@ There are [upcoming events](/src/Events/index.md) in 5 countries on 4 continents
   </tr>
   <tr>
     <th> April 14-15 </th>
-    <td> </em><a href='http://www.globusworld.org/'>GlobusWorld 2015</a><em> </td>
+    <td> <em><a href='http://www.globusworld.org/'>GlobusWorld 2015</a></em> </td>
     <td> Chicago, Illinois, United States </td>
     <td> <a href="mailto:outreach AT globus.org">Globus Outreach</a> </td>
   </tr>
   <tr>
     <th> April 20-21 </th>
-    <td> </em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-2/'>Workshop: Extended RNA-Seq analysis</a><em> </td>
+    <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-2/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#qfab-bioinformatics'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> April 28 </th>
-    <td> </strong><a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2015'>Galaxy Workshop Tokyo 2015</a><strong> </td>
+    <td> <strong><a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2015'>Galaxy Workshop Tokyo 2015</a></strong> </td>
     <td> <a href='http://www.rcast.u-tokyo.ac.jp/index_en.html'>RCAST, The University of Tokyo</a>, Japan </td>
     <td> <a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2015#Contact'>Ryota Yamanaka</a> </td>
   </tr>
@@ -278,7 +278,7 @@ There are [upcoming events](/src/Events/index.md) in 5 countries on 4 continents
   </tr>
   <tr>
     <th> July 6-8 </th>
-    <td> </strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a><strong> </td>
+    <td> <strong><a href='http://gcc2015.tsl.ac.uk/'>2015 Galaxy Community Conference (GCC2015)</a></strong> </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src="/src/Images/Icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div>   <a href='http://www.tsl.ac.uk/'>The Sainsbury Lab</a>, <a href='http://www.visitnorwich.co.uk/'>Norwich</a>, United Kingdom </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -321,11 +321,11 @@ Several new [public Galaxy servers](/src/PublicGalaxyServers/index.md) were adde
 
 <div class='right solid'><a href='http://ribogalaxy.ucc.ie/'><img src="/src/PublicGalaxyServers/RiboGalaxyLogo.png" alt="RiboGalaxy" width="200" /></a></div>
  
-[RiboGalaxy](http://ribogalaxy.ucc.ie/) provides on-line tools for the analysis and visualization of ribo-seq data obtained with the ribosome profiling technique. It is a freely available web server for processing and analysing ribosome profiling (ribo-seq) data with the visualization functionality provided by [GWIPS-viz](http://gwips.ucc.ie/). !RiboGalaxy provides a compact suite of tools specifically tailored for the alignment and visualization of ribo-seq and corresponding mRNA-seq data. Users can take advantage of the published workflows on !RiboGalaxy which reduce the multi-step alignment process to a minimum of inputs.
+[RiboGalaxy](http://ribogalaxy.ucc.ie/) provides on-line tools for the analysis and visualization of ribo-seq data obtained with the ribosome profiling technique. It is a freely available web server for processing and analysing ribosome profiling (ribo-seq) data with the visualization functionality provided by [GWIPS-viz](http://gwips.ucc.ie/). RiboGalaxy provides a compact suite of tools specifically tailored for the alignment and visualization of ribo-seq and corresponding mRNA-seq data. Users can take advantage of the published workflows on RiboGalaxy which reduce the multi-step alignment process to a minimum of inputs.
 
-!RiboGalaxy has its own dedicated [Help page](http://ribogalaxy.ucc.ie/static/help.html). Please post any questions you may have on our [RiboGalaxy Forum](http://gwips.ucc.ie/Forum/). Anonymous users can use !RiboGalaxy. However, the upload and processing of datasets larger than 2GB and the use of advanced features such as published workflows, will require the user to be registered on !RiboGalaxy. 
+RiboGalaxy has its own dedicated [Help page](http://ribogalaxy.ucc.ie/static/help.html). Please post any questions you may have on our [RiboGalaxy Forum](http://gwips.ucc.ie/Forum/). Anonymous users can use RiboGalaxy. However, the upload and processing of datasets larger than 2GB and the use of advanced features such as published workflows, will require the user to be registered on RiboGalaxy. 
 
-!RiboGalaxy is supported by [Science Foundation Ireland](http://www.sfi.ie/).
+RiboGalaxy is supported by [Science Foundation Ireland](http://www.sfi.ie/).
 
 
 ## CardioVascular Research Grid (CVRG)
@@ -358,9 +358,9 @@ CPT Galaxy is sponsored by the [Center for Phage Technology (CPT)](https://cpt.t
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> </em>now<em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a><em> <strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> </strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> <strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </strong> </td>
   </tr>
 </table>
 
@@ -400,25 +400,25 @@ In Galaxy's development branch, the basic tool from has been [redesigned and mod
 <table>
   <tr>
     <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none;"> </strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a><strong> </td>
+    <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a><strong> </td>
+    <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
     <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a><strong> </td>
+    <td style=" border: none;"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
     <td style=" border: none;"> </td>
   </tr>
   <tr>
     <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong>new<strong>: </td>
+    <td style=" border: none;"> <strong>new</strong>: </td>
     <td style=" border: none;"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong>upgrade<strong>: </td>
+    <td style=" border: none;"> <strong>upgrade</strong>: </td>
     <td style=" border: none;"> <code>$ hg pull </code> <br /> <code>$ hg update latest_2015.01.13</code> </td>
   </tr>
 </table>
@@ -463,27 +463,27 @@ In no particular order:
   * [hammock](https://toolshed.g2.bx.psu.edu/view/hammock/hammock): Cluster large amounts of short peptide sequences and generate MSAs of resulting clusters.
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
-  * [snpsift_dbnsfp_datatypes](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp_datatypes): Galaxy applicable data formats for !SnpSift. snpsift_dbnsfp tool Allows for the creation of a snpsift dbnsfp Galaxy dataset from a tabular file that can be used by !SnpSift dbnsfp to annotate a vcf formatted file.
-  * [snpeff_datatypes](https://toolshed.g2.bx.psu.edu/view/iuc/snpeff_datatypes): Galaxy applicable data formats for !SnpEff tools Galaxy applicable data formats for !SnpEff tools.  The snpeffdb datatype provides the means to represent a !SnpEff genome database in a Galaxy dataset.
-  * [snpsift_dbnsfp](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp): snpEff !SnpSift dbnsfp tool from Pablo Cingolani Annotates variants on genes using the dbNSFP, an integrated database of human functional predictions from multiple algorithms (SIFT, Polyphen2, LRT and !MutationTaster, PhyloP and GERP++, etc.) http://snpeff.sourceforge.net/SnpSift.html#dbNSFP !SnpEff and !SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
+  * [snpsift_dbnsfp_datatypes](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp_datatypes): Galaxy applicable data formats for SnpSift. snpsift_dbnsfp tool Allows for the creation of a snpsift dbnsfp Galaxy dataset from a tabular file that can be used by SnpSift dbnsfp to annotate a vcf formatted file.
+  * [snpeff_datatypes](https://toolshed.g2.bx.psu.edu/view/iuc/snpeff_datatypes): Galaxy applicable data formats for SnpEff tools Galaxy applicable data formats for SnpEff tools.  The snpeffdb datatype provides the means to represent a SnpEff genome database in a Galaxy dataset.
+  * [snpsift_dbnsfp](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp): snpEff SnpSift dbnsfp tool from Pablo Cingolani Annotates variants on genes using the dbNSFP, an integrated database of human functional predictions from multiple algorithms (SIFT, Polyphen2, LRT and MutationTaster, PhyloP and GERP++, etc.) http://snpeff.sourceforge.net[/SnpSift](/src/GalaxyUpdates/2015_02/SnpSift/index.md).html#dbNSFP SnpEff and SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
       Repository-Maintainer: [Björn Grüning](/src/BjoernGruening/index.md), Jim Johnson, [Nicola Soranzo](/src/NicolaSoranzo/index.md)<br />
       Repository-Development: https://github.com/galaxy-iuc/tool_shed/
-  * [snpsift](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift): snpEff !SnpSift tools from Pablo Cingolani Variant annotation and effect prediction tools. It annotates and predicts the effects of variants on genes. This repository should manage tool dependencies. There are data managers for the Galaxy admin to download genome databases. !SnpEff is developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
+  * [snpsift](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift): snpEff SnpSift tools from Pablo Cingolani Variant annotation and effect prediction tools. It annotates and predicts the effects of variants on genes. This repository should manage tool dependencies. There are data managers for the Galaxy admin to download genome databases. SnpEff is developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
       Repository-Maintainer: [Björn Grüning](/src/BjoernGruening/index.md), Jim Johnson, [Nicola Soranzo](/src/NicolaSoranzo/index.md)<br />
       Repository-Development: https://github.com/galaxy-iuc/tool_shed /<br />
-  * [snpsift_genesets](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_genesets): snpEff !SnpSift genesets tool from Pablo Cingolani Annotates variants with !GeneSets, such as Gene Ontology (GO), KEGG, Reactome, etc.; 
+  * [snpsift_genesets](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_genesets): snpEff SnpSift genesets tool from Pablo Cingolani Annotates variants with GeneSets, such as Gene Ontology (GO), KEGG, Reactome, etc.; 
 
      http://snpeff.sourceforge.net/SnpSift.html#geneSets !SnpEff and !SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
      Repository-Maintainer: [Björn Grüning](/src/BjoernGruening/index.md), Jim Johnson, [Nicola Soranzo](/src/NicolaSoranzo/index.md)<br />
      Repository-Development: https://github.com/galaxy-iuc/tool_shed/
-* [snpsift_dbnsfp_generic](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp_generic): snpEff !SnpSift dbnsfp tool that can use any dbnsfp-like annotation data Annotates variants on genes using a tabular set of annotation values such as those from the dbNSFP, an integrated database of human functional predictions from multiple algorithms (SIFT, Polyphen2, LRT and !MutationTaster, PhyloP and GERP++, etc.)<br />
-    This tool determines the available annotations from the input, so it can be used for other organisms other than human or other annotation values than available from dbNSFP. http://snpeff.sourceforge.net/SnpSift.html#dbNSFP <br />
-    !SnpEff and !SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
+* [snpsift_dbnsfp_generic](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp_generic): snpEff SnpSift dbnsfp tool that can use any dbnsfp-like annotation data Annotates variants on genes using a tabular set of annotation values such as those from the dbNSFP, an integrated database of human functional predictions from multiple algorithms (SIFT, Polyphen2, LRT and MutationTaster, PhyloP and GERP++, etc.)<br />
+    This tool determines the available annotations from the input, so it can be used for other organisms other than human or other annotation values than available from dbNSFP. http://snpeff.sourceforge.net[/SnpSift](/src/GalaxyUpdates/2015_02/SnpSift/index.md).html#dbNSFP <br />
+    SnpEff and SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
     Repository-Maintainer: [Björn Grüning](/src/BjoernGruening/index.md), Jim Johnson, [Nicola Soranzo](/src/NicolaSoranzo/index.md)<br />
     Repository-Development: https://github.com/galaxy-iuc/tool_shed/
 
 * *From [amawla](https://toolshed.g2.bx.psu.edu/view/amawla):*
-  * [edger](https://toolshed.g2.bx.psu.edu/view/amawla/edger): Empirical analysis of digital gene expression data. GVL. !PeterMac Estimates differential gene expression for short read sequence count using methods appropriate for count data. <br />
+  * [edger](https://toolshed.g2.bx.psu.edu/view/amawla/edger): Empirical analysis of digital gene expression data. GVL. PeterMac Estimates differential gene expression for short read sequence count using methods appropriate for count data. <br />
       Performs digital differential gene expression analysis between groups (eg a treatment and control). Biological replicates provide information about experimental variability required for reliable inference. <br />
       Designed for easier use in Galaxy.<br />
       R package requirements: 
@@ -505,12 +505,12 @@ In no particular order:
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
   * [bamtools](https://toolshed.g2.bx.psu.edu/view/devteam/bamtools): A collection of tools for manipulation of bamfiles BAMTools is a collection of utilities for splitting BAM files. It is based on BAMtools suite of tools by Derek Barnett (https://github.com/pezmaster31/bamtools). <br />
-      !GitHub repo for this collection of tools can be [found here](https://github.com/galaxyproject/tools-devteam/tree/master/tool_collections/bamtools).
+      GitHub repo for this collection of tools can be [found here](https://github.com/galaxyproject/tools-devteam/tree/master/tool_collections/bamtools).
   * [bamtools_split](https://toolshed.g2.bx.psu.edu/view/devteam/bamtools_split): Utility for splitting BAM files. It is based on BAMtools suite of tools by Derek Barnett (https://github.com/pezmaster31/bamtools).<br /> 
-      !GitHub repo for this collection of tools can be [found here](https://github.com/galaxyproject/tools-devteam/tree/master/tool_collections/bamtools/bamtools_split).
+      GitHub repo for this collection of tools can be [found here](https://github.com/galaxyproject/tools-devteam/tree/master/tool_collections/bamtools/bamtools_split).
 
 * [bamtools_filter](https://toolshed.g2.bx.psu.edu/view/devteam/bamtools_filter): Utility for filtering BAM files. It is based on BAMtools suite of tools by Derek Barnett (https://github.com/pezmaster31/bamtools). <br />
-    !GitHub repo for this collection of tools can be [found here](https://github.com/galaxyproject/tools-devteam/tree/master/tool_collections/bamtools/bamtools_filter).
+    GitHub repo for this collection of tools can be [found here](https://github.com/galaxyproject/tools-devteam/tree/master/tool_collections/bamtools/bamtools_filter).
 
 * *From [bigrna](https://toolshed.g2.bx.psu.edu/view/bigrna):*
   * [gpsrna](https://toolshed.g2.bx.psu.edu/view/bigrna/gpsrna): Plant small RNA analysis toolkit, microRNA identification and quantification, multiple distinct small RNAs identification, small interacting RNAs identification and quantification.
@@ -528,20 +528,20 @@ In no particular order:
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
   * [suite_bamtools_2_3_0](https://toolshed.g2.bx.psu.edu/view/devteam/suite_bamtools_2_3_0):  BAMTools is a collection of utilities for manipulating BAM files. It is based on BAMtools suite of tools by Derek Barnett (https://github.com/pezmaster31/bamtools). 
-      !GitHub repo for this collection of tools can be [found here](https://github.com/galaxyproject/tools-devteam/tree/master/tool_collections/bamtools).
+      GitHub repo for this collection of tools can be [found here](https://github.com/galaxyproject/tools-devteam/tree/master/tool_collections/bamtools).
 
 ### Data Managers
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc/): *
-  * [data_manager_snpeff](https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_snpeff): Manage !SnpEff genome reference data Data managers for the Galaxy admin to download !SnpEff genome databases. 
-      !SnpEff is developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
+  * [data_manager_snpeff](https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_snpeff): Manage SnpEff genome reference data Data managers for the Galaxy admin to download SnpEff genome databases. 
+      SnpEff is developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
       Repository-Maintainer: [Björn Grüning](/src/BjoernGruening/index.md), Jim Johnson, [Nicola Soranzo](/src/NicolaSoranzo/index.md)<br />
       Repository-Development: https://github.com/galaxy-iuc/tool_shed/
 
 ### Packages / Tool Dependency Definitions
 
 * *From [biopython](https://toolshed.g2.bx.psu.edu/view/biopython):*
-  * [package_biopython_1_65](https://toolshed.g2.bx.psu.edu/view/biopython/package_biopython_1_65): Uploaded with !NumPy 1.9 dependency. Downloads and compiles version 1.65 of the Biopython package.  The Biopython Project is an international association of developers of freely available Python tools for computational molecular biology.<br />
+  * [package_biopython_1_65](https://toolshed.g2.bx.psu.edu/view/biopython/package_biopython_1_65): Uploaded with NumPy 1.9 dependency. Downloads and compiles version 1.65 of the Biopython package.  The Biopython Project is an international association of developers of freely available Python tools for computational molecular biology.<br />
       http://www.biopython.org
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
@@ -558,9 +558,9 @@ In no particular order:
       Repository-Maintainer: [Björn Grüning](/src/BjoernGruening/index.md)<br />
       Repository-Development: https://github.com/bgruening/galaxytools
   * [package_rhmm_1_5_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_rhmm_1_5_0): Installs the RHmm CRAN library. Discrete, univariate or multivariate gaussian, mixture of univariate or multivariate gaussian HMM functions for simulation and estimation. 
-  * [package_snpeff_4_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_snpeff_4_0): Contains a tool dependency definition that installs version 4.0 !SnpEff, a variant annotation and effect prediction tool. !SnpEff is a variant annotation and effect prediction tool by Pablo Cingolani. <br />
+  * [package_snpeff_4_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_snpeff_4_0): Contains a tool dependency definition that installs version 4.0 SnpEff, a variant annotation and effect prediction tool. SnpEff is a variant annotation and effect prediction tool by Pablo Cingolani. <br />
       It annotates and predicts the effects of variants on genes (such as amino acid changes).<br /> 
-      !SnpEff and !SnpSift ( http://snpeff.sourceforge.net/ )
+      SnpEff and SnpSift ( http://snpeff.sourceforge.net/ )
   * [package_bedtools_2_22](https://toolshed.g2.bx.psu.edu/view/iuc/package_bedtools_2_22): Contains a tool dependency definition that downloads and compiles version 2.22 of bedtools. bedtools - a swiss army knife for genome arithmetic<br />
       Repository-Maintainer: [Björn Grüning](/src/BjoernGruening/index.md)<br />
       Repository-Development: https://github.com/galaxyproject/tools-iuc/tree/master/packages/package_bedtools_2_22
@@ -573,7 +573,7 @@ In no particular order:
 
 * *From [malbuquerque](https://toolshed.g2.bx.psu.edu/view/malbuquerque):*
   * [package_seqtk_1_0_0](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_seqtk_1_0_0): Builds Seqtk version 1.0.0 "Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format. It seamlessly parses both FASTA and FASTQ files which can also be optionally compressed by gzip" -Heng Li, Broad Institute
-  * [package_bamtools_2_3_0](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_bamtools_2_3_0): !BamTools - a collection of utilities for processing of bam files - for all architectures 
+  * [package_bamtools_2_3_0](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_bamtools_2_3_0): BamTools - a collection of utilities for processing of bam files - for all architectures 
   * [package_cmake_3_1_0](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_cmake_3_1_0): Builds CMake version 3.1.0 - Cross Platform Makefile Generator 
   * [package_ucsc_user_apps_310](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_ucsc_user_apps_310): Builds most UCSC user applications Only those tools which successfully build without using mysql_config. Specifically only those in the kent/src/utils directory (those publicly available).
 

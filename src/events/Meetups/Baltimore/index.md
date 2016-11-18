@@ -1,4 +1,4 @@
-<div class='center'>![Galaxy Baltimore Meetups](/src/Events/Meetups/Baltimore/GalaxyBaltimoreMeetupLogo400.png)</div>
+<div class='center'><img src="/src/Events/Meetups/Baltimore/GalaxyBaltimoreMeetupLogo400.png" alt="Galaxy Baltimore Meetups" width="300" /></div>
 
 ## Home of the Baltimore Area Galaxy project meetups at Johns Hopkins!
 

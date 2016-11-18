@@ -17,7 +17,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em><a href='http://galaxy.nbic.nl/'>NBIC Galaxy</a> at <a href='https://www.surfsara.nl/'>SURFsara's HPC cloud</a></em><div class='indent'><a href="mailto:hailiang DOT mei AT nbic DOT nl">Hailiang Leon Mei</a><br /><a href='PLACEHOLDER_ATTACHMENT_URL20130320Andromeda.pdf'>Slides</a></div><em>Galaxy Project Update</em><div class='indent'><a href='/src/Dan/index.md'>Dan Blankenberg</a><br /><a href='PLACEHOLDER_ATTACHMENT_URL20130320GalaxyUpdate.pdf'>Slides</a></div> </td>
+    <td> <em><a href='http://galaxy.nbic.nl/'>NBIC Galaxy</a> at <a href='https://www.surfsara.nl/'>SURFsara's HPC cloud</a></em><div class='indent'><a href="mailto:hailiang DOT mei AT nbic DOT nl">Hailiang Leon Mei</a><br /><a href='PLACEHOLDER_ATTACHMENT_URL/src/20130320Andromeda.pdf'>Slides</a></div><em>Galaxy Project Update</em><div class='indent'><a href='/src/Dan/index.md'>Dan Blankenberg</a><br /><a href='PLACEHOLDER_ATTACHMENT_URL/src/20130320GalaxyUpdate.pdf'>Slides</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>

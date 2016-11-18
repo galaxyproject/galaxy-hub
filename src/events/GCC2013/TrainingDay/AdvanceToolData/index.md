@@ -98,7 +98,7 @@ def advanced():
 	outf.write('\n')
 	outf.close
 
-if __name__ == "</u>main__":
+if __name__ == "__main__":
 	advanced()
 ```
 
@@ -378,7 +378,7 @@ Feel free to play around with different numbers of entries passing different val
 
 Macros allow the reuse of commonly used chunks of code (e.g. parameter definitions and commandline cheetah code). This is particularly useful for tool suites that may have multiple individual tools, but which share a collection of commonly defined parameters.
 
-Extensively documented: http://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax#Reusing_Repeated_Configuration_Elements
+Extensively documented: http://wiki.galaxyproject.org/Admin/Tools[/ToolConfigSyntax](/src/Events/GCC2013/TrainingDay/AdvanceToolData/ToolConfigSyntax/index.md)#Reusing_Repeated_Configuration_Elements
 
 An example is the GATK. See tools/gatk/unified_genotyper.xml which makes use of the Macro file tools/gatk/gatk_macros.xml.
 
@@ -725,7 +725,7 @@ gatk_macros.xml:
             -p '--read_filter "${read_filter.read_filter_type.read_filter_type_selector}"
             ###raise Exception( str( dir( $read_filter ) ) )
             #for $name, $param in $read_filter.read_filter_type.iteritems():
-                #if $name not in [ "<u>current_case__", "read_filter_type_selector" ]:
+                #if $name not in [ "__current_case__", "read_filter_type_selector" ]:
                     #if hasattr( $param.input, 'truevalue' ):
                         ${param}
                     #else:

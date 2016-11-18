@@ -27,11 +27,11 @@ The [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/Logistics//
 
 Ole Johan Dahls House is adjacent to the Forskningsparken subway and tram stops.  
 
-<div class='right'><br />![Euro Plug](/src/Events/GCC2013/Logistics/Euro-Plug.jpg)</div>
+<div class='right'><br /><img src="/src/Events/GCC2013/Logistics/Euro-Plug.jpg" alt="Euro Plug" height="80" /></div>
 
 ## Power
 
-Norway, like most of Europe, uses 50hz 230 volt power.   [Outlets in Norway are type "C"](http://goscandinavia.about.com/od/norwa1/f/eleoutletnorway.htm) (the *!EuroPlug*) with two round plugs. 
+Norway, like most of Europe, uses 50hz 230 volt power.   [Outlets in Norway are type "C"](http://goscandinavia.about.com/od/norwa1/f/eleoutletnorway.htm) (the *EuroPlug*) with two round plugs. 
 
 <br />
 

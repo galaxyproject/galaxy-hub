@@ -42,7 +42,7 @@ There were [28 papers added to the Galaxy CiteULike group](http://www.citeulike.
 
 ## Who's Hiring
 
-<div class='right'>![Please Help!  Yes you!](/src/Images/Icons/PointingFinger.png)</div>
+<div class='right'><img src="/src/Images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs and software engineers at Emory and Penn State.
@@ -61,7 +61,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 <div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
 
-There are March application deadlines for a Next-gen Sequencing in Evolutionary Biology course at NESCent; Bio-Linux, and Advanced RNA-Seq and ChIP-Seq Data Analysis courses at Hinxton; Next Generation Sequencing Data Analysis at EMBL Heidelberg; Bioinformatics and Comparative Genome Analyses in Naples; Statistical Analysis of Genomic Data at CSHL; abstract deadlines for BITS 2012 and Information Visualization in !BioMedical Informatics (IVBI 2012); and early registration deadlines for the April GMOD Meeting and Copenhagenomics.
+There are March application deadlines for a Next-gen Sequencing in Evolutionary Biology course at NESCent; Bio-Linux, and Advanced RNA-Seq and ChIP-Seq Data Analysis courses at Hinxton; Next Generation Sequencing Data Analysis at EMBL Heidelberg; Bioinformatics and Comparative Genome Analyses in Naples; Statistical Analysis of Genomic Data at CSHL; abstract deadlines for BITS 2012 and Information Visualization in BioMedical Informatics (IVBI 2012); and early registration deadlines for the April GMOD Meeting and Copenhagenomics.
 
 See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com) for details on these and other events.
 
@@ -76,43 +76,43 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
   </tr>
   <tr>
     <th> April 5-6 </th>
-    <td> </strong><a href='http://gmod.org/wiki/April 2012 GMOD Meeting'>April 2012 GMOD Meeting</a><strong><br />Including a <a href='http://gmod.org/wiki/April 2012 GMOD Meeting#Galaxy Workshop'>Galaxy Workshop</a> on evening of April 5.  Early registration ends March 7.  </td>
+    <td> <strong><a href='http://gmod.org/wiki/April 2012 GMOD Meeting'>April 2012 GMOD Meeting</a></strong><br />Including a <a href='http://gmod.org/wiki/April 2012 GMOD Meeting#Galaxy Workshop'>Galaxy Workshop</a> on evening of April 5.  Early registration ends March 7.  </td>
     <td> Washington DC, immediately following <a href='http://pir.georgetown.edu/biocuration2012/'>Biocuration 2012</a> </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> April 24-26 </th>
-    <td> </strong><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=110781'>Leveraging SaaS for Next-Gen Sequencing: Case Study with the Galaxy Community</a><strong><br />Pre-Conference Workshop </td>
-    <td> </strong><a href='http://www.bio-itworldexpo.com/'>Bio-IT World</a><strong>, Boston, Massachusetts, United States </td>
+    <td> <strong><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=110781'>Leveraging SaaS for Next-Gen Sequencing: Case Study with the Galaxy Community</a></strong><br />Pre-Conference Workshop </td>
+    <td> <strong><a href='http://www.bio-itworldexpo.com/'>Bio-IT World</a></strong>, Boston, Massachusetts, United States </td>
     <td> Ravi Madduri, Elizabeth Bartom </td>
   </tr>
   <tr>
     <th> June 6-8 </th>
-    <td> </strong><a href='http://www.bio-itworldasia.com/cla'>Dynamically Scalable, Accessible Analysis with Galaxy Cloud</a><strong> </td>
-    <td> </strong><a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a><strong>, Singapore </td>
+    <td> <strong><a href='http://www.bio-itworldasia.com/cla'>Dynamically Scalable, Accessible Analysis with Galaxy Cloud</a></strong> </td>
+    <td> <strong><a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a></strong>, Singapore </td>
     <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> June 11-12 </th>
-    <td> </strong><a href='http://www.bioinformatics.ca/workshops/high_throughput'>Informatics on High Throughput Sequencing Data Workshop</a><strong> </td>
+    <td> <strong><a href='http://www.bioinformatics.ca/workshops/high_throughput'>Informatics on High Throughput Sequencing Data Workshop</a></strong> </td>
     <td> Toronto, Ontario, Canada </td>
     <td> Francis Ouellette </td>
   </tr>
   <tr>
     <th> June 11-19 </th>
-    <td> </strong><a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'>Next-gen Sequencing in Evolutionary Biology Course</a><strong><br />Application deadline is March 9 </td>
+    <td> <strong><a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'>Next-gen Sequencing in Evolutionary Biology Course</a></strong><br />Application deadline is March 9 </td>
     <td> <a href='http://nescent.org'>US National Evolutionary Synthesis Center (NESCent)</a>, Durham, North Carolina, United States </td>
     <td> <a href='http://www.datam0nk3y.org/hyphywiki/index.php/Sergei_L_Kosakovsky_Pond'>Sergei Kosakovsky Pond</a> </td>
   </tr>
   <tr>
     <th> July 13-17 </th>
-    <td> </strong><a href='http://www.iscb.org/ismb2012-program/ismb2012-satellitemeetings#BSI'>Bioinformatics Software Interoperability SIG (BSI-SIG)</a><strong> </td>
-    <td> </strong><a href='http://www.iscb.org/ismb2012'>ISMB 2012</a><strong>, Long Beach, California, United States </td>
+    <td> <strong><a href='http://www.iscb.org/ismb2012-program/ismb2012-satellitemeetings#BSI'>Bioinformatics Software Interoperability SIG (BSI-SIG)</a></strong> </td>
+    <td> <strong><a href='http://www.iscb.org/ismb2012'>ISMB 2012</a></strong>, Long Beach, California, United States </td>
     <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> </strong><a href='/src/Events/GCC2012/index.md'>2012 Galaxy Community Conference</a><strong><br /><a href='/src/Events/GCC2012/Abstracts/index.md'>Abstract submission</a> is now open, and <a href='/src/Events/GCC2012/TrainingDay/index.md'>Training Day</a> topics are set. </td>
+    <td> <strong><a href='/src/Events/GCC2012/index.md'>2012 Galaxy Community Conference</a></strong><br /><a href='/src/Events/GCC2012/Abstracts/index.md'>Abstract submission</a> is now open, and <a href='/src/Events/GCC2012/TrainingDay/index.md'>Training Day</a> topics are set. </td>
     <td> Chicago, Illinois, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>

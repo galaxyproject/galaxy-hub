@@ -17,15 +17,15 @@ The [next meeting](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md) of t
   </tr>
   <tr>
     <th> Presentation </th>
-    <td> </em><a href='http://galaxy.nbic.nl/'>NBIC Galaxy</a> at <a href='https://www.surfsara.nl/'>SURFsara's HPC cloud</a><em>  </td>
+    <td> <em><a href='http://galaxy.nbic.nl/'>NBIC Galaxy</a> at <a href='https://www.surfsara.nl/'>SURFsara's HPC cloud</a></em>  </td>
   </tr>
   <tr>
     <th> Presenters </th>
-    <td> <a href="mailto:hailiang DOT mei AT nbic DOT nl">Hailiang "Leon" Mei</a><br />There will also be a </em>Galaxy Project Update<em> from <a href='/src/Dan/index.md'>Dan Blankenberg</a> of the <a href='/src/GalaxyTeam/index.md'>Galaxy Team</a> </td>
+    <td> <a href="mailto:hailiang DOT mei AT nbic DOT nl">Hailiang "Leon" Mei</a><br />There will also be a <em>Galaxy Project Update</em> from <a href='/src/Dan/index.md'>Dan Blankenberg</a> of the <a href='/src/GalaxyTeam/index.md'>Galaxy Team</a> </td>
   </tr>
   <tr>
     <th> Links </th>
-    <td> </em><a href='https://globalcampus.uiowa.edu:443/join_meeting.html?meetingId=1262344508128'>Join Meetup</a>, <a href='https://globalcampus.uiowa.edu:443/build_calendar.event?meetingId=1262344508128'>Meetup Invite</a><em> </td>
+    <td> <em><a href='https://globalcampus.uiowa.edu:443/join_meeting.html?meetingId=1262344508128'>Join Meetup</a>, <a href='https://globalcampus.uiowa.edu:443/build_calendar.event?meetingId=1262344508128'>Meetup Invite</a></em> </td>
   </tr>
 </table>
 
@@ -40,4 +40,4 @@ Srinivas Maddhi
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-03-12</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

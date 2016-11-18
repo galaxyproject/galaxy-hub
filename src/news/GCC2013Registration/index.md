@@ -21,4 +21,4 @@ PS: And please help [get the word out](/src/Events/GCC2013/Promotion/index.md)!
 
 
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

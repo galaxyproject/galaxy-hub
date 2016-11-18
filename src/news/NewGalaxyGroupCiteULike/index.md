@@ -1,9 +1,6 @@
----
-date: 2011-12-14T18:50:11Z
----
-<div class='newsItemHeader'>[New Galaxy Group @ CiteULike](/News/New Galaxy Group @ CiteULike)</div>
+<div class='newsItemHeader'>[New Galaxy Group @ CiteULike](/src/News/New Galaxy Group @ CiteULike/index.md)</div>
 
-<div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src='/Images/Logos/CiteULikeLogo.png' alt='Galaxy at CiteULike Social Bookmarking Service' width="200" /></a></div>
+<div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/src/Images/Logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
 
 A new [Galaxy Group](http://www.citeulike.org/group/16008/order/group_rating) has been created at the [CiteULike](http://citeulike.org) social bookmarking service to organize papers that are about, use, or reference Galaxy.  The [Galaxy Group](http://www.citeulike.org/group/16008/order/group_rating) is open to any CiteULike user (and anyone can become a CiteULike user).  Group members can add papers to the group, assign tags, and rate papers.
 
@@ -15,5 +12,6 @@ If you want to help other Galaxy users and sites find papers that are relevant t
 
 [Dave Clements](/src/DaveClements/index.md)
 
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-12-14, updated 2011-12-15 </div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

@@ -8,7 +8,7 @@ If you have a Galaxy deployment then please take a few minutes to describe your 
 
 **[Use the Wiki Template](/src/Community/Deployments/index.md#using-the-wiki):**
 
-   Go to the "[Using the Wiki](/src/Community/Deployments/index.md#using-the-wiki)" section of the [catalog home page](/src/Community/Deployments/index.md), enter a !CamelCase name for your deployment, click "Create ...," and then edit, preview, and save the page. Voilà, an entry for your deployment now exists in the [catalog](/src/Community/Deployments/index.md).  
+   Go to the "[Using the Wiki](/src/Community/Deployments/index.md#using-the-wiki)" section of the [catalog home page](/src/Community/Deployments/index.md), enter a CamelCase name for your deployment, click "Create ...," and then edit, preview, and save the page. Voilà, an entry for your deployment now exists in the [catalog](/src/Community/Deployments/index.md).  
 
 **[Use the Online Form](http://bit.ly/gxydeployform)**
 
@@ -22,4 +22,4 @@ Thanks a bunch, and please let us know if you have any questions.
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-12-04</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

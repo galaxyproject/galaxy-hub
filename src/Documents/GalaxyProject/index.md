@@ -1,7 +1,7 @@
-INCLUDE(/Documents/LinkBox)
+PLACEHOLDER_INCLUDE(/src/Documents/LinkBox/index.md)
 
 Documents about the [Galaxy Project](/src/GalaxyProject/index.md).
 
-<<Action(AttachFile, Attach a file to this page.)>>
+PLACEHOLDER_ACTION(AttachFile, Attach a file to this page.)
 
-<<AttachList>>
+PLACEHOLDER_ATTACH_LIST

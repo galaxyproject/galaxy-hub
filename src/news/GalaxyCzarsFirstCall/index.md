@@ -8,7 +8,7 @@ In addition to discussing group organization and logistics, Ann Black-Ziegelbein
 
 See the [meeting summary](/src/Community/GalaxyCzars/Meetups/2012_07_09/index.md) for more, and the [slides and screencast](/src/Community/GalaxyCzars/Meetups/2012_07_09/index.md#links) for details and links to the benchmarking scripts used, and to reports for each combination tried. 
 
-The group decided to have calls every other month, with the next on in September.  We will also have a !GalaxyCzars [breakout session](/src/Events/GCC2012/Program/Breakouts/index.md) at [GCC2012](/src/Events/GCC2012/index.md).  This first call had over 25 participants (dare I say *czars*?).
+The group decided to have calls every other month, with the next on in September.  We will also have a GalaxyCzars [breakout session](/src/Events/GCC2012/Program/Breakouts/index.md) at [GCC2012](/src/Events/GCC2012/index.md).  This first call had over 25 participants (dare I say *czars*?).
 
 Many, many thanks to Ann Black-Ziegelbein for getting the group off to a great start.
 
@@ -16,4 +16,4 @@ Many, many thanks to Ann Black-Ziegelbein for getting the group off to a great s
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-07-11</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

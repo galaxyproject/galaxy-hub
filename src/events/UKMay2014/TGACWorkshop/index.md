@@ -42,55 +42,55 @@ No programming or Linux command line experience is required.
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:30 </th>
-    <td> </strong>Registration<strong><div class='indent'>Registration and </em>coffee<em></div> </td>
+    <td> <strong>Registration</strong><div class='indent'>Registration and <em>coffee</em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td> </strong>Welcome<strong><div class='indent'>Introductions and logistics</div> </td>
+    <td> <strong>Welcome</strong><div class='indent'>Introductions and logistics</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:20 </th>
-    <td> </strong>Basic Analysis with Galaxy<strong><div class='indent'>Walk through a worked, hands-on example demonstrating basic analysis with Galaxy</div> </td>
+    <td> <strong>Basic Analysis with Galaxy</strong><div class='indent'>Walk through a worked, hands-on example demonstrating basic analysis with Galaxy</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:20 </th>
-    <td> </strong>Basic Analysis into Reusable Workflows<strong><div class='indent'>Genericize our analysis into something we can use again.</div> </td>
+    <td> <strong>Basic Analysis into Reusable Workflows</strong><div class='indent'>Genericize our analysis into something we can use again.</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:40 </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
-    <td> </strong>RNA-Seq Example Part I<strong><div class='indent'>Review NGS data quality issues and some quality control options in Galaxy; Mapping and Splice Junction Calling with Tophat</div> </td>
+    <td> <strong>RNA-Seq Example Part I</strong><div class='indent'>Review NGS data quality issues and some quality control options in Galaxy; Mapping and Splice Junction Calling with Tophat</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:00 </th>
-    <td> </strong>Galaxy Project Overview<strong><div class='indent'>Introduction to Galaxy and the Galaxy community</div> </td>
+    <td> <strong>Galaxy Project Overview</strong><div class='indent'>Introduction to Galaxy and the Galaxy community</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:20 </th>
-    <td style=" text-align: center;"> </strong>Lunch<strong> (catered) </td>
+    <td style=" text-align: center;"> <strong>Lunch</strong> (catered) </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 13:05 </th>
-    <td> </strong>RNA-Seq Example Part II<strong><div class='indent'>Cufflinks, Visualization, and Visual Analytics</div> </td>
+    <td> <strong>RNA-Seq Example Part II</strong><div class='indent'>Cufflinks, Visualization, and Visual Analytics</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 13:55 </th>
-    <td> </strong>Sharing, Publishing, and Reproducibility with Galaxy<strong><div class='indent'>Share and publish analysis, datasets, and workflows with Galaxy</div> </td>
+    <td> <strong>Sharing, Publishing, and Reproducibility with Galaxy</strong><div class='indent'>Share and publish analysis, datasets, and workflows with Galaxy</div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 14:15 </th>
-    <td style=" text-align: center;"> </strong>Break<strong> </td>
+    <td style=" text-align: center;"> <strong>Break</strong> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 14:35 </th>
-    <td> </strong>Setting up your own Galaxy Cluster on the Amazon Cloud<strong><div class='indent'>Every participant will set up their own functional and populated (but short-lived) Galaxy server on the cloud </div> </td>
+    <td> <strong>Setting up your own Galaxy Cluster on the Amazon Cloud</strong><div class='indent'>Every participant will set up their own functional and populated (but short-lived) Galaxy server on the cloud </div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 16:00 </th>
-    <td style=" text-align: center;"> </strong>Done<strong> </td>
+    <td style=" text-align: center;"> <strong>Done</strong> </td>
   </tr>
 </table>
 
@@ -111,7 +111,7 @@ This workshop is part of the [May 2014 Galaxy UK Tour](/src/Events/UKMay2014/ind
 
 ## Slides
 
-* [Slides](ATTACHMENT_URLDocuments/Presentations/201405TGACWorkshop.pdf)
+* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/201405TGACWorkshop.pdf)
 
 ## Questions?
 

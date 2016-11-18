@@ -48,4 +48,4 @@ Please add your name to this [Google Doc](https://docs.google.com/document/d/1k_
 
 Please contact Manuel Corpas and Frederic Coppens
 
-CategoryBoF
+[CategoryBo](/src/CategoryBo/index.md)F

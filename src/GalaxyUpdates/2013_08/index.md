@@ -23,7 +23,7 @@ GCC2013 was, by all accounts, a tremendous success.  This was the largest GCC ev
 In addition to the videos and presentation materials, there are also several meeting reports in a wide variety of presentation styles:
 
 * [#usegalaxy lights up northern skies](http://blogs.biomedcentral.com/gigablog/2013/07/09/usegalaxy-lights-up-northern-skies/): Meeting report by [Scott Edmunds](http://blogs.biomedcentral.com/gigablog/author/scottedmunds/) in [GigaBlog](http://blogs.biomedcentral.com/gigablog).
-* [GCC2013 Report](ATTACHMENT_URLDocuments/Presentations/GCC2013/NBICSummary.pdf) - an [NBIC](http://nbic.nl/) centric review of the meeting by Leon Mei.
+* [GCC2013 Report](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/NBICSummary.pdf) - an [NBIC](http://nbic.nl/) centric review of the meeting by Leon Mei.
 * UiO Rector's Blog: [Reproduserbarhet i livsvitenskapene](http://bit.ly/12GQpvC) 
 * [Conference Tweets at ChirpStory](http://chirpstory.com/li/93570)
 * [Storify of conference Tweets](http://storify.com/search?q=GCC2013)
@@ -209,7 +209,7 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
   <tr>
     <th> October 1-3 </th>
     <td> <em><a href='http://www.beyond-the-genome.com/program/'>Galaxy</a></em> </td>
-    <td> </strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a><strong>,San Francisco, California, United States </td>
+    <td> <strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a></strong>,San Francisco, California, United States </td>
     <td> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
@@ -254,7 +254,7 @@ The most recent official distribution was on [June 3, 2013](/src/DevNewsBriefs/2
 
 A new version of [CloudMan](/src/CloudMan/index.md) was [released in July](/src/News/CloudManRelease/index.md).
 
-CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
+[CloudMan](/src/CloudMan/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
 **IMPORTANT - please read**
 
@@ -300,5 +300,5 @@ For more details on the new features, see the the [CHANGELOG](https://bitbucket.
 
 * [Announcement for 2013 ISCB Wikipedia competition](http://bit.ly/15eEzxy); The [Galaxy page](http://bit.ly/gxywp) is eligible.
 * Follow [Saket Choudhary's Google Summer of Code Galaxy project work on Blogspot](http://bit.ly/1abz1bv)
-* [bioblend 0.3.3](http://bit.ly/1brfjsL): CloudMan and Galaxy API library documentation at !ReadTheDocs.
+* [bioblend 0.3.3](http://bit.ly/1brfjsL): CloudMan and Galaxy API library documentation at ReadTheDocs.
 

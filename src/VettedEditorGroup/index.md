@@ -1227,4 +1227,4 @@ List of wiki logins that have been vetted and no longer need to answer [TextChas
 * [Jamie Zhou](/src/jamiezhou@mednet.ucla.edu/index.md)
 * [Bethany Zumwalde](/src/BethanyZumwalde/index.md)
 
-CategoryGroup
+[CategoryGroup](/src/CategoryGroup/index.md)

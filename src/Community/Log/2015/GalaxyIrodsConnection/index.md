@@ -24,4 +24,4 @@ We are actually testing the connexion of Galaxy to iRODS object store. The "[Con
 * [Connecting Galaxy to iRODS](https://urgi.versailles.inra.fr/content/download/5169/39254/file/galaxy_irods.pdf)
 * [iRODS Project](http://irods.org/)
 
-CategoryLog
+[CategoryLog](/src/CategoryLog/index.md)

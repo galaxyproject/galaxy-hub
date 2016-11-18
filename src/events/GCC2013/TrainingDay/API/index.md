@@ -133,9 +133,9 @@ There are several scripts and excellent programming libraries designed to help w
   a library for use in Java based on bioblend
 
 Data returned from (and in some cases passed to) the Galaxy API is often described or formatted in
-[JSON](http://en.wikipedia.org/wiki/JSON) (!JavaScript Object Notation) - a compact and flexible way of describing
+[JSON](http://en.wikipedia.org/wiki/JSON) (JavaScript Object Notation) - a compact and flexible way of describing
 relatively complex data structures. Conversion to the language you may be programming in is automatic in the case of the
-scripts/api directory, !BioBlend, and !Blend4j and relatively easy for python, and a non-issue for !JavaScript.
+scripts/api directory, BioBlend, and !Blend4j and relatively easy for python, and a non-issue for JavaScript.
 
 
 
@@ -183,7 +183,7 @@ We'll slowly build a fairly complex script using the API to:
 * Create a history
 * Upload a file from our local system to the server and place it in that history (data/myIlluminaRun.solexa.fastq -
   also available from [this published history on Galaxy Main](https://main.g2.bx.psu.edu/u/aun1/h/quickie-14))
-* Run a workflow on that file [ATTACHMENT_URLGalaxy-Workflow-Joined_Solexa_QC.ga](ATTACHMENT_URLGalaxy-Workflow-Joined_Solexa_QC.ga) (already available in your instance)
+* Run a workflow on that file [PLACEHOLDER_ATTACHMENT_URL/src/Galaxy-Workflow-Joined_Solexa_QC.ga](PLACEHOLDER_ATTACHMENT_URL/src/Galaxy-Workflow-Joined_Solexa_QC.ga)]] (already available in your instance)
 * Get some information about the workflow
 * Rename the file and annotate it
 * Copy the file to a library
@@ -300,14 +300,14 @@ These will both be needed in every call to the API.
 
 ## Structure
 
-We'll be using python and [scripts/api/common.py](ATTACHMENT_URLcommon.py) as a layer on top of urllib2.
-[ATTACHMENT_URLsetup.py](ATTACHMENT_URLsetup.py) will load our key and base URL for every API call.
+We'll be using python and [scripts/api/common.py](PLACEHOLDER_ATTACHMENT_URL/src/common.py) as a layer on top of urllib2.
+[PLACEHOLDER_ATTACHMENT_URL/src/setup.py](PLACEHOLDER_ATTACHMENT_URL/src/setup.py)]] will load our key and base URL for every API call.
 
 
 
 
 Much of the functionality of the resource scripts (such as users_1.py, histories_1.py, etc.) is available already
-in !BioBlend or Blend4j - we won't use them here so we can get a closer look on the internals and conventions of the API.
+in BioBlend or Blend4j - we won't use them here so we can get a closer look on the internals and conventions of the API.
 
 
 
@@ -324,7 +324,7 @@ in !BioBlend or Blend4j - we won't use them here so we can get a closer look on 
 <br />
 ## 1. Checking your key with the user API
 
-We'll start with the scripts: [ATTACHMENT_URLstep_1.py](ATTACHMENT_URLstep_1.py) and [ATTACHMENT_URLusers_1.py](ATTACHMENT_URLusers_1.py).
+We'll start with the scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_1.py](PLACEHOLDER_ATTACHMENT_URL/src/step_1.py)]] and [PLACEHOLDER_ATTACHMENT_URL/src/users_1.py](PLACEHOLDER_ATTACHMENT_URL/src/users_1.py)]].
 
 
 
@@ -417,7 +417,7 @@ Here we'll learn how to query all our histories and query a specific history.
 
 
 
-Scripts: [ATTACHMENT_URLstep_2.py](ATTACHMENT_URLstep_2.py), [ATTACHMENT_URLhistories_1.py](ATTACHMENT_URLhistories_1.py), [ATTACHMENT_URLhistories_2.py](ATTACHMENT_URLhistories_2.py)
+Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_2.py](PLACEHOLDER_ATTACHMENT_URL/src/step_2.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/histories_1.py](PLACEHOLDER_ATTACHMENT_URL/src/histories_1.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/histories_2.py](PLACEHOLDER_ATTACHMENT_URL/src/histories_2.py)]]
 
 
 
@@ -567,7 +567,7 @@ Here we'll learn how to create a new history which will (automatically) become o
 
 
 
-Scripts: [ATTACHMENT_URLstep_3.py](ATTACHMENT_URLstep_3.py), [ATTACHMENT_URLhistories_3.py](ATTACHMENT_URLhistories_3.py)
+Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_3.py](PLACEHOLDER_ATTACHMENT_URL/src/step_3.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/histories_3.py](PLACEHOLDER_ATTACHMENT_URL/src/histories_3.py)]]
 
 
 
@@ -654,7 +654,7 @@ following steps.
 ## 4. Checking the contents of a history with the history contents API
 
 Histories can be thought of as containers for the datasets we produce over time. The python class for those datasets
-(that are associated with a history and a user) is !HistoryDatasetAssociation (HDA).
+(that are associated with a history and a user) is HistoryDatasetAssociation (HDA).
 
 
 
@@ -666,7 +666,7 @@ of this API call to build its HTML.
 
 
 
-Scripts: [ATTACHMENT_URLstep_4.py](ATTACHMENT_URLstep_4.py), [ATTACHMENT_URLhdas_1.py](ATTACHMENT_URLhdas_1.py)
+Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_4.py](PLACEHOLDER_ATTACHMENT_URL/src/step_4.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/hdas_1.py](PLACEHOLDER_ATTACHMENT_URL/src/hdas_1.py)]]
 
 
 
@@ -726,7 +726,7 @@ details on the HDA that Galaxy creates for it.
 
 
 
-Scripts: [ATTACHMENT_URLstep_5.py](ATTACHMENT_URLstep_5.py), [ATTACHMENT_URLtools_1.py](ATTACHMENT_URLtools_1.py), [ATTACHMENT_URLhdas_2.py](ATTACHMENT_URLhdas_2.py)
+Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_5.py](PLACEHOLDER_ATTACHMENT_URL/src/step_5.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/tools_1.py](PLACEHOLDER_ATTACHMENT_URL/src/tools_1.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/hdas_2.py](PLACEHOLDER_ATTACHMENT_URL/src/hdas_2.py)]]
 
 
 
@@ -741,7 +741,7 @@ It's the initial data used in the screencast quickie: http://screencast.g2.bx.ps
 
 The tools_1.py contains one function: upload_hda. The Galaxy developers would like to have every tool be available to
 run through the API but this is still a work in progress. In this case, we use another module/script
-[ATTACHMENT_URLupload_to_history.py](ATTACHMENT_URLupload_to_history.py) to remove some of the complexity and it itself uses the `requests` module to handle
+[PLACEHOLDER_ATTACHMENT_URL/src/upload_to_history.py](PLACEHOLDER_ATTACHMENT_URL/src/upload_to_history.py)]] to remove some of the complexity and it itself uses the `requests` module to handle
 moving the file into the POST data. Be sure to check out those modules for more details on what's involved.
 
 
@@ -855,7 +855,7 @@ and ready before we start using it.
 
 
 
-Scripts: [ATTACHMENT_URLstep_6.py](ATTACHMENT_URLstep_6.py)
+Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_6.py](PLACEHOLDER_ATTACHMENT_URL/src/step_6.py)]]
 
 
 
@@ -929,7 +929,7 @@ Now we'll run a workflow on our uploaded file and again wait for all of it to fi
 
 
 
-Scripts: [ATTACHMENT_URLstep_7.py](ATTACHMENT_URLstep_7.py), [ATTACHMENT_URLworkflows_1.py](ATTACHMENT_URLworkflows_1.py)
+Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_7.py](PLACEHOLDER_ATTACHMENT_URL/src/step_7.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/workflows_1.py](PLACEHOLDER_ATTACHMENT_URL/src/workflows_1.py)]]
 
 
 
@@ -1031,7 +1031,7 @@ depending on what we find.
 
 
 
-Scripts: [ATTACHMENT_URLstep_8.py](ATTACHMENT_URLstep_8.py), [ATTACHMENT_URLdatasets_3.py](ATTACHMENT_URLdatasets_3.py)
+Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_8.py](PLACEHOLDER_ATTACHMENT_URL/src/step_8.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/datasets_3.py](PLACEHOLDER_ATTACHMENT_URL/src/datasets_3.py)]]
 
 
 
@@ -1051,7 +1051,7 @@ Galaxy to be the *data inside datasets* we'll need to get at that information as
 
 Note that we've skipped talking about `datasets_1` and `datasets_2`. These would be the `index` and `show` methods
 for the datasets resource. In many ways, the datasets resource is a simplification of the HDA resource (and it's sibling
-the !LibraryDatasetDatasetAssociation or LDDA resource - which we'll cover a bit). Datasets is an interface to both HDAs
+the LibraryDatasetDatasetAssociation or LDDA resource - which we'll cover a bit). Datasets is an interface to both HDAs
 and LDDAs that often (effectively) 'strip' or ignore the information about the datasets' containers.
 
 
@@ -1111,7 +1111,7 @@ allows us to **get data from within the dataset**. This is done through the Gala
 ### Data providers
 
 Data providers allow us to get specific data from within a dataset's file contents. In this case
-(`datasets_3.get_column_data`), we're using the !ColumnDataProvider which provides columns from the Tabular dataset
+(`datasets_3.get_column_data`), we're using the ColumnDataProvider which provides columns from the Tabular dataset
 `statistics`.
 
 
@@ -1186,7 +1186,7 @@ with the quality information from step 8.
 
 
 
-Scripts: [ATTACHMENT_URLstep_9.py](ATTACHMENT_URLstep_9.py), [ATTACHMENT_URLhdas_3.py](ATTACHMENT_URLhdas_3.py)
+Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_9.py](PLACEHOLDER_ATTACHMENT_URL/src/step_9.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/hdas_3.py](PLACEHOLDER_ATTACHMENT_URL/src/hdas_3.py)]]
 
 
 
@@ -1280,7 +1280,7 @@ for everyone in our lab to use.
 
 
 
-Scripts: [ATTACHMENT_URLstep_10.py](ATTACHMENT_URLstep_10.py), [ATTACHMENT_URLlibraries_1.py](ATTACHMENT_URLlibraries_1.py), [ATTACHMENT_URLlddas_1.py](ATTACHMENT_URLlddas_1.py)
+Scripts: [PLACEHOLDER_ATTACHMENT_URL/src/step_10.py](PLACEHOLDER_ATTACHMENT_URL/src/step_10.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/libraries_1.py](PLACEHOLDER_ATTACHMENT_URL/src/libraries_1.py)]], [PLACEHOLDER_ATTACHMENT_URL/src/lddas_1.py](PLACEHOLDER_ATTACHMENT_URL/src/lddas_1.py)]]
 
 
 
@@ -1446,10 +1446,10 @@ happens some amount of core changes need to take place to make this as easy and 
 -----------------------------------------------------------
 # More Resources and Thanks
 
-* a tarball of all the scripts used is here: [ATTACHMENT_URLall-scripts.tar.gz](ATTACHMENT_URLall-scripts.tar.gz)
+* a tarball of all the scripts used is here: [PLACEHOLDER_ATTACHMENT_URL/src/all-scripts.tar.gz](PLACEHOLDER_ATTACHMENT_URL/src/all-scripts.tar.gz)]]
 * [ReadTheDocs.org](http://galaxy-dist.readthedocs.org/en/latest/lib/galaxy.webapps.galaxy.api.html).
 * There are good examples in the `scripts/api` directory of a Galaxy installation.
-* !BioBlend and Blend4j (links are at the top of this page) can make your API scripting easier.
+* BioBlend and Blend4j (links are at the top of this page) can make your API scripting easier.
 * Thanks for coming!
 
 

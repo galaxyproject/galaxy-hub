@@ -18,6 +18,6 @@ If you are used to Galaxy, the Tool Shed will have a flavor of familiarity. Alon
 
 # Tool Sheds Supported by the Galaxy Development Team
 
-The Test Galaxy Tool Shed tracks the [galaxy](https://github.com/galaxyproject/galaxy) repository on !GitHub.  Use it to get introduced to the Tool Shed and its rich set of features.  This Tool Shed is useful for maintaining repositories whose contents take advantage of new Tool Shed features that will be available in the next Galaxy release.
+The Test Galaxy Tool Shed tracks the [galaxy](https://github.com/galaxyproject/galaxy) repository on GitHub.  Use it to get introduced to the Tool Shed and its rich set of features.  This Tool Shed is useful for maintaining repositories whose contents take advantage of new Tool Shed features that will be available in the next Galaxy release.
 
 The Main Galaxy Tool Shed hosts production-ready Galaxy utilities and should not be used for testing or becoming familiar with tool shed features.

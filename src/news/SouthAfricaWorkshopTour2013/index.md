@@ -27,4 +27,4 @@ If you are interested, then please apply by 17 September!
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-09-09</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

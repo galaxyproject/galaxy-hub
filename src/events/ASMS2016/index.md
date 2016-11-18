@@ -31,7 +31,7 @@ Galaxy had a strong presence at the [2016 ASMS meeting](http://www.asms.org/conf
     <td style=" text-align: right;"> 10:30 </td>
     <td> Poster Session, Odd Numbered </td>
     <td> Poster MP 265: A Multi-omics Visualization Platform (MVP) Plug-in for Galaxy-based Applications </td>
-    <td> Thomas !McGowan </td>
+    <td> Thomas McGowan </td>
     <td> <a href='http://cbs.umn.edu/sites/cbs.umn.edu/files/public/downloads/ASMS_Poster_McGowan.pdf'>Poster</a> </td>
   </tr>
   <tr>

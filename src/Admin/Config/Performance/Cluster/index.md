@@ -32,7 +32,7 @@ If you do not already have a DRM, [Galaxy Pulsar](/src/Admin/Config/Performance/
 Installing and configuring your cluster hardware and management software is outside the scope of this document (and specific to each site).  That said, a few pitfalls commonly encountered when trying to get the user Galaxy runs as (referred to in this documentation as `galaxy_user`) able to run jobs on the DRM are addressed here:  
 
 * The host on which the Galaxy server processes run (referred to in this documentation as `galaxy_server`) should be configured in the DRM as a "submit host".
-* `galaxy_user` must have a real shell configured in your name service (`/etc/passwd`, LDAP, etc.).  System accounts may be configured with a disabled shell like `/bin/false` (Debian/Ubuntu) or `/bin/nologin` (Fedora/RedHat).
+* `galaxy_user` must have a real shell configured in your name service (`/etc/passwd`, LDAP, etc.).  System accounts may be configured with a disabled shell like `/bin/false` (Debian/Ubuntu) or `/bin/nologin` (Fedora[/RedHat](/src/Admin/Config/Performance/Cluster/RedHat/index.md)).
 * The Galaxy server and the worker nodes are running the same version of Python (worker nodes will run Python scripts calling the Galaxy code and its dependencies to set job output file metadata).
 
 To continue, you should have a working DRM that `galaxy_user` can successfully submit jobs to.

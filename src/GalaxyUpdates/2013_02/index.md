@@ -34,7 +34,7 @@ Brett further explained that this was partly because the lab's skill set made se
 
 <div class='right'> <a href='http://biordf.org:8090/'><img src="/src/PublicGalaxyServers/OPPLGalaxyToolPage.png" alt="OPPL Galaxy" width="120" /></a></div>
 
-**[OPPL-Galaxy](http://wilkinsonlab.info/OPPL-Galaxy)** is a set of functions that can be executed over OWL ontologies with the aim of facilitating the use of semantic activities within Galaxy Bioinformatics workflows. Additional NCBO-Galaxy tools provide Galaxy users with the functionality of the NCBO !BioPortal services.  See "[OPPL-Galaxy, a Galaxy tool for enhancing ontology exploitation as part of bioinformatics workflows](http://www.jbiomedsem.com/content/4/1/2/abstract)" by by Aranguren, *et al.*
+**[OPPL-Galaxy](http://wilkinsonlab.info/OPPL-Galaxy)** is a set of functions that can be executed over OWL ontologies with the aim of facilitating the use of semantic activities within Galaxy Bioinformatics workflows. Additional NCBO-Galaxy tools provide Galaxy users with the functionality of the NCBO BioPortal services.  See "[OPPL-Galaxy, a Galaxy tool for enhancing ontology exploitation as part of bioinformatics workflows](http://www.jbiomedsem.com/content/4/1/2/abstract)" by by Aranguren, *et al.*
 
 <br />
 
@@ -172,7 +172,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   <tr>
     <th> March 2-5 </th>
     <td> <em>Accessible, Transparent and Reproducible Analysis With Galaxy</em>, part of <div class='indent'><a href='http://conf.abrf.org/index.cfm/page/satellite_workshops/SW1.htm'>SW1: Application of NGS Platforms for Whole Transcriptome and Genome Analysis</a></div> <em>Galaxy for Core Facilities</em>, part of <div class='indent'>"<a href='http://conf.abrf.org/index.cfm/page/2013ConfProg/Genomics_Track.htm'>W6: Community Resource Solutions to Analyzing Large Genomic Data Sets</a>"</div> </td>
-    <td> </strong><a href='http://conf.abrf.org/'>ABRF 2013</a><strong><br />Palm Springs, California, United States </td>
+    <td> <strong><a href='http://conf.abrf.org/'>ABRF 2013</a></strong><br />Palm Springs, California, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
@@ -213,7 +213,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> </strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
+    <td> <strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href='/src/Events/GCC2013/Organizers/index.md'>Organizers</a> </td>
   </tr>

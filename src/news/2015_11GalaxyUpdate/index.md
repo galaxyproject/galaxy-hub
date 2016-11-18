@@ -21,4 +21,4 @@ The **[November Galactic News](/src/GalaxyUpdates/2015_11/index.md)** is hot off
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-11-02 </div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

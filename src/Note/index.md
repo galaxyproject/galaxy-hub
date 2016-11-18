@@ -4,4 +4,4 @@
 PLACEHOLDER_FULL_SEARCH_CACHED(category:Note)
 
 ----
-CategoryCategory
+[CategoryCategory](/src/CategoryCategory/index.md)

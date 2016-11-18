@@ -1,9 +1,9 @@
 ---
 autotoc: true
-title: Frequently Asked Questions for !CloudMan
+title: Frequently Asked Questions for CloudMan
 ---
 
-See [Learn/FAQ](/src/Learn/FAQ/index.md) for questions about using any Galaxy instance and [CloudMan](/src/CloudMan/index.md) page for general information about !CloudMan.  
+See [Learn/FAQ](/src/Learn/FAQ/index.md) for questions about using any Galaxy instance and [CloudMan](/src/CloudMan/index.md) page for general information about CloudMan.  
 
 
 
@@ -11,13 +11,13 @@ See [Learn/FAQ](/src/Learn/FAQ/index.md) for questions about using any Galaxy in
 
 ## Accessing CloudMan
 
-!CloudMan console on your cluster is available at *<cluster IP address>/cloud*. To login, you need to use *ubuntu* user name and a password you used when starting the cluster via [Cloud Launch](https://launch.usegalaxy.org/launch).
+CloudMan console on your cluster is available at *<cluster IP address>/cloud*. To login, you need to use *ubuntu* user name and a password you used when starting the cluster via [Cloud Launch](https://launch.usegalaxy.org/launch).
 
 ----
 
 ## CloudMan Admin page
 
-In addition to the main console, !CloudMan also has an Admin page. The Admin page provides additional insight and control over your cluster. The Admin page can be accessed by clicking *Admin* link at the top right hand side of the main !CloudMan console.
+In addition to the main console, CloudMan also has an Admin page. The Admin page provides additional insight and control over your cluster. The Admin page can be accessed by clicking *Admin* link at the top right hand side of the main CloudMan console.
 
 ----
 
@@ -41,7 +41,7 @@ When copying files from the cluster, on your local machine, issue the following 
 
 You can add additional storage space to your cluster by adding a file system to it. For [cluster types](/src/CloudMan/ClusterTypes/index.md) with persistent storage, you can also increase the size of the storage by clicking on the *Grow* icon next to the Disk Status. 
 
-To add a new file system, go to !CloudMan Admin page, and click *Add new* under *File systems* section of the page. You can choose among several storage device options:
+To add a new file system, go to CloudMan Admin page, and click *Add new* under *File systems* section of the page. You can choose among several storage device options:
 
 <div class='center'>
 <img src="http://i.imgur.com/pRqlWiw.png" alt="" width=250 />
@@ -53,7 +53,7 @@ To add a new file system, go to !CloudMan Admin page, and click *Add new* under 
 * *New volume*: a new block storage volume. You need to specify a desired size for the volume and a new one will be created.
 * *NFS*: an existing NFS server to connect to. This NFS server needs to be accessible on the local network to the cluster.
 
-Once you have chosen the device type and provided the necessary device information, you need to give the file system a name. After you click *Add new file system*, !CloudMan will attempt to add/create the file system and make it available under */mnt/<file system name>*. After you click the button, it will take a up to a minute for the file system to be added. 
+Once you have chosen the device type and provided the necessary device information, you need to give the file system a name. After you click *Add new file system*, CloudMan will attempt to add/create the file system and make it available under */mnt/<file system name>*. After you click the button, it will take a up to a minute for the file system to be added. 
 
 ----
 

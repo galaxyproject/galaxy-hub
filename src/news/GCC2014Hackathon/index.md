@@ -18,4 +18,4 @@ We hope to see you in June, and can't wait to see what we can accomplish!
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-04-18</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

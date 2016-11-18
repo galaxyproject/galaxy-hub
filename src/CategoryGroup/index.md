@@ -6,4 +6,4 @@ This wiki has supports [groups of users](/src/HelpOnGroups/index.md).
 PLACEHOLDER_FULL_SEARCH_CACHED(CategoryGroup)
 
 ----
-CategoryCategory
+[CategoryCategory](/src/CategoryCategory/index.md)

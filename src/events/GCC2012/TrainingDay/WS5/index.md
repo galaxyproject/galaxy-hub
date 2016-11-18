@@ -1,7 +1,7 @@
 # Workshop 5: Installing Your Own Galaxy
 
-* [universe_wsgi.ini modified with all of the changes below](ATTACHMENT_URLDocuments/Presentations/GCC2012/WS5/universe_wsgi.ini)
-* [Slides](ATTACHMENT_URLDocuments/Presentations/GCC2012/WS5_InstallingYourOwn.pdf)
+* [universe_wsgi.ini modified with all of the changes below](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2012/WS5/universe_wsgi.ini)
+* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2012/WS5_InstallingYourOwn.pdf)
 
 Documentation for all of these features is at [Admin/Config/Performance/ProductionServer](/src/Admin/Config/Performance/ProductionServer/index.md).
 
@@ -384,8 +384,8 @@ server {
 	location /_upload {
 		upload_store /home/galaxy/nginx_upload_store;
 		upload_pass_form_field "";
-		upload_set_form_field "</u>${upload_field_name}<u>is_composite" "true";
-		upload_set_form_field "</u>${upload_field_name}<u>keys" "name path";
+		upload_set_form_field "__${upload_field_name}__is_composite" "true";
+		upload_set_form_field "__${upload_field_name}__keys" "name path";
 		upload_set_form_field "${upload_field_name}_name" "$upload_file_name";
 		upload_set_form_field "${upload_field_name}_path" "$upload_tmp_path";
 		upload_pass_args on;

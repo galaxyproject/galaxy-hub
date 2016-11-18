@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/src/Admin/Config/Performance/LinkBox/index.md)
 
 The [basic installation instructions](/src/Admin/GetGalaxy/index.md) are suitable for development by a single user, but when setting up Galaxy for a multi-user production environment, there are some additional steps that should be taken for the best performance.
 
-You may also want to consult the [Building Scalable Galaxy slides](ATTACHMENT_URLEvents/GDC2010/GDC2010_building_scalable.pdf) from the [2010 Galaxy Developers Conference](/src/Events/GDC2010/index.md) at CSHL (upon which this page is based).
+You may also want to consult the [Building Scalable Galaxy slides](PLACEHOLDER_ATTACHMENT_URL/src/Events/GDC2010/GDC2010_building_scalable.pdf) from the [2010 Galaxy Developers Conference](/src/Events/GDC2010/index.md) at CSHL (upon which this page is based).
 
 
 ## Why bother?

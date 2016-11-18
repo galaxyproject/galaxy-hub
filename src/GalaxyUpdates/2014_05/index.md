@@ -219,106 +219,106 @@ And don't worry if you are not near Norwich or Edinburgh in May.  There are [at 
   </tr>
   <tr>
     <th rowspan=1> April 29 -<br />May 1 </th>
-    <td rowspan=1> </strong><a href='/src/Events/BioITWorld2014/index.md'>Two tutorials and at least five talks</a><strong> </td>
-    <td rowspan=1> </strong><a href='/src/Events/BioITWorld2014/index.md'>BioIT World</a><strong><br />Boston, Massachusetts, United States </td>
+    <td rowspan=1> <strong><a href='/src/Events/BioITWorld2014/index.md'>Two tutorials and at least five talks</a></strong> </td>
+    <td rowspan=1> <strong><a href='/src/Events/BioITWorld2014/index.md'>BioIT World</a></strong><br />Boston, Massachusetts, United States </td>
     <td> <a href='/src/Events/BioITWorld2014/index.md'>See tutorial and talk list</a> </td>
   </tr>
   <tr>
     <th> May 6-7 </th>
-    <td> </em>Scaling Galaxy for Big Data<em> </td>
+    <td> <em>Scaling Galaxy for Big Data</em> </td>
     <td> <a href='http://www.tgac.ac.uk/SeqAhead_Scientific_Meeting_and_Management_Committee_Meeting/'>NGS Data after the Gold Rush</a>, <a href='http://www.tgac.ac.uk/'>TGAC</a>, Norwich, United Kingdom </td>
     <td rowspan=5> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 9 </th>
-    <td> </em><a href='/src/Events/UKMay2014/TGACWorkshop/index.md'>Introduction to Galaxy Workshop</a><em> </td>
+    <td> <em><a href='/src/Events/UKMay2014/TGACWorkshop/index.md'>Introduction to Galaxy Workshop</a></em> </td>
     <td> <a href='http://www.tgac.ac.uk/'>The Genome Analysis Centre (TGAC)</a>, Norwich, United Kingdom </td>
   </tr>
   <tr>
     <th rowspan=2> May 12 </th>
-    <td> </em><a href='/src/Events/UKMay2014/UEdinburgh/index.md'>Galaxy Workshop</a><em> </td>
+    <td> <em><a href='/src/Events/UKMay2014/UEdinburgh/index.md'>Galaxy Workshop</a></em> </td>
     <td> <a href='http://www.ed.ac.uk/'>University of Edinburgh</a>, Edinburgh, UK </td>
   </tr>
   <tr>
-    <td> </em>Galaxy Project Update<em> </td>
+    <td> <em>Galaxy Project Update</em> </td>
     <td> <a href='http://www.bioinformatics.ed.ac.uk/events/5th-edinburgh-bioinformatics-meeting'>5th Edinburgh Bioinformatics Meeting</a>, <a href='http://www.ed.ac.uk/'>University of Edinburgh</a>, Edinburgh, UK </td>
   </tr>
   <tr>
     <th> May 13 </th>
-    <td> </em><a href='/src/Events/UKMay2014/IGMMWorkshop/index.md'>Galaxy Workshop</a><em> </td>
+    <td> <em><a href='/src/Events/UKMay2014/IGMMWorkshop/index.md'>Galaxy Workshop</a></em> </td>
     <td> <a href='http://www.igmm.ac.uk/'>Institute of Genetics and Molecular Medicine (IGMM)</a>, Edinburgh, UK </td>
   </tr>
   <tr>
     <th> May 12-14 </th>
-    <td> </em><a href='http://www.bioinfo.no/training/rna-and-chipseq-analysis-workshop/'>Short course on RNA-seq and ChIP-seq</a><em> </td>
+    <td> <em><a href='http://www.bioinfo.no/training/rna-and-chipseq-analysis-workshop/'>Short course on RNA-seq and ChIP-seq</a></em> </td>
     <td> University of Bergen, Bergen, Norway </td>
     <td> <a href="mailto:david.fredman@uib.no">David Fredman</a> </td>
   </tr>
   <tr>
     <th> May 16 </th>
-    <td> </em><a href='http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/files/formation_2014/module_formation_abims-galaxy_initiation.pdf'>Galaxy Initiation</a><em> </td>
+    <td> <em><a href='http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/files/formation_2014/module_formation_abims-galaxy_initiation.pdf'>Galaxy Initiation</a></em> </td>
     <td> <a href='http://abims.sb-roscoff.fr/formation'>Formation en Bioinformatique Plateforme ABiMS</a>, <a href='http://www.sb-roscoff.fr/'>Station Biologique de Roscoff</a>, France </td>
     <td> <a href="mailto:christophe.caron@sb-roscoff.fr">Christophe Caron</a> </td>
   </tr>
   <tr>
     <th> May 19 </th>
-    <td> </em><a href='https://colloque.inra.fr/8_js_rfmf_lyon_2014/layout/set/print/Ateliers/Galaxy'>Initiation au traitement et à l'analyse des données métabolomiques sur la plateforme scientifique web Galaxy IFB-MetaboHUB</a><em> </td>
+    <td> <em><a href='https://colloque.inra.fr/8_js_rfmf_lyon_2014/layout/set/print/Ateliers/Galaxy'>Initiation au traitement et à l'analyse des données métabolomiques sur la plateforme scientifique web Galaxy IFB-MetaboHUB</a></em> </td>
     <td> <a href='https://colloque.inra.fr/8_js_rfmf_lyon_2014/Inscription'>8e Journées Scientifiques du RFMF</a>, Lyon, France </td>
     <td> <a href="mailto:rfmf@bordeaux.inra.fr">Réseau Français de Métabolomique et Fluxomique</a> </td>
   </tr>
   <tr>
     <th> May 19-23 </th>
-    <td> </em>Installing Galaxy Workshop<em><div class='indent red'>Application deadline: April 28</div> </td>
+    <td> <em>Installing Galaxy Workshop</em><div class='indent red'>Application deadline: April 28</div> </td>
     <td> <a href='http://gmod.org/wiki/GMOD_Online_Training_2014'>GMOD Online Training</a> </td>
     <td> <a href='/src/CarlEberhard/index.md'>Carl Eberhard</a>, <a href='http://gmod.org/wiki/User:Girlwithglasses'>Amelia Ireland</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>
-    <td> </em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a><em> </td>
+    <td> <em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a></em> </td>
     <td> <a href='http://www.mipro.hr/CallForPapers/tabid/176/language/en-US/Default.aspx'>MIPRO 2014</a>, Opatija, Croatia </td>
     <td> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 2-3 </th>
-    <td> </em><a href='http://www.oaspa-asia-conference.com/program/'>Open (and Big) Data – the next challenge</a><em> </td>
+    <td> <em><a href='http://www.oaspa-asia-conference.com/program/'>Open (and Big) Data – the next challenge</a></em> </td>
     <td> <a href='http://www.oaspa-asia-conference.com/'>1st Asian Conference on Open Access Scholarly Publishing</a>, Bangkok, Thailand </td>
     <td> Scott Edmunds </td>
   </tr>
   <tr>
     <th> June 9-10 </th>
-    <td> </em><a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'>Informatics on High Throughput Sequencing Data Workshop</a><em> </td>
+    <td> <em><a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'>Informatics on High Throughput Sequencing Data Workshop</a></em> </td>
     <td> Toronto, Canada </td>
     <td> <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
   </tr>
   <tr>
     <th> June 10 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-10juin.pdf'>Initiation à l’utilisation de Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-10juin.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
     <td rowspan=2> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
     <td rowspan=2> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 11 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module8bis-11juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module8bis-11juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></em> </td>
   </tr>
   <tr>
     <th> June 16 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-16juin.pdf'>Initiation à l’utilisation de Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module17-16juin.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
     <td rowspan=2> <a href='http://migale.jouy.inra.fr/?q=formations'>Cycle "Bioinformatique par la pratique" 2014</a>, <a href='http://migale.jouy.inra.fr/'>INRA Jouy-en-Josas</a>, France </td>
     <td rowspan=2> <a href="mailto:veronique.martin AT jouy DOT inra DOT fr">Véronique Martin</a>, <a href='http://genome.jouy.inra.fr/~schbath/'>Sophie Schbath</a> </td>
   </tr>
   <tr>
     <th> June 17 </th>
-    <td> </em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module8bis-17juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a><em> </td>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2014/module8bis-17juin.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></em> </td>
   </tr>
   <tr>
     <th> June 16-20 </th>
-    <td> </em><a href='http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/'>Using Galaxy for Analysis of High Throughput Sequence Data</a><em> </td>
+    <td> <em><a href='http://training.bioinformatics.ucdavis.edu/2014/02/13/using-galaxy-for-analysis-of-high-throughput-sequence-data-june-16-20-2014/'>Using Galaxy for Analysis of High Throughput Sequence Data</a></em> </td>
     <td> <a href='http://training.bioinformatics.ucdavis.edu/'>UC Davis</a>, California, United States </td>
     <td> <a href="mailto:training DOT ucdbio AT gmail DOT com">UC Davis Bioinformatics Training</a> </td>
   </tr>
   <tr>
     <th> June 23-34 </th>
-    <td> </em><a href='http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/files/formation_2014/module_formation_galaxy_initiation_phylogenie.pdf'>Galaxy : initiation à la phylogénie</a><em> </td>
+    <td> <em><a href='http://abims.sb-roscoff.fr/sites/abims.sb-roscoff.fr/files/files/formation_2014/module_formation_galaxy_initiation_phylogenie.pdf'>Galaxy : initiation à la phylogénie</a></em> </td>
     <td> <a href='http://abims.sb-roscoff.fr/formation'>Formation en Bioinformatique Plateforme ABiMS</a>, <a href='http://www.sb-roscoff.fr/'>Station Biologique de Roscoff</a>, France </td>
     <td> <a href="mailto:christophe.caron@sb-roscoff.fr">Christophe Caron</a> </td>
   </tr>
@@ -330,18 +330,18 @@ And don't worry if you are not near Norwich or Edinburgh in May.  There are [at 
   </tr>
   <tr>
     <th> June 30 -<br />July 2 </th>
-    <td> </strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a><strong> </td>
+    <td> <strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
     <td> <a href='/src/Events/GCC2014/Organizers/index.md'>Organizers</a> </td>
   </tr>
   <tr>
     <th> July 7-9 </th>
-    <td> </em><a href='http://biosb.nl/education/course-portfolio/rna-seq/'>NBIC/BioSB RNA- seq data analysis course</a><em> </td>
+    <td> <em><a href='http://biosb.nl/education/course-portfolio/rna-seq/'>NBIC/BioSB RNA- seq data analysis course</a></em> </td>
     <td> Leiden, the Netherlands </td>
     <td> <a href="mailto:education AT biosb DOT nl">NBIC/BioSB</a> </td>
   </tr>
   <tr>
     <th> July 10 </th>
-    <td> </em><a href='http://www.genetics.org.au/annual-meeting-2014/workshops/'>An Introduction to Galaxy with the Genomics Virtual Lab</a><em> </td>
+    <td> <em><a href='http://www.genetics.org.au/annual-meeting-2014/workshops/'>An Introduction to Galaxy with the Genomics Virtual Lab</a></em> </td>
     <td> <a href='http://www.genetics.org.au/annual-meeting-2014/'>Post-GSA 2014 Workshop</a>, Sydney, Australia </td>
     <td> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
@@ -376,7 +376,7 @@ Two [public Galaxy servers](/src/PublicGalaxyServers/index.md) were added to the
 
 * *Links:*
   * [Globus Genomics Proteomics Galaxy Server](http://proteomics.globusgenomics.org/)
-  * *[Building a Low-budget Public Resource for Large-scale Proteomic Analyses](ATTACHMENT_URLDocuments/Presentations/GlobusGenomicsProteomics.pdf)*, presentation by [Anoop Mayampurath](http://www.ci.uchicago.edu/profile/257) at [Globus World 2014](http://globusworld.org/)
+  * *[Building a Low-budget Public Resource for Large-scale Proteomic Analyses](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GlobusGenomicsProteomics.pdf)*, presentation by [Anoop Mayampurath](http://www.ci.uchicago.edu/profile/257) at [Globus World 2014](http://globusworld.org/)
 * *Domain/Purpose:*
     The [Globus Genomics Project](http://globusgenomics.org) demonstration Galaxy server. It has a strong emphasis on proteomics
 * *Comments:*
@@ -401,7 +401,7 @@ Two [public Galaxy servers](/src/PublicGalaxyServers/index.md) were added to the
 * *User Support:*
     [mailto:lxia AT usc DOT edu](Email)
 * *Quotas:* 
-    "Due to the limited computational resources, we refer users not using the tools developed by !SunLab to the main public Galaxy site. We also encourage user applying !SunLab tools to large data sets to install their standalone version of the specific tools, or install this version of Galaxy server with !SunLab tools integrated. 
+    "Due to the limited computational resources, we refer users not using the tools developed by SunLab to the main public Galaxy site. We also encourage user applying SunLab tools to large data sets to install their standalone version of the specific tools, or install this version of Galaxy server with SunLab tools integrated. 
 * *Sponsor(s):*
     The [SunLab](http://www-rcf.usc.edu/~fsun/) at the [University of Southern California](http://usc.edu).
 
@@ -431,25 +431,25 @@ Two [public Galaxy servers](/src/PublicGalaxyServers/index.md) were added to the
 <table>
   <tr>
     <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none;"> </strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a><strong> </td>
+    <td colspan=2 style=" border: none;"> <strong><a href='http://wiki.galaxyproject.org/Admin/Get%20Galaxy'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a><strong> </td>
+    <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
     <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a><strong> </td>
+    <td style=" border: none;"> <strong><a href='http://bitbucket.org/galaxy/galaxy-dist'>bitbucket.org/galaxy/galaxy-dist</a></strong> </td>
     <td style=" border: none;"> </td>
   </tr>
   <tr>
     <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong>new<strong>: </td>
+    <td style=" border: none;"> <strong>new</strong>: </td>
     <td style=" border: none;"> <code>$ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable </code> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> </strong>upgrade<strong>: </td>
+    <td style=" border: none;"> <strong>upgrade</strong>: </td>
     <td style=" border: none;"> <code>$ hg pull </code> <br /> <code>$ hg update release_2014.04.14 </code> </td>
   </tr>
 </table>
@@ -471,7 +471,7 @@ The most recent version of CloudMan was [released in January 2014](/src/News/Clo
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> </em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> <em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> </em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a><em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </td>
   </tr>
 </table>
 

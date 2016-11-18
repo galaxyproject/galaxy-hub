@@ -30,7 +30,7 @@ There were blocks of rooms available at both a [nearby hotel](http://www.crownep
 
 <table>
   <tr>
-    <td style=" class="red" "> </strong>The James Stukel Towers are now </em>sold out<strong><em>. </td>
+    <td style=" class="red" "> <strong>The James Stukel Towers are now <em>sold out</strong></em>. </td>
   </tr>
 </table>
 

@@ -26,7 +26,7 @@ The files here are a small subset of the files available for download from MProm
 
 | File |  Description  | 
 | ---- | ------------ | 
-| [|&do=get](ATTACHMENT_URLMM9.chr19.AnnotatedPromotersWithTissueRNAP2Density.txt) |  Annotated promoter list.  This is a tab-delimited, custom format file.  It is a reduced version of the full file from MPromDB that contains only promoters on chromosome 19.  **See [Restrictions](/src/Datafiles/Mouse%20ChIP-Seq%20Data/index.md#restrictions) for how this data can be used.**  | 
+| [|&do=get](PLACEHOLDER_ATTACHMENT_URL/src/MM9.chr19.AnnotatedPromotersWithTissueRNAP2Density.txt) |  Annotated promoter list.  This is a tab-delimited, custom format file.  It is a reduced version of the full file from MPromDB that contains only promoters on chromosome 19.  **See [Restrictions](/src/Datafiles/Mouse%20ChIP-Seq%20Data/index.md#restrictions) for how this data can be used.**  | 
 
 # Mouse ENCODE Files
 
@@ -46,5 +46,5 @@ These data are also available as Galaxy dataset objects in Protocol 2 of the ***
 
 | File |  Description  | 
 | ---- | ------------ | 
-| [|&do=get](ATTACHMENT_URLMouseChipSeqControlChr19.fastq) |  The control file.  It is an ungroomed Illumina FASTQ file.  The original control file on which this is based on is available [from the ENCODE downloads site](http://hgdownload.cse.ucsc.edu/goldenPath/mm9/encodeDCC/wgEncodeSydhTfbs/wgEncodeSydhTfbsMelInputDmso20IggyaleRawData.fastq).  | 
-| [|&do=get](ATTACHMENT_URLMouseChipSeqRep1Chr19.fastq) |  The experimental results.  It is also an ungroomed Illumina FASTQ file.  The original control file on which this is based on is available [from the ENCODE downloads site](http://hgdownload.cse.ucsc.edu/goldenPath/mm9/encodeDCC/wgEncodeSydhTfbs/wgEncodeSydhTfbsMelCtcfDmso20IggyaleRawDataRep1.fastq).  | 
+| [|&do=get](PLACEHOLDER_ATTACHMENT_URL/src/MouseChipSeqControlChr19.fastq) |  The control file.  It is an ungroomed Illumina FASTQ file.  The original control file on which this is based on is available [from the ENCODE downloads site](http://hgdownload.cse.ucsc.edu/goldenPath/mm9/encodeDCC/wgEncodeSydhTfbs/wgEncodeSydhTfbsMelInputDmso20IggyaleRawData.fastq).  | 
+| [|&do=get](PLACEHOLDER_ATTACHMENT_URL/src/MouseChipSeqRep1Chr19.fastq) |  The experimental results.  It is also an ungroomed Illumina FASTQ file.  The original control file on which this is based on is available [from the ENCODE downloads site](http://hgdownload.cse.ucsc.edu/goldenPath/mm9/encodeDCC/wgEncodeSydhTfbs/wgEncodeSydhTfbsMelCtcfDmso20IggyaleRawDataRep1.fastq).  | 

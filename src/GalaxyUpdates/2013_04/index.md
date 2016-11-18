@@ -146,7 +146,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <table>
   <tr>
-    <th> &nbsp;&nbsp; </strong>The deadline for <a href='/src/Events/GCC2013/Abstracts/index.md'>submitting oral presentation abstracts</a> is 12 April.<strong> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <strong>The deadline for <a href='/src/Events/GCC2013/Abstracts/index.md'>submitting oral presentation abstracts</a> is 12 April.</strong> &nbsp;&nbsp; </th>
   </tr>
 </table>
 
@@ -290,7 +290,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> </strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a><strong></em> </td>
+    <td> <strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href='/src/Events/GCC2013/Organizers/index.md'>Organizers</a> </td>
   </tr>

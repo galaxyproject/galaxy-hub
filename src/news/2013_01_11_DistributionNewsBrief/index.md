@@ -32,4 +32,4 @@ upgrade: $ hg pull -u -r a4113cc1cb5e
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-01-11</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

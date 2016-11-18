@@ -21,4 +21,4 @@ From the [documentation](https://github.com/bgruening/docker-galaxy-stable/blob/
 See the [documentation](https://github.com/bgruening/docker-galaxy-stable/blob/dev/docs/Running_jobs_outside_of_the_container.md).
 
 
-CategoryLog
+[CategoryLog](/src/CategoryLog/index.md)

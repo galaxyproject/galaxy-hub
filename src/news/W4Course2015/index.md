@@ -11,4 +11,4 @@ The [Worflow4Metabolomics 2015 course (W4M course 2015)](http://workflow4metabol
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-04-08</div>
 
-CategoryNews
+[CategoryNews](/src/CategoryNews/index.md)

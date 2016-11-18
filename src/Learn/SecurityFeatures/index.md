@@ -28,7 +28,7 @@ Roles are how users and groups are associated with permissions and datasets.  Fo
 
 By default, users should not see any difference in the way Galaxy works.  Security controls are only enabled if desired.  Otherwise, datasets remain public, as in the past.
 
-Users may choose the default permissions that newly created datasets will acquire.  These defaults apply to datasets acquired from outside of Galaxy, via sources such as the upload tool, UCSC, !BioMart and EpiGRAPH.  Datasets within Galaxy, such as those imported from a dataset library, or shared from another user retain the permissions set in the library or by the sharing user.  Permissions on datasets created through running a tool are derived from the input datasets.  More details on how permissions are set can be found below.
+Users may choose the default permissions that newly created datasets will acquire.  These defaults apply to datasets acquired from outside of Galaxy, via sources such as the upload tool, UCSC, BioMart and EpiGRAPH.  Datasets within Galaxy, such as those imported from a dataset library, or shared from another user retain the permissions set in the library or by the sharing user.  Permissions on datasets created through running a tool are derived from the input datasets.  More details on how permissions are set can be found below.
 
 #### Key points
 

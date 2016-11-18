@@ -44,4 +44,4 @@ From "[SymD webserver: a platform for detecting internally symmetric protein str
 * [mailto:taic@mail.nih.gov](Email support)
 * [Public Galaxy Server list entry](/src/PublicGalaxyServers/index.md#symd)
 
-CategoryDeployment
+[CategoryDeployment](/src/CategoryDeployment/index.md)
