@@ -22,3 +22,12 @@ watch: npm-deps bower ## will serve and attempt to reload files
 
 check: npm-deps bower ## checks for broken links
 	./node_modules/coffee-script/bin/coffee build.coffee --check
+
+docker-npm-deps:
+	docker run -v `pwd`:/usr/src/app -w /usr/src/app node npm install
+
+docker-bower:
+	docker run -v `pwd`:/usr/src/app -w /usr/src/app node node node_modules/bower/bin/bower --allow-root install
+
+docker-build: docker-npm-deps docker-bower  ## Single endpoint for docker install
+	docker run -v `pwd`:/usr/src/app -w /usr/src/app node node node_modules/coffee-script/bin/coffee build.coffee
