@@ -1,7 +1,7 @@
 {
-  "name": "labsite-metalsmith",
-  "version": "0.0.0",
-  "description": "Taylor Lab Website",
+  "name": "galaxy-site",
+  "version": "0.0.1",
+  "description": "Galaxy Website",
   "main": "index.js",
   "license": "AFL-3.0",
   "repository": {
