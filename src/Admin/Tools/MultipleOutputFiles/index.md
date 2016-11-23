@@ -216,7 +216,7 @@ In the past, it would be necessary to set the attribute `force_history_refresh` 
 
 Discovered datasets are available via post job hooks (a deprecated feature) by using the designation - e.g. `__collected_datasets__['primary'][designation]`.
 
-In the past these datasets were typically written to `$__new_file_path__` instead of the working directory. This is not very scalable and `$__new_file_path__` should generally not be used. If you set the option `collect_outputs_from` in `universe_wsgi.ini` ensure `job_working_directory` is listed as an option (if not the only option).
+In the past these datasets were typically written to `$__new_file_path__` instead of the working directory. This is not very scalable and `$__new_file_path__` should generally not be used. If you set the option `collect_outputs_from` in `galaxy.ini` ensure `job_working_directory` is listed as an option (if not the only option).
 
 ### Generating Dataset Collections
 

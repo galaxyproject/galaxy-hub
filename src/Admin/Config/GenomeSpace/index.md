@@ -30,7 +30,7 @@ First, create a list of the URLs you will need:
 
 ## OpenID
 
-In your universe_wsgi.ini file set: enable_openid = True
+In your galaxy.ini file set: enable_openid = True
 
 Modify the GenomeSpace OpenID configuration openid/genomespace.xml to point your *[GenomeSpace](/src/GenomeSpace/index.md) OpenID provider*.
 

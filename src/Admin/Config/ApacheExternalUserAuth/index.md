@@ -64,7 +64,7 @@ RewriteEngine on
 ```
 
 
-On the Galaxy side, set `use_remote_user = True` in `universe_wsgi.ini`.  If your auth method doesn't provide a full email address in `$(REMOTE_USER`, you'll also need to set `remote_user_maildomain`:
+On the Galaxy side, set `use_remote_user = True` in `galaxy.ini`.  If your auth method doesn't provide a full email address in `$(REMOTE_USER`, you'll also need to set `remote_user_maildomain`:
 
 ```
 use_remote_user = True
