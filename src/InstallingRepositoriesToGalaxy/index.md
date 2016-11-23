@@ -12,7 +12,7 @@ The process for installing repositories that include tools from a tool shed into
 
 With regard to tool dependencies, Galaxy tools fall into three categories; tools with no dependencies, tools that include dynamically generated selected lists whose options depend upon entries in the tool_data_table_conf.xml file along with references to index files (i.e., tool-data/xxx.loc files), and tools that include 3rd party dependencies. At the current time, tools that fall into the first category can be automatically installed with no manual user intervention. However, index files must still be made available to tools that require them, and 3rd party tool dependencies must still be installed manually in such a way that Galaxy can find them on its environment path. In the future, index files and 3rd party dependencies will be automatically installed if functional Python fabric scripts are included in the the tool shed repository along with the tools.
 
-In providing this feature, multiple Galaxy tool panel configuration files are now supported rather than just one. In the past, the following 2 settings in the Galaxy config (*universe_wsgi.ini* or more *recently galaxy.ini*) allowed for a single file (tool_conf.xml) to render the Galaxy tool panel and a single directory location (tools) to contain the tool files.
+In providing this feature, multiple Galaxy tool panel configuration files are now supported rather than just one. In the past, the following 2 settings in the Galaxy config (*galaxy.ini*) allowed for a single file (tool_conf.xml) to render the Galaxy tool panel and a single directory location (tools) to contain the tool files.
 
 ```
 # Tool config file, defines what tools are available in Galaxy.

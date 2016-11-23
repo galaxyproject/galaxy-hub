@@ -36,7 +36,7 @@ There are two scripts in the Galaxy source which assist with managing disk accou
 
 Users are assigned quotas are configured by creating Quota definitions and then associating these definitions with users or groups.  Quota definitions consist of a name, optional description, amount, and an operation (one of "=", "+", or "-").  Default quotas can be specified for both classes of users: unregistered and registered.
 
-The first step in managing quotas is to enable them by setting the following in `universe_wsgi.ini`:
+The first step in managing quotas is to enable them by setting the following in `galaxy.ini`:
 
 ```ini
 [app:main]

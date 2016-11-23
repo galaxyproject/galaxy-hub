@@ -92,4 +92,4 @@ Role A AND Role B are required to access
 
 ### Galaxy administrators
 
-Galaxy Administrators have the ability to set permissions on library datasets, create new roles, create groups, and associate users and groups with roles.  Administrators are currently set in a comma-separated parameter in `universe_wsgi.ini`: `admin_users`.  Once a user is an admin, they'll find an **admin** link in the top frame of the Galaxy interface.
+Galaxy Administrators have the ability to set permissions on library datasets, create new roles, create groups, and associate users and groups with roles.  Administrators are currently set in a comma-separated parameter in `galaxy.ini`: `admin_users`.  Once a user is an admin, they'll find an **admin** link in the top frame of the Galaxy interface.

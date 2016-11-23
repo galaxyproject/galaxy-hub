@@ -21,7 +21,7 @@ This script assumes Galaxy is using PostgreSQL for database storage.
 
 ### Warning
 
-This script will delete the existing PostgreSQL database specified in the Galaxy config file `universe_wsgi.ini`. Be sure to change the database name in the `database_connection` config variable if you do not want the current Galaxy database to be deleted.
+This script will delete the existing PostgreSQL database specified in the Galaxy config file `galaxy.ini`. Be sure to change the database name in the `database_connection` config variable if you do not want the current Galaxy database to be deleted.
 
 ### Instructions
 
