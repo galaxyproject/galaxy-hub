@@ -60,7 +60,7 @@ galaxy_user@node1%
 ```
 
 
-If your cluster nodes have Internet access (NAT is okay) and you want to run the data source tools (upload, ucsc, etc.) on the cluster (doing so is highly recommended), set `new_file_path` in `galaxy.ini` (`config/galaxy.ini`) to a directory somewhere in your shared filesystem:
+If your cluster nodes have Internet access (NAT is okay) and you want to run the data source tools (upload, ucsc, etc.) on the cluster (doing so is highly recommended), set `new_file_path` in `galaxy.ini` to a directory somewhere in your shared filesystem:
 
 ```ini
 new_file_path = /clusterfs/galaxy/tmp
