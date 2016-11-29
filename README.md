@@ -15,11 +15,14 @@ make serve
 ```
 
 
-If you'd like to livereload, which has a few issues (duplicate entries in some
-headers due to collection handling), but can be handy nonetheless:
+If you'd like to use 'live reload' for developing, use the following command:
 
 ```
 make watch
 ```
+
+Please see the Makefile for more information and options, including the ability
+to use a docker-based node binary identical to what we use to build and publish
+the final build artifacts.
 
 [1]: http://www.metalsmith.io/
