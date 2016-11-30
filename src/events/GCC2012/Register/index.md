@@ -68,7 +68,7 @@ There are a limited number of rooms in each.  You are encouraged to register/res
 
 ### Media Representatives
 
-If you are a media representative and are interested in covering this meeting, please [mailto:outreach@galaxyproject.com](contact the organizers) for information about media registration.
+If you are a media representative and are interested in covering this meeting, please [contact the organizers](mailto:outreach@galaxyproject.com) for information about media registration.
 
 
 ### Visas
@@ -82,6 +82,6 @@ If you need a visa to travel to the United States for the conference, please fol
   * If you cannot determine your visa category from the link above, please contact the nearest [US Embassy or Consulate](http://www.usembassy.gov/).
   * Use this [General Visa Letter](PLACEHOLDER_ATTACHMENT_URL/src/GeneralVisaLetter.pdf) when applying for a visa.
 
-Please contact [mailto:outreach@galaxyproject.org?subject=GCC%202012%20Visa](Galaxy Outreach) if you have any questions or special requests.
+Please contact [Galaxy Outreach](mailto:outreach@galaxyproject.org?subject=GCC%202012%20Visa) if you have any questions or special requests.
 
 PLACEHOLDER_INCLUDE(/src/Events/GCC2012/Register/Ask the Organizers/index.md)

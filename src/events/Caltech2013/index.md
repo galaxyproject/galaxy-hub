@@ -106,4 +106,4 @@ Support for these events is provided by ...
 
 ## Questions?
 
-Contact Galaxy Outreach [mailto:outreach AT galaxyproject DOT org](outreach AT galaxyproject DOT org).
+Contact Galaxy Outreach [outreach AT galaxyproject DOT org](mailto:outreach AT galaxyproject DOT org).

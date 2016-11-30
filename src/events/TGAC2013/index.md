@@ -122,4 +122,4 @@ Please distribute to any groups that might be interested.  You are also encourag
 
 ## Questions?
 
-Contact [mailto:tgac DOT training AT tgac DOT ac DOT uk](TGAC Training) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [TGAC Training](mailto:tgac DOT training AT tgac DOT ac DOT uk) or [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).

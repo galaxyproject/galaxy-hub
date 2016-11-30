@@ -110,4 +110,4 @@ Please distribute to any groups that might be interested.  You are also encourag
 
 ## Questions?
 
-Contact [mailto:Trudy_Mackay AT ncsu DOT edu](Trudy Mackay) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [Trudy Mackay](mailto:Trudy_Mackay AT ncsu DOT edu) or [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).

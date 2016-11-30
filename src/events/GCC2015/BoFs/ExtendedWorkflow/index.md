@@ -11,7 +11,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
  Audience:: Those who attended the workflow training session and want to dig in more!  
  When:: Wednesday, 8 July, 12:30 (lunch)
  Where:: Watson Room, JICCC
- Contact:: [mailto:kreddy4@jhmi.edu](Karen Reddy)
+ Contact:: [Karen Reddy](mailto:kreddy4@jhmi.edu)
 </div>
 
 <div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
@@ -34,13 +34,13 @@ Those who attended the workflow training session and want to dig in more!
  
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [mailto:your AT email DOT address](Your Name).
+If you are interested, please add your name below and/or send an email to [Your Name](mailto:your AT email DOT address).
 
 * Karen Reddy
 * Next Name
 
 ## Questions?
 
-Send them to [mailto:kreddy4@jhmi.edu](Karen Reddy).
+Send them to [Karen Reddy](mailto:kreddy4@jhmi.edu).
 
 [CategoryBo](/src/CategoryBo/index.md)F

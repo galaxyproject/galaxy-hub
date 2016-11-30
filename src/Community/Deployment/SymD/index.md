@@ -41,7 +41,7 @@ From "[SymD webserver: a platform for detecting internally symmetric protein str
 * "[SymD webserver: a platform for detecting internally symmetric protein structures](http://nar.oxfordjournals.org/content/early/2014/05/05/nar.gku364.full)," by Chin-Hsien Tai, Rohit Paul, Jeffery D. Shilling and Byungkook Lee, *Nucl. Acids Res.* (2014) doi: 10.1093/nar/gku364
 * [Instructions](http://symd.nci.nih.gov/static/Interface_help/Interface_help.html)
 * [Example Run](http://symd.nci.nih.gov/static/example_run/GalaxySymD.html)
-* [mailto:taic@mail.nih.gov](Email support)
+* [Email support](mailto:taic@mail.nih.gov)
 * [Public Galaxy Server list entry](/src/PublicGalaxyServers/index.md#symd)
 
 [CategoryDeployment](/src/CategoryDeployment/index.md)

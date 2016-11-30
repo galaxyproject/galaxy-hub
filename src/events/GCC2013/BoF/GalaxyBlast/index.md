@@ -20,7 +20,7 @@ The [time and location](/src/Events/GCC2013/BoF/index.md#bof-schedule) for this 
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [mailto:p.j.a.cock AT googlemail DOT com](Peter Cock).
+If you are interested, please add your name below and/or send an email to [Peter Cock](mailto:p.j.a.cock AT googlemail DOT com).
 
 * Peter Cock
 * Jim Johnson
@@ -30,7 +30,7 @@ If you are interested, please add your name below and/or send an email to [mailt
 
 ## Questions?
 
-Send them to  [mailto:p.j.a.cock AT googlemail DOT com](Peter Cock).
+Send them to  [Peter Cock](mailto:p.j.a.cock AT googlemail DOT com).
 
 
 ## Results

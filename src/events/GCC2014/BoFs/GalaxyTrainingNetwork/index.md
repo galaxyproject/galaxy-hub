@@ -12,7 +12,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
  Audience:: Anyone interested in using Galaxy for bioinformatics and related learning and teaching.  People who need to support such activities.   
  When:: Tuesday, July 1, 5:45pm
  Where:: Multipurpose Room 324
- Contact:: [mailto:simon DOT gladman AT monash DOT edu](Simon Gladman), [mailto:alonie AT unimelb DOT edu DOT au](Andrew Lonie), [Teaching hub page](/src/Teach/index.md)
+ Contact:: [Simon Gladman](mailto:simon DOT gladman AT monash DOT edu), [Andrew Lonie](mailto:alonie AT unimelb DOT edu DOT au), [Teaching hub page](/src/Teach/index.md)
 </div>
 
 PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)

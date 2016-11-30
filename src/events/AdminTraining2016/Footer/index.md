@@ -1,3 +1,3 @@
 <br />
 
-<div class='center'>Questions? Contact [mailto:outreach@galaxyproject.org](Galaxy Outreach)</div>
+<div class='center'>Questions? Contact [Galaxy Outreach](mailto:outreach@galaxyproject.org)</div>

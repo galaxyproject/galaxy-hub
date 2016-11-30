@@ -108,4 +108,4 @@ This course will be part of both the [UNC Health Sciences Library’s](http://hs
 
 ## Questions?
 
-Contact [mailto:bhayes AT email DOT unc DOT edu](Barrie Hayes) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [Barrie Hayes](mailto:bhayes AT email DOT unc DOT edu) or [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).

@@ -399,7 +399,7 @@ Two [public Galaxy servers](/src/PublicGalaxyServers/index.md) were added to the
     Provides access to computational tools developed by [Fengzhu Sun's](http://www-rcf.usc.edu/~fsun/) group at [University of Southern California](http://usc.edu), notably tools for local similarity analysis (LSA).
 * *Comments:* 
 * *User Support:*
-    [mailto:lxia AT usc DOT edu](Email)
+    [Email](mailto:lxia AT usc DOT edu)
 * *Quotas:* 
     "Due to the limited computational resources, we refer users not using the tools developed by SunLab to the main public Galaxy site. We also encourage user applying SunLab tools to large data sets to install their standalone version of the specific tools, or install this version of Galaxy server with SunLab tools integrated. 
 * *Sponsor(s):*

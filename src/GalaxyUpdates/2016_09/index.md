@@ -17,7 +17,7 @@ title: September 2016 Galaxy News
 
 Welcome to the September 2016 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. 
 
-If you have anything to include in the next News, please send it to [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
 
 
 # Events
@@ -390,7 +390,7 @@ There are [over 80 publicly accessible Galaxy servers](/src/PublicGalaxyServers/
 * *User Support:*
   * [Help page](http://immportgalaxy.org/static/immportgalaxyhelp.html) 
   * [Videos](https://www.youtube.com/channel/UC8lQSx1Z7sMFm07wfqI-_kA) 
-  * [mailto:immport-galaxy@immport.org](Email)
+  * [Email](mailto:immport-galaxy@immport.org)
   * Tutorials to come.
 * *Quotas:* 
   * Anyone can use this server. No quotas for now.
@@ -414,7 +414,7 @@ There are [over 80 publicly accessible Galaxy servers](/src/PublicGalaxyServers/
   * See [A Galaxy-based bioinformatics pipeline for optimised, streamlined microsatellite development from Illumina next-generation sequencing data](https://doi.org/10.1007/s12686-016-0570-7), Griffiths, S.M., Fox, G., Briggs, P.J. *et al. Conservation Genetics Resources* (2016). doi:10.1007/s12686-016-0570-7
 * *User Support:*
   * [Galaxy Palfinder Service Manual](https://palfinder.ls.manchester.ac.uk/manual)
-  * [mailto:peter.briggs@manchester.ac.uk](Email)
+  * [Email](mailto:peter.briggs@manchester.ac.uk)
 * *Quotas:* 
   * Accounts have a quota of 20 GB.
   * Any data uploaded or generated are automatically deleted after 30 days (to prevent the build up of large volumes of data onto our servers long-term). Please ensure that you download all outputs that you wish to keep.

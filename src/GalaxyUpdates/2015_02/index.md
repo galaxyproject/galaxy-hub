@@ -157,7 +157,7 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is n
 
 Several sponsorship levels are available, including two levels of premier sponsorships that include presentations.  Premium sponsorships are limited, however, so you are encouraged to act soon.
 
-Please let the [organisers](http://gcc2015.tsl.ac.uk/) ([mailto:gcc2015-org AT lists DOT galaxyproject DOT org](gcc2015-org AT lists DOT galaxyproject DOT org)) know if you are interested in helping make this event a success.
+Please let the [organisers](http://gcc2015.tsl.ac.uk/) ([gcc2015-org AT lists DOT galaxyproject DOT org](mailto:gcc2015-org AT lists DOT galaxyproject DOT org)) know if you are interested in helping make this event a success.
 
 ## 19 February GalaxyAdmins Meetup
 
@@ -344,7 +344,7 @@ There is [CVRG Galaxy Wiki Page](http://wiki.cvrgrid.org/index.php/CVRG_Galaxy) 
 
 The [Center for Phage Technology (CPT) Galaxy Server](https://cpt.tamu.edu/galaxy-public/) includes 50 additional tools, and PAUSE (Pile-Up Analysis Using Starts & Ends) V1 and V2 tool sets. There are also several [published workflows](https://cpt.tamu.edu/galaxy-public/workflow/list_published) demonstrating PAUSE for both paired and single-end reads.
 
-An account is required, and anyone can create an account. See [this FAQ](https://cpt.tamu.edu/galaxy-faq-ever-needed-a-question-answered/) or contact [mailto:esr+gxfaq@tamu.edu](Eric Rasche) for support.
+An account is required, and anyone can create an account. See [this FAQ](https://cpt.tamu.edu/galaxy-faq-ever-needed-a-question-answered/) or contact [Eric Rasche](mailto:esr+gxfaq@tamu.edu) for support.
 
 CPT Galaxy is sponsored by the [Center for Phage Technology (CPT)](https://cpt.tamu.edu/), Texas A&M University
 

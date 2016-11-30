@@ -96,4 +96,4 @@ Please take a few minutes to provide [your feedback](http://bit.ly/gxyvs2014) on
 Please print, post and distribute [the workshop flier](PLACEHOLDER_ATTACHMENT_URL/src/VSUFlier.pdf)<br />at your organization, and or events.
 ## Questions?
 
-Contact [mailto:gcharris AT vsu DOT edu](Glenn Harris) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [Glenn Harris](mailto:gcharris AT vsu DOT edu) or [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).

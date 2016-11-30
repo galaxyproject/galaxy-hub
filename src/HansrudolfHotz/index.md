@@ -5,7 +5,7 @@ Maulbeerstrasse 66 <br />
 4058 Basel/Switzerland
 
 
-Email: [mailto:hrh AT SPAMFREE fmi DOT ch](hrh AT SPAMFREE fmi DOT ch)
+Email: [hrh AT SPAMFREE fmi DOT ch](mailto:hrh AT SPAMFREE fmi DOT ch)
 
 ...
 

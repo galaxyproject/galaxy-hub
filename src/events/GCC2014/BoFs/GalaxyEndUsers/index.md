@@ -18,7 +18,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
  Audience:: End-users or developers interested in what end-users have to say.
  When:: Monday, June 30, 6:15pm<br /> and <br />Tuesday, July 1, 12:15pm
  Where:: Multipurpose Room<br /> and <br /> East Room 304
- Contact:: [mailto:mheydar1 AT jhmi DOT edu](Mo Heydarian)
+ Contact:: [Mo Heydarian](mailto:mheydar1 AT jhmi DOT edu)
 </div>
 
 PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
@@ -137,6 +137,6 @@ End-users of Galaxy who would like to share experiences (or listen to those of o
 
 ## Questions?
 
-Send them to [mailto:mheydar1 AT jhmi DOT edu](Mo Heydarian).
+Send them to [Mo Heydarian](mailto:mheydar1 AT jhmi DOT edu).
 
 [CategoryBo](/src/CategoryBo/index.md)F

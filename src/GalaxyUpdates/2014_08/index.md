@@ -339,7 +339,7 @@ One new [public Galaxy server](/src/PublicGalaxyServers/index.md) was added to t
 * *Comments:*
   * See He B *et al.* [Global view of enhancer-promoter interactome in human cells[J] ](http://www.pnas.org/content/111/21/E2191.abstract). *Proceedings of the National Academy of Sciences* of the United States of America, 2014.
 * *User Support:*
-  * Email to [mailto:bing-he@uiowa.edu](Bing He) or [contact the Tan Lab](http://www.healthcare.uiowa.edu/labs/tan/Contact.html) 
+  * Email to [Bing He](mailto:bing-he@uiowa.edu) or [contact the Tan Lab](http://www.healthcare.uiowa.edu/labs/tan/Contact.html) 
 * *Quotas:* 
 * *Sponsor(s):*
   * [Tan Lab](http://www.healthcare.uiowa.edu/labs/tan/index.htm) at [University of Iowa](http://uiowa.edu)

@@ -351,7 +351,7 @@ In addition to the previous visualization functions of [track-view and heatmap-v
 
 See "[CAPER 2.0: An Interactive, Configurable, and Extensible Workflow-Based Platform to Analyze Data Sets from the Chromosome-centric Human Proteome Project](http://pubs.acs.org/doi/abs/10.1021/pr400795c)" by Wang, *et al.*, *J. Proteome Res.*, DOI: 10.1021/pr400795c, Publication Date (Web): November 22, 2013.
 
-[Tutorials](http://61.50.138.124/caper2/static/documentation/index.html) and support ([mailto:lidong DOT bprc AT foxmail DOT com](Dong Li), [mailto:wangdanburnett@163.com](Dan Wang)) are offered.  CAPER 2.0 is sponsored by [Beijing Proteome Research Center (BPRC)](http://www.bprc.ac.cn/), the [Human Liver Proteome Project (HLPP)](http://www.hupo.org/initiatives/human-liver-proteome-project/), and the [Chromosome-centric Human Proteome Project (C-HPP)](http://www.c-hpp.org/)
+[Tutorials](http://61.50.138.124/caper2/static/documentation/index.html) and support ([Dong Li](mailto:lidong DOT bprc AT foxmail DOT com), [Dan Wang](mailto:wangdanburnett@163.com)) are offered.  CAPER 2.0 is sponsored by [Beijing Proteome Research Center (BPRC)](http://www.bprc.ac.cn/), the [Human Liver Proteome Project (HLPP)](http://www.hupo.org/initiatives/human-liver-proteome-project/), and the [Chromosome-centric Human Proteome Project (C-HPP)](http://www.c-hpp.org/)
 
 # Galaxy Distributions
 

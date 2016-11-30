@@ -39,7 +39,7 @@ What do you need to host GCC2018, you ask?  In approximately decreasing order of
 
 Hosts get copious (and enthusiastic) organizational support from Galaxy's Outreach Team (who have been helping to organize GCC since 2011), and even more copious gratitude from the Galaxy Community.  
 
-See the **[full call for host proposals](PLACEHOLDER_ATTACHMENT_URL/src/Documents/GCC2018CallForHosts.pdf)** for more details on what should be covered in proposals.  **Proposals are due on November 30, 2016**. If you are interested in possibly hosting GCC2018 then please contact [mailto:outreach@galaxyproject.org](Galaxy Outreach) with any questions.  Our goal is to announce GCC2018 at GCC2017 this coming June.
+See the **[full call for host proposals](PLACEHOLDER_ATTACHMENT_URL/src/Documents/GCC2018CallForHosts.pdf)** for more details on what should be covered in proposals.  **Proposals are due on November 30, 2016**. If you are interested in possibly hosting GCC2018 then please contact [Galaxy Outreach](mailto:outreach@galaxyproject.org) with any questions.  Our goal is to announce GCC2018 at GCC2017 this coming June.
 
 Hoping to work with you in 2018!
 

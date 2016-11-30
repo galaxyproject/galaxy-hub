@@ -1,6 +1,6 @@
 # GregEdwards
 
-Email: [mailto:removethisprefix_gedwards2 AT gmail DOT com](removethisprefix_gedwards2 AT gmail DOT com)
+Email: [removethisprefix_gedwards2 AT gmail DOT com](mailto:removethisprefix_gedwards2 AT gmail DOT com)
 
 * Greg Edwards, Sydney Australia.
 * CEO (and everything else) of Port Jackson Bioinformatics (Port Jackson is Sydney Harbour)

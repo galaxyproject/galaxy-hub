@@ -120,7 +120,7 @@ The conference does not have an official conference hotel.  However, our hosts h
 
 <div class='right'><a href='http://www.thonhotels.com/ullevaalstadion'><img src="/src/Events/GCC2013/Logistics/ThonHotelUllevaalStadion.jpg" alt="Thon Hotel Ullevaal Stadion" height="80" /></a></div>
 * €€€ 
-    *Thon Hotel Ullevaal Stadion is offering a 21% discount off of published rates to conference attendees.  To book a discounted room send an email to [mailto:Ullevaal DOT booking AT thonhotels DOT no](Ullevaal Stadion Bookings), or call them directly at +47 22082000 and mention that you are requesting the University of Oslo discount, and that you will be attending GCC2013.*
+    *Thon Hotel Ullevaal Stadion is offering a 21% discount off of published rates to conference attendees.  To book a discounted room send an email to [Ullevaal Stadion Bookings](mailto:Ullevaal DOT booking AT thonhotels DOT no), or call them directly at +47 22082000 and mention that you are requesting the University of Oslo discount, and that you will be attending GCC2013.*
 * [Web Site](http://www.thonhotels.com/ullevaalstadion)
 * Closest hotel to conference.  Right next to the Ullevaal football stadium, and far from downtown, but right next to a Metro station.
 * Nearest Metro Station: [Ullevaal stadion](http://reiseplanlegger.ruter.no/en/Kart/For/(3012210)Ullev%C3%A5l%20stadion%20%5BT-bane%5D%20(Oslo)#st:1,zo:0,sp:0), 1 stop away
@@ -157,7 +157,7 @@ The conference does not have an official conference hotel.  However, our hosts h
 
 <div class='right'><a href='http://www.thonhotels.com/hotels/countrys/norway/oslo/thon-hotel-gyldenlove/'><img src="/src/Events/GCC2013/Logistics/Gyldenlove.jpg" alt="Thon Hotel Gyldenløve" height="80" /></a></div>
 * €€ 
-    *Thon Hotel Gyldenløve is offering a 21% discount off of published rates to conference attendees.  To book a discounted room contact [mailto:gyldenlove DOT booking AT thonhotels DOT no](Gyldenløve Bookings) and mention that you are requesting the University of Oslo discount, and that you will be attending GCC2013.*
+    *Thon Hotel Gyldenløve is offering a 21% discount off of published rates to conference attendees.  To book a discounted room contact [Gyldenløve Bookings](mailto:gyldenlove DOT booking AT thonhotels DOT no) and mention that you are requesting the University of Oslo discount, and that you will be attending GCC2013.*
 * [Web Site](http://www.thonhotels.com/hotels/countrys/norway/oslo/thon-hotel-gyldenlove/)
 * In a neighborhood between downtown Oslo and conference venue.
 * Nearest Metro Station: [Majorstuen](http://reiseplanlegger.ruter.no/en/Kart/For/(3010200)Majorstuen%20%5BT-bane%5D%20(Oslo)#st:1,zo:0,sp:0), 3 stops away

@@ -100,4 +100,4 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Questions?
 
-Contact [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach) or [Karen Eilbeck](http://www.bioscience.utah.edu/faculty/molecular-biology-faculty/eilbeck/eilbeck.php).
+Contact [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org) or [Karen Eilbeck](http://www.bioscience.utah.edu/faculty/molecular-biology-faculty/eilbeck/eilbeck.php).

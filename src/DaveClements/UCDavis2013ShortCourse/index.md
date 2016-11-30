@@ -13,7 +13,7 @@ title: UC Davis 2013 Bioinformatics Short Course
  Resource:: **[UC Davis 2013 Short Course](/src/Teach/Resource/UCDavis2013ShortCourse/index.md)**
  Types:: Tutorials, Datasets, VM, AMI
  Domains:: ***[Everything](/src/DaveClements/UCDavis2013ShortCourse/index.md#outline)* (almost)**
- Owners:: [mailto:jnfass AT ucdavis DOT edu](Joe Fass), [mailto:najoshi AT ucdavis DOT edu](Nikhil Joshi), [mailto:jjsli AT ucdavis DOT edu](Jessie Li), [mailto:mtbritton AT ucdavis DOT edu](Monica Britton), [mailto:bpdurbin AT phs DOT ucdavis DOT edu](Blythe Durbin-Johnson) 
+ Owners:: [Joe Fass](mailto:jnfass AT ucdavis DOT edu), [Nikhil Joshi](mailto:najoshi AT ucdavis DOT edu), [Jessie Li](mailto:jjsli AT ucdavis DOT edu), [Monica Britton](mailto:mtbritton AT ucdavis DOT edu), [Blythe Durbin-Johnson](mailto:bpdurbin AT phs DOT ucdavis DOT edu) 
  Formats:: Slides, Web Pages, Documents  
  Date Created/Updated:: 2013/09 
 </div>

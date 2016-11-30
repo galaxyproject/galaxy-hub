@@ -98,6 +98,6 @@ The conference dinner was on July 25. The cost is included in registration. Gues
 
 ## Visas
 
-If you need a visa to travel to the United States for the conference, please contact [mailto:outreach@galaxyproject.org?subject=GCC%202012%20Visa](Galaxy Outreach) **as soon as possible.**
+If you need a visa to travel to the United States for the conference, please contact [Galaxy Outreach](mailto:outreach@galaxyproject.org?subject=GCC%202012%20Visa) **as soon as possible.**
 
 PLACEHOLDER_INCLUDE(/src/Events/GCC2012/Logistics/Ask the Organizers/index.md)

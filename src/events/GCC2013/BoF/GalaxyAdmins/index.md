@@ -36,7 +36,7 @@ The [tentative time and location](/src/Events/GCC2013/BoF/index.md#bof-schedule)
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [mailto:clements AT galaxyproject DOT org](Dave Clements).  There were about 21 people present, including:
+If you are interested, please add your name below and/or send an email to [Dave Clements](mailto:clements AT galaxyproject DOT org).  There were about 21 people present, including:
 
 * [Dave Clements](/src/DaveClements/index.md)
 * Shaun Webb
@@ -44,8 +44,8 @@ If you are interested, please add your name below and/or send an email to [mailt
 * Peter Li
 * [Christian Andreetta](http://www.computing.uni.no/staff?nickname=christiana)
 * Srinivas Maddhi
-* [mailto:Graham dot Etherington AT tsl DOT ac DOT uk](Graham Etherington)
-* [mailto:Chris . Bridson AT nbi DOT ac DOT uk](Chris Bridson)
+* [Graham Etherington](mailto:Graham dot Etherington AT tsl DOT ac DOT uk)
+* [Chris Bridson](mailto:Chris . Bridson AT nbi DOT ac DOT uk)
 * Scott Edmunds, GigaScience
 * [Steve McMahon, CSIRO, Australia](/src/SteveMcMahon/index.md)
 * Subazini Thankaswamy
@@ -122,6 +122,6 @@ Leadership / Governance
 
 ## Questions?
 
-Send them to [mailto:clemetns AT galaxyproject DOT org](Dave Clements).
+Send them to [Dave Clements](mailto:clemetns AT galaxyproject DOT org).
 
 Please add any questions or discussion to the [Galaxy-Dev thread on the future of GalaxyAdmins](http://dev.list.galaxyproject.org/GalaxyAdmins-Group-Future-Directions-td4659133.html).

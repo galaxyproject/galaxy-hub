@@ -22,7 +22,7 @@ We [time and location](/src/Events/GCC2013/BoF/index.md#bof-schedule) will meet 
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [mailto:sanjay DOT joshi AT isilon DOT com](Sanjay Joshi) **and** [mailto:clements AT galaxyproject DOT org](Dave Clements).
+If you are interested, please add your name below and/or send an email to [Sanjay Joshi](mailto:sanjay DOT joshi AT isilon DOT com) **and** [Dave Clements](mailto:clements AT galaxyproject DOT org).
 
 * Sanjay Joshi, EMC Isilon
 * Georgois Masklaras, USIT, Univ Oslo, Norway
@@ -34,4 +34,4 @@ If you are interested, please add your name below and/or send an email to [mailt
 
 ## Questions?
 
-Send them to [mailto:sanjay DOT joshi AT isilon DOT com](Sanjay Joshi) **and** [mailto:Sasha DOT Paegle AT isilon DOT com](Sasha Paegle).
+Send them to [Sanjay Joshi](mailto:sanjay DOT joshi AT isilon DOT com) **and** [Sasha Paegle](mailto:Sasha DOT Paegle AT isilon DOT com).

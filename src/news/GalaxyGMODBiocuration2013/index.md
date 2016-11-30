@@ -10,7 +10,7 @@ The first is that GMOD is running a [community-wide survey](http://gmod.org/surv
 
 <div class='right'><a href='/src/gmod:April_2013_GMOD_Meeting/index.md'><img src="/src/Images/Logos/GMOD2013Logo240.png" alt="GMOD 2013" height="120" /></a></div>
 
-The second is that registration is now open for the [2013 GMOD Meeting](http://gmod.org/wiki/April 2013 GMOD Meeting) being held in Cambridge, UK, April 5 and 6.  There will be a Galaxy presence (at least a project update, and I'm lobbying for a CloudMan workshop as well (and [mailto:help AT gmod DOT org](you could lobby too!))).
+The second is that registration is now open for the [2013 GMOD Meeting](http://gmod.org/wiki/April 2013 GMOD Meeting) being held in Cambridge, UK, April 5 and 6.  There will be a Galaxy presence (at least a project update, and I'm lobbying for a CloudMan workshop as well (and [you could lobby too!](mailto:help AT gmod DOT org))).
 
 Finally, [Biocuration 2013](http://www.ebi.ac.uk/biocuration2013/home) is immediately after the GMOD Meeting, and also in Cambridge.  Biocuration will feature a [GO Galaxy Workshop](http://wiki.geneontology.org/index.php/GO_Galaxy_Workshop_at_Biocuration_2013) about using Galaxy to reason with ontologies.
 

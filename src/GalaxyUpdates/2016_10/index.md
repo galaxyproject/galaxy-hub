@@ -34,7 +34,7 @@ The big news this month is a series of upcoming events:
   * February 3-9, Melbourne, Victoria, Australia
   * *Registration and abstract submission are now open.* 
 
-If you have anything to include in the next News, please send it to [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
 
 
 # Events
@@ -469,7 +469,7 @@ There are [over 80 publicly accessible Galaxy servers](/src/PublicGalaxyServers/
 
 <div class='right solid'><a href='http://cefap.icb.usp.br/galaxy'><img src="/src/PublicGalaxyServers/CEFAP-Logo.png" alt="Galaxy-CEFAP" width="200" /></a></div>
 
-[Galaxy-CEFAP](http://cefap.icb.usp.br/galaxy) offers a set of tools to perform RNA-Seq and miRNA. User support is available via [mailto:geninfo AT icb DOT usp DOT br](Email), and there is an [FTP tutorial](http://cefap.icb.usp.br/galaxy/etc/galaxy/web/welcome_upload_ftp.pdf) as well.  Anyone can use the server, but it is necessary to create a login first.  Email [mailto:geninfo AT icb DOT usp DOT br](geninfo AT icb DOT usp DOT br) to request an account. There is a storage quota for all users.
+[Galaxy-CEFAP](http://cefap.icb.usp.br/galaxy) offers a set of tools to perform RNA-Seq and miRNA. User support is available via [Email](mailto:geninfo AT icb DOT usp DOT br), and there is an [FTP tutorial](http://cefap.icb.usp.br/galaxy/etc/galaxy/web/welcome_upload_ftp.pdf) as well.  Anyone can use the server, but it is necessary to create a login first.  Email [geninfo AT icb DOT usp DOT br](mailto:geninfo AT icb DOT usp DOT br) to request an account. There is a storage quota for all users.
 
 [Galaxy-CEFAP](http://cefap.icb.usp.br/galaxy) is supported by [Instituto de Ciências Biomédicas - ICB](http://www3.icb.usp.br/), [Universidade de São Paulo - USP](http://www5.usp.br/), and [Fundação de Amparo à Pesquisa de SP - FAPESP](http://www.fapesp.br/) hosted by [Centro de Facilidades de Apoio à Pesquisa - CEFAP-USP](http://cefap.icb.usp.br/).
 

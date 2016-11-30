@@ -15,7 +15,7 @@ title: The October 2015 Galactic News!
 
 <div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the October 2015 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the October News, please send it to [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach). 
+Welcome to the October 2015 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the October News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
 
 # New Papers
 
@@ -157,7 +157,7 @@ GCC draws 200+ participants from the full range of data-intensive life science r
 
 Hosts get copious (and enthusiastic) organizational support from Galaxy's Outreach Team (who have been helping to organize GCC since 2011), and even more copious gratitude (even *adulation!)* from the Galaxy Community.  
 
-See the **[full call for host proposals](PLACEHOLDER_ATTACHMENT_URL/src/Documents/GCC2016CallForHosts.pdf)** for more details on what should be covered in proposals.  Proposals are due by the end of ~~30 October~~ **30 November 2015**. If you are interested in possibly hosting GCC2017 then please contact [mailto:outreach@galaxyproject.org](Galaxy Outreach) with any questions.
+See the **[full call for host proposals](PLACEHOLDER_ATTACHMENT_URL/src/Documents/GCC2016CallForHosts.pdf)** for more details on what should be covered in proposals.  Proposals are due by the end of ~~30 October~~ **30 November 2015**. If you are interested in possibly hosting GCC2017 then please contact [Galaxy Outreach](mailto:outreach@galaxyproject.org) with any questions.
 
 Hoping to work with you in 2017!
 
@@ -331,7 +331,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
     * [WiseScaffolder](http://abims.sb-roscoff.fr/wisescaffolder): genome scaffolding of pre-assembled contigs using mate-pair data.
     * [HECTAR](http://www.sb-roscoff.fr/hectar/): HEterokont subCellular TARgeting is a statistical prediction method designed to assign proteins to five different categories of subcellular targeting: Signal peptides, type II signal anchors, chloroplast transit peptides, mitochondrion transit peptides and proteins which do not possess any N-terminal target peptide.
 * *User support*: 
-  * For any question or request for tools or account, send an email at [mailto:support.abims@sb-roscoff.fr](ABiMS Support)
+  * For any question or request for tools or account, send an email at [ABiMS Support](mailto:support.abims@sb-roscoff.fr)
 * *Sponsor(s):*
   * [ABiMS](http://abims.sb-roscoff.fr/)
   * [Station Biologique de Roscoff](http://www.sb-roscoff.fr/) 
@@ -357,7 +357,7 @@ We are considering offering a [Software Carpentry](https://software-carpentry.or
 
 This idea came up at the [GCC2015 GTN BoF](/src/Events/GCC2015/BoFs/GalaxyTrainingNetwork/index.md).  Software and Data Carpentry (S/DC) teach scientists core essentials of programming and data management. Their model is to train and certify trainers, and then provide a common curriculum and teaching infrastructure that enables those trainers to teach scientists how to program and manage data well.
 
-If you think we should (or should not) offer this training at GCC2016, please [mailto:galaxy-training@lists.galaxyproject.org](contribute) to the [discussion on the mailing list](http://bit.ly/1V9Dd3Q).
+If you think we should (or should not) offer this training at GCC2016, please [contribute](mailto:galaxy-training@lists.galaxyproject.org) to the [discussion on the mailing list](http://bit.ly/1V9Dd3Q).
 
 ## Galaxy Training Network and GOBLET
 

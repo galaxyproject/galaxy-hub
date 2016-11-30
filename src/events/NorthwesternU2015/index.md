@@ -112,4 +112,4 @@ This workshop is generously supported by [Northwestern University Research Compu
 
 ## Questions?
 
-Contact [mailto:p DASH shaw2@northwestern.edu](Pamela Shaw) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [Pamela Shaw](mailto:p DASH shaw2@northwestern.edu) or [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).

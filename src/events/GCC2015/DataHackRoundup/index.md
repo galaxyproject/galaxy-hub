@@ -12,7 +12,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
  Audience:: Those who attended the data or code hack and want to continue on pipeline and stable workflow development and deployment.  
  When:: **Tuesday, 7 July, 18:20**
  Where:: **[Chris Lamb Theatre](http://gcc2015.tsl.ac.uk/wp-content/uploads/2015/07/GCC2015NRPMap.png)**
- Contact:: [mailto:kreddy4@jhmi.edu](Karen Reddy)
+ Contact:: [Karen Reddy](mailto:kreddy4@jhmi.edu)
 </div>
 
 <div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
@@ -33,13 +33,13 @@ This BoF is for the data hack team to reconvene and strategize for the coming we
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [mailto:kreddy4@jhmi.edu](Karen Reddy).
+If you are interested, please add your name below and/or send an email to [Karen Reddy](mailto:kreddy4@jhmi.edu).
 
 * Karen Reddy
 * Next Name
 
 ## Questions?
 
-Send them to [mailto:kreddy4@jhmi.edu](Karen Reddy).
+Send them to [Karen Reddy](mailto:kreddy4@jhmi.edu).
 
 [CategoryBo](/src/CategoryBo/index.md)F

@@ -4,7 +4,7 @@
 
 The Galaxy Project will be applying for [Google Summer of Code 2014](http://www.google-melange.com/gsoc/homepage/google/gsoc2014) as part of the [Genome Informatics Group](http://gmod.org/wiki/GSoC).  We are looking for project proposals to include in the group's submission to Google.  Please submit your proposals by January 31.  
 
-If you are interested in submitting an idea, or being a mentor then please email [mailto:robin DOT haw AT oicr DOT on DOT ca](Robin Haw) *and* [mailto:outreach AT galaxyproject DOT org](outreach AT galaxyproject DOT org).  There is also a 
+If you are interested in submitting an idea, or being a mentor then please email [Robin Haw](mailto:robin DOT haw AT oicr DOT on DOT ca) *and* [outreach AT galaxyproject DOT org](mailto:outreach AT galaxyproject DOT org).  There is also a 
 [mailing list](http://groups.google.com/group/genome-informatics) and an IRC channel: #genomeinformatics on Freenode.
 
 The Genome Informatics Group is organizing the joint efforts of Galaxy, [http://gmod.org/wiki/|GMOD](http://gmod.org/wiki/|GMOD), [Reactome](http://reactome.org), [SeqWare](http://seqware.github.com/), and [Wormbase](http://wormbase.org). This is a great opportunity for students to contribute to the work of any of these established bioinformatics projects.

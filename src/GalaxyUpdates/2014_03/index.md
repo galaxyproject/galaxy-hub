@@ -320,9 +320,9 @@ One new [public Galaxy server](/src/PublicGalaxyServers/index.md), [PGTB](/src/P
 * *Domain/Purpose:*
     This is a standard Galaxy instance implemented with specific tools for Biodiversity (Biodiversity Virtual Lab) and NGS (Ion Torrent from the PGTB facility) analysis. 
 * *Comments:*
-    Due to current disk space limitations, registration is required. Account request on demand at [mailto:contact DOT pgtp AT pierroton DOT inra DOT fr](Email).
+    Due to current disk space limitations, registration is required. Account request on demand at [Email](mailto:contact DOT pgtp AT pierroton DOT inra DOT fr).
 * *User Support:*
-    [mailto:contact DOT pgtp AT pierroton DOT inra DOT fr](Email)
+    [Email](mailto:contact DOT pgtp AT pierroton DOT inra DOT fr)
 * *Quotas:* 
     Registered users: 50GB;
 * *Sponsor(s):*

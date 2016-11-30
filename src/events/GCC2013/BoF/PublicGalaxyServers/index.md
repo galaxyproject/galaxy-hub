@@ -29,7 +29,7 @@ The [tentative time and location](/src/Events/GCC2013/BoF/index.md#bof-schedule)
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [mailto:clements AT galaxyproject DOT org](Dave Clements).
+If you are interested, please add your name below and/or send an email to [Dave Clements](mailto:clements AT galaxyproject DOT org).
 
 * [Dave Clements](/src/DaveClements/index.md), Galaxy Project
 * [Dorine Francheteau](/src/GalaxyTeam/index.md), Galaxy Project
@@ -67,4 +67,4 @@ Those included:
 
 ## Questions?
 
-Send them to [mailto:clements AT galaxyproject DOT org](Dave Clements).
+Send them to [Dave Clements](mailto:clements AT galaxyproject DOT org).

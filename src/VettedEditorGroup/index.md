@@ -1,5 +1,5 @@
 #acl All:read
-List of wiki logins that have been vetted and no longer need to answer [TextChas](/src/HelpOnSpam/index.md) to edit pages.  If you want to get on this list, please send your wiki login to [mailto:outreach@galaxyproject.org](Galaxy Outreach).
+List of wiki logins that have been vetted and no longer need to answer [TextChas](/src/HelpOnSpam/index.md) to edit pages.  If you want to get on this list, please send your wiki login to [Galaxy Outreach](mailto:outreach@galaxyproject.org).
 
 #### A-Ah
 

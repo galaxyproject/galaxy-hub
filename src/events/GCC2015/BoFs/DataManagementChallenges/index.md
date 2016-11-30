@@ -12,7 +12,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
  Audience:: People using Galaxy to process large numbers of files
  When:: Wednesday, 8 July, 12:30 (Lunch)
  Where:: Franklin Room, JICCC
- Contact:: [mailto:langhorst@neb DOT com](Brad Langhorst)
+ Contact:: [Brad Langhorst](mailto:langhorst@neb DOT com)
 </div>
 
 <div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
@@ -33,7 +33,7 @@ Wednesday, 8 July, 12:30 (Lunch), in the Franklin Room, JICCC
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [mailto:langhorst@neb DOT com](Brad Langhorst), **or just show up.**
+If you are interested, please add your name below and/or send an email to [Brad Langhorst](mailto:langhorst@neb DOT com), **or just show up.**
 
 * Brad Langhorst
 * [Nate Coraor](/src/nate/index.md)
@@ -42,6 +42,6 @@ If you are interested, please add your name below and/or send an email to [mailt
 
 ## Questions?
 
-Send them to [mailto:langhorst@neb DOT com](Brad Langhorst).
+Send them to [Brad Langhorst](mailto:langhorst@neb DOT com).
 
 [CategoryBo](/src/CategoryBo/index.md)F

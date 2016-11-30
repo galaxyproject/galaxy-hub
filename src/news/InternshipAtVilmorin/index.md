@@ -23,7 +23,7 @@ Profile:
 
 Thank you for sending your application to:
 
-Hien LE ([mailto:hien.le AT vilmorin DOT info](hien.le AT vilmorin DOT info)) 
+Hien LE ([hien.le AT vilmorin DOT info](mailto:hien.le AT vilmorin DOT info)) 
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-02-01</div>
 

@@ -117,4 +117,4 @@ Please distribute to parts of Johns Hopkins that might be interested.  You are a
 
 ## Questions?
 
-Contact Mo Heydarian < [mailto:mheydar1 AT jhmi DOT edu](mheydar1 AT jhmi DOT edu) > or Galaxy Outreach < [mailto:outreach@galaxyproject.org](outreach@galaxyproject.org) >.
+Contact Mo Heydarian < [mheydar1 AT jhmi DOT edu](mailto:mheydar1 AT jhmi DOT edu) > or Galaxy Outreach < [outreach@galaxyproject.org](mailto:outreach@galaxyproject.org) >.

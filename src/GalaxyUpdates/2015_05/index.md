@@ -127,7 +127,7 @@ On-time [poster abstract submission](http://gcc2015.tsl.ac.uk/Abstracts) **close
 
 ### Registration and Lodging Scholarships: Applications due TODAY
 
-The [mailto:community-fund@lists.galaxyproject.org](Galaxy Community Fund Board) is pleased to offer [registration](http://gcc2015.tsl.ac.uk/registration) and [lodging](http://gcc2015.tsl.ac.uk/logistics/#Lodging) scholarships for [GCC2015](http://gcc2015.tsl.ac.uk/) for students and post-docs who are based in the United States, and who are members of historically underrepresented groups in life science research.
+The [Galaxy Community Fund Board](mailto:community-fund@lists.galaxyproject.org) is pleased to offer [registration](http://gcc2015.tsl.ac.uk/registration) and [lodging](http://gcc2015.tsl.ac.uk/logistics/#Lodging) scholarships for [GCC2015](http://gcc2015.tsl.ac.uk/) for students and post-docs who are based in the United States, and who are members of historically underrepresented groups in life science research.
 
 See the [full announcement](/src/News/GCC2015Scholarships/index.md) for further details. 
 
@@ -189,7 +189,7 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is s
 
 Several sponsorship levels are available, including two levels of premier sponsorships that include presentations.  Premium sponsorships are limited, however, so you are encouraged to act soon.
 
-Please let the [organisers](http://gcc2015.tsl.ac.uk/) ([mailto:gcc2015-org AT lists DOT galaxyproject DOT org](gcc2015-org AT lists DOT galaxyproject DOT org)) know if you are interested in helping make this event a success.
+Please let the [organisers](http://gcc2015.tsl.ac.uk/) ([gcc2015-org AT lists DOT galaxyproject DOT org](mailto:gcc2015-org AT lists DOT galaxyproject DOT org)) know if you are interested in helping make this event a success.
 
 ## April GalaxyAdmins Meetup: Slides and Video
 
@@ -404,7 +404,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
   * "The ReproGenomics Viewer (RGV) is a cross-species genomic toolbox for the reproductive community. The system is based on the implementation of a JBrowse genome browser and a Galaxy bioinformatics workflow environment. It was developed to provide a one-stop genomic working environment and aims to assist scientists in the analysis and the mining of a wide range of high-throughput repro-genomics data, including sequencing data.<br /><br />RGV allows hosting, visualization, and direct comparison of users’ data to published genomics studies as well as to relevant genetic variations linked to reproduction. One way it does this is by enabling various genomic file format conversions.<br /><br />The ReproGenomics Viewer currently hosts datasets that are oriented mainly towards testis biology and spermatogenesis. In the near future, these will extend to other areas of reproduction, including gonad development, urogenital cancers, and reproductive toxicology."
 * *Comments:* 
 * *User Support:*
-  * [mailto:support@genouest.org](Email)
+  * [Email](mailto:support@genouest.org)
 * *Quotas:* 
 * *Sponsor(s):*
   * [INSERM](http://www.inserm.fr), [IRSET](http://www.irset.fr), [FRM](http://www.frm.fr), [ANSES](http://www.anses.fr), [Biogenouest](http://www.biogenouest.org), [IRISA](http://www.irisa.fr), [INRIA](http://www.inria.fr/), [CNRS](http://www.cnrs.fr/), [Université de Rennes 1](http://www.univ-rennes1.fr/), [Région Bretagne](http://www.bretagne.fr/), FEDER]]

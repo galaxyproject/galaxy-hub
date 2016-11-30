@@ -17,7 +17,7 @@ Some of my key contributions to Galaxy include the following:
 In my previous position on the [Galaxy-P](https://github.com/galaxyproteomics) project I did much of the initial development on many proteomics tools including [OpenMS](https://bitbucket.org/galaxyp/galaxyp-toolshed-openms), [msconvert](https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/msconvert), [ProteinPilot](https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/proteinpilot), [PeptideShaker](https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/peptideshaker), [Scaffold](https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/scaffold).
 
 
-Email: [mailto:jmchilton AT SPAMFREE gmail DOT com ](jmchilton AT SPAMFREE gmail DOT com ) or [mailto:jmchilton AT SPAMFREE bx DOT psu DOT edu ](jmchilton AT SPAMFREE bx DOT psu DOT edu ) 
+Email: [jmchilton AT SPAMFREE gmail DOT com ](mailto:jmchilton AT SPAMFREE gmail DOT com ) or [jmchilton AT SPAMFREE bx DOT psu DOT edu ](mailto:jmchilton AT SPAMFREE bx DOT psu DOT edu ) 
 
 ...
 

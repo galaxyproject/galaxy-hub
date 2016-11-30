@@ -12,7 +12,7 @@ La langue officielle de cette liste est le français.
 * Vous avez des trucs et astuces pouvant interresser la communauté,
 * Vous organisez des formations avec Galaxy,
 
-Postez une annonce à [mailto:galaxy-france AT lists DOT bx DOT psu DOT edu](galaxy-france AT lists DOT bx DOT psu DOT edu)
+Postez une annonce à [galaxy-france AT lists DOT bx DOT psu DOT edu](mailto:galaxy-france AT lists DOT bx DOT psu DOT edu)
 
 Pour toutes les questions techniques (installation, développement d'outil) nous tenterons de vous aider dans la mesure du possible, mais nous vous conseillons de vous adresser en parallèle à la [liste de développement](http://dev.list.galaxyproject.org/), le temps que la communauté française se mette en place.
 

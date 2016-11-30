@@ -93,4 +93,4 @@ This workshop is part of the [May 2014 Galaxy UK Tour](/src/Events/UKMay2014/ind
 
 ## Questions?
 
-Contact [Graeme Grimes of the Semple Lab](http://www.hgu.mrc.ac.uk/people/c.semple_researchb.html) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [Graeme Grimes of the Semple Lab](http://www.hgu.mrc.ac.uk/people/c.semple_researchb.html) or [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).

@@ -102,7 +102,7 @@ Here we present a pipeline that uses Galaxy as an interface to provide the mecha
 
 <div class='right'><img src="/src/Events/GCC2012/Abstracts/Liu.jpg" alt=""  /></div>
 
-**Bo Liu<sup>1</sup>** ([mailto:boliu@uchicago.edu](boliu@uchicago.edu)), Ravi Madduri<sup>1</sup> ([mailto:madduri@mcs.anl.gov](madduri@mcs.anl.gov))<br />
+**Bo Liu<sup>1</sup>** ([boliu@uchicago.edu](mailto:boliu@uchicago.edu)), Ravi Madduri<sup>1</sup> ([madduri@mcs.anl.gov](mailto:madduri@mcs.anl.gov))<br />
 
  <sup>1</sup> Computation Institute, University of Chicago and Argonne National Laboratory
 
@@ -133,7 +133,7 @@ The platform is used in production by the IRGB/CNR since 2011.
 
 ## Nebula - A Web-Server for Advanced ChIP-Seq Data Analysis
 
-[Valentina Boeva](https://sites.google.com/site/valentinaboeva/)<sup>1,2,3</sup> ([mailto:Valentina.Boeva@curie.fr](Valentina.Boeva@curie.fr)), **Alban LERMINE<sup>1,2,3</sup>** ([mailto:Alban.Lermine@curie.fr](Alban.Lermine@curie.fr)), Camille BARETTE<sup>1</sup> ([mailto:Camille.Barette@curie.fr](Camille.Barette@curie.fr)), Emmanuel BARILLOT<sup>1,2,3</sup> ([mailto:Emmanuel.Barillot@curie.fr](Emmanuel.Barillot@curie.fr))
+[Valentina Boeva](https://sites.google.com/site/valentinaboeva/)<sup>1,2,3</sup> ([Valentina.Boeva@curie.fr](mailto:Valentina.Boeva@curie.fr)), **Alban LERMINE<sup>1,2,3</sup>** ([Alban.Lermine@curie.fr](mailto:Alban.Lermine@curie.fr)), Camille BARETTE<sup>1</sup> ([Camille.Barette@curie.fr](mailto:Camille.Barette@curie.fr)), Emmanuel BARILLOT<sup>1,2,3</sup> ([Emmanuel.Barillot@curie.fr](mailto:Emmanuel.Barillot@curie.fr))
 
  <sup>1</sup> Institut Curie<br />
  <sup>2</sup> INSERM, U900, Bioinformatics and Computational Systems Biology of Cancer, Paris<br />
@@ -239,7 +239,7 @@ Contact: support@oqtans.org; ratschg@mskcc.org
 
 Whole genome sequencing (WGS) is the fastest and most cost effective way to map causal mutations in model organisms such as *C. elegans*. Our lab has previously developed single step SNP mapping strategies coupled with whole genome sequencing ([Doitsidou et al. 2010](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0015435)) as well as software analysis tools for mutant genome sequence analysis (MAQGene, [Bigelow et al. 2009](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2854518/?tool=pubmed)). In an effort to take advantage of the cloud and many freely available open source tools, we've adapted our mutant genome sequence analysis pipeline to run on Galaxy. Our pipeline uses custom Python scripts to provide greatly improved mutant mapping tools and relies on the NGS Toolbox in Galaxy, [GATK Tools](http://www.nature.com/ng/journal/v43/n5/abs/ng.806.html), and [snpEff](http://snpeff.sourceforge.net). In addition to allowing for pinpoint mapping of causal mutations in *C. elegans* using any mapping strain, we also support similar mapping strategies for other model organisms that can be crossed to mapping strains. An alternate mapping strategy whereby mutants are backcrossed to their starting strain ([Zuryn, et al. 2010](http://www.genetics.org/content/186/1/427.full)) is also supported. The CloudMap pipeline provides a set of best practices for mapping causal mutations and also facilitates the cataloguing and sharing of WGS variant data among model organism communities that use the tool.
 
-Correspondence to [mailto:gm2123 AT columbia DOT edu](gm2123 AT columbia DOT edu) (G.M.) or [mailto:or38 AT columbia DOT edu](or38 AT columbia DOT edu) (O.H.)
+Correspondence to [gm2123 AT columbia DOT edu](mailto:gm2123 AT columbia DOT edu) (G.M.) or [or38 AT columbia DOT edu](mailto:or38 AT columbia DOT edu) (O.H.)
 
 <br /><br />
 
@@ -325,7 +325,7 @@ Ion Torrent has pioneered an entirely new approach to sequencing that enables a 
 
 ## High level distributed processing pipelines with Galaxy
 
-**Brad Chapman<sup>1</sup>** ([mailto:bchapman@hsph.harvard.edu](bchapman@hsph.harvard.edu)), Shannan Ho Sui<sup>1</sup>, [Enis Afgan](/src/EnisAfgan/index.md)<sup>3</sup>, Ilya Sytchev<sup>2</sup>, Jason Evans<sup>1</sup>, Oliver Hofmann<sup>1</sup>, Winston Hide<sup>1</sup>
+**Brad Chapman<sup>1</sup>** ([bchapman@hsph.harvard.edu](mailto:bchapman@hsph.harvard.edu)), Shannan Ho Sui<sup>1</sup>, [Enis Afgan](/src/EnisAfgan/index.md)<sup>3</sup>, Ilya Sytchev<sup>2</sup>, Jason Evans<sup>1</sup>, Oliver Hofmann<sup>1</sup>, Winston Hide<sup>1</sup>
 
  <sup>1</sup> [Harvard School of Public Health](http://compbio.sph.harvard.edu/chb/)<br />
  <sup>2</sup> Center for Stem Cell Bioinformatics, Harvard Stem Cell Institute<br />

@@ -6,7 +6,7 @@ title: Galaxy @ [PAG 2016](http://www.intlpag.org/)
 
 
 
-Galaxy will be at [Plant and Animal Genome XXIV (PAG 2016)](http://www.intlpag.org/), being held in San Diego, California, United States, January 9-13.  This page will describe everything related to Galaxy that is happening at PAG that we know about.  If you know of something else, then [mailto:outreach AT galaxyproject DOT org](please tell us about it).
+Galaxy will be at [Plant and Animal Genome XXIV (PAG 2016)](http://www.intlpag.org/), being held in San Diego, California, United States, January 9-13.  This page will describe everything related to Galaxy that is happening at PAG that we know about.  If you know of something else, then [please tell us about it](mailto:outreach AT galaxyproject DOT org).
 
 <table>
   <tr class="th" >

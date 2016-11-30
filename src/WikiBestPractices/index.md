@@ -32,7 +32,7 @@ However, once you get comfortable with MoinMoin, please think about writing your
 
 ## Updating
 
-These guidelines are a work in progress and you are encouraged to suggest additions, deletions or revisions to them. The best way to do this is to send your comments to [mailto:outreach@galaxyproject.org](Galaxy Outreach). 
+These guidelines are a work in progress and you are encouraged to suggest additions, deletions or revisions to them. The best way to do this is to send your comments to [Galaxy Outreach](mailto:outreach@galaxyproject.org). 
 
 ## Enforcing
 

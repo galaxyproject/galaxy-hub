@@ -65,10 +65,10 @@ Please add your BoF to this table so that other's can plan their BoF so as to mi
 
 To plan a Birds of a Feather meetup:
 
-1. Create a web page for it.  You are encouraged to [create the page in this wiki](/src/Events/GCC2013/BoF/index.md#create-your-bofs-wiki-page), but it can be any where.  If you want a wiki page, but don't want to learn how to edit this wiki, then send some text to [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach) and we'll create it for you.
+1. Create a web page for it.  You are encouraged to [create the page in this wiki](/src/Events/GCC2013/BoF/index.md#create-your-bofs-wiki-page), but it can be any where.  If you want a wiki page, but don't want to learn how to edit this wiki, then send some text to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org) and we'll create it for you.
 1. Once the web page exists, add a link to it in the [Planned BoFs](/src/Events/GCC2013/BoF/index.md#planned-bofs) section of this page.
-1. Tweet it (use the hashtag #usegalaxy), or notify [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).  In the near future there will also be a conference mailing list you can send an announcement to.
-1. If you want, you can also [create a Galaxy News Item](/src/News/index.md#add-a-news-item) about the BoF (or again, send the text to [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+1. Tweet it (use the hashtag #usegalaxy), or notify [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).  In the near future there will also be a conference mailing list you can send an announcement to.
+1. If you want, you can also [create a Galaxy News Item](/src/News/index.md#add-a-news-item) about the BoF (or again, send the text to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 ### Create Your BoF's Wiki Page
 

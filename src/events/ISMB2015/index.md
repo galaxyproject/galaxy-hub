@@ -7,7 +7,7 @@
 ... and BioVis 2015
 </div>
 
-Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbeccb2015) and [BOSC 2015](http://www.open-bio.org/wiki/BOSC_2015). This page lists all known Galaxy related events and presentations. If you have something that isn't listed, please add it below (or send it to [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach)).
+Galaxy has a significant presence at [ISMB/ECCB 2015](http://www.iscb.org/ismbeccb2015) and [BOSC 2015](http://www.open-bio.org/wiki/BOSC_2015). This page lists all known Galaxy related events and presentations. If you have something that isn't listed, please add it below (or send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org)).
 
 ## BOSC 2015
 

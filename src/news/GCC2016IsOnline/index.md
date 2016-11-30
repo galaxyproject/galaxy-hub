@@ -20,9 +20,9 @@ The [training schedule](https://gcc16.sched.org/grid-full#2016-06-26) includes s
 
 Thanks also go to **the [Indiana University Pervasive Technology Institute (PTI)](https://pti.iu.edu/)**, who are supporting  GCC2016 as a **[Platinum Sponsor](https://gcc2016.iu.edu/sponsors/index.php)**.  PTI is home to the [National Center for Genome Analysis Support](http://ncgas.org/) ([for which NSF funding was recently renewed](https://itnews.iu.edu/articles/2015/iu-genome-analysis-center-wins-national-science-foundation-funding-renewal.php)), and the [Galaxy Trinity instance](https://galaxy.ncgas-trinity.indiana.edu/root), and is a long time supporter of the Galaxy Community. PTI pairs fundamental academic computational research with the widely known strengths of Indiana University through innovations and service delivery in networking and high performance computing.  See the [PTI website](http://pti.iu.edu/) for more information.
 
-We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the [mailto:gcc2016-exec@lists.galaxyproject.org](GCC2016 Exec) for more information.
+We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the [GCC2016 Exec](mailto:gcc2016-exec@lists.galaxyproject.org) for more information.
 
-The [mailto:gcc2016-exec@lists.galaxyproject.org](GCC2016 Exec)
+The [GCC2016 Exec](mailto:gcc2016-exec@lists.galaxyproject.org)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-12-18</div>
 

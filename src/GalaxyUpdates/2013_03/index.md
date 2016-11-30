@@ -109,7 +109,7 @@ There are still several [sponsorships](/src/Events/GCC2013/Sponsorships/index.md
 
 <div class='left'><a href='/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="March Galaxy Admins Web Meetup" height="50" /></a></div>
 
-The next [GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md) will be held [March 20, 2013](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md) and feature [mailto:hailiang DOT mei AT nbic DOT nl](Hailiang "Leon" Mei), and [mailto:david.van.enckevort@nbic.nl](David van Enckevort) speaking on *[NBIC Galaxy](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).* 
+The next [GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md) will be held [March 20, 2013](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md) and feature [Hailiang "Leon" Mei](mailto:hailiang DOT mei AT nbic DOT nl), and [David van Enckevort](mailto:david.van.enckevort@nbic.nl) speaking on *[NBIC Galaxy](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).* 
 
 [NBIC Galaxy (Andromeda)](http://galaxy.nbic.nl/) was migrated to a HPC cloud hosted by Surfsara in September 2012. In this presentation, we will present the setup of this HPC cloud and the architecture of our NBIC Galaxy. We will also share our experience on the installation of the NBIC Galaxy using the Cloudman scripts. The presentation will finish with a list of issues and our possible future plans.
 

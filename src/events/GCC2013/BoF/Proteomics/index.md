@@ -24,7 +24,7 @@ The Proteomics BoF has been  [tentatively scheduled](/src/Events/GCC2013/BoF/ind
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [mailto:jmchilton AT gmail DOT com](John Chilton).
+If you are interested, please add your name below and/or send an email to [John Chilton](mailto:jmchilton AT gmail DOT com).
 
 * John Chilton
 * Ira Cooke
@@ -32,7 +32,7 @@ If you are interested, please add your name below and/or send an email to [mailt
 
 ## Questions?
 
-Send them to [mailto:jmchilton AT gmail DOT com](John Chilton).
+Send them to [John Chilton](mailto:jmchilton AT gmail DOT com).
 
 ## Outcomes
 

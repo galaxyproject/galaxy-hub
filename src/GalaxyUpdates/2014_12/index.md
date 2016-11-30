@@ -20,7 +20,7 @@ The [French Working Group GALAXY-IFB (Institut Français de Bioinformatique)](ht
   * Galaxy's user experiences, and discussion on how the platform is (or is not) useful for building analysis.
   * Technology talks (new environment, Galaxy in production, ...)
 
-Interested? Please contact [mailto:ifb DOT galaxy AT sb DASH roscoff DOT fr](ifb DOT galaxy AT sb DASH roscoff DOT fr) for more information.
+Interested? Please contact [ifb DOT galaxy AT sb DASH roscoff DOT fr](mailto:ifb DOT galaxy AT sb DASH roscoff DOT fr) for more information.
 
 The [French IFB Galaxy Working Group](http://www.ifb-galaxy.org/index.html):
 
@@ -56,7 +56,7 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is n
 
 Several sponsorship levels are available, including two levels of premier sponsorships that include presentations.  Premium sponsorships are limited, however, so you are encouraged to act soon.
 
-Please let the GCC2015 Organising Committee ([mailto:gcc2015-org AT lists DOT galaxyproject DOT org](gcc2015-org AT lists DOT galaxyproject DOT org)) know if you are interested in helping make this event a success.
+Please let the GCC2015 Organising Committee ([gcc2015-org AT lists DOT galaxyproject DOT org](mailto:gcc2015-org AT lists DOT galaxyproject DOT org)) know if you are interested in helping make this event a success.
 
 ### GCC2015 Training Day Topic Nominations ...
 
@@ -286,7 +286,7 @@ Two new [public Galaxy servers](/src/PublicGalaxyServers/index.md) were announce
     * Launch AMI (Amazon machine image) on AWS cloud.
     Since Pitagora-Galaxy enables us to run the same workflows on any infrastructure and rebuild the environments in any time, we can quickly use Galaxy, and at the same time, ensure the reproducibility of the analyses. In addition, we plan to add a connector for Garuda Desktop, a desktop application platform, for data analyses that cannot be covered only with Galaxy tools.
 * *User Support:*
-  * Email: [mailto:yamanaka AT genome DOT rcast.u-tokyo.ac.jp](Ryota Yamanaka)
+  * Email: [Ryota Yamanaka](mailto:yamanaka AT genome DOT rcast.u-tokyo.ac.jp)
 * *Quotas:* 
   * Public Server:
     * See the [instructions](http://try.pitagora-galaxy.org/galaxy/) at Pitagora-Galaxy Server.

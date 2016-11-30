@@ -33,7 +33,7 @@ GAW 2014 will also include poster session, keynote speakers.
 
 **Call For Abstracts**
 
-Participants who wish to give presentations or present posters (potentially with technical demonstrations) that showcase use of Galaxy should submit a brief one-page abstract and brief one-paragraph bio to the [mailto:gaw2014 DASH org AT groups DOT galaxyproject DOT org](GAW2014 Organisers) **by February 15th, 2014.** Submitters will be notified by February 28th. Speakers, panelists, and poster presenters will be selected by the program committee based on relevance to symposium objectives and workshop balance. 
+Participants who wish to give presentations or present posters (potentially with technical demonstrations) that showcase use of Galaxy should submit a brief one-page abstract and brief one-paragraph bio to the [GAW2014 Organisers](mailto:gaw2014 DASH org AT groups DOT galaxyproject DOT org) **by February 15th, 2014.** Submitters will be notified by February 28th. Speakers, panelists, and poster presenters will be selected by the program committee based on relevance to symposium objectives and workshop balance. 
 
 Submissions should clearly state whether they are for: poster or oral presentation. 
 

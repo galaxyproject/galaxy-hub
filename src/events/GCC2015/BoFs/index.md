@@ -21,9 +21,9 @@ To plan a Birds of a Feather meetup:
 
 1. Submit Your BoF Description, either with [this form](http://bit.ly/gcc2015bofform) or directly in the wiki [using a template](/src/Events/GCC2015/BoFs/index.md#use-the-wiki) (requires login).
 1. Once the BoF wiki page exists
-  1. Notify [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).  Outreach will tweet it and highlight it in communication with attendees.
+  1. Notify [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).  Outreach will tweet it and highlight it in communication with attendees.
   1. Tweet it (use the hashtag #usegalaxy).
-  1. If you want, you can also [create a Galaxy News Item](/src/News/index.md#add-a-news-item) about the BoF (or again, send the text to [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+  1. If you want, you can also [create a Galaxy News Item](/src/News/index.md#add-a-news-item) about the BoF (or again, send the text to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 ### Submit Your BoF Description
 

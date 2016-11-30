@@ -20,7 +20,7 @@ title: [Biotrac Next Generation Sequencing Course Syllabus](http://www.biotrac.c
 
 This is the syllabus for a [popular NGS workshop](http://www.biotrac.com/pages/Tracs/Trac45.html) that heavily uses Galaxy as a teaching tool.  If there seems to be interest, we intend to add specific tutorials.  
 
-Contact: [mailto:ben DOT busby AT gmail DOT com](Ben Busby)
+Contact: [Ben Busby](mailto:ben DOT busby AT gmail DOT com)
 
 ## Syllabus for July, 2014 Next Generation Sequencing Course, Biotrac Program
 
@@ -78,6 +78,6 @@ We use very small *c elegans* datasets.  This allows us to host many students in
 
 ## Contact
 
-[mailto:ben DOT busby AT gmail DOT com](Ben Busby)
+[Ben Busby](mailto:ben DOT busby AT gmail DOT com)
 
 [CategoryTrainingResource](/src/CategoryTrainingResource/index.md)
