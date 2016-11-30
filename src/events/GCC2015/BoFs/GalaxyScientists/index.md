@@ -40,8 +40,8 @@ The [time and location](/src/Events/GCC2015/BoFs/index.md#bof-schedule) for this
 
 If you are interested, please add your name below.
 
-* [mailto:jen@galaxyproject.org](jen@galaxyproject.org), Jennifer Hillman-Jackson
-* [mailto:kreddy4@jhmi.edu](kreddy4@jhmi.edu), Karen Reddy
+* [jen@galaxyproject.org](mailto:jen@galaxyproject.org), Jennifer Hillman-Jackson
+* [kreddy4@jhmi.edu](mailto:kreddy4@jhmi.edu), Karen Reddy
 * Mo Heydarian
 * [Dan Blankenberg](/src/Dan/index.md)
 * Michael Sauria

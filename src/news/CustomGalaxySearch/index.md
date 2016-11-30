@@ -14,7 +14,7 @@ Galaxy now has several Google Custom Search engines that make it much easier to 
 | **[UseGalaxy Search](http://galaxyproject.org/search/usegalaxy)**<br />http://galaxyproject.org/search/usegalaxy |  Search for information about *using* Galaxy.  Searches Galaxy [Main](/src/Main/index.md) ([UseGalaxy.org](http://usegalaxy.org)), [this wiki](/src/Learn/index.md) (excluding the [Admin](/src/Admin/index.md) pages), and the [Galaxy-User and Galaxy-Announce mailing list archives](/src/Mailing Lists/index.md#searching).  | 
 | **[GetGalaxy Search](http://galaxyproject.org/search/getgalaxy)**<br />http://galaxyproject.org/search/getgalaxy |  Search for information about installing, customizing, and developing Galaxy.  Searches the Galaxy Bitbucket (source) site (now at GitHub), the [Tool Shed](http://toolshed.g2.bx.psu.edu), [this wiki](/src/Admin/index.md) (excluding the [Learn](/src/Learn/index.md) pages), and the [Galaxy-Dev and Galaxy-Announce mailing list archives](/src/Mailing Lists/index.md#searching).  | 
 
-We strongly encourage you to give these try.  Please feedback and suggestions to [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+We strongly encourage you to give these try.  Please feedback and suggestions to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 Thanks,
 

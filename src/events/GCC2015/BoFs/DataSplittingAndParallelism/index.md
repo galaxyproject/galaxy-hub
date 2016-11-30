@@ -36,7 +36,7 @@ We will meet on Tuesday, 7 July, at 12:30 (lunch) in the Watson Room, inside JIC
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [mailto:p.j.a.cock@googlemail.com](Peter Cock).
+If you are interested, please add your name below and/or send an email to [Peter Cock](mailto:p.j.a.cock@googlemail.com).
 
 * Peter Cock
 * John Chilton
@@ -74,6 +74,6 @@ Much like existing format conversion, where datatypes have split and merge metho
 
 ## Questions?
 
-Send them to [mailto:p.j.a.cock@googlemail.com](Peter Cock).
+Send them to [Peter Cock](mailto:p.j.a.cock@googlemail.com).
 
 [CategoryBo](/src/CategoryBo/index.md)F

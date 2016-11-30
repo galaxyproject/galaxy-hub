@@ -83,7 +83,7 @@ These servers join the [growing list of public Galaxy servers](/src/PublicGalaxy
 
 </div>
 
-There are several things to report in the *New Papers* arena.  First, the process we used to synchronise the Galaxy CiteULike group with it's Mendeley mirror broke, and has not been fixed yet. Mendeley dropped support for automatic synchronization with CiteULike at the end of February and so no updates have been pushed to Mendeley since then.  We are looking for processes that are not too labor / manual intervention intensive.  We are also reviewing our general use of CiteULike and Mendeley.  If you have any suggestions, please [mailto:outreach AT galaxyproject DOT org](send them to us).
+There are several things to report in the *New Papers* arena.  First, the process we used to synchronise the Galaxy CiteULike group with it's Mendeley mirror broke, and has not been fixed yet. Mendeley dropped support for automatic synchronization with CiteULike at the end of February and so no updates have been pushed to Mendeley since then.  We are looking for processes that are not too labor / manual intervention intensive.  We are also reviewing our general use of CiteULike and Mendeley.  If you have any suggestions, please [send them to us](mailto:outreach AT galaxyproject DOT org).
 
 Second several new tags were added, most of them attached to papers with the `methods` tag, and indicating (if the paper indicates) where the analysis was run.
 
@@ -303,7 +303,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 ### March 2013 Meetup
 
-Slides and the screencast from the [March GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md) are [now available](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md)  [mailto:hailiang DOT mei AT nbic DOT nl](Hailiang "Leon" Mei) spoke on *[NBIC Galaxy deployment](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).*  [NBIC Galaxy (Andromeda)](http://galaxy.nbic.nl/) was migrated to a HPC cloud hosted by Surfsara in September 2012. Leon discussed the setup of this HPC cloud and the architecture of NBIC Galaxy and shared their experiences installing the NBIC Galaxy using the Cloudman scripts. The presentation finished with a list of issues and our possible future plans. [Dan Blankenberg](/src/Dan/index.md) also discussed the new Galaxy release process, and the upcoming Data Manager enhancements.
+Slides and the screencast from the [March GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md) are [now available](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md)  [Hailiang "Leon" Mei](mailto:hailiang DOT mei AT nbic DOT nl) spoke on *[NBIC Galaxy deployment](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).*  [NBIC Galaxy (Andromeda)](http://galaxy.nbic.nl/) was migrated to a HPC cloud hosted by Surfsara in September 2012. Leon discussed the setup of this HPC cloud and the architecture of NBIC Galaxy and shared their experiences installing the NBIC Galaxy using the Cloudman scripts. The presentation finished with a list of issues and our possible future plans. [Dan Blankenberg](/src/Dan/index.md) also discussed the new Galaxy release process, and the upcoming Data Manager enhancements.
 
 
 ### GalaxyAdmins Future Directions

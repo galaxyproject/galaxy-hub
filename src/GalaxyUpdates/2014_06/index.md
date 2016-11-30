@@ -290,7 +290,7 @@ One new [public Galaxy servers](/src/PublicGalaxyServers/index.md) was added to 
 * *Comments:*
     deepTools offers multiple methods for highly-customizable data visualization that immensely aid hypothesis generation and data interpretation. It also offers all the tools needed to create coverage files in standard bedGraph and bigWig file formats allowing various normalization procedures and comparisons between two files (for example, treatment and control).
 * *User Support:*
-  * [mailto:deeptools@googlegroups.com](Email)
+  * [Email](mailto:deeptools@googlegroups.com)
   * [deepTools wiki](https://github.com/fidelram/deepTools/wiki)
 * *Quotas:* 
     20 GB for unregistered users, 30 GB for registered users

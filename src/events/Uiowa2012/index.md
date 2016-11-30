@@ -120,4 +120,4 @@ Please take a minute to give us [your feedback on the workshops](http://bit.ly/U
 
 ## Questions?
 
-Contact Galaxy Outreach [mailto:outreach@galaxyproject.org](outreach@galaxyproject.org).
+Contact Galaxy Outreach [outreach@galaxyproject.org](mailto:outreach@galaxyproject.org).

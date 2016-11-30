@@ -276,7 +276,7 @@ Several new servers were added to [the list of publicly accessible Galaxy server
 * *Comments:*
     Follow tutorials at [GVL Learn](https://genome.edu.au/wiki/Learn) and use [Galaxy Tut](http://galaxy-tut.genome.edu.au/)
 * *User Support:*
-    [mailto:help AT uq DOT edu DOT au](Email)
+    [Email](mailto:help AT uq DOT edu DOT au)
 * *Quotas:*
     50Gb 
 * *Sponsor(s):*
@@ -296,7 +296,7 @@ Several new servers were added to [the list of publicly accessible Galaxy server
     * [CGtag: Complete Genomics Analysis Toolkit and Annotation in Galaxy](http://galaxy.ctmm-trait.nl/u/saskia-hiltemann/p/cgtag)
     * [Virtual Normal Analysis](http://galaxy.ctmm-trait.nl/u/saskia-hiltemann/p/virtual-normal-analysis)
 * *User Support:*
-    Please email questions to [mailto:s DOT hiltemann AT erasmusmc DOT nl](Saskia Hiltemann) 
+    Please email questions to [Saskia Hiltemann](mailto:s DOT hiltemann AT erasmusmc DOT nl) 
 * *Quotas:* 
 * *Sponsor(s):*
     This Galaxy Server was set up by the [Netherlands Bioinformatics Center (NBIC)](http://www.nbic.nl/) and is maintained by [CTMM-TraIT](http://ctmm-trait.nl/), running at [SurfSARA](http://www.surfsara.nl/) high-performance cloud. 

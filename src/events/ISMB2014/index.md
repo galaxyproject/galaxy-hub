@@ -6,7 +6,7 @@
 
 </div>
 
-Galaxy has a significant presence at [ISMB 2014](http://www.iscb.org/ismb2014) and [BOSC 2014](http://www.open-bio.org/wiki/BOSC_2014). This page lists all known Galaxy related events and presentations. If you have something that isn't listed, please add it below (or send it to [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach)).
+Galaxy has a significant presence at [ISMB 2014](http://www.iscb.org/ismb2014) and [BOSC 2014](http://www.open-bio.org/wiki/BOSC_2014). This page lists all known Galaxy related events and presentations. If you have something that isn't listed, please add it below (or send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org)).
 
 ## BOSC 2014
 

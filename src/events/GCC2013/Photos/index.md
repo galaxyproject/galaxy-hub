@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
 
 PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
 
-If you have some you would like to have posted here, plase send them to [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).  To see a larger version of any picture, right click it.
+If you have some you would like to have posted here, plase send them to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).  To see a larger version of any picture, right click it.
 
 <div class='center'>
 <div class='left'><img src="/src/Events/GCC2013/Photos/Venue.jpg" alt="" width="300" /><br />Conference Venue</div>

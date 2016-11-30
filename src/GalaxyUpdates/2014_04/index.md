@@ -283,7 +283,7 @@ Three [public Galaxy servers](/src/PublicGalaxyServers/index.md) were added to t
 * *Comments:*
   * Includes a number of workflows, including workflow from "[A SWI/SNF-related autism syndrome caused by de novo mutations in ADNP](http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.2899.html)," by Helsmoortel, *et al.*, *[Nature Genetics](http://www.nature.com/ng/)* (2014) doi:10.1038/ng.2899
 * *User Support:*
-    [mailto:geert DOT vandeweyer AT uantwerpen DOT be](Email support)
+    [Email support](mailto:geert DOT vandeweyer AT uantwerpen DOT be)
 * *Quotas:* 
   * Registered users : 50Gb. Can be increased up to 3Tb in collaborative projects. 
   * There is NO backup of data inside this galaxy server. 
@@ -303,10 +303,10 @@ Three [public Galaxy servers](/src/PublicGalaxyServers/index.md) were added to t
 * *Comments:*
     This service provides a novel way of carrying out image analysis, reconstruction and processing tasks using cloud based service provided on the Australian [National eResearch Collaboration Tools and Resources (NeCTAR](http://www.nectar.org.au)) infrastructure. The toolbox allows access to a wide range of useful blocks of functionalities (imaging functions) that can be connected together in workflows allowing creation of even more complex algorithms that can be re-run on different data sets, shared with others or additionally adjusted. The functions given are in the area of cellular imaging, advanced X-ray image analysis, computed tomography and 3D medical imaging and visualisation. The service is currently available [on the website](http://www.cloudimaging.net.au).
 * *User Support:*
-  * [mailto:admin@cloudimaging.net.au](Email)
+  * [Email](mailto:admin@cloudimaging.net.au)
   * [Video tutorials](http://www.youtube.com/user/CloudImaging)
 * *Quotas:* 
-    A login is required to access the site. Logins are free and can be [mailto:admin@cloudimaging.net.au](requested via email)
+    A login is required to access the site. Logins are free and can be [requested via email](mailto:admin@cloudimaging.net.au)
 * *Sponsor(s):*
     [NeCTAR](http://www.nectar.org.au) and [CSIRO](http://www.csiro.au/)
 

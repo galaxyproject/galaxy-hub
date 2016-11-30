@@ -116,7 +116,7 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is n
 
 Several sponsorship levels are available, including two levels of premier sponsorships that include presentations.  Premium sponsorships are limited, however, so you are encouraged to act soon.
 
-Please let the GCC2015 Organising Committee ([mailto:gcc2015-org AT lists DOT galaxyproject DOT org](gcc2015-org AT lists DOT galaxyproject DOT org)) know if you are interested in helping make this event a success.
+Please let the GCC2015 Organising Committee ([gcc2015-org AT lists DOT galaxyproject DOT org](mailto:gcc2015-org AT lists DOT galaxyproject DOT org)) know if you are interested in helping make this event a success.
 
 
 ## Other Events

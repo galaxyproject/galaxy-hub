@@ -115,4 +115,4 @@ This workshop is part of the [May 2014 Galaxy UK Tour](/src/Events/UKMay2014/ind
 
 ## Questions?
 
-Contact [mailto:tgac DOT training AT tgac DOT ac DOT uk](TGAC Training) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [TGAC Training](mailto:tgac DOT training AT tgac DOT ac DOT uk) or [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).

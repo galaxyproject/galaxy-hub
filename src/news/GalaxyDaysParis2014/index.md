@@ -9,7 +9,7 @@ The goal is to present user experience around the portal, from a single user to 
 * Dec 2 (13:30-17:30): Galaxy's user experiences, and discussion on how the platform is (or is not) useful for building analysis.
 * Dec 3 (09:00-17:00): Technology talks (new environment, Galaxy in production, ...)
 
-You are strongly encouraged to submit an abstract before October 31 to [mailto:ifb DOT galaxy AT sb DASH roscoff DOT fr](ifb DOT galaxy AT sb DASH roscoff DOT fr). The abstract should be in English (although the event will be in French) and 10/20 lines long.  Please put "[Galaxy Day]" in the subject line.
+You are strongly encouraged to submit an abstract before October 31 to [ifb DOT galaxy AT sb DASH roscoff DOT fr](mailto:ifb DOT galaxy AT sb DASH roscoff DOT fr). The abstract should be in English (although the event will be in French) and 10/20 lines long.  Please put "[Galaxy Day]" in the subject line.
 
 The [French IFB Galaxy Working Group](http://www.ifb-galaxy.org/index.html):
 

@@ -26,7 +26,7 @@ The ideal candidate holds a PhD degree in computational biology and is experienc
 Contract Duration: Available in January 2014 for two and half years (starting date flexible)
 Salary: Depending on qualifications and experience, based on CNRS salary scale.
 
-Application: Send CV, cover letter and two references to [mailto:christophe DOT antoniewski AT upmc DOT fr](Christophe Antoniewski).  Shortlisted candidates will be invited for an interview.
+Application: Send CV, cover letter and two references to [Christophe Antoniewski](mailto:christophe DOT antoniewski AT upmc DOT fr).  Shortlisted candidates will be invited for an interview.
 
 [Lab publications](http://drosophile.org/?page_id=92)
  

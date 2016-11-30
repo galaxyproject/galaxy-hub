@@ -27,11 +27,11 @@ The [time and location](/src/Events/GCC2013/BoF/index.md#bof-schedule) for this 
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to the [mailto:galaxy-iuc AT lists DOT bx DOT psu DOT edu](Intergalactic Utilities Commission).
+If you are interested, please add your name below and/or send an email to the [Intergalactic Utilities Commission](mailto:galaxy-iuc AT lists DOT bx DOT psu DOT edu).
 
-* [mailto:iracooke AT gmail DOT com](Ira Cooke)
-* [mailto:bjoern.gruening AT pharmazie DOT uni-freiburg DOT de](Björn Grüning)
-* [mailto:jj AT umn DOT edu](JJ Johnson)
+* [Ira Cooke](mailto:iracooke AT gmail DOT com)
+* [Björn Grüning](mailto:bjoern.gruening AT pharmazie DOT uni-freiburg DOT de)
+* [JJ Johnson](mailto:jj AT umn DOT edu)
 * Peter Cock
 * [Greg Von Kuster](/src/greg_vonkuster/index.md)
 * [Dave Bouvier](/src/DaveBouvier/index.md)
@@ -39,7 +39,7 @@ If you are interested, please add your name below and/or send an email to the [m
 * [Christian Andreetta](http://www.computing.uni.no/staff?nickname=christiana)
 * Lionel Guy, Uppsala University
 * Christos Kannas, University of Cyprus
-* [mailto:Graham dot Etherington AT tsl DOT ac DOT uk](Graham Etherington)
+* [Graham Etherington](mailto:Graham dot Etherington AT tsl DOT ac DOT uk)
 * Nathan Cole, NCI/SAIC
 
 ## Other Tool and Tool Shed Content at GCC2013
@@ -55,7 +55,7 @@ If you are interested, please add your name below and/or send an email to the [m
 
 ## Questions?
 
-Send them to the [mailto:galaxy-iuc AT lists DOT bx DOT psu DOT edu](Intergalactic Utilities Commission).
+Send them to the [Intergalactic Utilities Commission](mailto:galaxy-iuc AT lists DOT bx DOT psu DOT edu).
 
 ## Notes, Suggestions, Desires from the BoF
 

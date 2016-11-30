@@ -17,8 +17,8 @@ This [IFB](http://www.renabi.fr/) [wiki page](http://wiki.sb-roscoff.fr/ifb/inde
 
 ## Authors
 
-* [mailto:sarah DOT maman AT toulouse DOT inra DOT fr](Sarah Maman)
-* [mailto:Ibouniyamine DOT abihoudine AT toulouse DOT inra DOT fr](Nabihoudine Ibou)
+* [Sarah Maman](mailto:sarah DOT maman AT toulouse DOT inra DOT fr)
+* [Nabihoudine Ibou](mailto:Ibouniyamine DOT abihoudine AT toulouse DOT inra DOT fr)
 
 ## Links
 

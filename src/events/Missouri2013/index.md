@@ -102,4 +102,4 @@ Please distribute to groups at the University of Missouri that might be interest
 
 ## Questions?
 
-Contact [mailto:BottomsC AT missouri DOT edu](Christopher Bottoms) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [Christopher Bottoms](mailto:BottomsC AT missouri DOT edu) or [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).

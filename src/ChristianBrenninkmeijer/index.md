@@ -4,4 +4,4 @@ I am a Research associate for the Department of Life Science at the University o
 
 My role will be to develop or wrap tools for Single Cell Data.
 
-Email: [mailto:christian.brenninkmeijer AT SPAMFREE manchester DOT ac DOT uk](christian.brenninkmeijer AT SPAMFREE manchester DOT ac DOT uk)
+Email: [christian.brenninkmeijer AT SPAMFREE manchester DOT ac DOT uk](mailto:christian.brenninkmeijer AT SPAMFREE manchester DOT ac DOT uk)

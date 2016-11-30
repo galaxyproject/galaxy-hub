@@ -11,7 +11,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
  Audience:: Research software engineers, analysts, developers, and the like.
  When:: Wednesday, 8 July, 18:00 
  Where:: Franklin Room, JICCC
- Contact:: [mailto:crusoe@ucdavis.edu](Michael R. Crusoe)
+ Contact:: [Michael R. Crusoe](mailto:crusoe@ucdavis.edu)
 </div>
 
 <div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
@@ -27,7 +27,7 @@ This page is for the **Common Workflow Language** [Birds of a Feather](/src/Even
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [mailto:crusoe@ucdavis.edu](Michael R. Crusoe).
+If you are interested, please add your name below and/or send an email to [Michael R. Crusoe](mailto:crusoe@ucdavis.edu).
 
 * Michael R. Crusoe
 * Bjoern Gruening
@@ -35,6 +35,6 @@ If you are interested, please add your name below and/or send an email to [mailt
 
 ## Questions?
 
-Send them to [mailto:crusoe@ucdavis.edu](Michael R. Crusoe).
+Send them to [Michael R. Crusoe](mailto:crusoe@ucdavis.edu).
 
 [CategoryBo](/src/CategoryBo/index.md)F

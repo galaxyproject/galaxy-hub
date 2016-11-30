@@ -34,7 +34,7 @@ Wednesday, 8th July, 18.00/6pm
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [mailto:christian.schudoma AT tsl DOT ac DOT uk](Christian Schudoma TSL).
+If you are interested, please add your name below and/or send an email to [Christian Schudoma TSL](mailto:christian.schudoma AT tsl DOT ac DOT uk).
 
 * Christian Schudoma
 * Nicola Soranzo
@@ -80,6 +80,6 @@ If you are interested, please add your name below and/or send an email to [mailt
 ## Call for Participation
 
 If you are interested in becoming active in [GCUK](http://galaxy-community.org.uk/) then please send an email to 
-[mailto:christian.schudoma AT tsl DOT ac DOT uk](Christian Schudoma TSL).
+[Christian Schudoma TSL](mailto:christian.schudoma AT tsl DOT ac DOT uk).
 
 [CategoryBo](/src/CategoryBo/index.md)F

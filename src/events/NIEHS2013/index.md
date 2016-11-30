@@ -109,4 +109,4 @@ This workshop is also part of the [NIEHS](http://niehs.nih.gov/) *2013 Introduct
 
 ## Questions?
 
-Contact [mailto:thomas DOT randall AT nih DOT gov](Thomas Randall) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [Thomas Randall](mailto:thomas DOT randall AT nih DOT gov) or [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).

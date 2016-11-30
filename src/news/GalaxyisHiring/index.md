@@ -14,7 +14,7 @@ The [Nekrutenko Lab](http://www.bx.psu.edu/~anton/) at the [Huck Institutes of L
 * Relational databases and query optimization
 * User management
 
-A minimum of 5 year experience with UNIX/Linux system administration is required. Applicants should submit a CV and list of references to [mailto:gxyhiring AT galaxyproject DOT org](gxyhiring AT galaxyproject DOT org). 
+A minimum of 5 year experience with UNIX/Linux system administration is required. Applicants should submit a CV and list of references to [gxyhiring AT galaxyproject DOT org](mailto:gxyhiring AT galaxyproject DOT org). 
 
 
 <div class='right'><a href='http://bx.mathcs.emory.edu/joining/'><img src="/src/Images/Logos/EmoryLogo.jpg" alt="Openings at Emory" width="200" /></a></div>

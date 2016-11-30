@@ -125,4 +125,4 @@ Tuesday, October 9 at Noon, 612 Institute for Genomic Biology (lower level)
 
 ## Questions?
 
-Contact Galaxy Outreach @ [mailto:outreach@galaxyproject.org](outreach@galaxyproject.org).
+Contact Galaxy Outreach @ [outreach@galaxyproject.org](mailto:outreach@galaxyproject.org).

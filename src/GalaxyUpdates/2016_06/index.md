@@ -17,7 +17,7 @@ title: June 2016 Galaxy News
 
 Welcome to the June 2016 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. 
 
-If you have anything to include in the next News, please send it to [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
 
 
 # GCC2016
@@ -81,7 +81,7 @@ Topics should be of interest to those working in high-throughput data analysis a
 
 ## Sponsors
 
-We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the [mailto:gcc2016-exec@lists.galaxyproject.org](GCC2016 Exec) for more information.
+We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the [GCC2016 Exec](mailto:gcc2016-exec@lists.galaxyproject.org) for more information.
 
 ### Bloomington Life Sciences Partnership
 
@@ -429,7 +429,7 @@ One new training organization joined the [Galaxy Training Network](/src/Teach/GT
 
 Ever wanted commercial support for your Galaxy needs?  There is now a [Commercial Galaxy Support directory](/src/Support/Commercial/index.md) you can consult if you are looking to find service providers and consultants.  The initial list includes consultants, server providers, cloud providers, and commercial trainers.
 
-Want to add your company to that list?  Send an email to [mailto:outreach AT galaxyproject.org](outreach AT galaxyproject.org).
+Want to add your company to that list?  Send an email to [outreach AT galaxyproject.org](mailto:outreach AT galaxyproject.org).
 
 ----
 

@@ -120,4 +120,4 @@ Please distribute to groups in Washington University that might be interested. Y
 
 ## Questions?
 
-Contact [mailto:holmeskr AT wusm DOT wustl DOT edu](Kristi Holmes) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [Kristi Holmes](mailto:holmeskr AT wusm DOT wustl DOT edu) or [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).

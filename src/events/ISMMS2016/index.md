@@ -99,4 +99,4 @@ We [need it](http://bit.ly/ISMMS16)!
 
 ## Questions?
 
-Contact [Andrew Sharp](http://www.mountsinai.org/profiles/andrew-j-null-sharp),[Stuart Scott](http://www.mountsinai.org/profiles/stuart-scott), or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [Andrew Sharp](http://www.mountsinai.org/profiles/andrew-j-null-sharp),[Stuart Scott](http://www.mountsinai.org/profiles/stuart-scott), or [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).

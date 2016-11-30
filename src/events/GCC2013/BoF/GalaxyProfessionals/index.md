@@ -48,7 +48,7 @@ The [time and location](/src/Events/GCC2013/BoF/index.md#bof-schedule) for this 
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [mailto:ross DOT lazarus AT gmail DOT com](Ross Lazarus).
+If you are interested, please add your name below and/or send an email to [Ross Lazarus](mailto:ross DOT lazarus AT gmail DOT com).
 
 * [Ross Lazarus](/src/RossLazarus/index.md)
 * Mo Heydarian
@@ -58,4 +58,4 @@ If you are interested, please add your name below and/or send an email to [mailt
 
 ## Questions?
 
-Send them to [mailto:ross DOT lazarus AT gmail DOT com](Ross Lazarus).
+Send them to [Ross Lazarus](mailto:ross DOT lazarus AT gmail DOT com).

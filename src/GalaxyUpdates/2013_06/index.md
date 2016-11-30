@@ -296,7 +296,7 @@ Your access to the Service is provided under the condition that you abide by any
 <br />
 In the past we have dealt with multiple accounts on an ad-hoc basis.  In May 2013, an automated system was put into place to detect, disable, and eventually delete duplicate accounts.  If the automated system determines that an account is a duplicate, the account will be disabled and the account owner will receive an email asking if this is the account they wish to keep, and if so, to follow the directions in the email.
 
-If your account is suspended and you believe that you are not in violation of Main's terms of use, then please contact [mailto:terms_and_conditions AT galaxyproject DOT org](terms_and_conditions AT galaxyproject DOT org).
+If your account is suspended and you believe that you are not in violation of Main's terms of use, then please contact [terms_and_conditions AT galaxyproject DOT org](mailto:terms_and_conditions AT galaxyproject DOT org).
 
 ## Galaxy Distributions
 

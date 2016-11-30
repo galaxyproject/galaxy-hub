@@ -7,6 +7,6 @@
 
 Sanjay will be speaking about [EMC Isilon](http://emc.com) at [GCC2013](/src/Events/GCC2013/index.md).
 
-**Email: ** [mailto:sanjay DOT joshi AT isilon DOT com](sanjay DOT joshi AT isilon DOT com)
+**Email: ** [sanjay DOT joshi AT isilon DOT com](mailto:sanjay DOT joshi AT isilon DOT com)
 ----
 [CategoryHomepage](/src/CategoryHomepage/index.md)

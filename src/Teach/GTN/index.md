@@ -46,7 +46,7 @@ Want to know what training events are scheduled in the coming months?  Or publis
 
 ## Interested?
 
-If you are interested in being a part of this effort, you can [register as a Galaxy Trainer](/src/Teach/Trainers/index.md), [add your resources to the Training Resources Directory](/src/Teach/Resources/index.md), and [contribute to best practices](/src/Teach/BestPractices/index.md) for teaching with Galaxy.  Still have questions? Please contact [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+If you are interested in being a part of this effort, you can [register as a Galaxy Trainer](/src/Teach/Trainers/index.md), [add your resources to the Training Resources Directory](/src/Teach/Resources/index.md), and [contribute to best practices](/src/Teach/BestPractices/index.md) for teaching with Galaxy.  Still have questions? Please contact [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 
 ## GTN News

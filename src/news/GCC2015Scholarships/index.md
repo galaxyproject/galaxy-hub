@@ -10,7 +10,7 @@ These scholarships [cover registration costs](http://gcc2015.tsl.ac.uk/registrat
 To apply for a scholarship qualifying applicants need to
 
 1. [Submit a poster abstract](http://bit.ly/gcc2015sub).  **The deadline is May 1**
-1. Have a faculty member / PI send a letter of recommendation to the [mailto:community-fund@lists.galaxyproject.org](Galaxy Community Fund Board) no later than May 15.
+1. Have a faculty member / PI send a letter of recommendation to the [Galaxy Community Fund Board](mailto:community-fund@lists.galaxyproject.org) no later than May 15.
 1. Submit an [application form](http://bit.ly/gcc2015scholarship), no later than May 1.
 1. Have sufficient funds to cover your travel and other expenses.
 
@@ -20,7 +20,7 @@ Scholarships are funded by the *Galaxy Community Fund*.  The Galaxy Community Fu
 
 Please do let us know if you have any questions, and we hope to see you at [GCC2015](http://gcc2015.tsl.ac.uk/)!
 
-[mailto:community-fund@lists.galaxyproject.org](Galaxy Community Fund Board)
+[Galaxy Community Fund Board](mailto:community-fund@lists.galaxyproject.org)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-04-21</div>
 

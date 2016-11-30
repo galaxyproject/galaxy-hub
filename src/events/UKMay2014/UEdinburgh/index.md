@@ -93,4 +93,4 @@ Please [provide your feedback](http://bit.ly/gxyedifeedback).
 
 ## Questions?
 
-Contact [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).

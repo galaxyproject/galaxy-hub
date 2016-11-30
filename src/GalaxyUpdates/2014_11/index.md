@@ -46,7 +46,7 @@ The [French Working Group GALAXY-IFB (Institut Français de Bioinformatique)](ht
 * Dec 2 (13:30-17:30): Galaxy's user experiences, and discussion on how the platform is (or is not) useful for building analysis.
 * Dec 3 (09:00-17:00): Technology talks (new environment, Galaxy in production, ...)
 
-Interested? Please contact [mailto:ifb DOT galaxy AT sb DASH roscoff DOT fr](ifb DOT galaxy AT sb DASH roscoff DOT fr) for more information.
+Interested? Please contact [ifb DOT galaxy AT sb DASH roscoff DOT fr](mailto:ifb DOT galaxy AT sb DASH roscoff DOT fr) for more information.
 
 The [French IFB Galaxy Working Group](http://www.ifb-galaxy.org/index.html):
 
@@ -310,7 +310,7 @@ Two new [public Galaxy servers](/src/PublicGalaxyServers/index.md) were added to
 
 <div class='right solid'><a href='http://genomequebec.mcgill.ca/exomeai'><img src="/src/PublicGalaxyServers/McGillGQIC.png" alt="Majewski Lab: ExomeAI" width="250px" /></a></div>
 
-The [Majewski Lab ExomeAI Server](http://genomequebec.mcgill.ca/exomeai) supports detection of recurrent allelic imbalance in tumors using whole exome sequencing data, using ExomeAI, a free web-based application for detection of recurrent AI/LOH segments in tumor samples. Support is provided in the [ExomeAI Manual](http://bioinformatics.oxfordjournals.org/content/suppl/2014/10/07/btu665.DC1/suppl_data.zip), and via [mailto:Javad DOT Nadaf AT gmail DOT com](email).  See Nadaf J, Majewski J, Fahiminiya S. (2014). [ExomeAI: Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing data](http://www.ncbi.nlm.nih.gov/pubmed/25297069). *Bioinformatics*. 2014 Oct 8.
+The [Majewski Lab ExomeAI Server](http://genomequebec.mcgill.ca/exomeai) supports detection of recurrent allelic imbalance in tumors using whole exome sequencing data, using ExomeAI, a free web-based application for detection of recurrent AI/LOH segments in tumor samples. Support is provided in the [ExomeAI Manual](http://bioinformatics.oxfordjournals.org/content/suppl/2014/10/07/btu665.DC1/suppl_data.zip), and via [email](mailto:Javad DOT Nadaf AT gmail DOT com).  See Nadaf J, Majewski J, Fahiminiya S. (2014). [ExomeAI: Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing data](http://www.ncbi.nlm.nih.gov/pubmed/25297069). *Bioinformatics*. 2014 Oct 8.
 
 The [Majewski Lab ExomeAI Server](http://genomequebec.mcgill.ca/exomeai) is supported by the [McGill University and Génome Québec Innovation Centre](http://gqinnovationcenter.com/index.aspx)
 

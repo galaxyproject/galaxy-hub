@@ -15,7 +15,7 @@ title: The September 2015 Galactic News!
 
 <div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the September 2015 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the September News, please send it to [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach). 
+Welcome to the September 2015 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the September News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
 
 # New Papers
 
@@ -324,7 +324,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
   * See: Giacomoni F., Le Corguillé G., Monsoor M., Landi M., Pericard P., Pétéra M., Duperier C., Tremblay-Franco M., Martin J.-F., Jacob D., Goulitquer S., Thévenot E.A. and Caron C. (2014). [Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics](http://dx.doi.org/10.1093/bioinformatics/btu813). *Bioinformatics*, [doi: 10.1093/bioinformatics/btu813](http://dx.doi.org/10.1093/bioinformatics/btu813)
 * *User Support:*
   * [HowTo Tutorials](http://workflow4metabolomics.org/howto) 
-  * [mailto:support AT workflow4metabolomics DOT org](Help Desk)
+  * [Help Desk](mailto:support AT workflow4metabolomics DOT org)
 * *Quotas:* 
   * Account required. Anyone can [request an account](http://abims.sb-roscoff.fr/account).
 * *Sponsor(s):*

@@ -10,7 +10,7 @@ We will be kicking things off with a discussion on Galaxy and how researchers ar
 
 Please [RSVP](http://bit.ly/1Bz3Nrk) as space is limited.
 
-We are hoping this will be the first of many meetups, both in the Baltimore area, and elsewhere.  If you are interested in hosting a meetup in your area, please contact [mailto:outreach@galaxyproject.org](Galaxy Outreach) and we will help you get the word out.
+We are hoping this will be the first of many meetups, both in the Baltimore area, and elsewhere.  If you are interested in hosting a meetup in your area, please contact [Galaxy Outreach](mailto:outreach@galaxyproject.org) and we will help you get the word out.
 
 Thanks,
 

@@ -17,7 +17,7 @@ title: It's a new year in the Galaxy!
 
 Welcome to the January 2016 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. 
 
-If you have anything to include in the next News, please send it to [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
 
 # New Papers
 
@@ -124,7 +124,7 @@ Thanks also go to **the [Indiana University Pervasive Technology Institute (PTI)
 
 ### Seeking Sponsors
 
-We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the [mailto:gcc2016-exec@lists.galaxyproject.org](GCC2016 Exec) for more information.
+We continue to seek other sponsors as well and [offer a wide range of sponsorship plans](https://gcc2016.iu.edu/sponsors/index.php). If your organization is interested in having a presence at GCC2016, please contact the [GCC2016 Exec](mailto:gcc2016-exec@lists.galaxyproject.org) for more information.
 
 ### Registration will open this month
 
@@ -303,7 +303,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
    *
 * *Quotas:* 
-  * "This Galaxy instance may be used without registration, but guests' histories are deleted nightly. To request an account, please [mailto:a.stubbs@erasmusmc.nl](contact) the Bioinformatics department."
+  * "This Galaxy instance may be used without registration, but guests' histories are deleted nightly. To request an account, please [contact](mailto:a.stubbs@erasmusmc.nl) the Bioinformatics department."
 * *Sponsor(s):*
   * [Erasmus Medical Center department of Bioinformatics](http://bioinformatics.erasmusmc.nl/)
 

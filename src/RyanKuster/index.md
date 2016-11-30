@@ -1,6 +1,6 @@
 # RyanKuster
 
-Email: [mailto:ryan.kuster AT SPAMFREE gmail DOT com](ryan.kuster AT SPAMFREE gmail DOT com)
+Email: [ryan.kuster AT SPAMFREE gmail DOT com](mailto:ryan.kuster AT SPAMFREE gmail DOT com)
 
 Hello!
 

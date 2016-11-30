@@ -30,7 +30,7 @@ What do we need to host GCC, you ask?  In approximately decreasing order of impo
 * Nearby, affordable housing, or easy walking distance or easy public transport from lodging options to conference facilities
 * Close proximity to a pub and other social hubs.
 
-Hosts get copious (and enthusiastic) organizational support from Galaxy's Outreach Team (who have been helping to organize GCC since 2011), and even more copious gratitude (even *adulation!)* from the Galaxy Community.  If you are interested in possibly hosting GCC2016 next summer then please contact [mailto:outreach@galaxyproject.org](Galaxy Outreach).  Our goal is to announce the site at this year's conference in July.
+Hosts get copious (and enthusiastic) organizational support from Galaxy's Outreach Team (who have been helping to organize GCC since 2011), and even more copious gratitude (even *adulation!)* from the Galaxy Community.  If you are interested in possibly hosting GCC2016 next summer then please contact [Galaxy Outreach](mailto:outreach@galaxyproject.org).  Our goal is to announce the site at this year's conference in July.
 
 Hoping to work with you in 2016!
 

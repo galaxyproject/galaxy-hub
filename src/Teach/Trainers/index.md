@@ -74,7 +74,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 * *Links & Contact*
   * [FMI Bioinfomatics platform](http://www.fmi.ch/bioinformatics)   
   * [FMI Functional Genomics platform](http://www.fmi.ch/functional.genomics)
-  * Email contact: [mailto:hrh AT fmi DOT ch](Hans-Rudolf Hotz)
+  * Email contact: [Hans-Rudolf Hotz](mailto:hrh AT fmi DOT ch)
 
 ### Freiburger Galaxy Project
 
@@ -98,7 +98,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 * *Links & Contact*
   * [Bjoern Gruening](/src/BjoernGruening/index.md)
-  * [mailto:galaxy AT informatik DOT uni-freiburg DOT org](galaxy AT informatik DOT uni-freiburg DOT org) 
+  * [galaxy AT informatik DOT uni-freiburg DOT org](mailto:galaxy AT informatik DOT uni-freiburg DOT org) 
 
 ### Galaxy Project
 
@@ -123,7 +123,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 * *Links & Contact*
   * [Galaxy Team](/src/GalaxyTeam/index.md)
-  * [Galaxy Outreach](/src/Outreach/index.md), [mailto:outreach AT galaxyproject DOT org](outreach AT galaxyproject DOT org) 
+  * [Galaxy Outreach](/src/Outreach/index.md), [outreach AT galaxyproject DOT org](mailto:outreach AT galaxyproject DOT org) 
 
 ### GalaxyP Project
 
@@ -141,8 +141,8 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 * *Links & Contact*
   * [usegalaxyp.org](http://usegalaxyp.org/) - the project's public web server
   * [Webinar on using ProteinPilot for database search](http://z.umn.edu/ppingp) within Galaxy-P.
-  * [mailto:pjagtap AT umn DOT edu](Pratik Jagtap)
-  * [mailto:tgriffin  AT umn DOT edu](Timothy Griffin, PI)
+  * [Pratik Jagtap](mailto:pjagtap AT umn DOT edu)
+  * [Timothy Griffin, PI](mailto:tgriffin  AT umn DOT edu)
 
 ### Geneclat Technologies
 
@@ -225,7 +225,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 * *Links & Contact*
   * [Contact information](http://noorbiotech.com/index.php/contact-us/)
-  * [mailto:info@noorbiotech.com](Email)
+  * [Email](mailto:info@noorbiotech.com)
 
 ### OpenHelix
 
@@ -264,7 +264,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 * *Links & Contact*
   * [QFAB Bioinformatics website](http://qfab.org)
   * [Bio page for Mark Crowe](http://www.qfab.org/mark-crowe/), QFAB's Training Manager and Galaxy specialist
-  * E-mail contact [mailto:training AT qfab DOT org](training AT qfab DOT org)
+  * E-mail contact [training AT qfab DOT org](mailto:training AT qfab DOT org)
 
 ### Stingray@Galaxy
 
@@ -286,7 +286,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
   * [Analysis and annotation course (2014)](http://systemsbiology.biowebdb.org/?p=1546)
   * [NGS data manipulation course (2014)](http://systemsbiology.biowebdb.org/?p=1449) 
   * [Stingray@Galaxy](http://galaxy.biowebdb.org)
-  * Contacts: [mailto:jardim AT ioc DOT fiocruz DOT br](Rodrigo Jardim), [mailto:davila AT fiocruz DOT br](Alberto Dávila) 
+  * Contacts: [Rodrigo Jardim](mailto:jardim AT ioc DOT fiocruz DOT br), [Alberto Dávila](mailto:davila AT fiocruz DOT br) 
 
 ### University of Bradford, School of Medical Sciences, Krzysztof Poterlowicz
 
@@ -338,7 +338,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
   * [VLSCI Website](http://vlsci.org.au)
   * [GVL Tutorials](http://genome.edu.au/wiki/Learn)
   * [Bio page for Andrew Lonie](http://vlsci.org.au/researcher/alonie), Head, VLSCI's Life Sciences Computation Centre
-  * Email [mailto:alonie @ unimelb DOT edu DOT au](Andrew Lonie) for further enquiries or to invite LSCC staff to present at your conference, workplace.
+  * Email [Andrew Lonie](mailto:alonie @ unimelb DOT edu DOT au) for further enquiries or to invite LSCC staff to present at your conference, workplace.
 
 ## Continental
 
@@ -367,7 +367,7 @@ Trainers that are potentially willing to travel, roughly within their home conti
 * *Links & Contact*
   * [CRS4 Bioinformatics main website](http://www.bioinformatica.crs4.it/)
   * [CRS4 Bioinformatics Training Program site](http://www.bioinformatica.crs4.it/training/)
-  * Contact: [mailto:ngs-courses AT crs4 DOT it](Giorgio Fotia)
+  * Contact: [Giorgio Fotia](mailto:ngs-courses AT crs4 DOT it)
 
 ### EMBL-ABR
 
@@ -392,7 +392,7 @@ Trainers that are potentially willing to travel, roughly within their home conti
   * [EMBL-ABRF Training Programme](https://www.embl-abr.org.au/training/)
   * [EMBL-ABR home](https://www.embl-abr.org.au/)
   * [About us](https://www.embl-abr.org.au/about/)
-  * Contact: [mailto:mv DOT schneider AT unimelb.edu.au](Vicky Schneider)
+  * Contact: [Vicky Schneider](mailto:mv DOT schneider AT unimelb.edu.au)
 
 ### GenoToul bioinformatics platform, Sigenae, NED (GenPhySE) and TWB
 
@@ -438,7 +438,7 @@ Trainers that are potentially willing to travel, roughly within their home conti
 
 * *Links & Contact*
   * [Alberta Children's Hospital Research Institute](http://research4kids.ucalgary.ca/)
-  * Contact: [mailto:gordonp AT ucalgary DOT ca](Paul Gordon)
+  * Contact: [Paul Gordon](mailto:gordonp AT ucalgary DOT ca)
 
 ### Bioinformatics.ca
 
@@ -478,8 +478,8 @@ Trainers that are potentially willing to travel, roughly within their home conti
 
 * *Links & Contact*
   * galaxy.prabi.fr and toolshed.prabi.fr soon available in production
-  * galaxy@prabi user list [mailto:galaxy-user AT listes DOT univ-lyon1 DOT fr](galaxy-user AT listes DOT univ-lyon1 DOT fr) (in french)
-  * galaxy@prabi support [mailto:galaxy-support AT listes DOT univ-lyon1 DOT fr](galaxy-support AT listes DOT univ-lyon1 DOT fr) 
+  * galaxy@prabi user list [galaxy-user AT listes DOT univ-lyon1 DOT fr](mailto:galaxy-user AT listes DOT univ-lyon1 DOT fr) (in french)
+  * galaxy@prabi support [galaxy-support AT listes DOT univ-lyon1 DOT fr](mailto:galaxy-support AT listes DOT univ-lyon1 DOT fr) 
 
 ### Galaxy User Group Grand Ouest (GUGGO)
 
@@ -487,12 +487,12 @@ Trainers that are potentially willing to travel, roughly within their home conti
  
 * *Description:*
   * [GUGGO](https://www.e-biogenouest.org/groups/guggo) is a working group gathering 6 Western France Life Sciences Computation Centre. From West to East: 
-    * [Cellule Bioinformatique-Ifremer](http://wwz.ifremer.fr/pcim) Ifremer/U.B.O./CNRS/ (Brest/Plouzane, contact: [mailto:bioinfo-contact AT ifremer DOT fr](Laure Quintric))
-    * [ABiMS IFB core facility](http://abims.sb-roscoff.fr/training) UPMC/CNRS (Roscoff, contact: [mailto:christophe DOT caron AT fr](Christophe Caron))
-    * [GenOuest IFB core facility](http://www.genouest.org/) Rennes1 University/CNRS/INRIA (Rennes, contact: [mailto:yvan.le_bras AT irisa DOT fr](Yvan Le Bras))
-    * [BIPAA](http://www6.inra.fr/bipaa) INRA (Rennes, contact: [mailto:anthony DOT bretaudeau AT irisa DOT fr](Anthony Bretaudeau))
-    * [BIRD IFB core facility](http://www.pf-bird.univ-nantes.fr/) Nantes University/INSERM (Nantes, contact: [mailto:audrey DOT bihouee AT univ-nantes DOT fr](Audrey Bihouée))
-    * [IRHS BioInformatics team](https://www6.angers-nantes.inra.fr/irhs/Recherche/BioInfo) Angers University/Agrocampus Ouest/INRA (Angers, [mailto:jean-pierre DOT renou AT angers DOT inra DOT fr](Jean-Pierre Renou)).  
+    * [Cellule Bioinformatique-Ifremer](http://wwz.ifremer.fr/pcim) Ifremer/U.B.O./CNRS/ (Brest/Plouzane, contact: [Laure Quintric](mailto:bioinfo-contact AT ifremer DOT fr))
+    * [ABiMS IFB core facility](http://abims.sb-roscoff.fr/training) UPMC/CNRS (Roscoff, contact: [Christophe Caron](mailto:christophe DOT caron AT fr))
+    * [GenOuest IFB core facility](http://www.genouest.org/) Rennes1 University/CNRS/INRIA (Rennes, contact: [Yvan Le Bras](mailto:yvan.le_bras AT irisa DOT fr))
+    * [BIPAA](http://www6.inra.fr/bipaa) INRA (Rennes, contact: [Anthony Bretaudeau](mailto:anthony DOT bretaudeau AT irisa DOT fr))
+    * [BIRD IFB core facility](http://www.pf-bird.univ-nantes.fr/) Nantes University/INSERM (Nantes, contact: [Audrey Bihouée](mailto:audrey DOT bihouee AT univ-nantes DOT fr))
+    * [IRHS BioInformatics team](https://www6.angers-nantes.inra.fr/irhs/Recherche/BioInfo) Angers University/Agrocampus Ouest/INRA (Angers, [Jean-Pierre Renou](mailto:jean-pierre DOT renou AT angers DOT inra DOT fr)).  
 * *Domains:*
   * Life science
     * General usage
@@ -509,7 +509,7 @@ Trainers that are potentially willing to travel, roughly within their home conti
 * *Links & Contact*
   * [GUGGO Website](https://www.e-biogenouest.org/groups/guggo)
   * [Training sessions](https://www.e-biogenouest.org/einfrastructure/education)
-  * Email [mailto:yvan.le_bras AT irisa DOT fr](Yvan Le Bras) for further informations.
+  * Email [Yvan Le Bras](mailto:yvan.le_bras AT irisa DOT fr) for further informations.
 
 ### LUMC, ErasmusMC, DTL Learning Programme
 
@@ -535,7 +535,7 @@ Trainers that are potentially willing to travel, roughly within their home conti
 
 * *Links & Contact*
   * [DTL Learning Programme](http://www.dtls.nl/about/programmes/dtl-learning/)
-  * Contacts: [mailto:h DOT mei AT lumc DOT nl](Leon Mei), [mailto:a DOT stubbs AT erasmusmc DOT nl](Andrew Stubbs) 
+  * Contacts: [Leon Mei](mailto:h DOT mei AT lumc DOT nl), [Andrew Stubbs](mailto:a DOT stubbs AT erasmusmc DOT nl) 
 
 ### Ruđer Bošković Institute (RBI)
 
@@ -601,7 +601,7 @@ These trainers don't travel, but their workshops are open to researchers outside
 
 * *Links & Contact*
   * [EI Scientific Training](http://earlham.ac.uk/scientific-training)
-  * E-mail contact [mailto:training AT earlham DOT ac DOT uk](training AT earlham DOT ac DOT uk)
+  * E-mail contact [training AT earlham DOT ac DOT uk](mailto:training AT earlham DOT ac DOT uk)
 
 ### Peter Mac
 
@@ -618,7 +618,7 @@ These trainers don't travel, but their workshops are open to researchers outside
 
 * *Links & Contact*
   * [Peter Mac](https://www.petermac.org/)
-  * E-mail contact [mailto:Maria DOT Doyle AT petermac DOT org](Maria Doyle)
+  * E-mail contact [Maria Doyle](mailto:Maria DOT Doyle AT petermac DOT org)
 
 ### Texas A&M University/Center for Phage Technology
 
@@ -639,7 +639,7 @@ These trainers don't travel, but their workshops are open to researchers outside
   * [TAMU Galaxy](http://galaxy.tamu.edu)
   * [CPT Public Galaxy](http://cpt.tamu.edu/galaxy-public/)
   * [Eric Rasche](/src/EricRasche/index.md) (CPT Staff)
-  * [mailto:esr@tamu.edu](esr@tamu.edu) 
+  * [esr@tamu.edu](mailto:esr@tamu.edu) 
 
 ### UC Davis Genome Center's Bioinformatics Core Facility
 
@@ -669,7 +669,7 @@ These trainers don't travel, but their workshops are open to researchers outside
   * [Bioinformatics Training Program site](http://training.bioinformatics.ucdavis.edu/)
   * [UCD Genome Center Training site](http://training.genomecenter.ucdavis.edu/) 
   * [UC Davis Bioinformatics Training Program FAQ](https://training.bioinformatics.ucdavis.edu/faq/)
-  * Contact us [mailto:bioinformatics DOT core AT ucdavis DOT edu](via email)
+  * Contact us [via email](mailto:bioinformatics DOT core AT ucdavis DOT edu)
 
 ### University of Cambridge Bioinformatics Training Facility
 
@@ -690,7 +690,7 @@ These trainers don't travel, but their workshops are open to researchers outside
 
 * *Links & Contact*
   * [Bioinformatics training at the University of Cambridge](http://training.csx.cam.ac.uk/bioinformatics/event-timetable)
-  * Bioinformatics training manager: [mailto:gr231 AT cam DOT ac DOT uk](Gabriella Rustici) 
+  * Bioinformatics training manager: [Gabriella Rustici](mailto:gr231 AT cam DOT ac DOT uk) 
 
 ### University of Minnesota Minnesota Supercomputing Institute Research Informatics Solutions
 
@@ -709,7 +709,7 @@ These trainers don't travel, but their workshops are open to researchers outside
 
 * *Links & Contact*
   * Access [all MSI tutorials](https://msi.umn.edu/tutorials)
-  * Contact [mailto:ljmills AT umn DOT edu](Lauren Mills) for more info.
+  * Contact [Lauren Mills](mailto:ljmills AT umn DOT edu) for more info.
 
 ## Institution
 
@@ -741,7 +741,7 @@ Trainers that can only teach to researchers that are affiliated with their insti
 
 * *Links & Contact*
   * [HSPH Bioinformatics Core (HBC)](https://hsphbio.ghost.io/)
-  * [mailto:rkhetani AT hsph DOT harvard DOT edu](Radhika Khetani)
+  * [Radhika Khetani](mailto:rkhetani AT hsph DOT harvard DOT edu)
 
 # Add a Trainer
 

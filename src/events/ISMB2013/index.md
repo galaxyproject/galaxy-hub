@@ -7,7 +7,7 @@
 
 </div>
 
-Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb2013), [BOSC 2013](http://www.open-bio.org/wiki/BOSC_2013), and [MS SIG 2013](http://igenomed2.stanford.edu/Proteomics2013_mssig/). This page lists all known Galaxy related events and presentations. If you have something that isn't listed, please add it below (or send it to [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach)).
+Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb2013), [BOSC 2013](http://www.open-bio.org/wiki/BOSC_2013), and [MS SIG 2013](http://igenomed2.stanford.edu/Proteomics2013_mssig/). This page lists all known Galaxy related events and presentations. If you have something that isn't listed, please add it below (or send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org)).
 
 <table>
   <tr class="th" >

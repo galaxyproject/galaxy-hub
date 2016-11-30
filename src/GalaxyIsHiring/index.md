@@ -22,7 +22,7 @@ Positions are available at:
 * [Penn State University](http://psu.edu/), State College, PA (in the lab of [PI Anton Nekrutenko](http://bmb.psu.edu/directory/aun1))
 * [George Washington University](http://gwu.edu/), Washington, D.C. (in the lab of [PI Jeremy Goecks](http://jeremygoecks.com))
 
-Interested?  We'd love to hear from you.  Please send your CV, a cover letter, and the names/e-mail addresses of three references to [mailto:gxyhiring AT galaxyproject DOT org](gxyhiring AT galaxyproject DOT org).  The Galaxy Project is committed to recruiting, supporting and fostering a diverse community. Johns Hopkins University, Penn State University and George Washington University are Equal Opportunity employers.
+Interested?  We'd love to hear from you.  Please send your CV, a cover letter, and the names/e-mail addresses of three references to [gxyhiring AT galaxyproject DOT org](mailto:gxyhiring AT galaxyproject DOT org).  The Galaxy Project is committed to recruiting, supporting and fostering a diverse community. Johns Hopkins University, Penn State University and George Washington University are Equal Opportunity employers.
 
 ## Software Engineers
 

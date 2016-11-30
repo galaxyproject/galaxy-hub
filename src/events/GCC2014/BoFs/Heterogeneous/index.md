@@ -11,7 +11,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
  Audience:: 
  When:: Tuesday, July 1, 5:45pm 
  Where:: Salon A
- Contact:: [mailto:blood AT psc DOT edu](Philip Blood), [John Chilton](/src/JohnChilton/index.md), [Nate Coraor](/src/nate/index.md), Carrie Ganote
+ Contact:: [Philip Blood](mailto:blood AT psc DOT edu), [John Chilton](/src/JohnChilton/index.md), [Nate Coraor](/src/nate/index.md), Carrie Ganote
 </div>
 
 PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
@@ -44,16 +44,16 @@ Anyone (users or admins) interested in leveraging remote or heterogeneous hardwa
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [mailto:your AT email DOT address](Your Name).
+If you are interested, please add your name below and/or send an email to [Your Name](mailto:your AT email DOT address).
 
-* [mailto:blood AT psc DOT edu](Philip Blood)
+* [Philip Blood](mailto:blood AT psc DOT edu)
 * [John Chilton](/src/JohnChilton/index.md)
 * [nate Coraor](/src/nate/index.md)
 * [ Eric Rasche](/src/EricRasche/index.md)
 * Ben Busby
 * Aaron Gardner
 * [Dan Blankenberg](/src/Dan/index.md)
-* [mailto:mcrusoe AT msu DOT edu](Michael R. Crusoe)
+* [Michael R. Crusoe](mailto:mcrusoe AT msu DOT edu)
 * Cameron Smith
 * Carrie Ganote
 
@@ -72,6 +72,6 @@ Possible action items:
 
 ## Questions?
 
-Send them to [mailto:blood AT psc DOT edu](Philip Blood).
+Send them to [Philip Blood](mailto:blood AT psc DOT edu).
 
 [CategoryBo](/src/CategoryBo/index.md)F

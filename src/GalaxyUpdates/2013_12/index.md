@@ -37,7 +37,7 @@ The newly added servers are:
 * *Comments:*
     [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) integrates GPSR1.0, GPSR2.0 along with the [webservers](http://osddlinux.osdd.net/livew.php) and the [standalone software](http://osddlinux.osdd.net/stand.php) supported by OSDDlinux.  See the [complete list of tools and services](http://osddlinux.osdd.net/liveg) included in OSDDlinux LiveGalaxy. 
 * *User Support:*
-    [Web form](http://crdd.osdd.net/osddlinux/feed.php) or [mailto:osddlinux AT gmail DOT com](Email)
+    [Web form](http://crdd.osdd.net/osddlinux/feed.php) or [Email](mailto:osddlinux AT gmail DOT com)
 * *Quotas:* 
 * *Sponsor(s):*
     The [Open Source Drug Discovery Project](http://www.osdd.net/) and the [OSDD Linux Project](http://osddlinux.osdd.net/) under the direction of [Dr. GPS Raghava](http://www.imtech.res.in/raghava/about.html) of the [CSIR-Institute of Microbial Technology (IMTECH)](http://www.imtech.res.in/).
@@ -71,7 +71,7 @@ The newly added servers are:
   * Users can generate predictions for any cell type of interest for which H3K4me1 ChIP-seq and RNA-seq data are available.
   * See "[Combinatorial effects of multiple enhancer variants in linkage disequilibrium dictate levels of gene expression to confer susceptibility to common traits](http://genome.cshlp.org/content/early/2013/11/06/gr.164079.113.abstract)" by Corradin, *et al.*, *[Genome Research](http://genome.cshlp.org/)* (2013)
 * *User Support:*
-    [PreSTIGE User Guide](http://genetics.case.edu/prestige/misc/Scacheri_PreSTIGE_User_Guide.pdf), [mailto:olivia DOT corradin AT case DOT edu](Email)
+    [PreSTIGE User Guide](http://genetics.case.edu/prestige/misc/Scacheri_PreSTIGE_User_Guide.pdf), [Email](mailto:olivia DOT corradin AT case DOT edu)
 * *Quotas:* 
     Available for academic use only
 * *Sponsor(s):*

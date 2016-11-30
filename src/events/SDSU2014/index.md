@@ -97,4 +97,4 @@ These workshops are generously supported by  the [Biological & Medical Informati
 
 ## Questions?
 
-Contact [mailto:bmi AT mail DOT sdsu DOT edu](Biological & Medical Informatics) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [Biological & Medical Informatics](mailto:bmi AT mail DOT sdsu DOT edu) or [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).

@@ -89,4 +89,4 @@ This workshop is generously supported by the [Department of Biochemistry and Mol
 
 ## Questions?
 
-Contact [mailto:jcurry@hmc.psu.edu](Jill Curry) at Penn State or [mailto:outreach@galaxyproject.org](Galaxy Outreach).
+Contact [Jill Curry](mailto:jcurry@hmc.psu.edu) at Penn State or [Galaxy Outreach](mailto:outreach@galaxyproject.org).

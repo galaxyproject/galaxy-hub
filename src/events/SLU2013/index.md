@@ -102,4 +102,4 @@ Please distribute to groups in Saint Louis University that might be interested. 
 
 ## Questions?
 
-Contact [mailto:donlinmj AT slu DOT edu](Maureen Donlin) or [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+Contact [Maureen Donlin](mailto:donlinmj AT slu DOT edu) or [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).

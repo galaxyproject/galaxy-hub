@@ -240,7 +240,7 @@ To gain access to the test server again, no user action is needed. When your exi
 
 #### Testing
 
-If you are involved with scientific or functional testing of a new Galaxy tool, please send an email to [mailto:galaxy-bugs AT lists DOT galaxyproject DOT org](Galaxy-Bugs) to discuss options for data resources and a potential temporary quota increase.
+If you are involved with scientific or functional testing of a new Galaxy tool, please send an email to [Galaxy-Bugs](mailto:galaxy-bugs AT lists DOT galaxyproject DOT org) to discuss options for data resources and a potential temporary quota increase.
 
 ## Developers and Administrators
 

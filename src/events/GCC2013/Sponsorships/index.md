@@ -11,7 +11,7 @@ Is your organization interested in being a prominent part of one of the fastest 
 
 ## Interested?
 
-If your organization is interested in participating in [GCC2013](/src/Events/GCC2013/Sponsorships//index.md) as a sponsor then please contact Dave Clements at [mailto:outreach AT galaxyproject DOT org](outreach AT galaxyproject DOT org).
+If your organization is interested in participating in [GCC2013](/src/Events/GCC2013/Sponsorships//index.md) as a sponsor then please contact Dave Clements at [outreach AT galaxyproject DOT org](mailto:outreach AT galaxyproject DOT org).
 
 ## About GCC2013
 

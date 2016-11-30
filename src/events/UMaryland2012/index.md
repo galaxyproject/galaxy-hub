@@ -91,7 +91,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Questions?
 
-Contact Galaxy Outreach [mailto:outreach@galaxyproject.org](outreach@galaxyproject.org).
+Contact Galaxy Outreach [outreach@galaxyproject.org](mailto:outreach@galaxyproject.org).
 
 ## Feedback
 

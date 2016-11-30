@@ -4,7 +4,7 @@
 Norwich Research Park<br />
 Norwich, NR4 7UH<br />
 UK<br />
-Email: [mailto:nicola.soranzo AT SPAMFREE earlham DOT ac DOT uk](nicola.soranzo AT SPAMFREE earlham DOT ac DOT uk)
+Email: [nicola.soranzo AT SPAMFREE earlham DOT ac DOT uk](mailto:nicola.soranzo AT SPAMFREE earlham DOT ac DOT uk)
 
 ----
 [CategoryHomepage](/src/CategoryHomepage/index.md)

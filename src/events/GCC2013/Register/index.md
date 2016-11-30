@@ -19,7 +19,7 @@ Our goal is to have registration be downright affordable, and to make early regi
 
 A link to the payment form will appear after you have submitted the registration form. Click on it to proceed to payment. Alternatively, you can also reach the payment form [here](http://bit.ly/gcc2013pay).  Note that you are not fully registered until payment has been made.
 
-You will receive an email confirming your registration within 3 business days.  If you do not, please contact [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach).
+You will receive an email confirming your registration within 3 business days.  If you do not, please contact [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 ## Conference and Training Day
 

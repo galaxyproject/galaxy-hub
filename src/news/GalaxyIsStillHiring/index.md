@@ -21,7 +21,7 @@ We are seeking [software engineers](http://bx.mathcs.emory.edu/joining/sw/) with
 
 The [Nekrutenko Lab](http://www.bx.psu.edu/~anton/) at the [Huck Institutes of Life Sciences](http://www.huck.psu.edu/) at [Penn State](http://psu.edu/) is seeking highly opinionated and biologically inclined Postdoctoral researchers within the Galaxy Project to develop best practices for analysis of next-generation sequencing data in all areas of Life Sciences where NGS is used. Successful candidates will join a vibrant research group at the [Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/) at [Penn State University](http://psu.edu/). 
 
-Please send your CV to [mailto:jobs AT galaxyproject DOT org](jobs AT galaxyproject DOT org).
+Please send your CV to [jobs AT galaxyproject DOT org](mailto:jobs AT galaxyproject DOT org).
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-02-29</div>
 

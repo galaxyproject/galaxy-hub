@@ -38,11 +38,11 @@ Whether you are a scientific Galaxy user yourself, or someone that administrates
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [mailto:your AT email DOT address](Your Name).
+If you are interested, please add your name below and/or send an email to [Your Name](mailto:your AT email DOT address).
 
-* [mailto:jen AT galaxyproject DOT org](Jennifer Hillman-Jackson)
-* [mailto:kdreddy4 AT jhmi DOT edu](Karen Reddy)
-* [mailto:mheydar1 AT jhmi DOT edu](Mo Heydarian)
+* [Jennifer Hillman-Jackson](mailto:jen AT galaxyproject DOT org)
+* [Karen Reddy](mailto:kdreddy4 AT jhmi DOT edu)
+* [Mo Heydarian](mailto:mheydar1 AT jhmi DOT edu)
 * Add your name
 
 ## Session Content
@@ -72,6 +72,6 @@ Tour of Galaxy's learning resources included:
 
 ## Questions?
 
-Send them to [mailto:jen AT galaxyproject DOT org](Jennifer Hillman-Jackson) with a clear subject line!
+Send them to [Jennifer Hillman-Jackson](mailto:jen AT galaxyproject DOT org) with a clear subject line!
 
 [CategoryBo](/src/CategoryBo/index.md)F

@@ -23,7 +23,7 @@ Welcome to the October 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a mo
 
 [CNIC.DarwinTree](http://galaxy.csdb.cn:8000/) is a molecular data analysis and application environment for DarwinTree, GSQCS, iDNAbar, NANNO, IPIP, and many other tools for phylogenetic analysis.
 
-[CNIC.DarwinTree](http://galaxy.csdb.cn:8000/) is supported by the [Chinese Academy of Sciences Computer Network Information Center (中国科学院计算机网络信息中心)](http://www.cnic.cn/), and has [mailto:support AT cnic DOT cn](Email support) as well.
+[CNIC.DarwinTree](http://galaxy.csdb.cn:8000/) is supported by the [Chinese Academy of Sciences Computer Network Information Center (中国科学院计算机网络信息中心)](http://www.cnic.cn/), and has [Email support](mailto:support AT cnic DOT cn) as well.
 
 ## Fast UniFrac
 
@@ -31,7 +31,7 @@ Welcome to the October 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a mo
 
 [Fast UniFrac](http://unifrac.colorado.edu) provides a suite of tools for the comparison of microbial communities using phylogenetic information. See "[Fast UniFrac: facilitating high-throughput phylogenetic analyses of microbial communities including analysis of pyrosequencing and PhyloChip data](http://www.nature.com/ismej/journal/v4/n1/full/ismej200997a.html)" by M Hamady, C Lozupone and R Knight, *[The ISME Journal](http://www.nature.com/ismej/index.html)* (2010) 4, 17–27; doi:10.1038/ismej.2009.97
 
-No login is required to use [Fast UniFrac](http://unifrac.colorado.edu) and the site has [mailto:MicrobiomeHelp AT colorado DOT edu](email support).  [Fast UniFrac](http://unifrac.colorado.edu) is sponsored by the [Knight Lab at the University of Colorado at Boulder](https://knightlab.colorado.edu/).
+No login is required to use [Fast UniFrac](http://unifrac.colorado.edu) and the site has [email support](mailto:MicrobiomeHelp AT colorado DOT edu).  [Fast UniFrac](http://unifrac.colorado.edu) is sponsored by the [Knight Lab at the University of Colorado at Boulder](https://knightlab.colorado.edu/).
 
 ## kmer-SVM
 
@@ -41,7 +41,7 @@ No login is required to use [Fast UniFrac](http://unifrac.colorado.edu) and the 
 
 The kmer-SVN server is describeded in "[kmer-SVM: a web server for identifying predictive regulatory sequence features in genomic data sets](http://nar.oxfordjournals.org/content/41/W1/W544.long)." Christopher Fletez-Brant; Dongwon Lee; [Andrew S. McCallion](http://www.hopkinsmedicine.org/geneticmedicine/people/faculty/mccallion.html); [Michael A. Beer](http://www.beerlab.org/) *[Nucleic Acids Research](http://nar.oxfordjournals.org/)* 2013; doi: 10.1093/nar/gkt519<br />
 
-A [tutorial on using the web server](http://kmersvm.beerlab.org/tutorial/) and a [Galaxy Tool Shed repository](http://toolshed.g2.bx.psu.edu/view/cafletezbrant/kmersvm) are also available. [mailto:kmersvm DOT team AT gmail DOT com](Email support) is provided, and the project is a collaboration between Christopher Fletez-Brant and Dongown Lee respectively of the [McCallion Lab](http://www.hopkinsmedicine.org/geneticmedicine/people/faculty/mccallion.html) of the [McKusick-Nathans Institute of Genetic Medicine](https://igm.jhmi.edu/) at the Johns Hopkins University School of Medicine and the [Beer Lab](http://www.beerlab.org/) of the [Johns Hopkins University Department of Biomedical Engineering](http://www.bme.jhu.edu/).
+A [tutorial on using the web server](http://kmersvm.beerlab.org/tutorial/) and a [Galaxy Tool Shed repository](http://toolshed.g2.bx.psu.edu/view/cafletezbrant/kmersvm) are also available. [Email support](mailto:kmersvm DOT team AT gmail DOT com) is provided, and the project is a collaboration between Christopher Fletez-Brant and Dongown Lee respectively of the [McCallion Lab](http://www.hopkinsmedicine.org/geneticmedicine/people/faculty/mccallion.html) of the [McKusick-Nathans Institute of Genetic Medicine](https://igm.jhmi.edu/) at the Johns Hopkins University School of Medicine and the [Beer Lab](http://www.beerlab.org/) of the [Johns Hopkins University Department of Biomedical Engineering](http://www.bme.jhu.edu/).
 
 ## NGS-QC Generator
 

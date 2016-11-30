@@ -17,7 +17,7 @@ title: Galactic November News!
 
 Welcome to the November 2015 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. 
 
-If you have anything to include in the next News, please send it to [mailto:outreach AT galaxyproject DOT org](Galaxy Outreach). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
 
 # New Papers
 
@@ -364,12 +364,12 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
   * Dedicated server: PowerEdge R920 Rack Server - 64 CPU, 512 GB RAM, 15To GB of disk space. 
 * *User Support:*
   * [galaxy@prabi user list](http://listes.univ-lyon1.fr/sympa/info/galaxy-user) (in French) 
-  * Email support: [mailto:galaxy DASH support AT listes DOT univ-lyon1 DOT fr](galaxy DASH support AT listes DOT univ-lyon1 DOT fr) 
+  * Email support: [galaxy DASH support AT listes DOT univ-lyon1 DOT fr](mailto:galaxy DASH support AT listes DOT univ-lyon1 DOT fr) 
   * We also provide galaxy [training courses](/src/Teach/Trainers/index.md#galaxy_40_prabi_project) for RNA-seq and ChIP-seq data analysis.
 * *Quotas:* 
   * Disk space is limited to 100 MB for unregistered users, registered users are free to use up to 50 GB.
   * Users from the FRBioenvis and LECA teams are free to use up to 250 GB disk space.
-  * Can be increased up to 1-2 TB in collaborative projects (please contact [mailto:galaxy DASH support AT listes DOT univ-lyon1 DOT fr](galaxy@PRABI Admins).)
+  * Can be increased up to 1-2 TB in collaborative projects (please contact [galaxy@PRABI Admins](mailto:galaxy DASH support AT listes DOT univ-lyon1 DOT fr).)
 * *Sponsor(s):*
   * [PRABI](http://www.prabi.fr)
   * [FRBioenvis](http://bioenvis.universite-lyon.fr), [Université Lyon 1](http://www.univ-lyon1.fr), [LECA](http://www-leca.ujf-grenoble.fr)

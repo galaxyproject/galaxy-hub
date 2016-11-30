@@ -29,7 +29,7 @@ You can also [install your own copy of Galaxy-P](http://getgalaxyp.org/), either
 
 <div class='right solid'><a href='http://bioinformatics.research.nicta.com.au/software/gwis/'><img src="/src/PublicGalaxyServers/GWISPosterTop.png" alt="GWIS" width="200" /></a></div>
 
-[NICTA Bioinformatics](http://bioinformatics.research.nicta.com.au/)' [Genome-wide Interaction Search (GWIS)](http://bioinformatics.research.nicta.com.au/software/gwis/) for multivariate GWAS analysis cuts the computational time for analyzing all pairs of SNP interactions in genome-wide association studies (GWAS) from months to minutes on commodity computers.  Any non-commercial user can request an account [mailto:gwis AT nicta DOT com DOT au](via email).
+[NICTA Bioinformatics](http://bioinformatics.research.nicta.com.au/)' [Genome-wide Interaction Search (GWIS)](http://bioinformatics.research.nicta.com.au/software/gwis/) for multivariate GWAS analysis cuts the computational time for analyzing all pairs of SNP interactions in genome-wide association studies (GWAS) from months to minutes on commodity computers.  Any non-commercial user can request an account [via email](mailto:gwis AT nicta DOT com DOT au).
 
 See 
 * Benjamin Goudey, David Rawlinson, Qiao Wang, Fan Shi, Herman Ferra, Richard M Campbell, Linda Stern, Michael T Inouye, Cheng Soon Ong, Adam Kowalczyk (2013), "[GWIS – model-free, fast and exhaustive search for epistatic interactions in case-control GWAS](http://www.biomedcentral.com/1471-2164/14/S3/S10)", *BMC Genomics*, 14(Suppl 3):S10 
