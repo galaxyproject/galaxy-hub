@@ -1,4 +1,4 @@
-1. format text/creole 
+ 
 
 - [Help Info of C Version GalaxyOps](Admin%2FInternals%2FGalaxyOps%2FC) - description of how to use galaxy operations in C 
 

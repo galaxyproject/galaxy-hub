@@ -1,4 +1,4 @@
-1. format text/creole 
+ 
 
 ## Adding a New Data Type
 

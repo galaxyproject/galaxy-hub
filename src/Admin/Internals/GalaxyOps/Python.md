@@ -1,4 +1,4 @@
-1. format text/creole 
+ 
 
 ## Galaxy Operations Help Information (Python Version)
 

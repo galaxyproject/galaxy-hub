@@ -1,4 +1,4 @@
-1. format text/creole 
+ 
 
 ## Managing and Scrambling Galaxy Eggs
 

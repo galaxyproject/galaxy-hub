@@ -1,4 +1,4 @@
-1. format text/creole <<Include(Admin/Config/Performance/LinkBox)>> 
+ <<Include(Admin/Config/Performance/LinkBox)>> 
 
 ## Background on Dataset Objects
 

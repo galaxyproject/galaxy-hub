@@ -1,4 +1,4 @@
-1. format text/creole <<Include(Admin/LinkBox)>> 
+ <<Include(Admin/LinkBox)>> 
 
 # Admin Interface
 

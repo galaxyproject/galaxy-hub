@@ -1,4 +1,4 @@
-1. format text/creole 
+ 
 
 # Galaxy Tool Executable
 

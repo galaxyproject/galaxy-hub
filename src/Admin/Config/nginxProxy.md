@@ -1,4 +1,4 @@
-1. format text/creole <<Include(Admin/Config/Performance/LinkBox)>> <<div(left)>><<TableOfContents>><<div>> 
+ <<Include(Admin/Config/Performance/LinkBox)>> <<div(left)>><<TableOfContents>><<div>> 
 
 # nginx proxy to Galaxy
 

@@ -1,4 +1,4 @@
-1. format text/creole 
+ 
 
 # Displaying Datasets at External Display Applications / Websites
 

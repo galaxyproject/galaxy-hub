@@ -1,4 +1,4 @@
-1. format text/creole 
+ 
 
 ## Running Galaxy in Windows
 

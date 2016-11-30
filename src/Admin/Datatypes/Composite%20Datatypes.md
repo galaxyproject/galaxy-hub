@@ -1,4 +1,4 @@
-1. format text/creole 
+ 
 
 ## Composite Datatypes
 

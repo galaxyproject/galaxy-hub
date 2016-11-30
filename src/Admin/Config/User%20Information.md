@@ -1,4 +1,4 @@
-1. format text/creole 
+ 
 
 # Information can be requested from users at registration time
 
