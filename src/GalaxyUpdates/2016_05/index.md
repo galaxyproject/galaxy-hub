@@ -159,85 +159,85 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
   <tr>
     <th> May 5 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-genome-assembly-using-gvl/'>De novo genome assembly using Genomics Virtual Lab Workshop</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Australia/index.md) University of Queensland, St Lucia, Australia </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href="mailto:training@qfab.org">QFAB Training</a>, <a href='http://www.qfab.org/xin-yi-chua/'>Xin-Yi Chua</a>, <a href='http://www.qfab.org/michael-thang/'>Mike Thang</a> </td>
+    <td> <div class='right'>![Australia](/src/Images/Icons/Australia40.png)</div> University of Queensland, St Lucia, Australia </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training@qfab.org">QFAB Training</a>, <a href='http://www.qfab.org/xin-yi-chua/'>Xin-Yi Chua</a>, <a href='http://www.qfab.org/michael-thang/'>Mike Thang</a> </td>
   </tr>
   <tr>
     <th> May 6 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy-2-2/'>Variant detection using Galaxy Workshop</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Australia/index.md) University of Queensland, St Lucia, Australia </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href="mailto:training@qfab.org">QFAB Training</a> </td>
+    <td> <div class='right'>![Australia](/src/Images/Icons/Australia40.png)</div> University of Queensland, St Lucia, Australia </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training@qfab.org">QFAB Training</a> </td>
   </tr>
   <tr>
     <th> May 10-14 </th>
     <td> <em>EDGY—Export of data from Galaxy to Yabi, automated workflow transfer to command line tools</em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='https://meetings.cshl.edu/meetings.aspx?meet=genome&year=16'>The Biology of Genomes</a>, Cold Spring Harbor Laboratory, New York, United States </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> <a href='https://meetings.cshl.edu/meetings.aspx?meet=genome&year=16'>The Biology of Genomes</a>, Cold Spring Harbor Laboratory, New York, United States </td>
     <td> <a href='http://david.molik.co/'>David Molik</a> </td>
   </tr>
   <tr>
     <th> May 11-13 </th>
     <td> <em><a href='http://www.canceropole-idf.fr/formation-ngs-rnaseq'>NGS & Cancer : Analyses RNA-Seq</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Paris, France </td>
+    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> Paris, France </td>
     <td> <a href="mailto:communication@canceropole-idf.fr">Cancéropôle Île-de-France</a> </td>
   </tr>
   <tr>
     <th> May 12-13 </th>
     <td> <em><a href='https://www.molmed.nl/courses/CourseDetail.asp?backpage=courses.asp&courseID=1448'>RNA-Seq and DNA-Seq Cancer Analyses</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Rotterdam, The Netherlands </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href="mailto:y DOT hoogstrate AT erasmusmc.nl">Youri Hoogstrate</a> </td>
+    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> Rotterdam, The Netherlands </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:y DOT hoogstrate AT erasmusmc.nl">Youri Hoogstrate</a> </td>
   </tr>
   <tr>
     <th> May 17 </th>
     <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=80'>Galaxy First Step</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Part of <a href='http://bioinfo.genotoul.fr/index.php?id=10'>Cycle d'aprentissage sous Galaxy</a>, INRA, Auzeville, France </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) Sarah Maman </td>
+    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> Part of <a href='http://bioinfo.genotoul.fr/index.php?id=10'>Cycle d'aprentissage sous Galaxy</a>, INRA, Auzeville, France </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> Sarah Maman </td>
   </tr>
   <tr>
     <th> May 18-19 </th>
     <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=81'>Galaxy: Reads alignment and SNP calling</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Part of <a href='http://bioinfo.genotoul.fr/index.php?id=10'>Cycle d'aprentissage sous Galaxy</a>, INRA, Auzeville, France </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) Philippe Bardou </td>
+    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> Part of <a href='http://bioinfo.genotoul.fr/index.php?id=10'>Cycle d'aprentissage sous Galaxy</a>, INRA, Auzeville, France </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> Philippe Bardou </td>
   </tr>
   <tr>
     <th> May 19-20 </th>
     <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=82'>Galaxy : RNAseq alignment and transcripts assemblies</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Part of <a href='http://bioinfo.genotoul.fr/index.php?id=10'>Cycle d'aprentissage sous Galaxy</a>, INRA, Auzeville, France </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) Celine Noirot, Cédric Cabau </td>
+    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> Part of <a href='http://bioinfo.genotoul.fr/index.php?id=10'>Cycle d'aprentissage sous Galaxy</a>, INRA, Auzeville, France </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> Celine Noirot, Cédric Cabau </td>
   </tr>
   <tr>
     <th> May 18-20 </th>
     <td> <em><a href='https://www.elixir-europe.org/events/technical-hackathon-tools-workflows-and-workbenches'>ELIXIR Technical Hackathon: Tools, Workflows and Workbenches</a></em><div class='indent red'>Full</div> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) <a href='https://www.eventbrite.fr/e/technical-hackathon-tools-workflows-and-workbenches-tickets-22797525011#listing-organizer'>Institut Pasteur, Paris, France</a> </td>
+    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> <a href='https://www.eventbrite.fr/e/technical-hackathon-tools-workflows-and-workbenches-tickets-22797525011#listing-organizer'>Institut Pasteur, Paris, France</a> </td>
     <td> <a href='https://www.eventbrite.fr/e/technical-hackathon-tools-workflows-and-workbenches-tickets-22797525011#listing-organizer'>Organisers</a> </td>
   </tr>
   <tr>
     <th> May 23-24 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module16.pdf'>Analyse statistique de données RNA-Seq sous Galaxy -Recherche des régions d'intérêt différentiellement exprimées</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
+    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
     <td> <a href="mailto:formation.migale AT jouy.inra.fr">Formation Migale</a> </td>
   </tr>
   <tr>
     <th> May 26 </th>
     <td> <em><a href='http://www.bioplatforms.com/rna-seq-using-galaxy-may-2016/'>RNA-Seq Analysis Using Galaxy</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Australia/index.md) <a href='http://www.cmri.org.au/'>Children’s Medical Research Institute</a>, Westmead, NSW, Australia </td>
+    <td> <div class='right'>![Australia](/src/Images/Icons/Australia40.png)</div> <a href='http://www.cmri.org.au/'>Children’s Medical Research Institute</a>, Westmead, NSW, Australia </td>
     <td> <a href="mailto:kchamp@bioplatforms.com">Katherine Champ</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>
     <td> <em><a href='http://www.bioplatforms.com/variant-detection-using-galaxy-may-2016/'>Variant Detection using Galaxy</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Australia/index.md) <a href='http://www.cmri.org.au/'>Children’s Medical Research Institute</a>, Westmead, NSW, Australia </td>
+    <td> <div class='right'>![Australia](/src/Images/Icons/Australia40.png)</div> <a href='http://www.cmri.org.au/'>Children’s Medical Research Institute</a>, Westmead, NSW, Australia </td>
     <td> <a href="mailto:kchamp@bioplatforms.com">Katherine Champ</a> </td>
   </tr>
   <tr>
     <th> May 30 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module17-15mars.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
+    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
     <td> <a href="mailto:formation.migale AT jouy.inra.fr">Formation Migale</a> </td>
   </tr>
   <tr>
     <th> May 31 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module8bis-31mai.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Europe/index.md) Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
+    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
     <td> <a href="mailto:formation.migale AT jouy.inra.fr">Formation Migale</a> </td>
   </tr>
   <tr>
@@ -246,37 +246,37 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
   <tr>
     <th> June 5-9 </th>
     <td> <em><a href='/src/Events/ASMS2016/index.md'>64th ASMS Conference on Mass Spectrometry and Allied Topics</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) San Antonio, Texas, United States </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href='/src/Events/ASMS2016/index.md'>Presenters</a> </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> San Antonio, Texas, United States </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/Events/ASMS2016/index.md'>Presenters</a> </td>
   </tr>
   <tr>
     <th> June 9-10 </th>
     <td> <em><a href='http://bioinformatics.ca/workshops/2016/informatics-high-throughput-sequencing-data-2016'>Informatics on High-throughput Sequencing Data</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) Montreal, Quebec, Canada </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md)  <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> Montreal, Quebec, Canada </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
   </tr>
   <tr>
     <th> June 13-17 </th>
     <td> <em><a href='https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/'>Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) Davis, California, United States </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md) <a href="mailto:training.bioinformatics@ucdavis.edu">UC Davis Bioinformatics Training Program</a> </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> Davis, California, United States </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training.bioinformatics@ucdavis.edu">UC Davis Bioinformatics Training Program</a> </td>
   </tr>
   <tr>
     <th> June 16 </th>
     <td> <em><a href='/src/Community/GalaxyAdmins/Meetups/2016_06_16/index.md'>GalaxyAdmins Web Meetup</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/World/index.md) <em><a href='/src/Community/GalaxyAdmins/Meetups/2016_06_16/index.md'>Online</a></em> </td>
+    <td> <div class='right'>![Around the World](/src/Images/Icons/World40.png)</div> <em><a href='/src/Community/GalaxyAdmins/Meetups/2016_06_16/index.md'>Online</a></em> </td>
     <td> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a>, <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a>, <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> June 25-29 </th>
     <td> <strong><em><a href='https://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Teach/GTN/Badge16/index.md)  <a href='https://gcc2016.iu.edu/organizers'>Organizers</a> </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href='https://gcc2016.iu.edu/organizers'>Organizers</a> </td>
   </tr>
   <tr>
     <th> June 30 - July 1 </th>
     <td> <em><a href='http://gmod.org/wiki/Jun_2016_GMOD_Meeting'>GMOD Meeting</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
     <td> <a href='http://gmod.org/wiki/Scott'>Scott Cain</a> </td>
   </tr>
   <tr>
@@ -285,31 +285,31 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
   <tr>
     <th> July 4-8 </th>
     <td> <em><a href='http://bioinformatics.org.au/ws16/program/'>An introduction to Galaxy with the NeCTAR Genomics Virtual Laboratory Workshop</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/Australia/index.md) <a href='http://bioinformatics.org.au/ws16/'>2016 Winter School in Mathematical & Computational Biology</a>, University of Queensland, Brisbane, Australia </td>
+    <td> <div class='right'>![Australia](/src/Images/Icons/Australia40.png)</div> <a href='http://bioinformatics.org.au/ws16/'>2016 Winter School in Mathematical & Computational Biology</a>, University of Queensland, Brisbane, Australia </td>
     <td> <a href='https://www.rcc.uq.edu.au/genomics-virtual-lab'>Igor Makunin, Derek Benson</a> </td>
   </tr>
   <tr>
     <th> July 6-7 </th>
     <td> <em><a href='https://www.open-bio.org/wiki/Codefest_2016'>BOSC Codefest 2016</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) Orlando, Florida, United States </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> Orlando, Florida, United States </td>
     <td> Brad Chapman </td>
   </tr>
   <tr>
     <th> July 8-9 </th>
     <td> <em><a href='https://www.open-bio.org/wiki/BOSC_2016'>BOSC 2016</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md)  <a href='http://www.iscb.org/ismb2016'>ISMB 2016</a>, Orlando, Florida, United States </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div>  <a href='http://www.iscb.org/ismb2016'>ISMB 2016</a>, Orlando, Florida, United States </td>
     <td> </td>
   </tr>
   <tr>
     <th> July 8-12 </th>
     <td> <em><a href='http://www.iscb.org/ismb2016'>ISMB 2016</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md)  Orlando, Florida, United States </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div>  Orlando, Florida, United States </td>
     <td> </td>
   </tr>
   <tr>
     <th> July 13-17 </th>
     <td> <em><a href='http://www.genetics2016.org/index.htm'>The Allied Genetics Conference 2016 (TAGC)</a></em> </td>
-    <td> PLACEHOLDER_INCLUDE(/src/Events/Badges/NorthAmerica/index.md) Orlando, Florida, United States </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> Orlando, Florida, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
 </table>
