@@ -30,6 +30,8 @@ clear_collections = (files, metalsmith, done) ->
 
 replacement_data = require("./src/includes.json")
 md_link_pattern = /\[.*?\]\((.*?)\)/g
+html_link_pattern = /<a href=(['"])(\/src)/g
+html_img_pattern = /<img src=(['"])(\/src)/g
 
 subs = (files, metalsmith, done) ->
     # Quick hack to temporarily handle INCLUDE migration
@@ -49,6 +51,18 @@ subs = (files, metalsmith, done) ->
                         rep = rep.substr(4)
                     rep = rep.replace('index.md', '')
                     contents = contents.replace("("+match[1]+")", "("+rep+")")
+                while match = html_link_pattern.exec(contents)
+                    rep = match[2]
+                    #TODO: Do this with a regex too
+                    if rep.startsWith('/src')
+                        rep = rep.substr(4)
+                    contents = contents.replace("<a href="+match[1]+match[2], "<a href="+match[1]+rep)
+                while match = html_img_pattern.exec(contents)
+                    rep = match[2]
+                    #TODO: Do this with a regex too
+                    if rep.startsWith('/src')
+                        rep = rep.substr(4)
+                    contents = contents.replace("<img src="+match[1]+match[2], "<img src="+match[1]+rep)
                 files[file].contents = contents
     done()
 
