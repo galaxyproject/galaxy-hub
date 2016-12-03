@@ -32,11 +32,12 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> Venue/Location </th>
     <th> Contact </th>
   </tr>
-  <tr>
-    <th> November 28 - December 2 </th>
-    <td> <em><a href='http://workflow4metabolomics.org/training/w4mcourse2016'>Traitement des donnéesmétabolomiques sous Galaxy</a></em> <div class='indent red'>Les pré-inscriptions sont ouvertes jusqu'au 15 juillet 2016</div> </td>
-    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div>  <a href='http://www.sb-roscoff.fr/'>Station Biologique, Roscoff</a>, France </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href="mailto:contact@workflow4metabolomics.org">Contact</a> </td>
+   <tr>
+     <th class="th" > December 6 </th>
+     <td> <em>[Reproducible Science in Bioinformatics: Current Status, Solutions and Research Opportunities](https://github.com/alegrand/RR_webinars/blob/master/6_reproducibility_bioinformatics/index.org)</em> </td>
+     <td> <div class='right'>![Around the world](/src/Images/Icons/World40.png)</div> Genoble, France, and *Online* </td>
+     <td> [Sarah Cohen Boulakia](https://www.lri.fr/~cohen/), [Yvan Le Bras](http://yvanlebras.fr/) and
+     Bruno Chopard </td>
   </tr>
   <tr>
     <td colspan=4 style=" text-align: center; background-color: #eef;"> <span style="font-size: larger;"> <strong>2017</strong> </span> </td>
@@ -163,6 +164,16 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> Contact </th>
     <th> Links </th>
     </tr>
+  <tr>
+    <th> November 28 - December 2 </th>
+    <td> <em><a href='http://workflow4metabolomics.org/training/w4mcourse2016'>Traitement des donnéesmétabolomiques sous Galaxy</a></em> <div class='indent red'>Les pré-inscriptions sont ouvertes jusqu'au 15 juillet 2016</div> </td>
+    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div>  <a href='http://www.sb-roscoff.fr/'>Station Biologique, Roscoff</a>, France </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href="mailto:contact@workflow4metabolomics.org">Contact</a> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td colspan=5 style=" background-color: #eef;"> </td>
+  </tr>
   <tr>
     <th> November&nbsp;20-25 </th>
     <td> <em><a href='http://www.france-bioinformatique.fr/evenements/EBA2016'>Ecole Bioinformatique AVIESAN</a></em> </td>
