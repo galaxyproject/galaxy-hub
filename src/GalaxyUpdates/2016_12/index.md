@@ -3,7 +3,7 @@ autotoc: true
 title: December 2016 Galaxy News
 ---
 
-<div class='right'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='right'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
 Welcome to the December 2016 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. 
 
@@ -82,7 +82,7 @@ Accepted talks will be presented during the 2-day conference, 4-5 February. Talk
 There are [a plentitude of Galaxy related events coming up](/src/Events/index.md) in the next few months:
 
 <div class='center'> 
-<a href='https://www.embl-abr.org.au/game2017/'><img src="/src/Images/Logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="120" /></a>
+<a href='https://www.embl-abr.org.au/game2017/'><img src="/src/images/Logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="120" /></a>
 </div>
 
 <table>
@@ -95,7 +95,7 @@ There are [a plentitude of Galaxy related events coming up](/src/Events/index.md
    <tr>
      <th class="th" > December&nbsp;6 </th>
      <td> <em>[Reproducible Science in Bioinformatics: Current Status, Solutions and Research Opportunities](https://github.com/alegrand/RR_webinars/blob/master/6_reproducibility_bioinformatics/index.org)</em> </td>
-     <td> <div class='right'>![Around the world](/src/Images/Icons/World40.png)</div> Genoble, France, and *Online* </td>
+     <td> <div class='right'>![Around the world](/src/images/Icons/World40.png)</div> Genoble, France, and *Online* </td>
      <td> [Sarah Cohen Boulakia](https://www.lri.fr/~cohen/), [Yvan Le Bras](http://yvanlebras.fr/) and
      Bruno Chopard </td>
   </tr>
@@ -105,14 +105,14 @@ There are [a plentitude of Galaxy related events coming up](/src/Events/index.md
    <tr>
      <th class="th" > December 8 </th>
      <td> <em>The Community Commons Contribution Convergence (C<sup>4</sup>)</em> </td>
-     <td> <div class='right'>![Around the world](/src/Images/Icons/World40.png)</div> *Online* </td>
+     <td> <div class='right'>![Around the world](/src/images/Icons/World40.png)</div> *Online* </td>
      <td> [Dannon Baker](DannonBaker), [Dave Clements](DaveClements) </td>
      </tr>
         <tr>
      <th class="th" > December&nbsp;15-16 </th>
      <td> <em>[Galaxy RNA-sequencing data analysis workshop](http://www.denbi.de/22-training-cat/training-courses/215-galaxy-rna-sequencing-data-analysis-workshop)</em> </td>
-     <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> Freiburg, Germany </td>
-     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> [Freiburg Galaxy Team](http://galaxy.uni-freiburg.de/) </td>
+     <td> <div class='right'>![Europe](/src/images/Icons/Europe40.png)</div> Freiburg, Germany </td>
+     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> [Freiburg Galaxy Team](http://galaxy.uni-freiburg.de/) </td>
    </tr>
   <tr>
     <td colspan=4 style=" text-align: center; background-color: #eef;"> <span style="font-size: larger;"> <strong>2017</strong> </span> </td>
@@ -120,14 +120,14 @@ There are [a plentitude of Galaxy related events coming up](/src/Events/index.md
   <tr>
     <th> January 14-18 </th>
     <td> <em>Galaxy Workshop</em> </td>
-    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXV</a>, San Diego, California, United States </td>
+    <td> <div class='right'>![North America](/src/images/Icons/NorthAmerica40.png)</div> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXV</a>, San Diego, California, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 16-19 </th>
     <td> <strong><a href='/src/Events/egdw2017/index.md'>European Galaxy Developer Workshop</a></strong> </td>
-    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> Strasbourg, France </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:egdw2017.oc@groupes.france-bioinformatique.fr">Organisers</a> </td>
+    <td> <div class='right'>![Europe](/src/images/Icons/Europe40.png)</div> Strasbourg, France </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:egdw2017.oc@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
@@ -135,8 +135,8 @@ There are [a plentitude of Galaxy related events coming up](/src/Events/index.md
   <tr>
     <th> February 3-9 </th>
     <td> <strong><a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a></strong> </td>
-    <td> <div class='right'>![Australia](/src/Images/Icons/Australia40.png)</div> University of Melbourne, Victoria, Australia </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
+    <td> <div class='right'>![Australia](/src/images/Icons/Australia40.png)</div> University of Melbourne, Victoria, Australia </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
@@ -144,15 +144,15 @@ There are [a plentitude of Galaxy related events coming up](/src/Events/index.md
   <tr>
     <th> June 26-30 </th>
     <td> <strong><a href='https://gcc2017.sciencesconf.org/'>2017 Galaxy Community Conference (GCC2017)</a></strong> </td>
-    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> Montpellier, France </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
+    <td> <div class='right'>![Europe](/src/images/Icons/Europe40.png)</div> Montpellier, France </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='/src/Teach/Trainers/index.md'><img src="/src/Images/Icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <a href='/src/Teach/Trainers/index.md'><img src="/src/images/Icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
     <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/src/Teach/Trainers/index.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
@@ -243,7 +243,7 @@ The new papers were tagged with:
 
 # Who's Hiring
 
-<div class='right'><br /><img src="/src/Images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><br /><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -308,9 +308,9 @@ There are [over 80 publicly accessible Galaxy servers](/src/PublicGalaxyServers/
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Teach/index.md'><img src="/src/Images/GalaxyLogos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Logs/index.md'><img src="/src/Images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Teach/index.md'><img src="/src/images/GalaxyLogos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Logs/index.md'><img src="/src/images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/Community/Deployments/index.md'><img src="/src/images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your <a href='/src/Teach/Resources/index.md#add-a-training-resource'>training resources</a> and <a href='/src/Teach/Trainers/index.md#add-a-trainer'>experience</a> <em>now</em> </strong> </td>
@@ -327,7 +327,7 @@ No new resources were added to community hubs in November.
 
 # Releases
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/Images/GalaxyLogos/planemo-logo.png" alt="" width="200" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/mages/GalaxyLogos/planemo-logo.png" alt="" width="200" /></a></div>
 
 ## Planemo 0.35.0
 
@@ -337,7 +337,7 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 ## Pulsar 0.7.3
 
-<div class='right'><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/src/Images/GalaxyLogos/pulsar_transparent.png" alt="Pulsar" width="170" /></a></div>
+<div class='right'><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/src/images/GalaxyLogos/pulsar_transparent.png" alt="Pulsar" width="170" /></a></div>
 
 A [Pulsar](https://pypi.python.org/pypi/pulsar-app/) update was released in October.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 
@@ -348,7 +348,7 @@ Other packages that have been released in the prior 4 months.
 
 ### Galaxy v16.07
 
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/Images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
  
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the **[July 2016 (v16.07) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.07_announce.html)**.
 
@@ -413,7 +413,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 ----
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 
