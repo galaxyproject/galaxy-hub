@@ -9,7 +9,7 @@ Welcome to the December 2016 *[Galactic News](/src/GalaxyUpdates/index.md)*, a s
 
 If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
 
-# Community Commons (the *Commons*) NOT ATTACHED TO THAT NAME
+# Community Commons (the *Commons*)
 
 You may have noticed that **the Galaxy community site / wiki is moving.**  We are midway through a transformation of our old MoinMoin based wiki into a GitHub based site refered to as the *Community Commons*, or just the *Commons*.
 
@@ -94,25 +94,21 @@ There are [a plentitude of Galaxy related events coming up](/src/Events/index.md
   </tr>
    <tr>
      <th class="th" > December&nbsp;6 </th>
-     <td> <em>[Reproducible Science in Bioinformatics: Current Status, Solutions and Research Opportunities](https://github.com/alegrand/RR_webinars/blob/master/6_reproducibility_bioinformatics/index.org)</em> </td>
-     <td> <div class='right'>![Around the world](/src/images/Icons/World40.png)</div> Genoble, France, and *Online* </td>
-     <td> [Sarah Cohen Boulakia](https://www.lri.fr/~cohen/), [Yvan Le Bras](http://yvanlebras.fr/) and
-     Bruno Chopard </td>
-  </tr>
-  <tr>
-    <td colspan=4 style=" text-align: center; background-color: #eef;"> <span style="font-size: larger;"> <strong>2017</strong> </span> </td>
+     <td> <em><a href="https://github.com/alegrand/RR_webinars/blob/master/6_reproducibility_bioinformatics/index.org">Reproducible Science in Bioinformatics: Current Status, Solutions and Research Opportunities</a> </em> </td>
+     <td> <div class='right'><img src="/src/images/Icons/World40.png" alt="Around the world" /></div> Genoble, France, and <em>Online</em> </td>
+     <td> <a href="https://www.lri.fr/~cohen/">Sarah Cohen Boulakia</a>, <a href="http://yvanlebras.fr/">Yvan Le Bras</a> and Bruno Chopard </td>
   </tr>
    <tr>
      <th class="th" > December 8 </th>
      <td> <em>The Community Commons Contribution Convergence (C<sup>4</sup>)</em> </td>
-     <td> <div class='right'>![Around the world](/src/images/Icons/World40.png)</div> *Online* </td>
-     <td> [Dannon Baker](DannonBaker), [Dave Clements](DaveClements) </td>
+     <td> <div class='right'><img src="/src/images/Icons/World40.png" alt="Around the world" /></div> <em>Online</em> </td>
+     <td> <a href="/src/DannonBaker">Dannon Baker</a>, <a href="/src/DaveClements">Dave Clements</a> </td>
      </tr>
         <tr>
      <th class="th" > December&nbsp;15-16 </th>
-     <td> <em>[Galaxy RNA-sequencing data analysis workshop](http://www.denbi.de/22-training-cat/training-courses/215-galaxy-rna-sequencing-data-analysis-workshop)</em> </td>
-     <td> <div class='right'>![Europe](/src/images/Icons/Europe40.png)</div> Freiburg, Germany </td>
-     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> [Freiburg Galaxy Team](http://galaxy.uni-freiburg.de/) </td>
+     <td> <em><a href="http://www.denbi.de/22-training-cat/training-courses/215-galaxy-rna-sequencing-data-analysis-workshop">Galaxy RNA-sequencing data analysis workshop</a></em> </td>
+     <td> <div class='right'><img src="/src/images/Icons/Europe40.png" alt="Europe" /></div> Freiburg, Germany </td>
+     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="http://galaxy.uni-freiburg.de">Freiburg Galaxy Team</a> </td>
    </tr>
   <tr>
     <td colspan=4 style=" text-align: center; background-color: #eef;"> <span style="font-size: larger;"> <strong>2017</strong> </span> </td>
@@ -120,13 +116,13 @@ There are [a plentitude of Galaxy related events coming up](/src/Events/index.md
   <tr>
     <th> January 14-18 </th>
     <td> <em>Galaxy Workshop</em> </td>
-    <td> <div class='right'>![North America](/src/images/Icons/NorthAmerica40.png)</div> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXV</a>, San Diego, California, United States </td>
+    <td> <div class='right'><img src="/src/images/Icons/NorthAmerica40.png" alt="NorthAmerica" /></div> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXV</a>, San Diego, California, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 16-19 </th>
     <td> <strong><a href='/src/Events/egdw2017/index.md'>European Galaxy Developer Workshop</a></strong> </td>
-    <td> <div class='right'>![Europe](/src/images/Icons/Europe40.png)</div> Strasbourg, France </td>
+    <td> <div class='right'><img src="/src/images/Icons/Europe40.png" alt="Europe" /></div> Strasbourg, France </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:egdw2017.oc@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
   <tr>
@@ -135,7 +131,7 @@ There are [a plentitude of Galaxy related events coming up](/src/Events/index.md
   <tr>
     <th> February 3-9 </th>
     <td> <strong><a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a></strong> </td>
-    <td> <div class='right'>![Australia](/src/images/Icons/Australia40.png)</div> University of Melbourne, Victoria, Australia </td>
+    <td> <div class='right'><img src="/src/images/Icons/Australia40.png" alt="Australia" /></div> University of Melbourne, Victoria, Australia </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
   </tr>
   <tr>
@@ -144,7 +140,7 @@ There are [a plentitude of Galaxy related events coming up](/src/Events/index.md
   <tr>
     <th> June 26-30 </th>
     <td> <strong><a href='https://gcc2017.sciencesconf.org/'>2017 Galaxy Community Conference (GCC2017)</a></strong> </td>
-    <td> <div class='right'>![Europe](/src/images/Icons/Europe40.png)</div> Montpellier, France </td>
+    <td> <div class='right'><img src="/src/images/Icons/Europe40.png" alt="Europe" /></div> Montpellier, France </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
 </table>
@@ -327,7 +323,7 @@ No new resources were added to community hubs in November.
 
 # Releases
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/mages/GalaxyLogos/planemo-logo.png" alt="" width="200" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/images/GalaxyLogos/planemo-logo.png" alt="" width="200" /></a></div>
 
 ## Planemo 0.35.0
 
