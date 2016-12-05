@@ -118,7 +118,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
   </tr>
   <tr>
     <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php?cat=B#B26'>B26: GenomeSpace: An environment for frictionless bioinformatics</a>,</em> Michael Reich </td>
-    <td> <a href='/src/Documents/Presentations/2013ISMBGenomeSpaceReich.png'>Poster</a>, <a href='http://www.flickr.com/photos/97823772@N02/9367536363/'>Graphic</a> </td>
+    <td> <a href='/src/Documents/Presentations/2013ISMBGenomeSpaceReich.pdf'>Poster</a>, <a href='http://www.flickr.com/photos/97823772@N02/9367536363/'>Graphic</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php?cat=B#B60'>B60: Tools for the correction, analysis and visualization of next generation sequencing data</a>,</em> Fidel Ramírez </td>
