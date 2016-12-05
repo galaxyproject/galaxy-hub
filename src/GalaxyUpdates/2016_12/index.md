@@ -41,7 +41,7 @@ In addition to C<sup>4</sup> there are a wealth of events coming up.  Here are s
 
 ## Galaxy Australasia Meeting (GAMe 2017)
 
-<div class='right'><a href='https://www.embl-abr.org.au/game2017/'><img src="/src/Images/Logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="120" /></a></div>
+<div class='right'><a href='https://www.embl-abr.org.au/game2017/'><img src="/src/images/Logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="120" /></a></div>
 
 [GAMe 2017](https://www.embl-abr.org.au/game2017/) will bring together biomedical researchers, bioinformaticians, infrastructure providers, and data producers from across Australia and Asia to share expertise across many levels.
 
