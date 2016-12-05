@@ -42,6 +42,21 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
   <tr>
     <td colspan=4 style=" text-align: center; background-color: #eef;"> <span style="font-size: larger;"> <strong>2017</strong> </span> </td>
   </tr>
+   <tr>
+     <th class="th" > December 8 </th>
+     <td> <em>The Community Commons Contribution Convergence (C<sup>4</sup>)</em> </td>
+     <td> <div class='right'>![Around the world](/src/Images/Icons/World40.png)</div> *Online* </td>
+     <td> [Dannon Baker](DannonBaker), [Dave Clements](DaveClements) </td>
+   </tr>
+   <tr>
+     <th class="th" > December&nbsp;15-16 </th>
+     <td> <em>[Galaxy RNA-sequencing data analysis workshop](http://www.denbi.de/22-training-cat/training-courses/215-galaxy-rna-sequencing-data-analysis-workshop)</em> </td>
+     <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> Freiburg, Germany </td>
+     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> [Freiburg Galaxy Team](http://galaxy.uni-freiburg.de/) </td>
+   </tr>
+  <tr>
+    <td colspan=4 style=" text-align: center; background-color: #eef;"> <span style="font-size: larger;"> <strong>2017</strong> </span> </td>
+  </tr>
   <tr>
     <th> January 14-18 </th>
     <td> <em>Galaxy Workshop</em> </td>
