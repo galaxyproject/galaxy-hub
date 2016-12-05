@@ -73,16 +73,21 @@ body
                                         span.fa.fa-search
 
     div.container: div.row
-        div.col-md-9
-            block section
-                section.section-content
-                    block content
-                        div !{ contents }
-
         if toc
+            div.col-md-9
+                block section
+                    section.section-content
+                        block content
+                            div !{ contents }
             div.col-md-3
                 div#sidebar.navbar.nav.navbar-default
                     +renderToc(toc)
+        else
+            div.col-md-12
+                block section
+                    section.section-content
+                        block content
+                            div !{ contents }
 
     block footer
         footer: div.container: div.row: div.col-md-12
