@@ -32,5 +32,5 @@ docker-bower:
 docker-build: docker-npm-deps docker-bower  ## Single endpoint for docker install
 	docker run -v `pwd`:/usr/src/app -w /usr/src/app node node node_modules/coffee-script/bin/coffee build.coffee
 
-gitlfs-pull:
+gitlfs-pull:  ## We use this during the Jenkins build process to fetch LFS contents -- probably not useful locally.
 	docker run -v `pwd`:/usr/src/app -w /usr/src/app dannon/gitlfs git lfs pull
