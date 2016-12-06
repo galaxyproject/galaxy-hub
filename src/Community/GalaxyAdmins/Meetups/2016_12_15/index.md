@@ -6,31 +6,13 @@ tease: 'GalaxyAdmins December 2016 Meetup'
 <div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
 </div>
 
-<table>
-  <tr>
-    <th> Date </th>
-    <td> 15 December 2016 </td>
-    <td rowspan=4 style=" border: none;"> </td>
-    <td rowspan=4 style=" border: none;"> </td>
-  </tr>
-  <tr>
-    <th> Time </th>
-    <td> <a href='http://bit.ly/2h2QOsT'>5 pm Central European Time</a><div class='indent'><a href='http://bit.ly/2h2QOsT'>See your local time</a></div> </td>
-  </tr>
-  <tr>
-    <th> Topics </th>
-    <td> <em>Galaxy Training Materials: Community creation, curation, and use</em> <div class='indent'> <a href='/src/BjoernGruening/index.md'>Björn Grüning</a> and  Bérénice Batut, University of Freiburg</div>
-        <em>The new Galaxy Hub: Community creation, curation, and use</em><div class='indent'> <a href="/src/DannonBaker/index.md">Dannon Baker</a> and <a href=/src/DaveClements/index.md">Dave Clements</a>, Johns Hopkins University</div>
-    </td>
-  </tr>
-  <tr>
-    <th> Links </th>
-    <td> <strong><a href='https://connect.johnshopkins.edu/gxyadmins201612/'>Online conference room</a></strong> </td>
-  </tr>
-</table>
-
-
-<br />
+| | |
+|-----|-----|
+| **Date** | 15 December 2016 |
+| **Time** | [5 pm Central European Time](http://bit.ly/2h2QOsT). See [your local time](http://bit.ly/2h2QOsT) |
+| **Topic 1** | *Galaxy Training Materials: Community creation, curation, and use*, [Björn Grüning](/src/BjoernGruening/index.md) and  Bérénice Batut, University of Freiburg |
+| **Topic&nbsp;2** | *The new Galaxy Hub: Community creation, curation, and use*, [Dannon Baker](/src/DannonBaker/index.md) and [Dave Clements](/src/DaveClements/index.md), Johns Hopkins University |
+| **Links** | [Online conference room](https://connect.johnshopkins.edu/gxyadmins201612/) |
 
 *[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
