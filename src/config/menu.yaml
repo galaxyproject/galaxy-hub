@@ -5,13 +5,13 @@
   links:
       - News:
         title: News
-        link: News
+        link: news
       - Events:
         title: Events
-        link: Events
+        link: events
       - Support:
         title: Support
-        link: Support
+        link: support
       - Biostar:
         title: Biostar
         link: https://biostar.usegalaxy.org
@@ -33,7 +33,7 @@
         link: BigPicture/Choices
       - Tutorials:
         title: Support
-        link: Support
+        link: support
 - Galaxy Project:
   title: Galaxy Project
   links:
