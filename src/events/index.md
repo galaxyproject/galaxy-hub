@@ -9,20 +9,20 @@ title: Galaxy Event Horizon
 Events with Galaxy-related content are listed here.
 
 <div class='left'>
-<a href='http://bit.ly/gxycal'><img src="/src/Images/Logos/GalxyEventsCalThumb.png" alt="Galaxy Events Calendar" width="100" /></a><br />
-<a href='http://bit.ly/gxyothercal'><img src="/src/Images/Logos/GalxyOtherEventsCalThumb.png" alt="Galaxy Other Events Calendar" width="100" /></a>
+<a href='http://bit.ly/gxycal'><img src="/src/images/Logos/GalxyEventsCalThumb.png" alt="Galaxy Events Calendar" width="100" /></a><br />
+<a href='http://bit.ly/gxyothercal'><img src="/src/images/Logos/GalxyOtherEventsCalThumb.png" alt="Galaxy Other Events Calendar" width="100" /></a>
 </div>
 
 The events listed here are also available in the *[Galaxy Events Google Calendar](http://bit.ly/gxycal)*.  The *[Galaxy Other Events Google Calendar](http://bit.ly/gxyothercal)* lists additional events and deadline that are relevant to the Galaxy Community, but that are not known to feature significant Galaxy content. 
 
 <br />If you know of any event that should be added to this page and/or to the Galaxy Event Calendar, please add it here or send it to outreach@galaxyproject.org.
 
-For events prior to this year, see the **[Events Archive](/src/Events/Archive/index.md)**.
+For events prior to this year, see the **[Events Archive](/src/events/Archive/index.md)**.
 
 ## Upcoming Events
 
 <div class='center'> 
-<a href='https://www.embl-abr.org.au/game2017/'><img src="/src/Images/Logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="120" /></a>
+<a href='https://www.embl-abr.org.au/game2017/'><img src="/src/images/Logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="120" /></a>
 </div>
 
 <table>
@@ -33,26 +33,22 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> Contact </th>
   </tr>
    <tr>
-     <th class="th" > December 6 </th>
-     <td> <em>[Reproducible Science in Bioinformatics: Current Status, Solutions and Research Opportunities](https://github.com/alegrand/RR_webinars/blob/master/6_reproducibility_bioinformatics/index.org)</em> </td>
-     <td> <div class='right'>![Around the world](/src/Images/Icons/World40.png)</div> Genoble, France, and *Online* </td>
-     <td> [Sarah Cohen Boulakia](https://www.lri.fr/~cohen/), [Yvan Le Bras](http://yvanlebras.fr/) and
-     Bruno Chopard </td>
-  </tr>
-  <tr>
-    <td colspan=4 style=" text-align: center; background-color: #eef;"> <span style="font-size: larger;"> <strong>2017</strong> </span> </td>
+     <th class="th" > December&nbsp;6 </th>
+     <td> <em><a href="https://github.com/alegrand/RR_webinars/blob/master/6_reproducibility_bioinformatics/index.org">Reproducible Science in Bioinformatics: Current Status, Solutions and Research Opportunities</a> </em> </td>
+     <td> <img src="/src/images/Icons/World40.png" alt="Around the world" align="right" /> Grenoble, France, and <em>Online</em> </td>
+     <td> <a href="https://www.lri.fr/~cohen/">Sarah Cohen Boulakia</a>, <a href="http://yvanlebras.fr/">Yvan Le Bras</a> and Bruno Chopard </td>
   </tr>
    <tr>
      <th class="th" > December 8 </th>
      <td> <em>The Community Commons Contribution Convergence (C<sup>4</sup>)</em> </td>
-     <td> <div class='right'>![Around the world](/src/Images/Icons/World40.png)</div> *Online* </td>
-     <td> [Dannon Baker](DannonBaker), [Dave Clements](DaveClements) </td>
-   </tr>
-   <tr>
+     <td> <img src="/src/images/Icons/World40.png" alt="Around the world" align="right" /> <em>Online</em> </td>
+     <td> <a href="/src/DannonBaker">Dannon Baker</a>, <a href="/src/DaveClements">Dave Clements</a> </td>
+     </tr>
+        <tr>
      <th class="th" > December&nbsp;15-16 </th>
-     <td> <em>[Galaxy RNA-sequencing data analysis workshop](http://www.denbi.de/22-training-cat/training-courses/215-galaxy-rna-sequencing-data-analysis-workshop)</em> </td>
-     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> Freiburg, Germany </td>
-     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> [Freiburg Galaxy Team](http://galaxy.uni-freiburg.de/) </td>
+     <td> <em><a href="http://www.denbi.de/22-training-cat/training-courses/215-galaxy-rna-sequencing-data-analysis-workshop">Galaxy RNA-sequencing data analysis workshop</a></em> </td>
+     <td> <img src="/src/images/Icons/Europe40.png" alt="Europe" align="right" /> Freiburg, Germany </td>
+     <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="http://galaxy.uni-freiburg.de">Freiburg Galaxy Team</a> </td>
    </tr>
   <tr>
     <td colspan=4 style=" text-align: center; background-color: #eef;"> <span style="font-size: larger;"> <strong>2017</strong> </span> </td>
@@ -65,9 +61,9 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
   </tr>
   <tr>
     <th> January 16-19 </th>
-    <td> <strong><a href='/src/Events/egdw2017/index.md'>European Galaxy Developer Workshop</a></strong> </td>
+    <td> <strong><a href='/src/events/egdw2017/index.md'>European Galaxy Developer Workshop</a></strong> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> Strasbourg, France </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:egdw2017.oc@groupes.france-bioinformatique.fr">Organisers</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:egdw2017.oc@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
@@ -76,7 +72,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> February 3-9 </th>
     <td> <strong><a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a></strong> </td>
     <td> <img src='/src/images/Icons/Australia40.png' alt='Australia' align='right' /> University of Melbourne, Victoria, Australia </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
@@ -85,14 +81,14 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> June 26-30 </th>
     <td> <strong><a href='https://gcc2017.sciencesconf.org/'>2017 Galaxy Community Conference (GCC2017)</a></strong> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> Montpellier, France </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='/src/Teach/Trainers/index.md'><img src="/src/Images/Icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <a href='/src/Teach/Trainers/index.md'><img src="/src/images/Icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
     <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/src/Teach/Trainers/index.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
@@ -108,66 +104,66 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
 
 ## Past Events
 
-For events prior to this year, see the **[Events Archive](/src/Events/Archive/index.md)**.
+For events prior to this year, see the **[Events Archive](/src/events/Archive/index.md)**.
 
 ### 2016
 
 <div class='center'> 
-<a href='/src/Events/ASU2016/index.md'><img src="/src/Images/Logos/ASUBioKIC_600.png" alt="Biodiversity Knowledge Integration Center" height="60" /></a>&nbsp;
-<a href='/src/Events/PAG2016/index.md'><img src="/src/Images/Logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2016)" height="90" /></a> &nbsp;
-<a href='http://www.festivalofgenomicslondon.com/an-introduction-to-clinical-bioinformatics/'><img src="/src/Images/Logos/FoG_London.jpg" alt="An introduction to clinical bioinformatics" height=70" /></a>
-<a href='http://www.drylab.nl/teaching-and-trainings/trait-vumc-course-on-galaxy/'><img src="/src/Images/Logos/CTMM-TraITLogoSmall.png" alt="NGS Data Analysis in Galaxy (CTMM-TraIT course)" height="90" /></a>
-<a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-4/'><img src="/src/Images/Logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
-<a href='https://mod2016.com/'><img src="/src/Images/Logos/MontpellierOmicsDays.png" alt="Initiation à l’environnement UNIX et à la plateforme GALAXY" height=70" /></a> &nbsp;
-<a href='http://www.agbt.org/meetings/agbt-general-meeting/'><img src="/src/Images/Logos/AGBTLogo.jpg" alt="BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)" height="65" /></a> &nbsp;
-<a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'><img src="/src/Images/Logos/SupAgroMontpelierLogoGreen.jpg" alt="Analyse bioinformatique de séquences sous Galaxy" /></a> &nbsp;
-<a href='/src/Community/GalaxyAdmins/Meetups/2016_02_18/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="18 February GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
-<a href='https://conf.abrf.org/the-galaxy-platform'><img src="/src/Images/Logos/ABRFLogoSquareSmall.png" alt="(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics" height="70" /></a>
-<a href='https://github.com/galaxyproject/tools-iuc/issues/422'><img src="/src/Images/Logos/IUC_RADSeq_Hack.png" alt="IUC Contribution Fest - RADSeq Tools and Workflows" height="80" /></a>
-<a href='https://docs.google.com/document/d/1jCp7ic_jh6XfIBgnag9cgAEFBG5wrsIX9je8qj2JDDY/edit'><img src="/src/Images/Logos/ElixirNoTextLogo.png" alt="/Training and knowledge-exchange for ELIXIR Galaxy service providers" height="80" /></a>
-<a href='http://migale.jouy.inra.fr/?q=formations'><img src="/src/Images/Logos/MIGALELogo.png" alt="Le cycle "Bioinformatique par la pratique" 2016" height="50" /></a> 
-<a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-rnaseq-sous-galaxy/'><img src="/src/Images/Logos/eBiogenouestLogo.png" alt="Introduction à l'analyse de données RNAseq sous Galaxy" height="80" /></a> &nbsp;
-<a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src="/src/Images/Logos/deNBILogo.png" alt="Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies" height="50" /></a> &nbsp;
-<a href='/src/Community/GalaxyAdmins/Meetups/2016_04_21/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="21 April GalaxyAdmins Web Meetup: The Galaxy Portal: Accessing Galaxy from Mobile Devices" height="56" /></a> &nbsp;
-<a href='http://icmexico2016.soibio.org/product/icwmexico2016-galaxy-workshop/'><img src="/src/Images/Logos/SolBio2016.png" alt="Workshop on Galaxy: Practical Course" height="60" /></a> &nbsp;
-<a href='https://biotexcel.com/event/ngs-2016-glasgow/#tab3'><img src="/src/Images/Logos/GlasgowPolyomics.jpg" alt="NGS Bioinformatics Data Analysis Workshop" height="90" /></a>
-<a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2016'><img src="/src/Images/Logos/GalaxyWorkshopTokyo2016.png" alt="Galaxy Workshop Tokyo 2016" height="80" /></a> &nbsp;
-<a href='http://www.qfab.org/training/'><img src="/src/Images/Logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
-<a href='http://www.canceropole-idf.fr/formation-ngs-rnaseq'><img src="/src/Images/Logos/Cancerpole_logo.jpg" alt="NGS & Cancer : Analyses RNA-Seq" height="70" /></a>
-<a href='https://www.molmed.nl/courses/CourseDetail.asp?backpage=courses.asp&courseID=1448'><img src="/src/Images/Logos/MolecularMedicinePostGraduateSchoolLogo.jpg" alt="RNA-Seq and DNA-Seq Cancer Analyses" height="70" /></a>
-<a href='http://bioinfo.genotoul.fr/index.php?id=10'><img src="/src/Images/Logos/GenoToulLogo.png" alt="Cycle d'aprentissage sous Galaxy" height="60" /></a> &nbsp;
-<a href='http://www.bioplatforms.com/current-training-courses/'><img src="/src/Images/Logos/BioplatformsAustralia.png" alt="RNA-Seq Analysis and Variatnt Analysis Using Galaxy" height="50" /></a>
-<a href='/src/Events/ASMS2016/index.md'><img src="/src/Images/Logos/ASMSLogo.png" alt="64th ASMS Conference on Mass Spectrometry and Allied Topics" height="80" /></a>
-<a href='http://bioinformatics.ca/workshops/2016/informatics-high-throughput-sequencing-data-2016'><img src="/src/Images/Logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High-throughput Sequencing Data Workshop" height=80 /></a>
-<a href='https://www.vlsci.org.au/events/new-round-workshops-announced'><img src="/src/Images/Logos/VLSCILogo.png" alt="GVL and Galaxy Workshops" height="80" /></a>
-<a href='/src/Community/GalaxyAdmins/Meetups/2016_06_16/index.md'><img src="/src/Images/GalaxyLogos/GalaxyAdmins.png" alt="16 June GalaxyAdmins Web Meetup" height="60" /></a>
-<a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Jun16.html'><img src="/src/Images/Logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="80" /></a>
+<a href='/src/events/ASU2016/index.md'><img src="/src/images/Logos/ASUBioKIC_600.png" alt="Biodiversity Knowledge Integration Center" height="60" /></a>&nbsp;
+<a href='/src/events/PAG2016/index.md'><img src="/src/images/Logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2016)" height="90" /></a> &nbsp;
+<a href='http://www.festivalofgenomicslondon.com/an-introduction-to-clinical-bioinformatics/'><img src="/src/images/Logos/FoG_London.jpg" alt="An introduction to clinical bioinformatics" height=70" /></a>
+<a href='http://www.drylab.nl/teaching-and-trainings/trait-vumc-course-on-galaxy/'><img src="/src/images/Logos/CTMM-TraITLogoSmall.png" alt="NGS Data Analysis in Galaxy (CTMM-TraIT course)" height="90" /></a>
+<a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-4/'><img src="/src/images/Logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
+<a href='https://mod2016.com/'><img src="/src/images/Logos/MontpellierOmicsDays.png" alt="Initiation à l’environnement UNIX et à la plateforme GALAXY" height=70" /></a> &nbsp;
+<a href='http://www.agbt.org/meetings/agbt-general-meeting/'><img src="/src/images/Logos/AGBTLogo.jpg" alt="BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)" height="65" /></a> &nbsp;
+<a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'><img src="/src/images/Logos/SupAgroMontpelierLogoGreen.jpg" alt="Analyse bioinformatique de séquences sous Galaxy" /></a> &nbsp;
+<a href='/src/Community/GalaxyAdmins/Meetups/2016_02_18/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="18 February GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
+<a href='https://conf.abrf.org/the-galaxy-platform'><img src="/src/images/Logos/ABRFLogoSquareSmall.png" alt="(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics" height="70" /></a>
+<a href='https://github.com/galaxyproject/tools-iuc/issues/422'><img src="/src/images/Logos/IUC_RADSeq_Hack.png" alt="IUC Contribution Fest - RADSeq Tools and Workflows" height="80" /></a>
+<a href='https://docs.google.com/document/d/1jCp7ic_jh6XfIBgnag9cgAEFBG5wrsIX9je8qj2JDDY/edit'><img src="/src/images/Logos/ElixirNoTextLogo.png" alt="/Training and knowledge-exchange for ELIXIR Galaxy service providers" height="80" /></a>
+<a href='http://migale.jouy.inra.fr/?q=formations'><img src="/src/images/Logos/MIGALELogo.png" alt="Le cycle "Bioinformatique par la pratique" 2016" height="50" /></a> 
+<a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-rnaseq-sous-galaxy/'><img src="/src/images/Logos/eBiogenouestLogo.png" alt="Introduction à l'analyse de données RNAseq sous Galaxy" height="80" /></a> &nbsp;
+<a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src="/src/images/Logos/deNBILogo.png" alt="Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies" height="50" /></a> &nbsp;
+<a href='/src/Community/GalaxyAdmins/Meetups/2016_04_21/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="21 April GalaxyAdmins Web Meetup: The Galaxy Portal: Accessing Galaxy from Mobile Devices" height="56" /></a> &nbsp;
+<a href='http://icmexico2016.soibio.org/product/icwmexico2016-galaxy-workshop/'><img src="/src/images/Logos/SolBio2016.png" alt="Workshop on Galaxy: Practical Course" height="60" /></a> &nbsp;
+<a href='https://biotexcel.com/event/ngs-2016-glasgow/#tab3'><img src="/src/images/Logos/GlasgowPolyomics.jpg" alt="NGS Bioinformatics Data Analysis Workshop" height="90" /></a>
+<a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2016'><img src="/src/images/Logos/GalaxyWorkshopTokyo2016.png" alt="Galaxy Workshop Tokyo 2016" height="80" /></a> &nbsp;
+<a href='http://www.qfab.org/training/'><img src="/src/images/Logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
+<a href='http://www.canceropole-idf.fr/formation-ngs-rnaseq'><img src="/src/images/Logos/Cancerpole_logo.jpg" alt="NGS & Cancer : Analyses RNA-Seq" height="70" /></a>
+<a href='https://www.molmed.nl/courses/CourseDetail.asp?backpage=courses.asp&courseID=1448'><img src="/src/images/Logos/MolecularMedicinePostGraduateSchoolLogo.jpg" alt="RNA-Seq and DNA-Seq Cancer Analyses" height="70" /></a>
+<a href='http://bioinfo.genotoul.fr/index.php?id=10'><img src="/src/images/Logos/GenoToulLogo.png" alt="Cycle d'aprentissage sous Galaxy" height="60" /></a> &nbsp;
+<a href='http://www.bioplatforms.com/current-training-courses/'><img src="/src/images/Logos/BioplatformsAustralia.png" alt="RNA-Seq Analysis and Variatnt Analysis Using Galaxy" height="50" /></a>
+<a href='/src/events/ASMS2016/index.md'><img src="/src/images/Logos/ASMSLogo.png" alt="64th ASMS Conference on Mass Spectrometry and Allied Topics" height="80" /></a>
+<a href='http://bioinformatics.ca/workshops/2016/informatics-high-throughput-sequencing-data-2016'><img src="/src/images/Logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High-throughput Sequencing Data Workshop" height=80 /></a>
+<a href='https://www.vlsci.org.au/events/new-round-workshops-announced'><img src="/src/images/Logos/VLSCILogo.png" alt="GVL and Galaxy Workshops" height="80" /></a>
+<a href='/src/Community/GalaxyAdmins/Meetups/2016_06_16/index.md'><img src="/src/images/GalaxyLogos/GalaxyAdmins.png" alt="16 June GalaxyAdmins Web Meetup" height="60" /></a>
+<a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Jun16.html'><img src="/src/images/Logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="80" /></a>
 &nbsp;&nbsp;&nbsp; 
-<a href='https://gcc2016.iu.edu/index.php'><img src="/src/Images/Logos/GCC2016LogoBig.png" alt="2016 Galaxy Community Conference (GCC2016)" height=100" /></a> &nbsp;&nbsp;&nbsp; 
-<a href='http://gmod.org/wiki/Jun_2016_GMOD_Meeting'><img src="/src/Images/Logos/GMOD2016.png" alt="GMOD Meeting" height=80" /></a>
-<a href='/src/Events/ISMB2016/index.md'><img src="/src/Images/Logos/BOSC_logo.png" alt="BOSC 2015" width="100" /></a>
-<a href='/src/Events/ISMB2016/index.md'><img src="/src/Images/Logos/ISMB_2016_Logo.jpg" alt="ISMB 2016" width="100" /></a>
-<a href='http://www.genetics-gsa.org/genetics/2016/cgi-bin/tagc16soe.pl#Sat'><img src="/src/Images/Logos/TAGC_logo_squarish.png" alt="An Introduction to Using Galaxy for Genetic Data Analysis @ TAGC" height="70" /></a> &nbsp;&nbsp;
-<a href='https://xsede16.sched.org/speaker/jamestaylor6'><img src="/src/Images/Logos/XSEDE16Small.png" alt="Galaxy @ XSEDE'16" height="60" /></a> &nbsp;&nbsp;
-<a href='/src/Events/Rochester2016/index.md'><img src="/src/Images/Logos/URochester.png" alt="University of Rochester" height="40" /></a> &nbsp;&nbsp;
-<a href='http://icbo.cgrb.oregonstate.edu/node/41'><img src="/src/Images/Logos/ICBO_joint.png" alt="Integrating Ontological and Genomic Analysis with Galaxy Workshop @ ICBO" height="70" /></a> &nbsp;&nbsp;
-<a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Aug16.html'><img src="/src/Images/Logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="80" /></a>
+<a href='https://gcc2016.iu.edu/index.php'><img src="/src/images/Logos/GCC2016LogoBig.png" alt="2016 Galaxy Community Conference (GCC2016)" height=100" /></a> &nbsp;&nbsp;&nbsp; 
+<a href='http://gmod.org/wiki/Jun_2016_GMOD_Meeting'><img src="/src/images/Logos/GMOD2016.png" alt="GMOD Meeting" height=80" /></a>
+<a href='/src/events/ISMB2016/index.md'><img src="/src/images/Logos/BOSC_logo.png" alt="BOSC 2015" width="100" /></a>
+<a href='/src/events/ISMB2016/index.md'><img src="/src/images/Logos/ISMB_2016_Logo.jpg" alt="ISMB 2016" width="100" /></a>
+<a href='http://www.genetics-gsa.org/genetics/2016/cgi-bin/tagc16soe.pl#Sat'><img src="/src/images/Logos/TAGC_logo_squarish.png" alt="An Introduction to Using Galaxy for Genetic Data Analysis @ TAGC" height="70" /></a> &nbsp;&nbsp;
+<a href='https://xsede16.sched.org/speaker/jamestaylor6'><img src="/src/images/Logos/XSEDE16Small.png" alt="Galaxy @ XSEDE'16" height="60" /></a> &nbsp;&nbsp;
+<a href='/src/events/Rochester2016/index.md'><img src="/src/images/Logos/URochester.png" alt="University of Rochester" height="40" /></a> &nbsp;&nbsp;
+<a href='http://icbo.cgrb.oregonstate.edu/node/41'><img src="/src/images/Logos/ICBO_joint.png" alt="Integrating Ontological and Genomic Analysis with Galaxy Workshop @ ICBO" height="70" /></a> &nbsp;&nbsp;
+<a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Aug16.html'><img src="/src/images/Logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="80" /></a>
 &nbsp;&nbsp;&nbsp; 
-<a href='/src/Community/GalaxyAdmins/Meetups/2016_08_18/index.md'><img src="/src/Images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" height="60" /></a>
-<a href='https://registration.genomecenter.ucdavis.edu/events/Aug_2016_Bioinformatics_Galaxy_Workshop/'><img src="/src/Images/Logos/UCDavisGenomeCenter_Bioinf.png" alt="Using Galaxy for Analysis of RNA-Seq, Exome-Seq, and Variants" height="70" /></a>
-<a href='/src/Events/ECCB2016/index.md'><img src="/src/Images/Logos/ECCB2016LogoSquare.jpg" alt="Galaxy @ ECCB 2016" height=80" /></a>
-<a href='http://sites.unica.it/metabolomicaclinica/events/scientific-school-2016/'><img src="/src/Images/Logos/UCagliariLogoTrans.png" alt="Metabolomics Sardinian Scientific School: How to bridge metabolomics and genomics" height="85" /></a>
-<a href='http://biosb.nl/education/course-portfolio/rna-seq/'><img src="/src/Images/Logos/BioSBResearchSchool.png" alt="NGS Course: RNA-seq data analysis" height="85" /></a>
-<a href='https://github.com/galaxyproteomics/tools-galaxyp/issues/57#issuecomment-245934625'><img src="/src/Images/Logos/GalaxyPCondaHack.png" alt="Galaxy-P Conda hackathon" height="85" /></a>
-<a href='http://www.jsbi.org/iibmp2016/program_bof/#B10'><img src="/src/Images/Logos/IIBMP2016Logo.png" alt="GalaxyによるNGSデータ解析 (Galaxy NGS Data Analysis BoF)" height="85" /></a> &nbsp;
-<a href='https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3'><img src="/src/Images/GalaxyLogos/GTNLogo300.png" alt="Galaxy Training Contribution Fest" height="75" /></a> &nbsp;
-<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=83'><img src="/src/Images/Logos/GenoToulLogo.png" alt="Metagenomic: amplicon analysis" height="60" /></a> &nbsp;
-<a href='https://www.facebook.com/events/1593583060947735/'><img src="/src/Images/Logos/CBioVikingsTrans.png" alt="Galaxy Workshop" height="80" /></a>
-<a href='http://www.france-bioinformatique.fr/en/evenements/galaxy4bioinformatics'><img src="/src/Images/Logos/IFBGalaxyWG.png" alt=" Galaxy4Bioinformatics" height="60" /></a>
-<a href='/src/Events/SG2016/index.md'><img src="/src/Images/Logos/SG2016T.V2_logo.png" alt="2016 Swiss German Galaxy Tour" height="80" /></a>
-<a href='http://www.igst.it/nettab/2016/'><img src="/src/Images/Logos/NETTAB.gif" alt="Galaxy @ NETTAB 2016" height="60" /></a>
+<a href='/src/Community/GalaxyAdmins/Meetups/2016_08_18/index.md'><img src="/src/images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" height="60" /></a>
+<a href='https://registration.genomecenter.ucdavis.edu/events/Aug_2016_Bioinformatics_Galaxy_Workshop/'><img src="/src/images/Logos/UCDavisGenomeCenter_Bioinf.png" alt="Using Galaxy for Analysis of RNA-Seq, Exome-Seq, and Variants" height="70" /></a>
+<a href='/src/events/ECCB2016/index.md'><img src="/src/images/Logos/ECCB2016LogoSquare.jpg" alt="Galaxy @ ECCB 2016" height="80" /></a>
+<a href='http://sites.unica.it/metabolomicaclinica/events/scientific-school-2016/'><img src="/src/images/Logos/UCagliariLogoTrans.png" alt="Metabolomics Sardinian Scientific School: How to bridge metabolomics and genomics" height="85" /></a>
+<a href='http://biosb.nl/education/course-portfolio/rna-seq/'><img src="/src/images/Logos/BioSBResearchSchool.png" alt="NGS Course: RNA-seq data analysis" height="85" /></a>
+<a href='https://github.com/galaxyproteomics/tools-galaxyp/issues/57#issuecomment-245934625'><img src="/src/images/Logos/GalaxyPCondaHack.png" alt="Galaxy-P Conda hackathon" height="85" /></a>
+<a href='http://www.jsbi.org/iibmp2016/program_bof/#B10'><img src="/src/images/Logos/IIBMP2016Logo.png" alt="GalaxyによるNGSデータ解析 (Galaxy NGS Data Analysis BoF)" height="85" /></a> &nbsp;
+<a href='https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3'><img src="/src/images/GalaxyLogos/GTNLogo300.png" alt="Galaxy Training Contribution Fest" height="75" /></a> &nbsp;
+<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=83'><img src="/src/images/Logos/GenoToulLogo.png" alt="Metagenomic: amplicon analysis" height="60" /></a> &nbsp;
+<a href='https://www.facebook.com/events/1593583060947735/'><img src="/src/images/Logos/CBioVikingsTrans.png" alt="Galaxy Workshop" height="80" /></a>
+<a href='http://www.france-bioinformatique.fr/en/evenements/galaxy4bioinformatics'><img src="/src/images/Logos/IFBGalaxyWG.png" alt=" Galaxy4Bioinformatics" height="60" /></a>
+<a href='/src/events/SG2016/index.md'><img src="/src/images/Logos/SG2016T.V2_logo.png" alt="2016 Swiss German Galaxy Tour" height="80" /></a>
+<a href='http://www.igst.it/nettab/2016/'><img src="/src/images/Logos/NETTAB.gif" alt="Galaxy @ NETTAB 2016" height="60" /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href='/src/Events/AdminTraining2016/index.md'><img src="/src/Images/Logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="120" /></a>
+<a href='/src/events/AdminTraining2016/index.md'><img src="/src/images/Logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="120" /></a>
 </div>
 <br />
 
@@ -183,7 +179,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> November 28 - December 2 </th>
     <td> <em><a href='http://workflow4metabolomics.org/training/w4mcourse2016'>Traitement des donnéesmétabolomiques sous Galaxy</a></em> <div class='indent red'>Les pré-inscriptions sont ouvertes jusqu'au 15 juillet 2016</div> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' />  <a href='http://www.sb-roscoff.fr/'>Station Biologique, Roscoff</a>, France </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href="mailto:contact@workflow4metabolomics.org">Contact</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href="mailto:contact@workflow4metabolomics.org">Contact</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -193,7 +189,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> November&nbsp;20-25 </th>
     <td> <em><a href='http://www.france-bioinformatique.fr/evenements/EBA2016'>Ecole Bioinformatique AVIESAN</a></em> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> <a href='http://www.sb-roscoff.fr/'>Station Biologique, Roscoff</a>, France </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:ecole-bioinfo@aviesan.fr">Email</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:ecole-bioinfo@aviesan.fr">Email</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -207,7 +203,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> November 8-20 </th>
     <td> <em><a href='https://meetings.cshl.edu/courses.aspx?course=c-seqtec&year=16'>Advanced Sequencing Technologies & Applications</a></em> <div class='indent'>Application deadline is July 15</div> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='https://cshl.edu/'>Cold Spring Harbor Laboratory</a>, New York, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -219,16 +215,16 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
   </tr>
   <tr>
     <th> November 9-11 </th>
-    <td> <strong><a href='/src/Events/AdminTraining2016/AdvancedSession/index.md'>Galaxy Admin Training: Advanced</a></strong> </td>
+    <td> <strong><a href='/src/events/AdminTraining2016/AdvancedSession/index.md'>Galaxy Admin Training: Advanced</a></strong> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> Salt Lake City, Utah, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/Events/AdminTraining2016/index.md#instructors'>Instructors</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/Events/AdminTraining2016/index.md#instructors'>Instructors</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> November 11 </th>
     <td> <em><a href='https://www.eventbrite.com.au/e/introduction-to-the-gvl-and-galaxy-registration-28385990261'>Introduction to the GVL and Galaxy</a></em> </td>
     <td> <img src='/src/images/Icons/Australia40.png' alt='Australia' align='right' /> University of Melbourne, Melbourne, Victoria, Australia </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.vlsci.org.au/page/contacts'>VLSCI</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.vlsci.org.au/page/contacts'>VLSCI</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -249,7 +245,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> November 7-8 </th>
     <td> <strong><a href='/src/Events/AdminTraining2016/BasicsSession/index.md'>Galaxy Admin Training: Introduction</a></strong> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> Salt Lake City, Utah, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/Events/AdminTraining2016/index.md#instructors'>Instructors</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/Events/AdminTraining2016/index.md#instructors'>Instructors</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -308,14 +304,14 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> October 18-20 </th>
     <td> <em><a href='http://www.france-bioinformatique.fr/en/evenements/galaxy4bioinformatics'>Galaxy4Bioinformatics</a></em> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> Lyon, France </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.france-bioinformatique.fr/en/node/17'>Contacts</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.france-bioinformatique.fr/en/node/17'>Contacts</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> October 10-13 </th>
     <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=83'>Metagenomic: amplicon analysis</a></em> <div class='indent red'> Registration closes 4 October</div> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> INRA Auzeville, Auzeville, France </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> Sarah Maman </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> Sarah Maman </td>
     <td> </td>
   </tr>
   <tr>
@@ -381,14 +377,14 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> September 26-28 </th>
     <td> <em><a href='http://biosb.nl/education/course-portfolio/rna-seq/'>NGS Course: RNA-seq data analysis</a></em> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> Leiden University Medical Center, The Netherlands </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> Peter-Bram ‘t Hoen, Jan Oosting, Celia van Gelder </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> Peter-Bram ‘t Hoen, Jan Oosting, Celia van Gelder </td>
     <td> </td>
   </tr>
   <tr>
     <th> September 19-23 </th>
     <td> <em><a href='https://drive.google.com/file/d/0Bw3CPLmTKRT8V1p0QlU5QnYyS28/view'>High Throughput Sequencing (HTS) Data Analyses for Scientists</a></em> <div class='indent red'>This workshop is full</div></td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> Freiburg, Germany </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:galaxy@informatik.uni-freiburg.de">Contact</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:galaxy@informatik.uni-freiburg.de">Contact</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -402,7 +398,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> September 19-20 </th>
     <td> <em><a href='http://bioinformaticstraining.pythonanywhere.com/course/10/'>Exome analysis using Galaxy</a></em> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> Milano, Italy </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href='http://bioinformaticstraining.pythonanywhere.com/trainers/paolo_uva'>Paolo Uva</a>, <a href='http://bioinformaticstraining.pythonanywhere.com/trainers/gianmauro_cuccuru'>Gianmauro Cuccuru</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href='http://bioinformaticstraining.pythonanywhere.com/trainers/paolo_uva'>Paolo Uva</a>, <a href='http://bioinformaticstraining.pythonanywhere.com/trainers/gianmauro_cuccuru'>Gianmauro Cuccuru</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -430,7 +426,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> August 29 - September 2 </th>
     <td> <em><a href='https://registration.genomecenter.ucdavis.edu/events/Aug_2016_Bioinformatics_Galaxy_Workshop/'>Using Galaxy for Analysis of RNA-Seq, Exome-Seq, and Variants</a></em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> Davis, California, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training.bioinformatics@ucdavis.edu">UC Davis Bioinformatics Training Program</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training.bioinformatics@ucdavis.edu">UC Davis Bioinformatics Training Program</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -468,14 +464,14 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> August 9-10 </th>
     <td> <em><a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home/workshop-agenda/galaxy-abstract'>Introduction to Galaxy Workflows</a></em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home'>Workflows Workshop</a>, <em><a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home/call-for-host-sites'>Distributed</a></em> </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
     <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2016_WorkflowWorkshop.pdf'>Slides</a> </td>
   </tr>
   <tr>
     <th> August 1-4 </th>
     <td> <em><a href='http://icbo.cgrb.oregonstate.edu/node/41'>Integrating Ontological and Genomic Analysis with Galaxy Workshop</a></em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://icbo.cgrb.oregonstate.edu/'>ICBO 2016</a>, Corvallis, Oregon, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
     <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2016_ICBO_Tutorial.pdf'>Tutorial</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2016_ICBO_Slides.pdf'>Slides</a> </td>
   </tr>
   <tr>
@@ -485,14 +481,14 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> July 21 </th>
     <td> <em><a href='/src/Events/Cornell2016/index.md'>Introduction to Galaxy</a></em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> Cornell University, Ithaca, New York, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
     <td> <a href='/src/Events/Cornell2016/index.md#slides'>Slides</a> </td>
   </tr>
   <tr>
     <th> July 19-20 </th>
     <td> <em><a href='/src/Events/Rochester2016/index.md'>Introduction to Galaxy</a></em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> University of Rochester, Rochester, New York, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
     <td> <a href='/src/Events/Rochester2016/index.md#slides'>Slides</a> </td>
   </tr>
   <tr>
@@ -572,7 +568,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> June 25-29 </th>
     <td> <strong><em><a href='https://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href='https://gcc2016.iu.edu/organizers'>Organizers</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href='https://gcc2016.iu.edu/organizers'>Organizers</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -586,7 +582,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> June 13-17 </th>
     <td> <em><a href='https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/'>Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data</a></em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> Davis, California, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training.bioinformatics@ucdavis.edu">UC Davis Bioinformatics Training Program</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training.bioinformatics@ucdavis.edu">UC Davis Bioinformatics Training Program</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -607,35 +603,35 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> June 14 </th>
     <td> <em><a href='https://www.eventbrite.com.au/e/rna-seq-differential-gene-expression-analysis-using-the-gvl-and-galaxy-registration-25500085442'>RNA-Seq Differential Gene Expression Analysis using the GVL and Galaxy</a></em> </td>
     <td> <img src='/src/images/Icons/Australia40.png' alt='Australia' align='right' /> Melbourne, Australia </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.vlsci.org.au/page/contacts'>VLSCI</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.vlsci.org.au/page/contacts'>VLSCI</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> June 9-10 </th>
     <td> <em><a href='http://bioinformatics.ca/workshops/2016/informatics-high-throughput-sequencing-data-2016'>Informatics on High-throughput Sequencing Data</a></em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> Montreal, Quebec, Canada </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href='http://bioinformatics.ca/person/cbw-experts/francis-ouellette'>Francis Ouellette</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> June 5-9 </th>
     <td> <em><a href='/src/Events/ASMS2016/index.md'>64th ASMS Conference on Mass Spectrometry and Allied Topics</a></em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> San Antonio, Texas, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/Events/ASMS2016/index.md'>Presenters</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/Events/ASMS2016/index.md'>Presenters</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> June 8 </th>
     <td> <em><a href='https://www.eventbrite.com.au/e/variant-calling-with-galaxy-and-the-gvl-for-beginners-registration-25420916646'>Variant Calling with Galaxy and the GVL for beginners</a></em> </td>
     <td> <img src='/src/images/Icons/Australia40.png' alt='Australia' align='right' /> Melbourne, Australia </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.vlsci.org.au/page/contacts'>VLSCI</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.vlsci.org.au/page/contacts'>VLSCI</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> June 7 </th>
     <td> <em><a href='https://www.eventbrite.com.au/e/introduction-to-the-gvl-and-galaxy-registration-25420716046'>Introduction to the GVL and Galaxy</a></em> </td>
     <td> <img src='/src/images/Icons/Australia40.png' alt='Australia' align='right' /> Melbourne, Australia </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.vlsci.org.au/page/contacts'>VLSCI</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.vlsci.org.au/page/contacts'>VLSCI</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -687,7 +683,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> May 19-20 </th>
     <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=82'>Galaxy : RNAseq alignment and transcripts assemblies</a></em> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> Part of <a href='http://bioinfo.genotoul.fr/index.php?id=10'>Cycle d'aprentissage sous Galaxy</a>, INRA, Auzeville, France </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> Celine Noirot, Cédric Cabau </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> Celine Noirot, Cédric Cabau </td>
     <td> </td>
   </tr>
   <tr>
@@ -701,14 +697,14 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> May 17 </th>
     <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=80'>Galaxy First Step</a></em> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> Part of <a href='http://bioinfo.genotoul.fr/index.php?id=10'>Cycle d'aprentissage sous Galaxy</a>, INRA, Auzeville, France </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> Sarah Maman </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> Sarah Maman </td>
     <td> </td>
   </tr>
   <tr>
     <th> May 18-19 </th>
     <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=81'>Galaxy: Reads alignment and SNP calling</a></em> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> Part of <a href='http://bioinfo.genotoul.fr/index.php?id=10'>Cycle d'aprentissage sous Galaxy</a>, INRA, Auzeville, France </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> Philippe Bardou </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> Philippe Bardou </td>
     <td> </td>
   </tr>
   <tr>
@@ -722,7 +718,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> May 12-13 </th>
     <td> <em><a href='https://www.molmed.nl/courses/CourseDetail.asp?backpage=courses.asp&courseID=1448'>RNA-Seq and DNA-Seq Cancer Analyses</a></em> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> Rotterdam, The Netherlands </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:y DOT hoogstrate AT erasmusmc.nl">Youri Hoogstrate</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:y DOT hoogstrate AT erasmusmc.nl">Youri Hoogstrate</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -736,14 +732,14 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> May 6 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy-2-2/'>Variant detection using Galaxy Workshop</a></em> </td>
     <td> <img src='/src/images/Icons/Australia40.png' alt='Australia' align='right' /> University of Queensland, St Lucia, Australia </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training@qfab.org">QFAB Training</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training@qfab.org">QFAB Training</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> May 5 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-genome-assembly-using-gvl/'>De novo genome assembly using Genomics Virtual Lab Workshop</a></em> </td>
     <td> <img src='/src/images/Icons/Australia40.png' alt='Australia' align='right' /> University of Queensland, St Lucia, Australia </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training@qfab.org">QFAB Training</a>, <a href='http://www.qfab.org/xin-yi-chua/'>Xin-Yi Chua</a>, <a href='http://www.qfab.org/michael-thang/'>Mike Thang</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training@qfab.org">QFAB Training</a>, <a href='http://www.qfab.org/xin-yi-chua/'>Xin-Yi Chua</a>, <a href='http://www.qfab.org/michael-thang/'>Mike Thang</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -802,7 +798,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> April 6-7 </th>
     <td> <strong><em><a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'>Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies</a></strong></em> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> <a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'>Galaxy DevOps Workshop 2016</a>, <a href='https://drive.google.com/file/d/0B2xSE9muunQPQ1E1Q3UwMVBTR1k'>Heidelberg</a>, Germany </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/BjoernGruening/index.md'>Björn Grüning</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/BjoernGruening/index.md'>Björn Grüning</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -826,8 +822,8 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
   <tr>
     <th> March 29 </th>
     <td> <em><a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-rnaseq-sous-galaxy/'>Introduction à l'analyse de données RNAseq sous Galaxy</a></em> </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src="/src/Images/Icons/Europe40.png" alt="" /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src="/src/Images/GalaxyLogos/GTN16.png" alt="Training offered by GTN Member" /></a></div><a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src="/src/images/Icons/Europe40.png" alt="" /></a></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src="/src/images/GalaxyLogos/GTN16.png" alt="Training offered by GTN Member" /></a></div><a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -869,7 +865,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> February 29 - March 3 </th>
     <td> <em><a href='http://www.france-bioinformatique.fr/fr/cloud/formation-FG'>Formation Cloud et Galaxy IFB pour France Génomique</a></em> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' />  Campus CNRS de Gif-sur-Yvette, France </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.france-bioinformatique.fr/fr/contact'>IFB</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.france-bioinformatique.fr/fr/contact'>IFB</a> </td>
     <td> <a href='http://www.france-bioinformatique.fr/fr/cloud/formation-FG'>Slides</a> </td>
   </tr>
   <tr>
@@ -880,14 +876,14 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> February 20-23 </th>
     <td> <em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a></em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' />  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> February 15-19 </th>
     <td> <em><a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a></em> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> <a href='https://www.supagro.fr/web/index.php'>Montpellier SupAgro</a>, Montpellier, France </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.supagro.fr/web/pages/contact.php?id=139'>Yolande Olivier</a>, <a href='https://www.supagro.fr/web/pages/contact.php?id=102'>Dominique Alhinc</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.supagro.fr/web/pages/contact.php?id=139'>Yolande Olivier</a>, <a href='https://www.supagro.fr/web/pages/contact.php?id=102'>Dominique Alhinc</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -908,7 +904,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> February 16 </th>
     <td> </em><a href='http://go4bioinformatics.genouest.org/initiation-a-la-plateforme-web-danalyse-de-donnees-galaxy-lanalyse-de-donnees-biologiques-pour-tous/'>Initiation à la plateforme web GALAXY</a><em> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> <a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src="/src/Images/GalaxyLogos/GTN16.png" alt="Training offered by GTN Member" /></a></div> <a href='https://www.e-biogenouest.org/members/1005'>Yvan Le Bras</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy_user_group_grand_ouest_28guggo29-bioinformatics'><img src="/src/images/GalaxyLogos/GTN16.png" alt="Training offered by GTN Member" /></a></div> <a href='https://www.e-biogenouest.org/members/1005'>Yvan Le Bras</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -922,7 +918,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> February 8-9 </th>
     <td> </em><a href='https://mod2016.com/'>Initiation à l’environnement UNIX et à la plateforme GALAXY</a><em> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> <a href='https://mod2016.com/'>Montpellier OMICS Days 2016</a>, Montpellier, France </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -933,7 +929,7 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> January 21, 22 </th>
     <td> </em><a href='/src/Events/ISMMS2016/index.md'>Introduction to Galaxy Workshop</a><em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://icahn.mssm.edu/'>Icahn School of Medicine at Mt. Sinai</a>, New York, New York, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='/src/Events/ISMMS2016/index.md#questions'>Andrew Sharp</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='/src/Events/ISMMS2016/index.md#questions'>Andrew Sharp</a> </td>
     <td> <a href='/src/Events/ISMMS2016/index.md#slides'>Slides</a> </td>
   </tr>
   <tr>
@@ -968,14 +964,14 @@ For events prior to this year, see the **[Events Archive](/src/Events/Archive/in
     <th> January 9-13 </th>
     <td> <strong><a href='/src/Events/PAG2016/index.md'>Plant and Animal Genome (PAG XXIV)</a></strong> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> San Diego, California, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> See <a href='/src/Events/PAG2016/index.md'>presenters</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> See <a href='/src/Events/PAG2016/index.md'>presenters</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> January 8 </th>
     <td> </em><a href='/src/Events/ASU2016/index.md'>Introduction to Galaxy Workshop</a><em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://asu.edu/'>Arizona State University</a>, Tempe, Arizona, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://sols.asu.edu/people/nico-franz'>Nico Franz</a>, <a href='https://sols.asu.edu/people/melissa-wilson-sayres'>Melissa A. Wilson Sayres</a>, <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://sols.asu.edu/people/nico-franz'>Nico Franz</a>, <a href='https://sols.asu.edu/people/melissa-wilson-sayres'>Melissa A. Wilson Sayres</a>, <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
     <td> </td>
   </tr>
 </table>

@@ -15,7 +15,7 @@ You may have noticed that **the Galaxy community site / wiki is moving.**  We ar
 
 **And we need your help to finish the move.**
 
-The *Commons* uses GitHub Flavored Markdown for markup,  and [Metalsmith](http://metalsmith.io) for web site rendering and for semi-structured content (such as the [Events](src/Events) page). The new platform offers the strength of our old wiki (easy contribution) with a markup language many more people know, easy programmatic access, and all the strengths of GitHub.
+The *Commons* uses GitHub Flavored Markdown for markup,  and [Metalsmith](http://metalsmith.io) for web site rendering and for semi-structured content (such as the [Events](src/events) page). The new platform offers the strength of our old wiki (easy contribution) with a markup language many more people know, easy programmatic access, and all the strengths of GitHub.
 
 Once the Commons is in better shape it will become the [galaxyproject.org](https://galaxyproject.org) site.  Until then you can find it at [new.galaxyproject.org](https://new.galaxyproject.org).  Once the move is complete and the [old wiki](https://wiki.galaxyproject.org) will be shut down.
 
@@ -79,7 +79,7 @@ Accepted talks will be presented during the 2-day conference, 4-5 February. Talk
 
 ## All upcoming events
 
-There are [a plentitude of Galaxy related events coming up](/src/Events/index.md) in the next few months:
+There are [a plentitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
 
 <div class='center'> 
 <a href='https://www.embl-abr.org.au/game2017/'><img src="/src/images/Logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="120" /></a>
@@ -95,19 +95,19 @@ There are [a plentitude of Galaxy related events coming up](/src/Events/index.md
    <tr>
      <th class="th" > December&nbsp;6 </th>
      <td> <em><a href="https://github.com/alegrand/RR_webinars/blob/master/6_reproducibility_bioinformatics/index.org">Reproducible Science in Bioinformatics: Current Status, Solutions and Research Opportunities</a> </em> </td>
-     <td> <div class='right'><img src="/src/images/Icons/World40.png" alt="Around the world" /></div> Genoble, France, and <em>Online</em> </td>
+     <td> <img src="/src/images/Icons/World40.png" alt="Around the world" align="right" /> Grenoble, France, and <em>Online</em> </td>
      <td> <a href="https://www.lri.fr/~cohen/">Sarah Cohen Boulakia</a>, <a href="http://yvanlebras.fr/">Yvan Le Bras</a> and Bruno Chopard </td>
   </tr>
    <tr>
      <th class="th" > December 8 </th>
      <td> <em>The Community Commons Contribution Convergence (C<sup>4</sup>)</em> </td>
-     <td> <div class='right'><img src="/src/images/Icons/World40.png" alt="Around the world" /></div> <em>Online</em> </td>
+     <td> <img src="/src/images/Icons/World40.png" alt="Around the world" align="right" /> <em>Online</em> </td>
      <td> <a href="/src/DannonBaker">Dannon Baker</a>, <a href="/src/DaveClements">Dave Clements</a> </td>
      </tr>
         <tr>
      <th class="th" > December&nbsp;15-16 </th>
      <td> <em><a href="http://www.denbi.de/22-training-cat/training-courses/215-galaxy-rna-sequencing-data-analysis-workshop">Galaxy RNA-sequencing data analysis workshop</a></em> </td>
-     <td> <div class='right'><img src="/src/images/Icons/Europe40.png" alt="Europe" /></div> Freiburg, Germany </td>
+     <td> <img src="/src/images/Icons/Europe40.png" alt="Europe" align="right" /> Freiburg, Germany </td>
      <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="http://galaxy.uni-freiburg.de">Freiburg Galaxy Team</a> </td>
    </tr>
   <tr>
@@ -121,7 +121,7 @@ There are [a plentitude of Galaxy related events coming up](/src/Events/index.md
   </tr>
   <tr>
     <th> January 16-19 </th>
-    <td> <strong><a href='/src/Events/egdw2017/index.md'>European Galaxy Developer Workshop</a></strong> </td>
+    <td> <strong><a href='/src/events/egdw2017/index.md'>European Galaxy Developer Workshop</a></strong> </td>
     <td> <div class='right'><img src="/src/images/Icons/Europe40.png" alt="Europe" /></div> Strasbourg, France </td>
     <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:egdw2017.oc@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
