@@ -1,7 +1,7 @@
 ---
 autotoc: true
 ---
-<div class='center'><img src="/src/Images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board"  /></div>
+<div class='center'><img src="/src/images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board"  /></div>
 
 <div class='right'></div>
 

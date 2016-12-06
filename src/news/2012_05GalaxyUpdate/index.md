@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[May 2012 Galaxy Update](/src/News/2012_05GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[May 2012 Galaxy Update](/src/news/2012_05GalaxyUpdate/index.md)</div>
 
-<div class='right'><a href='/src/GalaxyUpdates/2012_05/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="May 2012 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/src/GalaxyUpdates/2012_05/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="May 2012 Galaxy Update" width=150 /></a></div>
 
 The [May 2012 Galaxy Update](/src/GalaxyUpdates/2012_05/index.md) is now available.  *[Galaxy Update](/src/GalaxyUpdates/index.md)* is a (mostly) monthly summary of what is going on in the Galaxy community.  *Galaxy Updates* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -19,6 +19,6 @@ If you have anything you would like to see in the June *[Galaxy Update](/src/Gal
 
 [Dave Clements](/src/DaveClements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-05-01</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-05-01</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

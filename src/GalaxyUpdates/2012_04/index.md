@@ -6,7 +6,7 @@ title: April 2012 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the April 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -47,7 +47,7 @@ These were among [28 papers added to the Galaxy CiteULike group](http://www.cite
 
 ## Who's Hiring
 
-<div class='right'><img src="/src/Images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
+<div class='right'><img src="/src/images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs and software engineers at Emory and Penn State.
@@ -56,19 +56,19 @@ The Galaxy is expanding!  Please help it grow.
 * [Bioinformatician @ U Edinburgh](http://www.jobs.ed.ac.uk/vacancies/index.cfm?fuseaction=vacancies.detail&vacancy_ref=3015457)
 * [Bioinformatics Analyst @ U Virginia](http://jobs.virginia.edu/applicants/Central?quickFind=66485)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='/src/gmod:April 2012 GMOD Meeting/index.md'><img src="/src/Images/Logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; <a href='http://bioinformatics.ca/workshops/high_throughput'><img src="/src/Images/Logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height=100 /></a>  <a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'><img src="/src/Images/Logos/NESCentAcademyLogo.png" alt="Next-gen Sequencing in Evolutionary Biology Course" height="100" /></a> <a href='http://www.iscb.org/ismb2012'><img src="/src/Images/Logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>
+<a href='/src/gmod:April 2012 GMOD Meeting/index.md'><img src="/src/images/Logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; <a href='http://bioinformatics.ca/workshops/high_throughput'><img src="/src/images/Logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height=100 /></a>  <a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'><img src="/src/images/Logos/NESCentAcademyLogo.png" alt="Next-gen Sequencing in Evolutionary Biology Course" height="100" /></a> <a href='http://www.iscb.org/ismb2012'><img src="/src/images/Logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>
 </div>
 
 ### Deadlines
 
-<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
+<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/images/Icons/CalendarIcon.gif" /></a></div> 
 
-There are April application deadlines for EMBL-EBI Summer Bioinformatics School and Plant Bioinformatics Course; abstract deadlines for InCoB, DILS, BOSC, ISMB Tech Track, and [GCC2012](/src/Events/GCC2012/Abstracts/index.md); and an early registration deadline for BITS.
+There are April application deadlines for EMBL-EBI Summer Bioinformatics School and Plant Bioinformatics Course; abstract deadlines for InCoB, DILS, BOSC, ISMB Tech Track, and [GCC2012](/src/events/GCC2012/Abstracts/index.md); and an early registration deadline for BITS.
 
 See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com) for details on these and other events.
 
@@ -131,7 +131,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> <strong><a href='/src/Events/GCC2012/index.md'>2012 Galaxy Community Conference</a></strong><br /><a href='/src/Events/GCC2012/Register/index.md'>Early registration</a> and <a href='/src/Events/GCC2012/Abstracts/index.md'>abstract submission</a> are now open. </td>
+    <td> <strong><a href='/src/events/GCC2012/index.md'>2012 Galaxy Community Conference</a></strong><br /><a href='/src/events/GCC2012/Register/index.md'>Early registration</a> and <a href='/src/events/GCC2012/Abstracts/index.md'>abstract submission</a> are now open. </td>
     <td> Chicago, Illinois, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
@@ -140,13 +140,13 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 
 ### GCC2012 Update
 
-<div class='right'><a href='/src/Events/GCC2012/index.md'><img src="/src/Events/GCC2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/src/Events/GCC2012/TrainingDay/index.md'><img src="/src/Events/GCC2012/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
+<div class='right'><a href='/src/events/GCC2012/index.md'><img src="/src/events/GCC2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/src/events/GCC2012/TrainingDay/index.md'><img src="/src/events/GCC2012/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
 
-* The [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) will be held July 25-27, in Chicago.  
-* **The [abstract submission deadline is April 16](/src/Events/GCC2012/Abstracts/index.md).**
-* **[Early registration](/src/Events/GCC2012/Register/index.md) is now open.**
+* The [2012 Galaxy Community Conference (GCC2012)](/src/events/GCC2012/index.md) will be held July 25-27, in Chicago.  
+* **The [abstract submission deadline is April 16](/src/events/GCC2012/Abstracts/index.md).**
+* **[Early registration](/src/events/GCC2012/Register/index.md) is now open.**
 * The conference will feature two full days of presentations and discussions.  
-* A [whole day of training](/src/Events/GCC2012/TrainingDay/index.md) is also scheduled
+* A [whole day of training](/src/events/GCC2012/TrainingDay/index.md) is also scheduled
 
 ## Tool Shed Contributions
 

@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://www.open-bio.org/wiki/BOSC_2011'><img src="/src/Images/Logos/BOSC_logo.png" alt="BOSC 2011" width="120" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.iscb.org/ismbeccb2011'><img src="/src/Events/ISMB2011Logo80.png" alt="ISMB/ECCB 2011" /></a>
+<a href='http://www.open-bio.org/wiki/BOSC_2011'><img src="/src/images/Logos/BOSC_logo.png" alt="BOSC 2011" width="120" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.iscb.org/ismbeccb2011'><img src="/src/events/ISMB2011Logo80.png" alt="ISMB/ECCB 2011" /></a>
 
 # Galaxy at ISMB/ECCB, 3DSIG, and BOSC 2011
 
@@ -125,7 +125,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
 </table>
 
 
-<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtISMB2011.pdf'><img src="/src/Events/ISMB-ECCB-BOSC%202011/GalaxyAtISMB2011Thumb.png" /></a></div>
+<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtISMB2011.pdf'><img src="/src/events/ISMB-ECCB-BOSC%202011/GalaxyAtISMB2011Thumb.png" /></a></div>
 ## Flyer
 
 A [flyer](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtISMB2011.pdf) has been created listing all these talks.  Please feel free to print out a copy (or more) and take them with you.

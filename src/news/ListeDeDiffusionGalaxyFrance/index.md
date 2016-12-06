@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[Liste de diffusion Galaxy France](/src/News/ListeDeDiffusionGalaxyFrance/index.md)</div>
+<div class='newsItemHeader'>[Liste de diffusion Galaxy France](/src/news/ListeDeDiffusionGalaxyFrance/index.md)</div>
 
-<div class='right'><a href='http://france.list.galaxyproject.org/'><img src="/src/Images/Logos/GalaxyFranceListSearch.png" alt=""  /></a></div>
+<div class='right'><a href='http://france.list.galaxyproject.org/'><img src="/src/images/Logos/GalaxyFranceListSearch.png" alt=""  /></a></div>
 
 Cette liste a pour but de partager et communiquer sur nos différentes expériences avec Galaxy au sein de l'hexagone.
 La langue officielle de cette liste est le français.
@@ -32,6 +32,6 @@ Alban Lermine
 
 ([Translate](http://translate.google.com/translate?u=http%3A%2F%2Fwiki.g2.bx.psu.edu%2FNews%2FListeDeDiffusionGalaxyFrance))
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-08-28</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-08-28</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

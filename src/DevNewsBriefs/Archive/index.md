@@ -22,7 +22,7 @@
 | **[ June 8, 2010](/src/DevNewsBriefs/Archive/2010 06_08/index.md)**|  ` hg pull -u -r 837aabec314e ` |   | 
 
 <div class='center'>
-<a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/Images/Logos/GetGalaxySearch.png" alt="Search all Galaxy administration resources" width="120" /></a>
+<a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/images/Logos/GetGalaxySearch.png" alt="Search all Galaxy administration resources" width="120" /></a>
 
 [Search all Galaxy administration resources](http://galaxyproject.org/search/getgalaxy)
 </div>

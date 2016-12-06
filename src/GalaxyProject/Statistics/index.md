@@ -871,7 +871,7 @@ As of August 2016 these are the tags on papers in the Galaxy CiteULike Group:
 
 # Code
 
-<div class='center'><a href='https://www.openhub.net/p/galaxybx/'><img src="/src/Images/Logos/OpenHUBBlackDuck.png" alt="Galaxy code stats at Open HUB" height="30" /></a> &nbsp;&nbsp; <a href='https://github.com/galaxyproject/'><img src="/src/Images/Logos/GitHubLogoText.png" alt="Galaxy Project at GitHub" height="35" /></a>
+<div class='center'><a href='https://www.openhub.net/p/galaxybx/'><img src="/src/images/Logos/OpenHUBBlackDuck.png" alt="Galaxy code stats at Open HUB" height="30" /></a> &nbsp;&nbsp; <a href='https://github.com/galaxyproject/'><img src="/src/images/Logos/GitHubLogoText.png" alt="Galaxy Project at GitHub" height="35" /></a>
 </div>
 
 ## Commits and Committers
@@ -1089,18 +1089,18 @@ The Galaxy project started to [use Twitter](/src/GalaxyOnTwitter/index.md) on a 
 
 | Event/Year |  Location  |  # Registered  | 
 | ---------- | --------- | ------------- | 
-| [GDC2010](/src/Events/GDC2010/index.md) |  Cold Spring Harbor, New York, United States  |  69  | 
-| [GCC2011](/src/Events/GCC2011/index.md) |  Lunteren, The Netherlands  |  148  | 
-| [GCC2012](/src/Events/GCC2012/index.md) |  Chicago, Illinois, United States  |  203  | 
-| [GCC2013](/src/Events/GCC2013/index.md) |  Oslo, Norway  |  219  | 
-| [GCC2014](/src/Events/GCC2014/index.md) |  Baltimore, Maryland, United States  |  214  | 
+| [GDC2010](/src/events/GDC2010/index.md) |  Cold Spring Harbor, New York, United States  |  69  | 
+| [GCC2011](/src/events/GCC2011/index.md) |  Lunteren, The Netherlands  |  148  | 
+| [GCC2012](/src/events/GCC2012/index.md) |  Chicago, Illinois, United States  |  203  | 
+| [GCC2013](/src/events/GCC2013/index.md) |  Oslo, Norway  |  219  | 
+| [GCC2014](/src/events/GCC2014/index.md) |  Baltimore, Maryland, United States  |  214  | 
 | [GCC2015](http://gcc2015.tsl.ac.uk/) |  Norwich, United Kingdom  |  230  | 
-| [GCC2016](/src/Events/GCC2016/index.md) |  Bloomington, Indiana, United States  |  206  | 
+| [GCC2016](/src/events/GCC2016/index.md) |  Bloomington, Indiana, United States  |  206  | 
 | [GCC2017](https://gcc2017.sciencesconf.org/) |  Montpellier, France  |  ?  | 
 
 ## Galaxy Community Conference Feedback
 
-Summary of feedback on 3 key questions from [GCC2011](/src/Events/GCC2011/index.md), [GCC2012](/src/Events/GCC2012/index.md), [GCC2013](/src/Events/GCC2013/index.md), [GCC2014](/src/Events/GCC2014/index.md), and [GCC2015](http://gcc2015.tsl.ac.uk/)
+Summary of feedback on 3 key questions from [GCC2011](/src/events/GCC2011/index.md), [GCC2012](/src/events/GCC2012/index.md), [GCC2013](/src/events/GCC2013/index.md), [GCC2014](/src/events/GCC2014/index.md), and [GCC2015](http://gcc2015.tsl.ac.uk/)
 
 <div class='center'>
 <img src="/src/GalaxyProject/Statistics/GCCRecommendGraph.png" alt="Would you recommend Galaxy events to others?"  />  <img src="/src/GalaxyProject/Statistics/GCCUsefulGraph.png" alt="How useful was the GCC?"  /> <img src="/src/GalaxyProject/Statistics/GCCOrganized.png" alt="How well run and organized was the GCC?"  />

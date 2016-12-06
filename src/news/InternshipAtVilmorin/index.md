@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[Internship @ Vilmorin & Co](/src/News/InternshipAtVilmorin/index.md)</div>
+<div class='newsItemHeader'>[Internship @ Vilmorin & Co](/src/news/InternshipAtVilmorin/index.md)</div>
 
-<div class='right'><a href='http://www.vilmorin.info/'><img src="/src/Images/Logos/VilmorinLogo.gif" alt="Vilmorin & Co."  /></a></div>
+<div class='right'><a href='http://www.vilmorin.info/'><img src="/src/images/Logos/VilmorinLogo.gif" alt="Vilmorin & Co."  /></a></div>
 
 **Duration: 4-6 months**<br />
 **Subject: Integration and optimization of tools for SNP data analysis**
@@ -25,6 +25,6 @@ Thank you for sending your application to:
 
 Hien LE ([hien.le AT vilmorin DOT info](mailto:hien.le AT vilmorin DOT info)) 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-02-01</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-02-01</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

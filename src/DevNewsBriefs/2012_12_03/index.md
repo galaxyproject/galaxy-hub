@@ -32,7 +32,7 @@ title: December 03, 2012 Galaxy Development News Brief
 
 The alignment tools **'Bowtie**' and **'Lastz**' from the tool group **NGS: Mapping** have moved from the **[Galaxy distribution](https://bitbucket.org/galaxy/galaxy-dist)** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)**.
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/Images/Logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/Logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 
 Migration scripts for both **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz/)** will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing replacement tool wrappers from the Tool Shed. Primary executables for **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz)** plus target reference genomes should still be installed as described in the Galaxy wiki - start in the **[Tool Dependencies](/src/Admin/Tools/Tool Dependencies/index.md)** section.
 
@@ -79,11 +79,11 @@ The various types of contents of a tool shed repository ( valid tools, invalid t
 
 Notice the "Repository dependencies" container?  This is currently in development, and will be available in the tool shed shortly.  This container displays the list of all repositories int he tool shed upon which this repository depends.
 
-![](/src/Images/NewsGraphics/2012_12_03_emboss-sample.png)
+![](/src/images/NewsGraphics/2012_12_03_emboss-sample.png)
 
 Opening each of the above containers (by clicking on the links) displays the contents of each.
 
-![](/src/Images/NewsGraphics/2012_12_03_emboss-sample-open.png)
+![](/src/images/NewsGraphics/2012_12_03_emboss-sample-open.png)
 
 </div>
 
@@ -139,7 +139,7 @@ Backups will be made of the `hgweb.config file` (in the same directory in which 
   * Show/Hide Hidden Datasets - a single-click toggle to show or hide all hidden datasets
   * Unhide Hidden Datasets - a single-click to change state of hidden datasets to that of regular datasets
 
-![](/src/Images/NewsGraphics/2012_12_03_new-history-menu.png)
+![](/src/images/NewsGraphics/2012_12_03_new-history-menu.png)
 
 <br />
 # Job Runner
@@ -160,7 +160,7 @@ Backups will be made of the `hgweb.config file` (in the same directory in which 
 4. Fix for `ToolDataTable` new entries that should have been persisted to the `shed_tool_data_table_conf.xml` file were not being handled correctly.
 5. Attempt to make sure `.sample` files included in an installed tool shed repository are copied to the `~/tool-data` directory only if they are sample data index files.
 6. Add error messages for a `DataToolParameter` when the provided value is no longer valid due to be deleted or being in an error state.
-7. Rework "Re-run" ![](/src/Images/Icons/arrow-circle.png) functionality to validate and display errors between the original job and currently set states (e.g. the previously used dataset has been deleted).
+7. Rework "Re-run" ![](/src/images/Icons/arrow-circle.png) functionality to validate and display errors between the original job and currently set states (e.g. the previously used dataset has been deleted).
 8. To help with reproducibility, when extracting a workflow from a history, provide a warning message if the tool version for a job does not match the tool version of the currently loaded tool.
 
 <br />
@@ -181,11 +181,11 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 <br />
 # Announcements
 
-[News](/src/News/index.md), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_12)***
+[News](/src/news/index.md), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_12)***
 
-<div class='right'><a href='/src/Events/GCC2013/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
+<div class='right'><a href='/src/events/GCC2013/TrainingDay/index.md'><img src="/src/images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
 
-* [Training Day Topic Nominations](/src/Events/GCC2013/TrainingDay/index.md) for [GCC2013](/src/Events/GCC2013/index.md) will open in December.  Start thinking of ideas now!
+* [Training Day Topic Nominations](/src/events/GCC2013/TrainingDay/index.md) for [GCC2013](/src/events/GCC2013/index.md) will open in December.  Start thinking of ideas now!
 * Slides and Screencast from [November GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md) are online.  The next [GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/index.md) will be on [January 16](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) and feature [John Chilton](/src/JohnChilton/index.md) discussing "Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan"
 * [A short "Getting started with JGalaxy" document (with screenshots)](http://bit.ly/SkW2yU), by [John Chilton](/src/JohnChilton/index.md)
 * [Batch Workflow starting using the Galaxy API : Practical Example by Geert Vandeweyer](http://bit.ly/TjTj6X)

@@ -1,8 +1,8 @@
-<div class='newsItemHeader'>[Tools + Dataset Collections Hackathon](/src/News/ToolsCollectionsHack/index.md)</div>
+<div class='newsItemHeader'>[Tools + Dataset Collections Hackathon](/src/news/ToolsCollectionsHack/index.md)</div>
 
 Hello all,
 
-<div class='right'><a href='https://github.com/galaxyproject/tools-iuc/issues/239'><img src="/src/Images/Icons/DatasetCollectionIconInForm.png" alt="" width="150" /></a>
+<div class='right'><a href='https://github.com/galaxyproject/tools-iuc/issues/239'><img src="/src/images/Icons/DatasetCollectionIconInForm.png" alt="" width="150" /></a>
 <div class='center'>**[Make this happen!](https://github.com/galaxyproject/tools-iuc/issues/239)**</div>
 </div>
 
@@ -41,6 +41,6 @@ also currently thinking September 17th and 18th.
 Thanks, <br />
 Galaxy IUC
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-08-10</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-08-10</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

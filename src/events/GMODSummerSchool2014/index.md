@@ -26,10 +26,10 @@ perspective, you may want to view [The Galaxy 101 Tutorial](https://usegalaxy.or
 ## Introduction
 
 There are two sections to this workshop page:
-1. [command-line installation and configuration](/src/Events/GMODSummerSchool2014/index.md#command-line-set-up-and-operation): primarily geared to users who
+1. [command-line installation and configuration](/src/events/GMODSummerSchool2014/index.md#command-line-set-up-and-operation): primarily geared to users who
   want a basic installation of Galaxy with an eye towards setting things up flexibly should they decide to scale up at a
   later date.
-2. [administration from the web](/src/Events/GMODSummerSchool2014/index.md#the-admin-web-interface): introduces new admin users to the management of some of
+2. [administration from the web](/src/events/GMODSummerSchool2014/index.md#the-admin-web-interface): introduces new admin users to the management of some of
   Galaxy's most useful features including tool installation, library management, and workflow creation.
 
 Advanced installation will be covered lightly but will provide good resources for those that already know they need a
@@ -101,7 +101,7 @@ This is free software; see the source for copying conditions. There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE
 ```
 
-See also [Using APT to get Mercurial](/src/Events/BioITWorld2014/W14/index.md#clone_28download29_galaxy) for an example of
+See also [Using APT to get Mercurial](/src/events/BioITWorld2014/W14/index.md#clone_28download29_galaxy) for an example of
 installing mercurial via APT (a unix package manager).
 
 1. **As the galaxy user**, create the directory where you'd want to install Galaxy on your server (in this example, a
@@ -153,7 +153,7 @@ More advanced users may also consider installing Galaxy in a virtual environment
 clean slate for your python dependencies and paths (including `$PYTHONPATH`). For more information see:
 [Use a clean environment](/src/Admin/Config/Performance/ProductionServer/index.md#use_a_clean_environment)
 and:
-[Create a Python virtual environment](/src/Events/BioITWorld2014/W14/index.md#create_a_python_virtual_environment)
+[Create a Python virtual environment](/src/events/BioITWorld2014/W14/index.md#create_a_python_virtual_environment)
 
 
 
@@ -212,7 +212,7 @@ PostgreSQL can be installed with a package manager. Installing, starting, and co
 of this tutorial but more information can be found at:
 [their admin documentation page](http://www.postgresql.org/docs/9.3/static/admin.html)
 and a quick command line example here:
-[Install and configure PostgreSQL](/src/Events/BioITWorld2014/W14/index.md#install_and_configure_postgresql)
+[Install and configure PostgreSQL](/src/events/BioITWorld2014/W14/index.md#install_and_configure_postgresql)
 
 Let's create a postgres user named galaxy for our system galaxy user:
 1. Log out of the galaxy user and back into your sudo/admin user role by pressing `Ctrl-d`.
@@ -488,7 +488,7 @@ Later, if serving your lab computer or from behind a proxy, Galaxy can be access
 Once your Galaxy server is running, many of its functions can be controled over the web through the administration
 page. Click `Admin` from the top menu.
 
-![](/src/Events/GMODSummerSchool2014/admin.png)
+![](/src/events/GMODSummerSchool2014/admin.png)
 
 Here you'll see a page where you can:
 * Install, manage, and search for tools: bioinformatic programs/applications for user analysis
@@ -555,7 +555,7 @@ files can be downloaded here:
 To import this directory directly, Galaxy needs to know where to look. To do that, we:
 1. Open `universe_wsgi.ini` in an editor.
 2. Search for, uncomment, and change `#library_import_dir = None` to `library_import_dir = /data/galaxy`
-3. [Restart the server](/src/Events/GMODSummerSchool2014/index.md#restarting-the-server)
+3. [Restart the server](/src/events/GMODSummerSchool2014/index.md#restarting-the-server)
 
 Now Galaxy can import whole subdirectories of `/data` and their files easily.
 
@@ -604,7 +604,7 @@ parameters with help and explanation.
 See also: [Adding Tools from a Tool Shed](/src/Admin/Tools/AddToolFromToolShedTutorial/index.md)
 
 Programs and their dependencies will be installed to the directory setting `tool_dependency_dir` in your
-`universe_wsgi.ini` file (which we set [here](/src/Events/GMODSummerSchool2014/index.md#the-tool_dependency_dir)). They can also be invoked on the command line
+`universe_wsgi.ini` file (which we set [here](/src/events/GMODSummerSchool2014/index.md#the-tool_dependency_dir)). They can also be invoked on the command line
 from there (or added to your PATH). For example, if we have installed bwa, we could use that Galaxy tool installation
 from the command-line to index a yeast fasta:
 ```hightlight bash
@@ -668,7 +668,7 @@ None. You may need to enable third-party cookies in your browser.', you'll need 
 duration of this workshop).
 
 To enable 3rd-party cookies in Firefox or Chrome, see:
-[enabling 3rd-party cookies](/src/Events/BioITWorld2014/W14/index.md#install_a_tool_from_the_tool_shed)
+[enabling 3rd-party cookies](/src/events/BioITWorld2014/W14/index.md#install_a_tool_from_the_tool_shed)
 
 
 Let's check that it was installed and is now available:
@@ -690,7 +690,7 @@ do that and try them out on some isolate data from a library. Also, it's best to
 much as possible so we'll convert this trial run (if it worked) into a workflow (AKA pipeline) that will reduce this
 process to a two click operation.
 
-Using the procedure in [Installing a tool from a Tool Shed](/src/Events/GMODSummerSchool2014/index.md#installing-a-tool-from-a-tool-shed), search for and install the following tools:
+Using the procedure in [Installing a tool from a Tool Shed](/src/events/GMODSummerSchool2014/index.md#installing-a-tool-from-a-tool-shed), search for and install the following tools:
 1. `fastq_paired_end_joiner`:
   * search with the tool name 'fastq joiner'
   * The owner is 'devteam' and
@@ -941,5 +941,5 @@ The following are great places to start when trouble shooting or planning an exp
 ### Advanced Configuration for Production Scale Galaxy Servers
 
 1. [Running Galaxy in a production environment](/src/Admin/Config/Performance/ProductionServer/index.md)
-2. Nate Coraor's excellent page for the BioIT workshop on [Running a Local Galaxy Instance](/src/Events/BioITWorld2014/W14/index.md)
+2. Nate Coraor's excellent page for the BioIT workshop on [Running a Local Galaxy Instance](/src/events/BioITWorld2014/W14/index.md)
 

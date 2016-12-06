@@ -8,7 +8,7 @@ title: Workshop 14: Running a Local Galaxy Instance
 <br />
 ![](https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png) #usegalaxy #BioIT2014
 
-This page covers the follow-along steps of the workshop. Other material from the workshop may be found on  [Events/BioITWorld2014](/src/Events/BioITWorld2014/index.md) or [the Bio-IT World Expo workshop details page](http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135152).
+This page covers the follow-along steps of the workshop. Other material from the workshop may be found on  [Events/BioITWorld2014](/src/events/BioITWorld2014/index.md) or [the Bio-IT World Expo workshop details page](http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135152).
 
 
 
@@ -278,7 +278,7 @@ Reload the Galaxy interface if your 3rd party cookies were not previously enable
   * Building indexes on the command line
   * `.loc` files
   * `tool_data_table_conf.xml`
-  * Example of the above with bwa and S. cerevisiae (sacCer2) [transcript](/src/Events/BioITWorld2014/W14/index.md#adding-local-data-by-hand)
+  * Example of the above with bwa and S. cerevisiae (sacCer2) [transcript](/src/events/BioITWorld2014/W14/index.md#adding-local-data-by-hand)
 * Galaxy Data Managers
 
 ### Adding local data with a Galaxy Data Manager

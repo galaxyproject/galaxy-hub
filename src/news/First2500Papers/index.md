@@ -1,8 +1,8 @@
-<div class='newsItemHeader'>[2500 Galaxy Papers & Counting](/src/News/First2500Papers/index.md)</div>
+<div class='newsItemHeader'>[2500 Galaxy Papers & Counting](/src/news/First2500Papers/index.md)</div>
 
-<div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/src/Images/Logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
+<div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/src/images/Logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
 
-The [Galaxy CiteULike library](http://bit.ly/gxyCiteULike) recently reached a milestone:  It now has over 2500 publications in it.  The [Galaxy CiteULike Group](http://bit.ly/gxyCiteULike) was [launched in December 2011](/src/News/New Galaxy Group @ CiteULike/index.md) and [reached 1000 papers 18 months later](/src/News/GalaxyCiteULikePaper1000/index.md). 
+The [Galaxy CiteULike library](http://bit.ly/gxyCiteULike) recently reached a milestone:  It now has over 2500 publications in it.  The [Galaxy CiteULike Group](http://bit.ly/gxyCiteULike) was [launched in December 2011](/src/news/New Galaxy Group @ CiteULike/index.md) and [reached 1000 papers 18 months later](/src/news/GalaxyCiteULikePaper1000/index.md). 
 
 To be included in the library a publication needs to reference or mention Galaxy, extend Galaxy, use or reference a Galaxy instance, or otherwise discuss Galaxy or [cite one of the Galaxy Project papers](/src/CitingGalaxy/index.md).
 
@@ -379,6 +379,6 @@ In the meantime, I expect the next 2500 papers will be published in considerably
 
 [Dave Clements](/src/DaveClements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-08-12</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-08-12</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

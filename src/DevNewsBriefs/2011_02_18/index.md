@@ -71,11 +71,11 @@ The above setting rebuilds the indexes every 30 minutes.  You may want to build 
 
 Using *whoosh*, you can search on the `"name", "info", "message" and "dbkey"` attributes of library datasets using the following new search box displayed at the top of the `"Data Libraries"` page:
 
-![](/src/News Briefs/2011_02_18/2011_02_18_library_dataset_search.png)
+![](/src/news Briefs/2011_02_18/2011_02_18_library_dataset_search.png)
 
 Clicking the "Advanced search" link below the search box allows you to search data library names and descriptions as you did in the past:
 
-![](/src/News Briefs/2011_02_18/2011_02_18_data_library_search.png)
+![](/src/news Briefs/2011_02_18/2011_02_18_data_library_search.png)
 
 
 #### Details for searching with Lucene

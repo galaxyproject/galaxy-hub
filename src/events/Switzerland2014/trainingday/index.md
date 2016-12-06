@@ -1,11 +1,11 @@
 ---
 title:  Galaxy Demo / Training Day, Tuesday, September 30th, Bern 
 ---
-PLACEHOLDER_INCLUDE(/src/Events/SG2014/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/SG2014/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/src/Events/SG2014/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/SG2014/LinkBox/index.md)
 
 ## Content
 
@@ -54,7 +54,7 @@ Registration is now closed. Please contact [Hans-Rudolf Hotz](/src/HansrudolfHot
 
 <br />
 
-<div class='right'> <a href='https://wiki.systemsx.ch/display/SyBIT'><img src="/src/Images/Logos/SyBITLogo.png" alt="SyBIT" /></a>     <a href='http://www.systemsx.ch/'><img src="/src/Images/Logos/SystemsXchLogo.png" alt="SystemsX.ch" height="89" /></a> </div>
+<div class='right'> <a href='https://wiki.systemsx.ch/display/SyBIT'><img src="/src/images/Logos/SyBITLogo.png" alt="SyBIT" /></a>     <a href='http://www.systemsx.ch/'><img src="/src/images/Logos/SystemsXchLogo.png" alt="SystemsX.ch" height="89" /></a> </div>
 
 ## Support
 

@@ -16,9 +16,9 @@ In the source Distribution:
 In this wiki:
 * [2010/07/16 News Brief](/src/DevNewsBriefs/2010_07_16/index.md#initial-implementation-of-the-galaxy-web-api), initial implementation described
 * [2011/08/30 News Brief](/src/DevNewsBriefs/2011_08_30/index.md#api), update
-* [GCC2011 Galaxy Deployment and API presentation](/src/Events/GCC2011/index.md)
+* [GCC2011 Galaxy Deployment and API presentation](/src/events/GCC2011/index.md)
 * [Sample Tracking API](/src/Admin/Sample Tracking/Next Gen/index.md)
-* [GCC2011 Workflows and API Breakout Group](/src/Events/GCC2011/Workflows and API/index.md)
+* [GCC2011 Workflows and API Breakout Group](/src/events/GCC2011/Workflows and API/index.md)
 
 External:
 * The [Bioblend](http://bioblend.readthedocs.org/en/latest/) package provides an easy way to start using the Galaxy API by providing a set of Python bindings, developed by Galaxy developer [Enis Afgan](/src/EnisAfgan/index.md)

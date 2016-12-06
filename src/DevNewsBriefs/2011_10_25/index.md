@@ -17,8 +17,8 @@ autotoc: true
 
 ## News
 
-<div class='left'><a href='/src/GalaxyIsHiring/index.md'><img src="/src/Images/Icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
-* Keep current on all things Galaxy at our [News](/src/News/index.md) and [Events](/src/Events/index.md) wikis.
+<div class='left'><a href='/src/GalaxyIsHiring/index.md'><img src="/src/images/Icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
+* Keep current on all things Galaxy at our [News](/src/news/index.md) and [Events](/src/events/index.md) wikis.
 * Galaxy is still [hiring](/src/GalaxyIsHiring/index.md)!
 
 ## What's New
@@ -31,10 +31,10 @@ autotoc: true
   * [Managing Datasets](/src/Learn/Managing Datasets/index.md) wiki contains detailed help to organize, clone, copy, save, and delete unneeded data.
   * [Disk Quotas](/src/Admin/Disk Quotas/index.md) wiki has administrative information on how Galaxy's disk space accounting works, how to keep it up to date, and how to enable and manage quotas
   * Twitter [#galaxyproject](http://twitter.com/#galaxyproject).
-  * [Galaxy News](/src/News/index.md) Items and RSS feed.
+  * [Galaxy News](/src/news/index.md) Items and RSS feed.
 
 ----
-<a href='http://galaxyproject.org/wiki/News'><img src="/src/Images/NewsGraphics/2011_10_25_newsitem-quotas.png" alt="width="600px"" /></a>
+<a href='http://galaxyproject.org/wiki/News'><img src="/src/images/NewsGraphics/2011_10_25_newsitem-quotas.png" alt="width="600px"" /></a>
 ----
 
 
@@ -43,24 +43,24 @@ autotoc: true
 * Add the ability for a user to log out of all user sessions. Useful when sharing computers, using public computers, and the like.
 * Located under top menu bar: User -> Preferences ->*Logout of all user sessions*.
 
-<a href='http://usegalaxy.org/'><img src="/src/Images/NewsGraphics/2011_10_25_logout-everywhere.png" alt="logout-everywhere" width="600px" /></a>
+<a href='http://usegalaxy.org/'><img src="/src/images/NewsGraphics/2011_10_25_logout-everywhere.png" alt="logout-everywhere" width="600px" /></a>
 
 ### Trackster (Galaxy Track Browser)
 
 * The October 23-24, [BioVis](http://www.biovis.net/) 2011, Providence, Rhode Island, United States, included a talk covering the visualization tool Trackster aka Galaxy Track Browser (GTB). Abstract is [here](http://www.biovis.net/papers_abstracts/papers/111.htmlhere).
 * Overview provides chromosome-wide view of a single track independent of primary, interactive view.
 
-<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/Images/NewsGraphics/2011_10_25_trackster-overview.png" alt="trackster-overview" width="600px" /></a>
+<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/images/NewsGraphics/2011_10_25_trackster-overview.png" alt="trackster-overview" width="600px" /></a>
 * Make it possible to set features' transparency based on attribute values.
 
-<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/Images/NewsGraphics/2011_10_25_trackster-transparency.png" alt="trackster-tranparency" width="600px" /></a>
+<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/images/NewsGraphics/2011_10_25_trackster-transparency.png" alt="trackster-tranparency" width="600px" /></a>
 * Introduce track groups, which can be used to cluster and move tracks together. Running tools places new tracks in groups.
 
-<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/Images/NewsGraphics/2011_10_25_trackster-groups.png" alt="trackster-groups" width="600" /></a>
+<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/images/NewsGraphics/2011_10_25_trackster-groups.png" alt="trackster-groups" width="600" /></a>
 * Enable tools that produce BED output to be used in visual analytics framework and enable GOPS cluster tool to work in Trackster.
 * Use Fasta datasets to specify custom build visualizations.
 
-<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/Images/NewsGraphics/2011_10_25_custom-builds.png" alt="custom-builds" width="400px" /></a>
+<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/images/NewsGraphics/2011_10_25_custom-builds.png" alt="custom-builds" width="400px" /></a>
 
 ### Python and OS Support
 
@@ -70,7 +70,7 @@ autotoc: true
 
 ### Galaxy Tool Shed
 
-<div class='left'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="toolshed" width="100px" /></a></div>
+<div class='left'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/Logos/ToolShed.jpg" alt="toolshed" width="100px" /></a></div>
 * [Search repositories for valid tools by any combination of id, name or version](/src/Tool Shed/index.md#search_repositories_for_valid_tools_by_any_combination_of_id2c_name_or_version).
 * [Automatic installation of Galaxy tool shed repository tools into a local Galaxy instance](/src/Tool Shed/index.md#automatic_installation_of_galaxy_tool_shed_repository_tools_into_a_local_galaxy_instance).
 * [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/Tool Shed/index.md#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance).
@@ -131,7 +131,7 @@ autotoc: true
 
 ### Bug Fixes
 
-<div class='right'><a href='/src/Support/index.md'><img src="/src/Images/Icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/src/support/index.md'><img src="/src/images/Icons/bug.png" alt="bugs" width="20" /></a></div> 
 
 * Tasked jobs will now inherit the parent job's user information correctly.
 * Remove unspecified build validators from Cuffdiff wrapperfixes [https://bitbucket.org/galaxy/galaxy-central/issue/631](https://bitbucket.org/galaxy/galaxy-central/issue/631).

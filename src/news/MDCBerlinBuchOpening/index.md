@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[Bioinformatician, MDC Berlin-Buch](/src/News/MDCBerlinBuchOpening/index.md)</div>
+<div class='newsItemHeader'>[Bioinformatician, MDC Berlin-Buch](/src/news/MDCBerlinBuchOpening/index.md)</div>
 
 **Bioinformatics scientist/engineer for RNA bioinformatics and next-generation sequencing Berlin**
 
@@ -11,10 +11,10 @@ Applicants should have PhD degree or equivalent practical experience in research
 Please contact [Altuna Akalin](mailto:altuna.akalin@mdc DASH berlin.de) for further details.
 
 <div class='center'>
-<a href='https://www.mdc-berlin.de/'><img src="/src/Images/Logos/MCDBerlinBuch.gif" alt="MDC Berlin-Buch" width="300" /></a>
-<a href='http://www.helmholtz.de/'><img src="/src/Images/Logos/HelmholtzAssoc.gif" alt="Helmholtz Association of National Research Centers" /></a>
+<a href='https://www.mdc-berlin.de/'><img src="/src/images/Logos/MCDBerlinBuch.gif" alt="MDC Berlin-Buch" width="300" /></a>
+<a href='http://www.helmholtz.de/'><img src="/src/images/Logos/HelmholtzAssoc.gif" alt="Helmholtz Association of National Research Centers" /></a>
 </div>
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-01-17</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-01-17</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

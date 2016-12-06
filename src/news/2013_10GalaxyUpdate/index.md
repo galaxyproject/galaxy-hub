@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[October 2013 Galaxy Update](/src/News/2013_10GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[October 2013 Galaxy Update](/src/news/2013_10GalaxyUpdate/index.md)</div>
 
-<div class='right'><a href='/src/GalaxyUpdates/2013_10/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="October 2013 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/src/GalaxyUpdates/2013_10/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="October 2013 Galaxy Update" width=150 /></a></div>
 
 The [October 2013 Galaxy Update is out](/src/GalaxyUpdates/2013_10/index.md):
 
@@ -16,6 +16,6 @@ If you have anything you would like to see in the next *[Galaxy Update](/src/Gal
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-09-30 </div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-09-30 </div>
 
 [CategoryNews](/src/CategoryNews/index.md)

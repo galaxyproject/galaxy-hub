@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://www.nbic.nl/'><img src="/src/Images/Logos/NBICLogoLogoWithText.PNG" alt="NBIC" width="400" /></a>
+<a href='http://www.nbic.nl/'><img src="/src/images/Logos/NBICLogoLogoWithText.PNG" alt="NBIC" width="400" /></a>
 </div>
 
 The [Netherlands Bioinformatics Centre (NBIC)](http://www/nbic.nl) is power user and developer of Galaxy related tools.  NBIC was the host and co-sponsor of [GCC2011](/src/GCC2011/index.md).  NBIC also sponsored a Galaxy Hackathon in the spring of 2011.

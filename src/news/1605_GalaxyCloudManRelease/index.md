@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[16.05 Galaxy CloudMan release](/src/News/1605_GalaxyCloudManRelease/index.md)</div>
+<div class='newsItemHeader'>[16.05 Galaxy CloudMan release](/src/news/1605_GalaxyCloudManRelease/index.md)</div>
 
-<div class='right'><a href='/src/CloudMan/index.md'><img src="/src/Images/GalaxyLogos/cloudman-logo.jpg" alt="CloudMan" width="300" /></a></div>
+<div class='right'><a href='/src/CloudMan/index.md'><img src="/src/images/GalaxyLogos/cloudman-logo.jpg" alt="CloudMan" width="300" /></a></div>
 
 **We just released an update to Galaxy CloudMan on AWS.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
 
@@ -11,6 +11,6 @@ This is a minor update release with the following changes:
 
 See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-05-25 </div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-05-25 </div>
 
 [CategoryNews](/src/CategoryNews/index.md)

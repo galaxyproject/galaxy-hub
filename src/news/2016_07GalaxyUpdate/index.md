@@ -1,14 +1,14 @@
-<div class='newsItemHeader'>[July 2016 Galactic News](/src/News/2016_07GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[July 2016 Galactic News](/src/news/2016_07GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/src/GalaxyUpdates/2016_07/index.md#gcc2017-26-30-june-2017-montpellier-france'><img src="/src/Images/Logos/GCC2107.png" alt="GCC2017 Announced" width="200" /></a><br />
-<a href='/src/GalaxyUpdates/2016_07/index.md#swiss-german-galaxy-days'><img src="/src/Images/Logos/SG2016T.V2_logo.png" alt="2016 Swiss German Galaxy Tour" width="200" /></a><br />
-<a href='/src/GalaxyUpdates/2016_07/index.md#european-galaxy-developer-knowledge-exchange'><img src="/src/Images/Logos/ElixirNoTextLogo.png" alt="ELIXIR" width="200" /></a>
+<a href='/src/GalaxyUpdates/2016_07/index.md#gcc2017-26-30-june-2017-montpellier-france'><img src="/src/images/Logos/GCC2107.png" alt="GCC2017 Announced" width="200" /></a><br />
+<a href='/src/GalaxyUpdates/2016_07/index.md#swiss-german-galaxy-days'><img src="/src/images/Logos/SG2016T.V2_logo.png" alt="2016 Swiss German Galaxy Tour" width="200" /></a><br />
+<a href='/src/GalaxyUpdates/2016_07/index.md#european-galaxy-developer-knowledge-exchange'><img src="/src/images/Logos/ElixirNoTextLogo.png" alt="ELIXIR" width="200" /></a>
 </div>
 <div class='right'>
-<a href='/src/GalaxyUpdates/2016_07/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=140 /></a><br /><br />
-<a href='/src/GalaxyUpdates/2016_07/index.md#galaxy-admin-training-november-7-11-salt-lake-city-utah'><img src="/src/Images/Logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width=140" /></a><br />
-<a href='/src/GalaxyUpdates/2016_07/index.md#galaxy-australasia-meeting-game-2017-3-9-february-melbourne'><img src="/src/Images/Logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting (GAMe 2017)" width="140" /></a>
+<a href='/src/GalaxyUpdates/2016_07/index.md'><img src="/src/images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=140 /></a><br /><br />
+<a href='/src/GalaxyUpdates/2016_07/index.md#galaxy-admin-training-november-7-11-salt-lake-city-utah'><img src="/src/images/Logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width=140" /></a><br />
+<a href='/src/GalaxyUpdates/2016_07/index.md#galaxy-australasia-meeting-game-2017-3-9-february-melbourne'><img src="/src/images/Logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting (GAMe 2017)" width="140" /></a>
 </div>
 
 Some highlights from the **[July Galaxy News](/src/GalaxyUpdates/2016_07/index.md):**
@@ -32,6 +32,6 @@ Hope to [see you in Montpellier](/src/GalaxyUpdates/2016_07/index.md#gcc2017-26-
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-07-06</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-07-06</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

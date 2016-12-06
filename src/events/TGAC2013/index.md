@@ -1,7 +1,7 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.tgac.ac.uk/'><img src="/src/Images/Logos/TGACLogo.png" alt="The Genome Analysis Centre"  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.tgac.ac.uk/'><img src="/src/images/Logos/TGACLogo.png" alt="The Genome Analysis Centre"  /></a> </td>
   </tr>
 </table>
 
@@ -103,7 +103,7 @@ No programming or Linux command line experience is required.
 
 ## Support
 
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [The Genomics Analysis Centre (TGAC)](http://tgac.ac.uk).
 
@@ -113,7 +113,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Flyer
 
-<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/TGACGalaxy2013.pdf'><img src="/src/Events/TGAC2013/TGACGalaxy2013Thumb.png" alt="" width="100" /></a></div>
+<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/TGACGalaxy2013.pdf'><img src="/src/events/TGAC2013/TGACGalaxy2013Thumb.png" alt="" width="100" /></a></div>
 Please distribute to any groups that might be interested.  You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Seminar on 12 April

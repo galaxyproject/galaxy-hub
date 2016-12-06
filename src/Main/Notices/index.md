@@ -15,7 +15,7 @@ Dated notices about known usage issues and solutions specifically for Galaxy's [
 * **Update**: March 21, 2014, TACC staff members identified the cause of the intermittent access to Corral. An unscheduled, extended maintenance period will be required, however, to permanently fix the problem. Corral will be taken down at 9 a.m. (CT) on Saturday, March 22 for the repairs. The estimated time of availability of Corral will be 9 a.m. on Monday, March 24. This maintenance overlaps with prior scheduled maintenance: [http://bit.ly/1g778F1](http://bit.ly/1g778F1).
 * **Solution**: Use another [Public Galaxy](/src/PublicGalaxyServers/index.md) or start up your own [Cloud Galaxy](/src/Cloud/index.md), plus follow us at [Twitter](https://twitter.com/galaxyproject) for the most current [Main](/src/Main/index.md) status updates
   * Twitter: https://twitter.com/galaxyproject ([Galaxy on Twitter](/src/GalaxyOnTwitter/index.md))
-  * Is your reference genome not at the other server? If [FTP](/src/FTPUpload/index.md) available, try using a [Custom Genome](/src/Support/index.md#custom_reference_genome) (on tool forms, option: *Using a reference genome from the history*)
+  * Is your reference genome not at the other server? If [FTP](/src/FTPUpload/index.md) available, try using a [Custom Genome](/src/support/index.md#custom_reference_genome) (on tool forms, option: *Using a reference genome from the history*)
 * **Share notice**: http://bit.ly/corralmar20
 
 <br />
@@ -31,14 +31,14 @@ Dated notices about known usage issues and solutions specifically for Galaxy's [
 
 ## I am having another issue, how do I get general support?
 
-All sorts of ways.  See **[Support](/src/Support/index.md)** wiki and watch **[Learning Resources](http://vimeo.com/channels/usegalaxy/75940376)** screencast.
+All sorts of ways.  See **[Support](/src/support/index.md)** wiki and watch **[Learning Resources](http://vimeo.com/channels/usegalaxy/75940376)** screencast.
 
 <br />
 <br />
 ----
 
 <div class='center'>
-<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/Images/Logos/UseGalaxySearch.png" alt="Search all "using Galaxy" resources" width="120" /></a>
+<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/Logos/UseGalaxySearch.png" alt="Search all "using Galaxy" resources" width="120" /></a>
 
 [Search all "using Galaxy" resources](http://galaxyproject.org/search/usegalaxy)
 </div>

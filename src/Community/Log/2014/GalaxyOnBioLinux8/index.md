@@ -2,7 +2,7 @@
 title: 2014/09: Overview of Galaxy on Bio-Linux 8
 ---
 <div class='center'>
-<a href='http://environmentalomics.org/bio-linux-galaxy/'><img src="/src/Images/Logos/EOS.gif" alt="NERC Environmental 'Omics Synthesis Centre" /></a>
+<a href='http://environmentalomics.org/bio-linux-galaxy/'><img src="/src/images/Logos/EOS.gif" alt="NERC Environmental 'Omics Synthesis Centre" /></a>
 </div>
 
 

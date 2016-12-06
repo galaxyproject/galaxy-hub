@@ -6,7 +6,7 @@ title: April 14, 2014 Galaxy Distribution News Brief
 
 [All News Briefs](/src/DevNewsBriefs/index.md)
 <br />
-[Distribution Summary 2014_04_14](/src/News/2014_04_14_Galaxy_Distribution/index.md)
+[Distribution Summary 2014_04_14](/src/news/2014_04_14_Galaxy_Distribution/index.md)
 
 <br />
 
@@ -73,8 +73,8 @@ title: April 14, 2014 Galaxy Distribution News Brief
 
 <table>
   <tr>
-    <td> <img src="/src/Images/NewsGraphics/2014_04_14_trackster-sparse.png" alt="Galaxy" width="300" /></td>
-    <td> <img src="/src/Images/NewsGraphics/2014_04_14_trackster-deep.png" alt="Galaxy" width="300" /></td>
+    <td> <img src="/src/images/NewsGraphics/2014_04_14_trackster-sparse.png" alt="Galaxy" width="300" /></td>
+    <td> <img src="/src/images/NewsGraphics/2014_04_14_trackster-deep.png" alt="Galaxy" width="300" /></td>
   </tr>
   <tr>
     <td> &nbsp;&nbsp;&nbsp;&nbsp;<strong>Trackster</strong>: Prior coverage display </td>
@@ -220,12 +220,12 @@ Thanks to our Galaxy community contributors!
 
 <br />
 <div class='right'>
-<br /><a href='http://usegalaxy.org'><img src="/src/Images/Logos/galaxyLogoTrimmed.png" alt="Galaxy" height="50" /></a><br />**usegalaxy.org**</div>
+<br /><a href='http://usegalaxy.org'><img src="/src/images/Logos/galaxyLogoTrimmed.png" alt="Galaxy" height="50" /></a><br />**usegalaxy.org**</div>
 
 # Project Updates
 
-1. [News](/src/News/index.md)
-1. [Events](/src/Events/index.md)
+1. [News](/src/news/index.md)
+1. [Events](/src/events/index.md)
 1. [Videos on Vimeo](https://vimeo.com/galaxyproject)
 1. *[April 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014_04)*
 1. *[March 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014_03)*

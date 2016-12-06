@@ -1,13 +1,13 @@
 ---
 title:  3rd Swiss Galaxy Workshop, Thursday, October 20th, Freiburg (Germany) 
 ---
-PLACEHOLDER_INCLUDE(/src/Events/SG2016/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/SG2016/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/src/Events/SG2016/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/SG2016/LinkBox/index.md)
 
-After the big success of the [first Swiss Galaxy Workshop](/src/Events/Switzerland2012/index.md) and the [second Swiss Galaxy Workshop](/src/Events/Switzerland2014/index.md), we are going to organize a similar event again in fall 2016.
+After the big success of the [first Swiss Galaxy Workshop](/src/events/Switzerland2012/index.md) and the [second Swiss Galaxy Workshop](/src/events/Switzerland2014/index.md), we are going to organize a similar event again in fall 2016.
 
 
 ## Topic of the Workshop
@@ -41,7 +41,7 @@ This year, the workshop is aimed at Galaxy administrators and will collocate wit
 
 ## Location / Registration
 
-The workshop will be held at the Universität of Freiburg in Germany (see the [main page](/src/Events/SG2016/index.md) for details). Registration is free, and you can sign-up [here](https://docs.google.com/forms/d/1mRO4uNXQd8jL1I9JNiQ4xd0fnrZKlQPQSORgJCpDeqg).
+The workshop will be held at the Universität of Freiburg in Germany (see the [main page](/src/events/SG2016/index.md) for details). Registration is free, and you can sign-up [here](https://docs.google.com/forms/d/1mRO4uNXQd8jL1I9JNiQ4xd0fnrZKlQPQSORgJCpDeqg).
 
 ## Questions?
 

@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[Galaxy Public Servers Usage Quotas](/src/News/Galaxy Public Servers Usage Quotas/index.md)</div>
+<div class='newsItemHeader'>[Galaxy Public Servers Usage Quotas](/src/news/Galaxy Public Servers Usage Quotas/index.md)</div>
 
 User data and job [quota limits](/src/Test/index.md#quotas) are now implemented at the public [Galaxy Test instance](http://test.g2.bx.psu.edu):
 
@@ -39,6 +39,6 @@ While [no quotas](/src/Main/index.md#quotas) are currently implemented at the pu
 
 If you find that you require additional resources, please consider alternative Galaxy options explained at [Big Picture/Choices](/src/Big Picture/Choices/index.md).
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-08-22</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-08-22</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

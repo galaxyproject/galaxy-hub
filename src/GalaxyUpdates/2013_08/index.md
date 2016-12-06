@@ -6,19 +6,19 @@ title: August 2013 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the August 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
-<div class='center'><a href='/src/Events/GCC2013/index.md'><img src="/src/Images/Logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
+<div class='center'><a href='/src/events/GCC2013/index.md'><img src="/src/images/Logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
 
 # GCC2013 Report
 
-The [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/index.md) was held a month ago in Oslo Norway, at the [University of Oslo](http://uio.no).  [Video of all accepted talks](/src/Events/GCC2013/Program/index.md#day-1-main-meeting-1-july), the [slides for most accepted](/src/Events/GCC2013/Program/index.md#day-1-main-meeting-1-july) and [lightning talks](/src/Events/GCC2013/Lightning/index.md), [handouts and slides for all Training Day sessions](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay), and [most posters](/src/Events/GCC2013/Abstracts/index.md#poster-abstracts) are now available online.
+The [2013 Galaxy Community Conference (GCC2013)](/src/events/GCC2013/index.md) was held a month ago in Oslo Norway, at the [University of Oslo](http://uio.no).  [Video of all accepted talks](/src/events/GCC2013/Program/index.md#day-1-main-meeting-1-july), the [slides for most accepted](/src/events/GCC2013/Program/index.md#day-1-main-meeting-1-july) and [lightning talks](/src/events/GCC2013/Lightning/index.md), [handouts and slides for all Training Day sessions](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay), and [most posters](/src/events/GCC2013/Abstracts/index.md#poster-abstracts) are now available online.
 
-GCC2013 was, by all accounts, a tremendous success.  This was the largest GCC ever held, and featured [poster sessions](/src/Events/GCC2013/Abstracts/index.md#poster-abstracts) and [Birds of a Feather gatherings](/src/Events/GCC2013/BoF/index.md) for the first time.  The evening [gatherings at the pub](/src/Events/GCC2013/Program/index.md#escape-to-the-pub) and the conference dinner at the historic Sporten venue, high above Oslo, also proved quite popular.
+GCC2013 was, by all accounts, a tremendous success.  This was the largest GCC ever held, and featured [poster sessions](/src/events/GCC2013/Abstracts/index.md#poster-abstracts) and [Birds of a Feather gatherings](/src/events/GCC2013/BoF/index.md) for the first time.  The evening [gatherings at the pub](/src/events/GCC2013/Program/index.md#escape-to-the-pub) and the conference dinner at the historic Sporten venue, high above Oslo, also proved quite popular.
 
 In addition to the videos and presentation materials, there are also several meeting reports in a wide variety of presentation styles:
 
@@ -27,7 +27,7 @@ In addition to the videos and presentation materials, there are also several mee
 * UiO Rector's Blog: [Reproduserbarhet i livsvitenskapene](http://bit.ly/12GQpvC) 
 * [Conference Tweets at ChirpStory](http://chirpstory.com/li/93570)
 * [Storify of conference Tweets](http://storify.com/search?q=GCC2013)
-* [Photos](/src/Events/GCC2013/Photos/index.md) from the meeting (please add your own)
+* [Photos](/src/events/GCC2013/Photos/index.md) from the meeting (please add your own)
 
 <br />
 
@@ -116,15 +116,15 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 # SlipStream Appliance: Galaxy Edition Announced
 
-<div class='left'><a href='http://www.bioteam.net/slipstream/galaxy-edition'><img src="/src/Images/Logos/SlipStreamApplianceLogo.png" alt="SlipStream Appliance - Galaxy Edition" width="200" /></a></div>
+<div class='left'><a href='http://www.bioteam.net/slipstream/galaxy-edition'><img src="/src/images/Logos/SlipStreamApplianceLogo.png" alt="SlipStream Appliance - Galaxy Edition" width="200" /></a></div>
 
-[BioTeam](http://bioteam.net) has [announced](/src/News/SlipStreamAppliance/index.md) the [SlipStream Appliance: Galaxy Edition](http://www.bioteam.net/slipstream/galaxy-edition) – "a high-performance, server class device pre-loaded with a fully operational Galaxy analysis platform." It is a plug-and-play solution, "intended to make Galaxy more accessible by relieving some of the burdens users may experience with other methods of accessing the platform." See the [product page](http://www.bioteam.net/slipstream/galaxy-edition) for more details.
+[BioTeam](http://bioteam.net) has [announced](/src/news/SlipStreamAppliance/index.md) the [SlipStream Appliance: Galaxy Edition](http://www.bioteam.net/slipstream/galaxy-edition) – "a high-performance, server class device pre-loaded with a fully operational Galaxy analysis platform." It is a plug-and-play solution, "intended to make Galaxy more accessible by relieving some of the burdens users may experience with other methods of accessing the platform." See the [product page](http://www.bioteam.net/slipstream/galaxy-edition) for more details.
 
 <br />
 
 # New Galaxy Proteomics Mailing List
 
-<div class='right'><a href='http://proteomics.list.galaxyproject.org/'><img src="/src/Images/Logos/MailmanLogoSmall.png" alt="Galaxy Proteomics Mailing List"  /></a></div>
+<div class='right'><a href='http://proteomics.list.galaxyproject.org/'><img src="/src/images/Logos/MailmanLogoSmall.png" alt="Galaxy Proteomics Mailing List"  /></a></div>
 
 The Galaxy community now has a [mailing list dedicated to proteomics](http://proteomics.list.galaxyproject.org/). If you're using Galaxy to do proteomics, or if you are thinking of doing so then [please subscribe](https://lists.galaxyproject.org/listinfo/galaxy-proteomics).  In case you missed it, there is also a [proteomics wiki page](/src/Proteomics/index.md). 
 
@@ -147,37 +147,37 @@ The Galaxy is expanding! Please help it grow.
 * [Senior Developer](http://www.nature.com/naturejobs/science/jobs/334107-senior-developer-stem-cell-bioinformatics-core), Stem Cell Bioinformatics Core, Sage Bionetworks, Seattle, WA, United States
 * [Bioinformatics Support Group Leader](http://bit.ly/VkRtrb) @ LSU
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
 # Events
 
 <div class='right'>
-<a href='http://www.iscb.org/ismbeccb2013'><img src="/src/Images/Logos/ISMB2013Logo205.png" alt="ISMB/ECCB 2013" width="80" /></a>
+<a href='http://www.iscb.org/ismbeccb2013'><img src="/src/images/Logos/ISMB2013Logo205.png" alt="ISMB/ECCB 2013" width="80" /></a>
 </div>
 <div class='right'>
-<a href='http://www.open-bio.org/wiki/BOSC_2013'><img src="/src/Images/Logos/BOSC_logo.png" alt="BOSC 2013" width="60" /></a><br /><a href='http://igenomed2.stanford.edu/Proteomics2013_mssig/'><img src="/src/Images/Logos/MSSIG2013Logo.jpg" alt="MS SIG 2013: Beyond the Proteomics" width="60" /></a><br />
+<a href='http://www.open-bio.org/wiki/BOSC_2013'><img src="/src/images/Logos/BOSC_logo.png" alt="BOSC 2013" width="60" /></a><br /><a href='http://igenomed2.stanford.edu/Proteomics2013_mssig/'><img src="/src/images/Logos/MSSIG2013Logo.jpg" alt="MS SIG 2013: Beyond the Proteomics" width="60" /></a><br />
 </div>
 
 ## ISMB / ECCB / BOSC / MS SIG 2013
 
-Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2013), [BOSC](http://www.open-bio.org/wiki/BOSC_2013), and [MS SIG](http://igenomed2.stanford.edu/Proteomics2013_mssig/) in Berlin this year.  [Slides for 15 talks, posters, workshops](/src/Events/ISMB2013/index.md) related to Galaxy are [now available online](/src/Events/ISMB2013/index.md).  Also see the [summary from Bioinformatics Open Science Codefest 2013: Tools, infrastructure, standards and visualization](http://j.mp/13nJZ9m).  
+Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2013), [BOSC](http://www.open-bio.org/wiki/BOSC_2013), and [MS SIG](http://igenomed2.stanford.edu/Proteomics2013_mssig/) in Berlin this year.  [Slides for 15 talks, posters, workshops](/src/events/ISMB2013/index.md) related to Galaxy are [now available online](/src/events/ISMB2013/index.md).  Also see the [summary from Bioinformatics Open Science Codefest 2013: Tools, infrastructure, standards and visualization](http://j.mp/13nJZ9m).  
 
 <br />
 
 ## Other Upcoming Events
 
 <div class='center'>
-<a href='https://training.bioinformatics.ucdavis.edu/2013/07/02/the-2013-rna-seq-workshop/'><img src="/src/Images/Logos/UCDavisGenomeCenterLogo.jpg" alt="RNA-Seq Workshop: From Pipette to P-value! @ UC Davis Bioinformatics Core" height="60" /></a>
-<a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'><img src="/src/Images/Logos/RCPALogo.jpg" alt="The Genomic Bioinformatics Workshop" height="60" /></a>
-<a href='http://individualizingmedicineconference.mayo.edu/schedule/'><img src="/src/Images/Logos/MayoClinicSmall.png" alt="Individualizing Medicine Conference" height="60" /></a> &nbsp;
-<a href='http://www.beyond-the-genome.com/program/'><img src="/src/Images/Logos/BeyondTheGenome2013.png" alt="Beyond the Genome" height="60" /></a> &nbsp;
-<a href='http://bit.ly/153avr8'><img src="/src/Images/Logos/OrioneNGSCourse.png" alt="Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica" height="65" /></a> &nbsp;
-<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/src/Images/Logos/GennoToulLogo.png" alt="Galaxy Training Days" height="60" /></a>
+<a href='https://training.bioinformatics.ucdavis.edu/2013/07/02/the-2013-rna-seq-workshop/'><img src="/src/images/Logos/UCDavisGenomeCenterLogo.jpg" alt="RNA-Seq Workshop: From Pipette to P-value! @ UC Davis Bioinformatics Core" height="60" /></a>
+<a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'><img src="/src/images/Logos/RCPALogo.jpg" alt="The Genomic Bioinformatics Workshop" height="60" /></a>
+<a href='http://individualizingmedicineconference.mayo.edu/schedule/'><img src="/src/images/Logos/MayoClinicSmall.png" alt="Individualizing Medicine Conference" height="60" /></a> &nbsp;
+<a href='http://www.beyond-the-genome.com/program/'><img src="/src/images/Logos/BeyondTheGenome2013.png" alt="Beyond the Genome" height="60" /></a> &nbsp;
+<a href='http://bit.ly/153avr8'><img src="/src/images/Logos/OrioneNGSCourse.png" alt="Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica" height="65" /></a> &nbsp;
+<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/src/images/Logos/GennoToulLogo.png" alt="Galaxy Training Days" height="60" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/Icons/CalendarIcon.gif" /></a></div> See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 <br />
 
@@ -250,9 +250,9 @@ The most recent official distribution was on [June 3, 2013](/src/DevNewsBriefs/2
 
 ## CloudMan Release
 
-<div class='right'><a href='/src/CloudMan/index.md'><img src="/src/Images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
+<div class='right'><a href='/src/CloudMan/index.md'><img src="/src/images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
 
-A new version of [CloudMan](/src/CloudMan/index.md) was [released in July](/src/News/CloudManRelease/index.md).
+A new version of [CloudMan](/src/CloudMan/index.md) was [released in July](/src/news/CloudManRelease/index.md).
 
 [CloudMan](/src/CloudMan/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
@@ -275,7 +275,7 @@ For more details on the new features, see the the [CHANGELOG](https://bitbucket.
 
 # Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 * [varscan](http://bit.ly/12cDtT2): mutation callers for targeted, exome, & whole-genome resequencing; cancer genomics 
 * [jointsnvmix](http://bit.ly/153MT1x): Somatic mutations caller using probabilistic graphical model w/ tumour/normal pairs 

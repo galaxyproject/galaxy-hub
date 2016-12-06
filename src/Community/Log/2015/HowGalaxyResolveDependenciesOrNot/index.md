@@ -1,7 +1,7 @@
 ---
 title: 2015/10: [How Galaxy resolves dependencies (or not)](http://pvh.wp.sanbi.ac.za/2015/10/09/how-galaxy-resolves-dependencies-or-not/)
 ---
-<div class='center'><img src="/src/Images/Logos/SANBI_bioinf_logo.jpg" alt="South African National Bioinformatics Institute (SANBI)" height="200" /></div>
+<div class='center'><img src="/src/images/Logos/SANBI_bioinf_logo.jpg" alt="South African National Bioinformatics Institute (SANBI)" height="200" /></div>
 
 
 

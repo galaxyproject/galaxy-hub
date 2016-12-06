@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[Statistical Genomics Post-Doc](/src/News/StatisticalGenomicsPostDocPennState/index.md)</div>
+<div class='newsItemHeader'>[Statistical Genomics Post-Doc](/src/news/StatisticalGenomicsPostDocPennState/index.md)</div>
 
-<div class='right'><a href='http://www.huck.psu.edu/center/medical-genomics/'><img src="/src/Images/Logos/HuckLogo.png" alt="Center for Medical Genomics" width="250" /></a></div>
+<div class='right'><a href='http://www.huck.psu.edu/center/medical-genomics/'><img src="/src/images/Logos/HuckLogo.png" alt="Center for Medical Genomics" width="250" /></a></div>
 
 Are you interested in genomics and do you have skills in Bioinformatics, Computational Biology and Statistics? The Makova lab in the Department of Biology at The Pennsylvania State University is looking to hire a postdoctoral researcher for an NSF-funded project examining regional variation in mutation rates (see our [recent publication in PNAS: Kuruppumullage Don, Ananda, Chiaromonte, Makova 2013)](http://www.pnas.org//content/early/2013/08/16/1221792110.abstract). With new sequencing technologies, multiple human genomes and their detailed annotations (e.g., ENCODE) are suddenly accessible to us. This gives us a terrific opportunity to explore previously inaccessible evolutionary processes (e.g., mutation) and other biological associations (location of genes in certain mutation states, as identified by HMMs). Such knowledge is vital in a clinical setting where disease mutations need to be evaluated. Our resources and links with medical researchers at Hershey Medical School and computational biologists from the [Galaxy team](http://galaxyproject.org/) put us in a great position to address these questions. 
 
@@ -9,6 +9,6 @@ You will be joining an established dynamic group. We are part of the [Center for
 
 The starting date is flexible, with an earlier date preferred. This position is funded for one year from date of hire, with good possibility of refunding. Interested applicants should send a pdf with a CV, a statement of research interests, and contact information for three referees to [Kateryna Makova](mailto:kmakova AT bx DOT psu DOT edu), indicating postdoc in the subject line. Employment will require successful completion of background check(s) in accordance with University policies. Penn State is committed to affirmative action, equal opportunity, and the diversity of its workforce.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-09-09</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-09-09</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

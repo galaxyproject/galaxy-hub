@@ -1,8 +1,8 @@
-<div class='newsItemHeader'>[Multi-omics Postdoc Opening](/src/News/MultiOmicsPostDocMinnesota/index.md)</div>
+<div class='newsItemHeader'>[Multi-omics Postdoc Opening](/src/news/MultiOmicsPostDocMinnesota/index.md)</div>
 
 <div class='right'><div class='right'>
-<a href='http://z.umn.edu/galaxypostdoc2016'><img src="/src/Images/Logos/GalaxyPLogo.png" alt="Galaxy-P" width="100" /></a></div><br />
-<a href='http://ummn.edu'><img src="/src/Images/Logos/UMN_Goldy.gif" alt="University of Minnesota" width="120" /></a>
+<a href='http://z.umn.edu/galaxypostdoc2016'><img src="/src/images/Logos/GalaxyPLogo.png" alt="Galaxy-P" width="100" /></a></div><br />
+<a href='http://ummn.edu'><img src="/src/images/Logos/UMN_Goldy.gif" alt="University of Minnesota" width="120" /></a>
 </div>
 
 
@@ -12,6 +12,6 @@ A Ph.D. in bioinformatics, computer science, analytical chemistry or closely rel
 
 Interested applicants can apply directly to [Dr. Tim Griffin](mailto:tgriffin@umn.edu).
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-07-22</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-07-22</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

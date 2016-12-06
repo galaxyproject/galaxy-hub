@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[Jan 2016 Galaxy Release (v 16.01)](/src/News/2016_01_GalaxyRelease/index.md)</div>
+<div class='newsItemHeader'>[Jan 2016 Galaxy Release (v 16.01)](/src/news/2016_01_GalaxyRelease/index.md)</div>
 
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/Images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
  
 **See the [full release notes](https://docs.galaxyproject.org/en/master/releases/16.01_announce.html).**
 
@@ -61,6 +61,6 @@ Multiple security vulnerabilities were recently discovered in the Tool Shed that
 <br /><br />
 
 </div></div>
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-02-24</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-02-24</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

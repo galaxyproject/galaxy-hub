@@ -1,13 +1,13 @@
 ---
 title: Doing the Branch, Release, and Merge Waltz
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
 
 
 
 
 <div class='dictbox'>
- BoF:: **[Doing the Branch, Release, and Merge Waltz](/src/Events/GCC2014/BoFs/BranchReleaseMerge/index.md)**
+ BoF:: **[Doing the Branch, Release, and Merge Waltz](/src/events/GCC2014/BoFs/BranchReleaseMerge/index.md)**
  Summary:: Branching and release management with regard to the existing instances which implement customized code within Galaxy.
  Audience:: Galaxy admins that have customized Galaxy code for their installation. 
  When:: Monday, June 30, 6:15pm
@@ -15,11 +15,11 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
  Contact:: [Nikolay Aleksandrov Vazov](http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html)
 </div>
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
 
-<div class='left'><a href='/src/Events/GCC2014/BoFs/index.md'><img src="/src/Images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
+<div class='left'><a href='/src/events/GCC2014/BoFs/index.md'><img src="/src/images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
 
-This page describes the **Doing the Branch, Release, and Merge Waltz** [Birds of a Feather](/src/Events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
+This page describes the **Doing the Branch, Release, and Merge Waltz** [Birds of a Feather](/src/events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/events/GCC2014/index.md).
 
 # Description
 

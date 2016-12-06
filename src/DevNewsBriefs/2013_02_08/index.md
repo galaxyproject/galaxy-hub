@@ -94,7 +94,7 @@ The following new routes have been added to the Tool Shed:
 
 These allow for URLs that can be cited or shared, and viewing a repository will display it's sharable link.  Here's an example.
 
-![](/src/Images/NewsGraphics/2013_02_5-sharable.png)
+![](/src/images/NewsGraphics/2013_02_5-sharable.png)
 
 Thanks to [Peter Cock](https://bitbucket.org/peterjc) for the contribution!
 
@@ -102,19 +102,19 @@ Thanks to [Peter Cock](https://bitbucket.org/peterjc) for the contribution!
 
 1. The ability to select multiple tool shed repositories for simultaneous installation has been reintroduced.  This feature was eliminated several months ago to allow for the implementation of repository dependencies.  Now choosing either of the options "Search for valid tools" or "Search for workflows" from a tool shed's pop-up menu as shown here...
 
-![](/src/Images/NewsGraphics/2013_02_1-toolshed-search.png)
+![](/src/images/NewsGraphics/2013_02_1-toolshed-search.png)
 
 ...and entering a search string as shown here...
 
-![](/src/Images/NewsGraphics/2013_02_2-search-string.png)
+![](/src/images/NewsGraphics/2013_02_2-search-string.png)
 
 ...will allow you to selectively install any of the repositories matching the search criteria.
 
-![](/src/Images/NewsGraphics/2013_02_3-select-to-install.png)
+![](/src/images/NewsGraphics/2013_02_3-select-to-install.png)
 
 All repositories dependencies and tool dependencies that are defined for each repository selected for installation will be discovered and displayed in preparation for installation into your local Galaxy instance.  You can optionally elect to install these dependencies..
 
-![](/src/Images/NewsGraphics/2013_02_4-confirm-dependency-installation.png)
+![](/src/images/NewsGraphics/2013_02_4-confirm-dependency-installation.png)
 
 ### Tool Shed Related Fixes
 
@@ -234,20 +234,20 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # Announcements
 
-[News](/src/News/index.md), ***[February 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_02)***
+[News](/src/news/index.md), ***[February 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_02)***
 
 ## GCC2013
 
-<div class='right'><a href='/src/Events/GCC2013/index.md'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a> <br />
-<a href='/src/Events/GCC2013/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
+<div class='right'><a href='/src/events/GCC2013/index.md'><img src="/src/images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a> <br />
+<a href='/src/events/GCC2013/TrainingDay/index.md'><img src="/src/images/Logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
 
 ### Training Day Topic Voting Closes 11 February
 
-If you might attend the [GCC2013 Training Day](/src/Events/GCC2013/TrainingDay/index.md) then please [review the possible topics](/src/Events/GCC2013/TrainingDay/index.md#topics) and then [vote for your top 3 choices](http://bit.ly/gcc2013tdpoll).  Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.
+If you might attend the [GCC2013 Training Day](/src/events/GCC2013/TrainingDay/index.md) then please [review the possible topics](/src/events/GCC2013/TrainingDay/index.md#topics) and then [vote for your top 3 choices](http://bit.ly/gcc2013tdpoll).  Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.
 
 ### Registration, Talk & Poster Submission Opens 22 February
 
-[Early Registration](/src/Events/GCC2013/Register/index.md), and [talk and poster abstract submission](/src/Events/GCC2013/Abstracts/index.md) all [open 22 February](/src/Events/GCC2013/KeyDates/index.md).  Watch the mailing lists and this wiki for details.
+[Early Registration](/src/events/GCC2013/Register/index.md), and [talk and poster abstract submission](/src/events/GCC2013/Abstracts/index.md) all [open 22 February](/src/events/GCC2013/KeyDates/index.md).  Watch the mailing lists and this wiki for details.
 
 ----
 <br />

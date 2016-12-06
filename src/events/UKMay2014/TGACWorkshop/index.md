@@ -1,7 +1,7 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.tgac.ac.uk/introduction-to-galaxy/'><img src="/src/Images/Logos/TGACLogo.png" alt="The Genome Analysis Centre"  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.tgac.ac.uk/introduction-to-galaxy/'><img src="/src/images/Logos/TGACLogo.png" alt="The Genome Analysis Centre"  /></a> </td>
   </tr>
 </table>
 
@@ -97,8 +97,8 @@ No programming or Linux command line experience is required.
 
 
 <div class='right'>
-<br /><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a><br /><br />
-<a href='/src/Events/UKMay2014/index.md'><img src="/src/Images/Logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
+<br /><a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a><br /><br />
+<a href='/src/events/UKMay2014/index.md'><img src="/src/images/Logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
 </div>
 
 ## Support
@@ -107,7 +107,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ### Galaxy May 2014 UK Tour
 
-This workshop is part of the [May 2014 Galaxy UK Tour](/src/Events/UKMay2014/index.md), which features events in Norwich and Edinburgh.
+This workshop is part of the [May 2014 Galaxy UK Tour](/src/events/UKMay2014/index.md), which features events in Norwich and Edinburgh.
 
 ## Slides
 

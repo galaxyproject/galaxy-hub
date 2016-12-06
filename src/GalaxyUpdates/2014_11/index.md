@@ -6,7 +6,7 @@ title: November 2014 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the November 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -16,17 +16,17 @@ Thanks to everyone who took the Galaxy Questionnaires in October.  We received 1
 
 # IRC Channel is Now Publicly Archived
 
-<div class='right'><a href='https://botbot.me/freenode/galaxyproject/'><img src="/src/Images/Logos/BotBotLogo.png" alt="Galaxy IRC Channel archive at BotBot" width="60" /></a></div>
+<div class='right'><a href='https://botbot.me/freenode/galaxyproject/'><img src="/src/images/Logos/BotBotLogo.png" alt="Galaxy IRC Channel archive at BotBot" width="60" /></a></div>
 
 The #galaxyproject IRC channel now has an [online public archive](https://botbot.me/freenode/galaxyproject/).  These archives have also been included in the [Galaxy search engines](http://galaxyproject.org/search/web).  The archive started on October 22, 2014.
 
-This was [proposed](/src/News/IRCPublicLogProposal/index.md) and then [discussed, and approved on Galaxy Biostar](http://bit.ly/gxybs8804).
+This was [proposed](/src/news/IRCPublicLogProposal/index.md) and then [discussed, and approved on Galaxy Biostar](http://bit.ly/gxybs8804).
 
 # Galaxy Training Network
 
-<div class='left'><a href='/src/Teach/index.md'><img src="/src/Images/Logos/GTNLogo600.png" alt="Galaxy Training Network" width="200" /></a></div>
+<div class='left'><a href='/src/Teach/index.md'><img src="/src/images/Logos/GTNLogo600.png" alt="Galaxy Training Network" width="200" /></a></div>
 
-The *[Galaxy Training Network (GTN)](/src/Teach/GTN/index.md)* was [launched October 16](/src/News/GalaxyTrainingNetwork/index.md) with 16 charter member organizations.  The GTN is a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  The GTN aims to make it easy to find [Galaxy trainers](/src/Teach/Trainers/index.md), and to share and discover the wealth of training resources available for Galaxy.  This includes [training materials](/src/Teach/Resources/index.md), a [trainer directory](/src/Teach/Trainers/index.md), [best practices](/src/Teach/BestPractices/index.md), and [guidance on computing platforms](/src/Teach/ComputingPlatforms/index.md) for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
+The *[Galaxy Training Network (GTN)](/src/Teach/GTN/index.md)* was [launched October 16](/src/news/GalaxyTrainingNetwork/index.md) with 16 charter member organizations.  The GTN is a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  The GTN aims to make it easy to find [Galaxy trainers](/src/Teach/Trainers/index.md), and to share and discover the wealth of training resources available for Galaxy.  This includes [training materials](/src/Teach/Resources/index.md), a [trainer directory](/src/Teach/Trainers/index.md), [best practices](/src/Teach/BestPractices/index.md), and [guidance on computing platforms](/src/Teach/ComputingPlatforms/index.md) for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
 
 If you teach with Galaxy, then please consider adding [your organization](/src/Teach/Trainers/index.md#add-a-trainer), [materials](/src/Teach/Resources/index.md#add-a-training-resource), and [best practices](/src/Teach/BestPractices/index.md). Since the GTN launched two weeks ago, 4 new organizations have joined:
 
@@ -53,47 +53,47 @@ The [French IFB Galaxy Working Group](http://www.ifb-galaxy.org/index.html):
 [URGI](http://urgi.versailles.inra.fr/), [GenoToul](http://bioinfo.genotoul.fr/), [MIGALE](http://migale.jouy.inra.fr/), [PFEM](http://metabohub.fr/), [SouthGreen](http://southgreen.cirad.fr/), [Institut Curie](http://curie.fr/), [ABiMS](http://abims.sb-roscoff.fr/)
 
 <div class='center'>
-<a href='http://urgi.versailles.inra.fr/'><img src="/src/Images/Logos/URGILogo.png" alt="URGI" width="70" /></a> &nbsp;
-<a href='http://bioinfo.genotoul.fr/'><img src="/src/Images/Logos/GenoToulLogo.png" alt="GenoToul" width="100" /></a> &nbsp;
-<a href='http://migale.jouy.inra.fr/'><img src="/src/Images/Logos/MIGALELogo.png" alt="MIGALE" width="120" /></a> &nbsp;
-<a href='http://metabohub.fr/'><img src="/src/Images/Logos/MetaboHubLogo.jpg" alt="PFEM" width="120" /></a> &nbsp;
-<a href='http://southgreen.cirad.fr/'><img src="/src/Images/Logos/SouthGreenLogo.png" alt="SouthGreen" width="120" /></a>
-<a href='http://curie.fr/'><img src="/src/Images/Logos/CurieLogo.gif" alt="Institut Curie" width="80" /></a> &nbsp;
-<a href='http://abims.sb-roscoff.fr/'><img src="/src/Images/Logos/ABiMSLogo.png" alt="ABiMS" width="70" /></a>
+<a href='http://urgi.versailles.inra.fr/'><img src="/src/images/Logos/URGILogo.png" alt="URGI" width="70" /></a> &nbsp;
+<a href='http://bioinfo.genotoul.fr/'><img src="/src/images/Logos/GenoToulLogo.png" alt="GenoToul" width="100" /></a> &nbsp;
+<a href='http://migale.jouy.inra.fr/'><img src="/src/images/Logos/MIGALELogo.png" alt="MIGALE" width="120" /></a> &nbsp;
+<a href='http://metabohub.fr/'><img src="/src/images/Logos/MetaboHubLogo.jpg" alt="PFEM" width="120" /></a> &nbsp;
+<a href='http://southgreen.cirad.fr/'><img src="/src/images/Logos/SouthGreenLogo.png" alt="SouthGreen" width="120" /></a>
+<a href='http://curie.fr/'><img src="/src/images/Logos/CurieLogo.gif" alt="Institut Curie" width="80" /></a> &nbsp;
+<a href='http://abims.sb-roscoff.fr/'><img src="/src/images/Logos/ABiMSLogo.png" alt="ABiMS" width="70" /></a>
 </div>
 
 ## Swiss German Galaxy Tour 2014 Report
 
-<div class='right'><a href='/src/Events/SG2014/index.md'><img src="/src/Images/Logos/SG2014Logo400.png" alt="Swiss-German Galaxy Tour 2014" width="120" /></a></div>
+<div class='right'><a href='/src/events/SG2014/index.md'><img src="/src/images/Logos/SG2014Logo400.png" alt="Swiss-German Galaxy Tour 2014" width="120" /></a></div>
 
-After the big success of the [first Swiss Galaxy Workshop two years ago](/src/Events/Switzerland2012/index.md), we decided to [organize a similar event](/src/Events/SG2014/index.md) again this fall. This time, we added a [training day](/src/Events/Switzerland2014/trainingday/index.md) prior to the [workshop](/src/Events/Switzerland2014/index.md), and a [developer day](/src/Events/Germany2014/index.md) after the workshop. The first two days were held in Bern (Switzerland), and the third in Freiburg (Germany). Hence we called the whole event: "[Swiss German Galaxy Tour 2014](/src/Events/SG2014/index.md)".  
+After the big success of the [first Swiss Galaxy Workshop two years ago](/src/events/Switzerland2012/index.md), we decided to [organize a similar event](/src/events/SG2014/index.md) again this fall. This time, we added a [training day](/src/events/Switzerland2014/trainingday/index.md) prior to the [workshop](/src/events/Switzerland2014/index.md), and a [developer day](/src/events/Germany2014/index.md) after the workshop. The first two days were held in Bern (Switzerland), and the third in Freiburg (Germany). Hence we called the whole event: "[Swiss German Galaxy Tour 2014](/src/events/SG2014/index.md)".  
 
 More than 40 people registered for the event, signing up for one, two or all three days, ...<br />
-*- [read more](/src/News/SG2014Report/index.md) -*
+*- [read more](/src/news/SG2014Report/index.md) -*
 
 
 ## Fall 2014 GUGGO Events Report
 
-<div class='right'><a href='http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo'><img src="/src/Images/Logos/eBiogenouestLogo.png" alt="Galaxy User Group Grand Ouest (GUGGO)" width=120 /></a></div>
+<div class='right'><a href='http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo'><img src="/src/images/Logos/eBiogenouestLogo.png" alt="Galaxy User Group Grand Ouest (GUGGO)" width=120 /></a></div>
 
 Three events were sponsored by the [Galaxy User Group Grand Ouest (GUGGO)](https://www.e-biogenouest.org/groups/guggo) in western France earlier this fall.  Summaries of all 3 events are now available online.
 
 The *[Tools integration on Galaxy Workshop](http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/)* was held 11 September. The [summary](https://www.e-biogenouest.org/resources/1312/about) includes ...<br />
-*- [read more](/src/News/GUGGOReportFall2014/index.md) -*
+*- [read more](/src/news/GUGGOReportFall2014/index.md) -*
 
 ## Other Events
 
 <div class='center'> 
-<a href='http://galaxy4bioinformatics.sb-roscoff.fr/'><img src="/src/Images/Logos/SB-RoscoffBig.JPG" alt="Des bonnes pratiques d'intégration d'outils sous Galaxy" height="60" /></a> &nbsp;
-<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'><img src="/src/Images/Logos/GenoToulLogo.png" alt="Galaxy Training Days" height="60" /></a> &nbsp;
-<a href='http://www.bioinformatica.crs4.it/next_generation_sequencing_course_with_galaxy_november_2014'><img src="/src/Images/Logos/CRS4Logo.jpg" alt="Analisi dati Next Generation Sequencing in Galaxy" width="130" /></a> &nbsp;
-<a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-1920-november-brisbane/'><img src="/src/Images/Logos/QFABLogo.png" alt="Workshop: Extended RNA-Seq analysis" height="80" /></a>
-<a href='http://www.prabi.fr/spip.php?article215'><img src="/src/Images/Logos/PRABILogo.png" alt="RNA-Seq & ChIP-Seq analysis course using Galaxy" height="60" /></a>
+<a href='http://galaxy4bioinformatics.sb-roscoff.fr/'><img src="/src/images/Logos/SB-RoscoffBig.JPG" alt="Des bonnes pratiques d'intégration d'outils sous Galaxy" height="60" /></a> &nbsp;
+<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'><img src="/src/images/Logos/GenoToulLogo.png" alt="Galaxy Training Days" height="60" /></a> &nbsp;
+<a href='http://www.bioinformatica.crs4.it/next_generation_sequencing_course_with_galaxy_november_2014'><img src="/src/images/Logos/CRS4Logo.jpg" alt="Analisi dati Next Generation Sequencing in Galaxy" width="130" /></a> &nbsp;
+<a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-1920-november-brisbane/'><img src="/src/images/Logos/QFABLogo.png" alt="Workshop: Extended RNA-Seq analysis" height="80" /></a>
+<a href='http://www.prabi.fr/spip.php?article215'><img src="/src/images/Logos/PRABILogo.png" alt="RNA-Seq & ChIP-Seq analysis course using Galaxy" height="60" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/Icons/CalendarIcon.gif" /></a></div> 
 
-There are [upcoming events](/src/Events/index.md) in France, Germany, Australia, Italy, and the United States.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/src/events/index.md) in France, Germany, Australia, Italy, and the United States.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <table>
   <tr class="th" >
@@ -291,14 +291,14 @@ The new papers were tagged in these areas:
 
 The Galaxy is expanding! Please help it grow.
 
-* [Bioinformatician](/src/News/BioinformaticianFreiburg2014/index.md), Max Planck Institute of Immunobiology and Epigenetics, Freiburg, Germany
+* [Bioinformatician](/src/news/BioinformaticianFreiburg2014/index.md), Max Planck Institute of Immunobiology and Epigenetics, Freiburg, Germany
 * [Research Specialist](http://bit.ly/13pqd0T), Michigan State University, United States
 * [Galaxy Workflow Developer](https://www.jic.ac.uk/training-careers/vacancies/2014/10/galaxy-workflow-developer/#), John Innes Centre, Norwich, United Kingdom.  <div class='red'>Closes Nov 5.</span>
 * [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
-* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* [Statistical Genomics Postdoc](/src/news/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -324,8 +324,8 @@ The [OSDD Molecular Property Diagnostic Suite (MPDS)](http://mpds.osdd.net/) Gal
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/src/Community/Logs/index.md'><img src="/src/Images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
-<div class='right'><a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/src/Community/Logs/index.md'><img src="/src/images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='right'><a href='/src/Community/Deployments/index.md'><img src="/src/images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
 <br />
 
 <table>
@@ -340,11 +340,11 @@ The [OSDD Molecular Property Diagnostic Suite (MPDS)](http://mpds.osdd.net/) Gal
 
 The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/src/Community/index.md)* were launched last your.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # New Releases
 
-[BioBlend v0.5.2 was released in October](/src/News/BioBlendV0.5.2/index.md).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  
+[BioBlend v0.5.2 was released in October](/src/news/BioBlendV0.5.2/index.md).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  
 
 New versions of [Galaxy](/src/GalaxyUpdates/2014_09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/src/GalaxyUpdates/2014_09/index.md#august-2014-cloudman-release), and [blend4j](/src/GalaxyUpdates/2014_09/index.md#blend4j-011-release) were all released in August.
 

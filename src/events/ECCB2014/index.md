@@ -2,7 +2,7 @@
 title: Galaxy at ECCB'14
 ---
 <div class='center'> 
-<a href='http://www.eccb14.org/'><img src="/src/Images/Logos/ECCB2014Logo.png" alt="Galaxy at ECCB'14 / JOBIM" height="120" /></a>
+<a href='http://www.eccb14.org/'><img src="/src/images/Logos/ECCB2014Logo.png" alt="Galaxy at ECCB'14 / JOBIM" height="120" /></a>
 </div>
 
 

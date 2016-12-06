@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[First Online IUC Codefest](/src/News/IUCCollectionsCodefest/index.md)</div>
+<div class='newsItemHeader'>[First Online IUC Codefest](/src/news/IUCCollectionsCodefest/index.md)</div>
 
-<div class='right'><a href='https://github.com/galaxyproject/tools-iuc/issues/239'><img src="/src/Images/Icons/DatasetCollectionIconInForm.png" alt="" width="150" /></a>
+<div class='right'><a href='https://github.com/galaxyproject/tools-iuc/issues/239'><img src="/src/images/Icons/DatasetCollectionIconInForm.png" alt="" width="150" /></a>
 </div>
 
 The [Intergalactic Utilities Commission](https://wiki.galaxyproject.org/IUC) organised it's
@@ -35,6 +35,6 @@ We hope you all will enjoy the outcome of this Codefest and hope to see you at o
 
 [Your IUC](/src/IUC/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-09-29</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-09-29</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

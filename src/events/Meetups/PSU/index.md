@@ -1,7 +1,7 @@
 ---
 title: Home of Penn State Community Galaxy Project Meetups!
 ---
-<div class='center'><img src="/src/Events/Meetups/PSU/PSUMeetupLogo600.png" alt="Galaxy Meetup @ Penn State" width="400" /></div>
+<div class='center'><img src="/src/events/Meetups/PSU/PSUMeetupLogo600.png" alt="Galaxy Meetup @ Penn State" width="400" /></div>
 
 
 
@@ -9,8 +9,8 @@ Come meet at one of the Galaxy Project hubs - Penn State University - for genera
 
 # Meetups
 
-* **[May 1, 2015: RNA-Seq Workshop](/src/Events/Meetups/PSU/2015-05/index.md)**
-* [March 17, 2015: Initial Meetup](/src/Events/Meetups/PSU/2015-03/index.md)
+* **[May 1, 2015: RNA-Seq Workshop](/src/events/Meetups/PSU/2015-05/index.md)**
+* [March 17, 2015: Initial Meetup](/src/events/Meetups/PSU/2015-03/index.md)
 
 #### What is Galaxy and why could it be interesting to me?
 

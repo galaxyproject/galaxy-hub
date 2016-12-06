@@ -1,12 +1,12 @@
 ---
 title: Data Splitting and Parallelism
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2015/Header/index.md)
 
 
 
 <div class='dictbox'>
- BoF:: [Data Splitting and Parallelism](/src/Events/GCC2015/BoFs/DataSplittingAndParallelism/index.md)
+ BoF:: [Data Splitting and Parallelism](/src/events/GCC2015/BoFs/DataSplittingAndParallelism/index.md)
  Summary:: Developer focused meeting to discuss data splitting and parallelism in Galaxy
  Audience:: Developers interested in working on internals Galaxy itself
  When:: Tuesday, 7 July, 12:30 (lunch)
@@ -14,9 +14,9 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
  Contact:: Peter Cock http://twitter.com/pjacock
 </div>
 
-<div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
+<div class='left'><a href='/src/events/GCC2015/BoFs/index.md'><img src="/src/images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
-This page describes the **Data Splitting and Parallelism** [Birds of a Feather](/src/Events/GCC2015/BoFs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
+This page describes the **Data Splitting and Parallelism** [Birds of a Feather](/src/events/GCC2015/BoFs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 
 ## Description
 

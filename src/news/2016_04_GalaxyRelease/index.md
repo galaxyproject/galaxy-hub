@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[April 2016 Galaxy Release (v 16.04)](/src/News/2016_04_GalaxyRelease/index.md)</div>
+<div class='newsItemHeader'>[April 2016 Galaxy Release (v 16.04)](/src/news/2016_04_GalaxyRelease/index.md)</div>
 
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/Images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
  
 <br />
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the **[April 2016 (v16.04) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.04_announce.html)**.
@@ -41,6 +41,6 @@ Galaxy now detects and supports many molecular datatypes. See [PR 1941](https://
 ***Thanks for using Galaxy!***
 
 <br />
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-05-18</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-05-18</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

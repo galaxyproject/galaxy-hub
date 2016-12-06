@@ -1,10 +1,10 @@
 <div class='center'>
-<a href='http://www.wcb.ed.ac.uk/'><img src="/src/Images/Logos/WTCCBLogo.png" alt="Welcome Trust Centre for Cell Biology" height="100" /></a> &nbsp; 
-<a href='http://www.genomics.ed.ac.uk/'><img src="/src/Images/Logos/EdinburghGenomics.png" alt="Edinburgh Genomics" height="100" /></a>
+<a href='http://www.wcb.ed.ac.uk/'><img src="/src/images/Logos/WTCCBLogo.png" alt="Welcome Trust Centre for Cell Biology" height="100" /></a> &nbsp; 
+<a href='http://www.genomics.ed.ac.uk/'><img src="/src/images/Logos/EdinburghGenomics.png" alt="Edinburgh Genomics" height="100" /></a>
 &nbsp; 
-<a href='http://www.roslin.ed.ac.uk/'><img src="/src/Images/Logos/RoslinLogo.jpg" alt="Roslin Institute" height="100" /></a> 
+<a href='http://www.roslin.ed.ac.uk/'><img src="/src/images/Logos/RoslinLogo.jpg" alt="Roslin Institute" height="100" /></a> 
 &nbsp; 
-<a href='http://www.ed.ac.uk/'><img src="/src/Images/Logos/UEdinburghSquareLogo.png" alt="University of Edinburgh" height="100" /></a> 
+<a href='http://www.ed.ac.uk/'><img src="/src/images/Logos/UEdinburghSquareLogo.png" alt="University of Edinburgh" height="100" /></a> 
 <div class='title'>Introduction to Galaxy<br />12 May 2014</div>
 
 **
@@ -70,8 +70,8 @@ Anyone affiliated with the University of Edinburgh can participate in this works
 <div class='center'>**Note:** This is a hands-on workshop!  Please bring a wifi-enabled laptop.</div>
 
 <div class='right'>
-<br /><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a><br /><br />
-<a href='/src/Events/UKMay2014/index.md'><img src="/src/Images/Logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
+<br /><a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a><br /><br />
+<a href='/src/events/UKMay2014/index.md'><img src="/src/images/Logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
 </div>
 
 ## Support
@@ -80,7 +80,7 @@ This workshop is generously supported by the [Welcome Trust Centre for Cell Biol
 
 ### Galaxy May 2014 UK Tour
 
-This workshop is part of the [May 2014 Galaxy UK Tour](/src/Events/UKMay2014/index.md), which features events in Norwich, as well as other events in Edinburgh.
+This workshop is part of the [May 2014 Galaxy UK Tour](/src/events/UKMay2014/index.md), which features events in Norwich, as well as other events in Edinburgh.
 
 ## Slides
 

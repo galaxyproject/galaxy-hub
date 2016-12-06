@@ -1,8 +1,8 @@
-<div class='newsItemHeader'>[Bioinformaticians, Freiburg](/src/News/BioinformaticianFreiburg2014/index.md)</div>
+<div class='newsItemHeader'>[Bioinformaticians, Freiburg](/src/news/BioinformaticianFreiburg2014/index.md)</div>
 
 ----
 
-<div class='right'><a href='http://www.ie-freiburg.mpg.de/jobs'><img src="/src/Images/Logos/MaxPlanckIIE.png" alt="Max Planck Institute of Immunobiology and Epigenetics" /></a></div>
+<div class='right'><a href='http://www.ie-freiburg.mpg.de/jobs'><img src="/src/images/Logos/MaxPlanckIIE.png" alt="Max Planck Institute of Immunobiology and Epigenetics" /></a></div>
 
 [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs) in Freiburg, Germany has an opening for a Bioinformatician for an initial period of two years.  The successful candidate will work at the interface between an in-house deep-sequencing facility (HiSeq-2500) and the various research groups at the institute. Main responsibilities include
 
@@ -17,7 +17,7 @@ See the [full job posting](PLACEHOLDER_ATTACHMENT_URL/src/FreiburgJobPosting.pdf
 
 ----
 
-<div class='right'><a href='http://www.bioinf.uni-freiburg.de//?en'><img src="/src/Images/Logos/bioinf_uni_freiburg.png" alt="Bioinformatics Uni-Freiburg" width="100" /></a></div>
+<div class='right'><a href='http://www.bioinf.uni-freiburg.de//?en'><img src="/src/images/Logos/bioinf_uni_freiburg.png" alt="Bioinformatics Uni-Freiburg" width="100" /></a></div>
 
 [The Bioinformatics group](http://www.bioinf.uni-freiburg.de//?en) in Freiburg, Germany recruiting creative and motivated PhD students, postdoctoral
 scholars or software engineers with a strong interest in RNA and NGS
@@ -48,6 +48,6 @@ around the corner and excellent research facilities all over the city.
 
 Please contact [Bjoern Gruening](/src/BjoernGruening/index.md) for further details.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-10-30</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-10-30</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

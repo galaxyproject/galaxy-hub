@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[2014 Galaxy Questionnaires](/src/News/2014Questionnaire/index.md)</div>
+<div class='newsItemHeader'>[2014 Galaxy Questionnaires](/src/news/2014Questionnaire/index.md)</div>
 
 The Galaxy Project is preparing for our next grant cycle and we are seeking your feedback and comments on on all things Galaxy.  We have created two questionnaires, each focused on how you interact with Galaxy:
 **
@@ -15,6 +15,6 @@ Let your voice be heard!
 
 [The Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-09-30</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-09-30</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

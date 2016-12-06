@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[GCC2016 Scholarships: Apply Now!](/src/News/GCC2016Scholarships/index.md)</div>
+<div class='newsItemHeader'>[GCC2016 Scholarships: Apply Now!](/src/news/GCC2016Scholarships/index.md)</div>
 
 <div class='right'>
 <a href='https://gcc2016.iu.edu/'><img src="https://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference" width="250" /></a>
@@ -23,6 +23,6 @@ If you are submitting a poster or demo, please do so *before* submitting an [app
 **The application deadline is May 1 for members of historically underrepresented groups and March 20 for those from Low and Lower-Middle Income Economies**.  Applicants will be notified of their scholarship status no later than two weeks after the deadline.
 
 Galaxy Community Fund Board
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-02-18</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-02-18</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

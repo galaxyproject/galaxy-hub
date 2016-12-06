@@ -4,7 +4,7 @@ title: Galaxy Project Workshop CloudMan on AWS Share
 <span style="font-size: larger;"> Hey! This Is Under Construction! </span>
 
 <div class='center'>
-<br /><a href='/src/CloudMan/index.md'><img src="/src/Images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" height="75" /></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" height="75" /></a><br /><br /></div>
+<br /><a href='/src/CloudMan/index.md'><img src="/src/images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" height="75" /></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" height="75" /></a><br /><br /></div>
 
 
 
@@ -19,7 +19,7 @@ title: Galaxy Project Workshop CloudMan on AWS Share
  Date:: 2014/12
 </div>
 
-The [Galaxy Team](/src/GalaxyTeam/index.md) runs most of it's [hands-on workshops](/src/Events/index.md) using CloudMan based instances running on [Amazon Web Services (AWS)](https://aws.amazon.com).  We could create each workshop server anew each time we do a workshop, but it is much easier to create an instance once, take a snapshot of it, and then reuse that snapshot whenever we have a workshop.
+The [Galaxy Team](/src/GalaxyTeam/index.md) runs most of it's [hands-on workshops](/src/events/index.md) using CloudMan based instances running on [Amazon Web Services (AWS)](https://aws.amazon.com).  We could create each workshop server anew each time we do a workshop, but it is much easier to create an instance once, take a snapshot of it, and then reuse that snapshot whenever we have a workshop.
 
 This page describes the current Galaxy Project workshop snapshot.  It's publicly available and can be used by anyone.
 

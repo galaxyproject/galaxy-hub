@@ -3,12 +3,12 @@ autotoc: true
 title: Galaxy Mailing Lists
 ---
 
-PLACEHOLDER_INCLUDE(/src/Support/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/support/LinkBox/index.md)
 <div class='right'></div>
 
 Mailing lists play a vital role in the Galaxy community:
-1. They are a key part of [Galaxy's overall support efforts](/src/Support/index.md).
-1. They complement the [Galaxy Biostar forum](/src/Support/Biostar/index.md), which is focused on questions about *using* Galaxy.
+1. They are a key part of [Galaxy's overall support efforts](/src/support/index.md).
+1. They complement the [Galaxy Biostar forum](/src/support/Biostar/index.md), which is focused on questions about *using* Galaxy.
 1. They are a place where the community *[can ask and answer](/src/MailingLists/index.md#posting-a-question)* questions.
 1. They are a place for the discussion of open issues and best practices.
 1. They are also a *[searchable treasure trove of knowledge about Galaxy](/src/MailingLists/index.md#searching)*.  
@@ -20,7 +20,7 @@ Mailing lists play a vital role in the Galaxy community:
 
 PLACEHOLDER_INCLUDE(/src/MailingListDetail/index.md)
 
-<div class='right'><a href='http://galaxyproject.org/search/mailinglists/'><img src="/src/Images/Logos/GalaxyMailingListSearch.png" alt="Search all" width="150" /></a></div>
+<div class='right'><a href='http://galaxyproject.org/search/mailinglists/'><img src="/src/images/Logos/GalaxyMailingListSearch.png" alt="Search all" width="150" /></a></div>
 
 ## Searching
 
@@ -66,7 +66,7 @@ You can search the lists at any of the archives above.  We recommend [Google Cus
 </table>
 
 
-<div class='right'><a href='http://galaxyproject.org/search/web/'><img src="/src/Images/Logos/GalaxyWebSearch.png" alt="Search all" width="150" /></a></div>
+<div class='right'><a href='http://galaxyproject.org/search/web/'><img src="/src/images/Logos/GalaxyWebSearch.png" alt="Search all" width="150" /></a></div>
 
 Several other [searches](http://galaxyproject.org/search/) are also supported, including:
 * [UseGalaxy search](http://galaxyproject.org/search/usegalaxy) - Search for information about using Galaxy.
@@ -78,7 +78,7 @@ Several other [searches](http://galaxyproject.org/search/) are also supported, i
 
 ## Subscribing and Unsubscribing
 
-<div class='right'>![](/src/Images/Logos/MailmanLogoSmall.png)</div>
+<div class='right'>![](/src/images/Logos/MailmanLogoSmall.png)</div>
 To subscribe or unsubscribe from a list, click the link below and then follow the directions on the list page.  If you are unsubscribing you will need to use the same email address you subscribed with.
 
 <table>
@@ -168,10 +168,10 @@ We have a significant amount of mailing list traffic. See the [Galaxy Project St
 
 ## See Also
 
-* **[Support](/src/Support/index.md)**
+* **[Support](/src/support/index.md)**
 * **[Custom Google Galaxy Web Search](http://galaxyproject.org/search/web)**
 * [Galaxy Issue Board](/src/Issues/index.md)
 * [Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)
-* [News](/src/News/index.md)
+* [News](/src/news/index.md)
 * [Galaxy on Twitter](/src/GalaxyOnTwitter/index.md)
 

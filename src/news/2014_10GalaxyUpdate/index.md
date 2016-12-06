@@ -1,7 +1,7 @@
-<div class='newsItemHeader'>[October 2014 Galaxy Newsletter](/src/News/2014_10GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[October 2014 Galaxy Newsletter](/src/news/2014_10GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/src/GalaxyUpdates/2014_10/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
+<a href='/src/GalaxyUpdates/2014_10/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
 </div>
 
 A lot is happening in in the Galaxy in October, and a lot of good stuff happened in September too.  Take a look at the [October 2014 Galaxy Newsletter](/src/GalaxyUpdates/2014_10/index.md) for the complete story, but here are some highlights:
@@ -20,6 +20,6 @@ Happy October!
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-10-01 </div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-10-01 </div>
 
 [CategoryNews](/src/CategoryNews/index.md)

@@ -1,7 +1,7 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://purdue.edu/'><img src="/src/Images/Logos/Purdue.jpg" alt="Purdue University" width="220px" /></a> &nbsp; <a href='https://www.bioinformatics.purdue.edu/'><img src="/src/Images/Logos/PurdueDiscoveryPark.jpg" alt="Purdue University Bioinformatics Core, Cyber Center and Discovery Park"  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://purdue.edu/'><img src="/src/images/Logos/Purdue.jpg" alt="Purdue University" width="220px" /></a> &nbsp; <a href='https://www.bioinformatics.purdue.edu/'><img src="/src/images/Logos/PurdueDiscoveryPark.jpg" alt="Purdue University Bioinformatics Core, Cyber Center and Discovery Park"  /></a> </td>
   </tr>
 </table>
 
@@ -99,14 +99,14 @@ All work will be done in a web browser and we will use the computer workstations
 
 ## Support
 
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
-<div class='right'><a href='https://www.bioinformatics.purdue.edu/'><img src="/src/Images/Logos/PurdueDiscoveryPark.jpg" alt="Purdue University Bioinformatics Core, Cyber Center and Discovery Park" width="275px" /></a></div>
+<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='right'><a href='https://www.bioinformatics.purdue.edu/'><img src="/src/images/Logos/PurdueDiscoveryPark.jpg" alt="Purdue University Bioinformatics Core, Cyber Center and Discovery Park" width="275px" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the Purdue University [Bioinformatics Core](https://www.bioinformatics.purdue.edu/), [Cyber Center](http://www.purdue.edu/discoverypark/cyber/) and [Discovery Park](http://www.purdue.edu/discoverypark/).
 
 ## Links
 
-<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/PurdueGalaxyWorkshopFlier.pdf'><img src="/src/Events/Purdue2012/PurdueGalaxyWorkshopFlierThumb.png" alt="Please distribute" height="220px" /></a></div>
+<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/PurdueGalaxyWorkshopFlier.pdf'><img src="/src/events/Purdue2012/PurdueGalaxyWorkshopFlierThumb.png" alt="Please distribute" height="220px" /></a></div>
 
 * [Flier](PLACEHOLDER_ATTACHMENT_URL/src/PurdueGalaxyWorkshopFlier.pdf) - please print / post / distribute
 * [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_Purdue.pdf)

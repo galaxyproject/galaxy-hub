@@ -6,7 +6,7 @@ title: September 2014 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the September 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -35,15 +35,15 @@ Don't fret if you want to join a community but you are not in the UK.  [Galaxy-U
 
 ## Galaxy Events in Europe, Fall 2014
 
-There are a wealth of Galaxy related events in Europe this fall. Events include a [large Galaxy presence at ECCB'14](/src/Events/ECCB2014/index.md), the [Fourth Galaxy User Group Grand Ouest (GUGGO) meeting](http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo), the [2014 Swiss-German Galaxy Tour](/src/Events/SG2014/index.md), and several training events in Italy, the United Kingdom, Croatia, Norway, and France.
+There are a wealth of Galaxy related events in Europe this fall. Events include a [large Galaxy presence at ECCB'14](/src/events/ECCB2014/index.md), the [Fourth Galaxy User Group Grand Ouest (GUGGO) meeting](http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo), the [2014 Swiss-German Galaxy Tour](/src/events/SG2014/index.md), and several training events in Italy, the United Kingdom, Croatia, Norway, and France.
 
 These events are a great way to meet other Galaxy users and developers and learn and share best practices. If you're in Europe and are interested in learning more about Galaxy and/or the community, then please give these a look.
 
 <div class='center'> 
-<a href='/src/Events/ECCB2014/index.md'><img src="/src/Images/Logos/ECCB2014Logo.png" alt="Galaxy at ECCB" height="80" /></a>
-<a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'><img src="/src/Images/Logos/eBiogenouestLogo.png" alt="Tools integration on Galaxy" height="80" /></a> &nbsp;
-<a href='http://www.bioinformatica.crs4.it/training'><img src="/src/Images/Logos/CRS4Logo.jpg" alt="Analisi dati Next Generation Sequencing con Galaxy" width="130" /></a> &nbsp;
-<a href='/src/Events/SG2014/index.md'><img src="/src/Images/Logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
+<a href='/src/events/ECCB2014/index.md'><img src="/src/images/Logos/ECCB2014Logo.png" alt="Galaxy at ECCB" height="80" /></a>
+<a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'><img src="/src/images/Logos/eBiogenouestLogo.png" alt="Tools integration on Galaxy" height="80" /></a> &nbsp;
+<a href='http://www.bioinformatica.crs4.it/training'><img src="/src/images/Logos/CRS4Logo.jpg" alt="Analisi dati Next Generation Sequencing con Galaxy" width="130" /></a> &nbsp;
+<a href='/src/events/SG2014/index.md'><img src="/src/images/Logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
 </div>
 
 <table>
@@ -55,9 +55,9 @@ These events are a great way to meet other Galaxy users and developers and learn
   </tr>
   <tr>
     <th> September 6-10 </th>
-    <td> <a href='/src/Events/ECCB2014/index.md'>At least one tutorial, a panel of European Public Galaxy Instances, and 5 posters</a> </td>
-    <td> <strong><a href='/src/Events/ECCB2014/index.md'>European Conference on Computational Biology (ECCB'14)</a></strong>, Strasbourg, France </td>
-    <td> <a href='/src/Events/ECCB2014/index.md'>Presenters</a> </td>
+    <td> <a href='/src/events/ECCB2014/index.md'>At least one tutorial, a panel of European Public Galaxy Instances, and 5 posters</a> </td>
+    <td> <strong><a href='/src/events/ECCB2014/index.md'>European Conference on Computational Biology (ECCB'14)</a></strong>, Strasbourg, France </td>
+    <td> <a href='/src/events/ECCB2014/index.md'>Presenters</a> </td>
   </tr>
   <tr>
     <th> September 11 </th>
@@ -97,15 +97,15 @@ These events are a great way to meet other Galaxy users and developers and learn
   </tr>
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
-    <td> <a href='/src/Events/Switzerland2014/trainingday/index.md'>Galaxy Training and Demo Day</a> </td>
-    <td rowspan=3> <strong><a href='/src/Events/SG2014/index.md'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
+    <td> <a href='/src/events/Switzerland2014/trainingday/index.md'>Galaxy Training and Demo Day</a> </td>
+    <td rowspan=3> <strong><a href='/src/events/SG2014/index.md'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
     <td rowspan=3> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/BjoernGruening/index.md'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/Events/Switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/src/events/Switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/Events/Germany2014/index.md'>German Galaxy Developers Day</a></em> </td>
+    <td> <em><a href='/src/events/Germany2014/index.md'>German Galaxy Developers Day</a></em> </td>
   </tr>
   <tr>
     <th> October 6 - 24 </th>
@@ -126,9 +126,9 @@ These events are a great way to meet other Galaxy users and developers and learn
 
 ## The Great GigaScience and Galaxy Workshop
 
-<div class='right'><a href='http://www.gigasciencejournal.com/'><img src="/src/Images/Logos/GigaScienceLogo.gif" alt="GigaScience Journal" width="200" /></a><br />
-<a href='http://www.vlsci.org.au/'><img src="/src/Images/Logos/VLSCILogo.png" alt="VLSCI" width="200" /></a><br />
-<a href='http://australianbioinformatics.net/'><img src="/src/Images/Logos/ABNLogoWText200.jpg" alt="Australian Bioinformatics Network" width="200" /></a>
+<div class='right'><a href='http://www.gigasciencejournal.com/'><img src="/src/images/Logos/GigaScienceLogo.gif" alt="GigaScience Journal" width="200" /></a><br />
+<a href='http://www.vlsci.org.au/'><img src="/src/images/Logos/VLSCILogo.png" alt="VLSCI" width="200" /></a><br />
+<a href='http://australianbioinformatics.net/'><img src="/src/images/Logos/ABNLogoWText200.jpg" alt="Australian Bioinformatics Network" width="200" /></a>
 </div>
 
 The [The Great GigaScience and Galaxy (G3) Workshop](http://australianbioinformatics.net/great-gigascience-galaxy-wkshp) will be held, Friday 19 September 2014 at The University of Melbourne from 8:45-5pm.
@@ -150,7 +150,7 @@ See the [event page](http://australianbioinformatics.net/great-gigascience-galax
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/Icons/CalendarIcon.gif" /></a></div> 
 
 And don't worry, Europe does not have a complete lock on upcoming Galaxy related events.  There is also things going on in North America, and a few more in Australia too.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -272,10 +272,10 @@ The Galaxy is expanding! Please help it grow.
 * [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
 * [Galaxy Platform Development Officer](http://bit.ly/1q5iXPL), The Genome Analysis Centre (TGAC), Norwich, United Kingdom.  **Closes 18 September.**
 * [Bioinformatician position](http://www.xenbase.org/community/job.do?id=633&method=View+Job) at [Xenbase](http://xenbase.org), University of Calgary.
-* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* [Statistical Genomics Postdoc](/src/news/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -285,8 +285,8 @@ August was an eventful month for releases.  New versions of [Galaxy](/src/Galaxy
 
 ## August 11, 2014 Galaxy Distribution
 
-<div class='left'><a href='http://getgalaxy.org'><img src="/src/Images/Logos/GetGalaxyOrg.png" alt=" " width=150 /></a></div>
-<div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/src/Images/Logos/DockerInGalaxyAnnotated.png" alt=" " width=280 /></a></div>
+<div class='left'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GetGalaxyOrg.png" alt=" " width=150 /></a></div>
+<div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/src/images/Logos/DockerInGalaxyAnnotated.png" alt=" " width=280 /></a></div>
 <br />
 **[Complete News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2014_08_11)**
 <br /><br /><br />
@@ -326,7 +326,7 @@ August was an eventful month for releases.  New versions of [Galaxy](/src/Galaxy
 
 ## August 2014 CloudMan Release
 
-<div class='right'><a href='/src/CloudMan/index.md'><img src="/src/Images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
+<div class='right'><a href='/src/CloudMan/index.md'><img src="/src/images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
 
 This is mostly an incremental bug fix release with the following summary of changes:
 
@@ -377,7 +377,7 @@ For complete details on implemented changes, please see the [source code commits
 
 # Galaxy IPython
 
-<div class='right'><a href='http://ipython.org/'><img src="/src/Images/Logos/IPythonSqaure.png" alt="IPython"  /></a></div>
+<div class='right'><a href='http://ipython.org/'><img src="/src/images/Logos/IPythonSqaure.png" alt="IPython"  /></a></div>
 
 *And ...* Björn Grüning and Eric Rasche also released **[Galaxy IPython](https://github.com/bgruening/galaxy-ipython)**:
 
@@ -391,7 +391,7 @@ Disclaimer: Even though the [Ipython](http://ipython.org/) notebooks can be stor
 
 Keep in mind to write a nice Tool Shed Tool if you catch yourself using IPython in Galaxy to often for the same task.
 
-<div class='right'><a href='https://www.youtube.com/watch?v=jQDyTuYnn1k'><img src="/src/Images/Screenshots/IPythonVideo.png" alt="Galaxy IPython Screencast" width="200" /></a>
+<div class='right'><a href='https://www.youtube.com/watch?v=jQDyTuYnn1k'><img src="/src/images/Screenshots/IPythonVideo.png" alt="Galaxy IPython Screencast" width="200" /></a>
 <div class='center'>[Screencast](https://www.youtube.com/watch?v=jQDyTuYnn1k)</div>
 </div>
 
@@ -423,8 +423,8 @@ Eric & Björn
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/src/Community/Logs/index.md'><img src="/src/Images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
-<div class='right'><a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/src/Community/Logs/index.md'><img src="/src/images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='right'><a href='/src/Community/Deployments/index.md'><img src="/src/images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
 <br />
 
 <table>
@@ -439,7 +439,7 @@ Eric & Björn
 
 The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/src/Community/index.md)* were launched last your.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 

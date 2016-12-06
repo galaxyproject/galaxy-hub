@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[New Galaxy-Announce Mailing List](/src/News/New Galaxy-Announce Mailing List/index.md)</div>
+<div class='newsItemHeader'>[New Galaxy-Announce Mailing List](/src/news/New Galaxy-Announce Mailing List/index.md)</div>
 <div class='right'>
-<a href='http://lists.bx.psu.edu/listinfo/galaxy-announce'><img src="/src/Images/Logos/MailmanLogoSmall.png" /></a>
+<a href='http://lists.bx.psu.edu/listinfo/galaxy-announce'><img src="/src/images/Logos/MailmanLogoSmall.png" /></a>
 </div>
 
 There is a new mailing list in the Galaxy: [Galaxy-Announce](http://lists.bx.psu.edu/listinfo/galaxy-announce).  
@@ -16,6 +16,6 @@ To subscribe to the list please go to the [Galaxy-Announce Mailman page](http://
 See [Mailing Lists](/src/Mailing Lists/index.md) for more information on this and other Galaxy mailing lists, including links to searchable archives of all Galaxy lists.
 
 [Dave Clements](/src/DaveClements/index.md)
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-12-02</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-12-02</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

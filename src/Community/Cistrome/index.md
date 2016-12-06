@@ -1,4 +1,4 @@
-<div class='center'> <a href='http://cistrome.org/'><img src="/src/Images/Logos/CistromeAP.png" alt="Cistorme Analysis Pipeline" /></a>  <div class='title'>[Cistrome Analysis Pipeline](http://cistrome.org/ap/)</div> </div>
+<div class='center'> <a href='http://cistrome.org/'><img src="/src/images/Logos/CistromeAP.png" alt="Cistorme Analysis Pipeline" /></a>  <div class='title'>[Cistrome Analysis Pipeline](http://cistrome.org/ap/)</div> </div>
 
 The [Cistrome Analysis Pipeline](http://cistrome.org/ap/) has the standard Galaxy tools, plus 29 additional ChIP-chip and ChIP-seq specific tools, including preliminary peak calling and correlation analyses, downstream genome feature association, gene expression analyses, and motif discovery.
 

@@ -6,7 +6,7 @@ title: September 2013 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the September 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -33,11 +33,11 @@ You can also [install your own copy of Galaxy-P](http://getgalaxyp.org/), either
 
 See 
 * Benjamin Goudey, David Rawlinson, Qiao Wang, Fan Shi, Herman Ferra, Richard M Campbell, Linda Stern, Michael T Inouye, Cheng Soon Ong, Adam Kowalczyk (2013), "[GWIS – model-free, fast and exhaustive search for epistatic interactions in case-control GWAS](http://www.biomedcentral.com/1471-2164/14/S3/S10)", *BMC Genomics*, 14(Suppl 3):S10 
-* *[H37: GWIS: Online exhaustive bivariate GWAS in minutes](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2013ISMBRawlinsonGWIS.pdf)*, poster presented by David Rawlinson, *et al.* at [ISMB 2013](/src/Events/ISMB2013/index.md).
+* *[H37: GWIS: Online exhaustive bivariate GWAS in minutes](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2013ISMBRawlinsonGWIS.pdf)*, poster presented by David Rawlinson, *et al.* at [ISMB 2013](/src/events/ISMB2013/index.md).
 
 ## Martin Luther University Halle-Wittenberg
 
-<div class='right solid'><a href='http://galaxy.informatik.uni-halle.de'><img src="/src/Images/Logos/MartinLutherU.png" alt="Martin Luther University Halle-Wittenberg" width="200px" /></a></div>
+<div class='right solid'><a href='http://galaxy.informatik.uni-halle.de'><img src="/src/images/Logos/MartinLutherU.png" alt="Martin Luther University Halle-Wittenberg" width="200px" /></a></div>
 
 [Martin Luther University Halle-Wittenberg](http://galaxy.informatik.uni-halle.de)'s Galaxy server provides implementations of tools developed by the groups of [Bioinformatics and Pattern Recognition](http://informatik.uni-halle.de/arbeitsgruppen/mustererkennung/?lang=en) and/or [Bioinformatics](http://informatik.uni-halle.de/arbeitsgruppen/bioinformatik/?lang=en) in collaboration with internal and external partners. 
 * CRISPRer is a tool for genome-wide selection and assessment of CRISPR/Cas protospacers.
@@ -132,7 +132,7 @@ The [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de/) enabl
 
 # 2014 Galaxy Training Survey
 
-<div class='right'><a href='http://bit.ly/gxy14training'><img src="/src/News/2014GalaxyTrainingSurvey/GalaxyTrainingSurvey.png" alt="Take the Galaxy training survey" width="350" /></a></div>
+<div class='right'><a href='http://bit.ly/gxy14training'><img src="/src/news/2014GalaxyTrainingSurvey/GalaxyTrainingSurvey.png" alt="Take the Galaxy training survey" width="350" /></a></div>
 
 Help guide Galaxy's 2014 training efforts by taking the [Galaxy Training Survey](http://bit.ly/gxy14training)! Please take a few minutes to let us know what you would like to see offered, and where you would like training to be held.
 
@@ -149,22 +149,22 @@ The Galaxy is expanding! Please help it grow.
 * [Sr Bioinformatics Specialist, Tufts University](http://bit.ly/1bOLLBd), Boston MA.
 * [Senior Developer](http://www.nature.com/naturejobs/science/jobs/334107-senior-developer-stem-cell-bioinformatics-core), Stem Cell Bioinformatics Core, Sage Bionetworks, Seattle, WA, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
 # Events
 
 <div class='center'>
-<a href='https://training.bioinformatics.ucdavis.edu/2013/07/02/the-2013-rna-seq-workshop/'><img src="/src/Images/Logos/UCDavisGenomeCenterLogo.jpg" alt="RNA-Seq Workshop: From Pipette to P-value! @ UC Davis Bioinformatics Core" height="60" /></a>
-<a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'><img src="/src/Images/Logos/RCPALogo.jpg" alt="The Genomic Bioinformatics Workshop" height="60" /></a>
-<a href='http://individualizingmedicineconference.mayo.edu/schedule/'><img src="/src/Images/Logos/MayoClinicSmall.png" alt="Individualizing Medicine Conference" height="60" /></a> &nbsp;
-<a href='http://www.beyond-the-genome.com/program/'><img src="/src/Images/Logos/BeyondTheGenome2013.png" alt="Beyond the Genome" height="60" /></a> &nbsp;
-<a href='http://bit.ly/153avr8'><img src="/src/Images/Logos/OrioneNGSCourse.png" alt="Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica" height="65" /></a> &nbsp;
-<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/src/Images/Logos/GennoToulLogo.png" alt="Galaxy Training Days" height="60" /></a>
+<a href='https://training.bioinformatics.ucdavis.edu/2013/07/02/the-2013-rna-seq-workshop/'><img src="/src/images/Logos/UCDavisGenomeCenterLogo.jpg" alt="RNA-Seq Workshop: From Pipette to P-value! @ UC Davis Bioinformatics Core" height="60" /></a>
+<a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'><img src="/src/images/Logos/RCPALogo.jpg" alt="The Genomic Bioinformatics Workshop" height="60" /></a>
+<a href='http://individualizingmedicineconference.mayo.edu/schedule/'><img src="/src/images/Logos/MayoClinicSmall.png" alt="Individualizing Medicine Conference" height="60" /></a> &nbsp;
+<a href='http://www.beyond-the-genome.com/program/'><img src="/src/images/Logos/BeyondTheGenome2013.png" alt="Beyond the Genome" height="60" /></a> &nbsp;
+<a href='http://bit.ly/153avr8'><img src="/src/images/Logos/OrioneNGSCourse.png" alt="Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica" height="65" /></a> &nbsp;
+<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/src/images/Logos/GennoToulLogo.png" alt="Galaxy Training Days" height="60" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/Icons/CalendarIcon.gif" /></a></div> See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 <br />
 
@@ -273,17 +273,17 @@ upgrade: $ hg pull
 ```
 
 
-<div class='right'><a href='/src/CloudMan/index.md'><img src="/src/Images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
+<div class='right'><a href='/src/CloudMan/index.md'><img src="/src/images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
 
 ## CloudMan Release
 
-A new version of [CloudMan](/src/CloudMan/index.md) was [released in July](/src/News/CloudManRelease/index.md).
+A new version of [CloudMan](/src/CloudMan/index.md) was [released in July](/src/news/CloudManRelease/index.md).
 
 <br />
 
 # Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 * [samifier](http://bit.ly/13JjmN0): enable a nexus between proteomic and genomic analysis. 
 * [neuma](http://bit.ly/144FqOy): Accurate quantification of transcriptome from RNA-Seq data by effective length normalization 

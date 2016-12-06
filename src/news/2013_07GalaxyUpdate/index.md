@@ -1,11 +1,11 @@
-<div class='newsItemHeader'>[July 2013 Galaxy Update](/src/News/2013_07GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[July 2013 Galaxy Update](/src/news/2013_07GalaxyUpdate/index.md)</div>
 
-<div class='right'><a href='/src/GalaxyUpdates/2013_06/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="July 2013 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/src/GalaxyUpdates/2013_06/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="July 2013 Galaxy Update" width=150 /></a></div>
 
 The [July 2013 Galaxy Update is now available](/src/GalaxyUpdates/2013_07/index.md). 
 
 **Highlights:**
-* **[GCC2013](/src/Events/GCC2013/index.md)** starts today in Oslo, Norway.
+* **[GCC2013](/src/events/GCC2013/index.md)** starts today in Oslo, Norway.
 * [Four new public servers](/src/GalaxyUpdates/2013_07/index.md#new-public-servers)
 * [A record 53 new papers](/src/GalaxyUpdates/2013_07/index.md#new-papers)
 * [Open Positions](/src/GalaxyUpdates/2013_07/index.md#whos-hiring) at five different organizations
@@ -19,6 +19,6 @@ If you have anything you would like to see in the August *[Galaxy Update](/src/G
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-06-30 </div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-06-30 </div>
 
 [CategoryNews](/src/CategoryNews/index.md)

@@ -2,7 +2,7 @@
 title: Name of Deployment
 ---
 <div class='center'>
-<a href='http://uab.edu'><img src="/src/Images/Logos/UABLogo.png" alt="University of Alabama Birmingham"  /></a>
+<a href='http://uab.edu'><img src="/src/images/Logos/UABLogo.png" alt="University of Alabama Birmingham"  /></a>
 </div>
 
 

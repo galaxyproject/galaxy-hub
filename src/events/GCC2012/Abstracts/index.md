@@ -2,13 +2,13 @@
 autotoc: true
 title: Abstract submission is now closed
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2012/PageHeader/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2012/PageHeader/index.md)
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2012/Abstracts/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2012/Abstracts/LinkBox/index.md)
 
 
 
-Abstracts for talks that were presented at the [GCC2012 main sessions](/src/Events/GCC2012/Abstracts/Program/index.md).  See [Training Day](/src/Events/GCC2012/TrainingDay/index.md) for training abstracts.
+Abstracts for talks that were presented at the [GCC2012 main sessions](/src/events/GCC2012/Abstracts/Program/index.md).  See [Training Day](/src/events/GCC2012/TrainingDay/index.md) for training abstracts.
 
 
 
@@ -30,7 +30,7 @@ An overview of where the Galaxy Project is and where it is going.
 
 ## Integration of S-MART, a toolbox to aid RNA-seq data analysis in Galaxy
 
-<div class='right'>![](/src/Events/GCC2012/Abstracts/Luo.jpg)</div>
+<div class='right'>![](/src/events/GCC2012/Abstracts/Luo.jpg)</div>
 
 **Yufei Luo<sup>1</sup>**, Matthias Zytnicki<sup>1</sup>, Olivier Inizan<sup>1</sup>, Delphine Steinbach<sup>1</sup>, Hadi Quesneville<sup>1</sup>
 
@@ -60,7 +60,7 @@ This ongoing project demonstrates a novel integration of Galaxy with experimenta
 
 ## Role of Galaxy in a bioinformatic plant breeding platform
 
-<div class='right'><img src="/src/Events/GCC2012/Abstracts/maillol.jpg" alt=""  /> <img src="/src/Events/GCC2012/Abstracts/jf_dufayard.jpg" alt="" height="113" /></div>
+<div class='right'><img src="/src/events/GCC2012/Abstracts/maillol.jpg" alt=""  /> <img src="/src/events/GCC2012/Abstracts/jf_dufayard.jpg" alt="" height="113" /></div>
 
 **Vincent Maillol<sup>1</sup>**, Roberto Bacilieri<sup>1</sup>, Stéphanie Sidibe Bocs<sup>3</sup>, Jean-Michel Boursiquot<sup>1,2</sup>, Grégory Carrier<sup>2</sup>, Alexis Dereeper<sup>4</sup>, Gaétan Droc<sup>3</sup>, Cécile Fleury<sup>3</sup>, Pierre Larmande<sup>4</sup>, Loïc Lecunff<sup>2</sup>, Jean-Pierre Péros<sup>1</sup> Bertrand Pitollat<sup>3</sup>, Manuel Ruiz<sup>3</sup>, Gautier Sarah<sup>1</sup>, Guilhem Sempéré<sup>3</sup>, Marilyne Summo<sup>3</sup>, Patrice This<sup>1</sup>, and **Jean-Francois Dufayard<sup>3</sup>**
 
@@ -84,7 +84,7 @@ functionalities.Thus, Galaxy is now a core component of the plant breeding commu
 
 ## Galaxy Pipeline for Faster Whole Genome Genotype Calling on the GeneTitan Platform
 
-<div class='right'><img src="/src/Events/GCC2012/Abstracts/OleksiyKarpenko.jpg" alt=""  /></div>
+<div class='right'><img src="/src/events/GCC2012/Abstracts/OleksiyKarpenko.jpg" alt=""  /></div>
 
 **Oleksiy Karpenko<sup>1</sup>** and Neil J. Bahroos<sup>1</sup><br />
 
@@ -100,7 +100,7 @@ Here we present a pipeline that uses Galaxy as an interface to provide the mecha
 
 ## Integrating Galaxy with Globus Online: Lessons learned from the CVRG project
 
-<div class='right'><img src="/src/Events/GCC2012/Abstracts/Liu.jpg" alt=""  /></div>
+<div class='right'><img src="/src/events/GCC2012/Abstracts/Liu.jpg" alt=""  /></div>
 
 **Bo Liu<sup>1</sup>** ([boliu@uchicago.edu](mailto:boliu@uchicago.edu)), Ravi Madduri<sup>1</sup> ([madduri@mcs.anl.gov](mailto:madduri@mcs.anl.gov))<br />
 
@@ -112,7 +112,7 @@ Globus Online (GO) is a hosted service that uses powerful grid transfer capabili
 
 ## Scalable data management and computable framework for large scale longitudinal studies
 
-<div class='right'><img src="/src/Events/GCC2012/Abstracts/Cuccuru.jpg" alt="" width="100" /></div>
+<div class='right'><img src="/src/events/GCC2012/Abstracts/Cuccuru.jpg" alt="" width="100" /></div>
 
 **[Gianmauro Cuccuru](http://www.crs4.it/crs4/peopledetails/people/195/Gianmauro_Cuccuru)**<sup>1</sup>, Simone Leo<sup>1</sup>, Luca Lianas<sup>1</sup>, Josh Moore<sup>4</sup>, Maristella Pitzalis<sup>2</sup>, Serena Sanna<sup>3</sup>, Ilenia Zara<sup>1</sup>, Jason Swedlow<sup>4</sup>, [Gianluigi Zanetti](http://www.crs4.it/crs4/peopledetails/people/7/Gianluigi_Zanetti)<sup>1</sup>
 
@@ -182,12 +182,12 @@ An increasing number of small groups do not have simple access to needed bioinfo
 
 Through the context of CloudMan, this talk will focus on the components required to establish a national collaborative initiative that aims at connecting genome researchers with massive datasets, sophisticated analysis and visualization tools, and large-scale computational and storage infrastructure. The initiative is known as the Genomics Virtual Laboratory; it is designed to scale to multiple locations and arbitrary cluster sizes as well as be supported by comprehensive training courses, outreach programs, and end-user support.
 
-*Note: If you want hands-on experience with CloudMan, you are encouraged to attend the [Training Day session on CloudMan](/src/Events/GCC2012/TrainingDay/index.md).*
+*Note: If you want hands-on experience with CloudMan, you are encouraged to attend the [Training Day session on CloudMan](/src/events/GCC2012/TrainingDay/index.md).*
 
 
 ## Keeping Track of Life Science Data
 
-<div class='right'>![](/src/Events/GCC2012/Abstracts/Gruening.png)</div>
+<div class='right'>![](/src/events/GCC2012/Abstracts/Gruening.png)</div>
 
 **Björn Grüning<sup>1</sup>**
 
@@ -202,7 +202,7 @@ We will present a proof-of-concept to process life science data (e.g. sequence o
 
 ## Easier Workflows & Tool Comparison with Oqtans+
 
-<div class='right'><img src="/src/Events/GCC2012/Abstracts/Sreedharan.jpg" alt="" width="100" /></div>
+<div class='right'><img src="/src/events/GCC2012/Abstracts/Sreedharan.jpg" alt="" width="100" /></div>
 
 Sebastian J. Schultheiss<sup>1</sup>, Géraldine Jean<sup>1,2</sup>, **Vipin T. Sreedharan<sup>1,3</sup>**, André Kahles<sup>1,3</sup>, Regina Bohnert<sup>1</sup>, Philipp Drewe<sup>1,3</sup>, Pramod Mudrakarta<sup>1</sup>, Nico Görnitz<sup>4</sup>, Georg Zeller<sup>1,5</sup>, Gunnar Rätsch<sup>1,3</sup>
 
@@ -228,7 +228,7 @@ Contact: support@oqtans.org; ratschg@mskcc.org
 
 ## CloudMap: A Cloud-based Pipeline for Analysis of Mutant Genome Sequences
 
-<div class='right'><img src="/src/Events/GCC2012/Abstracts/Minevich.jpg" alt="" width="100" /></div>
+<div class='right'><img src="/src/events/GCC2012/Abstracts/Minevich.jpg" alt="" width="100" /></div>
 
 **Gregory Minevich<sup>1</sup>**, Danny Park<sup>1</sup>, Richard J. Poole<sup>1</sup>, [Daniel Blankenberg](/src/Dan/index.md)<sup>2</sup>, [Anton Nekrutenko](/src/anton/index.md)<sup>2</sup> and Oliver Hobert<sup>1</sup><br />
 
@@ -247,7 +247,7 @@ Correspondence to [gm2123 AT columbia DOT edu](mailto:gm2123 AT columbia DOT edu
 
 ## GPS: a real-time recommendation system for ChIP-Seq analysis
 
-<div class='right'><img src="/src/Events/GCC2012/Abstracts/Sun.jpg" alt="" width="100" /></div>
+<div class='right'><img src="/src/events/GCC2012/Abstracts/Sun.jpg" alt="" width="100" /></div>
 
 **Hanfei Sun<sup>1</sup>**
  <sup>1</sup> [Dana-Farber Cancer Institute](http://www.dfci.harvard.edu/) and [Harvard School of Public Health](http://www.hsph.harvard.edu/)
@@ -266,7 +266,7 @@ We proposed a real-time recommendation system that recommends proper datasets th
 
 ## Integration of Taverna workflows on a Galaxy-based platform for large-scale genomics analysis
 
-<div class='right'><img src="/src/Events/GCC2012/Abstracts/Lee.jpg" alt="" width="100" /></div>
+<div class='right'><img src="/src/events/GCC2012/Abstracts/Lee.jpg" alt="" width="100" /></div>
 
 Huayan Gao<sup>1,2</sup>, Peter Li<sup>3,4</sup>, Tam Sneddon<sup>3,4</sup>, Dennis Chan<sup>3</sup>, Alexandra Basford<sup>3,4</sup>, Scott Edmunds<sup>3,4</sup>, Alex Wong<sup>3</sup>, Wai-Yee Chan<sup>1,2</sup>, Zhang Yong<sup>4</sup>, **Tin-Lap Lee<sup>1,2</sup>**
 
@@ -281,7 +281,7 @@ The big data derived from next generation sequencing experiments makes efficient
 
 ## NGS analysis for Biologists: experiences from the cloud
 
-<div class='right'><img src="/src/Events/GCC2012/Abstracts/Reddy.jpg" alt="" width="100" /></div>
+<div class='right'><img src="/src/events/GCC2012/Abstracts/Reddy.jpg" alt="" width="100" /></div>
 
 Mohammad Heydarian<sup>1</sup>, Barbara Sollner-Webb<sup>1</sup>, and **Karen Reddy<sup>1</sup>**
 
@@ -343,7 +343,7 @@ This work highlights the value of working within the Galaxy environment and the 
 
 ## Proteomics tools for Galaxy
 
-<div class='right'>![](/src/Events/GCC2012/Abstracts/Cooke.jpg)</div>
+<div class='right'>![](/src/events/GCC2012/Abstracts/Cooke.jpg)</div>
 
 **Ira Cooke<sup>1</sup>**
 
@@ -368,7 +368,7 @@ Molecular assay design is a staple of the bioinformatics trade. Although the typ
 
 ## The National Center for Genome Analysis Support and Galaxy
 
-<div class='right'><img src="/src/Events/GCC2012/Abstracts/RichLeDuc.jpg" alt="" height="100" /></div>
+<div class='right'><img src="/src/events/GCC2012/Abstracts/RichLeDuc.jpg" alt="" height="100" /></div>
 
 **Richard LeDuc<sup>1</sup>**
 
@@ -384,7 +384,7 @@ The National Center for Genome Analysis Support is an NSF funded resource design
 
 ## Integration of SeqWare within Galaxy
 
-<div class='right'>![](/src/Events/GCC2012/Abstracts/Lu.jpg)</div>
+<div class='right'>![](/src/events/GCC2012/Abstracts/Lu.jpg)</div>
 
 **Zhibin Lu<sup>1</sup>**, Morgan Taschuk<sup>1</sup>, Brian O’Connor<sup>1</sup> and B.F. Francis Ouellette<sup>1,2</sup>
 
@@ -399,7 +399,7 @@ The National Center for Genome Analysis Support is an NSF funded resource design
 
 ## Window2Galaxy – Enabling Linux-Windows Hybrid Workflows
 
-<div class='right'><img src="/src/Events/GCC2012/Abstracts/Vardi.jpg" alt="" width="100" /></div>
+<div class='right'><img src="/src/events/GCC2012/Abstracts/Vardi.jpg" alt="" width="100" /></div>
 
 **Liram Vardi<sup>1</sup>** and Amir Ben-Dor<sup>1</sup>
 
@@ -420,7 +420,7 @@ In the talk, we will present the architecture and provide example use cases.
 
 ## NBIC Galaxy to Strengthen the Bioinformatics Community in the Netherlands
 
-<div class='right'><img src="/src/Events/GCC2012/Abstracts/DavidvanEnckevort.jpg" alt="" width="100" /></div>
+<div class='right'><img src="/src/events/GCC2012/Abstracts/DavidvanEnckevort.jpg" alt="" width="100" /></div>
 
 Hailiang Mei<sup>1</sup>, **David van Enckevort<sup>1</sup>**, Mattias de Hollander<sup>2</sup>, Jeroen F. J. Laros<sup>3</sup>, Marc van Driel<sup>1</sup>, Rob Hooft<sup>1</sup>
 
@@ -463,7 +463,7 @@ Galaxy’s ease of use and rich feature set have made it a powerful enabler of b
 
 Big changes have been going on in how tools are packaged with the distribution.  This talk will focus on what's changed, and what you need to know about the Galaxy [Tool Shed](/src/Tool Shed/index.md) to deploy your own Galaxy instance.
 
-*Note: If you want hands-on experience with the Galaxy [Tool Shed](/src/Tool Shed/index.md), you are encouraged to attend the [Tool Shed Training Day session](/src/Events/GCC2012/TrainingDay/index.md).*
+*Note: If you want hands-on experience with the Galaxy [Tool Shed](/src/Tool Shed/index.md), you are encouraged to attend the [Tool Shed Training Day session](/src/events/GCC2012/TrainingDay/index.md).*
 
 <br />
 
@@ -473,7 +473,7 @@ Big changes have been going on in how tools are packaged with the distribution. 
 
 </div>
 
-The [deadline for abstracts was April 16](/src/Events/GCC2012/Key Dates/index.md).
+The [deadline for abstracts was April 16](/src/events/GCC2012/Key Dates/index.md).
 
 Oral presentations will be approximately 15-20 minutes long, including time for question and answer.  There will also be an opportunity for lightning talks, which will be solicited at the meeting.  
 
@@ -486,4 +486,4 @@ Oral presentations will be approximately 15-20 minutes long, including time for 
 1. **Make any slides freely available on this web site, no later than August 15, 2012.**
 1. **Have your talk be videotaped and have that videotape be publicly accessible on the web.**<br />(Note: We may or may not have sufficient funds to record talks.)
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2012/Abstracts/Ask the Organizers/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2012/Abstracts/Ask the Organizers/index.md)

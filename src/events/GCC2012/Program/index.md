@@ -2,14 +2,14 @@
 autotoc: true
 title: Program
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2012/PageHeader/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2012/PageHeader/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2012/Program/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2012/Program/LinkBox/index.md)
 <div class='right'></div>
 
-The [2012 Galaxy Community Conference](/src/Events/GCC2012/Program//index.md) included two full days of accepted talks, [lightning talks](/src/Events/GCC2012/Program/LightningTalks/index.md), breakout sessions, and networking time.  The conference was preceded by a full day of training sessions that cover 10 topics over four 90 minute sessions.
+The [2012 Galaxy Community Conference](/src/events/GCC2012/Program//index.md) included two full days of accepted talks, [lightning talks](/src/events/GCC2012/Program/LightningTalks/index.md), breakout sessions, and networking time.  The conference was preceded by a full day of training sessions that cover 10 topics over four 90 minute sessions.
 
 ### Summaries
 
@@ -21,8 +21,8 @@ The [2012 Galaxy Community Conference](/src/Events/GCC2012/Program//index.md) in
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='/src/Events/GCC2012/TrainingDay/index.md'><img src="/src/Events/GCC2012/GCC2012TrainingDayLogo.png" alt="Training Day" width="180" /></a> </td>
-    <td style=" border: none;"> The <a href='/src/Events/GCC2012/Program//index.md'>2012 Galaxy Community Conference</a> was preceded by a <em><a href='/src/Events/GCC2012/TrainingDay/index.md'>Training Day</a></em>, featuring 3 parallel tracks, each featuring four, 90 minutes workshops and covering 10 different topics.  </td>
+    <td style=" border: none;"> <a href='/src/events/GCC2012/TrainingDay/index.md'><img src="/src/events/GCC2012/GCC2012TrainingDayLogo.png" alt="Training Day" width="180" /></a> </td>
+    <td style=" border: none;"> The <a href='/src/events/GCC2012/Program//index.md'>2012 Galaxy Community Conference</a> was preceded by a <em><a href='/src/events/GCC2012/TrainingDay/index.md'>Training Day</a></em>, featuring 3 parallel tracks, each featuring four, 90 minutes workshops and covering 10 different topics.  </td>
   </tr>
 </table>
 

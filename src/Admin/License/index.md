@@ -11,7 +11,7 @@ Copyright (c) 2005-2015 Pennsylvania State University
 
 ## Source Code License
 
-<div class='right'><a href='http://opensource.org/licenses/AFL-3.0'><img src="/src/Images/Logos/OSIApprovedLicenseLogo.png" alt="An Open Source Initiative (OSI) approved license" /></a></div>
+<div class='right'><a href='http://opensource.org/licenses/AFL-3.0'><img src="/src/images/Logos/OSIApprovedLicenseLogo.png" alt="An Open Source Initiative (OSI) approved license" /></a></div>
 
 Galaxy source code is licensed under the [Academic Free License version 3.0](http://opensource.org/licenses/AFL-3.0).
 
@@ -62,6 +62,6 @@ e) to display the Original Work publicly.
 
 ## Images and Documentation License
 
-<div class='right'><a href='http://creativecommons.org/licenses/by/3.0/'><img src="/src/Images/Logos/CCBY3.0Logo.png" alt="Creative Commons License" /></a></div>
+<div class='right'><a href='http://creativecommons.org/licenses/by/3.0/'><img src="/src/images/Logos/CCBY3.0Logo.png" alt="Creative Commons License" /></a></div>
 
 Images and documentation are licensed under the [Creative Commons Attribution 3.0 (CC BY 3.0) License](http://creativecommons.org/licenses/by/3.0/).

@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <br /><a href='http://northwestern.edu/'><img src="/src/Images/Logos/NorthwesternULogo.jpg" alt="Northwestern University" width="230" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <br /><a href='http://northwestern.edu/'><img src="/src/images/Logos/NorthwesternULogo.jpg" alt="Northwestern University" width="230" /></a> </td>
     <td style=" border: none; width: 5%;"> </td>
     <td style=" border: none;"> <div class='title'>Introduction to Galaxy</div><strong>February 27, 2015, 9:00-4:00</strong><br /><br />Instructors: <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='https://www.facilities.research.northwestern.edu/directory/matt-schipma'>Matt Schipma</a><br /><br /><a href='http://bit.ly/1tGFxlR'>Galter Health Sciences Library</a>, Learning Resources Center<br /><a href='http://maps.northwestern.edu/chicago'>Northwestern University Feinberg School of Medicine campus</a><br />Chicago, Illinois, United States </td>
   </tr>
@@ -91,11 +91,11 @@ The workshop is being held in the Learning Resource Center of the [Galter Health
 The Learning Resources Center has 23 computers, and seating for up to 50. Participants are encouraged to bring their own wi-fi enabled laptops as there are fewer lab computers than there are participants.  If you bring your own laptop, please install [Firefox](https://www.mozilla.org/en-US/firefox/new/) or [Chrome](http://www.google.com/chrome/) beforehand.
 
 <div class='right center'>
-<a href='http://www.galter.northwestern.edu/'><img src="/src/Events/NorthwesternU2015/GaltierHSL.jpg" alt="Galter Health Sciences Library" width="165" /></a><br /><br />
-<a href='http://www.it.northwestern.edu/research/'><img src="/src/Events/NorthwesternU2015/NUITLogo.gif" alt="Northwestern University Research Computing Services" width=165 /></a><br /><br />
-<a href='http://nucats.northwestern.edu/'><img src="/src/Events/NorthwesternU2015/NUCATS.jpg" alt="Northwestern University Clinical and Translational Sciences Institute" width="165" /></a><br />
-<a href='http://www.feinberg.northwestern.edu/'><img src="/src/Events/NorthwesternU2015/FeinbergSOM.png" alt="Feinberg School of Medicine" width="185" /></a><br />
-<a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a>
+<a href='http://www.galter.northwestern.edu/'><img src="/src/events/NorthwesternU2015/GaltierHSL.jpg" alt="Galter Health Sciences Library" width="165" /></a><br /><br />
+<a href='http://www.it.northwestern.edu/research/'><img src="/src/events/NorthwesternU2015/NUITLogo.gif" alt="Northwestern University Research Computing Services" width=165 /></a><br /><br />
+<a href='http://nucats.northwestern.edu/'><img src="/src/events/NorthwesternU2015/NUCATS.jpg" alt="Northwestern University Clinical and Translational Sciences Institute" width="165" /></a><br />
+<a href='http://www.feinberg.northwestern.edu/'><img src="/src/events/NorthwesternU2015/FeinbergSOM.png" alt="Feinberg School of Medicine" width="185" /></a><br />
+<a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a>
 </div>
 
 ## Support

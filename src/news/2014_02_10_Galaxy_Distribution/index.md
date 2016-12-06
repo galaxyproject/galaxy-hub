@@ -1,7 +1,7 @@
-<div class='newsItemHeader'>[Feb 10, 2014 Galaxy Distribution](/src/News/2014_02_10_Galaxy_Distribution/index.md)</div>
+<div class='newsItemHeader'>[Feb 10, 2014 Galaxy Distribution](/src/news/2014_02_10_Galaxy_Distribution/index.md)</div>
 
 <div class='right'>
-<a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2014_02_10_trackster-css.png" alt="Trackster" width="400" /></a><br />*Trackster*</div>
+<a href='http://usegalaxy.org'><img src="/src/images/NewsGraphics/2014_02_10_trackster-css.png" alt="Trackster" width="400" /></a><br />*Trackster*</div>
 **Complete [News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2014_02_10)**
 <br />
 <br />
@@ -33,6 +33,6 @@ upgrade:   $ hg pull
 
 [The Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-02-10</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-02-10</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

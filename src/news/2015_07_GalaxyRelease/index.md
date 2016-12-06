@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[July 2015 Galaxy Release (v 15.07)](/src/News/2015_07_GalaxyRelease/index.md)</div>
+<div class='newsItemHeader'>[July 2015 Galaxy Release (v 15.07)](/src/news/2015_07_GalaxyRelease/index.md)</div>
 
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/Images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
  
 **The July 2015 Galaxy Release is out!**
 **[Release Notes v 15.07](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html)**

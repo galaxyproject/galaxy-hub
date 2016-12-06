@@ -1,16 +1,16 @@
 ---
 title: Proteomics BoF
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/BoF/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/BoF/LinkBox/index.md)
 
-<div class='left'><a href='/src/Events/GCC2013/BoF/index.md'><img src="/src/Images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
+<div class='left'><a href='/src/events/GCC2013/BoF/index.md'><img src="/src/images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 
-This page describes the **Proteomics BoF** [Birds of a Feather](/src/Events/GCC2013/BoF/index.md) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
+This page describes the **Proteomics BoF** [Birds of a Feather](/src/events/GCC2013/BoF/index.md) meetup being held at [GCC2013](/src/events/GCC2013/index.md).
 
 Two potential directions this BoF could follow depending on who (if anyone) is interested in attending - this could take the form of an tutorial/advertisement session or more of a planning session.
 
@@ -20,7 +20,7 @@ If the attendees are more or exclusively current developers using Galaxy for pro
 
 ## When and Where
 
-The Proteomics BoF has been  [tentatively scheduled](/src/Events/GCC2013/BoF/index.md#bof-schedule) for lunch on tuesday in the cantina
+The Proteomics BoF has been  [tentatively scheduled](/src/events/GCC2013/BoF/index.md#bof-schedule) for lunch on tuesday in the cantina
 
 ## Who is Participating
 

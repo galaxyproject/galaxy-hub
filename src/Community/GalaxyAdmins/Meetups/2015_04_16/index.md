@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2015/04/16 Web Meetup<br /><br />
 
 </div></div>
@@ -33,7 +33,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 *[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
-<div class='right'><br /><a href='http://ncgas.org/'><img src="/src/Images/Logos/NCGASLogoWide.jpg" alt="National Center for Genome Analysis Support (NCGAS)" width="250" /></a></div>
+<div class='right'><br /><a href='http://ncgas.org/'><img src="/src/images/Logos/NCGASLogoWide.jpg" alt="National Center for Genome Analysis Support (NCGAS)" width="250" /></a></div>
 
 ## IU Galaxies - Tips and Tricks
 
@@ -45,7 +45,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 ## Call Technology
 
-<div class='right'><img src="/src/Images/Logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
+<div class='right'><img src="/src/images/Logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
 
 The [meetup's online conference room](https://connect.johnshopkins.edu/galaxyadmins201504/) will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 

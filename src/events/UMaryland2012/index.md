@@ -6,15 +6,15 @@ title: Introduction to Galaxy
 
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.cbmg.umd.edu/'><img src="/src/Images/Logos/UMarylandBioLogo.png" alt="Department of Cell Biology and Molecular Genetics"  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.cbmg.umd.edu/'><img src="/src/images/Logos/UMarylandBioLogo.png" alt="Department of Cell Biology and Molecular Genetics"  /></a> </td>
     <td style=" border: none; text-align: center; vertical-align: middle; width: 10%;"> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.cbcb.umd.edu/'><img src="/src/Images/Logos/CBCBLogo.png" alt="Center for Bioinformatics & Computational Biology" width="300" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.cbcb.umd.edu/'><img src="/src/images/Logos/CBCBLogo.png" alt="Center for Bioinformatics & Computational Biology" width="300" /></a> </td>
   </tr>
   <tr>
     <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://umd.edu/'><img src="/src/Images/Logos/UMarylandLogoLong349.gif" alt="University of Maryland" width="300" /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://umd.edu/'><img src="/src/images/Logos/UMarylandLogoLong349.gif" alt="University of Maryland" width="300" /></a> </td>
   </tr>
 </table>
 
@@ -85,7 +85,7 @@ The [slides for the lecture part of the workshop are now available](PLACEHOLDER_
 
 ## Support
 
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [Department of Cell Biology and Molecular Genetics](http://www.cbmg.umd.edu/) and the [Center for Bioinformatics & Computational Biology](http://www.cbcb.umd.edu/).
 

@@ -1,10 +1,10 @@
 ---
 title: Birds of a Feather (BoF) Flock Together at [GCC2015](http://gcc2015.tsl.ac.uk/)
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2015/Header/index.md)
 
 
-<div class='left'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="" width="200" /></div>
+<div class='left'><img src="/src/images/Logos/GCC2015BoFs300.png" alt="" width="200" /></div>
 
 There is no better place than a Galaxy Community Conference to meet and learn from others doing data-intensive biology.  [GCC2015](http://gcc2015.tsl.ac.uk/) will continue this tradition by again including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing))* meetups.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
 
@@ -19,11 +19,11 @@ PLACEHOLDER_DICT_COLUMNS(pagename=Events/GCC2015/BoFs, names="BoF, When, Where, 
 
 To plan a Birds of a Feather meetup:
 
-1. Submit Your BoF Description, either with [this form](http://bit.ly/gcc2015bofform) or directly in the wiki [using a template](/src/Events/GCC2015/BoFs/index.md#use-the-wiki) (requires login).
+1. Submit Your BoF Description, either with [this form](http://bit.ly/gcc2015bofform) or directly in the wiki [using a template](/src/events/GCC2015/BoFs/index.md#use-the-wiki) (requires login).
 1. Once the BoF wiki page exists
   1. Notify [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).  Outreach will tweet it and highlight it in communication with attendees.
   1. Tweet it (use the hashtag #usegalaxy).
-  1. If you want, you can also [create a Galaxy News Item](/src/News/index.md#add-a-news-item) about the BoF (or again, send the text to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
+  1. If you want, you can also [create a Galaxy News Item](/src/news/index.md#add-a-news-item) about the BoF (or again, send the text to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 ### Submit Your BoF Description
 
@@ -44,7 +44,7 @@ With this method there will be some delay in creating the BoF page, and less con
 
 The BoF will be added to the wiki immediately. This requires a wiki account. 
 
-1. [Login](/src/Events/GCC2015/BoFs/index.md) to the wiki. If you don't have an account, you'll need to [create one](/src/Events/GCC2015/BoFs/index.md).
+1. [Login](/src/events/GCC2015/BoFs/index.md) to the wiki. If you don't have an account, you'll need to [create one](/src/events/GCC2015/BoFs/index.md).
 1. Pick a good descriptive, CamelCase name for your BoF's wiki page.  This will become part of the URL for the page describing your BoF.  Avoid embedded spaces as they make lousy URLs.
 1. **Enter the CamelCase name** in box below and hit the "Create" button.
     . PLACEHOLDER_NEW_PAGE(Events/GCC2015/BoF/BoFTemplate, "Create a Birds of a Feather wiki page", Events/GCC2015/BoFs)
@@ -61,4 +61,4 @@ The conference *enables and encourages* BoFs by
 * Promote BoFs to all conference participants, over and over, both before and during the conference.
 * Coordinate and reserve rooms for BoFs, and allocate time in the schedule for them too.
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Footer/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2015/Footer/index.md)

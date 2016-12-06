@@ -4,7 +4,7 @@ title: [61st ASMS Conference on Mass Spectrometry and Allied Topics](http://www.
 ---
 <div class='center'>
 
-<a href='http://www.asms.org/conferences/annual-conference'><img src="/src/Images/Logos/ASMS2013.jpg" alt="61st ASMS Conference on Mass Spectrometry and Allied Topics" /></a>
+<a href='http://www.asms.org/conferences/annual-conference'><img src="/src/images/Logos/ASMS2013.jpg" alt="61st ASMS Conference on Mass Spectrometry and Allied Topics" /></a>
 
 
 </div>
@@ -27,7 +27,7 @@ informatics will give short informal presentations on their work, followed by a 
 **Note:** The workshop features a broad spectrum of the Galaxy community that is interested in proteomics:
 * Minnesota participants will talk about [Galaxy-P](http://getgalaxyp.org/)
 * An [NBIC](http://nbic.nl) representative
-* [Ira Cooke](/src/Events/GCC2012/Abstracts/index.md#proteomics_tools_for_galaxy) of La Trobe University
+* [Ira Cooke](/src/events/GCC2012/Abstracts/index.md#proteomics_tools_for_galaxy) of La Trobe University
 * A member of the [Science For Life Laboratory](http://www.scilifelab.se/) will talk about Adapt, a cloud-based proteomics platform implemented on top of Galaxy.
 
 ```

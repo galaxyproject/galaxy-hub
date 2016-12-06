@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[Powered by Galaxy](/src/News/Powered by Galaxy/index.md)</div>
+<div class='newsItemHeader'>[Powered by Galaxy](/src/news/Powered by Galaxy/index.md)</div>
 
 <div class='right'><a href='/src/Outreach/Powered by Galaxy/index.md'><img src="/src/Outreach/Powered by Galaxy/PoweredByGalaxy200.png" /></a></div>
 Do you use Galaxy in your research?  If so, please consider putting a *[Powered by Galaxy](/src/Outreach/Powered by Galaxy/index.md)* icon on your websites, presentations and posters.  Increasing Galaxy's visibility has many benefits:
@@ -12,6 +12,6 @@ This, along with [Citing Galaxy](/src/Citing Galaxy/index.md), are two easy thin
 Thanks,
 
 [Dave Clements](/src/DaveClements/index.md)
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-08-19</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-08-19</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

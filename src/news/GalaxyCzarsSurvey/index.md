@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[Deploying Galaxy? Wanna Talk?](/src/News/GalaxyCzarsSurvey/index.md)</div>
+<div class='newsItemHeader'>[Deploying Galaxy? Wanna Talk?](/src/news/GalaxyCzarsSurvey/index.md)</div>
 
 The email post "[Interested in speaking with other institutions deploying Galaxy locally?](http://dev.list.galaxyproject.org/Interested-in-speaking-with-other-institutions-deploying-Galaxy-locally-td4593471.html)" by Ann Black-Ziegelbein generated a huge amount of interest.  Ann proposed a bi-monthly conference call to discuss the broader issues of doing Galaxy deployments.  
 
@@ -15,6 +15,6 @@ The resulting community, now dubbed [GalaxyCzars](/src/Community/GalaxyCzars/ind
 
 [Dave Clements](/src/DaveClements/index.md) (channeling Ann Black-Ziegelbein)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-05-07</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-05-07</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

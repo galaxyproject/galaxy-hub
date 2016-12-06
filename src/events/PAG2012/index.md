@@ -1,7 +1,7 @@
 ---
 title: Galaxy @ PAG 2012
 ---
-<div class='center'><a href='http://www.intlpag.org/'><img src="/src/Events/PAG2012/PAG2012.png" alt="Galaxy @ Plant and Animal Genome (PAG 2012)" /></a></div>
+<div class='center'><a href='http://www.intlpag.org/'><img src="/src/events/PAG2012/PAG2012.png" alt="Galaxy @ Plant and Animal Genome (PAG 2012)" /></a></div>
 
 
 
@@ -67,5 +67,5 @@ There is also a full slate of [GMOD related content](http://gmod.org/wiki/PAG 20
 
 ## Flier
 
-<div class='left'><a href='PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtPAG2012Flier.pdf'><img src="/src/Events/PAG2012/GalaxyAtPAG2012Thumb.png" alt="Galaxy Related Events @ PAG 2012" /></a></div>
+<div class='left'><a href='PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtPAG2012Flier.pdf'><img src="/src/events/PAG2012/GalaxyAtPAG2012Thumb.png" alt="Galaxy Related Events @ PAG 2012" /></a></div>
 Going to PAG?  Print out a copy of the [Galaxy @ PAG 2012 flier](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtPAG2012Flier.pdf).  Want to help get the word out about Galaxy?  Take several copies with you.

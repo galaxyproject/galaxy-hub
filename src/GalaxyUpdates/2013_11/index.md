@@ -6,7 +6,7 @@ title: November 2013 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the November 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -104,7 +104,7 @@ And ...
 
 [Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/), [Anton Nekrutenko](/src/anton/index.md), [James Taylor](/src/JamesTaylor/index.md), and [Eivind Hovig](http://www.mn.uio.no/ifi/english/people/aca/ehovig/index.html)'s paper "[Ten Simple Rules for Reproducible Computational Research](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285)" was published in *[PLoS Computational Biology](http://www.ploscompbiol.org/)* in October.  
 
-<div class='right'><a href='http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285'><img src="/src/Images/Logos/PlosCompBioLogo.png" alt="PLoS Computational Biology: Ten Simple Rules for Reproducible Computational Research" width="240" /></a></div>
+<div class='right'><a href='http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285'><img src="/src/images/Logos/PlosCompBioLogo.png" alt="PLoS Computational Biology: Ten Simple Rules for Reproducible Computational Research" width="240" /></a></div>
 
 Those 10 rules are (in our opinion) worth repeating:
 
@@ -140,11 +140,11 @@ The Galaxy is expanding! Please help it grow.
 
 * [CDD en bioinformatique : recherche de variants structuraux par reséquençage (NGS)](http:////bit.ly/1h1yQnf)
 * [Stage Master 2](http://bit.ly/18Qd2Eg) : Développement et intégrationd’outils pour la bioanalyse dans l’environnement Galaxy 
-* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
-* [Computational biology opening](/src/News/ComputationalBiologyParis/index.md) at University Pierre-et-Marie-Curie, Paris
+* [Statistical Genomics Postdoc](/src/news/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* [Computational biology opening](/src/news/ComputationalBiologyParis/index.md) at University Pierre-et-Marie-Curie, Paris
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -152,15 +152,15 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-<div class='right'><a href='/src/Events/GCC2014/index.md'><img src="/src/Images/Logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="130" /></a></div>
+<div class='right'><a href='/src/events/GCC2014/index.md'><img src="/src/images/Logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="130" /></a></div>
 
-The [2014 Galaxy Community Conference (GCC2014)](/src/Events/GCC2014/index.md) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
+The [2014 Galaxy Community Conference (GCC2014)](/src/events/GCC2014/index.md) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
-Galaxy Community Conferences are an opportunity to participate in presentations, discussions, poster sessions, lightning talks and breakouts, all about high-throughput biology and the tools that support it.  The conference will also includes a *Training Day* offering in-depth topic coverage, across several concurrent sessions.  See [the GCC2013 web site](/src/Events/GCC2013/index.md) for an idea of what happens at a Galaxy Community Conference.
+Galaxy Community Conferences are an opportunity to participate in presentations, discussions, poster sessions, lightning talks and breakouts, all about high-throughput biology and the tools that support it.  The conference will also includes a *Training Day* offering in-depth topic coverage, across several concurrent sessions.  See [the GCC2013 web site](/src/events/GCC2013/index.md) for an idea of what happens at a Galaxy Community Conference.
 
 ## Galaxy Day, December 4, Paris
 
-<div class='left'><a href='http://www.ifb-galaxy.org/4dec2013.html'><img src="/src/Images/Logos/GalaxyIFB.png" alt="Galaxy Day" height="55" /></a></div>
+<div class='left'><a href='http://www.ifb-galaxy.org/4dec2013.html'><img src="/src/images/Logos/GalaxyIFB.png" alt="Galaxy Day" height="55" /></a></div>
 
 The [IFB (French Bioinformatic Institute) Galaxy working group](http://www.ifb-galaxy.org/index.html) is organizing [a seminar around the Galaxy platform](http://www.ifb-galaxy.org/4dec2013.html) which will takes place in Paris on December 4 (@Institut Curie - 9h30-17h).
 
@@ -171,27 +171,27 @@ The main aim of [this meeting](http://www.ifb-galaxy.org/4dec2013.html) is to sh
 <div class='center'>
 Sponsored and organized by [URGI](http://urgi.versailles.inra.fr/), [GenoToul](http://bioinfo.genotoul.fr/), [MIGALE](http://migale.jouy.inra.fr/), [PFEM](http://metabohub.fr/), [SouthGreen](http://southgreen.cirad.fr/), [Institut Curie](http://curie.fr/), [ABiMS](http://abims.sb-roscoff.fr/)
 
-<a href='http://urgi.versailles.inra.fr/'><img src="/src/Images/Logos/URGILogo.png" alt="URGI" width="70" /></a>
-<a href='http://bioinfo.genotoul.fr/'><img src="/src/Images/Logos/GenoToulLogo.png" alt="GenoToul" width="100" /></a>
-<a href='http://migale.jouy.inra.fr/'><img src="/src/Images/Logos/MIGALELogo.png" alt="MIGALE" width="120" /></a>
-<a href='http://metabohub.fr/'><img src="/src/Images/Logos/MetaboHubLogo.jpg" alt="PFEM" width="120" /></a>
-<a href='http://southgreen.cirad.fr/'><img src="/src/Images/Logos/SouthGreenLogo.png" alt="SouthGreen" width="120" /></a>
-<a href='http://curie.fr/'><img src="/src/Images/Logos/CurieLogo.gif" alt="Institut Curie" width="80" /></a>
-<a href='http://abims.sb-roscoff.fr/'><img src="/src/Images/Logos/ABiMSLogo.png" alt="ABiMS" width="70" /></a>
+<a href='http://urgi.versailles.inra.fr/'><img src="/src/images/Logos/URGILogo.png" alt="URGI" width="70" /></a>
+<a href='http://bioinfo.genotoul.fr/'><img src="/src/images/Logos/GenoToulLogo.png" alt="GenoToul" width="100" /></a>
+<a href='http://migale.jouy.inra.fr/'><img src="/src/images/Logos/MIGALELogo.png" alt="MIGALE" width="120" /></a>
+<a href='http://metabohub.fr/'><img src="/src/images/Logos/MetaboHubLogo.jpg" alt="PFEM" width="120" /></a>
+<a href='http://southgreen.cirad.fr/'><img src="/src/images/Logos/SouthGreenLogo.png" alt="SouthGreen" width="120" /></a>
+<a href='http://curie.fr/'><img src="/src/images/Logos/CurieLogo.gif" alt="Institut Curie" width="80" /></a>
+<a href='http://abims.sb-roscoff.fr/'><img src="/src/images/Logos/ABiMSLogo.png" alt="ABiMS" width="70" /></a>
 </div>
 
 ## UC Davis Bioinformatics Boot Camps
 
 **Registration is now open for [Bioinformatics Bootcamps in December](https://training.bioinformatics.ucdavis.edu/bootcamps/)!**
 
-<div class='left'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src="/src/Images/Logos/UCDavisGenomeCenterLogo.jpg" alt="Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core"  /></a><br />
-&nbsp;<img src="/src/Images/Logos/galaxyLogoSymbol.png" alt="Galaxy" width="75" /></div>
+<div class='left'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src="/src/images/Logos/UCDavisGenomeCenterLogo.jpg" alt="Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core"  /></a><br />
+&nbsp;<img src="/src/images/Logos/galaxyLogoSymbol.png" alt="Galaxy" width="75" /></div>
 
 The [next offering of UC Davis Bioinformatics Bootcamps](https://training.bioinformatics.ucdavis.edu/bootcamps/) will be held on the [UC Davis](http://www.ucdavis.edu/) campus December 10-13. 
 
 These focused one-day courses are for researchers looking to get up to speed quickly on the latest technologies and techniques in bioinformatics. Students will work on their own laptops and have continued access to software and example data used in the exercises through a [public Amazon Web Services virtual machine](http://bioinformatics.ucdavis.edu/software/). The first three bootcamps will use the Galaxy platform, and the final bootcamp will use both Galaxy and the command-line. The Alignment and Assembly bootcamps (Dec. 11th & 12th) require you to know Galaxy, so if you are unfamiliar with Galaxy, you should also take the Introduction bootcamp on Dec. 10th.
 
-<div class='right'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src="/src/Images/Logos/UCDavisLogoSmall.gif" alt="UC Davis"  /></a></div>
+<div class='right'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src="/src/images/Logos/UCDavisLogoSmall.gif" alt="UC Davis"  /></a></div>
 
    **Tuesday, December 10:**
       **[Introduction to Next-Generation Sequence Analysis with Galaxy](http://training.bioinformatics.ucdavis.edu/2013/10/16/bootcamp-introduction-to-next-generation-sequence-analysis-with-galaxy-december-10-2013/)**
@@ -209,16 +209,16 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> There is a lot going on in the next three months. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/Icons/CalendarIcon.gif" /></a></div> There is a lot going on in the next three months. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
 <div class='center'> 
-<a href='http://www.qfab.org/events/upcoming/'><img src="/src/Images/Logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
-<a href='http://bit.ly/16tBdIZ'><img src="/src/Images/Logos/DDBJLogoSmall.png" alt="NGS解析Galaxy特集とDDBJ" height="60" /></a>
-<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/src/Images/Logos/GenoToulLogo.png" alt="Galaxy Training Days" height="60" /></a> &nbsp;
-<a href='/src/Community/GalaxyAdmins/Meetups/2013_11_20/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins Meetups" height="55" /></a>
-<a href='http://www.ifb-galaxy.org/4dec2013.html'><img src="/src/Images/Logos/GalaxyIFB.png" alt="Galaxy Day" height="55" /></a>
+<a href='http://www.qfab.org/events/upcoming/'><img src="/src/images/Logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
+<a href='http://bit.ly/16tBdIZ'><img src="/src/images/Logos/DDBJLogoSmall.png" alt="NGS解析Galaxy特集とDDBJ" height="60" /></a>
+<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/src/images/Logos/GenoToulLogo.png" alt="Galaxy Training Days" height="60" /></a> &nbsp;
+<a href='/src/Community/GalaxyAdmins/Meetups/2013_11_20/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins Meetups" height="55" /></a>
+<a href='http://www.ifb-galaxy.org/4dec2013.html'><img src="/src/images/Logos/GalaxyIFB.png" alt="Galaxy Day" height="55" /></a>
 </div>
 
 <table>
@@ -329,9 +329,9 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
   </tr>
   <tr>
     <th> June 30 - July 2 </th>
-    <td> <strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
+    <td> <strong><a href='/src/events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
     <td> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
-    <td> <a href='/src/Events/GCC2014/Organizers/index.md'>Organizers</a> </td>
+    <td> <a href='/src/events/GCC2014/Organizers/index.md'>Organizers</a> </td>
   </tr>
 </table>
 
@@ -339,14 +339,14 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
 
 # Lifeportal at the University of Oslo
 
-<div class='right'><a href='https://lifeportal.uio.no/'><img src="/src/Images/Logos/LifeportalLeaf.jpg" alt="Lifeportal" /></a></div>
+<div class='right'><a href='https://lifeportal.uio.no/'><img src="/src/images/Logos/LifeportalLeaf.jpg" alt="Lifeportal" /></a></div>
 
-The University of Oslo (UiO), the hosts of this year's [Galaxy Community Conference](/src/Events/GCC2013/index.md), launched [Lifeportal](https://lifeportal.uio.no/) in October.  While Lifeportal is *not* a [public Galaxy server](/src/PublicGalaxyServers/index.md), it is [available to all research institutions in Norway and their collaborators abroad](http://www.uio.no/english/services/it/research/hpc/lifeportal/start-using/).
+The University of Oslo (UiO), the hosts of this year's [Galaxy Community Conference](/src/events/GCC2013/index.md), launched [Lifeportal](https://lifeportal.uio.no/) in October.  While Lifeportal is *not* a [public Galaxy server](/src/PublicGalaxyServers/index.md), it is [available to all research institutions in Norway and their collaborators abroad](http://www.uio.no/english/services/it/research/hpc/lifeportal/start-using/).
 
 From the [Lifeportal website](https://lifeportal.uio.no/):
  Lifeportal gives you easy access to the High Performance Computing cluster Abel at the University of Oslo. The Galaxy based Lifeportal has a continuously growing list of services, and among them the most widely used tools from the former Bioportal.
 
-The [official opening event](http://www.uio.no/english/services/it/research/hpc/lifeportal/news/opening-of-the-lifeportal.html) was on October 9 and included talks and demonstrations by Nils Christophersen, Rector Ole Petter Ottersen, Nikolay Vazov, Katerina Michalickova, Sveinung Gundersen, and Geir Kjetil Sandve, all of whom spoke and/or presented their work at [GCC2013](/src/Events/GCC2013/Program/index.md). Rector Ole Petter Ottersen commented that "The slogan of the university is 'reaching for the stars.' Great to open an entire galaxy today."
+The [official opening event](http://www.uio.no/english/services/it/research/hpc/lifeportal/news/opening-of-the-lifeportal.html) was on October 9 and included talks and demonstrations by Nils Christophersen, Rector Ole Petter Ottersen, Nikolay Vazov, Katerina Michalickova, Sveinung Gundersen, and Geir Kjetil Sandve, all of whom spoke and/or presented their work at [GCC2013](/src/events/GCC2013/Program/index.md). Rector Ole Petter Ottersen commented that "The slogan of the university is 'reaching for the stars.' Great to open an entire galaxy today."
 
 See [this article](http://bit.ly/GDSjK4) for more on Lifeportal and why UIO chose Galaxy.
 
@@ -354,13 +354,13 @@ See [this article](http://bit.ly/GDSjK4) for more on Lifeportal and why UIO chos
 
 The most recent [Galaxy distribution was August 12](/src/DevNewsBriefs/2013_08_12/index.md).
 
-A new version of [CloudMan](/src/CloudMan/index.md) was [released in July](/src/News/CloudManRelease/index.md).
+A new version of [CloudMan](/src/CloudMan/index.md) was [released in July](/src/news/CloudManRelease/index.md).
 
 <br />
 
 # Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 There were many...
 

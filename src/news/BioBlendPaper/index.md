@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[BioBlend Paper in Bioinformatics](/src/News/BioBlendPaper/index.md)</div>
+<div class='newsItemHeader'>[BioBlend Paper in Bioinformatics](/src/news/BioBlendPaper/index.md)</div>
 
 <div class='right'><a href='http://bit.ly/11AuV4O'><img src="/src/CitingGalaxy/BioinformaticsCover.gif" alt="Bioinformatics" height="125" /></a></div>
 
@@ -13,6 +13,6 @@ Documentation is [available at ReadTheDocs](http://bioblend.readthedocs.org/).  
 
 [Dave Clements](/src/DaveClements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-05-02</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-05-02</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

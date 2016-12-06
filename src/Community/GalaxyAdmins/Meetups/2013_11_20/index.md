@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2013/11/20 Web Meetup<br /><br />GCC2013 Followup
 </div></div>
 
@@ -19,7 +19,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em><a href="/src/GalaxyAdmins/index.md">GalaxyAdmins</a>: <a href='/src/Events/GCC2013/BoF/GalaxyAdmins/index.md'>GCC2013 Followup</a></em><div class='indent'><a href='/src/DaveClements/index.md'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
+    <td> <em><a href="/src/GalaxyAdmins/index.md">GalaxyAdmins</a>: <a href='/src/events/GCC2013/BoF/GalaxyAdmins/index.md'>GCC2013 Followup</a></em><div class='indent'><a href='/src/DaveClements/index.md'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -29,13 +29,13 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 
 <br />
-Dave and Srinivas will lead a discussion following up on the issues that were raised at the [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md).
+Dave and Srinivas will lead a discussion following up on the issues that were raised at the [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/src/events/GCC2013/BoF/GalaxyAdmins/index.md).
 
 [Nate Coraor](/src/nate/index.md) will also discuss the recent move of [usegalaxy.org](http://usegalaxy.org) from Penn State to TACC.
 
 ## GCC2013 Followup
 
-The [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md) was well-attended and resulted in a number of suggestions for the group moving forward.  One of those suggestions was to spend the next call on followup, so that's what we are doing.
+The [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/src/events/GCC2013/BoF/GalaxyAdmins/index.md) was well-attended and resulted in a number of suggestions for the group moving forward.  One of those suggestions was to spend the next call on followup, so that's what we are doing.
 
 ### Reference / Wiki
 
@@ -54,7 +54,7 @@ What do people think of this approach?  The use of *boxes* on the right side is 
 
 ### Mailing Lists / Forums
 
-Decided against creating a separate GalaxyAdmins mailing list.  See [BoF page](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md#mailing-lists--forums) for details.
+Decided against creating a separate GalaxyAdmins mailing list.  See [BoF page](/src/events/GCC2013/BoF/GalaxyAdmins/index.md#mailing-lists--forums) for details.
 
 ### Meetups
 

@@ -1,9 +1,9 @@
 <div class='center'> 
 
-<a href='http://illinois.edu/'><img src="/src/Images/Logos/UIUCLogo310.jpg" alt="University of Illinois at Urbana-Champaign" /></a>
+<a href='http://illinois.edu/'><img src="/src/images/Logos/UIUCLogo310.jpg" alt="University of Illinois at Urbana-Champaign" /></a>
 
 
-<a href='http://hpcbio.illinois.edu/'><img src="/src/Images/Logos/UIUC_HPCBio.png" alt="High-Performance Biological Computing" /></a> &nbsp;&nbsp; <a href='http://www.ncsa.illinois.edu/'><img src="/src/Images/Logos/NCSALogo220.png" alt="NCSA" width="200px" /></a>
+<a href='http://hpcbio.illinois.edu/'><img src="/src/images/Logos/UIUC_HPCBio.png" alt="High-Performance Biological Computing" /></a> &nbsp;&nbsp; <a href='http://www.ncsa.illinois.edu/'><img src="/src/images/Logos/NCSALogo220.png" alt="NCSA" width="200px" /></a>
 
 <div class='title'>Introduction to Galaxy<br />October 16-17, 2012</div>
 
@@ -93,14 +93,14 @@ All work will be done in a web browser on your laptop. Please let us know if you
 
 ## Support
 
-<div class='right'><a href='http://www.ncsa.illinois.edu/'><img src="/src/Images/Logos/NCSALogo220.png" alt="NCSA" /></a></div> 
-<div class='right'><a href='http://hpcbio.illinois.edu/'><img src="/src/Images/Logos/UIUC_HPCBio.png" alt="High-Performance Biological Computing" /></a></div>
+<div class='right'><a href='http://www.ncsa.illinois.edu/'><img src="/src/images/Logos/NCSALogo220.png" alt="NCSA" /></a></div> 
+<div class='right'><a href='http://hpcbio.illinois.edu/'><img src="/src/images/Logos/UIUC_HPCBio.png" alt="High-Performance Biological Computing" /></a></div>
 
 A workshop for the University of Illinois community supported by [High-Performance Biological Computing (HPCBio)](http://hpcbio.illinois.edu/), [Roy J. Carver Biotechnology Center](http://www.biotech.uiuc.edu/), [IGB](http://www.igb.uiuc.edu/) and [NCSA](http://www.ncsa.illinois.edu/).
 
 ## IGB Galaxy Seminar: October 9
 
-<div class='right'>[[<a href='http://www.igb.illinois.edu/sites/default/files/upload/Nekrutenko-1.pdf'><img src="/src/Events/UIUC2012/IGBNekrutenkoTalkThumb.png" alt="Download poster" height="225" /></a></div>
+<div class='right'>[[<a href='http://www.igb.illinois.edu/sites/default/files/upload/Nekrutenko-1.pdf'><img src="/src/events/UIUC2012/IGBNekrutenkoTalkThumb.png" alt="Download poster" height="225" /></a></div>
 
 One week before this workshop there will be an Institute for Genomic Biology Seminar that also features Galaxy:
 

@@ -14,21 +14,21 @@ hg pull -u -r d681ef7538ed
 * There are now options on library item pop-up menus to make a library dataset public, make all contents of a folder public, or make an entire data library public. These new menu items are displayed only if the current item (dataset) is not public or if the current item (data library, folder) contains items that are not public. 
 * The following image shows a data library that contains a restricted dataset and a folder that contains a restricted dataset. Since the data library contains items that are not public (restricted), it's Library Actions menu includes a "Make public" option. Selecting this option will make all of the contents of the entire data library public.
 
-![2010_10_05_library_popup](/src/News Briefs/2010_10_05/2010_10_05_library_popup.png)
+![2010_10_05_library_popup](/src/news Briefs/2010_10_05/2010_10_05_library_popup.png)
 
 * Similarly, the folder popup menu includes a "Make public" option since it contains a restricted dataset. Selecting this option at the folder level will only make the contents of the particular folder public.
 
-![2010_10_05_folder_popup](/src/News Briefs/2010_10_05/2010_10_05_folder_popup.png)
+![2010_10_05_folder_popup](/src/news Briefs/2010_10_05/2010_10_05_folder_popup.png)
 
 * The popup menu associated with any restricted library dataset will also include a "Make public" option. Selecting this option will make only that particular dataset public.
 
-![2010_10_05_dataset_popup](/src/News Briefs/2010_10_05/2010_10_05_dataset_popup.png)
+![2010_10_05_dataset_popup](/src/news Briefs/2010_10_05/2010_10_05_dataset_popup.png)
 
 2. Upload Option changes
 * Move the upload options (ie., file, directory, filesystem paths, import from history), which used to be in the data library upload form's title bar popup menu, into a select list on the upload form. 
 * Selecting a different upload option now performs a refresh on the upload form so that any form contents entered before selecting the option are now retained.
 
-![2010_10_05_upload_options](/src/News Briefs/2010_10_05/2010_10_05_upload_options.png)
+![2010_10_05_upload_options](/src/news Briefs/2010_10_05/2010_10_05_upload_options.png)
 
 
 ### Extended Workflow and related History/Dataset Features
@@ -56,15 +56,15 @@ hg pull -u -r d681ef7538ed
 5. Updated UI - screenshots
 * Hovering for the tooltip on the asterisk.
 
-![2010_10_05_workflow_tooltip](/src/News Briefs/2010_10_05/2010_10_05_workflow_tooltip.png)
+![2010_10_05_workflow_tooltip](/src/news Briefs/2010_10_05/2010_10_05_workflow_tooltip.png)
 
 * A larger segment of a workflow, showing two Group steps flagged as outputs, one intermediary join not flagged as an output, and then a final cut that is flagged.
 
-![2010_10_05_workflow_flagged](/src/News Briefs/2010_10_05/2010_10_05_workflow_flagged.png)
+![2010_10_05_workflow_flagged](/src/news Briefs/2010_10_05/2010_10_05_workflow_flagged.png)
 
 * And, for larger workflows, note that the overview in the editor panel colors outputs, so you can find them at a glance.
 
-![2010_10_05_workflow_overview](/src/News Briefs/2010_10_05/2010_10_05_workflow_overview.png)
+![2010_10_05_workflow_overview](/src/news Briefs/2010_10_05/2010_10_05_workflow_overview.png)
 
 
 

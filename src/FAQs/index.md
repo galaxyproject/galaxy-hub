@@ -9,7 +9,7 @@ PLACEHOLDER_INCLUDE(/src/FAQs/LinkBox/index.md)
 * [Admin/FAQ](/src/Admin/FAQ/index.md) - Questions about *[administering](/src/Admin/index.md)* your own Galaxy.
 
 <div class='center'>
-<a href='http://galaxyproject.org/search/'><img src="/src/Images/Logos/GalaxyWebSearch.png" alt="Search all Galaxy resources" width="120" /></a>
+<a href='http://galaxyproject.org/search/'><img src="/src/images/Logos/GalaxyWebSearch.png" alt="Search all Galaxy resources" width="120" /></a>
 
 [Search all Galaxy resources](http://galaxyproject.org/search/getgalaxy)
 </div>

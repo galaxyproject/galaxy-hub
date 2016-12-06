@@ -1,14 +1,14 @@
 <div class='linkbox'>
-**[Support](/src/Support/index.md)**
+**[Support](/src/support/index.md)**
 ----
 [Learn](/src/Learn/index.md)<br />
 [FAQ](/src/Learn/FAQ/index.md)<br />
-[Biostar](/src/Support/Biostar/index.md)<br />
+[Biostar](/src/support/Biostar/index.md)<br />
 [Videos](http://vimeo.com/galaxyproject)<br />
-[IRC](/src/Support/IRC/index.md)<br />
+[IRC](/src/support/IRC/index.md)<br />
 [Tutorials](http://main.g2.bx.psu.edu/u/james/p/exercises)<br />
-[News](/src/News/index.md)<br />
-[Events](/src/Events/index.md)<br />
+[News](/src/news/index.md)<br />
+[Events](/src/events/index.md)<br />
 [Get Galaxy!](/src/Admin/GetGalaxy/index.md)<br />
 [Admin](/src/Admin/index.md)<br />
 [Tool Shed](/src/Tool Shed/index.md)<br />

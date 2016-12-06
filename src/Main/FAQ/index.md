@@ -12,7 +12,7 @@ Questions specifically about Galaxy's [free public server](/src/Main/index.md). 
  
 ## How do I get support?
 
-All sorts of ways.  See [Support](/src/Support/index.md).
+All sorts of ways.  See [Support](/src/support/index.md).
 
 ## How do tools get on to Main?
 
@@ -30,7 +30,7 @@ See
 * [Blogspot post](http://kevin-gattaca.blogspot.com/2011/09/faq-howto-do-rna-seq-bioinformatics.html).
 
 <div class='center'>
-<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/Images/Logos/UseGalaxySearch.png" alt="Search all "using Galaxy" resources" width="120" /></a>
+<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/Logos/UseGalaxySearch.png" alt="Search all "using Galaxy" resources" width="120" /></a>
 
 [Search all "using Galaxy" resources](http://galaxyproject.org/search/usegalaxy)
 </div>

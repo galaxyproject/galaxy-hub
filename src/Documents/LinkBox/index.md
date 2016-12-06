@@ -7,6 +7,6 @@
 [Papers](/src/Documents/Papers/index.md)<br />
 [Project](/src/Documents/Galaxy Project/index.md)<br />
 ----
-[Images](/src/Images/index.md)<br />
+[Images](/src/images/index.md)<br />
 [Datafiles](/src/Datafiles/index.md)<br />
 </div>

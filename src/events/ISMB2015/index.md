@@ -1,6 +1,6 @@
 <div class='center'>
-<a href='http://www.open-bio.org/wiki/BOSC_2015'><img src="/src/Images/Logos/BOSC_logo.png" alt="BOSC 2015" width="120" /></a>&nbsp;&nbsp;&nbsp;
-<a href='http://www.iscb.org/ismbeccb2015'><img src="/src/Images/Logos/ISMB-ECCB_2015_Logo.jpg" alt="ISMB ECCB 2015" width="130" /></a>
+<a href='http://www.open-bio.org/wiki/BOSC_2015'><img src="/src/images/Logos/BOSC_logo.png" alt="BOSC 2015" width="120" /></a>&nbsp;&nbsp;&nbsp;
+<a href='http://www.iscb.org/ismbeccb2015'><img src="/src/images/Logos/ISMB-ECCB_2015_Logo.jpg" alt="ISMB ECCB 2015" width="130" /></a>
 
 # Galaxy at ISMB/ECCB and BOSC 2015
 

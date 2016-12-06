@@ -7,7 +7,7 @@ The Galaxy **Test** instance is available at https://test.galaxyproject.org/. Te
 
 Test changes frequently and we don't actually guarantee things will work or that data/histories/workflows/visualizations will be persistent (even when saved in an account). Some new tools on Test will eventually be promoted to Main, but others will not. Backwards and forwards compatibility of data and tools on Test with data and tools on Main, in a Distribution, or from the Tool Shed should not be expected.
 
-If you get an error on Test, there are many possible reasons for it. You might try running again, to make sure that some other change on test didn't interfere (updates occur frequently). If you do find out what went wrong (a specific bug in the tool wrapper/config) please [do let us know](/src/Support/index.md).
+If you get an error on Test, there are many possible reasons for it. You might try running again, to make sure that some other change on test didn't interfere (updates occur frequently). If you do find out what went wrong (a specific bug in the tool wrapper/config) please [do let us know](/src/support/index.md).
 
 ## Information about Test
 
@@ -208,7 +208,7 @@ Exceeding quotas will prevent new jobs from running, but Galaxy users can monito
 1. Percent of quota limit used by a user account is noted in the top right corner of the Galaxy interface within a bar icon.
 2. Exact total user data size and quota limit is noted on the page: **User &rarr; Preferences** (top menu bar).
 3. Size of individual histories is listed on the page: **Options &rarr; Saved Histories** (left history pane's menu).
-4. Size of individual datasets can be found within a dataset's expanded box either written directly under the dataset's name and/or by viewing the dataset's **Details** (*click* on View Details icon ![History Info Icon](/src/Images/Icons/HistoryInfo.png)).
+4. Size of individual datasets can be found within a dataset's expanded box either written directly under the dataset's name and/or by viewing the dataset's **Details** (*click* on View Details icon ![History Info Icon](/src/images/Icons/HistoryInfo.png)).
 
 Test server user interface:
 

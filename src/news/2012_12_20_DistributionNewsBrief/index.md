@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[Dec 20, 2012 Distribution & News Brief](/src/News/2012_12_20_DistributionNewsBrief/index.md)</div>
+<div class='newsItemHeader'>[Dec 20, 2012 Distribution & News Brief](/src/news/2012_12_20_DistributionNewsBrief/index.md)</div>
 
-<div class='right'><a href='http://galaxyproject.org'><img src="/src/Images/NewsGraphics/2012_12_20_ngs-rna-analysis-toolsuite.png" alt="width="225"" /></a></div>
+<div class='right'><a href='http://galaxyproject.org'><img src="/src/images/NewsGraphics/2012_12_20_ngs-rna-analysis-toolsuite.png" alt="width="225"" /></a></div>
 
 **Complete [News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2012_12_20)**
 
@@ -30,6 +30,6 @@ upgrade: $ hg pull -u -r 36ad8aa7b922
 
 ***[The Galaxy Team](/src/Galaxy Team/index.md)***
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-12-21</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-12-21</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

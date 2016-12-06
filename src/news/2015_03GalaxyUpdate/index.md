@@ -1,7 +1,7 @@
-<div class='newsItemHeader'>[The March 2015 Galaxy News](/src/News/2015_03GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[The March 2015 Galaxy News](/src/news/2015_03GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/src/GalaxyUpdates/2015_03/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="The March 2015 News" width=150 /></a><br /><br />
+<a href='/src/GalaxyUpdates/2015_03/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="The March 2015 News" width=150 /></a><br /><br />
 </div>
 
 As always, it's [a busy time in the Galaxy](/src/GalaxyUpdates/2015_03/index.md).   The [March 2015 Galaxy News](/src/GalaxyUpdates/2015_03/index.md) is out, and it's chock full of information.  Here are some of the highlights.
@@ -14,7 +14,7 @@ A [refresh of UseGalaxy.org](/src/GalaxyUpdates/2015_03/index.md#usegalaxyorg-up
 **[2015 Galaxy Community Conference (GCC2015)](/src/GalaxyUpdates/2015_03/index.md#gcc2015-6-8-july-norwich-uk)**
 
 <div class='right'>
-<a href='/src/GalaxyUpdates/2015_03/index.md#gcc2015-6-8-july-norwich-uk'><img src="/src/Images/Logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="150" /></a><br />
+<a href='/src/GalaxyUpdates/2015_03/index.md#gcc2015-6-8-july-norwich-uk'><img src="/src/images/Logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="150" /></a><br />
 </div>
 
 The event schedule for GCC2015 has been released, and it features a few new events as well as all of the familiar ones:
@@ -50,6 +50,6 @@ In addition, there is news on:
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-03-02 </div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-03-02 </div>
 
 [CategoryNews](/src/CategoryNews/index.md)

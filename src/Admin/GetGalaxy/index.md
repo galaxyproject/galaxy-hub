@@ -246,7 +246,7 @@ Simplified instructions for users managing their own local Galaxy server. If you
 
 ## Other Resources
 
-<div class='right'><a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/Images/Logos/GetGalaxySearch.png" alt="Galaxy administration, tool, and deployment search" width="170" /></a></div>
+<div class='right'><a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/images/Logos/GetGalaxySearch.png" alt="Galaxy administration, tool, and deployment search" width="170" /></a></div>
 
 * [Search all Galaxy administration resources](http://galaxyproject.org/search/getgalaxy)
 

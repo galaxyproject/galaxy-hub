@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2015/02/19 Web Meetup<br /><br />
 
 </div></div>
@@ -20,7 +20,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em><a href='/src/Community/GalaxyAdmins/index.md'>GalaxyAdmins</a> direction</em>  (<a href='PLACEHOLDER_ATTACHMENT_URL/src/Galaxy_admins_20150219.hrh.pdf'>slides</a>)<div class='indent'><a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> </div><em><a href='/src/News/2014Questionnaire/index.md'>Results from the 2014 Galaxy Community Questionnaires</a></em> (<a href='PLACEHOLDER_ATTACHMENT_URL/src/2014QuestionnaireSlides.pdf'>Slides</a>)<div class='indent'><a href='/src/DaveClements/index.md'>Dave Clements</a> </div><em>Galaxy Project Update: Gravity</em> <div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
+    <td> <em><a href='/src/Community/GalaxyAdmins/index.md'>GalaxyAdmins</a> direction</em>  (<a href='PLACEHOLDER_ATTACHMENT_URL/src/Galaxy_admins_20150219.hrh.pdf'>slides</a>)<div class='indent'><a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> </div><em><a href='/src/news/2014Questionnaire/index.md'>Results from the 2014 Galaxy Community Questionnaires</a></em> (<a href='PLACEHOLDER_ATTACHMENT_URL/src/2014QuestionnaireSlides.pdf'>Slides</a>)<div class='indent'><a href='/src/DaveClements/index.md'>Dave Clements</a> </div><em>Galaxy Project Update: Gravity</em> <div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -33,13 +33,13 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 # GalaxyAdmins is Back!
 
-Except for a [meetup at GCC2014](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md), the [GalaxyAdmins group](/src/Community/GalaxyAdmins/index.md) has been hiatus for a while.  Thanks to the efforts of [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md), the [GalaxyAdmins group](/src/Community/GalaxyAdmins/index.md) *is back.*  Starting in February 2015, we will resume our bi-monthly web meetups.  
+Except for a [meetup at GCC2014](/src/events/GCC2014/BoFs/GalaxyAdmins/index.md), the [GalaxyAdmins group](/src/Community/GalaxyAdmins/index.md) has been hiatus for a while.  Thanks to the efforts of [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md), the [GalaxyAdmins group](/src/Community/GalaxyAdmins/index.md) *is back.*  Starting in February 2015, we will resume our bi-monthly web meetups.  
 
 *[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
 ## Fall 2014 Galaxy Community Questionnaires Summary
 
-The lead presentation will summarize the [Galaxy Community Questionnaires](/src/News/2014Questionnaire/index.md) that were run last fall.  The questionnaires covered both Galaxy usage and deployment.
+The lead presentation will summarize the [Galaxy Community Questionnaires](/src/news/2014Questionnaire/index.md) that were run last fall.  The questionnaires covered both Galaxy usage and deployment.
 
 ## Galaxy Project Update: Gravity
 
@@ -54,7 +54,7 @@ Installing this will give you two executables, galaxycfg and galaxyadm. As their
 A virtualenv will automatically be created for your Galaxy server. It's a good thing.
 </div>
 
-<div class='right'><br /><a href='http://bit.ly/admins1502'><img src="/src/Images/Logos/AdobeConnectSquarish.jpg" alt="February 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></a></div>
+<div class='right'><br /><a href='http://bit.ly/admins1502'><img src="/src/images/Logos/AdobeConnectSquarish.jpg" alt="February 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></a></div>
 
 ## Call Technology
 

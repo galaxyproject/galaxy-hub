@@ -1,8 +1,8 @@
-<div class='newsItemHeader'>[Galaxy is Hiring](/src/News/Galaxy is Hiring/index.md)</div>
+<div class='newsItemHeader'>[Galaxy is Hiring](/src/news/Galaxy is Hiring/index.md)</div>
 
 The Galaxy project currently has open positions in both the [Penn State](/src/Community/Penn State/index.md) and [Emory](/src/Community/Emory University/index.md) groups.
 
-<div class='right'><a href='http://www.bx.psu.edu/~anton/'><img src="/src/Images/Logos/PennStateLogo.jpg" alt="Opening at Penn State" width="200" /></a></div>
+<div class='right'><a href='http://www.bx.psu.edu/~anton/'><img src="/src/images/Logos/PennStateLogo.jpg" alt="Opening at Penn State" width="200" /></a></div>
 **[Penn State](/src/Community/Penn State/index.md): System administrators/analysts**
 <br /><br />
 The [Nekrutenko Lab](http://www.bx.psu.edu/~anton/) at the [Huck Institutes of Life Sciences](http://www.huck.psu.edu/) at [Penn State](http://psu.edu/) is currently recruiting system analysts/administrators with experience in building and maintaining complex performance compute environments. The areas of immediate need include:
@@ -17,7 +17,7 @@ The [Nekrutenko Lab](http://www.bx.psu.edu/~anton/) at the [Huck Institutes of L
 A minimum of 5 year experience with UNIX/Linux system administration is required. Applicants should submit a CV and list of references to [gxyhiring AT galaxyproject DOT org](mailto:gxyhiring AT galaxyproject DOT org). 
 
 
-<div class='right'><a href='http://bx.mathcs.emory.edu/joining/'><img src="/src/Images/Logos/EmoryLogo.jpg" alt="Openings at Emory" width="200" /></a></div>
+<div class='right'><a href='http://bx.mathcs.emory.edu/joining/'><img src="/src/images/Logos/EmoryLogo.jpg" alt="Openings at Emory" width="200" /></a></div>
 **[Emory](/src/Community/Emory University/index.md): Software Engineers and Post-Docs**
 <br /><br />
 
@@ -28,6 +28,6 @@ We are seeking [software engineers](http://bx.mathcs.emory.edu/joining/sw/) with
 
 [Postdoctoral applicants](http://bx.mathcs.emory.edu/joining/postdocs/) should have expertise in Bioinformatics and Computational Biology and research interests that complement but extend the [lab's current interests](http://bx.mathcs.emory.edu/research/): The Galaxy project; distributed and high-performance computing for data intensive science; vertebrate functional genomics; and genomics and epigenomic mechanisms of gene regulation, the role of transcription factors and chromatin structure in global gene expression, development, and differentiation.  See the [announcement](http://bx.mathcs.emory.edu/joining/postdocs/) for full details.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-08-29</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-08-29</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

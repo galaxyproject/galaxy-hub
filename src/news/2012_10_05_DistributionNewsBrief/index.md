@@ -1,7 +1,7 @@
-<div class='newsItemHeader'>[Oct 5, 2012 Distribution & News Brief](/src/News/2012_10_05_DistributionNewsBrief/index.md)</div>
+<div class='newsItemHeader'>[Oct 5, 2012 Distribution & News Brief](/src/news/2012_10_05_DistributionNewsBrief/index.md)</div>
 
 **Complete [News Brief](/src/DevNewsBriefs/2012_10_05/index.md)**
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/Images/Logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/Logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 **Highlights:**
 * **[BWA](http://bio-bwa.sourceforge.net/)** tool wrappers *[migrated](/src/DevNewsBriefs/2012_10_05/index.md#bwa_migration_to_tool_shed)* to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)**. 
 * **Tool Factory** paper has been [E Published](/src/DevNewsBriefs/2012_10_05/index.md#galaxy_tool_factory_paper_e_published) in [PubMed](http://www.ncbi.nlm.nih.gov/pubmed) at **[PMID: 23024011](http://www.ncbi.nlm.nih.gov/pubmed/23024011)**.
@@ -22,6 +22,6 @@ upgrade: $ hg pull -u -r b5bda7a5c345
 
 [Jennifer Jackson](/src/JenniferJackson/index.md) & the [Galaxy Team](/src/Galaxy Team/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-10-06</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-10-06</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

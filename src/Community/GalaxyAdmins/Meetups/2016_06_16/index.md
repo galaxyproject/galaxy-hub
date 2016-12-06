@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
 <div class='title'>2016/06/16 Web Meetup<br /><br />
 
 </div></div>
@@ -34,8 +34,8 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 ## Galaxy in Production at the University of Minnesota
 
 <div class='right'>
-<a href='https://www.msi.umn.edu/'><img src="/src/Images/NewsGraphics/UMN_MSI_Square.png" alt="Minnesota Supercomputing Institute" width="140" /></a><br /><br />
-<a href='https://github.com/galaxyproject/galaxy/pull/2455'><img src="/src/Images/Logos/GRT.png" alt="Galaxy Radio Telescope"  width="140" /></a>
+<a href='https://www.msi.umn.edu/'><img src="/src/images/NewsGraphics/UMN_MSI_Square.png" alt="Minnesota Supercomputing Institute" width="140" /></a><br /><br />
+<a href='https://github.com/galaxyproject/galaxy/pull/2455'><img src="/src/images/Logos/GRT.png" alt="Galaxy Radio Telescope"  width="140" /></a>
 </div>
 
 Galaxy has been deployed in several contexts by the [Minnesota Supercomputing Institute (MSI)](https://www.msi.umn.edu/) at the [University of Minnesota - Twin Citites](https://www.umn.edu/).  This month [Evan Bollig](https://www.msi.umn.edu/staff/evan) and [JJ Johnson](https://www.msi.umn.edu/staff/jj) of MSI will discuss several aspects of this work relevant to the GalaxyAdmins group:
@@ -63,7 +63,7 @@ And there was a question about MSI login screens during the presentation by Evan
 
 ## Call Technology
 
-<div class='right'><img src="/src/Images/Logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
+<div class='right'><img src="/src/images/Logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
 
 The  meetup's online conference room will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 

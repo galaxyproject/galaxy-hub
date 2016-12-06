@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[Galaxy Australia Community & GAMe 2017](/src/News/GalaxyAustralia/index.md)</div>
+<div class='newsItemHeader'>[Galaxy Australia Community & GAMe 2017](/src/news/GalaxyAustralia/index.md)</div>
 
-<div class='right'> <a href='https://www.embl-abr.org.au/galaxyaustralia/'><img src="/src/Images/Logos/GalaxyAustralia.png" alt="Galaxy Australia Community" width="180" /></a>
+<div class='right'> <a href='https://www.embl-abr.org.au/galaxyaustralia/'><img src="/src/images/Logos/GalaxyAustralia.png" alt="Galaxy Australia Community" width="180" /></a>
 </div>
 
 Today we officially launch the [Galaxy Australia](https://www.embl-abr.org.au/galaxyaustralia/) community with the opening of registrations for the Galaxy Australasia Meeting 2017 (GAMe 2017) being held in Melbourne over 3-9 February. Australian Galaxy users and administrators will now have more opportunities to interact and collaborate to identify and address the needs of the local community. The community will also be a hub for Australian Galaxy training courses and offer a catalog of Australian Galaxy servers.
@@ -8,7 +8,7 @@ Today we officially launch the [Galaxy Australia](https://www.embl-abr.org.au/ga
 The establishment of Galaxy Australia is supported by the [EMBL Australia Bioinformatics Resource (EMBL-ABR)](https://www.embl-abr.org.au/) in its appointed role of supporting the development of skills and training in the Australian life science research community. At the EMBL-ABR Hub, hosted at the Victorian Life Sciences Computation Initiative (VLSCI), Galaxy is used extensively for teaching and data analysis directly as well as through the Australian-made [Genomics Virtual Laboratory](https://www.genome.edu.au/). VLSCI’s expert bioinformaticians and professional staff will help promote community activities and training.
 
 <div class='right'>
-<a href='https://twitter.com/galaxyaustralia'><img src="/src/Images/Logos/TwitterBird300.png" alt="@GalaxyAustralia" height="40" /></a> 
+<a href='https://twitter.com/galaxyaustralia'><img src="/src/images/Logos/TwitterBird300.png" alt="@GalaxyAustralia" height="40" /></a> 
 </div>
 
 Galaxy Australia has a has a Twitter feed ([@GalaxyAustralia](https://twitter.com/galaxyaustralia)) for announcements and discussion relevant to the community.  
@@ -18,7 +18,7 @@ Galaxy Australia has a has a Twitter feed ([@GalaxyAustralia](https://twitter.co
 **[Galaxy Australasia Meeting 2017 (GAMe 2017)](https://www.embl-abr.org.au/game2017)**
 
 <div class='left'>
-<a href='https://www.embl-abr.org.au/game2017'><img src="/src/Images/Logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting (GAMe 2017)" width="100" /></a>
+<a href='https://www.embl-abr.org.au/game2017'><img src="/src/images/Logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting (GAMe 2017)" width="100" /></a>
 </div>
 
 The Community’s first major activity is to organise the Galaxy Australasia Meeting 2017 (GAMe 2017), 3-9 February in Melbourne.
@@ -35,6 +35,6 @@ We look forward to welcoming you to Melbourne. Remember to pack for our fabulous
 
 *[GAMe 2017 Organising Committee](https://www.embl-abr.org.au/game2017/organisers/)* (#game_2017)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-10-03</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-10-03</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

@@ -1,7 +1,7 @@
-<div class='newsItemHeader'>[GCC2016 Training Topic Vote!](/src/News/GCC2016TrainingTopicVote/index.md)</div>
+<div class='newsItemHeader'>[GCC2016 Training Topic Vote!](/src/news/GCC2016TrainingTopicVote/index.md)</div>
 
 <div class='right'>
-<a href='/src/Events/GCC2016/Training/index.md'><img src="/src/Events/GCC2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="170" /></a><br />
+<a href='/src/events/GCC2016/Training/index.md'><img src="/src/events/GCC2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="170" /></a><br />
 <table>
   <tr>
     <th> &nbsp;&nbsp; <a href='http://bit.ly/gcc2016vote'>Vote now!</a> &nbsp;&nbsp; </th>
@@ -10,15 +10,15 @@
 
 </div>
 
-**[Voting is now open](http://bit.ly/gcc2016vote)** on what [training topics](/src/Events/GCC2016/Training/index.md) are offered at [GCC2016 Training](/src/Events/GCC2016/Training/index.md).
+**[Voting is now open](http://bit.ly/gcc2016vote)** on what [training topics](/src/events/GCC2016/Training/index.md) are offered at [GCC2016 Training](/src/events/GCC2016/Training/index.md).
 
-There are [nominated topics](/src/Events/GCC2016/Training/index.md) spanning from basic usage to advanced deployment.  No matter what you do with Galaxy, there are topics for you to choose from.  [Your vote](http://bit.ly/gcc2016vote) will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters. 
+There are [nominated topics](/src/events/GCC2016/Training/index.md) spanning from basic usage to advanced deployment.  No matter what you do with Galaxy, there are topics for you to choose from.  [Your vote](http://bit.ly/gcc2016vote) will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters. 
 
 **Topic voting closes November 6.** The Training schedule, including instructors, will be published before early registration opens.
 
-**About [GCC2016 Training](/src/Events/GCC2016/Training/index.md):**
+**About [GCC2016 Training](/src/events/GCC2016/Training/index.md):**
 
-The [2016 Galaxy Community Conference (GCC2016)](/src/Events/GCC2016/index.md) will be held June 25-29 at [Indiana University](http://indiana.edu) in Bloomington, Indiana, United States. GCC2016 features [two full days of training on June 26-27](/src/Events/GCC2016/Training/index.md).  Each day will have multiple tracks, with each track featuring several sessions throughout the day.
+The [2016 Galaxy Community Conference (GCC2016)](/src/events/GCC2016/index.md) will be held June 25-29 at [Indiana University](http://indiana.edu) in Bloomington, Indiana, United States. GCC2016 features [two full days of training on June 26-27](/src/events/GCC2016/Training/index.md).  Each day will have multiple tracks, with each track featuring several sessions throughout the day.
 
 Workshops will be hands-on and participants will be strongly encouraged to bring a laptop and follow along.
 
@@ -30,6 +30,6 @@ Thanks,
 
 The [GCC2016 Exec](https://gcc2016.iu.edu/Oorganizers)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-10-26</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-10-26</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

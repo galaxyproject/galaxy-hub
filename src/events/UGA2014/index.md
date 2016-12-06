@@ -1,7 +1,7 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.uga.edu/'><img src="/src/Images/Logos/UGALogoBig.gif" alt="University of Georgia" width="500" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.uga.edu/'><img src="/src/images/Logos/UGALogoBig.gif" alt="University of Georgia" width="500" /></a> </td>
   </tr>
 </table>
 
@@ -64,10 +64,10 @@
 ## Support
 
 <div class='center'>
-<a href='http://qbcg.uga.edu/'><img src="/src/Images/Logos/QBCG_UGA_Logo.png" alt="Quantitative Biology Consulting Group (QBCG" width="200px" /></a>
-<a href='http://iob.uga.edu/'><img src="/src/Images/Logos/IOB_UGA_Logo.png" alt="Institute of Bioinformatics (IOB)" width="230px" /></a>
-<a href='http://gacrc.uga.edu/'><img src="/src/Images/Logos/GACRC_UGA_Logo.png" alt="Georgia Advanced Computing Resource Center (GACRC)" width="180px" /></a> &nbsp;&nbsp;
-<a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" width="130px" /></a>
+<a href='http://qbcg.uga.edu/'><img src="/src/images/Logos/QBCG_UGA_Logo.png" alt="Quantitative Biology Consulting Group (QBCG" width="200px" /></a>
+<a href='http://iob.uga.edu/'><img src="/src/images/Logos/IOB_UGA_Logo.png" alt="Institute of Bioinformatics (IOB)" width="230px" /></a>
+<a href='http://gacrc.uga.edu/'><img src="/src/images/Logos/GACRC_UGA_Logo.png" alt="Georgia Advanced Computing Resource Center (GACRC)" width="180px" /></a> &nbsp;&nbsp;
+<a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" width="130px" /></a>
 </div>
 <br />
 

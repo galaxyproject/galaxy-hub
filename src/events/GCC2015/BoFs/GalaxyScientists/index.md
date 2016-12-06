@@ -1,13 +1,13 @@
 ---
 title: [GalaxyScientists](/src/GalaxyScientists/index.md)
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2015/Header/index.md)
 
 
 
 
 <div class='dictbox'>
- BoF:: [GalaxyScientists](/src/Events/GCC2015/BoFs/GalaxyScientists/index.md)
+ BoF:: [GalaxyScientists](/src/events/GCC2015/BoFs/GalaxyScientists/index.md)
  Summary:: New Community Group? aka "GalaxyUsers, GalaxyAnalysts, "GalaxyDataTypes"
  Audience:: Scientists using Galaxy interested in getting INVOLVED!
  When:: Tuesday, 7 July, 12:30 (Lunch)
@@ -15,9 +15,9 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
  Contact:: [JenniferJackson](/src/JenniferJackson/index.md) & see [BoF](https://wiki.galaxyproject.org/Events/GCC2015/BoFs/GalaxyScientists) wiki
 </div>
 
-<div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
+<div class='left'><a href='/src/events/GCC2015/BoFs/index.md'><img src="/src/images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
-This page describes the **GalaxyScientists** [Birds of a Feather](/src/Events/GCC2015/BoFs/index.md) Meetup held at [GCC2015](http://gcc2015.tsl.ac.uk/). Don't worry if you don't know what this group is .. the BoF is intended to define and create it! 
+This page describes the **GalaxyScientists** [Birds of a Feather](/src/events/GCC2015/BoFs/index.md) Meetup held at [GCC2015](http://gcc2015.tsl.ac.uk/). Don't worry if you don't know what this group is .. the BoF is intended to define and create it! 
 
 <br />
 ## Description
@@ -33,7 +33,7 @@ In addition, if you joined in on this year's [Data Wrangling Hackathon](http://g
 
 ## When and Where
 
-The [time and location](/src/Events/GCC2015/BoFs/index.md#bof-schedule) for this BoF is Tuesday, July 7th, over lunch at 12:30pm in the Franklin Room, JICCC
+The [time and location](/src/events/GCC2015/BoFs/index.md#bof-schedule) for this BoF is Tuesday, July 7th, over lunch at 12:30pm in the Franklin Room, JICCC
 
 
 ## Who is Participating

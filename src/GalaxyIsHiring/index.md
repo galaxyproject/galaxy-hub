@@ -6,9 +6,9 @@ title: Careers with the Galaxy Project: Software Engineers and Postdoctoral Rese
 
 
 <div class='right'> 
-<a href='http://www.johnshopkins.edu/'><img src="/src/Images/Logos/JohnsHopkins.png" alt="Johns Hopkins University" width="160" /></a><br /><br />
+<a href='http://www.johnshopkins.edu/'><img src="/src/images/Logos/JohnsHopkins.png" alt="Johns Hopkins University" width="160" /></a><br /><br />
 
-<a href='http://www.psu.edu/'><img src="/src/Images/Logos/PennStateLogo.png" alt="Penn State University" width="160" /></a>
+<a href='http://www.psu.edu/'><img src="/src/images/Logos/PennStateLogo.png" alt="Penn State University" width="160" /></a>
 
 <a href='http://www.gwu.edu/'><img src="/src/GalaxyIsHiring/gwlogo.png" alt="George Washington University" width="160" /></a>
 </div>
@@ -31,7 +31,7 @@ We have a wide variety of active projects, current areas of expertise sought inc
 <div class='right'>
 <table>
   <tr>
-    <td style=" background-color: #4C5163;"> <a href='/src/DevNewsBriefs/2012_10_23/index.md#visualization_framework'><img src="/src/Images/NewsGraphics/2012_10_23_scatterplot-fullscreen.png" alt="scatterplot visualization" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_09_07/index.md#user-interface-ui'><img src="/src/Images/NewsGraphics/2012_09_07_interactive-phylo-tree.png" alt="interactive phylogenetic tree" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_01_27/index.md#galaxy-track-browser-gtb'><img src="/src/Images/NewsGraphics/2012_01_27_multi-track-filtering.png" alt="dynamic track filtering" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_07_20/index.md#admin_genome_indexing'><img src="/src/Images/NewsGraphics/2012_07_20_main-page.png" alt="reference genome index status" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_03_12/index.md#galaxy-track-browser-gtb'><img src="/src/Images/NewsGraphics/2012_03_12_trackster-encode.png" alt="ENCODE data in Trackster" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_05_11/index.md#tools'><img src="/src/Images/NewsGraphics/2012_05_11_gatk-workflow.png" alt="GATK Workflow visualization" width="180" /></a> </td>
+    <td style=" background-color: #4C5163;"> <a href='/src/DevNewsBriefs/2012_10_23/index.md#visualization_framework'><img src="/src/images/NewsGraphics/2012_10_23_scatterplot-fullscreen.png" alt="scatterplot visualization" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_09_07/index.md#user-interface-ui'><img src="/src/images/NewsGraphics/2012_09_07_interactive-phylo-tree.png" alt="interactive phylogenetic tree" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_01_27/index.md#galaxy-track-browser-gtb'><img src="/src/images/NewsGraphics/2012_01_27_multi-track-filtering.png" alt="dynamic track filtering" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_07_20/index.md#admin_genome_indexing'><img src="/src/images/NewsGraphics/2012_07_20_main-page.png" alt="reference genome index status" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_03_12/index.md#galaxy-track-browser-gtb'><img src="/src/images/NewsGraphics/2012_03_12_trackster-encode.png" alt="ENCODE data in Trackster" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_05_11/index.md#tools'><img src="/src/images/NewsGraphics/2012_05_11_gatk-workflow.png" alt="GATK Workflow visualization" width="180" /></a> </td>
   </tr>
 </table>
 

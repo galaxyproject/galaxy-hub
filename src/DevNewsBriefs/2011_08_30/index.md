@@ -26,7 +26,7 @@ Blankenberg D, Taylor J, Nekrutenko A, The Galaxy Team. "[Making whole genome mu
 
 Afgan, E., Baker, D., Team, t. G., Nekrutenko, A. and Taylor, J. (2011). "[A reference model for deploying applications in virtualized environments](http://onlinelibrary.wiley.com/doi/10.1002/cpe.1836/abstract)." *Concurrency and Computation: Practice and Experience*. doi: 10.1002/cpe.1836
 
-<div class='right'>![](/src/Images/Screenshots/GalaxyProjectOrg.png)</div>
+<div class='right'>![](/src/images/Screenshots/GalaxyProjectOrg.png)</div>
 ### GalaxyProject.org
 
 After a period of quiescence, the [GalaxyProject.org](http://galaxyproject.org) web site has been updated to more accurately reflect what is going on in Galaxy.  This is a great starting point for information about [Galaxy](http://galaxyproject.org).
@@ -42,9 +42,9 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 * *Learn*: A hub page for resources on learning how to use Galaxy.
   * [Learn](/src/Learn/index.md)
 * *News Page and RSS Feed*: News items of interest to the Galaxy community
-  * [News](/src/News/index.md)
+  * [News](/src/news/index.md)
 * *Events*: Comprehensive listing of upcoming (and past) Galaxy Events
-  * [Events](/src/Events/index.md)
+  * [Events](/src/events/index.md)
 * *Get Involved and Outreach*: How to get involved with Galaxy and how to spread the word.
   * [GetInvolved](/src/GetInvolved/index.md)
   * [Outreach](/src/Outreach/index.md)

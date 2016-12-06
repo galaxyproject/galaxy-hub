@@ -34,7 +34,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 ### The Centre for Bioinformatics and Computational Biology
 
-<div class='right'><a href='http://www.up.ac.za/centre-for-bioinformatics-and-computational-biology'><img src="/src/Images/Logos/UPretoriaWide.png" alt="The The Centre for Bioinformatics and Computational Biology, University of Pretoria" width="210" /></a></div>
+<div class='right'><a href='http://www.up.ac.za/centre-for-bioinformatics-and-computational-biology'><img src="/src/images/Logos/UPretoriaWide.png" alt="The The Centre for Bioinformatics and Computational Biology, University of Pretoria" width="210" /></a></div>
 
 * *Description:*
   * [The The Centre for Bioinformatics and Computational Biology's](http://www.up.ac.za/centre-for-bioinformatics-and-computational-biology) function is training, support and research in the areas of Bioinformatics and Computational Biology. We function as part of
@@ -58,7 +58,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 ### The FMI Bioinformatics and Functional Genomics Core Facilities
 
-<div class='right'><a href='http://www.fmi.ch'><img src="/src/Images/Logos/FMILogo.jpg" alt="The FMI Bioinformatics and Functional Genomics Core Facilities" width="180" /></a></div>
+<div class='right'><a href='http://www.fmi.ch'><img src="/src/images/Logos/FMILogo.jpg" alt="The FMI Bioinformatics and Functional Genomics Core Facilities" width="180" /></a></div>
 
 * *Description:*
   * We mainly provide internal training for our local Galaxy server. However, we are also involved in training and consulting outside our institute.
@@ -78,7 +78,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 ### Freiburger Galaxy Project
 
-<div class='right'><img src="/src/Images/Logos/bioinf-fr-logo-blau.jpg" alt="Galaxy Project" width="100" /></div>
+<div class='right'><img src="/src/images/Logos/bioinf-fr-logo-blau.jpg" alt="Galaxy Project" width="100" /></div>
 
 * *Description:*
   * The Freiburger Galaxy Project is led by Rolf Backofen from the University of Freiburg, Germany. The project is offerring Galaxy support and training for the University of Freiburg and beyond.  
@@ -102,10 +102,10 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 ### Galaxy Project
 
-<div class='right'><img src="/src/Images/GalaxyLogos/galaxy_project_logo_blue.png" alt="Galaxy Project" width="150" /></div>
+<div class='right'><img src="/src/images/GalaxyLogos/galaxy_project_logo_blue.png" alt="Galaxy Project" width="150" /></div>
 
 * *Description:*
-  * The Galaxy Project does training at [events and institutions](/src/Events/index.md) around the world.  These cover the whole range of Galaxy related topics.  Please contact Galaxy Outreach if you are interested in hosting training.
+  * The Galaxy Project does training at [events and institutions](/src/events/index.md) around the world.  These cover the whole range of Galaxy related topics.  Please contact Galaxy Outreach if you are interested in hosting training.
 
 * *Domains:*  
   * General usage; several specific types of analysis
@@ -127,7 +127,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 ### GalaxyP Project
 
-<div class='right'><a href='http://usegalaxyp.org/'><img src="/src/Images/Logos/GalaxyPLogo.png" alt="GalaxyP Project" width="100" /></a></div>
+<div class='right'><a href='http://usegalaxyp.org/'><img src="/src/images/Logos/GalaxyPLogo.png" alt="GalaxyP Project" width="100" /></a></div>
 
 * *Description:*
   * Our training is part of the [GalaxyP Project](http://usegalaxyp.org/). We have training modules planned for using Galaxy for proteomics. This includes using [ProteinPilot](http://z.umn.edu/ppingp) (licensed software) within Galaxy on our local server. We plan to develop tutorials for use of [PeptideShaker](http://www.uib.no/en/rg/probe/65218/peptideshaker), proteogenomics analysis and metaproteomics analysis.
@@ -146,7 +146,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 ### Geneclat Technologies
 
-<div class='right'><a href='http://geneclat.com/'><img src="/src/Images/Logos/GenEclatLogo.png" alt="Geneclat Technologies" width="160" /></a></div>
+<div class='right'><a href='http://geneclat.com/'><img src="/src/images/Logos/GenEclatLogo.png" alt="Geneclat Technologies" width="160" /></a></div>
 
 * *Description:*
   * We at [Geneclat](http://geneclat.com/) provide Training for individual or group of people who are interested in NGS and Bioinformatics
@@ -162,7 +162,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 ### Memorial Sloan Kettering Cancer Center, Rätsch Laboratory
 
-<div class='right'><a href='http://oqtans.org/'><img src="/src/Images/Logos/QqtansLogoWText.png" alt="Memorial Sloan Kettering Cancer Center, Rätsch Laboratory" width="170" /></a></div>
+<div class='right'><a href='http://oqtans.org/'><img src="/src/images/Logos/QqtansLogoWText.png" alt="Memorial Sloan Kettering Cancer Center, Rätsch Laboratory" width="170" /></a></div>
  
 * *Description:*
   * We have efficient computational methods in modeling all processes involved in RNA expression, regulation and processing. Most of the trainings are based on Oqtans package.
@@ -196,7 +196,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 ### Noor Biotechnologies Ltd.
 
-<div class='right'><a href='http://noorbiotech.com/'><img src="/src/Images/Logos/NoorBioTechLogo.jpg" alt="Noor Biotechnologies Ltd." width="270" /></a></div>
+<div class='right'><a href='http://noorbiotech.com/'><img src="/src/images/Logos/NoorBioTechLogo.jpg" alt="Noor Biotechnologies Ltd." width="270" /></a></div>
 
 * *Description:*
   * In collaboration with a number of research scientists with hands on experience in genomics and bioinformatics, [Noor Biotechnologies](http://noorbiotech.com/) offer consultancy services and onsite practical training in:
@@ -229,7 +229,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 ### OpenHelix
 
-<div class='right'><a href='http://openhelix.com/'><img src="/src/Images/Logos/OpenHelixLogo.jpg" alt="OpenHelix" width="150" /></a></div>
+<div class='right'><a href='http://openhelix.com/'><img src="/src/images/Logos/OpenHelixLogo.jpg" alt="OpenHelix" width="150" /></a></div>
  
 * *Description:*
   * [OpenHelix](http://openhelix.com/) specializes in end-user training on a wide range of bioinformatics databases and software tools. Our goal is to reach new users with introductory information that can get them started using tools that are new to them, or to build their confidence by improving their grasp of the foundational features of the tools. We offer workshops or online training.
@@ -247,7 +247,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 ### QFAB Bioinformatics
 
-<div class='right'><a href='http://www.qfab.org/training/'><img src="/src/Images/Logos/QFABLogo.png" alt="QFAB Bioinformatics" width="100" /></a></div>
+<div class='right'><a href='http://www.qfab.org/training/'><img src="/src/images/Logos/QFABLogo.png" alt="QFAB Bioinformatics" width="100" /></a></div>
  
 * *Description:*
   * [QFAB Bioinformatics](http://www.qfab.org/training/) offers a range of Galaxy-based bioinformatics workshops run by their training manager [Mark Crowe](http://www.qfab.org/mark-crowe/).
@@ -268,7 +268,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 ### Stingray@Galaxy
 
-<div class='right'><a href='http://www.fiocruz.br'><img src="/src/Images/Logos/FIOCRUZLogo.png" alt="Stingray@Galaxy"  /></a></div>
+<div class='right'><a href='http://www.fiocruz.br'><img src="/src/images/Logos/FIOCRUZLogo.png" alt="Stingray@Galaxy"  /></a></div>
  
 * *Description:*
   * [Stingray@Galaxy](http://galaxy.biowebdb.org/) was developed by the Lab of Computational and Systems Biology (LBCS) of the [Oswaldo Cruz Institute, FIOCRUZ](http://www.ioc.fiocruz.br/). Rodrigo Jardim and Alberto Dávila (LBCS) offer training at Fiocruz (and more recently researchers based on universities of Rio de Janeiro state) and beyond on the usage of Stingray@Galaxy.
@@ -311,7 +311,7 @@ Trainers are potentially willing to travel globally to present Galaxy Training.
 
 ### Victorian Life Sciences Computation Initiative (VLSCI)
 
-<div class='right'><a href='http://www.vlsci.org.au/'><img src="/src/Images/Logos/VLSCILogo.png" alt="Victorian Life Sciences Computation Initiative (VLSCI)" width="150" /></a></div>
+<div class='right'><a href='http://www.vlsci.org.au/'><img src="/src/images/Logos/VLSCILogo.png" alt="Victorian Life Sciences Computation Initiative (VLSCI)" width="150" /></a></div>
  
 * *Description:*
   * [VLSCI](http://www.vlsci.org.au/) is a petascale facility incorporating the Life Sciences Computation Centre, led by Andrew Lonie and staffed with over 20 bioinformaticians. Amongst a suite of training courses on offer is a series of Galaxy-based bioinformatics workshops, each taught by an expert in that particular domain e.g. cancer genomics, microbial genomics etc. The materials are designed for both self-directed learning and as content for delivering workshops.
@@ -346,7 +346,7 @@ Trainers that are potentially willing to travel, roughly within their home conti
 
 ### CRS4 - Centre for Advanced Studies, Research and Development in Sardinia
 
-<div class='right'><a href='http://www.crs4.it/'><img src="/src/Images/Logos/CRS4Logo.jpg" alt="CRS4" width="200" /></a></div>
+<div class='right'><a href='http://www.crs4.it/'><img src="/src/images/Logos/CRS4Logo.jpg" alt="CRS4" width="200" /></a></div>
 
 * *Description:*
     The CRS4's Bioinformatics Laboratory offers bioinformatics training and project-based data analysis. The training is based on  [Orione](http://orione.crs4.it/), our Galaxy-based platform for NGS analysis. CRS4 is at the forefront in the research, development and application of technology for acquisition, processing, distribution, and visualization of massive data (Big Data) with a special emphasis on bio-medical and healthcare applications.
@@ -371,7 +371,7 @@ Trainers that are potentially willing to travel, roughly within their home conti
 
 ### EMBL-ABR
 
-<div class='right'><a href='https://www.embl-abr.org.au/training/'><img src="/src/Images/Logos/EMBL-ABR-logo.jpg" alt="EMBL-ABR" width="200" /></a></div>
+<div class='right'><a href='https://www.embl-abr.org.au/training/'><img src="/src/images/Logos/EMBL-ABR-logo.jpg" alt="EMBL-ABR" width="200" /></a></div>
 
 * *Description:*
     [EMBL Australian Bioinformatics Resource](https://www.embl-abr.org.au/) is a distributed national research infrastructure providing bioinformatics support to life science researchers in Australia. EMBL ABR aims to provide new opportunities and harmonise existing training efforts across Australia to maximise the reach and scope of bioinformatics training, as well as to share experience and best practice from Australia with international initiatives. The [EMBL ABR Training programme](https://www.embl-abr.org.au/training/) comprises a series of focal topics to tackle training gaps with the aim of enabling sustainable and scalable bioinformatics use by life scientists across Australia. There are three main factors contributing to training gaps among life science researchers: 
@@ -396,8 +396,8 @@ Trainers that are potentially willing to travel, roughly within their home conti
 
 ### GenoToul bioinformatics platform, Sigenae, NED (GenPhySE) and TWB
 
-<div class='right'><a href='http://bioinfo.genotoul.fr/index.php?id=10'><img src="/src/Images/Logos/GenoToulLogo.png" alt="GenoToul Training" width="200" /></a><br />
-<a href='http://www.sigenae.org/'><img src="/src/Images/Logos/SigenaeLogo.png" alt="Sigenae" width="200" /></a>
+<div class='right'><a href='http://bioinfo.genotoul.fr/index.php?id=10'><img src="/src/images/Logos/GenoToulLogo.png" alt="GenoToul Training" width="200" /></a><br />
+<a href='http://www.sigenae.org/'><img src="/src/images/Logos/SigenaeLogo.png" alt="Sigenae" width="200" /></a>
 </div>
 
 * *Description:*
@@ -422,7 +422,7 @@ Trainers that are potentially willing to travel, roughly within their home conti
 
 ### Alberta Children's Hospital Research Institute
 
-<div class='right'><a href='http://research4kids.ucalgary.ca/'><img src="/src/Images/Logos/ACHRILogo300.jpg" alt="Alberta Children's Hospital Research Institute" width="180" /></a></div>
+<div class='right'><a href='http://research4kids.ucalgary.ca/'><img src="/src/images/Logos/ACHRILogo300.jpg" alt="Alberta Children's Hospital Research Institute" width="180" /></a></div>
 
 * *Description:*
   * [ACHRI](http://research4kids.ucalgary.ca/) has three research foci, with one being The Molecular and Genetic Basis of Child Health. With $5M in funding from the Alberta Children's Hospital Foundation, next-generation sequencing and bioinformatics platform was established in 2011 to advance personalized medicine and basic science research at the [University of Calgary](http://ucalgary.ca/). Bioinformatics efforts have largely centered around new tools and workflows for optimizing exome genotyping, quality control and variant triage based on clinical symptoms.
@@ -461,7 +461,7 @@ Trainers that are potentially willing to travel, roughly within their home conti
 
 ### Galaxy @ PRABI Project
 
-<div class='right'><img src="/src/Images/Logos/PRABILogo.png" alt="Galaxy@prabi Project" width="150" /></div>
+<div class='right'><img src="/src/images/Logos/PRABILogo.png" alt="Galaxy@prabi Project" width="150" /></div>
 
 * *Description:*
   * The galaxy@prabi project is led by Vincent Navratil from the [University of Lyon](http://www.univ-lyon1.fr/), France. The project is offerring Galaxy service, support and training for and with research teams working in the perimeter of the [PRABI](http://www.prabi.fr) core facility (Rhône Alpes Region, mainly Lyon and Grenoble) but also beyond the Alps montains.  
@@ -514,9 +514,9 @@ Trainers that are potentially willing to travel, roughly within their home conti
 ### LUMC, ErasmusMC, DTL Learning Programme
 
 <div class='right'><div class='center'>
-<a href='https://www.lumc.nl/'><img src="/src/Images/Logos/LUMCLogo.png" alt="LUMC" width="200" /></a><br /><br />
-<a href='http://www.erasmusmc.nl/'><img src="/src/Images/Logos/ErasmusMCLogo.png" alt="ErasmusMC" width="150" /></a><br /><br />
-<a href='http://www.dtls.nl/about/programmes/dtl-learning/'><img src="/src/Images/Logos/DTLLogo.png" alt="Dutch Techcentre for Life Science Learning Programme" width="155" /></a>
+<a href='https://www.lumc.nl/'><img src="/src/images/Logos/LUMCLogo.png" alt="LUMC" width="200" /></a><br /><br />
+<a href='http://www.erasmusmc.nl/'><img src="/src/images/Logos/ErasmusMCLogo.png" alt="ErasmusMC" width="150" /></a><br /><br />
+<a href='http://www.dtls.nl/about/programmes/dtl-learning/'><img src="/src/images/Logos/DTLLogo.png" alt="Dutch Techcentre for Life Science Learning Programme" width="155" /></a>
 </div></div>
  
 * *Description:*
@@ -540,7 +540,7 @@ Trainers that are potentially willing to travel, roughly within their home conti
 ### Ruđer Bošković Institute (RBI)
 
 <div class='right'><div class='center'>
-<a href='http://www.irb.hr/eng'><img src="/src/Images/Logos/IRBLogo300.jpg" alt="Ruđer Bošković Institute (RBI)" width="135" /></a><br /><br />
+<a href='http://www.irb.hr/eng'><img src="/src/images/Logos/IRBLogo300.jpg" alt="Ruđer Bošković Institute (RBI)" width="135" /></a><br /><br />
 </div></div>
  
 * *Description:*
@@ -561,7 +561,7 @@ Trainers that are potentially willing to travel, roughly within their home conti
 
 ### South Green Platform
 
-<div class='right'><a href='http://www.southgreen.fr/'><img src="/src/Images/Logos/SouthGreenBig.png" alt="South Green Platform" width="160" /></a></div>
+<div class='right'><a href='http://www.southgreen.fr/'><img src="/src/images/Logos/SouthGreenBig.png" alt="South Green Platform" width="160" /></a></div>
  
 * *Description:*
   * [South Green](http://www.southgreen.fr/) is a bioinformatic platform, studying tropical crops. It uses Galaxy for a large panel of bioinformatic analyses, from RNA-seq to phylogeny and 3D protein structure prediction.
@@ -588,7 +588,7 @@ These trainers don't travel, but their workshops are open to researchers outside
 
 ### Earlham Institute
 
-<div class='right'><a href='http://earlham.ac.uk/scientific-training'><img src="/src/Images/Logos/EarlhamInstituteBig.png" alt="Earlham Institute" width="180" /></a></div>
+<div class='right'><a href='http://earlham.ac.uk/scientific-training'><img src="/src/images/Logos/EarlhamInstituteBig.png" alt="Earlham Institute" width="180" /></a></div>
  
 * *Description:*
   * The [Earlham Institute](http://earlham.ac.uk/)'s [Scientific Training](http://earlham.ac.uk/scientific-training) team work with content experts from EI and across the world to create hands-on training courses and workshops in cutting edge genomics, bioinformatics and high-performance computing.
@@ -605,7 +605,7 @@ These trainers don't travel, but their workshops are open to researchers outside
 
 ### Peter Mac
 
-<div class='right'><a href='https://www.petermac.org/'><img src="/src/Images/Logos/PeterMac.png" alt="Peter MacCallum Cancer Center" width="200" /></a></div>
+<div class='right'><a href='https://www.petermac.org/'><img src="/src/images/Logos/PeterMac.png" alt="Peter MacCallum Cancer Center" width="200" /></a></div>
  
 * *Description:*
   * [Peter Mac](https://www.petermac.org/) is one of the world’s leading cancer research, education and treatment centres globally and is Australia’s only public hospital solely dedicated to caring for people affected by cancer. We have over 2,500 staff, including more than 580 laboratory and clinical researchers, all focused on providing better treatments, better care and potential cures for cancer.
@@ -622,7 +622,7 @@ These trainers don't travel, but their workshops are open to researchers outside
 
 ### Texas A&M University/Center for Phage Technology
 
-<div class='right'><a href='https://cpt.tamu.edu/'><img src="/src/Images/Logos/TAMULogo.png" alt="Texas A&M University/Center for Phage Technology" width="150" /></a></div>
+<div class='right'><a href='https://cpt.tamu.edu/'><img src="/src/images/Logos/TAMULogo.png" alt="Texas A&M University/Center for Phage Technology" width="150" /></a></div>
 * *Description:*
   * The TAMU Galaxy offers access a local Galaxy instance for TAMU Staff, faculty, and researchers. The CPT@TAMU offers a Galaxy instance catering to Bacteriophage Research. 
 
@@ -643,7 +643,7 @@ These trainers don't travel, but their workshops are open to researchers outside
 
 ### UC Davis Genome Center's Bioinformatics Core Facility
 
-<div class='right'><a href='http://bioinformatics.ucdavis.edu/'><img src="/src/Images/Logos/UCDavisGenomeCenter_Bioinf.png" alt="UC Davis Genome Center's Bioinformatics Core Facility" width="200" /></a></div>
+<div class='right'><a href='http://bioinformatics.ucdavis.edu/'><img src="/src/images/Logos/UCDavisGenomeCenter_Bioinf.png" alt="UC Davis Genome Center's Bioinformatics Core Facility" width="200" /></a></div>
  
 * *Description:*
   * The UCD Bioinformatics Core offers Galaxy-based training using the Amazon Cloud, as well as command line training and project-based consulting and data analysis.
@@ -673,7 +673,7 @@ These trainers don't travel, but their workshops are open to researchers outside
 
 ### University of Cambridge Bioinformatics Training Facility
 
-<div class='right'><a href='http://www.bio.cam.ac.uk/facilities/research/training/bioinformatics'><img src="/src/Images/Logos/UniCambridgeLogoWide.png" alt="University of Cambridge Bioinformatics Training Facility" width="200" /></a></div>
+<div class='right'><a href='http://www.bio.cam.ac.uk/facilities/research/training/bioinformatics'><img src="/src/images/Logos/UniCambridgeLogoWide.png" alt="University of Cambridge Bioinformatics Training Facility" width="200" /></a></div>
  
 * *Description:*
   * The [Bioinformatics Training Facility](http://www.bio.cam.ac.uk/facilities/research/training/bioinformatics) of the School of Biological Sciences of the University of Cambridge offers a wide range of bioinformatics training courses, including Galaxy-based training.
@@ -694,7 +694,7 @@ These trainers don't travel, but their workshops are open to researchers outside
 
 ### University of Minnesota Minnesota Supercomputing Institute Research Informatics Solutions
 
-<div class='right'><a href='https://www.msi.umn.edu/about/staff/riss'><img src="/src/Images/Logos/UofM_D2D.gif" alt="University of Minnesota Minnesota Supercomputing Institute Research Informatics Solutions" width="300" /></a></div>
+<div class='right'><a href='https://www.msi.umn.edu/about/staff/riss'><img src="/src/images/Logos/UofM_D2D.gif" alt="University of Minnesota Minnesota Supercomputing Institute Research Informatics Solutions" width="300" /></a></div>
  
 * *Description:*
   * [RIS](https://www.msi.umn.edu/about/staff/riss) is a group of experienced bioinformatics experts within the Supercomputing Institute at the University of Minnesota.
@@ -718,7 +718,7 @@ Trainers that can only teach to researchers that are affiliated with their insti
 
 ### HSPH Bioinformatics Core (HBC)
 
-<div class='right'><a href='https://hsphbio.ghost.io/'><img src="/src/Images/Logos/HBC.HSPH.logo.png" alt="HSPH (Harvard School of Public Health) Bioinformatics Core" width="220" /></a></div>
+<div class='right'><a href='https://hsphbio.ghost.io/'><img src="/src/images/Logos/HBC.HSPH.logo.png" alt="HSPH (Harvard School of Public Health) Bioinformatics Core" width="220" /></a></div>
 
 * *Description:*
   * [HBC](https://hsphbio.ghost.io/)'s staff are available to help with the management, integration, and contextual analysis of high-throughput biological data, focusing on next-generation sequencing support. We provide consulting, training, tools, databases and best practices, while fostering collaboration and a community of bioinformatic activities. We also build unified infrastructure to support a diverse set of experimental systems and high-throughput biological data.
@@ -760,7 +760,7 @@ That depends entirely on who does the training.  Most/All of these groups are **
 
 **Q: Where can I find other non-Galaxy specific bioinformatics training?**
 
-<div class='right'><a href='http://mygoblet.org'><img src="/src/Images/Logos/GobletLogo.png" alt="Global Organisation for Bioinformatics Learning, Education & Training (GOBLET)" height="140" /></a></div>
+<div class='right'><a href='http://mygoblet.org'><img src="/src/images/Logos/GobletLogo.png" alt="Global Organisation for Bioinformatics Learning, Education & Training (GOBLET)" height="140" /></a></div>
 
 Most of the members of the GTN also do bioinformatics training that isn't Galaxy-based.  If you want training that involves both Galaxy-based and non-Galaxy-based material than the GTN membership is the best place to start.  For general bioinformatics training a great place to look for trainers is the [Global Organisation for Bioinformatics Learning, Education & Training (GOBLET)](http://mygoblet.org). GOBLET was founded in 2012 by a group of international & national societies & networks to offer an umbrella for bioinformatics, biocuration, biocomputing & computational biology learning, education & training. It has online resource directories, very similar to what the GTN has.
 

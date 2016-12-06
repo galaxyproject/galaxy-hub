@@ -1,7 +1,7 @@
 ---
 title: Galaxy End-Users
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
 
 <table>
   <tr>
@@ -13,7 +13,7 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 
 
 <div class='dictbox'>
- BoF:: **[Galaxy End-Users](/src/Events/GCC2014/BoFs/GalaxyEndUsers/index.md)**
+ BoF:: **[Galaxy End-Users](/src/events/GCC2014/BoFs/GalaxyEndUsers/index.md)**
  Summary:: This session will serve as a platform for end-users to share experiences they feel will be useful or helpful to other end-users. 
  Audience:: End-users or developers interested in what end-users have to say.
  When:: Monday, June 30, 6:15pm<br /> and <br />Tuesday, July 1, 12:15pm
@@ -21,11 +21,11 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
  Contact:: [Mo Heydarian](mailto:mheydar1 AT jhmi DOT edu)
 </div>
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
 
-<div class='left'><a href='/src/Events/GCC2014/BoFs/index.md'><img src="/src/Images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
+<div class='left'><a href='/src/events/GCC2014/BoFs/index.md'><img src="/src/images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
  
-This page describes the **Galaxy End-Users** [Birds of a Feather](/src/Events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
+This page describes the **Galaxy End-Users** [Birds of a Feather](/src/events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/events/GCC2014/index.md).
 
 # Description
 

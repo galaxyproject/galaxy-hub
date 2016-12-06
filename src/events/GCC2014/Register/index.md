@@ -1,7 +1,7 @@
 ---
 title: Register
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
 
 <br /><br />
 
@@ -9,28 +9,28 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
 **Note:** Total registrations are capped at 250 participants and we expect to hit that registration cap. *Early registration is strongly encouraged.*
 </div>
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
 
 
 
 **[Registration](https://housing6.res.jhu.edu/KxRegistration_Live/Galaxy2014) for GCC2014 is now open.**
 
-Our goal is to have [registration](https://housing6.res.jhu.edu/KxRegistration_Live/Galaxy2014) be downright affordable, and to make early registration *outrageously* affordable for students and postdocs.  Participants will be able to register for the entire event, just the [Training Day](/src/Events/GCC2014/TrainingDay/index.md), or just the [main meeting](/src/Events/GCC2014/Program/index.md).  There are different registration levels for students and postdocs, other non-profit researchers, and industry.
+Our goal is to have [registration](https://housing6.res.jhu.edu/KxRegistration_Live/Galaxy2014) be downright affordable, and to make early registration *outrageously* affordable for students and postdocs.  Participants will be able to register for the entire event, just the [Training Day](/src/events/GCC2014/TrainingDay/index.md), or just the [main meeting](/src/events/GCC2014/Program/index.md).  There are different registration levels for students and postdocs, other non-profit researchers, and industry.
 
-*If you are attending the [Training Day](/src/Events/GCC2014/Register/TrainingDay/index.md), you are encouraged to review the [schedule and topics](/src/Events/GCC2014/Register/TrainingDay/index.md) before registering.* You will select the topics you will attend as part of registration.  You are also encouraged to review the [lodging options](/src/Events/GCC2014/Register/Logistics/index.md) before registering as Charles Commons, the most affordable option, can only be booked during registration.
+*If you are attending the [Training Day](/src/events/GCC2014/Register/TrainingDay/index.md), you are encouraged to review the [schedule and topics](/src/events/GCC2014/Register/TrainingDay/index.md) before registering.* You will select the topics you will attend as part of registration.  You are also encouraged to review the [lodging options](/src/events/GCC2014/Register/Logistics/index.md) before registering as Charles Commons, the most affordable option, can only be booked during registration.
 
 <br />
 
 
 ## Training Day and Conference
 
-Register for both the [GCC2014 main meeting](/src/Events/GCC2014/Register/Program/index.md) and the [Training Day](/src/Events/GCC2014/Register/TrainingDay/index.md) and save big on Training Day registration.  This is by far the most affordable option, with early registration fees *starting at less than $50 per day*.
+Register for both the [GCC2014 main meeting](/src/events/GCC2014/Register/Program/index.md) and the [Training Day](/src/events/GCC2014/Register/TrainingDay/index.md) and save big on Training Day registration.  This is by far the most affordable option, with early registration fees *starting at less than $50 per day*.
 
 <table>
   <tr>
-    <td rowspan=4 style=" border: none;"> <br /> <a href='/src/Events/GCC2014/Register/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2014TDLogoSmall.png" alt="Training Day" width="108" /></a> </td>
+    <td rowspan=4 style=" border: none;"> <br /> <a href='/src/events/GCC2014/Register/TrainingDay/index.md'><img src="/src/images/Logos/GCC2014TDLogoSmall.png" alt="Training Day" width="108" /></a> </td>
     <td rowspan=4 style=" border: none;"> <strong>+</strong> </td>
-    <td rowspan=4 style=" text-align: center; border: none;"> <br /><a href='/src/Events/GCC2014/Register/Program/index.md'><img src="/src/Images/Logos/GCC2014LogoTall200.png" alt="Main Meeting" width="100" /></a> </td>
+    <td rowspan=4 style=" text-align: center; border: none;"> <br /><a href='/src/events/GCC2014/Register/Program/index.md'><img src="/src/images/Logos/GCC2014LogoTall200.png" alt="Main Meeting" width="100" /></a> </td>
     <td rowspan=4 style=" border: none;"> &nbsp;&nbsp;&nbsp;&nbsp; </td>
     <td style=" border: none;"> </td>
     <th style=" color: #000;"> Before/on May 23 </th>
@@ -64,11 +64,11 @@ Register for both the [GCC2014 main meeting](/src/Events/GCC2014/Register/Progra
 <div class='red center'><br /> &nbsp;&nbsp;**Training Day only registration is sold out** &nbsp;&nbsp; <br /><br /></div>
 
 <br />
-You can, however, still register for the [Training Day](/src/Events/GCC2014/Register/TrainingDay/index.md) + Main Meeting package.  See above. Training Day includes a full day of workshops, offering 15 different sessions in five parallel tracks.
+You can, however, still register for the [Training Day](/src/events/GCC2014/Register/TrainingDay/index.md) + Main Meeting package.  See above. Training Day includes a full day of workshops, offering 15 different sessions in five parallel tracks.
 
 <table>
   <tr>
-    <td rowspan=4 style=" border: none;"> <br /> <a href='/src/Events/GCC2014/Register/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2014TDLogoSmall.png" alt="Training Day" width="105" /></a> </td>
+    <td rowspan=4 style=" border: none;"> <br /> <a href='/src/events/GCC2014/Register/TrainingDay/index.md'><img src="/src/images/Logos/GCC2014TDLogoSmall.png" alt="Training Day" width="105" /></a> </td>
     <td rowspan=4 style=" border: none;"> <strong>&nbsp;</strong> </td>
     <td rowspan=4 style=" text-align: center; border: none; width: 108px;"> </td>
     <td rowspan=4 style=" border: none;"> &nbsp;&nbsp;&nbsp;&nbsp; </td>
@@ -106,7 +106,7 @@ Interested in only the conference?  Conference-only registration includes admiss
   <tr>
     <td rowspan=4 style=" border: none; width: 110px;"> <br /> &nbsp; </td>
     <td rowspan=4 style=" border: none;"> <strong>&nbsp;</strong> </td>
-    <td rowspan=4 style=" text-align: center; border: none;"> <br /><a href='/src/Events/GCC2014/Register/Program/index.md'><img src="/src/Images/Logos/GCC2014LogoTall200.png" alt="Main Meeting" width="100" /></a> </td>
+    <td rowspan=4 style=" text-align: center; border: none;"> <br /><a href='/src/events/GCC2014/Register/Program/index.md'><img src="/src/images/Logos/GCC2014LogoTall200.png" alt="Main Meeting" width="100" /></a> </td>
     <td rowspan=4 style=" border: none;"> &nbsp;&nbsp;&nbsp;&nbsp; </td>
     <td style=" border: none;"> </td>
     <th style=" color: #000;"> Before/on May 23 </th>
@@ -144,26 +144,26 @@ Interested in only the conference?  Conference-only registration includes admiss
   </tr>
   <tr style="background-color: #ddf" >
     <td> February 14 </td>
-    <td> <a href='/src/Events/GCC2014/Register/index.md'>Early registration</a> opens </td>
+    <td> <a href='/src/events/GCC2014/Register/index.md'>Early registration</a> opens </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> May 23</td>
-    <td> <a href='/src/Events/GCC2014/Register/index.md'>Early registration</a> <strong>closed</strong> </td>
+    <td> <a href='/src/events/GCC2014/Register/index.md'>Early registration</a> <strong>closed</strong> </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> May 23 </td>
-    <td> <a href='/src/Events/GCC2014/Register/index.md'>First cancellation</a> deadline, 100% refund minus processing fees </td>
+    <td> <a href='/src/events/GCC2014/Register/index.md'>First cancellation</a> deadline, 100% refund minus processing fees </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> June 6 </td>
-    <td> <a href='/src/Events/GCC2014/Register/index.md'>Regular Registration</a> <strong>closed</strong> </td>
+    <td> <a href='/src/events/GCC2014/Register/index.md'>Regular Registration</a> <strong>closed</strong> </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> June 6 </td>
-    <td> <a href='/src/Events/GCC2014/Register/index.md'>Final cancellation</a> deadline, 50% refund minus processing fees </td>
+    <td> <a href='/src/events/GCC2014/Register/index.md'>Final cancellation</a> deadline, 50% refund minus processing fees </td>
   </tr>
 </table>
 
-See the [Key Dates page](/src/Events/GCC2014/Register/KeyDates/index.md) for a full timeline.
+See the [Key Dates page](/src/events/GCC2014/Register/KeyDates/index.md) for a full timeline.
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Footer/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/Footer/index.md)

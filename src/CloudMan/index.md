@@ -1,7 +1,7 @@
 ---
 autotoc: true
 ---
-<div class='center'><img src="/src/Images/GalaxyLogos/cloudman-logo.jpg" alt="CloudMan" width="60%" /></div>
+<div class='center'><img src="/src/images/GalaxyLogos/cloudman-logo.jpg" alt="CloudMan" width="60%" /></div>
 
 <br />
 

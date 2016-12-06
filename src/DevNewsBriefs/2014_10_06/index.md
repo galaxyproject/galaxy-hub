@@ -6,9 +6,9 @@ title: October 06, 2014 Galaxy Distribution News Brief
 
 [All News Briefs](/src/DevNewsBriefs/index.md)
 <br />
-[Distribution Summary 2014_10_06](/src/News/2014_10_06_Galaxy_Distribution/index.md)
+[Distribution Summary 2014_10_06](/src/news/2014_10_06_Galaxy_Distribution/index.md)
 
-<div class='left'><a href='http://getgalaxy.org'><img src="/src/Images/Logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
+<div class='left'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
 
 <br />
 <br />
@@ -104,7 +104,7 @@ Several enhancements and improvements have been made to facilitate easier viewin
 
 # Fixed
 
-<div class='right'> ![](/src/Images/NewsGraphics/2014_10_06_trello-5A2czklq.png) </div>
+<div class='right'> ![](/src/images/NewsGraphics/2014_10_06_trello-5A2czklq.png) </div>
 1. Fastq groomer had a one-off difference with sequence count. [d1IIKmGK](https://trello.com/c/d1IIKmGK)
 1. Now job_files.py allows writing the VERSION_STRING back for a job. [lWAPW3hd](https://trello.com/c/lWAPW3hd)
 1. Corrected issue where the loading label in a history would duplicate if clicked multiple times (see pic). [5A2czklq](https://trello.com/c/5A2czklq) 
@@ -142,5 +142,5 @@ Several enhancements and improvements have been made to facilitate easier viewin
 
 # About Galaxy
 
-<div class='left'><a href='http://usegalaxy.org'><img src="/src/Images/Logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
-**[About Galaxy](/src/Support/AboutGalaxy/index.md)** • [Galaxy Project](/src/GalaxyProject/index.md) • [Admin](/src/Admin/index.md) • [Issues](/src/Issues/index.md) • [Big Picture](/src/BigPicture/index.md) • [Community](/src/Community/index.md) • [Get Galaxy](/src/Admin/GetGalaxy/index.md) • [CloudMan](/src/CloudMan/index.md) • [Tool Shed](/src/ToolShed/index.md) • [Develop](/src/Develop/index.md) • [News Briefs](/src/DevNewsBriefs/index.md) • [Servers](/src/PublicGalaxyServers/index.md) • [Learn](/src/Learn/index.md) • [Support](/src/Support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/News/index.md) • [Twitter](/src/GalaxyOnTwitter/index.md) • [Events](/src/Events/index.md) • [Teach](/src/Teach/index.md) • [Issues](/src/Issues/index.md) • [Cite](/src/CitingGalaxy/index.md) • [Galaxy Team](/src/GalaxyTeam/index.md)
+<div class='left'><a href='http://usegalaxy.org'><img src="/src/images/Logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
+**[About Galaxy](/src/support/AboutGalaxy/index.md)** • [Galaxy Project](/src/GalaxyProject/index.md) • [Admin](/src/Admin/index.md) • [Issues](/src/Issues/index.md) • [Big Picture](/src/BigPicture/index.md) • [Community](/src/Community/index.md) • [Get Galaxy](/src/Admin/GetGalaxy/index.md) • [CloudMan](/src/CloudMan/index.md) • [Tool Shed](/src/ToolShed/index.md) • [Develop](/src/Develop/index.md) • [News Briefs](/src/DevNewsBriefs/index.md) • [Servers](/src/PublicGalaxyServers/index.md) • [Learn](/src/Learn/index.md) • [Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/news/index.md) • [Twitter](/src/GalaxyOnTwitter/index.md) • [Events](/src/events/index.md) • [Teach](/src/Teach/index.md) • [Issues](/src/Issues/index.md) • [Cite](/src/CitingGalaxy/index.md) • [Galaxy Team](/src/GalaxyTeam/index.md)

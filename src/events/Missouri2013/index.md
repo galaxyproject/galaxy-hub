@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://muii.missouri.edu/'><img src="/src/Images/Logos/UMissouriInformaticsBanner.png" alt="University of Missouri Informatics Institute"  /></a>
+<a href='http://muii.missouri.edu/'><img src="/src/images/Logos/UMissouriInformaticsBanner.png" alt="University of Missouri Informatics Institute"  /></a>
 
 <div class='title'>Introduction to Galaxy<br /> Thursday May 2, 2013</div>
 
@@ -84,12 +84,12 @@ No programming or Linux command line experience is required.
 
 ## Support
 
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
-<div class='left'><a href='/src/Events/MissouriWorkshopTour2013/index.md'><img src="/src/Images/Logos/MissouriGalaxyWorkshopTour2013.png" alt="2013 Missouri Galaxy Workshop Tour" height="75" /></a></div>
+<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='left'><a href='/src/events/MissouriWorkshopTour2013/index.md'><img src="/src/images/Logos/MissouriGalaxyWorkshopTour2013.png" alt="2013 Missouri Galaxy Workshop Tour" height="75" /></a></div>
 
 This workshop is generously supported by an **[AWS in Education](http://aws.amazon.com/education/)** grant award, and **[University of Missouri Informatics Institute](http://muii.missouri.edu/)**.  
 
-This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/src/Events/MissouriWorkshopTour2013/index.md).
+This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/src/events/MissouriWorkshopTour2013/index.md).
 
 ## Slides
 
@@ -97,7 +97,7 @@ This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/src/Events/Mi
 
 ## Flyer
 
-<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/UMissouritGalaxy2013.pdf'><img src="/src/Events/Missouri2013/UMissouriGalaxy2013Thumb.png" alt=""  /></a></div>
+<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/UMissouritGalaxy2013.pdf'><img src="/src/events/Missouri2013/UMissouriGalaxy2013Thumb.png" alt=""  /></a></div>
 Please distribute to groups at the University of Missouri that might be interested. You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?

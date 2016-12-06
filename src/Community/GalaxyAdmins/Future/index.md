@@ -2,7 +2,7 @@
 autotoc: true
 title: [GalaxyAdmins](/src/GalaxyAdmins/index.md) Future Directions
 ---
-<div class='center'>![](/src/Images/Logos/GalaxyAdmins.png)</div>
+<div class='center'>![](/src/images/Logos/GalaxyAdmins.png)</div>
 
 
 
@@ -26,7 +26,7 @@ The group's **[current goals](/src/Community/GalaxyAdmins/Meetups/2012_07_09/ind
 The **activities** of this group have so far been:
 
 1. Meeting online every other month for a presentation by a group member, a short project update, and Q&A.
-2. Meeting in person at Galaxy events - at [GCC2012](/src/Events/GCC2012/index.md), [GCC2013](/src/Events/GCC2013/index.md), [GCC2014](/src/Events/GCC2014/index.md)
+2. Meeting in person at Galaxy events - at [GCC2012](/src/events/GCC2012/index.md), [GCC2013](/src/events/GCC2013/index.md), [GCC2014](/src/events/GCC2014/index.md)
 3. Running an initial survey to find out how members have deployed and are using Galaxy.
 
 We used the Univerisity of Iowa's Blackboard Collaborate software to host, record, and replay meetups.
@@ -41,9 +41,9 @@ Starting in February 2015, we will resume our bi-monthly web meetups.
 
 The GalaxyAdmins group has been hiatus for a while. Though, the discussion about this group's future has never stopped:
 
-* [In this email thread](http://dev.list.galaxyproject.org/GalaxyAdmins-Group-Future-Directions-td4659133.html) prior to [GCC2013](/src/Events/GCC2013/index.md)
-* At the [Future of GalaxyAdmins BoF](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md) at [GCC2013](/src/Events/GCC2013/index.md).
-* At the [GalaxyAdmins BoF](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md) at [GCC2014](/src/Events/GCC2014/index.md).
+* [In this email thread](http://dev.list.galaxyproject.org/GalaxyAdmins-Group-Future-Directions-td4659133.html) prior to [GCC2013](/src/events/GCC2013/index.md)
+* At the [Future of GalaxyAdmins BoF](/src/events/GCC2013/BoF/GalaxyAdmins/index.md) at [GCC2013](/src/events/GCC2013/index.md).
+* At the [GalaxyAdmins BoF](/src/events/GCC2014/BoFs/GalaxyAdmins/index.md) at [GCC2014](/src/events/GCC2014/index.md).
 
 ## GalaxyAdmins Goals and Activities
 

@@ -2,7 +2,7 @@
 title: [Immunoglobulin Galaxy VM](http://bioinformatics.erasmusmc.nl/wiki/index.php/Immunoglobulin_Galaxy)
 ---
 <div class='center'>
-<a href='http://bioinformatics.erasmusmc.nl/wiki/index.php/Immunoglobulin_Galaxy'><img src="/src/Images/Logos/ERasmusBioinformatics.jpg" alt="Erasmus Center for Bioinformatics" height="200" /></a>
+<a href='http://bioinformatics.erasmusmc.nl/wiki/index.php/Immunoglobulin_Galaxy'><img src="/src/images/Logos/ERasmusBioinformatics.jpg" alt="Erasmus Center for Bioinformatics" height="200" /></a>
 </div>
 
 

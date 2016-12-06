@@ -1,9 +1,9 @@
-<div class='newsItemHeader'>[June 2016 Galactic News](/src/News/2016_06GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[June 2016 Galactic News](/src/news/2016_06GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/src/GalaxyUpdates/2016_06/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=150 /></a><br />
+<a href='/src/GalaxyUpdates/2016_06/index.md'><img src="/src/images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=150 /></a><br />
 <br />
-<a href='/src/GalaxyUpdates/2016_06/index.md#gcc2016'><img src="/src/Images/Logos/GCC2016LogoTallBig.png" alt="GCC2016 News" width="150" /></a></div>
+<a href='/src/GalaxyUpdates/2016_06/index.md#gcc2016'><img src="/src/images/Logos/GCC2016LogoTallBig.png" alt="GCC2016 News" width="150" /></a></div>
 
 Some highlights from the **[June Galaxy News](/src/GalaxyUpdates/2016_06/index.md)**
 
@@ -28,6 +28,6 @@ Hope to [see you in Bloomington](https://gcc2016.iu.edu/),
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-06-01</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-06-01</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

@@ -58,10 +58,10 @@ title: January 27, 2012 Galaxy Development News Brief
 * Do not find valid chroms because this is computationally expensive and not currently used.
 * Provide icon to randomly set color in drawable configuration.
 
-![](/src/Images/NewsGraphics/2012_01_27_random-color-chooser.png)
+![](/src/images/NewsGraphics/2012_01_27_random-color-chooser.png)
 * Multi-track dynamic filtering.
 
-![](/src/Images/NewsGraphics/2012_01_27_multi-track-filtering.png)
+![](/src/images/NewsGraphics/2012_01_27_multi-track-filtering.png)
 
 ## Workflows
 
@@ -84,7 +84,7 @@ title: January 27, 2012 Galaxy Development News Brief
 
 ## Bug Fixes
 
-<div class='right'><a href='/src/Support/index.md'><img src="/src/Images/Icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/src/support/index.md'><img src="/src/images/Icons/bug.png" alt="bugs" width="20" /></a></div> 
 * Python 2.5 support was broken in the last stable release, this has been fixed 
 * A broken unit test under 2.5 will not be fixed until the next release, however - this can safely be ignored.
 * A fix to not use math.isnan because it is not compatible with python 2.5 has been made.

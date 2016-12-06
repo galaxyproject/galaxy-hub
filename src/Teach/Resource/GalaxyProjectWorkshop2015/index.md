@@ -12,7 +12,7 @@ title:  Galaxy Project Workshop 2015
 1. Galaxy [Main](/src/Main/index.md)
 1. Ways to use Galaxy explained in [Choices](/src/BigPicture/Choices/index.md)
 1. [Tool Shed Wiki](/src/ToolShed/index.md) and Main Tool Shed at [http://usegalaxy.org/toolshed](http://usegalaxy.org/toolshed)
-1. More resources at [Learn](/src/Learn/index.md), [Support](/src/Support/index.md), [Teach](/src/Teach/index.md), and [Galaxy Biostars](https://biostar.usegalaxy.org/) (linked access: [Support/Biostar](/src/Support/Biostar/index.md))
+1. More resources at [Learn](/src/Learn/index.md), [Support](/src/support/index.md), [Teach](/src/Teach/index.md), and [Galaxy Biostars](https://biostar.usegalaxy.org/) (linked access: [Support/Biostar](/src/support/Biostar/index.md))
 
 # Basic Analysis with Galaxy
 
@@ -47,7 +47,7 @@ Differential Expression using Tuxedo pipeline: Known vs Novel splice variants
 
 Review the source tutorial overview under [Teach](/src/Teach/index.md) named *[Teach/Resource/GVL-RNA-SeqTutorial](/src/Teach/Resource/GVL-RNA-SeqTutorial/index.md)*. This summary points to the full exercise created by the *[Genomics Virtual Lab (GVL)](https://docs.google.com/document/pub?id=1KbTiBHtvHLfPRZ39AY3uriazrINA8TJzgjjwn1zPP7Y)*
 
-Wikis: [Support](/src/Support/index.md#tools_on_the_main_server_rna-seq) and several others under [Learn](/src/Learn/index.md#other_tutorials)
+Wikis: [Support](/src/support/index.md#tools_on_the_main_server_rna-seq) and several others under [Learn](/src/Learn/index.md#other_tutorials)
 
 ## Known Protocol
 
@@ -287,7 +287,7 @@ Wikis: [Histories](/src/Histories/index.md) and [Learn/ManagingDatasets](/src/Le
 
 ## Importing
 
-Wikis: [Support](/src/Support/index.md#loading_data)
+Wikis: [Support](/src/support/index.md#loading_data)
 
 ### Upload
 
@@ -341,7 +341,7 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/import](https://usegal
     * very long descriptions that will likely cause problems if used as a *Custom Reference Genome*
     * we will correct this in the sub-topic *Custom Genomes*
 1. Homework:
-  1. use the pasted BED dataset with the tool *Extract Genomic DNA* to retrieve genomic sequence in fasta format for the specified interval. Example with a custom genome (use built-in for this job):[Support](/src/Support/index.md#tools_on_the_main_server_extract_dna)
+  1. use the pasted BED dataset with the tool *Extract Genomic DNA* to retrieve genomic sequence in fasta format for the specified interval. Example with a custom genome (use built-in for this job):[Support](/src/support/index.md#tools_on_the_main_server_extract_dna)
 
 ### External Sources
 
@@ -408,7 +408,7 @@ Wiki: [Learn/Share](/src/Learn/Share/index.md)
 
 ## FASTQ Dataset Prep & Troubleshooting
 
-Wiki: [Support](/src/Support/index.md#fastq_datatype_qa)
+Wiki: [Support](/src/support/index.md#fastq_datatype_qa)
 
 1. History menu *Saved Histories*
 1. History menu *Copy Dataset* 
@@ -429,7 +429,7 @@ BONUS as time allows
 ## Custom Genomes
 
  
-Wikis: [Support](/src/Support/index.md#custom_reference_genome) and [Learn/CustomGenomes](/src/Learn/CustomGenomes/index.md)
+Wikis: [Support](/src/support/index.md#custom_reference_genome) and [Learn/CustomGenomes](/src/Learn/CustomGenomes/index.md)
 
 1. History menu *Saved Histories*
 1. History menu *Copy Dataset* 

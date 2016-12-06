@@ -1,7 +1,7 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='https://www.rochester.edu/'><img src="/src/Images/Logos/URochester.png" alt="University of Rochester"  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='https://www.rochester.edu/'><img src="/src/images/Logos/URochester.png" alt="University of Rochester"  /></a> </td>
   </tr>
 </table>
 
@@ -135,12 +135,12 @@ No programming or Linux command line experience is required.
 ## Support
 
 <div class='center'><br />
-<a href='http://www.circ.rochester.edu/'><img src="/src/Images/Logos/Rochester_CIRC.png" alt="Center for Integrated Research Computing (CIRC)" width="220" /></a> &nbsp;&nbsp;
-<a href='https://www.urmc.rochester.edu/libraries/miner/index.cfm'><img src="/src/Images/Logos/Rochester_MinerLibrary.png" alt="Edward G. Miner Library" width="300" /></a> &nbsp;&nbsp;
-<a href='https://www.urmc.rochester.edu/research/for-researchers/shared-resource-laboratories-facilities/laboratories/Rochester-Genomics-Center/'><img src="/src/Images/Logos/URochesterMC.png" alt="The UR Genomics Research Center (GRC)" width="220" /></a> &nbsp;&nbsp;
-<a href='https://www.urmc.rochester.edu/smd/it/research/research-data-integration-and-analytics-rdia.aspx'><img src="/src/Images/Logos/URochesterSOMAD.jpg" alt="UR Research Data Integration and Analytics (RDIA)" width="200" /></a> &nbsp;
-<a href='https://www.rochester.edu/'><img src="/src/Images/Logos/URochester.png" alt="University of Rochester" width="220" /></a> &nbsp;&nbsp;
-<a href='http://www.nih.gov/'><img src="/src/Images/Logos/NIHwithTagline.png" alt="National Institutes of Health (NIH)" width="220" /></a>
+<a href='http://www.circ.rochester.edu/'><img src="/src/images/Logos/Rochester_CIRC.png" alt="Center for Integrated Research Computing (CIRC)" width="220" /></a> &nbsp;&nbsp;
+<a href='https://www.urmc.rochester.edu/libraries/miner/index.cfm'><img src="/src/images/Logos/Rochester_MinerLibrary.png" alt="Edward G. Miner Library" width="300" /></a> &nbsp;&nbsp;
+<a href='https://www.urmc.rochester.edu/research/for-researchers/shared-resource-laboratories-facilities/laboratories/Rochester-Genomics-Center/'><img src="/src/images/Logos/URochesterMC.png" alt="The UR Genomics Research Center (GRC)" width="220" /></a> &nbsp;&nbsp;
+<a href='https://www.urmc.rochester.edu/smd/it/research/research-data-integration-and-analytics-rdia.aspx'><img src="/src/images/Logos/URochesterSOMAD.jpg" alt="UR Research Data Integration and Analytics (RDIA)" width="200" /></a> &nbsp;
+<a href='https://www.rochester.edu/'><img src="/src/images/Logos/URochester.png" alt="University of Rochester" width="220" /></a> &nbsp;&nbsp;
+<a href='http://www.nih.gov/'><img src="/src/images/Logos/NIHwithTagline.png" alt="National Institutes of Health (NIH)" width="220" /></a>
 </div><br />
 
 This workshop is generously supported by **

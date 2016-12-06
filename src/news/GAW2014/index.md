@@ -1,10 +1,10 @@
-<div class='newsItemHeader'>[Galaxy Australasia Workshop 2014](/src/News/GAW2014/index.md)</div>
+<div class='newsItemHeader'>[Galaxy Australasia Workshop 2014](/src/news/GAW2014/index.md)</div>
 
-**The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](/src/Events/GAW2014/index.md) will be held in Melbourne, Australia on 24 and 25th March 2014.** 
+**The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](/src/events/GAW2014/index.md) will be held in Melbourne, Australia on 24 and 25th March 2014.** 
 
-<div class='right'><a href='/src/Events/GAW2014/index.md'><img src="/src/Events/GAW2014/MCC.png" alt="Galaxy Australasia Workshop 2014" /></a></div>
+<div class='right'><a href='/src/events/GAW2014/index.md'><img src="/src/events/GAW2014/MCC.png" alt="Galaxy Australasia Workshop 2014" /></a></div>
 
-The [Galaxy Australasia Workshop](/src/Events/GAW2014/index.md) is a great opportunity for you to participate in two full days of presentations, discussions, poster sessions, keynotes and lightning talks, all about ways of using Galaxy for high-throughput biology, imaging and other scientific applications. The workshop will also include Training Sessions taught by Galaxy developers and master users.  GAW 2014 will run 24 and 25th March, immediately preceding [Computational and Simulation Sciences and eResearch](http://wp.csiro.au/css/) in Melbourne.
+The [Galaxy Australasia Workshop](/src/events/GAW2014/index.md) is a great opportunity for you to participate in two full days of presentations, discussions, poster sessions, keynotes and lightning talks, all about ways of using Galaxy for high-throughput biology, imaging and other scientific applications. The workshop will also include Training Sessions taught by Galaxy developers and master users.  GAW 2014 will run 24 and 25th March, immediately preceding [Computational and Simulation Sciences and eResearch](http://wp.csiro.au/css/) in Melbourne.
 
 GAW 2014 will also include poster session, keynote speakers.
 
@@ -39,8 +39,8 @@ Submissions should clearly state whether they are for: poster or oral presentati
 
 Looking forward to seeing you all in Melbourne!
 
-[GAW 2014 Organising Committee](/src/Events/GAW2014/index.md#organising-committee)
+[GAW 2014 Organising Committee](/src/events/GAW2014/index.md#organising-committee)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-01-17</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-01-17</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

@@ -1,14 +1,14 @@
-PLACEHOLDER_INCLUDE(/src/Events/GCC2012/PageHeader/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2012/PageHeader/index.md)
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2012/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2012/LinkBox/index.md)
 
-Please help get the word out about the [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/Promotion//index.md).  A [flier](/src/Events/GCC2012/Promotion/index.md#flier) suitable for printing is below, as well as several different sizes of the conference banner that can be used on the web.
+Please help get the word out about the [2012 Galaxy Community Conference (GCC2012)](/src/events/GCC2012/Promotion//index.md).  A [flier](/src/events/GCC2012/Promotion/index.md#flier) suitable for printing is below, as well as several different sizes of the conference banner that can be used on the web.
 
 # Flier
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URL/src/GCC2012Flier.pdf'><img src="/src/Events/GCC2012/Promotion/GCC2012FlierThumb.png" /></a> </td>
+    <td style=" border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URL/src/GCC2012Flier.pdf'><img src="/src/events/GCC2012/Promotion/GCC2012FlierThumb.png" /></a> </td>
     <td style=" border: none;"> Please print, post and distribute <a href='PLACEHOLDER_ATTACHMENT_URL/src/GCC2012Flier.pdf'>the conference flier</a><br />at your organization, and or events.  </td>
   </tr>
 </table>
@@ -31,24 +31,24 @@ The conference logo is available in 2 formats in several widths.
     <th> Hi-res </th>
   </tr>
   <tr>
-    <td> <img src="/src/Events/GCC2012/Promotion/GCC2012Logo200.png" alt="Logo only" /> </td>
-    <td> <a href='/src/Events/GCC2012/Promotion/GCC2012Logo200.png'>Download</a> </td>
-    <td> <a href='/src/Events/GCC2012/Promotion/GCC2012Logo400.png'>Download</a> </td>
-    <td> <a href='/src/Events/GCC2012/Promotion/GCC2012Logo600.png'>Download</a> </td>
-    <td> <a href='/src/Events/GCC2012/Promotion/GCC2012Logo800.png'>Download</a> </td>
-    <td> <a href='/src/Events/GCC2012/Promotion/GCC2012Logo.png'>Download</a> </td>
+    <td> <img src="/src/events/GCC2012/Promotion/GCC2012Logo200.png" alt="Logo only" /> </td>
+    <td> <a href='/src/events/GCC2012/Promotion/GCC2012Logo200.png'>Download</a> </td>
+    <td> <a href='/src/events/GCC2012/Promotion/GCC2012Logo400.png'>Download</a> </td>
+    <td> <a href='/src/events/GCC2012/Promotion/GCC2012Logo600.png'>Download</a> </td>
+    <td> <a href='/src/events/GCC2012/Promotion/GCC2012Logo800.png'>Download</a> </td>
+    <td> <a href='/src/events/GCC2012/Promotion/GCC2012Logo.png'>Download</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/Events/GCC2012/Promotion/GCC2012LogoWide400.png" alt="Logo plus text" /> </td>
-    <td> <a href='/src/Events/GCC2012/Promotion/GCC2012LogoWide200.png'>Download</a> </td>
-    <td> <a href='/src/Events/GCC2012/Promotion/GCC2012LogoWide400.png'>Download</a> </td>
-    <td> <a href='/src/Events/GCC2012/Promotion/GCC2012LogoWide600.png'>Download</a> </td>
-    <td> <a href='/src/Events/GCC2012/Promotion/GCC2012LogoWide800.png'>Download</a> </td>
-    <td> <a href='/src/Events/GCC2012/Promotion/GCC2012LogoWide.png'>Download</a> </td>
+    <td> <img src="/src/events/GCC2012/Promotion/GCC2012LogoWide400.png" alt="Logo plus text" /> </td>
+    <td> <a href='/src/events/GCC2012/Promotion/GCC2012LogoWide200.png'>Download</a> </td>
+    <td> <a href='/src/events/GCC2012/Promotion/GCC2012LogoWide400.png'>Download</a> </td>
+    <td> <a href='/src/events/GCC2012/Promotion/GCC2012LogoWide600.png'>Download</a> </td>
+    <td> <a href='/src/events/GCC2012/Promotion/GCC2012LogoWide800.png'>Download</a> </td>
+    <td> <a href='/src/events/GCC2012/Promotion/GCC2012LogoWide.png'>Download</a> </td>
   </tr>
 </table>
 
 
 # Sponsorships
 
-Interested in sponsoring the meeting?  See [Sponsorships](/src/Events/GCC2012/Promotion/Sponsorships/index.md).
+Interested in sponsoring the meeting?  See [Sponsorships](/src/events/GCC2012/Promotion/Sponsorships/index.md).

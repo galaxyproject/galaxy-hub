@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[Bioinformatics Methods in Genomics, Zagreb](/src/News/WorkshopZagreb201503/index.md)</div>
+<div class='newsItemHeader'>[Bioinformatics Methods in Genomics, Zagreb](/src/news/WorkshopZagreb201503/index.md)</div>
 
 <table>
   <tr>
@@ -7,7 +7,7 @@
 </table>
 
 
-<div class='right'><a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/FREE-Workshop-Bioinformatics-Methods-in-Genomics'><img src="/src/Images/Logos/IRBLogo300.jpg" alt="Ruđer Bošković Institute (RBI)" width="135" /></a></div>
+<div class='right'><a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/FREE-Workshop-Bioinformatics-Methods-in-Genomics'><img src="/src/images/Logos/IRBLogo300.jpg" alt="Ruđer Bošković Institute (RBI)" width="135" /></a></div>
 
 
 This [2-day workshop](http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/FREE-Workshop-Bioinformatics-Methods-in-Genomics) will cover a spread of topics in genomics. The first day will present a set of lectures and the second day will host two hands-on workshop sessions, including ***Introduction to RNA-Seq analysis with Galaxy*** presented by [Enis Afgan](/src/EnisAfgan/index.md) & Davor Davidović (RBI).  The event will be offered in English.
@@ -24,6 +24,6 @@ Participants will get a broad overview of topics covering multiple facets of bio
 
 [Registration](https://www.eventbrite.com/e/bioinformatics-methods-in-genomics-free-lectures-and-workshop-tickets-15726413125?ref=ecount) is now open, and is *free*.  You may register for the different parts of the event separately.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-02-13</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-02-13</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

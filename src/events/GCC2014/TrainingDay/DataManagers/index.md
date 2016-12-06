@@ -1,16 +1,16 @@
 ---
 title: Tool Development from bright idea to toolshed - Data Managers
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
 <br /><br />
 
 
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
 
-<div class='right'> <a href='/src/Events/GCC2014/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
+<div class='right'> <a href='/src/events/GCC2014/TrainingDay/index.md'><img src="/src/images/Logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
 
-This is the workshop page for the **[Tool Development from bright idea to toolshed - Data Managers](/src/Events/GCC2014/TrainingDay/index.md#tool-development-from-bright-idea-to-toolshed---data-managers)** Training Day session at GCC2014.
+This is the workshop page for the **[Tool Development from bright idea to toolshed - Data Managers](/src/events/GCC2014/TrainingDay/index.md#tool-development-from-bright-idea-to-toolshed---data-managers)** Training Day session at GCC2014.
 
 This workshop is offered on June 30, from 3:30 through 6pm, in Room 304 of Charles Commons.
 
@@ -33,7 +33,7 @@ This session covers the tool and ToolShed requirements for using reference data 
 ## Prerequisites
 
 * The virtual machine image for this workshop should be installed before you arrive. 
-  * [How to VM](/src/Events/GCC2014/TrainingDay/VMs/index.md)
+  * [How to VM](/src/events/GCC2014/TrainingDay/VMs/index.md)
   * [Direct Download](http://depot.galaxyproject.org/GCC2014.ova)
 * A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.  
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop. 
@@ -728,4 +728,4 @@ data_manager_snpeff/tool_dependencies.xml
     ```
 
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Footer/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/Footer/index.md)

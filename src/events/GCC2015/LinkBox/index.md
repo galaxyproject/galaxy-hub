@@ -12,6 +12,6 @@
 [Sponsors](http://gcc2015.tsl.ac.uk/sponsors)<br />
 [Code Hack](http://gcc2015.tsl.ac.uk/hackathon)<br />
 [Data Hack](http://gcc2015.tsl.ac.uk/data-hackathon)<br />
-[BoFs](/src/Events/GCC2015/BoFs/index.md)<br />
+[BoFs](/src/events/GCC2015/BoFs/index.md)<br />
 [Organisers](http://gcc2015.tsl.ac.uk/organisers)<br />
 </div>

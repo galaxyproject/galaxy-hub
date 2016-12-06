@@ -6,7 +6,7 @@ title: August 12, 2013 Galaxy Distribution News Brief
 
 [All News Briefs](/src/DevNewsBriefs/index.md)
 <br />
-[Distribution Summary 2013_08_12](/src/News/2013_08_12_Galaxy_Distribution/index.md)
+[Distribution Summary 2013_08_12](/src/news/2013_08_12_Galaxy_Distribution/index.md)
 
 <br />
 
@@ -263,11 +263,11 @@ Details: Only Galaxy instances with `allow_user_impersonation = True` set in the
 <br />
 
 <div class='right'>
-<br /><a href='http://wiki.galaxyproject.org/Events/GCC2013/Photos'><img src="/src/Images/NewsGraphics/2013_08_12_gcc-main-room.jpg" alt="GCC 2013" width=300 /></a><br />**GCC 2013**</div>
+<br /><a href='http://wiki.galaxyproject.org/Events/GCC2013/Photos'><img src="/src/images/NewsGraphics/2013_08_12_gcc-main-room.jpg" alt="GCC 2013" width=300 /></a><br />**GCC 2013**</div>
 
 # Project Updates
 
-**[News](/src/News/index.md)**, ***[August 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_08)***
+**[News](/src/news/index.md)**, ***[August 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_08)***
 
 ## GCC 2013 Wrap-up
 

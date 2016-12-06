@@ -1,7 +1,7 @@
 ---
 title: April 1, 2015 Galaxy Workshop at Stanford University
 ---
-<div class='center'><img src="/src/Events/Meetups/PSU/PSUMeetupLogo600.png" alt="Galaxy Meetup @ Penn State" width="400" /></div>
+<div class='center'><img src="/src/events/Meetups/PSU/PSUMeetupLogo600.png" alt="Galaxy Meetup @ Penn State" width="400" /></div>
 
 
 <br />
@@ -10,7 +10,7 @@ title: April 1, 2015 Galaxy Workshop at Stanford University
 
 This hands-on Galaxy workshop will cover several common analysis pathways with an emphasis on maximising basic and intermediate level functions of the Galaxy application for reproducible, publication quality, scientific research.
 
-<div class='right'><a href='http://www.stanford.edu/'><img src="/src/Images/Logos/Stanford.jpeg" alt="Stanford University" width=175 /></a> <br /> <a href='http://bioteam.net/'><img src="/src/Images/Logos/BioTeamLogo154.gif" alt="Bioteam" width=100 /></a> <a href='http://bioteam.net/slipstream/galaxy-edition/'><img src="/src/Images/Logos/SlipStreamApplianceLogoTrimmed.png" alt="Galaxy Slipstream" width=200 /></a> <br /> </div> 
+<div class='right'><a href='http://www.stanford.edu/'><img src="/src/images/Logos/Stanford.jpeg" alt="Stanford University" width=175 /></a> <br /> <a href='http://bioteam.net/'><img src="/src/images/Logos/BioTeamLogo154.gif" alt="Bioteam" width=100 /></a> <a href='http://bioteam.net/slipstream/galaxy-edition/'><img src="/src/images/Logos/SlipStreamApplianceLogoTrimmed.png" alt="Galaxy Slipstream" width=200 /></a> <br /> </div> 
 
 ### When
 
@@ -37,7 +37,7 @@ While the workshop will be useful and informative for new Galaxy users, attendee
 * The first thing you should try: [Galaxy 101](https://usegalaxy.org/u/aun1/p/galaxy101)
 * Review a set of introductory-level tutorials: [Using Galaxy](https://usegalaxy.org/u/galaxyproject/p/using-galaxy-2012)
 * Get involved with the Galaxy Scientific user community by joining in on the conversations at [Galaxy Biostars](https://biostar.usegalaxy.org) ([Instant registration](https://wiki.galaxyproject.org/Support/Biostar))
-* Resources: [Learn](/src/Learn/index.md) and [Support](/src/Support/index.md)
+* Resources: [Learn](/src/Learn/index.md) and [Support](/src/support/index.md)
 
 #### What is Galaxy and why could it be interesting to me?
 

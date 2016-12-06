@@ -1,17 +1,17 @@
-<div class='newsItemHeader'>[Galaxy Workshops in South Africa](/src/News/GalaxyWorkshopsInSouthAfrica/index.md)</div>
+<div class='newsItemHeader'>[Galaxy Workshops in South Africa](/src/news/GalaxyWorkshopsInSouthAfrica/index.md)</div>
 <div class='right'>
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <img src="/src/News/GalaxyWorkshopsInSouthAfrica/SouthAfricaFlag.png" alt="" width="150" /> </td>
+    <td style=" text-align: center; border: none;"> <img src="/src/news/GalaxyWorkshopsInSouthAfrica/SouthAfricaFlag.png" alt="" width="150" /> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='http://www.up.ac.za/'><img src="/src/Images/Logos/UPretoriaWide.png" alt="University of Pretoria" width="200" /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.up.ac.za/'><img src="/src/images/Logos/UPretoriaWide.png" alt="University of Pretoria" width="200" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='http://www.sun.ac.za/'><img src="/src/Images/Logos/StellenboschUWide.png" alt="Stellenbosch University"  /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.sun.ac.za/'><img src="/src/images/Logos/StellenboschUWide.png" alt="Stellenbosch University"  /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='http://genetics.cmc-uct.co.za/'><img src="/src/Images/Logos/SASBCB_SAGS.png" alt="outh African Genetics & Bioinformatics Society Joint Conference"  /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://genetics.cmc-uct.co.za/'><img src="/src/images/Logos/SASBCB_SAGS.png" alt="outh African Genetics & Bioinformatics Society Joint Conference"  /></a> </td>
   </tr>
 </table>
 
@@ -35,6 +35,6 @@ In addition, there will be a keynote talk on Galaxy at the [South African Geneti
 
 [Dave Clements](/src/DaveClements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-06-28</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-06-28</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

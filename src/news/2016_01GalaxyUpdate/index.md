@@ -1,7 +1,7 @@
-<div class='newsItemHeader'>[January 2016 Galactic News](/src/News/2016_01GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[January 2016 Galactic News](/src/news/2016_01GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/src/GalaxyUpdates/2016_01/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="It's a new year in the Galaxy!" width=150 /></a><br />
+<a href='/src/GalaxyUpdates/2016_01/index.md'><img src="/src/images/GalaxyLogos/GalaxyNews.png" alt="It's a new year in the Galaxy!" width=150 /></a><br />
 </div>
 
 The **[January 2016 Galactic News](/src/GalaxyUpdates/2016_01/index.md)** is hot off the presses.
@@ -23,6 +23,6 @@ The **[January 2016 Galactic News](/src/GalaxyUpdates/2016_01/index.md)** is hot
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-01-04 </div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-01-04 </div>
 
 [CategoryNews](/src/CategoryNews/index.md)

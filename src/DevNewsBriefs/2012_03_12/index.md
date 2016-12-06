@@ -24,7 +24,7 @@ title: March 12, 2012 Galaxy Development News Brief
 
 ## The Emboss tools and Emboss datatypes will be eliminated from the Galaxy distribution in the NEXT release (not this one).  Other tools currently in the Galaxy distribution will be eliminated in following releases.  Those hosting local Galaxy instances should read this revised "Migrating tools" section of the Galaxy tool shed wiki to understand how this process will work:
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/Images/Logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/Logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 ## Migrating tools from the Galaxy distribution to the Galaxy Main tool shed
 
 In 2012, the Galaxy development team will begin the process of **migrating the tools that are currently available in the Galaxy distribution to the [Galaxy Main tool shed](http://toolshed.g2.bx.psu.edu/)**.  This will enable those that host local Galaxy instances much more flexibility in choosing to provide only those specific tools in which their users are interested. [Read more...](/src/Tool Shed/index.md#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)
@@ -86,7 +86,7 @@ When included in the Galaxy distribution, tools are defined by "id" and "version
   * Move 'more rows' icon from tile level to track level 
 
 Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composite Track data using dynamic filters
-</div><a href='/src/Learn/Visualization/index.md'><img src="/src/Images/NewsGraphics/2012_03_12_trackster-encode.png" alt="trackster-encode" width="800px" /></a></div>
+</div><a href='/src/Learn/Visualization/index.md'><img src="/src/images/NewsGraphics/2012_03_12_trackster-encode.png" alt="trackster-encode" width="800px" /></a></div>
 
 <br />
 # Workflows
@@ -160,36 +160,36 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
 
 # Bug Fixes
 
-<div class='right'><a href='/src/Support/index.md'><img src="/src/Images/Icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/src/support/index.md'><img src="/src/images/Icons/bug.png" alt="bugs" width="20" /></a></div> 
 * Fix for 'Error 349 (net::ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_DISPOSITION): Multiple Content-Disposition headers received.' error occuring when downloading certain datasets using Chrome browser
 * Correction to *History Size* calculation to accurately filter out 'purged' datasets in the summary size
 * Various bug fixes for Object Store, with a particular focus on the Distributed Object Store
 
 # Announcements
 
-**[News](/src/News/index.md)**
+**[News](/src/news/index.md)**
 
 **March 2012** ***[Galaxy Update](/src/GalaxyUpdates/2012_03/index.md)***
 
 ## GCC2012 Update
 
-<div class='right'><a href='/src/Events/GCC2012/index.md'><img src="/src/Events/GCC2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/src/Events/GCC2012/TrainingDay/index.md'><img src="/src/Events/GCC2012/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
-* The [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) will be held July 25-27, in Chicago. 
+<div class='right'><a href='/src/events/GCC2012/index.md'><img src="/src/events/GCC2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/src/events/GCC2012/TrainingDay/index.md'><img src="/src/events/GCC2012/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
+* The [2012 Galaxy Community Conference (GCC2012)](/src/events/GCC2012/index.md) will be held July 25-27, in Chicago. 
 * The conference will feature two full days of presentations and discussions. 
-* [Abstract submission](/src/Events/GCC2012/Abstracts/index.md) will [close April 16](/src/Events/GCC2012/Key Dates/index.md). 
-* A [whole day of training](/src/Events/GCC2012/TrainingDay/index.md) has been added, and topics set:
-  * [Introduction to Galaxy](/src/Events/GCC2012/TrainingDay/index.md#ws2)
-  * [Installing Your Own Galaxy](/src/Events/GCC2012/TrainingDay/index.md#ws5)
-  * [Galaxy CloudMan](/src/Events/GCC2012/TrainingDay/index.md#ws3)
-  * [Integrating Tools & Data Sources](/src/Events/GCC2012/TrainingDay/index.md#ws1)
-  * [Galaxy API](/src/Events/GCC2012/TrainingDay/index.md#ws6)
-  * [Galaxy Tool Shed](/src/Events/GCC2012/TrainingDay/index.md#ws7)
-  * [Ion Torrent - Open Source Sequencing](/src/Events/GCC2012/TrainingDay/index.md#ws10)
-* Early [registration](/src/Events/GCC2012/Register/index.md) will open **any day now** and close June 11. 
+* [Abstract submission](/src/events/GCC2012/Abstracts/index.md) will [close April 16](/src/events/GCC2012/Key Dates/index.md). 
+* A [whole day of training](/src/events/GCC2012/TrainingDay/index.md) has been added, and topics set:
+  * [Introduction to Galaxy](/src/events/GCC2012/TrainingDay/index.md#ws2)
+  * [Installing Your Own Galaxy](/src/events/GCC2012/TrainingDay/index.md#ws5)
+  * [Galaxy CloudMan](/src/events/GCC2012/TrainingDay/index.md#ws3)
+  * [Integrating Tools & Data Sources](/src/events/GCC2012/TrainingDay/index.md#ws1)
+  * [Galaxy API](/src/events/GCC2012/TrainingDay/index.md#ws6)
+  * [Galaxy Tool Shed](/src/events/GCC2012/TrainingDay/index.md#ws7)
+  * [Ion Torrent - Open Source Sequencing](/src/events/GCC2012/TrainingDay/index.md#ws10)
+* Early [registration](/src/events/GCC2012/Register/index.md) will open **any day now** and close June 11. 
 
 ## Galaxy is Hiring!
 
-<div class='left'><img src="/src/Images/Icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
+<div class='left'><img src="/src/images/Icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
 **The [Galaxy Team](/src/GalaxyTeam/index.md) Wants You!**
 <br />
 Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/src/GalaxyIsHiring/index.md)

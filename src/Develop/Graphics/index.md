@@ -2,7 +2,7 @@
 
 ## Images
 
-For logos and other (mostly wiki-related) images please see [Images](/src/Images/index.md) page. 
+For logos and other (mostly wiki-related) images please see [Images](/src/images/index.md) page. 
 
 ## Icons
 
