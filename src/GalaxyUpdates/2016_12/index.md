@@ -9,35 +9,35 @@ Welcome to the December 2016 *[Galactic News](/src/GalaxyUpdates/index.md)*, a s
 
 If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
-# Community Commons (the *Commons*)
+# Galaxy Community Hub (the *Hub*)
 
-You may have noticed that **the Galaxy community site / wiki is moving.**  We are midway through a transformation of our old MoinMoin based wiki into a GitHub based site refered to as the *Community Commons*, or just the *Commons*.
+You may have noticed that **the Galaxy community site / wiki is moving.**  We are midway through a transformation of our old MoinMoin based wiki into a GitHub based site refered to as the *Community Hub*, or just the *Hub*. (Note: This name [may be temporary](https://github.com/galaxyproject/galaxy-site/issues/31).)
 
 **And we need your help to finish the move.**
 
-The *Commons* uses GitHub Flavored Markdown for markup,  and [Metalsmith](http://metalsmith.io) for web site rendering and for semi-structured content (such as the [Events](src/events) page). The new platform offers the strength of our old wiki (easy contribution) with a markup language many more people know, easy programmatic access, and all the strengths of GitHub.
+The *Hub* uses GitHub Flavored Markdown for markup,  and [Metalsmith](http://metalsmith.io) for web site rendering and for semi-structured content (such as the [Events](src/events) page). The new platform offers the strength of our old wiki (easy contribution) with a markup language many more people know, easy programmatic access, and all the strengths of GitHub.
 
-Once the Commons is in better shape it will become the [galaxyproject.org](https://galaxyproject.org) site.  Until then you can find it at [new.galaxyproject.org](https://new.galaxyproject.org).  Once the move is complete the [old wiki](https://wiki.galaxyproject.org) will be shut down.
+Once the Hub is in better shape it will become the [galaxyproject.org](https://galaxyproject.org) site.  Until then you can find it at [new.galaxyproject.org](https://new.galaxyproject.org).  Once the move is complete and the [old wiki](https://wiki.galaxyproject.org) will be shut down.
 
 Content was automatically converted from MoinMoin and Creole markup to Markdown, and many other things were also cleaned up in the process. However, the automatic translation stumbled in some places and the cleanup and general restructuring are far from done.  We also aren't yet taking advantage of Metalsmith to render semi-structured content and page metadata.
 
-## The Community Commons Contribution Convergence (C⁴): Thurdsday December 8
+## The Community Hub Contribution Convergence (CHCC): Thursday December 8
 
-To address these issues we are holding the [Community Commons Contribution Convergence (C⁴)](whereShouldThisPointTo) online this week on Thursday December 8.  The goals of C⁴ are to
+To address these issues we are holding the [Community Hub Contribution Convergence (CHCC)](whereShouldThisPointTo) online this week on Thursday December 8.  The goals of CHCC are to
 
-* Get participants up to speed on how to update the new site;
-* Create / improve documentation on how to update the new site;
-* Fix translation errors and things that were accidentally dropped;
-* Generally reorganize and update documentation;
-* Drop obsolete material;
+* Get participants up to speed on how to update the new site.
+* Create / improve documentation on how to update the new site.
+* Fix translation errors and things that were accidentally dropped
+* Generally reorganize and update documentation.
+* Drop obsolete material
 * Work out plans and best practices for supporting semi-structured content and page metadata.
 
-C⁴ will use [GitHub](WhereShouldThisPoinTo) to coordinate work, and a Gitter channel for communication during the event.  Interested?  Please join us.
+CHCC will use [GitHub](WhereShouldThisPoinTo) to coordinate work, and a Gitter channel for communication during the event.  Interested?  Please join us. 
 
 
 # Events
 
-In addition to C<sup>4</sup> there are a wealth of events coming up.  Here are some highlights:
+In addition to CHCC there are a wealth of events coming up.  Here are some highlights:
 
 ## Galaxy Australasia Meeting (GAMe 2017)
 
@@ -100,7 +100,7 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   </tr>
    <tr>
      <th class="th" > December 8 </th>
-     <td> <em>The Community Commons Contribution Convergence (C<sup>4</sup>)</em> </td>
+     <td> <em>The Community Hub Contribution Convergence (CHCC)</em> </td>
      <td> <img src="/src/images/Icons/World40.png" alt="Around the world" align="right" /> <em>Online</em> </td>
      <td> <a href="/src/DannonBaker">Dannon Baker</a>, <a href="/src/DaveClements">Dave Clements</a> </td>
      </tr>
