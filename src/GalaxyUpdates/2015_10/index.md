@@ -207,37 +207,37 @@ There are [upcoming events](/src/Events/index.md) in 4 countries on 4 continents
   <tr>
     <th> October 1 </th>
     <td> <em>Proteogenomics and Metaproteomics using the GalaxyP Platform</em> </td>
-    <td> <div class='right'>![Asia](/src/Images/Icons/Asia40.png)</div> <a href='http://www.igib.res.in/'>CSIR-Institute of Genomics & Integrative Biology (IGIB)</a>, New Dehli, India </td>
+    <td> <img src='/src/images/Icons/Asia40.png' alt='Asia' align='right' /> <a href='http://www.igib.res.in/'>CSIR-Institute of Genomics & Integrative Biology (IGIB)</a>, New Dehli, India </td>
     <td> <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a> </td>
   </tr>
   <tr>
     <th> October 9 </th>
     <td> <em><a href='http://www.ashg.org/2015meeting/pages/ticketed_events.shtml#collapsesub19'>Introduction to Integrative Analysis with GenomeSpace Workshop</a></em> </td>
-    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div>  <a href='http://www.ashg.org/2015meeting/'>ASHG 2015</a>, Baltimore, Maryland, United States </td>
+    <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' />  <a href='http://www.ashg.org/2015meeting/'>ASHG 2015</a>, Baltimore, Maryland, United States </td>
     <td> <a href="mailto:gs-help@genomespace.org">GenomeSpace</a> </td>
   </tr>
   <tr>
     <th> October<br />12-14 </th>
     <td> <em><a href='https://cnrsformation.cnrs.fr/stage.php?stage=15274&axe=77'>Analyse avancée de séquences</a></em> </td>
-    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> <a href='http://www.cbib.u-bordeaux2.fr/'>Bordeaux Bioinformatics Center</a>, University Bordeaux Segalen, France </td>
+    <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> <a href='http://www.cbib.u-bordeaux2.fr/'>Bordeaux Bioinformatics Center</a>, University Bordeaux Segalen, France </td>
     <td> <a href="mailto:cfe.contact@cnrs.fr">Email</a> </td>
   </tr>
   <tr>
     <th> October 15 </th>
     <td> <em><a href='/src/Community/GalaxyAdmins/Meetups/2015_10_15/index.md'>October Galaxy Admins Meetup</a></em> </td>
-    <td> <div class='right'>![Around the World](/src/Images/Icons/World40.png)</div> <em>Online</em> </td>
+    <td> <img src='/src/images/Icons/World40.png' alt='Around the World' align='right' /> <em>Online</em> </td>
     <td> <a href='https://www.linkedin.com/in/davidkovalic'>David Kovalic</a>, <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 28-29 </th>
     <td> <em><a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-4/'>Workshop: Extended RNA-Seq analysis</a></em> </td>
-    <td> <div class='right'>![Australia](/src/Images/Icons/Australia40.png)</div> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
+    <td> <img src='/src/images/Icons/Australia40.png' alt='Australia' align='right' /> <a href='http://www.qfab.org/'>QFAB</a>, University of Queensland, St Lucia, Australia </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='http://www.qfab.org/mark-crowe/'>Mark Crowe</a> </td>
   </tr>
   <tr>
     <th> October 28 - November 3 </th>
     <td> <em><a href='http://meetings.cshl.edu/courses.aspx?course=c-ecg&year=15'>Computational & Comparative Genomics Course</a></em> </td>
-    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> Cold Spring Harbor Laboratory, New York, United States </td>
+    <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> Cold Spring Harbor Laboratory, New York, United States </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
@@ -247,7 +247,7 @@ There are [upcoming events](/src/Events/index.md) in 4 countries on 4 continents
   <tr>
     <th rowspan=2> November 3 </th>
     <td> <em><a href='http://www.festivalofgenomicscalifornia.com/workshops/galaxy-for-the-analysis-of-very-large-biomedical-data/'>Galaxy for the Analysis of Very Large Biomedical Data Workshop</a></em> </td>
-    <td rowspan=2> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> <a href='http://www.festivalofgenomicscalifornia.com/'>Festival of Genomics California</a>, San Mateo, California, United States </td>
+    <td rowspan=2> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://www.festivalofgenomicscalifornia.com/'>Festival of Genomics California</a>, San Mateo, California, United States </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
@@ -257,19 +257,19 @@ There are [upcoming events](/src/Events/index.md) in 4 countries on 4 continents
   <tr>
     <th> November 15-16 </th>
     <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'>Analyse de données RNA-seq sous l’environnement Galaxy</a></em> </td>
-    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
+    <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy--prabi-project'><img src="/src/Images/GalaxyLogos/GTN16.png" alt="Training offered by GTN Member" /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
   </tr>
   <tr>
     <th> November 17-18 </th>
     <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'>Analyse de données RNA-seq sous l’environnement Galaxy</a></em> </td>
-    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
+    <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy--prabi-project'><img src="/src/Images/GalaxyLogos/GTN16.png" alt="Training offered by GTN Member" /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
   </tr>
   <tr>
     <th> November 19 </th>
     <td> <a href='http://bit.ly/1NuRJ07'>Galaxy Day 2015</a> <div class='indent red'>Soumissions à envoyer avant le 5 octobre</div> </td>
-    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> <a href='http://www.pasteur.fr/'>Institut Pasteur</a>, Paris, France </td>
+    <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> <a href='http://www.pasteur.fr/'>Institut Pasteur</a>, Paris, France </td>
     <td> <a href="mailto:gtgalaxy@groupes.france-bioinformatique.fr">Email</a> </td>
   </tr>
   <tr>
@@ -279,7 +279,7 @@ There are [upcoming events](/src/Events/index.md) in 4 countries on 4 continents
   <tr>
     <th> December<br />7-11 </th>
     <td> <em><a href='http://bis15.amsi.org.au/galaxy/'>Galaxy and the Genomics Virtual Lab</a></em> </td>
-    <td> <div class='right'>![Australia](/src/Images/Icons/Australia40.png)</div> <a href='http://bis15.amsi.org.au/'>BioInfoSummer 2015</a>, University of Sydney, NSW, Australia </td>
+    <td> <img src='/src/images/Icons/Australia40.png' alt='Australia' align='right' /> <a href='http://bis15.amsi.org.au/'>BioInfoSummer 2015</a>, University of Sydney, NSW, Australia </td>
     <td> </td>
   </tr>
 </table>
