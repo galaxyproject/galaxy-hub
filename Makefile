@@ -31,3 +31,6 @@ docker-bower:
 
 docker-build: docker-npm-deps docker-bower  ## Single endpoint for docker install
 	docker run -v `pwd`:/usr/src/app -w /usr/src/app node node node_modules/coffee-script/bin/coffee build.coffee
+
+gitlfs-pull:
+	docker run -v `pwd`:/usr/src/app -w /usr/src/app dannon/gitlfs git lfs checkout .
