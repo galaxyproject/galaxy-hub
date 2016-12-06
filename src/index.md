@@ -14,4 +14,4 @@ transparent computational biomedical research.
   Pages, interactive, web-based documents that describe a complete analysis.
 
 
-This is the Galaxy Community Wiki. It describes all things Galaxy.
+This is the Galaxy Community Hub, where you'll find community curated documentation of all things Galaxy.
