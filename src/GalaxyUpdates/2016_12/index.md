@@ -115,15 +115,21 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   </tr>
   <tr>
     <th> January 14-18 </th>
-    <td> <em>Galaxy Workshop</em> </td>
-    <td> <div class='right'><img src="/src/images/Icons/NorthAmerica40.png" alt="NorthAmerica" /></div> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXV</a>, San Diego, California, United States </td>
-    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
+    <td> <em><a href="/src/events/PAG2017/index.md">Galaxy @ Plant &amp; Animal Genome XXV (PAG 2017)</a></em> </td>
+    <td> <div class='right'><img src="/src/images/Icons/NorthAmerica40.png" alt="NorthAmerica" /></div> San Diego, California, United States </td>
+    <td> <a href="/src/events/PAG2017/index.md">Presenters</a> </td>
   </tr>
   <tr>
     <th> January 16-19 </th>
     <td> <strong><a href='/src/events/egdw2017/index.md'>European Galaxy Developer Workshop</a></strong> </td>
     <td> <div class='right'><img src="/src/images/Icons/Europe40.png" alt="Europe" /></div> Strasbourg, France </td>
     <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:egdw2017.oc@groupes.france-bioinformatique.fr">Organisers</a> </td>
+  </tr>
+  <tr>
+    <th> January 30 </th>
+    <td> <em><a href='http://www.bioplatforms.com/rna-seq-using-galaxy-jan-2017/'>RNA-Seq Analysis Using Galaxy</a></em> </td>
+    <td> <div class='right'><img src="/src/images/Icons/Australia40.png" alt="Australia" /></div> Australian National University, Canberra, ACT, Australia </td>
+    <td>  <a href="mailto:kchamp@bioplatforms.com">Katherine Chamnp</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
@@ -133,6 +139,12 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
     <td> <strong><a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a></strong> </td>
     <td> <div class='right'><img src="/src/images/Icons/Australia40.png" alt="Australia" /></div> University of Melbourne, Victoria, Australia </td>
     <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
+  </tr>
+  <tr>
+    <th> February 13-17 </th>
+    <td> <strong><a href='http://www.denbi.de/22-training-cat/training-courses/213-3rd-galaxy-high-throughput-sequencing-hts-data-analysis-workshop'>Galaxy Workshop on HTS data analysis for Scientists</a></strong> </td>
+    <td> <div class='right'><img src="/src/images/Icons/Europe40.png" alt="Europe" /></div> Freiburg, Germany </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='mailto:erxleben@informatik.uni-freiburg.de'>Organisers</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
