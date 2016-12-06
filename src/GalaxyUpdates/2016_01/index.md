@@ -161,25 +161,25 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   <tr>
     <th> January 8 </th>
     <td> <em><a href='/src/Events/ASU2016/index.md'>Introduction to Galaxy Workshop</a></em> </td>
-    <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://asu.edu/'>Arizona State University</a>, Tempe, Arizona, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://sols.asu.edu/people/nico-franz'>Nico Franz</a>, <a href='https://sols.asu.edu/people/melissa-wilson-sayres'>Melissa A. Wilson Sayres</a>, <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> <a href='http://asu.edu/'>Arizona State University</a>, Tempe, Arizona, United States </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://sols.asu.edu/people/nico-franz'>Nico Franz</a>, <a href='https://sols.asu.edu/people/melissa-wilson-sayres'>Melissa A. Wilson Sayres</a>, <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> January 8, 15 </th>
     <td> <em><a href='http://www.vib.be/en/training/research-training/courses/Pages/Introduction-to-NGS-data-analysis.aspx'>Introduction to NGS data analysis</a></em> </td>
-    <td> <img src='/src/images/Icons/Australia40.png' alt='Austalia' align='right' /> <a href='http://www.vib.be/'>VIB</a>, Leuven, Belgium </td>
+    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> <a href='http://www.vib.be/'>VIB</a>, Leuven, Belgium </td>
     <td> <a href='http://www.vib.be/whoiswho/Pages/Janick-Mathys.aspx?lang=en'>Janick Mathys</a> </td>
   </tr>
   <tr>
     <th> January 9-13 </th>
     <td> <strong><a href='/src/Events/PAG2016/index.md'>Plant and Animal Genome (PAG XXIV)</a></strong> </td>
-    <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> San Diego, California, United States </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> San Diego, California, United States </td>
     <td> See <a href='/src/Events/PAG2016/index.md'>presenters</a> </td>
   </tr>
   <tr>
     <th> January 19 </th>
     <td> <em><a href='http://www.festivalofgenomicslondon.com/an-introduction-to-clinical-bioinformatics/'>An introduction to clinical bioinformatics</a></em> </td>
-    <td> <img src='/src/images/Icons/Australia40.png' alt='Austalia' align='right' /> <a href='http://www.festivalofgenomicslondon.com/'>Festival of Genomics London</a>, London, United Kingdom </td>
+    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> <a href='http://www.festivalofgenomicslondon.com/'>Festival of Genomics London</a>, London, United Kingdom </td>
     <td> <a href='http://www.festivalofgenomicslondon.com/speaker/ang-davies/'>Ang Davies</a> </td>
   </tr>
   <tr>
@@ -195,20 +195,20 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   <tr>
     <th> February 11 </th>
     <td> <em><a href='http://bioteam.net/bioteam-appliance/galaxy-edition/'>BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)</a></em> </td>
-    <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://www.agbt.org/meetings/agbt-general-meeting/'>AGBT</a>, Orlando, Florida, United States </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> <a href='http://www.agbt.org/meetings/agbt-general-meeting/'>AGBT</a>, Orlando, Florida, United States </td>
     <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a></td>
   </tr>
   <tr>
     <th> February 15-19 </th>
     <td> <em><a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a></em> </td>
-    <td> <img src='/src/images/Icons/Australia40.png' alt='Austalia' align='right' /> <a href='https://www.supagro.fr/web/index.php'>Montpellier SupAgro</a>, Montpellier, France </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.supagro.fr/web/pages/contact.php?id=139'>Yolande Olivier</a>, <a href='https://www.supagro.fr/web/pages/contact.php?id=102'>Dominique Alhinc</a> </td>
+    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> <a href='https://www.supagro.fr/web/index.php'>Montpellier SupAgro</a>, Montpellier, France </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://www.supagro.fr/web/pages/contact.php?id=139'>Yolande Olivier</a>, <a href='https://www.supagro.fr/web/pages/contact.php?id=102'>Dominique Alhinc</a> </td>
   </tr>
   <tr>
     <th> February 20-23 </th>
     <td> <em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a></em> </td>
-    <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' />  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div>  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -217,7 +217,7 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   <tr>
     <th> March 7-8 </th>
     <td> <strong><a href='https://github.com/galaxyproject/tools-iuc/issues/422'>IUC Contribution Fest - RADSeq Tools and Workflows</a></strong> </td>
-    <td> <img src='/src/images/Icons/World40.png' alt='Around the World' align='right' /> <em>Online</em> </td>
+    <td> <div class='right'>![Around the World](/src/Images/Icons/World40.png)</div> <em>Online</em> </td>
     <td> <a href='IUC'>/src/IUC/index.md</a> </td>
   </tr>
   <tr>
@@ -227,8 +227,8 @@ There are [many upcoming events](/src/Events/index.md) in the next few months.  
   <tr>
     <th> June 25-29 </th>
     <td> <strong><em><a href='/src/Events/GCC2016/index.md'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
-    <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href='/src/Events/GCC2016/Organizers/index.md'>Organizers</a> </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href='/src/Events/GCC2016/Organizers/index.md'>Organizers</a> </td>
   </tr>
 </table>
 

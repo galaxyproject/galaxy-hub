@@ -207,8 +207,8 @@ There are [upcoming events](/src/Events/index.md) on 3 continents in 4 countries
   <tr>
     <th rowspan=3> November 3 </th>
     <td> <em><a href='http://www.festivalofgenomicscalifornia.com/workshops/galaxy-for-the-analysis-of-very-large-biomedical-data/'>Galaxy for the Analysis of Very Large Biomedical Data Workshop</a></em> </td>
-    <td rowspan=3> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://www.festivalofgenomicscalifornia.com/'>Festival of Genomics California</a>, San Mateo, California, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/Dan/index.md'>Dan Blankenberg</a>, <a href='/src/JohnChilton/index.md'>John Chilton</a> </td>
+    <td rowspan=3> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> <a href='http://www.festivalofgenomicscalifornia.com/'>Festival of Genomics California</a>, San Mateo, California, United States </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/Dan/index.md'>Dan Blankenberg</a>, <a href='/src/JohnChilton/index.md'>John Chilton</a> </td>
   </tr>
   <tr>
     <td> <em>Common Workflow Language on Galaxy</em><div class='indent'>Part of <em><a href='http://bit.ly/1POcrKL'>Portable Bioinformatics Workshop</a></em> </td>
@@ -221,25 +221,25 @@ There are [upcoming events](/src/Events/index.md) on 3 continents in 4 countries
   <tr>
     <th> November 12 </th>
     <td> <em><a href='http://bioteam.net/bioteam-appliance/galaxy-edition/galaxy-training/'>BioTeam & UC Davis Webinar: Introduction to Genomics Data Analysis with Galaxy</a></em> </td>
-    <td> <img src='/src/images/Icons/World40.png' alt='Around the World' align='right' /> <a href='http://bioteam.net/bioteam-appliance/galaxy-edition/galaxy-training/'>Webinar</a> - Open to all </td>
+    <td> <div class='right'>![Around the World](/src/Images/Icons/World40.png)</div> <a href='http://bioteam.net/bioteam-appliance/galaxy-edition/galaxy-training/'>Webinar</a> - Open to all </td>
     <td> <a href="mailto:tom@bioteam.net">Email</a></td>
   </tr>
   <tr>
     <th> November 15-16 </th>
     <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'>Analyse de données RNA-seq sous l’environnement Galaxy</a></em> </td>
-    <td> <img src='/src/images/Icons/Australia40.png' alt='Austalia' align='right' /> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
+    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy--prabi-project'><img src="/src/Images/GalaxyLogos/GTN16.png" alt="Training offered by GTN Member" /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
   </tr>
   <tr>
     <th> November 17-18 </th>
     <td> <em><a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'>Analyse de données RNA-seq sous l’environnement Galaxy</a></em> </td>
-    <td> <img src='/src/images/Icons/Australia40.png' alt='Austalia' align='right' /> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
+    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> <a href='http://www.prabi.fr'>PRABI</a>, Lyon, France </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md#galaxy--prabi-project'><img src="/src/Images/GalaxyLogos/GTN16.png" alt="Training offered by GTN Member" /></a> </div> <a href="mailto:contact@fc3bio.fr">Email</a> </td>
   </tr>
   <tr>
     <th> November 18 </th>
     <td> <a href='http://france.list.galaxyproject.org/Re-bioinfo-Hackathon-Galaxy-2015-ouverture-des-inscriptions-td152.html'>Hackathon Galaxy 2015</a> <div class='indent'><a href='http://www.france-bioinformatique.fr/?q=fr/galaxy-2/Hackathon_18nov'>Register here</a></div> </td>
-    <td rowspan=2> <img src='/src/images/Icons/Australia40.png' alt='Austalia' align='right' /> <a href='http://www.pasteur.fr/'>Institut Pasteur</a>, Paris, France </td>
+    <td rowspan=2> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> <a href='http://www.pasteur.fr/'>Institut Pasteur</a>, Paris, France </td>
     <td rowspan=2> <a href="mailto:gtgalaxy@groupes.france-bioinformatique.fr">Email</a> </td>
   </tr>
   <tr>
@@ -249,7 +249,7 @@ There are [upcoming events](/src/Events/index.md) on 3 continents in 4 countries
   <tr>
     <th> November 30 - December 1 </th>
     <td> <a href='https://github.com/galaxyproject/tools-iuc/issues/299'>IUC Contribution Fest - Metagenomics Tools and Workflows</a> </td>
-    <td> <img src='/src/images/Icons/World40.png' alt='Around the World' align='right' /> <em>Online</em> </td>
+    <td> <div class='right'>![Around the World](/src/Images/Icons/World40.png)</div> <em>Online</em> </td>
     <td> <a href='IUC'>/src/IUC/index.md</a>, <a href='/src/JohnChilton/index.md'>John Chilton</a> </td>
   </tr>
   <tr>
@@ -259,8 +259,8 @@ There are [upcoming events](/src/Events/index.md) on 3 continents in 4 countries
   <tr>
     <th> December 3 </th>
     <td> <em><a href='http://www.bioplatforms.com/rna-seq-using-galaxy-dec15/'>RNA-Seq Analysis Using Galaxy</a></em> </td>
-    <td rowspan=2> <img src='/src/images/Icons/Australia40.png' alt='Austalia' align='right' /> University of Newcastle, Newcastle, NSW, Australia </td>
-    <td rowspan=2> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> Mark Crowe, <a href="mailto:kchamp@bioplatforms.com">Katherine Champ</a> </td>
+    <td rowspan=2> <div class='right'>![Australia](/src/Images/Icons/Australia40.png)</div> University of Newcastle, Newcastle, NSW, Australia </td>
+    <td rowspan=2> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> Mark Crowe, <a href="mailto:kchamp@bioplatforms.com">Katherine Champ</a> </td>
   </tr>
   <tr>
     <th> December 4 </th>
@@ -269,7 +269,7 @@ There are [upcoming events](/src/Events/index.md) on 3 continents in 4 countries
   <tr>
     <th> December<br />7-11 </th>
     <td> <em><a href='http://bis15.amsi.org.au/galaxy/'>Galaxy and the Genomics Virtual Lab</a></em> </td>
-    <td> <img src='/src/images/Icons/Australia40.png' alt='Austalia' align='right' /> <a href='http://bis15.amsi.org.au/'>BioInfoSummer 2015</a>, University of Sydney, NSW, Australia </td>
+    <td> <div class='right'>![Australia](/src/Images/Icons/Australia40.png)</div> <a href='http://bis15.amsi.org.au/'>BioInfoSummer 2015</a>, University of Sydney, NSW, Australia </td>
     <td> </td>
   </tr>
   <tr>
@@ -279,13 +279,13 @@ There are [upcoming events](/src/Events/index.md) on 3 continents in 4 countries
   <tr>
     <th> January 8 </th>
     <td> <em><a href='/src/Events/ASU2016/index.md'>Introduction to Galaxy Workshop</a></em> </td>
-    <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://asu.edu/'>Arizona State University</a>, Tempe, Arizona, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://sols.asu.edu/people/nico-franz'>Nico Franz</a>, <a href='https://sols.asu.edu/people/melissa-wilson-sayres'>Melissa A. Wilson Sayres</a>, <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> <a href='http://asu.edu/'>Arizona State University</a>, Tempe, Arizona, United States </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://sols.asu.edu/people/nico-franz'>Nico Franz</a>, <a href='https://sols.asu.edu/people/melissa-wilson-sayres'>Melissa A. Wilson Sayres</a>, <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th rowspan=2> January 9-13 </th>
     <td> <em><a href='https://pag.confex.com/pag/xxiv/webprogram/Paper19738.html'>TreeGenes: Enabling visualization and analysis in forest tree genomics</a></em> </td>
-    <td rowspan=2> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://www.intlpag.org/'>Plant and Animal Genome (PAG XXIV)</a>, San Diego, California, United States </td>
+    <td rowspan=2> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> <a href='http://www.intlpag.org/'>Plant and Animal Genome (PAG XXIV)</a>, San Diego, California, United States </td>
     <td> Emily Grau </td>
   </tr>
   <tr>
@@ -295,7 +295,7 @@ There are [upcoming events](/src/Events/index.md) on 3 continents in 4 countries
   <tr>
     <th> January 19 </th>
     <td> <em><a href='http://www.festivalofgenomicslondon.com/an-introduction-to-clinical-bioinformatics/'>An introduction to clinical bioinformatics</a></em> </td>
-    <td> <img src='/src/images/Icons/Australia40.png' alt='Austalia' align='right' /> <a href='http://www.festivalofgenomicslondon.com/'>Festival of Genomics London</a>, London, United Kingdom </td>
+    <td> <div class='right'>![Europe](/src/Images/Icons/Europe40.png)</div> <a href='http://www.festivalofgenomicslondon.com/'>Festival of Genomics London</a>, London, United Kingdom </td>
     <td> <a href='http://www.festivalofgenomicslondon.com/speaker/ang-davies/'>Ang Davies</a> </td>
   </tr>
   <tr>
@@ -305,8 +305,8 @@ There are [upcoming events](/src/Events/index.md) on 3 continents in 4 countries
   <tr>
     <th> February 20-23 </th>
     <td> <em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a></em> </td>
-    <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' />  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div>  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -315,8 +315,8 @@ There are [upcoming events](/src/Events/index.md) on 3 continents in 4 countries
   <tr>
     <th> June 25-29 </th>
     <td> <strong><em><a href='/src/Events/GCC2016/index.md'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
-    <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href='/src/Events/GCC2016/Organizers/index.md'>Organizers</a> </td>
+    <td> <div class='right'>![North America](/src/Images/Icons/NorthAmerica40.png)</div> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/Images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div>  <a href='/src/Events/GCC2016/Organizers/index.md'>Organizers</a> </td>
   </tr>
 </table>
 
