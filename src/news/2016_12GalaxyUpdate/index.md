@@ -14,12 +14,12 @@ The **[December Galaxy News](/src/GalaxyUpdates/2016_12/index.md)** is hot off t
 
 * The **[Galaxy Community Hub (the Hub)](/src/GalaxyUpdates/2016_12/index.md#galaxy-community-hub-the-hub)** will be the new home Galaxy Community documentation, replacing the current wiki.
    * And we [are asking for help to get it ready for it's official launch](/src/GalaxyUpdates/2016_12/index.md#the-community-hub-contribution-convergence-chcc-thursday-december-8)
-* **[Galaxy Australasia Meeting (GAMe 2017)](/src/GalaxyUpdates/2016_10/index.md#galaxy-australasia-meeting-game-2017-registration--abstract-submission-are-open)**: February 3-9, Melbourne, Victoria, Australia. 
+* **[Galaxy Australasia Meeting (GAMe 2017)](/src/GalaxyUpdates/2016_10/index.md#galaxy-australasia-meeting-game-2017-)**: February 3-9, Melbourne, Victoria, Australia. 
   * *Talk abstract submission extended to 14 December.*
   * *Early registration ends 31 December.* 
 * And of course, [other upcoming events](/src/GalaxyUpdates/2016_12/index.md#all-upcoming-events) too
 
-There are also [60 new publications](/master/src/GalaxyUpdates/2016_12/index.md#new-publications) (including six featured pubs), [four open positions](/src/GalaxyUpdates/2016_12/index.md#whos-hiring), [two new public Galaxy servers](/src/GalaxyUpdates/2016_12/index.md#public-galaxy-server-news), [new releases of Planemo & Pulsar](/src/GalaxyUpdates/2016_12/index.md#releases), and [other news](/src/GalaxyUpdates/2016_10/index.md#other-news) too.
+There are also [60 new publications](/src/GalaxyUpdates/2016_12/index.md#new-publications) (including six featured pubs), [four open positions](/src/GalaxyUpdates/2016_12/index.md#whos-hiring), [two new public Galaxy servers](/src/GalaxyUpdates/2016_12/index.md#public-galaxy-server-news), [new releases of Planemo & Pulsar](/src/GalaxyUpdates/2016_12/index.md#releases), and [other news](/src/GalaxyUpdates/2016_10/index.md#other-news) too.
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
