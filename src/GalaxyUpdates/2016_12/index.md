@@ -21,9 +21,9 @@ Once the Commons is in better shape it will become the [galaxyproject.org](https
 
 Content was automatically converted from MoinMoin and Creole markup to Markdown, and many other things were also cleaned up in the process. However, the automatic translation stumbled in some places and the cleanup and general restructuring are far from done.  We also aren't yet taking advantage of Metalsmith to render semi-structured content and page metadata.
 
-## The Community Commons Contribution Convergence (C<sup>4</sup>): Thurdsday December 8
+## The Community Commons Contribution Convergence (C⁴): Thurdsday December 8
 
-To address these issues we are holding the [Community Commons Contribution Convergence (C<sup>4</sup>)](whereShouldThisPointTo) online this week on Thursday December 8.  The goals of C<sup>4</sup> are to
+To address these issues we are holding the [Community Commons Contribution Convergence (C⁴)](whereShouldThisPointTo) online this week on Thursday December 8.  The goals of C⁴ are to
 
 * Get participants up to speed on how to update the new site.
 * Create / improve documentation on how to update the new site.
@@ -32,7 +32,7 @@ To address these issues we are holding the [Community Commons Contribution Conve
 * Drop obsolete material
 * Work out plans and best practices for supporting semi-structured content and page metadata.
 
-C<sup>4</sup> will use [GitHub](WhereShouldThisPoinTo) to coordinate work, and a Gitter channel for communication during the event.  Interested?  Please join us. 
+C⁴ will use [GitHub](WhereShouldThisPoinTo) to coordinate work, and a Gitter channel for communication during the event.  Interested?  Please join us. 
 
 
 # Events
