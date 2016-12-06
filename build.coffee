@@ -73,12 +73,15 @@ ms = metalsmith(__dirname)
     .use require('metalsmith-collections')
         news:
             pattern: "news/*/*.md"
+            sortBy: "date"
             reverse: true
         events:
             pattern: "events/*/*.md"
+            sortBy: "date"
             reverse: true
         publications:
             pattern: "publications/*/*.md"
+            sortBy: "date"
             reverse: true
     .use link_to_orig_path
     .use require('metalsmith-markdown')
