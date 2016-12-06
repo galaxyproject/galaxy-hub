@@ -3,7 +3,9 @@
   date: '12-06-2016'
   tease: 'December 2016 Galactic News'
 ---
-<div class='newsItemHeader'>[December 2016 Galactic News](/src/news/2016_12GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>
+[December 2016 Galactic News](/src/news/2016_12GalaxyUpdate/index.md)
+</div>
 
 <div class='right'>
 <div class='right'><a href='/src/GalaxyUpdates/2016_12/index.md'><img src="/src/images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=120 /></a></div><br />
