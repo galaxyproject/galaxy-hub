@@ -1,8 +1,8 @@
-<div class='newsItemHeader'>[Sept 7, 2012 Distribution & News Brief](/src/News/Sep072012 Distribution News Brief/index.md)</div>
+<div class='newsItemHeader'>[Sept 7, 2012 Distribution & News Brief](/src/news/Sep072012 Distribution News Brief/index.md)</div>
 
 
 **Complete [News Brief](/src/DevNewsBriefs/2012_09_07/index.md)**
-<div class='right'><a href='/src/DevNewsBriefs/2012_09_07/index.md'><img src="/src/Images/NewsGraphics/2012_09_07_tool-shed-menu.png" alt="tool-shed-menu" width="250px" /></a></div>
+<div class='right'><a href='/src/DevNewsBriefs/2012_09_07/index.md'><img src="/src/images/NewsGraphics/2012_09_07_tool-shed-menu.png" alt="tool-shed-menu" width="250px" /></a></div>
 **Highlights:**
 * **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/)** has moved from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)*.
 * **Tool Shed** is now running **[Mercurial version 2.2.3](http://mercurial.selenic.com/)**. Many updates and refinements including UI/metadata changes - read the full report!
@@ -27,6 +27,6 @@ upgrade: $ hg pull -u -r e6444e7a1685
 
 [Galaxy Team](/src/Galaxy Team/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-09-07</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-09-07</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

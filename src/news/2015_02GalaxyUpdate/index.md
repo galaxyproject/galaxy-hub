@@ -1,10 +1,10 @@
-<div class='newsItemHeader'>[Galactic News! Feb. 2015 Edition](/src/News/2015_02GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[Galactic News! Feb. 2015 Edition](/src/news/2015_02GalaxyUpdate/index.md)</div>
 
 <div class='right'><div class='center'>
-<a href='/src/GalaxyUpdates/2015_02/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="February 2015 Newsletter" width=150 /></a><br /><br />
-<a href='/src/GalaxyUpdates/2015_02/index.md#gcc2015-6-8-july-norwich-uk'><img src="/src/Images/Logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="150" /></a><br />
-<a href='/src/GalaxyUpdates/2015_02/index.md#toolshed-contributions'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=170 /></a><br />
-<a href='/src/GalaxyUpdates/2015_02/index.md#19-february-galaxyadmins-meetup'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup February 19" width="150" /></a></div>
+<a href='/src/GalaxyUpdates/2015_02/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="February 2015 Newsletter" width=150 /></a><br /><br />
+<a href='/src/GalaxyUpdates/2015_02/index.md#gcc2015-6-8-july-norwich-uk'><img src="/src/images/Logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="150" /></a><br />
+<a href='/src/GalaxyUpdates/2015_02/index.md#toolshed-contributions'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=170 /></a><br />
+<a href='/src/GalaxyUpdates/2015_02/index.md#19-february-galaxyadmins-meetup'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup February 19" width="150" /></a></div>
 </div>
 
 [February](/src/GalaxyUpdates/2015_02/index.md) brings lots of [Galaxy related news](/src/GalaxyUpdates/2015_02/index.md), including [events news](/src/GalaxyUpdates/2015_02/index.md#events):
@@ -31,6 +31,6 @@ and *Community News* too:
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-01-30 </div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-01-30 </div>
 
 [CategoryNews](/src/CategoryNews/index.md)

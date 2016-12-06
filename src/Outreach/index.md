@@ -21,9 +21,9 @@ There are a number of resources available to help connect researchers and develo
 
 ## Logos and Images
 
-<div class='right'><a href='/src/Images/GalaxyLogos/index.md'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Logos" height="50" /></a></div>
+<div class='right'><a href='/src/images/GalaxyLogos/index.md'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy Logos" height="50" /></a></div>
 
-The [Images/GalaxyLogos page](/src/Images/GalaxyLogos/index.md) lists current Galaxy Project logos.  The [Images](/src/Images/index.md) hierarchy (of which [Images/GalaxyLogos](/src/Images/GalaxyLogos/index.md) is a part) also lists many related [logos](/src/Images/Logos/index.md), [icons](/src/Images/Icons/index.md) and [screenshots](/src/Images/Screenshots/index.md) that can be included in your presentations and posters.
+The [Images/GalaxyLogos page](/src/images/GalaxyLogos/index.md) lists current Galaxy Project logos.  The [Images](/src/images/index.md) hierarchy (of which [Images/GalaxyLogos](/src/images/GalaxyLogos/index.md) is a part) also lists many related [logos](/src/images/Logos/index.md), [icons](/src/images/Icons/index.md) and [screenshots](/src/images/Screenshots/index.md) that can be included in your presentations and posters.
 
 ## Speakers
 
@@ -31,7 +31,7 @@ The [Images/GalaxyLogos page](/src/Images/GalaxyLogos/index.md) lists current Ga
 <div class='right solid'>
 <table>
   <tr>
-    <td style=" border: none; width: 170px;"> <a href='http://aws.amazon.com/education'><img src="/src/Images/Logos/AWSLogo.png" alt="Hands-on workshops are generously sponsored by an AWS in Education training grant" /></a> </td>
+    <td style=" border: none; width: 170px;"> <a href='http://aws.amazon.com/education'><img src="/src/images/Logos/AWSLogo.png" alt="Hands-on workshops are generously sponsored by an AWS in Education training grant" /></a> </td>
   </tr>
   <tr>
     <td style=" border: none; width: 170px;"> Hands-on workshops are generously supported by an <a href='http://aws.amazon.com/education'>AWS in Education teaching grant award</a>. </td>
@@ -40,7 +40,7 @@ The [Images/GalaxyLogos page](/src/Images/GalaxyLogos/index.md) lists current Ga
 
 </div>
 
-Speakers are available to give presentations at your institution or event. These can be overview talks or cover specific details or research topics.  In terms of style, presentations can take the form of short talks, workshops with multiple speakers, or even highly interactive and hands-on tutorials.  See [Events](/src/Events/index.md) for a list of recent and upcoming activity.
+Speakers are available to give presentations at your institution or event. These can be overview talks or cover specific details or research topics.  In terms of style, presentations can take the form of short talks, workshops with multiple speakers, or even highly interactive and hands-on tutorials.  See [Events](/src/events/index.md) for a list of recent and upcoming activity.
 
 Please contact outreach@galaxyproject.org if you are interested in arranging for a speaker to present at your institution or event. 
 
@@ -49,10 +49,10 @@ Please contact outreach@galaxyproject.org if you are interested in arranging for
 If you are giving a presentation or event with significant Galaxy related content, we can help you spread the word about it in a number of ways:
 
 * Announce it to the appropriate [Mailing Lists](/src/MailingLists/index.md).
-* Post it the [Galaxy News page and RSS feed](/src/News/index.md).
-* Add it to the Galaxy [Events](/src/Events/index.md) page and Galaxy Calendar.
+* Post it the [Galaxy News page and RSS feed](/src/news/index.md).
+* Add it to the Galaxy [Events](/src/events/index.md) page and Galaxy Calendar.
 
-If you are organizing or presenting at an event with significant Galaxy content, then we're happy to create both a wiki page and a flier for the event in order to highlight that content. See [Events/ISMB-ECCB-BOSC 2011](/src/Events/ISMB-ECCB-BOSC 2011/index.md) for an example.
+If you are organizing or presenting at an event with significant Galaxy content, then we're happy to create both a wiki page and a flier for the event in order to highlight that content. See [Events/ISMB-ECCB-BOSC 2011](/src/events/ISMB-ECCB-BOSC 2011/index.md) for an example.
 
 Please contact outreach@galaxyproject.org if you would like to use this service. 
 

@@ -1,14 +1,14 @@
 ---
 title: Galaxy Automation: Using the API
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
 <br /><br />
 
 
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
 
-<div class='right'> <a href='/src/Events/GCC2014/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
+<div class='right'> <a href='/src/events/GCC2014/TrainingDay/index.md'><img src="/src/images/Logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
 
 
 [PLACEHOLDER_ATTACHMENT_URL/src/The Galaxy API ](PLACEHOLDER_ATTACHMENT_URL/src/The Galaxy API )(GCC2014 TD API).pdf|Slides]]

@@ -2,7 +2,7 @@
 title: [UC Davis Bioinformatics Core Training Galaxy](/src/Teach/Resource/UCDavisCoreAMI/index.md)
 ---
 <div class='center'>
-<a href='/src/Teach/Resource/UCDavisCoreAMI/index.md'><img src="/src/Images/Logos/UCDavisGenomeCenter.png" alt="UC Davis Bioinformatics Core Training Galaxy" width="350" /></a>
+<a href='/src/Teach/Resource/UCDavisCoreAMI/index.md'><img src="/src/images/Logos/UCDavisGenomeCenter.png" alt="UC Davis Bioinformatics Core Training Galaxy" width="350" /></a>
 </div>
 
 

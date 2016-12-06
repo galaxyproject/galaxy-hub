@@ -5,10 +5,10 @@ title: March 2015 Galaxy Release (v 15.03)
 <div class='right'></div>
 [All News Briefs](/src/DevNewsBriefs/index.md)
 <br />
-[Galaxy March Release Summary](/src/News/2015_03_GalaxyRelease/index.md)
+[Galaxy March Release Summary](/src/news/2015_03_GalaxyRelease/index.md)
 <br />
 
-<div class='left'><a href='http://getgalaxy.org'><img src="/src/Images/Logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
+<div class='left'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
 
 <br />
 <br />
@@ -73,7 +73,7 @@ Be sure to check out the new [Galaxy NGS 101](/src/Learn/GalaxyNGS101/index.md) 
 
 # Github
 
-<div class='right'><a href='https://github.com/galaxyproject/galaxy'><img src="/src/Images/Logos/GitHubLogoText.png" alt="Galaxy on GitHub" width="100" /></a></div>
+<div class='right'><a href='https://github.com/galaxyproject/galaxy'><img src="/src/images/Logos/GitHubLogoText.png" alt="Galaxy on GitHub" width="100" /></a></div>
 
 Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy), but stable/release changes are mirrored to Bitbucket. Deployers can continue to use Bitbucket as they have done in the past.
 
@@ -196,13 +196,13 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 
 # News and Community
 
-* **[GCC 2015](http://gcc2015.tsl.ac.uk/)** has opened [Abstract Submissions](/src/News/GCC2015AbstractSubmissionOpen/index.md). 
+* **[GCC 2015](http://gcc2015.tsl.ac.uk/)** has opened [Abstract Submissions](/src/news/GCC2015AbstractSubmissionOpen/index.md). 
 * Two Hackathons are now scheduled to occur *before* and *during* GCC 2015. 
   * [GCC2015 Coding Hackathon](http://gcc2015.tsl.ac.uk/organisers/hackathon)
   * New! [GCC2015 Data Wrangling Hackathon](http://gcc2015.tsl.ac.uk/organisers/data-hackathon)
-* [All Galaxy News](/src/News/index.md) and the [Hub for Release News](/src/DevNewsBriefs/index.md)
+* [All Galaxy News](/src/news/index.md) and the [Hub for Release News](/src/DevNewsBriefs/index.md)
 * [Twitter](/src/GalaxyOnTwitter/index.md) (wiki summary) or follow us directly at [https://twitter.com/galaxyproject](https://twitter.com/galaxyproject)
-* [Events](/src/Events/index.md), [Learn](/src/Learn/index.md), [Galaxy Biostar](https://biostar.usegalaxy.org/), [Support Resources](/src/Support/index.md) with FAQ help, [Mailing list](/src/MailingLists/index.md) subscription and archvies, and [Vimeo tutorials](http://vimeo.com/galaxyproject)
+* [Events](/src/events/index.md), [Learn](/src/Learn/index.md), [Galaxy Biostar](https://biostar.usegalaxy.org/), [Support Resources](/src/support/index.md) with FAQ help, [Mailing list](/src/MailingLists/index.md) subscription and archvies, and [Vimeo tutorials](http://vimeo.com/galaxyproject)
 * All know of [Public Galaxy Main](/src/Main/index.md), but have you reviewed the [Other Galaxy Public-hosted Servers](/src/PublicGalaxyServers/index.md) lately?
 * [Teach](/src/Teach/index.md) resources are an exciting, growing, and key area for expansion throughout 2015, check out what is new!
 * Follow current development real-time and create, comment, and vote on active [Trello](https://trello.com/galaxyproject) tickets. As an open source project, we very much welcome community involvement. Not sure how to get involved or how to [create an account](https://trello.com/b/ijIE4lMx/welcome-board)? We have guidance available **[here...](https://wiki.galaxyproject.org/Issues)**, that includes a form to aid with quick ticket submission.
@@ -225,5 +225,5 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 
 # About Galaxy
 
-<div class='left'><a href='http://usegalaxy.org'><img src="/src/Images/Logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
-**[About Galaxy](/src/Support/AboutGalaxy/index.md)** • [Galaxy Project](/src/GalaxyProject/index.md) • [Admin](/src/Admin/index.md) • [Issues](/src/Issues/index.md) • [Big Picture](/src/BigPicture/index.md) • [Community](/src/Community/index.md) • [Get Galaxy](/src/Admin/GetGalaxy/index.md) • [CloudMan](/src/CloudMan/index.md) • [Tool Shed](/src/ToolShed/index.md) • [Develop](/src/Develop/index.md) • [News Briefs](/src/DevNewsBriefs/index.md) • [Servers](/src/PublicGalaxyServers/index.md) • [Learn](/src/Learn/index.md) • [Support](/src/Support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/News/index.md) • [Twitter](/src/GalaxyOnTwitter/index.md) • [Events](/src/Events/index.md) • [Teach](/src/Teach/index.md) • [Cite](/src/CitingGalaxy/index.md) • [Galaxy Team](/src/GalaxyTeam/index.md)
+<div class='left'><a href='http://usegalaxy.org'><img src="/src/images/Logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
+**[About Galaxy](/src/support/AboutGalaxy/index.md)** • [Galaxy Project](/src/GalaxyProject/index.md) • [Admin](/src/Admin/index.md) • [Issues](/src/Issues/index.md) • [Big Picture](/src/BigPicture/index.md) • [Community](/src/Community/index.md) • [Get Galaxy](/src/Admin/GetGalaxy/index.md) • [CloudMan](/src/CloudMan/index.md) • [Tool Shed](/src/ToolShed/index.md) • [Develop](/src/Develop/index.md) • [News Briefs](/src/DevNewsBriefs/index.md) • [Servers](/src/PublicGalaxyServers/index.md) • [Learn](/src/Learn/index.md) • [Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/news/index.md) • [Twitter](/src/GalaxyOnTwitter/index.md) • [Events](/src/events/index.md) • [Teach](/src/Teach/index.md) • [Cite](/src/CitingGalaxy/index.md) • [Galaxy Team](/src/GalaxyTeam/index.md)

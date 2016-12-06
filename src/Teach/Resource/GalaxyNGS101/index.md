@@ -2,7 +2,7 @@
 title: [Galaxy NGS 101](/src/Learn/GalaxyNGS101/index.md)
 ---
 <div class='center'>
-<a href='https://vimeo.com/album/3456159'><img src="/src/Images/NGS101/NGS101PlaySlide.png" alt="Galaxy NGS 101 Videos" width="180" /></a>
+<a href='https://vimeo.com/album/3456159'><img src="/src/images/NGS101/NGS101PlaySlide.png" alt="Galaxy NGS 101 Videos" width="180" /></a>
 </div>
 
 

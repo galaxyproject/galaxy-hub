@@ -49,7 +49,7 @@ There are **three basic steps** to using a *Custom Reference Genome*:
 <br />
 # Custom Builds
 
-Some tools and functions require that the ['database' attribute is assigned](/src/Support/index.md#tool_doesn27t_recognize_dataset) or that a Custom Reference Genome is set up as a *Custom Build* prior to use. Examples are the tool **Extract Genomic DNA**, certain **Picard** tools, and the function **Visualization**. 
+Some tools and functions require that the ['database' attribute is assigned](/src/support/index.md#tool_doesn27t_recognize_dataset) or that a Custom Reference Genome is set up as a *Custom Build* prior to use. Examples are the tool **Extract Genomic DNA**, certain **Picard** tools, and the function **Visualization**. 
 
 Once created, a *Custom Build* is added to the list **Database/Build:** on the dataset 'Edit Attributes' and 'Upload File' tool forms and is available for 'Visualizations'. These can be assigned or used just like any other reference genome. 
 
@@ -83,7 +83,7 @@ The above sorting method is for most tools, but not all. In particular, GATK too
 <br />
 # Troubleshooting
 
-If a custom genome dataset is producing errors, clicking on the green bug icon ![](/src/Images/Icons/bug.png) will often provide a description of the problem. This does not automatically submit a bug report, and it is not always necessary to do so, but it is a good way to get more information about why a job is failing
+If a custom genome dataset is producing errors, clicking on the green bug icon ![](/src/images/Icons/bug.png) will often provide a description of the problem. This does not automatically submit a bug report, and it is not always necessary to do so, but it is a good way to get more information about why a job is failing
 
 Common problems and solutions:
 
@@ -100,7 +100,7 @@ Common problems and solutions:
     <td> Custom genome not assigned as <a href='/src/Learn/Datatypes/index.md#fasta'>FASTA</a> format </td>
     <td> Dataset not included in custom genome pull down menu on tool forms </td>
     <td> check datatype assigned to dataset </td>
-    <td> Click on the dataset's pencil icon <img src="/src/Images/Icons/pencil.png" /> to reach the "Edit Attributes" page, and in the <a href='/src/Learn/Datatypes/index.md'>datatypes</a> section, type in "fasta", and save </td>
+    <td> Click on the dataset's pencil icon <img src="/src/images/Icons/pencil.png" /> to reach the "Edit Attributes" page, and in the <a href='/src/Learn/Datatypes/index.md'>datatypes</a> section, type in "fasta", and save </td>
   </tr>
   <tr>
     <td> 2.</td>

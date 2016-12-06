@@ -1,13 +1,13 @@
 ---
 title: DataHack Roundup
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2015/Header/index.md)
 
 
 
 
 <div class='dictbox'>
- BoF:: **[DataHack roundup](/src/Events/GCC2015/BoFs/DataHackRoundup/index.md)**
+ BoF:: **[DataHack roundup](/src/events/GCC2015/BoFs/DataHackRoundup/index.md)**
  Summary:: This BoF is for the data hack team to reconvene and strategize for the coming weeks.
  Audience:: Those who attended the data or code hack and want to continue on pipeline and stable workflow development and deployment.  
  When:: **Tuesday, 7 July, 18:20**
@@ -15,9 +15,9 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
  Contact:: [Karen Reddy](mailto:kreddy4@jhmi.edu)
 </div>
 
-<div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
+<div class='left'><a href='/src/events/GCC2015/BoFs/index.md'><img src="/src/images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
-This page describes the **DataHack roundup** [Birds of a Feather](/src/Events/GCC2015/BoFs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
+This page describes the **DataHack roundup** [Birds of a Feather](/src/events/GCC2015/BoFs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 
 ## Description
 

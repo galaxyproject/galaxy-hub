@@ -43,7 +43,7 @@ PLACEHOLDER_INCLUDE(/src/Develop/ResourcesTools/index.md)
 * [Galaxy Ops](/src/Admin/Internals/GalaxyOps/index.md) - Galaxy Operations Help Information.
 
 <div class='center'>
-<a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/Images/Logos/GetGalaxySearch.png" alt="Search all Galaxy administration resources" width="120" /></a>
+<a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/images/Logos/GetGalaxySearch.png" alt="Search all Galaxy administration resources" width="120" /></a>
 
 [Search all Galaxy admin and development resources](http://galaxyproject.org/search/getgalaxy)
 </div>

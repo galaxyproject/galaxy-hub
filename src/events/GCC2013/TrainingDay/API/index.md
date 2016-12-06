@@ -5,17 +5,17 @@ autotoc: true
 
 
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/Header/index.md)
 
 
 
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/LinkBox/index.md)
 
 
 
 
-<div class='right'><a href='/src/Events/GCC2013/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
+<div class='right'><a href='/src/events/GCC2013/TrainingDay/index.md'><img src="/src/images/Logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
 
 
@@ -1453,7 +1453,7 @@ happens some amount of core changes need to take place to make this as easy and 
 * Thanks for coming!
 
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Footer/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/Footer/index.md)
 
 
 

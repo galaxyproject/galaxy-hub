@@ -3,7 +3,7 @@
 
 <table>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://iastate.edu/'><img src="/src/Images/Logos/IowaState.png" alt="Iowa State University"  /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://iastate.edu/'><img src="/src/images/Logos/IowaState.png" alt="Iowa State University"  /></a> </td>
   </tr>
 </table>
 
@@ -93,7 +93,7 @@ The draft agenda is:
 
 ## Support
 
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [ISU Bioinformatics and Computational Biology program](http://www.bcb.iastate.edu/) / NSF-IGERT.
 

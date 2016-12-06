@@ -73,7 +73,7 @@ As reported in the *[July 20th, 2012 News Brief](/src/DevNewsBriefs/2012_07_20/i
 * *New*
   * Addition of **interactive phylogenetic tree visualization**.
 
-</div><a href='/src/Learn/index.md'><img src="/src/Images/NewsGraphics/2012_09_07_interactive-phylo-tree.png" alt="interactive-phylo-tree" width=800 /></a></div>
+</div><a href='/src/Learn/index.md'><img src="/src/images/NewsGraphics/2012_09_07_interactive-phylo-tree.png" alt="interactive-phylo-tree" width=800 /></a></div>
 
 <br />
 # Galaxy Track Browser (GTB)
@@ -86,7 +86,7 @@ As reported in the *[July 20th, 2012 News Brief](/src/DevNewsBriefs/2012_07_20/i
   * Server-side code for coverage histograms
   * Add feature search to **[Trackster](/src/Learn/Visualization/index.md)** ; typing in location box will search tracks in visualization for features that start with entered text. Works with **[GFF](/src/Learn/Datatypes/index.md#gff)**, **[GTF](/src/Learn/Datatypes/index.md#gtf)**, and **[BED](/src/Learn/Datatypes/index.md#bed)** datasets. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/611](https://bitbucket.org/galaxy/galaxy-central/issue/611)
 
-<a href='/src/Learn/Visualization/index.md'><img src="/src/Images/NewsGraphics/2012_09_07_trackster-feature-search.png" alt="trackster-feature-search.png" width=800 /></a>
+<a href='/src/Learn/Visualization/index.md'><img src="/src/images/NewsGraphics/2012_09_07_trackster-feature-search.png" alt="trackster-feature-search.png" width=800 /></a>
 
 <br />
 # Source
@@ -147,23 +147,23 @@ Now the above entry still works, but the following entry is also ok (notice the 
   * The implementation for importing proprietary datatype class modules included in a tool shed repository now supports class module files whose name conflicts with a **[Python](http://www.python.org/)** standard library module name.  For example, if a proprietary datatype class module is named `xml.py`, it will now be correctly imported even though the name conflicts with the Python standard library's xml module.
   * The repository tip is now displayed in a column that is separate from the repository's installable changeset revisions in the tool shed.
 
-<a href='/src/Tool Shed/index.md'><img src="/src/Images/NewsGraphics/2012_09_07_repository-grid.png" alt="repository-grid.png" /></a>
+<a href='/src/Tool Shed/index.md'><img src="/src/images/NewsGraphics/2012_09_07_repository-grid.png" alt="repository-grid.png" /></a>
 
 * Additional information has been added to the "Tool metadata" page, which is displayed when you choose the "View tool metadata" option from a tool's pop-up menu.  This menu is available in 2 locations: when viewing the repository in a tool shed, and when viewing a repository (which includes tools) that has been installed into a local Galaxy instance.  The additional information added to the Tool metadata page includes:
   * information about tool dependencies if they have been defined in the repository
   * requirements defined in the tool config `<requirements>` tag set
   * The tool's version lineage information, an example of which is shown here for a sample tool named **Filter**
 
-<a href='/src/Tool Shed/index.md'><img src="/src/Images/NewsGraphics/2012_09_07_view-tool-metadata-page.png" alt="view-tool-metadata-page.png" /></a>
+<a href='/src/Tool Shed/index.md'><img src="/src/images/NewsGraphics/2012_09_07_view-tool-metadata-page.png" alt="view-tool-metadata-page.png" /></a>
 
 * In addition to browsing repositories that you own, you can now also browse repositories for which you have been granted "write" permission.  Here is a snapshot of the new Galaxy tool shed menu.
 
-<a href='/src/Tool Shed/index.md'><img src="/src/Images/NewsGraphics/2012_09_07_tool-shed-menu.png" alt="tool-shed-menu.png" /></a>
+<a href='/src/Tool Shed/index.md'><img src="/src/images/NewsGraphics/2012_09_07_tool-shed-menu.png" alt="tool-shed-menu.png" /></a>
 
 <br />
 # Bug Fixes
 
-<div class='right'><a href='/src/Support/index.md'><img src="/src/Images/Icons/bug.png" alt="bugs" width=20 /></a></div> 
+<div class='right'><a href='/src/support/index.md'><img src="/src/images/Icons/bug.png" alt="bugs" width=20 /></a></div> 
 * *General*
   * Fix permissions problems on `stdout/stderr/errorcode` files when running jobs as the [real system user](/src/DevNewsBriefs/2012_01_27/index.md#run_cluster_jobs_as_the_real_user).
   * Galaxy will no longer try to modify permissions of [linked library uploads](/src/Admin/Data Libraries/Uploading Library Files/index.md).
@@ -191,9 +191,9 @@ Now the above entry still works, but the following entry is also ok (notice the 
 <br />
 # Announcements
 
-[News](/src/News/index.md), *[August](/src/GalaxyUpdates/2012_09/index.md)* and *[September](/src/GalaxyUpdates/2012_09/index.md)* *2012 Galaxy Updates*
+[News](/src/news/index.md), *[August](/src/GalaxyUpdates/2012_09/index.md)* and *[September](/src/GalaxyUpdates/2012_09/index.md)* *2012 Galaxy Updates*
 
-<div class='right'><a href='/src/GalaxyUpdates/2012_09/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="September 2012 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/src/GalaxyUpdates/2012_09/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="September 2012 Galaxy Update" width=150 /></a></div>
 
 ## Highlights
 
@@ -210,9 +210,9 @@ Now the above entry still works, but the following entry is also ok (notice the 
 
 ## Swiss Galaxy Day
 
-<div class='right'><a href='/src/Events/Switzerland2012/index.md'><img src="/src/Images/Logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
+<div class='right'><a href='/src/events/Switzerland2012/index.md'><img src="/src/images/Logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
 
-The 1<sup>st</sup> [Swiss Galaxy Workshop](/src/Events/Switzerland2012/index.md) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
+The 1<sup>st</sup> [Swiss Galaxy Workshop](/src/events/Switzerland2012/index.md) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
  
 We would like to discuss the status of the Galaxy project, new developments, interface to other systems, extensions and best practice in reproducible research. 
  
@@ -221,13 +221,13 @@ The workshop is part of the SyBIT Tech Day series.
 <br />
 ## Who's Hiring
 
-<div class='right'><img src="/src/Images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width=100 /></div>
+<div class='right'><img src="/src/images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width=100 /></div>
 The Galaxy is expanding!  Please help it grow.
 * The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs @ Penn State and Emory
 * [Bioinformatics & Integrative Genomics Specialist - Manager Bioinformatics Consulting Core](http://www.nature.com/naturejobs/science/jobs/275747-Bioinformatics-Integrative-Genomics-Specialist-Manager-Bioinformatics-Consulting-Core) @ Leuven, Belgium
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it the next [Galaxy Update](/src/GalaxyUpdates/index.md) and [News Brief](/src/DevNewsBriefs/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it the next [Galaxy Update](/src/GalaxyUpdates/index.md) and [News Brief](/src/DevNewsBriefs/index.md).
 <br />
 <br />
 ----

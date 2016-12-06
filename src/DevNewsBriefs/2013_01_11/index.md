@@ -126,12 +126,12 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # Announcements
 
-[News](/src/News/index.md), ***[January 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_13)***
+[News](/src/news/index.md), ***[January 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_13)***
 
 <div class='right'>
-<a href='http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay'><img src="/src/Images/Logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="160" /></a>
+<a href='http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay'><img src="/src/images/Logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="160" /></a>
 <br />
-<a href='http://wiki.galaxyproject.org/Community/GalaxyAdmins/Meetups/2013_01_16'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="January 2013 GalaxyAdmins Meetup" width="160" /></a>
+<a href='http://wiki.galaxyproject.org/Community/GalaxyAdmins/Meetups/2013_01_16'><img src="/src/images/Logos/GalaxyAdmins.png" alt="January 2013 GalaxyAdmins Meetup" width="160" /></a>
 </div>
 
 * [GCC2013](http://wiki.galaxyproject.org/Events/GCC2013):

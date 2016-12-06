@@ -1,12 +1,12 @@
 ---
 title: [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) GCC2015 Meetup
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2015/Header/index.md)
 
 
 
 <div class='dictbox'>
- BoF:: [GalaxyAdmins](/src/Events/GCC2015/BoFs/GalaxyAdmins/index.md)
+ BoF:: [GalaxyAdmins](/src/events/GCC2015/BoFs/GalaxyAdmins/index.md)
  Summary:: The annual in-person gathering of the [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) group
  Audience:: If you manage a Galaxy instance, this BoF is for you 
  When:: Tuesday, 7 July, 18:20
@@ -14,13 +14,13 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
  Contact:: [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md), [Dave Clements](/src/DaveClements/index.md)
 </div>
 
-<div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a>
+<div class='left'><a href='/src/events/GCC2015/BoFs/index.md'><img src="/src/images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a>
 <br />
-<a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
+<a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
 
 [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/src/Community/GalaxyAdmins/Meetups/index.md) and at events like [GCC2015](http://gcc2015.tsl.ac.uk/), where a lot of us happen to be.
 
-GCC2015 will be the third in=person GalaxyAdmins meetup.  The GalaxyAdmins BoFs at [GCC2013](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md) and [GCC2014](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md) were very well attended and resulted in several actions items, many of which have now been implemented.
+GCC2015 will be the third in=person GalaxyAdmins meetup.  The GalaxyAdmins BoFs at [GCC2013](/src/events/GCC2013/BoF/GalaxyAdmins/index.md) and [GCC2014](/src/events/GCC2014/BoFs/GalaxyAdmins/index.md) were very well attended and resulted in several actions items, many of which have now been implemented.
 
 This meetup will discuss last year's action items, plans for the coming year, GalaxyAdmins leadership, and whatever else participants want to talk about.
 

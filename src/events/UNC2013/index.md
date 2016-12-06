@@ -1,7 +1,7 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.unc.edu/'><img src="/src/Images/Logos/UNCLogo.png" alt="University or North Carolina Chapel Hill" width="400px" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.unc.edu/'><img src="/src/images/Logos/UNCLogo.png" alt="University or North Carolina Chapel Hill" width="400px" /></a> </td>
   </tr>
 </table>
 
@@ -93,14 +93,14 @@ No programming or Linux command line experience is required.
 
 ## Support
 
-<div class='left'><a href='/src/Events/RTWorkshopTour2013/index.md'><img src="/src/Images/Logos/RTGalaxyWorkshopTour2013-300.png" alt="2013 Research Triangle Galaxy Workshop Tour" width="170px" /></a></div>
+<div class='left'><a href='/src/events/RTWorkshopTour2013/index.md'><img src="/src/images/Logos/RTGalaxyWorkshopTour2013-300.png" alt="2013 Research Triangle Galaxy Workshop Tour" width="170px" /></a></div>
  
-<div class='right'><a href='http://hsl.lib.unc.edu'><img src="/src/Images/Logos/UNCHSLLogo.png" alt="UNC Health Sciences Library" height="50" /></a> <a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" width="130px" /></a></div>
+<div class='right'><a href='http://hsl.lib.unc.edu'><img src="/src/images/Logos/UNCHSLLogo.png" alt="UNC Health Sciences Library" height="50" /></a> <a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" width="130px" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [UNC Health Sciences Library](http://hsl.lib.unc.edu).
 
 This course will be part of both the [UNC Health Sciences Library’s](http://hsl.lib.unc.edu) [Basic Bioinformatics Tools Workshop series](http://guides.lib.unc.edu/bioinformatics), and the 
-[2013 Research Triangle Galaxy Workshop Tour](/src/Events/RTWorkshopTour2013/index.md).
+[2013 Research Triangle Galaxy Workshop Tour](/src/events/RTWorkshopTour2013/index.md).
 
 ## Slides
 

@@ -2,7 +2,7 @@
 title: Galaxy 101
 ---
 <div class='center'>
-<a href='https://usegalaxy.org/galaxy101'><img src="/src/Images/Logos/galaxyLogoTrimmed.png" alt="Galaxy 101" width="300" /></a>
+<a href='https://usegalaxy.org/galaxy101'><img src="/src/images/Logos/galaxyLogoTrimmed.png" alt="Galaxy 101" width="300" /></a>
 </div>
 
 

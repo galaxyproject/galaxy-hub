@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://www.uio.no/'><img src="/src/Images/Logos/UiOLogo.png" alt="University of Oslo" /></a><br /><br /> <a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
+<a href='http://www.uio.no/'><img src="/src/images/Logos/UiOLogo.png" alt="University of Oslo" /></a><br /><br /> <a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
 <div class='title'>2016/04/21 [Web Meetup](https://connect.johnshopkins.edu/gxyadmins201604/)<br /><br />
 
 </div></div>
@@ -35,7 +35,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 ## Galaxy Portal
 
 <div class='right'>
-<img src="/src/Images/NewsGraphics/GalaxyPortalHistory.png" alt="A history in Galaxy Portal" width="200" />
+<img src="/src/images/NewsGraphics/GalaxyPortalHistory.png" alt="A history in Galaxy Portal" width="200" />
 </div>
 
 **Galaxy is now accessible from your [IOS](https://itunes.apple.com/us/app/galaxy-portal/id937158087?mt=8) and [Android](https://play.google.com/store/apps/details?id=no.uio.bmi.claus) devices.** The Galaxy Portal app is a quick and easy way to monitor the status of biomedical research on any Galaxy server. With this app you can set up a list of Galaxy connections and browse your analyses histories in a user-friendly format and take a peek at your data on the go.
@@ -55,7 +55,7 @@ Galaxy Portal is provided free of charge.
 
 ## Call Technology
 
-<div class='right'><img src="/src/Images/Logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
+<div class='right'><img src="/src/images/Logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
 
 The  meetup's online conference room will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 

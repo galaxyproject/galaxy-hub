@@ -6,7 +6,7 @@ title: August 2012 Galaxy Update
 
 
 
-<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the August 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -63,28 +63,28 @@ These papers were among [29 papers added to the Galaxy CiteULike group](http://w
 
 ## GCC2012 & GCC2013
 
-<a href='/src/Events/GCC2012/index.md'><img src="/src/Events/GCC2012/GCC2012LogoWide400.png" alt="2012 Galaxy Community Conference"  /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/src/Events/GCC2013/index.md'><img src="/src/Events/GCC2013/GCC2013Logo600.png" alt="2013 Galaxy Community Conference" height="175" /></a>
+<a href='/src/events/GCC2012/index.md'><img src="/src/events/GCC2012/GCC2012LogoWide400.png" alt="2012 Galaxy Community Conference"  /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/src/events/GCC2013/index.md'><img src="/src/events/GCC2013/GCC2013Logo600.png" alt="2013 Galaxy Community Conference" height="175" /></a>
 </div>
 
 <br />
-The [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) was held July 25-27, in Chicago.  Highlights included:
+The [2012 Galaxy Community Conference (GCC2012)](/src/events/GCC2012/index.md) was held July 25-27, in Chicago.  Highlights included:
 
-* the inaugural and very well attended [GCC Training Day](/src/Events/GCC2012/TrainingDay/index.md) (featuring 12 hands-on sessions on 10 different topics)
-* a [main program](/src/Events/GCC2012/Program/index.md) with 8 sessions, [27 talks](/src/Events/GCC2012/Abstracts/index.md), 
-* [10 lightning talks](/src/Events/GCC2012/LightningTalks/index.md) (and many more proposals)
-* [6 breakout sessions](/src/Events/GCC2012/Program/Breakouts/index.md),
-* Ion Torrent as the [Platinum Sponsor](/src/Events/GCC2012/index.md#sponsors), EMC Isilon as the [Gold Sponsor](/src/Events/GCC2012/index.md#sponsors), and an amazing [eight Host and Silver Sponsors](/src/Events/GCC2012/index.md#sponsors).
+* the inaugural and very well attended [GCC Training Day](/src/events/GCC2012/TrainingDay/index.md) (featuring 12 hands-on sessions on 10 different topics)
+* a [main program](/src/events/GCC2012/Program/index.md) with 8 sessions, [27 talks](/src/events/GCC2012/Abstracts/index.md), 
+* [10 lightning talks](/src/events/GCC2012/LightningTalks/index.md) (and many more proposals)
+* [6 breakout sessions](/src/events/GCC2012/Program/Breakouts/index.md),
+* Ion Torrent as the [Platinum Sponsor](/src/events/GCC2012/index.md#sponsors), EMC Isilon as the [Gold Sponsor](/src/events/GCC2012/index.md#sponsors), and an amazing [eight Host and Silver Sponsors](/src/events/GCC2012/index.md#sponsors).
 * The conference dinner and reception, sponsored by Ion Torrent, from which many of us departed hoarse and/or hard of hearing.
 
-Slides for most talks are [already on the wiki](/src/Events/GCC2012/Program/index.md), and the rest will trickle in over the next week.  Videos of talks and workshops will be posted in about two weeks.  Finally, with over 200 registrations, this was for the third year running, the largest Galaxy conference yet.
+Slides for most talks are [already on the wiki](/src/events/GCC2012/Program/index.md), and the rest will trickle in over the next week.  Videos of talks and workshops will be posted in about two weeks.  Finally, with over 200 registrations, this was for the third year running, the largest Galaxy conference yet.
 
-[GCC2013](/src/Events/GCC2013/index.md) was also announced at the meeting.  It will be held 30 June through 2 July in Oslo, Norway.  Watch the [GCC2013 page](/src/Events/GCC2013/index.md) for information as it become available.
+[GCC2013](/src/events/GCC2013/index.md) was also announced at the meeting.  It will be held 30 June through 2 July in Oslo, Norway.  Watch the [GCC2013 page](/src/events/GCC2013/index.md) for information as it become available.
 
 
 
 ## Who's Hiring
 
-<div class='right'><img src="/src/Images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
+<div class='right'><img src="/src/images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs @ Emory and Penn State.
@@ -93,20 +93,20 @@ The Galaxy is expanding!  Please help it grow.
 * [Bioinformaticians @ FDA](http://gmod.org/wiki/News/Bioinformaticians @ FDA)
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='http://www.medicine.uiowa.edu/humangenetics/bioinformaticscourse/'><img src="/src/Images/Logos/UIowaLogo.jpg" alt="Bioinformatics Short Course: Mutation Detection Using Massively Parallel Sequencing: From Data Generation to Variant Annotation" height="75" /></a>  
-<a href='/src/gmod:2012 GMOD Summer School/index.md'><img src="/src/Images/Logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a>   
-<a href='http://genetics.cmc-uct.co.za/'><img src="/src/Images/Logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a>
-<a href='/src/Events/Switzerland2012/index.md'><img src="/src/Images/Logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="75" /></a>
+<a href='http://www.medicine.uiowa.edu/humangenetics/bioinformaticscourse/'><img src="/src/images/Logos/UIowaLogo.jpg" alt="Bioinformatics Short Course: Mutation Detection Using Massively Parallel Sequencing: From Data Generation to Variant Annotation" height="75" /></a>  
+<a href='/src/gmod:2012 GMOD Summer School/index.md'><img src="/src/images/Logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a>   
+<a href='http://genetics.cmc-uct.co.za/'><img src="/src/images/Logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a>
+<a href='/src/events/Switzerland2012/index.md'><img src="/src/images/Logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="75" /></a>
 </div>
 
 ### Deadlines
 
-<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/images/Icons/CalendarIcon.gif" /></a></div> 
 
 There are August application, poster, and paper deadlines for 
 * [Extending High-Performance Computing Beyond its Traditional User Communities](http://www.psc.edu/events/escience-2012-workshop/) (deadline August 6)
@@ -170,7 +170,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> October 3 </th>
-    <td> <em><a href='/src/Events/Switzerland2012/index.md'>(first Swiss) Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/src/events/Switzerland2012/index.md'>(first Swiss) Galaxy Workshop</a></em> </td>
     <td> <strong><a href='https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3'>SyBIT Tech Day</a></strong>, Bern, Switzerland </td>
     <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> </td>
   </tr>
@@ -185,9 +185,9 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 ### Swiss Galaxy Day
 
-<div class='right'><a href='/src/Events/Switzerland2012/index.md'><img src="/src/Images/Logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
+<div class='right'><a href='/src/events/Switzerland2012/index.md'><img src="/src/images/Logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
 
-The 1<sup>st</sup> [Swiss Galaxy Workshop](/src/Events/Switzerland2012/index.md) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
+The 1<sup>st</sup> [Swiss Galaxy Workshop](/src/events/Switzerland2012/index.md) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
  
 We would like to discuss the status of the Galaxy project, new developments, interface to other systems, extensions and best practice in reproducible research. 
  
@@ -202,9 +202,9 @@ Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2
 * `synapse_interface` interface with Sage Bionetworks Synapse platform
 * `mtls_analysis`: Analyze and compare multiple ChIP-seq experiments
 * `trinityrnaseq`: De novo assembly of rna-seq data coupled with downstream analyses
-* `Toolfactory`: Turn scripts into Galaxy Tools; presented at [GCC2012](/src/Events/GCC2012/index.md)
-* `protk`: Identify Peptides and Proteins from tandem Mass Spec data; also presented at [GCC2012](/src/Events/GCC2012/index.md)
-* `deseq_and_sam2counts`: RNA-Seq differential expression analysis on aligned reads to a transcriptome using sam2counts and DESeq; also presented at [GCC2012](/src/Events/GCC2012/index.md)
+* `Toolfactory`: Turn scripts into Galaxy Tools; presented at [GCC2012](/src/events/GCC2012/index.md)
+* `protk`: Identify Peptides and Proteins from tandem Mass Spec data; also presented at [GCC2012](/src/events/GCC2012/index.md)
+* `deseq_and_sam2counts`: RNA-Seq differential expression analysis on aligned reads to a transcriptome using sam2counts and DESeq; also presented at [GCC2012](/src/events/GCC2012/index.md)
 * `freebayes`: Bayesian genetic variant detection tool
 * `GFAP`: annotate & prioritize human genetic variants identified by NGS
 

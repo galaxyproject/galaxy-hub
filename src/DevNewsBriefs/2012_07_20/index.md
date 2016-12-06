@@ -20,9 +20,9 @@ title: July 20, 2012 Galaxy Development News Brief
 <br />
 # GCC2012
 
-<div class='center'><a href='/src/Events/GCC2012/index.md'><img src="/src/Events/GCC2012/GCC2012LogoWide400.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='/src/Events/GCC2012/TrainingDay/index.md'><img src="/src/Events/GCC2012/GCC2012TrainingDayLogo.png" alt="Training Day" height="100" /></a></div>
+<div class='center'><a href='/src/events/GCC2012/index.md'><img src="/src/events/GCC2012/GCC2012LogoWide400.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='/src/events/GCC2012/TrainingDay/index.md'><img src="/src/events/GCC2012/GCC2012TrainingDayLogo.png" alt="Training Day" height="100" /></a></div>
 
-The [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) is a few short days away. Late registration is still open.
+The [2012 Galaxy Community Conference (GCC2012)](/src/events/GCC2012/index.md) is a few short days away. Late registration is still open.
 
 <br />
 # FreeBayes Migration
@@ -40,16 +40,16 @@ The `emboss_5` repository in the Galaxy Main Tool Shed has been updated to inclu
 <br />
 # Admin Genome Indexing
 
-If `enable_beta_job_managers = True`, Galaxy will now show a *new option* in the admin interface, titled **Manage Local Data**. With this tool, a Galaxy admin will be able to select and download any genome already contained with the local `$GALAXYROOT/tool-data/shared/ucsc/builds.txt` file sourced from UCSC, NCBI, or Ensembl, optionally indexing the FASTA data with one or more of BWA, Bowtie, Bowtie 2, PerM, Picard, and SAM. After these processes finish, the indexed build will then be available for other tools in the analysis section. This does not replace setting up a build.txt file ([read more ...](/src/Admin/Data Integration/index.md)). This would replace many of the manual indexing processes for commonly used tools ([read more...](/src/Admin/NGS Local Setup/index.md)). Please this tool is still **beta**, feedback and bug reports welcome at galaxy-dev@bx.psu.edu for discussion. We will also touch on it during a breakout session at GCC (Day 2, Section 8, [Automation Strategies](/src/Events/GCC2012/Program/Breakouts/AutomationStrategies/index.md)).
+If `enable_beta_job_managers = True`, Galaxy will now show a *new option* in the admin interface, titled **Manage Local Data**. With this tool, a Galaxy admin will be able to select and download any genome already contained with the local `$GALAXYROOT/tool-data/shared/ucsc/builds.txt` file sourced from UCSC, NCBI, or Ensembl, optionally indexing the FASTA data with one or more of BWA, Bowtie, Bowtie 2, PerM, Picard, and SAM. After these processes finish, the indexed build will then be available for other tools in the analysis section. This does not replace setting up a build.txt file ([read more ...](/src/Admin/Data Integration/index.md)). This would replace many of the manual indexing processes for commonly used tools ([read more...](/src/Admin/NGS Local Setup/index.md)). Please this tool is still **beta**, feedback and bug reports welcome at galaxy-dev@bx.psu.edu for discussion. We will also touch on it during a breakout session at GCC (Day 2, Section 8, [Automation Strategies](/src/events/GCC2012/Program/Breakouts/AutomationStrategies/index.md)).
 
 Example of selecting a source, the indexes to create, and the target genome:
-![](/src/Images/NewsGraphics/2012_07_20_select.png)
+![](/src/images/NewsGraphics/2012_07_20_select.png)
 
 The status of the indexing for a single genome:
-![](/src/Images/NewsGraphics/2012_07_20_status.png)
+![](/src/images/NewsGraphics/2012_07_20_status.png)
 
 And a global status of all indexes for all genomes in progress:
-![](/src/Images/NewsGraphics/2012_07_20_main-page.png)
+![](/src/images/NewsGraphics/2012_07_20_main-page.png)
 
 <br />
 # Simplified install of 3rd-party Dependencies
@@ -101,25 +101,25 @@ Several changes made in in determining errors from tool exit codes and output.  
 <br />
 # Bug Fixes
 
-<div class='right'><a href='/src/Support/index.md'><img src="/src/Images/Icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/src/support/index.md'><img src="/src/images/Icons/bug.png" alt="bugs" width="20" /></a></div> 
 * Support Unvalidated values when exporting histories
 
 <br />
 # Announcements
 
-[News](/src/News/index.md), *[July 2012 Galaxy Update](/src/GalaxyUpdates/2012_07/index.md)*
+[News](/src/news/index.md), *[July 2012 Galaxy Update](/src/GalaxyUpdates/2012_07/index.md)*
 ## Collaboration
 
-The new RGalaxy package in Bioconductor. [Read more …](/src/News/RGalaxyWrapRFunctionsAsTools/index.md)
+The new RGalaxy package in Bioconductor. [Read more …](/src/news/RGalaxyWrapRFunctionsAsTools/index.md)
 <br />
 ## GalaxyCzars
 
-<div class='right'><a href='/src/Community/GalaxyCzars/index.md'><img src="/src/Images/Logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
-The [GalaxyCzars group](/src/Community/GalaxyCzars/index.md) was launched and had its [first meetup on July 9](/src/Community/GalaxyCzars/Meetups/2012_07_09/index.md).  GalaxyCzars is a group of people that manage large local Galaxy installations.  See the [meeting writeup](/src/Community/GalaxyCzars/Meetups/2012_07_09/index.md) for links to slides and a screencast. The GalaxyCzars will have a breakout at [GCC2012](/src/Events/GCC2012/index.md), and the next conference call will follow in September.
+<div class='right'><a href='/src/Community/GalaxyCzars/index.md'><img src="/src/images/Logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
+The [GalaxyCzars group](/src/Community/GalaxyCzars/index.md) was launched and had its [first meetup on July 9](/src/Community/GalaxyCzars/Meetups/2012_07_09/index.md).  GalaxyCzars is a group of people that manage large local Galaxy installations.  See the [meeting writeup](/src/Community/GalaxyCzars/Meetups/2012_07_09/index.md) for links to slides and a screencast. The GalaxyCzars will have a breakout at [GCC2012](/src/events/GCC2012/index.md), and the next conference call will follow in September.
 <br />
 ## Galaxy is Hiring!
 
-<div class='left'><img src="/src/Images/Icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
+<div class='left'><img src="/src/images/Icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
 **The [Galaxy Team](/src/GalaxyTeam/index.md) Wants You!**
 <br />
 Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/src/GalaxyIsHiring/index.md)

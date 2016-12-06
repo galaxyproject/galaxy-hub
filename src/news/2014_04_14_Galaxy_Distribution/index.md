@@ -1,8 +1,8 @@
-<div class='newsItemHeader'>[April 14, 2014 Galaxy Distribution](/src/News/2014_04_14_Galaxy_Distribution/index.md)</div>
+<div class='newsItemHeader'>[April 14, 2014 Galaxy Distribution](/src/news/2014_04_14_Galaxy_Distribution/index.md)</div>
 <div class='right'>
 <table>
   <tr>
-    <td> <a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2014_04_14_trackster-deep.png" alt="Trackster Vis" width="300" /></a> </td>
+    <td> <a href='http://usegalaxy.org'><img src="/src/images/NewsGraphics/2014_04_14_trackster-deep.png" alt="Trackster Vis" width="300" /></a> </td>
   </tr>
 </table>
 
@@ -49,6 +49,6 @@
 
 [The Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-04-14</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-04-14</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

@@ -7,7 +7,7 @@ These represent changes introduced after the initial release. May also be tracke
 ## Review prior distribution
 
 * [January 13, 2015 Galaxy Distribution News Brief](/src/DevNewsBriefs/2015_01_13/index.md)
-* [January 13, 2015 Galaxy Distribution Summary](/src/News/2015_01_13_Galaxy_Distribution/index.md)
+* [January 13, 2015 Galaxy Distribution Summary](/src/news/2015_01_13_Galaxy_Distribution/index.md)
 
 ## New
 

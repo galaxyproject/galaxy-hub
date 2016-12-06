@@ -1,9 +1,9 @@
-<div class='newsItemHeader'>[April 2014 Galaxy Update](/src/News/2014_04GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[April 2014 Galaxy Update](/src/news/2014_04GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/src/GalaxyUpdates/2014_04/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="April 2014 Galaxy Update" width=150 /></a>
+<a href='/src/GalaxyUpdates/2014_04/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="April 2014 Galaxy Update" width=150 /></a>
 <br /><br />
-<a href='/src/GalaxyUpdates/2014_04/index.md#gcc2014-june-30---july-2-baltimore'><img src="/src/Images/Logos/GCC2014LogoWide200.png" alt="GCC2014 early registration and abstract submission are now open" width="150" /></a>
+<a href='/src/GalaxyUpdates/2014_04/index.md#gcc2014-june-30---july-2-baltimore'><img src="/src/images/Logos/GCC2014LogoWide200.png" alt="GCC2014 early registration and abstract submission are now open" width="150" /></a>
 </div>
 
 Happy April everyone!  
@@ -24,6 +24,6 @@ If you have anything you would like to see in the next *[Galaxy Update](/src/Gal
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-03-31 </div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-03-31 </div>
 
 [CategoryNews](/src/CategoryNews/index.md)

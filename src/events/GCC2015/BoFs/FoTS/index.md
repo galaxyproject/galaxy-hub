@@ -1,13 +1,13 @@
 ---
 title: Friends of the Tool Shed
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2015/Header/index.md)
 
 
 
 
 <div class='dictbox'>
- BoF:: [Friends of the Tool Shed](/src/Events/GCC2015/BoFs/FoTS/index.md)
+ BoF:: [Friends of the Tool Shed](/src/events/GCC2015/BoFs/FoTS/index.md)
  Summary:: Discuss utilities distribution approaches available to Galaxy and praise the Shed
  Audience:: Tool developers and Shed enthusiasts
  When:: Tuesday, 7 July, 20:30
@@ -15,9 +15,9 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
  Contact:: [Martin Cech](/src/Marten/index.md)
 </div>
 
-<div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
+<div class='left'><a href='/src/events/GCC2015/BoFs/index.md'><img src="/src/images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
-This page describes the **Friends of the Tool Shed** [Birds of a Feather](/src/Events/GCC2015/BoFs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
+This page describes the **Friends of the Tool Shed** [Birds of a Feather](/src/events/GCC2015/BoFs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 
 ## Description
 

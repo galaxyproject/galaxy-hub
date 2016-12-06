@@ -16,13 +16,13 @@
 * Step annotations are shown in the step header rather than at the bottom.
     *example:* Annotation
 
-    ![](/src/News Briefs/2011_01_31/2011_01_31_workflow-annotations.png)
+    ![](/src/news Briefs/2011_01_31/2011_01_31_workflow-annotations.png)
 
 2) Easier to move workflows directly from one Galaxy instance to another
 * Workflow download/export page now provides URL that can be used to directly import a workflow from one instance to another.
     *example:* URL import
 
-    ![](/src/News Briefs/2011_01_31/2011_01_31_workflow-import.001.png)
+    ![](/src/news Briefs/2011_01_31/2011_01_31_workflow-import.001.png)
 
 3) New Parameter settings for global application or specific actions
 * Workflow parameters are a new feature we've added to simplify reuse of workflows, and to allow for easier variation of parameters when re-running a workflow.  
@@ -31,13 +31,13 @@
   * Note that while this ${filter_condition} is only used in a single step in this simple demo workflow, variables can be used across steps.
       *example:* Parameters 
 
-     ![](/src/News Briefs/2011_01_31/2011_01_31_workflow_params_1.png)
+     ![](/src/news Briefs/2011_01_31/2011_01_31_workflow_params_1.png)
      
 * As the inputs are filled in the Workflow Parameters box, seen in the runtime example below, the new values will be reflected in all workflow steps and will be used when the workflow is executed.
 
    *example:* Runtime display
    
-    ![](/src/News Briefs/2011_01_31/2011_01_31_workflow_params_2.png)
+    ![](/src/news Briefs/2011_01_31/2011_01_31_workflow_params_2.png)
 
 4) General workflow tuning
 * HideDataset Action will no longer show in the workflow editor.  The ability to manually create one of these actions has been deprecated in favor of the workflow outputs approach.

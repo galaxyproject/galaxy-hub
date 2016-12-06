@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2015/Header/index.md)
 
 The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) will be hosted by [The Sainsbury Laboratory](http://tsl.ac.uk/) in historic [Norwich, United Kingdom](http://www.visitnorwich.co.uk/).  Norwich is a center of biological research and is home to [The Sainsbury Laboratory](http://www.tsl.ac.uk/), [The John Innes Centre](https://www.jic.ac.uk/), [The Genome Analysis Centre (TGAC)](http://www.tgac.ac.uk/), and [The University of East Anglia](http://www.uea.ac.uk/). 
 
@@ -27,6 +27,6 @@ GCC2015 will be held 4-8<sup>th</sup> July, 2015, in Norwich, UK.  There are als
 * [OpenBio Codefest 2015](http://www.open-bio.org/wiki/Codefest_2015)
 * [ISMB / EECB 2015](http://www.iscb.org/ismbeccb2015) including [BOSC 2015](http://www.open-bio.org/wiki/BOSC_2015) and [BioVis 2015](http://www.biovis.net/)
 
-See the [Events Aplenty Near GCC2015](/src/News/NearGCC2015/index.md) news item for dates and deadlines.
+See the [Events Aplenty Near GCC2015](/src/news/NearGCC2015/index.md) news item for dates and deadlines.
 
 *See you in Norwich!*

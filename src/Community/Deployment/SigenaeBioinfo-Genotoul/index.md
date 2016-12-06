@@ -2,7 +2,7 @@
 title: Sigenae Bioinfo-Genotoul
 ---
 <div class='center'>
-<a href='http://bioinfo.genotoul.fr/'><img src="/src/Images/Logos/GenoToulLogo.png" alt="GenoToul Bioinfo"  /></a>
+<a href='http://bioinfo.genotoul.fr/'><img src="/src/images/Logos/GenoToulLogo.png" alt="GenoToul Bioinfo"  /></a>
 </div>
 
 

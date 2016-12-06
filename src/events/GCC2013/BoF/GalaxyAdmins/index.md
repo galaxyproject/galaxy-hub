@@ -1,18 +1,18 @@
 ---
 title: [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) BoF
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/BoF/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/BoF/LinkBox/index.md)
 PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
-<div class='left'><a href='/src/Events/GCC2013/BoF/index.md'><img src="/src/Images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a><br />
-<a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
+<div class='left'><a href='/src/events/GCC2013/BoF/index.md'><img src="/src/images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a><br />
+<a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
 
-This page describes the **[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)** [Birds of a Feather](/src/Events/GCC2013/BoF/index.md) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
+This page describes the **[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)** [Birds of a Feather](/src/events/GCC2013/BoF/index.md) meetup being held at [GCC2013](/src/events/GCC2013/index.md).
 
 [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/src/Community/GalaxyAdmins/Meetups/index.md) and at events like GCC2013, where a lot of us happen to be.
 
@@ -32,7 +32,7 @@ We plan to continue, and perhaps finish, that discussion at GCC2013, at this BoF
 </table>
 
 
-The [tentative time and location](/src/Events/GCC2013/BoF/index.md#bof-schedule) is Tuesday lunchtime in the cantina. Collect your lunch and then carry it up to the Cantina's balcony/mezzanine room reached from the staircase inside the cantina near the entrance.
+The [tentative time and location](/src/events/GCC2013/BoF/index.md#bof-schedule) is Tuesday lunchtime in the cantina. Collect your lunch and then carry it up to the Cantina's balcony/mezzanine room reached from the staircase inside the cantina near the entrance.
 
 ## Who is Participating
 

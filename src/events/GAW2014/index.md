@@ -3,7 +3,7 @@ autotoc: true
 title: Galaxy Australasia Workshop 2014 (GAW 2014)
 ---
 <div class='center'>
-<a href='http://australianbioinformatics.net/gaw-2014'><img src="/src/Images/Logos/GAW2014-400.png" alt="Galaxy Australasia Workshop 2014 (GAW2014)"  /></a>
+<a href='http://australianbioinformatics.net/gaw-2014'><img src="/src/images/Logos/GAW2014-400.png" alt="Galaxy Australasia Workshop 2014 (GAW2014)"  /></a>
 
 <span style="font-size: larger;"> **[24-25 March, Melbourne](http://australianbioinformatics.net/gaw-2014)** </span>
 </div>
@@ -216,7 +216,7 @@ Posters to be displayed throughout the day:
 
 ## Venue(s)
 
-<div class='right'><a href='http://mcec.com.au/'><img src="/src/Events/GAW2014/MCC.png" alt="Melbourne Convention Centre" /></a></div>
+<div class='right'><a href='http://mcec.com.au/'><img src="/src/events/GAW2014/MCC.png" alt="Melbourne Convention Centre" /></a></div>
 
 GAW 2014 was held in Melbourne, Australia on 24 and 25th March 2014.
 The first day (Monday) was at Monash University, MBI Auditorium (Building 220), 770 Blackburn Rd, Clayton [(map)](http://www.monash.edu.au/pubs/maps/3-Claytoncolour.pdf ); next to [the Australian Synchrotron](http://www.synchrotron.org.au/).  
@@ -249,15 +249,15 @@ Help get the word out about GAW 2014.
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URL/src/GAW2014Flier.pdf'><img src="/src/Events/GAW2014/GAW2014FlierThumb.png" /></a> </td>
+    <td style=" border: none;"> <a href='PLACEHOLDER_ATTACHMENT_URL/src/GAW2014Flier.pdf'><img src="/src/events/GAW2014/GAW2014FlierThumb.png" /></a> </td>
     <td style=" border: none;"> Please print, post and distribute <a href='PLACEHOLDER_ATTACHMENT_URL/src/GAW2014Flier.pdf'>the conference flier</a><br />at your organization, and or events.  </td>
   </tr>
 </table>
 
 
-<div class='right'>![](/src/Images/Logos/GAW2014-200.png)</div>
+<div class='right'>![](/src/images/Logos/GAW2014-200.png)</div>
 
-The conference logo is available in [200 pixel](/src/Images/Logos/GAW2014-200.png), [400 pixel](/src/Images/Logos/GAW2014-400.png), [600 pixel](/src/Images/Logos/GAW2014-600.png), and *[really big](/src/Images/Logos/GAW2014Huge.png)* resolutions for inclusion on web sites, presentations, and posters.
+The conference logo is available in [200 pixel](/src/images/Logos/GAW2014-200.png), [400 pixel](/src/images/Logos/GAW2014-400.png), [600 pixel](/src/images/Logos/GAW2014-600.png), and *[really big](/src/images/Logos/GAW2014Huge.png)* resolutions for inclusion on web sites, presentations, and posters.
 
 
 ### Twitter Hashtag
@@ -268,7 +268,7 @@ Please use [#gaw2014](http://twitter.com/#!/search/%23gaw2014) as the [Twitter h
 
 ## Conference Report
 
-<div class='right'><a href='http://csiro.au/'><img src="/src/Images/Logos/CSIROLogoBig.png" alt="CSIRO" width="100" /></a></div>
+<div class='right'><a href='http://csiro.au/'><img src="/src/images/Logos/CSIROLogoBig.png" alt="CSIRO" width="100" /></a></div>
 
 The first Galaxy Australasia Workshop was held on Monday 24th and Tuesday 25th March. Conference venues and catering were provided by [CSIRO](http://csiro.au/) (Australia's national science agency) so attendance was *free*.
 
@@ -280,7 +280,7 @@ The first Galaxy Australasia Workshop was held on Monday 24th and Tuesday 25th M
 
 *[Andrew Lonie](http://www.vlsci.org.au/researcher/alonie)* ([VLSCI](http://www.vlsci.org.au/)/[GVL](https://genome.edu.au/wiki/GVL)), despite the usual risks of doing anything live, successfully demonstrated how to Launch a bioinformatics analysis server installed with Galaxy on the [Australian Research Cloud](https://www.nectar.org.au/research-cloud) and a handful of attendees followed along and launched their own GVL Galaxy server.
 
-<div class='left'><a href='http://www.qfab.org/'><img src="/src/Images/Logos/QFABLogo.png" alt="QFAB" width="50" /></a></div>
+<div class='left'><a href='http://www.qfab.org/'><img src="/src/images/Logos/QFABLogo.png" alt="QFAB" width="50" /></a></div>
 
 *[Mark Crowe](http://www.qfab.org/mark-crowe/)* ([QFAB](http://www.qfab.org/)/[GVL](https://genome.edu.au/wiki/GVL)) presented a [tutorial on using Galaxy](PLACEHOLDER_ATTACHMENT_URL/src/mcrowe_galaxy_intro.pdf), aimed at the members of the audience new to Galaxy.
 
@@ -290,28 +290,28 @@ The rest of the afternoon consisted of some more presentations and then a *panel
 
 The day closed amidst  the usual scrum of organising taxis and public transport to return to accommodation and the evening’s ad hoc social events.
 
-<div class='right'><a href='http://www.atmajaya.ac.id/'><img src="/src/Images/Logos/AtmaJayaSmall.gif" alt="Atma Jaya Catholic University of Indonesia" width="150" /></a></div>
+<div class='right'><a href='http://www.atmajaya.ac.id/'><img src="/src/images/Logos/AtmaJayaSmall.gif" alt="Atma Jaya Catholic University of Indonesia" width="150" /></a></div>
 
-**[ Three posters](/src/Events/GAW2014/index.md#posters-)** were displayed, including "[Microbial Community Analysis of Indonesia Tempeh Employing Metagenome Galaxy](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GAW2014/YulandiMicrobialCommunity.pdf)"  which was brought to us by some enthusiasts all the way from Indonesia.
+**[ Three posters](/src/events/GAW2014/index.md#posters-)** were displayed, including "[Microbial Community Analysis of Indonesia Tempeh Employing Metagenome Galaxy](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GAW2014/YulandiMicrobialCommunity.pdf)"  which was brought to us by some enthusiasts all the way from Indonesia.
 
 **Day 2** was held in the [Melbourne Convention Centre](http://mcec.com.au/), alongside CSIRO’s [Computational and Simulation Sciences and eResearch conference.](http://wp.csiro.au/css/ )  
 
 *[Nate Coraor](/src/nate/index.md)*, our special guest from the Galaxy Project, entertained us with a look at [working versions of Galaxy from the past, and updated us on Galaxy in the present and coming in the future](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GAW2014/coraor_past_present_future.pdf).
 
-<div class='left'>[[<a href='http://www.latrobe.edu.au/'><img src="/src/Images/Logos/LatrobeUSquare.jpg" alt="Latrobe University" height="75" /></a>
-<a href='http://wehi.edu.au/'><img src="/src/Images/Logos/WEHILogoSquare.jpg" alt="WEHI" height="75" /></a></div>
+<div class='left'>[[<a href='http://www.latrobe.edu.au/'><img src="/src/images/Logos/LatrobeUSquare.jpg" alt="Latrobe University" height="75" /></a>
+<a href='http://wehi.edu.au/'><img src="/src/images/Logos/WEHILogoSquare.jpg" alt="WEHI" height="75" /></a></div>
 
 Then two presentations about *using Galaxy for Bioinformatics Analysis*: [Using Galaxy for Proteogenomics](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GAW2014/Cooke_Proteogenomics.pdf) from [Ira Cooke](http://www.latrobe.edu.au/scitecheng/about/staff/profile?uname=ICooke) ([Latrobe](http://www.latrobe.edu.au/)) and [shRNA-seq analysis in Galaxy](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GAW2014/Ritchie_shRNA-Seq.pdf) from [Matthew Ritchie](http://bioinf.wehi.edu.au/folders/mritchie/) ([WEHI](http://wehi.edu.au/)). 
 
 The [GVL Project](https://genome.edu.au/wiki/GVL) and [CSIRO](http://csiro.au/) each gave us a few presentations about their *progress with Galaxy*, including CSIRO’s [Philippe Moncuquet](http://www.mendeley.com/profiles/moncuquet-philippe/) explaining how CSIRO is managing the large volumes of data. 
 
-<div class='right'><a href='https://www.nectar.org.au'><img src="/src/Images/Logos/NectarLogoSmallNoText.png" alt="Nectar" height="60" /></a></div>
+<div class='right'><a href='https://www.nectar.org.au'><img src="/src/images/Logos/NectarLogoSmallNoText.png" alt="Nectar" height="60" /></a></div>
 
 Further interesting talks included *[Yousef Kowsar](http://www.vlsci.org.au/researcher/ykowsar)* ([VLSCI](http://www.vlsci.org.au/)/[GVL](https://genome.edu.au/wiki/GVL)) showing us progress with an [Australian Research Cloud](https://www.nectar.org.au/research-cloud) version of GenomeSpace integration with Galaxy, *[Clare Sloggett](http://www.vlsci.org.au/researcher/csloggett)* ([VLSCI](http://www.vlsci.org.au/)/[GVL](https://genome.edu.au/wiki/GVL)) demonstrating some utilities that enhance the GVL command line servers, *[Yulia Arzhaeva](http://au.linkedin.com/pub/yulia-arzhaeva/20/491/688)* ([CSIRO](http://csiro.au/)) showing a Galaxy implementation of Cellular Imaging tools rather than Bioinformatics Tools and *[Carsten Friedrich](http://www.ict.csiro.au/staff/carsten.friedrich/)* ([CSIRO](http://csiro.au/)) showing a Galaxy Tool interface to Secure Cloud Data Storage.
 
-<div class='left'>[[<a href='http://australianbioinformatics.net/'><img src="/src/Images/Logos/ABNLogoOnlySmall.png" alt="Australian Bioinformatics Network" height="50" /></a></div>
+<div class='left'>[[<a href='http://australianbioinformatics.net/'><img src="/src/images/Logos/ABNLogoOnlySmall.png" alt="Australian Bioinformatics Network" height="50" /></a></div>
 
 *[David Lovell](http://www.csiro.au/Organisation-Structure/Divisions/Computational-Informatics/CCI-People/DavidLovell.aspx)* ([CSIRO](http://csiro.au/)), as representative of the [Australian Bioinformatics Network](http://australianbioinformatics.net/), closed the conference by working with us to develop a worthwhile [mind map (pdf)](PLACEHOLDER_ATTACHMENT_URL/src/GAW2014_Wrapup.pdf) of actions we would take as a result of attending the Conference.
 
 
-Slide presentations appear on the [GAW2014 conference programme.](/src/Events/GAW2014/index.md#program)
+Slide presentations appear on the [GAW2014 conference programme.](/src/events/GAW2014/index.md#program)

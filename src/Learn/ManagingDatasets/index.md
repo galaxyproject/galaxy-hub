@@ -26,9 +26,9 @@ You have multiple options how to get your files into Galaxy thus making them dat
 
 Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to get oriented with these functions using a variety of real datasets on **Galaxy's** public **[Main](/src/Main/index.md)** server **[usegalaxy.org](http://usegalaxy.org)**.
 * Upper right corner
-  * ![](/src/Images/Icons/eye.png) Display data in browser "eye icon"
-  * ![](/src/Images/Icons/pencil.png) Edit attributes "pencil icon"
-  * ![](/src/Images/Icons/deleteX.png) Delete "'X' icon"
+  * ![](/src/images/Icons/eye.png) Display data in browser "eye icon"
+  * ![](/src/images/Icons/pencil.png) Edit attributes "pencil icon"
+  * ![](/src/images/Icons/deleteX.png) Delete "'X' icon"
 * Lower right corner
   * Edit dataset tags
   * Edit dataset annotation
@@ -37,11 +37,11 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
   * Dataset size/number of lines (actual or estimated)
   * format [datatypes](/src/Learn/Datatypes/index.md)
   * database
-  * ![](/src/Images/Icons/HistoryInfo.png) Info (optional)
+  * ![](/src/images/Icons/HistoryInfo.png) Info (optional)
 * Lower left corner
   * Download
   * View Details
-  * Run this job again ![](/src/Images/Icons/arrow-circle.png)
+  * Run this job again ![](/src/images/Icons/arrow-circle.png)
   * Display in [trackster](/src/Learn/Visualization/index.md) (optional)
   * display at [UCSC](http://genome.ucsc.edu) main  (optional)
   * display at [Ensembl](http://www.ensembl.org) Current (optional)
@@ -60,13 +60,13 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
 # Format
 
 * The format of a dataset is ideally defined by the assigned **[datatype](/src/Learn/Datatypes/index.md)** attribute. Deviations in input dataset format are the first variable to examine when a tool (job) fails. Many of the tools in the "Text Manipulation" tool group can be used to both examine and correct a dataset's format to bring it into alignment with the assigned [datatype](/src/Learn/Datatypes/index.md) attribute specification.
-* To initially **assign** a dataset's [datatype](/src/Learn/Datatypes/index.md) attribute, the uploaded/imported file can be specified with some import tools or be named with the appropriate file extension. To specify, modify or correct a dataset's [datatype](/src/Learn/Datatypes/index.md) attribute after upload, click on the "pencil" icon ![](/src/Images/Icons/pencil.png) in the right corner of the dataset's box to reach the "Edit Attributes" form. Use the "Change data type" section of the form to make changes and click on *Save*. Galaxy will modify the [datatype](/src/Learn/Datatypes/index.md) and metadata.
+* To initially **assign** a dataset's [datatype](/src/Learn/Datatypes/index.md) attribute, the uploaded/imported file can be specified with some import tools or be named with the appropriate file extension. To specify, modify or correct a dataset's [datatype](/src/Learn/Datatypes/index.md) attribute after upload, click on the "pencil" icon ![](/src/images/Icons/pencil.png) in the right corner of the dataset's box to reach the "Edit Attributes" form. Use the "Change data type" section of the form to make changes and click on *Save*. Galaxy will modify the [datatype](/src/Learn/Datatypes/index.md) and metadata.
 * To **transform** a dataset format (original &rarr; new [datatype](/src/Learn/Datatypes/index.md) attribute), use one of the many tools in the *Convert Formats* group.
 * ***TIP*** The quickest way to locate tools that manipulate specific formats is to use the Tool Search (top of left Galaxy Tool panel, *gear icon* menu). For example, type in  *[M-A-F](/src/Learn/Datatypes/index.md#maf)* to locate tools in the tool group *Convert Formats* that transform to/from Multiple Alignment Format.
 
 # Visualize
 
-* For many [datatypes](/src/Learn/Datatypes/index.md), clicking on the **eye icon** ![](/src/Images/Icons/eye.png) for "Display data in browser" will display the contents or a preview of the contents in as unformatted text in the center pane (exceptions include compressed [datatypes](/src/Learn/Datatypes/index.md) such as BAM).
+* For many [datatypes](/src/Learn/Datatypes/index.md), clicking on the **eye icon** ![](/src/images/Icons/eye.png) for "Display data in browser" will display the contents or a preview of the contents in as unformatted text in the center pane (exceptions include compressed [datatypes](/src/Learn/Datatypes/index.md) such as BAM).
 * Direct links to view a dataset within a browser may include:
   * [Trackster "Galaxy Track Browser (GTB)"](/src/Learn/Visualization/index.md)
   * [GeneTrack](http://atlas.bx.psu.edu/software/genetrack.html)
@@ -87,7 +87,7 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
   * Options are:
   * *Clone all history items, including deleted items*
   * *Clone only items that are not deleted*
-* ***TIP*** One use of this option is to **quickly retain some datasets and permanently delete others** (to reduce disk use counted in user [quota](/src/Admin/Disk Quotas/index.md) on [Main](/src/Main/index.md) or [Test](/src/Test/index.md)). First, in the History pane, in the original history, delete individual datasets by clicking on the *X* delete icon ![](/src/Images/Icons/deleteX.png) if not to be **Cloned**, remember to delete **Hidden** datasets, (see below). Next, *Clone* the original History. Once complete, the cloned History will contain the datasets to be retained and the original History can be deleted permanently with *gear icon &rarr; Saved Histories*, select original History from the list, and clicking the button *Delete Permanently*.
+* ***TIP*** One use of this option is to **quickly retain some datasets and permanently delete others** (to reduce disk use counted in user [quota](/src/Admin/Disk Quotas/index.md) on [Main](/src/Main/index.md) or [Test](/src/Test/index.md)). First, in the History pane, in the original history, delete individual datasets by clicking on the *X* delete icon ![](/src/images/Icons/deleteX.png) if not to be **Cloned**, remember to delete **Hidden** datasets, (see below). Next, *Clone* the original History. Once complete, the cloned History will contain the datasets to be retained and the original History can be deleted permanently with *gear icon &rarr; Saved Histories*, select original History from the list, and clicking the button *Delete Permanently*.
 
 # Hidden
 
@@ -113,7 +113,7 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
   * **Active** and **Deleted** histories can be **permanently deleted** using from the History pane *Options &rarr; Saved Histories*, then click on *Advanced Search*, then click on *status: all*. Check the box for the histories to be discarded and then click on the button *Permanently delete*. <br /><img src="/src/Learn/ManagingDatasets/saved_histories_view_all.png" alt="View all saved histories" width="500" />
 * ***WARNING*** **Permanently deleted** datasets and histories **cannot be recovered** by the user or administrator. The best way to avoid losing important data by accident is to clearly name all histories and important datasets.
   * Name a dataset:
-    * Click on the *pencil icon* ![](/src/Images/Icons/pencil.png) in the right History pane) to reach the *Edit Attributes* form. Here a dataset's primary *Name, Info , Annotation, and Notes* can be adjusted.
+    * Click on the *pencil icon* ![](/src/images/Icons/pencil.png) in the right History pane) to reach the *Edit Attributes* form. Here a dataset's primary *Name, Info , Annotation, and Notes* can be adjusted.
     * ***TIP*** Copying the Galaxy default *Name* into the "Info: field, then adding in a custom *Name* is one way to preserve the tool output original *Name* while still distinguishing one similarly named dataset from another. This can be useful when reviewing analysis steps and choosing which datasets to retain and which to remove when an analysis is under review or completed.
   * Name a history:
     * Click near the top of the right history pane where the default text *Unnamed history* is located. Enter the new name and *save*.

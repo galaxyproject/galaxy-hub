@@ -7,6 +7,6 @@ We had several requests for this, and I would like to thank NBIC for making this
 
 [Dave Clements](/src/DaveClements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on <<Date(2011-06-11T05:20:39Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on <<Date(2011-06-11T05:20:39Z)>></div>
 
 CategoryNews

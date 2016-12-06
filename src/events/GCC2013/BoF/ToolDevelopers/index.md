@@ -1,16 +1,16 @@
 ---
 title: Tool Developers BoF
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/BoF/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/BoF/LinkBox/index.md)
 
-<div class='left'><a href='/src/Events/GCC2013/BoF/index.md'><img src="/src/Images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
+<div class='left'><a href='/src/events/GCC2013/BoF/index.md'><img src="/src/images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 
-This page describes the **Tool Developers** [Birds of a Feather](/src/Events/GCC2013/BoF/index.md) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
+This page describes the **Tool Developers** [Birds of a Feather](/src/events/GCC2013/BoF/index.md) meetup being held at [GCC2013](/src/events/GCC2013/index.md).
 
 The aim is for tool developers to discuss the process of developing tools for galaxy. 
 
@@ -23,7 +23,7 @@ Potential topics could include;
 
 ## When and Where
 
-The [time and location](/src/Events/GCC2013/BoF/index.md#bof-schedule) for this BoF will be Monday evening in the escape Pub. We will try to be in the pub early (Just after 5pm) to grab a quiet corner.
+The [time and location](/src/events/GCC2013/BoF/index.md#bof-schedule) for this BoF will be Monday evening in the escape Pub. We will try to be in the pub early (Just after 5pm) to grab a quiet corner.
 
 ## Who is Participating
 
@@ -44,14 +44,14 @@ If you are interested, please add your name below and/or send an email to the [I
 
 ## Other Tool and Tool Shed Content at GCC2013
 
-* "[Introduction to Tool and Data Source Configuration](/src/Events/GCC2013/TrainingDay/index.md#introduction_to_tool_and_data_source_configuration)" [Training Day](/src/Events/GCC2013/TrainingDay/index.md) session
-* "[Advanced Tool and Data Source Configuration"](/src/Events/GCC2013/TrainingDay/index.md#advanced-tool-and-data-source-configuration) [Training Day](/src/Events/GCC2013/TrainingDay/index.md) session
-* "[Galaxy Tool Shed](/src/Events/GCC2013/TrainingDay/index.md#galaxy-tool-shed)" [Training Day](/src/Events/GCC2013/TrainingDay/index.md) session
-* "[Reproducible research and the 90/10 rule: Improving the ratio of light script to dark script matter in your Galaxy](/src/Events/GCC2013/Abstracts/index.md#reproducible-research-and-the-9010-rule-improving-the-ratio-of-light-script-to-dark-script-matter-in-your-galaxy)" talk
-* "[Enhancing the Galaxy Tool Shed](/src/Events/GCC2013/Abstracts/index.md#enhancing-the-galaxy-tool-shed)" talk
-* "[A Galaxy of learning: Bioinformatics tutorials based on Galaxy](/src/Events/GCC2013/Abstracts/index.md#a-galaxy-of-learning-bioinformatics-tutorials-based-on-galaxy)" talk
-* "[Managing Galaxy's Built-in Data](/src/Events/GCC2013/Abstracts/index.md#managing-galaxys-built-in-data)" talk
-* "[Galaxy-P: Beyond Proteomics](/src/Events/GCC2013/Abstracts/index.md#galaxy-p-beyond-proteomics)" talk
+* "[Introduction to Tool and Data Source Configuration](/src/events/GCC2013/TrainingDay/index.md#introduction_to_tool_and_data_source_configuration)" [Training Day](/src/events/GCC2013/TrainingDay/index.md) session
+* "[Advanced Tool and Data Source Configuration"](/src/events/GCC2013/TrainingDay/index.md#advanced-tool-and-data-source-configuration) [Training Day](/src/events/GCC2013/TrainingDay/index.md) session
+* "[Galaxy Tool Shed](/src/events/GCC2013/TrainingDay/index.md#galaxy-tool-shed)" [Training Day](/src/events/GCC2013/TrainingDay/index.md) session
+* "[Reproducible research and the 90/10 rule: Improving the ratio of light script to dark script matter in your Galaxy](/src/events/GCC2013/Abstracts/index.md#reproducible-research-and-the-9010-rule-improving-the-ratio-of-light-script-to-dark-script-matter-in-your-galaxy)" talk
+* "[Enhancing the Galaxy Tool Shed](/src/events/GCC2013/Abstracts/index.md#enhancing-the-galaxy-tool-shed)" talk
+* "[A Galaxy of learning: Bioinformatics tutorials based on Galaxy](/src/events/GCC2013/Abstracts/index.md#a-galaxy-of-learning-bioinformatics-tutorials-based-on-galaxy)" talk
+* "[Managing Galaxy's Built-in Data](/src/events/GCC2013/Abstracts/index.md#managing-galaxys-built-in-data)" talk
+* "[Galaxy-P: Beyond Proteomics](/src/events/GCC2013/Abstracts/index.md#galaxy-p-beyond-proteomics)" talk
 
 ## Questions?
 

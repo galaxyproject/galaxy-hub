@@ -1,7 +1,7 @@
 ---
 title: [Genomic Data Science with Galaxy on Coursera](https://www.coursera.org/course/gengalaxy)
 ---
-<div class='center'><a href='https://www.coursera.org/course/gengalaxy'><img src="/src/Images/Logos/CourseraGBDS.png" alt="Genomic Data Science with Galaxy"  /></a>
+<div class='center'><a href='https://www.coursera.org/course/gengalaxy'><img src="/src/images/Logos/CourseraGBDS.png" alt="Genomic Data Science with Galaxy"  /></a>
 </div>
 
 

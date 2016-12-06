@@ -217,7 +217,7 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
     <th> November 9-11 </th>
     <td> <strong><a href='/src/events/AdminTraining2016/AdvancedSession/index.md'>Galaxy Admin Training: Advanced</a></strong> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> Salt Lake City, Utah, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/Events/AdminTraining2016/index.md#instructors'>Instructors</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/events/AdminTraining2016/index.md#instructors'>Instructors</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -243,9 +243,9 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
   </tr>
   <tr>
     <th> November 7-8 </th>
-    <td> <strong><a href='/src/Events/AdminTraining2016/BasicsSession/index.md'>Galaxy Admin Training: Introduction</a></strong> </td>
+    <td> <strong><a href='/src/events/AdminTraining2016/BasicsSession/index.md'>Galaxy Admin Training: Introduction</a></strong> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> Salt Lake City, Utah, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/Events/AdminTraining2016/index.md#instructors'>Instructors</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/events/AdminTraining2016/index.md#instructors'>Instructors</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -281,8 +281,8 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
   </tr>
   <tr>
     <th> October 21 </th>
-    <td> <em><a href='/src/Events/Germany2016/index.md'>(second German) Galaxy Developers Day</a></em> </td>
-    <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> <strong><a href='/src/Events/SG2016/index.md'>2016 Swiss-German Galaxy Days</a></strong> in Freiburg, Germany </td>
+    <td> <em><a href='/src/events/Germany2016/index.md'>(second German) Galaxy Developers Day</a></em> </td>
+    <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> <strong><a href='/src/events/SG2016/index.md'>2016 Swiss-German Galaxy Days</a></strong> in Freiburg, Germany </td>
     <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/BjoernGruening/index.md'>Bjoern Gruening</a> </td>
     <td> </td>
   </tr>
@@ -295,8 +295,8 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
   </tr>
   <tr>
     <th> October 20 </th>
-    <td> <em><a href='/src/Events/Switzerland2016/index.md'>(third Swiss) Galaxy Workshop</a></em> </td>
-    <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> <strong><a href='/src/Events/SG2016/index.md'>2016 Swiss-German Galaxy Days</a></strong> in Freiburg, Germany </td>
+    <td> <em><a href='/src/events/Switzerland2016/index.md'>(third Swiss) Galaxy Workshop</a></em> </td>
+    <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> <strong><a href='/src/events/SG2016/index.md'>2016 Swiss-German Galaxy Days</a></strong> in Freiburg, Germany </td>
     <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/BjoernGruening/index.md'>Bjoern Gruening</a> </td>
     <td> </td>
   </tr>
@@ -417,10 +417,10 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
   </tr>
   <tr>
     <th> September 3-7 </th>
-    <td> <strong><a href='/src/Events/ECCB2016/index.md'>European Conference on Computational Biology (ECCB 2016)</a></strong> </td>
+    <td> <strong><a href='/src/events/ECCB2016/index.md'>European Conference on Computational Biology (ECCB 2016)</a></strong> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' />  The Hague, Netherlands </td>
-    <td> <a href='/src/Events/ECCB2016/index.md'>See presenters</a> </td>
-    <td> <a href='/src/Events/ECCB2016/index.md'>Presentations</a> </td>
+    <td> <a href='/src/events/ECCB2016/index.md'>See presenters</a> </td>
+    <td> <a href='/src/events/ECCB2016/index.md'>Presentations</a> </td>
   </tr>
   <tr>
     <th> August 29 - September 2 </th>
@@ -479,17 +479,17 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
   </tr>
   <tr>
     <th> July 21 </th>
-    <td> <em><a href='/src/Events/Cornell2016/index.md'>Introduction to Galaxy</a></em> </td>
+    <td> <em><a href='/src/events/Cornell2016/index.md'>Introduction to Galaxy</a></em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> Cornell University, Ithaca, New York, United States </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
-    <td> <a href='/src/Events/Cornell2016/index.md#slides'>Slides</a> </td>
+    <td> <a href='/src/events/Cornell2016/index.md#slides'>Slides</a> </td>
   </tr>
   <tr>
     <th> July 19-20 </th>
-    <td> <em><a href='/src/Events/Rochester2016/index.md'>Introduction to Galaxy</a></em> </td>
+    <td> <em><a href='/src/events/Rochester2016/index.md'>Introduction to Galaxy</a></em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> University of Rochester, Rochester, New York, United States </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
-    <td> <a href='/src/Events/Rochester2016/index.md#slides'>Slides</a> </td>
+    <td> <a href='/src/events/Rochester2016/index.md#slides'>Slides</a> </td>
   </tr>
   <tr>
     <th> July 19 </th>
@@ -521,17 +521,17 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
   </tr>
   <tr>
     <th> July 8-12 </th>
-    <td> <em><a href='/src/Events/ISMB2016/index.md'>ISMB 2016</a></em> </td>
+    <td> <em><a href='/src/events/ISMB2016/index.md'>ISMB 2016</a></em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' />  Orlando, Florida, United States </td>
-    <td> See <a href='/src/Events/ISMB2016/index.md'>presenters</a> </td>
-    <td> <a href='/src/Events/ISMB2016/index.md'>Slides, Posters, Video</a> </td>
+    <td> See <a href='/src/events/ISMB2016/index.md'>presenters</a> </td>
+    <td> <a href='/src/events/ISMB2016/index.md'>Slides, Posters, Video</a> </td>
   </tr>
   <tr>
     <th> July 8-9 </th>
-    <td> <em><a href='/src/Events/ISMB2016/index.md'>BOSC 2016</a></em> </td>
+    <td> <em><a href='/src/events/ISMB2016/index.md'>BOSC 2016</a></em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' />  <a href='http://www.iscb.org/ismb2016'>ISMB 2016</a>, Orlando, Florida, United States </td>
-    <td> See <a href='/src/Events/ISMB2016/index.md'>presenters</a> </td>
-    <td> <a href='/src/Events/ISMB2016/index.md'>Slides, Posters, Video</a> </td>
+    <td> See <a href='/src/events/ISMB2016/index.md'>presenters</a> </td>
+    <td> <a href='/src/events/ISMB2016/index.md'>Slides, Posters, Video</a> </td>
   </tr>
   <tr>
     <th> July 4-8 </th>
@@ -615,9 +615,9 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
   </tr>
   <tr>
     <th> June 5-9 </th>
-    <td> <em><a href='/src/Events/ASMS2016/index.md'>64th ASMS Conference on Mass Spectrometry and Allied Topics</a></em> </td>
+    <td> <em><a href='/src/events/ASMS2016/index.md'>64th ASMS Conference on Mass Spectrometry and Allied Topics</a></em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> San Antonio, Texas, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/Events/ASMS2016/index.md'>Presenters</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/events/ASMS2016/index.md'>Presenters</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -927,10 +927,10 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
   </tr>
   <tr>
     <th> January 21, 22 </th>
-    <td> </em><a href='/src/Events/ISMMS2016/index.md'>Introduction to Galaxy Workshop</a><em> </td>
+    <td> </em><a href='/src/events/ISMMS2016/index.md'>Introduction to Galaxy Workshop</a><em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://icahn.mssm.edu/'>Icahn School of Medicine at Mt. Sinai</a>, New York, New York, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='/src/Events/ISMMS2016/index.md#questions'>Andrew Sharp</a> </td>
-    <td> <a href='/src/Events/ISMMS2016/index.md#slides'>Slides</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/DaveClements/index.md'>Dave Clements</a>, <a href='/src/events/ISMMS2016/index.md#questions'>Andrew Sharp</a> </td>
+    <td> <a href='/src/events/ISMMS2016/index.md#slides'>Slides</a> </td>
   </tr>
   <tr>
     <th> January 21 </th>
@@ -962,14 +962,14 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
   </tr>
   <tr>
     <th> January 9-13 </th>
-    <td> <strong><a href='/src/Events/PAG2016/index.md'>Plant and Animal Genome (PAG XXIV)</a></strong> </td>
+    <td> <strong><a href='/src/events/PAG2016/index.md'>Plant and Animal Genome (PAG XXIV)</a></strong> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> San Diego, California, United States </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> See <a href='/src/Events/PAG2016/index.md'>presenters</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> See <a href='/src/events/PAG2016/index.md'>presenters</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th> January 8 </th>
-    <td> </em><a href='/src/Events/ASU2016/index.md'>Introduction to Galaxy Workshop</a><em> </td>
+    <td> </em><a href='/src/events/ASU2016/index.md'>Introduction to Galaxy Workshop</a><em> </td>
     <td> <img src='/src/images/Icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://asu.edu/'>Arizona State University</a>, Tempe, Arizona, United States </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='https://sols.asu.edu/people/nico-franz'>Nico Franz</a>, <a href='https://sols.asu.edu/people/melissa-wilson-sayres'>Melissa A. Wilson Sayres</a>, <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
     <td> </td>
@@ -982,4 +982,4 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
 
 ### Previous Years
 
-And events from previous years, complete with links to slides, tutorials, example data, ... are available in the **[Events Archive](/src/Events/Archive/index.md)**.
+And events from previous years, complete with links to slides, tutorials, example data, ... are available in the **[Events Archive](/src/events/Archive/index.md)**.

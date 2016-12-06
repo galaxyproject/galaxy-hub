@@ -61,7 +61,7 @@ All existing **[galaxy-central bitbucket issues](https://bitbucket.org/galaxy/ga
 
 The Galaxy wiki and other related resources have now been updated to point to the new tracking system. But if you happen to come across something we missed, please feel free to edit the wiki (if you are a vetted editor or decide to become one), or send us an email and we'll update.
 
-<a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2012_10_23_trello-inbox.png" alt="2012_10_23_trello-inbox" width="900" /></a>
+<a href='http://usegalaxy.org'><img src="/src/images/NewsGraphics/2012_10_23_trello-inbox.png" alt="2012_10_23_trello-inbox" width="900" /></a>
 
 <br />
 # Tool Shed
@@ -114,7 +114,7 @@ shed_tool_conf.xml            <toolbox tool_path="../shed_tools/galaxy_instance1
 
 1. #4 When managing installed tool shed repositories, the previous "deleted" link in the Advanced Search feature has been enhanced to clarify that, when clicked, repositories that have been deactivated or uninstalled will be displayed.
 
-<a href='http://toolshed.g2.bx.psu.edu'><img src="/src/Images/NewsGraphics/2012_10_23_toolshed-advanced-search.png" alt="tool shed" /></a>
+<a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/NewsGraphics/2012_10_23_toolshed-advanced-search.png" alt="tool shed" /></a>
 
 <br />
 # Tools
@@ -150,10 +150,10 @@ Quick start to graphing data:
 
 1. Click on the visualizations icon of a tabular dataset.
 
-<a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2012_10_23_scatterplot-ui-icon.png" alt="scatterplot-ui-icon" /></a>
+<a href='http://usegalaxy.org'><img src="/src/images/NewsGraphics/2012_10_23_scatterplot-ui-icon.png" alt="scatterplot-ui-icon" /></a>
 1. #2 Next, select 'Scatterplot' from the popup menu that appears and the main panel will load with data and graph options. Chose which two columns to load as datapoints and click the 'Draw' button to display the graph.
 
-<a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2012_10_23_scatterplot-popupmenu.png" alt="scatterplot-popupmenu" /></a>
+<a href='http://usegalaxy.org'><img src="/src/images/NewsGraphics/2012_10_23_scatterplot-popupmenu.png" alt="scatterplot-popupmenu" /></a>
 1. #3 Tool is still undergoing further development and full documentation is pending, but here are the key details.
 
 Basic specifications, functions, and features:
@@ -171,10 +171,10 @@ Additional user controlled functions:
 * Control the dimensions of the graph, the size of datapoints, and the labels used for each axis.
 
 Full screen view, showing scatter plot in the center panel:
-<a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2012_10_23_scatterplot-fullscreen.png" alt="scatterplot-fullscreen" width="900" /></a>
+<a href='http://usegalaxy.org'><img src="/src/images/NewsGraphics/2012_10_23_scatterplot-fullscreen.png" alt="scatterplot-fullscreen" width="900" /></a>
 
 Detail view of center panel:
-<a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2012_10_23_scatterplot-partialscreen.png" alt="scatterplot-partialscreen" /></a>
+<a href='http://usegalaxy.org'><img src="/src/images/NewsGraphics/2012_10_23_scatterplot-partialscreen.png" alt="scatterplot-partialscreen" /></a>
 
 
 <br />
@@ -217,7 +217,7 @@ Detail view of center panel:
 <br />
 # Announcements
 
-[News](/src/News/index.md), *[October 2012 Galaxy Update](/src/GalaxyUpdates/2012_10/index.md)*
+[News](/src/news/index.md), *[October 2012 Galaxy Update](/src/GalaxyUpdates/2012_10/index.md)*
 
 <br />
 ----

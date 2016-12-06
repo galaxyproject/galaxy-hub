@@ -6,7 +6,7 @@ title: October 2014 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the October 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -27,35 +27,35 @@ Let your voice be heard!
 
 # IRC Channel Policy Change
 
-<div class='left'><img src="/src/Images/Icons/ChatBalloons.png" alt="Galaxy IRC Channel" width="60" /></div>
+<div class='left'><img src="/src/images/Icons/ChatBalloons.png" alt="Galaxy IRC Channel" width="60" /></div>
 
-A proposed change for the #galaxyproject IRC channel was [proposed](/src/News/IRCPublicLogProposal/index.md), and then [discussed, and approved on Galaxy Biostar](http://bit.ly/gxybs8804).  Starting sometime in October, posts to this channel will be made available in a searchable archive on the web.
+A proposed change for the #galaxyproject IRC channel was [proposed](/src/news/IRCPublicLogProposal/index.md), and then [discussed, and approved on Galaxy Biostar](http://bit.ly/gxybs8804).  Starting sometime in October, posts to this channel will be made available in a searchable archive on the web.
 
-Thanks to everyone who participated in the decision, and [those at GCC2014 who suggested this](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md).
+Thanks to everyone who participated in the decision, and [those at GCC2014 who suggested this](/src/events/GCC2014/BoFs/GalaxyAdmins/index.md).
 
 
 # Events
 
-<div class='left'><br /><a href='/src/Events/ECCB2014/index.md'><img src="/src/Images/Logos/ECCB2014Logo.png" alt="Galaxy at ECCB'14 / JOBIM" height="75" /></a></div>
+<div class='left'><br /><a href='/src/events/ECCB2014/index.md'><img src="/src/images/Logos/ECCB2014Logo.png" alt="Galaxy at ECCB'14 / JOBIM" height="75" /></a></div>
 
 ## Galaxy at ECCB'14
 
-Galaxy had a strong presence at [ECCB'14](/src/Events/ECCB2014/index.md).  Galaxy was featured in workshops, demos and posters.  Couldn't make it?  No worries, as [most slides and posters are now available online](/src/Events/ECCB2014/index.md).
+Galaxy had a strong presence at [ECCB'14](/src/events/ECCB2014/index.md).  Galaxy was featured in workshops, demos and posters.  Couldn't make it?  No worries, as [most slides and posters are now available online](/src/events/ECCB2014/index.md).
 
 
 ## Other Events
 
 <div class='center'> 
-<a href='/src/Events/SG2014/index.md'><img src="/src/Images/Logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
-<a href='http://www.qfab.org/events/upcoming/'><img src="/src/Images/Logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
-<a href='http://wiki.data.dtls.nl/index.php/DTL_Programmers_Meeting'><img src="/src/Images/Logos/DTLLogo150.png" alt="iReport - A tool to create flexible, scalable Galaxy tool interface, presented at the DTL Programmers Meeting" height="90" /></a>
-<a href='http://galaxy4bioinformatics.sb-roscoff.fr/'><img src="/src/Images/Logos/SB-RoscoffBig.JPG" alt="Des bonnes pratiques d'intégration d'outils sous Galaxy" height="60" /></a> &nbsp;
-<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'><img src="/src/Images/Logos/GenoToulLogo.png" alt="Galaxy Training Days" height="60" /></a> &nbsp;
+<a href='/src/events/SG2014/index.md'><img src="/src/images/Logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
+<a href='http://www.qfab.org/events/upcoming/'><img src="/src/images/Logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
+<a href='http://wiki.data.dtls.nl/index.php/DTL_Programmers_Meeting'><img src="/src/images/Logos/DTLLogo150.png" alt="iReport - A tool to create flexible, scalable Galaxy tool interface, presented at the DTL Programmers Meeting" height="90" /></a>
+<a href='http://galaxy4bioinformatics.sb-roscoff.fr/'><img src="/src/images/Logos/SB-RoscoffBig.JPG" alt="Des bonnes pratiques d'intégration d'outils sous Galaxy" height="60" /></a> &nbsp;
+<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'><img src="/src/images/Logos/GenoToulLogo.png" alt="Galaxy Training Days" height="60" /></a> &nbsp;
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/Icons/CalendarIcon.gif" /></a></div> 
 
-There are [upcoming events](/src/Events/index.md) in Switzerland, Germany, Australia, Norway, France, Italy, and the United States.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/src/events/index.md) in Switzerland, Germany, Australia, Norway, France, Italy, and the United States.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <table>
   <tr class="th" >
@@ -66,15 +66,15 @@ There are [upcoming events](/src/Events/index.md) in Switzerland, Germany, Austr
   </tr>
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
-    <td> <a href='/src/Events/Switzerland2014/trainingday/index.md'>Galaxy Training and Demo Day</a> </td>
-    <td rowspan=3> <strong><a href='/src/Events/SG2014/index.md'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
+    <td> <a href='/src/events/Switzerland2014/trainingday/index.md'>Galaxy Training and Demo Day</a> </td>
+    <td rowspan=3> <strong><a href='/src/events/SG2014/index.md'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
     <td rowspan=3> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/BjoernGruening/index.md'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/Events/Switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/src/events/Switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/Events/Germany2014/index.md'>German Galaxy Developers Day</a></em> </td>
+    <td> <em><a href='/src/events/Germany2014/index.md'>German Galaxy Developers Day</a></em> </td>
   </tr>
   <tr>
     <th> October 1 </th>
@@ -226,10 +226,10 @@ The Galaxy is expanding! Please help it grow.
 * [Research Specialist](http://bit.ly/1vbagWb), Michigan State University, United States 
 * [Bioinformatics and Computational Biology](http://bit.ly/1uysJJH), [US Army Engineer Research and Development Center’s Environmental Laboratory](http://el.erdc.usace.army.mil/index.cfm), Vicksburg, MS, United States
 * [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
-* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* [Statistical Genomics Postdoc](/src/news/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -250,7 +250,7 @@ The [GalaxEast](http://www.galaxeast.fr) project has the following main objectiv
 
 [GalaxEast](http://www.galaxeast.fr) is supported by [IGBMC](http://www.igbmc.fr/), [CNRS](http://www.cnrs.fr/), [Inserm](http://www.inserm.fr/), and [Université Strasbourg](http://www.unistra.fr/).
 
-See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/Events/ECCB2014/index.md) by Stephanie Le Gras, *et al.* for more.
+See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/events/ECCB2014/index.md) by Stephanie Le Gras, *et al.* for more.
 
 ## MIRPIPE
 
@@ -263,8 +263,8 @@ See "[MIRPIPE – quantification of microRNAs in niche model organisms](http://b
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/src/Community/Logs/index.md'><img src="/src/Images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
-<div class='right'><a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/src/Community/Logs/index.md'><img src="/src/images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='right'><a href='/src/Community/Deployments/index.md'><img src="/src/images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
 <br />
 
 <table>
@@ -276,14 +276,14 @@ See "[MIRPIPE – quantification of microRNAs in niche model organisms](http://b
 <br /><br />
 
 <div class='left'><br />
-<a href='/src/Community/Log/2014/GalaxyOnBioLinux8/index.md'><img src="/src/Images/Logos/EOS.gif" alt="Overview of Galaxy on Bio-Linux 8" width="100" /></a>
+<a href='/src/Community/Log/2014/GalaxyOnBioLinux8/index.md'><img src="/src/images/Logos/EOS.gif" alt="Overview of Galaxy on Bio-Linux 8" width="100" /></a>
 </div>
 
 The [deployment details](/src/Community/Deployment/GalaxEast/index.md) for the [GalaxEast public server](/src/PublicGalaxyServers/index.md#galaxeast) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/src/Community/Logs/index.md).
 
 The *[Deployment Catalog](/src/Community/Deployments/index.md)* and *[Community Log Board](/src/Community/Logs/index.md)* *[Galaxy community hubs](/src/Community/index.md)* were launched in 2013.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them **this month.**
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # New Releases
 

@@ -7,7 +7,7 @@ autotoc: true
 
 ## See also
 
-* The [News](/src/News/index.md) and the [News Archive](/src/News/Archive/index.md)
+* The [News](/src/news/index.md) and the [News Archive](/src/news/Archive/index.md)
 * [Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)
 * [Galaxy on Twitter](/src/GalaxyOnTwitter/index.md)
 * [Mailing Lists](/src/MailingLists/index.md)

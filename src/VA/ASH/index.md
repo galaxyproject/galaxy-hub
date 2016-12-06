@@ -2,7 +2,7 @@
 title: [Automated Selection of Hotspots (ASH) VM](http://bioinformatics.erasmusmc.nl/wiki/index.php/Automated_Selection_of_Hotspots)
 ---
 <div class='center'>
-<a href='http://bioinformatics.erasmusmc.nl/wiki/index.php/Automated_Selection_of_Hotspots'><img src="/src/Images/Logos/ERasmusBioinformatics.jpg" alt="Erasmus Center for Bioinformatics" height="200" /></a>
+<a href='http://bioinformatics.erasmusmc.nl/wiki/index.php/Automated_Selection_of_Hotspots'><img src="/src/images/Logos/ERasmusBioinformatics.jpg" alt="Erasmus Center for Bioinformatics" height="200" /></a>
 </div>
 
 

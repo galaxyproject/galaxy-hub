@@ -1,7 +1,7 @@
 ---
 title: Galaxy @ [PAG 2014](http://www.intlpag.org/) and [GMOD 2014](http://gmod.org/wiki/Jan_2014_GMOD_Meeting)
 ---
-<div class='center'><a href='http://www.intlpag.org/'><img src="/src/Images/Logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2014)" height="100" /></a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'><img src="/src/Images/Logos/GMOD2014.png" alt="2014 GMOD Meeting" height="90" /></a> 
+<div class='center'><a href='http://www.intlpag.org/'><img src="/src/images/Logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2014)" height="100" /></a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'><img src="/src/images/Logos/GMOD2014.png" alt="2014 GMOD Meeting" height="90" /></a> 
 </div>
 
 
@@ -135,6 +135,6 @@ The [GMOD 2014](http://gmod.org/wiki/Jan_2014_GMOD_Meeting) meeting schedule has
 ## Flier
 
 <div class='left'>
-<a href='PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtPAG2014Flier.pdf'><img src="/src/Events/PAG_GMOD_2014/GalaxyAtPAG_GMOD_2014Thumb.png" alt="Galaxy Related Events @ PAG & GMOD 2014" height="137" /></a> 
-<a href='PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtPAG2014wGCCFlier.pdf'><img src="/src/Events/GCC2014/Promotion/GCC2014FlierThumb.png" alt="Galaxy @ PAG; on one side GCC announcement on the other" /></a></div>
+<a href='PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtPAG2014Flier.pdf'><img src="/src/events/PAG_GMOD_2014/GalaxyAtPAG_GMOD_2014Thumb.png" alt="Galaxy Related Events @ PAG & GMOD 2014" height="137" /></a> 
+<a href='PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtPAG2014wGCCFlier.pdf'><img src="/src/events/GCC2014/Promotion/GCC2014FlierThumb.png" alt="Galaxy @ PAG; on one side GCC announcement on the other" /></a></div>
 Going to PAG?  Print out a copy of the [Galaxy @ PAG 2014 flier](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtPAG2014Flier.pdf).  Want to help get the word out about Galaxy?  [Print the version with the GCC2014 announcement on the back](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyAtPAG2014wGCCFlier.pdf) and take several copies with you.

@@ -1,25 +1,25 @@
-<div class='newsItemHeader'>[GCC2013 Training Day Topics: Vote!](/src/News/GCC2013TrainingDayVote/index.md)</div>
+<div class='newsItemHeader'>[GCC2013 Training Day Topics: Vote!](/src/news/GCC2013TrainingDayVote/index.md)</div>
 
-<div class='right'><a href='/src/Events/GCC2013/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" /></a><br />
-<div class='right'><a href='/src/Events/GCC2013/index.md'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="180" /></a> </div></div>
+<div class='right'><a href='/src/events/GCC2013/TrainingDay/index.md'><img src="/src/images/Logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" /></a><br />
+<div class='right'><a href='/src/events/GCC2013/index.md'><img src="/src/images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="180" /></a> </div></div>
 
-A [list of possible topics](/src/Events/GCC2013/TrainingDay/index.md#topics) for the [GCC2013 Training Day](/src/Events/GCC2013/TrainingDay/index.md) is now available.  Please take a few minutes to [review these possibilities](/src/Events/GCC2013/TrainingDay/index.md#topics) and then [vote for your favorite three topics](http://bit.ly/gcc2013tdpoll).*
+A [list of possible topics](/src/events/GCC2013/TrainingDay/index.md#topics) for the [GCC2013 Training Day](/src/events/GCC2013/TrainingDay/index.md) is now available.  Please take a few minutes to [review these possibilities](/src/events/GCC2013/TrainingDay/index.md#topics) and then [vote for your favorite three topics](http://bit.ly/gcc2013tdpoll).*
 
 Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.  
 
-Once voting [closes on 11 February](/src/Events/GCC2013/KeyDates/index.md), we will contact possible instructors and publish a Training Day schedule before [registration opens on 22 February](/src/Events/GCC2013/Register/index.md).
+Once voting [closes on 11 February](/src/events/GCC2013/KeyDates/index.md), we will contact possible instructors and publish a Training Day schedule before [registration opens on 22 February](/src/events/GCC2013/Register/index.md).
 
 <br />
 
-**About the [GCC2013 Training Day](/src/Events/GCC2013/TrainingDay/index.md):**
+**About the [GCC2013 Training Day](/src/events/GCC2013/TrainingDay/index.md):**
 
-The [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/index.md) will start on 30 June with a [Training Day](/src/Events/GCC2013/TrainingDay/index.md) featuring 4 parallel tracks, each with three workshops, each of which are two hours long, for a total of twelve sessions. There will be at least one complete track (3 consecutive workshops) about using Galaxy for biological research, and at least one full track on deploying and managing Galaxy instances.
+The [2013 Galaxy Community Conference (GCC2013)](/src/events/GCC2013/index.md) will start on 30 June with a [Training Day](/src/events/GCC2013/TrainingDay/index.md) featuring 4 parallel tracks, each with three workshops, each of which are two hours long, for a total of twelve sessions. There will be at least one complete track (3 consecutive workshops) about using Galaxy for biological research, and at least one full track on deploying and managing Galaxy instances.
 
 As always, please let us know if you have any questions.
 
 Thanks,
 
-The [GCC2013 Organizing Committee](/src/Events/GCC2013/Organizers/index.md)
+The [GCC2013 Organizing Committee](/src/events/GCC2013/Organizers/index.md)
 
 <table>
   <tr>
@@ -29,6 +29,6 @@ The [GCC2013 Organizing Committee](/src/Events/GCC2013/Organizers/index.md)
 </table>
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-01-28</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-01-28</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

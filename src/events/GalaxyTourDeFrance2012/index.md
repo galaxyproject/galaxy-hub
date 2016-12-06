@@ -1,7 +1,7 @@
 ---
 title: Galaxy Tour de France 2012
 ---
-<div class='center'><img src="/src/Images/Logos/GalaxyTourDeFranceMap.png" alt="Galaxy Tour de France 2012" width="500" /></div>
+<div class='center'><img src="/src/images/Logos/GalaxyTourDeFranceMap.png" alt="Galaxy Tour de France 2012" width="500" /></div>
 
 
 
@@ -12,21 +12,21 @@ Galaxy went on tour in France during the last week of May.  Workshops were help 
 
 <table>
   <tr>
-    <td style=" text-align: center;"> <a href='http://biom.obs-banyuls.fr/fr/index.html'><img src="/src/Images/Logos/AragoLogo2.png" alt="Laboratoire de Biologie Intégrative des Organismes Marins" height="80" /></a><br /><a href='http://univ-perp.fr/'><img src="/src/Images/Logos/UPVD_logo.png" alt="University of Perpignan Via Domitia" height="40" /></a><br /><a href='http://biom.obs-banyuls.fr/fr/index.html'>28 May, Perpignan</a> </td>
-    <td style=" text-align: center;"> <a href='http://phylogeny.lirmm.fr/phylo_cgi/index.cgi'><img src="/src/Images/Logos/MABL_LIRMM_Logo.png" alt="MABL/LIRMM" height="80" /></a> <br /> <a href='http://www.atgc-montpellier.fr/'><img src="/src/Images/Logos/ATGC_BP_logo.jpg" alt="ATGC Bioinformatics Platform" height="50" /></a><br /><a href='http://www.cnrs.fr/languedoc-roussillon/09com-presen-deleg/09-6-plan/1-plan-acces.htm'>29 May, CNRS Montpellier</a> </td>
-    <td style=" text-align: center;"> <a href='http://lbbe.univ-lyon1.fr/'><img src="/src/Images/Logos/LBBElogo.png" alt="Laboratoire Biométrie et Biologie Evolutive" height="100" /></a><br /><a href='http://lbbe.univ-lyon1.fr/'>30 May, Lyon</a> </td>
-    <td style=" text-align: center;"> <a href='http://u900.curie.fr/'><img src="/src/Images/Logos/CurieLogo.gif" alt="Inserm, Mines ParisTech, Institut Curie, Bioinformatics and Computational Systems Biology of Cancer" height="100" /></a><br /><a href='http://u900.curie.fr/'>1 June, Paris</a> </td>
+    <td style=" text-align: center;"> <a href='http://biom.obs-banyuls.fr/fr/index.html'><img src="/src/images/Logos/AragoLogo2.png" alt="Laboratoire de Biologie Intégrative des Organismes Marins" height="80" /></a><br /><a href='http://univ-perp.fr/'><img src="/src/images/Logos/UPVD_logo.png" alt="University of Perpignan Via Domitia" height="40" /></a><br /><a href='http://biom.obs-banyuls.fr/fr/index.html'>28 May, Perpignan</a> </td>
+    <td style=" text-align: center;"> <a href='http://phylogeny.lirmm.fr/phylo_cgi/index.cgi'><img src="/src/images/Logos/MABL_LIRMM_Logo.png" alt="MABL/LIRMM" height="80" /></a> <br /> <a href='http://www.atgc-montpellier.fr/'><img src="/src/images/Logos/ATGC_BP_logo.jpg" alt="ATGC Bioinformatics Platform" height="50" /></a><br /><a href='http://www.cnrs.fr/languedoc-roussillon/09com-presen-deleg/09-6-plan/1-plan-acces.htm'>29 May, CNRS Montpellier</a> </td>
+    <td style=" text-align: center;"> <a href='http://lbbe.univ-lyon1.fr/'><img src="/src/images/Logos/LBBElogo.png" alt="Laboratoire Biométrie et Biologie Evolutive" height="100" /></a><br /><a href='http://lbbe.univ-lyon1.fr/'>30 May, Lyon</a> </td>
+    <td style=" text-align: center;"> <a href='http://u900.curie.fr/'><img src="/src/images/Logos/CurieLogo.gif" alt="Inserm, Mines ParisTech, Institut Curie, Bioinformatics and Computational Systems Biology of Cancer" height="100" /></a><br /><a href='http://u900.curie.fr/'>1 June, Paris</a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center;"> <strong><a href='/src/Events/GalaxyTourDeFrance2012/index.md#galaxy-for-biologists'>Galaxy for Biologists</a></strong><br /> 9:00 - 12:00<br />This session is now full </td>
+    <td style=" text-align: center;"> <strong><a href='/src/events/GalaxyTourDeFrance2012/index.md#galaxy-for-biologists'>Galaxy for Biologists</a></strong><br /> 9:00 - 12:00<br />This session is now full </td>
     <td rowspan=2 style=" text-align: center;"> <strong>Galaxy for Biologists<br />and Developers</strong><br />12:00 - 15:30<br /> Space available </td>
-    <td style=" text-align: center;"> <strong><a href='/src/Events/GalaxyTourDeFrance2012/index.md#galaxy-for-biologists'>Galaxy for Biologists</a></strong><br />9:00 - 12:00<br />Space available </td>
-    <td style=" text-align: center;"> <strong><a href='/src/Events/GalaxyTourDeFrance2012/index.md#galaxy-for-biologists'>Galaxy for Biologists</a></strong><br />9:00 - 12:00<br />Space available </td>
+    <td style=" text-align: center;"> <strong><a href='/src/events/GalaxyTourDeFrance2012/index.md#galaxy-for-biologists'>Galaxy for Biologists</a></strong><br />9:00 - 12:00<br />Space available </td>
+    <td style=" text-align: center;"> <strong><a href='/src/events/GalaxyTourDeFrance2012/index.md#galaxy-for-biologists'>Galaxy for Biologists</a></strong><br />9:00 - 12:00<br />Space available </td>
   </tr>
   <tr>
-    <td style=" text-align: center;"> <strong><a href='/src/Events/GalaxyTourDeFrance2012/index.md#galaxy-for-developers'>Galaxy for Developers</a></strong><br />14:00 - 17:00<br />This session is now full </td>
-    <td style=" text-align: center;"> <strong><a href='/src/Events/GalaxyTourDeFrance2012/index.md#galaxy-for-developers'>Galaxy for Developers</a></strong><br />14:00 - 17:00<br />Space available </td>
-    <td style=" text-align: center;"> <strong><a href='/src/Events/GalaxyTourDeFrance2012/index.md#galaxy-for-developers'>Galaxy for Developers</a></strong><br />14:00 - 17:00<br />Space available </td>
+    <td style=" text-align: center;"> <strong><a href='/src/events/GalaxyTourDeFrance2012/index.md#galaxy-for-developers'>Galaxy for Developers</a></strong><br />14:00 - 17:00<br />This session is now full </td>
+    <td style=" text-align: center;"> <strong><a href='/src/events/GalaxyTourDeFrance2012/index.md#galaxy-for-developers'>Galaxy for Developers</a></strong><br />14:00 - 17:00<br />Space available </td>
+    <td style=" text-align: center;"> <strong><a href='/src/events/GalaxyTourDeFrance2012/index.md#galaxy-for-developers'>Galaxy for Developers</a></strong><br />14:00 - 17:00<br />Space available </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> <a href='http://lgdp.univ-perp.fr/index.php?page=laboratoire_2'>Laboratoire Génome et </a><br /><a href='http://lgdp.univ-perp.fr/index.php?page=laboratoire_2'>Développement des Plantes</a><br /> Bâtiment T<br />58, Avenue Paul Alduy<br />66860 Perpignan </td>
@@ -41,7 +41,7 @@ Galaxy went on tour in France during the last week of May.  Workshops were help 
 
 **Location:**
 
-<div class='right'><a href='/src/Events/GalaxyTourDeFrance2012/PerpignanWorkshopMap.png'><img src="/src/Events/GalaxyTourDeFrance2012/PerpignanWorkshopMap.png" alt="Perpignan Workshop location. Click to enlarge." width="200" /></a><div class='center'>Perpignan workshop location</div></div>
+<div class='right'><a href='/src/events/GalaxyTourDeFrance2012/PerpignanWorkshopMap.png'><img src="/src/events/GalaxyTourDeFrance2012/PerpignanWorkshopMap.png" alt="Perpignan Workshop location. Click to enlarge." width="200" /></a><div class='center'>Perpignan workshop location</div></div>
 
 The workshops will be held in the seminar room of the [Laboratoire Génome et Développement des Plantes (LGDP)](http://lgdp.univ-perp.fr/index.php?page=laboratoire_2) of the [University of Perpignan](http://univ-perp.fr), the address details are:
 
@@ -68,7 +68,7 @@ The workshops will be held in the seminar room of the [Laboratoire Génome et D�
 
 ## Paris: 1 June
 
-<div class='right'><a href='/src/Events/GalaxyTourDeFrance2012/ParisWorkshopMetroStations.png'><img src="/src/Events/GalaxyTourDeFrance2012/ParisWorkshopMetroStations.png" alt="Paris Workshop location and nearby Metro and RER stations. Click to enlarge." width="200" /></a><div class='center'>Paris workshop location<br /> nearby Metro & RER stations.</div></div>
+<div class='right'><a href='/src/events/GalaxyTourDeFrance2012/ParisWorkshopMetroStations.png'><img src="/src/events/GalaxyTourDeFrance2012/ParisWorkshopMetroStations.png" alt="Paris Workshop location and nearby Metro and RER stations. Click to enlarge." width="200" /></a><div class='center'>Paris workshop location<br /> nearby Metro & RER stations.</div></div>
 
 **Location:**
 
@@ -121,5 +121,5 @@ If you attend both workshops and plan to eat in the area, there are many choices
 This tour was generously sponsored and hosted by the [Laboratoire de Biologie Intégrative des Organismes Marins](http://biom.obs-banyuls.fr/fr/index.html), [MABL/LIRMM](http://phylogeny.lirmm.fr/phylo_cgi/index.cgi), the [ATGC Bioinformatics Platform](http://www.atgc-montpellier.fr/), the [Laboratoire Biométrie et Biologie Evolutive](http://lbbe.univ-lyon1.fr/), and the [Inserm - Mines ParisTech - Institut Curie - Bioinformatics and Computational Systems Biology of Cancer](http://u900.curie.fr/).  Further support for the workshops was provided by an [Amazon Web Services (AWS) Education Grant](http://aws.amazon.com/education).
 
 <div class='center'>
-<a href='http://biom.obs-banyuls.fr/fr/index.html'><img src="/src/Images/Logos/AragoLogo.png" alt="Laboratoire de Biologie Intégrative des Organismes Marins" height="80" /></a> &nbsp; <a href='http://www.cnrs.fr/languedoc-roussillon/09com-presen-deleg/09-6-plan/1-plan-acces.htm'><img src="/src/Images/Logos/CNRS_logo.png" alt="CNRS" height="80" /></a> &nbsp;&nbsp; <a href='http://lbbe.univ-lyon1.fr/'><img src="/src/Images/Logos/LBBElogo.png" alt="Laboratoire Biométrie et Biologie Evolutive" height="80" /></a> &nbsp; <a href='http://u900.curie.fr/'><img src="/src/Images/Logos/CurieLogo.gif" alt="Inserm, Mines ParisTech, Institut Curie, Bioinformatics and Computational Systems Biology of Cancer" height="80" /></a> &nbsp; <a href='http://aws.amazon.com/education'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services (AWS) in Education Grant" /></a>
+<a href='http://biom.obs-banyuls.fr/fr/index.html'><img src="/src/images/Logos/AragoLogo.png" alt="Laboratoire de Biologie Intégrative des Organismes Marins" height="80" /></a> &nbsp; <a href='http://www.cnrs.fr/languedoc-roussillon/09com-presen-deleg/09-6-plan/1-plan-acces.htm'><img src="/src/images/Logos/CNRS_logo.png" alt="CNRS" height="80" /></a> &nbsp;&nbsp; <a href='http://lbbe.univ-lyon1.fr/'><img src="/src/images/Logos/LBBElogo.png" alt="Laboratoire Biométrie et Biologie Evolutive" height="80" /></a> &nbsp; <a href='http://u900.curie.fr/'><img src="/src/images/Logos/CurieLogo.gif" alt="Inserm, Mines ParisTech, Institut Curie, Bioinformatics and Computational Systems Biology of Cancer" height="80" /></a> &nbsp; <a href='http://aws.amazon.com/education'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services (AWS) in Education Grant" /></a>
 </div>

@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" width="250" /></a></div>
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" width="250" /></a></div>
 
 PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/Meetups/LinkBox/index.md)
 
@@ -10,7 +10,7 @@ The [GalaxyAdmins](/src/Community/GalaxyAdmins/Meetups//index.md) group has bi-m
 **2016**
 
 * [2016/12/15 Web Meetup](/src/Community/GalaxyAdmins/Meetups/2016_12_15/index.md)
-* [2016/10/20](/src/Events/Switzerland2016/index.md) in person Meetup at the [Swiss Galaxy workshop](/src/Events/Switzerland2016/index.md) 
+* [2016/10/20](/src/events/Switzerland2016/index.md) in person Meetup at the [Swiss Galaxy workshop](/src/events/Switzerland2016/index.md) 
 * **[2016/08/18 Web Meetup](/src/Community/GalaxyAdmins/Meetups/2016_08_18/index.md)**
     [Olivia Choudhury](https://engineering.nd.edu/profiles/colivia), [Nick Hazekamp](https://engineering.nd.edu/profiles/nhazekamp), and [Scott Emrich](https://www3.nd.edu/~semrich/) of the [University of Notre Dame](http://www.nd.edu/) present on MakeFlow.
 * [2016/06/28](https://gcc16.sched.org/event/7KLn/galaxyadmins-birds-of-a-feather) in person Meetup at [GCC2016](https://gcc2016.iu.edu/)
@@ -27,7 +27,7 @@ The [GalaxyAdmins](/src/Community/GalaxyAdmins/Meetups//index.md) group has bi-m
     David Kovalic will talk about *Galaxy at Analome – Outreach, Opportunity and Challenges*
 * [2015/08/20 Web Meetup](/src/Community/GalaxyAdmins/Meetups/2015_08_20/index.md)
     Aaron Petkau will talk about *Genomic data management at Canada's National Microbiology Laboratory with IRIDA and Galaxy*
-* [2015/07/06-08 in person Meetup](/src/Events/GCC2015/BoFs/GalaxyAdmins/index.md) at [GCC2015](http://gcc2015.tsl.ac.uk/)
+* [2015/07/06-08 in person Meetup](/src/events/GCC2015/BoFs/GalaxyAdmins/index.md) at [GCC2015](http://gcc2015.tsl.ac.uk/)
 * [2015/06/18 Web Meetup](/src/Community/GalaxyAdmins/Meetups/2015_06_18/index.md)
     Peter Briggs will talk about *Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester*
 * [2015/04/16 Web Meetup](/src/Community/GalaxyAdmins/Meetups/2015_04_16/index.md)
@@ -37,15 +37,15 @@ The [GalaxyAdmins](/src/Community/GalaxyAdmins/Meetups//index.md) group has bi-m
 
 **2014**
 
-* 2014/06/30-2014/07/02: [GalaxyAdmins BoF](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md) at [GCC2014](/src/Events/GCC2014/index.md)
-    Meet in person at [GCC2014](/src/Events/GCC2014/index.md) to discuss [the future of GalaxyAdmins](/src/Community/GalaxyAdmins/Future/index.md).
+* 2014/06/30-2014/07/02: [GalaxyAdmins BoF](/src/events/GCC2014/BoFs/GalaxyAdmins/index.md) at [GCC2014](/src/events/GCC2014/index.md)
+    Meet in person at [GCC2014](/src/events/GCC2014/index.md) to discuss [the future of GalaxyAdmins](/src/Community/GalaxyAdmins/Future/index.md).
 * [2013/11/20 Web Meetup](/src/Community/GalaxyAdmins/Meetups/2013_11_20/index.md)
     GCC2013 discussion followup, and [Main](/src/Main/index.md) moves to TACC.
 
 **2013**
 
-* 2013/06/30-2013/07/02: [Future of GalaxyAdmins BoF](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md) at [GCC2013](/src/Events/GCC2013/index.md)
-    Meet in person at [GCC2013](/src/Events/GCC2013/index.md) to discuss [the future of GalaxyAdmins](/src/Community/GalaxyAdmins/Future/index.md).
+* 2013/06/30-2013/07/02: [Future of GalaxyAdmins BoF](/src/events/GCC2013/BoF/GalaxyAdmins/index.md) at [GCC2013](/src/events/GCC2013/index.md)
+    Meet in person at [GCC2013](/src/events/GCC2013/index.md) to discuss [the future of GalaxyAdmins](/src/Community/GalaxyAdmins/Future/index.md).
 * [2013/05/15 Web Meetup](/src/Community/GalaxyAdmins/Meetups/2013_05_15/index.md)
     Andrew Warren of the [Cyberinfrastructure Division](http://www.vbi.vt.edu/faculty/group_overview/Cyberinfrastructure_Division) of the [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) at Virginia Tech talked about their [Galaxy deployment](http://rnaseq.pathogenportal.org/) at [Pathogen Portal](http://pathogenportal.org), a highly customized Galaxy installation, and also about the group's objectives and future plans.  [DannonBaker](/src/DannonBaker/index.md) did the Galaxy Project update on this call.
 * [2013/03/20 Web Meetup](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md)
@@ -60,7 +60,7 @@ The [GalaxyAdmins](/src/Community/GalaxyAdmins/Meetups//index.md) group has bi-m
 * [2012/09/19 Web Meetup](/src/Community/GalaxyAdmins/Meetups/2012_09_19/index.md)
     Our name has changed to Galaxy-Admins (Cheers Hans-Rudolf Holtz!).  We have set a common time to meet.  Alex Moskalenko spoke about Galaxy at University of Florida.
 * [2012/07/27 Breakout at GCC2012](/src/Community/GalaxyAdmins/Meetups/2012_07_27/index.md)
-    The group had a breakout at [GCC2012](/src/Events/GCC2012/index.md)
+    The group had a breakout at [GCC2012](/src/events/GCC2012/index.md)
 * [2012/07/09 Web Meetup](/src/Community/GalaxyAdmins/Meetups/2012_07_09/index.md) 
     Inaugural conference call. Set up some guidelines and Ann Black-Ziegelbein talked about their setup up at Iowa and specifically their experience with storage infrastructure.
 

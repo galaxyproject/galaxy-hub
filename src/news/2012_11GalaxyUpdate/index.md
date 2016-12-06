@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[November 2012 Galaxy Update](/src/News/2012_11GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[November 2012 Galaxy Update](/src/news/2012_11GalaxyUpdate/index.md)</div>
 
-<div class='right'><a href='/src/GalaxyUpdates/2012_11/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="November 2012 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/src/GalaxyUpdates/2012_11/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="November 2012 Galaxy Update" width=150 /></a></div>
 
 The [November 2012 Galaxy Update is now available](/src/GalaxyUpdates/2012_11/index.md). 
 
@@ -18,6 +18,6 @@ If you have anything you would like to see in the December *[Galaxy Update](/src
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-10-31</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-10-31</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

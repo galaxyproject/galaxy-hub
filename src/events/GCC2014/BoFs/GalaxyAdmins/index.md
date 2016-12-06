@@ -1,12 +1,12 @@
 ---
 title: [GalaxyAdmins](/src/GalaxyAdmins/index.md) BoF
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
 
 
 
 <div class='dictbox'>
- BoF:: **[GalaxyAdmins](/src/Events/GCC2014/BoFs/GalaxyAdmins/index.md)**
+ BoF:: **[GalaxyAdmins](/src/events/GCC2014/BoFs/GalaxyAdmins/index.md)**
  Summary:: The now annual in-person gathering of the [GalaxyAdmins Community](/src/Community/GalaxyAdmins/index.md).
  Audience:: If you manage a Galaxy instance, then this BoF is for you.  
  When:: **Wednesday, July 2, 5:45pm**
@@ -14,18 +14,18 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
  Contact:: [Dave Clements](/src/DaveClements/index.md)
 </div>
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
 
-<div class='left'><a href='/src/Events/GCC2014/BoFs/index.md'><img src="/src/Images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a><br /><br />
-<a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="100" /></a></div></div>
+<div class='left'><a href='/src/events/GCC2014/BoFs/index.md'><img src="/src/images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a><br /><br />
+<a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="100" /></a></div></div>
 
-This page describes the **[GalaxyAdmins](/src/GalaxyAdmins/index.md)** [Birds of a Feather](/src/Events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
+This page describes the **[GalaxyAdmins](/src/GalaxyAdmins/index.md)** [Birds of a Feather](/src/events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/events/GCC2014/index.md).
 
 # Description
 
 [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/src/Community/GalaxyAdmins/Meetups/index.md) and at events like GCC2014, where a lot of us happen to be.
 
-GCC2014 coincides with the two year anniversary of GalaxyAdmins starting up.  The [GalaxyAdmins BoF at GCC2013](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md) was very well attended and resulted in several actions items, many of which have now been implemented.  However, the past 12 months have been less successful at having this group meet online every other month.
+GCC2014 coincides with the two year anniversary of GalaxyAdmins starting up.  The [GalaxyAdmins BoF at GCC2013](/src/events/GCC2013/BoF/GalaxyAdmins/index.md) was very well attended and resulted in several actions items, many of which have now been implemented.  However, the past 12 months have been less successful at having this group meet online every other month.
 
 This meetup will discuss last year's action items, what we can about meetups in the coming year, GalaxyAdmins leadership, and whatever else participants want to talk about.
 
@@ -100,7 +100,7 @@ Discussion focused on a few different areas:
 
 # Action Items from GCC2013 Meetup
 
-[Last year's meetup](/src/Events/GCC2013/BoF/GalaxyAdmins/index.md) provided a number of actions.  Most of them were acted upon.
+[Last year's meetup](/src/events/GCC2013/BoF/GalaxyAdmins/index.md) provided a number of actions.  Most of them were acted upon.
 
 ## Separate Mailing List for GalaxyAdmins
 

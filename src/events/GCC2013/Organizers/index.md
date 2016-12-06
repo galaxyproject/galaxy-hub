@@ -2,11 +2,11 @@
 autotoc: true
 title: Organizers
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/LinkBox/index.md)
 
 
 
@@ -27,7 +27,7 @@ The GCC2013 Organizing Committee is responsible for event planning.  The Organiz
 
 ## Scientific Committee
 
-The GCC2013 Scientific Committee is responsible for reviewing [talk and poster abstract submissions](/src/Events/GCC2013/Abstracts/index.md), selecting and inviting keynote speakers, and reviewing and selecting lightning talk proposals. 
+The GCC2013 Scientific Committee is responsible for reviewing [talk and poster abstract submissions](/src/events/GCC2013/Abstracts/index.md), selecting and inviting keynote speakers, and reviewing and selecting lightning talk proposals. 
 
 The Scientific Committee can be reached at [gcc2013 DASH sci AT galaxyproject DOT org](mailto:gcc2013 DASH sci AT galaxyproject DOT org).
 
@@ -42,4 +42,4 @@ The Scientific Committee can be reached at [gcc2013 DASH sci AT galaxyproject DO
  **[James Taylor](/src/JamesTaylor/index.md)**, Committee Chair
    [Emory University](http://emory.edu)
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Footer/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/Footer/index.md)

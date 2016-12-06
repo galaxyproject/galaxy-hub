@@ -24,6 +24,6 @@ upgrade: % hg pull -u -r 949e4f5fa03a
 
 [/Galaxy Team](/Galaxy Team)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on <<Date(2011-08-31T19:48:54Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on <<Date(2011-08-31T19:48:54Z)>></div>
 
 CategoryNews

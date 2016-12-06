@@ -1,8 +1,8 @@
-<div class='newsItemHeader'>[Main & Test ServerDowntime: 3/14](/src/News/GalaxyProectServersDown20130314/index.md)</div>
+<div class='newsItemHeader'>[Main & Test ServerDowntime: 3/14](/src/news/GalaxyProectServersDown20130314/index.md)</div>
 
 The **Galaxy Public [Main Galaxy Server](/src/Main/index.md)** at **http://main.g2.bx.psu.edu''' (''[usegalaxy.org](http://usegalaxy.org)*) and **[Test Galaxy Server](/src/Test/index.md)** at **http://test.g2.bx.psu.edu''' will be '''down on Thursday, March 14, while the team ''relocates core hardware to a new server room.'''''
 
-<div class='right'>![Rerun a job](/src/Images/Screenshots/re-run-sm.png)</div>
+<div class='right'>![Rerun a job](/src/images/Screenshots/re-run-sm.png)</div>
 
 Please note that *ALL jobs running at the time of the shutdown will be terminated.* Once the move is complete, any terminated jobs can be easily restarted using the "re-run" function. 
 
@@ -13,6 +13,6 @@ The *yellow banner on **Main** and **Test** will provide updates* (when the serv
 *Thanks for using Galaxy!!*
 
 [Galaxy Team](/src/GalaxyTeam/index.md)
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-03-07</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-03-07</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

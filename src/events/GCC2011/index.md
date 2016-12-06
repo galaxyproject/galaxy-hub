@@ -1,4 +1,4 @@
-<div class='center'><a href='http://galaxy.psu.edu/gcc2011/'><img src="/src/Events/GCC2011Logo400.png" alt="http://galaxy.psu.edu/gcc2011/" /></a></div>
+<div class='center'><a href='http://galaxy.psu.edu/gcc2011/'><img src="/src/events/GCC2011Logo400.png" alt="http://galaxy.psu.edu/gcc2011/" /></a></div>
 
 The 2011 Galaxy Community Conference was held 25-26 May, at the [Conference Centre De Werelt](http://www.congrescentrum.com/accommodations/de_werelt) in Lunteren, The Netherlands. The conference featured [two full days](http://galaxy.psu.edu/gcc2011/Programme.html) of presentations and discussion on extending [Galaxy](http://usegalaxy.org) to use new tools and data sources, deploying Galaxy locally, and best practices for using Galaxy to further your research. The event drew almost 150 participants from 19 countries on six continents.  The conference was co-organized and hosted by the [Netherlands Bioinformatics Centre (NBIC)](http://www.nbic.nl/).
 
@@ -66,12 +66,12 @@ Relocate the links from the current pages in Bitbucket to here.
 
 Each breakout has its own wiki page for notes. Someone in each group was selected to take notes, either directly on the wiki page, or just in a text editor (in which case, they will show up in June).
 
-* [Visualization and Visual Analytics](/src/Events/GCC2011/Visualization and Visual Analytics/index.md) ([Jeremy Goecks](/src/JeremyGoecks/index.md))
-* [Sample Tracking and Instrument Integration](/src/Events/GCC2011/Sample Tracking and Instrument Integration/index.md) (Greg Von Kuster)
+* [Visualization and Visual Analytics](/src/events/GCC2011/Visualization and Visual Analytics/index.md) ([Jeremy Goecks](/src/JeremyGoecks/index.md))
+* [Sample Tracking and Instrument Integration](/src/events/GCC2011/Sample Tracking and Instrument Integration/index.md) (Greg Von Kuster)
 * [[/Thinking Big: CloudMan, Grid, and Scalability|Thinking Big: CloudMan, Grid, and Scalability]] (Enis Afgan)
-* [Workflows and API](/src/Events/GCC2011/Workflows and API/index.md) (Kanwei Li)
+* [Workflows and API](/src/events/GCC2011/Workflows and API/index.md) (Kanwei Li)
 * [[/Complex Tools and Datasources: Parameters, Datatypes and Metadata|Complex Tools and Datasources: Parameters, Datatypes and Metadata]] (Dan Blankenberg)
-* [Building a Data Infrastructure: Genomic Data Management](/src/Events/GCC2011/BuildingADataInfrastructure/index.md) (Kelly Vincent)
+* [Building a Data Infrastructure: Genomic Data Management](/src/events/GCC2011/BuildingADataInfrastructure/index.md) (Kelly Vincent)
 
 ## Pictures
 

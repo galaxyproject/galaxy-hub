@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[2013 Galaxy Day Report](/src/News/GalaxyDay2013Report/index.md)</div>
+<div class='newsItemHeader'>[2013 Galaxy Day Report](/src/news/GalaxyDay2013Report/index.md)</div>
 
-<div class='right'><a href='http://wiki.sb-roscoff.fr/ifb/index.php/Accueil'><img src="/src/Images/Logos/GalaxyIFB.png" alt="Galaxy Day" /></a></div>
+<div class='right'><a href='http://wiki.sb-roscoff.fr/ifb/index.php/Accueil'><img src="/src/images/Logos/GalaxyIFB.png" alt="Galaxy Day" /></a></div>
 
 The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) took place at Institut Curie in Paris, 4 december.  Program and presentations are [available online](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil). 
 
@@ -20,6 +20,6 @@ The third session contained three lightning talks about global feedback from dif
 
 [Olivier Inizan](https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Olivier-Inizan) and [Jean-François Dufayard](https://sites.google.com/site/jeanfrancoisdufayard/)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-12-17</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-12-17</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

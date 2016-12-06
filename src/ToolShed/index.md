@@ -1,5 +1,5 @@
 PLACEHOLDER_INCLUDE(/src/Admin/Tools/LinkBox/index.md)
-<div class='right'> <a href='/src/ToolShed/index.md'><img src="/src/Images/Logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a> 
+<div class='right'> <a href='/src/ToolShed/index.md'><img src="/src/images/Logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a> 
 </div>
 
 # The Galaxy Tool Shed

@@ -1,8 +1,8 @@
-<div class='newsItemHeader'>[June 2015 Galactic News](/src/News/2015_06GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[June 2015 Galactic News](/src/news/2015_06GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/src/GalaxyUpdates/2015_06/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galactic News! June 2015 Edition" width=150 /></a><br /><br />
-<a href='/src/GalaxyUpdates/2015_06/index.md#gcc2015-4-8-july-norwich-uk'><img src="/src/Images/Logos/GCC2015LogoWide600.png" alt="GCC2015" width="150" /></a><br />
+<a href='/src/GalaxyUpdates/2015_06/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galactic News! June 2015 Edition" width=150 /></a><br /><br />
+<a href='/src/GalaxyUpdates/2015_06/index.md#gcc2015-4-8-july-norwich-uk'><img src="/src/images/Logos/GCC2015LogoWide600.png" alt="GCC2015" width="150" /></a><br />
 </div>
 
 The **[June Galactic News](/src/GalaxyUpdates/2015_06/index.md)** brings this *news of the Galaxy:*
@@ -23,6 +23,6 @@ And, [other news](/src/GalaxyUpdates/2015_06/index.md#other-news) as well.
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-05-31 </div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-05-31 </div>
 
 [CategoryNews](/src/CategoryNews/index.md)

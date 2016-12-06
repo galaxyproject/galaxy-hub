@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <br /><a href='http://vsu.edu/'><img src="/src/Images/Logos/VSULogo.jpg" alt="Virginia State University" width="300" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <br /><a href='http://vsu.edu/'><img src="/src/images/Logos/VSULogo.jpg" alt="Virginia State University" width="300" /></a> </td>
     <td style=" border: none; width: 5%;"> </td>
     <td style=" border: none;"> <div class='title'>Introduction to Galaxy</div><strong>December 12, 2014, 10:00-3:00</strong><br /><br />Instructor: <a href='/src/DaveClements/index.md'>Dave Clements</a><br /><a href='http://bit.ly/1wQ5A9l'>VSU Engineering Building</a>, Room 205<br /><a href='http://vsu.edu/'>Virginia State University</a><br />Petersburg, Virginia, United States </td>
   </tr>
@@ -73,8 +73,8 @@ The workshop is being held in Room 205 of the [VSU Engineering Building](http://
 Please bring a wi-fi enabled laptop to the workshop.
 
 <div class='right'>
-<a href='http://www.cnhs.vsu.edu/index.php'><img src="/src/Images/Logos/VSULogo.jpg" alt="College of Natural and Health Sciences" width="165" /></a>
-<br /><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a>
+<a href='http://www.cnhs.vsu.edu/index.php'><img src="/src/images/Logos/VSULogo.jpg" alt="College of Natural and Health Sciences" width="165" /></a>
+<br /><a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a>
 </div>
 
 ## Support
@@ -89,7 +89,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 Please take a few minutes to provide [your feedback](http://bit.ly/gxyvs2014) on the workshop.
 
-<div class='left'><a href='PLACEHOLDER_ATTACHMENT_URL/src/VSUFlier.pdf'><img src="/src/Events/VSU2014/VSUFlierThumb.png" alt="Download Workshop flier" height="160" /></a></div>
+<div class='left'><a href='PLACEHOLDER_ATTACHMENT_URL/src/VSUFlier.pdf'><img src="/src/events/VSU2014/VSUFlierThumb.png" alt="Download Workshop flier" height="160" /></a></div>
 
 ## Flier
 

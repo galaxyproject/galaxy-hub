@@ -6,7 +6,7 @@ title: October 2012 Galaxy Update
 
 
 
-<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the October 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -70,7 +70,7 @@ These papers were among [35 papers added to the Galaxy CiteULike group](http://w
 
 ## New Public Server: CBIIT
 
-<div class='right'><a href='http://galaxy.cbiit.cuhk.edu.hk/'><img src="/src/Images/Logos/CUHKLogo.jpg" /></a></div>
+<div class='right'><a href='http://galaxy.cbiit.cuhk.edu.hk/'><img src="/src/images/Logos/CUHKLogo.jpg" /></a></div>
 
 The [CUHK-BGI Innovation Institution of Trans-Omics (CBIIT)](http://www.cuhk.edu.hk/cbiit/) has now made its [Galaxy server](http://galaxy.cbiit.cuhk.edu.hk/) publicly available.  The CBIIT Galaxy Server has the standard Galaxy tool set plus SOAPdenovo and SOAPsnp for *de novo* assembly and SNP calling.  
 
@@ -78,31 +78,31 @@ The [CBIIT Galaxy Server](http://galaxy.cbiit.cuhk.edu.hk/) joins the 20+ other 
 
 ## Who's Hiring
 
-<div class='right'><img src="/src/Images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
+<div class='right'><img src="/src/images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs @ Penn State and Emory
 * [offre CDD INRA Versailles](http://bit.ly/TKoV9h) - developpement chaine de traitements RnaSeq sous Galaxy - France Genomique
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='/src/Events/Switzerland2012/index.md'><img src="/src/Images/Logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="90" /></a>
-<a href='http://www.psc.edu/index.php/escience-2012-workshop'><img src="/src/Images/Logos/EScience2012Logo.png" alt="Extending High-Performance Computing Beyond its Traditional User Communities Workshop" height="100" /></a>&nbsp;
-<a href='http://www.ashg.org/2012meeting/pages/workshops.shtml'><img src="/src/Images/Logos/ASHG2012Logo.png" alt="ASHG 2012" height="100" /></a>
+<a href='/src/events/Switzerland2012/index.md'><img src="/src/images/Logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="90" /></a>
+<a href='http://www.psc.edu/index.php/escience-2012-workshop'><img src="/src/images/Logos/EScience2012Logo.png" alt="Extending High-Performance Computing Beyond its Traditional User Communities Workshop" height="100" /></a>&nbsp;
+<a href='http://www.ashg.org/2012meeting/pages/workshops.shtml'><img src="/src/images/Logos/ASHG2012Logo.png" alt="ASHG 2012" height="100" /></a>
 </div>
 
 ### Deadlines
 
-<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/images/Icons/CalendarIcon.gif" /></a></div> 
 
 There are October application, poster, and paper deadlines for 
 * [Rocky 2012](http://www.iscb.org/rocky2012) (deadline October 4)
 * [BeNeLux Bioinformatics Conference 2012 ](http://www.nbic.nl/bbc2012) (deadline October 22)
 
-October events include the [(first Swiss) Galaxy Workshop](/src/Events/Switzerland2012/index.md); [InCoB 2012](http://incob2012.org); [IEEE Conference on eScience](http://www.ci.uchicago.edu/escience2012/) (eScience 2012, which includes the [Extending High-Performance Computing Beyond its Traditional User Communities workshop](http://www.psc.edu/events/escience-2012-workshop/)); [Bio-IT World Europe](http://www.bio-itworldexpoeurope.com/Bio-It_Europe_Content.aspx?id=116078&libID=116026); [BioVis: IEEE Symposium on Biological Data Visualization](http://www.biovis.net); [Advanced NGS Course: RNA-seq data analysis (NBIC)](http://www.nbic.nl/education/course-overview/coursedetails/advanced-ngs-course-rna-seq-data-analysis/); [Advanced Sequencing Technologies & Applications Course (CSHL)](http://meetings.cshl.edu/courses/c-seqtech12.shtml); the [Northeast](http://www.nerlscd.org) and [Midwest](http://www.mwacd.org) Core directors meetings; and [eResearch Australasia 2012](http://conference.eresearch.edu.au/).
+October events include the [(first Swiss) Galaxy Workshop](/src/events/Switzerland2012/index.md); [InCoB 2012](http://incob2012.org); [IEEE Conference on eScience](http://www.ci.uchicago.edu/escience2012/) (eScience 2012, which includes the [Extending High-Performance Computing Beyond its Traditional User Communities workshop](http://www.psc.edu/events/escience-2012-workshop/)); [Bio-IT World Europe](http://www.bio-itworldexpoeurope.com/Bio-It_Europe_Content.aspx?id=116078&libID=116026); [BioVis: IEEE Symposium on Biological Data Visualization](http://www.biovis.net); [Advanced NGS Course: RNA-seq data analysis (NBIC)](http://www.nbic.nl/education/course-overview/coursedetails/advanced-ngs-course-rna-seq-data-analysis/); [Advanced Sequencing Technologies & Applications Course (CSHL)](http://meetings.cshl.edu/courses/c-seqtech12.shtml); the [Northeast](http://www.nerlscd.org) and [Midwest](http://www.mwacd.org) Core directors meetings; and [eResearch Australasia 2012](http://conference.eresearch.edu.au/).
 
 
 News[/GalaxyWorkshopsInSouthAfrica](/src/GalaxyUpdates/2012_10/GalaxyWorkshopsInSouthAfrica/index.md)|Galaxy workshops and talks in South Africa]], the [Automated and reproducible analysis of NGS data (ARANGS12)](http://gtpb.igc.gulbenkian.pt/bicourses/ARANGS12), [Beyond the Genome 2012](http://www.beyond-the-genome.com/2012_event.html), and [ICG Americas 2012](http://www.icgamericas.org/).
@@ -120,7 +120,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> October 3 </th>
-    <td> <em><a href='/src/Events/Switzerland2012/index.md'>(first Swiss) Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/src/events/Switzerland2012/index.md'>(first Swiss) Galaxy Workshop</a></em> </td>
     <td> <strong><a href='https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3'>SyBIT Tech Day</a></strong>, Bern, Switzerland </td>
     <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> </td>
   </tr>
@@ -186,7 +186,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> <strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
+    <td> <strong><em><a href='/src/events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>

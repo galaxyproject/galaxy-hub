@@ -1,12 +1,12 @@
 ---
 title: GCC2013 Training Day
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
-<div class='right'><a href='/src/Events/GCC2013/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/LinkBox/index.md)
+<div class='right'><a href='/src/events/GCC2013/TrainingDay/index.md'><img src="/src/images/Logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
 # Advanced Tool and Data Source Configuration
 
@@ -378,7 +378,7 @@ Feel free to play around with different numbers of entries passing different val
 
 Macros allow the reuse of commonly used chunks of code (e.g. parameter definitions and commandline cheetah code). This is particularly useful for tool suites that may have multiple individual tools, but which share a collection of commonly defined parameters.
 
-Extensively documented: http://wiki.galaxyproject.org/Admin/Tools[/ToolConfigSyntax](/src/Events/GCC2013/TrainingDay/AdvanceToolData/ToolConfigSyntax/index.md)#Reusing_Repeated_Configuration_Elements
+Extensively documented: http://wiki.galaxyproject.org/Admin/Tools[/ToolConfigSyntax](/src/events/GCC2013/TrainingDay/AdvanceToolData/ToolConfigSyntax/index.md)#Reusing_Repeated_Configuration_Elements
 
 An example is the GATK. See tools/gatk/unified_genotyper.xml which makes use of the Macro file tools/gatk/gatk_macros.xml.
 
@@ -1040,4 +1040,4 @@ Some suggestions for exploration (http://wiki.galaxyproject.org/Admin/Tools/Tool
 
 ## 17:00 session ends
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Footer/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/Footer/index.md)

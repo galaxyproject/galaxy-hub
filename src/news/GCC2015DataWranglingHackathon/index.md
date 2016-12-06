@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[Galaxy Data Wrangling Hackathon](/src/News/GCC2015DataWranglingHackathon/index.md)</div>
+<div class='newsItemHeader'>[Galaxy Data Wrangling Hackathon](/src/news/GCC2015DataWranglingHackathon/index.md)</div>
 
-<div class='center'><a href='http://gcc2015.tsl.ac.uk/data-hackathon/'><img src="/src/Images/Logos/GCC2015DataHack400.png" alt="Galaxy Data Wrangling Hackathon @ GCC2015" /></a>
+<div class='center'><a href='http://gcc2015.tsl.ac.uk/data-hackathon/'><img src="/src/images/Logos/GCC2015DataHack400.png" alt="Galaxy Data Wrangling Hackathon @ GCC2015" /></a>
 <br /><br />
 <span style="font-size: larger;"> **Love Galaxy? **</span>
 <br /><br />
@@ -12,6 +12,6 @@ Questions, Feedback, or Hack idea? **[Post here](https://biostar.usegalaxy.org/p
 
 [Jennifer Hillman Jackson](/src/JenniferJackson/index.md) and the [Data Wrangling Hackathon Organising Committee](http://gcc2015.tsl.ac.uk/organisers/#Data_Wrangling_Hackathon_Committee)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-05-08</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-05-08</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

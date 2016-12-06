@@ -1,12 +1,12 @@
 ---
 title: [Common Workflow Language](http://common-workflow-language.github.io)
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2015/Header/index.md)
 
 
 
 <div class='dictbox'>
- BoF:: [Common Workflow Language](/src/Events/GCC2015/BoFs/CWL/index.md)
+ BoF:: [Common Workflow Language](/src/events/GCC2015/BoFs/CWL/index.md)
  Summary:: Talk with [CWL](http://common-workflow-language.github.io) founders & enthusiasts
  Audience:: Research software engineers, analysts, developers, and the like.
  When:: Wednesday, 8 July, 18:00 
@@ -14,9 +14,9 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
  Contact:: [Michael R. Crusoe](mailto:crusoe@ucdavis.edu)
 </div>
 
-<div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
+<div class='left'><a href='/src/events/GCC2015/BoFs/index.md'><img src="/src/images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
-This page is for the **Common Workflow Language** [Birds of a Feather](/src/Events/GCC2015/BoFs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
+This page is for the **Common Workflow Language** [Birds of a Feather](/src/events/GCC2015/BoFs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 
 <br /><br />
 

@@ -1,10 +1,10 @@
-<div class='newsItemHeader'>[January 2012 Galaxy Events](/src/News/January 2012 Galaxy Events/index.md)</div>
+<div class='newsItemHeader'>[January 2012 Galaxy Events](/src/news/January 2012 Galaxy Events/index.md)</div>
 
 <div class='right'>
-<a href='http://evomics.org/workshops/galaxy-developer-workshop/'><img src="/src/Images/Photos/CeskyKrumlov.jpg" alt="Galaxy Developer Workshop" height="70" /></a>&nbsp;&nbsp;<a href='/src/Events/PAG2012/index.md'><img src="/src/Images/Logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2012)" height="75" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.nowgen.org.uk/facilities/events/event.php?id=30'><img src="/src/Images/Logos/nowgenLogo180.png" alt="Reproducible workflows for next generation sequencing analysis" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html'><img src="/src/Images/Logos/DDBJLogo.png" alt="DDBJ" /></a>
+<a href='http://evomics.org/workshops/galaxy-developer-workshop/'><img src="/src/images/Photos/CeskyKrumlov.jpg" alt="Galaxy Developer Workshop" height="70" /></a>&nbsp;&nbsp;<a href='/src/events/PAG2012/index.md'><img src="/src/images/Logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2012)" height="75" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.nowgen.org.uk/facilities/events/event.php?id=30'><img src="/src/images/Logos/nowgenLogo180.png" alt="Reproducible workflows for next generation sequencing analysis" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html'><img src="/src/images/Logos/DDBJLogo.png" alt="DDBJ" /></a>
 </div>
 
-The January [Events](/src/Events/index.md) list is going out a little early this month, mainly because of a *December 15 application deadline for the [Galaxy Developer Workshop in the Czech Republic](http://evomics.org/workshops/galaxy-developer-workshop/)*.  If you have a Galaxy related event please send it to [outreach AT  galaxyproject DOT org](mailto:outreach AT  galaxyproject DOT org) and we will help you get the word out. 
+The January [Events](/src/events/index.md) list is going out a little early this month, mainly because of a *December 15 application deadline for the [Galaxy Developer Workshop in the Czech Republic](http://evomics.org/workshops/galaxy-developer-workshop/)*.  If you have a Galaxy related event please send it to [outreach AT  galaxyproject DOT org](mailto:outreach AT  galaxyproject DOT org) and we will help you get the word out. 
 
 There are Galaxy-related events on (at least) 3 continents next month:
 
@@ -24,7 +24,7 @@ There are Galaxy-related events on (at least) 3 continents next month:
   <tr>
     <th> January 14-18 </th>
     <td> <strong><a href='http://pag.confex.com/pag/xx/webprogrampreliminary/Paper2350.html'>Galaxy Session</a> @ <a href='http://pag.confex.com/pag/xx/webprogrampreliminary/Session1123.html'>GMOD Workshop</a></strong>, and<br /><strong><a href='http://pag.confex.com/pag/xx/webprogrampreliminary/Paper4623.html'>The Galaxy Platform: Running Analyses in the Cloud</a> @ <a href='http://pag.confex.com/pag/xx/webprogrampreliminary/Session1139.html'>Cloud Computing Session</a></strong> </td>
-    <td> <a href='/src/Events/PAG2012/index.md'>PAG 2012</a>, San Diego, California, United States </td>
+    <td> <a href='/src/events/PAG2012/index.md'>PAG 2012</a>, San Diego, California, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a><br />Dannon Baker </td>
   </tr>
   <tr>
@@ -54,6 +54,6 @@ And I apologize in advance if I messed up the translation of the [event at DDBJ]
 
 [Dave Clements](/src/DaveClements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-12-08</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-12-08</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

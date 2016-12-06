@@ -248,7 +248,7 @@ The Galaxy is expanding! Please help it grow.
 * [6 month position](https://twitter.com/bioinformAnt/status/773465361127710720) at [Public Health England](https://www.gov.uk/government/organisations/public-health-england) working [National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) in Canada to compare antimicrobial resistance isolates and software using [IRIDA](http://www.irida.ca/)/Galaxy
 * [Post­doctoral Research Position](https://drive.google.com/file/d/0B5_H88SQ1C_7Z3dJY3FzU0hQMUU/view?pref=2&pli=1), Multi­omic Bioinformatics, University of Minnesota
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 

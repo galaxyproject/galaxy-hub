@@ -1,5 +1,5 @@
 <div class='red'>
-This page is not meant to be viewed on its own. Rather, it contains sections that are displayed on the [GCC2013 Training Day](/src/Events/GCC2013/TrainingDay/Includes//index.md) page
+This page is not meant to be viewed on its own. Rather, it contains sections that are displayed on the [GCC2013 Training Day](/src/events/GCC2013/TrainingDay/Includes//index.md) page
 </div>
 ----
 
@@ -20,11 +20,11 @@ This page is not meant to be viewed on its own. Rather, it contains sections tha
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#galaxy-code-and-storage-architecture'>Galaxy Code and Storage Architecture</a></strong> <div class='indent'><a href='/src/JamesTaylor/index.md'>James Taylor</a>, <a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
-    <td style=" vertical-align: top; background-color: #DDffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#statistical-genome-analysis-with-galaxy'>Statistical Genome Analysis with Galaxy</a></strong> <div class='indent'><a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/index.html'>Geir Kjetil Sandve</a>, <a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9830'>Sveinung Gundersen</a></div></td>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#installing-and-maintaining-a-local-galaxy-server'>Installing and Maintaining a Local Galaxy Server</a></strong> <div class='indent'><a href='http://folk.uio.no/georgios'>George Magklaras</a>, <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'>Katerina Michalickova</a>, <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'>Nikolay Vazov</a></div></td>
-    <td style=" vertical-align: top; background-color: #cceeff;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#introduction-to-galaxy-and-the-galaxy-ecosystem'>Introduction to Galaxy and the Galaxy Ecosystem</a></strong> <div class='indent'><a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/JenniferJackson/index.md'>Jennifer Hillman-Jackson</a></div></td>
-    <td style=" vertical-align: top; background-color: #cceeff;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#running-galaxy-on-the-cloud'>Running Galaxy on the Cloud</a></strong> <div class='indent'><a href='/src/EnisAfgan/index.md'>Enis Afgan</a>, <a href='/src/DannonBaker/index.md'>Dannon Baker</a> </div></td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/GCC2013/TrainingDay/Includes//index.md#galaxy-code-and-storage-architecture'>Galaxy Code and Storage Architecture</a></strong> <div class='indent'><a href='/src/JamesTaylor/index.md'>James Taylor</a>, <a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
+    <td style=" vertical-align: top; background-color: #DDffcc;"> <strong><a href='/src/events/GCC2013/TrainingDay/Includes//index.md#statistical-genome-analysis-with-galaxy'>Statistical Genome Analysis with Galaxy</a></strong> <div class='indent'><a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/index.html'>Geir Kjetil Sandve</a>, <a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9830'>Sveinung Gundersen</a></div></td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/GCC2013/TrainingDay/Includes//index.md#installing-and-maintaining-a-local-galaxy-server'>Installing and Maintaining a Local Galaxy Server</a></strong> <div class='indent'><a href='http://folk.uio.no/georgios'>George Magklaras</a>, <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'>Katerina Michalickova</a>, <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'>Nikolay Vazov</a></div></td>
+    <td style=" vertical-align: top; background-color: #cceeff;"> <strong><a href='/src/events/GCC2013/TrainingDay/Includes//index.md#introduction-to-galaxy-and-the-galaxy-ecosystem'>Introduction to Galaxy and the Galaxy Ecosystem</a></strong> <div class='indent'><a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/JenniferJackson/index.md'>Jennifer Hillman-Jackson</a></div></td>
+    <td style=" vertical-align: top; background-color: #cceeff;"> <strong><a href='/src/events/GCC2013/TrainingDay/Includes//index.md#running-galaxy-on-the-cloud'>Running Galaxy on the Cloud</a></strong> <div class='indent'><a href='/src/EnisAfgan/index.md'>Enis Afgan</a>, <a href='/src/DannonBaker/index.md'>Dannon Baker</a> </div></td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
@@ -32,11 +32,11 @@ This page is not meant to be viewed on its own. Rather, it contains sections tha
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30 </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#the-galaxy-api'>The Galaxy API</a></strong> <div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a>, <a href='/src/CarlEberhard/index.md'>Carl Eberhard</a></div> </td>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#introduction-to-tool-and-data-source-configuration'>Introduction to Tool and Data Source Configuration</a></strong> <div class='indent'><a href='/src/Dan/index.md'>Dan Blankenberg</a>, <a href='/src/fubar/index.md'>Ross Lazarus</a></div> </td>
-    <td style=" vertical-align: top; background-color: #ddffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#rna-seq-analysis-with-galaxy'>RNA-Seq Analysis with Galaxy</a></strong> <div class='indent'><a href='http://www.lgtc.nl/about_us/lgtc_team.php'>Jeroen F.J. Laros</a>, <a href='http://bow.web.id/'>Wibowo Arindrarto</a>, <a href='http://ngs.nbic.nl/'>Leon Mei</a> </div> </td>
-    <td style=" vertical-align: top; background-color: #DDffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#statistical-genome-analysis-with-galaxy'>Statistical Genome Analysis with Galaxy</a></strong> <div class='indent'><a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/index.html'>Geir Kjetil Sandve</a>, <a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9830'>Sveinung Gundersen</a></div> </td>
-    <td style=" vertical-align: top; background-color: #cceeff;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#running-galaxy-on-the-cloud'>Running Galaxy on the Cloud</a></strong> <div class='indent'><a href='/src/EnisAfgan/index.md'>Enis Afgan</a>, <a href='/src/DannonBaker/index.md'>Dannon Baker</a></div> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/GCC2013/TrainingDay/Includes//index.md#the-galaxy-api'>The Galaxy API</a></strong> <div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a>, <a href='/src/CarlEberhard/index.md'>Carl Eberhard</a></div> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/GCC2013/TrainingDay/Includes//index.md#introduction-to-tool-and-data-source-configuration'>Introduction to Tool and Data Source Configuration</a></strong> <div class='indent'><a href='/src/Dan/index.md'>Dan Blankenberg</a>, <a href='/src/fubar/index.md'>Ross Lazarus</a></div> </td>
+    <td style=" vertical-align: top; background-color: #ddffcc;"> <strong><a href='/src/events/GCC2013/TrainingDay/Includes//index.md#rna-seq-analysis-with-galaxy'>RNA-Seq Analysis with Galaxy</a></strong> <div class='indent'><a href='http://www.lgtc.nl/about_us/lgtc_team.php'>Jeroen F.J. Laros</a>, <a href='http://bow.web.id/'>Wibowo Arindrarto</a>, <a href='http://ngs.nbic.nl/'>Leon Mei</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #DDffcc;"> <strong><a href='/src/events/GCC2013/TrainingDay/Includes//index.md#statistical-genome-analysis-with-galaxy'>Statistical Genome Analysis with Galaxy</a></strong> <div class='indent'><a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/index.html'>Geir Kjetil Sandve</a>, <a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9830'>Sveinung Gundersen</a></div> </td>
+    <td style=" vertical-align: top; background-color: #cceeff;"> <strong><a href='/src/events/GCC2013/TrainingDay/Includes//index.md#running-galaxy-on-the-cloud'>Running Galaxy on the Cloud</a></strong> <div class='indent'><a href='/src/EnisAfgan/index.md'>Enis Afgan</a>, <a href='/src/DannonBaker/index.md'>Dannon Baker</a></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 14:30 </th>
@@ -44,11 +44,11 @@ This page is not meant to be viewed on its own. Rather, it contains sections tha
   </tr>
   <tr>
     <th style=" text-align: right;"> 15:00 </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#advanced-tool-and-data-source-configuration'>Advanced Tool and Data Source Configuration</a></strong> <div class='indent'><a href='/src/fubar/index.md'>Ross Lazarus</a>, <a href='/src/Dan/index.md'>Dan Blankenberg</a> </div> </td>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#galaxy-tool-shed'>Galaxy Tool Shed</a></strong> <div class='indent'><a href='/src/greg_vonkuster/index.md'>Greg Von Kuster</a>, <a href='/src/DaveBouvier/index.md'>Dave Bouvier</a> </div> </td>
-    <td style=" vertical-align: top; background-color: #ddffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#variant-and-snp-analysis-with-galaxy'>Variant and SNP Analysis with Galaxy</a></strong> <div class='indent'><a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a>, <a href='/src/anton/index.md'>Anton Nekrutenko</a> </div> </td>
-    <td style=" vertical-align: top; background-color: #ddffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#rna-seq-analysis-with-galaxy'>RNA-Seq Analysis with Galaxy</a></strong> <div class='indent'><a href='http://www.lgtc.nl/about_us/lgtc_team.php'>Jeroen F.J. Laros</a>, <a href='http://bow.web.id/'>Wibowo Arindrarto</a>, <a href='http://ngs.nbic.nl/'>Leon Mei</a> </div></td>
-    <td style=" vertical-align: top; background-color: #DDffcc;"> <strong><a href='/src/Events/GCC2013/TrainingDay/Includes//index.md#chip-seq-analysis-with-galaxy'>ChIP-Seq Analysis with Galaxy</a></strong> <div class='indent'><a href='http://u900.curie.fr/en/profile/alban-lermine-00587'>Alban Lermine</a>, <a href='https://sites.google.com/site/valentinaboeva/'>Valentina Boeva</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/GCC2013/TrainingDay/Includes//index.md#advanced-tool-and-data-source-configuration'>Advanced Tool and Data Source Configuration</a></strong> <div class='indent'><a href='/src/fubar/index.md'>Ross Lazarus</a>, <a href='/src/Dan/index.md'>Dan Blankenberg</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/GCC2013/TrainingDay/Includes//index.md#galaxy-tool-shed'>Galaxy Tool Shed</a></strong> <div class='indent'><a href='/src/greg_vonkuster/index.md'>Greg Von Kuster</a>, <a href='/src/DaveBouvier/index.md'>Dave Bouvier</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #ddffcc;"> <strong><a href='/src/events/GCC2013/TrainingDay/Includes//index.md#variant-and-snp-analysis-with-galaxy'>Variant and SNP Analysis with Galaxy</a></strong> <div class='indent'><a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a>, <a href='/src/anton/index.md'>Anton Nekrutenko</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #ddffcc;"> <strong><a href='/src/events/GCC2013/TrainingDay/Includes//index.md#rna-seq-analysis-with-galaxy'>RNA-Seq Analysis with Galaxy</a></strong> <div class='indent'><a href='http://www.lgtc.nl/about_us/lgtc_team.php'>Jeroen F.J. Laros</a>, <a href='http://bow.web.id/'>Wibowo Arindrarto</a>, <a href='http://ngs.nbic.nl/'>Leon Mei</a> </div></td>
+    <td style=" vertical-align: top; background-color: #DDffcc;"> <strong><a href='/src/events/GCC2013/TrainingDay/Includes//index.md#chip-seq-analysis-with-galaxy'>ChIP-Seq Analysis with Galaxy</a></strong> <div class='indent'><a href='http://u900.curie.fr/en/profile/alban-lermine-00587'>Alban Lermine</a>, <a href='https://sites.google.com/site/valentinaboeva/'>Valentina Boeva</a> </div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 17:00</th>
@@ -85,25 +85,25 @@ END_INCLUDE
 
 # VM_PLAYER
 
-* [Virtual machine (VM) player software](/src/Events/GCC2013/TrainingDay/VMs/index.md), either [VirtualBox](http://virtualbox.org) or [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/). 
+* [Virtual machine (VM) player software](/src/events/GCC2013/TrainingDay/VMs/index.md), either [VirtualBox](http://virtualbox.org) or [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/). 
 
 END_INCLUDE
 
 # VM
 
-* The [virtual machine image](/src/Events/GCC2013/TrainingDay/VMs/index.md#2-download-needed-vms-on-your-laptop) for this workshop.
+* The [virtual machine image](/src/events/GCC2013/TrainingDay/VMs/index.md#2-download-needed-vms-on-your-laptop) for this workshop.
 
 END_INCLUDE
 
 # VM_BASIC
 
-* The [virtual machine image](/src/Events/GCC2013/TrainingDay/VMs/index.md#2-download-needed-vms-on-your-laptop) (download from [Norway](ftp://ftp.no.embnet.org/galaxy/images/BasicWorkshop.ova) or [US](http://depot.galaxyproject.org/BasicWorkshop.ova)) for this workshop.
+* The [virtual machine image](/src/events/GCC2013/TrainingDay/VMs/index.md#2-download-needed-vms-on-your-laptop) (download from [Norway](ftp://ftp.no.embnet.org/galaxy/images/BasicWorkshop.ova) or [US](http://depot.galaxyproject.org/BasicWorkshop.ova)) for this workshop.
 
 END_INCLUDE
 
 # VM_ADVANCED
 
-* The [virtual machine image](/src/Events/GCC2013/TrainingDay/VMs/index.md#2-download-needed-vms-on-your-laptop) (download from [US](http://depot.galaxyproject.org/GCC2013-AdvWorkshops.ova)) for this workshop.
+* The [virtual machine image](/src/events/GCC2013/TrainingDay/VMs/index.md#2-download-needed-vms-on-your-laptop) (download from [US](http://depot.galaxyproject.org/GCC2013-AdvWorkshops.ova)) for this workshop.
 
 END_INCLUDE
 
@@ -127,14 +127,14 @@ END_INCLUDE
 
 # INTRO
 
-* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/src/Events/GCC2013/TrainingDay/Includes//index.md#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
+* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/src/events/GCC2013/TrainingDay/Includes//index.md#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
 
 END_INCLUDE
 
 # QC
 
-* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/src/Events/GCC2013/TrainingDay/Includes//index.md#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
-* General knowledge of NGS quality control issues and tools, or attendance at the "[NGS Quality Control with Galaxy](/src/Events/GCC2013/TrainingDay/Includes//index.md#ngs-quality-control-with-galaxy)" session. 
+* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/src/events/GCC2013/TrainingDay/Includes//index.md#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
+* General knowledge of NGS quality control issues and tools, or attendance at the "[NGS Quality Control with Galaxy](/src/events/GCC2013/TrainingDay/Includes//index.md#ngs-quality-control-with-galaxy)" session. 
 
 END_INCLUDE
 
@@ -158,7 +158,7 @@ END_INCLUDE
 
 # TOOL BASICS
 
-* Basic understanding of the process for developing a simple Galaxy tool as well as Galaxy data types, or attendance at [Introduction to Tool and Data Sources Configureation](/src/Events/GCC2013/TrainingDay/Includes//index.md#introduction-to-tool-and-data-source-configuration).
+* Basic understanding of the process for developing a simple Galaxy tool as well as Galaxy data types, or attendance at [Introduction to Tool and Data Sources Configureation](/src/events/GCC2013/TrainingDay/Includes//index.md#introduction-to-tool-and-data-source-configuration).
 
 END_INCLUDE
 
@@ -224,10 +224,10 @@ END_INCLUDE
 
 # AWS SUPPORT
 
-&nbsp;<a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure
+&nbsp;<a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure
 END_INCLUDE
 
 # VIRTUAL BOX
 
-<a href='http://virtualbox.org'><img src="/src/Images/Logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
+<a href='http://virtualbox.org'><img src="/src/images/Logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
 END_INCLUDE

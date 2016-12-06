@@ -10,7 +10,7 @@
 [Share](/src/Learn/Share/index.md)<br />
 [FTP Upload](/src/FTPUpload/index.md)<br />
 [Accounts](/src/Learn/UserAccounts/index.md)<br />
-[Support](/src/Support/index.md)<br />
+[Support](/src/support/index.md)<br />
 [Security](/src/Learn/SecurityFeatures/index.md)<br />
 [Search](http://galaxyproject.org/search/usegalaxy)
 </div>

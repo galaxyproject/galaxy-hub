@@ -1,6 +1,6 @@
 <div class='center'>
-<a href='http://www.open-bio.org/wiki/BOSC_2016'><img src="/src/Images/Logos/BOSC_logo.png" alt="BOSC 2016" width="120" /></a>&nbsp;&nbsp;&nbsp;
-<a href='http://www.iscb.org/ismb2016'><img src="/src/Images/Logos/ISMB_2016_Logo.jpg" alt="ISMB 2016" width="140" /></a>
+<a href='http://www.open-bio.org/wiki/BOSC_2016'><img src="/src/images/Logos/BOSC_logo.png" alt="BOSC 2016" width="120" /></a>&nbsp;&nbsp;&nbsp;
+<a href='http://www.iscb.org/ismb2016'><img src="/src/images/Logos/ISMB_2016_Logo.jpg" alt="ISMB 2016" width="140" /></a>
 
 # Galaxy at ISMB and BOSC 2016
 

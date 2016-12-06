@@ -1,15 +1,15 @@
 #acl +[VettedEditorGroup](/src/VettedEditorGroup/index.md):read,write +All:read
-PLACEHOLDER_INCLUDE(/src/Events/GCC2012/PageHeader/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2012/PageHeader/index.md)
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2012/Register/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2012/Register/LinkBox/index.md)
 There are different registration levels, depending on your career stage and your organization's for-profit status, and how early you register.  Our goal has been to make this an *absurdly affordable* conference for students and postdocs, and *downright affordable* for everyone else. 
 
 <table>
   <tr>
     <td style=" border: none;"> </td>
-    <th style=" width: 35%;"> <a href='/src/Events/GCC2012/Program/index.md'>Conference Only</a> </th>
+    <th style=" width: 35%;"> <a href='/src/events/GCC2012/Program/index.md'>Conference Only</a> </th>
     <td style=" border: none;"> </td>
-    <th style=" width: 35%;"> <a href='/src/Events/GCC2012/Program/index.md'>Conference</a> + <br /><a href='/src/Events/GCC2012/Program/index.md'>Training Day</a> </th>
+    <th style=" width: 35%;"> <a href='/src/events/GCC2012/Program/index.md'>Conference</a> + <br /><a href='/src/events/GCC2012/Program/index.md'>Training Day</a> </th>
   </tr>
   <tr>
     <td style=" border: none;"> </td>
@@ -59,10 +59,10 @@ There are different registration levels, depending on your career stage and your
 
 ### Lodging
 
-You may also arrange your [lodging](/src/Events/GCC2012/Logistics/index.md#lodging) when registering.  There are two official lodging options:
+You may also arrange your [lodging](/src/events/GCC2012/Logistics/index.md#lodging) when registering.  There are two official lodging options:
 
 * On the [UIC Campus at James Stuckel Towers](http://www.housing.uic.edu/halls/jst/index.php). This option must be booked at the same time as you register.  <div class='red'>**The James Stuckel Towers are now sold out.**</span>
-* At the [Crowne Plaza Chicago Metro Downtown](/src/Events/GCC2012/Logistics/index.md#crowne-plaza-chicago-metro-downtown).  This option ends July 23, or when rooms fill up.
+* At the [Crowne Plaza Chicago Metro Downtown](/src/events/GCC2012/Logistics/index.md#crowne-plaza-chicago-metro-downtown).  This option ends July 23, or when rooms fill up.
 
 There are a limited number of rooms in each.  You are encouraged to register/reserve early.
 
@@ -84,4 +84,4 @@ If you need a visa to travel to the United States for the conference, please fol
 
 Please contact [Galaxy Outreach](mailto:outreach@galaxyproject.org?subject=GCC%202012%20Visa) if you have any questions or special requests.
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2012/Register/Ask the Organizers/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2012/Register/Ask the Organizers/index.md)

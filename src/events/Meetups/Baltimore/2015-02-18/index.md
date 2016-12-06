@@ -1,7 +1,7 @@
 ---
 title: Feb 18, 2015 Baltimore Area Galaxy Meetup @ Johns Hopkins
 ---
-<div class='center'><img src="/src/Events/Meetups/Baltimore/2015-02-18/GalaxyBaltimoreMeetupLogo400.png" alt="Galaxy Baltimore Meetups" width="300" /><br /><br />
+<div class='center'><img src="/src/events/Meetups/Baltimore/2015-02-18/GalaxyBaltimoreMeetupLogo400.png" alt="Galaxy Baltimore Meetups" width="300" /><br /><br />
 </div>
 
 
@@ -22,7 +22,7 @@ Thanks and hope to see you there!
 * Feb 18, 2015 (Wednesday)
 * 6PM to 7:30PM
 
-<div class='right'><a href='http://bit.ly/1xSyrt7'><img src="/src/Events/Meetups/Baltimore/2015-02-18/BaltimoreAreaMeetupMapThumb.png" alt="Baltimore Area Galaxy Meetups Map" width="140" /></a></div>
+<div class='right'><a href='http://bit.ly/1xSyrt7'><img src="/src/events/Meetups/Baltimore/2015-02-18/BaltimoreAreaMeetupMapThumb.png" alt="Baltimore Area Galaxy Meetups Map" width="140" /></a></div>
 
 ### Where
 

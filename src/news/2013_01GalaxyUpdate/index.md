@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[January 2013 Galaxy Update](/src/News/2013_01GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[January 2013 Galaxy Update](/src/news/2013_01GalaxyUpdate/index.md)</div>
 
-<div class='right'><a href='/src/GalaxyUpdates/2013_01/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="January 2013 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/src/GalaxyUpdates/2013_01/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="January 2013 Galaxy Update" width=150 /></a></div>
 
 The [January 2013 Galaxy Update is now available](/src/GalaxyUpdates/2013_01/index.md). 
 
@@ -19,6 +19,6 @@ If you have anything you would like to see in the Febrarury *[Galaxy Update](/sr
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-01-02</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-01-02</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

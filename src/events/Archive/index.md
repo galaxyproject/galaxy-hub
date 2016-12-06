@@ -380,7 +380,7 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
   </tr>
   <tr>
     <th> September 17-18 </th>
-    <td> <strong><a href='/src/News/ToolsCollectionsHack/index.md'>Remote Hackathon for Tools and Dataset Collections</a></strong> </td>
+    <td> <strong><a href='/src/news/ToolsCollectionsHack/index.md'>Remote Hackathon for Tools and Dataset Collections</a></strong> </td>
     <td> <img src='/src/images/Icons/World40.png' alt='Around the World' align='right' /> <em>Online</em> </td>
     <td> <a href="mailto:galaxy-iuc@lists.galaxyproject.org">IUC</a> </td>
     <td> </td>
@@ -2187,7 +2187,7 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
     <th> December 4 </th>
     <td> <em><a href='http://www.ifb-galaxy.org/4dec2013.html'>Galaxy Day</a></em><div class='indent red'>Les inscriptions au Galaxy Day sont closes</div> </td>
     <td> Paris (Institut Curie), France </td>
-    <td> <a href='/src/News/GalaxyDay2013Report/index.md'>Meeting Report</a>, <a href='http://wiki.sb-roscoff.fr/ifb/index.php/Accueil'>Slides</a> </td>
+    <td> <a href='/src/news/GalaxyDay2013Report/index.md'>Meeting Report</a>, <a href='http://wiki.sb-roscoff.fr/ifb/index.php/Accueil'>Slides</a> </td>
     <td> <a href="mailto:ifb DOT galaxy AT sb DASH roscoff DOT fr">Organisateurs</a> </td>
   </tr>
   <tr>
@@ -3610,7 +3610,7 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
   </tr>
   <tr>
     <th> June 23-24 </th>
-    <td> <strong><a href='/src/News/Galaxy Workshops @ USC June 23-24/index.md'>Galaxy Workshops @ USC</a></strong> </td>
+    <td> <strong><a href='/src/news/Galaxy Workshops @ USC June 23-24/index.md'>Galaxy Workshops @ USC</a></strong> </td>
     <td> Los Angeles, California, United States </td>
     <td> <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2011USC.pdf'>Intro talk slides</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2011USC-2.pdf'>NGS analyses slides</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2011USCResearch.pdf'>ISI seminar slides</a>  </td>
     <td> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>

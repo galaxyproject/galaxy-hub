@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[An Update to Galaxy Cloudman](/src/News/An Update to Galaxy CloudMan/index.md)</div>
+<div class='newsItemHeader'>[An Update to Galaxy Cloudman](/src/news/An Update to Galaxy CloudMan/index.md)</div>
 
 
 A new version of [CloudMan](/src/CloudMan/index.md) for running Galaxy on Amazon cloud has been released yesterday. Any new cluster will automatically use this version. Existing clusters will have a link displayed at the top of the CloudMan console offering to perform an automated update. 
@@ -13,6 +13,6 @@ The new version brings the following updates/features:
 
 [EnisAfgan](/src/EnisAfgan/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-11-29</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-11-29</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

@@ -1,4 +1,4 @@
-<div class='center'><img src="/src/Events/Meetups/Baltimore/GalaxyBaltimoreMeetupLogo400.png" alt="Galaxy Baltimore Meetups" width="300" /></div>
+<div class='center'><img src="/src/events/Meetups/Baltimore/GalaxyBaltimoreMeetupLogo400.png" alt="Galaxy Baltimore Meetups" width="300" /></div>
 
 ## Home of the Baltimore Area Galaxy project meetups at Johns Hopkins!
 
@@ -6,10 +6,10 @@ Come meet at one of the Galaxy project hubs - the Department of Biology of Johns
 
 ### List of meetup dates
 
-* **[Jan 22, 2015](/src/Events/Meetups/Baltimore/2015-01-22/index.md)**
-* **[Feb 18, 2015](/src/Events/Meetups/Baltimore/2015-02-18/index.md)**
+* **[Jan 22, 2015](/src/events/Meetups/Baltimore/2015-01-22/index.md)**
+* **[Feb 18, 2015](/src/events/Meetups/Baltimore/2015-02-18/index.md)**
 
-<div class='right'><a href='http://bit.ly/1xSyrt7'><img src="/src/Events/Meetups/Baltimore/BaltimoreAreaMeetupMapThumb.png" alt="Baltimore Area Galaxy Meetups Map" width="120" /></a></div>
+<div class='right'><a href='http://bit.ly/1xSyrt7'><img src="/src/events/Meetups/Baltimore/BaltimoreAreaMeetupMapThumb.png" alt="Baltimore Area Galaxy Meetups Map" width="120" /></a></div>
 
 ### Location of the meetups
 

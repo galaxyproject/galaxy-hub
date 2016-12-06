@@ -6,7 +6,7 @@ title: June 2013 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the June 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -98,49 +98,49 @@ The Galaxy is expanding! Please help it grow.
 * [Senior Developer](http://www.nature.com/naturejobs/science/jobs/321283-Senior-Developer-Stem-Cell-Bioinformatics-Core), Stem Cell Bioinformatics Core, Sage Bionetworks, Seattle, WA, United States
 * [Bioinformatics Support Group Leader](http://bit.ly/VkRtrb) @ LSU
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 
 ## GCC2013
 
-<div class='center'><a href='/src/Events/GCC2013/index.md'><img src="/src/Images/Logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
+<div class='center'><a href='/src/events/GCC2013/index.md'><img src="/src/images/Logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
 
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <strong><a href='/src/Events/GCC2013/Register/index.md'>Register by 14 June</a> & avoid late fees</strong> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <strong><a href='/src/events/GCC2013/Register/index.md'>Register by 14 June</a> & avoid late fees</strong> &nbsp;&nbsp; </th>
   </tr>
 </table>
 
 
 <br />
 
-The [2013 Galaxy Community Conference (GCC2013)](/src/Events/GCC2013/index.md) will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).
+The [2013 Galaxy Community Conference (GCC2013)](/src/events/GCC2013/index.md) will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).
 
-<div class='right'><a href='/src/Events/GCC2013/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
+<div class='right'><a href='/src/events/GCC2013/TrainingDay/index.md'><img src="/src/images/Logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
 
-[GCC2013](/src/Events/GCC2013/index.md) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/src/Events/GCC2013/TrainingDay/index.md) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
+[GCC2013](/src/events/GCC2013/index.md) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/src/events/GCC2013/TrainingDay/index.md) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
 
-**[Register by 14 June](/src/Events/GCC2013/Register/index.md)** and *and avoid the 100% fee increase for late registration.*  Registration is very affordable, with combined registration ([Training Day](/src/Events/GCC2013/TrainingDay/index.md) + main meeting) starting at ~ €165 for post-docs and students.  Registering now also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Note that you can still register after 14 June, it will just cost you much more.
+**[Register by 14 June](/src/events/GCC2013/Register/index.md)** and *and avoid the 100% fee increase for late registration.*  Registration is very affordable, with combined registration ([Training Day](/src/events/GCC2013/TrainingDay/index.md) + main meeting) starting at ~ €165 for post-docs and students.  Registering now also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Note that you can still register after 14 June, it will just cost you much more.
 
 <br />
 
-<div class='right'><br />PLACEHOLDER_INCLUDE(/src/Events/GCC2013/BoF/LinkBox/index.md)</div>
+<div class='right'><br />PLACEHOLDER_INCLUDE(/src/events/GCC2013/BoF/LinkBox/index.md)</div>
 
 ### Birds of a Feather Sessions
 
-<div class='left'><a href='/src/Events/GCC2013/BoF/index.md'><img src="/src/Images/Logos/GCC2013BoFLogo.png" alt="" width="180" /></a></div>
+<div class='left'><a href='/src/events/GCC2013/BoF/index.md'><img src="/src/images/Logos/GCC2013BoFLogo.png" alt="" width="180" /></a></div>
 
-Past Galaxy Community Conferences have been *the* event for networking in the Galaxy: There is no better place to meet and learn from others doing high-throughput biology.  GCC2013 extends this tradition by including *[Birds of a Feather (BoF)](/src/Events/GCC2013/BoF/index.md)* meetups at the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  If you have something in the list at right you want to meet about, or you have a whole new topic, then please join or start a [GCC2013 BoF](/src/Events/GCC2013/BoF/index.md).
+Past Galaxy Community Conferences have been *the* event for networking in the Galaxy: There is no better place to meet and learn from others doing high-throughput biology.  GCC2013 extends this tradition by including *[Birds of a Feather (BoF)](/src/events/GCC2013/BoF/index.md)* meetups at the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  If you have something in the list at right you want to meet about, or you have a whole new topic, then please join or start a [GCC2013 BoF](/src/events/GCC2013/BoF/index.md).
 
 <br />
 
-<div class='right'><br /><a href='http://bioteam.net/'><img src="/src/Images/Logos/BioTeamLogo154.gif" alt="BioTeam" width="140" /></a></div>
+<div class='right'><br /><a href='http://bioteam.net/'><img src="/src/images/Logos/BioTeamLogo154.gif" alt="BioTeam" width="140" /></a></div>
 
 ### Sponsorships
 
-We are pleased to announce that [BioTeam](http://bioteam.net) is a [Gold Sponsor of GCC2013](/src/Events/GCC2013/Sponsorships/index.md). 
+We are pleased to announce that [BioTeam](http://bioteam.net) is a [Gold Sponsor of GCC2013](/src/events/GCC2013/Sponsorships/index.md). 
 
-There are still [Silver and Bronze sponsorships](/src/Events/GCC2013/Sponsorships/index.md) available. Please contact the [Organizers](/src/Events/GCC2013/Organizers/index.md) if your organization would like to help sponsor this event. 
+There are still [Silver and Bronze sponsorships](/src/events/GCC2013/Sponsorships/index.md) available. Please contact the [Organizers](/src/events/GCC2013/Organizers/index.md) if your organization would like to help sponsor this event. 
 
 <br />
 
@@ -152,7 +152,7 @@ The course is aimed at postgraduate students and other scientists who are famili
 
 Content: The syllabus for this boot camp will include:
 
-<div class='right'><a href='http://bit.ly/14EmcSA'><img src="/src/Images/Logos/SoftwareCarpentryLogo.png" alt="Software Carpentry Boot Camp, 3-4 July, University of Oslo" width="200" /></a></div>
+<div class='right'><a href='http://bit.ly/14EmcSA'><img src="/src/images/Logos/SoftwareCarpentryLogo.png" alt="Software Carpentry Boot Camp, 3-4 July, University of Oslo" width="200" /></a></div>
 
 * using the shell to do more in less time
 * using version control to manage and share information
@@ -166,13 +166,13 @@ Visit the [Boot Camp Page](http://software-carpentry.org/bootcamps/2013-07-oslo.
 ## Other Upcoming Events
 
 <div class='center'> 
-<a href='https://www.eshg.org/sunday2013.0.html#W1'><img src="/src/Images/Logos/ESHG2013Narrow.png" alt="Galaxy Workshop @ ESHG" height="80px" /></a>
-<a href='/src/Events/ASMS2013/index.md'><img src="/src/Images/Logos/ASMS2013LogoClipped.png" alt="61st ASMS Conference" height="80px" /></a>
-<a href='/src/Events/GCC2013/index.md'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
-<a href='/src/Events/RTWorkshopTour2013/index.md'><img src="/src/Images/Logos/RTGalaxyWorkshopTour2013-300.png" alt="" width="140px" /></a>
+<a href='https://www.eshg.org/sunday2013.0.html#W1'><img src="/src/images/Logos/ESHG2013Narrow.png" alt="Galaxy Workshop @ ESHG" height="80px" /></a>
+<a href='/src/events/ASMS2013/index.md'><img src="/src/images/Logos/ASMS2013LogoClipped.png" alt="61st ASMS Conference" height="80px" /></a>
+<a href='/src/events/GCC2013/index.md'><img src="/src/images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
+<a href='/src/events/RTWorkshopTour2013/index.md'><img src="/src/images/Logos/RTGalaxyWorkshopTour2013-300.png" alt="" width="140px" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/Icons/CalendarIcon.gif" /></a></div> 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 ### Events
@@ -198,7 +198,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 9-13 </th>
-    <td> <strong><a href='/src/Events/ASMS2013/index.md'>61st ASMS Conference on Mass Spectrometry and Allied Topics</a></strong><div class='indent'>Includes at least 1 workshop and 9 posters either about or utilizing Galaxy</div> </td>
+    <td> <strong><a href='/src/events/ASMS2013/index.md'>61st ASMS Conference on Mass Spectrometry and Allied Topics</a></strong><div class='indent'>Includes at least 1 workshop and 9 posters either about or utilizing Galaxy</div> </td>
     <td> Minneapolis, Minnesota, United States </td>
     <td> <a href='/src/JohnChilton/index.md'>John Chilton</a> </td>
   </tr>
@@ -222,9 +222,9 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> <strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
+    <td> <strong><em><a href='/src/events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
-    <td> <a href='/src/Events/GCC2013/Organizers/index.md'>Organizers</a> </td>
+    <td> <a href='/src/events/GCC2013/Organizers/index.md'>Organizers</a> </td>
   </tr>
   <tr>
     <th> July 4 </th>
@@ -243,18 +243,18 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th rowspan=4> July 18-23 </th>
-    <td> <em><a href='/src/Events/NIEHS2013/index.md'>Introduction to Galaxy Workshop</a></em><div class='indent'>National Institute of Environmental Health Sciences (NIEHS)</div> </td>
-    <td rowspan=4> <a href='/src/Events/RTWorkshopTour2013/index.md'>2013 Research Triangle Workshop Tour</a>, North Carolina, United States </td>
+    <td> <em><a href='/src/events/NIEHS2013/index.md'>Introduction to Galaxy Workshop</a></em><div class='indent'>National Institute of Environmental Health Sciences (NIEHS)</div> </td>
+    <td rowspan=4> <a href='/src/events/RTWorkshopTour2013/index.md'>2013 Research Triangle Workshop Tour</a>, North Carolina, United States </td>
     <td rowspan=4> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/Events/UNC2013/index.md'>Introduction to Galaxy Workshop</a></em> <div class='indent'>University of North Carolina, Chapel Hill</div> </td>
+    <td> <em><a href='/src/events/UNC2013/index.md'>Introduction to Galaxy Workshop</a></em> <div class='indent'>University of North Carolina, Chapel Hill</div> </td>
   </tr>
   <tr>
     <td> <em><a href='http://bit.ly/ZFVLG1'>Galaxy Installation Tutorial</a></em> <div class='indent'><strong><a href='http://bit.ly/ZFVLG1'>2013 GMOD Summer School</a></strong></div> </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/Events/NCSU2013/index.md'>Introduction to Galaxy Workshop</a></em> <div class='indent'> North Carolina State University</div> </td>
+    <td> <em><a href='/src/events/NCSU2013/index.md'>Introduction to Galaxy Workshop</a></em> <div class='indent'> North Carolina State University</div> </td>
   </tr>
   <tr>
     <th rowspan=3> July 21-25 </th>
@@ -277,7 +277,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 ## GalaxyAdmins
 
-<div class='right'><a href='/src/Community/GalaxyAdmins/Meetups/2013_05_15/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" height="50" /></a></div>
+<div class='right'><a href='/src/Community/GalaxyAdmins/Meetups/2013_05_15/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" height="50" /></a></div>
 
 The [May GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2013_05_15/index.md) featured Andrew Warren of the [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) at Virginia Tech speaking on their Galaxy deployment *[RNA Rocket](http://rnaseq.pathogenportal.org/)* for [Pathogen Portal](http://pathogenportal.org). [Dannon Baker](/src/DannonBaker/index.md)also gave a Galaxy Project update.  Slides and a screencast are now available.
 
@@ -285,7 +285,7 @@ The [May GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2013_05_15/ind
 
 ## Duplicate Accounts on Main
 
-<div class='right'><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src="/src/Images/Logos/UseGalaxyOrgLogoShadow200.png" alt="Main's Terms of Use"  /></a><br /><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src="/src/Images/Logos/UseGalaxyOrgLogoShadow200.png" alt="Main's Terms of Use"  /></a></div>
+<div class='right'><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src="/src/images/Logos/UseGalaxyOrgLogoShadow200.png" alt="Main's Terms of Use"  /></a><br /><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src="/src/images/Logos/UseGalaxyOrgLogoShadow200.png" alt="Main's Terms of Use"  /></a></div>
 
 The [terms of use](https://main.g2.bx.psu.edu/static/terms.html) for the Galaxy Project's free Galaxy server, [http://usegalaxy.org](http://usegalaxy.org) (a.k.a. [Main](/src/Main/index.md)) specify 
 
@@ -300,12 +300,12 @@ If your account is suspended and you believe that you are not in violation of Ma
 
 ## Galaxy Distributions
 
-The most recent official distribution was on [April 1, 2013](/src/DevNewsBriefs/2013_04_01/index.md).  However, [a security update was released on April 8](/src/News/2013_04_08_Galaxy_Security_Release/index.md).  See [this news item](/src/News/2013_04_08_Galaxy_Security_Release/index.md) for details.  We are planning the next release for early June.
+The most recent official distribution was on [April 1, 2013](/src/DevNewsBriefs/2013_04_01/index.md).  However, [a security update was released on April 8](/src/news/2013_04_08_Galaxy_Security_Release/index.md).  See [this news item](/src/news/2013_04_08_Galaxy_Security_Release/index.md) for details.  We are planning the next release for early June.
 
 
 ## Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 * [rxlr_venn_workflow](http://bit.ly/1071hG2): a workflow for comparing 3 RXLR prediction methods with a Venn Diagram 
 * [vcf_to_variantdb](http://bit.ly/14bpN9c): Send UnifiedGenotyper VCF to a !VariantDB instance  

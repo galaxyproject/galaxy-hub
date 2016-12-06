@@ -1,7 +1,7 @@
-<div class='newsItemHeader'>[Aug 12, 2013 Galaxy Distribution](/src/News/2013_08_12_Galaxy_Distribution/index.md)</div>
+<div class='newsItemHeader'>[Aug 12, 2013 Galaxy Distribution](/src/news/2013_08_12_Galaxy_Distribution/index.md)</div>
 
 <div class='right'>
-<a href='http://wiki.galaxyproject.org/Events/GCC2013/Photos'><img src="/src/Images/NewsGraphics/2013_08_12_gcc-main-room.jpg" alt="GCC 2013" width=300 /></a><br />**GCC 2013**</div>
+<a href='http://wiki.galaxyproject.org/Events/GCC2013/Photos'><img src="/src/images/NewsGraphics/2013_08_12_gcc-main-room.jpg" alt="GCC 2013" width=300 /></a><br />**GCC 2013**</div>
 **Complete [News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2013_08_12)**
 <br />
 <br />
@@ -32,6 +32,6 @@ upgrade: $ hg pull
 
 [The Galaxy Team](/src/Galaxy Team/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-08-12</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-08-12</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

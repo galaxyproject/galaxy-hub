@@ -113,7 +113,7 @@ The value of *local_slots* is used to define [GALAXY_SLOTS](/src/Admin/Config/GA
 
 ## DRMAA
 
-<div class='right'><a href='http://www.drmaa.org'><img src="/src/Images/Logos/DRMAALogo200.png" alt="DRMAA" /></a></div>Runs jobs via any DRM which supports the [Distributed Resource Management Application API](http://www.drmaa.org).  Most commonly used to interface with [PBS Professional](http://www.pbsworks.com/Product.aspx?id=1), [Sun Grid Engine](http://gridscheduler.sourceforge.net/), [Univa Grid Engine](http://www.univa.com/products/grid-engine.php), [Platform LSF](http://www-03.ibm.com/systems/technicalcomputing/platformcomputing/products/lsf/index.html), and [SLURM](http://slurm.schedmd.com/).  
+<div class='right'><a href='http://www.drmaa.org'><img src="/src/images/Logos/DRMAALogo200.png" alt="DRMAA" /></a></div>Runs jobs via any DRM which supports the [Distributed Resource Management Application API](http://www.drmaa.org).  Most commonly used to interface with [PBS Professional](http://www.pbsworks.com/Product.aspx?id=1), [Sun Grid Engine](http://gridscheduler.sourceforge.net/), [Univa Grid Engine](http://www.univa.com/products/grid-engine.php), [Platform LSF](http://www-03.ibm.com/systems/technicalcomputing/platformcomputing/products/lsf/index.html), and [SLURM](http://slurm.schedmd.com/).  
 
 ### Dependencies
 
@@ -425,7 +425,7 @@ galaxy  ALL = (root) NOPASSWD: SETENV: /usr/bin/chown
 
 If your sudo config contains `Defaults    requiretty`, this option must be disabled.
 
-Some maintenance and support of this code will be provided via the usual [Support](/src/Support/index.md) channels, but improvements and fixes would be greatly welcomed, as this is a complex feature which is not used by the Galaxy Development Team.
+Some maintenance and support of this code will be provided via the usual [Support](/src/support/index.md) channels, but improvements and fixes would be greatly welcomed, as this is a complex feature which is not used by the Galaxy Development Team.
 
 
 # Contributors

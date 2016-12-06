@@ -6,7 +6,7 @@ PLACEHOLDER_INCLUDE(/src/CloudMan/Header/index.md)
 <table>
   <tr>
     <td style=" border: none;"> <div class='title'>Galaxy CloudMan <a href='/src/CloudMan/index.md'>CapacityPlanning</a> for Amazon Web Services</div> </td>
-    <td style=" border: none;"> <a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="http://aws.amazon.com/" /></a> </td>
+    <td style=" border: none;"> <a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="http://aws.amazon.com/" /></a> </td>
   </tr>
 </table>
 

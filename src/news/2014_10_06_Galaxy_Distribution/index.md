@@ -1,5 +1,5 @@
-<div class='newsItemHeader'>[October 06, 2014 Galaxy Distribution](/src/News/2014_10_06_Galaxy_Distribution/index.md)</div>
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/Images/Logos/GetGalaxyOrg.png" alt=" " width=150 /></a></div>
+<div class='newsItemHeader'>[October 06, 2014 Galaxy Distribution](/src/news/2014_10_06_Galaxy_Distribution/index.md)</div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GetGalaxyOrg.png" alt=" " width=150 /></a></div>
 **[Complete News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2014_10_06)**
 <br /><br />
 *Highlights:* <br />
@@ -42,6 +42,6 @@
 *Thanks for using Galaxy!* <br />
 [The Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-10-06</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-10-06</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[November 2012 GalaxyAdmins](/src/News/2012_11GalaxyAdmins/index.md)</div>
+<div class='newsItemHeader'>[November 2012 GalaxyAdmins](/src/news/2012_11GalaxyAdmins/index.md)</div>
 
-<div class='right'><a href='/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="November 2012 GalaxyAdmins Meetup" width="160" /></a> </div>
+<div class='right'><a href='/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="November 2012 GalaxyAdmins Meetup" width="160" /></a> </div>
 
 The [next meeting](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md) of the [GalaxyAdmins Group](/src/Community/GalaxyAdmins/index.md) will be held on [November 14, 2012, at 10 AM Central US time](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md).  Curtis Hendrickson of the [University of Alabama Birmingham's Center for Clinical and Translational Science (UAB CCTS)](http://www.uab.edu/ccts/ResearchResources/BMI/Pages/default.aspx) will speak on *Deploying Galaxy on a shared-node cluster at UAB.*  The meeting will also include time for open discussion.  As always, please come prepared for an active discussion.
 
@@ -34,6 +34,6 @@ The [next meeting](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md) of t
 
 Srinivas Maddhi
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-11-05</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-11-05</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

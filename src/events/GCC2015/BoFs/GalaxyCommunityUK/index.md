@@ -1,13 +1,13 @@
 ---
 title: [Galaxy Community UK (GCUK)](http://galaxy-community.org.uk/)
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2015/Header/index.md)
 
 
 
 
 <div class='dictbox'>
- BoF:: [Galaxy Community UK BoF](/src/Events/GCC2015/BoFs/GalaxyCommunityUK/index.md)
+ BoF:: [Galaxy Community UK BoF](/src/events/GCC2015/BoFs/GalaxyCommunityUK/index.md)
  Summary:: Meeting of the [Galaxy Community from the United Kingdom and Ireland](http://galaxy-community.org.uk/)
  Audience:: Galaxy Users/Devs/Admins from the British Isles and Ireland (and everybody else who's interested, we're called @GalaxyUKFriends after all).
  When:: Wednesday, 8th July. 18:00 (6pm)
@@ -15,9 +15,9 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
  Contact:: Christian-dot-Schudoma-at-TSL-dot-ac-dot-uk
 </div>
 
-<div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
+<div class='left'><a href='/src/events/GCC2015/BoFs/index.md'><img src="/src/images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
-This page describes the **[Galaxy UK Community (GCUK)](http://galaxy-community.org.uk/)** [Birds of a Feather](/src/Events/GCC2015/BoFs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
+This page describes the **[Galaxy UK Community (GCUK)](http://galaxy-community.org.uk/)** [Birds of a Feather](/src/events/GCC2015/BoFs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 
 ## Description
 

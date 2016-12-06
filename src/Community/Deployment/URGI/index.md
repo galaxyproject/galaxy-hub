@@ -2,7 +2,7 @@
 title: URGI
 ---
 <div class='center'>
-<a href='https://urgi.versailles.inra.fr/'><img src="/src/Images/Logos/URGILogo.png" alt="URGI" height="200" /></a>
+<a href='https://urgi.versailles.inra.fr/'><img src="/src/images/Logos/URGILogo.png" alt="URGI" height="200" /></a>
 </div>
 
 
@@ -63,11 +63,11 @@ Instance deployed on virtual machine.
 
 ### Maintaining and Meeting Needs
 
-[DevOps software techniques](/src/Events/GCC2013/Abstracts/Talks/index.md#devops-ignition-to-reach-galaxy-continuous-integration) implementation are used.
+[DevOps software techniques](/src/events/GCC2013/Abstracts/Talks/index.md#devops-ignition-to-reach-galaxy-continuous-integration) implementation are used.
 
 ## Links
 
 * [Description of server](/src/PublicGalaxyServers/index.md#inra-urgi) in [list of publicly accessible Galaxy Servers](/src/PublicGalaxyServers/index.md)
-* [DevOps Ignition to reach Galaxy continuous integration](/src/Events/GCC2013/Abstracts/Talks/index.md#devops-ignition-to-reach-galaxy-continuous-integration) talk at [GCC2013](/src/Events/GCC2013/index.md)
+* [DevOps Ignition to reach Galaxy continuous integration](/src/events/GCC2013/Abstracts/Talks/index.md#devops-ignition-to-reach-galaxy-continuous-integration) talk at [GCC2013](/src/events/GCC2013/index.md)
 
 [CategoryDeployment](/src/CategoryDeployment/index.md)

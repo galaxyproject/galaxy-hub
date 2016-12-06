@@ -5,7 +5,7 @@ title: April 1, 2013 Galaxy Distribution News Brief
 <div class='right'></div>
 
 ```wiki red/solid/light
-Due to a security vulnerability, administrators are strongly encouraged to upgrade to the [April 8, 2013 Security Release](/src/News/2013_04_08_Galaxy_Security_Release/index.md), which is was not included in the original April 1, 2013 distribution.```
+Due to a security vulnerability, administrators are strongly encouraged to upgrade to the [April 8, 2013 Security Release](/src/news/2013_04_08_Galaxy_Security_Release/index.md), which is was not included in the original April 1, 2013 distribution.```
 
 <br />
 
@@ -179,7 +179,7 @@ An abstracted interface has been created for the data manager to download, gener
 
 1. New lists of Valid Galaxy Utilities are now available in the tool shed allowing you to inspect more granular contents of repositories.  Lists of tools, custom datatypes, repository dependency definitions and tool dependency definitions are currently available.  The framework supporting this feature will be used to enhance searching the tool shed in a future Galaxy release where you will be able to search the tool shed for any of these galaxy utilities (currently you can only search for tools and workflows).
 
-![](/src/Images/NewsGraphics/2013_04_01_granular-galaxy-utilities.png)
+![](/src/images/NewsGraphics/2013_04_01_granular-galaxy-utilities.png)
 
 
 ### Enhancements to existing Tool Shed features
@@ -296,13 +296,13 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # Announcements
 
-[News](/src/News/index.md), ***[April 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_04)***
+[News](/src/news/index.md), ***[April 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_04)***
 
 ## GCC2013
 
-<div class='left'><a href='/src/Events/GCC2013/index.md'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div> 
+<div class='left'><a href='/src/events/GCC2013/index.md'><img src="/src/images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div> 
 
-<div class='right'><a href='/src/Events/GCC2013/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div> 
+<div class='right'><a href='/src/events/GCC2013/TrainingDay/index.md'><img src="/src/images/Logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div> 
 <br />
 <br />
 <br />

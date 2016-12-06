@@ -1,12 +1,12 @@
 ---
 title: Using Galaxy with Heterogeneous and Remote Resources
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
 
 
 
 <div class='dictbox'>
- BoF:: **[Using Galaxy with Heterogeneous and Remote Resources](/src/Events/GCC2014/BoFs/Heterogeneous/index.md)**
+ BoF:: **[Using Galaxy with Heterogeneous and Remote Resources](/src/events/GCC2014/BoFs/Heterogeneous/index.md)**
  Summary:: We'll summarize recent efforts to enable Galaxy Main to send jobs to remote HPC resources (XSEDE) and invite others to share related experiences and requirements.  We'll discuss a path to overcome challenges and better meet the needs of the research community. 
  Audience:: 
  When:: Tuesday, July 1, 5:45pm 
@@ -14,11 +14,11 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
  Contact:: [Philip Blood](mailto:blood AT psc DOT edu), [John Chilton](/src/JohnChilton/index.md), [Nate Coraor](/src/nate/index.md), Carrie Ganote
 </div>
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
 
-<div class='left'><a href='/src/Events/GCC2014/BoFs/index.md'><img src="/src/Images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
+<div class='left'><a href='/src/events/GCC2014/BoFs/index.md'><img src="/src/images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
 
-This page describes the **Using Galaxy with Heterogeneous and Remote Resources** [Birds of a Feather](/src/Events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
+This page describes the **Using Galaxy with Heterogeneous and Remote Resources** [Birds of a Feather](/src/events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/events/GCC2014/index.md).
 
 ## Description
 

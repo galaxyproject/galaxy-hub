@@ -17,17 +17,17 @@ autotoc: true
 
 ## News & Events
 
-<div class='left'><a href='/src/GalaxyIsHiring/index.md'><img src="/src/Images/Icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
-* Keep current on all things Galaxy at our [News](/src/News/index.md) and [Events](/src/Events/index.md) wikis.
+<div class='left'><a href='/src/GalaxyIsHiring/index.md'><img src="/src/images/Icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
+* Keep current on all things Galaxy at our [News](/src/news/index.md) and [Events](/src/events/index.md) wikis.
 * Galaxy is still [hiring](/src/GalaxyIsHiring/index.md)!
 
 ### GCC 2012 is Scheduled!
 
-<div class='right'><a href='/src/Events/GCC2012/index.md'><img src="/src/Events/GCC2012/GCC2012Logo200.png" alt="GCC 2012" width="180" /></a></div>
+<div class='right'><a href='/src/events/GCC2012/index.md'><img src="/src/events/GCC2012/GCC2012Logo200.png" alt="GCC 2012" width="180" /></a></div>
 
-**We are pleased to announce that the [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) has been scheduled for July 25-27 in Chicago, Illinois, United States.**  
+**We are pleased to announce that the [2012 Galaxy Community Conference (GCC2012)](/src/events/GCC2012/index.md) has been scheduled for July 25-27 in Chicago, Illinois, United States.**  
 
-GCC2012 will be held at the [University of Illinois Chicago (UIC)](http://uic.edu/) campus in downtown Chicago.  See the [GCC2012 conference web page](/src/Events/GCC2012/index.md) for more, including [opportunities to sponsor](/src/Events/GCC2012/Sponsorships/index.md) this year's conference.
+GCC2012 will be held at the [University of Illinois Chicago (UIC)](http://uic.edu/) campus in downtown Chicago.  See the [GCC2012 conference web page](/src/events/GCC2012/index.md) for more, including [opportunities to sponsor](/src/events/GCC2012/Sponsorships/index.md) this year's conference.
 
 Some things will be the same as in previous years, but we are also using feedback from last year to guide the 2012 meeting.  We will again be seeking talks (full and lightning) from the community.  More information will be posted as it becomes available.
 
@@ -40,8 +40,8 @@ Please reserve July 25-27 on your calendars!
 * A one day [Galaxy Developer Workshop](http://evomics.org/workshops/galaxy-developer-workshop/) is being held in [Galaxy Developer Workshop](http://evomics.org/workshops/galaxy-developer-workshop/) in [Český Krumlov, Czech Republic](http://www.ckrumlov.info/php/)
   * Registration deadline is December 15, but you are encouraged to register early, so we can gauge demand.
   * This workshop is immediately following the [Workshop on Genomics](http://evomics.org/workshops/workshop-on-genomics/2012-genomics-cesky-krumlov/2012), which also features Galaxy content, and is still accepting applications.
-* Galaxy will have presentations at [PAG 2012 (January, San Diego)](/src/Events/PAG2012/index.md) on using Galaxy, both on [Main](/src/Main/index.md) and in the [Cloud](/src/CloudMan/index.md)
-* There are also [events](/src/Events/index.md) at the [University of Manchester](http://www.nowgen.org.uk/facilities/events/event.php?id=30) and [DDBJ](http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html#DDBJ) in January.
+* Galaxy will have presentations at [PAG 2012 (January, San Diego)](/src/events/PAG2012/index.md) on using Galaxy, both on [Main](/src/Main/index.md) and in the [Cloud](/src/CloudMan/index.md)
+* There are also [events](/src/events/index.md) at the [University of Manchester](http://www.nowgen.org.uk/facilities/events/event.php?id=30) and [DDBJ](http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html#DDBJ) in January.
 
 ----
 ## What's New
@@ -152,7 +152,7 @@ There are two Tool Sheds supported by the core Galaxy team:
 
 ### Bug Fixes
 
-<div class='right'><a href='/src/Support/index.md'><img src="/src/Images/Icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/src/support/index.md'><img src="/src/images/Icons/bug.png" alt="bugs" width="20" /></a></div> 
 
 * Grid fixes: (a) make operation buttons work after refresh and (b) show message each time
 * Force absolute path when creating temporary directory used when importing histories. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/667](https://bitbucket.org/galaxy/galaxy-central/issue/667)

@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[January 27, 2012 Distribution & News Brief](/src/News/Jan272012 Distribution News Brief/index.md)</div>
+<div class='newsItemHeader'>[January 27, 2012 Distribution & News Brief](/src/news/Jan272012 Distribution News Brief/index.md)</div>
 
 **Complete [News Brief](/src/DevNewsBriefs/2012_01_27/index.md)**
 
@@ -27,6 +27,6 @@ upgrade: % hg pull -u -r 26920e20157f
 [Galaxy Team](/src/Galaxy Team/index.md)
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-01-28</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-01-28</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

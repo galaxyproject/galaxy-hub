@@ -1,5 +1,5 @@
-<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> <br /><br />
-<a href='http://www.nd.edu/'><img src="/src/Images/Logos/NotreDame.png" alt="University of Notre Dame"  /></a>
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> <br /><br />
+<a href='http://www.nd.edu/'><img src="/src/images/Logos/NotreDame.png" alt="University of Notre Dame"  /></a>
 <br />
 <div class='title'>2016/08/18 Web Meetup<br /><br />
 
@@ -34,7 +34,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 *[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
 <div class='right'><br />
-<a href='http://ccl.cse.nd.edu/software/makeflow/'><img src="/src/Images/Logos/Makeflow.png" alt="Makeflow" height="110" /></a>
+<a href='http://ccl.cse.nd.edu/software/makeflow/'><img src="/src/images/Logos/Makeflow.png" alt="Makeflow" height="110" /></a>
 </div>
 
 ## Makeflow
@@ -48,7 +48,7 @@ More information on this work is available:
 
 ## Call Technology
 
-<div class='right'><img src="/src/Images/Logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmin Meetup, Online Conference Room" width="150" /></div>
+<div class='right'><img src="/src/images/Logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmin Meetup, Online Conference Room" width="150" /></div>
 
 The  meetup's [online conference room](https://connect.johnshopkins.edu/gxyadmins201608/) will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 

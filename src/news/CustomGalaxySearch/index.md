@@ -1,7 +1,7 @@
-<div class='newsItemHeader'>[Custom Galaxy Search](/src/News/Custom Galaxy Search/index.md)</div>
+<div class='newsItemHeader'>[Custom Galaxy Search](/src/news/Custom Galaxy Search/index.md)</div>
 
 <div class='center'>
-<a href='http://galaxyproject.org/search/web'><img src="/src/Images/Logos/GalaxyWebSearch.png" alt="Galaxy Web Search" width="170" /></a> <a href='http://galaxyproject.org/search/mailinglists'><img src="/src/Images/Logos/GalaxyMailingListSearch.png" alt="Galaxy Mailing List Search" width="170" /></a> <a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/Images/Logos/UseGalaxySearch.png" alt="Using Galaxy Web Search" width="170" /></a> <a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/Images/Logos/GetGalaxySearch.png" alt="Galaxy administration, tool, and deployment search" width="170" /></a>
+<a href='http://galaxyproject.org/search/web'><img src="/src/images/Logos/GalaxyWebSearch.png" alt="Galaxy Web Search" width="170" /></a> <a href='http://galaxyproject.org/search/mailinglists'><img src="/src/images/Logos/GalaxyMailingListSearch.png" alt="Galaxy Mailing List Search" width="170" /></a> <a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/Logos/UseGalaxySearch.png" alt="Using Galaxy Web Search" width="170" /></a> <a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/images/Logos/GetGalaxySearch.png" alt="Galaxy administration, tool, and deployment search" width="170" /></a>
 </div>
 <br />
 Galaxy now has several Google Custom Search engines that make it much easier to find answers to your questions about Galaxy.  They are:
@@ -20,6 +20,6 @@ Thanks,
 
 [Dave Clements](/src/DaveClements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-12-20</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-12-20</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

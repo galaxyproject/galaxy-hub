@@ -1,14 +1,14 @@
 <div class='title'>
 <table>
   <tr>
-    <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'><img src="/src/Images/Logos/ASMSLogo.png" alt="62nd ASMS Conference on Mass Spectrometry and Allied Topics" /></a> </td>
+    <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'><img src="/src/images/Logos/ASMSLogo.png" alt="62nd ASMS Conference on Mass Spectrometry and Allied Topics" /></a> </td>
     <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'>62nd ASMS Conference on Mass Spectrometry and Allied Topics</a><br /><br /> Baltimore Maryland, United States<br /><br />June 15 - 19, 2014 </td>
   </tr>
 </table>
 
 </div>
 
-Galaxy will again have a strong presence at the 2014 ASMS meeting.  This year it's in Baltimore, two weeks before [GCC2014](/src/Events/GCC2014/index.md).
+Galaxy will again have a strong presence at the 2014 ASMS meeting.  This year it's in Baltimore, two weeks before [GCC2014](/src/events/GCC2014/index.md).
 
 <table>
   <tr class="th" >
@@ -61,7 +61,7 @@ Galaxy will again have a strong presence at the 2014 ASMS meeting.  This year it
     <th> Wednesday </th>
     <td style=" text-align: center;"> 5:45pm - 7:00pm </td>
     <td> Room 339-340 </td>
-    <td> <strong>Workshop 7: The Galaxy Framework for Biological MS Informatics: Practical Tips for Software Developers and Users </strong><div class='indent'><em>Tim Griffin (presiding), University of Minnesota, Minneapolis, MN<br />See <a href='/src/Events/ASMS2014/index.md#workshop-7-the-galaxy-framework-for-biological-ms-informatics-practical-tips-for-software-developers-and-users'>below</a> for more information</em></div> </td>
+    <td> <strong>Workshop 7: The Galaxy Framework for Biological MS Informatics: Practical Tips for Software Developers and Users </strong><div class='indent'><em>Tim Griffin (presiding), University of Minnesota, Minneapolis, MN<br />See <a href='/src/events/ASMS2014/index.md#workshop-7-the-galaxy-framework-for-biological-ms-informatics-practical-tips-for-software-developers-and-users'>below</a> for more information</em></div> </td>
     <td> </td>
   </tr>
   <tr>

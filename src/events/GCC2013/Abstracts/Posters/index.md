@@ -2,11 +2,11 @@
 autotoc: true
 title: Poster Abstracts
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/LinkBox/index.md)
 
 ## Abstracts
 
@@ -125,7 +125,7 @@ Today's next generation sequencing (NGS) experiments generate substantially more
 
 ### P7: Engaging Galaxy in Microbiology
 
-<div class='right'><a href='http://www.crs4.it/crs4/peopledetails/people/195/Gianmauro_Cuccuru'><img src="/src/Events/GCC2012/Abstracts/Cuccuru.jpg" alt="" width="100" /></a></div>
+<div class='right'><a href='http://www.crs4.it/crs4/peopledetails/people/195/Gianmauro_Cuccuru'><img src="/src/events/GCC2012/Abstracts/Cuccuru.jpg" alt="" width="100" /></a></div>
 
 Massimiliano Orsini, **[Gianmauro Cuccuru](http://www.crs4.it/crs4/peopledetails/people/195/Gianmauro_Cuccuru)**, [Nicola Soranzo](http://www.crs4.it/web/bioinformatics/peopledetails/people/198/Nicola_Soranzo), Andrea Pinna, Andrea Sbardellati, Antonella Travaglione, Paolo Uva, Gianluigi Zanetti, Giorgio Fotia
 
@@ -139,7 +139,7 @@ Next Generation Sequencing is today widely applied in both microbiology and meta
 
 ### P8: Microbiome profiling on a Galaxy-based framework for Microbiology
 
-<div class='right'><a href='http://www.crs4.it/web/bioinformatics/peopledetails/people/198/Nicola_Soranzo'><img src="/src/Events/GCC2013/Abstracts/Posters/NicolaSoranzo.jpg" alt="" width="100" /></a></div>
+<div class='right'><a href='http://www.crs4.it/web/bioinformatics/peopledetails/people/198/Nicola_Soranzo'><img src="/src/events/GCC2013/Abstracts/Posters/NicolaSoranzo.jpg" alt="" width="100" /></a></div>
 
 Stefano Onano, [Gianmauro Cuccuru](http://www.crs4.it/crs4/peopledetails/people/195/Gianmauro_Cuccuru), Massimiliano Orsini, Andrea Pinna, Andrea Sbardellati, **[Nicola Soranzo](http://www.crs4.it/web/bioinformatics/peopledetails/people/198/Nicola_Soranzo)**, Paolo Uva, Giorgio Fotia
 
@@ -190,7 +190,7 @@ From  the development  of this friendly tool, in the case study,  the historical
 
 ### P11: Running on HPC Galaxy-based workflows for predictive biomarkers from RNA-Seq clinical data
 
-<div class='right'><img src="/src/Events/GCC2013/Abstracts/Posters/CalogeroZarbo.jpg" alt="Calogero Zarbo" width="100" /></div>
+<div class='right'><img src="/src/events/GCC2013/Abstracts/Posters/CalogeroZarbo.jpg" alt="Calogero Zarbo" width="100" /></div>
 
 **Calogero Zarbo**, Marco Chierici, Cesare Furlanello
 
@@ -459,9 +459,9 @@ LiSIs has been used to implement virtual screening workflows for the selection o
 ### P26: LifePortal – the Galaxy based portal for life science at University of Oslo
 
 <div class='right'>
-<a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'><img src="/src/Events/GCC2013/Abstracts/Posters/NikolayVazov.jpg" alt="Nikolay Vazov" width="90" /></a>
-<a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'><img src="/src/Events/GCC2013/Abstracts/Posters/KaterinaMichalickova.jpg" alt="Katerina Michalickova" width="80" /></a>
-<a href='http://folk.uio.no/georgios'><img src="/src/Events/GCC2013/Abstracts/Posters/GeorgeMagklaras.jpg" alt="George Magklaras" width="80" /></a>
+<a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'><img src="/src/events/GCC2013/Abstracts/Posters/NikolayVazov.jpg" alt="Nikolay Vazov" width="90" /></a>
+<a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'><img src="/src/events/GCC2013/Abstracts/Posters/KaterinaMichalickova.jpg" alt="Katerina Michalickova" width="80" /></a>
+<a href='http://folk.uio.no/georgios'><img src="/src/events/GCC2013/Abstracts/Posters/GeorgeMagklaras.jpg" alt="George Magklaras" width="80" /></a>
 </div>
 
 **[Nikolay Vazov](http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html)**<sup>1</sup>, **[Katerina Michalickova](http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html)**<sup>1</sup>, **[George Magklaras](http://folk.uio.no/georgios)**<sup>1,2</sup> Gard Thomassen<sup>1</sup>, Hans A. Eide<sup>1</sup>

@@ -71,7 +71,7 @@ In short, the Galaxy community includes anyone who works with Galaxy in any capa
 <div class='right'>
 <table>
   <tr>
-    <td style=" text-align: center;"> <a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="140" /></a><br /><a href='/src/Community/Deployments/index.md'>Browse / Add</a></td>
+    <td style=" text-align: center;"> <a href='/src/Community/Deployments/index.md'><img src="/src/images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="140" /></a><br /><a href='/src/Community/Deployments/index.md'>Browse / Add</a></td>
   </tr>
 </table>
 
@@ -87,7 +87,7 @@ Ever wonder how other sites deploy Galaxy?  Want to share how your Galaxy instan
 <div class='right'>
 <table>
   <tr>
-    <td style=" text-align: center;"> <a href='/src/Community/Logs/index.md'><img src="/src/Images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="140" /></a><br /><a href='/src/Community/Logs/index.md'>Browse / Add</a> </td>
+    <td style=" text-align: center;"> <a href='/src/Community/Logs/index.md'><img src="/src/images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="140" /></a><br /><a href='/src/Community/Logs/index.md'>Browse / Add</a> </td>
   </tr>
 </table>
 
@@ -99,7 +99,7 @@ Want to share how you addressed a particular challenge in your Galaxy deployment
 ## Other Resources
 
 * [Tool Shed](/src/ToolShed/index.md) - Tool wrappers contributed by community members.
-* [Events](/src/Events/index.md) - Events of interest to the community, including the annual Galaxy meetings.
-* [Support](/src/Support/index.md) - How to get (and help with) support, including [Mailing Lists](/src/MailingLists/index.md) and [this wiki](/src/Wiki Help/index.md).
+* [Events](/src/events/index.md) - Events of interest to the community, including the annual Galaxy meetings.
+* [Support](/src/support/index.md) - How to get (and help with) support, including [Mailing Lists](/src/MailingLists/index.md) and [this wiki](/src/Wiki Help/index.md).
 * [Training and Outreach](/src/Outreach/index.md) - Find out how you can support the Galaxy community and get the word out about Galaxy.
 

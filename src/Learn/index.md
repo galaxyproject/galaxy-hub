@@ -109,7 +109,7 @@ In the meantime, for some tools there is also additional information available o
 <div class='right'> <a href='/src/Learn/Visualization/index.md'><img src="/src/viz/histogram.png" alt="Visualization" width="300" /></a></div>
 Galaxy incorporates a [track browser](/src/Learn/Visualization/index.md). This can be used to visualize genomic data within Galaxy in a tightly integrated way. The browser also currently supports (and aims to support maximally) *visual analytics*, where visualization is used iteratively to provide feedback on analysis.  See [Visualization](/src/Learn/Visualization/index.md) for more. Additionally, Galaxy enables you to create bar diagrams, pie charts, scatter plots and other visualizations using the Charts plugin. See [Galaxy Charts](/src/Learn/Visualization/Charts/index.md) for more. Finally, custom visualizations developed by the user community are available [here](/src/Learn/Visualization/Custom/index.md).
 
-PLACEHOLDER_INCLUDE(/src/Support/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/support/LinkBox/index.md)
 ## User Accounts
 
 <div class='right'>![](/src/Learn/UserDropDown.png)</div>
@@ -127,7 +127,7 @@ Galaxy user accounts are simple to create (email, password, user name and go!). 
 * [Admin](/src/Admin/index.md) - How to *administer* your own Galaxy instance
 
 <div class='center'>
-<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/Images/Logos/UseGalaxySearch.png" alt="Search all "using" Galaxy resources" width="120" /></a>
+<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/Logos/UseGalaxySearch.png" alt="Search all "using" Galaxy resources" width="120" /></a>
 
 [Search all "using Galaxy" resources](http://galaxyproject.org/search/usegalaxy)
 </div>

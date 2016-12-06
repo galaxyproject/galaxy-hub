@@ -65,7 +65,7 @@ If you are starting or editing a new wiki page and want to maximize the chance t
 * follow the best practices on our **[Wiki Help](/src/Wiki Help/index.md)** and use **Moin Moin**
 * start your page using the transition template: **[TemplateWikiPageCategory1](/src/TemplateWikiPageCategory1/index.md)**
 * *do not* use spaces in the wiki page name. *do* be specific. *do* use upper/lower case syntax.
-* put your images in the right place: **[Images](/src/Images/index.md)**
+* put your images in the right place: **[Images](/src/images/index.md)**
 * ***write for a scientific audience*** - ask the question, is your content **Specific and Reproducible?**
   * includes comments/links to support any claims
   * uses proper tool names/versions and links to credit tool authors/publications

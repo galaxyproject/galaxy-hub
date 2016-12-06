@@ -1,7 +1,7 @@
-<div class='newsItemHeader'>[Feb 8, 2013 Galaxy Distribution & News Brief](/src/News/2013_02_08_GalaxyNewsBrief/index.md)</div>
+<div class='newsItemHeader'>[Feb 8, 2013 Galaxy Distribution & News Brief](/src/news/2013_02_08_GalaxyNewsBrief/index.md)</div>
 
 **Complete [News Brief](/src/DevNewsBriefs/2013_02_08/index.md)**
-<div class='right'><a href='http://wiki.galaxyproject.org/Tool%20Shed'><img src="/src/Images/NewsGraphics/2013_02_6-confirm-dependency-installation-sm2.png" alt="width="200px"" /></a></div>
+<div class='right'><a href='http://wiki.galaxyproject.org/Tool%20Shed'><img src="/src/images/NewsGraphics/2013_02_6-confirm-dependency-installation-sm2.png" alt="width="200px"" /></a></div>
 **Highlights:**
 
 * *Improvements* to our [release process](http://wiki.galaxyproject.org/DevNewsBriefs/2013_02_08#Improvements_to_Release_Process). **Release tag must be used in the hg update command to upgrade**. More at **[usegalaxy.org](http://wiki.galaxyproject.org/Admin/Get Galaxy)**.
@@ -27,13 +27,13 @@ upgrade: $ hg pull
 ```
 
 
-*To receive email updates about [Galaxy Distributions and News Briefs](/src/DevNewsBriefs/index.md), be sure to subscribe to the [Galaxy-Announce mailing list](/src/MailingLists/index.md#the_lists), a low-volume list dedicated to [News Items](/src/News/index.md) and priority messages from the Galaxy [community](/src/Community/index.md) and [project core team](/src/Galaxy Project/index.md).* 
+*To receive email updates about [Galaxy Distributions and News Briefs](/src/DevNewsBriefs/index.md), be sure to subscribe to the [Galaxy-Announce mailing list](/src/MailingLists/index.md#the_lists), a low-volume list dedicated to [News Items](/src/news/index.md) and priority messages from the Galaxy [community](/src/Community/index.md) and [project core team](/src/Galaxy Project/index.md).* 
 
 Thanks for using Galaxy,
 
 [The Galaxy Team](/src/GalaxyTeam/index.md)
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-02-09</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-02-09</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

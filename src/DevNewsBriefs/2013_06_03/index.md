@@ -203,7 +203,7 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 
 1. Enhancements to handlers, display, and data input parsing. https://trello.com/c/5jk3k7Td
 
-<a href='/src/DevNewsBriefs/2013_06_03/index.md'><img src="/src/Images/NewsGraphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=500 /></a>
+<a href='/src/DevNewsBriefs/2013_06_03/index.md'><img src="/src/images/NewsGraphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=500 /></a>
 
 <br />
 # Trackster
@@ -250,9 +250,9 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 1. Upgraded `SQLAlchemy`. https://trello.com/c[/Q6kBeBy](/src/DevNewsBriefs/2013_06_03/Q6kBeBy/index.md)D
 1. Error Logging with `Sentry`. https://trello.com/c/Yc1LXXTR
 
-<a href='/src/DevNewsBriefs/2013_06_03/index.md'><img src="/src/Images/NewsGraphics/2013_06_03_sentry-1.png" alt="sentry-1" width=600 /></a>
+<a href='/src/DevNewsBriefs/2013_06_03/index.md'><img src="/src/images/NewsGraphics/2013_06_03_sentry-1.png" alt="sentry-1" width=600 /></a>
 
-<a href='/src/DevNewsBriefs/2013_06_03/index.md'><img src="/src/Images/NewsGraphics/2013_06_03_sentry-2.png" alt="sentry-2" width=500 /></a>
+<a href='/src/DevNewsBriefs/2013_06_03/index.md'><img src="/src/images/NewsGraphics/2013_06_03_sentry-2.png" alt="sentry-2" width=500 /></a>
 
 <br />
 # Pull Requests Merged
@@ -289,13 +289,13 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # Project Updates
 
-**[News](/src/News/index.md)**, ***[June 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_06)***
+**[News](/src/news/index.md)**, ***[June 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013_06)***
 
 <br />
 <br />
 # GCC2013
 
-<div class='left'><a href='/src/Events/GCC2013/index.md'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div> 
+<div class='left'><a href='/src/events/GCC2013/index.md'><img src="/src/images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div> 
 
 <br />
 <br />

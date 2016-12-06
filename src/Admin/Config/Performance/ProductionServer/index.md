@@ -7,7 +7,7 @@ PLACEHOLDER_INCLUDE(/src/Admin/Config/Performance/LinkBox/index.md)
 
 The [basic installation instructions](/src/Admin/GetGalaxy/index.md) are suitable for development by a single user, but when setting up Galaxy for a multi-user production environment, there are some additional steps that should be taken for the best performance.
 
-You may also want to consult the [Building Scalable Galaxy slides](PLACEHOLDER_ATTACHMENT_URL/src/Events/GDC2010/GDC2010_building_scalable.pdf) from the [2010 Galaxy Developers Conference](/src/Events/GDC2010/index.md) at CSHL (upon which this page is based).
+You may also want to consult the [Building Scalable Galaxy slides](PLACEHOLDER_ATTACHMENT_URL/src/events/GDC2010/GDC2010_building_scalable.pdf) from the [2010 Galaxy Developers Conference](/src/events/GDC2010/index.md) at CSHL (upon which this page is based).
 
 
 ## Why bother?
@@ -76,7 +76,7 @@ During deployment, you may run into problems with failed jobs.  By default, Gala
 
 The most important recommendation is to switch to an actual database server.  By default, Galaxy will use [SQLite](http://www.sqlite.org/), which is a serverless simple file database engine.  Since it's serverless, all of the database processing occurs in the Galaxy process itself.  This has two downsides: it occupies the aforementioned GIL (meaning that the process is not free to do other tasks), and it is not nearly as efficient as a dedicated database server.  There are other drawbacks, too.  When load increases with multiple users, the risk of transactional locks also increases.  Locks will cause (among other things) timeouts and job errors.  If you start with SQLite and then later realize a need for a database server, you'll need to migrate your database or start over.  Galaxy does not provide an internal method to migrate data from SQLite, and although free conversion tools are available on the web, this process is non-trivial.
 
-<div class='right'><a href='http://www.postgresql.org/'><img src="/src/Images/Logos/PostgreSQLLogo160.png" alt="PostgreSQL" /></a></div>
+<div class='right'><a href='http://www.postgresql.org/'><img src="/src/images/Logos/PostgreSQLLogo160.png" alt="PostgreSQL" /></a></div>
 
 For this reason, Galaxy also supports [PostgreSQL](http://www.postgresql.org/) and [MySQL](http://dev.mysql.com/). *PostgreSQL is much preferred since we've found it works better with our DB abstraction layer, [SQLAlchemy](http://www.sqlalchemy.org).*
 

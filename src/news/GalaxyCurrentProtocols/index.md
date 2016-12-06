@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[Two New Current Protocols Papers](/src/News/GalaxyCurrentProtocols/index.md)</div>
+<div class='newsItemHeader'>[Two New Current Protocols Papers](/src/news/GalaxyCurrentProtocols/index.md)</div>
 
-<div class='right'><a href='http://cda.currentprotocols.com/WileyCDA/CurPro3Category/L1-1000.html'><img src="/src/Images/Logos/CurrentProtocolsLogo.png" alt="Current Protocols in Bioinformatics" width="300" /></a></div>
+<div class='right'><a href='http://cda.currentprotocols.com/WileyCDA/CurPro3Category/L1-1000.html'><img src="/src/images/Logos/CurrentProtocolsLogo.png" alt="Current Protocols in Bioinformatics" width="300" /></a></div>
 
 Two new Galaxy-related papers are now available in [Current Protocols in Bioinformatics](http://cda.currentprotocols.com/WileyCDA/CurPro3Category/L1-1000.html):
 
@@ -17,6 +17,6 @@ We would like to thank [Wiley](http://wiley.com) for making both of these public
 
 [Galaxy Team](/src/Galaxy Team/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2012-06-18</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-06-18</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

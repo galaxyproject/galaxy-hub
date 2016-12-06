@@ -8,7 +8,7 @@ title: Introduction to Galaxy
   <tr>
     <td style=" border: none; text-align: center; vertical-align: middle; font-family: 'Times New Roman',Georgia,Serif; font-size: 200%; line-height: 120%;"> <a href='http://www.medicine.uiowa.edu/humangenetics'>Iowa Initiative</a><br /><a href='http://www.medicine.uiowa.edu/humangenetics'>in Human Genetics</a> </td>
     <td style=" border: none; text-align: center; vertical-align: middle; width: 10%;"> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://iowa.edu/'><img src="/src/Images/Logos/UIowaLogo.jpg" alt="University of Iowa" width="200" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://iowa.edu/'><img src="/src/images/Logos/UIowaLogo.jpg" alt="University of Iowa" width="200" /></a> </td>
   </tr>
 </table>
 
@@ -106,7 +106,7 @@ No programming or Linux command line experience is required.
 
 ## Support
 
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [Iowa Initiative in Human Genetics](http://www.medicine.uiowa.edu/humangenetics)
 

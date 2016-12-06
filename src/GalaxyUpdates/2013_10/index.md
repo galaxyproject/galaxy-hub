@@ -6,7 +6,7 @@ title: October 2013 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the October 2013 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -69,7 +69,7 @@ The [Laboratory of Biological Physics](http://fisbio.fcfrp.usp.br/), part of the
 
 ## ValidatorMAX
 
-<div class='right solid'><a href='http://msvalidator.uchicago.edu/galaxy/'><img src="/src/Images/Logos/UChicagoLogo.jpg" alt="ValidatorMAX at The University of Chicago" width="200" /></a></div>
+<div class='right solid'><a href='http://msvalidator.uchicago.edu/galaxy/'><img src="/src/images/Logos/UChicagoLogo.jpg" alt="ValidatorMAX at The University of Chicago" width="200" /></a></div>
 
 [This server](http://msvalidator.uchicago.edu/galaxy/) implements Validator<sup>MAX</sup>: confident identification of stable isotope-labeled peptide pairs and associated abundance ratios. The server is sponsored by the [Department of Molecular Genetics and Cell Biology](http://mgcb.bsd.uchicago.edu/), [Ludwig Center for Metastasis Research](http://cancer.uchicago.edu/research/uchicago-advantage/metastasis.shtml), [Department of Pediatrics](http://pediatrics.uchicago.edu/), [Center for Research Informatics](http://cri.uchicago.edu/), [Computation Institute](http://www.ci.uchicago.edu/), [The University of Chicago](http://www.uchicago.edu/)
 
@@ -148,8 +148,8 @@ And the Galaxy Project now has it's own [CITATION file](https://bitbucket.org/ga
 <div class='right'><a href='/src/GalaxyIsHiring/index.md'><img src="/src/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
-* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
-* [Computational biology opening](/src/News/ComputationalBiologyParis/index.md) at University Pierre-et-Marie-Curie, Paris
+* [Statistical Genomics Postdoc](/src/news/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* [Computational biology opening](/src/news/ComputationalBiologyParis/index.md) at University Pierre-et-Marie-Curie, Paris
 * [M2 Développement et intégration d'outils pour la bioanalyse dans Galaxy](http://www.sfbi.fr/content/m2-d%C3%A9veloppement-et-int%C3%A9gration-doutils-pour-la-bioanalyse-dans-galaxy), Limagrain à Chappes (Puy-de-Dôme, Auvergne)
 * [Part time position at GenePeeks](http://bit.ly/18ExEfk) 
 * [Stage M2 Développement et intégration d'outils pour la bioanalyse dans Galaxy chez Vilmorin & Cie.](http://bit.ly/19AYF4e)
@@ -157,23 +157,23 @@ The Galaxy is expanding! Please help it grow.
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**.
 * [Sr Bioinformatics Specialist, Tufts University](http://bit.ly/1bOLLBd), Boston MA.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
 # Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> There is a lot going on in the next three months, *with half of it happening in the Southern Hemisphere.*  Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/Icons/CalendarIcon.gif" /></a></div> There is a lot going on in the next three months, *with half of it happening in the Southern Hemisphere.*  Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='left'>
 <br />
 ## Australia!
 
 </div>
-<div class='center'><a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'><img src="/src/Images/Logos/RCPALogo.jpg" alt="The Genomic Bioinformatics Workshop" height="60" /></a>
-<a href='http://amataconference.com.au/2013/conference-program/pre-conference-workshops/'><img src="/src/Images/Logos/AMATA2013LogoName.png" alt="AMATA early career researcher workshop" height=80" /></a>
-<a href='http://conference.eresearch.edu.au/eres2013/workshops-2013/'><img src="/src/Images/Logos/eResearchAustralAsiaSmall.png" alt="eResearch Australasia 2013" height="60" /></a>
-<a href='http://www.qfab.org/events/upcoming/'><img src="/src/Images/Logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
+<div class='center'><a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'><img src="/src/images/Logos/RCPALogo.jpg" alt="The Genomic Bioinformatics Workshop" height="60" /></a>
+<a href='http://amataconference.com.au/2013/conference-program/pre-conference-workshops/'><img src="/src/images/Logos/AMATA2013LogoName.png" alt="AMATA early career researcher workshop" height=80" /></a>
+<a href='http://conference.eresearch.edu.au/eres2013/workshops-2013/'><img src="/src/images/Logos/eResearchAustralAsiaSmall.png" alt="eResearch Australasia 2013" height="60" /></a>
+<a href='http://www.qfab.org/events/upcoming/'><img src="/src/images/Logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
 </div>
 <br />
 In the next 3 months there are no less than 13 talks and workshops at at least 5 different venues on at least 7 distinct dates.  Those 13 known events include 8 workshops.  If you don't find some Galaxy training this spring then you aren't trying.  
@@ -266,11 +266,11 @@ In the next 3 months there are no less than 13 talks and workshops at at least 5
 And don't worry, you won't have to travel to Australia during its spring just to learn about Galaxy.  There are also upcoming events in North America, Europe, and Africa.
 
 <div class='center'> 
-<a href='http://individualizingmedicineconference.mayo.edu/schedule/'><img src="/src/Images/Logos/MayoClinicSmall.png" alt="Individualizing Medicine Conference" height="60" /></a> &nbsp;
-<a href='http://www.beyond-the-genome.com/program/'><img src="/src/Images/Logos/BeyondTheGenome2013.png" alt="Beyond the Genome" height="60" /></a> &nbsp;
-<a href='http://bit.ly/153avr8'><img src="/src/Images/Logos/OrioneNGSCourse.png" alt="Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica" height="65" /></a> &nbsp;
-<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/src/Images/Logos/GennoToulLogo.png" alt="Galaxy Training Days" height="60" /></a>
-<a href='/src/Events/SAWorkshopTour2013/index.md'><img src="/src/Images/Logos/SAGalaxyWorkshopTour2013Wide.png" alt="2013 South Africa Galaxy Workshop Tour" height="65" /></a>
+<a href='http://individualizingmedicineconference.mayo.edu/schedule/'><img src="/src/images/Logos/MayoClinicSmall.png" alt="Individualizing Medicine Conference" height="60" /></a> &nbsp;
+<a href='http://www.beyond-the-genome.com/program/'><img src="/src/images/Logos/BeyondTheGenome2013.png" alt="Beyond the Genome" height="60" /></a> &nbsp;
+<a href='http://bit.ly/153avr8'><img src="/src/images/Logos/OrioneNGSCourse.png" alt="Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica" height="65" /></a> &nbsp;
+<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/src/images/Logos/GennoToulLogo.png" alt="Galaxy Training Days" height="60" /></a>
+<a href='/src/events/SAWorkshopTour2013/index.md'><img src="/src/images/Logos/SAGalaxyWorkshopTour2013Wide.png" alt="2013 South Africa Galaxy Workshop Tour" height="65" /></a>
 </div>
 
 <table>
@@ -320,13 +320,13 @@ And don't worry, you won't have to travel to Australia during its spring just to
   </tr>
   <tr>
     <th> October 14-18 </th>
-    <td> <em><a href='/src/Events/UPretoria2013/index.md'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Pretoria</div> </td>
-    <td rowspan=2> <a href='/src/Events/SAWorkshopTour2013/index.md'>2013 South Africa Galaxy Workshop Tour</a><div class='indent red'>Application deadline is 17 September</div> </td>
+    <td> <em><a href='/src/events/UPretoria2013/index.md'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Pretoria</div> </td>
+    <td rowspan=2> <a href='/src/events/SAWorkshopTour2013/index.md'>2013 South Africa Galaxy Workshop Tour</a><div class='indent red'>Application deadline is 17 September</div> </td>
     <td rowspan=2> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 21-25 </th>
-    <td> <em><a href='/src/Events/UCapeTown2013/index.md'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Cape Town</div> </td>
+    <td> <em><a href='/src/events/UCapeTown2013/index.md'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Cape Town</div> </td>
   </tr>
   <tr>
     <th> October 22 </th>
@@ -390,8 +390,8 @@ And don't worry, you won't have to travel to Australia during its spring just to
 ## Online Materials from Past Events
 
 <div class='right'>
-<a href='http://bit.ly/gcc2013vimeo'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="120px" /></a><br /><br /><div class='right'>
-<a href='http://bit.ly/16rAUkf'><img src="/src/Images/Logos/UCDavisGenomeCenterLogo.jpg" alt="Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core" width="80" /></a>
+<a href='http://bit.ly/gcc2013vimeo'><img src="/src/images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="120px" /></a><br /><br /><div class='right'>
+<a href='http://bit.ly/16rAUkf'><img src="/src/images/Logos/UCDavisGenomeCenterLogo.jpg" alt="Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core" width="80" /></a>
 </div></div>
 
 First, all videos from GCC2013 are [now also available on Vimeo](http://bit.ly/gcc2013vimeo).  They are still available on the Galaxy web site as well, but having them on Vimeo allows you to do all the things an online video provider supports, such as automatically embedding and linking videos from popular web sites.
@@ -409,13 +409,13 @@ See the [list of other tutorials](/src/Learn/index.md#other-tutorials) on the [L
 
 The most recent [Galaxy distribution was August 12](/src/DevNewsBriefs/2013_08_12/index.md).
 
-A new version of [CloudMan](/src/CloudMan/index.md) was [released in July](/src/News/CloudManRelease/index.md).
+A new version of [CloudMan](/src/CloudMan/index.md) was [released in July](/src/news/CloudManRelease/index.md).
 
 <br />
 
 # Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 There were many...
 * [naive_variant_caller](http://bit.ly/157Yf3G): process aligned reads, produce VCF file containing per position variant calls 

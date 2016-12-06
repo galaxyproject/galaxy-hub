@@ -2,7 +2,7 @@
 autotoc: true
 title: 2012/07/09 Conference Call
 ---
-<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
 PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
@@ -28,7 +28,7 @@ The group's [first conference call](http://dev.list.galaxyproject.org/Galaxy-Cza
 
 ## Logistics
 
-<div class='right'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
+<div class='right'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
 
 ### Generic Call Agenda
 
@@ -61,7 +61,7 @@ Communication outside of meetings will continue to happen on the [Galaxy-Dev mai
 1. Build a community 
 2. Learn from each other.
 
-<div class='right'><img src="/src/Images/Logos/UIowaLogo.jpg" alt="University of Iowa" width="200" /></div>
+<div class='right'><img src="/src/images/Logos/UIowaLogo.jpg" alt="University of Iowa" width="200" /></div>
 
 ## Galaxy at Iowa
 
@@ -98,7 +98,7 @@ Iowa addresses the "give them enough rope" conundrum* by providing well tested a
 
 ## GCC2012 Breakout
 
-There will be a [GalaxyCzars](/src/Community/GalaxyAdmins/index.md) breakout session at [GCC2012](/src/Events/GCC2012/index.md) at the end of this month.  It will be a chance to refine the groups goals, logistics, and schedule and a great to chance to meet in person.
+There will be a [GalaxyCzars](/src/Community/GalaxyAdmins/index.md) breakout session at [GCC2012](/src/events/GCC2012/index.md) at the end of this month.  It will be a chance to refine the groups goals, logistics, and schedule and a great to chance to meet in person.
 
 ## Next Meeting
 

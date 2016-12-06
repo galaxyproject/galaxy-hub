@@ -1,13 +1,13 @@
 ---
 title: Galaxy Training Network
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
 
 
 
 
 <div class='dictbox'>
- BoF:: **[Galaxy Training Network](/src/Events/GCC2014/BoFs/GalaxyTrainingNetwork/index.md)**
+ BoF:: **[Galaxy Training Network](/src/events/GCC2014/BoFs/GalaxyTrainingNetwork/index.md)**
  Summary:: A BoF for people who want to teach the use of Galaxy or use Galaxy as a bioinformatics training tool. Let's get together and talk about resource requirements, available learning material etc. 
  Audience:: Anyone interested in using Galaxy for bioinformatics and related learning and teaching.  People who need to support such activities.   
  When:: Tuesday, July 1, 5:45pm
@@ -15,11 +15,11 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
  Contact:: [Simon Gladman](mailto:simon DOT gladman AT monash DOT edu), [Andrew Lonie](mailto:alonie AT unimelb DOT edu DOT au), [Teaching hub page](/src/Teach/index.md)
 </div>
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
 
-<div class='left'><a href='/src/Events/GCC2014/BoFs/index.md'><img src="/src/Images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
+<div class='left'><a href='/src/events/GCC2014/BoFs/index.md'><img src="/src/images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
 
-This page describes the **[Galaxy Training Network](/src/Teach/GTN/index.md)** [Birds of a Feather](/src/Events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/Events/GCC2014/index.md).
+This page describes the **[Galaxy Training Network](/src/Teach/GTN/index.md)** [Birds of a Feather](/src/events/GCC2014/BoFs/index.md) meetup being held at [GCC2014](/src/events/GCC2014/index.md).
 
 # Description
 
@@ -80,7 +80,7 @@ Anyone interested in using Galaxy for bioinformatics and related learning and te
 
 ## GTN Resources Directory
 
-<div class='right'><a href='/src/Teach/GTN/index.md'><img src="/src/Images/Logos/GTNLogo600.png" alt="Galaxy Training Network" width="300" /></a></div>
+<div class='right'><a href='/src/Teach/GTN/index.md'><img src="/src/images/Logos/GTNLogo600.png" alt="Galaxy Training Network" width="300" /></a></div>
 
 [This has been created](/src/Teach/Resources/index.md).  
 

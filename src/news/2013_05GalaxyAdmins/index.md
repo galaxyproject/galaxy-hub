@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[May 2013 GalaxyAdmins Meetup](/src/News/2013_05GalaxyAdmins/index.md)</div>
+<div class='newsItemHeader'>[May 2013 GalaxyAdmins Meetup](/src/news/2013_05GalaxyAdmins/index.md)</div>
 
-<div class='right'><a href='/src/Community/GalaxyAdmins/Meetups/2013_05_15/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="May 2013 GalaxyAdmins Meetup" width="160" /></a><br />
+<div class='right'><a href='/src/Community/GalaxyAdmins/Meetups/2013_05_15/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="May 2013 GalaxyAdmins Meetup" width="160" /></a><br />
 <a href='http://rnaseq.pathogenportal.org/'><img src="/src/Community/GalaxyAdmins/Meetups/2013_05_15/PathogenPortalGalaxyLandingPage.png" alt="Pathogen Portal Galaxy" width="160" /></a></div>
 
 
@@ -38,6 +38,6 @@ We use the [Blackboard Collaborate Web Conferencing system](/src/Community/Galax
 
 [Dave Clements](/src/DaveClements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-05-08</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-05-08</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

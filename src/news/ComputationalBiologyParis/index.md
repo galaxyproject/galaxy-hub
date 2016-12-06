@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[Computational Biology Position, Paris](/src/News/ComputationalBiologyParis/index.md)</div>
+<div class='newsItemHeader'>[Computational Biology Position, Paris](/src/news/ComputationalBiologyParis/index.md)</div>
 
-<div class='right'><a href='http://drosophile.org/GEDlab/?page_id=760'><img src="/src/Images/Logos/DrosophileLogo.jpg" alt="Opening in Drosophila Genetics and Epigenetics" width="150" /></a></div>
+<div class='right'><a href='http://drosophile.org/GEDlab/?page_id=760'><img src="/src/images/Logos/DrosophileLogo.jpg" alt="Opening in Drosophila Genetics and Epigenetics" width="150" /></a></div>
 
 **A 2 and half years [position in Computational Biology](http://drosophile.org/GEDlab/?page_id=760)** is available at the [laboratory of Drosophila Genetics and Epigenetics](http://drosophile.org/) (CNRS UMR 7622 – [University Pierre-et-Marie-Curie](http://www.upmc.fr/en/index.html), Paris) in relation with a consortium of four laboratories funded by the ANR (Plastisipi project).
 
@@ -32,6 +32,6 @@ Application: Send CV, cover letter and two references to [Christophe Antoniewski
  
 Christophe Antoniewski
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-09-09</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-09-09</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

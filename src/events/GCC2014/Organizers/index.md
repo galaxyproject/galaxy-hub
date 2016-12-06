@@ -1,11 +1,11 @@
 ---
 title: Organizers
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
 
 ## Organizing Committee
 
@@ -41,7 +41,7 @@ The Scientific Program Committee can [be reached via email](mailto:gcc2014 DASH 
 
 ## Hackathon Committee
 
-The GCC2014 Hackathon Organizing Committee is responsible for making the [accompanying hackathon](/src/Events/GCC2014/Hackathon/index.md) happen.
+The GCC2014 Hackathon Organizing Committee is responsible for making the [accompanying hackathon](/src/events/GCC2014/Hackathon/index.md) happen.
 
  **[Dannon Baker](/src/DannonBaker/index.md)**
   [Johns Hopkins University](http://jhu.edu/)<br /><br />
@@ -54,4 +54,4 @@ The GCC2014 Hackathon Organizing Committee is responsible for making the [accomp
 
 The Hackathon Organizing Committee can [be reached via email](mailto:gcc2014 DASH hack DASH org AT groups DOT galaxyproject DOT org).
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2014/Footer/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2014/Footer/index.md)

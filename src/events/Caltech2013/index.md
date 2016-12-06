@@ -5,7 +5,7 @@ title: Galaxy @ Caltech: March 5, 2013
 
 <table>
   <tr>
-    <td colspan=3 style=" text-align: center; border: none;"> <a href='http://caltech.edu/'><img src="/src/Images/Logos/CaltechLogoWTextBig.png" alt="California Institute of Technology" width="400" /></a> </td>
+    <td colspan=3 style=" text-align: center; border: none;"> <a href='http://caltech.edu/'><img src="/src/images/Logos/CaltechLogoWTextBig.png" alt="California Institute of Technology" width="400" /></a> </td>
   </tr>
 </table>
 
@@ -18,7 +18,7 @@ title: Galaxy @ Caltech: March 5, 2013
 * **Reproducible:** Galaxy captures information so that any user can repeat and understand a complete computational analysis.
 * **Transparent:** Users share and publish analyses via the web and create Pages, interactive, web-based documents that describe a complete analysis.
 
-There will be two Galaxy-related events on the Caltech Campus on March 5, 2013: a [Galaxy for Biologists Workshop](/src/Events/Caltech2013/index.md#workshop-galaxy-for-biologists) in the morning, and a [discussion on Galaxy Development](/src/Events/Caltech2013/index.md#discussion-galaxy-for-developers) in the afternoon.
+There will be two Galaxy-related events on the Caltech Campus on March 5, 2013: a [Galaxy for Biologists Workshop](/src/events/Caltech2013/index.md#workshop-galaxy-for-biologists) in the morning, and a [discussion on Galaxy Development](/src/events/Caltech2013/index.md#discussion-galaxy-for-developers) in the afternoon.
 <br />
 
 ## Workshop: Galaxy for Biologists
@@ -74,7 +74,7 @@ This hands-on workshop will teach participants how to integrate data, and perfor
 
 **If you attended this workshop, [please provide your feedback](http://bit.ly/Caltech2013).**
 
-<div class='right'><br /><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='right'><br /><a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 
 ### Workshop Support
 
@@ -96,7 +96,7 @@ This informal discussion will introduce Galaxy for developers.  We will discuss 
 
 ## Links
 
-<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/CaltechGalaxyDay.pdf'><img src="/src/Events/Caltech2013/CaltechGalaxyDayThumb.png" alt="Download flier" /></a></div>
+<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/CaltechGalaxyDay.pdf'><img src="/src/events/Caltech2013/CaltechGalaxyDayThumb.png" alt="Download flier" /></a></div>
 
 * Please help get the word out by distributing [this flyer](PLACEHOLDER_ATTACHMENT_URL/src/CaltechGalaxyDay.pdf) in your department.
 

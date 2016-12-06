@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[March 2015 Galaxy Release (v 15.03)](/src/News/2015_03_GalaxyRelease/index.md)</div>
+<div class='newsItemHeader'>[March 2015 Galaxy Release (v 15.03)](/src/news/2015_03_GalaxyRelease/index.md)</div>
 
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/Images/Logos/GetGalaxyOrg.png" alt="width=175" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GetGalaxyOrg.png" alt="width=175" /></a></div>
 
 <span style="font-size: larger;">[Complete Release Notes](http://wiki.galaxyproject.org/DevNewsBriefs/2015_03) </span>
 <br /><br />
@@ -52,6 +52,6 @@
 [The Galaxy Team](/src/GalaxyTeam/index.md)
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-03-16</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-03-16</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

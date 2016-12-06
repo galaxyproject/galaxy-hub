@@ -8,7 +8,7 @@ date: 2011-09-28T20:14:54Z
 <a href='http://www.amata.org.au/index.php/2011-conference'><img src='/Images/Logos/amata-2011-conference.jpg' alt='AMATA 2011' height="80" /></a>&nbsp;&nbsp;<a href='http://gmod.org/wiki/October_2011_GMOD_Meeting'><img src='/Images/Logos/GMOD201110MeetingLogo.png' alt='October 2011 GMOD Meeting' height="80" /></a>&nbsp;&nbsp;<a href='http://www.biovis.net/'><img src='/Images/Logos/BioVisLogo.png' alt='BioVis 2011' height="70" /></a>
 </div>
 
-There are (at least) three [Galaxy related events](/src/Events/index.md) going on next month that you may want to consider attending.  See the [/Events](/src/Events/index.md) page for a full listing of upcoming events.  If you have a Galaxy related event please send it to outreach@galaxyproject.org and we will help you get the word out.
+There are (at least) three [Galaxy related events](/src/events/index.md) going on next month that you may want to consider attending.  See the [/Events](/src/events/index.md) page for a full listing of upcoming events.  If you have a Galaxy related event please send it to outreach@galaxyproject.org and we will help you get the word out.
 
 <table>
   <tr class="th" >

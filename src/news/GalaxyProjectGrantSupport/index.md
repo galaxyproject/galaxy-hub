@@ -1,8 +1,8 @@
-<div class='newsItemHeader'>[Galaxy Project Grant Support](/src/News/GalaxyProjectGrantSupport/index.md)</div>
+<div class='newsItemHeader'>[Galaxy Project Grant Support](/src/news/GalaxyProjectGrantSupport/index.md)</div>
 
 Dear Galaxy users, developers, and friends of the project,
 
-<div class='right'><img src="/src/Images/Logos/galaxyLogo200.png" alt="Galaxy Project" width="170" /></div>
+<div class='right'><img src="/src/images/Logos/galaxyLogo200.png" alt="Galaxy Project" width="170" /></div>
 
 The Galaxy project has been generously supported in the past by the [National Human Genome Research Institute](https://www.genome.gov/) and the [National Science Foundation](http://www.nsf.gov/). The time has come once again for us to seek continued funding for the core Galaxy development team, and we would like to ask for your help.
 
@@ -21,6 +21,6 @@ Many thanks,
 
 [James Taylor](/src/JamesTaylor/index.md) and [Anton Nekrutenko](/src/anton/index.md), on behalf of the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-01-07</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-01-07</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

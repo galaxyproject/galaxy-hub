@@ -10,15 +10,15 @@ title: Get Involved!
 
 # Mailing Lists
 
-<div class='left'><a href='/src/MailingLists/index.md'><img src="/src/Images/Logos/MailmanLogoSmall.png" alt="Galaxy Mailing Lists" width="64" /></a></div> Galaxy has *thousands* of users around the world, all using Galaxy in different and often novel ways.  When these users have a question or a topic to discuss, they post it to a [Galaxy Mailing List](/src/MailingLists/index.md) (following [Support](/src/Support/index.md) guidelines), where the whole community can respond.  You can contribute by posting your own questions, solutions, and experience.
+<div class='left'><a href='/src/MailingLists/index.md'><img src="/src/images/Logos/MailmanLogoSmall.png" alt="Galaxy Mailing Lists" width="64" /></a></div> Galaxy has *thousands* of users around the world, all using Galaxy in different and often novel ways.  When these users have a question or a topic to discuss, they post it to a [Galaxy Mailing List](/src/MailingLists/index.md) (following [Support](/src/support/index.md) guidelines), where the whole community can respond.  You can contribute by posting your own questions, solutions, and experience.
 
 # IRC Channel
 
-PLACEHOLDER_INCLUDE(/src/Support/IRC/index.md)
+PLACEHOLDER_INCLUDE(/src/support/IRC/index.md)
 
 # Develop Tools and Tool Definitions
 
-<div class='right'><a href='/src/Tool Shed/index.md'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="170" /></a></div>
+<div class='right'><a href='/src/Tool Shed/index.md'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="170" /></a></div>
 There are thousands of useful bioinformatics tools in existence and the Galaxy [Main](/src/Main/index.md) server (and the [Galaxy Team](/src/GalaxyTeam/index.md)) cannot possibly support all of them.  Only tools that are widely useful in many areas of biomedical research (and meet several other criteria) are available on Main.
 
 The Galaxy [Tool Shed](/src/Tool Shed/index.md) is a means to make other tools available for use within local and cloud-based Galaxy instances.  You can create tool wrappers (usually a simple file encapsulating how Galaxy should treat the underlying software tool) in order to define tools within Galaxy.  In order to share your tool with everyone, you can upload any given wrapper to the [Tool Shed](/src/Tool Shed/index.md) where it can be downloaded and installed into any Galaxy instance worldwide. To get you started we prepared this [Adding tool tutorial](/src/Admin/Tools/Add Tool Tutorial/index.md) for you.
@@ -41,11 +41,11 @@ If and when you [setup your own Galaxy instance](/src/Admin/GetGalaxy/index.md),
 
 # Share Your Deployment Experience
 
-<div class='left'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="120" /></div> 
+<div class='left'><img src="/src/images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="120" /></div> 
 
 The [Galaxy Deployment Catalog](/src/Community/Deployments/index.md) includes infrastructure and management details on how local Galaxy deployments are installed.  If you have a local deployment, then please [share with the community how you did it](/src/Community/Deployments/index.md).
 
-<div class='right'><img src="/src/Images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="180" /></div>
+<div class='right'><img src="/src/images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="180" /></div>
 
 If you have implemented a particular feature or have addressed a particular challenge with a certain Galaxy deployment, you can describe and/or link it on the [Galaxy Community Log Board](/src/Community/Logs/index.md).  Log board entries describe specific implementation and solutions for specific situations.  Got some experience that would be useful for others to know?  Please [share it](/src/Community/Logs/index.md).
 
@@ -55,7 +55,7 @@ This wiki contains a large amount of documentation about using and administering
 
 # Code
 
-<div class='right'><img src="/src/Images/Logos/GitHubLogoText.png" alt="GitHub" width="100" /></div>
+<div class='right'><img src="/src/images/Logos/GitHubLogoText.png" alt="GitHub" width="100" /></div>
 
 Galaxy is an open source project.  Anyone can [contribute to the code](/src/Develop/index.md).
 
@@ -63,7 +63,7 @@ You can also update the [source code documentation](/src/Develop/SourceDoc/index
 
 # Events
 
-Galaxy has a presence at many [Events](/src/Events/index.md) throughout the year.  This includes annual Galaxy meetings ([2014](/src/Events/GCC2014/index.md), [2013](/src/Events/GCC2013/index.md), [2012](/src/Events/GCC2012/index.md), [2011](/src/Events/GCC2011/index.md), [2010](/src/Events/GDC2010/index.md)); workshops, tutorials, and talks at [meetings, conferences, and courses](/src/Events/index.md); and special events like the [NBIC Galaxy Hackathon](https://wiki.nbic.nl/index.php/NBIC_Galaxy_Hackathon_project).  See [Events](/src/Events/index.md) for a complete list and a link to Google Calendar.
+Galaxy has a presence at many [Events](/src/events/index.md) throughout the year.  This includes annual Galaxy meetings ([2014](/src/events/GCC2014/index.md), [2013](/src/events/GCC2013/index.md), [2012](/src/events/GCC2012/index.md), [2011](/src/events/GCC2011/index.md), [2010](/src/events/GDC2010/index.md)); workshops, tutorials, and talks at [meetings, conferences, and courses](/src/events/index.md); and special events like the [NBIC Galaxy Hackathon](https://wiki.nbic.nl/index.php/NBIC_Galaxy_Hackathon_project).  See [Events](/src/events/index.md) for a complete list and a link to Google Calendar.
 
 # Outreach
 

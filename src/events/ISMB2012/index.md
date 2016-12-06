@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://www.open-bio.org/wiki/BOSC_2011'><img src="/src/Images/Logos/BOSC_logo.png" alt="BOSC 2012" width="120" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.iscb.org/ismb2012'><img src="/src/Images/Logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>
+<a href='http://www.open-bio.org/wiki/BOSC_2011'><img src="/src/images/Logos/BOSC_logo.png" alt="BOSC 2012" width="120" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.iscb.org/ismb2012'><img src="/src/images/Logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>
 
 # Galaxy at ISMB and BOSC 2012
 

@@ -1,7 +1,7 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://bti.cornell.edu/'><img src="/src/Images/Logos/BTILogo.png" alt="Boyce Thompson Institute" width="263" /></a> &nbsp;&nbsp; <a href='http://cornell.edu/'><img src="/src/Images/Logos/CornellLogoSmall.gif" alt="Cornell University" width="263" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://bti.cornell.edu/'><img src="/src/images/Logos/BTILogo.png" alt="Boyce Thompson Institute" width="263" /></a> &nbsp;&nbsp; <a href='http://cornell.edu/'><img src="/src/images/Logos/CornellLogoSmall.gif" alt="Cornell University" width="263" /></a> </td>
   </tr>
 </table>
 
@@ -90,8 +90,8 @@ No programming or Linux command line experience is required.
 
 
 <div class='right'><br />
-<a href='http://www.nih.gov/'><img src="/src/Images/Logos/NIHwithTagline.png" alt="National Institutes of Health (NIH)" width="220" /></a><br /><br />
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a></div></div>
+<a href='http://www.nih.gov/'><img src="/src/images/Logos/NIHwithTagline.png" alt="National Institutes of Health (NIH)" width="220" /></a><br /><br />
+<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a></div></div>
 
 ## Support
 

@@ -3,7 +3,7 @@ title:  Swiss Galaxy Workshop, Wednesday, October 3rd, Bern
 ---
 <div class='center'>
 
-![Swiss Galaxy Workshop, Wednesday, October 3rd, Bern](/src/Images/Logos/2012SwissGalaxyWorkshop-400.png) <br /><br /> </div>
+![Swiss Galaxy Workshop, Wednesday, October 3rd, Bern](/src/images/Logos/2012SwissGalaxyWorkshop-400.png) <br /><br /> </div>
 
 
 
@@ -46,7 +46,7 @@ The workshop is part of the [SyBIT Tech Day series](https://wiki.systemsx.ch/dis
 
 ## Location
 
-<div class='right'><a href='http://map.search.ch/bern/hochschulstr.4'><img src="/src/Events/Switzerland2012/BernMapThumb2.png" alt="Bern Hochschulstr. 4" /></a></div>
+<div class='right'><a href='http://map.search.ch/bern/hochschulstr.4'><img src="/src/events/Switzerland2012/BernMapThumb2.png" alt="Bern Hochschulstr. 4" /></a></div>
 
 [Bern Hochschulstr. 4](http://map.search.ch/bern/hochschulstr.4)<br /> [Hauptgebaeude](http://www.bau.unibe.ch/plaene/hgexwiunis.htm) <br /> Room 331
 
@@ -54,7 +54,7 @@ Accessibility by public transport: it is a 5 minutes walk from the main train st
 
 <br />
 
-<div class='right'> <a href='https://wiki.systemsx.ch/display/SyBIT'><img src="/src/Images/Logos/SyBITLogo.png" alt="SyBIT" /></a>     <a href='http://www.systemsx.ch/'><img src="/src/Images/Logos/SystemsXchLogo.png" alt="SystemsX.ch" height="89" /></a> </div>
+<div class='right'> <a href='https://wiki.systemsx.ch/display/SyBIT'><img src="/src/images/Logos/SyBITLogo.png" alt="SyBIT" /></a>     <a href='http://www.systemsx.ch/'><img src="/src/images/Logos/SystemsXchLogo.png" alt="SystemsX.ch" height="89" /></a> </div>
 
 
 ## Support

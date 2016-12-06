@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[January 2013 GalaxyAdmins](/src/News/2013_01GalaxyAdmins/index.md)</div>
+<div class='newsItemHeader'>[January 2013 GalaxyAdmins](/src/news/2013_01GalaxyAdmins/index.md)</div>
 
-<div class='right'><a href='/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="January 2013 GalaxyAdmins Meetup" width="160" /></a> </div>
+<div class='right'><a href='/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="January 2013 GalaxyAdmins Meetup" width="160" /></a> </div>
 
 The [next meeting](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) of the [GalaxyAdmins Group](/src/Community/GalaxyAdmins/index.md) will be held on [January 16, 2013, at 10 AM Central US time](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md).  
 
@@ -38,6 +38,6 @@ We use the [Blackboard Collaborate Web Conferencing system](/src/Community/Galax
 
 Srinivas Maddhi
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-01-07</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-01-07</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

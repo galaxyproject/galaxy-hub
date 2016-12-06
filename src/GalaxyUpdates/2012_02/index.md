@@ -9,7 +9,7 @@ title: February 2012 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the inaugural edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a (mostly) monthly summary of what is going on in the Galaxy community.  Galaxy Updates will complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -31,7 +31,7 @@ Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, r
 
 ## Who's Hiring
 
-* [Galaxy is Hiring](/src/News/Galaxy is Hiring/index.md) 
+* [Galaxy is Hiring](/src/news/Galaxy is Hiring/index.md) 
   * system administrators at Penn State
   * software engineers and post-docs at Emory
 * [Bioinformatics Support Provider](http://bit.ly/w6OIM0) with Galaxy experience @ [Wellcome Trust Centre for Cell Biology, University of Edinburgh](http://www.wcb.ed.ac.uk/) 
@@ -39,18 +39,18 @@ Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, r
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll include it in next month's update.
 
 <div class='right'>
-<a href='/src/gmod:April 2012 GMOD Meeting/index.md'><img src="/src/Images/Logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; <a href='http://www.iscb.org/ismb2012'><img src="/src/Images/Logos/ISMB2012.jpg" alt="ISMB 2012" height=105 /></a>&nbsp;&nbsp; <a href='/src/Events/GCC2012/index.md'><img src="/src/Events/GCC2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a>
+<a href='/src/gmod:April 2012 GMOD Meeting/index.md'><img src="/src/images/Logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; <a href='http://www.iscb.org/ismb2012'><img src="/src/images/Logos/ISMB2012.jpg" alt="ISMB 2012" height=105 /></a>&nbsp;&nbsp; <a href='/src/events/GCC2012/index.md'><img src="/src/events/GCC2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a>
 </div>
 
 ## Upcoming Events and Deadlines
 
 ### Deadlines
 
-<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
+<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/images/Icons/CalendarIcon.gif" /></a></div> 
 
 There are upcoming deadlines for ISMB 2012 (workshops), DILS (abstracts), PSB (sessions), VizBI (posters), and a Bio-Linux Course (application).  See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com) for details on these and other events.
 
-Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) will open February 13.
+Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/src/events/GCC2012/index.md) will open February 13.
 
 ### Events
 
@@ -75,7 +75,7 @@ Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/src/Ev
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> <strong><a href='/src/Events/GCC2012/index.md'>2012 Galaxy Community Conference</a></strong> </td>
+    <td> <strong><a href='/src/events/GCC2012/index.md'>2012 Galaxy Community Conference</a></strong> </td>
     <td> Chicago, Illinois, United States </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
@@ -84,7 +84,7 @@ Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/src/Ev
 
 ### GCC2012 Sponsors
 
-Plans for the [2012 Galaxy Community Conference (GCC2012)](/src/Events/GCC2012/index.md) are coming along nicely.  It will be held July 25-27, in Chicago.  As in the past, the conference will feature two full days of presentations and discussions.  A whole day of training sessions has also been added this year.  
+Plans for the [2012 Galaxy Community Conference (GCC2012)](/src/events/GCC2012/index.md) are coming along nicely.  It will be held July 25-27, in Chicago.  As in the past, the conference will feature two full days of presentations and discussions.  A whole day of training sessions has also been added this year.  
 
 Also new in 2012 are conference sponsors.  We are very pleased to have welcomed these GCC2012 sponsors in the past month:
 
@@ -99,11 +99,11 @@ Also new in 2012 are conference sponsors.  We are very pleased to have welcomed 
   [The Institute for Genomic Biology at University of Illinois Urbana-Champaign](http://www.igb.uiuc.edu/)<br />
   [National Center for Supercomputing Applications (NCSA)](http://www.ncsa.illinois.edu/)
 
-There are still [Gold, Silver and Bronze level sponsorships](/src/Events/GCC2012/Sponsorships/index.md) available.  Look for more announcements in the coming months.
+There are still [Gold, Silver and Bronze level sponsorships](/src/events/GCC2012/Sponsorships/index.md) available.  Look for more announcements in the coming months.
 
 ## New Distributions
 
-There were [two Galaxy distributions](/src/DevNewsBriefs/index.md) in January, The latest on [January 27](/src/News/Jan272012 Distribution News Brief/index.md).  Some highlights from the releases:
+There were [two Galaxy distributions](/src/DevNewsBriefs/index.md) in January, The latest on [January 27](/src/news/Jan272012 Distribution News Brief/index.md).  Some highlights from the releases:
 
 * Important metadata and Python 2.5 support corrections
 * [SAMtools](http://samtools.sourceforge.net/) upgraded for version 0.1.18. [Mpileup](http://samtools.sourceforge.net/mpileup.shtml) added.
@@ -117,4 +117,4 @@ There were [two Galaxy distributions](/src/DevNewsBriefs/index.md) in January, T
 * Tool Shed installation features and many new community tool additions
 * Trackster performance upgrades and new drag & drop composite track creation 
 
-See the [January 27, 2012 release](/src/News/Jan272012 Distribution News Brief/index.md) for details on how to get the latest version of Galaxy.
+See the [January 27, 2012 release](/src/news/Jan272012 Distribution News Brief/index.md) for details on how to get the latest version of Galaxy.

@@ -2,7 +2,7 @@ Section modification previews
 
 ## Dataset status and how jobs execute
 
-The Galaxy user interface (UI) has been designed to communicate job execution status through visual cues and concise meesages. Learn more about how interpret these cues and to use strategies to maximize throughput by [reading more here...](/src/Support/JobStatus/index.md)
+The Galaxy user interface (UI) has been designed to communicate job execution status through visual cues and concise meesages. Learn more about how interpret these cues and to use strategies to maximize throughput by [reading more here...](/src/support/JobStatus/index.md)
 When a tool is executed, one or more new **[datasets](/src/Learn/Managing Datasets/index.md)** are added to a history. The same is true when a **workflow** is executed. *If using the public [Main](/src/Main/index.md) Galaxy instance, the most effective strategy when running jobs on the shared resource is to start jobs (or workflows), and then leave them alone to execute until completion.* 
 <br />
 <br />
@@ -18,7 +18,7 @@ When work is urgent during peak-usage times on the public **[Main](/src/Main/ind
   * **<div class='grey'>grey</span>** - the job is waiting to run
     * If you are using the public [Main](/src/Main/index.md) Galaxy instance, this job is queued, waiting for an opening on the appropriate cluster. **It is *very important* to allow queued jobs to remain queued, and to not delete/re-run them**. If re-run, this not only moves the new job back to the end of the queue, effectively lengthening the wait time to execute, but if done repeatedly, the volume of "executing deleted" jobs can create additional work processes in the history as these are cleared away, using up resources, and can cause additional delays. 
   * **<div class='red'>red</span>** - the job has failed
-    * There can be many reasons for this, see the next section, **[Error from tools](/src/Support/index.md#error_from_tools)** for details.
+    * There can be many reasons for this, see the next section, **[Error from tools](/src/support/index.md#error_from_tools)** for details.
   * **<div class='blue'>blue-purple with moving arrow</span>** - (applies to "Get Data -> Upload File" tool only) - the job is queuing or running
     * The job may run immediately, or may turn *grey* if the server is busy, meaning that **guidelines for grey jobs apply**, and these *grey* datasets should never be deleted/re-run, for the same reasons explained above.
     * An upload job that seems to run in the <div class='blue'>blue-purple</span> state for a very long time generally indicates that the file being loaded is too large for the method used (specifically, a browsed-file upload) and [FTP](/src/Learn/Upload via FTP/index.md) should be used instead. This is the only active job that should be deleted under normal usage, as it will never complete (no file over 2G will ever load via file browser upload).

@@ -1,16 +1,16 @@
 ---
 title: Galaxy Clinical Use Survey / Filesystems and HPC
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/Header/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/LinkBox/index.md)
-PLACEHOLDER_INCLUDE(/src/Events/GCC2013/BoF/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/LinkBox/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2013/BoF/LinkBox/index.md)
 
-<div class='left'><a href='/src/Events/GCC2013/BoF/index.md'><img src="/src/Images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
+<div class='left'><a href='/src/events/GCC2013/BoF/index.md'><img src="/src/images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 
-This page describes the **Galaxy Clinical Use Survey / Filesystems and HPC** [Birds of a Feather](/src/Events/GCC2013/BoF/index.md) meetup being held at [GCC2013](/src/Events/GCC2013/index.md).
+This page describes the **Galaxy Clinical Use Survey / Filesystems and HPC** [Birds of a Feather](/src/events/GCC2013/BoF/index.md) meetup being held at [GCC2013](/src/events/GCC2013/index.md).
 
 The need for a process-level source and version control, configuration management and document life-cycle management system is reaching a critical path as Research Genomics translates into Clinical Genomics. We will continue discussing the architectural and storage requirements for using Galaxy, the process management platform of choice for Genomics, in a Clinical environment.
 
@@ -18,7 +18,7 @@ We had a general discussion regarding a “reference platform” for Galaxy and 
 
 ## When and Where
 
-We [time and location](/src/Events/GCC2013/BoF/index.md#bof-schedule) will meet on Tuesday over lunch in the Cantina.
+We [time and location](/src/events/GCC2013/BoF/index.md#bof-schedule) will meet on Tuesday over lunch in the Cantina.
 
 ## Who is Participating
 

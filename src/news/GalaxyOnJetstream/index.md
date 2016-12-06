@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[Galaxy on Jetstream Cloud](/src/News/GalaxyOnJetstream/index.md)</div>
+<div class='newsItemHeader'>[Galaxy on Jetstream Cloud](/src/news/GalaxyOnJetstream/index.md)</div>
 
 <div class='right'><img src="https://www.nsf.gov/news/mmg/media/images/jetstream_logo_f_fe60185c-962f-4c1f-99bf-e6ec82d54c21.jpg" alt="" width="300" /></div>
 
@@ -19,5 +19,5 @@ After you have your XSEDE account and an active allocation:
 More documentation about the process can be found on Galaxy’s wiki: https://wiki.galaxyproject.org/Cloud/Jetstream
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-04-07</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-04-07</div>
 [CategoryNews](/src/CategoryNews/index.md)

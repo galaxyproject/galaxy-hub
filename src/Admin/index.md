@@ -56,7 +56,7 @@ This is the hub page for the section of this wiki on how to deploy and administe
 * [Switching to Github from Bitbucket](/src/Admin/SwitchingToGithubFromBitbucket/index.md)
 
 <div class='center'>
-<a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/Images/Logos/GetGalaxySearch.png" alt="Search all Galaxy administration resources" width="120" /></a>
+<a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/images/Logos/GetGalaxySearch.png" alt="Search all Galaxy administration resources" width="120" /></a>
 
 [Search all Galaxy administration resources](http://galaxyproject.org/search/getgalaxy)
 </div>

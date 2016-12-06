@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[Galaxy Days: 2-3 December, Paris](/src/News/GalaxyDaysParis2014/index.md)</div>
+<div class='newsItemHeader'>[Galaxy Days: 2-3 December, Paris](/src/news/GalaxyDaysParis2014/index.md)</div>
 
 The [French Working Group GALAXY-IFB (Institut Français de Bioinformatique)](http://www.ifb-galaxy.org/index.html) is organizing a second session around the Galaxy portal.
 
@@ -17,16 +17,16 @@ The [French IFB Galaxy Working Group](http://www.ifb-galaxy.org/index.html):
 
 <br />
 <div class='center'>
-<a href='http://urgi.versailles.inra.fr/'><img src="/src/Images/Logos/URGILogo.png" alt="URGI" width="70" /></a> &nbsp;
-<a href='http://bioinfo.genotoul.fr/'><img src="/src/Images/Logos/GenoToulLogo.png" alt="GenoToul" width="100" /></a> &nbsp;
-<a href='http://migale.jouy.inra.fr/'><img src="/src/Images/Logos/MIGALELogo.png" alt="MIGALE" width="120" /></a> &nbsp;
-<a href='http://metabohub.fr/'><img src="/src/Images/Logos/MetaboHubLogo.jpg" alt="PFEM" width="120" /></a> &nbsp;
-<a href='http://southgreen.cirad.fr/'><img src="/src/Images/Logos/SouthGreenLogo.png" alt="SouthGreen" width="120" /></a>
-<a href='http://curie.fr/'><img src="/src/Images/Logos/CurieLogo.gif" alt="Institut Curie" width="80" /></a> &nbsp;
-<a href='http://abims.sb-roscoff.fr/'><img src="/src/Images/Logos/ABiMSLogo.png" alt="ABiMS" width="70" /></a>
+<a href='http://urgi.versailles.inra.fr/'><img src="/src/images/Logos/URGILogo.png" alt="URGI" width="70" /></a> &nbsp;
+<a href='http://bioinfo.genotoul.fr/'><img src="/src/images/Logos/GenoToulLogo.png" alt="GenoToul" width="100" /></a> &nbsp;
+<a href='http://migale.jouy.inra.fr/'><img src="/src/images/Logos/MIGALELogo.png" alt="MIGALE" width="120" /></a> &nbsp;
+<a href='http://metabohub.fr/'><img src="/src/images/Logos/MetaboHubLogo.jpg" alt="PFEM" width="120" /></a> &nbsp;
+<a href='http://southgreen.cirad.fr/'><img src="/src/images/Logos/SouthGreenLogo.png" alt="SouthGreen" width="120" /></a>
+<a href='http://curie.fr/'><img src="/src/images/Logos/CurieLogo.gif" alt="Institut Curie" width="80" /></a> &nbsp;
+<a href='http://abims.sb-roscoff.fr/'><img src="/src/images/Logos/ABiMSLogo.png" alt="ABiMS" width="70" /></a>
 </div>
 
 <br />
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-10-15</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-10-15</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

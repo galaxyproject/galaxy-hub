@@ -6,7 +6,7 @@ title: December 2012 Galaxy Update
 
 
 
-<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the December 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -63,11 +63,11 @@ These papers were among [37 papers added to the Galaxy CiteULike group](http://w
 
 ## New Public Galaxy Servers
 
-<div class='right'><a href='http://galaxy.nbic.nl/'><img src="/src/Images/Logos/NBICLogo.png" alt="NBIC" height="50" /></a></div>
+<div class='right'><a href='http://galaxy.nbic.nl/'><img src="/src/images/Logos/NBICLogo.png" alt="NBIC" height="50" /></a></div>
 
 * **[Andromeda](http://galaxy.nbic.nl/):** The [Netherlands Bioinformatics Centre (NBIC)](http://www.nbic.nl/) and [BiG Grid/SARA](http://www.biggrid.nl/) have launched  [a public and fully populated Galaxy instance](http://galaxy.nbic.nl/) that runs on a cloud infrastructure.  See [the announcement](http://www.nbic.nl/about-nbic/news-press/bioinformatics-news/detail/article/galaxy-on-cloud/) for more details.
 
-<div class='right'><a href='http://w3lamc.umbr.cas.cz/lamc/'><img src="/src/Images/Logos/PlantMolBioCZLogo.png" alt="Laboratory of Molecular Cytogenetics, Laboratory of Molecular Cytogenetics, Institute of Plant Molecular Biology" height="80" /></a></div>
+<div class='right'><a href='http://w3lamc.umbr.cas.cz/lamc/'><img src="/src/images/Logos/PlantMolBioCZLogo.png" alt="Laboratory of Molecular Cytogenetics, Laboratory of Molecular Cytogenetics, Institute of Plant Molecular Biology" height="80" /></a></div>
 
 * **[RepeatExplorer](http://repeatexplorer.umbr.cas.cz/):** Features utilities for [Graph-based clustering and characterization of repetitive sequences in next-generation sequencing data](http://www.biomedcentral.com/1471-2105/11/378) and tools for the detection of transposable element protein coding domains.  [RepeatExplorer](http://repeatexplorer.umbr.cas.cz/) is hosted by the [Laboratory of Molecular Cytogenetics](http://w3lamc.umbr.cas.cz/lamc/), [Institute of Plant Molecular Biology](http://www.umbr.cas.cz/), [Biology Centre ASCR](http://www.bc.cas.cz/en/)
 
@@ -75,7 +75,7 @@ See [the list of public Galaxy servers](/src/PublicGalaxyServers/index.md) for m
 
 ## Who's Hiring
 
-<div class='right'><img src="/src/Images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
+<div class='right'><img src="/src/images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * [Research Fellow (Molecular Biologist)](http://bit.ly/UZzlOd) @ [MRC Human Genetics Unit](http://www.hgu.mrc.ac.uk/) at the [MRC Institute of Genetics and Molecular Medicine](http://www.igmm.ac.uk/), Edinburgh, UK
@@ -85,19 +85,19 @@ The Galaxy is expanding!  Please help it grow.
 * [Computational Biologist](http://bit.ly/R2ZJoW) @ the [Harvard Stem Cell Institute's (HSCI)](http://www.hsci.harvard.edu/)[Center for Stem Cell Bioinformatics](http://www.hsci.harvard.edu/research/center-stem-cell-bioinformatics)
 * The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs @ Penn State and Emory
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='https://pag.confex.com/pag/xxi/webprogram/Paper7241.html'><img src="/src/Images/Logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2013)" height="80" /></a>
-<a href='/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="January Galaxy Admins Web Meetup" height="70" /></a>
-<a href='http://conf.abrf.org/'><img src="/src/Images/Logos/ABRF2013LogoSquare300.png" alt="ABRF 2013" height="80" /></a>
-<a href='/src/Events/GCC2013/index.md'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
+<a href='https://pag.confex.com/pag/xxi/webprogram/Paper7241.html'><img src="/src/images/Logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2013)" height="80" /></a>
+<a href='/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="January Galaxy Admins Web Meetup" height="70" /></a>
+<a href='http://conf.abrf.org/'><img src="/src/images/Logos/ABRF2013LogoSquare300.png" alt="ABRF 2013" height="80" /></a>
+<a href='/src/events/GCC2013/index.md'><img src="/src/images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
 </div>
 
 <br />
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/Icons/CalendarIcon.gif" /></a></div> 
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
@@ -154,7 +154,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> <strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
+    <td> <strong><em><a href='/src/events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -173,7 +173,7 @@ However, there are a few high-profile meetings:
 
 ## Source Code Documentation
 
-<div class='right'><a href='http://galaxy-dist.readthedocs.org'><img src="/src/Images/NewsGraphics/2012_11_14_dist-readthedocs.png" alt="Galaxy-Dist at ReadTheDocs" width="320" /></a><br /><a href='http://readthedocs.org'><img src="/src/Images/Logos/ReadTheDocsLogo.png" alt="Read the Docs" width="125" /></a><a href='http://sphinx-doc.org/'><img src="/src/Images/Logos/SphinxLogo333.png" alt="Sphinx Python Documentation Generator" width="200" /></a></div>
+<div class='right'><a href='http://galaxy-dist.readthedocs.org'><img src="/src/images/NewsGraphics/2012_11_14_dist-readthedocs.png" alt="Galaxy-Dist at ReadTheDocs" width="320" /></a><br /><a href='http://readthedocs.org'><img src="/src/images/Logos/ReadTheDocsLogo.png" alt="Read the Docs" width="125" /></a><a href='http://sphinx-doc.org/'><img src="/src/images/Logos/SphinxLogo333.png" alt="Sphinx Python Documentation Generator" width="200" /></a></div>
 
 The Galaxy Project is now using *[Sphinx](http://sphinx-doc.org/)* hosted at [Read the Docs](http://readthedocs.org) to document the Galaxy code base.  Two versions are available:
 * **[galaxy-dist](http://galaxy-dist.readthedocs.org):** Code documentation for latest official release of Galaxy.
@@ -240,12 +240,12 @@ Several new repositories were added to, and existing repositories updated in the
 
 ## Other News
 
-<div class='right'><a href='/src/Events/GCC2013/Promotion/index.md'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a><br />
-<a href='/src/Events/GCC2013/TrainingDay/index.md'><img src="/src/Images/Logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="175px" /></a>
+<div class='right'><a href='/src/events/GCC2013/Promotion/index.md'><img src="/src/images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a><br />
+<a href='/src/events/GCC2013/TrainingDay/index.md'><img src="/src/images/Logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="175px" /></a>
 </div>
 
-* [GCC2013](/src/Events/GCC2013/index.md) is coming.  Help [get the word out](/src/Events/GCC2013/Promotion/index.md)!
-* [Training Day Topic Nominations](/src/Events/GCC2013/TrainingDay/index.md) for [GCC2013](/src/Events/GCC2013/index.md) will open in December.  Please start thinking of ideas now.
+* [GCC2013](/src/events/GCC2013/index.md) is coming.  Help [get the word out](/src/events/GCC2013/Promotion/index.md)!
+* [Training Day Topic Nominations](/src/events/GCC2013/TrainingDay/index.md) for [GCC2013](/src/events/GCC2013/index.md) will open in December.  Please start thinking of ideas now.
 * Slides and Screencast from [November GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md) are online.  The next [GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/index.md) will be on [January 16](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) and feature [John Chilton](/src/JohnChilton/index.md) discussing "Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan"
 * New Tutorial: *[Analysis of ChIP-seq data in Galaxy](http://jura.wi.mit.edu/bio/education/hot_topics/galaxy/GalaxyNov2012_ChIP-seq_toPost.pdf)* from the [BaRC, Whitehead Institute](http://jura.wi.mit.edu/bio/education/hot_topics/)
 * [A short "Getting started with JGalaxy"](http://bit.ly/SkW2yU) document (with screenshots), by [John Chilton](/src/JohnChilton/index.md)

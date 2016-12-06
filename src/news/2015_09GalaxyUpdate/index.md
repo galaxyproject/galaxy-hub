@@ -1,7 +1,7 @@
-<div class='newsItemHeader'>[September 2015 Galactic News](/src/News/2015_09GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[September 2015 Galactic News](/src/news/2015_09GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/src/GalaxyUpdates/2015_09/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="Galactic News! September 2015 Edition" width=170 /></a>
+<a href='/src/GalaxyUpdates/2015_09/index.md'><img src="/src/images/GalaxyLogos/GalaxyNews.png" alt="Galactic News! September 2015 Edition" width=170 /></a>
 </div>
 
 The **[September Galactic News](/src/GalaxyUpdates/2015_09/index.md)** is hot off the presses.
@@ -19,6 +19,6 @@ The **[September Galactic News](/src/GalaxyUpdates/2015_09/index.md)** is hot of
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-09-01 </div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-09-01 </div>
 
 [CategoryNews](/src/CategoryNews/index.md)

@@ -1,5 +1,5 @@
-<div class='center'><a href='https://urgi.versailles.inra.fr/Tools/Galaxy'><img src="/src/Images/Logos/URGILogo.png" alt="Galaxy @ URGI" height="150" /></a> <br /><br />
-<a href='https://urgi.versailles.inra.fr/content/download/5169/39254/file/galaxy_irods.pdf'><img src="/src/Images/Logos/iRODSLogo.png" alt="Testing connexion between Galaxy and iRODS" height="60" /></a>
+<div class='center'><a href='https://urgi.versailles.inra.fr/Tools/Galaxy'><img src="/src/images/Logos/URGILogo.png" alt="Galaxy @ URGI" height="150" /></a> <br /><br />
+<a href='https://urgi.versailles.inra.fr/content/download/5169/39254/file/galaxy_irods.pdf'><img src="/src/images/Logos/iRODSLogo.png" alt="Testing connexion between Galaxy and iRODS" height="60" /></a>
 </div>
 
 <div class='title'>

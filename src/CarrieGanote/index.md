@@ -3,11 +3,11 @@ title: [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote)
 ---
 
 
-<div class='right'><img src="/src/Events/GCC2014/Abstracts/CarrieGanote.jpg" alt="Carrie Ganote" width="120" /></div>
+<div class='right'><img src="/src/events/GCC2014/Abstracts/CarrieGanote.jpg" alt="Carrie Ganote" width="120" /></div>
 
 Carrie Ganote is a Bioinformatics Analyst at the [National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/) in the [Pervasive Technology Institute](https://pti.iu.edu/) at [Indiana University Bloomington](http://www.iu.edu/).
 
-Carrie is active in the Galaxy community and is on the 2016 Galaxy Community Conference (GCC2016) Exec.  She was also an organizer of the GCC2015 Coding Hackathon, and spoke at [GCC2014](/src/Events/GCC2014/index.md), [GCC2015](http://gcc2015.tsl.ac.uk/), and presented at the [April 2015 GalaxyAdmins meetup](/src/Community/GalaxyAdmins/Meetups/2015_04_16/index.md) as well.
+Carrie is active in the Galaxy community and is on the 2016 Galaxy Community Conference (GCC2016) Exec.  She was also an organizer of the GCC2015 Coding Hackathon, and spoke at [GCC2014](/src/events/GCC2014/index.md), [GCC2015](http://gcc2015.tsl.ac.uk/), and presented at the [April 2015 GalaxyAdmins meetup](/src/Community/GalaxyAdmins/Meetups/2015_04_16/index.md) as well.
 
 # Recommendations for GCC2016 Participants
 

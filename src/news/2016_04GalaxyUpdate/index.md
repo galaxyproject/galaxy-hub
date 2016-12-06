@@ -1,16 +1,16 @@
-<div class='newsItemHeader'>[Galactic News! April Edition](/src/News/2016_04GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[Galactic News! April Edition](/src/news/2016_04GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/src/GalaxyUpdates/2016_04/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=150 /></a><br />
+<a href='/src/GalaxyUpdates/2016_04/index.md'><img src="/src/images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=150 /></a><br />
 <br />
 <div class='right'>
-<a href='/src/GalaxyUpdates/2016_04/index.md#gcc2016'><img src="/src/Images/Logos/GCC2016LogoTallBig.png" alt="GCC2016 News" width="100" /></a><br />
-<a href='/src/GalaxyUpdates/2016_04/index.md#galaxy-devops-workshop---heidelberg-6-7-april'><img src="/src/Images/Logos/ElixirNoTextLogo.png" alt="Two ELIXIR Sponsored Events: Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies; Hackathon: Tools, Workflows and Workbenches" width="100" /></a>
+<a href='/src/GalaxyUpdates/2016_04/index.md#gcc2016'><img src="/src/images/Logos/GCC2016LogoTallBig.png" alt="GCC2016 News" width="100" /></a><br />
+<a href='/src/GalaxyUpdates/2016_04/index.md#galaxy-devops-workshop---heidelberg-6-7-april'><img src="/src/images/Logos/ElixirNoTextLogo.png" alt="Two ELIXIR Sponsored Events: Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies; Hackathon: Tools, Workflows and Workbenches" width="100" /></a>
 </div><br />
-<a href='/src/GalaxyUpdates/2016_04/index.md#planemo-0240'><img src="/src/Images/Logos/PlanemoLogo.png" alt="Planemo release" width="150" /></a><br />
-<a href='/src/GalaxyUpdates/2016_04/index.md#cloudman-1603'><img src="/src/Images/GalaxyLogos/cloudman-logo.jpg" alt="CloudMan" width="150" /></a><br />
+<a href='/src/GalaxyUpdates/2016_04/index.md#planemo-0240'><img src="/src/images/Logos/PlanemoLogo.png" alt="Planemo release" width="150" /></a><br />
+<a href='/src/GalaxyUpdates/2016_04/index.md#cloudman-1603'><img src="/src/images/GalaxyLogos/cloudman-logo.jpg" alt="CloudMan" width="150" /></a><br />
 <div class='center'><br />
-<a href='/src/GalaxyUpdates/2016_04/index.md#automatic-testing-of-iuc-tools-with-conda'><img src="/src/Images/Logos/Conda_480.png" alt="Automatic Testing of IUC Tools with Conda" width="120" /></a>
+<a href='/src/GalaxyUpdates/2016_04/index.md#automatic-testing-of-iuc-tools-with-conda'><img src="/src/images/Logos/Conda_480.png" alt="Automatic Testing of IUC Tools with Conda" width="120" /></a>
 </div></div>
 
 The **[April Galaxy News](/src/GalaxyUpdates/2016_04/index.md)** brings more than the usual amount of *News of the Galaxy*.  
@@ -42,6 +42,6 @@ Happy April,
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-03-31</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-03-31</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

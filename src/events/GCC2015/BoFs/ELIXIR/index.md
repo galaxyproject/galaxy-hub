@@ -1,13 +1,13 @@
 ---
 title: [ELIXIR-Galaxy Workshop](https://docs.google.com/document/d/1k_d9A4HDTcmjEhYW3FbVeEjcAkembhxupZZN3KQn0NA/edit#heading=h.8fvjaj9oq5oi)
 ---
-PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
+PLACEHOLDER_INCLUDE(/src/events/GCC2015/Header/index.md)
 
 
 
 
 <div class='dictbox'>
- BoF:: [ELIXIR-Galaxy Workshop](/src/Events/GCC2015/BoFs/ELIXIR/index.md)
+ BoF:: [ELIXIR-Galaxy Workshop](/src/events/GCC2015/BoFs/ELIXIR/index.md)
  Summary:: Discuss technical strategy across the ELIXIR pan-European bioinformatics infrastructure with regards the provision of Galaxy services and infrastructure
  Audience:: Any group using or planning to use Galaxy  
  When:: Tuesday, 7 July, 18:00
@@ -15,8 +15,8 @@ PLACEHOLDER_INCLUDE(/src/Events/GCC2015/Header/index.md)
  Contact:: [Manuel Corpas, Frederik Coppens](https://docs.google.com/document/d/1k_d9A4HDTcmjEhYW3FbVeEjcAkembhxupZZN3KQn0NA/edit#heading=h.8fvjaj9oq5oi)
 </div>
 
-<div class='left'><a href='/src/Events/GCC2015/BoFs/index.md'><img src="/src/Images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a> <br />
-<a href='https://docs.google.com/document/d/1k_d9A4HDTcmjEhYW3FbVeEjcAkembhxupZZN3KQn0NA/edit#heading=h.8fvjaj9oq5oi'><img src="/src/Images/Logos/ElixirNoTextLogo.png" alt="Elixer" width="160" /></a> &nbsp;&nbsp;&nbsp;
+<div class='left'><a href='/src/events/GCC2015/BoFs/index.md'><img src="/src/images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a> <br />
+<a href='https://docs.google.com/document/d/1k_d9A4HDTcmjEhYW3FbVeEjcAkembhxupZZN3KQn0NA/edit#heading=h.8fvjaj9oq5oi'><img src="/src/images/Logos/ElixirNoTextLogo.png" alt="Elixer" width="160" /></a> &nbsp;&nbsp;&nbsp;
 </div>
 
 </div>

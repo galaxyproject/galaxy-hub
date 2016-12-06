@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[Updated GalaxyProject.org Site](/src/News/Updated GalaxyProject.org Site/index.md)</div>
+<div class='newsItemHeader'>[Updated GalaxyProject.org Site](/src/news/Updated GalaxyProject.org Site/index.md)</div>
 
-<div class='right'><a href='http://galaxyproject.org/'><img src="/src/Images/Screenshots/GalaxyProjectOrg.png" alt="GalaxyProject.org" /></a></div>
+<div class='right'><a href='http://galaxyproject.org/'><img src="/src/images/Screenshots/GalaxyProjectOrg.png" alt="GalaxyProject.org" /></a></div>
 
 After a long quiescence, the [GalaxyProject.org](http://galaxyproject.org) site has been updated to more accurately reflect the state of the Galaxy project, which is vibrant, collaborative, and growing by leaps and bounds, in case you were wondering.  [GalaxyProject.org](http://galaxyproject.org) is a one stop shop for all things Galaxy, no matter if you want to use the [free public server](/src/Main/index.md), [install your own copy](/src/Admin/Get Galaxy/index.md) either locally or on the cloud, want to [learn how to use Galaxy](/src/Learn/index.md), or perhaps become an [active participant in the Galaxy community](/src/GetInvolved/index.md).
 
@@ -16,6 +16,6 @@ Thanks,
 
 [Dave Clements](/src/DaveClements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2011-08-24</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-08-24</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

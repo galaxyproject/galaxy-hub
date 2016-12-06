@@ -1,10 +1,10 @@
-<div class='newsItemHeader'>[February 2014 Galaxy Update](/src/News/2014_02GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[February 2014 Galaxy Update](/src/news/2014_02GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/src/GalaxyUpdates/2014_02/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="January 2014 Galaxy Update" width=150 /></a>
+<a href='/src/GalaxyUpdates/2014_02/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="January 2014 Galaxy Update" width=150 /></a>
 <br />
-<a href='/src/GalaxyUpdates/2014_02/index.md#galaxy-australasia-workshop-2014-gaw-2014'><img src="/src/Images/Logos/GAW2014-200.png" alt="Register now for Galaxy Australasia Workshop (GAW 2014)" width="150" /></a><br />
-<a href='/src/GalaxyUpdates/2014_02/index.md#gmod-malaysia-2014'><img src="/src/Images/Logos/GMODMalaysia120.png" alt="GMOD Malaysia 2014" width="140" /></a>
+<a href='/src/GalaxyUpdates/2014_02/index.md#galaxy-australasia-workshop-2014-gaw-2014'><img src="/src/images/Logos/GAW2014-200.png" alt="Register now for Galaxy Australasia Workshop (GAW 2014)" width="150" /></a><br />
+<a href='/src/GalaxyUpdates/2014_02/index.md#gmod-malaysia-2014'><img src="/src/images/Logos/GMODMalaysia120.png" alt="GMOD Malaysia 2014" width="140" /></a>
 </div>
 
 The [25th Edition of Galaxy Update is out](/src/GalaxyUpdates/2014_02/index.md).  Highlights from the [February 2014 Galaxy Update](/src/GalaxyUpdates/2014_02/index.md) include: 
@@ -25,6 +25,6 @@ If you have anything you would like to see in the next *[Galaxy Update](/src/Gal
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2014-01-31 </div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-01-31 </div>
 
 [CategoryNews](/src/CategoryNews/index.md)

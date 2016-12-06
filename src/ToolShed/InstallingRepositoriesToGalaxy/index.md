@@ -1,5 +1,5 @@
 <div class='right'> 
-<img src="/src/Images/Logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" />
+<img src="/src/images/Logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" />
 PLACEHOLDER_INCLUDE(/src/ToolShed/LinkBox/index.md)  
 </div>
 

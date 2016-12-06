@@ -204,13 +204,13 @@ This option describes Galaxy servers that are created for teaching purposes.
 
 </div>
 
-<div class='right'><a href='/src/CloudMan/index.md'><img src="/src/Images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
+<div class='right'><a href='/src/CloudMan/index.md'><img src="/src/images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
 
 [CloudMan](/src/CloudMan/index.md) software abstracts much of the details of different [Cloud](/src/Cloud/index.md) infrastructures and provides a uniform graphical interface for managing cloud-based servers.  
 
 ### A Word on AWS
 
-<div class='right'><a href='http://aws.amazon.com/grants/'><img src="/src/Images/Logos/AWSLogo.png" alt="Amazon Web Services in Education Grants Program" /></a></div>
+<div class='right'><a href='http://aws.amazon.com/grants/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services in Education Grants Program" /></a></div>
 
 The Galaxy project uses [Amazon Web Services (AWS)](http://aws.amazon.com) based servers in its workshops. CloudMan makes it easy to set these up.  The Galaxy Project has an [AWS in Education grant](http://aws.amazon.com/grants/) that supports this work.
 
@@ -312,4 +312,4 @@ If the laptop uses MacOS or Linux as it's operating system then it is possible t
 
 </div>
 
-You can also create *virtual machine images* that participants can download and run on their laptops, using a virtual machine image player such as [VirtualBox](http://virtualbox.org).  In this case you can pre-install any needed tools and datasets.  The students will still be running analysis on their laptops, and therefore nothing too CPU or memory intensive can be run.  This approach was used at the [GCC2012](/src/Events/GCC2012/TrainingDay/index.md) and [GCC2013](/src/Events/GCC2013/TrainingDay/index.md) Training Day sessions where participants learned how to manage their own servers.
+You can also create *virtual machine images* that participants can download and run on their laptops, using a virtual machine image player such as [VirtualBox](http://virtualbox.org).  In this case you can pre-install any needed tools and datasets.  The students will still be running analysis on their laptops, and therefore nothing too CPU or memory intensive can be run.  This approach was used at the [GCC2012](/src/events/GCC2012/TrainingDay/index.md) and [GCC2013](/src/events/GCC2013/TrainingDay/index.md) Training Day sessions where participants learned how to manage their own servers.

@@ -6,32 +6,32 @@ title: July 2014 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the July 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
-The *Galaxy Update* is going out a few days early this month because the usual release date is during [GCC2014](/src/Events/GCC2014/index.md).  
+The *Galaxy Update* is going out a few days early this month because the usual release date is during [GCC2014](/src/events/GCC2014/index.md).  
 
 # Events
 
-<div class='left'><br /><a href='/src/Events/GCC2014/index.md'><img src="/src/Images/Logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="120" /></a></div>
+<div class='left'><br /><a href='/src/events/GCC2014/index.md'><img src="/src/images/Logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="120" /></a></div>
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-**The [2014 Galaxy Community Conference (GCC2014)](/src/Events/GCC2014/index.md) starts on Monday, June 30, and runs through July 2,** at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.  The [program](/src/Events/GCC2014/Program/index.md) is online and all [titles and abstracts for accepted talks and posters](/src/Events/GCC2014/Abstracts/Talks/index.md) are now online.  
+**The [2014 Galaxy Community Conference (GCC2014)](/src/events/GCC2014/index.md) starts on Monday, June 30, and runs through July 2,** at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.  The [program](/src/events/GCC2014/Program/index.md) is online and all [titles and abstracts for accepted talks and posters](/src/events/GCC2014/Abstracts/Talks/index.md) are now online.  
 
-Fifteen [Training sessions on 12 topics](/src/Events/GCC2014/TrainingDay/index.md), several [Birds of a Feather](/src/Events/GCC2014/BoFs/index.md), two lightning talk sessions, and the very first [Galaxy Project Hackathon](/src/Events/GCC2014/Hackathon/index.md) are also happening.
+Fifteen [Training sessions on 12 topics](/src/events/GCC2014/TrainingDay/index.md), several [Birds of a Feather](/src/events/GCC2014/BoFs/index.md), two lightning talk sessions, and the very first [Galaxy Project Hackathon](/src/events/GCC2014/Hackathon/index.md) are also happening.
 
 <br />
 
 ## Galaxy @ ISBMB and BOSC 2014
 
 <div class='right'>
-<a href='/src/Events/ISMB2014/index.md'><img src="/src/Images/Logos/BOSC_logo.png" alt="BOSC 2014" height="65" /></a>&nbsp;&nbsp;&nbsp;
-<a href='/src/Events/ISMB2014/index.md'><img src="/src/Images/Logos/ISMB2014LogoRound.png" alt="ISMB 2014" height="85" /></a>
+<a href='/src/events/ISMB2014/index.md'><img src="/src/images/Logos/BOSC_logo.png" alt="BOSC 2014" height="65" /></a>&nbsp;&nbsp;&nbsp;
+<a href='/src/events/ISMB2014/index.md'><img src="/src/images/Logos/ISMB2014LogoRound.png" alt="ISMB 2014" height="85" /></a>
 </div>
 
-There will be at least six talks and five posters related to Galaxy at [ISMB and BOSC 2014](/src/Events/ISMB2014/index.md) this year.  Talks include
+There will be at least six talks and five posters related to Galaxy at [ISMB and BOSC 2014](/src/events/ISMB2014/index.md) this year.  Talks include
 
 * *Galaxy as an Extensible Job Execution Platform*, [John Chilton](/src/JohnChilton/index.md)
 * *Enhancing the Galaxy Experience through Community Involvement*, [Daniel Blankenberg](/src/Dan/index.md)
@@ -42,9 +42,9 @@ There will be at least six talks and five posters related to Galaxy at [ISMB and
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/Icons/CalendarIcon.gif" /></a></div> 
 
-Over the rest of the summer there are other [Galaxy related events](/src/Events/index.md) in Leiden, Sydney, Brisbane, São Paulo, and Rio de Janeiro. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+Over the rest of the summer there are other [Galaxy related events](/src/events/index.md) in Leiden, Sydney, Brisbane, São Paulo, and Rio de Janeiro. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
@@ -60,14 +60,14 @@ Over the rest of the summer there are other [Galaxy related events](/src/Events/
   </tr>
   <tr>
     <th> June 28-30 </th>
-    <td> <a href='/src/Events/GCC2014/Hackathon/index.md'>Galaxy Hackathon</a> </td>
+    <td> <a href='/src/events/GCC2014/Hackathon/index.md'>Galaxy Hackathon</a> </td>
     <td rowspan=2> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
-    <td> <a href='/src/Events/GCC2014/Organizers/index.md'>Organizers</a> </td>
+    <td> <a href='/src/events/GCC2014/Organizers/index.md'>Organizers</a> </td>
   </tr>
   <tr>
     <th> June 30 -<br />July 2 </th>
-    <td> <strong><a href='/src/Events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
-    <td> <a href='/src/Events/GCC2014/Organizers/index.md'>Organizers</a> </td>
+    <td> <strong><a href='/src/events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
+    <td> <a href='/src/events/GCC2014/Organizers/index.md'>Organizers</a> </td>
   </tr>
   <tr>
     <th> July 7-9 </th>
@@ -83,9 +83,9 @@ Over the rest of the summer there are other [Galaxy related events](/src/Events/
   </tr>
   <tr>
     <th> July 11-15 </th>
-    <td> <strong><a href='/src/Events/ISMB2014/index.md'>ISMB and BOSC 2014</a></strong><div class='indent'>At least six talks and five posters</div> </td>
+    <td> <strong><a href='/src/events/ISMB2014/index.md'>ISMB and BOSC 2014</a></strong><div class='indent'>At least six talks and five posters</div> </td>
     <td> Boston, Massachussetts, United States </td>
-    <td> See <a href='/src/Events/ISMB2014/index.md'>presenter list</a> </td>
+    <td> See <a href='/src/events/ISMB2014/index.md'>presenter list</a> </td>
   </tr>
   <tr>
     <th> July 18 </th>
@@ -95,7 +95,7 @@ Over the rest of the summer there are other [Galaxy related events](/src/Events/
   </tr>
   <tr>
     <th> July 28 - August 1 </th>
-    <td> <em><a href='/src/Events/SaoPaulo2014/index.md'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a></em> </td>
+    <td> <em><a href='/src/events/SaoPaulo2014/index.md'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a></em> </td>
     <td> <a href='http://usp.br/'>University of São Paulo (USP)</a>, São Paulo, Brazil </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
@@ -119,16 +119,16 @@ Over the rest of the summer there are other [Galaxy related events](/src/Events/
   </tr>
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
-    <td> <a href='/src/Events/Switzerland2014/trainingday/index.md'>Galaxy Training and Demo Day</a> </td>
+    <td> <a href='/src/events/Switzerland2014/trainingday/index.md'>Galaxy Training and Demo Day</a> </td>
     <td> Bern (Switzerland) </td>
     <td rowspan=3> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/BjoernGruening/index.md'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/Events/Switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/src/events/Switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>
     <td> SyBIT Tech Day, Bern (Switzerland) </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/Events/Germany2014/index.md'>German Galaxy Developers Day</a></em> </td>
+    <td> <em><a href='/src/events/Germany2014/index.md'>German Galaxy Developers Day</a></em> </td>
     <td> Freiburg (Germany) </td>
   </tr>
 </table>
@@ -210,11 +210,11 @@ The new papers were tagged in many different areas:
 The Galaxy is expanding! Please help it grow.
 
 * [Experimental Officer in Bioinformatics](http://bit.ly/1uW1qIs), NERC Metabolomics Facility, University of Birmingham, UK 
-* [Two postdoc positions in integrative genomics](/src/News/PostDocsInOslo/index.md) available in Oslo, Norway
-* [Statistical Genomics Postdoc](/src/News/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
+* [Two postdoc positions in integrative genomics](/src/news/PostDocsInOslo/index.md) available in Oslo, Norway
+* [Statistical Genomics Postdoc](/src/news/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 <br />
 
@@ -249,7 +249,7 @@ One new [public Galaxy server](/src/PublicGalaxyServers/index.md) was added to t
 
 ## June 2, 2014 Galaxy Distribution
 
-<div class='right'> <a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2014_06_02_dataset-collections-crop.png" alt="Dataset Collections Workflow Detail" width="400" /></a> <br /> *example dataset collection workflow ([credits](/src/DevNewsBriefs/2014_06_02/index.md#dataset_collections))* </div>
+<div class='right'> <a href='http://usegalaxy.org'><img src="/src/images/NewsGraphics/2014_06_02_dataset-collections-crop.png" alt="Dataset Collections Workflow Detail" width="400" /></a> <br /> *example dataset collection workflow ([credits](/src/DevNewsBriefs/2014_06_02/index.md#dataset_collections))* </div>
 
 <br />
 **[News Brief](/src/DevNewsBriefs/2014_06_02/index.md)** **Highlights:**
@@ -302,13 +302,13 @@ A [corresponding version](http://gregvonkuster.org/galaxy-tool-shed-june-2-2014-
 
 [BioBlend 0.4.3](https://pypi.python.org/pypi/bioblend/0.4.3) was released on April 11, 2014.  
 
-The most recent version of CloudMan was [released in January 2014](/src/News/CloudManRelease201401/index.md).
+The most recent version of CloudMan was [released in January 2014](/src/news/CloudManRelease201401/index.md).
 
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/src/Community/Logs/index.md'><img src="/src/Images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
-<div class='right'><a href='/src/Community/Deployments/index.md'><img src="/src/Images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/src/Community/Logs/index.md'><img src="/src/images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='right'><a href='/src/Community/Deployments/index.md'><img src="/src/images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
 <br />
 
 <table>
@@ -325,7 +325,7 @@ One new [Log Board entry](/src/Community/Logs/index.md) was added in June:
 The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/src/Community/index.md)* were launched last your.  If you have a [Galaxy deployment](/src/Community/Deployments/index.md), or [experience](/src/Community/Logs/index.md) you want to share then please publish them.
 
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 

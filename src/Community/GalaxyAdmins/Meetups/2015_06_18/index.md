@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/Images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2015/06/18 Web Meetup<br /><br />
 
 </div></div>
@@ -35,20 +35,20 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
 
 ## Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester
 
-<div class='right'><a href='http://www.manchester.ac.uk/'><img src="/src/Images/Logos/UManchesterLogo.jpg" alt="University of Manchester" width="200" /></a></div>
+<div class='right'><a href='http://www.manchester.ac.uk/'><img src="/src/images/Logos/UManchesterLogo.jpg" alt="University of Manchester" width="200" /></a></div>
 
 [Peter Briggs](http://galacticengineer.blogspot.co.uk/) of the [University of Manchester](http://www.manchester.ac.uk/) and author of the *[Galactic Engineer](http://galacticengineer.blogspot.co.uk/)* blog will talk about his Galaxy work 
 deploying Galaxy and developing tools within the [Bioinformatics Core Facility](http://www.ls.manchester.ac.uk/research/facilities/#bioinf) at the University of Manchester.
 
 ## Galaxy Project Update: Planemo
 
-<div class='right'>[[<a href='https://github.com/galaxyproject/planemo'><img src="/src/Images/Logos/PlanemoLogo.png" alt="Planemo" width="160" /></a></div>
+<div class='right'>[[<a href='https://github.com/galaxyproject/planemo'><img src="/src/images/Logos/PlanemoLogo.png" alt="Planemo" width="160" /></a></div>
 
 [John Chilton](/src/JohnChilton/index.md) will also give an update on recent and upcoming work on [Planemo](https://github.com/galaxyproject/planemo), a set of command-line utilities to assist in building and publishing Galaxy tools.
 
 ## Call Technology
 
-<div class='right'><img src="/src/Images/Logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
+<div class='right'><img src="/src/images/Logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
 
 The  meetup's online conference room will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 

@@ -2,7 +2,7 @@
 title: [GalaxyAt](/src/GalaxyAt/index.md)UIowa
 ---
 <div class='center'>
-<a href='http://medicine.uiowa.edu/humangenetics/'><img src="/src/Images/Logos/UIowaLogo.jpg" alt="GalaxyAtUIowa" width=200 /></a>
+<a href='http://medicine.uiowa.edu/humangenetics/'><img src="/src/images/Logos/UIowaLogo.jpg" alt="GalaxyAtUIowa" width=200 /></a>
 </div>
 
 

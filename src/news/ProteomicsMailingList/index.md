@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[Galaxy Protoeomics Mailing List](/src/News/ProteomicsMailingList/index.md)</div>
+<div class='newsItemHeader'>[Galaxy Protoeomics Mailing List](/src/news/ProteomicsMailingList/index.md)</div>
 
-<div class='right'><a href='http://proteomics.list.galaxyproject.org/'><img src="/src/Images/Logos/MailmanLogoSmall.png" alt="Galaxy Proteomics Mailing List"  /></a></div>
+<div class='right'><a href='http://proteomics.list.galaxyproject.org/'><img src="/src/images/Logos/MailmanLogoSmall.png" alt="Galaxy Proteomics Mailing List"  /></a></div>
 
 The Galaxy community now has a [mailing list dedicated to proteomics](http://proteomics.list.galaxyproject.org/).  If you're using Galaxy to do proteomics, or if you are thinking of doing so then this list if for you.  In case you missed it, there is also a [proteomics wiki page](/src/Proteomics/index.md). 
 
@@ -15,6 +15,6 @@ Thanks
 
 Ira Cooke
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-07-31</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-07-31</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

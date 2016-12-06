@@ -12,7 +12,7 @@ Below, each interval operation is described in detail.  You can also view screen
 
 **([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3B.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3B.mov) Intersect Screencast)**
 
-![](/src/Images/Gops/Intersect.png)
+![](/src/images/Gops/Intersect.png)
 
 Intersect allows for the intersection of two queries to be found. The intersect tool can output either the entire set of intervals from the first dataset that overlap the second dataset (e.g. all exons containing repeats), or just the intervals representing the overlap between the two datasets (e.g. all regions that are both exonic and repetitive; see Figure above).
 
@@ -26,7 +26,7 @@ When finding pieces of intervals, or the regions representing the overlap betwee
 
 **([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3B.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3B.mov) Subtract Screencast)**
 
-![](/src/Images/Gops/Subtract.png)
+![](/src/images/Gops/Subtract.png)
 
 Subtract does the opposite of intersect.  It removes the intervals or parts of intervals in the first dataset that are found in the second dataset (Figure above).  Like Intersect, Subtract can treat intervals as a whole, removing or keeping entire intervals, or it can break them apart, removing overlapping subregions.
 
@@ -39,7 +39,7 @@ When subtracting overlapping subregions (by setting **Return** to `Non-overlappi
 
 **([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3C.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3C.mov) Merge and Concatenate Screencast)**
 
-![](/src/Images/Gops/MergeConcat.png)
+![](/src/images/Gops/MergeConcat.png)
 
 Concatenate and Merge are analogous to addition and union (figure above).  They can be used together to combine datasets and merge (or flatten) the intervals.
 
@@ -63,7 +63,7 @@ The base coverage tool calculates the number of bases covered by all of the inte
 
 **([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3D.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3D.mov) Base Coverage and Complement Screencast])**
 
-![](/src/Images/Gops/Complement.png)
+![](/src/images/Gops/Complement.png)
 
 Complement inverts a dataset (Figure above).  Complement reads in all of the regions of a dataset, and outputs the regions not covered by any intervals in that dataset.  The option **Genome-wide complement** allows for the entire genome to be complemented, regardless of whether a chromosome, contig, scaffold, etc. is represented in the query dataset.   In a genome-wide complement of a dataset, any chromosome that has no intervals in the query dataset will be output in the result as the entire chromosome.  In a normal complement, only the chromosomes, contigs, scaffolds, etc. that are referenced in the query dataset will be represented in the output.
 
@@ -129,7 +129,7 @@ implies that 172 nucleotides accounting for 10.7% of this interval (chr11:520327
 
 **([Download](http://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3F.mov) [Stream](rtsp://screencast.g2.bx.psu.edu/CPB2007/CPB_Screencast_3F.mov) Cluster Screencast)**
 
-![](/src/Images/Gops/Cluster.png)
+![](/src/images/Gops/Cluster.png)
 
 Cluster is one of the most versatile and powerful interval operations (figure above).  Cluster finds clusters of intervals, and has a wide range of behavior depending on the options specified.  The **Maximum distance** parameter specifies the maximum distance allowed between regions for those regions to be considered a cluster.  Maximum distance can be a positive number, zero, or a negative number:
 
@@ -162,4 +162,4 @@ Like intersect, join allows a minimum overlap to be specified.  Intervals must e
 
 Each output option is illustrated here.  Notice that in the last two options/examples intervals with invalid chromosome, start, and end are output, rendering those datasets no longer usable without filtering out the invalid intervals.
 
-![](/src/Images/Gops/Join.png)
+![](/src/images/Gops/Join.png)

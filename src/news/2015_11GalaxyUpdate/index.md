@@ -1,8 +1,8 @@
-<div class='newsItemHeader'>[November 2015 Galactic News](/src/News/2015_11GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[November 2015 Galactic News](/src/news/2015_11GalaxyUpdate/index.md)</div>
 
 <div class='right'>
-<a href='/src/GalaxyUpdates/2015_11/index.md'><img src="/src/Images/GalaxyLogos/GalaxyNews.png" alt="Galactic News! October 2015 Edition" width=150 /></a><br />
-<a href='/src/GalaxyUpdates/2015_11/index.md#gcc2016-training-topic-vote-ends-this-friday'><img src="/src/Events/GCC2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="150" /></a>
+<a href='/src/GalaxyUpdates/2015_11/index.md'><img src="/src/images/GalaxyLogos/GalaxyNews.png" alt="Galactic News! October 2015 Edition" width=150 /></a><br />
+<a href='/src/GalaxyUpdates/2015_11/index.md#gcc2016-training-topic-vote-ends-this-friday'><img src="/src/events/GCC2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="150" /></a>
 </div>
 
 The **[November Galactic News](/src/GalaxyUpdates/2015_11/index.md)** is hot off the presses.
@@ -19,6 +19,6 @@ The **[November Galactic News](/src/GalaxyUpdates/2015_11/index.md)** is hot off
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-11-02 </div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-11-02 </div>
 
 [CategoryNews](/src/CategoryNews/index.md)

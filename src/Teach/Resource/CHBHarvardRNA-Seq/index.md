@@ -1,7 +1,7 @@
 ---
 title: [CHB Harvard RNA-Seq Workshop](http://hbc.github.io/ngs-workshops/courses/introduction-to-rna-seq/)
 ---
-<div class='center'><a href='http://hbc.github.io/ngs-workshops/about/'><img src="/src/Images/Logos/CHBHarvard.png" alt="Center for Health Bioinformatics Galaxy Tutorials"  /></a></div>
+<div class='center'><a href='http://hbc.github.io/ngs-workshops/about/'><img src="/src/images/Logos/CHBHarvard.png" alt="Center for Health Bioinformatics Galaxy Tutorials"  /></a></div>
 
 
 

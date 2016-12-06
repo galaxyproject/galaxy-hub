@@ -8,7 +8,7 @@ PLACEHOLDER_INCLUDE(/src/Teach/Header/index.md)
 
 PLACEHOLDER_INCLUDE(/src/Teach/LinkBox/index.md)
 
-The *[Galaxy Training Network (GTN)](/src/Teach/GTN/index.md)* is a network of people and groups that present Galaxy and Galaxy-based training around the world.  GTN helps researchers find online training material, and trainers in their geographic area, and helps advertise [training events](/src/Events/index.md) as well.
+The *[Galaxy Training Network (GTN)](/src/Teach/GTN/index.md)* is a network of people and groups that present Galaxy and Galaxy-based training around the world.  GTN helps researchers find online training material, and trainers in their geographic area, and helps advertise [training events](/src/events/index.md) as well.
 
 These pages describes the Galaxy Training Network, and everything else related to teaching Galaxy or teaching Bioinformatics with Galaxy:
 
@@ -41,7 +41,7 @@ The [Galaxy-Training mailing list](http://galaxy-training-mailing-list-archive.3
 
 ## Events
 
-Want to know what training events are scheduled in the coming months?  Or publish your event on the list?  See the **[Galaxy Events page](/src/Events/index.md)** which lists all known upcoming Galaxy events, including many training events.
+Want to know what training events are scheduled in the coming months?  Or publish your event on the list?  See the **[Galaxy Events page](/src/events/index.md)** which lists all known upcoming Galaxy events, including many training events.
 
 
 ## Interested?

@@ -36,7 +36,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *Links:*
   * **[Andromeda server](http://galaxy.nbic.nl/)**
   * Andromeda was the featured topic at the [March 2013 GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md).  Includes [slides](PLACEHOLDER_ATTACHMENT_URL/src/Community/GalaxyAdmins/Meetups/2013_03_20/20130320Andromeda.pdf) and [video](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262344508128_1363788090133).
-  * [GCC2013](/src/Events/GCC2013/index.md) [Poster](/src/Events/GCC2013/Abstracts/Posters/index.md#p22-andromeda-nbic-galaxy-at-surfsaras-hpc-cloud) and [Lightning talk](/src/Events/GCC2013/Lightning/index.md#andromeda-nbic-galaxy-at-surfsaras-hpc-cloud): *Andromeda: NBIC Galaxy at Surfsara's HPC cloud* 
+  * [GCC2013](/src/events/GCC2013/index.md) [Poster](/src/events/GCC2013/Abstracts/Posters/index.md#p22-andromeda-nbic-galaxy-at-surfsaras-hpc-cloud) and [Lightning talk](/src/events/GCC2013/Lightning/index.md#andromeda-nbic-galaxy-at-surfsaras-hpc-cloud): *Andromeda: NBIC Galaxy at Surfsara's HPC cloud* 
 
 * *Domain/Purpose:*
   * This is a fully populated Galaxy instance. 
@@ -140,7 +140,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *Domain/Purpose:*
   * Integrative 'omics data analysis 
 * *Comments:*
-  * From *[J24: GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/Events/ECCB2014/index.md) by Stephanie Le Gras, Serge Uge, Matthieu Jung, Ludovic Roy, Valerie Cognat, Frederic Plewniak, Irwin Davidson and Julien Seiler:
+  * From *[J24: GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/events/ECCB2014/index.md) by Stephanie Le Gras, Serge Uge, Matthieu Jung, Ludovic Roy, Valerie Cognat, Frederic Plewniak, Irwin Davidson and Julien Seiler:
     * provides access to up-to-date tools and algorithms such as those devoted to Next Generation Sequencing (NGS) data analysis of:
       * Epigenome: MACS, Homer
       * Genomic sequence: GATK, Samtools, BEDtools, Picard
@@ -166,7 +166,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 
 ## Galaxy@PRABI
 
-<div class='right solid'><a href='http://galaxy.prabi.fr/'><img src="/src/Images/Logos/PRABILogo.png" alt="Galaxy@PRABI" width="300" /></a></div>
+<div class='right solid'><a href='http://galaxy.prabi.fr/'><img src="/src/images/Logos/PRABILogo.png" alt="Galaxy@PRABI" width="300" /></a></div>
 
 * *Links:*
   * [Galaxy@PRABI](http://galaxy.prabi.fr/)
@@ -190,7 +190,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 
 ## Galaxy Main
 
-<div class='right solid'><a href='http://usegalaxy.org'><img src="/src/Images/Logos/UseGalaxy.orgLogo600.png" alt="usegalaxy.org (Main)" width="300" /></a></div>
+<div class='right solid'><a href='http://usegalaxy.org'><img src="/src/images/Logos/UseGalaxy.orgLogo600.png" alt="usegalaxy.org (Main)" width="300" /></a></div>
 
 * *Link:*
   * [Main](http://usegalaxy.org)
@@ -199,7 +199,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *Comments:*
   * Strong on genomics; good central repository for shared Galaxy objects.  See [Main](/src/Main/index.md) for more.
 * *User Support:*
-  * [Support](/src/Support/index.md)
+  * [Support](/src/support/index.md)
 * *Quotas:* 
   * Storage and computational quotas.  See [Main](/src/Main/index.md) for details.
 * *Sponsor(s):*
@@ -735,7 +735,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Domain/Purpose:* 
   * A Galaxy based web server for microbiology. [Orione](http://orione.crs4.it/) includes all post mapping or assembling steps from scaffolding to complete annotation pipelines.
 * *Comments:*
-  * From the [GCC2013](/src/Events/GCC2013/index.md) poster "[Engaging Galaxy in Microbiology](/src/Events/GCC2013/Abstracts/Posters/index.md#p7-engaging-galaxy-in-microbiology)"
+  * From the [GCC2013](/src/events/GCC2013/index.md) poster "[Engaging Galaxy in Microbiology](/src/events/GCC2013/Abstracts/Posters/index.md#p7-engaging-galaxy-in-microbiology)"
       We started on selecting the relevant software in the microbiology area, developing then all the necessary tools to integrate them into the Galaxy ecosystem. In addition to that, we made available several specialized workflows covering major applications such as bacterial resequencing, de novo assembly, scaffolding, bacterial RNA-seq, gene annotation and metagenomics. Orione provides additional capabilities to perform integrative, reproducible and transparent bioinformatic data analysis in microbiology thus expanding the constellation of specialized Galaxy based web servers as [Nebula](/src/PublicGalaxyServers/index.md#nebula), [Cistrome](/src/PublicGalaxyServers/index.md#cistrome) and several others.
 * *User Support:*
   * [email](mailto:galaxyadmin AT crs4 DOT it)
@@ -750,7 +750,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 * *Links:*
   * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/), part of the [OSDD Portal](http://sysborg2.osdd.net).
-  * *Customized Galaxy with Applications as Web Services and on the Grid for Open Source Drug Discovery*, presentation by Anshu Bhardwaj and Chintalapati Janaki at [GCC2011](http://wiki.galaxyproject.org/Events/GCC2011) ([Slides](PLACEHOLDER_ATTACHMENT_URL/src/Events/GCC2011/OpenSourceDrugDiscovery.pdf), [Video](http://vimeo.com/24870112)).
+  * *Customized Galaxy with Applications as Web Services and on the Grid for Open Source Drug Discovery*, presentation by Anshu Bhardwaj and Chintalapati Janaki at [GCC2011](http://wiki.galaxyproject.org/Events/GCC2011) ([Slides](PLACEHOLDER_ATTACHMENT_URL/src/events/GCC2011/OpenSourceDrugDiscovery.pdf), [Video](http://vimeo.com/24870112)).
   * "[QSAR-Based Models for Designing Quinazoline/Imidazothiazoles/Pyrazolopyrimidines Based Inhibitors against Wild and Mutant EGFR](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0101079)" by Chauhan, *et al.* *PLOS One*,   DOI: 10.1371/journal.pone.0101079
 * *Domain/Purpose:* 
   * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) exposes the tools that are included in [OSDDlinux](http://osddlinux.osdd.net/), "a customized linux operating system for drug discovery that integrates open source software, libraries, workflows and web services in linux for creating environment for drug discovery."   OSDDLinux contains a Galaxy instance with applications for Drug Discovery.
@@ -907,7 +907,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 ## VectorBase Galaxy
 
-<div class='right solid'><a href='https://www.vectorbase.org/galaxy'><img src="/src/Images/Logos/VectorBaseLogoWithText.png" alt="VectorBase Galaxy" width=300 /></a></div>
+<div class='right solid'><a href='https://www.vectorbase.org/galaxy'><img src="/src/images/Logos/VectorBaseLogoWithText.png" alt="VectorBase Galaxy" width=300 /></a></div>
 
 * *Link:*
   * [Vectorbase Galaxy](https://www.vectorbase.org/galaxy)
@@ -1203,7 +1203,7 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
   * [deepTools home page at GitHub](http://deeptools.github.io/)
   * Fidel Ramírez, Devon P Ryan, Björn Grüning, Vivek Bhardwaj, Fabian Kilpert, Andreas S Richter, Steffen Heyne, Friederike Dündar and Thomas Manke, [deepTools2: a next generation web server for deep-sequencing data analysis](http://nar.oxfordjournals.org/content/early/2016/04/12/nar.gkw257.long), *Nucl. Acids Res.* (2016) doi: 10.1093/nar/gkw257
   * Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, and Thomas Manke. [deepTools: a flexible platform for exploring deep-sequencing data](http://nar.oxfordjournals.org/cgi/content/abstract/gku365) *Nucl. Acids Res.* first published online May 5, 2014 doi:10.1093/nar/gku365
-  * *[deepTools: a flexible platform for exploring deep-sequencing data](/src/Events/GCC2014/Abstracts/Talks/index.md#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/src/Events/GCC2014/index.md)
+  * *[deepTools: a flexible platform for exploring deep-sequencing data](/src/events/GCC2014/Abstracts/Talks/index.md#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/src/events/GCC2014/index.md)
   * [deepTools deployment description](/src/Community/Deployment/deepTools/index.md)
 * *Domain/Purpose:* 
   * deepTools is a suite of user-friendly tools for the visualization, quality control and normalization of data from high-throughput DNA sequencing experiments.
@@ -1309,7 +1309,7 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
 
 ## In Silico Galaxy
 
-<div class='right solid'><a href='http://insilico.utulsa.edu/galaxy/'><img src="/src/Images/Logos/UTulsaLogo.png" alt="In Silico Galaxy" height="100" /></a></div>
+<div class='right solid'><a href='http://insilico.utulsa.edu/galaxy/'><img src="/src/images/Logos/UTulsaLogo.png" alt="In Silico Galaxy" height="100" /></a></div>
 
 * *Link:*
   * [In Silico Galaxy](http://insilico.utulsa.edu/galaxy/) 
@@ -1327,7 +1327,7 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
 
 ## Koslicki Lab
 
-<div class='right solid'><a href='http://math-galaxy.cgrb.oregonstate.edu:8080/'><img src="/src/Images/Logos/OregonStateU.jpg" alt="Koslicki Lab Server" height="200" /></a></div>
+<div class='right solid'><a href='http://math-galaxy.cgrb.oregonstate.edu:8080/'><img src="/src/images/Logos/OregonStateU.jpg" alt="Koslicki Lab Server" height="200" /></a></div>
 
 * *Link:*
   * [Koslicki Lab Galaxy server](http://math-galaxy.cgrb.oregonstate.edu:8080/)
@@ -1361,7 +1361,7 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
 
 ## LiSIs
 
-<div class='right solid'><a href='http://lisis.cs.ucy.ac.cy/'><img src="/src/Images/Logos/LiSisLogo.png" alt="LiSIs" width="300px" /></a></div>
+<div class='right solid'><a href='http://lisis.cs.ucy.ac.cy/'><img src="/src/images/Logos/LiSisLogo.png" alt="LiSIs" width="300px" /></a></div>
 
 * *Link:*
   * [LiSIs](http://lisis.cs.ucy.ac.cy/)
@@ -1403,7 +1403,7 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
 
 ## Martin Luther U. Halle-Wittenberg
 
-<div class='right solid'><a href='http://galaxy.informatik.uni-halle.de'><img src="/src/Images/Logos/MartinLutherU.png" alt="Martin Luther University Halle-Wittenberg" width="300px" /></a></div>
+<div class='right solid'><a href='http://galaxy.informatik.uni-halle.de'><img src="/src/images/Logos/MartinLutherU.png" alt="Martin Luther University Halle-Wittenberg" width="300px" /></a></div>
 
 * *Link:*
   * [Martin Luther University Halle-Wittenberg](http://galaxy.informatik.uni-halle.de)
@@ -1814,13 +1814,13 @@ Test Tool Shed is made for breaking. If you have some tools you want to try out 
 
 ## Galaxy@PRABI Tool Shed
 
-<div class='right'><a href='http://toolshed.prabi.fr/'><img src="/src/Images/Logos/PRABILogo.png" alt="Galaxy@PRABI" width="150" /></a></div>
+<div class='right'><a href='http://toolshed.prabi.fr/'><img src="/src/images/Logos/PRABILogo.png" alt="Galaxy@PRABI" width="150" /></a></div>
 
 [Tool Shed](http://toolshed.prabi.fr/) backing the [Galaxy@PRABI server](/src/PublicGalaxyServers/index.md#galaxyprabi).  DEfines bioinformatics tools developed by the research teams working in the perimeter of the PRABI core facility, including *kissplice/kissDE, TETools, SexDetector,* and *priam*.
 
 ## DTL ToolShed
 
-<div class='left'><a href='http://toolshed.nbic.nl/'><img src="/src/Images/Logos/DTLLogo.png" alt="DTL ToolShed" width="150" /></a></div>
+<div class='left'><a href='http://toolshed.nbic.nl/'><img src="/src/images/Logos/DTLLogo.png" alt="DTL ToolShed" width="150" /></a></div>
 
 The [Dutch Techcentre for Life Sciences (DTL)](http://www.dtls.nl/dtl/) has made its [Galaxy ToolShed](http://toolshed.nbic.nl/) publicly available.  The [DTL ToolShed](http://toolshed.nbic.nl/) has almost 70 tools in it, from [ANNOVAR](http://toolshed.nbic.nl/view/saskia-hiltemann/annovar) to [VCF-2-VariantList](http://toolshed.nbic.nl/view/saskia-hiltemann/virtual_normal_preprocessing).  This ToolShed was originally started at NBIC.
 

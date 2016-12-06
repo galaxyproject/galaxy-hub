@@ -1,7 +1,7 @@
 <div class='title'>
 <table>
   <tr>
-    <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'><img src="/src/Images/Logos/ASMSLogo.png" alt="63rd ASMS Conference on Mass Spectrometry and Allied Topics" /></a> </td>
+    <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'><img src="/src/images/Logos/ASMSLogo.png" alt="63rd ASMS Conference on Mass Spectrometry and Allied Topics" /></a> </td>
     <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'>63rd ASMS Conference on Mass Spectrometry and Allied Topics</a><br /><br /> St. Louis, Missouri, United States<br /><br />May 31 - June 4, 2015 </td>
   </tr>
 </table>
@@ -24,7 +24,7 @@ Galaxy will again have a strong presence at the 2015 ASMS meeting.
     <td> 5:45 </td>
     <td> Room 123/124 </td>
     <td> Workshop: The Galaxy Framework for MS-based Informatics </td>
-    <td colspan=2 style=" text-align: center;"> See <a href='/src/Events/ASMS2015/index.md#workshop-4-the-galaxy-framework-for-ms-based-informatics'>below</a> </td>
+    <td colspan=2 style=" text-align: center;"> See <a href='/src/events/ASMS2015/index.md#workshop-4-the-galaxy-framework-for-ms-based-informatics'>below</a> </td>
   </tr>
   <tr class="th" >
     <th colspan=6> </th>
@@ -114,7 +114,7 @@ Ample time will be offered for questions from attendees and discussion. Presente
 
 <div class='right'>
 <br />
-<a href='PLACEHOLDER_ATTACHMENT_URL/src/ASMS2015GalaxyPFlyer.pdf'><img src="/src/Events/ASMS2015/ASMS2015GalaxyPFlyerThumb.png" alt="Galaxy-P at ASMS 2015" /></a>
+<a href='PLACEHOLDER_ATTACHMENT_URL/src/ASMS2015GalaxyPFlyer.pdf'><img src="/src/events/ASMS2015/ASMS2015GalaxyPFlyerThumb.png" alt="Galaxy-P at ASMS 2015" /></a>
 </div>
 
 ## Flyer

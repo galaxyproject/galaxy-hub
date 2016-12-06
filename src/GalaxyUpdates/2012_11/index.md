@@ -6,7 +6,7 @@ title: November 2012 Galaxy Update
 
 
 
-<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/Images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the November 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -86,12 +86,12 @@ The same guidelines for creating issues used previously apply here as well - rep
 
 All open [galaxy-central bitbucket issues](https://bitbucket.org/galaxy/galaxy-central) were imported and, though they still need to be sorted out, comments/voting on them are more than welcome.  Our hope is that this issue tracker will be a more effective community interface than the *Bitbucket* issues were, with the voting features and simpler visibility.
 
-<a href='http://usegalaxy.org'><img src="/src/Images/NewsGraphics/2012_10_23_trello-inbox.png" alt="2012_10_23_trello-inbox" width="900" /></a>
+<a href='http://usegalaxy.org'><img src="/src/images/NewsGraphics/2012_10_23_trello-inbox.png" alt="2012_10_23_trello-inbox" width="900" /></a>
 
 
 ## Who's Hiring
 
-<div class='right'><img src="/src/Images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
+<div class='right'><img src="/src/images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * [Computational Biologist](http://bit.ly/R2ZJoW) @ the [Harvard Stem Cell Institute's (HSCI)](http://www.hsci.harvard.edu/)[Center for Stem Cell Bioinformatics](http://www.hsci.harvard.edu/research/center-stem-cell-bioinformatics)
@@ -99,19 +99,19 @@ The Galaxy is expanding!  Please help it grow.
 * [offre CDD INRA Versailles](http://bit.ly/TKoV9h) - developpement chaine de traitements RnaSeq sous Galaxy - France Genomique
 * The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs @ Penn State and Emory
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/News/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
 
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='http://www.ashg.org/2012meeting/pages/workshops.shtml'><img src="/src/Images/Logos/ASHG2012Logo.png" alt="ASHG 2012" height="100" /></a>&nbsp;
-<a href='http://meetings.cshl.edu/courses13.html'><img src="/src/Images/Logos/CSHLLogo.jpg" alt="CSHL" height="100" /></a>
-<a href='http://www.intlpag.org/'><img src="/src/Images/Logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2013)" /></a>
+<a href='http://www.ashg.org/2012meeting/pages/workshops.shtml'><img src="/src/images/Logos/ASHG2012Logo.png" alt="ASHG 2012" height="100" /></a>&nbsp;
+<a href='http://meetings.cshl.edu/courses13.html'><img src="/src/images/Logos/CSHLLogo.jpg" alt="CSHL" height="100" /></a>
+<a href='http://www.intlpag.org/'><img src="/src/images/Logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2013)" /></a>
 </div>
 
 ### Deadlines
 
-<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/Images/Icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/images/Icons/CalendarIcon.gif" /></a></div> 
 
 There are November application, poster, and paper deadlines for 
 * ICG & Bio-IT APAC 2012 abstract and poster deadlines (Oct 31 and Nov 15)
@@ -182,7 +182,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> <strong><em><a href='/src/Events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
+    <td> <strong><em><a href='/src/events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -211,7 +211,7 @@ The **[October 5, 2012 distribution](/src/DevNewsBriefs/2012_10_05/index.md)** i
 
 * Phylogenies! Hacking! Tucson in January!  And, hopefully Galaxy too.  If you are interested in coding, phylogenies, and tool integration please take a look at the [Phylotastic Hackathon Announcement](http://dev.list.galaxyproject.org/phylotastic-hackathon-Jan-28-Feb-1-Tucson-AZ-of-possible-interest-to-galaxy-developers-td4656850.html).  Apply by November 16.
 * Slides for all [11 talks at 1st Swiss Galaxy Day](http://bit.ly/gxyswiss) are now available online.
-* Slides for [5 other Galaxy related events](/src/Events/index.md#a2012) in October are also now available.
+* Slides for [5 other Galaxy related events](/src/events/index.md#a2012) in October are also now available.
 * [workflow-to-galaxy (0.3.4) @ RubyGems.org](http://rubygems.org/gems/workflow-to-galaxy): Acquires information for a taverna 2 workflow from myExperiment (or from a file) and generates a Galaxy tool (`.xml` and `.rb` files).
 * American Internet Services (AIS) unveils [Life Sciences SaaS](http://bloom.bg/TQEcGz), featuring Galaxy 
 * The **[Tool Shed Wiki](/src/Tool Shed/index.md)** wiki has been re-written with a new, cleaner presentation. And check out all the [new features](/src/DevNewsBriefs/2012_10_05/index.md#tool_shed)!

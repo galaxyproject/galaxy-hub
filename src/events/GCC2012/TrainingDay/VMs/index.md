@@ -1,19 +1,19 @@
 ---
 autotoc: true
 ---
-<div class='right'><a href='/src/Events/GCC2012/TrainingDay/VMs//index.md'><img src="/src/Events/GCC2012/GCC2012TrainingDayLogo.png" alt="Training Day" /></a></div>
+<div class='right'><a href='/src/events/GCC2012/TrainingDay/VMs//index.md'><img src="/src/events/GCC2012/GCC2012TrainingDayLogo.png" alt="Training Day" /></a></div>
 
-If you are planning on attending any of these [GCC2012](/src/Events/GCC2012/index.md) [Training Day](/src/Events/GCC2012/TrainingDay/index.md) workshops, then you will need shell admin access to a system with Galaxy and/or a Galaxy Tool Shed already installed and running.
+If you are planning on attending any of these [GCC2012](/src/events/GCC2012/index.md) [Training Day](/src/events/GCC2012/TrainingDay/index.md) workshops, then you will need shell admin access to a system with Galaxy and/or a Galaxy Tool Shed already installed and running.
 
-* [WS1: Integrating Tools & Data Sources](/src/Events/GCC2012/TrainingDay/VMs//index.md#ws1)
-* [WS6: Galaxy API](/src/Events/GCC2012/TrainingDay/VMs//index.md#ws6)
-* [WS7: Galaxy Tool Shed](/src/Events/GCC2012/TrainingDay/VMs//index.md#ws7)
+* [WS1: Integrating Tools & Data Sources](/src/events/GCC2012/TrainingDay/VMs//index.md#ws1)
+* [WS6: Galaxy API](/src/events/GCC2012/TrainingDay/VMs//index.md#ws6)
+* [WS7: Galaxy Tool Shed](/src/events/GCC2012/TrainingDay/VMs//index.md#ws7)
 
 <div class='right'></div>
 
 If you are attending this workshop
 
-* [WS5: Installing Your Own Galaxy](/src/Events/GCC2012/TrainingDay/VMs//index.md#ws5)
+* [WS5: Installing Your Own Galaxy](/src/events/GCC2012/TrainingDay/VMs//index.md#ws5)
 
 you will need shell admin access to a system that has Galaxy's prerequisites installed, but not Galaxy itself.
 
@@ -28,11 +28,11 @@ Using a virtual machine ensures that you will be running with the same configura
 
 # What Do I Need to Do?
 
-You will need to do two things before [Training Day](/src/Events/GCC2012/TrainingDay/VMs//index.md) starts.  These steps take some time, and require downloading large files, so please do not postpone this until you arrive.  Downloading files of this size at the [UIC Forum](/src/Events/GCC2012/Logistics/index.md) would be painfully slow, and would adversely affect your fellow students.
+You will need to do two things before [Training Day](/src/events/GCC2012/TrainingDay/VMs//index.md) starts.  These steps take some time, and require downloading large files, so please do not postpone this until you arrive.  Downloading files of this size at the [UIC Forum](/src/events/GCC2012/Logistics/index.md) would be painfully slow, and would adversely affect your fellow students.
 
 So, **please do these steps before you arrive**.
 
-<div class='right'><a href='https://www.virtualbox.org/wiki/Downloads'><img src="/src/Images/Logos/VirtualBox180.png" alt="Virtual Machine Images" width="120" /></a></div>
+<div class='right'><a href='https://www.virtualbox.org/wiki/Downloads'><img src="/src/images/Logos/VirtualBox180.png" alt="Virtual Machine Images" width="120" /></a></div>
 
 ## 1. Install VirtualBox on your laptop
 
@@ -49,7 +49,7 @@ These VMs will be available for download in the days just before the conference.
 
 This VM is for:
 
-* [WS5: Installing Your Own Galaxy](/src/Events/GCC2012/TrainingDay/VMs//index.md#ws5)
+* [WS5: Installing Your Own Galaxy](/src/events/GCC2012/TrainingDay/VMs//index.md#ws5)
 
 This image will have all prerequisites for Galaxy, but not a running Galaxy instance.
 
@@ -59,9 +59,9 @@ This image will have all prerequisites for Galaxy, but not a running Galaxy inst
 
 This VM image is for these workshops
 
-* [WS1: Integrating Tools & Data Sources](/src/Events/GCC2012/TrainingDay/VMs//index.md#ws1)
-* [WS6: Galaxy API](/src/Events/GCC2012/TrainingDay/VMs//index.md#ws6)
-* [WS7: Galaxy Tool Shed](/src/Events/GCC2012/TrainingDay/VMs//index.md#ws7)
+* [WS1: Integrating Tools & Data Sources](/src/events/GCC2012/TrainingDay/VMs//index.md#ws1)
+* [WS6: Galaxy API](/src/events/GCC2012/TrainingDay/VMs//index.md#ws6)
+* [WS7: Galaxy Tool Shed](/src/events/GCC2012/TrainingDay/VMs//index.md#ws7)
 
 This image will have a configured and running Galaxy instance.
 
@@ -79,25 +79,25 @@ This image will have a configured and running Galaxy instance.
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/ApplianceImport.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/ApplianceImport.png" alt="Appliance Import Settings Window; click to enlarge" width="200" /></a><br />1.3. Appliance Import </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/events/GCC2012/TrainingDay/VMs/ApplianceImport.png'><img src="/src/events/GCC2012/TrainingDay/VMs/ApplianceImport.png" alt="Appliance Import Settings Window; click to enlarge" width="200" /></a><br />1.3. Appliance Import </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/ImportedVM.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/ImportedVM.png" alt="VM successfully imported; click to enlarge" width="200" /></a><br />1.4. VM Imported </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/events/GCC2012/TrainingDay/VMs/ImportedVM.png'><img src="/src/events/GCC2012/TrainingDay/VMs/ImportedVM.png" alt="VM successfully imported; click to enlarge" width="200" /></a><br />1.4. VM Imported </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/VMSettings.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/VMSettings.png" alt="VM settings; click to enlarge" width="200" /></a><br />1.5.1 VM settings </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/events/GCC2012/TrainingDay/VMs/VMSettings.png'><img src="/src/events/GCC2012/TrainingDay/VMs/VMSettings.png" alt="VM settings; click to enlarge" width="200" /></a><br />1.5.1 VM settings </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/PortForwarding.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/PortForwarding.png" alt="Port forwarding rules; click to enlarge" width="200" /></a><br />1.5.3 Port forwarding rules </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/events/GCC2012/TrainingDay/VMs/PortForwarding.png'><img src="/src/events/GCC2012/TrainingDay/VMs/PortForwarding.png" alt="Port forwarding rules; click to enlarge" width="200" /></a><br />1.5.3 Port forwarding rules </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/MouseInfo.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/MouseInfo.png" alt="Mouse Pointer info window; click to enlarge" width="200" /></a><br />2.1. An info screens </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/events/GCC2012/TrainingDay/VMs/MouseInfo.png'><img src="/src/events/GCC2012/TrainingDay/VMs/MouseInfo.png" alt="Mouse Pointer info window; click to enlarge" width="200" /></a><br />2.1. An info screens </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/UserList.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/UserList.png" alt="List of defined users; click to enlarge" width="200" /></a><br />2.2. Defined users </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/events/GCC2012/TrainingDay/VMs/UserList.png'><img src="/src/events/GCC2012/TrainingDay/VMs/UserList.png" alt="List of defined users; click to enlarge" width="200" /></a><br />2.2. Defined users </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/Events/GCC2012/TrainingDay/VMs/XFCEDesktop.png'><img src="/src/Events/GCC2012/TrainingDay/VMs/XFCEDesktop.png" alt="The XFCE Desktop; click to enlarge" width="200" /></a><br />2.3. The XFCE Desktop </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/events/GCC2012/TrainingDay/VMs/XFCEDesktop.png'><img src="/src/events/GCC2012/TrainingDay/VMs/XFCEDesktop.png" alt="The XFCE Desktop; click to enlarge" width="200" /></a><br />2.3. The XFCE Desktop </td>
   </tr>
 </table>
 
@@ -242,7 +242,7 @@ Which distribution was used; how much virtual disk and memory does it have; what
 
 ### Both VMs
 
-Any custom configuration is [described below](/src/Events/GCC2012/TrainingDay/VMs/index.md#additional-configuration-details).
+Any custom configuration is [described below](/src/events/GCC2012/TrainingDay/VMs/index.md#additional-configuration-details).
 
 
 | Tool/Package |  Comments  | 

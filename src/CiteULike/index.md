@@ -1,7 +1,7 @@
 ---
 autotoc: true
 ---
-<div class='center'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/src/Images/Logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" /></a>
+<div class='center'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/src/images/Logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" /></a>
 </div>
 
 <div class='right'></div>
@@ -107,7 +107,7 @@ We particularly need help with papers that were published before 2011.
 
 ## But not Mendeley, anymore
 
-<div class='right'><a href='http://www.mendeley.com/'><img src="/src/Images/Logos/MendeleyLogo.png" alt="Mendeley Social Bookmarking Service" width="200" /></a></div>
+<div class='right'><a href='http://www.mendeley.com/'><img src="/src/images/Logos/MendeleyLogo.png" alt="Mendeley Social Bookmarking Service" width="200" /></a></div>
 
 The [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/order/group_rating) was originally mirrored to a Galaxy Mendeley Group on a weekly basis, complete with the [CiteULike tag set](/src/CiteULike/index.md#citeulike-tags).  However, in February 2013, Mendeley stopped supporting their CiteULike to Mendeley bridge, thus greatly increasing the amount of work this mirror took to maintain.  Further complicating things, later that spring Mendeley was purchased by a traditionally closed access publisher.
 

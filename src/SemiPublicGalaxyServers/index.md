@@ -119,7 +119,7 @@ Servers are classified here by whom they are accessible to.  This can be based o
 
 ## United States: Jetstream
 
-<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/Images/Logos/JetstreamRectClipped.jpg" alt="Jetstream" width="280" /></a></div>
+<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/images/Logos/JetstreamRectClipped.jpg" alt="Jetstream" width="280" /></a></div>
 
 * *Links:*
   * **[Galaxy on Jetstream](/src/Cloud/Jetstream/index.md)**

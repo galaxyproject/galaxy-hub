@@ -1,5 +1,5 @@
-<div class='newsItemHeader'>[January 13, 2015 Galaxy Distribution](/src/News/2015_01_13_Galaxy_Distribution/index.md)</div>
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/Images/Logos/GetGalaxyOrg.png" alt="width=175" /></a></div>
+<div class='newsItemHeader'>[January 13, 2015 Galaxy Distribution](/src/news/2015_01_13_Galaxy_Distribution/index.md)</div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GetGalaxyOrg.png" alt="width=175" /></a></div>
 **[Complete News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2015_01_13)**
 <br />
 # Highlights
@@ -48,6 +48,6 @@ In Galaxy's development branch, the basic tool from has been [redesigned and mod
 *Thanks for using Galaxy!* <br />
 [The Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2015-01-13</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-01-13</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

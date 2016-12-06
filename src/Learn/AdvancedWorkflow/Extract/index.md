@@ -20,7 +20,7 @@ Once a productive analysis pathway is in a history, you may find that you want t
 **In short**: run analysis without the *yawn* or *oops* factors
 
 <br />
-<div class='left'><img src="/src/Images/Learn/workflow_menu_extract.png" alt="workflow history menu extract" width="300" /></div>
+<div class='left'><img src="/src/images/Learn/workflow_menu_extract.png" alt="workflow history menu extract" width="300" /></div>
 ## Where is the option?
 
 <br />
@@ -49,12 +49,12 @@ The option is under the **History menu** as **Extract Workflow**.
 <br />
 Log into your account (required to use workflows). Start with the target history loaded into the history panel. For learning purposes, you may choose to run this example with the exact data used here. The source content is in Shared Data -> Published Pages -> **[Extract Workflow](https://usegalaxy.org/u/galaxyproject/p/extract-workflow)**. Import the history to both extract a workflow and for source input data to run it. The additional Page content is included for reference/self-learning purposes.
 <br />
-<img src="/src/Images/Learn/workflow_history.png" alt="workflow target history" width="200" /> <br /> *target history*
+<img src="/src/images/Learn/workflow_history.png" alt="workflow target history" width="200" /> <br /> *target history*
 
 <br />
 Open the **History menu** and scroll down to the option **Extract Workflow**
 <br />
-<img src="/src/Images/Learn/workflow_choose_extract.png" alt="choose extract" width="200" /> <br /> *choose extract*
+<img src="/src/images/Learn/workflow_choose_extract.png" alt="choose extract" width="200" /> <br /> *choose extract*
 
 <br />
 Allow Galaxy to process the request without interrupting or navigating away from this view. The larger the history, or the busier the server is, the longer this will take. In most cases, this is less than a minute, but be patient. 
@@ -64,7 +64,7 @@ Allow Galaxy to process the request without interrupting or navigating away from
 <br />
 **In the center panel, the extracted workflow will display**. If you are in a hurry, clicking on the **Create Workflow** button immediately is an option. But be aware that this may result in extra content from your history being included in the workflow that you do not need or want. So, while we are here, we'll take a quick tour of the features on this view:
 <br />
-<img src="/src/Images/Learn/workflow_extract_annotated.png" alt="extract annotated" width="800" /> <br /> ***extract workflow annotated***
+<img src="/src/images/Learn/workflow_extract_annotated.png" alt="extract annotated" width="800" /> <br /> ***extract workflow annotated***
 <br />
 
 <br />
@@ -89,23 +89,23 @@ Allow Galaxy to process the request without interrupting or navigating away from
 <br />
 After customizing is done (if any), click on **Create Workflow** to save the extracted analysis as a workflow. For this operation, it is also important to allow Galaxy to process the request and to not navigate away from the view. You'll know that the workflow is created when the bright blue *completed* box appears. 
 <br />
-<img src="/src/Images/Learn/workflow_blue_created.png" alt="blue created" width="700" /> <br /> *confirmation that a workflow is created*
+<img src="/src/images/Learn/workflow_blue_created.png" alt="blue created" width="700" /> <br /> *confirmation that a workflow is created*
 <br />
 <br />
 From this point you can click to directly *run* or *edit* your workflow. If you want to locate it at a later time, it is in your *Saved Workflows*! Go there by clicking on the very top navigation menu bar option **Workflows**.
 <br />
-<img src="/src/Images/Learn/workflow_topbar_workflow.png" alt="topbar workflow" width="300" /> <br /> *top menu bar "Workflow" option*
+<img src="/src/images/Learn/workflow_topbar_workflow.png" alt="topbar workflow" width="300" /> <br /> *top menu bar "Workflow" option*
 <br />
 
 <br />
 After clicking on the top menu bar option **Workflow**, an account's **Saved Workflow** view is reached, and it will look similar to this:
 <br />
-<img src="/src/Images/Learn/workflow_saved_by_you.png" alt="workflow saved by you" width="800" /> <br /> *workflows saved by you*
+<img src="/src/images/Learn/workflow_saved_by_you.png" alt="workflow saved by you" width="800" /> <br /> *workflows saved by you*
 <br />
 <br />
 It also lists **Workflows Shared with You** (if any). Under **Other Options** is the button for the special function that allows you to list your workflow directly into your tool panel (bottom of left panel). 
 <br />
-<img src="/src/Images/Learn/workflow_shared_with_you.png" alt="workflow shared with you" width="800" /> <br /> *workflows shared with you*
+<img src="/src/images/Learn/workflow_shared_with_you.png" alt="workflow shared with you" width="800" /> <br /> *workflows shared with you*
 <br />
 
 <br />
@@ -113,10 +113,10 @@ It also lists **Workflows Shared with You** (if any). Under **Other Options** is
 1. Click on **Analyze Data** to return to the default Galaxy view with the source history active in the history panel (it should be if, you are following the above steps).
 1. Or, use the **History Menu -> Saved Histories** to bring up all of your saved histories to select the one with datasets you wish to run your own workflow on. Or, click on **History Menu -> Create New** and upload new datasets (and prep as needed, if data prep was not included in your workflow).
 1. Click on your workflow in the tool panel if you saved it there (at bottom of left panel), or search all belonging to you, without leaving this view, by clicking on "Workflows -> All workflows" the bottom of the left tool panel.
-1. For the workflow you just created, click on the workflow's button to bring up the workflow menu and choose run, it will look like this: <br /> <img src="/src/Images/Learn/workflow_menu_run.png" alt="workflow shared with you" width="150" />
-1. Now your workflow will appear in the middle analysis panel, with the active history in the right panel. **Select the inputs** from the available datasets in the history. Datasets that meet the "datatype" metadata criteria will be filled in by default, but these can be adjusted using each input pull-down menu as shown: <br /> <img src="/src/Images/Learn/workflow_select_inputs.png" alt="workflow select inputs" width="750" />
-1. Use default options for all other settings. Scroll down to the end of the middle panel and click on the **Run workflow** button. Once again, allow the request to process. <br /> <img src="/src/Images/Learn/workflow_run.png" alt="workflow run" width="650" />
-1. Once confirmation that the workflow is launched, noted by the green box in the middle pane and the workflow datasets added to the history as queued, you can proceed to other analysis while the jobs run. <br /> <img src="/src/Images/Learn/workflow_launched.png" alt="workflow launched" width="850" />
+1. For the workflow you just created, click on the workflow's button to bring up the workflow menu and choose run, it will look like this: <br /> <img src="/src/images/Learn/workflow_menu_run.png" alt="workflow shared with you" width="150" />
+1. Now your workflow will appear in the middle analysis panel, with the active history in the right panel. **Select the inputs** from the available datasets in the history. Datasets that meet the "datatype" metadata criteria will be filled in by default, but these can be adjusted using each input pull-down menu as shown: <br /> <img src="/src/images/Learn/workflow_select_inputs.png" alt="workflow select inputs" width="750" />
+1. Use default options for all other settings. Scroll down to the end of the middle panel and click on the **Run workflow** button. Once again, allow the request to process. <br /> <img src="/src/images/Learn/workflow_run.png" alt="workflow run" width="650" />
+1. Once confirmation that the workflow is launched, noted by the green box in the middle pane and the workflow datasets added to the history as queued, you can proceed to other analysis while the jobs run. <br /> <img src="/src/images/Learn/workflow_launched.png" alt="workflow launched" width="850" />
 1. The end!
 
 <br />
@@ -130,7 +130,7 @@ There is a third possibility, but this only applies when the workflow has been e
 <br />
 ## How do I know the workflow is really running?
 
-The datasets for the workflow will be in the history panel. These jobs run just like every other job. Some may run right away, others may queue. More about how datasets execute is in this wiki: **[Dataset status and how jobs execute](/src/Support/index.md#dataset_status_and_how_jobs_execute)**
+The datasets for the workflow will be in the history panel. These jobs run just like every other job. Some may run right away, others may queue. More about how datasets execute is in this wiki: **[Dataset status and how jobs execute](/src/support/index.md#dataset_status_and_how_jobs_execute)**
 
 <br />
 ## I want to customize my workflow further
@@ -144,10 +144,10 @@ Good idea! Read more about workflow operations not covered in this wiki, in othe
 Are you seeing one of these messages below? This indicates that you are not logged into your account. Workflows can only be used by registered users. Log in under **User -> Login** or create an account under **User -> Register**.
 <br />
 <br />
-<img src="/src/Images/Learn/workflow_anon_create_message.png" alt="workflow anon create message" width="600" /> <br />*"Create Workflow" message when not logged in* 
+<img src="/src/images/Learn/workflow_anon_create_message.png" alt="workflow anon create message" width="600" /> <br />*"Create Workflow" message when not logged in* 
 <br />
 <br />
-<img src="/src/Images/Learn/workflow_anon_saved_warning.png" alt="workflow anon saved warning" width="300" /> <br />*"Saved Workflow" message when not logged in* 
+<img src="/src/images/Learn/workflow_anon_saved_warning.png" alt="workflow anon saved warning" width="300" /> <br />*"Saved Workflow" message when not logged in* 
 
 <br />
 <br />

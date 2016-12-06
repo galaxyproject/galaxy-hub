@@ -1,10 +1,10 @@
-<div class='newsItemHeader'>[GCC2018 Call for Host Proposals](/src/News/GCC2018CallForHost/index.md)</div>
+<div class='newsItemHeader'>[GCC2018 Call for Host Proposals](/src/news/GCC2018CallForHost/index.md)</div>
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='http://galaxyproject.org/GCC2016'><img src="/src/Images/Logos/GCC2016LogoBig.png" alt="2016 Galaxy Community Conference (GCC2016)" width="220px" /></a>&nbsp;&nbsp; <br /><br /><a href='/src/Events/GCC2012/index.md'><img src="/src/Events/GCC2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" width="190" /></a>&nbsp;&nbsp;&nbsp; </td>
-    <td style=" text-align: center; border: none;"> <a href='https://gcc2017.sciencesconf.org/'><img src="/src/Images/Logos/GCC2107.png" alt="2017 Galaxy Community Conference (GCC2017)" width="220" /></a>&nbsp;&nbsp; <br /><br /> <a href='/src/Events/GCC2014/index.md'><img src="/src/Images/Logos/GCC2014LogoWide200.png" alt="GCC2014, June 30-July2" width="220" /></a>&nbsp;&nbsp;&nbsp;<br /><br /> <a href='/src/Events/GCC2013/index.md'><img src="/src/Images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="220px" /></a>&nbsp;&nbsp;&nbsp;  </td>
-    <td style=" text-align: center; border: none;"> <a href='http://gcc2015.tsl.ac.uk/'><img src="/src/Images/Logos/GCC2015LogoWide600.png" alt="2015 Galaxy Community Conference (GCC2015)" width="200" /></a><br /><br /> <a href='/src/GCC2011/index.md'><img src="/src/Events/GCC2011Logo400.png" alt="" width="200" /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://galaxyproject.org/GCC2016'><img src="/src/images/Logos/GCC2016LogoBig.png" alt="2016 Galaxy Community Conference (GCC2016)" width="220px" /></a>&nbsp;&nbsp; <br /><br /><a href='/src/events/GCC2012/index.md'><img src="/src/events/GCC2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" width="190" /></a>&nbsp;&nbsp;&nbsp; </td>
+    <td style=" text-align: center; border: none;"> <a href='https://gcc2017.sciencesconf.org/'><img src="/src/images/Logos/GCC2107.png" alt="2017 Galaxy Community Conference (GCC2017)" width="220" /></a>&nbsp;&nbsp; <br /><br /> <a href='/src/events/GCC2014/index.md'><img src="/src/images/Logos/GCC2014LogoWide200.png" alt="GCC2014, June 30-July2" width="220" /></a>&nbsp;&nbsp;&nbsp;<br /><br /> <a href='/src/events/GCC2013/index.md'><img src="/src/images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="220px" /></a>&nbsp;&nbsp;&nbsp;  </td>
+    <td style=" text-align: center; border: none;"> <a href='http://gcc2015.tsl.ac.uk/'><img src="/src/images/Logos/GCC2015LogoWide600.png" alt="2015 Galaxy Community Conference (GCC2015)" width="200" /></a><br /><br /> <a href='/src/GCC2011/index.md'><img src="/src/events/GCC2011Logo400.png" alt="" width="200" /></a> </td>
   </tr>
   <tr>
     <td colspan=3 style=" text-align: center; border: none;"> <div class='solid red'> <span style="font-size: larger;"> <strong>GCC2018 needs a host!</strong><br /></span> <span style="font-size: smaller;">(and a logo) </span> </td>
@@ -45,6 +45,6 @@ Hoping to work with you in 2018!
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2016-09-27</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-09-27</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

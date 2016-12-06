@@ -2,8 +2,8 @@
 title: Docker Integration
 ---
 
-<div class='right'><a href='http://getgalaxy.org/'><img src="/src/Images/Logos/DockerInGalaxyAnnotated.png" alt=" " width=300 /></a></div>
-As of the [August 2014 release](/src/News/2014_08_11_Galaxy_Distribution/index.md), Galaxy supports running tools within [Docker](https://www.docker.com) containers. Tool authors may annotate Docker container ids the tool works with in the Tool XML file and likewise deployers may specify Docker container ids in Galaxy's `job_conf.xml` file on a per destination basis.
+<div class='right'><a href='http://getgalaxy.org/'><img src="/src/images/Logos/DockerInGalaxyAnnotated.png" alt=" " width=300 /></a></div>
+As of the [August 2014 release](/src/news/2014_08_11_Galaxy_Distribution/index.md), Galaxy supports running tools within [Docker](https://www.docker.com) containers. Tool authors may annotate Docker container ids the tool works with in the Tool XML file and likewise deployers may specify Docker container ids in Galaxy's `job_conf.xml` file on a per destination basis.
 <br /><br />
 Any of Galaxy's built-in job runners may be used to in conjunction with Docker - but the deployer must annotate job destinations with how to run Docker (at very least `<param id="docker_enabled">true</param>` must be added to the destination to enable docker).
 <br /><br />

@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[Duplicate Accounts on Main](/src/News/DuplicateAccountsOnMain/index.md)</div>
+<div class='newsItemHeader'>[Duplicate Accounts on Main](/src/news/DuplicateAccountsOnMain/index.md)</div>
 
-<div class='right'><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src="/src/Images/Logos/UseGalaxyOrgLogoShadow200.png" alt="Main's Terms of Use"  /></a><br /><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src="/src/Images/Logos/UseGalaxyOrgLogoShadow200.png" alt="Main's Terms of Use"  /></a></div>
+<div class='right'><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src="/src/images/Logos/UseGalaxyOrgLogoShadow200.png" alt="Main's Terms of Use"  /></a><br /><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src="/src/images/Logos/UseGalaxyOrgLogoShadow200.png" alt="Main's Terms of Use"  /></a></div>
 
 The [terms of use](https://main.g2.bx.psu.edu/static/terms.html) for the Galaxy Project's free Galaxy server, [http://usegalaxy.org](http://usegalaxy.org) (a.k.a. [Main](/src/Main/index.md)) specify 
 
@@ -17,6 +17,6 @@ Thanks,
 
 [The Galaxy Team](/src/GalaxyTeam/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/News/index.md) on 2013-05-15</div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-05-15</div>
 
 [CategoryNews](/src/CategoryNews/index.md)

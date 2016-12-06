@@ -29,7 +29,7 @@ Learn from experienced trainers and share what you have learned on the **[Galaxy
 
 ## Events
 
-Want to know what training events are scheduled in the coming months?  Or publish your event on the list?  See the **[Galaxy Events page](/src/Events/index.md)** which lists all known upcoming Galaxy events, including many training events.
+Want to know what training events are scheduled in the coming months?  Or publish your event on the list?  See the **[Galaxy Events page](/src/events/index.md)** which lists all known upcoming Galaxy events, including many training events.
 
 ## Courses that Use Galaxy
 

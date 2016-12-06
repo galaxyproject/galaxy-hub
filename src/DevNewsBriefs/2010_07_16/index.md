@@ -15,11 +15,11 @@ hg pull -u -r 11fb3bb5b250
 
 Add 'recently used tools' section to tools menu (highlighted in the June 21, 2010 brief).  Recently used tools is a list of the five most recent tools that a user has run.  A user must be logged in to use this feature, which is available in the Options pop-up menu in the tool panel.  The option is "Show Recently Used".
 
-![](/src/News Briefs/2010_07_16/2010_07_16_show_recently_used.png)
+![](/src/news Briefs/2010_07_16/2010_07_16_show_recently_used.png)
 
 When selected, a new "Recently Used" tool section is displayed at the top of the tool panel.
 
-![](/src/News Briefs/2010_07_16/2010_07_16_recently_used.png)
+![](/src/news Briefs/2010_07_16/2010_07_16_recently_used.png)
 
 ### Initial implementation of the Galaxy Web API
 
