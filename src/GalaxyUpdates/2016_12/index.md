@@ -23,7 +23,7 @@ Content was automatically converted from MoinMoin and Creole markup to Markdown,
 
 ## The Community Hub Contribution Convergence (CHCC): Thursday December 8
 
-To address these issues we are holding the [Community Hub Contribution Convergence (CHCC)](whereShouldThisPointTo) online this week on Thursday December 8.  The goals of CHCC are to
+To address these issues we are holding the [Community Hub Contribution Convergence (CHCC)](https://github.com/galaxyproject/galaxy-site/issues/35) online this week on Thursday December 8.  The goals of CHCC are to
 
 * Get participants up to speed on how to update the new site.
 * Create / improve documentation on how to update the new site.
@@ -32,7 +32,7 @@ To address these issues we are holding the [Community Hub Contribution Convergen
 * Drop obsolete material
 * Work out plans and best practices for supporting semi-structured content and page metadata.
 
-CHCC will use [GitHub](WhereShouldThisPoinTo) to coordinate work, and a Gitter channel for communication during the event.  Interested?  Please join us. 
+CHCC will use [GitHub](https://github.com/galaxyproject/galaxy-site/issues/35) to coordinate work, and a Gitter channel for communication during the event.  Interested?  Please join us. 
 
 
 # Events
@@ -100,7 +100,7 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   </tr>
    <tr>
      <th class="th" > December 8 </th>
-     <td> <em>The Community Hub Contribution Convergence (CHCC)</em> </td>
+     <td> <em><a href="https://github.com/galaxyproject/galaxy-site/issues/35">The Community Hub Contribution Convergence (CHCC)</a></em> </td>
      <td> <img src="/src/images/Icons/World40.png" alt="Around the world" align="right" /> <em>Online</em> </td>
      <td> <a href="/src/DannonBaker">Dannon Baker</a>, <a href="/src/DaveClements">Dave Clements</a> </td>
      </tr>
