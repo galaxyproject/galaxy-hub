@@ -22,7 +22,11 @@ head( lang="en" )
     link( rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=EB+Garamond" )
 
     script( src="http://localhost:35729/livereload.js" )
-    script( src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.7.0/fullcalendar.min.js")
+    script( type='text/javascript' ).
+        window.gitter = {}
+        window.gitter.chat = {}
+        window.gitter.chat.options = { room: 'galaxyproject/Lobby' }
+    script( src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer )
 
 body
 
