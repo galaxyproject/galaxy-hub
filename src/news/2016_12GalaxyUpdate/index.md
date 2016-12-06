@@ -19,7 +19,7 @@ The **[December Galaxy News](/src/GalaxyUpdates/2016_12/index.md)** is hot off t
   * *Early registration ends 31 December.* 
 * And of course, [other upcoming events](/src/GalaxyUpdates/2016_12/index.md#all-upcoming-events) too
 
-There are also [60 new publications](/src/GalaxyUpdates/2016_12/index.md#new-publications) (including six featured pubs), [four open positions](/src/GalaxyUpdates/2016_12/index.md#whos-hiring), [two new public Galaxy servers](/src/GalaxyUpdates/2016_12/index.md#public-galaxy-server-news), [new releases of Planemo & Pulsar](/src/GalaxyUpdates/2016_12/index.md#releases), and [other news](/src/GalaxyUpdates/2016_12/index.md#other-news) too.
+There are also [60 new publications](/src/GalaxyUpdates/2016_12/index.md#new-publications) (including eight featured pubs), [four open positions](/src/GalaxyUpdates/2016_12/index.md#whos-hiring), [two new public Galaxy servers](/src/GalaxyUpdates/2016_12/index.md#public-galaxy-server-news), [new releases of Planemo & Pulsar](/src/GalaxyUpdates/2016_12/index.md#releases), and [other news](/src/GalaxyUpdates/2016_12/index.md#other-news) too.
 
 [Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
 
