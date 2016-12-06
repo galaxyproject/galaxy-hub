@@ -12,7 +12,7 @@
 
 The **[December Galaxy News](/src/GalaxyUpdates/2016_12/index.md)** is hot off the press, *and is was produced on a a hot new press:*
 
-* The **[Galaxy Community Hub (the Hub)](/src/GalaxyUpdates/2016_12/index.md#galaxy-community-hub-the-hub)** will be the new home Galaxy Community documentation, replacing the current wiki.
+* The **[Galaxy Community Hub (the Hub)](/src/GalaxyUpdates/2016_12/index.md#galaxy-community-hub-the-hub)** will be the new home for Galaxy Community documentation, replacing the current wiki.
    * And we [are asking for help to get it ready for it's official launch](/src/GalaxyUpdates/2016_12/index.md#the-community-hub-contribution-convergence-chcc-thursday-december-8)
 * **[Galaxy Australasia Meeting (GAMe 2017)](/src/GalaxyUpdates/2016_12/index.md#galaxy-australasia-meeting-game-2017)**: February 3-9, Melbourne, Victoria, Australia. 
   * *Talk abstract submission extended to 14 December.*
