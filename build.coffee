@@ -43,7 +43,6 @@ subs = (files, metalsmith, done) ->
                     r = "PLACEHOLDER_INCLUDE("+z.search+")"
                     if contents.indexOf(r) != -1
                         contents = contents.replace(r, z.replace)
-                matches = {}
                 while match = md_link_pattern.exec(contents)
                     rep = match[1]
                     #TODO: Do this with a regex too

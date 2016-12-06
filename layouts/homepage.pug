@@ -5,47 +5,21 @@ block section
         div.row
             div.col-sm-12 !{ contents }
         div.row
-            div.col-sm-4
+            div.col-sm-6
                 h2 News
-
                 each item in news.slice(0,5)
                     p
                         a( href=item.link ) #{item.title}
                         if item.tease
                             |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
-
                 p: a( href="/news/" ) More...
 
-            div.col-sm-4
+            div.col-sm-6
                 h2 Events
-
                 each item in events.slice(0,5)
                     p
                         a( href=item.link ) #{item.title}
                         if item.tease
                             |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
-
                 p: a( href="/events/" ) More...
-
-            div.col-sm-4
-                h2 Publications
-                each item in publications.slice(0,5)
-                    p
-                        if item.doi
-                            div( data-badge-type="donut" data-doi=item.doi data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed pull-right" )
-                        if item.authors
-                            | !{item.authors.replace("Taylor J", "<b>Taylor J</b>")}. 
-                        a( href=item.link ) #{item.title}. 
-                        if item.journal
-                            i #{item.journal}. 
-                            if item.date
-                                | #{helpers.moment(item.date).format("MMMM YYYY")}; 
-                            if item.volume
-                                strong #{item.volume}
-                            if item.number
-                                | #{"("+item.number+")"}
-                            if item.pages
-                                | :#{item.pages}
-
-                p: a( href="/publications/" ) More...
 
