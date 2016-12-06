@@ -1,5 +1,5 @@
 ---
-title: Galaxy @ PAG 2017
+title: Galaxy at PAG 2017
 date: '12-06-2016'
 tease: January 14-18
 ---
