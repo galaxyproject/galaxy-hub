@@ -103,8 +103,14 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
      <td> <em><a href="https://github.com/galaxyproject/galaxy-site/issues/35">The Community Hub Contribution Convergence (CHCC)</a></em> </td>
      <td> <img src="/src/images/Icons/World40.png" alt="Around the world" align="right" /> <em>Online</em> </td>
      <td> <a href="/src/DannonBaker">Dannon Baker</a>, <a href="/src/DaveClements">Dave Clements</a> </td>
-     </tr>
-        <tr>
+   </tr>
+   <tr>
+     <th class="th" > December 15 </th>
+     <td> <em><a href="/src/Community/GalaxyAdmins/Meetups/2016_12_15/index.md">Galaxy Training Materials: Community creation, curation, and use</a></em> and <em><a href="/src/Community/GalaxyAdmins/Meetups/2016_12_15/index.md">The new Galaxy Hub: Community creation, curation, and use</a></em> </td>
+     <td> <img src="/src/images/Icons/World40.png" alt="Online" align="right" /> <a href="/src/Community/GalaxyAdmins/Meetups/2016_12_15/index.md">Online</a> </td>
+     <td> <a href='/src/BjoernGruening/index.md'>Björn Grüning</a>, Bérénice Batut, <a href="/src/DannonBaker/index.md">Dannon Baker</a> and <a href="/src/DaveClements/index.md">Dave Clements</a> </td>
+   </tr>
+   <tr>
      <th class="th" > December&nbsp;15-16 </th>
      <td> <em><a href="http://www.denbi.de/22-training-cat/training-courses/215-galaxy-rna-sequencing-data-analysis-workshop">Galaxy RNA-sequencing data analysis workshop</a></em> </td>
      <td> <img src="/src/images/Icons/Europe40.png" alt="Europe" align="right" /> Freiburg, Germany </td>
