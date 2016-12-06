@@ -1,7 +1,6 @@
 ---
-title: 'Galaxy @ December 2016 Galactic News'
+title: 'December 2016 Galactic News'
 date: '12-06-2016'
-tease: 'December 2016 Galactic News'
 ---
 <div class='newsItemHeader'><a href="/src/news/2016_12GalaxyUpdate/index.md">December 2016 Galactic News</a></div>
 
