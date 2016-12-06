@@ -1,6 +1,7 @@
 ---
 title: Galaxy @ [PAG 2017](http://www.intlpag.org/)
 date: '12-06-2016'
+tease: 'Galaxy @ PAG2017'
 ---
 <a href='http://www.intlpag.org/'><img src="/src/images/Logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="100" align="center" /></a>
 
