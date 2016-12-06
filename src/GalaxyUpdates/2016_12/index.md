@@ -5,9 +5,9 @@ title: December 2016 Galaxy News
 
 <div class='right'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the December 2016 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community. 
+Welcome to the December 2016 *[Galactic News](/src/GalaxyUpdates/index.md)*, a summary of what is going on in the Galaxy community.
 
-If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 # Community Commons (the *Commons*)
 
@@ -17,7 +17,7 @@ You may have noticed that **the Galaxy community site / wiki is moving.**  We ar
 
 The *Commons* uses GitHub Flavored Markdown for markup,  and [Metalsmith](http://metalsmith.io) for web site rendering and for semi-structured content (such as the [Events](src/events) page). The new platform offers the strength of our old wiki (easy contribution) with a markup language many more people know, easy programmatic access, and all the strengths of GitHub.
 
-Once the Commons is in better shape it will become the [galaxyproject.org](https://galaxyproject.org) site.  Until then you can find it at [new.galaxyproject.org](https://new.galaxyproject.org).  Once the move is complete and the [old wiki](https://wiki.galaxyproject.org) will be shut down.
+Once the Commons is in better shape it will become the [galaxyproject.org](https://galaxyproject.org) site.  Until then you can find it at [new.galaxyproject.org](https://new.galaxyproject.org).  Once the move is complete the [old wiki](https://wiki.galaxyproject.org) will be shut down.
 
 Content was automatically converted from MoinMoin and Creole markup to Markdown, and many other things were also cleaned up in the process. However, the automatic translation stumbled in some places and the cleanup and general restructuring are far from done.  We also aren't yet taking advantage of Metalsmith to render semi-structured content and page metadata.
 
@@ -25,14 +25,14 @@ Content was automatically converted from MoinMoin and Creole markup to Markdown,
 
 To address these issues we are holding the [Community Commons Contribution Convergence (C⁴)](whereShouldThisPointTo) online this week on Thursday December 8.  The goals of C⁴ are to
 
-* Get participants up to speed on how to update the new site.
-* Create / improve documentation on how to update the new site.
-* Fix translation errors and things that were accidentally dropped
-* Generally reorganize and update documentation.
-* Drop obsolete material
+* Get participants up to speed on how to update the new site;
+* Create / improve documentation on how to update the new site;
+* Fix translation errors and things that were accidentally dropped;
+* Generally reorganize and update documentation;
+* Drop obsolete material;
 * Work out plans and best practices for supporting semi-structured content and page metadata.
 
-C⁴ will use [GitHub](WhereShouldThisPoinTo) to coordinate work, and a Gitter channel for communication during the event.  Interested?  Please join us. 
+C⁴ will use [GitHub](WhereShouldThisPoinTo) to coordinate work, and a Gitter channel for communication during the event.  Interested?  Please join us.
 
 
 # Events
@@ -48,7 +48,7 @@ In addition to C<sup>4</sup> there are a wealth of events coming up.  Here are s
 This meeting features three distinct events:
 
 * **[Researcher Training Day](https://www.embl-abr.org.au/game2017/training-day/)** on 3 February, aimed at biomedical researchers who need to analyse their biological data
-* The **[GAMe 2017 Conference](https://www.embl-abr.org.au/game2017/conference/)** starts 4 February and features two full days of keynotes, accepted and sponsor talks, poster and sponsor sessions, birds­-of-­a­-feather gatherings, a conference dinner and lots of opportunities for networking. A draft program highlighting the planned structure of the meeting is available.
+* The **[GAMe 2017 Conference](https://www.embl-abr.org.au/game2017/conference/)** starts 4 February and features two full days of keynotes, accepted and sponsor talks, poster and sponsor sessions, birds­-of-­a­-feather gatherings, a conference dinner and lots of opportunities for networking.
 * Each day has a theme, and participants can register for one or both days.
   * [BIO Day](https://www.embl-abr.org.au/game2017/conference/#programme): Saturday will have a biology emphasis
   * [INFO Day](https://www.embl-abr.org.au/game2017/conference/#upstream3): Sunday will focus on infrastructure, tools, and development.
@@ -58,15 +58,15 @@ This meeting features three distinct events:
 
 We are pleased to announce that the keynote speakers for GAMe 2017 will be James Taylor and Björn Grüning.  These two probably don't need introductions in a Galaxy newsletter, but here are some brief ones anyway:
 
-**Dr [James Taylor](http://taylorlab.org/)** is the Ralph S. O’Connor Associate Professor of Biology and associate professor of computer science at [Johns Hopkins University](http://jhu.edu/). He is a Galaxy Project PI, and one of the original developers of the Galaxy platform for data analysis, and his group works on extending the Galaxy platform, and understanding genomic and epigenomic regulation of gene transcription through integrated analysis of functional genomic data. 
+**[Dr James Taylor](http://taylorlab.org/)** is the Ralph S. O’Connor Associate Professor of Biology and associate professor of computer science at [Johns Hopkins University](http://jhu.edu/). He is a Galaxy Project PI, and one of the original developers of the Galaxy platform for data analysis. His group works on extending the Galaxy platform, and understanding genomic and epigenomic regulation of gene transcription through integrated analysis of functional genomic data.
 
-**[Dr Björn Grüning](BjoernGruening)** is with the [Bioinformatics Group](http://www.bioinf.uni-freiburg.de/team.html) at [Albert-Ludwigs-Universität Freiburg](http://www.uni-freiburg.de/), in Freiburg Germany, where he heads the [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/index.html). His [publication list](http://orcid.org/0000-0002-3079-6586) includes several that feature Galaxy prominently,  including the recent “Enhancing pre-defined workflows with *ad hoc* analytics using Galaxy, Docker and Jupyter” ([Grüning, et al, 2016](http://biorxiv.org/content/early/2016/09/22/075457). He is a prominent contributor to, and is a driving force in, the Galaxy community. In the past year alone, he helped organize the Bioconda Contribution Fest, Swiss-German Galaxy Days, the Galaxy Training Materials Contribution Fest, the Galaxy DevOps Workshop, and the Conda Dependencies Codefest, and presented and taught at [GCC2016](https://gcc16.sched.org/?s=bj%C3%B6rn).  His research interests include data visualisation, computational chemistry, and drug discovery.
+**[Dr Björn Grüning](BjoernGruening)** is with the [Bioinformatics Group](http://www.bioinf.uni-freiburg.de/team.html) at [Albert-Ludwigs-Universität Freiburg](http://www.uni-freiburg.de/), in Freiburg Germany, where he heads the [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/index.html). His [publication list](http://orcid.org/0000-0002-3079-6586) includes several papers that feature Galaxy prominently,  including the recent “Enhancing pre-defined workflows with *ad hoc* analytics using Galaxy, Docker and Jupyter” ([Grüning, et al, 2016](http://biorxiv.org/content/early/2016/09/22/075457). He is a prominent contributor to, and is a driving force in, the Galaxy community. In the past year alone, he helped organize the Bioconda Contribution Fest, Swiss-German Galaxy Days, the Galaxy Training Materials Contribution Fest, the Galaxy DevOps Workshop, and the Conda Dependencies Codefest, and presented and taught at [GCC2016](https://gcc16.sched.org/?s=bj%C3%B6rn).  His research interests include data visualisation, computational chemistry, and drug discovery.
 
 ### ORAL Presentation Abstracts Deadline Extended to 14 December
 
 Accepted talks will be presented during the 2-day conference, 4-5 February. Talks are 15-20 minutes long and the meeting is single track.
 
-**[Oral presentation abstract submission](https://www.embl-abr.org.au/game2017/submit-your-talkposter/) has been extended to 14 December 2016.**  Abstracts are limited to 250 words or less.
+**[Oral presentation abstract submission](https://www.embl-abr.org.au/game2017/submit-your-talkposter/) has been extended to 14 December 2016.**  Abstracts are limited to 250 words.
 
 ### Early Registration ends 31 December
 
@@ -74,14 +74,14 @@ Accepted talks will be presented during the 2-day conference, 4-5 February. Talk
 
 ### Poster Submission
 
-[Poster abstract submission is open until we run out of poster space](https://www.embl-abr.org.au/game2017/submit-your-talkposter/).   Abstracts are limited to 250 words or less. Poster abstracts are reviewed on a rolling basis and submitters will be notified of the decision within two weeks of the abstract’s submission date.
+[Poster abstract submission is open until we run out of poster space](https://www.embl-abr.org.au/game2017/submit-your-talkposter/).   Abstracts are limited to 250 words. Poster abstracts are reviewed on a rolling basis and submitters will be notified of the decision within two weeks of the abstract’s submission date.
 
 
 ## All upcoming events
 
-There are [a plentitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
+There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
 
-<div class='center'> 
+<div class='center'>
 <a href='https://www.embl-abr.org.au/game2017/'><img src="/src/images/Logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="120" /></a>
 </div>
 
@@ -160,7 +160,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 # New Publications
 
-**60 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in November. 
+**60 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in November.
 
 Some highlights from last month:
 
@@ -244,7 +244,7 @@ The new papers were tagged with:
 The Galaxy is expanding! Please help it grow.
 
 * [Bioinformatics Analyst](https://iujobs.peopleadmin.com/postings/30137), [National National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/), Bloomington, Indiana, United States
-* [Development Scientist (Bioinformatics)](http://chk.tbe.taleo.net/chk05/ats/careers/requisition.jsp?org=NEB&cws=1&rid=272), New England Biolabs, Ipswich, Massachusetts, United States. 
+* [Development Scientist (Bioinformatics)](http://chk.tbe.taleo.net/chk05/ats/careers/requisition.jsp?org=NEB&cws=1&rid=272), New England Biolabs, Ipswich, Massachusetts, United States.
 * [6 month position](https://twitter.com/bioinformAnt/status/773465361127710720) at [Public Health England](https://www.gov.uk/government/organisations/public-health-england) working [National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) in Canada to compare antimicrobial resistance isolates and software using [IRIDA](http://www.irida.ca/)/Galaxy
 * [Post­doctoral Research Position](https://drive.google.com/file/d/0B5_H88SQ1C_7Z3dJY3FzU0hQMUU/view?pref=2&pli=1), Multi­omic Bioinformatics, University of Minnesota
 
@@ -276,10 +276,10 @@ There are [over 80 publicly accessible Galaxy servers](/src/PublicGalaxyServers/
 
 * *User Support:*
   * [Submit a ticket](http://phenomenal-h2020.eu/home/help/)
-* *Quotas:* 
+* *Quotas:*
 * *Sponsor(s):*
   * The [PhenoMeNal consortium](http://phenomenal-h2020.eu/home/) is driven by 14 European research groups with strong experience in the development of tools and methods for large data acquisition, integration and analysis for metabolic phenotypes, genome and cross-omics data.
-  * PhenoMeNal is funded by European Commission's Horizon2020 programme, grant agreement number 654241. 
+  * PhenoMeNal is funded by European Commission's Horizon2020 programme, grant agreement number 654241.
 
 ### BitLAB
 
@@ -287,14 +287,14 @@ There are [over 80 publicly accessible Galaxy servers](/src/PublicGalaxyServers/
 
 * *Link:*
   * [BitLAB Galaxy](http://pistacho.ac.uma.es/galaxy/)
-* *Domain/Purpose:* 
-  * Detailed analysis of metagenomes. 
+* *Domain/Purpose:*
+  * Detailed analysis of metagenomes.
 * *Comments:*
   * From [Computational workflow for the fine-grained analysis of metagenomic samples](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-3063-x) by Esteban Pérez-Wohlfeil, Jose A. Arjona-Medina, Oscar Torreno, Eugenia Ulzurrun and Oswaldo Trelles, *BMC Genomics* 2016 17(Suppl 8):802 DOI: 10.1186/s12864-016-3063-x
       " ... provides new tools and datafile specifications that facilitate the identification of differences in abundance of reads assigned to taxa (mapping), enables the detection of reads of low-abundance bacteria (producing evidence of their presence), provides new concepts for filtering spurious matches, etc. Innovative visualization ideas for improved display of metagenomic diversity are also proposed to better understand how reads are mapped to taxa."
 * *User Support:*
   * There is an [extensive tutorial](http://www.bitlab-es.com/gecko/documents/GalaxyGuidedExercise.pdf) on how to use the server.
-* *Quotas:* 
+* *Quotas:*
   * Must create a login to use it.
 * *Sponsor(s):*
   * [Bioinformatics and Information Technologies Laboratory (BitLAB)](http://www.bitlab-es.com/bitlab/), [Department of Computer Architecture](http://www.ac.uma.es/), [University of Málaga](http://www.uma.es/)
@@ -327,9 +327,9 @@ No new resources were added to community hubs in November.
 
 ## Planemo 0.35.0
 
-[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  This release inlcuded native support for building bioconductor tools and recipes, fixes for running Galaxy via docker-galaxy-stable and Import order linting fixes
+[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  This release included native support for building bioconductor tools and recipes, fixes for running Galaxy via docker-galaxy-stable and Import order linting fixes
 
-See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst#0350-2016-11-14). 
+See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst#0350-2016-11-14).
 
 ## Pulsar 0.7.3
 
@@ -345,7 +345,7 @@ Other packages that have been released in the prior 4 months.
 ### Galaxy v16.07
 
 <div class='right'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
- 
+
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the **[July 2016 (v16.07) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.07_announce.html)**.
 
 <span style="font-size: larger;"> Highlights </span>
@@ -384,7 +384,7 @@ See the [full release notes](https://docs.galaxyproject.org/en/master/releases/1
 
 #### Galaxy Docker Image 16.07
 
-And, thanks to [Björn Grüning](https://github.com/bgruening), there is also now [a Docker image for Galaxy 16.07](https://github.com/bgruening/docker-galaxy-stable/releases/tag/16.07) as well.  
+And, thanks to [Björn Grüning](https://github.com/bgruening), there is also now [a Docker image for Galaxy 16.07](https://github.com/bgruening/docker-galaxy-stable/releases/tag/16.07) as well.
 
 ### galaxy-lib 16.10.10
 
