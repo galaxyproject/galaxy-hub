@@ -106,8 +106,8 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
    </tr>
    <tr>
      <th class="th" > December 15 </th>
-     <td> <em><a href="/src/Community/GalaxyAdmins/Meetups/2016_12_15/index.md">Galaxy Training Materials: Community creation, curation, and use</a></em> and <em><a href="/src/Community/GalaxyAdmins/Meetups/2016_12_15/index.md">The new Galaxy Hub: Community creation, curation, and use</a></em> </td>
-     <td> <img src="/src/images/Icons/World40.png" alt="Online" align="right" /> <a href="/src/Community/GalaxyAdmins/Meetups/2016_12_15/index.md">Online</a> </td>
+     <td> <em><a href="/Community/GalaxyAdmins/Meetups/2016_12_15/">Galaxy Training Materials: Community creation, curation, and use</a></em> and <em><a href="/Community/GalaxyAdmins/Meetups/2016_12_15/">The new Galaxy Hub: Community creation, curation, and use</a></em> </td>
+     <td> <img src="/src/images/Icons/World40.png" alt="Online" align="right" /> <a href="/Community/GalaxyAdmins/Meetups/2016_12_15/">Online</a> </td>
      <td> <a href='/src/BjoernGruening/index.md'>Björn Grüning</a>, Bérénice Batut, <a href="/src/DannonBaker/index.md">Dannon Baker</a> and <a href="/src/DaveClements/index.md">Dave Clements</a> </td>
    </tr>
    <tr>
