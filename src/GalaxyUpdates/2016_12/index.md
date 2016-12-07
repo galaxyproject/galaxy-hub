@@ -60,7 +60,7 @@ We are pleased to announce that the keynote speakers for GAMe 2017 will be James
 
 **[Dr James Taylor](http://taylorlab.org/)** is the Ralph S. O’Connor Associate Professor of Biology and associate professor of computer science at [Johns Hopkins University](http://jhu.edu/). He is a Galaxy Project PI, and one of the original developers of the Galaxy platform for data analysis. His group works on extending the Galaxy platform, and understanding genomic and epigenomic regulation of gene transcription through integrated analysis of functional genomic data.
 
-**[Dr Björn Grüning](BjoernGruening)** is with the [Bioinformatics Group](http://www.bioinf.uni-freiburg.de/team.html) at [Albert-Ludwigs-Universität Freiburg](http://www.uni-freiburg.de/), in Freiburg Germany, where he heads the [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/index.html). His [publication list](http://orcid.org/0000-0002-3079-6586) includes several papers that feature Galaxy prominently,  including the recent “Enhancing pre-defined workflows with *ad hoc* analytics using Galaxy, Docker and Jupyter” ([Grüning, et al, 2016](http://biorxiv.org/content/early/2016/09/22/075457). He is a prominent contributor to, and is a driving force in, the Galaxy community. In the past year alone, he helped organize the Bioconda Contribution Fest, Swiss-German Galaxy Days, the Galaxy Training Materials Contribution Fest, the Galaxy DevOps Workshop, and the Conda Dependencies Codefest, and presented and taught at [GCC2016](https://gcc16.sched.org/?s=bj%C3%B6rn).  His research interests include data visualisation, computational chemistry, and drug discovery.
+**[Dr Björn Grüning](/src/BjoernGruening/index.md)** is with the [Bioinformatics Group](http://www.bioinf.uni-freiburg.de/team.html) at [Albert-Ludwigs-Universität Freiburg](http://www.uni-freiburg.de/), in Freiburg Germany, where he heads the [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/index.html). His [publication list](http://orcid.org/0000-0002-3079-6586) includes several papers that feature Galaxy prominently,  including the recent “Enhancing pre-defined workflows with *ad hoc* analytics using Galaxy, Docker and Jupyter” ([Grüning, et al, 2016](http://biorxiv.org/content/early/2016/09/22/075457). He is a prominent contributor to, and is a driving force in, the Galaxy community. In the past year alone, he helped organize the Bioconda Contribution Fest, Swiss-German Galaxy Days, the Galaxy Training Materials Contribution Fest, the Galaxy DevOps Workshop, and the Conda Dependencies Codefest, and presented and taught at [GCC2016](https://gcc16.sched.org/?s=bj%C3%B6rn).  His research interests include data visualisation, computational chemistry, and drug discovery.
 
 ### ORAL Presentation Abstracts Deadline Extended to 14 December
 
@@ -402,7 +402,7 @@ See the [full release notes](https://docs.galaxyproject.org/en/master/releases/1
 
 #### Galaxy Docker Image 16.07
 
-And, thanks to [Björn Grüning](https://github.com/bgruening), there is also now [a Docker image for Galaxy 16.07](https://github.com/bgruening/docker-galaxy-stable/releases/tag/16.07) as well.
+And, thanks to [Björn Grüning](/src/BjoernGruening/index.md), there is also now [a Docker image for Galaxy 16.07](https://github.com/bgruening/docker-galaxy-stable/releases/tag/16.07) as well.
 
 ### galaxy-lib 16.10.10
 
