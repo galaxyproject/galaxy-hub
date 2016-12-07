@@ -1,11 +1,11 @@
 ---
 title: Sponsorships and Exhibitors
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
+{{> events/GCC2014/Header }}
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
+{{> events/GCC2014/LinkBox }}
 
 Is your organization interested in being a prominent part of one of the fastest growing communities in bioinformatics? Becoming a [2014 Galaxy Community Conference](/src/events/GCC2014/SponsorExhibit//index.md) Sponsor or Exhibitor is an excellent way to raise your organization's visibility in this active and engaged community.
 
@@ -160,4 +160,4 @@ Your organization can also be an exhibitor at [GCC2014](/src/events/GCC2014/inde
 </div>
 <br /><br />
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/Footer/index.md)
+{{> events/GCC2013/Footer }}

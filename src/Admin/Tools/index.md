@@ -1,6 +1,6 @@
-PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md)
-PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
-PLACEHOLDER_INCLUDE(/src/Admin/Tools/LinkBox/index.md)
+{{> Admin/LinkBox }}
+{{> Develop/LinkBox }}
+{{> Admin/Tools/LinkBox }}
 # Galaxy Tools
 
 A hub page for [administration](/src/Admin/index.md) of computational tools within Galaxy framework.

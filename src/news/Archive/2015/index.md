@@ -70,7 +70,7 @@
 [Genome analysis PostDoc in Oslo](/src/news/GenomeAnalysisPostDocOslo/index.md)<br />
 [January Galaxy Newsletter](/src/news/2015_01GalaxyUpdate/index.md)<br />
 </div>
-PLACEHOLDER_INCLUDE(/src/news/Archive/LinkBox/index.md)
+{{> news/Archive/LinkBox }}
 
 # 2015 News Item Archive
 

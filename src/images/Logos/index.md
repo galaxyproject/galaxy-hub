@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/images/LinkBox/index.md)
+{{> images/LinkBox }}
 
 Common place to store logos.  Logos are for specific institutions, events or software. Icons are generic images like calendars, arrow, "New!" balloons and so on. 
 

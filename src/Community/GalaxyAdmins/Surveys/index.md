@@ -1,6 +1,6 @@
 <div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
-PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/Surveys/LinkBox/index.md)
+{{> Community/GalaxyAdmins/Surveys/LinkBox }}
 
 Two surveys of the Galaxy developer/deployer/administrator community have been done:
 

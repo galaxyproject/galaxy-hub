@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/images/LinkBox/index.md)
+{{> images/LinkBox }}
 
 Common place to store Galaxy screenshots used in this web site.
 

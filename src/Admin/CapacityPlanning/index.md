@@ -1,7 +1,7 @@
 ---
 title: Galaxy Capacity Planning
 ---
-PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md)
+{{> Admin/LinkBox }}
 
 
 

@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md)
+{{> Admin/LinkBox }}
 
 Hub Page for [Galaxy administration](/src/Admin/index.md) training materials. See also the [Galaxy Teaching Hub](/src/Teach/index.md) page for end-user training.
 

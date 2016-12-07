@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
+{{> Develop/LinkBox }}
 
 ## Hub page for Galaxy development
 
@@ -16,7 +16,7 @@ Details on this transition can be found on the [Source Code](/src/Develop/Source
 * [Source Documentation](/src/Develop/SourceDoc/index.md) - Where you can find it; how you can update it.
 * [Contributing](https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING.md) - Describes how to contribute to the core galaxy project.
 
-PLACEHOLDER_INCLUDE(/src/Develop/ResourcesAPI/index.md)
+{{> Develop/ResourcesAPI }}
 
 ### Code Practices
 
@@ -28,7 +28,7 @@ PLACEHOLDER_INCLUDE(/src/Develop/ResourcesAPI/index.md)
 * [Graphics Documentation](/src/Develop/Graphics/index.md) - What graphical elements we use and their meaning.
 * [Visualization tutorial](/src/Develop/Visualizations/index.md) - How to write a custom visualization for Galaxy.
 
-PLACEHOLDER_INCLUDE(/src/Develop/ResourcesTools/index.md)
+{{> Develop/ResourcesTools }}
 
 ### Architecture
 

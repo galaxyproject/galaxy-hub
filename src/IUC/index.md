@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/Admin/Tools/LinkBox/index.md)
+{{> Admin/Tools/LinkBox }}
 # Intergalactic Utilities Commission
 
 The Intergalactic Utilities Commission (IUC) was established in 2012 to enable the pervasive use of the main Galaxy ToolShed by ensuring the repositories available in the tool shed include contents that are functionally correct and optimized for installation into local Galaxies.  When appropriate, guidance is provided to repository owners so that they can understand what changes are necessary for their repository to be approved.

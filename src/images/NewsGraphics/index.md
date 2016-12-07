@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/images/LinkBox/index.md)
+{{> images/LinkBox }}
 
 Common place to store supplemental graphics used in communications, such as [News Briefs](/src/news Briefs/index.md). May have a date stamp.
 

@@ -1,7 +1,7 @@
 ---
 title: Birds of a Feather (BoF) Flock Together at [GCC2015](http://gcc2015.tsl.ac.uk/)
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2015/Header/index.md)
+{{> events/GCC2015/Header }}
 
 
 <div class='left'><img src="/src/images/Logos/GCC2015BoFs300.png" alt="" width="200" /></div>
@@ -61,4 +61,4 @@ The conference *enables and encourages* BoFs by
 * Promote BoFs to all conference participants, over and over, both before and during the conference.
 * Coordinate and reserve rooms for BoFs, and allocate time in the schedule for them too.
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2015/Footer/index.md)
+{{> events/GCC2015/Footer }}

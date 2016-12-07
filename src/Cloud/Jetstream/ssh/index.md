@@ -1,7 +1,7 @@
 ---
 autotoc: true
 ---
-PLACEHOLDER_INCLUDE(/src/Cloud/Jetstream/LinkBox/index.md)
+{{> Cloud/Jetstream/LinkBox }}
 
 <div class='right'></div>
 

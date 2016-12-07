@@ -14,7 +14,7 @@
 
 ## Get Galaxy
 
-PLACEHOLDER_INCLUDE(/src/Admin/GetGalaxy/Short/index.md)
+{{> Admin/GetGalaxy/Short }}
 
 
 

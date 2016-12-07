@@ -2,7 +2,7 @@
 autotoc: true
 title: Logistics
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
+{{> events/GCC2014/Header }}
 
 <br /><br />
 
@@ -12,7 +12,7 @@ PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
 
 Details on conference location, lodging options and transportation.
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
+{{> events/GCC2014/LinkBox }}
 
 
 <div class='right'>
@@ -157,4 +157,4 @@ A [block of rooms have been reserved at the Inn at The Colonnade Baltimore](http
 * [125+ other attractions](http://baltimore.org/attractions/)
 * *Add your favorite here*
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/Footer/index.md)
+{{> events/GCC2014/Footer }}

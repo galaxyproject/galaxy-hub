@@ -2,11 +2,11 @@
 autotoc: true
 title: Galaxy Training Network
 ---
-PLACEHOLDER_INCLUDE(/src/Teach/Header/index.md)
+{{> Teach/Header }}
 
 
 
-PLACEHOLDER_INCLUDE(/src/Teach/LinkBox/index.md)
+{{> Teach/LinkBox }}
 
 The *[Galaxy Training Network (GTN)](/src/Teach/GTN/index.md)* is a network of people and groups that present Galaxy and Galaxy-based training around the world.  GTN helps researchers find online training material, and trainers in their geographic area, and helps advertise [training events](/src/events/index.md) as well.
 

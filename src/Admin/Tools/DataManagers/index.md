@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md)
+{{> Admin/LinkBox }}
 
 # What are Data Managers?
 

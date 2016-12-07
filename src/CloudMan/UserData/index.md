@@ -1,6 +1,6 @@
-PLACEHOLDER_INCLUDE(/src/CloudMan/Header/index.md)
+{{> CloudMan/Header }}
 
-PLACEHOLDER_INCLUDE(/src/CloudMan/UserData/LinkBox/index.md)
+{{> CloudMan/UserData/LinkBox }}
 
 ### CloudMan User Data Fields
 

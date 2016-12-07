@@ -67,7 +67,7 @@
 [ GCC2014 Training Day Topics: Vote!](/src/news/GCC2014TrainingDayVoting/index.md)<br />
 [January 2014 Galaxy Update](/src/news/2014_01GalaxyUpdate/index.md)<br />
 </div>
-PLACEHOLDER_INCLUDE(/src/news/Archive/LinkBox/index.md)
+{{> news/Archive/LinkBox }}
 
 # 2014 News Item Archive
 

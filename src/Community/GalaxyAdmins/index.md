@@ -3,7 +3,7 @@ title: Galaxy-Admins
 ---
 <div class='center'><img src="/src/images/GalaxyLogos/GalaxyAdmins.png" alt="" width="240" /></div>
 
-PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
+{{> Community/GalaxyAdmins/LinkBox }}
 
 
 

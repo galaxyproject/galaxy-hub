@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/Documents/LinkBox/index.md)
+{{> Documents/LinkBox }}
 
 Common place to attach posters in the [Documents](/src/Documents/index.md) hierarchy.
 

@@ -1,6 +1,6 @@
-PLACEHOLDER_INCLUDE(/src/CloudMan/Header/index.md)
+{{> CloudMan/Header }}
 
-PLACEHOLDER_INCLUDE(/src/CloudMan/LinkBox/index.md)
+{{> CloudMan/LinkBox }}
 
 This page will provide details on how Hadoop has been integrated into CloudMan. Examples on how to use Hadoop through CloudMan will be provided for the enduser.
 

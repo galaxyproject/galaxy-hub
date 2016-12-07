@@ -2,7 +2,7 @@
 autotoc: true
 title: Galaxy Project Logos
 ---
-PLACEHOLDER_INCLUDE(/src/images/LinkBox/index.md)
+{{> images/LinkBox }}
 
 <div class='right'></div>
 

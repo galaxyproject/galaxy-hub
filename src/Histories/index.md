@@ -4,7 +4,7 @@ title: Histories
 ---
 
 
-PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
+{{> Learn/LinkBox }}
 <div class='left'></div>
 
 When data is uploaded from your computer or analysis is done on existing data using Galaxy, each output from those steps

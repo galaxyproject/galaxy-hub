@@ -1,11 +1,11 @@
 ---
 title: Sponsorships
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/Header/index.md)
+{{> events/GCC2013/Header }}
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/LinkBox/index.md)
+{{> events/GCC2013/LinkBox }}
 
 Is your organization interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Becoming a [2013 Galaxy Community Conference](/src/events/GCC2013/Sponsorships//index.md) Sponsor is an excellent way to raise your organization's visibility in this active and engaged community.
 
@@ -139,4 +139,4 @@ Sponsorships are available at four different levels.
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/Footer/index.md)
+{{> events/GCC2013/Footer }}

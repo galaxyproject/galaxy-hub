@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/news/Archive/LinkBox/index.md)
+{{> news/Archive/LinkBox }}
 
 # News Item Archive
 

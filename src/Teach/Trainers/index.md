@@ -2,11 +2,11 @@
 autotoc: true
 title: Galaxy Trainer Directory
 ---
-PLACEHOLDER_INCLUDE(/src/Teach/Header/index.md)
+{{> Teach/Header }}
 
 
 
-PLACEHOLDER_INCLUDE(/src/Teach/LinkBox/index.md)
+{{> Teach/LinkBox }}
 
 <div class='left'> <a href='http://bit.ly/gxytrnmap'><img src="/src/Teach/GalaxyTrainingMapThumb.png" alt="Galaxy Training Network: Trainer Locations Map" width="220" /></a> <div class='center'> [Find trainers near you in the](http://bit.ly/gxytrnmap)<br />[Galaxy Training Network](http://bit.ly/gxytrnmap)</div></div>
 

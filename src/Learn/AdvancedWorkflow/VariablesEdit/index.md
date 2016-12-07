@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
+{{> Learn/LinkBox }}
 # Workflow Variables
 
 [Back to Advanced Workflow](/src/Learn/AdvancedWorkflow/index.md)

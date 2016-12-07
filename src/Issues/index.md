@@ -3,8 +3,8 @@ autotoc: true
 title:  Galaxy Issue Reporting and Feature Requests
 ---
 
-PLACEHOLDER_INCLUDE(/src/support/LinkBox/index.md)
-PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
+{{> support/LinkBox }}
+{{> Develop/LinkBox }}
 
 <table>
   <tr>

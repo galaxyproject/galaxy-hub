@@ -1,11 +1,11 @@
 ---
 title: GCC2013 Training Day Virtual Machines
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/Header/index.md)
+{{> events/GCC2013/Header }}
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/LinkBox/index.md)
+{{> events/GCC2013/LinkBox }}
 
 <div class='left'><a href='/src/events/GCC2013/TrainingDay/VMs//index.md'><img src="/src/images/Logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
@@ -63,4 +63,4 @@ There are two VMs to pick from.
 The VM is now installed.
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/Footer/index.md)
+{{> events/GCC2013/Footer }}

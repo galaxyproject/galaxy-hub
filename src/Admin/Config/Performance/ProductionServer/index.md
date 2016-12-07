@@ -2,7 +2,7 @@
 autotoc: true
 title: Running Galaxy in a production environment
 ---
-PLACEHOLDER_INCLUDE(/src/Admin/Config/Performance/LinkBox/index.md)
+{{> Admin/Config/Performance/LinkBox }}
 
 
 The [basic installation instructions](/src/Admin/GetGalaxy/index.md) are suitable for development by a single user, but when setting up Galaxy for a multi-user production environment, there are some additional steps that should be taken for the best performance.

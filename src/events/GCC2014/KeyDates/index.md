@@ -1,13 +1,13 @@
 ---
 title: Key Dates
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
+{{> events/GCC2014/Header }}
 
 <br /><br />
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
+{{> events/GCC2014/LinkBox }}
 
 <table>
   <tr class="th" >
@@ -112,4 +112,4 @@ PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/Footer/index.md)
+{{> events/GCC2014/Footer }}

@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/CloudMan/LinkBox/index.md)
+{{> CloudMan/LinkBox }}
 
 Details on running [CloudMan](/src/CloudMan/index.md) on OpenStack-based cloud infrastructures. This is an active area of development for the [CloudMan Team](/src/CloudMan/Team/index.md).
 

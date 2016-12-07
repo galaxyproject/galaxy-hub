@@ -2,7 +2,7 @@
 autotoc: true
 title: Getting Started with Galaxy on the Cloud
 ---
-PLACEHOLDER_INCLUDE(/src/CloudMan/Header/index.md)
+{{> CloudMan/Header }}
 
 
 

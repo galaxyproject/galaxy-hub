@@ -3,7 +3,7 @@
 
 </div></div>
 
-PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
+{{> Community/GalaxyAdmins/LinkBox }}
 
 <table>
   <tr>

@@ -5,4 +5,4 @@
 </span>
 </div>
 
-<div class='right'><br />PLACEHOLDER_INCLUDE(/src/events/GCC2015/LinkBox/index.md)</div>
+<div class='right'><br />{{> events/GCC2015/LinkBox }}</div>

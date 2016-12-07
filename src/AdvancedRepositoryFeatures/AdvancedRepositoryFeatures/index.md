@@ -1,4 +1,4 @@
-<div class='right'> <a href='/ToolShed'><img src='/Images/Logos/ToolShed.jpg' alt='Tool Shed logo' height="110px" /></a> PLACEHOLDER_INCLUDE(/ToolShed/LinkBox) </div>
+<div class='right'> <a href='/ToolShed'><img src='/Images/Logos/ToolShed.jpg' alt='Tool Shed logo' height="110px" /></a> {{> ToolShed/LinkBox }} </div>
 
 # Cloning a repository using hg from the command line
 

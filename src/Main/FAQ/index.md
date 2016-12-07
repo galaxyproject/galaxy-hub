@@ -2,7 +2,7 @@
 autotoc: true
 title: Frequently Asked Questions about [Main](/src/Main/index.md)
 ---
-PLACEHOLDER_INCLUDE(/src/FAQs/LinkBox/index.md)
+{{> FAQs/LinkBox }}
 
 
  

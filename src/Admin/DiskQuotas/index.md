@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md)
+{{> Admin/LinkBox }}
 
 # Data management: accounting and disk quotas
 

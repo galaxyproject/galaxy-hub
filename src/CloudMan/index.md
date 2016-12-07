@@ -5,7 +5,7 @@ autotoc: true
 
 <br />
 
-<div class='left'></div> PLACEHOLDER_INCLUDE(/src/CloudMan/LinkBox/index.md)
+<div class='left'></div> {{> CloudMan/LinkBox }}
 
 There are several choices for using Galaxy.  This page describes using Galaxy on a *[cloud infrastructure](https://www.tcnp3.com/home/cloud-technology/what-is-cloud-computing-infographic/)* using CloudMan (see below). For other options, see [Choices](/src/BigPicture/Choices/index.md) and [Cloud](/src/Cloud/index.md).
 
@@ -42,7 +42,7 @@ To see how much using Amazon cloud might cost, you can use the [AWS cost calcula
 
 ### Galaxy AMIs
 
-PLACEHOLDER_INCLUDE(/src/CloudMan/AWS/AMIs/index.md)
+{{> CloudMan/AWS/AMIs }}
 
 ### Citing and Publications
 

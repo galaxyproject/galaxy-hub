@@ -2,11 +2,11 @@
 autotoc: true
 title: Program
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/Header/index.md)
+{{> events/GCC2013/Header }}
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/LinkBox/index.md)
+{{> events/GCC2013/LinkBox }}
 
 <div class='right'></div>
 

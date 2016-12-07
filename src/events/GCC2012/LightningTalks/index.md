@@ -1,6 +1,6 @@
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/PageHeader/index.md)
+{{> events/GCC2012/PageHeader }}
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/LinkBox/index.md)
+{{> events/GCC2012/LinkBox }}
 
 # GCC2012 Lightning Talks
 
@@ -74,4 +74,4 @@ The session is designed to give as many participants as possible a very brief op
 * You stand a high risk of being cut off in mid-flight unless you have rehearsed it. Practice your talk with a timer at least 3 times to make sure it works and fits in 5 minutes.
 * You are advised not to plan to read your acknowledgements out aloud - they can be left showing during your 2 minute Q&A session. They're not important enough to include in your 300 seconds - it's a lightning talk for heaven's sake.
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/Ask the Organizers/index.md)
+{{> events/GCC2012/Ask the Organizers }}

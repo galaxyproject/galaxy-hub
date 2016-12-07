@@ -7,7 +7,7 @@ Note that the current AMI represents the environment required to run CloudMan (i
 
 
 
-PLACEHOLDER_INCLUDE(/src/CloudMan/AWS/LinkBox/index.md)
+{{> CloudMan/AWS/LinkBox }}
 
 **Deprecated AMIs**
 * AMI: ami-d5246abf

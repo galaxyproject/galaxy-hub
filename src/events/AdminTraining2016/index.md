@@ -1,6 +1,6 @@
-PLACEHOLDER_INCLUDE(/src/events/AdminTraining2016/Header/index.md)
+{{> events/AdminTraining2016/Header }}
 
-PLACEHOLDER_INCLUDE(/src/events/AdminTraining2016/LinkBox/index.md)
+{{> events/AdminTraining2016/LinkBox }}
 
 The first ever **Galaxy Project Admin Training workshop** will be held November 7-11 in [Salt Lake City](http://www.visitsaltlake.com/), Utah.  
 
@@ -107,4 +107,4 @@ This is one of three comprehensive Galaxy admin and developer training events be
 
 We would like to thank the [University of Utah Center for High Performance Computing (CHPC)](http://www.chpc.utah.edu/) for compute infrastructure support, and the [USTAR Center for Genetic Discovery (UCGD)](http://ucgd.genetics.utah.edu/), [Department of Biomedical Informatics](http://medicine.utah.edu/dbmi/) and the [Clinical & Translational Science Biomedical Informatics Core (CCTS BMIC)](http://medicine.utah.edu/ccts/bmic/) at the [University of Utah](http://utah.edu) for hosting this event.
 
-PLACEHOLDER_INCLUDE(/src/events/AdminTraining2016/Footer/index.md)
+{{> events/AdminTraining2016/Footer }}

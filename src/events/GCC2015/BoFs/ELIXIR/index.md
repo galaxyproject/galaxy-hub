@@ -1,7 +1,7 @@
 ---
 title: [ELIXIR-Galaxy Workshop](https://docs.google.com/document/d/1k_d9A4HDTcmjEhYW3FbVeEjcAkembhxupZZN3KQn0NA/edit#heading=h.8fvjaj9oq5oi)
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2015/Header/index.md)
+{{> events/GCC2015/Header }}
 
 
 

@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/images/LinkBox/index.md)
+{{> images/LinkBox }}
 
 Common place to store images that are likely to be shared across pages.
 

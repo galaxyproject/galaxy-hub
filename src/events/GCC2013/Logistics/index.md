@@ -2,11 +2,11 @@
 autotoc: true
 title: Logistics
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/Header/index.md)
+{{> events/GCC2013/Header }}
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/LinkBox/index.md)
+{{> events/GCC2013/LinkBox }}
 
 Details on conference location, lodging options, and transportation.
 
@@ -213,4 +213,4 @@ The conference does not have an official conference hotel.  However, our hosts h
 
 If you have heard rumors of a very high price level in Norway, all we can say is that, well, the burgers are cheaper in Norway than in Venezuela ([The Economists Big Mac index](http://www.economist.com/content/big-mac-index)). And if you wonder why there is a tax-free just after landing in Oslo, you can check out the prices of [Norwegian beer](http://www.osloby.no/article728719_2.ece#.UaM7MNcVR2Q) (in Norwegian, but prices range from €5-12 depending on venue). On a more serious note, you will meet the Norwegian price level already when leaving the airport - the 19 minute train ride from the airport to Oslo centre with the "[Airport express train](http://www.flytoget.no/)" costs NOK 170 (~ €22). If there are suited departures, you may save some money by instead travelling with the train company "[NSB](http://www.nsb.no/airport-by-train/airport-by-train-article38282-4405.html)", which only takes a few minutes more and consts about half (NOK 90, ~ €12).
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/Footer/index.md)
+{{> events/GCC2013/Footer }}

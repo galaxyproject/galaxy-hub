@@ -1,9 +1,9 @@
 ---
 title: [GCC2012](/src/events/GCC2012/index.md),  Organizing Committee
 ---
-PLACEHOLDER_INCLUDE(/Events/GCC2012/PageHeader)
+{{> Events/GCC2012/PageHeader }}
 
-PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
+{{> events/GCC2012/LinkBox }}
 
 
 
@@ -24,4 +24,4 @@ PLACEHOLDER_INCLUDE(/events/GCC2012/LinkBox)
  **[Bernard Santarsiero](http://www.uic.edu/labs/bds/bdslab/Welcome.html)**
    [University of Illinois at Chicago (UIC)](http://www/uic.edu/)<br /><br />
 
-PLACEHOLDER_INCLUDE(/events/GCC2012/AsktheOrganizers)
+{{> events/GCC2012/AsktheOrganizers }}

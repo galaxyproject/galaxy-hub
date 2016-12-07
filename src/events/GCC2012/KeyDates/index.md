@@ -1,9 +1,9 @@
 ---
 title: Key Dates
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/PageHeader/index.md)
+{{> events/GCC2012/PageHeader }}
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/Key%20Dates/LinkBox/index.md)
+{{> events/GCC2012/Key%20Dates/LinkBox }}
 
 <table>
   <tr class="th" >
@@ -75,4 +75,4 @@ PLACEHOLDER_INCLUDE(/src/events/GCC2012/Key%20Dates/LinkBox/index.md)
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/Key%20Dates/Ask the Organizers/index.md)
+{{> events/GCC2012/Key%20Dates/Ask the Organizers }}

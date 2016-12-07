@@ -1,7 +1,7 @@
 ---
 title: Extended Workflows
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2015/Header/index.md)
+{{> events/GCC2015/Header }}
 
 
 

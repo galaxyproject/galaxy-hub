@@ -1,7 +1,7 @@
 ---
 title: Galaxy Training Network
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
+{{> events/GCC2014/Header }}
 
 
 
@@ -15,7 +15,7 @@ PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
  Contact:: [Simon Gladman](mailto:simon DOT gladman AT monash DOT edu), [Andrew Lonie](mailto:alonie AT unimelb DOT edu DOT au), [Teaching hub page](/src/Teach/index.md)
 </div>
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
+{{> events/GCC2014/LinkBox }}
 
 <div class='left'><a href='/src/events/GCC2014/BoFs/index.md'><img src="/src/images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
 

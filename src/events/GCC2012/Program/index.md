@@ -2,11 +2,11 @@
 autotoc: true
 title: Program
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/PageHeader/index.md)
+{{> events/GCC2012/PageHeader }}
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/Program/LinkBox/index.md)
+{{> events/GCC2012/Program/LinkBox }}
 <div class='right'></div>
 
 The [2012 Galaxy Community Conference](/src/events/GCC2012/Program//index.md) included two full days of accepted talks, [lightning talks](/src/events/GCC2012/Program/LightningTalks/index.md), breakout sessions, and networking time.  The conference was preceded by a full day of training sessions that cover 10 topics over four 90 minute sessions.

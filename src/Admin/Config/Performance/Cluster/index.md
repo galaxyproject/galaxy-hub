@@ -2,7 +2,7 @@
 autotoc: true
 title: Running Galaxy Tools on a Cluster
 ---
-PLACEHOLDER_INCLUDE(/src/Admin/Config/Performance/LinkBox/index.md)
+{{> Admin/Config/Performance/LinkBox }}
 
 Galaxy is designed to run jobs on your local system by default, but it can be configured to run jobs on a cluster.  The front-end Galaxy application runs on a single server as usual, but tools are run on cluster nodes instead.
 

@@ -5,12 +5,12 @@ autotoc: true
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/Header/index.md)
+{{> events/GCC2013/Header }}
 
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/LinkBox/index.md)
+{{> events/GCC2013/LinkBox }}
 
 
 
@@ -1453,7 +1453,7 @@ happens some amount of core changes need to take place to make this as easy and 
 * Thanks for coming!
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/Footer/index.md)
+{{> events/GCC2013/Footer }}
 
 
 

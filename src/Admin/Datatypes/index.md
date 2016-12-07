@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md)
+{{> Admin/LinkBox }}
 
 Hub page for [administering](/src/Admin/index.md) Galaxy data types.
 

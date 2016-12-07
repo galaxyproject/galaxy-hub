@@ -1,6 +1,6 @@
 <div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" width="250" /></a></div>
 
-PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/Meetups/LinkBox/index.md)
+{{> Community/GalaxyAdmins/Meetups/LinkBox }}
 
 The [GalaxyAdmins](/src/Community/GalaxyAdmins/Meetups//index.md) group has bi-monthly conference calls and irregular gatherings at various Galaxy-related events.
 

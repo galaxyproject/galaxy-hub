@@ -5,7 +5,7 @@ title: Frequently Asked Questions for Galaxy on Jetstream
 
 See [Learn/FAQ](/src/Learn/FAQ/index.md) for questions about using any Galaxy instance.  
 
-PLACEHOLDER_INCLUDE(/src/Cloud/Jetstream/LinkBox/index.md)
+{{> Cloud/Jetstream/LinkBox }}
 
 <div class='left'></div>
 

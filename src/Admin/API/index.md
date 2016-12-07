@@ -1,7 +1,7 @@
 ---
 autotoc: true
 ---
-PLACEHOLDER_INCLUDE(/src/Admin/API/LinkBox/index.md)
+{{> Admin/API/LinkBox }}
 
 Galaxy has an [Applications Programming Interface (API)](/src/Learn/API/index.md) that enables access to Galaxy from scripts.  This page describes the [administrative](/src/Admin/index.md) aspects of the API.  See [Learn/API](/src/Learn/API/index.md) for information on using the [Galaxy API](/src/Learn/API/index.md).
 
