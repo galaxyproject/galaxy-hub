@@ -30,11 +30,16 @@ clear_collections = (files, metalsmith, done) ->
 
 replacement_data = require("./src/includes.json")
 md_link_pattern = /\[.*?\]\((.*?)\)/g
-html_link_pattern = /<a href=(['"])(\/src)/g
-html_img_pattern = /<img src=(['"])(\/src)/g
+html_link_pattern = /href=[\'"]?([^\'" >]+)[\'"]/g
+html_img_pattern = /src=[\'"]\/src?([^\'" >]+)[\'"]/g
 
 subs = (files, metalsmith, done) ->
     # Quick hack to temporarily handle INCLUDE migration
+    # Followed by another set of hacks to strip /src and index.md out of
+    # source.  We have these full references in the source to make GitHub
+    # render correctly in the preview and web editor.  TODO:  Come up with a
+    # better long term solution that renders both in github, and correctly for
+    # publishing, that isn't a big nest of regexes and special cases.
     for file, c of files
         do (file, c) ->
             if file.endsWith('.md')
@@ -47,21 +52,24 @@ subs = (files, metalsmith, done) ->
                     rep = match[1]
                     #TODO: Do this with a regex too
                     if rep.startsWith('/src')
+                        # Drop leading /src
                         rep = rep.substr(4)
-                    rep = rep.replace('index.md', '')
+                    if rep.startsWith('/')
+                        # If it's a local URL, drop index.md's when they exist.
+                        # Replace is simpler here because we have to consider
+                        # in-page anchors.
+                        rep = rep.replace('index.md', '')
                     contents = contents.replace("("+match[1]+")", "("+rep+")")
                 while match = html_link_pattern.exec(contents)
-                    rep = match[2]
-                    #TODO: Do this with a regex too
+                    rep = match[1]
                     if rep.startsWith('/src')
                         rep = rep.substr(4)
-                    contents = contents.replace("<a href="+match[1]+match[2], "<a href="+match[1]+rep)
+                    if rep.startsWith('/')
+                        rep = rep.replace('index.md', '')
+                    contents = contents.replace(match[0],'href="'+rep+'"')
                 while match = html_img_pattern.exec(contents)
-                    rep = match[2]
-                    #TODO: Do this with a regex too
-                    if rep.startsWith('/src')
-                        rep = rep.substr(4)
-                    contents = contents.replace("<img src="+match[1]+match[2], "<img src="+match[1]+rep)
+                    # Simply match and drop leading /src/ from images.
+                    contents = contents.replace(match[0],'src="'+match[1]+'"')
                 files[file].contents = contents
     done()
 
