@@ -50,11 +50,11 @@ Please reserve July 25-27 on your calendars!
 
 Galaxy tool sheds play a beneficial role in enabling sharing of exported Galaxy workflows between different Galaxy instances. 
 
-* **[Finding workflows in tool shed repositories](/src/Tool Shed/index.md#enabling_workflow_sharing_finding_workflows_in_tool_shed_repositories)**
+* **[Finding workflows in tool shed repositories](/src/ToolShed/index.md#enabling_workflow_sharing_finding_workflows_in_tool_shed_repositories)**
     The Search section of the left tool shed menu panel now includes an option labeled "Search for workflows"
-* **[Importing a workflow from an installed tool shed repository](/src/Tool Shed/index.md#enabling_workflow_sharing_importing_a_workflow_from_an_installed_tool_shed_repository)** 
+* **[Importing a workflow from an installed tool shed repository](/src/ToolShed/index.md#enabling_workflow_sharing_importing_a_workflow_from_an_installed_tool_shed_repository)** 
     A pop-up menu associated with a browsed Tool Shed workflow name will now provide the ability to import the workflow into your local Galaxy instance
-* **[Importing a workflow via a URL](/src/Tool Shed/index.md#enabling_workflow_sharing_importing_a_workflow_via_a_url)** 
+* **[Importing a workflow via a URL](/src/ToolShed/index.md#enabling_workflow_sharing_importing_a_workflow_via_a_url)** 
     If your Galaxy instance is missing any of the tools an imported workflow requires, a message is now displayed that includes links to all accessible tool sheds enabling you to search the tool sheds for the missing tools
 
 ### Using Tool Sheds

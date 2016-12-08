@@ -195,7 +195,7 @@ Third, the tools can be completely disabled by removing them from the tool confi
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/Tool Shed/index.md)**
+**[Tool Shed](/src/ToolShed/index.md)**
 ## Galaxy Tool Migration Framework Enhancements
 
 See above: [New Tool Migrations](/src/DevNewsBriefs/2013_11_04/index.md#new-tool-migrations)

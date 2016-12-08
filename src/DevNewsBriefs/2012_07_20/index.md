@@ -27,7 +27,7 @@ The [2012 Galaxy Community Conference (GCC2012)](/src/events/GCC2012/index.md) i
 <br />
 # FreeBayes Migration
 
-The tool **Human Genome Variation -> [Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** has moved from the Galaxy distribution to the Galaxy Main **[Tool Shed](/src/Tool Shed/index.md)**.
+The tool **Human Genome Variation -> [Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** has moved from the Galaxy distribution to the Galaxy Main **[Tool Shed](/src/ToolShed/index.md)**.
 
 ```FreeBayes```
  is a high-performance, flexible, and open-source Bayesian genetic variant detector. It operates on [BAM](/src/Datatypes/index.md#bam) alignment files, which are produced by most contemporary short-read aligners.
@@ -56,7 +56,7 @@ And a global status of all indexes for all genomes in progress:
 
 Automatic third-party tool dependency installation and compilation with installed repositories
 
-Tool shed repository owners can define information in their repositories that enable third party tool dependencies to be automatically installed along with the repository for those repositories that contain tools that require the dependencies.  The process for enabling this is the inclusion of a simple xml file named tool_dependencies.xml in the repository. [Read more…](/src/Tool Shed/index.md#automatic_third-party_tool_dependency_installation_and_compilation_with_installed_repositories)
+Tool shed repository owners can define information in their repositories that enable third party tool dependencies to be automatically installed along with the repository for those repositories that contain tools that require the dependencies.  The process for enabling this is the inclusion of a simple xml file named tool_dependencies.xml in the repository. [Read more…](/src/ToolShed/index.md#automatic_third-party_tool_dependency_installation_and_compilation_with_installed_repositories)
 
 <br />
 # Improved Error Handling
@@ -92,7 +92,7 @@ Several changes made in in determining errors from tool exit codes and output.  
 <br />
 # Tool Shed
 
-[Tool Shed](/src/Tool Shed/index.md)
+[Tool Shed](/src/ToolShed/index.md)
 * *Enhancements*
   * The tool shed's category grid is now displayed when searching and browsing tool sheds from a local Galaxy instance. 
   * This category grid's search feature searches valid repository names and descriptions when browsing a tool shed from Galaxy.
