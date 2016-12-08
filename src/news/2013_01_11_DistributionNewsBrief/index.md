@@ -26,7 +26,7 @@ upgrade: $ hg pull -u -r a4113cc1cb5e
 
 *Thanks for using Galaxy,*
 
-[The Galaxy Team](/src/Galaxy Team/index.md)
+[The Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 
