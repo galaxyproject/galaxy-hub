@@ -4,7 +4,7 @@
 <div class='right'><a href='http://usegalaxy.org'><img src="/src/images/NewsGraphics/2012_12_03_new-history-menu.png" alt="width="350"" /></a></div>
 **Highlights:**
 * **NGS: Mapping** tools **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz/)** have moved from the **[Galaxy distribution](https://bitbucket.org/galaxy/galaxy-dist)** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)**.
-* Improvements in the display of **[http://wiki.galaxyproject.org/Tool Shed](http://wiki.galaxyproject.org/Tool Shed)** repository dependencies and contents.
+* Improvements in the display of **[http://wiki.galaxyproject.org/ToolShed](http://wiki.galaxyproject.org/ToolShed)** repository dependencies and contents.
 * More **[Tool Shed](http://toolshed.g2.bx.psu.edu/)** updates including details of the [Functional test framework](http://wiki.galaxyproject.org/HostingALocalToolShed#Functional_test_framework_for_the_tool_shed), a new hgweb.config file and `HgWebConfigManager` tool, plus other management features.
 * Updated **UI** display and functionality for datasets and histories: new **paused** state and "resume/paused" toggle, new **History menu options** (seen at right &rarr;), and improved **Scatterplot** visualizations.
 * The **SGE** job runner has now been fully deprecated and replaced with **DRMAA**.

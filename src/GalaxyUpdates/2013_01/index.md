@@ -225,14 +225,14 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 <div class='indent'>
 **Highlights:**
-* **Required Metadata Reset** for instances running **[Tool Shed](http://wiki.galaxyproject.org/Tool Shed)** repositories. Be sure to **[learn how](http://wiki.galaxyproject.org/ResettingMetadataForInstalledRepositories)**.
+* **Required Metadata Reset** for instances running **[Tool Shed](http://wiki.galaxyproject.org/ToolShed)** repositories. Be sure to **[learn how](http://wiki.galaxyproject.org/ResettingMetadataForInstalledRepositories)**.
 * **Simplified tool config**: all tools (including tool shed repos) can now have handlers and runners assigned based on their "short id".
 * **New** [GFF](http://wiki.galaxyproject.org/Learn/Datatypes#GFF)/[GFF3](http://wiki.galaxyproject.org/Learn/Datatypes#GFF3) annotation support for **[Cuffcompare/merge/diff](http://cufflinks.cbcb.umd.edu/manual.html)**.
 * **More Updated** tools: **[TopHat2](http://tophat.cbcb.umd.edu/manual.html)**, **[Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml)**.
 * **Multiple pull-requests** contributed by community (thanks!): **[#83](https://bitbucket.org/galaxy/galaxy-central/pull-request/83/allow-a-datatypes-merge-method-to)**, **[#85](https://bitbucket.org/galaxy/galaxy-central/pull-request/85/another-round-of-bug-fixes-and)**, **[#90](https://bitbucket.org/galaxy/galaxy-central/pull-request/90/patch-to-make-extended_metadata-loader)**, **[#91](https://bitbucket.org/galaxy/galaxy-central/pull-request/91/fixing-missing-jobwrapper-import)**.
 * **Issue tracking help** is now covered in detailed in our new wiki: **[Using the Galaxy Issue Board](http://wiki.galaxyproject.org/Issues)**
 * **[GCC2013 Training Day Topic Nominations](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay) are now open** through ***[January 11th](http://wiki.galaxyproject.org/Events/GCC2013/KeyDates)***
-* Plus more **[Tool Shed](http://wiki.galaxyproject.org/Tool Shed)** updates, **Bug Fixes**, and improvements to **Trackster, UI, Libraries, and Histories**.
+* Plus more **[Tool Shed](http://wiki.galaxyproject.org/ToolShed)** updates, **Bug Fixes**, and improvements to **Trackster, UI, Libraries, and Histories**.
 
 ```
 new:     $ hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist
@@ -248,7 +248,7 @@ upgrade: $ hg pull -u -r 36ad8aa7b922
 <div class='indent'>
 **Highlights:**
 * **NGS: Mapping** tools **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz/)** have moved from the **[Galaxy distribution](https://bitbucket.org/galaxy/galaxy-dist)** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)**.
-* Improvements in the display of **[http://wiki.galaxyproject.org/Tool Shed](http://wiki.galaxyproject.org/Tool Shed)** repository dependencies and contents.
+* Improvements in the display of **[http://wiki.galaxyproject.org/ToolShed](http://wiki.galaxyproject.org/ToolShed)** repository dependencies and contents.
 * More **[Tool Shed](http://toolshed.g2.bx.psu.edu/)** updates including details of the [Functional test framework](http://wiki.galaxyproject.org/HostingALocalToolShed#Functional_test_framework_for_the_tool_shed), a new hgweb.config file and `HgWebConfigManager` tool, plus other management features.
 * Updated **UI** display and functionality for datasets and histories: new **paused** state and "resume/paused" toggle, new **History menu options** (seen at right &rarr;), and improved **Scatterplot** visualizations.
 * The **SGE** job runner has now been fully deprecated and replaced with **DRMAA**.

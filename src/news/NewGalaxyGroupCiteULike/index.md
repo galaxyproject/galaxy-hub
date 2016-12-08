@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[New Galaxy Group @ CiteULike](/src/news/New Galaxy Group @ CiteULike/index.md)</div>
+<div class='newsItemHeader'>[New Galaxy Group @ CiteULike](/src/news/NewGalaxyGroupCiteULike/index.md)</div>
 
 <div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/src/images/Logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
 

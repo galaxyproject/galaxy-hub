@@ -55,7 +55,7 @@ See our [Learning](/src/Learn/index.md) hub for key coverage of Galaxy user inte
 
 ## Custom Searches
 
-Looking for something specific? Try ***[Galaxy Custom Searches](/src/news/Custom Galaxy Search/index.md)*** with a keyword or phrase. The ***[MailingList](http://galaxyproject.org/search/mailinglists)*** search finds all related prior Q & A from the [Galaxy Biostar](/src/support/index.md#biostar) forum and any [Galaxy Project mailing lists](/src/MailingLists/index.md). The ***[UseGalaxy](http://galaxyproject.org/search/usegalaxy)*** search finds all online resources for information about using Galaxy.  This includes this wiki, tool help and shared Galaxy objects at [UseGalaxy.org](http://usegalaxy.org), and [Mailing Lists](/src/MailingLists/index.md).
+Looking for something specific? Try ***[Galaxy Custom Searches](/src/news/CustomGalaxySearch/index.md)*** with a keyword or phrase. The ***[MailingList](http://galaxyproject.org/search/mailinglists)*** search finds all related prior Q & A from the [Galaxy Biostar](/src/support/index.md#biostar) forum and any [Galaxy Project mailing lists](/src/MailingLists/index.md). The ***[UseGalaxy](http://galaxyproject.org/search/usegalaxy)*** search finds all online resources for information about using Galaxy.  This includes this wiki, tool help and shared Galaxy objects at [UseGalaxy.org](http://usegalaxy.org), and [Mailing Lists](/src/MailingLists/index.md).
 
 ## Biostar
 

@@ -9,7 +9,7 @@ title: Support
 Before submitting an error or posting a question to [Galaxy Biostar](https://biostar.usegalaxy.org/) or one of the [Mailing Lists](/src/support/index.md#mailing_lists), we ask that you please first review the support resources summarized here and search with our [Custom Tools](/src/support/index.md#custom_searches) or on tool pages through [Galaxy Biostar](https://biostar.usegalaxy.org/) to see if the same question has come up in the past.
 <br />
 <br />
-If you have help to offer other Galaxy users, *please dive right in* and reply to questions on the [Galaxy Biostar](https://biostar.usegalaxy.org/) forum or [Mailing Lists](/src/MailingLists/index.md), submit tools to the [/Tool Shed](/Tool Shed), add and up vote cards on the [Trello](http://bit.ly/gxytrello) Issue board. Share your expertise by adding your advice and tutorials into our [Wiki](/Wiki Help) or [Shared Data](https://usegalaxy.org/page/list_published) on [usegalaxy.org](http://usegalaxy.org) (Main)! 
+If you have help to offer other Galaxy users, *please dive right in* and reply to questions on the [Galaxy Biostar](https://biostar.usegalaxy.org/) forum or [Mailing Lists](/src/MailingLists/index.md), submit tools to the [/ToolShed](/ToolShed), add and up vote cards on the [Trello](http://bit.ly/gxytrello) Issue board. Share your expertise by adding your advice and tutorials into our [Wiki](/Wiki Help) or [Shared Data](https://usegalaxy.org/page/list_published) on [usegalaxy.org](http://usegalaxy.org) (Main)! 
 <br />
 <br />
 Galaxy is a [community](/src/Community/index.md) of scientists and developers working together to make great science happen! Communication, feedback, and contributions are *important*.
@@ -51,7 +51,7 @@ PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
 [FAQs](/src/Learn/FAQ/index.md) *are always under active development*. Both scientific and technical users are encouraged to add in their own tips and best practices for new and existing data types, tools, workflows, set-up, and administration.
 
 ## Custom Searches
-Finally, there are the ***[Galaxy Custom Searches](/News/Custom Galaxy Search)***. The ***[MailingList](http://galaxyproject.org/search/mailinglists)*** search finds all related prior Q & A from the [Galaxy Biostar](#biostar) forum and any [Galaxy Project mailing lists](/src/MailingLists/index.md). The ***[UseGalaxy](http://galaxyproject.org/search/usegalaxy)*** search finds all online resources for information about using Galaxy.  This includes this wiki, tool help and shared Galaxy objects at [UseGalaxy.org](http://usegalaxy.org), and [Mailing Lists](/src/MailingLists/index.md).
+Finally, there are the ***[Galaxy Custom Searches](/News/CustomGalaxySearch)***. The ***[MailingList](http://galaxyproject.org/search/mailinglists)*** search finds all related prior Q & A from the [Galaxy Biostar](#biostar) forum and any [Galaxy Project mailing lists](/src/MailingLists/index.md). The ***[UseGalaxy](http://galaxyproject.org/search/usegalaxy)*** search finds all online resources for information about using Galaxy.  This includes this wiki, tool help and shared Galaxy objects at [UseGalaxy.org](http://usegalaxy.org), and [Mailing Lists](/src/MailingLists/index.md).
 
 ## Biostar
 Galaxy has teamed up with [Biostar](http://biostars.org) to create a Galaxy User support forum at **[https://biostar.usegalaxy.org](https://biostar.usegalaxy.org)**.
@@ -88,7 +88,7 @@ The [Galaxy Issue Board](/src/Issues/index.md) supports [issue creation](http://
 
 There are many [Choices](/src/BigPicture/Choices/index.md) when you want to learn more **[about using Galaxy](/src/support/AboutGalaxy/index.md)**!
 
-In addition to using the [public Galaxy server](http://usegalaxy.org), you can also install your [own instance of Galaxy](/src/Admin/GetGalaxy/index.md), or create an [instance of Galaxy on the cloud using CloudMan](/src/CloudMan/index.md) and explore all [/Cloud](/src/Cloud/index.md) resources including [AWS in Education](http://aws.amazon.com/grants/) grants.  Another option is to use one of the ever-increasing number of [/Public Galaxy Servers](/Public Galaxy Servers) hosted by other organizations. And if you or your lab is looking to run their own local instance that is "ready-to-go", learn more about the [Slipstream Appliance: Galaxy Edition](http://www.bioteam.net/slipstream/galaxy-edition).
+In addition to using the [public Galaxy server](http://usegalaxy.org), you can also install your [own instance of Galaxy](/src/Admin/GetGalaxy/index.md), or create an [instance of Galaxy on the cloud using CloudMan](/src/CloudMan/index.md) and explore all [/Cloud](/src/Cloud/index.md) resources including [AWS in Education](http://aws.amazon.com/grants/) grants.  Another option is to use one of the ever-increasing number of [/PublicGalaxyServers](/PublicGalaxyServers) hosted by other organizations. And if you or your lab is looking to run their own local instance that is "ready-to-go", learn more about the [Slipstream Appliance: Galaxy Edition](http://www.bioteam.net/slipstream/galaxy-edition).
 
 The GALAXY Framework at the highest level is a set of reusable software components. Learn more about [Galaxy's Architecture](/Admin/Internals/Implementation Info).
 

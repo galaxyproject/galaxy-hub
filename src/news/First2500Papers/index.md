@@ -2,7 +2,7 @@
 
 <div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/src/images/Logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
 
-The [Galaxy CiteULike library](http://bit.ly/gxyCiteULike) recently reached a milestone:  It now has over 2500 publications in it.  The [Galaxy CiteULike Group](http://bit.ly/gxyCiteULike) was [launched in December 2011](/src/news/New Galaxy Group @ CiteULike/index.md) and [reached 1000 papers 18 months later](/src/news/GalaxyCiteULikePaper1000/index.md). 
+The [Galaxy CiteULike library](http://bit.ly/gxyCiteULike) recently reached a milestone:  It now has over 2500 publications in it.  The [Galaxy CiteULike Group](http://bit.ly/gxyCiteULike) was [launched in December 2011](/src/news/NewGalaxyGroupCiteULike/index.md) and [reached 1000 papers 18 months later](/src/news/GalaxyCiteULikePaper1000/index.md). 
 
 To be included in the library a publication needs to reference or mention Galaxy, extend Galaxy, use or reference a Galaxy instance, or otherwise discuss Galaxy or [cite one of the Galaxy Project papers](/src/CitingGalaxy/index.md).
 

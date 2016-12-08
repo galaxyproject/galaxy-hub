@@ -18,8 +18,8 @@ title: January 20, 2012 Galaxy Development News Brief
 ## News & Events
 
 * Make your plans!! **[GCC2012](/src/events/GCC2012/index.md)**
-* New [Galaxy Group @ CiteULike](/src/news/New Galaxy Group @ CiteULike/index.md)
-* Find it *now* with [Custom Galaxy Web Searches](/src/news/Custom Galaxy Search/index.md)
+* New [Galaxy Group @ CiteULike](/src/news/NewGalaxyGroupCiteULike/index.md)
+* Find it *now* with [Custom Galaxy Web Searches](/src/news/CustomGalaxySearch/index.md)
 * New low-volume mailing list: [Galaxy-Announce](/src/news/New Galaxy-Announce Mailing List/index.md)
 
 ## Object Store
