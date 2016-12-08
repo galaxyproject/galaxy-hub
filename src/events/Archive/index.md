@@ -2316,7 +2316,7 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
     <td> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
-    <td> <em>Finding missing analysis tools with Galaxy <a href='/src/Tool Shed/index.md'>ToolShed</a>—A case of mitochondrial RNA modification</em> </td>
+    <td> <em>Finding missing analysis tools with Galaxy <a href='/src/ToolShed/index.md'>ToolShed</a>—A case of mitochondrial RNA modification</em> </td>
     <td> </td>
     <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>

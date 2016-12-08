@@ -1,6 +1,6 @@
 ## Tool Dependencies
 
-Galaxy provides a method for managing the dependencies of Galaxy tools installed from the [Tool Shed](/src/Tool Shed/index.md).  In this case, it is simply necessary to set the `tool_dependency_dir` option of `config/galaxy.ini` to a path writable by the Galaxy server.
+Galaxy provides a method for managing the dependencies of Galaxy tools installed from the [Tool Shed](/src/ToolShed/index.md).  In this case, it is simply necessary to set the `tool_dependency_dir` option of `config/galaxy.ini` to a path writable by the Galaxy server.
 
 However, some tools which have not been migrated to the Tool Shed still require manual installation of dependent binaries. In addition, administrators may choose to utilize existing versions of dependencies already installed on the system, rather than rely on versions installed from the Tool Shed. The documentation below covers these cases.
 

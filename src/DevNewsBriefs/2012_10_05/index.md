@@ -73,7 +73,7 @@ If called with the `--help` option, it will output usage information.  The datas
 <br />
 # Tool Shed
 
-The **[Tool Shed](/src/Tool Shed/index.md)** wiki has been re-written with a new, cleaner presentation. *[Check it out!](/src/Tool Shed/index.md)*
+The **[Tool Shed](/src/ToolShed/index.md)** wiki has been re-written with a new, cleaner presentation. *[Check it out!](/src/ToolShed/index.md)*
 
 ### New tool shed features
 

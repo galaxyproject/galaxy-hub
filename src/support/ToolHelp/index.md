@@ -10,7 +10,7 @@ Back to [Support](/src/support/index.md)
 **Documentation is on the tool form itself** covering:
 * Parameters
 * Expected format for input [dataset(s)](/src/Learn/Managing Datasets/index.md)
-* Links to publications and [Tool Shed](/src/Tool Shed/index.md) source repositories
+* Links to publications and [Tool Shed](/src/ToolShed/index.md) source repositories
 * Tool and wrapper version(s)
 * 3rd party author web sites and documentation
 * Links to [Galaxy Biostar](https://biostar.usegalaxy.org/) prior Q&A, tutorials, and form to ask new questions
