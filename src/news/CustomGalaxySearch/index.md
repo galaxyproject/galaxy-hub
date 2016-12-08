@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[Custom Galaxy Search](/src/news/Custom Galaxy Search/index.md)</div>
+<div class='newsItemHeader'>[Custom Galaxy Search](/src/news/CustomGalaxySearch/index.md)</div>
 
 <div class='center'>
 <a href='http://galaxyproject.org/search/web'><img src="/src/images/Logos/GalaxyWebSearch.png" alt="Galaxy Web Search" width="170" /></a> <a href='http://galaxyproject.org/search/mailinglists'><img src="/src/images/Logos/GalaxyMailingListSearch.png" alt="Galaxy Mailing List Search" width="170" /></a> <a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/Logos/UseGalaxySearch.png" alt="Using Galaxy Web Search" width="170" /></a> <a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/images/Logos/GetGalaxySearch.png" alt="Galaxy administration, tool, and deployment search" width="170" /></a>
