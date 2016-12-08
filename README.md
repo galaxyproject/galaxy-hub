@@ -1,3 +1,5 @@
+# Galaxy Community Hub
+
 Source for the Galaxy Community Website. This is a static website built using
 [metalsmith][1]. If you're contributing via the GitHub web editor, you can
 likely ignore all of the build instructions below and simply edit the source
@@ -28,3 +30,13 @@ to use a docker-based node binary identical to what we use to build and publish
 the final build artifacts.
 
 [1]: http://www.metalsmith.io/
+
+## Handling of images
+
+We are handling large files and image via [git-lfs](https://git-lfs.github.com/). If you want to add new images please [install git-lfs](https://packagecloud.io/github/git-lfs/install) and run
+
+```
+git lfs install
+```
+
+Everything else should work as expected. `add` and `commit` your changes and images and everything will be handeled automatically by git-lfs, github and friends.
