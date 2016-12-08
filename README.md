@@ -1,7 +1,7 @@
 # Galaxy Community Hub
 
-Source for the Galaxy Community Website. This is a static website built using
-[metalsmith][1].
+Source for the [Galaxy Community Website](https://new.galaxyproject.org/). This
+is a static website built using [metalsmith][1].
 
 ## Editing the site
 
