@@ -36,12 +36,6 @@ To serve the site locally, on port 8080, run:
 make serve
 ```
 
-or, if you'd like to use 'live reload' for developing, use the following command:
-
-```
-make watch
-```
-
 Please see the Makefile for more information and options, including the ability
 to use a Docker-based node binary identical to what we use to build and publish
 the final build artifacts. If you would like to learn more about how it all
