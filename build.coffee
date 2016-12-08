@@ -48,7 +48,9 @@ subs = (files, metalsmith, done) ->
                     r = "PLACEHOLDER_INCLUDE("+z.search+")"
                     if contents.indexOf(r) != -1
                         contents = contents.replace(r, z.replace)
-                while match = md_link_pattern.exec(contents)
+                matches = []
+                matches.push(match) while match = md_link_pattern.exec(contents)
+                for match in matches
                     rep = match[2]
                     #TODO: Do this with a regex too
                     if rep.startsWith('/src')
@@ -60,14 +62,18 @@ subs = (files, metalsmith, done) ->
                         # in-page anchors.
                         rep = rep.replace('index.md', '')
                     contents = contents.split(match[0]).join("["+match[1]+"]("+rep+")")
-                while match = html_link_pattern.exec(contents)
+                matches = []
+                matches.push(match) while match = html_link_pattern.exec(contents)
+                for match in matches
                     rep = match[1]
                     if rep.startsWith('/src')
                         rep = rep.substr(4)
                     if rep.startsWith('/')
                         rep = rep.replace('index.md', '')
                     contents = contents.split(match[0]).join('href="'+rep+'"')
-                while match = html_img_pattern.exec(contents)
+                matches = []
+                matches.push(match) while match = html_img_pattern.exec(contents)
+                for match in matches
                     # Simply match and drop leading /src/ from images.
                     contents = contents.split(match[0]).join('src="'+match[1]+'"')
                 files[file].contents = contents
