@@ -26,7 +26,7 @@ The [Learn](/src/Learn/index.md) pages include information on how to use Main an
 * [Frequently Asked Questions](/src/Main/FAQ/index.md)
 * [Main Status Notices](/src/Main/Notices/index.md)
 * [Datasets](/src/Learn/Managing Datasets/index.md)
-* [Disk Quotas](/src/Admin/Disk Quotas/index.md)
+* [Disk Quotas](/src/Admin/DiskQuotas/index.md)
 * [Data Libraries](/src/Main/DataLibraries/index.md)
 * [Datatypes](/src/Learn/Datatypes/index.md)
 * [Data Sources](/src/Learn/DataSources/index.md)
@@ -228,7 +228,7 @@ Please see the [Support](/src/support/index.md#error_from_tools) wiki for help i
 
 ## Developers and Administrators
 
-New Admin features have been added and more are planned for in the near term. Details explained in: [Disk Quotas](/src/Admin/Disk Quotas/index.md). Feedback about the implementation of quota management is welcomed at the [mailing list](/src/MailingLists/index.md) galaxy-dev@bx.psu.edu .
+New Admin features have been added and more are planned for in the near term. Details explained in: [Disk Quotas](/src/Admin/DiskQuotas/index.md). Feedback about the implementation of quota management is welcomed at the [mailing list](/src/MailingLists/index.md) galaxy-dev@bx.psu.edu .
 
 ## Quotas at the Galaxy Test public instance
 

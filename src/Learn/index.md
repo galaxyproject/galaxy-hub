@@ -87,7 +87,7 @@ Learning the basics of how to manage datasets helps to focus analysis on the sci
 * [Managing Datasets](/src/Learn/ManagingDatasets/index.md) - Attributes, Copy, Clone, Delete and more.
 * [Datatypes](/src/Learn/Datatypes/index.md) - Specifications for the datatypes used and produced by Galaxy's tools.
 * [Main](/src/Main/index.md) and [Test](/src/Test/index.md) Quotas - User account allocations for data and jobs. 
-* [Data management: accounting and disk quotas](/src/Admin/Disk Quotas/index.md) - Implementation details.
+* [Data management: accounting and disk quotas](/src/Admin/DiskQuotas/index.md) - Implementation details.
 * [Admin/Datatypes](/src/Admin/Datatypes/index.md) & [Admin/Data Integration](/src/Admin/Data Integration/index.md) - Instructions about adding new datasets (genomes) and datatypes to a local Galaxy instance
 
 ## Tools
