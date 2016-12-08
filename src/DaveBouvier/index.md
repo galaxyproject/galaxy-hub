@@ -12,7 +12,3 @@ I am a system administrator, programmer, and a part of the [Galaxy Team](/src/Ga
     <td> <a href="mailto:dave AT bx DOT psu DOT edu">dave AT bx DOT psu DOT edu</a> </td>
   </tr>
 </table>
-
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

@@ -16,7 +16,3 @@ Associate Professor of  [Biology](http://www.bio.jhu.edu/) at [Johns Hokins Univ
     <td> <a href='http://www.bio.jhu.edu/Faculty/Taylor/Default.html'>Home page</a> </td>
   </tr>
 </table>
-
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

@@ -32,6 +32,3 @@ The following components have gone through several phases of development.  Greg 
 
 * [Galaxy Sample Tracking](/src/Admin/DataLibraries/LibrarySampleTracking/index.md)
 * [Galaxy Data Libraries](/src/Admin/DataLibraries/index.md)
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

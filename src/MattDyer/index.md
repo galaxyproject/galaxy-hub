@@ -10,5 +10,3 @@ Matt will be presenting the [Ion Torrent - Open Source Sequencing](/src/events/G
 See [Matt's LinkedIn profile](http://www.linkedin.com/pub/matt-dyer/b/298/228) for more on his background.
 
 **Email: ** [Matt DOT Dyer AT lifetech DOT com](mailto:Matt DOT Dyer AT lifetech DOT com)
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

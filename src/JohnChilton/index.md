@@ -21,5 +21,3 @@ Email: [jmchilton AT SPAMFREE gmail DOT com ](mailto:jmchilton AT SPAMFREE gmail
 
 ...
 
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

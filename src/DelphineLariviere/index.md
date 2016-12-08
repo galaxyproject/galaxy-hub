@@ -15,6 +15,3 @@
     <td> <a href="mailto:delphine DOT lariviere AT galaxyproject DOT org">delphine DOT lariviere AT galaxyproject DOT org</a> </td>
   </tr>
 </table>
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

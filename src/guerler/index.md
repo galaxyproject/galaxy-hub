@@ -11,7 +11,3 @@ Aysam is a software engineer in the [Taylor Lab](http://taylorlab.org/) at [John
     <td> <a href="mailto:aysam DOT guerler AT gmail DOT com">aysam DOT guerler AT gmail DOT com</a> </td>
   </tr>
 </table>
-
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

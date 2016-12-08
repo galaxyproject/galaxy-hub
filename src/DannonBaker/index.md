@@ -22,6 +22,3 @@ Dannon is a software engineer in the [Taylor Lab](http://taylorlab.org/) at [Joh
     <td> irc.freenode.net : dannon </td>
   </tr>
 </table>
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

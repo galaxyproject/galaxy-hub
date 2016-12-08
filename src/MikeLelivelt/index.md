@@ -10,5 +10,3 @@ Mike will be speaking about Ion Torrent at [GCC2012](/src/events/GCC2012/index.m
 See [Mikes's LinkedIn profile](http://www.linkedin.com/in/lelivelt) for more on his background.
 
 **Email: ** [Mike DOT Lelivelt AT lifetech DOT com](mailto:Mike DOT Lelivelt AT lifetech DOT com)
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)
