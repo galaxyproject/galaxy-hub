@@ -14,7 +14,7 @@ If you get an error on Test, there are many possible reasons for it. You might t
 The [Learn](/src/Learn/index.md) pages include information on how to use Test, Main, and most other Galaxy instances. Also see:
 
 * [Datasets](/src/Learn/Managing Datasets/index.md)
-* [Disk Quotas](/src/Admin/Disk Quotas/index.md)
+* [Disk Quotas](/src/Admin/DiskQuotas/index.md)
 
 See [Choices](/src/BigPicture/Choices/index.md) for more on other choices for using and running Galaxy.
 
@@ -244,7 +244,7 @@ If you are involved with scientific or functional testing of a new Galaxy tool, 
 
 ## Developers and Administrators
 
-New Admin features have been added and more are planned for in the near term. Details explained in: [Disk Quotas](/src/Admin/Disk Quotas/index.md). Feedback about the implementation of quota management is welcomed at the [Galaxy-Dev mailing list](/src/MailingLists/index.md).
+New Admin features have been added and more are planned for in the near term. Details explained in: [Disk Quotas](/src/Admin/DiskQuotas/index.md). Feedback about the implementation of quota management is welcomed at the [Galaxy-Dev mailing list](/src/MailingLists/index.md).
 
 ## Quotas at the Galaxy Main public instance
 
