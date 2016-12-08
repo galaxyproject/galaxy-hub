@@ -13,7 +13,7 @@ bower = (files, metalsmith, done) ->
                 contents: contents
     include('css', bower_files.self().ext('css').files)
     include('js', bower_files.self().ext('js').files)
-    include('fonts', bower_files.self().ext(['eot','otf','ttf','woff']).files)
+    include('fonts', bower_files.self().ext(['eot','otf','ttf','woff','woff2']).files)
     done()
 
 link_to_orig_path = (files, metalsmith, done) ->
