@@ -33,10 +33,10 @@ the final build artifacts.
 
 ## Handling of images
 
-We are handling large files and image via [git-lfs](https://git-lfs.github.com/). If you want to add new images please [install git-lfs](https://packagecloud.io/github/git-lfs/install) and run
+We are handling large files and images via [git-lfs](https://git-lfs.github.com/). If you want to add new images please [install git-lfs](https://packagecloud.io/github/git-lfs/install) and run
 
 ```
 git lfs install
 ```
 
-Everything else should work as expected. `add` and `commit` your changes and images and everything will be handeled automatically by git-lfs, github and friends.
+Everything else should work as expected. `add` and `commit` your changes and images and everything will be handled automatically by git-lfs, github and friends.
