@@ -29,7 +29,7 @@ clear_collections = (files, metalsmith, done) ->
     done()
 
 replacement_data = require("./src/includes.json")
-md_link_pattern = /\[.*?\]\((.*?)\)/g
+md_link_pattern = /\[([^\]]*)\]\(([^\)]*)\)/g
 html_link_pattern = /href=[\'"]?([^\'" >]+)[\'"]/g
 html_img_pattern = /src=[\'"]\/src?([^\'" >]+)[\'"]/g
 
@@ -48,8 +48,10 @@ subs = (files, metalsmith, done) ->
                     r = "PLACEHOLDER_INCLUDE("+z.search+")"
                     if contents.indexOf(r) != -1
                         contents = contents.replace(r, z.replace)
-                while match = md_link_pattern.exec(contents)
-                    rep = match[1]
+                matches = []
+                matches.push(match) while match = md_link_pattern.exec(contents)
+                for match in matches
+                    rep = match[2]
                     #TODO: Do this with a regex too
                     if rep.startsWith('/src')
                         # Drop leading /src
@@ -59,17 +61,21 @@ subs = (files, metalsmith, done) ->
                         # Replace is simpler here because we have to consider
                         # in-page anchors.
                         rep = rep.replace('index.md', '')
-                    contents = contents.replace("("+match[1]+")", "("+rep+")")
-                while match = html_link_pattern.exec(contents)
+                    contents = contents.split(match[0]).join("["+match[1]+"]("+rep+")")
+                matches = []
+                matches.push(match) while match = html_link_pattern.exec(contents)
+                for match in matches
                     rep = match[1]
                     if rep.startsWith('/src')
                         rep = rep.substr(4)
                     if rep.startsWith('/')
                         rep = rep.replace('index.md', '')
-                    contents = contents.replace(match[0],'href="'+rep+'"')
-                while match = html_img_pattern.exec(contents)
+                    contents = contents.split(match[0]).join('href="'+rep+'"')
+                matches = []
+                matches.push(match) while match = html_img_pattern.exec(contents)
+                for match in matches
                     # Simply match and drop leading /src/ from images.
-                    contents = contents.replace(match[0],'src="'+match[1]+'"')
+                    contents = contents.split(match[0]).join('src="'+match[1]+'"')
                 files[file].contents = contents
     done()
 
