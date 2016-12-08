@@ -43,11 +43,11 @@ Galaxy administrators can perform this feature on any data library item and can 
 
 To move a single dataset, select the **Move this dataset** option from the dataset's pop-up menu.
 
-![](/src/news Briefs/2011_04_08/2011_04_08_g1_move_dataset.png)
+![](/src/DevNewsBriefs/2011_04_08/2011_04_08_g1_move_dataset.png)
 
 The default behavior is to move items to other locations within the same data library, so you'll initially be presented with a list of valid folders from which to choose for the new target location.
 
-![](/src/news Briefs/2011_04_08/2011_04_08_g2_select_folder.png)
+![](/src/DevNewsBriefs/2011_04_08/2011_04_08_g2_select_folder.png)
 
 After selecting the desired folder, clicking the **Move** button will move the dataset to the selected folder.
 
@@ -55,13 +55,13 @@ After selecting the desired folder, clicking the **Move** button will move the d
 
 Moving a folder is very similar to moving a single dataset - just select the **Move this folder** option from the folder's pop-up menu.
 
-![](/src/news Briefs/2011_04_08/2011_04_08_g3_move_folder.png)
+![](/src/DevNewsBriefs/2011_04_08/2011_04_08_g3_move_folder.png)
 
 To move the folder to a different data library, after selecting the **Move this folder** option, click the __Choose another data library__ link on the **Move data library items** page. The  folders select list will change to a select list of data libraries to which you are authorized to move the item.  When you select a target data library, the select list will change again to display the list of folders in the selected data library to which you are authorized to move the item. Clicking the **Move** button will move the folder and all of it's contents to the selected target folder within the selected target data library.  
 
 The target folders select list is filtered to include only valid folders to which you can move the item.  For example, you cannot move a folder to one of it's own sub-folders in one step.  To do this, the sub-folder must be moved outside of it's parent, and then the parent can be moved to the folder that it previously contained.
 
-![](/src/news Briefs/2011_04_08/2011_04_08_g4_move_folder1.png)
+![](/src/DevNewsBriefs/2011_04_08/2011_04_08_g4_move_folder1.png)
 
 ----
 
@@ -118,7 +118,7 @@ The target folders select list is filtered to include only valid folders to whic
 
 #### A typical output looks like this:
 
-![](/src/news Briefs/2011_04_08/2011_04_08_rgWebLogo3_test.jpg)
+![](/src/DevNewsBriefs/2011_04_08/2011_04_08_rgWebLogo3_test.jpg)
 
 ### Community Tools (Tool Shed)
 
@@ -136,15 +136,15 @@ The target folders select list is filtered to include only valid folders to whic
 
 1. Apply a corrected version of the patch from Peter Cock that flips the "Preserve directory structure?" setting when uploading library datasets from filesystem paths.  The checkbox is now "yes" instead of the original "no", and is checked by default.
 
-![](/src/news Briefs/2011_04_08/2011_04_08_g5_preserve.png)
+![](/src/DevNewsBriefs/2011_04_08/2011_04_08_g5_preserve.png)
 
 2. Flip the behavior of the "Copy data into Galaxy" feature when uploading library datasets (similar to 1 above) to be more clear and logical.  Instead of a single checkbox, this is now a select list with clearly defined options.  The default setting is to copy the files into the configured Galaxy file store.
 
-![](/src/news Briefs/2011_04_08/2011_04_08_g6_copy_files.png)
+![](/src/DevNewsBriefs/2011_04_08/2011_04_08_g6_copy_files.png)
 
 3. Allow importing items from a history to replace a library dataset with a new version.  Previously, you could only replace a library dataset with a new version by uploading a single file.
 
-![](/src/news Briefs/2011_04_08/2011_04_08_g7_replace_dataset.png)
+![](/src/DevNewsBriefs/2011_04_08/2011_04_08_g7_replace_dataset.png)
 
 ### Workflows
 
@@ -178,7 +178,7 @@ The target folders select list is filtered to include only valid folders to whic
 
 Track of reads mapped using *Tophat* (spliced) including the transcript assembled from those reads.
 
-![](/src/news Briefs/2011_04_08/2011_04_08_j1_trackster.png)
+![](/src/DevNewsBriefs/2011_04_08/2011_04_08_j1_trackster.png)
 
 ### User Interface (UI)
 

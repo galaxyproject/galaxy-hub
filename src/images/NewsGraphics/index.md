@@ -1,6 +1,6 @@
 PLACEHOLDER_INCLUDE(/src/images/LinkBox/index.md)
 
-Common place to store supplemental graphics used in communications, such as [News Briefs](/src/news Briefs/index.md). May have a date stamp.
+Common place to store supplemental graphics used in communications, such as [News Briefs](/src/DevNewsBriefs/index.md). May have a date stamp.
 
 ## Other image types
 
