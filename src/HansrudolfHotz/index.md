@@ -8,6 +8,3 @@ Maulbeerstrasse 66 <br />
 Email: [hrh AT SPAMFREE fmi DOT ch](mailto:hrh AT SPAMFREE fmi DOT ch)
 
 ...
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

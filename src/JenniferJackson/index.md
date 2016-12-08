@@ -22,6 +22,3 @@ https://www.linkedin.com/in/jenniferhillmanjackson
     <td> jen A.T galaxyproject D.O.T org</td>
   </tr>
 </table>
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

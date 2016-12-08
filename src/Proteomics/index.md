@@ -31,5 +31,3 @@ GitHub:
 * [John Chilton](https://github.com/jmchilton)
 
 ...
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

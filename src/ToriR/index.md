@@ -23,8 +23,3 @@ I am a 4th grader at [Family School](http://www.family.4j.lane.edu/FamilySchool/
     <td> My poster (click to enlarge) </td>
   </tr>
 </table>
-
-
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

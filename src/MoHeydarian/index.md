@@ -13,7 +13,3 @@
     <td> <a href="mailto:mo AT galaxyproject DOT org">mo AT galaxyproject DOT org</a> </td>
   </tr>
 </table>
-
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

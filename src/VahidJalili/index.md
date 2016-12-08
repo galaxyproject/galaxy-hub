@@ -15,7 +15,3 @@ Vahid is a post-doctoral researcher at George Washington University, where he wo
     <td> <a href="mailto:jalili DOT vahid AT gmail DOT com">jalili DOT vahid AT gmail DOT com</a> </td>
   </tr>
 </table>
-
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

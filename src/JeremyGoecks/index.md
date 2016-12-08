@@ -16,7 +16,3 @@ Jeremy is an Assistant Professor of Computational Biology at George Washington U
     <td> <a href='http://goeckslab.org'>Home Page</a> </td>
   </tr>
 </table>
-
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)
