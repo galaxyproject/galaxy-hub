@@ -4,7 +4,7 @@ date: 2011-10-31T21:09:26Z
 <div class='newsItemHeader'>[November 2011 Galaxy Events](/News/November 2011 Galaxy Events)</div>
 
 <div class='right'>
-<a href='http://meetings.cshl.edu/courses.html'><img src='/Images/Logos/CSHL_Logo75x75.gif' alt='CSHL Courses' height="70" /></a>&nbsp;<a href='http://www.intlpag.org/'><img src='/Images/Logos/PAGLogo114.png' alt='Plant and Animal Genome (PAG 2012)' height="75" /></a>&nbsp;&nbsp;<a href='http://www.nowgen.org.uk/facilities/events/event.php?id=30'><img src='/Images/Logos/nowgenLogo180.png' alt='Reproducible workflows for next generation sequencing analysis' /></a>
+<a href='http://meetings.cshl.edu/courses.html'><img src='/images/Logos/CSHL_Logo75x75.gif' alt='CSHL Courses' height="70" /></a>&nbsp;<a href='http://www.intlpag.org/'><img src='/images/Logos/PAGLogo114.png' alt='Plant and Animal Genome (PAG 2012)' height="75" /></a>&nbsp;&nbsp;<a href='http://www.nowgen.org.uk/facilities/events/event.php?id=30'><img src='/images/Logos/nowgenLogo180.png' alt='Reproducible workflows for next generation sequencing analysis' /></a>
 </div>
 
 There are several Galaxy related events going on at Cold Spring Harbor Laboratory in November, but if you aren't already registered for those it is now too late to get in.  However, there are several deadlines in November and events in the coming months.  See the [/Events](/src/events/index.md) page for a full listing of upcoming events.  If you have a Galaxy related event please send it to outreach@galaxyproject.org and we will help you get the word out.

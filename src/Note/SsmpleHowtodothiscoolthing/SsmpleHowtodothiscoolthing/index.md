@@ -12,7 +12,7 @@ This will be some text *describing what this is about*. Then maybe a few bullet 
 * and ** wow**
 
 [<Screencast>](/screencast/fake) link.
-* http://wiki.galaxyproject.org/Images/ScreencastFrame
+* http://wiki.galaxyproject.org/images/ScreencastFrame
 
 Graphics:
 * [NewsGraphics](/src/images/NewsGraphics/index.md) are used in communications, such as [Galaxy Development News Briefs](/src/DevNewsBriefs/index.md). May have a date stamp.

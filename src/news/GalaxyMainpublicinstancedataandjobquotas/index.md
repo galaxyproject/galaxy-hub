@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[Galaxy Main public instance: data and job quotas](/News/Galaxy Main public instance: data and job quotas)</div>
 
-<div class='right'><a href='http://usegalaxy.org/'><img src='/Images/Screenshots/GalaxyMainHome.png' alt='usegalaxy.org' width="200px" /></a></div>
+<div class='right'><a href='http://usegalaxy.org/'><img src='/images/Screenshots/GalaxyMainHome.png' alt='usegalaxy.org' width="200px" /></a></div>
 ### Dear Galaxy User
 **Thank you *very much*** for using our *free and open* public resource. **[Galaxy](http://usegalaxy.org) has become extremely popular** and as a result many people rely on it daily for their analysis needs. Previously our service had no restrictions on usage, which is not sustainable in the long term. *To continue providing our open service in a **fair manner***, we are now implementing **quotas at the public Galaxy Main instance** http://usegalaxy.org (http://main.g2.bx.psu.edu).
 ### Thanks for using Galaxy!

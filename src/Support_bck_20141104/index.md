@@ -18,15 +18,15 @@ Galaxy is a [community](/src/Community/index.md) of scientists and developers wo
 <div class='right'>PLACEHOLDER_INCLUDE(/Support/LinkBox)</div>
 <div class='right'>
 <br />
-<a href='http://galaxyproject.org/search/web'><img src='/Images/Logos/GalaxyWebSearch.png' alt='Galaxy Web Search' width="170" /></a> <br />
+<a href='http://galaxyproject.org/search/web'><img src='/images/Logos/GalaxyWebSearch.png' alt='Galaxy Web Search' width="170" /></a> <br />
 <br />
-<a href='http://galaxyproject.org/search/mailinglists'><img src='/Images/Logos/GalaxyMailingListSearch.png' alt='Galaxy Mailing List Search' width="170" /></a>
-<br />
-<br />
-<a href='http://galaxyproject.org/search/usegalaxy'><img src='/Images/Logos/UseGalaxySearch.png' alt='Using Galaxy Web Search' width="170" /></a>
+<a href='http://galaxyproject.org/search/mailinglists'><img src='/images/Logos/GalaxyMailingListSearch.png' alt='Galaxy Mailing List Search' width="170" /></a>
 <br />
 <br />
-<a href='http://galaxyproject.org/search/getgalaxy'><img src='/Images/Logos/GetGalaxySearch.png' alt='Galaxy administration, tool, and deployment search' width="170" /></a>
+<a href='http://galaxyproject.org/search/usegalaxy'><img src='/images/Logos/UseGalaxySearch.png' alt='Using Galaxy Web Search' width="170" /></a>
+<br />
+<br />
+<a href='http://galaxyproject.org/search/getgalaxy'><img src='/images/Logos/GetGalaxySearch.png' alt='Galaxy administration, tool, and deployment search' width="170" /></a>
 </div>
 <div class='left'>
 # Using Galaxy
@@ -57,12 +57,12 @@ Finally, there are the ***[Galaxy Custom Searches](/News/CustomGalaxySearch)***.
 Galaxy has teamed up with [Biostar](http://biostars.org) to create a Galaxy User support forum at **[https://biostar.usegalaxy.org](https://biostar.usegalaxy.org)**.
 <br />
  **[How to login and use...](/src/support/Biostar/index.md)**
-<div class='right'><a href='https://biostar.usegalaxy.org/'><img src='/Images/Logos/GalaxyBiostar.png' alt='Galaxy Biostar' width="250" /></a></div>
+<div class='right'><a href='https://biostar.usegalaxy.org/'><img src='/images/Logos/GalaxyBiostar.png' alt='Galaxy Biostar' width="250" /></a></div>
 We want to create a space where researchers using Galaxy can come together and share both scientific advice and practical tool help.  Whether on **[http://usegalaxy.org](http://usegalaxy.org)**, a **[Cloudman](http://usegalaxy.org/cloud)** instance, or any **[other](/src/PublicGalaxyServers/index.md) [Galaxy](http://getgalaxy.org)**, if you have something to say about **Using Galaxy**, this is the place to do it!
 
 ## Mailing Lists
 Galaxy has one public mailing lists for questions, one private mailing list for bug reports, and one announcement mailing list. Please do not post questions through the **[Galaxy Issue Board](/src/Issues/index.md)**; these will only be redirected. Manage subscriptions and learn more about these list at the **[Mailing Lists](/src/MailingLists/index.md)** home page. See also:
-<div class='right'>![](/Images/Logos/MailmanLogoSmall.png)</div>
+<div class='right'>![](/images/Logos/MailmanLogoSmall.png)</div>
 * [Error from tools: Sending in a specific-use bug report](/src/support/index.md#error_from_tools)
 * [Starting a technical tool, local, cloud instance, or development thread](/src/support/index.md#starting_a_technical_tool2c_local2fcloud_instance2c_or_development_thread)
 * [Reporting/vetting a software bug](/src/support/index.md#reporting_a_software_bug)
@@ -71,13 +71,13 @@ Galaxy has one public mailing lists for questions, one private mailing list for 
 
 ## Galaxy Issue Board
 
-<div class='right'><a href='/Issues'><img src='/Images/Logos/TrelloLogo300.png' alt='Galaxy Issue Board' width="140" /></a></div>
+<div class='right'><a href='/Issues'><img src='/images/Logos/TrelloLogo300.png' alt='Galaxy Issue Board' width="140" /></a></div>
 
 The Galaxy Project uses [Trello](http://bit.ly/gxytrello) for [issue tracking and feature requests](/src/Issues/index.md).
 The [Galaxy Issue Board](/src/Issues/index.md) supports [issue creation](http://galaxyproject.org/trello), [commenting](/src/Issues/index.md#add-a-comment), and [voting](/src/Issues/index.md#vote) on issues.
 
 ## About Galaxy
-<div class='right'><a href='http://galaxyproject.org'><img src='/Images/Screenshots/GalaxyProjectOrg.png' alt='GalaxyProject.org' width="300" /></a></div>
+<div class='right'><a href='http://galaxyproject.org'><img src='/images/Screenshots/GalaxyProjectOrg.png' alt='GalaxyProject.org' width="300" /></a></div>
 **Galaxy is an open, web-based platform for data intensive biomedical research.**
 <br />
 <br />
@@ -92,7 +92,7 @@ In addition to using the [public Galaxy server](http://usegalaxy.org), you can a
 
 The GALAXY Framework at the highest level is a set of reusable software components. Learn more about [Galaxy's Architecture](/Admin/Internals/Implementation Info).
 
-<div class='left'><a href='http://usegalaxy.org'><img src='/Images/Logos/GalaxyLogoHighRes.png' alt='UseGalaxy.org' width="200" /></a></div>
+<div class='left'><a href='http://usegalaxy.org'><img src='/images/Logos/GalaxyLogoHighRes.png' alt='UseGalaxy.org' width="200" /></a></div>
 [Galaxy Project](/src/GalaxyProject/index.md) • [Big Picture](/src/BigPicture/index.md) • [/Community](/src/Community/index.md) • [Get Galaxy](/src/Admin/GetGalaxy/index.md) • [/CloudMan](/src/CloudMan/index.md) • [Tool Shed](/src/ToolShed/index.md) • [/Develop](/src/Develop/index.md) • [News Briefs](/src/DevNewsBriefs/index.md) • [Servers](/src/PublicGalaxyServers/index.md) • [/Learn](/src/Learn/index.md) • [/Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/src/news/index.md) • [Twitter](/src/GalaxyOnTwitter/index.md) • [/Events](/src/events/index.md) • [/Teach](/src/Teach/index.md) • [/Issues](/src/Issues/index.md) • [Cite](/src/CitingGalaxy/index.md) • [About Galaxy](/src/support/AboutGalaxy/index.md) • [Galaxy Team](/src/GalaxyTeam/index.md)
 <br />
 <br />
@@ -230,7 +230,7 @@ Have you been asked to share a history? Or has someone shared a workflow with yo
 * Tools for fixing/converting/modifing a [dataset](/Learn/Managing Datasets) will often include the [datatype name](/Learn/Datatypes). Use the tool search to locate candidate tools, likely in tool groups ***Text Manipulation, Convert Formats, or NGS: QC and manipulation***. 
 * The most commonly used tools for investigating problems with upload, format and making corrections are:
     **TIP**: use the Tool search in top left panel to find tools by keyword
-  * ***Edit Attributes*** form, found by clicking a dataset's ![](/Images/Icons/pencil.png) icon
+  * ***Edit Attributes*** form, found by clicking a dataset's ![](/images/Icons/pencil.png) icon
   * ***Convert Format*** tool group
   * **Select first lines from a dataset**
   * **Select last lines from a dataset**
@@ -361,7 +361,7 @@ Video: **[Custom Genomes](http://vimeo.com/galaxyproject/customgenome)**
 # Public mailing list Q & A discussions
 <br />
 
-<div class='right'><br /><a href='/MailingLists#searching'><img src='/Images/Logos/GalaxyMailingListSearch.png' alt='Search all' width="175" /></a></div>
+<div class='right'><br /><a href='/MailingLists#searching'><img src='/images/Logos/GalaxyMailingListSearch.png' alt='Search all' width="175" /></a></div>
 ## Searching prior Q & A
 Still need help not covered by the tool help, the [Learning Hub](/src/Learn/index.md), a [Screencast](/src/Learn/Screencasts/index.md), a [Tutorial](http://main.g2.bx.psu.edu/u/james/p/exercises), or an [FAQ](/src/Learn/FAQ/index.md)? 
 * Start with a search in our [mailing list archives](/src/MailingLists/index.md#searching) to see if this question has come up before.

@@ -38,7 +38,7 @@ Good place to put in related wiki links, if part of a group.
 
 (or just screencast, or tutorial, or video tutorial)
 If posted by Galaxy team, use [<Screencast>](/src/screencast/fake/index.md) link. Then title as:
-* http://wiki.galaxyproject.org/Images/ScreencastFrame
+* http://wiki.galaxyproject.org/images/ScreencastFrame
 
 ## Results
 

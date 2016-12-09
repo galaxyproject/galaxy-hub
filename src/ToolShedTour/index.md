@@ -1,4 +1,4 @@
-<div class='right'> <a href='/ToolShed'><img src='/Images/Logos/ToolShed.jpg' alt='Tool Shed logo' height="110px" /></a> PLACEHOLDER_INCLUDE(/ToolShed/LinkBox) </div>
+<div class='right'> <a href='/ToolShed'><img src='/images/Logos/ToolShed.jpg' alt='Tool Shed logo' height="110px" /></a> PLACEHOLDER_INCLUDE(/ToolShed/LinkBox) </div>
 
 # What is the Tool Shed?
 

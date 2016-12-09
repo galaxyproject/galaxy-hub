@@ -4,7 +4,7 @@ date: 2011-12-20T18:20:20Z
 <div class='newsItemHeader'>[Custom Galaxy Search](/News/CustomGalaxySearch)</div>
 
 <div class='center'>
-<a href='http://galaxyproject.org/search/web'><img src='/Images/Logos/GalaxyWebSearch.png' alt='Galaxy Web Search' width="170" /></a> <a href='http://galaxyproject.org/search/mailinglists'><img src='/Images/Logos/GalaxyMailingListSearch.png' alt='Galaxy Mailing List Search' width="170" /></a> <a href='http://galaxyproject.org/search/usegalaxy'><img src='/Images/Logos/UseGalaxySearch.png' alt='Using Galaxy Web Search' width="170" /></a> <a href='http://galaxyproject.org/search/getgalaxy'><img src='/Images/Logos/GetGalaxySearch.png' alt='Galaxy administration, tool, and deployment search' width="170" /></a>
+<a href='http://galaxyproject.org/search/web'><img src='/images/Logos/GalaxyWebSearch.png' alt='Galaxy Web Search' width="170" /></a> <a href='http://galaxyproject.org/search/mailinglists'><img src='/images/Logos/GalaxyMailingListSearch.png' alt='Galaxy Mailing List Search' width="170" /></a> <a href='http://galaxyproject.org/search/usegalaxy'><img src='/images/Logos/UseGalaxySearch.png' alt='Using Galaxy Web Search' width="170" /></a> <a href='http://galaxyproject.org/search/getgalaxy'><img src='/images/Logos/GetGalaxySearch.png' alt='Galaxy administration, tool, and deployment search' width="170" /></a>
 </div>
 <br />
 Galaxy now has several Google Custom Search engines that make it much easier to find answers to your questions about Galaxy.  They are:

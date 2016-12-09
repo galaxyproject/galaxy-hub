@@ -5,7 +5,7 @@ date: 2011-08-29T20:31:49Z
 
 The Galaxy project currently has open positions in both the [Penn State](/Community/Penn State) and [Emory](/Community/Emory University) groups.
 
-<div class='right'><a href='http://www.bx.psu.edu/~anton/'><img src='/Images/Logos/PennStateLogo.jpg' alt='Opening at Penn State' width="200" /></a></div>
+<div class='right'><a href='http://www.bx.psu.edu/~anton/'><img src='/images/Logos/PennStateLogo.jpg' alt='Opening at Penn State' width="200" /></a></div>
 **[Penn State](/Community/Penn State): System administrators/analysts**
 <br /><br />
 The [Nekrutenko Lab](http://www.bx.psu.edu/~anton/) at the [Huck Institutes of Life Sciences](http://www.huck.psu.edu/) at [Penn State](http://psu.edu/) is currently recruiting system analysts/administrators with experience in building and maintaining complex performance compute environments. The areas of immediate need include:
@@ -20,7 +20,7 @@ The [Nekrutenko Lab](http://www.bx.psu.edu/~anton/) at the [Huck Institutes of L
 A minimum of 5 year experience with UNIX/Linux system administration is required. Applicants should submit a CV and list of references to [gxyhiring AT galaxyproject DOT org](gxyhiring AT galaxyproject DOT org). 
 
 
-<div class='right'><a href='http://bx.mathcs.emory.edu/joining/'><img src='/Images/Logos/EmoryLogo.jpg' alt='Openings at Emory' width="200" /></a></div>
+<div class='right'><a href='http://bx.mathcs.emory.edu/joining/'><img src='/images/Logos/EmoryLogo.jpg' alt='Openings at Emory' width="200" /></a></div>
 **[Emory](/Community/Emory University): Software Engineers and Post-Docs**
 <br /><br />
 

@@ -9,5 +9,5 @@ Common place to store images that are likely to be shared across pages.
 * [NewsGraphics](/src/images/NewsGraphics/index.md) - Graphics used in communications, such as [Galaxy Development News Briefs](/src/DevNewsBriefs/index.md). May have a date stamp.
 * [Learn](/src/images/Learn/index.md) - Graphics are generally UI screenshots used in [Support](/src/support/index.md) and [Learn](/src/Learn/index.md) wikis.
 * [Photos](/src/images/Photos/index.md) - Photographs.
-* [NGS101](/src/images/Images/NGS101/index.md) - Graphics used in NGS 101 tutorial page.
+* [NGS101](/src/images/images/NGS101/index.md) - Graphics used in NGS 101 tutorial page.
 
