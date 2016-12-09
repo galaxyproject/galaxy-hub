@@ -12,7 +12,7 @@ title: Public Galaxy Main Instance ([usegalaxy.org](https://usegalaxy.org))
 
 The Galaxy **Main** instance is available as a free public service at [UseGalaxy.org](https://usegalaxy.org/). This is the Galaxy Project's production [Galaxy instance](http://usegalaxy.org/). Main is where Galaxy's data and tools are functionality integrated and ready to use. Main is useful for sharing/publishing data and methods with colleagues for routine analysis or with the larger scientific community for publications and supplemental material. **[Test](/src/Test/index.md)** is also free and public, but is considered a beta site.
 
-Anyone can use the public servers, with or without an account, but Galaxy [user accounts](/src/Learn/User Accounts/index.md) are simple to create (email, password, user name and go!). With an account, data quotas are increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages). Remember, Galaxy's **[Terms and Conditions](https://usegalaxy.org/static/terms.html)** specifically declare a "one-account per user" requirement.
+Anyone can use the public servers, with or without an account, but Galaxy [user accounts](/src/Learn/UserAccounts/index.md) are simple to create (email, password, user name and go!). With an account, data quotas are increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages). Remember, Galaxy's **[Terms and Conditions](https://usegalaxy.org/static/terms.html)** specifically declare a "one-account per user" requirement.
 
 To understand if Main is the right Galaxy choice for your project, please see [Choices](/src/BigPicture/Choices/index.md) for a description of the different types of possible Galaxy instances. Galaxy is available to [install as a local instance](/src/Admin/GetGalaxy/index.md), to run [on the cloud](/src/CloudMan/index.md), to use at other [Public Galaxy Servers](/src/PublicGalaxyServers/index.md), or preinstalled on your own Galaxy [appliance](http://www.bioteam.net/slipstream/galaxy-edition).
 
@@ -25,7 +25,7 @@ The [Learn](/src/Learn/index.md) pages include information on how to use Main an
 
 * [Frequently Asked Questions](/src/Main/FAQ/index.md)
 * [Main Status Notices](/src/Main/Notices/index.md)
-* [Datasets](/src/Learn/Managing Datasets/index.md)
+* [Datasets](/src/Learn/ManagingDatasets/index.md)
 * [Disk Quotas](/src/Admin/DiskQuotas/index.md)
 * [Data Libraries](/src/Main/DataLibraries/index.md)
 * [Datatypes](/src/Learn/Datatypes/index.md)
@@ -191,7 +191,7 @@ Your actual number of concurrent jobs may be less at any particular time, or cer
 
 ### Monitoring data use
 
-Exceeding quotas will prevent new jobs from running, but Galaxy users can monitor and [manage datasets](/src/Learn/Managing Datasets/index.md) in several ways:
+Exceeding quotas will prevent new jobs from running, but Galaxy users can monitor and [manage datasets](/src/Learn/ManagingDatasets/index.md) in several ways:
 
 1. Percent of quota limit used by a user account is noted in the top right corner of the Galaxy interface within a bar icon.
 1. Exact total user data size and quota limit is noted on the page: **User → Preferences** (top menu bar).

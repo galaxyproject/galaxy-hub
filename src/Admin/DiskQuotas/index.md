@@ -4,7 +4,7 @@ PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md)
 
 Before tackling quotas or disk accounting, it's important to understand that when data is copied in Galaxy it is never duplicated.  This means that importing a dataset from a Data Library, sharing datasets with another user, or making copies of your datasets within your own histories only creates new references to the original file.
 
-It's now possible for users to force datasets to be removed from disk, which was previously only done by cleanup scripts.  This is explained in detail at [Managing Datasets](/src/Learn/Managing Datasets/index.md#actions).
+It's now possible for users to force datasets to be removed from disk, which was previously only done by cleanup scripts.  This is explained in detail at [Managing Datasets](/src/Learn/ManagingDatasets/index.md#actions).
 
 ## Disk Accounting
 

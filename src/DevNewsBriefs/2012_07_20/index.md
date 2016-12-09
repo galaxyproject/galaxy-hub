@@ -40,7 +40,7 @@ The `emboss_5` repository in the Galaxy Main Tool Shed has been updated to inclu
 <br />
 # Admin Genome Indexing
 
-If `enable_beta_job_managers = True`, Galaxy will now show a *new option* in the admin interface, titled **Manage Local Data**. With this tool, a Galaxy admin will be able to select and download any genome already contained with the local `$GALAXYROOT/tool-data/shared/ucsc/builds.txt` file sourced from UCSC, NCBI, or Ensembl, optionally indexing the FASTA data with one or more of BWA, Bowtie, Bowtie 2, PerM, Picard, and SAM. After these processes finish, the indexed build will then be available for other tools in the analysis section. This does not replace setting up a build.txt file ([read more ...](/src/Admin/Data Integration/index.md)). This would replace many of the manual indexing processes for commonly used tools ([read more...](/src/Admin/NGS Local Setup/index.md)). Please this tool is still **beta**, feedback and bug reports welcome at galaxy-dev@bx.psu.edu for discussion. We will also touch on it during a breakout session at GCC (Day 2, Section 8, [Automation Strategies](/src/events/GCC2012/Program/Breakouts/AutomationStrategies/index.md)).
+If `enable_beta_job_managers = True`, Galaxy will now show a *new option* in the admin interface, titled **Manage Local Data**. With this tool, a Galaxy admin will be able to select and download any genome already contained with the local `$GALAXYROOT/tool-data/shared/ucsc/builds.txt` file sourced from UCSC, NCBI, or Ensembl, optionally indexing the FASTA data with one or more of BWA, Bowtie, Bowtie 2, PerM, Picard, and SAM. After these processes finish, the indexed build will then be available for other tools in the analysis section. This does not replace setting up a build.txt file ([read more ...](/src/Admin/DataIntegration/index.md)). This would replace many of the manual indexing processes for commonly used tools ([read more...](/src/Admin/NGS Local Setup/index.md)). Please this tool is still **beta**, feedback and bug reports welcome at galaxy-dev@bx.psu.edu for discussion. We will also touch on it during a breakout session at GCC (Day 2, Section 8, [Automation Strategies](/src/events/GCC2012/Program/Breakouts/AutomationStrategies/index.md)).
 
 Example of selecting a source, the indexes to create, and the target genome:
 ![](/src/images/NewsGraphics/2012_07_20_select.png)
@@ -66,7 +66,7 @@ Several changes made in in determining errors from tool exit codes and output.  
 <br />
 # Tools
 
-[Admin/Config/Tool Dependencies](/src/Admin/Config/Tool Dependencies/index.md)
+[Admin/Config/Tool Dependencies](/src/Admin/Config/ToolDependencies/index.md)
 * **[Tophat2](http://tophat.cbcb.umd.edu/tutorial.html)** wrapper enhancements: 
   * use **Bowtie2** build
   * add option to report discordant pairs

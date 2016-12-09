@@ -43,7 +43,7 @@ See our [Learning](/src/Learn/index.md) hub for key coverage of Galaxy user inte
 
 ## Tutorials
 
-[Tutorials](http://main.g2.bx.psu.edu/u/james/p/exercises) embedded inside of Galaxy. Created by Galaxy's scientists, these are packed with example [datasets](/Learn/Managing Datasets), histories, visualizations, and workflows to import and experiment with.
+[Tutorials](http://main.g2.bx.psu.edu/u/james/p/exercises) embedded inside of Galaxy. Created by Galaxy's scientists, these are packed with example [datasets](/Learn/ManagingDatasets), histories, visualizations, and workflows to import and experiment with.
 
 ## FAQs
 PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
@@ -119,7 +119,7 @@ Galaxy is designed to have a simplified tool interface while still retaining max
 ## Getting an account
 Having your own account on the public **[/Test](/src/Test/index.md)** and/or **[/Main](/src/Main/index.md)** server means that you can save histories, work with more data, associate an [OpenID](/Learn/OpenID Login), and get the most out of Galaxy's functionality. Be sure to note that the public [/Test](/src/Test/index.md) and [/Main](/src/Main/index.md) instance **usage policies are <div class='red'>one account per user<div class='grey'>**, as stated in our **[Terms and Conditions](https://usegalaxy.org/static/terms.html)**. Also, make sure your email address is valid so that you can confirm your new account (emails are case sensitive) and so that our administrator can contact you if needed (rare, but you'd want the email!). 
 
-Watch the **[Accounts on Main](http://vimeo.com/galaxyproject/accounts)** video for a quick how-to and see our **[User Accounts](/Learn/User Accounts)** wiki for more help.
+Watch the **[Accounts on Main](http://vimeo.com/galaxyproject/accounts)** video for a quick how-to and see our **[User Accounts](/Learn/UserAccounts)** wiki for more help.
 
 ## Finding a tool
 At the top of the left tool panel, type in a tool name or data type into the tool search box. Shorter keywords find more choices. Can't find the tool you want? Try looking in the **[Tool Shed](http://toolshed.g2.bx.psu.edu)**. New tools are added all the time that can be used in **[local](/src/Admin/GetGalaxy/index.md)** or **[cloud](/src/CloudMan/index.md)** Galaxy instances.
@@ -133,25 +133,25 @@ Data is loaded using the tools in the ***Get Data*** tool group. To load your ow
 * Most individual file compression formats are supported, but `.tar` archives are not.
 
 ***Get Data &rarr; Upload*** methods:
-* Load by "browsing" for a local file. Only good for **very small** [datasets](/Learn/Managing Datasets). ( < 2G, but often works best for smaller). If you are having problems with this method, try FTP.
+* Load by "browsing" for a local file. Only good for **very small** [datasets](/Learn/ManagingDatasets). ( < 2G, but often works best for smaller). If you are having problems with this method, try FTP.
 * Load using an **HTTP URL** or **FTP URL**.
 * Load a few lines of plain text.
 * [Load using FTP](/Learn/Upload via FTP). Either line command or with a desktop client.
 
 ### Upload tips
-* **Data [quota](/Learn/Managing Datasets#data_size_and_disk_quotas) is at limit**, so *no new data can be loaded*. Disk usage and quotas are reported at ***User &rarr; Preferences*** when logged in. 
+* **Data [quota](/Learn/ManagingDatasets#data_size_and_disk_quotas) is at limit**, so *no new data can be loaded*. Disk usage and quotas are reported at ***User &rarr; Preferences*** when logged in. 
 * **Password protected data** will require a special URL format. Ask the data source. Double check that it is *publicly accessible*.
 * Use ***[FTP](/Learn/Upload via FTP)***, not ***SFTP***. Check with local admin if not sure.
 * **No HTML content.** The loading error generated may state this. Remove HTML fields from your dataset before loading into Galaxy or omit HTML fields from the query if importing from a data source (such as Biomart).
 * Compression types **.gz/.gzip, .bz/.bzip, .bz2/.bzip2, and single-file .zip are supported.**
-* Only the **first file in any compressed archive** will load as a **[dataset](/Learn/Managing Datasets)**.
+* Only the **first file in any compressed archive** will load as a **[dataset](/Learn/ManagingDatasets)**.
 * Data must be ** < 50G ** (uncompressed) to be successfully uploaded and added as a dataset to a history, from any source.
-* **Is the problem the dataset format or the assigned datatype?** Can this be corrected by editing the datatype or converting formats? See [/Learn/Managing Datasets](/Learn/Managing Datasets) for help or watch the screencast above for a how-to example.
+* **Is the problem the dataset format or the assigned datatype?** Can this be corrected by editing the datatype or converting formats? See [/Learn/ManagingDatasets](/Learn/ManagingDatasets) for help or watch the screencast above for a how-to example.
 * **Problems in the first step working with your loaded data?** It may not have *uploaded* completely. If you used an FTP client, the transfer message will indicate if a load was successful or not and can often restart interrupted loads. This makes FTP a great choice for slower connections, even when loading small files.
 <br />
 
 ## Downloading data
-* **Download datasets** by clicking on the disk icon inside the [dataset](/Learn/Managing Datasets). Good for smaller sizes in all browsers.
+* **Download datasets** by clicking on the disk icon inside the [dataset](/Learn/ManagingDatasets). Good for smaller sizes in all browsers.
 * **Download entire histories** by selecting *"Export to File"* from the History menu, and clicking on the link generated.
 * **Transfer entire histories** by selecting *"Export to File"* from the History menu, generating the link, coping the link in the "from" Galaxy instance, **then** in the "to" Galaxy instance select "Import from File" from the History menu, and paste in the link into the new form. 
 * The video **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** includes help about different datatypes and what to expect in the download icon (one file or two!).
@@ -185,7 +185,7 @@ The link can be obtained by right clicking the floppy disk icon inside a history
 ## Dataset status and how jobs execute
 The Galaxy user interface (UI) has been designed to communicate job execution status through visual cues and concise meesages. Learn more about how interpret these cues and to use strategies to maximize throughput by [reading more here...](/Support/JobStatus)
 
-When a tool is executed, one or more new **[datasets](/Learn/Managing Datasets)** are added to a history. The same is true when a **workflow** is executed. *If using the public [Main](/src/Main/index.md) Galaxy instance, the most effective strategy when running jobs on the shared resource is to start jobs (or workflows), and then leave them alone to execute until completion.* 
+When a tool is executed, one or more new **[datasets](/Learn/ManagingDatasets)** are added to a history. The same is true when a **workflow** is executed. *If using the public [Main](/src/Main/index.md) Galaxy instance, the most effective strategy when running jobs on the shared resource is to start jobs (or workflows), and then leave them alone to execute until completion.* 
 <br />
 <br />
 When work is urgent during peak-usage times on the public **[/Main](/src/Main/index.md)** Galaxy instance, a **[/CloudMan](/src/CloudMan/index.md)** instance is a quick-to-implement alternative. For large scale and/or urgent ongoing work, a **[/CloudMan](/src/CloudMan/index.md)**, **[Local](/src/Admin/GetGalaxy/index.md)**, or **[SlipStream Galaxy](http://www.bioteam.net/slipstream/galaxy-edition)** each have advantages as a longer-term solution. [Read more ...](/src/BigPicture/Choices/index.md)
@@ -213,7 +213,7 @@ When work is urgent during peak-usage times on the public **[/Main](/src/Main/in
 Have you been asked to share a history? Or has someone shared a workflow with you but you're not sure where to find it? Or maybe you just want to find out more about how publishing your work in Galaxy can be used to support your next publication? Watch the how to **[Share and Publish](http://vimeo.com/galaxyproject/sharepublish)** screencast and [read more here](/Learn/Share).
 
 ## Error from tools
-***[Dataset](/Learn/Managing Datasets) format problems are the #1 reason that tools fail.*** Most likely this problem was introduced during the initial data upload. Double check the [dataset](/Learn/Managing Datasets) against Galaxy's [datatypes](/Learn/Datatypes) or external specifications. In many cases, the format issues can be corrected using a creative combination of Galaxy's tools.
+***[Dataset](/Learn/ManagingDatasets) format problems are the #1 reason that tools fail.*** Most likely this problem was introduced during the initial data upload. Double check the [dataset](/Learn/ManagingDatasets) against Galaxy's [datatypes](/Learn/Datatypes) or external specifications. In many cases, the format issues can be corrected using a creative combination of Galaxy's tools.
 
 ### Troubleshooting tool errors
 * Verify the *size/number of lines or md5sum between the source and Galaxy*. Use **Line/Word/Character count of a dataset** or **Secure Hash / Message Digest on a dataset** to do this.
@@ -222,12 +222,12 @@ Have you been asked to share a history? Or has someone shared a workflow with yo
 * Is the format to specification? Is it recognized by Galaxy? By the target tool or display application? Check against the [Galaxy Datatypes](/Learn/Datatypes) list. 
   * Are you using a **[Custom Reference Genome](/src/Learn/CustomGenomes/index.md)**? Have you tried the quick [Troubleshooting](/src/Learn/CustomGenomes/index.md#troubleshooting) tips on the wiki?
   * Note: not all formats are outlined in detail as they are common types or derived from a particular source. Read the target tool help, ask the tool authors, or even just google for the most current specification.
-* Is the problem the [dataset](/Learn/Managing Datasets) format or the assigned datatype? Can this be corrected by editing the datatype or converting formats? Often a combination of tools can correct a formatting problem, if the rest of the file is intact (completely loaded).
+* Is the problem the [dataset](/Learn/ManagingDatasets) format or the assigned datatype? Can this be corrected by editing the datatype or converting formats? Often a combination of tools can correct a formatting problem, if the rest of the file is intact (completely loaded).
 * Is the problem a scientific or technical problem? Also see [#interpreting-scientific-results](#interpreting-scientific-results) to decide.
   * *Example* **NGS: Mapping** tools:  On the tool form itself is a short list of help plus links to publications and the tool author's documentation and/or website. If you are having trouble with **Bowtie**, look on this tool's form for more information, including a link to this website: http://bowtie-bio.sourceforge.net/index.shtml.
   * *Example* **NGS: RNA Analysis** tools: See the *[galaxy-rna-seq-analysis-exercise](http://main.g2.bx.psu.edu/u/jeremy/p/galaxy-rna-seq-analysis-exercise)* tutorial and *[transcriptome-analysis-faq](http://main.g2.bx.psu.edu/u/jeremy/p/transcriptome-analysis-faq)*. If these do not address the problem, then contacting the tool authors is the next step at: [tophat.cufflinks@gmail.com](tophat.cufflinks@gmail.com).
   * *Example* **NGS: SAM Tools** tools: SAMTools requires that all input files be to specification ([/Learn/Datatypes](/Learn/Datatypes)) and that the same *exact* reference genome is used for all steps. Double checking format is the first check. Double checking the the same exact version of the reference genome is used is the second check. The last double check is that the number of jobs and size of data on disk is under quota. Problems with this set of tools is rarely caused by other issues.
-* Tools for fixing/converting/modifing a [dataset](/Learn/Managing Datasets) will often include the [datatype name](/Learn/Datatypes). Use the tool search to locate candidate tools, likely in tool groups ***Text Manipulation, Convert Formats, or NGS: QC and manipulation***. 
+* Tools for fixing/converting/modifing a [dataset](/Learn/ManagingDatasets) will often include the [datatype name](/Learn/Datatypes). Use the tool search to locate candidate tools, likely in tool groups ***Text Manipulation, Convert Formats, or NGS: QC and manipulation***. 
 * The most commonly used tools for investigating problems with upload, format and making corrections are:
     **TIP**: use the Tool search in top left panel to find tools by keyword
   * ***Edit Attributes*** form, found by clicking a dataset's ![](/images/Icons/pencil.png) icon
@@ -245,7 +245,7 @@ Have you been asked to share a history? Or has someone shared a workflow with yo
   * ***Filter and Sort*** tool group
 
 ## Tool doesn't recognize dataset
-Usually a simple datatype assignment incompatibility between the [dataset](/Learn/Managing Datasets) and the tool. Expected input [datatype](/Learn/Datatypes) format is explained on the Tool form itself under the parameter settings. ***Convert Format*** or modify the datatype using the dataset's ![pencil](/src/images/Icons/pencil.png) icon to reach the ***Edit Attributes*** form. You may need to first create a **[Custom Build](/src/Learn/CustomGenomes/index.md#custom_builds)** when using a [Custom Reference Genome](/src/support/index.md#custom_reference_genome).
+Usually a simple datatype assignment incompatibility between the [dataset](/Learn/ManagingDatasets) and the tool. Expected input [datatype](/Learn/Datatypes) format is explained on the Tool form itself under the parameter settings. ***Convert Format*** or modify the datatype using the dataset's ![pencil](/src/images/Icons/pencil.png) icon to reach the ***Edit Attributes*** form. You may need to first create a **[Custom Build](/src/Learn/CustomGenomes/index.md#custom_builds)** when using a [Custom Reference Genome](/src/support/index.md#custom_reference_genome).
 
 ## Dataset special cases
 ### FASTQ Datatype QA
@@ -257,7 +257,7 @@ Usually a simple datatype assignment incompatibility between the [dataset](/Lear
   * *If your data is [FASTA](/Learn/Datatypes#fasta)*, but you want to use tools that require [FASTQ](/Learn/Datatypes#fastq) input, then using the tool **NGS: QC and manipulation &rarr; Combine FASTA and QUAL**. This tool will create "placeholder" quality scores that fit your data. On the output, click the ![pencil](/src/images/Icons/pencil.png) icon to reach the ***Edit Attributes*** form. In the center panel, click on the "Datatype" tab (3rd), enter the datatype ".fastqsanger", and save. Metadata will assign, then the dataset can be used. 
 ### Tabular/Interval/BED Datatype QA
 * If the required input is a [Tabluar](/Learn/Datatypes#tabular) datatype, other datatypes that are in a specialized tabular format, such as .bed, .interval, or .txt, can often be directly reassigned to tabular format.  Click the ![pencil](/src/images/Icons/pencil.png) icon to reach the ***Edit Attributes*** form.  In the center panel, using tabs to navigate, change the datatype (3rd tab) and save, then label columns (1st tab) and save. Metadata will assign, then the dataset can be used.
-* If the required input is a [BED](/Learn/Datatypes#bed) or [Interval](/Learn/Datatypes#interval) datatype, the reverse (.tab &rarr; .bed, .tab &rarr; .interval) may be possible using a combination of ***Text Manipulation*** tools, to create a [dataset](/Learn/Managing Datasets) that matches the BED or Interval [datatype](/Learn/Datatypes) specifications.
+* If the required input is a [BED](/Learn/Datatypes#bed) or [Interval](/Learn/Datatypes#interval) datatype, the reverse (.tab &rarr; .bed, .tab &rarr; .interval) may be possible using a combination of ***Text Manipulation*** tools, to create a [dataset](/Learn/ManagingDatasets) that matches the BED or Interval [datatype](/Learn/Datatypes) specifications.
 
 ## Reference genomes
 Using the ***same exact reference genome*** for all steps in an analysis is often ***mandatory*** to obtain accurate results. To use the reference genomes available on [usegalaxy.org (Main)](http://usegalaxy.org), get the genome from our **[rsync server](/src/Admin/UseGalaxyRsync/index.md)**.
@@ -338,7 +338,7 @@ Video: **[Custom Genomes](http://vimeo.com/galaxyproject/customgenome)**
 * Make sure the reference genome is in [FASTA](/Learn/Datatypes#fasta) format and is completely loaded (see [Trouble loading data](/src/support/index.md#trouble_loading_data) above).
 * Use the same custom genome for all the steps in your analysis that require a reference genome. Don't switch or the data can become mismatched in your files, preventing downstream work.
 * To add a custom **Genome Build** so that it can be assigned as a "database" attribute, or to make it known/available to certain tools, create it under "User &rarr; Custom Builds". More details [here...](/src/Learn/CustomGenomes/index.md#custom_builds).
-* **TIP**: To modify a [dataset](/Learn/Managing Datasets) to have an unassigned reference genome, use the ![pencil](/src/images/Icons/pencil.png) icon to "Edit Attributes". On the form, for the attribute **Database/Build:**, set the genome to be " **`unspecified (?)`** ", and submit. Any prior assignments will be removed.
+* **TIP**: To modify a [dataset](/Learn/ManagingDatasets) to have an unassigned reference genome, use the ![pencil](/src/images/Icons/pencil.png) icon to "Edit Attributes". On the form, for the attribute **Database/Build:**, set the genome to be " **`unspecified (?)`** ", and submit. Any prior assignments will be removed.
 * If you genome is available on [usegalaxy.org (Main)](http://usegalaxy.org), but just not indexed for the tool you want to use, you can get the genome from our **[rsync server](/src/Admin/UseGalaxyRsync/index.md)**. This will ensure that all of your work uses the *same exact reference genome* for all steps in an analysis, a critical part of a successful experiment. 
 * If you find that there are in downstream [tool errors](/src/support/index.md#error_from_tools) after using a *Custom reference genome* in an upstream tool on [usegalaxy.org (Main)](http://usegalaxy.org), this is good cause to suspect that there is a **[ reference genome mismatch problem](/src/support/index.md#reference_genomes)**. This generally means that the *Custom* genome needs to be changed to use ours, or that you need to use the *Custom* genome for all downstream tools, too.
 

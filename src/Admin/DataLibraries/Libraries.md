@@ -15,31 +15,31 @@ This document refers to the Galaxy Admin perspective which is available only to 
 
 Currently, only Galaxy [admin](Admin%2FInterface) users can create data libraries. To create a new data library, log in as an admin user and click on the "Manage data libraries" link in the [admin menu](Admin%2FInterface), displaying the data libraries browser.
 
-![](DataLibraries/browse_libraries1.png)
+![](/DataLibraries/browse_libraries1.png)
 
 Click the "Create new data library" button in the upper right corner to display the "Create a new data library page".
 
-![](DataLibraries/create_library.png)
+![](/DataLibraries/create_library.png)
 
 Name your library appropriately. If you add text to the optional "Description" field it will be displayed on the data libraries browser, providing information about your data library.
 
-![](DataLibraries/browse_libraries2.png)
+![](/DataLibraries/browse_libraries2.png)
 
 When creating the data library, the "Synopsis" field is also optional and is displayed when you browse a specific data library. To browse a data library, click on the name of the data library in the data libraries browser. Browsing the data library we just created will display the following page.
 
-![](DataLibraries/browse_library1.png)
+![](/DataLibraries/browse_library1.png)
 
 ### Working with data libraries
 
 Some of the actions that can be performed on data libraries are accessed by clicking the pop-up menu icon (the downward-pointing triangle) just right of the data library name.
 
-![](DataLibraries/library_popup_menu.png)
+![](/DataLibraries/library_popup_menu.png)
 
 Selecting "Edit Information" from the pop-up menu allows you to change the name, description and synopsis of the data library.
 
-![](DataLibraries/library_info1.png)
+![](/DataLibraries/library_info1.png)
 
-Selecting "Add template" allows you to add a template to the data library. See our [Data Library Templates page](Admin%2FDataLibraries%2FLibraryTemplates) for details about using data library templates.
+Selecting "Add template" allows you to add a template to the data library. See our [Data Library Templates page](/Admin/DataLibraries/LibraryTemplates) for details about using data library templates.
 
 Selecting "Edit permissions" allows you to associate roles with actions that can be performed on the data library from the Data Libraries perspective. See our [Data Library Security page](Admin%2FDataLibraries%2FLibrarySecurity) for details about managing data library permissions and library dataset security.
 
@@ -55,7 +55,7 @@ There are several options for uploading datasets into a data library. See our [U
 
 Clicking the "Add datasets" button displays the "Create new library datasets" page. The following image shows this page after we have selected a file named 1.bed for upload, selecting hg18 as the genome, and adding the text "This is the message" to the field labeled "Message".
 
-![](DataLibraries/upload_dataset2.png)
+![](/DataLibraries/upload_dataset2.png)
 
 The select list labeled "Restrict dataset access to specific roles" is related to library dataset security, and will not be discussed in this document. See our [Data Library Security page](Admin%2FDataLibraries%2FLibrarySecurity) for details about managing library dataset security.
 
@@ -63,11 +63,11 @@ We'll upload another dataset named 2.bed to the data library's root folder. In d
 
 We'll next add a folder to the data library by clicking the "Add folder" button in the upper right corner of the page. The following page is displayed where we'll name the folder and provide a description.
 
-![](DataLibraries/create_folder.png)
+![](/DataLibraries/create_folder.png)
 
 Clicking the "Create" button will display the following page, which is referred to as the "browse data library" page.
 
-![](DataLibraries/browse_library5.png)
+![](/DataLibraries/browse_library5.png)
 
 Clicking the blue triangle to the left of the folder name will display the contents of the folder. Since our folder does not yet have any contents, nothing is displayed when we click it. Details for adding items to folders is described in the next section.
 
@@ -75,7 +75,7 @@ Clicking the blue triangle to the left of the folder name will display the conte
 
 Like data libraries, actions can be performed on folders. The folder pop-up menu icon (the downward-pointing triangle) is located just right of the folder name (or the folder description if one exists). Clicking it displays the following menu options.
 
-![](DataLibraries/folder_popup_menu2.png)
+![](/DataLibraries/folder_popup_menu2.png)
 
 Here are the actions that we can perform on a folder:
 
@@ -85,7 +85,7 @@ Here are the actions that we can perform on a folder:
 
 - **Edit information** - like the data library's pop-up menu described above, selecting this option allows you to edit the name and description of the folder. 
 
-- **Add template** - this allows you to add a template to the folder. See our [Data Library Templates page](Admin%2FDataLibraries%2FLibraryTemplates) for details about using data library templates. 
+- **Add template** - this allows you to add a template to the folder. See our [Data Library Templates page](/Admin/DataLibraries/LibraryTemplates) for details about using data library templates. 
 
 - **Edit permissions** - this allows you to associate roles with actions that can be performed on the folder from the Data Libraries perspective. See our [Data Library Security page](Admin%2FDataLibraries%2FLibrarySecurity) for details about managing data library permissions on folders. 
 
@@ -93,7 +93,7 @@ Here are the actions that we can perform on a folder:
 
 At this point we'll add 2 datasets (3.bed and 4.bed) to our new folder. Then we'll add a sub-folder to our folder and add 2 datasets (5.bed and 6.bed) to it. Our data library now looks like this.
 
-![](DataLibraries/browse_library6.png)
+![](/DataLibraries/browse_library6.png)
 
 We now have enough folders in our data library to allow us to demonstrate deleting them.
 
@@ -101,11 +101,11 @@ We now have enough folders in our data library to allow us to demonstrate deleti
 
 As noted in the previous section, the pop-up menu for folders includes the item "Delete this folder". We'll delete the sub-folder we just added. This produces a pop-up dialog where we can confirm or cancel the deletion.
 
-![](DataLibraries/delete_folder1.png)
+![](/DataLibraries/delete_folder1.png)
 
 When we confirm that we want to delete the folder, it will disappear from the data library. However, the folder still exists and the state of the folder's contents is saved. To demonstrate this behavior, we'll go back to the data library's pop-up menu and select the "Show deleted items" option that we passed over in the **Working with data libraries** section above. Here is what is displayed.
 
-![](DataLibraries/browse_library7.png)
+![](/DataLibraries/browse_library7.png)
 
 Notice that the folder name is now highlighted in red because it is deleted. However, the state of the 2 datasets it contains remains the same (not deleted). This allows for un-deleting the folder at some point if desired, and the contents of the folder will be as they were. Now if we click the deleted folder's pop-up menu, we find that the only action we can perform on it is "Undelete this folder".
 
@@ -113,13 +113,13 @@ Notice that the folder name is now highlighted in red because it is deleted. How
 
 Like data libraries and folders, actions can be performed on library datasets. The dataset pop-up menu icon (the downward-pointing triangle) is located just right of the dataset name. Clicking it displays the following menu options (we've clicked it on dataset 1.bed).
 
-![](DataLibraries/dataset_popup_menu3.png)
+![](/DataLibraries/dataset_popup_menu3.png)
 
 Here are the actions that we can perform on a dataset:
 
 - **Edit information** - a dataset has many attributes, so we'll discuss this option in detail next. 
 
-- **Add template** - this allows you to add a template to the dataset. See our [Data Library Templates page](Admin%2FDataLibraries%2FLibraryTemplates) for details about using data library templates. 
+- **Add template** - this allows you to add a template to the dataset. See our [Data Library Templates page](/Admin/DataLibraries/LibraryTemplates) for details about using data library templates. 
 
 - **Edit permissions** - this allows you to associate roles with actions (including accessing the dataset) that can be performed on the dataset from the Data Libraries perspective. See our [Data Library Security page](Admin%2FDataLibraries%2FLibrarySecurity) for details about managing permissions on datasets. 
 
@@ -133,27 +133,27 @@ Here are the actions that we can perform on a dataset:
 
 At this point we'll select the **Edit information** option, and we are presented with the following page.
 
-![](DataLibraries/dataset_info1.png)
+![](/DataLibraries/dataset_info1.png)
 
 For those that are familiar with Galaxy, you'll notice that this page looks very similar to the page that is displayed when you click the pencil icon in a history item. The only difference here is the blurb at the top of the page stating "This is the latest version of this library dataset". To demonstrate the data library's support of datasets versions, let's first change the dataset name from "1.bed" to be "1.bed (version 1)" and click the "Save" button in that section on the page.
 
 Now browsing the library displays this.
 
-![](DataLibraries/browse_library8.png)
+![](/DataLibraries/browse_library8.png)
 
 ### Library dataset versions
 
 Now we'll select the **Upload a new version of this dataset** option from the dataset's pop-up menu, and we're presented with the dataset upload form. Notice the text at the top of the form stating "You are currently selecting a new file to replace '1.bed (version 1)'." In the following image, we have selected a file named "7.bed" for upload.
 
-![](DataLibraries/upload_dataset3.png)
+![](/DataLibraries/upload_dataset3.png)
 
 Clicking "Upload to library" produces the following page.
 
-![](DataLibraries/browse_library9.png)
+![](/DataLibraries/browse_library9.png)
 
 Now we'll click on the dataset name to view the information about it, and here is what we see.
 
-![](DataLibraries/dataset_info2.png)
+![](/DataLibraries/dataset_info2.png)
 
 Galaxy keeps track of all versions of a library dataset, and clicking on the link for the expired version will display it's information.
 
@@ -163,11 +163,11 @@ Galaxy keeps track of all versions of a library dataset, and clicking on the lin
 
 As noted earlier, the pop-up menu for datasets includes the item "Delete this dataset". We'll delete the dataset named "2.bed". This produces a pop-up dialog where we can confirm or cancel the deletion.
 
-![](DataLibraries/delete_dataset1.png)
+![](/DataLibraries/delete_dataset1.png)
 
 When we confirm that we want to delete the dataset, it will disappear from the data library, and when we select the "Show deleted items" from the library's pop-up menu, we'll see the dataset highlighted in red, just like the folder we deleted earlier.
 
-![](DataLibraries/browse_library10.png)
+![](/DataLibraries/browse_library10.png)
 
 Clicking the pop-up menu for the deleted dataset shows us that the only actions that can be performed on a deleted dataset is "View information" and "Undelete this dataset".
 
@@ -177,11 +177,11 @@ When a library dataset has been marked deleted in this way, the script /<galaxy 
 
 Similar to folders and datasets, it is also possible to mark a data library as deleted. Selecting "Delete this data library from the data library's pop-up menu produces the following pop-up dialog.
 
-![](DataLibraries/delete_library1.png)
+![](7DataLibraries/delete_library1.png)
 
 After we confirm the deletion, the library disappears from the data libraries browser, but clicking on the "Advanced search" link shows us that we can search for deleted libraries. Clicking on the "deleted" link in "Advanced search" displays our deleted data library.
 
-![](DataLibraries/deleted_library1.png)
+![](/DataLibraries/deleted_library1.png)
 
 When we browse the library, we see that the state of all of it's contents was not affected by the deletion, and the library's pop-up menu allows us to un-delete the library.
 

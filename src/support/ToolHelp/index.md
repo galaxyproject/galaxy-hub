@@ -9,7 +9,7 @@ Back to [Support](/src/support/index.md)
 <br />
 **Documentation is on the tool form itself** covering:
 * Parameters
-* Expected format for input [dataset(s)](/src/Learn/Managing Datasets/index.md)
+* Expected format for input [dataset(s)](/src/Learn/ManagingDatasets/index.md)
 * Links to publications and [Tool Shed](/src/ToolShed/index.md) source repositories
 * Tool and wrapper version(s)
 * 3rd party author web sites and documentation

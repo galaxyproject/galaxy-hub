@@ -198,7 +198,7 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
     <th> September&nbsp;28 - October&nbsp;1 </th>
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
-    <td> <a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a>, <a href='/src/RossLazarus/index.md'>Ross Lazarus</a> </td>
+    <td> <a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a>, <a href='/src/fubar/index.md'>Ross Lazarus</a> </td>
   </tr>
   <tr>
     <th> September 30 - October 2 </th>

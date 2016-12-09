@@ -14,7 +14,7 @@ New to Galaxy?  Trying to figure out the difference between a *workflow* and a *
 Effectively managing datasets is important for general organization, collaboration, and publishing and for staying within the quotas set by the [Main](/src/BigPicture/Terminology/index.md#main), [Test](/src/BigPicture/Terminology/index.md#test), and other host instances. 
 
 See 
-* [Learn/Managing Datasets](/src/Learn/Managing Datasets/index.md)
+* [Learn/Managing Datasets](/src/Learn/ManagingDatasets/index.md)
 
 ### Galaxy Objects
 

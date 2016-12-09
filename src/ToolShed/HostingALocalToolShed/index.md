@@ -33,7 +33,7 @@ After you have the configuration settings as you want them, start up your Tool S
 
 Then connect to http://localhost:9009.
 
-If you use an apache proxy to your Tool Shed, you can use the same approach detailed in our [Apache proxy to Galaxy wiki](/src/Admin/Config/ApacheProxy.mdindex.md). For example, the following rules can be used to enable your apache server to serve static content (located in the directory /home/galaxy/static in this example) for your Tool Shed running on port 9009:
+If you use an apache proxy to your Tool Shed, you can use the same approach detailed in our [Apache proxy to Galaxy wiki](/src/Admin/Config/ApacheProxy/index.md). For example, the following rules can be used to enable your apache server to serve static content (located in the directory /home/galaxy/static in this example) for your Tool Shed running on port 9009:
 
 ```apache
 RewriteEngine on

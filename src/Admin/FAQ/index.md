@@ -24,7 +24,7 @@ See [Copyrights and Licenses](/src/Admin/License/index.md).
 
 Galaxy can be used through a **free public [Main](/src/Main/index.md) web service at [http://usegalaxy.org](http://usegalaxy.org)**, a **[Local](/src/Admin/GetGalaxy/index.md) install**, or an **[Amazon Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2/) via [CloudMan](/src/CloudMan/index.md)**. 
 
-Tools and workflows managed by the primary Galaxy team (but contributed by [community members](/src/Community/index.md) worldwide) are served through the **[ Main ToolShed](/src/ToolShed/index.md)** and genome data/indexes through an **[rsync service](/src/Admin/Data Integration/index.md)**.  
+Tools and workflows managed by the primary Galaxy team (but contributed by [community members](/src/Community/index.md) worldwide) are served through the **[ Main ToolShed](/src/ToolShed/index.md)** and genome data/indexes through an **[rsync service](/src/Admin/DataIntegration/index.md)**.  
 
 *Which is **right** for you?*
 * Review the **[Big Picture](/src/BigPicture/Choices/index.md)**
@@ -82,7 +82,7 @@ xls = galaxy.datatypes.data:Data,application/vnd.ms-excel
 
 **How can I run a Galaxy mirror alongside my regular web server (i.e. on port 80)?**
 
-Via a proxy connection in Apache.  Instructions can be found on the [Admin/Config/Apache Proxy](/src/Admin/Config/ApacheProxy.mdindex.md) page.
+Via a proxy connection in Apache.  Instructions can be found on the [Admin/Config/Apache Proxy](/src/Admin/Config/ApacheProxy/index.md) page.
 
 ----
 

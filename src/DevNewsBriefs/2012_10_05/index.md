@@ -35,7 +35,7 @@ SOLiD* have moved from the Galaxy distribution to the Galaxy Main Tool Shed.
 
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/Logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 
-Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing these BWA tool wrappers from the Tool Shed. **[BWA](http://bio-bwa.sourceforge.net/)** itself and target reference genomes should still be installed as described in the Galaxy wiki - start in the [Tool Dependencies](/src/Admin/Tools/Tool Dependencies/index.md) section.
+Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing these BWA tool wrappers from the Tool Shed. **[BWA](http://bio-bwa.sourceforge.net/)** itself and target reference genomes should still be installed as described in the Galaxy wiki - start in the [Tool Dependencies](/src/Admin/Tools/ToolDependencies/index.md) section.
 
 **[BWA](http://bio-bwa.sourceforge.net/)** is a fast light-weighted tool that aligns relatively short sequences (queries) to a sequence database (large), such as the human reference genome. It is developed by Heng Li at the Sanger Insitute. Li H. and Durbin R. (2009) Fast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics, 25, 1754-60. 
 
@@ -128,7 +128,7 @@ The following sections of the tool shed wiki have been updated to more thoroughl
 <br />
 # Tools
 
-[Tool Dependencies](/src/Admin/Tools/Tool Dependencies/index.md)
+[Tool Dependencies](/src/Admin/Tools/ToolDependencies/index.md)
 
 ### Enhancements
 

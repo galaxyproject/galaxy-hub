@@ -42,7 +42,7 @@ $ rsync -avzP rsync://datacache.g2.bx.psu.edu/indexes/phiX .
 ```
 
 
-Genomes are organized in directories by the `dbkey`. If you are not sure of the `dbkey`, check your datasets. The `dbkey` is what is populated into the "database" attribute for a dataset. Read more [about how this fits into data integration](/src/Admin/Data Integration/index.md) or [setting up native genome indexes](/src/Admin/NGS Local Setup/index.md).
+Genomes are organized in directories by the `dbkey`. If you are not sure of the `dbkey`, check your datasets. The `dbkey` is what is populated into the "database" attribute for a dataset. Read more [about how this fits into data integration](/src/Admin/DataIntegration/index.md) or [setting up native genome indexes](/src/Admin/NGS Local Setup/index.md).
 
 <br />
 # More Updates to Output and Error Handling
@@ -52,7 +52,7 @@ As reported in the *[July 20th, 2012 News Brief](/src/DevNewsBriefs/2012_07_20/i
 <br />
 # Tools
 
-[Admin/Config/Tool Dependencies](/src/Admin/Config/Tool Dependencies/index.md)
+[Admin/Config/Tool Dependencies](/src/Admin/Config/ToolDependencies/index.md)
 * *Enhancements*
   * **[Tophat2](http://tophat.cbcb.umd.edu/tutorial.html)** wrapper enhancements: 
     * Include fusions output. Read more about what this is in the [Tophat2 Manual's](http://tophat.cbcb.umd.edu/manual.html) section *Fusion mapping options:*

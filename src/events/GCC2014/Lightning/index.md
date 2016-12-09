@@ -223,7 +223,7 @@ Lightning talks are your opportunity to give an impassioned and enthralling talk
 
 ## Gratuitous Advice
 
-From [Ross Lazarus](/src/RossLazarus/index.md), the (possibly former) *Benevolent Lightning Session Moderator for Life*
+From [Ross Lazarus](/src/fubar/index.md), the (possibly former) *Benevolent Lightning Session Moderator for Life*
 
 * Good lightning talks are well rehearsed and very, very focussed.  
 * Plan on talking to 5 or 6 slides 
