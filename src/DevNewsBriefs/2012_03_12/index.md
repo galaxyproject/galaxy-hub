@@ -56,7 +56,7 @@ When included in the Galaxy distribution, tools are defined by "id" and "version
 <br />
 # New & Updated Tools
 
-*Many tools have been recently upgraded. Please review* [Admin/Config/Tool Dependencies](/src/Admin/Config/Tool Dependencies/index.md) *for these and other recently updated Tool Dependencies. Please see * [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) * for additional new tools.*
+*Many tools have been recently upgraded. Please review* [Admin/Config/Tool Dependencies](/src/Admin/Config/ToolDependencies/index.md) *for these and other recently updated Tool Dependencies. Please see * [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) * for additional new tools.*
 * **RNA-Seq Tools**
   * Added **[CuffMerge](http://cufflinks.cbcb.umd.edu/)** version 1.0.0
     * Requires helper script: **gtf_to_sam** version 1.3.0

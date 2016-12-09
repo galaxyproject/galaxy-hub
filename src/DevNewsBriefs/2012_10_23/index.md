@@ -119,7 +119,7 @@ shed_tool_conf.xml            <toolbox tool_path="../shed_tools/galaxy_instance1
 <br />
 # Tools
 
-[Tool Dependencies](/src/Admin/Tools/Tool Dependencies/index.md)
+[Tool Dependencies](/src/Admin/Tools/ToolDependencies/index.md)
 
 1. Add *interpreter* and *absolute path logic* to **version tag**; thanks to [Björn Grüning](http://bitbucket.org/BjoernGruening).
 2. **Tool search**: remove **[Whoosh](http://packages.python.org/Whoosh/)** handling for **[Python version 2.4](http://www.python.org/)** and remove *minscore*.

@@ -15,7 +15,7 @@
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 10:10 </td>
-    <td style=" vertical-align: top; border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/LazarusReproducibleResearch.pdf'>Slides</a>, <a href='https://vimeo.com/74885862'>Vimeo</a></em></div>  <em><a href='/src/events/GCC2013/Abstracts/index.md#eventsgcc2013abstractstalksreproducible-research-and-the-9010-rule-improving-the-ratio-of-light-script-to-dark-script-matter-in-your-galaxy'>Reproducible research and the 90/10 rule: Improving the ratio of light script to dark script matter in your Galaxy</a></em> <div class='indent'> <a href='/src/RossLazarus/index.md'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a></div> </td>
+    <td style=" vertical-align: top; border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/LazarusReproducibleResearch.pdf'>Slides</a>, <a href='https://vimeo.com/74885862'>Vimeo</a></em></div>  <em><a href='/src/events/GCC2013/Abstracts/index.md#eventsgcc2013abstractstalksreproducible-research-and-the-9010-rule-improving-the-ratio-of-light-script-to-dark-script-matter-in-your-galaxy'>Reproducible research and the 90/10 rule: Improving the ratio of light script to dark script matter in your Galaxy</a></em> <div class='indent'> <a href='/src/fubar/index.md'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a></div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 10:30 </td>
@@ -225,7 +225,7 @@ END_INCLUDE
     <td style=" border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/Workflow4MetaboLightning.pdf'>Slides</a></em></div><em><a href='/src/events/GCC2013/Lightning/index.md#workflow4metabo'>Workflow4Metabo</a></em><div class='indent'>Gildas Le Corguille, UPMC-CNRS</div></td>
   </tr>
   <tr>
-    <td style=" border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/GLM_GSEALightning.pdf'>Slides</a></em></div><em><a href='/src/events/GCC2013/Lightning/index.md#glm-for-testing-differential-expression-and-gsea-in-galaxy'>GLM for testing differential expression and GSEA in Galaxy</a></em><div class='indent'><a href='/src/RossLazarus/index.md'>Ross Lazarus</a>, Baker IDI Heart and Diabetes Institute</div> </td>
+    <td style=" border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/GLM_GSEALightning.pdf'>Slides</a></em></div><em><a href='/src/events/GCC2013/Lightning/index.md#glm-for-testing-differential-expression-and-gsea-in-galaxy'>GLM for testing differential expression and GSEA in Galaxy</a></em><div class='indent'><a href='/src/fubar/index.md'>Ross Lazarus</a>, Baker IDI Heart and Diabetes Institute</div> </td>
   </tr>
   <tr>
     <td style=" border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/MethylationLightning.pdf'>Slides</a></em></div><em><a href='/src/events/GCC2013/Lightning/index.md#analysis-of-dna-methylation-data-using-galaxy'>Analysis of DNA methylation data using galaxy</a></em><div class='indent'>Pavan Videm, University of Freiburg</div> </td>

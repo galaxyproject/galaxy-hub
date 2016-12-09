@@ -409,6 +409,6 @@ In no particular order:
 
 * [Bioinformatics WikiBook Collaborative Workshop](http://bit.ly/15PpUxA) 24-26 February at TGAC.  And we encourage contributions [about Galaxy](http://bit.ly/1zS0PuW) to the [NGS WikiBook](http://bit.ly/NGSWikiBook).
 * [PDACS: a portal for data analysis services for cosmological simulations](http://bit.ly/1s0gMLe), Chard *et al.*  *PDACS is a Galaxy implementation for cosmology.* And PDACS slides are [here](http://bit.ly/1pYSlSN).  
-* Just scheduled: Intro to variant calling for pathologists and laboratory managers, Sydney, 22 June. [Ross Lazarus](/src/RossLazarus/index.md) & Andrew Lonie
+* Just scheduled: Intro to variant calling for pathologists and laboratory managers, Sydney, 22 June. [Ross Lazarus](/src/fubar/index.md) & Andrew Lonie
 * [ASH: A Galaxy VM](http://bit.ly/ASH_VM) from Erasmus Medical Centre for Automated Selection of Hotspots in cancer.
 

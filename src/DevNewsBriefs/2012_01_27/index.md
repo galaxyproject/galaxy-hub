@@ -37,7 +37,7 @@ title: January 27, 2012 Galaxy Development News Brief
 
 ## Tools
 
-*Many tools have been recently upgraded. Please review* [Admin/Config/Tool Dependencies](/src/Admin/Config/Tool Dependencies/index.md) *and* [Admin/Config/Tool Dependencies](/src/Admin/Config/Tool Dependencies/index.md) *for these and other recently updated Tool Dependencies.*
+*Many tools have been recently upgraded. Please review* [Admin/Config/Tool Dependencies](/src/Admin/Config/ToolDependencies/index.md) *and* [Admin/Config/Tool Dependencies](/src/Admin/Config/ToolDependencies/index.md) *for these and other recently updated Tool Dependencies.*
 * **[SAMtools:](http://samtools.sourceforge.net/)**
   * All wrappers in group accept versions 0.1.12-0.1.18 with 0.1.16-0.1.18 *strongly* preferred.
   * Exceptions:

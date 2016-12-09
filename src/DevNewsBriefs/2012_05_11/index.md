@@ -85,7 +85,7 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/src/Adm
 <br />
 # Tools
 
-[Admin/Config/Tool Dependencies](/src/Admin/Config/Tool Dependencies/index.md)
+[Admin/Config/Tool Dependencies](/src/Admin/Config/ToolDependencies/index.md)
 * **NGS: GATK Tools (beta)**
   * Added **[GATK](http://www.broadinstitute.org/gsa/wiki) version 1.4**
     * Compiled from [v1.4-18-g80a4ce0](http://github.com/broadgsa/gatk)

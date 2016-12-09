@@ -28,7 +28,7 @@ autotoc: true
 * Data and Job Quotas announced earlier today by email, Galaxy wiki, Twitter, and News Items/RSS feed.
   * [Email](http://lists.bx.psu.edu/pipermail/galaxy-user/2011-October/003467.html) message from the team to galaxy-user and galaxy-dev [mailing lists](/src/MailingLists/index.md).
   * [Main](/src/Main/index.md) wiki with limits, FAQ, and related links.
-  * [Managing Datasets](/src/Learn/Managing Datasets/index.md) wiki contains detailed help to organize, clone, copy, save, and delete unneeded data.
+  * [Managing Datasets](/src/Learn/ManagingDatasets/index.md) wiki contains detailed help to organize, clone, copy, save, and delete unneeded data.
   * [Disk Quotas](/src/Admin/DiskQuotas/index.md) wiki has administrative information on how Galaxy's disk space accounting works, how to keep it up to date, and how to enable and manage quotas
   * Twitter [#galaxyproject](http://twitter.com/#galaxyproject).
   * [Galaxy News](/src/news/index.md) Items and RSS feed.
@@ -96,7 +96,7 @@ autotoc: true
 ### Quotas and Data Management
 
 * Various performance and usability enhancements, as well as a fully implemented API for the quota system.
-* Documentation at [Disk Quotas](/src/Admin/DiskQuotas/index.md) and [Managing Datasets](/src/Learn/Managing Datasets/index.md).
+* Documentation at [Disk Quotas](/src/Admin/DiskQuotas/index.md) and [Managing Datasets](/src/Learn/ManagingDatasets/index.md).
 * Purged histories were counting in users' disk usage calculations, this has been fixed, so you should rerun `galaxy-dist/scripts/set_user_disk_usage.py` to recalculate usages.
 * The time to load the list of saved histories should be greatly improved due to a more efficient query to calculate the sizes of histories in the list
 * It's now possible to purge all datasets in a history which are already deleted, as well as purge entire histories that are already deleted.

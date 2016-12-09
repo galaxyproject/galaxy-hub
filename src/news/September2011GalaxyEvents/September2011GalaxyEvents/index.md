@@ -4,7 +4,7 @@ date: 2011-08-24T05:36:59Z
 <div class='newsItemHeader'>[September 2011 Galaxy Events](/News/September 2011 Galaxy Events)</div>
 
 <div class='right'>
-<a href='/Events'><img src='/Images/Logos/galaxyLogoTrimmed.png' alt='Galaxy Events in September 2011' width="120" /></a> <a href='http://docs.uabgrid.uab.edu/wiki/2011'><img src='/Images/Logos/UABLogo.png' alt='UAB Research Computing Day' width="80" /></a> <a href='http://aws.amazon.com/genomicsevent/'><img src='/Images/Logos/AWSLogo.png' alt='AWS Genomics Event' width="100" /></a>
+<a href='/Events'><img src='/images/Logos/galaxyLogoTrimmed.png' alt='Galaxy Events in September 2011' width="120" /></a> <a href='http://docs.uabgrid.uab.edu/wiki/2011'><img src='/images/Logos/UABLogo.png' alt='UAB Research Computing Day' width="80" /></a> <a href='http://aws.amazon.com/genomicsevent/'><img src='/images/Logos/AWSLogo.png' alt='AWS Genomics Event' width="100" /></a>
 </div>
 
 There are (at least) three [Galaxy related events](/src/events/index.md) going on in September 2011 that you may want to consider attending.  They are happening from one coast of the United States to the other:

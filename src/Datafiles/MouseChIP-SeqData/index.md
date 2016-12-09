@@ -9,7 +9,7 @@ INCLUDE(/UnderConstruction)
 * Other
 
 # Mammalian Promoter Database Files
-<div class='right'><a href='http://mpromdb.wistar.upenn.edu/'><img src='/Images/Logos/MPromDBLogo.png' alt='MPromDB' width="250" /></a></div>
+<div class='right'><a href='http://mpromdb.wistar.upenn.edu/'><img src='/images/Logos/MPromDBLogo.png' alt='MPromDB' width="250" /></a></div>
 These data come from the [Mammalian Promoter Database (MPromDB)](http://mpromdb.wistar.upenn.edu/) at the [Wistar Instute](http://www.wistar.org). MPromDB "is a curated database that strives to annotate gene promoters identified from ChIP-Seq experiment results. The long term goal of this database is to provide an integrated resource for mammalian gene transcriptional regulation and epigenetics."  It is produced and supported by the [Davuluri Lab](http://bioinformatics.wistar.upenn.edu/davuluri), and Galaxy wishes to thank them for allowing us to use this data.
 
 ## Restrictions

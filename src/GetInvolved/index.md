@@ -51,7 +51,7 @@ If you have implemented a particular feature or have addressed a particular chal
 
 # Documentation
 
-This wiki contains a large amount of documentation about using and administering Galaxy.  You can help keep this wiki current and relevant by maintaining it and by addressing gaps in the current documentation.  See [Wiki Help](/src/Wiki Help/index.md) for more on updating this wiki.
+This wiki contains a large amount of documentation about using and administering Galaxy.  You can help keep this wiki current and relevant by maintaining it and by addressing gaps in the current documentation.  See [WWiki Best Practices](/src/WikiBestPractices/index.md) for more on updating this wiki.
 
 # Code
 
@@ -68,6 +68,6 @@ Galaxy has a presence at many [Events](/src/events/index.md) throughout the year
 # Outreach
 
 <div class='left'>
-<a href='/src/Outreach/index.md'><img src="/src/Outreach/Powered by Galaxy/PoweredByGalaxy120.png" alt="Powered by Galaxy" /></a>
+<a href='/src/Outreach/index.md'><img src="/src/Outreach/PoweredbyGalaxy/PoweredByGalaxy120.png" alt="Powered by Galaxy" /></a>
 </div>
 You can also help by spreading the word about Galaxy.  There are [numerous ways to do this](/src/Outreach/index.md).

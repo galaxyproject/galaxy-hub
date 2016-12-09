@@ -185,7 +185,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
     <th> September&nbsp;28 - October&nbsp;1 </th>
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
-    <td> <a href='/src/RossLazarus/index.md'>Ross Lazarus</a>, <a href='/src/Dan/index.md'>Dan Blankenberg</a> </td>
+    <td> <a href='/src/fubar/index.md'>Ross Lazarus</a>, <a href='/src/Dan/index.md'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> September 30 - October 2 </th>

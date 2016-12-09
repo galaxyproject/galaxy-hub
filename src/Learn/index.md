@@ -88,7 +88,7 @@ Learning the basics of how to manage datasets helps to focus analysis on the sci
 * [Datatypes](/src/Learn/Datatypes/index.md) - Specifications for the datatypes used and produced by Galaxy's tools.
 * [Main](/src/Main/index.md) and [Test](/src/Test/index.md) Quotas - User account allocations for data and jobs. 
 * [Data management: accounting and disk quotas](/src/Admin/DiskQuotas/index.md) - Implementation details.
-* [Admin/Datatypes](/src/Admin/Datatypes/index.md) & [Admin/Data Integration](/src/Admin/Data Integration/index.md) - Instructions about adding new datasets (genomes) and datatypes to a local Galaxy instance
+* [Admin/Datatypes](/src/Admin/Datatypes/index.md) & [Admin/Data Integration](/src/Admin/DataIntegration/index.md) - Instructions about adding new datasets (genomes) and datatypes to a local Galaxy instance
 
 ## Tools
 
@@ -116,7 +116,7 @@ PLACEHOLDER_INCLUDE(/src/support/LinkBox/index.md)
 Galaxy user accounts are simple to create (email, password, user name and go!). An account is not required to access the Galaxy public [Main](/src/Main/index.md) or [Test](/src/Test/index.md) instances, but if used, the data quota is increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages).
 
 * **[Accounts on Main](http://vimeo.com/galaxyproject/accounts)** - registration how-to video
-* [User Accounts](/src/Learn/User Accounts/index.md)
+* [User Accounts](/src/Learn/UserAccounts/index.md)
 * [OpenID Login](/src/Learn/OpenID Login/index.md)
 * [Security Features](/src/Learn/Security Features/index.md)
 

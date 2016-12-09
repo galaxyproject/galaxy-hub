@@ -5,7 +5,7 @@ date: 2012-07-21T06:28:04Z
 
 
 **Complete [News Brief](/src/DevNewsBriefs/2012_07_20/index.md)**
-<div class='right'><a href='/DevNewsBriefs/2012_07_20'><img src='/Images/NewsGraphics/2012_07_20_main-page.png' alt='genome-indexing' width="250px" /></a></div>
+<div class='right'><a href='/DevNewsBriefs/2012_07_20'><img src='/images/NewsGraphics/2012_07_20_main-page.png' alt='genome-indexing' width="250px" /></a></div>
 **Highlights:**
 * **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** has moved from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)*
 * **[EMBOSS](http://emboss.sourceforge.net/)** version 5.0.0 tool dependencies in the `emboss_5` repository of the Galaxy Main Tool Shed updated to include information for automatically installing. 
