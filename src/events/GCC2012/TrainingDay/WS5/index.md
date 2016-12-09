@@ -86,7 +86,7 @@ I changed the following settings:
 * `user_library_import_dir = /home/galaxy/user-import` - Non-administrators can directly import datasets from this directory on this server to Data Libraries from which they have been given write permission.  Documented at the same link as above.
 * `allow_library_path_paste = True` - Administrators can import datasets from anywhere on the server's filesystem(s) by entering their paths in to a textarea.
 * `id_secret = <random text>` - Ensures that the encoded IDs used by Galaxy (especially session IDs) are unique.  One simple way to generate a value for this is with a shell command like `% date | md5sum`
-* `use_remote_user` and `remote_user_maildomain` - I did not enable these, but this is how users can use your institution's existing authentication system to log in to Galaxy.  Documentation is specific to [Admin/Config/Apache Proxy](/src/Admin/Config/Apache Proxy/index.md) or [Admin/Config/Performance/nginx Proxy](/src/Admin/Config/Performance/nginx Proxy/index.md).
+* `use_remote_user` and `remote_user_maildomain` - I did not enable these, but this is how users can use your institution's existing authentication system to log in to Galaxy.  Documentation is specific to [Admin/Config/Apache Proxy](/src/Admin/Config/ApacheProxy.mdindex.md) or [Admin/Config/Performance/nginx Proxy](/src/Admin/Config/Performance/nginx Proxy/index.md).
 * `admin_users = nate@example.org` - Make nate@example.org an administrator.  Galaxy's Admin UI is only accessible if you define administrators here!
 * `allow_user_impersonation = True` - Users configured as administrators (with `admin_users`) can "become" other users to view Galaxy exactly as the impersonated user does.  Useful for providing support.
 * `allow_user_dataset_purge = True` - Allow users to forcibly remove their datasets from disk (note that the data is only actually removed if all versions of a shared dataset are purged by all users who are sharing the dataset).  By default, Galaxy does not remove data, as this is done at a later time by the dataset cleanup scripts (discussed below).
@@ -335,7 +335,7 @@ root@trainingday:/etc/init.d#
 
 ## Configure and start nginx
 
-The configuration of proxy servers is explained in the wiki at [Admin/Config/Performance/nginx Proxy](/src/Admin/Config/Performance/nginx Proxy/index.md) and [Admin/Config/Apache Proxy](/src/Admin/Config/Apache Proxy/index.md).
+The configuration of proxy servers is explained in the wiki at [Admin/Config/Performance/nginx Proxy](/src/Admin/Config/Performance/nginx Proxy/index.md) and [Admin/Config/Apache Proxy](/src/Admin/Config/ApacheProxy.mdindex.md).
 
 ```console
 root@trainingday:/etc/init.d# cd /etc/nginx/sites-available/

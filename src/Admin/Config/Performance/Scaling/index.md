@@ -236,7 +236,7 @@ To balance on Apache, you'll need to enable `mod_proxy_balancer` in addition to 
 ```
 
 
-And replace the following line from the [regular proxy configuration](/src/Admin/Config/Apache Proxy/index.md):
+And replace the following line from the [regular proxy configuration](/src/Admin/Config/ApacheProxy.mdindex.md):
 
 ```apache
 RewriteRule ^(.*) http://localhost:8080$1 [P]

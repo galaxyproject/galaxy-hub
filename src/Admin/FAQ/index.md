@@ -82,7 +82,7 @@ xls = galaxy.datatypes.data:Data,application/vnd.ms-excel
 
 **How can I run a Galaxy mirror alongside my regular web server (i.e. on port 80)?**
 
-Via a proxy connection in Apache.  Instructions can be found on the [Admin/Config/Apache Proxy](/src/Admin/Config/Apache Proxy/index.md) page.
+Via a proxy connection in Apache.  Instructions can be found on the [Admin/Config/Apache Proxy](/src/Admin/Config/ApacheProxy.mdindex.md) page.
 
 ----
 

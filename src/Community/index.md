@@ -100,6 +100,6 @@ Want to share how you addressed a particular challenge in your Galaxy deployment
 
 * [Tool Shed](/src/ToolShed/index.md) - Tool wrappers contributed by community members.
 * [Events](/src/events/index.md) - Events of interest to the community, including the annual Galaxy meetings.
-* [Support](/src/support/index.md) - How to get (and help with) support, including [Mailing Lists](/src/MailingLists/index.md) and [this wiki](/src/Wiki Help/index.md).
+* [Support](/src/support/index.md) - How to get (and help with) support, including [Mailing Lists](/src/MailingLists/index.md).
 * [Training and Outreach](/src/Outreach/index.md) - Find out how you can support the Galaxy community and get the word out about Galaxy.
 

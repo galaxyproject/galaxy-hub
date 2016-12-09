@@ -4,7 +4,7 @@
 <div class='right'><a href='http://wiki.galaxyproject.org/Tool%20Shed'><img src="/src/images/NewsGraphics/2013_02_6-confirm-dependency-installation-sm2.png" alt="width="200px"" /></a></div>
 **Highlights:**
 
-* *Improvements* to our [release process](http://wiki.galaxyproject.org/DevNewsBriefs/2013_02_08#Improvements_to_Release_Process). **Release tag must be used in the hg update command to upgrade**. More at **[usegalaxy.org](http://wiki.galaxyproject.org/Admin/Get Galaxy)**.
+* *Improvements* to our [release process](http://wiki.galaxyproject.org/DevNewsBriefs/2013_02_08#Improvements_to_Release_Process). **Release tag must be used in the hg update command to upgrade**. More at **[usegalaxy.org](http://wiki.galaxyproject.org/Admin/GetGalaxy)**.
 * Tool Shed *[Complex repository dependencies](http://wiki.galaxyproject.org/DefiningRepositoryDependencies#Complex_repository_dependencies:_tool_dependency_definitions_that_contain_repository_dependency_definitions)* are introduced, streamlining core dependency use across individual tools. 
 * Also updated in the Tool Shed: multiple repository installation, dependency installation (when defined - see graphic on right for an example), and many usability enhancements and fixes.
 * New *[Bedgraph-to-bigwig](http://wiki.galaxyproject.org/Learn/Datatypes#BedGraph)* tool plus *Filter* tool updated.

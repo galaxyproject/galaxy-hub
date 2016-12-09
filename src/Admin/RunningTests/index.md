@@ -13,7 +13,7 @@ This page describes the tests available for a locally downloaded copy of Galaxy,
 
 Galaxy functional tests use the python twill module (a simple scripting language intended for programmatic or automated browsing of Web sites) in conjunction with nose (a test discovery module).
 
-Assuming Galaxy has been downloaded and installed (see [Admin/Get Galaxy](/src/Admin/Get Galaxy/index.md)), the directory containing Galaxy also contains the shell script `run_tests.sh` (originally named `run_functional_tests.sh`).  This script automatically starts a Galaxy instance on the local machine for the sole purpose of running the tests.
+Assuming Galaxy has been downloaded and installed (see [Admin/Get Galaxy](/src/Admin/GetGalaxy/index.md)), the directory containing Galaxy also contains the shell script `run_tests.sh` (originally named `run_functional_tests.sh`).  This script automatically starts a Galaxy instance on the local machine for the sole purpose of running the tests.
 
 The functional tests can be launched with the command:
 ```

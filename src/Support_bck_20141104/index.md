@@ -9,7 +9,7 @@ title: Support
 Before submitting an error or posting a question to [Galaxy Biostar](https://biostar.usegalaxy.org/) or one of the [Mailing Lists](/src/support/index.md#mailing_lists), we ask that you please first review the support resources summarized here and search with our [Custom Tools](/src/support/index.md#custom_searches) or on tool pages through [Galaxy Biostar](https://biostar.usegalaxy.org/) to see if the same question has come up in the past.
 <br />
 <br />
-If you have help to offer other Galaxy users, *please dive right in* and reply to questions on the [Galaxy Biostar](https://biostar.usegalaxy.org/) forum or [Mailing Lists](/src/MailingLists/index.md), submit tools to the [/ToolShed](/ToolShed), add and up vote cards on the [Trello](http://bit.ly/gxytrello) Issue board. Share your expertise by adding your advice and tutorials into our [Wiki](/Wiki Help) or [Shared Data](https://usegalaxy.org/page/list_published) on [usegalaxy.org](http://usegalaxy.org) (Main)! 
+If you have help to offer other Galaxy users, *please dive right in* and reply to questions on the [Galaxy Biostar](https://biostar.usegalaxy.org/) forum or [Mailing Lists](/src/MailingLists/index.md), submit tools to the [/ToolShed](/ToolShed), add and up vote cards on the [Trello](http://bit.ly/gxytrello) Issue board. Share your expertise by adding your advice and tutorials into our [Wiki](/WikiBestPractices) or [Shared Data](https://usegalaxy.org/page/list_published) on [usegalaxy.org](http://usegalaxy.org) (Main)! 
 <br />
 <br />
 Galaxy is a [community](/src/Community/index.md) of scientists and developers working together to make great science happen! Communication, feedback, and contributions are *important*.
