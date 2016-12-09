@@ -17,7 +17,7 @@
             "search": "/Learn/LinkBox"
         }, 
         {
-            "replace": "[/Learn](/Learn)<br />\n[FAQ](/Learn/FAQ)<br />\n[Biostar](/Support/Biostar)<br />\n[Videos](http://vimeo.com/galaxyproject)<br />\n[IRC](/Support/IRC)<br />\n[Tutorials](http://main.g2.bx.psu.edu/u/james/p/exercises)<br />\n[/News](/News)<br />\n[/Events](/Events)<br />\n[Get Galaxy!](/Admin/GetGalaxy)<br />\n[/Admin](/Admin)<br />\n[/Tool Shed](/Tool Shed)<br />\n[/CloudMan](/CloudMan)<br />\n[Citing Galaxy](/CitingGalaxy)<br />\n[Issue Board](/Issues)<br />\n[Search](http://galaxyproject.org/search/)\n</div>", 
+            "replace": "[/Learn](/Learn)<br />\n[FAQ](/Learn/FAQ)<br />\n[Biostar](/Support/Biostar)<br />\n[Videos](http://vimeo.com/galaxyproject)<br />\n[IRC](/Support/IRC)<br />\n[Tutorials](http://main.g2.bx.psu.edu/u/james/p/exercises)<br />\n[/News](/News)<br />\n[/Events](/Events)<br />\n[Get Galaxy!](/Admin/GetGalaxy)<br />\n[/Admin](/Admin)<br />\n[/ToolShed](/ToolShed)<br />\n[/CloudMan](/CloudMan)<br />\n[Citing Galaxy](/CitingGalaxy)<br />\n[Issue Board](/Issues)<br />\n[Search](http://galaxyproject.org/search/)\n</div>", 
             "search": "/Support/LinkBox"
         }, 
         {

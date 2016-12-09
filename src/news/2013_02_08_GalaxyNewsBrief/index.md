@@ -10,7 +10,7 @@
 * New *[Bedgraph-to-bigwig](http://wiki.galaxyproject.org/Learn/Datatypes#BedGraph)* tool plus *Filter* tool updated.
 * *Workflows* now include option to export an image and the core *Framework* now allows more unified reference genome usage and access.
 * *Ten Community Pull-Requests* incorporated, plus another contribution to the tool Shed, addressing general usability, API, tools, error handling, workflows, and more. Thanks!!
-* Review highlights from the latest monthly *[Galaxy Update](/src/GalaxyUpdates/index.md)* newsletter and [Galaxy Project Stats!](/src/Galaxy Project/Statistics/index.md)
+* Review highlights from the latest monthly *[Galaxy Update](/src/GalaxyUpdates/index.md)* newsletter and [Galaxy Project Stats!](/src/GalaxyProject/Statistics/index.md)
 * Plus bug fixes and related enhancements for visualizations, histories, workflows, and tools.
 
 **[http://getgalaxy.org](http://getgalaxy.org)**
@@ -27,7 +27,7 @@ upgrade: $ hg pull
 ```
 
 
-*To receive email updates about [Galaxy Distributions and News Briefs](/src/DevNewsBriefs/index.md), be sure to subscribe to the [Galaxy-Announce mailing list](/src/MailingLists/index.md#the_lists), a low-volume list dedicated to [News Items](/src/news/index.md) and priority messages from the Galaxy [community](/src/Community/index.md) and [project core team](/src/Galaxy Project/index.md).* 
+*To receive email updates about [Galaxy Distributions and News Briefs](/src/DevNewsBriefs/index.md), be sure to subscribe to the [Galaxy-Announce mailing list](/src/MailingLists/index.md#the_lists), a low-volume list dedicated to [News Items](/src/news/index.md) and priority messages from the Galaxy [community](/src/Community/index.md) and [project core team](/src/GalaxyProject/index.md).* 
 
 Thanks for using Galaxy,
 

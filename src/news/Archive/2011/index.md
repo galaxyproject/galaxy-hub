@@ -1,8 +1,8 @@
 <div class='linkbox'>
 **2011 News Items**
 ----
-[Custom Galaxy Search](/src/news/Custom Galaxy Search/index.md)<br />
-[New Galaxy Group @ CiteULike](/src/news/New Galaxy Group @ CiteULike/index.md)<br />
+[Custom Galaxy Search](/src/news/CustomGalaxySearch/index.md)<br />
+[New Galaxy Group @ CiteULike](/src/news/NewGalaxyGroupCiteULike/index.md)<br />
 [January 2012 Galaxy Events](/src/news/January 2012 Galaxy Events/index.md)<br />
 [New Galaxy-Announce Mailing List](/src/news/New Galaxy-Announce Mailing List/index.md)<br />
 ----

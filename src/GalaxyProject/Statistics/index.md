@@ -184,7 +184,7 @@ Active here means "visited", as defined by Biostar.
 
 ## Mailing Lists
 
-Membership in and traffic on Galaxy's [Mailing Lists](/src/Mailing Lists/index.md) has seen steady increase over time.  Several milestones have contributed to this and affected membership and posting.
+Membership in and traffic on Galaxy's [Mailing Lists](/src/MailingLists/index.md) has seen steady increase over time.  Several milestones have contributed to this and affected membership and posting.
 
 * 2011/12: Galaxy-Announce list launched.
 * 2012/02: Default mailing list for newly registered users on [usegalaxy.org](/src/Main/index.md) was switched from Galaxy-User to Galaxy-Announce in mid 2012/02. At the same time a link to the other lists was also added to the registration form.
