@@ -22,6 +22,7 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
 ## Upcoming Events
 
 <div class='center'> 
+<a href='/src/Community/GalaxyAdmins/Meetups/2016_12_15/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="15 December GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
 <a href='/src/events/PAG2017/index.md'><img src="/src/images/Logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="90" /></a> &nbsp;
 <a href='https://www.embl-abr.org.au/game2017/'><img src="/src/images/Logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="120" /></a>
 </div>
@@ -34,11 +35,17 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
     <th> Contact </th>
   </tr>
   <tr>
+     <th class="th" > December 15 </th>
+     <td> <em><a href="/src/Community/GalaxyAdmins/Meetups/2016_12_15/index.md"> Galaxy Training Materials / The new Galaxy Community Hub: Community creation, curation, and use</a></em> </td>
+     <td> <img src="/src/images/Icons/World40.png" alt="Online" align="right" /> <a href="/src/Community/GalaxyAdmins/Meetups/2016_12_15/index.md">GalaxyAdmins Meetup, <em>Online</em></a> </td>
+     <td> <a href="http://galaxy.uni-freiburg.de"> Björn Grüning, Bérénice Batut</a>, <a href="/src/DannonBaker/">Dannon Baker</a> </td>
+  </tr>   
+  <tr>
      <th class="th" > December 15-16 </th>
      <td> <em><a href="http://www.denbi.de/22-training-cat/training-courses/215-galaxy-rna-sequencing-data-analysis-workshop">Galaxy RNA-sequencing data analysis workshop</a></em> </td>
      <td> <img src="/src/images/Icons/Europe40.png" alt="Europe" align="right" /> Freiburg, Germany </td>
      <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="http://galaxy.uni-freiburg.de">Freiburg Galaxy Team</a> </td>
-   </tr>
+  </tr>
   <tr>
     <td colspan=4 style=" text-align: center; background-color: #eef;"> <span style="font-size: larger;"> <strong>2017</strong> </span> </td>
   </tr>
