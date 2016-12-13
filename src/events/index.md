@@ -59,14 +59,12 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
     <td> <em><a href='https://www.abdn.ac.uk/genomics/documents/201617_Workshops/RNA_Sequencing_2017.pdf'>RNA Sequencing and Differential Expression</a></em> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> <a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen</a>, Scotland, United Kingdom </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='mailto:s.shaw@abdn.ac.uk'>Sophie Shaw</a> </td>
-    <td> </td>
   </tr>
   <tr>
     <th> January 24 </th>
     <td> <em><a href='https://www.abdn.ac.uk/genomics/documents/201617_Workshops/Advanced_RNA_Sequencing_2017.pdf'>Advanced	RNA	Sequencing (RNA-seq) Analysis</a></em> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> <a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen</a>, Scotland, United Kingdom </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='mailto:s.shaw@abdn.ac.uk'>Sophie Shaw</a> </td>
-    <td> </td>
   </tr>
   <tr>
     <th> January 30 </th>
@@ -88,6 +86,15 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
     <td> <strong><a href='http://www.denbi.de/22-training-cat/training-courses/213-3rd-galaxy-high-throughput-sequencing-hts-data-analysis-workshop'>Galaxy Workshop on HTS data analysis for Scientists</a></strong> </td>
     <td> <img src="/src/images/Icons/Europe40.png" alt="Europe" align="right" /> Freiburg, Germany </td>
     <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='mailto:erxleben@informatik.uni-freiburg.de'>Organisers</a> </td>
+  </tr>
+  <tr>
+    <td colspan=4 style=" background-color: #eef;"> </td>
+  </tr>
+  <tr>
+    <th> April 19-21 </th>
+    <td> <strong><a href='http://www.canceropole-idf.fr/formation-ngs-dnaseq'>NGS & Cancer : Analyses DNA-Seq</a></strong> </td>
+    <td> <img src="/src/images/Icons/Europe40.png" alt="Europe" align="right" /> Paris, France </td>
+    <td> <a href='http://www.canceropole-idf.fr/formation-ngs-dnaseq'>Instructors</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
