@@ -6,7 +6,7 @@ tease: 'GalaxyAdmins December 2016 Meetup'
 <div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
 </div>
 
-| | |
+
 |-----|-----|
 | **Date** | 15 December 2016 |
 | **Time** | [5 pm Central European Time](http://bit.ly/2h2QOsT). See [your local time](http://bit.ly/2h2QOsT) |
