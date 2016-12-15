@@ -30,19 +30,11 @@ vulnerabilities. Details follow:
    attack vector. The fix for this issue has been applied to Galaxy releases
    back to v16.07 and can be found in Pull Request 3278.
 
-## [Highlighted Enhancements](https://docs.galaxyproject.org/en/master/releases/16.10_announce.html#highlighted-enhancements)
+## [Highlights](https://docs.galaxyproject.org/en/master/releases/16.10_announce.html#highlights)
 
-* Overhaul of charts visualization - more visualizations, more options, and better user interface.
-* Paginate contents of large histories.
-* Implement a collection operation tool for merging collections (thanks to @Takadonet).
-* Replace reference documentation for tool XML files with automatically generated documentation from a now official Galaxy XSD documentation (with help from many).
-* Add a password strength evaluation bar (thanks to @benfulton).
-* Implement a GoDocker job runner (thanks to @varunshankar).
-* Support for API batch requests.
-* Allow JSONP to be returned from API endpoints.
-* Add “Save as” as an option in the workflow editor (thanks to @tmcgowan).
-* Allow naming input datasets and collections during workflow extraction.
-* Various enhancements for API driven installation of tool shed repositories.
+* **Galaxu UI plugins - Webhooks:** We introduce Galaxy Webhooks - optional plugins for the web UI that allow for better customization of your instance. See the documentation. Includes work from @bgruening, @anatskiy, and Joachim Wolff @joachimwolff.
+* **Workflow run form replaced:** The workflow run form has been replaced by one backed by the new tool form and the API. Nicer, faster, standardized.
+* **Automatic tool reload after installation:** Galaxy does not need to be restarted after tool installation anymore. This provides a smoother experience for the users. Yay! Thanks to @mvdbeek.
 
 ## [Get Galaxy](http://getgalaxy.org)
 
