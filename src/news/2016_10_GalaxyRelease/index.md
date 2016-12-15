@@ -2,7 +2,6 @@
 title: 'October 2016 Galaxy Release (v 16.10)'
 date: '12-15-2016'
 ---
-<div class='newsItemHeader'><a href="/src/news/2016_12_GalaxyRelease/index.md">October 2016 Galaxy Release (v 16.10)</a></div>
 
 <div class='right'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
 
@@ -62,5 +61,3 @@ $ git checkout release_16.10 && git pull --ff-only origin release_16.10
 
 <br />
 On behalf of the [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst), ***Thanks for using Galaxy!***
-
-[CategoryNews](/src/CategoryNews/index.md)
