@@ -2,12 +2,12 @@
 title: 'October 2016 Galaxy Release (v 16.10)'
 date: '12-15-2016'
 ---
-
 <div class='right'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
 
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the **[October 2016 (v16.10) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.10_announce.html)**.
 
-***[Security](https://docs.galaxyproject.org/en/master/releases/16.10_announce.html#security)***
+## [Security](https://docs.galaxyproject.org/en/master/releases/16.10_announce.html#security)
+
 An arbitrary code execution vulnerability in two tools and an XSS vulnerability
 with the upload tool were identified this release cycle and have been fixed
 concurrently with the release. In addition, the fixes have been backported to
@@ -30,8 +30,8 @@ vulnerabilities. Details follow:
    attack vector. The fix for this issue has been applied to Galaxy releases
    back to v16.07 and can be found in Pull Request 3278.
 
-<br />
-***[https://docs.galaxyproject.org/en/master/releases/16.10_announce.html#highlighted-enhancements](Highlighted Enhancements)***
+## [Highlighted Enhancements](https://docs.galaxyproject.org/en/master/releases/16.10_announce.html#highlighted-enhancements)
+
 * Overhaul of charts visualization - more visualizations, more options, and better user interface.
 * Paginate contents of large histories.
 * Implement a collection operation tool for merging collections (thanks to @Takadonet).
@@ -44,8 +44,7 @@ vulnerabilities. Details follow:
 * Allow naming input datasets and collections during workflow extraction.
 * Various enhancements for API driven installation of tool shed repositories.
 
-<br />
-***[Get Galaxy](http://getgalaxy.org)***
+## [Get Galaxy](http://getgalaxy.org)
 
 The code lives at [Github](https://github.com/galaxyproject/galaxy) and you should have [Git](https://git-scm.com/) to obtain it.
 
@@ -58,6 +57,10 @@ $ git clone -b release_16.10 https://github.com/galaxyproject/galaxy.git
 ```console
 $ git checkout release_16.10 && git pull --ff-only origin release_16.10
 ```
+
+## [Release Notes](https://docs.galaxyproject.org/en/master/releases/16.10_announce.html)
+
+For full details on all of the enhancements and fixes in this release, please see the [full release notes](https://docs.galaxyproject.org/en/master/releases/16.10_announce.html).
 
 <br />
 On behalf of the [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst), ***Thanks for using Galaxy!***
