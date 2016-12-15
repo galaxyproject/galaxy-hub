@@ -40,14 +40,14 @@ If running a production Galaxy service or creating your own personal Galaxy serv
 * If you do not have a Galaxy repository yet or you do not want to update the existing instance, run:
 
 ```sh
-$ git clone -b release_16.07 https://github.com/galaxyproject/galaxy.git
+$ git clone -b release_16.10 https://github.com/galaxyproject/galaxy.git
 ```
 
 
 * If you have an existing Galaxy repository you want to update, run:
 
 ```sh
-$ git checkout release_16.07 && git pull --ff-only origin release_16.07
+$ git checkout release_16.10 && git pull --ff-only origin release_16.10
 ```
 
 
