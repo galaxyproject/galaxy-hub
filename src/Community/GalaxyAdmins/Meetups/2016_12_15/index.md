@@ -17,7 +17,7 @@ tease: 'GalaxyAdmins December 2016 Meetup'
 
 *[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
-Both talks this month are about efforts that have embraced community driven content creation, updating, and sharing.  One of them is using GitHub and presentation technologies to make Galaxy training material available online in such a way that anyone can contribute to it.  THe second talk is about the move of Galaxy's wiki to GitHub and the use of Metalsmith to generate the web site and take advantage of metadata.
+Both talks this month are about efforts that have embraced community driven content creation, updating, and sharing.  One of them is using GitHub and presentation technologies to make Galaxy training material available online in such a way that anyone can contribute to it.  The second talk is about the move of Galaxy's wiki to GitHub and the use of Metalsmith to generate the web site and take advantage of metadata.
 
 
 ## Call Technology
