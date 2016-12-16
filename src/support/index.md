@@ -2,25 +2,6 @@
 autotoc: true
 title: Support
 ---
-#acl WikiAdminGroup:read,write,revert All:read
-
-<br />
-**What's New?** Watch **[GXYcast1](https://vimeo.com/120839821)**
-<br />
-**Learning Galaxy?** Get started with **[Galaxy NGS 101](http://wiki.galaxyproject.org/Learn/GalaxyNGS101)**
-<br />
-**Ready for your test drive?** Follow the 101 Tutorials here **[http://usegalaxy.org/galaxy101](http://usegalaxy.org/galaxy101)**
-
-<br /> 
-**End-User Support Resource Short List**
-* [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) ([claim your account](http://wiki.galaxyproject.org/Support/Biostar))
-* [Learn](http://wiki.galaxyproject.org/Learn)
-* [Teach](http://wiki.galaxyproject.org/Teach)
-* [Vimeo](http://vimeo.com/galaxyproject)
-* [GalaxyProject.org](http://wiki.galaxyproject.org) &rarr; Execute a [Custom search](/src/support/index.md#custom_searches) through all project content
-* [Galaxy Project Workshop 2015](https://wiki.galaxyproject.org/Teach/Resource/GalaxyProjectWorkshop2015)
-* [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks)
-* [Known Issues](https://github.com/jennaj/support-known-issues/wiki)
 
 <div class='right'>
 [Learn](/src/Learn/index.md)<br />
@@ -39,6 +20,23 @@ title: Support
 [Issue Board](/src/Issues/index.md)<br />
 [Search](http://galaxyproject.org/search/)
 </div>
+
+
+**What's New?** Watch **[GXYcast1](https://vimeo.com/120839821)**
+
+**Learning Galaxy?** Get started with **[Galaxy NGS 101](http://wiki.galaxyproject.org/Learn/GalaxyNGS101)**
+
+**Ready for your test drive?** Follow the 101 Tutorials here **[http://usegalaxy.org/galaxy101](http://usegalaxy.org/galaxy101)**
+
+**End-User Support Resource Short List**
+* [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) ([claim your account](http://wiki.galaxyproject.org/Support/Biostar))
+* [Learn](http://wiki.galaxyproject.org/Learn)
+* [Teach](http://wiki.galaxyproject.org/Teach)
+* [Vimeo](http://vimeo.com/galaxyproject)
+* [GalaxyProject.org](http://wiki.galaxyproject.org) &rarr; Execute a [Custom search](/src/support/index.md#custom_searches) through all project content
+* [Galaxy Project Workshop 2015](https://wiki.galaxyproject.org/Teach/Resource/GalaxyProjectWorkshop2015)
+* [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks)
+* [Known Issues](https://github.com/jennaj/support-known-issues/wiki)
 
 
 # Using Galaxy
