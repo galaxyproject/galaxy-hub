@@ -22,18 +22,22 @@ title: Support
 * [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks)
 * [Known Issues](https://github.com/jennaj/support-known-issues/wiki)
 
-<div class='right'>PLACEHOLDER_INCLUDE(/src/support/LinkBox/index.md)</div>
 <div class='right'>
-<br />
-<a href='http://galaxyproject.org/search/web'><img src="/src/images/Logos/GalaxyWebSearch.png" alt="Galaxy Web Search" width="170" /></a> <br />
-<br />
-<a href='http://galaxyproject.org/search/mailinglists'><img src="/src/images/Logos/GalaxyMailingListSearch.png" alt="Galaxy Mailing List Search" width="170" /></a>
-<br />
-<br />
-<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/Logos/UseGalaxySearch.png" alt="Using Galaxy Web Search" width="170" /></a>
-<br />
-<br />
-<a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/images/Logos/GetGalaxySearch.png" alt="Galaxy administration, tool, and deployment search" width="170" /></a>
+[Learn](/src/Learn/index.md)<br />
+[FAQ](/src/Learn/FAQ/index.md)<br />
+[Biostar](/src/support/Biostar/index.md)<br />
+[Videos](http://vimeo.com/galaxyproject)<br />
+[IRC](/src/support/IRC/index.md)<br />
+[Tutorials](http://main.g2.bx.psu.edu/u/james/p/exercises)<br />
+[News](/src/news/index.md)<br />
+[Events](/src/events/index.md)<br />
+[Get Galaxy!](/src/Admin/GetGalaxy/index.md)<br />
+[Admin](/src/Admin/index.md)<br />
+[Tool Shed](/src/ToolShed/index.md)<br />
+[CloudMan](/src/CloudMan/index.md)<br />
+[Citing Galaxy](/src/CitingGalaxy/index.md)<br />
+[Issue Board](/src/Issues/index.md)<br />
+[Search](http://galaxyproject.org/search/)
 </div>
 
 
