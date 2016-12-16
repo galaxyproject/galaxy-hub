@@ -22,7 +22,6 @@ title: Support
 * [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks)
 * [Known Issues](https://github.com/jennaj/support-known-issues/wiki)
 
-<div class='left'></div>
 <div class='right'>PLACEHOLDER_INCLUDE(/src/support/LinkBox/index.md)</div>
 <div class='right'>
 <br />
@@ -36,7 +35,8 @@ title: Support
 <br />
 <a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/images/Logos/GetGalaxySearch.png" alt="Galaxy administration, tool, and deployment search" width="170" /></a>
 </div>
-<div class='left'>
+
+
 # Using Galaxy
 
 ## Galaxy NGS 101
