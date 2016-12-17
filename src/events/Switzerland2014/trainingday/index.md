@@ -1,11 +1,11 @@
 ---
 title:  Galaxy Demo / Training Day, Tuesday, September 30th, Bern 
 ---
-{{> events/SG2014/Header }}
+{{> Events/SG2014/Header }}
 
 
 
-{{> events/SG2014/LinkBox }}
+{{> Events/SG2014/LinkBox }}
 
 ## Content
 

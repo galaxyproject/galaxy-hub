@@ -57,7 +57,7 @@
 [Galaxy @ PAG 2012](/src/news/Galaxy @ PAG 2012/index.md)<br />
 </div>
 
-{{> news/Archive/LinkBox }}
+{{> News/Archive/LinkBox }}
 
 # 2012 News Item Archive
 

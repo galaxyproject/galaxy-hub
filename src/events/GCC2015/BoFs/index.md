@@ -1,7 +1,7 @@
 ---
 title: Birds of a Feather (BoF) Flock Together at [GCC2015](http://gcc2015.tsl.ac.uk/)
 ---
-{{> events/GCC2015/Header }}
+{{> Events/GCC2015/Header }}
 
 
 <div class='left'><img src="/src/images/Logos/GCC2015BoFs300.png" alt="" width="200" /></div>
@@ -60,5 +60,3 @@ The conference *enables and encourages* BoFs by
 * Use this wiki page as a hub for BoFs at [GCC2015](http://gcc2015.tsl.ac.uk/).
 * Promote BoFs to all conference participants, over and over, both before and during the conference.
 * Coordinate and reserve rooms for BoFs, and allocate time in the schedule for them too.
-
-{{> events/GCC2015/Footer }}

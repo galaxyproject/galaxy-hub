@@ -1,7 +1,7 @@
 ---
 title: [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) GCC2015 Meetup
 ---
-{{> events/GCC2015/Header }}
+{{> Events/GCC2015/Header }}
 
 
 

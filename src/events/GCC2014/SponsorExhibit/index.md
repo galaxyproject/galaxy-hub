@@ -1,11 +1,11 @@
 ---
 title: Sponsorships and Exhibitors
 ---
-{{> events/GCC2014/Header }}
+{{> Events/GCC2014/Header }}
 
 
 
-{{> events/GCC2014/LinkBox }}
+{{> Events/GCC2014/LinkBox }}
 
 Is your organization interested in being a prominent part of one of the fastest growing communities in bioinformatics? Becoming a [2014 Galaxy Community Conference](/src/events/GCC2014/SponsorExhibit//index.md) Sponsor or Exhibitor is an excellent way to raise your organization's visibility in this active and engaged community.
 
@@ -160,4 +160,4 @@ Your organization can also be an exhibitor at [GCC2014](/src/events/GCC2014/inde
 </div>
 <br /><br />
 
-{{> events/GCC2013/Footer }}
+{{> Events/GCC2013/Footer }}

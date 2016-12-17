@@ -1,7 +1,7 @@
 ---
 title: [Common Workflow Language](http://common-workflow-language.github.io)
 ---
-{{> events/GCC2015/Header }}
+{{> Events/GCC2015/Header }}
 
 
 

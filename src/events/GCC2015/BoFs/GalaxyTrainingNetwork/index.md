@@ -1,7 +1,7 @@
 ---
 title: Galaxy Training Network Meetup
 ---
-{{> events/GCC2015/Header }}
+{{> Events/GCC2015/Header }}
 
 
 

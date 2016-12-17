@@ -1,7 +1,7 @@
 ---
 title: Friends of the Tool Shed
 ---
-{{> events/GCC2015/Header }}
+{{> Events/GCC2015/Header }}
 
 
 

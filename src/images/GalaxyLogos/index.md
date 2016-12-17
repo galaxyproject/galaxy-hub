@@ -2,7 +2,7 @@
 autotoc: true
 title: Galaxy Project Logos
 ---
-{{> images/LinkBox }}
+{{> Images/LinkBox }}
 
 <div class='right'></div>
 

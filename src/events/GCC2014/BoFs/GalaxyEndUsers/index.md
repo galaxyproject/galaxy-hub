@@ -1,7 +1,7 @@
 ---
 title: Galaxy End-Users
 ---
-{{> events/GCC2014/Header }}
+{{> Events/GCC2014/Header }}
 
 <table>
   <tr>
@@ -21,7 +21,7 @@ title: Galaxy End-Users
  Contact:: [Mo Heydarian](mailto:mheydar1 AT jhmi DOT edu)
 </div>
 
-{{> events/GCC2014/LinkBox }}
+{{> Events/GCC2014/LinkBox }}
 
 <div class='left'><a href='/src/events/GCC2014/BoFs/index.md'><img src="/src/images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
  

@@ -1,7 +1,7 @@
 ---
 title: Register
 ---
-{{> events/GCC2014/Header }}
+{{> Events/GCC2014/Header }}
 
 <br /><br />
 
@@ -9,7 +9,7 @@ title: Register
 **Note:** Total registrations are capped at 250 participants and we expect to hit that registration cap. *Early registration is strongly encouraged.*
 </div>
 
-{{> events/GCC2014/LinkBox }}
+{{> Events/GCC2014/LinkBox }}
 
 
 
@@ -166,4 +166,4 @@ Interested in only the conference?  Conference-only registration includes admiss
 
 See the [Key Dates page](/src/events/GCC2014/Register/KeyDates/index.md) for a full timeline.
 
-{{> events/GCC2014/Footer }}
+{{> Events/GCC2014/Footer }}

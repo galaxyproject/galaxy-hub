@@ -1,7 +1,7 @@
 ---
 title: [GalaxyScientists](/src/GalaxyScientists/index.md)
 ---
-{{> events/GCC2015/Header }}
+{{> Events/GCC2015/Header }}
 
 
 

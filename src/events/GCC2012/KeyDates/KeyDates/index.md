@@ -3,7 +3,7 @@ title: Key Dates
 ---
 {{> Events/GCC2012/PageHeader }}
 
-{{> events/GCC2012/LinkBox }}
+{{> Events/GCC2012/LinkBox }}
 
 <table>
   <tr class="th" >
@@ -75,4 +75,4 @@ title: Key Dates
 
 
 
-{{> events/GCC2012/AsktheOrganizers }}
+{{> Events/GCC2012/AsktheOrganizers }}

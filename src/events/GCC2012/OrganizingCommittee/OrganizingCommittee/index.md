@@ -3,7 +3,7 @@ title: [GCC2012](/src/events/GCC2012/index.md),  Organizing Committee
 ---
 {{> Events/GCC2012/PageHeader }}
 
-{{> events/GCC2012/LinkBox }}
+{{> Events/GCC2012/LinkBox }}
 
 
 
@@ -24,4 +24,4 @@ title: [GCC2012](/src/events/GCC2012/index.md),  Organizing Committee
  **[Bernard Santarsiero](http://www.uic.edu/labs/bds/bdslab/Welcome.html)**
    [University of Illinois at Chicago (UIC)](http://www/uic.edu/)<br /><br />
 
-{{> events/GCC2012/AsktheOrganizers }}
+{{> Events/GCC2012/AsktheOrganizers }}

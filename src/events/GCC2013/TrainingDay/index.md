@@ -1,11 +1,11 @@
 ---
 title: GCC2013 Training Day
 ---
-{{> events/GCC2013/Header }}
+{{> Events/GCC2013/Header }}
 
 
 
-{{> events/GCC2013/LinkBox }}
+{{> Events/GCC2013/LinkBox }}
 
 <div class='left'><img src="/src/images/Logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></div>
 

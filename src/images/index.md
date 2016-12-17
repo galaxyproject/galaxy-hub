@@ -1,4 +1,4 @@
-{{> images/LinkBox }}
+{{> Images/LinkBox }}
 
 Common place to store images that are likely to be shared across pages.
 

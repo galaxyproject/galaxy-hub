@@ -2,11 +2,11 @@
 autotoc: true
 title: Galaxy Admin Training: Basic Topics
 ---
-{{> events/AdminTraining2016/Header }}
+{{> Events/AdminTraining2016/Header }}
 
 
 
-<div class='right'>{{> events/AdminTraining2016/BasicsSession/LinkBox }}</div>
+<div class='right'>{{> Events/AdminTraining2016/LinkBox }}</div>
 
 **November 7-8, Salt Lake City Library**
 
@@ -213,4 +213,4 @@ This two day workshop will cover the big picture, and installation, configuratio
 
 The **introductory training workshop will be held at the [Salt Lake City Main Public Library](http://www.slcpl.lib.ut.us/branches/view/Main+Library).**  This [stunning venue](https://www.google.com/search?tbm=isch&q=salt+lake+city+library) is located in downtown Salt Lake City at [210 East 400 South](https://drive.google.com/open?id=1vC6J8BdrMDQo_cIJvTr9pjUGGcA&usp=sharing), and is a stop on the [UTA TRAX Red Line](https://www.rideuta.com/Rider-Tools/Schedules-and-Maps/703-Red-Line) and just [5 stops from conference housing](https://drive.google.com/open?id=1vC6J8BdrMDQo_cIJvTr9pjUGGcA&usp=sharing).  We'll be meeting in [Conference Room 4](http://www.slcpl.lib.ut.us/rooms/) .
 
-{{> events/AdminTraining2016/BasicsSession/Footer }}
+{{> Events/AdminTraining2016/Footer }}

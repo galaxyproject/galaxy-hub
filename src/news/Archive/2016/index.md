@@ -23,7 +23,7 @@
 <div class='right'>jan</div>
 [January 2016 Galaxy News](/src/news/2016_01GalaxyUpdate/index.md)<br />
 </div>
-{{> news/Archive/LinkBox }}
+{{> News/Archive/LinkBox }}
 
 # 2016 News Item Archive
 

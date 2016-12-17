@@ -1,12 +1,12 @@
 ---
 title: Training Day Virtual Machine Images
 ---
-{{> events/GCC2014/Header }}
+{{> Events/GCC2014/Header }}
 <br /><br />
 
 
 
-{{> events/GCC2014/LinkBox }}
+{{> Events/GCC2014/LinkBox }}
 
 <div class='left'><a href='/src/events/GCC2014/TrainingDay/index.md'><img src="/src/images/Logos/GCC2014TDLogoSmall.png" alt="GCC2014 Training Day"  /></a></div>
 
@@ -59,4 +59,4 @@ The VM(s) to download depend on the workshops you are attending:
 The VM is now installed.
 
 
-{{> events/GCC2014/Footer }}
+{{> Events/GCC2014/Footer }}

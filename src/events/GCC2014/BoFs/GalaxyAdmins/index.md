@@ -1,7 +1,7 @@
 ---
 title: [GalaxyAdmins](/src/GalaxyAdmins/index.md) BoF
 ---
-{{> events/GCC2014/Header }}
+{{> Events/GCC2014/Header }}
 
 
 
@@ -14,7 +14,7 @@ title: [GalaxyAdmins](/src/GalaxyAdmins/index.md) BoF
  Contact:: [Dave Clements](/src/DaveClements/index.md)
 </div>
 
-{{> events/GCC2014/LinkBox }}
+{{> Events/GCC2014/LinkBox }}
 
 <div class='left'><a href='/src/events/GCC2014/BoFs/index.md'><img src="/src/images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a><br /><br />
 <a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="100" /></a></div></div>

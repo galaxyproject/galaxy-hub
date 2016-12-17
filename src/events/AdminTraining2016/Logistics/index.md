@@ -2,11 +2,11 @@
 autotoc: true
 title: Galaxy Admin Training Logistics
 ---
-{{> events/AdminTraining2016/Header }}
+{{> Events/AdminTraining2016/Header }}
 
 
 
-<div class='right'>{{> events/AdminTraining2016/LinkBox }} </div>
+<div class='right'>{{> Events/AdminTraining2016/LinkBox }} </div>
 
 <div class='left'>
 <a href='https://drive.google.com/open?id=1vC6J8BdrMDQo_cIJvTr9pjUGGcA&usp=sharing'><img src="/src/events/AdminTraining2016/Logistics/AdminTrainingEventMapThumb.png" alt="Online Event Map" width="80" /></a>
@@ -112,4 +112,4 @@ The **[Advanced Session](/src/events/AdminTraining2016/Logistics/AdvancedSession
 
 We would like to thank the **[USTAR Center for Genetic Discovery (UCGD)](http://ucgd.genetics.utah.edu/)** for a grant to book this great venue for the advanced workshop.
 
-{{> events/AdminTraining2016/Logistics/Footer }}
+{{> Events/AdminTraining2016/Footer }}

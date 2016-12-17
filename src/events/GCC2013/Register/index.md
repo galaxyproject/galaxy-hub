@@ -1,11 +1,11 @@
 ---
 title: Registration
 ---
-{{> events/GCC2013/Header }}
+{{> Events/GCC2013/Header }}
 
 
 
-{{> events/GCC2013/LinkBox }}
+{{> Events/GCC2013/LinkBox }}
 
 *Save 55% off Training Day registration when you register for it and the meeting at the same time.* 
 
@@ -176,4 +176,4 @@ Interested in the [Training Day](/src/events/GCC2013/Register/TrainingDay/index.
 
 See [Key Dates](/src/events/GCC2013/Register/KeyDates/index.md) for a full timeline.
 
-{{> events/GCC2013/Footer }}
+{{> Events/GCC2013/Footer }}

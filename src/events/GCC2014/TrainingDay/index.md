@@ -1,12 +1,12 @@
 ---
 title: Training Day
 ---
-{{> events/GCC2014/Header }}
+{{> Events/GCC2014/Header }}
 <br /><br />
 
 
 
-{{> events/GCC2014/LinkBox }}
+{{> Events/GCC2014/LinkBox }}
 
 <table>
   <tr>

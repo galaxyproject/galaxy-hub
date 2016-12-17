@@ -1,11 +1,11 @@
 ---
 title: Galaxy Admin Training: Help spread the word
 ---
-{{> events/AdminTraining2016/Header }}
+{{> Events/AdminTraining2016/Header }}
 
 
 
-<div class='right'>{{> events/AdminTraining2016/LinkBox }} </div>
+<div class='right'>{{> Events/AdminTraining2016/LinkBox }} </div>
 
 <div class='left'><a href='PLACEHOLDER_ATTACHMENT_URL/src/GAT2016Flier.pdf'><img src="/src/events/AdminTraining2016/Publicity/GAT2016FlierThumb.png" alt="Galaxy Admin Training Flier" /></a></div>
 

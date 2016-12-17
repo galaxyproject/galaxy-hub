@@ -5,12 +5,12 @@ autotoc: true
 
 
 
-{{> events/GCC2013/Header }}
+{{> Events/GCC2013/Header }}
 
 
 
 
-{{> events/GCC2013/LinkBox }}
+{{> Events/GCC2013/LinkBox }}
 
 
 
@@ -1453,7 +1453,7 @@ happens some amount of core changes need to take place to make this as easy and 
 * Thanks for coming!
 
 
-{{> events/GCC2013/Footer }}
+{{> Events/GCC2013/Footer }}
 
 
 

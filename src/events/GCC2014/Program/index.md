@@ -2,14 +2,14 @@
 autotoc: true
 title: GCC2014 Program
 ---
-{{> events/GCC2014/Header }}
+{{> Events/GCC2014/Header }}
 
 <br /><br />
 
 
 
 
-{{> events/GCC2014/LinkBox }}
+{{> Events/GCC2014/LinkBox }}
 <div class='right'><br />
 <div class='right'>**[Program (PDF)](PLACEHOLDER_ATTACHMENT_URL/src/GCC2014Program.pdf)** &nbsp; </div>
 </div>

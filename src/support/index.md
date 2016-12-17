@@ -23,7 +23,7 @@ title: Support
 * [Known Issues](https://github.com/jennaj/support-known-issues/wiki)
 
 <div class='left'></div>
-<div class='right'>{{> support/LinkBox }}</div>
+<div class='right'>{{> Support/LinkBox }}</div>
 <div class='right'>
 <br />
 <a href='http://galaxyproject.org/search/web'><img src="/src/images/Logos/GalaxyWebSearch.png" alt="Galaxy Web Search" width="170" /></a> <br />

@@ -6,7 +6,7 @@ title: [GalaxyCzars](/src/Community/GalaxyAdmins/index.md) [GCC2012 Breakout Ses
 <a href='/src/events/GCC2012/index.md'><img src="/src/events/GCC2012/GCC2012Logo200.png" alt="GCC2012" height="120" /></a>
 </div>
 
-{{> Community/GalaxyAdmins/Meetups/2012_07_27/LinkBox }}
+{{> Community/GalaxyAdmins/LinkBox }}
 
 
 

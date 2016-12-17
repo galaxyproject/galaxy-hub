@@ -3,7 +3,7 @@ autotoc: true
 title:  Galaxy Issue Reporting and Feature Requests
 ---
 
-{{> support/LinkBox }}
+{{> Support/LinkBox }}
 {{> Develop/LinkBox }}
 
 <table>

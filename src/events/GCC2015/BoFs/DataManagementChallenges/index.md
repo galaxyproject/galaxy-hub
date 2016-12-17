@@ -1,7 +1,7 @@
 ---
 title: Data management challenges for larger Galaxy installations
 ---
-{{> events/GCC2015/Header }}
+{{> Events/GCC2015/Header }}
 
 
 

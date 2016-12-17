@@ -2,9 +2,9 @@
 autotoc: true
 title: Abstract submission is now closed
 ---
-{{> events/GCC2012/PageHeader }}
+{{> Events/GCC2012/PageHeader }}
 
-{{> events/GCC2012/Abstracts/LinkBox }}
+{{> Events/GCC2012/Abstracts/LinkBox }}
 
 
 
@@ -486,4 +486,4 @@ Oral presentations will be approximately 15-20 minutes long, including time for 
 1. **Make any slides freely available on this web site, no later than August 15, 2012.**
 1. **Have your talk be videotaped and have that videotape be publicly accessible on the web.**<br />(Note: We may or may not have sufficient funds to record talks.)
 
-{{> events/GCC2012/Abstracts/Ask the Organizers }}
+{{> Events/GCC2012/Abstracts/Ask the Organizers }}

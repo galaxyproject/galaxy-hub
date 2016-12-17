@@ -1,11 +1,11 @@
 ---
 title: GCC2013 Training Day Virtual Machines
 ---
-{{> events/GCC2013/Header }}
+{{> Events/GCC2013/Header }}
 
 
 
-{{> events/GCC2013/LinkBox }}
+{{> Events/GCC2013/LinkBox }}
 
 <div class='left'><a href='/src/events/GCC2013/TrainingDay/VMs//index.md'><img src="/src/images/Logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
@@ -63,4 +63,4 @@ There are two VMs to pick from.
 The VM is now installed.
 
 
-{{> events/GCC2013/Footer }}
+{{> Events/GCC2013/Footer }}

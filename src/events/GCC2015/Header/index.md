@@ -5,4 +5,4 @@
 </span>
 </div>
 
-<div class='right'><br />{{> events/GCC2015/LinkBox }}</div>
+<div class='right'><br />{{> Events/GCC2015/LinkBox }}</div>

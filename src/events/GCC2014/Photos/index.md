@@ -1,9 +1,9 @@
 ---
 autotoc: true
 ---
-{{> events/GCC2014/Header }}
+{{> Events/GCC2014/Header }}
 
-{{> events/GCC2014/LinkBox }}
+{{> Events/GCC2014/LinkBox }}
 
 If you have some you would like to have posted here, please send them to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).  To see a larger version of any picture, right click it.
 

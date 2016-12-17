@@ -2,7 +2,7 @@
 autotoc: true
 title: Galaxy Application Programming Interface (API)
 ---
-{{> Learn/API/LinkBox }}
+{{> Learn/LinkBox }}
 
 The most current information about using the API can be found here: [Develop/API](/src/Develop/API/index.md)
 

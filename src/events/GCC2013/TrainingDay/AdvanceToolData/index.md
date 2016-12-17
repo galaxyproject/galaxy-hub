@@ -1,11 +1,11 @@
 ---
 title: GCC2013 Training Day
 ---
-{{> events/GCC2013/Header }}
+{{> Events/GCC2013/Header }}
 
 
 
-{{> events/GCC2013/LinkBox }}
+{{> Events/GCC2013/LinkBox }}
 <div class='right'><a href='/src/events/GCC2013/TrainingDay/index.md'><img src="/src/images/Logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
 # Advanced Tool and Data Source Configuration
@@ -1040,4 +1040,4 @@ Some suggestions for exploration (http://wiki.galaxyproject.org/Admin/Tools/Tool
 
 ## 17:00 session ends
 
-{{> events/GCC2013/Footer }}
+{{> Events/GCC2013/Footer }}

@@ -1,9 +1,9 @@
 ---
 title: Promotion and Outreach
 ---
-{{> events/GCC2013/Header }}
+{{> Events/GCC2013/Header }}
 
-{{> events/GCC2013/LinkBox }}
+{{> Events/GCC2013/LinkBox }}
 
 
 

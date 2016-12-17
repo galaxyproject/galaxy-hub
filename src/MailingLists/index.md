@@ -3,7 +3,7 @@ autotoc: true
 title: Galaxy Mailing Lists
 ---
 
-{{> support/LinkBox }}
+{{> Support/LinkBox }}
 <div class='right'></div>
 
 Mailing lists play a vital role in the Galaxy community:

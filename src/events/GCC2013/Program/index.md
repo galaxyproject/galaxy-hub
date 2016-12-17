@@ -2,11 +2,11 @@
 autotoc: true
 title: Program
 ---
-{{> events/GCC2013/Header }}
+{{> Events/GCC2013/Header }}
 
 
 
-{{> events/GCC2013/LinkBox }}
+{{> Events/GCC2013/LinkBox }}
 
 <div class='right'></div>
 

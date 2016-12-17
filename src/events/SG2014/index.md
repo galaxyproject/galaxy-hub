@@ -1,9 +1,9 @@
 ---
 title: Swiss German Galaxy Tour 2014
 ---
-{{> events/SG2014/Header }}
+{{> Events/SG2014/Header }}
 
-{{> events/SG2014/LinkBox }}
+{{> Events/SG2014/LinkBox }}
 
 
 

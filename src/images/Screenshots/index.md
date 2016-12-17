@@ -1,4 +1,4 @@
-{{> images/LinkBox }}
+{{> Images/LinkBox }}
 
 Common place to store Galaxy screenshots used in this web site.
 

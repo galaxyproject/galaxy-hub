@@ -1,6 +1,6 @@
 {{> CloudMan/Header }}
 
-{{> CloudMan/UserData/LinkBox }}
+{{> CloudMan/LinkBox }}
 
 ### CloudMan User Data Fields
 

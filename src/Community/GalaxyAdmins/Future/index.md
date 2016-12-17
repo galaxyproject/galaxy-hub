@@ -6,7 +6,7 @@ title: [GalaxyAdmins](/src/GalaxyAdmins/index.md) Future Directions
 
 
 
-{{> Community/GalaxyAdmins/Future/LinkBox }}
+{{> Community/GalaxyAdmins/LinkBox }}
 
 
 

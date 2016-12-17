@@ -1,7 +1,7 @@
 ---
 title: DataHack Roundup
 ---
-{{> events/GCC2015/Header }}
+{{> Events/GCC2015/Header }}
 
 
 

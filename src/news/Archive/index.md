@@ -1,4 +1,4 @@
-{{> news/Archive/LinkBox }}
+{{> News/Archive/LinkBox }}
 
 # News Item Archive
 

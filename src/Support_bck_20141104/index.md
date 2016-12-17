@@ -15,7 +15,7 @@ If you have help to offer other Galaxy users, *please dive right in* and reply t
 Galaxy is a [community](/src/Community/index.md) of scientists and developers working together to make great science happen! Communication, feedback, and contributions are *important*.
 
 <div class='left'></div>
-<div class='right'>{{> support/LinkBox }}</div>
+<div class='right'>{{> Support/LinkBox }}</div>
 <div class='right'>
 <br />
 <a href='http://galaxyproject.org/search/web'><img src='/Images/Logos/GalaxyWebSearch.png' alt='Galaxy Web Search' width="170" /></a> <br />

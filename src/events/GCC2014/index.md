@@ -1,6 +1,6 @@
-{{> events/GCC2014/Header }}
+{{> Events/GCC2014/Header }}
 
-{{> events/GCC2014/LinkBox }}
+{{> Events/GCC2014/LinkBox }}
 
 The 2014 Galaxy Community Conference (GCC2014) was held at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States, from June 30 through July 2, 2014
 
@@ -155,4 +155,4 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 *Interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Become a [meeting sponsor](/src/events/GCC2014/SponsorExhibit/index.md) or [exhibitor](/src/events/GCC2014/SponsorExhibit/index.md#exhibitor).*
 
-{{> events/GCC2014/Footer }}
+{{> Events/GCC2014/Footer }}

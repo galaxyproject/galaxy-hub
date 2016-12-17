@@ -14,7 +14,7 @@ title: Get Involved!
 
 # IRC Channel
 
-{{> support/IRC }}
+{{> Support/IRC }}
 
 # Develop Tools and Tool Definitions
 

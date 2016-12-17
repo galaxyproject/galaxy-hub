@@ -65,7 +65,7 @@
 [January 2013 GalaxyAdmins](/src/news/2013_01GalaxyAdmins/index.md)<br />
 [ January 2013 Galaxy Update](/src/news/2013_01GalaxyUpdate/index.md)<br />
 </div>
-{{> news/Archive/LinkBox }}
+{{> News/Archive/LinkBox }}
 
 # 2013 News Item Archive
 

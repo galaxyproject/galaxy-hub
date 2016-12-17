@@ -1,7 +1,7 @@
 ---
 title: Support: About Galaxy
 ---
-<div class='right'>{{> support/LinkBox }}</div>
+<div class='right'>{{> Support/LinkBox }}</div>
 
 <div class='right'><a href='http://galaxyproject.org'><img src="/src/images/Screenshots/GalaxyProjectOrg.png" alt="GalaxyProject.org" width="300" /></a></div>
 Back to [Support](/src/support/index.md)

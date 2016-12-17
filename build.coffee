@@ -56,6 +56,7 @@ handlebars_partial_handling = (files, metalsmith, done) ->
     for file, c of files
         do (file, c) ->
             if file.endsWith('.md')
+                console.log(file)
                 contents = files[file].contents.toString()
                 template = hb_partials.compile(contents)
                 contents = template({})
@@ -73,6 +74,7 @@ subs = (files, metalsmith, done) ->
         do (file, c) ->
             if file.endsWith('.md')
                 contents = files[file].contents.toString()
+
                 while match = md_link_pattern.exec(contents)
                     rep = match[1]
                     #TODO: Do this with a regex too

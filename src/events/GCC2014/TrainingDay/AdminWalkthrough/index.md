@@ -2,12 +2,12 @@
 autotoc: true
 title: Tutorial: Galaxy Installation and Administration
 ---
-{{> events/GCC2014/Header }}
+{{> Events/GCC2014/Header }}
 <br /><br />
 
 
 
-{{> events/GCC2014/LinkBox }}
+{{> Events/GCC2014/LinkBox }}
 
 <div class='right'> <a href='/src/events/GCC2014/TrainingDay/index.md'><img src="/src/images/Logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
 

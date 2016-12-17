@@ -1,7 +1,7 @@
 ---
 title: Using Galaxy's Web Interface
 ---
-{{> events/GCC2014/Header }}
+{{> Events/GCC2014/Header }}
 
 
 
@@ -15,7 +15,7 @@ title: Using Galaxy's Web Interface
  Contact:: [Jennifer Hillman-Jackson](/src/JenniferJackson/index.md) & Karen Reddy
 </div>
 
-{{> events/GCC2014/LinkBox }}
+{{> Events/GCC2014/LinkBox }}
 
 <div class='left'><a href='/src/events/GCC2014/BoFs/index.md'><img src="/src/images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="120" /></a></div>
 

@@ -1,7 +1,7 @@
 ---
 title: [Galaxy Community UK (GCUK)](http://galaxy-community.org.uk/)
 ---
-{{> events/GCC2015/Header }}
+{{> Events/GCC2015/Header }}
 
 
 

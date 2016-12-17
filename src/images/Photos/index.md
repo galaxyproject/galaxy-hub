@@ -1,4 +1,4 @@
-{{> images/LinkBox }}
+{{> Images/LinkBox }}
 
 Common place to store photographs that don't belong elsewhere.
 

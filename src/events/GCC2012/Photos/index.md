@@ -1,9 +1,9 @@
 ---
 title: [GCC2012](/src/events/GCC2012/index.md) Photos
 ---
-{{> events/GCC2012/PageHeader }}
+{{> Events/GCC2012/PageHeader }}
 
-{{> events/GCC2012/Photos/LinkBox }}
+{{> Events/GCC2012/Photos/LinkBox }}
 
 
 

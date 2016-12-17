@@ -36,7 +36,7 @@
 [GCC Early Registration Closes May 1](/src/news/GCC Early Registration Closes May 1/index.md)<br /> 
 </div>
 
-{{> news/Archive/LinkBox }}
+{{> News/Archive/LinkBox }}
 
 # 2011 News Item Archive
 

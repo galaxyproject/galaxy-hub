@@ -1,12 +1,12 @@
 ---
 title: Tool Developers BoF
 ---
-{{> events/GCC2013/Header }}
+{{> Events/GCC2013/Header }}
 
 
 
-{{> events/GCC2013/LinkBox }}
-{{> events/GCC2013/BoF/LinkBox }}
+{{> Events/GCC2013/LinkBox }}
+{{> Events/GCC2013/BoF/LinkBox }}
 
 <div class='left'><a href='/src/events/GCC2013/BoF/index.md'><img src="/src/images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 
