@@ -104,7 +104,6 @@ subs = (files, metalsmith, done) ->
     done()
 
 ms = metalsmith(__dirname)
-    .use subs
     .use require('metalsmith-metadata')
         menu: "config/menu.yaml"
     .use require('metalsmith-collections')
@@ -122,6 +121,7 @@ ms = metalsmith(__dirname)
             reverse: true
     .use link_to_orig_path
     .use handlebars_partial_handling
+    .use subs
     .use require('metalsmith-markdown')
         gfm: true
     .use require('metalsmith-autotoc')
