@@ -47,7 +47,6 @@ partials_from_dir = (source, dir) ->
 partials = {}
 partials_from_dir('partials', partials)
 
-replacement_data = require("./src/includes.json")
 md_link_pattern = /\[.*?\]\((.*?)\)/g
 html_link_pattern = /href=[\'"]?([^\'" >]+)[\'"]/g
 html_img_pattern = /src=[\'"]\/src?([^\'" >]+)[\'"]/g
@@ -56,7 +55,6 @@ handlebars_partial_handling = (files, metalsmith, done) ->
     for file, c of files
         do (file, c) ->
             if file.endsWith('.md')
-                console.log(file)
                 contents = files[file].contents.toString()
                 template = hb_partials.compile(contents)
                 contents = template({})
