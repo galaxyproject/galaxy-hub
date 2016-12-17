@@ -357,7 +357,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> September 28 - October&nbsp;1 </th>
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
-    <td> <a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a>, <a href='/src/RossLazarus/index.md'>Ross Lazarus</a> </td>
+    <td> <a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a>, <a href='/src/fubar/index.md'>Ross Lazarus</a> </td>
   </tr>
   <tr>
     <th> October 1-3 </th>

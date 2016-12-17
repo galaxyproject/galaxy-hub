@@ -5,7 +5,7 @@ date: 2012-09-07T20:54:28Z
 
 
 **Complete [News Brief](/src/DevNewsBriefs/2012_09_07/index.md)**
-<div class='right'><a href='/DevNewsBriefs/2012_09_07'><img src='/Images/NewsGraphics/2012_09_07_tool-shed-menu.png' alt='tool-shed-menu' width="250px" /></a></div>
+<div class='right'><a href='/DevNewsBriefs/2012_09_07'><img src='/images/NewsGraphics/2012_09_07_tool-shed-menu.png' alt='tool-shed-menu' width="250px" /></a></div>
 **Highlights:**
 * **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/)** has moved from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)*.
 * **Tool Shed** is now running **[Mercurial version 2.2.3](http://mercurial.selenic.com/)**. Many updates and refinements including UI/metadata changes - read the full report!

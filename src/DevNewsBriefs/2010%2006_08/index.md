@@ -10,7 +10,7 @@ hg pull -u -r 837aabec314e
 
 * From the Admin perspective, the library dataset information page ( the page displayed when you click on a dataset link in a library folder ) now includes all of the metadata associated with the dataset, as well as all active links to the dataset ( the undeleted history or library items that point to this dataset's disk file ).  Here is an example of a page that displays this new information.  Notice that you can click on the History or Library links to see the history or library that contains the item that points to same disk file.
 
-![](/src/news Briefs/2010 06_08/2010_06_08_ldda_info.png)
+![](/src/DevNewsBriefs/2010 06_08/2010_06_08_ldda_info.png)
 
 * The new and vastly improved version of the Galaxy reports webapp.  The Galaxy reports are not supported with the sqlite db as they are intended for Galaxy production environments, but postgres will certainly work, and mysql should work as well.  The old version of the reports webapp had it's own template path defined in the reports_webapp.ini file, but the new version uses the normal galaxy template location.  Due to this change, you should copy reports_webapp.ini.sample to reports_webapp.ini, and change the following setting to be what you want:
 

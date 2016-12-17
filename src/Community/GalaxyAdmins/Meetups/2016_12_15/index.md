@@ -6,8 +6,9 @@ tease: 'GalaxyAdmins December 2016 Meetup'
 <div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/GalaxyLogos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
 </div>
 
-| | |
-|-----|-----|
+
+|  |  |
+| - | - |
 | **Date** | 15 December 2016 |
 | **Time** | [5 pm Central European Time](http://bit.ly/2h2QOsT). See [your local time](http://bit.ly/2h2QOsT) |
 | **Topic 1** | *Galaxy Training Materials: Community creation, curation, and use*, [Björn Grüning](/src/BjoernGruening/index.md) and  Bérénice Batut, University of Freiburg |
@@ -16,7 +17,7 @@ tease: 'GalaxyAdmins December 2016 Meetup'
 
 *[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
-Both talks this month are about efforts that have embraced community driven content creation, updating, and sharing.  One of them is using GitHub and presentation technologies to make Galaxy training material available online in such a way that anyone can contribute to it.  THe second talk is about the move of Galaxy's wiki to GitHub and the use of Metalsmith to generate the web site and take advantage of metadata.
+Both talks this month are about efforts that have embraced community driven content creation, updating, and sharing.  One of them is using GitHub and presentation technologies to make Galaxy training material available online in such a way that anyone can contribute to it.  The second talk is about the move of Galaxy's wiki to GitHub and the use of Metalsmith to generate the web site and take advantage of metadata.
 
 
 ## Call Technology

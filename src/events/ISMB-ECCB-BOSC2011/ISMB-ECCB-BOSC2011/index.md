@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://www.open-bio.org/wiki/BOSC_2011'><img src='/Images/Logos/BOSC_logo.png' alt='BOSC 2011' width="120" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.iscb.org/ismbeccb2011'><img src='/Events/ISMB2011Logo80.png' alt='ISMB/ECCB 2011' /></a>
+<a href='http://www.open-bio.org/wiki/BOSC_2011'><img src='/images/Logos/BOSC_logo.png' alt='BOSC 2011' width="120" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.iscb.org/ismbeccb2011'><img src='/Events/ISMB2011Logo80.png' alt='ISMB/ECCB 2011' /></a>
 
 # Galaxy at ISMB/ECCB, 3DSIG, and BOSC 2011
 </div>

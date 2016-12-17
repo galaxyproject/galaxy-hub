@@ -16,7 +16,3 @@ Associate Professor of [Biochemistry and Molecular Biology](http://bmb.psu.edu/)
     <td> <a href='http://bmb.psu.edu/directory/aun1'>Home page</a> </td>
   </tr>
 </table>
-
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

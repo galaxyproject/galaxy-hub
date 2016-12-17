@@ -10,7 +10,7 @@ The Galaxy Wiki editorial policies and best practices are defined here. Consiste
 
 This page first introduces *[meta-guidelines](#meta-guidelines)*. These are guidelines about these guidelines and cover things like how to update the guidelines, and when you can ignore them. These are far more important than the actual guidelines that follow them.
 
-See also [/Wiki Help](/Wiki Help).
+See also [WWiki Best Practices](/WWikiBestPractices).
 
 # Meta-Guidelines
 

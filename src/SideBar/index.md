@@ -40,7 +40,6 @@
 
 # Wiki
 
-* [Help](/src/Wiki Help/index.md) &bull; [All Pages](/src/TitleIndex/index.md)
 * [Recent Changes](/src/RecentChanges/index.md) <a href='http://wiki.galaxyproject.org/RecentChanges?action=rss_rc'><img src="/src/images/Icons/RSSIcon16x16.gif" alt="Galaxy wiki recent changes RSS Feed" height="12" /></a>
 * [Search](/src/FindPage/index.md) &bull; [Create Page](/src/Create Page/index.md)
 

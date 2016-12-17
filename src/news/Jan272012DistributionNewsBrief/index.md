@@ -8,7 +8,7 @@
 * [SAMtools](http://samtools.sourceforge.net/) upgraded for version 0.1.18. [Mpileup](http://samtools.sourceforge.net/mpileup.shtml) added.
 * Dynamic filtering, easy color options, and quicker indexing enhance [Trackster](/src/Learn/Visualization/index.md)
 * Set up your Galaxy instance to [run cluster jobs as the real user](/src/Admin/Config/Performance/Cluster/index.md), not the Galaxy owner
-* Improvements to metadata handling and searching in the [Tool Shed](/src/Tool Shed/index.md)
+* Improvements to metadata handling and searching in the [Tool Shed](/src/ToolShed/index.md)
 * Improved solutions for schema access, jobs management, & workflow imports and inputs.
 * New datatypes (Eland, XML), multiple tool enhancements, and bug fixes.
 
@@ -24,7 +24,7 @@ upgrade: % hg pull -u -r 26920e20157f
 
 [Jennifer Jackson](/src/JenniferJackson/index.md)
 
-[Galaxy Team](/src/Galaxy Team/index.md)
+[Galaxy Team](/src/GalaxyTeam/index.md)
 
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-01-28</div>

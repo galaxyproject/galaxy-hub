@@ -9,12 +9,14 @@ The standard Twitter hashtag for the Galaxy project is [#usegalaxy](http://twitt
 
 Several [Galaxy communities](/src/Community/index.md) also have a presence on Twitter:
 
- **[Galaxy Australia](https://www.embl-abr.org.au/galaxyaustralia/):**
-* [@GalaxyAustralia](http://twitter.com/galaxyaustralia)
-  **[Pitagora Galaxy (Japan)](http://www.pitagora-galaxy.org/)**
-  * [#usegalaxyjp](https://twitter.com/hashtag/usegalaxyjp)
-  **[Galaxy UK](http://galaxy-community.org.uk/)**
-  * [@GalaxyUKFriends](http://twitter.com/galaxyukfriends)
+ * [Galaxy Australia](https://www.embl-abr.org.au/galaxyaustralia/):
+    * [@GalaxyAustralia](http://twitter.com/galaxyaustralia)
+ * [Pitagora Galaxy (Japan)](http://www.pitagora-galaxy.org/):
+    * [#usegalaxyjp](https://twitter.com/hashtag/usegalaxyjp)
+ * [Galaxy UK](http://galaxy-community.org.uk/):
+    * [@GalaxyUKFriends](http://twitter.com/galaxyukfriends)
+ * [Galaxy Arabic](https://ar.wikipedia.org/wiki/%D9%85%D8%B4%D8%B1%D9%88%D8%B9_%D8%AC%D8%A7%D9%84%D8%A7%D9%83%D8%B3%D9%8A_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9):
+    * [@Galaxy_Arabic](https://twitter.com/Galaxy_Arabic)
 
 <br />
-*[How do I cite a tweet in MLA style?](http://www.mla.org/style/handbook_faq/cite_a_tweet)*
+[How do I cite a tweet in MLA style?](http://www.mla.org/style/handbook_faq/cite_a_tweet)

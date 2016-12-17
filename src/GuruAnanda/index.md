@@ -11,7 +11,3 @@ Guru is a graduate student in Bioinformatics and Genomics at [Penn State Univers
     <td> <a href="mailto:guru AT psu DOT edu">guru AT psu DOT edu</a> </td>
   </tr>
 </table>
-
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

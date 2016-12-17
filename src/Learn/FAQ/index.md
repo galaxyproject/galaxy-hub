@@ -18,7 +18,7 @@ Total disk space reserved per user is noted on the [Main](/src/Main/index.md) an
 
 When using a local, cloud, or public Galaxy servers hosted by other teams, quotas may or may not be set and are configured by that instance's administrator. Please see: [Big Picture/Choices](/src/Big Picture/Choices/index.md).
 
-For help understanding and organizing datasets and histories, please see: [Managing Datasets](/src/Learn/Managing Datasets/index.md).
+For help understanding and organizing datasets and histories, please see: [Managing Datasets](/src/Learn/ManagingDatasets/index.md).
 
 ## Storage on Galaxy servers
 

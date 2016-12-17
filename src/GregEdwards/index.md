@@ -9,5 +9,3 @@ Email: [removethisprefix_gedwards2 AT gmail DOT com](mailto:removethisprefix_ged
 
 ...
 
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

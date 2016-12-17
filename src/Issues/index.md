@@ -58,7 +58,7 @@ As mentioned above, the Galaxy Project uses [Trello](http://bit.ly/gxytrello) fo
 
 ## The Tool Shed Trello Board
 
-Tool shed has its own board at [Tool Shed Issue Board](https://trello.com/b/vHqpKpZF/galaxy-tool-shed). To create a card in the [Tool Shed](/src/Tool Shed/index.md) Board please use the [creation form](http://galaxyproject.org/trello) - the card will be moved to the Tool Shed Board after a review.
+Tool shed has its own board at [Tool Shed Issue Board](https://trello.com/b/vHqpKpZF/galaxy-tool-shed). To create a card in the [Tool Shed](/src/ToolShed/index.md) Board please use the [creation form](http://galaxyproject.org/trello) - the card will be moved to the Tool Shed Board after a review.
 
 ## Security issues
 

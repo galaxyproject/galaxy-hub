@@ -37,8 +37,3 @@ Working closely with other members of the Galaxy team, Dan has played a signific
     <td> <a href="mailto:dan AT bx DOT psu DOT edu">dan AT bx DOT psu DOT edu</a> </td>
   </tr>
 </table>
-
-
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

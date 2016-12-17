@@ -38,7 +38,7 @@ Good place to put in related wiki links, if part of a group.
 
 (or just screencast, or tutorial, or video tutorial)
 If posted by Galaxy team, use [<Screencast>](/src/screencast/fake/index.md) link. Then title as:
-* http://wiki.galaxyproject.org/Images/ScreencastFrame
+* http://wiki.galaxyproject.org/images/ScreencastFrame
 
 ## Results
 
@@ -62,7 +62,7 @@ If posted by Galaxy team, use [<Screencast>](/src/screencast/fake/index.md) link
 
 If you are starting or editing a new wiki page and want to maximize the chance that it will be included correctly in a *Galaxy Note* and later in our new category system for organizing the wiki content (coming soon!) - please consider the following **wiki guidelines**:
 
-* follow the best practices on our **[Wiki Help](/src/Wiki Help/index.md)** and use **Moin Moin**
+* follow the best practices on our **[Wiki Best Practices](/src/WikiBestPractices/index.md)** and use **Moin Moin**
 * start your page using the transition template: **[TemplateWikiPageCategory1](/src/TemplateWikiPageCategory1/index.md)**
 * *do not* use spaces in the wiki page name. *do* be specific. *do* use upper/lower case syntax.
 * put your images in the right place: **[Images](/src/images/index.md)**

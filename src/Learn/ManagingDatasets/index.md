@@ -55,7 +55,7 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
 * The size limit for all data (quotas) on the Galaxy public servers is explained at:
   * [Test](/src/Test/index.md) server
   * [Main](/src/Main/index.md) server
-* Administrative instructions for [ disk quotas](/src/Admin/Disk Quotas/index.md)
+* Administrative instructions for [ disk quotas](/src/Admin/DiskQuotas/index.md)
 
 # Format
 
@@ -87,13 +87,13 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
   * Options are:
   * *Clone all history items, including deleted items*
   * *Clone only items that are not deleted*
-* ***TIP*** One use of this option is to **quickly retain some datasets and permanently delete others** (to reduce disk use counted in user [quota](/src/Admin/Disk Quotas/index.md) on [Main](/src/Main/index.md) or [Test](/src/Test/index.md)). First, in the History pane, in the original history, delete individual datasets by clicking on the *X* delete icon ![](/src/images/Icons/deleteX.png) if not to be **Cloned**, remember to delete **Hidden** datasets, (see below). Next, *Clone* the original History. Once complete, the cloned History will contain the datasets to be retained and the original History can be deleted permanently with *gear icon &rarr; Saved Histories*, select original History from the list, and clicking the button *Delete Permanently*.
+* ***TIP*** One use of this option is to **quickly retain some datasets and permanently delete others** (to reduce disk use counted in user [quota](/src/Admin/DiskQuotas/index.md) on [Main](/src/Main/index.md) or [Test](/src/Test/index.md)). First, in the History pane, in the original history, delete individual datasets by clicking on the *X* delete icon ![](/src/images/Icons/deleteX.png) if not to be **Cloned**, remember to delete **Hidden** datasets, (see below). Next, *Clone* the original History. Once complete, the cloned History will contain the datasets to be retained and the original History can be deleted permanently with *gear icon &rarr; Saved Histories*, select original History from the list, and clicking the button *Delete Permanently*.
 
 # Hidden
 
 * Datasets may be hidden in the default History view as a Workflow option. If you have run a workflow with hidden datasets, choose "gear icon &rarr; Include Hidden Datasets or Unhide Hidden Datasets" or use the toogle at the top of the history panel (directly below the history name) to view them.
-  * When using **Clone** (see above) to manage datasets to reduce disk usage for [quotas](/src/Admin/Disk Quotas/index.md), viewing and deleting hidden datasets can be a very important step. Unless deleted, hidden datasets are moved to the new cloned history.
-  * When using **Copy** (see above) to manage datasets to reduce disk usage for [quotas](/src/Admin/Disk Quotas/index.md), hidden datsets will not be in the "From" list of datasets available to transfer unless they are unhidden using *gear icon &rarr; Unhide Hidden Datasets*, then *This dataset has been hidden. Click__here_ to unhide.*
+  * When using **Clone** (see above) to manage datasets to reduce disk usage for [quotas](/src/Admin/DiskQuotas/index.md), viewing and deleting hidden datasets can be a very important step. Unless deleted, hidden datasets are moved to the new cloned history.
+  * When using **Copy** (see above) to manage datasets to reduce disk usage for [quotas](/src/Admin/DiskQuotas/index.md), hidden datsets will not be in the "From" list of datasets available to transfer unless they are unhidden using *gear icon &rarr; Unhide Hidden Datasets*, then *This dataset has been hidden. Click__here_ to unhide.*
 
 # Delete vs Delete Permanently
 
@@ -103,8 +103,8 @@ Watch the **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** video to ge
   * **Permanently deleted** datasets and histories **cannot be recovered** by the user or administrator.
   * Deleted datsets can be undeleted or permanently deleted using from the History pane *gear icon &rarr; Include Deleted Datasets*, and then: *This dataset has been deleted. Click _here_ to undelete or _here_ to immediately remove it from disk.*
     * Check for hidden datasets and delete as needed (see section above *Hidden* for more details)
-* [Quotas](/src/Admin/Disk Quotas/index.md) for Datasets and Histories
-  * **Deleted** datasets and **deleted** histories containing datasets **are considered when calculating [quotas](/src/Admin/Disk Quotas/index.md)** on [Main](/src/Main/index.md) or [Test](/src/Test/index.md).
+* [Quotas](/src/Admin/DiskQuotas/index.md) for Datasets and Histories
+  * **Deleted** datasets and **deleted** histories containing datasets **are considered when calculating [quotas](/src/Admin/DiskQuotas/index.md)** on [Main](/src/Main/index.md) or [Test](/src/Test/index.md).
   * **Permanently deleted** datasets and **permanently deleted** histories containing datasets **are not considered**.
   * Imported native **Data Library** datasets **are not considered**.
   * Datasets can be associated with one or more History, but are only considered once.

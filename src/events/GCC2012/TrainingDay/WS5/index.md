@@ -79,14 +79,14 @@ I changed the following settings:
 * `database_connection = postgres:///galaxy?host=/var/run/postgresql` - Use a PostgreSQL database via a local UNIX domain socket (the socket is in /var/run/postgresql).  Details on this URL syntax are at [Admin/Config/Performance/ProductionServer](/src/Admin/Config/Performance/ProductionServer/index.md) under the "Switching to a database server" section.
 * `database_engine_option_server_side_cursors = True` - Keep large SQL query results on the PostgreSQL server, rather the transferring the entire result set to the Galaxy process.
 * `database_engine_option_strategy = threadlocal` - Only use one database connection per thread.
-* `tool_dependency_dir = /home/galaxy/tool-deps` - The directory that will house tool dependencies.  [Admin/Config/Tool Dependencies](/src/Admin/Config/Tool Dependencies/index.md) explains how these dependencies can be configured.  Tools installed from the tool shed that manage their own dependencies (e.g. freebayes) will also use this directory.
+* `tool_dependency_dir = /home/galaxy/tool-deps` - The directory that will house tool dependencies.  [Admin/Config/Tool Dependencies](/src/Admin/Config/ToolDependencies/index.md) explains how these dependencies can be configured.  Tools installed from the tool shed that manage their own dependencies (e.g. freebayes) will also use this directory.
 * `debug = False` - Disables debugging middleware that loads server responses in to memory (can crash the server when handling large files).
 * `use_interactive = False` - Disables live client browser debugging (insecure).
 * `library_import_dir = /home/galaxy/import` - Administrators can directly import datasets from this directory on the server to Data Libraries.  This includes an option that allows an effective "symlink" to the data, rather than copying it in to Galaxy's `file_path` directory.  Documented at [Admin/DataLibraries/UploadingLibraryFiles](/src/Admin/DataLibraries/UploadingLibraryFiles/index.md).
 * `user_library_import_dir = /home/galaxy/user-import` - Non-administrators can directly import datasets from this directory on this server to Data Libraries from which they have been given write permission.  Documented at the same link as above.
 * `allow_library_path_paste = True` - Administrators can import datasets from anywhere on the server's filesystem(s) by entering their paths in to a textarea.
 * `id_secret = <random text>` - Ensures that the encoded IDs used by Galaxy (especially session IDs) are unique.  One simple way to generate a value for this is with a shell command like `% date | md5sum`
-* `use_remote_user` and `remote_user_maildomain` - I did not enable these, but this is how users can use your institution's existing authentication system to log in to Galaxy.  Documentation is specific to [Admin/Config/Apache Proxy](/src/Admin/Config/Apache Proxy/index.md) or [Admin/Config/Performance/nginx Proxy](/src/Admin/Config/Performance/nginx Proxy/index.md).
+* `use_remote_user` and `remote_user_maildomain` - I did not enable these, but this is how users can use your institution's existing authentication system to log in to Galaxy.  Documentation is specific to [Admin/Config/Apache Proxy](/src/Admin/Config/ApacheProxy/index.md) or [Admin/Config/Performance/nginx Proxy](/src/Admin/Config/Performance/nginx Proxy/index.md).
 * `admin_users = nate@example.org` - Make nate@example.org an administrator.  Galaxy's Admin UI is only accessible if you define administrators here!
 * `allow_user_impersonation = True` - Users configured as administrators (with `admin_users`) can "become" other users to view Galaxy exactly as the impersonated user does.  Useful for providing support.
 * `allow_user_dataset_purge = True` - Allow users to forcibly remove their datasets from disk (note that the data is only actually removed if all versions of a shared dataset are purged by all users who are sharing the dataset).  By default, Galaxy does not remove data, as this is done at a later time by the dataset cleanup scripts (discussed below).
@@ -335,7 +335,7 @@ root@trainingday:/etc/init.d#
 
 ## Configure and start nginx
 
-The configuration of proxy servers is explained in the wiki at [Admin/Config/Performance/nginx Proxy](/src/Admin/Config/Performance/nginx Proxy/index.md) and [Admin/Config/Apache Proxy](/src/Admin/Config/Apache Proxy/index.md).
+The configuration of proxy servers is explained in the wiki at [Admin/Config/Performance/nginx Proxy](/src/Admin/Config/Performance/nginx Proxy/index.md) and [Admin/Config/Apache Proxy](/src/Admin/Config/ApacheProxy/index.md).
 
 ```console
 root@trainingday:/etc/init.d# cd /etc/nginx/sites-available/

@@ -243,7 +243,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 <br />
 <br />
 * XML defined [Tool shed repository dependencies](/src/DefiningRepositoryDependencies/index.md) introduced
-* [Various enhancements](/src/DevNewsBriefs/2013_01_11/index.md#other_tool_shed) to [Tool shed](/src/Tool Shed/index.md) containers, display of README files and SVG images, and the tool shed's [functional test framework](/src/ToolShed/HostingALocalToolShed/index.md#functional_test_framework_for_the_tool_shed).
+* [Various enhancements](/src/DevNewsBriefs/2013_01_11/index.md#other_tool_shed) to [Tool shed](/src/ToolShed/index.md) containers, display of README files and SVG images, and the tool shed's [functional test framework](/src/ToolShed/HostingALocalToolShed/index.md#functional_test_framework_for_the_tool_shed).
 * [New genomes](/src/DevNewsBriefs/2013_01_11/index.md#data) added to **[Main](/src/Main/index.md)** Galaxy instance and rsync download.
 * Plus bug fixes and related enhancements for visualizations, histories, workflows, and tools.
 

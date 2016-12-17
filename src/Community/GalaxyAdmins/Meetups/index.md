@@ -51,7 +51,7 @@ The [GalaxyAdmins](/src/Community/GalaxyAdmins/Meetups//index.md) group has bi-m
 * [2013/03/20 Web Meetup](/src/Community/GalaxyAdmins/Meetups/2013_03_20/index.md)
     [Hailiang Leon Mei](mailto:hailiang DOT mei AT nbic DOT nl) discuss NBIC's recent experiences deploying the [NBIC Galaxy](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).  [Dan Blankenberg](/src/Dan/index.md) discusses the new release policy and upcoming *Data Manager* features.
 * [2013/01/16 Web Meetup](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md)
-    [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) covered "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."  [Greg von Kuster](/src/greg_vonkuster/index.md) also gave an update on recent developments in the [Galaxy Tool Shed](/src/Tool Shed/index.md)
+    [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) covered "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."  [Greg von Kuster](/src/greg_vonkuster/index.md) also gave an update on recent developments in the [Galaxy Tool Shed](/src/ToolShed/index.md)
 
 **2012**
 

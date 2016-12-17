@@ -577,7 +577,7 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
     <th> June 22 </th>
     <td> <em><a href='https://www.rcpa.edu.au/getattachment/c46ec998-c4cc-4d22-9a00-13dd463167e0/attachment.aspx'>Massively parallel sequence data analysis workshop (introduction to Galaxy framework for variant calling)</a></em> </td>
     <td> <img src='/src/images/Icons/Australia40.png' alt='Australia' align='right' /> Part of <a href='https://www.rcpa.edu.au/Events/Event-Details/2015/June/SCourse-Medical-Genetics-and-Genetic-Pathology'>Short Course in Medical Genetics and Genetic Pathology 2015</a>, Sydney, Australia </td>
-    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/RossLazarus/index.md'>Ross Lazarus</a>, <a href='https://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> </td>
+    <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/fubar/index.md'>Ross Lazarus</a>, <a href='https://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -2316,7 +2316,7 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
     <td> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
-    <td> <em>Finding missing analysis tools with Galaxy <a href='/src/Tool Shed/index.md'>ToolShed</a>—A case of mitochondrial RNA modification</em> </td>
+    <td> <em>Finding missing analysis tools with Galaxy <a href='/src/ToolShed/index.md'>ToolShed</a>—A case of mitochondrial RNA modification</em> </td>
     <td> </td>
     <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
@@ -2507,7 +2507,7 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
     <td> </td>
-    <td> <a href='/src/RossLazarus/index.md'>Ross Lazarus</a>, <a href='/src/Dan/index.md'>Dan Blankenberg</a> </td>
+    <td> <a href='/src/fubar/index.md'>Ross Lazarus</a>, <a href='/src/Dan/index.md'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> September 27 </th>

@@ -23,9 +23,9 @@ title: September 07, 2012 Galaxy Development News Brief
 <br />
 # BLAST+ Migration
 
-The tool set **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/)** has moved from the Galaxy distribution to the Galaxy Main **[Tool Shed](/src/Tool Shed/index.md)**.
+The tool set **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/)** has moved from the Galaxy distribution to the Galaxy Main **[Tool Shed](/src/ToolShed/index.md)**.
 
-Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing **BLAST** (and **blastxml**) from the **[Tool Shed](/src/Tool Shed/index.md)**.
+Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing **BLAST** (and **blastxml**) from the **[Tool Shed](/src/ToolShed/index.md)**.
 
 <br />
 # Reference Genome rsync Server
@@ -42,7 +42,7 @@ $ rsync -avzP rsync://datacache.g2.bx.psu.edu/indexes/phiX .
 ```
 
 
-Genomes are organized in directories by the `dbkey`. If you are not sure of the `dbkey`, check your datasets. The `dbkey` is what is populated into the "database" attribute for a dataset. Read more [about how this fits into data integration](/src/Admin/Data Integration/index.md) or [setting up native genome indexes](/src/Admin/NGS Local Setup/index.md).
+Genomes are organized in directories by the `dbkey`. If you are not sure of the `dbkey`, check your datasets. The `dbkey` is what is populated into the "database" attribute for a dataset. Read more [about how this fits into data integration](/src/Admin/DataIntegration/index.md) or [setting up native genome indexes](/src/Admin/NGS Local Setup/index.md).
 
 <br />
 # More Updates to Output and Error Handling
@@ -52,7 +52,7 @@ As reported in the *[July 20th, 2012 News Brief](/src/DevNewsBriefs/2012_07_20/i
 <br />
 # Tools
 
-[Admin/Config/Tool Dependencies](/src/Admin/Config/Tool Dependencies/index.md)
+[Admin/Config/Tool Dependencies](/src/Admin/Config/ToolDependencies/index.md)
 * *Enhancements*
   * **[Tophat2](http://tophat.cbcb.umd.edu/tutorial.html)** wrapper enhancements: 
     * Include fusions output. Read more about what this is in the [Tophat2 Manual's](http://tophat.cbcb.umd.edu/manual.html) section *Fusion mapping options:*
@@ -118,7 +118,7 @@ $ sh run.sh --daemon/sh run.sh --stop-daemon
 <br />
 # Tool Shed
 
-[Tool Shed](/src/Tool Shed/index.md)
+[Tool Shed](/src/ToolShed/index.md)
 * *Fixes*
   * Several miscellaneous fixes for using a **[SQLite](http://www.sqlite.org/)** database with a local tool shed.
   * It is no longer possible to change the name of a repository in the tool shed at during the time when the repository is first being cloned.
@@ -143,22 +143,22 @@ Now the above entry still works, but the following entry is also ok (notice the 
 
 * *Enhancements*
   * The Tool Shed is now running **[Mercurial version 2.2.3](http://mercurial.selenic.com/)**.
-  * The **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** repository was updated in the **[Main Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/)** to *Revision: 7:d3bf1e86b243*, so make sure to get the updates if you have installed it into your **[local Galaxy instance](http://getgalaxy.org)**. For details about getting updates to your installed repositories, see this section of the Galaxy tool shed wiki [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/Tool Shed/index.md#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance)
+  * The **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** repository was updated in the **[Main Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/)** to *Revision: 7:d3bf1e86b243*, so make sure to get the updates if you have installed it into your **[local Galaxy instance](http://getgalaxy.org)**. For details about getting updates to your installed repositories, see this section of the Galaxy tool shed wiki [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/ToolShed/index.md#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance)
   * The implementation for importing proprietary datatype class modules included in a tool shed repository now supports class module files whose name conflicts with a **[Python](http://www.python.org/)** standard library module name.  For example, if a proprietary datatype class module is named `xml.py`, it will now be correctly imported even though the name conflicts with the Python standard library's xml module.
   * The repository tip is now displayed in a column that is separate from the repository's installable changeset revisions in the tool shed.
 
-<a href='/src/Tool Shed/index.md'><img src="/src/images/NewsGraphics/2012_09_07_repository-grid.png" alt="repository-grid.png" /></a>
+<a href='/src/ToolShed/index.md'><img src="/src/images/NewsGraphics/2012_09_07_repository-grid.png" alt="repository-grid.png" /></a>
 
 * Additional information has been added to the "Tool metadata" page, which is displayed when you choose the "View tool metadata" option from a tool's pop-up menu.  This menu is available in 2 locations: when viewing the repository in a tool shed, and when viewing a repository (which includes tools) that has been installed into a local Galaxy instance.  The additional information added to the Tool metadata page includes:
   * information about tool dependencies if they have been defined in the repository
   * requirements defined in the tool config `<requirements>` tag set
   * The tool's version lineage information, an example of which is shown here for a sample tool named **Filter**
 
-<a href='/src/Tool Shed/index.md'><img src="/src/images/NewsGraphics/2012_09_07_view-tool-metadata-page.png" alt="view-tool-metadata-page.png" /></a>
+<a href='/src/ToolShed/index.md'><img src="/src/images/NewsGraphics/2012_09_07_view-tool-metadata-page.png" alt="view-tool-metadata-page.png" /></a>
 
 * In addition to browsing repositories that you own, you can now also browse repositories for which you have been granted "write" permission.  Here is a snapshot of the new Galaxy tool shed menu.
 
-<a href='/src/Tool Shed/index.md'><img src="/src/images/NewsGraphics/2012_09_07_tool-shed-menu.png" alt="tool-shed-menu.png" /></a>
+<a href='/src/ToolShed/index.md'><img src="/src/images/NewsGraphics/2012_09_07_tool-shed-menu.png" alt="tool-shed-menu.png" /></a>
 
 <br />
 # Bug Fixes
@@ -241,4 +241,4 @@ The **[Galaxy Team](/src/GalaxyTeam/index.md)** is a part of **[BX](http://www.b
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/Galaxy on Twitter/index.md)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/GalaxyOnTwitter/index.md)**

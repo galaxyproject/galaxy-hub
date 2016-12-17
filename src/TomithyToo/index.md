@@ -67,6 +67,3 @@ Galaxy uses the Model-View-Controller software architecture.
 
 * If you think that there is some "magic" going on, you can force the program to throw Exception and see the call stack. Also, check the __init__.py as there tends to be alot of code inside.
 * Firebug,  Chrome Developer Tools, Safari Developer Tools are good friends.
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

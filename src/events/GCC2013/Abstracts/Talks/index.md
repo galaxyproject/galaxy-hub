@@ -38,9 +38,9 @@ Victoria is an assistant professor of [Statistics](http://www.stat.columbia.edu/
 
 ### Reproducible research and the 90/10 rule: Improving the ratio of light script to dark script matter in your Galaxy
 
-<div class='right'><a href='/src/RossLazarus/index.md'><img src="/src/GalaxyTeam/ross.jpg" alt="" width="120" /></a></div>
+<div class='right'><a href='/src/fubar/index.md'><img src="/src/GalaxyTeam/ross.jpg" alt="" width="120" /></a></div>
 
-**[Ross Lazarus](/src/RossLazarus/index.md)<sup>1</sup>**, Antony Kaspi<sup>1</sup>, Mark Ziemann<sup>1</sup> and The [Galaxy Team](/src/GalaxyTeam/index.md) <sup>2</sup>.
+**[Ross Lazarus](/src/fubar/index.md)<sup>1</sup>**, Antony Kaspi<sup>1</sup>, Mark Ziemann<sup>1</sup> and The [Galaxy Team](/src/GalaxyTeam/index.md) <sup>2</sup>.
 
  <sup>1</sup> BakerIDI Heart and Diabetes Research Institute, 75 Commercial Rd, Melbourne, VIC 3004, Australia<br />
  <sup>2</sup> http://wiki.galaxyproject.org[/GalaxyTeam](/src/events/GCC2013/Abstracts/Talks/GalaxyTeam/index.md)

@@ -3,7 +3,7 @@ Section modification previews
 ## Dataset status and how jobs execute
 
 The Galaxy user interface (UI) has been designed to communicate job execution status through visual cues and concise meesages. Learn more about how interpret these cues and to use strategies to maximize throughput by [reading more here...](/src/support/JobStatus/index.md)
-When a tool is executed, one or more new **[datasets](/src/Learn/Managing Datasets/index.md)** are added to a history. The same is true when a **workflow** is executed. *If using the public [Main](/src/Main/index.md) Galaxy instance, the most effective strategy when running jobs on the shared resource is to start jobs (or workflows), and then leave them alone to execute until completion.* 
+When a tool is executed, one or more new **[datasets](/src/Learn/ManagingDatasets/index.md)** are added to a history. The same is true when a **workflow** is executed. *If using the public [Main](/src/Main/index.md) Galaxy instance, the most effective strategy when running jobs on the shared resource is to start jobs (or workflows), and then leave them alone to execute until completion.* 
 <br />
 <br />
 When work is urgent during peak-usage times on the public **[Main](/src/Main/index.md)** Galaxy instance, a **[CloudMan](/src/CloudMan/index.md)** instance is a quick-to-implement alternative. For large scale and/or urgent ongoing work, a **[CloudMan](/src/CloudMan/index.md)**, **[Local](/src/Admin/GetGalaxy/index.md)**, or **[SlipStream Galaxy](http://www.bioteam.net/slipstream/galaxy-edition)** each have advantages as a longer-term solution. [Read more ...](/src/BigPicture/Choices/index.md)

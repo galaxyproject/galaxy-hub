@@ -50,7 +50,7 @@ The [time and location](/src/events/GCC2013/BoF/index.md#bof-schedule) for this 
 
 If you are interested, please add your name below and/or send an email to [Ross Lazarus](mailto:ross DOT lazarus AT gmail DOT com).
 
-* [Ross Lazarus](/src/RossLazarus/index.md)
+* [Ross Lazarus](/src/fubar/index.md)
 * Mo Heydarian
 * Srinivas Maddhi
 * [Daniel Blankenberg](/src/Dan/index.md)

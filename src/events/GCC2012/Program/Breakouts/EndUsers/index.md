@@ -48,7 +48,7 @@ These are a merged grouping of [Anton's](/src/anton/index.md), [Dan's](/src/Dan/
 
 ### Better methods to identify 'Vetted' and 'Best Practice' tools
 
-* Applies to tools on [Main](/src/Main/index.md), but in particular tools from [Tool Shed](/src/Tool Shed/index.md)
+* Applies to tools on [Main](/src/Main/index.md), but in particular tools from [Tool Shed](/src/ToolShed/index.md)
 * Community currently relies on [Main](/src/Main/index.md) for this type of information
 * Extends to Libraries & other source Data, Workflows, Visualizations
 * Ideas (some overlap):
@@ -56,9 +56,9 @@ These are a merged grouping of [Anton's](/src/anton/index.md), [Dan's](/src/Dan/
   * A need to explain what is needed for particular analysis goals
   * Tag tools/workflows based on publications, citations, peer-reviewed status
   * **DOI** would be the *ideal* tag
-  * Methods to evaluate tools in the [Tool Shed](/src/Tool Shed/index.md)
-  * [Tool Shed](/src/Tool Shed/index.md): Download counts/trends e.g. downloads this week week
-  * [Tool Shed](/src/Tool Shed/index.md): Flag bad objects, like craigslist, to alert admin moderator
+  * Methods to evaluate tools in the [Tool Shed](/src/ToolShed/index.md)
+  * [Tool Shed](/src/ToolShed/index.md): Download counts/trends e.g. downloads this week week
+  * [Tool Shed](/src/ToolShed/index.md): Flag bad objects, like craigslist, to alert admin moderator
 
 ### Data integration between Main and CloudMan
 

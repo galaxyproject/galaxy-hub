@@ -4,7 +4,7 @@ You can take a look at the [current members of the core project team](/src/Galax
 
 * [Project home page](http://galaxyproject.org)
 * [Citing Galaxy](/src/CitingGalaxy/index.md)
-* [News Briefs](/src/news Briefs/index.md)
+* [News Briefs](/src/DevNewsBriefs/index.md)
 * [News](/src/news/index.md)
 * [Events](/src/events/index.md)
 * [Wiki Home Page](/src/FrontPage/index.md)

@@ -18,12 +18,12 @@ title: Get Involved!
 
 # Develop Tools and Tool Definitions
 
-<div class='right'><a href='/src/Tool Shed/index.md'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="170" /></a></div>
+<div class='right'><a href='/src/ToolShed/index.md'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="170" /></a></div>
 There are thousands of useful bioinformatics tools in existence and the Galaxy [Main](/src/Main/index.md) server (and the [Galaxy Team](/src/GalaxyTeam/index.md)) cannot possibly support all of them.  Only tools that are widely useful in many areas of biomedical research (and meet several other criteria) are available on Main.
 
-The Galaxy [Tool Shed](/src/Tool Shed/index.md) is a means to make other tools available for use within local and cloud-based Galaxy instances.  You can create tool wrappers (usually a simple file encapsulating how Galaxy should treat the underlying software tool) in order to define tools within Galaxy.  In order to share your tool with everyone, you can upload any given wrapper to the [Tool Shed](/src/Tool Shed/index.md) where it can be downloaded and installed into any Galaxy instance worldwide. To get you started we prepared this [Adding tool tutorial](/src/Admin/Tools/Add Tool Tutorial/index.md) for you.
+The Galaxy [Tool Shed](/src/ToolShed/index.md) is a means to make other tools available for use within local and cloud-based Galaxy instances.  You can create tool wrappers (usually a simple file encapsulating how Galaxy should treat the underlying software tool) in order to define tools within Galaxy.  In order to share your tool with everyone, you can upload any given wrapper to the [Tool Shed](/src/ToolShed/index.md) where it can be downloaded and installed into any Galaxy instance worldwide. To get you started we prepared this [Adding tool tutorial](/src/Admin/Tools/Add Tool Tutorial/index.md) for you.
 
-If you want to make your tool available to the entire Galaxy ecosystem, please contribute a tool wrapper to the [Tool Shed](/src/Tool Shed/index.md).
+If you want to make your tool available to the entire Galaxy ecosystem, please contribute a tool wrapper to the [Tool Shed](/src/ToolShed/index.md).
 
 # Sharing Galaxy Objects
 
@@ -51,7 +51,7 @@ If you have implemented a particular feature or have addressed a particular chal
 
 # Documentation
 
-This wiki contains a large amount of documentation about using and administering Galaxy.  You can help keep this wiki current and relevant by maintaining it and by addressing gaps in the current documentation.  See [Wiki Help](/src/Wiki Help/index.md) for more on updating this wiki.
+This wiki contains a large amount of documentation about using and administering Galaxy.  You can help keep this wiki current and relevant by maintaining it and by addressing gaps in the current documentation.  See [WWiki Best Practices](/src/WikiBestPractices/index.md) for more on updating this wiki.
 
 # Code
 
@@ -68,6 +68,6 @@ Galaxy has a presence at many [Events](/src/events/index.md) throughout the year
 # Outreach
 
 <div class='left'>
-<a href='/src/Outreach/index.md'><img src="/src/Outreach/Powered by Galaxy/PoweredByGalaxy120.png" alt="Powered by Galaxy" /></a>
+<a href='/src/Outreach/index.md'><img src="/src/Outreach/PoweredbyGalaxy/PoweredByGalaxy120.png" alt="Powered by Galaxy" /></a>
 </div>
 You can also help by spreading the word about Galaxy.  There are [numerous ways to do this](/src/Outreach/index.md).

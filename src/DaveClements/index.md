@@ -494,5 +494,3 @@ My pre-bioinformatics career included
 * *[Gene Expression Databases: Where and When](http://gmod.org/wiki/Image:GeneExpressionIWhenWhere.ppt)*, presentation given at [NESCent](http://nescent.org) in April 2007.  Describes common issues with gene expression databases focusing on anatomy ontology issues.  Uses 4 websites to demonstrate different ways to deal with these issues.
 * *[Worldwide Aeronautical Route Planner](http://www.cirl.uoregon.edu/research/warp.html)*, demonstration with Charles B. McVey, and [Andrew J. Parkes](http://www.cs.nott.ac.uk/~ajp/) at the [16th National Conference on Artificial Intelligence (AAAI-99)](http://www.aaai.org/Conferences/AAAI/aaai99.php).
 * *[Squeaky Wheel Optimization](http://www.cirl.uoregon.edu/research/cable.html)*, demonstration with David Joslin at the [15th National Conference on Artificial Intelligence (AAAI-98)](http://www.aaai.org/Conferences/AAAI/aaai98.php).
-
-[CategoryHomepage](/src/CategoryHomepage/index.md)

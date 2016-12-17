@@ -35,7 +35,7 @@ SOLiD* have moved from the Galaxy distribution to the Galaxy Main Tool Shed.
 
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/Logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 
-Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing these BWA tool wrappers from the Tool Shed. **[BWA](http://bio-bwa.sourceforge.net/)** itself and target reference genomes should still be installed as described in the Galaxy wiki - start in the [Tool Dependencies](/src/Admin/Tools/Tool Dependencies/index.md) section.
+Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing these BWA tool wrappers from the Tool Shed. **[BWA](http://bio-bwa.sourceforge.net/)** itself and target reference genomes should still be installed as described in the Galaxy wiki - start in the [Tool Dependencies](/src/Admin/Tools/ToolDependencies/index.md) section.
 
 **[BWA](http://bio-bwa.sourceforge.net/)** is a fast light-weighted tool that aligns relatively short sequences (queries) to a sequence database (large), such as the human reference genome. It is developed by Heng Li at the Sanger Insitute. Li H. and Durbin R. (2009) Fast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics, 25, 1754-60. 
 
@@ -73,7 +73,7 @@ If called with the `--help` option, it will output usage information.  The datas
 <br />
 # Tool Shed
 
-The **[Tool Shed](/src/Tool Shed/index.md)** wiki has been re-written with a new, cleaner presentation. *[Check it out!](/src/Tool Shed/index.md)*
+The **[Tool Shed](/src/ToolShed/index.md)** wiki has been re-written with a new, cleaner presentation. *[Check it out!](/src/ToolShed/index.md)*
 
 ### New tool shed features
 
@@ -128,7 +128,7 @@ The following sections of the tool shed wiki have been updated to more thoroughl
 <br />
 # Tools
 
-[Tool Dependencies](/src/Admin/Tools/Tool Dependencies/index.md)
+[Tool Dependencies](/src/Admin/Tools/ToolDependencies/index.md)
 
 ### Enhancements
 
@@ -229,4 +229,4 @@ The **[Galaxy Team](/src/GalaxyTeam/index.md)** is a part of **[BX](http://www.b
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/Galaxy on Twitter/index.md)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/GalaxyOnTwitter/index.md)**

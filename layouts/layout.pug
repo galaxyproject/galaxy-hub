@@ -32,7 +32,7 @@ body
 
     header#logonav: div.container: div.row
         div.col-sm-4.text-center: div.logo
-            a( href="http://galaxyproject.org/" ) The Galaxy Project: Online bioinformatics analysis for everyone
+            a( href="/" ) The Galaxy Project: Online bioinformatics analysis for everyone
         div.col-sm-8: a( href="/" )
             h1
                 div Community Hub
@@ -67,14 +67,14 @@ body
                                                a( href="/" + val.link + "/" ) #{val.title}
                         else
                             li: a( href="#") #{entry.title}
-                ul.nav.navbar-nav.navbar-right
-                    li
-                        form(class='navbar-form')
-                            div.input-group
-                                input(class='form-control' placeholder='Search Galaxy')
-                                span.input-group-btn
-                                    button(class="btn btn-secondary" type="submit")
-                                        span.fa.fa-search
+                // ul.nav.navbar-nav.navbar-right
+                //     li
+                //         form(class='navbar-form')
+                //             div.input-group
+                //                 input(class='form-control' placeholder='Search Galaxy')
+                //                 span.input-group-btn
+                //                     button(class="btn btn-secondary" type="submit")
+                //                         span.fa.fa-search
 
     div.container: div.row
         if toc

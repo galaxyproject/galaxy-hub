@@ -10,6 +10,3 @@ Within the context of the Galaxy Project, I'm an IUC member and maintainer of a 
 My work projects inlucde:
 * Tools for bacteriophage analysis and automated annotation
 * Automating the conversion of tools for use in Galaxy
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

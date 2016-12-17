@@ -2,16 +2,16 @@
 autotoc: true
 title: Support
 ---
-#acl WikiAdminGroup:read,write,revert All:read
 
-<br />
+<div class='right'>{{> Support/LinkBox }}</div>
+
+
 **What's New?** Watch **[GXYcast1](https://vimeo.com/120839821)**
-<br />
+
 **Learning Galaxy?** Get started with **[Galaxy NGS 101](http://wiki.galaxyproject.org/Learn/GalaxyNGS101)**
-<br />
+
 **Ready for your test drive?** Follow the 101 Tutorials here **[http://usegalaxy.org/galaxy101](http://usegalaxy.org/galaxy101)**
 
-<br /> 
 **End-User Support Resource Short List**
 * [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) ([claim your account](http://wiki.galaxyproject.org/Support/Biostar))
 * [Learn](http://wiki.galaxyproject.org/Learn)
@@ -22,21 +22,7 @@ title: Support
 * [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks)
 * [Known Issues](https://github.com/jennaj/support-known-issues/wiki)
 
-<div class='left'></div>
-<div class='right'>{{> Support/LinkBox }}</div>
-<div class='right'>
-<br />
-<a href='http://galaxyproject.org/search/web'><img src="/src/images/Logos/GalaxyWebSearch.png" alt="Galaxy Web Search" width="170" /></a> <br />
-<br />
-<a href='http://galaxyproject.org/search/mailinglists'><img src="/src/images/Logos/GalaxyMailingListSearch.png" alt="Galaxy Mailing List Search" width="170" /></a>
-<br />
-<br />
-<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/Logos/UseGalaxySearch.png" alt="Using Galaxy Web Search" width="170" /></a>
-<br />
-<br />
-<a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/images/Logos/GetGalaxySearch.png" alt="Galaxy administration, tool, and deployment search" width="170" /></a>
-</div>
-<div class='left'>
+
 # Using Galaxy
 
 ## Galaxy NGS 101
@@ -55,7 +41,7 @@ See our [Learning](/src/Learn/index.md) hub for key coverage of Galaxy user inte
 
 ## Custom Searches
 
-Looking for something specific? Try ***[Galaxy Custom Searches](/src/news/Custom Galaxy Search/index.md)*** with a keyword or phrase. The ***[MailingList](http://galaxyproject.org/search/mailinglists)*** search finds all related prior Q & A from the [Galaxy Biostar](/src/support/index.md#biostar) forum and any [Galaxy Project mailing lists](/src/MailingLists/index.md). The ***[UseGalaxy](http://galaxyproject.org/search/usegalaxy)*** search finds all online resources for information about using Galaxy.  This includes this wiki, tool help and shared Galaxy objects at [UseGalaxy.org](http://usegalaxy.org), and [Mailing Lists](/src/MailingLists/index.md).
+Looking for something specific? Try ***[Galaxy Custom Searches](/src/news/CustomGalaxySearch/index.md)*** with a keyword or phrase. The ***[MailingList](http://galaxyproject.org/search/mailinglists)*** search finds all related prior Q & A from the [Galaxy Biostar](/src/support/index.md#biostar) forum and any [Galaxy Project mailing lists](/src/MailingLists/index.md). The ***[UseGalaxy](http://galaxyproject.org/search/usegalaxy)*** search finds all online resources for information about using Galaxy.  This includes this wiki, tool help and shared Galaxy objects at [UseGalaxy.org](http://usegalaxy.org), and [Mailing Lists](/src/MailingLists/index.md).
 
 ## Biostar
 

@@ -27,19 +27,19 @@ title: March 12, 2012 Galaxy Development News Brief
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/Logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 ## Migrating tools from the Galaxy distribution to the Galaxy Main tool shed
 
-In 2012, the Galaxy development team will begin the process of **migrating the tools that are currently available in the Galaxy distribution to the [Galaxy Main tool shed](http://toolshed.g2.bx.psu.edu/)**.  This will enable those that host local Galaxy instances much more flexibility in choosing to provide only those specific tools in which their users are interested. [Read more...](/src/Tool Shed/index.md#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)
+In 2012, the Galaxy development team will begin the process of **migrating the tools that are currently available in the Galaxy distribution to the [Galaxy Main tool shed](http://toolshed.g2.bx.psu.edu/)**.  This will enable those that host local Galaxy instances much more flexibility in choosing to provide only those specific tools in which their users are interested. [Read more...](/src/ToolShed/index.md#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)
 
 ## XML configuration files used to populate your Galaxy tool panel
 
-In the past, the file named by your "tool_config_file" configuration setting in your "universe_wsgi.ini" file was the only file used to populate your Galaxy tool panel.  The default name for this file is **tool_conf.xml**.  Since this was the only file involved in populating your Galaxy tool panel, it defined the items (tools, workflows, sections and labels) that would be displayed and the way in which they would be arranged. [Read more...](/src/Tool Shed/index.md#xml_configuration_files_used_to_populate_your_galaxy_tool_panel)
+In the past, the file named by your "tool_config_file" configuration setting in your "universe_wsgi.ini" file was the only file used to populate your Galaxy tool panel.  The default name for this file is **tool_conf.xml**.  Since this was the only file involved in populating your Galaxy tool panel, it defined the items (tools, workflows, sections and labels) that would be displayed and the way in which they would be arranged. [Read more...](/src/ToolShed/index.md#xml_configuration_files_used_to_populate_your_galaxy_tool_panel)
 
 ## Managing the layout of your Galaxy tool panel
 
-The 3 or more files described in the previous section ("tool_conf.xml", one or more "shed_tool_conf.xml files", and "migrated_tools_conf.xml") are all used to load tool panel items (tools, sections, labels and workflows).  A new file named **integrated_tool_panel.xml** has been introduced to define the arrangement for displaying these loaded items in your Galaxy tool panel. [Read more...](/src/Tool Shed/index.md#managing_the_layout_of_your_galaxy_tool_panel)
+The 3 or more files described in the previous section ("tool_conf.xml", one or more "shed_tool_conf.xml files", and "migrated_tools_conf.xml") are all used to load tool panel items (tools, sections, labels and workflows).  A new file named **integrated_tool_panel.xml** has been introduced to define the arrangement for displaying these loaded items in your Galaxy tool panel. [Read more...](/src/ToolShed/index.md#managing_the_layout_of_your_galaxy_tool_panel)
 
 ## Galaxy Tool Versions
 
-When included in the Galaxy distribution, tools are defined by "id" and "version", among other attributes.  For example, the filter tool has id="Filter1" and version="1.1.0".  When installed from a tool shed, the tool's id becomes its "guid" attribute from the tool shed.  If it is migrated from the Galaxy distribution to the tool shed, the filter tool will have the guid: "toolshed.g2.bx.psu.edu/repos/devteam/filter/Filter1/1.1.0".  To provide backward compatibility for Galaxy workflows and the rerun button in a Galaxy history item, a mapping between the tool's old id and version and its new id (guid) is provided by building a chain of relationships between tool versions.  This happens automatically for every tool that is loaded into your Galaxy instance. [Read more...](/src/Tool Shed/index.md#galaxy_tool_versions)
+When included in the Galaxy distribution, tools are defined by "id" and "version", among other attributes.  For example, the filter tool has id="Filter1" and version="1.1.0".  When installed from a tool shed, the tool's id becomes its "guid" attribute from the tool shed.  If it is migrated from the Galaxy distribution to the tool shed, the filter tool will have the guid: "toolshed.g2.bx.psu.edu/repos/devteam/filter/Filter1/1.1.0".  To provide backward compatibility for Galaxy workflows and the rerun button in a Galaxy history item, a mapping between the tool's old id and version and its new id (guid) is provided by building a chain of relationships between tool versions.  This happens automatically for every tool that is loaded into your Galaxy instance. [Read more...](/src/ToolShed/index.md#galaxy_tool_versions)
 
 ## New tool shed related features in Galaxy
 
@@ -56,7 +56,7 @@ When included in the Galaxy distribution, tools are defined by "id" and "version
 <br />
 # New & Updated Tools
 
-*Many tools have been recently upgraded. Please review* [Admin/Config/Tool Dependencies](/src/Admin/Config/Tool Dependencies/index.md) *for these and other recently updated Tool Dependencies. Please see * [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) * for additional new tools.*
+*Many tools have been recently upgraded. Please review* [Admin/Config/Tool Dependencies](/src/Admin/Config/ToolDependencies/index.md) *for these and other recently updated Tool Dependencies. Please see * [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) * for additional new tools.*
 * **RNA-Seq Tools**
   * Added **[CuffMerge](http://cufflinks.cbcb.umd.edu/)** version 1.0.0
     * Requires helper script: **gtf_to_sam** version 1.3.0
@@ -204,6 +204,6 @@ The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)*
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/Galaxy on Twitter/index.md)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/GalaxyOnTwitter/index.md)**
 ----
 </div> Jennifer Jackson, [Galaxy Team](/src/GalaxyTeam/index.md). Posted to [DevNewsBriefs](/src/DevNewsBriefs/index.md) on 2012-03-12</div>

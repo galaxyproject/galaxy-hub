@@ -13,7 +13,7 @@ bower = (files, metalsmith, done) ->
                 contents: contents
     include('css', bower_files.self().ext('css').files)
     include('js', bower_files.self().ext('js').files)
-    include('fonts', bower_files.self().ext(['eot','otf','ttf','woff']).files)
+    include('fonts', bower_files.self().ext(['eot','otf','ttf','woff','woff2']).files)
     done()
 
 link_to_orig_path = (files, metalsmith, done) ->
@@ -47,7 +47,7 @@ partials_from_dir = (source, dir) ->
 partials = {}
 partials_from_dir('partials', partials)
 
-md_link_pattern = /\[.*?\]\((.*?)\)/g
+md_link_pattern = /\[([^\]]*)\]\(([^\)]*)\)/g
 html_link_pattern = /href=[\'"]?([^\'" >]+)[\'"]/g
 html_img_pattern = /src=[\'"]\/src?([^\'" >]+)[\'"]/g
 
@@ -72,9 +72,10 @@ subs = (files, metalsmith, done) ->
         do (file, c) ->
             if file.endsWith('.md')
                 contents = files[file].contents.toString()
-
-                while match = md_link_pattern.exec(contents)
-                    rep = match[1]
+                matches = []
+                matches.push(match) while match = md_link_pattern.exec(contents)
+                for match in matches
+                    rep = match[2]
                     #TODO: Do this with a regex too
                     if rep.startsWith('/src')
                         # Drop leading /src
@@ -84,17 +85,21 @@ subs = (files, metalsmith, done) ->
                         # Replace is simpler here because we have to consider
                         # in-page anchors.
                         rep = rep.replace('index.md', '')
-                    contents = contents.replace("("+match[1]+")", "("+rep+")")
-                while match = html_link_pattern.exec(contents)
+                    contents = contents.split(match[0]).join("["+match[1]+"]("+rep+")")
+                matches = []
+                matches.push(match) while match = html_link_pattern.exec(contents)
+                for match in matches
                     rep = match[1]
                     if rep.startsWith('/src')
                         rep = rep.substr(4)
                     if rep.startsWith('/')
                         rep = rep.replace('index.md', '')
-                    contents = contents.replace(match[0],'href="'+rep+'"')
-                while match = html_img_pattern.exec(contents)
+                    contents = contents.split(match[0]).join('href="'+rep+'"')
+                matches = []
+                matches.push(match) while match = html_img_pattern.exec(contents)
+                for match in matches
                     # Simply match and drop leading /src/ from images.
-                    contents = contents.replace(match[0],'src="'+match[1]+'"')
+                    contents = contents.split(match[0]).join('src="'+match[1]+'"')
                 files[file].contents = contents
     done()
 

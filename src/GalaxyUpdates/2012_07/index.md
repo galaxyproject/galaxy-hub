@@ -192,7 +192,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 
 Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) in June.
 
-<div class='right'><a href='http://community.completegenomics.com/thread/1121'><img src="/src/GalaxyUpdates/2012_07/Images/Logos/CompleteGenomicsLogo.png" alt="Complete Genomics Community Site" width="150" /></a></div>
+<div class='right'><a href='http://community.completegenomics.com/thread/1121'><img src="/src/GalaxyUpdates/2012_07/images/Logos/CompleteGenomicsLogo.png" alt="Complete Genomics Community Site" width="150" /></a></div>
 
 * [CGA Tools](http://community.completegenomics.com/thread/1131) - [Complete Genomics](http://completegenomics.com/)' CGA Tools is now available.
 * `qiime1_3_0` - Extension of jjohnson's `qiime` repository, intended as an extension of that work. Only tools verified working in Galaxy with Qiime 1.3.0 documentation included.

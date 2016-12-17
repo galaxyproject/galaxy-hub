@@ -20,7 +20,3 @@ Overall, my research interests lay in the area of distributed computing accessib
     <td> <a href='http://cloudman.irb.hr/enis/index.html'>Home page</a> </td>
   </tr>
 </table>
-
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

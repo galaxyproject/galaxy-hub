@@ -1,4 +1,3 @@
-#acl +[VettedEditorGroup](/src/VettedEditorGroup/index.md):read,write +All:read
 {{> Events/GCC2012/PageHeader }}
 
 {{> Events/GCC2012/LinkBox }}

@@ -5,5 +5,5 @@ Galaxy is a free and open source project available to all. Local Galaxy servers 
 * [/Admin](/src/Admin/index.md) 
 * [Cloud](/src/Cloud/index.md)
 <div class='center'>
-<a href='http://getGalaxy.org/'><img src='/Images/Logos/GetGalaxyOrg200Shadow.png' alt='usegalaxy.org'  /></a>
+<a href='http://getGalaxy.org/'><img src='/images/Logos/GetGalaxyOrg200Shadow.png' alt='usegalaxy.org'  /></a>
 </div>

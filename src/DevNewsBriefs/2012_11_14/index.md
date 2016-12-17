@@ -34,7 +34,7 @@ The tools in the group **NGS: Picard (beta)** have moved from the **[Galaxy dist
 
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/Logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 
-Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing the Picard tool wrappers from the Tool Shed. **[Picard](http://bio-bwa.sourceforge.net/)** itself and target reference genomes should still be installed as described in the Galaxy wiki - start in the [Tool Dependencies](/src/Admin/Tools/Tool Dependencies/index.md) section.
+Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing the Picard tool wrappers from the Tool Shed. **[Picard](http://bio-bwa.sourceforge.net/)** itself and target reference genomes should still be installed as described in the Galaxy wiki - start in the [Tool Dependencies](/src/Admin/Tools/ToolDependencies/index.md) section.
 
 **[Picard](http://picard.sourceforge.net/)** comprises Java-based command-line utilities that manipulate SAM files, and a Java API (SAM-JDK) for creating new programs that read and write SAM files. Both SAM text format and SAM binary (BAM) format are supported. More about **[SAM](http://wiki.galaxyproject.org/Learn/Datatypes#SAM)** and **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM)** format.
 
@@ -67,7 +67,7 @@ Please note that this is the first release of this documentation and it is far f
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/Tool Shed/index.md)**
+**[Tool Shed](/src/ToolShed/index.md)**
 
 ### Tool Shed Enhancements inside of Galaxy
 
@@ -118,7 +118,7 @@ Certain repository contents may occasionally become outdated, perhaps due to oth
 <br />
 # Tools
 
-[Tool Dependencies](/src/Admin/Tools/Tool Dependencies/index.md)
+[Tool Dependencies](/src/Admin/Tools/ToolDependencies/index.md)
 
 1. Enable **[Tophat](http://tophat.cbcb.umd.edu/)**, **[Tophat2](http://tophat.cbcb.umd.edu/manual.html)**, and **[Cuffdiff](http://cufflinks.cbcb.umd.edu/manual.html#cuffdiff)** to accept gene annotations in **[GFF3](http://wiki.galaxyproject.org/Learn/Datatypes#GFF3)** format; thanks to [Jim Johnson](http://bitbucket.org/jjohnson).
 2. Make unordered **[GTF](http://wiki.galaxyproject.org/Learn/Datatypes#GTF)** parsing more lenient by default, allowing for parsing of 'imperfect' GTF datasets not in strict specification format.

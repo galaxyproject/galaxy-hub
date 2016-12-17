@@ -2,8 +2,6 @@
 title: 'December 2016 Galactic News'
 date: '12-06-2016'
 ---
-<div class='newsItemHeader'><a href="/src/news/2016_12GalaxyUpdate/index.md">December 2016 Galactic News</a></div>
-
 <div class='right'>
 <div class='right'><a href='/src/GalaxyUpdates/2016_12/index.md'><img src="/src/images/GalaxyLogos/GalaxyNews.png" alt="Galaxy News" width=120 /></a></div><br />
 <a href='/src/GalaxyUpdates/2016_12/index.md#galaxy-australasia-meeting-game-2017-registration--abstract-submission-are-open'><img src="/src/images/Logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="105" /></a><br />

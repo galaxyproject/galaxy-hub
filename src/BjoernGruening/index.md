@@ -28,7 +28,3 @@ Georges-Köhler-Allee 106 <br />
   </tr>
 </table>
 
-
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)

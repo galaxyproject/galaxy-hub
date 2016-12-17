@@ -197,7 +197,7 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/src/support/Biosta
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/Tool Shed/index.md)**
+**[Tool Shed](/src/ToolShed/index.md)**
 
 ## Repositories
 

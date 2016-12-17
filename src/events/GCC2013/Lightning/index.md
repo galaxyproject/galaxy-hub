@@ -8,7 +8,7 @@ title: Lightning Talks
 
 {{> Events/GCC2013/LinkBox }}
 
-Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Monday](/src/events/GCC2013/Program/index.md#day-1-main-meeting-1-july) (moderated by [Ross Lazarus](/src/RossLazarus/index.md)) and [Session 8 on Tuesday](/src/events/GCC2013/Program/index.md#day-2-main-meeting-2-july) (moderated by [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md)).  **No more than half the lightning talk slots will be allocated before the meeting.**
+Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Monday](/src/events/GCC2013/Program/index.md#day-1-main-meeting-1-july) (moderated by [Ross Lazarus](/src/fubar/index.md)) and [Session 8 on Tuesday](/src/events/GCC2013/Program/index.md#day-2-main-meeting-2-july) (moderated by [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md)).  **No more than half the lightning talk slots will be allocated before the meeting.**
 
 If you wish to give a lightning talk, please send an abstract to [GCC2013 Scientific Committee](mailto:gcc2013-sci AT galaxyproject DOT org), either 
 * any time before the start of [Session 2](/src/events/GCC2013/Lightning/Program/index.md#day-1-main-meeting-1-july) (to be considered for Monday or Tuesday slots), or 
@@ -24,7 +24,7 @@ There are two lightning talk sessions, one on each day of the [main meeting](/sr
 
 ### Day 1: Monday 1 July
 
-During [Session 4](/src/events/GCC2013/Program/index.md#day-1-main-meeting-1-july), moderated by [Ross Lazarus](/src/RossLazarus/index.md).
+During [Session 4](/src/events/GCC2013/Program/index.md#day-1-main-meeting-1-july), moderated by [Ross Lazarus](/src/fubar/index.md).
 
 #### Medilaxy: A Galaxy Platform For Medical Image Analysis
 
@@ -251,7 +251,7 @@ Our team, in collaboration with spectrometry plateforms, implements several tool
 
 <div class='right'>[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GCC2013/GLM_GSEALightning.pdf)</div>
 
-**[Ross Lazarus](/src/RossLazarus/index.md)**, Mark Ziemann and Antony Kaspi.  
+**[Ross Lazarus](/src/fubar/index.md)**, Mark Ziemann and Antony Kaspi.  
 
  Baker IDI Heart and Diabetes Institute
 
@@ -371,7 +371,7 @@ This is your opportunity to give an impassioned and enthralling talk about somet
 
 ## Gratuitous Advice
 
-From [Ross Lazarus](/src/RossLazarus/index.md), *Benevolent Lightning Session Moderator for Life*
+From [Ross Lazarus](/src/fubar/index.md), *Benevolent Lightning Session Moderator for Life*
 
 * Good lightning talks are well rehearsed and very, very focussed.  
 * Plan on talking to 5 or 6 slides 

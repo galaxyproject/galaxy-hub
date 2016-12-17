@@ -13,10 +13,6 @@ Jeremy is an Assistant Professor of Computational Biology at George Washington U
   </tr>
   <tr>
     <th> URL </th>
-    <td> <a href='http://jeremygoecks.com'>Home Page</a> </td>
+    <td> <a href='http://goeckslab.org'>Home Page</a> </td>
   </tr>
 </table>
-
-
-----
-[CategoryHomepage](/src/CategoryHomepage/index.md)
