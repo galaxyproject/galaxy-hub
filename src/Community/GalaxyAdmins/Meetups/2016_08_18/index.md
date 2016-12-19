@@ -11,8 +11,6 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
   <tr>
     <th> Date </th>
     <td> 18 August 2016 </td>
-    <td rowspan=4 style=" border: none;"> </td>
-    <td rowspan=4 style=" border: none;"> </td>
   </tr>
   <tr>
     <th> Time </th>
@@ -24,7 +22,7 @@ PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
   </tr>
   <tr>
     <th> Links </th>
-    <td> <strong><a href='https://connect.johnshopkins.edu/gxyadmins201608/'>Online conference room</a></strong> </td>
+    <td> <strong><a href='https://connect.johnshopkins.edu/p9nqie63c7a/'>Video</a></strong> </td>
   </tr>
 </table>
 
@@ -50,7 +48,7 @@ More information on this work is available:
 
 <div class='right'><img src="/src/images/Logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmin Meetup, Online Conference Room" width="150" /></div>
 
-The  meetup's [online conference room](https://connect.johnshopkins.edu/gxyadmins201608/) will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
+The  meetup's online conference room will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 
 ### Instructions for Participants
 
