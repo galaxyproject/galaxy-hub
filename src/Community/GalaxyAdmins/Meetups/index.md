@@ -7,11 +7,17 @@ The [GalaxyAdmins](/src/Community/GalaxyAdmins/Meetups//index.md) group has bi-m
 
 ## Meetups
 
+**2017**
+
+* [2017/02/15 Web Meetup](/src/Community/GalaxyAdmins/Meetups/2017_02_15/index.md)
+
+
 **2016**
 
 * [2016/12/15 Web Meetup](/src/Community/GalaxyAdmins/Meetups/2016_12_15/index.md)
+    Bérénice Batut, Björn Grüning and Dannon Baker on Community creation, curation and use of training materials and Galaxy documentaiton.
 * [2016/10/20](/src/events/Switzerland2016/index.md) in person Meetup at the [Swiss Galaxy workshop](/src/events/Switzerland2016/index.md) 
-* **[2016/08/18 Web Meetup](/src/Community/GalaxyAdmins/Meetups/2016_08_18/index.md)**
+* [2016/08/18 Web Meetup](/src/Community/GalaxyAdmins/Meetups/2016_08_18/index.md)
     [Olivia Choudhury](https://engineering.nd.edu/profiles/colivia), [Nick Hazekamp](https://engineering.nd.edu/profiles/nhazekamp), and [Scott Emrich](https://www3.nd.edu/~semrich/) of the [University of Notre Dame](http://www.nd.edu/) present on MakeFlow.
 * [2016/06/28](https://gcc16.sched.org/event/7KLn/galaxyadmins-birds-of-a-feather) in person Meetup at [GCC2016](https://gcc2016.iu.edu/)
 * [2016/06/16 Web Meetup](/src/Community/GalaxyAdmins/Meetups/2016_06_16/index.md)
