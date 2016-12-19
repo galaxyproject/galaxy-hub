@@ -8,7 +8,7 @@ tease: 'GalaxyAdmins December 2016 Meetup'
 
 
 |  |  |
-| - | - |
+| ---- | ---- |
 | **Date** | 15 December 2016 |
 | **Time** | [5 pm Central European Time](http://bit.ly/2h2QOsT). See [your local time](http://bit.ly/2h2QOsT) |
 | **Topic 1** | *Galaxy Training Materials: Community creation, curation, and use*, [Björn Grüning](/src/BjoernGruening/index.md) and  Bérénice Batut, University of Freiburg |
