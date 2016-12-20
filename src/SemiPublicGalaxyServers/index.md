@@ -140,7 +140,22 @@ Servers are classified here by whom they are accessible to.  This can be based o
 
 ## Cancer Computer
 
-Information is coming ...
+<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/SemiPublicGalaxyServers/cancer-computer-logo-256.jpg" alt="Cancer Computer" /></a></div>
+
+* *Links:*
+  * **[Request access](http://www.cancercomputer.com/contact/)**
+* *Eligibility:*
+  * Cancer or related research only.
+* *Comments:*
+  * 2 x Dual Hexacore HP DL380 with 288GB each Tools for genomics, proteinomics & sequence analysis We can load tools on request
+* *User Support:*
+  * Best effort by email. For SLA support, please contact.
+* *Quotas:* 
+  * Free to approved academic users Up to 6 Cores, 64GB RAM per user, less than 90 days. 
+  * Larger, private instances available, please contact (>16Cores, >64GB, MPI, GPU customizable instances available in private cloud)
+* *Sponsor(s):*
+  * [Cancer Computer](http://www.cancercomputer.com/)
+
 
 # Association Based
 
