@@ -18,40 +18,97 @@ Galaxy will be at [Plant and Animal Genome XXIV (PAG 2017)](http://www.intlpag.o
   </tr>
   <tr>
     <th> Saturay<br />January 14 </th>
-    <td style=" text-align: center;"> </td>
+    <td style=" text-align: center;"> 4:00-4:15 </td>
+    <td> Data Stewardship in the Life Sciences </td>
+    <td> Challenges and Opportunities in Plant Science Data Management, Pacific Salon 4-5</td>
     <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
+    <td> Robert Davey </td>
   </tr>
   <tr>
     <th colspan=6> </th>
   </tr>
   <tr>
-    <th> Sunday<br />January 15 </th>
-    <td style=" text-align: center;">  </td>
-    <td>  </td>
-    <td>  </td>
+    <th rowspan="3"> Sunday<br />January 15 </th>
+    <td style=" text-align: center;"> 8:10-8:30 </td>
+    <td> The Genomics Education Partnership: An Introduction to Bioinformatics in a Course-based Undergraduate Research Experience (CURE) </td>
+    <td> Resources and Programs for Undergraduate Education in Genomics, Towne - Meeting House </td>
     <td> </td>
-    <td>  </td>
+    <td> Sarah Elgin </td>
+  </tr>
+  <tr>
+    <td style=" text-align: center;"> 4:00-4:25 </td>
+    <td> Tripal Introduction and Core Development Efforts </td>
+    <td> Tripal Database Network and Initiatives, California Room </td>
+    <td> </td>
+    <td> Stephen P. Ficklin </td>
+  </tr>
+  <tr>
+    <td style=" text-align: center;"> 4:55-5:10 </td>
+    <td> CartograTree Workflows with Tripal API for Association Mapping in Forest Trees </td>
+    <td> Tripal Database Network and Initiatives, California Room </td>
+    <td> </td>
+    <td> Nic Herndon </td>
   </tr>
   <tr>
     <th colspan=6> </th>
   </tr>
   <tr>
-    <th rowspan=2> Monday<br />January 16 </th>
-    <td rowspan=1> 10:00-11:30 </td>
-    <td>  </td>
-    <td rowspan=1> Poster Session: Even numbers </td>
+    <th rowspan="10"> Monday<br />January 16 </th>
+    <td rowspan="4"> 10:00-11:30 </td>
+    <td> P0330 DNAPOD: Implementation of Virtual Machine for DNAPOD Workflow and Genotype Imputation </td>
+    <td rowspan="4"> Poster Session: Even numbers </td>
     <td> </td>
-    <td> </td>
+    <td> Takako Mochizuki </td>
   </tr>
   <tr>
-    <td style=" text-align: center;"> 3:00-4:30 </td>
-    <td>  </td>
-    <td> Poster Session: Odd numbers </td>
+    <td> P0358: TreeGenes and CartograTree: Genetic and Genomic Resources for Forest Trees and P0360: TreeGenes: Genetic and Genomic Resources for Forest Trees </td>
     <td> </td>
+    <td> Emily Grau </td>
+  </tr>
+  <tr>
+    <td> P0482: Discovery and Visualisation of Homologous Genes and Gene Families Using Galaxy </td>
     <td> </td>
+    <td> Anil S. Thanki </td>
+  </tr>
+  <tr>
+    <td> P0390: AgronGalaxy: A Web-Based Server for Mining SNP Markers Using Reduced Representation Library </td>
+    <td> </td>
+    <td> Li-yu Daisy Liu </td>
+  </tr>
+  <tr>
+    <td rowspan="5" style=" text-align: center;"> 3:00-4:30 </td>
+    <td> P0381: The Genomics Education Partnership: An Introduction to Bioinformatics in a Course-based Undergraduate Research Experience (CURE) </td>
+    <td rowspan="5"> Poster Session: Odd numbers </td>
+    <td> </td>
+    <td> Sarah Elgin </td>
+  </tr>
+  <tr>
+    <td> P0445: CartograTree Workflows with Tripal API for Association Mapping in Forest Trees </td>
+    <td> </td>
+    <td> Nic Herndon </td>
+  </tr>
+  <tr>
+    <td> P0473: Enhancement of Data Searching, Visualization and Exploration in the Hardwood Genomics Database (HGD) by Integration of New Tripal Extensions and Galaxy </td>
+    <td> </td>
+    <td> Ming Chen </td>
+  </tr>
+  <tr>
+    <td> P0479: A Novel Tripal Database Module and Workflow to Facilitate Variant Mapping and Detection in Non-Model Plant Species </td>
+    <td> </td>
+    <td> Yuanyuan Chang </td>
+  </tr>
+  <tr>
+    <td> P0489: Web-Based Bioinformatics Workflows for RNA-Seq Data Analysis in Agricultural Animal Species </td>
+    <td> </td>
+    <td> Qiaoshan Lin </td>
+  </tr>
+
+  <tr>
+    <td style=" text-align: center;"> 7:05-7:25 </td>
+    <td> Jetstream: On-Demand Cloud Computing for Life Sciences Research and Education </td>
+    <td> CyVerse - Software, Tools, and Services for Data-Driven Discovery, California Room </td>
+    <td> </td>
+    <td> Matthew Vaughn </td>
   </tr>
   <tr>
     <th colspan=6> </th>
