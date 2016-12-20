@@ -194,6 +194,24 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *Sponsor(s):*
   * [Galaxy Project](/src/GalaxyProject/index.md)
 
+## Galaxy Sigenae / BioInfo Genotoul
+
+<div class='right solid'><a href='http://sigenae-workbench.toulouse.inra.fr/'><img src="/src/PublicGalaxyServers/GalaxySigenae.png" alt="Galaxy Sigenae / BioInfo Genotoul" width="300" /></a></div>
+
+* *Link:*
+  * [Galaxy Sigenae / BioInfo Genotoul server](http://sigenae-workbench.toulouse.inra.fr/)
+* *Domain/Purpose:*
+  * Galaxy Sigenae / Genotoul is specialized in SNP, RNAseq, sRNAseq, metagenomics, CHIP-seq, statistics.
+* *Comments:*
+  * [E-learning and training sessions available](http://sig-learning.toulouse.inra.fr/).
+* *User Support:*
+  * [Email Support](mailto:sigenae-support@lites.inra.fr)
+  * The [user-galaxy-toulouse mailing list](http://listes.inra.fr/sympa/info/user-galaxy-toulouse) is used to distribute information to all users of the Galaxy Sigenae platform.
+* *Quotas:*
+  * BioInfo Genotoul platform reserves the right to purge all files not accessed since 120 days on work/disk space.
+* *Sponsor(s):*
+  * Hosted by [BioInof Genotoul](http://bioinfo.genotoul.fr/) platform. Supported by [Europe and Région Occitanie](http://www.midipyrenees.fr/Midi-Pyrenees-en-Europe).
+
 ## Galaxy Test
 
 * *Link:*
