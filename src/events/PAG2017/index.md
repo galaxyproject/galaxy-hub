@@ -1,9 +1,9 @@
 ---
 title: Galaxy at PAG 2017
-date: '12-06-2016'
+date: '12-19-2016'
 tease: January 14-18
 ---
-<a href='http://www.intlpag.org/'><img src="/src/images/Logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="100" align="center" /></a>
+<div class="center"><a href='http://www.intlpag.org/'><img src="/src/images/Logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="100" /></a></div>
 
 Galaxy will be at [Plant and Animal Genome XXIV (PAG 2017)](http://www.intlpag.org/), being held in San Diego, California, United States, January 14-18.  Galaxy related presentations will be added to this page as they are scheduled.  If you know of something else, then [please tell us about it](mailto:outreach AT galaxyproject DOT org).
 
