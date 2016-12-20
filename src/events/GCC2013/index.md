@@ -1,6 +1,6 @@
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/Header/index.md)
+{{> Events/GCC2013/Header }}
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/LinkBox/index.md)
+{{> Events/GCC2013/LinkBox }}
 
 The **2013 Galaxy Community Conference (GCC2013)** was held at the University of Oslo in Oslo Norway, from 30 June through 2 July.
 
@@ -128,4 +128,4 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 *Interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Become a [meeting sponsor](/src/events/GCC2013/Sponsorships/index.md).*
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/Footer/index.md)
+{{> Events/GCC2013/Footer }}

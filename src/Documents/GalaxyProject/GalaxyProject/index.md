@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/Documents/LinkBox)
+{{> Documents/LinkBox }}
 
 Documents about the [Galaxy Project](/src/GalaxyProject/index.md).
 

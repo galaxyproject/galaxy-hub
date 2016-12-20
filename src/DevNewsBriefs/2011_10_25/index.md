@@ -119,7 +119,7 @@ autotoc: true
 * API for assigning roles to a data library from John Chilton.
 * Encoded IDs of library contents in the Library API are no longer the encoded version of file.<library_dataset.id> and folder.<library_folder.id>.  Instead, the real ID is encoded and if the library content is a folder, the encoded ID is prepended with an 'F'.
 * `@web.require_admin` decorator can now be used on API controller methods.
-* For `galaxy.model.<model_class>.get_api_value(), {{{api_*_visible_keys` can now contain names that are mapped attributes to other model classes (thus allowing for `get_api_value()` recursion to other classes).
+* For `galaxy.model.<model_class>.get_api_value()`, `api_*_visible_keys` can now contain names that are mapped attributes to other model classes (thus allowing for `get_api_value()` recursion to other classes).
 * For model classes that can be //marked// deleted but are not actually deleted, a new route mapper can be used which makes deleted objects accessible via their own collection (for details see [changeset/ca6db8f67477](https://bitbucket.org/galaxy/galaxy-central/changeset/ca6db8f67477)).
 * New generic scripts `create.py`, `delete.py` and `update.py` in `galaxy-dist/scripts/api/` to perform `POST`, `PUT` and `DELETE` operations in the API (useful for development and debugging).
 * Exceptions in the API are now logged instead of passed through to the client.

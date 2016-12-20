@@ -1,6 +1,6 @@
-PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md)
-PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
-PLACEHOLDER_INCLUDE(/src/FAQs/LinkBox/index.md)
+{{> Admin/LinkBox }}
+{{> Develop/LinkBox }}
+{{> FAQs/LinkBox }}
 
 # Galaxy Administration
 

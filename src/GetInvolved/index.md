@@ -14,7 +14,7 @@ title: Get Involved!
 
 # IRC Channel
 
-PLACEHOLDER_INCLUDE(/src/support/IRC/index.md)
+{{> Support/IRC }}
 
 # Develop Tools and Tool Definitions
 

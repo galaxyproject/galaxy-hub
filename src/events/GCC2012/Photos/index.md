@@ -1,9 +1,9 @@
 ---
 title: [GCC2012](/src/events/GCC2012/index.md) Photos
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/PageHeader/index.md)
+{{> Events/GCC2012/PageHeader }}
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/Photos/LinkBox/index.md)
+{{> Events/GCC2012/LinkBox }}
 
 
 

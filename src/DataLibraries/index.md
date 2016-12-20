@@ -35,7 +35,7 @@ The "Data Libraries" menu item allows users to access the datasets in a data lib
 Importing a library dataset into a history will not make a copy of the dataset, but will be a "pointer" to the dataset on disk.  This
 approach allows for multiple users to use a single (possibly very large) dataset file.
 
-PLACEHOLDER_INCLUDE(/src/DataLibraries/screen/LinkBox/index.md)
+{{> DataLibraries/screen/LinkBox }}
 ### Library screens
 
 * [list of libraries](/src/DataLibraries/screen/ListOfLibraries/index.md)

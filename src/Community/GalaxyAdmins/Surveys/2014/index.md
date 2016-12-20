@@ -3,7 +3,7 @@ autotoc: true
 ---
 <div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
-PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/Surveys/LinkBox/index.md)
+{{> Community/GalaxyAdmins/LinkBox }}
 
 Two community-wide questionnaires were run in the fall of 2014.  One asked *Galaxy users* about their experience, while the other focused on *Galaxy Admins, developers, and Tool Authors.*  The *Admin* questionnaire is summarized below.
 

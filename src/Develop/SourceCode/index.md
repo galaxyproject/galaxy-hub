@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
+{{> Develop/LinkBox }}
 # The source code of Galaxy
 
 Galaxy is an open source software under [AFL 3.0](/src/Admin/License/index.md) license.

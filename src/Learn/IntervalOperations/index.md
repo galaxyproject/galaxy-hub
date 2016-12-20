@@ -1,6 +1,6 @@
 # Interval Operations in Galaxy
 
-PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md) 
+{{> Learn/LinkBox }} 
 
 A unique feature of Galaxy is the large number of tools for performing operations on genomic intervals. These tools are based on the `bx-python package` (https://github.com/bxlab/bx-python). These include ''intersect'', ''subtract'', ''complement'', ''merge'', ''concatenate'', ''cluster'', ''coverage'', ''base coverage'', and ''join''.   Some operations are analogous to relational database queries, such as join and coverage.  Other operations are analogous to set operations.
 

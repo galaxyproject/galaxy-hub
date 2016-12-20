@@ -1,7 +1,7 @@
 ---
 autotoc: true
 ---
-PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
+{{> Learn/LinkBox }}
 # Creating Workflows and Advanced Workflow Options
 
 <div class='right'></div>

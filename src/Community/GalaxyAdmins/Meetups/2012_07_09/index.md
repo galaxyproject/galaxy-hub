@@ -4,7 +4,7 @@ title: 2012/07/09 Conference Call
 ---
 <div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
-PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
+{{> Community/GalaxyAdmins/LinkBox }}
 
 
 

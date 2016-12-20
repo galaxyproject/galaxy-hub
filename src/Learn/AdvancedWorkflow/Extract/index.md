@@ -2,7 +2,7 @@
 autotoc: true
 ---
 #acl WikiAdminGroup:read,write,revert All:read
-PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
+{{> Learn/LinkBox }}
 
 # Extract Workflow from a History
 

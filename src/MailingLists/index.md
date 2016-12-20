@@ -3,7 +3,7 @@ autotoc: true
 title: Galaxy Mailing Lists
 ---
 
-PLACEHOLDER_INCLUDE(/src/support/LinkBox/index.md)
+{{> Support/LinkBox }}
 <div class='right'></div>
 
 Mailing lists play a vital role in the Galaxy community:
@@ -18,7 +18,7 @@ Mailing lists play a vital role in the Galaxy community:
 
 ## The lists
 
-PLACEHOLDER_INCLUDE(/src/MailingListDetail/index.md)
+{{> MailingListDetail }}
 
 <div class='right'><a href='http://galaxyproject.org/search/mailinglists/'><img src="/src/images/Logos/GalaxyMailingListSearch.png" alt="Search all" width="150" /></a></div>
 

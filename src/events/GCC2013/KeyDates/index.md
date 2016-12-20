@@ -1,11 +1,11 @@
 ---
 title: Key Dates
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/Header/index.md)
+{{> Events/GCC2013/Header }}
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/LinkBox/index.md)
+{{> Events/GCC2013/LinkBox }}
 
 <table>
   <tr class="th" >
@@ -115,4 +115,4 @@ A few other events of interest to many participants are also happening either ve
  **[Software Carpentry Boot Camp](http://bit.ly/14EmcSA)**, July 3-4, University of Oslo, Oslo, Norway
    [Software Carpentry Boot Camps](http://software-carpentry.org/boot-camps/) are  example-driven workshops on basic computing skills. Short tutorials alternate with hands-on practical exercises, and participants are encouraged both to help one another, and to try applying what they have learned to their own research problems during and between sessions. 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/Footer/index.md)
+{{> Events/GCC2013/Footer }}

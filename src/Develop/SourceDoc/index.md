@@ -3,7 +3,7 @@ title: Galaxy Source Code Documentation
 ---
 
 
-PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
+{{> Develop/LinkBox }}
 
 The Galaxy Project source code documentation is in the code itself.  This is in keeping with the philosophy, that whenever possible, store code doc as close to the code as possible.
 

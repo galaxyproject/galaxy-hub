@@ -1,6 +1,6 @@
 <div class='right'> 
 <img src="/src/images/Logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" />
-PLACEHOLDER_INCLUDE(/src/ToolShed/LinkBox/index.md)  
+{{> ToolShed/LinkBox }}  
 </div>
 
 # Installing Tool Shed Repositories into a Local Galaxy

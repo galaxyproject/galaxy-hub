@@ -2,7 +2,7 @@
 
 <br />
 
-PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
+{{> Community/GalaxyAdmins/LinkBox }}
 
 The January 2013 [GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2013_01_16//index.md) was held Wednesday, January 16, 2013 at 10am US central time.  [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) covered "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."   
 

@@ -1,6 +1,6 @@
-PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md)
-PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
-PLACEHOLDER_INCLUDE(/src/Admin/Tools/LinkBox/index.md)
+{{> Admin/LinkBox }}
+{{> Develop/LinkBox }}
+{{> Admin/Tools/LinkBox }}
 # Tutorial for Creating a Histogram Tool
 
 See also the general [ tutorial for adding custom tools](/src/Admin/Tools/Add Tool Tutorial/index.md).

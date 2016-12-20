@@ -1,7 +1,7 @@
 ---
 title: Support: Resources for Using Tools
 ---
-<div class='right'>PLACEHOLDER_INCLUDE(/src/support/LinkBox/index.md)</div>
+<div class='right'>{{> Support/LinkBox }}</div>
 
 Back to [Support](/src/support/index.md)
 ## Galaxy has a simplified tool interface packed with usage details.

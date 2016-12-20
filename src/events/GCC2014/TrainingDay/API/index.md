@@ -1,12 +1,12 @@
 ---
 title: Galaxy Automation: Using the API
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
+{{> Events/GCC2014/Header }}
 <br /><br />
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
+{{> Events/GCC2014/LinkBox }}
 
 <div class='right'> <a href='/src/events/GCC2014/TrainingDay/index.md'><img src="/src/images/Logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
 

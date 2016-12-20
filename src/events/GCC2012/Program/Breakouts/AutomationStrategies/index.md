@@ -1,9 +1,9 @@
 ---
 title: Automation strategies for Data, Tools, & Config
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/PageHeader/index.md)
+{{> Events/GCC2012/PageHeader }}
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/LinkBox/index.md)
+{{> Events/GCC2012/LinkBox }}
 
 
 

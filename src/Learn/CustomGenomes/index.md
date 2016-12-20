@@ -4,7 +4,7 @@ title: Custom Genomes
 ---
 
 
-PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
+{{> Learn/LinkBox }}
 <div class='right'></div>
 
 # What is a "Custom Reference Genome" ?

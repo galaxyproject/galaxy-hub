@@ -15,7 +15,7 @@ If you have help to offer other Galaxy users, *please dive right in* and reply t
 Galaxy is a [community](/src/Community/index.md) of scientists and developers working together to make great science happen! Communication, feedback, and contributions are *important*.
 
 <div class='left'></div>
-<div class='right'>PLACEHOLDER_INCLUDE(/Support/LinkBox)</div>
+<div class='right'>{{> Support/LinkBox }}</div>
 <div class='right'>
 <br />
 <a href='http://galaxyproject.org/search/web'><img src='/images/Logos/GalaxyWebSearch.png' alt='Galaxy Web Search' width="170" /></a> <br />
@@ -46,7 +46,7 @@ See our [Learning](/src/Learn/index.md) hub for key coverage of Galaxy user inte
 [Tutorials](http://main.g2.bx.psu.edu/u/james/p/exercises) embedded inside of Galaxy. Created by Galaxy's scientists, these are packed with example [datasets](/Learn/ManagingDatasets), histories, visualizations, and workflows to import and experiment with.
 
 ## FAQs
-PLACEHOLDER_INCLUDE(/FAQs/LinkBox)
+{{> FAQs/LinkBox }}
 
 [FAQs](/src/Learn/FAQ/index.md) *are always under active development*. Both scientific and technical users are encouraged to add in their own tips and best practices for new and existing data types, tools, workflows, set-up, and administration.
 

@@ -1,7 +1,7 @@
 ---
 autotoc: true
 ---
-PLACEHOLDER_INCLUDE(/src/CloudMan/Header/index.md)
+{{> CloudMan/Header }}
 
 <br />
 <div class='right'></div>

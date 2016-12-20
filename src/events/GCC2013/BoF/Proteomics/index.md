@@ -1,12 +1,12 @@
 ---
 title: Proteomics BoF
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/Header/index.md)
+{{> Events/GCC2013/Header }}
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/LinkBox/index.md)
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/BoF/LinkBox/index.md)
+{{> Events/GCC2013/LinkBox }}
+{{> Events/GCC2013/BoF/LinkBox }}
 
 <div class='left'><a href='/src/events/GCC2013/BoF/index.md'><img src="/src/images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 

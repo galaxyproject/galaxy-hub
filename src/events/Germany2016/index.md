@@ -1,9 +1,9 @@
 ---
 title:  2nd German Galaxy Developer workshop, Friday, October 21st, Freiburg 
 ---
-PLACEHOLDER_INCLUDE(/src/events/SG2016/Header/index.md)
+{{> Events/SG2016/Header }}
 
-PLACEHOLDER_INCLUDE(/src/events/SG2016/LinkBox/index.md)
+{{> Events/SG2016/LinkBox }}
 
 
 

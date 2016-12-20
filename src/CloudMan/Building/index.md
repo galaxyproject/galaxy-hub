@@ -2,7 +2,7 @@
 autotoc: true
 title: Building Galaxy CloudMan components
 ---
-PLACEHOLDER_INCLUDE(/src/CloudMan/Header/index.md)
+{{> CloudMan/Header }}
 
 
 

@@ -2,11 +2,11 @@
 autotoc: true
 title: Teaching with Galaxy: Materials
 ---
-PLACEHOLDER_INCLUDE(/src/Teach/Header/index.md)
+{{> Teach/Header }}
 
 
 
-PLACEHOLDER_INCLUDE(/src/Teach/LinkBox/index.md)
+{{> Teach/LinkBox }}
 
 This page links to workshop materials for different topics.  That material can be in this wiki, inside Galaxy instances, or anywhere on the web.
 

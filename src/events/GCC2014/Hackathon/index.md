@@ -2,13 +2,13 @@
 autotoc: true
 title: Hackathon
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
+{{> Events/GCC2014/Header }}
 
 <br /><br />
 
 <div class='left'><img src="/src/images/Logos/GCC2014HackLogo200.png" alt="GCC2014 Hackathon" width="200" /></div>
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
+{{> Events/GCC2014/LinkBox }}
 
 
 
@@ -164,4 +164,4 @@ Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitt
 Mostly yes, but, there is a separate registration process, and a separate [organizing committee](/src/events/GCC2014/Organizers/index.md#hackathon-committee).  
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/Footer/index.md)
+{{> Events/GCC2014/Footer }}

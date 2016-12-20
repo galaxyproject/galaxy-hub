@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/Admin/Tools/LinkBox/index.md)
+{{> Admin/Tools/LinkBox }}
 # How to Publish Your Tool in the Galaxy Tool Shed
 
 # Quick Start

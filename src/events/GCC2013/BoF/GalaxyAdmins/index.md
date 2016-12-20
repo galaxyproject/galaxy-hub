@@ -1,13 +1,13 @@
 ---
 title: [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) BoF
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/Header/index.md)
+{{> Events/GCC2013/Header }}
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/LinkBox/index.md)
-PLACEHOLDER_INCLUDE(/src/events/GCC2013/BoF/LinkBox/index.md)
-PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/LinkBox/index.md)
+{{> Events/GCC2013/LinkBox }}
+{{> Events/GCC2013/BoF/LinkBox }}
+{{> Community/GalaxyAdmins/LinkBox }}
 
 <div class='left'><a href='/src/events/GCC2013/BoF/index.md'><img src="/src/images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a><br />
 <a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>

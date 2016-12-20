@@ -2,13 +2,13 @@
 autotoc: true
 title: Abstracts
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
+{{> Events/GCC2014/Header }}
 
 <br /><br />
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
+{{> Events/GCC2014/LinkBox }}
 
 
 <br /><br />

@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
+{{> Develop/LinkBox }}
 
 # Getting Started with Galaxy Development
 
@@ -19,7 +19,7 @@ Once familiar with Galaxy, every developer should write at least one Galaxy tool
 
 For those particularly interested in tool development the following section provides many more resources to read through and opportunities for contribution.
 
-PLACEHOLDER_INCLUDE(/src/Develop/ResourcesTools/index.md)
+{{> Develop/ResourcesTools }}
 
 ## Using the API
 

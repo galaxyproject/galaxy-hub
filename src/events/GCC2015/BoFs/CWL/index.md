@@ -1,7 +1,7 @@
 ---
 title: [Common Workflow Language](http://common-workflow-language.github.io)
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2015/Header/index.md)
+{{> Events/GCC2015/Header }}
 
 
 

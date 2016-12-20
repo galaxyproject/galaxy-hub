@@ -1,5 +1,5 @@
-PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md)
-PLACEHOLDER_INCLUDE(/src/Admin/Config/Performance/LinkBox/index.md)
+{{> Admin/LinkBox }}
+{{> Admin/Config/Performance/LinkBox }}
 # Galaxy Configuration
 
 Hub page for Galaxy configuration.

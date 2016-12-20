@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
+{{> Develop/LinkBox }}
 Application level logging is stored to the database in the table "event". 
 
 This table contains 6 fields:

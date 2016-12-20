@@ -734,7 +734,7 @@ In `universe_wsgi.ini`, set the following:
 
 * `start_job_runners = drmaa` - Start the [DRMAA](http://www.drmaa.org) job runner. 
 * `default_cluster_job_runner = drmaa:///` - By default, run jobs on the cluster.
-* Comment out the `local:///} tool overrides in the {{{[galaxy:tool_runners]` section.
+* Comment out the `local:///` tool overrides in the `[galaxy:tool_runners]` section.
 
 Once saved, continue with:
 

@@ -1,11 +1,11 @@
 ---
 title: Organizers
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
+{{> Events/GCC2014/Header }}
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
+{{> Events/GCC2014/LinkBox }}
 
 ## Organizing Committee
 
@@ -54,4 +54,4 @@ The GCC2014 Hackathon Organizing Committee is responsible for making the [accomp
 
 The Hackathon Organizing Committee can [be reached via email](mailto:gcc2014 DASH hack DASH org AT groups DOT galaxyproject DOT org).
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/Footer/index.md)
+{{> Events/GCC2014/Footer }}

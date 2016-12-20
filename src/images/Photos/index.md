@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/images/LinkBox/index.md)
+{{> Images/LinkBox }}
 
 Common place to store photographs that don't belong elsewhere.
 

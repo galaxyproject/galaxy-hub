@@ -1,7 +1,7 @@
 ---
 autotoc: true
 ---
-PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
+{{> Learn/LinkBox }}
 
 Help on using Galaxy that is specific to particular browsers, operating systems, and/or hardware.  This includes specific tricks and workarounds, as well as known issues.
 

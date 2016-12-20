@@ -2,11 +2,11 @@
 autotoc: true
 title: Galaxy Training: Resources
 ---
-PLACEHOLDER_INCLUDE(/src/Teach/Header/index.md)
+{{> Teach/Header }}
 
 
 
-PLACEHOLDER_INCLUDE(/src/Teach/LinkBox/index.md)
+{{> Teach/LinkBox }}
 
 There are many resources available that are helpful for teaching Galaxy.  This page attempts to summarize them in one location.  This page links to workshop materials for different topics.  That material can be in this wiki, inside Galaxy instances, or anywhere on the web.
 

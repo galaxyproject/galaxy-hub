@@ -28,10 +28,38 @@ clear_collections = (files, metalsmith, done) ->
         delete metadata.collections
     done()
 
-replacement_data = require("./src/includes.json")
+fs = require('fs')
+path = require('path')
+
+hb_partials = require("handlebars")
+
+partials_from_dir = (source, dir) ->
+    for i, p_f of fs.readdirSync source
+        p_path = path.join(source, p_f)
+        stats = fs.statSync(p_path)
+        if stats.isDirectory()
+            partials_from_dir(p_path, dir)
+        else
+            contents = fs.readFileSync(p_path, 'utf8')
+            p_path = p_path.replace("partials/", "").replace(".html", "")
+            dir[p_path] = contents
+            hb_partials.registerPartial(p_path, contents)
+partials = {}
+partials_from_dir('partials', partials)
+
 md_link_pattern = /\[([^\]]*)\]\(([^\)]*)\)/g
 html_link_pattern = /href=[\'"]?([^\'" >]+)[\'"]/g
 html_img_pattern = /src=[\'"]\/src?([^\'" >]+)[\'"]/g
+
+handlebars_partial_handling = (files, metalsmith, done) ->
+    for file, c of files
+        do (file, c) ->
+            if file.endsWith('.md')
+                contents = files[file].contents.toString()
+                template = hb_partials.compile(contents)
+                contents = template({})
+                files[file].contents = contents
+    done()
 
 subs = (files, metalsmith, done) ->
     # Quick hack to temporarily handle INCLUDE migration
@@ -44,10 +72,6 @@ subs = (files, metalsmith, done) ->
         do (file, c) ->
             if file.endsWith('.md')
                 contents = files[file].contents.toString()
-                for z in replacement_data.subs
-                    r = "PLACEHOLDER_INCLUDE("+z.search+")"
-                    if contents.indexOf(r) != -1
-                        contents = contents.replace(r, z.replace)
                 matches = []
                 matches.push(match) while match = md_link_pattern.exec(contents)
                 for match in matches
@@ -80,7 +104,6 @@ subs = (files, metalsmith, done) ->
     done()
 
 ms = metalsmith(__dirname)
-    .use subs
     .use require('metalsmith-metadata')
         menu: "config/menu.yaml"
     .use require('metalsmith-collections')
@@ -97,6 +120,8 @@ ms = metalsmith(__dirname)
             sortBy: "date"
             reverse: true
     .use link_to_orig_path
+    .use handlebars_partial_handling
+    .use subs
     .use require('metalsmith-markdown')
         gfm: true
     .use require('metalsmith-autotoc')
@@ -107,7 +132,7 @@ ms = metalsmith(__dirname)
         permalinks: true
     .use require('metalsmith-layouts')
         engine: "pug"
-        default: "default.pug",
+        default: "default.pug"
         pattern: "**/*.html"
         helpers:
             moment: require('moment')

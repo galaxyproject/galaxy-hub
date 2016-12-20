@@ -6,7 +6,7 @@ title: [GalaxyAdmins](/src/GalaxyAdmins/index.md) Future Directions
 
 
 
-PLACEHOLDER_INCLUDE(/src/Community/GalaxyAdmins/Future/LinkBox/index.md)
+{{> Community/GalaxyAdmins/LinkBox }}
 
 
 

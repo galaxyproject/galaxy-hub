@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/Cloud/Jetstream/LinkBox/index.md)
+{{> Cloud/Jetstream/LinkBox }}
 
 For the time being, it is necessary for each Jetstream user to request a new resource allocation or be added to someone's allocation. This page covers the process of getting an XSEDE *Startup* type of allocation. You will need an XSEDE account before you can proceed (visit https://www.xsede.org/ to create one).
 

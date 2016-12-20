@@ -1,7 +1,7 @@
 ---
 title: Data Security in Galaxy
 ---
-PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
+{{> Learn/LinkBox }}
 
 
 Galaxy provides an interface for users and administrators to make data private.  The security model allows permissions to be set on a fine-grained level, from one or two users to entire collaborative groups.

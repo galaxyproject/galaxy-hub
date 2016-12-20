@@ -2,8 +2,8 @@
 autotoc: true
 title: [Frequently Asked Questions](/src/FAQs/index.md) for Using Galaxy
 ---
-PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
-PLACEHOLDER_INCLUDE(/src/FAQs/LinkBox/index.md)
+{{> Learn/LinkBox }}
+{{> FAQs/LinkBox }}
 
 
 Questions that apply to using most Galaxy instances.  See [Main/FAQ](/src/Main/FAQ/index.md) for questions that are specifically about using [Main](/src/Main/index.md), Galaxy's free public server.  See [Admin/FAQ](/src/Admin/FAQ/index.md) for questions about [administering](/src/Admin/index.md) Galaxy.

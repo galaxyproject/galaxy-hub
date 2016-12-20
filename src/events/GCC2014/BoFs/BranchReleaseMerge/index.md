@@ -1,7 +1,7 @@
 ---
 title: Doing the Branch, Release, and Merge Waltz
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
+{{> Events/GCC2014/Header }}
 
 
 
@@ -15,7 +15,7 @@ PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
  Contact:: [Nikolay Aleksandrov Vazov](http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html)
 </div>
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
+{{> Events/GCC2014/LinkBox }}
 
 <div class='left'><a href='/src/events/GCC2014/BoFs/index.md'><img src="/src/images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
 

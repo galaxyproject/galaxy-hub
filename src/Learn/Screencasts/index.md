@@ -4,7 +4,7 @@ title: Galaxy Screencasts and Demos
 ---
 
 
-PLACEHOLDER_INCLUDE(/src/Learn/LinkBox/index.md)
+{{> Learn/LinkBox }}
 <div class='left'></div>
 
 Screencasts are one of several ways to **[learn](/src/Learn/index.md)** how to use Galaxy.  These video tutorials cover many aspects of Galaxy, from simple tasks like uploading data, to complex analysis.

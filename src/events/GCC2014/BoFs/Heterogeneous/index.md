@@ -1,7 +1,7 @@
 ---
 title: Using Galaxy with Heterogeneous and Remote Resources
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
+{{> Events/GCC2014/Header }}
 
 
 
@@ -14,7 +14,7 @@ PLACEHOLDER_INCLUDE(/src/events/GCC2014/Header/index.md)
  Contact:: [Philip Blood](mailto:blood AT psc DOT edu), [John Chilton](/src/JohnChilton/index.md), [Nate Coraor](/src/nate/index.md), Carrie Ganote
 </div>
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2014/LinkBox/index.md)
+{{> Events/GCC2014/LinkBox }}
 
 <div class='left'><a href='/src/events/GCC2014/BoFs/index.md'><img src="/src/images/Logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
 

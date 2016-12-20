@@ -2,8 +2,8 @@
 autotoc: true
 title: Frequently Asked Questions for Galaxy Administration
 ---
-PLACEHOLDER_INCLUDE(/src/Admin/LinkBox/index.md) 
-PLACEHOLDER_INCLUDE(/src/FAQs/LinkBox/index.md)
+{{> Admin/LinkBox }} 
+{{> FAQs/LinkBox }}
 
 
 See [Learn/FAQ](/src/Learn/FAQ/index.md) for questions about using any Galaxy instance, and [Main/FAQ](/src/Main/FAQ/index.md) for questions specifically about using Galaxy's free public server [Main](/src/Main/index.md).

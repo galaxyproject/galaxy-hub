@@ -1,4 +1,4 @@
-PLACEHOLDER_INCLUDE(/src/Admin/Tools/LinkBox/index.md)
+{{> Admin/Tools/LinkBox }}
 <div class='right'> <a href='/src/ToolShed/index.md'><img src="/src/images/Logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a> 
 </div>
 

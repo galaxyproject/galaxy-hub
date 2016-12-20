@@ -1,6 +1,6 @@
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/PageHeader/index.md)
+{{> Events/GCC2012/PageHeader }}
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/LinkBox/index.md)
+{{> Events/GCC2012/LinkBox }}
 
 Please help get the word out about the [2012 Galaxy Community Conference (GCC2012)](/src/events/GCC2012/Promotion//index.md).  A [flier](/src/events/GCC2012/Promotion/index.md#flier) suitable for printing is below, as well as several different sizes of the conference banner that can be used on the web.
 

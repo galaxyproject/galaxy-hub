@@ -1,7 +1,7 @@
 ---
 title: Galaxy Admin Training Registration
 ---
-PLACEHOLDER_INCLUDE(/src/events/AdminTraining2016/Header/index.md)
+{{> Events/AdminTraining2016/Header }}
 
 <br />
 <div class='center'>
@@ -13,7 +13,7 @@ PLACEHOLDER_INCLUDE(/src/events/AdminTraining2016/Header/index.md)
 
 </div>
 
-<div class='right'><br />PLACEHOLDER_INCLUDE(/src/events/AdminTraining2016/LinkBox/index.md)</div>
+<div class='right'><br />{{> Events/AdminTraining2016/LinkBox }}</div>
 
 
 
@@ -82,4 +82,4 @@ Registration is through [EventBrite](https://galaxyadmin2016.eventbrite.com).
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/AdminTraining2016/Registration/Footer/index.md)
+{{> Events/AdminTraining2016/Footer }}

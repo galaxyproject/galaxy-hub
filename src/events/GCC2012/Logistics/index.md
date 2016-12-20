@@ -1,11 +1,11 @@
 ---
 title: Logistics
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/PageHeader/index.md)
+{{> Events/GCC2012/PageHeader }}
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/Logistics/LinkBox/index.md)
+{{> Events/GCC2012/LinkBox }}
 
 Details on conference [location](/src/events/GCC2012/Logistics/index.md#venue), [lodging](/src/events/GCC2012/Logistics/index.md#lodging), and [transportation](/src/events/GCC2012/Logistics/index.md#getting-there) are listed here.
 
@@ -100,4 +100,4 @@ The conference dinner was on July 25. The cost is included in registration. Gues
 
 If you need a visa to travel to the United States for the conference, please contact [Galaxy Outreach](mailto:outreach@galaxyproject.org?subject=GCC%202012%20Visa) **as soon as possible.**
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/Logistics/Ask the Organizers/index.md)
+{{> Events/GCC2012/AsktheOrganizers }}

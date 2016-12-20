@@ -57,7 +57,7 @@
 [Galaxy @ PAG 2012](/src/news/Galaxy @ PAG 2012/index.md)<br />
 </div>
 
-PLACEHOLDER_INCLUDE(/src/news/Archive/LinkBox/index.md)
+{{> News/Archive/LinkBox }}
 
 # 2012 News Item Archive
 

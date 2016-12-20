@@ -2,13 +2,13 @@
 autotoc: true
 title: Galaxy API and Extending it; Workflow Enhancements
 ---
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/Program/PageHeader/index.md)
+{{> Events/GCC2012/PageHeader }}
 
 
 
 **A [GCC22012](/src/events/GCC2012/index.md) [Breakout Session](/src/events/GCC2012/Program/Breakouts/index.md)**
 
-PLACEHOLDER_INCLUDE(/src/events/GCC2012/Program/LinkBox/index.md) <div class='right'></div>
+{{> Events/GCC2012/LinkBox }} <div class='right'></div>
 
 # Participants
 

@@ -1,11 +1,11 @@
 ---
 title:  3rd Swiss Galaxy Workshop, Thursday, October 20th, Freiburg (Germany) 
 ---
-PLACEHOLDER_INCLUDE(/src/events/SG2016/Header/index.md)
+{{> Events/SG2016/Header }}
 
 
 
-PLACEHOLDER_INCLUDE(/src/events/SG2016/LinkBox/index.md)
+{{> Events/SG2016/LinkBox }}
 
 After the big success of the [first Swiss Galaxy Workshop](/src/events/Switzerland2012/index.md) and the [second Swiss Galaxy Workshop](/src/events/Switzerland2014/index.md), we are going to organize a similar event again in fall 2016.
 

@@ -1,7 +1,7 @@
 ---
 title:  Javascript Architecture and Development Practices
 ---
-PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
+{{> Develop/LinkBox }}
 
 
 # How to modify & build JS

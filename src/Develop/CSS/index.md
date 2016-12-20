@@ -1,7 +1,7 @@
 ---
 title:  CSS Practices 
 ---
-PLACEHOLDER_INCLUDE(/src/Develop/LinkBox/index.md)
+{{> Develop/LinkBox }}
 
 
 We write styles in [LESS](http://lesscss.org/) and use Bootstrap CSS library as a cornerstone of all the styles. To build the LESS file into the css files please read the `static/style/README` included with the distribution.

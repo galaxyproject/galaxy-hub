@@ -1,7 +1,7 @@
 ---
 title: Bitbucket repositories
 ---
-PLACEHOLDER_INCLUDE(/Develop/LinkBox)
+{{> Develop/LinkBox }}
 
 
 Galaxy Team maintains two main repositories of Galaxy for different purposes:
