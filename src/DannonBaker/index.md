@@ -6,14 +6,6 @@ Dannon is a software engineer in the [Taylor Lab](http://taylorlab.org/) at [Joh
 
 ## Contact
 
-```html
-<div>This is my embedded stuff!</div>
-<p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0ZutRhiFmHM" frameborder="0" allowfullscreen></iframe>
-</p>
-```
-
-
 <table>
   <tr>
     <th> Email </th>
