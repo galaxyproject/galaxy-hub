@@ -194,6 +194,23 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *Sponsor(s):*
   * [Galaxy Project](/src/GalaxyProject/index.md)
 
+## Galaxy@Pasteur
+
+<div class='right solid'><a href='https://galaxy.pasteur.fr/'><img src="/src/PublicGalaxyServers/Pasteur300.png" alt="Galaxy@Pasteur" width="300" /></a></div>
+
+* *Link:*
+  * [Galaxy@Pasteur](https://galaxy.pasteur.fr/)
+* *Domain/Purpose:*
+  * General purpose genomics analysis server.
+* *Comments:*
+* *User Support:*
+  * [Email Support](mailto:galaxy@pasteur.fr)
+  * Instructions on how to import big data ([French](https://galaxy.pasteur.fr/static/images/GalaxyPasteur_data_fr.pdf), [English](https://galaxy.pasteur.fr/static/images/GalaxyPasteur_data_en.pdf)).
+* *Quotas:*
+  * Anonymous access is supported with a reduced quota; anyone can create an account.
+* *Sponsor(s):*
+  * [C3BI](https://c3bi.pasteur.fr/) Insitute Pasteur
+
 ## Galaxy Sigenae / BioInfo Genotoul
 
 <div class='right solid'><a href='http://sigenae-workbench.toulouse.inra.fr/'><img src="/src/PublicGalaxyServers/GalaxySigenae.png" alt="Galaxy Sigenae / BioInfo Genotoul" width="300" /></a></div>
