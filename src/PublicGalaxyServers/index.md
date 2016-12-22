@@ -649,7 +649,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 
 <div class='right solid'><a href='https://sites.google.com/a/irri.org/iric/resources/iric-data-portal '><img src="/src/PublicGalaxyServers/IRRI.png" alt="IRRI Galaxy"  /></a></div>
 * *Links:*
-  * [IRRI Galaxy](http://175.41.147.71:8080/) part of the [IRIC Data and Analysis Portal](https://sites.google.com/a/irri.org/iric/resources/iric-data-portal)
+  * [IRRI Galaxy](http://galaxy.irri.org/) part of the [IRIC Data and Analysis Portal](https://sites.google.com/a/irri.org/iric/resources/iric-data-portal)
 * *Domain/Purpose:*
   * Bioinformatics workbench, with rice-specific data (i.e. genomes) and tools (mostly specialized for the [IRRI Genotyping Service Laboratory](http://gsl.irri.org/)) installed.
 * *Comments:*
