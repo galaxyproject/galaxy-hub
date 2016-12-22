@@ -205,7 +205,6 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *Comments:*
 * *User Support:*
   * [Email Support](mailto:galaxy@pasteur.fr)
-  * Instructions on how to import big data ([French](https://galaxy.pasteur.fr/static/images/GalaxyPasteur_data_fr.pdf), [English](https://galaxy.pasteur.fr/static/images/GalaxyPasteur_data_en.pdf)).
 * *Quotas:*
   * Anonymous access is supported with a reduced quota; anyone can create an account.
 * *Sponsor(s):*
