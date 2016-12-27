@@ -112,8 +112,6 @@ These servers implement a broad range of tools and and aren't specific to any pa
   * All tools are also available in the Tool Shed.
   * See [FuMa: reporting overlap in RNA-seq detected fusion genes](http://bioinformatics.oxfordjournals.org/content/early/2015/12/09/bioinformatics.btv721.abstract), by Youri Hoogstrate, René Böttcher, Saskia Hiltemann, Peter van der Spek, Guido Jenster and Andrew P Stubbs, *Bioinformatics* (2015) doi: 10.1093/bioinformatics/btv721
 * *User Support:*
-
-   *
 * *Quotas:*
   * "This Galaxy instance may be used without registration, but guests' histories are deleted nightly. To request an account, please [contact](mailto:a.stubbs@erasmusmc.nl) the Bioinformatics department."
 * *Sponsor(s):*
@@ -414,7 +412,6 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Links:*
   * [Center for Phage Technology (CPT) Galaxy Server](https://cpt.tamu.edu/galaxy-pub/)
   * [Center for Phage Technology (CPT) home page](https://cpt.tamu.edu/)
-
 * *Domain/Purpose:*
   * Phage biology and automated annotation.
 * *Comments:*
@@ -458,7 +455,6 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *User Support:*
   * [Visual Manual](http://intersci.ss.uci.edu/wiki/index.php/Visual_Manual)
 * *Quotas:*
-
 * *Sponsor(s):*
   * [InterSci: Hosted by the Institute for Mathematical Behavioral Science](http://intersci.ss.uci.edu/)
 
@@ -475,7 +471,6 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * "The Galaxy server has been set up to facilitate access to our **`Dintor`** tools by biologists with little background in bioinformatics. A second, expert mode of invocation is given by command line access to the tool suite, which can be downloaded"
   * [Admin and deployment documentation is available](http://dintor.eurac.edu/doc/doc/index.html).
   * [Dintor: functional annotation of genomic and proteomic data](http://bit.ly/1OzzTvY), Christian X. Weichenberger, Hagen Blankenburg, Antonia Palermo, Yuri D’Elia, Eva König, Erik Bernstein and Francisco S. Domingues, *BMC Genomics* 201516:1081 DOI: 10.1186/s12864-015-2279-5
-
 * *User Support:*
   * [Tutorials](http://dintor.eurac.edu/static/tutorial.html)
   * In addition to help on each of the Galaxy Tool pages, there is [additional help for each Dintor tool here](http://dintor.eurac.edu/doc/doc/tools.html).
@@ -493,7 +488,6 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Domain/Purpose:*
   * Galaxy-CEFAP offers a set of tools to perform RNA-Seq and miRNA analysis.
 * *Comments:*
-
 * *User Support:*
   * [Email](mailto:geninfo AT icb DOT usp DOT br)
   * [FTP tutorial](http://cefap.icb.usp.br/galaxy/etc/galaxy/web/welcome_upload_ftp.pdf)
@@ -541,7 +535,6 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * As of 2013/08:
       Pending imminent hardware upgrades, usegalaxyp.org is running with fairly limited computational resources and on disk that is not backed up. Galaxy-P is under active development - things will break and things will change, so your patience is requested.
   * [Publications using Galaxy-P](http://z.umn.edu/galaxypreferences)
-
 * *User Support:*
   * [MSI Email Support](mailto:help@msi.umn.edu)
   * We have created a [publicly-available Google Group](http://z.umn.edu/galaxypgroup) to facilitate questions, feedback and suggestions for Galaxy-P from both users and developers.  Please [request to join the group](http://z.umn.edu/galaxypgroup) to stay updated and be involved.
@@ -603,6 +596,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 ## Image Analysis and Processing Toolkit
 
 <div class='right solid'><a href='http://cloudimaging.net.au/'><img src="/src/PublicGalaxyServers/ImageAnalysisToolkit.png" alt="Image Analysis and Processing ToolKit"  /></a></div>
+
 * *Links:*
   * [Image Analysis and Processing Toolkit Server](http://cloudimaging.net.au/)
   * [Project blog](http://cloudimaging.blogspot.com.au/)
@@ -621,6 +615,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 ## ImmPort Galaxy
 
 <div class='right solid'><a href='http://immportgalaxy.org/'><img src="/src/PublicGalaxyServers/ImmPort.png" alt="ImmPort Galaxy" width="300" /></a></div>
+
 * *Links:*
   * [ImmPort Galaxy](http://immportgalaxy.org/)
 * *Domain/Purpose:*
@@ -629,7 +624,6 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * [ImmPort Galaxy](http://immportgalaxy.org/) hosts [ImmPort](http://www.immport.org/)'s flow analysis tools.
   * See [FlowGalaxy: Developing a workflow for Flow Cytometry Analysis in Galaxy](http://sched.co/745G), presented by [Cristel Thomas](http://twitter.com/crstlthms) at [GCC2016](https://gcc16.sched.org/).
   * [ImmPort on Twitter](http://twitter.com/ImmPort)
-
 * *User Support:*
   * [Help page](http://immportgalaxy.org/static/immportgalaxyhelp.html)
   * [Videos](https://www.youtube.com/channel/UC8lQSx1Z7sMFm07wfqI-_kA)
@@ -647,6 +641,7 @@ Domain servers specialize in either a particular branch of the tree of life or i
 ## International Rice Research Institute (IRRI) Galaxy
 
 <div class='right solid'><a href='https://sites.google.com/a/irri.org/iric/resources/iric-data-portal '><img src="/src/PublicGalaxyServers/IRRI.png" alt="IRRI Galaxy"  /></a></div>
+
 * *Links:*
   * [IRRI Galaxy](http://galaxy.irri.org/) part of the [IRIC Data and Analysis Portal](https://sites.google.com/a/irri.org/iric/resources/iric-data-portal)
 * *Domain/Purpose:*
@@ -655,20 +650,16 @@ Domain servers specialize in either a particular branch of the tree of life or i
   * See
     * "The IRRI Genotyping Service Laboratory Galaxy: Bioinformatics for Rice Scientists" ([PDF](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/ICG2013MauleonIRRI.pdf), [SlideShare](http://www.slideshare.net/GigaScience/ramil-mauleon-galaxy-bioinformatics-for-rice-scientists)) presented by [Ramil Mauleon](http://www.icg-8.org/navigation/show_navigation?nid=10507), at [The 8th International Conference on Genomics (ICG-8)](http://www.icg-8.org/),  Shenzhen, China
 * *User Support:*
-
-   *
 * *Quotas:*
-
-   *
 * *Sponsor(s):*
   * [International Rice Research Institute (IRRI)](http://irri.org/)
 
 ## LAPPS Grid
 
 <div class='right solid'><a href='http://galaxy.lappsgrid.org/'><img src="/src/PublicGalaxyServers/LAPPSGrid.png" alt="LAPPS Grid Galaxy Workflow Engine"  /></a></div>
+
 * *Links:*
   * [LAPPS Grid Galaxy Workflow Engine](http://galaxy.lappsgrid.org/), part of the [Language Application Grid](http://www.lappsgrid.org/)
-
 * *Domain/Purpose:*
   * "An open, interoperable web service platform for natural language processing (NLP) research and development. The LAPPS Grid provides facilities to select from hundreds of NLP tools to create workflows, composite services, and applications, and to evaluate, reproduce, and share them with others."
 * *Comments:*
@@ -698,8 +689,6 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *User Support:*
   * Contact [Christophe Antoniewski](mailto:christophe.antoniewski@upmc.fr)
 * *Quotas:*
-
-    *
 * *Sponsor(s):*
   * The ARTbio bioinformatics facility of the  [Institut de Biologie Paris Seine](http://www.ibps.upmc.fr/en) based at the [University Pierre & Marie Curie](http://www.upmc.fr/en/index.html).
 
@@ -798,7 +787,6 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *User Support:*
   * [Contacts](http://mpds.osdd.net/galaxy/static/contact.htm)
 * *Quotas:*
-
 * *Sponsor(s):*
   * Developed under the broad initiative of [OSDD (Open Source Drug Discovery)](http://www.osdd.net/) of [CSIR (Council of Scientific and Industrial Research, Govt. of India)](http://www.csir.res.in/home.asp). The site is being hosted from [IICT](http://www.iictindia.org/), Hyderabad, India.
 
@@ -958,7 +946,6 @@ Domain servers specialize in either a particular branch of the tree of life or i
 * *Comments:*
   * from [VirAmp: a galaxy-based viral genome assembly pipeline](http://www.gigasciencejournal.com/content/4/1/19), Yinan Wan, Daniel W Renner, Istvan Albert and Moriah L Szpara, *[GigaScience](http://www.gigasciencejournal.com/)* 2015, 4:19  doi:10.1186/s13742-015-0060-y
       [VirAmp](http://viramp.com/) "combines existing tools and techniques and presents them to end users via a web-enabled Galaxy interface. Our pipeline allows users to assemble, analyze, and interpret high coverage viral sequencing data with an ease and efficiency that was not possible previously. Our software makes a large number of genome assembly and related tools available to life scientists and automates the currently recommended best practices into a single, easy to use interface. We tested our pipeline with three different datasets from human herpes simplex virus (HSV)."
-
 * *User Support:*
   * [Documentation](http://docs.viramp.com/en/latest/)
 * *Quotas:*
@@ -1072,8 +1059,6 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
 * *User Support:*
   * Please email questions and suggestions to [Liangjiao Xue](mailto:lxue AT uga DOT edu).
 * *Quotas:*
-
-   *
 * *Sponsor(s):*
   * [Tsai Lab](http://aspendb.uga.edu/), [Warnell School of Forestry and Natural Resources](http://warnell.uga.edu/) and [Department of Genetics](http://www.genetics.uga.edu/), University of Georgia.
 
@@ -1094,8 +1079,6 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
 * *User Support:*
   * [Quick Start guide](http://apostl.moffitt.org/)
 * *Quotas:*
-
-   *
 * *Sponsor(s):*
   * APOSTL support is provided by the [Haura](http://labpages2.moffitt.org/haura) and [Rix](https://moffitt.org/research-science/researchers/uwe-rix/) labs at the [Moffitt Cancer Center](https://moffitt.org/):
     * [Adam Borne](mailto:bornea27@gmail.com)
@@ -1153,10 +1136,8 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
   * See [BioMaS: a modular pipeline for Bioinformatic analysis of Metagenomic AmpliconS](http://bit.ly/1LOk2G2) by Bruno Fosso, Monica Santamaria, Marinella Marzano, Daniel Alonso-Alemany, Gabriel Valiente, Giacinto Donvito, Alfonso Monaco, Pasquale Notarangelo and Graziano Pesole, *BMC Bioinformatics* 2015, 16:203  doi:10.1186/s12859-015-0595-z
 * *User Support:*
   * Please email questions and suggestions to [Bruno Fosso](mailto:bruno DOT fosso AT gmail.com) and/or to [Giacinto Donvito](mailto:giacinto DOT donvito AT ba.infn.it).
-
 * *Quotas:*
   * Requires an account. Interested users may ask for the creation of a BioMaS account sending a request to recas@lists.ba.infn.it.
-
 * *Sponsor(s):*
   * [Istituto Nazionale di Fisica Nucleare](http://www.infn.it/)
 
@@ -1415,7 +1396,6 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
   * Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing data.
 * *Comments:*
   * ExomeAI is a free web-based application for detection of recurrent AI/LOH segments in Tumor samples.
-
 * *User Support:*
   * [Manual](http://bioinformatics.oxfordjournals.org/content/suppl/2014/10/07/btu665.DC1/suppl_data.zip)
   * Email Support: [Javad Nadaf](mailto:Javad DOT Nadaf AT gmail DOT com)
@@ -1519,7 +1499,6 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
   * Supporting papers:
     * "[MIRPIPE – quantification of microRNAs in niche model organisms](http://bit.ly/1t4oQvo),"  C. Kuenne, J. Preussner, M. Herzog, T. Braun, M. Looso, *Bioinformatics* (26 August 2014), btu573, doi:10.1093/bioinformatics/btu573
     * "[ADMIRE: analysis and visualization of differential methylation in genomic regions using the Infinium HumanMethylation450 Assay](http://www.epigeneticsandchromatin.com/content/8/1/51)," Jens Preussner, Julia Bayer, Carsten Kuenne and Mario Looso, *Epigenetics & Chromatin* 2015, 8:51  doi:10.1186/s13072-015-0045-1
-
 * *User Support:*
   * [MIRPIPE Manual](https://bioinformatics.mpi-bn.mpg.de/static/mirpipe_manual.pdf)
   * [ADMIRE Documentation](http://admire.readthedocs.org/en/latest/)
@@ -1591,7 +1570,6 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
 
 * *Links:*
   * [Galaxy Palfinder Service](https://palfinder.ls.manchester.ac.uk/)
-
 * *Domain/Purpose*
   * Microsatellite development.
 * *Comments:*
