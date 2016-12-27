@@ -1044,10 +1044,10 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
 
 ## AGEseq @ AspenDB
 
-<div class='right solid'><a href='http://aspendb.uga.edu/ageseq'><img src="/src/PublicGalaxyServers/AspenDB300.png" alt="AGEseq Galaxy @ AspenDB" width="300" /></a></div>
+<div class='right solid'><a href='http://aspendb.uga.edu:8085/'><img src="/src/PublicGalaxyServers/AspenDB300.png" alt="AGEseq Galaxy @ AspenDB" width="300" /></a></div>
 
 * *Link:*
-  * [AGEseq Galaxy @ AspenDB](http://aspendb.uga.edu/ageseq)
+  * [AGEseq Galaxy @ AspenDB](http://aspendb.uga.edu:8085/)
 * *Domain/Purpose:*
   * This site provides a user-friendly interface for AGEseq (Analysis of Genome Editing by Sequencing) in a Galaxy instance.
 * *Comments:*
