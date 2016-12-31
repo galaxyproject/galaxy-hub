@@ -1,7 +1,7 @@
 doctype html
 
 mixin renderToc(items)
-    ul.toc
+    ul.nav.nav-stacked.fixed.toc
         each toc_item in items
             li
                 a( href="#"+toc_item.id ) #{toc_item.text}
@@ -19,7 +19,6 @@ head( lang="en" )
 
     link( rel="stylesheet" type="text/css" href="/css/styles.css" )
     link( rel="stylesheet" type="text/css" href="/css/font-awesome.css" )
-    link( rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=EB+Garamond" )
 
     script( src="http://localhost:35729/livereload.js" )
     script( type='text/javascript' ).
@@ -30,27 +29,16 @@ head( lang="en" )
 
 body
 
-    header#logonav: div.container: div.row
-        div.col-sm-4.text-center: div.logo
-            a( href="/" ) The Galaxy Project: Online bioinformatics analysis for everyone
-        div.col-sm-8: a( href="/" )
-            h1
-                div Community Hub
-                small documenting all things Galaxy
-            div#edit_page
-                a( href="https://github.com/galaxyproject/galaxy-site/blob/master/src/"+orig_path )
-                    span.fa.fa-github
-                    span Edit on GitHub
-
-    //- Static navbar
-    div.container: div.row
-        div.col-md-12: nav#topnavbar( class="navbar navbar-default navbar-static-top" role="navigation" )
+    header.navbar.navbar-default.navbar-inverse.navbar-fixed-top( role="navigation" ): div.container: div.row
+        div.col-md-12
             div.navbar-header
                 button( type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" )
                     span.sr-only Toggle navigation
                     span.icon-bar
                     span.icon-bar
                     span.icon-bar
+                a.navbar-brand( href="/" )
+                  img( src="/images/galaxy_logo_hub_white.svg" width="116" alt="Galaxy Community Hub" )
             div.navbar-collapse.collapse
                 ul.nav.navbar-nav
                     each entry in menu
@@ -67,6 +55,13 @@ body
                                                a( href="/" + val.link + "/" ) #{val.title}
                         else
                             li: a( href="#") #{entry.title}
+
+                ul.nav.navbar-nav.navbar-right
+                    li
+                        a( href="https://github.com/dannon/test-galaxy-wiki/blob/master/src/"+orig_path )
+                            span.fa.fa-github
+                            span &nbsp; Edit on GitHub
+
                 // ul.nav.navbar-nav.navbar-right
                 //     li
                 //         form(class='navbar-form')
@@ -76,7 +71,8 @@ body
                 //                     button(class="btn btn-secondary" type="submit")
                 //                         span.fa.fa-search
 
-    div.container: div.row
+    div.container#maincontainer: div.row
+
         if toc
             div.col-md-9
                 block section
@@ -84,7 +80,7 @@ body
                         block content
                             div !{ contents }
             div.col-md-3
-                div#sidebar.navbar.nav.navbar-default
+                div#sidebar
                     +renderToc(toc)
         else
             div.col-md-12
@@ -93,9 +89,10 @@ body
                         block content
                             div !{ contents }
 
-    block footer
-        footer: div.container: div.row: div.col-md-12
-            p The Galaxy Project is supported in part by NSF, NHGRI, The Huck Institutes of the Life Sciences, The Institute for CyberScience at Penn State, and Johns Hopkins University.
+    footer.navbar-default.navbar-static-bottom
+        div.container: div.row: div.col-md-12
+            block footer:
+              p.navbar-text The Galaxy Project is supported in part by NSF, NHGRI, The Huck Institutes of the Life Sciences, The Institute for CyberScience at Penn State, and Johns Hopkins University.
 
     script( src="/js/jquery.min.js" )
     script( src="/js/bootstrap.min.js" )

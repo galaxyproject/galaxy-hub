@@ -1,16 +1,18 @@
 @import "bower_components/bootstrap/less/bootstrap.less";
 
-@font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
-@font-family-serif: Charter, Georgia, "Times New Roman", Times, serif;
+@font-family-sans-serif: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
 
-@headings-font-family: @font-family-serif;
+@headings-font-family: @font-family-sans-serif;
 @headings-font-weight: 300;
 
 @font-family-base: @font-family-sans-serif;
 
-@font-size-base: 16px;
-@line-height-base: 1.8;
-@headings-line-height: 1.4;
+@font-size-base: 14px;
+@line-height-base: 1.6;
+@headings-line-height: 1.6;
 
 @font-size-h1:            floor((@font-size-base * 1.8)); // ~36px
 @font-size-h2:            floor((@font-size-base * 1.6)); // ~30px
@@ -22,12 +24,22 @@
 @brand-primary: #336699;
 @headings-small-color: inherit;
 
-@body-bg: @gray-dark;
+@body-bg: white;
 @navbar-default-bg: rgb(255,255,255);
+@navbar-default-border:none;
+@navbar-padding-horizontal: 10px;
 
+@navbar-inverse-bg: rgb(44, 49, 67);
+
+@grid-float-breakpoint: 900px;
+
+html {
+    position: relative;
+    min-height: 100%;
+}
 
 body {
-    background: white;
+    margin-bottom: 60px;
 }
 
 aside {
@@ -39,47 +51,26 @@ a, a:hover {
     text-decoration: none;
 }
 
-#logonav {
-    background: rgb(44, 49, 67);
-    margin:0;
-
-    div.logo {
-        padding: 15px 15px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        z-index: 1005;
-
-        a {
-            display: block;
-            background: url('/images/galaxy_logo_white.svg') no-repeat top;
-            height:100px;
-            text-indent:100%;
-            white-space: nowrap;
-            overflow: hidden;
-        }
-    }
-
-    h1 {
-        color: white !important;
-        margin: 30px 0 0 0;
-        line-height: 1.1em;
-
-        span.small {
-            display: block;
-            line-height: 1em;
-        }
-    }
+.navbar-brand {
+    padding: 6px 15px;
 }
 
-#topnavbar.affix {
-    top: 0;
+.navbar-static-bottom {
+  @extend .navbar-fixed-bottom;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+#maincontainer {
+    background: white;
+    padding-top: 70px
 }
 
 #sidebar {
-    h4 {
-        padding-left: 5px;
-        padding-right: 5px;
+    .nav > li > a {
+        padding: 2px 15px
     }
 }
 
@@ -102,15 +93,7 @@ div.post {
 }
 
 footer {
-        font-size: 85%;
-        padding-top: 48px;
-        padding-bottom: 48px;
-        background: rgb(44, 49, 67);
-        text-align: center;
-        color: @gray-lighter;
-        a {
-            color: @gray-dark;
-        }
+    font-size: 85%;
 }
 
 /* Custom CSS for Galaxy wiki doc
@@ -135,7 +118,7 @@ table, th, td {
     border-width: 1px;
     border-style: solid;
     border-color: #dddddd;
-} 
+}
 
 th, td {
     padding: 0.2em;
@@ -278,9 +261,3 @@ div.logbox a:link, div.logbox a:visited {
 div.linkbox a:visited {
     color: #ddd;
 }
-
-
-
-
-
-
