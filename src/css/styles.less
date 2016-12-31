@@ -65,13 +65,17 @@ a, a:hover {
 
 #maincontainer {
     background: white;
-    padding-top: 70px
+    padding-top: 70px;
 }
 
 #sidebar {
-    .nav > li > a {
-        padding: 2px 15px
+    a {
+      padding: 2px 15px;
     }
+    & > ul > li > a { font-weight: bold; }
+    & > ul ul > li > a { padding-left: 30px; }
+    & > ul ul ul > li > a { padding-left: 45px; }
+    & > ul ul ul ul > li > a { padding-left: 60px; }
 }
 
 #edit_page {
