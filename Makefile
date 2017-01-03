@@ -1,3 +1,5 @@
+COFFEE=DEBUG=metalsmith-timer ./node_modules/coffee-script/bin/coffee
+
 npm-deps: ## Install NodeJS dependencies.
 	npm install
 
@@ -12,16 +14,16 @@ help:
 	@egrep '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
 build: npm-deps bower ## Builds into /build, suitable for copying to webserver.
-	./node_modules/coffee-script/bin/coffee build.coffee
+	$(COFFEE) build.coffee
 
 serve: npm-deps bower ## Serve locally for viewing
-	./node_modules/coffee-script/bin/coffee build.coffee --serve
+	$(COFFEE) build.coffee --serve
 
 watch: npm-deps bower ## will serve and attempt to reload files
-	./node_modules/coffee-script/bin/coffee build.coffee --watch
+	$(COFFEE) build.coffee --watch
 
 check: npm-deps bower ## checks for broken links
-	./node_modules/coffee-script/bin/coffee build.coffee --check
+	$(COFFEE) build.coffee --check
 
 docker-npm-deps:
 	docker run -v `pwd`:/usr/src/app -w /usr/src/app node npm install
