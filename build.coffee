@@ -103,6 +103,13 @@ subs = (files, metalsmith, done) ->
                 files[file].contents = contents
     done()
 
+# Extend `marked.Renderer` to increase all heading levels by 1 since we reserve
+# h1 for the page title. Will be passed to `metalsmith-markdown` plugin.
+marked = require("marked")
+class Renderer extends marked.Renderer
+    heading: ( text, level, raw ) =>
+        super( text, level + 1, raw )
+
 timer = require( "metalsmith-timer" )
 
 ms = metalsmith(__dirname)
@@ -131,6 +138,7 @@ ms = metalsmith(__dirname)
     .use timer 'subs'
     .use require('metalsmith-markdown')
         gfm: true
+        renderer: new Renderer()
     .use timer 'metalsmith-markdown'
     .use require('metalsmith-autotoc')
         selector: "h2, h3, h4"
