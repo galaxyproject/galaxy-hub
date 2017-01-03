@@ -103,9 +103,12 @@ subs = (files, metalsmith, done) ->
                 files[file].contents = contents
     done()
 
+timer = require( "metalsmith-timer" )
+
 ms = metalsmith(__dirname)
     .use require('metalsmith-metadata')
         menu: "config/menu.yaml"
+    .use timer 'metalsmith-metadata'
     .use require('metalsmith-collections')
         news:
             pattern: "news/*/*.md"
@@ -119,28 +122,41 @@ ms = metalsmith(__dirname)
             pattern: "publications/*/*.md"
             sortBy: "date"
             reverse: true
+    .use timer 'metalsmith-collections'
     .use link_to_orig_path
+    .use timer 'link_to_orig_path'
     .use handlebars_partial_handling
+    .use timer 'handlebars_partial_handling'
     .use subs
+    .use timer 'subs'
     .use require('metalsmith-markdown')
         gfm: true
+    .use timer 'metalsmith-markdown'
     .use require('metalsmith-autotoc')
         selector: "h2, h3, h4"
+    .use timer 'metalsmith-autotoc'
     .use require('metalsmith-alias')()
+    .use timer 'metalsmith-alias'
     .use require('metalsmith-filepath')
         absolute: true
         permalinks: true
+    .use timer 'metalsmith-filepath'
     .use require('metalsmith-layouts')
         engine: "pug"
+        cache: true
         default: "default.pug"
         pattern: "**/*.html"
         helpers:
             moment: require('moment')
             marked: require('marked')
             _: require('lodash')
+    .use timer 'metalsmith-layouts'
     .use require('metalsmith-less')()
+    .use timer 'metalsmith-less'
     .use bower
+    .use timer 'bower'
     .use require('metalsmith-uglify')()
+    .use timer 'metalsmith-uglify'
 
 argv = require('minimist')(process.argv.slice(2))
 
