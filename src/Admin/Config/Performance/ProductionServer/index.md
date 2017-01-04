@@ -31,9 +31,9 @@ Many of the following instructions are best practices for any production applica
 * Start with a fresh checkout of Galaxy, don't try to convert one previously used for development.  Download and install it in the galaxy user home directory.
 * Galaxy should be a managed system service (like Apache, mail servers, database servers, *etc.*) run by the galaxy user.  Init scripts, OS X launchd definitions and Solaris SMF manifests are provided in the `contrib/` directory of the distribution.  You can also use the `--daemon` and `--stop-daemon` arguments to `run.sh` to start and stop by hand, but still run detached.  When running as a daemon the server's output log will be written to `paster.log` instead of the terminal, unless instructed otherwise with the `--log-file` argument.
 * Give Galaxy its own database user and database to prevent Galaxy's schema from conflicting with other tables in your database.  Also, restrict Galaxy's database user so it only has access to its own database.
-* Make sure Galaxy is using a clean Python interpreter.  Conflicts in $PYTHONPATH or the interpreter's `site-packages/` directory could cause problems.  Galaxy manages its own dependencies for the framework, so you do not need to worry about these.  The easiest way to do this is with a [virtualenv](http://pypi.python.org/pypi/virtualenv):<br /><br />
-    ```
+* Make sure Galaxy is using a clean Python interpreter.  Conflicts in $PYTHONPATH or the interpreter's `site-packages/` directory could cause problems.  Galaxy manages its own dependencies for the framework, so you do not need to worry about these.  The easiest way to do this is with a [virtualenv](http://pypi.python.org/pypi/virtualenv):
 
+```
 nate@weyerbacher% wget http://bitbucket.org/ianb/virtualenv/raw/tip/virtualenv.py
 --11:18:05--  http://bitbucket.org/ianb/virtualenv/raw/tip/virtualenv.py
            => `virtualenv.py'
@@ -136,6 +136,7 @@ When datasets are deleted from a history or library, it is simply marked as dele
 ### Rotate log files
 
 To use logrotate to rotate Galaxy log files, add a new file named "galaxy" to /etc/logrotate.d/ directory with something like:
+
 ```
 PATH_TO_GALAXY_LOG_FILES {
   weekly
