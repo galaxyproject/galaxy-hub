@@ -15,14 +15,17 @@ You can contribute by simply editing the source page in question via the GitHub
 web editor. For most people, this will create a pull request that will
 then get reviewed and merged. After the merge, the content will be live on the
 website within a few minutes. Alternatively, you can edit the file locally
-(see below).
+(see below). Note that if you're wanting to add a new directory to the file
+structure, you will need to clone the site locally.
 
 ## Installing the site locally
 
-To edit and run the site locally, start by creating a fork of this
-repository. Before you clone your fork locally, make sure to
-[install git-lfs](https://packagecloud.io/github/git-lfs/install) because
-that's what we use for [managing images](#handling-of-images).
+To edit and run the site locally, start by creating a fork of this repository.
+Before you clone your fork locally, make sure to [install git-
+lfs](https://packagecloud.io/github/git-lfs/install) because that's what we use
+for [managing images](#handling-of-images). Also, when cloning the site, use
+authenticated URL (ie,  `git@github.com:galaxyproject/galaxy-hub.git`) because
+otherwise you will get _API rate limit exceeded_ error.
 
 Once cloned, to build the website (into the `build` directory), run:
 
