@@ -22,9 +22,15 @@ head( lang="en" )
 
     script( src="http://localhost:35729/livereload.js" )
     script( type='text/javascript' ).
+        // Gitter integrated #galaxyproject chat.
         window.gitter = {}
         window.gitter.chat = {}
         window.gitter.chat.options = { room: 'galaxyproject/Lobby' }
+        // This handles correct positioning when using location hashes.
+        var shiftWindow = function() { scrollBy(0, -70) };
+        if (location.hash) shiftWindow();
+        window.addEventListener("hashchange", shiftWindow);
+        window.onload = shiftWindow;
     script( src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer )
 
 body
