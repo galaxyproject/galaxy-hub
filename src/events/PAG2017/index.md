@@ -1,9 +1,11 @@
 ---
 title: Galaxy at PAG 2017
-date: '12-19-2016'
+date: '01-04-2017'
 tease: January 14-18
 ---
-<div class="center"><a href='http://www.intlpag.org/'><img src="/src/images/Logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="100" /></a></div>
+<div class="center"><a href='http://www.intlpag.org/'><img src="PAG2017.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="130" /></a></div>
+
+<br />
 
 Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](http://www.intlpag.org/), being held in San Diego, California, United States, January 14-18.  There is something (and often many things) every day of the conference.
 
@@ -25,7 +27,7 @@ Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](
     <td> Robert Davey </td>
   </tr>
   <tr>
-    <th colspan=6> </th>
+    <th colspan=6 style=" background-color: #eef;"> </th>
   </tr>
   <tr>
     <th rowspan="3"> Sunday<br />January 15 </th>
@@ -50,7 +52,7 @@ Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](
     <td> Nic Herndon </td>
   </tr>
   <tr>
-    <th colspan=6> </th>
+    <th colspan=6 style=" background-color: #eef;"> </th>
   </tr>
   <tr>
     <th rowspan="10"> Monday<br />January 16 </th>
@@ -110,7 +112,7 @@ Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](
     <td> Matthew Vaughn </td>
   </tr>
   <tr>
-    <th colspan=6> </th>
+    <th colspan=6 style=" background-color: #eef;"> </th>
   </tr>
   <tr>
     <th> Tuesday<br />January 17 </th>
@@ -121,7 +123,7 @@ Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](
     <td> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
-    <th colspan=6> </th>
+    <th colspan=6 style=" background-color: #eef;"> </th>
   </tr>
   <tr>
     <th rowspan=3> Wednesday<br />January 18 </th>

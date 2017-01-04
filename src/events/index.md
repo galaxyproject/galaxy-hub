@@ -96,6 +96,12 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
     <td colspan=4 style=" background-color: #eef;"> </td>
   </tr>
   <tr>
+    <th> March 7 </th>
+    <td> <em><a href='http://training.csx.cam.ac.uk/bioinformatics/event/2000038'>Introduction to Galaxy: Data Manipulation and Visualisation</a></em> </td>
+    <td> <img src="/src/images/Icons/Europe40.png" alt="Europe" align="right" /> Cancer Research UK Cambridge Institute, Cambridge, United Kingdom </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="https://www.linkedin.com/in/pajanne">Anne Pajon</a>, <a href="https://www.linkedin.com/in/jing-su-8ab15261">Jing Su</a> </td>
+  </tr>
+  <tr>
     <th> March 25-28 </th>
     <td> <em><a href='http://conf.abrf.org/the-galaxy-platform'>The Galaxy platform for metaproteomic characterization of microbiomes</a></em> </td>
     <td> <img src="/src/images/Icons/NorthAmerica40.png" alt="North America" align="right" /> <a href="http://conf.abrf.org/home">ABRF 2017</a>, San Diego, California, United States </td>
