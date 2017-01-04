@@ -4,6 +4,8 @@
 
 ### 2016
 
+* [November & December 2016](/src/ToolShed/Contributions/2016_12/index.md)
+* [October 2016](/src/ToolShed/Contributions/2016_10/index.md)
 * [September 2016](/src/ToolShed/Contributions/2016_09/index.md)
 * [August 2016](/src/ToolShed/Contributions/2016_08/index.md)
 * [June & July 2016](/src/ToolShed/Contributions/2016_07/index.md)
