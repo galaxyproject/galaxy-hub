@@ -12,11 +12,11 @@ The content for the pages is stored under the `src` directory and the
 directories map directly onto the URLs.
 
 You can contribute by simply editing the source page in question via the GitHub
-web editor. For most people, this will create a pull request that will
-then get reviewed and merged. After the merge, the content will be live on the
-website within a few minutes. Alternatively, you can edit the file locally
-(see below). Note that if you're wanting to add a new directory to the file
-structure, you will need to clone the site locally.
+web editor. If you need to add a new directory to the file structure, type the
+desired file path into the new file name field (eg, `foo/file.md`).For most
+people, this will create a pull request that will then get reviewed and merged.
+After the merge, the content will be live on the website within a few minutes.
+Alternatively, you can edit the file locally (see below).
 
 ## Installing the site locally
 
