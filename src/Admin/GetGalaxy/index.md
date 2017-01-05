@@ -56,7 +56,7 @@ $ git checkout release_16.10 && git pull --ff-only origin release_16.10
 If you are getting Galaxy for development, you want to use the default branch after cloning - `dev`. This is the branch that most pull requests should be made against, if you are contributing code back (unless you are fixing a bug in a Galaxy release). 
 
 ```sh
-$ git clone https://github.com/galaxyproject/galaxy/galaxy.git
+$ git clone https://github.com/galaxyproject/galaxy.git
 ```
 
 
