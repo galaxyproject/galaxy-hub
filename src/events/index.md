@@ -61,7 +61,7 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
   </tr>
   <tr>
     <th> January 24 </th>
-    <td> <em><a href='https://www.abdn.ac.uk/genomics/documents/201617_Workshops/Advanced_RNA_Sequencing_2017.pdf'>Advanced	RNA	Sequencing (RNA-seq) Analysis</a></em> </td>
+    <td> <em><a href='https://www.abdn.ac.uk/genomics/documents/201617_Workshops/Advanced_RNA_Sequencing_2017.pdf'>Advanced RNA Sequencing (RNA-seq) Analysis</a></em> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> <a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen</a>, Scotland, United Kingdom </td>
     <td> <div class='right'><a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='mailto:s.shaw@abdn.ac.uk'>Sophie Shaw</a> </td>
   </tr>
@@ -85,6 +85,12 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
     <td> <em>Globus Genomics and several other cloud-based solution in data storage and management</em> </td>
     <td> <img src="/src/images/Icons/NorthAmerica40.png" alt="North America" align="right" /> <a href="http://www.mnmconferences.com/NGS-Data-Analysis-and-Informatics-Conference">NGS Data Analysis & Informatics Conference</a>, San Diego, California, United States </td>
     <td>  <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a> </td>
+  </tr>
+  <tr>
+    <th> February 8-10 </th>
+    <td> <em>From Galaxy to Genomics</em> </td>
+    <td> <img src="/src/images/Icons/Asia40.png" alt="Asia" align="right" /> <a href="http://www.ksimm.or.kr/board/list.html?num=525&start=0&sort=reg_dt%20desc&code=enews&period=&key=&keyword=">13th KOGO Winter Symposium</a>, Yongpyong, Gangwon-do, Korea </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 13-17 </th>
@@ -118,6 +124,12 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
+  </tr>
+  <tr>
+    <th> May 29 - June 2 </th>
+    <td> <em><a href="http://www.france-bioinformatique.fr/fr/evenements/W4E2017">Workflow4Experimenters International Course</a></em> <div(class="indent red"> Applications due Feb 18 </div></td>
+    <td> <img src="/src/images/Icons/Europe40.png" alt="Europe" align="right" /> Pasteur Institute, Paris, France </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a><a href='http://www.france-bioinformatique.fr/fr/users/caron-christophe'>Christophe Caron</a> </td>
   </tr>
   <tr>
     <th> May 29 - June 2 </th>

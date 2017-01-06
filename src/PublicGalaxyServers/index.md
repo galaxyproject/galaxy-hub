@@ -1411,7 +1411,8 @@ The distinction between [domain servers](/src/PublicGalaxyServers/index.md#domai
 * *Link:*
   * [Martin Luther University Halle-Wittenberg](http://galaxy.informatik.uni-halle.de)
 * *Domain/Purpose:*
-  * Provides implementations of these tools:
+* Provides implementations of these tools:
+    * InMoDe  is a collection of Tools for learning and visualizing inhomogeneous parsimonious Markov models (iPMMs).
     * CRISPRer is a tool for genome-wide selection and assessment of CRISPR/Cas protospacers.
     * TALgetter allows you to scan input sequences for putative target sites of a given TAL (transcription activator-like) effector as typically expressed by many Xanthomonas bacteria.
     * TALgetterLong allows you to scan input sequences for putative target sites of a given TAL (transcription activator-like) effector as typically expressed by many Xanthomonas bacteria in large input data, but lacks some of the features of TALgetter (e.g., computation of empirical p-values).
