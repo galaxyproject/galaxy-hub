@@ -126,26 +126,19 @@ Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](
     <th colspan=6 style=" background-color: #eef;"> </th>
   </tr>
   <tr>
-    <th rowspan=3> Wednesday<br />January 18 </th>
-    <td style=" text-align: center;"> 1:05-1:30 </td>
+    <th rowspan=2> Wednesday<br />January 18 </th>
+    <td style=" text-align: center;"> 1:35-2:00 </td>
     <td> <a href='https://pag.confex.com/pag/xxv/meetingapp.cgi/Paper/25649'>Galaxy Community Update</a> </td>
     <td> <a href='https://pag.confex.com/pag/xxv/meetingapp.cgi/Session/4229'>GMOD</a>, Golden West </td>
     <td>  </td>
     <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center;"> 1:30-1:55 </td>
+    <td style=" text-align: center;"> 2:00-2:25 </td>
     <td> <a href='https://pag.confex.com/pag/xxv/meetingapp.cgi/Paper/25652'>Discovery and Visualisation of Homologous Genes and Gene Families Using Galaxy</a> </td>
     <td> <a href='https://pag.confex.com/pag/xxv/meetingapp.cgi/Session/4229'>GMOD</a>, Golden West </td>
     <td>  </td>
     <td> Anil S. Thanki </td>
-  </tr>
-  <tr>
-    <td style=" text-align: center;"> 2:00-2:30 </td>
-    <td> <a href='https://pag.confex.com/pag/xxv/meetingapp.cgi/Paper/25656'>Roundtable Discussion</a> </td>
-    <td> <a href='https://pag.confex.com/pag/xxv/meetingapp.cgi/Session/4229'>GMOD</a>, Golden West </td>
-    <td>  </td>
-    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a>, Anil S. Thanki </td>
   </tr>
 </table>
 
