@@ -78,22 +78,8 @@ body
                 //                         span.fa.fa-search
 
     div.container#maincontainer: div.row
-
-        if toc
-            div.col-md-9
-                block section
-                    section.section-content
-                        block content
-                            div !{ contents }
-            div.col-md-3
-                div#sidebar
-                    +renderToc(toc)
-        else
-            div.col-md-12
-                block section
-                    section.section-content
-                        block content
-                            div !{ contents }
+        block content
+            div !{ contents }
 
     footer.navbar-default.navbar-static-bottom
         div.container: div.row: div.col-md-12
