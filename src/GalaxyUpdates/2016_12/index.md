@@ -275,7 +275,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 80 publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) and [five semi-public Galaxy services](/src/SemiPublicGalaxyServers/index.md).  Here's what happened with them in November.
+There are [over 80 publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) and [five semi-public Galaxy services](/src/GalaxyServices/index.md).  Here's what happened with them in November.
 
 ## New Public Galaxy Servers
 

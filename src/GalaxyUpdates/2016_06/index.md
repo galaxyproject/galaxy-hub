@@ -391,16 +391,16 @@ No [new publicly accessible Galaxy servers](/src/PublicGalaxyServers/index.md) w
 
 <div class='right'><br />
 <div class='center'>
-<a href='https://launch.genome.edu.au/launch'><img src="/src/PublicGalaxyServers/GenomicsVirtualLab300.png" alt="GVL" width="80" /></a> &nbsp; <a href='https://galaxy.plgrid.pl'><img src="/src/SemiPublicGalaxyServers/PL-Grid_Logo.png" alt="PL-Grid Galaxy" width="80" /></a><br />
-<a href='https://www.genap.ca/'><img src="/src/SemiPublicGalaxyServers/GenAP_Logo_Trans_250.png" alt="GenAP" width="120" /></a><br />
-<a href='/src/SemiPublicGalaxyServers/index.md#australian-access-federation-aaf'><img src="/src/SemiPublicGalaxyServers/AAF_Logo_wide.png" alt="AAF on GVL" width="200" /></a>
+<a href='https://launch.genome.edu.au/launch'><img src="/src/PublicGalaxyServers/GenomicsVirtualLab300.png" alt="GVL" width="80" /></a> &nbsp; <a href='https://galaxy.plgrid.pl'><img src="/src/GalaxyServices/PL-Grid_Logo.png" alt="PL-Grid Galaxy" width="80" /></a><br />
+<a href='https://www.genap.ca/'><img src="/src/GalaxyServices/GenAP_Logo_Trans_250.png" alt="GenAP" width="120" /></a><br />
+<a href='/src/GalaxyServices/index.md#australian-access-federation-aaf'><img src="/src/GalaxyServices/AAF_Logo_wide.png" alt="AAF on GVL" width="200" /></a>
 </div></div>
 
 ## New Semi-Public Galaxy Servers Directory
 
-The [Semi-Public Galaxy Servers Directory](/src/SemiPublicGalaxyServers/index.md) lists Galaxy servers that aren't [fully publicly accessible](/src/PublicGalaxyServers/index.md), but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
+The [Semi-Public Galaxy Servers Directory](/src/GalaxyServices/index.md) lists Galaxy servers that aren't [fully publicly accessible](/src/PublicGalaxyServers/index.md), but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
 
-Servers are classified by whom they are accessible to.  This can be based on [research domain](/src/SemiPublicGalaxyServers/index.md#domain-based), [Geography Based](/src/SemiPublicGalaxyServers/index.md), or by [membership in a multi-organization association](/src/SemiPublicGalaxyServers/index.md#association-based) that provides Galaxy Servers. 
+Servers are classified by whom they are accessible to.  This can be based on [research domain](/src/GalaxyServices/index.md#domain-based), [Geography Based](/src/GalaxyServices/index.md), or by [membership in a multi-organization association](/src/GalaxyServices/index.md#association-based) that provides Galaxy Servers. 
 
 **To add your semi-public Galaxy server to this list**, please either just add it (hey, *it's a wiki*), or [describe the server here](https://docs.google.com/forms/d/14i8FNHB7pwXrXmhvUkxXTh2VKQ-2BKsnMubXsCZadjs/viewform) and we'll post it this directory.
 

@@ -1,22 +1,15 @@
 ---
 autotoc: true
-title: Semi-Public Galaxy Services
+title: Galaxy Services
 ---
-<div class='right'>
-<table>
-  <tr>
-    <td style=" border: none; width: 22em;"> </td>
-  </tr>
-</table>
 
-</div>
+<div class="title">Galaxy Services</div>
 
+Galaxy is available in all sorts of flavors:  This page lists Galaxy services that either aren't fixed servers, or aren't [fully publicly accessible](/src/PublicGalaxyServers/index.md) but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
 
-Galaxy Servers are available in all sorts of flavors:  This page lists Galaxy servers that aren't [fully publicly accessible](/src/PublicGalaxyServers/index.md), but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
+Services are classified here by whom they are accessible to.  This can be based on research domain, geography (regional or national), or by membership in a multi-organization association that provides Galaxy Servers. 
 
-Servers are classified here by whom they are accessible to.  This can be based on research domain, geography (regional or national), or by membership in a multi-organization association that provides Galaxy Servers. 
-
-**To add your semi-public Galaxy server to this list**, please either just add it (hey, *it's a wiki*), or **[describe the server here](https://docs.google.com/forms/d/14i8FNHB7pwXrXmhvUkxXTh2VKQ-2BKsnMubXsCZadjs/viewform)** and we'll post it in this directory.
+**To add your Galaxy service to this list**, please either just add it (hey, *it's in GitHub*), or **[describe the service here](https://docs.google.com/forms/d/14i8FNHB7pwXrXmhvUkxXTh2VKQ-2BKsnMubXsCZadjs/viewform)** and we'll post it in this directory.
 
 # Geography Based
 
@@ -44,7 +37,7 @@ Servers are classified here by whom they are accessible to.  This can be based o
 
 ## Canada: GenAP
 
-<div class='right solid'><a href='https://www.genap.ca/'><img src="/src/SemiPublicGalaxyServers/GenAP_Logo_Trans_250.png" alt="GenAP" height="200" /></a></div>
+<div class='right solid'><a href='https://www.genap.ca/'><img src="/src/GalaxyServices/GenAP_Logo_Trans_250.png" alt="GenAP" height="200" /></a></div>
 
 * *Links:*
   * **[GenAP](https://www.genap.ca/)**
@@ -99,7 +92,7 @@ Servers are classified here by whom they are accessible to.  This can be based o
 
 ## Poland: PL-Grid
 
-<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/SemiPublicGalaxyServers/PL-Grid_Logo.png" alt="PL-Grid Galaxy"  /></a></div>
+<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/GalaxyServices/PL-Grid_Logo.png" alt="PL-Grid Galaxy"  /></a></div>
 
 * *Links:*
   * **[PL-Grid Galaxy Server](https://galaxy.plgrid.pl)**
@@ -140,7 +133,7 @@ Servers are classified here by whom they are accessible to.  This can be based o
 
 ## Cancer Computer
 
-<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/SemiPublicGalaxyServers/cancer-computer-logo-256.jpg" alt="Cancer Computer" /></a></div>
+<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/GalaxyServices/cancer-computer-logo-256.jpg" alt="Cancer Computer" /></a></div>
 
 * *Links:*
   * **[Request access](http://www.cancercomputer.com/contact/)**
@@ -159,8 +152,8 @@ Servers are classified here by whom they are accessible to.  This can be based o
 
 # Association Based
 
-<div class='right'><br /><div class='solid'><a href='/src/SemiPublicGalaxyServers/index.md#australia-genomics-virtual-lab-gvl'><img src="/src/SemiPublicGalaxyServers/AAF_Logo_wide.png" alt="AAF on GVL" width="300" /></a></div></div>
+<div class='right'><br /><div class='solid'><a href='/src/GalaxyServices/index.md#australia-genomics-virtual-lab-gvl'><img src="/src/GalaxyServices/AAF_Logo_wide.png" alt="AAF on GVL" width="300" /></a></div></div>
 
 ## Australian Access Federation (AAF)
 
-[Members](https://aaf.edu.au/subscribe/subscribers.html) of the [Australian Access Federation (AAF)](https://aaf.edu.au/) can use the [GVL (see above)](/src/SemiPublicGalaxyServers/index.md#australia-genomics-virtual-lab-gvl).
+[Members](https://aaf.edu.au/subscribe/subscribers.html) of the [Australian Access Federation (AAF)](https://aaf.edu.au/) can use the [GVL (see above)](/src/GalaxyServices/index.md#australia-genomics-virtual-lab-gvl).
