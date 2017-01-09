@@ -146,6 +146,15 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
     <td> <img src="/src/images/Icons/Europe40.png" alt="Europe" align="right" /> Montpellier, France </td>
     <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
+  <tr>
+    <td colspan=4 style=" background-color: #eef;"> </td>
+  </tr>
+  <tr>
+    <th> July 2-6 </th>
+    <td> <em><a href='http://www.smbe2017.org/symposia/'>Computation and reproducibility in molecular evolution</a></em> </td>
+    <td> <img src="/src/images/Icons/NorthAmerica40.png" alt="NorthAmerica" align="right" /> <a href="http://www.smbe2017.org/">SMBE 2017</a>, Austin, Texas, United States </td>
+    <td> <a href='/src/Teach/Trainers/index.md'> <a href="/src/anton/index.md">Anton Nekrutenko</a>, Sergei Kosakovsky Pond </td>
+  </tr>
 </table>
 
 <br />

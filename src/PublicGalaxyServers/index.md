@@ -219,8 +219,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *Comments:*
   * [E-learning and training sessions available](http://sig-learning.toulouse.inra.fr/).
 * *User Support:*
-  * [Email Support](mailto:sigenae-support@lites.inra.fr)
-  * The [user-galaxy-toulouse mailing list](http://listes.inra.fr/sympa/info/user-galaxy-toulouse) is used to distribute information to all users of the Galaxy Sigenae platform.
+  * [Email Support](mailto:sigenae-support@listes.inra.fr)
 * *Quotas:*
   * BioInfo Genotoul platform reserves the right to purge all files not accessed since 120 days on work/disk space.
 * *Sponsor(s):*

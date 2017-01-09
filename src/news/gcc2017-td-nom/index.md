@@ -1,5 +1,7 @@
-<div class='newsItemHeader'>[GCC2017 Training Day Topic Nominations](/src/news/GCC2017TDNom/index.md)</div>
-
+---
+title: 'GCC2017 Training Day Topic Nominations'
+date: '01-09-2017'
+---
 <table>
   <tr>
     <th> &nbsp;&nbsp; <a href='http://bit.ly/gcc2017trainingnom'>Nominate a topic now!</a> &nbsp;&nbsp; </th>
@@ -9,7 +11,7 @@
 <br />
 
 <div class='right'><a href='https://gcc2017.sciencesconf.org/'><img src="/src/images/Logos/gcc2017-logo-300.png" alt="GCC2017 Training" width="200" /></a>
-<div style="text-align: center;"> <strong><a href='http://bit.ly/gcc2017trainingnom'>Nominate a topic now!</a></strong></div>
+<div style="text-align: center;"> <strong><a href='http://bit.ly/gcc2017trainingnom'>Nominate a topic</a></strong></div>
 </div>
 
 The [2017 Galaxy Community Conference (GCC2017)](https://gcc2017.sciencesconf.org/) features two days of training on 27-28 June. The first day will be single track and focus on how to use Galaxy for research. The second day will have multiple tracks, with each track featuring three sessions each.  GCC2017 will be held in [Monpellier, France](http://www.montpellier-france.com/).
@@ -21,7 +23,3 @@ Nominated topics will be published as they come in.  **Topic nomination closes F
 Topics will then be selected and scheduled based on topic interest, and the organisers' ability to confirm instructors for each session.  Some very popular sessions may be scheduled more than once. The final schedule will be posted before registration opens.
 
 GCC2017 Organising Committee
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2017-01-09</div>
-
-[CategoryNews](/src/CategoryNews/index.md)
