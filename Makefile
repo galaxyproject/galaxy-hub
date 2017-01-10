@@ -1,4 +1,5 @@
 COFFEE=DEBUG=metalsmith-timer ./node_modules/coffee-script/bin/coffee
+DOCKER=docker run -u `id -u`:`id -g` -v `pwd`:/usr/src/app -w /usr/src/app
 
 npm-deps: ## Install NodeJS dependencies.
 	npm install
@@ -26,13 +27,13 @@ check: npm-deps bower ## checks for broken links
 	$(COFFEE) build.coffee --check
 
 docker-npm-deps:
-	docker run -u `id -u`:`id -g` -v `pwd`:/usr/src/app -w /usr/src/app node npm install
+	$(DOCKER) node npm install
 
 docker-bower:
-	docker run -u `id -u`:`id -g` -v `pwd`:/usr/src/app -w /usr/src/app node node node_modules/bower/bin/bower --allow-root install
+	$(DOCKER) node node node_modules/bower/bin/bower --allow-root install
 
 docker-build: docker-npm-deps docker-bower  ## Single endpoint for docker install
-	docker run -u `id -u`:`id -g` -v `pwd`:/usr/src/app -w /usr/src/app node node node_modules/coffee-script/bin/coffee build.coffee
+	$(DOCKER) node node node_modules/coffee-script/bin/coffee build.coffee
 
 gitlfs-pull:  ## We use this during the Jenkins build process to fetch LFS contents -- probably not useful locally.
-	docker run -u `id -u`:`id -g` -v `pwd`:/usr/src/app -w /usr/src/app dannon/gitlfs git lfs pull
+	$(DOCKER) dannon/gitlfs git lfs pull
