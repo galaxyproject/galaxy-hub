@@ -84,7 +84,7 @@ To use an external database, you'll need to set one up.  That process is outside
 
 Once installed, create a new database user and new database which the new user is the owner of.  No further setup is required, since Galaxy manages its own schema.  If you are using a UNIX socket to connect the application to the database (this is the standard case if Galaxy and the database are on the same system), you'll want to name the database user the same as the system user under which you run the Galaxy process.
 
-To configure Galaxy, set `database_connection` in Galaxy's config file, `config/galaxy.ini`.  The syntax for a database URL is explained in the [SQLAlchemy documentation](http://sqlalchemy.readthedocs.org/en/rel_0_5/dbengine.html).
+To configure Galaxy, set `database_connection` in Galaxy's config file, `config/galaxy.ini`.  The syntax for a database URL is explained in the [SQLAlchemy documentation](http://sqlalchemy.readthedocs.io/en/latest/core/engines.html).
 
 Here follow two example database URLs with username and password:
 
@@ -102,7 +102,7 @@ mysql:///mydatabase?unix_socket=/var/run/mysqld/mysqld.sock
 ```
 
 
-For more hints on available options for the database URL, see the [SQLAlchemy documentation](http://www.sqlalchemy.org/docs/05/dbengine.html#dbengine_establishing).
+For more hints on available options for the database URL, see the [SQLAlchemy documentation](http://sqlalchemy.readthedocs.io/en/latest/core/engines.html#database-urls).
 
 If you are using [MySQL](http://dev.mysql.com/) and encounter the "MySQL server has gone away" error, please note the `database_engine_option_pool_recycle` option in `config/galaxy.ini`.  If this does not solve your problem, see [this post](http://gmod.827538.n3.nabble.com/template/NamlServlet.jtp?macro=print_post&node=2354941) on the Galaxy Development [mailing list](/src/MailingLists/index.md).
 
