@@ -26,13 +26,13 @@ check: npm-deps bower ## checks for broken links
 	$(COFFEE) build.coffee --check
 
 docker-npm-deps:
-	docker run -v `pwd`:/usr/src/app -w /usr/src/app node npm install
+	docker run -u `id -u`:`id -g` -v `pwd`:/usr/src/app -w /usr/src/app node npm install
 
 docker-bower:
-	docker run -v `pwd`:/usr/src/app -w /usr/src/app node node node_modules/bower/bin/bower --allow-root install
+	docker run -u `id -u`:`id -g` -v `pwd`:/usr/src/app -w /usr/src/app node node node_modules/bower/bin/bower --allow-root install
 
 docker-build: docker-npm-deps docker-bower  ## Single endpoint for docker install
-	docker run -v `pwd`:/usr/src/app -w /usr/src/app node node node_modules/coffee-script/bin/coffee build.coffee
+	docker run -u `id -u`:`id -g` -v `pwd`:/usr/src/app -w /usr/src/app node node node_modules/coffee-script/bin/coffee build.coffee
 
 gitlfs-pull:  ## We use this during the Jenkins build process to fetch LFS contents -- probably not useful locally.
-	docker run -v `pwd`:/usr/src/app -w /usr/src/app dannon/gitlfs git lfs pull
+	docker run -u `id -u`:`id -g` -v `pwd`:/usr/src/app -w /usr/src/app dannon/gitlfs git lfs pull
