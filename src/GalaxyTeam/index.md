@@ -42,11 +42,6 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='col-md-3'>
-<img src="/src/GalaxyTeam/carl.jpg" alt="Carl Eberhard" height="150" /><br />
-Carl Eberhard <br />
-[Johns Hopkins](http://www.jhu.edu) 
-</div>
-<div class='col-md-3'>
 <a href='/src/JeremyGoecks/index.md'><img src="/src/GalaxyTeam/jgoecks-banff-small.png" alt="Jeremy Goecks" height="150" /></a><br />
 [Jeremy Goecks](/src/JeremyGoecks/index.md)<br />
 [George Washington University](http://www.gwu.edu) 
@@ -75,10 +70,6 @@ Carl Eberhard <br />
 <a href='/src/DelphineLariviere/index.md'><img src="/src/GalaxyTeam/DelphineLariviere.jpg" alt="DelphineLariviere" height="150" /></a><br />
 [Delphine Lariviere](/src/DelphineLariviere/index.md)<br />
 [Penn State](http://www.bx.psu.edu)
-</div>
-<div class='col-md-3'>
-<a href='/src/fubar/index.md'><img src="/src/GalaxyTeam/ross.jpg" alt="Ross Lazarus" height="150" /></a><br />
-[Ross Lazarus](/src/fubar/index.md)<br /><br />
 </div>
 <div class='col-md-3'>
 <img src="/src/GalaxyTeam/Remi.jpg" alt="Rémi Marenco" height="150" /><br />
@@ -184,10 +175,12 @@ Carl Eberhard <br />
 * Istvan Albert
 * Ramkrishna Chakrabarty
 * Wen-Yu Chung
+* Carl Eberhard
 * Dorine Francheteau
 * Belinda Giardine
 * Jianbin He
 * Radesh Kamath
+* Ross Lazarus
 * Kanwei Li
 * Scott McManus
 * Arjun Nath
