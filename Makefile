@@ -22,19 +22,19 @@ build: npm-deps bower ## Builds into /build, suitable for copying to webserver.
 serve: npm-deps bower ## Serve locally for viewing
 	$(COFFEE) build.coffee --serve
 
-watch: npm-deps bower ## will serve and attempt to reload files
+watch: npm-deps bower ## Serve and attempt to reload changed files
 	$(COFFEE) build.coffee --watch
 
-check: npm-deps bower ## checks for broken links
+check: npm-deps bower ## Check for broken links
 	$(COFFEE) build.coffee --check
 
-docker-npm-deps:
+docker-npm-deps:  ## [Docker] Install NodeJS dependencies.
 	docker run -v `pwd`:/tmp/hub -w /tmp/hub node /bin/bash -c "npm install && chown -R `id -u`:`id -g` /tmp/hub/node_modules"
 
-docker-bower:
+docker-bower: ## [Docker] Install Bower
 	docker run -v `pwd`:/tmp/hub -w /tmp/hub node /bin/bash -c "node node_modules/bower/bin/bower --allow-root install && chown -R `id -u`:`id -g` /tmp/hub/bower_components"
 
-docker-build: docker-npm-deps docker-bower  ## Single endpoint for docker install
+docker-build: docker-npm-deps docker-bower  ## [Docker] Single endpoint for docker install
 	$(DOCKER) node node node_modules/coffee-script/bin/coffee build.coffee
 
 gitlfs-pull:  ## We use this during the Jenkins build process to fetch LFS contents -- probably not useful locally.
