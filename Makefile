@@ -1,5 +1,6 @@
 COFFEE=DEBUG=metalsmith-timer ./node_modules/coffee-script/bin/coffee
 DOCKER=docker run -u `id -u`:`id -g` -v `pwd`:/tmp/hub -w /tmp/hub
+DOCKER_NOUSER=docker run -v `pwd`:/tmp/hub -w /tmp/hub
 
 node_modules: package.json
 	npm install
@@ -32,10 +33,10 @@ check: npm-deps bower ## Check for broken links
 	$(COFFEE) build.coffee --check
 
 docker-npm-deps:  ## [Docker] Install NodeJS dependencies.
-	docker run -v `pwd`:/tmp/hub -w /tmp/hub node /bin/bash -c "npm install && chown -R `id -u`:`id -g` /tmp/hub/node_modules"
+	$(DOCKER_NOUSER) node /bin/bash -c "npm install && chown -R `id -u`:`id -g` /tmp/hub/node_modules"
 
 docker-bower: ## [Docker] Install Bower
-	docker run -v `pwd`:/tmp/hub -w /tmp/hub node /bin/bash -c "node node_modules/bower/bin/bower --allow-root install && chown -R `id -u`:`id -g` /tmp/hub/bower_components"
+	$(DOCKER_NOUSER) node /bin/bash -c "node node_modules/bower/bin/bower --allow-root install && chown -R `id -u`:`id -g` /tmp/hub/bower_components"
 
 docker-build: docker-npm-deps docker-bower  ## [Docker] Single endpoint for docker install
 	$(DOCKER) node node node_modules/coffee-script/bin/coffee build.coffee
