@@ -39,3 +39,5 @@ docker-build: docker-npm-deps docker-bower  ## [Docker] Single endpoint for dock
 
 gitlfs-pull:  ## We use this during the Jenkins build process to fetch LFS contents -- probably not useful locally.
 	$(DOCKER) dannon/gitlfs git lfs pull
+
+.PHONY: gitlfs-pull docker-build docker-bower docker-npm-deps check watch serve build
