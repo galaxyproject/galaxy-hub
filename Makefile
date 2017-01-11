@@ -1,8 +1,10 @@
 COFFEE=DEBUG=metalsmith-timer ./node_modules/coffee-script/bin/coffee
 DOCKER=docker run -u `id -u`:`id -g` -v `pwd`:/tmp/hub -w /tmp/hub
 
-npm-deps: ## Install NodeJS dependencies.
+node_modules: package.json
 	npm install
+
+npm-deps: node_modules
 
 .DEFAULT_GOAL := all
 
