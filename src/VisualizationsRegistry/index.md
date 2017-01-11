@@ -312,10 +312,12 @@ it like any CSS stylesheet in our final template file by adding the path:
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>${hda.name} | ${visualization_name}</title>
+<title>${hda.name | h} | ${visualization_name}</title>
 <link type="text/css" rel="Stylesheet" media="screen" href="/plugins/visualizations/sam/static/style.css"">
 ...
 ```
+
+Make sure variables that may correspond to user input (e.g. the name of the history item `hda.name`) and other input that may contain undesired HTML tags, need to be HTML-escaped (`${hda.name | h}`) to avoid possible code injections.
 
 Note: we can use sub-directories here if desired. We could create sub-directories 'js', 'css', 'images', 'data' and
 serve different static content from each.
