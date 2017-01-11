@@ -13,8 +13,8 @@ bower:
 all: help
 
 help:
-	@echo "There are no default actions for this Makefile, you must choose an option from the following:\n"
-	@egrep '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+	@echo "There are no default actions for this Makefile, you must choose an option from the following:"
+	@egrep '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
 
 build: npm-deps bower ## Builds into /build, suitable for copying to webserver.
 	$(COFFEE) build.coffee
