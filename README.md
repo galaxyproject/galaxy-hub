@@ -1,4 +1,4 @@
-# Galaxy Community Hub [![Build Status](https://jenkins.galaxyproject.org/buildStatus/icon?job=galaxy-site)](https://jenkins.galaxyproject.org/job/galaxy-site/)
+# Galaxy Community Hub [![Build Status](https://jenkins.galaxyproject.org/buildStatus/icon?job=galaxy-hub)](https://jenkins.galaxyproject.org/job/galaxy-hub/)
 
 Source for the [Galaxy Community Website](https://new.galaxyproject.org/). This
 is a static website built using [metalsmith][1].
