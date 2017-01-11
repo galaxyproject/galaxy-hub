@@ -8,8 +8,11 @@ npm-deps: node_modules
 
 .DEFAULT_GOAL := all
 
-bower:
+bower_components: bower.json
 	./node_modules/bower/bin/bower install
+
+bower: bower_components
+
 all: help
 
 help:
