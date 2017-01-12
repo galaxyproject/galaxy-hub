@@ -70,7 +70,7 @@ Papers about or using Galaxy with [core team members](/src/GalaxyTeam/index.md) 
 
 ### 2016
 
-1. [Nitesh Turaga](/src/NiteshTuraga), Mallory A. Freeberg, [Dannon Baker](/src/DannonBaker), [John Chilton](/src/JohnChilton), [Galaxy Team](/src/GalaxyTeam), [Anton Nekrutenko](/src/anton), [James Taylor](/src/JamesTaylor). **[A guide and best practices for R/Bioconductor tool integration in Galaxy](https://f1000research.com/articles/5-2757/v1)**. *F1000Research* (2016) 5:2757 doi:10.12688/f1000research.9821.1
+1. [Nitesh Turaga](/src/NiteshTuraga/index.md), Mallory A. Freeberg, [Dannon Baker](/src/DannonBaker/index.md), [John Chilton](/src/JohnChilton/index.md), [Galaxy Team](/src/GalaxyTeam/index.md), [Anton Nekrutenko](/src/anton/index.md), [James Taylor](/src/JamesTaylor/index.md). **[A guide and best practices for R/Bioconductor tool integration in Galaxy](https://f1000research.com/articles/5-2757/v1)**. *F1000Research* (2016) 5:2757 doi:10.12688/f1000research.9821.1
 
 1. [Björn Grüning](/src/BjoernGruening/index.md), [Eric Rasche](/src/EricRasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/CarlEberhard/index.md), Torsten Houwaart, [John Chilton](/src/JohnChilton/index.md), [Nate Coroar](/src/nate/index.md), Rolf Backofen, [James Taylor](/src/JamesTaylor/index.md), [Anton Nekrutenko](/src/anton/index.md). **[Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter](http://dx.doi.org/10.1101/075457)**. *bioRxiv* (2016) doi:10.1101/075457 
 

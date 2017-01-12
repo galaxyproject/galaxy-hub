@@ -36,12 +36,6 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
     <th> Contact </th>
   </tr>
   <tr>
-    <th> January 9-10 </th>
-    <td> <em><a href="https://github.com/galaxyproject/tools-iuc/issues/1078">QIIME Contribution Fest</a></em> </td>
-    <td> <img src="/src/images/Icons/World40.png" alt="Online" align="right" /><em>Online</em> </td>
-    <td> <a href="https://github.com/galaxyproject/tools-iuc/issues/1078">Bérénice, Björn, and Saskia</a> </td>
-  </tr>
-  <tr>
     <th> January 14-18 </th>
     <td> <strong><a href="/src/events/PAG2017/index.md">Galaxy @ Plant &amp; Animal Genome XXV (PAG 2017)</a></strong> </td>
     <td> <img src="/src/images/Icons/NorthAmerica40.png" alt="North America" align="right" /> San Diego, California, United States </td>
@@ -126,6 +120,12 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
     <td colspan=4 style=" background-color: #eef;"> </td>
   </tr>
   <tr>
+    <th> May 15-16 </th>
+    <td> <em><a href="https://biotexcel.com/event/ngs-2017-glasgow/#1481524841260-7a533ea8-43a2">Data Analysis Workshop</a></em> </td>
+    <td> <img src="/src/images/Icons/Europe40.png" alt="Europe" align="right" /> <a href="https://biotexcel.com/event/ngs-2017-glasgow/">NGS 2017 Glasgow</a>, Glasgow, United Kingdom </td>
+    <td> Julian Augley, Graham Hamilton, David Meltzer and Mani Mudaliar </td>
+  </tr>
+  <tr>
     <th> May 29 - June 2 </th>
     <td> <em><a href="http://www.france-bioinformatique.fr/fr/evenements/W4E2017">Workflow4Experimenters International Course</a></em> <div(class="indent red"> Applications due Feb 18 </div></td>
     <td> <img src="/src/images/Icons/Europe40.png" alt="Europe" align="right" /> Pasteur Institute, Paris, France </td>
@@ -193,6 +193,13 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
     <th> Venue/Location </th>
     <th> Contact </th>
     <th> Links </th>
+  </tr>
+  <tr>
+    <th> January 9-10 </th>
+    <td> <em><a href="https://github.com/galaxyproject/tools-iuc/issues/1078">QIIME Contribution Fest</a></em> </td>
+    <td> <img src="/src/images/Icons/World40.png" alt="Online" align="right" /><em>Online</em> </td>
+    <td> <a href="https://github.com/galaxyproject/tools-iuc/issues/1078">Bérénice, Björn, and Saskia</a> </td>
+    <td> </td>
   </tr>
 </table>
 
