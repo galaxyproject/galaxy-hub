@@ -1,13 +1,13 @@
 ---
 title: [CHB Harvard ChIP-Seq Workshop](http://hbc.github.io/ngs-workshops/courses/introduction-to-chip-seq/)
 ---
-<div class='center'><a href='http://hbc.github.io/ngs-workshops/about/'><img src="/src/images/Logos/CHBHarvard.png" alt="Center for Health Bioinformatics Galaxy Tutorials"  /></a></div>
+<div class='center'><a href='http://hbc.github.io/ngs-workshops/about/'><img src="/src/images/logos/CHBHarvard.png" alt="Center for Health Bioinformatics Galaxy Tutorials"  /></a></div>
 
 
 
 
 <div class='deploymentbox'>
- Resource:: **[CHB Harvard ChIP-Seq Workshop](/src/Teach/Resource/CHBHarvardChIP-Seq/index.md)**
+ Resource:: **[CHB Harvard ChIP-Seq Workshop](/src/teach/resource/chb-harvard-chip-seq/index.md)**
  Types:: Tutorial, Datasets
  Domains:: **ChIP-Seq** 
  Owners:: [Shannan Ho Sui, Oliver Hofmann, Radhika Khetani, Winston Hide](http://hsphbio.ghost.io/people/), [Center for Health Bioinformatics](http://compbio.sph.harvard.edu/chb/) at the [Harvard School of Public Health](http://www.hsph.harvard.edu/) 
@@ -34,4 +34,4 @@ Uses many "standard" tools that exist on most Galaxy servers, and
 * [CHB Harvard ChIP-Seq Workshop](http://hbc.github.io/ngs-workshops/courses/introduction-to-chip-seq/)
 * [one of a set of online tutorials](http://hbc.github.io/ngs-workshops/courses/)
 
-[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)
+[CategoryTrainingResource](/src/category-training-resource/index.md)

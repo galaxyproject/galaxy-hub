@@ -1,11 +1,11 @@
 ---
 autotoc: true
 ---
-<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
+<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
 {{> Community/GalaxyAdmins/LinkBox }}
 
-The [GalaxyAdmins group (formerly GalaxyCzars)](/src/Community/GalaxyAdmins/index.md) was started in April 2012.  As part of that launch, an online survey was [sent out in May](/src/news/GalaxyCzarsSurvey/index.md).  This page summarizes and categorizes the responses to that survey.  There were 31 total responses.
+The [GalaxyAdmins group (formerly GalaxyCzars)](/src/community/galaxy-admins/index.md) was started in April 2012.  As part of that launch, an online survey was [sent out in May](/src/news/galaxy-czars-survey/index.md).  This page summarizes and categorizes the responses to that survey.  There were 31 total responses.
 
 *Note: Answers have been put into various categories, depending on content.  Some answers covered multiple areas and have been split up.  If you disagree with the categorization of a particular answer, please feel free to move it elsewhere.  This is a wiki, after all.*
 
@@ -513,7 +513,7 @@ The original responses, minus name, institution and email are **[also available]
 1. *My favourite food.*
 1. Nothing at the moment.
 1. Covered it all really.  Nice job :)
-1. We are maintaining these notes for teleconference QA on our wiki as well: https://dev.uabgrid.uab.edu/wiki[/GalaxyTeleconference](/src/Community/GalaxyAdmins/Surveys/2012/GalaxyTeleconference/index.md)-2012-05
+1. We are maintaining these notes for teleconference QA on our wiki as well: https://dev.uabgrid.uab.edu/wiki[/GalaxyTeleconference](/src/community/galaxy-admins/surveys/2012/GalaxyTeleconference/index.md)-2012-05
 1. I am ready and willing to share the knowledge and experience I have gathered so far.
 1. I appreciate this effort
 

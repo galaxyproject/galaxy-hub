@@ -1,23 +1,23 @@
-<div class='newsItemHeader'>[June 2013 Galaxy Update](/src/news/2013_06GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[June 2013 Galaxy Update](/src/news/2013_06-galaxy-update/index.md)</div>
 
-<div class='right'><a href='/src/GalaxyUpdates/2013_06/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="June 2013 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/src/galaxy-updates/2013_06/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="June 2013 Galaxy Update" width=150 /></a></div>
 
-The [June 2013 Galaxy Update is now available](/src/GalaxyUpdates/2013_06/index.md). 
+The [June 2013 Galaxy Update is now available](/src/galaxy-updates/2013_06/index.md). 
 
 **Highlights:**
-* **[Register](/src/events/GCC2013/Register/index.md) for [GCC2013](/src/GalaxyUpdates/2013_06/index.md#gcc2013) by ~~7 June~~ 14 June to avoid late registration rates**
-* [Two new public servers](/src/GalaxyUpdates/2013_06/index.md#new-public-servers) ODoSE and CBiB
-* [39 new papers](/src/GalaxyUpdates/2013_06/index.md#new-papers)
-* [Open Positions](/src/GalaxyUpdates/2013_06/index.md#whos-hiring) at four different institutions
-* [Other Upcoming Events](/src/GalaxyUpdates/2013_06/index.md#other-upcoming-events)
-* [Duplicate Accounts on Main](/src/GalaxyUpdates/2013_06/index.md#duplicate-accounts-on-main)
-* [Tool Shed Contributions](/src/GalaxyUpdates/2013_06/index.md#tool-shed-contributions)
-* [Other News](/src/GalaxyUpdates/2013_06/index.md#other-news)
+* **[Register](/src/events/gcc2013/register/index.md) for [GCC2013](/src/galaxy-updates/2013_06/index.md#gcc2013) by ~~7 June~~ 14 June to avoid late registration rates**
+* [Two new public servers](/src/galaxy-updates/2013_06/index.md#new-public-servers) ODoSE and CBiB
+* [39 new papers](/src/galaxy-updates/2013_06/index.md#new-papers)
+* [Open Positions](/src/galaxy-updates/2013_06/index.md#whos-hiring) at four different institutions
+* [Other Upcoming Events](/src/galaxy-updates/2013_06/index.md#other-upcoming-events)
+* [Duplicate Accounts on Main](/src/galaxy-updates/2013_06/index.md#duplicate-accounts-on-main)
+* [Tool Shed Contributions](/src/galaxy-updates/2013_06/index.md#tool-shed-contributions)
+* [Other News](/src/galaxy-updates/2013_06/index.md#other-news)
 
-If you have anything you would like to see in the July *[Galaxy Update](/src/GalaxyUpdates/index.md)*, please let us know.
+If you have anything you would like to see in the July *[Galaxy Update](/src/galaxy-updates/index.md)*, please let us know.
 
-[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-05-31 </div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

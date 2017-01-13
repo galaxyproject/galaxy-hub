@@ -3,39 +3,39 @@ autotoc: true
 title: Public Galaxy Main Instance ([usegalaxy.org](https://usegalaxy.org))
 ---
 <div class='center'>
-<a href='http://usegalaxy.org'><img src="/src/images/Logos/UseGalaxy.orgLogo600.png" alt="usegalaxy.org (Main)" width="400" /></a>
+<a href='http://usegalaxy.org'><img src="/src/images/logos/UseGalaxy.orgLogo600.png" alt="usegalaxy.org (Main)" width="400" /></a>
  
 
 </div>
 
-<div class='right'></div> <div class='left'><a href='https://usegalaxy.org/'><img src="/src/images/Screenshots/GalaxyMainHome.png" alt="Galaxy Main Server" width="200" /></a></div>
+<div class='right'></div> <div class='left'><a href='https://usegalaxy.org/'><img src="/src/images/screenshots/GalaxyMainHome.png" alt="Galaxy Main Server" width="200" /></a></div>
 
-The Galaxy **Main** instance is available as a free public service at [UseGalaxy.org](https://usegalaxy.org/). This is the Galaxy Project's production [Galaxy instance](http://usegalaxy.org/). Main is where Galaxy's data and tools are functionality integrated and ready to use. Main is useful for sharing/publishing data and methods with colleagues for routine analysis or with the larger scientific community for publications and supplemental material. **[Test](/src/Test/index.md)** is also free and public, but is considered a beta site.
+The Galaxy **Main** instance is available as a free public service at [UseGalaxy.org](https://usegalaxy.org/). This is the Galaxy Project's production [Galaxy instance](http://usegalaxy.org/). Main is where Galaxy's data and tools are functionality integrated and ready to use. Main is useful for sharing/publishing data and methods with colleagues for routine analysis or with the larger scientific community for publications and supplemental material. **[Test](/src/test/index.md)** is also free and public, but is considered a beta site.
 
-Anyone can use the public servers, with or without an account, but Galaxy [user accounts](/src/Learn/UserAccounts/index.md) are simple to create (email, password, user name and go!). With an account, data quotas are increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages). Remember, Galaxy's **[Terms and Conditions](https://usegalaxy.org/static/terms.html)** specifically declare a "one-account per user" requirement.
+Anyone can use the public servers, with or without an account, but Galaxy [user accounts](/src/learn/user-accounts/index.md) are simple to create (email, password, user name and go!). With an account, data quotas are increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages). Remember, Galaxy's **[Terms and Conditions](https://usegalaxy.org/static/terms.html)** specifically declare a "one-account per user" requirement.
 
-To understand if Main is the right Galaxy choice for your project, please see [Choices](/src/BigPicture/Choices/index.md) for a description of the different types of possible Galaxy instances. Galaxy is available to [install as a local instance](/src/Admin/GetGalaxy/index.md), to run [on the cloud](/src/CloudMan/index.md), to use at other [Public Galaxy Servers](/src/PublicGalaxyServers/index.md), or preinstalled on your own Galaxy [appliance](http://www.bioteam.net/slipstream/galaxy-edition).
+To understand if Main is the right Galaxy choice for your project, please see [Choices](/src/big-picture/choices/index.md) for a description of the different types of possible Galaxy instances. Galaxy is available to [install as a local instance](/src/admin/get-galaxy/index.md), to run [on the cloud](/src/cloudman/index.md), to use at other [Public Galaxy Servers](/src/public-galaxy-servers/index.md), or preinstalled on your own Galaxy [appliance](http://www.bioteam.net/slipstream/galaxy-edition).
 
 ## Information about Main
 
 The status page with the current state of the Main server is available at [http://status.galaxyproject.org/](http://status.galaxyproject.org/).
 
 
-The [Learn](/src/Learn/index.md) pages include information on how to use Main and most other Galaxy instances. Also see:
+The [Learn](/src/learn/index.md) pages include information on how to use Main and most other Galaxy instances. Also see:
 
-* [Frequently Asked Questions](/src/Main/FAQ/index.md)
-* [Main Status Notices](/src/Main/Notices/index.md)
-* [Datasets](/src/Learn/ManagingDatasets/index.md)
-* [Disk Quotas](/src/Admin/DiskQuotas/index.md)
-* [Data Libraries](/src/Main/DataLibraries/index.md)
-* [Datatypes](/src/Learn/Datatypes/index.md)
-* [Data Sources](/src/Learn/DataSources/index.md)
-* [MAF Analysis](/src/Main/MAFAnalysis/index.md)
-* [Tests Framework](/src/Main/TestsFramework/index.md)
+* [Frequently Asked Questions](/src/main/faq/index.md)
+* [Main Status Notices](/src/main/notices/index.md)
+* [Datasets](/src/learn/managing-datasets/index.md)
+* [Disk Quotas](/src/admin/disk-quotas/index.md)
+* [Data Libraries](/src/main/data-libraries/index.md)
+* [Datatypes](/src/learn/datatypes/index.md)
+* [Data Sources](/src/learn/DataSources/index.md)
+* [MAF Analysis](/src/main/maf-analysis/index.md)
+* [Tests Framework](/src/main/tests-framework/index.md)
 
 ## Job resubmission to Stampede
 
-Certain tools will be automatically "resubmitted" to Stampede (see [Job execution on Stampede](/src/Main/index.md#stampede) for more about Stampede) if they initially run on Galaxy's local cluster but exceed the walltime (run time limit). The walltime differs per tool and is calculated based on previous average runtimes of that tool:
+Certain tools will be automatically "resubmitted" to Stampede (see [Job execution on Stampede](/src/main/index.md#stampede) for more about Stampede) if they initially run on Galaxy's local cluster but exceed the walltime (run time limit). The walltime differs per tool and is calculated based on previous average runtimes of that tool:
 
 <table>
   <tr>
@@ -95,7 +95,7 @@ Certain tools will be automatically "resubmitted" to Stampede (see [Job executio
 
 When a job is resubmitted you will see its state turn from running (yellow) back to gray (queued) and a blue message box will appear when the dataset is expanded explaining that the job has been resubmitted.
 
-Our goal with the Stampede resubmission system is to provide a balance to Galaxy users: to allow those with relatively small jobs to run them quickly without a wait, but still be able to support larger scale analyses with a reasonable wait but higher job concurrency limits. See the [User data and job quotas](/src/Main/index.md#quotas) section below for more on concurrency limits.
+Our goal with the Stampede resubmission system is to provide a balance to Galaxy users: to allow those with relatively small jobs to run them quickly without a wait, but still be able to support larger scale analyses with a reasonable wait but higher job concurrency limits. See the [User data and job quotas](/src/main/index.md#quotas) section below for more on concurrency limits.
 
 If you know (due to previous runs of the tool using similar inputs and parameters) that your job will reach the walltime on the local cluster, you should directly submit it to Stampede to avoid the time wasted running to walltime on the Galaxy cluster.
 
@@ -191,12 +191,12 @@ Your actual number of concurrent jobs may be less at any particular time, or cer
 
 ### Monitoring data use
 
-Exceeding quotas will prevent new jobs from running, but Galaxy users can monitor and [manage datasets](/src/Learn/ManagingDatasets/index.md) in several ways:
+Exceeding quotas will prevent new jobs from running, but Galaxy users can monitor and [manage datasets](/src/learn/managing-datasets/index.md) in several ways:
 
 1. Percent of quota limit used by a user account is noted in the top right corner of the Galaxy interface within a bar icon.
 1. Exact total user data size and quota limit is noted on the page: **User → Preferences** (top menu bar).
 1. Size of individual histories is listed on the page: **Options → Saved Histories** (left history pane's menu).
-1. Size of individual datasets can be found within a dataset's expanded box either written directly under the dataset's name and/or by viewing the dataset's **Details** (*click* on View Details icon ![History Info Icon](/src/images/Icons/HistoryInfo.png) ).
+1. Size of individual datasets can be found within a dataset's expanded box either written directly under the dataset's name and/or by viewing the dataset's **Details** (*click* on View Details icon ![History Info Icon](/src/images/icons/HistoryInfo.png) ).
 
 ## User Account Quotas
 
@@ -214,7 +214,7 @@ Any jobs queued after the limit of 8 has been met will remain in the status "pau
 
 #### Data
 
-Reduce the amount of data in your account. Start with removing any Histories that are no longer needed on the **Options → Saved Histories** form with the option **Delete Permanently**. More information about how to manage data is covered in this wiki [Managing Datasets](/src/Learn/ManagingDatasets/index.md) and in this video [Managing Histories](http://vimeo.com/galaxyproject/managehistories).
+Reduce the amount of data in your account. Start with removing any Histories that are no longer needed on the **Options → Saved Histories** form with the option **Delete Permanently**. More information about how to manage data is covered in this wiki [Managing Datasets](/src/learn/managing-datasets/index.md) and in this video [Managing Histories](http://vimeo.com/galaxyproject/managehistories).
 
 #### Jobs
 
@@ -228,16 +228,16 @@ Please see the [Support](/src/support/index.md#error_from_tools) wiki for help i
 
 ## Developers and Administrators
 
-New Admin features have been added and more are planned for in the near term. Details explained in: [Disk Quotas](/src/Admin/DiskQuotas/index.md). Feedback about the implementation of quota management is welcomed at the [mailing list](/src/MailingLists/index.md) galaxy-dev@bx.psu.edu .
+New Admin features have been added and more are planned for in the near term. Details explained in: [Disk Quotas](/src/admin/disk-quotas/index.md). Feedback about the implementation of quota management is welcomed at the [mailing list](/src/mailing-lists/index.md) galaxy-dev@bx.psu.edu .
 
 ## Quotas at the Galaxy Test public instance
 
-See [Test](/src/Test/index.md#quotas).
+See [Test](/src/test/index.md#quotas).
 
 ## Quota Implementation
 
 Data quotas were implemented on the Main instance in mid-October 2011.
 
-<div class='center'> <a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/Logos/UseGalaxySearch.png" alt="Search all "using Galaxy" resources" width="120" /></a>
+<div class='center'> <a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/logos/UseGalaxySearch.png" alt="Search all "using Galaxy" resources" width="120" /></a>
 
 [Search all "using Galaxy" resources](http://galaxyproject.org/search/usegalaxy) </div>

@@ -1,4 +1,4 @@
-<div class='right'>![](/src/GalaxyTeam/Mo.jpg)</div>
+<div class='right'>![](/src/galaxy-team/Mo.jpg)</div>
 
 # Mo Heydarian
 

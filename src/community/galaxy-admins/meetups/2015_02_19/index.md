@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2015/02/19 Web Meetup<br /><br />
 
 </div></div>
@@ -20,11 +20,11 @@
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em><a href='/src/Community/GalaxyAdmins/index.md'>GalaxyAdmins</a> direction</em>  (<a href='PLACEHOLDER_ATTACHMENT_URL/src/Galaxy_admins_20150219.hrh.pdf'>slides</a>)<div class='indent'><a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> </div><em><a href='/src/news/2014Questionnaire/index.md'>Results from the 2014 Galaxy Community Questionnaires</a></em> (<a href='PLACEHOLDER_ATTACHMENT_URL/src/2014QuestionnaireSlides.pdf'>Slides</a>)<div class='indent'><a href='/src/DaveClements/index.md'>Dave Clements</a> </div><em>Galaxy Project Update: Gravity</em> <div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
+    <td> <em><a href='/src/community/galaxy-admins/index.md'>GalaxyAdmins</a> direction</em>  (<a href='PLACEHOLDER_ATTACHMENT_URL/src/Galaxy_admins_20150219.hrh.pdf'>slides</a>)<div class='indent'><a href='/src/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> </div><em><a href='/src/news/2014-questionnaire/index.md'>Results from the 2014 Galaxy Community Questionnaires</a></em> (<a href='PLACEHOLDER_ATTACHMENT_URL/src/2014QuestionnaireSlides.pdf'>Slides</a>)<div class='indent'><a href='/src/dave-clements/index.md'>Dave Clements</a> </div><em>Galaxy Project Update: Gravity</em> <div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
-    <td> <a href='https://connect.johnshopkins.edu/p9oss8nhzqe/'>Screencast</a> <div class='indent'>Room will open 15 minutes before meetup</div> <a href='/src/Community/GalaxyAdmins/Surveys/2014/index.md'>Admin Questionnaire Results</a><div class='indent'>Summarizes responses about deployment</div></td>
+    <td> <a href='https://connect.johnshopkins.edu/p9oss8nhzqe/'>Screencast</a> <div class='indent'>Room will open 15 minutes before meetup</div> <a href='/src/community/galaxy-admins/surveys/2014/index.md'>Admin Questionnaire Results</a><div class='indent'>Summarizes responses about deployment</div></td>
   </tr>
 </table>
 
@@ -33,13 +33,13 @@
 
 # GalaxyAdmins is Back!
 
-Except for a [meetup at GCC2014](/src/events/GCC2014/BoFs/GalaxyAdmins/index.md), the [GalaxyAdmins group](/src/Community/GalaxyAdmins/index.md) has been hiatus for a while.  Thanks to the efforts of [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md), the [GalaxyAdmins group](/src/Community/GalaxyAdmins/index.md) *is back.*  Starting in February 2015, we will resume our bi-monthly web meetups.  
+Except for a [meetup at GCC2014](/src/events/gcc2014/bofs/galaxy-admins/index.md), the [GalaxyAdmins group](/src/community/galaxy-admins/index.md) has been hiatus for a while.  Thanks to the efforts of [Hans-Rudolf Hotz](/src/hansrudolf-hotz/index.md), the [GalaxyAdmins group](/src/community/galaxy-admins/index.md) *is back.*  Starting in February 2015, we will resume our bi-monthly web meetups.  
 
-*[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
+*[GalaxyAdmins](/src/community/galaxy-admins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
 ## Fall 2014 Galaxy Community Questionnaires Summary
 
-The lead presentation will summarize the [Galaxy Community Questionnaires](/src/news/2014Questionnaire/index.md) that were run last fall.  The questionnaires covered both Galaxy usage and deployment.
+The lead presentation will summarize the [Galaxy Community Questionnaires](/src/news/2014-questionnaire/index.md) that were run last fall.  The questionnaires covered both Galaxy usage and deployment.
 
 ## Galaxy Project Update: Gravity
 
@@ -54,7 +54,7 @@ Installing this will give you two executables, galaxycfg and galaxyadm. As their
 A virtualenv will automatically be created for your Galaxy server. It's a good thing.
 </div>
 
-<div class='right'><br /><a href='http://bit.ly/admins1502'><img src="/src/images/Logos/AdobeConnectSquarish.jpg" alt="February 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></a></div>
+<div class='right'><br /><a href='http://bit.ly/admins1502'><img src="/src/images/logos/AdobeConnectSquarish.jpg" alt="February 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></a></div>
 
 ## Call Technology
 
@@ -66,4 +66,4 @@ The  [meetup's online conference room](http://bit.ly/admins1502) will open 15 mi
   * If you raise your hand, the host will need to recognize you.
   * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
-<div class='center'><img src="/src/Community/GalaxyAdmins/AdobeConnectQuestion.png" alt="" width="100%" /></div>
+<div class='center'><img src="/src/community/galaxy-admins/AdobeConnectQuestion.png" alt="" width="100%" /></div>

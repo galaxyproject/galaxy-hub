@@ -2,7 +2,7 @@
 title: [RNA Galaxy Workbench](https://github.com/bgruening/galaxy-rna-workbench-extra/blob/master/README.md)
 ---
 <div class='center'>
-<a href='https://github.com/bgruening/galaxy-rna-workbench-extra/blob/master/README.md'><img src="/src/images/Logos/de.NBI.png" alt="RNA Galaxy Workbench from theRNA Bioinformatic Center of the German Network for Bioinformatics Infrastructure" width="400" /></a>
+<a href='https://github.com/bgruening/galaxy-rna-workbench-extra/blob/master/README.md'><img src="/src/images/logos/de.NBI.png" alt="RNA Galaxy Workbench from theRNA Bioinformatic Center of the German Network for Bioinformatics Infrastructure" width="400" /></a>
 </div>
 
 
@@ -10,8 +10,8 @@ title: [RNA Galaxy Workbench](https://github.com/bgruening/galaxy-rna-workbench-
 
 
 <div class='dictbox'>
- Appliance:: **[RNA Galaxy Workbench](/src/VA/RNAGalaxyWorkbench/index.md)**
- Technology:: **[Docker](/src/VirtualAppliances/index.md#docker-containers)**
+ Appliance:: **[RNA Galaxy Workbench](/src/va/rna-galaxy-workbench/index.md)**
+ Technology:: **[Docker](/src/virtual-appliances/index.md#docker-containers)**
  Domains:: **RNA-Seq** 
  Description:: [A Docker based RNA-Seq workbench](https://github.com/bgruening/galaxy-rna-workbench-extra/blob/master/README.md)
  Owners:: [RNA Bioinformatics Center](http://www.denbi.de/index.php/rna-bioinformatic-center-rbc), part of the [German Network for Bioinformatics Infrastructure (de.NBI)](http://www.denbi.de/).
@@ -23,4 +23,4 @@ title: [RNA Galaxy Workbench](https://github.com/bgruening/galaxy-rna-workbench-
 * [README](https://github.com/bgruening/galaxy-rna-workbench-extra/blob/master/README.md)
 * [RNA Bioinformatics Center](http://www.denbi.de/index.php/rna-bioinformatic-center-rbc), [German Network for Bioinformatics Infrastructure (de.NBI)](http://www.denbi.de/) 
 
-[CategoryVirtualAppliance](/src/CategoryVirtualAppliance/index.md)
+[CategoryVirtualAppliance](/src/category-virtual-appliance/index.md)

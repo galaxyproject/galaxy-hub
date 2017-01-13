@@ -1,5 +1,5 @@
 ---
-title: [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) BoF
+title: [GalaxyAdmins](/src/community/galaxy-admins/index.md) BoF
 ---
 {{> Events/GCC2013/Header }}
 
@@ -9,19 +9,19 @@ title: [GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) BoF
 {{> Events/GCC2013/BoF/LinkBox }}
 {{> Community/GalaxyAdmins/LinkBox }}
 
-<div class='left'><a href='/src/events/GCC2013/BoF/index.md'><img src="/src/images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a><br />
-<a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
+<div class='left'><a href='/src/events/gcc2013/bof/index.md'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a><br />
+<a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
 
-This page describes the **[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)** [Birds of a Feather](/src/events/GCC2013/BoF/index.md) meetup being held at [GCC2013](/src/events/GCC2013/index.md).
+This page describes the **[GalaxyAdmins](/src/community/galaxy-admins/index.md)** [Birds of a Feather](/src/events/gcc2013/bof/index.md) meetup being held at [GCC2013](/src/events/gcc2013/index.md).
 
-[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/src/Community/GalaxyAdmins/Meetups/index.md) and at events like GCC2013, where a lot of us happen to be.
+[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/src/community/galaxy-admins/meetups/index.md) and at events like GCC2013, where a lot of us happen to be.
 
-GCC2013 coincides with the one year anniversary of GalaxyAdmins starting up and this is a good time to discuss the [future direction of the group](/src/Community/GalaxyAdmins/Future/index.md).  *This discussion has started in advance of GCC2013 as [this email thread](http://dev.list.galaxyproject.org/GalaxyAdmins-Group-Future-Directions-td4659133.html).* 
+GCC2013 coincides with the one year anniversary of GalaxyAdmins starting up and this is a good time to discuss the [future direction of the group](/src/community/galaxy-admins/future/index.md).  *This discussion has started in advance of GCC2013 as [this email thread](http://dev.list.galaxyproject.org/GalaxyAdmins-Group-Future-Directions-td4659133.html).* 
 
-We plan to continue, and perhaps finish, that discussion at GCC2013, at this BoF session.  That discussion and what we decide will be posted on the [GalaxyAdmins Future page](/src/Community/GalaxyAdmins/Future/index.md).  However, the current talking points are:
+We plan to continue, and perhaps finish, that discussion at GCC2013, at this BoF session.  That discussion and what we decide will be posted on the [GalaxyAdmins Future page](/src/community/galaxy-admins/future/index.md).  However, the current talking points are:
 
-* [Goal and Activities](/src/Community/GalaxyAdmins/Future/index.md#galaxyadmins-goals-and-activities)
-* [Leadership](/src/Community/GalaxyAdmins/Future/index.md#leadership) 
+* [Goal and Activities](/src/community/galaxy-admins/future/index.md#galaxyadmins-goals-and-activities)
+* [Leadership](/src/community/galaxy-admins/future/index.md#leadership) 
 
 ## When and Where
 
@@ -32,15 +32,15 @@ We plan to continue, and perhaps finish, that discussion at GCC2013, at this BoF
 </table>
 
 
-The [tentative time and location](/src/events/GCC2013/BoF/index.md#bof-schedule) is Tuesday lunchtime in the cantina. Collect your lunch and then carry it up to the Cantina's balcony/mezzanine room reached from the staircase inside the cantina near the entrance.
+The [tentative time and location](/src/events/gcc2013/bof/index.md#bof-schedule) is Tuesday lunchtime in the cantina. Collect your lunch and then carry it up to the Cantina's balcony/mezzanine room reached from the staircase inside the cantina near the entrance.
 
 ## Who is Participating
 
 If you are interested, please add your name below and/or send an email to [Dave Clements](mailto:clements AT galaxyproject DOT org).  There were about 21 people present, including:
 
-* [Dave Clements](/src/DaveClements/index.md)
+* [Dave Clements](/src/dave-clements/index.md)
 * Shaun Webb
-* [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md)
+* [Hans-Rudolf Hotz](/src/hansrudolf-hotz/index.md)
 * Peter Li
 * [Christian Andreetta](http://www.computing.uni.no/staff?nickname=christiana)
 * Srinivas Maddhi
@@ -62,7 +62,7 @@ If you are interested, please add your name below and/or send an email to [Dave 
 **Reference / Wiki**
 * Want a knowledge base with different descriptions of Galaxy Deployments
 * Possibly have an Admin/Logs section where people can describe what they did
-* Add a list of Admin Tutorials to [Admin](/src/Admin/index.md) and [Cloud](/src/CloudMan/index.md) Hub pages, similar to what is on the [Learn](/src/Learn/index.md) hub page.
+* Add a list of Admin Tutorials to [Admin](/src/admin/index.md) and [Cloud](/src/cloudman/index.md) Hub pages, similar to what is on the [Learn](/src/learn/index.md) hub page.
 
 **Mailing Lists / Forums**
 
@@ -97,13 +97,13 @@ If you still want this functionality, you are encouraged to configure your email
 
 ### Action Items
 
-**The first [GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2013_11_20/index.md) after the GCC was about followup to this discussion.**
+**The first [GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013_11_20/index.md) after the GCC was about followup to this discussion.**
 
 
 Reference / Wiki
 * Dave C will set up an "installation description" template that enables people to provide a basic description of their installation.  This is not a database, but it would build a searchable list of deployments
 * Dave C will create a section of the wiki for admins to log what they did during installs.
-* Dave C will add a list of Admin Tutorials to [Admin](/src/Admin/index.md) and [Cloud](/src/CloudMan/index.md) Hub pages, similar to what is on the [Learn](/src/Learn/index.md) hub page.
+* Dave C will add a list of Admin Tutorials to [Admin](/src/admin/index.md) and [Cloud](/src/cloudman/index.md) Hub pages, similar to what is on the [Learn](/src/learn/index.md) hub page.
 
 Mailing Lists / Forums
 

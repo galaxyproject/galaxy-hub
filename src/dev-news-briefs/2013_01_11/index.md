@@ -45,7 +45,7 @@ There are three categories of repository dependencies which will be discussed in
 <br />
 # Other Tool Shed
 
-**[Tool Shed](/src/ToolShed/index.md)**
+**[Tool Shed](/src/tool-shed/index.md)**
 
 ### Galaxy fixes and enhancements related to tool shed features
 
@@ -62,7 +62,7 @@ There are three categories of repository dependencies which will be discussed in
 <br />
 # Data
 
-1. Many new reference genome datasets, indexes, and liftOver files have been added to the **public [Main](/src/Main/index.md) Galaxy instance** and **rsync** download area ([get the data](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)). Among these, the following full reference genomes sourced from **[UCSC](http://genome.ucsc.edu/)** were added:
+1. Many new reference genome datasets, indexes, and liftOver files have been added to the **public [Main](/src/main/index.md) Galaxy instance** and **rsync** download area ([get the data](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)). Among these, the following full reference genomes sourced from **[UCSC](http://genome.ucsc.edu/)** were added:
   * `Budgerigar Sep. 2011 (WUSTL v6.3/melUnd1)`
   * `Chicken Nov. 2011 (ICGSC Gallus_gallus-4.0/galGal4)`
   * `Cow Oct. 2011 (Baylor Btau_4.6.1/bosTau7) (bosTau7)`
@@ -77,7 +77,7 @@ There are three categories of repository dependencies which will be discussed in
   * `Turkey Dec. 2009 (TGC Turkey_2.01/melGal1)`
   * `X. tropicalis Nov. 2009 (JGI 4.2/xenTro3) (xenTro3)`
 2. #2 Additional genomes, indexes, and related datasets will continue to be published over the next several weeks and highlights will appear in subsequent News Briefs.
-3. #3 The genome "`Yeast (Saccharomyces cerevisiae): Saccharomyces_cerevisiae_S288C_SGD2010`" has been discovered to be mislabeled, representing the Apr. 2011 release from SGD (not Feb. 2010), which makes it identical to the "`sacCer3`" genome from UCSC. This genome will be redacted on the [Main](/src/Main/index.md) server and users should migrate to using the "`sacCer3`" genome build as the alternative. Any chromosome naming issues associated with the `Saccharomyces_cerevisiae_S288C_SGD2010 build` (due to names of format "chr3" instead of the author published "chrIII") will also be resolved by migrating to this new, correct, reference genome build.
+3. #3 The genome "`Yeast (Saccharomyces cerevisiae): Saccharomyces_cerevisiae_S288C_SGD2010`" has been discovered to be mislabeled, representing the Apr. 2011 release from SGD (not Feb. 2010), which makes it identical to the "`sacCer3`" genome from UCSC. This genome will be redacted on the [Main](/src/main/index.md) server and users should migrate to using the "`sacCer3`" genome build as the alternative. Any chromosome naming issues associated with the `Saccharomyces_cerevisiae_S288C_SGD2010 build` (due to names of format "chr3" instead of the author published "chrIII") will also be resolved by migrating to this new, correct, reference genome build.
 
 <br />
 # Visualization
@@ -129,9 +129,9 @@ Although there are no specific known security fixes in this distribution, all Ga
 [News](/src/news/index.md), ***[January 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_13)***
 
 <div class='right'>
-<a href='http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay'><img src="/src/images/Logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="160" /></a>
+<a href='http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="160" /></a>
 <br />
-<a href='http://wiki.galaxyproject.org/Community/GalaxyAdmins/Meetups/2013_01_16'><img src="/src/images/Logos/GalaxyAdmins.png" alt="January 2013 GalaxyAdmins Meetup" width="160" /></a>
+<a href='http://wiki.galaxyproject.org/Community/GalaxyAdmins/Meetups/2013_01_16'><img src="/src/images/logos/GalaxyAdmins.png" alt="January 2013 GalaxyAdmins Meetup" width="160" /></a>
 </div>
 
 * [GCC2013](http://wiki.galaxyproject.org/Events/GCC2013):

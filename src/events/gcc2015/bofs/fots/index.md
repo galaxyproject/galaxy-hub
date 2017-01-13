@@ -7,17 +7,17 @@ title: Friends of the Tool Shed
 
 
 <div class='dictbox'>
- BoF:: [Friends of the Tool Shed](/src/events/GCC2015/BoFs/FoTS/index.md)
+ BoF:: [Friends of the Tool Shed](/src/events/gcc2015/bofs/fots/index.md)
  Summary:: Discuss utilities distribution approaches available to Galaxy and praise the Shed
  Audience:: Tool developers and Shed enthusiasts
  When:: Tuesday, 7 July, 20:30
  Where:: we meet at the http://thecellarhouse.co.uk/
- Contact:: [Martin Cech](/src/Marten/index.md)
+ Contact:: [Martin Cech](/src/marten/index.md)
 </div>
 
-<div class='left'><a href='/src/events/GCC2015/BoFs/index.md'><img src="/src/images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
+<div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
-This page describes the **Friends of the Tool Shed** [Birds of a Feather](/src/events/GCC2015/BoFs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
+This page describes the **Friends of the Tool Shed** [Birds of a Feather](/src/events/gcc2015/bofs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 
 ## Description
 
@@ -25,7 +25,7 @@ Tools, dependencies, workflows, datatypes, visualizations, pages, histories, ana
 
 ## Audience
 
-All are welcome, even [John](/src/JohnChilton/index.md)
+All are welcome, even [John](/src/john-chilton/index.md)
 
 ## When and Where
 
@@ -34,20 +34,20 @@ All are welcome, even [John](/src/JohnChilton/index.md)
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [Martin Cech](/src/Marten/index.md).
+If you are interested, please add your name below and/or send an email to [Martin Cech](/src/marten/index.md).
 
-* [Martin Cech](/src/Marten/index.md)
+* [Martin Cech](/src/marten/index.md)
 * Eric Rasche
 * John Chilton
 * Peter Cock
 * Bjoern Gruening
 * [Nate Coraor](/src/nate/index.md)
-* [Daniel Blankenberg](/src/Dan/index.md)
-* [Nicola Soranzo](/src/NicolaSoranzo/index.md)
+* [Daniel Blankenberg](/src/dan/index.md)
+* [Nicola Soranzo](/src/nicola-soranzo/index.md)
 * Next Name
 
 ## Questions?
 
-Send them to [Martin Cech](/src/Marten/index.md).
+Send them to [Martin Cech](/src/marten/index.md).
 
 [CategoryBo](/src/CategoryBo/index.md)F

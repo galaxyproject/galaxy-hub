@@ -2,7 +2,7 @@
 title: [kmer-SVM](http://kmersvm.beerlab.org/)
 ---
 <div class='center'>
-<a href='http://kmersvm.beerlab.org/'><img src="/src/PublicGalaxyServers/kmer-SVM.png" alt="kmer-SVM"  /></a>
+<a href='http://kmersvm.beerlab.org/'><img src="/src/public-galaxy-servers/kmer-SVM.png" alt="kmer-SVM"  /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: [kmer-SVM](http://kmersvm.beerlab.org/)
 
 
 <div class='deploymentbox'>
- Deployment:: **[kmer-SVM](/src/Community/Deployment/kmer-SVM/index.md)**
+ Deployment:: **[kmer-SVM](/src/community/deployment/kmer-svm/index.md)**
  Domain:: Genomics, Sequence Analysis
  Owners:: [Michael Beer, Biomedical Engineering, Johns Hopkins University](http://beerlab.org )
  Audience:: General Genomics Researchers  
@@ -57,6 +57,6 @@ General Genomics Researchers
 ## Links
 
 * [kmer-SVM server](http://kmersvm.beerlab.org/)
-* [kmer-svm](/src/PublicGalaxyServers/index.md#kmer-svm) server description on [list of public Galaxy Servers](/src/PublicGalaxyServers/index.md)
+* [kmer-svm](/src/public-galaxy-servers/index.md#kmer-svm) server description on [list of public Galaxy Servers](/src/public-galaxy-servers/index.md)
 
-[CategoryDeployment](/src/CategoryDeployment/index.md)
+[CategoryDeployment](/src/category-deployment/index.md)

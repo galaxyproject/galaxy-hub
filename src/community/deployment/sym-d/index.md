@@ -2,7 +2,7 @@
 title: Name of Deployment
 ---
 <div class='center'>
-<a href='http://symd.nci.nih.gov/'><img src="/src/PublicGalaxyServers/SymD.png" alt="SymD @ National Cancer Institute" height="200" /></a>
+<a href='http://symd.nci.nih.gov/'><img src="/src/public-galaxy-servers/SymD.png" alt="SymD @ National Cancer Institute" height="200" /></a>
 </div>
 
 
@@ -10,10 +10,10 @@ title: Name of Deployment
 
 
 <div class='deploymentbox'>
- Deployment:: **[SymD](/src/Community/Deployment/SymD/index.md)**
+ Deployment:: **[SymD](/src/community/deployment/sym-d/index.md)**
  Domain:: For detecting internally symmetric protein structures
  Owners:: [US National Cancer Institute (NCI)](http://nci.nih.gov/)
- Audience:: [Publicly accessible](/src/PublicGalaxyServers/index.md)  
+ Audience:: [Publicly accessible](/src/public-galaxy-servers/index.md)  
  User Base:: Unknown
  Server Topology:: Virtualized
  Compute:: a VMware vSphere virtualized Ubuntu 12 server
@@ -42,6 +42,6 @@ From "[SymD webserver: a platform for detecting internally symmetric protein str
 * [Instructions](http://symd.nci.nih.gov/static/Interface_help/Interface_help.html)
 * [Example Run](http://symd.nci.nih.gov/static/example_run/GalaxySymD.html)
 * [Email support](mailto:taic@mail.nih.gov)
-* [Public Galaxy Server list entry](/src/PublicGalaxyServers/index.md#symd)
+* [Public Galaxy Server list entry](/src/public-galaxy-servers/index.md#symd)
 
-[CategoryDeployment](/src/CategoryDeployment/index.md)
+[CategoryDeployment](/src/category-deployment/index.md)

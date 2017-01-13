@@ -2,7 +2,7 @@
 title: UIUC-Galaxy
 ---
 <div class='center'>
-<a href='http://galaxy.illinois.edu'><img src="/src/Community/Deployment/UIUC/uclogo_horz_bold.png" alt="University of Illinois Urbana-Champaign"  /></a>
+<a href='http://galaxy.illinois.edu'><img src="/src/community/deployment/uiuc/uclogo_horz_bold.png" alt="University of Illinois Urbana-Champaign"  /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: UIUC-Galaxy
 
 
 <div class='deploymentbox'>
- Deployment:: **[UIUC-Galaxy](/src/Community/Deployment/UIUC/index.md)**
+ Deployment:: **[UIUC-Galaxy](/src/community/deployment/uiuc/index.md)**
  Domain:: General Galaxy deployment
  Owners:: [HPCBio](http://hpcbio.illinois.edu) and [CNRG](http://www.igb.illinois.edu/facilities-services/computer-network)
  Audience:: UI campuses
@@ -61,4 +61,4 @@ Local tool shed.
 
 ## Links
 
-[CategoryDeployment](/src/CategoryDeployment/index.md)
+[CategoryDeployment](/src/category-deployment/index.md)

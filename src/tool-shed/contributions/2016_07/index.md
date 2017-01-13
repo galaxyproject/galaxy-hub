@@ -3,9 +3,9 @@ autotoc: true
 ---
 <div class='right'></div>
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=200 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=200 /></a></div>
 
-Tools contributed to the Galaxy Project Tool Shed in [June and July 2016](/src/GalaxyUpdates/2016_08/index.md).
+Tools contributed to the Galaxy Project Tool Shed in [June and July 2016](/src/galaxy-updates/2016_08/index.md).
 
 ### New Tools
 
@@ -172,7 +172,7 @@ Tools contributed to the Galaxy Project Tool Shed in [June and July 2016](/src/G
 
 * [bcftools_gtcheck](https://toolshed.g2.bx.psu.edu/view/iuc/bcftools_gtcheck): planemo upload for repository https://github.com/galaxyproject/tools-iuc/tree/master/tools/bcftools  Wrapper for bcftools application bcftools gtcheck. https://samtools.github.io/bcftools/
 
-* [data_manager_snpsift_dbnsfp](https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_snpsift_dbnsfp): planemo upload for repository https://github.com/galaxyproject/tools-devteam/tree/master/data_managers/data_manager_snpsift_dbnsfp  Install SnpSift dbNSFP local data Installs dbNSFP data for use by SnpSift dbNSFP. dbNSFP is an integrated database of human functional predictions from multiple algorithms (SIFT, Polyphen2, LRT and MutationTaster, PhyloP and GERP++, etc.).  SnpEff and SnpSift are developed by Pablo Cingolani. http://snpeff.sourceforge.net[/SnpSift](/src/ToolShed/Contributions/2016_07/SnpSift/index.md).html#dbNSFP
+* [data_manager_snpsift_dbnsfp](https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_snpsift_dbnsfp): planemo upload for repository https://github.com/galaxyproject/tools-devteam/tree/master/data_managers/data_manager_snpsift_dbnsfp  Install SnpSift dbNSFP local data Installs dbNSFP data for use by SnpSift dbNSFP. dbNSFP is an integrated database of human functional predictions from multiple algorithms (SIFT, Polyphen2, LRT and MutationTaster, PhyloP and GERP++, etc.).  SnpEff and SnpSift are developed by Pablo Cingolani. http://snpeff.sourceforge.net[/SnpSift](/src/tool-shed/contributions/2016_07/SnpSift/index.md).html#dbNSFP
 
 * [xpath](https://toolshed.g2.bx.psu.edu/view/iuc/xpath): planemo upload for repository https://github.com/galaxyproject/tools-iuc/tree/master/tools/xpath  XPath XML querying tool Execute XPath queries on XML files for use in downstream analysis. Useful for extracting lists of IDs or blast hits from large XML files.
 

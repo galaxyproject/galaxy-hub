@@ -13,7 +13,7 @@ Here are the highlights of the following upgrade:
 
 ### Galaxy's FTP Server New Data Upload Option 
 
-* User how-to: [UploadViaFTP](/src/Admin/Config/UploadviaFTP/index.md)
+* User how-to: [UploadViaFTP](/src/admin/config/upload-via-ftp/index.md)
 * Configuration instructions for local installs: [wiki/Config/UploadViaFTP](http://bitbucket.org/galaxy/galaxy-central/wiki/Config/UploadViaFTP)
 
 ### OpenID Login 
@@ -48,7 +48,7 @@ Here are the highlights of the following upgrade:
 * **Trackster** now supports interactive filtering for **VCF** quality values and BED score values. 
 * For example, a user can drag a slider to filter a file of splice junctions to view junctions supported by different numbers of reads.
 
-![trackster splice example](/src/DevNewsBriefs/2010_11_24/2010_11_24_trackster_splice_b.png)
+![trackster splice example](/src/dev-news-briefs/2010_11_24/2010_11_24_trackster_splice_b.png)
 * Improved CIGAR support to BAM display. Properly displays matches,
 
 deletions, skipped bases, and clipping. Padding for insertions are
@@ -78,8 +78,8 @@ currently not represented in the display.
 * Most tools (PerM, Bowtie, BWA, Lastz, Megablast, SRMA, Tophat) that previously used loc files now have the new data tables organization implemented.
 * Better data tracking has allowed for more informative genome name display in tool dropdown boxes. 
 * For local installations:
-  * See the new wiki describing how to use data tables: [wiki/DataTables](/src/Admin/Tools/Data Tables/index.md)
-  * More help for NGS tool setup (update pending): [wiki/NGSLocalSetup](/src/Admin/NGS Local Setup/index.md)
+  * See the new wiki describing how to use data tables: [wiki/DataTables](/src/admin/tools/Data Tables/index.md)
+  * More help for NGS tool setup (update pending): [wiki/NGSLocalSetup](/src/admin/NGS Local Setup/index.md)
 
 ----
 
@@ -184,7 +184,7 @@ time, especially for data libraries having potentially large menu.
 ### Bug Fixes! 
 
 * Fix for TextToolParameter.get_html_field when provided value is an empty string but default value specified in tool is non-empty string. Fixes issue with rerun button where if a user had input an empty string, the form displayed when rerun would have the default value from the tool and not the actual previously specified value.
-* Fix for Integer[/FloatToolParameter](/src/DevNewsBriefs/2010_11_24/FloatToolParameter/index.md).get_html_field() when 'value' is provided as an integer/float. Fixes an issue seen when saving workflows: If an integer or float tool parameter is changed to a value of 0 or 0.0 and saved, the form field would be redisplayed using the default tool value; and not the value that is now saved in the database.
+* Fix for Integer[/FloatToolParameter](/src/dev-news-briefs/2010_11_24/FloatToolParameter/index.md).get_html_field() when 'value' is provided as an integer/float. Fixes an issue seen when saving workflows: If an integer or float tool parameter is changed to a value of 0 or 0.0 and saved, the form field would be redisplayed using the default tool value; and not the value that is now saved in the database.
 * Fix for setting columns in workflow builder for ColumnListParameter. e.g. allows splitting lists of columns by newlines and commas and strips leading 'c's.
 * Fixes for rerun action to recurse grouping options when checking unvalidated values and cloned HDAs. Better selection of corresponding HDAs from cloned histories, when multiple copies exist.
 * Have rerun action make use of tool.check_and_update_param_values(). Fixes Server Error issue when trying to rerun updated tools.
@@ -213,7 +213,7 @@ time, especially for data libraries having potentially large menu.
 
 **Galaxy** is supported in part by **NSF**, **NHGRI**, the **Huck Institutes of the Life Sciences**, and **The Institute for CyberScience at Penn State**.
 
-[Core Team](/src/GalaxyTeam/index.md)
+[Core Team](/src/galaxy-team/index.md)
 
 [Use Galaxy!](http://usegalaxy.org)
 

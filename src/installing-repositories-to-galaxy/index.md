@@ -1,5 +1,5 @@
 <div class='right'> 
-![Tool Shed logo](/src/images/Logos/ToolShed.jpg)
+![Tool Shed logo](/src/images/logos/ToolShed.jpg)
 {{> ToolShed/LinkBox }}  
 </div>
 

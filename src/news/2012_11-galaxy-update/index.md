@@ -1,23 +1,23 @@
-<div class='newsItemHeader'>[November 2012 Galaxy Update](/src/news/2012_11GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[November 2012 Galaxy Update](/src/news/2012_11-galaxy-update/index.md)</div>
 
-<div class='right'><a href='/src/GalaxyUpdates/2012_11/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="November 2012 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/src/galaxy-updates/2012_11/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="November 2012 Galaxy Update" width=150 /></a></div>
 
-The [November 2012 Galaxy Update is now available](/src/GalaxyUpdates/2012_11/index.md). 
+The [November 2012 Galaxy Update is now available](/src/galaxy-updates/2012_11/index.md). 
 
 **Highlights:**
 
-* [44 new papers](/src/GalaxyUpdates/2012_11/index.md#new-papers), and *500 total papers in the Galaxy CiteULike group.*
-* [Galaxy's new issue reporting system](/src/GalaxyUpdates/2012_11/index.md#new-trello-issue-board)
-* [Upcoming Events and Deadlines](/src/GalaxyUpdates/2012_11/index.md#upcoming-events-and-deadlines)
-* [Open Positions](/src/GalaxyUpdates/2012_11/index.md#whos-hiring) at five different institutions
-* [Tool Shed Contributions](/src/GalaxyUpdates/2012_11/index.md#tool-shed-contributions)
-* [New Distributions](/src/GalaxyUpdates/2012_11/index.md#new-distributions)
-* [Other News](/src/GalaxyUpdates/2012_11/index.md#other-news)
+* [44 new papers](/src/galaxy-updates/2012_11/index.md#new-papers), and *500 total papers in the Galaxy CiteULike group.*
+* [Galaxy's new issue reporting system](/src/galaxy-updates/2012_11/index.md#new-trello-issue-board)
+* [Upcoming Events and Deadlines](/src/galaxy-updates/2012_11/index.md#upcoming-events-and-deadlines)
+* [Open Positions](/src/galaxy-updates/2012_11/index.md#whos-hiring) at five different institutions
+* [Tool Shed Contributions](/src/galaxy-updates/2012_11/index.md#tool-shed-contributions)
+* [New Distributions](/src/galaxy-updates/2012_11/index.md#new-distributions)
+* [Other News](/src/galaxy-updates/2012_11/index.md#other-news)
 
-If you have anything you would like to see in the December *[Galaxy Update](/src/GalaxyUpdates/index.md)*, please let us know.
+If you have anything you would like to see in the December *[Galaxy Update](/src/galaxy-updates/index.md)*, please let us know.
 
-[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-10-31</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

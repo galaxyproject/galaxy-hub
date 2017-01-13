@@ -1,11 +1,11 @@
 {{> Admin/LinkBox }}
 
-Hub Page for [Galaxy administration](/src/Admin/index.md) training materials. See also the [Galaxy Teaching Hub](/src/Teach/index.md) page for end-user training.
+Hub Page for [Galaxy administration](/src/admin/index.md) training materials. See also the [Galaxy Teaching Hub](/src/teach/index.md) page for end-user training.
 
 ## Tutorials
 
-* [Galaxy Admin Tutorial](/src/Admin/Training/GalaxyAdminTutorial/index.md)
-* [ISMB2010 Galaxy Tutorial: Running Your Own](/src/Admin/Training/ISMB2010 Galaxy Tutorial: Running Your Own/index.md)
+* [Galaxy Admin Tutorial](/src/admin/training/galaxy-admin-tutorial/index.md)
+* [ISMB2010 Galaxy Tutorial: Running Your Own](/src/admin/training/ISMB2010 Galaxy Tutorial: Running Your Own/index.md)
 
 ### Tutorials on Other Sites
 

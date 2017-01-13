@@ -8,9 +8,9 @@ title: Tool Development from bright idea to toolshed - Data Managers
 
 {{> Events/GCC2014/LinkBox }}
 
-<div class='right'> <a href='/src/events/GCC2014/TrainingDay/index.md'><img src="/src/images/Logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
+<div class='right'> <a href='/src/events/gcc2014/training-day/index.md'><img src="/src/images/logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
 
-This is the workshop page for the **[Tool Development from bright idea to toolshed - Data Managers](/src/events/GCC2014/TrainingDay/index.md#tool-development-from-bright-idea-to-toolshed---data-managers)** Training Day session at GCC2014.
+This is the workshop page for the **[Tool Development from bright idea to toolshed - Data Managers](/src/events/gcc2014/training-day/index.md#tool-development-from-bright-idea-to-toolshed---data-managers)** Training Day session at GCC2014.
 
 This workshop is offered on June 30, from 3:30 through 6pm, in Room 304 of Charles Commons.
 
@@ -33,7 +33,7 @@ This session covers the tool and ToolShed requirements for using reference data 
 ## Prerequisites
 
 * The virtual machine image for this workshop should be installed before you arrive. 
-  * [How to VM](/src/events/GCC2014/TrainingDay/VMs/index.md)
+  * [How to VM](/src/events/gcc2014/training-day/vms/index.md)
   * [Direct Download](http://depot.galaxyproject.org/GCC2014.ova)
 * A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.  
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop. 
@@ -49,7 +49,7 @@ This session covers the tool and ToolShed requirements for using reference data 
 ## 15:40-16:00 Using Reference Data in Galaxy Tools
 
 * Graphical Overview of Interplay between Built-in Data and Galaxy Tools
-    <a href='/src/Admin/Tools/DataManagers/data_managers_figure_S1_schematic_overview.png'><img src="/src/Admin/Tools/DataManagers/data_managers_figure_S1_schematic_overview.png" alt="" width=600 /></a> 
+    <a href='/src/admin/tools/data-managers/data_managers_figure_S1_schematic_overview.png'><img src="/src/admin/tools/data-managers/data_managers_figure_S1_schematic_overview.png" alt="" width=600 /></a> 
 
 * Discussion of *.loc files
   * Used as a way to provide additional configuration details to a tool, without having to manually edit the actual tool XML file.
@@ -57,7 +57,7 @@ This session covers the tool and ToolShed requirements for using reference data 
   * Often used to store the path (location on disk) of reference data and indexes, along with appropriate metadata (display names, dbkeys/genome builds)
   * Need not end in the suffix of ".loc", although they commonly do by convention.
   * **Tab** delimited flat files, where each row is an entry in the table.
-  * Should **not be accessed directly** in a tool. The [Tool Data Tables](/src/Admin/Tools/Data Tables/index.md) abstraction layer should be used.
+  * Should **not be accessed directly** in a tool. The [Tool Data Tables](/src/admin/tools/Data Tables/index.md) abstraction layer should be used.
 
 * Example of typical use of reference data in a Galaxy tool
   * search toolshed for bwa tool that uses reference data 
@@ -286,7 +286,7 @@ galaxy_data_manager_data_path = tool-data
       http://toolshed.g2.bx.psu.edu/view/devteam/data_manager_bwa_index_builder
   * highlight extra requirements/tags/attributes vs regular galaxy tool
       == Data Manager Tool ==
-      A Data Manager Tool is a special class of [Galaxy Tool](/src/Admin/Tools/Adding Tools/index.md). Data Manager Tools do not appear in the standard Tool Panel and can only be accessed by a Galaxy Administrator. Additionally, the initial content of a Data Manager's output file contains a JSON dictionary with a listing of the Tool parameters and Job settings (i.e. they are a type of OutputParameterJSONTool, this is also available for DataSourceTools). There is no requirement for the underlying Data Manager tool to make use of these contents, but they are provided as a handy way to transfer all of the tool and job parameters without requiring a different command-line argument for each necessary piece of information.
+      A Data Manager Tool is a special class of [Galaxy Tool](/src/admin/tools/Adding Tools/index.md). Data Manager Tools do not appear in the standard Tool Panel and can only be accessed by a Galaxy Administrator. Additionally, the initial content of a Data Manager's output file contains a JSON dictionary with a listing of the Tool parameters and Job settings (i.e. they are a type of OutputParameterJSONTool, this is also available for DataSourceTools). There is no requirement for the underlying Data Manager tool to make use of these contents, but they are provided as a handy way to transfer all of the tool and job parameters without requiring a different command-line argument for each necessary piece of information.
       The primary difference between a standard Galaxy Tool and a Data Manager Tool is that the primary output dataset of a Data Manager Tool **must** be a file containing a JSON description of the new entries to add to a Tool Data Table. The on-disk content to be referenced by the Data Manager Tool, if any, is stored within the *extra_files_path* of the output dataset created by the tool.
     * The tool tag must have the attribute: **tool_type="manage_data"**
       ```xml
@@ -339,7 +339,7 @@ galaxy_data_manager_data_path = tool-data
 * did it work? 
   * *why not?*
 * add the missing bwa dependency
-  * see [Admin/Config/ToolDependencies](/src/Admin/Config/ToolDependencies/index.md)
+  * see [Admin/Config/ToolDependencies](/src/admin/config/tool-dependencies/index.md)
     1. `mkdir /home/galaxy/Desktop/Data_Managers/galaxy/tool_dependencies/bwa/0.5.9/bin`
     2. `mv /home/galaxy/Desktop/Data_Managers/galaxy/galaxy-central/tool-data/sacCer1/bwa_index/sacCer1/bwa /home/galaxy/Desktop/Data_Managers/galaxy/tool_dependencies/bwa/0.5.9/bin/`
 * rerun the Data Manager and confirm that it is working

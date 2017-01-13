@@ -2,7 +2,7 @@
 title: SADI-Galaxy Container
 ---
 <div class='center'>
-<a href='https://mikeleganaaranguren.wordpress.com/2015/01/07/docker-image-for-sadi-galaxy/'><img src="/src/VA/SADIGalaxyDocker/SADIGalaxyWelcome.png" alt="SADI Galaxy Docker Container" height="200" /></a>
+<a href='https://mikeleganaaranguren.wordpress.com/2015/01/07/docker-image-for-sadi-galaxy/'><img src="/src/va/sadi-galaxy-docker/SADIGalaxyWelcome.png" alt="SADI Galaxy Docker Container" height="200" /></a>
 </div>
 
 
@@ -10,8 +10,8 @@ title: SADI-Galaxy Container
 
 
 <div class='dictbox'>
- Appliance:: **[SADI-Galaxy Container](/src/VA/SADIGalaxyDocker/index.md)**
- Technology:: **[Docker](/src/VirtualAppliances/index.md#docker-containers)**
+ Appliance:: **[SADI-Galaxy Container](/src/va/sadi-galaxy-docker/index.md)**
+ Technology:: **[Docker](/src/virtual-appliances/index.md#docker-containers)**
  Domains:: **Web services, RDF** 
  Description:: Make SADI services available in a Galaxy platform. 
  Owners:: [Mikel Egaña Aranguren](https://mikeleganaaranguren.wordpress.com/about/)
@@ -35,6 +35,6 @@ The home page also contains instructions on how to install and use the instance,
 * [SADI-Galaxy Docker container home page](https://mikeleganaaranguren.wordpress.com/2015/01/07/docker-image-for-sadi-galaxy/)
 * [SADI-Galaxy at GitHub](https://github.com/mikel-egana-aranguren/SADI-Galaxy)
 * [SADI-Galaxy Docker image](https://registry.hub.docker.com/u/mikeleganaaranguren/sadi-galaxy)
-* [OPPL Galaxy](/src/PublicGalaxyServers/index.md#oppl-galaxy) instance, which also supports SADI.
+* [OPPL Galaxy](/src/public-galaxy-servers/index.md#oppl-galaxy) instance, which also supports SADI.
 
-[CategoryVirtualAppliance](/src/CategoryVirtualAppliance/index.md)
+[CategoryVirtualAppliance](/src/category-virtual-appliance/index.md)

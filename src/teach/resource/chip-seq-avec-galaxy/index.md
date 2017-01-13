@@ -2,7 +2,7 @@
 title: [ChIP-Seq avec Galaxy](https://youtu.be/qgiH4h52HYc)
 ---
 <div class='center'>
-<a href='https://youtu.be/qgiH4h52HYc'><img src="/src/Teach/Resource/ChIP-SeqAvecGalaxy/ChIP-SeqAvecGalaxyVideo.png" alt="ChIP-Seq avec Galaxy" height="200" /></a>
+<a href='https://youtu.be/qgiH4h52HYc'><img src="/src/teach/resource/chip-seq-avec-galaxy/ChIP-SeqAvecGalaxyVideo.png" alt="ChIP-Seq avec Galaxy" height="200" /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: [ChIP-Seq avec Galaxy](https://youtu.be/qgiH4h52HYc)
 
 
 <div class='deploymentbox'>
- Resource:: **[ChIP-Seq avec Galaxy](/src/Teach/Resource/ChIP-SeqAvecGalaxy/index.md)**
+ Resource:: **[ChIP-Seq avec Galaxy](/src/teach/resource/chip-seq-avec-galaxy/index.md)**
  Types:: Tutorial
  Domains:: **ChIP-Seq** 
  Owners:: Jean-Charles Cadoret, Université Paris Diderot.
@@ -30,4 +30,4 @@ Video is in French.
 
 * [Video  tutorial](https://youtu.be/qgiH4h52HYc)
 
-[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)
+[CategoryTrainingResource](/src/category-training-resource/index.md)

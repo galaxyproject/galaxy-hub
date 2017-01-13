@@ -1,8 +1,8 @@
-The [main Galaxy server](/src/Main/index.md) does not currently (2011/07) provide support for microarray data.  This page describes other options.
+The [main Galaxy server](/src/main/index.md) does not currently (2011/07) provide support for microarray data.  This page describes other options.
 
 ## Public Galaxy Servers
 
-There are numerous other [Public Galaxy Servers](/src/PublicGalaxyServers/index.md).  These are known to provide some support for microarrays:
+There are numerous other [Public Galaxy Servers](/src/public-galaxy-servers/index.md).  These are known to provide some support for microarrays:
 
 
 | Server |  Purpose / Community  |  Other Comments  |  Restrictions  |  Sponsor  | 

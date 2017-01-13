@@ -6,9 +6,9 @@ title: September 2012 Galaxy Update
 
 
 
-<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the September 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the September 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -55,19 +55,19 @@ Welcome to the September 2012 edition of *[Galaxy Update](/src/GalaxyUpdates/ind
 
 These papers may be of interest to the Galaxy community:
 
-* "[Next-generation sequencing data interpretation: enhancing reproducibility and accessibility](http://www.nature.com/nrg/journal/v13/n9/abs/nrg3305.html)", by [Nekrutenko](/src/anton/index.md) & [Taylor](/src/JamesTaylor/index.md), *[Nature Reviews Genetics](http://www.nature.com/nrg/index.html)*, 13, 667-672 (September 2012)
+* "[Next-generation sequencing data interpretation: enhancing reproducibility and accessibility](http://www.nature.com/nrg/journal/v13/n9/abs/nrg3305.html)", by [Nekrutenko](/src/anton/index.md) & [Taylor](/src/james-taylor/index.md), *[Nature Reviews Genetics](http://www.nature.com/nrg/index.html)*, 13, 667-672 (September 2012)
 
 * "[IBDsite: a Galaxy-interacting, integrative database for supporting Inflammatory Bowel Disease high throughput data analysis](http://dx.doi.org/10.1186/1471-2105-13-S14-S5)", by Merelli, Viti, Milanesi, *BMC Bioinformatics*, Vol. 13, No. Suppl 14. (2011), S5
 
 * "[Data Mining as a Discovery Tool for Imprinted Genes Genomic Imprinting](http://rd.springer.com/protocol/10.1007/978-1-62703-011-3_7)", by  Chelsea Brideau, Paul Soloway, *[Methods in Molecular Biology](http://www.springerlink.com/content/1064-3745/)*, Vol. 925 (2012)
 
-These papers were among [46 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/GalaxyUpdates/index.md) (for a total of 421 papers in the last ~19 months).  The new papers are spread [across 7 categories](http://www.citeulike.org/group/16008/tags).
+These papers were among [46 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/galaxy-updates/index.md) (for a total of 421 papers in the last ~19 months).  The new papers are spread [across 7 categories](http://www.citeulike.org/group/16008/tags).
 
 <br />
 
 ## New Public Servers
 
-*Three* new publicly accessible Galaxy servers were added to the [Public Galaxy Servers](/src/PublicGalaxyServers/index.md) page in August:
+*Three* new publicly accessible Galaxy servers were added to the [Public Galaxy Servers](/src/public-galaxy-servers/index.md) page in August:
 
 
 | Server |  Purpose / Community  |  Other Comments  |  Restrictions  |  Sponsor  | 
@@ -78,33 +78,33 @@ These papers were among [46 papers added to the Galaxy CiteULike group](http://w
 
 ## Who's Hiring
 
-<div class='right'><img src="/src/images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
+<div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
-* The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs @ Penn State and Emory
+* The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md) post-docs @ Penn State and Emory
 * [Bioinformatics & Integrative Genomics Specialist - Manager Bioinformatics Consulting Core](http://www.nature.com/naturejobs/science/jobs/275747-Bioinformatics-Integrative-Genomics-Specialist-Manager-Bioinformatics-Consulting-Core) @ Leuven, Belgium
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='http://genetics.cmc-uct.co.za/'><img src="/src/images/Logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a>
-<a href='/src/events/Switzerland2012/index.md'><img src="/src/images/Logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="90" /></a>
-<a href='http://www.psc.edu/index.php/escience-2012-workshop'><img src="/src/images/Logos/EScience2012Logo.png" alt="Extending High-Performance Computing Beyond its Traditional User Communities Workshop" height="100" /></a>
-<a href='http://www.ashg.org/2012meeting/pages/workshops.shtml'><img src="/src/images/Logos/ASHG2012Logo.png" alt="ASHG 2012" height="100" /></a>
+<a href='http://genetics.cmc-uct.co.za/'><img src="/src/images/logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a>
+<a href='/src/events/switzerland2012/index.md'><img src="/src/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="90" /></a>
+<a href='http://www.psc.edu/index.php/escience-2012-workshop'><img src="/src/images/logos/EScience2012Logo.png" alt="Extending High-Performance Computing Beyond its Traditional User Communities Workshop" height="100" /></a>
+<a href='http://www.ashg.org/2012meeting/pages/workshops.shtml'><img src="/src/images/logos/ASHG2012Logo.png" alt="ASHG 2012" height="100" /></a>
 </div>
 
 ### Deadlines
 
-<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/images/Icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
 
 There are September application, poster, and paper deadlines for 
 * [Personal Genomes and Medical Genomics](http://meetings.cshl.edu/meetings/pgmg12.shtml), CSHL (deadline August 31)
 * [ISCB-Asia/SCCG 2012](http://www.iscb.org/iscb-asia2012) posters
 
-September events include [Galaxy workshops and talks in South Africa](/src/news/GalaxyWorkshopsInSouthAfrica/index.md), the [Automated and reproducible analysis of NGS data (ARANGS12)](http://gtpb.igc.gulbenkian.pt/bicourses/ARANGS12), [Beyond the Genome 2012](http://www.beyond-the-genome.com/2012_event.html), and [ICG Americas 2012](http://www.icgamericas.org/).
+September events include [Galaxy workshops and talks in South Africa](/src/news/galaxy-workshops-in-south-africa/index.md), the [Automated and reproducible analysis of NGS data (ARANGS12)](http://gtpb.igc.gulbenkian.pt/bicourses/ARANGS12), [Beyond the Genome 2012](http://www.beyond-the-genome.com/2012_event.html), and [ICG Americas 2012](http://www.icgamericas.org/).
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
@@ -121,7 +121,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> September 3-4 </th>
     <td rowspan=2 style=" text-align:left;"> <em><a href='http://genetics.cmc-uct.co.za/?page_id=79'>Galaxy Workshop</a></em> </td>
     <td> <a href='http://web.up.ac.za/default.asp?ipkCategoryID=17741'>University of Pretoria</a>, Pretoria, South Africa </td>
-    <td rowspan=2 style=" text-align:center;"> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
+    <td rowspan=2 style=" text-align:center;"> <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> September 6-7 </th>
@@ -131,13 +131,13 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> September 10-11 </th>
     <td> <em><a href='http://gaggle.systemsbiology.net/workshop2012/'>Systems Bioinformatics Workshop</a></em> </td>
     <td> <a href='https://www.systemsbiology.org/'>Institute for Systems Biology</a><br /> Seattle, Washington, United States </td>
-    <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/src/james-taylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th rowspan=2> September 10-12 </th>
     <td> <em><a href='http://genetics.cmc-uct.co.za/'>Transparent, accessible, reproducible analysis with Galaxy</a></em> </td>
     <td rowspan=2> <strong><a href='http://genetics.cmc-uct.co.za/'>South African Genetics & Bioinformatics Society Conference</a></strong><br /> University of Stellenbosch, Stellenbosch, South Africa </td>
-    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://genetics.cmc-uct.co.za/'>Assembling a cassava transcriptome using Galaxy on a high performance computing cluster</a></em> </td>
@@ -159,19 +159,19 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> September 27-29 </th>
     <td> <em><a href='http://www.beyond-the-genome.com/'>Informatics Workshop</a></em> </td>
     <td> <strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2012</a></strong>, <a href='http://www.amiando.com/2012-beyond-the-genome.html?page=661875'>Harvard Medical School</a>, Boston, Massachusetts </td>
-    <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/src/james-taylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 3 </th>
-    <td> <em><a href='/src/events/Switzerland2012/index.md'>(first Swiss) Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/src/events/switzerland2012/index.md'>(first Swiss) Galaxy Workshop</a></em> </td>
     <td> <strong><a href='https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3'>SyBIT Tech Day</a></strong>, Bern, Switzerland </td>
-    <td> <a href='/src/HansrudolfHotz/index.md'>Hans-Rudolf Hotz</a> </td>
+    <td> <a href='/src/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> October 8-12 </th>
     <td> <em><a href='http://www.psc.edu/index.php/escience-2012-workshop'>Extending High-Performance Computing Beyond its Traditional User Communities Workshop</a></em> </td>
     <td> <strong><a href='http://www.ci.uchicago.edu/escience2012/'>8th IEEE International Conference on eScience (eScience 2012)</a></strong>, Chicago Illinois, United States </td>
-    <td> <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/src/james-taylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 9-11 </th>
@@ -183,19 +183,19 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> October 31 - November 6  </th>
     <td> <em><a href='http://meetings.cshl.edu/courses/c-ecg12.shtml'>Computaional & Comparative Genomics Course</a></em> </td>
     <td> <a href='http://www.cshl.edu/'>Cold Spring Harbor Laboratory</a>, New York, United States </td>
-    <td> <a href='http://www.cs.virginia.edu/brochure/profs/pearson.html'>William Pearson</a>, <a href='/src/JamesTaylor/index.md'>James Taylor</a> </td>
+    <td> <a href='http://www.cs.virginia.edu/brochure/profs/pearson.html'>William Pearson</a>, <a href='/src/james-taylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 28 - November 2 </th>
     <td> <em><a href='http://conference.eresearch.edu.au/eres2012/workshops/'>Genomic Virtual Laboratory Workshop</a></em> </td>
     <td> <a href='http://conference.eresearch.edu.au/'>eResearch Australasia</a>, Sydney, Australia </td>
-    <td> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/src/enis-afgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th rowspan=2 style=" text-align:center;"> November 6-10 </th>
     <td> <em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#9'>Galaxy 101: Data Integration, Analysis and Sharing</a></em> </td>
     <td rowspan=2 style=" text-align:center;"> <strong><a href='http://www.ashg.org/2012meeting/'>American Society of Human Genetics (ASHG)</a></strong>, San Francisco, California, United States </td>
-    <td rowspan=2 style=" text-align:center;"> <a href='/src/JenniferJackson/index.md'>Jennifer Jackson</a>, <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
+    <td rowspan=2 style=" text-align:center;"> <a href='/src/jennifer-jackson/index.md'>Jennifer Jackson</a>, <a href='/src/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#12'>Working with High-Throughput Data and Data Visualization</a></em> </td>
@@ -217,7 +217,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> <strong><em><a href='/src/events/GCC2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
+    <td> <strong><em><a href='/src/events/gcc2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -226,9 +226,9 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 ### Swiss Galaxy Day
 
-<div class='right'><a href='/src/events/Switzerland2012/index.md'><img src="/src/images/Logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
+<div class='right'><a href='/src/events/switzerland2012/index.md'><img src="/src/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
 
-The 1<sup>st</sup> [Swiss Galaxy Workshop](/src/events/Switzerland2012/index.md) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
+The 1<sup>st</sup> [Swiss Galaxy Workshop](/src/events/switzerland2012/index.md) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
  
 We would like to discuss the status of the Galaxy project, new developments, interface to other systems, extensions and best practice in reproducible research. 
  
@@ -237,12 +237,12 @@ The workshop is part of the SyBIT Tech Day series.
 
 ## New Galaxy-France Mailing List
 
-<div class='right'><a href='http://france.list.galaxyproject.org/'><img src="/src/images/Logos/GalaxyFranceListSearch.png" alt="Galaxy-France Mailing List"  /></a></div>
+<div class='right'><a href='http://france.list.galaxyproject.org/'><img src="/src/images/logos/GalaxyFranceListSearch.png" alt="Galaxy-France Mailing List"  /></a></div>
 
 A new mailing list has been launched, specifically for the French Galaxy Community:
 * [Liste de diffusion Galaxy France](http://france.list.galaxyproject.org/)
 
-This list is intended to communicate and share our experiences with Galaxy in France. The official language of this list is French.  See the [list announcement](/src/news/ListeDeDiffusionGalaxyFrance/index.md), [list archive](http://france.list.galaxyproject.org/) and [list subscription page](https://lists.galaxyproject.org/listinfo/galaxy-france) for more.  Postings to the list will be integrated into the [Galaxy search web sites](http://galaxyproject.org/search/).
+This list is intended to communicate and share our experiences with Galaxy in France. The official language of this list is French.  See the [list announcement](/src/news/liste-de-diffusion-galaxy-france/index.md), [list archive](http://france.list.galaxyproject.org/) and [list subscription page](https://lists.galaxyproject.org/listinfo/galaxy-france) for more.  Postings to the list will be integrated into the [Galaxy search web sites](http://galaxyproject.org/search/).
 
 ## Tool Shed Contributions
 
@@ -254,7 +254,7 @@ Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2
 
 ## New Distributions
 
-The most recent Galaxy distribution was [released on July 20, 2012](/src/DevNewsBriefs/2012_07_20/index.md).
+The most recent Galaxy distribution was [released on July 20, 2012](/src/dev-news-briefs/2012_07_20/index.md).
 
 ## Other News
 
@@ -263,10 +263,10 @@ The most recent Galaxy distribution was [released on July 20, 2012](/src/DevNews
   * [Upgrading Galaxy](http://www.agapow.net/science/bioinformatics/galaxy/upgrading-galaxy)
   * [Setting up a Galaxy toolshed](http://www.agapow.net/science/bioinformatics/galaxy/setting-up-a-galaxy-toolshed)
 * [Ntino Krampis BioTechniques interview](http://www.biotechniques.com/multimedia/podcasts/#.UD6V2VTYNUO) on doing bioinformatics on the cloud, including CloudMan.
-* [Jeremy Goecks](/src/JeremyGoecks/index.md) updated his [RNA-seq Analysis Exercise Galaxy Page](https://usegalaxy.org/u/jeremy/p/galaxy-rna-seq-analysis-exercise) to cover quality control through CuffDiff: paired-end data, iGenomes gtf, answer key, and bonus resources
+* [Jeremy Goecks](/src/jeremy-goecks/index.md) updated his [RNA-seq Analysis Exercise Galaxy Page](https://usegalaxy.org/u/jeremy/p/galaxy-rna-seq-analysis-exercise) to cover quality control through CuffDiff: paired-end data, iGenomes gtf, answer key, and bonus resources
 * [Slides and videos](http://bit.ly/QGxVJU) for the Iowa Initiative in Human Genetics [Bioinformatics Course](http://bit.ly/QGxVJU)
-* A few summaries of the recent [2012 Galaxy Community Conference (GCC2012)](/src/events/GCC2012/index.md) have been posted online:
+* A few summaries of the recent [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) have been posted online:
   * Peter Li's [GigaBlog post](http://blogs.biomedcentral.com/gigablog/2012/08/06/enabling-bioinformatics-tools-to-smoke-the-peace-pipe-together/)
   * Brad Chapman's [day 1](http://chapmanb.posterous.com/galaxy-developer-conference-day-1) and [day 2](http://chapmanb.posterous.com/galaxy-community-conference-2012-notes-from-d-90717) summaries.
-  * Slides for [all workshops and talks](/src/events/GCC2012/Program/index.md) are now available.
+  * Slides for [all workshops and talks](/src/events/gcc2012/program/index.md) are now available.
 

@@ -1,6 +1,6 @@
 <div class='linkbox'>
-**[Data Libraries Screens](/src/DataLibraries/index.md)**
+**[Data Libraries Screens](/src/data-libraries/index.md)**
 ----
-[List of libs (main page)](/src/DataLibraries/screen/ListOfLibraries/index.md)<br />
+[List of libs (main page)](/src/data-libraries/screen/list-of-libraries/index.md)<br />
 
 </div>

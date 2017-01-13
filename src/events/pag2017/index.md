@@ -120,7 +120,7 @@ Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](
     <td> <a href='https://pag.confex.com/pag/xxv/meetingapp.cgi/Session/4217'>Genome Annotation with Galaxy</a> </td>
     <td> Workshop, California Room </td>
     <td> </td>
-    <td> <a href='/src/JeremyGoecks/index.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/src/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th colspan=6 style=" background-color: #eef;"> </th>
@@ -131,7 +131,7 @@ Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](
     <td> <a href='https://pag.confex.com/pag/xxv/meetingapp.cgi/Paper/25649'>Galaxy Community Update</a> </td>
     <td> <a href='https://pag.confex.com/pag/xxv/meetingapp.cgi/Session/4229'>GMOD</a>, Golden West </td>
     <td>  </td>
-    <td> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> 2:00-2:25 </td>

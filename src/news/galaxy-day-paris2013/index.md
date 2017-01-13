@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[Galaxy Day, 4 décembre à Paris](/src/news/GalaxyDayParis2013/index.md)</div>
+<div class='newsItemHeader'>[Galaxy Day, 4 décembre à Paris](/src/news/galaxy-day-paris2013/index.md)</div>
 
 **Appel à contributions**
 
@@ -18,13 +18,13 @@ Les membres du [Groupe Galaxy IFB](http://www.ifb-galaxy.org/index.html),
 
 <br />
 <div class='center'>
-<a href='http://urgi.versailles.inra.fr/'><img src="/src/news/GalaxyDayParis2013/URGILogo.png" alt="URGI" width="70" /></a>
-<a href='http://bioinfo.genotoul.fr/'><img src="/src/images/Logos/GenoToulLogo.png" alt="GenoToul" width="100" /></a>
-<a href='http://migale.jouy.inra.fr/'><img src="/src/images/Logos/MIGALELogo.png" alt="MIGALE" width="120" /></a>
-<a href='http://metabohub.fr/'><img src="/src/images/Logos/MetaboHubLogo.jpg" alt="PFEM" width="120" /></a>
-<a href='http://southgreen.cirad.fr/'><img src="/src/images/Logos/SouthGreenLogo.png" alt="SouthGreen" width="120" /></a>
-<a href='http://curie.fr/'><img src="/src/images/Logos/CurieLogo.gif" alt="Institut Curie" width="80" /></a>
-<a href='http://abims.sb-roscoff.fr/'><img src="/src/images/Logos/ABiMSLogo.png" alt="ABiMS" width="70" /></a>
+<a href='http://urgi.versailles.inra.fr/'><img src="/src/news/galaxy-day-paris2013/URGILogo.png" alt="URGI" width="70" /></a>
+<a href='http://bioinfo.genotoul.fr/'><img src="/src/images/logos/GenoToulLogo.png" alt="GenoToul" width="100" /></a>
+<a href='http://migale.jouy.inra.fr/'><img src="/src/images/logos/MIGALELogo.png" alt="MIGALE" width="120" /></a>
+<a href='http://metabohub.fr/'><img src="/src/images/logos/MetaboHubLogo.jpg" alt="PFEM" width="120" /></a>
+<a href='http://southgreen.cirad.fr/'><img src="/src/images/logos/SouthGreenLogo.png" alt="SouthGreen" width="120" /></a>
+<a href='http://curie.fr/'><img src="/src/images/logos/CurieLogo.gif" alt="Institut Curie" width="80" /></a>
+<a href='http://abims.sb-roscoff.fr/'><img src="/src/images/logos/ABiMSLogo.png" alt="ABiMS" width="70" /></a>
 </div>
 
 <br />
@@ -45,4 +45,4 @@ The [IFB Galaxy group](http://www.ifb-galaxy.org/index.html),
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-10-02</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

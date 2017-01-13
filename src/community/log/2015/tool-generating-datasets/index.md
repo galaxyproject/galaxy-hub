@@ -1,7 +1,7 @@
 ---
 title: 2015/10: [Galaxy Tool Generating Dataset Collections](http://web.science.mq.edu.au/~cassidy/wordpress/2015/10/21/galaxy-tool-generating-datasets/)
 ---
-<div class='center'><a href='http://alveo.edu.au/'><img src="/src/images/Logos/AlveoBig.png" alt="Alveo Project" width="150" /></a></div>
+<div class='center'><a href='http://alveo.edu.au/'><img src="/src/images/logos/AlveoBig.png" alt="Alveo Project" width="150" /></a></div>
 
 
 
@@ -9,7 +9,7 @@ title: 2015/10: [Galaxy Tool Generating Dataset Collections](http://web.science.
 
 
 <div class='logbox'>
- Topic:: **[Galaxy Tool Generating Datasets](/src/Community/Log/2015/ToolGeneratingDatasets/index.md)**
+ Topic:: **[Galaxy Tool Generating Datasets](/src/community/log/2015/tool-generating-datasets/index.md)**
  Date:: 2015/10/21
  Who:: [Steve Cassidy](http://web.science.mq.edu.au/~cassidy/wordpress/about-steve-cassidy/)
  Resolution:: [How to generate dataset collections from a Galaxy tool](http://web.science.mq.edu.au/~cassidy/wordpress/2015/10/21/galaxy-tool-generating-datasets/)
@@ -29,4 +29,4 @@ From the [blog post](http://web.science.mq.edu.au/~cassidy/wordpress/2015/10/21/
 * [Steve Cassidy's Blog](http://web.science.mq.edu.au/)
 * [Steve Cassidy](http://web.science.mq.edu.au/~cassidy/wordpress/about-steve-cassidy/)
 
-[CategoryLog](/src/CategoryLog/index.md)
+[CategoryLog](/src/category-log/index.md)

@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[Jan 2016 Galaxy Release (v 16.01)](/src/news/2016_01_GalaxyRelease/index.md)</div>
+<div class='newsItemHeader'>[Jan 2016 Galaxy Release (v 16.01)](/src/news/2016_01-galaxy-release/index.md)</div>
 
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
  
 **See the [full release notes](https://docs.galaxyproject.org/en/master/releases/16.01_announce.html).**
 
@@ -32,7 +32,7 @@ Workflows may now run other workflows as a single abstract step in the parent wo
     <td style=" vertical-align: top; border: none;"> <span style="font-size: larger;"> BitBucket </span> <br /><br /><strong>Upgrade</strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.01</code> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none;"> See the <a href='/src/Admin/GetGalaxy/index.md'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
+    <td colspan=3 style=" border: none;"> See the <a href='/src/admin/get-galaxy/index.md'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
   </tr>
 </table>
 
@@ -63,4 +63,4 @@ Multiple security vulnerabilities were recently discovered in the Tool Shed that
 </div></div>
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-02-24</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

@@ -2,7 +2,7 @@
 title: Differential Expression with Tuxedo
 ---
 <div class='center'>
-<a href='http://genomeintelligence.org/?p=998'><img src="/src/Teach/Resource/TuxedoDE/GenomeIntelligence.png" alt="Genome Intelligence: DE with Tuxedo pipeline #usegalaxy" height="100" /></a>
+<a href='http://genomeintelligence.org/?p=998'><img src="/src/teach/resource/tuxedo-de/GenomeIntelligence.png" alt="Genome Intelligence: DE with Tuxedo pipeline #usegalaxy" height="100" /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: Differential Expression with Tuxedo
 
 
 <div class='deploymentbox'>
- Resource:: **[Differential Expression with Tuxedo](/src/Teach/Resource/TuxedoDE/index.md)**
+ Resource:: **[Differential Expression with Tuxedo](/src/teach/resource/tuxedo-de/index.md)**
  Types:: Instructions
  Domains:: **RNA-Seq** 
  Owners:: [Cynthia Gibas](http://bioinformatics.uncc.edu/directory/gibas-cynthia)
@@ -24,4 +24,4 @@ Walks through steps to perform differential expression analysis using the Tuxedo
 
 * [DE with Tuxedo pipeline #usegalaxy](http://genomeintelligence.org/?p=998) at [Genome Intelligence](http://genomeintelligence.org/)
 
-[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)
+[CategoryTrainingResource](/src/category-training-resource/index.md)

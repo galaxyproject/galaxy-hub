@@ -2,7 +2,7 @@
 title: [UC Riverside NGS Tutorial](http://manuals.bioinformatics.ucr.edu/workshops/dec-12-16-2013)
 ---
 <div class='center'>
-[[<a href='http://manuals.bioinformatics.ucr.edu/workshops/dec-12-16-2013'><img src="/src/Teach/Resource/UCRiversideNGS/UCR_IIGB_Logo.png" alt="UC Riverside Institute for Integrative Genome Biology"  /></a>
+[[<a href='http://manuals.bioinformatics.ucr.edu/workshops/dec-12-16-2013'><img src="/src/teach/resource/uc-riverside-ngs/UCR_IIGB_Logo.png" alt="UC Riverside Institute for Integrative Genome Biology"  /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: [UC Riverside NGS Tutorial](http://manuals.bioinformatics.ucr.edu/worksho
 
 
 <div class='deploymentbox'>
- Resource:: **[UC Riverside NGS Tutorial](/src/Teach/Resource/UCRiversideNGS/index.md)**
+ Resource:: **[UC Riverside NGS Tutorial](/src/teach/resource/uc-riverside-ngs/index.md)**
  Types:: Tutorial, Datasets
  Domains:: **Variant Calling, RNA-Seq, Intro** 
  Owners:: Neerja Katiyar,  [Tyler Backman](http://facility.bioinformatics.ucr.edu/people/tyler-backman), [Rebecca Sun](http://facility.bioinformatics.ucr.edu/people/rebecca-sun), and [Thomas Girke](http://girke.bioinformatics.ucr.edu/), [UC Riverside](http://labs.bioinformatics.ucr.edu/)
@@ -46,4 +46,4 @@ Datasets are linked to from the examples.  Datasets are large enough that you ma
     * [exercises](http://biocluster.ucr.edu/~nkatiyar/Galaxy_workshop/Exercises/Galaxy_workshop_exercises_2013.pdf)
     * [manual](http://manuals.bioinformatics.ucr.edu/home/gui-ngs-analysis)
 
-[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)
+[CategoryTrainingResource](/src/category-training-resource/index.md)

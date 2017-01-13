@@ -1,4 +1,4 @@
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a> </div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a> </div>
 
 # Supported tool_dependencies.xml Tag Sets
 
@@ -170,7 +170,7 @@
   </tr>
   <tr>
     <td> setup_r_environment</td>
-    <td> <a href='/src/SetUpREnvironment/index.md'>Set up an R environment.</a></td>
+    <td> <a href='/src/set-up-r-environment/index.md'>Set up an R environment.</a></td>
     <td> &lt;action type="setup_r_environment"&gt;&lt;repository name="package_r_3_0_1" owner="bgruening"&gt;&lt;package name="R" version="3.0.1" /&gt;&lt;/repository&gt;&lt;package&gt;<code>https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18BiocGenerics_0.6.0.tar.gz6</code>&lt;/package&gt;&lt;/action&gt;</td>
     <td> release_2013.11.04</td>
   </tr>

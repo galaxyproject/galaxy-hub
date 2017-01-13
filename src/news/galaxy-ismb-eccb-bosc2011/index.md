@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[Galaxy @ ISMB/ECCB and BOSC 2011](/src/news/Galaxy @ ISMB ECCB & BOSC 2011/index.md)</div>
 
-<div class='right'><a href='http://www.open-bio.org/wiki/BOSC_2011'><img src="/src/images/Logos/BOSC_logo.png" alt="BOSC 2011" width="120" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.iscb.org/ismbeccb2011'><img src="/src/events/ISMB2011Logo80.png" alt="ISMB/ECCB 2011" /></a></div>Galaxy will have a [strong presence at ISMB/ECCB 2011 and BOSC 2011](/src/events/ISMB-ECCB-BOSC 2011/index.md).  There will be no less than 
+<div class='right'><a href='http://www.open-bio.org/wiki/BOSC_2011'><img src="/src/images/logos/BOSC_logo.png" alt="BOSC 2011" width="120" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.iscb.org/ismbeccb2011'><img src="/src/events/ISMB2011Logo80.png" alt="ISMB/ECCB 2011" /></a></div>Galaxy will have a [strong presence at ISMB/ECCB 2011 and BOSC 2011](/src/events/ISMB-ECCB-BOSC 2011/index.md).  There will be no less than 
 * 3 BOSC talks
 * 2 ISMB workshops
 * 1 Proceedings Track talk
@@ -11,8 +11,8 @@ either about Galaxy or featuring Galaxy.  See the [Events/ISMB-ECCB-BOSC 2011](/
 
 One of the workshops, *Genomics for Non-Model Organisms* is organized by Galaxy and features 4 talks that use Galaxy (including a newly added talk by Marc Bras of INRA that uses Galaxy for SNP detection in grapevine).
 
-[Dave Clements](/src/DaveClements/index.md)
+[Dave Clements](/src/dave-clements/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-07-08</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

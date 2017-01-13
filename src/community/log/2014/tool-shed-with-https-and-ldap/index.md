@@ -4,7 +4,7 @@ title: 2014/06: Local Tool Shed with https and LDAP
 
 
 <div class='logbox'>
- Topic:: **[Setting up a secure tool shed with remote authentication requires some tweaks in order to allow Galaxy to communicate with the tool shed.](/src/Community/Log/2014/ToolShedWithHttpsAndLDAP/index.md)**
+ Topic:: **[Setting up a secure tool shed with remote authentication requires some tweaks in order to allow Galaxy to communicate with the tool shed.](/src/community/log/2014/tool-shed-with-https-and-ldap/index.md)**
  Date:: 2014/06/10
  Who:: William Holtz
  Resolution:: Works and isn't much additional work above setting up Galaxy with SSL and LDAP.

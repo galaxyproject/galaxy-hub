@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[GCC2016 is Online!](/src/news/GCC2016IsOnline/index.md)</div>
+<div class='newsItemHeader'>[GCC2016 is Online!](/src/news/gcc2016-is-online/index.md)</div>
 
 <div class='right'>
 <a href='https://gcc2016.iu.edu/'><img src="https://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference"  /></a>
@@ -26,4 +26,4 @@ The [GCC2016 Exec](mailto:gcc2016-exec@lists.galaxyproject.org)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-12-18</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

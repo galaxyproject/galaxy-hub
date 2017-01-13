@@ -1,14 +1,14 @@
 ---
 title: [CHB Harvard Exome-Seq Workshop](http://scriptogr.am/ohofmann/exome-seq)
 ---
-<div class='center'><a href='http://scriptogr.am/ohofmann/about'><img src="/src/images/Logos/CHBHarvard.png" alt="Center for Health Bioinformatics Galaxy Tutorials"  /></a></div>
+<div class='center'><a href='http://scriptogr.am/ohofmann/about'><img src="/src/images/logos/CHBHarvard.png" alt="Center for Health Bioinformatics Galaxy Tutorials"  /></a></div>
 
 
 
 
 
 <div class='deploymentbox'>
- Resource:: **[CHB Harvard Exome-Seq Workshop](/src/Teach/Resource/CHBHarvardExome-Seq/index.md)**
+ Resource:: **[CHB Harvard Exome-Seq Workshop](/src/teach/resource/chb-harvard-exome-seq/index.md)**
  Types:: Tutorial, Datasets
  Domains:: **Exome-Seq** 
  Owners:: [Shannan Ho Sui, Oliver Hofmann, Radhika Khetani, Winston Hide](http://hsphbio.ghost.io/people/), [Center for Health Bioinformatics](http://compbio.sph.harvard.edu/chb/) at the [Harvard School of Public Health](http://www.hsph.harvard.edu/) 
@@ -45,4 +45,4 @@ Uses many "standard" tools that exist on most Galaxy servers, and
 * [CHB Harvard Exome-Seq Workshop](http://scriptogr.am/ohofmann/exome-seq)
 * [one of a set of online tutorials](http://scriptogr.am/ohofmann/about)
 
-[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)
+[CategoryTrainingResource](/src/category-training-resource/index.md)

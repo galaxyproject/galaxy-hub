@@ -2,7 +2,7 @@
 title: 2015/07: [BioJS2Galaxy - A step by step guide](http://www.benjamenwhite.com/2015/07/biojs2galaxy-a-step-by-step-guide/)
 ---
 <div class='center'>
-<a href='http://www.benjamenwhite.com/2015/07/biojs2galaxy-a-step-by-step-guide/'><img src="/src/images/Logos/BioJS.png" alt="BioJS2Galaxy - A step by step guide" width="150" /></a>
+<a href='http://www.benjamenwhite.com/2015/07/biojs2galaxy-a-step-by-step-guide/'><img src="/src/images/logos/BioJS.png" alt="BioJS2Galaxy - A step by step guide" width="150" /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: 2015/07: [BioJS2Galaxy - A step by step guide](http://www.benjamenwhite.c
 
 
 <div class='logbox'>
- Topic:: **[BioJS2Galaxy - A step by step guide](/src/Community/Log/2015/BioJS2Galaxy/index.md)**
+ Topic:: **[BioJS2Galaxy - A step by step guide](/src/community/log/2015/biojs2galaxy/index.md)**
  Date:: 2015/07/12
  Who:: [Benedikt Rauscher](https://twitter.com/bengrauscher), [Benjamen White](http://www.benjamenwhite.com/2015)
  Resolution:: To encourage the use of [BioJavaScript (BioJS)](http://biojs.net/) visualisations in Galaxy we decided to create [this simple step by step guide](http://www.benjamenwhite.com/2015/07/biojs2galaxy-a-step-by-step-guide/) on how to use [Sebastian Wilzbach’s](https://twitter.com/MrGreenify) application, [biojs2galaxy](https://github.com/biojs/biojs2galaxy).
@@ -30,4 +30,4 @@ To use biojs2galaxy you need to have [node](https://nodejs.org/) and [npm](https
 * [Step by step guide](http://www.benjamenwhite.com/2015/07/biojs2galaxy-a-step-by-step-guide/)
 * [biojs2galaxy](https://github.com/biojs/biojs2galaxy)
 
-[CategoryLog](/src/CategoryLog/index.md)
+[CategoryLog](/src/category-log/index.md)

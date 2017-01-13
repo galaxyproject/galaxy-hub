@@ -2,12 +2,12 @@
 
 These represent changes introduced after the initial release. May also be tracked in [Trello](https://trello.com/galaxyproject).<br />
 
-[back to all News Briefs](/src/DevNewsBriefs/index.md)
+[back to all News Briefs](/src/dev-news-briefs/index.md)
 
 ## Review prior distribution
 
-* [January 13, 2015 Galaxy Distribution News Brief](/src/DevNewsBriefs/2015_01_13/index.md)
-* [January 13, 2015 Galaxy Distribution Summary](/src/news/2015_01_13_Galaxy_Distribution/index.md)
+* [January 13, 2015 Galaxy Distribution News Brief](/src/dev-news-briefs/2015_01_13/index.md)
+* [January 13, 2015 Galaxy Distribution Summary](/src/news/2015_01_13-galaxy-distribution/index.md)
 
 ## New
 
@@ -36,5 +36,5 @@ These represent changes introduced after the initial release. May also be tracke
 * Various low-vulnerability-level security fixes. [U6yj2pPr](https://trello.com/c/U6yj2pPr)
 
 <br /><br /><br />
-[back to all News Briefs](/src/DevNewsBriefs/index.md)
+[back to all News Briefs](/src/dev-news-briefs/index.md)
 <br /><br />

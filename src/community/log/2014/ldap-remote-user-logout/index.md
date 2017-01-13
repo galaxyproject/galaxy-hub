@@ -6,7 +6,7 @@ title: 2014/01: LDAP remoteUser Logout
 
 
 <div class='logbox'>
- Topic:: **[Problem with logout when using LDAP for authentication with remoteUser enabled.](/src/Community/Log/2014/LDAPRemoteUserLogout/index.md)**
+ Topic:: **[Problem with logout when using LDAP for authentication with remoteUser enabled.](/src/community/log/2014/ldap-remote-user-logout/index.md)**
  Date:: 2014/01/27
  Who:: Tim Booth
  Resolution:: Make changes to 4 Galaxy configuration files 
@@ -15,8 +15,8 @@ title: 2014/01: LDAP remoteUser Logout
 
 Alper Kucukural posted this [Galaxy-Dev thread](http://dev.list.galaxyproject.org/Remote-User-Logout-td4663150.html) about logout problems when using LDAP for authentication with remoteUser enabled.  This page is based on Tim Booth's response.   Furthermore, Eric Rasche also brought these pages up to date to reflect this discussion:
 
-* [Admin/Config/Apache Proxy](/src/Admin/Config/ApacheProxy/index.md#proxying-multiple-galaxy-worker-threads)
-* [Admin/Config/ExternalUserDatbases](/src/Admin/Config/ExternalUserDatbases/index.md)
+* [Admin/Config/Apache Proxy](/src/admin/config/apache-proxy/index.md#proxying-multiple-galaxy-worker-threads)
+* [Admin/Config/ExternalUserDatbases](/src/admin/config/ExternalUserDatbases/index.md)
 
 Many, many thanks to Tim and Eric for this work.
 
@@ -171,7 +171,7 @@ RewriteRule (.*) http://localhost:8080/$1 [P,E=RU:%{REMOTE_USER}]
 ## Links
 
 * [Original thread on Galaxy-Dev](http://dev.list.galaxyproject.org/Remote-User-Logout-td4663150.html) 
-* [Admin/Config/Apache Proxy](/src/Admin/Config/ApacheProxy/index.md#proxying-multiple-galaxy-worker-threads)
-* [Admin/Config/ExternalUserDatbases](/src/Admin/Config/ExternalUserDatbases/index.md)
+* [Admin/Config/Apache Proxy](/src/admin/config/apache-proxy/index.md#proxying-multiple-galaxy-worker-threads)
+* [Admin/Config/ExternalUserDatbases](/src/admin/config/ExternalUserDatbases/index.md)
 
-[CategoryLog](/src/CategoryLog/index.md)
+[CategoryLog](/src/category-log/index.md)

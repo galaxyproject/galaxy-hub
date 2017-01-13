@@ -1,10 +1,10 @@
 <div class='linkbox'>
-**[Jetstream Home](/src/Cloud/Jetstream/index.md)**
+**[Jetstream Home](/src/cloud/jetstream/index.md)**
 ----
-[Requesting an allocation](/src/Cloud/Jetstream/Allocation/index.md)<br />
-[Admin - Connecting via ssh](/src/Cloud/Jetstream/ssh/index.md)<br />
-[Becoming Galaxy Admin](/src/Cloud/Jetstream/ssh/index.md#adding_galaxy_admin_user)<br />
-[Using alternate (volume) storage](/src/Cloud/Jetstream/storage/index.md)<br />
-[Troubleshooting](/src/Cloud/Jetstream/Troubleshooting/index.md)<br />
-[FAQ](/src/Cloud/Jetstream/FAQ/index.md)<br />
+[Requesting an allocation](/src/cloud/jetstream/allocation/index.md)<br />
+[Admin - Connecting via ssh](/src/cloud/jetstream/ssh/index.md)<br />
+[Becoming Galaxy Admin](/src/cloud/jetstream/ssh/index.md#adding_galaxy_admin_user)<br />
+[Using alternate (volume) storage](/src/cloud/jetstream/storage/index.md)<br />
+[Troubleshooting](/src/cloud/jetstream/troubleshooting/index.md)<br />
+[FAQ](/src/cloud/jetstream/faq/index.md)<br />
 </div>

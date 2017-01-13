@@ -33,8 +33,8 @@ Editing content is much like writing a typical document. Buttons at the top allo
 
 *Tip: embedding items between paragraphs of text will help your Page to be formatted correctly. *
 
-![](/src/Admin/Training/ISMB2010 Galaxy Tutorial: Running Your Own/Galaxy_Misc_3.png)
+![](/src/admin/training/ISMB2010 Galaxy Tutorial: Running Your Own/Galaxy_Misc_3.png)
 
-![](/src/Admin/Training/ISMB2010 Galaxy Tutorial: Running Your Own/Galaxy_Misc_4.png)
+![](/src/admin/training/ISMB2010 Galaxy Tutorial: Running Your Own/Galaxy_Misc_4.png)
 
 You can return to the History view and annotate your history items by clicking on the "Note" icon. These annotations will show up with your embedded history.

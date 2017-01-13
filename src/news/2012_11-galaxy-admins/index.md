@@ -1,8 +1,8 @@
-<div class='newsItemHeader'>[November 2012 GalaxyAdmins](/src/news/2012_11GalaxyAdmins/index.md)</div>
+<div class='newsItemHeader'>[November 2012 GalaxyAdmins](/src/news/2012_11-galaxy-admins/index.md)</div>
 
-<div class='right'><a href='/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="November 2012 GalaxyAdmins Meetup" width="160" /></a> </div>
+<div class='right'><a href='/src/community/galaxy-admins/meetups/2012_11_14/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="November 2012 GalaxyAdmins Meetup" width="160" /></a> </div>
 
-The [next meeting](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md) of the [GalaxyAdmins Group](/src/Community/GalaxyAdmins/index.md) will be held on [November 14, 2012, at 10 AM Central US time](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md).  Curtis Hendrickson of the [University of Alabama Birmingham's Center for Clinical and Translational Science (UAB CCTS)](http://www.uab.edu/ccts/ResearchResources/BMI/Pages/default.aspx) will speak on *Deploying Galaxy on a shared-node cluster at UAB.*  The meeting will also include time for open discussion.  As always, please come prepared for an active discussion.
+The [next meeting](/src/community/galaxy-admins/meetups/2012_11_14/index.md) of the [GalaxyAdmins Group](/src/community/galaxy-admins/index.md) will be held on [November 14, 2012, at 10 AM Central US time](/src/community/galaxy-admins/meetups/2012_11_14/index.md).  Curtis Hendrickson of the [University of Alabama Birmingham's Center for Clinical and Translational Science (UAB CCTS)](http://www.uab.edu/ccts/ResearchResources/BMI/Pages/default.aspx) will speak on *Deploying Galaxy on a shared-node cluster at UAB.*  The meeting will also include time for open discussion.  As always, please come prepared for an active discussion.
 
 <table>
   <tr>
@@ -30,10 +30,10 @@ The [next meeting](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md) of t
 
 <br />
 
-[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md) is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
+[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
 
 Srinivas Maddhi
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-11-05</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

@@ -10,7 +10,7 @@ date: '01-09-2017'
 
 <br />
 
-<div class='right'><a href='https://gcc2017.sciencesconf.org/'><img src="/src/images/Logos/gcc2017-logo-300.png" alt="GCC2017 Training" width="200" /></a>
+<div class='right'><a href='https://gcc2017.sciencesconf.org/'><img src="/src/images/logos/gcc2017-logo-300.png" alt="GCC2017 Training" width="200" /></a>
 <div style="text-align: center;"> <strong><a href='http://bit.ly/gcc2017trainingnom'>Nominate a topic</a></strong></div>
 </div>
 

@@ -4,13 +4,13 @@ title: Video Viz
 
 
 <div class='center'>
-<img src="/src/Learn/Visualization/Custom/VideoViz/VizPluginVideoScreenshot.png" alt="VideoViz Plugin in Galaxy" width=800px />
+<img src="/src/learn/visualization/custom/video-viz/VizPluginVideoScreenshot.png" alt="VideoViz Plugin in Galaxy" width=800px />
 </div>
 
 
 
 <div class='deploymentbox'>
- Resource:: **[VideoViz](/src/Learn/Visualization/Custom/VideoViz/index.md)**
+ Resource:: **[VideoViz](/src/learn/visualization/custom/video-viz/index.md)**
  Type:: Public
  Domain:: Imaging, Microscopy, other Video Data
  Formats:: Mp4

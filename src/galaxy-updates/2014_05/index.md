@@ -6,17 +6,17 @@ title: May 2014 Galaxy Update
 
 <div class='right'></div>
 
-<div class='left'><a href='/src/GalaxyUpdates/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the May 2014 *[Galaxy Update](/src/GalaxyUpdates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/GalaxyUpdates/index.md)* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the May 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # Galaxy Biostar
 
-<div class='right'><a href='https://biostar.usegalaxy.org/'><img src="/src/images/Logos/GalaxyBiostar.png" alt="Galaxy Biostar"  /></a></div>
+<div class='right'><a href='https://biostar.usegalaxy.org/'><img src="/src/images/logos/GalaxyBiostar.png" alt="Galaxy Biostar"  /></a></div>
 
 **Galaxy has teamed up with [Biostar](http://biostars.org) to create [Galaxy Biostar](https://biostar.usegalaxy.org), a Galaxy User support forum.**
 
-Galaxy Biostar is a space where researchers using Galaxy come together and share both scientific advice and practical tool help.  Whether on [usegalaxy.org](https://usegalaxy.org), a CloudMan instance, or any other Galaxy ([public](/src/PublicGalaxyServers/index.md) or local), if you have something to say about *Using Galaxy*, this is the place to do it.
+Galaxy Biostar is a space where researchers using Galaxy come together and share both scientific advice and practical tool help.  Whether on [usegalaxy.org](https://usegalaxy.org), a CloudMan instance, or any other Galaxy ([public](/src/public-galaxy-servers/index.md) or local), if you have something to say about *Using Galaxy*, this is the place to do it.
 
 **Current integration with usegalaxy.org**
 
@@ -24,7 +24,7 @@ Galaxy Biostar is a space where researchers using Galaxy come together and share
 * If you access [Galaxy Biostar](https://biostar.usegalaxy.org) from [usegalaxy.org](http://usegalaxy.org) (Menu: **Help &rarr; Galaxy Biostar**) you will be automatically logged in. A Galaxy Biostar account will be created for you if it did not previously exist. To obtain this account’s password please use the [password reset feature](https://biostar.usegalaxy.org/accounts/password/reset/) of Galaxy Biostar.
 * When you have a question, search Galaxy Biostar directly from any Galaxy tool page.
 
-Read more about how to get started on the [Biostar wiki page](/src/support/Biostar/index.md) or on the [Biostar](https://biostar.usegalaxy.org/p/7287/) [itself](https://biostar.usegalaxy.org/p/7288/).
+Read more about how to get started on the [Biostar wiki page](/src/support/biostar/index.md) or on the [Biostar](https://biostar.usegalaxy.org/p/7287/) [itself](https://biostar.usegalaxy.org/p/7288/).
 
 **Roll-out phase**
 
@@ -44,9 +44,9 @@ Galaxy Biostar was launched on April 23.  We hope you like the change and look f
 
 *47 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in April. Some papers that may be particularly interesting to the Galaxy community:
 
-* "[Analysis of Next-Generation Sequencing Data Using Galaxy](http://dx.doi.org/10.1007/978-1-4939-0512-6_2)," [Daniel Blankenberg](/src/Dan/index.md) and [Jennifer Hillman-Jackson](/src/JenniferJackson/index.md), *Stem Cell Transcriptional Networks*, Vol. 1150 (2014), pp. 21-43, doi:10.1007/978-1-4939-0512-6_2
+* "[Analysis of Next-Generation Sequencing Data Using Galaxy](http://dx.doi.org/10.1007/978-1-4939-0512-6_2)," [Daniel Blankenberg](/src/dan/index.md) and [Jennifer Hillman-Jackson](/src/jennifer-jackson/index.md), *Stem Cell Transcriptional Networks*, Vol. 1150 (2014), pp. 21-43, doi:10.1007/978-1-4939-0512-6_2
 
-* "[Support for data-intensive computing with CloudMan](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6596260)," Yousef Kowsar and [Enis Afgan](/src/EnisAfgan/index.md),  *[Information & Communication Technology Electronics & Microelectronics (MIPRO), 2013 36th International Convention on](http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6588635),* (May 2013), pp. 243-248
+* "[Support for data-intensive computing with CloudMan](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6596260)," Yousef Kowsar and [Enis Afgan](/src/enis-afgan/index.md),  *[Information & Communication Technology Electronics & Microelectronics (MIPRO), 2013 36th International Convention on](http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6588635),* (May 2013), pp. 243-248
 
 * "[Chromatin states reveal functional associations for globally defined transcription start sites in four human cell lines](http://www.biomedcentral.com/1471-2164/15/120)," Morten Rye, Geir Kjetil Sandve, Carsten O Daub, Hideya Kawaji, Piero Carninci, Alistair RR Forrest, Finn Drabløs and the FANTOM consortium, *[BMC Genomics](http://www.biomedcentral.com/bmcgenomics/)*, Vol. 15, No. 1. (26 March 2014), 120, doi:10.1186/1471-2164-15-120
 
@@ -114,17 +114,17 @@ The new papers were tagged in 14 different areas (the most diverse month we've h
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-<div class='right'><a href='/src/events/GCC2014/index.md'><img src="/src/images/Logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="150" /></a></div>
+<div class='right'><a href='/src/events/gcc2014/index.md'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="150" /></a></div>
 
-The [2014 Galaxy Community Conference (GCC2014)](/src/events/GCC2014/index.md) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
+The [2014 Galaxy Community Conference (GCC2014)](/src/events/gcc2014/index.md) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
 ### Early Registration Closes May 23
 
-[Early registration closes the month](/src/events/GCC2014/Register/index.md). *Early registration saves more than 70% on registration costs, and [Training Day](/src/events/GCC2014/TrainingDay/index.md) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/src/events/GCC2014/Logistics/index.md#lodging), a very affordable housing option in the same building as the conference.
+[Early registration closes the month](/src/events/gcc2014/register/index.md). *Early registration saves more than 70% on registration costs, and [Training Day](/src/events/gcc2014/training-day/index.md) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/src/events/gcc2014/logistics/index.md#lodging), a very affordable housing option in the same building as the conference.
 
-*[Training Day](/src/events/GCC2014/TrainingDay/index.md)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There are 5 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 15 sessions and over 37 hours of workshop material.*
+*[Training Day](/src/events/gcc2014/training-day/index.md)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There are 5 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 15 sessions and over 37 hours of workshop material.*
 
-<div class='right'><br /><br /><a href='http://ccb.jhu.edu/people/salzberg/'><img src="/src/events/GCC2014/Abstracts/Salzberg.jpg" alt="Steven Salzberg" width="125" /></a></div>
+<div class='right'><br /><br /><a href='http://ccb.jhu.edu/people/salzberg/'><img src="/src/events/gcc2014/abstracts/Salzberg.jpg" alt="Steven Salzberg" width="125" /></a></div>
 
 ### Keynote Speaker: Steven Salzberg
 
@@ -134,79 +134,79 @@ Steve's GCC2014 talk will be on "Transcriptomes and Exomes: Computational Challe
 
 ### Galaxy Hackathon at GCC2014
 
-<div class='left'><a href='/src/events/GCC2014/Hackathon/index.md'><img src="/src/images/Logos/GCC2014HackLogoSquare.png" alt="GCC2014 Hackathon" width="150" /></a></div>
+<div class='left'><a href='/src/events/gcc2014/hackathon/index.md'><img src="/src/images/logos/GCC2014HackLogoSquare.png" alt="GCC2014 Hackathon" width="150" /></a></div>
 
-The very first [Galaxy Project Hackathon](/src/events/GCC2014/Hackathon/index.md) will be a three day event taking place at Johns Hopkins immediately preceding [GCC2014](/src/events/GCC2014/index.md) from June 28th-30th.
+The very first [Galaxy Project Hackathon](/src/events/gcc2014/hackathon/index.md) will be a three day event taking place at Johns Hopkins immediately preceding [GCC2014](/src/events/gcc2014/index.md) from June 28th-30th.
 
-Do you have a feature you've always wanted to implement?  Just want to hack on Galaxy (or CloudMan!) with other folks?  The [Galaxy Hackathon](/src/events/GCC2014/Hackathon/index.md) will be a great opportunity to meet and work closely with other community and [Galaxy Team](/src/GalaxyTeam/index.md) members over the course of three days, culminating in some really great improvements and new features to show off at the [Galaxy Community Conference](/src/events/GCC2014/index.md) afterward.
+Do you have a feature you've always wanted to implement?  Just want to hack on Galaxy (or CloudMan!) with other folks?  The [Galaxy Hackathon](/src/events/gcc2014/hackathon/index.md) will be a great opportunity to meet and work closely with other community and [Galaxy Team](/src/galaxy-team/index.md) members over the course of three days, culminating in some really great improvements and new features to show off at the [Galaxy Community Conference](/src/events/gcc2014/index.md) afterward.
 
 Participation in the hackathon itself is completely free, but there's limited space so if you're interested and would like to participate please go ahead and book both your lodging and hackathon seat at [EventBrite](http://bit.ly/gcc2014hackreg).
 
 To help organize ideas and people into more concrete projects, we've also set up a [hackathon-specific Trello board](https://trello.com/b/3YgU637b/gcc2014-hackathon) that we'd love for everyone to go ahead and [start using it](https://trello.com/b/3YgU637b/gcc2014-hackathon).  The board is public and open to commentary and voting, but to create new cards you’ll need to be added as a member so please note the instructions on the board for that.
 
 <div class='right'>
-<a href='https://curoverse.com/'><img src="/src/images/Logos/CuroversLogoBig.png" alt="Curoverse: Open Source developers of Arvados" width="170" /></a>&nbsp;
-<a href='https://arvados.org/'><img src="/src/images/Logos/ArvadosLogoBig.png" alt="Arvados: a free and open source bioinformatics platform for genomic and biomedical data" width="140" /></a>
+<a href='https://curoverse.com/'><img src="/src/images/logos/CuroversLogoBig.png" alt="Curoverse: Open Source developers of Arvados" width="170" /></a>&nbsp;
+<a href='https://arvados.org/'><img src="/src/images/logos/ArvadosLogoBig.png" alt="Arvados: a free and open source bioinformatics platform for genomic and biomedical data" width="140" /></a>
 </div>
 
-Finally, we are very happy to have **[Curoverse](https://curoverse.com/) on board as the exclusive [Peta level sponsor](/src/events/GCC2014/Hackathon/index.md#sponsors)** of the hackathon.  If you know of any other group that might be interested in sponsoring at the [Giga level](/src/events/GCC2014/Hackathon/index.md#sponsors) please let us know.
+Finally, we are very happy to have **[Curoverse](https://curoverse.com/) on board as the exclusive [Peta level sponsor](/src/events/gcc2014/hackathon/index.md#sponsors)** of the hackathon.  If you know of any other group that might be interested in sponsoring at the [Giga level](/src/events/gcc2014/hackathon/index.md#sponsors) please let us know.
 
 ### Abstracts and Program
 
-The deadlines for both oral and poster presentations were in April.  Oral presentation submitters have been contacted and [we've heard back from over half of them](/src/events/GCC2014/Abstracts/Talks/index.md), and we will continue to update the [Talk Abstracts page](/src/events/GCC2014/Abstracts/Talks/index.md) as we hear from the rest.  If you submitted a poster abstract, they you will be notified at the end of this week if your poster was accepted.  We'll start posting those abstracts online then too.
+The deadlines for both oral and poster presentations were in April.  Oral presentation submitters have been contacted and [we've heard back from over half of them](/src/events/gcc2014/abstracts/talks/index.md), and we will continue to update the [Talk Abstracts page](/src/events/gcc2014/abstracts/talks/index.md) as we hear from the rest.  If you submitted a poster abstract, they you will be notified at the end of this week if your poster was accepted.  We'll start posting those abstracts online then too.
 
-The conference is still accepting [late abstract submissions](/src/events/GCC2014/Abstracts/index.md).  These will not be considered for constructing the initial list of accepted abstracts, but will be reviewed as cancellations occur and space frees up (*and we have always had a few cancellations*).
+The conference is still accepting [late abstract submissions](/src/events/gcc2014/abstracts/index.md).  These will not be considered for constructing the initial list of accepted abstracts, but will be reviewed as cancellations occur and space frees up (*and we have always had a few cancellations*).
 
-Look for a [more detailed draft program](/src/events/GCC2014/Program/index.md) to be posted later this month, once we have heard from all presenters.
+Look for a [more detailed draft program](/src/events/gcc2014/program/index.md) to be posted later this month, once we have heard from all presenters.
 
 
 ### Sponsorships and Exhibitors
 
 <div class='right'>
-<a href='http://biolchem.bs.jhmi.edu/'><img src="/src/images/Logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins" width="260" /></a><br /> 
-<a href='http://epigenetics.jhu.edu/'><img src="/src/images/Logos/JohnHopkinsEpigenetics.jpg" alt="Center for Epigenetics" width="260" /></a>
+<a href='http://biolchem.bs.jhmi.edu/'><img src="/src/images/logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins" width="260" /></a><br /> 
+<a href='http://epigenetics.jhu.edu/'><img src="/src/images/logos/JohnHopkinsEpigenetics.jpg" alt="Center for Epigenetics" width="260" /></a>
 </div>
 
 We are happy to have the [Center for Epigenetics](http://epigenetics.jhu.edu/), and the [Department of Biological Chemistry](http://biolchem.bs.jhmi.edu/), both of Johns Hopkins University as GCC2014 Sponsors. 
 
-There are still [Silver and Bronze sponsorships](/src/events/GCC2014/SponsorExhibit/index.md) available for the [GCC2014](/src/events/GCC2014/index.md) and Giga sponsorships for the [Hackathon](/src/events/GCC2014/Hackathon/index.md). Please contact the [Organizers](/src/events/GCC2014/Organizers/index.md) if your organization would like to help sponsor these events. 
+There are still [Silver and Bronze sponsorships](/src/events/gcc2014/sponsor-exhibit/index.md) available for the [GCC2014](/src/events/gcc2014/index.md) and Giga sponsorships for the [Hackathon](/src/events/gcc2014/hackathon/index.md). Please contact the [Organizers](/src/events/gcc2014/organizers/index.md) if your organization would like to help sponsor these events. 
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/GCC2014/SponsorExhibit/index.md#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/src/events/GCC2014/Organizers/index.md) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/gcc2014/sponsor-exhibit/index.md#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/src/events/gcc2014/organizers/index.md) if your organization would like to have an exhibit space at GCC2014. 
 
 ## UK May 2014 Galaxy Tour
 
 <div class='left'>
-<a href='/src/events/UKMay2014/index.md'><img src="/src/images/Logos/UKMay2014Tour.png" alt="UK May 2014 Galaxy Tour" width="170px" /></a>
+<a href='/src/events/uk-may2014/index.md'><img src="/src/images/logos/UKMay2014Tour.png" alt="UK May 2014 Galaxy Tour" width="170px" /></a>
 </div>
 
 <div class='right'>
 <div class='right'>
-<a href='/src/events/UKMay2014/TGACWorkshop/index.md'><img src="/src/images/Logos/TGACLogo.png" alt="Introduction to Galaxy Workshop" width="180" /></a><br /><br />
-<a href='/src/events/UKMay2014/UEdinburgh/index.md'><img src="/src/images/Logos/UEdinburghWideLogo.png" alt="Introduction to Galaxy Workshop" width="180" /></a></div><br />
-<a href='http://www.bioinformatics.ed.ac.uk/events/5th-edinburgh-bioinformatics-meeting'><img src="/src/images/Logos/EdinburghBioinformatics.png" alt="5th Edinburgh Bioinformatics Meeting" width="220" /></a><br />
-<div class='right'><a href='http://www.igmm.ac.uk/'><img src="/src/images/Logos/IGMMLogo.jpg" alt="Institute of Genetics and Molecular Medicine" width="110" /></a></div>
+<a href='/src/events/uk-may2014/tgac-workshop/index.md'><img src="/src/images/logos/TGACLogo.png" alt="Introduction to Galaxy Workshop" width="180" /></a><br /><br />
+<a href='/src/events/uk-may2014/u-edinburgh/index.md'><img src="/src/images/logos/UEdinburghWideLogo.png" alt="Introduction to Galaxy Workshop" width="180" /></a></div><br />
+<a href='http://www.bioinformatics.ed.ac.uk/events/5th-edinburgh-bioinformatics-meeting'><img src="/src/images/logos/EdinburghBioinformatics.png" alt="5th Edinburgh Bioinformatics Meeting" width="220" /></a><br />
+<div class='right'><a href='http://www.igmm.ac.uk/'><img src="/src/images/logos/IGMMLogo.jpg" alt="Institute of Genetics and Molecular Medicine" width="110" /></a></div>
 </div>
 
-A [Galaxy Tour](/src/events/UKMay2014/index.md) is happening in the United Kingdom in early May 2014.  If you are anywhere close to Norwich or Edinburgh, then it might be worth your while to attend an event.
+A [Galaxy Tour](/src/events/uk-may2014/index.md) is happening in the United Kingdom in early May 2014.  If you are anywhere close to Norwich or Edinburgh, then it might be worth your while to attend an event.
 
-First, there will be a talk on *Scaling Galaxy for Big Data* at the [NGS Data after the Gold Rush](http://www.tgac.ac.uk/SeqAhead_Scientific_Meeting_and_Management_Committee_Meeting/) meeting, being held 6-7 May, at [The Genome Access Centre (TGAC)](http://www.tgac.ac.uk/) in Norwich.  This will be followed by a hands-on *[Introduction to Galaxy Workshop](/src/events/UKMay2014/TGACWorkshop/index.md)* on 9 May, also at TGAC. 
+First, there will be a talk on *Scaling Galaxy for Big Data* at the [NGS Data after the Gold Rush](http://www.tgac.ac.uk/SeqAhead_Scientific_Meeting_and_Management_Committee_Meeting/) meeting, being held 6-7 May, at [The Genome Access Centre (TGAC)](http://www.tgac.ac.uk/) in Norwich.  This will be followed by a hands-on *[Introduction to Galaxy Workshop](/src/events/uk-may2014/tgac-workshop/index.md)* on 9 May, also at TGAC. 
 
-After that, there will be 3 events in Edinburgh the following week, starting on Monday with a hands on *[Introduction to Galaxy Workshop](/src/events/UKMay2014/UEdinburgh/index.md)* at the [University of Edinburgh](http://www.ed.ac.uk/) in the morning and a *Galaxy Project Update* talk at the [5th Edinburgh Bioinformatics Meeting](http://www.bioinformatics.ed.ac.uk/events/5th-edinburgh-bioinformatics-meeting), in the afternoon, and also at the University.  Finally, on Tuesday 13 May, there will be a [all-day hands-on Galaxy Workshop](/src/events/UKMay2014/IGMMWorkshop/index.md) at the [Institute of Genetics and Molecular Medicine (IGMM)](http://www.igmm.ac.uk/) at Western General Hospital.
+After that, there will be 3 events in Edinburgh the following week, starting on Monday with a hands on *[Introduction to Galaxy Workshop](/src/events/uk-may2014/u-edinburgh/index.md)* at the [University of Edinburgh](http://www.ed.ac.uk/) in the morning and a *Galaxy Project Update* talk at the [5th Edinburgh Bioinformatics Meeting](http://www.bioinformatics.ed.ac.uk/events/5th-edinburgh-bioinformatics-meeting), in the afternoon, and also at the University.  Finally, on Tuesday 13 May, there will be a [all-day hands-on Galaxy Workshop](/src/events/uk-may2014/igmm-workshop/index.md) at the [Institute of Genetics and Molecular Medicine (IGMM)](http://www.igmm.ac.uk/) at Western General Hospital.
 
 You must be affiliated with the University of Edinburgh or the IGMM to register for either of those workshops, but all other events are open to anyone.
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/Icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
 
 And don't worry if you are not near Norwich or Edinburgh in May.  There are [at least 17 other Galaxy related events](/src/events/index.md) in the next 70 days in Norway, France, *online*, Croatia, Thailand, Canada, the US, the Netherlands, and Australia. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
 <div class='center'> 
-<a href='/src/events/UKMay2014/index.md'><img src="/src/images/Logos/UKMay2014Tour.png" alt="" height="80" /></a>&nbsp;
-<a href='/src/gmod:GMOD_Online_Training_2014/index.md'><img src="/src/images/Logos/GMODOnlineTraining2014.png" alt="GMOD Online Training" height="80" /></a> &nbsp;
-<a href='/src/events/GCC2014/index.md'><img src="/src/images/Logos/GCC2014LogoWide200.png" alt="GCC2014 early registration and abstract submission are now open" height="75" /></a>&nbsp;
+<a href='/src/events/uk-may2014/index.md'><img src="/src/images/logos/UKMay2014Tour.png" alt="" height="80" /></a>&nbsp;
+<a href='/src/gmod:GMOD_Online_Training_2014/index.md'><img src="/src/images/logos/GMODOnlineTraining2014.png" alt="GMOD Online Training" height="80" /></a> &nbsp;
+<a href='/src/events/gcc2014/index.md'><img src="/src/images/logos/GCC2014LogoWide200.png" alt="GCC2014 early registration and abstract submission are now open" height="75" /></a>&nbsp;
 
 </div>
 
@@ -219,24 +219,24 @@ And don't worry if you are not near Norwich or Edinburgh in May.  There are [at 
   </tr>
   <tr>
     <th rowspan=1> April 29 -<br />May 1 </th>
-    <td rowspan=1> <strong><a href='/src/events/BioITWorld2014/index.md'>Two tutorials and at least five talks</a></strong> </td>
-    <td rowspan=1> <strong><a href='/src/events/BioITWorld2014/index.md'>BioIT World</a></strong><br />Boston, Massachusetts, United States </td>
-    <td> <a href='/src/events/BioITWorld2014/index.md'>See tutorial and talk list</a> </td>
+    <td rowspan=1> <strong><a href='/src/events/bioitworld2014/index.md'>Two tutorials and at least five talks</a></strong> </td>
+    <td rowspan=1> <strong><a href='/src/events/bioitworld2014/index.md'>BioIT World</a></strong><br />Boston, Massachusetts, United States </td>
+    <td> <a href='/src/events/bioitworld2014/index.md'>See tutorial and talk list</a> </td>
   </tr>
   <tr>
     <th> May 6-7 </th>
     <td> <em>Scaling Galaxy for Big Data</em> </td>
     <td> <a href='http://www.tgac.ac.uk/SeqAhead_Scientific_Meeting_and_Management_Committee_Meeting/'>NGS Data after the Gold Rush</a>, <a href='http://www.tgac.ac.uk/'>TGAC</a>, Norwich, United Kingdom </td>
-    <td rowspan=5> <a href='/src/DaveClements/index.md'>Dave Clements</a> </td>
+    <td rowspan=5> <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 9 </th>
-    <td> <em><a href='/src/events/UKMay2014/TGACWorkshop/index.md'>Introduction to Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/src/events/uk-may2014/tgac-workshop/index.md'>Introduction to Galaxy Workshop</a></em> </td>
     <td> <a href='http://www.tgac.ac.uk/'>The Genome Analysis Centre (TGAC)</a>, Norwich, United Kingdom </td>
   </tr>
   <tr>
     <th rowspan=2> May 12 </th>
-    <td> <em><a href='/src/events/UKMay2014/UEdinburgh/index.md'>Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/src/events/uk-may2014/u-edinburgh/index.md'>Galaxy Workshop</a></em> </td>
     <td> <a href='http://www.ed.ac.uk/'>University of Edinburgh</a>, Edinburgh, UK </td>
   </tr>
   <tr>
@@ -245,7 +245,7 @@ And don't worry if you are not near Norwich or Edinburgh in May.  There are [at 
   </tr>
   <tr>
     <th> May 13 </th>
-    <td> <em><a href='/src/events/UKMay2014/IGMMWorkshop/index.md'>Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/src/events/uk-may2014/igmm-workshop/index.md'>Galaxy Workshop</a></em> </td>
     <td> <a href='http://www.igmm.ac.uk/'>Institute of Genetics and Molecular Medicine (IGMM)</a>, Edinburgh, UK </td>
   </tr>
   <tr>
@@ -270,13 +270,13 @@ And don't worry if you are not near Norwich or Edinburgh in May.  There are [at 
     <th> May 19-23 </th>
     <td> <em>Installing Galaxy Workshop</em><div class='indent red'>Application deadline: April 28</div> </td>
     <td> <a href='http://gmod.org/wiki/GMOD_Online_Training_2014'>GMOD Online Training</a> </td>
-    <td> <a href='/src/CarlEberhard/index.md'>Carl Eberhard</a>, <a href='http://gmod.org/wiki/User:Girlwithglasses'>Amelia Ireland</a> </td>
+    <td> <a href='/src/carl-eberhard/index.md'>Carl Eberhard</a>, <a href='http://gmod.org/wiki/User:Girlwithglasses'>Amelia Ireland</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>
     <td> <em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a></em> </td>
     <td> <a href='http://www.mipro.hr/CallForPapers/tabid/176/language/en-US/Default.aspx'>MIPRO 2014</a>, Opatija, Croatia </td>
-    <td> <a href='/src/EnisAfgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/src/enis-afgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 2-3 </th>
@@ -324,14 +324,14 @@ And don't worry if you are not near Norwich or Edinburgh in May.  There are [at 
   </tr>
   <tr>
     <th> June 28-30 </th>
-    <td> <a href='/src/events/GCC2014/Hackathon/index.md'>Galaxy Hackathon</a> </td>
+    <td> <a href='/src/events/gcc2014/hackathon/index.md'>Galaxy Hackathon</a> </td>
     <td rowspan=2> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
-    <td> <a href='/src/events/GCC2014/Organizers/index.md'>Organizers</a> </td>
+    <td> <a href='/src/events/gcc2014/organizers/index.md'>Organizers</a> </td>
   </tr>
   <tr>
     <th> June 30 -<br />July 2 </th>
-    <td> <strong><a href='/src/events/GCC2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
-    <td> <a href='/src/events/GCC2014/Organizers/index.md'>Organizers</a> </td>
+    <td> <strong><a href='/src/events/gcc2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
+    <td> <a href='/src/events/gcc2014/organizers/index.md'>Organizers</a> </td>
   </tr>
   <tr>
     <th> July 7-9 </th>
@@ -350,7 +350,7 @@ And don't worry if you are not near Norwich or Edinburgh in May.  There are [at 
 
 # Who's Hiring
 
-<div class='right'><a href='/src/GalaxyIsHiring/index.md'><img src="/src/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/galaxy-is-hiring/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -359,24 +359,24 @@ The Galaxy is expanding! Please help it grow.
 * [Bioinformatician / Computational Biologist](http://bit.ly/1t6n52s), EMBL Heidelberg, Germany 
 * [Bioinformatics Technician](http://bit.ly/QaQWb9), Bioinformatics Unit, Core Facilities, CRG, Barcelona, Spain  
 * [Experimental Officer in Bioinformatics](http://bit.ly/1imRDs4), NERC Metabolomics Facility, University of Birmingham, UK 
-* [Statistical Genomics Postdoc](/src/news/StatisticalGenomicsPostDocPennState/index.md) opening in the Makova lab at Penn State
-* **The [Galaxy Project is hiring software engineers and post-docs](/src/GalaxyIsHiring/index.md)**
+* [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
+* **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/GalaxyUpdates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
 # New Public Servers
 
-Two [public Galaxy servers](/src/PublicGalaxyServers/index.md) were added to the published list in April:
+Two [public Galaxy servers](/src/public-galaxy-servers/index.md) were added to the published list in April:
 
 ## Globus Genomics Proteomics
 
-<div class='right solid'><a href='http://proteomics.globusgenomics.org/'><img src="/src/images/Logos/GlobusGenomics.png" alt="Globus Genomics Proteomics Galaxy Server"  /></a></div>
+<div class='right solid'><a href='http://proteomics.globusgenomics.org/'><img src="/src/images/logos/GlobusGenomics.png" alt="Globus Genomics Proteomics Galaxy Server"  /></a></div>
 
 * *Links:*
   * [Globus Genomics Proteomics Galaxy Server](http://proteomics.globusgenomics.org/)
-  * *[Building a Low-budget Public Resource for Large-scale Proteomic Analyses](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/GlobusGenomicsProteomics.pdf)*, presentation by [Anoop Mayampurath](http://www.ci.uchicago.edu/profile/257) at [Globus World 2014](http://globusworld.org/)
+  * *[Building a Low-budget Public Resource for Large-scale Proteomic Analyses](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/GlobusGenomicsProteomics.pdf)*, presentation by [Anoop Mayampurath](http://www.ci.uchicago.edu/profile/257) at [Globus World 2014](http://globusworld.org/)
 * *Domain/Purpose:*
     The [Globus Genomics Project](http://globusgenomics.org) demonstration Galaxy server. It has a strong emphasis on proteomics
 * *Comments:*
@@ -391,7 +391,7 @@ Two [public Galaxy servers](/src/PublicGalaxyServers/index.md) were added to the
 
 ## SunLab
 
-<div class='right solid'><a href='http://meta.cmb.usc.edu/'><img src="/src/PublicGalaxyServers/SunLab.png" alt="SunLab Galaxy Server"  /></a></div>
+<div class='right solid'><a href='http://meta.cmb.usc.edu/'><img src="/src/public-galaxy-servers/SunLab.png" alt="SunLab Galaxy Server"  /></a></div>
  
 * *Links:*
     [SunLab Galaxy Server](http://meta.cmb.usc.edu/)
@@ -412,7 +412,7 @@ Two [public Galaxy servers](/src/PublicGalaxyServers/index.md) were added to the
 <div class='right'>
 <table>
   <tr>
-    <td> <a href='http://usegalaxy.org'><img src="/src/images/NewsGraphics/2014_04_14_trackster-deep.png" alt="Trackster Vis" width="300" /></a> </td>
+    <td> <a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2014_04_14_trackster-deep.png" alt="Trackster Vis" width="300" /></a> </td>
   </tr>
 </table>
 
@@ -460,33 +460,33 @@ Two [public Galaxy servers](/src/PublicGalaxyServers/index.md) were added to the
 
 [BioBlend 0.4.3](https://pypi.python.org/pypi/bioblend/0.4.3) was released on April 11, 2014.  
 
-The most recent version of CloudMan was [released in January 2014](/src/news/CloudManRelease201401/index.md).
+The most recent version of CloudMan was [released in January 2014](/src/news/cloudman-release201401/index.md).
 
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/src/Community/Logs/index.md'><img src="/src/images/Logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
-<div class='right'><a href='/src/Community/Deployments/index.md'><img src="/src/images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='right'><a href='/src/community/deployments/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /></a> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/Community/Logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/Community/Logs/index.md#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/Community/Deployments/index.md#add-your-galaxy-deployment'>now</a></em> </td>
+    <td style=" class="blue"  text-align: center;"> &nbsp;&nbsp; <a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a> </em> &nbsp;&nbsp;<br /><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>Describe your instance</a> <em><a href='/src/community/deployments/index.md#add-your-galaxy-deployment'>now</a></em> </td>
   </tr>
 </table>
 
 <br /><br />
 
-The *[Community Log Board](/src/Community/Logs/index.md)* and  *[Deployment Catalog](/src/Community/Deployments/index.md)* *[Galaxy community hubs](/src/Community/index.md)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
+The *[Community Log Board](/src/community/logs/index.md)* and  *[Deployment Catalog](/src/community/deployments/index.md)* *[Galaxy community hubs](/src/community/index.md)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
 
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 
 ## New Public Tool Sheds
 
-<div class='left'><a href='http://toolshed.nbic.nl/'><img src="/src/images/Logos/DTLLogo.png" alt="DTL ToolShed" width="150" /></a></div>
+<div class='left'><a href='http://toolshed.nbic.nl/'><img src="/src/images/logos/DTLLogo.png" alt="DTL ToolShed" width="150" /></a></div>
 
 The [Dutch Techcentre for Life Sciences (DTL)](http://www.dtls.nl/dtl/) has made its [Galaxy ToolShed](http://toolshed.nbic.nl/) publicly available.  The [DTL ToolShed](http://toolshed.nbic.nl/) has almost 70 tools in it, from [ANNOVAR](http://toolshed.nbic.nl/view/saskia-hiltemann/annovar) to [VCF-2-VariantList](http://toolshed.nbic.nl/view/saskia-hiltemann/virtual_normal_preprocessing).  This ToolShed was originally started at NBIC.
 
@@ -552,6 +552,6 @@ The [Dutch Techcentre for Life Sciences (DTL)](http://www.dtls.nl/dtl/) has made
 
 # Other News
 
-* The [meeting report and slides for the Galaxy Australasia Workshop](/src/events/GAW2014/index.md) are now online.
+* The [meeting report and slides for the Galaxy Australasia Workshop](/src/events/gaw2014/index.md) are now online.
 * Galaxy has a [new status interface](http://status.galaxyproject.org). Check [status.galaxyproject.org](http://status.galaxyproject.org) if you suspect downtime.
 

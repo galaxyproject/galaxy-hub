@@ -2,11 +2,11 @@
 title: NGS Data Analysis and Galaxy Workshop
 ---
 <div class='center'>
-<a href='http://www.cbio.uct.ac.za/'><img src="/src/images/Logos/CBioUCapeTownLogo.png" alt="University of Cape Town’s Computational Biology Group" width="400" /></a>
+<a href='http://www.cbio.uct.ac.za/'><img src="/src/images/logos/CBioUCapeTownLogo.png" alt="University of Cape Town’s Computational Biology Group" width="400" /></a>
 
 
 
-**Instructors: [Dave Clements](/src/DaveClements/index.md), [Gerrit Botha](http://www.cbio.uct.ac.za/people/5-gerrit-botha.html)
+**Instructors: [Dave Clements](/src/dave-clements/index.md), [Gerrit Botha](http://www.cbio.uct.ac.za/people/5-gerrit-botha.html)
 
 21-25 October 2013<br />
 9:00-17:00**  <br />

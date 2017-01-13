@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[July 2016 Galaxy Release (v 16.07)](/src/news/2016_07_GalaxyRelease/index.md)</div>
+<div class='newsItemHeader'>[July 2016 Galaxy Release (v 16.07)](/src/news/2016_07-galaxy-release/index.md)</div>
 
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
 
 <br />
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the **[July 2016 (v16.07) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.07_announce.html)**.
@@ -13,13 +13,13 @@ The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/do
 <br />
 ***[Highlights](https://docs.galaxyproject.org/en/master/releases/16.07_announce.html#highlights)***
 
-<a href='https://docs.galaxyproject.org/en/master/releases/16.07_announce.html#highlights'><img src="/src/images/NewsGraphics/2016_07_GalaxyRelease_Highlights.png" alt="v16.07 Galaxy Release Highlights" width="600" /></a>
+<a href='https://docs.galaxyproject.org/en/master/releases/16.07_announce.html#highlights'><img src="/src/images/news-graphics/2016_07_GalaxyRelease_Highlights.png" alt="v16.07 Galaxy Release Highlights" width="600" /></a>
 
 
 <br />
 ***[Get Galaxy](http://getgalaxy.org)***
 
-<a href='https://docs.galaxyproject.org/en/master/releases/16.07_announce.html#github'><img src="/src/images/NewsGraphics/2016_07_GalaxyRelease_GetGalaxy.png" alt="v16.07 Galaxy Release Github" width="600" /></a>
+<a href='https://docs.galaxyproject.org/en/master/releases/16.07_announce.html#github'><img src="/src/images/news-graphics/2016_07_GalaxyRelease_GetGalaxy.png" alt="v16.07 Galaxy Release Github" width="600" /></a>
 
 <br />
 On behalf of the [Galaxy Core and Contributor team](https://wiki.galaxyproject.org/GalaxyTeam) (and community), ***Thanks for using Galaxy!***
@@ -27,4 +27,4 @@ On behalf of the [Galaxy Core and Contributor team](https://wiki.galaxyproject.o
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-08-25</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

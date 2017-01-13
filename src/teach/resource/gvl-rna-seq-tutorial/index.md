@@ -2,7 +2,7 @@
 title: GVL RNA-seq Differential Gene Expression Introductory Tutorial
 ---
 <div class='center'>
-<a href='https://docs.google.com/document/pub?id=1KbTiBHtvHLfPRZ39AY3uriazrINA8TJzgjjwn1zPP7Y'><img src="/src/PublicGalaxyServers/GenomicsVirtualLab300.png" alt="RNAseq Differential Gene Expression Introductory tutorial" height="200" /></a>
+<a href='https://docs.google.com/document/pub?id=1KbTiBHtvHLfPRZ39AY3uriazrINA8TJzgjjwn1zPP7Y'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="RNAseq Differential Gene Expression Introductory tutorial" height="200" /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: GVL RNA-seq Differential Gene Expression Introductory Tutorial
 
 
 <div class='deploymentbox'>
- Resource:: **[GVL RNA-seq Differential Gene Expression Introductory tutorial](/src/Teach/Resource/GVL-RNA-SeqTutorial/index.md)**
+ Resource:: **[GVL RNA-seq Differential Gene Expression Introductory tutorial](/src/teach/resource/gvl-rna-seq-tutorial/index.md)**
  Types:: Tutorial
  Domains:: **RNA-Seq**
  Owners:: [Genomics Virtual Lab](https://genome.edu.au/wiki/About) by [University of Queensland, ](http://www.uq.edu.au) [Victorian Life Sciences Computation Initiative, ](http://www.vlsci.org.au/) [Queensland Facility for Advanced Bioinformatics, ](http://www.qfab.org//) and [Garvan Institute](http://www.garvan.org.au/)
@@ -18,7 +18,7 @@ title: GVL RNA-seq Differential Gene Expression Introductory Tutorial
  Date:: 2014/08
 </div>
 
-This tutorial runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/PublicGalaxyServers/index.md) specifically for learning bioinformatics analysis.
+This tutorial runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/public-galaxy-servers/index.md) specifically for learning bioinformatics analysis.
 
 In this tutorial we cover the concepts of RNA-Seq differential gene expression (DGE) analysis using a very small synthetic dataset from a well studied organism.
 
@@ -40,4 +40,4 @@ Needed datasets exist in Shared Libraries on the server, and are also available 
 * [Genomics Virtual Lab](https://genome.edu.au/wiki/GVL)
 * The [GVL Tutorials and Protocols page](https://genome.edu.au/wiki/Learn)
 
-[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)
+[CategoryTrainingResource](/src/category-training-resource/index.md)

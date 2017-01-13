@@ -1,7 +1,7 @@
 <div class='newsItemHeader'>[Galaxy Workshops @ USC June 23-24](/src/news/Galaxy Workshops @ USC June 23-24/index.md)</div>
 
 <div class='right'>
-<img src="/src/images/Logos/USC_logo.png" alt="Galaxy Workshops at USC June 23-24" width="100" />
+<img src="/src/images/logos/USC_logo.png" alt="Galaxy Workshops at USC June 23-24" width="100" />
 </div>
 There will be two Galaxy workshops at the University of Southern California (USC) later this month.  Both are presented by Jeremy Goecks of Emory University and the Galaxy team.  Both workshops are open to the public:
 
@@ -18,4 +18,4 @@ There will be two Galaxy workshops at the University of Southern California (USC
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-06-17</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

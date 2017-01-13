@@ -15,7 +15,7 @@ autotoc: true
 
 
 
-<div class='right'><a href='/src/events/GCC2013/TrainingDay/index.md'><img src="/src/images/Logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
+<div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
 
 
@@ -28,7 +28,7 @@ The Galaxy API is a way of interacting with Galaxy data without using the web-ba
 
 
 
-A more thorough explanation can be found at [Learn/API](/src/Learn/API/index.md) along with some general steps on
+A more thorough explanation can be found at [Learn/API](/src/learn/api/index.md) along with some general steps on
 how to begin using the API. This page may duplicate some of that data in order to keep information relevant to the
 workshop in one place.
 
@@ -1381,7 +1381,7 @@ And ... we're done!
 
 We are always adding new functionality to the API and progressively ensuring that everything that can be done in the
 UI can be done in the API - because of that, please, consider the API a 'work in progress' and check the
-[Galaxy Development Briefs](/src/DevNewsBriefs/index.md) for new features or fixes.
+[Galaxy Development Briefs](/src/dev-news-briefs/index.md) for new features or fixes.
 
 
 

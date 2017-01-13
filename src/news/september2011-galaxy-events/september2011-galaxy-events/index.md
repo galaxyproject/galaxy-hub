@@ -40,7 +40,7 @@ There are (at least) three [Galaxy related events](/src/events/index.md) going o
 See the [/Events](/src/events/index.md) page for a full listing of upcoming events.  If you have a Galaxy related event please send it to outreach@galaxyproject.org and we will help you get the word out.
 
 Thanks,<br />
-[Dave Clements](/src/DaveClements/index.md)
+[Dave Clements](/src/dave-clements/index.md)
 
 
 CategoryNews

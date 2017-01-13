@@ -13,7 +13,7 @@ title: Abstracts
 
 <br /><br />
 
-See the [GCC2014 Program](/src/events/GCC2014/Program/index.md) for the complete schedule.
+See the [GCC2014 Program](/src/events/gcc2014/program/index.md) for the complete schedule.
 
 # Talk Abstracts
 

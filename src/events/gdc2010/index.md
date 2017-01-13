@@ -1,7 +1,7 @@
 ## Galaxy Developer Conference 2010
 
 * [Developer Conference Information](http://galaxy.psu.edu/dev2010/)
-* [Galaxy Interactive Poster](/src/Learn/Interactive Poster/index.md)
+* [Galaxy Interactive Poster](/src/learn/Interactive Poster/index.md)
 
 ## Slides
 
@@ -23,7 +23,7 @@
 #### Afternoon
 
 * [ZFS for NGS data analysis](PLACEHOLDER_ATTACHMENT_URL/src/GDC2010_ZFS-for_NGS_Analysis.pdf) - Davide Cittaro
-* [Do-It-Yourself Bioinformatics with the FMI Galaxy Server](PLACEHOLDER_ATTACHMENT_URL/src/GDC2010DIY_Bioinf_FMI.pdf) - [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md)
+* [Do-It-Yourself Bioinformatics with the FMI Galaxy Server](PLACEHOLDER_ATTACHMENT_URL/src/GDC2010DIY_Bioinf_FMI.pdf) - [Hans-Rudolf Hotz](/src/hansrudolf-hotz/index.md)
 * [Cistrome Project: An Integrative Platform to Analyze ChIP-chip/seq Data](PLACEHOLDER_ATTACHMENT_URL/src/GDC2010_Cistrome.pdf) - Tao Liu
 * [Transcriptome Analysis with Galaxy](PLACEHOLDER_ATTACHMENT_URL/src/Transcriptome_Analysis_with_Galaxy.pdf) - Gunnar Rätsch
 

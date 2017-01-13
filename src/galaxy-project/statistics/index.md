@@ -1,7 +1,7 @@
 ---
 autotoc: true
 ---
-This page contains statistics about the [Galaxy Project](/src/GalaxyProject/index.md).  This page is updated every January and July, or whenever the project has a grant due, or whenever an advisory board meeting is set to occur.
+This page contains statistics about the [Galaxy Project](/src/galaxy-project/index.md).  This page is updated every January and July, or whenever the project has a grant due, or whenever an advisory board meeting is set to occur.
 
 
 
@@ -9,7 +9,7 @@ This page contains statistics about the [Galaxy Project](/src/GalaxyProject/inde
 
 ## Galaxy BioStar
 
-The [Galaxy Biostar forum](https://biostar.usegalaxy.org/) was launched on April 23, 2014.  Every thread that existed in the [Galaxy-User mailing list](/src/GalaxyProject/Statistics/index.md#mailing-lists) was copied to Galaxy Biostar at that time, and people were strongly advised to post future questions to Galaxy Biostar.  On June 6, 2014, all posting to Galaxy-User was suspended.
+The [Galaxy Biostar forum](https://biostar.usegalaxy.org/) was launched on April 23, 2014.  Every thread that existed in the [Galaxy-User mailing list](/src/galaxy-project/statistics/index.md#mailing-lists) was copied to Galaxy Biostar at that time, and people were strongly advised to post future questions to Galaxy Biostar.  On June 6, 2014, all posting to Galaxy-User was suspended.
 
 The statistics here don't reflect just what's happened since the switch, but also what happened (sort of) on Galaxy-User before the switch.  As more time passes, results, and especially the recent numbers will more accurately reflect what's happening on Galaxy Biostar.
 
@@ -184,10 +184,10 @@ Active here means "visited", as defined by Biostar.
 
 ## Mailing Lists
 
-Membership in and traffic on Galaxy's [Mailing Lists](/src/MailingLists/index.md) has seen steady increase over time.  Several milestones have contributed to this and affected membership and posting.
+Membership in and traffic on Galaxy's [Mailing Lists](/src/mailing-lists/index.md) has seen steady increase over time.  Several milestones have contributed to this and affected membership and posting.
 
 * 2011/12: Galaxy-Announce list launched.
-* 2012/02: Default mailing list for newly registered users on [usegalaxy.org](/src/Main/index.md) was switched from Galaxy-User to Galaxy-Announce in mid 2012/02. At the same time a link to the other lists was also added to the registration form.
+* 2012/02: Default mailing list for newly registered users on [usegalaxy.org](/src/main/index.md) was switched from Galaxy-User to Galaxy-Announce in mid 2012/02. At the same time a link to the other lists was also added to the registration form.
 * 2012/08: Galaxy-France list launched.
 * 2013/06: Galaxy-Proteomics list launched.
 * 2014/04: Most of Galaxy-User traffic moved to the [Galaxy Biostar online forum](https://biostar.usegalaxy.org).
@@ -356,7 +356,7 @@ Membership in and traffic on Galaxy's [Mailing Lists](/src/MailingLists/index.md
 
 <table>
   <tr>
-    <td> <a href='https://docs.google.com/spreadsheets/d/1jQ-Vbdvc8t6Tqw6DsfBBxIu4CGv8FJwY5SaJWkuf6LI/pubchart?oid=1293859727&format=interactive'><img src="/src/GalaxyProject/Statistics/MailingListMemberships.png" alt="Mailing List Memberships" /></a> </td>
+    <td> <a href='https://docs.google.com/spreadsheets/d/1jQ-Vbdvc8t6Tqw6DsfBBxIu4CGv8FJwY5SaJWkuf6LI/pubchart?oid=1293859727&format=interactive'><img src="/src/galaxy-project/statistics/MailingListMemberships.png" alt="Mailing List Memberships" /></a> </td>
   </tr>
 </table>
 
@@ -475,7 +475,7 @@ Galaxy-Announce is omitted here as it is a moderated, announcement-only list. *N
 <br />
 <table>
   <tr>
-    <td> <a href='https://docs.google.com/spreadsheets/d/1BqRsCeZVHTFuPC01yhFctmYGOIBDfu5_nqDWavR-3_4/pubchart?oid=3&format=interactive'><img src="/src/GalaxyProject/Statistics/MailingListMessagesPerYear.png" alt="Mailing List messages per year" /></a> </td>
+    <td> <a href='https://docs.google.com/spreadsheets/d/1BqRsCeZVHTFuPC01yhFctmYGOIBDfu5_nqDWavR-3_4/pubchart?oid=3&format=interactive'><img src="/src/galaxy-project/statistics/MailingListMessagesPerYear.png" alt="Mailing List messages per year" /></a> </td>
   </tr>
 </table>
 
@@ -485,17 +485,17 @@ Galaxy-Announce is omitted here as it is a moderated, announcement-only list. *N
 
 ## Main Usage
 
-[Main](/src/Main/index.md) is the Galaxy project's publicly available Galaxy server.
+[Main](/src/main/index.md) is the Galaxy project's publicly available Galaxy server.
 
-<a href='https://docs.google.com/spreadsheets/d/199EduADjqo5F-MS9eGUW1pPmzskuYyPv5PJAwEDAVcs/pubchart?oid=2&format=interactive'><img src="/src/GalaxyProject/Statistics/MainUserJobPerMonth.png" alt="User Jobs on Usegalaxy.org per month" width="1000" /></a>
+<a href='https://docs.google.com/spreadsheets/d/199EduADjqo5F-MS9eGUW1pPmzskuYyPv5PJAwEDAVcs/pubchart?oid=2&format=interactive'><img src="/src/galaxy-project/statistics/MainUserJobPerMonth.png" alt="User Jobs on Usegalaxy.org per month" width="1000" /></a>
 
-<a href='https://docs.google.com/spreadsheets/d/1i0SU5Hd_wrToZk5HgF71TXxDILQ42rNiIBsmPtgaHP0/pubchart?oid=1&format=interactive'><img src="/src/GalaxyProject/Statistics/MainRegisteredUsersOverTime.png" alt="" width="1000" /></a>
+<a href='https://docs.google.com/spreadsheets/d/1i0SU5Hd_wrToZk5HgF71TXxDILQ42rNiIBsmPtgaHP0/pubchart?oid=1&format=interactive'><img src="/src/galaxy-project/statistics/MainRegisteredUsersOverTime.png" alt="" width="1000" /></a>
 
-<a href='https://docs.google.com/spreadsheets/d/1i0SU5Hd_wrToZk5HgF71TXxDILQ42rNiIBsmPtgaHP0/pubchart?oid=2&format=interactive'><img src="/src/GalaxyProject/Statistics/MainRegisteredUsersPerMonth.png" alt="" width="1000" /></a>
+<a href='https://docs.google.com/spreadsheets/d/1i0SU5Hd_wrToZk5HgF71TXxDILQ42rNiIBsmPtgaHP0/pubchart?oid=2&format=interactive'><img src="/src/galaxy-project/statistics/MainRegisteredUsersPerMonth.png" alt="" width="1000" /></a>
 
 ## Known Publicly Accessible Servers
 
-Most [local installations of Galaxy](/src/Admin/GetGalaxy/index.md) are private.  However, some are not and we do keep a list of known [Public Galaxy Servers](/src/PublicGalaxyServers/index.md).  These servers allow public access, although sometimes with restrictions.  This is not an absolute count, but it is a rough measure of the trend.
+Most [local installations of Galaxy](/src/admin/get-galaxy/index.md) are private.  However, some are not and we do keep a list of known [Public Galaxy Servers](/src/public-galaxy-servers/index.md).  These servers allow public access, although sometimes with restrictions.  This is not an absolute count, but it is a rough measure of the trend.
 
 <table>
   <tr class="th" >
@@ -555,7 +555,7 @@ Most [local installations of Galaxy](/src/Admin/GetGalaxy/index.md) are private.
 
 # Publications / Citations
 
-A Galaxy [CiteULike](/src/CiteULike/index.md) group was started in late 2011.  It lists all the publications that are about, reference, or mention Galaxy that we know about.  We started keeping track of this statistic partway through 2011, so it is an undercount for that year and previous years.  For years after 2011, it is likely to be more accurate, but it is still approximate and likely to be an undercount.
+A Galaxy [CiteULike](/src/cite-u-like/index.md) group was started in late 2011.  It lists all the publications that are about, reference, or mention Galaxy that we know about.  We started keeping track of this statistic partway through 2011, so it is an undercount for that year and previous years.  For years after 2011, it is likely to be more accurate, but it is still approximate and likely to be an undercount.
 
 As of August 2016 these are the tags on papers in the Galaxy CiteULike Group:
 
@@ -863,15 +863,15 @@ As of August 2016 these are the tags on papers in the Galaxy CiteULike Group:
 
 
 <div class='center'>
-<a href='https://docs.google.com/spreadsheets/d/1KpEdoBFxgc7ILCXTNRtJdrswADM8qHrXUgn-_dGR5z4/pubchart?oid=2103350890&format=interactive'><img src="/src/GalaxyProject/Statistics/PublicationPerYearGraphCumulative.png" alt="Publications over time, cumulative" width="700" /></a>
-<a href='https://docs.google.com/spreadsheets/d/1KpEdoBFxgc7ILCXTNRtJdrswADM8qHrXUgn-_dGR5z4/pubchart?oid=1984173771&format=interactive'><img src="/src/GalaxyProject/Statistics/PublicationPerYearGraph.png" alt="Publications in each year" width="700" /></a> 
-<a href='https://docs.google.com/spreadsheets/d/1KpEdoBFxgc7ILCXTNRtJdrswADM8qHrXUgn-_dGR5z4/pubchart?oid=1132187329&format=interactive'><img src="/src/GalaxyProject/Statistics/PublicationTagsPerYearGraph.png" alt="Publications with each tag, per year" width="700" /></a> 
-<a href='https://docs.google.com/spreadsheets/d/1KpEdoBFxgc7ILCXTNRtJdrswADM8qHrXUgn-_dGR5z4/pubchart?oid=1734775598&format=interactive'><img src="/src/GalaxyProject/Statistics/PublicationTagsPerYearSansMethodsWorkbench.png" alt="Publications with each tag, per year; without methods and workbench tags" width="700" /></a>
+<a href='https://docs.google.com/spreadsheets/d/1KpEdoBFxgc7ILCXTNRtJdrswADM8qHrXUgn-_dGR5z4/pubchart?oid=2103350890&format=interactive'><img src="/src/galaxy-project/statistics/PublicationPerYearGraphCumulative.png" alt="Publications over time, cumulative" width="700" /></a>
+<a href='https://docs.google.com/spreadsheets/d/1KpEdoBFxgc7ILCXTNRtJdrswADM8qHrXUgn-_dGR5z4/pubchart?oid=1984173771&format=interactive'><img src="/src/galaxy-project/statistics/PublicationPerYearGraph.png" alt="Publications in each year" width="700" /></a> 
+<a href='https://docs.google.com/spreadsheets/d/1KpEdoBFxgc7ILCXTNRtJdrswADM8qHrXUgn-_dGR5z4/pubchart?oid=1132187329&format=interactive'><img src="/src/galaxy-project/statistics/PublicationTagsPerYearGraph.png" alt="Publications with each tag, per year" width="700" /></a> 
+<a href='https://docs.google.com/spreadsheets/d/1KpEdoBFxgc7ILCXTNRtJdrswADM8qHrXUgn-_dGR5z4/pubchart?oid=1734775598&format=interactive'><img src="/src/galaxy-project/statistics/PublicationTagsPerYearSansMethodsWorkbench.png" alt="Publications with each tag, per year; without methods and workbench tags" width="700" /></a>
 </div>
 
 # Code
 
-<div class='center'><a href='https://www.openhub.net/p/galaxybx/'><img src="/src/images/Logos/OpenHUBBlackDuck.png" alt="Galaxy code stats at Open HUB" height="30" /></a> &nbsp;&nbsp; <a href='https://github.com/galaxyproject/'><img src="/src/images/Logos/GitHubLogoText.png" alt="Galaxy Project at GitHub" height="35" /></a>
+<div class='center'><a href='https://www.openhub.net/p/galaxybx/'><img src="/src/images/logos/OpenHUBBlackDuck.png" alt="Galaxy code stats at Open HUB" height="30" /></a> &nbsp;&nbsp; <a href='https://github.com/galaxyproject/'><img src="/src/images/logos/GitHubLogoText.png" alt="Galaxy Project at GitHub" height="35" /></a>
 </div>
 
 ## Commits and Committers
@@ -1076,10 +1076,10 @@ The [Galaxy Project Tool Shed](http://toolshed.g2.bx.psu.edu/) contains contribu
 
 # Twitter
 
-The Galaxy project started to [use Twitter](/src/GalaxyOnTwitter/index.md) on a regular basis in February 2011.  Since then, the number of followers has climbed steadily.
+The Galaxy project started to [use Twitter](/src/galaxy-on-twitter/index.md) on a regular basis in February 2011.  Since then, the number of followers has climbed steadily.
 
 <div class='center'>
-<a href='https://docs.google.com/spreadsheets/d/1L3U_EyYanORYmVQmlCNZ6SQlmeGIpf85aPGwK0SzhZI/pubchart?oid=659865406&format=interactive'><img src="/src/GalaxyProject/Statistics/TwitterFollowersOverTime.png" alt="Twitter followers over time"  /></a>
+<a href='https://docs.google.com/spreadsheets/d/1L3U_EyYanORYmVQmlCNZ6SQlmeGIpf85aPGwK0SzhZI/pubchart?oid=659865406&format=interactive'><img src="/src/galaxy-project/statistics/TwitterFollowersOverTime.png" alt="Twitter followers over time"  /></a>
 </div>
 
 # Events
@@ -1089,21 +1089,21 @@ The Galaxy project started to [use Twitter](/src/GalaxyOnTwitter/index.md) on a 
 
 | Event/Year |  Location  |  # Registered  | 
 | ---------- | --------- | ------------- | 
-| [GDC2010](/src/events/GDC2010/index.md) |  Cold Spring Harbor, New York, United States  |  69  | 
-| [GCC2011](/src/events/GCC2011/index.md) |  Lunteren, The Netherlands  |  148  | 
-| [GCC2012](/src/events/GCC2012/index.md) |  Chicago, Illinois, United States  |  203  | 
-| [GCC2013](/src/events/GCC2013/index.md) |  Oslo, Norway  |  219  | 
-| [GCC2014](/src/events/GCC2014/index.md) |  Baltimore, Maryland, United States  |  214  | 
+| [GDC2010](/src/events/gdc2010/index.md) |  Cold Spring Harbor, New York, United States  |  69  | 
+| [GCC2011](/src/events/gcc2011/index.md) |  Lunteren, The Netherlands  |  148  | 
+| [GCC2012](/src/events/gcc2012/index.md) |  Chicago, Illinois, United States  |  203  | 
+| [GCC2013](/src/events/gcc2013/index.md) |  Oslo, Norway  |  219  | 
+| [GCC2014](/src/events/gcc2014/index.md) |  Baltimore, Maryland, United States  |  214  | 
 | [GCC2015](http://gcc2015.tsl.ac.uk/) |  Norwich, United Kingdom  |  230  | 
-| [GCC2016](/src/events/GCC2016/index.md) |  Bloomington, Indiana, United States  |  206  | 
+| [GCC2016](/src/events/gcc2016/index.md) |  Bloomington, Indiana, United States  |  206  | 
 | [GCC2017](https://gcc2017.sciencesconf.org/) |  Montpellier, France  |  ?  | 
 
 ## Galaxy Community Conference Feedback
 
-Summary of feedback on 3 key questions from [GCC2011](/src/events/GCC2011/index.md), [GCC2012](/src/events/GCC2012/index.md), [GCC2013](/src/events/GCC2013/index.md), [GCC2014](/src/events/GCC2014/index.md), and [GCC2015](http://gcc2015.tsl.ac.uk/)
+Summary of feedback on 3 key questions from [GCC2011](/src/events/gcc2011/index.md), [GCC2012](/src/events/gcc2012/index.md), [GCC2013](/src/events/gcc2013/index.md), [GCC2014](/src/events/gcc2014/index.md), and [GCC2015](http://gcc2015.tsl.ac.uk/)
 
 <div class='center'>
-<img src="/src/GalaxyProject/Statistics/GCCRecommendGraph.png" alt="Would you recommend Galaxy events to others?"  />  <img src="/src/GalaxyProject/Statistics/GCCUsefulGraph.png" alt="How useful was the GCC?"  /> <img src="/src/GalaxyProject/Statistics/GCCOrganized.png" alt="How well run and organized was the GCC?"  />
+<img src="/src/galaxy-project/statistics/GCCRecommendGraph.png" alt="Would you recommend Galaxy events to others?"  />  <img src="/src/galaxy-project/statistics/GCCUsefulGraph.png" alt="How useful was the GCC?"  /> <img src="/src/galaxy-project/statistics/GCCOrganized.png" alt="How well run and organized was the GCC?"  />
 </div>
 
 ## Training Workshop Feedback
@@ -1111,7 +1111,7 @@ Summary of feedback on 3 key questions from [GCC2011](/src/events/GCC2011/index.
 The Galaxy Project runs a lot of workshops.  Whenever possible we collect feedback from participants and always ask the same core questions.  Here are the responses to three key questions from 221 participants at 18 workshops in 2012 and 2013.
 
 <div class='center'>
-<img src="/src/GalaxyProject/Statistics/WorkshopsRecommendGraph.png" alt="Would you recommend Galaxy workshops to others?"  />  <img src="/src/GalaxyProject/Statistics/WorkshopsUsefulGraph.png" alt="How useful was the workshop?"  /> <img src="/src/GalaxyProject/Statistics/WorkshopsOrganized.png" alt="How well run and organized was the workshop?"  />
+<img src="/src/galaxy-project/statistics/WorkshopsRecommendGraph.png" alt="Would you recommend Galaxy workshops to others?"  />  <img src="/src/galaxy-project/statistics/WorkshopsUsefulGraph.png" alt="How useful was the workshop?"  /> <img src="/src/galaxy-project/statistics/WorkshopsOrganized.png" alt="How well run and organized was the workshop?"  />
 </div>
 
 # Wiki
@@ -1121,7 +1121,7 @@ The Galaxy Project runs a lot of workshops.  Whenever possible we collect feedba
 *Vetted Editors* are wiki logins that have been verified as belonging to Galaxy community members.  Vetted editors can update the wiki without having to answer Captchas.  You don't need a login to read the wiki, only to update it.  The number of vetted editors is a measure of interest in maintaining this wiki.
 
 <div class='center'>
-![Number of vetted Galaxy wiki editors over time ](/src/GalaxyProject/Statistics/VettedWikiEditors.png)
+![Number of vetted Galaxy wiki editors over time ](/src/galaxy-project/statistics/VettedWikiEditors.png)
 </div>
 
-This is an undercount of registered community members as not all logins can be verified.  The process of vetting was semi-automated on 2012/04/08, thanks to help from [ToriR](/src/ToriR/index.md).
+This is an undercount of registered community members as not all logins can be verified.  The process of vetting was semi-automated on 2012/04/08, thanks to help from [ToriR](/src/tori-r/index.md).

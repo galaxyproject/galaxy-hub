@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[RGalaxy: Wrap R Functions as Tools](/src/news/RGalaxyWrapRFunctionsAsTools/index.md)</div>
+<div class='newsItemHeader'>[RGalaxy: Wrap R Functions as Tools](/src/news/r-galaxy-wrap-r-functions-as-tools/index.md)</div>
 
-<div class='right'><a href='http://bioconductor.org/packages/2.11/bioc/html/RGalaxy.html'><img src="/src/images/Logos/BioconductorLogo.gif" alt="RGalaxy Bioconductor Package" width="200" /></a></div>
+<div class='right'><a href='http://bioconductor.org/packages/2.11/bioc/html/RGalaxy.html'><img src="/src/images/logos/BioconductorLogo.gif" alt="RGalaxy Bioconductor Package" width="200" /></a></div>
 
 Normally, in order to expose an [R function](http://www.r-project.org/) as a tool in a Galaxy instance, you need to manually create an XML fi
 le with information about the function, and modify an additional XML 
@@ -22,4 +22,4 @@ Dan Tenenbaum<br />
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-06-28</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

@@ -1,13 +1,13 @@
 ---
 autotoc: true
 ---
-<div class='center'><img src="/src/images/GalaxyLogos/cloudman-logo.jpg" alt="CloudMan" width="60%" /></div>
+<div class='center'><img src="/src/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="60%" /></div>
 
 <br />
 
 <div class='left'></div> {{> CloudMan/LinkBox }}
 
-There are several choices for using Galaxy.  This page describes using Galaxy on a *[cloud infrastructure](https://www.tcnp3.com/home/cloud-technology/what-is-cloud-computing-infographic/)* using CloudMan (see below). For other options, see [Choices](/src/BigPicture/Choices/index.md) and [Cloud](/src/Cloud/index.md).
+There are several choices for using Galaxy.  This page describes using Galaxy on a *[cloud infrastructure](https://www.tcnp3.com/home/cloud-technology/what-is-cloud-computing-infographic/)* using CloudMan (see below). For other options, see [Choices](/src/big-picture/choices/index.md) and [Cloud](/src/cloud/index.md).
 
 ### About Galaxy on the Cloud
 
@@ -24,15 +24,15 @@ The following is a non-exhaustive list of scenarios when it is beneficial to use
 
 ### Getting started with Galaxy on the Cloud
 
-To start your own *Galaxy in the Cloud* cluster, see the [Getting Started](/src/CloudMan/GettingStarted/index.md) page. This page describes concepts and points to key features of using Galaxy on the Cloud.
+To start your own *Galaxy in the Cloud* cluster, see the [Getting Started](/src/cloudman/getting-started/index.md) page. This page describes concepts and points to key features of using Galaxy on the Cloud.
 
 ### Determining the size of your cloud cluster
 
-Cloud computing allows your cloud cluster to be variable in size and capacity. See [this page](/src/CloudMan/CapacityPlanning/index.md) for some guidelines on how to decide what is right for you.
+Cloud computing allows your cloud cluster to be variable in size and capacity. See [this page](/src/cloudman/capacity-planning/index.md) for some guidelines on how to decide what is right for you.
 
 ### Customizing your cloud cluster
 
-If you are interested in running your own version of Galaxy and/or tools on the cloud while utilizing all the automation and functionality provided by CloudMan, [this page](/src/CloudMan/CustomizeGalaxyCloud/index.md) explains how to do it.
+If you are interested in running your own version of Galaxy and/or tools on the cloud while utilizing all the automation and functionality provided by CloudMan, [this page](/src/cloudman/CustomizeGalaxyCloud/index.md) explains how to do it.
 
 ### A note about costs
 

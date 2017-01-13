@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[January 20, 2012 Distribution & News Brief](/src/news/Jan 2012 Distribution News Brief/index.md)</div>
 
-**Complete [News Brief](/src/DevNewsBriefs/2012_01_20/index.md)**
+**Complete [News Brief](/src/dev-news-briefs/2012_01_20/index.md)**
 
 **Highlights:**
 
@@ -19,9 +19,9 @@ upgrade: % hg pull -u -r 63bc46cc73b7
 
 **Thanks for using Galaxy!**
 
-[Jennifer Jackson](/src/JenniferJackson/index.md)
+[Jennifer Jackson](/src/jennifer-jackson/index.md)
 
-[Galaxy Team](/src/GalaxyTeam/index.md)
+[Galaxy Team](/src/galaxy-team/index.md)
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-01-20</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

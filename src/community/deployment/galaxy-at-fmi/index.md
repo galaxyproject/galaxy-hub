@@ -2,7 +2,7 @@
 title: Galaxy server at the FMI
 ---
 <div class='center'>
-<a href='http://www.fmi.ch'><img src="/src/Community/Deployment/GalaxyAtFMI/YourOrgLogoOrImage.png" alt="Name of your organization" height="200" /></a>
+<a href='http://www.fmi.ch'><img src="/src/community/deployment/galaxy-at-fmi/YourOrgLogoOrImage.png" alt="Name of your organization" height="200" /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: Galaxy server at the FMI
 
 
 <div class='deploymentbox'>
- Deployment:: **[Galaxy server at the FMI](/src/Community/Deployment/GalaxyAtFMI/index.md)**
+ Deployment:: **[Galaxy server at the FMI](/src/community/deployment/galaxy-at-fmi/index.md)**
  Domain:: NGS analysis, MA analysis, custom tools.
  Owners:: [Friedrich Miescher Institute](http://www.fmi.ch) for Biomedical Research
  Audience:: wet lab scientists  
@@ -32,4 +32,4 @@ On top of the general Galaxy tools, we offer NGS and microarray analysis using c
 
 ## Links
 
-[CategoryDeployment](/src/CategoryDeployment/index.md)
+[CategoryDeployment](/src/category-deployment/index.md)

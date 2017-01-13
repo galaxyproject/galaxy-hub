@@ -1,12 +1,12 @@
 ---
 autotoc: true
-title: Frequently Asked Questions about [Main](/src/Main/index.md)
+title: Frequently Asked Questions about [Main](/src/main/index.md)
 ---
 {{> FAQs/LinkBox }}
 
 
  
-Questions specifically about Galaxy's [free public server](/src/Main/index.md).  See [Learn/FAQ](/src/Learn/FAQ/index.md) for questions that apply to any Galaxy instance.
+Questions specifically about Galaxy's [free public server](/src/main/index.md).  See [Learn/FAQ](/src/learn/faq/index.md) for questions that apply to any Galaxy instance.
 
 
  
@@ -21,7 +21,7 @@ See this email thread:
 
 ## Are there quotas on Main?
 
-Yes.  See [Quotas](/src/Main/index.md#quotas).
+Yes.  See [Quotas](/src/main/index.md#quotas).
 
 ## Using Galaxy for Transcriptome Analysis
 
@@ -30,7 +30,7 @@ See
 * [Blogspot post](http://kevin-gattaca.blogspot.com/2011/09/faq-howto-do-rna-seq-bioinformatics.html).
 
 <div class='center'>
-<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/Logos/UseGalaxySearch.png" alt="Search all "using Galaxy" resources" width="120" /></a>
+<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/logos/UseGalaxySearch.png" alt="Search all "using Galaxy" resources" width="120" /></a>
 
 [Search all "using Galaxy" resources](http://galaxyproject.org/search/usegalaxy)
 </div>

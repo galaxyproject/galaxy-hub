@@ -1,9 +1,9 @@
 ---
-title: [GalaxyCzars](/src/Community/GalaxyAdmins/index.md) [GCC2012 Breakout Session](/src/events/GCC2012/index.md)
+title: [GalaxyCzars](/src/community/galaxy-admins/index.md) [GCC2012 Breakout Session](/src/events/gcc2012/index.md)
 ---
 <div class='center'>
-<a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" /></a> &nbsp;&nbsp;&nbsp;
-<a href='/src/events/GCC2012/index.md'><img src="/src/events/GCC2012/GCC2012Logo200.png" alt="GCC2012" height="120" /></a>
+<a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" /></a> &nbsp;&nbsp;&nbsp;
+<a href='/src/events/gcc2012/index.md'><img src="/src/events/gcc2012/GCC2012Logo200.png" alt="GCC2012" height="120" /></a>
 </div>
 
 {{> Community/GalaxyAdmins/LinkBox }}
@@ -21,7 +21,7 @@ Participants:
 
 Breakout Presentation: [PLACEHOLDER_ATTACHMENT_URL/src/GalaxyCzars_Breakout.pdf](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyCzars_Breakout.pdf)]]
 
-A [GalaxyCzars](/src/Community/GalaxyAdmins/index.md) breakout session was held at [GCC2012](/src/events/GCC2012/index.md). This was an opportunity for this group to meet face-to-face for the first time. GalaxyCzars is about installing, configuring, and maintaining large Galaxy installations. It was open to anyone.
+A [GalaxyCzars](/src/community/galaxy-admins/index.md) breakout session was held at [GCC2012](/src/events/gcc2012/index.md). This was an opportunity for this group to meet face-to-face for the first time. GalaxyCzars is about installing, configuring, and maintaining large Galaxy installations. It was open to anyone.
 
 * We need a new name! 
   :: We tried to brainstorm a new name for the group... being that it was Friday afternoon this was a difficult task!  We will keep looking for a new name.  Some suggestions:  GalaxyLocals, GalaxyCommons, etc.

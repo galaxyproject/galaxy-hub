@@ -1,7 +1,7 @@
-<div class='newsItemHeader'>[Oct 23, 2012 Distribution & News Brief](/src/news/2012_10_23_DistributionNewsBrief/index.md)</div>
+<div class='newsItemHeader'>[Oct 23, 2012 Distribution & News Brief](/src/news/2012_10_23-distribution-news-brief/index.md)</div>
 
-**Complete [News Brief](/src/DevNewsBriefs/2012_10_23/index.md)**
-<div class='right'><a href='http://usegalaxy.org'><img src="/src/images/NewsGraphics/2012_10_23_scatterplot-partialscreen.png" alt="scatterplot-partialscreen" width="400" /></a></div>
+**Complete [News Brief](/src/dev-news-briefs/2012_10_23/index.md)**
+<div class='right'><a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2012_10_23_scatterplot-partialscreen.png" alt="scatterplot-partialscreen" width="400" /></a></div>
 **Highlights:**
 * **Important [Security Fix](http://wiki.g2.bx.psu.edu/DevNewsBriefs/2012_10_23#Compute_Tool_Security_Fix)** - upgrade **NOW**.
 * **[New Trello Issue Board](http://wiki.g2.bx.psu.edu/DevNewsBriefs/2012_10_23#New_Trello_Issue_Board)** replaces `BitBucket`} Issue Tracker. Learn how to submit, vote, and comment on tickets.
@@ -21,9 +21,9 @@ upgrade: $ hg pull -u -r 12fcd068b12e
 
 **Thanks for using Galaxy!**
 
-[Jennifer Jackson](/src/JenniferJackson/index.md) & the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Jennifer Jackson](/src/jennifer-jackson/index.md) & the [Galaxy Team](/src/galaxy-team/index.md)
 
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-10-24</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

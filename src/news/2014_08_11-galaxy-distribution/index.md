@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[August 11, 2014 Galaxy Distribution](/src/news/2014_08_11_Galaxy_Distribution/index.md)</div>
-<div class='left'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GetGalaxyOrg.png" alt=" " width=150 /></a></div>
-<div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/src/images/Logos/DockerInGalaxyAnnotated.png" alt=" " width=280 /></a></div>
+<div class='newsItemHeader'>[August 11, 2014 Galaxy Distribution](/src/news/2014_08_11-galaxy-distribution/index.md)</div>
+<div class='left'><a href='http://getgalaxy.org'><img src="/src/images/logos/GetGalaxyOrg.png" alt=" " width=150 /></a></div>
+<div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/src/images/logos/DockerInGalaxyAnnotated.png" alt=" " width=280 /></a></div>
 <br />
 **[Complete News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2014_08_11)**
 <br /><br /><br />
@@ -41,8 +41,8 @@
 <br />
 *Thanks for using Galaxy!*
 
-[The Galaxy Team](/src/GalaxyTeam/index.md)
+[The Galaxy Team](/src/galaxy-team/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-08-11</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

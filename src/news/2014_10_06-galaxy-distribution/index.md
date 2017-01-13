@@ -1,11 +1,11 @@
-<div class='newsItemHeader'>[October 06, 2014 Galaxy Distribution](/src/news/2014_10_06_Galaxy_Distribution/index.md)</div>
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GetGalaxyOrg.png" alt=" " width=150 /></a></div>
+<div class='newsItemHeader'>[October 06, 2014 Galaxy Distribution](/src/news/2014_10_06-galaxy-distribution/index.md)</div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GetGalaxyOrg.png" alt=" " width=150 /></a></div>
 **[Complete News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2014_10_06)**
 <br /><br />
 *Highlights:* <br />
 <br />  • New! [UseGalaxy.org](http://usegalaxy.org) Admin Reorganized
 <br />  • New! History and Dataset Functions
-<br />  • Learn about [TACC's](https://www.tacc.utexas.edu/) Stampede supercomputer, a compute powerhouse behind [Main](/src/Main/index.md)
+<br />  • Learn about [TACC's](https://www.tacc.utexas.edu/) Stampede supercomputer, a compute powerhouse behind [Main](/src/main/index.md)
 <br />  • Join our [GitHub](https://github.com/galaxyproject/tools-devteam) community 
 <br />  • Server Status a click away [http://status.galaxyproject.org](http://status.galaxyproject.org)
 <br />  • Many other Admin, Workflow, Tool Development, Visualization, API, and Job upgrades
@@ -40,8 +40,8 @@
 
 <br />
 *Thanks for using Galaxy!* <br />
-[The Galaxy Team](/src/GalaxyTeam/index.md)
+[The Galaxy Team](/src/galaxy-team/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-10-06</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

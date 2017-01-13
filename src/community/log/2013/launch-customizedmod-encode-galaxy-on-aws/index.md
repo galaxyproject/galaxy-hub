@@ -4,7 +4,7 @@ title: 2013/01: Launch a customized modENCODE Galaxy on Amazon Web Services
 
 
 <div class='logbox'>
- Topic:: **[Launch a customized modENCODE Galaxy on Amazon Web Services](/src/Community/Log/2013/LaunchCustomizedmodENCODEGalaxyOnAWS/index.md)**
+ Topic:: **[Launch a customized modENCODE Galaxy on Amazon Web Services](/src/community/log/2013/launch-customizedmod-encode-galaxy-on-aws/index.md)**
  Date:: 2013/01/25
  Who:: [Quang Trinh](http://oicr.on.ca/institution/ontario-institute-cancer-research-oicr/person/dr-quang-trinh-scientist-and-computational)
  Resolution:: [Documented at GitHub](https://github.com/modENCODE-DCC/Galaxy/blob/master/docs/README.how.to.launch.Galaxy)
@@ -15,4 +15,4 @@ This [README file at GitHub](https://github.com/modENCODE-DCC/Galaxy/blob/master
 
 ## Links
 
-[CategoryLog](/src/CategoryLog/index.md)
+[CategoryLog](/src/category-log/index.md)

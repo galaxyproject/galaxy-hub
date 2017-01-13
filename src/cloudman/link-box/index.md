@@ -1,14 +1,14 @@
 <div class='linkbox'>
-**[CloudMan Home](/src/CloudMan/index.md)**
+**[CloudMan Home](/src/cloudman/index.md)**
 ----
-[Getting Started](/src/CloudMan/GettingStarted/index.md)<br />
-[Cluster Types](/src/CloudMan/ClusterTypes/index.md)<br />
-[Capacity Planning](/src/CloudMan/CapacityPlanning/index.md)<br />
-[Application Services](/src/CloudMan/Services/index.md)<br />
-[Cluster Sharing](/src/CloudMan/Sharing/index.md)<br />
-[Instance User Data](/src/CloudMan/UserData/index.md)<br />
-[Customizing](/src/CloudMan/CustomizeGalaxyCloud/index.md)<br />
-[Building on a private cloud](/src/CloudMan/Building/index.md)<br />
-[Troubleshooting](/src/CloudMan/Troubleshooting/index.md)<br />
-[FAQ](/src/CloudMan/FAQ/index.md)<br />
+[Getting Started](/src/cloudman/getting-started/index.md)<br />
+[Cluster Types](/src/cloudman/cluster-types/index.md)<br />
+[Capacity Planning](/src/cloudman/capacity-planning/index.md)<br />
+[Application Services](/src/cloudman/services/index.md)<br />
+[Cluster Sharing](/src/cloudman/sharing/index.md)<br />
+[Instance User Data](/src/cloudman/userdata/index.md)<br />
+[Customizing](/src/cloudman/CustomizeGalaxyCloud/index.md)<br />
+[Building on a private cloud](/src/cloudman/building/index.md)<br />
+[Troubleshooting](/src/cloudman/troubleshooting/index.md)<br />
+[FAQ](/src/cloudman/faq/index.md)<br />
 </div>

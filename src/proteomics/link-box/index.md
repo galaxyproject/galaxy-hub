@@ -1,5 +1,5 @@
 <div class='linkbox'>
-**[Proteomics](/src/Proteomics/index.md)**
+**[Proteomics](/src/proteomics/index.md)**
 ----
-[Use Cases](/src/Proteomics/UseCases/index.md)<br />
+[Use Cases](/src/proteomics/use-cases/index.md)<br />
 </div>

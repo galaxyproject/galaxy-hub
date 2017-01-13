@@ -1,11 +1,11 @@
 ## Usegalaxy.org Data Rsync
 
-[Data Integration](/src/Admin/DataIntegration/index.md)<br />
-[Data Preparation](/src/Admin/DataPreparation/index.md)
+[Data Integration](/src/admin/data-integration/index.md)<br />
+[Data Preparation](/src/admin/data-preparation/index.md)
 
 ## Obtaining Reference Genome Data by Rsync
 
-This page will describe how to rsync the same exact data that is used on the public [Main](/src/Main/index.md) **Galaxy** instance at [http://usegalaxy.org](http://usegalaxy.org) for use with a **[local](/src/Admin/GetGalaxy/index.md)** or **[cloud](/src/Cloud/index.md)** **Galaxy** or an *external application*. The contents consist of reference genome sequence data, indexes used by tools, and the Galaxy-specific configuration files that make the data known to tools.
+This page will describe how to rsync the same exact data that is used on the public [Main](/src/main/index.md) **Galaxy** instance at [http://usegalaxy.org](http://usegalaxy.org) for use with a **[local](/src/admin/get-galaxy/index.md)** or **[cloud](/src/cloud/index.md)** **Galaxy** or an *external application*. The contents consist of reference genome sequence data, indexes used by tools, and the Galaxy-specific configuration files that make the data known to tools.
 
 
 Examples file formats:
@@ -41,13 +41,13 @@ $ rsync -avzP rsync://datacache.g2.bx.psu.edu/indexes/phiX .
 
 ## Organization and DBKEY
 
-Genomes are organized in directories by reference genome **dbkey**. If you are not sure of the **dbkey**, it can be found in the [Main](/src/Main/index.md) user interface. This value is what is populated into the *"database"* attribute for a dataset. Or, it is the last value in parenthesis *(dbkey)* at the end of the full reference genome build name in two specific places: 
+Genomes are organized in directories by reference genome **dbkey**. If you are not sure of the **dbkey**, it can be found in the [Main](/src/main/index.md) user interface. This value is what is populated into the *"database"* attribute for a dataset. Or, it is the last value in parenthesis *(dbkey)* at the end of the full reference genome build name in two specific places: 
 
 #### Example: dbkey 'Tcas_3.0'
 
-* *On **Get Data -> Upload File** tool:* <br />![](/src/Admin/UseGalaxyRsync/dbkey_UploadFile.png)
+* *On **Get Data -> Upload File** tool:* <br />![](/src/admin/use-galaxy-rsync/dbkey_UploadFile.png)
 
-* *Under **Edit Attributes** (found by clicking on any dataset's upper right corner pencil icon):* <br />![](/src/Admin/UseGalaxyRsync/dbkey_EditAttributes.png)
+* *Under **Edit Attributes** (found by clicking on any dataset's upper right corner pencil icon):* <br />![](/src/admin/use-galaxy-rsync/dbkey_EditAttributes.png)
 
 ## Location (*.loc) Files
 

@@ -1,14 +1,14 @@
-<div class='newsItemHeader'>[Galaxy Deployment Catalog](/src/news/GalaxyDeploymentCatalog/index.md)</div>
+<div class='newsItemHeader'>[Galaxy Deployment Catalog](/src/news/galaxy-deployment-catalog/index.md)</div>
 
-<div class='right'><a href='/src/Community/Deployments/index.md'><img src="/src/images/Logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="200" /></a></div> 
+<div class='right'><a href='/src/community/deployments/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="200" /></a></div> 
 
-We are pleased to announce the [Galaxy Deployment Catalog](/src/Community/Deployments/index.md), a place to describe individual Galaxy deployments, and to learn how others in the community are implementing Galaxy in production environments.
+We are pleased to announce the [Galaxy Deployment Catalog](/src/community/deployments/index.md), a place to describe individual Galaxy deployments, and to learn how others in the community are implementing Galaxy in production environments.
 
 If you have a Galaxy deployment then please take a few minutes to describe your instance to the community.  There are two ways to do this.
 
-**[Use the Wiki Template](/src/Community/Deployments/index.md#using-the-wiki):**
+**[Use the Wiki Template](/src/community/deployments/index.md#using-the-wiki):**
 
-   Go to the "[Using the Wiki](/src/Community/Deployments/index.md#using-the-wiki)" section of the [catalog home page](/src/Community/Deployments/index.md), enter a CamelCase name for your deployment, click "Create ...," and then edit, preview, and save the page. Voilà, an entry for your deployment now exists in the [catalog](/src/Community/Deployments/index.md).  
+   Go to the "[Using the Wiki](/src/community/deployments/index.md#using-the-wiki)" section of the [catalog home page](/src/community/deployments/index.md), enter a CamelCase name for your deployment, click "Create ...," and then edit, preview, and save the page. Voilà, an entry for your deployment now exists in the [catalog](/src/community/deployments/index.md).  
 
 **[Use the Online Form](http://bit.ly/gxydeployform)**
 
@@ -18,8 +18,8 @@ The wiki method requires a wiki login, but gives you control over how the page a
 
 Thanks a bunch, and please let us know if you have any questions.
 
-[Dave Clements](/src/DaveClements/index.md) 
+[Dave Clements](/src/dave-clements/index.md) 
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-12-04</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

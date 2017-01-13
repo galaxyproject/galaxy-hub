@@ -9,15 +9,15 @@ Back to [Support](/src/support/index.md)
 <br />
 **Documentation is on the tool form itself** covering:
 * Parameters
-* Expected format for input [dataset(s)](/src/Learn/ManagingDatasets/index.md)
-* Links to publications and [Tool Shed](/src/ToolShed/index.md) source repositories
+* Expected format for input [dataset(s)](/src/learn/managing-datasets/index.md)
+* Links to publications and [Tool Shed](/src/tool-shed/index.md) source repositories
 * Tool and wrapper version(s)
 * 3rd party author web sites and documentation
 * Links to [Galaxy Biostar](https://biostar.usegalaxy.org/) prior Q&A, tutorials, and form to ask new questions
 
 <br />
 <br />
-<a href='/src/support/Biostar/index.md'><img src="/src/images/Logos/GalaxyBiostar.png" alt="Galaxy Biostar" width="200" /></a><br />***How to use Galaxy Biostar***
+<a href='/src/support/biostar/index.md'><img src="/src/images/logos/GalaxyBiostar.png" alt="Galaxy Biostar" width="200" /></a><br />***How to use Galaxy Biostar***
 <br />
 <br />
 Many tools include also include "most common" default parameter settings that can be customized along with "full parameter" choices (for those tools having advanced options available). On all tool forms, look in the upper top right middle pane corner for the [Biostar](https://biostar.usegalaxy.org/) links. Scroll down on the tool form to locate information about expected inputs/outputs, expanded definitions, sample data, example use cases, and graphics.
@@ -26,13 +26,13 @@ Many tools include also include "most common" default parameter settings that ca
 Our [Custom Tools](/src/support/index.md#custom_searches) will locate help across Galaxy's resources, including tutorials for common analysis on [usegalaxy.org](http://usegalaxy.org) (Main) found in [Shared Data](https://usegalaxy.org/page/list_published).
 <br />
 <br />
-<a href='http://galaxyproject.org/search/web'><img src="/src/images/Logos/GalaxyWebSearch.png" alt="Galaxy Web Search" width="170" /></a>
-<a href='http://galaxyproject.org/search/mailinglists'><img src="/src/images/Logos/GalaxyMailingListSearch.png" alt="Galaxy Mailing List Search" width="170" /></a>
-<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/Logos/UseGalaxySearch.png" alt="Using Galaxy Web Search" width="170" /></a>
-<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/Logos/UseGalaxySearch.png" alt="Using Galaxy Web Search" width="170" /></a>
+<a href='http://galaxyproject.org/search/web'><img src="/src/images/logos/GalaxyWebSearch.png" alt="Galaxy Web Search" width="170" /></a>
+<a href='http://galaxyproject.org/search/mailinglists'><img src="/src/images/logos/GalaxyMailingListSearch.png" alt="Galaxy Mailing List Search" width="170" /></a>
+<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/logos/UseGalaxySearch.png" alt="Using Galaxy Web Search" width="170" /></a>
+<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/logos/UseGalaxySearch.png" alt="Using Galaxy Web Search" width="170" /></a>
 <br />
 <br />
-Thank you for your for *Using Galaxy!* [Accessibility is our mission](/src/FrontPage/index.md) and we hope these resources help to further *everyone's* research goals.
+Thank you for your for *Using Galaxy!* [Accessibility is our mission](/src/front-page/index.md) and we hope these resources help to further *everyone's* research goals.
 <br />
 <br />
 [Galaxy team](https://wiki.galaxyproject.org/GalaxyTeam)

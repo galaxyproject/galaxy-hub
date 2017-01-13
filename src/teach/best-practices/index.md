@@ -15,7 +15,7 @@ This page will distill some best practices for teaching with Galaxy, in both wor
 
 ## Use the Best Compute Platform
 
-The [Computing Platforms page](/src/Teach/ComputingPlatforms/index.md) includes many options, and recommendations, for computing backends to teach Galaxy with.
+The [Computing Platforms page](/src/teach/computing-platforms/index.md) includes many options, and recommendations, for computing backends to teach Galaxy with.
 
 ## Use Galaxy's Built-In Mechanisms
 
@@ -29,11 +29,11 @@ You can pre-populate your teaching Galaxy instance with published histories, wor
 
 **Or, *keep the data close.***
 
-You can avoid training-time dependencies on external resources (that may be down during your training), and swamping your local network by preloading data sets into **Data Libraries** on your training server.  To do this you'll need either admin access to the server, or the cooperation of the server's admin.  If you can't get that, you can always [import the data into a history and then publish that](/src/Teach/BestPractices/index.md#published-histories-workflows-and-visualizations).
+You can avoid training-time dependencies on external resources (that may be down during your training), and swamping your local network by preloading data sets into **Data Libraries** on your training server.  To do this you'll need either admin access to the server, or the cooperation of the server's admin.  If you can't get that, you can always [import the data into a history and then publish that](/src/teach/best-practices/index.md#published-histories-workflows-and-visualizations).
 
 ### Galaxy Pages
 
-*[Galaxy Pages](/src/Learn/GalaxyPages/index.md)* are an excellent mechanism for exercises and examples.  Pages can embed datasets, histories, workflows, and visualizations, and include verbal descriptions and images for describing the material.
+*[Galaxy Pages](/src/learn/galaxy-pages/index.md)* are an excellent mechanism for exercises and examples.  Pages can embed datasets, histories, workflows, and visualizations, and include verbal descriptions and images for describing the material.
 
 *A significant drawback is they can't be exported from one Galaxy server and imported onto another.  Pages must be copied onto a new server manually.*
 

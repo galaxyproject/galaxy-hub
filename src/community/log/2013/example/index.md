@@ -6,9 +6,9 @@ title: 2013/11: VelvetG error on CloudMan Instance: cannot find 'cov_cutoff'
 
 
 <div class='logbox'>
- Topic:: **[VelvetG error on CloudMan instance: cannot find 'cov_cutoff'](/src/Community/Log/2013/Example/index.md)**
+ Topic:: **[VelvetG error on CloudMan instance: cannot find 'cov_cutoff'](/src/community/log/2013/example/index.md)**
  Date:: 2013/11/13
- Who:: [Dave Clements](/src/DaveClements/index.md)
+ Who:: [Dave Clements](/src/dave-clements/index.md)
  Resolution:: Fixed XML wrapper
 </div>
 
@@ -70,4 +70,4 @@ All was happy.
 
 ## Links
 
-[CategoryLog](/src/CategoryLog/index.md)
+[CategoryLog](/src/category-log/index.md)

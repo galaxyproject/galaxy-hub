@@ -2,7 +2,7 @@
 title: Sigenae Bioinfo-Genotoul
 ---
 <div class='center'>
-<a href='http://bioinfo.genotoul.fr/'><img src="/src/images/Logos/GenoToulLogo.png" alt="GenoToul Bioinfo"  /></a>
+<a href='http://bioinfo.genotoul.fr/'><img src="/src/images/logos/GenoToulLogo.png" alt="GenoToul Bioinfo"  /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: Sigenae Bioinfo-Genotoul
 
 
 <div class='deploymentbox'>
- Deployment:: **[Sigenae Bioinfo-Genotoul](/src/Community/Deployment/SigenaeBioinfo-Genotoul/index.md)**
+ Deployment:: **[Sigenae Bioinfo-Genotoul](/src/community/deployment/sigenae-bioinfo-genotoul/index.md)**
  Domain:: Genomics, esp. read alignment, SNP calling and annotation, RNA-Seq, and sRNAseq
  Owners:: [Sigenae Team](http://www.sigenae.org/), [GenoToul Bioinfo](http://bioinfo.genotoul.fr/)
  Audience:: bioinfo gentoul and INRA researchers and collaborators   
@@ -73,4 +73,4 @@ There are storage quotas.
 * [GenoToul Bioinfo](http://bioinfo.genotoul.fr/)
 * [INRA Toulouse](http://www.toulouse.inra.fr/)
 
-[CategoryDeployment](/src/CategoryDeployment/index.md)
+[CategoryDeployment](/src/category-deployment/index.md)

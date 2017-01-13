@@ -6,7 +6,7 @@ title: 2013/05: Creating a Galaxy tool for R scripts that output images and PDFs
 
 
 <div class='logbox'>
- Topic:: **[Creating a Galaxy tool for R scripts that output images and PDFs](/src/Community/Log/2013/RScriptTool/index.md)**
+ Topic:: **[Creating a Galaxy tool for R scripts that output images and PDFs](/src/community/log/2013/rscript-tool/index.md)**
  Date:: 2013/05/06
  Who:: [Samuel Lampa](http://saml.rilspace.org/)
  Resolution:: [XML wrapper, R code](http://saml.rilspace.org/creating-a-galaxy-tool-for-r-scripts-that-output-images-and-pdfs)
@@ -17,4 +17,4 @@ title: 2013/05: Creating a Galaxy tool for R scripts that output images and PDFs
 
 * [XML wrapper, R code](http://saml.rilspace.org/creating-a-galaxy-tool-for-r-scripts-that-output-images-and-pdfs)
 
-[CategoryLog](/src/CategoryLog/index.md)
+[CategoryLog](/src/category-log/index.md)

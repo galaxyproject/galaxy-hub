@@ -7,7 +7,7 @@ title: Data management challenges for larger Galaxy installations
 
 
 <div class='dictbox'>
- BoF:: [Data management challenges for larger galaxy installations](/src/events/GCC2015/BoFs/DataManagementChallenges/index.md)
+ BoF:: [Data management challenges for larger galaxy installations](/src/events/gcc2015/bofs/data-management-challenges/index.md)
  Summary:: Data management challenges for larger Galaxy installations.
  Audience:: People using Galaxy to process large numbers of files
  When:: Wednesday, 8 July, 12:30 (Lunch)
@@ -15,9 +15,9 @@ title: Data management challenges for larger Galaxy installations
  Contact:: [Brad Langhorst](mailto:langhorst@neb DOT com)
 </div>
 
-<div class='left'><a href='/src/events/GCC2015/BoFs/index.md'><img src="/src/images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
+<div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
-This page describes the **Data management challenges for larger galaxy installations** [Birds of a Feather](/src/events/GCC2015/BoFs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
+This page describes the **Data management challenges for larger galaxy installations** [Birds of a Feather](/src/events/gcc2015/bofs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 
 ## Description
 
@@ -37,7 +37,7 @@ If you are interested, please add your name below and/or send an email to [Brad 
 
 * Brad Langhorst
 * [Nate Coraor](/src/nate/index.md)
-* [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md)
+* [Hans-Rudolf Hotz](/src/hansrudolf-hotz/index.md)
 * Next Name
 
 ## Questions?

@@ -9,7 +9,7 @@ The visualizations registry and plugin framework provides an easy way to create 
 any data.
 
 (For information on existing and built-in visualizations such as Trackster, please see:
-[Learn/Visualization](/src/Learn/Visualization/index.md) and [Visualization Setup](/src/Visualization Setup/index.md))
+[Learn/Visualization](/src/learn/visualization/index.md) and [Visualization Setup](/src/Visualization Setup/index.md))
 
 There are three main steps to creating a visualization:
 
@@ -18,7 +18,7 @@ There are three main steps to creating a visualization:
 3. Creating the code and markup for your visualization
 
 (For more examples of on how the visualizations registry can be used than are on this page, see
-[VisualizationsRegistry/Cookbook](/src/VisualizationsRegistry/Cookbook/index.md).
+[VisualizationsRegistry/Cookbook](/src/visualizations-registry/cookbook/index.md).
 
 ## Enabling visualization plugins on your Galaxy installation
 
@@ -246,7 +246,7 @@ Then, within `sam.mako`, we can access the ORM model of the `HistoryDatasetAssoc
 ```
 
 
-For more information on visualization configuration options see [VisualizationsRegistry/Configuration](/src/VisualizationsRegistry/Configuration/index.md).
+For more information on visualization configuration options see [VisualizationsRegistry/Configuration](/src/visualizations-registry/configuration/index.md).
 
 
 ----
@@ -297,7 +297,7 @@ For our example, let's say we want to just print the mapping quality for each re
     </ul>
 ```
 
-These are explained more fully at [DataProviders](/src/DataProviders/index.md).
+These are explained more fully at [DataProviders](/src/data-providers/index.md).
 
 
 #### Static files for your visualization
@@ -331,10 +331,10 @@ static directory:
 ```
 
 
-For more information on template or static code files see [VisualizationsRegistry/Code](/src/VisualizationsRegistry/Code/index.md).
+For more information on template or static code files see [VisualizationsRegistry/Code](/src/visualizations-registry/code/index.md).
 
 
 ----
 ## Further examples
 
-For more examples on how the visualizations registry can be used see [VisualizationsRegistry/Cookbook](/src/VisualizationsRegistry/Cookbook/index.md).
+For more examples on how the visualizations registry can be used see [VisualizationsRegistry/Cookbook](/src/visualizations-registry/cookbook/index.md).

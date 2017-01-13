@@ -1,10 +1,10 @@
-<div class='newsItemHeader'>[BioBlend v0.5.2 Released](/src/news/BioBlendV0.5.2/index.md)</div>
+<div class='newsItemHeader'>[BioBlend v0.5.2 Released](/src/news/bio-blend-v0.5.2/index.md)</div>
 
-[BioBlend](https://github.com/afgane/bioblend) [v0.5.2](https://github.com/afgane/bioblend/blob/master/CHANGELOG.md) has been released.  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/Learn/API/index.md).  ([CloudMan](/src/CloudMan/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
+[BioBlend](https://github.com/afgane/bioblend) [v0.5.2](https://github.com/afgane/bioblend/blob/master/CHANGELOG.md) has been released.  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/learn/api/index.md).  ([CloudMan](/src/cloudman/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
 
 This is mostly an incremental bug fix release with the following summary of changes:
 
-<div class='right'><a href='/src/CloudMan/index.md'><img src="/src/images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" width="200" /></a></div>
+<div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="200" /></a></div>
 
 * [BioBlend.objects](http://bioinformatics.oxfordjournals.org/content/30/19/2816.abstract): enable email & password authorization
 * Enable ToolShed tar ball uploads
@@ -20,8 +20,8 @@ See the [commit messages](https://github.com/afgane/bioblend/compare/d8925715a5a
 
 Enjoy and please let us know what you think,
 
-[Enis](/src/EnisAfgan/index.md) & [John](/src/JohnChilton/index.md) & Simone Leo & Nicola Soranzo & [The Galaxy Team](/src/GalaxyTeam/index.md)
+[Enis](/src/enis-afgan/index.md) & [John](/src/john-chilton/index.md) & Simone Leo & Nicola Soranzo & [The Galaxy Team](/src/galaxy-team/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-10-17</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

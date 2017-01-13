@@ -2,13 +2,13 @@
 title: [UC Davis Bioinformatics Core Galaxy AMI](http://bioinformatics.ucdavis.edu/software/)
 ---
 <div class='center'>
-<a href='http://bioinformatics.ucdavis.edu/'><img src="/src/images/Logos/UCDavisGenomeCenter.png" alt="UC Davis Bioinformatics Core" height="100" /></a>
+<a href='http://bioinformatics.ucdavis.edu/'><img src="/src/images/logos/UCDavisGenomeCenter.png" alt="UC Davis Bioinformatics Core" height="100" /></a>
 </div>
 
 
 
 <div class='deploymentbox'>
- Resource:: **[UC Davis Bioinformatics Core Galaxy AMI](/src/Teach/Resource/UCDavisCoreAMI/index.md)**
+ Resource:: **[UC Davis Bioinformatics Core Galaxy AMI](/src/teach/resource/uc-davis-core-ami/index.md)**
  Types:: AMI
  Domains:: **Genomics**
  Owners:: [UC Davis Bioinformatics Core](http://bioinformatics.ucdavis.edu/)
@@ -36,7 +36,7 @@ You can increase the size of your data partition by simply increasing the size o
 If you wish to use FTP to transfer files to your Galaxy instance, we have [instructions on how to use FileZilla](http://bioinformatics.ucdavis.edu/using-filezilla-to-transfer-files-to-galaxy-via-ftp/) to do so. FTP transfer is recommended for large files, however, you can use whatever FTP client you want.
 </div>
 
-The current AMI (**ami-ab010aee**) was created for the [RNA-Seq and ChIP-Seq Analysis with Galaxy Workshop](/src/Teach/Resource/UCDavisRNAChIPWorkshop/index.md) course offered at the UC Davis Bioinformatics core, December 16-19, 2014
+The current AMI (**ami-ab010aee**) was created for the [RNA-Seq and ChIP-Seq Analysis with Galaxy Workshop](/src/teach/resource/uc-davis-rna-chip-workshop/index.md) course offered at the UC Davis Bioinformatics core, December 16-19, 2014
 
 ## You will need
 
@@ -53,8 +53,8 @@ The AMI includes all the example datasets used in the [Using Galaxy for Analysis
 ## Links
 
 * [Workshop Documentation](http://training.bioinformatics.ucdavis.edu/docs/2014/12/december-2014-workshop/)
-* [Workshop's resource page](/src/Teach/Resource/UCDavisCoreGalaxyCourse/index.md) on this wiki.
+* [Workshop's resource page](/src/teach/resource/uc-davis-core-galaxy-course/index.md) on this wiki.
 * [UC Davis Bioinformatics Core Software page](http://bioinformatics.ucdavis.edu/software/)
 * [Amazon Web Services](http://aws.amazon.com/)
 
-[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)
+[CategoryTrainingResource](/src/category-training-resource/index.md)

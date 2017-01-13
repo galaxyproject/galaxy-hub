@@ -1,9 +1,9 @@
-<div class='right'><a href='/src/DelphineLariviere/index.md'><img src="/src/GalaxyTeam/DelphineLariviere.jpg" alt="DelphineLariviere" width="200",height="150" /></a>
+<div class='right'><a href='/src/delphine-lariviere/index.md'><img src="/src/galaxy-team/DelphineLariviere.jpg" alt="DelphineLariviere" width="200",height="150" /></a>
 </div>
 
 # Delphine Lariviere
 
-[Galaxy Team](/src/GalaxyTeam/index.md)<br />
+[Galaxy Team](/src/galaxy-team/index.md)<br />
 [Nekrutenko Lab](http://nekrut.bx.psu.edu/), Penn State University, PA, US
 <br />
 

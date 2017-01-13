@@ -2,7 +2,7 @@
 title: Galaxy Events Archive
 ---
 <div class='center'>
-<a href='/src/events/index.md#past_events'><img src="/src/images/Logos/galaxyLogoTrimmed.png" alt="Galaxy Events Archive" height="100" /></a>
+<a href='/src/events/index.md#past_events'><img src="/src/images/logos/galaxyLogoTrimmed.png" alt="Galaxy Events Archive" height="100" /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: Galaxy Events Archive
 
 
 <div class='deploymentbox'>
- Resource:: **[Galaxy Events Archive](/src/Teach/Resource/GalaxyEventArchive/index.md)**
+ Resource:: **[Galaxy Events Archive](/src/teach/resource/galaxy-event-archive/index.md)**
  Types:: Slides, Posters
  Domains:: **Everything** 
  Owners:: Galaxy Community
@@ -24,6 +24,6 @@ The [Galaxy Events Archive](/src/events/index.md#past_events) lists all known pa
 ## Links
 
 * [Galaxy Events Archive for current year](/src/events/index.md#past_events)
-* [Galaxy Events Archive for previous years](/src/events/Archive/index.md)
+* [Galaxy Events Archive for previous years](/src/events/archive/index.md)
 
-[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)
+[CategoryTrainingResource](/src/category-training-resource/index.md)

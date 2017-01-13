@@ -1,5 +1,5 @@
-<div class='center'><a href='https://urgi.versailles.inra.fr/Tools/Galaxy'><img src="/src/images/Logos/URGILogo.png" alt="Galaxy @ URGI" height="150" /></a> <br /><br />
-<a href='https://urgi.versailles.inra.fr/content/download/5169/39254/file/galaxy_irods.pdf'><img src="/src/images/Logos/iRODSLogo.png" alt="Testing connexion between Galaxy and iRODS" height="60" /></a>
+<div class='center'><a href='https://urgi.versailles.inra.fr/Tools/Galaxy'><img src="/src/images/logos/URGILogo.png" alt="Galaxy @ URGI" height="150" /></a> <br /><br />
+<a href='https://urgi.versailles.inra.fr/content/download/5169/39254/file/galaxy_irods.pdf'><img src="/src/images/logos/iRODSLogo.png" alt="Testing connexion between Galaxy and iRODS" height="60" /></a>
 </div>
 
 <div class='title'>
@@ -9,7 +9,7 @@
 
 
 <div class='logbox'>
- Topic:: **[Testing connexion between Galaxy and iRODS](/src/Community/Log/2015/GalaxyIrodsConnection/index.md)**
+ Topic:: **[Testing connexion between Galaxy and iRODS](/src/community/log/2015/galaxy-irods-connection/index.md)**
  Date:: 2015/12/08
  Who:: Mikael Loaec, Olivier Inizan
  Resolution:: [Testing the connexion of Galaxy to iRODS object store](https://urgi.versailles.inra.fr/content/download/5169/39254/file/galaxy_irods.pdf)
@@ -24,4 +24,4 @@ We are actually testing the connexion of Galaxy to iRODS object store. The "[Con
 * [Connecting Galaxy to iRODS](https://urgi.versailles.inra.fr/content/download/5169/39254/file/galaxy_irods.pdf)
 * [iRODS Project](http://irods.org/)
 
-[CategoryLog](/src/CategoryLog/index.md)
+[CategoryLog](/src/category-log/index.md)

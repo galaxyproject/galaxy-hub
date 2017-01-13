@@ -2,7 +2,7 @@
 title: Galaxy 101
 ---
 <div class='center'>
-<a href='https://usegalaxy.org/galaxy101'><img src="/src/images/Logos/galaxyLogoTrimmed.png" alt="Galaxy 101" width="300" /></a>
+<a href='https://usegalaxy.org/galaxy101'><img src="/src/images/logos/galaxyLogoTrimmed.png" alt="Galaxy 101" width="300" /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: Galaxy 101
 
 
 <div class='deploymentbox'>
- Resource:: **[Galaxy 101](/src/Teach/Resource/Galaxy101/index.md)**
+ Resource:: **[Galaxy 101](/src/teach/resource/galaxy101/index.md)**
  Types:: Tutorial
  Domains:: **Basic Genomics**
  Owners:: [Anton Nekrutenko](/src/anton/index.md) and the Galaxy Project
@@ -33,4 +33,4 @@ Input datasets are pulled from UCSC, at runtime.  They can also be extracted fro
 * [Galaxy 101](https://usegalaxy.org/galaxy101)
 * Slides showing the Galaxy 101 operations graphically, and taking the exercise a few steps further.
 
-[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)
+[CategoryTrainingResource](/src/category-training-resource/index.md)

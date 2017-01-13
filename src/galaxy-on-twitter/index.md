@@ -3,11 +3,11 @@ title: Galaxy on Twitter
 ---
 
 
-The Galaxy Project posts items of interest to Twitter as [@galaxyproject](https://twitter.com/galaxyproject).  This complements items posted to the Galaxy [News](/src/news/index.md) page and the [Mailing Lists](/src/MailingLists/index.md).
+The Galaxy Project posts items of interest to Twitter as [@galaxyproject](https://twitter.com/galaxyproject).  This complements items posted to the Galaxy [News](/src/news/index.md) page and the [Mailing Lists](/src/mailing-lists/index.md).
 
 The standard Twitter hashtag for the Galaxy project is [#usegalaxy](http://twitter.com/search/%23usegalaxy).  Please use that in any Galaxy related Tweets you make.
 
-Several [Galaxy communities](/src/Community/index.md) also have a presence on Twitter:
+Several [Galaxy communities](/src/community/index.md) also have a presence on Twitter:
 
  * [Galaxy Australia](https://www.embl-abr.org.au/galaxyaustralia/):
     * [@GalaxyAustralia](http://twitter.com/galaxyaustralia)

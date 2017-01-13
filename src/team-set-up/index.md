@@ -140,7 +140,7 @@ Now:
   * 'tpope/vim-fugitive'
   * 'git://git.wincent.com/command-t.git'
   * 'rstacruz/sparkup'
-  * 'Valloric[/YouCompleteMe](/src/TeamSetUp/YouCompleteMe/index.md)'
+  * 'Valloric[/YouCompleteMe](/src/team-set-up/YouCompleteMe/index.md)'
   * 'kien/ctrlp.vim'
   * 'scrooloose/syntastic'
   * 'Lokaltog/powerline'

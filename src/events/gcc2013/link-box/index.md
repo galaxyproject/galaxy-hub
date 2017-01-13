@@ -1,14 +1,14 @@
 <div class='linkbox'>
-**[GCC2013](/src/events/GCC2013/index.md)**
+**[GCC2013](/src/events/gcc2013/index.md)**
 ----
-[Program](/src/events/GCC2013/Program/index.md)<br />
-[Training](/src/events/GCC2013/TrainingDay/index.md)<br />
-[BoFs](/src/events/GCC2013/BoF/index.md)<br />
-[Abstracts](/src/events/GCC2013/Abstracts/index.md)<br />
-[Logistics](/src/events/GCC2013/Logistics/index.md)<br />
-[Sponsors](/src/events/GCC2013/Sponsorships/index.md)<br />
-[Key Dates](/src/events/GCC2013/KeyDates/index.md)<br />
-[Register](/src/events/GCC2013/Register/index.md)<br />
-[Promotion](/src/events/GCC2013/Promotion/index.md)<br />
-[Organizers](/src/events/GCC2013/Organizers/index.md)<br />
+[Program](/src/events/gcc2013/program/index.md)<br />
+[Training](/src/events/gcc2013/training-day/index.md)<br />
+[BoFs](/src/events/gcc2013/bof/index.md)<br />
+[Abstracts](/src/events/gcc2013/abstracts/index.md)<br />
+[Logistics](/src/events/gcc2013/logistics/index.md)<br />
+[Sponsors](/src/events/gcc2013/sponsorships/index.md)<br />
+[Key Dates](/src/events/gcc2013/key-dates/index.md)<br />
+[Register](/src/events/gcc2013/register/index.md)<br />
+[Promotion](/src/events/gcc2013/promotion/index.md)<br />
+[Organizers](/src/events/gcc2013/organizers/index.md)<br />
 </div>

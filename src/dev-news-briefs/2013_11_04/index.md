@@ -4,9 +4,9 @@ title: November 04, 2014 Galaxy Distribution News Brief
 ---
 <div class='right'></div>
 
-[All News Briefs](/src/DevNewsBriefs/index.md)
+[All News Briefs](/src/dev-news-briefs/index.md)
 <br />
-[Distribution Summary 2013_11_04](/src/news/2013_11_04_Galaxy_Distribution/index.md)
+[Distribution Summary 2013_11_04](/src/news/2013_11_04-galaxy-distribution/index.md)
 
 <br />
 
@@ -102,7 +102,7 @@ Third, the tools can be completely disabled by removing them from the tool confi
 
 **This release includes *Galaxy Tool Migration Stage 8*, which contains *48 tools* that have been migrated from the Galaxy distribution**.  The Galaxy tool migration framework has been enhanced so that tool entries in the `tool_conf.xml` file (or whatever it has been named in your local Galaxy instance) for tools that were [migrated out of the Galaxy distribution](http://wiki.galaxyproject.org/MigratingToolsFromGalaxyDistribution#Migrating_tools_from_the_Galaxy_distribution_to_the_Galaxy_Main_tool_shed) are now automatically eliminated during the migration process.  It is no longer necessary to manually edit the `tool_conf.xml` file to eliminate entries for migrated tools.  A back-up copy of the original `tool_conf.xml` file is made.
 
-[More Tool Shed related enhancements and upgrades below.](/src/DevNewsBriefs/2013_11_04/index.md#tool_shed)
+[More Tool Shed related enhancements and upgrades below.](/src/dev-news-briefs/2013_11_04/index.md#tool_shed)
 
 <br />
 # Tools
@@ -111,7 +111,7 @@ Third, the tools can be completely disabled by removing them from the tool confi
 1. General: 
   * Created a shared tool and parameter base on both the client and server side. https://trello.com/c/QTCrzr85
   * Dictify mixin cleanup. https://trello.com/c/P5fog600
-  * Update to latest select2. https://trello.com/c[/NaGczwr](/src/DevNewsBriefs/2013_11_04/NaGczwr/index.md)T
+  * Update to latest select2. https://trello.com/c[/NaGczwr](/src/dev-news-briefs/2013_11_04/NaGczwr/index.md)T
 
 <br />
 # Visualizations
@@ -160,8 +160,8 @@ Third, the tools can be completely disabled by removing them from the tool confi
 <br />
 # Core
 
-1. Explicitly set `TEMP` dir in `Local Runner`, when a temp dir value is not already set. https://trello.com/c[/HbFeo](/src/DevNewsBriefs/2013_11_04/HbFeo/index.md)WRI
-1. Tool element exit_code (under stdio) now functions from_work_dir or when setting metadata externally. https://trello.com/c[/JfB2w1Br](/src/DevNewsBriefs/2013_11_04/JfB2w1Br/index.md)
+1. Explicitly set `TEMP` dir in `Local Runner`, when a temp dir value is not already set. https://trello.com/c[/HbFeo](/src/dev-news-briefs/2013_11_04/HbFeo/index.md)WRI
+1. Tool element exit_code (under stdio) now functions from_work_dir or when setting metadata externally. https://trello.com/c[/JfB2w1Br](/src/dev-news-briefs/2013_11_04/JfB2w1Br/index.md)
 1. Using Auto-detect and a cluster job runner now sets metadata only once. https://trello.com/c/Kc3NDGyN
 1. Upgrades to `HierarchicalObjectStore`, more planned. https://trello.com/c/k4tovlFd
 1. New `Plugin Framework lib/galaxy/web/base/pluginframework.py`. https://trello.com/c/lrfWbtw3
@@ -170,7 +170,7 @@ Third, the tools can be completely disabled by removing them from the tool confi
 <br />
 # Pull Requests Merged
 
-1. Björn Grüning contributed a method to implement the ability to change the tool-panel as user preference ( `Dynamic Toolbox Filtering` ). [#179](https://bitbucket.org/galaxy/galaxy-central/pull-request/179/implement-the-ability-to-change-the-tool/diff). This was a frequently requested feature by the community and full documentation on this can be found here [UserDefinedToolboxFilters](/src/UserDefinedToolboxFilters/index.md). https://trello.com/c/Xl7CZFMd
+1. Björn Grüning contributed a method to implement the ability to change the tool-panel as user preference ( `Dynamic Toolbox Filtering` ). [#179](https://bitbucket.org/galaxy/galaxy-central/pull-request/179/implement-the-ability-to-change-the-tool/diff). This was a frequently requested feature by the community and full documentation on this can be found here [UserDefinedToolboxFilters](/src/user-defined-toolbox-filters/index.md). https://trello.com/c/Xl7CZFMd
 1. Björn Grüning also contributed several extensions allowing developers to utilize new actions simplifying various tool shed dependency definition idioms:
   * `make_install` action.  [#217](https://bitbucket.org/galaxy/galaxy-central/pull-request/217/implementation-of-the-make_install-action)
   * `autoconf` action. [#218](https://bitbucket.org/galaxy/galaxy-central/pull-request/218/implementation-of-the-configure-make-make)
@@ -195,10 +195,10 @@ Third, the tools can be completely disabled by removing them from the tool confi
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/ToolShed/index.md)**
+**[Tool Shed](/src/tool-shed/index.md)**
 ## Galaxy Tool Migration Framework Enhancements
 
-See above: [New Tool Migrations](/src/DevNewsBriefs/2013_11_04/index.md#new-tool-migrations)
+See above: [New Tool Migrations](/src/dev-news-briefs/2013_11_04/index.md#new-tool-migrations)
 
 ## Galaxy and Tool Shed Functional Test Framework Fixes and Enhancements
 
@@ -327,22 +327,22 @@ Several beneficial enhancements have bee added to the support for [defining tool
 1. Fix Update manager functional test. https://trello.com/c/ZFpaJ8KQ
 1. Show when used with API key. https://trello.com/c/aR8aO3Me
 1. Persist form settings in 'saved histories' search. https://trello.com/c/FsEA9j8K
-1. Correct defaults for genome selection when adding library data files. https://trello.com/c[/Hr1JdeGq](/src/DevNewsBriefs/2013_11_04/Hr1JdeGq/index.md)
+1. Correct defaults for genome selection when adding library data files. https://trello.com/c[/Hr1JdeGq](/src/dev-news-briefs/2013_11_04/Hr1JdeGq/index.md)
 
 # Prior Bug Fixes
 
-1. Fix saved histories view. https://trello.com/c[/LdLl](/src/DevNewsBriefs/2013_11_04/LdLl/index.md)JDo9
+1. Fix saved histories view. https://trello.com/c[/LdLl](/src/dev-news-briefs/2013_11_04/LdLl/index.md)JDo9
 1. Fix problems importing workflows to Tool Shed. https://trello.com/c/0Fks0ii9
 1. Increate tolerance for spaces in local's URLs. https://trello.com/c/e6KJKi6j
 1. Correct Datasource EBI SRA errors when non-text files are returned. https://trello.com/c/H8VQquBW
 1. Correct GenomeSpace export tool to only list personal directory. https://trello.com/c/vPFhGqBX
-1. Handle Datasource tools error when handling some binary data under certain cases. https://trello.com/c[/TzXm](/src/DevNewsBriefs/2013_11_04/TzXm/index.md)SWOo
+1. Handle Datasource tools error when handling some binary data under certain cases. https://trello.com/c[/TzXm](/src/dev-news-briefs/2013_11_04/TzXm/index.md)SWOo
 1. Adjust for empty strings in `ToolParameterValueWrapper.get_display_text() ` Python2.7 and lower. https://trello.com/c/XN0UfOCb
 1. Correct Json for view saved visualizations. https://trello.com/c/DaYZwv6w
 
 <br />
 <div class='right'>
-<br /><a href='http://usegalaxy.org'><img src="/src/images/NewsGraphics/2013_11_04_usegalaxy.org.jpg" alt="usegalaxy.org" width=300 /></a><br />**usegalaxy.org**</div>
+<br /><a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2013_11_04_usegalaxy.org.jpg" alt="usegalaxy.org" width=300 /></a><br />**usegalaxy.org**</div>
 
 # Project Updates
 
@@ -363,6 +363,6 @@ The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/GalaxyOnTwitter/index.md)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/galaxy-on-twitter/index.md)**
 
 Have a suggestion? Please see **[Using the Galaxy Issue Board](http://wiki.galaxyproject.org/Issues)**.

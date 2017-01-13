@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[GCC2016 Scholarships: Apply Now!](/src/news/GCC2016Scholarships/index.md)</div>
+<div class='newsItemHeader'>[GCC2016 Scholarships: Apply Now!](/src/news/gcc2016-scholarships/index.md)</div>
 
 <div class='right'>
 <a href='https://gcc2016.iu.edu/'><img src="https://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference" width="250" /></a>
@@ -25,4 +25,4 @@ If you are submitting a poster or demo, please do so *before* submitting an [app
 Galaxy Community Fund Board
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-02-18</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)
