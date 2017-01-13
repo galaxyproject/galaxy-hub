@@ -1,7 +1,7 @@
-<div class='newsItemHeader'>[Nov 04, 2013 Galaxy Distribution](/src/news/2013_11_04_Galaxy_Distribution/index.md)</div>
+<div class='newsItemHeader'>[Nov 04, 2013 Galaxy Distribution](/src/news/2013_11_04-galaxy-distribution/index.md)</div>
 
 <div class='right'>
-<a href='/src/http:usegalaxy.org/index.md'><img src="/src/images/NewsGraphics/2013_11_04_usegalaxy.org.jpg" alt="usegalaxy.org" width=300 /></a><br />**usegalaxy.org**</div>
+<a href='/src/http:usegalaxy.org/index.md'><img src="/src/images/news-graphics/2013_11_04_usegalaxy.org.jpg" alt="usegalaxy.org" width=300 /></a><br />**usegalaxy.org**</div>
 **Complete [News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2013_11_04)**
 <br />
 <br />
@@ -31,8 +31,8 @@ upgrade:   $ hg pull
 
 *Thanks for using Galaxy!*
 
-[The Galaxy Team](/src/GalaxyTeam/index.md)
+[The Galaxy Team](/src/galaxy-team/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-11-04</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

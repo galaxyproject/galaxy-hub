@@ -2,7 +2,7 @@
 autotoc: true
 title: 2012/07/09 Conference Call
 ---
-<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
+<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
 {{> Community/GalaxyAdmins/LinkBox }}
 
@@ -15,20 +15,20 @@ The group's [first conference call](http://dev.list.galaxyproject.org/Galaxy-Cza
 
 # Links
 
-* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/Czars2012_07_09UIowa.pdf)
+* [Slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/Czars2012_07_09UIowa.pdf)
 * [Screencast](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262330108904_1341837832643) - This shows everything that happened on the call, except for the polls, just as it happened on the call.  
 
 # Agenda
 
-* [Logistics](/src/Community/GalaxyAdmins/Meetups/2012_07_09/index.md#logistics): Address how we want to tackle these calls. Go over generic agenda. Frequency of calls
-* [Group Goals](/src/Community/GalaxyAdmins/Meetups/2012_07_09/index.md#goals): what do we want to accomplish with this group beyond discussions/sharing?
-* [Presentation](/src/Community/GalaxyAdmins/Meetups/2012_07_09/index.md#galaxy-at-iowa): Galaxy at Iowa: Discuss our issues with big data, how NGS tools take in/output data and finding the right storage server solution.
-* [Open Mic](/src/Community/GalaxyAdmins/Meetups/2012_07_09/index.md#open-mic) & recruit new volunteers for the next call.
-* [Break out at Galaxy Community Conference](/src/Community/GalaxyAdmins/Meetups/2012_07_09/index.md#gcc2012-breakout)
+* [Logistics](/src/community/galaxy-admins/meetups/2012_07_09/index.md#logistics): Address how we want to tackle these calls. Go over generic agenda. Frequency of calls
+* [Group Goals](/src/community/galaxy-admins/meetups/2012_07_09/index.md#goals): what do we want to accomplish with this group beyond discussions/sharing?
+* [Presentation](/src/community/galaxy-admins/meetups/2012_07_09/index.md#galaxy-at-iowa): Galaxy at Iowa: Discuss our issues with big data, how NGS tools take in/output data and finding the right storage server solution.
+* [Open Mic](/src/community/galaxy-admins/meetups/2012_07_09/index.md#open-mic) & recruit new volunteers for the next call.
+* [Break out at Galaxy Community Conference](/src/community/galaxy-admins/meetups/2012_07_09/index.md#gcc2012-breakout)
 
 ## Logistics
 
-<div class='right'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
+<div class='right'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
 
 ### Generic Call Agenda
 
@@ -36,7 +36,7 @@ Ann proposed this generic agenda for future calls
 * 20 min: Galaxy in Our Town. 
     Presentation from a local galaxy institution on what they are doing or a problem they are troubleshooting - or have someone walk through their use cases and pain points.
 * 20 min: Galaxy Today/Tomorrow. 
-    Presentation on a galaxy coding item. Either from [Galaxy Team](/src/GalaxyTeam/index.md), or from [someone](/src/Community/index.md) working on a new feature or customization.
+    Presentation on a galaxy coding item. Either from [Galaxy Team](/src/galaxy-team/index.md), or from [someone](/src/community/index.md) working on a new feature or customization.
 * 20 mins: Open Mic Discussion & make point to point connections. 
     Organize smaller breakouts if someone wants to host a call specific to an issue, ...
 
@@ -54,18 +54,18 @@ The group decided to continue with Blackboard.
 
 ### Non-Meeting Communication
 
-Communication outside of meetings will continue to happen on the [Galaxy-Dev mailing list](/src/MailingLists/index.md).  We will consider other options if that becomes unworkable.
+Communication outside of meetings will continue to happen on the [Galaxy-Dev mailing list](/src/mailing-lists/index.md).  We will consider other options if that becomes unworkable.
 
 ## Goals
 
 1. Build a community 
 2. Learn from each other.
 
-<div class='right'><img src="/src/images/Logos/UIowaLogo.jpg" alt="University of Iowa" width="200" /></div>
+<div class='right'><img src="/src/images/logos/UIowaLogo.jpg" alt="University of Iowa" width="200" /></div>
 
 ## Galaxy at Iowa
 
-See the [slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/Czars2012_07_09UIowa.pdf) starting at page 3 or 4 for this material.  This was a great talk about their experiences with setting up a large Galaxy instance and their thorough benchmarking experiments with different storage architectures.  
+See the [slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/Czars2012_07_09UIowa.pdf) starting at page 3 or 4 for this material.  This was a great talk about their experiences with setting up a large Galaxy instance and their thorough benchmarking experiments with different storage architectures.  
 
 *Note: The summary here is sparse.  Please help by expanding it.*
 
@@ -98,8 +98,8 @@ Iowa addresses the "give them enough rope" conundrum* by providing well tested a
 
 ## GCC2012 Breakout
 
-There will be a [GalaxyCzars](/src/Community/GalaxyAdmins/index.md) breakout session at [GCC2012](/src/events/GCC2012/index.md) at the end of this month.  It will be a chance to refine the groups goals, logistics, and schedule and a great to chance to meet in person.
+There will be a [GalaxyCzars](/src/community/galaxy-admins/index.md) breakout session at [GCC2012](/src/events/gcc2012/index.md) at the end of this month.  It will be a chance to refine the groups goals, logistics, and schedule and a great to chance to meet in person.
 
 ## Next Meeting
 
-The next [conference call](/src/Community/GalaxyAdmins/Meetups/2012_07_09//index.md) will happen in September.  If you have a large Galaxy installation, please consider telling the group about it.
+The next [conference call](/src/community/galaxy-admins/meetups/2012_07_09//index.md) will happen in September.  If you have a large Galaxy installation, please consider telling the group about it.

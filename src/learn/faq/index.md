@@ -1,12 +1,12 @@
 ---
 autotoc: true
-title: [Frequently Asked Questions](/src/FAQs/index.md) for Using Galaxy
+title: [Frequently Asked Questions](/src/faqs/index.md) for Using Galaxy
 ---
 {{> Learn/LinkBox }}
 {{> FAQs/LinkBox }}
 
 
-Questions that apply to using most Galaxy instances.  See [Main/FAQ](/src/Main/FAQ/index.md) for questions that are specifically about using [Main](/src/Main/index.md), Galaxy's free public server.  See [Admin/FAQ](/src/Admin/FAQ/index.md) for questions about [administering](/src/Admin/index.md) Galaxy.
+Questions that apply to using most Galaxy instances.  See [Main/FAQ](/src/main/faq/index.md) for questions that are specifically about using [Main](/src/main/index.md), Galaxy's free public server.  See [Admin/FAQ](/src/admin/faq/index.md) for questions about [administering](/src/admin/index.md) Galaxy.
 
 
 
@@ -14,11 +14,11 @@ Questions that apply to using most Galaxy instances.  See [Main/FAQ](/src/Main/F
 
 What are the disk usage quotas when using Galaxy?
 
-Total disk space reserved per user is noted on the [Main](/src/Main/index.md) and [Test](/src/Test/index.md) home pages under the section "Quotas". 
+Total disk space reserved per user is noted on the [Main](/src/main/index.md) and [Test](/src/test/index.md) home pages under the section "Quotas". 
 
 When using a local, cloud, or public Galaxy servers hosted by other teams, quotas may or may not be set and are configured by that instance's administrator. Please see: [Big Picture/Choices](/src/Big Picture/Choices/index.md).
 
-For help understanding and organizing datasets and histories, please see: [Managing Datasets](/src/Learn/ManagingDatasets/index.md).
+For help understanding and organizing datasets and histories, please see: [Managing Datasets](/src/learn/managing-datasets/index.md).
 
 ## Storage on Galaxy servers
 
@@ -81,7 +81,7 @@ To learn/understand whether a particular datatype is associated with a 0-based o
 
 ## The Galaxy Test Server
 
-The [Galaxy Test Server](/src/Test/index.md), http://test.g2.bx.psu.edu/, is an experimental/beta server where we test things out.  It is not recommended for anything other than testing.  See [Test](/src/Test/index.md) for more.
+The [Galaxy Test Server](/src/test/index.md), http://test.g2.bx.psu.edu/, is an experimental/beta server where we test things out.  It is not recommended for anything other than testing.  See [Test](/src/test/index.md) for more.
 
 
 ## Using Galaxy for Transcriptome Analysis
@@ -92,6 +92,6 @@ See
 
 ## Questions Not Answered Here ...
 
-<div class='right'><a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/Logos/UseGalaxySearch.png" alt="Google Custom Search" width="150" /></a></div>
+<div class='right'><a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/logos/UseGalaxySearch.png" alt="Google Custom Search" width="150" /></a></div>
 
 If you have questions about using Galaxy that aren't answered here, try the [UseGalaxy Google Custom Search](http://galaxyproject.org/search/usegalaxy).  It will search *all* online Galaxy resources about *using* Galaxy and return a categorized list of search results. 

@@ -1,4 +1,4 @@
-Pages that are [Galaxy Log Pages](/src/Community/Logs/index.md).
+Pages that are [Galaxy Log Pages](/src/community/logs/index.md).
 
 **List of pages in this category:**
 

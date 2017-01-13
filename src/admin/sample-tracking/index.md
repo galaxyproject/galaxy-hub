@@ -1,5 +1,5 @@
 {{> Admin/LinkBox }}
 
-* [Demo](/src/Admin/SampleTracking/Demo/index.md)
-* [Next Gen](/src/Admin/SampleTracking/Next Gen/index.md)
+* [Demo](/src/admin/sample-tracking/demo/index.md)
+* [Next Gen](/src/admin/sample-tracking/Next Gen/index.md)
 

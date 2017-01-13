@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[1000th Galaxy CiteULike Paper](/src/news/GalaxyCiteULikePaper1000/index.md)</div>
+<div class='newsItemHeader'>[1000th Galaxy CiteULike Paper](/src/news/galaxy-cite-u-like-paper1000/index.md)</div>
 
-<div class='right'><a href='http://www.citeulike.org/group/16008/'><img src="/src/images/Logos/CiteULikeLogo.png" alt="Galaxy CiteULike Group" width="200" /></a></div>
+<div class='right'><a href='http://www.citeulike.org/group/16008/'><img src="/src/images/logos/CiteULikeLogo.png" alt="Galaxy CiteULike Group" width="200" /></a></div>
 
 The 1000<sup>th</sup> Galaxy-related paper was added to the [Galaxy CiteULike group](http://www.citeulike.org/group/16008/) today. That paper was:
 
@@ -78,9 +78,9 @@ Each paper in the group is tagged to indicate how it is related to Galaxy.  The 
 
 The Galaxy CiteULike group was launched 18 months ago.  It continues to grow *rapidly.*
 
-[Dave Clements](/src/DaveClements/index.md)
+[Dave Clements](/src/dave-clements/index.md)
 
-<span style="font-size: smaller;"> * These tags were added in 2013 and very few papers before 2013 have been back-curated with them.  All the tags are explained on the [CiteULike](/src/CiteULike/index.md) page. </span>
+<span style="font-size: smaller;"> * These tags were added in 2013 and very few papers before 2013 have been back-curated with them.  All the tags are explained on the [CiteULike](/src/cite-u-like/index.md) page. </span>
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-06-06</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

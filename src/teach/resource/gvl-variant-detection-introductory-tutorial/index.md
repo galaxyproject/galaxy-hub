@@ -2,7 +2,7 @@
 title: [GVL Variant Detection Introductory Tutorial](https://docs.google.com/document/pub?id=1ZRzrjjOCvtAu3m-IKL-rbJ1f4On60dDL_IEwG7oejdI)
 ---
 <div class='center'>
-<a href='https://docs.google.com/document/pub?id=1ZRzrjjOCvtAu3m-IKL-rbJ1f4On60dDL_IEwG7oejdI'><img src="/src/PublicGalaxyServers/GenomicsVirtualLab300.png" alt="Variant Detection Introductory Tutorial" height="200" /></a>
+<a href='https://docs.google.com/document/pub?id=1ZRzrjjOCvtAu3m-IKL-rbJ1f4On60dDL_IEwG7oejdI'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="Variant Detection Introductory Tutorial" height="200" /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: [GVL Variant Detection Introductory Tutorial](https://docs.google.com/doc
 
 
 <div class='deploymentbox'>
- Resource:: **[GVL Variant Detection Introductory Tutorial](/src/Teach/Resource/GVL-Variant-Detection-IntroductoryTutorial/index.md)**
+ Resource:: **[GVL Variant Detection Introductory Tutorial](/src/teach/resource/gvl-variant-detection-introductory-tutorial/index.md)**
  Types:: Tutorial
  Domains:: **Variation** 
  Owners:: [Genomics Virtual Lab](https://genome.edu.au/wiki/About) by [University of Queensland, ](http://www.uq.edu.au) [Victorian Life Sciences Computation Initiative, ](http://www.vlsci.org.au/) [Queensland Facility for Advanced Bioinformatics, ](http://www.qfab.org//) and [Garvan Institute](http://www.garvan.org.au/)
@@ -18,7 +18,7 @@ title: [GVL Variant Detection Introductory Tutorial](https://docs.google.com/doc
  Date:: 2012/12 
 </div>
 
-[This tutorial](https://docs.google.com/document/pub?id=1ZRzrjjOCvtAu3m-IKL-rbJ1f4On60dDL_IEwG7oejdI) runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/PublicGalaxyServers/index.md) specifically for learning bioinformatics analysis.
+[This tutorial](https://docs.google.com/document/pub?id=1ZRzrjjOCvtAu3m-IKL-rbJ1f4On60dDL_IEwG7oejdI) runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/public-galaxy-servers/index.md) specifically for learning bioinformatics analysis.
 
 In this tutorial we cover the concepts of detecting small variants (SNVs and indels) in human genomic DNA using a small set of reads from chromosome 22.
 
@@ -38,4 +38,4 @@ Needed datasets exist in Shared Libraries on the server, and are also available 
 * [Genomics Virtual Lab](https://genome.edu.au/wiki/GVL)
 * The [GVL Tutorials and Protocols page](https://genome.edu.au/wiki/Learn)
 
-[CategoryTrainingResource](/src/CategoryTrainingResource/index.md) CategoryTrainingResource
+[CategoryTrainingResource](/src/category-training-resource/index.md) CategoryTrainingResource

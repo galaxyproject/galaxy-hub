@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[SlipStream Appliance: Galaxy Edition](/src/news/SlipStreamAppliance/index.md)</div>
+<div class='newsItemHeader'>[SlipStream Appliance: Galaxy Edition](/src/news/slip-stream-appliance/index.md)</div>
 
-<div class='center'><a href='http://www.bioteam.net/slipstream/galaxy-edition'><img src="/src/images/Logos/SlipStreamApplianceLogo.png" alt="SlipStream Appliance - Galaxy Edition" width="300" /></a></div>
+<div class='center'><a href='http://www.bioteam.net/slipstream/galaxy-edition'><img src="/src/images/logos/SlipStreamApplianceLogo.png" alt="SlipStream Appliance - Galaxy Edition" width="300" /></a></div>
 
 **The Galaxy Team Selects [BioTeam](http://bioteam.net)<sup>TM</sup> as the Official Provider of Appliances to Accelerate Biomedical Research**
 
@@ -15,4 +15,4 @@ Product Manager, [BioTeam](http://bioteam.net)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-07-01</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

@@ -2,14 +2,14 @@
 title: [GalaxyAt](/src/GalaxyAt/index.md)UIowa
 ---
 <div class='center'>
-<a href='http://medicine.uiowa.edu/humangenetics/'><img src="/src/images/Logos/UIowaLogo.jpg" alt="GalaxyAtUIowa" width=200 /></a>
+<a href='http://medicine.uiowa.edu/humangenetics/'><img src="/src/images/logos/UIowaLogo.jpg" alt="GalaxyAtUIowa" width=200 /></a>
 </div>
 
 
 
 <div class='deploymentbox'>
 
- Deployment:: **[GalaxyAtUIowa](/src/Community/Deployment/GalaxyAtUIowa/index.md)**
+ Deployment:: **[GalaxyAtUIowa](/src/community/deployment/galaxy-at-u-iowa/index.md)**
  Domain:: Local instance at the U of Iowa
  Owners:: [IIHG](http://medicine.uiowa.edu/humangenetics)
  Audience:: Human geneticists, biologists
@@ -61,6 +61,6 @@ Annotation and reporting tools.
 
 ## Links
 
-* The University of Iowa Galaxy deployment was presented at th [July 2012 GalaxyAdmins meetup](/src/Community/GalaxyAdmins/Meetups/2012_07_09/index.md).
+* The University of Iowa Galaxy deployment was presented at th [July 2012 GalaxyAdmins meetup](/src/community/galaxy-admins/meetups/2012_07_09/index.md).
 
-[CategoryDeployment](/src/CategoryDeployment/index.md)
+[CategoryDeployment](/src/category-deployment/index.md)

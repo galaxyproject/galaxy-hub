@@ -6,7 +6,7 @@ title: 2013/10: Sharing workflows between servers: Practices
 
 
 <div class='logbox'>
- Topic:: **[Sharing workflows between servers](/src/Community/Log/2013/SharingWorkflowsBetweenLabsPractices/index.md)**
+ Topic:: **[Sharing workflows between servers](/src/community/log/2013/sharing-workflows-between-labs-practices/index.md)**
  Date:: 2013/10/23
  Who:: [Contributors](http://wiki.sb-roscoff.fr/ifb/index.php?title=Sharing_workflow_between_labs:_practices&action=history)
  Resolution:: [Documents process for sharing workflows, including wrapping necessary tools](http://wiki.sb-roscoff.fr/ifb/index.php/Sharing_workflow_between_labs:_practices)
@@ -26,4 +26,4 @@ The last two sections deals with wrappers installation from toolshed and differe
 
 * [The document](http://wiki.sb-roscoff.fr/ifb/index.php/Sharing_workflow_between_labs:_practices)
 
-[CategoryLog](/src/CategoryLog/index.md)
+[CategoryLog](/src/category-log/index.md)

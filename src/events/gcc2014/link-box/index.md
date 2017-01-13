@@ -1,16 +1,16 @@
 <div class='linkbox'>
-**[GCC2014](/src/events/GCC2014/index.md)**
+**[GCC2014](/src/events/gcc2014/index.md)**
 ----
-[Training](/src/events/GCC2014/TrainingDay/index.md)<br />
-[Program](/src/events/GCC2014/Program/index.md)<br />
-[Abstracts](/src/events/GCC2014/Abstracts/index.md)<br />
-[BoFs](/src/events/GCC2014/BoFs/index.md)<br />
-[Lightning](/src/events/GCC2014/Lightning/index.md)<br />
-[Logistics](/src/events/GCC2014/Logistics/index.md)<br />
-[Sponsors](/src/events/GCC2014/SponsorExhibit/index.md)<br />
-[Hackathon](/src/events/GCC2014/Hackathon/index.md)<br />
-[Promotion](/src/events/GCC2014/Promotion/index.md)<br />
-[Registration](/src/events/GCC2014/Register/index.md)<br />
-[Key Dates](/src/events/GCC2014/KeyDates/index.md)<br />
-[Organizers](/src/events/GCC2014/Organizers/index.md)<br />
+[Training](/src/events/gcc2014/training-day/index.md)<br />
+[Program](/src/events/gcc2014/program/index.md)<br />
+[Abstracts](/src/events/gcc2014/abstracts/index.md)<br />
+[BoFs](/src/events/gcc2014/bofs/index.md)<br />
+[Lightning](/src/events/gcc2014/lightning/index.md)<br />
+[Logistics](/src/events/gcc2014/logistics/index.md)<br />
+[Sponsors](/src/events/gcc2014/sponsor-exhibit/index.md)<br />
+[Hackathon](/src/events/gcc2014/hackathon/index.md)<br />
+[Promotion](/src/events/gcc2014/promotion/index.md)<br />
+[Registration](/src/events/gcc2014/register/index.md)<br />
+[Key Dates](/src/events/gcc2014/key-dates/index.md)<br />
+[Organizers](/src/events/gcc2014/organizers/index.md)<br />
 </div>

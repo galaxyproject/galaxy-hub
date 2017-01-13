@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[October 25, 2011 Distribution & News Brief](/src/news/Oct 2011 Distribution News Brief/index.md)</div>
 
-**Complete [News Brief](/src/DevNewsBriefs/2011_10_25/index.md)**
+**Complete [News Brief](/src/dev-news-briefs/2011_10_25/index.md)**
 
 **Highlights:**
 
@@ -20,11 +20,11 @@ upgrade: % hg pull -u -r 338ead4737ba
 
 **Thanks for using Galaxy!**
 
-[Jennifer Jackson](/src/JenniferJackson/index.md)
+[Jennifer Jackson](/src/jennifer-jackson/index.md)
 
-[Galaxy Team](/src/GalaxyTeam/index.md)
+[Galaxy Team](/src/galaxy-team/index.md)
 
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-10-26</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

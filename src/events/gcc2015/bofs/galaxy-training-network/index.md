@@ -6,21 +6,21 @@ title: Galaxy Training Network Meetup
 
 
 <div class='dictbox'>
- BoF:: [Galaxy Training Network](/src/events/GCC2015/BoFs/GalaxyTrainingNetwork/index.md)
+ BoF:: [Galaxy Training Network](/src/events/gcc2015/bofs/galaxy-training-network/index.md)
  Summary:: A BoF for people who want to teach the use of Galaxy or use Galaxy as a bioinformatics training tool. Let's get together and talk about resource requirements, available learning material etc..
  Audience:: Anyone interested in using Galaxy for bioinformatics and related learning and teaching. People who need to support such activities. 
  When:: Monday, 6 July, 18:50
  Where:: Franklin Room, JICCC
- Contact:: [Dave Clements](/src/DaveClements/index.md), [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie)
+ Contact:: [Dave Clements](/src/dave-clements/index.md), [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie)
 </div>
 
-<div class='left'><a href='/src/events/GCC2015/BoFs/index.md'><img src="/src/images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a><br /><br />
-<a href='/src/Teach/index.md'><img src="/src/images/Logos/GTNLogo600.png" alt="Galaxy Training Network" width="160" /></a>
+<div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a><br /><br />
+<a href='/src/teach/index.md'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" width="160" /></a>
 </div>
 
-The **[Galaxy Training Network (GTN)](/src/Teach/GTN/index.md)** will have an in-person [Birds of a Feather](/src/events/GCC2015/BoFs/index.md) meetup at the [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/), held in Norwich, UK, 4-8 July, 2015.
+The **[Galaxy Training Network (GTN)](/src/teach/gtn/index.md)** will have an in-person [Birds of a Feather](/src/events/gcc2015/bofs/index.md) meetup at the [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/), held in Norwich, UK, 4-8 July, 2015.
 
-GTN was unofficially launched at a [GCC2014 BoF meetup](/src/events/GCC2014/BoFs/GalaxyTrainingNetwork/index.md) (and [officially launched in October](/src/news/GalaxyTrainingNetwork/index.md)).  GTN is a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  GTN makes it easy to find [Galaxy trainers](/src/Teach/Trainers/index.md), and to share and discover the wealth of training resources available for Galaxy.  This includes [training materials](/src/Teach/Resources/index.md), a [trainer directory](/src/Teach/Trainers/index.md),[best practices](/src/Teach/BestPractices/index.md), and [guidance on computing platforms](/src/Teach/ComputingPlatforms/index.md) for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
+GTN was unofficially launched at a [GCC2014 BoF meetup](/src/events/gcc2014/bofs/galaxy-training-network/index.md) (and [officially launched in October](/src/news/galaxy-training-network/index.md)).  GTN is a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  GTN makes it easy to find [Galaxy trainers](/src/teach/trainers/index.md), and to share and discover the wealth of training resources available for Galaxy.  This includes [training materials](/src/teach/resources/index.md), a [trainer directory](/src/teach/trainers/index.md),[best practices](/src/teach/best-practices/index.md), and [guidance on computing platforms](/src/teach/computing-platforms/index.md) for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
 
 If you teach with Galaxy, then please consider joining us at this BoF.
 
@@ -28,7 +28,7 @@ If you teach with Galaxy, then please consider joining us at this BoF.
 
 We'll talk about 
 
-* Progress since [GCC2014](/src/events/GCC2014/BoFs/GalaxyTrainingNetwork/index.md)
+* Progress since [GCC2014](/src/events/gcc2014/bofs/galaxy-training-network/index.md)
 * What should GTN emphasise moving forward?
 * What ever issues participants want to cover.
 
@@ -44,10 +44,10 @@ This BoF will be held **Monday, 6 July, 18:50, in the Franklin Room.**
 
 ## Participants
 
-* [Dave Clements](/src/DaveClements/index.md), organiser
+* [Dave Clements](/src/dave-clements/index.md), organiser
 * [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie), organiser
-* [Eric Rasche](/src/EricRasche/index.md)
-* [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md)
+* [Eric Rasche](/src/eric-rasche/index.md)
+* [Hans-Rudolf Hotz](/src/hansrudolf-hotz/index.md)
 * Mark Fernandes
 * Catriona McInerney
 * Annette McGrath
@@ -60,7 +60,7 @@ This BoF will be held **Monday, 6 July, 18:50, in the Franklin Room.**
 * Agata Smialowska
 * Jochen Bick
 * Brad Langhorst
-* [Björn Grüning](/src/BjoernGruening/index.md)
+* [Björn Grüning](/src/bjoern-gruening/index.md)
 * Daniel Sobral
 * Simon Gladman
 * Clare Sloggett
@@ -151,6 +151,6 @@ Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and D
 
 ## Questions?
 
-Send them to [Dave Clements](/src/DaveClements/index.md) and [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie).
+Send them to [Dave Clements](/src/dave-clements/index.md) and [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie).
 
 [CategoryBo](/src/CategoryBo/index.md)F

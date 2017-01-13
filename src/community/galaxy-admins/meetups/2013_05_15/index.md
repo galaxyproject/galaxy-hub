@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2013/05/15 Web Meetup<br /><br />[Galaxy](http://rnaseq.pathogenportal.org/) at [Pathogen Portal](http://pathogenportal.org)
 </div></div>
 
@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em><a href='http://rnaseq.pathogenportal.org/'>Galaxy</a> at <a href='http://pathogenportal.org'>Pathogen Portal</a></em><div class='indent'>Andrew Warren, <a href='https://www.vbi.vt.edu/'>Virginia Bioinformatics Institute</a>, Virginia Tech </div><em>Galaxy Project Update</em><div class='indent'><a href='/src/DannonBaker/index.md'>Dannon Baker</a></div> </td>
+    <td> <em><a href='http://rnaseq.pathogenportal.org/'>Galaxy</a> at <a href='http://pathogenportal.org'>Pathogen Portal</a></em><div class='indent'>Andrew Warren, <a href='https://www.vbi.vt.edu/'>Virginia Bioinformatics Institute</a>, Virginia Tech </div><em>Galaxy Project Update</em><div class='indent'><a href='/src/dannon-baker/index.md'>Dannon Baker</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -28,19 +28,19 @@
 </table>
 
 
-<div class='right'><a href='http://rnaseq.pathogenportal.org/'><img src="/src/Community/GalaxyAdmins/Meetups/2013_05_15/PathogenPortalGalaxyLandingPage.png" alt="Pathogen Portal Galaxy"  /></a></div>
+<div class='right'><a href='http://rnaseq.pathogenportal.org/'><img src="/src/community/galaxy-admins/meetups/2013_05_15/PathogenPortalGalaxyLandingPage.png" alt="Pathogen Portal Galaxy"  /></a></div>
 
 <br />
 
 Andrew Warren of the [Cyberinfrastructure Division](http://www.vbi.vt.edu/faculty/group_overview/Cyberinfrastructure_Division) of the [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) at Virginia Tech talked about their experience deploying Galaxy for [Pathogen Portal](http://pathogenportal.org), a highly customized Galaxy installation, and also about the group's objectives and future plans.
 
-[Dannon Baker](/src/DannonBaker/index.md) brought the group up to speed on what's happening in the Galaxy project.
+[Dannon Baker](/src/dannon-baker/index.md) brought the group up to speed on what's happening in the Galaxy project.
 
 <br /><br />
 
 ## Call Technology
 
-We will use the [University of Iowa's Blackboard system](/src/Community/GalaxyAdmins/Meetups/2013_05_15/WebinarTech/index.md) for the call. **Downloading and launching the required Java application takes a few minutes. Using a headphone with microphone to prevent audio feedback during the call is recommended.**
+We will use the [University of Iowa's Blackboard system](/src/community/galaxy-admins/meetups/2013_05_15/WebinarTech/index.md) for the call. **Downloading and launching the required Java application takes a few minutes. Using a headphone with microphone to prevent audio feedback during the call is recommended.**
 
 <br />
 

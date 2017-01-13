@@ -3,7 +3,7 @@
 {{> Admin/Tools/LinkBox }}
 # Tutorial for Creating a Histogram Tool
 
-See also the general [ tutorial for adding custom tools](/src/Admin/Tools/Add Tool Tutorial/index.md).
+See also the general [ tutorial for adding custom tools](/src/admin/tools/Add Tool Tutorial/index.md).
 
 ## Introduction
 

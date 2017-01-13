@@ -9,9 +9,9 @@ title: Tutorial: Galaxy Installation and Administration
 
 {{> Events/GCC2014/LinkBox }}
 
-<div class='right'> <a href='/src/events/GCC2014/TrainingDay/index.md'><img src="/src/images/Logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
+<div class='right'> <a href='/src/events/gcc2014/training-day/index.md'><img src="/src/images/logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
 
-[Nate Coraor](/src/nate/index.md) and [John Chilton](/src/JohnChilton/index.md)
+[Nate Coraor](/src/nate/index.md) and [John Chilton](/src/john-chilton/index.md)
 
 <br />
 ![](https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png) #usegalaxy
@@ -144,7 +144,7 @@ serving on 127.0.0.1:8080 view at http://127.0.0.1:8080
 ### Install a tool from the Tool Shed
 
 * Register an account that matches the address you set in `admin_users`
-* Follow the [tutorial on installing tools from the Tool Shed](/src/Admin/Tools/AddToolFromToolShedTutorial/index.md). In brief:
+* Follow the [tutorial on installing tools from the Tool Shed](/src/admin/tools/add-tool-from-tool-shed-tutorial/index.md). In brief:
   * Click **Admin** from the masthead
   * Click **Search and browse tool sheds** from the left panel
   * Click the popup icon for **Galaxy main tool shed** and select **Search for valid tools**
@@ -156,12 +156,12 @@ serving on 127.0.0.1:8080 view at http://127.0.0.1:8080
 
 ### References
 
-* [Tools hub page](/src/Admin/Tools/index.md)
-* [Tutorial on adding custom tools](/src/Admin/Tools/AddToolTutorial/index.md)
-* [Tutorial on installing tools from the Tool Shed](/src/Admin/Tools/AddToolFromToolShedTutorial/index.md)
+* [Tools hub page](/src/admin/tools/index.md)
+* [Tutorial on adding custom tools](/src/admin/tools/add-tool-tutorial/index.md)
+* [Tutorial on installing tools from the Tool Shed](/src/admin/tools/add-tool-from-tool-shed-tutorial/index.md)
 * [Current tools/ directory](https://bitbucket.org/galaxy/galaxy-central/src/3b42725359224832317a066d95dff596f93ab33f/tools?at=stable)
-* [Tool Shed hub page](/src/ToolShed/index.md)
-* [Tool Shed tour](/src/ToolShed/Tour/index.md)
+* [Tool Shed hub page](/src/tool-shed/index.md)
+* [Tool Shed tour](/src/tool-shed/tour/index.md)
 * [Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)
 
 ## Managing local data
@@ -173,7 +173,7 @@ serving on 127.0.0.1:8080 view at http://127.0.0.1:8080
   * Building indexes on the command line
   * `.loc` files
   * `tool_data_table_conf.xml`
-  * Example of the above with bwa and S. cerevisiae (sacCer2) [transcript](/src/events/GCC2014/TrainingDay/AdminWalkthrough/index.md#adding-local-data-by-hand)
+  * Example of the above with bwa and S. cerevisiae (sacCer2) [transcript](/src/events/gcc2014/training-day/admin-walkthrough/index.md#adding-local-data-by-hand)
 * Galaxy Data Managers
 
 ### Adding local data with a Galaxy Data Manager
@@ -211,13 +211,13 @@ Upon completion:
 
 ### References
 
-* [(Manual) index building](/src/Admin/DataPreparation/index.md)
-* [(Manual) data integration](/src/Admin/DataIntegration/index.md)
-* [Automated data management with Data Managers](/src/Admin/Tools/DataManagers/index.md)
+* [(Manual) index building](/src/admin/data-preparation/index.md)
+* [(Manual) data integration](/src/admin/data-integration/index.md)
+* [Automated data management with Data Managers](/src/admin/tools/data-managers/index.md)
 
 # Setting up a Local Galaxy Tutorial (Part II)
 
-Documentation for the features used in this section can be found at [usegalaxy.org/production](https://usegalaxy.org/production) (forwards to [Admin/Config/Performance/ProductionServer](/src/Admin/Config/Performance/ProductionServer/index.md))
+Documentation for the features used in this section can be found at [usegalaxy.org/production](https://usegalaxy.org/production) (forwards to [Admin/Config/Performance/ProductionServer](/src/admin/config/performance/production-server/index.md))
 
 ## Install and configure PostgreSQL
 
@@ -343,7 +343,7 @@ allow_library_path_paste = True
 
 Explanations of these options:
 
-* `database_connection = postgresql:///gxprod?host=/var/run/postgresql` - Use a PostgreSQL database via a local UNIX domain socket (the socket is in `/var/run/postgresql`). [documentation](/src/Admin/Config/Performance/ProductionServer/index.md#switching_to_a_database_server)
+* `database_connection = postgresql:///gxprod?host=/var/run/postgresql` - Use a PostgreSQL database via a local UNIX domain socket (the socket is in `/var/run/postgresql`). [documentation](/src/admin/config/performance/production-server/index.md#switching_to_a_database_server)
 * `database_engine_option_server_side_cursors = True` - Keep large SQL query results on the PostgreSQL server, rather the transferring the entire result set to the Galaxy processes.
 * `tool_dependency_dir = /home/gxprod/tool_deps` - The directory that will house tool dependencies
 * `static_enabled = False` - Static content will be served by the proxy server
@@ -356,15 +356,15 @@ Explanations of these options:
 * `use_interactive = False` - Disables live client browser debugging (insecure).
 * `id_secret = <random text>` - Ensures that the encoded IDs used by Galaxy (especially session IDs) are unique.  One simple way to generate a value for this is with a shell command like `$ date | md5sum`
 * `admin_users = nate@bx.psu.edu` - Make nate@example.org an administrator. Galaxy's Admin UI is only accessible if you define administrators here!
-* `library_import_dir = /home/gxprod/library` - Administrators can directly import datasets from this directory on the server to Data Libraries.  This includes an option that allows an effective "symlink" to the data, rather than copying it in to Galaxy's `file_path` directory. [documentation](/src/Admin/DataLibraries/UploadingLibraryFiles/index.md)
+* `library_import_dir = /home/gxprod/library` - Administrators can directly import datasets from this directory on the server to Data Libraries.  This includes an option that allows an effective "symlink" to the data, rather than copying it in to Galaxy's `file_path` directory. [documentation](/src/admin/data-libraries/uploading-library-files/index.md)
 * `allow_library_path_paste = True` - Administrators can import datasets from anywhere on the server's filesystem(s) by entering their paths in to a text box
 
 Honorable mentions for features we won't use today but that are common in big setups:
 
 * `ftp_upload_dir` and `ftp_upload_site` - Allow users to upload data to the server using FTP
-* `use_remote_user` and `remote_user_maildomain` - Use your institution's existing authentication system to log in to Galaxy. [Apache documentation](/src/Admin/Config/ExternalUserDatbases/index.md) or [nginx documentation](/src/Admin/Config/nginxProxy/index.md#external_user_authentication)
+* `use_remote_user` and `remote_user_maildomain` - Use your institution's existing authentication system to log in to Galaxy. [Apache documentation](/src/admin/config/ExternalUserDatbases/index.md) or [nginx documentation](/src/admin/config/nginxProxy/index.md#external_user_authentication)
 * `allow_user_impersonation` - Users configured as administrators (with `admin_users`) can "become" other users to view Galaxy exactly as the impersonated user does. Useful for providing support.
-* `user_library_import_dir` - Non-administrators can directly import datasets from this directory on this server to Data Libraries from which they have been given write permission. [documentation](/src/Admin/DataLibraries/UploadingLibraryFiles/index.md)
+* `user_library_import_dir` - Non-administrators can directly import datasets from this directory on this server to Data Libraries from which they have been given write permission. [documentation](/src/admin/data-libraries/uploading-library-files/index.md)
 * `object_store_config_file` - Configure Galaxy's "object storage" layer to store data in multiple filesystems, Amazon S3, iRODS, etc.
 * `error_email_to` (with `smtp_server`) - Allow users to send bug reports directly to you
 * `user_activation_on` and related options - Require new users to verify their email address

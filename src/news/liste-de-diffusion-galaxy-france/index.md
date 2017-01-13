@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[Liste de diffusion Galaxy France](/src/news/ListeDeDiffusionGalaxyFrance/index.md)</div>
+<div class='newsItemHeader'>[Liste de diffusion Galaxy France](/src/news/liste-de-diffusion-galaxy-france/index.md)</div>
 
-<div class='right'><a href='http://france.list.galaxyproject.org/'><img src="/src/images/Logos/GalaxyFranceListSearch.png" alt=""  /></a></div>
+<div class='right'><a href='http://france.list.galaxyproject.org/'><img src="/src/images/logos/GalaxyFranceListSearch.png" alt=""  /></a></div>
 
 Cette liste a pour but de partager et communiquer sur nos différentes expériences avec Galaxy au sein de l'hexagone.
 La langue officielle de cette liste est le français.
@@ -18,7 +18,7 @@ Pour toutes les questions techniques (installation, développement d'outil) nous
 
 Pour vous aider dans votre utilisation de Galaxy, voici une liste de liens utiles (en plus de la présente liste):
 
-* [Wiki Galaxy officiel](/src/FrontPage/index.md)
+* [Wiki Galaxy officiel](/src/front-page/index.md)
 * [Serveur public principal](https://main.g2.bx.psu.edu/)
 * [Liste d'annonce](http://announce.list.galaxyproject.org/)
 * [Liste utilisateurs "simples" Galaxy](http://user.list.galaxyproject.org/)
@@ -26,7 +26,7 @@ Pour vous aider dans votre utilisation de Galaxy, voici une liste de liens utile
 
 A très bientôt sur la liste Galaxy France,
 
-Les administrateurs: Alban Lermine, Olivier Inizan, Rémi Marenco, [Dave Clements](/src/DaveClements/index.md) & [Jennifer Jackson](/src/JenniferJackson/index.md).
+Les administrateurs: Alban Lermine, Olivier Inizan, Rémi Marenco, [Dave Clements](/src/dave-clements/index.md) & [Jennifer Jackson](/src/jennifer-jackson/index.md).
 
 Alban Lermine
 
@@ -34,4 +34,4 @@ Alban Lermine
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-08-28</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

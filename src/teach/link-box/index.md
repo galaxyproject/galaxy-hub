@@ -1,10 +1,10 @@
 <div class='linkbox'>
-**[Teach](/src/Teach/index.md)**
+**[Teach](/src/teach/index.md)**
 ----
-[Resources](/src/Teach/Resources/index.md)<br />
-[Trainers](/src/Teach/Trainers/index.md)<br />
-[Platforms](/src/Teach/ComputingPlatforms/index.md)<br />
-[Best Practices](/src/Teach/BestPractices/index.md)<br />
+[Resources](/src/teach/resources/index.md)<br />
+[Trainers](/src/teach/trainers/index.md)<br />
+[Platforms](/src/teach/computing-platforms/index.md)<br />
+[Best Practices](/src/teach/best-practices/index.md)<br />
 [Events](/src/events/index.md)<br />
-[GTN](/src/Teach/GTN/index.md)<br />
+[GTN](/src/teach/gtn/index.md)<br />
 </div>

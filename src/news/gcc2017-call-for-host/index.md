@@ -1,10 +1,10 @@
-<div class='newsItemHeader'>[GCC2017 Call for Host Proposals](/src/news/GCC2017CallForHost/index.md)</div>
+<div class='newsItemHeader'>[GCC2017 Call for Host Proposals](/src/news/gcc2017-call-for-host/index.md)</div>
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/GCC2011/index.md'><img src="/src/events/GCC2011Logo400.png" alt="" width="200" /></a>&nbsp;&nbsp; <br /><br /><a href='/src/events/GCC2012/index.md'><img src="/src/events/GCC2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" width="190" /></a>&nbsp;&nbsp;&nbsp; </td>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/GCC2014/index.md'><img src="/src/images/Logos/GCC2014LogoWide200.png" alt="GCC2014, June 30-July2" width="220" /></a>&nbsp;&nbsp;&nbsp;<br /><br /> <a href='/src/events/GCC2013/index.md'><img src="/src/images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="220px" /></a>&nbsp;&nbsp;&nbsp;  </td>
-    <td style=" text-align: center; border: none;"> <a href='http://gcc2015.tsl.ac.uk/'><img src="/src/images/Logos/GCC2015LogoWide600.png" alt="2015 Galaxy Community Conference (GCC2015)" width="200" /></a><br /><br /><a href='http://galaxyproject.org/GCC2016'><img src="/src/images/Logos/GCC2016LogoBig.png" alt="2016 Galaxy Community Conference (GCC2016)" width="220px" /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/GCC2011/index.md'><img src="/src/events/gcc2011Logo400.png" alt="" width="200" /></a>&nbsp;&nbsp; <br /><br /><a href='/src/events/gcc2012/index.md'><img src="/src/events/gcc2012/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" width="190" /></a>&nbsp;&nbsp;&nbsp; </td>
+    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2014/index.md'><img src="/src/images/logos/GCC2014LogoWide200.png" alt="GCC2014, June 30-July2" width="220" /></a>&nbsp;&nbsp;&nbsp;<br /><br /> <a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="220px" /></a>&nbsp;&nbsp;&nbsp;  </td>
+    <td style=" text-align: center; border: none;"> <a href='http://gcc2015.tsl.ac.uk/'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="2015 Galaxy Community Conference (GCC2015)" width="200" /></a><br /><br /><a href='http://galaxyproject.org/GCC2016'><img src="/src/images/logos/GCC2016LogoBig.png" alt="2016 Galaxy Community Conference (GCC2016)" width="220px" /></a> </td>
   </tr>
   <tr>
     <td colspan=3 style=" text-align: center; border: none;"> <div class='solid red'> <span style="font-size: larger;"> <strong>GCC2017 needs a host!</strong><br /></span> <span style="font-size: smaller;">(and a logo) <br />(<a href='https://gcc2017.sciencesconf.org/'>and we found both!</a>)</span> </td>
@@ -18,7 +18,7 @@ Hello all,
 
 The Galaxy Community Conference has been held annually since 2010.  [GCC2016](http://galaxyproject.org/GCC2016) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States.
   
-**We are now [seeking proposals](PLACEHOLDER_ATTACHMENT_URL/src/Documents/GCC2016CallForHosts.pdf) from organizations interested in hosting GCC2017.**
+**We are now [seeking proposals](PLACEHOLDER_ATTACHMENT_URL/src/documents/GCC2016CallForHosts.pdf) from organizations interested in hosting GCC2017.**
 
 Galaxy's informal policy of rotating between North America and elsewhere every other year is now a formal policy:  Hosts for GCC2017 need to be located outside of North America.
 
@@ -39,12 +39,12 @@ What do you need to host GCC2017, you ask?  In approximately decreasing order of
 
 Hosts get copious (and enthusiastic) organizational support from Galaxy's Outreach Team (who have been helping to organize GCC since 2011), and even more copious gratitude (even *adulation!)* from the Galaxy Community.  
 
-See the **[full call for host proposals](PLACEHOLDER_ATTACHMENT_URL/src/Documents/GCC2016CallForHosts.pdf)** for more details on what should be covered in proposals.  Proposals are due by the end of ~~30 October~~ **30 November 2015**. If you are interested in possibly hosting GCC2017 then please contact [Galaxy Outreach](mailto:outreach@galaxyproject.org) with any questions.  Our goal is to announce GCC2017 at GCC2016 this coming June.
+See the **[full call for host proposals](PLACEHOLDER_ATTACHMENT_URL/src/documents/GCC2016CallForHosts.pdf)** for more details on what should be covered in proposals.  Proposals are due by the end of ~~30 October~~ **30 November 2015**. If you are interested in possibly hosting GCC2017 then please contact [Galaxy Outreach](mailto:outreach@galaxyproject.org) with any questions.  Our goal is to announce GCC2017 at GCC2016 this coming June.
 
 Hoping to work with you in 2017!
 
-[Dave Clements](/src/DaveClements/index.md) and the [Galaxy Team](/src/GalaxyTeam/index.md)
+[Dave Clements](/src/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-09-14</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

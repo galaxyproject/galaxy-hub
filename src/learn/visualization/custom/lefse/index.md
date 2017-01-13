@@ -6,7 +6,7 @@ title: LEfSe
 
 
 <div class='deploymentbox'>
- Resource:: **[LEfSe](/src/Learn/Visualization/Custom/lefse/index.md)**
+ Resource:: **[LEfSe](/src/learn/visualization/custom/lefse/index.md)**
  Type:: Public
  Domain:: NGS, Visualization
  Formats:: Microbial abundance tables with two meta rows

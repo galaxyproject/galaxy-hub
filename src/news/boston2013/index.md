@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[Galaxy Training in Boston](/src/news/Boston2013/index.md)</div>
+<div class='newsItemHeader'>[Galaxy Training in Boston](/src/news/boston2013/index.md)</div>
 
-<div class='right'><a href='http://bioteam.net/slipstream/galaxy-edition/galaxy-training/'><img src="/src/images/Logos/BioTeamLogo154.gif" alt="Analyzing NGS Data with Galaxy" width="120" /></a></div>
+<div class='right'><a href='http://bioteam.net/slipstream/galaxy-edition/galaxy-training/'><img src="/src/images/logos/BioTeamLogo154.gif" alt="Analyzing NGS Data with Galaxy" width="120" /></a></div>
 
 **Free Training Event in Boston: *Analyzing NGS Data with Galaxy***
 
@@ -48,4 +48,4 @@ Anushka Brownley<br />
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-09-30</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

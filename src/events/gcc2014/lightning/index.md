@@ -10,11 +10,11 @@ title: Lightning Talks
 
 {{> Events/GCC2014/LinkBox }}
 
-Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Tuesday](/src/events/GCC2014/Program/index.md#day-1-main-meeting) and [Session 8 on Wednesday](/src/events/GCC2014/Program/index.md#day-2-main-meeting).
+Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Tuesday](/src/events/gcc2014/program/index.md#day-1-main-meeting) and [Session 8 on Wednesday](/src/events/gcc2014/program/index.md#day-2-main-meeting).
 
 If you wish to give a lightning talk, please send a title and short abstract to [GCC2014 Scientific Committee](mailto:gcc2014-sci AT groups DOT galaxyproject DOT org), either 
-* any time before the start of [Session 2](/src/events/GCC2014/Lightning/Program/index.md#day-1-main-meeting-july-1) (to be considered for Tuesday or Wednesday slots), or 
-* before [Session 6](/src/events/GCC2014/Lightning/Program/index.md#day-2-main-meeting-july-2) (to be considered for Wednesday only).  
+* any time before the start of [Session 2](/src/events/gcc2014/lightning/Program/index.md#day-1-main-meeting-july-1) (to be considered for Tuesday or Wednesday slots), or 
+* before [Session 6](/src/events/gcc2014/lightning/Program/index.md#day-2-main-meeting-july-2) (to be considered for Wednesday only).  
 
 The slides for all lightning talks will be made available on the this page, and the talks may be videotaped and posted here as well.
 
@@ -176,7 +176,7 @@ Presented by **Gilda Le Corguillé<sup>1</sup>**
 
 ### Galaxy: Farm to Federation
 
-**Kyle Ellrott<sup>1</sup>**, [Dannon Baker](/src/DannonBaker/index.md)<sup>2</sup>
+**Kyle Ellrott<sup>1</sup>**, [Dannon Baker](/src/dannon-baker/index.md)<sup>2</sup>
 
  <sup>1</sup> UC Santa Cruz<br />
  <sup>2</sup> John Hopkins University
@@ -216,7 +216,7 @@ Lightning talks are your opportunity to give an impassioned and enthralling talk
 
 ## Slides
 
-* Your slides (as PDF or PowerPoint) should be on the presentation computer before the session starts (talk to [Dave Clements](/src/DaveClements/index.md)) to minimize the risk of BYOD. 
+* Your slides (as PDF or PowerPoint) should be on the presentation computer before the session starts (talk to [Dave Clements](/src/dave-clements/index.md)) to minimize the risk of BYOD. 
 * You can BYOD (your own computer or whatever) but you are advised not to. 
 * **If you do BYOD, we will start swapping out your device at 2 minutes left, rather than 1.**
 * Connection and fiddling time beyond the first minute comes out of your 5 minutes and ***is painful, for everyone.***  

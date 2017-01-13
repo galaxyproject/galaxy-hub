@@ -1,7 +1,7 @@
 <div class='linkbox'>
-**[GalaxyAdmins](/src/Community/GalaxyAdmins/index.md)**<br />
+**[GalaxyAdmins](/src/community/galaxy-admins/index.md)**<br />
 ----
-[Meetups](/src/Community/GalaxyAdmins/Meetups/index.md)<br />
-[Future](/src/Community/GalaxyAdmins/Future/index.md)<br />
-[Surveys](/src/Community/GalaxyAdmins/Surveys/index.md)<br />
+[Meetups](/src/community/galaxy-admins/meetups/index.md)<br />
+[Future](/src/community/galaxy-admins/future/index.md)<br />
+[Surveys](/src/community/galaxy-admins/surveys/index.md)<br />
 </div>

@@ -1,11 +1,11 @@
 {{> Documents/LinkBox }}
 
-Common place to attach presentations in the [Documents](/src/Documents/index.md) hierarchy.
+Common place to attach presentations in the [Documents](/src/documents/index.md) hierarchy.
 
 Also see these subdirectories for specific events:
 
-* [GCC2013](/src/Documents/Presentations/GCC2013/index.md)
-* [GCC2012](/src/Documents/Presentations/GCC2012/index.md)
+* [GCC2013](/src/documents/presentations/gcc2013/index.md)
+* [GCC2012](/src/documents/presentations/gcc2012/index.md)
 
 ## Presentations
 

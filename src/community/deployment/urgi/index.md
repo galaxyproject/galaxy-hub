@@ -2,13 +2,13 @@
 title: URGI
 ---
 <div class='center'>
-<a href='https://urgi.versailles.inra.fr/'><img src="/src/images/Logos/URGILogo.png" alt="URGI" height="200" /></a>
+<a href='https://urgi.versailles.inra.fr/'><img src="/src/images/logos/URGILogo.png" alt="URGI" height="200" /></a>
 </div>
 
 
 
 <div class='deploymentbox'>
- Deployment:: **[URGI](/src/Community/Deployment/URGI/index.md)**
+ Deployment:: **[URGI](/src/community/deployment/urgi/index.md)**
  Domain:: Genomics
  Owners:: INRA
  Audience:: researchers at the institution, lab members
@@ -63,11 +63,11 @@ Instance deployed on virtual machine.
 
 ### Maintaining and Meeting Needs
 
-[DevOps software techniques](/src/events/GCC2013/Abstracts/Talks/index.md#devops-ignition-to-reach-galaxy-continuous-integration) implementation are used.
+[DevOps software techniques](/src/events/gcc2013/abstracts/talks/index.md#devops-ignition-to-reach-galaxy-continuous-integration) implementation are used.
 
 ## Links
 
-* [Description of server](/src/PublicGalaxyServers/index.md#inra-urgi) in [list of publicly accessible Galaxy Servers](/src/PublicGalaxyServers/index.md)
-* [DevOps Ignition to reach Galaxy continuous integration](/src/events/GCC2013/Abstracts/Talks/index.md#devops-ignition-to-reach-galaxy-continuous-integration) talk at [GCC2013](/src/events/GCC2013/index.md)
+* [Description of server](/src/public-galaxy-servers/index.md#inra-urgi) in [list of publicly accessible Galaxy Servers](/src/public-galaxy-servers/index.md)
+* [DevOps Ignition to reach Galaxy continuous integration](/src/events/gcc2013/abstracts/talks/index.md#devops-ignition-to-reach-galaxy-continuous-integration) talk at [GCC2013](/src/events/gcc2013/index.md)
 
-[CategoryDeployment](/src/CategoryDeployment/index.md)
+[CategoryDeployment](/src/category-deployment/index.md)

@@ -1,11 +1,11 @@
 #acl +wikiAdminGroup:read,write,delete,revert,admin All:read
 
-<div class='noteItemHeader'>[Note Test 2](/src/Note/NoteTest2/index.md)</div>
+<div class='noteItemHeader'>[Note Test 2](/src/note/note-test2/index.md)</div>
 
 Uh-huh, n ote test two
 
-[DaveClements](/src/DaveClements/index.md) (optional)
+[DaveClements](/src/dave-clements/index.md) (optional)
 
-<div class='noteItemFooter'>Posted to [Galaxy Notes](/src/Notes/index.md) on 2012-08-15</div>
+<div class='noteItemFooter'>Posted to [Galaxy Notes](/src/notes/index.md) on 2012-08-15</div>
 
-[CategoryNotes](/src/CategoryNotes/index.md)
+[CategoryNotes](/src/category-notes/index.md)

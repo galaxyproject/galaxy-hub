@@ -1,21 +1,21 @@
 ---
 title: Careers with the Galaxy Project: Software Engineers and Postdoctoral Researchers
 ---
-<div class='center'>![Galaxy wants YOU, damnit](/src/GalaxyIsHiring/GalaxyIsHiringWordCloud2.png)</div>
+<div class='center'>![Galaxy wants YOU, damnit](/src/galaxy-is-hiring/GalaxyIsHiringWordCloud2.png)</div>
 
 
 
 <div class='right'> 
-<a href='http://www.johnshopkins.edu/'><img src="/src/images/Logos/JohnsHopkins.png" alt="Johns Hopkins University" width="160" /></a><br /><br />
+<a href='http://www.johnshopkins.edu/'><img src="/src/images/logos/JohnsHopkins.png" alt="Johns Hopkins University" width="160" /></a><br /><br />
 
-<a href='http://www.psu.edu/'><img src="/src/images/Logos/PennStateLogo.png" alt="Penn State University" width="160" /></a>
+<a href='http://www.psu.edu/'><img src="/src/images/logos/PennStateLogo.png" alt="Penn State University" width="160" /></a>
 
-<a href='http://www.gwu.edu/'><img src="/src/GalaxyIsHiring/gwlogo.png" alt="George Washington University" width="160" /></a>
+<a href='http://www.gwu.edu/'><img src="/src/galaxy-is-hiring/gwlogo.png" alt="George Washington University" width="160" /></a>
 </div>
 
-Working for the [Galaxy team](/src/GalaxyTeam/index.md) provides a rare opportunity to perform research and develop software at the leading edge of life sciences, genomics, data-intensive computing, and big data analytics.
+Working for the [Galaxy team](/src/galaxy-team/index.md) provides a rare opportunity to perform research and develop software at the leading edge of life sciences, genomics, data-intensive computing, and big data analytics.
 
-We develop [Galaxy](http://galaxyproject.org), a free, open-source platform that (a) enables researchers to store, analyze, visualize and share genomic data and (b) provides genomic tool developers with the ability to deploy their tools within a complete analysis framework.  Galaxy is well known with [thousands of researchers worldwide](/src/GalaxyProject/Statistics/index.md) using it on a daily basis. Our [team members](/src/GalaxyTeam/index.md) are well regarded and widely recognized within the vast biomedical domain.  With genomics being the pivot of future life sciences and healthcare, joining the Galaxy project will open an immense array of possibilities.
+We develop [Galaxy](http://galaxyproject.org), a free, open-source platform that (a) enables researchers to store, analyze, visualize and share genomic data and (b) provides genomic tool developers with the ability to deploy their tools within a complete analysis framework.  Galaxy is well known with [thousands of researchers worldwide](/src/galaxy-project/statistics/index.md) using it on a daily basis. Our [team members](/src/galaxy-team/index.md) are well regarded and widely recognized within the vast biomedical domain.  With genomics being the pivot of future life sciences and healthcare, joining the Galaxy project will open an immense array of possibilities.
 
 Positions are available at:
 * [Johns Hopkins University](http://www.johnshopkins.edu/), Baltimore, MD (in the [lab of PI James Taylor](http://taylorlab.org/)) 
@@ -31,7 +31,7 @@ We have a wide variety of active projects, current areas of expertise sought inc
 <div class='right'>
 <table>
   <tr>
-    <td style=" background-color: #4C5163;"> <a href='/src/DevNewsBriefs/2012_10_23/index.md#visualization_framework'><img src="/src/images/NewsGraphics/2012_10_23_scatterplot-fullscreen.png" alt="scatterplot visualization" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_09_07/index.md#user-interface-ui'><img src="/src/images/NewsGraphics/2012_09_07_interactive-phylo-tree.png" alt="interactive phylogenetic tree" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_01_27/index.md#galaxy-track-browser-gtb'><img src="/src/images/NewsGraphics/2012_01_27_multi-track-filtering.png" alt="dynamic track filtering" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_07_20/index.md#admin_genome_indexing'><img src="/src/images/NewsGraphics/2012_07_20_main-page.png" alt="reference genome index status" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_03_12/index.md#galaxy-track-browser-gtb'><img src="/src/images/NewsGraphics/2012_03_12_trackster-encode.png" alt="ENCODE data in Trackster" width="180" /></a> <br />  <a href='/src/DevNewsBriefs/2012_05_11/index.md#tools'><img src="/src/images/NewsGraphics/2012_05_11_gatk-workflow.png" alt="GATK Workflow visualization" width="180" /></a> </td>
+    <td style=" background-color: #4C5163;"> <a href='/src/dev-news-briefs/2012_10_23/index.md#visualization_framework'><img src="/src/images/news-graphics/2012_10_23_scatterplot-fullscreen.png" alt="scatterplot visualization" width="180" /></a> <br />  <a href='/src/dev-news-briefs/2012_09_07/index.md#user-interface-ui'><img src="/src/images/news-graphics/2012_09_07_interactive-phylo-tree.png" alt="interactive phylogenetic tree" width="180" /></a> <br />  <a href='/src/dev-news-briefs/2012_01_27/index.md#galaxy-track-browser-gtb'><img src="/src/images/news-graphics/2012_01_27_multi-track-filtering.png" alt="dynamic track filtering" width="180" /></a> <br />  <a href='/src/dev-news-briefs/2012_07_20/index.md#admin_genome_indexing'><img src="/src/images/news-graphics/2012_07_20_main-page.png" alt="reference genome index status" width="180" /></a> <br />  <a href='/src/dev-news-briefs/2012_03_12/index.md#galaxy-track-browser-gtb'><img src="/src/images/news-graphics/2012_03_12_trackster-encode.png" alt="ENCODE data in Trackster" width="180" /></a> <br />  <a href='/src/dev-news-briefs/2012_05_11/index.md#tools'><img src="/src/images/news-graphics/2012_05_11_gatk-workflow.png" alt="GATK Workflow visualization" width="180" /></a> </td>
   </tr>
 </table>
 
@@ -42,7 +42,7 @@ We have a wide variety of active projects, current areas of expertise sought inc
 * **Distributed computing and systems programming.** We are engaged in the development of workflow systems, cloud computing based solutions, and other projects involving high performance and data intensive computing.
 * **Bioinformatics application areas** such as re-sequencing, *de novo* assembly, metagenomics, transcriptome analysis and epigenetics.
 
-Regardless of your areas of expertise we seek talented, self-motivated individuals to join [our team](/src/GalaxyTeam/index.md). Galaxy is developed in an academic research environment, and members of the Galaxy team work closely with biomedical researchers on projects at the leading edge of data-intensive biology.
+Regardless of your areas of expertise we seek talented, self-motivated individuals to join [our team](/src/galaxy-team/index.md). Galaxy is developed in an academic research environment, and members of the Galaxy team work closely with biomedical researchers on projects at the leading edge of data-intensive biology.
 
 Galaxy is written in Python, but also makes substantial use of JavaScript, Canvas, and other modern Web technologies. Many of the analysis components of Galaxy are performance critical and are implemented in C and other languages as well.
 

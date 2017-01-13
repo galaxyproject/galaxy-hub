@@ -1,7 +1,7 @@
 ---
 title: [2016/07: Moving data between Galaxy instances](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/)
 ---
-<div class='center'><a href='https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/'><img src="/src/Community/Log/2016/MovingDataBetweenGalaxies/QueenslandGVLBlogBanner.png" alt="Moving data between Galaxy instances" width="80%" /></a>
+<div class='center'><a href='https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/'><img src="/src/community/log/2016/moving-data-between-galaxies/QueenslandGVLBlogBanner.png" alt="Moving data between Galaxy instances" width="80%" /></a>
 </div>
 
 
@@ -9,7 +9,7 @@ title: [2016/07: Moving data between Galaxy instances](https://genomicsvirtualla
 
 
 <div class='logbox'>
- Topic:: **[Moving data between Galaxy instances](/src/Community/Log/2016/MovingDataBetweenGalaxies/index.md)**
+ Topic:: **[Moving data between Galaxy instances](/src/community/log/2016/moving-data-between-galaxies/index.md)**
  Date:: 2016/07/13
  Who:: [Igor Makunin](https://rcc.uq.edu.au/genomics-virtual-lab)
  Resolution:: [A howto guide on getting data from one instance to another](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/).
@@ -22,4 +22,4 @@ This [howto guide](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-da
 
 * [Howto guide](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/)
 
-[CategoryLog](/src/CategoryLog/index.md)
+[CategoryLog](/src/category-log/index.md)

@@ -9,10 +9,10 @@ title:  Galaxy Project Workshop 2015
 
 **[http://galaxyproject.org](http://galaxyproject.org)**
 
-1. Galaxy [Main](/src/Main/index.md)
-1. Ways to use Galaxy explained in [Choices](/src/BigPicture/Choices/index.md)
-1. [Tool Shed Wiki](/src/ToolShed/index.md) and Main Tool Shed at [http://usegalaxy.org/toolshed](http://usegalaxy.org/toolshed)
-1. More resources at [Learn](/src/Learn/index.md), [Support](/src/support/index.md), [Teach](/src/Teach/index.md), and [Galaxy Biostars](https://biostar.usegalaxy.org/) (linked access: [Support/Biostar](/src/support/Biostar/index.md))
+1. Galaxy [Main](/src/main/index.md)
+1. Ways to use Galaxy explained in [Choices](/src/big-picture/choices/index.md)
+1. [Tool Shed Wiki](/src/tool-shed/index.md) and Main Tool Shed at [http://usegalaxy.org/toolshed](http://usegalaxy.org/toolshed)
+1. More resources at [Learn](/src/learn/index.md), [Support](/src/support/index.md), [Teach](/src/teach/index.md), and [Galaxy Biostars](https://biostar.usegalaxy.org/) (linked access: [Support/Biostar](/src/support/biostar/index.md))
 
 # Basic Analysis with Galaxy
 
@@ -45,9 +45,9 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/revised-galaxy-variant
 
 Differential Expression using Tuxedo pipeline: Known vs Novel splice variants
 
-Review the source tutorial overview under [Teach](/src/Teach/index.md) named *[Teach/Resource/GVL-RNA-SeqTutorial](/src/Teach/Resource/GVL-RNA-SeqTutorial/index.md)*. This summary points to the full exercise created by the *[Genomics Virtual Lab (GVL)](https://docs.google.com/document/pub?id=1KbTiBHtvHLfPRZ39AY3uriazrINA8TJzgjjwn1zPP7Y)*
+Review the source tutorial overview under [Teach](/src/teach/index.md) named *[Teach/Resource/GVL-RNA-SeqTutorial](/src/teach/resource/gvl-rna-seq-tutorial/index.md)*. This summary points to the full exercise created by the *[Genomics Virtual Lab (GVL)](https://docs.google.com/document/pub?id=1KbTiBHtvHLfPRZ39AY3uriazrINA8TJzgjjwn1zPP7Y)*
 
-Wikis: [Support](/src/support/index.md#tools_on_the_main_server_rna-seq) and several others under [Learn](/src/Learn/index.md#other_tutorials)
+Wikis: [Support](/src/support/index.md#tools_on_the_main_server_rna-seq) and several others under [Learn](/src/learn/index.md#other_tutorials)
 
 ## Known Protocol
 
@@ -196,7 +196,7 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/gvl-rna-seq-dm3-compar
 
 Polish Workflows in the editor by including annotation and variables. Learn how to customize tool panel display and tune parameters within the editor. 
 
-Wikis: [Learn/AdvancedWorkflow](/src/Learn/AdvancedWorkflow/index.md) and [Learn/AdvancedWorkflow/Extract](/src/Learn/AdvancedWorkflow/Extract/index.md) and [Learn/AdvancedWorkflow/BasicEditing](/src/Learn/AdvancedWorkflow/BasicEditing/index.md)
+Wikis: [Learn/AdvancedWorkflow](/src/learn/advanced-workflow/index.md) and [Learn/AdvancedWorkflow/Extract](/src/learn/advanced-workflow/extract/index.md) and [Learn/AdvancedWorkflow/BasicEditing](/src/learn/advanced-workflow/basic-editing/index.md)
 
 ## Protocol
 
@@ -215,7 +215,7 @@ Starting History [https://usegalaxy.org/u/usinggalaxy2/h/workflow0](https://useg
 
 ## Navigating Datasets and Histories
 
-Wikis: [Histories](/src/Histories/index.md) and [Learn/ManagingDatasets](/src/Learn/ManagingDatasets/index.md)
+Wikis: [Histories](/src/histories/index.md) and [Learn/ManagingDatasets](/src/learn/managing-datasets/index.md)
 
 1. History menu *Copy History* (use *RNA-seq Novel*)
   1. click on link to new copy
@@ -394,7 +394,7 @@ Completed History [https://usegalaxy.org/u/usinggalaxy2/h/import](https://usegal
 
 ### Shared
 
-Wiki: [Learn/Share](/src/Learn/Share/index.md)
+Wiki: [Learn/Share](/src/learn/share/index.md)
 
 1. share a Workflow with another user
 1. go to *Workflow*
@@ -429,12 +429,12 @@ BONUS as time allows
 ## Custom Genomes
 
  
-Wikis: [Support](/src/support/index.md#custom_reference_genome) and [Learn/CustomGenomes](/src/Learn/CustomGenomes/index.md)
+Wikis: [Support](/src/support/index.md#custom_reference_genome) and [Learn/CustomGenomes](/src/learn/custom-genomes/index.md)
 
 1. History menu *Saved Histories*
 1. History menu *Copy Dataset* 
   * from ‘’Import’’ check the *H1N1.fasta* dataset into a new History named *Custom*
-1. using methods from the wiki in the [Learn/CustomGenomes](/src/Learn/CustomGenomes/index.md#troubleshooting) section, reformat the dataset
+1. using methods from the wiki in the [Learn/CustomGenomes](/src/learn/custom-genomes/index.md#troubleshooting) section, reformat the dataset
   * fasta datasets should be correctly formatted to specification *before* beginning any analysis
 1. Troubleshooting #3 *Extra spaces*
 1. Troubleshooting #6 *Remove description from identifier line*
@@ -442,15 +442,15 @@ Wikis: [Support](/src/support/index.md#custom_reference_genome) and [Learn/Custo
 1. Homework:
   1. create a workflow that includes all steps and use it whenever a new fasta dataset is loaded for use as a *Custom Genome*
   1. copy the ‘’fastqsanger’’ datasets from the History named ‘’Fastq’’ and map to this genome
-  1. follow the instruction in the wiki [Learn/CustomGenomes](/src/Learn/CustomGenomes/index.md#custom_builds) to promote the *Custom Genome* to a *Custom Build*
+  1. follow the instruction in the wiki [Learn/CustomGenomes](/src/learn/custom-genomes/index.md#custom_builds) to promote the *Custom Genome* to a *Custom Build*
     * assign the new build *database* to all related datasets
-    * *database* assignment is needed to visualize in Trackster using wiki guide [Learn/Visualization](/src/Learn/Visualization/index.md#custom_builds)
+    * *database* assignment is needed to visualize in Trackster using wiki guide [Learn/Visualization](/src/learn/visualization/index.md#custom_builds)
 
 <br /><br />
 
 **Thanks for using Galaxy!**
 <br /><br />
-*The [Galaxy Team](/src/GalaxyTeam/index.md)*
+*The [Galaxy Team](/src/galaxy-team/index.md)*
 
 <br /><br />
 END

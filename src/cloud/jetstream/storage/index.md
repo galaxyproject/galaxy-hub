@@ -22,7 +22,7 @@ use it:
 
 * Through the Atmosphere portal, create a volume of desired size and attach it
   to your instance
-* [Access your instance via ssh](/src/Cloud/Jetstream/ssh/index.md) and create
+* [Access your instance via ssh](/src/cloud/jetstream/ssh/index.md) and create
   a directory for the Galaxy files. The volume you attached to your instance
   will be available under `/vol1` so create a directory under that one. Change
   the ownership of the directory to the `galaxy` system user.

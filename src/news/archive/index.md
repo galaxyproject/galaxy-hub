@@ -6,8 +6,8 @@
 
 See also 
 * [News](/src/news/index.md) - Current News
-* [Galaxy Updates](/src/GalaxyUpdates/index.md)
-* [Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)
-* [Galaxy on Twitter](/src/GalaxyOnTwitter/index.md)
-* [Mailing Lists](/src/MailingLists/index.md)
+* [Galaxy Updates](/src/galaxy-updates/index.md)
+* [Galaxy Development News Briefs](/src/dev-news-briefs/index.md)
+* [Galaxy on Twitter](/src/galaxy-on-twitter/index.md)
+* [Mailing Lists](/src/mailing-lists/index.md)
 

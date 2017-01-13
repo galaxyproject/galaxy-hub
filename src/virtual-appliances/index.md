@@ -8,7 +8,7 @@ title: Virtual Appliances
 
 <div class='right'></div>
 
-One of the [many ways that Galaxy is available](/src/BigPicture/Choices/index.md) is in *virtual appliances* that already have Galaxy installed and configured on them - these may take the form of *cloud images*, more traditional *virtual machine images*, or *docker containers*.  Running a pre-configured Galaxy virtual appliance saves on installation and configuration work, and enables you to get up and running with Galaxy very quickly.
+One of the [many ways that Galaxy is available](/src/big-picture/choices/index.md) is in *virtual appliances* that already have Galaxy installed and configured on them - these may take the form of *cloud images*, more traditional *virtual machine images*, or *docker containers*.  Running a pre-configured Galaxy virtual appliance saves on installation and configuration work, and enables you to get up and running with Galaxy very quickly.
 
 These virtual appliances are frequently used for training, or as tool demonstration and data publishing platforms.  However, they not limited to teaching, tool demonstration, and data publishing.  Production scale/quality Galaxy servers are also deployed using them.
 
@@ -16,19 +16,19 @@ These virtual appliances are frequently used for training, or as tool demonstrat
 
 ## Cloud Images
 
-*Cloud images* are virtual appliances that run on [cloud infrastructures](/src/Cloud/index.md).  
+*Cloud images* are virtual appliances that run on [cloud infrastructures](/src/cloud/index.md).  
 
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo400.png" alt="Amazon Web Services" width="200" /></a></div>
+<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo400.png" alt="Amazon Web Services" width="200" /></a></div>
 
-[Amazon Web Services](http://aws.amozon.com)-based [Galaxy CloudMan instances](/src/CloudMan/index.md) use an *Amazon Machine Image (AMI)* (a type of VM specific to AWS) when creating Galaxy servers. Some appliances are available via AMIs.  Using Galaxy via AMIs will leverage Amazon's hardware resources and can potentially scale quite well. 
+[Amazon Web Services](http://aws.amozon.com)-based [Galaxy CloudMan instances](/src/cloudman/index.md) use an *Amazon Machine Image (AMI)* (a type of VM specific to AWS) when creating Galaxy servers. Some appliances are available via AMIs.  Using Galaxy via AMIs will leverage Amazon's hardware resources and can potentially scale quite well. 
 
-<div class='left'><a href='https://www.virtualbox.org/wiki/Downloads'><img src="/src/images/Logos/VirtualBox180.png" alt="Virtual Machine Images" width="100" /></a></div>
+<div class='left'><a href='https://www.virtualbox.org/wiki/Downloads'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="100" /></a></div>
 
 ## Virtual Machine Images 
 
 Some virtual appliances are packaged for [VirtualBox](http://virtualbox.org) - a free virtualization platform available for many operating systems including Windows and Mac OS X. Some may also be used within the [VMware](http://vmware.com/) ecosystem - which has a variety of free and commercial virtualizaiton products.
 
-<div class='right'><br /><br /><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/src/images/Logos/DockerInGalaxyAnnotated.png" alt="Docker" width=180 /></a></div>
+<div class='right'><br /><br /><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/src/images/logos/DockerInGalaxyAnnotated.png" alt="Docker" width=180 /></a></div>
 
 ## Docker Containers 
 
@@ -62,7 +62,7 @@ If the wiki option seems a little daunting, **you can also describe this resourc
 
 To add a virtual appliance to this directory, create a wiki page describing the appliance:
 
-1. [Login](/src/VirtualAppliances/index.md) to the wiki. If you don't have an account, you'll need to [create one](/src/Community/Deployments/index.md).
+1. [Login](/src/virtual-appliances/index.md) to the wiki. If you don't have an account, you'll need to [create one](/src/community/deployments/index.md).
 1. Pick a good descriptive, CamelCase name for the appliance.  This will become part of the URL for the page describing the appliance.  *Avoid embedded spaces as they make lousy URLs.*
 1. Type the CamelCase name in box below and hit the "Create" button.
     . PLACEHOLDER_NEW_PAGE(VirtualAppliances/VATemplate, "Create a virtual appliance description page", VA)

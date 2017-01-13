@@ -26,7 +26,7 @@ Blankenberg D, Taylor J, Nekrutenko A, The Galaxy Team. "[Making whole genome mu
 
 Afgan, E., Baker, D., Team, t. G., Nekrutenko, A. and Taylor, J. (2011). "[A reference model for deploying applications in virtualized environments](http://onlinelibrary.wiley.com/doi/10.1002/cpe.1836/abstract)." *Concurrency and Computation: Practice and Experience*. doi: 10.1002/cpe.1836
 
-<div class='right'>![](/src/images/Screenshots/GalaxyProjectOrg.png)</div>
+<div class='right'>![](/src/images/screenshots/GalaxyProjectOrg.png)</div>
 ### GalaxyProject.org
 
 After a period of quiescence, the [GalaxyProject.org](http://galaxyproject.org) web site has been updated to more accurately reflect what is going on in Galaxy.  This is a great starting point for information about [Galaxy](http://galaxyproject.org).
@@ -40,17 +40,17 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 #### Revised and New Content
 
 * *Learn*: A hub page for resources on learning how to use Galaxy.
-  * [Learn](/src/Learn/index.md)
+  * [Learn](/src/learn/index.md)
 * *News Page and RSS Feed*: News items of interest to the Galaxy community
   * [News](/src/news/index.md)
 * *Events*: Comprehensive listing of upcoming (and past) Galaxy Events
   * [Events](/src/events/index.md)
 * *Get Involved and Outreach*: How to get involved with Galaxy and how to spread the word.
-  * [GetInvolved](/src/GetInvolved/index.md)
-  * [Outreach](/src/Outreach/index.md)
+  * [GetInvolved](/src/get-involved/index.md)
+  * [Outreach](/src/outreach/index.md)
 * *Public Galaxy Servers*: A list of publicly available Galaxy servers.
     If you have one, please add it to the list.
-      [PublicGalaxyServers](/src/PublicGalaxyServers/index.md)
+      [PublicGalaxyServers](/src/public-galaxy-servers/index.md)
 
 ### Tool Shed
 
@@ -81,7 +81,7 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 * *AWS Genomics Event*
   * [http://aws.amazon.com/genomicsevent](http://aws.amazon.com/genomicsevent)
   * September 22, Seattle, Washington, United States
-  * *Developing distributed analysis pipelines with shared community resources using [CloudBioLinux](http://www.cloudbiolinux.org) and [CloudMan](/src/CloudMan/index.md),* Brad Chapman 
+  * *Developing distributed analysis pipelines with shared community resources using [CloudBioLinux](http://www.cloudbiolinux.org) and [CloudMan](/src/cloudman/index.md),* Brad Chapman 
 
 ## Updated & Improved
 
@@ -110,13 +110,13 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 * New features
 
 *Bookmarking*: image shows a bookmark being set for a genomic region.
-  ![](/src/DevNewsBriefs/2011_08_30/2011_08_30_bookmarking.png)
+  ![](/src/dev-news-briefs/2011_08_30/2011_08_30_bookmarking.png)
 
 *Overview tracks*: image shows, at the bottom: (a) an overview for the EST track and (b) the region currently being viewed. 
-  ![](/src/DevNewsBriefs/2011_08_30/2011_08_30_overview.png)
+  ![](/src/dev-news-briefs/2011_08_30/2011_08_30_overview.png)
 
 *Features' transparency based on attribute values*: image shows transparency based on score, making it easy to identify a gene's dominant isoform.
-  ![](/src/DevNewsBriefs/2011_08_30/2011_08_30_transparency-based-on-attributes.png)
+  ![](/src/dev-news-briefs/2011_08_30/2011_08_30_transparency-based-on-attributes.png)
 
 * Enhancements
   * Enable filter chaining when running on complete dataset
@@ -169,7 +169,7 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 * While no *hard* quotas are currently implemented at the public Galaxy [Main](http://usegalaxy.org) instance, we do ask that users stay within certain usage limits:
     [Main Quotas](http://galaxyproject.org/wiki/Main#Quotas)
 * If you find that you require additional resources, please consider the alternative Galaxy options explained at:
-    [BigPicture/Choices](/src/BigPicture/Choices/index.md)
+    [BigPicture/Choices](/src/big-picture/choices/index.md)
 
 ### Bug Fixes
 

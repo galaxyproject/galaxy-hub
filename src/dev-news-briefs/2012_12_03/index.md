@@ -32,9 +32,9 @@ title: December 03, 2012 Galaxy Development News Brief
 
 The alignment tools **'Bowtie**' and **'Lastz**' from the tool group **NGS: Mapping** have moved from the **[Galaxy distribution](https://bitbucket.org/galaxy/galaxy-dist)** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)**.
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/Logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 
-Migration scripts for both **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz/)** will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing replacement tool wrappers from the Tool Shed. Primary executables for **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz)** plus target reference genomes should still be installed as described in the Galaxy wiki - start in the **[Tool Dependencies](/src/Admin/Tools/ToolDependencies/index.md)** section.
+Migration scripts for both **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz/)** will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing replacement tool wrappers from the Tool Shed. Primary executables for **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz)** plus target reference genomes should still be installed as described in the Galaxy wiki - start in the **[Tool Dependencies](/src/admin/tools/ToolDependencies/index.md)** section.
 
 **Bowtie** is an ultrafast, memory-efficient short read aligner. It aligns short DNA sequences (reads) to the human genome at a rate of over 25 million 35-bp reads per hour. Bowtie indexes the genome with a Burrows-Wheeler index to keep its memory footprint small: typically about 2.2 GB for the human genome (2.9 GB for paired-end).
 
@@ -49,12 +49,12 @@ Harris, R.S. (2007) *[Improved pairwise alignment of genomic DNA](http://www.bx.
 
 **[CloudMan](http://usegalaxy.org/cloud)**
 
-[CloudMan](/src/CloudMan/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
+[CloudMan](/src/cloudman/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
 This update brings a large number of updates and new features, the most prominent ones being:
 * Support for Eucalyptus cloud middleware; thanks to Alex Richter. Also, CloudMan can now run on the HPcloud in basic mode (note that there is no public image available on the HPcloud at the moment and one would thus need to be built by you).
 * Added a new file system management interface on the CloudMan Admin page, allowing control and providing insight into each available file system
-* Added quite a few new user data options. See the [UserData page](/src/CloudMan/UserData/index.md) for details; thanks to [John Chilton](http://bitbucket.org/jmchilton).
+* Added quite a few new user data options. See the [UserData page](/src/cloudman/userdata/index.md) for details; thanks to [John Chilton](http://bitbucket.org/jmchilton).
 * Galaxy can now be run in multi-process mode; thanks to [John Chilton](http://bitbucket.org/jmchilton).
 * Added Galaxy Reports app as a CloudMan service; thanks to [John Chilton](http://bitbucket.org/jmchilton).
 * Introduced a new format for cluster configuration persistence, allowing more flexibility in how services are maintained
@@ -69,7 +69,7 @@ This update comes as a result of 175 code changesets; for a complete list of cha
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/ToolShed/index.md)**
+**[Tool Shed](/src/tool-shed/index.md)**
 
 ### Improvements in the display of repository dependencies and contents in the tool shed
 
@@ -79,11 +79,11 @@ The various types of contents of a tool shed repository ( valid tools, invalid t
 
 Notice the "Repository dependencies" container?  This is currently in development, and will be available in the tool shed shortly.  This container displays the list of all repositories int he tool shed upon which this repository depends.
 
-![](/src/images/NewsGraphics/2012_12_03_emboss-sample.png)
+![](/src/images/news-graphics/2012_12_03_emboss-sample.png)
 
 Opening each of the above containers (by clicking on the links) displays the contents of each.
 
-![](/src/images/NewsGraphics/2012_12_03_emboss-sample-open.png)
+![](/src/images/news-graphics/2012_12_03_emboss-sample-open.png)
 
 </div>
 
@@ -139,7 +139,7 @@ Backups will be made of the `hgweb.config file` (in the same directory in which 
   * Show/Hide Hidden Datasets - a single-click toggle to show or hide all hidden datasets
   * Unhide Hidden Datasets - a single-click to change state of hidden datasets to that of regular datasets
 
-![](/src/images/NewsGraphics/2012_12_03_new-history-menu.png)
+![](/src/images/news-graphics/2012_12_03_new-history-menu.png)
 
 <br />
 # Job Runner
@@ -160,7 +160,7 @@ Backups will be made of the `hgweb.config file` (in the same directory in which 
 4. Fix for `ToolDataTable` new entries that should have been persisted to the `shed_tool_data_table_conf.xml` file were not being handled correctly.
 5. Attempt to make sure `.sample` files included in an installed tool shed repository are copied to the `~/tool-data` directory only if they are sample data index files.
 6. Add error messages for a `DataToolParameter` when the provided value is no longer valid due to be deleted or being in an error state.
-7. Rework "Re-run" ![](/src/images/Icons/arrow-circle.png) functionality to validate and display errors between the original job and currently set states (e.g. the previously used dataset has been deleted).
+7. Rework "Re-run" ![](/src/images/icons/arrow-circle.png) functionality to validate and display errors between the original job and currently set states (e.g. the previously used dataset has been deleted).
 8. To help with reproducibility, when extracting a workflow from a history, provide a warning message if the tool version for a job does not match the tool version of the currently loaded tool.
 
 <br />
@@ -183,11 +183,11 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 
 [News](/src/news/index.md), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012_12)***
 
-<div class='right'><a href='/src/events/GCC2013/TrainingDay/index.md'><img src="/src/images/Logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
+<div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
 
-* [Training Day Topic Nominations](/src/events/GCC2013/TrainingDay/index.md) for [GCC2013](/src/events/GCC2013/index.md) will open in December.  Start thinking of ideas now!
-* Slides and Screencast from [November GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/2012_11_14/index.md) are online.  The next [GalaxyAdmins Meetup](/src/Community/GalaxyAdmins/Meetups/index.md) will be on [January 16](/src/Community/GalaxyAdmins/Meetups/2013_01_16/index.md) and feature [John Chilton](/src/JohnChilton/index.md) discussing "Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan"
-* [A short "Getting started with JGalaxy" document (with screenshots)](http://bit.ly/SkW2yU), by [John Chilton](/src/JohnChilton/index.md)
+* [Training Day Topic Nominations](/src/events/gcc2013/training-day/index.md) for [GCC2013](/src/events/gcc2013/index.md) will open in December.  Start thinking of ideas now!
+* Slides and Screencast from [November GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2012_11_14/index.md) are online.  The next [GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/index.md) will be on [January 16](/src/community/galaxy-admins/meetups/2013_01_16/index.md) and feature [John Chilton](/src/john-chilton/index.md) discussing "Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan"
+* [A short "Getting started with JGalaxy" document (with screenshots)](http://bit.ly/SkW2yU), by [John Chilton](/src/john-chilton/index.md)
 * [Batch Workflow starting using the Galaxy API : Practical Example by Geert Vandeweyer](http://bit.ly/TjTj6X)
 
 <br />

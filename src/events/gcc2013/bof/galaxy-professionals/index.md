@@ -8,9 +8,9 @@ title: Galaxy Professionals
 {{> Events/GCC2013/LinkBox }}
 {{> Events/GCC2013/BoF/LinkBox }}
 
-<div class='left'><a href='/src/events/GCC2013/BoF/index.md'><img src="/src/images/Logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
+<div class='left'><a href='/src/events/gcc2013/bof/index.md'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 
-This page describes the **Galaxy Professionals** [Birds of a Feather](/src/events/GCC2013/BoF/index.md) meetup proposed for [GCC2013](/src/events/GCC2013/index.md). 
+This page describes the **Galaxy Professionals** [Birds of a Feather](/src/events/gcc2013/bof/index.md) meetup proposed for [GCC2013](/src/events/gcc2013/index.md). 
 
 ## Outcomes
 
@@ -44,7 +44,7 @@ The goal of this BoF is deliberately vague, since it's not clear whether there w
 
 ## When and Where
 
-The [time and location](/src/events/GCC2013/BoF/index.md#bof-schedule) for this BoF has not been set yet.  Watch this space. If there is little enthusiasm, this BoF will quietly fade away.
+The [time and location](/src/events/gcc2013/bof/index.md#bof-schedule) for this BoF has not been set yet.  Watch this space. If there is little enthusiasm, this BoF will quietly fade away.
 
 ## Who is Participating
 
@@ -53,7 +53,7 @@ If you are interested, please add your name below and/or send an email to [Ross 
 * [Ross Lazarus](/src/fubar/index.md)
 * Mo Heydarian
 * Srinivas Maddhi
-* [Daniel Blankenberg](/src/Dan/index.md)
+* [Daniel Blankenberg](/src/dan/index.md)
 * Your name here..
 
 ## Questions?

@@ -1,5 +1,5 @@
 <div class='red'>
-This page is not meant to be viewed on its own. Rather, it contains sections that are displayed on the [GCC2016 Training](/src/events/GCC2016/Training/Includes//index.md) page
+This page is not meant to be viewed on its own. Rather, it contains sections that are displayed on the [GCC2016 Training](/src/events/gcc2016/training/includes//index.md) page
 </div>
 ----
 
@@ -88,7 +88,7 @@ The workshop will include the following specific content:
 * An overview of important JavaScript concepts used by Galaxy - in particular RequireJS, Backbone MVC, and grunt.
 * An overview of the client build system used to generate compressed JavaScript, cascading stylesheets, and other static web assets.
 * A demonstration of a complete start-to-finish modification of Galaxy - including forking the project on Github, modifying files, running the tests, checking style guidelines, committing the change, pushing it back to your local Github fork, and opening a pull request.
-* A brief description of other projects in the Galaxy ecosystem ([CloudMan](/src/CloudMan/index.md), the Tool Shed, bioblend, docker-galaxy-stable, Pulsar, and Planemo).
+* A brief description of other projects in the Galaxy ecosystem ([CloudMan](/src/cloudman/index.md), the Tool Shed, bioblend, docker-galaxy-stable, Pulsar, and Planemo).
 
 END_INCLUDE
 
@@ -154,7 +154,7 @@ END_INCLUDE
 
 # BASIC TOOL DEV
 
-* Basic understanding of Galaxy from a tool developer point of view or attendance at the [Writing and Publishing Galaxy Tools](/src/events/GCC2016/Training/index.md#writing-and-publishing-galaxy-tools) workshop. 
+* Basic understanding of Galaxy from a tool developer point of view or attendance at the [Writing and Publishing Galaxy Tools](/src/events/gcc2016/training/index.md#writing-and-publishing-galaxy-tools) workshop. 
 
 END_INCLUDE
 
@@ -190,7 +190,7 @@ END_INCLUDE
 
 # CHIP QC
 
-* Ideally participants will already be familiar with [general NGS quality control](/src/events/GCC2016/Training/index.md#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy) and read mapping, since those won't be covered.
+* Ideally participants will already be familiar with [general NGS quality control](/src/events/gcc2016/training/index.md#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy) and read mapping, since those won't be covered.
 
 END_INCLUDE
 
@@ -202,13 +202,13 @@ END_INCLUDE
 
 # BASIC TOOLS
 
-* Basic Knowledge of Galaxy Tools, or attendance at the [Writing and Publishing Galaxy Tools](/src/events/GCC2016/Training/index.md#writing-and-publishing-galaxy-tools) session.
+* Basic Knowledge of Galaxy Tools, or attendance at the [Writing and Publishing Galaxy Tools](/src/events/gcc2016/training/index.md#writing-and-publishing-galaxy-tools) session.
 
 END_INCLUDE
 
 # GALAXY IE
 
-* Basic understanding of Galaxy IE, or attendance at the [Introduction to Galaxy Interactive Environments](/src/events/GCC2016/Training/index.md#introduction-to-galaxy-interactive-environments) session.
+* Basic understanding of Galaxy IE, or attendance at the [Introduction to Galaxy Interactive Environments](/src/events/gcc2016/training/index.md#introduction-to-galaxy-interactive-environments) session.
 
 END_INCLUDE
 

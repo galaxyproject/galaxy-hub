@@ -1,16 +1,16 @@
-<div class='newsItemHeader'>[2500 Galaxy Papers & Counting](/src/news/First2500Papers/index.md)</div>
+<div class='newsItemHeader'>[2500 Galaxy Papers & Counting](/src/news/first2500-papers/index.md)</div>
 
-<div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/src/images/Logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
+<div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/src/images/logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
 
-The [Galaxy CiteULike library](http://bit.ly/gxyCiteULike) recently reached a milestone:  It now has over 2500 publications in it.  The [Galaxy CiteULike Group](http://bit.ly/gxyCiteULike) was [launched in December 2011](/src/news/NewGalaxyGroupCiteULike/index.md) and [reached 1000 papers 18 months later](/src/news/GalaxyCiteULikePaper1000/index.md). 
+The [Galaxy CiteULike library](http://bit.ly/gxyCiteULike) recently reached a milestone:  It now has over 2500 publications in it.  The [Galaxy CiteULike Group](http://bit.ly/gxyCiteULike) was [launched in December 2011](/src/news/new-galaxy-group-cite-u-like/index.md) and [reached 1000 papers 18 months later](/src/news/galaxy-cite-u-like-paper1000/index.md). 
 
-To be included in the library a publication needs to reference or mention Galaxy, extend Galaxy, use or reference a Galaxy instance, or otherwise discuss Galaxy or [cite one of the Galaxy Project papers](/src/CitingGalaxy/index.md).
+To be included in the library a publication needs to reference or mention Galaxy, extend Galaxy, use or reference a Galaxy instance, or otherwise discuss Galaxy or [cite one of the Galaxy Project papers](/src/citing-galaxy/index.md).
 
 Here's a review of those first 2500 papers.
 
-<span style="font-size: larger;">**[The Tags](/src/CiteULike/index.md#citeulike-tags)**</span>
+<span style="font-size: larger;">**[The Tags](/src/cite-u-like/index.md#citeulike-tags)**</span>
 
-Each paper is reviewed and one or more tags are added to it.  The initial set featured 9 tags.  This wasn't quite enough, and 8 more were added in 2013, bringing the [total to 17](/src/CiteULike/index.md#citeulike-tags).  (Papers from 2012 were back-curated with the new tags, but not before that.)  The numbers for each tag in each year for the first 2500 papers are below.
+Each paper is reviewed and one or more tags are added to it.  The initial set featured 9 tags.  This wasn't quite enough, and 8 more were added in 2013, bringing the [total to 17](/src/cite-u-like/index.md#citeulike-tags).  (Papers from 2012 were back-curated with the new tags, but not before that.)  The numbers for each tag in each year for the first 2500 papers are below.
 
 <table>
   <tr>
@@ -291,7 +291,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
 A couple of trends stand out in the tag data:
 
 * *[methods](http://www.citeulike.org/group/16008/tag/methods)* and *[workbench](http://www.citeulike.org/group/16008/tag/workbench)* have always been the most popular.  *methods* papers use Galaxy in their analysis.  *workbench* either just mention Galaxy or discuss the platform itself.
-* The numbers of *[usepublic](http://www.citeulike.org/group/16008/tag/usepublic)* and *[refpublic](http://www.citeulike.org/group/16008/tag/refpublic)* publications are climbing rapidly.  Respectively, these are *[methods](http://www.citeulike.org/group/16008/tag/methods)* studies that did their analyses on a [public Galaxy server](/src/PublicGalaxyServers/index.md) other than [usegalaxy.org](http://usegalaxy.org), and papers that reference those servers in some way (besides their methodology).  Part of this increase reflects better tracking of these papers, but (I believe) most of the increase reflects both the increased number of public servers (as reflected by the *[isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy)* numbers), and their increased visibility.
+* The numbers of *[usepublic](http://www.citeulike.org/group/16008/tag/usepublic)* and *[refpublic](http://www.citeulike.org/group/16008/tag/refpublic)* publications are climbing rapidly.  Respectively, these are *[methods](http://www.citeulike.org/group/16008/tag/methods)* studies that did their analyses on a [public Galaxy server](/src/public-galaxy-servers/index.md) other than [usegalaxy.org](http://usegalaxy.org), and papers that reference those servers in some way (besides their methodology).  Part of this increase reflects better tracking of these papers, but (I believe) most of the increase reflects both the increased number of public servers (as reflected by the *[isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy)* numbers), and their increased visibility.
 * *[reproducibility](http://www.citeulike.org/group/16008/tag/reproducibility)* became a hot topic (finally) in 2014.  
 
 <br />
@@ -373,12 +373,12 @@ Finally, the total number of papers per year continues to increase, and we expec
 
 <br />
 
-We will continue to report new papers in the [monthly Galaxy newsletters](/src/GalaxyUpdates/index.md).  New [tags](/src/CiteULike/index.md#citeulike-tags) may also show up as the project and community evolve.
+We will continue to report new papers in the [monthly Galaxy newsletters](/src/galaxy-updates/index.md).  New [tags](/src/cite-u-like/index.md#citeulike-tags) may also show up as the project and community evolve.
 
 In the meantime, I expect the next 2500 papers will be published in considerably less than time than the first 2500.  I'm looking forward to all that research
 
-[Dave Clements](/src/DaveClements/index.md)
+[Dave Clements](/src/dave-clements/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-08-12</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

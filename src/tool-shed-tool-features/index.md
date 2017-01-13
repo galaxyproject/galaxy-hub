@@ -1,4 +1,4 @@
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/Logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a> </div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a> </div>
 
 # Developing Galaxy tools for the Tool Shed
 
@@ -8,10 +8,10 @@ The primary intent of the Tool Shed is for sharing functionally correct Galaxy t
 
 With a couple of exceptions, support for tool features are restricted to the Galaxy framework.  The following links refer to pages that describe those exceptions.
 
-[Building Tools with Dependencies in the Same Repository](/src/ToolsWithDependenciesInSameRepository/index.md)
+[Building Tools with Dependencies in the Same Repository](/src/tools-with-dependencies-in-same-repository/index.md)
 
-[Building Tools with Dependencies in Separate Repositories](/src/ToolsWithDependenciesInSeparateRepositories/index.md)
+[Building Tools with Dependencies in Separate Repositories](/src/tools-with-dependencies-in-separate-repositories/index.md)
 
-[Galaxy Tool Configuration File Help Settings that will Display an Image File Contained in the Repository](/src/DefiningImagesInToolConfigs/index.md)
+[Galaxy Tool Configuration File Help Settings that will Display an Image File Contained in the Repository](/src/defining-images-in-tool-configs/index.md)
 
-[Recipes for Installing and Compiling Packages Required by Galaxy Tools](/src/ToolDependencyRecipes/index.md)
+[Recipes for Installing and Compiling Packages Required by Galaxy Tools](/src/tool-dependency-recipes/index.md)

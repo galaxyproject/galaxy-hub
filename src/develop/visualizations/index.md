@@ -28,7 +28,7 @@ To simplify:
 
 ## The plugin
 
-For the plugin good place to start: https://wiki.galaxyproject.org[/VisualizationsRegistry](/src/Develop/Visualizations/VisualizationsRegistry/index.md)
+For the plugin good place to start: https://wiki.galaxyproject.org[/VisualizationsRegistry](/src/develop/visualizations/VisualizationsRegistry/index.md)
 
 ### The filesystem layout
 
@@ -37,8 +37,8 @@ Here's a simplified process for creating an outline for a visualization plugin p
 2. think of an id for your plugin. This can be any (filesystem permissible) file name and is only used as an id by the registry - the users never see it. It should be unique from any other plugins in that directory. (e.g. myplugin)
 3. create a main directory using your id. (e.g. <your galaxy>/config/plugins/visualizations/myplugin)
 4. inside that directory, create three more directories: config, templates, static. This is where the plugin configuration, the mako templates, and any (optional) javascript or static files are kept respectively.
-5. the configuration file should use the same id you used above for the directory: e.g. config/myplugin.xml. Most people copy and rename a simple config file like the one in config/plugins/visualizations/scatterplot/config/scatterplot.xml. We'll change the datatype it applies to later, but there's more at: https://wiki.galaxyproject.org[/VisualizationsRegistry](/src/Develop/Visualizations/VisualizationsRegistry/index.md)#The_visualization_configuration_file and https://wiki.galaxyproject.org[/VisualizationsRegistry](/src/Develop/Visualizations/VisualizationsRegistry/index.md)/Configuration 
-6. a mako template file should go into the templates directory: e.g. templates/myplugin.mako. This template file is the entry point for your visualization and is loaded first. You don't have to do any major coding here and can instead just launch javascript to render the visualization. https://wiki.galaxyproject.org[/VisualizationsRegistry](/src/Develop/Visualizations/VisualizationsRegistry/index.md)#Creating_the_code_and_markup_for_your_visualization
+5. the configuration file should use the same id you used above for the directory: e.g. config/myplugin.xml. Most people copy and rename a simple config file like the one in config/plugins/visualizations/scatterplot/config/scatterplot.xml. We'll change the datatype it applies to later, but there's more at: https://wiki.galaxyproject.org[/VisualizationsRegistry](/src/develop/visualizations/VisualizationsRegistry/index.md)#The_visualization_configuration_file and https://wiki.galaxyproject.org[/VisualizationsRegistry](/src/develop/visualizations/VisualizationsRegistry/index.md)/Configuration 
+6. a mako template file should go into the templates directory: e.g. templates/myplugin.mako. This template file is the entry point for your visualization and is loaded first. You don't have to do any major coding here and can instead just launch javascript to render the visualization. https://wiki.galaxyproject.org[/VisualizationsRegistry](/src/develop/visualizations/VisualizationsRegistry/index.md)#Creating_the_code_and_markup_for_your_visualization
 
 At this point, your config/plugins/visualizations/myplugin directory should look like one of the two trees displayed here:
 https://wiki.galaxyproject.org/VisualizationsRegistry#Configuring_your_visualization_plugin_in_the_.60visualization_plugins_directory.60

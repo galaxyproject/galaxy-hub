@@ -1,10 +1,10 @@
-<div class='right'><a href='/src/JenniferJackson/index.md'><img src="/src/JenniferJackson/jenhjackson.png" alt="Jen Jackson" width="200",height="150" /></a><br />
-[Jennifer Hillman Jackson](/src/JenniferJackson/index.md)<br />
+<div class='right'><a href='/src/jennifer-jackson/index.md'><img src="/src/jennifer-jackson/jenhjackson.png" alt="Jen Jackson" width="200",height="150" /></a><br />
+[Jennifer Hillman Jackson](/src/jennifer-jackson/index.md)<br />
 [Penn State](http://www.bx.psu.edu)</div>
 
 # Jennifer Hillman-Jackson
 
-[Galaxy Team](/src/GalaxyTeam/index.md), Application Science
+[Galaxy Team](/src/galaxy-team/index.md), Application Science
 <br />
 
 [Nekrutenko Lab](http://nekrut.bx.psu.edu/), Penn State University, PA, US

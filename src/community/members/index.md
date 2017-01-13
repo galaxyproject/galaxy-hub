@@ -1,11 +1,11 @@
-A list of organizations using and contributing to Galaxy. Please [add your organization](/src/Community/Members/index.md#add-your-organization).
+A list of organizations using and contributing to Galaxy. Please [add your organization](/src/community/members/index.md#add-your-organization).
 
 ## Member Links
 
-* [Cistrome](/src/Community/Cistrome/index.md)
-* [Emory University](/src/Community/Emory University/index.md)
-* [NBIC](/src/Community/NBIC/index.md)
-* [Penn State University](/src/Community/Penn State/index.md)
+* [Cistrome](/src/community/cistrome/index.md)
+* [Emory University](/src/community/Emory University/index.md)
+* [NBIC](/src/community/nbic/index.md)
+* [Penn State University](/src/community/Penn State/index.md)
 
 ## Add Your Organization
 

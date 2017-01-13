@@ -2,7 +2,7 @@
 title: GVL RNA-seq Differential Gene Expression Advanced Tutorial
 ---
 <div class='center'>
-<a href='https://docs.google.com/document/d/1fQ1XfeOKhezJUDTzMXtZVY20c3RGoHe-HLvFOGzqU4s/pub'><img src="/src/PublicGalaxyServers/GenomicsVirtualLab300.png" alt="RNAseq Differential Gene Expression Advanced tutorial" height="200" /></a>
+<a href='https://docs.google.com/document/d/1fQ1XfeOKhezJUDTzMXtZVY20c3RGoHe-HLvFOGzqU4s/pub'><img src="/src/public-galaxy-servers/GenomicsVirtualLab300.png" alt="RNAseq Differential Gene Expression Advanced tutorial" height="200" /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: GVL RNA-seq Differential Gene Expression Advanced Tutorial
 
 
 <div class='deploymentbox'>
- Resource:: **[GVL RNA-seq Differential Gene Expression Advanced Tutorial](/src/Teach/Resource/GVL-RNASeq-AdvancedTutorial/index.md)**
+ Resource:: **[GVL RNA-seq Differential Gene Expression Advanced Tutorial](/src/teach/resource/gvl-rna-seq-advanced-tutorial/index.md)**
  Types:: Tutorial
  Domains:: **RNA-Seq** 
  Owners:: [Genomics Virtual Lab](https://genome.edu.au/wiki/About) by [University of Queensland, ](http://www.uq.edu.au) [Victorian Life Sciences Computation Initiative, ](http://www.vlsci.org.au/) [Queensland Facility for Advanced Bioinformatics, ](http://www.qfab.org//) and [Garvan Institute](http://www.garvan.org.au/)
@@ -18,7 +18,7 @@ title: GVL RNA-seq Differential Gene Expression Advanced Tutorial
  Date:: 2013/06 
 </div>
 
-This tutorial runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/PublicGalaxyServers/index.md) specifically for learning bioinformatics analysis.
+This tutorial runs on the [GVL Galaxy Tutorial Server](http://galaxy-tut.genome.edu.au/), a [public Galaxy server](/src/public-galaxy-servers/index.md) specifically for learning bioinformatics analysis.
 
 In this tutorial we compare the performance of three statistically-based differential expression tools:
 * [CuffDiff](/src/CuffDiff/index.md)
@@ -45,4 +45,4 @@ Needed datasets exist in Shared Libraries on the server, and are also available 
 * [Genomics Virtual Lab](https://genome.edu.au/wiki/GVL)
 * The [GVL Tutorials and Protocols page](https://genome.edu.au/wiki/Learn)
 
-[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)
+[CategoryTrainingResource](/src/category-training-resource/index.md)

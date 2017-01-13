@@ -7,11 +7,11 @@ title: GCC2013 Training Day Virtual Machines
 
 {{> Events/GCC2013/LinkBox }}
 
-<div class='left'><a href='/src/events/GCC2013/TrainingDay/VMs//index.md'><img src="/src/images/Logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
+<div class='left'><a href='/src/events/gcc2013/training-day/vms//index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
-(*Already know about virtual machines?  Then skip the intro and go straight to [What do I ABSOLUTELY need to do before I arrive?](/src/events/GCC2013/TrainingDay/VMs/index.md#what-do-i-absolutely-need-to-do-before-i-arrive)*)
+(*Already know about virtual machines?  Then skip the intro and go straight to [What do I ABSOLUTELY need to do before I arrive?](/src/events/gcc2013/training-day/vms/index.md#what-do-i-absolutely-need-to-do-before-i-arrive)*)
 
-Many of the [ Galaxy Deployment and Development Workshops](/src/events/GCC2013/TrainingDay/VMs//index.md#galaxy-deployment-and-development-workshops) use *virtual machine images* created specifically for Training Day.
+Many of the [ Galaxy Deployment and Development Workshops](/src/events/gcc2013/training-day/vms//index.md#galaxy-deployment-and-development-workshops) use *virtual machine images* created specifically for Training Day.
 
 A virtual machine, or VM, enables you to run a another operating system on your computer, from within your existing operating system. For these workshops we will use VM images that are fully configured Linux instance on participants' laptops. This will allow you to switch between your native/host operating system (Windows, Mac OS, Linux) and the guest Galaxy Linux operating system, without having to shut either down.
 
@@ -29,11 +29,11 @@ You will need to do two things before Training Day starts. These steps take some
 
 So, **please do these steps before you arrive.**
 
-<div class='right'><a href='https://www.virtualbox.org/wiki/Downloads'><img src="/src/images/Logos/VirtualBox180.png" alt="Virtual Machine Images" width="120" /></a></div>
+<div class='right'><a href='https://www.virtualbox.org/wiki/Downloads'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="120" /></a></div>
 
 ## 1. Install VirtualBox on your laptop
 
-**[George Magklaras](http://folk.uio.no/georgios) has created two videos on how to install VirtualBox on Linux and Windows.**  These videos also describe how to start a VM as well (using the [Installing and Maintaining a Local Galaxy Server](/src/events/GCC2013/TrainingDay/VMs//index.md) image, but the principle is the same for the other image as well).
+**[George Magklaras](http://folk.uio.no/georgios) has created two videos on how to install VirtualBox on Linux and Windows.**  These videos also describe how to start a VM as well (using the [Installing and Maintaining a Local Galaxy Server](/src/events/gcc2013/training-day/vms//index.md) image, but the principle is the same for the other image as well).
 
 * [Install VirtualBox on Linux](http://youtu.be/jnarp-j12lw)
 * [Install VirtualBox on Windows](http://youtu.be/7jOnscRjaFs)
@@ -47,11 +47,11 @@ There are two VMs to pick from.
 
 | Topic |  Download  |  Description  | 
 | ----- | --------- | ------------ | 
-| [Installing and Maintaining a Local Galaxy Server](/src/events/GCC2013/TrainingDay/VMs//index.md) |  [Norway](ftp://ftp.no.embnet.org/galaxy/images/BasicWorkshop.ova), [US](http://depot.galaxyproject.org/BasicWorkshop.ova) ([Checksum](ftp://ftp.no.embnet.org/galaxy/images/BasicWorkshop-sha256sum.txt))  |  Has the Galaxy source code distribution, and Galaxy prerequisites, but Galaxy is not installed or running.  | 
-| [Introduction to Tool and Data Source Configuration](/src/events/GCC2013/TrainingDay/VMs//index.md#introduction-to-tool-and-data-source-configuration) |  [Norway](ftp://ftp.no.embnet.org/galaxy/images/GCC2013-AdvWorkshops.ova), [US](http://depot.galaxyproject.org/GCC2013-AdvWorkshops.ova) ([Checksum](ftp://ftp.no.embnet.org/galaxy/images/GCC2013-AdvWorkshops-sha256sum.txt))  |  Has Galaxy source code distribution and Galaxy prerequisites, and running Galaxy and Galaxy Tool Shed instances.  | 
-| [Advanced Tool and Data Source Configuration](/src/events/GCC2013/TrainingDay/VMs//index.md#advanced-tool-and-data-source-configuration) | 
-| [Galaxy Tool Shed](/src/events/GCC2013/TrainingDay/VMs//index.md#galaxy-tool-shed) | 
-| [The Galaxy API](/src/events/GCC2013/TrainingDay/VMs//index.md#the-galaxy-api) | 
+| [Installing and Maintaining a Local Galaxy Server](/src/events/gcc2013/training-day/vms//index.md) |  [Norway](ftp://ftp.no.embnet.org/galaxy/images/BasicWorkshop.ova), [US](http://depot.galaxyproject.org/BasicWorkshop.ova) ([Checksum](ftp://ftp.no.embnet.org/galaxy/images/BasicWorkshop-sha256sum.txt))  |  Has the Galaxy source code distribution, and Galaxy prerequisites, but Galaxy is not installed or running.  | 
+| [Introduction to Tool and Data Source Configuration](/src/events/gcc2013/training-day/vms//index.md#introduction-to-tool-and-data-source-configuration) |  [Norway](ftp://ftp.no.embnet.org/galaxy/images/GCC2013-AdvWorkshops.ova), [US](http://depot.galaxyproject.org/GCC2013-AdvWorkshops.ova) ([Checksum](ftp://ftp.no.embnet.org/galaxy/images/GCC2013-AdvWorkshops-sha256sum.txt))  |  Has Galaxy source code distribution and Galaxy prerequisites, and running Galaxy and Galaxy Tool Shed instances.  | 
+| [Advanced Tool and Data Source Configuration](/src/events/gcc2013/training-day/vms//index.md#advanced-tool-and-data-source-configuration) | 
+| [Galaxy Tool Shed](/src/events/gcc2013/training-day/vms//index.md#galaxy-tool-shed) | 
+| [The Galaxy API](/src/events/gcc2013/training-day/vms//index.md#the-galaxy-api) | 
 
 ## 3. Import the VM into VirtualBox
 

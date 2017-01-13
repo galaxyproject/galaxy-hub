@@ -2,7 +2,7 @@
 title: [Biotrac Next Generation Sequencing Course Syllabus](http://www.biotrac.com/pages/Tracs/Trac45.html)
 ---
 <div class='center'>
-<a href='http://www.biotrac.com/'><img src="/src/Teach/Resource/BioTracNGSCourseSyllabus/BioTracLogo.gif" alt="Bio-Trac"  /></a>
+<a href='http://www.biotrac.com/'><img src="/src/teach/resource/bio-trac-ngs-course-syllabus/BioTracLogo.gif" alt="Bio-Trac"  /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: [Biotrac Next Generation Sequencing Course Syllabus](http://www.biotrac.c
 
 
 <div class='deploymentbox'>
- Resource:: **[Biotrac Next Generation Sequencing Course Syllabus](/src/Teach/Resource/BioTracNGSCourseSyllabus/index.md)**
+ Resource:: **[Biotrac Next Generation Sequencing Course Syllabus](/src/teach/resource/bio-trac-ngs-course-syllabus/index.md)**
  Types:: Syllabus
  Domains:: **Genomics, RNA-Seq, Assembly, Annotation, Variation, Quality Control, ChIP-Seq** 
  Owners:: Ben Busby, Sijung Yun
@@ -80,4 +80,4 @@ We use very small *c elegans* datasets.  This allows us to host many students in
 
 [Ben Busby](mailto:ben DOT busby AT gmail DOT com)
 
-[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)
+[CategoryTrainingResource](/src/category-training-resource/index.md)

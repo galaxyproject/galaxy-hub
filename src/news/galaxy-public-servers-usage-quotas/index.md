@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[Galaxy Public Servers Usage Quotas](/src/news/Galaxy Public Servers Usage Quotas/index.md)</div>
 
-User data and job [quota limits](/src/Test/index.md#quotas) are now implemented at the public [Galaxy Test instance](http://test.g2.bx.psu.edu):
+User data and job [quota limits](/src/test/index.md#quotas) are now implemented at the public [Galaxy Test instance](http://test.g2.bx.psu.edu):
 
 <table>
   <tr>
@@ -17,9 +17,9 @@ User data and job [quota limits](/src/Test/index.md#quotas) are now implemented 
 </table>
 
 <br />
-See the wiki [Test](/src/Test/index.md#quotas) page for full details.
+See the wiki [Test](/src/test/index.md#quotas) page for full details.
 
-While [no quotas](/src/Main/index.md#quotas) are currently implemented at the public Galaxy [Main](/src/Main/index.md) instance, http://usegalaxy.org, we do ask that users stay within [certain usage limits](/src/Main/index.md#quotas).
+While [no quotas](/src/main/index.md#quotas) are currently implemented at the public Galaxy [Main](/src/main/index.md) instance, http://usegalaxy.org, we do ask that users stay within [certain usage limits](/src/main/index.md#quotas).
 
 <table>
   <tr>
@@ -41,4 +41,4 @@ If you find that you require additional resources, please consider alternative G
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-08-22</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

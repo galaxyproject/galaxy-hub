@@ -1,11 +1,11 @@
 <div class='center'>
-<a href='http://wustl.edu'><img src="/src/images/Logos/WashULogoWide.jpg" alt="Washington University in St. Louis" width="200" /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href='https://becker.wustl.edu/'><img src="/src/images/Logos/WashUBeckerLibrary.png" alt="Washington University’s Becker Medical Library" /></a>
+<a href='http://wustl.edu'><img src="/src/images/logos/WashULogoWide.jpg" alt="Washington University in St. Louis" width="200" /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href='https://becker.wustl.edu/'><img src="/src/images/logos/WashUBeckerLibrary.png" alt="Washington University’s Becker Medical Library" /></a>
 <div class='title'>Introduction to Galaxy<br /> April 29, 2013 and May 1 2013</div>
 
 **Workshops for the Washington University community
 
-Instructor: [Dave Clements](/src/DaveClements/index.md), [Galaxy Project](http://galaxyproject.org), [Emory University](http://emory.edu) 
+Instructor: [Dave Clements](/src/dave-clements/index.md), [Galaxy Project](http://galaxyproject.org), [Emory University](http://emory.edu) 
 
 9:00am-5:00pm (both days)**
 
@@ -97,25 +97,25 @@ The agenda is the same for both days.
 </table>
 
 
-<div class='right'><br /><a href='https://becker.wustl.edu/'><img src="/src/images/Logos/WashUBeckerLibrary.png" alt="Washington University’s Becker Medical Library" /></a><br /><br />
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div></div>
+<div class='right'><br /><a href='https://becker.wustl.edu/'><img src="/src/images/logos/WashUBeckerLibrary.png" alt="Washington University’s Becker Medical Library" /></a><br /><br />
+<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div></div>
 
 ## Support
 
-<div class='left'><a href='/src/events/MissouriWorkshopTour2013/index.md'><img src="/src/images/Logos/MissouriGalaxyWorkshopTour2013.png" alt="2013 Missouri Galaxy Workshop Tour" height="75" /></a></div>
+<div class='left'><a href='/src/events/missouri-workshop-tour2013/index.md'><img src="/src/images/logos/MissouriGalaxyWorkshopTour2013.png" alt="2013 Missouri Galaxy Workshop Tour" height="75" /></a></div>
 
 This workshop is generously supported by Washington University’s [Becker Medical Library](https://becker.wustl.edu/) and an [AWS in Education](http://aws.amazon.com/education/) grant award.  
 
-This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/src/events/MissouriWorkshopTour2013/index.md).
+This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/src/events/missouri-workshop-tour2013/index.md).
 
 ## Slides
 
-* [Monday Workshop](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/20130429WashUWorkshop.pdf)
-* [Wednesday Workshop](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/20130501WashUWorkshop.pdf)
+* [Monday Workshop](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/20130429WashUWorkshop.pdf)
+* [Wednesday Workshop](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/20130501WashUWorkshop.pdf)
 
 ## Flyer
 
-<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/WashUGalaxy2013.pdf'><img src="/src/events/WashU2013/WashUGalaxy2013Thumb.png" alt=""  /></a></div>
+<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/WashUGalaxy2013.pdf'><img src="/src/events/wash-u2013/WashUGalaxy2013Thumb.png" alt=""  /></a></div>
 Please distribute to groups in Washington University that might be interested. You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?

@@ -2,7 +2,7 @@
 title: [GalaxyEast](http://www.galaxeast.fr)
 ---
 <div class='center'>
-<a href='http://www.galaxeast.fr'><img src="/src/PublicGalaxyServers/GalaxEast.png" alt="GalaxEast" height="200" /></a>
+<a href='http://www.galaxeast.fr'><img src="/src/public-galaxy-servers/GalaxEast.png" alt="GalaxEast" height="200" /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: [GalaxyEast](http://www.galaxeast.fr)
 
 
 <div class='deploymentbox'>
- Deployment:: **[GalaxyEast](/src/Community/Deployment/GalaxEast/index.md)**
+ Deployment:: **[GalaxyEast](/src/community/deployment/galax-east/index.md)**
  Domain:: Integrative 'omics data analysis
  Owners:: [IGBMC](http://www.igbmc.fr/), [CNRS](http://www.cnrs.fr/), [Inserm](http://www.inserm.fr/), [Université Strasbourg](http://www.unistra.fr/)
  Audience:: Researchers working with 'omics data 
@@ -23,7 +23,7 @@ title: [GalaxyEast](http://www.galaxeast.fr)
  User Management:: Open to academic users
 </div>
 
-From *[J24: GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/events/ECCB2014/index.md) by Stephanie Le Gras, Serge Uge, Matthieu Jung, Ludovic Roy, Valerie Cognat, Frederic Plewniak, Irwin Davidson and Julien Seiler:
+From *[J24: GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](PLACEHOLDER_ATTACHMENT_URL/src/documents/posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/events/eccb2014/index.md) by Stephanie Le Gras, Serge Uge, Matthieu Jung, Ludovic Roy, Valerie Cognat, Frederic Plewniak, Irwin Davidson and Julien Seiler:
 
 <div class='indent'>
 
@@ -48,7 +48,7 @@ Any academic researcher
 
 The compute infrastructure is described in 
 
- *[J24: GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/events/ECCB2014/index.md) by Stephanie Le Gras, Serge Uge, Matthieu Jung, Ludovic Roy, Valerie Cognat, Frederic Plewniak, Irwin Davidson and Julien Seiler
+ *[J24: GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](PLACEHOLDER_ATTACHMENT_URL/src/documents/posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/events/eccb2014/index.md) by Stephanie Le Gras, Serge Uge, Matthieu Jung, Ludovic Roy, Valerie Cognat, Frederic Plewniak, Irwin Davidson and Julien Seiler
 
 
 ### Compute
@@ -105,8 +105,8 @@ Available in the [GalaxEast Toolshed](http://toolshed.galaxeast.fr/).
 ## Links
 
 * [GalaxEast Server](http://www.galaxeast.fr)
-* [GalaxEast poster](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2014ECCB_GalaxEast.pdf) from [ECCB'14](/src/events/ECCB2014/index.md)
+* [GalaxEast poster](PLACEHOLDER_ATTACHMENT_URL/src/documents/posters/2014ECCB_GalaxEast.pdf) from [ECCB'14](/src/events/eccb2014/index.md)
 * [GalaxEast Toolshed](http://toolshed.galaxeast.fr/)
-* [GalaxEast entry](/src/PublicGalaxyServers/index.md#galaxeast) in [Public Galaxy Servers list](/src/PublicGalaxyServers/index.md)
+* [GalaxEast entry](/src/public-galaxy-servers/index.md#galaxeast) in [Public Galaxy Servers list](/src/public-galaxy-servers/index.md)
 
-[CategoryDeployment](/src/CategoryDeployment/index.md)
+[CategoryDeployment](/src/category-deployment/index.md)

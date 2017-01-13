@@ -1,4 +1,4 @@
-<div class='right'> ![GalaxyTeam/dan.jpg](/src/GalaxyTeam/dan.jpg) </div>
+<div class='right'> ![GalaxyTeam/dan.jpg](/src/galaxy-team/dan.jpg) </div>
 
 # Dan Blankenberg
 

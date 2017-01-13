@@ -1,8 +1,8 @@
 <div class='linkbox'>
 **2011 News Items**
 ----
-[Custom Galaxy Search](/src/news/CustomGalaxySearch/index.md)<br />
-[New Galaxy Group @ CiteULike](/src/news/NewGalaxyGroupCiteULike/index.md)<br />
+[Custom Galaxy Search](/src/news/custom-galaxy-search/index.md)<br />
+[New Galaxy Group @ CiteULike](/src/news/new-galaxy-group-cite-u-like/index.md)<br />
 [January 2012 Galaxy Events](/src/news/January 2012 Galaxy Events/index.md)<br />
 [New Galaxy-Announce Mailing List](/src/news/New Galaxy-Announce Mailing List/index.md)<br />
 ----
@@ -44,10 +44,10 @@
 
 See also 
 * [News](/src/news/index.md) - current news items
-* [Galaxy Updates](/src/GalaxyUpdates/index.md)
-* [Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)
-* [Galaxy on Twitter](/src/GalaxyOnTwitter/index.md)
-* [Mailing Lists](/src/MailingLists/index.md)
+* [Galaxy Updates](/src/galaxy-updates/index.md)
+* [Galaxy Development News Briefs](/src/dev-news-briefs/index.md)
+* [Galaxy on Twitter](/src/galaxy-on-twitter/index.md)
+* [Mailing Lists](/src/mailing-lists/index.md)
 
 <br /><br /><br /><br />
 

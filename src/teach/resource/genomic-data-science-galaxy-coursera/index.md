@@ -1,7 +1,7 @@
 ---
 title: [Genomic Data Science with Galaxy on Coursera](https://www.coursera.org/course/gengalaxy)
 ---
-<div class='center'><a href='https://www.coursera.org/course/gengalaxy'><img src="/src/images/Logos/CourseraGBDS.png" alt="Genomic Data Science with Galaxy"  /></a>
+<div class='center'><a href='https://www.coursera.org/course/gengalaxy'><img src="/src/images/logos/CourseraGBDS.png" alt="Genomic Data Science with Galaxy"  /></a>
 </div>
 
 
@@ -9,10 +9,10 @@ title: [Genomic Data Science with Galaxy on Coursera](https://www.coursera.org/c
 
 
 <div class='deploymentbox'>
- Resource:: **[Genomic Data Science with Galaxy on Coursera](/src/Teach/Resource/GenomicDataScienceGalaxyCoursera/index.md)**
+ Resource:: **[Genomic Data Science with Galaxy on Coursera](/src/teach/resource/genomic-data-science-galaxy-coursera/index.md)**
  Types:: Tutorial
  Domains:: **RNA-Seq, ChIP-Seq, Installation, Workflows, Quality Control** 
- Owners:: [James Taylor](/src/JamesTaylor/index.md)
+ Owners:: [James Taylor](/src/james-taylor/index.md)
  Formats:: [Web Tutorial](https://www.coursera.org/course/gengalaxy), [Screencasts](http://vimeo.com/album/3456144)
  Date:: 2015/07 
 </div>
@@ -28,4 +28,4 @@ Links to any useful datasets or information.
 
 
 
-[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)
+[CategoryTrainingResource](/src/category-training-resource/index.md)

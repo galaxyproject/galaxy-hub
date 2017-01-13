@@ -1,7 +1,7 @@
 <div class='newsItemHeader'>[Powered by Galaxy](/src/news/Powered by Galaxy/index.md)</div>
 
-<div class='right'><a href='/src/Outreach/PoweredbyGalaxy/index.md'><img src="/src/Outreach/PoweredbyGalaxy/PoweredByGalaxy200.png" /></a></div>
-Do you use Galaxy in your research?  If so, please consider putting a *[Powered by Galaxy](/src/Outreach/PoweredbyGalaxy/index.md)* icon on your websites, presentations and posters.  Increasing Galaxy's visibility has many benefits:
+<div class='right'><a href='/src/outreach/poweredby-galaxy/index.md'><img src="/src/outreach/poweredby-galaxy/PoweredByGalaxy200.png" /></a></div>
+Do you use Galaxy in your research?  If so, please consider putting a *[Powered by Galaxy](/src/outreach/poweredby-galaxy/index.md)* icon on your websites, presentations and posters.  Increasing Galaxy's visibility has many benefits:
 
 1. People can't use Galaxy unless they know about it. It's a sinking feeling to get the results of your first run from the sequencing center and then not know how to exploit that data.
 2. Increased visibility leads to increased adoption of Galaxy and that leads to more people contributing back to the project.
@@ -11,7 +11,7 @@ This, along with [Citing Galaxy](/src/Citing Galaxy/index.md), are two easy thin
 
 Thanks,
 
-[Dave Clements](/src/DaveClements/index.md)
+[Dave Clements](/src/dave-clements/index.md)
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-08-19</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

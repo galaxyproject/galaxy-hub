@@ -9,8 +9,8 @@ title: December, 2014 Galaxy Tool Shed Contributions
 # About the Tool Shed
 
 [http://usegalaxy.org/toolshed](http://usegalaxy.org/toolshed) <br />
-[Wiki](/src/ToolShed/index.md) <br />
-[All monthly summaries](/src/ToolShed/Contributions/index.md)
+[Wiki](/src/tool-shed/index.md) <br />
+[All monthly summaries](/src/tool-shed/contributions/index.md)
 
 ## Tools
 
@@ -164,5 +164,5 @@ Repeats (CRISPRs) in full genomes or environmental datasets such as metagenomes,
 
 # About Galaxy
 
-<div class='left'><a href='http://usegalaxy.org'><img src="/src/images/Logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
-**[About Galaxy](/src/support/AboutGalaxy/index.md)** • [Galaxy Project](/src/GalaxyProject/index.md) • [Admin](/src/Admin/index.md) • [Issues](/src/Issues/index.md) • [Big Picture](/src/BigPicture/index.md) • [Community](/src/Community/index.md) • [Get Galaxy](/src/Admin/GetGalaxy/index.md) • [CloudMan](/src/CloudMan/index.md) • [Tool Shed](/src/ToolShed/index.md) • [Develop](/src/Develop/index.md) • [News Briefs](/src/DevNewsBriefs/index.md) • [Servers](/src/PublicGalaxyServers/index.md) • [Learn](/src/Learn/index.md) • [Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/news/index.md) • [Twitter](/src/GalaxyOnTwitter/index.md) • [Events](/src/events/index.md) • [Teach](/src/Teach/index.md) • [Issues](/src/Issues/index.md) • [Cite](/src/CitingGalaxy/index.md) • [Galaxy Team](/src/GalaxyTeam/index.md)
+<div class='left'><a href='http://usegalaxy.org'><img src="/src/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
+**[About Galaxy](/src/support/about-galaxy/index.md)** • [Galaxy Project](/src/galaxy-project/index.md) • [Admin](/src/admin/index.md) • [Issues](/src/issues/index.md) • [Big Picture](/src/big-picture/index.md) • [Community](/src/community/index.md) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [CloudMan](/src/cloudman/index.md) • [Tool Shed](/src/tool-shed/index.md) • [Develop](/src/develop/index.md) • [News Briefs](/src/dev-news-briefs/index.md) • [Servers](/src/public-galaxy-servers/index.md) • [Learn](/src/learn/index.md) • [Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/news/index.md) • [Twitter](/src/galaxy-on-twitter/index.md) • [Events](/src/events/index.md) • [Teach](/src/teach/index.md) • [Issues](/src/issues/index.md) • [Cite](/src/citing-galaxy/index.md) • [Galaxy Team](/src/galaxy-team/index.md)

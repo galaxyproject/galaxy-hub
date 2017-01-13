@@ -2,7 +2,7 @@
 title: CSIRO Galaxy Service
 ---
 <div class='center'>
-<a href='http://www.csiro.au'><img src="/src/Community/Deployment/CsiroService/CsiroLogo.jpg" alt="CSIRO"  /></a>
+<a href='http://www.csiro.au'><img src="/src/community/deployment/csiro-service/CsiroLogo.jpg" alt="CSIRO"  /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: CSIRO Galaxy Service
 
 
 <div class='deploymentbox'>
- Deployment:: **[CSIRO Galaxy Service](/src/Community/Deployment/CsiroService/index.md)**
+ Deployment:: **[CSIRO Galaxy Service](/src/community/deployment/csiro-service/index.md)**
  Domain:: NGS analysis: RNAseq, Genomics, metagenomics, custom tools.
  Owners:: [CSIRO](http://www.csiro.au)
  Audience:: 
@@ -51,4 +51,4 @@ title: CSIRO Galaxy Service
 
 ## Links
 
-[CategoryDeployment](/src/CategoryDeployment/index.md)
+[CategoryDeployment](/src/category-deployment/index.md)

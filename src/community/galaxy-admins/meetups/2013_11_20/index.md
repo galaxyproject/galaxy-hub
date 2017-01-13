@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/Community/GalaxyAdmins/index.md'><img src="/src/images/Logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2013/11/20 Web Meetup<br /><br />GCC2013 Followup
 </div></div>
 
@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em><a href="/src/GalaxyAdmins/index.md">GalaxyAdmins</a>: <a href='/src/events/GCC2013/BoF/GalaxyAdmins/index.md'>GCC2013 Followup</a></em><div class='indent'><a href='/src/DaveClements/index.md'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
+    <td> <em><a href="/src/GalaxyAdmins/index.md">GalaxyAdmins</a>: <a href='/src/events/gcc2013/bof/galaxy-admins/index.md'>GCC2013 Followup</a></em><div class='indent'><a href='/src/dave-clements/index.md'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/src/nate/index.md'>Nate Coraor</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -29,13 +29,13 @@
 
 
 <br />
-Dave and Srinivas will lead a discussion following up on the issues that were raised at the [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/src/events/GCC2013/BoF/GalaxyAdmins/index.md).
+Dave and Srinivas will lead a discussion following up on the issues that were raised at the [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/src/events/gcc2013/bof/galaxy-admins/index.md).
 
 [Nate Coraor](/src/nate/index.md) will also discuss the recent move of [usegalaxy.org](http://usegalaxy.org) from Penn State to TACC.
 
 ## GCC2013 Followup
 
-The [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/src/events/GCC2013/BoF/GalaxyAdmins/index.md) was well-attended and resulted in a number of suggestions for the group moving forward.  One of those suggestions was to spend the next call on followup, so that's what we are doing.
+The [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/src/events/gcc2013/bof/galaxy-admins/index.md) was well-attended and resulted in a number of suggestions for the group moving forward.  One of those suggestions was to spend the next call on followup, so that's what we are doing.
 
 ### Reference / Wiki
 
@@ -47,14 +47,14 @@ Action items from BoF:
 
 Draft implementations of the first two are in place:
 
-* [Community/Deployments](/src/Community/Deployments/index.md) hub page
-* [Community/Logs](/src/Community/Logs/index.md) hub page
+* [Community/Deployments](/src/community/deployments/index.md) hub page
+* [Community/Logs](/src/community/logs/index.md) hub page
 
 What do people think of this approach?  The use of *boxes* on the right side is used to create much more informative lists of deployments and logs on their hub pages, using the [http://moinmo.in/MacroMarket/DictColumns](http://moinmo.in/MacroMarket/DictColumns) macro.
 
 ### Mailing Lists / Forums
 
-Decided against creating a separate GalaxyAdmins mailing list.  See [BoF page](/src/events/GCC2013/BoF/GalaxyAdmins/index.md#mailing-lists--forums) for details.
+Decided against creating a separate GalaxyAdmins mailing list.  See [BoF page](/src/events/gcc2013/bof/galaxy-admins/index.md#mailing-lists--forums) for details.
 
 ### Meetups
 
@@ -73,7 +73,7 @@ Notes from the BoF:
 
 ## Call Technology
 
-We will use the [University of Iowa's Blackboard system](/src/Community/GalaxyAdmins/Meetups/2013_11_20/WebinarTech/index.md) for the call. **Downloading and launching the required Java application takes a few minutes. Using a headphone with microphone to prevent audio feedback during the call is recommended.**
+We will use the [University of Iowa's Blackboard system](/src/community/galaxy-admins/meetups/2013_11_20/WebinarTech/index.md) for the call. **Downloading and launching the required Java application takes a few minutes. Using a headphone with microphone to prevent audio feedback during the call is recommended.**
 
 <br />
 

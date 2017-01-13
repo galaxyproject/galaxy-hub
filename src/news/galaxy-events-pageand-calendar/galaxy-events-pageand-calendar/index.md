@@ -14,7 +14,7 @@ The page also contains a link to the new [Galaxy Events Google Calendar](https:/
 
 If you know of events that either have significant Galaxy content, or are of interest to the overall community, please send them to outreach@galaxyproject.org and they will be added to the [/Events](/src/events/index.md) page and the calendar.
 
-[Dave Clements](/src/DaveClements/index.md)
+[Dave Clements](/src/dave-clements/index.md)
 
 
 CategoryNews

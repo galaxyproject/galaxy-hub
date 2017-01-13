@@ -2,7 +2,7 @@
 title: [RNAmapper](http://www.rnamapper.org/)
 ---
 <div class='center'>
-<a href='http://www.rnamapper.org/'><img src="/src/VA/RNAmapper/RNAmapperLogo.png" alt="RNAmapper"  /></a>
+<a href='http://www.rnamapper.org/'><img src="/src/va/rnamapper/RNAmapperLogo.png" alt="RNAmapper"  /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: [RNAmapper](http://www.rnamapper.org/)
 
 
 <div class='dictbox'>
- Appliance:: **[RNAmapper](/src/VA/RNAmapper/index.md)**
+ Appliance:: **[RNAmapper](/src/va/rnamapper/index.md)**
  Technology:: **[VM](http://www.rnamapper.org/Download-Setup), [AMI](http://www.rnamapper.org/Online-Setup)**
  Domains:: **Identify genome region linked to a mutation, and causal candidate mutations** 
  Description:: [RNAmapper](http://www.rnamapper.org/) uses RNA-seq data to identify both a region of the genome linked to a mutation as well as candidate mutations that may be causal for the phenotype of interest.
@@ -32,4 +32,4 @@ From the [RNAmapper home page](http://www.rnamapper.org/):
 * [RNAmapper Galaxy 101 Tutorial](http://www.rnamapper.org/rnamapper-101)
 * "[RNA-seq–based mapping and candidate identification of mutations from forward genetic screens](http://genome.cshlp.org/content/23/4/679.long)" by Miller, *et al.*, *Genome Research* 2013. 23: 679-686
 
-[CategoryVirtualAppliance](/src/CategoryVirtualAppliance/index.md)
+[CategoryVirtualAppliance](/src/category-virtual-appliance/index.md)

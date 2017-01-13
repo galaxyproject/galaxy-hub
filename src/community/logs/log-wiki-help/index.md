@@ -1,5 +1,5 @@
 ---
-title: Wiki Help for [Log Pages](/src/Community/Logs/index.md)
+title: Wiki Help for [Log Pages](/src/community/logs/index.md)
 ---
 
 

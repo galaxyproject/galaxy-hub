@@ -1,8 +1,8 @@
-<div class='newsItemHeader'>[Tools + Dataset Collections Hackathon](/src/news/ToolsCollectionsHack/index.md)</div>
+<div class='newsItemHeader'>[Tools + Dataset Collections Hackathon](/src/news/tools-collections-hack/index.md)</div>
 
 Hello all,
 
-<div class='right'><a href='https://github.com/galaxyproject/tools-iuc/issues/239'><img src="/src/images/Icons/DatasetCollectionIconInForm.png" alt="" width="150" /></a>
+<div class='right'><a href='https://github.com/galaxyproject/tools-iuc/issues/239'><img src="/src/images/icons/DatasetCollectionIconInForm.png" alt="" width="150" /></a>
 <div class='center'>**[Make this happen!](https://github.com/galaxyproject/tools-iuc/issues/239)**</div>
 </div>
 
@@ -43,4 +43,4 @@ Galaxy IUC
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-08-10</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

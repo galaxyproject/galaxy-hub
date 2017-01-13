@@ -2,7 +2,7 @@
 title: PHAC NML Galaxy
 ---
 <div class='center'>
-<a href='https://www.nml-lnm.gc.ca/index-eng.htm'><img src="/src/Community/Deployment/PHACNML/MapleLeaf.png" alt="Public Health Agency of Canada - National Microbiology Laboratory" height="200" /></a>
+<a href='https://www.nml-lnm.gc.ca/index-eng.htm'><img src="/src/community/deployment/phacnml/MapleLeaf.png" alt="Public Health Agency of Canada - National Microbiology Laboratory" height="200" /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: PHAC NML Galaxy
 
 
 <div class='deploymentbox'>
- Deployment:: **[PHAC NML Galaxy](/src/Community/Deployment/PHACNML/index.md)**
+ Deployment:: **[PHAC NML Galaxy](/src/community/deployment/phacnml/index.md)**
  Domain:: NGS analysis: Molecular Epidemiology, metagenomics, viral and bacterial genomics, custom tools.
  Owners:: [PHAC NML Bioinformatics Corefacility](https://www.nml-lnm.gc.ca/index-eng.htm)
  Audience:: Public Health Agency of Canada Scientists, international and local Collaborators and stakeholders
@@ -80,4 +80,4 @@ PHAC NML Galaxy uses [Dynamic Tool Destination](https://github.com/phac-nml/dyna
 * [PHAC NML Galaxy Tools](https://github.com/phac-nml/galaxy_tools)
 * [Dynamic Tool Destination](https://github.com/phac-nml/dynamic-tool-destination)
 
-[CategoryDeployment](/src/CategoryDeployment/index.md)
+[CategoryDeployment](/src/category-deployment/index.md)

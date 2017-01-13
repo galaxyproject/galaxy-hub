@@ -1,4 +1,4 @@
-<div class='right'><a href='http://bmb.psu.edu/directory/aun1'><img src="/src/GalaxyTeam/anton.jpg" /></a></div>
+<div class='right'><a href='http://bmb.psu.edu/directory/aun1'><img src="/src/galaxy-team/anton.jpg" /></a></div>
 
 # Anton Nekrutenko
 

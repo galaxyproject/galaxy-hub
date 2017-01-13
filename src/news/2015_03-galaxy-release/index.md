@@ -1,22 +1,22 @@
-<div class='newsItemHeader'>[March 2015 Galaxy Release (v 15.03)](/src/news/2015_03_GalaxyRelease/index.md)</div>
+<div class='newsItemHeader'>[March 2015 Galaxy Release (v 15.03)](/src/news/2015_03-galaxy-release/index.md)</div>
 
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/Logos/GetGalaxyOrg.png" alt="width=175" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GetGalaxyOrg.png" alt="width=175" /></a></div>
 
 <span style="font-size: larger;">[Complete Release Notes](http://wiki.galaxyproject.org/DevNewsBriefs/2015_03) </span>
 <br /><br />
 <span style="font-size: larger;"> Highlights </span>
 
- **[Release Versioning](/src/DevNewsBriefs/2015_03/index.md#release_versioning)**
+ **[Release Versioning](/src/dev-news-briefs/2015_03/index.md#release_versioning)**
 
   Starting with this distribution, an updated Galaxy release versioning system has been implemented. The versioning scheme is [Ubuntu-style](https://wiki.ubuntu.com/Releases).
 
- **[Github](/src/DevNewsBriefs/2015_03/index.md#github)**
+ **[Github](/src/dev-news-briefs/2015_03/index.md#github)**
 
   Galaxy development has moved to Github, but stable/release changes are mirrored to Bitbucket. Deployers can continue to use Bitbucket as they have done in the past. Release branches discussed in the full release notes.
 
- **[Tool Redesign](/src/DevNewsBriefs/2015_03/index.md#tool_redesign)**
+ **[Tool Redesign](/src/dev-news-briefs/2015_03/index.md#tool_redesign)**
 
-  Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolshed) and many are ready for use on Galaxy [Main](/src/Main/index.md).
+  Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolshed) and many are ready for use on Galaxy [Main](/src/main/index.md).
 
 <span style="font-size: larger;"> Get the Galaxy Release </span>
 <br />
@@ -49,9 +49,9 @@
 
 <br /><br />
 *Thanks for using Galaxy!* <br />
-[The Galaxy Team](/src/GalaxyTeam/index.md)
+[The Galaxy Team](/src/galaxy-team/index.md)
 
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-03-16</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

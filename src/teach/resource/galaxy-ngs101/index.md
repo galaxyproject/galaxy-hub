@@ -1,8 +1,8 @@
 ---
-title: [Galaxy NGS 101](/src/Learn/GalaxyNGS101/index.md)
+title: [Galaxy NGS 101](/src/learn/galaxy-ngs101/index.md)
 ---
 <div class='center'>
-<a href='https://vimeo.com/album/3456159'><img src="/src/images/NGS101/NGS101PlaySlide.png" alt="Galaxy NGS 101 Videos" width="180" /></a>
+<a href='https://vimeo.com/album/3456159'><img src="/src/images/ngs101/NGS101PlaySlide.png" alt="Galaxy NGS 101 Videos" width="180" /></a>
 </div>
 
 
@@ -10,7 +10,7 @@ title: [Galaxy NGS 101](/src/Learn/GalaxyNGS101/index.md)
 
 
 <div class='deploymentbox'>
- Resource:: **[Galaxy NGS 101](/src/Teach/Resource/GalaxyNGS101/index.md)**
+ Resource:: **[Galaxy NGS 101](/src/teach/resource/galaxy-ngs101/index.md)**
  Types:: Tutorial
  Domains:: **RNA-Seq, Variation, Quality Control** 
  Owners:: [Galaxy Project](http://galaxyproject.org)
@@ -18,9 +18,9 @@ title: [Galaxy NGS 101](/src/Learn/GalaxyNGS101/index.md)
  Date:: 2015/06 
 </div>
 
-This [set of exercises](/src/Learn/GalaxyNGS101/index.md) is designed to serve as a comprehensive resource describing manipulation and analysis of NGS data. While it is designed to highlight the utility of Galaxy it will also provide information that is broadly applicable and can be used for teaching of big data biology. It is accompanied by a collection of [screencasts](https://vimeo.com/channels/884356).
+This [set of exercises](/src/learn/galaxy-ngs101/index.md) is designed to serve as a comprehensive resource describing manipulation and analysis of NGS data. While it is designed to highlight the utility of Galaxy it will also provide information that is broadly applicable and can be used for teaching of big data biology. It is accompanied by a collection of [screencasts](https://vimeo.com/channels/884356).
 
-The new [Galaxy NGS 101 Tutorial](/src/Learn/GalaxyNGS101/index.md) was published this spring and introduces a wide range of topics related to analyzing next generation sequencing data with Galaxy.  We are happy to announce that [videos to accompany this tutorial are now online as well](https://vimeo.com/album/3456159).  The 20 videos cover:
+The new [Galaxy NGS 101 Tutorial](/src/learn/galaxy-ngs101/index.md) was published this spring and introduces a wide range of topics related to analyzing next generation sequencing data with Galaxy.  We are happy to announce that [videos to accompany this tutorial are now online as well](https://vimeo.com/album/3456159).  The 20 videos cover:
 
 1. [Uploading data from your computer](https://vimeo.com/album/3456159/video/120901536)
 1. [Uploading data from FTP](https://vimeo.com/album/3456159/video/120972739)
@@ -45,4 +45,4 @@ There are also 4 new videos that provide an overview of different sequencing pla
 * [PacBio](https://vimeo.com/album/3456159/video/121267426)
 * [454](https://vimeo.com/album/3456159/video/121286060)
 
-[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)
+[CategoryTrainingResource](/src/category-training-resource/index.md)

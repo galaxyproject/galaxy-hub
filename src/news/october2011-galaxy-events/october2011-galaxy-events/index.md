@@ -44,7 +44,7 @@ There are (at least) three [Galaxy related events](/src/events/index.md) going o
 <br />
 
 Thanks,<br />
-[Dave Clements](/src/DaveClements/index.md)
+[Dave Clements](/src/dave-clements/index.md)
 
 
 CategoryNews

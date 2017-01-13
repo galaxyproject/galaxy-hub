@@ -7,12 +7,12 @@ title: Galaxy Seminar and Workshops @ Indiana University Bloomington: October 19
 
 <table>
   <tr>
-    <td colspan=3 style=" text-align: center; border: none;"> <a href='http://indiana.edu/'><img src="/src/images/Logos/IndianaU720.png" alt="Indiana University" width="500" /></a> </td>
+    <td colspan=3 style=" text-align: center; border: none;"> <a href='http://indiana.edu/'><img src="/src/images/logos/IndianaU720.png" alt="Indiana University" width="500" /></a> </td>
   </tr>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle; font-family: 'Times New Roman',Georgia,Serif; font-size: 200%; line-height: 120%;"> <a href='http://ncgas.org/'><img src="/src/images/Logos/NCGAS_Logo300.png" alt="National Center for Genome Analysis Support" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle; font-family: 'Times New Roman',Georgia,Serif; font-size: 200%; line-height: 120%;"> <a href='http://ncgas.org/'><img src="/src/images/logos/NCGAS_Logo300.png" alt="National Center for Genome Analysis Support" /></a> </td>
     <td style=" border: none; text-align: center; vertical-align: middle; width: 10%;"> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://cgb.indiana.edu/'><img src="/src/images/Logos/CGBLogoText.png" alt="The Center for Genomics and Bioinformatics" width="280px" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://cgb.indiana.edu/'><img src="/src/images/logos/CGBLogoText.png" alt="The Center for Genomics and Bioinformatics" width="280px" /></a> </td>
   </tr>
 </table>
 
@@ -25,9 +25,9 @@ title: Galaxy Seminar and Workshops @ Indiana University Bloomington: October 19
 * **Transparent:** Users share and publish analyses via the web and create Pages, interactive, web-based documents that describe a complete analysis.
 
 There will be three Galaxy-related events on the Indiana University Bloomington Campus on October 19: 
-1. **[Seminar: Transparent, Accessible, Reproducible Biological Analysis with Galaxy](/src/events/IndianaU2012/index.md#seminar-transparent-accessible-reproducible-biological-analysis-with-galaxy)**, 1:30pm-2:30pm, Jordan Hall 065
-1. **[Galaxy for Biologists Workshop](/src/events/IndianaU2012/index.md#galaxy-for-biologists-workshop)**, 3:00pm-4:30pm, Lindley 102 
-1. **[Galaxy for Developers Workshop](/src/events/IndianaU2012/index.md#galaxy-for-developers-workshop)**, 9:30am-11:30am (note new time), PTI 015 
+1. **[Seminar: Transparent, Accessible, Reproducible Biological Analysis with Galaxy](/src/events/indiana-u2012/index.md#seminar-transparent-accessible-reproducible-biological-analysis-with-galaxy)**, 1:30pm-2:30pm, Jordan Hall 065
+1. **[Galaxy for Biologists Workshop](/src/events/indiana-u2012/index.md#galaxy-for-biologists-workshop)**, 3:00pm-4:30pm, Lindley 102 
+1. **[Galaxy for Developers Workshop](/src/events/indiana-u2012/index.md#galaxy-for-developers-workshop)**, 9:30am-11:30am (note new time), PTI 015 
 
 <br />
 
@@ -35,10 +35,10 @@ There will be three Galaxy-related events on the Indiana University Bloomington 
 
 <div class='indent'>
 **1:30pm-2:30pm, October 19, Jordan Hall 065**<br />
-**[Dave Clements](/src/DaveClements/index.md)**<br />
+**[Dave Clements](/src/dave-clements/index.md)**<br />
 **Emory University**<br /><br />
 
-[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012_IndianaU.pdf)
+[Slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/2012_IndianaU.pdf)
 
 The widespread adoption of high-throughput techniques in biology has made working with large datasets a necessary and common task in biomedical research.  Discovering meaning in these large datasets requires sophisticated bioinformatics tools, complex workflows, and computational infrastructure.  The Galaxy Project (http://galaxyproject.org/) makes these tools accessible to a wide range of researchers, while ensuring that analyses are reproducible and can be communicated transparently to others.  This talk will provide an overview of the Galaxy Project, and then discuss how Galaxy enables researchers to create, refine, share and reproduce their own bioinformatic analysis - using only a web browser accessing public servers or local compute resources, or by utilizing on-demand cloud infrastructures.
 
@@ -52,10 +52,10 @@ The talk is open to the public.  No advance registration is required.
 
 <div class='indent'>
 **3:00pm-4:30pm, October 19, Lindley 102**<br />
-**[Dave Clements](/src/DaveClements/index.md)**<br />
+**[Dave Clements](/src/dave-clements/index.md)**<br />
 **Emory University**<br /><br />
 
-[Slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012IndianaUGalaxyForBiologists.pdf)
+[Slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/2012IndianaUGalaxyForBiologists.pdf)
 
 Are you a biomedical researcher who needs to do complex analysis on large datasets?
 
@@ -108,10 +108,10 @@ This is a hands-on workshop.  **Please bring a wifi-enabled laptop with a curren
 
 <div class='indent'>
 **9:30am-11:30am (note new time), October 19, PTI 015** in the [Cyberinfrastructure Building](http://it.iu.edu/cib/)<br />
-**[Dave Clements](/src/DaveClements/index.md)**<br />
+**[Dave Clements](/src/dave-clements/index.md)**<br />
 **Emory University**<br /><br />
 
-This workshop will introduce Galaxy for developers.  This includes covering the Galaxy API, Galaxy Architecture, configuring Galaxy for a production environment.  This will be more informal than the *Galaxy for Biologists* workshop and will cover topics that are of most interest to attendees.  [Dave Clements](/src/DaveClements/index.md) of the Galaxy Project will lead the workshop and we will be joined remotely by [Nate Coraor](/src/nate/index.md) and [Dannon Baker](/src/DannonBaker/index.md) of the Galaxy development team.
+This workshop will introduce Galaxy for developers.  This includes covering the Galaxy API, Galaxy Architecture, configuring Galaxy for a production environment.  This will be more informal than the *Galaxy for Biologists* workshop and will cover topics that are of most interest to attendees.  [Dave Clements](/src/dave-clements/index.md) of the Galaxy Project will lead the workshop and we will be joined remotely by [Nate Coraor](/src/nate/index.md) and [Dannon Baker](/src/dannon-baker/index.md) of the Galaxy development team.
 
 *Registration is open to any member of the Indiana University community. The workshop is free, but space is limited and advanced registration is required.*
 </div>
@@ -119,9 +119,9 @@ This workshop will introduce Galaxy for developers.  This includes covering the 
 
 ## Support
 
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
-<div class='right'><a href='http://cgb.indiana.edu/'><img src="/src/images/Logos/CGBLogoText.png" alt="The Center for Genomics and Bioinformatics" width="240px" /></a></div>
-<div class='right'><a href='http://ncgas.org/'><img src="/src/images/Logos/NCGAS_Logo300.png" alt="National Center for Genome Analysis Support" /></a></div>
+<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='right'><a href='http://cgb.indiana.edu/'><img src="/src/images/logos/CGBLogoText.png" alt="The Center for Genomics and Bioinformatics" width="240px" /></a></div>
+<div class='right'><a href='http://ncgas.org/'><img src="/src/images/logos/NCGAS_Logo300.png" alt="National Center for Genome Analysis Support" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, the [National Center for Genome Analysis Support](http://ncgas.org/), and the [The Center for Genomics and Bioinformatics](http://cgb.indiana.edu/).
 
@@ -129,7 +129,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Links
 
-<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/IndianaUGalaxyWorkshop.pdf'><img src="/src/events/IndianaU2012/IndianaUGalaxyWorkshopThumb.png" alt="Download flier" /></a></div>
+<div class='right'><a href='PLACEHOLDER_ATTACHMENT_URL/src/IndianaUGalaxyWorkshop.pdf'><img src="/src/events/indiana-u2012/IndianaUGalaxyWorkshopThumb.png" alt="Download flier" /></a></div>
 
 * Please help get the word out by distributing [this flyer](PLACEHOLDER_ATTACHMENT_URL/src/IndianaUGalaxyWorkshop.pdf) in your department.
 * Please take a minute to give us [your feedback on the workshops](/src/Feedback Link/index.md).

@@ -6,7 +6,7 @@ title: 2016/03: [Setting up Galaxy with TORQUE on AWS](https://gist.github.com/k
 
 
 <div class='logbox'>
- Topic:: **[Setting up Galaxy with TORQUE on AWS](/src/Community/Log/2016/TorqueOnAWS/index.md)**
+ Topic:: **[Setting up Galaxy with TORQUE on AWS](/src/community/log/2016/torque-on-aws/index.md)**
  Date:: 2016/03/03
  Who:: [Alex Kanterakis](https://gist.github.com/kantale)
  Resolution:: A basic guide on how to setup Galaxy with TORQUE in an EC2 instance
@@ -20,4 +20,4 @@ title: 2016/03: [Setting up Galaxy with TORQUE on AWS](https://gist.github.com/k
 * [Setting up Galaxy with TORQUE on AWS](https://gist.github.com/kantale/b7fecd62da22a1523aa2)
 * [TORQUE](http://www.adaptivecomputing.com/products/open-source/torque/)
 
-[CategoryLog](/src/CategoryLog/index.md)
+[CategoryLog](/src/category-log/index.md)

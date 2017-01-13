@@ -1,5 +1,5 @@
 ---
-title: [GalaxyScientists](/src/GalaxyScientists/index.md)
+title: [GalaxyScientists](/src/galaxy-scientists/index.md)
 ---
 {{> Events/GCC2015/Header }}
 
@@ -7,17 +7,17 @@ title: [GalaxyScientists](/src/GalaxyScientists/index.md)
 
 
 <div class='dictbox'>
- BoF:: [GalaxyScientists](/src/events/GCC2015/BoFs/GalaxyScientists/index.md)
+ BoF:: [GalaxyScientists](/src/events/gcc2015/bofs/galaxy-scientists/index.md)
  Summary:: New Community Group? aka "GalaxyUsers, GalaxyAnalysts, "GalaxyDataTypes"
  Audience:: Scientists using Galaxy interested in getting INVOLVED!
  When:: Tuesday, 7 July, 12:30 (Lunch)
  Where:: Franklin Room, JICCC
- Contact:: [JenniferJackson](/src/JenniferJackson/index.md) & see [BoF](https://wiki.galaxyproject.org/Events/GCC2015/BoFs/GalaxyScientists) wiki
+ Contact:: [JenniferJackson](/src/jennifer-jackson/index.md) & see [BoF](https://wiki.galaxyproject.org/Events/GCC2015/BoFs/GalaxyScientists) wiki
 </div>
 
-<div class='left'><a href='/src/events/GCC2015/BoFs/index.md'><img src="/src/images/Logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
+<div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
-This page describes the **GalaxyScientists** [Birds of a Feather](/src/events/GCC2015/BoFs/index.md) Meetup held at [GCC2015](http://gcc2015.tsl.ac.uk/). Don't worry if you don't know what this group is .. the BoF is intended to define and create it! 
+This page describes the **GalaxyScientists** [Birds of a Feather](/src/events/gcc2015/bofs/index.md) Meetup held at [GCC2015](http://gcc2015.tsl.ac.uk/). Don't worry if you don't know what this group is .. the BoF is intended to define and create it! 
 
 <br />
 ## Description
@@ -33,7 +33,7 @@ In addition, if you joined in on this year's [Data Wrangling Hackathon](http://g
 
 ## When and Where
 
-The [time and location](/src/events/GCC2015/BoFs/index.md#bof-schedule) for this BoF is Tuesday, July 7th, over lunch at 12:30pm in the Franklin Room, JICCC
+The [time and location](/src/events/gcc2015/bofs/index.md#bof-schedule) for this BoF is Tuesday, July 7th, over lunch at 12:30pm in the Franklin Room, JICCC
 
 
 ## Who is Participating
@@ -43,7 +43,7 @@ If you are interested, please add your name below.
 * [jen@galaxyproject.org](mailto:jen@galaxyproject.org), Jennifer Hillman-Jackson
 * [kreddy4@jhmi.edu](mailto:kreddy4@jhmi.edu), Karen Reddy
 * Mo Heydarian
-* [Dan Blankenberg](/src/Dan/index.md)
+* [Dan Blankenberg](/src/dan/index.md)
 * Michael Sauria
 * Gergely Izrael (izi)
 * Christian Rausch
@@ -97,7 +97,7 @@ Add these before the BoF to aid in focusing our discussion. We'll create a [http
 
 The Galaxy Scientists Community represents Galaxy end-users and gives them a voice to interact with the core team. However, **the activities of the Galaxy Scientists Community shall not interfere with core team activities, priorities, and current user support, or feedback loops. **
 
-The Galaxy Scientists may or may not include support, training, faq projects (bundling of existing resources, creating new ones, all in a centralized location), **but should not interfere with [Galaxy Training Network](/src/Teach/GTN/index.md).**
+The Galaxy Scientists may or may not include support, training, faq projects (bundling of existing resources, creating new ones, all in a centralized location), **but should not interfere with [Galaxy Training Network](/src/teach/gtn/index.md).**
 
 
 ### Action Items:

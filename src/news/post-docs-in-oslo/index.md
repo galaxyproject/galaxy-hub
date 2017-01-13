@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[Integrative Genomics PostDocs in Oslo](/src/news/PostDocsInOslo/index.md)</div>
+<div class='newsItemHeader'>[Integrative Genomics PostDocs in Oslo](/src/news/post-docs-in-oslo/index.md)</div>
 
-<div class='center'><a href='http://uio.easycruit.com/vacancy/1192725/64145?iso=no'><img src="/src/images/Logos/GenomicHyperBrowserWide.png" alt="Two postdoc positions" width="80%" /></a>
+<div class='center'><a href='http://uio.easycruit.com/vacancy/1192725/64145?iso=no'><img src="/src/images/logos/GenomicHyperBrowserWide.png" alt="Two postdoc positions" width="80%" /></a>
 </div>
 
 <br />
@@ -12,4 +12,4 @@ The hired postdocs can exploit the Galaxy framework to ensure accessibility, int
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-05-27</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

@@ -2,7 +2,7 @@
 title: [Pitagora-Galaxy](http://www.pitagora-galaxy.org/)
 ---
 <div class='center'>
-<a href='http://www.pitagora-galaxy.org/'><img src="/src/PublicGalaxyServers/Pitagora.png" alt="Pitagora-Galaxy" /></a>
+<a href='http://www.pitagora-galaxy.org/'><img src="/src/public-galaxy-servers/Pitagora.png" alt="Pitagora-Galaxy" /></a>
 </div>
 
 
@@ -10,8 +10,8 @@ title: [Pitagora-Galaxy](http://www.pitagora-galaxy.org/)
 
 
 <div class='dictbox'>
- Appliance:: **[Pitagora-Galaxy](/src/VA/PitagoraGalaxy/index.md)**
- Technology:: **[VM](/src/VirtualAppliances/index.md#virtual-machine-images), [AMI](/src/VirtualAppliances/index.md#cloud-images)**
+ Appliance:: **[Pitagora-Galaxy](/src/va/pitagora-galaxy/index.md)**
+ Technology:: **[VM](/src/virtual-appliances/index.md#virtual-machine-images), [AMI](/src/virtual-appliances/index.md#cloud-images)**
  Domains:: **General Purpose** 
  Description:: Includes the tools and workflows that are described at [our wiki](http://wiki.pitagora-galaxy.org/wiki/index.php/Workflows).
  Owners:: [Genome Science Division](http://www.genome.rcast.u-tokyo.ac.jp/en/), RCAST, University of Tokyo
@@ -23,7 +23,7 @@ title: [Pitagora-Galaxy](http://www.pitagora-galaxy.org/)
 ## Links
 
 * [Pitagora-Galaxy Project](http://www.pitagora-galaxy.org/about_en)
-* [Public server description](/src/PublicGalaxyServers/index.md#pitagora-galaxy)
-* [Building Galaxy Japan Community](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Posters/2014PitagoraYanamaka.pdf), poster presented by Ryota	Yamanaka at Biological Data Science 2014, Cold Spring Harbor Laboratory.
+* [Public server description](/src/public-galaxy-servers/index.md#pitagora-galaxy)
+* [Building Galaxy Japan Community](PLACEHOLDER_ATTACHMENT_URL/src/documents/posters/2014PitagoraYanamaka.pdf), poster presented by Ryota	Yamanaka at Biological Data Science 2014, Cold Spring Harbor Laboratory.
 
-[CategoryVirtualAppliance](/src/CategoryVirtualAppliance/index.md)
+[CategoryVirtualAppliance](/src/category-virtual-appliance/index.md)

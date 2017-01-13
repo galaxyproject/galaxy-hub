@@ -3,7 +3,7 @@ autotoc: true
 title: Learn Galaxy
 ---
 <div class='center'>
-<a href='http://usegalaxy.org/galaxy101'><img src="/src/Learn/Galaxy101Page.png" alt="Galaxy 101" height="160" /></a>&nbsp;&nbsp; <a href='/src/Learn/Screencasts/index.md'><img src="/src/Learn/ScreencastsThumb.png" alt="Screencasts" height="160" /></a>&nbsp;&nbsp; <a href='/src/Learn/index.md#shared-pages-histories--workflows'><img src="/src/Learn/SharedHistoriesThumb.png" alt="Shared Pages, Histories, & Workflows" height="160" /></a>
+<a href='http://usegalaxy.org/galaxy101'><img src="/src/learn/Galaxy101Page.png" alt="Galaxy 101" height="160" /></a>&nbsp;&nbsp; <a href='/src/learn/screencasts/index.md'><img src="/src/learn/screencastsThumb.png" alt="Screencasts" height="160" /></a>&nbsp;&nbsp; <a href='/src/learn/index.md#shared-pages-histories--workflows'><img src="/src/learn/sharedHistoriesThumb.png" alt="Shared Pages, Histories, & Workflows" height="160" /></a>
 </div>
 
 
@@ -17,15 +17,15 @@ Watch the short **[Learn](http://vimeo.com/75940376)** video for a learning reso
 
 ## Galaxy 101
 
-New! Start here to learn more: **[Galaxy NGS 101](/src/Learn/GalaxyNGS101/index.md)**
+New! Start here to learn more: **[Galaxy NGS 101](/src/learn/galaxy-ngs101/index.md)**
 
-The *[Galaxy 101](https://usegalaxy.org/galaxy101)* exercise and [screencast](/src/Learn/Screencasts/index.md) will show you the ins and outs of using Galaxy. This includes loading data (from UCSC in this example), using genome builds, the tool interface, filtering, sorting, and combining datasets, generating statistics, and Galaxy's History,  Workflow and [sharing](/src/Learn/Share/index.md) support.
+The *[Galaxy 101](https://usegalaxy.org/galaxy101)* exercise and [screencast](/src/learn/screencasts/index.md) will show you the ins and outs of using Galaxy. This includes loading data (from UCSC in this example), using genome builds, the tool interface, filtering, sorting, and combining datasets, generating statistics, and Galaxy's History,  Workflow and [sharing](/src/learn/share/index.md) support.
 
 The *[Galaxy Variant 101](https://usegalaxy.org/u/galaxyproject/p/galaxy-variant-101)* exercise steps demonstrate data manipulations (fastq, SAM/BAM), sequence mapping, plus simple variant calling. 
 
 ## Screencasts
 
-There are a plethora of [Screencast](/src/Learn/Screencasts/index.md) videos available that demonstrate many aspects of Galaxy from basic features to full-blown complex analysis to cloud and administrative guides.
+There are a plethora of [Screencast](/src/learn/screencasts/index.md) videos available that demonstrate many aspects of Galaxy from basic features to full-blown complex analysis to cloud and administrative guides.
 <br />
 <br />
 Watch the most current videos at *Vimeo*: **[http://vimeo.com/galaxyproject](http://vimeo.com/galaxyproject)**
@@ -37,15 +37,15 @@ Learn more about each of these Galaxy object types below.
 
 Galaxy supports the [sharing and publishing](/src/Share/index.md) of data analysis. See how it works in the **[Share or Publish](http://vimeo.com/galaxyproject/sharepublish)** video.
 
-* **Pages** are a method of documenting within Galaxy a set of analysis steps and/or the scientific context of a particular History, Workflow, Visualization, or set of Datasets.  These are often used to supplement publications or to present tutorials. The [Main](/src/Main/index.md) Galaxy instance at [usegalaxy.org](http://usegalaxy.org) has a [list of published Pages](https://usegalaxy.org/page/list_published) to view as examples. Create one yourself using the menu option "User -> Saved Pages".
-* **[Histories](/src/Histories/index.md)** are analyses records in Galaxy that show all input, intermediate, and final datasets, as well as every step in the process and the settings used with each job executed.  History can be imported into your session and rerun as is or modified. See the **["Managing Histories" video](http://vimeo.com/galaxyproject/managehistories)** for an example. The [Main](/src/Main/index.md) Galaxy instance has a [list of published Histories](https://usegalaxy.org/history/list_published) to review as examples.
-* **[Datasets](/src/Learn/ManagingDatasets/index.md)** represent individual files or jobs included within a History. For an overview of common Dataset types, watch the **["Datasets" video](http://vimeo.com/galaxyproject/datasets1)**.
-* **[Workflows](/src/Learn/AdvancedWorkflow/index.md)** define the steps in an analysis process but not the datasets.  Workflows are analyses that are intended to be executed (one ore more times) with different user-provided input Datasets.  The [Main](/src/Main/index.md) Galaxy instance has a [list of published Workflows](https://usegalaxy.org/workflow/list_published) to review as examples.
-* **[Data Libraries](/src/Admin/DataLibraries/Libraries/index.md)** are collections of Datasets that are accessible from within a Galaxy instance. Libraries are designed for sharing datasets in between users or groups. The [Main](/src/Main/index.md) Galaxy instance has a [list of public Data Libraries](https://usegalaxy.org/library) to review as examples.
+* **Pages** are a method of documenting within Galaxy a set of analysis steps and/or the scientific context of a particular History, Workflow, Visualization, or set of Datasets.  These are often used to supplement publications or to present tutorials. The [Main](/src/main/index.md) Galaxy instance at [usegalaxy.org](http://usegalaxy.org) has a [list of published Pages](https://usegalaxy.org/page/list_published) to view as examples. Create one yourself using the menu option "User -> Saved Pages".
+* **[Histories](/src/histories/index.md)** are analyses records in Galaxy that show all input, intermediate, and final datasets, as well as every step in the process and the settings used with each job executed.  History can be imported into your session and rerun as is or modified. See the **["Managing Histories" video](http://vimeo.com/galaxyproject/managehistories)** for an example. The [Main](/src/main/index.md) Galaxy instance has a [list of published Histories](https://usegalaxy.org/history/list_published) to review as examples.
+* **[Datasets](/src/learn/managing-datasets/index.md)** represent individual files or jobs included within a History. For an overview of common Dataset types, watch the **["Datasets" video](http://vimeo.com/galaxyproject/datasets1)**.
+* **[Workflows](/src/learn/advanced-workflow/index.md)** define the steps in an analysis process but not the datasets.  Workflows are analyses that are intended to be executed (one ore more times) with different user-provided input Datasets.  The [Main](/src/main/index.md) Galaxy instance has a [list of published Workflows](https://usegalaxy.org/workflow/list_published) to review as examples.
+* **[Data Libraries](/src/admin/data-libraries/Libraries/index.md)** are collections of Datasets that are accessible from within a Galaxy instance. Libraries are designed for sharing datasets in between users or groups. The [Main](/src/main/index.md) Galaxy instance has a [list of public Data Libraries](https://usegalaxy.org/library) to review as examples.
 
 ## Other Tutorials
 
-In addition to [Screencasts](/src/Learn/Screencasts/index.md) and Shared Pages, Histories & Workflows above there are now several Galaxy-centric tutorials and "how to" papers that have been created by the community:
+In addition to [Screencasts](/src/learn/screencasts/index.md) and Shared Pages, Histories & Workflows above there are now several Galaxy-centric tutorials and "how to" papers that have been created by the community:
 
 
 | Topic |  Authors  |  Posted / Presented  | 
@@ -62,7 +62,7 @@ In addition to [Screencasts](/src/Learn/Screencasts/index.md) and Shared Pages, 
 | **[NGS Analysis with Galaxy and IGV](http://manuals.bioinformatics.ucr.edu/home/gui-ngs-analysis)** |  [Tyler Backman](http://facility.bioinformatics.ucr.edu/people/tyler-backman), [Rebecca Sun](http://facility.bioinformatics.ucr.edu/people/rebecca-sun) and [Thomas Girke](http://girke.bioinformatics.ucr.edu/), [UC Riverside](http://labs.bioinformatics.ucr.edu/)  |  2012/12/10  | 
 | **[Galaxy Tutorials](https://genome.edu.au/wiki/Learn)**<div class='indent'>Including *RNA-Seq, Variant Detection,* and *Genome Assembly*</div> |  The [Genomics Virtual Lab](https://genome.edu.au/)  |  2012/09-12  | 
 | **[Analysis of ChIP-seq data in Galaxy](http://jura.wi.mit.edu/bio/education/hot_topics/galaxy/GalaxyNov2012_ChIP-seq_toPost.pdf)** |  [BaRC, Whitehead Institute](http://jura.wi.mit.edu/bio/education/hot_topics/)  |  2012/11  | 
-| **[Next Generation Sequencing Data Analysis](http://nihlibrary.ors.nih.gov/bioinfo/)** (Course no 11) <div class='indent'>"Massively parallel sequencing, also known as next generation sequencing, is a technology enabling high-throughput sequencing of genomes or loci of interest.  This course focuses on a single locus.  It examines the quality of the sequence reads; mapping of reads; and the quality of the mapping.  It also examines sequence variation." ([slides](PLACEHOLDER_ATTACHMENT_URL/src/Documents/Presentations/2012NIHLibYoungNGSDataAnalysis.pdf)) |  [Lynn Young](http://nihlibrary.nih.gov/Services/Bioinformatics/Pages/biostaff.aspx)  |  2012/09  | 
+| **[Next Generation Sequencing Data Analysis](http://nihlibrary.ors.nih.gov/bioinfo/)** (Course no 11) <div class='indent'>"Massively parallel sequencing, also known as next generation sequencing, is a technology enabling high-throughput sequencing of genomes or loci of interest.  This course focuses on a single locus.  It examines the quality of the sequence reads; mapping of reads; and the quality of the mapping.  It also examines sequence variation." ([slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/2012NIHLibYoungNGSDataAnalysis.pdf)) |  [Lynn Young](http://nihlibrary.nih.gov/Services/Bioinformatics/Pages/biostaff.aspx)  |  2012/09  | 
 | **[Automated and reproducible analysis of NGS data (ARANGS12)](https://github.com/rvosa/ngs-workflows/tree/master/doc/slides/day4)**<div class='indent'>Day 4</div> |  [Rutger Vos](http://rutgervos.blogspot.com/), Darin London  |  2012/09  | 
 | **[Galaxy, a web based platform for bioinformatics analysis](http://jura.wi.mit.edu/bio/education/hot_topics/galaxy/Galaxy_June2012.pdf)** |  [Bioinformatics & Research Computing @ MIT](http://jura.wi.mit.edu/bio/), as part of their [Hot Topics series](http://jura.wi.mit.edu/bio/education/hot_topics/)  |  2012/06  | 
 | **[Using Galaxy for NGS Analysis](http://chagall.med.cornell.edu/galaxy/)** |  [Luce Skrabanek](mailto:las2017 AT med DOT cornell DOT edu)  |  2012/06  | 
@@ -83,51 +83,51 @@ Galaxy for many users is all about Datasets, the inputs and outputs of analysis 
 
 Learning the basics of how to manage datasets helps to focus analysis on the scientific aspects of a project, while minimizing problems and troubleshooting. Simply put, save time and verify format first! It's quick to do right in the existing history, so there's no programming required.
 
-* [Using Custom Genomes](/src/Learn/CustomGenomes/index.md) - Format, loading, troubleshooting, and tools.
-* [Managing Datasets](/src/Learn/ManagingDatasets/index.md) - Attributes, Copy, Clone, Delete and more.
-* [Datatypes](/src/Learn/Datatypes/index.md) - Specifications for the datatypes used and produced by Galaxy's tools.
-* [Main](/src/Main/index.md) and [Test](/src/Test/index.md) Quotas - User account allocations for data and jobs. 
-* [Data management: accounting and disk quotas](/src/Admin/DiskQuotas/index.md) - Implementation details.
-* [Admin/Datatypes](/src/Admin/Datatypes/index.md) & [Admin/Data Integration](/src/Admin/DataIntegration/index.md) - Instructions about adding new datasets (genomes) and datatypes to a local Galaxy instance
+* [Using Custom Genomes](/src/learn/custom-genomes/index.md) - Format, loading, troubleshooting, and tools.
+* [Managing Datasets](/src/learn/managing-datasets/index.md) - Attributes, Copy, Clone, Delete and more.
+* [Datatypes](/src/learn/datatypes/index.md) - Specifications for the datatypes used and produced by Galaxy's tools.
+* [Main](/src/main/index.md) and [Test](/src/test/index.md) Quotas - User account allocations for data and jobs. 
+* [Data management: accounting and disk quotas](/src/admin/disk-quotas/index.md) - Implementation details.
+* [Admin/Datatypes](/src/admin/datatypes/index.md) & [Admin/Data Integration](/src/admin/data-integration/index.md) - Instructions about adding new datasets (genomes) and datatypes to a local Galaxy instance
 
 ## Tools
 
-<div class='right'>![](/src/Learn/ToolsPanel.png)</div>
+<div class='right'>![](/src/learn/ToolsPanel.png)</div>
 Extensive help on how to use a particular tool in Galaxy is often included on the tool page itself, inside Galaxy.  To see this help, click on a tool in the left tool panel, and then scroll to the bottom of the center panel. Help includes parameter explanations, links to tool developers' help pages, and examples.
 <br /><br />
-The long term plan is also to have a [wiki page for each widely installed tool](/src/Tools/index.md) in Galaxy. These pages will hold supplementary information about both using the tools and setting them up. However, we haven't set that up yet.
+The long term plan is also to have a [wiki page for each widely installed tool](/src/tools/index.md) in Galaxy. These pages will hold supplementary information about both using the tools and setting them up. However, we haven't set that up yet.
 
 In the meantime, for some tools there is also additional information available on this wiki:
-* [Interval Operations](/src/Learn/Interval Operations/index.md) - Help on tools that operate on *genomic intervals*.
-* [UCSC Galaxy Integration](/src/Learn/UCSC Galaxy Integration/index.md)
-* [Share](/src/Learn/Share/index.md) - How to share your Galaxy objects with others.
-* [FTP Upload](/src/FTPUpload/index.md) - Having problems loading larger (>2MB) files into [Main](/src/Main/index.md)? Watch the video **[Get Data: Upload File](http://vimeo.com/galaxyproject/upload)** to see exactly how.
-* [Uploading and Analyzing Genotype Data in Plink Format](/src/Learn/Uploading and Analyzing Genotype Data in Plink Format/index.md)
+* [Interval Operations](/src/learn/Interval Operations/index.md) - Help on tools that operate on *genomic intervals*.
+* [UCSC Galaxy Integration](/src/learn/UCSC Galaxy Integration/index.md)
+* [Share](/src/learn/share/index.md) - How to share your Galaxy objects with others.
+* [FTP Upload](/src/FTPUpload/index.md) - Having problems loading larger (>2MB) files into [Main](/src/main/index.md)? Watch the video **[Get Data: Upload File](http://vimeo.com/galaxyproject/upload)** to see exactly how.
+* [Uploading and Analyzing Genotype Data in Plink Format](/src/learn/Uploading and Analyzing Genotype Data in Plink Format/index.md)
 
 ## Visualization
 
-<div class='right'> <a href='/src/Learn/Visualization/index.md'><img src="/src/viz/histogram.png" alt="Visualization" width="300" /></a></div>
-Galaxy incorporates a [track browser](/src/Learn/Visualization/index.md). This can be used to visualize genomic data within Galaxy in a tightly integrated way. The browser also currently supports (and aims to support maximally) *visual analytics*, where visualization is used iteratively to provide feedback on analysis.  See [Visualization](/src/Learn/Visualization/index.md) for more. Additionally, Galaxy enables you to create bar diagrams, pie charts, scatter plots and other visualizations using the Charts plugin. See [Galaxy Charts](/src/Learn/Visualization/Charts/index.md) for more. Finally, custom visualizations developed by the user community are available [here](/src/Learn/Visualization/Custom/index.md).
+<div class='right'> <a href='/src/learn/visualization/index.md'><img src="/src/viz/histogram.png" alt="Visualization" width="300" /></a></div>
+Galaxy incorporates a [track browser](/src/learn/visualization/index.md). This can be used to visualize genomic data within Galaxy in a tightly integrated way. The browser also currently supports (and aims to support maximally) *visual analytics*, where visualization is used iteratively to provide feedback on analysis.  See [Visualization](/src/learn/visualization/index.md) for more. Additionally, Galaxy enables you to create bar diagrams, pie charts, scatter plots and other visualizations using the Charts plugin. See [Galaxy Charts](/src/learn/visualization/charts/index.md) for more. Finally, custom visualizations developed by the user community are available [here](/src/learn/visualization/custom/index.md).
 
 {{> Support/LinkBox }}
 ## User Accounts
 
-<div class='right'>![](/src/Learn/UserDropDown.png)</div>
-Galaxy user accounts are simple to create (email, password, user name and go!). An account is not required to access the Galaxy public [Main](/src/Main/index.md) or [Test](/src/Test/index.md) instances, but if used, the data quota is increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages).
+<div class='right'>![](/src/learn/UserDropDown.png)</div>
+Galaxy user accounts are simple to create (email, password, user name and go!). An account is not required to access the Galaxy public [Main](/src/main/index.md) or [Test](/src/test/index.md) instances, but if used, the data quota is increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages).
 
 * **[Accounts on Main](http://vimeo.com/galaxyproject/accounts)** - registration how-to video
-* [User Accounts](/src/Learn/UserAccounts/index.md)
-* [OpenID Login](/src/Learn/OpenID Login/index.md)
-* [Security Features](/src/Learn/Security Features/index.md)
+* [User Accounts](/src/learn/user-accounts/index.md)
+* [OpenID Login](/src/learn/OpenID Login/index.md)
+* [Security Features](/src/learn/Security Features/index.md)
 
 ## Other
 
-* [Choices](/src/BigPicture/Choices/index.md) - The Galaxy [Main](/src/Main/index.md) server is not your only choice for using Galaxy.
-* [Interactive Poster](/src/Learn/Interactive Poster/index.md)
-* [Admin](/src/Admin/index.md) - How to *administer* your own Galaxy instance
+* [Choices](/src/big-picture/choices/index.md) - The Galaxy [Main](/src/main/index.md) server is not your only choice for using Galaxy.
+* [Interactive Poster](/src/learn/Interactive Poster/index.md)
+* [Admin](/src/admin/index.md) - How to *administer* your own Galaxy instance
 
 <div class='center'>
-<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/Logos/UseGalaxySearch.png" alt="Search all "using" Galaxy resources" width="120" /></a>
+<a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/logos/UseGalaxySearch.png" alt="Search all "using" Galaxy resources" width="120" /></a>
 
 [Search all "using Galaxy" resources](http://galaxyproject.org/search/usegalaxy)
 </div>

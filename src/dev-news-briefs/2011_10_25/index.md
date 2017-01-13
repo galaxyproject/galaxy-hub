@@ -17,24 +17,24 @@ autotoc: true
 
 ## News
 
-<div class='left'><a href='/src/GalaxyIsHiring/index.md'><img src="/src/images/Icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
+<div class='left'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
 * Keep current on all things Galaxy at our [News](/src/news/index.md) and [Events](/src/events/index.md) wikis.
-* Galaxy is still [hiring](/src/GalaxyIsHiring/index.md)!
+* Galaxy is still [hiring](/src/galaxy-is-hiring/index.md)!
 
 ## What's New
 
 ### Galaxy Main
 
 * Data and Job Quotas announced earlier today by email, Galaxy wiki, Twitter, and News Items/RSS feed.
-  * [Email](http://lists.bx.psu.edu/pipermail/galaxy-user/2011-October/003467.html) message from the team to galaxy-user and galaxy-dev [mailing lists](/src/MailingLists/index.md).
-  * [Main](/src/Main/index.md) wiki with limits, FAQ, and related links.
-  * [Managing Datasets](/src/Learn/ManagingDatasets/index.md) wiki contains detailed help to organize, clone, copy, save, and delete unneeded data.
-  * [Disk Quotas](/src/Admin/DiskQuotas/index.md) wiki has administrative information on how Galaxy's disk space accounting works, how to keep it up to date, and how to enable and manage quotas
+  * [Email](http://lists.bx.psu.edu/pipermail/galaxy-user/2011-October/003467.html) message from the team to galaxy-user and galaxy-dev [mailing lists](/src/mailing-lists/index.md).
+  * [Main](/src/main/index.md) wiki with limits, FAQ, and related links.
+  * [Managing Datasets](/src/learn/managing-datasets/index.md) wiki contains detailed help to organize, clone, copy, save, and delete unneeded data.
+  * [Disk Quotas](/src/admin/disk-quotas/index.md) wiki has administrative information on how Galaxy's disk space accounting works, how to keep it up to date, and how to enable and manage quotas
   * Twitter [#galaxyproject](http://twitter.com/#galaxyproject).
   * [Galaxy News](/src/news/index.md) Items and RSS feed.
 
 ----
-<a href='http://galaxyproject.org/wiki/News'><img src="/src/images/NewsGraphics/2011_10_25_newsitem-quotas.png" alt="width="600px"" /></a>
+<a href='http://galaxyproject.org/wiki/News'><img src="/src/images/news-graphics/2011_10_25_newsitem-quotas.png" alt="width="600px"" /></a>
 ----
 
 
@@ -43,24 +43,24 @@ autotoc: true
 * Add the ability for a user to log out of all user sessions. Useful when sharing computers, using public computers, and the like.
 * Located under top menu bar: User -> Preferences ->*Logout of all user sessions*.
 
-<a href='http://usegalaxy.org/'><img src="/src/images/NewsGraphics/2011_10_25_logout-everywhere.png" alt="logout-everywhere" width="600px" /></a>
+<a href='http://usegalaxy.org/'><img src="/src/images/news-graphics/2011_10_25_logout-everywhere.png" alt="logout-everywhere" width="600px" /></a>
 
 ### Trackster (Galaxy Track Browser)
 
 * The October 23-24, [BioVis](http://www.biovis.net/) 2011, Providence, Rhode Island, United States, included a talk covering the visualization tool Trackster aka Galaxy Track Browser (GTB). Abstract is [here](http://www.biovis.net/papers_abstracts/papers/111.htmlhere).
 * Overview provides chromosome-wide view of a single track independent of primary, interactive view.
 
-<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/images/NewsGraphics/2011_10_25_trackster-overview.png" alt="trackster-overview" width="600px" /></a>
+<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/images/news-graphics/2011_10_25_trackster-overview.png" alt="trackster-overview" width="600px" /></a>
 * Make it possible to set features' transparency based on attribute values.
 
-<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/images/NewsGraphics/2011_10_25_trackster-transparency.png" alt="trackster-tranparency" width="600px" /></a>
+<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/images/news-graphics/2011_10_25_trackster-transparency.png" alt="trackster-tranparency" width="600px" /></a>
 * Introduce track groups, which can be used to cluster and move tracks together. Running tools places new tracks in groups.
 
-<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/images/NewsGraphics/2011_10_25_trackster-groups.png" alt="trackster-groups" width="600" /></a>
+<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/images/news-graphics/2011_10_25_trackster-groups.png" alt="trackster-groups" width="600" /></a>
 * Enable tools that produce BED output to be used in visual analytics framework and enable GOPS cluster tool to work in Trackster.
 * Use Fasta datasets to specify custom build visualizations.
 
-<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/images/NewsGraphics/2011_10_25_custom-builds.png" alt="custom-builds" width="400px" /></a>
+<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/images/news-graphics/2011_10_25_custom-builds.png" alt="custom-builds" width="400px" /></a>
 
 ### Python and OS Support
 
@@ -70,10 +70,10 @@ autotoc: true
 
 ### Galaxy Tool Shed
 
-<div class='left'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/Logos/ToolShed.jpg" alt="toolshed" width="100px" /></a></div>
-* [Search repositories for valid tools by any combination of id, name or version](/src/ToolShed/index.md#search_repositories_for_valid_tools_by_any_combination_of_id2c_name_or_version).
-* [Automatic installation of Galaxy tool shed repository tools into a local Galaxy instance](/src/ToolShed/index.md#automatic_installation_of_galaxy_tool_shed_repository_tools_into_a_local_galaxy_instance).
-* [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/ToolShed/index.md#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance).
+<div class='left'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="toolshed" width="100px" /></a></div>
+* [Search repositories for valid tools by any combination of id, name or version](/src/tool-shed/index.md#search_repositories_for_valid_tools_by_any_combination_of_id2c_name_or_version).
+* [Automatic installation of Galaxy tool shed repository tools into a local Galaxy instance](/src/tool-shed/index.md#automatic_installation_of_galaxy_tool_shed_repository_tools_into_a_local_galaxy_instance).
+* [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/tool-shed/index.md#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance).
 * Fixes for displaying file names that include spaces when browsing repository contents.
 
 ## Updated & Improved
@@ -91,12 +91,12 @@ autotoc: true
 * Update the *Text Manipulation -> Select random lines from a file* tool:
   * does two passes through input file: first pass determines line offsets/count, offsets are randomly removed, second pass writes out lines by seeking to remaining offsets. 
   * the random seed can now be optionally specified. 
-* New assertion-based tests for tool test outputs from John Chilton.  For usage, see the example in the [Tool Config Syntax](/src/Admin/Tools/ToolConfigSyntax/index.md#a3ctest3e_tag_set) documentation.
+* New assertion-based tests for tool test outputs from John Chilton.  For usage, see the example in the [Tool Config Syntax](/src/admin/tools/tool-config-syntax/index.md#a3ctest3e_tag_set) documentation.
 
 ### Quotas and Data Management
 
 * Various performance and usability enhancements, as well as a fully implemented API for the quota system.
-* Documentation at [Disk Quotas](/src/Admin/DiskQuotas/index.md) and [Managing Datasets](/src/Learn/ManagingDatasets/index.md).
+* Documentation at [Disk Quotas](/src/admin/disk-quotas/index.md) and [Managing Datasets](/src/learn/managing-datasets/index.md).
 * Purged histories were counting in users' disk usage calculations, this has been fixed, so you should rerun `galaxy-dist/scripts/set_user_disk_usage.py` to recalculate usages.
 * The time to load the list of saved histories should be greatly improved due to a more efficient query to calculate the sizes of histories in the list
 * It's now possible to purge all datasets in a history which are already deleted, as well as purge entire histories that are already deleted.
@@ -131,7 +131,7 @@ autotoc: true
 
 ### Bug Fixes
 
-<div class='right'><a href='/src/support/index.md'><img src="/src/images/Icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 
 * Tasked jobs will now inherit the parent job's user information correctly.
 * Remove unspecified build validators from Cuffdiff wrapperfixes [https://bitbucket.org/galaxy/galaxy-central/issue/631](https://bitbucket.org/galaxy/galaxy-central/issue/631).

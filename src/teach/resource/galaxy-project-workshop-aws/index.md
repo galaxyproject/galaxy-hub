@@ -4,14 +4,14 @@ title: Galaxy Project Workshop CloudMan on AWS Share
 <span style="font-size: larger;"> Hey! This Is Under Construction! </span>
 
 <div class='center'>
-<br /><a href='/src/CloudMan/index.md'><img src="/src/images/Logos/CloudManWideBlackLogo.png" alt="CloudMan" height="75" /></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="Amazon Web Services" height="75" /></a><br /><br /></div>
+<br /><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" height="75" /></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" height="75" /></a><br /><br /></div>
 
 
 
 
 
 <div class='deploymentbox'>
- Resource:: **[Galaxy Project Workshop CloudMan on AWS Share](/src/Teach/Resource/GalaxyProjectWorkshopAWS/index.md)**
+ Resource:: **[Galaxy Project Workshop CloudMan on AWS Share](/src/teach/resource/galaxy-project-workshop-aws/index.md)**
  Types:: CloudMan on AWS share
  Domains:: **RNA-Seq, ChIP-Seq, Introduction** 
  Owners:: [Galaxy Project](http://galaxyproject.org)
@@ -19,7 +19,7 @@ title: Galaxy Project Workshop CloudMan on AWS Share
  Date:: 2014/12
 </div>
 
-The [Galaxy Team](/src/GalaxyTeam/index.md) runs most of it's [hands-on workshops](/src/events/index.md) using CloudMan based instances running on [Amazon Web Services (AWS)](https://aws.amazon.com).  We could create each workshop server anew each time we do a workshop, but it is much easier to create an instance once, take a snapshot of it, and then reuse that snapshot whenever we have a workshop.
+The [Galaxy Team](/src/galaxy-team/index.md) runs most of it's [hands-on workshops](/src/events/index.md) using CloudMan based instances running on [Amazon Web Services (AWS)](https://aws.amazon.com).  We could create each workshop server anew each time we do a workshop, but it is much easier to create an instance once, take a snapshot of it, and then reuse that snapshot whenever we have a workshop.
 
 This page describes the current Galaxy Project workshop snapshot.  It's publicly available and can be used by anyone.
 
@@ -38,7 +38,7 @@ This page describes the current Galaxy Project workshop snapshot.  It's publicly
 To use the instance, you'll need to:
 
 1. Get an AWS account.  See xxxx for details on that.
-1. Launch a Galaxy instance on AWS, using either the [AWS console interface](/src/AWS console interface/index.md), or [CloudLaunch](/src/CloudLaunch/index.md)
+1. Launch a Galaxy instance on AWS, using either the [AWS console interface](/src/AWS console interface/index.md), or [CloudLaunch](/src/cloudLaunch/index.md)
 1. **However**, instead of allocating so many gigabytes of storage, launch your instance using the Galaxy Project Workshop share string (see above) as per [these instructions](/src/these instructions/index.md)
 
 This will launch a fully populated Galaxy server using the latest Galaxy AMI, but with data you'll need to run several standard examples we use in our training.
@@ -78,4 +78,4 @@ Should point to a separate page
 Links to any useful datasets or information.
 
 
-[CategoryTrainingResource](/src/CategoryTrainingResource/index.md)
+[CategoryTrainingResource](/src/category-training-resource/index.md)

@@ -5,7 +5,7 @@ autotoc: true
 
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/Images/Logos/ToolShed.jpg" alt="Galaxy ToolShed" width=200 /></a></div>
 
-Tools contributed to the Galaxy Project Tool Shed in [November and December 2016](/src/GalaxyUpdates/2017_01/index.md).
+Tools contributed to the Galaxy Project Tool Shed in [November and December 2016](/src/galaxy-updates/2017_01/index.md).
 
 ### New Tools
 

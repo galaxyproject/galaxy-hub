@@ -1,5 +1,5 @@
 
-<div class='right'>![](/src/GalaxyTeam/greg.jpg)</div>
+<div class='right'>![](/src/galaxy-team/greg.jpg)</div>
 
 # Greg von Kuster
 
@@ -17,18 +17,18 @@ Greg left HP in early 2000 along with 2 partners and formed a dot-com startup na
 
 In 2003 Greg moved to State College, PA, taking a position as VP of Engineering for a Happy Valley startup named Advanced Interfaces, Inc., which eventually became `VideoMining Corporation`.
 
-In 2006 Greg brought his corporate experience to the [Galaxy Team](/src/GalaxyTeam/index.md) at [Penn State University](http://www.psu.edu/) where he managed the Galaxy development effort and played a key role in landing the 2008 grant that enabled the team to grow to include members at Penn State University, Emory University and beyond.
+In 2006 Greg brought his corporate experience to the [Galaxy Team](/src/galaxy-team/index.md) at [Penn State University](http://www.psu.edu/) where he managed the Galaxy development effort and played a key role in landing the 2008 grant that enabled the team to grow to include members at Penn State University, Emory University and beyond.
 
 Greg has been involved at some level in virtually every aspect of Galaxy.  He introduced processes early in Galaxy's development lifecycle that enabled its pervasive adoption around the world, and continues to leverage his experience to make Galaxy a useful, high-quality product that fills a unique niche in biological research.  
 
 Greg wrote the specifications and is the architect and developer of the following Galaxy features and components.
 
-* The first biomedical appStore: [the Galaxy Tool Shed](/src/ToolShed/index.md)
-* [Enabling the simultaneous use of multiple versions of the same tool in a Galaxy instance](/src/ToolShed/index.md#galaxy_tool_versions)
+* The first biomedical appStore: [the Galaxy Tool Shed](/src/tool-shed/index.md)
+* [Enabling the simultaneous use of multiple versions of the same tool in a Galaxy instance](/src/tool-shed/index.md#galaxy_tool_versions)
 * [The demo sequencer, demonstrating Galaxy integration with a PacBio instrument](http://screencast.g2.bx.psu.edu/pacBio-demo/)
-* [Galaxy reports](/src/DevNewsBriefs/2010 06_08/index.md)
+* [Galaxy reports](/src/dev-news-briefs/2010 06_08/index.md)
 
 The following components have gone through several phases of development.  Greg was involved with others in the initial phase that resulted in a functional prototype.  He leveraged what was learned in building the prototype, and re-engineered the components, improving them to produce what currently exists.
 
-* [Galaxy Sample Tracking](/src/Admin/DataLibraries/LibrarySampleTracking/index.md)
-* [Galaxy Data Libraries](/src/Admin/DataLibraries/index.md)
+* [Galaxy Sample Tracking](/src/admin/data-libraries/library-sample-tracking/index.md)
+* [Galaxy Data Libraries](/src/admin/data-libraries/index.md)

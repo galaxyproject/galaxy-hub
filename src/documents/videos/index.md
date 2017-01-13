@@ -1,6 +1,6 @@
 {{> Documents/LinkBox }}
 
-Common place to attach videos in the [Documents](/src/Documents/index.md) hierarchy.
+Common place to attach videos in the [Documents](/src/documents/index.md) hierarchy.
 
 ## Videos
 

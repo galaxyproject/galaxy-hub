@@ -1,10 +1,10 @@
-<div class='newsItemHeader'>[Galaxy Biostar Launched](/src/news/GalaxyBiostarLaunch/index.md)</div>
+<div class='newsItemHeader'>[Galaxy Biostar Launched](/src/news/galaxy-biostar-launch/index.md)</div>
 
-<div class='right'><a href='https://biostar.usegalaxy.org/'><img src="/src/images/Logos/GalaxyBiostar.png" alt="Galaxy Biostar"  /></a></div>
+<div class='right'><a href='https://biostar.usegalaxy.org/'><img src="/src/images/logos/GalaxyBiostar.png" alt="Galaxy Biostar"  /></a></div>
 
 **Galaxy has teamed up with [Biostar](http://biostars.org) to create a [Galaxy User support forum](https://biostar.usegalaxy.org) at https://biostar.usegalaxy.org!**
 
-We want to create a space where researchers using Galaxy can come together and share both scientific advice and practical tool help.  Whether on [usegalaxy.org](https://usegalaxy.org), a CloudMan instance, or any other Galaxy ([public](/src/PublicGalaxyServers/index.md) or local), if you have something to say about *Using Galaxy*, this is the place to do it!
+We want to create a space where researchers using Galaxy can come together and share both scientific advice and practical tool help.  Whether on [usegalaxy.org](https://usegalaxy.org), a CloudMan instance, or any other Galaxy ([public](/src/public-galaxy-servers/index.md) or local), if you have something to say about *Using Galaxy*, this is the place to do it!
 
 **Current integration with usegalaxy.org**
 
@@ -12,7 +12,7 @@ We want to create a space where researchers using Galaxy can come together and s
 * If you access [Galaxy Biostar](https://biostar.usegalaxy.org) from http://usegalaxy.org (Menu: **Help &rarr; Galaxy Biostar**) you will be automatically logged in. A Galaxy Biostar account will be created for you if it did not previously exist. To obtain this account’s password please use the [password reset feature](https://biostar.usegalaxy.org/accounts/password/reset/) of Galaxy Biostar.
 * When you have a question, search Galaxy Biostar directly from any Galaxy tool page.
 
-Read more about how to get started on the [Biostar wiki page](/src/support/Biostar/index.md).
+Read more about how to get started on the [Biostar wiki page](/src/support/biostar/index.md).
 
 **Roll-out phase**
 
@@ -31,8 +31,8 @@ We hope you will like the change and look forward to any feedback you may have.
 
 *Thank you for using Galaxy!*
 
-[Galaxy Team](/src/GalaxyTeam/index.md)
+[Galaxy Team](/src/galaxy-team/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-04-23</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

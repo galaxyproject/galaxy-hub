@@ -17,9 +17,9 @@ title: January 20, 2012 Galaxy Development News Brief
 
 ## News & Events
 
-* Make your plans!! **[GCC2012](/src/events/GCC2012/index.md)**
-* New [Galaxy Group @ CiteULike](/src/news/NewGalaxyGroupCiteULike/index.md)
-* Find it *now* with [Custom Galaxy Web Searches](/src/news/CustomGalaxySearch/index.md)
+* Make your plans!! **[GCC2012](/src/events/gcc2012/index.md)**
+* New [Galaxy Group @ CiteULike](/src/news/new-galaxy-group-cite-u-like/index.md)
+* Find it *now* with [Custom Galaxy Web Searches](/src/news/custom-galaxy-search/index.md)
 * New low-volume mailing list: [Galaxy-Announce](/src/news/New Galaxy-Announce Mailing List/index.md)
 
 ## Object Store
@@ -30,13 +30,13 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 
 * **[TopHat:](http://tophat.cbcb.umd.edu/)**
   * Wrapper accepts versions 1.3.1-1.4.0, with at least 1.3.3 recommended. 1.4.0 is preferred.
-  * Galaxy [Main](/src/Main/index.md) is now running version 1.4.0.
+  * Galaxy [Main](/src/main/index.md) is now running version 1.4.0.
 * **[Cufflinks, CuffCompare, CuffDiff:](http://cufflinks.cbcb.umd.edu/)** 
   * Wrapper accepts versions 1.1.0-1.3.0. 1.3.0 is preferred.
-  * Galaxy [Main](/src/Main/index.md) is now running version 1.3.0 for all Cuff* tools.
+  * Galaxy [Main](/src/main/index.md) is now running version 1.3.0 for all Cuff* tools.
 * **[SAMTools mpileup:](http://samtools.sourceforge.net/mpileup.shtml)**
   * Wrapper for use in local instances.
-  * Not available on Galaxy [Main](/src/Main/index.md) at this time.
+  * Not available on Galaxy [Main](/src/main/index.md) at this time.
 * **[GenomeSpace](http://www.genomespace.org/)** import from file browser tool updated to use their newer API.
 * **[EBI ENA SRA](http://www.ebi.ac.uk/ena/)** tool contributed by Iain Cleland.
 * **[Picard](http://sourceforge.net/projects/picard/) Interval List to [BED6](http://genome.ucsc.edu/FAQ/FAQformat.html#format1)** converter added.
@@ -52,7 +52,7 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 * All rows for feature tracks--BED, GTF, SAM, BAM--can now be displayed.
 * Custom composite tracks now available: any amount of wiggle data can be combined into a single track. See Fig.1.
 
-![](/src/images/NewsGraphics/2012_01_20_composite-tracks.png)<br />
+![](/src/images/news-graphics/2012_01_20_composite-tracks.png)<br />
 **Fig. 1** shows a Visualization of a "rainbow" composite track generated via a "drag-and-drop" method within the Trackster UI itself. The top three individual conservation tracks are combined into a fourth single composite track underneath.
 
 ## Workflows
@@ -64,7 +64,7 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 
 ## Source
 
-* User interface (UI): A history item's details page (linked from the "View Details" ![](/src/images/Icons/HistoryInfo.png) icon) now contains links to the `STDOUT` and `STDERR` captured when running a tool's job command line.
+* User interface (UI): A history item's details page (linked from the "View Details" ![](/src/images/icons/HistoryInfo.png) icon) now contains links to the `STDOUT` and `STDERR` captured when running a tool's job command line.
 * Job Management: A new setting in the Galaxy config file, `cleanup_job` can take one of three values, `always` (the default), `never`, or `onsuccess`. This controls when temporary data, such as a job's working directory, external metadata files, and DRM output/error files are cleaned up.
 * **[JQuery](http://jquery.com/)** updated to 1.7.1
 * Updated all tools which were manually filtering on tool_data_tables to determine paths to use built-in param.fields.path.
@@ -90,14 +90,14 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
   * Do not allow public user names to be changed within the tool shed if the user has created a tool shed repository.
   * Don't allow repository names to be changed if the repository has been cloned at least 1 time.
 * More new tool shed features documented in the following new Galaxy wiki sections:
-  * [Including proprietary data types that subclass from Galaxy data types in the distribution](/src/ToolShed/index.md#including_proprietary_data_types_that_subclass_from_galaxy_data_types_in_the_distribution)
-  * [Including proprietary data types that use class modules contained in your repository](/src/ToolShed/index.md#including_proprietary_data_types_that_use_class_modules_contained_in_your_repository)
-  * [Including datatype converters and display applications](/src/ToolShed/index.md#including_datatype_converters_and_display_applications)
-  * [Automatic installation of Galaxy tool shed repository data types into a local Galaxy instance](/src/ToolShed/index.md#automatic_installation_of_galaxy_tool_shed_repository_data_types_into_a_local_galaxy_instance)
-  * [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/ToolShed/index.md#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance)
-  * [Migrating tools from the Galaxy distribution to the Galaxy main tool shed](/src/ToolShed/index.md#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)
-  * [Configuring your Galaxy server to automatically install tools eliminated from the Galaxy distribution](/src/ToolShed/index.md#configuring_your_galaxy_server_to_automatically_install_tools_eliminated_from_the_galaxy_distribution)
-  * [Use case: automatically install the Emboss tools and datatypes into a local Galaxy instance](/src/ToolShed/index.md#use_case_automatically_install_the_emboss_tools_and_datatypes_into_a_local_galaxy_instance)
+  * [Including proprietary data types that subclass from Galaxy data types in the distribution](/src/tool-shed/index.md#including_proprietary_data_types_that_subclass_from_galaxy_data_types_in_the_distribution)
+  * [Including proprietary data types that use class modules contained in your repository](/src/tool-shed/index.md#including_proprietary_data_types_that_use_class_modules_contained_in_your_repository)
+  * [Including datatype converters and display applications](/src/tool-shed/index.md#including_datatype_converters_and_display_applications)
+  * [Automatic installation of Galaxy tool shed repository data types into a local Galaxy instance](/src/tool-shed/index.md#automatic_installation_of_galaxy_tool_shed_repository_data_types_into_a_local_galaxy_instance)
+  * [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/tool-shed/index.md#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance)
+  * [Migrating tools from the Galaxy distribution to the Galaxy main tool shed](/src/tool-shed/index.md#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)
+  * [Configuring your Galaxy server to automatically install tools eliminated from the Galaxy distribution](/src/tool-shed/index.md#configuring_your_galaxy_server_to_automatically_install_tools_eliminated_from_the_galaxy_distribution)
+  * [Use case: automatically install the Emboss tools and datatypes into a local Galaxy instance](/src/tool-shed/index.md#use_case_automatically_install_the_emboss_tools_and_datatypes_into_a_local_galaxy_instance)
 
 ## Tool Shed Contributions
 
@@ -114,7 +114,7 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 
 ## Bug Fixes
 
-<div class='right'><a href='/src/support/index.md'><img src="/src/images/Icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 * Support display of extra files/composite types in published items. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/628](https://bitbucket.org/galaxy/galaxy-central/issue/628)
 * Standardize code and error messages on 'public name' rather than 'username'
 * When exporting a history archive, use user dataset names rather than Galaxy dataset names. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/680](https://bitbucket.org/galaxy/galaxy-central/issue/680)

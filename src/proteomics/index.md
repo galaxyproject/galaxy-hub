@@ -2,7 +2,7 @@
 
 {{> Proteomics/LinkBox }}
 
-This is a landing page for finding out information about Galaxy-based proteomics efforts. Please check our ongoing planning and documentation of potential proteomics, mass spec, and multi-omics Galaxy [use cases](/src/Proteomics/UseCases/index.md).
+This is a landing page for finding out information about Galaxy-based proteomics efforts. Please check our ongoing planning and documentation of potential proteomics, mass spec, and multi-omics Galaxy [use cases](/src/proteomics/use-cases/index.md).
 
 ## Quick Links
 

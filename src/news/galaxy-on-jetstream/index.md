@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[Galaxy on Jetstream Cloud](/src/news/GalaxyOnJetstream/index.md)</div>
+<div class='newsItemHeader'>[Galaxy on Jetstream Cloud](/src/news/galaxy-on-jetstream/index.md)</div>
 
 <div class='right'><img src="https://www.nsf.gov/news/mmg/media/images/jetstream_logo_f_fe60185c-962f-4c1f-99bf-e6ec82d54c21.jpg" alt="" width="300" /></div>
 
@@ -20,4 +20,4 @@ More documentation about the process can be found on Galaxy’s wiki: https://wi
 
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-04-07</div>
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

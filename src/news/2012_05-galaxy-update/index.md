@@ -1,24 +1,24 @@
-<div class='newsItemHeader'>[May 2012 Galaxy Update](/src/news/2012_05GalaxyUpdate/index.md)</div>
+<div class='newsItemHeader'>[May 2012 Galaxy Update](/src/news/2012_05-galaxy-update/index.md)</div>
 
-<div class='right'><a href='/src/GalaxyUpdates/2012_05/index.md'><img src="/src/images/Logos/GalaxyUpdate200.png" alt="May 2012 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/src/galaxy-updates/2012_05/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="May 2012 Galaxy Update" width=150 /></a></div>
 
-The [May 2012 Galaxy Update](/src/GalaxyUpdates/2012_05/index.md) is now available.  *[Galaxy Update](/src/GalaxyUpdates/index.md)* is a (mostly) monthly summary of what is going on in the Galaxy community.  *Galaxy Updates* complement the *[Galaxy Development News Briefs](/src/DevNewsBriefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+The [May 2012 Galaxy Update](/src/galaxy-updates/2012_05/index.md) is now available.  *[Galaxy Update](/src/galaxy-updates/index.md)* is a (mostly) monthly summary of what is going on in the Galaxy community.  *Galaxy Updates* complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 **Highlights:**
 
-* [GCC2012 Just 3 Months Away!](/src/GalaxyUpdates/2012_05/index.md#gcc2012-just-3-months-away)
-  * [Training Day needs your input!](/src/GalaxyUpdates/2012_05/index.md#training-day-we-need-your-help)
-* [Galaxy Tour de France 2012: This Month!](/src/GalaxyUpdates/2012_05/index.md#galaxy-tour-de-france-2012)
-* [A new public server: Nebula for ChIP-Seq](/src/GalaxyUpdates/2012_05/index.md#new-public-server-nebula) 
-* [31 New Papers](/src/GalaxyUpdates/2012_05/index.md#new-papers)
-* [Open Positions](/src/GalaxyUpdates/2012_05/index.md#whos-hiring) at six different institutions
-* [Upcoming Events and Deadlines](/src/GalaxyUpdates/2012_05/index.md#upcoming-events-and-deadlines)
-* [Tool Shed Contributions](/src/GalaxyUpdates/2012_05/index.md#tool-shed-contributions)
+* [GCC2012 Just 3 Months Away!](/src/galaxy-updates/2012_05/index.md#gcc2012-just-3-months-away)
+  * [Training Day needs your input!](/src/galaxy-updates/2012_05/index.md#training-day-we-need-your-help)
+* [Galaxy Tour de France 2012: This Month!](/src/galaxy-updates/2012_05/index.md#galaxy-tour-de-france-2012)
+* [A new public server: Nebula for ChIP-Seq](/src/galaxy-updates/2012_05/index.md#new-public-server-nebula) 
+* [31 New Papers](/src/galaxy-updates/2012_05/index.md#new-papers)
+* [Open Positions](/src/galaxy-updates/2012_05/index.md#whos-hiring) at six different institutions
+* [Upcoming Events and Deadlines](/src/galaxy-updates/2012_05/index.md#upcoming-events-and-deadlines)
+* [Tool Shed Contributions](/src/galaxy-updates/2012_05/index.md#tool-shed-contributions)
 
-If you have anything you would like to see in the June *[Galaxy Update](/src/GalaxyUpdates/index.md)*, please let me know.
+If you have anything you would like to see in the June *[Galaxy Update](/src/galaxy-updates/index.md)*, please let me know.
 
-[Dave Clements](/src/DaveClements/index.md)
+[Dave Clements](/src/dave-clements/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-05-01</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

@@ -15,11 +15,11 @@ hg pull -u -r 11fb3bb5b250
 
 Add 'recently used tools' section to tools menu (highlighted in the June 21, 2010 brief).  Recently used tools is a list of the five most recent tools that a user has run.  A user must be logged in to use this feature, which is available in the Options pop-up menu in the tool panel.  The option is "Show Recently Used".
 
-![](/src/DevNewsBriefs/2010_07_16/2010_07_16_show_recently_used.png)
+![](/src/dev-news-briefs/2010_07_16/2010_07_16_show_recently_used.png)
 
 When selected, a new "Recently Used" tool section is displayed at the top of the tool panel.
 
-![](/src/DevNewsBriefs/2010_07_16/2010_07_16_recently_used.png)
+![](/src/dev-news-briefs/2010_07_16/2010_07_16_recently_used.png)
 
 ### Initial implementation of the Galaxy Web API
 
@@ -48,7 +48,7 @@ This feature is disabled unless "enable_api = True" in universe_wsgi.ini config 
 
 #### Things that need to be done next
 
-* Documentation! *(Edit: See [Learn/API](/src/Learn/API/index.md) and [Admin/API](/src/Admin/API/index.md))*
+* Documentation! *(Edit: See [Learn/API](/src/learn/api/index.md) and [Admin/API](/src/admin/api/index.md))*
 * Refactor reused code from library_common and other controllers into an even-more-generic location and format.  The main changes are that the Web UI returns redirects and rendered templates, whereas the API returns various HTTP status codes and JSON.
 * Implement more functionality.
 * The request and response format should be considered alpha and are subject to change.  They will be standardized as the API matures.

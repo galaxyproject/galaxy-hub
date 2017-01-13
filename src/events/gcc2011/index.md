@@ -1,4 +1,4 @@
-<div class='center'><a href='http://galaxy.psu.edu/gcc2011/'><img src="/src/events/GCC2011Logo400.png" alt="http://galaxy.psu.edu/gcc2011/" /></a></div>
+<div class='center'><a href='http://galaxy.psu.edu/gcc2011/'><img src="/src/events/gcc2011Logo400.png" alt="http://galaxy.psu.edu/gcc2011/" /></a></div>
 
 The 2011 Galaxy Community Conference was held 25-26 May, at the [Conference Centre De Werelt](http://www.congrescentrum.com/accommodations/de_werelt) in Lunteren, The Netherlands. The conference featured [two full days](http://galaxy.psu.edu/gcc2011/Programme.html) of presentations and discussion on extending [Galaxy](http://usegalaxy.org) to use new tools and data sources, deploying Galaxy locally, and best practices for using Galaxy to further your research. The event drew almost 150 participants from 19 countries on six continents.  The conference was co-organized and hosted by the [Netherlands Bioinformatics Centre (NBIC)](http://www.nbic.nl/).
 
@@ -25,13 +25,13 @@ Listed in the order they were given:
 | *Galaxy Deployment and API* |  Nate Coraor, Penn State University, and Dannon Baker, Emory University  |  [PowerPoint](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyDeploymentandAPI.ppt), [PDF](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyDeploymentandAPI.pdf)  |  [Watch](http://vimeo.com/24869193)  | 
 | *Pathogenomics Analysis and Visualization* |  Freddy de Bree, Central Veterinary Institute at Wageningen UR  |    |  [Watch](http://vimeo.com/24869089)  | 
 | *National Collaborative Platform for Genomics and Proteomics Data Analysis* |  Hailiang Mei, NBIC  |  [PDF](PLACEHOLDER_ATTACHMENT_URL/src/NationalCollaborativePlatformForGenomicsAndProteomicsDataAnalysis.pdf)  |  [Watch](http://vimeo.com/24869172)  | 
-| *Using Galaxy to Provide Tools for the Analysis of Diverse Local Datasets* |  [Hans-Rudolf Hotz](/src/HansrudolfHotz/index.md), Friedrich Miescher Institute for Biomedical Research  |  [PDF](PLACEHOLDER_ATTACHMENT_URL/src/SixKeyInsights.pdf)  |  [Watch](http://vimeo.com/24869041)  | 
+| *Using Galaxy to Provide Tools for the Analysis of Diverse Local Datasets* |  [Hans-Rudolf Hotz](/src/hansrudolf-hotz/index.md), Friedrich Miescher Institute for Biomedical Research  |  [PDF](PLACEHOLDER_ATTACHMENT_URL/src/SixKeyInsights.pdf)  |  [Watch](http://vimeo.com/24869041)  | 
 | *Deploying Galaxy for Use with High-Throughput Screening Experiments* |  Grainne Kerr, German Cancer Research Center and Heidelberg University  |  [PowerPoint](PLACEHOLDER_ATTACHMENT_URL/src/DeployingGalaxyForUseWithHigh-ThroughputScreeningExperiments.pptx), [PDF](PLACEHOLDER_ATTACHMENT_URL/src/DeployingGalaxyForUseWithHigh-ThroughputScreeningExperiments.pdf)  |  [Watch](http://vimeo.com/24868750)  | 
 | *A Galactic Experience and Extending Galaxy Sample Tracking* |  Jelle Scholtalbers, TRON gGmbH  |  [OpenOffice](PLACEHOLDER_ATTACHMENT_URL/src/AGalacticExperienceAndExtendingGalaxySampleTracking.odp), [PDF](PLACEHOLDER_ATTACHMENT_URL/src/AGalacticExperienceAndExtendingGalaxySampleTracking.pdf)  |  [Watch](http://vimeo.com/24868944)  | 
 | *Movement of Large Datasets via Integration of GridFTP and GlobusOnline with a Production Galaxy Setup at the University of Chicago* |  Neil Bahroos and Alex Rodriquez, University of Chicago  |    |  [Watch](http://vimeo.com/24868993)  | 
 | *Galaxy for High Throughput Sequencing* |  Kirt Haden, Illumina  |  [PowerPoint](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyForHighThrouputSequencing.pptx), [PDF](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyForHighThrouputSequencing.pdf)  |  [Watch](http://vimeo.com/24869121)  | 
 | *JAX: Exploring the Galaxy — Our Experiences Deploying and Using Galaxy* |  Glen Beane, Jackson Laboratory  |  [PowerPoint](PLACEHOLDER_ATTACHMENT_URL/src/JAXExploringTheGalaxy.pptx), [PDF](PLACEHOLDER_ATTACHMENT_URL/src/JAXExploringTheGalaxy.pdf)  |  [Watch](http://vimeo.com/24869144)  | 
-| *CloudMan: Galaxy on the Cloud* |  Enis Afgan, Emory University  |  [PDF](PLACEHOLDER_ATTACHMENT_URL/src/CloudManGalaxyOnTheCloud.pdf)  |  [Watch](http://vimeo.com/24870202)  | 
+| *CloudMan: Galaxy on the Cloud* |  Enis Afgan, Emory University  |  [PDF](PLACEHOLDER_ATTACHMENT_URL/src/cloudmanGalaxyOnTheCloud.pdf)  |  [Watch](http://vimeo.com/24870202)  | 
 | *The Genomic Hyperbrowser* |  Geir Kjetil Sandve, University of Oslo  |  [PDF](PLACEHOLDER_ATTACHMENT_URL/src/TheGenomicHyperbrowser.pdf)  |  [Watch](http://vimeo.com/24876696)  | 
 | *Customized Galaxy with Applications as Web Services and on the Grid for Open Source Drug Discovery* |  Anshu Bhardwaj, Open Source Drug Discovery Consortium, Council of Scientific and Industrial Research; and Chintalapati Janaki, Center for Development of Advanced Computing (C-DAC); India  |  [PDF](PLACEHOLDER_ATTACHMENT_URL/src/OpenSourceDrugDiscovery.pdf)  |  [Watch](http://vimeo.com/24870112)  | 
 | *Enacting Taverna Workflows Through Galaxy* |  Konstantinos Karasavvas, NBIC  |  [PDF](PLACEHOLDER_ATTACHMENT_URL/src/EnactingTavernaWorkflowsThroughGalaxy.pdf)  |  [Watch](http://vimeo.com/24876774)  | 
@@ -66,12 +66,12 @@ Relocate the links from the current pages in Bitbucket to here.
 
 Each breakout has its own wiki page for notes. Someone in each group was selected to take notes, either directly on the wiki page, or just in a text editor (in which case, they will show up in June).
 
-* [Visualization and Visual Analytics](/src/events/GCC2011/Visualization and Visual Analytics/index.md) ([Jeremy Goecks](/src/JeremyGoecks/index.md))
-* [Sample Tracking and Instrument Integration](/src/events/GCC2011/Sample Tracking and Instrument Integration/index.md) (Greg Von Kuster)
+* [Visualization and Visual Analytics](/src/events/gcc2011/Visualization and Visual Analytics/index.md) ([Jeremy Goecks](/src/jeremy-goecks/index.md))
+* [Sample Tracking and Instrument Integration](/src/events/gcc2011/Sample Tracking and Instrument Integration/index.md) (Greg Von Kuster)
 * [[/Thinking Big: CloudMan, Grid, and Scalability|Thinking Big: CloudMan, Grid, and Scalability]] (Enis Afgan)
-* [Workflows and API](/src/events/GCC2011/Workflows and API/index.md) (Kanwei Li)
+* [Workflows and API](/src/events/gcc2011/Workflows and API/index.md) (Kanwei Li)
 * [[/Complex Tools and Datasources: Parameters, Datatypes and Metadata|Complex Tools and Datasources: Parameters, Datatypes and Metadata]] (Dan Blankenberg)
-* [Building a Data Infrastructure: Genomic Data Management](/src/events/GCC2011/BuildingADataInfrastructure/index.md) (Kelly Vincent)
+* [Building a Data Infrastructure: Genomic Data Management](/src/events/gcc2011/building-a-data-infrastructure/index.md) (Kelly Vincent)
 
 ## Pictures
 

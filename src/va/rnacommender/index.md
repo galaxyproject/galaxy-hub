@@ -2,14 +2,14 @@
 title: RNAcommender
 ---
 <div class='center'>
-<a href='http://rnacommender.disi.unitn.it/'><img src="/src/VA/RNAcommender/RNAcommenderLogo.png" alt="RNAcommender" height="200" /></a>
+<a href='http://rnacommender.disi.unitn.it/'><img src="/src/va/rnacommender/RNAcommenderLogo.png" alt="RNAcommender" height="200" /></a>
 </div>
 
 
 
 <div class='dictbox'>
- Appliance:: **[RNAcommender](/src/VA/RNAcommender/index.md)**
- Technology:: **[Docker](/src/VirtualAppliances/index.md#docker-containers)**
+ Appliance:: **[RNAcommender](/src/va/rnacommender/index.md)**
+ Technology:: **[Docker](/src/virtual-appliances/index.md#docker-containers)**
  Domains:: **RNA-protein interactions** 
  Description:: Genome-wide recommendation of RNA-protein interactions.
  Owners:: [Gianluca Corrado](https://scholar.google.com/citations?user=POZPkQgAAAAJ&hl=en), [Andrea Passerini](http://disi.unitn.it/~passerini/)
@@ -23,4 +23,4 @@ title: RNAcommender
 * [RNAcommender](http://rnacommender.disi.unitn.it/)
 * [Paper](http://bioinformatics.oxfordjournals.org/content/early/2016/08/07/bioinformatics.btw517)
 
-[CategoryVirtualAppliance](/src/CategoryVirtualAppliance/index.md)
+[CategoryVirtualAppliance](/src/category-virtual-appliance/index.md)

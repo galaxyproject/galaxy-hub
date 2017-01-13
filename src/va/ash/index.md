@@ -2,7 +2,7 @@
 title: [Automated Selection of Hotspots (ASH) VM](http://bioinformatics.erasmusmc.nl/wiki/index.php/Automated_Selection_of_Hotspots)
 ---
 <div class='center'>
-<a href='http://bioinformatics.erasmusmc.nl/wiki/index.php/Automated_Selection_of_Hotspots'><img src="/src/images/Logos/ERasmusBioinformatics.jpg" alt="Erasmus Center for Bioinformatics" height="200" /></a>
+<a href='http://bioinformatics.erasmusmc.nl/wiki/index.php/Automated_Selection_of_Hotspots'><img src="/src/images/logos/ERasmusBioinformatics.jpg" alt="Erasmus Center for Bioinformatics" height="200" /></a>
 </div>
 
 
@@ -10,8 +10,8 @@ title: [Automated Selection of Hotspots (ASH) VM](http://bioinformatics.erasmusm
 
 
 <div class='dictbox'>
- Appliance:: **[Automated Selection of Hotspots (ASH)](/src/VA/ASH/index.md)**
- Technology:: **[VM](/src/VirtualAppliances/index.md#virtual-machine-images)**
+ Appliance:: **[Automated Selection of Hotspots (ASH)](/src/va/ash/index.md)**
+ Technology:: **[VM](/src/virtual-appliances/index.md#virtual-machine-images)**
  Domains:: **hotspot detection** 
  Description:: automated detection quantitative ranking of hotspots to support histopathologists in selecting the ‘hottest’ hotspot areas in adrenocortical carcinoma.
  Owners:: [David van Zessen](mailto:d.vanzessen@erasmusmc.nl), [Erasmus Medical](http://www.erasmusmc.nl/?lang=en) Center
@@ -27,4 +27,4 @@ From the [VM's home page](http://bioinformatics.erasmusmc.nl/wiki/index.php/Auto
 * [Home page](http://bioinformatics.erasmusmc.nl/wiki/index.php/Automated_Selection_of_Hotspots)
 * "[Automated Selection of Hotspots (ASH): enhanced automated segmentation and adaptive step finding for Ki67 hotspot detection in adrenal cortical cancer](http://www.diagnosticpathology.org/content/9/1/216/abstract)," by Hao Lu, Thomas G Papathomas, David van Zessen, Ivo Palli, Ronald R de Krijger, Peter J van der Spek, Winand NM Dinjens and Andrew P Stubbs
 
-[CategoryVirtualAppliance](/src/CategoryVirtualAppliance/index.md)
+[CategoryVirtualAppliance](/src/category-virtual-appliance/index.md)

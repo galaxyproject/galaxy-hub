@@ -5,7 +5,7 @@ title: Scaling and Load Balancing
 
 {{> Admin/Config/Performance/LinkBox }}
 <div class='left'></div>
-The Galaxy framework is written in Python and makes extensive use of threads.  However, one of the drawbacks of Python is the [Global Interpreter Lock](http://docs.python.org/c-api/init.html#thread-state-and-the-global-interpreter-lock), which prevents more than one thread from being on CPU at a time.  Because of this, having a multi-core system will not improve the Galaxy framework's performance out of the box since Galaxy can use (at most) one core at a time.  However, Galaxy can easily run in multiple separate processes, which solves this problem.  For a more thorough explanation of this problem and why you will almost surely want to switch to the load balanced configuration if running for more than a small handful of users, see the [Admin/Config/Performance/ProductionServer](/src/Admin/Config/Performance/ProductionServer/index.md) page.
+The Galaxy framework is written in Python and makes extensive use of threads.  However, one of the drawbacks of Python is the [Global Interpreter Lock](http://docs.python.org/c-api/init.html#thread-state-and-the-global-interpreter-lock), which prevents more than one thread from being on CPU at a time.  Because of this, having a multi-core system will not improve the Galaxy framework's performance out of the box since Galaxy can use (at most) one core at a time.  However, Galaxy can easily run in multiple separate processes, which solves this problem.  For a more thorough explanation of this problem and why you will almost surely want to switch to the load balanced configuration if running for more than a small handful of users, see the [Admin/Config/Performance/ProductionServer](/src/admin/config/performance/production-server/index.md) page.
 
 Just to be clear: increasing the values of `threadpool_workers` in `galaxy.ini` or the number of plugin workers in `job_conf.xml` will not make you Galaxy server much more responsive.  The key to scaling Galaxy is the ability to run *multiple* Galaxy servers which co-operatively work on the same database.
 
@@ -129,7 +129,7 @@ Using web processes as handlers is possible, but it is not recommended since han
 
 ### Remaining configuration options
 
-If you do not have a `job_conf.xml` file, you will need to create one.  There are samples for a basic configuration and an advanced configuration provided in the distribution.  Please note that creating `job_conf.xml` overrides any legacy job running settings in `galaxy.ini`.  See [Admin/Config/Jobs](/src/Admin/Config/Jobs/index.md) for more detail on job configuration.
+If you do not have a `job_conf.xml` file, you will need to create one.  There are samples for a basic configuration and an advanced configuration provided in the distribution.  Please note that creating `job_conf.xml` overrides any legacy job running settings in `galaxy.ini`.  See [Admin/Config/Jobs](/src/admin/config/jobs/index.md) for more detail on job configuration.
 
 In `job_conf.xml`, create `<handler>` tags with `id` attributes that match the handler server names you defined in `galaxy.ini`.  For example, using the configuration above, the `<handlers>` section of `job_conf.xml` would look like:
 
@@ -141,7 +141,7 @@ In `job_conf.xml`, create `<handler>` tags with `id` attributes that match the h
 ```
 
 
-Any tool not set to an explicit job destination will then be serviced by one of the handlers with the `handlers` tag.  It is possible to dedicate handlers to specific destinations or tools.  For details on how to do this, please see the [job configuration documentation](/src/Admin/Config/Jobs/index.md).
+Any tool not set to an explicit job destination will then be serviced by one of the handlers with the `handlers` tag.  It is possible to dedicate handlers to specific destinations or tools.  For details on how to do this, please see the [job configuration documentation](/src/admin/config/jobs/index.md).
 
 ## Starting and Stopping
 
@@ -216,13 +216,13 @@ galaxy:handler1: started
 
 ## Proxy Server
 
-If using only one web process, you can proxy as per the normal instructions for a [Admin/Config/Performance/ProductionServer](/src/Admin/Config/Performance/ProductionServer/index.md).  Otherwise, you'll need to set up load balancing.
+If using only one web process, you can proxy as per the normal instructions for a [Admin/Config/Performance/ProductionServer](/src/admin/config/performance/production-server/index.md).  Otherwise, you'll need to set up load balancing.
 
-If you have specified a separate job runner and you want to use the "Manage jobs" interface as administrator you also have to define a proxy for the job runner as shown [below](/src/Admin/Config/Performance/Scaling/index.md#manage-jobs).
+If you have specified a separate job runner and you want to use the "Manage jobs" interface as administrator you also have to define a proxy for the job runner as shown [below](/src/admin/config/performance/scaling/index.md#manage-jobs).
 
 ### Apache
 
-Be sure to consult the [Apache proxy documentation](/src/Admin/Config/ApacheProxy/index.md) for additional features such as proxying static content and accelerated downloads.
+Be sure to consult the [Apache proxy documentation](/src/admin/config/apache-proxy/index.md) for additional features such as proxying static content and accelerated downloads.
 
 #### Standalone Paste-based processes
 
@@ -236,7 +236,7 @@ To balance on Apache, you'll need to enable `mod_proxy_balancer` in addition to 
 ```
 
 
-And replace the following line from the [regular proxy configuration](/src/Admin/Config/ApacheProxy/index.md):
+And replace the following line from the [regular proxy configuration](/src/admin/config/apache-proxy/index.md):
 
 ```apache
 RewriteRule ^(.*) http://localhost:8080$1 [P]
@@ -265,11 +265,11 @@ uWSGImaxVars 512
 
 ### nginx
 
-Be sure to consult the [nginx proxy documentation](/src/Admin/Config/nginxProxy/index.md) for additional features such as proxying static content and accelerated downloads.
+Be sure to consult the [nginx proxy documentation](/src/admin/config/nginxProxy/index.md) for additional features such as proxying static content and accelerated downloads.
 
 #### Standalone Paste-based processes
 
-To proxy with nginx, you'll simply need to add all of the web applications to the `upstream` section, [which already exists](/src/Admin/Config/nginxProxy/index.md).  The relevant parts of the configuration would look like this:
+To proxy with nginx, you'll simply need to add all of the web applications to the `upstream` section, [which already exists](/src/admin/config/nginxProxy/index.md).  The relevant parts of the configuration would look like this:
 
 ```nginx
 http {

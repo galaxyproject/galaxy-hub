@@ -1,4 +1,4 @@
-<div class='newsItemHeader'>[GCC2015 Training Day Vote!](/src/news/GCC2015TDVoting/index.md)</div>
+<div class='newsItemHeader'>[GCC2015 Training Day Vote!](/src/news/gcc2015-td-voting/index.md)</div>
 
 <table>
   <tr>
@@ -7,7 +7,7 @@
 </table>
 
 
-<div class='right'><a href='http://gcc2015.tsl.ac.uk/training-day/'><img src="/src/images/Logos/GCC2015LogoWide600.png" alt="GCC2015 Training Day" width="170" /></a></div>
+<div class='right'><a href='http://gcc2015.tsl.ac.uk/training-day/'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="GCC2015 Training Day" width="170" /></a></div>
 
 What topics should be offered at the [GCC2015 Training Day](http://gcc2015.tsl.ac.uk/training-day/)?
 
@@ -27,4 +27,4 @@ The [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-01-19</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)

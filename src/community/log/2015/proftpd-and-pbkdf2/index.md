@@ -1,14 +1,14 @@
 ---
 title: 2015/02: [FTP upload to Galaxy using ProFTPd and PBKDF2](http://galacticengineer.blogspot.co.uk/2015/02/ftp-upload-to-galaxy-using-proftpd-and.html)
 ---
-<div class='center'><img src="/src/images/Logos/UManchesterLogo.jpg" alt="Galaxy Engineer Blog from Peter Briggs at the University of Manchester" width="300" /></div>
+<div class='center'><img src="/src/images/logos/UManchesterLogo.jpg" alt="Galaxy Engineer Blog from Peter Briggs at the University of Manchester" width="300" /></div>
 
 
 
 
 
 <div class='logbox'>
- Topic:: **[FTP upload to Galaxy using ProFTPd and PBKDF2](/src/Community/Log/2015/ProFTPdAndPBKDF2/index.md)**
+ Topic:: **[FTP upload to Galaxy using ProFTPd and PBKDF2](/src/community/log/2015/proftpd-and-pbkdf2/index.md)**
  Date:: 2015/02/12
  Who:: [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)
  Resolution:: [ProFTPd](http://www.proftpd.org/) implemented using [PBKFD2 protocol](http://en.wikipedia.org/wiki/PBKDF2) for encryption
@@ -27,4 +27,4 @@ From the [intro](http://galacticengineer.blogspot.co.uk/2015/02/ftp-upload-to-ga
 * [Galactic Engineer Blog](http://galacticengineer.blogspot.co.uk/)
 * [ProFTPd](http://www.proftpd.org/)
 
-[CategoryLog](/src/CategoryLog/index.md)
+[CategoryLog](/src/category-log/index.md)

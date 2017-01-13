@@ -32,28 +32,28 @@ title: November 14, 2012 Galaxy Development News Brief
 
 The tools in the group **NGS: Picard (beta)** have moved from the **[Galaxy distribution](https://bitbucket.org/galaxy/galaxy-dist)** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)**.
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/Logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 
-Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing the Picard tool wrappers from the Tool Shed. **[Picard](http://bio-bwa.sourceforge.net/)** itself and target reference genomes should still be installed as described in the Galaxy wiki - start in the [Tool Dependencies](/src/Admin/Tools/ToolDependencies/index.md) section.
+Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing the Picard tool wrappers from the Tool Shed. **[Picard](http://bio-bwa.sourceforge.net/)** itself and target reference genomes should still be installed as described in the Galaxy wiki - start in the [Tool Dependencies](/src/admin/tools/ToolDependencies/index.md) section.
 
 **[Picard](http://picard.sourceforge.net/)** comprises Java-based command-line utilities that manipulate SAM files, and a Java API (SAM-JDK) for creating new programs that read and write SAM files. Both SAM text format and SAM binary (BAM) format are supported. More about **[SAM](http://wiki.galaxyproject.org/Learn/Datatypes#SAM)** and **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM)** format.
 
 <br />
 ## Galaxy Code Documentation Now Available
 
-<div class='right'> <a href='http://sphinx-doc.org/'><img src="/src/images/Logos/SphinxLogo333.png" alt="Sphinx Python Documentation Generator"  /></a></div>
+<div class='right'> <a href='http://sphinx-doc.org/'><img src="/src/images/logos/SphinxLogo333.png" alt="Sphinx Python Documentation Generator"  /></a></div>
 
 The **Galaxy Project** is now using the *[Sphinx](http://sphinx-doc.org/) Python* document generator to automatically generate documentation for the code base.  The documentation describes classes and methods (and much more) in the code base.  It also includes [Python docstrings](http://www.python.org/dev/peps/pep-0257/) from the code.
 
 Two versions of the documentation are available:
 
 * **[galaxy-dist.readthedocs.org](http://galaxy-dist.readthedocs.org)**
-    This documentation describes the code in the [most recent stable release](/src/DevNewsBriefs/index.md) of Galaxy ("galaxy-dist").
+    This documentation describes the code in the [most recent stable release](/src/dev-news-briefs/index.md) of Galaxy ("galaxy-dist").
 
 * **[galaxy-central.readthedocs.org](http://galaxy-central.readthedocs.org)**
     This documentation describes what is currently in the main development branch ("galaxy-central") of Galaxy.  Code updates are automatically propagated from Galaxy's BitBucket.org repository.  This should never be more than 15 minutes out of date.
 
-<div class='right'><a href='http://readthedocs.org'><img src="/src/images/Logos/ReadTheDocsLogo.png" alt="Read the Docs"  /></a></div>
+<div class='right'><a href='http://readthedocs.org'><img src="/src/images/logos/ReadTheDocsLogo.png" alt="Read the Docs"  /></a></div>
 
 Both versions are hosted at [Read the Docs](http://readthedocs.org), a community supported web site for code documentation.
 
@@ -67,7 +67,7 @@ Please note that this is the first release of this documentation and it is far f
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/ToolShed/index.md)**
+**[Tool Shed](/src/tool-shed/index.md)**
 
 ### Tool Shed Enhancements inside of Galaxy
 
@@ -118,12 +118,12 @@ Certain repository contents may occasionally become outdated, perhaps due to oth
 <br />
 # Tools
 
-[Tool Dependencies](/src/Admin/Tools/ToolDependencies/index.md)
+[Tool Dependencies](/src/admin/tools/ToolDependencies/index.md)
 
 1. Enable **[Tophat](http://tophat.cbcb.umd.edu/)**, **[Tophat2](http://tophat.cbcb.umd.edu/manual.html)**, and **[Cuffdiff](http://cufflinks.cbcb.umd.edu/manual.html#cuffdiff)** to accept gene annotations in **[GFF3](http://wiki.galaxyproject.org/Learn/Datatypes#GFF3)** format; thanks to [Jim Johnson](http://bitbucket.org/jjohnson).
 2. Make unordered **[GTF](http://wiki.galaxyproject.org/Learn/Datatypes#GTF)** parsing more lenient by default, allowing for parsing of 'imperfect' GTF datasets not in strict specification format.
 3. New warning given when loading a ` .. / tool-data / *.loc ` file with an inconsistent numbers of tabs; contributed by [Peter Cock](http://bitbucket.org/peterjc).
-4. Allow **Rerun** ![](/src/images/Icons/arrow-circle.png) to access hidden datasets.
+4. Allow **Rerun** ![](/src/images/icons/arrow-circle.png) to access hidden datasets.
 5. Enhance **[GenomeSpace](http://www.genomespace.org)** import tools to display a better history item name.
 
 <br />
@@ -170,13 +170,13 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 
 ### Highlights
 
-<div class='right'><a href='http://bit.ly/PmKgUI'><img src="/src/images/Logos/PhylotasticLogo.png" alt="Phylotastic Hackathon" width="150" /></a></div>
+<div class='right'><a href='http://bit.ly/PmKgUI'><img src="/src/images/logos/PhylotasticLogo.png" alt="Phylotastic Hackathon" width="150" /></a></div>
 * There are now [over 500 papers in the Galaxy CiteULike Group](http://www.citeulike.org/group/16008/library)
 * Phylogenies! Hacking! Tucson in January! And, hopefully Galaxy too. If you are interested in coding, phylogenies, and tool integration please take a look at the [Phylotastic Hackathon Announcement](http://dev.list.galaxyproject.org/phylotastic-hackathon-Jan-28-Feb-1-Tucson-AZ-of-possible-interest-to-galaxy-developers-td4656850.html). Apply by ***November 16*** (that's this *Friday!!*).
 
 ### Find a great Galactic job!
 
-<div class='right'><img src="/src/images/Icons/PointingFinger.png" alt="Please Help!  Yes you!" width="50" /></div>
+<div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="50" /></div>
 
 * [Engineer position in bioinformatics: structural polymorphism analysis from NGS data](http://bit.ly/TEQvzd) @ [UMR de Génétique Végétale, INRA-Université Paris Sud-CNRS](http://moulon.inra.fr/index.php/fr/equipestransversales/atelier-de-bioinformatique)
 * [R/Bioconductor and Genomics Expert](http://bit.ly/T1QOZP) @ the [Friedrich Miescher Institute](http://www.fmi.ch/), affiliated with the University of Basel.
@@ -184,7 +184,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 * [Computational Biologist](http://bit.ly/R2ZJoW) @ the [Harvard Stem Cell Institute's (HSCI)](http://www.hsci.harvard.edu/)[Center for Stem Cell Bioinformatics](http://www.hsci.harvard.edu/research/center-stem-cell-bioinformatics)
 * [Bioinformatician/Statistician opening](http://bit.ly/X7Hl30) at EMBL Heidelberg, Germany  
 * [offre CDD INRA Versailles](http://bit.ly/TKoV9h) - developpement chaine de traitements RnaSeq sous Galaxy - France Genomique
-* The [Galaxy Project is hiring](/src/GalaxyIsHiring/index.md) post-docs @ Penn State and Emory
+* The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md) post-docs @ Penn State and Emory
 
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org.
 

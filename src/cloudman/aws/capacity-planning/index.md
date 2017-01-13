@@ -5,20 +5,20 @@ autotoc: true
 
 <table>
   <tr>
-    <td style=" border: none;"> <div class='title'>Galaxy CloudMan <a href='/src/CloudMan/index.md'>CapacityPlanning</a> for Amazon Web Services</div> </td>
-    <td style=" border: none;"> <a href='http://aws.amazon.com/'><img src="/src/images/Logos/AWSLogo.png" alt="http://aws.amazon.com/" /></a> </td>
+    <td style=" border: none;"> <div class='title'>Galaxy CloudMan <a href='/src/cloudman/index.md'>CapacityPlanning</a> for Amazon Web Services</div> </td>
+    <td style=" border: none;"> <a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="http://aws.amazon.com/" /></a> </td>
   </tr>
 </table>
 
 
-This page offers advice on how much cloud infrastructure you will need to [run your Galaxy instance on Amazon Web Services (AWS)](/src/CloudMan/AWS/index.md).  See the [general capacity planning page](/src/CloudMan/CapacityPlanning/index.md) for advice that applies across different cloud infrastructures.
+This page offers advice on how much cloud infrastructure you will need to [run your Galaxy instance on Amazon Web Services (AWS)](/src/cloudman/aws/index.md).  See the [general capacity planning page](/src/cloudman/capacity-planning/index.md) for advice that applies across different cloud infrastructures.
 
 <div class='right'></div> {{> CloudMan/AWS/LinkBox }}
 
 
 # Amazon Web Services
 
-[CloudMan](/src/CloudMan/index.md) was initially developed for the [Amazon Web Services (AWS)](http://aws.amazon.com/) cloud platform.  Before we cover AWS, we'll need to introduce some terminology:
+[CloudMan](/src/cloudman/index.md) was initially developed for the [Amazon Web Services (AWS)](http://aws.amazon.com/) cloud platform.  Before we cover AWS, we'll need to introduce some terminology:
 
 ## Terminology
 
@@ -75,7 +75,7 @@ Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use
     <th> </th>
     <th> </th>
     <th> </th>
-    <th style=" text-align:center;"> Recommended for <a href='/src/CloudMan/CapacityPlanning/index.md#usage-scenarios'>Usage Scenarios</a> </th>
+    <th style=" text-align:center;"> Recommended for <a href='/src/cloudman/capacity-planning/index.md#usage-scenarios'>Usage Scenarios</a> </th>
     <th rowspan=3 style=" text-align:center;"> Comments </th>
   </tr>
   <tr>
@@ -153,7 +153,7 @@ Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use
     <td> </td>
     <td style=" class="green" "> <strong>Y</strong> </td>
     <td> </td>
-    <td> The <a href='/src/GalaxyTeam/index.md'>Galaxy Team</a> uses this head node in workshops that run TopHat.  It can support ~30 concurrent TopHat jobs without significant slowdown, whereas the Double Extra Large option gets bogged down. </td>
+    <td> The <a href='/src/galaxy-team/index.md'>Galaxy Team</a> uses this head node in workshops that run TopHat.  It can support ~30 concurrent TopHat jobs without significant slowdown, whereas the Double Extra Large option gets bogged down. </td>
   </tr>
   <tr>
     <th rowspan=2> Com-<br />pute </th>
@@ -193,7 +193,7 @@ Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use
 
 See also
 
-* [Reducing costs in Cloud Galaxy](http://dev.list.galaxyproject.org/Reducing-costs-in-Cloud-Galaxy-td4483448.html) thread, Galaxy-Dev [mailing list](/src/MailingLists/index.md), started 2012/03/18.
+* [Reducing costs in Cloud Galaxy](http://dev.list.galaxyproject.org/Reducing-costs-in-Cloud-Galaxy-td4483448.html) thread, Galaxy-Dev [mailing list](/src/mailing-lists/index.md), started 2012/03/18.
 * The [CloudHarmony Benchmarks](http://cloudharmony.com/benchmarks) page
 
 ## How Much EBS?

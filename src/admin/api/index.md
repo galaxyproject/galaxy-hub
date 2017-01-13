@@ -3,7 +3,7 @@ autotoc: true
 ---
 {{> Admin/LinkBox }}
 
-Galaxy has an [Applications Programming Interface (API)](/src/Learn/API/index.md) that enables access to Galaxy from scripts.  This page describes the [administrative](/src/Admin/index.md) aspects of the API.  See [Learn/API](/src/Learn/API/index.md) for information on using the [Galaxy API](/src/Learn/API/index.md).
+Galaxy has an [Applications Programming Interface (API)](/src/learn/api/index.md) that enables access to Galaxy from scripts.  This page describes the [administrative](/src/admin/index.md) aspects of the API.  See [Learn/API](/src/learn/api/index.md) for information on using the [Galaxy API](/src/learn/api/index.md).
 
 
 
@@ -40,15 +40,15 @@ In Galaxy, create an account that matches the address you put in `admin_users`, 
 <table>
   <tr>
     <td> <em>Navigate</em> to <strong>User &rarr; API Keys</strong>: </td>
-    <td> <img src="/src/Admin/API/UserPullDownAPIKeys.png" /> </td>
+    <td> <img src="/src/admin/api/UserPullDownAPIKeys.png" /> </td>
   </tr>
   <tr>
     <td> <em>Click</em> on <strong>Generate a new key now</strong>: </td>
-    <td> <img src="/src/Admin/API/GenerateNewAPIKey.png" /> </td>
+    <td> <img src="/src/admin/api/GenerateNewAPIKey.png" /> </td>
   </tr>
   <tr>
     <td> And your new API key will be set:<br /><br /><em>Copy</em> the key to your clipboard.  You will need it in the next steps. </td>
-    <td> <img src="/src/Admin/API/NewKeyGenerated.png" /> </td>
+    <td> <img src="/src/admin/api/NewKeyGenerated.png" /> </td>
   </tr>
 </table>
 

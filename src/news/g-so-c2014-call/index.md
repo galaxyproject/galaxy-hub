@@ -1,6 +1,6 @@
-<div class='newsItemHeader'>[Google Summer of Code Proposals](/src/news/GSoC2014Call/index.md)</div>
+<div class='newsItemHeader'>[Google Summer of Code Proposals](/src/news/g-so-c2014-call/index.md)</div>
 
-<div class='right'><a href='/src/gmod:GSoC/index.md'><img src="/src/images/Logos/GSoC2014Logo.png" alt="Google Summer of Code 2014" width="200" /></a></div>
+<div class='right'><a href='/src/gmod:GSoC/index.md'><img src="/src/images/logos/GSoC2014Logo.png" alt="Google Summer of Code 2014" width="200" /></a></div>
 
 The Galaxy Project will be applying for [Google Summer of Code 2014](http://www.google-melange.com/gsoc/homepage/google/gsoc2014) as part of the [Genome Informatics Group](http://gmod.org/wiki/GSoC).  We are looking for project proposals to include in the group's submission to Google.  Please submit your proposals by January 31.  
 
@@ -11,8 +11,8 @@ The Genome Informatics Group is organizing the joint efforts of Galaxy, [http://
 
 If your interests lean more towards toolkits, I would like to point out that the [Open Bioinformatics Foundation (OBF)](http://open-bio.org), the group behind the *Bio** toolkits (including [BioPython](http://biopython.org/)) and the [BOSC](http://www.open-bio.org/wiki/BOSC_2014) conferences, is also [looking for people to coordinate their proposal](http://lists.open-bio.org/pipermail/open-bio-l/2014-January/000922.html).
 
-[Dave Clements](/src/DaveClements/index.md)
+[Dave Clements](/src/dave-clements/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-01-18</div>
 
-[CategoryNews](/src/CategoryNews/index.md)
+[CategoryNews](/src/category-news/index.md)
