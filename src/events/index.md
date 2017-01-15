@@ -86,6 +86,11 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
     <td> <img src="/src/images/Icons/Asia40.png" alt="Asia" align="right" /> <a href="http://www.ksimm.or.kr/board/list.html?num=525&start=0&sort=reg_dt%20desc&code=enews&period=&key=&keyword=">13th KOGO Winter Symposium</a>, Yongpyong, Gangwon-do, Korea </td>
     <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/DaveClements'>Dave Clements</a> </td>
   </tr>
+    <th> February 14 </th>
+    <td> <em><a href="http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Feb17.html">Introduction to Galaxy Workshop</a></em> </td>
+    <td> <img src="/src/images/Icons/Europe40.png" alt="Europe" align="right" /> Unitversity of Glasgow, United Kingdom </a> </td>
+    <td> <a href="http://www.polyomics.gla.ac.uk/biog-davidmeltzer.html">David Meltzer</a> </td>
+  </tr>
   <tr>
     <th> February 13-17 </th>
     <td> <em><a href='http://www.denbi.de/22-training-cat/training-courses/213-3rd-galaxy-high-throughput-sequencing-hts-data-analysis-workshop'>Galaxy Workshop on HTS data analysis for Scientists</a></em> </td>
