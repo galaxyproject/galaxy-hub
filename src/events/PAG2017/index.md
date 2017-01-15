@@ -97,12 +97,12 @@ Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](
   <tr>
     <td> <a href="https://pag.confex.com/pag/xxv/meetingapp.cgi/Paper/23597">P0479: A Novel Tripal Database Module and Workflow to Facilitate Variant Mapping and Detection in Non-Model Plant Species</a> </td>
     <td> </td>
-    <td> Yuanyuan Chang </td>
+    <td> Qiaoshan Lin </td>
   </tr>
   <tr>
     <td> <a href="https://pag.confex.com/pag/xxv/meetingapp.cgi/Paper/26499">P0489: Web-Based Bioinformatics Workflows for RNA-Seq Data Analysis in Agricultural Animal Species</a> </td>
     <td> </td>
-    <td> Qiaoshan Lin </td>
+    <td> Yuanyuan Chang </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> 7:05-7:25 </td>
