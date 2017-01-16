@@ -347,7 +347,7 @@ One new [public Galaxy server](/src/public-galaxy-servers/index.md) was added to
 # Galaxy Distributions
 
 * [June 2, 2014 Galaxy Distribution](/src/dev-news-briefs/2014_06_02/index.md)
-* [Corresponding version](http://gregvonkuster.org/galaxy-tool-shed-june-2-2014-release/) of the ToolShed
+* [Corresponding version](http://gregvonkuster.org/galaxy-toolshed-june-2-2014-release/) of the ToolShed
 * [BioBlend 0.4.3](https://pypi.python.org/pypi/bioblend/0.4.3) was released on April 11, 2014.  
 * The most recent version of CloudMan was [released in January 2014](/src/news/cloudman-release201401/index.md).
 

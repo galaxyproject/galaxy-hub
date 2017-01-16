@@ -45,7 +45,7 @@ There are three categories of repository dependencies which will be discussed in
 <br />
 # Other Tool Shed
 
-**[Tool Shed](/src/tool-shed/index.md)**
+**[Tool Shed](/src/toolshed/index.md)**
 
 ### Galaxy fixes and enhancements related to tool shed features
 

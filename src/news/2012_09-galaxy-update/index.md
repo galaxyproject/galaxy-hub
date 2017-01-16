@@ -12,7 +12,7 @@ The [September 2012 Galaxy Update is now available](/src/galaxy-updates/2012_09/
 * [Upcoming Events and Deadlines](/src/galaxy-updates/2012_09/index.md#upcoming-events-and-deadlines)
   * [Swiss Galaxy Day](/src/galaxy-updates/2012_09/index.md#swiss-galaxy-day)
 * [New Galaxy-France mailing list](/src/galaxy-updates/2012_09/index.md#new-galaxy-france-mailing-list)
-* [Tool Shed Contributions](/src/galaxy-updates/2012_09/index.md#tool-shed-contributions)
+* [Tool Shed Contributions](/src/galaxy-updates/2012_09/index.md#toolshed-contributions)
 * [Other News](/src/galaxy-updates/2012_09/index.md#other-news)
 
 If you have anything you would like to see in the October *[Galaxy Update](/src/galaxy-updates/index.md)*, please let me know.

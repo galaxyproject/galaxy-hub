@@ -14,7 +14,7 @@ The [July 2012 Galaxy Update is now available](/src/galaxy-updates/2012_07/index
   * [GMOD Summer School](http://gmod.org/wiki/2012 GMOD Summer School) (deadline: **July 9**)
 * [31 New Papers](/src/galaxy-updates/2012_07/index.md#new-papers), including two new *Current Protocols*
 * [Open Positions](/src/galaxy-updates/2012_07/index.md#whos-hiring) at six different institutions
-* [Tool Shed Contributions](/src/galaxy-updates/2012_07/index.md#tool-shed-contributions)
+* [Tool Shed Contributions](/src/galaxy-updates/2012_07/index.md#toolshed-contributions)
 * [A new CloudMan distribution was released last month](/src/galaxy-updates/2012_07/index.md#new-distributions)
 * [Plus](/src/galaxy-updates/2012_07/index.md#other-news)
   * Easily wrap your R functions as Galaxy tools

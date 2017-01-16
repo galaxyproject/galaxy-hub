@@ -616,7 +616,7 @@ The 0.6.x release includes these changes:
 
 # ToolShed Contributions
 
-See [list of tools contributed in February](/src/tool-shed/contributions/2016_02/index.md).
+See [list of tools contributed in February](/src/toolshed/contributions/2016_02/index.md).
 
 
 ----

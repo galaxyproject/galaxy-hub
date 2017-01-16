@@ -1,17 +1,17 @@
 ---
 title: Installing Repositories
 ---
-<div class='right'> <a href='/src/tool-shed/index.md'><img src="/src/images/logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a> {{> ToolShed/LinkBox }} </div>
+<div class='right'> <a href='/src/toolshed/index.md'><img src="/src/images/logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a> {{> ToolShed/LinkBox }} </div>
 
 
 
-[Installing repositories into Galaxy](/src/tool-shed/installing-repositories-to-galaxy/index.md)
+[Installing repositories into Galaxy](/src/toolshed/installing-repositories-to-galaxy/index.md)
 
 [Installing repositories that define simple repository dependency relationships](/src/installing-simple-repository-dependencies/index.md)
 
 [Installing repositories that define complex repository dependency relationships](/src/installing-complex-repository-dependencies/index.md)
 
-[Installing repositories that contain tools migrated from the Galaxy code distribution to the main Galaxy Tool Shed](/src/tool-shed/migrating-tools-from-galaxy-distribution/index.md)
+[Installing repositories that contain tools migrated from the Galaxy code distribution to the main Galaxy Tool Shed](/src/toolshed/migrating-tools-from-galaxy-distribution/index.md)
 
 [Installing tool dependency packages along with Galaxy tools](/src/Installing tool dependency packages/index.md)
 

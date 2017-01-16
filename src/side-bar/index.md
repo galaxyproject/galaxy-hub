@@ -23,7 +23,7 @@
 
 * [Get Galaxy](/src/admin/get-galaxy/index.md) &bull; [Cloud](/src/cloud/index.md)
 * [Admin](/src/admin/index.md) &bull; [Tool Config](/src/admin/tools/tool-config-syntax/index.md)
-* [Tool Shed](/src/tool-shed/index.md) &bull; [Search](http://galaxyproject.org/search/getgalaxy) 
+* [Tool Shed](/src/toolshed/index.md) &bull; [Search](http://galaxyproject.org/search/getgalaxy) 
 
 # Contribute
 

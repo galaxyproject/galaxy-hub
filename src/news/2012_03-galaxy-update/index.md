@@ -12,7 +12,7 @@ The [March 2012 Galaxy Update](/src/galaxy-updates/2012_03/index.md) is now avai
 * [GCC2012 Update](/src/galaxy-updates/2012_03/index.md#gcc2012-update), including
   * Abstract submission is open.
   * Training Day topics are set.
-* [Tool Shed Contributions](/src/galaxy-updates/2012_03/index.md#tool-shed-contributions)
+* [Tool Shed Contributions](/src/galaxy-updates/2012_03/index.md#toolshed-contributions)
 
 If you have anything you would like to see in the April *[Galaxy Update](/src/galaxy-updates/index.md)*, please let me know.
 

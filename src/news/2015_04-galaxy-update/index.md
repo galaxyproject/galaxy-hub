@@ -20,7 +20,7 @@
 * [March 2015 Galaxy Release (v 15.03)](/src/galaxy-updates/2015_04/index.md#march-2015-galaxy-release-v-1503)
 * [BioBlend v0.5.3 Released](/src/galaxy-updates/2015_04/index.md#bioblend-v053-released)
 * [Planemo 0.6.0](/src/galaxy-updates/2015_04/index.md#planemo-060)
-* [GalaxyUpdates/2015_04](/src/galaxy-updates/2015_04/index.md#over-70-new-tool-shed-repositories-from-19-contributors)
+* [GalaxyUpdates/2015_04](/src/galaxy-updates/2015_04/index.md#over-70-new-toolshed-repositories-from-19-contributors)
 
 In addition, there is news on:
 * [68 new publications](/src/galaxy-updates/2015_04/index.md#new-papers)

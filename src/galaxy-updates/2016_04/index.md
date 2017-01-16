@@ -562,7 +562,7 @@ The 0.6.x release includes these changes:
 
 # ToolShed Contributions
 
-See [list of tools contributed in March](/src/tool-shed/contributions/2016_03/index.md).
+See [list of tools contributed in March](/src/toolshed/contributions/2016_03/index.md).
 
 ## Automatic Testing of IUC Tools with Conda
 

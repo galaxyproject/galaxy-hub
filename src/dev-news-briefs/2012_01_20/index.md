@@ -90,14 +90,14 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
   * Do not allow public user names to be changed within the tool shed if the user has created a tool shed repository.
   * Don't allow repository names to be changed if the repository has been cloned at least 1 time.
 * More new tool shed features documented in the following new Galaxy wiki sections:
-  * [Including proprietary data types that subclass from Galaxy data types in the distribution](/src/tool-shed/index.md#including_proprietary_data_types_that_subclass_from_galaxy_data_types_in_the_distribution)
-  * [Including proprietary data types that use class modules contained in your repository](/src/tool-shed/index.md#including_proprietary_data_types_that_use_class_modules_contained_in_your_repository)
-  * [Including datatype converters and display applications](/src/tool-shed/index.md#including_datatype_converters_and_display_applications)
-  * [Automatic installation of Galaxy tool shed repository data types into a local Galaxy instance](/src/tool-shed/index.md#automatic_installation_of_galaxy_tool_shed_repository_data_types_into_a_local_galaxy_instance)
-  * [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/tool-shed/index.md#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance)
-  * [Migrating tools from the Galaxy distribution to the Galaxy main tool shed](/src/tool-shed/index.md#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)
-  * [Configuring your Galaxy server to automatically install tools eliminated from the Galaxy distribution](/src/tool-shed/index.md#configuring_your_galaxy_server_to_automatically_install_tools_eliminated_from_the_galaxy_distribution)
-  * [Use case: automatically install the Emboss tools and datatypes into a local Galaxy instance](/src/tool-shed/index.md#use_case_automatically_install_the_emboss_tools_and_datatypes_into_a_local_galaxy_instance)
+  * [Including proprietary data types that subclass from Galaxy data types in the distribution](/src/toolshed/index.md#including_proprietary_data_types_that_subclass_from_galaxy_data_types_in_the_distribution)
+  * [Including proprietary data types that use class modules contained in your repository](/src/toolshed/index.md#including_proprietary_data_types_that_use_class_modules_contained_in_your_repository)
+  * [Including datatype converters and display applications](/src/toolshed/index.md#including_datatype_converters_and_display_applications)
+  * [Automatic installation of Galaxy tool shed repository data types into a local Galaxy instance](/src/toolshed/index.md#automatic_installation_of_galaxy_tool_shed_repository_data_types_into_a_local_galaxy_instance)
+  * [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/toolshed/index.md#getting_updates_for_tool_shed_repositories_installed_in_a_local_galaxy_instance)
+  * [Migrating tools from the Galaxy distribution to the Galaxy main tool shed](/src/toolshed/index.md#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)
+  * [Configuring your Galaxy server to automatically install tools eliminated from the Galaxy distribution](/src/toolshed/index.md#configuring_your_galaxy_server_to_automatically_install_tools_eliminated_from_the_galaxy_distribution)
+  * [Use case: automatically install the Emboss tools and datatypes into a local Galaxy instance](/src/toolshed/index.md#use_case_automatically_install_the_emboss_tools_and_datatypes_into_a_local_galaxy_instance)
 
 ## Tool Shed Contributions
 

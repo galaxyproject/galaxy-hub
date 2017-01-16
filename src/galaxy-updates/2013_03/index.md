@@ -220,7 +220,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 **[February 8, 2013 Galaxy Distribution](/src/dev-news-briefs/2013_02_08/index.md)**
 
 <div class='indent'>
-<div class='right'><a href='/src/tool-shed/index.md'><img src="/src/images/news-graphics/2013_02_6-confirm-dependency-installation-sm2.png" alt="" width="220px" /></a></div>
+<div class='right'><a href='/src/toolshed/index.md'><img src="/src/images/news-graphics/2013_02_6-confirm-dependency-installation-sm2.png" alt="" width="220px" /></a></div>
 **Highlights:**
 * *Improvements* to our [release process](/src/dev-news-briefs/2013_02_08/index.md#improvements_to_release_process). **Release tag must be used in the hg update command to upgrade**. More at **[getgalaxy.org](/src/admin/get-galaxy/index.md)**.
 * Tool Shed *[Complex repository dependencies](/src/defining-repository-dependencies/index.md#complex_repository_dependencies_tool_dependency_definitions_that_contain_repository_dependency_definitions)* are introduced, streamlining core dependency use across individual tools. 

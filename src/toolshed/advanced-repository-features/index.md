@@ -1,4 +1,4 @@
-<div class='right'> <a href='/src/tool-shed/index.md'><img src="/src/images/logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a> {{> ToolShed/LinkBox }} </div>
+<div class='right'> <a href='/src/toolshed/index.md'><img src="/src/images/logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a> {{> ToolShed/LinkBox }} </div>
 
 # Cloning a repository using hg from the command line
 

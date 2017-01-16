@@ -211,7 +211,7 @@ There were [two new Galaxy distributions](/src/dev-news-briefs/index.md) in Sept
 * A new **[Galaxy tool](/src/dev-news-briefs/2012_09_20/index.md#galaxy_tool_factory)** that writes other new Galaxy tools? The **[Tool Factory](http://www.youtube.com/watch?v=Nzzc9zHZJjE)** is in the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) (`toolfactory`). Try it **now**
 * **[Learn](/src/dev-news-briefs/2012_09_20/index.md#multiple_tool_versions)** how to display multiple versions of a tool in the **Galaxy** tool panel. 
 * **[CloudLaunch Overhaul](/src/dev-news-briefs/2012_09_20/index.md#cloudlaunch_overhaul)** includes **[Boto 2.5.2](http://boto.cloudhackers.com)** and simplified instance selection and key generation.
-* Release also includes more **[Tool Shed](/src/dev-news-briefs/2012_09_20/index.md#tool-shed)** updates, **[Framework](/src/dev-news-briefs/2012_09_20/index.md#framework)** and **[API](/src/dev-news-briefs/2012_09_20/index.md#api)** updates, plus **[Security](/src/dev-news-briefs/2012_09_20/index.md#security_fixes)** and **[Bug](/src/dev-news-briefs/2012_09_20/index.md#bug_fixes)** fixes.
+* Release also includes more **[Tool Shed](/src/dev-news-briefs/2012_09_20/index.md#toolshed)** updates, **[Framework](/src/dev-news-briefs/2012_09_20/index.md#framework)** and **[API](/src/dev-news-briefs/2012_09_20/index.md#api)** updates, plus **[Security](/src/dev-news-briefs/2012_09_20/index.md#security_fixes)** and **[Bug](/src/dev-news-briefs/2012_09_20/index.md#bug_fixes)** fixes.
 
 ### September 7, 2012
 

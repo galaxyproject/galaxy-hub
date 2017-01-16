@@ -181,7 +181,7 @@ Thanks to our Galaxy community contributors!
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/tool-shed/index.md)**
+**[Tool Shed](/src/toolshed/index.md)**
 ## Documentation
 
 1. Reorganization of the Tool Shed wiki is underway! See current changes https://wiki.galaxyproject.org[/ToolShed](/src/dev-news-briefs/2014_04_14/ToolShed/index.md) and what is next up https://trello.com/c/Gg0jnll7

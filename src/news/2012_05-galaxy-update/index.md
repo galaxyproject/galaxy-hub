@@ -13,7 +13,7 @@ The [May 2012 Galaxy Update](/src/galaxy-updates/2012_05/index.md) is now availa
 * [31 New Papers](/src/galaxy-updates/2012_05/index.md#new-papers)
 * [Open Positions](/src/galaxy-updates/2012_05/index.md#whos-hiring) at six different institutions
 * [Upcoming Events and Deadlines](/src/galaxy-updates/2012_05/index.md#upcoming-events-and-deadlines)
-* [Tool Shed Contributions](/src/galaxy-updates/2012_05/index.md#tool-shed-contributions)
+* [Tool Shed Contributions](/src/galaxy-updates/2012_05/index.md#toolshed-contributions)
 
 If you have anything you would like to see in the June *[Galaxy Update](/src/galaxy-updates/index.md)*, please let me know.
 

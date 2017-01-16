@@ -73,7 +73,7 @@ This process will not only allow us to deploy important bug fixes on to the `sta
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/tool-shed/index.md)**
+**[Tool Shed](/src/toolshed/index.md)**
 
 ### New Tool Shed Features
 

@@ -99,7 +99,7 @@ admin_users = user1@example.com,user2@example.com
 
 ## Install More Tools
 
-Your Galaxy came with the basic tools pre-installed. However, you probably want more. Installing tools to Galaxy is generally a very easy and pleasant experience. Please read [Installing tools into Galaxy from ToolShed](/src/admin/tools/add-tool-from-tool-shed-tutorial/index.md) to get started.
+Your Galaxy came with the basic tools pre-installed. However, you probably want more. Installing tools to Galaxy is generally a very easy and pleasant experience. Please read [Installing tools into Galaxy from ToolShed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md) to get started.
 
 ## Join the Mailing List
 

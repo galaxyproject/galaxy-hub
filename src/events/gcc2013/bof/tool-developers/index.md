@@ -46,9 +46,9 @@ If you are interested, please add your name below and/or send an email to the [I
 
 * "[Introduction to Tool and Data Source Configuration](/src/events/gcc2013/training-day/index.md#introduction_to_tool_and_data_source_configuration)" [Training Day](/src/events/gcc2013/training-day/index.md) session
 * "[Advanced Tool and Data Source Configuration"](/src/events/gcc2013/training-day/index.md#advanced-tool-and-data-source-configuration) [Training Day](/src/events/gcc2013/training-day/index.md) session
-* "[Galaxy Tool Shed](/src/events/gcc2013/training-day/index.md#galaxy-tool-shed)" [Training Day](/src/events/gcc2013/training-day/index.md) session
+* "[Galaxy Tool Shed](/src/events/gcc2013/training-day/index.md#galaxy-toolshed)" [Training Day](/src/events/gcc2013/training-day/index.md) session
 * "[Reproducible research and the 90/10 rule: Improving the ratio of light script to dark script matter in your Galaxy](/src/events/gcc2013/abstracts/index.md#reproducible-research-and-the-9010-rule-improving-the-ratio-of-light-script-to-dark-script-matter-in-your-galaxy)" talk
-* "[Enhancing the Galaxy Tool Shed](/src/events/gcc2013/abstracts/index.md#enhancing-the-galaxy-tool-shed)" talk
+* "[Enhancing the Galaxy Tool Shed](/src/events/gcc2013/abstracts/index.md#enhancing-the-galaxy-toolshed)" talk
 * "[A Galaxy of learning: Bioinformatics tutorials based on Galaxy](/src/events/gcc2013/abstracts/index.md#a-galaxy-of-learning-bioinformatics-tutorials-based-on-galaxy)" talk
 * "[Managing Galaxy's Built-in Data](/src/events/gcc2013/abstracts/index.md#managing-galaxys-built-in-data)" talk
 * "[Galaxy-P: Beyond Proteomics](/src/events/gcc2013/abstracts/index.md#galaxy-p-beyond-proteomics)" talk

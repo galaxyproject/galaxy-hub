@@ -69,7 +69,7 @@ This update comes as a result of 175 code changesets; for a complete list of cha
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/tool-shed/index.md)**
+**[Tool Shed](/src/toolshed/index.md)**
 
 ### Improvements in the display of repository dependencies and contents in the tool shed
 

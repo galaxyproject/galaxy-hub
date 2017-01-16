@@ -4,7 +4,7 @@
 
 ## Adding custom tools to Galaxy
 
-Vast number of good and well-implemented tools for Galaxy is available through the [Galaxy ToolShed](/src/tool-shed/index.md) and you can freely install any of them into your Galaxy instance via the [admin interface](/src/admin/Interface/index.md). Short tutorial to get you started is available [here](/src/admin/tools/add-tool-from-tool-shed-tutorial/index.md).
+Vast number of good and well-implemented tools for Galaxy is available through the [Galaxy ToolShed](/src/toolshed/index.md) and you can freely install any of them into your Galaxy instance via the [admin interface](/src/admin/Interface/index.md). Short tutorial to get you started is available [here](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md).
 
 
 If you did not find your favorite tool in the ToolShed you can always add it to your Galaxy manually (and later share in the Tool Shed with the rest of the world if you like). This article will help you with this creation of a custom tool in your Galaxy.
@@ -110,8 +110,8 @@ Note the correspondence between elements of the `toolExample.xml` file (Step 2) 
 
 ### 6. (optional) Upload your tool to the Tool Shed:
 
-If you want to easily share your tool with others upload it to the [Galaxy Tool Shed](/src/tool-shed/index.md). It allows others to install the tool into their Galaxies seamlessly via the [Admin interface](/src/admin/Interface/index.md). If the tool is well written and tested it can even make it to the [Main Galaxy instance](/src/main/index.md) or other [Public Galaxy Servers](/src/public-galaxy-servers/index.md)!
+If you want to easily share your tool with others upload it to the [Galaxy Tool Shed](/src/toolshed/index.md). It allows others to install the tool into their Galaxies seamlessly via the [Admin interface](/src/admin/Interface/index.md). If the tool is well written and tested it can even make it to the [Main Galaxy instance](/src/main/index.md) or other [Public Galaxy Servers](/src/public-galaxy-servers/index.md)!
 
-To get started with the sharing of your tool please see Tool Shed's [Get started](/src/tool-shedGetStarted/index.md).
+To get started with the sharing of your tool please see Tool Shed's [Get started](/src/toolshedGetStarted/index.md).
 
 {{> Develop/ResourcesTools }}

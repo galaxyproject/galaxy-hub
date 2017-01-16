@@ -46,7 +46,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/tool-shed/index.md)**
+**[Tool Shed](/src/toolshed/index.md)**
 
 ### Galaxy Enhancement related to installed tool shed repositories
 

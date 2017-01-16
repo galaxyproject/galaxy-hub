@@ -5,7 +5,7 @@ title: Installing Tools into Galaxy from Tool Shed
 {{> Admin/Tools/LinkBox }}
 
 
-This page describes the simple and uncomplicated installation of a tool into Galaxy. The process has to be completed by an administrator through the [Admin Interface](/src/admin/Interface/index.md). For more advanced examples and additional description, please see [our guide to installing repositories to Galaxy](/src/tool-shed/installing-repositories-to-galaxy/index.md).
+This page describes the simple and uncomplicated installation of a tool into Galaxy. The process has to be completed by an administrator through the [Admin Interface](/src/admin/Interface/index.md). For more advanced examples and additional description, please see [our guide to installing repositories to Galaxy](/src/toolshed/installing-repositories-to-galaxy/index.md).
 If the tool you need does not exist in the Tool Shed you can add it to your Galaxy instance manually. Please see the [Add Tool Tutorial](/src/admin/tools/add-tool-tutorial/index.md).
 **For scripted installation of tools using the API please see the bottom of this page.**
 
@@ -35,7 +35,7 @@ Go to Galaxy [Admin Interface](/src/admin/Interface/index.md) and click `Search 
 
 You will see the following in the middle panel:
 
-![](/src/admin/tools/add-tool-from-tool-shed-tutorial/connected_toolsheds.png)
+![](/src/admin/tools/add-tool-from-toolshed-tutorial/connected_toolsheds.png)
 
 ## 3. Search for a Tool
 
@@ -45,19 +45,19 @@ Click `Search for valid tools`.
 
 Next, you can put in the tool name and hit `Search`.  In our example, we'll search for `bwa`.  
 
-![](/src/admin/tools/add-tool-from-tool-shed-tutorial/search_valid_tools.png)
+![](/src/admin/tools/add-tool-from-toolshed-tutorial/search_valid_tools.png)
 
 ## 5. Select a Tool from the Results to Install
 
 After searching, we can select a tool to install.  In our case, we'll install `bwa base`.
 
-![](/src/admin/tools/add-tool-from-tool-shed-tutorial/install_bwa.png)
+![](/src/admin/tools/add-tool-from-toolshed-tutorial/install_bwa.png)
 
 ## 6. Installing your Tool
 
 Finally, we can confirm our dependency installations and choose the panel section we want to show our tool in.  Note that if the dependency directory described above is set, the tool's dependencies (if they exist) will be shown on this page.  If you keep the 'Handle tool dependencies?' option checked, these dependencies are handled automatically.
 
-![](/src/admin/tools/add-tool-from-tool-shed-tutorial/select_section.png)
+![](/src/admin/tools/add-tool-from-toolshed-tutorial/select_section.png)
 
 ## 7. Sit Down, Relax, and Wait for the Installation to Proceed
 
@@ -65,13 +65,13 @@ As you're waiting for your tool to install, you can leave the page freely, as th
 
 The tool will show up in the tool panel of the section you selected, and the users can use it.
 
-![](/src/admin/tools/add-tool-from-tool-shed-tutorial/tool_installation.png)
+![](/src/admin/tools/add-tool-from-toolshed-tutorial/tool_installation.png)
 
 You can monitor the installation progress of the tool if you click on `Monitor installing tool shed repositories` in the [Admin Interface](/src/admin/Interface/index.md).
 
 You can also check the states of all installed tools if you click `Manage installed tool shed repositories` in the [Admin Interface](/src/admin/Interface/index.md).
 
-![](/src/admin/tools/add-tool-from-tool-shed-tutorial/repo_status.png)
+![](/src/admin/tools/add-tool-from-toolshed-tutorial/repo_status.png)
 
 # Automated Installation of Tools
 

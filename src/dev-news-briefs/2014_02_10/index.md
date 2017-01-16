@@ -202,7 +202,7 @@ Thanks to our Galaxy community contributors!
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/tool-shed/index.md)**
+**[Tool Shed](/src/toolshed/index.md)**
 ## Tool Migration Framework
 
 Also see above: [New Tool Migrations](/src/dev-news-briefs/2014_02_10/index.md#new-tool-migrations)

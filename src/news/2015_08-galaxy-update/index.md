@@ -20,7 +20,7 @@ The **[August Galactic News](/src/galaxy-updates/2015_08/index.md)** is out.  It
   * [Community Committers!](/src/galaxy-updates/2015_08/index.md#community-committers)
   * [3 new Community Log Board entries, and 2 new teaching resources](/src/galaxy-updates/2015_08/index.md#galaxy-community-hubs)
   * [New Releases](/src/galaxy-updates/2015_08/index.md#releases) of [BioBlend](/src/galaxy-updates/2015_08/index.md#bioblend-060-and-061) and  [Planemo](/src/galaxy-updates/2015_08/index.md#planemo-0130-through-0132)
-  * [76 Tool Shed updates and additions from 20+ contributors](/src/tool-shed/contributions/2015_07/index.md)
+  * [76 Tool Shed updates and additions from 20+ contributors](/src/toolshed/contributions/2015_07/index.md)
   * And, of course [other news](/src/galaxy-updates/2015_08/index.md#other-news) as well.
 
 [Dave Clements](/src/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)

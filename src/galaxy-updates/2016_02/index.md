@@ -512,7 +512,7 @@ The 0.6.x release includes these changes:
 
 # ToolShed Contributions
 
-See [list of tools contributed in January](/src/tool-shed/contributions/2016_01/index.md).
+See [list of tools contributed in January](/src/toolshed/contributions/2016_01/index.md).
 
 
 ----

@@ -5,7 +5,7 @@
 **Highlights:**
 
 * ***[GCC2012 is Scheduled!](/src/news/GCC2012 Scheduled/index.md)*** We are pleased to announce that the **[2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md)** has been scheduled for July 25-27 in Chicago, Illinois, United States.
-* **[Galaxy tool sheds](/src/tool-shed/index.md)** play a beneficial role in enabling sharing of *workflows & tools*
+* **[Galaxy tool sheds](/src/toolshed/index.md)** play a beneficial role in enabling sharing of *workflows & tools*
 * **[New wrappers](/src/dev-news-briefs/2011_11_18/index.md#tools), new tool upgrades:** [Python](http://python.org/), [FASTQC](http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc/), [Picard](http://picard.sourceforge.net/), [TopHat](http://tophat.cbcb.umd.edu/)
 * Direct *Galaxy dataset link* to **browse VCF and BAM files in the [Integrative Genomics Viewer (IGV)](http://www.broadinstitute.org/igv/)**
 * New Trackster features, UI and Source updates, Bug fixes 

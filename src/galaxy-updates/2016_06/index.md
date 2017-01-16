@@ -568,7 +568,7 @@ Documentation can be found at [starforge.readthedocs.org](http://starforge.readt
 
 Please welcome [Anthony Brétaudeau](https://www6.rennes.inra.fr/igepp/Listes-des-personnes/B/Bretaudeau-Anthony) from [BIPAA](https://www6.rennes.inra.fr/igepp/L-IGEPP/Plateformes/Plateforme-bioinformatique-pour-les-arthropodes-des-agroecosystemes) at [INRA](https://www6.rennes.inra.fr/igepp/) to the [IUC](/src/iuc/index.md).
 
-[ToolShed contributions for April and May](/src/tool-shed/contributions/2016_05/index.md).
+[ToolShed contributions for April and May](/src/toolshed/contributions/2016_05/index.md).
 
 # Other News
 

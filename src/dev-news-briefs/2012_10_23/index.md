@@ -66,7 +66,7 @@ The Galaxy wiki and other related resources have now been updated to point to th
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/tool-shed/index.md)**
+**[Tool Shed](/src/toolshed/index.md)**
 
 ### Tool Shed Enhancements inside of Galaxy
 

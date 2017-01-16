@@ -13,7 +13,7 @@ The [December 2012 Galaxy Update is now available](/src/galaxy-updates/2012_12/i
 * [Source Code Documentation](/src/galaxy-updates/2012_12/index.md#source-code-documentation) is now available
 * [New Galaxy Distributions](/src/galaxy-updates/2012_12/index.md#new-galaxy-distributions)
 * [New Galaxy CloudMan Release](/src/galaxy-updates/2012_12/index.md#new-galaxy-cloudman-release)
-* [Tool Shed Contributions](/src/galaxy-updates/2012_12/index.md#tool-shed-contributions)
+* [Tool Shed Contributions](/src/galaxy-updates/2012_12/index.md#toolshed-contributions)
 * [Other News](/src/galaxy-updates/2012_12/index.md#other-news)
 
 If you have anything you would like to see in the January *[Galaxy Update](/src/galaxy-updates/index.md)*, please let us know.

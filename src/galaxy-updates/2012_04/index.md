@@ -170,8 +170,8 @@ At least *15* new repositories were added to the [Galaxy Tool Shed](http://tools
 ## New Distribution
 
 There has been one [Galaxy distribution](/src/dev-news-briefs/index.md) in the past month.  The [most recent release (March 12)](/src/dev-news-briefs/2012_03_12/index.md), includes these highlights:
-* **Emboss tools and datatypes** moving from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)* in the **NEXT release**. Read more about the upcoming **[tool migrations...](/src/tool-shed/index.md#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)**
-* Galaxy tool [XML configuration](/src/tool-shed/index.md#xml_configuration_files_used_to_populate_your_galaxy_tool_panel), managing [tool panel layout](/src/tool-shed/index.md#managing_the_layout_of_your_galaxy_tool_panel), and Galaxy [tool versions](/src/tool-shed/index.md#galaxy_tool_versions).
+* **Emboss tools and datatypes** moving from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)* in the **NEXT release**. Read more about the upcoming **[tool migrations...](/src/toolshed/index.md#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)**
+* Galaxy tool [XML configuration](/src/toolshed/index.md#xml_configuration_files_used_to_populate_your_galaxy_tool_panel), managing [tool panel layout](/src/toolshed/index.md#managing_the_layout_of_your_galaxy_tool_panel), and Galaxy [tool versions](/src/toolshed/index.md#galaxy_tool_versions).
 * **RNA-Seq Tools:** Added **[CuffMerge](http://cufflinks.cbcb.umd.edu/)** version 1.0.0, Updated **[TopHat](http://tophat.cbcb.umd.edu/)** default parameters
 * **External Display Apps:** Added **[RViewer](http://rviewer.lbl.gov/rviewer/)**, Updated **[IGV](http://www.broadinstitute.org/igv/)**
 * Now visualize **[ENCODE](http://genome.ucsc.edu/ENCODE/) "peak" datatype tracks** in the Galaxy Track Browser (aka Trackster)

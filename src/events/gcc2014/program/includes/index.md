@@ -98,7 +98,7 @@ Moderator: [Ravi Madduri](http://www.mcs.anl.gov/person/ravi-madduri),  [Argonne
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 4:00 </td>
-    <td style=" vertical-align: top; border: none; width: 100%;"> <em><a href='/src/events/gcc2014/abstracts/talks/index.md#the-galaxy-tool-shed-a-framework-for-building-galaxy-tools'>The Galaxy Tool Shed: A Framework for Building Galaxy Tools</a></em> <div class='indent'> <a href='/src/greg_vonkuster/index.md'>Greg von Kuster</a>, <a href='http://psu.edu/'>Penn State University</a> </div> </td>
+    <td style=" vertical-align: top; border: none; width: 100%;"> <em><a href='/src/events/gcc2014/abstracts/talks/index.md#the-galaxy-toolshed-a-framework-for-building-galaxy-tools'>The Galaxy Tool Shed: A Framework for Building Galaxy Tools</a></em> <div class='indent'> <a href='/src/greg_vonkuster/index.md'>Greg von Kuster</a>, <a href='http://psu.edu/'>Penn State University</a> </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 4:20 </td>

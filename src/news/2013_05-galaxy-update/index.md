@@ -10,7 +10,7 @@ The [May 2013 Galaxy Update is now available](/src/galaxy-updates/2013_05/index.
 * [Open Positions](/src/galaxy-updates/2013_05/index.md#whos-hiring) at five different institutions
 * [Other Upcoming Events](/src/galaxy-updates/2013_05/index.md#other-upcoming-events)
 * [Galaxy Distributions](/src/galaxy-updates/2013_05/index.md#galaxy-distributions)
-* [Tool Shed Contributions](/src/galaxy-updates/2013_05/index.md#tool-shed-contributions)
+* [Tool Shed Contributions](/src/galaxy-updates/2013_05/index.md#toolshed-contributions)
 * [Other News](/src/galaxy-updates/2013_05/index.md#other-news)
 
 If you have anything you would like to see in the June *[Galaxy Update](/src/galaxy-updates/index.md)*, please let us know.

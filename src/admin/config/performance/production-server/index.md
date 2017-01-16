@@ -156,7 +156,7 @@ To get started with setting up local data, please see [Data Integration](https:/
 * Some tools (for example, Extract Genomic DNA) require that you cache (potentially huge) local .2bit data.
 * Other tools (for example, Bowtie2) require that you cache both .fasta data and tool-specific indexes.
 * The `galaxy_dist/tool-data/` directory contains a set of sample location (`<data_label>.loc`) files that describe the metadata and path to local data and indexes.
-* Installed tool packages from the [Tool Shed](/src/tool-shed/index.md) may also include location files.
+* Installed tool packages from the [Tool Shed](/src/toolshed/index.md) may also include location files.
 * Comments in location files explain the expected format.
 * Wikis linked from [Data Integration](https://wiki.galaxyproject.org/Admin/DataIntegration) explain how to obtain, create, or rysnc many common data and indexes. See an individual Tool Shed repository's documentation for more details.
 

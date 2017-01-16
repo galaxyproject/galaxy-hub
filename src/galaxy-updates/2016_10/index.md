@@ -651,7 +651,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # ToolShed Contributions
 
-[Tool Shed contributions for September](/src/tool-shed/contributions/2016_09/index.md).
+[Tool Shed contributions for September](/src/toolshed/contributions/2016_09/index.md).
 
 # Other News
 

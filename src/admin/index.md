@@ -18,7 +18,7 @@ This is the hub page for the section of this wiki on how to deploy and administe
 * [Tool Panel](/src/admin/tool-panel/index.md)
 * [Administration Interface](/src/admin/Interface/index.md)
 * [Subtopics in Configuration](/src/admin/config/index.md)
-* [Installing tools](/src/admin/tools/add-tool-from-tool-shed-tutorial/index.md)
+* [Installing tools](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
 * [Data Libraries](/src/admin/data-libraries/index.md)
 * [Datatypes](/src/admin/datatypes/index.md)
 * [Sample Tracking](/src/admin/sample-tracking/index.md)

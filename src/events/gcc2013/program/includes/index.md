@@ -187,7 +187,7 @@ END_INCLUDE
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 13:30</td>
-    <td style=" vertical-align: top; border: none; width: 100%;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/VonKusterToolShed.pdf'>Slides</a>, <a href='https://vimeo.com/74347850'>Vimeo</a></em></div> <em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalksenhancing-the-galaxy-tool-shed'>Enhancing the Galaxy Tool Shed</a></em><div class='indent'><a href='/src/greg_vonkuster/index.md'>Greg Von Kuster</a>, Penn State University </div> </td>
+    <td style=" vertical-align: top; border: none; width: 100%;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/VonKusterToolShed.pdf'>Slides</a>, <a href='https://vimeo.com/74347850'>Vimeo</a></em></div> <em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalksenhancing-the-galaxy-toolshed'>Enhancing the Galaxy Tool Shed</a></em><div class='indent'><a href='/src/greg_vonkuster/index.md'>Greg Von Kuster</a>, Penn State University </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 13:50 </td>

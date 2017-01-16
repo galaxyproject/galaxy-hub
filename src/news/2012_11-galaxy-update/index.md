@@ -10,7 +10,7 @@ The [November 2012 Galaxy Update is now available](/src/galaxy-updates/2012_11/i
 * [Galaxy's new issue reporting system](/src/galaxy-updates/2012_11/index.md#new-trello-issue-board)
 * [Upcoming Events and Deadlines](/src/galaxy-updates/2012_11/index.md#upcoming-events-and-deadlines)
 * [Open Positions](/src/galaxy-updates/2012_11/index.md#whos-hiring) at five different institutions
-* [Tool Shed Contributions](/src/galaxy-updates/2012_11/index.md#tool-shed-contributions)
+* [Tool Shed Contributions](/src/galaxy-updates/2012_11/index.md#toolshed-contributions)
 * [New Distributions](/src/galaxy-updates/2012_11/index.md#new-distributions)
 * [Other News](/src/galaxy-updates/2012_11/index.md#other-news)
 

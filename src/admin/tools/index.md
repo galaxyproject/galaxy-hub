@@ -15,7 +15,7 @@ There are two ways how to gets a tool into Galaxy:
 
 ## Installing tools into Galaxy
 
-The easiest way to get tools into Galaxy is to install them from the Tool Shed which contains vast number of popular tools already prepared to be used within Galaxy. It acts as an appstore for Galaxy and allows you to seamlessly load your Galaxy with helpfull tools. To get you started please se the  [Add Tool From Tool Shed Tutorial](/src/admin/tools/add-tool-from-tool-shed-tutorial/index.md).
+The easiest way to get tools into Galaxy is to install them from the Tool Shed which contains vast number of popular tools already prepared to be used within Galaxy. It acts as an appstore for Galaxy and allows you to seamlessly load your Galaxy with helpfull tools. To get you started please se the  [Add Tool From Tool Shed Tutorial](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md).
 
 ## Adding a custom tool to Galaxy
 
@@ -32,7 +32,7 @@ Later, when your tool is working within your Galaxy, you may want to share the t
 
 ## Tool dependencies
 
-Some of the tools included in the distribution require dependencies that Galaxy cannot provide. Plese see a page dedicated to [Tool Dependencies](/src/admin/tools/ToolDependencies/index.md) to learn which tools are affected and how to resolve it. As of March 2014 Galaxy is in the middle of migrating tools from the distribution to the [Tool Shed](/src/tool-shed/index.md) which means that the list of these dependencies is shortening. The details about tool migrations are available at the [migration page](/src/tool-shed/migrating-tools-from-galaxy-distribution/index.md).
+Some of the tools included in the distribution require dependencies that Galaxy cannot provide. Plese see a page dedicated to [Tool Dependencies](/src/admin/tools/ToolDependencies/index.md) to learn which tools are affected and how to resolve it. As of March 2014 Galaxy is in the middle of migrating tools from the distribution to the [Tool Shed](/src/toolshed/index.md) which means that the list of these dependencies is shortening. The details about tool migrations are available at the [migration page](/src/toolshed/migrating-tools-from-galaxy-distribution/index.md).
 
 
 * [Create Executable](/src/admin/tools/Create Executable/index.md)

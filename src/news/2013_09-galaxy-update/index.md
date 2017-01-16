@@ -11,7 +11,7 @@ The [September 2013 Galaxy Update is hot off the press](/src/galaxy-updates/2013
 * [Open Positions](/src/galaxy-updates/2013_09/index.md#whos-hiring) at six different organizations
 * [Upcoming Events](/src/galaxy-updates/2013_09/index.md#events) including training in California, Sydney, Italy, Toulouse, and Boston.
 * [Aug 12, 2013 Galaxy Distribution](/src/galaxy-updates/2013_09/index.md#aug-12-2013-galaxy-distribution)
-* [Tool Shed Contributions](/src/galaxy-updates/2013_09/index.md#tool-shed-contributions)
+* [Tool Shed Contributions](/src/galaxy-updates/2013_09/index.md#toolshed-contributions)
 * [Other News](/src/galaxy-updates/2013_09/index.md#other-news)
 
 If you have anything you would like to see in the next *[Galaxy Update](/src/galaxy-updates/index.md)*, please let us know.

@@ -249,7 +249,7 @@ Reload the Galaxy interface if your 3rd party cookies were not previously enable
 
 <br />
 * Register an account that matches the address you set in `admin_users`
-* Follow the [tutorial on installing tools from the Tool Shed](/src/admin/tools/add-tool-from-tool-shed-tutorial/index.md). In brief:
+* Follow the [tutorial on installing tools from the Tool Shed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md). In brief:
   * Click **Admin** from the masthead
   * Click **Search and browse tool sheds** from the left panel
   * Click the popup icon for **Galaxy main tool shed** and select **Search for valid tools**
@@ -263,10 +263,10 @@ Reload the Galaxy interface if your 3rd party cookies were not previously enable
 
 * [Tools hub page](/src/admin/tools/index.md)
 * [Tutorial on adding custom tools](/src/admin/tools/add-tool-tutorial/index.md)
-* [Tutorial on installing tools from the Tool Shed](/src/admin/tools/add-tool-from-tool-shed-tutorial/index.md)
+* [Tutorial on installing tools from the Tool Shed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
 * [Current tools/ directory](https://bitbucket.org/galaxy/galaxy-central/src/3b42725359224832317a066d95dff596f93ab33f/tools?at=stable)
-* [Tool Shed hub page](/src/tool-shed/index.md)
-* [Tool Shed tour](/src/tool-shed/tour/index.md)
+* [Tool Shed hub page](/src/toolshed/index.md)
+* [Tool Shed tour](/src/toolshed/tour/index.md)
 * [Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)
 
 ## Managing local data
