@@ -17,20 +17,20 @@
         link: https://biostar.usegalaxy.org
 - Using Galaxy:
   title: Using Galaxy
-  link: UsingGalaxy
+  link: using-galaxy
   links:
       - Servers:
         title: Servers
-        link: PublicGalaxyServers
+        link: public-galaxy-servers
       - Learn:
         title: Learn
-        link: Learn
+        link: learn
       - Main:
         title: Main
-        link: Main
+        link: main
       - Choices:
         title: Choices
-        link: BigPicture/Choices
+        link: big-picture/choices
       - Tutorials:
         title: Support
         link: support
@@ -39,43 +39,43 @@
   links:
       - About:
         title: About
-        link: GalaxyProject
+        link: galaxy-project
 - Deploy:
   title: Deploy Galaxy
   links:
       - Get Galaxy:
         title: Get Galaxy
-        link: Admin/GetGalaxy
+        link: admin/get-galaxy
       - Cloud:
         title: Cloud
-        link: Cloud
+        link: cloud
       - Administration:
         title: Admin
-        link: Admin
+        link: admin
       - Tool Config:
         title: Tool Config
-        link: Admin/Tools/ToolConfigSyntax
+        link: admin/tools/tool-config-syntax
       - Tool Shed:
         title: Tool Shed
-        link: ToolShed
+        link: tool-shed
 - Contribute:
   title: Contribute
   links:
       - Develop:
         title: Develop
-        link: Develop
+        link: develop
       - Tools:
         title: Tools
-        link: Tools
+        link: tools
       - Issues & Requests:
         title: Issues & Requests
-        link: Issues
+        link: issues
       - Logs:
         title: Logs
-        link: Community/Logs
+        link: community/logs
       - Deployments:
         title: Deployments
-        link: Community/Deployments
+        link: community/deployments
       - Teach:
         title: Teach
-        link: Teach
+        link: teach
