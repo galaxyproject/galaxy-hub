@@ -419,7 +419,7 @@ One new new **[Galaxy Training Network member](/src/teach/trainers/index.md)** w
 
 # ToolShed Contributions
 
-See [list of tools contributed in August](/src/tool-shed/contributions/2015_08/index.md).
+See [list of tools contributed in August](/src/toolshed/contributions/2015_08/index.md).
 
 
 # Other News

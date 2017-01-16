@@ -10,7 +10,7 @@ The [October 2012 Galaxy Update is now available](/src/galaxy-updates/2012_10/in
 * [35 new papers](/src/galaxy-updates/2012_10/index.md#new-papers)
 * [CBIIT's new public Galaxy Server](/src/galaxy-updates/2012_10/index.md#new-public-server-cbiit)
 * [Open Positions](/src/galaxy-updates/2012_10/index.md#whos-hiring) at three different institutions
-* [Tool Shed Contributions](/src/galaxy-updates/2012_10/index.md#tool-shed-contributions)
+* [Tool Shed Contributions](/src/galaxy-updates/2012_10/index.md#toolshed-contributions)
 * [New Distributions](/src/galaxy-updates/2012_10/index.md#new-distributionss)
 * [Other News](/src/galaxy-updates/2012_10/index.md#other-news)
 

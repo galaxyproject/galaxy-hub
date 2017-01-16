@@ -377,7 +377,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 # ToolShed Contributions
 
-See [list of tools contributed in October and November](/src/tool-shed/contributions/2015_11/index.md).
+See [list of tools contributed in October and November](/src/toolshed/contributions/2015_11/index.md).
 
 
 ----

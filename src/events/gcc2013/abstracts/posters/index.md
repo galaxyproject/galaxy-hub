@@ -416,7 +416,7 @@ In this presentation, we will present the architecture of Andromeda and its inst
 
 *[Poster](PLACEHOLDER_ATTACHMENT_URL/src/documents/posters/GCC2013/NGWebServerLeung.pdf)*
 
-A few institutes brought the galaxy server software to the public which helped in the growth of the Galaxy user community. The userbase for these public servers have grown very fast, creating new challenges to the administrators. Challenges include: traffic handling, data storage, computing facility (cluster), new versions of (optimized) software (tool-shed) and production ready deployments of the webserver and database server.
+A few institutes brought the galaxy server software to the public which helped in the growth of the Galaxy user community. The userbase for these public servers have grown very fast, creating new challenges to the administrators. Challenges include: traffic handling, data storage, computing facility (cluster), new versions of (optimized) software (toolshed) and production ready deployments of the webserver and database server.
 
 Focus on performance has shifted from running all analyses in one instance to a local cluster. Optimizations in the tools are dealt with on every major release (e.g. bwa). The question remains: what about the basic matters? The codebase of Galaxy is Pylons based, which ran exclusively with Paste at time of writing Galaxy.
 

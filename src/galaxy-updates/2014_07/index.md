@@ -291,12 +291,12 @@ One new [public Galaxy server](/src/public-galaxy-servers/index.md) was added to
 
 ## Tool Shed June 2, 2014 Release
 
-A [corresponding version](http://gregvonkuster.org/galaxy-tool-shed-june-2-2014-release/) of the ToolShed was also released on June 2, 2014.  [Highlights](http://gregvonkuster.org/galaxy-tool-shed-june-2-2014-release/) include
+A [corresponding version](http://gregvonkuster.org/galaxy-toolshed-june-2-2014-release/) of the ToolShed was also released on June 2, 2014.  [Highlights](http://gregvonkuster.org/galaxy-toolshed-june-2-2014-release/) include
 
-* [Preparing for a New Main Page](http://gregvonkuster.org/galaxy-tool-shed-june-2-2014-release/#pfanmp)
-* [Tool Dependency Installation Recipe Enhancements](http://gregvonkuster.org/galaxy-tool-shed-june-2-2014-release/#tdire)
-* [Tool Shed API Enhancements](http://gregvonkuster.org/galaxy-tool-shed-june-2-2014-release/#tsae)
-* [Bootstrapping a New Development Tool Shed](http://gregvonkuster.org/galaxy-tool-shed-june-2-2014-release/#bandts)
+* [Preparing for a New Main Page](http://gregvonkuster.org/galaxy-toolshed-june-2-2014-release/#pfanmp)
+* [Tool Dependency Installation Recipe Enhancements](http://gregvonkuster.org/galaxy-toolshed-june-2-2014-release/#tdire)
+* [Tool Shed API Enhancements](http://gregvonkuster.org/galaxy-toolshed-june-2-2014-release/#tsae)
+* [Bootstrapping a New Development Tool Shed](http://gregvonkuster.org/galaxy-toolshed-june-2-2014-release/#bandts)
 
 ## BioBlend and CloudMan
 
@@ -320,7 +320,7 @@ The most recent version of CloudMan was [released in January 2014](/src/news/clo
 <br /><br />
 
 One new [Log Board entry](/src/community/logs/index.md) was added in June:
-* [Local Tool Shed with https and LDAP](/src/community/log/2014/tool-shed-with-https-and-ldap/index.md)
+* [Local Tool Shed with https and LDAP](/src/community/log/2014/toolshed-with-https-and-ldap/index.md)
 
 The *[Community Log Board](/src/community/logs/index.md)* and  *[Deployment Catalog](/src/community/deployments/index.md)* *[Galaxy community hubs](/src/community/index.md)* were launched last your.  If you have a [Galaxy deployment](/src/community/deployments/index.md), or [experience](/src/community/logs/index.md) you want to share then please publish them.
 

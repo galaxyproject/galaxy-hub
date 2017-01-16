@@ -1,8 +1,8 @@
-<div class='right'> <a href='/src/tool-shed/index.md'><img src="/src/images/logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a> {{> ToolShed/LinkBox }} </div>
+<div class='right'> <a href='/src/toolshed/index.md'><img src="/src/images/logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a> {{> ToolShed/LinkBox }} </div>
 
 # Hosting a Local Galaxy Tool Shed for Developing Galaxy Tools
 
-If you decide to host your own Tool Shed, it will not initially contain anything until you add your own mercurial repositories to it. Starting up a local Tool Shed does not result in the mercurial repositories currently available in the [Main Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu) being automatically made available in your local Tool Shed. Some additional explanatory material can be found at http://gregvonkuster.org/galaxy-tool-shed-framework-building-galaxy-tools/
+If you decide to host your own Tool Shed, it will not initially contain anything until you add your own mercurial repositories to it. Starting up a local Tool Shed does not result in the mercurial repositories currently available in the [Main Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu) being automatically made available in your local Tool Shed. Some additional explanatory material can be found at http://gregvonkuster.org/galaxy-toolshed-framework-building-galaxy-tools/
 
 
 All of the code for the Tool Shed is included in the Galaxy code distribution.  It is just a different web application from Galaxy itself. It uses a different database from Galaxy (**this is CRITICAL**) which you configure in the file **tool_shed_wsgi.ini**, the equivalent of **universe_wsgi.ini** for Galaxy. Like universe_wsgi.ini for Galaxy, it has an admin_users entry, which must be edited to contain a comma separated (NO spaces!) list of user email addresses - accounts will those email addresses as userids will all be local administrators and will be able to see and use the tool shed admin tab. The entry for the database connection is the following. *If left as is, a sqlite database instance will be automatically created for use when you start the Tool Shed server.*

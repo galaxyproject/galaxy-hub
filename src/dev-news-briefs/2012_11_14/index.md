@@ -67,7 +67,7 @@ Please note that this is the first release of this documentation and it is far f
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/tool-shed/index.md)**
+**[Tool Shed](/src/toolshed/index.md)**
 
 ### Tool Shed Enhancements inside of Galaxy
 

@@ -10,7 +10,7 @@ The [October 2013 Galaxy Update is out](/src/galaxy-updates/2013_10/index.md):
 * [Open Positions](/src/galaxy-updates/2013_10/index.md#whos-hiring) at nine different organizations
 * [Upcoming Events](/src/galaxy-updates/2013_10/index.md#events), lots of them in [Australia](/src/galaxy-updates/2013_10/index.md#australia) plus [3 other continents](/src/galaxy-updates/2013_10/index.md#all-those-other-continents).  
 * [Online materials from past events](/src/galaxy-updates/2013_10/index.md#online-materials-from-past-events), including [all GCC2013 videos on Vimeo](http://bit.ly/gcc2013vimeo) and [course materials for the 2013 UC Davis Bioinformatics Short Course](http://bit.ly/16rAUkf). The UC Davis course featured 5 great days of lecture and hands-on exercises.
-* More [Tool Shed contributions](/src/galaxy-updates/2013_10/index.md#tool-shed-contributions) than you can shake a stick at.
+* More [Tool Shed contributions](/src/galaxy-updates/2013_10/index.md#toolshed-contributions) than you can shake a stick at.
 
 If you have anything you would like to see in the next *[Galaxy Update](/src/galaxy-updates/index.md)*, please let us know.
 

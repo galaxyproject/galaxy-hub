@@ -23,7 +23,7 @@ The **[October Galactic News](/src/galaxy-updates/2015_10/index.md)** is hot off
 * [New Releases](/src/galaxy-updates/2015_10/index.md#releases)
   * [July 2015 Galaxy Release (v 15.07)](/src/galaxy-updates/2015_10/index.md#july-2015-galaxy-release-v-1507) (Chronologically challenged?  Whatever do you mean?)
   * [Mid 2015 Galaxy CloudMan Release](/src/galaxy-updates/2015_10/index.md#mid-2015-galaxy-cloudman-release) (Nope, still don't know what you mean.)
-  * [Lots of Tool Shed contributions](/src/tool-shed/contributions/2015_09/index.md).
+  * [Lots of Tool Shed contributions](/src/toolshed/contributions/2015_09/index.md).
 * and [lots of other news too](/src/galaxy-updates/2015_10/index.md#other-news), [including a birthday](/src/galaxy-updates/2015_10/index.md#galaxy-turns-10) (OK, maybe we are chronologically challenged, but we're young!)
 
 [Dave Clements](/src/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)

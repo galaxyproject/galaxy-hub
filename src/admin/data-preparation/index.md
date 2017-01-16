@@ -4,7 +4,7 @@
 
 Tutorial: [Events/GCC2014/TrainingDay](/src/events/gcc2014/training-day/index.md#tool_development_from_bright_idea_to_toolshed_-_data_managers)
 
-**NOTE: Be aware that that as of early 2014, builds are incorporated into the Galaxy schema in tables. [Data Managers](/src/admin/tools/data-managers/index.md) are recommended to index new genomes (these are found in the [ToolShed](/src/tool-shed/index.md). *This wiki is considered legacy and provided as a reference.***
+**NOTE: Be aware that that as of early 2014, builds are incorporated into the Galaxy schema in tables. [Data Managers](/src/admin/tools/data-managers/index.md) are recommended to index new genomes (these are found in the [ToolShed](/src/toolshed/index.md). *This wiki is considered legacy and provided as a reference.***
 
 # Builds list changes
 

@@ -73,35 +73,35 @@ If called with the `--help` option, it will output usage information.  The datas
 <br />
 # Tool Shed
 
-The **[Tool Shed](/src/tool-shed/index.md)** wiki has been re-written with a new, cleaner presentation. *[Check it out!](/src/tool-shed/index.md)*
+The **[Tool Shed](/src/toolshed/index.md)** wiki has been re-written with a new, cleaner presentation. *[Check it out!](/src/toolshed/index.md)*
 
 ### New tool shed features
 
 The following sections of the tool shed wiki provide information about features introduced in this Galaxy release.
 
-1. **[Handling repository installation errors](/src/tool-shed/installing-repositories-to-galaxy/index.md#handling_repository_installation_errors)**
+1. **[Handling repository installation errors](/src/toolshed/installing-repositories-to-galaxy/index.md#handling_repository_installation_errors)**
 
-  In some cases installing a repository into a Galaxy instance may result in errors.  When this happens the repository's status attribute will be set to an error state, and the repository will be displayed similar to the example shown in the following page. [Read more…](/src/tool-shed/installing-repositories-to-galaxy/index.md#handling_repository_installation_errors)
+  In some cases installing a repository into a Galaxy instance may result in errors.  When this happens the repository's status attribute will be set to an error state, and the repository will be displayed similar to the example shown in the following page. [Read more…](/src/toolshed/installing-repositories-to-galaxy/index.md#handling_repository_installation_errors)
 
-2. **[Including installation information or 3rd-party tool dependency licensing information in your repository](/src/tool-shed-readme-files/index.md)**
+2. **[Including installation information or 3rd-party tool dependency licensing information in your repository](/src/toolshed-readme-files/index.md)**
 
-  This document provides the details for a simple feature of the tool shed that enables displaying the license information (or possibly other kinds of information) for tools included in a repository.  [Read more…](/src/tool-shed-readme-files/index.md)
+  This document provides the details for a simple feature of the tool shed that enables displaying the license information (or possibly other kinds of information) for tools included in a repository.  [Read more…](/src/toolshed-readme-files/index.md)
 
-3. **[Updating a previously installed repository to a revision that includes changes to installed tool dependencies](/src/tool-shed-tool-features/index.md#updating_a_previously_installed_repository_to_a_revision_that_includes_changes_to_installed_tool_dependencies)**
+3. **[Updating a previously installed repository to a revision that includes changes to installed tool dependencies](/src/toolshed-tool-features/index.md#updating_a_previously_installed_repository_to_a_revision_that_includes_changes_to_installed_tool_dependencies)**
 
-  In most cases changing the version of a tool dependency requires a change to the dependent tool's version as well.  This ensures reproducible behavior for Galaxy instances in which the tool is installed.  However, in some cases the owner of a repository may change the version or type attribute of a tool dependency in it's definition in the repository without changing the version of the dependent tool.  Again, this should not often occur! [Read more…](/src/tool-shed-tool-features/index.md#updating_a_previously_installed_repository_to_a_revision_that_includes_changes_to_installed_tool_dependencies)
+  In most cases changing the version of a tool dependency requires a change to the dependent tool's version as well.  This ensures reproducible behavior for Galaxy instances in which the tool is installed.  However, in some cases the owner of a repository may change the version or type attribute of a tool dependency in it's definition in the repository without changing the version of the dependent tool.  Again, this should not often occur! [Read more…](/src/toolshed-tool-features/index.md#updating_a_previously_installed_repository_to_a_revision_that_includes_changes_to_installed_tool_dependencies)
 
 ### Improved tool shed feature documentation
 
 The following sections of the tool shed wiki have been updated to more thoroughly describe features.
 
-1. **[Cloning a repository using hg from the command line](/src/tool-shed-repository-features/index.md#cloning_a_repository_using_hg_from_the_command_line)**
+1. **[Cloning a repository using hg from the command line](/src/toolshed-repository-features/index.md#cloning_a_repository_using_hg_from_the_command_line)**
 
-  If you want to clone a repository from the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/src/tool-shed-repository-features/index.md#cloning_a_repository_using_hg_from_the_command_line)
+  If you want to clone a repository from the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/src/toolshed-repository-features/index.md#cloning_a_repository_using_hg_from_the_command_line)
 
-2. **[Pushing changes to a repository using hg from the command line](/src/tool-shed-repository-features/index.md#pushing_changes_to_a_repository_using_hg_from_the_command_line)**
+2. **[Pushing changes to a repository using hg from the command line](/src/toolshed-repository-features/index.md#pushing_changes_to_a_repository_using_hg_from_the_command_line)**
 
-  If you want to push a changeset to a repository in the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/src/tool-shed-repository-features/index.md#pushing_changes_to_a_repository_using_hg_from_the_command_line)
+  If you want to push a changeset to a repository in the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/src/toolshed-repository-features/index.md#pushing_changes_to_a_repository_using_hg_from_the_command_line)
 
 3. **[Adding additional change sets to the initial change set in a repository](/src/repository-revisions/index.md)**
 
@@ -113,7 +113,7 @@ The following sections of the tool shed wiki have been updated to more thoroughl
 
 2. Apply styles when displaying the long description when viewing a tool shed repository.
 
-3. Merged in jmchilton/galaxy-central-tool-shed-hg-urls, see *[pull request 69](http://bitbucket.org/galaxy/galaxy-central/pull-request/69)* contributed by [John Chilton](/src/john-chilton/index.md).
+3. Merged in jmchilton/galaxy-central-toolshed-hg-urls, see *[pull request 69](http://bitbucket.org/galaxy/galaxy-central/pull-request/69)* contributed by [John Chilton](/src/john-chilton/index.md).
 
 ### New Galaxy fixes and features included in this Galaxy release
 
@@ -123,7 +123,7 @@ The following sections of the tool shed wiki have been updated to more thoroughl
 
 3. A Galaxy tool migration stage is defined as the stage level (e.g., 0002, 0003, 0004, etc.) at which a specific set of tools was migrated out of the Galaxy code distribution and added to the main Galaxy tool shed.
 
- Executing the process for a specific tool migration stage can be done at any time, not just at the time you are starting your Galaxy server as discussed in the previous sections of this document. [Read more…](/src/tool-shed/migrating-tools-from-galaxy-distribution/index.md#delaying_execution_of_a_tool_migration_until_later)
+ Executing the process for a specific tool migration stage can be done at any time, not just at the time you are starting your Galaxy server as discussed in the previous sections of this document. [Read more…](/src/toolshed/migrating-tools-from-galaxy-distribution/index.md#delaying_execution_of_a_tool_migration_until_later)
 
 <br />
 # Tools
@@ -215,7 +215,7 @@ Tool changes that enable clearer experimental tracking and ease reproducibility
 * [35 new papers](/src/galaxy-updates/2012_10/index.md#new-papers)
 * [CBIIT's new public Galaxy Server](/src/galaxy-updates/2012_10/index.md#new-public-server-cbiit)
 * [Open Positions](/src/galaxy-updates/2012_10/index.md#whos-hiring) at three different institutions
-* [Tool Shed Contributions](/src/galaxy-updates/2012_10/index.md#tool-shed-contributions)
+* [Tool Shed Contributions](/src/galaxy-updates/2012_10/index.md#toolshed-contributions)
 * [Other News](/src/galaxy-updates/2012_10/index.md#other-news)
 
 <br />

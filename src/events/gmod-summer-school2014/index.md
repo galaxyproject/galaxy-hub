@@ -601,7 +601,7 @@ Galaxy tools are not (generally) bioinformatics programs themselves but XML file
 command-line-only program. Among other things, the tool wrapper file defines a form interface for the tools possible
 parameters with help and explanation.
 
-See also: [Adding Tools from a Tool Shed](/src/admin/tools/add-tool-from-tool-shed-tutorial/index.md)
+See also: [Adding Tools from a Tool Shed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
 
 Programs and their dependencies will be installed to the directory setting `tool_dependency_dir` in your
 `universe_wsgi.ini` file (which we set [here](/src/events/gmod-summer-school2014/index.md#the-tool_dependency_dir)). They can also be invoked on the command line
@@ -622,7 +622,7 @@ created from there.
 [Galaxy main tool shed](http://toolshed.g2.bx.psu.edu/)
 [Galaxy test tool shed](http://testtoolshed.g2.bx.psu.edu/)
 [Public tool sheds](/src/public-galaxy-servers/index.md#public_toolsheds)
-See also the comprehensive documentation on Tool Sheds here: [ToolShed](/src/tool-shed/index.md);
+See also the comprehensive documentation on Tool Sheds here: [ToolShed](/src/toolshed/index.md);
 
 
 #### Installing a tool from a Tool Shed
@@ -677,7 +677,7 @@ Let's check that it was installed and is now available:
 3. You should see a link with the text: 'FastQC:Read QC reports using FastQC' - that indicates the tools is installed
   and ready to try.
 
-Again, see also: [Adding Tools from a Tool Shed](/src/admin/tools/add-tool-from-tool-shed-tutorial/index.md)
+Again, see also: [Adding Tools from a Tool Shed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
 
 
 <br />
@@ -690,7 +690,7 @@ do that and try them out on some isolate data from a library. Also, it's best to
 much as possible so we'll convert this trial run (if it worked) into a workflow (AKA pipeline) that will reduce this
 process to a two click operation.
 
-Using the procedure in [Installing a tool from a Tool Shed](/src/events/gmod-summer-school2014/index.md#installing-a-tool-from-a-tool-shed), search for and install the following tools:
+Using the procedure in [Installing a tool from a Tool Shed](/src/events/gmod-summer-school2014/index.md#installing-a-tool-from-a-toolshed), search for and install the following tools:
 1. `fastq_paired_end_joiner`:
   * search with the tool name 'fastq joiner'
   * The owner is 'devteam' and

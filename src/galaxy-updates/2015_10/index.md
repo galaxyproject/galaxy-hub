@@ -477,7 +477,7 @@ Three security vulnerabilities were announced and patched in August.  The Galaxy
 
 # ToolShed Contributions
 
-See [list of tools contributed in September](/src/tool-shed/contributions/2015_09/index.md).
+See [list of tools contributed in September](/src/toolshed/contributions/2015_09/index.md).
 
 ----
 

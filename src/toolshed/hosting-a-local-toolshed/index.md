@@ -1,4 +1,4 @@
-<div class='right'> <a href='/src/tool-shed/index.md'><img src="/src/images/logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a> {{> ToolShed/LinkBox }} </div>
+<div class='right'> <a href='/src/toolshed/index.md'><img src="/src/images/logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a> {{> ToolShed/LinkBox }} </div>
 
 # Hosting a Public Tool Shed for sharing Galaxy Utilities
 
@@ -78,7 +78,7 @@ Whenever you update the code base of your Tool Shed (by upgrading to a new Galax
 
 Metadata is generated for the repository whenever you make changes to it by uploading or deleting files or pushing mercurial commits to it via the command line.  This metadata is stored in the repository_metadata table in the Tool Shed's database.  This automatic process inspects the contents of the specific revision of the repository and generates and stores important information about it.  This metadata information is used by certain Tool Shed features.
 As new features are added to the Tool Shed, the process that generates this metadata may be enhanced to accommodate information about the new features.  Regenerating the metadata for your Tool Shed repositories can be done as often as you want - it is considered "safe" to do this.  You can do this by selecting the **Reset selected metadata** option from the Tool Shed Administration menu.
-![](/src/tool-shed/hosting-a-local-tool-shed/reset_selected_metadata.png)
+![](/src/toolshed/hosting-a-local-toolshed/reset_selected_metadata.png)
 
 # Migrating the database schema of your Tool Shed
 
@@ -113,4 +113,4 @@ Executing the above shell command will result in setting up a temporary director
 
 The functional test results are logged to an html file in **~/test/tool_shed/run_functional_tests.html**.  Loading this file into a browser will display something like the following.
 
-![](/src/tool-shed/hosting-a-local-tool-shed/functional_test_output.png)
+![](/src/toolshed/hosting-a-local-toolshed/functional_test_output.png)

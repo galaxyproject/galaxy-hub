@@ -351,7 +351,7 @@ This work highlights the value of working within the Galaxy environment and the 
 
 *[PDF](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2012/Cooke.pdf), [Keynote](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2012/Cooke.key), Video*
 
-The Mass Spectrometry group at La Trobe University has been developing a suite of tools for running proteomics analyses and visualizing proteomics data in Galaxy.  Our tools are tightly integrated with galaxy, including custom data types and an external display application that allows users to interactively view and search identified proteins as well as quickly navigate between those identifications and the raw spectra on which they were based.  The tools are available on the Galaxy tool-shed and all other software components are available as open source software.
+The Mass Spectrometry group at La Trobe University has been developing a suite of tools for running proteomics analyses and visualizing proteomics data in Galaxy.  Our tools are tightly integrated with galaxy, including custom data types and an external display application that allows users to interactively view and search identified proteins as well as quickly navigate between those identifications and the raw spectra on which they were based.  The tools are available on the Galaxy toolshed and all other software components are available as open source software.
 
 This talk gives a brief overview of our tools and outlines applications that emphasize the utility of making Proteomics tools available within the Galaxy ecosystem (of largely Genomics tools).  The talk also touches on some of the technical challenges we faced, especially in dealing with tools that are highly interdependent, and which spread data across multiple files.
 
@@ -459,11 +459,11 @@ The Netherlands Bioinformatics Centre (NBIC) plays a central coordinating role i
 
 *[PDF](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2012/vonKuster.pdf), [PPT](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2012/vonKuster.ppt), Video*
 
-Galaxy’s ease of use and rich feature set have made it a powerful enabler of biological research, and the recent introduction of the Galaxy tool shed has significantly enhanced this process. The Galaxy [Tool Shed](/src/tool-shed/index.md) enables sharing of Galaxy tools, proprietary datatypes, exported Galaxy workflows, and data across the research community with ease. Tools can be automatically discovered and installed into a local Galaxy environment in real time, and they can easily be deactivated or uninstalled when they are no longer needed. The tool shed also provides the ability to simultaneously install different versions of the same tool into a Galaxy environment, enabling reproducibility and more complex analyses.
+Galaxy’s ease of use and rich feature set have made it a powerful enabler of biological research, and the recent introduction of the Galaxy tool shed has significantly enhanced this process. The Galaxy [Tool Shed](/src/toolshed/index.md) enables sharing of Galaxy tools, proprietary datatypes, exported Galaxy workflows, and data across the research community with ease. Tools can be automatically discovered and installed into a local Galaxy environment in real time, and they can easily be deactivated or uninstalled when they are no longer needed. The tool shed also provides the ability to simultaneously install different versions of the same tool into a Galaxy environment, enabling reproducibility and more complex analyses.
 
-Big changes have been going on in how tools are packaged with the distribution.  This talk will focus on what's changed, and what you need to know about the Galaxy [Tool Shed](/src/tool-shed/index.md) to deploy your own Galaxy instance.
+Big changes have been going on in how tools are packaged with the distribution.  This talk will focus on what's changed, and what you need to know about the Galaxy [Tool Shed](/src/toolshed/index.md) to deploy your own Galaxy instance.
 
-*Note: If you want hands-on experience with the Galaxy [Tool Shed](/src/tool-shed/index.md), you are encouraged to attend the [Tool Shed Training Day session](/src/events/gcc2012/training-day/index.md).*
+*Note: If you want hands-on experience with the Galaxy [Tool Shed](/src/toolshed/index.md), you are encouraged to attend the [Tool Shed Training Day session](/src/events/gcc2012/training-day/index.md).*
 
 <br />
 

@@ -11,7 +11,7 @@
 [Events](/src/events/index.md)<br />
 [Get Galaxy!](/src/admin/get-galaxy/index.md)<br />
 [Admin](/src/admin/index.md)<br />
-[Tool Shed](/src/tool-shed/index.md)<br />
+[Tool Shed](/src/toolshed/index.md)<br />
 [CloudMan](/src/cloudman/index.md)<br />
 [Citing Galaxy](/src/citing-galaxy/index.md)<br />
 [Issue Board](/src/issues/index.md)<br />

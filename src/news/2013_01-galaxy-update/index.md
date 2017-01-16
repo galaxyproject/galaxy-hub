@@ -12,7 +12,7 @@ The [January 2013 Galaxy Update is now available](/src/galaxy-updates/2013_01/in
 * [January GalaxyAdmins Web Meetup](/src/galaxy-updates/2013_01/index.md#january-galaxyadmins-web-meetup)
 * [Other Upcoming Events and Deadlines](/src/galaxy-updates/2013_01/index.md#other-upcoming-events-and-deadlines)
 * [New Galaxy Distributions](/src/galaxy-updates/2013_01/index.md#new-galaxy-distributions)
-* [Tool Shed Contributions](/src/galaxy-updates/2013_01/index.md#tool-shed-contributions)
+* [Tool Shed Contributions](/src/galaxy-updates/2013_01/index.md#toolshed-contributions)
 * [Other News](/src/galaxy-updates/2013_01/index.md#other-news)
 
 If you have anything you would like to see in the Febrarury *[Galaxy Update](/src/galaxy-updates/index.md)*, please let us know.

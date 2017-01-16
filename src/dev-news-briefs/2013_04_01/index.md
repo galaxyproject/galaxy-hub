@@ -167,7 +167,7 @@ An abstracted interface has been created for the data manager to download, gener
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/tool-shed/index.md)**
+**[Tool Shed](/src/toolshed/index.md)**
 
 ### New Tool Shed Features
 

@@ -1,6 +1,6 @@
 <div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a> </div>
 
-[Recipes for Installing Packages Required by Galaxy Tools](/src/tool-shed/package-recipes/index.md)
+[Recipes for Installing Packages Required by Galaxy Tools](/src/toolshed/package-recipes/index.md)
 
 [More About Recipes that Download Package Binaries](/src/downloading-binaries/index.md)
 
