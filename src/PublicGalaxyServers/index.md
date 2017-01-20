@@ -675,6 +675,28 @@ Domain servers specialize in either a particular branch of the tree of life or i
     * [Carnegie-Mellon University](http://www.lti.cs.cmu.edu/)
     * [University of Pennsylvania](http://www.ldc.upenn.edu/)
 
+## MetaDP
+
+<div class='right solid'><a href='http://metadp.cn:7001/'><img src="/src/PublicGalaxyServers/MetaDP.png" alt="MetaDP: a comprehensive web server for disease prediction of 16S rRNA metagenomic datasets"  /></a></div>
+
+* *Links:*
+  * [MetaDP Server](http://metadp.cn:7001/)
+* *Domain/Purpose:*
+  * "a comprehensive web server for disease prediction of 16S rRNA metagenomic datasets"
+* *Comments:*
+  * "for 16S rRNA sequencing data analysis, including data quality control, operational taxonomic unit clustering, diversity analysis, and disease risk prediction modeling."
+  * See [MetaDP: a comprehensive web server for disease prediction of 16S rRNA metagenomic datasets](http://link.springer.com/article/10.1007/s41048-016-0033-4) by Xilin Xu, Aiping Wu, Xinlei Zhang, Mingming Su, Taijiao Jiang, Zhe-Ming Yuan. *Biophys Reports* (2017). doi:10.1007/s41048-016-0033-4
+  * *This is perhaps the first Galaxy-based server on this list with a user interface that does not resemble Galaxy in any way.*
+* *User Support:*
+  * User Guide
+* *Quotas:*
+  *
+ *Sponsor(s):*
+  * Hunan Provincial Key Laboratory for Biology and Control of Plant Diseases and Insect Pests, Hunan Agricultural University, Changsha, China
+  * Center for Systems Medicine, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing; Suzhou Institute of Systems Medicine, Suzhou, China
+  * Suzhou Geneworks Technology Company Limited, Suzhou, China
+  * Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences & Peking Union Medical College, Beijing, China
+
 ## MISSISSIPPI
 
 <div class='right solid'><a href='http://mississippi.fr/'><img src="/src/PublicGalaxyServers/MISSISSIPPILogo.png" alt="MISSIPPI" width="300" /></a></div>
