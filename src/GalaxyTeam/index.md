@@ -4,7 +4,7 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 
 
 ## Core Team
-<div class="row row-fluid">
+<div class="row row-fluid text-center">
 <div class='col-md-3'><a href='/src/EnisAfgan/index.md'><img src="/src/GalaxyTeam/EnisAfgan.jpg" alt="Enis Afgan" height="150" /></a><br /> 
 [Enis Afgan](/src/EnisAfgan/index.md) <br /> 
 [Johns Hopkins](http://www.jhu.edu) 
@@ -42,6 +42,11 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='col-md-3'>
+<a href='https://github.com/malloryfreeberg'><img src="/src/GalaxyTeam/Freeberg.jpg" alt="Mallory Freeberg" height="150" /></a><br />
+[Mallory Freeberg](https://github.com/malloryfreeberg)<br />
+[Johns Hopkins](http://www.jhu.edu) 
+</div>
+<div class='col-md-3'>
 <a href='/src/JeremyGoecks/index.md'><img src="/src/GalaxyTeam/jgoecks-banff-small.png" alt="Jeremy Goecks" height="150" /></a><br />
 [Jeremy Goecks](/src/JeremyGoecks/index.md)<br />
 [George Washington University](http://www.gwu.edu) 
@@ -72,11 +77,6 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='col-md-3'>
-<img src="/src/GalaxyTeam/Remi.jpg" alt="Rémi Marenco" height="150" /><br />
-[Rémi Marenco](/src/RemiMarenco/index.md)<br />
-[George Washington University](http://www.gwu.edu) 
-</div>
-<div class='col-md-3'>
 <a href='/src/anton/index.md'><img src="/src/GalaxyTeam/anton.jpg" alt="Anton Nekrutenko" height="150" /></a><br />
 [Anton Nekrutenko](/src/anton/index.md)<br />
 [Penn State](http://www.bx.psu.edu) 
@@ -91,18 +91,13 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 [James Taylor](/src/JamesTaylor/index.md)<br />
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
-<div class='col-md-3'>
-<a href='/src/NiteshTuraga/index.md'><img src="/src/GalaxyTeam/nitesh.jpg" alt="Nitesh Turaga" height="150" /></a><br />
-[Nitesh Turaga](/src/NiteshTuraga/index.md)<br />
-[Johns Hopkins](http://www.jhu.edu) 
-</div>
 </div>
 
 -----
 
 ## Contributors with Commit Access
 
-<div class="row row-fluid">
+<div class="row row-fluid text-center">
 <div class='col-md-3'>
 <img src="/src/GalaxyTeam/bjoern.jpeg" alt="Björn Grüning" height="150" /><br />
 [Björn Grüning](https://github.com/bgruening)<br />
@@ -129,7 +124,7 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 
 ## Other Current Contributors
 
-<div class="row row-fluid">
+<div class="row row-fluid text-center">
 <div class='col-md-3'>
 <img src="/src/GalaxyTeam/peter.jpg" alt="Peter Cock" height="150" /><br />
 [Peter Cock](http://www.hutton.ac.uk/staff/peter-cock)<br />
@@ -182,11 +177,13 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 * Radesh Kamath
 * Ross Lazarus
 * Kanwei Li
+* [Rémi Marenco](/src/RemiMarenco/index.md)
 * Scott McManus
 * Arjun Nath
 * Chinmay Rao
 * Prachi Shah
 * Ian Schenck
+* [Nitesh Turaga](/src/NiteshTuraga/index.md)
 * Kelly Vincent
 * Yi Zhang
 

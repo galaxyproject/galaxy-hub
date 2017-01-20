@@ -85,7 +85,7 @@ Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](
     <td> Sarah Elgin </td>
   </tr>
   <tr>
-    <td> <a href="https://pag.confex.com/pag/xxv/meetingapp.cgi/Paper/25989:">P0445: CartograTree Workflows with Tripal API for Association Mapping in Forest Trees</a> </td>
+    <td> <a href="https://pag.confex.com/pag/xxv/meetingapp.cgi/Paper/25989">P0445: CartograTree Workflows with Tripal API for Association Mapping in Forest Trees</a> </td>
     <td> </td>
     <td> Nic Herndon </td>
   </tr>

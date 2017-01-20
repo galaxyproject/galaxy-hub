@@ -62,6 +62,12 @@ Active here means "visited", as defined by Biostar.
     <td style=" text-align: right;"> 2327 </td>
     <td style=" text-align: right;"> 3979 </td>
   </tr>
+  <tr>
+    <th> 2017/01/16 </th>
+    <td style=" text-align: right;"> 967 </td>
+    <td style=" text-align: right;"> 2042 </td>
+    <td style=" text-align: right;"> 3794 </td>
+  </tr>
 </table>
 
 
@@ -109,6 +115,12 @@ Active here means "visited", as defined by Biostar.
     <td style=" text-align: right;"> 388 </td>
     <td style=" text-align: right;"> 1018 </td>
     <td style=" text-align: right;"> 1670 </td>
+  </tr>
+  <tr>
+    <th> 2017/01/16 </th>
+    <td style=" text-align: right;"> 306 </td>
+    <td style=" text-align: right;"> 827 </td>
+    <td style=" text-align: right;"> 1652 </td>
   </tr>
 </table>
 
@@ -179,6 +191,15 @@ Active here means "visited", as defined by Biostar.
     <td style=" text-align: right;"> 6425 </td>
     <td style=" text-align: right;"> 9731 </td>
   </tr>
+  <tr>
+    <th> 2017/01/16 </th>
+    <td style=" text-align: right;"> 20843 </td>
+    <td style=" text-align: right;">  6527 </td>
+    <td style=" text-align: right;">  6389 </td>
+    <td style=" text-align: right;">  7120 </td>
+    <td style=" text-align: right;">  7334 </td>
+    <td style=" text-align: right;"> 10927 </td>
+  </tr>
 </table>
 
 
@@ -195,14 +216,14 @@ Membership in and traffic on Galaxy's [Mailing Lists](/src/MailingLists/index.md
 
 ### Membership
 
-*Note that "Total" over-counts the number of subscribers, as many people belong to two or three lists.*
+*Note that "Total" over-counts the number of subscribers, as many people belong to two or more lists.*
 
 <table>
   <tr>
     <th rowspan=2> Date </th>
-    <td rowspan=14 style=" border: none; width: 5%;"> </td>
+    <td rowspan=15 style=" border: none; width: 5%;"> </td>
     <th colspan=4> General lists </th>
-    <td rowspan=14 style=" border: none; width: 5%;"> </td>
+    <td rowspan=15 style=" border: none; width: 5%;"> </td>
     <th colspan=4> Group Lists </th>
   </tr>
   <tr>
@@ -347,9 +368,18 @@ Membership in and traffic on Galaxy's [Mailing Lists](/src/MailingLists/index.md
     <td style=" text-align: right;"> 33 </td>
     <td style=" text-align: right;"> 78 </td>
   </tr>
+  <tr>
+    <th> 2017/01 </th>
+    <td style=" text-align: right;"> </td>
+    <td style=" text-align: right;"> 1053 </td>
+    <td style=" text-align: right;"> 7882 </td>
+    <td style=" text-align: right;"> 8935 </td>
+    <td style=" text-align: right;"> 223 </td>
+    <td style=" text-align: right;"> 71 </td>
+    <td style=" text-align: right;"> 35 </td>
+    <td style=" text-align: right;"> 90 </td>
+  </tr>
 </table>
-
-
 
 * Membership when Galaxy-User retirement was announced and the Galaxy Biostar forum went live.
 <br />
@@ -375,7 +405,6 @@ Galaxy-Announce is omitted here as it is a moderated, announcement-only list. *N
     <th> UK </th>
     <th> Training </th>
     <th> Total </th>
-    <td rowspan=5 style=" border: none;"> </td>
   </tr>
   <tr>
     <th> 2008 </th>
@@ -458,19 +487,17 @@ Galaxy-Announce is omitted here as it is a moderated, announcement-only list. *N
     <td style=" text-align: right;"> 2427 </td>
   </tr>
   <tr>
-    <th> 2016* </th>
-    <td style=" text-align: right;"> 1170 </td>
+    <th> 2016 </th>
+    <td style=" text-align: right;"> 1772 </td>
     <td style=" text-align: right;"> - </td>
-    <td style=" text-align: right;"> 12 </td>
-    <td style=" text-align: right;"> 4 </td>
-    <td style=" text-align: right;"> 0 </td>
-    <td style=" text-align: right;"> 25 </td>
-    <td style=" text-align: right;"> 1211 </td>
+    <td style=" text-align: right;">   19 </td>
+    <td style=" text-align: right;">    5 </td>
+    <td style=" text-align: right;">    0 </td>
+    <td style=" text-align: right;">   48 </td>
+    <td style=" text-align: right;"> 1844 </td>
   </tr>
 </table>
 
-
-* Through July 2016.
 
 <br />
 <table>
@@ -549,6 +576,10 @@ Most [local installations of Galaxy](/src/Admin/GetGalaxy/index.md) are private.
   <tr>
     <th> 2016/08 </th>
     <td style=" text-align: right;"> 85 </td>
+  </tr>
+  <tr>
+    <th> 2017/01 </th>
+    <td style=" text-align: right;"> 90 </td>
   </tr>
 </table>
 
@@ -903,6 +934,12 @@ From the [Open HUB commits summary page](https://www.openhub.net/p/galaxybx/comm
     <td style=" text-align: right;"> 7189        </td>
     <td style=" text-align: right;"> 32193 </td>
   </tr>
+  <tr>
+    <th> 2017/01/19 </th>
+    <td style=" text-align: right;">   144 </td>
+    <td style=" text-align: right;">  6675 </td>
+    <td style=" text-align: right;"> 34451 </td>
+  </tr>
 </table>
 
 
@@ -926,9 +963,9 @@ From the [Open HUB committers summary page](https://www.openhub.net/p/galaxybx/c
   </tr>
   <tr>
     <th> 2016/08/16 </th>
-    <td style=" text-align: right;"> 19 </td>
-    <td style=" text-align: right;"> 102 </td>
-    <td style=" text-align: right;"> 244 </td>
+    <td style=" text-align: right;">  18 </td>
+    <td style=" text-align: right;"> 123 </td>
+    <td style=" text-align: right;"> 282 </td>
   </tr>
 </table>
 
@@ -964,6 +1001,11 @@ The [Galaxy repo on GitHub](https://github.com/galaxyproject/galaxy) is what peo
     <td style=" text-align: right;"> 3408 </td>
     <td style=" text-align: right;"> 339 </td>
   </tr>
+  <tr>
+    <th> 2017/01/19 </th>
+    <td style=" text-align: right;"> 2742 </td>
+    <td style=" text-align: right;"> 1318 </td>
+  </tr>
 </table>
 
 
@@ -977,7 +1019,7 @@ The [Galaxy Project Tool Shed](http://toolshed.g2.bx.psu.edu/) contains contribu
 <table>
   <tr>
     <th> Date </th>
-    <td rowspan=8 style=" border: none;"> </td>
+    <td rowspan=9 style=" border: none;"> </td>
     <th> Repos </th>
     <th> Unique Owners </th>
     <th> Valid Tools </th>
@@ -985,7 +1027,7 @@ The [Galaxy Project Tool Shed](http://toolshed.g2.bx.psu.edu/) contains contribu
     <th> Exported workflows </th>
     <th> Datatypes </th>
     <th> Total Clones </th>
-    <td rowspan=8 style=" border: none;"> </td>
+    <td rowspan=9 style=" border: none;"> </td>
     <th> Deprecated Repos </th>
     <th> Deleted Repos </th>
     <th> Invalid Versions of Tools </th>
@@ -1071,6 +1113,19 @@ The [Galaxy Project Tool Shed](http://toolshed.g2.bx.psu.edu/) contains contribu
     <td style=" text-align: right;"> 16 </td>
     <td style=" text-align: right;"> 121 </td>
   </tr>
+  <tr>
+    <th> 2017/01 </th>
+    <td style=" text-align: right;"> 2689 </td>
+    <td style=" text-align: right;">  466 </td>
+    <td style=" text-align: right;"> 4300 </td>
+    <td style=" text-align: right;"> 6831 </td>
+    <td style=" text-align: right;"> 238 </td>
+    <td style=" text-align: right;"> 626 </td>
+    <td style=" text-align: right;"> 1,303,677 </td>
+    <td style=" text-align: right;"> 421 </td>
+    <td style=" text-align: right;"> 16 </td>
+    <td style=" text-align: right;"> 127 </td>
+  </tr>
 </table>
 
 
@@ -1114,14 +1169,16 @@ The Galaxy Project runs a lot of workshops.  Whenever possible we collect feedba
 <img src="/src/GalaxyProject/Statistics/WorkshopsRecommendGraph.png" alt="Would you recommend Galaxy workshops to others?"  />  <img src="/src/GalaxyProject/Statistics/WorkshopsUsefulGraph.png" alt="How useful was the workshop?"  /> <img src="/src/GalaxyProject/Statistics/WorkshopsOrganized.png" alt="How well run and organized was the workshop?"  />
 </div>
 
-# Wiki
+# Historical: Wiki
 
 ## Vetted Editors
 
-*Vetted Editors* are wiki logins that have been verified as belonging to Galaxy community members.  Vetted editors can update the wiki without having to answer Captchas.  You don't need a login to read the wiki, only to update it.  The number of vetted editors is a measure of interest in maintaining this wiki.
+*Vetted Editors* were wiki logins that had been verified as belonging to Galaxy community members.  Vetted editors could update the wiki without having to answer Captchas.  You didn't need a login to read the wiki, only to update it.  The number of vetted editors was a measure of interest in maintaining this wiki.
 
 <div class='center'>
 ![Number of vetted Galaxy wiki editors over time ](/src/GalaxyProject/Statistics/VettedWikiEditors.png)
 </div>
 
-This is an undercount of registered community members as not all logins can be verified.  The process of vetting was semi-automated on 2012/04/08, thanks to help from [ToriR](/src/ToriR/index.md).
+This was an undercount of registered community members as not all logins can be verified.  The process of vetting was semi-automated on 2012/04/08, thanks to help from [ToriR](/src/ToriR/index.md).
+
+We'll drop this section after we've had enough time to gather stats from the new Galaxy Hub.
