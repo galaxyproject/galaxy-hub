@@ -22,8 +22,6 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
 ## Upcoming Events
 
 <div class='center'> 
-<a href='/src/events/PAG2017/index.md'><img src="/src/images/Logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="90" /></a> &nbsp;
-<a href='https://www.france-bioinformatique.fr/fr/evenements/EGDW2017'><img src="/src/images/Logos/edgw_2017_300.jpg" alt="European Galaxy Developer Workshop" height="100"/></a> &nbsp;
 <a href='http://www.abdn.ac.uk/genomics/bioinformatics/training/'><img src="/src/images/Logos/AberdeenLogoTrans.png" alt="Galaxy Training at University of Aberdeen" width="120" /></a>
 <a href='https://www.embl-abr.org.au/game2017/'><img src='/src/images/Logos/GAMeLogo200.png' alt="Galaxy Australasia Meeting 2017" width="120" /></a>
 </div>
@@ -34,18 +32,6 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
     <th> Topic/Event </th>
     <th> Venue/Location </th>
     <th> Contact </th>
-  </tr>
-  <tr>
-    <th> January 14-18 </th>
-    <td> <strong><a href="/src/events/PAG2017/index.md">Galaxy @ Plant &amp; Animal Genome XXV (PAG 2017)</a></strong> </td>
-    <td> <img src="/src/images/Icons/NorthAmerica40.png" alt="North America" align="right" /> San Diego, California, United States </td>
-    <td> <a href="/src/events/PAG2017/index.md">Presenters</a> </td>
-  </tr>
-  <tr>
-    <th> January 16-19 </th>
-    <td> <strong><a href='https://www.france-bioinformatique.fr/fr/evenements/EGDW2017'>European Galaxy Developer Workshop</a></strong> </td>
-    <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> Strasbourg, France </td>
-    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:egdw2017.oc@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
   <tr>
     <th> January 23 </th>
@@ -80,12 +66,31 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
     <td> <img src="/src/images/Icons/NorthAmerica40.png" alt="North America" align="right" /> <a href="http://www.mnmconferences.com/NGS-Data-Analysis-and-Informatics-Conference">NGS Data Analysis & Informatics Conference</a>, San Diego, California, United States </td>
     <td>  <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a> </td>
   </tr>
+
+Galaxy
+
+Introductory course
+
+2017, 2/6 (KT in Daejeon), 2/7 (Catholic Univ. in Seoul)
+  <tr>
+    <th> February 6 </th>
+    <td> <em>Introduction to Galaxy Workshop</em> </td>
+    <td> <img src="/src/images/Icons/Asia40.png" alt="Asia" align="right" />Daejeon, South Korea </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/DaveClements'>Dave Clements</a> </td>
+  </tr>
+  <tr>
+    <th> February 7 </th>
+    <td> <em>Introduction to Galaxy Workshop</em> </td>
+    <td> <img src="/src/images/Icons/Asia40.png" alt="Asia" align="right" /><a href="http://www.catholic.ac.kr/">Catholic University of Korea</a>, Seoul, South Korea </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/DaveClements'>Dave Clements</a> </td>
+  </tr>
   <tr>
     <th> February 8-10 </th>
     <td> <em>From Galaxy to Genomics</em> </td>
     <td> <img src="/src/images/Icons/Asia40.png" alt="Asia" align="right" /> <a href="http://www.ksimm.or.kr/board/list.html?num=525&start=0&sort=reg_dt%20desc&code=enews&period=&key=&keyword=">13th KOGO Winter Symposium</a>, Yongpyong, Gangwon-do, Korea </td>
     <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/DaveClements'>Dave Clements</a> </td>
   </tr>
+  <tr>
     <th> February 14 </th>
     <td> <em><a href="http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Feb17.html">Introduction to Galaxy Workshop</a></em> </td>
     <td> <img src="/src/images/Icons/Europe40.png" alt="Europe" align="right" /> Unitversity of Glasgow, United Kingdom </a> </td>
@@ -97,6 +102,13 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
     <td> <img src="/src/images/Icons/Europe40.png" alt="Europe" align="right" /> Freiburg, Germany </td>
     <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='mailto:erxleben@informatik.uni-freiburg.de'>Organisers</a> </td>
   </tr>
+  <tr>
+    <th> February 20 </th>
+    <td> <em><a href="https://gigaworkshops.eventbrite.com">Bioinformatics Workshops on Galaxy and Metagenomics</a></em> </td>
+    <td> <img src="/src/images/Icons/NorthAmerica40.png" alt="North America" align="right" /> Preceding the <a href="http://biogenomics2017.org/">Global Biodiversity Genomics Conference</a>Washington, D.C., United States </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="/src/JamesTaylor">James Taylor</a> </td>
+    
+
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
   </tr>
@@ -187,8 +199,10 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
 ### 2017
 
 <div class='center'> 
-
+<a href='/src/events/PAG2017/index.md'><img src="/src/images/Logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="90" /></a> &nbsp;
+<a href='https://www.france-bioinformatique.fr/fr/evenements/EGDW2017'><img src="/src/images/Logos/edgw_2017_300.jpg" alt="European Galaxy Developer Workshop" height="100"/></a> &nbsp;
 </div>
+
 <br />
 
 <table>
@@ -198,6 +212,20 @@ For events prior to this year, see the **[Events Archive](/src/events/Archive/in
     <th> Venue/Location </th>
     <th> Contact </th>
     <th> Links </th>
+  </tr>
+  <tr>
+    <th> January 16-19 </th>
+    <td> <strong><a href='https://www.france-bioinformatique.fr/fr/evenements/EGDW2017'>European Galaxy Developer Workshop</a></strong> </td>
+    <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> Strasbourg, France </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:egdw2017.oc@groupes.france-bioinformatique.fr">Organisers</a> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th> January 14-18 </th>
+    <td> <strong><a href="/src/events/PAG2017/index.md">Galaxy @ Plant &amp; Animal Genome XXV (PAG 2017)</a></strong> </td>
+    <td> <img src="/src/images/Icons/NorthAmerica40.png" alt="North America" align="right" /> San Diego, California, United States </td>
+    <td> <a href="/src/events/PAG2017/index.md">Presenters</a> </td>
+    <td> <a href="/src/events/PAG2017/index.md">Presentations</a> </td>
   </tr>
   <tr>
     <th> January 9-10 </th>
