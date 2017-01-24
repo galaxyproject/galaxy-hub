@@ -22,9 +22,13 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
 ## Upcoming Events
 
 <div class='center'> 
-<a href='http://www.abdn.ac.uk/genomics/bioinformatics/training/'><img src="/src/images/Logos/AberdeenLogoTrans.png" alt="Galaxy Training at University of Aberdeen" width="120" /></a>
-<a href='https://www.embl-abr.org.au/game2017/'><img src='/src/images/Logos/GAMeLogo200.png' alt="Galaxy Australasia Meeting 2017" width="120" /></a>
+<a href='https://www.embl-abr.org.au/game2017/'><img src='/src/images/logos/GAMeLogo200.png' alt="Galaxy Australasia Meeting 2017" width="120" /></a>
+<a href='http://www.embl-abr.org.au/game2017/training-for-admin-workshop/'><img src='/src/images/logos/game2017-admin-training-logo.png' alt="Galaxy Administrator Training Course" height="120" /></a> &nbsp;
+<a href='https://www.eventbrite.com.au/e/resbaz-rna-seq-in-galaxy-workshop-tickets-31246086887'><img src='/src/images/logos/resbaz-brisbane.png' alt="RNA-Seq in Galaxy workshop @ ResBaz Brisbane" height="50" /></a>
+<a href="http://www.kogo.or.kr/Conference/ConferenceView.asp?AC=2&CODE=CI20161201"><img src='/src/images/logos/kogo-logo.png' alt="13th KOGO Winter Symposium: Galaxy to Genomics using NGS data"  height="50"/></a>
 </div>
+
+<br />
 
 <table>
   <tr class="th" >
@@ -34,30 +38,33 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> Contact </th>
   </tr>
   <tr>
-    <th> January 23 </th>
-    <td> <em><a href='https://www.abdn.ac.uk/genomics/documents/201617_Workshops/RNA_Sequencing_2017.pdf'>RNA Sequencing and Differential Expression</a></em> </td>
-    <td> <img src='/src/images/icons/Europe40.png' alt='Europe' align='right' /> <a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen</a>, Scotland, United Kingdom </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='mailto:s.shaw@abdn.ac.uk'>Sophie Shaw</a> </td>
-  </tr>
-  <tr>
-    <th> January 24 </th>
-    <td> <em><a href='https://www.abdn.ac.uk/genomics/documents/201617_Workshops/Advanced_RNA_Sequencing_2017.pdf'>Advanced RNA Sequencing (RNA-seq) Analysis</a></em> </td>
-    <td> <img src='/src/images/icons/Europe40.png' alt='Europe' align='right' /> <a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen</a>, Scotland, United Kingdom </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='mailto:s.shaw@abdn.ac.uk'>Sophie Shaw</a> </td>
-  </tr>
-  <tr>
-    <th> January 30 </th>
-    <td> <em><a href='http://www.bioplatforms.com/rna-seq-using-galaxy-jan-2017/'>RNA-Seq Analysis Using Galaxy</a></em> </td>
-    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> Australian National University, Canberra, ACT, Australia </td>
-    <td>  <a href="mailto:kchamp@bioplatforms.com">Katherine Chamnp</a> </td>
-  </tr>
-  <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
-  </tr>
-  <tr>
     <th> February 3-9 </th>
     <td> <strong><a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a></strong> </td>
     <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> University of Melbourne, Victoria, Australia </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
+  </tr>
+  <tr>
+    <th> February 3 </th>
+    <td> <strong><a href='http://www.embl-abr.org.au/game2017/training-day/'>Researcher Training Day for Life Scientists</a></strong> </td>
+    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a>, University of Melbourne, Victoria, Australia </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
+  </tr>
+  <tr>
+    <th> February 4 </th>
+    <td> <strong><a href='http://www.embl-abr.org.au/game2017/conference/#bio'>GAMe 2017 Conference BIO Day</a></strong> </td>
+    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a>, University of Melbourne, Victoria, Australia </td>
+    <td> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
+  </tr>
+  <tr>
+    <th> February 5 </th>
+    <td> <strong><a href='http://www.embl-abr.org.au/game2017/conference/#info'>GAMe 2017 Conference INFO Day</a></strong> </td>
+    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a>, University of Melbourne, Victoria, Australia </td>
+    <td> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
+  </tr>
+  <tr>
+    <th> February 6-9 </th>
+    <td> <strong><a href='http://www.embl-abr.org.au/game2017/training-for-admin-workshop/'>Galaxy Administrator Training Course</a></strong> </td>
+    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a>, University of Melbourne, Victoria, Australia </td>
     <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
   </tr>
   <tr>
@@ -66,28 +73,28 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> <a href="http://www.mnmconferences.com/NGS-Data-Analysis-and-Informatics-Conference">NGS Data Analysis & Informatics Conference</a>, San Diego, California, United States </td>
     <td>  <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a> </td>
   </tr>
-
-Galaxy
-
-Introductory course
-
-2017, 2/6 (KT in Daejeon), 2/7 (Catholic Univ. in Seoul)
   <tr>
     <th> February 6 </th>
     <td> <em>Introduction to Galaxy Workshop</em> </td>
-    <td> <img src="/src/images/Icons/Asia40.png" alt="Asia" align="right" />Daejeon, South Korea </td>
-    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/DaveClements'>Dave Clements</a> </td>
+    <td> <img src="/src/images/Icons/Asia40.png" alt="Asia" align="right" /> <a href="http://www.kthrd.com/index.do">KTHRD</a>, Daejeon, South Korea </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 7 </th>
     <td> <em>Introduction to Galaxy Workshop</em> </td>
     <td> <img src="/src/images/Icons/Asia40.png" alt="Asia" align="right" /><a href="http://www.catholic.ac.kr/">Catholic University of Korea</a>, Seoul, South Korea </td>
-    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/DaveClements'>Dave Clements</a> </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/DaveClements'>Dave Clements</a> </td>
+  </tr>
+  <tr>
+    <th> February 8 </th>
+    <td> <em><a href='https://www.eventbrite.com.au/e/resbaz-rna-seq-in-galaxy-workshop-tickets-31246086887'>RNA-Seq in Galaxy workshop</a></em> </td>
+    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href="https://2017.resbaz.com/brisbane">Research Bazaar 2017</a>, University of Queensland,  Brisbane, Australia </td>
+    <td> Organisers </td>
   </tr>
   <tr>
     <th> February 8-10 </th>
-    <td> <em>From Galaxy to Genomics</em> </td>
-    <td> <img src="/src/images/icons/Asia40.png" alt="Asia" align="right" /> <a href="http://www.ksimm.or.kr/board/list.html?num=525&start=0&sort=reg_dt%20desc&code=enews&period=&key=&keyword=">13th KOGO Winter Symposium</a>, Yongpyong, Gangwon-do, Korea </td>
+    <td> <em><a href="http://www.kogo.or.kr/Conference/ConferenceView.asp?AC=2&CODE=CI20161201">From Galaxy to Genomics using NGS Data</a></em> </td>
+    <td> <img src="/src/images/icons/Asia40.png" alt="Asia" align="right" /> <a href="http://www.kogo.or.kr/index.asp">13th KOGO Winter Symposium</a>, Yongpyong, Gangwon-do, Korea </td>
     <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/dave-clements'>Dave Clements</a> </td>
   </tr>
   <tr>
@@ -106,8 +113,14 @@ Introductory course
     <th> February 20 </th>
     <td> <em><a href="https://gigaworkshops.eventbrite.com">Bioinformatics Workshops on Galaxy and Metagenomics</a></em> </td>
     <td> <img src="/src/images/Icons/NorthAmerica40.png" alt="North America" align="right" /> Preceding the <a href="http://biogenomics2017.org/">Global Biodiversity Genomics Conference</a>Washington, D.C., United States </td>
-    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="/src/JamesTaylor">James Taylor</a> </td>
-    
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="/src/JamesTaylor">James Taylor</a> </td>
+  </tr>
+  <tr>
+    <th> February 22, 23 </th>
+    <td> <em>Introduction to Galaxy Workshop</em> </td>
+    <td> <img src='/src/images/icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://icahn.mssm.edu/'>Icahn School of Medicine at Mt. Sinai</a>, New York, New York, United States </td>
+    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/events/ismms2016/index.md#questions'>Andrew Sharp</a> </td>
+  </tr>
 
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
@@ -198,7 +211,8 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
 
 ### 2017
 
-<div class='center'> 
+<div class='center'>
+<a href='http://www.abdn.ac.uk/genomics/bioinformatics/training/'><img src="/src/images/Logos/AberdeenLogoTrans.png" alt="Galaxy Training at University of Aberdeen" width="120" /></a>
 <a href='/src/events/PAG2017/index.md'><img src="/src/images/Logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="90" /></a> &nbsp;
 <a href='https://www.france-bioinformatique.fr/fr/evenements/EGDW2017'><img src="/src/images/Logos/edgw_2017_300.jpg" alt="European Galaxy Developer Workshop" height="100"/></a> &nbsp;
 </div>
@@ -214,10 +228,27 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> Links </th>
   </tr>
   <tr>
+    <td colspan=5 style=" background-color: #eef;"> </td>
+  </tr>
+  <tr>
+    <th> January 24 </th>
+    <td> <em><a href='https://www.abdn.ac.uk/genomics/documents/201617_Workshops/Advanced_RNA_Sequencing_2017.pdf'>Advanced RNA Sequencing (RNA-seq) Analysis</a></em> </td>
+    <td> <img src='/src/images/icons/Europe40.png' alt='Europe' align='right' /> <a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen</a>, Scotland, United Kingdom </td>
+    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='mailto:s.shaw@abdn.ac.uk'>Sophie Shaw</a> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th> January 23 </th>
+    <td> <em><a href='https://www.abdn.ac.uk/genomics/documents/201617_Workshops/RNA_Sequencing_2017.pdf'>RNA Sequencing and Differential Expression</a></em> </td>
+    <td> <img src='/src/images/icons/Europe40.png' alt='Europe' align='right' /> <a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen</a>, Scotland, United Kingdom </td>
+    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='mailto:s.shaw@abdn.ac.uk'>Sophie Shaw</a> </td>
+    <td> </td>
+  </tr>
+  <tr>
     <th> January 16-19 </th>
     <td> <strong><a href='https://www.france-bioinformatique.fr/fr/evenements/EGDW2017'>European Galaxy Developer Workshop</a></strong> </td>
     <td> <img src='/src/images/Icons/Europe40.png' alt='Europe' align='right' /> Strasbourg, France </td>
-    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/GalaxyLogos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:egdw2017.oc@groupes.france-bioinformatique.fr">Organisers</a> </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:egdw2017.oc@groupes.france-bioinformatique.fr">Organisers</a> </td>
     <td> </td>
   </tr>
   <tr>
