@@ -1,0 +1,47 @@
+---
+title: Name of Deployment
+---
+<div class='center'>
+<a href='http://symd.nci.nih.gov/'><img src="/src/public-galaxy-servers/SymD.png" alt="SymD @ National Cancer Institute" height="200" /></a>
+</div>
+
+
+
+
+
+<div class='deploymentbox'>
+ Deployment:: **[SymD](/src/community/deployment/sym-d/index.md)**
+ Domain:: For detecting internally symmetric protein structures
+ Owners:: [US National Cancer Institute (NCI)](http://nci.nih.gov/)
+ Audience:: [Publicly accessible](/src/public-galaxy-servers/index.md)  
+ User Base:: Unknown
+ Server Topology:: Virtualized
+ Compute:: a VMware vSphere virtualized Ubuntu 12 server
+ Memory:: 
+ Storage:: 
+ Disk Size:: 
+ User Management:: 
+</div>
+
+## Domain
+
+For detecting internally symmetric protein structures
+
+## Community
+
+## Compute Infrastructure
+
+From "[SymD webserver: a platform for detecting internally symmetric protein structures](http://nar.oxfordjournals.org/content/early/2014/05/05/nar.gku364.full)," by Tai, *et al.*:
+
+ The SymD webserver is hosted in a VMware vSphere virtualized Ubuntu 12 server with an apache webserver front-end proxy. The web application is programmed in Python 2.6. Jmol (http://www.jmol.org) is used for structure visualization and !JalView (15) for sequence alignment visualization and analysis.
+
+## Links
+
+* [SymD server](http://symd.nci.nih.gov/)
+* "[SymD webserver: a platform for detecting internally symmetric protein structures](http://nar.oxfordjournals.org/content/early/2014/05/05/nar.gku364.full)," by Chin-Hsien Tai, Rohit Paul, Jeffery D. Shilling and Byungkook Lee, *Nucl. Acids Res.* (2014) doi: 10.1093/nar/gku364
+* [Instructions](http://symd.nci.nih.gov/static/Interface_help/Interface_help.html)
+* [Example Run](http://symd.nci.nih.gov/static/example_run/GalaxySymD.html)
+* [Email support](mailto:taic@mail.nih.gov)
+* [Public Galaxy Server list entry](/src/public-galaxy-servers/index.md#symd)
+
+[CategoryDeployment](/src/category-deployment/index.md)
