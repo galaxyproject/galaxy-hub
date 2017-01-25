@@ -80,6 +80,12 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
+    <th> February 6-8 </th>
+    <td> <em><a href="https://www.molmed.nl/courses/CourseDetail.asp?courseID=1499&backpage=../courses/courses.asp">Galaxy for Translational Research</a></em> </td>
+    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Erasmus MC, Netherlands </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Andrew Stubbs </td>
+  </tr>
+  <tr>
     <th> February 7 </th>
     <td> <em>Introduction to Galaxy Workshop</em> </td>
     <td> <img src="/src/images/Icons/Asia40.png" alt="Asia" align="right" /><a href="http://www.catholic.ac.kr/">Catholic University of Korea</a>, Seoul, South Korea </td>
