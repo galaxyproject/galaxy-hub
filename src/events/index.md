@@ -219,7 +219,7 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
 
 <div class='center'>
 <a href='http://www.abdn.ac.uk/genomics/bioinformatics/training/'><img src="/src/images/Logos/AberdeenLogoTrans.png" alt="Galaxy Training at University of Aberdeen" width="120" /></a>
-<a href='/src/events/PAG2017/index.md'><img src="/src/images/Logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="90" /></a> &nbsp;
+<a href='/src/events/pag2017/index.md'><img src="/src/images/Logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="90" /></a> &nbsp;
 <a href='https://www.france-bioinformatique.fr/fr/evenements/EGDW2017'><img src="/src/images/Logos/edgw_2017_300.jpg" alt="European Galaxy Developer Workshop" height="100"/></a> &nbsp;
 </div>
 
@@ -259,10 +259,10 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
   </tr>
   <tr>
     <th> January 14-18 </th>
-    <td> <strong><a href="/src/events/PAG2017/index.md">Galaxy @ Plant &amp; Animal Genome XXV (PAG 2017)</a></strong> </td>
+    <td> <strong><a href="/src/events/pag2017/index.md">Galaxy @ Plant &amp; Animal Genome XXV (PAG 2017)</a></strong> </td>
     <td> <img src="/src/images/Icons/NorthAmerica40.png" alt="North America" align="right" /> San Diego, California, United States </td>
-    <td> <a href="/src/events/PAG2017/index.md">Presenters</a> </td>
-    <td> <a href="/src/events/PAG2017/index.md">Presentations</a> </td>
+    <td> <a href="/src/events/pag2017/index.md">Presenters</a> </td>
+    <td> <a href="/src/events/pag2017/index.md">Presentations</a> </td>
   </tr>
   <tr>
     <th> January 9-10 </th>
