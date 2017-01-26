@@ -127,9 +127,27 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <td> <img src='/src/images/icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://icahn.mssm.edu/'>Icahn School of Medicine at Mt. Sinai</a>, New York, New York, United States </td>
     <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/events/ismms2016/index.md#questions'>Andrew Sharp</a> </td>
   </tr>
+  <tr>
+    <th> February 28 </th>
+    <td> <em><a href='http://www.qfab.org/workshops/genome-assembly-using-galaxy-28-feb-2017'>Genome assembly using Galaxy</a></em> </td>
+    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href="http://www.uq.edu.au/maps/?id=255"> Queensland Bioscience Precinct</a>, The University of Queensland, St Lucia. Australia </td>
+    <td><div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training@qfab.org">Organisers</a> </td>
+  </tr>
 
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
+  </tr>
+  <tr>
+    <th> March 1 </th>
+    <td> <em><a href='http://www.qfab.org/workshops/rna-seq-analysis-using-galaxy-01-mar-2017'>RNA-Seq analysis using Galaxy</a></em> </td>
+    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href="http://www.uq.edu.au/maps/?id=255"> Queensland Bioscience Precinct</a>, The University of Queensland, St Lucia. Australia </td>
+    <td><div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training@qfab.org">Organisers</a> </td>
+  </tr>
+  <tr>
+    <th> March 2 </th>
+    <td> <em><a href='http://www.qfab.org/workshops/variant-detection-using-galaxy-02-mar-2017'>Variant detection using Galaxy</a></em> </td>
+    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href="http://www.uq.edu.au/maps/?id=255"> Queensland Bioscience Precinct</a>, The University of Queensland, St Lucia. Australia </td>
+    <td><div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training@qfab.org">Organisers</a> </td>
   </tr>
   <tr>
     <th> March 7 </th>
