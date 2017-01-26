@@ -66,7 +66,7 @@ $ git clone https://github.com/galaxyproject/galaxy.git
 Galaxy requires a few things to run - a virtualenv, configuration files, and dependent Python modules.  However, starting the server for the first time will create/acquire these things as necessary.  Simply run the following command:
 
 ```sh
-% sh run.sh
+$ sh run.sh
 ```
 
 
@@ -117,14 +117,14 @@ Please see the [Running Galaxy in a production environment](/src/admin/config/pe
 
 ## Keep your code up to date
 
-Galaxy development occurs [in GitHub](https://github.com/galaxyproject/galaxy/).  Changes are stabilized in the `release_YY.MM` branches and then merged to `master` for each `YY.MM.point` release.
+Galaxy development occurs in [GitHub](https://github.com/galaxyproject/galaxy/).  Changes are stabilized in the `release_YY.MM` branches and then merged to `master` for each `YY.MM.point` release.
 
-To be made aware of new Galaxy releases, please join the [Galaxy Developers mailing list](https://lists.galaxyproject.org/listinfo/galaxy-dev/).  Each release is accompanied by a [news brief](/src/dev-news-briefs/index.md).
+To be made aware of new Galaxy releases, please join the [Galaxy Developers mailing list](https://lists.galaxyproject.org/listinfo/galaxy-dev/).  Each release is accompanied by [release notes](https://docs.galaxyproject.org/en/master/releases/index.html).
 
 At any time, you can check to see if a new stable release is available by using the `git log` command:
 
 ```sh
-% git log ..origin/master
+$ git log ..origin/master
 commit 3f314974c9c3742b118518881a6d392123ccc05d
 Merge: d8eeaae c78b7b6
 Author: Nate Coraor <nate@bx.psu.edu>
@@ -136,10 +136,10 @@ Date:   Mon Mar 9 22:26:54 2015 -0400
 ```
 
 
-If you see no output, you are up to date. If you see a list of commits, a new version is available.  We suggest checking the accompanying [news brief](/src/dev-news-briefs/index.md) first (if the release is to a newer major version of Galaxy), but you can also immediately pull the commits to your local Galaxy clone with:
+If you see no output, you are up to date. If you see a list of commits, a new version is available.  We suggest checking the accompanying [release notes](https://docs.galaxyproject.org/en/master/releases/index.html) first (if the release is to a newer major version of Galaxy), but you can also immediately pull the commits to your local Galaxy clone with:
 
 ```
-% git pull
+$ git pull
  ...
 ```
 
@@ -151,14 +151,14 @@ If you see no output, you are up to date. If you see a list of commits, a new ve
 In the unlikely event that something goes wrong with updated code, you can return to an older release by guessing the release tag name from the [news brief](/src/dev-news-briefs/index.md) page and using the `git checkout` command.  For example, to return to the latest version of the January 2015 release, use:
 
 ```sh
-% git checkout release_15.01
+$ git checkout release_15.01
 ```
 
 
 You can also use tags to check out specific releases:
 
 ```sh
-% git tag
+$ git tag
 v13.01
 v13.01.1
 v13.02
@@ -211,7 +211,7 @@ Follow these steps to edit `config/galaxy.ini.sample` for a brand new Galaxy.
 Check the `config/galaxy.ini.sample` file for the default settings. The result will be: `#admin_users = None`
 
 ```sh
-% grep "admin_users" config/galaxy.ini.sample
+$ grep "admin_users" config/galaxy.ini.sample
 ```
 
 
@@ -220,35 +220,33 @@ Make the changes
 The command below will 1) remove the leading hash (`#`) character from the line, 2) replace "`None`" with the same email address you used or will use to register the admin account through the Galaxy web interface, 3) create a `config/galaxy.ini` file. **Be careful to type the command exactly as written except for changing `admin@email.edu` to be your own admin email address**.
 
 ```sh
-% sed 's/#admin_users = None/admin_users = admin@email.edu/' config/galaxy.ini.sample > config/galaxy.ini
+$ sed 's/#admin_users = None/admin_users = admin@email.edu/' config/galaxy.ini.sample > config/galaxy.ini
 ```
 
 
 Double check that the new `config/galaxy.ini` file has the replacement text correct. The result should be the first two changes above (the query is against the third change). For the example email address above, the result is: `admin_users = admin@email.edu`
 
 ```sh
-% grep "admin_users" config/galaxy.ini
+$ grep "admin_users" config/galaxy.ini
 ```
 
 
-*That's it for the `galaxy.ini` file changes!* Now start up Galaxy again and create an account - using the same email address - through the Galaxy web interface (if this hasn't been done already). The **Admin** tab will now appear in the Masthead for that account. 
+*That's it for the `galaxy.ini` file changes!* Now start up Galaxy again and create an account - using the same email address - through the Galaxy web interface (if this hasn't been done already). The **Admin** tab will now appear in the masthead for that account. 
 
 ## Shutting down Galaxy
 
 Simplified instructions for users managing their own local Galaxy server. If your configuration is more complicated, getting help from an administrator is recommended.  
 
-* *The Galaxy process is running in the background*
+### The Galaxy process is running in the background
   * If Galaxy was the last process running within a terminal window, bring it into the foreground with the command `fg`. Now shut down with `Ctrl-c`.
   * If Galaxy is one of many processes running in the background within a terminal window, find it with the command `jobs`. The list of jobs will be numbered. Bring the galaxy job to the foreground with the command `fg number_of_the_job`. Now shut down with `Ctrl-c`.
-* *I have lost the terminal window running Galaxy*
+
+### I have lost the terminal window running Galaxy
   * From another terminal window, find all active processes with the command `ps`. The list of processes will each have a process ID (called PID). The target process will be named like "*python ./scripts/paster.py serve config/galaxy.ini.sample*". Stop it with the command ```kill PID```, where "PID" is the actual process ID number. 
   * If you kill only the process named "*sh run.sh*", this will result in conflicts and Galaxy will not restart. If you did this or are simply getting errors when trying to restart Galaxy, the solution is to kill the process "*python ./scripts/paster.py serve config/galaxy.ini.sample*" before restarting Galaxy again.
 
 ## Other Resources
 
-<div class='right'><a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/images/logos/GetGalaxySearch.png" alt="Galaxy administration, tool, and deployment search" width="170" /></a></div>
-
-* [Search all Galaxy administration resources](http://galaxyproject.org/search/getgalaxy)
-
-* [Galaxy KickStart Ansible playbook](https://github.com/ARTbio/GalaxyKickStart) : To deploy Galaxy on your local machine or the cloud using Ansible, you can use the playbook and follow the steps on the [docs](https://artbio.github.io/GalaxyKickStart/) for details.
+* [Search](http://galaxyproject.org/search/getgalaxy) all Galaxy administration resources.
+* Look into Galaxy [KickStart Ansible playbook](https://github.com/ARTbio/GalaxyKickStart): To deploy Galaxy on your local machine or the cloud using Ansible, you can use this playbook. Follow the steps in the [docs](https://artbio.github.io/GalaxyKickStart/) for details.
 
