@@ -42,7 +42,7 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 [Penn State](http://www.bx.psu.edu)
 </div>
 <div class='col-md-3'>
-<a href='https://github.com/malloryfreeberg'><img src="/src/GalaxyTeam/Freeberg.jpg" alt="Mallory Freeberg" height="150" /></a><br />
+<a href='https://github.com/malloryfreeberg'><img src="/src/galaxy-team/Freeberg.jpg" alt="Mallory Freeberg" height="150" /></a><br />
 [Mallory Freeberg](https://github.com/malloryfreeberg)<br />
 [Johns Hopkins](http://www.jhu.edu) 
 </div>
