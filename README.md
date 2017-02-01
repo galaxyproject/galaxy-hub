@@ -18,25 +18,39 @@ people, this will create a pull request that will then get reviewed and merged.
 After the merge, the content will be live on the website within a few minutes.
 Alternatively, you can edit the file locally (see below).
 
-## Installing the site locally
+## Deploying the site locally
 
 To edit and run the site locally, start by creating a fork of this repository.
 Before you clone your fork locally, make sure to [install git-
-lfs](https://packagecloud.io/github/git-lfs/install) because that's what we use
-for [managing images](#handling-of-images). Also, when cloning the site, use
-authenticated URL (ie,  `git@github.com:galaxyproject/galaxy-hub.git`) because
-otherwise you will get _API rate limit exceeded_ error.
+lfs](https://git-lfs.github.com/) because that's what we use for [managing
+images](#handling-of-images).
 
-Once cloned, to build the website (into the `build` directory), run:
+Note that you should use the authenticated github URL (ie,
+`git@github.com:galaxyproject/galaxy-hub.git`) because otherwise you may get
+_API rate limit exceeded_ error.
+
+An example clone command, using lfs optimizations and the authenticated URL
+would be:
 
 ```
-make build
+git lfs clone git@github.com:galaxyproject/galaxy-hub.git
 ```
 
-To serve the site locally, on port 8080, run:
+The only other dependency you should need is [node.js](https://nodejs.org/en/).
+Most modern versions should work fine, but follow the instructions [on
+nodejs.org](https://nodejs.org) if you would like to update.
+
+To build and serve the site locally on port 8080, run:
 
 ```
 make serve
+```
+
+To build the website into the `build` directory, without serving (for example,
+if you had an external web server configured to serve these files), run:
+
+```
+make build
 ```
 
 Please see the Makefile for more information and options, including the ability
@@ -48,24 +62,27 @@ metalsmith build process, which is defined in `build.coffee`.
 ## Handling of images
 
 Handling of image files is done using [git-lfs](https://git-lfs.github.com/).
-If you want to add new images, make sure you have
-[installed git-lfs](https://packagecloud.io/github/git-lfs/install) and run
+If you want to add new images, make sure you have [installed
+git-lfs](https://packagecloud.io/github/git-lfs/install) and run
 
 ```
 git lfs install
 ```
-
 From here, everything else should work as expected with standard git commands.
 You `add` and `commit` your changes and images, while git-lfs handles
-everything automatically. Currently, `png` and `jpg` are recognized by git-lsf.
+everything automatically. Currently, `png` and `jpg` are recognized by git-lfs.
 To track other types of images, edit `.gitattributes` file.
 
 Image files that are local to a page should be placed in the directory with the
 page content. Image files that are likely to be reused by multiple pages can be
 placed in an appropriate directory under `/src/images`.
 
-If you have not installed git-lfs before cloning the repository and local
-images have no content, just run `git lsf pull`.
+Note: Please do not upload images using the GitHub web interface -- there's a
+feature request open with GitHub, but currently this does not support LFS.
+
+Lastly, if you cloned the repository prior to installing git-lfs and you're
+observing that site images have no content, you may be able to fetch all images
+by running `git lfs pull`.
 
 
 [1]: http://www.metalsmith.io/
