@@ -58,24 +58,27 @@ metalsmith build process, which is defined in `build.coffee`.
 ## Handling of images
 
 Handling of image files is done using [git-lfs](https://git-lfs.github.com/).
-If you want to add new images, make sure you have
-[installed git-lfs](https://packagecloud.io/github/git-lfs/install) and run
+If you want to add new images, make sure you have [installed
+git-lfs](https://packagecloud.io/github/git-lfs/install) and run
 
 ```
 git lfs install
 ```
-
 From here, everything else should work as expected with standard git commands.
 You `add` and `commit` your changes and images, while git-lfs handles
-everything automatically. Currently, `png` and `jpg` are recognized by git-lsf.
+everything automatically. Currently, `png` and `jpg` are recognized by git-lfs.
 To track other types of images, edit `.gitattributes` file.
 
 Image files that are local to a page should be placed in the directory with the
 page content. Image files that are likely to be reused by multiple pages can be
 placed in an appropriate directory under `/src/images`.
 
-If you have not installed git-lfs before cloning the repository and local
-images have no content, just run `git lsf pull`.
+Note: Please do not upload images using the GitHub web interface -- there's a
+feature request open with GitHub, but currently this does not support LFS.
+
+Lastly, if you cloned the repository prior to installing git-lfs and you're
+observing that site images have no content, you may be able to fetch all images
+by running `git lfs pull`.
 
 
 [1]: http://www.metalsmith.io/
