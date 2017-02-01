@@ -18,25 +18,35 @@ people, this will create a pull request that will then get reviewed and merged.
 After the merge, the content will be live on the website within a few minutes.
 Alternatively, you can edit the file locally (see below).
 
-## Installing the site locally
+## Deploying the site locally
 
 To edit and run the site locally, start by creating a fork of this repository.
 Before you clone your fork locally, make sure to [install git-
-lfs](https://packagecloud.io/github/git-lfs/install) because that's what we use
-for [managing images](#handling-of-images). Also, when cloning the site, use
-authenticated URL (ie,  `git@github.com:galaxyproject/galaxy-hub.git`) because
-otherwise you will get _API rate limit exceeded_ error.
+lfs](https://git-lfs.github.com/) because that's what we use for [managing
+images](#handling-of-images).
 
-Once cloned, to build the website (into the `build` directory), run:
+Note that you should use the authenticated github URL (ie,
+`git@github.com:galaxyproject/galaxy-hub.git`) because otherwise you may get
+_API rate limit exceeded_ error.
+
+An example clone command, using lfs optimizations and the authenticated URL
+would be:
 
 ```
-make build
+git lfs clone git@github.com:galaxyproject/galaxy-hub.git
 ```
 
-To serve the site locally, on port 8080, run:
+Once cloned, to build and serve the site locally, on port 8080, run:
 
 ```
 make serve
+```
+
+To build the website into the `build` directory, without serving (for example,
+if you had an external web server configured to serve these files), run:
+
+```
+make build
 ```
 
 Please see the Makefile for more information and options, including the ability
