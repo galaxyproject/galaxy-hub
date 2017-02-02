@@ -26,9 +26,6 @@ build: npm-deps bower ## Builds into /build, suitable for copying to webserver.
 serve: npm-deps bower ## Serve locally for viewing
 	$(COFFEE) build.coffee --serve
 
-watch: npm-deps bower ## Serve and attempt to reload changed files
-	$(COFFEE) build.coffee --watch
-
 check: npm-deps bower ## Check for broken links
 	$(COFFEE) build.coffee --check
 
