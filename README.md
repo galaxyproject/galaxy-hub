@@ -38,12 +38,7 @@ git lfs clone git@github.com:galaxyproject/galaxy-hub.git
 
 The only other dependency you should need is [node.js](https://nodejs.org/en/).
 Most modern versions should work fine, but follow the instructions [on
-nodejs.org](https://nodejs.org) if you would like to update. On linux systems with
-installed nodejs you may need to run the following command before starting the server or building the site:
-
-```
-touch package.json; make node_modules
-```
+nodejs.org](https://nodejs.org) if you would like to update.
 
 
 To build and serve the site locally on port 8080, run:
@@ -64,6 +59,16 @@ to use a Docker-based node binary identical to what we use to build and publish
 the final build artifacts. If you would like to learn more about how it all
 goes together, feel free to browse the build targets in the Makefile, or the
 metalsmith build process, which is defined in `build.coffee`.
+
+
+If you are having trouble building the site, your node_modules may not have
+been installed correctly and the first thing to try is to remove the directory
+and/or execute the following command to have them reinstalled:
+
+```
+touch package.json; make node_modules
+```
+
 
 ## Handling of images
 
