@@ -39,7 +39,7 @@ git lfs clone git@github.com:galaxyproject/galaxy-hub.git
 The only other dependency you should need is [node.js](https://nodejs.org/en/).
 Most modern versions should work fine, but follow the instructions [on
 nodejs.org](https://nodejs.org) if you would like to update. On linux systems with
-installed hodejs you may need to run the following command before starting the server or building the site:
+installed nodejs you may need to run the following command before starting the server or building the site:
 
 ```
 touch package.json; make node_modules
