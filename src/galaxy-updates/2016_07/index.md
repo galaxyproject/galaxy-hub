@@ -408,7 +408,7 @@ One [new publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md
 
 # New Semi-Public Galaxy Servers
 
-And one [new set of Semi-Public Galaxy server](/src/GalaxyServices/index.md) was added in June.  Semi-public servers aren't [fully publicly accessible](/src/public-galaxy-servers/index.md), but that are accessible to a larger group than just the host institution's members.  
+And one [new set of Semi-Public Galaxy server](/src/galaxy-services/index.md) was added in June.  Semi-public servers aren't [fully publicly accessible](/src/public-galaxy-servers/index.md), but that are accessible to a larger group than just the host institution's members.  
 
 ## Norway: NeLS
 

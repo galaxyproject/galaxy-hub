@@ -301,7 +301,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/GalaxyServices/index.md).  Here's what happened with them in December.
+There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-servers/index.md) and [six semi-public Galaxy services](/src/galaxy-services/index.md).  Here's what happened with them in December.
 
 ## New Public Galaxy Servers
 
@@ -345,7 +345,7 @@ There are [over 90 publicly accessible Galaxy servers](/src/public-galaxy-server
 
 ### Cancer Computer
 
-<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/GalaxyServices/cancer-computer-logo-256.jpg" alt="Cancer Computer" width="120"/></a></div>
+<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/galaxy-services/cancer-computer-logo-256.jpg" alt="Cancer Computer" width="120"/></a></div>
 
 * *Links:*
   * **[Request access](http://www.cancercomputer.com/contact/)**
