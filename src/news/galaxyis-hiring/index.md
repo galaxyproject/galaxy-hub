@@ -1,3 +1,8 @@
+---
+title: 'Galaxy is hiring'
+date: '02-02-2017'
+---
+
 <div class='newsItemHeader'>[Galaxy is Hiring](/src/news/Galaxy is Hiring/index.md)</div>
 
 The Galaxy project currently has open positions in both the [Penn State](/src/community/Penn State/index.md) and [Emory](/src/community/Emory University/index.md) groups.
