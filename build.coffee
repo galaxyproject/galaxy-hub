@@ -21,13 +21,6 @@ link_to_orig_path = (files, metalsmith, done) ->
         files[k].orig_path = k
     done()
 
-clear_collections = (files, metalsmith, done) ->
-    metadata = metalsmith.metadata()
-    if metadata.collections
-        delete metadata[key] for key of metadata.collections
-        delete metadata.collections
-    done()
-
 fs = require('fs')
 path = require('path')
 
@@ -170,16 +163,6 @@ argv = require('minimist')(process.argv.slice(2))
 
 if argv['serve']
     ms.use( require('metalsmith-serve')( { port: 8080 } ) )
-
-if argv['watch']
-    ms.use require('metalsmith-watch')
-        paths:
-            "${source}/**/*": true
-            "layouts/**/*": "**/*.md"
-        livereload: true
-    ms.use require('metalsmith-serve')
-        port: 8080
-        host: "0.0.0.0"
 
 if argv['check']
     ms.use require('metalsmith-broken-link-checker')
