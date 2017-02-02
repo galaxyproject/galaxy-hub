@@ -5,7 +5,7 @@ block content
         div.row
             div.col-sm-12 !{ contents }
         div.row
-            div.col-sm-6
+            div.col-sm-3
                 h2 News
                 each item in news.slice(0,5)
                     p
@@ -14,7 +14,7 @@ block content
                             |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
                 p: a( href="/news/" ) More...
 
-            div.col-sm-6
+            div.col-sm-3
                 h2 Events
                 each item in events.slice(0,5)
                     p
@@ -22,3 +22,33 @@ block content
                         if item.tease
                             |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
                 p: a( href="/events/" ) More...
+
+            div.col-sm-3
+
+                h2 Publications
+                each item in publications.slice(0,5)
+                    p
+                        if item.doi
+                            div( data-badge-type="donut" data-doi=item.doi data-condensed="true" data-hide-no-mentions="true" class="altmetric-embed pull-right" )
+                        a( href=item.link ) #{item.title}. 
+                        if item.journal
+                            i #{item.journal}. 
+                            if item.date
+                                | #{helpers.moment(item.date).format("MMMM YYYY")}; 
+                            if item.volume
+                                strong #{item.volume}
+                            if item.number
+                                | #{"("+item.number+")"}
+                            if item.pages
+                                | :#{item.pages}
+                p: a( href="/publications/" ) More...
+
+
+            div.col-sm-3
+
+                div#twitter_timeline( style="height:400px" )
+                    h2 Tweets by 
+                        a(href="http://twitter.com/galaxyproject") @galaxyproject
+                        a.twitter-timeline(data-dnt="true" height="400" data-chrome="noheader nofooter noscrollbar noborders transparent" href="https://twitter.com/galaxyproject" data-widget-id="384667676347363329")
+                    script(type='text/javascript').
+                        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
