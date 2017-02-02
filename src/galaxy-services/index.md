@@ -35,7 +35,7 @@ Services are classified here by whom they are accessible to.  This can be based 
 
 ## Canada: GenAP
 
-<div class='right solid'><a href='https://www.genap.ca/'><img src="/src/GalaxyServices/GenAP_Logo_Trans_250.png" alt="GenAP" height="200" /></a></div>
+<div class='right solid'><a href='https://www.genap.ca/'><img src="/src/galaxy-services/GenAP_Logo_Trans_250.png" alt="GenAP" height="200" /></a></div>
 
 * *Links:*
   * **[GenAP](https://www.genap.ca/)**
@@ -90,7 +90,7 @@ Services are classified here by whom they are accessible to.  This can be based 
 
 ## Poland: PL-Grid
 
-<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/GalaxyServices/PL-Grid_Logo.png" alt="PL-Grid Galaxy"  /></a></div>
+<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/galaxy-services/PL-Grid_Logo.png" alt="PL-Grid Galaxy"  /></a></div>
 
 * *Links:*
   * **[PL-Grid Galaxy Server](https://galaxy.plgrid.pl)**
@@ -131,7 +131,7 @@ Services are classified here by whom they are accessible to.  This can be based 
 
 ## Cancer Computer
 
-<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/GalaxyServices/cancer-computer-logo-256.jpg" alt="Cancer Computer" /></a></div>
+<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/galaxy-services/cancer-computer-logo-256.jpg" alt="Cancer Computer" /></a></div>
 
 * *Links:*
   * **[Request access](http://www.cancercomputer.com/contact/)**
@@ -150,8 +150,8 @@ Services are classified here by whom they are accessible to.  This can be based 
 
 # Association Based
 
-<div class='right'><br /><div class='solid'><a href='/src/GalaxyServices/index.md#australia-genomics-virtual-lab-gvl'><img src="/src/GalaxyServices/AAF_Logo_wide.png" alt="AAF on GVL" width="300" /></a></div></div>
+<div class='right'><br /><div class='solid'><a href='/src/galaxy-services/index.md#australia-genomics-virtual-lab-gvl'><img src="/src/galaxy-services/AAF_Logo_wide.png" alt="AAF on GVL" width="300" /></a></div></div>
 
 ## Australian Access Federation (AAF)
 
-[Members](https://aaf.edu.au/subscribe/subscribers.html) of the [Australian Access Federation (AAF)](https://aaf.edu.au/) can use the [GVL (see above)](/src/GalaxyServices/index.md#australia-genomics-virtual-lab-gvl).
+[Members](https://aaf.edu.au/subscribe/subscribers.html) of the [Australian Access Federation (AAF)](https://aaf.edu.au/) can use the [GVL (see above)](/src/galaxy-services/index.md#australia-genomics-virtual-lab-gvl).

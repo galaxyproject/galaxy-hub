@@ -10,9 +10,9 @@ Fortunately the Galaxy [Community](/src/community/index.md) is helping out by [i
 
 **To add your public Galaxy server to this list**, please either just add it (hey, *it's a wiki*), or [describe the server here](https://docs.google.com/forms/d/1KBkyhAPpgJLanRWBoIHmwtEJELDUifZLUixfoqZXXU4/viewform?usp=send_form) and we'll post it this directory.
 
-**[Galaxy Services](/src/GalaxyServices/index.md)**
+**[Galaxy Services](/src/galaxy-services/index.md)**
 
-There are also a number of [Galaxy services](/src/GalaxyServices/index.md) that make Galaxy available to research communities, sometimes restricted on a geographical or domain basis.  See the [Galaxy services list](/src/GalaxyServices/index.md).
+There are also a number of [Galaxy services](/src/galaxy-services/index.md) that make Galaxy available to research communities, sometimes restricted on a geographical or domain basis.  See the [Galaxy services list](/src/galaxy-services/index.md).
 
 # General Purpose / Genomics Servers
 
