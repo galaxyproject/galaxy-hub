@@ -25,7 +25,7 @@ apply_directory_templates = (files, metalsmith, done) ->
     # Simple way to apply domain templates en masse
     minimatch = require('minimatch')
     for k, v of files
-        if minimatch k, 'events/*/index.md'
+        if 'events' in v.collection
             files[k].layout = 'events.pug'
     done()
 
