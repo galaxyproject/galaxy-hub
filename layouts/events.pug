@@ -1,0 +1,28 @@
+extends layout.pug
+
+block content
+    section.section-content
+        div.col-md-12
+            section.section-content
+                div.col-md-9
+                    h1 !{ title } - !{ tease }
+                    ul.list-unstyled
+                        li
+                            strong Date: 
+                            | !{date}
+                        li
+                            strong Location: 
+                            | !{location}
+                        li
+                            strong Host: 
+                            a(href=host) #{host}
+                        li
+                            strong Event URL: 
+                            a(href=event_url) #{event_url}
+                        li
+                            strong Speaker: 
+                            | !{speaker}
+                    div: p !{ contents }
+                div.col-md-3
+                    if image
+                        img.img-responsive(src=image style="padding 2px; border: 1px solid #666")
