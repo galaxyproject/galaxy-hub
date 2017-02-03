@@ -1,24 +1,9 @@
 ---
 autotoc: true
 title: Galaxy Event Horizon
+layout: events_index.pug
 ---
 
-
-<div class='right'></div>
-
-Events with Galaxy-related content are listed here.
-
-<div class='left'>
-<a href='http://bit.ly/gxycal'><img src="/src/images/logos/GalxyEventsCalThumb.png" alt="Galaxy Events Calendar" width="100" /></a><br />
-<a href='http://bit.ly/gxyothercal'><img src="/src/images/logos/GalxyOtherEventsCalThumb.png" alt="Galaxy Other Events Calendar" width="100" /></a>
-<a href='http://migale.jouy.inra.fr/?q=formations'><img src="/src/images/logos/MIGALELogo.png" alt='Le cycle "Bioinformatique par la pratique" 2017' height="50" /></a> 
-</div>
-
-The events listed here are also available in the *[Galaxy Events Google Calendar](http://bit.ly/gxycal)*.  The *[Galaxy Other Events Google Calendar](http://bit.ly/gxyothercal)* lists additional events that are relevant to the Galaxy Community, but that are not known to feature significant Galaxy content. 
-
-<br />If you know of any event that should be added to this page and/or to the Galaxy Event Calendar, please add it here or send it to outreach@galaxyproject.org.
-
-For events prior to this year, see the **[Events Archive](/src/events/archive/index.md)**.
 
 ## Upcoming Events
 
@@ -191,15 +176,18 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
   </tr>
 </table>
 
-<br />
+Events with Galaxy-related content are listed here.
 
-<table>
-  <tr>
-    <td style=" border: none;"> <a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
-    <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/src/teach/trainers/index.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
-  </tr>
-</table>
+<div class='left'>
+<a href='http://bit.ly/gxycal'><img src="/src/images/logos/GalxyEventsCalThumb.png" alt="Galaxy Events Calendar" width="100" /></a><br />
+<a href='http://bit.ly/gxyothercal'><img src="/src/images/logos/GalxyOtherEventsCalThumb.png" alt="Galaxy Other Events Calendar" width="100" /></a>
+</div>
 
+The events listed here are also available in the *[Galaxy Events Google Calendar](http://bit.ly/gxycal)*.  The *[Galaxy Other Events Google Calendar](http://bit.ly/gxyothercal)* lists additional events that are relevant to the Galaxy Community, but that are not known to feature significant Galaxy content. 
+
+<br />If you know of any event that should be added to this page and/or to the Galaxy Event Calendar, please add it here or send it to outreach@galaxyproject.org.
+
+For events prior to this year, see the **[Events Archive](/src/events/archive/index.md)**.
 
 ## Other Calendars
 
