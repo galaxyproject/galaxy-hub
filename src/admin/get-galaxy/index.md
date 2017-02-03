@@ -89,7 +89,7 @@ Upon restarting, Galaxy will bind to any available network interfaces instead of
 ## Become an Admin
 
 In order to control your new Galaxy through the UI (installing tools, managing users, creating groups etc.) you have to become an [administrator](/src/admin/Interface/index.md). First register as a new user and then give the user admin privileges like this: 
-You add the Galaxy login ( email ) to the Galaxy configuration file (`config/galaxy.ini`). If the file does not exist you can copy it from the provided sample (`config/galaxy.ini.sample`). Note that you have to restart Galaxy after modifying the configuration for changes to take effect. [More help with an example how-to.](/src/admin/get-galaxy/index.md#become_an_admin_example)
+You add the Galaxy login ( email ) to the Galaxy configuration file (`config/galaxy.ini`). If the file does not exist you can copy it from the provided sample (`config/galaxy.ini.sample`). Note that you have to restart Galaxy after modifying the configuration for changes to take effect. [More help with an example how-to.](/src/admin/get-galaxy/index.md#become-an-admin-example)
 
 ```
 # this should be a comma-separated list of valid Galaxy users
@@ -204,7 +204,7 @@ Follow these steps to edit `config/galaxy.ini.sample` for a brand new Galaxy.
 *Prerequisites*
 * Galaxy was installed Galaxy using Git. 
 * Galaxy was started at least once using "*sh run.sh*".
-* Galaxy is now stopped. [Help](/src/admin/get-galaxy/index.md#shutting_down_galaxy)
+* Galaxy is now stopped. [Help](/src/admin/get-galaxy/index.md#shutting-down-galaxy)
 
 *Add yourself as an administrator while creating a `config/galaxy.ini` file*
 
