@@ -1,0 +1,33 @@
+extends layout.pug
+
+block content
+
+    div.row !{ contents }
+
+    table.table.table-striped
+        thead
+            tr
+                th Date
+                th Topic/Event
+                th Venue/Location
+                th Contact
+        tbody
+            each item in events
+                if item.date
+                    tr
+                        td #{helpers.moment(item.date).format("MMMM Do YYYY")}
+                        td: a( href=item.link ) #{item.title} 
+                        td #{item.location} 
+                            if item.continent
+                                img(src='/src/images/icons/' + item.continent + '.png')
+                        td #{item.host}
+                            if item.gtn
+                                img(alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member")
+
+
+    h2 Galaxy Events Calendar
+        p.small A calendar version of the events listed above.
+        iframe(src="https://calendar.google.com/calendar/embed?showPrint=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com&amp;color=%238C500B&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no")
+    h2 Galaxy Other Events Calendar
+        p.small Events listed here are relevant to the Galaxy Community, but are not known to feature signficant Galaxy content.
+    iframe(src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=vr8tfnp3ge3kj6cn6rcu6gil0s%40group.calendar.google.com&amp;color=%23865A5A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no")
