@@ -21,6 +21,15 @@ link_to_orig_path = (files, metalsmith, done) ->
         files[k].orig_path = k
     done()
 
+apply_directory_templates = (files, metalsmith, done) ->
+    # Simple way to apply domain templates en masse
+    minimatch = require('minimatch')
+    for k, v of files
+        if minimatch k, 'events/*/index.md'
+            files[k].layout = 'events.pug'
+    done()
+
+
 fs = require('fs')
 path = require('path')
 
@@ -143,6 +152,7 @@ ms = metalsmith(__dirname)
             reverse: true
     .use timer 'metalsmith-collections'
     .use link_to_orig_path
+    .use apply_directory_templates
     .use timer 'link_to_orig_path'
     .use handlebars_partial_handling
     .use timer 'handlebars_partial_handling'
