@@ -102,6 +102,15 @@ marked = require("marked")
 class Renderer extends marked.Renderer
     heading: ( text, level, raw ) =>
         super( text, level + 1, raw )
+    table: (header, body) =>
+        return """<table style="table table-striped"
+                <thead>
+                #{header}
+                </thead>
+                <tbody>
+                #{body}
+                </tbody>
+                </table>"""
 
 timer = require( "metalsmith-timer" )
 
