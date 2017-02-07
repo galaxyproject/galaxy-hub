@@ -2,7 +2,7 @@ Breakouts are informal, open discussion sessions where participants interested i
 
 <table>
   <tr>
-    <td> <strong><a href='/src/community/galaxy-admins/meetups/2012_07_27/index.md'>GalaxyCzars</a></strong><br /> Ann Black-Ziegelbein </td>
+    <td> <strong><a href='/src/community/galaxy-admins/meetups/2012-07-27/index.md'>GalaxyCzars</a></strong><br /> Ann Black-Ziegelbein </td>
   </tr>
   <tr>
     <td> <strong><a href='/src/events/gcc2012/program/breakouts/automation-strategies/index.md'>Automation Strategies for Data, Tools, & Config</a></strong><br /> Brad Chapman, <a href='/src/john-chilton/index.md'>John Chilton</a>, <a href='/src/enis-afgan/index.md'>Enis Afgan</a>, <a href='/src/dave-bouvier/index.md'>Dave Bouvier</a> and <a href='/src/jennifer-jackson/index.md'>Jen Jackson</a> </td>
@@ -19,7 +19,7 @@ Breakouts are informal, open discussion sessions where participants interested i
 </table>
 
 
-There was discussion of merging the [GalaxyCzars](/src/community/galaxy-admins/meetups/2012_07_27/index.md) and [Automation Strategies for Data, Tools, & Config](/src/events/gcc2012/program/breakouts/automation-strategies/index.md) breakouts.  However, this wasn't been done because the emphases of the two breakouts is distinct:
+There was discussion of merging the [GalaxyCzars](/src/community/galaxy-admins/meetups/2012-07-27/index.md) and [Automation Strategies for Data, Tools, & Config](/src/events/gcc2012/program/breakouts/automation-strategies/index.md) breakouts.  However, this wasn't been done because the emphases of the two breakouts is distinct:
 * [Automation Strategies](/src/events/gcc2012/program/breakouts/automation-strategies/index.md) has a narrow focus on automating deployment of genomes, tools, data libraries and such.
-* [GalaxyCzars](/src/community/galaxy-admins/meetups/2012_07_27/index.md) is about the breadth of issues facing those deploying and managing Galaxy installations.
+* [GalaxyCzars](/src/community/galaxy-admins/meetups/2012-07-27/index.md) is about the breadth of issues facing those deploying and managing Galaxy installations.
 

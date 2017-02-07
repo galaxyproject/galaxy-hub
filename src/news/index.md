@@ -4,18 +4,18 @@
 **[News Items](/src/news/index.md)**
 ----
 [Galaxy on Jetstream update](/src/news/galaxy-on-jetstream1607/index.md)<br />
-[October 2016 Galactic News](/src/news/2016_10-galaxy-update/index.md)<br />
+[October 2016 Galactic News](/src/news/2016-10-galaxy-update/index.md)<br />
 [Galaxy Australia Community & GAMe 2017](/src/news/galaxy-australia/index.md)<br />
 [GCC2018 Call for Host Proposals](/src/news/gcc2018-call-for-host/index.md)<br />
-[September 2016 Galactic News](/src/news/2016_09-galaxy-update/index.md)<br />
-[July 2016 Galaxy Release (v 16.07)](/src/news/2016_07-galaxy-release/index.md)<br />
+[September 2016 Galactic News](/src/news/2016-09-galaxy-update/index.md)<br />
+[July 2016 Galaxy Release (v 16.07)](/src/news/2016-07-galaxy-release/index.md)<br />
 [Galaxy Admin Training Nov 7-11](/src/news/gat2016-registration-open/index.md)<br />
-[August 2016 Galactic News](/src/news/2016_08-galaxy-update/index.md)<br />
+[August 2016 Galactic News](/src/news/2016-08-galaxy-update/index.md)<br />
 [Multi-omics Postdoc Opening](/src/news/multi-omics-post-doc-minnesota/index.md)<br />
-[July 2016 Galactic News](/src/news/2016_07-galaxy-update/index.md)<br />
-[June 2016 Galactic News](/src/news/2016_06-galaxy-update/index.md)<br />
+[July 2016 Galactic News](/src/news/2016-07-galaxy-update/index.md)<br />
+[June 2016 Galactic News](/src/news/2016-06-galaxy-update/index.md)<br />
 [Galaxy CloudMan Release (v 16.05)](/src/news/1605-galaxy-cloudman-release/index.md)<br />
-[April 2016 Galaxy Release (v 16.04)](/src/news/2016_04-galaxy-release/index.md)<br />
+[April 2016 Galaxy Release (v 16.04)](/src/news/2016-04-galaxy-release/index.md)<br />
 ----
 [News Feed](http://feed43.com/galaxynews.xml) <a href='http://feed43.com/galaxynews.xml'><img src="/src/images/icons/RSSIcon16x16.gif" alt="Galaxy News RSS Feed" height="12" /></a><br />
 [News Archive](/src/news/archive/index.md)
