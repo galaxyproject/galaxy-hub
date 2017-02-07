@@ -52,12 +52,9 @@
       - Administration:
         title: Admin
         link: admin
-      - Tool Config:
-        title: Tool Config
-        link: admin/tools/tool-config-syntax
       - Tool Shed:
         title: Tool Shed
-        link: tool-shed
+        link: toolshed
 - Contribute:
   title: Contribute
   links:
