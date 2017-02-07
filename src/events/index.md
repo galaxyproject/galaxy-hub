@@ -81,8 +81,8 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
   </tr>
     <tr>
     <th> February 16 </th>
-    <td> <em><a href="/src/community/galaxy-admins/meetups/2016_12_15/index.md">CloudLaunch</a></em> </td>
-    <td> <img src="/src/images/icons/World40.png" alt="Online" align="right" /> <a href="/src/community/galaxy-admins/meetups/2016_12_15/index.md"> GalaxyAdmins Online Meetup</a> <em>Online</em> </td>
+    <td> <em><a href="/src/community/galaxy-admins/meetups/2016-12-15/index.md">CloudLaunch</a></em> </td>
+    <td> <img src="/src/images/icons/World40.png" alt="Online" align="right" /> <a href="/src/community/galaxy-admins/meetups/2016-12-15/index.md"> GalaxyAdmins Online Meetup</a> <em>Online</em> </td>
     <td> Nuwan Goonasekera and <a href="/src/EnisAfgan">Enis Afgan</a> </td>
   </tr>
   <tr>
