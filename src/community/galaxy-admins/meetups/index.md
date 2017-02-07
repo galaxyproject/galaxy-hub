@@ -9,7 +9,7 @@ The [GalaxyAdmins](/src/community/galaxy-admins/meetups//index.md) group has bi-
 
 **2017**
 
-* [2017/02/15 Web Meetup](/src/community/galaxy-admins/meetups/2017_02_15/index.md)
+* [2017/02/15 Web Meetup](/src/community/galaxy-admins/meetups/2017_02_16/index.md)
 
 
 **2016**
