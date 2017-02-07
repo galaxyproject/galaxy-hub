@@ -15,27 +15,15 @@
 - Learn:
   title: Learn
   links:
-      - Learn:
-        title: Learn
-        link: learn
+      - Tutorials:
+        title: Tutorials
+        link: teach
       - Videos:
         title: Videos
         link: https://vimeo.com/groups/teachinggalaxy
       - Tours:
         title: Interactive Tours
         link: https://usegalaxy.org/tours/core.history
-- Teach:
-  title: Teach
-  links:
-      - Trainers:
-        title: Trainer Directory
-        link: teach/trainers/
-      - Platform:
-        title: Compute Platform Advice
-        link: teach/computing-platforms/
-      - BP:
-        title: Best Practices
-        link: teach/best-practices/
 - Deploy:
   title: Deploy & Run
   links:
