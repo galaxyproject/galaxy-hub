@@ -27,9 +27,6 @@ Trainers are grouped by their *reach*.  That is, by how far they are willing to 
 * **[Local](/src/teach/trainers/index.md#local):** These trainers don't travel, but their workshops are open to researchers outside their institution.
 * **[Institution](/src/teach/trainers/index.md#institution):** Trainers that can only teach to researchers that are affiliated with their institution.
 
-
-
-
 ## Global
 
 Trainers are potentially willing to travel globally to present Galaxy Training.
@@ -185,12 +182,12 @@ Workshops and training about the Molecular Property Diagnostic Suite (MPDS).
 
 In collaboration with a number of research scientists with hands on experience in genomics and bioinformatics, [Noor Biotechnologies](http://noorbiotech.com/) offer consultancy services and onsite practical training in NGS and Bioinformatics including:
 
-    * Library Preparation for DNA Sequencing on Illumina MiSeq and HiSeq
-    * Illumina Library QC and Troubleshooting 
-    * Optimizing Cluster Densities on Illumina MiSeq and HiSeq
-    * Next Generation DNA Sequencing Technologies and Data Management
-    * Basic Concepts in Bioinformatics and Making Sense of Data
-    * Using Galaxy for Analysis of High Throughput Sequence Data
+  * Library Preparation for DNA Sequencing on Illumina MiSeq and HiSeq
+  * Illumina Library QC and Troubleshooting 
+  * Optimizing Cluster Densities on Illumina MiSeq and HiSeq
+  * Next Generation DNA Sequencing Technologies and Data Management
+  * Basic Concepts in Bioinformatics and Making Sense of Data
+  * Using Galaxy for Analysis of High Throughput Sequence Data
 
 **Domains:**
 
