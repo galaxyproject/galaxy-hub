@@ -1,25 +1,32 @@
 ---
-title: Installing Tools into Galaxy from Tool Shed
+autotoc: true
 ---
-{{> Admin/LinkBox }}
-{{> Admin/Tools/LinkBox }}
 
+# Installing Tools into Galaxy
 
-This page describes the simple and uncomplicated installation of a tool into Galaxy. The process has to be completed by an administrator through the [Admin Interface](/src/admin/Interface/index.md). For more advanced examples and additional description, please see [our guide to installing repositories to Galaxy](/src/toolshed/installing-repositories-to-galaxy/index.md).
-If the tool you need does not exist in the Tool Shed you can add it to your Galaxy instance manually. Please see the [Add Tool Tutorial](/src/admin/tools/add-tool-tutorial/index.md).
-**For scripted installation of tools using the API please see the bottom of this page.**
+## Ways to get tools into Galaxy
+
+1. This page describes a simple and uncomplicated installation of a tool from [Tool Shed](/src/toolshed/index.md) into Galaxy. The process has to be completed by an administrator and can be donw through the [Admin Interface](/src/admin/Interface/index.md).
+1. If the tool you need does not exist in the Tool Shed you can add it to your Galaxy instance manually. Please see the [Add Tool Tutorial](/src/admin/tools/add-tool-tutorial/index.md).
+1. Automated Installation of Tools - The process of installing tools from Tool SHed can be performed in an automated way using a set of scripts. This is particularly useful if you are trying to install a large number of tools. The required scripts are available as an [Ansible](http://www.ansible.com/home) playbook from [here](https://github.com/afgane/galaxy-tools-playbook). Please see that page for complete instructions.
+
+## Vocabulary
+
+* *repository* - Tools in Tool Shed are stored in versioned code archives called repositories. There may be more tools per repository.
+
 
 ## -1. Find the tool you want to use
 
-* find the tool name in some other Galaxy instance that already has it
-* use the Tool Shed search or browse at https://toolshed.g2.bx.psu.edu/
-* use the experimental search at http://toolshed.tools/
+* Find the tool in some other Galaxy instance that already has it.
+* Use the Tool Shed search or browse categories and tools at https://toolshed.g2.bx.psu.edu/.
+* Use the experimental search at http://toolshed.tools/.
 
-## 1. (optional) Connect Your Galaxy to a Tool Shed
+## 1. Connect your Galaxy to a Tool Shed
 
-Galaxy is by default connected to the Main Tool Shed. However you can optionally connect to other custom Tool Sheds by modifying the `config/tool_sheds_conf.xml` file in the Galaxy directory. There are many Tool Sheds worldwide but the Galaxy Team maintains two: Main Tool Shed ([http://toolshed.g2.bx.psu.edu/](http://toolshed.g2.bx.psu.edu/)) and Test Tool Shed ([http://testtoolshed.g2.bx.psu.edu/](http://testtoolshed.g2.bx.psu.edu/)). By default, the Main Tool Shed configuration is already present and we recommend using it.
+Galaxy is by default connected to the Main Tool Shed. However you can optionally connect to other custom Tool Sheds by modifying the `config/tool_sheds_conf.xml` file in the Galaxy directory. There are few more Tool Sheds worldwide but the Galaxy Team maintains two: [Main Tool Shed](http://toolshed.g2.bx.psu.edu/) and [Test Tool Shed](http://testtoolshed.g2.bx.psu.edu/). By default, the Main Tool Shed is already configured in Galaxy and we recommend using it.
 
-You can add as many Tool Sheds as you want to the configuration file.
+However you can add as many Tool Sheds as you want to the configuration file of your Galaxy.
+
 ```
 <?xml version="1.0"?>
 <tool_sheds>
@@ -28,40 +35,47 @@ You can add as many Tool Sheds as you want to the configuration file.
 </tool_sheds>
 ```
 
-
 ## 2. Open the Tool Shed
 
-Go to Galaxy [Admin Interface](/src/admin/Interface/index.md) and click `Search and browse tool sheds`.
+Go to Galaxy [Admin Interface](/src/admin/Interface/index.md) and click `Search Tool Shed`.
 
 You will see the following in the middle panel:
 
 ![](/src/admin/tools/add-tool-from-toolshed-tutorial/connected_toolsheds.png)
 
-## 3. Search for a Tool
+## 3. Search for a repository
 
-Click `Search for valid tools`.
+Click `Search for valid repositories`. (You can also search for tools directly.)
 
-## 4. Enter the Name of the Tool You Are Searching For
+## 4. Enter the name of the repository you are searching for
 
-Next, you can put in the tool name and hit `Search`.  In our example, we'll search for `bwa`.  
+Next, you can put in the repository name and hit `Search`.  In our example, we'll search for `bwa`.
 
 ![](/src/admin/tools/add-tool-from-toolshed-tutorial/search_valid_tools.png)
 
-## 5. Select a Tool from the Results to Install
+## 5. Select a repository to install
 
-After searching, we can select a tool to install.  In our case, we'll install `bwa base`.
+After searching, you can select a repository to install.  In our case, we'll install `bwa` from the owner `devteam`.
 
 ![](/src/admin/tools/add-tool-from-toolshed-tutorial/install_bwa.png)
 
-## 6. Installing your Tool
+## 6. Preview the repository
 
-Finally, we can confirm our dependency installations and choose the panel section we want to show our tool in.  Note that if the dependency directory described above is set, the tool's dependencies (if they exist) will be shown on this page.  If you keep the 'Handle tool dependencies?' option checked, these dependencies are handled automatically.
+On the next page you can preview the contents of the repository including all tools and a readme file.
 
-![](/src/admin/tools/add-tool-from-toolshed-tutorial/select_section.png)
+![](/src/admin/tools/add-tool-from-toolshed-tutorial/repository_install_preview.png)
 
-## 7. Sit Down, Relax, and Wait for the Installation to Proceed
+## 7. Confirm dependencies
 
-As you're waiting for your tool to install, you can leave the page freely, as the installation will continue in the background. **Once done, please make sure to restart the Galaxy process (this also applies to any handlers your Galaxy uses) so the new tool will get loaded properly.**
+Finally, we can confirm our dependencies installation (if any) and choose the panel section we want to show the repository's tools in. If you keep the settings as is, the shown dependencies will be handled automatically either by Conda or Tool Shed package recipes. To learn more you can visit documentation about [dependency resolution](https://docs.galaxyproject.org/en/master/admin/dependency_resolvers.html) and [Conda](https://docs.galaxyproject.org/en/master/admin/conda_faq.html).
+
+![](/src/admin/tools/add-tool-from-toolshed-tutorial/bwa_conda_details.png)
+
+## 8. Sit down and relax
+
+..and wait for the installation to proceed.
+
+As you're waiting for your tool to install, you can leave the page freely, as the installation will continue in the background. As of Galaxy version [16.10](https://docs.galaxyproject.org/en/master/releases/16.10_announce.html) you do not need to restart Galaxy to have the tools loaded. If you have an older version please make sure to restart the Galaxy process (this also applies to any handlers your Galaxy uses) so the new tools will get loaded properly.
 
 The tool will show up in the tool panel of the section you selected, and the users can use it.
 
@@ -72,7 +86,3 @@ You can monitor the installation progress of the tool if you click on `Monitor i
 You can also check the states of all installed tools if you click `Manage installed tool shed repositories` in the [Admin Interface](/src/admin/Interface/index.md).
 
 ![](/src/admin/tools/add-tool-from-toolshed-tutorial/repo_status.png)
-
-# Automated Installation of Tools
-
-The same process as described above can be performed in an automated way using a set of scripts. This is particularly useful if you are trying to install a large number of tools. The required scripts are available as an [Ansible](http://www.ansible.com/home) playbook from [here](https://github.com/afgane/galaxy-tools-playbook). See that page for complete instructions.
