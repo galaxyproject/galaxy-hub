@@ -1,29 +1,40 @@
-{{> Admin/Tools/LinkBox }}
+---
+autotoc: true
+---
+
 # Intergalactic Utilities Commission
 
-The Intergalactic Utilities Commission (IUC) was established in 2012 to enable the pervasive use of the main Galaxy ToolShed by ensuring the repositories available in the tool shed include contents that are functionally correct and optimized for installation into local Galaxies.  When appropriate, guidance is provided to repository owners so that they can understand what changes are necessary for their repository to be approved.
+## Introduction
 
-The features described in [ the reviewing process](/src/reviewing-toolshed-repositories/index.md) enable tool shed repositories to ultimately be flagged as "Approved" by the IUC.  If a repository is "IUC Approved", then those installing the repository should have a certain level of comfort that it's contents are functionally correct in all appropriate areas.
+The Intergalactic Utilities Commission (IUC) was established in 2012 to enable the pervasive use of the main Galaxy [Tool Shed](/src/toolshed/index.md) by ensuring the repositories available include contents that are functionally correct and optimized for installation into local Galaxies.  When appropriate, the group provides guidance to [Galaxy tool](/src/tools/index.md) developers so that they can improve the quality of their repositories.
 
-IUC also maintains a set of Galaxy tools in the following GitHub repository https://github.com/galaxyproject/tools-iuc
+## Activities
 
-IUC membership can evolve over time.  The initial members were all owners of one or more repositories in the main Galaxy tool shed or are members of the core Galaxy development team, so they may be familiar to you.  
+* Maintains a set of high quality Galaxy tools in the GitHub [repository](https://github.com/galaxyproject/tools-iuc). This repo serves as an excellent example and inspiration to all Galaxy tool developers.
+* Cultivates and shares the Galaxy tool development best practices [document](http://galaxy-iuc-standards.readthedocs.io/).
+* Provides support to tool developers on a public Gitter [channel](https://gitter.im/galaxy-iuc/iuc).
 
-## Current Members
 
-* Daniel Blankenberg, Galaxy Team, Penn State University
-* Dave Bouvier, Galaxy Team, Penn State University
-* Brad Chapman, Harvard School of Public Health
-* Peter Cock, The James Hutton Institute
-* Nate Coraor, Galaxy Team, Penn State University
-* Björn Grüning, University of Freiburg
-* James Johnson, University of Minnesota
-* Edward Kirton, U.S. Department of Energy
-* Nicola Soranzo, Earlham Institute
-* Eric Rasche, Texas A&M University
-* Youri Hoogstrate, Erasmus Universiteit Rotterdam
-* Marius van den Beek, Institut de Biologie Paris-Seine
-* Greg Von Kuster, Penn State University
-* Anthony Bretaudeau, GenOuest BioInformatics Platform
-* Saskia Hiltemann, Erasmus University Medical Center
+## Members
+
+IUC membership evolves over time and helpful community contributors are asked to join.
+
+Member | Joined | GitHub
+------ | ------ | ------
+**Daniel Blankenberg**, Galaxy Team, Penn State University | founding member | [@blankenberg](https://github.com/blankenberg)
+**Dave Bouvier**, Galaxy Team, Penn State University | founding member | [@davebx](https://github.com/davebx)
+**Brad Chapman**, Harvard School of Public Health | founding member | [@chapmanb](https://github.com/chapmanb)
+**Peter Cock**, The James Hutton Institute | founding member | [@peterjc](https://github.com/peterjc)
+**Nate Coraor**, Galaxy Team, Penn State University | founding member | [@natefoo](https://github.com/natefoo)
+**Björn Grüning**, University of Freiburg | founding member | [@bgruening](https://github.com/bgruening)
+**James Johnson**, University of Minnesota | founding member | [@jj-umn](https://github.com/jj-umn)
+**Edward Kirton**, U.S. Department of Energy | founding member |
+**Nicola Soranzo**, Earlham Institute |  Aug 25, 2014 | [@nsoranzo](https://github.com/nsoranzo)
+**Eric Rasche**, Texas A&M University |  Aug 25, 2014 | [@erasche](https://github.com/erasche)
+**Youri Hoogstrate**, Erasmus Universiteit Rotterdam | Oct 7, 2015 | [@yhoogstrate](https://github.com/yhoogstrate)
+**Marius van den Beek**, Institut de Biologie Paris-Seine | Oct 12, 2015 | [@mvdbeek](https://github.com/mvdbeek)
+**Greg Von Kuster**, Penn State University | founding member | [@gregvonkuster](https://github.com/gregvonkuster)
+**Anthony Bretaudeau**, GenOuest BioInformatics Platform | May 11, 2016 | [@abretaud](https://github.com/abretaud)
+**Saskia Hiltemann**, Erasmus University Medical Center | Jun 14, 2016 | [@shiltemann](https://github.com/shiltemann)
+**Lance Parsons**, Princeton University | Oct 28, 2016 | [@lparsons](https://github.com/lparsons)
 

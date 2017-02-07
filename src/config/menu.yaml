@@ -1,6 +1,6 @@
 # This file describes the menu layout
 ---
-- Use: 
+- Use:
   title: Use
   links:
       - Main:
@@ -9,7 +9,7 @@
       - Servers:
         title: Public servers worldwide
         link: public-galaxy-servers
-      - Cloud: 
+      - Cloud:
         title: Galaxy on the Cloud
         link: cloud
 - Learn:
@@ -24,21 +24,6 @@
       - Tours:
         title: Interactive Tours
         link: https://usegalaxy.org/tours/core.history
-- Deploy:
-  title: Deploy & Run
-  links:
-      - Install:
-        title: Get Galaxy
-        link: admin/get-galaxy
-      - Administer:
-        title: Administer Galaxy
-        link: admin
-      - RTFD:
-        title: Read the Docs
-        link: https://galaxy.readthedocs.io/en/master/index.html
-      - Build Tools:
-        title: Planemo
-        link: https://github.com/galaxyproject/planemo
 - Support:
   title: Support
   links:
@@ -54,16 +39,40 @@
 - Community:
   title: Community
   link: community
+- Deploy:
+  title: Deploy & Run
+  links:
+      - Install:
+        title: Get Galaxy
+        link: admin/get-galaxy
+      - Administer:
+        title: Administer Galaxy
+        link: admin
+      - RTFD:
+        title: Read the Docs
+        link: https://galaxy.readthedocs.io/en/master/index.html
+- Develop:
+  title: Develop
+  links:
+      - Build Tools:
+        title: Planemo
+        link: https://github.com/galaxyproject/planemo
+      - Tool Shed:
+        title: Publish in Tool Shed
+        link: toolshed
+      - Codebase:
+        title: Contribute
+        link: https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING.md
 - Pulse:
   title: Pulse
   links:
-      - News: 
+      - News:
         title: Galactic News
         link: news
       - Evens:
         title: Galactic Events
         link: events
-      - Publications: 
+      - Publications:
         title: Galactic Publications
         link: cite-u-like
       - Project Stats:
