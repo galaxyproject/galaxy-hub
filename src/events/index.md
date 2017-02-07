@@ -115,6 +115,12 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Freiburg, Germany </td>
     <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='mailto:erxleben@informatik.uni-freiburg.de'>Organisers</a> </td>
   </tr>
+    <tr>
+    <th> February 16 </th>
+    <td> <em><a href="">GalaxyAdmins Online Meetup</a></em> </td>
+    <td> <img src="/src/images/icons/World40.png" alt="Online" align="right" /><em>Online</em> </td>
+    <td> Nuwan Goonasekera and <a href="/src/EnisAfgan">Enis Afgan</a> </td>
+  </tr>
   <tr>
     <th> February 20 </th>
     <td> <em><a href="https://gigaworkshops.eventbrite.com">Bioinformatics Workshops on Galaxy and Metagenomics</a></em> </td>

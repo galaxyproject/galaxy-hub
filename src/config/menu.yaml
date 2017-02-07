@@ -1,78 +1,80 @@
 # This file describes the menu layout
 ---
-- Communicate:
-  title: Communicate
+- Use:
+  title: Use
   links:
-      - News:
-        title: News
-        link: news
-      - Events:
-        title: Events
-        link: events
-      - Support:
-        title: Support
-        link: support
-      - Biostar:
-        title: Biostar
-        link: https://biostar.usegalaxy.org
-- Using Galaxy:
-  title: Using Galaxy
-  link: using-galaxy
-  links:
-      - Servers:
-        title: Servers
-        link: public-galaxy-servers
-      - Learn:
-        title: Learn
-        link: learn
       - Main:
-        title: Main
+        title: Main public site
         link: main
-      - Choices:
-        title: Choices
-        link: big-picture/choices
+      - Servers:
+        title: Public servers worldwide
+        link: public-galaxy-servers
+      - Cloud:
+        title: Galaxy on the Cloud
+        link: cloud
+- Learn:
+  title: Learn
+  links:
       - Tutorials:
-        title: Support
-        link: support
-- Galaxy Project:
-  title: Galaxy Project
-  links:
-      - About:
-        title: About
-        link: galaxy-project
+        title: Tutorials
+        link: teach
+      - Videos:
+        title: Videos
+        link: https://vimeo.com/groups/teachinggalaxy
+      - Tours:
+        title: Interactive Tours
+        link: https://usegalaxy.org/tours/core.history
 - Deploy:
-  title: Deploy Galaxy
+  title: Deploy & Run
   links:
-      - Get Galaxy:
+      - Install:
         title: Get Galaxy
         link: admin/get-galaxy
-      - Cloud:
-        title: Cloud
-        link: cloud
-      - Administration:
-        title: Admin
+      - Administer:
+        title: Administer Galaxy
         link: admin
-      - Tool Shed:
-        title: Tool Shed
-        link: toolshed
-- Contribute:
-  title: Contribute
+      - RTFD:
+        title: Read the Docs
+        link: https://galaxy.readthedocs.io/en/master/index.html
+- Develop:
+  title: Develop
   links:
-      - Develop:
-        title: Develop
-        link: develop
-      - Tools:
-        title: Tools
-        link: tools
-      - Issues & Requests:
-        title: Issues & Requests
-        link: issues
-      - Logs:
-        title: Logs
-        link: community/logs
-      - Deployments:
-        title: Deployments
-        link: community/deployments
-      - Teach:
-        title: Teach
-        link: teach
+      - Build Tools:
+        title: Planemo
+        link: https://github.com/galaxyproject/planemo
+      - Tool Shed:
+        title: Publish in Tool Shed
+        link: toolshed
+      - Codebase:
+        title: Contribute
+        link: https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING.md
+- Support:
+  title: Support
+  links:
+      - BioStar:
+        title: Galaxy BioStar Forum
+        link: https://biostar.usegalaxy.org
+      - Mailing Lists:
+        title: Galaxy Mailing Lists
+        link: mailing-lists
+      - IM:
+        title: Instant Messaging
+        link: https://gitter.im/galaxyproject/Lobby
+- Community:
+  title: Community
+  link: community
+- Pulse:
+  title: Pulse
+  links:
+      - News:
+        title: Galactic News
+        link: news
+      - Evens:
+        title: Galactic Events
+        link: events
+      - Publications:
+        title: Galactic Publications
+        link: cite-u-like
+      - Project Stats:
+        title: Stats
+        link: galaxy-project/statistcs
