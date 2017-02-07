@@ -13,17 +13,17 @@ In short, the Galaxy community includes anyone who works with Galaxy in any capa
 
 # Special Interest Groups
 
- **[GalaxyAdmins](/src/community/galaxy-admins/index.md):**
-* People responsible for large Galaxy installations. 
+## [GalaxyAdmins](/src/community/galaxy-admins/index.md)
+People responsible for large Galaxy installations.
 
- **[Proteomics](/src/proteomics/index.md):**
-* Proteomics Galaxy-based efforts.
+## [Proteomics](/src/proteomics/index.md)
+Proteomics Galaxy-based efforts.
 
- **[IUC](/src/iuc/index.md):**
-* Intergalactic Utilities Commission (IUC) helps manage the Galaxy Toolshed
+## [IUC](/src/iuc/index.md)
+The Intergalactic Utilities Commission (IUC) maintains high-quality Galaxy tools and develops best practices.
 
- **[Galaxy Training Network](/src/teach/gtn/index.md)**
-* Training about Galaxy and using Galaxy.  There is also [a mailing list](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/).
+## [Galaxy Training Network](/src/teach/gtn/index.md)
+Training about Galaxy and using Galaxy.  There is also [a mailing list](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/).
 
 # By Geography / Language
 
