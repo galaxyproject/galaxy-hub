@@ -32,7 +32,7 @@ Member | Joined | GitHub
 **Nicola Soranzo**, Earlham Institute |  Aug 25, 2014 | [@nsoranzo](https://github.com/nsoranzo)
 **Eric Rasche**, Texas A&M University |  Aug 25, 2014 | [@erasche](https://github.com/erasche)
 **Youri Hoogstrate**, Erasmus Universiteit Rotterdam | Oct 7, 2015 | [@yhoogstrate](https://github.com/yhoogstrate)
-**Marius van den Beek**, Institut de Biologie Paris-Seine | Oct 12, 2015 | [@mvdbeek](https://github.com/mvdbeek)
+**Marius van den Beek**, Institut Curie | Oct 12, 2015 | [@mvdbeek](https://github.com/mvdbeek)
 **Greg Von Kuster**, Penn State University | founding member | [@gregvonkuster](https://github.com/gregvonkuster)
 **Anthony Bretaudeau**, GenOuest BioInformatics Platform | May 11, 2016 | [@abretaud](https://github.com/abretaud)
 **Saskia Hiltemann**, Erasmus University Medical Center | Jun 14, 2016 | [@shiltemann](https://github.com/shiltemann)
