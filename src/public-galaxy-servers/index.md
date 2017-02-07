@@ -1,22 +1,20 @@
 ---
 autotoc: true
-title: Publicly Accessible Galaxy Servers
 ---
-<div class='center'><img src="/src/public-galaxy-servers/80PlusSlide.png" alt="80+ Public Galaxy Servers" width="300" /></div>
 
-**The Galaxy Project's public server ([UseGalaxy.org](http://usegalaxy.org/), *[Main](/src/main/index.md)*)** can meet many needs, but it is not suitable for everything (see [Choices](/src/big-picture/choices/index.md) for why) and cannot possibly scale to meet the entire world's needs.
+# Publicly Accessible Galaxy Servers
 
-Fortunately the Galaxy [Community](/src/community/index.md) is helping out by [installing Galaxy](/src/admin/get-galaxy/index.md) at their institutions and then making those installations either publicly available or open to their organizations or community. This page lists publicly accessible Galaxy servers.  To be included here a server must be accessible to any academic researcher anywhere in the world.  Servers can require logins and enforce quotas.
+![](/src/public-galaxy-servers/80PlusSlide.png)
 
-**To add your public Galaxy server to this list**, please either just add it (hey, *it's a wiki*), or [describe the server here](https://docs.google.com/forms/d/1KBkyhAPpgJLanRWBoIHmwtEJELDUifZLUixfoqZXXU4/viewform?usp=send_form) and we'll post it this directory.
+The Galaxy Project's public server ([usegalaxy.org](http://usegalaxy.org/)) can meet many needs, but it is not suitable for everything (see [Choices](/src/big-picture/choices/index.md) for why). Fortunately the Galaxy [Community](/src/community/index.md) is helping out by [installing Galaxy](/src/admin/get-galaxy/index.md) at their institutions and then making those installations either publicly available or open to their organizations or community. This page lists publicly accessible Galaxy servers.  To be included here a server must be accessible to any academic researcher anywhere in the world.  Some servers may require logins and enforce quotas.
 
-**[Galaxy Services](/src/galaxy-services/index.md)**
-
-There are also a number of [Galaxy services](/src/galaxy-services/index.md) that make Galaxy available to research communities, sometimes restricted on a geographical or domain basis.  See the [Galaxy services list](/src/galaxy-services/index.md).
+<div class="alert alert-success" role="alert">**To add** your public Galaxy server to this list, use "Edit on GitHub" link above, or [describe the server here](https://docs.google.com/forms/d/1KBkyhAPpgJLanRWBoIHmwtEJELDUifZLUixfoqZXXU4/viewform?usp=send_form) and we'll post it this directory.</div>
 
 # General Purpose / Genomics Servers
 
 These servers implement a broad range of tools and and aren't specific to any part of the tree of life, or to any specific type of analysis.  These are servers you can use when want to do general genomic analysis.
+
+<!-- these two seem dead
 
 ## Andromeda
 
@@ -60,6 +58,7 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *Sponsor(s):*
   * [Center of Medical Genetics](http://www.ua.ac.be/main.aspx?c=.MEDGEN), [University of Antwerp](http://www.ua.ac.be/)
   * [Biomina research center](http://www.biomina.be/), [University](http://www.ua.ac.be/) and [University Hospital](http://www.uza.be/) of Antwerp
+-->
 
 ## CBiB Galaxy
 
