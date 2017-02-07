@@ -44,52 +44,16 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
   </tr>
   <tr>
-    <th> February 3 </th>
-    <td> <strong><a href='http://www.embl-abr.org.au/game2017/training-day/'>Researcher Training Day for Life Scientists</a></strong> </td>
-    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a>, University of Melbourne, Victoria, Australia </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
-  </tr>
-  <tr>
-    <th> February 4 </th>
-    <td> <strong><a href='http://www.embl-abr.org.au/game2017/conference/#bio'>GAMe 2017 Conference BIO Day</a></strong> </td>
-    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a>, University of Melbourne, Victoria, Australia </td>
-    <td> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
-  </tr>
-  <tr>
-    <th> February 5 </th>
-    <td> <strong><a href='http://www.embl-abr.org.au/game2017/conference/#info'>GAMe 2017 Conference INFO Day</a></strong> </td>
-    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a>, University of Melbourne, Victoria, Australia </td>
-    <td> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
-  </tr>
-  <tr>
     <th> February 6-9 </th>
     <td> <strong><a href='http://www.embl-abr.org.au/game2017/training-for-admin-workshop/'>Galaxy Administrator Training Course</a></strong> </td>
     <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a>, University of Melbourne, Victoria, Australia </td>
     <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
   </tr>
   <tr>
-    <th> February 6 </th>
-    <td> <em>Globus Genomics and several other cloud-based solution in data storage and management</em> </td>
-    <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> <a href="http://www.mnmconferences.com/NGS-Data-Analysis-and-Informatics-Conference">NGS Data Analysis & Informatics Conference</a>, San Diego, California, United States </td>
-    <td>  <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a> </td>
-  </tr>
-  <tr>
-    <th> February 6 </th>
-    <td> <em>Introduction to Galaxy Workshop</em> </td>
-    <td> <img src="/src/images/Icons/Asia40.png" alt="Asia" align="right" /> <a href="http://www.kthrd.com/index.do">KTHRD</a>, Daejeon, South Korea </td>
-    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/DaveClements'>Dave Clements</a> </td>
-  </tr>
-  <tr>
     <th> February 6-8 </th>
     <td> <em><a href="https://www.molmed.nl/courses/CourseDetail.asp?courseID=1499&backpage=../courses/courses.asp">Galaxy for Translational Research</a></em> </td>
     <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Erasmus MC, Netherlands </td>
     <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Andrew Stubbs </td>
-  </tr>
-  <tr>
-    <th> February 7 </th>
-    <td> <em>Introduction to Galaxy Workshop</em> </td>
-    <td> <img src="/src/images/Icons/Asia40.png" alt="Asia" align="right" /><a href="http://www.catholic.ac.kr/">Catholic University of Korea</a>, Seoul, South Korea </td>
-    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/DaveClements'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 8 </th>
@@ -117,8 +81,8 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
   </tr>
     <tr>
     <th> February 16 </th>
-    <td> <em><a href="">GalaxyAdmins Online Meetup</a></em> </td>
-    <td> <img src="/src/images/icons/World40.png" alt="Online" align="right" /><em>Online</em> </td>
+    <td> <em><a href="/src/community/galaxy-admins/meetups/2016_12_15/index.md">CloudLaunch</a></em> </td>
+    <td> <img src="/src/images/icons/World40.png" alt="Online" align="right" /> <a href="/src/community/galaxy-admins/meetups/2016_12_15/index.md"> GalaxyAdmins Online Meetup</a> <em>Online</em> </td>
     <td> Nuwan Goonasekera and <a href="/src/EnisAfgan">Enis Afgan</a> </td>
   </tr>
   <tr>
@@ -256,6 +220,48 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> Venue/Location </th>
     <th> Contact </th>
     <th> Links </th>
+  </tr>
+  <tr>
+    <th> February 7 </th>
+    <td> <em>Introduction to Galaxy Workshop</em> </td>
+    <td> <img src="/src/images/Icons/Asia40.png" alt="Asia" align="right" /><a href="http://www.catholic.ac.kr/">Catholic University of Korea</a>, Seoul, South Korea </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/DaveClements'>Dave Clements</a> </td>
+    <td </td>
+  </tr>
+  <tr>
+    <th> February 6 </th>
+    <td> <em>Globus Genomics and several other cloud-based solution in data storage and management</em> </td>
+    <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> <a href="http://www.mnmconferences.com/NGS-Data-Analysis-and-Informatics-Conference">NGS Data Analysis & Informatics Conference</a>, San Diego, California, United States </td>
+    <td>  <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th> February 6 </th>
+    <td> <em>Introduction to Galaxy Workshop</em> </td>
+    <td> <img src="/src/images/Icons/Asia40.png" alt="Asia" align="right" /> <a href="http://www.kthrd.com/index.do">KTHRD</a>, Daejeon, South Korea </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/DaveClements'>Dave Clements</a> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th> February 4 </th>
+    <td> <strong><a href='http://www.embl-abr.org.au/game2017/conference/#bio'>GAMe 2017 Conference BIO Day</a></strong> </td>
+    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a>, University of Melbourne, Victoria, Australia </td>
+    <td> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
+    <td></td>
+  </tr>
+  <tr>
+    <th> February 5 </th>
+    <td> <strong><a href='http://www.embl-abr.org.au/game2017/conference/#info'>GAMe 2017 Conference INFO Day</a></strong> </td>
+    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a>, University of Melbourne, Victoria, Australia </td>
+    <td> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
+    <td></td>
+  </tr>
+  <tr>
+    <th> February 3 </th>
+    <td> <strong><a href='http://www.embl-abr.org.au/game2017/training-day/'>Researcher Training Day for Life Scientists</a></strong> </td>
+    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a>, University of Melbourne, Victoria, Australia </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
+    <td></td>
   </tr>
   <tr>
     <td colspan=5 style=" background-color: #eef;"> </td>
