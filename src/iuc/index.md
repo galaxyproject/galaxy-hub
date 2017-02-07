@@ -23,12 +23,10 @@ Member | Joined | GitHub
 ------ | ------ | ------
 **Daniel Blankenberg**, Galaxy Team, Penn State University | founding member | [@blankenberg](https://github.com/blankenberg)
 **Dave Bouvier**, Galaxy Team, Penn State University | founding member | [@davebx](https://github.com/davebx)
-**Brad Chapman**, Harvard School of Public Health | founding member | [@chapmanb](https://github.com/chapmanb)
 **Peter Cock**, The James Hutton Institute | founding member | [@peterjc](https://github.com/peterjc)
 **Nate Coraor**, Galaxy Team, Penn State University | founding member | [@natefoo](https://github.com/natefoo)
 **Björn Grüning**, University of Freiburg | founding member | [@bgruening](https://github.com/bgruening)
 **James Johnson**, University of Minnesota | founding member | [@jj-umn](https://github.com/jj-umn)
-**Edward Kirton**, U.S. Department of Energy | founding member |
 **Nicola Soranzo**, Earlham Institute |  Aug 25, 2014 | [@nsoranzo](https://github.com/nsoranzo)
 **Eric Rasche**, Texas A&M University |  Aug 25, 2014 | [@erasche](https://github.com/erasche)
 **Youri Hoogstrate**, Erasmus Universiteit Rotterdam | Oct 7, 2015 | [@yhoogstrate](https://github.com/yhoogstrate)
@@ -37,4 +35,9 @@ Member | Joined | GitHub
 **Anthony Bretaudeau**, GenOuest BioInformatics Platform | May 11, 2016 | [@abretaud](https://github.com/abretaud)
 **Saskia Hiltemann**, Erasmus University Medical Center | Jun 14, 2016 | [@shiltemann](https://github.com/shiltemann)
 **Lance Parsons**, Princeton University | Oct 28, 2016 | [@lparsons](https://github.com/lparsons)
+
+
+Inactive members
+- **Brad Chapman**, Harvard School of Public Health | founding member | [@chapmanb](https://github.com/chapmanb)
+- **Edward Kirton**, U.S. Department of Energy | founding member |
 
