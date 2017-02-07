@@ -24,6 +24,21 @@
       - Tours:
         title: Interactive Tours
         link: https://usegalaxy.org/tours/core.history
+- Support:
+  title: Support
+  links:
+      - BioStar:
+        title: Galaxy BioStar Forum
+        link: https://biostar.usegalaxy.org
+      - Mailing Lists:
+        title: Galaxy Mailing Lists
+        link: mailing-lists
+      - IM:
+        title: Instant Messaging
+        link: https://gitter.im/galaxyproject/Lobby
+- Community:
+  title: Community
+  link: community
 - Deploy:
   title: Deploy & Run
   links:
@@ -48,21 +63,6 @@
       - Codebase:
         title: Contribute
         link: https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING.md
-- Support:
-  title: Support
-  links:
-      - BioStar:
-        title: Galaxy BioStar Forum
-        link: https://biostar.usegalaxy.org
-      - Mailing Lists:
-        title: Galaxy Mailing Lists
-        link: mailing-lists
-      - IM:
-        title: Instant Messaging
-        link: https://gitter.im/galaxyproject/Lobby
-- Community:
-  title: Community
-  link: community
 - Pulse:
   title: Pulse
   links:
