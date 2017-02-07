@@ -1,6 +1,6 @@
 ---
 title: 'GalaxyAdmins February 2017 Meetup'
-date: '02-15-2017'
+date: '02-16-2017'
 tease: 'GalaxyAdmins February 2017 Meetup'
 ---
 <div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
@@ -9,14 +9,15 @@ tease: 'GalaxyAdmins February 2017 Meetup'
 
 |  |  |
 | ---- | ---- |
-| **Date** | 15 February 2017 |
-| **Time** | TBA |
-| **Topic 1** | *TBA* |
-| **Topic&nbsp;2** | *TBA* |
+| **Date** | 16 February 2017 |
+| **Time** | [9:30 pm India Standard Time](http://bit.ly/2kPgfSF). See [your local time](http://bit.ly/2kPgfSF) |
+| **Topic** | *CloudLaunch*  |
+| **Presenters** | Nuwan Goonesekera and [Enis Afgan](/src/enis-afgan/index.md) |
 | **Links** | Online conference room... |
 
 *[GalaxyAdmins](/src/community/galaxy-admins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
+CloudLaunch is an application for launching Galaxy on the Cloud instances. In this talk, an all-new version will be presented. The [new CloudLaunch](https://beta.launch.usegalaxy.org) allows multiple flavors of Galaxy to be deployed, Docker images or applications other than Galaxy. Each application can have its own custom user interface developed to accommodate the specific application needs, which will be demonstrated.
 
 ## Call Technology
 
