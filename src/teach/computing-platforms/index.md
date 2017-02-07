@@ -2,13 +2,6 @@
 autotoc: true
 title: Computing Platforms for Teaching with Galaxy
 ---
-{{> Teach/Header }}
-
-
-
-<div class='right'></div>
-
-{{> Teach/LinkBox }}
 
 Just as [there are many platform choices for using Galaxy](/src/big-picture/choices/index.md), there are many platform choices for training with Galaxy.  This page discusses the different options and plusses and minuses of each.  Options [are summarized below](/src/teach/computing-platforms/index.md#the-bottom-line-which-platform-to-use).
 
