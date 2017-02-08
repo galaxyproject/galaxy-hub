@@ -137,6 +137,10 @@ ms = metalsmith(__dirname)
             pattern: "publications/*/*.md"
             sortBy: "date"
             reverse: true
+        splash:
+            pattern: "splash/*/*.md"
+            sortBy: "date"
+            reverse: true
     .use timer 'metalsmith-collections'
     .use link_to_orig_path
     .use timer 'link_to_orig_path'
