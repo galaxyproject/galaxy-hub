@@ -55,7 +55,7 @@
   title: Community
   link: community
 - Deploy:
-  title: Deploy & Run
+  title: Deploy & Develop
   links:
       - Install:
         title: Get Galaxy
@@ -63,21 +63,15 @@
       - Administer:
         title: Administer Galaxy
         link: admin
-      - RTFD:
-        title: Read the Docs
-        link: https://galaxy.readthedocs.io/en/master/index.html
-- Develop:
-  title: Develop
-  links:
-      - Build Tools:
-        title: Planemo
-        link: https://github.com/galaxyproject/planemo
-      - Tool Shed:
-        title: Publish in the Tool Shed
-        link: toolshed
+      - docs:
+        title: Documentation
+        link: docs
+      - Tools:
+        title: Tools
+        link: tools
       - Codebase:
-        title: Contribute
-        link: https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTING.md
+        title: Develop
+        link: develop
 - Pulse:
   title: Pulse
   links:

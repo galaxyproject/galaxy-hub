@@ -41,7 +41,7 @@ If and when you [setup your own Galaxy instance](/src/admin/get-galaxy/index.md)
 
 # Share Your Deployment Experience
 
-<div class='left'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="120" /></div> 
+<div class='left'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="120" /></div>
 
 The [Galaxy Deployment Catalog](/src/community/deployments/index.md) includes infrastructure and management details on how local Galaxy deployments are installed.  If you have a local deployment, then please [share with the community how you did it](/src/community/deployments/index.md).
 
@@ -59,7 +59,7 @@ This wiki contains a large amount of documentation about using and administering
 
 Galaxy is an open source project.  Anyone can [contribute to the code](/src/develop/index.md).
 
-You can also update the [source code documentation](/src/develop/source-doc/index.md), which is present as [Sphinx / RST](/src/develop/source-doc/index.md) Python docstrings in the code.
+You can also update the [documentation](/src/docs/index.md).
 
 # Events
 
