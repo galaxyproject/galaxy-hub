@@ -97,7 +97,7 @@ If you still want this functionality, you are encouraged to configure your email
 
 ### Action Items
 
-**The first [GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013_11_20/index.md) after the GCC was about followup to this discussion.**
+**The first [GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013-11-20/index.md) after the GCC was about followup to this discussion.**
 
 
 Reference / Wiki

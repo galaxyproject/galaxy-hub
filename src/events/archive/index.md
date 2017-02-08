@@ -19,14 +19,14 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
 <a href='https://mod2016.com/'><img src="/src/images/logos/MontpellierOmicsDays.png" alt="Initiation à l’environnement UNIX et à la plateforme GALAXY" height="70" /></a> &nbsp;
 <a href='http://www.agbt.org/meetings/agbt-general-meeting/'><img src="/src/images/logos/AGBTLogo.jpg" alt="BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)" height="65" /></a> &nbsp;
 <a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'><img src="/src/images/logos/SupAgroMontpelierLogoGreen.jpg" alt="Analyse bioinformatique de séquences sous Galaxy" /></a> &nbsp;
-<a href='/src/community/galaxy-admins/meetups/2016_02_18/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="18 February GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
+<a href='/src/community/galaxy-admins/meetups/2016-02-18/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="18 February GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
 <a href='https://conf.abrf.org/the-galaxy-platform'><img src="/src/images/logos/ABRFLogoSquareSmall.png" alt="(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics" height="70" /></a>
 <a href='https://github.com/galaxyproject/tools-iuc/issues/422'><img src="/src/images/logos/IUC_RADSeq_Hack.png" alt="IUC Contribution Fest - RADSeq Tools and Workflows" height="80" /></a>
 <a href='https://docs.google.com/document/d/1jCp7ic_jh6XfIBgnag9cgAEFBG5wrsIX9je8qj2JDDY/edit'><img src="/src/images/logos/ElixirNoTextLogo.png" alt="/Training and knowledge-exchange for ELIXIR Galaxy service providers" height="80" /></a>
 <a href='http://migale.jouy.inra.fr/?q=formations'><img src="/src/images/logos/MIGALELogo.png" alt='Le cycle "Bioinformatique par la pratique" 2016' height="50" /></a> 
 <a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-rnaseq-sous-galaxy/'><img src="/src/images/logos/eBiogenouestLogo.png" alt="Introduction à l'analyse de données RNAseq sous Galaxy" height="80" /></a> &nbsp;
 <a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src="/src/images/logos/deNBILogo.png" alt="Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies" height="50" /></a> &nbsp;
-<a href='/src/community/galaxy-admins/meetups/2016_04_21/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="21 April GalaxyAdmins Web Meetup: The Galaxy Portal: Accessing Galaxy from Mobile Devices" height="56" /></a> &nbsp;
+<a href='/src/community/galaxy-admins/meetups/2016-04-21/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="21 April GalaxyAdmins Web Meetup: The Galaxy Portal: Accessing Galaxy from Mobile Devices" height="56" /></a> &nbsp;
 <a href='http://icmexico2016.soibio.org/product/icwmexico2016-galaxy-workshop/'><img src="/src/images/logos/SolBio2016.png" alt="Workshop on Galaxy: Practical Course" height="60" /></a> &nbsp;
 <a href='https://biotexcel.com/event/ngs-2016-glasgow/#tab3'><img src="/src/images/logos/GlasgowPolyomics.jpg" alt="NGS Bioinformatics Data Analysis Workshop" height="90" /></a>
 <a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2016'><img src="/src/images/logos/GalaxyWorkshopTokyo2016.png" alt="Galaxy Workshop Tokyo 2016" height="80" /></a> &nbsp;
@@ -38,7 +38,7 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
 <a href='/src/events/asms2016/index.md'><img src="/src/images/logos/ASMSLogo.png" alt="64th ASMS Conference on Mass Spectrometry and Allied Topics" height="80" /></a>
 <a href='http://bioinformatics.ca/workshops/2016/informatics-high-throughput-sequencing-data-2016'><img src="/src/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High-throughput Sequencing Data Workshop" height=80 /></a>
 <a href='https://www.vlsci.org.au/events/new-round-workshops-announced'><img src="/src/images/logos/VLSCILogo.png" alt="GVL and Galaxy Workshops" height="80" /></a>
-<a href='/src/community/galaxy-admins/meetups/2016_06_16/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="16 June GalaxyAdmins Web Meetup" height="60" /></a>
+<a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="16 June GalaxyAdmins Web Meetup" height="60" /></a>
 <a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Jun16.html'><img src="/src/images/logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="80" /></a>
 &nbsp;&nbsp;&nbsp; 
 <a href='https://gcc2016.iu.edu/index.php'><img src="/src/images/logos/GCC2016LogoBig.png" alt="2016 Galaxy Community Conference (GCC2016)" height="100" /></a> &nbsp;&nbsp;&nbsp; 
@@ -51,7 +51,7 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
 <a href='http://icbo.cgrb.oregonstate.edu/node/41'><img src="/src/images/logos/ICBO_joint.png" alt="Integrating Ontological and Genomic Analysis with Galaxy Workshop @ ICBO" height="70" /></a> &nbsp;&nbsp;
 <a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Aug16.html'><img src="/src/images/logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="80" /></a>
 &nbsp;&nbsp;&nbsp; 
-<a href='/src/community/galaxy-admins/meetups/2016_08_18/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" height="60" /></a>
+<a href='/src/community/galaxy-admins/meetups/2016-08-18/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" height="60" /></a>
 <a href='https://registration.genomecenter.ucdavis.edu/events/Aug_2016_Bioinformatics_Galaxy_Workshop/'><img src="/src/images/logos/UCDavisGenomeCenter_Bioinf.png" alt="Using Galaxy for Analysis of RNA-Seq, Exome-Seq, and Variants" height="70" /></a>
 <a href='/src/events/eccb2016/index.md'><img src="/src/images/logos/ECCB2016LogoSquare.jpg" alt="Galaxy @ ECCB 2016" height="80" /></a>
 <a href='http://sites.unica.it/metabolomicaclinica/events/scientific-school-2016/'><img src="/src/images/logos/UCagliariLogoTrans.png" alt="Metabolomics Sardinian Scientific School: How to bridge metabolomics and genomics" height="85" /></a>
@@ -66,7 +66,7 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
 <a href='http://www.igst.it/nettab/2016/'><img src="/src/images/logos/NETTAB.gif" alt="Galaxy @ NETTAB 2016" height="60" /></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href='/src/events/admin-training2016/index.md'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="120" /></a>
-<a href='/src/community/galaxy-admins/meetups/2016_12_15/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="15 December GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
+<a href='/src/community/galaxy-admins/meetups/2016-12-15/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="15 December GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
 </div>
 <br />
 
@@ -94,8 +94,8 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
   </tr>
   <tr>
      <th class="th" > December 15 </th>
-     <td> <em><a href="/src/community/galaxy-admins/meetups/2016_12_15/index.md"> Galaxy Training Materials / The new Galaxy Community Hub: Community creation, curation, and use</a></em> </td>
-     <td> <img src="/src/images/icons/World40.png" alt="Online" align="right" /> <a href="/src/community/galaxy-admins/meetups/2016_12_15/index.md">GalaxyAdmins Meetup, <em>Online</em></a> </td>
+     <td> <em><a href="/src/community/galaxy-admins/meetups/2016-12-15/index.md"> Galaxy Training Materials / The new Galaxy Community Hub: Community creation, curation, and use</a></em> </td>
+     <td> <img src="/src/images/icons/World40.png" alt="Online" align="right" /> <a href="/src/community/galaxy-admins/meetups/2016-12-15/index.md">GalaxyAdmins Meetup, <em>Online</em></a> </td>
      <td> <a href="http://galaxy.uni-freiburg.de"> Björn Grüning, Bérénice Batut</a>, <a href="/src/dannon-baker/">Dannon Baker</a> </td>
      <td> </td>
   </tr>   
@@ -422,10 +422,10 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
   </tr>
   <tr>
     <th> August 18 </th>
-    <td> <a href='/src/community/galaxy-admins/meetups/2016_08_18/index.md'>GalaxyAdmins Web Meetup</a> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' />  <em><a href='/src/community/galaxy-admins/meetups/2016_08_18/index.md'>Online</a></em> </td>
+    <td> <a href='/src/community/galaxy-admins/meetups/2016-08-18/index.md'>GalaxyAdmins Web Meetup</a> </td>
+    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' />  <em><a href='/src/community/galaxy-admins/meetups/2016-08-18/index.md'>Online</a></em> </td>
     <td> <a href='https://engineering.nd.edu/profiles/nhazekamp'>Nick Hazekamp</a>, <a href='/src/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2016_08_18/index.md'>Slides</a> </td>
+    <td> <a href='/src/community/galaxy-admins/meetups/2016-08-18/index.md'>Slides</a> </td>
   </tr>
   <tr>
     <th> August 17 </th>
@@ -568,10 +568,10 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
   </tr>
   <tr>
     <th> June 16 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2016_06_16/index.md'>Galaxy in Production at the University of Minnesota</a></em> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2016_06_16/index.md'>GalaxyAdmins Web Meetup</a>, <em><a href='/src/community/galaxy-admins/meetups/2016_06_16/index.md'>Online</a></em> </td>
+    <td> <em><a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>Galaxy in Production at the University of Minnesota</a></em> </td>
+    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>GalaxyAdmins Web Meetup</a>, <em><a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>Online</a></em> </td>
     <td> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a>, <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a>, <a href='/src/eric-rasche/index.md'>Eric Rasche</a>, <a href='/src/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2016_06_16/index.md'>Slides</a> </td>
+    <td> <a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>Slides</a> </td>
   </tr>
   <tr>
     <th> June 15 </th>
@@ -749,8 +749,8 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
   </tr>
   <tr>
     <th> April 21 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2016_04_21/index.md'>The Galaxy Portal: Accessing Galaxy from Mobile Devices</a></em> and <em><a href='/src/community/galaxy-admins/meetups/2016_04_21/index.md'>Tool Development Developments</a></em> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2016_04_21/index.md'>GalaxyAdmins Web Meetup</a>, <em><a href='/src/community/galaxy-admins/meetups/2016_04_21/index.md'>Online</a></em> </td>
+    <td> <em><a href='/src/community/galaxy-admins/meetups/2016-04-21/index.md'>The Galaxy Portal: Accessing Galaxy from Mobile Devices</a></em> and <em><a href='/src/community/galaxy-admins/meetups/2016-04-21/index.md'>Tool Development Developments</a></em> </td>
+    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2016-04-21/index.md'>GalaxyAdmins Web Meetup</a>, <em><a href='/src/community/galaxy-admins/meetups/2016-04-21/index.md'>Online</a></em> </td>
     <td> <a href='http://www.mn.uio.no/ifi/english/people/aca/ivargry/'>Ivar Grytten</a>, <a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/'>Geir Kjetil Sandve</a>, <a href='/src/john-chilton/index.md'>John Chilton</a>, <a href='/src/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> </td>
     <td> </td>
   </tr>
@@ -876,8 +876,8 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
   </tr>
   <tr>
     <th> February 18 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2016_02_18/index.md'>GalaxyAdmins Web Meetup</a></em> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <em><a href='/src/community/galaxy-admins/meetups/2016_02_18/index.md'>Online</a></em> </td>
+    <td> <em><a href='/src/community/galaxy-admins/meetups/2016-02-18/index.md'>GalaxyAdmins Web Meetup</a></em> </td>
+    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <em><a href='/src/community/galaxy-admins/meetups/2016-02-18/index.md'>Online</a></em> </td>
     <td> <a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='/src/nate/index.md'>Nate Coraor</a>,<a href='/src/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
     <td> </td>
   </tr>
@@ -972,7 +972,7 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
 <a href='http://www.vibconferences.be/event/revolutionizing-next-generation-sequencing-tools-and-technologies'><img src="/src/images/logos/VIBLogoBig.jpg" alt="Revolutionizing Next-Generation Sequencing: Tools and Technologies" height="75" /></a> &nbsp;
 <a href='/src/events/meetups/baltimore/2015-01-22/index.md'><img src="/src/events/meetups/baltimore/GalaxyBaltimoreMeetupLogo400.png" alt="January 22 Galaxy Baltimore Meetup" height="56" /></a> &nbsp;
 <a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'><img src="/src/images/logos/SupAgroMontpelierLogoGreen.jpg" alt="Analyse bioinformatique de séquences sous Galaxy" height="60" /></a> &nbsp;
-<a href='/src/community/galaxy-admins/meetups/2015_02_19/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="19 February GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
+<a href='/src/community/galaxy-admins/meetups/2015-02-19/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="19 February GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
 <a href='/src/events/meetups/baltimore/2015-02-18/index.md'><img src="/src/events/meetups/baltimore/GalaxyBaltimoreMeetupLogo400.png" alt="February 18 Galaxy Baltimore Meetup" height="56" /></a> &nbsp;
 <a href='http://www3.i-med.ac.at/genepi/media/2015-26-06-AFGAN-seminar-announcement.pdf'><img src="/src/images/logos/MedicalUniversityInnsbruck.jpg" alt="Democratizing the ability to analyze genomic data" height="80" /></a>
 <a href='http://www.bioplatforms.com.au/training/314-variant-detection-feb-2015'><img src="/src/images/logos/USydneyLogo300.jpg" alt="Variant Detection Using Galaxy" height="60" /></a>
@@ -982,7 +982,7 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
 <a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy-4/'><img src="/src/images/logos/PerkinsInstitute.png" alt="Workshop: Variant detection using Galaxy" height="65" /></a>
 <a href='https://www.e-biogenouest.org/events/details/45/'><img src="/src/images/logos/eBiogenouestLogo.png" alt="Fourth GUGGO meeting" height="80" /></a> &nbsp;
 <a href='http://training.bioinformatics.ucdavis.edu/2015/01/12/rna-seq-and-chip-seq-analysis-with-galaxy/'><img src="/src/images/logos/UCDavisGenomeCenter.png" alt="RNA-Seq and ChIP-Seq Analysis with Galaxy" height="50" /></a> &nbsp;
-<a href='/src/community/galaxy-admins/meetups/2015_04_16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="16 April GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
+<a href='/src/community/galaxy-admins/meetups/2015-04-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="16 April GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
 <a href='http://go4bioinformatics.genouest.org/initiation-a-la-plateforme-web-danalyse-de-donnees-galaxy-lanalyse-de-donnees-biologiques-pour-tous/'><img src="/src/images/logos/eBiogenouestLogo.png" alt="Initiation à la plateforme web GALAXY" height="80" /></a> &nbsp;
 <a href='http://www.qfab.org/events/upcoming/'><img src="/src/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
 <a href='http://www.bio-itworldexpo.com/'><img src="/src/images/logos/Bio-ITWorld2015.jpg" alt="Bio-IT World 2015" height="60" /></a>
@@ -996,13 +996,13 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
 <a href='/src/events/asms2015/index.md'><img src="/src/images/logos/ASMSLogo.png" alt="63rd ASMS Conference on Mass Spectrometry and Allied Topics" height="80" /></a>
 <a href='http://migale.jouy.inra.fr/?q=formations'><img src="/src/images/logos/MIGALELogo.png" alt="Cycle "Bioinformatique par la pratique" 2015" height="70" /></a> 
 <a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-2/'><img src="/src/images/logos/QFABLogo.png" alt="Workshop: RNA-Seq analysis using Galaxy" height="80" /></a> &nbsp;
-<a href='/src/community/galaxy-admins/meetups/2015_06_18/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="18 June GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
+<a href='/src/community/galaxy-admins/meetups/2015-06-18/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="18 June GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
 <a href='https://www.rcpa.edu.au/Events/Event-Details/2015/June/SCourse-Medical-Genetics-and-Genetic-Pathology'><img src="/src/images/logos/RCPALogo.jpg" alt="Short Course in Medical Genetics and Genetic Pathology 2015" height="60" /></a>
 <a href='http://go4bioinformatics.genouest.org/initiation-a-la-plateforme-web-danalyse-de-donnees-galaxy-lanalyse-de-donnees-biologiques-pour-tous/'><img src="/src/images/logos/eBiogenouestLogo.png" alt="Initiation à la plateforme web GALAXY" height="80" /></a> &nbsp;
 &nbsp;&nbsp; <a href='http://gcc2015.tsl.ac.uk/'><img src="/src/images/logos/GCC2015LogoSimple300.png" alt="2015 Galaxy Community Conference (GCC2015)" height="90" /></a> &nbsp;&nbsp;
 <a href='/src/events/ismb2015/index.md'><img src="/src/images/logos/BOSC_logo.png" alt="BOSC 2015" height="80" /></a>&nbsp;
 <a href='/src/events/ismb2015/index.md'><img src="/src/images/logos/ISMB-ECCB_2015_Logo.jpg" alt="ISMB ECCB 2015" height="90" /></a>
-<a href='/src/community/galaxy-admins/meetups/2015_08_20/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="20 August GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
+<a href='/src/community/galaxy-admins/meetups/2015-08-20/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="20 August GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
 <a href='http://escience2015.mnm-team.org/?page_id=463'><img src="/src/images/logos/eScience2015.png" alt="Scaling Up Bioinformatics Workflows with Dynamic Job Expansion: A Case Study Using Galaxy and Makeflow @ IEEE eScience 2015" height="65" /></a> &nbsp;
 <a href='http://biosb.nl/education/course-portfolio/rna-seq/'><img src="/src/images/logos/BioSBResearchSchool.png" alt="RNA-seq data analysis NGS Course" height="80" /></a>
 <a href='http://go4bioinformatics.genouest.org/initiation-a-la-plateforme-web-danalyse-de-donnees-galaxy-lanalyse-de-donnees-biologiques-pour-tous/'><img src="/src/images/logos/eBiogenouestLogo.png" alt="Initiation à la plateforme web GALAXY" height="80" /></a> &nbsp;
@@ -1012,7 +1012,7 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
 <a href='https://peerj.com/preprints/1350.pdf#page=33'><img src="/src/images/logos/GCB_2015.png" alt="TRAPLINE: An Integrated Galaxy Pipeline for RNAseq Data Processing, Evaluation and Prediction" height="80" /></a>
 <a href='http://biosb.nl/events/course-next-generation-sequencing-ngs-data-analysis-2015/'><img src="/src/images/logos/UMCGWithText.jpg" alt="Next generation sequencing (NGS) data analysis" height=80 /></a>
 <a href='https://cnrsformation.cnrs.fr/stage.php?stage=15274&axe=77'><img src="/src/images/logos/CGFB_bioinformatics.png" alt="Analyse avancée de séquences" height="80" /></a>
-<a href='/src/community/galaxy-admins/meetups/2015_10_15/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="October Galaxy Admins Meetup" height="70" /></a>
+<a href='/src/community/galaxy-admins/meetups/2015-10-15/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="October Galaxy Admins Meetup" height="70" /></a>
 <a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-4/'><img src="/src/images/logos/QFABLogo.png" alt="Workshop: Extended RNA-Seq analysis" height="80" /></a>
 <a href='http://meetings.cshl.edu/meetings.aspx?meet=INFO&year=15'><img src="/src/images/logos/CSHLLogo.jpg" alt="6 Galaxy related posters @ Genome Informatics 2015" height="70" /></a>&nbsp;&nbsp;
 <a href='http://www.festivalofgenomicscalifornia.com/'><img src="/src/images/logos/FestivalOfGenomicsCaliforniaLogo.png" alt="3 Workshop: Galaxy for the Analysis of Very Large Biomedical Data; Common Workflow Language on Galaxy, Part of Portable Bioinformatics; Single-Cell Sequencing: Analysis & Visualization of Copy Number Variations" height="60" /></a> &nbsp;&nbsp;
@@ -1221,10 +1221,10 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
   </tr>
   <tr>
     <th> October 15 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2015_10_15/index.md'>October Galaxy Admins Meetup</a></em> </td>
+    <td> <em><a href='/src/community/galaxy-admins/meetups/2015-10-15/index.md'>October Galaxy Admins Meetup</a></em> </td>
     <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <em>Online</em> </td>
     <td> <a href='https://www.linkedin.com/in/davidkovalic'>David Kovalic</a>, <a href='/src/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2015_10_15/index.md'>Video, Slides</a> </td>
+    <td> <a href='/src/community/galaxy-admins/meetups/2015-10-15/index.md'>Video, Slides</a> </td>
   </tr>
   <tr>
     <th> October 14 </th>
@@ -1390,10 +1390,10 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
   </tr>
   <tr>
     <th> August 20 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2015_08_20/index.md'>Genomic data management at Canada's National Microbiology Laboratory with IRIDA and Galaxy</a></em> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2015_08_20/index.md'>August 2015 GalaxyAdmins Web Meetup</a>, <em>Online</em> </td>
+    <td> <em><a href='/src/community/galaxy-admins/meetups/2015-08-20/index.md'>Genomic data management at Canada's National Microbiology Laboratory with IRIDA and Galaxy</a></em> </td>
+    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2015-08-20/index.md'>August 2015 GalaxyAdmins Web Meetup</a>, <em>Online</em> </td>
     <td> <a href='/src/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='https://github.com/apetkau'>Aaron Petkau</a> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2015_08_20/index.md'>Slides, Video</a> </td>
+    <td> <a href='/src/community/galaxy-admins/meetups/2015-08-20/index.md'>Slides, Video</a> </td>
   </tr>
   <tr>
     <th> August 10 </th>
@@ -1560,10 +1560,10 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
   </tr>
   <tr>
     <th> June 18 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2015_06_18/index.md'>Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester</a></em> </td>
-    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2015_06_18/index.md'>June 2015 GalaxyAdmins Web Meetup</a>, <em>Online</em> </td>
+    <td> <em><a href='/src/community/galaxy-admins/meetups/2015-06-18/index.md'>Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester</a></em> </td>
+    <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2015-06-18/index.md'>June 2015 GalaxyAdmins Web Meetup</a>, <em>Online</em> </td>
     <td> <a href='http://galacticengineer.blogspot.co.uk/'>Peter Briggs</a>, <a href='/src/john-chilton/index.md'>John Chilton</a>, <a href='/src/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2015_06_18/index.md'>Slides</a> </td>
+    <td> <a href='/src/community/galaxy-admins/meetups/2015-06-18/index.md'>Slides</a> </td>
   </tr>
   <tr>
     <th> June 16 </th>
@@ -1794,10 +1794,10 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
   </tr>
   <tr>
     <th> April 16 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2015_04_16/index.md'>GalaxyAdmins April 2015 Meetup</a></em> </td>
+    <td> <em><a href='/src/community/galaxy-admins/meetups/2015-04-16/index.md'>GalaxyAdmins April 2015 Meetup</a></em> </td>
     <td> <em>Online</em> </td>
     <td> <a href='/src/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/dave-clements/index.md'>Dave Clements</a>, Carrie Ganote, <a href='/src/guerler/index.md'>Aysam Guerler</a> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2015_04_16/index.md'>Slides, video</a> </td>
+    <td> <a href='/src/community/galaxy-admins/meetups/2015-04-16/index.md'>Slides, video</a> </td>
   </tr>
   <tr>
     <th> April 14-15 </th>
@@ -1996,10 +1996,10 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
   </tr>
   <tr>
     <th> February 19 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2015_02_19/index.md'>February 2015 GalaxyAdmins Web Meetup</a></em> </td>
+    <td> <em><a href='/src/community/galaxy-admins/meetups/2015-02-19/index.md'>February 2015 GalaxyAdmins Web Meetup</a></em> </td>
     <td> <em>Online</em> </td>
     <td> <a href='/src/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2015_02_19/index.md'>Slides, Video</a> </td>
+    <td> <a href='/src/community/galaxy-admins/meetups/2015-02-19/index.md'>Slides, Video</a> </td>
   </tr>
   <tr>
     <th> February 18 </th>
@@ -3168,9 +3168,9 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
   </tr>
   <tr>
     <th> November 20 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2013_11_20/index.md'>November GalaxyAdmins Meetup</a></em> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2013_11_20/index.md'>Online</a> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2013_11_20/index.md'>Slides, Screencast</a> </td>
+    <td> <em><a href='/src/community/galaxy-admins/meetups/2013-11-20/index.md'>November GalaxyAdmins Meetup</a></em> </td>
+    <td> <a href='/src/community/galaxy-admins/meetups/2013-11-20/index.md'>Online</a> </td>
+    <td> <a href='/src/community/galaxy-admins/meetups/2013-11-20/index.md'>Slides, Screencast</a> </td>
     <td> <a href='/src/dave-clements/index.md'>Dave Clements</a>, Srinivas Maddhi, <a href='/src/nate/index.md'>Nate Coraor</a> </td>
   </tr>
   <tr>
@@ -3723,9 +3723,9 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
   </tr>
   <tr>
     <th> May 15 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2013_05_15/index.md'>GalaxyAdmins May 2013 Meetup</a></em> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2013_05_15/index.md'>GalaxyAdmins web meetup</a> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2013_05_15/index.md'>Slides, screencast</a> </td>
+    <td> <em><a href='/src/community/galaxy-admins/meetups/2013-05-15/index.md'>GalaxyAdmins May 2013 Meetup</a></em> </td>
+    <td> <a href='/src/community/galaxy-admins/meetups/2013-05-15/index.md'>GalaxyAdmins web meetup</a> </td>
+    <td> <a href='/src/community/galaxy-admins/meetups/2013-05-15/index.md'>Slides, screencast</a> </td>
     <td> Andrew Warren, Srinivas Maddhi, <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
@@ -3853,9 +3853,9 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
   </tr>
   <tr>
     <th> March 20 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2013_03_20/index.md'>NBIC Galaxy at SURFsara's HPC cloud</a></em> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2013_03_20/index.md'>GalaxyAdmins web meetup</a> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2013_03_20/index.md'>Slides, Screencast</a> </td>
+    <td> <em><a href='/src/community/galaxy-admins/meetups/2013-03-20/index.md'>NBIC Galaxy at SURFsara's HPC cloud</a></em> </td>
+    <td> <a href='/src/community/galaxy-admins/meetups/2013-03-20/index.md'>GalaxyAdmins web meetup</a> </td>
+    <td> <a href='/src/community/galaxy-admins/meetups/2013-03-20/index.md'>Slides, Screencast</a> </td>
     <td> <a href="mailto:hailiang DOT mei AT nbic DOT nl">Hailiang Leon Mei</a>,<a href="mailto:david.van.enckevort@nbic.nl">David van Enckevort</a> </td>
   </tr>
   <tr>
@@ -3928,8 +3928,8 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
   </tr>
   <tr>
     <th> January 16 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2013_01_16/index.md'>Deploying Production Galaxy Environments on OpenStack with CloudBioLinux and CloudMan</a></em> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2013_01_16/index.md'>January GalaxyAdmins Web Meetup</a> </td>
+    <td> <em><a href='/src/community/galaxy-admins/meetups/2013-01-16/index.md'>Deploying Production Galaxy Environments on OpenStack with CloudBioLinux and CloudMan</a></em> </td>
+    <td> <a href='/src/community/galaxy-admins/meetups/2013-01-16/index.md'>January GalaxyAdmins Web Meetup</a> </td>
     <td> <a href='http://bitly.com/prodcloudman-slides'>Slides</a><br /> <a href='http://bitly.com/prodcloudman'>Related Documentation</a><br /> <a href='https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262341808106_1358350669920'>Video</a> </td>
     <td> <a href='https://www.msi.umn.edu/users/chilton'>John Chilton</a>, Srinivas Maddhi, <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
@@ -4004,9 +4004,9 @@ Listing of Galaxy events from previous years. See the main [Events](/src/events/
   </tr>
   <tr>
     <th> November 14 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2012_11_14/index.md'>Deploying Galaxy on a Shared-Node Cluster at UAB</a></em> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2012_11_14/index.md'>Galaxy Admins November Web Meetup</a> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2012_11_14/index.md'>Slides, screencast</a> </td>
+    <td> <em><a href='/src/community/galaxy-admins/meetups/2012-11-14/index.md'>Deploying Galaxy on a Shared-Node Cluster at UAB</a></em> </td>
+    <td> <a href='/src/community/galaxy-admins/meetups/2012-11-14/index.md'>Galaxy Admins November Web Meetup</a> </td>
+    <td> <a href='/src/community/galaxy-admins/meetups/2012-11-14/index.md'>Slides, screencast</a> </td>
     <td> Curtis Hendrickson, Srinivas Maddhi </td>
   </tr>
   <tr>

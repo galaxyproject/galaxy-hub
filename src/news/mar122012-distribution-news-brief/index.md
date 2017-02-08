@@ -1,7 +1,7 @@
 <div class='newsItemHeader'>[March 12, 2012 Distribution & News Brief](/src/news/Mar122012 Distribution News Brief/index.md)</div>
 
 
-**Complete [News Brief](/src/dev-news-briefs/2012_03_12/index.md)**
+**Complete [News Brief](/src/dev-news-briefs/2012-03-12/index.md)**
 
 **Highlights:**
 <div class='right'><a href='/src/learn/visualization/index.md'><img src="/src/images/news-graphics/2012_03_12_trackster-encode.png" alt="trackster-encode" width="180px" /></a></div>

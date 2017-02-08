@@ -6,7 +6,7 @@
 
 This is the most complete update of the Galaxy on the Cloud platform to date with all the cloud components being built from the ground up. The following is a summary of the major changes:
 
-* *Galaxy on the Cloud*: all new galaxy and indices file systems, with [Galaxy 15.07 release](/src/news/2015_07-galaxy-release/index.md), [~200 preinstalled Galaxy tools](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/shed_tool_list.yaml), and nearly half a terrabyte of updated reference genome data.
+* *Galaxy on the Cloud*: all new galaxy and indices file systems, with [Galaxy 15.07 release](/src/news/2015-07-galaxy-release/index.md), [~200 preinstalled Galaxy tools](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/shed_tool_list.yaml), and nearly half a terrabyte of updated reference genome data.
 * *Galaxy on the Cloud*: switched to a different Cloud Launch application, available at https://launch.usegalaxy.org/
 * *Galaxy on the Cloud*: Integrated Galaxy IPython Interactive Environments
 * CloudMan: Creating cluster shares is now fast (~30 seconds vs. hours)
