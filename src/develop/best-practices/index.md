@@ -25,7 +25,7 @@ Lists software development best practices for the Galaxy Project. These are work
 1. Use spaces, not tabs for indenting.
 1. Comments and documentation comments should follow the 79 character rule
 1. One other common divergence from PEP-8 is line length.  Logical (non-comment) lines should be formatted for readability, recognizing the existence of wide screens and scrollbars (sometimes a 200 character line is more readable, though rarely).
-1. [Python docstrings](http://www.python.org/dev/peps/pep-0257/) need to be [reStructured Text (RST)](http://sphinx-doc.org/rest.html) and [Sphinx markup](http://sphinx-doc.org/markup/index.html) compatible. See [Develop/SourceDoc](/src/develop/source-doc/index.md) for more.
+1. [Python docstrings](http://www.python.org/dev/peps/pep-0257/) need to be [reStructured Text (RST)](http://sphinx-doc.org/rest.html) and [Sphinx markup](http://sphinx-doc.org/markup/index.html) compatible. See [Docs](/src/docs/index.md) for more.
 1. Avoid `from module import *`. It can cause name collisions that are tedious to track down.
 
 # JavaScript Standards

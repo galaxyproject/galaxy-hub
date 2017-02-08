@@ -1,13 +1,10 @@
-{{> Admin/LinkBox }}
-{{> Develop/LinkBox }}
-{{> Admin/Tools/LinkBox }}
 # Galaxy Tools
 
 A hub page for [administration](/src/admin/index.md) of computational tools within Galaxy framework.
 
 ## Intro
 
-When you install and run fresh Galaxy you will have just a few basic tools installed (mostly for text manipulation). To make the most of your instance you probably want more. 
+When you install and run fresh Galaxy you will have just a few basic tools installed (mostly for text manipulation). To make the most of your instance you probably want more.
 
 There are two ways how to gets a tool into Galaxy:
 1. Installing it from the Tool Shed
