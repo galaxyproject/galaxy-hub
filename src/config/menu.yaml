@@ -27,15 +27,18 @@
 - Teach:
   title: Teach
   links:
+      - GTN:
+        title: Galaxy Training Network
+        link: teach/gtn
       - Trainers:
         title: Trainer Directory
-        link: teach/trainers/
+        link: teach/trainers
       - Platform:
         title: Compute Platform Advice
-        link: teach/computing-platforms/
+        link: teach/computing-platforms
       - BP:
         title: Best Practices
-        link: teach/best-practices/
+        link: teach/best-practices
 - Support:
   title: Support
   links:
