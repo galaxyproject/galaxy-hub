@@ -13,7 +13,7 @@ This page describes where to find the doc, how to generate it, and how to update
 
 <div class='right'><a href='http://readthedocs.org'><img src="/src/images/logos/ReadTheDocsLogo.png" alt="Read the Docs"  /></a></div>
 
-The Galaxy Project publishes two versions of the Galaxy source code documentation.  Both versions are hosted at [Read the Docs](http://readthedocs.org) a [publicly supported](https://docs.readthedocs.org/en/latest/sponsors.html) site for project documentation.  Galaxy started publishing these two versions with the [November 14, 2012 distribution](/src/dev-news-briefs/2012_11_14/index.md).
+The Galaxy Project publishes two versions of the Galaxy source code documentation.  Both versions are hosted at [Read the Docs](http://readthedocs.org) a [publicly supported](https://docs.readthedocs.org/en/latest/sponsors.html) site for project documentation.  Galaxy started publishing these two versions with the [November 14, 2012 distribution](/src/dev-news-briefs/2012-11-14/index.md).
 
 <div class='right'><a href='http://galaxy-dist.readthedocs.org'><img src="/src/images/news-graphics/2012_11_14_dist-readthedocs.png" alt="Galaxy-Dist at ReadTheDocs" width="250" /></a></div>
 

@@ -4,27 +4,27 @@
 
 ### 2016
 
-* [November & December 2016](/src/toolshed/contributions/2016_12/index.md)
-* [October 2016](/src/toolshed/contributions/2016_10/index.md)
-* [September 2016](/src/toolshed/contributions/2016_09/index.md)
-* [August 2016](/src/toolshed/contributions/2016_08/index.md)
-* [June & July 2016](/src/toolshed/contributions/2016_07/index.md)
-* [April & May 2016](/src/toolshed/contributions/2016_05/index.md)
-* [March 2016](/src/toolshed/contributions/2016_03/index.md)
-* [February 2016](/src/toolshed/contributions/2016_02/index.md)
-* [January 2016](/src/toolshed/contributions/2016_01/index.md)
+* [November & December 2016](/src/toolshed/contributions/2016-12/index.md)
+* [October 2016](/src/toolshed/contributions/2016-10/index.md)
+* [September 2016](/src/toolshed/contributions/2016-09/index.md)
+* [August 2016](/src/toolshed/contributions/2016-08/index.md)
+* [June & July 2016](/src/toolshed/contributions/2016-07/index.md)
+* [April & May 2016](/src/toolshed/contributions/2016-05/index.md)
+* [March 2016](/src/toolshed/contributions/2016-03/index.md)
+* [February 2016](/src/toolshed/contributions/2016-02/index.md)
+* [January 2016](/src/toolshed/contributions/2016-01/index.md)
 
 ### 2015
 
-* [December 2015](/src/toolshed/contributions/2015_12/index.md)
-* [October & November 2015](/src/toolshed/contributions/2015_11/index.md)
-* [September 2015](/src/toolshed/contributions/2015_09/index.md)
-* [August 2015](/src/toolshed/contributions/2015_08/index.md)
-* [June & July 2015](/src/toolshed/contributions/2015_07/index.md)
-* [May 2015](/src/toolshed/contributions/2015_05/index.md)
-* [April 2015](/src/toolshed/contributions/2015_04/index.md)
+* [December 2015](/src/toolshed/contributions/2015-12/index.md)
+* [October & November 2015](/src/toolshed/contributions/2015-11/index.md)
+* [September 2015](/src/toolshed/contributions/2015-09/index.md)
+* [August 2015](/src/toolshed/contributions/2015-08/index.md)
+* [June & July 2015](/src/toolshed/contributions/2015-07/index.md)
+* [May 2015](/src/toolshed/contributions/2015-05/index.md)
+* [April 2015](/src/toolshed/contributions/2015-04/index.md)
 
 ### 2014
 
-* [December 2014](/src/toolshed/contributions/2014_12/index.md)
+* [December 2014](/src/toolshed/contributions/2014-12/index.md)
 

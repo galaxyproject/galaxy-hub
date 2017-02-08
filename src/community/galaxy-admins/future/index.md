@@ -18,7 +18,7 @@ The GalaxyAdmins group came out of an email from Ann Black-Zeigelbein at the Uni
 
 Ann led the group through the September meetup.  Starting with the November 2012 meetup, the group has been led by Srinivas Maddhi, also at the University of Iowa. Dave Clements has provided assistance to the group, and starting with the January 2013 meetup, a Galaxy Team rep has also provided a short project update at each meetup.
 
-The group's **[current goals](/src/community/galaxy-admins/meetups/2012_07_09/index.md#goals)** were established at the first meetup:
+The group's **[current goals](/src/community/galaxy-admins/meetups/2012-07-09/index.md#goals)** were established at the first meetup:
 
 1. Build a community
 1. Learn from each other.
