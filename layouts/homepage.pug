@@ -3,7 +3,20 @@ extends layout.pug
 block content
     section.section-content
         div.row
-            div.col-sm-12 !{ contents }
+            div.col-sm-12
+                div.carousel.slide(data-ride="carousel" id="splash-box")
+                    div.carousel-inner(role="listbox")
+                        div.item.carousel-item.active
+                            | !{splash[0].contents}
+                        each item in splash.slice(1,5)
+                            div.item.carousel-item
+                                | !{item.contents}
+                    a.carousel-control-prev(href="#carouselExampleControls" role="button" data-slide="prev")
+                        span.carousel-control-prev-icon( aria-hidden="true")
+                        span.sr-only: Previous
+                    a.carousel-control-next(href="#carouselExampleControls" role="button" data-slide="next")
+                        span.carousel-control-prev-icon( aria-hidden="true")
+                        span.sr-only: Next
         div.row
             div.col-sm-4
                 h2: a( href="/news/" ) News
