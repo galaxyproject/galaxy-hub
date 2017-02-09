@@ -3,7 +3,7 @@
 ----
 [Get Galaxy](/src/admin/get-galaxy/index.md)<br />
 [Config](/src/admin/config/index.md)<br />
-[Tools](/src/admin/tools/index.md)<br />
+[Tools](/src/tools/index.md)<br />
 [Tool Shed](/src/toolshed/index.md)<br />
 [Data Libs](/src/admin/data-libraries/index.md)<br />
 [Datatypes](/src/admin/datatypes/index.md)<br />

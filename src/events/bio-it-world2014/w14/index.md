@@ -261,7 +261,7 @@ Reload the Galaxy interface if your 3rd party cookies were not previously enable
 
 ### References
 
-* [Tools hub page](/src/admin/tools/index.md)
+* [Tools hub page](/src/tools/index.md)
 * [Tutorial on adding custom tools](/src/admin/tools/add-tool-tutorial/index.md)
 * [Tutorial on installing tools from the Tool Shed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
 * [Current tools/ directory](https://bitbucket.org/galaxy/galaxy-central/src/3b42725359224832317a066d95dff596f93ab33f/tools?at=stable)
@@ -619,7 +619,7 @@ ubuntu@bioit:~$ sudo update-rc.d -f uwsgi remove
    /etc/rc4.d/S20uwsgi
    /etc/rc5.d/S20uwsgi
    /etc/rc6.d/K20uwsgi
-ubuntu@bioit:~$ 
+ubuntu@bioit:~$
 ```
 
 

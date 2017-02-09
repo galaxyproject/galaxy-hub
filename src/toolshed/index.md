@@ -4,7 +4,7 @@ autotoc: true
 
 # The Galaxy Tool Shed
 
-Runs at [http://toolshed.g2.bx.psu.edu](http://toolshed.g2.bx.psu.edu) and serves as an appstore to all Galaxies worldwide. It is a **free service** that hosts repositories containing [Galaxy Tools](/src/admin/tools/index.md), [Galaxy Data Managers](/src/admin/tools/data-managers/index.md), custom [Galaxy Datatypes](/src/admin/datatypes/index.md), and exported [Galaxy Workflows](/src/learn/advanced-workflow/index.md).
+Runs at [http://toolshed.g2.bx.psu.edu](http://toolshed.g2.bx.psu.edu) and serves as an appstore to all Galaxies worldwide. It is a **free service** that hosts repositories containing [Galaxy Tools](/src/tools/index.md), [Galaxy Data Managers](/src/admin/tools/data-managers/index.md), custom [Galaxy Datatypes](/src/admin/datatypes/index.md), and exported [Galaxy Workflows](/src/learn/advanced-workflow/index.md).
 
 ## Introduction
 
