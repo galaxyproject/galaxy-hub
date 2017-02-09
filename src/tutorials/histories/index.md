@@ -3,15 +3,9 @@ autotoc: true
 title: Histories
 ---
 
-
-{{> Learn/LinkBox }}
-<div class='left'></div>
-
 When data is uploaded from your computer or analysis is done on existing data using Galaxy, each output from those steps
 generates a dataset. These datasets (and the output datasets from later analysis on them) are stored by Galaxy in
 **Histories**.
-
-----
 
 ## The Current History
 
@@ -30,16 +24,14 @@ between them and creating new ones. This can be useful to organize different ana
 only allowed one history. On our main, public Galaxy server, users are encouraged to register and log in with the
 benefit that they can work on many histories and switch between them.
 
-```wiki yellow
+<div class="alert alert-warning" role="alert">
 The histories of anonymous users are only associated through your browser's session. **If you close the browser or
 clear you sessions - that history will be lost!** We can not recover it for you if it is.
-```
-
-
+</div>
 
 ### Current history controls
 
-![](/src/histories/current-history-buttons.png)
+![](/src/tutorials/histories/current-history-buttons.png)
 
 Above the current history panel are three buttons: the refresh, history options, and 'view all histories' button.
 
@@ -50,9 +42,7 @@ The history options button opens the history options menu which allows you to pe
 
 
 The 'view all histories' button sends you to the interface for
-[managing multiple histories](/src/histories/index.md#managing_multiple_histories).
-
-----
+[managing multiple histories](/src/tutorials/histories/index.md#managing_multiple_histories).
 
 ## History Information
 
@@ -68,7 +58,7 @@ All histories begin with the name 'Unnamed history'. Non-anonymous users can ren
 3. Press 'Enter' to save the new name. The input field will disappear and the new name display.
 4. To cancel renaming, press 'Esc' or click outside the input field.
 
-![](/src/histories/renaming.png)
+![](/src/tutorials/histories/renaming.png)
 
 ### Tagging a history
 
@@ -86,7 +76,7 @@ To tag a history:
 3. Press enter or select one of the previous tags with your arrow keys or mouse.
 4. To remove an existing tag, click the small 'X' on the tag or use the backspace key while in the input field.
 
-![](/src/histories/tags.png)
+![](/src/tutorials/histories/tags.png)
 
 ### Annotating a history
 
@@ -104,7 +94,7 @@ To annotate a history:
   entered since the 'Tab' button is used to switch between controls on the page - tabs can be pasted in however).
 4. To save the annotation, click the 'Done' button.
 
-![](/src/histories/annotations.png)
+![](/src/tutorials/histories/annotations.png)
 
 ### History size
 
@@ -116,9 +106,6 @@ If your Galaxy server uses quotas, the total combined size of all your histories
 if you're using more than the quota allows Galaxy will prevent you from running any new jobs until you've deleted some
 datasets and brought that total below the quota.
 
-
-
-----
 
 ## History Panel Datasets
 
@@ -134,11 +121,8 @@ There are several different 'states' a dataset can be in:
 1. If there's been an error while running the tool, the datasets will be in the **error** state.
 1. If a previously running or queued job has been paused by Galaxy, the dataset will be in the **paused** state.
   You can re-start/resume paused jobs using the options menu above the history panel and selecting 'Resume Paused Jobs'.
-  
 
-
-
-![](/src/histories/states.png)
+![](/src/tutorials/histories/states.png)
 
 Datasets in the panel are initially shown in a 'summary' view, that only displays:
 
@@ -148,10 +132,12 @@ Datasets in the panel are initially shown in a 'summary' view, that only display
 1. an **edit** button: click this to edit dataset properties
 1. a **delete** button: click this to delete the dataset from the history (*don't worry*, you can undo this action)
 
+<div class="alert alert-warning" role="alert">
 **Note:** some of the buttons above may be disabled if the dataset is in a state that shouldn't allow doing the
 action. For example, the 'edit' button is disabled for datasets that are still queued or running.
+</div>
 
-![](/src/histories/summary.png)
+![](/src/tutorials/histories/summary.png)
 
 You can click the dataset name and the view will expand to show more details:
 
@@ -162,13 +148,13 @@ You can click the dataset name and the view will expand to show more details:
 1. a row of buttons that allow further actions on the dataset
 1. a **peek** of the data: a couple of rows of data with the column headers (if available)
 
-![](/src/histories/details.png)
+![](/src/tutorials/histories/details.png)
 
+<div class="alert alert-warning" role="alert">
 **Note:** many of these details are only displayed if the dataset has finished running, is in the 'ok' state, and
 is not deleted. Otherwise, you may only see a shorter message describing the dataset's state (e.g. 'this dataset
 is waiting to run')
-
-----
+</div>
 
 ## Managing Datasets Individually
 
@@ -181,7 +167,7 @@ history has hidden datasets, the number will appear there (e.g. '3 hidden') as a
 the hidden datasets are shown. Each hidden dataset has a link in the top of the summary view that allows you to unhide
 it. You can click that link again (which will now be 'hide hidden') to make them not shown again.
 
-![](/src/histories/hide.png)
+![](/src/tutorials/histories/hide.png)
 
 ### Deleting and undeleting datasets
 
@@ -192,7 +178,7 @@ link. Clicking this link (e.g. '3 deleted') will make the deleted datasets visib
 link for manually undeleting it above its title. You can click that link again (which will now be 'hide deleted') to
 make them not shown again.
 
-![](/src/histories/delete.png)
+![](/src/tutorials/histories/delete.png)
 
 ### Purging datasets and removing them permanently from Galaxy
 
@@ -210,8 +196,6 @@ datasets you've marked as deleted. Often deleted datasets and histories are purg
 (e.g. datasets that have been marked as deleted for 90 days or more). Check with the administrators of your instance to
 find out the policy used.
 
-----
-
 ## Managing Multiple Datasets Easily
 
 ### Muti-selection
@@ -227,7 +211,7 @@ You can also hide, delete, and purge multiple datasets at once by **multi-select
   an action doesn't apply to a selected dataset - like deleting a deleted dataset - nothing will happen.)
 1. You can click the multiselect button again to hide the checkboxes again.
 
-![](/src/histories/multiselect.png)
+![](/src/tutorials/histories/multiselect.png)
 
 ### Searching for datasets
 
@@ -246,9 +230,11 @@ For example:
 * To search for a VCF file named 'VCF filter on data 1' and tagged with 'experiment 1', you could enter:
   `vcf filter on data 1 experiment 1`
 
+<div class="alert alert-warning" role="alert">
 **Note:** searches are case-insensitive. For example, `VCF` and `vcf` are equivalent.
+</div>
 
-![](/src/histories/basic-search.png)
+![](/src/tutorials/histories/basic-search.png)
 
 ### Clearing a search
 
@@ -268,15 +254,17 @@ followed by '=' then the value. When using these only the property named is sear
 * *tag*: to show only datasets with that tag (or partial tag): `tag=experiment1`. Note: you can search for
   datasets that have multiple tags by re-using the tag keyword search: `tag=experiment1 tag=to_publish`
 
-**Note:**:
-* keyword searches can be combined: `database=mm10 annotation=successful`
-* you can enclose text and include spaces using double quotes: `name="My Dataset" annotation="First run"`.
-* all keyword searches are AND'd - all searches should be true in order for the dataset to be shown.
+<div class="alert alert-warning" role="alert">
+**Note** that keyword searches can be combined: `database=mm10 annotation=successful`<br>
+You can enclose text and include spaces using double quotes: `name="My Dataset" annotation="First run"`.<br>
+ All keyword searches are AND'd - all searches should be true in order for the dataset to be shown.
+
+</div>  
 
 If you find normal searching is showing too many datasets, and not what you're looking for, try the advanced keyword
 search.
 
-![](/src/histories/adv-search.png)
+![](/src/tutorials/histories/adv-search.png)
 
 ### Search and multiselect
 
@@ -295,7 +283,33 @@ and b) hg19 reference BAM files whose names contain "Output":
   selected.
 1. You can now perform some action on those two sets of datasets.
 
-----
+### Undeleting ...deleted histories
+
+If you have not purged a history and only deleted it, it is possible to 'undelete' it and reverse or undo the deletion.
+Since one of the purposes of deleting hisories is to remove them from view, we'll use the interface to specifically
+search for deleted histories and then to undelete the one we're interested in.
+
+There are two ways to do this currently: via the multi-history panel and through the saved histories page. The multi-
+history method is presented here:
+
+Click the multi-history icon at the top right of the 'Analyze Data' (home) page. Note: you must be logged in to
+see the icon and use the multi-history page. You should see all the (non-deleted) histories that you've created.
+![](/src/tutorials/histories/undelete.multihistory-button.png)
+
+Click the '...' icon button in the grey header at the top of the page. You should see a dialog that presents some options for viewing the histories. Click the 'include deleted histories' option.
+![](/src/tutorials/histories/undelete.multihistory-options.png)
+
+The page should reload and now both non-deleted and deleted histories will be displayed. Deleted histories will
+have a small message under their titles stating 'This history has been deleted'.
+
+![](/src/tutorials/histories/undelete.thishasbeendeleted.png)
+Now click the small button with the down arrow just above the deleted history you want to undelete. Then click
+the 'Undelete' option there. Your history should now be undeleted.
+![](/src/tutorials/histories/undelete.undelete-button.png)
+
+Click the 'Switch to' button at the top of that history and then click 'done' at the very top left to return to
+the 'Analyze Data' page.
+![](/src/tutorials/histories/undelete.switchto.png)
 
 ## Dataset Collections
 
@@ -320,7 +334,6 @@ You can view what datasets were inside a collection by clicking on the collectio
 replaced by a list of the collection contents and each are expandable as a normal dataset in a history would be. You
 can click the '< Back to (you history name)' link at the top to return to the history view (see below for examples).
 
-
 They current collection types are:
 
 ### Dataset pairs
@@ -330,7 +343,7 @@ the forward reads and one file contains the reverse reads. Many bioinformatic to
 further simplify this by placing both files into on 'Dataset Pair' collection. Only two files will be added to the
 collection: forward and reverse.
 
-![](/src/histories/pair.png)
+![](/src/tutorials/histories/pair.png)
 
 ### Dataset list
 
@@ -338,7 +351,7 @@ Choose 'Dataset List' when you have a set of files that are of the same type and
 analysis. The datasets in a dataset list must have unique names (e.g. you cannot have two datasets in a dataset list
 with the name '1.bed').
 
-![](/src/histories/list.png)
+![](/src/tutorials/histories/list.png)
 
 ### List of dataset pairs
 
@@ -347,61 +360,4 @@ to create this is currently the most flexible and potentially most complicated. 
 datasets sent to the interface based on the dataset names. You are free to select your own pairs, however, and change
 the order of the collection. Click the help text at the top of the interface to see more information.
 
-![](/src/histories/list-pairs.png)
-
-
-----
-
-## Managing Multiple Histories
-
-
-
-
-
-
-### Undeleting ...deleted histories
-
-If you have not purged a history and only deleted it, it is possible to 'undelete' it and reverse or undo the deletion.
-Since one of the purposes of deleting hisories is to remove them from view, we'll use the interface to specifically
-search for deleted histories and then to undelete the one we're interested in.
-
-There are two ways to do this currently: via the multi-history panel and through the saved histories page. The multi-
-history method is presented here:
-
-1. Click the multi-history icon at the top right of the 'Analyze Data' (home) page. Note: you must be logged in to
-see the icon and use the multi-history page. You should see all the (non-deleted) histories that you've created.
-
-![](/src/histories/undelete.multihistory-button.png)
-
-2. Click the '...' icon button in the grey header at the top of the page. You should see a dialog that presents some options for viewing the histories. Click the 'include deleted histories' option.
-
-![](/src/histories/undelete.multihistory-options.png)
-
-3. The page should reload and now both non-deleted and deleted histories will be displayed. Deleted histories will
-have a small message under their titles stating 'This history has been deleted'.
-
-![](/src/histories/undelete.thishasbeendeleted.png)
-
-4. Now click the small button with the down arrow just above the deleted history you want to undelete. Then click
-the 'Undelete' option there. Your history should now be undeleted.
-
-![](/src/histories/undelete.undelete-button.png)
-
-5. Click the 'Switch to' button at the top of that history and then click 'done' at the very top left to return to
-the 'Analyze Data' page.
-
-![](/src/histories/undelete.switchto.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](/src/tutorials/histories/list-pairs.png)
