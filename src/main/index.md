@@ -17,7 +17,7 @@ The status page with the current state of the Main Server, Test Server, and Tool
 
 Our public site utilizes multiple computational resources distributed across the US:
 
-<img src="gxy_map.png" class="img-responsive" alt="Responsive image">
+![Public Site](gxy_map.png)
 
 Most jobs initially run on Galaxy cluster. They can be automatically "resubmitted" to [Stampede](https://portal.tacc.utexas.edu/user-guides/stampede) if they exceed the walltime (run time limit). The walltime differs per tool and is calculated based on previous average runtimes of that tool. Below are average runtimes for some of the most frequently used tools:
 
