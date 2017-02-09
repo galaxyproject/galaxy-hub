@@ -1,12 +1,8 @@
 {{> Admin/LinkBox }}
-{{> Develop/LinkBox }}
-{{> FAQs/LinkBox }}
-
 
 # Galaxy Administration
 
-This is the hub page for the section of this wiki on how to deploy and administer your own copy of Galaxy.
-
+This is a hub page on topics related to deployment and administration of your own instance of Galaxy.
 
 ## Deploying
 
@@ -14,10 +10,9 @@ This is the hub page for the section of this wiki on how to deploy and administe
 * [Install on the Cloud Infrastructure](/src/cloudman/index.md)
 * [Maintaining an Instance](/src/admin/maintenance/index.md)
 
-
 ## Configuration
 
-* [Tools](/src/admin/tools/index.md)
+* [Tools](/src/tools/index.md)
 * [Tool Panel](/src/admin/tool-panel/index.md)
 * [Administration Interface](/src/admin/Interface/index.md)
 * [Subtopics in Configuration](/src/admin/config/index.md)
@@ -64,8 +59,5 @@ This is the hub page for the section of this wiki on how to deploy and administe
 * [Switching to Github from Bitbucket](/src/admin/switching-to-github-from-bitbucket/index.md)
 
 
-<div class='center'>
-<a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/images/logos/GetGalaxySearch.png" alt="Search all Galaxy administration resources" width="120" /></a>
-
 [Search all Galaxy administration resources](http://galaxyproject.org/search/getgalaxy)
-</div>
+

@@ -61,7 +61,7 @@
         title: Get Galaxy
         link: admin/get-galaxy
       - Administer:
-        title: Administer Galaxy
+        title: Administration
         link: admin
       - docs:
         title: Documentation
@@ -70,7 +70,7 @@
         title: Tools
         link: tools
       - Codebase:
-        title: Develop
+        title: Development
         link: develop
 - Pulse:
   title: Pulse
