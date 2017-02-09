@@ -19,7 +19,6 @@ This is a hub page on topics related to deployment and administration of your ow
 * [Installing tools](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
 * [Data Libraries](/src/admin/data-libraries/index.md)
 * [Datatypes](/src/admin/datatypes/index.md)
-* [Sample Tracking](/src/admin/sample-tracking/index.md)
 * [Configuring Galaxy Home/Welcome Page](/src/admin/galaxy-welcome-page/index.md)
 * [Purge Histories and Datasets](/src/admin/config/performance/Purge Histories and Datasets/index.md)
 * [Interactive Environments (IE)](/src/admin/gies/index.md)
