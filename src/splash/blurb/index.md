@@ -1,5 +1,5 @@
 ---
-title: This is the default Galaxy splash info.
+title: Welcome to the Galaxy Community Hub
 date: 2020-03-04
 ---
 
