@@ -4,9 +4,9 @@
 
 ### Options for Uploading Files from the Admin Perspective
 
-There are currently four options available to a Galaxy [admin](/src/admin/interface/index.md) user for uploading files to a data library.  
-Some of these same options are available to all regular users that have been granted permission to add items to a Data Library or folder, 
-but this section describes the features from the Galaxy admin perspective which is accessed by clicking on the "Admin" link in the top 
+There are currently four options available to a Galaxy [admin](/src/admin/index.md) user for uploading files to a data library.
+Some of these same options are available to all regular users that have been granted permission to add items to a Data Library or folder,
+but this section describes the features from the Galaxy admin perspective which is accessed by clicking on the "Admin" link in the top
 Galaxy menu bar.
 
 By default, only the first option (Upload files) is available. To allow uploading directory of files or upload from from filesystem paths, change the options `library_import_dir` and `allow_library_path_paste`, respectively in the Data Libraries section of your config (`config/galaxy.ini` or `config/galaxy.ini`) See below for more details on the values for these options.
@@ -16,7 +16,7 @@ accessed from the folder's pop-up menu).
 
 ![](/src/data-libraries/upload_form.png)
 
-The different options for uploading files are available in the pop-up menu when you click the "down arrow" next to the 
+The different options for uploading files are available in the pop-up menu when you click the "down arrow" next to the
 "Create new data library datasets" page title.
 
 ![](/src/data-libraries/upload_options.png)
@@ -25,8 +25,8 @@ Here are the details for each option.
 
 ### Upload files
 
-This is the default, and displays the form above.  It enables you to upload locally accessible files, or URLs for retrieving data 
-from remote sources.  This option creates a copy of the data files on the Galaxy server (the default directory is `database/files/`), 
+This is the default, and displays the form above.  It enables you to upload locally accessible files, or URLs for retrieving data
+from remote sources.  This option creates a copy of the data files on the Galaxy server (the default directory is `database/files/`),
 and although it works for files of any size, the options described below are better suited for very large files.
 
 ### Upload directory of files
@@ -43,17 +43,17 @@ library_import_dir = /some_local_directory_of_files
 ```
 
 
-The setting for `library_import_dir` should be a directory that contains files or other directories, the contents of which can be 
+The setting for `library_import_dir` should be a directory that contains files or other directories, the contents of which can be
 selected for upload to the Data Library.
 
-The above form also includes a checkbox labeled "Copy data into Galaxy?" that, if checked, will prevent Galaxy from copying data 
-to its files directory.  This is useful for large library datasets that live in their own managed locations on the filesystem, and will 
-prevent the existence of duplicate copies of datasets.  However, using this feature requires administrators to take responsibility for 
+The above form also includes a checkbox labeled "Copy data into Galaxy?" that, if checked, will prevent Galaxy from copying data
+to its files directory.  This is useful for large library datasets that live in their own managed locations on the filesystem, and will
+prevent the existence of duplicate copies of datasets.  However, using this feature requires administrators to take responsibility for
 managing these files - moving or removing the data from its Galaxy-external location will render these datasets invalid within Galaxy.
 
-Also, when the "Copy data into Galaxy?" checkbox is checked, any symbolic links encountered in the chosen import directory will be 
-made absolute and dereferenced **once**.  This allows administrators to link large datasets to the import directory rather than having 
-to make copies of the files, and these links can be deleted after importing.  Only the first symlink (the one in the import directory 
+Also, when the "Copy data into Galaxy?" checkbox is checked, any symbolic links encountered in the chosen import directory will be
+made absolute and dereferenced **once**.  This allows administrators to link large datasets to the import directory rather than having
+to make copies of the files, and these links can be deleted after importing.  Only the first symlink (the one in the import directory
 itself) is dereferenced, all others remain.  Here is an example:
 
 ```
@@ -88,7 +88,7 @@ In this example:
 * `4.bed` is a relative symlink which follows another symlink (`/galaxy/galaxy_symlink`) to the real `4.bed`.
 * `5.bed` is an absolute symlink in the same fashion as `4.bed`
 
-If the `link` server directory is selected in the "Server Directory" select list and the "Copy data into Galaxy?" 
+If the `link` server directory is selected in the "Server Directory" select list and the "Copy data into Galaxy?"
 checkbox is checked, then the following files will be referenced by Galaxy:
 
 ```
@@ -100,10 +100,10 @@ checkbox is checked, then the following files will be referenced by Galaxy:
 ```
 
 
-The Galaxy administrator may now safely delete `/galaxy/import/link`, but should take care not to remove the referenced 
+The Galaxy administrator may now safely delete `/galaxy/import/link`, but should take care not to remove the referenced
 symbolic links ( `/galaxy/3.bed` and `/galaxy/galaxy_symlink` ).
 
-Not all symbolic links are dereferenced because it is assumed that if an administrator links to a path in the import 
+Not all symbolic links are dereferenced because it is assumed that if an administrator links to a path in the import
 directory which itself is (or contains) links, that is the preferred path for accessing the data.
 
 ### Upload files from filesystem paths
@@ -112,7 +112,7 @@ Here is a partial view of the form that is displayed when this option is selecte
 
 ![](/src/data-libraries/upload_filesystem_paths.png)
 
-This form contains a text area that allows for pasting any number of filesystem paths (files or directories) from which 
+This form contains a text area that allows for pasting any number of filesystem paths (files or directories) from which
 Galaxy will import library datasets, saving the directory structure if desired.  Since this allows a Galaxy admin user access to any file (on the Galaxy server) which is readable by the Galaxy system user, this option is disabled by default, and system administrators should take care in assigning Galaxy admin users when this feature is enabled.  Controls on what files are accessible to this tool based on ownership or other properties can be added at a later date if there is sufficient interest in them by the community.
 
 This needs to be enabled in the Galaxy configuration file `config/galaxy.ini`.
