@@ -122,7 +122,7 @@ Galaxy user accounts are simple to create (email, password, user name and go!). 
 
 ## Other
 
-* [Choices](/src/big-picture/choices/index.md) - The Galaxy [Main](/src/main/index.md) server is not your only choice for using Galaxy.
+* [Choices](/src/choices/index.md) - The Galaxy [Main](/src/main/index.md) server is not your only choice for using Galaxy.
 * [Interactive Poster](/src/learn/Interactive Poster/index.md)
 * [Admin](/src/admin/index.md) - How to *administer* your own Galaxy instance
 

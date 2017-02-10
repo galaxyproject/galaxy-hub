@@ -27,7 +27,7 @@ Galaxy can be used through a **free public [Main](/src/main/index.md) web servic
 Tools and workflows managed by the primary Galaxy team (but contributed by [community members](/src/community/index.md) worldwide) are served through the **[ Main ToolShed](/src/toolshed/index.md)** and genome data/indexes through an **[rsync service](/src/admin/data-integration/index.md)**.  
 
 *Which is **right** for you?*
-* Review the **[Big Picture](/src/big-picture/choices/index.md)**
+* Review the **[Big Picture](/src/choices/index.md)**
 * Explore **Community [Public Galaxy Servers](/src/public-galaxy-servers/index.md)**
 * Watch a screencast about **setting up a [EC2 Cloud](http://screencast.g2.bx.psu.edu//cloud/)**
 * Or, follow the ***galaxy-dev@bx.psu.edu* [mailing list](/src/mailing-lists/index.md)** to find out **[more...](http://galaxyproject.org)**

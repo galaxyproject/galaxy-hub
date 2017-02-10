@@ -7,7 +7,7 @@ autotoc: true
 
 In addition to using the [public Galaxy server](http://usegalaxy.org/) (a.k.a. [Main](/src/main/index.md)), you can install your own instance of Galaxy (what this page is about), or create a [cloud-based instance of Galaxy](/src/cloud/index.md).  Another option is to use one of the ever-increasing number of [public Galaxies](/src/public-galaxy-servers/index.md) hosted by other organizations.
 
-See [Big Picture: Choices](/src/big-picture/choices/index.md) for help on deciding which of these options may be best for your situation.
+See [Big Picture: Choices](/src/choices/index.md) for help on deciding which of these options may be best for your situation.
 
 ## Reasons to Install Your Own Galaxy
 

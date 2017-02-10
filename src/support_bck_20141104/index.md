@@ -86,14 +86,14 @@ The [Galaxy Issue Board](/src/issues/index.md) supports [issue creation](http://
 * **Reproducible:** Galaxy captures information so that any user can repeat and understand a complete computational analysis.
 * **Transparent:** Users share and publish analyses via the web and create Pages, interactive, web-based documents that describe a complete analysis.
 
-There are many [Choices](/src/big-picture/choices/index.md) when you want to learn more **[about using Galaxy](/src/support/about-galaxy/index.md)**!
+There are many [Choices](/src/choices/index.md) when you want to learn more **[about using Galaxy](/src/support/about-galaxy/index.md)**!
 
 In addition to using the [public Galaxy server](http://usegalaxy.org), you can also install your [own instance of Galaxy](/src/admin/get-galaxy/index.md), or create an [instance of Galaxy on the cloud using CloudMan](/src/cloudman/index.md) and explore all [/Cloud](/src/cloud/index.md) resources including [AWS in Education](http://aws.amazon.com/grants/) grants.  Another option is to use one of the ever-increasing number of [/PublicGalaxyServers](/PublicGalaxyServers) hosted by other organizations. And if you or your lab is looking to run their own local instance that is "ready-to-go", learn more about the [Slipstream Appliance: Galaxy Edition](http://www.bioteam.net/slipstream/galaxy-edition).
 
 The GALAXY Framework at the highest level is a set of reusable software components. Learn more about [Galaxy's Architecture](/Admin/Internals/Implementation Info).
 
 <div class='left'><a href='http://usegalaxy.org'><img src='/images/Logos/GalaxyLogoHighRes.png' alt='UseGalaxy.org' width="200" /></a></div>
-[Galaxy Project](/src/galaxy-project/index.md) • [Big Picture](/src/big-picture/index.md) • [/Community](/src/community/index.md) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [/CloudMan](/src/cloudman/index.md) • [Tool Shed](/src/toolshed/index.md) • [/Develop](/src/develop/index.md) • [News Briefs](/src/dev-news-briefs/index.md) • [Servers](/src/public-galaxy-servers/index.md) • [/Learn](/src/learn/index.md) • [/Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/src/news/index.md) • [Twitter](/src/galaxy-on-twitter/index.md) • [/Events](/src/events/index.md) • [/Teach](/src/teach/index.md) • [/Issues](/src/issues/index.md) • [Cite](/src/citing-galaxy/index.md) • [About Galaxy](/src/support/about-galaxy/index.md) • [Galaxy Team](/src/galaxy-team/index.md)
+[Galaxy Project](/src/galaxy-project/index.md) • [Big Picture](/src/galaxy-project/index.md) • [/Community](/src/community/index.md) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [/CloudMan](/src/cloudman/index.md) • [Tool Shed](/src/toolshed/index.md) • [/Develop](/src/develop/index.md) • [News Briefs](/src/dev-news-briefs/index.md) • [Servers](/src/public-galaxy-servers/index.md) • [/Learn](/src/learn/index.md) • [/Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [/News](/src/news/index.md) • [Twitter](/src/galaxy-on-twitter/index.md) • [/Events](/src/events/index.md) • [/Teach](/src/teach/index.md) • [/Issues](/src/issues/index.md) • [Cite](/src/citing-galaxy/index.md) • [About Galaxy](/src/support/about-galaxy/index.md) • [Galaxy Team](/src/galaxy-team/index.md)
 <br />
 <br />
 
@@ -188,7 +188,7 @@ The Galaxy user interface (UI) has been designed to communicate job execution st
 When a tool is executed, one or more new **[datasets](/Learn/ManagingDatasets)** are added to a history. The same is true when a **workflow** is executed. *If using the public [Main](/src/main/index.md) Galaxy instance, the most effective strategy when running jobs on the shared resource is to start jobs (or workflows), and then leave them alone to execute until completion.* 
 <br />
 <br />
-When work is urgent during peak-usage times on the public **[/Main](/src/main/index.md)** Galaxy instance, a **[/CloudMan](/src/cloudman/index.md)** instance is a quick-to-implement alternative. For large scale and/or urgent ongoing work, a **[/CloudMan](/src/cloudman/index.md)**, **[Local](/src/admin/get-galaxy/index.md)**, or **[SlipStream Galaxy](http://www.bioteam.net/slipstream/galaxy-edition)** each have advantages as a longer-term solution. [Read more ...](/src/big-picture/choices/index.md)
+When work is urgent during peak-usage times on the public **[/Main](/src/main/index.md)** Galaxy instance, a **[/CloudMan](/src/cloudman/index.md)** instance is a quick-to-implement alternative. For large scale and/or urgent ongoing work, a **[/CloudMan](/src/cloudman/index.md)**, **[Local](/src/admin/get-galaxy/index.md)**, or **[SlipStream Galaxy](http://www.bioteam.net/slipstream/galaxy-edition)** each have advantages as a longer-term solution. [Read more ...](/src/choices/index.md)
 <br />
 <br />
 *So, how does the processing of tool jobs on **[/Main](/src/main/index.md)** actually work?*
