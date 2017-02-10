@@ -10,8 +10,9 @@ There are many approaches to learning how to *use* Galaxy.  The most popular is 
 
 ## Tutorials using Galaxy main server at http://usegalaxy.org
 
- - Galaxy 101
- - Understanding histories
+ - [Galaxy 101](/tutorials/g101)
+ - [Understanding histories](/tutorials/histories)
+ - Dataset collections
  - NGS logistics
  - Variant discovery: diploid case
  - Variant discovery: haploid case
