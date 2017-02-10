@@ -66,7 +66,7 @@ This page shows [news items](/src/news/index.md) that have were posted to the [G
 See also 
 * [News](/src/news/index.md) - current news items
 * [Galaxy Updates](/src/galaxy-updates/index.md)
-* [Galaxy Development News Briefs](/src/dev-news-briefs/index.md)
+* [Galaxy Development News Briefs](/src/docs/index.md)
 * [Galaxy on Twitter](/src/galaxy-on-twitter/index.md)
 * [Mailing Lists](/src/mailing-lists/index.md)
 

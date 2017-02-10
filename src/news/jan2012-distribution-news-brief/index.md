@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[January 20, 2012 Distribution & News Brief](/src/news/Jan 2012 Distribution News Brief/index.md)</div>
 
-**Complete [News Brief](/src/dev-news-briefs/2012-01-20/index.md)**
+**Complete [News Brief](/src/archive/dev-news-briefs/2012-01-20/index.md)**
 
 **Highlights:**
 

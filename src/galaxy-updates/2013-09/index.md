@@ -8,7 +8,7 @@ title: September 2013 Galaxy Update
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the September 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the September 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -251,7 +251,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## Aug 12, 2013 Galaxy Distribution
 
-**[Highlights](/src/dev-news-briefs/2013-08-12/index.md):**
+**[Highlights](/src/archive/dev-news-briefs/2013-08-12/index.md):**
 
 * Upgrades to **Data Manager** including improved installation actions
 * **Visualization** Framework tunings, plus updates to **Phyloviz**, **Scatterplot**, and **Trackster**

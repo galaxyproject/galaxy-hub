@@ -7,7 +7,7 @@ autotoc: true
 
 In addition to using the [public Galaxy server](http://usegalaxy.org/) (a.k.a. [Main](/src/main/index.md)), you can install your own instance of Galaxy (what this page is about), or create a [cloud-based instance of Galaxy](/src/cloud/index.md).  Another option is to use one of the ever-increasing number of [public Galaxies](/src/public-galaxy-servers/index.md) hosted by other organizations.
 
-See [Big Picture: Choices](/src/big-picture/choices/index.md) for help on deciding which of these options may be best for your situation.
+See [Choices](/src/choices/index.md) for help on deciding which of these options may be best for your situation.
 
 ## Reasons to Install Your Own Galaxy
 
@@ -53,7 +53,7 @@ $ git checkout release_16.10 && git pull --ff-only origin release_16.10
 
 ### For Development
 
-If you are getting Galaxy for development, you want to use the default branch after cloning - `dev`. This is the branch that most pull requests should be made against, if you are contributing code back (unless you are fixing a bug in a Galaxy release). 
+If you are getting Galaxy for development, you want to use the default branch after cloning - `dev`. This is the branch that most pull requests should be made against, if you are contributing code back (unless you are fixing a bug in a Galaxy release).
 
 ```sh
 $ git clone https://github.com/galaxyproject/galaxy.git
@@ -72,7 +72,7 @@ $ sh run.sh
 
 This will start up the server on localhost and port 8080, so Galaxy can be accessed from your web browser at http://localhost:8080 . Galaxy's server will start printing its output to your terminal. To stop the Galaxy server, just hit `Ctrl-c` in the terminal from which Galaxy is running.
 
-To access Galaxy over the network, simply modify the `config/galaxy.ini` file and change the `host` setting to 
+To access Galaxy over the network, simply modify the `config/galaxy.ini` file and change the `host` setting to
 
 ```python
 host = 0.0.0.0
@@ -88,7 +88,7 @@ Upon restarting, Galaxy will bind to any available network interfaces instead of
 
 ## Become an Admin
 
-In order to control your new Galaxy through the UI (installing tools, managing users, creating groups etc.) you have to become an [administrator](/src/admin/Interface/index.md). First register as a new user and then give the user admin privileges like this: 
+In order to control your new Galaxy through the UI (installing tools, managing users, creating groups etc.) you have to become an [administrator](/src/admin/index.md). First register as a new user and then give the user admin privileges like this:
 You add the Galaxy login ( email ) to the Galaxy configuration file (`config/galaxy.ini`). If the file does not exist you can copy it from the provided sample (`config/galaxy.ini.sample`). Note that you have to restart Galaxy after modifying the configuration for changes to take effect. [More help with an example how-to.](/src/admin/get-galaxy/index.md#become-an-admin-example)
 
 ```
@@ -123,7 +123,7 @@ To be made aware of new Galaxy releases, please join the [Galaxy Developers mail
 
 At any time, you can check to see if a new stable release is available by using the `git log` command:
 
-```sh
+```
 $ git log ..origin/master
 commit 3f314974c9c3742b118518881a6d392123ccc05d
 Merge: d8eeaae c78b7b6
@@ -131,8 +131,6 @@ Author: Nate Coraor <nate@bx.psu.edu>
 Date:   Mon Mar 9 22:26:54 2015 -0400
 
     Merge branch 'release_15.03' to master for v15.03
-
- ...
 ```
 
 
@@ -140,7 +138,6 @@ If you see no output, you are up to date. If you see a list of commits, a new ve
 
 ```
 $ git pull
- ...
 ```
 
 
@@ -148,7 +145,7 @@ $ git pull
 
 **Note**: Occasionally, updated code includes structural changes to the Galaxy database tables.  The news brief will alert you if a release contains a database change.  After updating Galaxy, if you attempt to restart, Galaxy will refuse to load, and will output an error message indicating that your database is the wrong version.  The error message indicates that you should run backup your database and then run `sh manage_db.sh upgrade` - follow those instructions carefully - especially the part about backing up your database safely!  Database updates are carefully tested before release, but it is always wise to be able to back out if something goes wrong during an update.
 
-In the unlikely event that something goes wrong with updated code, you can return to an older release by guessing the release tag name from the [news brief](/src/dev-news-briefs/index.md) page and using the `git checkout` command.  For example, to return to the latest version of the January 2015 release, use:
+In the unlikely event that something goes wrong with updated code, you can return to an older release by guessing the release tag name from the [news brief](/src/docs/index.md) page and using the `git checkout` command.  For example, to return to the latest version of the January 2015 release, use:
 
 ```sh
 $ git checkout release_15.01
@@ -188,13 +185,13 @@ Restore the fresh backup if a database update was required, and then restart Gal
 ## Get Galaxy without Git
 
 * *Galaxy from an archive*
-  * If you don't have [Git](http://git-scm.com/) (and thus can't run the `git` command), you can download Galaxy in an archive instead: [zipped](https://github.com/galaxyproject/galaxy/archive/master.zip) or [tar/gzipped](https://github.com/galaxyproject/galaxy/archive/master.tar.gz).  
+  * If you don't have [Git](http://git-scm.com/) (and thus can't run the `git` command), you can download Galaxy in an archive instead: [zipped](https://github.com/galaxyproject/galaxy/archive/master.zip) or [tar/gzipped](https://github.com/galaxyproject/galaxy/archive/master.tar.gz).
   * Be aware that this makes it more difficult to stay up to date in the future since there's no simple way to update your copy.
 
 ## Get Galaxy for Development
 
 * *Fork Galaxy in GitHub*
-  * If you're doing development or making changes to Galaxy, it's typically a good idea to fork Galaxy in GitHub and update to/from your fork. 
+  * If you're doing development or making changes to Galaxy, it's typically a good idea to fork Galaxy in GitHub and update to/from your fork.
   * This changes the process slightly, see the [GitHub fork documentation](https://help.github.com/articles/fork-a-repo/) for details.
 
 ## Become an Admin: Example
@@ -202,7 +199,7 @@ Restore the fresh backup if a database update was required, and then restart Gal
 Follow these steps to edit `config/galaxy.ini.sample` for a brand new Galaxy.
 
 *Prerequisites*
-* Galaxy was installed Galaxy using Git. 
+* Galaxy was installed Galaxy using Git.
 * Galaxy was started at least once using "*sh run.sh*".
 * Galaxy is now stopped. [Help](/src/admin/get-galaxy/index.md#shutting-down-galaxy)
 
@@ -231,18 +228,18 @@ $ grep "admin_users" config/galaxy.ini
 ```
 
 
-*That's it for the `galaxy.ini` file changes!* Now start up Galaxy again and create an account - using the same email address - through the Galaxy web interface (if this hasn't been done already). The **Admin** tab will now appear in the masthead for that account. 
+*That's it for the `galaxy.ini` file changes!* Now start up Galaxy again and create an account - using the same email address - through the Galaxy web interface (if this hasn't been done already). The **Admin** tab will now appear in the masthead for that account.
 
 ## Shutting down Galaxy
 
-Simplified instructions for users managing their own local Galaxy server. If your configuration is more complicated, getting help from an administrator is recommended.  
+Simplified instructions for users managing their own local Galaxy server. If your configuration is more complicated, getting help from an administrator is recommended.
 
 ### The Galaxy process is running in the background
   * If Galaxy was the last process running within a terminal window, bring it into the foreground with the command `fg`. Now shut down with `Ctrl-c`.
   * If Galaxy is one of many processes running in the background within a terminal window, find it with the command `jobs`. The list of jobs will be numbered. Bring the galaxy job to the foreground with the command `fg number_of_the_job`. Now shut down with `Ctrl-c`.
 
 ### I have lost the terminal window running Galaxy
-  * From another terminal window, find all active processes with the command `ps`. The list of processes will each have a process ID (called PID). The target process will be named like "*python ./scripts/paster.py serve config/galaxy.ini.sample*". Stop it with the command ```kill PID```, where "PID" is the actual process ID number. 
+  * From another terminal window, find all active processes with the command `ps`. The list of processes will each have a process ID (called PID). The target process will be named like "*python ./scripts/paster.py serve config/galaxy.ini.sample*". Stop it with the command ```kill PID```, where "PID" is the actual process ID number.
   * If you kill only the process named "*sh run.sh*", this will result in conflicts and Galaxy will not restart. If you did this or are simply getting errors when trying to restart Galaxy, the solution is to kill the process "*python ./scripts/paster.py serve config/galaxy.ini.sample*" before restarting Galaxy again.
 
 ## Other Resources

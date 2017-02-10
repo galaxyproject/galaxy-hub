@@ -15,6 +15,9 @@
 - Learn:
   title: Learn
   links:
+      - About:
+        title: About
+        link: galaxy-project
       - Learn:
         title: Tutorials
         link: learn
@@ -58,7 +61,7 @@
         title: Get Galaxy
         link: admin/get-galaxy
       - Administer:
-        title: Administer Galaxy
+        title: Administration
         link: admin
       - docs:
         title: Documentation
@@ -67,7 +70,7 @@
         title: Tools
         link: tools
       - Codebase:
-        title: Develop
+        title: Development
         link: develop
 - Pulse:
   title: Pulse
@@ -83,4 +86,4 @@
         link: cite-u-like
       - Project Stats:
         title: Stats
-        link: galaxy-project/statistcs
+        link: galaxy-project/statistics

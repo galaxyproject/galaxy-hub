@@ -8,7 +8,7 @@ title: December 2013 Galaxy Update
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the December 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the December 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # 50+ Public Servers
 
@@ -323,20 +323,20 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
 
 # Galaxy Distributions
 
-**[Nov 04, 2013 Galaxy Distribution](/src/dev-news-briefs/2013-11-04/index.md)**
+**[Nov 04, 2013 Galaxy Distribution](/src/archive/dev-news-briefs/2013-11-04/index.md)**
 
 <div class='right'>
 <a href='/src/http:usegalaxy.org/index.md'><img src="/src/images/news-graphics/2013_11_04_usegalaxy.org.jpg" alt="usegalaxy.org" width=300 /></a><br />**usegalaxy.org**</div>
 <br />
 **Highlights:**
 
-* A ***security vulnerability*** with filter tools trapped and fixed: **[Upgrade or Patch NOW](/src/dev-news-briefs/2013-11-04/index.md#security_fix_now)**
+* A ***security vulnerability*** with filter tools trapped and fixed: **[Upgrade or Patch NOW](/src/archive/dev-news-briefs/2013-11-04/index.md#security_fix_now)**
 * Galaxy Tool Migration: [48 tools migrated to Tool Shed](http://wiki.galaxyproject.org/DevNewsBriefs/2013-11-04#New_Tool_Migrations) for a leaner distribution.
-* Improved [tools for administrators](/src/dev-news-briefs/2013-11-04/index.md#admin) (email verification, reports).
-* The framework for [Tools](/src/dev-news-briefs/2013-11-04/index.md#tools), [Visualizations](/src/dev-news-briefs/2013-11-04/index.md#visualizations), and the [Core](/src/dev-news-briefs/2013-11-04/index.md#core) have been upgraded for performance and scalability. 
-* Come see! A whopping [26 pull requests incorporated](/src/dev-news-briefs/2013-11-04/index.md#pull_requests_merged)!. Many thanks to our open source community!
-* Numerous [Tool Shed enhancements and upgrades](/src/dev-news-briefs/2013-11-04/index.md#tool_shed): API, `READMEs`, Functional Tests, easier installs, and much much more.
-* Plus enhancements to [Workflows](/src/dev-news-briefs/2013-11-04/index.md#workflows), [API](/src/dev-news-briefs/2013-11-04/index.md#api), [CloudLaunch](/src/dev-news-briefs/2013-11-04/index.md#cloudlaunch), [UI](/src/dev-news-briefs/2013-11-04/index.md#ui), and [Bug Fixes](/src/dev-news-briefs/2013-11-04/index.md#bug_fixes).
+* Improved [tools for administrators](/src/archive/dev-news-briefs/2013-11-04/index.md#admin) (email verification, reports).
+* The framework for [Tools](/src/archive/dev-news-briefs/2013-11-04/index.md#tools), [Visualizations](/src/archive/dev-news-briefs/2013-11-04/index.md#visualizations), and the [Core](/src/archive/dev-news-briefs/2013-11-04/index.md#core) have been upgraded for performance and scalability. 
+* Come see! A whopping [26 pull requests incorporated](/src/archive/dev-news-briefs/2013-11-04/index.md#pull_requests_merged)!. Many thanks to our open source community!
+* Numerous [Tool Shed enhancements and upgrades](/src/archive/dev-news-briefs/2013-11-04/index.md#tool_shed): API, `READMEs`, Functional Tests, easier installs, and much much more.
+* Plus enhancements to [Workflows](/src/archive/dev-news-briefs/2013-11-04/index.md#workflows), [API](/src/archive/dev-news-briefs/2013-11-04/index.md#api), [CloudLaunch](/src/archive/dev-news-briefs/2013-11-04/index.md#cloudlaunch), [UI](/src/archive/dev-news-briefs/2013-11-04/index.md#ui), and [Bug Fixes](/src/archive/dev-news-briefs/2013-11-04/index.md#bug_fixes).
 
 [http://getgalaxy.org](http://getgalaxy.org)
 

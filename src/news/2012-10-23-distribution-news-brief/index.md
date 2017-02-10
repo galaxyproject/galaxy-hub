@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[Oct 23, 2012 Distribution & News Brief](/src/news/2012-10-23-distribution-news-brief/index.md)</div>
 
-**Complete [News Brief](/src/dev-news-briefs/2012-10-23/index.md)**
+**Complete [News Brief](/src/archive/dev-news-briefs/2012-10-23/index.md)**
 <div class='right'><a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2012_10_23_scatterplot-partialscreen.png" alt="scatterplot-partialscreen" width="400" /></a></div>
 **Highlights:**
 * **Important [Security Fix](http://wiki.g2.bx.psu.edu/DevNewsBriefs/2012-10-23#Compute_Tool_Security_Fix)** - upgrade **NOW**.

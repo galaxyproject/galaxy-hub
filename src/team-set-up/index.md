@@ -1,3 +1,7 @@
+---
+autotoc: true
+---
+
 # Team Set up
 
 Hi!
@@ -6,7 +10,6 @@ This page is here to get the environment set up of the team members. You can use
 
 #### Tips
 
-- Subscribe to the RSS feed of this wiki to receive all updates of this page
 - Get all the conversations from IRC and find the answers to ALL your questions: https://botbot.me/freenode/galaxyproject/
 
 #### For team members
@@ -48,7 +51,7 @@ Here's my desk setup:
   * Galaxy + browser Half left
 
 * Left screen - Macbook pro 13"
-  * Usually just another Galaxy or other browser destination.  
+  * Usually just another Galaxy or other browser destination.
   * More often than not, unless it's something wonky (cluster testing) which is easier to set up on *nix, the code I'm working on actually lives on this machine and I'm ssh(mosh)'d in to it from all the terminals you see in the center panel.  So I actually do develop on OSX, I just don't use the interface.
 
 #### OS
@@ -116,7 +119,7 @@ Read HackerNews / Python subreddit + Programming subreddit
 * Uses Chrome
 * Uses `debugger` and `Inspect` to debug front-end (see [Javascript Debugging)](http://www.w3schools.com/js/js_debugging.asp), and special Galaxy feature [Galaxy.emit.error](https://github.com/galaxyproject/galaxy/pull/1011)
 * Switched from PyCharm to VIM then PyCharm with IdeaVim
-* Uses `galaxy/test-data/` to find useful inputs to try things 
+* Uses `galaxy/test-data/` to find useful inputs to try things
 * http://blog.livecoding.tv/2016/03/24/the-ten-10-best-python-productivity-tools-plugins-and-libraries/
 
 ## Anton Nekrutenko
@@ -127,15 +130,15 @@ Read HackerNews / Python subreddit + Programming subreddit
 
 ## Nitesh Turaga
 
-Worked in the past on: 
+Worked in the past on:
 * [BioConductor](/src/BioConductor/index.md) - Galaxy integration
 
-Now: 
+Now:
 * Galaxy Full Stack
 
 #### Work environment
 
-* Vim + plugins: 
+* Vim + plugins:
   * '[VundleVim](/src/VundleVim/index.md)/Vundle.vim'
   * 'tpope/vim-fugitive'
   * 'git://git.wincent.com/command-t.git'
@@ -157,7 +160,7 @@ Git => bash-completion (Brew install)
 
 iTerm2 to vertical split
 
-IPython / (i)pdb: Ipython instead of python. 
+IPython / (i)pdb: Ipython instead of python.
 
 ##### Chrome extensions:
 

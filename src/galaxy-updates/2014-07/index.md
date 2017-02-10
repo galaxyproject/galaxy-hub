@@ -8,7 +8,7 @@ title: July 2014 Galaxy Update
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the July 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the July 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 The *Galaxy Update* is going out a few days early this month because the usual release date is during [GCC2014](/src/events/gcc2014/index.md).  
 
@@ -249,10 +249,10 @@ One new [public Galaxy server](/src/public-galaxy-servers/index.md) was added to
 
 ## June 2, 2014 Galaxy Distribution
 
-<div class='right'> <a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2014_06_02_dataset-collections-crop.png" alt="Dataset Collections Workflow Detail" width="400" /></a> <br /> *example dataset collection workflow ([credits](/src/dev-news-briefs/2014-06-02/index.md#dataset_collections))* </div>
+<div class='right'> <a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2014_06_02_dataset-collections-crop.png" alt="Dataset Collections Workflow Detail" width="400" /></a> <br /> *example dataset collection workflow ([credits](/src/archive/dev-news-briefs/2014-06-02/index.md#dataset_collections))* </div>
 
 <br />
-**[News Brief](/src/dev-news-briefs/2014-06-02/index.md)** **Highlights:**
+**[News Brief](/src/archive/dev-news-briefs/2014-06-02/index.md)** **Highlights:**
 
 * Dataset Collections introduced
 * Changes to database build (dbkey) organization

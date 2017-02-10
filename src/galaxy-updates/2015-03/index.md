@@ -15,7 +15,7 @@ title: The March 2015 Galaxy News
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the March 2015 *[Galaxy Update](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the March 2015 *[Galaxy Update](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # New Papers
 
@@ -414,7 +414,7 @@ More information available in [Develop/SourceCode](/src/develop/source-code/inde
 
 ## Galaxy 2015/01/13 Distribution
 
-The most recent Galaxy release was the [2015/01/13 distribution](/src/dev-news-briefs/2015-01-13/index.md).  This addressed several *[critical security vulnerabilities](/src/dev-news-briefs/2015-01-13/index.md#security)*, added [IPython integration](/src/dev-news-briefs/2015-01-13/index.md#ipython_integration), and included a [Tool Form Upgrade for Beta Testing](/src/dev-news-briefs/2015-01-13/index.md#tool_form_upgrade_28for_beta_testing29).
+The most recent Galaxy release was the [2015/01/13 distribution](/src/archive/dev-news-briefs/2015-01-13/index.md).  This addressed several *[critical security vulnerabilities](/src/archive/dev-news-briefs/2015-01-13/index.md#security)*, added [IPython integration](/src/archive/dev-news-briefs/2015-01-13/index.md#ipython_integration), and included a [Tool Form Upgrade for Beta Testing](/src/archive/dev-news-briefs/2015-01-13/index.md#tool_form_upgrade_28for_beta_testing29).
 
 ## Planemo 0.5.0
 

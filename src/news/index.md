@@ -30,7 +30,7 @@ Older news items are available in the Galaxy [News Archive](/src/news/archive/in
 
 ### See also
 
-* [Galaxy Releases](/src/dev-news-briefs/index.md)
+* [Galaxy Releases](/src/docs/index.md)
 * [Galaxy Updates](/src/galaxy-updates/index.md)
 * [Galaxy on Twitter](/src/galaxy-on-twitter/index.md)
 * [Events](/src/events/index.md)
