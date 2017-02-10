@@ -1,6 +1,6 @@
 {{> Images/LinkBox }}
 
-Common place to store supplemental graphics used in communications, such as [News Briefs](/src/dev-news-briefs/index.md). May have a date stamp.
+Common place to store supplemental graphics used in communications, such as [News Briefs](/src/docs/index.md). May have a date stamp.
 
 ## Other image types
 

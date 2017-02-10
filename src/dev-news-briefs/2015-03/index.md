@@ -3,7 +3,7 @@ autotoc: true
 title: March 2015 Galaxy Release (v 15.03)
 ---
 <div class='right'></div>
-[All News Briefs](/src/dev-news-briefs/index.md)
+[All News Briefs](/src/docs/index.md)
 <br />
 [Galaxy March Release Summary](/src/news/2015-03-galaxy-release/index.md)
 <br />
@@ -200,7 +200,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 * Two Hackathons are now scheduled to occur *before* and *during* GCC 2015. 
   * [GCC2015 Coding Hackathon](http://gcc2015.tsl.ac.uk/organisers/hackathon)
   * New! [GCC2015 Data Wrangling Hackathon](http://gcc2015.tsl.ac.uk/organisers/data-hackathon)
-* [All Galaxy News](/src/news/index.md) and the [Hub for Release News](/src/dev-news-briefs/index.md)
+* [All Galaxy News](/src/news/index.md) and the [Hub for Release News](/src/docs/index.md)
 * [Twitter](/src/galaxy-on-twitter/index.md) (wiki summary) or follow us directly at [https://twitter.com/galaxyproject](https://twitter.com/galaxyproject)
 * [Events](/src/events/index.md), [Learn](/src/learn/index.md), [Galaxy Biostar](https://biostar.usegalaxy.org/), [Support Resources](/src/support/index.md) with FAQ help, [Mailing list](/src/mailing-lists/index.md) subscription and archvies, and [Vimeo tutorials](http://vimeo.com/galaxyproject)
 * All know of [Public Galaxy Main](/src/main/index.md), but have you reviewed the [Other Galaxy Public-hosted Servers](/src/public-galaxy-servers/index.md) lately?
@@ -226,4 +226,4 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 # About Galaxy
 
 <div class='left'><a href='http://usegalaxy.org'><img src="/src/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
-**[About Galaxy](/src/support/about-galaxy/index.md)** • [Galaxy Project](/src/galaxy-project/index.md) • [Admin](/src/admin/index.md) • [Issues](/src/issues/index.md) • [Big Picture](/src/galaxy-project/index.md) • [Community](/src/community/index.md) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [CloudMan](/src/cloudman/index.md) • [Tool Shed](/src/toolshed/index.md) • [Develop](/src/develop/index.md) • [News Briefs](/src/dev-news-briefs/index.md) • [Servers](/src/public-galaxy-servers/index.md) • [Learn](/src/learn/index.md) • [Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/news/index.md) • [Twitter](/src/galaxy-on-twitter/index.md) • [Events](/src/events/index.md) • [Teach](/src/teach/index.md) • [Cite](/src/citing-galaxy/index.md) • [Galaxy Team](/src/galaxy-team/index.md)
+**[About Galaxy](/src/support/about-galaxy/index.md)** • [Galaxy Project](/src/galaxy-project/index.md) • [Admin](/src/admin/index.md) • [Issues](/src/issues/index.md) • [Big Picture](/src/galaxy-project/index.md) • [Community](/src/community/index.md) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [CloudMan](/src/cloudman/index.md) • [Tool Shed](/src/toolshed/index.md) • [Develop](/src/develop/index.md) • [News Briefs](/src/docs/index.md) • [Servers](/src/public-galaxy-servers/index.md) • [Learn](/src/learn/index.md) • [Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/news/index.md) • [Twitter](/src/galaxy-on-twitter/index.md) • [Events](/src/events/index.md) • [Teach](/src/teach/index.md) • [Cite](/src/citing-galaxy/index.md) • [Galaxy Team](/src/galaxy-team/index.md)

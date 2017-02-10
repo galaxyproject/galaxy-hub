@@ -105,4 +105,4 @@ The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)*
 
 Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)**
 ----
-Jennifer Jackson, [Galaxy Team](/src/galaxy-team/index.md). Posted to [DevNewsBriefs](/src/dev-news-briefs/index.md) on 2012-01-27
+Jennifer Jackson, [Galaxy Team](/src/galaxy-team/index.md). Posted to [DevNewsBriefs](/src/docs/index.md) on 2012-01-27

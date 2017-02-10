@@ -227,7 +227,7 @@ The Galaxy is expanding!  Please help it grow.
 * [Bioinformatics & Integrative Genomics Specialist - Manager Bioinformatics Consulting Core](http://www.nature.com/naturejobs/science/jobs/275747-Bioinformatics-Integrative-Genomics-Specialist-Manager-Bioinformatics-Consulting-Core) @ Leuven, Belgium
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it the next [Galaxy Update](/src/galaxy-updates/index.md) and [News Brief](/src/dev-news-briefs/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it the next [Galaxy Update](/src/galaxy-updates/index.md) and [News Brief](/src/docs/index.md).
 <br />
 <br />
 ----
