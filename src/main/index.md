@@ -1,7 +1,7 @@
 ---
 autotoc: true
+title: Galaxy Main public site
 ---
-# Galaxy Main public site
 
 The main Galaxy site at http://usegalaxy.org is an installation of the Galaxy software combined with many common tools and data; this site has been available since 2007 for anyone to analyze their data free of charge. The site provides substantial CPU and disk space, making it possible to analyze large datasets. The site supports thousands of users and hundreds of thousands of jobs per month (see [Project Statistics](/src/galaxy-project/statistics)). It is sustained by [TACC](https://www.tacc.utexas.edu/) hardware using allocation generously provided by the [CyVerse](http://www.cyverse.org/) project.  
 
@@ -21,15 +21,15 @@ Our public site utilizes multiple computational resources distributed across the
 
 Most jobs initially run on Galaxy cluster. They can be automatically "resubmitted" to [Stampede](https://portal.tacc.utexas.edu/user-guides/stampede) if they exceed the walltime (run time limit). The walltime differs per tool and is calculated based on previous average runtimes of that tool. Below are average runtimes for some of the most frequently used tools:
 
-| Tool      | Walltime           |
-|-----------|--------------------|
-| BWA       |3 hours, 41 minutes |
-| BWA-MEM   | 4 hours, 55 minutes|
-| Bowtie    |2 hours, 35 minutes |
-| Tophat    |6 hours, 11 minutes |
-| Cufflinks | 4 hours, 5 minutes |
-| Cuffdiff  |8 hours, 11 minutes |
-| Cuffmerge |1 hour, 6 minutes   |
+| Tool      | Walltime            |
+|-----------|---------------------|
+| BWA       | 3 hours, 41 minutes |
+| BWA-MEM   | 4 hours, 55 minutes |
+| Bowtie    | 2 hours, 35 minutes |
+| Tophat    | 6 hours, 11 minutes |
+| Cufflinks | 4 hours, 5 minutes  |
+| Cuffdiff  | 8 hours, 11 minutes |
+| Cuffmerge | 1 hour, 6 minutes   |
 
 
 When a job is resubmitted you will see its state turn from running (yellow) back to gray (queued) and a blue message box will appear when the dataset is expanded explaining that the job has been resubmitted.
@@ -49,8 +49,6 @@ Tools in the previous section can also be manually submitted directly to Stamped
 
 In addition to these resources some jobs (involving tools for genome and transcriptome assembly) are submitted to [Bridges](https://www.psc.edu/index.php/resources/computing/bridges) at Pittsburgh Supercomputing Center. In addition, jobs are also being submitted to [Jetstream](https://jetstream-cloud.org/) resource at Indiana University.   
 
-
-<a name="Quotas"></a>
 ## User data and job quotas
 
 Jobs that have low mamory and CPU requirements are subject to the following limits:
