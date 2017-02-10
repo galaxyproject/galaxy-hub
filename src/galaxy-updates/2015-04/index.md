@@ -15,7 +15,7 @@ title: The April 2015 Galactic News!
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the April 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. *[These newsletters](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the April 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. *[These newsletters](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # New Papers
 
@@ -417,15 +417,15 @@ One new [Community Log Board](/src/community/logs/index.md) entry was added in M
 <br /><br />
 <span style="font-size: larger;"> Highlights </span>
 
- **[Release Versioning](/src/dev-news-briefs/2015-03/index.md#release_versioning)**
+ **[Release Versioning](/src/archive/dev-news-briefs/2015-03/index.md#release_versioning)**
 
   Starting with this distribution, an updated Galaxy release versioning system has been implemented. The versioning scheme is [Ubuntu-style](https://wiki.ubuntu.com/Releases).
 
- **[Github](/src/dev-news-briefs/2015-03/index.md#github)**
+ **[Github](/src/archive/dev-news-briefs/2015-03/index.md#github)**
 
   Galaxy development has moved to Github, but stable/release changes are mirrored to Bitbucket. Deployers can continue to use Bitbucket as they have done in the past. Release branches discussed in the full release notes.
 
- **[Tool Redesign](/src/dev-news-briefs/2015-03/index.md#tool_redesign)**
+ **[Tool Redesign](/src/archive/dev-news-briefs/2015-03/index.md#tool_redesign)**
 
   Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolshed) and many are ready for use on Galaxy [Main](/src/main/index.md).
 

@@ -15,7 +15,7 @@ title: The May 2015 Galactic News!
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the May 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. *[These newsletters](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the May 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. *[These newsletters](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 # New Papers
 
@@ -467,7 +467,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 ## Others
 
  **Galaxy v15.03**
-   The [most recent Galaxy release is V 15.03](/src/dev-news-briefs/2015-03/index.md), released in March. 
+   The [most recent Galaxy release is V 15.03](/src/archive/dev-news-briefs/2015-03/index.md), released in March. 
 
  **[CloudMan](/src/cloudman/index.md) **
    The [most recent edition of CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release) was released in August.

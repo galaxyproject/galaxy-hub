@@ -41,7 +41,7 @@ adding file changes
 added 8 changesets with 3443 changes to 3443 files
 updating to branch default
 3443 files updated, 0 files merged, 0 files removed, 0 files unresolved
-galaxy@gcc2014:~$ 
+galaxy@gcc2014:~$
 ```
 
 
@@ -134,7 +134,7 @@ tool_dependency_dir = /home/galaxy/tool_deps
 Then save and quit (`CTRL-x` `y` `ENTER` in nano). Start Galaxy again:
 
 ```console
-galaxy@gcc2014:~/galaxy-dist$ sh run.sh 
+galaxy@gcc2014:~/galaxy-dist$ sh run.sh
 ...
 Starting server in PID 3298.
 serving on 127.0.0.1:8080 view at http://127.0.0.1:8080
@@ -156,7 +156,7 @@ serving on 127.0.0.1:8080 view at http://127.0.0.1:8080
 
 ### References
 
-* [Tools hub page](/src/admin/tools/index.md)
+* [Tools hub page](/src/tools/index.md)
 * [Tutorial on adding custom tools](/src/admin/tools/add-tool-tutorial/index.md)
 * [Tutorial on installing tools from the Tool Shed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
 * [Current tools/ directory](https://bitbucket.org/galaxy/galaxy-central/src/3b42725359224832317a066d95dff596f93ab33f/tools?at=stable)
@@ -223,9 +223,9 @@ Documentation for the features used in this section can be found at [usegalaxy.o
 
 ```hightlight console
 galaxy@gcc2014:~/galaxy-dist$ sudo apt-get install postgresql
-[sudo] password for galaxy: 
+[sudo] password for galaxy:
 Reading package lists... Done
-Building dependency tree       
+Building dependency tree
 Reading state information... Done
 postgresql is already the newest version.
 ...
@@ -238,7 +238,7 @@ galaxy@gcc2014:~/galaxy-dist$ sudo -u postgres createdb -O gxprod gxprod
 
 ```console
 galaxy@gcc2014:~/galaxy-dist$ sudo useradd -m -s /bin/bash gxprod
-galaxy@gcc2014:~/galaxy-dist$ 
+galaxy@gcc2014:~/galaxy-dist$
 ```
 
 
@@ -261,7 +261,7 @@ gxprod@gcc2014:~$ virtualenv venv
 New python executable in venv/bin/python
 Installing setuptools, pip...done.
 gxprod@gcc2014:~$ source ./venv/bin/activate
-(venv)gxprod@gcc2014:~$ 
+(venv)gxprod@gcc2014:~$
 ```
 
 
@@ -282,7 +282,7 @@ gxprod@gcc2014:~/galaxy-dist$ hg update stable
 264 files updated, 0 files merged, 144 files removed, 0 files unresolved
 gxprod@gcc2014:~/galaxy-dist$ cp -r ~galaxy/galaxy-central/eggs .
 0 files updated, 0 files merged, 0 files removed, 0 files unresolved
-gxprod@gcc2014:~/galaxy-dist$ 
+gxprod@gcc2014:~/galaxy-dist$
 ```
 
 
@@ -428,7 +428,7 @@ serving on http://127.0.0.1:8080
 ^C
   ...
 gxprod@gcc2014:~/galaxy-dist$ logout
-galaxy@gcc2014:~$ 
+galaxy@gcc2014:~$
 ```
 
 
@@ -452,7 +452,7 @@ Downloading/unpacking ansible
   ...
 Successfully installed ansible paramiko jinja2 PyYAML pycrypto ecdsa markupsafe
 Cleaning up...
-(ansible)galaxy@gcc2014:~$ 
+(ansible)galaxy@gcc2014:~$
 ```
 
 
@@ -467,11 +467,11 @@ HTTP request sent, awaiting response... 200 OK
 Length: 6521 (6.4K) [text/plain]
 Saving to: ‘nginx.yml’
 
-100%[=========================================>] 6,521       --.-K/s   in 0s      
+100%[=========================================>] 6,521       --.-K/s   in 0s
 
 2014-06-28 12:07:26 (974 MB/s) - ‘nginx.yml’ saved [6521/6521]
 
-(ansible)galaxy@gcc2014:~$ 
+(ansible)galaxy@gcc2014:~$
 ```
 
 
@@ -481,23 +481,23 @@ Run the playbook to generate an nginx package:
 
 ```console
 (ansible)galaxy@gcc2014:~$ ansible-playbook -i localhost, nginx.yml --ask-sudo-pass --extra-vars work_dir=/home/galaxy/nginx-build
-sudo password: 
+sudo password:
 
-PLAY [localhost] ************************************************************** 
+PLAY [localhost] **************************************************************
 
-GATHERING FACTS *************************************************************** 
+GATHERING FACTS ***************************************************************
 ok: [localhost]
 
   ...
 
-TASK: [Create deb] ************************************************************ 
+TASK: [Create deb] ************************************************************
 changed: [localhost]
 
-PLAY RECAP ******************************************************************** 
-localhost                  : ok=12   changed=3    unreachable=0    failed=0   
+PLAY RECAP ********************************************************************
+localhost                  : ok=12   changed=3    unreachable=0    failed=0
 
 (ansible)galaxy@gcc2014:~$ deactivate
-galaxy@gcc2014:~$ 
+galaxy@gcc2014:~$
 ```
 
 
@@ -508,7 +508,7 @@ Uninstall conflicting nginx packages:
 ```console
 galaxy@gcc2014:~$ sudo apt-get remove nginx nginx-core nginx-common
 Reading package lists... Done
-Building dependency tree       
+Building dependency tree
 Reading state information... Done
 The following packages were automatically installed and are no longer required:
   libcurses-perl libslurmdb-perl libslurmdb26
@@ -517,27 +517,27 @@ The following packages will be REMOVED:
   nginx nginx-common nginx-core
 0 upgraded, 0 newly installed, 3 to remove and 12 not upgraded.
 After this operation, 1,295 kB disk space will be freed.
-Do you want to continue? [Y/n] 
+Do you want to continue? [Y/n]
 (Reading database ... 244985 files and directories currently installed.)
 Removing nginx (1.4.6-1ubuntu3) ...
 Removing nginx-core (1.4.6-1ubuntu3) ...
 Removing nginx-common (1.4.6-1ubuntu3) ...
 Processing triggers for man-db (2.6.7.1-1) ...
-galaxy@gcc2014:~$ 
+galaxy@gcc2014:~$
 ```
 
 
 Install the new nginx package:
 
 ```console
-galaxy@gcc2014:~$ sudo dpkg -i /home/galaxy/nginx-build/nginx-galaxy_1.4.7-gxydev+trusty_amd64.deb 
+galaxy@gcc2014:~$ sudo dpkg -i /home/galaxy/nginx-build/nginx-galaxy_1.4.7-gxydev+trusty_amd64.deb
 Selecting previously unselected package nginx-galaxy.
 (Reading database ... 244964 files and directories currently installed.)
 Preparing to unpack .../nginx-galaxy_1.4.7-gxydev+trusty_amd64.deb ...
 Unpacking nginx-galaxy (1.4.7-gxydev+trusty) ...
 Setting up nginx-galaxy (1.4.7-gxydev+trusty) ...
 galaxy@gcc2014:~$ sudo mkdir /var/opt/nginx
-galaxy@gcc2014:~$ 
+galaxy@gcc2014:~$
 ```
 
 
@@ -558,14 +558,14 @@ galaxy@gcc2014:~/galaxy-dist$ sudo update-rc.d -f uwsgi remove
    /etc/rc4.d/S20uwsgi
    /etc/rc5.d/S20uwsgi
    /etc/rc6.d/K20uwsgi
-galaxy@gcc2014:~/galaxy-dist$ 
+galaxy@gcc2014:~/galaxy-dist$
 ```
 
 
 ## Configure nginx
 
 ```console
-galaxy@gcc2014:/opt/nginx/conf$ sudo vi /opt/nginx/conf/nginx.conf 
+galaxy@gcc2014:/opt/nginx/conf$ sudo vi /opt/nginx/conf/nginx.conf
 ```
 
 
@@ -783,7 +783,7 @@ galaxy@gcc2014:~$ sudo supervisorctl restart galaxy:*
 
 ## Shipping Jobs to Remote Resources with Pulsar
 
-Pulsar (formerly called the LWR) allows Galaxy jobs to be staged to remote clusters without shared disk. 
+Pulsar (formerly called the LWR) allows Galaxy jobs to be staged to remote clusters without shared disk.
 
 We only have one VM for this workshop - so we are going to simulate this by shipping ``gxprod`` jobs in the Galaxy instance we just configured back to a Pulsar server running as the ``galaxy`` user.
 
@@ -798,7 +798,7 @@ galaxy@gcc2014:~$ . ansible/bin/activate
 galaxy@gcc2014:~/galaxy-ansible$ cd ~/pulsar
 galaxy@gcc2014:~/pulsar$ ./run.sh -m paster --daemon
 Entering daemon mode
-galaxy@gcc2014:~/pulsar$ 
+galaxy@gcc2014:~/pulsar$
 ```
 
 
@@ -850,7 +850,7 @@ Now as the ``galaxy`` user restart the job handlers
 ```console
 gxprod@gcc2014:~/galaxy-dist$ exit
 galaxy@gcc2014:~$ sudo supervisorctl restart galaxy:*
-[sudo] password for galaxy: 
+[sudo] password for galaxy:
 handler0: stopped
 handler1: stopped
 handler0: started
@@ -879,7 +879,7 @@ HTTP request sent, awaiting response... 200 OK
 Length: 3823174 (3.6M) [application/x-gzip]
 Saving to: ‘chromFa.tar.gz’
 
-100%[==================================================>] 3,823,174   1.01MB/s   in 4.3s   
+100%[==================================================>] 3,823,174   1.01MB/s   in 4.3s
 
 2014-06-29 14:09:29 (859 KB/s) - ‘chromFa.tar.gz’ saved [3823174/3823174]
 
@@ -906,7 +906,7 @@ galaxy@gcc2014:~/local_data/sacCer2/seq/work$ cat *.fa >../sacCer2.fa
 galaxy@gcc2014:~/local_data/sacCer2/seq/work$ cd ../..
 galaxy@gcc2014:~/local_data/sacCer2$ mkdir bwa_index
 galaxy@gcc2014:~/local_data/sacCer2$ cd bwa_index
-galaxy@gcc2014:~/local_data/sacCer2/bwa_index$ ln -s ../seq/sacCer2.fa 
+galaxy@gcc2014:~/local_data/sacCer2/bwa_index$ ln -s ../seq/sacCer2.fa
 galaxy@gcc2014:~/local_data/sacCer2/bwa_index$ ~/tool_deps/bwa/0.5.9/devteam/package_bwa_0_5_9/ec2595e4d313/bin/bwa index -a bwtsw sacCer2.fa
 [bwa_index] Pack FASTA... 0.18 sec
 [bwa_index] Reverse the packed sequence... 0.06 sec

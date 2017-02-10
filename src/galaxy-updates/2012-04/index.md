@@ -8,7 +8,7 @@ title: April 2012 Galaxy Update
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the April 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the April 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Papers
 
@@ -169,7 +169,7 @@ At least *15* new repositories were added to the [Galaxy Tool Shed](http://tools
 
 ## New Distribution
 
-There has been one [Galaxy distribution](/src/dev-news-briefs/index.md) in the past month.  The [most recent release (March 12)](/src/dev-news-briefs/2012-03-12/index.md), includes these highlights:
+There has been one [Galaxy distribution](/src/docs/index.md) in the past month.  The [most recent release (March 12)](/src/archive/dev-news-briefs/2012-03-12/index.md), includes these highlights:
 * **Emboss tools and datatypes** moving from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)* in the **NEXT release**. Read more about the upcoming **[tool migrations...](/src/toolshed/index.md#migrating_tools_from_the_galaxy_distribution_to_the_galaxy_main_tool_shed)**
 * Galaxy tool [XML configuration](/src/toolshed/index.md#xml_configuration_files_used_to_populate_your_galaxy_tool_panel), managing [tool panel layout](/src/toolshed/index.md#managing_the_layout_of_your_galaxy_tool_panel), and Galaxy [tool versions](/src/toolshed/index.md#galaxy_tool_versions).
 * **RNA-Seq Tools:** Added **[CuffMerge](http://cufflinks.cbcb.umd.edu/)** version 1.0.0, Updated **[TopHat](http://tophat.cbcb.umd.edu/)** default parameters

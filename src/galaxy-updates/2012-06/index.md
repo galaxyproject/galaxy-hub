@@ -8,7 +8,7 @@ title: June 2012 Galaxy Update
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the June 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the June 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Public Server: GWIPS-Viz
 
@@ -186,7 +186,7 @@ were created, and the `mira_asssembler`, `seq_select_by_id`, and `java_genomics_
 
 ## New Distribution
 
-A new Galaxy distribution was [released on May 11, 2012](/src/dev-news-briefs/2012-05-11/index.md).  
+A new Galaxy distribution was [released on May 11, 2012](/src/archive/dev-news-briefs/2012-05-11/index.md).  
 
 **Some Highlights:**
 <div class='right'><a href='/src/learn/visualization/index.md'><img src="/src/images/news-graphics/2012_05_11_gatk-workflow.png" alt="gatk-workflow" width="180px" /></a></div>

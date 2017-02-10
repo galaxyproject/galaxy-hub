@@ -4,7 +4,7 @@ date: 2012-09-07T20:54:28Z
 <div class='newsItemHeader'>[Sept 7, 2012 Distribution & News Brief](/News/Sep072012 Distribution News Brief)</div>
 
 
-**Complete [News Brief](/src/dev-news-briefs/2012-09-07/index.md)**
+**Complete [News Brief](/src/archive/dev-news-briefs/2012-09-07/index.md)**
 <div class='right'><a href='/DevNewsBriefs/2012_09_07'><img src='/images/NewsGraphics/2012_09_07_toolshed-menu.png' alt='toolshed-menu' width="250px" /></a></div>
 **Highlights:**
 * **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/)** has moved from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)*.
