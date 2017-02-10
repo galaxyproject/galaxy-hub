@@ -169,7 +169,7 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 * While no *hard* quotas are currently implemented at the public Galaxy [Main](http://usegalaxy.org) instance, we do ask that users stay within certain usage limits:
     [Main Quotas](http://galaxyproject.org/wiki/Main#Quotas)
 * If you find that you require additional resources, please consider the alternative Galaxy options explained at:
-    [BigPicture/Choices](/src/big-picture/choices/index.md)
+    [BigPicture/Choices](/src/choices/index.md)
 
 ### Bug Fixes
 

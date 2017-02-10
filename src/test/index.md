@@ -16,7 +16,7 @@ The [Learn](/src/learn/index.md) pages include information on how to use Test, M
 * [Datasets](/src/learn/managing-datasets/index.md)
 * [Disk Quotas](/src/admin/disk-quotas/index.md)
 
-See [Choices](/src/big-picture/choices/index.md) for more on other choices for using and running Galaxy.
+See [Choices](/src/choices/index.md) for more on other choices for using and running Galaxy.
 
 ## Job resubmission to Stampede
 
