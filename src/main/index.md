@@ -21,40 +21,16 @@ Our public site utilizes multiple computational resources distributed across the
 
 Most jobs initially run on Galaxy cluster. They can be automatically "resubmitted" to [Stampede](https://portal.tacc.utexas.edu/user-guides/stampede) if they exceed the walltime (run time limit). The walltime differs per tool and is calculated based on previous average runtimes of that tool. Below are average runtimes for some of the most frequently used tools:
 
-<table class="table table-striped">
-  <tr>
-    <th> Tool </th>
-    <th> Walltime </th>
-  </tr>
-  <tr>
-    <th> BWA </th>
-    <td> 3 hours, 41 minutes </td>
-  </tr>
-  <tr>
-    <th> BWA-MEM </th>
-    <td> 4 hours, 55 minutes </td>
-  </tr>
-  <tr>
-    <th> Bowtie </th>
-    <td> 2 hours, 35 minutes </td>
-  </tr>
-  <tr>
-    <th> Tophat </th>
-    <td> 6 hours, 11 minutes </td>
-  </tr>
-  <tr>
-    <th> Cufflinks </th>
-    <td> 4 hours, 5 minutes </td>
-  </tr>
-  <tr>
-    <th> Cuffdiff </th>
-    <td> 8 hours, 11 minutes </td>
-  </tr>
-  <tr>
-    <th> Cuffmerge </th>
-    <td> 1 hour, 6 minutes </td>
-  </tr>
-</table>
+| Tool      | Walltime           |
+|-----------|--------------------|
+| BWA       |3 hours, 41 minutes |
+| BWA-MEM   | 4 hours, 55 minutes|
+| Bowtie    |2 hours, 35 minutes |
+| Tophat    |6 hours, 11 minutes |
+| Cufflinks | 4 hours, 5 minutes |
+| Cuffdiff  |8 hours, 11 minutes |
+| Cuffmerge |1 hour, 6 minutes   |
+
 
 When a job is resubmitted you will see its state turn from running (yellow) back to gray (queued) and a blue message box will appear when the dataset is expanded explaining that the job has been resubmitted.
 
@@ -64,28 +40,12 @@ Our goal with the Stampede resubmission system is to provide a balance to Galaxy
 
 Tools in the previous section can also be manually submitted directly to Stampede. This is a good idea if you know (or strongly suspect) that a tool will exceed the walltime on the local cluster. On the form for these tools, a **Job Resource Parameters** parameter is available that, if selected, will display a **Compute Resources** selection parameter. The options for this parameter are:
 
-<table class="table table-striped">
-  <tr>
-    <td>Resource</td>
-    <th>Characteristics</th>
-  </tr>
-  <tr>
-    <th> Galaxy cluster (default): </th>
-    <td> variable walltime, 6 cores, 32 GB memory, no/short wait </td>
-  </tr>
-  <tr>
-    <th> TACC Stampede: </th>
-    <td> 48 hour walltime, 16 cores, 32 GB memory, variable wait </td>
-  </tr>
-  <tr>
-    <th> Galaxy cluster test/development: </th>
-    <td> 30 minute walltime, 2 cores, 16 GB, no/short wait </td>
-  </tr>
-  <tr>
-    <th> TACC Stampede test/development: </th>
-    <td> 1 hour walltime, 16 cores, 32 GB, variable wait </td>
-  </tr>
-</table>
+| Resource                                    | Characteristics                                         |
+|---------------------------------------------|---------------------------------------------------------|
+| Galaxy cluster (default)                    | variable walltime, 6 cores, 32 GB memory, no/short wait |
+| TACC Stampede                               | 48 hour walltime, 16 cores, 32 GB memory, variable wait |
+| Galaxy cluster test/development             | 30 minute walltime, 2 cores, 16 GB, no/short wait       |
+| TACC Stampede test/development              | 1 hour walltime, 16 cores, 32 GB, variable wait         |
 
 In addition to these resources some jobs (involving tools for genome and transcriptome assembly) are submitted to [Bridges](https://www.psc.edu/index.php/resources/computing/bridges) at Pittsburgh Supercomputing Center. In addition, jobs are also being submitted to [Jetstream](https://jetstream-cloud.org/) resource at Indiana University.   
 
@@ -93,57 +53,43 @@ In addition to these resources some jobs (involving tools for genome and transcr
 <a name="Quotas"></a>
 ## User data and job quotas
 
-Jobs that have low mamory and CPU requirements are subject to the following limits
-:
+Jobs that have low mamory and CPU requirements are subject to the following limits:
 
-<table class="table table-striped">
-  <tr>
-    <th> Maximum total accounts per user: </th>
-    <td> 1 registered/unregistered </td>
-  </tr>
-  <tr>
-    <th> Maximum total user data on server: </th>
-    <td> 250GB for registered users<br />5GB for unregistered users </td>
-  </tr>
-  <tr>
-    <th> Maximum concurrent jobs: </th>
-    <td> 6 for registered users<br />1 for unregistered users</td>
-  </tr>
-</table>
-
+| Maximum total accounts per user   | 1 registered/unregistered                              |
+|-----------------------------------|--------------------------------------------------------|
+| Maximum total user data on server | 250GB for registered users, 5GB for unregistered users |
+| Maximum concurrent jobs           | 6 for registered users, 1 for unregistered users       |
 
 Tools utilizing multiple CPUs and over 8 Gb of RAM are subject to stricted limits:
 
-<table class="table table-striped">
-  <tr>
-    <td> Resource </td>
-    <th> Per-resource job concurrency quotas </th>
-  </tr>
-  <tr>
-    <th> Increased memory tools: </th>
-    <td> 1 registered/unregistered </td>
-  </tr>
-  <tr>
-    <th> Galaxy cluster: </th>
-    <td> 2 registered, unregistered not allowed </td>
-  </tr>
-  <tr>
-    <th> TACC Stampede: </th>
-    <td> 4 registered, unregistered not allowed </td>
-  </tr>
-  <tr>
-    <th> Galaxy cluster test/development: </th>
-    <td> 1 registered, unregistered not allowed </td>
-  </tr>
-  <tr>
-    <th> TACC Stampede test/development: </th>
-    <td> 1 registered, unregistered not allowed </td>
-  </tr>
-</table>
+
+| Resource                        | Per-resource job concurrency quotas    |
+|---------------------------------|----------------------------------------|
+| Increased memory tools          | 1 registered/unregistered              |
+| Galaxy cluster                  | 2 registered, unregistered not allowed | 
+| TACC Stampede                   | 4 registered, unregistered not allowed | 
+| Galaxy cluster test/development | 1 registered, unregistered not allowed | 
+| TACC Stampede test/development  | 1 registered, unregistered not allowed |
+
 
 ## Galaxy Web Portal Service Agreement
 
- 1. Use of Service. The Galaxy Web Portal is a free, public, Internet accessible resource (the "Service"). Data transfer and data storage are not encrypted. If there are restrictions on the way your research data can be stored and used, please consult your local institutional review board or the project principal investigator before uploading it to any public site, including this Service. If you have protected data, large data storage requirements, or short deadlines you are encouraged to set up your own local Galaxy instance and not use this Service. Your access to the service may be revoked at any time for reasons deemed necessary by the operators of the Service.
- 1. Accounts and Service Limitations. You may choose to register an account with the Service. Your registration data is primarily used so you may persistently store data on the Service and use advanced Galaxy features such as sharing and workflows. The operators of the Service will not provide your registration data to any third party unless required to do so by law. Your access to the Service is provided under the condition that you abide by any published quotas on data storage, job submissions, or any other limitations placed on the public Service. Attempts to subvert these limits by creating multiple accounts or through any other method may result in termination of all associated accounts.
- 1. Disclaimer. The Service is provided to you on an "AS IS" BASIS and WITHOUT WARRANTY, either express or implied, including, without limitation, the warranties of non-infringement, merchantability or fitness for a particular purpose. THE ENTIRE RISK AS TO THE QUALITY OF THE SERVICE IS WITH YOU. This DISCLAIMER OF WARRANTY constitutes an essential part of this service agreement.
- 1. Limitation of Liability. Under no circumstances and under no legal theory, whether in tort (including negligence), contract, or otherwise, shall The Pennsylvania State University or any other entity which provides resources for the Service be liable to anyone for any indirect, special, incidental, or consequential damages of any character arising as a result of the use of this Service including, without limitation, damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses. This limitation of liability shall not apply to the extent applicable law prohibits such limitation.
+<div class="well well-lg">
+
+**Use of Service.**
+<br>
+The Galaxy Web Portal is a free, public, Internet accessible resource (the "Service"). Data transfer and data storage are not encrypted. If there are restrictions on the way your research data can be stored and used, please consult your local institutional review board or the project principal investigator before uploading it to any public site, including this Service. If you have protected data, large data storage requirements, or short deadlines you are encouraged to set up your own local Galaxy instance and not use this Service. Your access to the service may be revoked at any time for reasons deemed necessary by the operators of the Service.
+<br>
+**Accounts and Service Limitations.**
+<br>
+You may choose to register an account with the Service. Your registration data is primarily used so you may persistently store data on the Service and use advanced Galaxy features such as sharing and workflows. The operators of the Service will not provide your registration data to any third party unless required to do so by law. Your access to the Service is provided under the condition that you abide by any published quotas on data storage, job submissions, or any other limitations placed on the public Service. Attempts to subvert these limits by creating multiple accounts or through any other method may result in termination of all associated accounts.
+<br>
+**Disclaimer.**
+<br>
+The Service is provided to you on an "AS IS" BASIS and WITHOUT WARRANTY, either express or implied, including, without limitation, the warranties of non-infringement, merchantability or fitness for a particular purpose. THE ENTIRE RISK AS TO THE QUALITY OF THE SERVICE IS WITH YOU. This DISCLAIMER OF WARRANTY constitutes an essential part of this service agreement.
+<br>
+**Limitation of Liability.**
+<br>
+Under no circumstances and under no legal theory, whether in tort (including negligence), contract, or otherwise, shall The Pennsylvania State University or any other entity which provides resources for the Service be liable to anyone for any indirect, special, incidental, or consequential damages of any character arising as a result of the use of this Service including, without limitation, damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses. This limitation of liability shall not apply to the extent applicable law prohibits such limitation.
+
+</div>
