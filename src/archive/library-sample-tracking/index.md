@@ -9,7 +9,7 @@ This tutorial provides information about using Galaxy's [Data libraries](/src/ad
 
 ## Data Libraries
 
-An "Admin" link will appear in the Galaxy top menu bar when you login to Galaxy as an [admin user](/src/admin/Interface/index.md), and clicking the link will display the Admin perspective which includes a menu of features in the left panel.
+An "Admin" link will appear in the Galaxy top menu bar when you login to Galaxy as an [admin user](/src/admin/interface/index.md), and clicking the link will display the Admin perspective which includes a menu of features in the left panel.
 
 ![](/src/archive/library-sample-tracking/admin.png)
 

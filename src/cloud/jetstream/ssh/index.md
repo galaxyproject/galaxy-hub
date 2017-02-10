@@ -27,7 +27,7 @@ Galaxy has an extensive set of administrative [configuration options](/src/admin
 
 ### Adding Galaxy Admin user
 
-To be able to add new tools or reference data, it is necessary to become Galaxy Admin user and use the [admin panel](/src/admin/Interface/index.md). This is done by editing Galaxy settings (see above section) and adding a line like the following under the *[app:main]* section: *admin_users = <registered user's email address>*. Save the file and restart Galaxy process.
+To be able to add new tools or reference data, it is necessary to become Galaxy Admin user and use the [admin panel](/src/admin/interface/index.md). This is done by editing Galaxy settings (see above section) and adding a line like the following under the *[app:main]* section: *admin_users = <registered user's email address>*. Save the file and restart Galaxy process.
 
 ## Restarting Galaxy
 
