@@ -352,7 +352,7 @@ See [this article](http://bit.ly/GDSjK4) for more on Lifeportal and why UIO chos
 
 # Galaxy Distributions
 
-The most recent [Galaxy distribution was August 12](/src/dev-news-briefs/2013-08-12/index.md).
+The most recent [Galaxy distribution was August 12](/src/archive/dev-news-briefs/2013-08-12/index.md).
 
 A new version of [CloudMan](/src/cloudman/index.md) was [released in July](/src/news/cloudman-release/index.md).
 

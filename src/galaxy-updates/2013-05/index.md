@@ -223,7 +223,7 @@ The next [GalaxyAdmins Meetup will be May 15](/src/community/galaxy-admins/meetu
 
 ## Galaxy Distributions
 
-The most recent official distribution was on [April 1, 2013](/src/dev-news-briefs/2013-04-01/index.md).  However, [a security update was released on April 8](/src/news/2013-04-08-galaxy-security-release/index.md).  See [this news item](/src/news/2013-04-08-galaxy-security-release/index.md) for details.
+The most recent official distribution was on [April 1, 2013](/src/archive/dev-news-briefs/2013-04-01/index.md).  However, [a security update was released on April 8](/src/news/2013-04-08-galaxy-security-release/index.md).  See [this news item](/src/news/2013-04-08-galaxy-security-release/index.md) for details.
 
 ## Tool Shed Contributions
 

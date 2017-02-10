@@ -3,7 +3,7 @@ date: 2011-11-19T01:36:15Z
 ---
 <div class='newsItemHeader'>[November 18, 2011 Distribution & News Brief](/News/Nov 2011 Distribution News Brief)</div>
 
-**Complete [News Brief](/src/dev-news-briefs/2011-11-18/index.md)**
+**Complete [News Brief](/src/archive/dev-news-briefs/2011-11-18/index.md)**
 
 **Highlights:**
 

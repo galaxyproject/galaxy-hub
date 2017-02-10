@@ -251,7 +251,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## Aug 12, 2013 Galaxy Distribution
 
-**[Highlights](/src/dev-news-briefs/2013-08-12/index.md):**
+**[Highlights](/src/archive/dev-news-briefs/2013-08-12/index.md):**
 
 * Upgrades to **Data Manager** including improved installation actions
 * **Visualization** Framework tunings, plus updates to **Phyloviz**, **Scatterplot**, and **Trackster**

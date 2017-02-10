@@ -3,7 +3,7 @@ date: 2012-05-12T00:51:22Z
 ---
 <div class='newsItemHeader'>[May 11, 2012 Distribution & News Brief](/News/May112012 Distribution News Brief)</div>
 
-**Complete [News Brief](/src/dev-news-briefs/2012-05-11/index.md)**
+**Complete [News Brief](/src/archive/dev-news-briefs/2012-05-11/index.md)**
 
 **Highlights:**
 <div class='right'><a href='/Learn/Visualization'><img src='/images/NewsGraphics/2012_05_11_gatk-workflow.png' alt='gatk-workflow' width="180px" /></a></div>

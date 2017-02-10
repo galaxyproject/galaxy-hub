@@ -301,7 +301,7 @@ One new [public Galaxy servers](/src/public-galaxy-servers/index.md) was added t
 
 # Galaxy Distributions
 
-The most recent [Galaxy Distribution was released on April 14, 2014](/src/dev-news-briefs/2014-04-14/index.md).
+The most recent [Galaxy Distribution was released on April 14, 2014](/src/archive/dev-news-briefs/2014-04-14/index.md).
 
 [BioBlend 0.4.3](https://pypi.python.org/pypi/bioblend/0.4.3) was released on April 11, 2014.  
 

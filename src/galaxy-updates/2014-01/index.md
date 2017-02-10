@@ -355,7 +355,7 @@ See "[CAPER 2.0: An Interactive, Configurable, and Extensible Workflow-Based Pla
 
 # Galaxy Distributions
 
-The [most recent Galaxy Distribution was November 04, 2013](/src/dev-news-briefs/2013-11-04/index.md).
+The [most recent Galaxy Distribution was November 04, 2013](/src/archive/dev-news-briefs/2013-11-04/index.md).
 
 The latest version of [CloudMan](/src/cloudman/index.md) was [released in July](/src/news/cloudman-release/index.md).
 

@@ -186,7 +186,7 @@ were created, and the `mira_asssembler`, `seq_select_by_id`, and `java_genomics_
 
 ## New Distribution
 
-A new Galaxy distribution was [released on May 11, 2012](/src/dev-news-briefs/2012-05-11/index.md).  
+A new Galaxy distribution was [released on May 11, 2012](/src/archive/dev-news-briefs/2012-05-11/index.md).  
 
 **Some Highlights:**
 <div class='right'><a href='/src/learn/visualization/index.md'><img src="/src/images/news-graphics/2012_05_11_gatk-workflow.png" alt="gatk-workflow" width="180px" /></a></div>

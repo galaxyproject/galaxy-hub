@@ -254,7 +254,7 @@ Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2
 
 ## New Distributions
 
-The most recent Galaxy distribution was [released on July 20, 2012](/src/dev-news-briefs/2012-07-20/index.md).
+The most recent Galaxy distribution was [released on July 20, 2012](/src/archive/dev-news-briefs/2012-07-20/index.md).
 
 ## Other News
 

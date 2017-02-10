@@ -246,7 +246,7 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
 
 # Galaxy Distributions
 
-The most recent official distribution was on [June 3, 2013](/src/dev-news-briefs/2013-06-03/index.md).  There was a minor [security patch released on June 12](http://announce.list.galaxyproject.org/galaxy-announce-Galaxy-Security-Notification-tt4639243.html).
+The most recent official distribution was on [June 3, 2013](/src/archive/dev-news-briefs/2013-06-03/index.md).  There was a minor [security patch released on June 12](http://announce.list.galaxyproject.org/galaxy-announce-Galaxy-Security-Notification-tt4639243.html).
 
 ## CloudMan Release
 

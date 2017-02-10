@@ -300,7 +300,7 @@ If your account is suspended and you believe that you are not in violation of Ma
 
 ## Galaxy Distributions
 
-The most recent official distribution was on [April 1, 2013](/src/dev-news-briefs/2013-04-01/index.md).  However, [a security update was released on April 8](/src/news/2013-04-08-galaxy-security-release/index.md).  See [this news item](/src/news/2013-04-08-galaxy-security-release/index.md) for details.  We are planning the next release for early June.
+The most recent official distribution was on [April 1, 2013](/src/archive/dev-news-briefs/2013-04-01/index.md).  However, [a security update was released on April 8](/src/news/2013-04-08-galaxy-security-release/index.md).  See [this news item](/src/news/2013-04-08-galaxy-security-release/index.md) for details.  We are planning the next release for early June.
 
 
 ## Tool Shed Contributions

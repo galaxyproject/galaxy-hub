@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[May 11, 2012 Distribution & News Brief](/src/news/May112012 Distribution News Brief/index.md)</div>
 
-**Complete [News Brief](/src/dev-news-briefs/2012-05-11/index.md)**
+**Complete [News Brief](/src/archive/dev-news-briefs/2012-05-11/index.md)**
 
 **Highlights:**
 <div class='right'><a href='/src/learn/visualization/index.md'><img src="/src/images/news-graphics/2012_05_11_gatk-workflow.png" alt="gatk-workflow" width="180px" /></a></div>
