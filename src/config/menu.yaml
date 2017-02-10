@@ -19,14 +19,11 @@
         title: About
         link: galaxy-project
       - Learn:
-        title: Learn
+        title: Tutorials
         link: learn
       - Videos:
         title: Videos
         link: https://vimeo.com/groups/teachinggalaxy
-      - Tours:
-        title: Interactive Tours
-        link: https://usegalaxy.org/tours/core.history
 - Teach:
   title: Teach
   links:
