@@ -10,13 +10,23 @@ There are many approaches to learning how to *use* Galaxy.  The most popular is 
 
 ## Tutorials using Galaxy main server at http://usegalaxy.org
 
+These tutorials are using Galaxy's main site at http://usegalaxy.org:
+
  - [Galaxy 101](/tutorials/g101)
  - [Understanding histories](/tutorials/histories)
- - Dataset collections
- - NGS logistics
- - Variant discovery: diploid case
+ - [Dataset collections](/tutorials/collections)
+ - [NGS logistics](/tutorials/hgs)
+ - Variant discovery: [diploid case](/tutorials/var_dip)
  - Variant discovery: haploid case
  - RNA seq: reference based
+
+## Interactive Tours
+
+Tours guide you through interface elements interactively:
+
+ - [Using Galaxy Interface](https://usegalaxy.org/tours/core.galaxy_ui)
+ - [Understanding histories](https://usegalaxy.org/tours/core.history)
+ - [Scratch book introduction](https://usegalaxy.org/tours/core.scratchbook)
 
 ## Tutorials by Galaxy Training Network
 
