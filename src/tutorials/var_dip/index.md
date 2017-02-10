@@ -243,12 +243,14 @@ Now that we have an annotated VCF file it is time to peek inside our variation d
 
 The first step is to convert a VCF file we would like to analyze into a GEMINI database. For this we will use **GEMINI Load** tool from **NGS: GEMINI** section. GEMINI takes as input a VCF file and a [PED](http://pngu.mgh.harvard.edu/~purcell/plink/data.shtml) file describing the relationship between samples. In the case of our dataset the PED file looks like this (accessible from [here](https://usegalaxy.org/library/list#folders/F9ff2d127cd7ed6bc/datasets/418b2500e809568b)):
 
-```
-#family_id sample_id            paternal_id          maternal_id         sex phenotype ethnicity
-family1    HG004_NA24143_mother -9                   -9                   2  1         CEU
-family1	   HG003_NA24149_father -9                   -9                   1  1         CEU
-family1	   HG002_NA24385_son	HG003_NA24149_father HG004_NA24143_mother 1  2         CEU
-```
+
+#family_id | sample_id | paternal_id | maternal_id | sex | phenotype | ethnicity
+-----------|-----------|-------------|-------------|-----|-----------|----------
+family1    | HG004_NA24143_mother |-9                    | -9                   | 2 | 1 | CEU
+family1	   | HG003_NA24149_father |-9                    | -9                   | 1 | 1 | CEU
+family1	   | HG002_NA24385_son	  | HG003_NA24149_father | HG004_NA24143_mother | 1 | 2 | CEU
+
+
 So let's load data into GEMINI. Set VCF and PED inputs:
 
 ![](/src/tutorials/var_dip/gemini_load.png)
