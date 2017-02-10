@@ -182,7 +182,7 @@ Next, let's add ourselves (NOTE: not the galaxy user) as administrator to what w
 Most of the changes to `universe_wsgi.ini` can be done using the above steps: search for a line, change or un/comment
 it out, and save (optionally restarting the server afterwards - shown later).
 
-(for more information and another example see: [Admin/Interface](/src/admin/interface/index.md))
+(for more information and another example see: [Admin/Interface](/src/admin/index.md))
 
 
 <br />
@@ -495,7 +495,7 @@ Here you'll see a page where you can:
 * Manage data libraries: commonly used datasets that can be copied quickly by users
 * Create, delete, and manage users as well as: separate them into groups, give them roles, and set data limit quotas
 
-(for more information on other admin options, see: [Admin/Interface](/src/admin/interface/index.md))
+(for more information on other admin options, see: [Admin/Interface](/src/admin/index.md))
 
 
 <br />
