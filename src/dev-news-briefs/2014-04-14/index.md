@@ -4,7 +4,7 @@ title: April 14, 2014 Galaxy Distribution News Brief
 ---
 <div class='right'></div>
 
-[All News Briefs](/src/dev-news-briefs/index.md)
+[All News Briefs](/src/docs/index.md)
 <br />
 [Distribution Summary 2014_04_14](/src/news/2014-04-14-galaxy-distribution/index.md)
 

@@ -48,7 +48,7 @@ The **Galaxy Project** is now using the *[Sphinx](http://sphinx-doc.org/) Python
 Two versions of the documentation are available:
 
 * **[galaxy-dist.readthedocs.org](http://galaxy-dist.readthedocs.org)**
-    This documentation describes the code in the [most recent stable release](/src/dev-news-briefs/index.md) of Galaxy ("galaxy-dist").
+    This documentation describes the code in the [most recent stable release](/src/docs/index.md) of Galaxy ("galaxy-dist").
 
 * **[galaxy-central.readthedocs.org](http://galaxy-central.readthedocs.org)**
     This documentation describes what is currently in the main development branch ("galaxy-central") of Galaxy.  Code updates are automatically propagated from Galaxy's BitBucket.org repository.  This should never be more than 15 minutes out of date.

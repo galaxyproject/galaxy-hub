@@ -4,7 +4,7 @@ title: August 11, 2014 Galaxy Distribution News Brief
 ---
 <div class='right'></div>
 
-[All News Briefs](/src/dev-news-briefs/index.md)
+[All News Briefs](/src/docs/index.md)
 <br />
 [Distribution Summary 2014_08_11](/src/news/2014-08-11-galaxy-distribution/index.md)
 
@@ -160,4 +160,4 @@ Docker integration provides even greater security with [Pulsar](https://github.c
 # About Galaxy
 
 <div class='left'><a href='http://usegalaxy.org'><img src="/src/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
-**[About Galaxy](/src/support/about-galaxy/index.md)** • [Galaxy Project](/src/galaxy-project/index.md) • [Admin](/src/admin/index.md) • [Issues](/src/issues/index.md) • [Big Picture](/src/galaxy-project/index.md) • [Community](/src/community/index.md) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [CloudMan](/src/cloudman/index.md) • [Tool Shed](/src/toolshed/index.md) • [Develop](/src/develop/index.md) • [News Briefs](/src/dev-news-briefs/index.md) • [Servers](/src/public-galaxy-servers/index.md) • [Learn](/src/learn/index.md) • [Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/news/index.md) • [Twitter](/src/galaxy-on-twitter/index.md) • [Events](/src/events/index.md) • [Teach](/src/teach/index.md) • [Issues](/src/issues/index.md) • [Cite](/src/citing-galaxy/index.md) • [Galaxy Team](/src/galaxy-team/index.md)
+**[About Galaxy](/src/support/about-galaxy/index.md)** • [Galaxy Project](/src/galaxy-project/index.md) • [Admin](/src/admin/index.md) • [Issues](/src/issues/index.md) • [Big Picture](/src/galaxy-project/index.md) • [Community](/src/community/index.md) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [CloudMan](/src/cloudman/index.md) • [Tool Shed](/src/toolshed/index.md) • [Develop](/src/develop/index.md) • [News Briefs](/src/docs/index.md) • [Servers](/src/public-galaxy-servers/index.md) • [Learn](/src/learn/index.md) • [Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/news/index.md) • [Twitter](/src/galaxy-on-twitter/index.md) • [Events](/src/events/index.md) • [Teach](/src/teach/index.md) • [Issues](/src/issues/index.md) • [Cite](/src/citing-galaxy/index.md) • [Galaxy Team](/src/galaxy-team/index.md)
