@@ -217,12 +217,12 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 ## Galaxy Distributions
 
-**[February 8, 2013 Galaxy Distribution](/src/dev-news-briefs/2013-02-08/index.md)**
+**[February 8, 2013 Galaxy Distribution](/src/archive/dev-news-briefs/2013-02-08/index.md)**
 
 <div class='indent'>
 <div class='right'><a href='/src/toolshed/index.md'><img src="/src/images/news-graphics/2013_02_6-confirm-dependency-installation-sm2.png" alt="" width="220px" /></a></div>
 **Highlights:**
-* *Improvements* to our [release process](/src/dev-news-briefs/2013-02-08/index.md#improvements_to_release_process). **Release tag must be used in the hg update command to upgrade**. More at **[getgalaxy.org](/src/admin/get-galaxy/index.md)**.
+* *Improvements* to our [release process](/src/archive/dev-news-briefs/2013-02-08/index.md#improvements_to_release_process). **Release tag must be used in the hg update command to upgrade**. More at **[getgalaxy.org](/src/admin/get-galaxy/index.md)**.
 * Tool Shed *[Complex repository dependencies](/src/defining-repository-dependencies/index.md#complex_repository_dependencies_tool_dependency_definitions_that_contain_repository_dependency_definitions)* are introduced, streamlining core dependency use across individual tools. 
 * Also updated in the Tool Shed: multiple repository installation, dependency installation (when defined - see graphic on right for an example), and many usability enhancements and fixes.
 * New *[Bedgraph-to-bigwig](/src/learn/datatypes/index.md#bedgraph)* tool plus *Filter* tool updated.

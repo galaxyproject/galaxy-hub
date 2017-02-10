@@ -467,7 +467,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 ## Others
 
  **Galaxy v15.03**
-   The [most recent Galaxy release is V 15.03](/src/dev-news-briefs/2015-03/index.md), released in March. 
+   The [most recent Galaxy release is V 15.03](/src/archive/dev-news-briefs/2015-03/index.md), released in March. 
 
  **[CloudMan](/src/cloudman/index.md) **
    The [most recent edition of CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release) was released in August.

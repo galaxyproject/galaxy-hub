@@ -210,7 +210,7 @@ Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2
 
 ## New Distributions
 
-A new Galaxy distribution was [released on July 20, 2012](/src/dev-news-briefs/2012-07-20/index.md).  Highlights include:
+A new Galaxy distribution was [released on July 20, 2012](/src/archive/dev-news-briefs/2012-07-20/index.md).  Highlights include:
 * **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** has moved from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)*
 * **[EMBOSS](http://emboss.sourceforge.net/)** version 5.0.0 tool dependencies in the `emboss_5` repository of the Galaxy Main Tool Shed updated to include information for automatically installing. 
 * **Tool Shed** now also supports specifying the third party tool dependencies to be automatically installed in new repositories

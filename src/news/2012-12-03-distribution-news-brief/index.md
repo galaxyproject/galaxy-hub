@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[Dec 3, 2012 Distribution & News Brief](/src/news/2012-12-03-distribution-news-brief/index.md)</div>
 
-**Complete [News Brief](/src/dev-news-briefs/2012-12-03/index.md)**
+**Complete [News Brief](/src/archive/dev-news-briefs/2012-12-03/index.md)**
 <div class='right'><a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2012_12_03_new-history-menu.png" alt="width="350"" /></a></div>
 **Highlights:**
 * **NGS: Mapping** tools **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz/)** have moved from the **[Galaxy distribution](https://bitbucket.org/galaxy/galaxy-dist)** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)**.

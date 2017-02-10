@@ -192,4 +192,4 @@ At least **7** new repositories were added to the [Galaxy Tool Shed](http://tool
 
 ## Distribution
 
-The most recent distribution was on [March 12, 2012](/src/dev-news-briefs/2012-03-12/index.md).  Look for a new one this month.
+The most recent distribution was on [March 12, 2012](/src/archive/dev-news-briefs/2012-03-12/index.md).  Look for a new one this month.

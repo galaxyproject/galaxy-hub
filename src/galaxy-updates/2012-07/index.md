@@ -205,7 +205,7 @@ Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2
 
 ## New Distributions
 
-The most recent Galaxy distribution was [released on May 11, 2012](/src/dev-news-briefs/2012-05-11/index.md).  
+The most recent Galaxy distribution was [released on May 11, 2012](/src/archive/dev-news-briefs/2012-05-11/index.md).  
 
 A new version of CloudMan was [Released in June](/src/news/new-cloudman-release/index.md).
 

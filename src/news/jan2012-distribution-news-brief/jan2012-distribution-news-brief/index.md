@@ -3,7 +3,7 @@ date: 2012-01-20T15:21:31Z
 ---
 <div class='newsItemHeader'>[January 20, 2012 Distribution & News Brief](/News/Jan 2012 Distribution News Brief)</div>
 
-**Complete [News Brief](/src/dev-news-briefs/2012-01-20/index.md)**
+**Complete [News Brief](/src/archive/dev-news-briefs/2012-01-20/index.md)**
 
 **Highlights:**
 

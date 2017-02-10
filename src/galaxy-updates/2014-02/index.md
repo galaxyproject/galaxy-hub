@@ -320,7 +320,7 @@ Several new servers were added to [the list of publicly accessible Galaxy server
 
 # Galaxy Distributions
 
-The [most recent Galaxy Distribution was November 04, 2013](/src/dev-news-briefs/2013-11-04/index.md).
+The [most recent Galaxy Distribution was November 04, 2013](/src/archive/dev-news-briefs/2013-11-04/index.md).
 
 <div class='right'><br /><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
 

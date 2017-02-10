@@ -1,7 +1,7 @@
 <div class='newsItemHeader'>[June 3, 2013 Galaxy Distribution](/src/news/2013-06-03-galaxy-distribution/index.md)</div>
 <div class='right'>
-<a href='/src/dev-news-briefs/2013-06-01/index.md'><img src="/src/images/news-graphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=400 /></a></div>
-**Complete [News Brief](/src/dev-news-briefs/2013-06-03/index.md)**
+<a href='/src/archive/dev-news-briefs/2013-06-01/index.md'><img src="/src/images/news-graphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=400 /></a></div>
+**Complete [News Brief](/src/archive/dev-news-briefs/2013-06-03/index.md)**
 <br />
 <br />
 **Highlights:**

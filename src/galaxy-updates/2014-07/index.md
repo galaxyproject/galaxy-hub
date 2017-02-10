@@ -249,10 +249,10 @@ One new [public Galaxy server](/src/public-galaxy-servers/index.md) was added to
 
 ## June 2, 2014 Galaxy Distribution
 
-<div class='right'> <a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2014_06_02_dataset-collections-crop.png" alt="Dataset Collections Workflow Detail" width="400" /></a> <br /> *example dataset collection workflow ([credits](/src/dev-news-briefs/2014-06-02/index.md#dataset_collections))* </div>
+<div class='right'> <a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2014_06_02_dataset-collections-crop.png" alt="Dataset Collections Workflow Detail" width="400" /></a> <br /> *example dataset collection workflow ([credits](/src/archive/dev-news-briefs/2014-06-02/index.md#dataset_collections))* </div>
 
 <br />
-**[News Brief](/src/dev-news-briefs/2014-06-02/index.md)** **Highlights:**
+**[News Brief](/src/archive/dev-news-briefs/2014-06-02/index.md)** **Highlights:**
 
 * Dataset Collections introduced
 * Changes to database build (dbkey) organization
