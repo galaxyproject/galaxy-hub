@@ -15,7 +15,7 @@ These tutorials are using Galaxy's main site at http://usegalaxy.org:
  - [Galaxy 101](/tutorials/g101)
  - [Understanding histories](/tutorials/histories)
  - [Dataset collections](/tutorials/collections)
- - [NGS logistics](/tutorials/hgs)
+ - [NGS logistics](/tutorials/ngs)
  - Variant discovery: [diploid case](/tutorials/var_dip)
  - Variant discovery: haploid case
  - RNA seq: reference based
