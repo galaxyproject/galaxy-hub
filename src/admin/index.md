@@ -15,7 +15,7 @@ To give a Galaxy user admin privileges you have to add their Galaxy login ( emai
 admin_users = user1@example.com,user2@example.com
 ```
 
-When an admin user logs into Galaxy, they will see an "Admin" menu item in the top Galaxy menu bar which will take them to the Galaxy Admin page with an administration panel that looks similar to the picture below. Note that not all the options have to be present as some of them depend on the configuration of your Galaxy.
+When an admin user logs into Galaxy, they will see an "Admin" menu item in the top Galaxy menu bar which will take them to the Galaxy Admin page with an administration panel.
 
 ## Deploying
 
@@ -25,10 +25,9 @@ When an admin user logs into Galaxy, they will see an "Admin" menu item in the t
 
 ## Configuration
 
-* [Tools](/src/tools/index.md)
+* [Installing tools](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
 * [Tool Panel](/src/admin/tool-panel/index.md)
 * [Subtopics in Configuration](/src/admin/config/index.md)
-* [Installing tools](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
 * [Data Libraries](/src/admin/data-libraries/index.md)
 * [Datatypes](/src/admin/datatypes/index.md)
 * [Configuring Galaxy Home/Welcome Page](/src/admin/galaxy-welcome-page/index.md)
