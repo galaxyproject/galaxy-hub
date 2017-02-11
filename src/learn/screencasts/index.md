@@ -1,23 +1,13 @@
 ---
 autotoc: true
-title: Galaxy Screencasts and Demos
 ---
 
+# Galaxy Screencasts and Demos
 
-{{> Learn/LinkBox }}
-<div class='left'></div>
+Screencasts are one of several ways to [learn](/src/learn/index.md) how to use Galaxy. These video tutorials cover many aspects of Galaxy, from simple tasks like uploading data, to complex analysis.
 
-Screencasts are one of several ways to **[learn](/src/learn/index.md)** how to use Galaxy.  These video tutorials cover many aspects of Galaxy, from simple tasks like uploading data, to complex analysis.
+Browse the screencasts at [http://vimeo.com/galaxyproject](http://vimeo.com/galaxyproject).
 
-The current screencasts use a variety of technologies, including QuickTime (you may need to download the [QuickTime player](http://www.apple.com/quicktime/download/)).
-
-Watch some of our screencasts at **[Galaxy Project on YouTube](http://www.youtube.com/user/nekrut/videos)**.
-<br />
-<br />
-**NEW**!! Watch many videos now here at **[http://vimeo.com/galaxyproject](http://vimeo.com/galaxyproject)**
-*Including the latest tutorials plus talks from GCC 2013.*
-<br />
-<br />
 ## Getting Started
 
 * **[Galaxy 101](http://screencast.g2.bx.psu.edu/galaxy101/)**
@@ -147,16 +137,6 @@ Also see [Learn/Interval Operations](/src/learn/Interval Operations/index.md).
 * **[Feature Coverage](http://screencast.g2.bx.psu.edu/GOPS_Coverage/)**
 * **[Finding Clusters](http://screencast.g2.bx.psu.edu/GOPS_Cluster/)**
 * **[Joining Features](http://screencast.g2.bx.psu.edu/quickie5_join/flow.htm)** 
-
-## Sample Tracking
-
-* **[Sample Tracking Admin](http://screencast.g2.bx.psu.edu/sample_tracking/admin_tasks.html)**
-* **[Sample Tracking Create Forms](http://screencast.g2.bx.psu.edu/sample_tracking/create_forms.html)**
-* **[Sample Tracking Request Admin](http://screencast.g2.bx.psu.edu/sample_tracking/create_request_admin.html)**
-* **[Sample Tracking Request](http://screencast.g2.bx.psu.edu/sample_tracking/create_request.html)**
-* **[Sample Tracking Sequencer Config](http://screencast.g2.bx.psu.edu/sample_tracking/create_seq_conf.html)**
-* **[Sample Tracking Transfer Datasets](http://screencast.g2.bx.psu.edu/sample_tracking/create_transfer_datasets.html)**
-* **[PacBio Demo](http://screencast.g2.bx.psu.edu/pacBio-demo/)**
 
 ## Developers How To
 

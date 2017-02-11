@@ -8,7 +8,7 @@ title: July 2013 Galaxy Update
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the July 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the July 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -379,21 +379,21 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 # Galaxy Distributions
 
 <div class='right'>
-<a href='/src/dev-news-briefs/2013-06-03/index.md'><img src="/src/images/news-graphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=400 /></a></div>
+<a href='/src/archive/dev-news-briefs/2013-06-03/index.md'><img src="/src/images/news-graphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=400 /></a></div>
 
-The most recent official distribution was on [June 3, 2013](/src/dev-news-briefs/2013-06-03/index.md).  There was minor  [security patch released on June 12](http://announce.list.galaxyproject.org/galaxy-announce-Galaxy-Security-Notification-tt4639243.html).
+The most recent official distribution was on [June 3, 2013](/src/archive/dev-news-briefs/2013-06-03/index.md).  There was minor  [security patch released on June 12](http://announce.list.galaxyproject.org/galaxy-announce-Galaxy-Security-Notification-tt4639243.html).
 
 ## June 3, 2013 Distribution
 
 **Highlights:**
 
-* Visualization tool updates to [Scatterplot](/src/dev-news-briefs/2013-06-03/index.md#scatterplot) and [Trackster](/src/dev-news-briefs/2013-06-03/index.md#trackster).
-* Job distribution, error tracking/management, and reporting function improvements to [Admin](/src/dev-news-briefs/2013-06-03/index.md#admin) & [Core](/src/dev-news-briefs/2013-06-03/index.md#core). 
+* Visualization tool updates to [Scatterplot](/src/archive/dev-news-briefs/2013-06-03/index.md#scatterplot) and [Trackster](/src/archive/dev-news-briefs/2013-06-03/index.md#trackster).
+* Job distribution, error tracking/management, and reporting function improvements to [Admin](/src/archive/dev-news-briefs/2013-06-03/index.md#admin) & [Core](/src/archive/dev-news-briefs/2013-06-03/index.md#core). 
 
-* Multiple [Tool](/src/dev-news-briefs/2013-06-03/index.md#tools) updates, [History and Dataset](/src/dev-news-briefs/2013-06-03/index.md#histories) upgrades, and other related [UI](/src/dev-news-briefs/2013-06-03/index.md#ui) enhancements.
-* New features and fixes added to the [Tool Shed](/src/dev-news-briefs/2013-06-03/index.md#tool_shed) and related components. 
-* [Python 2.5 Support officially ended](/src/dev-news-briefs/2013-06-03/index.md#python_25_support_has_ended).
-* Plus newly [merged Pull Requests](/src/dev-news-briefs/2013-06-03/index.md#pull_requests_merged) and links to tickets covering key [Bug Fixes](/src/dev-news-briefs/2013-06-03/index.md#bug_fixes).
+* Multiple [Tool](/src/archive/dev-news-briefs/2013-06-03/index.md#tools) updates, [History and Dataset](/src/archive/dev-news-briefs/2013-06-03/index.md#histories) upgrades, and other related [UI](/src/archive/dev-news-briefs/2013-06-03/index.md#ui) enhancements.
+* New features and fixes added to the [Tool Shed](/src/archive/dev-news-briefs/2013-06-03/index.md#tool_shed) and related components. 
+* [Python 2.5 Support officially ended](/src/archive/dev-news-briefs/2013-06-03/index.md#python_25_support_has_ended).
+* Plus newly [merged Pull Requests](/src/archive/dev-news-briefs/2013-06-03/index.md#pull_requests_merged) and links to tickets covering key [Bug Fixes](/src/archive/dev-news-briefs/2013-06-03/index.md#bug_fixes).
 
 *[http://getgalaxy.org](http://getgalaxy.org)*
 

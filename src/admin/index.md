@@ -1,12 +1,21 @@
-{{> Admin/LinkBox }}
-{{> Develop/LinkBox }}
-{{> FAQs/LinkBox }}
-
+---
+autotoc: true
+---
 
 # Galaxy Administration
 
-This is the hub page for the section of this wiki on how to deploy and administer your own copy of Galaxy.
+This is a hub page on topics related to deployment and administration of your own instance of Galaxy.
 
+## Setup admin user
+
+To give a Galaxy user admin privileges you have to add their Galaxy login ( email ) to the Galaxy configuration file `config/galaxy.ini`. If the file does not exist yet you can create it from the provided sample (`config/galaxy.ini.sample`). Make sure you rename it correctly. Note that you have to restart Galaxy after modifying the configuration for changes to take effect. Also make sure you don't specify it twice - the line with `admin_users` is already present in every sample config and should be there only once.
+
+```
+# this should be a comma-separated list of valid Galaxy users
+admin_users = user1@example.com,user2@example.com
+```
+
+When an admin user logs into Galaxy, they will see an "Admin" menu item in the top Galaxy menu bar which will take them to the Galaxy Admin page with an administration panel.
 
 ## Deploying
 
@@ -14,17 +23,13 @@ This is the hub page for the section of this wiki on how to deploy and administe
 * [Install on the Cloud Infrastructure](/src/cloudman/index.md)
 * [Maintaining an Instance](/src/admin/maintenance/index.md)
 
-
 ## Configuration
 
-* [Tools](/src/admin/tools/index.md)
-* [Tool Panel](/src/admin/tool-panel/index.md)
-* [Administration Interface](/src/admin/Interface/index.md)
-* [Subtopics in Configuration](/src/admin/config/index.md)
 * [Installing tools](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
+* [Tool Panel](/src/admin/tool-panel/index.md)
+* [Subtopics in Configuration](/src/admin/config/index.md)
 * [Data Libraries](/src/admin/data-libraries/index.md)
 * [Datatypes](/src/admin/datatypes/index.md)
-* [Sample Tracking](/src/admin/sample-tracking/index.md)
 * [Configuring Galaxy Home/Welcome Page](/src/admin/galaxy-welcome-page/index.md)
 * [Purge Histories and Datasets](/src/admin/config/performance/Purge Histories and Datasets/index.md)
 * [Interactive Environments (IE)](/src/admin/gies/index.md)
@@ -64,8 +69,5 @@ This is the hub page for the section of this wiki on how to deploy and administe
 * [Switching to Github from Bitbucket](/src/admin/switching-to-github-from-bitbucket/index.md)
 
 
-<div class='center'>
-<a href='http://galaxyproject.org/search/getgalaxy'><img src="/src/images/logos/GetGalaxySearch.png" alt="Search all Galaxy administration resources" width="120" /></a>
-
 [Search all Galaxy administration resources](http://galaxyproject.org/search/getgalaxy)
-</div>
+

@@ -18,7 +18,7 @@ autotoc: true
 In many cases, a workflow can be directly [extracted from a history](/src/learn/advanced-workflow/extract/index.md) and run without any changes. 
 <br />
 <br />
-However, in certain cases, tools require that small changes are edited in to ensure proper output &rarr; input connections. Plus creating a new workflow from an existing workflow is a quick way to develop a new, but similar, process. Knowing how to perform *basic workflow editing* is a valuable skill for all [Galaxy](/src/big-picture/choices/index.md) users.
+However, in certain cases, tools require that small changes are edited in to ensure proper output &rarr; input connections. Plus creating a new workflow from an existing workflow is a quick way to develop a new, but similar, process. Knowing how to perform *basic workflow editing* is a valuable skill for all [Galaxy](/src/choices/index.md) users.
 <br />
 <br />
 **In short**: even just learning how to make small changes makes workflows accessible to everyone
@@ -29,7 +29,7 @@ However, in certain cases, tools require that small changes are edited in to ens
 <div class='left'><img src="/src/images/learn/workflow_menu_edit_nav.png" alt="workflow menu edit" width="500" /></div>
 <br />
 <br />
-Open **[usegalaxy.org](http://usegalaxy.org)** (or any [Galaxy](/src/big-picture/choices/index.md)) from any view. 
+Open **[usegalaxy.org](http://usegalaxy.org)** (or any [Galaxy](/src/choices/index.md)) from any view. 
 <br />
 <br />
 <br />

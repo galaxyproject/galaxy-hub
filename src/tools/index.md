@@ -18,6 +18,6 @@ Please see [installing tools](/src/admin/tools/add-tool-from-toolshed-tutorial/i
 
 ## Writing tools
 
-Wrappers are written in XML following the **[schema](https://docs.galaxyproject.org/en/master/dev/schema.html)**.
+Tools are written in XML language following the **[Galaxy tool schema](https://docs.galaxyproject.org/en/master/dev/schema.html)**. We encourage you to submit your finished tools to the [Tool Shed](/src/toolshed/index.md).
 
-Please use [Planemo](http://planemo.readthedocs.io/) for both [tool development](http://planemo.readthedocs.io/en/latest/writing_standalone.html) and [publishing](http://planemo.readthedocs.io/en/latest/_writing_publish_intro.html) to the Tool Shed. We **heartily recommend** you use it together with the [best practices](http://galaxy-iuc-standards.readthedocs.io/en/latest/best_practices.html) by [IUC](/src/iuc/index.md) for Galaxy tool development.
+Please use [Planemo](http://planemo.readthedocs.io/) for both tool development ([see tutorial](http://planemo.readthedocs.io/en/latest/writing_standalone.html)) and [publishing](http://planemo.readthedocs.io/en/latest/_writing_publish_intro.html) to the Tool Shed. We **heartily recommend** you use it together with the [best practices](http://galaxy-iuc-standards.readthedocs.io/en/latest/best_practices.html) for Galaxy tool development by the [IUC](/src/iuc/index.md). The IUC also provides tool developers with advice and guidance.

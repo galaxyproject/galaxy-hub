@@ -4,7 +4,7 @@ date: 2012-07-21T06:28:04Z
 <div class='newsItemHeader'>[July 20, 2012 Distribution & News Brief](/News/Jul202012 Distribution News Brief)</div>
 
 
-**Complete [News Brief](/src/dev-news-briefs/2012-07-20/index.md)**
+**Complete [News Brief](/src/archive/dev-news-briefs/2012-07-20/index.md)**
 <div class='right'><a href='/DevNewsBriefs/2012_07_20'><img src='/images/NewsGraphics/2012_07_20_main-page.png' alt='genome-indexing' width="250px" /></a></div>
 **Highlights:**
 * **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** has moved from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)*

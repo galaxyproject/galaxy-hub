@@ -6,7 +6,7 @@ The Galaxy user interface (UI) has been designed to communicate job execution st
 When a tool is executed, one or more new **[datasets](/src/learn/managing-datasets/index.md)** are added to a history. The same is true when a **workflow** is executed. *If using the public [Main](/src/main/index.md) Galaxy instance, the most effective strategy when running jobs on the shared resource is to start jobs (or workflows), and then leave them alone to execute until completion.* 
 <br />
 <br />
-When work is urgent during peak-usage times on the public **[Main](/src/main/index.md)** Galaxy instance, a **[CloudMan](/src/cloudman/index.md)** instance is a quick-to-implement alternative. For large scale and/or urgent ongoing work, a **[CloudMan](/src/cloudman/index.md)**, **[Local](/src/admin/get-galaxy/index.md)**, or **[SlipStream Galaxy](http://www.bioteam.net/slipstream/galaxy-edition)** each have advantages as a longer-term solution. [Read more ...](/src/big-picture/choices/index.md)
+When work is urgent during peak-usage times on the public **[Main](/src/main/index.md)** Galaxy instance, a **[CloudMan](/src/cloudman/index.md)** instance is a quick-to-implement alternative. For large scale and/or urgent ongoing work, a **[CloudMan](/src/cloudman/index.md)**, **[Local](/src/admin/get-galaxy/index.md)**, or **[SlipStream Galaxy](http://www.bioteam.net/slipstream/galaxy-edition)** each have advantages as a longer-term solution. [Read more ...](/src/choices/index.md)
 <br />
 <br />
 *So, how does the processing of tool jobs on **[Main](/src/main/index.md)** actually work?*

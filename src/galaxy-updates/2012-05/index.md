@@ -8,7 +8,7 @@ title: May 2012 Galaxy Update
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the May 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the May 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## GCC2012: Just 3 Months Away!
 
@@ -192,4 +192,4 @@ At least **7** new repositories were added to the [Galaxy Tool Shed](http://tool
 
 ## Distribution
 
-The most recent distribution was on [March 12, 2012](/src/dev-news-briefs/2012-03-12/index.md).  Look for a new one this month.
+The most recent distribution was on [March 12, 2012](/src/archive/dev-news-briefs/2012-03-12/index.md).  Look for a new one this month.

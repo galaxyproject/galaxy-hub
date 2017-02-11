@@ -15,15 +15,15 @@
 - Learn:
   title: Learn
   links:
+      - About:
+        title: About
+        link: galaxy-project
       - Learn:
-        title: Learn
+        title: Tutorials
         link: learn
       - Videos:
         title: Videos
         link: https://vimeo.com/groups/teachinggalaxy
-      - Tours:
-        title: Interactive Tours
-        link: https://usegalaxy.org/tours/core.history
 - Teach:
   title: Teach
   links:
@@ -61,7 +61,7 @@
         title: Get Galaxy
         link: admin/get-galaxy
       - Administer:
-        title: Administer Galaxy
+        title: Administration
         link: admin
       - docs:
         title: Documentation
@@ -70,7 +70,7 @@
         title: Tools
         link: tools
       - Codebase:
-        title: Develop
+        title: Development
         link: develop
 - Pulse:
   title: Pulse
@@ -86,4 +86,4 @@
         link: cite-u-like
       - Project Stats:
         title: Stats
-        link: galaxy-project/statistcs
+        link: galaxy-project/statistics

@@ -8,7 +8,7 @@ title: August 2012 Galaxy Update
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the August 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the August 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -210,7 +210,7 @@ Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2
 
 ## New Distributions
 
-A new Galaxy distribution was [released on July 20, 2012](/src/dev-news-briefs/2012-07-20/index.md).  Highlights include:
+A new Galaxy distribution was [released on July 20, 2012](/src/archive/dev-news-briefs/2012-07-20/index.md).  Highlights include:
 * **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** has moved from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)*
 * **[EMBOSS](http://emboss.sourceforge.net/)** version 5.0.0 tool dependencies in the `emboss_5` repository of the Galaxy Main Tool Shed updated to include information for automatically installing. 
 * **Tool Shed** now also supports specifying the third party tool dependencies to be automatically installed in new repositories

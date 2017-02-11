@@ -8,7 +8,7 @@ title: April 2013 Galaxy Update
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the April 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the April 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -323,13 +323,13 @@ Once the discussion settles, we will [summarize the discussion](http://bit.ly/11
 
 <div class='right'><a href='http://galaxyproject.org'><img src="/src/images/news-graphics/2013_04_01_granular-galaxy-utilities.png" alt="tool shed" width=350 /></a></div>
 
-**[April 1, 2013 Distribution](/src/dev-news-briefs/2013-04-01/index.md)**
+**[April 1, 2013 Distribution](/src/archive/dev-news-briefs/2013-04-01/index.md)**
 
-* [Job running configuration changes and refactoring of job runner plugins](/src/dev-news-briefs/2013-04-01/index.md#job_running_configuration_changes)
-* [Required reset of the metadata on your installed tool shed repositories](/src/dev-news-briefs/2013-04-01/index.md#required_metadata_reset) plus [Changes required to your environment if you are hosting a local Tool Shed](/src/dev-news-briefs/2013-04-01/index.md#local_tool_shed_file_changes)
-* [Basic Data Manager Functionality now present](/src/dev-news-briefs/2013-04-01/index.md#data)
-* [Tool Shed](/src/dev-news-briefs/2013-04-01/index.md#tool_shed), [Trackster](/src/dev-news-briefs/2013-04-01/index.md#trackster), [Cloudman](/src/dev-news-briefs/2013-04-01/index.md#cloudman), [Workflows](/src/dev-news-briefs/2013-04-01/index.md#workflows), [UI](/src/dev-news-briefs/2013-04-01/index.md#ui), [Admin](/src/dev-news-briefs/2013-04-01/index.md#admin), and [ new Pull Request](/src/dev-news-briefs/2013-04-01/index.md#source) updates.
-* New [bug fixes and improvements](/src/dev-news-briefs/2013-04-01/index.md#bug_fixes_and_related_enhancements).
+* [Job running configuration changes and refactoring of job runner plugins](/src/archive/dev-news-briefs/2013-04-01/index.md#job_running_configuration_changes)
+* [Required reset of the metadata on your installed tool shed repositories](/src/archive/dev-news-briefs/2013-04-01/index.md#required_metadata_reset) plus [Changes required to your environment if you are hosting a local Tool Shed](/src/archive/dev-news-briefs/2013-04-01/index.md#local_tool_shed_file_changes)
+* [Basic Data Manager Functionality now present](/src/archive/dev-news-briefs/2013-04-01/index.md#data)
+* [Tool Shed](/src/archive/dev-news-briefs/2013-04-01/index.md#tool_shed), [Trackster](/src/archive/dev-news-briefs/2013-04-01/index.md#trackster), [Cloudman](/src/archive/dev-news-briefs/2013-04-01/index.md#cloudman), [Workflows](/src/archive/dev-news-briefs/2013-04-01/index.md#workflows), [UI](/src/archive/dev-news-briefs/2013-04-01/index.md#ui), [Admin](/src/archive/dev-news-briefs/2013-04-01/index.md#admin), and [ new Pull Request](/src/archive/dev-news-briefs/2013-04-01/index.md#source) updates.
+* New [bug fixes and improvements](/src/archive/dev-news-briefs/2013-04-01/index.md#bug_fixes_and_related_enhancements).
 
 ## Tool Shed Contributions
 

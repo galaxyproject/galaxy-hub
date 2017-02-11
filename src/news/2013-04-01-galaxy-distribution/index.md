@@ -5,7 +5,7 @@ Due to a security vulnerability, administrators are strongly encouraged to upgra
 
 <br />
 
-**Complete [News Brief](/src/dev-news-briefs/2013-04-01/index.md)**
+**Complete [News Brief](/src/archive/dev-news-briefs/2013-04-01/index.md)**
 <div class='right'><a href='http://galaxyproject.org'><img src="/src/images/news-graphics/2013_04_01_granular-galaxy-utilities.png" alt="tool shed" width=350 /></a></div>
 **Highlights:**
 

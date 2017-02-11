@@ -1381,7 +1381,7 @@ And ... we're done!
 
 We are always adding new functionality to the API and progressively ensuring that everything that can be done in the
 UI can be done in the API - because of that, please, consider the API a 'work in progress' and check the
-[Galaxy Development Briefs](/src/dev-news-briefs/index.md) for new features or fixes.
+[Galaxy Development Briefs](/src/docs/index.md) for new features or fixes.
 
 
 
