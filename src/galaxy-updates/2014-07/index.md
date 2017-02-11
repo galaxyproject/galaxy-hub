@@ -8,9 +8,9 @@ title: July 2014 Galaxy Update
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the July 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the July 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
-The *Galaxy Update* is going out a few days early this month because the usual release date is during [GCC2014](/src/events/gcc2014/index.md).  
+The *Galaxy Update* is going out a few days early this month because the usual release date is during [GCC2014](/src/events/gcc2014/index.md).
 
 # Events
 
@@ -18,7 +18,7 @@ The *Galaxy Update* is going out a few days early this month because the usual r
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-**The [2014 Galaxy Community Conference (GCC2014)](/src/events/gcc2014/index.md) starts on Monday, June 30, and runs through July 2,** at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.  The [program](/src/events/gcc2014/program/index.md) is online and all [titles and abstracts for accepted talks and posters](/src/events/gcc2014/abstracts/talks/index.md) are now online.  
+**The [2014 Galaxy Community Conference (GCC2014)](/src/events/gcc2014/index.md) starts on Monday, June 30, and runs through July 2,** at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.  The [program](/src/events/gcc2014/program/index.md) is online and all [titles and abstracts for accepted talks and posters](/src/events/gcc2014/abstracts/talks/index.md) are now online.
 
 Fifteen [Training sessions on 12 topics](/src/events/gcc2014/training-day/index.md), several [Birds of a Feather](/src/events/gcc2014/bofs/index.md), two lightning talk sessions, and the very first [Galaxy Project Hackathon](/src/events/gcc2014/hackathon/index.md) are also happening.
 
@@ -42,13 +42,13 @@ There will be at least six talks and five posters related to Galaxy at [ISMB and
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div>
 
 Over the rest of the summer there are other [Galaxy related events](/src/events/index.md) in Leiden, Sydney, Brisbane, São Paulo, and Rio de Janeiro. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
-<div class='center'> 
+<div class='center'>
 </div>
 
 <table>
@@ -209,7 +209,7 @@ The new papers were tagged in many different areas:
 
 The Galaxy is expanding! Please help it grow.
 
-* [Experimental Officer in Bioinformatics](http://bit.ly/1uW1qIs), NERC Metabolomics Facility, University of Birmingham, UK 
+* [Experimental Officer in Bioinformatics](http://bit.ly/1uW1qIs), NERC Metabolomics Facility, University of Birmingham, UK
 * [Two postdoc positions in integrative genomics](/src/news/post-docs-in-oslo/index.md) available in Oslo, Norway
 * [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
@@ -233,12 +233,12 @@ One new [public Galaxy server](/src/public-galaxy-servers/index.md) was added to
 * *Comments:*
     Has 16 virtual CPUs.
 * *User Support:*
-  * [GVL Help](https://genome.edu.au/wiki/GVL_Help)
-  * Follow tutorials at [GVL Learn](https://genome.edu.au/wiki/Learn) and use [Galaxy Tut](http://galaxy-tut.genome.edu.au/)
+  * [GVL Help](https://genome.edu.au)
+  * Follow tutorials at [GVL Learn](https://genome.edu.au) and use [Galaxy Tut](http://galaxy-tut.genome.edu.au/)
 * *Quotas:*
-  * University of Queensland and collaborators: 2TB 
-  * Other Australian Researchers: 1TB (make sure you register with your Institute email address) 
-  * Other registered users: 200GB 
+  * University of Queensland and collaborators: 2TB
+  * Other Australian Researchers: 1TB (make sure you register with your Institute email address)
+  * Other registered users: 200GB
   * Unregistered users: 5GB
 * *Sponsor(s):*
     [Genomics Virtual Lab](https://genome.edu.au/) and the [University of Queensland Research Computing Centre](http://www.rcc.uq.edu.au/)
@@ -300,7 +300,7 @@ A [corresponding version](http://gregvonkuster.org/galaxy-toolshed-june-2-2014-r
 
 ## BioBlend and CloudMan
 
-[BioBlend 0.4.3](https://pypi.python.org/pypi/bioblend/0.4.3) was released on April 11, 2014.  
+[BioBlend 0.4.3](https://pypi.python.org/pypi/bioblend/0.4.3) was released on April 11, 2014.
 
 The most recent version of CloudMan was [released in January 2014](/src/news/cloudman-release201401/index.md).
 
@@ -331,7 +331,7 @@ The *[Community Log Board](/src/community/logs/index.md)* and  *[Deployment Cata
 
 ## Galaxy Project ToolShed Repos
 
-In no particular order: 
+In no particular order:
 
 ### Tools
 
@@ -361,7 +361,7 @@ In no particular order:
   * [make_protein_decoys](http://toolshed.g2.bx.psu.edu/view/iracooke/make_protein_decoys): Generate a decoy database from an input set of protein sequences. Decoys generated using this tool can be used for tandem ms searches.
   * [proteindb_from_gff3](http://toolshed.g2.bx.psu.edu/view/iracooke/proteindb_from_gff3): Convert Augustus Generated gff3 to a Protein Database
   * [protxml_to_gff](http://toolshed.g2.bx.psu.edu/view/iracooke/protxml_to_gff): Map peptides from a protXML file to genomic coordinates
-  * [sixframe_translate](http://toolshed.g2.bx.psu.edu/view/iracooke/sixframe_translate): Translates sequences in a nucleotide fasta file to protein 
+  * [sixframe_translate](http://toolshed.g2.bx.psu.edu/view/iracooke/sixframe_translate): Translates sequences in a nucleotide fasta file to protein
 
 * *From [hyungrolee](https://toolshed.g2.bx.psu.edu/view/hyungrolee/)*
   * [mgescan](https://toolshed.g2.bx.psu.edu/view/hyungrolee/mgescan): MGEScan: Identifying long terminal repeats (LTR) and non-LTR retroelements in eukaryotic genomic sequences.
@@ -412,9 +412,9 @@ In no particular order:
 
 # Other News
 
-* The Galaxy Tool Shed: [Leveraging Community Contributions with Repository Capsules](http://wp.me/p4pUkN-bp)  
+* The Galaxy Tool Shed: [Leveraging Community Contributions with Repository Capsules](http://wp.me/p4pUkN-bp)
 * The Galaxy Tool Shed: [A Framework for Building Galaxy Tools](http://wp.me/p4pUkN-cd)
-* [Galaxy Wikipedia page, in Hebrew](http://bit.ly/1x31aLK)!  Many thanks to מרים (Miriam) for creating it. 
-* After 8+ years & 8100+ posts the [Galaxy-User mailing has retired](http://bit.ly/1rU2oIX) & passed the user support torch to Galaxy Biostar 
+* [Galaxy Wikipedia page, in Hebrew](http://bit.ly/1x31aLK)!  Many thanks to מרים (Miriam) for creating it.
+* After 8+ years & 8100+ posts the [Galaxy-User mailing has retired](http://bit.ly/1rU2oIX) & passed the user support torch to Galaxy Biostar
 * The Galaxy Project's public server at http://usegalaxy.org has reached 50,000 registered users! **Thank you for using Galaxy. **
 

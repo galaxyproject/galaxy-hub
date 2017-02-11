@@ -263,8 +263,8 @@ These servers implement a broad range of tools and and aren't specific to any pa
 * *Comments:*
   * Has 16 virtual CPUs.
 * *User Support:*
-  * [GVL Help](https://genome.edu.au/wiki/GVL_Help)
-  * Follow tutorials at [GVL Learn](https://genome.edu.au/wiki/Learn) and use [Galaxy Tut](http://galaxy-tut.genome.edu.au/)
+  * [GVL Help](https://www.gvl.org.au/)
+  * Follow tutorials at [GVL Learn](https://www.gvl.org.au/) and use [Galaxy Tut](http://galaxy-tut.genome.edu.au/)
 * *Quotas:*
   * University of Queensland and collaborators: 1TB
   * Other Australian Researchers: 600GB (make sure you register with your Institute email address)
