@@ -41,13 +41,7 @@ We want to create a space where researchers using Galaxy can come together and s
 
 ## Mailing Lists
 
-Galaxy has one public mailing lists for questions, one private mailing list for bug reports, and one announcement mailing list. Please do not post questions through the **[Galaxy Issue Board](/src/issues/index.md)**; these will only be redirected. Manage subscriptions and learn more about these list at the **[Mailing Lists](/src/mailing-lists/index.md)** home page. See also:
-<div class='right'>![](/src/images/logos/MailmanLogoSmall.png)</div>
-* [Error from tools: Sending in a specific-use bug report](/src/support/index.md#error_from_tools)
-* [Starting a technical tool, local, cloud instance, or development thread](/src/support/index.md#starting_a_technical_tool2c_local2fcloud_instance2c_or_development_thread)
-* [Reporting/vetting a software bug](/src/support/index.md#reporting_a_software_bug)
-
-Note: The galaxy-user mailing list has been retired. Galaxy scientific user and tool help has moved to **[Galaxy Biostar](/src/support/biostar/index.md)**. 
+Galaxy has one public mailing lists for questions, one private mailing list for bug reports, and one announcement mailing list. Manage subscriptions and learn more about these list at the [Mailing Lists](/src/mailing-lists/index.md) home page. 
 
 ## IRC Channel
 
