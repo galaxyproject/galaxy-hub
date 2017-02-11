@@ -1,23 +1,13 @@
 ---
 autotoc: true
-title: Galaxy Screencasts and Demos
 ---
 
+# Galaxy Screencasts and Demos
 
-{{> Learn/LinkBox }}
-<div class='left'></div>
+Screencasts are one of several ways to [learn](/src/learn/index.md) how to use Galaxy. These video tutorials cover many aspects of Galaxy, from simple tasks like uploading data, to complex analysis.
 
-Screencasts are one of several ways to **[learn](/src/learn/index.md)** how to use Galaxy.  These video tutorials cover many aspects of Galaxy, from simple tasks like uploading data, to complex analysis.
+Browse the screencasts at [http://vimeo.com/galaxyproject](http://vimeo.com/galaxyproject).
 
-The current screencasts use a variety of technologies, including QuickTime (you may need to download the [QuickTime player](http://www.apple.com/quicktime/download/)).
-
-Watch some of our screencasts at **[Galaxy Project on YouTube](http://www.youtube.com/user/nekrut/videos)**.
-<br />
-<br />
-**NEW**!! Watch many videos now here at **[http://vimeo.com/galaxyproject](http://vimeo.com/galaxyproject)**
-*Including the latest tutorials plus talks from GCC 2013.*
-<br />
-<br />
 ## Getting Started
 
 * **[Galaxy 101](http://screencast.g2.bx.psu.edu/galaxy101/)**
