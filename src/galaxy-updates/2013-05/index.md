@@ -8,7 +8,7 @@ title: May 2013 Galaxy Update
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the May 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the May 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -223,7 +223,7 @@ The next [GalaxyAdmins Meetup will be May 15](/src/community/galaxy-admins/meetu
 
 ## Galaxy Distributions
 
-The most recent official distribution was on [April 1, 2013](/src/dev-news-briefs/2013-04-01/index.md).  However, [a security update was released on April 8](/src/news/2013-04-08-galaxy-security-release/index.md).  See [this news item](/src/news/2013-04-08-galaxy-security-release/index.md) for details.
+The most recent official distribution was on [April 1, 2013](/src/archive/dev-news-briefs/2013-04-01/index.md).  However, [a security update was released on April 8](/src/news/2013-04-08-galaxy-security-release/index.md).  See [this news item](/src/news/2013-04-08-galaxy-security-release/index.md) for details.
 
 ## Tool Shed Contributions
 

@@ -11,7 +11,7 @@ title: February 2012 Galaxy Update
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the inaugural edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a (mostly) monthly summary of what is going on in the Galaxy community.  Galaxy Updates will complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the inaugural edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a (mostly) monthly summary of what is going on in the Galaxy community.  Galaxy Updates will complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Papers
 
@@ -103,7 +103,7 @@ There are still [Gold, Silver and Bronze level sponsorships](/src/events/gcc2012
 
 ## New Distributions
 
-There were [two Galaxy distributions](/src/dev-news-briefs/index.md) in January, The latest on [January 27](/src/news/Jan272012 Distribution News Brief/index.md).  Some highlights from the releases:
+There were [two Galaxy distributions](/src/docs/index.md) in January, The latest on [January 27](/src/news/Jan272012 Distribution News Brief/index.md).  Some highlights from the releases:
 
 * Important metadata and Python 2.5 support corrections
 * [SAMtools](http://samtools.sourceforge.net/) upgraded for version 0.1.18. [Mpileup](http://samtools.sourceforge.net/mpileup.shtml) added.

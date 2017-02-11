@@ -2,7 +2,7 @@
 
 <div class='right'><a href='/src/galaxy-updates/2012-02/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-The [inaugural edition](/src/galaxy-updates/2012-02/index.md) of *[Galaxy Update](/src/galaxy-updates/index.md)* is now available.  *[Galaxy Update](/src/galaxy-updates/index.md)* is a (mostly) monthly summary of what is going on in the Galaxy community.  *Galaxy Updates* will complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+The [inaugural edition](/src/galaxy-updates/2012-02/index.md) of *[Galaxy Update](/src/galaxy-updates/index.md)* is now available.  *[Galaxy Update](/src/galaxy-updates/index.md)* is a (mostly) monthly summary of what is going on in the Galaxy community.  *Galaxy Updates* will complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 **Highlights:**
 

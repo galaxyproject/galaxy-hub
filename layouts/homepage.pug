@@ -1,9 +1,27 @@
 extends layout.pug
 
+
+mixin renderSplash(item)
+   h1.display-3 !{item.title}
+   p.lead !{item.contents}
+
 block content
     section.section-content
-        div.row
-            div.col-sm-12 !{ contents }
+        div.row#splash-row
+            div.col-sm-12
+                div.carousel.slide(data-ride="carousel" id="splash-box")
+                    div.carousel-inner(role="listbox")
+                        div.item.carousel-item.active.jumbotron
+                            +renderSplash(splash[0])
+                        each item in splash.slice(1,5)
+                            div.item.carousel-item.jumbotron
+                                +renderSplash(item)
+                    a.carousel-control-prev(href="#carouselExampleControls" role="button" data-slide="prev")
+                        span.carousel-control-prev-icon( aria-hidden="true")
+                        span.sr-only: Previous
+                    a.carousel-control-next(href="#carouselExampleControls" role="button" data-slide="next")
+                        span.carousel-control-prev-icon( aria-hidden="true")
+                        span.sr-only: Next
         div.row
             div.col-sm-4
                 h2: a( href="/news/" ) News

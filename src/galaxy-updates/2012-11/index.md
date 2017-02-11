@@ -8,7 +8,7 @@ title: November 2012 Galaxy Update
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the November 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the November 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -202,9 +202,9 @@ Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2
 
 ## New Distributions
 
-The **[October 23, 2012 distribution](/src/dev-news-briefs/2012-10-23/index.md)** includes an **[important security fix](/src/dev-news-briefs/2012-10-23/index.md#compute_tool_security_fix)**; integration with a [new Trello Issue Board](/src/dev-news-briefs/2012-10-23/index.md#new_trello_issue_board); [Tool Shed](/src/toolshed/index.md) direct updates; [API](/src/dev-news-briefs/2012-10-23/index.md#api) fixes, tuneups, and brand-new methods to control libraries; multiple [Admin](/src/dev-news-briefs/2012-10-23/index.md#source) changes enable better access to user data to solve problems; and updates to the [Visualization](/src/dev-news-briefs/2012-10-23/index.md#visualization_framework) tool set cover Trackster, Circster, and the new Scatter Plot tool.  
+The **[October 23, 2012 distribution](/src/archive/dev-news-briefs/2012-10-23/index.md)** includes an **[important security fix](/src/archive/dev-news-briefs/2012-10-23/index.md#compute_tool_security_fix)**; integration with a [new Trello Issue Board](/src/archive/dev-news-briefs/2012-10-23/index.md#new_trello_issue_board); [Tool Shed](/src/toolshed/index.md) direct updates; [API](/src/archive/dev-news-briefs/2012-10-23/index.md#api) fixes, tuneups, and brand-new methods to control libraries; multiple [Admin](/src/archive/dev-news-briefs/2012-10-23/index.md#source) changes enable better access to user data to solve problems; and updates to the [Visualization](/src/archive/dev-news-briefs/2012-10-23/index.md#visualization_framework) tool set cover Trackster, Circster, and the new Scatter Plot tool.  
 
-The **[October 5, 2012 distribution](/src/dev-news-briefs/2012-10-05/index.md)** included [migrating BWA](/src/dev-news-briefs/2012-10-05/index.md#bwa_migration_to_tool_shed) to the [Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/), accessible tool versions in the UI, and new exit code features enable [clearer experimental tracking and ease reproducibility](/src/dev-news-briefs/2012-10-05/index.md#tools).  This release also includes [Visualization](/src/dev-news-briefs/2012-10-05/index.md#visualization_framework) updates, a new admin tool for [PostgreSQL dataset cleanup](/src/dev-news-briefs/2012-10-05/index.md#dataset_cleanup), and improvements in [API](/src/dev-news-briefs/2012-10-05/index.md#ap), [Workflow](/src/dev-news-briefs/2012-10-05/index.md#workflows),  and [Security](/src/dev-news-briefs/2012-10-05/index.md#security_fixes) components.
+The **[October 5, 2012 distribution](/src/archive/dev-news-briefs/2012-10-05/index.md)** included [migrating BWA](/src/archive/dev-news-briefs/2012-10-05/index.md#bwa_migration_to_tool_shed) to the [Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/), accessible tool versions in the UI, and new exit code features enable [clearer experimental tracking and ease reproducibility](/src/archive/dev-news-briefs/2012-10-05/index.md#tools).  This release also includes [Visualization](/src/archive/dev-news-briefs/2012-10-05/index.md#visualization_framework) updates, a new admin tool for [PostgreSQL dataset cleanup](/src/archive/dev-news-briefs/2012-10-05/index.md#dataset_cleanup), and improvements in [API](/src/archive/dev-news-briefs/2012-10-05/index.md#ap), [Workflow](/src/archive/dev-news-briefs/2012-10-05/index.md#workflows),  and [Security](/src/archive/dev-news-briefs/2012-10-05/index.md#security_fixes) components.
 
 
 ## Other News
@@ -214,5 +214,5 @@ The **[October 5, 2012 distribution](/src/dev-news-briefs/2012-10-05/index.md)**
 * Slides for [5 other Galaxy related events](/src/events/index.md#a2012) in October are also now available.
 * [workflow-to-galaxy (0.3.4) @ RubyGems.org](http://rubygems.org/gems/workflow-to-galaxy): Acquires information for a taverna 2 workflow from myExperiment (or from a file) and generates a Galaxy tool (`.xml` and `.rb` files).
 * American Internet Services (AIS) unveils [Life Sciences SaaS](http://bloom.bg/TQEcGz), featuring Galaxy 
-* The **[Tool Shed Wiki](/src/toolshed/index.md)** wiki has been re-written with a new, cleaner presentation. And check out all the [new features](/src/dev-news-briefs/2012-10-05/index.md#tool_shed)!
+* The **[Tool Shed Wiki](/src/toolshed/index.md)** wiki has been re-written with a new, cleaner presentation. And check out all the [new features](/src/archive/dev-news-briefs/2012-10-05/index.md#tool_shed)!
 

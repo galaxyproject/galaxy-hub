@@ -1,6 +1,6 @@
 <div class='newsItemHeader'>[Feb 8, 2013 Galaxy Distribution & News Brief](/src/news/2013-02-08-galaxy-news-brief/index.md)</div>
 
-**Complete [News Brief](/src/dev-news-briefs/2013-02-08/index.md)**
+**Complete [News Brief](/src/archive/dev-news-briefs/2013-02-08/index.md)**
 <div class='right'><a href='http://wiki.galaxyproject.org/Tool%20Shed'><img src="/src/images/news-graphics/2013_02_6-confirm-dependency-installation-sm2.png" alt="width="200px"" /></a></div>
 **Highlights:**
 
@@ -27,7 +27,7 @@ upgrade: $ hg pull
 ```
 
 
-*To receive email updates about [Galaxy Distributions and News Briefs](/src/dev-news-briefs/index.md), be sure to subscribe to the [Galaxy-Announce mailing list](/src/mailing-lists/index.md#the_lists), a low-volume list dedicated to [News Items](/src/news/index.md) and priority messages from the Galaxy [community](/src/community/index.md) and [project core team](/src/galaxy-project/index.md).* 
+*To receive email updates about [Galaxy Distributions and News Briefs](/src/docs/index.md), be sure to subscribe to the [Galaxy-Announce mailing list](/src/mailing-lists/index.md#the_lists), a low-volume list dedicated to [News Items](/src/news/index.md) and priority messages from the Galaxy [community](/src/community/index.md) and [project core team](/src/galaxy-project/index.md).* 
 
 Thanks for using Galaxy,
 

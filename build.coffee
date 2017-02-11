@@ -111,6 +111,12 @@ class Renderer extends marked.Renderer
                 #{body}
                 </tbody>
                 </table>"""
+    image: (href, title, text) =>
+      out = '<img class="img-responsive" src="' + href + '" alt="' + text + '"'
+      if (title)
+          out += ' title="' + title + '"'
+      out += this.options.xhtml ? '/>' : '>'
+      return out
 
 timer = require( "metalsmith-timer" )
 
@@ -129,6 +135,10 @@ ms = metalsmith(__dirname)
             reverse: true
         publications:
             pattern: "publications/*/*.md"
+            sortBy: "date"
+            reverse: true
+        splash:
+            pattern: "splash/*/*.md"
             sortBy: "date"
             reverse: true
     .use timer 'metalsmith-collections'

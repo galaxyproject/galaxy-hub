@@ -8,7 +8,7 @@ title: October 2012 Galaxy Update
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the October 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the October 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -203,19 +203,19 @@ Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2
 
 ## New Distributions
 
-There were [two new Galaxy distributions](/src/dev-news-briefs/index.md) in September:
+There were [two new Galaxy distributions](/src/docs/index.md) in September:
 
 ### September 20, 2012
 
-[Highlights](/src/dev-news-briefs/2012-09-20/index.md)
-* A new **[Galaxy tool](/src/dev-news-briefs/2012-09-20/index.md#galaxy_tool_factory)** that writes other new Galaxy tools? The **[Tool Factory](http://www.youtube.com/watch?v=Nzzc9zHZJjE)** is in the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) (`toolfactory`). Try it **now**
-* **[Learn](/src/dev-news-briefs/2012-09-20/index.md#multiple_tool_versions)** how to display multiple versions of a tool in the **Galaxy** tool panel. 
-* **[CloudLaunch Overhaul](/src/dev-news-briefs/2012-09-20/index.md#cloudlaunch_overhaul)** includes **[Boto 2.5.2](http://boto.cloudhackers.com)** and simplified instance selection and key generation.
-* Release also includes more **[Tool Shed](/src/dev-news-briefs/2012-09-20/index.md#toolshed)** updates, **[Framework](/src/dev-news-briefs/2012-09-20/index.md#framework)** and **[API](/src/dev-news-briefs/2012-09-20/index.md#api)** updates, plus **[Security](/src/dev-news-briefs/2012-09-20/index.md#security_fixes)** and **[Bug](/src/dev-news-briefs/2012-09-20/index.md#bug_fixes)** fixes.
+[Highlights](/src/archive/dev-news-briefs/2012-09-20/index.md)
+* A new **[Galaxy tool](/src/archive/dev-news-briefs/2012-09-20/index.md#galaxy_tool_factory)** that writes other new Galaxy tools? The **[Tool Factory](http://www.youtube.com/watch?v=Nzzc9zHZJjE)** is in the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) (`toolfactory`). Try it **now**
+* **[Learn](/src/archive/dev-news-briefs/2012-09-20/index.md#multiple_tool_versions)** how to display multiple versions of a tool in the **Galaxy** tool panel. 
+* **[CloudLaunch Overhaul](/src/archive/dev-news-briefs/2012-09-20/index.md#cloudlaunch_overhaul)** includes **[Boto 2.5.2](http://boto.cloudhackers.com)** and simplified instance selection and key generation.
+* Release also includes more **[Tool Shed](/src/archive/dev-news-briefs/2012-09-20/index.md#toolshed)** updates, **[Framework](/src/archive/dev-news-briefs/2012-09-20/index.md#framework)** and **[API](/src/archive/dev-news-briefs/2012-09-20/index.md#api)** updates, plus **[Security](/src/archive/dev-news-briefs/2012-09-20/index.md#security_fixes)** and **[Bug](/src/archive/dev-news-briefs/2012-09-20/index.md#bug_fixes)** fixes.
 
 ### September 7, 2012
 
-[Highlights](/src/dev-news-briefs/2012-09-07/index.md):
+[Highlights](/src/archive/dev-news-briefs/2012-09-07/index.md):
 * **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/)** has moved from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/).*
 * **Tool Shed** is now running **[Mercurial version 2.2.3](http://mercurial.selenic.com/)**. Many updates and refinements including UI/metadata changes - read the full report!
 * Streamline local setup with the **[Reference Genome rsync Server](/src/admin/data-integration/index.md)**: same builds and indexes as on the public **Galaxy [Main](/src/main/index.md)** instance.

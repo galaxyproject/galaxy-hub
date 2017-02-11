@@ -171,7 +171,7 @@ We have a significant amount of mailing list traffic. See the [Galaxy Project St
 * **[Support](/src/support/index.md)**
 * **[Custom Google Galaxy Web Search](http://galaxyproject.org/search/web)**
 * [Galaxy Issue Board](/src/issues/index.md)
-* [Galaxy Development News Briefs](/src/dev-news-briefs/index.md)
+* [Galaxy Development News Briefs](/src/docs/index.md)
 * [News](/src/news/index.md)
 * [Galaxy on Twitter](/src/galaxy-on-twitter/index.md)
 

@@ -8,7 +8,7 @@ title: December 2012 Galaxy Update
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the December 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the December 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -183,7 +183,7 @@ This documentation is a work in program and should make incremental improvements
 
 ## New Galaxy Distributions
 
-**[November 11, 2012](/src/dev-news-briefs/2012-11-14/index.md)**
+**[November 11, 2012](/src/archive/dev-news-briefs/2012-11-14/index.md)**
 
 <div class='indent'>
 **Highlights:**
@@ -191,8 +191,8 @@ This documentation is a work in program and should make incremental improvements
 * The **[Intergalactic Utilities Commission](http://wiki.g2.bx.psu.edu/ReviewingToolShedRepositories)** will soon begin reviewing repositories in the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)** (better repos, better tools)
 * **[Tool Shed](http://toolshed.g2.bx.psu.edu/)** **"best practice"** advice: [a single tool or a suite of tools per repository?](http://wiki.galaxyproject.org/AToolOrASuitePerRepository)
 * **[Tophat](http://tophat.cbcb.umd.edu/)**, **[Tophat2](http://tophat.cbcb.umd.edu/manual.html)**, and **[Cuffdiff](http://cufflinks.cbcb.umd.edu/manual.html#cuffdiff)** **updated** to accept gene annotations in **[GFF3](http://wiki.galaxyproject.org/Learn/Datatypes#GFF3)** format.
-* Multiple **enhancements** to the **[API](/src/dev-news-briefs/2012-11-14/index.md#api)** targeting user and history actions.
-* Plus **updates to** **[CloudLaunch](http://usegalaxy.org/cloud)**, new **[Security Fixes](/src/dev-news-briefs/2012-11-14/index.md#security_fixes)**, and several usability enhancements for **Datasets**, **Datatypes**, **Tools**, and **Tool Shed** functions.
+* Multiple **enhancements** to the **[API](/src/archive/dev-news-briefs/2012-11-14/index.md#api)** targeting user and history actions.
+* Plus **updates to** **[CloudLaunch](http://usegalaxy.org/cloud)**, new **[Security Fixes](/src/archive/dev-news-briefs/2012-11-14/index.md#security_fixes)**, and several usability enhancements for **Datasets**, **Datatypes**, **Tools**, and **Tool Shed** functions.
 
 ```
 new:     $ hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist

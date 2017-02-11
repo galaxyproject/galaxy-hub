@@ -10,7 +10,7 @@ title:  Galaxy Project Workshop 2015
 **[http://galaxyproject.org](http://galaxyproject.org)**
 
 1. Galaxy [Main](/src/main/index.md)
-1. Ways to use Galaxy explained in [Choices](/src/big-picture/choices/index.md)
+1. Ways to use Galaxy explained in [Choices](/src/choices/index.md)
 1. [Tool Shed Wiki](/src/toolshed/index.md) and Main Tool Shed at [http://usegalaxy.org/toolshed](http://usegalaxy.org/toolshed)
 1. More resources at [Learn](/src/learn/index.md), [Support](/src/support/index.md), [Teach](/src/teach/index.md), and [Galaxy Biostars](https://biostar.usegalaxy.org/) (linked access: [Support/Biostar](/src/support/biostar/index.md))
 

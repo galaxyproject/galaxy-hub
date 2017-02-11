@@ -8,7 +8,7 @@ title: August 2014 Galaxy Update
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the august 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/dev-news-briefs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the august 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 The *Galaxy Update* is going out a few days early this month because the usual release date is during [GCC2014](/src/events/gcc2014/index.md).  
 
@@ -346,7 +346,7 @@ One new [public Galaxy server](/src/public-galaxy-servers/index.md) was added to
 
 # Galaxy Distributions
 
-* [June 2, 2014 Galaxy Distribution](/src/dev-news-briefs/2014-06-02/index.md)
+* [June 2, 2014 Galaxy Distribution](/src/archive/dev-news-briefs/2014-06-02/index.md)
 * [Corresponding version](http://gregvonkuster.org/galaxy-toolshed-june-2-2014-release/) of the ToolShed
 * [BioBlend 0.4.3](https://pypi.python.org/pypi/bioblend/0.4.3) was released on April 11, 2014.  
 * The most recent version of CloudMan was [released in January 2014](/src/news/cloudman-release201401/index.md).

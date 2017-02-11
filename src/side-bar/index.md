@@ -10,7 +10,7 @@
 # Use Galaxy
 
 * [Servers](/src/public-galaxy-servers/index.md) &bull; [Learn](/src/learn/index.md) 
-* [Main](/src/main/index.md) &bull; [Choices](/src/big-picture/choices/index.md) 
+* [Main](/src/main/index.md) &bull; [Choices](/src/choices/index.md) 
 * [Share](/src/learn/share/index.md) &bull; [Search](http://galaxyproject.org/search/usegalaxy)
 
 # Communicate
@@ -36,7 +36,7 @@
 
 * [Home](http://galaxyproject.org) &bull; [About](/src/galaxy-project/index.md) &bull; [Cite](/src/citing-galaxy/index.md)
 * [Community](/src/community/index.md) 
-* [Big Picture](/src/big-picture/index.md) 
+* [Big Picture](/src/galaxy-project/index.md) 
 
 # Wiki
 
