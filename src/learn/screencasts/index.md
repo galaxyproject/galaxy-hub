@@ -148,16 +148,6 @@ Also see [Learn/Interval Operations](/src/learn/Interval Operations/index.md).
 * **[Finding Clusters](http://screencast.g2.bx.psu.edu/GOPS_Cluster/)**
 * **[Joining Features](http://screencast.g2.bx.psu.edu/quickie5_join/flow.htm)** 
 
-## Sample Tracking
-
-* **[Sample Tracking Admin](http://screencast.g2.bx.psu.edu/sample_tracking/admin_tasks.html)**
-* **[Sample Tracking Create Forms](http://screencast.g2.bx.psu.edu/sample_tracking/create_forms.html)**
-* **[Sample Tracking Request Admin](http://screencast.g2.bx.psu.edu/sample_tracking/create_request_admin.html)**
-* **[Sample Tracking Request](http://screencast.g2.bx.psu.edu/sample_tracking/create_request.html)**
-* **[Sample Tracking Sequencer Config](http://screencast.g2.bx.psu.edu/sample_tracking/create_seq_conf.html)**
-* **[Sample Tracking Transfer Datasets](http://screencast.g2.bx.psu.edu/sample_tracking/create_transfer_datasets.html)**
-* **[PacBio Demo](http://screencast.g2.bx.psu.edu/pacBio-demo/)**
-
 ## Developers How To
 
 * **[Tool integration](http://screencast.g2.bx.psu.edu/toolIntegration/)**
