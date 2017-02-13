@@ -87,7 +87,7 @@ Suppose in a population you have $A$ individuals (not to be confused with nucleo
 |    |    |     |
 |:----:|:----:|:-----:|
 | ![](/src/tutorials/var_dip/pA.png) | ![](/src/tutorials/var_dip/pB.png) | ![](/src/tutorials/var_dip/pAB.png) |
-| $P(A)$ Polymorphisms | $P(B)$ <br> Variant calls | $P(AB)$ Polymorphisms + Varinat calls |
+| $P(A)$ <br> Polymorphisms | $P(B)$ <br> Variant calls | $P(AB)$ <br> Polymorphisms + Varinat calls |
 
 Now we can ask the following question: *What is the probability of a having a real polymorphism* $A$ *given our observation of variants in reads* $B$? In other words *what is the probability of* $A$ *given* $B$? Or, as stated in the original [blog](https://oscarbonilla.com/2009/05/visualizing-bayes-theorem/): "*given that we are in region $B$ what is the probability that we are in the region $AB$*?":
 
@@ -149,10 +149,11 @@ This makes it highly unlikely that **AA** is a true genotype of this individual.
 
 Freebayes is a *haplotype-based* variant caller. This implies that instead of looking at an individual positions within an alignment of reads to the reference genome, it looks at a haplotype window, length of which is dynamically determined (see section 3.2. in [FreeBayes manuscript](http://arxiv.org/pdf/1207.3907v2.pdf)):
 
->
->![](/src/tutorials/var_dip/freebayes.png)
->
->Looking at a haplotype window makes misalignments tolerable. In this case a low complexity poly(A) stretch is misaligned. As a result looking at individual positions will result in calling multiple spurious varians. In the case of FreeBayes looking at a haplotype identifies two alleles (this is a diploid example) `A(7)` and `A(6)`, while `A(8)` is likely an error. Image by [Erik Garrison](https://github.com/ekg/freebayes)
+
+|                                           |
+|-------------------------------------------|
+| ![](/src/tutorials/var_dip/freebayes.png) |
+|<small>Looking at a haplotype window makes misalignments tolerable. In this case a low complexity poly(A) stretch is misaligned. As a result looking at individual positions will result in calling multiple spurious varians. In the case of FreeBayes looking at a haplotype identifies two alleles (this is a diploid example) `A(7)` and `A(6)`, while `A(8)` is likely an error. Image by [Erik Garrison](https://github.com/ekg/freebayes)</small>|
 
 # Let's try it
 
@@ -264,10 +265,12 @@ This produce a list of [all tables and fields](https://github.com/nekrut/galaxy/
 #### Querying GEMINI database
 
 GEMINI database is queried using the versatile SQL language (more on SQL [here](http://swcarpentry.github.io/sql-novice-survey)). In Galaxy's version of GEMINI this is done using **GEMINI_query** tool. Within this tool SQL commands are typed directly into the **The query to be issued to the database** text box. Let's begin getting information from some of the tables we discovered with **GEMINI_db_info** tool above.
->
+
 The examples below are taken from "[Intro to Gemini](https://s3.amazonaws.com/gemini-tutorials/Intro-To-Gemini.pdf)" tutorial. For extensive documentation see "[Querying GEMINI](http://gemini.readthedocs.org/en/latest/content/querying.html)".
 
-> #### *Are there "novel" varinats that are not annotated in dbSNP database?*
+<div class="alert alert-info" role="alert">
+Are there "novel" varinats that are not annotated in dbSNP database?
+</div>
 
 To answer this question we will type the following query:
 
@@ -281,7 +284,9 @@ into **The query to be issued to the database** field of the interface:
 
 As we can see from [output (Click this link to see it)](https://usegalaxy.org/datasets/bbd44e69cb8906b51bb37b9032761321/display/?preview=True) there are 21 variants that are not annotated in dbSNP.
 
-> #### *Which variants are fount within POLRMT gene?* 
+<div class="alert alert-info" role="alert">
+Which variants are found within POLRMT gene?
+</div>
 
 To answer this type:
 
@@ -309,7 +314,9 @@ GEMINI provides access to genotype, sequencing depth, genotype quality, and geno
  * `gt_ref_depths.subjectID` -  number of reference allele reads in this subject at position
  * `gt_alt_depths.subjectID` - number of alternate allele reads in this subject at position
 
-> #### *At how many sites does child in our trio have a non-reference allele?* 
+<div class="alert alert-info" role="alert">
+At how many sites does child in our trio have a non-reference allele?
+</div>
 
 To answer this we will use two fields of **GEMINI_query** interface. In the **The query to be issued to the database** we will type:
 
@@ -327,7 +334,9 @@ gt_types.HG002_NA24385_son <> HOM_REF
 
 This produce [a list of sites](https://usegalaxy.org/datasets/bbd44e69cb8906b560921700703d0255/display/?preview=True)
 
-> #### *At how many sites both father and son have non reference alleles?*
+<div class="alert alert-info" role="alert">
+At how many sites both father and son have non reference alleles?
+</div>
 
 To answer this we will type the same expression 
 
@@ -345,8 +354,9 @@ SELECT * from variants
 
 This will produce the following [output](https://usegalaxy.org/datasets/bbd44e69cb8906b5aab445b3cd632ba7/display/?preview=True)
 
-
-> #### *List genotypes for father and son where they have non-reference alleles.*
+<div class="alert alert-info" role="alert">
+List genotypes for father and son where they have non-reference alleles.
+</div>
 
 Type the following:
 
@@ -372,8 +382,9 @@ Wilcards simply writing SQL expressions when searching across multiple terms. Th
 
 Let's try a few examples.
 
-
-> #### *At which variants are every sample heterozygous?*
+<div class="alert alert-info" role="alert">
+At which variants all samples are heterozygous?
+</div>
 
 Type
 
