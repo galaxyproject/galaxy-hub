@@ -22,10 +22,6 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
 ## Upcoming Events
 
 <div class='center'> 
-<a href='https://www.embl-abr.org.au/game2017/'><img src='/src/images/logos/GAMeLogo200.png' alt="Galaxy Australasia Meeting 2017" width="120" /></a>
-<a href='http://www.embl-abr.org.au/game2017/training-for-admin-workshop/'><img src='/src/images/logos/game2017-admin-training-logo.png' alt="Galaxy Administrator Training Course" height="120" /></a> &nbsp;
-<a href='https://www.eventbrite.com.au/e/resbaz-rna-seq-in-galaxy-workshop-tickets-31246086887'><img src='/src/images/logos/resbaz-brisbane.png' alt="RNA-Seq in Galaxy workshop @ ResBaz Brisbane" height="50" /></a>
-<a href="http://www.kogo.or.kr/Conference/ConferenceView.asp?AC=2&CODE=CI20161201"><img src='/src/images/logos/kogo-logo.png' alt="13th KOGO Winter Symposium: Galaxy to Genomics using NGS data"  height="50"/></a>
 </div>
 
 <br />
@@ -38,34 +34,10 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> Contact </th>
   </tr>
   <tr>
-    <th> February 3-9 </th>
-    <td> <strong><a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a></strong> </td>
-    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> University of Melbourne, Victoria, Australia </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
-  </tr>
-  <tr>
-    <th> February 6-9 </th>
-    <td> <strong><a href='http://www.embl-abr.org.au/game2017/training-for-admin-workshop/'>Galaxy Administrator Training Course</a></strong> </td>
-    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a>, University of Melbourne, Victoria, Australia </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
-  </tr>
-  <tr>
-    <th> February 6-8 </th>
-    <td> <em><a href="https://www.molmed.nl/courses/CourseDetail.asp?courseID=1499&backpage=../courses/courses.asp">Galaxy for Translational Research</a></em> </td>
-    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Erasmus MC, Netherlands </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Andrew Stubbs </td>
-  </tr>
-  <tr>
-    <th> February 8 </th>
-    <td> <em><a href='https://www.eventbrite.com.au/e/resbaz-rna-seq-in-galaxy-workshop-tickets-31246086887'>RNA-Seq in Galaxy workshop</a></em> </td>
-    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href="https://2017.resbaz.com/brisbane">Research Bazaar 2017</a>, University of Queensland,  Brisbane, Australia </td>
-    <td> Organisers </td>
-  </tr>
-  <tr>
-    <th> February 8-10 </th>
-    <td> <em><a href="http://www.kogo.or.kr/Conference/ConferenceView.asp?AC=2&CODE=CI20161201">From Galaxy to Genomics using NGS Data</a></em> </td>
-    <td> <img src="/src/images/icons/Asia40.png" alt="Asia" align="right" /> <a href="http://www.kogo.or.kr/index.asp">13th KOGO Winter Symposium</a>, Yongpyong, Gangwon-do, Korea </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/dave-clements'>Dave Clements</a> </td>
+    <th> February 13-17 </th>
+    <td> <em><a href='http://www.denbi.de/22-training-cat/training-courses/213-3rd-galaxy-high-throughput-sequencing-hts-data-analysis-workshop'>Galaxy Workshop on HTS data analysis for Scientists</a></em> </td>
+    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Freiburg, Germany </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='mailto:erxleben@informatik.uni-freiburg.de'>Organisers</a> </td>
   </tr>
   <tr>
     <th> February 14 </th>
@@ -74,12 +46,6 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <td> <a href="http://www.polyomics.gla.ac.uk/biog-davidmeltzer.html">David Meltzer</a> </td>
   </tr>
   <tr>
-    <th> February 13-17 </th>
-    <td> <em><a href='http://www.denbi.de/22-training-cat/training-courses/213-3rd-galaxy-high-throughput-sequencing-hts-data-analysis-workshop'>Galaxy Workshop on HTS data analysis for Scientists</a></em> </td>
-    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Freiburg, Germany </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='mailto:erxleben@informatik.uni-freiburg.de'>Organisers</a> </td>
-  </tr>
-    <tr>
     <th> February 16 </th>
     <td> <em><a href="/src/community/galaxy-admins/meetups/2017-02-16/index.md">CloudLaunch</a></em> </td>
     <td> <img src="/src/images/icons/World40.png" alt="Online" align="right" /> <a href="/src/community/galaxy-admins/meetups/2017-02-16/index.md"> GalaxyAdmins Online Meetup</a> <em>Online</em> </td>
@@ -209,6 +175,10 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
 <a href='http://www.abdn.ac.uk/genomics/bioinformatics/training/'><img src="/src/images/logos/AberdeenLogoTrans.png" alt="Galaxy Training at University of Aberdeen" width="120" /></a>
 <a href='/src/events/pag2017/index.md'><img src="/src/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="90" /></a> &nbsp;
 <a href='https://www.france-bioinformatique.fr/fr/evenements/EGDW2017'><img src="/src/images/logos/edgw_2017_300.jpg" alt="European Galaxy Developer Workshop" height="100"/></a> &nbsp;
+<a href='https://www.embl-abr.org.au/game2017/'><img src='/src/images/logos/GAMeLogo200.png' alt="Galaxy Australasia Meeting 2017" width="120" /></a>
+<a href='http://www.embl-abr.org.au/game2017/training-for-admin-workshop/'><img src='/src/images/logos/game2017-admin-training-logo.png' alt="Galaxy Administrator Training Course" height="120" /></a> &nbsp;
+<a href='https://www.eventbrite.com.au/e/resbaz-rna-seq-in-galaxy-workshop-tickets-31246086887'><img src='/src/images/logos/resbaz-brisbane.png' alt="RNA-Seq in Galaxy workshop @ ResBaz Brisbane" height="50" /></a>
+<a href="http://www.kogo.or.kr/Conference/ConferenceView.asp?AC=2&CODE=CI20161201"><img src='/src/images/logos/kogo-logo.png' alt="13th KOGO Winter Symposium: Galaxy to Genomics using NGS data"  height="50"/></a>
 </div>
 
 <br />
@@ -222,11 +192,46 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> Links </th>
   </tr>
   <tr>
+    <th> February 8-10 </th>
+    <td> <em><a href="/src/events/kogo2017/index.md">From Galaxy to Genomics using NGS Data</a></em> </td>
+    <td> <img src="/src/images/icons/Asia40.png" alt="Asia" align="right" /> <a href="http://www.kogo.or.kr/index.asp">13th KOGO Winter Symposium</a>, Yongpyong, Gangwon-do, Korea </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="/src/mo-heydarian/index.md">Mo Heydarian</a>, <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th> February 3-9 </th>
+    <td> <strong><a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a></strong> </td>
+    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> University of Melbourne, Victoria, Australia </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th> February 6-9 </th>
+    <td> <strong><a href='http://www.embl-abr.org.au/game2017/training-for-admin-workshop/'>Galaxy Administrator Training Course</a></strong> </td>
+    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a>, University of Melbourne, Victoria, Australia </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th> February 6-8 </th>
+    <td> <em><a href="https://www.molmed.nl/courses/CourseDetail.asp?courseID=1499&backpage=../courses/courses.asp">Galaxy for Translational Research</a></em> </td>
+    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Erasmus MC, Netherlands </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Andrew Stubbs </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th> February 8 </th>
+    <td> <em><a href='https://www.eventbrite.com.au/e/resbaz-rna-seq-in-galaxy-workshop-tickets-31246086887'>RNA-Seq in Galaxy workshop</a></em> </td>
+    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href="https://2017.resbaz.com/brisbane">Research Bazaar 2017</a>, University of Queensland,  Brisbane, Australia </td>
+    <td> Organisers </td>
+    <td> </td>
+  </tr>
+  <tr>
     <th> February 7 </th>
-    <td> <em>Introduction to Galaxy Workshop</em> </td>
+    <td> <em><a href="/src/events/catholicKR2017/index.md">Introduction to Galaxy Workshop</a></em> </td>
     <td> <img src="/src/images/icons/Asia40.png" alt="Asia" align="right" /><a href="http://www.catholic.ac.kr/">Catholic University of Korea</a>, Seoul, South Korea </td>
-    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/DaveClements'>Dave Clements</a> </td>
-    <td </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/'><a href="/src/mo-heydarian/index.md">Mo Heydarian</a>, <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a> </td>
+    <td> </td>
   </tr>
   <tr>
     <th> February 6 </th>
@@ -237,9 +242,9 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
   </tr>
   <tr>
     <th> February 6 </th>
-    <td> <em>Introduction to Galaxy Workshop</em> </td>
+    <td> <em>a href="/src/events/koreaKTHRD2017/index.md">Introduction to Galaxy Workshop</a></em> </td>
     <td> <img src="/src/images/icons/Asia40.png" alt="Asia" align="right" /> <a href="http://www.kthrd.com/index.do">KTHRD</a>, Daejeon, South Korea </td>
-    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/DaveClements'>Dave Clements</a> </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="/src/mo-heydarian/index.md">Mo Heydarian</a>, <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a> </td>
     <td> </td>
   </tr>
   <tr>
