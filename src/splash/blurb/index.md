@@ -1,5 +1,5 @@
 ---
-title: Welcome to the Galaxy Community Hub
+title: Data intensive biology for everyone
 date: 2020-03-04
 ---
 
@@ -14,4 +14,4 @@ transparent computational biomedical research.
   Pages, interactive, web-based documents that describe a complete analysis.
 
 
-This is the Galaxy Community Hub, where you'll find community curated documentation of all things Galaxy.
+Welcome to the Galaxy Community Hub, where you'll find community curated documentation of all things Galaxy.
