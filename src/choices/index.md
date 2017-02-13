@@ -1,26 +1,27 @@
+# Galaxy Choices
 Galaxy is available in several different ways.
 
-## Main (UseGalaxy.org)
+## Main - usegalaxy.org
 
-Galaxy has a free public server at [UseGalaxy.org](http://usegalaxy.org/) (also known as *Main*) that can be used by anyone.  See [Main](/src/main/index.md) for more on this option.
+Galaxy has a free public server at [usegalaxy.org](http://usegalaxy.org/) (also known as *Main*) that can be used by anyone.  See [Main](/src/main/index.md) for more on this option.
 
-## Install Galaxy Locally
+## Local Galaxy
 
-You can also install your own local instance of Galaxy.  See [Get Galaxy](/src/admin/get-galaxy/index.md) for details on how to do this.
+* You can install your own local instance of Galaxy. See [Get Galaxy](/src/admin/get-galaxy/index.md) for details on how to do this.
 
-Alternatively, you can run a full-fledged Galaxy installation provided using a [Docker Image](https://github.com/bgruening/docker-galaxy-stable).
+* Alternatively, you can run a full-fledged Galaxy installation using a [Docker Image](https://github.com/bgruening/docker-galaxy-stable).
 
 ## Use Galaxy on the Cloud
 
-Another option is to install Galaxy on the *[Cloud](/src/cloud/index.md)*.  The cloud is a virtual computational infrastructure provided by vendors that can be rented and scaled as needed. The Galaxy Project also developed and supports CloudMan, a software package that provides a common interface to different cloud infrastructures.
+Another option is to install Galaxy on the [Cloud](/src/cloud/index.md). Cloud is a virtual computational infrastructure provided by vendors that can be rented and scaled as needed. The Galaxy Project also developed and supports [CloudMan](/src/cloudman/index.md), a software package that provides a common interface to different cloud infrastructures.
 
-## Use Another Public Galaxy Server
+## Use Public Galaxy Server
 
-Many [other Galaxy servers](/src/public-galaxy-servers/index.md) besides [Main](/src/main/index.md) have been made publicly available by other organizations.  One of these may meet your needs.  See [Public Galaxy Servers](/src/public-galaxy-servers/index.md) for a list.
+Many [Galaxy servers](/src/public-galaxy-servers/index.md) besides [Main](/src/main/index.md) have been made publicly available by other organizations. One of these may meet your needs. See [Public Galaxy Servers](/src/public-galaxy-servers/index.md) for a list.
 
 ## Get the SlipStream Galaxy Appliance
 
-Get a dedicated server pre-configured with a fully operational Galaxy instance.  SlipStream Galaxy minimizes the IT burden of running and maintaining your own local instance with pre-installed analysis tools, pre-loaded datasets, automatic software updates, and a high-performance infrastructure designed to handle computationally intensive analysis tasks.  Visit the [SlipStream Appliance: Galaxy Edition website](http://www.bioteam.net/slipstream/galaxy-edition) for pricing and other details.
+Get a dedicated server pre-configured with a fully operational Galaxy instance. SlipStream Galaxy minimizes the IT burden of running and maintaining your own local instance with pre-installed analysis tools, pre-loaded datasets, automatic software updates, and a high-performance infrastructure designed to handle computationally intensive analysis tasks.  Visit the [SlipStream Appliance: Galaxy Edition website](http://www.bioteam.net/slipstream/galaxy-edition) for pricing and other details.
 
 ## Which Option to Choose?
 
