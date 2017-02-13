@@ -15,13 +15,13 @@ autotoc: true
 * *repository* - Tools in Tool Shed are stored in versioned code archives called repositories. There may be more tools per repository.
 
 
-## -1. Find the tool you want to use
+## Find the tool you want to use
 
 * Find the tool in some other Galaxy instance that already has it.
 * Use the Tool Shed search or browse categories and tools at https://toolshed.g2.bx.psu.edu/.
 * Use the experimental search at http://toolshed.tools/.
 
-## 1. Connect your Galaxy to a Tool Shed
+## Connect your Galaxy to a Tool Shed
 
 Galaxy is by default connected to the Main Tool Shed. However you can optionally connect to other custom Tool Sheds by modifying the `config/tool_sheds_conf.xml` file in the Galaxy directory. There are few more Tool Sheds worldwide but the Galaxy Team maintains two: [Main Tool Shed](http://toolshed.g2.bx.psu.edu/) and [Test Tool Shed](http://testtoolshed.g2.bx.psu.edu/). By default, the Main Tool Shed is already configured in Galaxy and we recommend using it.
 
@@ -35,43 +35,43 @@ However you can add as many Tool Sheds as you want to the configuration file of 
 </tool_sheds>
 ```
 
-## 2. Open the Tool Shed
+## Open the Tool Shed
 
 Go to Galaxy [Admin Interface](/src/admin/index.md) and click `Search Tool Shed`.
 
 You will see the following in the middle panel:
 
-![](/src/admin/tools/add-tool-from-toolshed-tutorial/connected_toolsheds.png)
+![Connected Toolsheds](/src/admin/tools/add-tool-from-toolshed-tutorial/connected_toolsheds.png)
 
-## 3. Search for a repository
+## Search for a repository
 
 Click `Search for valid repositories`. (You can also search for tools directly.)
 
-## 4. Enter the name of the repository you are searching for
+## Enter the name of the repository you are searching for
 
 Next, you can put in the repository name and hit `Search`.  In our example, we'll search for `bwa`.
 
-![](/src/admin/tools/add-tool-from-toolshed-tutorial/search_valid_tools.png)
+![Search Valid Tools](/src/admin/tools/add-tool-from-toolshed-tutorial/search_valid_tools.png)
 
-## 5. Select a repository to install
+## Select a repository to install
 
 After searching, you can select a repository to install.  In our case, we'll install `bwa` from the owner `devteam`.
 
-![](/src/admin/tools/add-tool-from-toolshed-tutorial/install_bwa.png)
+![Install BWA](/src/admin/tools/add-tool-from-toolshed-tutorial/install_bwa.png)
 
-## 6. Preview the repository
+## Preview the repository
 
 On the next page you can preview the contents of the repository including all tools and a readme file.
 
-![](/src/admin/tools/add-tool-from-toolshed-tutorial/repository_install_preview.png)
+![Repository Install Preview](/src/admin/tools/add-tool-from-toolshed-tutorial/repository_install_preview.png)
 
-## 7. Confirm dependencies
+## Confirm dependencies
 
 Finally, we can confirm our dependencies installation (if any) and choose the panel section we want to show the repository's tools in. If you keep the settings as is, the shown dependencies will be handled automatically either by Conda or Tool Shed package recipes. To learn more you can visit documentation about [dependency resolution](https://docs.galaxyproject.org/en/master/admin/dependency_resolvers.html) and [Conda](https://docs.galaxyproject.org/en/master/admin/conda_faq.html).
 
-![](/src/admin/tools/add-tool-from-toolshed-tutorial/bwa_conda_details.png)
+![BWA Conda Details](/src/admin/tools/add-tool-from-toolshed-tutorial/bwa_conda_details.png)
 
-## 8. Sit down and relax
+## Sit down and relax
 
 ..and wait for the installation to proceed.
 
@@ -79,10 +79,10 @@ As you're waiting for your tool to install, you can leave the page freely, as th
 
 The tool will show up in the tool panel of the section you selected, and the users can use it.
 
-![](/src/admin/tools/add-tool-from-toolshed-tutorial/tool_installation.png)
+![Tool Installation](/src/admin/tools/add-tool-from-toolshed-tutorial/tool_installation.png)
 
 You can monitor the installation progress of the tool if you click on `Monitor installing tool shed repositories` in the [Admin Interface](/src/admin/index.md).
 
 You can also check the states of all installed tools if you click `Manage installed tool shed repositories` in the [Admin Interface](/src/admin/index.md).
 
-![](/src/admin/tools/add-tool-from-toolshed-tutorial/repo_status.png)
+![Repository Status](/src/admin/tools/add-tool-from-toolshed-tutorial/repo_status.png)
