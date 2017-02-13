@@ -77,7 +77,7 @@ The capitalized position contains a G &#8594; A [transition](https://en.wikipedi
 
 The modern variant callers attempt to assign a reliability estimate for each genotype call. This is done using Bayes reasoning (for a great visual explanation see [blog](https://oscarbonilla.com/2009/05/visualizing-bayes-theorem/) by Oscar Bonilla). Here we present a SNP-relevant "translation" on this explanation (with inspiration from [Erik Garrison](https://github.com/ekg)).
 
-Suppose in a population you have $A$ individuals (not to be confused with nucleotide **A**; in this case $A$ is a number of individuals) with a variant. You are performing re-sequencing and observe a variant in $B$ (again, a number) of your sequencing reads. We want to estimate the probability of having the real polymorphism in th epopulation given our observations in sequencing reads. The logic is as follows:
+Suppose in a population you have $A$ individuals (not to be confused with nucleotide **A**; in this case $A$ is a number of individuals) with a variant. You are performing re-sequencing and observe a variant in $B$ (again, a number) of your sequencing reads. We want to estimate the probability of having the real polymorphism in the population given our observations in sequencing reads. The logic is as follows:
 
  * The probability of having polymorphism **A** in the population is $P(A) = |A|/|U|$
  * The probability of seeing a variant given our identification approach (i.e., sequencing) is $P(B) = |B|/|U|$
