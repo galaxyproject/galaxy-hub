@@ -1,4 +1,8 @@
+sudo: required
 language: node_js
+services:
+  - docker
+
 node_js:
   - "node"
 env:
@@ -9,5 +13,5 @@ addons:
       - ubuntu-toolchain-r-test
     packages:
       - g++-4.8
-script: make build
+script: make docker-build
   
