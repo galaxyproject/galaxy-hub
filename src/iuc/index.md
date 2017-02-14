@@ -35,7 +35,7 @@ Member | Joined | GitHub
 **Anthony Bretaudeau**, GenOuest BioInformatics Platform | May 11, 2016 | [@abretaud](https://github.com/abretaud)
 **Saskia Hiltemann**, Erasmus University Medical Center | Jun 14, 2016 | [@shiltemann](https://github.com/shiltemann)
 **Lance Parsons**, Princeton University | Oct 28, 2016 | [@lparsons](https://github.com/lparsons)
-**Bérénice Batut**,  | Feb 14, 2017 | [@bebatut](https://github.com/bebatut)
+**Bérénice Batut**, University of Freiburg | Feb 14, 2017 | [@bebatut](https://github.com/bebatut)
 
 
 Inactive members
