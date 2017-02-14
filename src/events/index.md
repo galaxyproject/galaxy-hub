@@ -21,7 +21,10 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
 
 ## Upcoming Events
 
-<div class='center'> 
+<div class='center'>
+<a href='http://www.denbi.de/22-training-cat/training-courses/213-3rd-galaxy-high-throughput-sequencing-hts-data-analysis-workshop'><img src="/src/images/logos/deNBILogo.png" alt="Galaxy Workshop on HTS data analysis for Scientists" height="50" /></a> &nbsp;
+<a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Feb17.html'><img src="/src/images/logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="90" /></a>
+<a href='/src/community/galaxy-admins/meetups/2017-02-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="16 February GalaxyAdmins Web Meetup: CloudLaunch" height="56" /></a> &nbsp;
 </div>
 
 <br />
@@ -55,7 +58,13 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> February 20 </th>
     <td> <em><a href="https://gigaworkshops.eventbrite.com">Bioinformatics Workshops on Galaxy and Metagenomics</a></em> </td>
     <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> Preceding the <a href="http://biogenomics2017.org/">Global Biodiversity Genomics Conference</a>Washington, D.C., United States </td>
-    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="/src/JamesTaylor">James Taylor</a> </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a>, <a href="/src/mo-heydarian/index.md">Mo Heydarian</a> </td>
+  </tr>
+  <tr>
+    <th> February 22 </th>
+    <td> <em><a href="https://gigaworkshops.eventbrite.com">Supporting genomic analysis of diverse organisms using the Galaxy framework</a></em> </td>
+    <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> <a href="http://biogenomics2017.org/">Global Biodiversity Genomics Conference</a>Washington, D.C., United States </td>
+    <td> <a href="/src/JamesTaylor">James Taylor</a> </td>
   </tr>
   <tr>
     <th> February 22, 23 </th>
