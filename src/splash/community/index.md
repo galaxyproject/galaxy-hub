@@ -127,4 +127,4 @@ date: 2030-03-04
   </div>
 </div>
 
-<small>Thank you for contributing to Galaxy [UIC tools](https://github.com/galaxyproject/tools-iuc/graphs/contributors).</small>
+<small>Thank you for contributing to Galaxy [IUC tools](https://github.com/galaxyproject/tools-iuc/graphs/contributors).</small>
