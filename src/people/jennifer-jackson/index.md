@@ -1,5 +1,5 @@
-<div class='right'><a href='/src/jennifer-jackson/index.md'><img src="/src/jennifer-jackson/jenhjackson.png" alt="Jen Jackson" width="200",height="150" /></a><br />
-[Jennifer Hillman Jackson](/src/jennifer-jackson/index.md)<br />
+<div class='right'><a href='/src/people/jennifer-jackson/index.md'><img src="/src/people/jennifer-jackson/jenhjackson.png" alt="Jen Jackson" width="200",height="150" /></a><br />
+[Jennifer Hillman Jackson](/src/people/jennifer-jackson/index.md)<br />
 [Penn State](http://www.bx.psu.edu)</div>
 
 # Jennifer Hillman-Jackson

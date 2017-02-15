@@ -32,7 +32,7 @@ title: Bioinformatics Training and Teaching with Galaxy
 
 # Notes
 
-These notes are a rough first grouping of [Dave Clements'](/src/dave-clements/index.md) notes from the breakout.  Please feel free to update them.
+These notes are a rough first grouping of [Dave Clements'](/src/people/dave-clements/index.md) notes from the breakout.  Please feel free to update them.
 
 
 ## Platforms

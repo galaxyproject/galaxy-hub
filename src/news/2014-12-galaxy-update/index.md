@@ -16,7 +16,7 @@ As always there's a lot going on in the Galaxy this month.  "Like what?" you say
 * [15 new ToolShed repositories from 10 contributors](/src/galaxy-updates/2014-12/index.md#toolshed-contributions)
 * And, [10 other juicy](/src/galaxy-updates/2014-12/index.md#other-news) (well maybe not *juicy*, but certainly not *crunchy*) [bits of news](/src/galaxy-updates/2014-12/index.md#other-news)
 
-[Dave Clements](/src/dave-clements/index.md) and the *crisp* [Galaxy Team](/src/galaxy-team/index.md)
+[Dave Clements](/src/people/dave-clements/index.md) and the *crisp* [Galaxy Team](/src/galaxy-team/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-12-01 </div>
 

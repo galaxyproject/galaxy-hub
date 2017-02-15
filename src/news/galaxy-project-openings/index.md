@@ -8,7 +8,7 @@ Galaxy a great project with a [great community](/src/events/gcc2013/index.md). I
 
 As always, please let me, or [any of us](/src/galaxy-team/index.md), know if you have any questions.
 
-[Dave Clements](/src/dave-clements/index.md)
+[Dave Clements](/src/people/dave-clements/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-01-25</div>
 

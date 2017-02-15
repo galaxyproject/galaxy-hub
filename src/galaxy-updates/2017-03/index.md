@@ -107,7 +107,7 @@ Some highlights from January:
    Connor Wytko, Brian Soto, Stephen P. Ficklin. *Database*, Vol. 2017 (10 January 2017), baw154, doi:10.1093/database/baw154
 
 * [A guide and best practices for R/Bioconductor tool integration in Galaxy](http://dx.doi.org/10.12688/f1000research.9821.1)
-   [Nitesh Turaga](/src/nitesh-turaga/index.md), Mallory A. Freeberg, [Dannon Baker](/src/dannon-baker/index.md), [John Chilton](/src/john-chilton/index.md), [Anton Nekrutenko](/src/anton/index.md), [James Taylor](/src/james=taylor/index.md). *F1000Research*, Vol. 5 (24 November 2016), 2757, doi:10.12688/f1000research.9821.1
+   [Nitesh Turaga](/src/people/nitesh-turaga/index.md), Mallory A. Freeberg, [Dannon Baker](/src/people/dannon-baker/index.md), [John Chilton](/src/people/john-chilton/index.md), [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/james=taylor/index.md). *F1000Research*, Vol. 5 (24 November 2016), 2757, doi:10.12688/f1000research.9821.1
 
 * [MetaDP: a comprehensive web server for disease prediction of 16S rRNA metagenomic datasets](http://dx.doi.org/10.1007/s41048-016-0033-4)
    Xilin Xu, Aiping Wu, Xinlei Zhang, Mingming Su, Taijiao Jiang, Zhe-Ming Yuan. *Biophysics Reports* (2017), pp. 1-10, doi:10.1007/s41048-016-0033-4
@@ -272,7 +272,7 @@ For full details on all of the enhancements and fixes in this release, please se
 
 ### Galaxy Docker Image 16.10
 
-And, thanks to [Björn Grüning](/src/bjoern-gruening/index.md), there is also now [a Docker image for Galaxy 16.10](https://github.com/bgruening/docker-galaxy-stable/releases/tag/16.10) as well.
+And, thanks to [Björn Grüning](/src/people/bjoern-gruening/index.md), there is also now [a Docker image for Galaxy 16.10](https://github.com/bgruening/docker-galaxy-stable/releases/tag/16.10) as well.
 
 
 

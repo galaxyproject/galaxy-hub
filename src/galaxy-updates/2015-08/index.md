@@ -215,9 +215,9 @@ There are [upcoming events](/src/events/index.md) in four countries on three con
 
 * [Enabling Data-Intensive Biomedical Studies](http://bit.ly/leophd), Simone Leo
 
-* [Enabling cloud bursting for life sciences within Galaxy](http://bit.ly/1TRbuRl), [Afgan](/src/enis-afgan/index.md) *et al.*
+* [Enabling cloud bursting for life sciences within Galaxy](http://bit.ly/1TRbuRl), [Afgan](/src/people/enis-afgan/index.md) *et al.*
 
-* [Building and Provisioning Bioinformatics Environments on Public and Private Clouds](http://bit.ly/1gOtVYQ), [Afgan](/src/enis-afgan/index.md) *et al.*
+* [Building and Provisioning Bioinformatics Environments on Public and Private Clouds](http://bit.ly/1gOtVYQ), [Afgan](/src/people/enis-afgan/index.md) *et al.*
 
 * [LiSIs: An Online Scientific Workflow System for Virtual Screening](http://dx.doi.org/10.2174/1386207318666150305123341), Kannas, *et al.*
 
@@ -411,7 +411,7 @@ Galaxy now has a formal and open policy for managing the project source code - i
 Three new **[Community Log Board](/src/community/logs/index.md)** entries were added in July:
 
 * **[Moving from MySQL to PostgreSQL](/src/community/log/2015/mysql2postgresql/index.md)**
-    by [Hans-Rudolf Hotz](/src/hansrudolf-hotz/index.md)
+    by [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
 
 * **[BioJS2Galaxy – A step by step guide](/src/community/log/2015/biojs2galaxy/index.md)**
     by [Benedikt Rauscher](https://twitter.com/bengrauscher) and [Benjamen White](http://www.benjamenwhite.com/2015)
@@ -422,10 +422,10 @@ Three new **[Community Log Board](/src/community/logs/index.md)** entries were a
 And the new [Galaxy NGS 101](https://wiki.galaxyproject.org/Learn/GalaxyNGS101) set of exercises, and the [Galaxy Coursera material](https://www.coursera.org/course/gengalaxy) were added to the **[Teaching Resources Directory](/src/teach/resources/index.md)**:
 
 * **[Galaxy NGS 101](/src/teach/resource/galaxy-ngs101/index.md)**
-    by [Anton Nekrutenko](/src/anton/index.md)
+    by [Anton Nekrutenko](/src/people/anton/index.md)
 
 * **[Genomic Data Science with Galaxy on Coursera](/src/teach/resource/genomic-data-science-galaxy-coursera/index.md)**
-    by [James Taylor](/src/james-taylor/index.md)
+    by [James Taylor](/src/people/james-taylor/index.md)
 
 ----
 

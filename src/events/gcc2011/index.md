@@ -25,7 +25,7 @@ Listed in the order they were given:
 | *Galaxy Deployment and API* |  Nate Coraor, Penn State University, and Dannon Baker, Emory University  |  [PowerPoint](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyDeploymentandAPI.ppt), [PDF](PLACEHOLDER_ATTACHMENT_URL/src/GalaxyDeploymentandAPI.pdf)  |  [Watch](http://vimeo.com/24869193)  | 
 | *Pathogenomics Analysis and Visualization* |  Freddy de Bree, Central Veterinary Institute at Wageningen UR  |    |  [Watch](http://vimeo.com/24869089)  | 
 | *National Collaborative Platform for Genomics and Proteomics Data Analysis* |  Hailiang Mei, NBIC  |  [PDF](PLACEHOLDER_ATTACHMENT_URL/src/NationalCollaborativePlatformForGenomicsAndProteomicsDataAnalysis.pdf)  |  [Watch](http://vimeo.com/24869172)  | 
-| *Using Galaxy to Provide Tools for the Analysis of Diverse Local Datasets* |  [Hans-Rudolf Hotz](/src/hansrudolf-hotz/index.md), Friedrich Miescher Institute for Biomedical Research  |  [PDF](PLACEHOLDER_ATTACHMENT_URL/src/SixKeyInsights.pdf)  |  [Watch](http://vimeo.com/24869041)  | 
+| *Using Galaxy to Provide Tools for the Analysis of Diverse Local Datasets* |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md), Friedrich Miescher Institute for Biomedical Research  |  [PDF](PLACEHOLDER_ATTACHMENT_URL/src/SixKeyInsights.pdf)  |  [Watch](http://vimeo.com/24869041)  | 
 | *Deploying Galaxy for Use with High-Throughput Screening Experiments* |  Grainne Kerr, German Cancer Research Center and Heidelberg University  |  [PowerPoint](PLACEHOLDER_ATTACHMENT_URL/src/DeployingGalaxyForUseWithHigh-ThroughputScreeningExperiments.pptx), [PDF](PLACEHOLDER_ATTACHMENT_URL/src/DeployingGalaxyForUseWithHigh-ThroughputScreeningExperiments.pdf)  |  [Watch](http://vimeo.com/24868750)  | 
 | *A Galactic Experience and Extending Galaxy Sample Tracking* |  Jelle Scholtalbers, TRON gGmbH  |  [OpenOffice](PLACEHOLDER_ATTACHMENT_URL/src/AGalacticExperienceAndExtendingGalaxySampleTracking.odp), [PDF](PLACEHOLDER_ATTACHMENT_URL/src/AGalacticExperienceAndExtendingGalaxySampleTracking.pdf)  |  [Watch](http://vimeo.com/24868944)  | 
 | *Movement of Large Datasets via Integration of GridFTP and GlobusOnline with a Production Galaxy Setup at the University of Chicago* |  Neil Bahroos and Alex Rodriquez, University of Chicago  |    |  [Watch](http://vimeo.com/24868993)  | 
@@ -66,7 +66,7 @@ Relocate the links from the current pages in Bitbucket to here.
 
 Each breakout has its own wiki page for notes. Someone in each group was selected to take notes, either directly on the wiki page, or just in a text editor (in which case, they will show up in June).
 
-* [Visualization and Visual Analytics](/src/events/gcc2011/Visualization and Visual Analytics/index.md) ([Jeremy Goecks](/src/jeremy-goecks/index.md))
+* [Visualization and Visual Analytics](/src/events/gcc2011/Visualization and Visual Analytics/index.md) ([Jeremy Goecks](/src/people/jeremy-goecks/index.md))
 * [Sample Tracking and Instrument Integration](/src/events/gcc2011/Sample Tracking and Instrument Integration/index.md) (Greg Von Kuster)
 * [[/Thinking Big: CloudMan, Grid, and Scalability|Thinking Big: CloudMan, Grid, and Scalability]] (Enis Afgan)
 * [Workflows and API](/src/events/gcc2011/Workflows and API/index.md) (Kanwei Li)

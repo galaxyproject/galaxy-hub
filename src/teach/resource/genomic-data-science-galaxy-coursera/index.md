@@ -12,7 +12,7 @@ title: [Genomic Data Science with Galaxy on Coursera](https://www.coursera.org/c
  Resource:: **[Genomic Data Science with Galaxy on Coursera](/src/teach/resource/genomic-data-science-galaxy-coursera/index.md)**
  Types:: Tutorial
  Domains:: **RNA-Seq, ChIP-Seq, Installation, Workflows, Quality Control** 
- Owners:: [James Taylor](/src/james-taylor/index.md)
+ Owners:: [James Taylor](/src/people/james-taylor/index.md)
  Formats:: [Web Tutorial](https://www.coursera.org/course/gengalaxy), [Screencasts](http://vimeo.com/album/3456144)
  Date:: 2015/07 
 </div>

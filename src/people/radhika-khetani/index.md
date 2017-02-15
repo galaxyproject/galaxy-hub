@@ -1,4 +1,4 @@
-<div class='right'> ![](/src/radhika-khetani/pic.jpg) </div>
+<div class='right'> ![](/src/people/radhika-khetani/pic.jpg) </div>
 
 # Radhika Khetani
 

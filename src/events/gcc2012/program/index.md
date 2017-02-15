@@ -13,7 +13,7 @@ The [2012 Galaxy Community Conference](/src/events/gcc2012/program//index.md) in
 
 ### Summaries
 
-* Peter Li, [Jeremy Goecks](/src/jeremy-goecks/index.md) and Tin Lap Lee's [Meeting report](http://genomebiology.com/2012/13/8/318) in [Genome Biology](http://genomebiology.com/).
+* Peter Li, [Jeremy Goecks](/src/people/jeremy-goecks/index.md) and Tin Lap Lee's [Meeting report](http://genomebiology.com/2012/13/8/318) in [Genome Biology](http://genomebiology.com/).
 * Peter Li's [GigaBlog post](http://blogs.biomedcentral.com/gigablog/2012/08/06/enabling-bioinformatics-tools-to-smoke-the-peace-pipe-together/)
 * Brad Chapman's [day 1](http://chapmanb.posterous.com/galaxy-developer-conference-day-1) and [day 2](http://chapmanb.posterous.com/galaxy-community-conference-2012-notes-from-d-90717) summaries.
 

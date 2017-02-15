@@ -16,7 +16,7 @@ The GCC2013 Organizing Committee is responsible for event planning.  The Organiz
 
  **[Nils Damm Christophersen](http://www.mn.uio.no/ifi/english/people/aca/nilsch/index.html)**
   [University of Oslo](http://www.uio.no/)<br /><br />
- **[Dave Clements](/src/dave-clements/index.md)**
+ **[Dave Clements](/src/people/dave-clements/index.md)**
   [Emory University](http://emory.edu/)<br /><br />
  **[Ingeborg Bjorvand Engh](http://www.mn.uio.no/ifi/english/people/aca/ingebbj/)**
   [University of Oslo](http://www.uio.no/)<br /><br />
@@ -33,13 +33,13 @@ The Scientific Committee can be reached at [gcc2013 DASH sci AT galaxyproject DO
 
  **[Nils Damm Christophersen](http://www.mn.uio.no/ifi/english/people/aca/nilsch/index.html)**
    [University of Oslo](http://www.uio.no/)<br /><br />
- **[Anton Nekrutenko](/src/anton/index.md)**
+ **[Anton Nekrutenko](/src/people/anton/index.md)**
    [Penn State University](http://www.psu.edu)<br /><br />
  **[Karen Reddy](http://biolchem.bs.jhmi.edu/pages/facultydetail.aspx?FID=343)**
    [Johns Hopkins University](http://jhu.edu/)<br /><br />
  **[Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/index.html)**
    [University of Oslo](http://www.uio.no/)<br /><br />
- **[James Taylor](/src/james-taylor/index.md)**, Committee Chair
+ **[James Taylor](/src/people/james-taylor/index.md)**, Committee Chair
    [Emory University](http://emory.edu)
 
 {{> Events/GCC2013/Footer }}

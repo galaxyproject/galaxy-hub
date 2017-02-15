@@ -29,7 +29,7 @@ and *Community News* too:
 * [Ruđer Bošković Institute joins GTN](/src/galaxy-updates/2015-02/index.md#new-gtn-member-ruđer-bošković-institute)
 * And, [other news](/src/galaxy-updates/2015-02/index.md#other-news) as well.
 
-[Dave Clements](/src/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
+[Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-01-30 </div>
 

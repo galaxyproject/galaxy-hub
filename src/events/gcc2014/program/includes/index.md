@@ -72,11 +72,11 @@ Moderator: [Liisa Koski](https://www.linkedin.com/pub/liisa-koski/70/164/b0b), [
 <table>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 1:15 </td>
-    <td colspan=2 style=" border: none; width: 100%;"> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#state-of-the-galaxy'>State of the Galaxy</a></strong></em> <div class='indent'><a href='/src/anton/index.md'>Anton Nekrutenko</a> and <a href='/src/james-taylor/index.md'>James Taylor</a>, Galaxy Project </div> </td>
+    <td colspan=2 style=" border: none; width: 100%;"> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#state-of-the-galaxy'>State of the Galaxy</a></strong></em> <div class='indent'><a href='/src/people/anton/index.md'>Anton Nekrutenko</a> and <a href='/src/people/james-taylor/index.md'>James Taylor</a>, Galaxy Project </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 1:50 </td>
-    <td style=" text-align: center; border: none; width: 100%;"> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#update-on-ion-torrent-sequencing--accurate-long-reads'>Update on Ion Torrent Sequencing – Accurate, Long Reads</a></strong></em><br /><a href='/src/mike-lelivelt/index.md'>Mike Lelivelt</a><br /> Director of Bioinformatics and Software Products, <a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'>Ion Torrent, part of Life Technologies</a><br />Platinum Sponsor Presentation </td>
+    <td style=" text-align: center; border: none; width: 100%;"> <strong><em><a href='/src/events/gcc2014/abstracts/talks/index.md#update-on-ion-torrent-sequencing--accurate-long-reads'>Update on Ion Torrent Sequencing – Accurate, Long Reads</a></strong></em><br /><a href='/src/people/mike-lelivelt/index.md'>Mike Lelivelt</a><br /> Director of Bioinformatics and Software Products, <a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'>Ion Torrent, part of Life Technologies</a><br />Platinum Sponsor Presentation </td>
     <td style=" vertical-align: top; text-align: right; border: none;"> &nbsp;<a href='http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html'><img src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="150" /></a> </td>
   </tr>
 </table>
@@ -98,7 +98,7 @@ Moderator: [Ravi Madduri](http://www.mcs.anl.gov/person/ravi-madduri),  [Argonne
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 4:00 </td>
-    <td style=" vertical-align: top; border: none; width: 100%;"> <em><a href='/src/events/gcc2014/abstracts/talks/index.md#the-galaxy-toolshed-a-framework-for-building-galaxy-tools'>The Galaxy Tool Shed: A Framework for Building Galaxy Tools</a></em> <div class='indent'> <a href='/src/greg_vonkuster/index.md'>Greg von Kuster</a>, <a href='http://psu.edu/'>Penn State University</a> </div> </td>
+    <td style=" vertical-align: top; border: none; width: 100%;"> <em><a href='/src/events/gcc2014/abstracts/talks/index.md#the-galaxy-toolshed-a-framework-for-building-galaxy-tools'>The Galaxy Tool Shed: A Framework for Building Galaxy Tools</a></em> <div class='indent'> <a href='/src/people/greg_vonkuster/index.md'>Greg von Kuster</a>, <a href='http://psu.edu/'>Penn State University</a> </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 4:20 </td>
@@ -129,7 +129,7 @@ Moderator: [Ravi Madduri](http://www.mcs.anl.gov/person/ravi-madduri),  [Argonne
     <td style=" vertical-align: top; border: none;"> <em><a href='/src/events/gcc2014/lightning/index.md#ebiogenouest-régional-initiative--a-use-case-for-the-structuration-of-the-biologists-community'>Ebiogenouest régional initiative : a use case for the structuration of the biologists community</a></em><div class='indent'> Yvan Le Bras, CNRS, IRISA-INRIA</div></td>
   </tr>
   <tr>
-    <td style=" vertical-align: top; border: none;"> <em><a href='/src/events/gcc2014/lightning/index.md#intergalactic-travel-sending-usegalaxyorg-through-the-wormhole'>Intergalactic travel: Sending usegalaxy.org through the wormhole</a></em><div class='indent'> <a href='/src/nate/index.md'>Nate Coraor</a>, Galaxy Team, Penn State University</div></td>
+    <td style=" vertical-align: top; border: none;"> <em><a href='/src/events/gcc2014/lightning/index.md#intergalactic-travel-sending-usegalaxyorg-through-the-wormhole'>Intergalactic travel: Sending usegalaxy.org through the wormhole</a></em><div class='indent'> <a href='/src/people/nate/index.md'>Nate Coraor</a>, Galaxy Team, Penn State University</div></td>
   </tr>
 </table>
 
@@ -150,15 +150,15 @@ Moderator: [Mohammad Heydarian](http://epigenetics.jhu.edu/?section=personnelPag
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 9:10 </td>
-    <td style=" vertical-align: top; border: none; width: 100%;"> <em><a href='/src/events/gcc2014/abstracts/talks/index.md#the-gcc2014-hackathon'>The GCC2014 Hackathon</a></em> <div class='indent'> <a href='/src/dannon-baker/index.md'>Dannon Baker</a>, <a href='http://bcbio.wordpress.com/'>Brad Chapman</a>, <a href='/src/john-chilton/index.md'>John Chilton</a>, <a href='http://www.soe.ucsc.edu/people/kellrott'>Kyle Ellrott</a>, and <a href='/src/events/gcc2014/hackathon/index.md'>GCC2014 Hackathon Participants</a> </div> </td>
+    <td style=" vertical-align: top; border: none; width: 100%;"> <em><a href='/src/events/gcc2014/abstracts/talks/index.md#the-gcc2014-hackathon'>The GCC2014 Hackathon</a></em> <div class='indent'> <a href='/src/people/dannon-baker/index.md'>Dannon Baker</a>, <a href='http://bcbio.wordpress.com/'>Brad Chapman</a>, <a href='/src/people/john-chilton/index.md'>John Chilton</a>, <a href='http://www.soe.ucsc.edu/people/kellrott'>Kyle Ellrott</a>, and <a href='/src/events/gcc2014/hackathon/index.md'>GCC2014 Hackathon Participants</a> </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 9:30 </td>
-    <td style=" vertical-align: top; border: none;"> <em><a href='/src/events/gcc2014/abstracts/talks/index.md#more-options-less-time-streamlining-access-to-reference-datasets'>More Options, Less Time: Streamlining Access to Reference Datasets</a></em> <div class='indent'> <a href='/src/dan/index.md'>Daniel Blankenberg</a>, <a href='http://psu.edu'>Penn State University</a> </div> </td>
+    <td style=" vertical-align: top; border: none;"> <em><a href='/src/events/gcc2014/abstracts/talks/index.md#more-options-less-time-streamlining-access-to-reference-datasets'>More Options, Less Time: Streamlining Access to Reference Datasets</a></em> <div class='indent'> <a href='/src/people/dan/index.md'>Daniel Blankenberg</a>, <a href='http://psu.edu'>Penn State University</a> </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 9:45 </td>
-    <td style=" vertical-align: top; border: none;"> <em><a href='/src/events/gcc2014/abstracts/talks/index.md#building-more-powerful-galaxy-workflows-with-dataset-collections'>Building More Powerful Galaxy Workflows with Dataset Collections</a></em> <div class='indent'> <a href='/src/john-chilton/index.md'>John Chilton</a>, <a href='http://psu.edu'>Penn State University</a> </div> </td>
+    <td style=" vertical-align: top; border: none;"> <em><a href='/src/events/gcc2014/abstracts/talks/index.md#building-more-powerful-galaxy-workflows-with-dataset-collections'>Building More Powerful Galaxy Workflows with Dataset Collections</a></em> <div class='indent'> <a href='/src/people/john-chilton/index.md'>John Chilton</a>, <a href='http://psu.edu'>Penn State University</a> </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 10:05 </td>
@@ -183,7 +183,7 @@ Moderator: [Tom Bair](http://www.medicine.uiowa.edu/humangenetics/biostatistics/
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 10:55 </td>
-    <td style=" vertical-align: top; border: none; width: 100%;"> <em><a href='/src/events/gcc2014/abstracts/talks/index.md#lab-specimen-tracking-with-galaxy'>Lab Specimen Tracking with Galaxy</a></em> <div class='indent'> <a href='/src/marten/index.md'>Martin Čech</a>, <a href='http://psu.edu'>Penn State University</a> </div> </td>
+    <td style=" vertical-align: top; border: none; width: 100%;"> <em><a href='/src/events/gcc2014/abstracts/talks/index.md#lab-specimen-tracking-with-galaxy'>Lab Specimen Tracking with Galaxy</a></em> <div class='indent'> <a href='/src/people/marten/index.md'>Martin Čech</a>, <a href='http://psu.edu'>Penn State University</a> </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 11:10 </td>
@@ -247,7 +247,7 @@ END_INCLUDE
 
 <div class='center'>
 **Session 8**<br />
-Moderator: [Jeremy Goecks](/src/jeremy-goecks/index.md), [George Washington University](http://www.gwu.edu/)</div>
+Moderator: [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [George Washington University](http://www.gwu.edu/)</div>
 <div class='left'>
 <table>
   <tr>

@@ -52,25 +52,25 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> February 16 </th>
     <td> <em><a href="/src/community/galaxy-admins/meetups/2017-02-16/index.md">CloudLaunch</a></em> </td>
     <td> <img src="/src/images/icons/World40.png" alt="Online" align="right" /> <a href="/src/community/galaxy-admins/meetups/2017-02-16/index.md"> GalaxyAdmins Online Meetup</a> <em>Online</em> </td>
-    <td> Nuwan Goonasekera and <a href="/src/EnisAfgan">Enis Afgan</a> </td>
+    <td> Nuwan Goonasekera and <a href="/src/people/enis-afgan/index.md">Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> February 20 </th>
     <td> <em><a href="https://gigaworkshops.eventbrite.com">Bioinformatics Workshops on Galaxy and Metagenomics</a></em> </td>
     <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> Preceding the <a href="http://biogenomics2017.org/">Global Biodiversity Genomics Conference</a>Washington, D.C., United States </td>
-    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a>, <a href="/src/mo-heydarian/index.md">Mo Heydarian</a> </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a>, <a href="/src/people/mo-heydarian/index.md">Mo Heydarian</a> </td>
   </tr>
   <tr>
     <th> February 22 </th>
     <td> <em><a href="https://gigaworkshops.eventbrite.com">Supporting genomic analysis of diverse organisms using the Galaxy framework</a></em> </td>
     <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> <a href="http://biogenomics2017.org/">Global Biodiversity Genomics Conference</a>Washington, D.C., United States </td>
-    <td> <a href="/src/JamesTaylor">James Taylor</a> </td>
+    <td> <a href="/src/people/james-taylor/index.md">James Taylor</a> </td>
   </tr>
   <tr>
     <th> February 22, 23 </th>
     <td> <em>Introduction to Galaxy Workshop</em> </td>
     <td> <img src='/src/images/icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://icahn.mssm.edu/'>Icahn School of Medicine at Mt. Sinai</a>, New York, New York, United States </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/events/ismms2016/index.md#questions'>Andrew Sharp</a> </td>
+    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/events/ismms2016/index.md#questions'>Andrew Sharp</a> </td>
   </tr>
   <tr>
     <th> February 28 </th>
@@ -152,7 +152,7 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> July 2-6 </th>
     <td> <em><a href='http://www.smbe2017.org/symposia/'>Computation and reproducibility in molecular evolution</a></em> </td>
     <td> <img src="/src/images/icons/NorthAmerica40.png" alt="NorthAmerica" align="right" /> <a href="http://www.smbe2017.org/">SMBE 2017</a>, Austin, Texas, United States </td>
-    <td> <a href='/src/teach/trainers/index.md'> <a href="/src/anton/index.md">Anton Nekrutenko</a>, Sergei Kosakovsky Pond </td>
+    <td> <a href='/src/teach/trainers/index.md'> <a href="/src/people/anton/index.md">Anton Nekrutenko</a>, Sergei Kosakovsky Pond </td>
   </tr>
 </table>
 
@@ -204,7 +204,7 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> February 8-10 </th>
     <td> <em><a href="/src/events/kogo2017/index.md">From Galaxy to Genomics using NGS Data</a></em> </td>
     <td> <img src="/src/images/icons/Asia40.png" alt="Asia" align="right" /> <a href="http://www.kogo.or.kr/index.asp">13th KOGO Winter Symposium</a>, Yongpyong, Gangwon-do, Korea </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="/src/mo-heydarian/index.md">Mo Heydarian</a>, <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a> </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="/src/people/mo-heydarian/index.md">Mo Heydarian</a>, <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -239,7 +239,7 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> February 7 </th>
     <td> <em><a href="/src/events/catholicKR2017/index.md">Introduction to Galaxy Workshop</a></em> </td>
     <td> <img src="/src/images/icons/Asia40.png" alt="Asia" align="right" /><a href="http://www.catholic.ac.kr/">Catholic University of Korea</a>, Seoul, South Korea </td>
-    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/'><a href="/src/mo-heydarian/index.md">Mo Heydarian</a>, <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a> </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/'><a href="/src/people/mo-heydarian/index.md">Mo Heydarian</a>, <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -253,7 +253,7 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> February 6 </th>
     <td> <em>a href="/src/events/koreaKTHRD2017/index.md">Introduction to Galaxy Workshop</a></em> </td>
     <td> <img src="/src/images/icons/Asia40.png" alt="Asia" align="right" /> <a href="http://www.kthrd.com/index.do">KTHRD</a>, Daejeon, South Korea </td>
-    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="/src/mo-heydarian/index.md">Mo Heydarian</a>, <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a> </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="/src/people/mo-heydarian/index.md">Mo Heydarian</a>, <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a> </td>
     <td> </td>
   </tr>
   <tr>

@@ -78,7 +78,7 @@ export GALAXY_TEST_DB_TEMPLATE=https://github.com/jmchilton/galaxy-downloads/raw
 ```
 
 
-([John Chilton](/src/john-chilton/index.md) was so kind to offer one, thanks John!)
+([John Chilton](/src/people/john-chilton/index.md) was so kind to offer one, thanks John!)
 
 ### Unit Tests
 

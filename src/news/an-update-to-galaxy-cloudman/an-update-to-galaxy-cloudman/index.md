@@ -14,7 +14,7 @@ The new version brings the following updates/features:
 * `post_start_service` now runs if the script exists in the cluster bucket even if no URL was provided as part of current user data
 * Fix recognition of existing and attached file system volumes on instance reboot
 
-[/EnisAfgan](/src/enis-afgan/index.md)
+[/EnisAfgan](/src/people/enis-afgan/index.md)
 
 
 CategoryNews

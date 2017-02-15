@@ -11,7 +11,7 @@ title: Galaxy Training Network Meetup
  Audience:: Anyone interested in using Galaxy for bioinformatics and related learning and teaching. People who need to support such activities. 
  When:: Monday, 6 July, 18:50
  Where:: Franklin Room, JICCC
- Contact:: [Dave Clements](/src/dave-clements/index.md), [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie)
+ Contact:: [Dave Clements](/src/people/dave-clements/index.md), [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie)
 </div>
 
 <div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a><br /><br />
@@ -44,10 +44,10 @@ This BoF will be held **Monday, 6 July, 18:50, in the Franklin Room.**
 
 ## Participants
 
-* [Dave Clements](/src/dave-clements/index.md), organiser
+* [Dave Clements](/src/people/dave-clements/index.md), organiser
 * [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie), organiser
-* [Eric Rasche](/src/eric-rasche/index.md)
-* [Hans-Rudolf Hotz](/src/hansrudolf-hotz/index.md)
+* [Eric Rasche](/src/people/eric-rasche/index.md)
+* [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
 * Mark Fernandes
 * Catriona McInerney
 * Annette McGrath
@@ -60,7 +60,7 @@ This BoF will be held **Monday, 6 July, 18:50, in the Franklin Room.**
 * Agata Smialowska
 * Jochen Bick
 * Brad Langhorst
-* [Björn Grüning](/src/bjoern-gruening/index.md)
+* [Björn Grüning](/src/people/bjoern-gruening/index.md)
 * Daniel Sobral
 * Simon Gladman
 * Clare Sloggett
@@ -151,6 +151,6 @@ Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and D
 
 ## Questions?
 
-Send them to [Dave Clements](/src/dave-clements/index.md) and [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie).
+Send them to [Dave Clements](/src/people/dave-clements/index.md) and [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie).
 
 [CategoryBo](/src/CategoryBo/index.md)F

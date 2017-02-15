@@ -11,7 +11,7 @@ title: Tutorial: Galaxy Installation and Administration
 
 <div class='right'> <a href='/src/events/gcc2014/training-day/index.md'><img src="/src/images/logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
 
-[Nate Coraor](/src/nate/index.md) and [John Chilton](/src/john-chilton/index.md)
+[Nate Coraor](/src/people/nate/index.md) and [John Chilton](/src/people/john-chilton/index.md)
 
 <br />
 ![](https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png) #usegalaxy

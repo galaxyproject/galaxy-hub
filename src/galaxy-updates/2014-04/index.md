@@ -14,9 +14,9 @@ Welcome to the April 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a mon
 
 *63 papers* (a new monthly record) were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in March. Some papers that may be particularly interesting to the Galaxy community:
 
-* "[Wrangling Galaxy's Reference Data](http://dx.doi.org/10.1093/bioinformatics/btu119)," by [Daniel Blankenberg](/src/dan/index.md), James E. Johnson, [James Taylor](/src/james-taylor/index.md), [Anton Nekrutenko](/src/anton/index.md); *Bioinformatics* (28 February 2014), doi:10.1093/bioinformatics/btu119
+* "[Wrangling Galaxy's Reference Data](http://dx.doi.org/10.1093/bioinformatics/btu119)," by [Daniel Blankenberg](/src/people/dan/index.md), James E. Johnson, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md); *Bioinformatics* (28 February 2014), doi:10.1093/bioinformatics/btu119
 
-* "[Controlling for contamination in re-sequencing studies with a reproducible web-based phylogenetic approach](http://www.biotechniques.com/BiotechniquesJournal/2014/March/Controlling-for-contamination-in-re-sequencing-studies-with-a-reproducible-web-based-phylogenetic-approach/biotechniques-350711.html)," Benjamin Dickins, Boris Rebolledo-Jaramillo, Marcia Shu-Wei S. Su, Ian M. Paul, [Daniel Blankenberg](/src/dan/index.md), Nicholas Stoler, Kateryna D. Makova, [Anton Nekrutenko](/src/anton/index.md), *[BioTechniques](http://www.biotechniques.com/)*, Vol. 56, No. 3. (2014)
+* "[Controlling for contamination in re-sequencing studies with a reproducible web-based phylogenetic approach](http://www.biotechniques.com/BiotechniquesJournal/2014/March/Controlling-for-contamination-in-re-sequencing-studies-with-a-reproducible-web-based-phylogenetic-approach/biotechniques-350711.html)," Benjamin Dickins, Boris Rebolledo-Jaramillo, Marcia Shu-Wei S. Su, Ian M. Paul, [Daniel Blankenberg](/src/people/dan/index.md), Nicholas Stoler, Kateryna D. Makova, [Anton Nekrutenko](/src/people/anton/index.md), *[BioTechniques](http://www.biotechniques.com/)*, Vol. 56, No. 3. (2014)
 
 * "[Orione, a web-based framework for NGS analysis in microbiology](http://dx.doi.org/10.1093/bioinformatics/btu135)," Gianmauro Cuccuru, Massimiliano Orsini, Andrea Pinna, Andrea Sbardellati, Nicola Soranzo, Antonella Travaglione, Paolo Uva, Gianluigi Zanetti, Giorgio Fotia, *Bioinformatics* (Oxford, England) (10 March 2014), doi:10.1093/bioinformatics/btu135
 
@@ -183,7 +183,7 @@ A similar workshop, [using command line interfaces to perform the analysis](http
     <th> April 15-17 </th>
     <td> <em>Biosciences/Genomics Program</em> </td>
     <td> <a href='http://globusworld.org/'>GlobusWorld</a>, Chicago, Illinois, United States </td>
-    <td> <a href="mailto:outreach AT globus DOT org">Globus Outreach</a>, <a href='/src/john-chilton/index.md'>John Chilton</a> </td>
+    <td> <a href="mailto:outreach AT globus DOT org">Globus Outreach</a>, <a href='/src/people/john-chilton/index.md'>John Chilton</a> </td>
   </tr>
   <tr>
     <th rowspan=6> April 29 -<br />May 1 </th>
@@ -193,11 +193,11 @@ A similar workshop, [using command line interfaces to perform the analysis](http
   </tr>
   <tr>
     <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135146'>W4: Analyzing NGS Data in Galaxy</a></em> </td>
-    <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, <a href='/src/nate/index.md'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, Tristan Lubinski </td>
+    <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, <a href='/src/people/nate/index.md'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, Tristan Lubinski </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135152'>W14: Running a Local Galaxy Instance</a></em> </td>
-    <td> <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, <a href='/src/nate/index.md'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, Tristan Lubinski, James Reaney </td>
+    <td> <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, <a href='/src/people/nate/index.md'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, Tristan Lubinski, James Reaney </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.bio-itworldexpo.com/Next-Gen-Sequencing-Informatics/'>Globus Genomics: An End-to-End NGS Analysis Service on the Cloud for Researchers and Core Labs</a></em> </td>
@@ -209,25 +209,25 @@ A similar workshop, [using command line interfaces to perform the analysis](http
   </tr>
   <tr>
     <td> <em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Web-Based Visualization and Visual Analysis for High-Throughput Genomics with Galaxy</a></em> </td>
-    <td> <a href='/src/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> May 6-7 </th>
     <td> <em>Scaling Galaxy for Big Data</em> </td>
     <td> <a href='http://www.tgac.ac.uk/SeqAhead_Scientific_Meeting_and_Management_Committee_Meeting/'>NGS Data after the Gold Rush</a>, <a href='http://www.tgac.ac.uk/'>TGAC</a>, Norwich, United Kingdom </td>
-    <td> <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 9 </th>
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.tgac.ac.uk/'>The Genome Analysis Centre (TGAC)</a>, Norwich, United Kingdom </td>
-    <td> <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>
     <td> <em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a></em> </td>
     <td> <a href='http://www.mipro.hr/CallForPapers/tabid/176/language/en-US/Default.aspx'>MIPRO 2014</a>, Opatija, Croatia </td>
-    <td> <a href='/src/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 9-10 </th>

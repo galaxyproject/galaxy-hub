@@ -11,7 +11,7 @@ title: [GalaxyAdmins](/src/community/galaxy-admins/index.md) GCC2015 Meetup
  Audience:: If you manage a Galaxy instance, this BoF is for you 
  When:: Tuesday, 7 July, 18:20
  Where:: Franklin Room, JICCC
- Contact:: [Hans-Rudolf Hotz](/src/hansrudolf-hotz/index.md), [Dave Clements](/src/dave-clements/index.md)
+ Contact:: [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md), [Dave Clements](/src/people/dave-clements/index.md)
 </div>
 
 <div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a>
@@ -34,12 +34,12 @@ This BoF will meet on **Tuesday, 7 July at 18:20, in the Franklin Room, at the J
 
 # Participants
 
-* [Hans-Rudolf Hotz](/src/hansrudolf-hotz/index.md)
-* [Dave Clements](/src/dave-clements/index.md)
-* [Eric Rasche](/src/eric-rasche/index.md)
+* [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
+* [Dave Clements](/src/people/dave-clements/index.md)
+* [Eric Rasche](/src/people/eric-rasche/index.md)
 * Peter Briggs
 * Peter Cock
-* [Nate Coraor](/src/nate/index.md)
+* [Nate Coraor](/src/people/nate/index.md)
 * Oleksandr Moskalenko
 * Simon Gladman
 * Aaron Petkau
@@ -106,6 +106,6 @@ This BoF will meet on **Tuesday, 7 July at 18:20, in the Franklin Room, at the J
 
 # Questions?
 
-Send them to [Hans-Rudolf Hotz](/src/hansrudolf-hotz/index.md) and [Dave Clements](/src/dave-clements/index.md)
+Send them to [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) and [Dave Clements](/src/people/dave-clements/index.md)
 
 [CategoryBo](/src/CategoryBo/index.md)F

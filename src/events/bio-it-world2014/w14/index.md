@@ -3,7 +3,7 @@ autotoc: true
 title: Workshop 14: Running a Local Galaxy Instance
 ---
 
-[Adam Kraut](http://bioteam.net/company-leadership/), [Nate Coraor](/src/nate/index.md), [Anushka Brownley](http://bioteam.net/company-leadership/), Tristan Lubinski, [James Reaney](http://www.sgi.com/solutions/genomics)
+[Adam Kraut](http://bioteam.net/company-leadership/), [Nate Coraor](/src/people/nate/index.md), [Anushka Brownley](http://bioteam.net/company-leadership/), Tristan Lubinski, [James Reaney](http://www.sgi.com/solutions/genomics)
 
 <br />
 ![](https://dev.twitter.com/sites/default/files/images_documentation/bird_blue_16.png) #usegalaxy #BioIT2014

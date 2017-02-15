@@ -12,7 +12,7 @@ title: Using Galaxy's Web Interface
  Audience:: End Users and those interested in common Galaxy usage, including developers supporting scientific teams
  When:: Wednesday, July 2, 12:15 pm (lunch)
  Where:: East Room 304
- Contact:: [Jennifer Hillman-Jackson](/src/jennifer-jackson/index.md) & Karen Reddy
+ Contact:: [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md) & Karen Reddy
 </div>
 
 {{> Events/GCC2014/LinkBox }}

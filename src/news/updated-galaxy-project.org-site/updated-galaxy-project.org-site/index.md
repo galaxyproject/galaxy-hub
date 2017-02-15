@@ -17,7 +17,7 @@ Please continue to use these wherever appropriate.
 
 Thanks,
 
-[Dave Clements](/src/dave-clements/index.md)
+[Dave Clements](/src/people/dave-clements/index.md)
 
 
 CategoryNews

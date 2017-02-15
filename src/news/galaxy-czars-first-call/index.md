@@ -12,7 +12,7 @@ The group decided to have calls every other month, with the next on in September
 
 Many, many thanks to Ann Black-Ziegelbein for getting the group off to a great start.
 
-[Dave Clements](/src/dave-clements/index.md)
+[Dave Clements](/src/people/dave-clements/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-07-11</div>
 

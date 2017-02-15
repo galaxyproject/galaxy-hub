@@ -7,7 +7,7 @@
 <table>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 9:10 </td>
-    <td style=" border: none; width: 100%;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2012/State.pdf'>Slides</a>, <a href='https://uic.sharestream.net/ssdcms/i.do?u=abfc6489eb764d4'>Video</a> (start @ 7:10)</em></div><em><a href='/src/events/gcc2012/abstracts/index.md#state-of-the-galaxy'>State of the Galaxy</a></em> <div class='indent'> <a href='/src/anton/index.md'>Anton Nekrutenko</a> and <a href='/src/james-taylor/index.md'>James Taylor</a>, Galaxy Project </div> </td>
+    <td style=" border: none; width: 100%;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2012/State.pdf'>Slides</a>, <a href='https://uic.sharestream.net/ssdcms/i.do?u=abfc6489eb764d4'>Video</a> (start @ 7:10)</em></div><em><a href='/src/events/gcc2012/abstracts/index.md#state-of-the-galaxy'>State of the Galaxy</a></em> <div class='indent'> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a> and <a href='/src/people/james-taylor/index.md'>James Taylor</a>, Galaxy Project </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 9:40 </td>
@@ -53,7 +53,7 @@ END_INCLUDE
 <table>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 1:50 </td>
-    <td style=" border: none; width: 100%;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2012/Afgan.pdf'>Slides</a>, <a href='https://uic.sharestream.net/ssdcms/i.do?u=7c7f3063681d4af'>Video</a></em></div> <em><a href='/src/events/gcc2012/abstracts/index.md#establishing-a-national-genomics-virtual-laboratory-with-galaxy-cloudman'>Establishing a National Genomics Virtual Laboratory with Galaxy CloudMan</a></em> <div class='indent'> <a href='/src/enis-afgan/index.md'>Enis Afgan</a>, <a href='http://www.irb.hr/eng/'>Ruđer Bošković Institute (RBI)</a>, <a href='http://www.vlsci.org.au/'>Victoria Life Sciences Computation Initiative (VLSCI)</a> </div> </td>
+    <td style=" border: none; width: 100%;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2012/Afgan.pdf'>Slides</a>, <a href='https://uic.sharestream.net/ssdcms/i.do?u=7c7f3063681d4af'>Video</a></em></div> <em><a href='/src/events/gcc2012/abstracts/index.md#establishing-a-national-genomics-virtual-laboratory-with-galaxy-cloudman'>Establishing a National Genomics Virtual Laboratory with Galaxy CloudMan</a></em> <div class='indent'> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a>, <a href='http://www.irb.hr/eng/'>Ruđer Bošković Institute (RBI)</a>, <a href='http://www.vlsci.org.au/'>Victoria Life Sciences Computation Initiative (VLSCI)</a> </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 2:10 </td>
@@ -88,7 +88,7 @@ END_INCLUDE
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 4:40 </td>
-    <td style=" border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2012/Goecks.pdf'>Slides</a>, <a href='https://uic.sharestream.net/ssdcms/i.do?u=6b93204632704bd'>Video</a> (starts @ 8:40)</em></div> <em><a href='/src/events/gcc2012/abstracts/index.md#the-galaxy-visualization-framework'>The Galaxy Visualization Framework</a></em> <div class='indent'> <a href='/src/jeremy-goecks/index.md'>Jeremy Goecks</a>, Emory University </div> </td>
+    <td style=" border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2012/Goecks.pdf'>Slides</a>, <a href='https://uic.sharestream.net/ssdcms/i.do?u=6b93204632704bd'>Video</a> (starts @ 8:40)</em></div> <em><a href='/src/events/gcc2012/abstracts/index.md#the-galaxy-visualization-framework'>The Galaxy Visualization Framework</a></em> <div class='indent'> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a>, Emory University </div> </td>
   </tr>
 </table>
 

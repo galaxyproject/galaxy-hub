@@ -20,7 +20,7 @@ We strongly encourage you to give these try.  Please feedback and suggestions to
 
 Thanks,
 
-[Dave Clements](/src/dave-clements/index.md)
+[Dave Clements](/src/people/dave-clements/index.md)
 
 
 CategoryNews

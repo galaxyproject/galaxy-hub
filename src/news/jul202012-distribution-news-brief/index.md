@@ -21,7 +21,7 @@ upgrade: % hg pull -u -r ec29ce8e27a1
 
 **Thanks for using Galaxy!** We hope to see everyone in *Chicago* @ **GCC2012**!!
 
-[Jennifer Jackson](/src/jennifer-jackson/index.md)
+[Jennifer Jackson](/src/people/jennifer-jackson/index.md)
 
 [Galaxy Team](/src/galaxy-team/index.md)
 

@@ -23,7 +23,7 @@ The [Cape Town event](/src/events/u-cape-town2013/index.md) is hosted by the [Af
 
 If you are interested, then please apply by 17 September!
 
-[Dave Clements](/src/dave-clements/index.md)
+[Dave Clements](/src/people/dave-clements/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-09-09</div>
 

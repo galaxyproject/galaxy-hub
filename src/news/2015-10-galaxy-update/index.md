@@ -26,7 +26,7 @@ The **[October Galactic News](/src/galaxy-updates/2015-10/index.md)** is hot off
   * [Lots of Tool Shed contributions](/src/toolshed/contributions/2015-09/index.md).
 * and [lots of other news too](/src/galaxy-updates/2015-10/index.md#other-news), [including a birthday](/src/galaxy-updates/2015-10/index.md#galaxy-turns-10) (OK, maybe we are chronologically challenged, but we're young!)
 
-[Dave Clements](/src/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
+[Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-10-01 </div>
 

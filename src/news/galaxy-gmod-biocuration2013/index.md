@@ -14,7 +14,7 @@ The second is that registration is now open for the [2013 GMOD Meeting](http://g
 
 Finally, [Biocuration 2013](http://www.ebi.ac.uk/biocuration2013/home) is immediately after the GMOD Meeting, and also in Cambridge.  Biocuration will feature a [GO Galaxy Workshop](http://wiki.geneontology.org/index.php/GO_Galaxy_Workshop_at_Biocuration_2013) about using Galaxy to reason with ontologies.
 
-[Dave Clements](/src/dave-clements/index.md)
+[Dave Clements](/src/people/dave-clements/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-02-19</div>
 

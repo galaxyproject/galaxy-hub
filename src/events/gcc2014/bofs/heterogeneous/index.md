@@ -11,7 +11,7 @@ title: Using Galaxy with Heterogeneous and Remote Resources
  Audience:: 
  When:: Tuesday, July 1, 5:45pm 
  Where:: Salon A
- Contact:: [Philip Blood](mailto:blood AT psc DOT edu), [John Chilton](/src/john-chilton/index.md), [Nate Coraor](/src/nate/index.md), Carrie Ganote
+ Contact:: [Philip Blood](mailto:blood AT psc DOT edu), [John Chilton](/src/people/john-chilton/index.md), [Nate Coraor](/src/people/nate/index.md), Carrie Ganote
 </div>
 
 {{> Events/GCC2014/LinkBox }}
@@ -47,12 +47,12 @@ Anyone (users or admins) interested in leveraging remote or heterogeneous hardwa
 If you are interested, please add your name below and/or send an email to [Your Name](mailto:your AT email DOT address).
 
 * [Philip Blood](mailto:blood AT psc DOT edu)
-* [John Chilton](/src/john-chilton/index.md)
-* [nate Coraor](/src/nate/index.md)
-* [ Eric Rasche](/src/eric-rasche/index.md)
+* [John Chilton](/src/people/john-chilton/index.md)
+* [nate Coraor](/src/people/nate/index.md)
+* [ Eric Rasche](/src/people/eric-rasche/index.md)
 * Ben Busby
 * Aaron Gardner
-* [Dan Blankenberg](/src/dan/index.md)
+* [Dan Blankenberg](/src/people/dan/index.md)
 * [Michael R. Crusoe](mailto:mcrusoe AT msu DOT edu)
 * Cameron Smith
 * Carrie Ganote

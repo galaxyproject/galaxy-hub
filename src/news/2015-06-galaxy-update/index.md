@@ -21,7 +21,7 @@ The **[June Galactic News](/src/galaxy-updates/2015-06/index.md)** brings this *
 
 And, [other news](/src/galaxy-updates/2015-06/index.md#other-news) as well.
 
-[Dave Clements](/src/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
+[Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-05-31 </div>
 
