@@ -9,8 +9,8 @@ The [GalaxyAdmins](/src/community/galaxy-admins/meetups//index.md) group has bi-
 
 **2017**
 
-* [2017/02/15 Web Meetup](/src/community/galaxy-admins/meetups/2017-02-16/index.md)
-
+* [2017/02/16 Web Meetup](/src/community/galaxy-admins/meetups/2017-02-16/index.md)
+    Nuwan Goonesekera and [Enis Afgan](/src/people/enis-afgan/index.md) talk about the  [new CloudLaunch](https://beta.launch.usegalaxy.org).
 
 **2016**
 
