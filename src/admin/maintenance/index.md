@@ -4,7 +4,7 @@ Maintaining a Galaxy instance is important to do, something that cannot be under
 
 ## Security Notices
 
-If you maintain a public instance of Galaxy it is recommended to sign up for the public servers mailing list [galaxy-public-servers@lists.galaxyproject.org](galaxy-public-servers@lists.galaxyproject.org) to receive security fixes with priority. Also consider adding your instance to the [public servers page](/src/public-galaxy-servers/index.md) so more people can discover it.
+If you maintain a public instance of Galaxy it is recommended to sign up for the public servers [mailing list](https://lists.galaxyproject.org/listinfo/galaxy-public-servers) to receive security fixes with priority. Also consider adding your instance to the [public servers page](/src/public-galaxy-servers/index.md) so more people can discover it.
 
 ## General Update Procedures
 
