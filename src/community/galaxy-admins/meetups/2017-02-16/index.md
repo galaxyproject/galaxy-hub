@@ -13,7 +13,7 @@ tease: 'GalaxyAdmins February 2017 Meetup'
 | **Time** | [9:30 pm India Standard Time](http://bit.ly/2kPgfSF). See [your local time](http://bit.ly/2kPgfSF) |
 | **Topic** | *CloudLaunch*  |
 | **Presenters** | Nuwan Goonesekera and [Enis Afgan](/src/people/enis-afgan/index.md) |
-| **Links** | Online conference room... |
+| **Links** | **[Online meeting room](https://connect.johnshopkins.edu/gxyadmins201702/)** |
 
 *[GalaxyAdmins](/src/community/galaxy-admins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
@@ -23,7 +23,7 @@ CloudLaunch is an application for launching Galaxy on the Cloud instances. In th
 
 <div class='right'><img src="/src/images/logos/AdobeConnectSquarish.jpg" alt="GalaxyAdmin Meetup, Online Conference Room" width="150" /></div>
 
-The  meetup's online conference room will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
+The  [meetup's online conference room](https://connect.johnshopkins.edu/gxyadmins201702/) will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 
 ### Instructions for Participants
 
