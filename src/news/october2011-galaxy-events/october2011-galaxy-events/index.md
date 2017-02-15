@@ -30,7 +30,7 @@ There are (at least) three [Galaxy related events](/src/events/index.md) going o
     <td> </em><a href='http://gmod.org/wiki/October_2011_GMOD_Meeting'>October 2011 GMOD Meeting and Galaxy Workshop</a><em> </td>
     <td> Ontario Institute for Cancer Research (OICR), Toronto, Canada </td>
     <td> Dan will give a Galaxy update at the meeting, and then lead a satellite workshop on Galaxy the day following the meeting.  (Or, if you already know all about Galaxy you could attend workshops on <a href='http://gmod.org/wiki/BioMart'>http://gmod.org/wiki/BioMart</a> and <a href='http://gmod.org/wiki/InterMine'>http://gmod.org/wiki/InterMine</a>, two data sources for Galaxy.)  <a href='http://gmod.org/wiki/October_2011_GMOD_Meeting'>Register now</a> as the meeting and associated workshop have limited space. </td>
-    <td> <a href='/dan'>Dan Blankenberg</a> </td>
+    <td> <a href='/src/people/dan/index.md'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> October 23-24 </th>
@@ -44,7 +44,7 @@ There are (at least) three [Galaxy related events](/src/events/index.md) going o
 <br />
 
 Thanks,<br />
-[Dave Clements](/src/dave-clements/index.md)
+[Dave Clements](/src/people/dave-clements/index.md)
 
 
 CategoryNews

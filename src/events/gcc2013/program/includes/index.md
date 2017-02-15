@@ -15,7 +15,7 @@
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 10:10 </td>
-    <td style=" vertical-align: top; border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/LazarusReproducibleResearch.pdf'>Slides</a>, <a href='https://vimeo.com/74885862'>Vimeo</a></em></div>  <em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalksreproducible-research-and-the-9010-rule-improving-the-ratio-of-light-script-to-dark-script-matter-in-your-galaxy'>Reproducible research and the 90/10 rule: Improving the ratio of light script to dark script matter in your Galaxy</a></em> <div class='indent'> <a href='/src/fubar/index.md'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a></div> </td>
+    <td style=" vertical-align: top; border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/LazarusReproducibleResearch.pdf'>Slides</a>, <a href='https://vimeo.com/74885862'>Vimeo</a></em></div>  <em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalksreproducible-research-and-the-9010-rule-improving-the-ratio-of-light-script-to-dark-script-matter-in-your-galaxy'>Reproducible research and the 90/10 rule: Improving the ratio of light script to dark script matter in your Galaxy</a></em> <div class='indent'> <a href='/src/people/fubar/index.md'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a></div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 10:30 </td>
@@ -89,7 +89,7 @@ END_INCLUDE
 <table>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 15:50 </td>
-    <td style=" text-align: center; border: none; width: 100%;"> <strong><em><a href='/src/events/gcc2013/abstracts/index.md#ion-torrent-semiconductor-sequencing-update'>Ion Torrent Semiconductor Sequencing Update</a></strong></em><br /><a href='/src/mike-lelivelt/index.md'>Mike Lelivelt</a>, Ph.D.<br /> Director of Bioinformatics and Software Products, <a href='http://www.lifetechnologies.com/'>Ion Torrent, part of Life Technologies</a><br />Platinum Sponsor Presentation </td>
+    <td style=" text-align: center; border: none; width: 100%;"> <strong><em><a href='/src/events/gcc2013/abstracts/index.md#ion-torrent-semiconductor-sequencing-update'>Ion Torrent Semiconductor Sequencing Update</a></strong></em><br /><a href='/src/people/mike-lelivelt/index.md'>Mike Lelivelt</a>, Ph.D.<br /> Director of Bioinformatics and Software Products, <a href='http://www.lifetechnologies.com/'>Ion Torrent, part of Life Technologies</a><br />Platinum Sponsor Presentation </td>
     <td style=" vertical-align: top; text-align: right; border: none;"> &nbsp;<a href='http://www.lifetechnologies.com/'><img src="/src/events/gcc2012/sponsorships/IonTorrentLogo320.png" alt="Ion Torrent" width="150" /></a> </td>
   </tr>
   <tr>
@@ -100,7 +100,7 @@ END_INCLUDE
     <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/MedilaxyLightning.pdf'>Slides</a></em></div><em><a href='/src/events/gcc2013/lightning/index.md#medilaxy-a-galaxy-platform-for-medical-image-analysis'>Medilaxy: A Galaxy Platform For Medical Image Analysis</a></em><div class='indent'>Marco Carnini, Johannes Gutenberg University</div></td>
   </tr>
   <tr>
-    <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/EstablishingWorkbenchLightning.pdf'>PDF</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/EstablishingWorkbenchLightning.pptx'>PPTX</a></em></div> <em><a href='/src/events/gcc2013/lightning/index.md#establishing-a-genomics-analysis-workbench'>Establishing a genomics analysis workbench</a></em> <div class='indent'><a href='/src/enis-afgan/index.md'>Enis Afgan</a>, Victorian Life Sciences Computation Initiative, University of Melbourne</div> </td>
+    <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/EstablishingWorkbenchLightning.pdf'>PDF</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/EstablishingWorkbenchLightning.pptx'>PPTX</a></em></div> <em><a href='/src/events/gcc2013/lightning/index.md#establishing-a-genomics-analysis-workbench'>Establishing a genomics analysis workbench</a></em> <div class='indent'><a href='/src/people/enis-afgan/index.md'>Enis Afgan</a>, Victorian Life Sciences Computation Initiative, University of Melbourne</div> </td>
   </tr>
   <tr>
     <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/LiSIsLightning.pdf'>PDF</a>, <a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/LiSIsLightning.pptx'>PPTX</a></em></div> <em><a href='/src/events/gcc2013/lightning/index.md#lisis-a-galaxy-based-platform-for-life-science-informatics-research'>LiSIs: a Galaxy-based platform for Life Science Informatics Research</a></em><div class='indent'>Christos Kannas, University of Cyprus</div></td>
@@ -129,7 +129,7 @@ END_INCLUDE
 <table>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 9:10 </td>
-    <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/NekrutenkoTaylorState.pdf'>Slides</a>, <a href='https://vimeo.com/74413993'>Vimeo</a></em></div>  <strong><em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalksstate-of-the-galaxy'>State of the Galaxy</a></strong></em> <div class='indent'><a href='/src/anton/index.md'>Anton Nekrutenko</a> and <a href='/src/james-taylor/index.md'>James Taylor</a>, Galaxy Project </div> </td>
+    <td colspan=2 style=" border: none; width: 100%;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/NekrutenkoTaylorState.pdf'>Slides</a>, <a href='https://vimeo.com/74413993'>Vimeo</a></em></div>  <strong><em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalksstate-of-the-galaxy'>State of the Galaxy</a></strong></em> <div class='indent'><a href='/src/people/anton/index.md'>Anton Nekrutenko</a> and <a href='/src/people/james-taylor/index.md'>James Taylor</a>, Galaxy Project </div> </td>
   </tr>
   <tr>
     <td rowspan=4 style=" vertical-align: top; text-align: right; border: none;"> 9:40 </td>
@@ -164,7 +164,7 @@ END_INCLUDE
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 11:30 </td>
-    <td style=" vertical-align: top; border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/ChiltonGalaxyP.pdf'>Slides</a>, <a href='http://prezi.com/lpxoy_eqpjl2/galaxy-p-beyond-proteomics/'>Prezi</a>, <a href='https://vimeo.com/74395277'>Vimeo</a></em></div>  <em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalksgalaxy-p-beyond-proteomics'>Galaxy-P: Beyond Proteomics</a></em><div class='indent'><a href='/src/john-chilton/index.md'>John Chilton</a>, University of Minnesota Supercomputing Institute </div> </td>
+    <td style=" vertical-align: top; border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/ChiltonGalaxyP.pdf'>Slides</a>, <a href='http://prezi.com/lpxoy_eqpjl2/galaxy-p-beyond-proteomics/'>Prezi</a>, <a href='https://vimeo.com/74395277'>Vimeo</a></em></div>  <em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalksgalaxy-p-beyond-proteomics'>Galaxy-P: Beyond Proteomics</a></em><div class='indent'><a href='/src/people/john-chilton/index.md'>John Chilton</a>, University of Minnesota Supercomputing Institute </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 11:50 </td>
@@ -172,7 +172,7 @@ END_INCLUDE
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 12:10 </td>
-    <td colspan=2 style=" text-align: center; border: none; width: 100%;"> <div class='right'> <em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/JoshiClinicalGalaxy.pdf'>Slides</a>, <a href='https://vimeo.com/74391527'>Vimeo</a></em><br />  <a href='http://www.emc.com/isilon'><img src="/src/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="150" /></a></div> <strong><em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalksthe-clinical-galaxy-a-validated-platform-initiative'>The Clinical Galaxy: A validated platform initiative</a></strong></em><br /><a href='/src/sanjay-joshi/index.md'>Sanjay Joshi</a><br /> Chief Technical Officer (CTO), <a href='http://www.isilon.com/industry/lifesciences'>Life Sciences</a>, <a href='http://www.emc.com/isilon'>EMC Isilon</a> <br />Gold Sponsor Presentation </td>
+    <td colspan=2 style=" text-align: center; border: none; width: 100%;"> <div class='right'> <em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/JoshiClinicalGalaxy.pdf'>Slides</a>, <a href='https://vimeo.com/74391527'>Vimeo</a></em><br />  <a href='http://www.emc.com/isilon'><img src="/src/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="150" /></a></div> <strong><em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalksthe-clinical-galaxy-a-validated-platform-initiative'>The Clinical Galaxy: A validated platform initiative</a></strong></em><br /><a href='/src/people/sanjay-joshi/index.md'>Sanjay Joshi</a><br /> Chief Technical Officer (CTO), <a href='http://www.isilon.com/industry/lifesciences'>Life Sciences</a>, <a href='http://www.emc.com/isilon'>EMC Isilon</a> <br />Gold Sponsor Presentation </td>
   </tr>
 </table>
 
@@ -187,19 +187,19 @@ END_INCLUDE
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 13:30</td>
-    <td style=" vertical-align: top; border: none; width: 100%;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/VonKusterToolShed.pdf'>Slides</a>, <a href='https://vimeo.com/74347850'>Vimeo</a></em></div> <em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalksenhancing-the-galaxy-toolshed'>Enhancing the Galaxy Tool Shed</a></em><div class='indent'><a href='/src/greg_vonkuster/index.md'>Greg Von Kuster</a>, Penn State University </div> </td>
+    <td style=" vertical-align: top; border: none; width: 100%;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/VonKusterToolShed.pdf'>Slides</a>, <a href='https://vimeo.com/74347850'>Vimeo</a></em></div> <em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalksenhancing-the-galaxy-toolshed'>Enhancing the Galaxy Tool Shed</a></em><div class='indent'><a href='/src/people/greg_vonkuster/index.md'>Greg Von Kuster</a>, Penn State University </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 13:50 </td>
-    <td style=" vertical-align: top; border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/EberhardCreateViz.pdf'>Slides</a>, <a href='https://vimeo.com/74330774'>Vimeo</a></em></div> <em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalkshow-to-create-your-own-web-based-interactive-visualizations-for-galaxy'>How to Create Your Own Web-based, Interactive Visualizations for Galaxy</a></em><div class='indent'><a href='/src/carl-eberhard/index.md'>Carl Eberhard</a>, Emory University </div> </td>
+    <td style=" vertical-align: top; border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/EberhardCreateViz.pdf'>Slides</a>, <a href='https://vimeo.com/74330774'>Vimeo</a></em></div> <em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalkshow-to-create-your-own-web-based-interactive-visualizations-for-galaxy'>How to Create Your Own Web-based, Interactive Visualizations for Galaxy</a></em><div class='indent'><a href='/src/people/carl-eberhard/index.md'>Carl Eberhard</a>, Emory University </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 14:05 </td>
-    <td style=" vertical-align: top; border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/BlankenbergBuiltInData.pdf'>Slides</a>, <a href='https://vimeo.com/74265510'>Vimeo</a></em></div>  <em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalksmanaging-galaxys-built-in-data'>Managing Galaxy's Built-in Data</a></em><div class='indent'><a href='/src/dan/index.md'>Daniel Blankenberg</a>, Penn State University </div> </td>
+    <td style=" vertical-align: top; border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/BlankenbergBuiltInData.pdf'>Slides</a>, <a href='https://vimeo.com/74265510'>Vimeo</a></em></div>  <em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalksmanaging-galaxys-built-in-data'>Managing Galaxy's Built-in Data</a></em><div class='indent'><a href='/src/people/dan/index.md'>Daniel Blankenberg</a>, Penn State University </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 14:20 </td>
-    <td style=" vertical-align: top; border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/BakerContribute.pdf'>Slides</a>, <a href='https://vimeo.com/73486255'>Vimeo</a></em></div> <em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalkscontributing-to-galaxy'>Contributing to Galaxy</a></em><div class='indent'><a href='/src/dannon-baker/index.md'>Dannon Baker</a>, Emory University </div> </td>
+    <td style=" vertical-align: top; border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/BakerContribute.pdf'>Slides</a>, <a href='https://vimeo.com/73486255'>Vimeo</a></em></div> <em><a href='/src/events/gcc2013/abstracts/index.md#eventsgcc2013abstractstalkscontributing-to-galaxy'>Contributing to Galaxy</a></em><div class='indent'><a href='/src/people/dannon-baker/index.md'>Dannon Baker</a>, Emory University </div> </td>
   </tr>
 </table>
 
@@ -225,7 +225,7 @@ END_INCLUDE
     <td style=" border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/Workflow4MetaboLightning.pdf'>Slides</a></em></div><em><a href='/src/events/gcc2013/lightning/index.md#workflow4metabo'>Workflow4Metabo</a></em><div class='indent'>Gildas Le Corguille, UPMC-CNRS</div></td>
   </tr>
   <tr>
-    <td style=" border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/GLM_GSEALightning.pdf'>Slides</a></em></div><em><a href='/src/events/gcc2013/lightning/index.md#glm-for-testing-differential-expression-and-gsea-in-galaxy'>GLM for testing differential expression and GSEA in Galaxy</a></em><div class='indent'><a href='/src/fubar/index.md'>Ross Lazarus</a>, Baker IDI Heart and Diabetes Institute</div> </td>
+    <td style=" border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/GLM_GSEALightning.pdf'>Slides</a></em></div><em><a href='/src/events/gcc2013/lightning/index.md#glm-for-testing-differential-expression-and-gsea-in-galaxy'>GLM for testing differential expression and GSEA in Galaxy</a></em><div class='indent'><a href='/src/people/fubar/index.md'>Ross Lazarus</a>, Baker IDI Heart and Diabetes Institute</div> </td>
   </tr>
   <tr>
     <td style=" border: none;"> <div class='right'><em><a href='PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/MethylationLightning.pdf'>Slides</a></em></div><em><a href='/src/events/gcc2013/lightning/index.md#analysis-of-dna-methylation-data-using-galaxy'>Analysis of DNA methylation data using galaxy</a></em><div class='indent'>Pavan Videm, University of Freiburg</div> </td>

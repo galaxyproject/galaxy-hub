@@ -71,13 +71,13 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> August 1-4 </th>
     <td> <em><a href='http://icbo.cgrb.oregonstate.edu/node/41'>Integrating Ontological and Genomic Analysis with Galaxy Workshop</a></em> </td>
     <td> <img src='/src/images/icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://icbo.cgrb.oregonstate.edu/'>ICBO 2016</a>, Corvallis, Oregon, United States </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 9-10 </th>
     <td> <em>Introduction to Galaxy Workflows</em> </td>
     <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home'>Workflows Workshop</a>, <em><a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home/call-for-host-sites'>Distributed</a></em> </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 12 </th>
@@ -95,7 +95,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> August 18 </th>
     <td> <a href='/src/community/galaxy-admins/meetups/2016-08-18/index.md'>GalaxyAdmins Web Meetup</a> </td>
     <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' />  <em><a href='/src/community/galaxy-admins/meetups/2016-08-18/index.md'>Online</a></em> </td>
-    <td> <a href='/src/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 29 - September 2 </th>
@@ -155,13 +155,13 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> October 20 </th>
     <td> <em><a href='/src/events/switzerland2016/index.md'>(third Swiss) Galaxy Workshop</a></em> </td>
     <td> <img src='/src/images/icons/Europe40.png' alt='Europe' align='right' /> <a href='/src/events/sg2016/index.md'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
-    <td> <a href='/src/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/bjoern-gruening/index.md'>Bjoern Gruening</a> </td>
+    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/people/bjoern-gruening/index.md'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <th> October 21 </th>
     <td> <em><a href='/src/events/germany2016/index.md'>(second German) Galaxy Developers Day</a></em> </td>
     <td> <img src='/src/images/icons/Europe40.png' alt='Europe' align='right' /> <a href='/src/events/sg2016/index.md'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
-    <td> <a href='/src/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/bjoern-gruening/index.md'>Bjoern Gruening</a> </td>
+    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/people/bjoern-gruening/index.md'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>

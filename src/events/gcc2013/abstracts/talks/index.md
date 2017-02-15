@@ -38,9 +38,9 @@ Victoria is an assistant professor of [Statistics](http://www.stat.columbia.edu/
 
 ### Reproducible research and the 90/10 rule: Improving the ratio of light script to dark script matter in your Galaxy
 
-<div class='right'><a href='/src/fubar/index.md'><img src="/src/galaxy-team/ross.jpg" alt="" width="120" /></a></div>
+<div class='right'><a href='/src/people/fubar/index.md'><img src="/src/galaxy-team/ross.jpg" alt="" width="120" /></a></div>
 
-**[Ross Lazarus](/src/fubar/index.md)<sup>1</sup>**, Antony Kaspi<sup>1</sup>, Mark Ziemann<sup>1</sup> and The [Galaxy Team](/src/galaxy-team/index.md) <sup>2</sup>.
+**[Ross Lazarus](/src/people/fubar/index.md)<sup>1</sup>**, Antony Kaspi<sup>1</sup>, Mark Ziemann<sup>1</sup> and The [Galaxy Team](/src/galaxy-team/index.md) <sup>2</sup>.
 
  <sup>1</sup> BakerIDI Heart and Diabetes Research Institute, 75 Commercial Rd, Melbourne, VIC 3004, Australia<br />
  <sup>2</sup> http://wiki.galaxyproject.org[/GalaxyTeam](/src/events/gcc2013/abstracts/talks/GalaxyTeam/index.md)
@@ -256,9 +256,9 @@ We show examples of spatial co-localization of chromatin states and fusion trans
 ### Ion Torrent Semiconductor Sequencing Update
 
  
-<div class='right'><img src="/src/mike-lelivelt/pic.png" alt="" width="90" /></div>
+<div class='right'><img src="/src/people/mike-lelivelt/pic.png" alt="" width="90" /></div>
 
-**[Mike Lelivelt](/src/mike-lelivelt/index.md)<sup>1</sup>**
+**[Mike Lelivelt](/src/people/mike-lelivelt/index.md)<sup>1</sup>**
 
  <sup>1</sup> Director of Bioinformatics and Software Products, [Ion Torrent, part of Life Technologies](http://lifetech.com) 
 
@@ -272,7 +272,7 @@ Ion Torrent has invented the first device—a new semiconductor chip—capable o
 
 <div class='right'><img src="/src/galaxy-team/anton.jpg" alt="" width="120" />&nbsp;<img src="/src/galaxy-team/james.jpg" alt="" width="120" /></div>
 
-**[Anton Nekrutenko](/src/anton/index.md)<sup>1</sup> and [James Taylor](/src/james-taylor/index.md)<sup>2</sup>**
+**[Anton Nekrutenko](/src/people/anton/index.md)<sup>1</sup> and [James Taylor](/src/people/james-taylor/index.md)<sup>2</sup>**
 
  <sup>1</sup> [Penn State University](http://psu.edu/)<br />
  <sup>2</sup> [Emory University](http://emory.edu/)
@@ -285,7 +285,7 @@ An overview of where the Galaxy Project is and where it is going.
 
 ### BioBlend - automating bioinformatics with Galaxy and CloudMan
 
-**Clare Sloggett**<sup>1</sup>, [Nuwan Goonasekera](http://versi.edu.au/about-us/versi-team#Nuwan)<sup>1,2,4</sup>, [Enis Afgan](/src/enis-afgan/index.md)<sup>1,3,4</sup>
+**Clare Sloggett**<sup>1</sup>, [Nuwan Goonasekera](http://versi.edu.au/about-us/versi-team#Nuwan)<sup>1,2,4</sup>, [Enis Afgan](/src/people/enis-afgan/index.md)<sup>1,3,4</sup>
 
  <sup>1</sup> Victorian Life Sciences Computation Initiative (VLSCI), University of Melbourne<br />
  <sup>2</sup> Victorian eResearch Strategic Initiative (VeRSI), University of Melbourne, Melbourne, Australia<br />
@@ -366,9 +366,9 @@ In this talk, we will present Globus Genomics which is a robust, scalable, and f
 
 ### Galaxy-P: Beyond Proteomics
 
-<div class='right'><a href='/src/john-chilton/index.md'><img src="/src/events/gcc2013/abstracts/talks/JohnChilton.jpg" alt="" width="100" /></a></div>
+<div class='right'><a href='/src/people/john-chilton/index.md'><img src="/src/events/gcc2013/abstracts/talks/JohnChilton.jpg" alt="" width="100" /></a></div>
 
-**[John Chilton](/src/john-chilton/index.md)**<sup>1</sup>, James Johnson<sup>1</sup>, Getiria Onsongo<sup>1</sup>, Ebbing de Jong<sup>1</sup>, Pratik Jagtap<sup>1</sup>, Timothy Griffin<sup>2</sup>
+**[John Chilton](/src/people/john-chilton/index.md)**<sup>1</sup>, James Johnson<sup>1</sup>, Getiria Onsongo<sup>1</sup>, Ebbing de Jong<sup>1</sup>, Pratik Jagtap<sup>1</sup>, Timothy Griffin<sup>2</sup>
 
  <sup>1</sup> University of Minnesota Supercomputing Institute, Minneapolis, Minnesota, USA<br />
  <sup>2</sup> University of Minnesota, Minneapolis, Minnesota, USA
@@ -409,9 +409,9 @@ The experience gave us new perspectives to improve our development and productio
 
 ### The Clinical Galaxy: A validated platform initiative
 
-<div class='right'><img src="/src/sanjay-joshi/SanjayJoshi.png" alt="SanjayJoshi" width="100" /></div>
+<div class='right'><img src="/src/people/sanjay-joshi/SanjayJoshi.png" alt="SanjayJoshi" width="100" /></div>
 
-**[Sanjay Joshi](/src/sanjay-joshi/index.md)**
+**[Sanjay Joshi](/src/people/sanjay-joshi/index.md)**
 
  Chief Technical Officer (CTO), [Life Sciences](http://www.isilon.com/industry/lifesciences). [EMC Isilon Storage Division](http://www.emc.com/isilon)
 
@@ -429,9 +429,9 @@ We will present an overview of the requirements to move Galaxy into the Clinical
 
 ### Enhancing the Galaxy Tool Shed
 
-<div class='right'><a href='/src/dan/index.md'><img src="/src/galaxy-team/greg.jpg" alt="Greg Von Kuster" width="120" /></a></div>
+<div class='right'><a href='/src/people/dan/index.md'><img src="/src/galaxy-team/greg.jpg" alt="Greg Von Kuster" width="120" /></a></div>
 
-**[Greg von Kuster](/src/greg_vonkuster/index.md)**, [Daniel Blankenberg](/src/dan/index.md)
+**[Greg von Kuster](/src/people/greg_vonkuster/index.md)**, [Daniel Blankenberg](/src/people/dan/index.md)
  Penn State / Galaxy Team
 
 *[Slides](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/gcc2013/VonKusterToolShed.pdf), [Vimeo](https://vimeo.com/74347850)*
@@ -450,9 +450,9 @@ To ensure the quality of the Tool Shed and the available contributed Utilities, 
 
 ### How to Create Your Own Web-based, Interactive Visualizations for Galaxy
 
-<div class='right'><a href='/src/carl-eberhard/index.md'><img src="/src/galaxy-team/carl.jpg" alt="" width="120" /></a></div>
+<div class='right'><a href='/src/people/carl-eberhard/index.md'><img src="/src/galaxy-team/carl.jpg" alt="" width="120" /></a></div>
 
-**[Carl Eberhard](/src/carl-eberhard/index.md)**<sup>1</sup>, [Jeremy Goecks](/src/jeremy-goecks/index.md)<sup>1</sup>, [The Galaxy Team](/src/galaxy-team/index.md)<sup>1,2</sup>, [Anton Nekrutenko](/src/anton/index.md)<sup>2</sup>, and [James Taylor](/src/james-taylor/index.md)<sup>1</sup>
+**[Carl Eberhard](/src/people/carl-eberhard/index.md)**<sup>1</sup>, [Jeremy Goecks](/src/people/jeremy-goecks/index.md)<sup>1</sup>, [The Galaxy Team](/src/galaxy-team/index.md)<sup>1,2</sup>, [Anton Nekrutenko](/src/people/anton/index.md)<sup>2</sup>, and [James Taylor](/src/people/james-taylor/index.md)<sup>1</sup>
 
  <sup>1</sup> Emory University<br />
  <sup>2</sup> Penn State University
@@ -467,9 +467,9 @@ In this talk, we describe how to create your own visualization for Galaxy. We pr
 
 ### Managing Galaxy's Built-in Data
 
-<div class='right'><a href='/src/dan/index.md'><img src="/src/galaxy-team/dan.jpg" alt="" width="120" /></a></div>
+<div class='right'><a href='/src/people/dan/index.md'><img src="/src/galaxy-team/dan.jpg" alt="" width="120" /></a></div>
 
-**[Daniel Blankenberg](/src/dan/index.md)**
+**[Daniel Blankenberg](/src/people/dan/index.md)**
 
  [Galaxy Team](/src/galaxy-team/index.md) and Penn State University
 
@@ -485,9 +485,9 @@ Data Managers can be defined locally or installed automatically from a Tool Shed
 
 ### Contributing to Galaxy
 
-<div class='right'><a href='/src/dannon-baker/index.md'><img src="/src/galaxy-team/dannon.jpg" alt="" width="120" /></a></div>
+<div class='right'><a href='/src/people/dannon-baker/index.md'><img src="/src/galaxy-team/dannon.jpg" alt="" width="120" /></a></div>
 
-**[Dannon Baker](/src/dannon-baker/index.md)**<sup>1</sup>, [Nate Coraor](/src/nate/index.md)<sup>2</sup>, [John Chilton](/src/john-chilton/index.md)<sup>3</sup> 
+**[Dannon Baker](/src/people/dannon-baker/index.md)**<sup>1</sup>, [Nate Coraor](/src/people/nate/index.md)<sup>2</sup>, [John Chilton](/src/people/john-chilton/index.md)<sup>3</sup> 
 
  <sup>1</sup> Emory University<br />
  <sup>2</sup> Penn State<br />

@@ -6,10 +6,10 @@
 
 <table>
   <tr>
-    <td> <a href='/src/enis-afgan/index.md'><img src="/src/cloudman/team/EnisAfgan.jpg" /></a> <br /> <a href='http://cloudman.irb.hr/enis/'>Enis Afgan</a> <br /> <a href='http://www.irb.hr/en/cir/'>RBI</a> </td>
-    <td> <img src="/src/cloudman/team/dannon.jpg" /> <br /> <a href='/src/dannon-baker/index.md'>Dannon Baker</a> <br /> <a href='http://www.jhu.edu'>Johns Hopkins</a> </td>
+    <td> <a href='/src/people/enis-afgan/index.md'><img src="/src/cloudman/team/EnisAfgan.jpg" /></a> <br /> <a href='http://cloudman.irb.hr/enis/'>Enis Afgan</a> <br /> <a href='http://www.irb.hr/en/cir/'>RBI</a> </td>
+    <td> <img src="/src/cloudman/team/dannon.jpg" /> <br /> <a href='/src/people/dannon-baker/index.md'>Dannon Baker</a> <br /> <a href='http://www.jhu.edu'>Johns Hopkins</a> </td>
     <td> <img src="/src/cloudman/team/TomislavLipic.jpg" /> <br /> Tomislav Lipic <br /><a href='http://www.irb.hr/en/cir/'>RBI</a> </td>
-    <td> <img src="/src/galaxy-team/james.jpg" /> <br /> <a href='/src/james-taylor/index.md'>James Taylor</a> <br /> <a href='http://www.jhu.edu'>Johns Hopkins</a> </td>
+    <td> <img src="/src/galaxy-team/james.jpg" /> <br /> <a href='/src/people/james-taylor/index.md'>James Taylor</a> <br /> <a href='http://www.jhu.edu'>Johns Hopkins</a> </td>
   </tr>
 </table>
 

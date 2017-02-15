@@ -6,7 +6,7 @@ Galaxy will have a significant presence at the [61st ASMS Conference on Mass Spe
 
 If you do research in proteomics than please consider attending.
 
-[Dave Clements](/src/dave-clements/index.md)
+[Dave Clements](/src/people/dave-clements/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-04-19</div>
 

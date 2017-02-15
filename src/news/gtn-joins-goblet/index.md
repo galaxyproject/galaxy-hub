@@ -13,15 +13,15 @@ GTN's GOBLET membership will raise the visibility of Galaxy, [Galaxy training](/
 
 This membership was made possible by a unique arrangement where these five [GTN members](/src/teach/trainers/index.md) each contributed 20% of the cost of a Bronze Organizational Membership:
 
-* [Hans-Rudolf Hotz](/src/hansrudolf-hotz/index.md), [Friedrich Miescher Institute (FMI)](http://www.fmi.ch/), Switzerland
-* [Björn Grüning](/src/bjoern-gruening/index.md), [University of Freiburg](http://www.uni-freiburg.de/), Germany
+* [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md), [Friedrich Miescher Institute (FMI)](http://www.fmi.ch/), Switzerland
+* [Björn Grüning](/src/people/bjoern-gruening/index.md), [University of Freiburg](http://www.uni-freiburg.de/), Germany
 * [Mark Crowe](http://www.qfab.org/mark-crowe/), [QFAB](http://www.qfab.org/), Australia
 * [UC Davis Bioinformatics Core Training Program](http://training.bioinformatics.ucdavis.edu/), United States
 * [Galaxy Project](http://galaxyproject.org/), United States
 
 Many thanks to these GTN members for making this happen, and to the GOBLET Executive for this opportunity.
 
-[Dave Clements](/src/dave-clements/index.md), on behalf of the [Galaxy Training Network](/src/teach/trainers/index.md)
+[Dave Clements](/src/people/dave-clements/index.md), on behalf of the [Galaxy Training Network](/src/teach/trainers/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-03-09</div>
 

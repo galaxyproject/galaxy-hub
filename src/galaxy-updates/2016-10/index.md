@@ -71,7 +71,7 @@ This will be an online contribution fest and the fun to contribute should be pri
 
 Ciao,
 
-[Bérénice](http://bebatut.fr/) and [Bjoern](/src/bjoern-gruening/index.md)
+[Bérénice](http://bebatut.fr/) and [Bjoern](/src/people/bjoern-gruening/index.md)
 
 
 ## Galaxy Admin Training, November 7-11, Salt Lake City, Utah
@@ -136,7 +136,7 @@ Galaxy and [CloudBridge](http://cloudbridge.readthedocs.io/en/latest/) have join
 
 The Galaxy v16.07 release ([see below](/src/galaxy-updates/2016-10/index.md#galaxy-v1607)) included a "Shift of Galaxy tool dependencies to Conda" and that shift is reflected in a whole bunch of activity: 
 
-* **[Conda as a new standard for Galaxy tool dependencies](http://blogs.biomedcentral.com/gigablog/2016/09/20/guest-posting-introducing-conda-for-galaxy/)**, a guest blog posting by [Björn Grüning](/src/bjoern-gruening/index.md) in *[GigaScience's](http://www.gigasciencejournal.com/)* [GigaBlog](http://blogs.biomedcentral.com/gigablog/).
+* **[Conda as a new standard for Galaxy tool dependencies](http://blogs.biomedcentral.com/gigablog/2016/09/20/guest-posting-introducing-conda-for-galaxy/)**, a guest blog posting by [Björn Grüning](/src/people/bjoern-gruening/index.md) in *[GigaScience's](http://www.gigasciencejournal.com/)* [GigaBlog](http://blogs.biomedcentral.com/gigablog/).
 * a Galaxy-P Conda contribution fest in September ([see report below](/src/galaxy-updates/2016-10/index.md#galaxy-p-conda-contribution-fest-report)), 
 * enhancements to [Planemo](/src/galaxy-updates/2016-10/index.md#planemo-0332), and 
 * an upcoming **[Bioconda Contribution Fest](https://github.com/bioconda/bioconda-recipes/issues/2277)** on November 2-3.
@@ -174,7 +174,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> October 6-7 </th>
     <td> <strong><a href='https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3'>Galaxy Training Contribution Fest</a></strong> </td>
     <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='/src/bjoern-gruening/index.md'>Björn Grüning</a> </td>
+    <td> <a href='/src/people/bjoern-gruening/index.md'>Björn Grüning</a> </td>
   </tr>
   <tr>
     <th rowspan=2> October 10 </th>
@@ -208,7 +208,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> October 20 </th>
     <td> <em>Genome Program Joint Workshop</em> </td>
     <td> <img src='/src/images/icons/Asia40.png' alt='Asia' align='right' /> <a href='http://kunsan.ac.kr'>Kunsan National University</a>, Gunsan, South Korea </td>
-    <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> October 20-21 </th>
@@ -220,19 +220,19 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> October 20 </th>
     <td> <em><a href='/src/events/switzerland2016/index.md'>(third Swiss) Galaxy Workshop</a></em> </td>
     <td> <img src='/src/images/icons/Europe40.png' alt='Europe' align='right' /> <strong><a href='/src/events/sg2016/index.md'>2016 Swiss-German Galaxy Days</a></strong> in Freiburg, Germany </td>
-    <td> <a href='/src/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/bjoern-gruening/index.md'>Bjoern Gruening</a> </td>
+    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/people/bjoern-gruening/index.md'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <th> October 21 </th>
     <td> <em><a href='/src/events/germany2016/index.md'>(second German) Galaxy Developers Day</a></em> </td>
     <td> <img src='/src/images/icons/Europe40.png' alt='Europe' align='right' /> <strong><a href='/src/events/sg2016/index.md'>2016 Swiss-German Galaxy Days</a></strong> in Freiburg, Germany </td>
-    <td> <a href='/src/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/bjoern-gruening/index.md'>Bjoern Gruening</a> </td>
+    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/people/bjoern-gruening/index.md'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <th> October 24-27 </th>
     <td> <em>The Galaxy tool lifecycle supporting reproducibility in scientific research</em> </td>
     <td> <img src='/src/images/icons/Europe40.png' alt='Europe' align='right' /> <a href='http://www.igst.it/nettab/2016/'>NETTAB 2016 / EMBNet Joint Meeting on Reproducibility in Bioinformatics</a>, Rome, Italy </td>
-    <td> <a href='/src/dannon-baker/index.md'>Dannon Baker</a>, <a href='/src/bjoern-gruening/index.md'>Björn Grüning</a> </td>
+    <td> <a href='/src/people/dannon-baker/index.md'>Dannon Baker</a>, <a href='/src/people/bjoern-gruening/index.md'>Björn Grüning</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
@@ -241,7 +241,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> November 2-3 </th>
     <td> <em><a href='https://github.com/bioconda/bioconda-recipes/issues/2277'>Bioconda Contribution Fest</a></em> </td>
     <td> <img src='/src/images/icons/World40.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='/src/bjoern-gruening/index.md'>Björn Grüning</a> </td>
+    <td> <a href='/src/people/bjoern-gruening/index.md'>Björn Grüning</a> </td>
   </tr>
   <tr>
     <th> November 7-8 </th>
@@ -259,7 +259,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> November 8-20 </th>
     <td> <em><a href='https://meetings.cshl.edu/courses.aspx?course=c-seqtec&year=16'>Advanced Sequencing Technologies & Applications</a></em> <div class='indent'>Application deadline is July 15</div> </td>
     <td> <img src='/src/images/icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='https://cshl.edu/'>Cold Spring Harbor Laboratory</a>, New York, United States </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> November 9-11 </th>
@@ -298,7 +298,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> January 14-18 </th>
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXV</a>, San Diego, California, United States </td>
-    <td> <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
@@ -364,7 +364,7 @@ Some highlights from last month:
    Annette McGrath, Steve McMahon, Sean Li, Joel Ludbey, Tim Ho. *Journal of Grid Computing* (2016), pp. 1-11, doi:10.1007/s10723-016-9379-6
 
  **[Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter](http://biorxiv.org/content/early/2016/09/22/075457)**
-   [Björn Grüning](/src/bjoern-gruening/index.md), [Eric Rasche](/src/eric-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/john-chilton/index.md), [Nathan Coraor](/src/nate/index.md), Rolf Backofen, [James Taylor](/src/james-taylor/index.md), [Anton Nekrutenko](/src/anton/index.md). *bioRxiv* (16 September 2016), 075457, doi:10.1101/075457
+   [Björn Grüning](/src/people/bjoern-gruening/index.md), [Eric Rasche](/src/people/eric-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nathan Coraor](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). *bioRxiv* (16 September 2016), 075457, doi:10.1101/075457
 
  **[Genotyping of evolving prokaryotic populations](http://dx.doi.org/10.7287/peerj.preprints.2449v1)**
    Markus Zojer, Lisa N. Schuster, Frederik Schulz, Alexander Pfundner, Matthias Horn, Thomas Rattei. *PeerJ Preprints* (14 September 2016), doi:10.7287/peerj.preprints.2449v1
@@ -376,7 +376,7 @@ Some highlights from last month:
    Guillaume Carissimo, Marius van den Beek, Juliana Pegoraro, Kenneth D. Vernick, Christophe Antoniewski. *bioRxiv* (2016), doi:10.1101/048983
 
  **[Cloudflow - A framework for MapReduce pipeline development in Biomedical Research](http://dx.doi.org/10.1109/mipro.2015.7160259)**
-   Lukas Forer, [Enis Afgan](/src/enis-afgan/index.md), Hansi Weißensteiner, Davor Davidović, Günther Specht, Florian Kronenberg, Sebastian Schönherr. 2015 38th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO) (May 2015), pp. 172-177, doi:10.1109/mipro.2015.7160259
+   Lukas Forer, [Enis Afgan](/src/people/enis-afgan/index.md), Hansi Weißensteiner, Davor Davidović, Günther Specht, Florian Kronenberg, Sebastian Schönherr. 2015 38th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO) (May 2015), pp. 172-177, doi:10.1109/mipro.2015.7160259
 
 ## Tagged Publications
 

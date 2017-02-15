@@ -17,6 +17,6 @@ To subscribe to the list please go to the [Galaxy-Announce Mailman page](http://
 
 See [/MailingLists](/MailingLists) for more information on this and other Galaxy mailing lists, including links to searchable archives of all Galaxy lists.
 
-[Dave Clements](/src/dave-clements/index.md)
+[Dave Clements](/src/people/dave-clements/index.md)
 
 CategoryNews

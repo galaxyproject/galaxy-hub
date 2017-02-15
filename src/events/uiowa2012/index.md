@@ -15,7 +15,7 @@ title: Introduction to Galaxy
 
 **A workshop for the University of Iowa community
 
-Instructor: [Dave Clements](/src/dave-clements/index.md)
+Instructor: [Dave Clements](/src/people/dave-clements/index.md)
 
 April 19: Two workshops:**
 <table>
@@ -101,7 +101,7 @@ No programming or Linux command line experience is required.
 
 ## Slides
 
-* [Introduction to Galaxy](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/2012_UIowaIntroToGalaxy.pdf), [Dave Clements](/src/dave-clements/index.md)
+* [Introduction to Galaxy](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/2012_UIowaIntroToGalaxy.pdf), [Dave Clements](/src/people/dave-clements/index.md)
 * [University of Iowa Custom Galaxy Deployment](PLACEHOLDER_ATTACHMENT_URL/src/documents/presentations/2012_UIowaCustomGalaxyDeployment.pdf), Ann Black-Ziegelbein
 
 ## Support

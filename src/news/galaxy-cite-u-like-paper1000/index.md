@@ -78,7 +78,7 @@ Each paper in the group is tagged to indicate how it is related to Galaxy.  The 
 
 The Galaxy CiteULike group was launched 18 months ago.  It continues to grow *rapidly.*
 
-[Dave Clements](/src/dave-clements/index.md)
+[Dave Clements](/src/people/dave-clements/index.md)
 
 <span style="font-size: smaller;"> * These tags were added in 2013 and very few papers before 2013 have been back-curated with them.  All the tags are explained on the [CiteULike](/src/cite-u-like/index.md) page. </span>
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-06-06</div>

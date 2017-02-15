@@ -94,7 +94,7 @@ The Freiburger Galaxy Project is led by Rolf Backofen from the University of Fre
 
 **Links & Contact:**
 
-  * [Bjoern Gruening](/src/bjoern-gruening/index.md)
+  * [Bjoern Gruening](/src/people/bjoern-gruening/index.md)
   * [galaxy AT informatik DOT uni-freiburg DOT org](mailto:galaxy AT informatik DOT uni-freiburg DOT org) 
 
 ### Galaxy Project
@@ -620,7 +620,7 @@ The TAMU Galaxy offers access a local Galaxy instance for TAMU Staff, faculty, a
 
   * [TAMU Galaxy](http://galaxy.tamu.edu)
   * [CPT Public Galaxy](http://cpt.tamu.edu/galaxy-public/)
-  * [Eric Rasche](/src/eric-rasche/index.md) (CPT Staff)
+  * [Eric Rasche](/src/people/eric-rasche/index.md) (CPT Staff)
   * [esr@tamu.edu](mailto:esr@tamu.edu) 
 
 ### UC Davis Genome Center's Bioinformatics Core Facility

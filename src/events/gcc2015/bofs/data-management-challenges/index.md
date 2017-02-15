@@ -36,8 +36,8 @@ Wednesday, 8 July, 12:30 (Lunch), in the Franklin Room, JICCC
 If you are interested, please add your name below and/or send an email to [Brad Langhorst](mailto:langhorst@neb DOT com), **or just show up.**
 
 * Brad Langhorst
-* [Nate Coraor](/src/nate/index.md)
-* [Hans-Rudolf Hotz](/src/hansrudolf-hotz/index.md)
+* [Nate Coraor](/src/people/nate/index.md)
+* [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
 * Next Name
 
 ## Questions?

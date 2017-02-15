@@ -6,7 +6,7 @@ title: Introduction to Galaxy
 
 
 
-**Instructor: [Dave Clements](/src/dave-clements/index.md)
+**Instructor: [Dave Clements](/src/people/dave-clements/index.md)
 
 November 16, 2016<br />
 9:00-5:00<br /><br />

@@ -23,7 +23,7 @@
 #### Afternoon
 
 * [ZFS for NGS data analysis](PLACEHOLDER_ATTACHMENT_URL/src/GDC2010_ZFS-for_NGS_Analysis.pdf) - Davide Cittaro
-* [Do-It-Yourself Bioinformatics with the FMI Galaxy Server](PLACEHOLDER_ATTACHMENT_URL/src/GDC2010DIY_Bioinf_FMI.pdf) - [Hans-Rudolf Hotz](/src/hansrudolf-hotz/index.md)
+* [Do-It-Yourself Bioinformatics with the FMI Galaxy Server](PLACEHOLDER_ATTACHMENT_URL/src/GDC2010DIY_Bioinf_FMI.pdf) - [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
 * [Cistrome Project: An Integrative Platform to Analyze ChIP-chip/seq Data](PLACEHOLDER_ATTACHMENT_URL/src/GDC2010_Cistrome.pdf) - Tao Liu
 * [Transcriptome Analysis with Galaxy](PLACEHOLDER_ATTACHMENT_URL/src/Transcriptome_Analysis_with_Galaxy.pdf) - Gunnar Rätsch
 

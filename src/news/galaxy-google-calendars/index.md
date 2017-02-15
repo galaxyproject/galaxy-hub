@@ -16,7 +16,7 @@ This split allows us to present Galaxy events in a much sparser calendar, that i
 
 And we will continue to link to past Galaxy events (and presentations, videos, examples, ...) from the  *[Events Archive](/src/events/index.md#past-events)*.
 
-[Dave Clements](/src/dave-clements/index.md)
+[Dave Clements](/src/people/dave-clements/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-08-20</div>
 

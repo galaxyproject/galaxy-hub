@@ -6,7 +6,7 @@ Help guide Galaxy's 2014 training efforts by taking the [Galaxy Training Survey]
 
 Thanks,
 
-[Dave Clements](/src/dave-clements/index.md)<br />
+[Dave Clements](/src/people/dave-clements/index.md)<br />
 Galaxy Training and Outreach
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-08-05</div>

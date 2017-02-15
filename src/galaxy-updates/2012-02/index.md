@@ -2,7 +2,7 @@
 autotoc: true
 title: February 2012 Galaxy Update
 ---
-<div class='center'>**Looking for the [March 2012 Galaxy Update](/src/galaxy-updates/2012-03/index.md)?  Click [here](/src/galaxy-updates/2012-03/index.md).**<br />Sorry about the bad link in the email announcement!  [Dave C](/src/dave-clements/index.md)</div>
+<div class='center'>**Looking for the [March 2012 Galaxy Update](/src/galaxy-updates/2012-03/index.md)?  Click [here](/src/galaxy-updates/2012-03/index.md).**<br />Sorry about the bad link in the email announcement!  [Dave C](/src/people/dave-clements/index.md)</div>
 
 
 
@@ -21,7 +21,7 @@ New papers of note for the Galaxy community:
 
 * Thomas Hentrich, Julia M. Schulze, Eldon Emberly, and Michael S. Kobor, "[CHROMATRA: a Galaxy tool for visualizing genome-wide chromatin signatures](http://bioinformatics.oxfordjournals.org/content/early/2012/01/10/bioinformatics.bts007.short)." *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* 
 
-* Jeremy Goecks, Kanwei Li, [Dave Clements](/src/dave-clements/index.md), The [Galaxy Team](/src/galaxy-team/index.md), James Taylor, "[The Galaxy Track Browser: Transforming the genome browser from visualization tool to analysis tool](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6094046)." *[Biological Data Visualization (BioVis), 2011 IEEE Symposium on](http://www.biovis.net/)*
+* Jeremy Goecks, Kanwei Li, [Dave Clements](/src/people/dave-clements/index.md), The [Galaxy Team](/src/galaxy-team/index.md), James Taylor, "[The Galaxy Track Browser: Transforming the genome browser from visualization tool to analysis tool](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6094046)." *[Biological Data Visualization (BioVis), 2011 IEEE Symposium on](http://www.biovis.net/)*
 
 Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, reference, or are about Galaxy.  
 
@@ -65,7 +65,7 @@ Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/src/ev
     <th> April 5-6 </th>
     <td> <strong><a href='http://gmod.org/wiki/April 2012 GMOD Meeting'>April 2012 GMOD Meeting</a></strong> </td>
     <td> Washington DC, immediately following <a href='http://pir.georgetown.edu/biocuration2012/'>Biocuration 2012</a> </td>
-    <td> <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> July 13-17 </th>
@@ -77,7 +77,7 @@ Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/src/ev
     <th> July 25-27 </th>
     <td> <strong><a href='/src/events/gcc2012/index.md'>2012 Galaxy Community Conference</a></strong> </td>
     <td> Chicago, Illinois, United States </td>
-    <td> <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
 </table>
 

@@ -17,31 +17,31 @@ There are several Galaxy related events going on at Cold Spring Harbor Laborator
     <th> November 2-5 </th>
     <td> <a href='http://meetings.cshl.edu/meetings/info11.shtml'>Best practices for variant discovery through Galaxy: Oscillating evolution within dual coding genes</a> </td>
     <td> <a href='http://meetings.cshl.edu/meetings/info11.shtml'>Genome Informatics 2011</a>, Cold Spring Harbor, New York, United States </td>
-    <td> <a href='/src/dan/index.md'>Dan Blankenberg</a> </td>
+    <td> <a href='/src/people/dan/index.md'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> November 8-21 </th>
     <td> <a href='http://meetings.cshl.edu/courses/c-seqtech11.shtml'>Advanced Sequencing Technologies & Applications Course</a><br />Features Galaxy and much more. </td>
     <td> Cold Spring Harbor Laboratory, New York, United States </td>
-    <td> <a href='/src/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> November 9-15 </th>
     <td> <a href='http://meetings.cshl.edu/courses/c-ecg11.shtml'>Compuational & Comparative Genomics Course</a><br />Features Galaxy and much more. </td>
     <td> Cold Spring Harbor Laboratory, New York, United States </td>
-    <td> <a href='/src/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> January 8-21 2012 </th>
     <td> <a href='http://evomics.org/workshops/workshop-on-genomics/2012-genomics-cesky-krumlov/'>2012 Workshop on Genomics</a><br />Features Galaxy and much more.<br /><strong>Application deadline is November 1.</strong> </td>
     <td> Český Krumlov, Czech Republic </td>
-    <td> <a href='/src/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> January 14-18 2012 </th>
     <td> Galaxy Session @ GMOD Workshop </td>
     <td> <a href='http://www.intlpag.org/'>PAG 2012</a>, San Diego, California, United States </td>
-    <td> <a href='/src/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 17 2012 </th>
@@ -55,7 +55,7 @@ There are several Galaxy related events going on at Cold Spring Harbor Laborator
 <br />
 
 Thanks,<br />
-[Dave Clements](/src/dave-clements/index.md)
+[Dave Clements](/src/people/dave-clements/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-10-31</div>
 

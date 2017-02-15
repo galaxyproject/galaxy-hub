@@ -8,7 +8,7 @@
 
 <div class='title'>Introduction to Galaxy<br />July 21, 2016</div>
 
-**Instructor: [Dave Clements](/src/dave-clements/index.md)
+**Instructor: [Dave Clements](/src/people/dave-clements/index.md)
 
 9:00-5:00<br /><br />
 Location <br />

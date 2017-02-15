@@ -36,7 +36,7 @@
 
 [Genotyping of evolving prokaryotic populations](https://peerj.com/preprints/2449/), Zojer et al.
 
-[Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter](http://dx.doi.org/10.1101/075457), [Grüning](/src/bjoern-gruening/index.md) et al.
+[Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter](http://dx.doi.org/10.1101/075457), [Grüning](/src/people/bjoern-gruening/index.md) et al.
 
 [Streamlined analysis of duplex sequencing data with Du Novo](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1039-4), Stoler et al.
 

@@ -58,7 +58,7 @@ Welcome to the October 2012 edition of *[Galaxy Update](/src/galaxy-updates/inde
 
 These papers may be of interest to the Galaxy community:
 
-* [Turning pipe dreams into reality](http://dx.doi.org/10.1186/gb4039) by  Peter Li, [Jeremy Goecks](/src/jeremy-goecks/index.md), Tin L. Lee, *Genome Biology*, Vol. 13, No. 8. (2012), 318.
+* [Turning pipe dreams into reality](http://dx.doi.org/10.1186/gb4039) by  Peter Li, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Tin L. Lee, *Genome Biology*, Vol. 13, No. 8. (2012), 318.
 
 * [Some Phenotype Association Tools in Galaxy: Looking for Disease SNPs in a Full Genome](http://dx.doi.org/10.1002/0471250953.bi1502s39), by Belinda M. Giardine, Cathy Riemer, Richard Burhans, Aakrosh Ratan, Webb Miller; in *Current Protocols in Bioinformatics* 39:15.2.1-15.2.27
 
@@ -122,13 +122,13 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> October 3 </th>
     <td> <em><a href='/src/events/switzerland2012/index.md'>(first Swiss) Galaxy Workshop</a></em> </td>
     <td> <strong><a href='https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3'>SyBIT Tech Day</a></strong>, Bern, Switzerland </td>
-    <td> <a href='/src/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> </td>
+    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> October 8-12 </th>
     <td> <em><a href='http://www.psc.edu/index.php/escience-2012-workshop'>Lessons from Galaxy, a Web-based Platform for High-throughput Genomic Analyses</a></em> </td>
     <td> <a href='http://www.psc.edu/index.php/escience-2012-workshop'>Extending High-Performance Computing Beyond its Traditional User Communities Workshop</a>, part of <strong><a href='http://www.ci.uchicago.edu/escience2012/'>8th IEEE International Conference on eScience (eScience 2012)</a></strong>, Chicago Illinois, United States </td>
-    <td> <a href='/src/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> October 9-11 </th>
@@ -146,25 +146,25 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> October 18-30  </th>
     <td> <em><a href='http://meetings.cshl.edu/courses/c-seqtech12.shtml'>Advanced Sequencing Technologies and Applications Course</a></em> </td>
     <td> <a href='http://www.cshl.edu/'>Cold Spring Harbor Laboratory</a>, New York, United States </td>
-    <td> <a href='/src/anton/index.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> October 31 - November 6  </th>
     <td> <em><a href='http://meetings.cshl.edu/courses/c-ecg12.shtml'>Computaional & Comparative Genomics Course</a></em> </td>
     <td> <a href='http://www.cshl.edu/'>Cold Spring Harbor Laboratory</a>, New York, United States </td>
-    <td> <a href='http://www.cs.virginia.edu/brochure/profs/pearson.html'>William Pearson</a>, <a href='/src/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='http://www.cs.virginia.edu/brochure/profs/pearson.html'>William Pearson</a>, <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 28 - November 2 </th>
     <td> <em><a href='http://conference.eresearch.edu.au/eres2012/workshops/'>Genomic Virtual Laboratory Workshop</a></em> </td>
     <td> <a href='http://conference.eresearch.edu.au/'>eResearch Australasia</a>, Sydney, Australia </td>
-    <td> <a href='/src/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th rowspan=2 style=" text-align:center;"> November 6-10 </th>
     <td> <em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#9'>Galaxy 101: Data Integration, Analysis and Sharing</a></em> </td>
     <td rowspan=2 style=" text-align:center;"> <strong><a href='http://www.ashg.org/2012meeting/'>American Society of Human Genetics (ASHG)</a></strong>, San Francisco, California, United States </td>
-    <td rowspan=2 style=" text-align:center;"> <a href='/src/jennifer-jackson/index.md'>Jennifer Jackson</a>, <a href='/src/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
+    <td rowspan=2 style=" text-align:center;"> <a href='/src/people/jennifer-jackson/index.md'>Jennifer Jackson</a>, <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#12'>Working with High-Throughput Data and Data Visualization</a></em> </td>

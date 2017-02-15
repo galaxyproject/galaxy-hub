@@ -15,7 +15,7 @@ The [May 2013 Galaxy Update is now available](/src/galaxy-updates/2013-05/index.
 
 If you have anything you would like to see in the June *[Galaxy Update](/src/galaxy-updates/index.md)*, please let us know.
 
-[Dave Clements](/src/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
+[Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-05-06</div>
 
