@@ -3,10 +3,8 @@ autotoc: true
 title: Galaxy Mailing Lists
 ---
 
-{{> Support/LinkBox }}
-<div class='right'></div>
-
 Mailing lists play a vital role in the Galaxy community:
+
 1. They are a key part of [Galaxy's overall support efforts](/src/support/index.md).
 1. They complement the [Galaxy Biostar forum](/src/support/biostar/index.md), which is focused on questions about *using* Galaxy.
 1. They are a place where the community *[can ask and answer](/src/mailing-lists/index.md#posting-a-question)* questions.
@@ -152,8 +150,6 @@ Once you have mastered Rule 1, you can refine your mailing list chops by applyin
  **[Rule 9. The archive of your discussion will be useful to others](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s10)**<br />
  **[Rule 10. Give back to the community](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s11)**<br />&nbsp;&nbsp;&nbsp;Help answer others' questions and [Get Involved](/src/get-involved/index.md)!
 
-
-
 ### New to Open Source Software Support Mailing Lists?
 
 If you are brand new to programming mailing lists please read
@@ -164,7 +160,6 @@ If you are brand new to programming mailing lists please read
 ## Mailing List Traffic
 
 We have a significant amount of mailing list traffic. See the [Galaxy Project Statistics](/src/galaxy-project/statistics/index.md#traffic) page for more information.
-
 
 ## See Also
 
