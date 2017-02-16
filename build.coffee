@@ -113,9 +113,9 @@ class Renderer extends marked.Renderer
                 </table>"""
     image: (href, title, text) =>
       out = '<img class="img-responsive" src="' + href + '" alt="' + text + '"'
-      if (title)
+      if title
           out += ' title="' + title + '"'
-      out += this.options.xhtml ? '/>' : '>'
+      out += '/>'
       return out
 
 timer = require( "metalsmith-timer" )
