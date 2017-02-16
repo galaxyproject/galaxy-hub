@@ -23,7 +23,6 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
 
 <div class='center'>
 <a href='http://www.denbi.de/22-training-cat/training-courses/213-3rd-galaxy-high-throughput-sequencing-hts-data-analysis-workshop'><img src="/src/images/logos/deNBILogo.png" alt="Galaxy Workshop on HTS data analysis for Scientists" height="50" /></a> &nbsp;
-<a href='/src/community/galaxy-admins/meetups/2017-02-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="16 February GalaxyAdmins Web Meetup: CloudLaunch" height="56" /></a> &nbsp;
 <a href="http://www.qfab.org/training/"><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80"></a> &nbsp;
 <a href='http://training.csx.cam.ac.uk/bioinformatics/event/2000038'> <img src="/images/logos/UniCambridgeLogoWide.png" alt="Introduction to Galaxy: Data Manipulation and Visualisation" height="50" /></a>
 </div>
@@ -42,12 +41,6 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <td> <em><a href='http://www.denbi.de/22-training-cat/training-courses/213-3rd-galaxy-high-throughput-sequencing-hts-data-analysis-workshop'>Galaxy Workshop on HTS data analysis for Scientists</a></em> </td>
     <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Freiburg, Germany </td>
     <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='mailto:erxleben@informatik.uni-freiburg.de'>Organisers</a> </td>
-  </tr>
-  <tr>
-    <th> February 16 </th>
-    <td> <em><a href="/src/community/galaxy-admins/meetups/2017-02-16/index.md">CloudLaunch</a></em> </td>
-    <td> <img src="/src/images/icons/World40.png" alt="Online" align="right" /> <a href="/src/community/galaxy-admins/meetups/2017-02-16/index.md"> GalaxyAdmins Online Meetup</a> <em>Online</em> </td>
-    <td> Nuwan Goonasekera, <a href="/src/people/enis-afgan/index.md">Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> February 20 </th>
@@ -184,6 +177,7 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
 <a href='https://www.eventbrite.com.au/e/resbaz-rna-seq-in-galaxy-workshop-tickets-31246086887'><img src='/src/images/logos/resbaz-brisbane.png' alt="RNA-Seq in Galaxy workshop @ ResBaz Brisbane" height="50" /></a>
 <a href="http://www.kogo.or.kr/Conference/ConferenceView.asp?AC=2&CODE=CI20161201"><img src='/src/images/logos/kogo-logo.png' alt="13th KOGO Winter Symposium: Galaxy to Genomics using NGS data"  height="50"/></a>
 <a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Feb17.html'><img src="/src/images/logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="90" /></a>
+<a href='/src/community/galaxy-admins/meetups/2017-02-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="16 February GalaxyAdmins Web Meetup: CloudLaunch" height="56" /></a> &nbsp;
 </div>
 
 <br />
@@ -195,6 +189,13 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> Venue/Location </th>
     <th> Contact </th>
     <th> Links </th>
+  </tr>
+  <tr>
+    <th> February 16 </th>
+    <td> <em><a href="/src/community/galaxy-admins/meetups/2017-02-16/index.md">CloudLaunch</a></em> </td>
+    <td> <img src="/src/images/icons/World40.png" alt="Online" align="right" /> <a href="/src/community/galaxy-admins/meetups/2017-02-16/index.md"> GalaxyAdmins Online Meetup</a> <em>Online</em> </td>
+    <td> Nuwan Goonasekera, <a href="/src/people/enis-afgan/index.md">Enis Afgan</a> </td>
+    <td> [Video](https://connect.johnshopkins.edu/p8t92n1zw9q) </td>
   </tr>
   <tr>
     <th> February 14 </th>
