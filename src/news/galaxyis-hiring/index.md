@@ -3,8 +3,6 @@ title: 'Galaxy is hiring'
 date: '2017-02-02'
 ---
 
-<div class='newsItemHeader'>[Galaxy is Hiring](/src/news/Galaxy is Hiring/index.md)</div>
-
 The Galaxy project currently has open positions in both the [Johns Hopkins University] (http://jamestaylor.org/) and [Penn State](http://www.bx.psu.edu/~anton/) groups.
 
 <div class='right'><a href='http://www.bx.psu.edu/~anton/'><img src="/src/images/logos/PennStateLogo.jpg" alt="Opening at Penn State" width="200" /></a></div>
@@ -33,6 +31,3 @@ We are seeking [software engineers](http://jamestaylor.org/joining/sw/) with exp
 
 [Postdoctoral applicants](http://jamestaylor.org/joining/postdocs/jamestaylor.org) should have expertise in Bioinformatics and Computational Biology and research interests that complement but extend the [lab's current interests](http://jamestaylor.org/research/): The Galaxy project; distributed and high-performance computing for data intensive science; vertebrate functional genomics; and genomics and epigenomic mechanisms of gene regulation, the role of transcription factors and chromatin structure in global gene expression, development, and differentiation.  See the [announcement](http://jamestaylor.org/joining/postdocs/jamestaylor.org) for full details.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-08-29</div>
-
-[CategoryNews](/src/category-news/index.md)
