@@ -89,6 +89,12 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <td><div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training@qfab.org">Organisers</a> </td>
   </tr>
   <tr>
+    <th> March 6 </th>
+    <td> <em>RNA-seq analysis using Galaxy</em> </td>
+    <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> Food and Drug Adminstration (FDA) Washington, D.C., United States </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a>, <a href="/src/people/mo-heydarian/index.md">Mo Heydarian</a> </td>
+  </tr>
+  <tr>
     <th> March 7 </th>
     <td> <em><a href='http://training.csx.cam.ac.uk/bioinformatics/event/2000038'>Introduction to Galaxy: Data Manipulation and Visualisation</a></em> </td>
     <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Cancer Research UK Cambridge Institute, Cambridge, United Kingdom </td>
