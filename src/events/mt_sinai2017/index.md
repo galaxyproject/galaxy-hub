@@ -1,6 +1,6 @@
 ---
 title: Galaxy workshop
-date: '02-22-2017'
+date: '2017-02-22'
 tease: an Mount Sinai
 continent: NA
 location: New York, NY

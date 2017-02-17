@@ -1,6 +1,6 @@
 ---
 title: GCC2017
-date: '06-26-2017'
+date: '2017-06-26'
 tease: Galaxy Community Conference
 location: Montpellier, FR
 image: gcc2017.png

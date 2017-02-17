@@ -1,6 +1,6 @@
 ---
 title: Workflow4Experimenters International Course
-date: '05-15-2017'
+date: '2017-05-15'
 tease: at Institut Pasteur
 continent: EU
 location: Paris, FR

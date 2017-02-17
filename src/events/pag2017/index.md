@@ -1,6 +1,6 @@
 ---
 title: PAG 2017
-date: '01-04-2017'
+date: '2017-01-04'
 tease: Galaxy is for Plants and Animals too...
 continent: NA
 location: San Diego, CA

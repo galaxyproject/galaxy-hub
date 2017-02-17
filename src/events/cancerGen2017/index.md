@@ -1,6 +1,6 @@
 ---
 title: Bioinformatics for Cancer Genomics
-date: '05-29-2017'
+date: '2017-05-29'
 tease: bringing it all together with Galaxy.
 continent: NA
 location: Toronto, ON

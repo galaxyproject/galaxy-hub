@@ -1,6 +1,6 @@
 ---
 title:  Introduction to Galaxy
-date: '03-07-2017'
+date: '2017-03-07'
 tease: Data Manipulation and Visualisation
 continent: EU
 location: Cambridge, UK

@@ -1,6 +1,6 @@
 ---
 title: 'Galaxy is hiring'
-date: '02-02-2017'
+date: '2017-02-02'
 ---
 
 <div class='newsItemHeader'>[Galaxy is Hiring](/src/news/Galaxy is Hiring/index.md)</div>

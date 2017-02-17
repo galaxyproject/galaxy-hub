@@ -1,6 +1,6 @@
 ---
 title: GIGA-sponsored Bioinformatics Workshops on Galaxy and Metagenomics
-date: '02-20-2017'
+date: '2017-02-20'
 tease: an event by Global Invertebrate Genomics Alliance
 continent: NA
 location: Washington, DC

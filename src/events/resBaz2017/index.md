@@ -1,6 +1,6 @@
 ---
 title: RNA-seq through Galaxy 
-date: '02-07-2017'
+date: '2017-02-07'
 tease: at Research Bazaar 2017
 continent: AU
 location: Brisbane, QLD

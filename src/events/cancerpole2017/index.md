@@ -1,6 +1,6 @@
 ---
 title: NGS & Cancer
-date: '04-19-2017'
+date: '2017-04-19'
 tease: Analyses DNA-Seq avec Galaxy
 continent: EU
 location: Paris, FR

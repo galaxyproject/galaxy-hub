@@ -1,6 +1,6 @@
 ---
 title:  ABRF 2017
-date: '03-25-2017'
+date: '2017-03-25'
 tease: The Galaxy platform for metaproteomic characterization of microbiomes
 continent: NA
 location: San Diego, CA
