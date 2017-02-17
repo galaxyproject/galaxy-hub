@@ -21,7 +21,7 @@ A minimum of 5 year experience with UNIX/Linux system administration is required
 
 
 <div class='right'><a href='http://jamestaylor.org/joining/'><img src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Openings at Johns Hopkins University" width="200" /></a></div>
-**[Emory](/src/community/Emory University/index.md): Software Engineers and Post-Docs**
+**[Johns Hopkins University](http://jamestaylor.org/): Software Engineers and Post-Docs**
 <br /><br />
 
 The [Taylor Lab](http://jamestaylor.org/) in the [Biology](http://bio.jhu.edu/) and [Computer Science](https://www.cs.jhu.edu/) departments at [Johns Hopkins University](http://jhu.edu/) is looking for 
@@ -29,5 +29,5 @@ The [Taylor Lab](http://jamestaylor.org/) in the [Biology](http://bio.jhu.edu/) 
 
 We are seeking [software engineers](http://jamestaylor.org/joining/sw/) with expertise in distributed computing and systems programming, web-based visualization and visual analytics, informatics and data analysis and integration, and bioinformatics application areas such as re-sequencing, de novo assembly, metagenomics, transcriptome analysis and epigenetics.  These are full time positions located in Baltimore, MD.  See the [official posting](http://jamestaylor.org/joining/sw/) for full details.
 
-[Postdoctoral applicants](http://jamestaylor.org/joining/postdocs/jamestaylor.org) should have expertise in Bioinformatics and Computational Biology and research interests that complement but extend the [lab's current interests](http://jamestaylor.org/research/): The Galaxy project; distributed and high-performance computing for data intensive science; vertebrate functional genomics; and genomics and epigenomic mechanisms of gene regulation, the role of transcription factors and chromatin structure in global gene expression, development, and differentiation.  See the [announcement](http://jamestaylor.org/joining/postdocs/jamestaylor.org) for full details.
+[Postdoctoral applicants](http://jamestaylor.org/joining/postdocs/) should have expertise in Bioinformatics and Computational Biology and research interests that complement but extend the [lab's current interests](http://jamestaylor.org/research/): The Galaxy project; distributed and high-performance computing for data intensive science; vertebrate functional genomics; and genomics and epigenomic mechanisms of gene regulation, the role of transcription factors and chromatin structure in global gene expression, development, and differentiation.  See the [announcement](http://jamestaylor.org/joining/postdocs/) for full details.
 
