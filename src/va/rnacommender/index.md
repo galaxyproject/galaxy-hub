@@ -13,7 +13,7 @@ title: RNAcommender
  Domains:: **RNA-protein interactions** 
  Description:: Genome-wide recommendation of RNA-protein interactions.
  Owners:: [Gianluca Corrado](https://scholar.google.com/citations?user=POZPkQgAAAAJ&hl=en), [Andrea Passerini](http://disi.unitn.it/~passerini/)
- Date Created/Updated:: 2016/08/08 
+ Date Created/Updated:: 2016-08-08 
 </div>
 
 [RNAcommender](http://rnacommender.disi.unitn.it/) is a tool for genome-wide recommendation of RNA-protein interactions. It is a recommender system capable of suggesting RNA targets to unexplored RNA binding proteins, by propagating the available interaction information, taking into account the protein domain composition and the RNA predicted secondary structure.

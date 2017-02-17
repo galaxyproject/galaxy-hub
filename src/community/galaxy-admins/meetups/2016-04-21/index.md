@@ -1,6 +1,6 @@
 <div class='center'>
 <a href='http://www.uio.no/'><img src="/src/images/logos/UiOLogo.png" alt="University of Oslo" /></a><br /><br /> <a href='/src/community/galaxy-admins/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
-<div class='title'>2016/04/21 [Web Meetup](https://connect.johnshopkins.edu/gxyadmins201604/)<br /><br />
+<div class='title'>2016-04-21 [Web Meetup](https://connect.johnshopkins.edu/gxyadmins201604/)<br /><br />
 
 </div></div>
 

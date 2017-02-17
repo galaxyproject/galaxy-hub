@@ -27,43 +27,43 @@ Active here means "visited", as defined by Biostar.
     <th> Last 12 Months </th>
   </tr>
   <tr>
-    <th> 2014/07/09 </th>
+    <th> 2014-07-09 </th>
     <td style=" text-align: right;"> 1190 </td>
     <td style=" text-align: right;"> 1274 </td>
     <td style=" text-align: right;"> 1424 </td>
   </tr>
   <tr>
-    <th> 2014/10/13 </th>
+    <th> 2014-10-13 </th>
     <td style=" text-align: right;"> 1178 </td>
     <td style=" text-align: right;"> 2261 </td>
     <td style=" text-align: right;"> 2469 </td>
   </tr>
   <tr>
-    <th> 2015/01/23 </th>
+    <th> 2015-01-23 </th>
     <td style=" text-align: right;"> 1210 </td>
     <td style=" text-align: right;"> 2242 </td>
     <td style=" text-align: right;"> 3473 </td>
   </tr>
   <tr>
-    <th> 2015/07/24 </th>
+    <th> 2015-07-24 </th>
     <td style=" text-align: right;"> 1020 </td>
     <td style=" text-align: right;"> 2213 </td>
     <td style=" text-align: right;"> 4277 </td>
   </tr>
   <tr>
-    <th> 2016/01/29 </th>
+    <th> 2016-01-29 </th>
     <td style=" text-align: right;"> 958 </td>
     <td style=" text-align: right;"> 2135 </td>
     <td style=" text-align: right;"> 3834 </td>
   </tr>
   <tr>
-    <th> 2016/08/15 </th>
+    <th> 2016-08-15 </th>
     <td style=" text-align: right;"> 1027 </td>
     <td style=" text-align: right;"> 2327 </td>
     <td style=" text-align: right;"> 3979 </td>
   </tr>
   <tr>
-    <th> 2017/01/16 </th>
+    <th> 2017-01-16 </th>
     <td style=" text-align: right;"> 967 </td>
     <td style=" text-align: right;"> 2042 </td>
     <td style=" text-align: right;"> 3794 </td>
@@ -81,43 +81,43 @@ Active here means "visited", as defined by Biostar.
     <th> Last 12 Months </th>
   </tr>
   <tr>
-    <th> 2014/07/09 </th>
+    <th> 2014-07-09 </th>
     <td style=" text-align: right;"> 268 </td>
     <td style=" text-align: right;"> 383 </td>
     <td style=" text-align: right;"> 654 </td>
   </tr>
   <tr>
-    <th> 2014/10/13 </th>
+    <th> 2014-10-13 </th>
     <td style=" text-align: right;"> 281 </td>
     <td style=" text-align: right;"> 561 </td>
     <td style=" text-align: right;"> 780 </td>
   </tr>
   <tr>
-    <th> 2015/01/23 </th>
+    <th> 2015-01-23 </th>
     <td style=" text-align: right;"> 272 </td>
     <td style=" text-align: right;"> 620 </td>
     <td style=" text-align: right;"> 986 </td>
   </tr>
   <tr>
-    <th> 2015/07/24 </th>
+    <th> 2015-07-24 </th>
     <td style=" text-align: right;"> 469 </td>
     <td style=" text-align: right;"> 949 </td>
     <td style=" text-align: right;"> 1465 </td>
   </tr>
   <tr>
-    <th> 2016/01/29 </th>
+    <th> 2016-01-29 </th>
     <td style=" text-align: right;"> 317 </td>
     <td style=" text-align: right;"> 806 </td>
     <td style=" text-align: right;"> 1618 </td>
   </tr>
   <tr>
-    <th> 2016/08/15 </th>
+    <th> 2016-08-15 </th>
     <td style=" text-align: right;"> 388 </td>
     <td style=" text-align: right;"> 1018 </td>
     <td style=" text-align: right;"> 1670 </td>
   </tr>
   <tr>
-    <th> 2017/01/16 </th>
+    <th> 2017-01-16 </th>
     <td style=" text-align: right;"> 306 </td>
     <td style=" text-align: right;"> 827 </td>
     <td style=" text-align: right;"> 1652 </td>
@@ -138,7 +138,7 @@ Active here means "visited", as defined by Biostar.
     <th> Users </th>
   </tr>
   <tr>
-    <th> 2014/07/09 </th>
+    <th> 2014-07-09 </th>
     <td style=" text-align: right;"> 8223 </td>
     <td style=" text-align: right;"> 2978 </td>
     <td style=" text-align: right;"> 2959 </td>
@@ -147,7 +147,7 @@ Active here means "visited", as defined by Biostar.
     <td style=" text-align: right;"> 2517 </td>
   </tr>
   <tr>
-    <th> 2014/10/13 </th>
+    <th> 2014-10-13 </th>
     <td style=" text-align: right;"> 9230 </td>
     <td style=" text-align: right;"> 3252 </td>
     <td style=" text-align: right;"> 3220 </td>
@@ -156,7 +156,7 @@ Active here means "visited", as defined by Biostar.
     <td style=" text-align: right;"> 3555 </td>
   </tr>
   <tr>
-    <th> 2015/01/23 </th>
+    <th> 2015-01-23 </th>
     <td style=" text-align: right;"> 10298 </td>
     <td style=" text-align: right;"> 3547 </td>
     <td style=" text-align: right;"> 3505 </td>
@@ -165,7 +165,7 @@ Active here means "visited", as defined by Biostar.
     <td style=" text-align: right;"> 4700 </td>
   </tr>
   <tr>
-    <th> 2015/07/24 </th>
+    <th> 2015-07-24 </th>
     <td style=" text-align: right;"> 13275 </td>
     <td style=" text-align: right;"> 4379 </td>
     <td style=" text-align: right;"> 4303 </td>
@@ -174,7 +174,7 @@ Active here means "visited", as defined by Biostar.
     <td style=" text-align: right;"> 6342 </td>
   </tr>
   <tr>
-    <th> 2016/01/29 </th>
+    <th> 2016-01-29 </th>
     <td style=" text-align: right;"> 15742 </td>
     <td style=" text-align: right;"> 5035 </td>
     <td style=" text-align: right;"> 4958 </td>
@@ -183,7 +183,7 @@ Active here means "visited", as defined by Biostar.
     <td style=" text-align: right;"> 7909 </td>
   </tr>
   <tr>
-    <th> 2016/08/15 </th>
+    <th> 2016-08-15 </th>
     <td style=" text-align: right;"> 18823 </td>
     <td style=" text-align: right;"> 5935 </td>
     <td style=" text-align: right;"> 5826 </td>
@@ -192,7 +192,7 @@ Active here means "visited", as defined by Biostar.
     <td style=" text-align: right;"> 9731 </td>
   </tr>
   <tr>
-    <th> 2017/01/16 </th>
+    <th> 2017-01-16 </th>
     <td style=" text-align: right;"> 20843 </td>
     <td style=" text-align: right;">  6527 </td>
     <td style=" text-align: right;">  6389 </td>
@@ -945,19 +945,19 @@ From the [Open HUB commits summary page](https://www.openhub.net/p/galaxybx/comm
     <th> Ever     </th>
   </tr>
   <tr>
-    <th> 2016/02/02 </th>
+    <th> 2016-02-02 </th>
     <td style=" text-align: right;"> 184 </td>
     <td style=" text-align: right;"> 7854        </td>
     <td style=" text-align: right;"> 28216 </td>
   </tr>
   <tr>
-    <th> 2016/08/16 </th>
+    <th> 2016-08-16 </th>
     <td style=" text-align: right;"> 149 </td>
     <td style=" text-align: right;"> 7189        </td>
     <td style=" text-align: right;"> 32193 </td>
   </tr>
   <tr>
-    <th> 2017/01/19 </th>
+    <th> 2017-01-19 </th>
     <td style=" text-align: right;">   144 </td>
     <td style=" text-align: right;">  6675 </td>
     <td style=" text-align: right;"> 34451 </td>
@@ -978,13 +978,13 @@ From the [Open HUB committers summary page](https://www.openhub.net/p/galaxybx/c
     <th> Ever   </th>
   </tr>
   <tr>
-    <th> 2016/02/02 </th>
+    <th> 2016-02-02 </th>
     <td style=" text-align: right;"> 24 </td>
     <td style=" text-align: right;"> 120 </td>
     <td style=" text-align: right;"> 218 </td>
   </tr>
   <tr>
-    <th> 2016/08/16 </th>
+    <th> 2016-08-16 </th>
     <td style=" text-align: right;"> 18 </td>
     <td style=" text-align: right;"> 123 </td>
     <td style=" text-align: right;"> 282 </td>
@@ -1004,27 +1004,27 @@ The [Galaxy repo on GitHub](https://github.com/galaxyproject/galaxy) is what peo
     <th> Unique Cloners </th>
   </tr>
   <tr>
-    <th> 2015/11/26 </th>
+    <th> 2015-11-26 </th>
     <td style=" text-align: right;"> 2090 </td>
     <td style=" text-align: right;"> 358 </td>
   </tr>
   <tr>
-    <th> 2015/12/14 </th>
+    <th> 2015-12-14 </th>
     <td style=" text-align: right;"> 2885 </td>
     <td style=" text-align: right;"> 322 </td>
   </tr>
   <tr>
-    <th> 2016/02/02 </th>
+    <th> 2016-02-02 </th>
     <td style=" text-align: right;"> 2978 </td>
     <td style=" text-align: right;"> 414 </td>
   </tr>
   <tr>
-    <th> 2016/08/16 </th>
+    <th> 2016-08-16 </th>
     <td style=" text-align: right;"> 3408 </td>
     <td style=" text-align: right;"> 339 </td>
   </tr>
   <tr>
-    <th> 2017/01/19 </th>
+    <th> 2017-01-19 </th>
     <td style=" text-align: right;"> 2742 </td>
     <td style=" text-align: right;"> 1318 </td>
   </tr>

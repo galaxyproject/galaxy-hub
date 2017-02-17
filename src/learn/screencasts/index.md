@@ -75,7 +75,7 @@ Browse the screencasts at [http://vimeo.com/galaxyproject](http://vimeo.com/gala
     <td> <strong><a href='http://screencast.g2.bx.psu.edu/DNaseIHSS/'>DNase I hypersensitive sites</a></strong> </td>
   </tr>
   <tr>
-    <td> <strong><a href='http://www.youtube.com/watch?v=kMME658xOu4&feature=youtu.be'>Using PhyloTastic Tools inside Galaxy</a></strong> by Rutger Vos, created 2012/06/11 </td>
+    <td> <strong><a href='http://www.youtube.com/watch?v=kMME658xOu4&feature=youtu.be'>Using PhyloTastic Tools inside Galaxy</a></strong> by Rutger Vos, created 2012-06-11 </td>
   </tr>
   <tr>
     <td> <strong><a href='http://main.g2.bx.psu.edu/u/galaxyproject/p/using-galaxy-2012'>CPB-2012</a>:</strong> <br /> prot1 <strong><a href='http://vimeo.com/galaxyproject/cbp-usinggalaxy1'>Finding Human Coding Exons with Highest SNP Density</a></strong> <br /> prot2 <strong><a href='http://vimeo.com/galaxyproject/cbp-usinggalaxy2'>Loading Data and Understanding Datatypes</a></strong> <br /> prot3 <strong><a href='http://vimeo.com/galaxyproject/cbp-usinggalaxy3'>Calling Peaks for ChIP-seq Data</a></strong> <br /> prot5 <strong><a href='http://vimeo.com/galaxyproject/cbp-usinggalaxy5'>Working with Multiple Sequence Alignments</a></strong> </td>
