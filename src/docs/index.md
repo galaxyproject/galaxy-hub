@@ -23,7 +23,7 @@ Documentation with regards to administering Galaxy is currently scattered among 
 
 If you are interested in contributing code to Galaxy have a look at development [resources](/src/develop/index.md).
 
-## Planemo
+## Tool development
 
-The CLI utilities to assist with building and publishing Galaxy tools have [documentation](http://planemo.readthedocs.io/).
+The CLI utilities to assist with building and publishing Galaxy tools called Planemo have [documentation](http://planemo.readthedocs.io/).
 
