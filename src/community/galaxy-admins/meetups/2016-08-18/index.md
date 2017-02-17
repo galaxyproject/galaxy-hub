@@ -1,7 +1,7 @@
 <div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> <br /><br />
 <a href='http://www.nd.edu/'><img src="/src/images/logos/NotreDame.png" alt="University of Notre Dame"  /></a>
 <br />
-<div class='title'>2016/08/18 Web Meetup<br /><br />
+<div class='title'>2016-08-18 Web Meetup<br /><br />
 
 </div></div>
 

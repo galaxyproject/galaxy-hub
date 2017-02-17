@@ -1,5 +1,5 @@
 <div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
-<div class='title'>2013/11/20 Web Meetup<br /><br />GCC2013 Followup
+<div class='title'>2013-11-20 Web Meetup<br /><br />GCC2013 Followup
 </div></div>
 
 <br />

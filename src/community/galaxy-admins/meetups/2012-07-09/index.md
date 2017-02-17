@@ -1,6 +1,6 @@
 ---
 autotoc: true
-title: 2012/07/09 Conference Call
+title: 2012-07-09 Conference Call
 ---
 <div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 

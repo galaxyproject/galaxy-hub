@@ -412,9 +412,9 @@ More information available in [Develop/SourceCode](/src/develop/source-code/inde
 
 # Releases
 
-## Galaxy 2015/01/13 Distribution
+## Galaxy 2015-01-13 Distribution
 
-The most recent Galaxy release was the [2015/01/13 distribution](/src/archive/dev-news-briefs/2015-01-13/index.md).  This addressed several *[critical security vulnerabilities](/src/archive/dev-news-briefs/2015-01-13/index.md#security)*, added [IPython integration](/src/archive/dev-news-briefs/2015-01-13/index.md#ipython_integration), and included a [Tool Form Upgrade for Beta Testing](/src/archive/dev-news-briefs/2015-01-13/index.md#tool_form_upgrade_28for_beta_testing29).
+The most recent Galaxy release was the [2015-01-13 distribution](/src/archive/dev-news-briefs/2015-01-13/index.md).  This addressed several *[critical security vulnerabilities](/src/archive/dev-news-briefs/2015-01-13/index.md#security)*, added [IPython integration](/src/archive/dev-news-briefs/2015-01-13/index.md#ipython_integration), and included a [Tool Form Upgrade for Beta Testing](/src/archive/dev-news-briefs/2015-01-13/index.md#tool_form_upgrade_28for_beta_testing29).
 
 ## Planemo 0.5.0
 

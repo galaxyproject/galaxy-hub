@@ -377,7 +377,7 @@ We are pleased to welcome the [Ruđer Bošković Institute](http://www.irb.hr/) 
 
 # New Releases
 
-## Galaxy 2015/01/13 Distribution
+## Galaxy 2015-01-13 Distribution
 
 <div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GetGalaxyOrg.png" alt="width=175" /></a></div>
 
