@@ -43,6 +43,12 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='mailto:erxleben@informatik.uni-freiburg.de'>Organisers</a> </td>
   </tr>
   <tr>
+    <th> February 13-17 </th>
+    <td> <em><a href='https://www.ebi.ac.uk/training/events/2017/embo-practical-course-metabolomics-bioinformatics-life-scientists-3'>Using Galaxy workflows for metabolomics</a></em> </td>
+    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> <a href="https://www.ebi.ac.uk/training/events/2017/embo-practical-course-metabolomics-bioinformatics-life-scientists-3">EMBO Practical Course on Metabolomics Bioinformatics for Life Scientists</a> Hinxton, United Kingdom </td>
+    <td> Etienne Thevenot </td>
+  </tr>
+  <tr>
     <th> February 20 </th>
     <td> <em><a href="https://gigaworkshops.eventbrite.com">Bioinformatics Workshops on Galaxy and Metagenomics</a></em> </td>
     <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> Preceding the <a href="http://biogenomics2017.org/">Global Biodiversity Genomics Conference</a>Washington, D.C., United States </td>
@@ -89,13 +95,51 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="https://www.linkedin.com/in/pajanne">Anne Pajon</a>, <a href="https://www.linkedin.com/in/jing-su-8ab15261">Jing Su</a> </td>
   </tr>
   <tr>
+    <th> March 13 </th>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2017/module17.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
+    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
+    <td> Sandra Dérozier, Véronique Martin </td>
+  </tr>
+  <tr>
+    <th> March 14 </th>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2017/module8bis.pdf'>Analyse primaire de données issues de
+séquenceurs nouvelle génération sous Galaxy </a></em> </td>
+    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
+    <td> Valentin Loux, Véronique Martin  </td>
+  </tr>
+  <tr>
+    <th> March 15 </th>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2017/module18bis.pdf'>Traitement bioinformatique des
+donnéesRNA-Seq sous Galaxy</a></em> </td>
+    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
+    <td> Valentin Loux, Cyprien Guérin  </td>
+  </tr>
+  <tr>
+    <th> March 16-17 </th>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2017/module16.pdf'>Analyse statistique de données RNA-Seq - Recherche des régions d'intérêt différentiellement exprimées (R, RStudio et Galaxy)</a></em> </td>
+    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
+    <td> Christelle Hennequet-Antier, Julie Aubert </td>
+  </tr>
+  <tr>
     <th> March 25-28 </th>
     <td> <em><a href='http://conf.abrf.org/the-galaxy-platform'>The Galaxy platform for metaproteomic characterization of microbiomes</a></em> </td>
     <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> <a href="http://conf.abrf.org/home">ABRF 2017</a>, San Diego, California, United States </td>
     <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='http://conf.abrf.org/the-galaxy-platform'>Tim Griffin, Pratik Jagtap, James Johnson</a> </td>
   </tr>
   <tr>
+    <th> March 27-30 </th>
+    <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2017/module20.pdf'>Analyse de données métagénomiques 16S</a></em> </td>
+    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
+    <td> Mahendra Mariadassou, Anne-Laure Abraham, Olivier Rué, Sandra Dérozier </td>
+  </tr>
+  <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
+  </tr>
+  <tr>
+    <th> April 7 </th>
+    <td> <em><a href='https://www.biogenouest.org/RNA-seq%2526microarray#Traitement de données de séquences par Galaxy - 1 jour'>Traitement de données de séquences par Galaxy</a></em> </td>
+    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Rennes, France </td>
+    <td> <a href='https://www.biogenouest.org/RNA-seq%2526microarray'>Contact</a> </td>
   </tr>
   <tr>
     <th> April 19-21 </th>
