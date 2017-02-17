@@ -1,6 +1,6 @@
 ---
 title: NGS Data Analysis and Informatics
-date: '02-06-2017'
+date: '2017-02-06'
 tease: Globus Genomics and Galaxy
 continent: NA
 location: San Diego, CA

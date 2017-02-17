@@ -1,6 +1,6 @@
 ---
 title: GAMe 2017
-date: '02-03-2017'
+date: '2017-02-03'
 tease: Galaxy Australasia Meeting
 continent: AU
 location: Melbourne, VIC

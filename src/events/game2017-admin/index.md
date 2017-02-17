@@ -1,6 +1,6 @@
 ---
 title: GAMe 2017
-date: '02-06-2017'
+date: '2017-02-06'
 tease: Galaxy Admin Training at GAMe
 continent: AU
 location: Melbourne, VIC

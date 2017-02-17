@@ -1,6 +1,6 @@
 ---
 title: Galaxy for NGS
-date: '02-06-2017'
+date: '2017-02-06'
 tease: at Erasmus Medical Centre
 continent: EU
 location: Rotterdam, NL

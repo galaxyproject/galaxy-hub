@@ -1,6 +1,6 @@
 ---
 title: Introduction to Galaxy Workshop
-date: '02-14-2017'
+date: '2017-02-14'
 tease: at Glasgow Polyomics
 continent: EU
 location: Glasgow, UK

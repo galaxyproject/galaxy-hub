@@ -1,6 +1,6 @@
 ---
 title: KTHRD Galaxy Workshop
-date: '02-06-2017'
+date: '2017-02-06'
 tease: Galaxy in Daejeon, South Korea
 continent: AS
 location: Daejeon, South Korea

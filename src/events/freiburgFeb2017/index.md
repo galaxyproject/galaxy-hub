@@ -1,6 +1,6 @@
 ---
 title: 3rd Galaxy High-Throughput-Sequencing (HTS) data analysis workshop
-date: '02-13-2017'
+date: '2017-02-13'
 tease: at Uni Freiburg
 continent: EU
 location: Freiburg, DE

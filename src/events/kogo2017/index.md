@@ -1,6 +1,6 @@
 ---
 title: KOGO 2017
-date: '02-08-2017'
+date: '2017-02-08'
 tease: From Galaxy to Genomics using NGS Data
 continent: AS
 location: Yongpyong, Gangwon-do, South Korea

@@ -1,6 +1,6 @@
 ---
 title: 'GCC2017 Training Day Topic Nominations'
-date: '01-09-2017'
+date: '2017-01-09'
 ---
 <table>
   <tr>

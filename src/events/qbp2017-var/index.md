@@ -1,6 +1,6 @@
 ---
 title: Variant detection using Galaxy
-date: '03-02-2017'
+date: '2017-03-02'
 tease: an University of Queensland
 continent: AU
 location: Brisbane, QLD

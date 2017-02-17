@@ -1,6 +1,6 @@
 ---
 title: 'GalaxyAdmins February 2017 Meetup'
-date: '02-16-2017'
+date: '2017-02-16'
 tease: 'GalaxyAdmins February 2017 Meetup'
 ---
 <div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 

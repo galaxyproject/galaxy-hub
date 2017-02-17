@@ -1,6 +1,6 @@
 ---
 title: 'December 2016 Galactic News'
-date: '12-06-2016'
+date: '2016-12-06'
 ---
 <div class='right'>
 <div class='right'><a href='/src/galaxy-updates/2016-12/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=120 /></a></div><br />

@@ -1,6 +1,6 @@
 ---
 title: RNA-seq analysis using Galaxy
-date: '03-01-2017'
+date: '2017-03-01'
 tease: an University of Queensland
 continent: AU
 location: Brisbane, QLD

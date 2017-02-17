@@ -1,6 +1,6 @@
 ---
 title: Genome assembly using Galaxy
-date: '02-28-2017'
+date: '2017-02-28'
 tease: an University of Queensland
 continent: AU
 location: Brisbane, QLD

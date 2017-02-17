@@ -1,6 +1,6 @@
 ---
 title: Data Analysis Workshop
-date: '05-15-2017'
+date: '2017-05-15'
 tease: Galaxy at NGS 2017 Glasgow
 continent: EU
 location: Glasgow, UK
