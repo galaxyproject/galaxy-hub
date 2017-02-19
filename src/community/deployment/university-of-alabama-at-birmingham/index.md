@@ -53,4 +53,3 @@ NGS analysis: Genomics (reference and de novo), RNAseq, metagenomics, custom too
 
 ## Links
 
-[CategoryDeployment](/src/category-deployment/index.md)

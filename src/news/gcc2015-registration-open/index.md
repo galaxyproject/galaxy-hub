@@ -16,4 +16,3 @@ PS: *And don't forget the [poster abstract](http://gcc2015.tsl.ac.uk/Abstracts) 
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-04-27</div>
 
-[CategoryNews](/src/category-news/index.md)

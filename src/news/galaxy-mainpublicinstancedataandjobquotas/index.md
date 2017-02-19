@@ -28,4 +28,3 @@ For those users with current account disk usage over the quota limit, we will be
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on <<Date(2011-10-25T16:28:54Z)>></div>
 
-CategoryNews

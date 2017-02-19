@@ -138,4 +138,3 @@ Is it possible to have a persistent training server?  Some ideas:
   * [Done](/src/teach/best-practices/index.md)
 * Include a video training directory
 
-[CategoryBo](/src/CategoryBo/index.md)F

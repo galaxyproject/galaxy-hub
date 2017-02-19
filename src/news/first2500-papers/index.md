@@ -381,4 +381,3 @@ In the meantime, I expect the next 2500 papers will be published in considerably
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-08-12</div>
 
-[CategoryNews](/src/category-news/index.md)

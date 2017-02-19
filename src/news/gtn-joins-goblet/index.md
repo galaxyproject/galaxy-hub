@@ -25,4 +25,3 @@ Many thanks to these GTN members for making this happen, and to the GOBLET Execu
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-03-09</div>
 
-[CategoryNews](/src/category-news/index.md)

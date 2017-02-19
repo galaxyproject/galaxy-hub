@@ -26,4 +26,3 @@ Participants will get a broad overview of topics covering multiple facets of bio
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-02-13</div>
 
-[CategoryNews](/src/category-news/index.md)

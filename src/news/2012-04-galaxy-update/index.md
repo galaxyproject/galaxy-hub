@@ -18,4 +18,3 @@ If you have anything you would like to see in the May *[Galaxy Update](/src/gala
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-04-02 </div>
 
-[CategoryNews](/src/category-news/index.md)

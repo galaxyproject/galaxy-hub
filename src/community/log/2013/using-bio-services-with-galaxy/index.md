@@ -22,4 +22,3 @@ title: 2013/10: Using [BioServices](http://pythonhosted.org/bioservices/index.ht
 * [Using BioServices with Galaxy](http://pythonhosted.org/bioservices/applications.html#galaxy)
 * "[BioServices: a common Python package to access biological Web Services programmatically](http://bioinformatics.oxfordjournals.org/content/29/24/3241)" by Cokelaer, Pultz, Harder, Serra-Musach and Saez-Rodriguez, *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)*,  (2013) 29 (24): 3241-3242. doi: 10.1093/bioinformatics/btt547 
 
-[CategoryLog](/src/category-log/index.md)

@@ -19,4 +19,3 @@ GCC2012 is hosted by the [University of Illinois at Chicago](http://uic.edu/), t
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-02-13</div>
 
-[CategoryNews](/src/category-news/index.md)

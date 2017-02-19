@@ -8,4 +8,3 @@ During this outage, users are encouraged to use the **[50+ other public Galaxy s
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-03-17</div>
 
-[CategoryNews](/src/category-news/index.md)

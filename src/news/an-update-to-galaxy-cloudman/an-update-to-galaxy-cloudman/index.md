@@ -17,4 +17,3 @@ The new version brings the following updates/features:
 [/EnisAfgan](/src/people/enis-afgan/index.md)
 
 
-CategoryNews

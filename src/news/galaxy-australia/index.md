@@ -37,4 +37,3 @@ We look forward to welcoming you to Melbourne. Remember to pack for our fabulous
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-10-03</div>
 
-[CategoryNews](/src/category-news/index.md)

@@ -16,4 +16,3 @@ Many, many thanks to Ann Black-Ziegelbein for getting the group off to a great s
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-07-11</div>
 
-[CategoryNews](/src/category-news/index.md)

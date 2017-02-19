@@ -109,4 +109,3 @@ Available in the [GalaxEast Toolshed](http://toolshed.galaxeast.fr/).
 * [GalaxEast Toolshed](http://toolshed.galaxeast.fr/)
 * [GalaxEast entry](/src/public-galaxy-servers/index.md#galaxeast) in [Public Galaxy Servers list](/src/public-galaxy-servers/index.md)
 
-[CategoryDeployment](/src/category-deployment/index.md)

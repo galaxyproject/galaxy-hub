@@ -14,4 +14,3 @@ If you want to help other Galaxy users and sites find papers that are relevant t
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on <<Date(2011-12-14T18:50:11Z)>>, updated 2011-12-15 </div>
 
-CategoryNews

@@ -33,4 +33,3 @@ Video is in French.  Tools are available on the [public Galaxy server at Institu
 * [Video tutorial](https://youtu.be/HyQCUWmgx84)
 * [public Galaxy server at Institut Curie](https://galaxy-public.curie.fr/)
 
-[CategoryTrainingResource](/src/category-training-resource/index.md)

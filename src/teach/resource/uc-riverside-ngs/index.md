@@ -46,4 +46,3 @@ Datasets are linked to from the examples.  Datasets are large enough that you ma
     * [exercises](http://biocluster.ucr.edu/~nkatiyar/Galaxy_workshop/Exercises/Galaxy_workshop_exercises_2013.pdf)
     * [manual](http://manuals.bioinformatics.ucr.edu/home/gui-ngs-analysis)
 
-[CategoryTrainingResource](/src/category-training-resource/index.md)

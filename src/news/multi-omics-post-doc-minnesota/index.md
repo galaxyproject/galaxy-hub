@@ -14,4 +14,3 @@ Interested applicants can apply directly to [Dr. Tim Griffin](mailto:tgriffin@um
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-07-22</div>
 
-[CategoryNews](/src/category-news/index.md)

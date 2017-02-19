@@ -35,4 +35,3 @@ We hope you will like the change and look forward to any feedback you may have.
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-04-23</div>
 
-[CategoryNews](/src/category-news/index.md)

@@ -26,4 +26,3 @@ From [2015/03: Installing ANNOVAR in Galaxy](http://galacticengineer.blogspot.co
 * [2015/03: Installing ANNOVAR in Galaxy](http://galacticengineer.blogspot.co.uk/2015/03/installing-annovar-in-galaxy.html)
 * [Galactic Engineer Blog](http://galacticengineer.blogspot.co.uk/)
 
-[CategoryLog](/src/category-log/index.md)

@@ -8,4 +8,3 @@
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-09-13</div>
 
-[CategoryNews](/src/category-news/index.md)

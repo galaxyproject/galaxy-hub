@@ -28,4 +28,3 @@ This is still a work in progress and doesn't support all genomes.
 
 * [Script](https://github.com/chapmanb/cloudbiolinux/blob/master/cloudbio/biodata/galaxy.py)
 
-[CategoryLog](/src/category-log/index.md)

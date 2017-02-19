@@ -43,4 +43,3 @@ Thanks,<br />
 [Dave Clements](/src/people/dave-clements/index.md)
 
 
-CategoryNews

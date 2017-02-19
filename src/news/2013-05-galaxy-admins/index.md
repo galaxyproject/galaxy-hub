@@ -40,4 +40,3 @@ We use the [Blackboard Collaborate Web Conferencing system](/src/community/galax
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-05-08</div>
 
-[CategoryNews](/src/category-news/index.md)

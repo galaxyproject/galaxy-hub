@@ -21,4 +21,3 @@ The **[September Galactic News](/src/galaxy-updates/2015-09/index.md)** is hot o
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-09-01 </div>
 
-[CategoryNews](/src/category-news/index.md)

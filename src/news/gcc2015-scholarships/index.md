@@ -24,4 +24,3 @@ Please do let us know if you have any questions, and we hope to see you at [GCC2
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-04-21</div>
 
-[CategoryNews](/src/category-news/index.md)

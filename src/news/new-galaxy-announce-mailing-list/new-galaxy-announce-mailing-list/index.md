@@ -19,4 +19,3 @@ See [/MailingLists](/MailingLists) for more information on this and other Galaxy
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
-CategoryNews

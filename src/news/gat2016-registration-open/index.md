@@ -36,4 +36,3 @@ The [Galaxy Team](/src/galaxy-team/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-08-23</div>
 
-[CategoryNews](/src/category-news/index.md)

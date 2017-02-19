@@ -33,4 +33,3 @@ Input datasets are pulled from UCSC, at runtime.  They can also be extracted fro
 * [Galaxy 101](https://usegalaxy.org/galaxy101)
 * Slides showing the Galaxy 101 operations graphically, and taking the exercise a few steps further.
 
-[CategoryTrainingResource](/src/category-training-resource/index.md)

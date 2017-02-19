@@ -12,4 +12,3 @@ If you are on LinkedIn, please consider [joining the group](http://bit.ly/gxyLin
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-03-18</div>
 
-[CategoryNews](/src/category-news/index.md)

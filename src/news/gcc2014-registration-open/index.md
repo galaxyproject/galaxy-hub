@@ -24,4 +24,3 @@ The [GCC2014 Organizing Committee](/src/events/gcc2014/organizers/index.md)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-02-14</div>
 
-[CategoryNews](/src/category-news/index.md)

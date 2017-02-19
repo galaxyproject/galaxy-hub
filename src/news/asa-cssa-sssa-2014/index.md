@@ -36,4 +36,3 @@ Dave C
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-09-03 </div>
 
-[CategoryNews](/src/category-news/index.md)

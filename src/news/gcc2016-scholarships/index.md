@@ -25,4 +25,3 @@ If you are submitting a poster or demo, please do so *before* submitting an [app
 Galaxy Community Fund Board
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-02-18</div>
 
-[CategoryNews](/src/category-news/index.md)

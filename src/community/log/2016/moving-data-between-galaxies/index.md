@@ -22,4 +22,3 @@ This [howto guide](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-da
 
 * [Howto guide](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/)
 
-[CategoryLog](/src/category-log/index.md)

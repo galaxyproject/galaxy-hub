@@ -24,4 +24,3 @@ For more information please see the [workshop page](https://goo.gl/8dNSdy).
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-03-17</div>
 
-[CategoryNews](/src/category-news/index.md)

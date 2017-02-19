@@ -12,4 +12,3 @@ As always, please let me, or [any of us](/src/galaxy-team/index.md), know if you
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-01-25</div>
 
-[CategoryNews](/src/category-news/index.md)

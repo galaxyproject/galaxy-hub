@@ -18,4 +18,3 @@ Thanks,
 -- DaveClements
 
 
-CategoryNews

@@ -15,4 +15,3 @@ Cheers,
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-04-09</div>
 
-[CategoryNews](/src/category-news/index.md)

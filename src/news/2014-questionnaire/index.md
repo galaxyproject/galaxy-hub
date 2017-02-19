@@ -17,4 +17,3 @@ Let your voice be heard!
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-09-30</div>
 
-[CategoryNews](/src/category-news/index.md)

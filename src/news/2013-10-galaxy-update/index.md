@@ -18,4 +18,3 @@ If you have anything you would like to see in the next *[Galaxy Update](/src/gal
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-09-30 </div>
 
-[CategoryNews](/src/category-news/index.md)

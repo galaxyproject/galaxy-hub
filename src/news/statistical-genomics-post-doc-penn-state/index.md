@@ -11,4 +11,3 @@ The starting date is flexible, with an earlier date preferred. This position is 
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-09-09</div>
 
-[CategoryNews](/src/category-news/index.md)

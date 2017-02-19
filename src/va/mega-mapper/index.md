@@ -35,4 +35,3 @@ Email: megamapper&#64;gmail&#46;com
 
 * [MegaMapper](https://wiki.med.harvard.edu/SysBio/Megason/MegaMapper)
 
-[CategoryVirtualAppliance](/src/category-virtual-appliance/index.md)

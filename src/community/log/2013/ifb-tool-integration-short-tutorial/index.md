@@ -21,4 +21,3 @@ The [Institut Français de Bioinformatique](http://www.renabi.fr/) [Galaxy worki
 * [Galaxy working group](http://www.ifb-galaxy.org/)
 * [Institut Français de Bioinformatique](http://www.renabi.fr/) 
 
-[CategoryLog](/src/category-log/index.md)

@@ -20,4 +20,3 @@ Topics will then be selected and scheduled based on topic interest, and the orga
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-12-09</div>
 
-[CategoryNews](/src/category-news/index.md)

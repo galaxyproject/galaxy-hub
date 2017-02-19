@@ -30,4 +30,3 @@ Video is in French.
 
 * [Video  tutorial](https://youtu.be/qgiH4h52HYc)
 
-[CategoryTrainingResource](/src/category-training-resource/index.md)

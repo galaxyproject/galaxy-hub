@@ -22,4 +22,3 @@ Thanks a bunch, and please let us know if you have any questions.
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-12-04</div>
 
-[CategoryNews](/src/category-news/index.md)

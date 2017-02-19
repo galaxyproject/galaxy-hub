@@ -20,4 +20,3 @@ The [Galaxy Community Log Board](/src/community/logs/index.md) describes how thi
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-12-06</div>
 
-[CategoryNews](/src/category-news/index.md)

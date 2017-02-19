@@ -26,4 +26,3 @@ Happy September,
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-08-29 </div>
 
-[CategoryNews](/src/category-news/index.md)

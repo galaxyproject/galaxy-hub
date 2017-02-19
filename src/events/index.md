@@ -11,6 +11,7 @@ Events with Galaxy-related content are listed here.
 <div class='left'>
 <a href='http://bit.ly/gxycal'><img src="/src/images/logos/GalxyEventsCalThumb.png" alt="Galaxy Events Calendar" width="100" /></a><br />
 <a href='http://bit.ly/gxyothercal'><img src="/src/images/logos/GalxyOtherEventsCalThumb.png" alt="Galaxy Other Events Calendar" width="100" /></a>
+<a href='http://migale.jouy.inra.fr/?q=formations'><img src="/src/images/logos/MIGALELogo.png" alt='Le cycle "Bioinformatique par la pratique" 2017' height="50" /></a> 
 </div>
 
 The events listed here are also available in the *[Galaxy Events Google Calendar](http://bit.ly/gxycal)*.  The *[Galaxy Other Events Google Calendar](http://bit.ly/gxyothercal)* lists additional events that are relevant to the Galaxy Community, but that are not known to feature significant Galaxy content. 
@@ -22,7 +23,6 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
 ## Upcoming Events
 
 <div class='center'>
-<a href='http://www.denbi.de/22-training-cat/training-courses/213-3rd-galaxy-high-throughput-sequencing-hts-data-analysis-workshop'><img src="/src/images/logos/deNBILogo.png" alt="Galaxy Workshop on HTS data analysis for Scientists" height="50" /></a> &nbsp;
 <a href="http://www.qfab.org/training/"><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80"></a> &nbsp;
 <a href='http://training.csx.cam.ac.uk/bioinformatics/event/2000038'> <img src="/images/logos/UniCambridgeLogoWide.png" alt="Introduction to Galaxy: Data Manipulation and Visualisation" height="50" /></a>
 </div>
@@ -35,18 +35,6 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> Topic/Event </th>
     <th> Venue/Location </th>
     <th> Contact </th>
-  </tr>
-  <tr>
-    <th> February 13-17 </th>
-    <td> <em><a href='http://www.denbi.de/22-training-cat/training-courses/213-3rd-galaxy-high-throughput-sequencing-hts-data-analysis-workshop'>Galaxy Workshop on HTS data analysis for Scientists</a></em> </td>
-    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Freiburg, Germany </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='mailto:erxleben@informatik.uni-freiburg.de'>Organisers</a> </td>
-  </tr>
-  <tr>
-    <th> February 13-17 </th>
-    <td> <em><a href='https://www.ebi.ac.uk/training/events/2017/embo-practical-course-metabolomics-bioinformatics-life-scientists-3'>Using Galaxy workflows for metabolomics</a></em> </td>
-    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> <a href="https://www.ebi.ac.uk/training/events/2017/embo-practical-course-metabolomics-bioinformatics-life-scientists-3">EMBO Practical Course on Metabolomics Bioinformatics for Life Scientists</a> Hinxton, United Kingdom </td>
-    <td> Etienne Thevenot </td>
   </tr>
   <tr>
     <th> February 20 </th>
@@ -189,8 +177,17 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
   <tr>
     <th> July 2-6 </th>
     <td> <em><a href='http://www.smbe2017.org/symposia/'>Computation and reproducibility in molecular evolution</a></em> </td>
-    <td> <img src="/src/images/icons/NorthAmerica40.png" alt="NorthAmerica" align="right" /> <a href="http://www.smbe2017.org/">SMBE 2017</a>, Austin, Texas, United States </td>
-    <td> <a href='/src/teach/trainers/index.md'> <a href="/src/people/anton/index.md">Anton Nekrutenko</a>, Sergei Kosakovsky Pond </td>
+    <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> <a href="http://www.smbe2017.org/">SMBE 2017</a>, Austin, Texas, United States </td>
+    <td> <a href="/src/people/anton/index.md">Anton Nekrutenko</a>, Sergei Kosakovsky Pond </td>
+  </tr>
+  <tr>
+    <td colspan=4 style=" background-color: #eef;"> </td>
+  </tr>
+  <tr>
+    <th> September 1 </th>
+    <td> <em><a href='http://www.earlham.ac.uk/sites/default/files/docs/Events/Science/Genome%2010K%20Genome%20Science%202017/g10kgs-program2.pdf#page=4'>Introduction to Galaxy</a></em> </td>
+    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> <a href="http://www.earlham.ac.uk/genome-10k-and-genome-science">Genome Science & Genome 10k</a>, Earlham Institute, Norwich, United Kingdom </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> </td>
   </tr>
 </table>
 
@@ -228,6 +225,7 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
 <a href="http://www.kogo.or.kr/Conference/ConferenceView.asp?AC=2&CODE=CI20161201"><img src='/src/images/logos/kogo-logo.png' alt="13th KOGO Winter Symposium: Galaxy to Genomics using NGS data"  height="50"/></a>
 <a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Feb17.html'><img src="/src/images/logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="90" /></a>
 <a href='/src/community/galaxy-admins/meetups/2017-02-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="16 February GalaxyAdmins Web Meetup: CloudLaunch" height="56" /></a> &nbsp;
+<a href='http://www.denbi.de/22-training-cat/training-courses/213-3rd-galaxy-high-throughput-sequencing-hts-data-analysis-workshop'><img src="/src/images/logos/deNBILogo.png" alt="Galaxy Workshop on HTS data analysis for Scientists" height="50" /></a> &nbsp;
 </div>
 
 <br />
@@ -239,6 +237,20 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> Venue/Location </th>
     <th> Contact </th>
     <th> Links </th>
+  </tr>
+  <tr>
+    <th> February 13-17 </th>
+    <td> <em><a href='http://www.denbi.de/22-training-cat/training-courses/213-3rd-galaxy-high-throughput-sequencing-hts-data-analysis-workshop'>Galaxy Workshop on HTS data analysis for Scientists</a></em> </td>
+    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Freiburg, Germany </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='mailto:erxleben@informatik.uni-freiburg.de'>Organisers</a> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th> February 13-17 </th>
+    <td> <em><a href='https://www.ebi.ac.uk/training/events/2017/embo-practical-course-metabolomics-bioinformatics-life-scientists-3'>Using Galaxy workflows for metabolomics</a></em> </td>
+    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> <a href="https://www.ebi.ac.uk/training/events/2017/embo-practical-course-metabolomics-bioinformatics-life-scientists-3">EMBO Practical Course on Metabolomics Bioinformatics for Life Scientists</a> Hinxton, United Kingdom </td>
+    <td> Etienne Thevenot </td>
+    <td> </td>
   </tr>
   <tr>
     <th> February 16 </th>

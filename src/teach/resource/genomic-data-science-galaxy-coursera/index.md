@@ -28,4 +28,3 @@ Links to any useful datasets or information.
 
 
 
-[CategoryTrainingResource](/src/category-training-resource/index.md)

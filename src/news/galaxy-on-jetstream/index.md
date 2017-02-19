@@ -20,4 +20,3 @@ More documentation about the process can be found on Galaxy’s wiki: https://wi
 
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-04-07</div>
-[CategoryNews](/src/category-news/index.md)

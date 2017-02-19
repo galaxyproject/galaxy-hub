@@ -17,4 +17,3 @@ The details of how to do this are [documented at GitHub](https://github.com/chap
 
 * [GitHub page](https://github.com/chapmanb/cloudbiolinux/blob/master/deploy/cloudman.md)
 
-[CategoryLog](/src/category-log/index.md)

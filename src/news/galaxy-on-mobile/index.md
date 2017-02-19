@@ -17,4 +17,3 @@ Galaxy Portal is provided free of charge.
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-02-02</div>
 
-[CategoryNews](/src/category-news/index.md)

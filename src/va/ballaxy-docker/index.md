@@ -30,4 +30,3 @@ Implements the same functionality as the [ballaxy](https://ballaxy.bioinf.uni-sb
 * [ballaxy](https://ballaxy.bioinf.uni-sb.de/) [public Galaxy server](/src/public-galaxy-servers/index.md). 
 * "[ballaxy: web services for structural bioinformatics](http://bit.ly/1tu5CTI)," by Hildebrandt, et al., *Bioinformatics* (2014) doi: 10.1093/bioinformatics/btu574
 
-[CategoryVirtualAppliance](/src/category-virtual-appliance/index.md)

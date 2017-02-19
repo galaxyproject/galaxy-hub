@@ -22,4 +22,3 @@ The third session contained three lightning talks about global feedback from dif
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-12-17</div>
 
-[CategoryNews](/src/category-news/index.md)

@@ -21,4 +21,3 @@ The **[August Galaxy News](/src/galaxy-updates/2016-08/index.md) is out:**
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-07-29</div>
 
-[CategoryNews](/src/category-news/index.md)

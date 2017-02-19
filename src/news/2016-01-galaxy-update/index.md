@@ -25,4 +25,3 @@ The **[January 2016 Galactic News](/src/galaxy-updates/2016-01/index.md)** is ho
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-01-04 </div>
 
-[CategoryNews](/src/category-news/index.md)
