@@ -58,4 +58,3 @@ And I apologize in advance if I messed up the translation of the [event at DDBJ]
 [Dave Clements](/src/people/dave-clements/index.md)
 
 
-CategoryNews

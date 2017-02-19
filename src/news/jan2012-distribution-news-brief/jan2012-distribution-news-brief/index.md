@@ -26,4 +26,3 @@ upgrade: % hg pull -u -r 63bc46cc73b7
 
 [/Galaxy Team](/Galaxy Team)
 
-CategoryNews

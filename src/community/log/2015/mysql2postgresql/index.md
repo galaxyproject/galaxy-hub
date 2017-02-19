@@ -216,4 +216,3 @@ I am sure there are better and easier ways to do this, but the process worked fo
 
 
 =   =
-[CategoryLog](/src/category-log/index.md)

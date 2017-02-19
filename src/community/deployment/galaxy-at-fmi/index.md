@@ -32,4 +32,3 @@ On top of the general Galaxy tools, we offer NGS and microarray analysis using c
 
 ## Links
 
-[CategoryDeployment](/src/category-deployment/index.md)

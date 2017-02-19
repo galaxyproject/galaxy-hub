@@ -9,4 +9,3 @@ We had several requests for this, and I would like to thank NBIC for making this
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on <<Date(2011-06-11T05:20:39Z)>></div>
 
-CategoryNews

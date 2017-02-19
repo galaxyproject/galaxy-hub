@@ -19,4 +19,3 @@ This workshop also includes contributed talks from participants.  If you have a 
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
-CategoryNews

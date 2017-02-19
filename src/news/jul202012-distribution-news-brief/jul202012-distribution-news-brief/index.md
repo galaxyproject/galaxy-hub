@@ -29,4 +29,3 @@ upgrade: % hg pull -u -r ec29ce8e27a1
 [/Galaxy Team](/Galaxy Team)
 
 
-CategoryNews

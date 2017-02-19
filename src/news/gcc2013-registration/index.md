@@ -21,4 +21,3 @@ PS: And please help [get the word out](/src/events/gcc2013/promotion/index.md)!
 
 
 
-[CategoryNews](/src/category-news/index.md)

@@ -226,4 +226,3 @@ Summary:
 * Core Team: Implement support to make authentication easier and to support more diverse, and multiple, parallel authentication methods.
 * BoF participants will contribute to or create Trello cards for issues raised during this BoF that they care about.
 
-[CategoryBo](/src/CategoryBo/index.md)F

@@ -30,4 +30,3 @@ The **[October Galactic News](/src/galaxy-updates/2015-10/index.md)** is hot off
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-10-01 </div>
 
-[CategoryNews](/src/category-news/index.md)

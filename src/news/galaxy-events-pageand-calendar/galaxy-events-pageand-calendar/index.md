@@ -17,4 +17,3 @@ If you know of events that either have significant Galaxy content, or are of int
 [Dave Clements](/src/people/dave-clements/index.md)
 
 
-CategoryNews

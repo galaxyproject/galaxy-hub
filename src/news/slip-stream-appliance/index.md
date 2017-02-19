@@ -15,4 +15,3 @@ Product Manager, [BioTeam](http://bioteam.net)
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-07-01</div>
 
-[CategoryNews](/src/category-news/index.md)

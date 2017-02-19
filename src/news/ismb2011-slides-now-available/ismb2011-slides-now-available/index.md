@@ -16,4 +16,3 @@ plus many more.
 [Dave Clements](/src/people/dave-clements/index.md)
 
 
-CategoryNews

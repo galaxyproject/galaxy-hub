@@ -27,4 +27,3 @@ Hien LE ([hien.le AT vilmorin DOT info](mailto:hien.le AT vilmorin DOT info))
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-02-01</div>
 
-[CategoryNews](/src/category-news/index.md)

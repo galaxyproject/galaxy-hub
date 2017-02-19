@@ -37,4 +37,3 @@ The home page also contains instructions on how to install and use the instance,
 * [SADI-Galaxy Docker image](https://registry.hub.docker.com/u/mikeleganaaranguren/sadi-galaxy)
 * [OPPL Galaxy](/src/public-galaxy-servers/index.md#oppl-galaxy) instance, which also supports SADI.
 
-[CategoryVirtualAppliance](/src/category-virtual-appliance/index.md)

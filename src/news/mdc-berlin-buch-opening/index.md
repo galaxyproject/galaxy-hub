@@ -17,4 +17,3 @@ Please contact [Altuna Akalin](mailto:altuna.akalin@mdc DASH berlin.de) for furt
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-01-17</div>
 
-[CategoryNews](/src/category-news/index.md)

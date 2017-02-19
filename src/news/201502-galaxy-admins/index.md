@@ -14,4 +14,3 @@ We are looking forward to starting this group again,
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-01-28</div>
 
-[CategoryNews](/src/category-news/index.md)

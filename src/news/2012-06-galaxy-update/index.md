@@ -23,4 +23,3 @@ If you have anything you would like to see in the July *[Galaxy Update](/src/gal
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-06-01</div>
 
-[CategoryNews](/src/category-news/index.md)

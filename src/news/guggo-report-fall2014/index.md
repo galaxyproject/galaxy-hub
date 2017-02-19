@@ -17,4 +17,3 @@ And [many more GUGGO resources](https://www.e-biogenouest.org/groups/guggo/resou
 [Olivier Collin](https://www.e-biogenouest.org/members/1009)
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-10-31</div>
 
-[CategoryNews](/src/category-news/index.md)

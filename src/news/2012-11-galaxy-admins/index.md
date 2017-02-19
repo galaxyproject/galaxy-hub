@@ -36,4 +36,3 @@ Srinivas Maddhi
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-11-05</div>
 
-[CategoryNews](/src/category-news/index.md)

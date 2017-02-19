@@ -51,4 +51,3 @@ title: CSIRO Galaxy Service
 
 ## Links
 
-[CategoryDeployment](/src/category-deployment/index.md)

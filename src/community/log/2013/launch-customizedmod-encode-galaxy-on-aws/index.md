@@ -15,4 +15,3 @@ This [README file at GitHub](https://github.com/modENCODE-DCC/Galaxy/blob/master
 
 ## Links
 
-[CategoryLog](/src/category-log/index.md)

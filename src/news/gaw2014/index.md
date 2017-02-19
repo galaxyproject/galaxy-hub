@@ -43,4 +43,3 @@ Looking forward to seeing you all in Melbourne!
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-01-17</div>
 
-[CategoryNews](/src/category-news/index.md)

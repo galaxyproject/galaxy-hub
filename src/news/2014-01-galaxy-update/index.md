@@ -34,4 +34,3 @@ Best wishes to you and yours for a happy and spectacular 2014,
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-12-31 </div>
 
-[CategoryNews](/src/category-news/index.md)

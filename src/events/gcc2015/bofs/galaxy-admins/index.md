@@ -108,4 +108,3 @@ This BoF will meet on **Tuesday, 7 July at 18:20, in the Franklin Room, at the J
 
 Send them to [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) and [Dave Clements](/src/people/dave-clements/index.md)
 
-[CategoryBo](/src/CategoryBo/index.md)F

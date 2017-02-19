@@ -8,4 +8,3 @@ The hired postdocs can exploit the Galaxy framework to ensure accessibility, int
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-01-06</div>
 
-[CategoryNews](/src/category-news/index.md)

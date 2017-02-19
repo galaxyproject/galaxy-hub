@@ -36,4 +36,3 @@ Enjoy and please let us know what you think,
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-03-19</div>
 
-[CategoryNews](/src/category-news/index.md)

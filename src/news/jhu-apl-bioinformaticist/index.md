@@ -11,4 +11,3 @@ If you are a US citizen with Unix chops, programming experience, analysis skills
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-02-05</div>
 
-[CategoryNews](/src/category-news/index.md)

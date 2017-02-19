@@ -14,4 +14,3 @@ These topics are currently being discussed in [this email thread](/src/this emai
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-04-01</div>
 
-[CategoryNews](/src/category-news/index.md)

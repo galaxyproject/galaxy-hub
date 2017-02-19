@@ -19,4 +19,3 @@ We would like to thank [Wiley](http://wiley.com) for making both of these public
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-06-18</div>
 
-[CategoryNews](/src/category-news/index.md)

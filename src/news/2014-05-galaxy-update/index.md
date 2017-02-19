@@ -21,4 +21,3 @@ As always, there are [new papers](/src/galaxy-updates/2014-05/index.md#new-paper
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-04-30</div>
 
-[CategoryNews](/src/category-news/index.md)

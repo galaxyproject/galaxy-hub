@@ -40,4 +40,3 @@ Thanks to everyone who participated!
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-04-07</div>
 
-[CategoryNews](/src/category-news/index.md)

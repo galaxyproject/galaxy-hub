@@ -29,4 +29,3 @@ A [collection of training material](https://github.com/bgruening/training-materi
 
 * [Training material](https://github.com/bgruening/training-material)
 
-[CategoryTrainingResource](/src/category-training-resource/index.md)

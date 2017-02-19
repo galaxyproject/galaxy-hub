@@ -13,4 +13,3 @@ See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGE
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-03-24 </div>
 
-[CategoryNews](/src/category-news/index.md)

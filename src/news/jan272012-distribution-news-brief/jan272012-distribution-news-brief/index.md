@@ -31,4 +31,3 @@ upgrade: % hg pull -u -r 26920e20157f
 
 
 
-CategoryNews

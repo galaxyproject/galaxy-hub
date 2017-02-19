@@ -15,4 +15,3 @@ The [workflow-to-galaxy Ruby Gem](http://rubygems.org/gems/workflow-to-galaxy) d
 
 ## Links
 
-[CategoryLog](/src/category-log/index.md)

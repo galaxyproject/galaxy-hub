@@ -25,4 +25,3 @@ And, [other news](/src/galaxy-updates/2015-06/index.md#other-news) as well.
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-05-31 </div>
 
-[CategoryNews](/src/category-news/index.md)

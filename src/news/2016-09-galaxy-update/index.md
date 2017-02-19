@@ -25,4 +25,3 @@ The **[September Galaxy News](/src/galaxy-updates/2016-09/index.md) is out:**
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-09-06</div>
 
-[CategoryNews](/src/category-news/index.md)

@@ -63,4 +63,3 @@ Multiple security vulnerabilities were recently discovered in the Tool Shed that
 </div></div>
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-02-24</div>
 
-[CategoryNews](/src/category-news/index.md)

@@ -50,4 +50,3 @@ Please contact [Bjoern Gruening](/src/people/bjoern-gruening/index.md) for furth
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-10-30</div>
 
-[CategoryNews](/src/category-news/index.md)

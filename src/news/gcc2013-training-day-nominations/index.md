@@ -15,4 +15,3 @@ Topic nomination closes 11 January.
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-12-03</div>
 
-[CategoryNews](/src/category-news/index.md)

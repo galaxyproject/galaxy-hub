@@ -43,4 +43,3 @@ While [no quotas](/src/main/index.md#quotas) are currently implemented at the pu
 If you find that you require additional resources, please consider alternative Galaxy options explained at [/Big Picture/Choices](/Big Picture/Choices).
 
 
-CategoryNews

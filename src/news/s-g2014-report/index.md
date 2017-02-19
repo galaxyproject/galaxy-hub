@@ -16,4 +16,3 @@ Running the event at two different places caused some logistical problems - some
 [Björn](/src/people/bjoern-gruening/index.md) and [Hans-Rudolf](/src/people/hansrudolf-hotz/index.md)
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-10-21</div>
 
-[CategoryNews](/src/category-news/index.md)

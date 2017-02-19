@@ -73,4 +73,3 @@ There are storage quotas.
 * [GenoToul Bioinfo](http://bioinfo.genotoul.fr/)
 * [INRA Toulouse](http://www.toulouse.inra.fr/)
 
-[CategoryDeployment](/src/category-deployment/index.md)

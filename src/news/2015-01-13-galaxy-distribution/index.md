@@ -50,4 +50,3 @@ In Galaxy's development branch, the basic tool from has been [redesigned and mod
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-01-13</div>
 
-[CategoryNews](/src/category-news/index.md)

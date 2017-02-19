@@ -37,4 +37,3 @@ We hope you all will enjoy the outcome of this Codefest and hope to see you at o
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-09-29</div>
 
-[CategoryNews](/src/category-news/index.md)

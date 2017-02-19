@@ -22,4 +22,3 @@ A lot is happening in in the Galaxy in November, and a lot of good stuff happene
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-11-03 </div>
 
-[CategoryNews](/src/category-news/index.md)

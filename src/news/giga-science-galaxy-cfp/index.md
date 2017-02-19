@@ -17,4 +17,3 @@ Executive Editor<br />
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-04-04</div>
 
-[CategoryNews](/src/category-news/index.md)

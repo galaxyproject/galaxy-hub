@@ -27,4 +27,3 @@ We hope to see you in Freiburg, Salt Lake, Melbourne, online, and around the wor
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-10-03</div>
 
-[CategoryNews](/src/category-news/index.md)

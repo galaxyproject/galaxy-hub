@@ -35,4 +35,3 @@ upgrade:   $ hg pull
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-02-10</div>
 
-[CategoryNews](/src/category-news/index.md)

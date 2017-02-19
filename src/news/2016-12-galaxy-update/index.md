@@ -20,4 +20,3 @@ There are also 60 new publications (including eight featured pubs), four open po
 
 Dave Clements and the Galaxy Team
 
-[CategoryNews](/src/category-news/index.md)

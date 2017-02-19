@@ -24,4 +24,3 @@ Any new cluster will automatically start using this version of CloudMan. Existin
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-06-13</div>
 
-[CategoryNews](/src/category-news/index.md)

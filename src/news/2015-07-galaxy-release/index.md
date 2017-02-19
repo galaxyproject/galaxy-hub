@@ -15,4 +15,3 @@
 *Thanks for using Galaxy!* <br />
 [The Galaxy Team](/src/galaxy-team/index.md)
 
-[CategoryNews](/src/category-news/index.md)

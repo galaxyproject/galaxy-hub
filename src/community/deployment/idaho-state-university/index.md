@@ -66,4 +66,3 @@ None as this moment.
 
 ## Links
 
-[CategoryDeployment](/src/category-deployment/index.md)

@@ -252,4 +252,3 @@ The mapping and transcript reconstruction steps of the reference-based RNA-seq a
 * Visualization of NGS data
 
 ----
-[CategoryTrainingResource](/src/category-training-resource/index.md) CategoryTrainingResource

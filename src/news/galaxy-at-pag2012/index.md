@@ -13,4 +13,3 @@ Hope to see you in San Diego,
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on <<Date(2012-01-06T23:40:04Z)>></div>
 
-CategoryNews

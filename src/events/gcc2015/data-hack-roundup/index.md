@@ -42,4 +42,3 @@ If you are interested, please add your name below and/or send an email to [Karen
 
 Send them to [Karen Reddy](mailto:kreddy4@jhmi.edu).
 
-[CategoryBo](/src/CategoryBo/index.md)F

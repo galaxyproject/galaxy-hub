@@ -10,4 +10,3 @@ The salary is good and there are good future career opportunities. Further detai
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-02-01</div>
 
-[CategoryNews](/src/category-news/index.md)

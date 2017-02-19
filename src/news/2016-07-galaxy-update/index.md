@@ -34,4 +34,3 @@ Hope to [see you in Montpellier](/src/galaxy-updates/2016-07/index.md#gcc2017-26
 
 <div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-07-06</div>
 
-[CategoryNews](/src/category-news/index.md)

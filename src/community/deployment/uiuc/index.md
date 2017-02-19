@@ -61,4 +61,3 @@ Local tool shed.
 
 ## Links
 
-[CategoryDeployment](/src/category-deployment/index.md)
