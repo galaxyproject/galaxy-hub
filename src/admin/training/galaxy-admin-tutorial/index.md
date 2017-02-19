@@ -1,6 +1,6 @@
 # Galaxy Tutorial
 
-See the [Galaxy Tutorial page](http://gmod.org/wiki/Galaxy Tutorial) at the [http://gmod.org/wiki/GMOD web site](http://gmod.org/wiki/GMOD web site) for the most recent version of this tutorial.
+See the [Galaxy Tutorial page](http://gmod.org/wiki/Galaxy Tutorial) at the [GMOD web site](http://gmod.org/wiki/) for the most recent version of this tutorial.
 
 # Other Links
 
@@ -11,5 +11,5 @@ See the [Galaxy Tutorial page](http://gmod.org/wiki/Galaxy Tutorial) at the [htt
 * [You can customize what external applications are available for displaying datasets](/src/admin/tools/External Display Applications Tutorial/index.md)
 * [You can customize the datatypes for a Galaxy instance](/src/admin/datatypes/Adding Datatypes/index.md)
 * [You can instantiate Galaxy on the cloud using CloudMan](/src/cloudman/index.md)
-* [You can find even more at the Galaxy wiki](/src/front-page/index.md)
+* [You can find even more at the Galaxy Hub](/src/index.md)
 

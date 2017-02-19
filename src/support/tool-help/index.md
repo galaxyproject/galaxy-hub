@@ -32,7 +32,7 @@ Our [Custom Tools](/src/support/index.md#custom_searches) will locate help acros
 <a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/logos/UseGalaxySearch.png" alt="Using Galaxy Web Search" width="170" /></a>
 <br />
 <br />
-Thank you for your for *Using Galaxy!* [Accessibility is our mission](/src/front-page/index.md) and we hope these resources help to further *everyone's* research goals.
+Thank you for your for *Using Galaxy!* [Accessibility is our mission](/src/index.md) and we hope these resources help to further *everyone's* research goals.
 <br />
 <br />
 [Galaxy team](https://wiki.galaxyproject.org/GalaxyTeam)
