@@ -9,7 +9,6 @@ be valid.
 
 
 If you could please report this on
-[https://github.com/galaxyproject/galaxy-hub/issues](the galaxy hub issue
-tracker), it'd be helpful.
+[the galaxy hub issue tracker](https://github.com/galaxyproject/galaxy-hub/issues), it'd be helpful.
 
 To locate the content you were looking for, please try the search box above.
