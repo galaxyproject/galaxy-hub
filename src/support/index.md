@@ -67,7 +67,7 @@ The Galaxy Project uses [Trello](http://bit.ly/gxytrello) for [issue tracking an
 
 Some researchers use more than one Galaxy server. How to move data between these is **[described here](/Community/Log/2016/MovingDataBetweenGalaxies)**.
 
-This procedure works between any two Galaxy instances, whether using the [Main](/Main) public instance, a [Local](/Admin/GetGalaxy), a [Cloud](/Cloud), and many [Public Galaxy Servers](/PublicGalaxyServers).
+This procedure works between any two Galaxy instances, whether using the [Main](/main) public instance, a [Local](/Admin/GetGalaxy), a [Cloud](/Cloud), and many [Public Galaxy Servers](/PublicGalaxyServers).
 
 ## About Galaxy
 
@@ -101,7 +101,7 @@ The [Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam) is a part of the [Ce
 
 [Galaxy](http://usegalaxy.org) is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Johns Hopkins University](http://www.jhu.edu/).
 
-The [public Main instance](/Main) of Galaxy at [http://usegalaxy.org](http://usegalaxy.org) utilizes infrastructure generously provided by the [iPlant Collaborative](http://www.iplantcollaborative.org/) at the [Texas Advanced Computing Center](https://www.tacc.utexas.edu/), with support from the [National Science Foundation](http://www.nsf.gov/).
+The [public Main instance](/main) of Galaxy at [http://usegalaxy.org](http://usegalaxy.org) utilizes infrastructure generously provided by the [iPlant Collaborative](http://www.iplantcollaborative.org/) at the [Texas Advanced Computing Center](https://www.tacc.utexas.edu/), with support from the [National Science Foundation](http://www.nsf.gov/).
 
 
 
@@ -123,7 +123,7 @@ Galaxy has a simplified tool interface packed with usage details. [Read more...]
 
 
 
-Having your own account on the public **[Test](/Test)** and/or **[Main](/Main)** server means that you can save histories, work with more data, associate an [OpenID](/Learn/OpenID%20Login), and get the most out of Galaxy's functionality. Be sure to note that the public [Test](/Test) and [Main](/Main) instance **usage policies are <span class="red">one account per user<span class="grey"></span></span>**, as stated in our **[Terms and Conditions](https://usegalaxy.org/static/terms.html)**. Also, make sure your email address is valid so that you can confirm your new account (emails are case sensitive) and so that our administrator can contact you if needed (rare, but you'll want the email!). More details **[here](/Support#Dataset_and_History_Guides)**.
+Having your own account on the public **[Test](/Test)** and/or **[Main](/main)** server means that you can save histories, work with more data, associate an [OpenID](/Learn/OpenID%20Login), and get the most out of Galaxy's functionality. Be sure to note that the public [Test](/Test) and [Main](/Main) instance **usage policies are <span class="red">one account per user<span class="grey"></span></span>**, as stated in our **[Terms and Conditions](https://usegalaxy.org/static/terms.html)**. Also, make sure your email address is valid so that you can confirm your new account (emails are case sensitive) and so that our administrator can contact you if needed (rare, but you'll want the email!). More details **[here](/Support#Dataset_and_History_Guides)**.
 
 Watch the **[Accounts on Main](http://vimeo.com/galaxyproject/accounts)** video for a quick how-to and see our **[User Accounts](/Learn/User%20Accounts)** wiki for more help.
 
@@ -284,7 +284,7 @@ Review details about these Galaxy objects, plus Workflows and Visualizations in 
 
     *   Register at any time, even in the middle of an analysis. The current History will be added
     *   Log into your existing account. The current History will be added
-    *   Please follow the [User quotas](/Main) for the Galaxy server in use. For [http://usegalaxy.org](http://usegalaxy.org), this is one account per user.
+    *   Please follow the [User quotas](/main) for the Galaxy server in use. For [http://usegalaxy.org](http://usegalaxy.org), this is one account per user.
 
 ### Example: My History is missing!
 
@@ -304,7 +304,7 @@ Review details about these Galaxy objects, plus Workflows and Visualizations in 
 
 
 
-*   _Account usage showing that quota is exceeded -[over 250 GB](/Main)??_ Find all Histories and Purge those not needed.
+*   _Account usage showing that quota is exceeded -[over 250 GB](/main)??_ Find all Histories and Purge those not needed.
 
 *   **How to find Deleted _but not Permanently Deleted (Purged)_ Histories**
 
@@ -366,11 +366,11 @@ Review details about these Galaxy objects, plus Workflows and Visualizations in 
 
 The Galaxy user interface (UI) has been designed to communicate job execution status through visual cues and concise messages. Learn more about how to identify these cues by [examining what Datasets in different states look like](/Histories#History_Panel_Datasets).
 
-When a tool is executed, one or more new **[datasets](/Learn/Managing%20Datasets)** are added to a history. The same is true when a **workflow** is executed. _If using the public [Main](/Main) Galaxy instance, the most effective strategy when running jobs on the shared resource is to start jobs (or workflows), and then leave them alone to execute until completion._
+When a tool is executed, one or more new **[datasets](/Learn/Managing%20Datasets)** are added to a history. The same is true when a **workflow** is executed. _If using the public [Main](/main) Galaxy instance, the most effective strategy when running jobs on the shared resource is to start jobs (or workflows), and then leave them alone to execute until completion._
 
-When work is urgent during peak-usage times on the public **[Main](/Main)** Galaxy instance, a **[CloudMan](/CloudMan)** instance is a quick-to-implement alternative. For large scale and/or urgent ongoing work, a **[CloudMan](/CloudMan)**, **[Local](/Admin/GetGalaxy)**, or **[SlipStream Galaxy](http://www.bioteam.net/slipstream/galaxy-edition)** each have advantages as a longer-term solution. [Read more ...](/BigPicture/Choices)
+When work is urgent during peak-usage times on the public **[Main](/main)** Galaxy instance, a **[CloudMan](/CloudMan)** instance is a quick-to-implement alternative. For large scale and/or urgent ongoing work, a **[CloudMan](/CloudMan)**, **[Local](/Admin/GetGalaxy)**, or **[SlipStream Galaxy](http://www.bioteam.net/slipstream/galaxy-edition)** each have advantages as a longer-term solution. [Read more ...](/BigPicture/Choices)
 
-_So, how does the processing of tool jobs on **[Main](/Main)** actually work?_
+_So, how does the processing of tool jobs on **[Main](/main)** actually work?_
 
 *   The **color** of a dataset designates the current status of the underlying job.
 
@@ -386,14 +386,14 @@ _So, how does the processing of tool jobs on **[Main](/Main)** actually work?_
 
 
 *   The job is executing. Allow this to complete!
-*   If you are using the public [Main](/Main) Galaxy instance, this job is running on one of our clusters. Different types of tools send jobs to different clusters appropriate for the requirements of each tool. Some tools are more compute intensive than others and significant resources are dedicated to job processing. Jobs have up to 72 hours to complete, if they run longer than this they will fail with a "wall-time" error and turn _red_. Examining tool paramaters is the first option, less sensitive parameters may result in an equally acceptable result, but use less resource. If that is not appropriate or does not succeed, a [CloudMan Galaxy](/CloudMan) or [Local Galaxy](/Admin/GetGalaxy) with sufficient resources may be the solution.
+*   If you are using the public [Main](/main) Galaxy instance, this job is running on one of our clusters. Different types of tools send jobs to different clusters appropriate for the requirements of each tool. Some tools are more compute intensive than others and significant resources are dedicated to job processing. Jobs have up to 72 hours to complete, if they run longer than this they will fail with a "wall-time" error and turn _red_. Examining tool paramaters is the first option, less sensitive parameters may result in an equally acceptable result, but use less resource. If that is not appropriate or does not succeed, a [CloudMan Galaxy](/CloudMan) or [Local Galaxy](/Admin/GetGalaxy) with sufficient resources may be the solution.
 
 ### Grey
 
 
 
 *   The job is being evaluated to run (new dataset) or is queued. Allow this to complete.
-*   If you are using the public [Main](/Main) Galaxy instance, this job is queued, waiting for an opening on the appropriate cluster. **It is _very important_ to allow queued jobs to remain queued, and to not delete/re-run them**. If re-run, this not only moves the new job back to the end of the queue, effectively lengthening the wait time to execute, but if done repeatedly, the volume of "executing deleted" jobs can create additional work processes in the history as these are cleared away, using up resources, and can cause additional delays.
+*   If you are using the public [Main](/main) Galaxy instance, this job is queued, waiting for an opening on the appropriate cluster. **It is _very important_ to allow queued jobs to remain queued, and to not delete/re-run them**. If re-run, this not only moves the new job back to the end of the queue, effectively lengthening the wait time to execute, but if done repeatedly, the volume of "executing deleted" jobs can create additional work processes in the history as these are cleared away, using up resources, and can cause additional delays.
 
 ### Red
 
@@ -407,10 +407,10 @@ _So, how does the processing of tool jobs on **[Main](/Main)** actually work?_
 
 
 *   The job is paused.
-*   This indicates either an input has a problem or that you have [exceeded disk quota](/Main#User_Account_Quotas) set by the administrator of the Galaxy instance you are working on.
+*   This indicates either an input has a problem or that you have [exceeded disk quota](/main#User_Account_Quotas) set by the administrator of the Galaxy instance you are working on.
 
 *   If there is an input problem, correct the problem (often by re-run an upstream job) and click on the tool form option to "resume dependencies". You will not need to stop or restart downstream jobs in most cases (permit paused jobs to start, as inputs datasets become available, through this method).
-*   If you need to make room, [permanently delete unneeded data](/Learn/ManagingDatasets#Delete_vs_Delete_Permanently). If you are using the public [Main](/Main) Galaxy instance, disk quotas are defined [here](/Main). You will not need to delete/re-run jobs while doing this, unless you are filtering your work to prevent exceeding quota again (only purging, not restarting at this time). Instead, restart using the History menu option "Resume Paused Jobs".
+*   If you need to make room, [permanently delete unneeded data](/Learn/ManagingDatasets#Delete_vs_Delete_Permanently). If you are using the public [Main](/main) Galaxy instance, disk quotas are defined [here](/Main). You will not need to delete/re-run jobs while doing this, unless you are filtering your work to prevent exceeding quota again (only purging, not restarting at this time). Instead, restart using the History menu option "Resume Paused Jobs".
 
 ### Grey, Yellow, Grey again ???
 
@@ -424,7 +424,7 @@ _So, how does the processing of tool jobs on **[Main](/Main)** actually work?_
 *   Stopping (deleting) the job and then restarting places it back at the end of the first queue, where the cycle will begin again, extending wait time even further. Please do not do this. Allow the job to process.
 *   If the job fails after running on Stampede, then it is too large to run on [http://usegalaxy.org](http://usegalaxy.org), also known as "Main". [Choose](/BigPicture/Choices) another strategy to execute your job on a different Galaxy platform or consider modifying inputs/parameters to make the job [less compute intensive](/Support#Job_failure_reason_.22ran_longer_than_the_maximum_allowed_job_run_time.22).
 
-*   Read more about the details of different clusters on the **[Main](/Main)** wiki.
+*   Read more about the details of different clusters on the **[Main](/main)** wiki.
 
 ### Bright blue with moving arrow (deprecated)
 
@@ -560,7 +560,7 @@ Often memory errors can be avoided by the user executing the job:
 
 *   In some cases, reporting the memory issue to our team through the "green bug" icon from a dataset is a good way to let us know about tools that run out of memory resource. With the expectation that we cannot probably not solve your issue directly, but cumulative feedback helps us to learn which tools would benefit from additional resource allocation.
 
-If the job remains too large to run on the public [Main](/Main) Galaxy instance at [http://usegalaxy.org](http://usegalaxy.org), then moving to an instance where more memory can be allocated to jobs is the solution. A good choice is [CloudMan](http://usegalaxy.org/cloud) as processing memory is easily scaled up. [AWS in Education](http://aws.amazon.com/grants/) grants can help with costs. Another option is setting up a [local Galaxy](http://getgalaxy.org), if you have a computer/server with enough processing memory (16 GB minimum, but more is likely needed if the jobs are large, possibly up to 64 GB).
+If the job remains too large to run on the public [Main](/main) Galaxy instance at [http://usegalaxy.org](http://usegalaxy.org), then moving to an instance where more memory can be allocated to jobs is the solution. A good choice is [CloudMan](http://usegalaxy.org/cloud) as processing memory is easily scaled up. [AWS in Education](http://aws.amazon.com/grants/) grants can help with costs. Another option is setting up a [local Galaxy](http://getgalaxy.org), if you have a computer/server with enough processing memory (16 GB minimum, but more is likely needed if the jobs are large, possibly up to 64 GB).
 
 ### Job failure reason: execution exceeds maximum allowed job run time (walltime)
 
@@ -574,17 +574,17 @@ Please click the bug icon to report this problem if you need help.</pre>
 
 
 
-The error indicates that the job execution time exceeded the "wall-time" on the cluster node that ran the job. "Wall-time" is the maximum amount of time any job has to complete before it is terminated. When using the public [Main](/Main) Galaxy instance at [http://usegalaxy.org](http://usegalaxy.org), see the walltime available [here](/Main#Beta:_Job_execution_on_Stampede).
+The error indicates that the job execution time exceeded the "wall-time" on the cluster node that ran the job. "Wall-time" is the maximum amount of time any job has to complete before it is terminated. When using the public [Main](/main) Galaxy instance at [http://usegalaxy.org](http://usegalaxy.org), see the walltime available [here](/Main#Beta:_Job_execution_on_Stampede).
 
-Sometimes the execution time of a job can be shorted by adjusting the inputs, parameters used, or the cluster used (try **[Stampede or Jetstream](/Main)**, if available for the tool form under the section **Job Resource Parameters**). This solution is similar to jobs that error [because they exceed memory allocation](https://wiki.galaxyproject.org/Support#Job_failure_reason_.22used_more_memory_than_it_was_allocated.22).
+Sometimes the execution time of a job can be shorted by adjusting the inputs, parameters used, or the cluster used (try **[Stampede or Jetstream](/main)**, if available for the tool form under the section **Job Resource Parameters**). This solution is similar to jobs that error [because they exceed memory allocation](https://wiki.galaxyproject.org/Support#Job_failure_reason_.22used_more_memory_than_it_was_allocated.22).
 
 
 *   If the tool used was one that compares two dataset, change the order of the inputs, and test with a re-run. Some tools consume less memory when the larger dataset is entered as the first input on the tool form.
 *   Also see the troubleshooting help [here](/Support#Error_from_tools).
 
-*   Give the longer-running cluster a try, see the **[Main](/Main)** wiki's section about Stampede (Jetstream is also a choice).
+*   Give the longer-running cluster a try, see the **[Main](/main)** wiki's section about Stampede (Jetstream is also a choice).
 
-If the job remains too large to run on the public [Main](/Main) Galaxy instance at [http://usegalaxy.org](http://usegalaxy.org), then moving to an instance where more resource can be allocated for jobs is the solution. A good choice is [CloudMan](http://usegalaxy.org/cloud). [AWS in Education](http://aws.amazon.com/grants/) grants can help with costs.
+If the job remains too large to run on the public [Main](/main) Galaxy instance at [http://usegalaxy.org](http://usegalaxy.org), then moving to an instance where more resource can be allocated for jobs is the solution. A good choice is [CloudMan](http://usegalaxy.org/cloud). [AWS in Education](http://aws.amazon.com/grants/) grants can help with costs.
 
 ## Tool doesn't recognize dataset
 
@@ -643,7 +643,7 @@ Using the _**same exact reference genome**_ for all steps in an analysis is ofte
     *   A quick way to check for this issue is to compare the chromosome identifiers in the input datasets to each other and to the reference genome used (or intended to be used).
     *   Even small differences in identifiers can cause tools to fail, produce warnings, or create incomplete results. This is the second most common cause of usage-related tool failures ([input format problems](/Support#Error_from_tools) are the first).
 
-    *   Using an Ensembl-based chromosome identifier file on Galaxy [Main](/Main) with a locally cached reference genome? Most built-in, native, reference genomes are sourced from [UCSC](http://genome.ucsc.edu) and have UCSC-based identifier names. When using inputs with both versions of identifiers in the same analysis pipeline, there will almost certainly be errors or unexpected results. But, in many cases, inputs from the history can be adjusted to match the cached data, all within Galaxy. [Read more about how...](/Support/ChromIdentifiers)
+    *   Using an Ensembl-based chromosome identifier file on Galaxy [Main](/main) with a locally cached reference genome? Most built-in, native, reference genomes are sourced from [UCSC](http://genome.ucsc.edu) and have UCSC-based identifier names. When using inputs with both versions of identifiers in the same analysis pipeline, there will almost certainly be errors or unexpected results. But, in many cases, inputs from the history can be adjusted to match the cached data, all within Galaxy. [Read more about how...](/Support/ChromIdentifiers)
 
     *   _Why isn't my Ensembl GTF compatible with Cufflinks and how can I use Ensembl GTFs with Cufflinks?_
 
@@ -651,7 +651,7 @@ Using the _**same exact reference genome**_ for all steps in an analysis is ofte
 
             *   Download the .tar file locally, uncompress it, then upload _only_ the .gtf file to Galaxy. Loading .tar archives is not supported and has unpredictable outcomes (sometimes the first file in the archive will load - but this is not the file you need, sometimes only a portion of the first file will load - without a warning, and other times an upload error will result: none of these cases should be reported as a bug report/tool error).
 
-            *   For certain genomes, the reference annotation GTF file is available on the public [Main](/Main) Galaxy instance, [http://usegalaxy.org](http://usegalaxy.org), under _Shared Data -> Data Libraries -> iGenomes_.
+            *   For certain genomes, the reference annotation GTF file is available on the public [Main](/main) Galaxy instance, [http://usegalaxy.org](http://usegalaxy.org), under _Shared Data -> Data Libraries -> iGenomes_.
 
         *   Next, if you want to proceed, [confirm that your identifiers are a good candidate](/Support/ChromIdentifiers#Reference_Genome_Contents) for the addition of the "chr" adjustment, then use the workflow available in the [Transcriptome Analaysis FAQ](http://usegalaxy.org/u/jeremy/p/transcriptome-analysis-faq#faq5).
 
@@ -661,9 +661,9 @@ Using the _**same exact reference genome**_ for all steps in an analysis is ofte
 
 *   _When **moving between instances**, what can be done to mitigate the risk of using the wrong assembly?_
 
-    *   When moving between a **Galaxy [CloudMan AMI](/CloudMan) and the public [Main](/Main) Galaxy** instance, just make sure the database name is the same. If the assigned database name is the same, the content of the reference genome is the same.
+    *   When moving between a **Galaxy [CloudMan AMI](/CloudMan) and the public [Main](/main) Galaxy** instance, just make sure the database name is the same. If the assigned database name is the same, the content of the reference genome is the same.
 
-    *   When moving between a **[local Galaxy](/Admin/GetGalaxy) and the public [Main](/Main) Galaxy** instance, there are a few choices:
+    *   When moving between a **[local Galaxy](/Admin/GetGalaxy) and the public [Main](/main) Galaxy** instance, there are a few choices:
 
         *   Consider using our version of commonly used genomes, [available through our rsync server](/Admin/Data%20Integration#Get_the_data)
 
@@ -671,7 +671,7 @@ Using the _**same exact reference genome**_ for all steps in an analysis is ofte
 
         *   When there are differences, use your own genome as a [Custom Reference Genome](/Support#Custom_reference_genome) with tools
 
-    *   When moving between a **[local Galaxy](/Admin/GetGalaxy) and a Galaxy [CloudMan AMI](/CloudMan)**, the same guidelines as above for [Main](/Main) would apply, since [Main](/Main) and the [CloudMan AMI](/CloudMan) are based off of the same content
+    *   When moving between a **[local Galaxy](/Admin/GetGalaxy) and a Galaxy [CloudMan AMI](/CloudMan)**, the same guidelines as above for [Main](/main) would apply, since [Main](/Main) and the [CloudMan AMI](/CloudMan) are based off of the same content
 
 *   _**How do I load a reference genome?**_
 
@@ -695,7 +695,7 @@ Have you been asked to share a history? Or has someone shared a workflow with yo
 
 
 
-*   If running a tool on the [public Galaxy server](/Main) (i.e., [http://usegalaxy.org](http://usegalaxy.org)) is resulting in an error (the dataset is <span class="red">red</span>), and you can't determine the root cause from the error message or input format checks:
+*   If running a tool on the [public Galaxy server](/main) (i.e., [http://usegalaxy.org](http://usegalaxy.org)) is resulting in an error (the dataset is <span class="red">red</span>), and you can't determine the root cause from the error message or input format checks:
 
     *   Re-run the job to eliminate transitory cluster issues.
     *   Report the problem using the dataset's ![bug](/Images/Icons?action=AttachFile&do=get&target=bug.png "bug") icon. Do not submit an error for the first failure, but leave it _**undeleted**_ in your history for reference.
@@ -864,7 +864,7 @@ Still need help not covered by the tool help, the [Learning Hub](/Learn), a [Scr
 
 *   If you have a development topic to discuss, your data/tool situation has not come up before, and/or troubleshooting has failed (including at least one re-run, as explained in [Error from tools](/Support#Error_from_tools) above), post to a list or [Galaxy Biostar](/Support#Biostar)
 
-_**Note:**_ **If your question is about an error on [Main](/Main) for a job failure**, start by reviewing the **troubleshooting help for [Tool Errors](/Support#Error_from_tools)**. If data input and the job error message don't resolve the issue, please use the **[tool error](/Support#Reporting_tool_errors) submission form** from the <span class="red">red</span> error dataset, instead of starting a public mailing list discussion thread (**do not delete error datasets**). [Read more ...](/Support#Error_from_tools)
+_**Note:**_ **If your question is about an error on [Main](/main) for a job failure**, start by reviewing the **troubleshooting help for [Tool Errors](/Support#Error_from_tools)**. If data input and the job error message don't resolve the issue, please use the **[tool error](/Support#Reporting_tool_errors) submission form** from the <span class="red">red</span> error dataset, instead of starting a public mailing list discussion thread (**do not delete error datasets**). [Read more ...](/Support#Error_from_tools)
 
 
 
@@ -872,16 +872,16 @@ _**Note:**_ **If your question is about an error on [Main](/Main) for a job fail
 
 
 
-1.  Where you are using Galaxy: [Main](/Main), other public, local, or cloud instance
+1.  Where you are using Galaxy: [Main](/main), other public, local, or cloud instance
 
 2.  End-user questions from [Test](/Test) are generally not sent/supported - _Test is for breaking_
 
 3.  If a local or cloud instance, the distribution or galaxy-central hg pull #
-4.  If on [Main](/Main), date/time the initial and ru-run jobs were executed
+4.  If on [Main](/main), date/time the initial and ru-run jobs were executed
 
 5.  If there is an example/issue, exact steps to reproduce
 6.  What troubleshooting steps (if a problem is being reported) you have tested out
-7.  If on [Main](/Main), you may be asked for a shared history link. Use _**Options → Share or Publish**_, generate the link, and email it directly back off-list. Note the dataset #'s you have questions about.
+7.  If on [Main](/main), you may be asked for a shared history link. Use _**Options → Share or Publish**_, generate the link, and email it directly back off-list. Note the dataset #'s you have questions about.
 
 8.  **IMPORTANT**: Get the _quickest answer_ for data questions by leaving **all** of the input and output datasets in the analysis thread in your shared history _**undeleted**_ until we have written you back. Use _**Options → Show Deleted Datasets**_ and click dataset links to _**undelete**_ to recover datasets if necessary
 
@@ -909,6 +909,6 @@ _**Note:**_ **If your question is about an error on [Main](/Main) for a job fail
 
 
 
-Bug or [Error from tools](/Support#Error_from_tools)? Sometimes it is hard to tell. If you are on the public [Main](/Main) instance, and ran a tool that produced a <span class="red">red</span> error dataset, then you will probably want to start by reporting this as a [Tool Error](/Support#Reporting_tool_errors), but add in comments about your suspicious about a bug if there is something odd about the job failure.
+Bug or [Error from tools](/Support#Error_from_tools)? Sometimes it is hard to tell. If you are on the public [Main](/main) instance, and ran a tool that produced a <span class="red">red</span> error dataset, then you will probably want to start by reporting this as a [Tool Error](/Support#Reporting_tool_errors), but add in comments about your suspicious about a bug if there is something odd about the job failure.
 
 If you think you've seen a software bug (not an ["Error from tools"](/Support#Error_from_tools) ), please report it. More information about how and where can be found at the [Galaxy Issue Board](/Issues).
