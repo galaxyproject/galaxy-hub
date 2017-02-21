@@ -5,50 +5,55 @@ title: Best Practices for Teaching
 
 # Use the Best Compute Platform
 
-The [Computing Platforms page](/src/teach/computing-platforms/index.md) includes many options, and recommendations, for computing backends to teach Galaxy with.
+The [Computing Platforms page](/src/teach/computing-platforms/index.md) includes options and recommendations for computing backends with which to teach Galaxy.
 
 # Use Galaxy's Built-In Mechanisms
 
-Galaxy itself has several mechanisms that make teaching Galaxy and bioinformatics easier.  Using these capabilities in your training is also a natural way to demonstrate them.
+Galaxy has several mechanisms that make teaching Galaxy and bioinformatics easier. Using these capabilities during a workshop or course is a natural way to demonstrate them.
 
-### Published Histories, Workflows and Visualizations
+## Published histories, workflows, and visualizations
 
-You can pre-populate your teaching Galaxy instance with published histories, workflows, and visualizations that students can refer to for guidance, or even import into their workspace.  Published objects can be easily accessed under the **Shared** tab on all Galaxy instances. 
+Pre-populate teaching Galaxy instances with published histories, workflows, and visualizations that users can refer to for guidance or  import into their workspace. Published objects can be easily accessed under the **Shared** tab on all Galaxy instances. 
 
-### Data Libraries
+## Data libraries
 
-You can avoid training-time dependencies on external resources (that may be down during your training), and swamping your local network by preloading data sets into **Data Libraries** on your training server.  To do this you'll need either admin access to the server, or the cooperation of the server's admin.  
+Avoid training-time dependencies on external resources (that may be down during training) and swamping your local network by pre-loading data into **Data Libraries** on the training server. To do this, you will need either admin access to the server or the cooperation of the server's admin. For more details on how to become a Galaxy admin, check out this [guide](https://new.galaxyproject.org/admin/).
 
-## Content
+## Licensing
 
-### Start with a very specific exercise
+License all materials under CC-BY to makes things much easier.
 
-Consider starting with an exercise where students are told exactly what to do. Then, open it up to give them an opportunity to try things themselves
+# Use Established Training Techniques
 
-### Start with conceptually easier material when covering NGS
+## General best practices
 
-Several trainers start with assembly/mapping because it is conceptually easier for people to understand than starting with something like RNA-Seq.
+Below are a list of best practices that may be helpful for any Galaxy training session.
 
-### Computer scientists
+### Start with a specific exercise
 
-Teach programmers what the biologists are trying to do.  One group does workshops with pairs - one member with a computing background, one from biological/medical.  This pairing also allows biologists to pick up these general computer interaction skills.
+Start with an exercise where users are told exactly what to do. Then, open it up to give users an opportunity to try things for themselves.
 
-Ask Tech savvy people to be teaching assistants.  They may not be familiar with Galaxy or the biology, but they are familiar with computers and are already aware that `cAsE` may matter, for example, or that tabs and spaces are treated very differently.
+### Introduce conceptually simple material when covering NGS
+
+Start with assembly and/or mapping exercises. These concepts are typically easier for new users to understand than, for example, a complex RNA-Seq or ChIP-Seq analysis workflow.
+
+### Let the users be teachers
+
+Structure a course by pairing one user with a computing background and one user with a biological or medical background. This pairing allows biologists to pick up general computer interaction skills and computer scientists to gain an appreciation for the motivation behind a particular analysis.
+
+### Utilize skills of computer scientists
+
+Ask tech- or computer-savvy users to be teaching assistants. They may not be familiar with Galaxy or the biology, but they are familiar with computers and are already aware that `cAsE` may matter, for example, or that tabs and spaces are treated differently.
 
 ### Create online communities
 
-Set up a mailing list / Google Group for every course.  This creates a "micro-SeqAnswers" for a group of people who know each other from a course.  A much less intimidating forum than public boards.
+Set up a mailing list or Google Group for every training session. Establishing a network for users who know each other offers a much less intimidating environment than public boards.
 
-### Licensing
+## Workshop-specific best practices
 
-Having all materials be licensed under CC-BY makes things much easier.
+Below are a list of best practices that may be helpful when doing a workshop where you only have a limited number of hours or days to teach the material, and you are always in the classroom with the users.
 
+## Course-specific best practices
 
-## Workshop Specific Best Practices
-
-Best practices that may be helpful when doing a workshop where you only have a limited number of hours or days to teach the material, and you are always in the classroom with them.
-
-## Course Specific Best Practices
-
-Best practices that may be helpful when teaching an academic course using Galaxy.  In this case, the students may be using Galaxy in a lab and for homework, but there are also contact hours where hands-on exercises are not the focus.
+Below are a list of best practices that may be helpful when teaching an academic course using Galaxy. In this case, users may be using Galaxy in a lab and for homework, but there are also contact hours where hands-on exercises are not the focus.
 
