@@ -12,7 +12,7 @@ Mailing lists play a vital role in the Galaxy community:
 1. They are also a *[searchable treasure trove of knowledge about Galaxy](/src/mailing-lists/index.md#searching)*.  
 1. Finally, they are a great way to learn what is going on in the Galaxy Community.  
 
-## The lists
+# The lists
 
 Galaxy has several active mailing lists, each for a different purpose in the Galaxy community.
 
@@ -77,7 +77,7 @@ Galaxy has several active mailing lists, each for a different purpose in the Gal
 
 <div class='right'><a href='http://galaxyproject.org/search/mailinglists/'><img src="/src/images/logos/GalaxyMailingListSearch.png" alt="Search all" width="150" /></a></div>
 
-## Searching
+# Searching
 
 You can search the lists at any of the archives above.  We recommend [Google Custom Search](http://galaxyproject.org/search/mailinglists/) and [Nabble](http://gmod.827538.n3.nabble.com/Galaxy-f829901.html).
 
@@ -131,7 +131,7 @@ Several other [searches](http://galaxyproject.org/search/) are also supported, i
 [GalaxyProject.org/search](http://galaxyproject.org/search/) has links to all of the above searches.
 
 
-## Subscribing and Unsubscribing
+# Subscribing and Unsubscribing
 
 <div class='right'>![](/src/images/logos/MailmanLogoSmall.png)</div>
 To subscribe or unsubscribe from a list, click the link below and then follow the directions on the list page.  If you are unsubscribing you will need to use the same email address you subscribed with.
@@ -147,7 +147,7 @@ To subscribe or unsubscribe from a list, click the link below and then follow th
 | galaxy-uk         | [subscribe](https://groups.google.com/a/groups.galaxyproject.org/forum/#!forum/galaxy-uk)| [unsubscribe](https://groups.google.com/a/groups.galaxyproject.org/forum/#!forum/galaxy-uk) |
 | galaxy-commits    | [subscribe](https://lists.galaxyproject.org/listinfo/galaxy-commits)| [unsubscribe](https://lists.galaxyproject.org/listinfo/galaxy-commits#subscribers) |
 
-## Posting a Question
+# Posting a Question
 
 If you have a question, first search this wiki, the [FAQs](/src/learn/faq/index.md), and the [mailing list archives](/src/mailing-lists/index.md#searching) to see if your question has already been answered.
 
@@ -156,7 +156,7 @@ If it has not, then:
 1. [Subscribe](/src/mailing-lists/index.md#subscribing-and-unsubscribing) to the appropriate list (either dev or user).  Postings from email addresses that are not on the list are held for moderation.  We try to check for moderated emails at least once a day.
 1. Send your question to the list's email address.
 
-### New to Mailing Lists?
+## New to Mailing Lists?
 
 If you are brand new to mailing lists, you might want to read *[Ten Simple Rules for Getting Help from Online Scientific Communities](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202)* by Dall'Olio *et al.* ([PLoS Comput Biol 7(9): e1002202. doi:10.1371/journal.pcbi.1002202](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202)) Don't be intimidated by there being ten rules.  The most important rule is:
 
@@ -174,18 +174,18 @@ Once you have mastered Rule 1, you can refine your mailing list chops by applyin
 * **[Rule 9. The archive of your discussion will be useful to others](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s10)**
 * **[Rule 10. Give back to the community](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s11)** - Help answer others' questions and [Get Involved](/src/get-involved/index.md)!
 
-### New to Open Source Software Support Mailing Lists?
+## New to Open Source Software Support Mailing Lists?
 
 If you are brand new to programming mailing lists please read
 **[How To Ask Questions The Smart Way by Eric Steven Raymond](http://www.catb.org/esr/faqs/smart-questions.html)** for practical tips on writing programming questions to this or any other open source mailing list. 
 
 <span style="font-size: smaller;"> Hint for those too lazy to click: only you know useful information about the problem context such as the software packages and versions involved. A good question includes the bare minimum context detail, allowing someone who is skilled in the art and reading the list to understand the problem. </span>
 
-## Mailing List Traffic
+# Mailing List Traffic
 
 We have a significant amount of mailing list traffic. See the [Galaxy Project Statistics](/src/galaxy-project/statistics/index.md#traffic) page for more information.
 
-## See Also
+# See Also
 
 * **[Support](/src/support/index.md)**
 * **[Custom Google Galaxy Web Search](http://galaxyproject.org/search/web)**
