@@ -1,33 +1,48 @@
 extends layout.pug
 
 block content
+    div.col-md-12
+        section.section-content
+            h1 !{title}
+            div !{ contents }
 
-    div.row !{ contents }
-
-    table.table.table-striped
-        thead
-            tr
-                th Date
-                th Topic/Event
-                th Venue/Location
-                th Contact
-        tbody
-            each item in events
-                if item.date
+            table.table.table-striped
+                thead
                     tr
-                        td #{helpers.moment(item.date).format("MMMM Do YYYY")}
-                        td: a( href=item.link ) #{item.title} 
-                        td #{item.location} 
-                            if item.continent
-                                img(src='/src/images/icons/' + item.continent + '.png')
-                        td #{item.host}
-                            if item.gtn
-                                img(alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member")
+                        th Date
+                        th Topic/Event
+                        th Venue/Location
+                        th Contact
+                tbody
+                    each item in events
+                        if item.date
+                            tr
+                                td #{helpers.moment(item.date).format("MMMM Do YYYY")}
+                                td: a( href=item.link ) #{item.title} 
+                                td #{item.location} 
+                                    if item.continent
+                                        img(src='/src/images/icons/' + item.continent + '.png')
+                                td #{item.host}
+                                    if item.gtn
+                                        img(alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member")
+
+            p The events listed here are also available in the #[a(href="http://bit.ly/gxycal") Galaxy Events Google Calendar].  The #[a(href="http://bit.ly/gxyothercal") Galaxy Other Events Google Calendar] lists additional events that are relevant to the Galaxy Community, but that are not known to feature significant Galaxy content.
+            p If you know of any event that should be added to this page and/or to the Galaxy Event Calendar, please add it here or send it to outreach@galaxyproject.org.
+            p For events prior to this year, see the #[a(href="/src/events/archive/index.md") Events Archive].
+
+            h2 Galaxy Events Calendar
+                p.small A calendar version of the events listed above.
+                iframe(src="https://calendar.google.com/calendar/embed?showPrint=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com&amp;color=%238C500B&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no")
+            h2 Galaxy Other Events Calendar
+                p.small Events listed here are relevant to the Galaxy Community, but are not known to feature signficant Galaxy content.
+            iframe(src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=vr8tfnp3ge3kj6cn6rcu6gil0s%40group.calendar.google.com&amp;color=%23865A5A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no")
 
 
-    h2 Galaxy Events Calendar
-        p.small A calendar version of the events listed above.
-        iframe(src="https://calendar.google.com/calendar/embed?showPrint=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com&amp;color=%238C500B&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no")
-    h2 Galaxy Other Events Calendar
-        p.small Events listed here are relevant to the Galaxy Community, but are not known to feature signficant Galaxy content.
-    iframe(src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=vr8tfnp3ge3kj6cn6rcu6gil0s%40group.calendar.google.com&amp;color=%23865A5A&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no")
+            h2 Other Calendars
+            ul
+                li: a(href="http://iann.pro/iannviewer") iAnn Events Calendar
+                li: a(href="http://blueseq.com/knowledgebank/ngs-conferences-and-meetings/") BlueSEQ NGS Conferences and Meetings List
+                li: a(href="http://www.embo.org/events/calendar.html") EMBO Events Calendar
+                li: a(href="http://www.iscb.org/iscb-conference-events") International Society for Computational Biology Calendar
+                li: a(href="http://www.genomeweb.com/eventlisting") GenomeWeb Events Listing
+
