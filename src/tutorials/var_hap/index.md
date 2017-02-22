@@ -66,8 +66,6 @@ Before proceeding with the analysis, we need to find out how good the data actua
 >
 >FastQC plot for one of the mitochondrial datasets shows that qualities are acceptable for 250 bp reads (mostly in the green, which is at or above [phred score](https://en.wikipedia.org/wiki/Phred_quality_score) of 30). 
 
-
-
 # Mapping the reads
 
 Our reads are long (250 bp) and as a result we will be using [bwa mem](https://arxiv.org/pdf/1303.3997v2.pdf) to align them against the reference genome as it has good mapping performance for longer reads (100bp and up).
@@ -111,7 +109,6 @@ Let's use **NGS: Picard** &#8594; **MarkDuplicates** tool:
 >![](/src/tutorials/var_hap/mt_dedup.png)
 >
 >De-duplicating the merged BAM dataset
-
 
 **MarkDuplicates** produces a BAM dataset with duplicates removed and also a metrics file. Let's take a look at the metrics data:
 
