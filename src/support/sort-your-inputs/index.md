@@ -1,0 +1,1 @@
+Moved to: [Sort your inputs](https://github.com/jennaj/support-prior-qa/wiki/Sort-your-inputs)

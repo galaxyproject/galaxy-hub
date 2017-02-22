@@ -4,14 +4,21 @@ autotoc: true
 
 # Support
 
-*End-User Support Resource Short List*
+End-User Support Resource Short List
+
 * [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) ([claim your account](/src/support/biostar/index.md))
 * [Learn](/src/learn/index.md)
 * [Teach](/src/teach/index.md)
 * [Vimeo](http://vimeo.com/galaxyproject)
 * [GalaxyProject.org](http://wiki.galaxyproject.org) &rarr; Execute a [Custom search](/src/support/index.md#custom_searches) through all project content
 * [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks)
-* [Known Issues](https://github.com/jennaj/support-known-issues/wiki)
+
+Known issues:
+* [Data Issues](/src/support/data-issues/)
+* [Data Input Sorting](/src/support/sort-your-inputs/)
+* [Tool Issues](/src/support/tool-issues/)
+* [Enhancements](/src/support/enhancements/)
+
 
 # Using Galaxy
 
