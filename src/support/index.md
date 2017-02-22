@@ -17,7 +17,7 @@ Known issues:
 * [Data Issues](/src/support/data-issues/)
 * [Data Input Sorting](/src/support/sort-your-inputs/)
 * [Tool Issues](/src/support/tool-issues/)
-* [Enhancements](/src/support/enhancements/)
+* [Current Feature Requests](https://github.com/galaxyproject/galaxy/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request)
 
 
 # Using Galaxy
