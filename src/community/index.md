@@ -1,30 +1,31 @@
 ---
 autotoc: true
 ---
-Galaxy is driven and supported by its user and developer communities.  This page attempts to bring together everything loosely related to community into one place.
+
+The Galaxy Project is driven and supported by its user and developer communities. This page organizes everything loosely related to the Galaxy community into one place.
 
 # Membership
 
-Any organization, group, or individual who [uses](/src/learn/index.md), [deploys](/src/admin/index.md), or [develops](/src/develop/index.md) Galaxy is considered a part of the Galaxy community.  Community members are free to integrate their own tools and/or data into Galaxy.  Members within the Galaxy community are located all around the world.  Subgroups within the overall community may differ in size (small versus large) and/or degree of privacy (public versus private).  However, regardless of affiliation, Galaxy's primary mission is to contribute to research in a wide variety of fields across the tree of life.    
+Any organization, group, or individual who [uses](/src/learn/index.md), [deploys](/src/admin/index.md), or [develops](/src/develop/index.md) Galaxy is considered a part of the Galaxy community. Community members are encouraged to integrate their own tools and data into Galaxy to share with the public. Members within the Galaxy community are located all around the world and often form subgroups that can differ in size (small versus large) and degree of privacy (public versus private). Regardless of affiliation, Galaxy's primary mission is to contribute to research in a wide variety of fields across the tree of life.    
 
-In short, the Galaxy community includes anyone who works with Galaxy in any capacity.  We are wide open.
+In short, the Galaxy community includes anyone who works with Galaxy in any capacity - that includes you!
 
 # Special Interest Groups
 
 ## GalaxyAdmins
 [Galaxy-Admins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for large Galaxy installations.
 
-
 ## Proteomics
-Galaxy-based [Proteomics](/src/proteomics/index.md) efforts.
-
+Many members of our community are interested in Galaxy-based [Proteomics](/src/proteomics/index.md) research.
 
 ## IUC
-The Intergalactic Utilities Commission ([IUC](/src/iuc/index.md)) maintains high-quality Galaxy tools and develops best practices.
+The [Intergalactic Utilities Commission (IUC)](/src/iuc/index.md) maintains high-quality Galaxy tools and develops best practices.
 
 ## Galaxy Training Network
-The [Galaxy Training Network (GTN)](/src/teach/gtn/index.md) is a network of people and groups that present Galaxy and Galaxy-based training around the world. Members of the GTN are also responsible for generating, curating, and maintaining a large repository of Galaxy training materials which can be accessed [here](http://galaxyproject.github.io/training-material/). There is also a [mailing list](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/).
+The [Galaxy Training Network (GTN)](/src/teach/gtn/index.md) is a network of people that present Galaxy and Galaxy-based training around the world. Members of the GTN are also responsible for generating, curating, and maintaining a large repository of Galaxy training materials which can be accessed [here](http://galaxyproject.github.io/training-material/). There is also a [mailing list](http://galaxy-training-mailing-list-archive.35427.n7.nabble.com/) for training-related news.
 
+## Conda and Bioconda
+[Conda](https://conda.io/docs/index.html) is an open source package management system that is heavily used by Galaxy to manage tool dependencies and installations. [Bioconda](https://bioconda.github.io/) is a specific channel for Conda that distributes popular bioinformatics software, many of which have been wrapped by the Galaxy community.
 
 # By Geography / Language
 
@@ -59,7 +60,7 @@ The [Galaxy Training Network (GTN)](/src/teach/gtn/index.md) is a network of peo
 ## Spain & Spanish
 
  **[December 2015 Meetup](http://scb.iec.cat/wp-content/uploads/2015/11/jdB2015_anunci_.pdf)**
-* At the end of the [III Bioinformatics and Computational Biology Symposium](http://scb.iec.cat/wp-content/uploads/2015/11/jdB2015_anunci_.pdf) in Barcelona on 18 December 2015, Galaxy users and developers got together to share information and code and plan future Galaxy workshops and other activities. Chairs of this session were [Toni Espinosa](http://grupsderecerca.uab.cat/hpca4se/en/content/antonio-espinosa-morales) ([UAB](http://www.uab.cat/)) and [Gonzalo Vera (CRAG)](http://www.cragenomica.es/staff/detail/gonzalo-vera). The [announcement PDF](http://scb.iec.cat/wp-content/uploads/2015/11/jdB2015_anunci_.pdf) and the [announcement email](http://bit.ly/1Xsad8D) contain further details.
+* At the end of the [III Bioinformatics and Computational Biology Symposium](http://scb.iec.cat/wp-content/uploads/2015/11/jdB2015_anunci_.pdf) in Barcelona on 18 December 2015, Galaxy users and developers got together to share information and code and to plan future Galaxy workshops. Chairs of this session were [Toni Espinosa](http://grupsderecerca.uab.cat/hpca4se/en/content/antonio-espinosa-morales) ([UAB](http://www.uab.cat/)) and [Gonzalo Vera (CRAG)](http://www.cragenomica.es/staff/detail/gonzalo-vera). The [announcement PDF](http://scb.iec.cat/wp-content/uploads/2015/11/jdB2015_anunci_.pdf) and the [announcement email](http://bit.ly/1Xsad8D) contain further details.
 
 ## United Kingdom
 
@@ -69,38 +70,22 @@ The [Galaxy Training Network (GTN)](/src/teach/gtn/index.md) is a network of peo
 
 # Resources
 
-<div class='right'>
-<table>
-  <tr>
-    <td style=" text-align: center;"> <a href='/src/community/deployments/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="140" /></a><br /><a href='/src/community/deployments/index.md'>Browse / Add</a></td>
-  </tr>
-</table>
-
-</div>
-
 ## Deployment Catalog
 
-Ever wonder how other sites deploy Galaxy?  Want to share how your Galaxy instance is deployed with others?  The [Galaxy Deployment Catalog](/src/community/deployments/index.md) describes deployments, both in summary and in detail.  Please [add your deployment](/src/community/deployments/index.md) today.
+![DeployLogo](/src/images/logos/GalaxyDeploymentCatalog200.png)
 
+Ever wonder how other sites deploy Galaxy?  Want to share how your Galaxy instance is deployed with others?  The [Galaxy Deployment Catalog](/src/community/deployments/index.md) describes deployments, both in summary and in detail. Please add your deployment today!
 
 ## Logs
 
-<div class='right'>
-<table>
-  <tr>
-    <td style=" text-align: center;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="140" /></a><br /><a href='/src/community/logs/index.md'>Browse / Add</a> </td>
-  </tr>
-</table>
+![LogBoard](/src/images/logos/LogBoardWText200.png)
 
-</div>
-
-Want to share how you addressed a particular challenge in your Galaxy deployment?  [Log entries](/src/community/logs/index.md) describe specific solutions to a wide variety of different issues within Galaxy. For example, one can use the logs to find details concerning what steps were taken to deploy Galaxy on particular platforms (or with particular software). It's an easy way to help others learn from what you've already done and avoid reinventing the wheel.
-
+Want to share how you addressed a particular challenge in your Galaxy deployment?  [Log entries](/src/community/logs/index.md) describe specific solutions to a variety of issues in Galaxy. For example, log entries contain details concerning necessary steps for deploying Galaxy on particular platforms or with particular software. Contributing your own experiences is an easy way to help others learn from what has already done and avoid reinventing the wheel.
 
 ## Other Resources
 
 * [Tool Shed](/src/toolshed/index.md) - Tool wrappers contributed by community members.
-* [Events](/src/events/index.md) - Events of interest to the community, including the annual Galaxy meetings.
+* [Events](/src/events/index.md) - Events of interest to the community, including recurring Galaxy meetings.
 * [Support](/src/support/index.md) - How to get (and help with) support, including [Mailing Lists](/src/mailing-lists/index.md).
-* [Training and Outreach](/src/outreach/index.md) - Find out how you can support the Galaxy community and get the word out about Galaxy.
+* [Training and Outreach](/src/outreach/index.md) - Find out how you can support the Galaxy community through outreach and training events.
 
