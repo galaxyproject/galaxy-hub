@@ -6,7 +6,7 @@ This is a landing page for finding out information about Galaxy-based proteomics
 
 ## Quick Links
 
-[Proteomics on the Tool Shed](http://toolshed.g2.bx.psu.edu/repository/browse_categories?id=4963efc937542d6d)
+[Proteomics on the Tool Shed](https://toolshed.g2.bx.psu.edu/repository/browse_repositories_in_category?status=done&message=&id=4963efc937542d6d)
 
 ### Galaxy Public Servers for Proteomics
 
@@ -17,7 +17,7 @@ This is a landing page for finding out information about Galaxy-based proteomics
 ### Galaxy Proteomics Presentations
 
 * [Proteomics Tools for Galaxy](http://wiki.galaxyproject.org/Documents/Presentations/GCC2012?action=AttachFile&do=view&target=Cooke.pdf) by Ira Cooke @ 2012 Galaxy Community Conference.
-* [Galaxy-P: Beyond Proteomics](http://bit.ly/beyond-proteomics/) by John Chilton @ 2013 Galaxy Community Conference.
+* [Galaxy-P: Beyond Proteomics](http://bit.ly/beyond-proteomics) by John Chilton @ 2013 Galaxy Community Conference.
 
 ### Galaxy Proteomics Publications
 
@@ -30,4 +30,3 @@ GitHub:
 * [Ira Cooke](https://github.com/iracooke/)
 * [John Chilton](https://github.com/jmchilton)
 
-...
