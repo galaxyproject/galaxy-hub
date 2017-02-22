@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='/src/outreach/poweredby-galaxy/index.md'><img src="/src/images/powered-by-galaxy.png" alt="Powered by Galaxy" width="300" /></a>
+<a href='/src/outreach/powered-by-galaxy/index.md'><img src="/src/images/powered-by-galaxy.png" alt="Powered by Galaxy" width="300" /></a>
 </div>
 <br /><br />
 There are a number of resources available to help connect researchers and developers with Galaxy.  Broadening Galaxy's reach serves several interrelated purposes:
@@ -15,9 +15,9 @@ There are a number of resources available to help connect researchers and develo
 ### Powered by Galaxy
 
 <div class='left'>
-<a href='/src/outreach/poweredby-galaxy/index.md'><img src="/images/powered-by-galaxy.png" alt="Powered by Galaxy" /></a>
+<a href='/src/outreach/powered-by-galaxy/index.md'><img src="/images/powered-by-galaxy.png" alt="Powered by Galaxy" /></a>
 </div>
-*"Powered by Galaxy"* icons are [available in a number of different resolutions](/src/outreach/poweredby-galaxy/index.md) for inclusion on web sites, in talks, and on posters and other printed material.  This is an easy way to let people know just how widely used (and useful) Galaxy is.
+*"Powered by Galaxy"* icons are [available in a number of different resolutions](/src/outreach/powered-by-galaxy/index.md) for inclusion on web sites, in talks, and on posters and other printed material.  This is an easy way to let people know just how widely used (and useful) Galaxy is.
 
 ## Logos and Images
 
