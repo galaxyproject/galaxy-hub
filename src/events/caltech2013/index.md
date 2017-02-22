@@ -1,5 +1,5 @@
 ---
-title: Galaxy @ Caltech: March 5, 2013
+title: Galaxy @ Caltech March 5, 2013
 ---
 <div class='center'>
 
