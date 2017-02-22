@@ -91,9 +91,21 @@ placed in an appropriate directory under `/src/images`.
 Note: Please do not upload images using the GitHub web interface -- there's a
 feature request open with GitHub, but currently this does not support LFS.
 
-Lastly, if you cloned the repository prior to installing git-lfs and you're
+### LFS Troubles?
+
+If you cloned the repository prior to installing git-lfs and you're
 observing that site images have no content, you may be able to fetch all images
 by running `git lfs pull`.
+
+If you've been having issues with LFS they may be due to an outdated version of LFS.  To determine your version enter
+
+`git lfs version`
+
+This should show at least
+
+`git-lfs/1.5.6 ...`
+
+If your version is older than that, you may benefit from upgrading.
 
 
 [1]: http://www.metalsmith.io/
