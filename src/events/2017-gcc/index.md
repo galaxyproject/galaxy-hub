@@ -4,6 +4,7 @@ date: '2017-06-26'
 days: 5
 tease: 5 days of Galaxy
 location: Montpellier, Fance
+continent: EU
 image: gcc2017.png
 external_url: https://gcc2017.sciencesconf.org/
 gtn: y
