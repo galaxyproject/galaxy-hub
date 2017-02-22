@@ -194,22 +194,18 @@ If you DO NOT see any files as in the example below, **load data using FTP first
 
 ## Downloading data
 
-
-
 * **Download datasets** by clicking on the disk icon inside the [dataset](/learn/managing-datasets). Good for smaller sizes in all browsers.
 * **Download entire histories** by selecting _"Export to File"_ from the History menu, and clicking on the link generated.
 * **Transfer entire histories** by selecting _"Export to File"_ from the History menu, generating the link, coping the link in the "from" Galaxy instance, **then** in the "to" Galaxy instance select "Import from File" from the History menu, and paste in the link into the new form.
 * The video **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** includes help about different datatypes and what to expect in the download icon (one file or two!).
 
+
 ### Download tip: Big data
 
 
-
-* _**How can I download larger datasets?**_
-
 **Browser option:** use Google Chrome and click on the disc icon (we've found that this browser supports better continuous downloads).
 
-**Utility option:** from a shell/unix/terminal window on your computer use **[wget](https://www.gnu.org/software/wget/manual/html_node/Download-Options.html#Download-Options)** or **[curl](http://en.wikipedia.org/wiki/CURL)**.
+**Command-line option:** from a terminal window on your computer, you can use **[wget](https://www.gnu.org/software/wget/manual/html_node/Download-Options.html#Download-Options)** or **[curl](http://en.wikipedia.org/wiki/CURL)**.
 
 The direct download link to a dataset can be obtained by right clicking the
 floppy disk icon and choosing "Copy Link Location" (for most datasets) or
@@ -223,7 +219,7 @@ Here's what it looks like using 'wget':
 ```
 $ wget -O '<link>'
 $ wget -O --no-check-certificate '<link>' # ignore SSL certificate warnings
-$ wget -c '<link>'                        # continue an interrupted download</pre>
+$ wget -c '<link>'                        # continue an interrupted download
 ```
 
 Or, using curl:
@@ -231,7 +227,7 @@ Or, using curl:
 ```
 $ curl -o outfile '<link>' 
 $ curl -o outfile --insecure '<link>'     # ignore SSL certificate warnings
-$ curl -C - -o outfile '<link>'           # continue an interrupted download</pre>
+$ curl -C - -o outfile '<link>'           # continue an interrupted download
 ```
 
 
@@ -415,72 +411,45 @@ _So, how does the processing of tool jobs on **[Main](/src/main)** actually work
 
 _**[Dataset](/learn/managing-datasets) format problems are the #1 reason that tools fail.**_ Most likely this problem was introduced during the initial data upload. Double check the [dataset](/learn/managing-datasets) against Galaxy's [datatypes](/learn/datatypes) or external specifications. In many cases, the format issues can be corrected using a creative combination of Galaxy's tools.
 
+
 ### Troubleshooting tool errors - Review THIS before submitting bug reports
 
-
-
 *   Verify the _size/number of lines or md5sum between the source and Galaxy_. Use **Line/Word/Character count of a dataset** or **Secure Hash / Message Digest on a dataset** to do this.
-
 *   Look at the _end of your file_. Is it complete? Are there extra empty lines? Use **Select last lines from a dataset** with the default **10** to check.
-
 *   Check errors that come from tools such as the **FASTQ Groomer**. Many tools report the _exact problem_ with _exact instructions_ for corrections.
-
 *   Is the format to specification? Is it recognized by Galaxy? By the target tool or display application? Check against the [Galaxy Datatypes](/learn/datatypes) list.
-
     *   Are you using a **[Custom Reference Genome](/learn/custom-genomes)**? Have you tried the quick [Troubleshooting](/learn/custom-genomes#Troubleshooting) tips on the wiki?
-
     *   Note: not all formats are outlined in detail as they are common types or derived from a particular source. Read the target tool help, ask the tool authors, or even just google for the most current specification.
 *   Is the problem the [dataset](/learn/managing-datasets) format or the assigned datatype? Can this be corrected by editing the datatype or converting formats? Often a combination of tools can correct a formatting problem, if the rest of the file is intact (completely loaded).
-
 *   Is the problem a scientific or technical problem? Also see [#Interpreting scientific results](/src/support#Interpreting_scientific_results) to decide.
-
     *   _Example_ **NGS: Mapping** tools: On the tool form itself is a short list of help plus links to publications and the tool author's documentation and/or website. If you are having trouble with **Bowtie**, look on this tool's form for more information, including a link to this website: [http://bowtie-bio.sourceforge.net/index.shtml](http://bowtie-bio.sourceforge.net/index.shtml).
-
     *   _Example_ **NGS: RNA Analysis** tools: See the _[galaxy-rna-seq-analysis-exercise](https://usegalaxy.org/u/jeremy/p/galaxy-rna-seq-analysis-exercise)_ tutorial and _[transcriptome-analysis-faq](https://usegalaxy.org/u/jeremy/p/transcriptome-analysis-faq)_. If these do not address the problem, then contacting the tool authors is the next step at: [mailto:tophat.cufflinks@gmail.com](mailto:tophat.cufflinks@gmail.com).
-
     *   _Example_ **NGS: SAM Tools** tools: SAMTools requires that all input files be to specification ([Learn/datatypes](/learn/datatypes)) and that the same _exact_ reference genome is used for all steps. Double checking format is the first check. Double checking the the same exact version of the reference genome is used is the second check. The last double check is that the number of jobs and size of data on disk is under quota. Problems with this set of tools is rarely caused by other issues.
-
 *   Tools for fixing/converting/modifying a [dataset](/learn/managing-datasets) will often include the [datatype name](/learn/datatypes). Use the tool search to locate candidate tools, likely in tool groups _**Text Manipulation, Convert Formats, or NGS: QC and manipulation**_.
-
 *   The most commonly used tools for investigating problems with upload, format and making corrections are:
     *   **TIP**: use the Tool search in top left panel to find tools by keyword
-
     *   _**Edit Attributes**_ form, found by clicking a dataset's ![Images/Icons/pencil.png](/src/images/icons/pencil.png "Images/Icons/pencil.png") icon
-
     *   _**Convert Format**_ tool group
-
     *   **Select first lines from a dataset**
-
     *   **Select last lines from a dataset**
-
     *   **Line/Word/Character count of a dataset**
-
     *   **Secure Hash / Message Digest on a dataset**
-
     *   **FASTQ Groomer**
-
     *   **FastQC** - [How to read the report](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/)
-
     *   **Tabular to FASTQ**, **FASTQ to Tabular**
-
     *   **Tabular to FASTA**, **FASTA to Tabular**
-
     *   **FASTA Width formatter**
-
     *   _**Text Manipulation**_ tool group
-
     *   _**Filter and Sort**_ tool group
 
 ### Job failure reason: cancelled by admin or a cluster failure
 
-
-
 The initial error message will be reported as below, and is found in the comments of a failed dataset (red dataset):
 
-<pre>This job failed because it was cancelled by an administrator.
-Please click the bug icon to report this problem if you need help.</pre>
-
-
+```
+This job failed because it was cancelled by an administrator.
+Please click the bug icon to report this problem if you need help.
+```
 
 Other reported error indicate a cluster failure in the error report (click on the bug icon to review. These often do not need to be submitted as the failure error message describes the problem and correction path.
 
@@ -504,21 +473,21 @@ If after reviewing, and re-running, and the cause of the error is unclear:
 
 The full error message will be reported as below, and can be found by clicking on the bug icon for a failed job run (red dataset):
 
-<pre>job info:
+```
+job info:
 This job was terminated because it used more memory than it was allocated.
-Please click the bug icon to report this problem if you need help.</pre>
-
-
+Please click the bug icon to report this problem if you need help.
+```
 
 On rare cases when the memory quota is exceeded very quickly, an error message such as the following can appear:
 
-<pre>job stderr:
+```
+job stderr:
 Fatal error: Exit code 1 ()
 Traceback (most recent call last):
-<span class="anchor" id="line-4"></span>(other lines)
-<span class="anchor" id="line-5"></span>Memory Error</pre>
-
-
+(other lines)
+Memory Error
+```
 
 The error indicates that the job ran out of memory while executing on the cluster node that ran the job. **This memory is different than the amount of disk usage in an account**.
 
@@ -540,9 +509,11 @@ If the job remains too large to run on the public [Main](/src/main) Galaxy insta
 
 The full error message will be reported as below, and can be found by clicking on the bug icon for a failed job run (red dataset):
 
-<pre>job info:
+```
+job info:
 This job was terminated because it ran longer than the maximum allowed job run time.
-Please click the bug icon to report this problem if you need help.</pre>
+Please click the bug icon to report this problem if you need help.
+```
 
 
 
