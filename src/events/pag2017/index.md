@@ -1,12 +1,13 @@
 ---
 title: PAG 2017
-date: '2017-01-04'
+date: '2017-01-14'
+days: 5
 tease: Galaxy is for Plants and Animals too...
 continent: NA
-location: San Diego, CA
+location: San Diego, California
+location_url: http://www.intlpag.org/
+gtn: y
 image: PAG2017.png
-host: PAG
-event_url: http://www.intlpag.org/
 ---
 <div class="center"><a href='http://www.intlpag.org/'><img src="PAG2017.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="130" /></a></div>
 
