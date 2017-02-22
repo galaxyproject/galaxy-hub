@@ -4,7 +4,7 @@ autotoc: true
 
 # Support
 
-**End-User Support Resource Short List**
+*End-User Support Resource Short List*
 * [Q&A at Galaxy Biostars](http://biostar.usegalaxy.org) ([claim your account](/src/support/biostar/index.md))
 * [Learn](/src/learn/index.md)
 * [Teach](/src/teach/index.md)
@@ -15,33 +15,66 @@ autotoc: true
 
 # Using Galaxy
 
+
 ## Galaxy NGS 101
 
-The Big Picture: **[Galaxy NGS 101](/src/learn/galaxy-ngs101/index.md)**
+The Big Picture: *[Galaxy NGS 101](/src/learn/galaxy-ngs101/index.md)*
+
 
 ## Learning Hub
 
-See our [Learning](/src/learn/index.md) hub for key coverage of Galaxy user interface concepts, data, and tools. Review "Shared Data/Published Pages" on the [Main](/src/main/index.md) server [usegalaxy.org](http://usegalaxy.org) for publication supplementals and tutorials.
+See our [Learning](/src/learn/index.md) hub for key coverage of Galaxy user
+interface concepts, data, and tools. Review "Shared Data/Published Pages" on
+the [Main](/src/main/index.md) server [usegalaxy.org](http://usegalaxy.org) for
+publication supplementals and tutorials.
+
 
 ## Screencasts
 
-[Screencast](/src/learn/screencasts/index.md) videos demonstrate the step-by-step for a range of topics. Packed with tips and methods usable across analysis workflows plus presentations and tutorials for administrations, these are a great resource for both the scientific and technical Galaxy communities.
+[Screencast](/src/learn/screencasts/index.md) videos demonstrate the
+step-by-step for a range of topics. Packed with tips and methods usable across
+analysis workflows plus presentations and tutorials for administrations, these
+are a great resource for both the scientific and technical Galaxy communities.
+
 
 ## Custom Searches
 
-Looking for something specific? Try ***[Galaxy Custom Searches](/src/news/custom-galaxy-search/index.md)*** with a keyword or phrase. The ***[MailingList](http://galaxyproject.org/search/mailinglists)*** search finds all related prior Q & A from the [Galaxy Biostar](/src/support/index.md#biostar) forum and any [Galaxy Project mailing lists](/src/mailing-lists/index.md). The ***[UseGalaxy](http://galaxyproject.org/search/usegalaxy)*** search finds all online resources for information about using Galaxy.  This includes this wiki, tool help and shared Galaxy objects at [UseGalaxy.org](http://usegalaxy.org), and [Mailing Lists](/src/mailing-lists/index.md).
+Looking for something specific? Try *[Galaxy Custom
+Searches](/src/news/custom-galaxy-search/index.md)* with a keyword or phrase.
+The *[MailingList](http://galaxyproject.org/search/mailinglists)* search finds
+all related prior Q & A from the [Galaxy
+Biostar](/src/support/index.md#biostar) forum and any [Galaxy Project mailing
+lists](/src/mailing-lists/index.md). The
+*[UseGalaxy](http://galaxyproject.org/search/usegalaxy)* search finds all
+online resources for information about using Galaxy.  This includes this wiki,
+tool help and shared Galaxy objects at [UseGalaxy.org](http://usegalaxy.org),
+and [Mailing Lists](/src/mailing-lists/index.md).
 
 ## Biostar
 
-Galaxy has teamed up with [Biostar](http://biostars.org) to create a Galaxy User support forum at **[https://biostar.usegalaxy.org](https://biostar.usegalaxy.org)**.
-<br />
- **[How to login and use...](/src/support/biostar/index.md)**
-<div class='right'><a href='https://biostar.usegalaxy.org/'><img src="/src/images/logos/GalaxyBiostar.png" alt="Galaxy Biostar" width="250" /></a></div>
-We want to create a space where researchers using Galaxy can come together and share both scientific advice and practical tool help.  Whether on **[http://usegalaxy.org](http://usegalaxy.org)**, a **[Cloudman](http://usegalaxy.org/cloud)** instance, or any **[other](/src/public-galaxy-servers/index.md) [Galaxy](http://getgalaxy.org)**, if you have something to say about **Using Galaxy**, this is the place to do it!
+Galaxy has teamed up with [Biostar](http://biostars.org) to create a Galaxy
+User support forum at
+*[https://biostar.usegalaxy.org](https://biostar.usegalaxy.org)*.
+
+*[How to log in and use...](/src/support/biostar/index.md)*
+
+<div class='right'><a href='https://biostar.usegalaxy.org/'>
+    <img src="/src/images/logos/GalaxyBiostar.png" alt="Galaxy Biostar" width="250" />
+</a></div>
+
+We want to create a space where researchers using Galaxy can come together and
+share both scientific advice and practical tool help.  Whether on
+*[http://usegalaxy.org](http://usegalaxy.org)*, a
+*[Cloudman](http://usegalaxy.org/cloud)* instance, or any
+*[other](/src/public-galaxy-servers/index.md) [Galaxy](http://getgalaxy.org)*,
+if you have something to say about *Using Galaxy*, this is the place to do it!
 
 ## Mailing Lists
 
-Galaxy has one public mailing lists for questions, one private mailing list for bug reports, and one announcement mailing list. Manage subscriptions and learn more about these list at the [Mailing Lists](/src/mailing-lists/index.md) home page. 
+Galaxy has several mailing lists, including one public mailing list for
+questions, one private mailing list for bug reports, and one announcement
+mailing list. Manage subscriptions and learn more about these list at the
+[Mailing Lists](/src/mailing-lists/index.md) home page.
 
 ## IRC Channel
 
@@ -54,12 +87,8 @@ The #galaxyproject IRC channel has an [online public archive](https://botbot.me/
 
 ## Galaxy Issue Board
 
+The Galaxy Project uses [GitHub](https://github.com/galaxyproject/galaxy/issues) for issue tracking and feature requests.  Please see [Issues](/src/issues) for more information.
 
-<div class="right">[![Galaxy Issue Board](/src/images/logos?action=AttachFile&do=get&target=TrelloLogo300.png "Galaxy Issue Board")](/src/issues)</div>
-
-
-
-The Galaxy Project uses [Trello](http://bit.ly/gxytrello) for [issue tracking and feature requests](/src/issues). The [Galaxy Issue Board](/src/issues) supports [issue creation](http://galaxyproject.org/trello), [commenting](/src/issues#Add_a_Comment), and [voting](/src/issues#Vote) on issues.
 
 ## Multiple Galaxies
 
@@ -69,48 +98,8 @@ Some researchers use more than one Galaxy server. How to move data between these
 
 This procedure works between any two Galaxy instances, whether using the [Main](/src/main) public instance, a [Local](/admin/get-galaxy), a [Cloud](/cloud), and many [Public Galaxy Servers](/public-galaxy-servers).
 
-## About Galaxy
-
-
-
-<div class="right">[![GalaxyProject.org](/src/images/Screenshots?action=AttachFile&do=get&target=GalaxyProjectOrg.png "GalaxyProject.org")](http://galaxyproject.org)</div>
-
-**Galaxy is an open, web-based platform for data intensive biomedical research.**
-
-**[Galaxy](/FrontPage)**'s goal is to be _accessible_, _reproducible_, and _transparent_.
-
-*   **Accessible:** Users without programming experience can easily specify parameters and run tools and workflows.
-
-*   **Reproducible:** Galaxy captures information so that any user can repeat and understand a complete computational analysis.
-
-*   **Transparent:** Users share and publish analyses via the web and create Pages, interactive, web-based documents that describe a complete analysis.
-
-There are many [Choices](/src/choices) when you want to learn more **[about using Galaxy](/src/support/about-galaxy)**!
-
-In addition to using the [public Galaxy server](http://usegalaxy.org), you can also install your [own instance of Galaxy](/admin/get-galaxy), or create an [instance of Galaxy on the cloud using CloudMan](/src/cloudman) and explore all [Cloud](/cloud) resources including [AWS in Education](http://aws.amazon.com/grants/) grants. Another option is to use one of the ever-increasing number of [Public Galaxy Servers](/public-galaxy-servers) hosted by other organizations. And if you or your lab is looking to run their own local instance that is "ready-to-go", learn more about the [Slipstream Appliance: Galaxy Edition](http://www.bioteam.net/slipstream/galaxy-edition).
-
-The GALAXY Framework at the highest level is a set of reusable software components. Learn more about [Galaxy's Architecture](/admin/Internals/Implementation%20Info).
-
-<div class="left">[![UseGalaxy.org](/src/images/logos?action=AttachFile&do=get&target=GalaxyLogoHighRes.png "UseGalaxy.org")](http://usegalaxy.org)</div>
-
-[Galaxy Project](/src/galaxy-project) • [Big Picture](/src/big-picture) • [Community](/src/community) • [Get Galaxy](/src/admin/get-galaxy) • [CloudMan](/src/cloudman) • [Tool Shed](/ToolShed) • [Develop](/src/develop) • [News Briefs](/DevNewsBriefs) • [Servers](/public-galaxy-servers) • [Learn](/learn) • [Support](/src/support) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/news) • [Twitter](/galaxy-on-twitter) • [Events](/src/events) • [Teach](/src/teach) • [Issues](/src/issues) • [Cite](/citing-galaxy) • [About Galaxy](/src/support/about-galaxy) • [Galaxy Team](/galaxy-team)
-
-
-
-The [Galaxy Team](http://wiki.galaxyproject.org/galaxy-team) is a part of the [Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Department of Biology](http://www.bio.jhu.edu/) at [Johns Hopkinis University](http://www.jhu.edu/). 
-
-[Galaxy](http://usegalaxy.org) is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Johns Hopkins University](http://www.jhu.edu/).
-
-The [public Main instance](/src/main) of Galaxy at [http://usegalaxy.org](http://usegalaxy.org) utilizes infrastructure generously provided by the [iPlant Collaborative](http://www.iplantcollaborative.org/) at the [Texas Advanced Computing Center](https://www.tacc.utexas.edu/), with support from the [National Science Foundation](http://www.nsf.gov/).
-
-
-
-* * *
-
-
 
 # Solutions
-
 
 
 ## Tool help
