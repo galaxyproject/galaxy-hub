@@ -67,7 +67,7 @@ The Galaxy Project uses [Trello](http://bit.ly/gxytrello) for [issue tracking an
 
 Some researchers use more than one Galaxy server. How to move data between these is **[described here](/community/Log/2016/MovingDataBetweenGalaxies)**.
 
-This procedure works between any two Galaxy instances, whether using the [Main](/src/main) public instance, a [Local](/admin/GetGalaxy), a [Cloud](/Cloud), and many [Public Galaxy Servers](/PublicGalaxyServers).
+This procedure works between any two Galaxy instances, whether using the [Main](/src/main) public instance, a [Local](/admin/get-galaxy), a [Cloud](/cloud), and many [Public Galaxy Servers](/public-galaxy-servers).
 
 ## About Galaxy
 
@@ -85,19 +85,19 @@ This procedure works between any two Galaxy instances, whether using the [Main](
 
 *   **Transparent:** Users share and publish analyses via the web and create Pages, interactive, web-based documents that describe a complete analysis.
 
-There are many [Choices](/big-picture/Choices) when you want to learn more **[about using Galaxy](/src/support/AboutGalaxy)**!
+There are many [Choices](/src/choices) when you want to learn more **[about using Galaxy](/src/support/about-galaxy)**!
 
-In addition to using the [public Galaxy server](http://usegalaxy.org), you can also install your [own instance of Galaxy](/admin/GetGalaxy), or create an [instance of Galaxy on the cloud using CloudMan](/src/cloudman) and explore all [Cloud](/Cloud) resources including [AWS in Education](http://aws.amazon.com/grants/) grants. Another option is to use one of the ever-increasing number of [Public Galaxy Servers](/PublicGalaxyServers) hosted by other organizations. And if you or your lab is looking to run their own local instance that is "ready-to-go", learn more about the [Slipstream Appliance: Galaxy Edition](http://www.bioteam.net/slipstream/galaxy-edition).
+In addition to using the [public Galaxy server](http://usegalaxy.org), you can also install your [own instance of Galaxy](/admin/get-galaxy), or create an [instance of Galaxy on the cloud using CloudMan](/src/cloudman) and explore all [Cloud](/cloud) resources including [AWS in Education](http://aws.amazon.com/grants/) grants. Another option is to use one of the ever-increasing number of [Public Galaxy Servers](/public-galaxy-servers) hosted by other organizations. And if you or your lab is looking to run their own local instance that is "ready-to-go", learn more about the [Slipstream Appliance: Galaxy Edition](http://www.bioteam.net/slipstream/galaxy-edition).
 
 The GALAXY Framework at the highest level is a set of reusable software components. Learn more about [Galaxy's Architecture](/admin/Internals/Implementation%20Info).
 
 <div class="left">[![UseGalaxy.org](/src/images/logos?action=AttachFile&do=get&target=GalaxyLogoHighRes.png "UseGalaxy.org")](http://usegalaxy.org)</div>
 
-[Galaxy Project](/GalaxyProject) • [Big Picture](/big-picture) • [Community](/community) • [Get Galaxy](/admin/GetGalaxy) • [CloudMan](/src/cloudman) • [Tool Shed](/ToolShed) • [Develop](/Develop) • [News Briefs](/DevNewsBriefs) • [Servers](/PublicGalaxyServers) • [Learn](/learn) • [Support](/src/support) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/News) • [Twitter](/GalaxyOnTwitter) • [Events](/Events) • [Teach](/Teach) • [Issues](/src/issues) • [Cite](/CitingGalaxy) • [About Galaxy](/src/support/AboutGalaxy) • [Galaxy Team](/GalaxyTeam)
+[Galaxy Project](/src/galaxy-project) • [Big Picture](/src/big-picture) • [Community](/src/community) • [Get Galaxy](/src/admin/get-galaxy) • [CloudMan](/src/cloudman) • [Tool Shed](/ToolShed) • [Develop](/src/develop) • [News Briefs](/DevNewsBriefs) • [Servers](/public-galaxy-servers) • [Learn](/learn) • [Support](/src/support) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/news) • [Twitter](/galaxy-on-twitter) • [Events](/src/events) • [Teach](/src/teach) • [Issues](/src/issues) • [Cite](/citing-galaxy) • [About Galaxy](/src/support/about-galaxy) • [Galaxy Team](/galaxy-team)
 
 
 
-The [Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam) is a part of the [Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Department of Biology](http://www.bio.jhu.edu/) at [Johns Hopkinis University](http://www.jhu.edu/). 
+The [Galaxy Team](http://wiki.galaxyproject.org/galaxy-team) is a part of the [Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Department of Biology](http://www.bio.jhu.edu/) at [Johns Hopkinis University](http://www.jhu.edu/). 
 
 [Galaxy](http://usegalaxy.org) is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Johns Hopkins University](http://www.jhu.edu/).
 
@@ -131,7 +131,7 @@ Watch the **[Accounts on Main](http://vimeo.com/galaxyproject/accounts)** video 
 
 
 
-At the top of the left tool panel, type in a tool name or data type into the tool search box. Shorter keywords find more choices. Can't find the tool you want? Try looking in the **[Tool Shed](http://toolshed.g2.bx.psu.edu)**. New tools are added all the time that can be used in **[local](/admin/GetGalaxy)** or **[cloud](/src/cloudman)** Galaxy instances.
+At the top of the left tool panel, type in a tool name or data type into the tool search box. Shorter keywords find more choices. Can't find the tool you want? Try looking in the **[Tool Shed](http://toolshed.g2.bx.psu.edu)**. New tools are added all the time that can be used in **[local](/admin/get-galaxy)** or **[cloud](/src/cloudman)** Galaxy instances.
 
 
 
@@ -171,7 +171,7 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 
 
 
-*   Load the data using line command FTP or a client. [More help...](/FTPUpload)
+*   Load the data using line command FTP or a client. [More help...](/ftp-upload)
 
 *   Note that the FTP server name is specific to the Galaxy you are working on. This is by default the URL of the server.
     *   For the public Main Galaxy instance at [http://usegalaxy.org](http://usegalaxy.org) the FTP server name to use is **usegalaxy.org**.
@@ -187,7 +187,7 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 
 
 
-![Upload tool location](/src/images/Screenshots?action=AttachFile&do=get&target=Upload.png "Upload tool location")
+![Upload tool location](/src/images/screenshots/Upload.png "Upload tool location")
 
 ### Upload tool option to move FTP datasets into a History
 
@@ -308,7 +308,7 @@ Review details about these Galaxy objects, plus Workflows and Visualizations in 
 
 *   **How to find Deleted _but not Permanently Deleted (Purged)_ Histories**
 
-    *   [Learn/ManagingDatasets#Delete_vs_Delete_Permanently](https://wiki.galaxyproject.org/learn/ManagingDatasets#Delete_vs_Delete_Permanently)
+    *   [Learn/managing-datasets#Delete_vs_Delete_Permanently](https://wiki.galaxyproject.org/learn/managing-datasets#Delete_vs_Delete_Permanently)
 
 *   **Usage still too large based on active plus deleted Histories after Purging?**
 
@@ -327,7 +327,7 @@ Review details about these Galaxy objects, plus Workflows and Visualizations in 
 *   **Solution**
 
     *   Reset the metadata on the dataset(s). This may be an uploaded dataset or one created by prior tools. It could be one of the input datasets to a failed job.
-        *   How to: Click on the _**Auto-detect**_ button found near the bottom of the _**Edit Attributes**_ form for the dataset. Reach this form using the dataset's ![pencil](/src/src/images/icons/pencil.png "pencil") icon.
+        *   How to: Click on the _**Auto-detect**_ button found near the bottom of the _**Edit Attributes**_ form for the dataset. Reach this form using the dataset's ![pencil](/src/images/icons/pencil.png "pencil") icon.
 
 *   **If this does not resolve the problem**
 
@@ -350,9 +350,9 @@ Review details about these Galaxy objects, plus Workflows and Visualizations in 
 
 *   **How to troubleshoot**
 
-    *   Click on the ![bug](/src/images/Icons?action=AttachFile&do=get&target=bug.png "bug") icon. Many errors will explain the problem.
+    *   Click on the ![bug](/src/images/icons/bug.png "bug") icon. Many errors will explain the problem.
 
-    *   Odd cluster problem? Rerun first. [Persistent errors can be reported](https://wiki.galaxyproject.org/Support#Reporting_tool_errors) using the ![bug](/src/images/Icons?action=AttachFile&do=get&target=bug.png "bug") icon's form. Note that the job must have been run at [http://usegalaxy.org](http://usegalaxy.org) or reproduced there. LEAVE ALL DATASETS UNDELETED.
+    *   Odd cluster problem? Rerun first. [Persistent errors can be reported](https://wiki.galaxyproject.org/Support#Reporting_tool_errors) using the ![bug](/src/images/icons/bug.png "bug") icon's form. Note that the job must have been run at [http://usegalaxy.org](http://usegalaxy.org) or reproduced there. LEAVE ALL DATASETS UNDELETED.
 
     *   Job ran out of memory? [See here](https://wiki.galaxyproject.org/Support#Job_failure_reason:_exceeds_memory_allocation)
 
@@ -368,7 +368,7 @@ The Galaxy user interface (UI) has been designed to communicate job execution st
 
 When a tool is executed, one or more new **[datasets](/learn/managing-datasets)** are added to a history. The same is true when a **workflow** is executed. _If using the public [Main](/src/main) Galaxy instance, the most effective strategy when running jobs on the shared resource is to start jobs (or workflows), and then leave them alone to execute until completion._
 
-When work is urgent during peak-usage times on the public **[Main](/src/main)** Galaxy instance, a **[CloudMan](/src/cloudman)** instance is a quick-to-implement alternative. For large scale and/or urgent ongoing work, a **[CloudMan](/src/cloudman)**, **[Local](/admin/GetGalaxy)**, or **[SlipStream Galaxy](http://www.bioteam.net/slipstream/galaxy-edition)** each have advantages as a longer-term solution. [Read more ...](/big-picture/Choices)
+When work is urgent during peak-usage times on the public **[Main](/src/main)** Galaxy instance, a **[CloudMan](/src/cloudman)** instance is a quick-to-implement alternative. For large scale and/or urgent ongoing work, a **[CloudMan](/src/cloudman)**, **[Local](/admin/get-galaxy)**, or **[SlipStream Galaxy](http://www.bioteam.net/slipstream/galaxy-edition)** each have advantages as a longer-term solution. [Read more ...](/src/choices)
 
 _So, how does the processing of tool jobs on **[Main](/src/main)** actually work?_
 
@@ -386,7 +386,7 @@ _So, how does the processing of tool jobs on **[Main](/src/main)** actually work
 
 
 *   The job is executing. Allow this to complete!
-*   If you are using the public [Main](/src/main) Galaxy instance, this job is running on one of our clusters. Different types of tools send jobs to different clusters appropriate for the requirements of each tool. Some tools are more compute intensive than others and significant resources are dedicated to job processing. Jobs have up to 72 hours to complete, if they run longer than this they will fail with a "wall-time" error and turn _red_. Examining tool paramaters is the first option, less sensitive parameters may result in an equally acceptable result, but use less resource. If that is not appropriate or does not succeed, a [CloudMan Galaxy](/src/cloudman) or [Local Galaxy](/admin/GetGalaxy) with sufficient resources may be the solution.
+*   If you are using the public [Main](/src/main) Galaxy instance, this job is running on one of our clusters. Different types of tools send jobs to different clusters appropriate for the requirements of each tool. Some tools are more compute intensive than others and significant resources are dedicated to job processing. Jobs have up to 72 hours to complete, if they run longer than this they will fail with a "wall-time" error and turn _red_. Examining tool paramaters is the first option, less sensitive parameters may result in an equally acceptable result, but use less resource. If that is not appropriate or does not succeed, a [CloudMan Galaxy](/src/cloudman) or [Local Galaxy](/admin/get-galaxy) with sufficient resources may be the solution.
 
 ### Grey
 
@@ -410,7 +410,7 @@ _So, how does the processing of tool jobs on **[Main](/src/main)** actually work
 *   This indicates either an input has a problem or that you have [exceeded disk quota](/src/main#User_Account_Quotas) set by the administrator of the Galaxy instance you are working on.
 
 *   If there is an input problem, correct the problem (often by re-run an upstream job) and click on the tool form option to "resume dependencies". You will not need to stop or restart downstream jobs in most cases (permit paused jobs to start, as inputs datasets become available, through this method).
-*   If you need to make room, [permanently delete unneeded data](/learn/ManagingDatasets#Delete_vs_Delete_Permanently). If you are using the public [Main](/src/main) Galaxy instance, disk quotas are defined [here](/src/main). You will not need to delete/re-run jobs while doing this, unless you are filtering your work to prevent exceeding quota again (only purging, not restarting at this time). Instead, restart using the History menu option "Resume Paused Jobs".
+*   If you need to make room, [permanently delete unneeded data](/learn/managing-datasets#Delete_vs_Delete_Permanently). If you are using the public [Main](/src/main) Galaxy instance, disk quotas are defined [here](/src/main). You will not need to delete/re-run jobs while doing this, unless you are filtering your work to prevent exceeding quota again (only purging, not restarting at this time). Instead, restart using the History menu option "Resume Paused Jobs".
 
 ### Grey, Yellow, Grey again ???
 
@@ -422,7 +422,7 @@ _So, how does the processing of tool jobs on **[Main](/src/main)** actually work
 *   The job was first submitted to the default cluster, but did not finished within the "wall-time" quota. Instead of failing, the job was automatically submitted to the long-running cluster **Stampede**. This cluster offers more execution time resource to the job. The wait may be longer since jobs running on this cluster by other users are also executing for a longer time period.
 
 *   Stopping (deleting) the job and then restarting places it back at the end of the first queue, where the cycle will begin again, extending wait time even further. Please do not do this. Allow the job to process.
-*   If the job fails after running on Stampede, then it is too large to run on [http://usegalaxy.org](http://usegalaxy.org), also known as "Main". [Choose](/big-picture/Choices) another strategy to execute your job on a different Galaxy platform or consider modifying inputs/parameters to make the job [less compute intensive](/src/support#Job_failure_reason_.22ran_longer_than_the_maximum_allowed_job_run_time.22).
+*   If the job fails after running on Stampede, then it is too large to run on [http://usegalaxy.org](http://usegalaxy.org), also known as "Main". [Choose](/choices) another strategy to execute your job on a different Galaxy platform or consider modifying inputs/parameters to make the job [less compute intensive](/src/support#Job_failure_reason_.22ran_longer_than_the_maximum_allowed_job_run_time.22).
 
 *   Read more about the details of different clusters on the **[Main](/src/main)** wiki.
 
@@ -473,7 +473,7 @@ _**[Dataset](/learn/managing-datasets) format problems are the #1 reason that to
 *   The most commonly used tools for investigating problems with upload, format and making corrections are:
     *   **TIP**: use the Tool search in top left panel to find tools by keyword
 
-    *   _**Edit Attributes**_ form, found by clicking a dataset's ![Images/Icons/pencil.png](/src/src/images/icons/pencil.png "Images/Icons/pencil.png") icon
+    *   _**Edit Attributes**_ form, found by clicking a dataset's ![Images/Icons/pencil.png](/src/images/icons/pencil.png "Images/Icons/pencil.png") icon
 
     *   _**Convert Format**_ tool group
 
@@ -590,7 +590,7 @@ If the job remains too large to run on the public [Main](/src/main) Galaxy insta
 
 
 
-Usually a simple datatype assignment incompatibility between the [dataset](/learn/managing-datasets) and the tool. Expected input [datatype](/learn/datatypes) format is explained on the Tool form itself under the parameter settings. _**Convert Format**_ or modify the datatype using the dataset's ![pencil](/src/src/images/icons/pencil.png "pencil") icon to reach the _**Edit Attributes**_ form. Many metadata attributes can be edited on these forms, including **database**. You may need to first create a **[Custom Build](/learn/custom-genomes#Custom_Builds)** when using a [Custom Reference Genome](/src/support#Custom_reference_genome).
+Usually a simple datatype assignment incompatibility between the [dataset](/learn/managing-datasets) and the tool. Expected input [datatype](/learn/datatypes) format is explained on the Tool form itself under the parameter settings. _**Convert Format**_ or modify the datatype using the dataset's ![pencil](/src/images/icons/pencil.png "pencil") icon to reach the _**Edit Attributes**_ form. Many metadata attributes can be edited on these forms, including **database**. You may need to first create a **[Custom Build](/learn/custom-genomes#Custom_Builds)** when using a [Custom Reference Genome](/src/support#Custom_reference_genome).
 
 ## Dataset special cases
 
@@ -602,7 +602,7 @@ Usually a simple datatype assignment incompatibility between the [dataset](/lear
 
 *   If the required input is a [FASTQ](/learn/datatypes#Fastq) datatype, and the data is a newly uploaded FASTQ file, run **FastQC** then **FASTQ Groomer** as first steps, then continue with your analysis. Watch the **[FASTQ Prep Illumina](http://vimeo.com/galaxyproject/fastqprep)** screencast for a walk-through.
 
-    *   _If you are certain that the quality scores are already scaled to Sanger Phred+33_ (the result of an Illumina 1.8+ pipeline), the datatype ".fastqsanger" can be directly assinged. Click the ![pencil](/src/src/images/icons/pencil.png "pencil") icon to reach the _**Edit Attributes**_ form. In the center panel, click on the "Datatype" tab (3rd), enter the datatype ".fastqsanger", and save. Metadata will assign, then the dataset can be used.
+    *   _If you are certain that the quality scores are already scaled to Sanger Phred+33_ (the result of an Illumina 1.8+ pipeline), the datatype ".fastqsanger" can be directly assinged. Click the ![pencil](/src/images/icons/pencil.png "pencil") icon to reach the _**Edit Attributes**_ form. In the center panel, click on the "Datatype" tab (3rd), enter the datatype ".fastqsanger", and save. Metadata will assign, then the dataset can be used.
 
     *   _If you are not sure what type of FASTQ data you have_, see the help directly on the **FASTQ Groomer** tool for information about types.
 
@@ -610,13 +610,13 @@ Usually a simple datatype assignment incompatibility between the [dataset](/lear
 
         *   _For SOLiD_, run **NGS: Fastq manipulation → AB-SOLID DATA → Convert**, to create a ".fastqcssanger" dataset. If you have uploaded a color space fastq sequence with quality scores already scaled to Sanger Phred+33 (".fastqcssanger"), first confirm by running **FastQC** on a sample of the data. Then if you want to double-encode the color space into psuedo-nucleotide space (required by certain tools), see the instructions on the tool form **Fastq Manipulation** for the conversion.
 
-    *   _If your data is [FASTA](/learn/datatypes#Fasta)_, but you want to use tools that require [FASTQ](/learn/datatypes#Fastq) input, then using the tool **NGS: QC and manipulation → Combine FASTA and QUAL**. This tool will create "placeholder" quality scores that fit your data. On the output, click the ![pencil](/src/src/images/icons/pencil.png "pencil") icon to reach the _**Edit Attributes**_ form. In the center panel, click on the "Datatype" tab (3rd), enter the datatype ".fastqsanger", and save. Metadata will assign, then the dataset can be used.
+    *   _If your data is [FASTA](/learn/datatypes#Fasta)_, but you want to use tools that require [FASTQ](/learn/datatypes#Fastq) input, then using the tool **NGS: QC and manipulation → Combine FASTA and QUAL**. This tool will create "placeholder" quality scores that fit your data. On the output, click the ![pencil](/src/images/icons/pencil.png "pencil") icon to reach the _**Edit Attributes**_ form. In the center panel, click on the "Datatype" tab (3rd), enter the datatype ".fastqsanger", and save. Metadata will assign, then the dataset can be used.
 
 ### Tabular/Interval/BED Datatype QA
 
 
 
-*   If the required input is a [Tabluar](/learn/datatypes#Tabular) datatype, other datatypes that are in a specialized tabular format, such as .bed, .interval, or .txt, can often be directly reassigned to tabular format. Click the ![pencil](/src/src/images/icons/pencil.png "pencil") icon to reach the _**Edit Attributes**_ form. In the center panel, using tabs to navigate, change the datatype (3rd tab) and save, then label columns (1st tab) and save. Metadata will assign, then the dataset can be used.
+*   If the required input is a [Tabluar](/learn/datatypes#Tabular) datatype, other datatypes that are in a specialized tabular format, such as .bed, .interval, or .txt, can often be directly reassigned to tabular format. Click the ![pencil](/src/images/icons/pencil.png "pencil") icon to reach the _**Edit Attributes**_ form. In the center panel, using tabs to navigate, change the datatype (3rd tab) and save, then label columns (1st tab) and save. Metadata will assign, then the dataset can be used.
 
 *   If the required input is a [BED](/learn/datatypes#Bed) or [Interval](/learn/datatypes#Interval) datatype, the reverse (.tab → .bed, .tab → .interval) may be possible using a combination of _**Text Manipulation**_ tools, to create a [dataset](/learn/managing-datasets) that matches the BED or Interval [datatype](/learn/datatypes) specifications.
 
@@ -663,7 +663,7 @@ Using the _**same exact reference genome**_ for all steps in an analysis is ofte
 
     *   When moving between a **Galaxy [CloudMan AMI](/src/cloudman) and the public [Main](/src/main) Galaxy** instance, just make sure the database name is the same. If the assigned database name is the same, the content of the reference genome is the same.
 
-    *   When moving between a **[local Galaxy](/admin/GetGalaxy) and the public [Main](/src/main) Galaxy** instance, there are a few choices:
+    *   When moving between a **[local Galaxy](/admin/get-galaxy) and the public [Main](/src/main) Galaxy** instance, there are a few choices:
 
         *   Consider using our version of commonly used genomes, [available through our rsync server](/admin/Data%20Integration#Get_the_data)
 
@@ -671,11 +671,11 @@ Using the _**same exact reference genome**_ for all steps in an analysis is ofte
 
         *   When there are differences, use your own genome as a [Custom Reference Genome](/src/support#Custom_reference_genome) with tools
 
-    *   When moving between a **[local Galaxy](/admin/GetGalaxy) and a Galaxy [CloudMan AMI](/src/cloudman)**, the same guidelines as above for [Main](/src/main) would apply, since [Main](/src/main) and the [CloudMan AMI](/src/cloudman) are based off of the same content
+    *   When moving between a **[local Galaxy](/admin/get-galaxy) and a Galaxy [CloudMan AMI](/src/cloudman)**, the same guidelines as above for [Main](/src/main) would apply, since [Main](/src/main) and the [CloudMan AMI](/src/cloudman) are based off of the same content
 
 *   _**How do I load a reference genome?**_
 
-    *   Use FTP - details are [here...](/FTPUpload) and troubleshooting help is [here...](/src/support#Trouble_loading_data)
+    *   Use FTP - details are [here...](/ftp-upload) and troubleshooting help is [here...](/src/support#Trouble_loading_data)
 
     *   If your genome is small (bacterial, etc.), using it as a [Custom Reference Genome](/src/support#Custom_reference_genome) is the quickest way to get it into Galaxy and to start using it with tools.
 
@@ -689,7 +689,7 @@ Using the _**same exact reference genome**_ for all steps in an analysis is ofte
 
 
 
-Have you been asked to share a history? Or has someone shared a workflow with you but you're not sure where to find it? Or maybe you just want to find out more about how publishing your work in Galaxy can be used to support your next publication? Watch the how to **[Share and Publish](http://vimeo.com/galaxyproject/sharepublish)** screencast and [read more here](/learn/Share).
+Have you been asked to share a history? Or has someone shared a workflow with you but you're not sure where to find it? Or maybe you just want to find out more about how publishing your work in Galaxy can be used to support your next publication? Watch the how to **[Share and Publish](http://vimeo.com/galaxyproject/sharepublish)** screencast and [read more here](/learn/share).
 
 ## Reporting tool errors
 
@@ -698,7 +698,7 @@ Have you been asked to share a history? Or has someone shared a workflow with yo
 *   If running a tool on the [public Galaxy server](/src/main) (i.e., [http://usegalaxy.org](http://usegalaxy.org)) is resulting in an error (the dataset is <span class="red">red</span>), and you can't determine the root cause from the error message or input format checks:
 
     *   Re-run the job to eliminate transitory cluster issues.
-    *   Report the problem using the dataset's ![bug](/src/images/Icons?action=AttachFile&do=get&target=bug.png "bug") icon. Do not submit an error for the first failure, but leave it _**undeleted**_ in your history for reference.
+    *   Report the problem using the dataset's ![bug](/src/images/icons/bug.png "bug") icon. Do not submit an error for the first failure, but leave it _**undeleted**_ in your history for reference.
 
     *   **IMPORTANT**: Get the _quickest resolution_ by leaving **all** of the input and output datasets in the analysis thread leading up to the error in your history _**undeleted**_ until we have written you back. Use _**Options → Include Deleted Datasets**_ and click dataset links to _**undelete**_ to recover error datasets before reporting the problem, if necessary.
 
@@ -777,7 +777,7 @@ A double check against the tool help and documentation is the first step. If the
 
         *   If you ended up with a failed dataset (red), it is sometimes better to submit that instead as a [tool error (bug report)](/src/support#Error_from_tools) unless the question is general.
 
-        *   _We can help or guide you to help_. Whenever [sharing](/learn/Share) or submitting a history for feedback, please be sure to leave the datasets in the analysis thread _undeleted_ so that we can offer the best advice.
+        *   _We can help or guide you to help_. Whenever [sharing](/learn/share) or submitting a history for feedback, please be sure to leave the datasets in the analysis thread _undeleted_ so that we can offer the best advice.
 
 
 
@@ -804,7 +804,7 @@ Often the quickest way to get your analysis going is to load a custom genome for
 *   Use the same custom genome for all the steps in your analysis that require a reference genome. Don't switch or the data can become mismatched in your files, preventing downstream work.
 *   To add a custom **Genome Build** so that it can be assigned as a "database" attribute, or to make it known/available to certain tools, create it under "User → Custom Builds". More details [here...](/learn/custom-genomes#Custom_Builds).
 
-*   **TIP**: To modify a [dataset](/learn/managing-datasets) to have an unassigned reference genome, use the ![pencil](/src/src/images/icons/pencil.png "pencil") icon to "Edit Attributes". On the form, for the attribute **Database/Build:**, set the genome to be " **<tt>unspecified (?)</tt>** ", and submit. Any prior assignments will be removed.
+*   **TIP**: To modify a [dataset](/learn/managing-datasets) to have an unassigned reference genome, use the ![pencil](/src/images/icons/pencil.png "pencil") icon to "Edit Attributes". On the form, for the attribute **Database/Build:**, set the genome to be " **<tt>unspecified (?)</tt>** ", and submit. Any prior assignments will be removed.
 
 *   If you genome is available on [usegalaxy.org (Main)](http://usegalaxy.org), but just not indexed for the tool you want to use, you can get the genome from our **[rsync server](/admin/UseGalaxyRsync)**. This will ensure that all of your work uses the _same exact reference genome_ for all steps in an analysis, a critical part of a successful experiment.
 
@@ -816,7 +816,7 @@ Often the quickest way to get your analysis going is to load a custom genome for
 
 *   If your genome is small (bacterial, etc.), using it as a [Custom Reference Genome](/learn/custom-genomes) is the quickest way to to get it into Galaxy and to start using it with tools.
 
-*   Obtain a [FASTA](/learn/datatypes#Fasta) version, load using [using FTP](/FTPUpload), and use from your history with tools.
+*   Obtain a [FASTA](/learn/datatypes#Fasta) version, load using [using FTP](/ftp-upload), and use from your history with tools.
 
 ### Tools on the Main server: Extract DNA
 
@@ -854,13 +854,13 @@ To launch your own **[Cloudman Galaxy](https://wiki.galaxyproject.org/Cloud)** s
 
 
 <div class="right">
-[![Search all](/src/images/logos?action=AttachFile&do=get&target=GalaxyMailingListSearch.png "Search all")](/MailingLists#Searching)</div>
+[![Search all](/src/images/logos?action=AttachFile&do=get&target=GalaxyMailingListSearch.png "Search all")](/mailing-lists#Searching)</div>
 
 
 
-Still need help not covered by the tool help, the [Learning Hub](/learn), a [Screencast](/learn/Screencasts), a [Tutorial](https://usegalaxy.org/u/james/p/exercises), or an [FAQ](/learn/FAQ)?
+Still need help not covered by the tool help, the [Learning Hub](/learn), a [Screencast](/learn/Screencasts), a [Tutorial](https://usegalaxy.org/u/james/p/exercises), or an [FAQ](/learn/faq)?
 
-*   Start with a search in our [mailing list archives](/MailingLists#Searching) to see if this question has come up before.
+*   Start with a search in our [mailing list archives](/mailing-lists#Searching) to see if this question has come up before.
 
 *   If you have a development topic to discuss, your data/tool situation has not come up before, and/or troubleshooting has failed (including at least one re-run, as explained in [Error from tools](/src/support#Error_from_tools) above), post to a list or [Galaxy Biostar](/src/support#Biostar)
 
