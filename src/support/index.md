@@ -196,30 +196,29 @@ If you DO NOT see any files as in the example below, **load data using FTP first
 
 
 
-*   **Download datasets** by clicking on the disk icon inside the [dataset](/learn/managing-datasets). Good for smaller sizes in all browsers.
-
-*   **Download entire histories** by selecting _"Export to File"_ from the History menu, and clicking on the link generated.
-
-*   **Transfer entire histories** by selecting _"Export to File"_ from the History menu, generating the link, coping the link in the "from" Galaxy instance, **then** in the "to" Galaxy instance select "Import from File" from the History menu, and paste in the link into the new form.
-
+* **Download datasets** by clicking on the disk icon inside the [dataset](/learn/managing-datasets). Good for smaller sizes in all browsers.
+* **Download entire histories** by selecting _"Export to File"_ from the History menu, and clicking on the link generated.
+* **Transfer entire histories** by selecting _"Export to File"_ from the History menu, generating the link, coping the link in the "from" Galaxy instance, **then** in the "to" Galaxy instance select "Import from File" from the History menu, and paste in the link into the new form.
 * The video **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** includes help about different datatypes and what to expect in the download icon (one file or two!).
 
 ### Download tip: Big data
 
 
 
-*   _**How can I download larger datasets?**_
+* _**How can I download larger datasets?**_
 
-**Browser option:** use [Google Chrome](http://www.williams.edu.au/) and click on the disc icon (this browser supports continuous download.
+**Browser option:** use Google Chrome and click on the disc icon (we've found that this browser supports better continuous downloads).
 
 **Utility option:** from a shell/unix/terminal window on your computer use **[wget](https://www.gnu.org/software/wget/manual/html_node/Download-Options.html#Download-Options)** or **[curl](http://en.wikipedia.org/wiki/CURL)**.
 
-The link can be obtained by right clicking the floppy disk icon inside a
-history item and choosing "Copy Link Location" (for most datasets) or "Download
-Dataset/Download bam_index" (for BAM datasets there are two downloads). Once
-you have the <tt><link></tt>, type this (where "$" indicates the terminal
-prompt), so that the <tt><link></tt> is inside of single quotes. Like many
-commands, there are many options. These are examples commonly used with Galaxy.
+The direct download link to a dataset can be obtained by right clicking the
+floppy disk icon and choosing "Copy Link Location" (for most datasets) or
+"Download Dataset/Download bam_index" (for BAM datasets there are two
+downloads). Once you have the link, type this (where "$" indicates the terminal
+prompt), so that the link is inside of single quotes. Like many commands, there
+are many options. These are examples commonly used with Galaxy.
+
+Here's what it looks like using 'wget':
 
 ```
 $ wget -O '<link>'
