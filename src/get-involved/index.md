@@ -68,6 +68,6 @@ Galaxy has a presence at many [Events](/src/events/index.md) throughout the year
 # Outreach
 
 <div class='left'>
-<a href='/src/outreach/index.md'><img src="/src/outreach/poweredby-galaxy/PoweredByGalaxy120.png" alt="Powered by Galaxy" /></a>
+<a href='/src/outreach/index.md'><img src="/images/powered-by-galaxy.png" alt="Powered by Galaxy" /></a>
 </div>
 You can also help by spreading the word about Galaxy.  There are [numerous ways to do this](/src/outreach/index.md).

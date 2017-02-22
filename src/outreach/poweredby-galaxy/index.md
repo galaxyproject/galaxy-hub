@@ -1,14 +1,18 @@
-<div class='center'><img src="/src/outreach/powered%20by%20-galaxy/PoweredByGalaxy617.png" alt="Powered by Galaxy" width="300" /></div>
+---
+title: Powered by Galaxy
+---
 
-<br /><br />
-Use these icons to include a *Powered by Galaxy* logo and link on your web pages, or on printed material. The list below shows the "Powered by Galaxy" icon in various resolutions.
+Feel free to use these images to include a *Powered by Galaxy* logo and link on
+your web pages, or on printed material. The list below shows the "Powered by
+Galaxy" icon in various resolutions.
 
-If you use a  icon on web pages you are encouraged to have the icon link back to [GalaxyProject.org](http://galaxyproject.org/).
+If you use these graphics on web pages you are encouraged to have the image link back
+to [galaxyproject.org](http://galaxyproject.org/).
 
 
-| Icon |  Description  | 
-| ---- | ------------ | 
-| <a href='/src/outreach/powered%20by%20-galaxy/PoweredByGalaxy120.png'><img src="/src/outreach/powered%20by%20-galaxy/PoweredByGalaxy120.png" /></a> |  [/src/outreach/powered%20by%20-galaxy/PoweredByGalaxy120.png](/src/outreach/powered%20by%20-galaxy/PoweredByGalaxy120.png)]], 120 x 44  | 
-| <a href='/src/outreach/powered%20by%20-galaxy/PoweredByGalaxy200.png'><img src="/src/outreach/powered%20by%20-galaxy/PoweredByGalaxy200.png" /></a> |  [/src/outreach/powered%20by%20-galaxy/PoweredByGalaxy200.png](/src/outreach/powered%20by%20-galaxy/PoweredByGalaxy200.png)]], 200 x 73  | 
-| <a href='/src/outreach/powered%20by%20-galaxy/PoweredByGalaxy617.png'><img src="/src/outreach/powered%20by%20-galaxy/PoweredByGalaxy617.png" alt="" width="300" /></a> |  [/src/outreach/powered%20by%20-galaxy/PoweredByGalaxy617.png](/src/outreach/powered%20by%20-galaxy/PoweredByGalaxy617.png)]], 617 x 260 (click on image for full size). Suitable for including on printed documents such as posters, or for creating custom icon sizes  | 
-| [PLACEHOLDER_ATTACHMENT_URL/src/PoweredByGalaxy.xcf](PLACEHOLDER_ATTACHMENT_URL/src/PoweredByGalaxy.xcf)]] |  [PLACEHOLDER_ATTACHMENT_URL/src/PoweredByGalaxy.xcf](PLACEHOLDER_ATTACHMENT_URL/src/PoweredByGalaxy.xcf)]], 617 x 260, the source GIMP file used to produce these images.  You need this only if you want to customize the contents of the image.  | 
+| Image                                       | Description  |
+| ------------------------------------------- | ------------ |
+| ![](PoweredByGalaxy120.png)                 |  120 x 44    |
+| ![](PoweredByGalaxy200.png)                 |  200 x 73    |
+| ![](PoweredByGalaxy617.png)                 |  617 x 260 Suitable for including on printed documents such as posters, or for creating custom image sizes  |
+| [PoweredByGalaxy.xcf](PoweredByGalaxy.xcf)  |  617 x 260, the source GIMP file used to produce these images.  You need this only if you want to customize the contents of the image.  |
