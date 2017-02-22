@@ -1,19 +1,16 @@
-{{> Admin/LinkBox }}
-{{> Develop/LinkBox }}
-{{> Admin/Tools/LinkBox }}
+---
+autotoc: true
+---
 
 ## Adding custom tools to Galaxy
 
-Vast number of good and well-implemented tools for Galaxy is available through the [Galaxy ToolShed](/src/toolshed/index.md) and you can freely install any of them into your Galaxy instance via the [admin interface](/src/admin/index.md). Short tutorial to get you started is available [here](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md).
+A vast number of well-implemented tools are available for Galaxy through the [Galaxy Tool Shed](/src/toolshed/index.md). Users with admin privileges can freely install any tools from the Tool Shed to their Galaxy instance via the [admin interface](/src/admin/index.md). A short tutorial describing how to install tools from the Tool Shed is available [here](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md).
 
+The list of available tools in the Tool Shed can be found [here](http://toolshed.g2.bx.psu.edu). If a tool is not currently in the Tool Shed, it can be wrapped and added to Galaxy and later shared in the Tool Shed with the rest of the world. The steps outlined below will guide users through the creation of a custom tool in Galaxy. There are also helpful instructions in this [tutorial for Creating a Histogram Tool](/src/admin/tools/adding-tools/index.md).
 
-If you did not find your favorite tool in the ToolShed you can always add it to your Galaxy manually (and later share in the Tool Shed with the rest of the world if you like). This article will help you with this creation of a custom tool in your Galaxy.
+### 1. Write and test the tool outside Galaxy.
 
-See also the [Tutorial for Creating a Histogram Tool](/src/admin/tools/adding-tools/index.md).
-
-### 1. Write and test your tool outside Galaxy:
-
-Suppose one has written a simple Perl script (called `toolExample.pl`) for computing the GC content of a sequence in the FASTA format, which looks like this:
+In this example we have written a simple Perl script called `toolExample.pl` for computing the GC content of a sequence in FASTA format.
 
 ```perl
 #!/usr/bin/perl -w
@@ -41,25 +38,23 @@ close( IN );
 close( OUT );
 ```
 
+This tool has been tested outside of Galaxy and functions as expected.
 
-To integrate this tool into Galaxy we will follow these steps:
+### 2. Put the tool into Galaxy's tools directory.
 
-### 2. Put tool into Galaxy's tools directory:
-
-To begin the tool integration process we need to add our Perl script to the `tools/` directory, where all tool-related files are stored. In this example we will create a new subdirectory called `myTools` within `tools/`.  So `cd` to your Galaxy installation and type these commands:
+To begin the tool integration process, we need to add our Perl script to the `tools/` directory, where all tool-related files are stored, within our Galaxy installation. In this example we have create a new subdirectory called `myTools` within `tools/` and then moved to this subdirectory.
 
 ```sh
 cd tools
 mkdir myTools
 cd myTools
 ```
-  
 
-Now one needs to copy the script (in this case `toolExample.pl`) into the `tools/myTools/` directory.
+Next, we need to copy the Perl script to our new subdirectory so that Galaxy can recognize it. In this example we have copied `toolExample.pl` to the `tools/myTools/` directory.
 
-### 3. Create Tool Definition File:
+### 3. Create the tool definition file.
 
-At this point `toolExample.pl` resides within the `tools/myTools/` directory, but Galaxy still does not know how to run this tool. To let Galaxy know the execution details of our new tool, we need to write a tool configuration file, which, in this case, will be called `toolExample.xml`. For this particular example open a text editor of your choice and create the `toolExample.xml` file within the `tools/myTools` directory. This file looks like this:
+Although `toolExample.pl` now resides within the `tools/myTools/` directory, Galaxy does not know how to execute this tool. To inform Galaxy of the execution details of this tool, we need to generate a tool definition file. In this example we have created the tool definition file `toolExample.xml` within the `tools/myTools` directory.
  
 ```xml
 <tool id="fa_gc_content_1" name="Compute GC content" version="0.1.0">
@@ -86,32 +81,28 @@ This tool computes GC content from a FASTA file.
 </tool>
 ```
 
+The tool definition file specifies command line parameters, links them to input and output, and provides help information using the restructured text format. The `tools/myTools` directory now contains two files: `toolExample.pl` and `toolExample.xml`. More information on how to write tool definition files can be found [here](https://docs.galaxyproject.org/en/latest/dev/schema.html).
 
-Note how this file specifies command line parameters, links them to input and output, and provides help information using the restructured text format. Once you are done, the `tools/myTools` directory will contain two files `toolExample.pl` and `toolExample.xml`.
-For basic and general tool definition file please see [Example Tool Definiton File](/src/admin/tools/ExampleXMLFile/index.md). Once you feel comfortable with the basics you can browse through the [full tool definition syntax](/src/admin/tools/tool-config-syntax/index.md).
+### 4. Make Galaxy aware of the new tool.
 
-### 4. Make Galaxy aware of the new tool:
+Now that the tool and its definition file are ready, the final step is to make Galaxy aware of the new files. Galaxy recognizes installed tools by reading the `tool_conf.xml` tool configuration file. Thus, letting Galaxy know about the new tool is as easy as adding a few lines to the `tool_conf.xml` file located in the `config/` directory of the Galaxy installation. New tools can either be added to existing sections or added to new sections defined in the following way:
 
-Now the tool and its configuration file are ready. The final step makes Galaxy aware of the new tools. Galaxy knows about installed tools (and also what to display on the left pane) from the `tool_conf.xml` tool-registry file. Thus, letting Galaxy know about our new tool is as easy as adding these lines to the `tool_conf.xml` file located in the config directory of the Galaxy distribution:
 ```xml
  <section name="MyTools" id="mTools">
     <tool file="myTools/toolExample.xml" />
  </section>
 ```
 
+### 5. Start Galaxy.
 
-### 5. Start it up:
-
-At this point, start Galaxy by typing `sh run.sh` from within Galaxy's root directory and point your browser to http://localhost:8080. The interface of the new tool will look like this:
+To test the newly integrated tool, start Galaxy by typing `sh run.sh` from within Galaxy's root directory and point your browser to http://localhost:8080. If the tool has successfully been integrated, the Galaxy interface should look similar to:
 
 ![](/src/admin/tools/add-tool-tutorial/toolExample.png)
 
-Note the correspondence between elements of the `toolExample.xml` file (Step 2) and the interface elements shown above. The "Compute GC for" dropdown reads "no data has the proper type" because the history pane contains no data in the FASTA format (it is empty).
+Note the correspondence between elements of the tool definition file (Step 3) and the interface elements shown above. The "Compute GC for" dropdown reads "no data has the proper type" because the history pane contains no data in the FASTA format.
 
-### 6. (optional) Upload your tool to the Tool Shed:
+### 6. (optional) Upload the tool to Galaxy's Tool Shed.
 
-If you want to easily share your tool with others upload it to the [Galaxy Tool Shed](/src/toolshed/index.md). It allows others to install the tool into their Galaxies seamlessly via the [Admin interface](/src/admin/index.md). If the tool is well written and tested it can even make it to the [Main Galaxy instance](/src/main/index.md) or other [Public Galaxy Servers](/src/public-galaxy-servers/index.md)!
+To share the tool with the Galaxy community, upload it to the [Galaxy Tool Shed](/src/toolshed/index.md). Users can now install the tool into their Galaxies seamlessly via the [Admin interface](/src/admin/index.md). If the tool is well-written and tested it can even make it to the [Main Galaxy instance](/src/main/index.md) or other [Public Galaxy Servers](/src/public-galaxy-servers/index.md)!
 
-To get started with the sharing of your tool please see Tool Shed's [Get started](/src/toolshedGetStarted/index.md).
-
-{{> Develop/ResourcesTools }}
+To get started sharing and publishing your tool, check out the [How to publish a tool in the Tool Shed](/src/toolshed/publish-tool/index.md) tutorial.
