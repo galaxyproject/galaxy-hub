@@ -5,7 +5,7 @@ Galaxy is driven and supported by its user and developer communities.  This page
 
 # Membership
 
-Any organization, group, or individual who [uses](/src/learn/index.md), [deploys](/src/admin/index.md), or develops Galaxy is considered a part of the Galaxy community.  Community members are free to integrate their own tools and/or data into Galaxy.  Members within the Galaxy community are located all around the world.  Subgroups within the overall community may differ in size (small versus large) and/or degree of privacy (public versus private).  However, regardless of affiliation, Galaxy's primary mission is to contribute to research in a wide variety of fields across the tree of life.    
+Any organization, group, or individual who [uses](/src/learn/index.md), [deploys](/src/admin/index.md), or [develops](/src/develop/index.md) Galaxy is considered a part of the Galaxy community.  Community members are free to integrate their own tools and/or data into Galaxy.  Members within the Galaxy community are located all around the world.  Subgroups within the overall community may differ in size (small versus large) and/or degree of privacy (public versus private).  However, regardless of affiliation, Galaxy's primary mission is to contribute to research in a wide variety of fields across the tree of life.    
 
 In short, the Galaxy community includes anyone who works with Galaxy in any capacity.  We are wide open.
 
