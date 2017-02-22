@@ -119,7 +119,6 @@ It is common to prepare pair-end and mate-pair sequencing libraries. This is hig
 | ![](/src/tutorials/ngs/pe_mp.png) |
 |<small>**Paired-end and mate-pair reads**. In paired end sequencing (left) the actual ends of rather short DNA molecules (less than 1kb) are determined, while for mate pair sequencing (right) the ends of long molecules are joined and prepared in special sequencing libraries. In these mate pair protocols, the ends of long, size-selected molecules are connected with an internal adapter sequence (i.e. linker, yellow) in a circularization reaction. The circular molecule is then processed using restriction enzymes or fragmentation. Fragments are enriched for the linker and outer library adapters are added around the two combined molecule ends. The internal adapter can then be used as a second priming site for an additional sequencing reaction in the same orientation or sequencing can be performed from the second adapter, from the reverse strand. (From Ph.D. dissertation by [Martin Kircher](https://core.ac.uk/download/pdf/35186947.pdf))</small>|
 
-
 Thus in both cases (paired-end and mate-pair) a single physical piece of DNA (or RNA in the case of RNA-seq) is sequenced from two ends and so generates two reads. These can be represented as separate files (two fastq files with first and second reads) or a single file were reads for each end are interleaved. Here are examples:
 
 #### Two single files
@@ -200,7 +199,7 @@ Illumina sequencing is based on identifying the individual nucleotides by the fl
 
 ![](/src/tutorials/ngs/illumina_qs.png)
 
-</div></div>
+</div>
 
 Base call quality scores are represented with the Phred range. Different Illumina (formerly Solexa) versions
 used different scores and ASCII offsets. Starting with Illumina format 1.8, the score now represents the standard
