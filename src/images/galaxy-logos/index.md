@@ -2,11 +2,6 @@
 autotoc: true
 title: Galaxy Project Logos
 ---
-{{> Images/LinkBox }}
-
-<div class='right'></div>
-
-
 
 These are current official Galaxy Project logos, using the current version of the Galaxy Logo created by [Petr Kadlec](http://puradesign.cz/en).
 
@@ -63,32 +58,10 @@ Galaxy Project Logos have been provided to the Galaxy community for community bu
 * Transparent background
     <a href='/src/images/galaxy-logos/starforge_logo_big.png'><img src="/src/images/galaxy-logos/starforge_logo_big.png" alt="" width="800" /></a>
 
-## Tool Shed
-
- * 
-
-# Other Logos
-
-## BioStar
-
- *
-
-## GetGalaxy.org
-
- *
-
-## Docker and Galaxy
-
- * 
-
 ## GalaxyAdmins
 
 * 1781x742 pixels
     <a href='/src/images/galaxy-logos/GalaxyAdmins.png'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="" width="800" /></a>
-
-## Galaxy Deployment Catalog
-
- *
 
 ## Galaxy News
 
@@ -118,18 +91,3 @@ Galaxy Project Logos have been provided to the Galaxy community for community bu
 * Logo, just G, 679x429 pixels
     <a href='/src/images/galaxy-logos/GalaxyScholarshipsGBig.png'><img src="/src/images/galaxy-logos/GalaxyScholarshipsGBig.png" alt=""  /></a>
 
-## Search and Mailing Lists
-
- * 
-
-## UseGalaxy.org
-
- * 
-
-# Full List
-
-PLACEHOLDER_ACTION(AttachFile, Attach a new file)
-
-An alphabetical list of all logos on this page.  If you want to create an HTML link to an image copy the *get* link for that image.
-
-PLACEHOLDER_ATTACH_LIST
