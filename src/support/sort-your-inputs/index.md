@@ -15,17 +15,17 @@ Good news! Galaxy includes tools to do this sorting.
 * **VCFsort** Best choice for VFC
 * **Tool Form Options for Sorting** Some tools have a tool form option to sort inputs during job execution. This uses more resources but is a choice. Whenever possible, _sort inputs before using tools_, especially if jobs are failing for not enough memory resources.
 
-- - - 
-
 ## Tools and Tool groups that require input sorting
 
 ### Htseq_count
 
 Example error on bug report. 
 
-> job info:
-> This job was terminated because it used more memory than it was allocated.
-> Please click the bug icon to report this problem if you need help.
+```
+job info:
+This job was terminated because it used more memory than it was allocated.
+Please click the bug icon to report this problem if you need help.
+```
 
 How to sort?
 
@@ -37,9 +37,8 @@ If the job still fails for memory after sorting, Section 2.8 of the Galaxy suppo
 
 Example error on bug report. Yours may differ. If there is a problem, try sorting first before reporting a bug.
 
-job stdout:
-
 ```
+job stdout:
 [samopen] SAM header is present: N sequences.
 [bam_index_core] the alignment is not sorted (display_dataset_name): A-th chr > B-th chr
 [bam_index_build2] fail to index the BAM file.
@@ -54,9 +53,8 @@ Try using *Coordinate sort* on the inputs with **SortSam** before using these to
 
 Tools can error for a variety of reasons that seem to be unrelated to sort order, including this one seen on the bug report (click on the green bug icon, but there is no need to submit the bug/error):
 
-job info:
-
 ```
+job info:
 This job was terminated because it used more memory than it was allocated.
 Please click the bug icon to report this problem if you need help.
 ```
