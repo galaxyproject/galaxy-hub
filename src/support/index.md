@@ -94,7 +94,7 @@ The Galaxy Project uses [GitHub](https://github.com/galaxyproject/galaxy/issues)
 
 
 
-Some researchers use more than one Galaxy server. How to move data between these is **[described here](/community/Log/2016/MovingDataBetweenGalaxies)**.
+Some researchers use more than one Galaxy server. How to move data between these is **[described here](/src/community/log/2016/moving-data-between-galaxies)**.
 
 This procedure works between any two Galaxy instances, whether using the [Main](/src/main) public instance, a [Local](/admin/get-galaxy), a [Cloud](/cloud), and many [Public Galaxy Servers](/public-galaxy-servers).
 
@@ -114,7 +114,7 @@ Galaxy has a simplified tool interface packed with usage details. [Read more...]
 
 Having your own account on the public **[Test](/src/test)** and/or **[Main](/src/main)** server means that you can save histories, work with more data, associate an [OpenID](/learn/OpenID%20Login), and get the most out of Galaxy's functionality. Be sure to note that the public [Test](/src/test) and [Main](/src/main) instance **usage policies are <span class="red">one account per user<span class="grey"></span></span>**, as stated in our **[Terms and Conditions](https://usegalaxy.org/static/terms.html)**. Also, make sure your email address is valid so that you can confirm your new account (emails are case sensitive) and so that our administrator can contact you if needed (rare, but you'll want the email!). More details **[here](/src/support#Dataset_and_History_Guides)**.
 
-Watch the **[Accounts on Main](http://vimeo.com/galaxyproject/accounts)** video for a quick how-to and see our **[User Accounts](/learn/User%20Accounts)** wiki for more help.
+Watch the **[Accounts on Main](http://vimeo.com/galaxyproject/accounts)** video for a quick how-to and see our **[User Accounts](/src/learn/user-accounts)** wiki for more help.
 
 ## Finding a tool
 
@@ -130,8 +130,7 @@ At the top of the left tool panel, type in a tool name or data type into the too
 
 Data is loaded using the tools in the _**Get Data**_ tool group. Some access specific data provider sites that will load data back into your Galaxy history. To directly load your own local data or data from another source, use the tool _**Get Data → Upload File**_ (also accessible from the top of the left tool panel, as seen in the graphics below). Want to practice import/export functions with small sample data? Import the [Upload sample data history here](https://usegalaxy.org/u/usinggalaxy/h/upload).
 
-*   **Watch the [Getting Data In](/learn/GalaxyNGS101#Getting_data_in) Screencasts**
-
+*   *Watch the [Getting Data In](/src/learn/galaxy-ngs101#getting-data-in) Screencasts*
 *   Each file loaded creates one dataset in the history.
 *   The maximum size limit is 50G (uncompressed).
 *   Most individual file compression formats are supported, but multi-file archives are not (<tt>.tar</tt>, <tt>.zip</tt>).
@@ -141,9 +140,7 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 
 
 *   Load by "browsing" for a local file. Only good for **very small** [datasets](/learn/managing-datasets). ( < 2G, but often works best for smaller). If you are having problems with this method, try FTP.
-
 *   Load using an **HTTP URL** or **FTP URL**.
-
 *   Load a few lines of plain text.
 *   [Load using FTP](/learn/Upload%20via%20FTP). Either line command or with a desktop client.
 
@@ -152,8 +149,7 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 
 
 *   Search for your data directly in the tool and use the Galaxy links
-*   [Visual example](/src/support/EBI-SRA_data_load)
-
+*   [Visual example](/src/support/ebi-sra-data-load)
 *   Be sure to check your sequence data for correct quality score formats and the metadata "datatype" assignment. [Here is how...](/src/support#FASTQ_Datatype_QA)
 
 ### Get Data: Upload tool used with FTP
@@ -161,14 +157,10 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 
 
 *   Load the data using line command FTP or a client. [More help...](/ftp-upload)
-
 *   Note that the FTP server name is specific to the Galaxy you are working on. This is by default the URL of the server.
     *   For the public Main Galaxy instance at [http://usegalaxy.org](http://usegalaxy.org) the FTP server name to use is **usegalaxy.org**.
-
     *   For a default local (with FTP enabled, see next) the FTP server name to use is **localhost:8080**. If the server URL was modified, then use that custom URL.
-
-*   If on another server, the FTP server name will appear in the **Upload** tool pop-up window (see graphics below). When using a local Galaxy server, be certain to _[configure your instance for FTP](/admin/Config/UploadviaFTP)_ first.
-
+*   If on another server, the FTP server name will appear in the **Upload** tool pop-up window (see graphics below). When using a local Galaxy server, be certain to _[configure your instance for FTP](/src/admin/config/upload-via-ftp)_ first.
 *   Use your email and password for the same instance as your credentials to log in and save the data to your account.
 *   Once the data is loaded (confirm through FTP client), use the **Upload** tool to load the data into a History.
 
@@ -189,21 +181,13 @@ If you DO NOT see any files as in the example below, **load data using FTP first
 
 
 *   **Data [quota](/learn/managing-datasets#Data_size_and_disk_Quotas) is at limit**, so _no new data can be loaded_. Disk usage and quotas are reported at _**User → Preferences**_ when logged in.
-
 *   **Password protected data** will require a special URL format. Ask the data source. Double check that it is _publicly accessible_.
-
 *   Use _**[FTP](/learn/Upload%20via%20FTP)**_, not _**SFTP**_. Check with local admin if not sure.
-
 *   **No HTML content.** The loading error generated may state this. Remove HTML fields from your dataset before loading into Galaxy or omit HTML fields from the query if importing from a data source (such as Biomart).
-
 *   Compression types **.gz/.gzip, .bz/.bzip, .bz2/.bzip2, and single-file .zip are supported.**
-
 *   Only the **first file in any compressed archive** will load as a **[dataset](/learn/managing-datasets)**.
-
 *   Data must be **< 50G** (uncompressed) to be successfully uploaded and added as a dataset to a history, from any source.
-
 *   **Is the problem the dataset format or the assigned datatype?** Can this be corrected by editing the datatype or converting formats? See [Learn/Managing Datasets](/learn/managing-datasets) for help or watch the screencast above for a how-to example.
-
 *   **Problems in the first step working with your loaded data?** It may not have _uploaded_ completely. If you used an FTP client, the transfer message will indicate if a load was successful or not and can often restart interrupted loads. This makes FTP a great choice for slower connections, even when loading small files.
 
 
@@ -230,22 +214,26 @@ If you DO NOT see any files as in the example below, **load data using FTP first
 
 **Utility option:** from a shell/unix/terminal window on your computer use **[wget](https://www.gnu.org/software/wget/manual/html_node/Download-Options.html#Download-Options)** or **[curl](http://en.wikipedia.org/wiki/CURL)**.
 
-The link can be obtained by right clicking the floppy disk icon inside a history item and choosing "Copy Link Location" (for most datasets) or "Download Dataset/Download bam_index" (for BAM datasets there are two downloads). Once you have the <tt><link></tt>, type this (where "$" indicates the terminal prompt), so that the <tt><link></tt> is inside of single quotes. Like many commands, there are many options. These are examples commonly used with Galaxy.
+The link can be obtained by right clicking the floppy disk icon inside a
+history item and choosing "Copy Link Location" (for most datasets) or "Download
+Dataset/Download bam_index" (for BAM datasets there are two downloads). Once
+you have the <tt><link></tt>, type this (where "$" indicates the terminal
+prompt), so that the <tt><link></tt> is inside of single quotes. Like many
+commands, there are many options. These are examples commonly used with Galaxy.
 
+```
+$ wget -O '<link>'
+$ wget -O --no-check-certificate '<link>' # ignore SSL certificate warnings
+$ wget -c '<link>'                        # continue an interrupted download</pre>
+```
 
+Or, using curl:
 
-<pre><span class="anchor" id="line-1"></span>  $ wget -O '<link>' 
-<span class="anchor" id="line-2"></span>  $ wget -O --no-check-certificate '<link>' # ignore SSL certificate warnings
-<span class="anchor" id="line-3"></span>  $ wget -c '<link>'                        # continue an interrupted download</pre>
-
-
-
-
-
-<pre>  $ curl -o outfile '<link>' 
-  $ curl -o outfile --insecure '<link>'     # ignore SSL certificate warnings
-  $ curl -C - -o outfile '<link>'           # continue an interrupted download</pre>
-
+```
+$ curl -o outfile '<link>' 
+$ curl -o outfile --insecure '<link>'     # ignore SSL certificate warnings
+$ curl -C - -o outfile '<link>'           # continue an interrupted download</pre>
+```
 
 
 ## Dataset and History Guides
@@ -259,18 +247,14 @@ Review details about these Galaxy objects, plus Workflows and Visualizations in 
 
 
 *   From the top **User** menu, select **Register**
-
 *   More details are here: [Getting an account](/src/support#Getting_an_account)
-
 *   Registered accounts work with multiple Histories, increased quotas (both data and job/tool access), and have access to full Galaxy functionality.
 *   A valid email address is the only piece of identifiable information that you share for registration
 *   We never, ever, share your Registration information
     *   On rare occasions we might send an important administration email about your account
     *   These are emails that you definitely _want to get_
-
     *   Use a valid email address. Not only to confirm you account, but to ensure that we can communicate with you when really necessary
 *   Make sure to **Register** for an account when doing any serious work
-
     *   Register at any time, even in the middle of an analysis. The current History will be added
     *   Log into your existing account. The current History will be added
     *   Please follow the [User quotas](/src/main) for the Galaxy server in use. For [http://usegalaxy.org](http://usegalaxy.org), this is one account per user.
@@ -860,44 +844,40 @@ _**Note:**_ **If your question is about an error on [Main](/src/main) for a job 
 ## What to include in a question
 
 
-
 1.  Where you are using Galaxy: [Main](/src/main), other public, local, or cloud instance
-
 2.  End-user questions from [Test](/src/test) are generally not sent/supported - _Test is for breaking_
-
 3.  If a local or cloud instance, the distribution or galaxy-central hg pull #
 4.  If on [Main](/src/main), date/time the initial and ru-run jobs were executed
-
 5.  If there is an example/issue, exact steps to reproduce
 6.  What troubleshooting steps (if a problem is being reported) you have tested out
 7.  If on [Main](/src/main), you may be asked for a shared history link. Use _**Options → Share or Publish**_, generate the link, and email it directly back off-list. Note the dataset #'s you have questions about.
-
 8.  **IMPORTANT**: Get the _quickest answer_ for data questions by leaving **all** of the input and output datasets in the analysis thread in your shared history _**undeleted**_ until we have written you back. Use _**Options → Show Deleted Datasets**_ and click dataset links to _**undelete**_ to recover datasets if necessary
-
 9.  **Always **_reply-all_ **unless sharing a private link**
+
 
 ## Starting a scientific, data, or tool usage thread
 
-
-
 *   Do not use a mailing list. Use [Galaxy Biostar](/src/support#Biostar)
+
 
 ## Starting a technical tool, local/cloud instance, or development thread
 
-
-
 *   Gather information "What to include in a question" above
 *   Send an email to [mailto:galaxy-dev@lists.galaxyproject.org](mailto:galaxy-dev@lists.galaxyproject.org)
-
 *   Subscribing to the [Galaxy Development List](https://lists.galaxyproject.org/listinfo/galaxy-dev) is recommended for tool developers and instance administrators
-
 *   Discussion threads are open to the entire community and the Galaxy team to answer
 *   **Always **_reply-all_ **unless sharing a private link**
 
+
 ## Reporting a software bug
 
+Bug or [Error from tools](/src/support#Error_from_tools)? Sometimes it is hard
+to tell. If you are on the public [Main](/src/main) instance, and ran a tool
+that produced a <span class="red">red</span> error dataset, then you will
+probably want to start by reporting this as a [Tool
+Error](/src/support#Reporting_tool_errors), but add in comments about your
+suspicious about a bug if there is something odd about the job failure.
 
-
-Bug or [Error from tools](/src/support#Error_from_tools)? Sometimes it is hard to tell. If you are on the public [Main](/src/main) instance, and ran a tool that produced a <span class="red">red</span> error dataset, then you will probably want to start by reporting this as a [Tool Error](/src/support#Reporting_tool_errors), but add in comments about your suspicious about a bug if there is something odd about the job failure.
-
-If you think you've seen a software bug (not an ["Error from tools"](/src/support#Error_from_tools) ), please report it. More information about how and where can be found at the [Galaxy Issue Board](/src/issues).
+If you think you've seen a software bug (not an ["Error from
+tools"](/src/support#Error_from_tools) ), please report it. More information
+about how and where can be found at the [Galaxy Issue Board](/src/issues).
