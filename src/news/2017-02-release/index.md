@@ -1,5 +1,5 @@
 ---
-title: 'Galaxy Release 17.01 is out'
+title: 'Galaxy Release 17.01'
 date: '2017-02-23'
 ---
 
