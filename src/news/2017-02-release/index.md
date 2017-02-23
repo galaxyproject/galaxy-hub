@@ -3,6 +3,11 @@ title: 'Galaxy Release 17.01 is out'
 date: '2017-02-23'
 ---
 
-The 17.01 Galaxy Release is now out!
+Dear Community,
 
-Jen, please fill in the rest here.
+**The [January 2017 17.01 Galaxy Release](https://docs.galaxyproject.org/en/master/releases/17.01_announce.html) is out!**
+
+_Thanks for using Galaxy,_
+
+[The Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) 
+
