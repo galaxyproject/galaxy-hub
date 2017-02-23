@@ -1,12 +1,9 @@
 ---
 autotoc: true
-title: Beyond the [Galaxy Event Horizon](/src/events/index.md)
+title: Beyond the Galaxy Event Horizon
 ---
 
-
-<div class='right'></div>
-
-Listing of Galaxy events from previous years. See the main [Events](/src/events/index.md) page for current and recent events.
+Listing of Galaxy events from previous years. See the main [Galactic Events](/src/events/index.md) page for current and recent events.
 
 # 2016
 
