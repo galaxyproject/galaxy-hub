@@ -3,7 +3,7 @@ title: 'Galaxy is hiring'
 date: '2017-02-02'
 ---
 
-The Galaxy project currently has open positions in both the [Johns Hopkins University] (http://jamestaylor.org/) and [Penn State](http://www.bx.psu.edu/~anton/) groups.
+The Galaxy project currently has open positions in both the [Johns Hopkins University](http://jamestaylor.org/) and [Penn State](http://www.bx.psu.edu/~anton/) groups.
 
 <div class='right'><a href='http://www.bx.psu.edu/~anton/'><img src="/src/images/logos/PennStateLogo.jpg" alt="Opening at Penn State" width="200" /></a></div>
 **[Penn State](/src/community/Penn State/index.md): System administrators/analysts**
