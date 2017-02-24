@@ -1,5 +1,6 @@
 ---
 autotoc: true
+title: The Galaxy Community
 ---
 
 The Galaxy Project is driven and supported by its user and developer communities. This page organizes everything loosely related to the Galaxy community into one place.
