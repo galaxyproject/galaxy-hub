@@ -1,8 +1,7 @@
 ---
 autotoc: true
+title: Intergalactic Utilities Commission
 ---
-
-# Intergalactic Utilities Commission
 
 ## Introduction
 
