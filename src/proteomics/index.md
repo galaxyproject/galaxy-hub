@@ -1,7 +1,5 @@
 # Proteomics
 
-{{> Proteomics/LinkBox }}
-
 This is a landing page for finding out information about Galaxy-based proteomics efforts. Please check our ongoing planning and documentation of potential proteomics, mass spec, and multi-omics Galaxy [use cases](/src/proteomics/use-cases/index.md).
 
 ## Quick Links
@@ -10,9 +8,9 @@ This is a landing page for finding out information about Galaxy-based proteomics
 
 ### Galaxy Public Servers for Proteomics
 
+* [Galaxy-P](https://usegalaxyp.org)
 * [Andromeda](http://galaxy.nbic.nl/)
 * [Galaxy@WUR](http://galaxy.wur.nl/)
-* [Galaxy-P](https://usegalaxyp.org)
 
 ### Galaxy Proteomics Presentations
 
@@ -25,7 +23,9 @@ This is a landing page for finding out information about Galaxy-based proteomics
 
 ### Other Links
 
-GitHub: 
+The GalaxyP Project on [twitter](https://twitter.com/usegalaxyp).
+
+The GalaxyP Project on GitHub: 
 * [Galaxy-P](https://github.com/galaxyproteomics/)
 * [Ira Cooke](https://github.com/iracooke/)
 * [John Chilton](https://github.com/jmchilton)
