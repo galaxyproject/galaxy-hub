@@ -19,9 +19,9 @@ Teaching *using* means instructing users how to perform bioinformatic analyses w
 * [Local Galaxy Servers](/src/teach/computing-platforms/index.md#local-galaxy-servers)
 * [Public Galaxy Servers](/src/teach/computing-platforms/index.md#public-galaxy-servers)
 
-## Teaching 'Admininstering'
+## Teaching 'Administering'
 
-Teaching *adminstering* means instructing users how to install and manage a Galaxy instance. This type of teaching works best if each participant sets up a [personal server](/src/teach/computing-platforms/index.md#personal) for which they are the only user and have admin access. The following options are available for teaching *administering*:
+Teaching *administering* means instructing users how to install and manage a Galaxy instance. This type of teaching works best if each participant sets up a [personal server](/src/teach/computing-platforms/index.md#personal) for which they are the only user and have admin access. The following options are available for teaching *administering*:
 
 * [Personal Servers with CloudMan](/src/teach/computing-platforms/index.md#personal-servers-with-cloudman)
 * [From the Command Line, using an AMI](/src/teach/computing-platforms/index.md#from-the-command-line-using-an-ami)
