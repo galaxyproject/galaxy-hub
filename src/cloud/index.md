@@ -3,15 +3,11 @@ autotoc: true
 title: Galaxy on the Cloud
 ---
 
-
-<div class='right'></div>
-
 Researchers' compute requirements vary widely over time and formerly required either buying and maintaining compute resources (with most of it idle, most of the time), or reserving time and a fixed amount of compute resources on institutional clusters.
 
 The *cloud* provides another option for this situation that can be cost-effective and efficient.  Cloud infrastructures are elastic and dynamic.  You only allocate resource when you need them, and you are able to dynamically scale up and down your allocated resources as your needs change over time.  Furthermore, compute clouds are maintained by outside providers - you don't need to install your own hardware, or need to have access to a research compute cluster at your institution.
 
 Cloud infrastructures are just [one of the many ways that Galaxy is available](/src/choices/index.md).
-
 
 ## CloudMan
 
@@ -42,18 +38,13 @@ You can also set up your own Galaxy server using any cloud provider, but not Clo
 
 Finally, these vendors also provide support for running Galaxy on cloud infrastructures:
 
-
 #### GenomeCloud
+![GenomeCloud](/src/cloud/GenomeCloudLogo.png)
 
-<div class='right'><a href='http://www.genome-cloud.com'><img src="/src/cloud/GenomeCloudLogo.png" alt="GenomeCloud"  /></a></div>
-
-From [GenomeCloud](http://www.genome-cloud.com):
-<div class='indent'>
 [GenomeCloud](http://www.genome-cloud.com) started with combining the idea of cloud computing with bioinformatics as an integrated solution for data storage and sharing, database management, upgrading computing and analysis tools, and security. 
 
-[GenomeCloud](http://www.genome-cloud.com) is designed to aid biologists and researchers to perform bioinformatics tasks easier, as  well as support small-sized laboratories to perform researches without hurdles. 
+GenomeCloud is designed to aid biologists and researchers to perform bioinformatics tasks easier, as  well as support small-sized laboratories to perform researches without hurdles. 
 
-[GenomeCloud](http://www.genome-cloud.com) is composed of g-Analysis, g-Cluster, g-Storage, and g-Insight services, where accounts creation and management, monitoring systems, billing, and service management are offered via KT's proven superior cloud-based web system, providing convenience to the researchers and other users. 
+GenomeCloud is composed of g-Analysis, g-Cluster, g-Storage, and g-Insight services, where accounts creation and management, monitoring systems, billing, and service management are offered via KT's proven superior cloud-based web system, providing convenience to the researchers and other users. 
 
 Users can easily use Galaxy using g-Cluster based on cloud computing. 
-<div class='indent'>
