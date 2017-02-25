@@ -16,7 +16,7 @@ The statistics here don't reflect just what's happened since the switch, but als
 
 All date ranges here are from Biostar.  For example, the "last 12 months" means anything that Biostar identifies as having happened between now and "12 months ago", inclusive.
 
-### Active Users
+## Active Users
 
 Active here means "visited", as defined by Biostar.
 
@@ -31,7 +31,7 @@ Active here means "visited", as defined by Biostar.
 | 2017-01-16 | 967   | 2,042 | 3,794 |
 
 
-### Active Threads
+## Active Threads
 
 | Date | Last 12 Weeks | Last 6 Months | Last 12 Months |
 |------|---------------|---------------|---------------|
@@ -44,7 +44,7 @@ Active here means "visited", as defined by Biostar.
 | 2017-01-16 | 306 | 827 | 1,652 |
 
 
-### All Time Totals
+## All Time Totals
 
 | Date       |  Posts | Threads | Questions | Answers | Comments |  Users |
 |------------|--------|---------|-----------|---------|----------|-------|
