@@ -2,15 +2,10 @@
 autotoc: true
 title: Running Galaxy in a production environment
 ---
-{{> Admin/Config/Performance/LinkBox }}
-
 
 The [basic installation instructions](/src/admin/get-galaxy/index.md) are suitable for development by a single user, but when setting up Galaxy for a multi-user production environment, there are some additional steps that should be taken for the best performance.
 
-You may also want to consult the [Building Scalable Galaxy slides](PLACEHOLDER_ATTACHMENT_URL/src/events/gdc2010/GDC2010_building_scalable.pdf) from the [2010 Galaxy Developers Conference](/src/events/gdc2010/index.md) at CSHL (upon which this page is based).
-
-
-## Why bother?
+# Why bother?
 
 By default, Galaxy:
 
@@ -21,9 +16,9 @@ By default, Galaxy:
 
 Galaxy ships with this default configuration to ensure the simplest, most error-proof configuration possible when doing basic development.  As you'll soon see, the goal is to remove as much work as possible from the Galaxy process, since doing so will greatly speed up the performance of its remaining duties.  This is due to the Python Global Interpreter Lock (GIL), which is explained in detail in the [Advanced Configuration](/src/admin/config/performance/production-server/index.md#advanced-configuration) section.
 
-## Groundwork for scalability
+# Groundwork for scalability
 
-### Use a clean environment
+## Use a clean environment
 
 Many of the following instructions are best practices for any production application.
 
@@ -57,11 +52,11 @@ nate@weyerbacher% sh run.sh
 
 * Galaxy can be housed in a cluster/network filesystem (it's been tested with NFS and GPFS), and you'll want to do this if you'll be running it on a [cluster](/src/admin/config/performance/cluster/index.md).
 
-## Basic configuration
+# Basic configuration
 
 The steps to install Galaxy mostly follow those of the regular instructions at [Admin/GetGalaxy](/src/admin/get-galaxy/index.md).  The difference is that after performing the groundwork above, you should initialize the configuration file (`cp config/galaxy.ini.sample config/galaxy.ini`) and modify it as outlined below before starting the server. If you make any changes to this configuration file while the server is running, you will have to restart the server for the changes to take effect.
 
-### Disable the developer settings
+## Disable the developer settings
 
 Two options are set in the sample `config/galaxy.ini` which should not be enabled on a production server. You should set both to `False`:
 
@@ -72,7 +67,7 @@ Two options are set in the sample `config/galaxy.ini` which should not be enable
 During deployment, you may run into problems with failed jobs.  By default, Galaxy removes files related to job execution. You can instruct Galaxy to keep files of failed jobs with: `cleanup_job = onsuccess`
 
 
-### Switching to a database server
+## Switching to a database server
 
 The most important recommendation is to switch to an actual database server.  By default, Galaxy will use [SQLite](http://www.sqlite.org/), which is a serverless simple file database engine.  Since it's serverless, all of the database processing occurs in the Galaxy process itself.  This has two downsides: it occupies the aforementioned GIL (meaning that the process is not free to do other tasks), and it is not nearly as efficient as a dedicated database server.  There are other drawbacks, too.  When load increases with multiple users, the risk of transactional locks also increases.  Locks will cause (among other things) timeouts and job errors.  If you start with SQLite and then later realize a need for a database server, you'll need to migrate your database or start over.  Galaxy does not provide an internal method to migrate data from SQLite, and although free conversion tools are available on the web, this process is non-trivial.
 
@@ -110,7 +105,7 @@ If you are using [MySQL](http://dev.mysql.com/) please make sure the database ou
 
 If you are using [MySQL](http://dev.mysql.com/) with [MyISAM](http://dev.mysql.com/doc/refman/5.1/en/myisam-storage-engine.html) table engine when Galaxy is in multiprocess configuration, workflow steps will [get executed out of order](http://dev.list.galaxyproject.org/Job-execution-order-mixed-up-tt4662488.html) and fail.  Use [InnoDB](http://dev.mysql.com/doc/refman/5.1/en/innodb-storage-engine.html) engine instead or switch to [PostgreSQL](http://www.postgresql.org/).
 
-### Using a proxy server
+## Using a proxy server
 
 Galaxy contains a standalone web server and can serve all of its content directly to clients.  However, some tasks (such as serving static content) can be offloaded to a dedicated server that handles these tasks more efficiently.  A proxy server also allows you to authenticate users externally using any method supported by the proxy (for example, Kerberos or LDAP), instruct browsers to cache content, and compress outbound data. Also, Galaxy's built-in web server does not support byte-range requests (required for many external display applications), but this functionality can be offloaded to a proxy server.  In addition to freeing the GIL, compression and caching will reduce page load times.
 
@@ -121,7 +116,7 @@ Virtually any server that proxies HTTP should work, although we provide configur
 * [Apache](/src/admin/config/apache-proxy/index.md), and
 * [nginx](/src/admin/config/nginxProxy/index.md), a high performance reverse proxy, used by our public Galaxy sites
 
-### Using a compute cluster
+## Using a compute cluster
 
 Galaxy is a framework that runs command-line tools, and if properly configured, can run these tools on a compute [cluster](/src/admin/config/performance/cluster/index.md).  Without a cluster, you'll be limited to the number of cores in your server, minus those needed to run Galaxy itself.  Galaxy currently supports TORQUE PBS, PBS Pro, Platform LSF, and Sun Grid Engine clusters, and does not require a dedicated or special cluster configuration.  Tools can even run on heterogeneous cluster nodes (differing operating systems), as long as any dependencies necessary to run the tool are available on that platform.
 
@@ -149,7 +144,7 @@ PATH_TO_GALAXY_LOG_FILES {
 ```
 
 
-### Local Data
+## Local Data
 
 To get started with setting up local data, please see [Data Integration](https://wiki.galaxyproject.org/Admin/DataIntegration)
 * All local *reference genomes* must be included in the `builds.txt` file.
@@ -160,23 +155,23 @@ To get started with setting up local data, please see [Data Integration](https:/
 * Comments in location files explain the expected format.
 * Wikis linked from [Data Integration](https://wiki.galaxyproject.org/Admin/DataIntegration) explain how to obtain, create, or rysnc many common data and indexes. See an individual Tool Shed repository's documentation for more details.
 
-### Enable upload via FTP
+## Enable upload via FTP
 
 File sizes have grown very large thanks to rapidly advancing sequencer technology, and it is not always practical to upload these files through the browser.  Thankfully, a simple solution is to allow Galaxy users to upload them via FTP and import those files in to their histories.  Configuration for FTP is explained on the [Admin/Config/Upload via FTP](/src/admin/config/Upload via FTP/index.md) page.
 
-## Advanced configuration
+# Advanced configuration
 
-### Load balancing and web application scaling
+## Load balancing and web application scaling
 
 As already mentioned, unloading work from the Galaxy process is important due to the Python [Global Interpreter Lock](http://docs.python.org/c-api/init.html#thread-state-and-the-global-interpreter-lock) (GIL).  The GIL is how Python ensures thread safety, and it accomplishes this by only allowing one thread to control execution at a time.  This means that regardless of the number of cores in your server, Galaxy can only use one.  However, there's a solution: Run multiple Galaxy processes and use the proxy server to balance across all of these processes.  In practice, Galaxy is split into job handler and web server processes.  Job handlers do not service any user requests directly via the web.  Instead, they watch the database for new jobs, and upon finding them, handle the preparation, monitoring, running, and completion of them.  Likewise, the web server processes are free to deal only with serving content and files to web clients.
 
 Full details on how to configure scaling and load balancing can be found on the [Admin/Config/Performance/Scaling](/src/admin/config/performance/scaling/index.md) page.
 
-### Unloading even more work
+## Unloading even more work
 
 For those readers who've already been running Galaxy on a cluster, a bit of information was recently added to the [Admin/Config/Performance/Cluster](/src/admin/config/performance/cluster/index.md) page regarding running the data source tools on the cluster (contrary to the default configuration).  Running all tools on the cluster is strongly encouraged, so if you have not done this, please check out the new information.
 
-### Tune the database
+## Tune the database
 
 [PostgreSQL](http://www.postgresql.org/) can store results more efficiently than Galaxy, and as a result, reduce Galaxy's memory footprint.  When a query is made, the result will remain on the Postgres server and Galaxy can retrieve only the rows it needs.  To enable this, set `database_engine_option_server_side_cursors = True` in the Galaxy config.
 
@@ -188,6 +183,6 @@ Finally, if you are using Galaxy <= release_2014.06.02, we recommend that you in
 
 By default, Galaxy receives file uploads as a stream from the proxy server and then writes this file to disk.  Likewise, it sends files as a stream to the proxy server.  This occupies the GIL in that Galaxy process and will decrease responsiveness for other operations in that process.  To solve this problem, you can configure your proxy server to serve downloads directly, involving Galaxy only for the task of authorizing that the user has permission to read the dataset.  If using nginx as the proxy, you can configure it to receive uploaded files and write them to disk itself, only notifying Galaxy of the upload once it's completed.  All the details on how to configure these can be found on the [Apache](/src/admin/config/apache-proxy/index.md) and [nginx](/src/admin/config/nginxProxy/index.md) proxy instruction pages.
 
-## Testing
+# Testing
 
 After installing, you will want to test your instance of Galaxy by running some tests.  See [Admin/RunningTests](/src/admin/running-tests/index.md) for more information.
