@@ -21,7 +21,7 @@ All date ranges here are from Biostar.  For example, the "last 12 months" means 
 Active here means "visited", as defined by Biostar.
 
 | Date | Last 12 Weeks | Last 6 Months | Last 12 Months |
-|------------|-------|------|------|
+|------------|------:|-----:|-----:|
 | 2014-07-09 | 1,190 | 1,274 | 1,424 |
 | 2014-10-13 | 1,178 | 2,261 | 2,469 |
 | 2015-01-23 | 1,210 | 2,242 | 3,473 |
@@ -34,7 +34,7 @@ Active here means "visited", as defined by Biostar.
 ## Active Threads
 
 | Date | Last 12 Weeks | Last 6 Months | Last 12 Months |
-|------|---------------|---------------|---------------|
+|------|--------------:|--------------:|--------------:|
 | 2014-07-09 | 268 | 383 | 654 |
 | 2014-10-13 | 281 | 561 | 780 |
 | 2015-01-23 | 272 | 620 | 986 |
@@ -47,7 +47,7 @@ Active here means "visited", as defined by Biostar.
 ## All Time Totals
 
 | Date       |  Posts | Threads | Questions | Answers | Comments |  Users |
-|------------|--------|---------|-----------|---------|----------|-------|
+|------------|-------:|--------:|----------:|--------:|---------:|-------:|
 | 2014-07-09 |  8,223 |   2,978 |     2,959 |   2,908 |    2,337 |  2,517 |
 | 2014-10-13 |  9,230 |   3,252 |     3,220 |   3,252 |    2,726 |  3,555 |
 | 2015-01-23 | 10,298 |   3,547 |     3,505 |   3,646 |    3,105 |  4,700 |
@@ -73,7 +73,7 @@ Membership in and traffic on Galaxy's [Mailing Lists](/src/mailing-lists/index.m
 *Note that "Total" over-counts the number of subscribers, as many people belong to two or more lists.*
 
 | Date    |  User   |   Dev | Announce | Total |
-|---------|---------|-------|----------|-------|
+|---------|--------:|------:|---------:|------:|
 | 2011/01 |  1,681  |   280 |        - | 1,961 |
 | 2011/07 |  2,134  |   447 |        - | 2,581 |
 | 2012/01 |  2,687  |   607 |       58 | 3,352 |
@@ -109,7 +109,7 @@ Membership in and traffic on Galaxy's [Mailing Lists](/src/mailing-lists/index.m
 Most [local installations of Galaxy](/src/admin/get-galaxy/index.md) are private.  However, some are not and we do keep a list of known [Public Galaxy Servers](/src/public-galaxy-servers/index.md).  These servers allow public access, although sometimes with restrictions.  This is not an absolute count, but it is a rough measure of the trend.
 
 | Date    | # Servers |
-|---------|-----------|
+|---------|----------:|
 | 2011/07 | 15 |
 | 2012/01 | 21 |
 | 2012/07 | 20 |
@@ -132,7 +132,7 @@ A Galaxy [CiteULike](/src/cite-u-like/index.md) group was started in late 2011. 
 As of January 2017 these are the tags on papers in the Galaxy CiteULike Group:
 
 | Tag                    | This year | Since 2011       |
-|------------------------|-----------|------------------|
+|------------------------|----------:|-----------------:|
 | Methods                |        25 |            1,974 |
 | Workbench              |        10 |            1,068 |
 | UseMain                |        10 |              421 |
@@ -172,7 +172,7 @@ Two measures of how vibrant a project is the number of code commits, and the num
 From the [Open HUB commits summary page](https://www.openhub.net/p/galaxybx/commits/summary):
 
 | Date       | Past 30 days | past 12 months |   Ever |
-|------------|--------------|----------------|--------|
+|------------|-------------:|---------------:|-------:|
 | 2016-02-02 |          184 |          7,854 | 28,216 |
 | 2016-08-16 |          149 |          7,189 | 32,193 |
 | 2017-01-19 |          144 |          6,675 | 34,451 |
@@ -184,7 +184,7 @@ From the [Open HUB commits summary page](https://www.openhub.net/p/galaxybx/comm
 From the [Open HUB committers summary page](https://www.openhub.net/p/galaxybx/contributors):
 
 | Date       | Past 30 days | past 12 months |   Ever |
-|------------|--------------|----------------|--------|
+|------------|-------------:|---------------:|-------:|
 | 2016-02-02 |           24 |            120 |    218 |
 | 2016-08-16 |           18 |            123 |    282 |
 
@@ -195,7 +195,7 @@ From the [Open HUB committers summary page](https://www.openhub.net/p/galaxybx/c
 The [Galaxy repo on GitHub](https://github.com/galaxyproject/galaxy) is what people download to create a Galaxy server.  **GitHub exposes the number of clones and cloners in the most recent 14 day period.**
 
 | Date       | Clones | Unique Cloners |
-|------------|--------|----------------|
+|------------|-------:|---------------:|
 | 2015-11-26 |  2,090 |            358 |
 | 2015-12-14 |  2,885 |            322 |
 | 2016-02-02 |  2,978 |            414 |
@@ -209,7 +209,7 @@ The [Galaxy repo on GitHub](https://github.com/galaxyproject/galaxy) is what peo
 The [Galaxy Project Tool Shed](http://toolshed.g2.bx.psu.edu/) contains contributed software and workflows that can be installed at any Galaxy site.
 
 | Date    | Repos | Unique Owners | Valid Tools |
-|---------|-------|---------------|-------------|
+|---------|------:|--------------:|------------:|
 | 2014/07 | 1,140 |           254 |       2,538 |
 | 2014/10 | 1,236 |           273 |       2,684 |
 | 2015/01 | 1,355 |           293 |       2,914 |
