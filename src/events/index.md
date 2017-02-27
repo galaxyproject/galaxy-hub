@@ -55,6 +55,12 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/events/ismms2016/index.md#questions'>Andrew Sharp</a> </td>
   </tr>
   <tr>
+    <th> February 27 </th>
+    <td> <em><a href='http://www.cmb.ac.lk/index.php/event/the-pulse-of-cloud-computing-with-bioinformatics-as-an-example/'>The Pulse of Cloud Computing with Bioinformatics as an example</a></em> </td>
+    <td> <img src="/src/images/icons/Asia40.png" alt="Asia" align="right" /> The University of Colombo, Colombo, Sri Lanka </td>
+    <td><div class='right'></div> Nuwan Goonasekera and Enis Afgan </td>
+  </tr>
+  <tr>
     <th> February 28 </th>
     <td> <em><a href='http://www.qfab.org/workshops/genome-assembly-using-galaxy-28-feb-2017'>Genome assembly using Galaxy</a></em> </td>
     <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href="http://www.uq.edu.au/maps/?id=255"> Queensland Bioscience Precinct</a>, The University of Queensland, St Lucia. Australia </td>
