@@ -13,7 +13,7 @@ If you maintain a public instance of Galaxy it is recommended to sign up for the
 
 # General Purpose / Genomics Servers
 
-These servers implement a broad range of tools and and aren't specific to any part of the tree of life, or to any specific type of analysis.  These are servers you can use when want to do general genomic analysis.
+These servers implement a broad range of tools and aren't specific to any part of the tree of life, or to any specific type of analysis.  These are servers you can use when want to do general genomic analysis.
 
 <!-- these two seem dead
 
@@ -1783,7 +1783,7 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
   * The project is still in a development phase.
   * Colobraro DP, Romano P. (2017) [USMI Galaxy Demonstrator (UGD): a collection of tools to integrate microorganisms information](https://doi.org/10.7287/peerj.preprints.2766v1). *PeerJ Preprints*  5:e2766v1 DOI: 10.7287/peerj.preprints.2766v1
 * *User Support:*
-  * Report issuses, request information, and and send any suggestions, comments or criticisms to:
+  * Report issuses, request information, and send any suggestions, comments or criticisms to:
   * [Daniele Pierpaolo Colobraro](mailto:danielepierpaolo.colobraro@hsanmartino.it) or [Paolo Romano](mailto:paolo.romano@hsanmartino.it)
 * *Quotas:*
   * Supports anonymous access and account creation. 
