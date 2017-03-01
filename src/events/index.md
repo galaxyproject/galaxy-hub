@@ -11,7 +11,6 @@ Events with Galaxy-related content are listed here.
 <div class='left'>
 <a href='http://bit.ly/gxycal'><img src="/src/images/logos/GalxyEventsCalThumb.png" alt="Galaxy Events Calendar" width="100" /></a><br />
 <a href='http://bit.ly/gxyothercal'><img src="/src/images/logos/GalxyOtherEventsCalThumb.png" alt="Galaxy Other Events Calendar" width="100" /></a>
-<a href='http://migale.jouy.inra.fr/?q=formations'><img src="/src/images/logos/MIGALELogo.png" alt='Le cycle "Bioinformatique par la pratique" 2017' height="50" /></a> 
 </div>
 
 The events listed here are also available in the *[Galaxy Events Google Calendar](http://bit.ly/gxycal)*.  The *[Galaxy Other Events Google Calendar](http://bit.ly/gxyothercal)* lists additional events that are relevant to the Galaxy Community, but that are not known to feature significant Galaxy content. 
@@ -25,6 +24,7 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
 <div class='center'>
 <a href="http://www.qfab.org/training/"><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80"></a> &nbsp;
 <a href='http://training.csx.cam.ac.uk/bioinformatics/event/2000038'> <img src="/images/logos/UniCambridgeLogoWide.png" alt="Introduction to Galaxy: Data Manipulation and Visualisation" height="50" /></a>
+<a href='http://migale.jouy.inra.fr/?q=formations'><img src="/src/images/logos/MIGALELogo.png" alt='Le cycle "Bioinformatique par la pratique" 2017' height="50" /></a> 
 </div>
 
 <br />
@@ -35,40 +35,6 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> Topic/Event </th>
     <th> Venue/Location </th>
     <th> Contact </th>
-  </tr>
-  <tr>
-    <th> February 20 </th>
-    <td> <em><a href="https://gigaworkshops.eventbrite.com">Bioinformatics Workshops on Galaxy and Metagenomics</a></em> </td>
-    <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> Preceding the <a href="http://biogenomics2017.org/">Global Biodiversity Genomics Conference</a>Washington, D.C., United States </td>
-    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a>, <a href="/src/people/mo-heydarian/index.md">Mo Heydarian</a> </td>
-  </tr>
-  <tr>
-    <th> February 22 </th>
-    <td> <em><a href="https://gigaworkshops.eventbrite.com">Supporting genomic analysis of diverse organisms using the Galaxy framework</a></em> </td>
-    <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> <a href="http://biogenomics2017.org/">Global Biodiversity Genomics Conference</a>Washington, D.C., United States </td>
-    <td> <a href="/src/people/james-taylor/index.md">James Taylor</a> </td>
-  </tr>
-  <tr>
-    <th> February 22, 23 </th>
-    <td> <em>Introduction to Galaxy Workshop</em> </td>
-    <td> <img src='/src/images/icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://icahn.mssm.edu/'>Icahn School of Medicine at Mt. Sinai</a>, New York, New York, United States </td>
-    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/events/ismms2016/index.md#questions'>Andrew Sharp</a> </td>
-  </tr>
-  <tr>
-    <th> February 27 </th>
-    <td> <em><a href='http://www.cmb.ac.lk/index.php/event/the-pulse-of-cloud-computing-with-bioinformatics-as-an-example/'>The Pulse of Cloud Computing with Bioinformatics as an example</a></em> </td>
-    <td> <img src="/src/images/icons/Asia40.png" alt="Asia" align="right" /> The University of Colombo, Colombo, Sri Lanka </td>
-    <td><div class='right'></div> Nuwan Goonasekera and Enis Afgan </td>
-  </tr>
-  <tr>
-    <th> February 28 </th>
-    <td> <em><a href='http://www.qfab.org/workshops/genome-assembly-using-galaxy-28-feb-2017'>Genome assembly using Galaxy</a></em> </td>
-    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href="http://www.uq.edu.au/maps/?id=255"> Queensland Bioscience Precinct</a>, The University of Queensland, St Lucia. Australia </td>
-    <td><div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training@qfab.org">Organisers</a> </td>
-  </tr>
-
-  <tr>
-    <td colspan=4 style=" background-color: #eef;"> </td>
   </tr>
   <tr>
     <th> March 1 </th>
@@ -245,6 +211,44 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> Links </th>
   </tr>
   <tr>
+    <td colspan=5 style=" background-color: #eef;"> </td>
+  </tr>
+  <tr>
+    <th> February 28 </th>
+    <td> <em><a href='http://www.qfab.org/workshops/genome-assembly-using-galaxy-28-feb-2017'>Genome assembly using Galaxy</a></em> </td>
+    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href="http://www.uq.edu.au/maps/?id=255"> Queensland Bioscience Precinct</a>, The University of Queensland, St Lucia. Australia </td>
+    <td><div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training@qfab.org">Organisers</a> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th> February 27 </th>
+    <td> <em><a href='http://www.cmb.ac.lk/index.php/event/the-pulse-of-cloud-computing-with-bioinformatics-as-an-example/'>The Pulse of Cloud Computing with Bioinformatics as an example</a></em> </td>
+    <td> <img src="/src/images/icons/Asia40.png" alt="Asia" align="right" /> The University of Colombo, Colombo, Sri Lanka </td>
+    <td><div class='right'></div> Nuwan Goonasekera and Enis Afgan </td>
+    <td></td>
+  </tr>
+  <tr>
+    <th> February 22, 23 </th>
+    <td> <em>Introduction to Galaxy Workshop</em> </td>
+    <td> <img src='/src/images/icons/NorthAmerica40.png' alt='North America' align='right' /> <a href='http://icahn.mssm.edu/'>Icahn School of Medicine at Mt. Sinai</a>, New York, New York, United States </td>
+    <td> <div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/events/ismms2016/index.md#questions'>Andrew Sharp</a> </td>
+    <td></td>
+  </tr>
+  <tr>
+    <th> February 22 </th>
+    <td> <em><a href="https://gigaworkshops.eventbrite.com">Supporting genomic analysis of diverse organisms using the Galaxy framework</a></em> </td>
+    <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> <a href="http://biogenomics2017.org/">Global Biodiversity Genomics Conference</a>Washington, D.C., United States </td>
+    <td> <a href="/src/people/james-taylor/index.md">James Taylor</a> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th> February 20 </th>
+    <td> <em><a href="https://gigaworkshops.eventbrite.com">Bioinformatics Workshops on Galaxy and Metagenomics</a></em> </td>
+    <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> Preceding the <a href="http://biogenomics2017.org/">Global Biodiversity Genomics Conference</a>Washington, D.C., United States </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a>, <a href="/src/people/mo-heydarian/index.md">Mo Heydarian</a> </td>
+    <td></td>
+  </tr>
+  <tr>
     <th> February 13-17 </th>
     <td> <em><a href='http://www.denbi.de/22-training-cat/training-courses/213-3rd-galaxy-high-throughput-sequencing-hts-data-analysis-workshop'>Galaxy Workshop on HTS data analysis for Scientists</a></em> </td>
     <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Freiburg, Germany </td>
@@ -323,7 +327,7 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
   </tr>
   <tr>
     <th> February 6 </th>
-    <td> <em>a href="/src/events/koreaKTHRD2017/index.md">Introduction to Galaxy Workshop</a></em> </td>
+    <td> <em><a href="/src/events/koreaKTHRD2017/index.md">Introduction to Galaxy Workshop</a></em> </td>
     <td> <img src="/src/images/icons/Asia40.png" alt="Asia" align="right" /> <a href="http://www.kthrd.com/index.do">KTHRD</a>, Daejeon, South Korea </td>
     <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="/src/people/mo-heydarian/index.md">Mo Heydarian</a>, <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a> </td>
     <td> </td>
