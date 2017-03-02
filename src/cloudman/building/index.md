@@ -2,9 +2,7 @@
 autotoc: true
 title: Building Galaxy CloudMan components
 ---
-{{> CloudMan/Header }}
-
-
+{{> CloudMan/LinkBoxHorizontal }}
 
 <div class='right'></div>
 
@@ -12,12 +10,12 @@ Launching a default version of [CloudMan](http://usecloudman.org/) and [Galaxy o
 
 ## Overview
 
-The process of building your own instance of the system is time consuming (although we are continuing to simplify and streamline this) and will require some technical skills and understanding of the process. Before starting this endeavor, it is highly recommended that you read the following papers: 
+The process of building your own instance of the system is time consuming (although we are continuing to simplify and streamline this) and will require some technical skills and understanding of the process. Before starting this endeavor, it is highly recommended that you read the following papers:
 1. "[Galaxy CloudMan: delivering cloud compute clusters](http://www.biomedcentral.com/1471-2105/11/S12/S4)" - which gives you an overview of the ideology behind what's being done here; and
 2. "[Building and Provisioning Bioinformatics Environments on Public and Private Clouds](http://figshare.com/articles/Building_and_Provisioning_Bioinformatics_Environments_on_Public_and_Private_Clouds/1424740)" - which gives many of the technical details of the overall build process
 3. (optional) "[A reference model for deploying applications in virtualized environments](http://onlinelibrary.wiley.com/doi/10.1002/cpe.1836/full)" - which gives you the technical background why things are being done they way they are being done.
 
-The process of building the system consists of a number of steps. Each step creates a component that, when joined together, compose the complete system. To have a functional *Galaxy on the Cloud* system, it is required to have all the components in place; using CloudMan alone requires only the machine image and an S3 bucket (or a Swift container). The overall process of building the components has been automated via an [Ansible](http://www.ansible.com/) playbook: [galaxy-cloudman-playbook](https://github.com/galaxyproject/galaxy-cloudman-playbook). 
+The process of building the system consists of a number of steps. Each step creates a component that, when joined together, compose the complete system. To have a functional *Galaxy on the Cloud* system, it is required to have all the components in place; using CloudMan alone requires only the machine image and an S3 bucket (or a Swift container). The overall process of building the components has been automated via an [Ansible](http://www.ansible.com/) playbook: [galaxy-cloudman-playbook](https://github.com/galaxyproject/galaxy-cloudman-playbook).
 
 ----
 
@@ -40,7 +38,7 @@ After you’ve decided on the suitable option, specify the bucket name in the Cl
 
 ## Build a Machine Image
 
-The machine image, often called the AMI (for Amazon Machine Image, although other cloud middleware solutions use the same term), represents the base operating system required to run the system; it contains the required system level applications and libraries as well as hooks for starting CloudMan and the rest of the system. Once built, we'll use the machine image to launch instances for building the rest of the components as well to launch instance of the complete system once it's all done. 
+The machine image, often called the AMI (for Amazon Machine Image, although other cloud middleware solutions use the same term), represents the base operating system required to run the system; it contains the required system level applications and libraries as well as hooks for starting CloudMan and the rest of the system. Once built, we'll use the machine image to launch instances for building the rest of the components as well to launch instance of the complete system once it's all done.
 
 To build your machine image, we need to download the [playbook](https://github.com/galaxyproject/galaxy-cloudman-playbook) and follow the instructions there on how to build the machine image. As things currently stand, the image can be built using a single command: *packer build [--only amazon-ebs|openstack] image.json*. Before running that command though, just make sure you followed the initial setup/configuration instructions to provide your cloud access credentials.
 
@@ -70,7 +68,7 @@ cluster_templates:
       archive_url: http://s3.amazonaws.com/cloudman/fs-archives/galaxyFS-latest.tar.gz
       type: archive
       size: 10
-    - name: galaxyIndices   
+    - name: galaxyIndices
       roles: galaxyIndices
       snap_id: snap-c332f2b0
   - name: Data
