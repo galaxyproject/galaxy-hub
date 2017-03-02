@@ -1,7 +1,10 @@
 ---
 autotoc: true
 ---
+
 {{> CloudMan/Header }}
+
+{{> CloudMan/LinkBoxHorizontal }}
 
 <br />
 <div class='right'></div>

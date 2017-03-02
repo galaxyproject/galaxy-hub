@@ -5,11 +5,11 @@ autotoc: true
 
 <br />
 
-<div class='left'></div> {{> CloudMan/LinkBox }}
+{{> CloudMan/LinkBoxHorizontal }}
 
 There are several choices for using Galaxy.  This page describes using Galaxy on a *[cloud infrastructure](https://www.tcnp3.com/home/cloud-technology/what-is-cloud-computing-infographic/)* using CloudMan (see below). For other options, see [Choices](/src/choices/index.md) and [Cloud](/src/cloud/index.md).
 
-### About Galaxy CloudMan
+## About Galaxy CloudMan
 
 Galaxy CloudMan enables Galaxy to be quickly setup on cloud computing
 resources. CloudMan is a *Cloud Man*ager that orchestrates all of the steps
@@ -28,7 +28,7 @@ the current computational demand. Once the need for the compute resources
 subsides, the acquired server(s) can be shut down. With such a paradigm, one
 pays only for the resources they need and use.
 
-### When to use Galaxy CloudMan
+## When to use Galaxy CloudMan
 
 The following is a non-exhaustive list of scenarios when it is beneficial to use Galaxy on the Cloud:
 * Do not want to spend time setting up a Galaxy instance
@@ -36,19 +36,19 @@ The following is a non-exhaustive list of scenarios when it is beneficial to use
 * Have run up against the quotas on a public server
 * Have variable or high requirements for compute or storage resources
 
-### Getting started
+## Getting started
 
 To start your own *Galaxy CloudMan*, see the [Getting Started](/src/cloudman/getting-started/index.md) page.
 
-### Determining the size of your cloud cluster
+## Determining the size of your cloud cluster
 
 Cloud computing allows your cloud cluster to be variable in size and capacity. See [this page](/src/cloudman/capacity-planning/index.md) for some guidelines on how to decide what is right for you.
 
-### Customizing your cloud cluster
+## Customizing your cloud cluster
 
-If you are interested in running your own version of Galaxy and/or tools on the cloud while utilizing all the automation and functionality provided by CloudMan, [this page](/src/cloudman/CustomizeGalaxyCloud/index.md) explains how to do it.
+If you are interested in running your own version of Galaxy and/or tools on the cloud while utilizing all the automation and functionality provided by CloudMan, [this page](/src/cloudman/customizing/index.md) explains how to do it.
 
-### A note about costs
+## A note about costs
 
 Amazon Web Services (AWS) is a pay-as-you-go service that requires a valid credit
 card before resources can be acquired. Rates for Amazon EC2 can be found
@@ -64,7 +64,7 @@ href="https://nectar.org.au/research-cloud/" target="_blank">NeCTAR cloud</a>
 in Australia offer free access to cloud resources but require an active project
 allocation for which ones needs to apply.
 
-### Galaxy AMIs
+## Galaxy AMIs
 
 **Current AMI:**
 * AMI: ami-3be8cd2c
@@ -94,7 +94,7 @@ Note that the current AMI represents the environment required to run CloudMan (i
 
 Note, the AMI ami-561bc93f, 072133624695/galaxy-cloudman-2012-02-26 is from unknown origin, and not supported.
 
-### Citing and Publications
+## Citing and Publications
 
 If *Galaxy on the Cloud* has been significant to a project that has led to an academic publication, please acknowledge the contribution by citing the [following paper](http://www.nature.com/nbt/journal/v29/n11/full/nbt.2028.html):
 

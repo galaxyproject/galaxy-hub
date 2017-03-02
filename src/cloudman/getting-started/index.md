@@ -2,6 +2,7 @@
 autotoc: true
 title: Getting Started with Galaxy on the Cloud
 ---
+{{> CloudMan/LinkBoxHorizontal }}
 
 <div class='right'></div>
 
