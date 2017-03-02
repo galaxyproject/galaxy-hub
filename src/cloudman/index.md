@@ -12,9 +12,9 @@ There are several choices for using Galaxy.  This page describes using Galaxy on
 ### About Galaxy CloudMan
 
 Galaxy CloudMan enables Galaxy to be quickly setup on cloud computing
-resources. CloudMan is a _Cloud Man_ager that orchestrates all of the steps
-required to provision, configure, manage, and share a Galaxy a cloud computing
-infrastructure using a web browser. An instance of Galaxy CloudMan behaves like
+resources. CloudMan is a *Cloud Man*ager that orchestrates all of the steps
+required to provision, configure, manage, and share Galaxy on a cloud computing
+infrastructure using just a web browser. An instance of Galaxy CloudMan behaves like
 a private instance of Galaxy and offers the benefits of cloud computing
 resource availability, elasticity and [pay-as-you-go](http://en.wikipedia.org/wiki/Cloud_computing#Economics)
 resource ownership model.
@@ -33,11 +33,12 @@ pays only for the resources they need and use.
 The following is a non-exhaustive list of scenarios when it is beneficial to use Galaxy on the Cloud:
 * Do not want to spend time setting up a Galaxy instance
 * Need to customize a Galaxy instance with new tools or genome reference data
+* Have run up against the quotas on a public server
 * Have variable or high requirements for compute or storage resources
 
-### Getting started with Galaxy on the Cloud
+### Getting started
 
-To start your own *Galaxy in the Cloud* cluster, see the [Getting Started](/src/cloudman/getting-started/index.md) page. This page describes concepts and points to key features of using Galaxy on the Cloud.
+To start your own *Galaxy CloudMan*, see the [Getting Started](/src/cloudman/getting-started/index.md) page.
 
 ### Determining the size of your cloud cluster
 
@@ -49,10 +50,19 @@ If you are interested in running your own version of Galaxy and/or tools on the 
 
 ### A note about costs
 
-Amazon Web Services is a pay-as-you-go service that requires a valid credit
-card before resources can be acquired. Rates for Amazon EC2 can be found [here](http://aws.amazon.com/ec2/pricing/).
+Amazon Web Services (AWS) is a pay-as-you-go service that requires a valid credit
+card before resources can be acquired. Rates for Amazon EC2 can be found
+[here](http://aws.amazon.com/ec2/pricing/). To see how much using Amazon cloud
+might cost, you can use the [AWS cost calculator](http://calculator.s3.amazonaws.com/calc5.html).
+When calculating the total cost, in addition to the EC2 instance(s), you will
+have data volumes associated with your cluster where all of your Galaxy data
+will be stored.
 
-To see how much using Amazon cloud might cost, you can use the [AWS cost calculator](http://calculator.s3.amazonaws.com/calc5.html). When calculating the total cost, in addition to the EC2 instance, you will have data volumes associated with your cluster where all of your Galaxy data will be stored.
+Community cloud providers, such as the <a href="http://jetstream-cloud.org/"
+target="_blank">Jetstream cloud</a> in the US or the <a
+href="https://nectar.org.au/research-cloud/" target="_blank">NeCTAR cloud</a>
+in Australia offer free access to cloud resources but require an active project
+allocation for which ones needs to apply.
 
 ### Galaxy AMIs
 
