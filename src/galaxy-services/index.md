@@ -138,7 +138,7 @@ Services are classified here by whom they are accessible to.  This can be based 
 * *Eligibility:*
   * Cancer or related research only.
 * *Comments:*
-  * 2 x Dual Hexacore HP DL380 with 288GB each Tools for genomics, proteinomics & sequence analysis We can load tools on request
+  * 60 Cores, 400GB RAM, and 5.2TB Swap storage for processing, now available for Galaxy workloads.
 * *User Support:*
   * Best effort by email. For SLA support, please contact.
 * *Quotas:* 
