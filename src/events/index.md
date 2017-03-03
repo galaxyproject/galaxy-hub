@@ -22,9 +22,10 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
 ## Upcoming Events
 
 <div class='center'>
-<a href="http://www.qfab.org/training/"><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80"></a> &nbsp;
 <a href='http://training.csx.cam.ac.uk/bioinformatics/event/2000038'> <img src="/images/logos/UniCambridgeLogoWide.png" alt="Introduction to Galaxy: Data Manipulation and Visualisation" height="50" /></a>
-<a href='http://migale.jouy.inra.fr/?q=formations'><img src="/src/images/logos/MIGALELogo.png" alt='Le cycle "Bioinformatique par la pratique" 2017' height="50" /></a> 
+<a href='http://migale.jouy.inra.fr/?q=formations'><img src="/src/images/logos/MIGALELogo.png" alt='Le cycle "Bioinformatique par la pratique" 2017' height="50" /></a>
+<a href='http://conf.abrf.org/the-galaxy-platform'><img src="/src/images/logos/abrf2017-clipped.png" alt="The Galaxy platform for metaproteomic characterization of microbiomes @ ABRF 2017" height="50" /></a>
+
 </div>
 
 <br />
@@ -35,18 +36,6 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> Topic/Event </th>
     <th> Venue/Location </th>
     <th> Contact </th>
-  </tr>
-  <tr>
-    <th> March 1 </th>
-    <td> <em><a href='http://www.qfab.org/workshops/rna-seq-analysis-using-galaxy-01-mar-2017'>RNA-Seq analysis using Galaxy</a></em> </td>
-    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href="http://www.uq.edu.au/maps/?id=255"> Queensland Bioscience Precinct</a>, The University of Queensland, St Lucia. Australia </td>
-    <td><div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training@qfab.org">Organisers</a> </td>
-  </tr>
-  <tr>
-    <th> March 2 </th>
-    <td> <em><a href='http://www.qfab.org/workshops/variant-detection-using-galaxy-02-mar-2017'>Variant detection using Galaxy</a></em> </td>
-    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href="http://www.uq.edu.au/maps/?id=255"> Queensland Bioscience Precinct</a>, The University of Queensland, St Lucia. Australia </td>
-    <td><div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training@qfab.org">Organisers</a> </td>
   </tr>
   <tr>
     <th> March 6 </th>
@@ -138,6 +127,12 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
     <td colspan=4 style=" background-color: #eef;"> </td>
   </tr>
   <tr>
+    <th> June 4-8 </th>
+    <td> <em>Metaproteomics For The Future: Democratizing functional analysis of microbiomes via community-based informatics development and dissemination</em> </td>
+    <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> <a href="http://www.asms.org/conferences/annual-conference/annual-conference-homepage">ASMS 2017</a>, Indianapolis, Indiana, United States </td>
+    <td> </td>
+  </tr>
+  <tr>
     <th> June 26-30 </th>
     <td> <strong><a href='https://gcc2017.sciencesconf.org/'>2017 Galaxy Community Conference (GCC2017)</a></strong> </td>
     <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Montpellier, France </td>
@@ -198,6 +193,7 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
 <a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Feb17.html'><img src="/src/images/logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="90" /></a>
 <a href='/src/community/galaxy-admins/meetups/2017-02-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="16 February GalaxyAdmins Web Meetup: CloudLaunch" height="56" /></a> &nbsp;
 <a href='http://www.denbi.de/22-training-cat/training-courses/213-3rd-galaxy-high-throughput-sequencing-hts-data-analysis-workshop'><img src="/src/images/logos/deNBILogo.png" alt="Galaxy Workshop on HTS data analysis for Scientists" height="50" /></a> &nbsp;
+<a href="http://www.qfab.org/training/"><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80"></a> &nbsp;
 </div>
 
 <br />
@@ -209,6 +205,20 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> Venue/Location </th>
     <th> Contact </th>
     <th> Links </th>
+  </tr>
+  <tr>
+    <th> March 2 </th>
+    <td> <em><a href='http://www.qfab.org/workshops/variant-detection-using-galaxy-02-mar-2017'>Variant detection using Galaxy</a></em> </td>
+    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href="http://www.uq.edu.au/maps/?id=255"> Queensland Bioscience Precinct</a>, The University of Queensland, St Lucia. Australia </td>
+    <td><div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training@qfab.org">Organisers</a> </td>
+    <td></td>
+  </tr>
+  <tr>
+    <th> March 1 </th>
+    <td> <em><a href='http://www.qfab.org/workshops/rna-seq-analysis-using-galaxy-01-mar-2017'>RNA-Seq analysis using Galaxy</a></em> </td>
+    <td> <img src="/src/images/icons/Australia40.png" alt="Australia" align="right" /> <a href="http://www.uq.edu.au/maps/?id=255"> Queensland Bioscience Precinct</a>, The University of Queensland, St Lucia. Australia </td>
+    <td><div class='right'><a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href="mailto:training@qfab.org">Organisers</a> </td>
+    <td></td>
   </tr>
   <tr>
     <td colspan=5 style=" background-color: #eef;"> </td>
