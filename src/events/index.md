@@ -130,7 +130,7 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
     <th> June 4-8 </th>
     <td> <em>Metaproteomics For The Future: Democratizing functional analysis of microbiomes via community-based informatics development and dissemination</em> </td>
     <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> <a href="http://www.asms.org/conferences/annual-conference/annual-conference-homepage">ASMS 2017</a>, Indianapolis, Indiana, United States </td>
-    <td> </td>
+    <td> Pratik Jagtap </td>
   </tr>
   <tr>
     <th> June 26-30 </th>
