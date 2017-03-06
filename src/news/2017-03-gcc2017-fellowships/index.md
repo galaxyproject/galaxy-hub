@@ -29,7 +29,7 @@ Fellowship applications will be selected based on multiple criteria including
 
 See the [application](http://bit.ly/gcc2017apply) for full details on what's covered and what we ask you to provide.
 
-We'll review applications in two rounds, one starting on March 20, and the other on April 5, 2017. Interested?  [Submit an abstract](https://gcc2017.sciencesconf.org/page/submit) and [apply for a fellowship](http://bit.ly/gcc2017apply).  If you have visa concerns, you are encouraged to submit and apply as by March 20.
+We'll review applications in two rounds, one starting on March 20, and the other on April 5, 2017. Interested?  [Submit an abstract](https://gcc2017.sciencesconf.org/page/submit) and [apply for a fellowship](http://bit.ly/gcc2017apply).  If you have visa concerns, you are encouraged to submit and apply by March 20.
 
 We hope to see you at [GCC2017](https://gcc2017.sciencesconf.org/)!
 
