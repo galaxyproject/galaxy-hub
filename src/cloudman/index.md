@@ -9,22 +9,36 @@ autotoc: true
 
 There are several choices for using Galaxy.  This page describes using Galaxy on a *[cloud infrastructure](https://www.tcnp3.com/home/cloud-technology/what-is-cloud-computing-infographic/)* using CloudMan (see below). For other options, see [Choices](/src/choices/index.md) and [Cloud](/src/cloud/index.md).
 
-### About Galaxy on the Cloud
+### About Galaxy CloudMan
 
-With sporadic availability of data, individuals and labs may have a need to, over a period of time, process greatly variable amounts of data. Such variability in data volume imposes variable requirements on availability of compute resources used to process given data. Rather than having to purchase and maintain desired compute resources or having to wait a long time for data processing jobs to complete, the Galaxy Team has enabled Galaxy to be instantiated on cloud computing]] infrastructures, primarily [Amazon Elastic Compute Cloud (EC2)](http://aws.amazon.com/ec2/). An instance of Galaxy on the Cloud behaves just like a local instance of Galaxy except that it offers the benefits of cloud computing resource availability, scalability and [pay-as-you-go](http://en.wikipedia.org/wiki/Cloud_computing#Economics) resource ownership model. 
+Galaxy CloudMan enables Galaxy to be quickly setup on cloud computing
+resources. CloudMan is a *Cloud Man*ager that orchestrates all of the steps
+required to provision, configure, manage, and share Galaxy on a cloud computing
+infrastructure using just a web browser. An instance of Galaxy CloudMan behaves like
+a private instance of Galaxy and offers the benefits of cloud computing
+resource availability, elasticity and [pay-as-you-go](https://www.techopedia.com/definition/26951/pay-as-you-go-payg)
+resource ownership model.
 
-Having simple ability to launch pre-configured Galaxy on the Cloud enables as many instances of Galaxy to be acquired and started as is needed to process given data without setting up Galaxy. Each instance can be dynamically scaled as a virtual cluster in the cloud and it only takes minutes to do so. Once the need for the compute resources subsides, those instances can be shut down. With such a paradigm, one pays only for the resources they need and use. 
+Galaxy available via CloudMan comes pre-configured with the production settings
+and is ready for processing data as soon as it is launched. The process  of
+using Galaxy CloudMan requires a virtual server to be launched on a cloud
+provider, which only takes a few minutes. Once launched, CloudMan sets up a
+virtual cluster on the created server that can be dynamically scaled to meet
+the current computational demand. Once the need for the compute resources
+subsides, the acquired server(s) can be shut down. With such a paradigm, one
+pays only for the resources they need and use.
 
-### When to use Galaxy on the Cloud
+### When to use Galaxy CloudMan
 
 The following is a non-exhaustive list of scenarios when it is beneficial to use Galaxy on the Cloud:
 * Do not want to spend time setting up a Galaxy instance
 * Need to customize a Galaxy instance with new tools or genome reference data
+* Have run up against the quotas on a public server
 * Have variable or high requirements for compute or storage resources
 
-### Getting started with Galaxy on the Cloud
+### Getting started
 
-To start your own *Galaxy in the Cloud* cluster, see the [Getting Started](/src/cloudman/getting-started/index.md) page. This page describes concepts and points to key features of using Galaxy on the Cloud.
+To start your own *Galaxy CloudMan*, see the [Getting Started](/src/cloudman/getting-started/index.md) page.
 
 ### Determining the size of your cloud cluster
 
@@ -36,13 +50,49 @@ If you are interested in running your own version of Galaxy and/or tools on the 
 
 ### A note about costs
 
-Amazon EC2 service is a pay-as-you-go service where all that is needed to use it is a valid credit card. Rates for Amazon EC2 can be found [here](http://aws.amazon.com/ec2/pricing/).
+Amazon Web Services (AWS) is a pay-as-you-go service that requires a valid credit
+card before resources can be acquired. Rates for Amazon EC2 can be found
+[here](http://aws.amazon.com/ec2/pricing/). To see how much using Amazon cloud
+might cost, you can use the [AWS cost calculator](http://calculator.s3.amazonaws.com/calc5.html).
+When calculating the total cost, in addition to the EC2 instance(s), you will
+have data volumes associated with your cluster where all of your Galaxy data
+will be stored.
 
-To see how much using Amazon cloud might cost, you can use the [AWS cost calculator](http://calculator.s3.amazonaws.com/calc5.html). When calculating the total cost, in addition to the EC2 instance, you will have EBS data volumes associated with your cluster. There are a total of two EBS volumes associated with each Galaxy cluster: your data volume (size is decided by you when setting up the cluster, say 100GB to begin with) and genomics indices volume (600GB). (Note, the indices volume can be greatly reduced if you don't need all the genome data - contact us about how to do this.)
+Community cloud providers, such as the <a href="http://jetstream-cloud.org/"
+target="_blank">Jetstream cloud</a> in the US or the <a
+href="https://nectar.org.au/research-cloud/" target="_blank">NeCTAR cloud</a>
+in Australia offer free access to cloud resources but require an active project
+allocation for which ones needs to apply.
 
 ### Galaxy AMIs
 
-{{> CloudMan/AWS/AMIs }}
+**Current AMI:**
+* AMI: ami-3be8cd2c
+* Name: Galaxy CloudMan 161101b2 (active dates: 2016-11-01 -> present)
+
+Note that the current AMI represents the environment required to run CloudMan (in the format of a machine image) and *the machine image release date does not represent the most recent update or version of either CloudMan or Galaxy*. Versions of those tools can be seen (and automatically updated, with the Update button in the CloudMan Admin page) once an instance has been instantiated (we are also looking into a more explicit form of making this information available).
+
+**Deprecated AMIs**
+* AMI: ami-b45e59de
+* Name: Galaxy-CloudMan-1457720469 (active dates: 2016-03-24 -> 2016-11-01)
+* AMI: ami-d5246abf
+* Name: Galaxy-CloudMan-1449500413 (active dates: 2015-12-18 -> 2016-03-24)
+* AMI: ami-d1c77fba
+* Name: Galaxy-CloudMan-1440625733 (active dates: 2015-09-03 -> 2015-12-18)
+* AMI: ami-a7dbf6ce
+* Name: Galaxy CloudMan 2.3 (active dates: 2014-01-07 -> 2015-09-03)
+* AMI: ami-118bfc78
+* Name: 861460482541/Galaxy CloudMan 2.0
+* AMI: ami-da58aab3
+* Name: 861460482541/galaxy-cloudman-2011-03-22
+* AMI: ami-9a7485f3
+* Name: 861460482541/galaxy-cloudman-2010-01-12
+* AMI: ami-228a7e4b
+* Name: 115971652512/galaxy-cloudman-2010-10-08
+* AMI: ami-ed03ed84
+* Name: 115971652512/galaxy-2010-04-20_2
+
+Note, the AMI ami-561bc93f, 072133624695/galaxy-cloudman-2012-02-26 is from unknown origin, and not supported.
 
 ### Citing and Publications
 

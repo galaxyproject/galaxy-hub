@@ -3,12 +3,12 @@ autotoc: true
 title: Learn Galaxy
 ---
 
-There are many approaches to learning how to *use* Galaxy.  The most popular is probably to just dive in and use it.  Galaxy is simple enough to use that you can do many analyses just by exploring the interface.  However, you may miss much of the power this way. 
+There are many approaches to learning how to *use* Galaxy. The most popular is probably to just dive in and use it. Galaxy is simple enough to use that you can do many analyses just by exploring the interface. However, you may miss much of the power this way. 
 
-<div class="alert alert-success" role="alert">Have you created or know of a resource that is useful for teaching with Galaxy? Then please share it! This will help others and also help get the word out about your resource. Use [this Google form](http://bit.ly/gxytrainresourceform) to describe your resource. **Also**: consider joining Galaxy Training Network and contributing your tutorial as [described here](https://github.com/galaxyproject/training-material/blob/master/CONTRIBUTING.md)!
+<div class="alert alert-success" role="alert">Have you created or know of a resource that is useful for teaching with Galaxy? Then please share it! This will help others and also help get the word out about your resource. Use [this Google form](http://bit.ly/gxytrainresourceform) to describe your resource. **Also**: consider joining Galaxy Training Network and contributing your tutorial as described [here](https://github.com/galaxyproject/training-material/blob/master/CONTRIBUTING.md)!
 </div>
 
-## Tutorials using Galaxy main server at http://usegalaxy.org
+## Tutorials using Galaxy Main
 
 These tutorials are using Galaxy's main site at http://usegalaxy.org:
 
@@ -18,7 +18,7 @@ These tutorials are using Galaxy's main site at http://usegalaxy.org:
  - [NGS logistics](/tutorials/ngs)
  - Variant discovery: [diploid case](/tutorials/var_dip)
  - Variant discovery: [haploid case](/tutorials/var_hap)
- - RNA seq: [reference based](/tutorials/rb_rnaseq)
+ - RNA-seq: [reference-based](/tutorials/rb_rnaseq)
 
 ## Interactive Tours
 
@@ -26,7 +26,7 @@ Tours guide you through interface elements interactively:
 
  - [Using Galaxy Interface](https://usegalaxy.org/tours/core.galaxy_ui)
  - [Understanding histories](https://usegalaxy.org/tours/core.history)
- - [Scratch book introduction](https://usegalaxy.org/tours/core.scratchbook)
+ - [Scratchbook introduction](https://usegalaxy.org/tours/core.scratchbook)
 
 ## Tutorials by Galaxy Training Network
 
