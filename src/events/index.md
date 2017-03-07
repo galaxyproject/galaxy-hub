@@ -3,10 +3,7 @@ autotoc: true
 title: Galaxy Event Horizon
 ---
 
-
-<div class='right'></div>
-
-Events with Galaxy-related content are listed here.
+Upcoming (and past) events with Galaxy-related content.
 
 <div class='left'>
 <a href='http://bit.ly/gxycal'><img src="/src/images/logos/GalxyEventsCalThumb.png" alt="Galaxy Events Calendar" width="100" /></a><br />
@@ -22,12 +19,11 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
 ## Upcoming Events
 
 <div class='center'>
-<a href='http://training.csx.cam.ac.uk/bioinformatics/event/2000038'> <img src="/images/logos/UniCambridgeLogoWide.png" alt="Introduction to Galaxy: Data Manipulation and Visualisation" height="50" /></a>
 <a href='http://migale.jouy.inra.fr/?q=formations'><img src="/src/images/logos/MIGALELogo.png" alt='Le cycle "Bioinformatique par la pratique" 2017' height="50" /></a>
 <a href='http://conf.abrf.org/the-galaxy-platform'><img src="/src/images/logos/abrf2017-clipped.png" alt="The Galaxy platform for metaproteomic characterization of microbiomes @ ABRF 2017" height="50" /></a>
-
+<a href='https://www.biogenouest.org/RNA-seq%2526microarray#Traitement de données de séquences par Galaxy - 1 jour'><img src="/src/images/logos/biogenouest400.jpeg" alt="Traitement de données de séquences par Galaxy" height="50" /></a>
+<a href="https://biotexcel.com/event/ngs-2017-glasgow/#1481524841260-7a533ea8-43a2"><img src="/src/images/logos/GlasgowPolyomics.jpg" alt="Data Analysis Workshop" width="110" /></a>
 </div>
-
 <br />
 
 <table>
@@ -36,18 +32,6 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> Topic/Event </th>
     <th> Venue/Location </th>
     <th> Contact </th>
-  </tr>
-  <tr>
-    <th> March 6 </th>
-    <td> <em>RNA-seq analysis using Galaxy</em> </td>
-    <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> Food and Drug Adminstration (FDA) Washington, D.C., United States </td>
-    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a>, <a href="/src/people/mo-heydarian/index.md">Mo Heydarian</a> </td>
-  </tr>
-  <tr>
-    <th> March 7 </th>
-    <td> <em><a href='http://training.csx.cam.ac.uk/bioinformatics/event/2000038'>Introduction to Galaxy: Data Manipulation and Visualisation</a></em> </td>
-    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Cancer Research UK Cambridge Institute, Cambridge, United Kingdom </td>
-    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="https://www.linkedin.com/in/pajanne">Anne Pajon</a>, <a href="https://www.linkedin.com/in/jing-su-8ab15261">Jing Su</a> </td>
   </tr>
   <tr>
     <th> March 13 </th>
@@ -160,13 +144,14 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
 
 <br />
 
+<div class="center">
 <table>
   <tr>
     <td style=" border: none;"> <a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
     <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/src/teach/trainers/index.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
-
+</div>
 
 ## Other Calendars
 
@@ -194,6 +179,7 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
 <a href='/src/community/galaxy-admins/meetups/2017-02-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="16 February GalaxyAdmins Web Meetup: CloudLaunch" height="56" /></a> &nbsp;
 <a href='http://www.denbi.de/22-training-cat/training-courses/213-3rd-galaxy-high-throughput-sequencing-hts-data-analysis-workshop'><img src="/src/images/logos/deNBILogo.png" alt="Galaxy Workshop on HTS data analysis for Scientists" height="50" /></a> &nbsp;
 <a href="http://www.qfab.org/training/"><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80"></a> &nbsp;
+<a href='http://training.csx.cam.ac.uk/bioinformatics/event/2000038'> <img src="/images/logos/UniCambridgeLogoWide.png" alt="Introduction to Galaxy: Data Manipulation and Visualisation" height="50" /></a>
 </div>
 
 <br />
@@ -205,6 +191,27 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <th> Venue/Location </th>
     <th> Contact </th>
     <th> Links </th>
+  </tr>
+  <tr>
+    <th> March 7 </th>
+    <td> <em><a href='http://training.csx.cam.ac.uk/bioinformatics/event/2000038'>Introduction to Galaxy: Data Manipulation and Visualisation</a></em> </td>
+    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> Cancer Research UK Cambridge Institute, Cambridge, United Kingdom </td>
+    <td> <a href='/src/teach/trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="https://www.linkedin.com/in/pajanne">Anne Pajon</a>, <a href="https://www.linkedin.com/in/jing-su-8ab15261">Jing Su</a> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th> March 6 </th>
+    <td> <em>RNA-seq analysis using Galaxy</em> </td>
+    <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> Food and Drug Adminstration (FDA) Washington, D.C., United States </td>
+    <td> <a href='/src/Teach/Trainers/index.md'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href="https://github.com/malloryfreeberg">Mallory Freeberg</a>, <a href="/src/people/mo-heydarian/index.md">Mo Heydarian</a> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th> March 3 </th>
+    <td> <em><a href='https://t.co/0dCEj9sLb8'> Galaxy Discovery: do-it-yourself bioinformatics</a></em> </td>
+    <td> <img src="/src/images/icons/Europe40.png" alt="Europe" align="right" /> <a href="http://www.ie-freiburg.mpg.de/">Max Planck Institute of Immunobiology and Epigenetics</a>, Freiburg, Germany </td>
+    <td> <a href="/src/people/bjoern-gruening">Björn Grüning</a>, Devon Ryan, David Sanin </td>
+    <td></td>
   </tr>
   <tr>
     <th> March 2 </th>
@@ -249,7 +256,7 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
     <td> <em><a href="https://gigaworkshops.eventbrite.com">Supporting genomic analysis of diverse organisms using the Galaxy framework</a></em> </td>
     <td> <img src="/src/images/icons/NorthAmerica40.png" alt="North America" align="right" /> <a href="http://biogenomics2017.org/">Global Biodiversity Genomics Conference</a>Washington, D.C., United States </td>
     <td> <a href="/src/people/james-taylor/index.md">James Taylor</a> </td>
-    <td> </td>
+    <td> <a href="https://speakerdeck.com/jxtx/bio-genomics-2017">Slides</a></td>
   </tr>
   <tr>
     <th> February 20 </th>

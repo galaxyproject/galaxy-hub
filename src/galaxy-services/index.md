@@ -131,7 +131,7 @@ Services are classified here by whom they are accessible to.  This can be based 
 
 ## Cancer Computer
 
-<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/galaxy-services/cancer-computer-logo-256.jpg" alt="Cancer Computer" /></a></div>
+<div class='right solid'><a href='http://www.cancercomputer.com/'><img src="/src/galaxy-services/cancer-computer-logo-256.jpg" alt="Cancer Computer" width="200" /></a></div>
 
 * *Links:*
   * **[Request access](http://www.cancercomputer.com/contact/)**
