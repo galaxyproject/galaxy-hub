@@ -4,12 +4,14 @@ mixin renderEventRow(item)
     tr
         td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
         td: a( href=item.link ) #{item.title} 
-        td #{item.location} 
+        td
             if item.continent
                 img(style="float:right;" src='/images/icons/' + item.continent + '.png')
-        td #{item.speaker}
+            | #{item.location}
+        td
             if item.gtn
                 img(style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member")
+            | #{item.speaker}
 
 block content
     div.col-md-12
