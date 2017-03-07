@@ -9,4 +9,4 @@ location_url: http://biogenomics2017.org/
 external_url: http://biogenomics2017.org/
 ---
 Additional Resources:
-- ![A link to the slides](https://speakerdeck.com/jxtx/bio-genomics-2017)
+- [A link to the slides](https://speakerdeck.com/jxtx/bio-genomics-2017)
