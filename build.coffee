@@ -1,5 +1,6 @@
 # Build with Metalsmith
 metalsmith = require('metalsmith')
+minimatch = require('minimatch')
 
 # Plugin for Bower support
 bower = (files, metalsmith, done) ->
@@ -21,12 +22,13 @@ link_to_orig_path = (files, metalsmith, done) ->
         files[k].orig_path = k
     done()
 
-apply_directory_templates = (files, metalsmith, done) ->
+apply_collection_defaults = (files, metalsmith, done) ->
     # Simple way to apply domain templates en masse
-    minimatch = require('minimatch')
     for k, v of files
         if 'events' in v.collection
             files[k].layout = 'events.pug'
+            #if files[k].date == undefined
+            #    files[k].date = '2010-01-01'
     done()
 
 
@@ -152,7 +154,8 @@ ms = metalsmith(__dirname)
             reverse: true
     .use timer 'metalsmith-collections'
     .use link_to_orig_path
-    .use apply_directory_templates
+    .use timer 'apply_directory_templates'
+    .use apply_collection_defaults
     .use timer 'link_to_orig_path'
     .use handlebars_partial_handling
     .use timer 'handlebars_partial_handling'
