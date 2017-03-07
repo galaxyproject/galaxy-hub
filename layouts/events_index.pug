@@ -6,6 +6,7 @@ block content
             h1 !{title}
             div !{ contents }
 
+            h2 Upcoming Events
             table.table.table-striped
                 thead
                     tr
@@ -14,8 +15,8 @@ block content
                         th Venue/Location
                         th Contact
                 tbody
-                    each item in events
-                        if item.date
+                    each item in events.reverse()
+                        if helpers.moment(item.date) >= helpers.moment(new Date()).subtract(7, 'days')
                             tr
                                 td #{helpers.moment(item.date).format("MMMM Do YYYY")}
                                 td: a( href=item.link ) #{item.title} 
@@ -25,6 +26,27 @@ block content
                                 td #{item.host}
                                     if item.gtn
                                         img(alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member")
+            h2 Past Events
+            table.table.table-striped
+                thead
+                    tr
+                        th Date
+                        th Topic/Event
+                        th Venue/Location
+                        th Contact
+                tbody
+                    each item in events.reverse()
+                        if helpers.moment(item.date) < helpers.moment(new Date()).subtract(7, 'days')
+                            tr
+                                td #{helpers.moment(item.date).format("MMMM Do YYYY")}
+                                td: a( href=item.link ) #{item.title} 
+                                td #{item.location} 
+                                    if item.continent
+                                        img(src='/images/icons/' + item.continent + '.png')
+                                td #{item.host}
+                                    if item.gtn
+                                        img(alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member")
+
 
             p The events listed here are also available in the #[a(href="http://bit.ly/gxycal") Galaxy Events Google Calendar].  The #[a(href="http://bit.ly/gxyothercal") Galaxy Other Events Google Calendar] lists additional events that are relevant to the Galaxy Community, but that are not known to feature significant Galaxy content.
             p If you know of any event that should be added to this page and/or to the Galaxy Event Calendar, please add it here or send it to outreach@galaxyproject.org.
