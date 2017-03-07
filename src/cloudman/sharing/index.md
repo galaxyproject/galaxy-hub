@@ -1,15 +1,22 @@
 ---
 autotoc: true
+title: Cloning and sharing CloudMan clusters
 ---
-{{> CloudMan/Header }}
 
-# Sharing CloudMan clusters
+{{> CloudMan/LinkBoxHorizontal }}
 
 <div class='right'></div>
 
-You can customize any cluster you launch with your own datasets, configurations, Galaxy tools, or genomic reference data. After you complete your changes, you can keep it private, you can share with a specified list of AWS cloud accounts, or make it public so the community can use it. Once shared, users whom you have granted the permissions can create clones of your cluster. A cluster derived from a shared cluster lives under the cloud account of the user that created the clone and is managed by that user. Your original cluster remains entirely under your control.
+You can customize any cluster you launch with your own datasets,
+configurations, Galaxy tools, or genomic reference data. After you complete
+your changes, you can keep it private, you can share with a specified list of
+AWS cloud accounts, or make it public so the community can use it. Once shared,
+users whom you have granted the permissions can create clones of your cluster.
+A cluster derived from a shared cluster lives under the cloud account of the
+user that created the clone and is managed by that user. Your original cluster
+remains entirely under your control.
 
-Sharing is achieved via point-in-time snapshots of the underlying file system(s), which implies that you can share the same cluster multiple times at different time points. After creating a share, you can continue the use your cluster and any new data that is uploaded or created as part of an analysis will be available only to your cluster. For complete details on how cluster sharing works and is implemented, see the paper "[CloudMan as a platform for tool, data, and analysis distribution](http://www.biomedcentral.com/1471-2105/13/315)".
+Sharing is achieved via point-in-time snapshots of the underlying file system(s), which implies that you can share the same cluster multiple times at different time points. After creating a share, you can continue the use your cluster and any new data that is uploaded or created as part of an analysis will be available only to your cluster. For complete details on how cluster sharing works and is implemented, see the paper [CloudMan as a platform for tool, data, and analysis distribution](http://www.biomedcentral.com/1471-2105/13/315).
 
 ## Use cases
 
@@ -57,7 +64,7 @@ After you have created a share, you can easily delete it by clicking the *X* ico
 
 ### Sharing works on Amazon only
 
-Creating a cluster share requires very detailed access controls on individual files under your cloud account. This is so that only the absolute minimum privileges are given to the users you choose to share your cluster with. Amazon is the only cloud provider that allows such access controls and as a result cluster sharing is enabled only on the Amazon cloud. 
+Creating a cluster share requires very detailed access controls on individual files under your cloud account. This is so that only the absolute minimum privileges are given to the users you choose to share your cluster with. Amazon is the only cloud provider that allows such access controls and as a result cluster sharing is enabled only on the Amazon cloud.
 
 ### Costs
 
@@ -69,7 +76,7 @@ Because a cluster share contains everything that a cluster has been configured w
 
 # Publicly shared clusters
 
-Below is a list of CloudMan clusters that have been shared publicly. Feel free to add a cluster you have created and shared or clone one of the existing ones. 
+Below is a list of CloudMan clusters that have been shared publicly. Feel free to add a cluster you have created and shared or clone one of the existing ones.
 
 
 <table>

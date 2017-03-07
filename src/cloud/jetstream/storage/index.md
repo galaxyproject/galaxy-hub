@@ -1,27 +1,40 @@
 ---
 autotoc: true
-title: Using alternate (volume) storage
+title: Using volume storage
 ---
 
 [Jetstream instances](http://jetstream-cloud.org/general-vms.php) come with a
-predefined amount of local (ephemeral) storage. Instead, it is possible to use
-persistent, volume-based storage that can also vary in size, depending on your
-allocation.
+predefined amount of local (i.e., ephemeral or transient) storage. It is
+possible to use persistent, volume-based storage that can also vary in size,
+depending on your allocation.
 
 Note that using volume-based storage requires some command line work
 and should be considered beta functionality. **Also note that if you delete
 (ie, terminate) your instance, even though your volume will continue to exist,
 it will be useless because the database that links Galaxy to all the datasets
 resides on the instance storage.** However, you may _stop_ an instance and
-then follow the steps below to make Galaxy use the volume again.
+then follow the steps below to make Galaxy use the same volume again.
 
-### Configuring Galaxy to use a volume
+## Configuring Galaxy to use a volume
 
 Follow these steps to attach an external volume to your instance and make Galaxy
 use it:
 
 * Through the Atmosphere portal, create a volume of desired size and attach it
-  to your instance
+  to your instance. Following the screenshots below to have a visual reference.
+  When creating the volume, make sure it is created in the same provider as
+  the one your Galaxy instance is running in (in the screenshots below, this
+  is *Jetstream - TACC*).
+
+    <div class='center'>
+      <a href='volume-create-btn.png'><img src="volume-create-btn.png" alt="" width=200 /></a>
+      <a href='volume-create.png'><img src="volume-create.png" alt="" width=200 /></a>
+      <a href='volume-edit.png'><img src="volume-edit.png" alt="" width=200 /></a>
+      <a href='volume-attach-btn.png'><img src="volume-attach-btn.png" alt="" width=200 /></a>
+      <a href='volume-attach.png'><img src="volume-attach.png" alt="" width=200 /></a>
+      <a href='volume-attached.png'><img src="volume-attached.png" alt="" width=200 /></a>
+    </div>
+
 * [Access your instance via ssh](/src/cloud/jetstream/ssh/index.md) and create
   a directory for the Galaxy files. The volume you attached to your instance
   will be available under `/vol1` so create a directory under that one. Change
@@ -50,7 +63,7 @@ Run a couple of jobs through the Galaxy web interface now and see if the files
 are being written under `/vol1/gxy_data/datasest/`. If so, you are all set.
 
 
-### Stopping your instance
+## Stopping your instance
 
 You may stop an instance and start it back up at a later time while
 preserving the data on the volume. Again, if you _delete_ the instance, all
@@ -68,7 +81,7 @@ Your instance and the volume will remain available under your account available
 for use at a later time.
 
 
-### (Re)Starting your instance
+## (Re)Starting your instance
 
 To (re)start your instance and attach it to the previously used volume, do the
 following steps:

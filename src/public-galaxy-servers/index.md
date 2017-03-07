@@ -9,7 +9,11 @@ The Galaxy Project's public server ([usegalaxy.org](http://usegalaxy.org/)) can 
 
 If you maintain a public instance of Galaxy it is recommended to sign up for the public servers [mailing list](https://lists.galaxyproject.org/listinfo/galaxy-public-servers) to receive security fixes with priority.
 
-<div class="alert alert-success" role="alert">**To add** your public Galaxy server to this list, use "Edit on GitHub" link above, or [describe the server here](https://docs.google.com/forms/d/1KBkyhAPpgJLanRWBoIHmwtEJELDUifZLUixfoqZXXU4/viewform?usp=send_form) and we'll post it this directory.</div>
+<div class="alert alert-success" role="alert"> **To add** your public Galaxy server to this list, use "Edit on GitHub" link above, or [describe the server here](https://docs.google.com/forms/d/1KBkyhAPpgJLanRWBoIHmwtEJELDUifZLUixfoqZXXU4/viewform?usp=send_form) and we'll post it this directory.</div>
+
+[**Galaxy Services**](/src/galaxy-services/index.md)
+
+There are also a number of [Galaxy services](/src/galaxy-services/index.md) that make Galaxy available to research communities, sometimes restricted on a geographical or domain basis.  See the [Galaxy services list](/src/galaxy-services/index.md).
 
 # General Purpose / Genomics Servers
 
