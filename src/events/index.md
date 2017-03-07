@@ -26,7 +26,7 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
 </div>
 <br />
 
-<table>
+<table class="html">
   <tr class="th" >
     <th> Date </th>
     <th> Topic/Event </th>
@@ -145,7 +145,7 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
 <br />
 
 <div class="center">
-<table>
+<table class="html">
   <tr>
     <td style=" border: none;"> <a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
     <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/src/teach/trainers/index.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
@@ -184,7 +184,7 @@ For events prior to this year, see the **[Events Archive](/src/events/archive/in
 
 <br />
 
-<table>
+<table class="html">
   <tr class="th" >
     <th> Date </th>
     <th> Topic/Event </th>
