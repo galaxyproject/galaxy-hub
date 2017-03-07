@@ -2,28 +2,32 @@ extends layout.pug
 
 block content
     section.section-content
-        div.col-md-12
-            section.section-content
-                div.col-md-9
-                    h1 !{ title } - !{ tease }
-                    ul.list-unstyled
-                        li
-                            strong Date: 
-                            | !{helpers.moment(date).format("MMMM Do YYYY")}
-                        if location
-                            li
-                                strong Location: 
+        div.col-md-9
+            h1 !{ title } - !{ tease }
+            ul.list-unstyled
+                li
+                    strong Date: 
+                    | !{helpers.moment(date).format("MMMM Do YYYY")}
+                if location
+                    li
+                        strong Location: 
+                        if location_url
+                            a(href=location_url)
                                 | !{location}
-                                | a(href=location_url) #{location_url}
-                        if event_url
-                            li
-                                strong Event URL: 
-                                a(href=event_url) #{event_url}
-                        if speaker
-                            li
-                                strong Speaker: 
-                                | !{speaker}
-                    div: p !{ contents }
-                div.col-md-3
-                    if image
-                        img.img-responsive(src=image style="margin-top: 20px; padding 2px; border: 1px solid #666")
+                        else
+                            | !{location}
+
+
+                if event_url
+                    li
+                        strong Event URL: 
+                        a(href=location_url)
+                            | !{location_url}
+                if speaker
+                    li
+                        strong Speaker: 
+                        | !{speaker}
+            div: p !{ contents }
+        div.col-md-3
+            if image
+                img.img-responsive(src=image style="margin-top: 20px; padding 2px; border: 1px solid #666")
