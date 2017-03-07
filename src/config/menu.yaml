@@ -15,9 +15,6 @@
 - Learn:
   title: Learn
   links:
-      - About:
-        title: About
-        link: galaxy-project
       - Learn:
         title: Tutorials
         link: learn
@@ -53,7 +50,13 @@
         link: https://gitter.im/galaxyproject/Lobby
 - Community:
   title: Community
-  link: community
+  links:
+      - Community:
+        title: Community
+        link: community
+      - gcc2017:
+        title: GCC 2017
+        link: https://gcc2017.sciencesconf.org
 - Deploy:
   title: Deploy & Develop
   links:

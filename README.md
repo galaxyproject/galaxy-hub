@@ -23,7 +23,7 @@ Alternatively, you can edit the file locally (see below).
 To edit and run the site locally, start by creating a fork of this repository.
 Before you clone your fork locally, make sure to [install git-
 lfs](https://git-lfs.github.com/) because that's what we use for [managing
-images](#handling-of-images).
+images](#handling-of-images). To install `git lfs` use [linuxbrew](http://linuxbrew.sh/) on Linux systems or [homebrew](https://brew.sh/) on OS X. Once you have installed `brew` simply run ` brew install git-lfs` command.
 
 Note that you should use the authenticated github URL (ie,
 `git@github.com:galaxyproject/galaxy-hub.git`) because otherwise you may get

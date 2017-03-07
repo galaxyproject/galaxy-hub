@@ -1,67 +1,46 @@
 ---
 autotoc: true
+title: Get Galaxy
 ---
-# Galaxy Download and Installation
 
-<div class='right'></div>
+Here you will find information on obtaining and setting up a Galaxy instance with default configuration. 
 
-In addition to using the [main public Galaxy server](http://usegalaxy.org/) (a.k.a. [Main](/src/main/index.md)), you can install your own instance of Galaxy (what this page is about), create a [cloud-based instance of Galaxy](/src/cloud/index.md), or use one of the ever-increasing number of [public Galaxy servers](/src/public-galaxy-servers/index.md) hosted by other organizations.
+# Requirements
 
-See [Choices](/src/choices/index.md) for help on deciding which of these options may be best for your situation.
-
-## Reasons to Install Your Own Galaxy
-
-Installing your own Galaxy may be a good choice if you plan to:
-
-* Run a local [production Galaxy server](/src/admin/config/performance/production-server/index.md) because you want to
-  * [install](/src/admin/tools/add-tool-tutorial/index.md) and use tools currently unavailable on [public Galaxy servers](/src/public-galaxy-servers/index.md)
-  * use sensitive data (*e.g.* clinical patient data)
-  * process large datasets that are too big for public Galaxies
-  * [plug-in](/src/admin/internals/data-sources/index.md) new data sources
-* [Develop Galaxy tools](/src/admin/tools/add-tool-tutorial/index.md)
-* [Develop Galaxy](/src/develop/index.md) itself
-
-## Requirements
-
-* UNIX/Linux or Mac OS X (although you can [try with Windows](/src/admin/config/Windows/index.md))
+* UNIX/Linux or Mac OSX
 * [Python 2.7](/src/admin/python/index.md)
-* Git (optional, see below)
-* GNU Make, gcc to compile and install tool dependencies
-* Additional tool requirements as detailed in [Tool Dependencies](/src/admin/tools/ToolDependencies/index.md)
 
-## Get the Code
+# Get Started
 
-Galaxy's source code is hosted in a [GitHub repository](https://github.com/galaxyproject/galaxy). Outlined below are basic options for obtaining the source code so you can use Galaxy. For more information see [source code details](/src/develop/source-code/index.md).
+## For Production or Single User
 
-### For Production or Single User
+If setting up or running a production Galaxy service or creating your own personal Galaxy instance, use the [latest release](https://docs.galaxyproject.org/en/master/releases/) branch, which only receives stable code updates.
 
-If running a production Galaxy service or creating your own personal Galaxy server, use the latest release branch, which only receives stable code updates. The [list of releases](https://docs.galaxyproject.org/en/master/releases/) is available for viewing.
+### Cloning new
 
-* If you do not have a Galaxy repository yet or you do not want to update the existing instance, run:
+If you do not have a Galaxy repository yet or you do not want to update the existing instance, run:
 
-```sh
+```
 $ git clone -b release_17.01 https://github.com/galaxyproject/galaxy.git
 ```
+### Updating exiting
 
+If you have an existing Galaxy repository and want to update it, run:
 
-* If you have an existing Galaxy repository and want to update it, run:
-
-```sh
+```
 $ git checkout release_17.01 && git pull --ff-only origin release_17.01
 ```
 
 
-### For Development
+## For Development
 
 To obtain Galaxy for development, use the default branch after cloning: `dev`. This is the branch that pull requests should be made against to contribute code (unless you are fixing a bug in a Galaxy release).
 
-```sh
+```
 $ git clone https://github.com/galaxyproject/galaxy.git
 ```
 
-
-
-## Start It Up
+# Start It Up
 
 Galaxy requires a few things to run: a virtualenv, configuration files, and dependent Python modules. However, starting the server for the first time will create/acquire these things as necessary. To start Galaxy, simply run the following command in a terminal window:
 
@@ -69,8 +48,7 @@ Galaxy requires a few things to run: a virtualenv, configuration files, and depe
 $ sh run.sh
 ```
 
-
-This will start up the Galaxy server on localhost and port 8080. Galaxy can then be accessed from a web browser at http://localhost:8080. After starting, Galaxy's server will print output to the terminal window. To stop the Galaxy server, use `Ctrl-c` in the terminal window from which Galaxy is running.
+This will start up the Galaxy server on localhost and port 8080. Galaxy can then be accessed from a web browser at http://localhost:8080. After starting, Galaxy's server will print output to the terminal window. To stop the Galaxy server, use `Ctrl-C` in the terminal window from which Galaxy is running.
 
 To access Galaxy over the network, modify the `config/galaxy.ini` file by changing the `host` setting to
 
@@ -80,29 +58,32 @@ host = 0.0.0.0
 
 Upon restarting, Galaxy will bind to any available network interfaces instead of the loopback.
 
-**You now have your very own Galaxy instance running - congratulations!**
-
-
-----
-# What to do next
+# Next Steps
 
 ## Become an Admin
 
 To control Galaxy through the UI (installing tools, managing users, creating groups, etc.), users must become an [administrator](/src/admin/index.md). Only registered users can become admins. To give a user admin privileges, complete the following steps:
 
-* Add the user's Galaxy login email to the configuration file `config/galaxy.ini`. If the file does not exist, copy it from the provided sample: `cp config/galaxy.ini.sample config/galaxy.ini`.
-* Restart Galaxy after modifying the configuration file for changes to take effect.
-* Additional details can be found [here](/src/admin/get-galaxy/index.md#become-an-admin-example).
+- Add the user's Galaxy login email to the configuration file `config/galaxy.ini`. As shown here:
 
 ```
 # this should be a comma-separated list of valid Galaxy users
 admin_users = user1@example.com,user2@example.com
 ```
 
+- If the file does not exist, copy it from the provided sample: 
 
-## Install More Tools
+```
+cp config/galaxy.ini.sample config/galaxy.ini
+```
 
-Galaxy comes with basic tools pre-installed. To install additinoal tools, follow the instructions on [Installing tools into Galaxy from the ToolShed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md).
+- Restart Galaxy after modifying the configuration file for changes to take effect.
+- Additional details can be found [below](/src/admin/get-galaxy/index.md#become-an-admin-example).
+
+
+## Install Tools
+
+Galaxy comes with a small set of basic tools pre-installed. To install additinoal tools, follow the instructions on [Installing tools into Galaxy from the ToolShed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md).
 
 ## Join the Mailing List
 
@@ -128,12 +109,13 @@ At any time, you can check to see if a new stable release is available by using 
 
 ```
 $ git log ..origin/master
-commit 3f314974c9c3742b118518881a6d392123ccc05d
-Merge: d8eeaae c78b7b6
-Author: Nate Coraor <nate@bx.psu.edu>
-Date:   Mon Mar 9 22:26:54 2015 -0400
+commit 3a2ff46c28172ef78510f4bea2f4be75ce660667
+Merge: 8b538f17f 90de3f258
+Author: Martin Cech <cech.marten@gmail.com>
+Date:   Wed Feb 22 10:56:57 2017 -0500
 
-    Merge branch 'release_15.03' to master for v15.03
+    Merge branch 'release_17.01'
+
 ```
 
 If `git log` produces no output, Galaxy is up-to-date. If `git log` produces a list of commits, a new version is available. We suggest checking the accompanying [release notes](https://docs.galaxyproject.org/en/master/releases/index.html) first (if the release is to a newer major version of Galaxy), but you can also immediately pull the commits to your local Galaxy clone with:
@@ -141,12 +123,15 @@ If `git log` produces no output, Galaxy is up-to-date. If `git log` produces a l
 ```
 $ git pull
 ```
-
+<div class="alert alert-info" role="alert">
 **Note**: After pulling changes, the Galaxy server needs to be stopped and restarted with the updated code. Restarting will interrupt any running jobs unless you are using a cluster configuration. For more information on how to make Galaxy restartable without interrupting users, see the [production server documentation](/src/admin/config/performance/production-server/index.md).
+</div>
 
+<div class="alert alert-warning" role="alert">
 **Note**: Occasionally, updated Galaxy code includes structural changes to the database tables. The news brief will alert you if a release contains a database change. After updating and restarting Galaxy, Galaxy will refuse to load and will output an error message indicating that your database is the wrong version. The error message indicates that you should backup your database and run `sh manage_db.sh upgrade`. Follow those instructions carefully, especially the part about backing up your database safely! Database updates are carefully tested before release, but it is good practice to be able to back out if something goes wrong during an update.
+</div>
 
-In the unlikely event that something goes wrong with updated code, you can return to an older release by using the release tag name from the [news brief](/src/docs/index.md) page and the `git checkout` command. For example, to return to the latest version of the January 2015 release, use:
+In the unlikely event that something goes wrong with updated code, you can return to an older release by using the release tag name from the [release list](https://docs.galaxyproject.org/en/master/releases/) page and the `git checkout` command. For example, to return to the latest version of the January 2015 release, use:
 
 ```sh
 $ git checkout release_15.01
@@ -160,11 +145,11 @@ v13.01
 v13.01.1
 v13.02
  ...
-v14.10.1
-v15.01
-v15.01.1
-v15.01.2
-v15.03
+v16.01
+v16.04
+v16.07
+v16.10
+v17.01
 ```
 
 Restore the fresh backup if a database update was required, and then restart Galaxy to get back to where you started.
@@ -179,19 +164,17 @@ Restore the fresh backup if a database update was required, and then restart Gal
 
 * Some tools shipped with Galaxy have dependencies that need to be satisfied manually. Please see details [here](/src/admin/tools/ToolDependencies/index.md).
 
-# Help
+# Additional Info
 
 ## Get Galaxy without Git
 
-* *Galaxy from an archive*
-  * If you don't have [Git](http://git-scm.com/) (and thus cannot run the `git` command), you can download Galaxy in an archive instead: [zipped](https://github.com/galaxyproject/galaxy/archive/master.zip) or [tar/gzipped](https://github.com/galaxyproject/galaxy/archive/master.tar.gz).
-  * Be aware that using archives makes it more difficult to stay up-to-date with Galaxy code because there is no simple way to update the copy.
+If you don't have [Git](http://git-scm.com/) (and thus cannot run the `git` command), you can download Galaxy in an archive instead: [zipped](https://github.com/galaxyproject/galaxy/archive/master.zip) or [tar/gzipped](https://github.com/galaxyproject/galaxy/archive/master.tar.gz).
+
+Be aware that using archives makes it more difficult to stay up-to-date with Galaxy code because there is no simple way to update the copy.
 
 ## Get Galaxy for Development
 
-* *Fork Galaxy in GitHub*
-  * If you're doing development or making changes to Galaxy, it is best practice to fork Galaxy in GitHub and update to/from your fork.
-  * See the [GitHub fork documentation](https://help.github.com/articles/fork-a-repo/) for details.
+If you're doing development or making changes to Galaxy, it is best practice to fork Galaxy in GitHub and update to/from your fork. See the [GitHub fork documentation](https://help.github.com/articles/fork-a-repo/) for details.
 
 ## Become an Admin: Example
 
@@ -227,8 +210,6 @@ Running the command below should result in the following output: `admin_users = 
 $ grep "admin_users" config/galaxy.ini
 ```
 
-*That's it for the `galaxy.ini` file changes!* 
-
 Start up Galaxy again and create an account - using the same email address - through the Galaxy web interface (if this hasn't been done already). The **Admin** tab will now appear in the masthead for that account.
 
 ## Shutting down Galaxy
@@ -243,8 +224,7 @@ Below are simplified instructions for shutting down local Galaxy server. If your
   * From another terminal window, find all active processes with the command `ps`. The list of processes will each have a process ID (called PID). The target process will be named `python ./scripts/paster.py serve config/galaxy.ini.sample`. Stop it with the command `kill PID`, where "PID" is the actual process ID number.
   * If you kill only the process named `sh run.sh`, this will result in conflicts and Galaxy will not restart. If you did this or are simply getting errors when trying to restart Galaxy, the solution is to kill the process `python ./scripts/paster.py serve config/galaxy.ini.sample` before restarting Galaxy again.
 
-## Other Resources
+## Ansible Playbook
 
-* [Search](http://galaxyproject.org/search/getgalaxy) all Galaxy administration resources.
-* Look into Galaxy [KickStart Ansible playbook](https://github.com/ARTbio/GalaxyKickStart). To deploy Galaxy on your local machine or on the cloud using Ansible, you can use this playbook. Follow the steps in the [docs](https://artbio.github.io/GalaxyKickStart/) for details.
+Look into Galaxy [KickStart Ansible playbook](https://github.com/ARTbio/GalaxyKickStart). To deploy Galaxy on your local machine or on the cloud using Ansible, you can use this playbook. Follow the steps in the [docs](https://artbio.github.io/GalaxyKickStart/) for details.
 

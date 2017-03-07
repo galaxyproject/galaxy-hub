@@ -13,7 +13,7 @@ If you maintain a public instance of Galaxy it is recommended to sign up for the
 
 # General Purpose / Genomics Servers
 
-These servers implement a broad range of tools and and aren't specific to any part of the tree of life, or to any specific type of analysis.  These are servers you can use when want to do general genomic analysis.
+These servers implement a broad range of tools and aren't specific to any part of the tree of life, or to any specific type of analysis.  These are servers you can use when want to do general genomic analysis.
 
 <!-- these two seem dead
 
@@ -1771,6 +1771,26 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Sponsor(s):*
   * [US National Cancer Institute (NCI)](http://nci.nih.gov/)
 
+## USMI Galaxy Demonstrator
+
+<div class='right solid'><a href='http://bioinformatics.hsanmartino.it:8080/'><img src="/src/public-galaxy-servers/usmi.png" alt="USMI Galaxy Demonstrator"  /></a></div>
+
+* *Links:*
+  * [USMI Galaxy Demonstrator](http://bioinformatics.hsanmartino.it:8080/)
+* *Domain/Purpose:*
+  * This Galaxy implementation is meant to demonstrate integration of microbial domain Biological Resource Center (mBRC) catalogues into the bioinformatics data integration environment. 
+* *Comments:*
+  * The project is still in a development phase.
+  * Colobraro DP, Romano P. (2017) [USMI Galaxy Demonstrator (UGD): a collection of tools to integrate microorganisms information](https://doi.org/10.7287/peerj.preprints.2766v1). *PeerJ Preprints*  5:e2766v1 DOI: 10.7287/peerj.preprints.2766v1
+* *User Support:*
+  * Report issuses, request information, and send any suggestions, comments or criticisms to:
+  * [Daniele Pierpaolo Colobraro](mailto:danielepierpaolo.colobraro@hsanmartino.it) or [Paolo Romano](mailto:paolo.romano@hsanmartino.it)
+* *Quotas:*
+  * Supports anonymous access and account creation. 
+* *Sponsor(s):*
+  * [IRCCS AOU San Martino IST](http://www.hsanmartino.it/), Genoa, Italy
+
+
 ## VarCap
 
 <div class='right solid'><a href='http://galaxy.csb.univie.ac.at:8080/'><img src="/src/public-galaxy-servers/VarCapWorkflow.png" alt="VarCap"  /></a></div>
@@ -1780,7 +1800,7 @@ The distinction between [domain servers](/src/public-galaxy-servers/index.md#dom
 * *Domain/Purpose:*
   * Reliable prediction of different types of variants even at low frequencies.
 * *Comments:*
-  * Zojer M, Schuster LN, Schulz F, Pfundner A, Horn M, Rattei T. (2016) [Genotyping of evolving prokaryotic populations](https://peerj.com/preprints/2449/). *PeerJ Preprints* 4:e2449v1 doi: 10.7287/peerj.preprints.2449v1
+  * Zojer M, Schuster LN, Schulz F, Pfundner A, Horn M, Rattei T. (2017) [Variant profiling of evolving prokaryotic populations](https://doi.org/10.7717/peerj.2997). *PeerJ* 5:e2997 
 * *User Support:*
   * [Tutorial](http://galaxy.csb.univie.ac.at:8080/static/welcome.html)
 * *Quotas:*
