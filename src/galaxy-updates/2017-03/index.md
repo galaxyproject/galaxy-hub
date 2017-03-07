@@ -111,7 +111,7 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
 </div>
 
 
-<table class="html">
+<table class="table table-striped">
   <tr class="th" >
     <th> Date </th>
     <th> Topic/Event </th>
@@ -215,7 +215,7 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
 <br />
 
 <div class="center">
-<table class="html">
+<table class="table table-striped">
   <tr>
     <td style=" border: none;"> <a href='/src/teach/trainers/index.md'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
     <td style=" border: none;"> <span style="font-size: smaller;"> <a href='/src/teach/trainers/index.md'>Designates a training event offered by GTN member(s)</a> </span> </td>
@@ -293,7 +293,7 @@ Some highlights from the past two months:
 
 ## Publication Topics
 
-<table class="html">
+<table class="table table-striped">
   <tr>
     <th> # </th>
     <th> Tag </th>
@@ -408,7 +408,7 @@ The [Cancer Computer](http://www.cancercomputer.com/) [Galaxy service](/src/gala
 
 # Galaxy Community Directories
 
-<table class="html">
+<table class="table table-striped">
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/teach/index.md'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
