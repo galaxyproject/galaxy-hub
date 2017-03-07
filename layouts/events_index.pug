@@ -1,5 +1,16 @@
 extends layout.pug
 
+mixin renderEventRow(item)
+    tr
+        td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
+        td: a( href=item.link ) #{item.title} 
+        td #{item.location} 
+            if item.continent
+                img(style="float:right;" src='/images/icons/' + item.continent + '.png')
+        td #{item.speaker}
+            if item.gtn
+                img(style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member")
+
 block content
     div.col-md-12
         section.section-content
@@ -18,15 +29,7 @@ block content
                     each item in events.reverse()
                         if item.date != undefined
                             if helpers.moment(item.date) >= helpers.moment(new Date()).subtract((item.days || 1), 'days')
-                                tr
-                                    td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
-                                    td: a( href=item.link ) #{item.title} 
-                                    td #{item.location} 
-                                        if item.continent
-                                            img(src='/images/icons/' + item.continent + '.png')
-                                    td #{item.speaker}
-                                        if item.gtn
-                                            img(alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member")
+                                +renderEventRow(item)
             h2 Past Events
             table.table.table-striped
                 thead
@@ -39,15 +42,7 @@ block content
                     each item in events.reverse()
                         if item.date != undefined
                             if helpers.moment(item.date) < helpers.moment(new Date()).subtract((item.days || 1), 'days')
-                                tr
-                                    td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
-                                    td: a( href=item.link ) #{item.title} 
-                                    td #{item.location} 
-                                        if item.continent
-                                            img(src='/images/icons/' + item.continent + '.png')
-                                    td #{item.speaker}
-                                        if item.gtn
-                                            img(alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member")
+                                +renderEventRow(item)
 
 
             p The events listed here are also available in the #[a(href="http://bit.ly/gxycal") Galaxy Events Google Calendar].  The #[a(href="http://bit.ly/gxyothercal") Galaxy Other Events Google Calendar] lists additional events that are relevant to the Galaxy Community, but that are not known to feature significant Galaxy content.
