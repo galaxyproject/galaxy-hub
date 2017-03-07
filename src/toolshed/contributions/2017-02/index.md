@@ -42,18 +42,8 @@ Tools contributed to the Galaxy Project Tool Shed in [January and February 2017]
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp):*
    * [regex_find_replace](https://toolshed.g2.bx.psu.edu/view/galaxyp/regex_find_replace):  Use python regular expressions to find and replace text either in text lines or in columns of a tabular file.
 * *From [immport-devteam](https://toolshed.g2.bx.psu.edu/view/immport-devteam):*
-* [run_flock](https://toolshed.g2.bx.psu.edu/view/immport-devteam/run_flock):  runs FLOCK using a FCS file that was converted to a text file. **FLOCK needs to be compiled after a fresh install, see README**
-  * FLOCK (FLOw Clustering without K) is a computational approach to flow cytometry analysis which:
-    1. Computationally determines the number of unique populations in high dimensional flow data using a rapid binning approach
-    2. Can handle non-spherical hyper-shapes
-    3. Maps populations across independent samples
-    4. Calculates many useful summary statistics
-    5. Finds the most informative parameters
-    6. Reduces subjective factors in manual gating
-    * **Input**    FLOCK requires a text file, generated from a FCS file, as input.  In order to define the populations in a given dataset collection for a given set of markers, run FLOCK on a super-set of FCS file. Use the Downsample and merge tool to concatenate and/or downsample datasets, and remove, edit or rearrange markers before running FLOCK on your favorite set of markers.
-    * **Output**    *FLOCK*    FLOCK attributes each event to a population and generates a text file.
-      * *Centroids*    The centroid file is a table containing the mean, median or geometric mean fluorescent intensity values of each marker within each population defined by FLOCK, as determined by the user.
-      * *Population scores*    This output is a table containing marker scores for each population. The score value is a number indicating the degree to which this population expresses each marker, as follows:    - 1 implies negative expression  - 2 implies low expression  - 3 implies positive expression  - 4 implies highly positive expression.
+   * [run_flock](https://toolshed.g2.bx.psu.edu/view/immport-devteam/run_flock):  runs FLOCK using a FCS file that was converted to a text file. **FLOCK needs to be compiled after a fresh install, see README**
+   * FLOCK (FLOw Clustering without K) is a computational approach to flow cytometry analysis which computationally determines the number of unique populations in high dimensional flow data using a rapid binning approach.
    * [extract_fcs_keywords](https://toolshed.g2.bx.psu.edu/view/immport-devteam/extract_fcs_keywords):  extracts the Keywords from a FCS file. **Input files**    This tool uses FCS files as input.    **Output file**    The list of FCS file headers is output.
    * [flowclr_summary](https://toolshed.g2.bx.psu.edu/view/immport-devteam/flowclr_summary):  generates summary statistics on FLOCK output. **Input**    Any flowclr file, output from FLOCK or Cross Sample, containing fluorescence intensity value par marker and assigned population.    **Output**    This tool produces two reports. One indicates the population distribution in the input file, the other gives descriptive summary statistics per population and marker.
    * [profile_cl](https://toolshed.g2.bx.psu.edu/view/immport-devteam/profile_cl):  uses flowCL to find a match for each of the populations defined by FLOCK. **Input**    This tool reads in the population score profiles from FLOCK.  **The marker names need to be in the cell ontology for this to work**    **Output**    The output is a page that allows visualization of the data.

@@ -356,7 +356,6 @@ The Galaxy is expanding! Please help it grow.
 
 * [BioInformaticien](https://talent.limagrain.com/Pages/Offre/detailoffre.aspx?idOffre=1407&idOrigine=2673&LCID=1036), HM.Clause, Business Unit du Groupe Limagrain,  Maine et Loire, La Bohalle, France
 * [Scientific Research Programmer](http://goo.gl/cMZVCn), [Sethuraman Lab](http://arunsethuraman.weebly.com/), [California State University San Marcos](https://www.csusm.edu/). Develop model-based population genomics pipelines.
-* [Bioinformaticien](https://www.sfbi.fr/content/bioinformaticien-18), [Biogemma](http://www.biogemma.com/), Chappes (Clermont-Ferrand), France
 * [Development Scientist (Bioinformatics)](http://chk.tbe.taleo.net/chk05/ats/careers/requisition.jsp?org=NEB&cws=1&rid=272), New England Biolabs, Ipswich, Massachusetts, United States.
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
