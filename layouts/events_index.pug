@@ -13,18 +13,18 @@ block content
                         th Date
                         th Topic/Event
                         th Venue/Location
-                        th Contact
+                        th Speaker(s)
                 tbody
                     each item in events.reverse()
                         if item.date != undefined
-                            if helpers.moment(item.date) >= helpers.moment(new Date()).subtract(7, 'days')
+                            if helpers.moment(item.date) >= helpers.moment(new Date()).subtract((item.days || 1), 'days')
                                 tr
                                     td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
                                     td: a( href=item.link ) #{item.title} 
                                     td #{item.location} 
                                         if item.continent
                                             img(src='/images/icons/' + item.continent + '.png')
-                                    td #{item.host}
+                                    td #{item.speaker}
                                         if item.gtn
                                             img(alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member")
             h2 Past Events
@@ -34,18 +34,18 @@ block content
                         th Date
                         th Topic/Event
                         th Venue/Location
-                        th Contact
+                        th Speaker(s)
                 tbody
                     each item in events.reverse()
                         if item.date != undefined
-                            if helpers.moment(item.date) < helpers.moment(new Date()).subtract(7, 'days')
+                            if helpers.moment(item.date) < helpers.moment(new Date()).subtract((item.days || 1), 'days')
                                 tr
                                     td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
                                     td: a( href=item.link ) #{item.title} 
                                     td #{item.location} 
                                         if item.continent
                                             img(src='/images/icons/' + item.continent + '.png')
-                                    td #{item.host}
+                                    td #{item.speaker}
                                         if item.gtn
                                             img(alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member")
 
