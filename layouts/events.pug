@@ -9,20 +9,21 @@ block content
                     ul.list-unstyled
                         li
                             strong Date: 
-                            | !{date}
-                        li
-                            strong Location: 
-                            | !{location}
-                        li
-                            strong Host: 
-                            a(href=host) #{host}
-                        li
-                            strong Event URL: 
-                            a(href=event_url) #{event_url}
-                        li
-                            strong Speaker: 
-                            | !{speaker}
+                            | !{helpers.moment(date).format("MMMM Do YYYY")}
+                        if location
+                            li
+                                strong Location: 
+                                | !{location}
+                                | a(href=location_url) #{location_url}
+                        if event_url
+                            li
+                                strong Event URL: 
+                                a(href=event_url) #{event_url}
+                        if speaker
+                            li
+                                strong Speaker: 
+                                | !{speaker}
                     div: p !{ contents }
                 div.col-md-3
                     if image
-                        img.img-responsive(src=image style="padding 2px; border: 1px solid #666")
+                        img.img-responsive(src=image style="margin-top: 20px; padding 2px; border: 1px solid #666")
