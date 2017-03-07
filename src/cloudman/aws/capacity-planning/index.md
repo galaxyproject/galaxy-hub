@@ -1,7 +1,7 @@
 ---
 autotoc: true
 ---
-{{> CloudMan/Header }}
+{{> CloudMan/LinkBoxHorizontal }}
 
 <table>
   <tr>

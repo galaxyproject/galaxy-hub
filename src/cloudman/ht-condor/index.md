@@ -1,6 +1,6 @@
 {{> CloudMan/Header }}
 
-{{> CloudMan/LinkBox }}
+{{> CloudMan/LinkBoxHorizontal }}
 
 This page will provide details on how HTCondor has been integrated into CloudMan. Examples on how to use HTCondor through CloudMan will be provided for the enduser.
 
@@ -34,7 +34,7 @@ HTCondor requires the ping port "ICMP" and the range specified through **HIGHPOR
 
 # HTCondor Flocking
 
-HTCondor has been used to achieve federated computing resource manager over the remote computing resources. In this scenario HTCondor will receive the remote computing public IP or DNS and try to use remote resources by claiming the resource from remote HTCondor pool. This has happened by setting the **FLOCK_TO** variable in the condor_config file to be the remote IP or DNS. It worth noting that the remote Condor should have provided enough acces to the CloudMan HTCondor by setting **FLOCK_FROM** and **ALLOW_WRITE** variable in their condor_config file (This setting requires HTCondor to be restarted. To restart HTCondor manually in CloudMan use */etc/init.d/condor restart* command). 
+HTCondor has been used to achieve federated computing resource manager over the remote computing resources. In this scenario HTCondor will receive the remote computing public IP or DNS and try to use remote resources by claiming the resource from remote HTCondor pool. This has happened by setting the **FLOCK_TO** variable in the condor_config file to be the remote IP or DNS. It worth noting that the remote Condor should have provided enough acces to the CloudMan HTCondor by setting **FLOCK_FROM** and **ALLOW_WRITE** variable in their condor_config file (This setting requires HTCondor to be restarted. To restart HTCondor manually in CloudMan use */etc/init.d/condor restart* command).
 
 # Big Pool
 

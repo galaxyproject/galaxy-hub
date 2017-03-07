@@ -131,14 +131,14 @@ Services are classified here by whom they are accessible to.  This can be based 
 
 ## Cancer Computer
 
-<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/galaxy-services/cancer-computer-logo-256.jpg" alt="Cancer Computer" /></a></div>
+<div class='right solid'><a href='http://www.cancercomputer.com/'><img src="/src/galaxy-services/cancer-computer-logo-256.jpg" alt="Cancer Computer" width="200" /></a></div>
 
 * *Links:*
   * **[Request access](http://www.cancercomputer.com/contact/)**
 * *Eligibility:*
   * Cancer or related research only.
 * *Comments:*
-  * 2 x Dual Hexacore HP DL380 with 288GB each Tools for genomics, proteinomics & sequence analysis We can load tools on request
+  * 60 Cores, 400GB RAM, and 5.2TB Swap storage for processing, now available for Galaxy workloads.
 * *User Support:*
   * Best effort by email. For SLA support, please contact.
 * *Quotas:* 

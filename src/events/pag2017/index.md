@@ -125,7 +125,7 @@ Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](
     <td style=" text-align: center;"> 4:00-6:10</td>
     <td> <a href='https://pag.confex.com/pag/xxv/meetingapp.cgi/Session/4217'>Genome Annotation with Galaxy</a> </td>
     <td> Workshop, California Room </td>
-    <td> </td>
+    <td> <a href="https://speakerdeck.com/jgoecks/genome-annotation-with-galaxy-and-g-onramp">Slides</a> </td>
     <td> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
