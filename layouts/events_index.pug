@@ -19,7 +19,7 @@ block content
                         if item.date != undefined
                             if helpers.moment(item.date) >= helpers.moment(new Date()).subtract(7, 'days')
                                 tr
-                                    td #{helpers.moment(item.date).format("MMMM Do YYYY")}
+                                    td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
                                     td: a( href=item.link ) #{item.title} 
                                     td #{item.location} 
                                         if item.continent
@@ -40,7 +40,7 @@ block content
                         if item.date != undefined
                             if helpers.moment(item.date) < helpers.moment(new Date()).subtract(7, 'days')
                                 tr
-                                    td #{helpers.moment(item.date).format("MMMM Do YYYY")}
+                                    td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
                                     td: a( href=item.link ) #{item.title} 
                                     td #{item.location} 
                                         if item.continent
