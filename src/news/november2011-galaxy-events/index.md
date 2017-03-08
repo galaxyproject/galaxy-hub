@@ -60,5 +60,4 @@ There are several Galaxy related events going on at Cold Spring Harbor Laborator
 Thanks,<br />
 [Dave Clements](/src/people/dave-clements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-10-31</div>
 

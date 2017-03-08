@@ -17,5 +17,4 @@ The application deadline for both is 1 February 2013.
 [European Molecular Biology Laboratory](http://www.embl.de/)<br />
 [E. Furlong Group](http://furlonglab.embl.de)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-12-18</div>
 

@@ -21,5 +21,4 @@ As always there's a lot going on in the Galaxy this month.  "Like what?" you say
 
 [Dave Clements](/src/people/dave-clements/index.md) and the *crisp* [Galaxy Team](/src/galaxy-team/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-12-01 </div>
 

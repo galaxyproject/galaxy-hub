@@ -30,5 +30,4 @@ The [French IFB Galaxy Working Group](http://www.ifb-galaxy.org/index.html):
 </div>
 
 <br />
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-10-15</div>
 

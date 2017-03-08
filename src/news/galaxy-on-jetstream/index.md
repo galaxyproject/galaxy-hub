@@ -22,4 +22,3 @@ After you have your XSEDE account and an active allocation:
 More documentation about the process can be found on Galaxy’s wiki: https://wiki.galaxyproject.org/Cloud/Jetstream
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-04-07</div>

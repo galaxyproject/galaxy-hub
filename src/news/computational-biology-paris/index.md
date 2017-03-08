@@ -35,5 +35,4 @@ Application: Send CV, cover letter and two references to [Christophe Antoniewski
  
 Christophe Antoniewski
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-09-09</div>
 

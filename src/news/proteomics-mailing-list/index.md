@@ -18,5 +18,4 @@ Thanks
 
 Ira Cooke
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-07-31</div>
 

@@ -15,5 +15,4 @@ One of the workshops, *Genomics for Non-Model Organisms* is organized by Galaxy 
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-07-08 </div>
 

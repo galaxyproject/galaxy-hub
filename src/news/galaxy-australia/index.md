@@ -38,5 +38,4 @@ We look forward to welcoming you to Melbourne. Remember to pack for our fabulous
 
 *[GAMe 2017 Organising Committee](https://www.embl-abr.org.au/game2017/organisers/)* (#game_2017)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-10-03</div>
 

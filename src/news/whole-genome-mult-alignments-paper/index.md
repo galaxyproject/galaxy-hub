@@ -10,5 +10,4 @@ A new paper, "[Making whole genome multiple alignments usable for biologists](ht
 
 The methods are [described on a Galaxy Page](http://usegalaxy.org/u/dan/p/maf) as well. 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-07-28</div>
 

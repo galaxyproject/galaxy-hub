@@ -12,5 +12,4 @@ Workshop registration is free, but space at each venue is limited.  You are enco
 The Tour is generously sponsored and hosted by the [Laboratoire de Biologie Intégrative des Organismes Marins](http://biom.obs-banyuls.fr/fr/index.html), the [Laboratoire Biométrie et Biologie Evolutive](http://lbbe.univ-lyon1.fr/), and the [Inserm - Mines ParisTech - Institut Curie - Bioinformatics and Computational Systems Biology of Cancer](http://u900.curie.fr/).  Further support for the workshops is provided by an [Amazon Web Services (AWS) Education Grant](http://aws.amazon.com/education).
 
 [Dave Clements](/src/people/dave-clements/index.md)
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-04-25</div>
 

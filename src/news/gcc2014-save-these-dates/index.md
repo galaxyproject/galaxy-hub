@@ -11,5 +11,4 @@ Galaxy Community Conferences are an opportunity to participate in presentations,
 
 [GCC2014 Organizing Committee](/src/events/gcc2014/organizers/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-10-02</div>
 

@@ -42,5 +42,4 @@ While [no quotas](/src/main/index.md#quotas) are currently implemented at the pu
 
 If you find that you require additional resources, please consider alternative Galaxy options explained at [Big Picture/Choices](/src/Big Picture/Choices/index.md).
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-08-22</div>
 

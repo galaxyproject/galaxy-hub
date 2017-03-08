@@ -12,5 +12,4 @@ The [Worflow4Metabolomics 2015 course (W4M course 2015)](http://workflow4metabol
 
 [Christophe Caron](https://fr.linkedin.com/pub/christophe-caron/48/a88/8)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-04-08</div>
 

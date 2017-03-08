@@ -29,5 +29,4 @@ Because the Tool Shed is used to install software in Galaxy, if exploited, the i
 
 [See the announcement for full details and update instructions](https://lists.galaxyproject.org/pipermail/galaxy-announce/2015-August/000149.html)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-08-13</div>
 

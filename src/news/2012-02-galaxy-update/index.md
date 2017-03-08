@@ -20,5 +20,4 @@ If you have anything you would like to see in the March *Galaxy Update*, please 
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-01-31</div>
 

@@ -17,5 +17,4 @@ Thanks,
 
 -- DaveClements
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-04-26</div>
 

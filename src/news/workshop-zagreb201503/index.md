@@ -27,5 +27,4 @@ Participants will get a broad overview of topics covering multiple facets of bio
 
 [Registration](https://www.eventbrite.com/e/bioinformatics-methods-in-genomics-free-lectures-and-workshop-tickets-15726413125?ref=ecount) is now open, and is *free*.  You may register for the different parts of the event separately.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-02-13</div>
 

@@ -9,5 +9,4 @@ date: "2012-11-09"
 
 [The Galaxy Team](/src/galaxy-team/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-11-09</div>
 

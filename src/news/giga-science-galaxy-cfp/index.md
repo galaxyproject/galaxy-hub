@@ -18,5 +18,4 @@ Executive Editor<br />
 *[GigaScience](http://www.gigasciencejournal.com/)*
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-04-04</div>
 

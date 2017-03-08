@@ -28,5 +28,4 @@ If you are interested, then please apply by 17 September!
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-09-09</div>
 

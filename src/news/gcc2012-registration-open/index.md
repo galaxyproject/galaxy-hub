@@ -27,5 +27,4 @@ Looking forward to seeing you in Chicago!
 
 [Dave Clements](/src/people/dave-clements/index.md) on behalf of the [GCC2012 Organizing Committee](/src/events/gcc2012/Organizing Committee/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-03-20</div>
 

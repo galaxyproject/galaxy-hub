@@ -16,5 +16,4 @@ To learn more about the SlipStream Appliance: Galaxy Edition, please visit [www.
 Anushka Brownley<br />
 Product Manager, [BioTeam](http://bioteam.net)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-07-01</div>
 

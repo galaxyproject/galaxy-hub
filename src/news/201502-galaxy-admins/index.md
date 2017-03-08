@@ -15,5 +15,4 @@ We are looking forward to starting this group again,
 
 [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) and [Dave Clements](/src/people/dave-clements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-01-28</div>
 

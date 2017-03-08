@@ -22,5 +22,4 @@ If you have anything you would like to see in the June *[Galaxy Update](/src/gal
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-05-01</div>
 

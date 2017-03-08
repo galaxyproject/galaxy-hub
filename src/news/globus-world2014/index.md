@@ -16,5 +16,4 @@ date: "2014-03-28"
 
 [Ravi Madduri](http://www.mcs.anl.gov/person/ravi-madduri)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-03-28</div>
 

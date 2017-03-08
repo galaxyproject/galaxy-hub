@@ -15,5 +15,4 @@ These topics are currently being discussed in [this email thread](/src/this emai
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-04-01</div>
 

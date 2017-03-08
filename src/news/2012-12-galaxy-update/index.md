@@ -23,5 +23,4 @@ If you have anything you would like to see in the January *[Galaxy Update](/src/
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-11-30</div>
 

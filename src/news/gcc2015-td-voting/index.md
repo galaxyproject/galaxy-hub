@@ -28,5 +28,4 @@ Thanks,
 
 The [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-01-19</div>
 

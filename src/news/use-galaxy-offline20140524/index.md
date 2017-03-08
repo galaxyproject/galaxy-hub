@@ -9,5 +9,4 @@ date: "2014-05-16"
 
 During this time you are encouraged to use [any of the 60+ public Galaxy servers](/src/public-galaxy-servers/index.md).
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-05-16</div>
 

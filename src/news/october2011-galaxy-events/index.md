@@ -46,5 +46,4 @@ There are (at least) three [Galaxy related events](/src/events/index.md) going o
 Thanks,<br />
 [Dave Clements](/src/people/dave-clements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-09-28</div>
 

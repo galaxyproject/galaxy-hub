@@ -24,5 +24,4 @@ Many thanks,
 
 [James Taylor](/src/people/james-taylor/index.md) and [Anton Nekrutenko](/src/people/anton/index.md), on behalf of the [Galaxy Team](/src/galaxy-team/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-01-07</div>
 

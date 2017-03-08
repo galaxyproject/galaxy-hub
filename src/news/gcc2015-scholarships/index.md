@@ -25,5 +25,4 @@ Please do let us know if you have any questions, and we hope to see you at [GCC2
 
 [Galaxy Community Fund Board](mailto:community-fund@lists.galaxyproject.org)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-04-21</div>
 

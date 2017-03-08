@@ -18,5 +18,4 @@ Let your voice be heard!
 
 [The Galaxy Team](/src/galaxy-team/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-09-30</div>
 

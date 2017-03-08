@@ -16,5 +16,4 @@ The new version brings the following updates/features:
 
 [EnisAfgan](/src/people/enis-afgan/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-11-29</div>
 

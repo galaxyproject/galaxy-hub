@@ -19,5 +19,4 @@ We hope to see you in June, and can't wait to see what we can accomplish!
 
 -[Dannon Baker](/src/people/dannon-baker/index.md) on behalf of the [GCC2014 Hackathon Organizing Committee](/src/events/gcc2014/organizers/index.md#hackathon-committee)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-04-18</div>
 

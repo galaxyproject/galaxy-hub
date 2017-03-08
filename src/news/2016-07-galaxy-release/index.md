@@ -28,5 +28,4 @@ The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/do
 On behalf of the [Galaxy Core and Contributor team](https://wiki.galaxyproject.org/GalaxyTeam) (and community), ***Thanks for using Galaxy!***
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-08-25</div>
 

@@ -41,5 +41,4 @@ Thanks to everyone who participated!
 
 [Rémi Marenco](/src/people/remi-marenco/index.md). [Nitesh Turaga](/src/people/nitesh-turaga/index.md), and [Björn Grüning](/src/people/bjoern-gruening/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-04-07</div>
 

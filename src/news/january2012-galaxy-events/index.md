@@ -57,5 +57,4 @@ And I apologize in advance if I messed up the translation of the [event at DDBJ]
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-12-08</div>
 

@@ -38,5 +38,4 @@ In addition, there will be a keynote talk on Galaxy at the [South African Geneti
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-06-28</div>
 

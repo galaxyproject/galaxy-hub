@@ -9,5 +9,4 @@ Access to all TACC resources and services, including [UseGalaxy.org](https://use
 
 During this outage, users are encouraged to use the **[50+ other public Galaxy servers](/src/public-galaxy-servers/index.md)** that won't be affected by this upgrade.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-03-17</div>
 

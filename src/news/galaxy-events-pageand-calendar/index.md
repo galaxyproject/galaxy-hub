@@ -16,5 +16,4 @@ If you know of events that either have significant Galaxy content, or are of int
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-07-13</div>
 
