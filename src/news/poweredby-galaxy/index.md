@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Powered by Galaxy](/src/news/Powered by Galaxy/index.md)</div>
+---
+title: "Powered by Galaxy"
+date: "2011-08-19"
+---
 
 <div class='right'><a href='/src/outreach/powered-by-galaxy/index.md'><img src="/src/outreach/powered-by-galaxy/images/powered-by-galaxy.png" /></a></div>
 Do you use Galaxy in your research?  If so, please consider putting a *[Powered by Galaxy](/src/outreach/powered-by-galaxy/index.md)* icon on your websites, presentations and posters.  Increasing Galaxy's visibility has many benefits:

@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Updated GalaxyProject.org Site](/src/news/Updated GalaxyProject.org Site/index.md)</div>
+---
+title: "Updated GalaxyProject.org Site"
+date: "2011-08-24"
+---
 
 <div class='right'><a href='http://galaxyproject.org/'><img src="/src/images/screenshots/GalaxyProjectOrg.png" alt="GalaxyProject.org" /></a></div>
 

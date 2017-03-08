@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GlobusWorld 2014](/src/news/globus-world2014/index.md)</div>
+---
+title: "GlobusWorld 2014"
+date: "2014-03-28"
+---
 
 <div class='right'><a href='http://www.globusworld.org/'><img src="/src/images/logos/GlobusGenomics.png" alt="Globus World 2014" width="180" /></a></div>
 

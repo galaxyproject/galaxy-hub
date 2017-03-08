@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[1000th Galaxy CiteULike Paper](/src/news/galaxy-cite-u-like-paper1000/index.md)</div>
+---
+title: "1000th Galaxy CiteULike Paper"
+date: "2013-06-06"
+---
 
 <div class='right'><a href='http://www.citeulike.org/group/16008/'><img src="/src/images/logos/CiteULikeLogo.png" alt="Galaxy CiteULike Group" width="200" /></a></div>
 

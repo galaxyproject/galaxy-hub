@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy Community Log Board](/src/news/community-log-board/index.md)</div>
+---
+title: "Galaxy Community Log Board"
+date: "2013-12-06"
+---
 
 <div class='left'><a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="200" /></a></div>
 

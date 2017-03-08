@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[July 2016 Galactic News](/src/news/2016-07-galaxy-update/index.md)</div>
+---
+title: "July 2016 Galactic News"
+date: "2016-07-06"
+---
 
 <div class='right'>
 <a href='/src/galaxy-updates/2016-07/index.md#gcc2017-26-30-june-2017-montpellier-france'><img src="/src/images/logos/GCC2107.png" alt="GCC2017 Announced" width="200" /></a><br />

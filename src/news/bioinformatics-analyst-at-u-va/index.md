@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Bioinformatics Analyst @ U Virgina](/src/news/bioinformatics-analyst-at-u-va/index.md)</div>
+---
+title: "Bioinformatics Analyst @ U Virgina"
+date: "2012-02-24"
+---
 
 <div class='right'><a href='https://jobs.virginia.edu/applicants/jsp/shared/frameset/Frameset.jsp?time=1330113297920'><img src="/src/images/logos/UVaBioinformaticsCoreLogo.png" alt="Opening at University of Virginia Bioinformatics Core" /></a></div>
 

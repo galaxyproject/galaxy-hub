@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Fall 2014 GUGGO Events Report](/src/news/guggo-report-fall2014/index.md)</div>
+---
+title: "Fall 2014 GUGGO Events Report"
+date: "2014-10-31"
+---
 
 <div class='right'><a href='http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo'><img src="/src/images/logos/eBiogenouestLogo.png" alt="Galaxy User Group Grand Ouest (GUGGO)" width=200 /></a></div>
 

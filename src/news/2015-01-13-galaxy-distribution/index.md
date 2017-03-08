@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[January 13, 2015 Galaxy Distribution](/src/news/2015-01-13-galaxy-distribution/index.md)</div>
+---
+title: "January 13, 2015 Galaxy Distribution"
+date: "2015-01-13"
+---
 <div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GetGalaxyOrg.png" alt="width=175" /></a></div>
 **[Complete News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2015-01-13)**
 <br />

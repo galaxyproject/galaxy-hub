@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy Goes Mobile](/src/news/galaxy-on-mobile/index.md)</div>
+---
+title: "Galaxy Goes Mobile"
+date: "2016-02-02"
+---
 
 <div class='right'>
 <img src="/src/images/news-graphics/GalaxyPortalHistory.png" alt="A history in Galaxy Portal" width="200" />

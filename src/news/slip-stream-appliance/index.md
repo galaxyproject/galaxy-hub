@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[SlipStream Appliance: Galaxy Edition](/src/news/slip-stream-appliance/index.md)</div>
+---
+title: "SlipStream Appliance: Galaxy Edition"
+date: "2013-07-01"
+---
 
 <div class='center'><a href='http://www.bioteam.net/slipstream/galaxy-edition'><img src="/src/images/logos/SlipStreamApplianceLogo.png" alt="SlipStream Appliance - Galaxy Edition" width="300" /></a></div>
 

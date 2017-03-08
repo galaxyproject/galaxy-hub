@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy @ ASA/CSSA/SSSA 2014](/src/news/asa-cssa-sssa-2014/index.md)</div>
+---
+title: "Galaxy @ ASA/CSSA/SSSA 2014"
+date: "2014-09-03"
+---
 
 <table>
   <tr>

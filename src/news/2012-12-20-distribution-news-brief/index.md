@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Dec 20, 2012 Distribution & News Brief](/src/news/2012-12-20-distribution-news-brief/index.md)</div>
+---
+title: "Dec 20, 2012 Distribution & News Brief"
+date: "2012-12-21"
+---
 
 <div class='right'><a href='http://galaxyproject.org'><img src="/src/images/news-graphics/2012_12_20_ngs-rna-analysis-toolsuite.png" alt="width="225"" /></a></div>
 

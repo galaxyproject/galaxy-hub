@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GCC2015 Scholarships](/src/news/gcc2015-scholarships/index.md)</div>
+---
+title: "GCC2015 Scholarships"
+date: "2015-04-21"
+---
 
 <div class='right'>
 <a href='http://bit.ly/gcc2015scholarship'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="GCC2015 registration and lodging scholarships for US-based students and post-docs who and members of historically underrepresented groups" width="250" /></a></div>

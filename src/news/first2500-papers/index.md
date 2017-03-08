@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[2500 Galaxy Papers & Counting](/src/news/first2500-papers/index.md)</div>
+---
+title: "2500 Galaxy Papers & Counting"
+date: "2015-08-12"
+---
 
 <div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/src/images/logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
 

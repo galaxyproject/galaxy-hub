@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy, GMOD2013 & Biocuration 2013](/src/news/galaxy-gmod-biocuration2013/index.md)</div>
+---
+title: "Galaxy, GMOD2013 & Biocuration 2013"
+date: "2013-02-19"
+---
 
 <div class='left'><a href='/src/gmod:/index.md'><img src="/src/images/logos/GMODLogo.png" alt="GMOD Project" width="150" /></a></div>
 

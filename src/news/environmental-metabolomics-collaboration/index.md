@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Environmental Metabolomics + Galaxy](/src/news/environmental-metabolomics-collaboration/index.md)</div>
+---
+title: "Environmental Metabolomics + Galaxy"
+date: "2013-04-22"
+---
 
 <div class='right'><a href='http://www.birmingham.ac.uk/schools/biosciences/'><img src="/src/images/logos/UBirminghamLogo.gif" alt="University of Birmingham" height="40" /></a></div>
 

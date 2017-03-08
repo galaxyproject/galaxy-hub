@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Swiss German Galaxy Tour 2014](/src/news/s-g2014-report/index.md)</div>
+---
+title: "Swiss German Galaxy Tour 2014"
+date: "2014-10-21"
+---
 
 <div class='right'><a href='/src/events/sg2014/index.md'><img src="/src/images/logos/SG2014Logo400.png" alt="Swiss-German Galaxy Tour 2014" width="180" /></a></div>
 

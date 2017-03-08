@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[BioBlend v0.5.3 Released](/src/news/bio-blend-v0.5.3/index.md)</div>
+---
+title: "BioBlend v0.5.3 Released"
+date: "2015-03-19"
+---
 
 <div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="200" /></a></div>
 
