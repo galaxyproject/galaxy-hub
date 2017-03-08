@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[December Bioinformatics Boot Camps](/src/news/uc-davis-bioinformatics-bootcamps/index.md)</div>
+---
+title: "December Bioinformatics Boot Camps"
+date: "2013-10-18"
+---
 
 **Registration is now open for [Bioinformatics Bootcamps in December](https://training.bioinformatics.ucdavis.edu/bootcamps/)!**
 

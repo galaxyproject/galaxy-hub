@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Bioinformatician, MDC Berlin-Buch](/src/news/mdc-berlin-buch-opening/index.md)</div>
+---
+title: "Bioinformatician, MDC Berlin-Buch"
+date: "2015-01-17"
+---
 
 **Bioinformatics scientist/engineer for RNA bioinformatics and next-generation sequencing Berlin**
 

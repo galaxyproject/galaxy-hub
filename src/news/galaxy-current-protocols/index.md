@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Two New Current Protocols Papers](/src/news/galaxy-current-protocols/index.md)</div>
+---
+title: "Two New Current Protocols Papers"
+date: "2012-06-18"
+---
 
 <div class='right'><a href='http://cda.currentprotocols.com/WileyCDA/CurPro3Category/L1-1000.html'><img src="/src/images/logos/CurrentProtocolsLogo.png" alt="Current Protocols in Bioinformatics" width="300" /></a></div>
 

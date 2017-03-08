@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Proposed IRC Channel Policy Change](/src/news/irc-public-log-proposal/index.md)</div>
+---
+title: "Proposed IRC Channel Policy Change"
+date: "2014-09-02"
+---
 
 <div class='right'><img src="/src/images/icons/ChatBalloons.png" alt="Galaxy IRC Channel" width="60" /></div>
 

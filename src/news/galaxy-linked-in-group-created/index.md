@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy LinkedIn Group](/src/news/galaxy-linked-in-group-created/index.md)</div>
+---
+title: "Galaxy LinkedIn Group"
+date: "2013-03-18"
+---
 
 <div class='right'><a href='http://bit.ly/gxyLinkedIn'><img src="/src/images/logos/LinkedInLogo.png" alt="Galaxy Linked In Group" /></a></div>
 

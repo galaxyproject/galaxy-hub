@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy Project Openings](/src/news/galaxy-project-openings/index.md)</div>
+---
+title: "Galaxy Project Openings"
+date: "2013-01-25"
+---
 
 <div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/galaxy-is-hiring/GalaxyIsHiringWordCloud2.png" alt="Galaxy is Hiring" width="300" /></a></div>
 

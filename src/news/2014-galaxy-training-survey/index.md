@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[2014 Galaxy Training Survey](/src/news/2014-galaxy-training-survey/index.md)</div>
+---
+title: "2014 Galaxy Training Survey"
+date: "2013-08-05"
+---
 
 <div class='right'><a href='http://bit.ly/gxy14training'><img src="/src/news/2014-galaxy-training-survey/GalaxyTrainingSurvey.png" alt="Take the Galaxy training survey" width="350" /></a></div>
 

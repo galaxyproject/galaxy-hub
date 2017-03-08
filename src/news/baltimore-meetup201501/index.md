@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Baltimore Area Galaxy Meetup Jan 22](/src/news/BaltimoreMeetup201401/index.md)</div>
+---
+title: "Baltimore Area Galaxy Meetup Jan 22"
+date: "2015-01-07"
+---
 
 Hey Everyone,
 

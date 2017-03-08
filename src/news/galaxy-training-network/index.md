@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy Training Network](/src/news/galaxy-training-network/index.md)</div>
+---
+title: "Galaxy Training Network"
+date: "2014-10-16"
+---
 
 <div class='right'><a href='/src/teach/index.md'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" width="200" /></a></div>
 

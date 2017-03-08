@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Whole Genome Mult. Alignments Paper](/src/news/Whole Genome Mult. Alignments Paper/index.md)</div>
+---
+title: "Whole Genome Mult. Alignments Paper"
+date: "2011-07-28"
+---
 
 <div class='right'><a href='http://bioinformatics.oxfordjournals.org/content/early/2011/07/19/bioinformatics.btr398.abstract'><img src="/src/images/logos/BioinformaticsJournal.png" alt="Bioinformatics Jorunal" height="100px" /></a>
 </div>

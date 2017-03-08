@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[2013 Galaxy Day Report](/src/news/galaxy-day2013-report/index.md)</div>
+---
+title: "2013 Galaxy Day Report"
+date: "2013-12-17"
+---
 
 <div class='right'><a href='http://wiki.sb-roscoff.fr/ifb/index.php/Accueil'><img src="/src/images/logos/GalaxyIFB.png" alt="Galaxy Day" /></a></div>
 

@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Nov 04, 2013 Galaxy Distribution](/src/news/2013-11-04-galaxy-distribution/index.md)</div>
+---
+title: "Nov 04, 2013 Galaxy Distribution"
+date: "2013-11-04"
+---
 
 <div class='right'>
 <a href='/src/http:usegalaxy.org/index.md'><img src="/src/images/news-graphics/2013_11_04_usegalaxy.org.jpg" alt="usegalaxy.org" width=300 /></a><br />**usegalaxy.org**</div>

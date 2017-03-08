@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GCC2012 Abstract Submission is Open](/src/news/gcc2012-abstract-submission-open/index.md)</div>
+---
+title: "GCC2012 Abstract Submission is Open"
+date: "2012-02-13"
+---
 
 <div class='right'><a href='/src/events/gcc2012/abstracts/index.md'><img src="/src/events/gcc2012/GCC2012Logo200.png" /></a></div>
 

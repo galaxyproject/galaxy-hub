@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[October 2011 Galaxy Events](/src/news/October 2011 Galaxy Events/index.md)</div>
+---
+title: "October 2011 Galaxy Events"
+date: "2011-09-28"
+---
 
 <div class='right'>
 <a href='/src/events/index.md'><img src="/src/images/logos/galaxyLogoTrimmed.png" alt="Galaxy Events in October 2011" width="120" /></a> 

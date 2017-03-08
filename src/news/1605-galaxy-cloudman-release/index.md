@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[16.05 Galaxy CloudMan release](/src/news/1605-galaxy-cloudman-release/index.md)</div>
+---
+title: "16.05 Galaxy CloudMan release"
+date: "2016-05-25"
+---
 
 <div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="300" /></a></div>
 
