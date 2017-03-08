@@ -75,4 +75,3 @@ Much like existing format conversion, where datatypes have split and merge metho
 ## Questions?
 
 Send them to [Peter Cock](mailto:p.j.a.cock@googlemail.com).
-

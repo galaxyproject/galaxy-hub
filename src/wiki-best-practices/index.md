@@ -92,4 +92,3 @@ We are still working out details in this area.
 ## Formatting
 
 Formatting is the boogieman of many sets of best practices.  Only worry about this section if you really care.
-

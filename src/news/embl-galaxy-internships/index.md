@@ -16,5 +16,3 @@ The application deadline for both is 1 February 2013.
 [Charles Girardot](http://www.embl.de/research/units/genome_biology/furlong/members/index.php?s_personId=3406)<br />
 [European Molecular Biology Laboratory](http://www.embl.de/)<br />
 [E. Furlong Group](http://furlonglab.embl.de)
-
-

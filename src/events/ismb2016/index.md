@@ -111,4 +111,3 @@ Galaxy has a significant presence at [ISMB 2016](http://www.iscb.org/ismb2016) a
     <td> <a href='http://bit.ly/ismb2016'>Slides</a> </td>
   </tr>
 </table>
-

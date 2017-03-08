@@ -16,4 +16,3 @@ The *yellow banner on **Main** and **Test** will provide updates* (when the serv
 *Thanks for using Galaxy!!*
 
 [Galaxy Team](/src/galaxy-team/index.md)
-

@@ -942,4 +942,3 @@ The following are great places to start when trouble shooting or planning an exp
 
 1. [Running Galaxy in a production environment](/src/admin/config/performance/production-server/index.md)
 2. Nate Coraor's excellent page for the BioIT workshop on [Running a Local Galaxy Instance](/src/events/bio-it-world2014/w14/index.md)
-

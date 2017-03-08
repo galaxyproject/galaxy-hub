@@ -207,4 +207,3 @@ To make a dataset private to themselves and one or more other users, the user ca
 Private data (data associated with roles that include the "access" permission) must be made public in order to be used with external applications like the "view at UCSC" link, or the "Perform genome analysis and prediction with EpiGRAPH" tool. Being made publically accessible means removing the association of all roles that include the "access" permission from the dataset.
 
 manage permissions - Role members can manage the permissions applied to this dataset
-

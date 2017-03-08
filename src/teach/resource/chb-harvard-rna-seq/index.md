@@ -38,4 +38,3 @@ Many of these tools are standalone, and are not run from within Galaxy.
 
 * [CHB Harvard RNA-Seq Workshop](http://hbc.github.io/ngs-workshops/courses/introduction-to-rna-seq/)
 * [one of a set of online tutorials](http://hbc.github.io/ngs-workshops/about/)
-

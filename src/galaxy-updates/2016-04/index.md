@@ -586,4 +586,3 @@ The [IUC](/src/iuc/index.md) is [seeking comments and contributions to this effo
   * Galaxy Tours, a new interactive way to learn Galaxy, were announced in the [February News](/src/galaxy-updates/2016-02/index.md#new-tutorials--and-tours).  We now have an [official repository to collect community tours](https://github.com/galaxyproject/galaxy-tours).
 * From Yvan Le Bras:
   * My [first Galaxy Interactive Tour attempt](https://www.youtube.com/watch?v=msm-EDZcB5A&feature=youtu.be) for RADseq data analysis based on a RNAseq, using Björn Grüning's template.
-

@@ -20,5 +20,3 @@ After you have your XSEDE account and an active allocation:
 4. In less than 5 minutes, you should have your own, fully configured Galaxy server
 
 More documentation about the process can be found on Galaxy’s wiki: https://wiki.galaxyproject.org/Cloud/Jetstream
-
-

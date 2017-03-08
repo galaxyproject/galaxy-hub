@@ -36,4 +36,3 @@ The home page also contains instructions on how to install and use the instance,
 * [SADI-Galaxy at GitHub](https://github.com/mikel-egana-aranguren/SADI-Galaxy)
 * [SADI-Galaxy Docker image](https://registry.hub.docker.com/u/mikeleganaaranguren/sadi-galaxy)
 * [OPPL Galaxy](/src/public-galaxy-servers/index.md#oppl-galaxy) instance, which also supports SADI.
-

@@ -431,4 +431,3 @@ In no particular order:
 * From [Edinburgh Genomics](https://twitter.com/edgenome): Workshop announcement (Feb 2015): "[Introduction to Python for Biologists](http://bit.ly/1uKSsBu)"
 * [Discussion on Command to compare repositories in different Tool Sheds](https://github.com/galaxyproject/planemo/issues/27) started by Peter Cock.
 * December 31, 2014, is the last day for submissions to [GigaScience](http://www.gigasciencejournal.com/) that will not be charged an article processing charge.
-

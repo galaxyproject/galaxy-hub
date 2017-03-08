@@ -73,4 +73,4 @@ In addition the following tutorials are available from other contributors:
 | **[Using Galaxy for NGS Analysis](http://chagall.med.cornell.edu/galaxy/)** |  [Luce Skrabanek](mailto:las2017 AT med DOT cornell DOT edu)  |  2012/06  | 
 | **[RNA-Seq Course v1.0 documentation](http://training.bioinformatics.ucdavis.edu/docs/2012/05/RNA/index.html)** |  [UC Davis Bioinformatics Professional Training Program](http://training.bioinformatics.ucdavis.edu/)  |  2012/05  | 
 | **[Analyzing epigenome data in context of genome evolution and human diseases](http://www.springerlink.com/content/l2184206p7583v75/)** |  Feuerbach, *et al.*  |  2012/02  | 
-| **[UAB Galaxy RNA Seq Step by Step Tutorial](https://docs.uabgrid.uab.edu/wiki/UAB_Galaxy_RNA_Seq_Step_by_Step_Tutorial)** |  [Curtis Hendrickson](http://www.ccts.uab.edu/pages/bmi/bmi_main.htm)  |  2011-09-16  | 
+| **[UAB Galaxy RNA Seq Step by Step Tutorial](https://docs.uabgrid.uab.edu/wiki/UAB_Galaxy_RNA_Seq_Step_by_Step_Tutorial)** |  [Curtis Hendrickson](http://www.ccts.uab.edu/pages/bmi/bmi_main.htm)  |  2011-09-16  |

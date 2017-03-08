@@ -88,4 +88,3 @@ autotoc: true
 * [2012-04](/src/galaxy-updates/2012-04/index.md) ([Summary](/src/news/2012-04-galaxy-update/index.md))
 * [2012-03](/src/galaxy-updates/2012-03/index.md) ([Summary](/src/news/2012-03-galaxy-update/index.md))
 * [2012-02](/src/galaxy-updates/2012-02/index.md) ([Summary](/src/news/2012-02-galaxy-update/index.md))
-

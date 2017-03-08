@@ -34,5 +34,3 @@ Application: Send CV, cover letter and two references to [Christophe Antoniewski
 [Lab publications](http://drosophile.org/?page_id=92)
  
 Christophe Antoniewski
-
-

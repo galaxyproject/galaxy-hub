@@ -19,5 +19,4 @@ The [Institut Français de Bioinformatique](http://www.renabi.fr/) [Galaxy worki
 
 * [Tool Integration Short Tutorial](http://wiki.sb-roscoff.fr/ifb/index.php/Tool_Integration_Short_Tutorial) 
 * [Galaxy working group](http://www.ifb-galaxy.org/)
-* [Institut Français de Bioinformatique](http://www.renabi.fr/) 
-
+* [Institut Français de Bioinformatique](http://www.renabi.fr/)

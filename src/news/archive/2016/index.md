@@ -39,5 +39,3 @@ See also
 <br /><br />
 
 <div class='newsItemList'>
- 
-

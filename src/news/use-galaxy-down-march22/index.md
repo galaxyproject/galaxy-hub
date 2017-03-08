@@ -8,5 +8,3 @@ date: "2014-03-17"
 Access to all TACC resources and services, including [UseGalaxy.org](https://usegalaxy.org), will be unavailable between 9 a.m. - 5 p.m. (US Central Time) on Saturday, March 22.  TACC staff will be performing an upgrade to the networking infrastructure.
 
 During this outage, users are encouraged to use the **[50+ other public Galaxy servers](/src/public-galaxy-servers/index.md)** that won't be affected by this upgrade.
-
-

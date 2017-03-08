@@ -191,4 +191,3 @@ Getting started with the code base
 ## Nicola Soranzo
 
 ## Marius Van Den Beek
-

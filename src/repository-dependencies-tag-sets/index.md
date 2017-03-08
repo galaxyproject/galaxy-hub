@@ -21,4 +21,3 @@
     <td> Defines a specific revision of a repository on which this repository depends.  If the toolshed is not defined, it will be automatically set to the local Tool Shed.  If defined, the changeset_revision is the minimum required version.  If the changeset_revision is not defined, it will be set to the latest installable changeset_revision for the repository defined by the name and owner.  If either the toolshed or the changeset_revision is not defined, the repository_dependencies.xml file will automatically be altered (before it is committed in the changeset) to include the attributes and values just discussed.</td>
   </tr>
 </table>
-

@@ -28,5 +28,3 @@ As always, please let us know if you have any questions.
 Thanks,
 
 The [GCC2014 Organizing Committee](/src/events/gcc2014/organizers/index.md)
-
-

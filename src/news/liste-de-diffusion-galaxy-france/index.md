@@ -34,5 +34,3 @@ Les administrateurs: Alban Lermine, Olivier Inizan, Rémi Marenco, [Dave Clement
 Alban Lermine
 
 ([Translate](http://translate.google.com/translate?u=http%3A%2F%2Fwiki.g2.bx.psu.edu%2FNews%2FListeDeDiffusionGalaxyFrance))
-
-

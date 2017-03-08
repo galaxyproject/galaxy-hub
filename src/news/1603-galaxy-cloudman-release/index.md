@@ -13,5 +13,3 @@ Most notable changes include:
 * Several fixes to cluster sharing and cloning
 
 See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes.
-
-

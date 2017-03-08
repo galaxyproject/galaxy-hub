@@ -74,5 +74,4 @@ Tools contributed to the Galaxy Project Tool Shed in December 2015.
   * [package_python_2_7_pyvcf_0_6_8dev](https://toolshed.g2.bx.psu.edu/view/ulfschaefer/package_python_2_7_pyvcf_0_6_8dev): PyVCF 0.6.8dev for Python2.7.10 Downloads and installs commit 0eb779559e74faa14fae609c8864874ab8321c7e of PyVCF. No release of version 0.6.8 is available (yet).
   * [package_python_2_7_bintrees_2_0_2](https://toolshed.g2.bx.psu.edu/view/ulfschaefer/package_python_2_7_bintrees_2_0_2): bintrees for Python2.7.10 This Galaxy Tool shed package installs bintrees version 2.0.2 (https://pypi.python.org/pypi/PyVCF)  package for use with python 2.7.10.
   * [package_python_2_7_pyvcf_0_6_7](https://toolshed.g2.bx.psu.edu/view/ulfschaefer/package_python_2_7_pyvcf_0_6_7): pyvcf 0.6.7 for python 2.7 package package_pyvcf_0_6_7 with added python2.7 dependency
-  * [package_python_2_7_biopython_1_66](https://toolshed.g2.bx.psu.edu/view/ulfschaefer/package_python_2_7_biopython_1_66): Biopython 1.66 for Python2.7.10 
-
+  * [package_python_2_7_biopython_1_66](https://toolshed.g2.bx.psu.edu/view/ulfschaefer/package_python_2_7_biopython_1_66): Biopython 1.66 for Python2.7.10

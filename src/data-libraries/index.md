@@ -41,4 +41,3 @@ approach allows for multiple users to use a single (possibly very large) dataset
 * [list of libraries](/src/data-libraries/screen/list-of-libraries/index.md)
 * [folder contents](/src/data-libraries/screen/folder-contents/index.md)
 * [dataset detail](/src/data-libraries/screen/DatasetDetail/index.md)
-

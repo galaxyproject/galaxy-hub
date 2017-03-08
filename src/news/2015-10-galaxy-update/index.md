@@ -30,5 +30,3 @@ The **[October Galactic News](/src/galaxy-updates/2015-10/index.md)** is hot off
 * and [lots of other news too](/src/galaxy-updates/2015-10/index.md#other-news), [including a birthday](/src/galaxy-updates/2015-10/index.md#galaxy-turns-10) (OK, maybe we are chronologically challenged, but we're young!)
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
-
-

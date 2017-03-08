@@ -79,5 +79,3 @@ See also
 * [Mailing Lists](/src/mailing-lists/index.md)
 
 <div class='newsItemList'>
- 
-

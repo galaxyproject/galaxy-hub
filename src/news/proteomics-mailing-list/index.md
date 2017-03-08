@@ -17,5 +17,3 @@ Many thanks to Dave C. and the [Galaxy team](/src/galaxy-team/index.md) for sett
 Thanks
 
 Ira Cooke
-
-

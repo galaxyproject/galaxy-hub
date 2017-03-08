@@ -4723,4 +4723,3 @@ Listing of Galaxy events from previous years. See the main [Galactic Events](/sr
     <td> <a href='/src/people/dan/index.md'>Dan Blankenberg</a> </td>
   </tr>
 </table>
-

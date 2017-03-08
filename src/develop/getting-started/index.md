@@ -54,4 +54,3 @@ In addition to the Galaxy core project and tool projects listed above - there ar
   * [https://github.com/galaxyproject/ansible-galaxy-extraslAnsible Galaxy Extras](https://github.com/galaxyproject/ansible-galaxy-extraslAnsible Galaxy Extras) Ansible role for configuring dynamic production servers such as Docker images and cloud-based virtual machines (used by planemo-machine and docker-galaxy-stable).
   * [Ansible CloudMan Image](https://github.com/galaxyproject/ansible-cloudman-image) Ansible role for configuring an Ubuntu operating system for CloudMan.
   * [https://github.com/galaxyproject/ansible-tracksterlAnsible Trackster](https://github.com/galaxyproject/ansible-tracksterlAnsible Trackster) Ansible role for configuring Trackster dependencies.
-

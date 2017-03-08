@@ -23,5 +23,3 @@ Any other information you want to provide would be helpful. Not only will this s
 Many thanks,
 
 [James Taylor](/src/people/james-taylor/index.md) and [Anton Nekrutenko](/src/people/anton/index.md), on behalf of the [Galaxy Team](/src/galaxy-team/index.md)
-
-

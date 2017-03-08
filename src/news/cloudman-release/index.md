@@ -25,5 +25,3 @@ For more details on the new features, see the the [CHANGELOG](https://bitbucket.
 Enjoy and please let us know what you think,
 
 [Enis Afgan](/src/people/enis-afgan/index.md)
-
-

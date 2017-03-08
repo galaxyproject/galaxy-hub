@@ -10,4 +10,3 @@ See also
 * [Galaxy Development News Briefs](/src/docs/index.md)
 * [Galaxy on Twitter](/src/galaxy-on-twitter/index.md)
 * [Mailing Lists](/src/mailing-lists/index.md)
-

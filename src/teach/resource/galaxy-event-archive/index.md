@@ -25,4 +25,3 @@ The [Galaxy Events Archive](/src/events/index.md#past_events) lists all known pa
 
 * [Galaxy Events Archive for current year](/src/events/index.md#past_events)
 * [Galaxy Events Archive for previous years](/src/events/archive/index.md)
-

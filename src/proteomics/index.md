@@ -29,4 +29,3 @@ The GalaxyP Project on GitHub:
 * [Galaxy-P](https://github.com/galaxyproteomics/)
 * [Ira Cooke](https://github.com/iracooke/)
 * [John Chilton](https://github.com/jmchilton)
-

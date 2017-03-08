@@ -186,4 +186,3 @@ After we confirm the deletion, the library disappears from the data libraries br
 When we browse the library, we see that the state of all of it's contents was not affected by the deletion, and the library's pop-up menu allows us to un-delete the library.
 
 For additional information, see our [Data Libraries and Sample Tracking tutorial](Admin%2FDataLibraries%2FLibrarySampleTracking).
-

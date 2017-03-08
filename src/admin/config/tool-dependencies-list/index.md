@@ -91,5 +91,4 @@ See an example here: https://github.com/bgruening/galaxytools/tree/master/test_r
 * libextutils-cbuilder-perl    
 * liblocal-lib-perl            
 * libmodule-build-perl
-* libmodule-install-perl    
-
+* libmodule-install-perl

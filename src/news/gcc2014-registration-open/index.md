@@ -24,5 +24,3 @@ The *[GigaScience](http://www.gigasciencejournal.com/)* "Galaxy: Data Intensive 
 Thanks, and hope to see you in Baltimore!
 
 The [GCC2014 Organizing Committee](/src/events/gcc2014/organizers/index.md)
-
-

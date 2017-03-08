@@ -31,4 +31,3 @@ On top of the general Galaxy tools, we offer NGS and microarray analysis using c
 ## Customizations
 
 ## Links
-

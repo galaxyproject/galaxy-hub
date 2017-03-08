@@ -147,4 +147,3 @@ else
     echo 'Mounting ...'
 fi
 ```
-

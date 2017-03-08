@@ -371,4 +371,3 @@ your provider's `__init__` method. For example, the `FilteredLineDataProvider` h
                   comment_char=DEFAULT_COMMENT_CHAR, **kwargs ):
         # ...
 ```
-

@@ -40,5 +40,3 @@ Infrastructure:
 Thanks to everyone who participated!
 
 [Rémi Marenco](/src/people/remi-marenco/index.md). [Nitesh Turaga](/src/people/nitesh-turaga/index.md), and [Björn Grüning](/src/people/bjoern-gruening/index.md)
-
-

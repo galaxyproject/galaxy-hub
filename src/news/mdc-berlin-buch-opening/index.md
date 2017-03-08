@@ -17,5 +17,3 @@ Please contact [Altuna Akalin](mailto:altuna.akalin@mdc DASH berlin.de) for furt
 <a href='https://www.mdc-berlin.de/'><img src="/src/images/logos/MCDBerlinBuch.gif" alt="MDC Berlin-Buch" width="300" /></a>
 <a href='http://www.helmholtz.de/'><img src="/src/images/logos/HelmholtzAssoc.gif" alt="Helmholtz Association of National Research Centers" /></a>
 </div>
-
-

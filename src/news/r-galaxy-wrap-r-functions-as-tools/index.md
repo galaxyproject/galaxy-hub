@@ -22,5 +22,3 @@ biocLite("RGalaxy")
 Dan Tenenbaum<br />
 [Bioconductor Core Team](http://www.bioconductor.org/about/core-team/)<br />
 [Fred Hutchinson Cancer Research Center](http://www.fhcrc.org/)
-
-

@@ -32,5 +32,3 @@ The **[February 2016 Galactic News](/src/galaxy-updates/2016-02/index.md)** is h
 Happy February!
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
-
-

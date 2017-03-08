@@ -49,4 +49,3 @@ If you are interested, please add your name below and/or send an email to [Marti
 ## Questions?
 
 Send them to [Martin Cech](/src/people/marten/index.md).
-

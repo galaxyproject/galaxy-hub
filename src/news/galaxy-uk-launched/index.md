@@ -30,5 +30,3 @@ Best wishes,
 The Galaxy-UK Team
 
 <div class='center'> <a href='http://galaxy-community.org.uk/'><img src="/src/news/galaxy-uk-launched/GCUKisLive.png" alt="Galaxy-UK Community is Live!" width="40%" /></a> </div>
-
-

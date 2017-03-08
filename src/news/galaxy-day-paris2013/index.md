@@ -45,5 +45,3 @@ We hope to hear from you soon,
 The [IFB Galaxy group](http://www.ifb-galaxy.org/index.html),
 
 [URGI](http://urgi.versailles.inra.fr/), [GenoToul](http://bioinfo.genotoul.fr/), [MIGALE](http://migale.jouy.inra.fr/), [PFEM](http://metabohub.fr/), [SouthGreen](http://southgreen.cirad.fr/), [Institut Curie](http://curie.fr/), [ABiMS](http://abims.sb-roscoff.fr/)
-
-

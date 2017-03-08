@@ -169,4 +169,3 @@ PLEASE NOTE that this plugin should not be used with
                         [NOSE_WITH_ID]
   --id-file=TESTIDFILE Store test ids found in test runs in this file.
 ```
-

@@ -41,5 +41,3 @@ See the [Events](/src/events/index.md) page for a full listing of upcoming event
 
 Thanks,<br />
 [Dave Clements](/src/people/dave-clements/index.md)
-
-

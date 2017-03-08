@@ -61,4 +61,3 @@ The logic used when determining a user's quota is the following:
     1. If the user has no **=** quotas directly associated, his or her base quota is set to the amount of the "default for registered users" quota, if it exists
     1. If the user has no **=** quotas directly associated and no "default for registered users" quota is set, the user has no quota
   1. The base quota is increased or decreased by the amount of any **+** or **-** operation quota with which they are associated
-

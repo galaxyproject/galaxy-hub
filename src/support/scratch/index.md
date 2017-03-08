@@ -22,4 +22,3 @@ When work is urgent during peak-usage times on the public **[Main](/src/main/ind
   * **<div class='blue'>blue-purple with moving arrow</span>** - (applies to "Get Data -> Upload File" tool only) - the job is queuing or running
     * The job may run immediately, or may turn *grey* if the server is busy, meaning that **guidelines for grey jobs apply**, and these *grey* datasets should never be deleted/re-run, for the same reasons explained above.
     * An upload job that seems to run in the <div class='blue'>blue-purple</span> state for a very long time generally indicates that the file being loaded is too large for the method used (specifically, a browsed-file upload) and [FTP](/src/learn/Upload via FTP/index.md) should be used instead. This is the only active job that should be deleted under normal usage, as it will never complete (no file over 2G will ever load via file browser upload).
-

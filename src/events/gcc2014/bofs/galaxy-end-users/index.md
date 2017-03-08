@@ -138,4 +138,3 @@ End-users of Galaxy who would like to share experiences (or listen to those of o
 ## Questions?
 
 Send them to [Mo Heydarian](mailto:mheydar1 AT jhmi DOT edu).
-

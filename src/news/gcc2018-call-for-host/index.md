@@ -47,5 +47,3 @@ See the **[full call for host proposals](PLACEHOLDER_ATTACHMENT_URL/src/document
 Hoping to work with you in 2018!
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
-
-

@@ -96,4 +96,3 @@ Send them to the [Intergalactic Utilities Commission](mailto:galaxy-iuc AT lists
 * Estimate remaining runtime
   * e.g. allow a tool itself to provide feed back, many cmdline tools already estimate by e.g. printing to stderr, but we should be able to get this info back into Galaxy in realtime to the user
 * Run toolshed automated testing framework on file upload (not just overnight, as is now)
-

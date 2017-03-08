@@ -30,4 +30,3 @@ The [French IFB Galaxy Working Group](http://www.ifb-galaxy.org/index.html):
 </div>
 
 <br />
-

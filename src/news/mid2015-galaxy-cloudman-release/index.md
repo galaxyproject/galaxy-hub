@@ -15,6 +15,4 @@ This is the most complete update of the Galaxy on the Cloud platform to date wit
 * CloudMan: Creating cluster shares is now fast (~30 seconds vs. hours)
 * Created a wealth of new documentation, including a description of the all new automated method for building private/custom instances https://wiki.galaxyproject.org[/CloudMan](/src/news/mid2015-galaxy-cloudman-release/CloudMan/index.md)/Building
 
-See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes or just give it a try: see the all new [Getting Started](https://wiki.galaxyproject.org/CloudMan/GettingStarted) documentation. 
-
-
+See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes or just give it a try: see the all new [Getting Started](https://wiki.galaxyproject.org/CloudMan/GettingStarted) documentation.

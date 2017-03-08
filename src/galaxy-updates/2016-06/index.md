@@ -575,4 +575,3 @@ Please welcome [Anthony Brétaudeau](https://www6.rennes.inra.fr/igepp/Listes-de
 * [Metavisitor Galaxy workflows in MyExperiment](http://www.myexperiment.org/workflows?filter=TAG_ID%28%224598%22%29): rapid detection & discovery of viruses
 * 200+ [forks of Galaxy](https://github.com/galaxyproject/galaxy)!
 * *Galaxy on the Cloud* is now available in the AWS EU-Ireland region - directly from https://launch.usegalaxy.org.
-

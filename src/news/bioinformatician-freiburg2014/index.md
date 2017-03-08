@@ -50,5 +50,3 @@ west of Germany with the Black Forest, France and Switzerland just
 around the corner and excellent research facilities all over the city.
 
 Please contact [Bjoern Gruening](/src/people/bjoern-gruening/index.md) for further details.
-
-

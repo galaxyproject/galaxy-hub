@@ -12,4 +12,3 @@
     <td> <img src="/src/galaxy-team/james.jpg" /> <br /> <a href='/src/people/james-taylor/index.md'>James Taylor</a> <br /> <a href='http://www.jhu.edu'>Johns Hopkins</a> </td>
   </tr>
 </table>
-

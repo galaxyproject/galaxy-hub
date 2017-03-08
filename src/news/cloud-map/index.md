@@ -12,5 +12,3 @@ For details, see
 * the [CloudMap Galaxy Page](http://usegalaxy.org/cloudmap)
 
 Greg Minevich and [Dan Blankenberg](/src/people/dan/index.md)
-
-

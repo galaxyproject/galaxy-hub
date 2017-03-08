@@ -50,5 +50,3 @@ In Galaxy's development branch, the basic tool from has been [redesigned and mod
 <br /><br />
 *Thanks for using Galaxy!* <br />
 [The Galaxy Team](/src/galaxy-team/index.md)
-
-

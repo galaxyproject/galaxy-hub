@@ -24,5 +24,3 @@ Other notable enhancements and features:
 This update comes as a result of 113 code changesets; for a complete list of changes, see the [commit messages](https://bitbucket.org/galaxy/cloudman/changesets/tip/151%3A263). 
 
 Any new cluster will automatically start using this version of CloudMan. Existing clusters will be given an option to do an automatic update once the main interface page is refreshed.
-
-

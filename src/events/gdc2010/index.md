@@ -36,4 +36,3 @@
 * [Mercurial for Galaxy Admins](PLACEHOLDER_ATTACHMENT_URL/src/GDC2010_lightning_Mercurial_for_Galaxy_Admins.pdf) - Ry4an Brase
 * [Composite Datatypes in Galaxy](PLACEHOLDER_ATTACHMENT_URL/src/GDC2010_lightning_CompositeDatatypes.pdf) - Ross Lazarus
 * [Useful and Usable](PLACEHOLDER_ATTACHMENT_URL/src/GDC2010_lightning_Useful_and_Usable.pdf) - Assaf Gordon
-

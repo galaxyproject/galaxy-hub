@@ -59,5 +59,3 @@ There are several Galaxy related events going on at Cold Spring Harbor Laborator
 
 Thanks,<br />
 [Dave Clements](/src/people/dave-clements/index.md)
-
-

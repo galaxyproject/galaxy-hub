@@ -11,5 +11,3 @@ Thanks,
 
 [Dave Clements](/src/people/dave-clements/index.md)<br />
 Galaxy Training and Outreach
-
-

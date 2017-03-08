@@ -248,4 +248,3 @@ And my two favorites:
 
 * Graag gedaan!
 * Avoid volcanic eruptions
-

@@ -8,4 +8,3 @@ Hub page for [administering](/src/admin/index.md) data libraries in Galaxy.
 * [Library Security](/src/admin/data-libraries/LibrarySecurity/index.md)
 * [Library Templates](/src/admin/data-libraries/library-templates/index.md)
 * [Uploading Library Files](/src/admin/data-libraries/uploading-library-files/index.md)
-

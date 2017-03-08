@@ -28,5 +28,3 @@ This vulnerability would allow a malicious actor to upload new versions to repos
 Because the Tool Shed is used to install software in Galaxy, if exploited, the impact could result in arbitrary code execution on Galaxy servers if a malicious tool is uploaded to a previously trusted repository, and that compromised version is subsequently installed by a Galaxy administrator. As such, Tool Shed administrators are strongly encouraged to update immediately.
 
 [See the announcement for full details and update instructions](https://lists.galaxyproject.org/pipermail/galaxy-announce/2015-August/000149.html)
-
-

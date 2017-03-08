@@ -21,5 +21,3 @@ The **[August Galaxy News](/src/galaxy-updates/2016-08/index.md) is out:**
 * And [other news](/src/galaxy-updates/2016-08/index.md#other-news) too.
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
-
-

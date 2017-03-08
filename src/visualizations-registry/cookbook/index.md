@@ -222,4 +222,3 @@ See: [this example repository](https://bitbucket.org/carlfeberhard/galaxy-visual
 ### How can I add a way for the user to save visualization over the API or with javascript?
 
 ```
-

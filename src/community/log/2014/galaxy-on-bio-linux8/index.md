@@ -23,4 +23,3 @@ This is part of a [series of pages](http://environmentalomics.org/bio-linux/) on
 ## Links
 
 * [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/)
-

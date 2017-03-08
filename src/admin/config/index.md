@@ -36,4 +36,3 @@ Hub page for Galaxy configuration.
 * [User Information (Collecting information during registration)](/src/admin/config/User Information/index.md)
 * [Running on Windows](/src/admin/config/Windows/index.md)
 * [Access Control (ACLs)](/src/admin/config/Access Control/index.md)
-

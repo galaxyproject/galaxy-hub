@@ -20,4 +20,3 @@ In my previous position on the [Galaxy-P](https://github.com/galaxyproteomics) p
 Email: [jmchilton AT SPAMFREE gmail DOT com ](mailto:jmchilton AT SPAMFREE gmail DOT com ) or [jmchilton AT SPAMFREE bx DOT psu DOT edu ](mailto:jmchilton AT SPAMFREE bx DOT psu DOT edu ) 
 
 ...
-

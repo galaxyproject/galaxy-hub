@@ -23,5 +23,3 @@ Happy New Year from the Galaxy Project!
 * And, [other news](/src/galaxy-updates/2014-12/index.md#other-news) too.
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
-
-

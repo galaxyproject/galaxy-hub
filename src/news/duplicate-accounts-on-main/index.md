@@ -19,5 +19,3 @@ If your account is suspended and you believe that you are not in violation of Ma
 Thanks,
 
 [The Galaxy Team](/src/galaxy-team/index.md)
-
-

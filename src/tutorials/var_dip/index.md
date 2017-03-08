@@ -440,4 +440,3 @@ This short tutorial should give you an overall idea on how generate variant data
 ![](/src/tutorials/var_dip/galaxy_command.png)
 
 * and so on....
-

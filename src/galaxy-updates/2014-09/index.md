@@ -563,4 +563,3 @@ In no particular order:
 * [Basic variant calling in Galaxy](http://bit.ly/V7Efj6) online tutorial by Cynthia Gibas at Genome Intelligence 
 * From ron Horst:
     You can now BLAST search DNA & Proteins on [galaxy-qld.genome.edu.au](http://galaxy-qld.genome.edu.au), using BRAEMBL resources. Coming soon to more Gernomics Virtual Lab VMs
-

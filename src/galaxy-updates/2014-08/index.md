@@ -387,4 +387,3 @@ The *[Community Log Board](/src/community/logs/index.md)* and  *[Deployment Cata
 * Semi-annual update of the [Galaxy Project Statistics page](/src/galaxy-project/statistics/index.md).
 * New Galaxy training resource: [UCDavis Genome Center Bioinformatics Core June 2014 Workshop: Slides, exercises, datasets + an AMI](http://bit.ly/1tNsnmq)!
 * New [Expanded RNA-Seq Galaxy](http://bit.ly/1zFZM2R) and [Galaxy NGS 101: Synechocystis remix using a custom genome](http://genomeintelligence.org/?p=561) tutorials by [Cynthia Gibas](https://bioinformatics.uncc.edu/directory/gibas-cynthia) at [GenomeIntelligence](http://genomeintelligence.org/).
-

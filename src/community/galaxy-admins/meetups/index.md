@@ -69,4 +69,3 @@ The [GalaxyAdmins](/src/community/galaxy-admins/meetups//index.md) group has bi-
     The group had a breakout at [GCC2012](/src/events/gcc2012/index.md)
 * [2012-07-09 Web Meetup](/src/community/galaxy-admins/meetups/2012-07-09/index.md) 
     Inaugural conference call. Set up some guidelines and Ann Black-Ziegelbein talked about their setup up at Iowa and specifically their experience with storage infrastructure.
-

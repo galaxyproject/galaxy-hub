@@ -10,5 +10,3 @@ The [2014 Galaxy Community Conference (GCC2014)](/src/events/gcc2014/index.md) w
 Galaxy Community Conferences are an opportunity to participate in presentations, discussions, poster sessions, lightning talks and breakouts, all about high-throughput biology and the tools that support it.  The conference will also includes a *Training Day* offering in-depth topic coverage, across several concurrent sessions.  See [the GCC2013 web site](/src/events/gcc2013/index.md) for an idea of what happens at a Galaxy Community Conference.
 
 [GCC2014 Organizing Committee](/src/events/gcc2014/organizers/index.md)
-
-

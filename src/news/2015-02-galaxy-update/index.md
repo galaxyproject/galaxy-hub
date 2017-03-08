@@ -33,5 +33,3 @@ and *Community News* too:
 * And, [other news](/src/galaxy-updates/2015-02/index.md#other-news) as well.
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
-
-
