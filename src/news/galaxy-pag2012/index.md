@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy @ PAG 2012](/src/news/Galaxy @ PAG 2012/index.md)</div>
+---
+title: "Galaxy @ PAG 2012"
+date: "2012-01-06"
+---
 
 <div class='right'><a href='/src/events/pag2012/index.md'><img src="/src/events/pag2012/PAG2012.png" alt="Galaxy @ Plant and Animal Genome (PAG 2012)" width="200" /></a></div>
 

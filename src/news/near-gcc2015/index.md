@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Events Aplenty Near GCC2015](/src/news/near-gcc2015/index.md)</div>
+---
+title: "Events Aplenty Near GCC2015"
+date: "2015-04-08"
+---
 
 Hello all,
 

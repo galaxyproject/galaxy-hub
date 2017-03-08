@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Oct 2015 Galaxy Release (v 15.10)](/src/news/2015-10-galaxy-release/index.md)</div>
+---
+title: "Oct 2015 Galaxy Release (v 15.10)"
+date: "2016-01-13"
+---
 
 <div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
  

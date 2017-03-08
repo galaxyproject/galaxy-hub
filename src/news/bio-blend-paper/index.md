@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[BioBlend Paper in Bioinformatics](/src/news/bio-blend-paper/index.md)</div>
+---
+title: "BioBlend Paper in Bioinformatics"
+date: "2013-05-02"
+---
 
 <div class='right'><a href='http://bit.ly/11AuV4O'><img src="/src/citing-galaxy/BioinformaticsCover.gif" alt="Bioinformatics" height="125" /></a></div>
 

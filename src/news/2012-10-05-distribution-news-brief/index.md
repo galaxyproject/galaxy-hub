@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Oct 5, 2012 Distribution & News Brief](/src/news/2012-10-05-distribution-news-brief/index.md)</div>
+---
+title: "Oct 5, 2012 Distribution & News Brief"
+date: "2012-10-06"
+---
 
 **Complete [News Brief](/src/archive/dev-news-briefs/2012-10-05/index.md)**
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>

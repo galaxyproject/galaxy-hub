@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[RGalaxy: Wrap R Functions as Tools](/src/news/r-galaxy-wrap-r-functions-as-tools/index.md)</div>
+---
+title: "RGalaxy: Wrap R Functions as Tools"
+date: "2012-06-28"
+---
 
 <div class='right'><a href='http://bioconductor.org/packages/2.11/bioc/html/RGalaxy.html'><img src="/src/images/logos/BioconductorLogo.gif" alt="RGalaxy Bioconductor Package" width="200" /></a></div>
 

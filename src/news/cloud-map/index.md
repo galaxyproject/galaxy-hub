@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[CloudMap](/src/news/cloud-map/index.md)</div>
+---
+title: "CloudMap"
+date: "2012-10-15"
+---
 
 <div class='right'><a href='http://www.genetics.org/content/early/2012/10/11/genetics.112.144204.1.abstract'><img src="/src/news/cloud-map/CloudMapFig6B.png" alt="" height="300px" /></a></div>
 

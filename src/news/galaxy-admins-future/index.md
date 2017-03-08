@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GalaxyAdmins Future Directions](/src/news/galaxy-admins-future/index.md)</div>
+---
+title: "GalaxyAdmins Future Directions"
+date: "2013-04-01"
+---
 
 <div class='right'><a href='/src/community/galaxy-admins/future/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins Future Directions" width="200" /></a></div>
 

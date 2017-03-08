@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GCC2015 Registration is Open!](/src/news/gcc2015-registration-open/index.md)</div>
+---
+title: "GCC2015 Registration is Open!"
+date: "2015-04-27"
+---
 
 <div class='right'><a href='http://gcc2015.tsl.ac.uk/registration/'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="GCC2015 Registration is open" width="220" /></a></div>
 

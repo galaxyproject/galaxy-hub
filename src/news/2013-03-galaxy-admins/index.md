@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[March 2013 GalaxyAdmins Meetup](/src/news/2013-03-galaxy-admins/index.md)</div>
+---
+title: "March 2013 GalaxyAdmins Meetup"
+date: "2013-03-12"
+---
 
 <div class='right'><a href='/src/community/galaxy-admins/meetups/2013-03-20/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="March 2013 GalaxyAdmins Meetup" width="160" /></a> </div>
 

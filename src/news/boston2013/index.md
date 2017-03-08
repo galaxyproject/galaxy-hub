@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy Training in Boston](/src/news/boston2013/index.md)</div>
+---
+title: "Galaxy Training in Boston"
+date: "2013-09-30"
+---
 
 <div class='right'><a href='http://bioteam.net/slipstream/galaxy-edition/galaxy-training/'><img src="/src/images/logos/BioTeamLogo154.gif" alt="Analyzing NGS Data with Galaxy" width="120" /></a></div>
 

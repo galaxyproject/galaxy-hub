@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy Deployment Catalog](/src/news/galaxy-deployment-catalog/index.md)</div>
+---
+title: "Galaxy Deployment Catalog"
+date: "2013-12-04"
+---
 
 <div class='right'><a href='/src/community/deployments/index.md'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="200" /></a></div> 
 

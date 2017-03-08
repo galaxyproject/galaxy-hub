@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[South Africa Workshop Tour 2013](/src/news/south-africa-workshop-tour2013/index.md)</div>
+---
+title: "South Africa Workshop Tour 2013"
+date: "2013-09-09"
+---
 
 <table>
   <tr>

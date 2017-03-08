@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Dec 3, 2012 Distribution & News Brief](/src/news/2012-12-03-distribution-news-brief/index.md)</div>
+---
+title: "Dec 3, 2012 Distribution & News Brief"
+date: "2012-12-03"
+---
 
 **Complete [News Brief](/src/archive/dev-news-briefs/2012-12-03/index.md)**
 <div class='right'><a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2012_12_03_new-history-menu.png" alt="width="350"" /></a></div>

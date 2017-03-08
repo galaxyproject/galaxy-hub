@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GCC2015 Abstract Submission Open](/src/news/gcc2015-abstract-submission-open/index.md)</div>
+---
+title: "GCC2015 Abstract Submission Open"
+date: "2015-02-25"
+---
 
 <div class='left'><a href='http://gcc2015.tsl.ac.uk/Abstracts'><img src="/src/images/logos/GCC2015AbstractsOpen.png" alt="GCC2015 Oral and Poster Presentation abstract submission is now open" width="200" /></a></div>
 

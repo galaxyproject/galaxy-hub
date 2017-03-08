@@ -11,4 +11,10 @@ gtn: y
 speaker: Galaxy community
 ---
 
-[GCC2017](https://gcc2017.sciencesconf.org/) is the 8th annual gathering of the Galaxy community. The conference will include keynotes and accepted talks, poster sessions, demos, birds-of-a-feather meetups, exhibitors, and plenty of networking opportunities. There will also be three days of pre-conference activities, including hackathons and training. If you work in data-intensive biomedical research, there is no better place than GCC2017 to present your work and to learn from others.
+[GCC2017](https://gcc2017.sciencesconf.org/) is the 8th annual gathering of the
+Galaxy community. The conference will include keynotes and accepted talks,
+poster sessions, demos, birds-of-a-feather meetups, exhibitors, and plenty of
+networking opportunities. There will also be three days of pre-conference
+activities, including hackathons and training. If you work in data-intensive
+biomedical research, there is no better place than GCC2017 to present your work
+and to learn from others.

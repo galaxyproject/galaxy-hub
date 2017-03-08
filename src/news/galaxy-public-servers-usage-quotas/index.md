@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy Public Servers Usage Quotas](/src/news/Galaxy Public Servers Usage Quotas/index.md)</div>
+---
+title: "Galaxy Public Servers Usage Quotas"
+date: "2011-08-22"
+---
 
 User data and job [quota limits](/src/test/index.md#quotas) are now implemented at the public [Galaxy Test instance](http://test.g2.bx.psu.edu):
 

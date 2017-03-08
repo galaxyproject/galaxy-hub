@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GCC2016 Training Day Topic Nominations](/src/news/gcc2016-td-nom/index.md)</div>
+---
+title: "GCC2016 Training Day Topic Nominations"
+date: "2015-09-28"
+---
 
 <table>
   <tr>

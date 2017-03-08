@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy Biostar Launched](/src/news/galaxy-biostar-launch/index.md)</div>
+---
+title: "Galaxy Biostar Launched"
+date: "2014-04-23"
+---
 
 <div class='right'><a href='https://biostar.usegalaxy.org/'><img src="/src/images/logos/GalaxyBiostar.png" alt="Galaxy Biostar"  /></a></div>
 

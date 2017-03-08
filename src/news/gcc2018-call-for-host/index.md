@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GCC2018 Call for Host Proposals](/src/news/gcc2018-call-for-host/index.md)</div>
+---
+title: "GCC2018 Call for Host Proposals"
+date: "2016-09-27"
+---
 
 <table>
   <tr>

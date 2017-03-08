@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy Hackathon at GCC2014](/src/news/gcc2014-hackathon/index.md)</div>
+---
+title: "Galaxy Hackathon at GCC2014"
+date: "2014-04-18"
+---
 
 <div class='right'><a href='/src/events/gcc2014/hackathon/index.md'><img src="/src/images/logos/GCC2014HackLogo200.png" alt="GCC2014 Hackathon" width="200" /></a></div>
 

@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy Google Calendars](/src/news/galaxy-google-calendars/index.md)</div>
+---
+title: "Galaxy Google Calendars"
+date: "2015-08-20"
+---
 
 If you want to know what events are happening in the Galaxy Community, the goto place has always been the [Galaxy Events page](/src/events/index.md).  This lists any upcoming events we know about that feature Galaxy content.  This events list provides dates, locations, and contact information for each event.
 

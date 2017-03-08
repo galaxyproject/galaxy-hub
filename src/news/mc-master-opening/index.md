@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Opening at McMaster University](/src/news/mc-master-opening/index.md)</div>
+---
+title: "Opening at McMaster University"
+date: "2014-12-05"
+---
 
 <div class='right'><a href='http://bit.ly/11WryeP'><img src="/src/images/logos/McMasterULogo.jpg" alt="Systems Administrator / Information Technologist" width="200" /></a></div>
 

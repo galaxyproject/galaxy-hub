@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Jan 11, 2013 Distribution & News Brief](/src/news/2013-01-11-distribution-news-brief/index.md)</div>
+---
+title: "Jan 11, 2013 Distribution & News Brief"
+date: "2013-01-11"
+---
 
 **Complete [News Brief](/src/archive/dev-news-briefs/2013-01-11/index.md)**
 <div class='right'><a href='http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="width=200" /></a></div>
