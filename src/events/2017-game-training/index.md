@@ -8,4 +8,5 @@ location: GAMe 2017, University of Melbourne, Melbourne, Victoria, Australia
 location_url:  http://www.embl-abr.org.au/GAMe2017/
 image: /src/images/logos/GAMeLogo200.png
 gtn: y
+speaker: Simon Gladman, Pip Griffin, Jessica Chung, Clare Sloggett
 ---
