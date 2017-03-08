@@ -16,4 +16,4 @@ block content
                                 if item.tease
                                     | #{item.tease}
                                 else
-                                    | !{helpers._.replace(helpers.marked(item.contents), /<.+?\>/g, '').slice(0,40) + "..."}
+                                    | !{helpers._.replace(helpers.marked(item.contents), /(<.+?\>|&nbsp;)/g, '').slice(0,40) + "..."}
