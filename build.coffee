@@ -27,6 +27,8 @@ apply_collection_defaults = (files, metalsmith, done) ->
     for k, v of files
         if 'events' in v.collection
             files[k].layout = 'events.pug'
+        if 'news' in v.collection
+            files[k].layout = 'news.pug'
             #if files[k].date == undefined
             #    files[k].date = '2010-01-01'
     done()
