@@ -23,5 +23,4 @@ The third session contained three lightning talks about global feedback from dif
 
 [Olivier Inizan](https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Olivier-Inizan) and [Jean-François Dufayard](https://sites.google.com/site/jeanfrancoisdufayard/)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-12-17</div>
 

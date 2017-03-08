@@ -36,5 +36,4 @@ We hope you will like the change and look forward to any feedback you may have.
 
 [Galaxy Team](/src/galaxy-team/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-04-23</div>
 

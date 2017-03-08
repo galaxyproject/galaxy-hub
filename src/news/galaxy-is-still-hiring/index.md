@@ -26,5 +26,4 @@ The [Nekrutenko Lab](http://www.bx.psu.edu/~anton/) at the [Huck Institutes of L
 
 Please send your CV to [jobs AT galaxyproject DOT org](mailto:jobs AT galaxyproject DOT org).
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-02-29</div>
 

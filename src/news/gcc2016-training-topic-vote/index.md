@@ -33,5 +33,4 @@ Thanks,
 
 The [GCC2016 Exec](https://gcc2016.iu.edu/Oorganizers)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-10-26</div>
 

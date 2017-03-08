@@ -15,5 +15,4 @@ This, along with [Citing Galaxy](/src/Citing Galaxy/index.md), are two easy thin
 Thanks,
 
 [Dave Clements](/src/people/dave-clements/index.md)
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-08-19</div>
 

@@ -13,5 +13,4 @@ From the [job announcement on EvolDir](http://bit.ly/11WryeP):
 
 See the [full announcement](http://bit.ly/11WryeP) for details.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-12-05</div>
 

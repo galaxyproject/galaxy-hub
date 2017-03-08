@@ -21,5 +21,4 @@ If you have anything you would like to see in the November *[Galaxy Update](/src
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-10-01</div>
 

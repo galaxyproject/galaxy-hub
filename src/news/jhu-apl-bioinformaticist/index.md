@@ -12,5 +12,4 @@ If you are a US citizen with Unix chops, programming experience, analysis skills
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-02-05</div>
 

@@ -15,5 +15,4 @@ If you want to help other Galaxy users and sites find papers that are relevant t
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-12-14, updated 2011-12-15 </div>
 

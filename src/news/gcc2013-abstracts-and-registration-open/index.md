@@ -27,5 +27,4 @@ The [GCC2013 Organizing Committee](/src/events/gcc2013/organizers/index.md)
 
 PS: And please help us [get the word out](/src/events/gcc2013/promotion/index.md)!
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-02-23</div>
 

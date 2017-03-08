@@ -13,5 +13,4 @@ If you are on LinkedIn, please consider [joining the group](http://bit.ly/gxyLin
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-03-18</div>
 

@@ -16,5 +16,4 @@ The *yellow banner on **Main** and **Test** will provide updates* (when the serv
 *Thanks for using Galaxy!!*
 
 [Galaxy Team](/src/galaxy-team/index.md)
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-03-07</div>
 

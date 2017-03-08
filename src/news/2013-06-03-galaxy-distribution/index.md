@@ -36,5 +36,4 @@ upgrade: $ hg pull
 [The Galaxy Team](/src/galaxy-team/index.md)
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-06-03</div>
 

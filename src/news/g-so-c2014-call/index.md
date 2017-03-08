@@ -16,5 +16,4 @@ If your interests lean more towards toolkits, I would like to point out that the
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-01-18</div>
 

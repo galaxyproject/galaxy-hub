@@ -32,5 +32,4 @@ The [GCC2013 Organizing Committee](/src/events/gcc2013/organizers/index.md)
 </table>
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-01-28</div>
 

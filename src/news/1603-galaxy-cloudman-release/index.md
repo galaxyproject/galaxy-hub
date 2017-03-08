@@ -14,5 +14,4 @@ Most notable changes include:
 
 See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes.
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-03-24 </div>
 

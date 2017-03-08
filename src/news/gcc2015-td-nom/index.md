@@ -21,5 +21,4 @@ Topics will then be selected and scheduled based on topic interest, and the orga
 
 [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-12-09</div>
 

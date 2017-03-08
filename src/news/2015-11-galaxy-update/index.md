@@ -22,5 +22,4 @@ The **[November Galactic News](/src/galaxy-updates/2015-11/index.md)** is hot of
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-11-02 </div>
 

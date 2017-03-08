@@ -41,5 +41,4 @@ We use the [Blackboard Collaborate Web Conferencing system](/src/community/galax
 
 Srinivas Maddhi
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-01-07</div>
 

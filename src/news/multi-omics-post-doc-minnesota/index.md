@@ -15,5 +15,4 @@ A Ph.D. in bioinformatics, computer science, analytical chemistry or closely rel
 
 Interested applicants can apply directly to [Dr. Tim Griffin](mailto:tgriffin@umn.edu).
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-07-22</div>
 

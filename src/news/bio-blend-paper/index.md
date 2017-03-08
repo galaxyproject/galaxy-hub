@@ -16,5 +16,4 @@ Documentation is [available at ReadTheDocs](http://bioblend.readthedocs.org/).  
 
 [Dave Clements](/src/people/dave-clements/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-05-02</div>
 

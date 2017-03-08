@@ -25,5 +25,4 @@ Enjoy and please let us know what you think,
 
 [Enis](/src/people/enis-afgan/index.md) & [John](/src/people/john-chilton/index.md) & Simone Leo & Nicola Soranzo & [The Galaxy Team](/src/galaxy-team/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-10-17</div>
 

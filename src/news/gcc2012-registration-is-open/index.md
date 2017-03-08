@@ -20,5 +20,4 @@ GCC2012 is hosted by the [University of Illinois at Chicago](http://uic.edu/), t
 
 [Dave Clements](/src/people/dave-clements/index.md), on behalf of the [GCC2012 Organizing Committee](/src/events/gcc2012/Organizing Committee/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on @ DATE @</div>
 

@@ -109,5 +109,4 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is b
 </table>
 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-04-08 </div>
 

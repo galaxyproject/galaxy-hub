@@ -17,5 +17,4 @@ This is the most complete update of the Galaxy on the Cloud platform to date wit
 
 See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes or just give it a try: see the all new [Getting Started](https://wiki.galaxyproject.org/CloudMan/GettingStarted) documentation. 
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-09-03 </div>
 

@@ -9,5 +9,4 @@ date: "2014-09-13"
 
 *This outage will only affect the Galaxy Project public servers.  [Public Galaxy servers](/src/public-galaxy-servers/index.md) run by other groups will be unaffected by this outage.*
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-09-13</div>
 

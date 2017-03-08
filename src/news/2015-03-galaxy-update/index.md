@@ -53,5 +53,4 @@ In addition, there is news on:
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-03-02 </div>
 

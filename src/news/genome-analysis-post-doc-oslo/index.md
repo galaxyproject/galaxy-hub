@@ -9,5 +9,4 @@ The hired postdocs can exploit the Galaxy framework to ensure accessibility, int
 
 <div class='center'><a href='https://hyperbrowser.uio.no/'><img src="/src/images/logos/GenomicHyperBrowserWide.png" alt="Genomic HyperBrowser" width="600px" /></a></div>
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2015-01-06</div>
 

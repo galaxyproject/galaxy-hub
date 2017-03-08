@@ -37,5 +37,4 @@ The [next meeting](/src/community/galaxy-admins/meetups/2012-11-14/index.md) of 
 
 Srinivas Maddhi
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-11-05</div>
 
