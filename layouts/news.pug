@@ -6,7 +6,7 @@ block content
             div.col-md-9
                 h1 #{ title }
                 if tease
-                    p #{tease}
+                    p: em #{tease}
                 p.small #{helpers.moment(date).format("MMMM Do YYYY")}
                 div !{ contents }
             div.col-md-3
@@ -17,6 +17,6 @@ block content
                 section.section-content
                     h1 #{ title }
                     if tease
-                        p #{tease}
+                        p: em #{tease}
                     p.small #{helpers.moment(date).format("MMMM Do YYYY")}
                     div !{ contents }
