@@ -446,4 +446,3 @@ There was no shortage of new ToolShed repositories in February, but there was a 
     [Automatic generation of tool.xml for Galaxy using xslt](http://tinyurl.com/mflwofl) 
 * [The KLAST high-perfomance sequence similarity search tool is now available for the Galaxy platform.](http://www.korilog.com/news/klast-for-galaxy-platform/196)
 * [VBI-led Team Introduces Infectious Disease-focused Resource for Analyzing RNA-seq Data](http://bit.ly/1uKqHLB) on [GenomeWeb](http://genomeweb.com)
-

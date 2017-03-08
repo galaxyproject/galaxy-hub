@@ -23,4 +23,3 @@ Walks through steps to perform differential expression analysis using the Tuxedo
 ## Links
 
 * [DE with Tuxedo pipeline #usegalaxy](http://genomeintelligence.org/?p=998) at [Genome Intelligence](http://genomeintelligence.org/)
-

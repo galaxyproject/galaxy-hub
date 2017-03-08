@@ -37,5 +37,3 @@ Prior to the conference we are offering a [Researcher Training Day](https://www.
 We look forward to welcoming you to Melbourne. Remember to pack for our fabulous February weather!
 
 *[GAMe 2017 Organising Committee](https://www.embl-abr.org.au/game2017/organisers/)* (#game_2017)
-
-

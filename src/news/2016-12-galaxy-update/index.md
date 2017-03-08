@@ -19,4 +19,3 @@ The **[December Galaxy News](/src/galaxy-updates/2016-12/index.md)** is hot off 
 There are also 60 new publications (including eight featured pubs), four open positions, two new public Galaxy servers, new releases of Planemo & Pulsar, and other news too.
 
 Dave Clements and the Galaxy Team
-

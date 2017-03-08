@@ -12,4 +12,3 @@ We write styles in [LESS](http://lesscss.org/) and use Bootstrap CSS library as 
 * To add to that, to the extent possible use existing styles wherever they make sense.
 
 * If you want to run grunt with spritesmith on Mavericks you need to update grunt-spritesmith https://github.com/Ensighten/grunt-spritesmith/issues/45
-

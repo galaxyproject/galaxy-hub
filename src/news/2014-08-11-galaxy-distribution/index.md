@@ -45,5 +45,3 @@ date: "2014-08-11"
 *Thanks for using Galaxy!*
 
 [The Galaxy Team](/src/galaxy-team/index.md)
-
-

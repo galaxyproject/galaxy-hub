@@ -189,4 +189,3 @@ class GenBank( data.Text ):
                     count += 1
         return count
 ```
-

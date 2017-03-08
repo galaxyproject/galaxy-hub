@@ -57,4 +57,3 @@ Participants:
 * Anthony Underwood
 * Bernardo Clavijo
 * Marcel Kempenaar
-

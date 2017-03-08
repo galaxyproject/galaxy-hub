@@ -40,4 +40,3 @@ This analysis involves the following steps:
 * Get RefSeq gene data
 * Operate on genomic intervals –> intersect
 * Intersect RefSeq genes with interval 5000 bp downstream file
-

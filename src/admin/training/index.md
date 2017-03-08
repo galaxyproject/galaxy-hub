@@ -14,4 +14,3 @@ Hub Page for [Galaxy administration](/src/admin/index.md) training materials. Se
 ## See Also
 
 * [Events](/src/events/index.md)
-

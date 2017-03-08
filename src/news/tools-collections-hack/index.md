@@ -43,5 +43,3 @@ also currently thinking September 17th and 18th.
 
 Thanks, <br />
 Galaxy IUC
-
-

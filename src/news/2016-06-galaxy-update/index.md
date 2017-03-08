@@ -30,5 +30,3 @@ Some highlights from the **[June Galaxy News](/src/galaxy-updates/2016-06/index.
 Hope to [see you in Bloomington](https://gcc2016.iu.edu/),
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
-
-

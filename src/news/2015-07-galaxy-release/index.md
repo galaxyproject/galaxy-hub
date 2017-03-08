@@ -17,4 +17,3 @@ date: 2015-09-03
 
 *Thanks for using Galaxy!* <br />
 [The Galaxy Team](/src/galaxy-team/index.md)
-

@@ -269,4 +269,3 @@ The most recent Galaxy distribution was [released on July 20, 2012](/src/archive
   * Peter Li's [GigaBlog post](http://blogs.biomedcentral.com/gigablog/2012/08/06/enabling-bioinformatics-tools-to-smoke-the-peace-pipe-together/)
   * Brad Chapman's [day 1](http://chapmanb.posterous.com/galaxy-developer-conference-day-1) and [day 2](http://chapmanb.posterous.com/galaxy-community-conference-2012-notes-from-d-90717) summaries.
   * Slides for [all workshops and talks](/src/events/gcc2012/program/index.md) are now available.
-

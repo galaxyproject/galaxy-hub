@@ -398,4 +398,3 @@ See [list of tools contributed in October and November](/src/toolshed/contributi
   * [The source code of Galaxy](/src/develop/source-code/index.md)
   * [Galaxy Job Configuration](/src/admin/config/jobs/index.md)
   * [Datatypes](/src/learn/datatypes/index.md)
-

@@ -566,4 +566,3 @@ Other Galaxy packages that haven't had a release in the past four months can be 
     [Galaxy tools for Constructive Solid Geometry (Galaxy CSG flavor)](https://github.com/gregvonkuster/galaxy-csg/blob/master/README.md)
 
 * [How to Build Bioinformatic Pipelines Using Galaxy](http://www.the-scientist.com/?articles.view/articleNo/46670/title/How-to-Build-Bioinformatic-Pipelines-Using-Galaxy), and article by Jeffrey M. Perkel in *The Scientist*.
-

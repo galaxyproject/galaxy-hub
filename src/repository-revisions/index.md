@@ -150,4 +150,3 @@ When creating a tar file on Mac OSX it is important to not include the extended 
 ```
 COPYFILE_DISABLE=1 tar -czf ../tool_shed_upload.tar.gz .
 ```
-

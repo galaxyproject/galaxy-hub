@@ -626,4 +626,3 @@ See [list of tools contributed in February](/src/toolshed/contributions/2016-02/
  
 * From [Peter Amstutz (@peteramstutz)](https://twitter.com/peteramstutz)
   * [Common Workflow Language (CWL) draft-3](https://common-workflow-language.github.io/draft-3/) is now stable!
-

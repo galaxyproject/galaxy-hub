@@ -251,4 +251,3 @@ Several new repositories were added to, and existing repositories updated in the
 * [A short "Getting started with JGalaxy"](http://bit.ly/SkW2yU) document (with screenshots), by [John Chilton](/src/people/john-chilton/index.md)
 * [生物人的電腦教室：高通量定序分析一次搞定](http://bit.ly/Sc4LDN) including Galaxy, by Eric Lee 
 * [Batch Workflow starting using the Galaxy API : Practical Example](http://bit.ly/TjTj6X) by Geert Vandeweyer
-

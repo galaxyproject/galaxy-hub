@@ -190,4 +190,3 @@ We use Font Awesome (FA) icons and they should carry the same or very similar me
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/caret-left/'>caret-left</a> </td>
   </tr>
 </table>
-

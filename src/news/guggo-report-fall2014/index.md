@@ -18,4 +18,3 @@ And [many more GUGGO resources](https://www.e-biogenouest.org/groups/guggo/resou
 [Cyril Monjeaud](https://www.e-biogenouest.org/members/1005)
 
 [Olivier Collin](https://www.e-biogenouest.org/members/1009)
-

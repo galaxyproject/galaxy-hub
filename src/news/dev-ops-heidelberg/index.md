@@ -24,5 +24,3 @@ The workshop is intended for Bioinformaticians who want to
 For more information please see the [workshop page](https://goo.gl/8dNSdy).
 
 [Björn Grüning](/src/people/bjoern-gruening/index.md)
-
-

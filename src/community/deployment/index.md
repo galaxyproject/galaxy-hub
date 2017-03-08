@@ -55,4 +55,3 @@ If the wiki option seems a little daunting, you can also describe this instance 
     <th> &nbsp;&nbsp; <a href='http://bit.ly/gxydeployform'>Describe your instance using the Google Form</a> &nbsp;&nbsp; </th>
   </tr>
 </table>
-

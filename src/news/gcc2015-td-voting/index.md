@@ -27,5 +27,3 @@ As always, please let us know if you have any questions.
 Thanks,
 
 The [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/)
-
-

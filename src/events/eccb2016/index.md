@@ -178,4 +178,3 @@ Each poster is presented on September 5 and September 6.
     <td> </td>
   </tr>
 </table>
-

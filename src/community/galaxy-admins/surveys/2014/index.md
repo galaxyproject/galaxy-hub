@@ -520,4 +520,3 @@ Two community-wide questionnaires were run in the fall of 2014.  One asked *Gala
 * we do a lot of data analysis outside of Galaxy and it's cumbersome to get data in and out without losing track
 * I didn't realize workflows would break with newer tool versions (minor irritant).
   * Explored using API to pass information to other applications but didn't resolve.
-

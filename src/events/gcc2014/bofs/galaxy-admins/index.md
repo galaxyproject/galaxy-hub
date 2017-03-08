@@ -225,4 +225,3 @@ Summary:
 * Core Team: Create or publish location of searchable IRC channel archive; add to Galaxy searches.  **A [searchable archive of the #galxayproject IRC channel](http://t.co/qwYKZK6gwV) was created in October 2014.**
 * Core Team: Implement support to make authentication easier and to support more diverse, and multiple, parallel authentication methods.
 * BoF participants will contribute to or create Trello cards for issues raised during this BoF that they care about.
-

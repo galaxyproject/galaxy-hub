@@ -12,4 +12,3 @@ So, if you have figured out how to do something, and it took you a while, then t
 # Logs
 
 ## 2016
-

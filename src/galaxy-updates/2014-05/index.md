@@ -554,4 +554,3 @@ The [Dutch Techcentre for Life Sciences (DTL)](http://www.dtls.nl/dtl/) has made
 
 * The [meeting report and slides for the Galaxy Australasia Workshop](/src/events/gaw2014/index.md) are now online.
 * Galaxy has a [new status interface](http://status.galaxyproject.org). Check [status.galaxyproject.org](http://status.galaxyproject.org) if you suspect downtime.
-

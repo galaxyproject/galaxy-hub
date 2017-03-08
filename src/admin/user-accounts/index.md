@@ -115,4 +115,3 @@ wegwerfmail.de
 wegwerfmail.net
 wegwerfmail.org
 ```
-

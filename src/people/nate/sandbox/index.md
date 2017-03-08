@@ -95,4 +95,3 @@ These parameters control the way in which a job will be considered terminal, sin
     <td> <code>0</code> do not retry state check) </td>
   </tr>
 </table>
-

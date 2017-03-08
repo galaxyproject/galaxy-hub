@@ -26,6 +26,4 @@ Profile:
 
 Thank you for sending your application to:
 
-Hien LE ([hien.le AT vilmorin DOT info](mailto:hien.le AT vilmorin DOT info)) 
-
-
+Hien LE ([hien.le AT vilmorin DOT info](mailto:hien.le AT vilmorin DOT info))

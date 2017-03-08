@@ -48,5 +48,3 @@ Anushka Brownley<br />
 [BioTeam](http://www.bioteam.net)<br />
 [SlipStream Appliance Galaxy Edition](http://bioteam.net/slipstream/galaxy-edition/)<br />
 [SlipStream Appliance White Paper](http://bioteam.net/wp-content/uploads/2013/03/SlipStream_Galaxy-White_Paper.pdf)
-
-

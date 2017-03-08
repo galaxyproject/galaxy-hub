@@ -86,4 +86,3 @@ Training on how to use Galaxy is offered by several companies around the world:
 
 * **[OpenHelix](/src/teach/trainers/index.md#openhelix)**
   * Based in North America, but available Globally and via webinar.
-

@@ -583,4 +583,3 @@ Did not get there this month.  Look for a double edition next month.
 * [biojs2galaxy](http://biojs.io/d/biojs2galaxy): Continuous integration of BioJS components into Galaxy
     A fast tool to convert BioJS components into Galaxy visualization plugins. *Warning: This tool is in a ALPHA stage. Use at your own risk.*
 * [v1.0.0 release of ASaiM framework, an open-source Galaxy-based opinionated framework dedicated to microbiota sequence analyses](https://zenodo.org/record/56282#.V3wBgI4hrsE)
-

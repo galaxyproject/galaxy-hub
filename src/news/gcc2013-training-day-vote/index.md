@@ -30,6 +30,3 @@ The [GCC2013 Organizing Committee](/src/events/gcc2013/organizers/index.md)
     <td style=" border: none;"> You don't have to vote for exactly three topics. You can vote for fewer topics and have each vote count for more, or you can vote for more topics and have each vote count for less. </td>
   </tr>
 </table>
-
-
-

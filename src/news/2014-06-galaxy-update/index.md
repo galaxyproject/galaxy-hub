@@ -26,5 +26,3 @@ And, in the past month there were:
 * and [a stunning number of ToolShed contributions](/src/galaxy-updates/2014-06/index.md#toolshed-contributions)
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
-
-

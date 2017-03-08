@@ -47,4 +47,4 @@ GenomeCloud is designed to aid biologists and researchers to perform bioinformat
 
 GenomeCloud is composed of g-Analysis, g-Cluster, g-Storage, and g-Insight services, where accounts creation and management, monitoring systems, billing, and service management are offered via KT's proven superior cloud-based web system, providing convenience to the researchers and other users. 
 
-Users can easily use Galaxy using g-Cluster based on cloud computing. 
+Users can easily use Galaxy using g-Cluster based on cloud computing.

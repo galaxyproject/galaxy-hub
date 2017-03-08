@@ -14,5 +14,3 @@ Slides for for 10 of the Galaxy-related presentations at [ISMB/ECCB/BOSC 2011](/
 plus many more.
 
 [Dave Clements](/src/people/dave-clements/index.md)
-
-

@@ -14,4 +14,3 @@ title: 2013/01: Launch a customized modENCODE Galaxy on Amazon Web Services
 This [README file at GitHub](https://github.com/modENCODE-DCC/Galaxy/blob/master/docs/README.how.to.launch.Galaxy) describes how to launch an instance of Galaxy step-by-step on Amazon Cloud.  If you have any questions about this, please email help@modencode.org.
 
 ## Links
-

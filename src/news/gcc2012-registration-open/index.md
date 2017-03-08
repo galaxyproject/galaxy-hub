@@ -26,5 +26,3 @@ Finally, [abstract submission](/src/events/gcc2012/abstracts/index.md) is also o
 Looking forward to seeing you in Chicago!
 
 [Dave Clements](/src/people/dave-clements/index.md) on behalf of the [GCC2012 Organizing Committee](/src/events/gcc2012/Organizing Committee/index.md)
-
-

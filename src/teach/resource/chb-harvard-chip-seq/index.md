@@ -33,4 +33,3 @@ Uses many "standard" tools that exist on most Galaxy servers, and
 
 * [CHB Harvard ChIP-Seq Workshop](http://hbc.github.io/ngs-workshops/courses/introduction-to-chip-seq/)
 * [one of a set of online tutorials](http://hbc.github.io/ngs-workshops/courses/)
-

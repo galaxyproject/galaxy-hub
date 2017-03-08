@@ -850,4 +850,3 @@ root@trainingday:/etc/init.d# /etc/init.d/galaxy restart
 
 root@trainingday:/etc/init.d# 
 ```
-

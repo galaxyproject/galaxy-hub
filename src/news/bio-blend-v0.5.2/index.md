@@ -24,5 +24,3 @@ See the [commit messages](https://github.com/afgane/bioblend/compare/d8925715a5a
 Enjoy and please let us know what you think,
 
 [Enis](/src/people/enis-afgan/index.md) & [John](/src/people/john-chilton/index.md) & Simone Leo & Nicola Soranzo & [The Galaxy Team](/src/galaxy-team/index.md)
-
-

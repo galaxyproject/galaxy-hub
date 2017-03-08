@@ -193,4 +193,3 @@ This feature is disabled unless "enable_api = True" in universe_wsgi.ini config 
 * Bug fix for history/view when history has no user.
 
 * Fix bug so that users not logged in can view accessible/published visualizations.
-

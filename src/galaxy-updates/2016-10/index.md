@@ -659,4 +659,4 @@ From [Ravi Madduri](http://twitter.com/madduri)<br />
  [Globus Genomics](https://www.globus.org/genomics) RO1 was funded by [NHGRI](http://genome.gov). 
 
 From [Björn Grüning](http://twitter.com/bjoerngruening)
- [HTTPS support was added to the Galaxy Docker image](https://github.com/bgruening/docker-galaxy-stable/pull/240). Joint work by [Marius van den Beek](http://twitter.com/mvdbeek) and [Alexander Lenail](http://twitter.com/zfrenchee) 
+ [HTTPS support was added to the Galaxy Docker image](https://github.com/bgruening/docker-galaxy-stable/pull/240). Joint work by [Marius van den Beek](http://twitter.com/mvdbeek) and [Alexander Lenail](http://twitter.com/zfrenchee)

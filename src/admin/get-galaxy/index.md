@@ -227,4 +227,3 @@ Below are simplified instructions for shutting down local Galaxy server. If your
 ## Ansible Playbook
 
 Look into Galaxy [KickStart Ansible playbook](https://github.com/ARTbio/GalaxyKickStart). To deploy Galaxy on your local machine or on the cloud using Ansible, you can use this playbook. Follow the steps in the [docs](https://artbio.github.io/GalaxyKickStart/) for details.
-

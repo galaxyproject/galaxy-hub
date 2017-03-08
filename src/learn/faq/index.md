@@ -94,4 +94,4 @@ See
 
 <div class='right'><a href='http://galaxyproject.org/search/usegalaxy'><img src="/src/images/logos/UseGalaxySearch.png" alt="Google Custom Search" width="150" /></a></div>
 
-If you have questions about using Galaxy that aren't answered here, try the [UseGalaxy Google Custom Search](http://galaxyproject.org/search/usegalaxy).  It will search *all* online Galaxy resources about *using* Galaxy and return a categorized list of search results. 
+If you have questions about using Galaxy that aren't answered here, try the [UseGalaxy Google Custom Search](http://galaxyproject.org/search/usegalaxy).  It will search *all* online Galaxy resources about *using* Galaxy and return a categorized list of search results.

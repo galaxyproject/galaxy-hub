@@ -792,4 +792,3 @@ Note: Starting with the May news, this list will be placed on a separate page an
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [stringtie](https://toolshed.g2.bx.psu.edu/view/iuc/stringtie): updated tool wrapper for stringtie 1.0.1
-

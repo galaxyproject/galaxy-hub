@@ -25,4 +25,3 @@ The last two sections deals with wrappers installation from toolshed and differe
 ## Links
 
 * [The document](http://wiki.sb-roscoff.fr/ifb/index.php/Sharing_workflow_between_labs:_practices)
-

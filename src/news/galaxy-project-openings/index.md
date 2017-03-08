@@ -12,5 +12,3 @@ Galaxy a great project with a [great community](/src/events/gcc2013/index.md). I
 As always, please let me, or [any of us](/src/galaxy-team/index.md), know if you have any questions.
 
 [Dave Clements](/src/people/dave-clements/index.md)
-
-

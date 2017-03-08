@@ -11,5 +11,3 @@ See the job posting for more responsibilities, qualifications, and contact infor
 
 Scott Edmunds<br />
 Editor, [GigaScience](http://www.gigasciencejournal.com/)
-
-

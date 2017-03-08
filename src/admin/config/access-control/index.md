@@ -174,4 +174,3 @@ If you have not used the job_conf before and are using multiple worker threads f
     <handler id="handler0" tags="handlers" />
     ...etc
 ```
-

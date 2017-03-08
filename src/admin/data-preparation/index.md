@@ -421,4 +421,3 @@ The process for establishing the SRMA loc file is pretty much like the others.
 * Modify the file `srma_index.loc.sample` in the Galaxy `tool-data` directory following instructions within the file itself
 * Remove the .sample from the file before using
 * Restart the server and test
-

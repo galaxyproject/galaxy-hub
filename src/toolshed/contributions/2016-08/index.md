@@ -113,5 +113,4 @@ Tools contributed to the Galaxy Project Tool Shed in [August 2016](/src/galaxy-u
 #### tool_dependency_definition
 
 * *From [abretaud](https://toolshed.g2.bx.psu.edu/view/abretaud):*
-  * [package_lordec_0_6](https://toolshed.g2.bx.psu.edu/view/abretaud/package_lordec_0_6): Lordec 0.6 package 
-
+  * [package_lordec_0_6](https://toolshed.g2.bx.psu.edu/view/abretaud/package_lordec_0_6): Lordec 0.6 package

@@ -89,4 +89,3 @@ The RESTful Galaxy API includes the following features that work with the Tool S
   * param changeset_revision (required): the changeset_revision of the `RepositoryMetadata` object associated with the Repository
 * POST **/api/tool_shed_repositories/reset_metadata_on_installed_repositories**
   Resets all metadata on all repositories installed into Galaxy in an orderly fashion where installed repositories of type TOOL_DEPENDENCY_DEFINITION are processed before installed repositories of type UNRESTRICTED..
-

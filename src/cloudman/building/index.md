@@ -87,4 +87,3 @@ Over time, the community has developed a few more documents and resources that c
 * [Genomics Virtual Lab](https://github.com/gvlproject/gvl.ansible.playbook) ⟶ Build a complete genomics workbench with more applications than Galaxy
 * John Chilton's [CloudMan bootstrap](https://github.com/jmchilton/cloudman_openstack_bootstrap) (outdated)
 * [CloudMan flavor](https://github.com/chapmanb/cloudbiolinux/blob/master/deploy/cloudman.md) in [CloudBioLinux](http://cloudbiolinux.org/) (outdated)
-

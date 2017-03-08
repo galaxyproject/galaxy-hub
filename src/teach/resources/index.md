@@ -44,4 +44,3 @@ If the wiki option seems a little daunting, you can also describe this resource 
     <th> &nbsp;&nbsp; <a href='http://bit.ly/gxytrainresourceform'>Describe the resource using the Google Form</a> &nbsp;&nbsp; </th>
   </tr>
 </table>
-

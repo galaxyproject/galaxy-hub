@@ -15,5 +15,3 @@ The new version brings the following updates/features:
 * Fix recognition of existing and attached file system volumes on instance reboot
 
 [EnisAfgan](/src/people/enis-afgan/index.md)
-
-

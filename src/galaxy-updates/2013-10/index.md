@@ -435,4 +435,3 @@ There were many...
 * [ncbi_sra_toolkit](http://bit.ly/1fsby9r): NCBI Sequence Read Archive toolkit utilities 
 * [sql_tools and sparql_tools](http://bit.ly/16tTfgD): In-memory SQL and SPARQL runners and related tools
 * compute_motifs_frequency, ctd_batch, compute_motif_frequencies_for_all_motifs, indels_3way, t_test_two_samples, xy_plot, divide_pg_snp, draw_stacked_barplots, split_paired_reads, mutate_snp_codon, hgv_hilbertvis, hgv_fundo, categorize_elements_satisfying_criteria, microsatellite_birthdeath, multispecies_orthologous_microsats, fasta_nucleotide_changer, fasta_clipping_histogram, fasta_formatter, fastq_quality_boxplot, fastq_quality_converter fastq_quality_filter fastq_to_fasta, and the fastx_toolkit all from [devteam](http://http://bit.ly/15wwkeo).
-

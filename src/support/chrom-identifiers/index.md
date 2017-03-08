@@ -41,4 +41,3 @@ Using tools from the group "Text Manipulation":
 5. Now click on the tab for "Attributes" and assign the remaining columns. Strand = 6, name = 4, and score = 5. Save. For best results with certain downstream tools, allow the metadata to complete assignment.
 
 ```
-

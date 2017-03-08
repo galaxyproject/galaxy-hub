@@ -20,4 +20,3 @@ The [March 2017 Galaxy News](/src/galaxy-updates/2017-03/index.md) is out!
 * [New releases](/src/galaxy-updates/2017-03/#releases) of Galaxy, Planemo, Pulsar, galaxy-lib, Starforge, and (the new) sequence_utils.
 * Over [80 new repos](/src/galaxy-updates/2017-03/#toolshed-contributions) in the Galaxy Tool Shed.
 * And [other news](/src/galaxy-updates/2017-03/#other-news) too.
-

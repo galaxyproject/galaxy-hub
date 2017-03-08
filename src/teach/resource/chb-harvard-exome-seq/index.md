@@ -44,4 +44,3 @@ Uses many "standard" tools that exist on most Galaxy servers, and
 
 * [CHB Harvard Exome-Seq Workshop](http://scriptogr.am/ohofmann/exome-seq)
 * [one of a set of online tutorials](http://scriptogr.am/ohofmann/about)
-

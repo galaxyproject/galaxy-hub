@@ -19,4 +19,3 @@ This [series of posts](https://biscassi.wordpress.com/category/galaxy-project/) 
 
 * Léo's [Galaxy Project blog posts](https://biscassi.wordpress.com/category/galaxy-project/)
 * [Léo Biscassi](https://biscassi.wordpress.com/quem-sou-eu/)
-

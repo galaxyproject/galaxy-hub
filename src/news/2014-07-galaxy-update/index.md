@@ -20,5 +20,3 @@ The [July 2014 Galaxy Update Newsletter](/src/galaxy-updates/2014-07/index.md) i
 * and [a stunning number of ToolShed contributions](/src/galaxy-updates/2014-07/index.md#toolshed-contributions) once again.
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
-
-

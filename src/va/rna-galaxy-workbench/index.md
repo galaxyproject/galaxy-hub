@@ -21,5 +21,4 @@ title: [RNA Galaxy Workbench](https://github.com/bgruening/galaxy-rna-workbench-
 ## Links
 
 * [README](https://github.com/bgruening/galaxy-rna-workbench-extra/blob/master/README.md)
-* [RNA Bioinformatics Center](http://www.denbi.de/index.php/rna-bioinformatic-center-rbc), [German Network for Bioinformatics Infrastructure (de.NBI)](http://www.denbi.de/) 
-
+* [RNA Bioinformatics Center](http://www.denbi.de/index.php/rna-bioinformatic-center-rbc), [German Network for Bioinformatics Infrastructure (de.NBI)](http://www.denbi.de/)

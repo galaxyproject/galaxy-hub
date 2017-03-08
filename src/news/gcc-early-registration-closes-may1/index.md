@@ -16,5 +16,3 @@ Thank you all for your patience while we worked on this.  I apologize for and re
 Thanks,
 
 -- DaveClements
-
-

@@ -56,4 +56,3 @@ Below are a list of best practices that may be helpful when doing a workshop whe
 ## Course-specific best practices
 
 Below are a list of best practices that may be helpful when teaching an academic course using Galaxy. In this case, users may be using Galaxy in a lab and for homework, but there are also contact hours where hands-on exercises are not the focus.
-

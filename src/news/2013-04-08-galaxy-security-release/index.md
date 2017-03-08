@@ -18,5 +18,3 @@ Additional details, including workarounds for those who are unable or unwilling 
 *Thanks for using Galaxy,*
 
 [The Galaxy Team](/src/galaxy-team/index.md)
-
-

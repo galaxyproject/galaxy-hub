@@ -15,5 +15,3 @@ The event featured more that twenty keynotes, accepted presentations, posters, t
 Cheers,
 
 [Ron Horst](https://www.yammer.com/australianbioinformaticsnetwork/users/rhorst-guest#/Threads/fromUser?type=from_user&feedId=1506414565)
-
-

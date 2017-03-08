@@ -24,5 +24,3 @@ Scholarships are funded by the *Galaxy Community Fund*.  The Galaxy Community Fu
 Please do let us know if you have any questions, and we hope to see you at [GCC2015](http://gcc2015.tsl.ac.uk/)!
 
 [Galaxy Community Fund Board](mailto:community-fund@lists.galaxyproject.org)
-
-

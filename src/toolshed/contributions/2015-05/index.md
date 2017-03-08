@@ -111,4 +111,3 @@ fasta and fastq output
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [package_ruby_2_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_ruby_2_0): planemo upload for repository https://github.com/galaxyproject/tools-iuc/tree/master/packages/package_ruby_2_0 commit 543b8d28d5f84f5b8ac31b3aa05f68a7b4094d66-dirty
   * [package_libcurl_7_35](https://toolshed.g2.bx.psu.edu/view/iuc/package_libcurl_7_35): planemo upload for repository https://github.com/galaxyproject/tools-iuc/tree/master/packages/package_libcurl_7_35 commit 95f2ea5e8103ac2bec5e8a67409a8139db1bbd98
-

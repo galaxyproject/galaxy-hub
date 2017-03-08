@@ -25,5 +25,3 @@ This membership was made possible by a unique arrangement where these five [GTN 
 Many thanks to these GTN members for making this happen, and to the GOBLET Executive for this opportunity.
 
 [Dave Clements](/src/people/dave-clements/index.md), on behalf of the [Galaxy Training Network](/src/teach/trainers/index.md)
-
-

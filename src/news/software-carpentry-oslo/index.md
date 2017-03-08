@@ -19,5 +19,3 @@ Content: The syllabus for this boot camp will include:
 Visit the [Boot Camp Page](http://software-carpentry.org/bootcamps/2013-07-oslo.html) for more information, and registration.
 
 [Lex Nederbragt](http://www.mn.uio.no/cees/english/people/technical/alexajo/)
-
-

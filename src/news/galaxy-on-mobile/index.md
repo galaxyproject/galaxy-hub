@@ -17,5 +17,3 @@ A [user manual](https://github.com/Tarostar/QMLGalaxyPortal/raw/master/GalaxyPor
 
 Galaxy Portal is provided free of charge.
 <br /><br />
-
-
