@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GCC2014 Training Day Topics: Vote!](/src/news/gcc2014-training-day-voting/index.md)</div>
+---
+title: "GCC2014 Training Day Topics: Vote!"
+date: "2014-01-07"
+---
 
 <div class='right'><a href='/src/events/gcc2014/training-day/index.md'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014 Training Day" width="150" /></a></div>
 

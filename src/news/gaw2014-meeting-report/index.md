@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GAW2014 Conference Report](/src/news/gaw2014-meeting-report/index.md)</div>
+---
+title: "GAW2014 Conference Report"
+date: "2014-04-09"
+---
 
 <div class='right'>
 <a href='/src/events/gaw2014/index.md'><img src="/src/images/logos/GAW2014-200.png" alt="Galaxy Australasia Workshop 2014" width="150" /></a> <a href='http://csiro.au/'><img src="/src/images/logos/CSIROLogoBig.png" alt="CSIRO" width="75" /></a></div>

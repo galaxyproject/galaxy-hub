@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy Protoeomics Mailing List](/src/news/proteomics-mailing-list/index.md)</div>
+---
+title: "Galaxy Protoeomics Mailing List"
+date: "2013-07-31"
+---
 
 <div class='right'><a href='http://proteomics.list.galaxyproject.org/'><img src="/src/images/logos/MailmanLogoSmall.png" alt="Galaxy Proteomics Mailing List"  /></a></div>
 

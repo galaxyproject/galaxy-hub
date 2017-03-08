@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GalaxyCzars: July Slides & Video](/src/news/galaxy-czars-first-call/index.md)</div>
+---
+title: "GalaxyCzars: July Slides & Video"
+date: "2012-07-11"
+---
 
 <div class='right'><a href='/src/community/GalaxyCzars/Meetups/2012-07-09/index.md'><img src="/src/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
 

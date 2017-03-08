@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[November 2015 Galactic News](/src/news/2015-11-galaxy-update/index.md)</div>
+---
+title: "November 2015 Galactic News"
+date: "2015-11-02"
+---
 
 <div class='right'>
 <a href='/src/galaxy-updates/2015-11/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galactic News! October 2015 Edition" width=150 /></a><br />

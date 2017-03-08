@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Internship @ Vilmorin & Co](/src/news/internship-at-vilmorin/index.md)</div>
+---
+title: "Internship @ Vilmorin & Co"
+date: "2012-02-01"
+---
 
 <div class='right'><a href='http://www.vilmorin.info/'><img src="/src/images/logos/VilmorinLogo.gif" alt="Vilmorin & Co."  /></a></div>
 

@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GCC2015 Training Day Vote!](/src/news/gcc2015-td-voting/index.md)</div>
+---
+title: "GCC2015 Training Day Vote!"
+date: "2015-01-19"
+---
 
 <table>
   <tr>

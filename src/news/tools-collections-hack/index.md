@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Tools + Dataset Collections Hackathon](/src/news/tools-collections-hack/index.md)</div>
+---
+title: "Tools + Dataset Collections Hackathon"
+date: "2015-08-10"
+---
 
 Hello all,
 

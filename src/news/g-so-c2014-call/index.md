@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Google Summer of Code Proposals](/src/news/g-so-c2014-call/index.md)</div>
+---
+title: "Google Summer of Code Proposals"
+date: "2014-01-18"
+---
 
 <div class='right'><a href='/src/gmod:GSoC/index.md'><img src="/src/images/logos/GSoC2014Logo.png" alt="Google Summer of Code 2014" width="200" /></a></div>
 

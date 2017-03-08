@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy is Still Hiring!](/src/news/galaxy-is-still-hiring/index.md)</div>
+---
+title: "Galaxy is Still Hiring!"
+date: "2012-02-29"
+---
 
 Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, [is hiring](/src/galaxy-is-hiring/index.md).
 

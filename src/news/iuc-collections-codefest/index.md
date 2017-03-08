@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[First Online IUC Codefest](/src/news/iuc-collections-codefest/index.md)</div>
+---
+title: "First Online IUC Codefest"
+date: "2015-09-29"
+---
 
 <div class='right'><a href='https://github.com/galaxyproject/tools-iuc/issues/239'><img src="/src/images/icons/DatasetCollectionIconInForm.png" alt="" width="150" /></a>
 </div>

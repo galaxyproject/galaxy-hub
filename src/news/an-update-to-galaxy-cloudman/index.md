@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[An Update to Galaxy Cloudman](/src/news/An Update to Galaxy CloudMan/index.md)</div>
+---
+title: "An Update to Galaxy Cloudman"
+date: "2011-11-29"
+---
 
 
 A new version of [CloudMan](/src/cloudman/index.md) for running Galaxy on Amazon cloud has been released yesterday. Any new cluster will automatically use this version. Existing clusters will have a link displayed at the top of the CloudMan console offering to perform an automated update. 

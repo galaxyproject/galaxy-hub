@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Watch the GCC2011 Talks Online!](/src/news/Watch the GCC2011 Talks Online!/index.md)</div>
+---
+title: "Watch the GCC2011 Talks Online!"
+date: "2011-06-11"
+---
 
 <div class='right'><a href='/src/GCC2011/index.md'><img src="/src/events/gcc2011LogoShort170.png" /></a></div>
 NBIC, the host and co-sponsor of the [2011 Galaxy Community Conference (GCC2011)](/src/GCC2011/index.md) sponsored the videotaping of all talks at the meeting and has now made those recordings available for viewing online.  See the [GCC2011](/src/GCC2011/index.md) page for links.

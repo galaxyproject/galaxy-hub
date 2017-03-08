@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy-UK Community Launched](/src/news/galaxy-uk-launched/index.md)</div>
+---
+title: "Galaxy-UK Community Launched"
+date: "2014-08-14"
+---
 
 Dear UK Galaxy-devs,
 

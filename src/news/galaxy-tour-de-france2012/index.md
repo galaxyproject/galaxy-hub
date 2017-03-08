@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy Tour de France 2012](/src/news/galaxy-tour-de-france2012/index.md)</div>
+---
+title: "Galaxy Tour de France 2012"
+date: "2012-04-25"
+---
 
 <div class='right'><a href='/src/events/galaxy-tour-de-france2012/index.md'><img src="/src/images/logos/GalaxyTourDeFranceMap.png" alt="Galaxy Tour de France 2012" height="200" /></a></div>
 

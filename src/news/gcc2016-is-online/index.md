@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GCC2016 is Online!](/src/news/gcc2016-is-online/index.md)</div>
+---
+title: "GCC2016 is Online!"
+date: "2015-12-18"
+---
 
 <div class='right'>
 <a href='https://gcc2016.iu.edu/'><img src="https://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference"  /></a>

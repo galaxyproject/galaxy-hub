@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy Events Page & Calendar](/src/news/Galaxy Events Page and Calendar/index.md)</div>
+---
+title: "Galaxy Events Page & Calendar"
+date: "2011-07-13"
+---
 
 The new Galaxy wiki includes a [Galaxy Events](/src/events/index.md) page that lists any upcoming events (such as [ISMB/ECCB 2011](/src/events/ISMB-ECCB-BOSC 2011/index.md) and the [Workshop on Comparative Genomics](http://www.molecularevolution.org/workshops/WCG#wcgna)) that have Galaxy related content.
 

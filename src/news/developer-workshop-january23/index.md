@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Developer Workshop January 23](/src/news/Developer Workshop January 23/index.md)</div>
+---
+title: "Developer Workshop January 23"
+date: "2011-11-11"
+---
 <div class='right'><a href='http://evomics.org/workshops/galaxy-developer-workshop/'><img src="/src/images/photos/CeskyKrumlov.jpg" alt="Galaxy Developer Workshop" /></a></div>
 A one day [Galaxy Developer Workshop](http://evomics.org/workshops/galaxy-developer-workshop/) has been scheduled for 23 January in [Český Krumlov](http://www.ckrumlov.info/php/), Czech Republic, immediately following the [Workshop on Genomics](http://evomics.org/workshops/workshop-on-genomics/2012-genomics-cesky-krumlov/2012), (which also features Galaxy content).
 <br /><br />

@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GCC2014: Save These Dates!](/src/news/gcc2014-save-these-dates/index.md)</div>
+---
+title: "GCC2014: Save These Dates!"
+date: "2013-10-02"
+---
 
 <div class='right'><a href='/src/events/gcc2014/index.md'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="130" /></a></div>
 

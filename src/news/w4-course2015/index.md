@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Worflow4Metabolomics 2015 Course](/src/news/w4-course2015/index.md)</div>
+---
+title: "Worflow4Metabolomics 2015 Course"
+date: "2015-04-08"
+---
 
 <div class='right'>
 <a href='http://workflow4metabolomics.org/training/W4Mcourse2015'><img src="/src/images/logos/IFBSmallTransLogo.png" alt="IFB" width="135" /></a><br />
