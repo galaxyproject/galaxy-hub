@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[March 2012 Galaxy Update](/src/news/2012-03-galaxy-update/index.md)</div>
+---
+title: "March 2012 Galaxy Update"
+date: "2012-02-29"
+---
 
 <div class='right'><a href='/src/galaxy-updates/2012-03/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="March 2012 Galaxy Update" width=150 /></a></div>
 

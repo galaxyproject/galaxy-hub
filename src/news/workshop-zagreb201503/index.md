@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Bioinformatics Methods in Genomics, Zagreb](/src/news/workshop-zagreb201503/index.md)</div>
+---
+title: "Bioinformatics Methods in Genomics, Zagreb"
+date: "2015-02-13"
+---
 
 <table>
   <tr>

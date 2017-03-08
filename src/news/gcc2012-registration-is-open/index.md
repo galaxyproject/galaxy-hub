@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GCC2012 Registration is Open!](/src/news/gcc2012-registration-is-open/index.md)</div>
+---
+title: "GCC2012 Registration is Open!"
+date: "2012-03-20"
+---
 
 <div class='red'>**Hey! This page is under construction.  Registration ain't open yet!**</div>
 

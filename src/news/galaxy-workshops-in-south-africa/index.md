@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy Workshops in South Africa](/src/news/galaxy-workshops-in-south-africa/index.md)</div>
+---
+title: "Galaxy Workshops in South Africa"
+date: "2012-06-28"
+---
 <div class='right'>
 <table>
   <tr>

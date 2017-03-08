@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Liste de diffusion Galaxy France](/src/news/liste-de-diffusion-galaxy-france/index.md)</div>
+---
+title: "Liste de diffusion Galaxy France"
+date: "2012-08-28"
+---
 
 <div class='right'><a href='http://france.list.galaxyproject.org/'><img src="/src/images/logos/GalaxyFranceListSearch.png" alt=""  /></a></div>
 

@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[September 2011 Galaxy Events](/src/news/September 2011 Galaxy Events/index.md)</div>
+---
+title: "September 2011 Galaxy Events"
+date: "2011-08-24"
+---
 
 <div class='right'>
 <a href='/src/events/index.md'><img src="/src/images/logos/galaxyLogoTrimmed.png" alt="Galaxy Events in September 2011" width="120" /></a> <a href='http://docs.uabgrid.uab.edu/wiki/2011'><img src="/src/images/logos/UABLogo.png" alt="UAB Research Computing Day" width="80" /></a> <a href='http://aws.amazon.com/genomicsevent/'><img src="/src/images/logos/AWSLogo.png" alt="AWS Genomics Event" width="100" /></a>

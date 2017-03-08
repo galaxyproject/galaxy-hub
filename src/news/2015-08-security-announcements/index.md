@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[August 12, 2015 Galaxy Security Advisories](/src/news/2015-08-security-announcements/index.md)</div>
+---
+title: "August 12, 2015 Galaxy Security Advisories"
+date: "2015-08-13"
+---
 
 Two security vulnerabilities were recently discovered in Galaxy, and a third in the Galaxy Tool Shed. Because of this, the Galaxy Committers have released a number of fixes which have been rolled in to affected versions of Galaxy dating back to the 14.10 release.
 

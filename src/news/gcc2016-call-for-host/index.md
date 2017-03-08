@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GCC2016 Needs a Host!](/src/news/gcc2016-call-for-host/index.md)</div>
+---
+title: "GCC2016 Needs a Host!"
+date: "2015-02-03"
+---
 
 <table>
   <tr>

@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[July 2014 Galaxy News](/src/news/2014-07-galaxy-update/index.md)</div>
+---
+title: "July 2014 Galaxy News"
+date: "2014-06-25"
+---
 
 <div class='right'>
 <a href='/src/galaxy-updates/2014-07/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a><br /><br /> <a href='/src/galaxy-updates/2014-07/index.md#gcc2014-june-30---july-2-baltimore'><img src="/src/images/logos/GCC2014LogoWide200.png" alt="GCC2014: June 30 - July 2" width="150" /></a><br /><br />

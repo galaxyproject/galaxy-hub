@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy Project Grant Support](/src/news/galaxy-project-grant-support/index.md)</div>
+---
+title: "Galaxy Project Grant Support"
+date: "2015-01-07"
+---
 
 Dear Galaxy users, developers, and friends of the project,
 

@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GCC2013 Abstract Submission & Registration](/src/news/gcc2013-abstracts-and-registration-open/index.md)</div>
+---
+title: "GCC2013 Abstract Submission & Registration"
+date: "2013-02-23"
+---
 
 <div class='center'><a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a></div>
 

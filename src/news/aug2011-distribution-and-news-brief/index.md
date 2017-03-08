@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[August 30 2011 Distribution & News Brief](/News/Aug 2011 Distribution & News Brief)</div>
+---
+title: "August 30 2011 Distribution & News Brief"
+date: "2011-08-31"
+---
 
 **Complete [News Brief](/src/archive/dev-news-briefs/2011-08-30/index.md)**
 
@@ -24,5 +27,5 @@ upgrade: % hg pull -u -r 949e4f5fa03a
 
 [/Galaxy Team](/Galaxy Team)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on <<Date(2011-08-31T19:48:54Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-08-31</div>
 

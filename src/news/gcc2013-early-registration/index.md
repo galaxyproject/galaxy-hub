@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GCC2013 Early Registration Ends 24 May](/src/news/gcc2013-early-registration/index.md)</div>
+---
+title: "GCC2013 Early Registration Ends 24 May"
+date: "2013-05-20"
+---
 
 Early registration saves *up to 75% off regular registration costs*, and is downright affordable, with combined registration ([Training Day](/src/events/gcc2013/training-day/index.md) + [main meeting](/src/events/gcc2013/program/index.md)) starting at ~ €95 for post-docs and students. Registering early also assures you a spot in the Training Day workshops you want to attend.  Once a Training Day session becomes full, it will be closed to new registrations.  Early registration closes 24 May. 
 

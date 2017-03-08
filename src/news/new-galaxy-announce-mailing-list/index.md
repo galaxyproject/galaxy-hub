@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[New Galaxy-Announce Mailing List](/src/news/New Galaxy-Announce Mailing List/index.md)</div>
+---
+title: "New Galaxy-Announce Mailing List"
+date: "2011-12-02"
+---
 <div class='right'>
 <a href='http://lists.bx.psu.edu/listinfo/galaxy-announce'><img src="/src/images/logos/MailmanLogoSmall.png" /></a>
 </div>

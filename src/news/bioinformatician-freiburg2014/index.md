@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Bioinformaticians, Freiburg](/src/news/bioinformatician-freiburg2014/index.md)</div>
+---
+title: "Bioinformaticians, Freiburg"
+date: "2014-10-30"
+---
 
 ----
 
