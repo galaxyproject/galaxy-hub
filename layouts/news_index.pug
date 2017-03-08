@@ -11,4 +11,9 @@ block content
                     each item in news
                         tr
                             td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
-                            td: a( href=item.link ) #{item.title} 
+                            td: a( href=item.link ) #{item.title}
+                            td
+                                if item.tease
+                                    | #{item.tease}
+                                else
+                                    | !{helpers._.replace(helpers.marked(item.contents), /<.+?\>/g, '').slice(0,40) + "..."}
