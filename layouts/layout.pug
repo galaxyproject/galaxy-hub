@@ -61,35 +61,34 @@ head( lang="en" )
 
 body
 
-    header.navbar.navbar-default.navbar-inverse.navbar-fixed-top( role="navigation" ): div.container: div.row
-        div.col-md-12
-            div.navbar-header
-                button( type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" )
-                    span.sr-only Toggle navigation
-                    span.icon-bar
-                    span.icon-bar
-                    span.icon-bar
-                a.navbar-brand( href="/" )
-                  img( src="/images/galaxy_logo_hub_white.svg" width="116" alt="Galaxy Community Hub" )
-            div.navbar-collapse.collapse
-                ul.nav.navbar-nav
-                    each entry in menu
-                        if entry.links
-                            li.dropdown
-                                a( href="#" class="dropdown-toggle" data-toggle="dropdown" role="button") #{entry.title}
-                                    span.caret
-                                ul.dropdown-menu
-                                    each val in entry.links
-                                        li
-                                            if val.link.substring(0,4) == "http"
-                                                a( href=val.link ) #{val.title}
-                                            else
-                                               a( href="/" + val.link + "/" ) #{val.title}
+    header.navbar.navbar-default.navbar-inverse.navbar-fixed-top( role="navigation" ): div.container
+        div.navbar-header
+            button( type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" )
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+            a.navbar-brand( href="/" )
+              img( src="/images/galaxy_logo_hub_white.svg" width="116" alt="Galaxy Community Hub" )
+        div.navbar-collapse.collapse
+            ul.nav.navbar-nav
+                each entry in menu
+                    if entry.links
+                        li.dropdown
+                            a( href="#" class="dropdown-toggle" data-toggle="dropdown" role="button") #{entry.title}
+                                span.caret
+                            ul.dropdown-menu
+                                each val in entry.links
+                                    li
+                                        if val.link.substring(0,4) == "http"
+                                            a( href=val.link ) #{val.title}
+                                        else
+                                           a( href="/" + val.link + "/" ) #{val.title}
+                    else
+                        if entry.link
+                            li: a( href="/" + entry.link + "/") #{entry.title}
                         else
-                            if entry.link
-                                li: a( href="/" + entry.link + "/") #{entry.title}
-                            else
-                                li: a( href="#") #{entry.title}
+                            li: a( href="#") #{entry.title}
 
 
                 ul.nav.navbar-nav.navbar-right
