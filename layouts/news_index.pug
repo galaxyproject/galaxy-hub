@@ -1,18 +1,19 @@
-
 extends layout.pug
 
 block content
+    div.col-md-12
+        section.section-content
+            h1 !{ title }
+            div !{ contents }
 
-    div.row !{ contents }
-
-    each item in news
-        p.row
-            a( href=item.link ) #{item.title} 
-            if item.tease
-                br
-                | !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}       
-            br
-            small 
-                if item.author
-                    | Posted by #{item.author} on 
-                | #{helpers.moment(item.date).format("MMMM Do YYYY")}
+            table.table.table-striped
+                tbody
+                    each item in news
+                        tr
+                            td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
+                            td: a( href=item.link ) #{item.title}
+                            td
+                                if item.tease
+                                    | #{item.tease}
+                                else
+                                    | !{helpers._.replace(helpers._.replace(helpers.marked(item.contents), /(<.+?\>|&nbsp;)/g, ''),/\s+/g,' ').slice(0,50) + "..."}
