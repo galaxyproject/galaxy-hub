@@ -3,7 +3,16 @@ extends layout.pug
 mixin renderEventRow(item)
     tr
         td: span.text-nowrap #{helpers.moment(item.date).format("MMMM Do YYYY")}
-        td: a( href=item.link ) #{item.title} 
+        td
+            if item.external_url
+                a( href=item.external_url ) #{item.title}
+                if item.contents != ''
+                    |  [
+                    a( href=item.link )
+                        | hub page
+                    | ]
+            else
+                a( href=item.link ) #{item.title}
         td
             if item.continent
                 img(style="float:right;" src='/images/icons/' + item.continent + '.png')
