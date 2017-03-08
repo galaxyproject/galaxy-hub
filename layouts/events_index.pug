@@ -19,7 +19,8 @@ mixin renderEventRow(item)
             | #{item.location}
         td
             if item.gtn
-                img(style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member")
+                a( href="/teach/gtn/" )
+                    img(style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member")
             | #{item.speaker}
 
 block content
