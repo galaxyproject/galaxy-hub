@@ -154,9 +154,9 @@ ms = metalsmith(__dirname)
             reverse: true
     .use timer 'metalsmith-collections'
     .use link_to_orig_path
-    .use timer 'apply_directory_templates'
-    .use apply_collection_defaults
     .use timer 'link_to_orig_path'
+    .use apply_collection_defaults
+    .use timer 'apply_collection_defaults'
     .use handlebars_partial_handling
     .use timer 'handlebars_partial_handling'
     .use subs
