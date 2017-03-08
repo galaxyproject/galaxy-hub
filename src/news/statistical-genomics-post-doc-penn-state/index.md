@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Statistical Genomics Post-Doc](/src/news/statistical-genomics-post-doc-penn-state/index.md)</div>
+---
+title: "Statistical Genomics Post-Doc"
+date: "2013-09-09"
+---
 
 <div class='right'><a href='http://www.huck.psu.edu/center/medical-genomics/'><img src="/src/images/logos/HuckLogo.png" alt="Center for Medical Genomics" width="250" /></a></div>
 

@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GCC2012 Registration is Open](/src/news/gcc2012-registration-open/index.md)</div>
+---
+title: "GCC2012 Registration is Open"
+date: "2012-03-20"
+---
 
 <div class='right'><a href='/src/events/gcc2012/register/index.md'><img src="/src/events/gcc2012/GCC2012LogoWide400.png" alt="GCC2012 Registration is Open!" width="350" /></a><br /><br /><a href='/src/events/gcc2012/training-day/index.md'><img src="/src/events/gcc2012/GCC2012TrainingDayLogo.png" alt="GCC2012 Training Day: July 25" align="right" /></a></div>
 

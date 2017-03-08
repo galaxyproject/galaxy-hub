@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy on Jetstream Cloud update](/src/news/galaxy-on-jetstream1607/index.md)</div>
+---
+title: "Galaxy on Jetstream Cloud update"
+date: "2016-10-17"
+---
 
 <div class='right'><img src="https://www.nsf.gov/news/mmg/media/images/jetstream_logo_f_fe60185c-962f-4c1f-99bf-e6ec82d54c21.jpg" alt="" width="300" /></div>
 

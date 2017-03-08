@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy Australia Community & GAMe 2017](/src/news/galaxy-australia/index.md)</div>
+---
+title: "Galaxy Australia Community & GAMe 2017"
+date: "2016-10-03"
+---
 
 <div class='right'> <a href='https://www.embl-abr.org.au/galaxyaustralia/'><img src="/src/images/logos/GalaxyAustralia.png" alt="Galaxy Australia Community" width="180" /></a>
 </div>

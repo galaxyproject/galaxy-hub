@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[ISMB2011 Slides](/src/news/ISMB2011 Slides Now Available/index.md)</div>
+---
+title: "ISMB2011 Slides"
+date: "2011-07-29"
+---
 
 <div class='right'>[[<a href='/src/events/ISMB-ECCB-BOSC 2011/index.md'><img src="/src/images/logos/BOSC_logo.png" alt="BOSC 2011" width="120" /></a>&nbsp;&nbsp;&nbsp;<a href='/src/events/ISMB-ECCB-BOSC 2011/index.md'><img src="/src/events/ISMB2011Logo80.png" alt="ISMB/ECCB 2011" /></a></div>
 

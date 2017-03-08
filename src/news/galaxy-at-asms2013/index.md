@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy @ ASMS 2013](/src/news/galaxy-at-asms2013/index.md)</div>
+---
+title: "Galaxy @ ASMS 2013"
+date: "2013-04-19"
+---
 
 <div class='right'><a href='/src/events/asms2013/index.md'><img src="/src/images/logos/ASMS2013.jpg" alt="61st ASMS Conference on Mass Spectrometry and Allied Topics" width=200" /></a></div>
 

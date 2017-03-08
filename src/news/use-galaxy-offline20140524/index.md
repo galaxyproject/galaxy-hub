@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[usegalaxy.org offline](/src/news/use-galaxy-offline20140524/index.md) May ~~24~~ 31, 2014</div>
+---
+title: "usegalaxy.org offline May 31, 2014"
+date: "2014-05-16"
+---
 
 <div class='right'><a href='http://usegalaxy.org'><img src="/src/images/logos/UseGalaxyOrgLogoShadow200.png" alt="usegalaxy.org will be down 2014/05/31"  /></a></div>
 

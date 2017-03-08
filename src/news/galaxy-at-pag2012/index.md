@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy @ PAG 2012](/News/Galaxy @ PAG 2012)</div>
+---
+title: "Galaxy @ PAG 2012"
+date: " 2012-01-06"
+---
 
 <div class='right'><a href='/Events/PAG2012/'><img src='/Events/PAG2012/PAG2012.png' alt='Galaxy @ Plant and Animal Genome (PAG 2012)' width="200" /></a></div>
 
@@ -11,5 +14,5 @@ Hope to see you in San Diego,
 [Dave Clements](/src/people/dave-clements/index.md) and Dannon Baker<br />
 [/Galaxy Team](/Galaxy Team)
 
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on <<Date(2012-01-06T23:40:04Z)>></div>
+<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-01-06 </div>
 

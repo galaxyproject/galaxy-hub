@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Disease Transcriptome Postdoc, Oslo](/src/news/oslo-disease-transcript-post-doc/index.md)</div>
+---
+title: "Disease Transcriptome Postdoc, Oslo"
+date: "2016-02-01"
+---
 
 A [postdoc position](http://uio.easycruit.com/vacancy/1566797/64290?iso=no) in bioinformatics is available in Oslo (Norway) on development of methods for transcriptome analysis of disease-specific cells.
 

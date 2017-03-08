@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[GTN Joints GOBLET](/src/news/gtn-joins-goblet/index.md)</div>
+---
+title: "GTN Joints GOBLET"
+date: "2015-03-09"
+---
 
 <div class='right'>
 <a href='/src/teach/index.md'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="120" /></a>

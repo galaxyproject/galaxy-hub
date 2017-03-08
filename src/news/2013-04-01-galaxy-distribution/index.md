@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[April 1, 2013 Galaxy Distribution](/src/news/2013-04-01-galaxy-distribution/index.md)</div>
+---
+title: "April 1, 2013 Galaxy Distribution"
+date: "2013-04-02"
+---
 
 ```wiki red/solid/light
 Due to a security vulnerability, administrators are strongly encouraged to upgrade to the [April 8, 2013 Security Release](/src/news/2013-04-08-galaxy-security-release/index.md), which is was not included in the original April 1, 2013 distribution.```

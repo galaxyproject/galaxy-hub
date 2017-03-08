@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[March 22 UseGalaxy.org Upgrade](/src/news/use-galaxy-down-march22/index.md)</div>
+---
+title: "March 22 UseGalaxy.org Upgrade"
+date: "2014-03-17"
+---
 
 <div class='right'><a href='/src/public-galaxy-servers/index.md'><img src="/src/public-galaxy-servers/50PlusSlide.png" alt="50+ Public Galaxy Servers that will not be affected by this outage" width="200" /></a></div>
 

@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[April 14, 2014 Galaxy Distribution](/src/news/2014-04-14-galaxy-distribution/index.md)</div>
+---
+title: "April 14, 2014 Galaxy Distribution"
+date: "2014-04-14"
+---
 <div class='right'>
 <table>
   <tr>

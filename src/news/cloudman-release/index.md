@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[New CloudMan Release](/src/news/cloudman-release/index.md)</div>
+---
+title: "New CloudMan Release"
+date: "2013-07-08"
+---
 
 <div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
 

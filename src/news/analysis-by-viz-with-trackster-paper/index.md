@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[NGS Analysis by Viz. with Trackster](/src/news/analysis-by-viz-with-trackster-paper/index.md)</div>
+---
+title: "NGS Analysis by Viz. with Trackster"
+date: "2012-11-09"
+---
 
 <div class='right'><a href='http://bit.ly/VMUz7p'><img src="/src/images/news-graphics/NatBiotechCover201211.gif" alt="Nature Biotechnology" height="125" /></a></div>
 

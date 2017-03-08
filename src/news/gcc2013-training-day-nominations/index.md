@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Nominate GCC2013 Training Topics](/src/news/gcc2013-training-day-nominations/index.md)</div>
+---
+title: "Nominate GCC2013 Training Topics"
+date: "2012-12-03"
+---
 
 <div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" /></a><br />
 <a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" /></a> </div>

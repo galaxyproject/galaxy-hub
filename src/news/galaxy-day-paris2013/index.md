@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[Galaxy Day, 4 décembre à Paris](/src/news/galaxy-day-paris2013/index.md)</div>
+---
+title: "Galaxy Day, 4 décembre à Paris"
+date: "2013-10-02"
+---
 
 **Appel à contributions**
 

@@ -1,4 +1,7 @@
-<div class='newsItemHeader'>[July 20, 2012 Distribution & News Brief](/src/news/Jul202012 Distribution News Brief/index.md)</div>
+---
+title: "July 20, 2012 Distribution & News Brief"
+date: "2012-07-21"
+---
 
 
 **Complete [News Brief](/src/archive/dev-news-briefs/2012-07-20/index.md)**
