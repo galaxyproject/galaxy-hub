@@ -40,9 +40,9 @@ In no particular order:
   * [column_range_string_generator](https://toolshed.g2.bx.psu.edu/view/mir-bioinf/column_range_string_generator): Initial upload Generates column string for input to Cut Columns tool Use this tool to generate a string that can be copied to the buffer then pasted into the Cut Column tool to save time (rather than needing to individually type out C1,C2,C3..... etc.).
 
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp):*
-  * [unipept](https://toolshed.g2.bx.psu.edu/view/galaxyp/unipept): Unipept retrieves taxonomy for tryptic peptides Unipept metaproteomics analysis.  Unipept retrieves taxonomy for tryptic peptides using the unipept API. 
+  * [unipept](https://toolshed.g2.bx.psu.edu/view/galaxyp/unipept): Unipept retrieves taxonomy for tryptic peptides Unipept metaproteomics analysis. Unipept retrieves taxonomy for tryptic peptides using the unipept API.
       http://unipept.ugent.be <br />
-      http://unipept.ugent.be/apidocs 
+      http://unipept.ugent.be/apidocs
 
 #### Suites
 
@@ -51,7 +51,7 @@ In no particular order:
   * [suite_str_fm_1_0](https://toolshed.g2.bx.psu.edu/view/arkarachai-fungtammasan/suite_str_fm_1_0): all dependency for str_fm package and str_fm itself
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
-  * [suite_samtools_1_2](https://toolshed.g2.bx.psu.edu/view/devteam/suite_samtools_1_2): A suite of Galaxy utilities associated with version 1.2 of the SAMtools package. SAM (Sequence Alignment/Map) format is a generic format for storing large nucleotide sequence alignments.   This repository suite associates selected repositories containing Galaxy utilities that require version 1.2 of the SAMTools package.  These associated Galaxy utilities consist of a Galaxy Data Manager contained in the repository named data_manager_sam_fasta_index_builder and Galaxy tools contained in several separate repositories.
+  * [suite_samtools_1_2](https://toolshed.g2.bx.psu.edu/view/devteam/suite_samtools_1_2): A suite of Galaxy utilities associated with version 1.2 of the SAMtools package. SAM (Sequence Alignment/Map) format is a generic format for storing large nucleotide sequence alignments. This repository suite associates selected repositories containing Galaxy utilities that require version 1.2 of the SAMTools package. These associated Galaxy utilities consist of a Galaxy Data Manager contained in the repository named data_manager_sam_fasta_index_builder and Galaxy tools contained in several separate repositories.
 
 #### Dependencies
 
@@ -60,8 +60,8 @@ In no particular order:
 
      https://pypi.python.org/pypi/cutadapt/1.8
 
-* [package_cd_hit_auxtools_0_5_2012_03_07_fix_dan](https://toolshed.g2.bx.psu.edu/view/iuc/package_cd_hit_auxtools_0_5_2012-03-07_fix_dan): Builds and installs cd-hit-auxtools including cd-hit-dup, cd-hit-lap, and read-linker. 
-* [package_nwalign_0_3_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_nwalign_0_3_1): Contains a tool dependency definition for version 0.3.1 of the python nwalign package nwalign is an implementation of Needleman-Wunsch global sequence alignment.  nwalign is a resource efficient alternative to scikit alignment.global_pairwise_align_nucleotide and BioPython pairwise2
+* [package_cd_hit_auxtools_0_5_2012_03_07_fix_dan](https://toolshed.g2.bx.psu.edu/view/iuc/package_cd_hit_auxtools_0_5_2012-03-07_fix_dan): Builds and installs cd-hit-auxtools including cd-hit-dup, cd-hit-lap, and read-linker.
+* [package_nwalign_0_3_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_nwalign_0_3_1): Contains a tool dependency definition for version 0.3.1 of the python nwalign package nwalign is an implementation of Needleman-Wunsch global sequence alignment. nwalign is a resource efficient alternative to scikit alignment.global_pairwise_align_nucleotide and BioPython pairwise2
 
      This is the version 0.3.1 of nwalign.<br />
      https://pypi.python.org/pypi/nwalign

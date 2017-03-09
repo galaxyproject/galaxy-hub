@@ -53,23 +53,23 @@ In no particular order:
      http://ccb.jhu.edu/software/hisat/index.shtml
 
 * [kraken_report](https://toolshed.g2.bx.psu.edu/view/devteam/kraken_report): planemo upload for repository https://github.com/galaxyproject/tools-devteam/blob/master/tool_collections/kraken/kraken_report/ commit 00a7926c285bc4a339bd7deebf40b28f39c7d947-dirty Contains galaxy tool wrapper for kraken-report. Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies. Previous attempts by other bioinformatics software to accomplish this task have often used sequence alignment or machine learning techniques that were quite slow, leading to the development of less sensitive but much faster abundance estimation programs. Kraken aims to achieve high sensitivity and high speed by utilizing exact alignments of k-mers and a novel classification algorithm.
-* [data_manager_twobit_builder](https://toolshed.g2.bx.psu.edu/view/devteam/data_manager_twobit_builder): planemo upload for repository https://github.com/galaxyproject/tools-devteam/tree/master/data_managers/data_manager_twobit_builder commit 130cb0c08ad3c5b858ba46b1024dcdccc3cb68c6-dirty Twobit data manager. 
+* [data_manager_twobit_builder](https://toolshed.g2.bx.psu.edu/view/devteam/data_manager_twobit_builder): planemo upload for repository https://github.com/galaxyproject/tools-devteam/tree/master/data_managers/data_manager_twobit_builder commit 130cb0c08ad3c5b858ba46b1024dcdccc3cb68c6-dirty Twobit data manager.
 
 * *From [rnateam](https://toolshed.g2.bx.psu.edu/view/rnateam):*
-  * [splitfasta](https://toolshed.g2.bx.psu.edu/view/rnateam/splitfasta): planemo upload for repository https://github.com/bgruening/galaxytools/tree/master/tools/hacked/splitFasta commit fcd6ef7e59971abd6b6a3a5401f92bcdef6ef76c Split a multi-sequence fasta file into files containing single sequences 
-  * [compalignp](https://toolshed.g2.bx.psu.edu/view/rnateam/compalignp): Compute fractional identity between trusted alignment and test alignment 
+  * [splitfasta](https://toolshed.g2.bx.psu.edu/view/rnateam/splitfasta): planemo upload for repository https://github.com/bgruening/galaxytools/tree/master/tools/hacked/splitFasta commit fcd6ef7e59971abd6b6a3a5401f92bcdef6ef76c Split a multi-sequence fasta file into files containing single sequences
+  * [compalignp](https://toolshed.g2.bx.psu.edu/view/rnateam/compalignp): Compute fractional identity between trusted alignment and test alignment
   * [piranha](https://toolshed.g2.bx.psu.edu/view/rnateam/piranha): planemo upload for repository https://github.com/galaxyproject/tools-iuc/tree/master/tools/piranha commit ba69207568a546d7c3b71a144f78095811e3e99a-dirty Piranha is a peak-caller for CLIP- and RIP-Seq data Piranha is a peak-caller for CLIP- and RIP-Seq data. It takes input in BED or BAM format and identifies regions of statistically significant read enrichment.
 
-     Additional covariates may optionally be provided to further inform the peak-calling process. 
+     Additional covariates may optionally be provided to further inform the peak-calling process.
 
      http://smithlabresearch.org/software/piranha/
 
-* [rnacode](https://toolshed.g2.bx.psu.edu/view/rnateam/rnacode): planemo upload for repository https://github.com/bgruening/galaxytools/tree/master/tools/rna_tools/rnacode commit 3f891a4e86b4b127815dc72a4292c232cda79293 Analyze the protein coding potential in MSA 
-* [gotohscan](https://toolshed.g2.bx.psu.edu/view/rnateam/gotohscan): planemo upload for repository https://github.com/bgruening/galaxytools/tree/master/tools/gotohscan commit d18a08287799b0aa6ca50242ebcc218820923fb2-dirty Find subsequences in db 
-* [mafft](https://toolshed.g2.bx.psu.edu/view/rnateam/mafft): planemo upload for repository https://github.com/bgruening/galaxytools/tree/master/tools/mafft commit 1fc2105007248c6b9460c0f3a98e6589477d0b13 Multiple alignment program for amino acid or nucleotide sequences 
+* [rnacode](https://toolshed.g2.bx.psu.edu/view/rnateam/rnacode): planemo upload for repository https://github.com/bgruening/galaxytools/tree/master/tools/rna_tools/rnacode commit 3f891a4e86b4b127815dc72a4292c232cda79293 Analyze the protein coding potential in MSA
+* [gotohscan](https://toolshed.g2.bx.psu.edu/view/rnateam/gotohscan): planemo upload for repository https://github.com/bgruening/galaxytools/tree/master/tools/gotohscan commit d18a08287799b0aa6ca50242ebcc218820923fb2-dirty Find subsequences in db
+* [mafft](https://toolshed.g2.bx.psu.edu/view/rnateam/mafft): planemo upload for repository https://github.com/bgruening/galaxytools/tree/master/tools/mafft commit 1fc2105007248c6b9460c0f3a98e6589477d0b13 Multiple alignment program for amino acid or nucleotide sequences
 
 * *From [anmoljh](https://toolshed.g2.bx.psu.edu/view/anmoljh):*
-  * [trinitystats](https://toolshed.g2.bx.psu.edu/view/anmoljh/trinitystats): TrinityStat.pl utility from trinitynraseq package 
+  * [trinitystats](https://toolshed.g2.bx.psu.edu/view/anmoljh/trinitystats): TrinityStat.pl utility from trinitynraseq package
 
 * *From [avowinkel](https://toolshed.g2.bx.psu.edu/view/avowinkel):*
   * [picard](https://toolshed.g2.bx.psu.edu/view/avowinkel/picard): version 1.135  Picard SAM/BAM manipulation tools SAM (Sequence Alignment/Map) is a generic format for storing large nucleotide sequence alignments. Picard comprises Java-based utilities that manipulate SAM files, and a Java API (SAM-JDK) for creating new programs that read and write SAM files. Both SAM text format and SAM binary (BAM) format are supported.
@@ -93,7 +93,7 @@ In no particular order:
 
      The software is composed by two modules. First module, kissnp2, detects SNPs from read sets. A second module, kissreads, enhance the kissnp2 results by computing per read set  and for each found SNP i/ its mean read coverage and ii/ the (phred) quality of reads generating the polymorphism.
 * [lordec](https://toolshed.g2.bx.psu.edu/view/cmonjeau/lordec): Imported from capsule None Colibread / Lordec  LoRDEC is a program to correct sequencing errors in long reads from 3rd generation sequencing with high error rate, and is especially intended for PacBio reads
-* [ziptool](https://toolshed.g2.bx.psu.edu/view/cmonjeau/ziptool): Imported from capsule None Create a zip archive 
+* [ziptool](https://toolshed.g2.bx.psu.edu/view/cmonjeau/ziptool): Imported from capsule None Create a zip archive
 * [decompress_an_archive_and_merge](https://toolshed.g2.bx.psu.edu/view/cmonjeau/decompress_an_archive_and_merge): Imported from capsule None Decompresses an archive file and merge This tool decompresses an archive file in a zip, gz or bz2 format and can merge all files in one file
 * [mapsembler2](https://toolshed.g2.bx.psu.edu/view/cmonjeau/mapsembler2): Imported from capsule None Colibread / Mapsembler2 is a targeted assembly software It takes as input a set of NGS raw reads (fasta or fastq, gzipped or not) and a set of input sequences (starters). It first determines if each starter is read-coherent, e.g. whether reads confirm the presence of each starter in the original sequence. Then for each read-coherent starter, Mapsembler2 outputs its sequence neighborhood as a linear sequence or as a graph, depending on the user choice.
 
@@ -108,12 +108,12 @@ In no particular order:
 
 
 * *From [gandres](https://toolshed.g2.bx.psu.edu/view/gandres):*
-  * [vcftools_filter_stats_diversity](https://toolshed.g2.bx.psu.edu/view/gandres/vcftools_filter_stats_diversity): Subset of VCFtools fonctionalities : Filtering, Statistics, Diversity (slidingWindow) 
-  * [fastme](https://toolshed.g2.bx.psu.edu/view/gandres/fastme): A distance based phylogeny reconstruction algorithm 
-  * [readseq](https://toolshed.g2.bx.psu.edu/view/gandres/readseq): Convert various alignment formats 
+  * [vcftools_filter_stats_diversity](https://toolshed.g2.bx.psu.edu/view/gandres/vcftools_filter_stats_diversity): Subset of VCFtools fonctionalities : Filtering, Statistics, Diversity (slidingWindow)
+  * [fastme](https://toolshed.g2.bx.psu.edu/view/gandres/fastme): A distance based phylogeny reconstruction algorithm
+  * [readseq](https://toolshed.g2.bx.psu.edu/view/gandres/readseq): Convert various alignment formats
 
 * *From [takadonet](https://toolshed.g2.bx.psu.edu/view/takadonet):*
-  * [bcf_bgzip_datatype](https://toolshed.g2.bx.psu.edu/view/takadonet/bcf_bgzip_datatype): BCF compress datatype 
+  * [bcf_bgzip_datatype](https://toolshed.g2.bx.psu.edu/view/takadonet/bcf_bgzip_datatype): BCF compress datatype
 
 * *From [drosofff](https://toolshed.g2.bx.psu.edu/view/drosofff):*
   * [msp_fasta_tabular_converter](https://toolshed.g2.bx.psu.edu/view/drosofff/msp_fasta_tabular_converter): planemo upload for repository https://bitbucket.org/drosofff/gedtools/ various fasta to tabular conversions tool to convert fasta to tabular format or fasta to weighted fasta format and vice versa
@@ -136,7 +136,7 @@ In no particular order:
      The sequence used to blastn the contigs must be provided to serve as a guide to the final assembly
 
      The final assembly is a DNA sequence.
-     
+
      Nucleotides of the guide sequence which were not covered by contigs are in small letters in the output assembly.
 
 * [msp_blastparser_and_hits](https://toolshed.g2.bx.psu.edu/view/drosofff/msp_blastparser_and_hits): planemo upload for repository https://bitbucket.org/drosofff/gedtools/ Parse blast outputs and compile hits This tool is part of the visitor2 toolsuite.
@@ -160,7 +160,7 @@ In no particular order:
   * [gembassy](https://toolshed.g2.bx.psu.edu/view/ktnyt/gembassy): Initial upload GEMBASSY wrapper tools This is a wrapper for the EMBOSS associated software (EMBASSY) package "GEMBASSY", containing tools for accessing the G-language Web Services.
 
 * *From [cheanney](https://toolshed.g2.bx.psu.edu/view/cheanney):*
-  * [dbannot](https://toolshed.g2.bx.psu.edu/view/cheanney/dbannot): dbAnnot allows for easy annotations of biological identifiers.  dbAnnot provides different types of annotations for various biological identifiers
+  * [dbannot](https://toolshed.g2.bx.psu.edu/view/cheanney/dbannot): dbAnnot allows for easy annotations of biological identifiers. dbAnnot provides different types of annotations for various biological identifiers
   * [db2db](https://toolshed.g2.bx.psu.edu/view/cheanney/db2db): Id conversion db2db allows for conversions of identifiers from one database to other database identifiers or annotations.
 
 * *From [lecorguille](https://toolshed.g2.bx.psu.edu/view/lecorguille):*
@@ -172,7 +172,7 @@ In no particular order:
   * [unafold](https://toolshed.g2.bx.psu.edu/view/yhoogstrate/unafold): planemo upload for repository https://github.com/ErasmusMC-Bioinformatics/unafold_galaxy_wrapper commit 84b70c01144fa018db45215941fb395798376100-dirty UNAFold: software for nucleic acid folding and hybridization. The UNAFold software package is an integrated collection of programs that simulate folding, hybridization, and melting pathways for one or two single-stranded nucleic acid sequences. The name is derived from "Unified Nucleic Acid Folding." Folding (secondary structure) prediction for single-stranded RNA or DNA combines free energy minimization, partition function calculations and stochastic sampling. For melting simulations, the package computes entire melting profiles, not just melting temperatures. UV absorbance at 260 nm, heat capacity change (C(p)), and mole fractions of different molecular species are computed as a function of temperature. The package installs and runs on all Unix and Linux platforms that we have looked at, including Mac OS X. Images of secondary structures, hybridizations, and dot plots may be computed using common formats. Similarly, a variety of melting profile plots is created when appropriate. These latter plots include experimental results if they are provided. The package is "command line" driven. Underlying compiled programs may be used individually, or in special combinations through the use of a variety of Perl scripts. Users are encouraged to create their own scripts to supplement what comes with the package. This evolving software is available for download at http://www.bioinfo.rpi.edu/applications/hybrid/download.php .
 
 * *From [crusoe](https://toolshed.g2.bx.psu.edu/view/crusoe):*
-  * [oxli_datatypes](https://toolshed.g2.bx.psu.edu/view/crusoe/oxli_datatypes): planemo upload commit d8e0950d53e504e02ee5db43c0804142b14d7fd2-dirty Datatypes for the oxli/khmer project 
+  * [oxli_datatypes](https://toolshed.g2.bx.psu.edu/view/crusoe/oxli_datatypes): planemo upload commit d8e0950d53e504e02ee5db43c0804142b14d7fd2-dirty Datatypes for the oxli/khmer project
   * [khmer](https://toolshed.g2.bx.psu.edu/view/crusoe/khmer): planemo upload for repository https://github.com/galaxyproject/tools-iuc/blob/master/tools/khmer/ commit d8e0950d53e504e02ee5db43c0804142b14d7fd2-dirty In-memory nucleotide sequence k-mer counting, filtering, graph traversal and more khmer is a library and suite of command line tools for working with DNA sequence. It is primarily aimed at short-read sequencing data such as that produced by the Illumina platform. khmer takes a k-mer-centric approach to sequence analysis, hence the name.
 
      The official repository is at https://github.com/ged-lab/khmer and you can read the docs online here: http://khmer.readthedocs.org/
@@ -195,18 +195,18 @@ In no particular order:
 * use of a sliding window permit control memory use
 
      The next major release (version 4.1) will provide substantial improved haplotype phasing and genotype imputation. Look for version 4.1 to be released in April or May 2015.
-     
+
      If you use Beagle in a published analysis, please report the program version and cite the following article:
 
        S R Browning and B L Browning (2007) Rapid and accurate haplotype phasing and missing data inference for whole genome association studies by use of localized haplotype clustering. Am J Hum Genet 81:1084-97. doi:10.1086/521987
 
 * *From [dereeper](https://toolshed.g2.bx.psu.edu/view/dereeper):*
-  * [mlmm](https://toolshed.g2.bx.psu.edu/view/dereeper/mlmm): Multi-Locus Mixed-Model (MLMM) 
+  * [mlmm](https://toolshed.g2.bx.psu.edu/view/dereeper/mlmm): Multi-Locus Mixed-Model (MLMM)
 
 #### Dependencies
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
-  * [package_mono_4_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_mono_4_0): Imported from capsule None Contains a tool dependency definition that downloads and compiles version 4.0.x of mono. Mono is a software platform designed to allow developers to easily create cross platform applications 
+  * [package_mono_4_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_mono_4_0): Imported from capsule None Contains a tool dependency definition that downloads and compiles version 4.0.x of mono. Mono is a software platform designed to allow developers to easily create cross platform applications
 
      http://www.mono-project.com/
 
@@ -216,7 +216,7 @@ In no particular order:
 
 
 * *From [avowinkel](https://toolshed.g2.bx.psu.edu/view/avowinkel):*
-  * [package_picard_1_135](https://toolshed.g2.bx.psu.edu/view/avowinkel/package_picard_1_135): Contains a tool dependency definition that downloads and compiles version 1.135 of the Picard package. 
+  * [package_picard_1_135](https://toolshed.g2.bx.psu.edu/view/avowinkel/package_picard_1_135): Contains a tool dependency definition that downloads and compiles version 1.135 of the Picard package.
   * [package_picard_1_134](https://toolshed.g2.bx.psu.edu/view/avowinkel/package_picard_1_134): Contains a tool dependency definition that downloads and compiles version 1.134.0 of the Picard package. This repository is intended to be defined as a complex repository dependency within a separate repository.
 
      Program: picard Version: 1.134
@@ -235,17 +235,17 @@ In no particular order:
 * [package_takeabreak_1_1_0](https://toolshed.g2.bx.psu.edu/view/cmonjeau/package_takeabreak_1_1_0): Imported from capsule None Contains a tool dependency definition that downloads and compiles version 1.1.0 of TakeABreak TakeABreak is a tool that can detect inversion breakpoints directly from raw NGS reads, without the need of any reference genome and without de novo assembling the genomes. Its implementation has a very limited memory impact allowing its usage on common desktop computers and acceptable runtime (Illumina reads simulated at 2x40x coverage from human chromosome 22 can be treated in less than two hours, with less than 1GB of memory).
 * [package_bwa_0_6_2](https://toolshed.g2.bx.psu.edu/view/cmonjeau/package_bwa_0_6_2): Imported from capsule None  Contains a tool dependency definition that downloads and compiles version 0.6.2 of the BWA package  This repository is intended to be defined as a complex repository dependency within a separate repository.
 
-     http://wiki.galaxyproject.org/DefiningRepositoryDependencies#Complex_repository_dependencies:_tool_dependency_definitions_that_contain_repository_dependency_definitions 
+     http://wiki.galaxyproject.org/DefiningRepositoryDependencies#Complex_repository_dependencies:_tool_dependency_definitions_that_contain_repository_dependency_definitions
 
 * Program: bwa (alignment via Burrows-Wheeler transformation)
 * Version: 0.6.2-r126
 * Contact: Heng Li <lh3@sanger.ac.uk>
 * [package_kissplice_2_2_1](https://toolshed.g2.bx.psu.edu/view/cmonjeau/package_kissplice_2_2_1): Imported from capsule None Contains a tool dependency definition that downloads and compiles version 2.2.21 of !Kissplice KisSplice is a software that enables to analyse RNA-seq data with or without a reference genome. It is an exact local transcriptome assembler that allows to identify SNPs, indels and alternative splicing events. It can deal with an arbitrary number of biological conditions, and will quantify each variant in each condition. It has been tested on Illumina datasets of up to 1G reads. Its memory consumption is around 5Gb for 100M reads.
-* [package_lordec_0_5_3](https://toolshed.g2.bx.psu.edu/view/cmonjeau/package_lordec_0_5_3): Imported from capsule None Contains a tool dependency definition that downloads and compiles version 0.5.3 of Lordec LoRDEC is a program to correct sequencing errors in long reads from 3rd generation sequencing with high error rate, and is especially intended for PacBio reads. It uses a hybrid strategy, meaning that it uses two sets of reads: the reference read set, whose error rate is assumed to be small, and the PacBio read set, which is then corrected using the reference set. Typically, the reference set contains Illumina reads. 
+* [package_lordec_0_5_3](https://toolshed.g2.bx.psu.edu/view/cmonjeau/package_lordec_0_5_3): Imported from capsule None Contains a tool dependency definition that downloads and compiles version 0.5.3 of Lordec LoRDEC is a program to correct sequencing errors in long reads from 3rd generation sequencing with high error rate, and is especially intended for PacBio reads. It uses a hybrid strategy, meaning that it uses two sets of reads: the reference read set, whose error rate is assumed to be small, and the PacBio read set, which is then corrected using the reference set. Typically, the reference set contains Illumina reads.
 
 * *From [gandres](https://toolshed.g2.bx.psu.edu/view/gandres):*
-  * [package_fastme_2_1_4](https://toolshed.g2.bx.psu.edu/view/gandres/package_fastme_2_1_4): FastME version 2.1.4 dependency package 
-  * [package_readseq_jar_10_03_13](https://toolshed.g2.bx.psu.edu/view/gandres/package_readseq_jar_10_03_13): readseq.jar 13 Mar 10 version 
+  * [package_fastme_2_1_4](https://toolshed.g2.bx.psu.edu/view/gandres/package_fastme_2_1_4): FastME version 2.1.4 dependency package
+  * [package_readseq_jar_10_03_13](https://toolshed.g2.bx.psu.edu/view/gandres/package_readseq_jar_10_03_13): readseq.jar 13 Mar 10 version
 
 ### Select Updates
 

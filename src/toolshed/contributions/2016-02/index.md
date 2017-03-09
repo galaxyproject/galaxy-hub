@@ -12,50 +12,50 @@ Tools contributed to the Galaxy Project Tool Shed in February 2016.
 #### unrestricted
 
 * *From [tiagoantao](https://toolshed.g2.bx.psu.edu/view/tiagoantao):*
-  * [packages_stacks_1_35](https://toolshed.g2.bx.psu.edu/view/tiagoantao/packages_stacks_1_35): 
+  * [packages_stacks_1_35](https://toolshed.g2.bx.psu.edu/view/tiagoantao/packages_stacks_1_35):
   * [clone_filter](https://toolshed.g2.bx.psu.edu/view/tiagoantao/clone_filter): Stacks clone_filter (not available on the standard tool)
 
 * *From [bornea](https://toolshed.g2.bx.psu.edu/view/bornea):*
   * [dotplot_runner](https://toolshed.g2.bx.psu.edu/view/bornea/dotplot_runner): This tool runs the dotplot program found at http://prohitstools.mshri.on.ca/ Runs the biclustering version of the ProHits DotPlot tool.
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
-  * [gemini_region](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_region): Wrapper for the gemini tool suite: GEMINI region. 
-  * [gemini_de_novo](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_de_novo): Wrapper for the gemini tool suite: GEMINI de_novo 
-  * [gemini_amend](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_amend): Wrapper for the gemini tool suite: GEMINI amend 
+  * [gemini_region](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_region): Wrapper for the gemini tool suite: GEMINI region.
+  * [gemini_de_novo](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_de_novo): Wrapper for the gemini tool suite: GEMINI de_novo
+  * [gemini_amend](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_amend): Wrapper for the gemini tool suite: GEMINI amend
 
-* [gemini_qc](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_qc): Wrapper for the gemini tool suite: GEMINI qc 
+* [gemini_qc](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_qc): Wrapper for the gemini tool suite: GEMINI qc
 
-* [gemini_fusions](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_fusions): Wrapper for the gemini tool suite: GEMINI fusions 
+* [gemini_fusions](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_fusions): Wrapper for the gemini tool suite: GEMINI fusions
 
 * [gemini_gene_wise](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_gene_wise): Wrapper for the gemini tool suite: GEMINI gene_wise
 
 * [gemini_mendel_errors](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_mendel_errors): Wrapper for the gemini tool suite: GEMINI mendel_errors
 
-* [gemini_dump](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_dump): Wrapper for the gemini tool suite: GEMINI dump 
+* [gemini_dump](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_dump): Wrapper for the gemini tool suite: GEMINI dump
 
 * [suite_gemini](https://toolshed.g2.bx.psu.edu/view/iuc/suite_gemini): GEMINI: a flexible framework for exploring genome variation The intent of GEMINI (GEnome MINIing) is to provide a simple, flexible, and powerful framework for exploring genetic variation for personal and medical genetics. GEMINI is unique in that it integrates genetic variation (from VCF files) with a wealth of genome annotations into a unified database framework. Using this integrated database as the analysis framework, we aim to leverage the expressive power of SQL for data analysis, while attempting to overcome the fundamental challenges associated with using databases for very large (e.g. 1,000,000 variants times 1,000 samples yields one billion genotypes) datasets. In addition, by defining sample relationships with a PED file, GEMINI allows one to explore and test for variants that meet specific inheritance models (e.g., recessive, dominant, etc.).
 
-* [gemini_load](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_load): Wrapper for the gemini tool suite: GEMINI load 
+* [gemini_load](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_load): Wrapper for the gemini tool suite: GEMINI load
 
-* [gemini_query](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_query): Wrapper for the gemini tool suite: GEMINI query 
+* [gemini_query](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_query): Wrapper for the gemini tool suite: GEMINI query
 
-* [gemini_annotate](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_annotate): Wrapper for the gemini tool suite: GEMINI annotate 
-* [gemini_roh](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_roh): Wrapper for the gemini tool suite: GEMINI roh 
+* [gemini_annotate](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_annotate): Wrapper for the gemini tool suite: GEMINI annotate
+* [gemini_roh](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_roh): Wrapper for the gemini tool suite: GEMINI roh
 
-* [gemini_lof_sieve](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_lof_sieve): Wrapper for the gemini tool suite: GEMINI lof_sieve 
-* [gemini_db_info](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_db_info): Wrapper for the gemini tool suite: GEMINI db_info 
-* [gemini_stats](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_stats): Wrapper for the gemini tool suite: GEMINI stats 
+* [gemini_lof_sieve](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_lof_sieve): Wrapper for the gemini tool suite: GEMINI lof_sieve
+* [gemini_db_info](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_db_info): Wrapper for the gemini tool suite: GEMINI db_info
+* [gemini_stats](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_stats): Wrapper for the gemini tool suite: GEMINI stats
 
-* [gemini_comp_hets](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_comp_hets): Wrapper for the gemini tool suite: GEMINI comp_hets 
-* [gemini_actionable_mutations](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_actionable_mutations): Wrapper for the gemini tool suite: GEMINI actionable_mutations 
+* [gemini_comp_hets](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_comp_hets): Wrapper for the gemini tool suite: GEMINI comp_hets
+* [gemini_actionable_mutations](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_actionable_mutations): Wrapper for the gemini tool suite: GEMINI actionable_mutations
 
-* [gemini_set_somatic](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_set_somatic): Wrapper for the gemini tool suite: GEMINI set_somatic 
-* [gemini_pathways](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_pathways): Wrapper for the gemini tool suite: GEMINI pathways 
-* [gemini_windower](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_windower): Wrapper for the gemini tool suite: GEMINI windower 
-* [gemini_recessive_and_dominant](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_recessive_and_dominant): Wrapper for the gemini tool suite: GEMINI autosomal recessive/dominant 
+* [gemini_set_somatic](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_set_somatic): Wrapper for the gemini tool suite: GEMINI set_somatic
+* [gemini_pathways](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_pathways): Wrapper for the gemini tool suite: GEMINI pathways
+* [gemini_windower](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_windower): Wrapper for the gemini tool suite: GEMINI windower
+* [gemini_recessive_and_dominant](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_recessive_and_dominant): Wrapper for the gemini tool suite: GEMINI autosomal recessive/dominant
 
-* [gemini_interactions](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_interactions):  Wrapper for the gemini tool suite: GEMINI interactions 
-* [gemini_burden](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_burden): Wrapper for the gemini tool suite: GEMINI burden 
+* [gemini_interactions](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_interactions):  Wrapper for the gemini tool suite: GEMINI interactions
+* [gemini_burden](https://toolshed.g2.bx.psu.edu/view/iuc/gemini_burden): Wrapper for the gemini tool suite: GEMINI burden
 
 * *From [lecorguille](https://toolshed.g2.bx.psu.edu/view/lecorguille):*
   * [xcms_summary](https://toolshed.g2.bx.psu.edu/view/lecorguille/xcms_summary): [W4M][LC-MS] XCMS R Package - Preprocessing - HTML Summary for XCMS and CAMERA analysis Part of the W4M project: http://workflow4metabolomics.org\n\nXCMS: http://www.bioconductor.org/packages/release/bioc/html/xcms.html\n\nThis tool create a HTML summary of XCMS and CAMERA analysis
@@ -83,7 +83,7 @@ Tools contributed to the Galaxy Project Tool Shed in February 2016.
   * [rnaseq_tophat2](https://toolshed.g2.bx.psu.edu/view/sarahinraauzeville/rnaseq_tophat2): NAseq - tophat 2 wrapper Sigenae - Sarah Maman - INRA Auzeville
 
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp):*
-  * [msgfplus](https://toolshed.g2.bx.psu.edu/view/galaxyp/msgfplus): MSGF+ Identifies peptides in tandem mass spectra using the MSGF+ search engine.  http://proteomics.ucsd.edu/software-tools/ms-gf/
+  * [msgfplus](https://toolshed.g2.bx.psu.edu/view/galaxyp/msgfplus): MSGF+ Identifies peptides in tandem mass spectra using the MSGF+ search engine. http://proteomics.ucsd.edu/software-tools/ms-gf/
 
 #### tool_dependency_definition
 
