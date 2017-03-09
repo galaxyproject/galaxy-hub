@@ -407,5 +407,4 @@ The *[Community Log Board](/src/community/logs/index.md)* and  *[Deployment Cata
 
 # Other News
 
-* GOBLET is collecting [Bioinformatics Training needs](https://www.surveymonkey.com/s/GOBLETsurvey) across the globe 
-
+* GOBLET is collecting [Bioinformatics Training needs](https://www.surveymonkey.com/s/GOBLETsurvey) across the globe

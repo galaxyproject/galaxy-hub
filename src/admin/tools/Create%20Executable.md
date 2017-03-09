@@ -19,4 +19,3 @@ Your executable can input and output any type of file that Galaxy supports, or a
 To inform Galaxy about what format you are using, you should specify it in the XML file. While you can output an arbitrary text file, if you want users to be able to perform further Galaxy operations on it (like joining it with the results from another analysis), you should consider outputing more than one file: a standard-format file like interval or bed and an arbitrary file containing more complex data.
 
 Input and output file names will be passed to the executable through the command line, with command line notation being specified in the XML file. You can use your language's standard file-opening and processing methods, but you will need to accept variable file names and locations specified by Galaxy.
-

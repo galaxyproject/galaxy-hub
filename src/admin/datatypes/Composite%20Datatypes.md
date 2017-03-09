@@ -155,4 +155,3 @@ To prevent this from occuring, set allow\_datatype\_change to False. The dataset
 ### Future Directions
 
 This approach was implemented to be backwards compatible with existing Rgenetics datasets/tools (implemented before composite datatypes existed). Different approaches should be considered. Suggestions and comments are welcome.
-

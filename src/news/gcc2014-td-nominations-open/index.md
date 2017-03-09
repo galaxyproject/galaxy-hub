@@ -22,6 +22,3 @@ Nominated topics will be published on the [Training Day](/src/events/gcc2014/tra
 Topics will then be selected and scheduled based on topic interest, and the organizers' ability to confirm instructors for each session.  Some very popular sessions may be scheduled more than once. The final schedule will be posted before registration opens.
 
 [GCC2014 Organizing Committee](/src/events/gcc2014/organizers/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-12-02</div>
-

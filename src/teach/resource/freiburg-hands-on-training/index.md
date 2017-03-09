@@ -28,4 +28,3 @@ A [collection of training material](https://github.com/bgruening/training-materi
 ## Links
 
 * [Training material](https://github.com/bgruening/training-material)
-

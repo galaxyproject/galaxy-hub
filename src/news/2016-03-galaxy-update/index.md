@@ -25,6 +25,3 @@ The **[March 2016 Galactic News](/src/galaxy-updates/2016-03/index.md)** is hot 
 * [New ToolShed Contributions](/src/galaxy-updates/2016-03/index.md#toolshed-contributions)
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2016-03-01 </div>
-

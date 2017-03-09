@@ -88,4 +88,3 @@ When launching a new cluster, you need to decide what type of storage would you 
     <td> Most of the cloud virtual machines (or instances) have a certain amount of storage available to them by default. This storage type is available for free and cannot be changed in size (the amount of available storage depends on the instance type). However, <strong>this storage is available only while an instance is running and once terminated, the storage is irrecoverably lost.</strong>  This type of storage is most useful for temporary clusters during testing or tool development.</td>
   </tr>
 </table>
-

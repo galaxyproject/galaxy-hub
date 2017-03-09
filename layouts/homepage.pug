@@ -33,11 +33,22 @@ block content
 
             div.col-sm-4
                 h2: a( href="/events/" ) Events
-                each item in events.slice(0,5)
-                    p
-                        a( href=item.link ) #{item.title}
-                        if item.tease
-                            |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
+                - var events_counter = 0
+                each item in events.slice().reverse()
+                    if events_counter < 5 && item.date != undefined && helpers.moment(item.date) >= helpers.moment(new Date()).subtract((item.days || 1), 'days')
+                        - events_counter += 1
+                        p
+                            if item.external_url
+                                a( href=item.external_url ) #{item.title}
+                                if item.contents != ''
+                                    |  [
+                                    a( href=item.link )
+                                        | hub page
+                                    | ]
+                            else
+                                a( href=item.link ) #{item.title}
+                            if item.tease
+                                |  – !{helpers.marked(item.tease).replace("<p>","").replace("</p>","")}
 
             div.col-sm-4
                 div#twitter_timeline( style="height:400px" )

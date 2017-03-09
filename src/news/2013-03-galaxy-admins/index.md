@@ -40,6 +40,3 @@ We use the [Blackboard Collaborate Web Conferencing system](/src/community/galax
 [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
 
 Srinivas Maddhi
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-03-12</div>
-

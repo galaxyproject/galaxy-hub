@@ -226,5 +226,4 @@ A new version of CloudMan was [Released in June](/src/news/new-cloudman-release/
   * [Genomic Resequencing Variant Detection and Interpretation in a Diagnostic Context Hands on workshop: Next generation sequence data analysis](https://humgenprojects.lumc.nl/trac/GAPSS3/wiki/resequencing), by [Hailiang (Leon) Mei](http://www.nbic.nl/about-nbic/nbic-faculty/details/hailiang-leon-mei/), [Jeroen Laros](http://www.liacs.nl/~jlaros/)
 
 1. Several new and updated genomes were added to [Galaxy Main](/src/main/index.md) in June:
-  * bosTau4, bosTau6, bosTauMd3, canFam2, ce10, gorGor3, mm9, mm10, panTro3, rn4,  
-
+  * bosTau4, bosTau6, bosTauMd3, canFam2, ce10, gorGor3, mm9, mm10, panTro3, rn4,

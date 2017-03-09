@@ -13,6 +13,3 @@ Hope to see you in San Diego,
 
 [Dave Clements](/src/people/dave-clements/index.md) and Dannon Baker<br />
 [/Galaxy Team](/Galaxy Team)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-01-06 </div>
-

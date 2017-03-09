@@ -478,4 +478,3 @@ Third, the feature can be left enabled and unpatched, and the vulnerability can 
 * [pycrac](http://bit.ly/11lEbNa): User-friendly Python tools for the analyses of CLIP/CRAC datasets 
 * In Sweden? The Swedish National Infrastructure for Computing (SNIC) is [now supporting Galaxy (see last page)](http://bit.ly/11w8Tjf).
 * Follow [Saket Choudhary's Google Summer of Code Galaxy project work on Blogspot](http://bit.ly/1abz1bv)
-

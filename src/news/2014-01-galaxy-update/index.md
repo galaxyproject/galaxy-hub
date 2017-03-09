@@ -34,6 +34,3 @@ If you have anything you would like to see in the next *[Galaxy Update](/src/gal
 Best wishes to you and yours for a happy and spectacular 2014,
 
 [Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2013-12-31 </div>
-

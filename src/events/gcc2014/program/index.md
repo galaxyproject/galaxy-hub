@@ -31,4 +31,3 @@ Topics were nominated and then voted on by the Galaxy Community.  There are 15 s
 <br /><br />
 
 <div class='center'><br /><span style="font-size: larger;">**Day 0: Learning Galaxy**</span><br /></div>
-

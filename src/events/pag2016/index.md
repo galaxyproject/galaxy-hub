@@ -84,4 +84,3 @@ Galaxy will be at [Plant and Animal Genome XXIV (PAG 2016)](http://www.intlpag.o
     <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
   </tr>
 </table>
-

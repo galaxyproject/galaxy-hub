@@ -199,4 +199,3 @@ Tools contributed to the Galaxy Project Tool Shed in [April and May 2016](/src/g
 * *From [dereeper](https://toolshed.g2.bx.psu.edu/view/dereeper):*
   * [package_plink_1_90](https://toolshed.g2.bx.psu.edu/view/dereeper/package_plink_1_90): package_plink_1_90 package_plink_1_90
   * [package_snmf_1_2](https://toolshed.g2.bx.psu.edu/view/dereeper/package_snmf_1_2): package_snmf_1_2 package_snmf_1_2
-

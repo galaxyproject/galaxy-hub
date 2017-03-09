@@ -151,4 +151,3 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
     <td> </td>
   </tr>
 </table>
-

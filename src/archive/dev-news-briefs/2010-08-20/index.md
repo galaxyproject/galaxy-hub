@@ -171,4 +171,3 @@ hg pull -u -r d8cf43c9a0b9
 * Modified translogger middleware that properly propagates exceptions, should eliminate 'Attempt to set headers a second time w/o an exc_info'.
 * Allow access to /api without HTTP_REMOTE_USER set if use_remote_user = True, since the API controllers handle authentication internally.
 * Allow access to API Key creation when use_remote_user is true.
-

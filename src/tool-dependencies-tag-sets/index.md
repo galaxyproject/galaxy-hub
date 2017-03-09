@@ -212,4 +212,3 @@
 * INSTALL_DIR = installation directory (absolute path with no trailing slash), useful to pass it to ./configure --prefix=$INSTALL_DIR or to set environment variables
 * REPOSITORY_INSTALL_DIR = the directory (absolute path with no trailing slash) where your XML files are located (tool, or tool_dependencies.xml XML files)
 * TMP_WORK_DIR = temporary working directory (absolute path with no trailing slash) used during tool installation. All files are downloaded here, unpacked etc. This directory will be removed after installation
-

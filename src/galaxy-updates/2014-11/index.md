@@ -456,4 +456,3 @@ In no particular order:
 * [Björn Grüning's](/src/people/bjoern-gruening/index.md) [Galaxy Docker image](https://github.com/bgruening/docker-galaxy-stable/commits/master) now bundles FTP & SLURM and allows targeting external Galaxy directories. 
 * An IPython notebook demonstrating an [interactive cummeRbund analysis embedded in Galaxy](http://nbviewer.ipython.org/github/jmchilton/ipython_notebooks/blob/master/cummerbund_galaxy_1.ipynb). 
 * [GUGGO tutorial](http://bit.ly/ZQ7mdu): how to activate Docker functionality in Galaxy; create a Docker image and install Stacks on that image; and integrate a Stacks Galaxy tool using that image.
-

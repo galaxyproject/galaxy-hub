@@ -29,6 +29,3 @@ upgrade: $ hg pull -u -r 5dcbbdfe1087
 **Thanks for using Galaxy!**
 
 [The Galaxy Team](/src/galaxy-team/index.md)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2012-11-14</div>
-

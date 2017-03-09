@@ -70,4 +70,3 @@ When an admin user logs into Galaxy, they will see an "Admin" menu item in the t
 
 
 [Search all Galaxy administration resources](http://galaxyproject.org/search/getgalaxy)
-

@@ -434,4 +434,3 @@ Some maintenance and support of this code will be provided via the usual [Suppor
 * **Oleksandr Moskalenko**, debugged a number of problems related to running jobs as the real user and using DRMAA with TORQUE. 
 * **Jaime Frey**, developer of the HTCondor job runner plugin.
 * **Ilya Chorny**, developer of the original "real user" job running code.
-

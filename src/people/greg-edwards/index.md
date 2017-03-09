@@ -8,4 +8,3 @@ Email: [removethisprefix_gedwards2 AT gmail DOT com](mailto:removethisprefix_ged
 * My Cloud Galaxy site - [PTM tools](http://ptmtools.portjackson.org/)
 
 ...
-

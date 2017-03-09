@@ -48,4 +48,3 @@ supervisor> restart galaxy:web0
 galaxy:web0: stopped
 galaxy:web0: started
 supervisor> exit```
-

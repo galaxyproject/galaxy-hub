@@ -20,4 +20,3 @@ Note: The page is in French, but most of the code/config snippets are in English
 ## Links
 
 * [The Document](http://wiki.sb-roscoff.fr/ifb/index.php/Virtualisation)
-

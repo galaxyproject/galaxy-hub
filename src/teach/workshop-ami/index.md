@@ -27,4 +27,3 @@ Share string:
     <td> Exon Repeats Overlap Example</td>
   </tr>
 </table>
-

@@ -27,4 +27,3 @@ The Galaxy Project is an open source platform that utilzes the many contribution
 ## Tool development
 
 [Planemo](http://planemo.readthedocs.io/) is a set of CLI utilities used to assist with building and publishing Galaxy tools. Users developing Galaxy tools are strongly encouraged to implement Planemo to make tool development faster and easier.
-

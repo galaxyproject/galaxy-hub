@@ -69,4 +69,3 @@ To add a virtual appliance to this directory, create a wiki page describing the 
 1. A template for the new page will appear.  Replace the template text with details about the appliance.
 1. Save, review, and edit the page until you are happy with it.
 1. Return to this page, and review how the resource appears in this listing.
-

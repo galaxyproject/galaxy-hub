@@ -32,4 +32,3 @@ We provide support for MetaPhlAn users. Please join our Google group designated 
 
 * **[Tutorial](https://bitbucket.org/biobakery/biobakery/wiki/metaphlan#rst-header-metaphlan-visualization)**
 * **[Paper](http://www.nature.com/nmeth/journal/v9/n8/full/nmeth.2066.html)**
-

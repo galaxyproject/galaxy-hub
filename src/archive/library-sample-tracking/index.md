@@ -158,4 +158,3 @@ We've only scratched the surface of what can be done with Galaxy. Here are some 
 * [You can customize what external applications are available for displaying datasets](/src/admin/tools/External Display Applications Tutorial/index.md)
 * [You can customize the datatypes for a Galaxy instance](/src/admin/datatypes/Adding Datatypes/index.md)
 * [You can instantiate Galaxy on the Amazon cloud](/src/cloudman/index.md)
-

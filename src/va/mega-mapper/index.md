@@ -34,4 +34,3 @@ Email: megamapper&#64;gmail&#46;com
 ## Links
 
 * [MegaMapper](https://wiki.med.harvard.edu/SysBio/Megason/MegaMapper)
-

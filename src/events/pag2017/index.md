@@ -148,4 +148,3 @@ Galaxy will have a strong presence at [Plant and Animal Genome XXIV (PAG 2017)](
     <td> Anil S. Thanki </td>
   </tr>
 </table>
-

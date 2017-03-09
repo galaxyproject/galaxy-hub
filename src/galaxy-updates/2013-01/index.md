@@ -307,5 +307,4 @@ It was a banner month for [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) con
 * Slides from 4 Galaxy Related Talks at the [Workflows and the Cloud for Reproducible Bioinformatics workshop](http://blogs.biomedcentral.com/gigablog/2012/12/16/gigascience-special-session-at-iscb-asia-on-workflows-cloud-for-reproducible-bioinformatics/) at [ISCB-Asia](http://www.iscb.org/iscb-asia2012) are [available on the wiki](/src/events/index.md#past-events).  Slides for all talks are at [GigaScience's](http://www.gigasciencejournal.com/) [SlideShare account](http://www.slideshare.net/GigaScience).
 * [Bio-Linux 7](http://nebc.nerc.ac.uk/tools/bio-linux/other-bl-docs/new-in-bl7) "includes the popular Galaxy bioinformatics environment pre-configured and running on the desktop, with the most common tools ready to use out-of-the box."
 * [workflow-to-galaxy (0.3.5)](http://rubygems.org/gems/workflow-to-galaxy): This Ruby Gem acquires information for a taverna 2 workflow from myExperiment (or from a file) and generates a Galaxy tool (.xml and .rb files).
-* Milos Pjanic blog: [How to change file attributes in workflows in Galaxy](http://bit.ly/11rAdQU) 
-
+* Milos Pjanic blog: [How to change file attributes in workflows in Galaxy](http://bit.ly/11rAdQU)

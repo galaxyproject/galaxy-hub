@@ -270,4 +270,3 @@ $ hg update release_2013.02.08
 * **[Galaxy Tutorials](https://genome.edu.au/wiki/Galaxy_Tutorials)** Including *RNA-Seq, Variant Detection,* and *Genome Assembly* from The [Genomics Virtual Lab](https://genome.edu.au/)
 * [CloudBioLinux can now install genome indices from the Galaxy rsync server](https://github.com/chapmanb/cloudbiolinux/commit/208a59bb9ec19b1b633b0319259e313d4fae7952). 
 * [Uploading NGS data to Amazon S3 for use in Galaxy](http://bit.ly/137rZfM)
-

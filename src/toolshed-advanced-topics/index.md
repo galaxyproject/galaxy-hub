@@ -24,4 +24,4 @@ The Tool Shed has become an integral part of the process for building and deploy
 
 ## Hosting a Public Tool Shed for Sharing Utilities
 
-The [Hosting a Public Tool Shed](/src/toolshed/hosting-a-local-toolshed/index.md) page provides information about the processes for administering a public Tool Shed like the Test and Main public Tool Sheds hosted by the Galaxy Development Team.  
+The [Hosting a Public Tool Shed](/src/toolshed/hosting-a-local-toolshed/index.md) page provides information about the processes for administering a public Tool Shed like the Test and Main public Tool Sheds hosted by the Galaxy Development Team.

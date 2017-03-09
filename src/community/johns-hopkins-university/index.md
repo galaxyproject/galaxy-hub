@@ -16,4 +16,4 @@ See the [Galaxy Team](/src/galaxy-team/index.md) page for a full list of core Ga
 
 | Date |  Event/Venue  |  Title  |  Presenter  |  Slides  | 
 | ---- | ------------ | ------ | ---------- | ------- | 
-| YYYY/MM |  Link to event/venue   |  *Title*  |  Name  |  links to slides/poster/video]]  | 
+| YYYY/MM |  Link to event/venue   |  *Title*  |  Name  |  links to slides/poster/video]]  |

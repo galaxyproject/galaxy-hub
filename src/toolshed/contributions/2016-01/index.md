@@ -78,4 +78,3 @@ Tools contributed to the Galaxy Project Tool Shed in January 2016.
 
 * *From [jjohnson](https://toolshed.g2.bx.psu.edu/view/jjohnson):*
   * [package_r_ada_2_0_3](https://toolshed.g2.bx.psu.edu/view/jjohnson/package_r_ada_2_0_3): Tool dependency definition that downloads and installs version 2.0.3 of the ada R package along with depenedency rpart ada performs discrete, real, and gentle boost under both exponential and logistic loss on a given data set. The package ada provides a straightforward, well-documented, and broad boosting routine for classification, ideally suited for small to moderate-sized data sets.  https://cran.r-project.org/web/packages/ada/index.html
-

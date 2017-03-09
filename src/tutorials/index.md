@@ -12,5 +12,4 @@
 ## Additional resources
 
  * [Freiburg group tutorials](https://github.com/bgruening/training-material) - an ever growing collection of Galaxy tutorials that serves as a constant inspiration to this page.
- * [Galaxy NGS101](https://wiki.galaxyproject.org/Learn/GalaxyNGS101) - a collection of video tutorials detailing various stages of NGS analysis. 
-
+ * [Galaxy NGS101](https://wiki.galaxyproject.org/Learn/GalaxyNGS101) - a collection of video tutorials detailing various stages of NGS analysis.

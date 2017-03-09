@@ -283,4 +283,3 @@ upgrade: $ hg pull -u -r a4113cc1cb5e
 * **[Performing de novo assemblies using the NBIC Galaxy instance](http://www.nbic.nl/uploads/media/de_novo_assemblies_on_NBIC_Galaxy_-_9_jan_2013.pdf)**, part of [de novo Assembly from NGS Data Course at NBIC](http://www.nbic.nl/education/nbic-phd-school/course-schedule/ngsdenovo/) released
 * [Slides and tutorials](http://bit.ly/W2U8W4) from Galaxy NGS training held at Roscoff are now available, and most (maybe all) are in English
 * [galaxy-vm-launcher absorbed into CloudBioLinux](https://github.com/chapmanb/cloudbiolinux/commit/7026231dad8e9e04236d768baa072275ec669fdf).
-

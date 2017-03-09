@@ -26,6 +26,3 @@ upgrade: % hg pull -u -r 949e4f5fa03a
 [Jennifer Jackson](/src/people/jennifer-jackson/index.md)
 
 [/Galaxy Team](/Galaxy Team)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2011-08-31</div>
-

@@ -43,4 +43,3 @@ If you are interested, please add your name below and/or send an email to [Brad 
 ## Questions?
 
 Send them to [Brad Langhorst](mailto:langhorst@neb DOT com).
-

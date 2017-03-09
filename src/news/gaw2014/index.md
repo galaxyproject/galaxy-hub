@@ -43,6 +43,3 @@ Submissions should clearly state whether they are for: poster or oral presentati
 Looking forward to seeing you all in Melbourne!
 
 [GAW 2014 Organising Committee](/src/events/gaw2014/index.md#organising-committee)
-
-<div class='newsItemFooter'>Posted to the [Galaxy News](/src/news/index.md) on 2014-01-17</div>
-

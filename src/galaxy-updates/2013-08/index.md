@@ -301,4 +301,3 @@ For more details on the new features, see the the [CHANGELOG](https://bitbucket.
 * [Announcement for 2013 ISCB Wikipedia competition](http://bit.ly/15eEzxy); The [Galaxy page](http://bit.ly/gxywp) is eligible.
 * Follow [Saket Choudhary's Google Summer of Code Galaxy project work on Blogspot](http://bit.ly/1abz1bv)
 * [bioblend 0.3.3](http://bit.ly/1brfjsL): CloudMan and Galaxy API library documentation at ReadTheDocs.
-

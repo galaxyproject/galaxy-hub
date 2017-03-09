@@ -26,4 +26,3 @@ More information about using Trackster can be found here: [Trackster](/src/Track
 ### ScatterPlot
 
 ### Phylogenetic Tree Visualization
-

@@ -12,4 +12,3 @@ See the [Galaxy Tutorial page](http://gmod.org/wiki/Galaxy Tutorial) at the [GMO
 * [You can customize the datatypes for a Galaxy instance](/src/admin/datatypes/Adding Datatypes/index.md)
 * [You can instantiate Galaxy on the cloud using CloudMan](/src/cloudman/index.md)
 * [You can find even more at the Galaxy Hub](/src/index.md)
-

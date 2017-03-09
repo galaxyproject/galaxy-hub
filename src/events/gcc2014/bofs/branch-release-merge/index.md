@@ -75,4 +75,3 @@ github or bitbucket. Both were appreciated, seems to be a question of taste as l
 ## Configuration Directories
 
 We discussed the possibility of replacing the configuration files by configuration directories. A customized setup will then require a specific file which will be integrated into the default setup.
-
