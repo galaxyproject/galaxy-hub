@@ -29,6 +29,7 @@ mixin renderEventRow(item)
             | #{item.speaker}
 
 block content
+    - var events_malleable = events.slice().reverse()
     div.col-md-12
         section.section-content
             h1 !{title}
@@ -43,7 +44,7 @@ block content
                         th Venue/Location
                         th Speaker(s)
                 tbody
-                    each item in events.reverse()
+                    each item in events_malleable
                         if item.date != undefined
                             if helpers.moment(item.date) >= helpers.moment(new Date()).subtract((item.days || 1), 'days')
                                 +renderEventRow(item)
@@ -56,7 +57,7 @@ block content
                         th Venue/Location
                         th Speaker(s)
                 tbody
-                    each item in events.reverse()
+                    each item in events_malleable.reverse()
                         if item.date != undefined
                             if helpers.moment(item.date) < helpers.moment(new Date()).subtract((item.days || 1), 'days')
                                 +renderEventRow(item)
@@ -68,4 +69,3 @@ block content
                 li: a(href="http://www.embo.org/events/calendar.html") EMBO Events Calendar
                 li: a(href="http://www.iscb.org/iscb-conference-events") International Society for Computational Biology Calendar
                 li: a(href="http://www.genomeweb.com/eventlisting") GenomeWeb Events Listing
-
