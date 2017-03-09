@@ -17,26 +17,26 @@ In no particular order:
 
 * *From [rnateam](https://toolshed.g2.bx.psu.edu/view/rnateam):*
   * [sortmerna](https://toolshed.g2.bx.psu.edu/view/rnateam/sortmerna): (Planemo upload) for repository https://github.com/bgruening/galaxytools/tree/master/tools/rna_tools/sortmerna commit 04cfb5475292e4fd1f7c0ca86d8d0d5e5f886c3d-dirty. SortMeRNA is a software designed to rapidly filter ribosomal RNA fragments from metatransriptomic data produced by next-generation sequencers. SortMeRNA_ is a software designed to rapidly filter ribosomal RNA fragments from metatransriptomic data produced by next-generation sequencers. It is capable of handling large RNA databases and sorting out all fragments matching to the database with high accuracy and specificity. http://bioinfo.lifl.fr/RNA/sortmerna/
-  * [mea](https://toolshed.g2.bx.psu.edu/view/rnateam/mea): (Planemo upload) commit 6f0b360c2f718f0d3bd436db0f89af3805d7c332-dirty. Maximum expected accuracy prediction 
+  * [mea](https://toolshed.g2.bx.psu.edu/view/rnateam/mea): (Planemo upload) commit 6f0b360c2f718f0d3bd436db0f89af3805d7c332-dirty. Maximum expected accuracy prediction
 
 * *From [saskia-hiltemann](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann):*
   * [virtual_normal_analysis](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann/virtual_normal_analysis): Compare variants to a large set of normal genomes Compare variants to a large set of normal genomes from healthy, unrelated individuals
-  * [igv_screenshot](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann/igv_screenshot) Create an IGV screenshot. Given the build, tracks, region, and viewing preferences, creates an IGV screenshot and outputs it as a png image. 
+  * [igv_screenshot](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann/igv_screenshot) Create an IGV screenshot. Given the build, tracks, region, and viewing preferences, creates an IGV screenshot and outputs it as a png image.
 
 * *From [anmoljh](https://toolshed.g2.bx.psu.edu/view/anmoljh):*
-  * [align_and_estimate_abundance](https://toolshed.g2.bx.psu.edu/view/anmoljh/align_and_estimate_abundance) align_and_estimate_abundance.pl utility from trinitynraseq package  
-  * [insilico_read_normalization](https://toolshed.g2.bx.psu.edu/view/anmoljh/insilico_read_normalization) insilico read normalization step before transcriptome assembly 
-  * [trinityrnaseq](https://toolshed.g2.bx.psu.edu/view/anmoljh/trinityrnaseq) De novo assembly of RNA-Seq data Using Trinity version (r20140717) 
+  * [align_and_estimate_abundance](https://toolshed.g2.bx.psu.edu/view/anmoljh/align_and_estimate_abundance) align_and_estimate_abundance.pl utility from trinitynraseq package
+  * [insilico_read_normalization](https://toolshed.g2.bx.psu.edu/view/anmoljh/insilico_read_normalization) insilico read normalization step before transcriptome assembly
+  * [trinityrnaseq](https://toolshed.g2.bx.psu.edu/view/anmoljh/trinityrnaseq) De novo assembly of RNA-Seq data Using Trinity version (r20140717)
 
 * *From [reditama](https://toolshed.g2.bx.psu.edu/view/reditama):*
-  * [smart_rda](https://toolshed.g2.bx.psu.edu/view/reditama/smart_rda) Workflow for  RNA-Seq differential expression analysis 
+  * [smart_rda](https://toolshed.g2.bx.psu.edu/view/reditama/smart_rda) Workflow for  RNA-Seq differential expression analysis
 
 * *From [lecorguille](https://toolshed.g2.bx.psu.edu/view/lecorguille):*
   * [xcms_group](https://toolshed.g2.bx.psu.edu/view/lecorguille/xcms_group) [W4M][GC-MS] XCMS R Package - Preprocessing - Group peaks from different samples together Part of the W4M project: http://workflow4metabolomics.org <br />
       XCMS: http://www.bioconductor.org/packages/release/bioc/html/xcms.html <br />
       Group peaks together across samples using overlapping m/z bins and calculation of smoothed peak distributions in chromatographic time.<br />
       BEWARE: this tool don't come with its script. You will need to install the dedicated package_xcms_w4m_script too
-  * [rdata_datatype](https://toolshed.g2.bx.psu.edu/view/lecorguille/rdata_datatype): (Planemo upload) R RData datatype 
+  * [rdata_datatype](https://toolshed.g2.bx.psu.edu/view/lecorguille/rdata_datatype): (Planemo upload) R RData datatype
   * [xcms_fillpeaks](https://toolshed.g2.bx.psu.edu/view/lecorguille/xcms_fillpeaks): (Planemo upload) [W4M][GC-MS] XCMS R Package - Preprocessing - Integrate areas of missing peaks Part of the W4M project: http://workflow4metabolomics.org <br />
       XCMS: http://www.bioconductor.org/packages/release/bioc/html/xcms.html <br />
       For each sample, identify peak groups where that sample is not represented. For each of those peak groups, integrate the signal in the region of that peak group and create a new peak.<br />
@@ -76,7 +76,7 @@ In no particular order:
   * [kraken2tax](https://toolshed.g2.bx.psu.edu/view/devteam/kraken2tax): (Planemo upload) for repository https://github.com/galaxyproject/tools-devteam/blob/master/tool_collections/taxonomy/kraken2tax/ commit f176c58ce66d9db715151061ea43912f0659afc0 Convert Kraken output to Galaxy taxonomy data. Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies. This tool will convert the output of Kraken to the format used by other Galaxy taxonomic tools
 
 * *From [damion](https://toolshed.g2.bx.psu.edu/view/damion):*
-  * [versioned_data](https://toolshed.g2.bx.psu.edu/view/damion/versioned_data) first version This tool enables retrieval of FASTA format databases (by date or version id) that can be set up in a number of archive formats.  As well one can trigger workflows like makeblastdb to generate BLAST databases.  Results can be cached for reuse by other users who make the same requests.  This tool can be used on a server both via the command line and via the Galaxy bioinformatics workflow platform using the "Versioned Data" tool. Different kinds of content are suited to different archiving technologies, so the system provides a few storage system choices.  Results are cached so that subsequent requests for the same versioned database or derived data (like a BLAST database) are immediately satisfied.
+  * [versioned_data](https://toolshed.g2.bx.psu.edu/view/damion/versioned_data) first version This tool enables retrieval of FASTA format databases (by date or version id) that can be set up in a number of archive formats. As well one can trigger workflows like makeblastdb to generate BLAST databases. Results can be cached for reuse by other users who make the same requests. This tool can be used on a server both via the command line and via the Galaxy bioinformatics workflow platform using the "Versioned Data" tool. Different kinds of content are suited to different archiving technologies, so the system provides a few storage system choices. Results are cached so that subsequent requests for the same versioned database or derived data (like a BLAST database) are immediately satisfied.
 
 * *From [tgac](https://toolshed.g2.bx.psu.edu/view/tgac):*
   * [hcluster_sg](https://toolshed.g2.bx.psu.edu/view/tgac/hcluster_sg): (Planemo upload) for repository https://github.com/TGAC/tgac-galaxytools/tree/master/tools/hcluster_sg commit 6ecf622ddfb33c9553673978787f0ecad8cf8c49 Hierarchically clustering on a sparse graph hcluster_sg is a tool for hierarchically clustering on a sparse graph.<br />
@@ -91,13 +91,13 @@ In no particular order:
 #### tool_dependency_definition
 
 * *From [anmoljh](https://toolshed.g2.bx.psu.edu/view/anmoljh):*
-  * [package_trinityrnaseq_r20140717](https://toolshed.g2.bx.psu.edu/view/anmoljh/package_trinityrnaseq_r20140717) Contains a tool dependency definition that downloads and compiles version r20140717 of trinity 
+  * [package_trinityrnaseq_r20140717](https://toolshed.g2.bx.psu.edu/view/anmoljh/package_trinityrnaseq_r20140717) Contains a tool dependency definition that downloads and compiles version r20140717 of trinity
 
 * *From [cmonjeau](https://toolshed.g2.bx.psu.edu/view/cmonjeau):*
-  * [package_stacks_1_18](https://toolshed.g2.bx.psu.edu/view/cmonjeau/package_stacks_1_18): Imported from capsule None Contains a tool dependency definition that downloads and compiles version 1.18 of Stacks Stacks is a software pipeline for building loci from short-read sequences, such as those generated on the Illumina platform. Stacks was developed to work with restriction enzyme-based data, such as RAD-seq, for the purpose of building genetic maps and conducting population genomics and phylogeography. 
+  * [package_stacks_1_18](https://toolshed.g2.bx.psu.edu/view/cmonjeau/package_stacks_1_18): Imported from capsule None Contains a tool dependency definition that downloads and compiles version 1.18 of Stacks Stacks is a software pipeline for building loci from short-read sequences, such as those generated on the Illumina platform. Stacks was developed to work with restriction enzyme-based data, such as RAD-seq, for the purpose of building genetic maps and conducting population genomics and phylogeography.
 
 * *From [lecorguille](https://toolshed.g2.bx.psu.edu/view/lecorguille):*
-  * [package_netcdf_4_3_3_1](https://toolshed.g2.bx.psu.edu/view/lecorguille/package_netcdf_4_3_3_1) Contains a tool dependency definition that downloads and compiles version 4.3.3.1 of netcdf.  NetCDF (network Common Data Form) is a set of software libraries and machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data. http://www.unidata.ucar.edu/downloads/netcdf/index.jsp <br />
+  * [package_netcdf_4_3_3_1](https://toolshed.g2.bx.psu.edu/view/lecorguille/package_netcdf_4_3_3_1) Contains a tool dependency definition that downloads and compiles version 4.3.3.1 of netcdf. NetCDF (network Common Data Form) is a set of software libraries and machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data. http://www.unidata.ucar.edu/downloads/netcdf/index.jsp <br />
       Repository-Maintainer: Bj\u00f6rn Gr\u00fcning Repository-Development: https://github.com/bgruening/galaxytools <br />
       Update of iuc package_netcdf_4_3 to 4.3.3.1 and addition of bin/ in the PATH
 

@@ -11,7 +11,7 @@ title: September 20, 2012 Galaxy Development News Brief
 
 <div class='left'><a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=50 /></a></div>
 
- **[getgalaxy.org](http://getgalaxy.org)** 
+ **[getgalaxy.org](http://getgalaxy.org)**
 
 * **new**: ` $ hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist `
 * **upgrade**: ` $ hg pull -u -r da9d740fce31 `
@@ -34,7 +34,7 @@ title: September 20, 2012 Galaxy Development News Brief
 ```
 
 
-  (b) 
+  (b)
 In **Bed** datatype definition:
 ```
 <converter file="bed_to_fli_converter.xml" target_datatype="fli"/>
@@ -60,9 +60,9 @@ With **[Boto](http://boto.cloudhackers.com)** bumped to **2.5.2**, a new and imp
 
 Other changes include a correction for rare instance ` udpate() ` issues that happens when Amazon doesn't have the instance fully registered before ` instance.update() ` is called. The **[CloudLaunch](https://main.g2.bx.psu.edu/cloudlaunch)** home page documentation has also been updated to explicitly state that instances are pay-for-use.
 
-Full instructions for getting started with a **Galaxy CloudMan Instance**, including setting up your **Amazon** [AWS](http://aws.amazon.com/), [EC2](http://aws.amazon.com/ec2/), and [S3](http://aws.amazon.com/s3/) account and services, can be found at **[http://usegalaxy.org/cloud](http://usegalaxy.org/cloud)**. 
+Full instructions for getting started with a **Galaxy CloudMan Instance**, including setting up your **Amazon** [AWS](http://aws.amazon.com/), [EC2](http://aws.amazon.com/ec2/), and [S3](http://aws.amazon.com/s3/) account and services, can be found at **[http://usegalaxy.org/cloud](http://usegalaxy.org/cloud)**.
 
-**[CloudLaunch](https://main.g2.bx.psu.edu/cloudlaunch)** is a quick way for direct access to your cloud services from the **[Galaxy](http://usegalaxy.org)** tool bar once an account is established. 
+**[CloudLaunch](https://main.g2.bx.psu.edu/cloudlaunch)** is a quick way for direct access to your cloud services from the **[Galaxy](http://usegalaxy.org)** tool bar once an account is established.
 
 <br />
 ***Access here***
@@ -96,7 +96,7 @@ Imagine you have a simple sh or R script you need to run quickly in Galaxy - wit
 
 * Optionally if you would like the now working script permanently frozen into an ordinary Galaxy tool, rerun with the "generate" option set, paste some useful help text for the user. The **Tool Factory** will run but this time will also create a new tool as a **Tool Shed** archive, complete with a functional test based on the sample data you supplied at generation, ready to upload to a new **Tool Shed** repository for installation and sharing. The **Galaxy Tool Shed** model now supports automated tool version control to help maintain analysis repeatability. See the **[Tool Shed](http://toolshed.g2.bx.psu.edu/)** repository for usage instructions and guidelines.
 
-* With the **Tool Factory** it is now possible, although possibly certifiably insane, to use Galaxy [as an IDE to develop python API scripts](https://bitbucket.org/fubar/galaxytoolfactory/wiki/galaxyide). Who needs eclipse? 
+* With the **Tool Factory** it is now possible, although possibly certifiably insane, to use Galaxy [as an IDE to develop python API scripts](https://bitbucket.org/fubar/galaxytoolfactory/wiki/galaxyide). Who needs eclipse?
 
 * The **Tool Factory** ia available for private clone installations from the main **[Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/)** as the **toolfactory** - see your local **Galaxy** admin menu.
 
@@ -143,11 +143,11 @@ For example, let's take a look at a Galaxy instance into which 2 revisions of a 
 
 [Tool Shed](/src/toolshed/index.md)
 * *Tool shed features for Galaxy tools*
-  * The primary intent of the tool shed is for sharing Galaxy tools, workflows and other useful Galaxy utilities.  Galaxy tools are generally developed within a local Galaxy environment, proven to be functionally correct within that environment, and then uploaded to a tool shed for sharing.  With a couple of exceptions, tool features are defined within the Galaxy framework, and have nothing to do with the tool shed. [Read more…](/src/toolshed-tool-features/index.md)
+  * The primary intent of the tool shed is for sharing Galaxy tools, workflows and other useful Galaxy utilities.  Galaxy tools are generally developed within a local Galaxy environment, proven to be functionally correct within that environment, and then uploaded to a tool shed for sharing.  With a couple of exceptions, tool features are defined within the Galaxy framework, and have nothing to do with the tool shed. [Read more…](/src/toolshed/tool-features/index.md)
 * *Pushing changes to a tool shed repository using hg from the command line*
   * When pushing changes to a repository in the tool shed using hg from the command line (e.g., **hg commit**, **hg push**), make sure your shell's version of ***Mercurial is at least version 2.2.3***.  **[Mercurial version 2.2.3](http://mercurial.selenic.com/)** includes features that enable the tool shed to *automatically generate the new repository metadata* when the changes have been pushed from the command line.
 * *Enhancements* & *Fixes*
-  * Enhancements to tool dependency installation when installing with a tool shed repository: multiple environment variables can now be set and a new "make_directory" tag is supported.  
+  * Enhancements to tool dependency installation when installing with a tool shed repository: multiple environment variables can now be set and a new "make_directory" tag is supported.
   * Fixes for displaying error message when displaying invalid tools in the tool shed.
   * Fix from *Bjorn Gruning* for telling the user which file is the offender if an uploaded tarball gets rejected in the tool shed.
   * Fix for getting updates for tool shed repositories installed into a local Galaxy instance.
@@ -166,12 +166,12 @@ For example, let's take a look at a Galaxy instance into which 2 revisions of a 
 <br />
 # API
 
-* Modified  **REST API** to support multipart/form-data requests, enabling large file upload. Contributed by Nuwan Goonasekera, see *[pull request 63](http://bitbucket.org/galaxy/galaxy-central/pull-request/59)*. 
+* Modified  **REST API** to support multipart/form-data requests, enabling large file upload. Contributed by Nuwan Goonasekera, see *[pull request 63](http://bitbucket.org/galaxy/galaxy-central/pull-request/59)*.
 
 <br />
 # Bug Fixes
 
-<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width=20 /></a></div> 
+<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width=20 /></a></div>
 * *General*
   * Fix bug in [__init__.py](http://bitbucket.org/galaxy/galaxy-central/changeset/3f12146d6d81e08f662ada2011a6973e4230512d) with respect to stdout, stderr, and exit code handling.
   * Fix [create_all_fasta_loc.py](https://bitbucket.org/galaxy/galaxy-central/changeset/8153e8d25009d71a523e0f2df24ed12922825d8f#chg-scripts/loc_files/create_all_fasta_loc.py) to work when `inspect_dir` is not set.
@@ -192,7 +192,7 @@ For example, let's take a look at a Galaxy instance into which 2 revisions of a 
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](/src/galaxy-team/index.md)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](/src/galaxy-team/index.md)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

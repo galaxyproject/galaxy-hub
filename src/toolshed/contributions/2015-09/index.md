@@ -18,12 +18,12 @@ In no particular order:
 
 * *From [mandorodriguez](https://toolshed.g2.bx.psu.edu/view/mandorodriguez):*
   * [concat_fasta_files](https://toolshed.g2.bx.psu.edu/view/mandorodriguez/concat_fasta_files): Concatenates fasta files you select from your history
-  * [concat_text_files](https://toolshed.g2.bx.psu.edu/view/mandorodriguez/concat_text_files): Concatenates any text based files you select from your history 
+  * [concat_text_files](https://toolshed.g2.bx.psu.edu/view/mandorodriguez/concat_text_files): Concatenates any text based files you select from your history
   * [fastqdump_paired](https://toolshed.g2.bx.psu.edu/view/mandorodriguez/fastqdump_paired): Downloads a set of paired reads by their accession number using fastq-dump tool from sra-toolkit. Fetches a set of forward and reverse reads via fastq-dump with the split 3 option.
 
 * *From [megan-shortridge](https://toolshed.g2.bx.psu.edu/view/megan-shortridge):*
-  * [degenerateprimerremoval_fastq](https://toolshed.g2.bx.psu.edu/view/megan-shortridge/degenerateprimerremoval_fastq): planemo upload for repository https://github.com/mshortr/degenerateprimerremoval_fastq degenerate primer removal tool 
-  * [degenerateprimerremoval](https://toolshed.g2.bx.psu.edu/view/megan-shortridge/degenerateprimerremoval): planemo upload for repository https://github.com/mshortr/degenerateprimerremoval degenerate primer removal tool for Fastq 
+  * [degenerateprimerremoval_fastq](https://toolshed.g2.bx.psu.edu/view/megan-shortridge/degenerateprimerremoval_fastq): planemo upload for repository https://github.com/mshortr/degenerateprimerremoval_fastq degenerate primer removal tool
+  * [degenerateprimerremoval](https://toolshed.g2.bx.psu.edu/view/megan-shortridge/degenerateprimerremoval): planemo upload for repository https://github.com/mshortr/degenerateprimerremoval degenerate primer removal tool for Fastq
 
 * *From [bgruening](https://toolshed.g2.bx.psu.edu/view/bgruening):*
   * [dotknot](https://toolshed.g2.bx.psu.edu/view/bgruening/dotknot): planemo upload for repository https://github.com/bgruening/galaxytools/tree/master/tools/rna/dotknot DotKnot is a heuristic method for pseudoknot prediction in a given RNA sequence DotKnot extracts stem regions from the secondary structure probability dot plot calculated by RNAfold. Recursive H-type pseudoknots and intramolecular kissing hairpins are constructed and their presence in the sequence is verified. The detected pseudoknots can then be further analysed using bioinformatics or laboratory techniques.
@@ -35,7 +35,7 @@ In no particular order:
 * [bamhash](https://toolshed.g2.bx.psu.edu/view/bgruening/bamhash): planemo upload for repository https://github.com/bgruening/galaxytools/tree/master/tools/bamhash c Hash BAM and FASTQ files to verify data integrity For each pair of reads in a BAM or FASTQ file we compute a hash value composed of the readname, whether it is first or last in pair, sequence and quality value. All the hash values are summed up so the result is independent of the ordering within the files. The result can be compared to verify that the pair of FASTQ files contain the same read information as the aligned BAM file.
 
 * *From [gandres](https://toolshed.g2.bx.psu.edu/view/gandres):*
-  * [sniplay_workflow](https://toolshed.g2.bx.psu.edu/view/gandres/sniplay_workflow): SNiPlay3 workflow 
+  * [sniplay_workflow](https://toolshed.g2.bx.psu.edu/view/gandres/sniplay_workflow): SNiPlay3 workflow
 
 * *From [mytest](https://toolshed.g2.bx.psu.edu/view/mytest):*
   * [ngsap2](https://toolshed.g2.bx.psu.edu/view/mytest/ngsap2): ngsap2
@@ -48,10 +48,10 @@ In no particular order:
 
 * *From [stheil](https://toolshed.g2.bx.psu.edu/view/stheil):*
   * [idba_ud_wrapper](https://toolshed.g2.bx.psu.edu/view/stheil/idba_ud_wrapper): Wrapper for the idba_ud binary. Wrapper for the idba_ud assembler only.
-  * [metavelvet_wrapper](https://toolshed.g2.bx.psu.edu/view/stheil/metavelvet_wrapper): The metavelvet wrapper. 
+  * [metavelvet_wrapper](https://toolshed.g2.bx.psu.edu/view/stheil/metavelvet_wrapper): The metavelvet wrapper.
 
 * *From [slegras](https://toolshed.g2.bx.psu.edu/view/slegras):*
-  * [sickle_1_33](https://toolshed.g2.bx.psu.edu/view/slegras/sickle_1_33): A windowed adaptive trimming tool for FASTQ files using quality 
+  * [sickle_1_33](https://toolshed.g2.bx.psu.edu/view/slegras/sickle_1_33): A windowed adaptive trimming tool for FASTQ files using quality
 
 * *From [avowinkel](https://toolshed.g2.bx.psu.edu/view/avowinkel):*
   * [gatk](https://toolshed.g2.bx.psu.edu/view/avowinkel/gatk): planemo upload for repository https://github.com/kaktus42/galaxytools/tree/master/tools/gatk  The Genome Analysis Toolkit in Version 3 The Genome Analysis Toolkit or GATK is a software package developed at the Broad Institute to analyze high-throughput sequencing data. The toolkit offers a wide variety of tools, with a primary focus on variant discovery and genotyping as well as strong emphasis on data quality assurance. Its robust architecture, powerful processing engine and high-performance computing features make it capable of taking on projects of any size. https://www.broadinstitute.org/gatk/about/
@@ -73,20 +73,20 @@ In no particular order:
 * [package_idba](https://toolshed.g2.bx.psu.edu/view/stheil/package_idba): Recipe for downloading and compiling idba. IDBA is a open source de novo assembler for next-generation short read sequences. It is fast, parallel and capable of assembling large scale genomic assembly such as human genome.
 
 * *From [anmoljh](https://toolshed.g2.bx.psu.edu/view/anmoljh):*
-  * [package_samtools_1_2](https://toolshed.g2.bx.psu.edu/view/anmoljh/package_samtools_1_2): Contains a tool dependency definition that downloads and installs version 1.2 of the SAMTools package. 
-  * [package_ncurses_5_9](https://toolshed.g2.bx.psu.edu/view/anmoljh/package_ncurses_5_9): Contains a tool dependency definition that downloads and compiles libncurses 5.9.  ncurses (new curses) is a programming library that provides an API which allows the programmer to write text-based user interfaces in a terminal-independent manner http://www.gnu.org/software/ncurses/
+  * [package_samtools_1_2](https://toolshed.g2.bx.psu.edu/view/anmoljh/package_samtools_1_2): Contains a tool dependency definition that downloads and installs version 1.2 of the SAMTools package.
+  * [package_ncurses_5_9](https://toolshed.g2.bx.psu.edu/view/anmoljh/package_ncurses_5_9): Contains a tool dependency definition that downloads and compiles libncurses 5.9. ncurses (new curses) is a programming library that provides an API which allows the programmer to write text-based user interfaces in a terminal-independent manner http://www.gnu.org/software/ncurses/
       Modified slightly from  Repository-Maintainer: Bj\u00f6rn Gr\u00fcning Repository-Development: https://github.com/bgruening/galaxytools
 
 * *From [slegras](https://toolshed.g2.bx.psu.edu/view/slegras):*
-  * [package_sickle_1_33](https://toolshed.g2.bx.psu.edu/view/slegras/package_sickle_1_33): Contains a tool dependency definition that downloads and installs version 1.33 of Sickle. 
+  * [package_sickle_1_33](https://toolshed.g2.bx.psu.edu/view/slegras/package_sickle_1_33): Contains a tool dependency definition that downloads and installs version 1.33 of Sickle.
 
 * *From [tiagoantao](https://toolshed.g2.bx.psu.edu/view/tiagoantao):*
   * [package_raxml_8_2_3](https://toolshed.g2.bx.psu.edu/view/tiagoantao/package_raxml_8_2_3): RAxML 8.2.3 RAxML version 8.2.3 - Phylogenetic inference
   * [package_python_3_5](https://toolshed.g2.bx.psu.edu/view/tiagoantao/package_python_3_5): Contains a tool dependency definition that downloads and compiles Python 3.5 Provides Python 3.5 inside Galaxy. This is based on the existing 3.4 definition upgraded to 3.5
 
 * *From [takadonet](https://toolshed.g2.bx.psu.edu/view/takadonet):*
-  * [package_tbl2asn_24_3](https://toolshed.g2.bx.psu.edu/view/takadonet/package_tbl2asn_24_3): Contains a tool dependency definition that downloads the binary version 23.7 of tbl2asn. tbl2asn is an automated bulk submission program 
-      tbl2asn is a program that automates the submission of sequence records to GenBank.  It uses many of the same functions as Sequin, but is driven entirely by data files, and records need no additional manual editing before submission.  Entire genomes, consisting of many chromosomes with feature annotation, can be processed in seconds using this method.<br />
+  * [package_tbl2asn_24_3](https://toolshed.g2.bx.psu.edu/view/takadonet/package_tbl2asn_24_3): Contains a tool dependency definition that downloads the binary version 23.7 of tbl2asn. tbl2asn is an automated bulk submission program
+      tbl2asn is a program that automates the submission of sequence records to GenBank. It uses many of the same functions as Sequin, but is driven entirely by data files, and records need no additional manual editing before submission. Entire genomes, consisting of many chromosomes with feature annotation, can be processed in seconds using this method.<br />
       Repository-Maintainer: Philip Mabon
 
 ### Select Updates

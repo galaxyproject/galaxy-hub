@@ -67,7 +67,7 @@ The Emboss 5.0.0 tools have been eliminated from the distribution and the Emboss
 
 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 sh ./scripts/migrate_tools/0002_tools.sh
-<sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup><sup>^</sup>^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 done
 After the installation process finishes, you can start your Galaxy server. As part of this installation process,entries for each of the following tool config files will be added to the file named ./migrated_tool_conf.xml, so thesetools will continue to be loaded into your tool panel. Because of this, existing entries for these files should beremoved from your file named ./tool_conf.xml, but only after the installation process finishes.
@@ -216,7 +216,7 @@ Our integrated_tool_panel.xml file has been automatically altered to look like t
 
 And starting our Galaxy server produces the same arrangement in our tool panel that we had before our defined Emboss tools were eliminated from the distribution and installed from the Tool Shed.
 
-<img src="/src/toolshed/migrating-tools-from-galaxy-distribution/simple_tool_panel_installed_emboss.png" alt="" height="343" />
+![](/src/toolshed/migrating-tools-from-galaxy-distribution/simple_tool_panel_installed_emboss.png)
 
 # Delaying execution of a tool migration stage
 
