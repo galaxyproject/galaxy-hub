@@ -26,7 +26,7 @@ mixin renderEventRow(item)
             if item.gtn
                 a( href="/teach/gtn/" )
                     img(style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member")
-            | #{item.speaker}
+            | #{item.contact}
 
 block content
     - var events_malleable = events.slice().reverse()
@@ -42,7 +42,7 @@ block content
                         th Date
                         th Topic/Event
                         th Venue/Location
-                        th Speaker(s)
+                        th Contact
                 tbody
                     each item in events_malleable
                         if item.date != undefined
@@ -55,7 +55,7 @@ block content
                         th Date
                         th Topic/Event
                         th Venue/Location
-                        th Speaker(s)
+                        th Contact
                 tbody
                     each item in events_malleable.reverse()
                         if item.date != undefined

@@ -7,7 +7,7 @@ continent: NA
 location: San Diego, California
 location_url: http://www.intlpag.org/
 gtn: y
-speaker: See web page
+contact: See web page
 image: PAG2017.png
 ---
 <div class="center"><a href='http://www.intlpag.org/'><img src="PAG2017.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="130" /></a></div>
