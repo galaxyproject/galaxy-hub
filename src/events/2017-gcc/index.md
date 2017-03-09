@@ -8,7 +8,7 @@ continent: EU
 image: gcc2017.png
 external_url: https://gcc2017.sciencesconf.org/
 gtn: y
-speaker: Galaxy community
+contact: Galaxy community
 ---
 
 [GCC2017](https://gcc2017.sciencesconf.org/) is the 8th annual gathering of the

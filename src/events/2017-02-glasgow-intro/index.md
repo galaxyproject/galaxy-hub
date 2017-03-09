@@ -8,7 +8,7 @@ location: University of Glasgow, Glasgow, United Kingdom
 location_url: http://www.polyomics.gla.ac.uk/index.html
 image: /images/logos/GlasgowPolyomics.jpg
 external_url: http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Feb17.html
-speaker: David Meltzer
+contact: David Meltzer
 ---
 
 Galaxy is an open, web-based platform for data intensive biological research
