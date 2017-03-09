@@ -8,7 +8,7 @@ location: ABRF 2017, San Diego, California, United States
 image: abrf2017.png
 location_url: http://conf.abrf.org/home
 external_url: http://conf.abrf.org/the-galaxy-platform
-speaker: Tim Griffin, Pratik Jagtap, James Johnson
+contact: Tim Griffin, Pratik Jagtap, James Johnson
 ---
 
 Metaproteomics analysis is emerging as an effective approach for identifying

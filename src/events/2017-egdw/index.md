@@ -6,7 +6,7 @@ tease: in Strasbourg
 continent: EU
 location: Strasbourg, France
 external_url: https://www.france-bioinformatique.fr/fr/evenements/EGDW2017
-speaker: Organisers
+contact: Organisers
 gtn: y
 ---
 

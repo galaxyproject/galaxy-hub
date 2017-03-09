@@ -9,7 +9,7 @@ location_url: http://biogenomics2017.org/
 external_url: https://gigaworkshops.eventbrite.com/
 gtn: y
 image: giga.jpg
-speaker: Mallory Freeberg, Mo Heydarian
+contact: Mallory Freeberg, Mo Heydarian
 ---
 
 The Galaxy workshop will will introduce genomic data analysis with a differential expression example, using RNA-Seq data and the Galaxy Platform.

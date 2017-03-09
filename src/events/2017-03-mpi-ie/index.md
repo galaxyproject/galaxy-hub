@@ -8,5 +8,5 @@ location: Max Planck Institute of Immunobiology and Epigenetics, Freiburg, Germa
 image: /images/logos/MaxPlanckIIE.png
 location_url: http://www.ie-freiburg.mpg.de/
 external_url: https://t.co/0dCEj9sLb8
-speaker: Björn Grüning, Devon Ryan, David Sanin
+contact: Björn Grüning, Devon Ryan, David Sanin
 ---

@@ -8,5 +8,5 @@ location: University of Colombo, Colombo, Sri Lanka
 image: /images/logos/u-colombo-small.jpg
 location_url: http://www.cmb.ac.lk/
 external_url: http://www.cmb.ac.lk/index.php/event/the-pulse-of-cloud-computing-with-bioinformatics-as-an-example/
-speaker: Nuwan Goonasekera, Enis Afgan
+contact: Nuwan Goonasekera, Enis Afgan
 ---
