@@ -16,7 +16,12 @@ mixin renderEventRow(item)
         td
             if item.continent
                 img(style="float:right;" src='/images/icons/' + item.continent + '.png')
-            | #{item.location}
+            if item.location_url
+                a(href=item.location_url)
+                    | #{item.location}
+            else
+                | #{item.location}
+
         td
             if item.gtn
                 a( href="/teach/gtn/" )
