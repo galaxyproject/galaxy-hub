@@ -8,7 +8,7 @@ location: NGS 2017 Glasgow, Glasgow, United Kingdom
 image: logonu.png
 location_url: https://biotexcel.com/event/ngs-2017-glasgow/
 external_url: https://biotexcel.com/event/ngs-2017-glasgow/#workshop
-speaker: Julian Augley, Graham Hamilton, David Meltzer and Mani Mudaliar
+contact: Julian Augley, Graham Hamilton, David Meltzer and Mani Mudaliar
 ---
 
 The workshop will use Galaxy (usegalaxy.org), an open source web-based platform

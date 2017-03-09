@@ -8,7 +8,7 @@ location: KOGO 2017, Yongpyong, Gangwon-do, South Korea
 location_url: http://www.kogo.or.kr/index.asp
 image: kogo.jpg
 external_url: http://www.kogo.or.kr/Conference/ConferenceView.asp?AC=2&CODE=CI20161201
-speaker: Mo Heydarian, Mallory Freeberg
+contact: Mo Heydarian, Mallory Freeberg
 gtn: y
 ---
 
